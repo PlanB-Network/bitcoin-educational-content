@@ -1,5 +1,5 @@
 ---
-name: Bahari ya Mining
+name: Ocean Mining
 
 description: Utangulizi wa Ocean Mining
 ---
@@ -125,10 +125,10 @@ Ili kuongeza mfanyakazi, anza kwa kuchagua kiolezo chako cha kuzuia. Chaguo hili
 
 
 
-- KIINI**: `stratum+tcp://core.mine.ocean.xyz:3202`
-- CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
-- BAHARI**: `stratum+tcp://mine.ocean.xyz:3334`
-- BILA DATA**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
+- **KIINI**: `stratum+tcp://core.mine.ocean.xyz:3202`
+- **CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
+- **BAHARI**: `stratum+tcp://mine.ocean.xyz:3334`
+- **BILA DATA**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
 
 
 Ifuatayo, kwa uwanja wa mtumiaji, ingiza Bitcoin Address unayomiliki. Hapa kuna orodha ya aina zinazolingana za Address:
@@ -152,9 +152,9 @@ Ukichagua kiolezo cha **OCEAN**, Bitcoin Address yako ni `bc1q2ed8zxq8njqsznkp7g
 
 
 
-- URL**: `stratum+tcp://mine.ocean.xyz:3334`
-- MTUMIAJI**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- NENOSIRI**: `x`
+- **URL**: `stratum+tcp://mine.ocean.xyz:3334`
+- **MTUMIAJI**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **NENOSIRI**: `x`
 
 
 Dakika chache baada ya kuanza Mining, utaweza kuona data yako kwenye tovuti ya Ocean kwa kutafuta Address yako.
@@ -273,7 +273,7 @@ Kwa kudhani ufunguo wako wa kibinafsi uko kwenye BlueWallet (unaweza kufanya viv
 ![signup](assets/15.webp)
 
 
-Kisha kwenye ***…** juu kulia.
+Kisha kwenye **…** juu kulia.
 
 
 ![signup](assets/15bis.webp)

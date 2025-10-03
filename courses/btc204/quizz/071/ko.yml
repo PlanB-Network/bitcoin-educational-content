@@ -1,0 +1,10 @@
+question: 자체 Bitcoin 노드를 사용하지 않을 때 연결을 숨기기 위해 취할 수 있는 중간 조치는 무엇인가요?
+answer: 토르 사용.
+wrong_answers:
+  - 방화벽 사용.
+  - 암호화된 Wallet 사용.
+  - 더블 Wallet 사용.
+explanation: |
+  감시의 위험을 제한하기 위한 중간 해결책은 Tor를 통해 연결을 숨길 수 있는 Wallet 소프트웨어를 사용하는 것입니다.
+  
+reviewed: true

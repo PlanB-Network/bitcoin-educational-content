@@ -101,9 +101,9 @@ Kwa upande wa anwani za IP, hii inatoa:
 
 
 
-- Mtandao wa nyumbani**: 192.168.1.0/24
-- Mtandao wa ushirika**: 192.168.100.0/24
-- Mtandao wa handaki ya WireGuard**: 192.168.110.0/24
+- **Mtandao wa nyumbani**: 192.168.1.0/24
+- **Mtandao wa ushirika**: 192.168.100.0/24
+- **Mtandao wa handaki ya WireGuard**: 192.168.110.0/24
 
 
 + IP Address ya Peer 1 (Windows) kwenye handaki: 192.168.110.2/24
@@ -117,7 +117,7 @@ Hayo tu ndiyo yapo! Hebu tushuke kwenye usanidi!
 
 
 
-**Kumbuka: kwa chaguomsingi, WireGuard hufanya kazi katika hali ya UDP kwenye **bandari 51820**.
+**Kumbuka: kwa chaguomsingi, WireGuard hufanya kazi katika hali ya UDP kwenye bandari 51820**.
 
 
 
@@ -219,10 +219,10 @@ Sehemu `[Interface]` inatumika kutangaza sehemu ya seva. Hapa kuna habari fulani
 
 
 
-- Address**: IP Address ya Interface WireGuard ndani ya handaki ya VPN (subnet tofauti na LAN ya mbali)
-- SaveConfig**: usanidi unahifadhiwa (na kulindwa) kwa muda mrefu kama Interface inafanya kazi.
-- ListenPort**: Lango la kusikiliza la WireGuard. Katika kesi hii, 51820 ndio bandari chaguo-msingi, lakini unakaribishwa kuibinafsisha
-- Ufunguo wa Kibinafsi**: thamani ya ufunguo wa faragha wa seva yetu (*wg-private.key*)
+- **Address**: IP Address ya Interface WireGuard ndani ya handaki ya VPN (subnet tofauti na LAN ya mbali)
+- **SaveConfig**: usanidi unahifadhiwa (na kulindwa) kwa muda mrefu kama Interface inafanya kazi.
+- **ListenPort**: Lango la kusikiliza la WireGuard. Katika kesi hii, 51820 ndio bandari chaguo-msingi, lakini unakaribishwa kuibinafsisha
+- **Ufunguo wa Kibinafsi**: thamani ya ufunguo wa faragha wa seva yetu (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Ongeza mistari hii mwishoni mwa faili ili **kuwezesha kinyago cha IP kwenye Inte
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Anza kwa kufungua programu ili kuunda handaki mpya. Ili kufanya hivyo, bofya kwe
 
 
 
-Dirisha la usanidi litafungua. Kila wakati usanidi mpya wa handaki unapoundwa, WireGuard hutengeneza jozi ya vitufe vya faragha/vya umma mahususi kwa usanidi huu. **Katika usanidi huu, tunahitaji kutangaza "rika", yaani seva ya mbali:
+Dirisha la usanidi litafungua. Kila wakati usanidi mpya wa handaki unapoundwa, WireGuard hutengeneza jozi ya vitufe vya faragha/vya umma mahususi kwa usanidi huu. **Katika usanidi huu, tunahitaji kutangaza "rika", yaani seva ya mbali:**
 
 
 
@@ -523,15 +523,15 @@ Katika picha:
 
 
 
-**Maelezo machache kuhusu kizuizi cha [Peer]:
+**Maelezo machache kuhusu kizuizi cha [Peer]:**
 
 
 
 
 
-- PublicKey**: huu ndio ufunguo wa umma wa seva ya WireGuard Debian 11 (unaweza kupata thamani yake na amri ya "*sudo wg*")
-- Inaruhusiwa**: hizi ni anwani za IP / subneti zinazofikiwa kupitia mtandao huu wa WireGuard VPN, katika hali hii subnet maalum ya WireGuard VPN yangu (*192.168.110.0/24*) na LAN yangu ya mbali (*192.168.100.0/24*)
-- Mwisho**: hii ni IP Address ya seva pangishi ya Debian 11, kwa kuwa hii ndio sehemu yetu ya unganisho ya WireGuard (utahitaji kubainisha IP ya umma Address)
+- **PublicKey**: huu ndio ufunguo wa umma wa seva ya WireGuard Debian 11 (unaweza kupata thamani yake na amri ya "*sudo wg*")
+- **Inaruhusiwa**: hizi ni anwani za IP / subneti zinazofikiwa kupitia mtandao huu wa WireGuard VPN, katika hali hii subnet maalum ya WireGuard VPN yangu (*192.168.110.0/24*) na LAN yangu ya mbali (*192.168.100.0/24*)
+- **Mwisho**: hii ni IP Address ya seva pangishi ya Debian 11, kwa kuwa hii ndio sehemu yetu ya unganisho ya WireGuard (utahitaji kubainisha IP ya umma Address)
 
 
 
@@ -577,7 +577,7 @@ AllowedIPs = 192.168.110.2/32
 
 
 
-Kizuizi hiki cha [Rika] kina ufunguo wa umma wa Kompyuta ya Windows 10 (**PublicKey**) na IP Address ya Interface ya Kompyuta (**AllowedIPs**): seva itawasiliana katika kichuguu hiki cha WireGuard ili tu kuwasiliana na mteja wa Windows, kwa hivyo thamani "**168.168.32.2/2".
+Kizuizi hiki cha [Rika] kina ufunguo wa umma wa Kompyuta ya Windows 10 (**PublicKey**) na IP Address ya Interface ya Kompyuta (**AllowedIPs**): seva itawasiliana katika kichuguu hiki cha WireGuard ili tu kuwasiliana na mteja wa Windows, kwa hivyo thamani "**168.168.32.2/2**".
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Sasa kwa kuwa usanidi uko tayari, tunaweza kuianzisha kutoka kwa Windows PC. Ili kufanya hivyo, katika mteja wa "**WireGuard**", bofya kitufe cha "**Amilisha**": uunganisho utabadilika ** kutoka "Zima" hadi "On"**, lakini hiyo haimaanishi kuwa itafanya kazi. Yote inategemea ikiwa usanidi wako ni sahihi au la. **Muunganisho unapoanzishwa, mashine zetu mbili huwasiliana kupitia Interface WireGuard iliyosanidiwa kila upande!
+Sasa kwa kuwa usanidi uko tayari, tunaweza kuianzisha kutoka kwa Windows PC. Ili kufanya hivyo, katika mteja wa "**WireGuard**", bofya kitufe cha "**Amilisha**": uunganisho utabadilika **kutoka "Zima" hadi "On"**, lakini hiyo haimaanishi kuwa itafanya kazi. Yote inategemea ikiwa usanidi wako ni sahihi au la. **Muunganisho unapoanzishwa, mashine zetu mbili huwasiliana kupitia Interface WireGuard iliyosanidiwa kila upande!**
 
 
 
@@ -663,7 +663,7 @@ Kutoka kwa Kompyuta yangu ya mbali, ninaweza kubandika IP Address ya Interface W
 
 
 
-Kutoka kwa Kompyuta yangu ya mbali iliyounganishwa kwenye WireGuard VPN yangu, niliweza kufikia seva ya faili na kuhamisha faili kupitia [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), ili kuona kiwango cha uhamisho. **Nikiwa na WireGuard, ninashinda hadi 45 Mb/s, ambayo ni nzuri, kwa kuwa niko kwenye WiFi.
+Kutoka kwa Kompyuta yangu ya mbali iliyounganishwa kwenye WireGuard VPN yangu, niliweza kufikia seva ya faili na kuhamisha faili kupitia [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), ili kuona kiwango cha uhamisho. **Nikiwa na WireGuard, ninashinda hadi 45 Mb/s, ambayo ni nzuri, kwa kuwa niko kwenye WiFi.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Unaweza kuona kwamba hii pia huwezesha chaguo la "**Ua swichi".
+Unaweza kuona kwamba hii pia huwezesha chaguo la **"Ua swichi"**.
 
 
 
@@ -783,4 +783,4 @@ Nyaraka za ziada:
 
 
 
-**WireGuard VPN yako iko na inafanya kazi! Hongera!
+**WireGuard VPN yako iko na inafanya kazi! Hongera!**

@@ -427,15 +427,15 @@ See peegeldus paneb meid küsima hüperinflatsiooni traditsioonilise definitsioo
 ### Hüperinflatsiooni definitsioon Rahvusvahelise Raamatupidamisstandardite Nõukogu (IASB) järgi
 
 Niisiis, kui palju hüperinflatsiooni juhtumeid kokku on?
-Üldised hüperinflatsiooni definitsioonid, nagu see, mille esitas Kagan, öeldes, et kuine inflatsioonimäär on 50%, võivad mõnikord olla segadusttekitavad või lihtsustatud. Näiteks kahte riiki, mis kogevad vastavalt 1000% ja 3000% aastast inflatsioonimäära, võidakse tajuda erinevalt sõltuvalt selle inflatsiooni kuulisest jaotusest. Kui ükski kuu ei ületa Kagan'i definitsiooni kohast 50% lävendit, ei oleks need riigid hüperinflatsiooni seisundis. See lähenemine võib seega viia hüperinflatsiooni klassifikatsiooni anomaaliateni, eriti kui võrrelda aasta jooksul kumulatiivset inflatsiooni.
+Üldised hüperinflatsiooni definitsioonid, nagu see, mille esitas Cagan, öeldes, et kuine inflatsioonimäär on 50%, võivad mõnikord olla segadusttekitavad või lihtsustatud. Näiteks kahte riiki, mis kogevad vastavalt 1000% ja 3000% aastast inflatsioonimäära, võidakse tajuda erinevalt sõltuvalt selle inflatsiooni kuulisest jaotusest. Kui ükski kuu ei ületa Cagan'i definitsiooni kohast 50% lävendit, ei oleks need riigid hüperinflatsiooni seisundis. See lähenemine võib seega viia hüperinflatsiooni klassifikatsiooni anomaaliateni, eriti kui võrrelda aasta jooksul kumulatiivset inflatsiooni.
 
 ![pilt](assets/fr/038.webp)
 
-- Kagan'i töö, "Monetary Dynamics of Hyperinflation", mis pakub hüperinflatsiooni põhjalikku analüüsi.
-- Bernoldi raamat, mis uurib 30 erinevat hüperinflatsiooni perioodi, laiendades seeläbi analüüsi ulatust.
+- Cagan'i töö, "Monetary Dynamics of Hyperinflation", mis pakub hüperinflatsiooni põhjalikku analüüsi.
+- Bernholzi raamat, mis uurib 30 erinevat hüperinflatsiooni perioodi, laiendades seeläbi analüüsi ulatust.
 - Davidi isiklik pangatähtede kogu 36 hüperinflatsiooni perioodist, võimaldades käegakatsutavat ja ajaloolist mõistmist.
-- Hanky Crossi tabel (2012. aasta versioon, uuendatud 2016. aastal Venezuelaga), mis loetleb 57 hüperinflatsiooni perioodi Kagan'i definitsiooni alusel.
-  On märkimisväärne, et teatud ajaloolised kõrge inflatsiooni perioodid ei ole klassikaliste hüperinflatsiooni tabelite hulka arvatud, sageli rangete klassifitseerimiskriteeriumide tõttu. Näiteks Ameerika Iseseisvussõja ajal novembris 1779 ja Ameerika Kodusõja ajal märtsis 1864 olid kuised inflatsioonimäärad vastavalt 47,4% ja 40%. Need määrad, kuigi kõrged, ei ületa Kagan'i poolt ette nähtud 50% läve, jättes need perioodid hüperinflatsiooni juhtumitena klassifitseerimata. See väljajätmine illustreerib jäikade definitsioonide piiranguid ja rõhutab vajadust peenema lähenemise järele, et mõista hüperinflatsiooni kogu selle keerukuses.
+- Hanky Crossi tabel (2012. aasta versioon, uuendatud 2016. aastal Venezuelaga), mis loetleb 57 hüperinflatsiooni perioodi Cagan'i definitsiooni alusel.
+  On märkimisväärne, et teatud ajaloolised kõrge inflatsiooni perioodid ei ole klassikaliste hüperinflatsiooni tabelite hulka arvatud, sageli rangete klassifitseerimiskriteeriumide tõttu. Näiteks Ameerika Iseseisvussõja ajal novembris 1779 ja Ameerika Kodusõja ajal märtsis 1864 olid kuised inflatsioonimäärad vastavalt 47,4% ja 40%. Need määrad, kuigi kõrged, ei ületa Cagan'i poolt ette nähtud 50% läve, jättes need perioodid hüperinflatsiooni juhtumitena klassifitseerimata. See väljajätmine illustreerib jäikade definitsioonide piiranguid ja rõhutab vajadust peenema lähenemise järele, et mõista hüperinflatsiooni kogu selle keerukuses.
 
 ## Weimari vs Zimbabwe sarnasused
 
@@ -736,7 +736,7 @@ Slaidil vasakul on redenominatsiooni aastad, uue valuuta nimi ja vahetuskurss va
 
 ![image](assets/fr/052.webp)
 
-Slaidi paremal küljel on inflatsiooni graafik. Punased nooled tähistavad hüperinflatsiooni aastaid, mida Kagan'i kriteeriumi järgi määratletakse kui 50% inflatsioonimäära kuus. See kriteerium võib mõnikord viia ebamääraste tõlgendusteni, aastatega, millel on kõrge inflatsioonimäär, kuid mis ei vasta hüperinflatsiooni rangele definitsioonile.
+Slaidi paremal küljel on inflatsiooni graafik. Punased nooled tähistavad hüperinflatsiooni aastaid, mida Cagan'i kriteeriumi järgi määratletakse kui 50% inflatsioonimäära kuus. See kriteerium võib mõnikord viia ebamääraste tõlgendusteni, aastatega, millel on kõrge inflatsioonimäär, kuid mis ei vasta hüperinflatsiooni rangele definitsioonile.
 Tuleb märkida, et redenominatsioon, inflatsiooni perioodidel, on valitsuste poolt tavaliselt võetav meede. Siiski ei lahenda see inflatsiooni või hüperinflatsiooni aluseks olevat probleemi. See on ainult viis valuuta ümber nimetamiseks ja nullide eemaldamiseks, ilma et tegelikult puudutataks hüperinflatsiooni põhjust: rahapakkumise laienemist. Hilisemas videos arutame tegelikke lahendusi hüperinflatsiooni probleemi lahendamiseks ja kõrvaldamiseks. Selles sarjas rõhutame lihtsa redenominatsiooni tagajärgi ilma piisavate reformideta: inflatsioon püsib.
 Pärast Argentinat katab meie uuring Brasiiliat, Boliiviat, Peruu, Nicaraguat ja Venezuelat. Me uurime nendes riikides toimunud rahareformide ajalugu.
 
@@ -831,14 +831,14 @@ Järelduseks, hüperinflatsioon on vaid üks majanduslike väljakutsete aspekt. 
 
 ### Kuidas lõpetada mõõdukas ja kõrge inflatsioon
 
-Mainitud järeldused on tuletatud raamatust "Monetary Regime and Inflation" autorilt Bernold. Bernoldi sõnul on ainus viis inflatsiooni lõpetamiseks viia läbi rahareform ja kehtestada valitsusele piirangud. Need piirangud hõlmavad institutsiooni, nagu keskpank, loomist, mis tegutseb sõltumatult valitsuse poliitilistest otsustest. Kõrge ja hüperinflatsioon on sageli eelarvepuudujääkide rahastamise tulemus rahaloome kaudu. Mõõduka inflatsiooni korral on oluline vähendada rahapakkumise kasvu. Bernold soovitab ka, et see rahapakkumise kasv peaks olema suhteline naaberriikidega. Üllatav punkt on see, et kõrge või hüperinflatsiooni perioodidel võib rahapakkumise koguväärtus tegelikult väheneda. Selle olukorra silmatorkav näide on Zimbabwe.
+Mainitud järeldused on tuletatud raamatust "Monetary Regime and Inflation" autorilt Bernholz. Bernholzi sõnul on ainus viis inflatsiooni lõpetamiseks viia läbi rahareform ja kehtestada valitsusele piirangud. Need piirangud hõlmavad institutsiooni, nagu keskpank, loomist, mis tegutseb sõltumatult valitsuse poliitilistest otsustest. Kõrge ja hüperinflatsioon on sageli eelarvepuudujääkide rahastamise tulemus rahaloome kaudu. Mõõduka inflatsiooni korral on oluline vähendada rahapakkumise kasvu. Bernholz soovitab ka, et see rahapakkumise kasv peaks olema suhteline naaberriikidega. Üllatav punkt on see, et kõrge või hüperinflatsiooni perioodidel võib rahapakkumise koguväärtus tegelikult väheneda. Selle olukorra silmatorkav näide on Zimbabwe.
 
 ### Vastuintuitiivsed lahendused
 
 Zimbabwe uurimisel märgati, et 10 triljonit rahaühikut kaotasid kogu oma väärtuse. Weimaris oli võimalik ühe päevaga trükkida kahe kolmandiku kogunimiväärtusest 65 miljardit rahaühikut. See näitab, kuidas rahapakkumist saab devalveerida. Olukorra parandamiseks on vajalik rahapakkumist oluliselt suurendada, et jõuda sobivale tasemele. Seejärel on hädavajalik rahareform. Kõrge inflatsiooni olukorras on see reform vältimatu, kuid tuleb tagada, et ringluses oleks piisavalt raha. Pärast seda sammu saab valitsusele kehtestada piiranguid.
-Bernoldi tähelepanekute kohaselt ei võta institutsioonid nagu IMF ja Maailmapank inflatsiooniprobleemide lahendamisel alati õiget strateegiat. Mõnel juhul, kui riigil on vaja oma rahapakkumist suurendada, püüavad need institutsioonid seda vähendada. Võtmeks on jõuda adekvaatsele rahatasemele ja seejärel piirata selle kasvu, vältides nii valitsuse kulutuste rahastamist raha loomise kaudu.
+Bernholzi tähelepanekute kohaselt ei võta institutsioonid nagu IMF ja Maailmapank inflatsiooniprobleemide lahendamisel alati õiget strateegiat. Mõnel juhul, kui riigil on vaja oma rahapakkumist suurendada, püüavad need institutsioonid seda vähendada. Võtmeks on jõuda adekvaatsele rahatasemele ja seejärel piirata selle kasvu, vältides nii valitsuse kulutuste rahastamist raha loomise kaudu.
 
-Huvitav aspekt, mille Bernold tõstatas, on see, et rahareformi edu sõltub mitte ainult selle tehnilisest asjakohasusest, vaid ka usaldusest, mida rahvastik sellesse paneb. Mõned hästi kavandatud reformid võivad ebaõnnestuda, sest avalikkus ei usalda neid, samas kui teised, halvasti kavandatud, võivad õnnestuda, sest rahvastik usaldab neid. Seega on tajumine ja avalik usaldus olulised elemendid rahareformi edu või ebaõnnestumise juures.
+Huvitav aspekt, mille Bernholz tõstatas, on see, et rahareformi edu sõltub mitte ainult selle tehnilisest asjakohasusest, vaid ka usaldusest, mida rahvastik sellesse paneb. Mõned hästi kavandatud reformid võivad ebaõnnestuda, sest avalikkus ei usalda neid, samas kui teised, halvasti kavandatud, võivad õnnestuda, sest rahvastik usaldab neid. Seega on tajumine ja avalik usaldus olulised elemendid rahareformi edu või ebaõnnestumise juures.
 
 - Zimbabwes võeti inflatsiooni vastu võitlemiseks kasutusele dollariseerimine, mis tähendab, et nad võtsid kasutusele USA dollari või naaberriikide muud valuutad. See lähenemine takistab valitsusel meelevaldselt raha trükkimist.
 - Saksamaal oli lahenduseks luua uus valuuta, Rentenmark. See valuuta oli tagatud Riigi territoriaalsete varadega ja see strateegia osutus tõhusaks.

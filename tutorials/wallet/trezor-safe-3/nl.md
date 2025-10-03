@@ -271,7 +271,7 @@ Safe 3 zal uw Mnemonic zin creëren met behulp van de willekeurige nummergenerat
 
 
 
-***Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet wordt alleen gebruikt op de Testnet en wordt aan het eind van de tutorial verwijderd
+**Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet wordt alleen gebruikt op de Testnet en wordt aan het eind van de tutorial verwijderd**
 
 
 

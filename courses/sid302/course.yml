@@ -1,6 +1,7 @@
 id: 6d26bcff-51a3-405f-bcdd-9af8297ce727
 topic: protocol
 subtopic: sidechain
+type: practice
 level: advanced
 hours: 8
 
@@ -17,121 +18,136 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.25
+    reward: 2.26
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.25
+    reward: 2.26
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 1.12
+    reward: 1.13
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: fr
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - ElSombrero13
-    reward: 1.12
+    reward: 1.13
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.68
+    reward: 3.7
   - language: it
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - glrq
-    reward: 1.12
+    reward: 1.13
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.4
+    reward: 4.43
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.25
+    reward: 2.26
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.4
+    reward: 4.43
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.68
+    reward: 3.7
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.11
+    reward: 5.15
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 1.48
+    reward: 1.49
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.68
+    reward: 3.7
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.25
+    reward: 2.26
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.97
+    reward: 2.98
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.7
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.98
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.43
 tags:
   - sidechains
   - technical-analysis

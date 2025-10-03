@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.87
+    reward: 12.86
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -45,17 +45,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.87
+    reward: 12.86
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.38
+    reward: 21.37
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.87
+    reward: 12.86
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -70,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.87
+    reward: 12.86
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -85,12 +85,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.38
+    reward: 21.37
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.89
+    reward: 29.88
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -110,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.38
+    reward: 21.37
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -120,12 +120,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.87
+    reward: 12.86
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 17.12
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.37
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.12
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 25.63
 tags:
   - lightning
   - software

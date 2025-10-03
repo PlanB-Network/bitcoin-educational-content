@@ -1,5 +1,5 @@
-question: La famille de Spinoza était-elle ?
-answer: De confession juive.
+question: De quelle confession était la famille de Spinoza?
+answer: Juive.
 wrong_answers:
   - Catholique.
   - Protestante.

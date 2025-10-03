@@ -1,0 +1,9 @@
+question: 활성 HTLC이 있는 채널이 강제로 닫히면 어떻게 되나요?
+answer: HTLC는 Commitment 트랜잭션에 출력으로 포함됩니다.
+wrong_answers:
+  - HTLC는 자동으로 취소됩니다.
+  - 자금은 이전 노드에 재분배됩니다.
+  - HTLC가 만료될 때까지 채널을 닫을 수 없습니다.
+explanation: |
+  강제 종료 중에는 보류 중인 HTLC가 Commitment 트랜잭션의 출력으로 표시되므로 정의된 조건에 따라 실행 또는 반환이 보장됩니다.
+reviewed: true

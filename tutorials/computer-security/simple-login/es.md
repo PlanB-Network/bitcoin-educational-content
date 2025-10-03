@@ -18,7 +18,7 @@ Cuando se utiliza una dirección de correo electrónico personal para cada inici
 Los desarrolladores de herramientas de código abierto han creado una serie de suites de aplicaciones, nacidas precisamente para que los usuarios recuperen un poco de privacidad: seguirán iniciando sesión, pero utilizando un alias en lugar de la herramienta que revela su identidad privada.
 
 
-El más sencillo de los que hemos probado personalmente y seguimos usando es [Simple Login](https://simplelogin.io/).
+El más sencillo, entre los que he probado personalmente y que aún estoy probando, es precisamente [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

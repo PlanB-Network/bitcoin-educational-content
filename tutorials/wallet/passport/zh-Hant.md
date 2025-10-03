@@ -301,7 +301,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-當然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**_
+當然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。
 
 
 為這句話做一份實體備份。
@@ -377,7 +377,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ![Image](assets/fr/42.webp)
 
 
-裝置*」子功能表提供您自訂螢幕亮度、設定自動鎖定前的延遲、變更 PIN 碼或重新命名裝置等選項。
+裝置」子功能表提供您自訂螢幕亮度、設定自動鎖定前的延遲、變更 PIN 碼或重新命名裝置等選項。
 
 
 ![Image](assets/fr/43.webp)

@@ -1,1147 +1,1805 @@
 ---
-name: Frédéric Bastiat, Vida, Influências e Pensamento Econômico
-goal: Obter um entendimento profundo sobre a vida, influências, opositores e teorias econômicas de Frédéric Bastiat, um economista e pensador francês do século 19.
-objectives:
-  - Aprender sobre a vida e contexto histórico de Frédéric Bastiat.
-  - Entender as influências intelectuais em Bastiat.
-  - Examinar os opositores ideológicos de Bastiat.
-  - Analisar os sofismas econômicos segundo Bastiat.
+name: Frédéric Bastiat, vida, influências e pensamento económico
+goal: Compreender profundamente a vida, as influências, os opositores e as teorias económicas de Frédéric Bastiat, um economista e pensador francês do século XIX.
+objectives: 
+
+  - Conheça a vida e o contexto histórico de Frédéric Bastiat.
+  - Compreender as influências intelectuais sobre Bastiat.
+  - Examinar os adversários ideológicos de Bastiat.
+  - Analisar os sofismas económicos segundo Bastiat.
+
 ---
 
-# Uma Jornada pelo Mundo de Frédéric Bastiat
+# Uma viagem ao mundo de Frédéric Bastiat
 
-Este curso, liderado por Damien Theillier, convida você a mergulhar no mundo de Frédéric Bastiat, um economista e filósofo francês cujas ideias continuam a influenciar o pensamento econômico contemporâneo. Por meio de 21 vídeos, Damien Theillier explora a vida de Bastiat, suas influências intelectuais, seus opositores ideológicos, bem como suas teorias econômicas.
 
-O curso começa com uma introdução detalhada à vida e ao contexto histórico de Bastiat, antes de examinar os pensadores que marcaram seu pensamento, como Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden. Em seguida, o curso analisa os opositores de Bastiat, incluindo Rousseau, a educação clássica, o protecionismo, o socialismo e Proudhon.
+Este curso, conduzido por Damien Theillier, convida-o a mergulhar no mundo de Frédéric Bastiat, um economista e filósofo francês cujas ideias continuam a influenciar o pensamento económico contemporâneo. Através de 21 vídeos, Damien Theillier explora a vida de Bastiat, as suas influências intelectuais, os seus adversários ideológicos, bem como as suas teorias económicas.
 
-Uma parte importante do curso é dedicada aos sofismas econômicos denunciados por Bastiat, como "O que se vê e o que não se vê", "A petição dos fabricantes de velas", o saque por meio da tributação e a distinção entre as duas morais econômicas. O curso também aborda as harmonias econômicas defendidas por Bastiat, incluindo o milagre do mercado, o poder da responsabilidade e a verdadeira solidariedade.
 
-Finalmente, o curso conclui com uma reflexão sobre "A Lei", abordando conceitos-chave como o direito à propriedade, o saque legal e o papel do estado. A conclusão do curso revisita o legado de Frédéric Bastiat e sua influência duradoura na economia moderna.
+O curso começa com uma introdução detalhada à vida e ao contexto histórico de Bastiat, antes de examinar os pensadores que marcaram o seu pensamento, como Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden. Em seguida, o curso analisa os adversários de Bastiat, incluindo Rousseau, a educação clássica, o protecionismo, o socialismo e Proudhon.
 
-Junte-se a Damien Theillier nesta enriquecedora exploração do pensamento de Frédéric Bastiat e descubra como suas ideias podem iluminar os debates econômicos e políticos atuais.
+
+Uma parte importante do curso é dedicada aos sofismas económicos denunciados por Bastiat, tais como "O que se vê e o que não se vê", "A petição dos fabricantes de velas", a pilhagem através da tributação e a distinção entre as duas morais económicas. O curso também aborda as harmonias económicas defendidas por Bastiat, incluindo o milagre do mercado, o poder da responsabilidade e a verdadeira solidariedade.
+
+
+Por fim, o curso termina com uma reflexão sobre "O Direito", abordando conceitos-chave como o direito de propriedade, a pilhagem legal e o papel do Estado. A conclusão do curso revisita o legado de Frédéric Bastiat e a sua influência duradoura na economia moderna.
+
+
+Junte-se a Damien Theillier nesta enriquecedora exploração do pensamento de Frédéric Bastiat e descubra como as suas ideias podem iluminar os actuais debates económicos e políticos.
+
 
 +++
 
 # Introdução
 
+
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
+
 ## Visão geral do curso
+
 <chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
 
-O objetivo deste curso é proporcionar a você uma compreensão profunda da vida, das influências intelectuais, dos adversários ideológicos e das teorias econômicas de Frédéric Bastiat. Ao longo desta jornada estruturada, você descobrirá como suas ideias moldaram o pensamento econômico e continuam a influenciar os debates atuais.
 
-**Seção 1: Introdução**  
-Começaremos com uma visão geral de Frédéric Bastiat, um gênio pouco conhecido da economia. Você conhecerá sua vida, seu percurso intelectual e o contexto histórico em que ele desenvolveu seu pensamento. Compreender esse contexto é essencial para captar totalmente o alcance de seus escritos e teorias.
+O objetivo deste curso é proporcionar-lhe uma compreensão profunda da vida, das influências intelectuais, dos adversários ideológicos e das teorias económicas de Frédéric Bastiat. Através desta viagem estruturada, descobrirá como as suas ideias moldaram o pensamento económico e continuam a influenciar os debates actuais.
 
-**Seção 2: As influências**  
-Prosseguiremos com a análise dos pensadores que influenciaram o pensamento econômico de Frédéric Bastiat. Você descobrirá como figuras importantes como Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden contribuíram para seu desenvolvimento intelectual e lançaram as bases de suas reflexões sobre o livre comércio e a economia de mercado.
 
-**Seção 3: Os adversários**  
-Em seguida, abordaremos as críticas de Bastiat aos seus opositores ideológicos. Seja Rousseau, a educação clássica, o protecionismo, o socialismo ou Proudhon, você entenderá por que Bastiat considerava essas doutrinas obstáculos ao progresso econômico e social e como ele respondeu a seus argumentos com lógica convincente.
+**Secção 1: Introdução
 
-**Seção 4: Os sofismas econômicos**  
-Esta parte é dedicada aos sofismas econômicos denunciados por Bastiat, incluindo os famosos "*O que se vê e o que não se vê*" e "*O pedido dos fabricantes de velas*". Analisaremos como ele utilizou a sátira e a análise rigorosa para desmascarar os erros econômicos comuns de sua época — que permanecem atuais até hoje.
+Começaremos com uma visão geral de Frédéric Bastiat, um génio subestimado da economia. Ficará a conhecer a sua vida, o seu percurso intelectual e o contexto histórico em que desenvolveu o seu pensamento. Compreender este contexto é essencial para compreender plenamente o alcance dos seus escritos e teorias.
 
-**Seção 5: As harmonias econômicas**  
-Aqui, você descobrirá a visão positiva de Bastiat sobre a economia. Exploraremos conceitos como o milagre do mercado, o poder da responsabilidade individual e a distinção entre solidariedade verdadeira e falsa. Bastiat via a economia como um sistema coerente no qual o interesse pessoal bem compreendido gera benefícios para o bem comum.
 
-**Seção 6: A Lei**  
-Para encerrar o curso, mergulharemos em sua obra-prima, "*A Lei*", na qual Bastiat expõe suas reflexões sobre o direito de propriedade, o saque legalizado e o papel limitado do Estado. Você entenderá por que esse ensaio é considerado um dos manifestos mais fortes em defesa da liberdade individual e da economia de mercado.
+**Secção 2: Influências
 
-Pronto para descobrir como as ideias de Frédéric Bastiat ainda ressoam hoje? Junte-se a nós nesta jornada intelectual que pode transformar sua compreensão de economia!
+Analisaremos os pensadores que moldaram o pensamento económico de Frédéric Bastiat. Ficará a saber como figuras importantes como Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden contribuíram para o seu desenvolvimento intelectual, lançando as bases para a sua reflexão sobre o comércio livre e a economia de mercado.
 
-## Bastiat: Um gênio desconhecido
+
+**Secção 3: Oponentes
+
+Em seguida, exploraremos as críticas de Bastiat aos seus adversários ideológicos. Quer se trate de Rousseau, da educação clássica, do protecionismo, do socialismo ou de Proudhon, compreenderá porque é que Bastiat considerava estas doutrinas como obstáculos ao progresso económico e social e como respondia aos seus argumentos com uma lógica afiada.
+
+
+**Secção 4: Falácias económicas
+
+Esta secção é dedicada às falácias económicas expostas por Bastiat, incluindo as famosas "*O que se vê e o que não se vê*" e "*A petição dos fabricantes de velas*". Examinaremos a forma como Bastiat demonstrou habilmente, através da sátira e de uma análise rigorosa, os erros económicos comuns do seu tempo, que continuam a ser relevantes hoje em dia.
+
+
+**Secção 5: Harmonias económicas
+
+Aqui, descobrirá a visão positiva de Bastiat sobre a economia. Iremos Address conceitos como o milagre do mercado, o poder da responsabilidade individual e a distinção entre verdadeira e falsa solidariedade. Bastiat via a economia como um sistema coerente onde o interesse próprio bem compreendido beneficia o bem comum. Exploraremos porquê.
+
+
+**Secção 6: A Lei
+
+Para concluir este curso, aprofundaremos a obra principal de Bastiat, "*A Lei*", onde ele apresenta as suas reflexões sobre os direitos de propriedade, a pilhagem legal e o papel limitado do Estado. Compreenderá porque é que este ensaio é considerado um dos manifestos mais convincentes a favor da liberdade individual e da economia de mercado.
+
+
+Pronto para descobrir como as ideias de Frédéric Bastiat continuam a ter eco nos dias de hoje? Junte-se a nós nesta viagem intelectual que poderá desafiar a sua compreensão da economia!
+
+
+## Bastiat: Um génio subestimado
+
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-Este curso é uma introdução a Frédéric Bastiat, um gênio não reconhecido e um farol para os nossos tempos. Nesta breve introdução, tentarei ajudá-lo a descobrir quem foi Frédéric Bastiat e quais são os principais temas que abordaremos durante esta série.
+
+Este curso é uma introdução a Frédéric Bastiat, um génio não reconhecido e um farol para os nossos tempos. Nesta breve introdução, tentarei ajudá-lo a descobrir quem foi Frédéric Bastiat e quais são os principais temas que iremos abordar durante esta série.
+
 ![image](assets/en/001.webp)
 
-De fato, Frédéric Bastiat, que nasceu em 1801 e viveu durante a primeira metade do século 19, permaneceu por algum tempo um autor importante. E então, gradualmente, ele desapareceu e hoje, ninguém ouve falar dele, ninguém sabe quem ele é. No entanto, paradoxalmente, este autor foi traduzido para muitos idiomas, incluindo italiano, russo, espanhol e inglês.
+
+De facto, Frédéric Bastiat, que nasceu em 1801 e viveu durante a primeira metade do século XIX, permaneceu durante algum tempo um autor importante. Depois, pouco a pouco, foi desaparecendo e, atualmente, ninguém ouve falar dele, ninguém sabe quem ele é. No entanto, paradoxalmente, este autor foi traduzido em muitas línguas, incluindo italiano, russo, espanhol e inglês.
+
 
 ![image](assets/en/002.webp)
-Descobriu-se que, após a Segunda Guerra Mundial, um de seus livros foi publicado nos Estados Unidos. Tornou-se muito famoso, a ponto de o próprio Ronald Reagan dizer que era seu livro favorito, e este pequeno livro é chamado "A Lei". Bastiat é, portanto, um dos dois autores franceses mais famosos nos Estados Unidos, sendo o outro bem conhecido na França também, Alexis de Tocqueville.
+
+
+Acontece que, depois da Segunda Guerra Mundial, um dos seus livros foi publicado nos Estados Unidos. Tornou-se muito famoso, ao ponto de o próprio Ronald Reagan ter dito que era o seu livro favorito, e esse pequeno livro chama-se "A Lei" Bastiat é, portanto, um dos dois autores franceses mais famosos nos Estados Unidos, sendo o outro também muito conhecido em França, Alexis de Tocqueville.
+
+
 ![image](assets/en/003.webp)
 
-_(Mercado em Mugron nas Landes, a cidade de Bastiat)_
+(Mercado de Mugron, nas Landes, cidade de Bastiat)
 
-Portanto, um gênio não reconhecido, mas também uma luz para os nossos tempos. De fato, Frédéric Bastiat, que nasceu em Bayonne, viveu inicialmente parte de sua vida nas Landes, onde gerenciou uma propriedade agrícola que herdou e levou uma vida, em última análise, como um empreendedor. E então, muito cedo, ele se interessou por economia, viajou para a Inglaterra, conheceu Richard Cobden, que era um líder do movimento de livre comércio. Bastiat ficou fascinado por esse movimento, estava convencido de que o livre comércio era uma solução para a França e decidiu, a partir de então, tentar difundir suas ideias na França. Ele escreveu artigos que foram muito bem-sucedidos e mudou-se para Paris para dirigir um jornal chamado na época de Journal des économistes.
+
+Portanto, um génio não reconhecido, mas também uma luz para o nosso tempo. De facto, Frédéric Bastiat, nascido em Baiona, viveu uma parte da sua vida nas Landes, onde geriu uma propriedade agrícola que herdara e levou uma vida de empresário. Depois, muito cedo, interessou-se pela economia, viajou para Inglaterra e conheceu Richard Cobden, líder do movimento do comércio livre. Bastiat ficou fascinado por este movimento, estava convencido de que o comércio livre era uma solução para a França e decidiu depois tentar difundir as suas ideias em França. Escreveu artigos que tiveram muito sucesso e mudou-se para Paris para dirigir um jornal chamado, na altura, Journal des économistes.
+
 
 ![image](assets/en/004.webp)
 
-Ele também era um filósofo e um pensador sobre a sociedade, ordem social, justiça, lei, um pensador dos direitos. E nesse sentido, podemos dizer que Bastiat é uma luz para os nossos tempos. E eu gostaria de concluir com isso. Ele é alguém que tentou entender o funcionamento do mercado político. Claro, ele também é um defensor da economia de mercado, para quem, em última análise, a economia de mercado é a melhor maneira de criar riqueza. Mas, além disso, e é aqui que ele é não reconhecido, ele entendeu os mecanismos do mercado político.
-Quando foi eleito deputado, foi durante a Segunda República, e a partir desse ponto, eram as pessoas que faziam as leis. Naquela época, Bastiat testemunhou uma espécie de inflação de leis em todas as direções, incluindo a criação de serviços públicos, direitos sociais, impostos, etc.
 
-E ele percebeu que, fundamentalmente, nada havia realmente mudado. As pessoas dispunham da propriedade alheia por meio da votação e da lei, o que ele chamou de pilhagem legal. Esse fenômeno da pilhagem legal estava no centro de seu trabalho, especialmente neste curto texto que escreveu perto do fim de sua vida, "A Lei", onde ele contrasta a pilhagem legal com a propriedade, o direito à propriedade. Ele mostra que, fundamentalmente, a verdadeira solução para o problema social é a liberdade, ou seja, propriedade, o controle sobre si mesmo e os frutos do próprio trabalho.
+Foi também um filósofo e um pensador da sociedade, da ordem social, da justiça, do direito, um pensador dos direitos. E, nesse sentido, podemos dizer que Bastiat é uma luz para o nosso tempo. E gostaria de concluir com isto. Ele é alguém que tentou compreender o funcionamento do mercado político. É claro que é também um defensor da economia de mercado, para quem, em última análise, a economia de mercado é a melhor forma de criar riqueza. Mas para além disso, e é aqui que ele não é reconhecido, ele compreendeu os mecanismos do mercado político.
 
-Neste curso, viajaremos juntos pelo pensamento de Frédéric Bastiat, começando pelas influências dos autores que o moldaram muito cedo em sua juventude, depois olharemos para seus sofismas econômicos e, finalmente, concluiremos com este grande texto, "A Lei", que nos introduzirá à análise do mercado político, à análise da sociedade.
 
-## A Vida e o Contexto Histórico
+![image](assets/en/005.webp)
+
+
+Quando foi eleito deputado, foi durante a Segunda República e, a partir daí, era o povo que fazia as leis. Nessa altura, Bastiat assiste a uma espécie de inflação de leis em todos os sentidos, incluindo a criação de serviços públicos, direitos sociais, impostos, etc.
+
+
+![image](assets/en/006.webp)
+
+
+---
+
+> **OFICINAS NACIONAIS**
+> **AGENDA.**
+> Considerando que os trabalhadores inscritos nas Oficinas Nacionais solicitaram, com razão, que o trabalho disponível fosse distribuído entre eles da forma mais equitativa e justa possível;
+> Considerando que só existe trabalho para 16.000 homens, e que o número de homens inscritos ultrapassa os 50.000;
+> Fica acordado que, até nova ordem e na pendência de melhores disposições, cada empresa trabalhará dois dias por semana a partir de segunda-feira, dia 17.
+> _O Comissário da República, Diretor das Oficinas Nacionais,_
+> **Émile THOMAS.**
+
+---
+
+E apercebeu-se de que, fundamentalmente, nada tinha mudado. As pessoas dispunham dos bens dos outros através do voto e da lei, o que ele chamou de pilhagem legal. Este fenómeno da pilhagem legal esteve no centro da sua obra, especialmente neste pequeno texto que escreveu no final da sua vida, "A Lei", onde contrasta a pilhagem legal com a propriedade, o direito à propriedade. Mostra que, no fundo, a verdadeira solução para o problema social é a liberdade, ou seja, a propriedade, o controlo sobre si próprio e sobre os frutos do seu trabalho.
+
+
+Neste curso, percorreremos juntos o pensamento de Frédéric Bastiat, partindo das influências dos autores que o formaram desde muito cedo na sua juventude, depois analisaremos os seus sofismas económicos e, finalmente, concluiremos com este grande texto, "A Lei", que nos introduzirá na análise do mercado político, na análise da sociedade.
+
+
+## A vida e o contexto histórico
+
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-Em 1844, Frédéric Bastiat fez uma viagem de negócios à Espanha. Após estadias em Madrid, Sevilha, Cádiz e Lisboa, decidiu embarcar para Southampton e visitar a Inglaterra. Em Londres, teve a oportunidade de participar de reuniões da Liga Anti-Corn Law, cujo trabalho ele havia acompanhado de longe. Ele conheceu os principais líderes desta Associação, incluindo Richard Cobden, que se tornaria seu amigo.
+
+Em 1844, Frédéric Bastiat fez uma viagem de negócios a Espanha. Depois de ter passado por Madrid, Sevilha, Cádis e Lisboa, decide embarcar para Southampton e visitar Inglaterra. Em Londres, teve a oportunidade de assistir às reuniões da Liga Anti-Corn Law, cujos trabalhos tinha seguido à distância. Conhece os principais dirigentes desta associação, entre os quais Richard Cobden, que se tornará seu amigo.
+
+
 ![image](assets/en/007.webp)
 
-Foi lá que o curso de sua vida mudaria radicalmente. Ele mesmo relata que sua vocação como economista foi decidida naquele momento. Ao retornar à França, tinha apenas uma ideia em mente: fazer a França tomar consciência do movimento liberal que agitava a Inglaterra.
-Frédéric Bastiat nasceu em Bayonne em 30 de junho de 1801. Órfão aos 9 anos, prosseguiu seus estudos no colégio católico de Sorèze. Ele era dotado para línguas, aprendendo inglês, espanhol e até basco. No entanto, não se motivava com seus estudos e decidiu contra fazer o Baccalaureate, escolhendo em vez disso trabalhar no negócio de importação-exportação de seu tio em Bayonne.
 
-Em 1825, herdou uma propriedade agrícola de seu avô, que geriu como um "gentleman-farmer", em suas próprias palavras. Foi então que ele encontrou pela primeira vez os problemas causados pela falta de uma definição clara de direitos de propriedade. Decidiu tornar-se juiz de paz em sua cidade de Mugron, no coração das Landes, um cruzamento comercial e fluvial entre os portos de Bordeaux e Bayonne. Mais tarde, foi eleito membro do Conselho Geral das Landes.
+Foi aí que o rumo da sua vida mudou radicalmente. Ele próprio conta que a sua vocação de economista foi decidida nesse momento. Quando regressou a França, só tinha uma ideia em mente: dar a conhecer à França o movimento liberal que agitava a Inglaterra.
+
+Frédéric Bastiat nasceu em Bayonne, a 30 de junho de 1801. Órfão aos 9 anos, prosseguiu os seus estudos no colégio católico de Sorèze. Era dotado para as línguas, aprendendo inglês, espanhol e até basco. No entanto, não se sentia motivado pelos seus estudos e decidiu não fazer o bacharelato, optando por trabalhar na empresa de importação e exportação do seu tio em Baiona.
+
+
+Em 1825, herdou do avô uma propriedade agrícola, que geriu como "gentleman-farmer", segundo as suas próprias palavras. Foi nessa altura que se deparou com os problemas causados pela falta de uma definição clara do direito de propriedade. Decide tornar-se juiz de paz na sua cidade de Mugron, no coração das Landes, encruzilhada comercial e fluvial entre os portos de Bordéus e de Baiona. Mais tarde, foi eleito membro do Conselho Geral das Landes.
+
 
 ![image](assets/en/008.webp)
 
-Rapidamente desenvolveu uma paixão pela economia política e estudou as obras de Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer e Charles Comte. Ele lia jornais ingleses, e foi lá que soube da existência de uma liga inglesa pelo livre comércio.
+
+Rapidamente desenvolveu uma paixão pela economia política e estudou as obras de Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer e Charles Comte. Lia jornais ingleses e foi aí que tomou conhecimento da existência de uma liga inglesa para o comércio livre.
+
 
 ![image](assets/en/009.webp)
 
-_(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
+(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)
 
-Ao retornar da Inglaterra, escreveu um artigo intitulado: "Sobre a Influência dos Tarifários Inglês e Francês no Futuro dos Dois Povos", que enviou ao Journal des Économistes em Paris. O artigo apareceu na edição de outubro de 1844, e foi um completo sucesso. Todos admiravam sua argumentação poderosa e incisiva, seu estilo sóbrio e elegante.
+
+Quando regressou de Inglaterra, escreveu um artigo intitulado: "Sobre a influência das tarifas inglesas e francesas no futuro dos dois povos", que enviou para o Journal des Économistes, em Paris. O artigo foi publicado na edição de outubro de 1844 e foi um sucesso absoluto. Todos admiraram a sua argumentação poderosa e incisiva, o seu estilo sóbrio e elegante.
+
 
 ![image](assets/en/010.webp)
 
-O Journal des Économistes então lhe pediu mais artigos, e vários membros da Sociedade de Economia Política, notavelmente Horace Say, filho de Jean-Baptiste Say, e Michel Chevalier, um professor renomado, o felicitaram, encorajando-o a continuar com eles no trabalho de disseminar verdades econômicas. Isso marcou o início de uma nova vida em Paris.
 
-Ele publicou inicialmente a série de Sofismas Econômicos, na qual atacava os protecionistas com ousadia e ironia. Em Paris, até começou um curso sobre economia política em uma sala privada, frequentado avidamente pela elite estudantil.
+O Journal des Économistes pede-lhe então mais artigos, e vários membros da Sociedade de Economia Política, nomeadamente Horace Say, filho de Jean-Baptiste Say, e Michel Chevalier, professor de renome, felicitam-no, encorajando-o a prosseguir com eles na obra de divulgação das verdades económicas. É o início de uma nova vida em Paris.
+
+
+Publicou a primeira série de Sofismas Económicos, em que atacava os proteccionistas com ousadia e ironia. Em Paris, chegou mesmo a iniciar um curso de economia política numa sala privada, frequentado com entusiasmo pela elite estudantil.
+
 
 ![image](assets/en/011.webp)
 
-No ano seguinte, fundou a "Associação pelo Livre Comércio" na França e lançou-se na luta contra o protecionismo na França. Ele arrecadou fundos, criou uma revisão semanal e deu palestras por todo o país.
-A primeira reunião ocorreu em Bordeaux em 23 de fevereiro de 1846, durante a qual a Associação de Bordeaux pelo Comércio Livre foi estabelecida. Logo, o movimento se espalhou por toda a França. Em Paris, um núcleo inicial foi formado entre os membros da Sociedade de Economistas, aos quais se juntaram deputados, industriais e comerciantes. Grupos significativos também se formaram em Marselha, Lyon e Le Havre. ![image](assets/en/005.webp)
 
-A Revolução de Fevereiro de 1848 derrubou a monarquia de Louis-Philippe, conhecida como a Monarquia de Julho (1830-1848), e viu o advento da Segunda República. Bastiat foi então eleito como membro da assembleia legislativa como deputado por Landes. Ele se sentou no centro-esquerda, com Alexis de Tocqueville, entre os monarquistas e os socialistas. Lá, ele se esforçou para defender liberdades individuais como as liberdades civis e se opôs a todas as políticas restritivas, quer viessem da direita ou da esquerda. Ele foi eleito vice-presidente da Comissão de Finanças e constantemente se esforçou para lembrar seus colegas deputados desta simples verdade, muitas vezes esquecida nos parlamentos:
+No ano seguinte, fundou a "Associação para o Comércio Livre" em França e lançou-se na luta contra o protecionismo em França. Angariou fundos, criou uma revista semanal e deu palestras em todo o país.
 
-> Não se pode dar a alguns, por lei, sem ser obrigado a tirar de outros por outra lei.
+A primeira reunião teve lugar em Bordéus, em 23 de fevereiro de 1846, durante a qual foi criada a Associação de Bordéus para o Comércio Livre. Rapidamente, o movimento espalhou-se por toda a França. Em Paris, foi formado um primeiro núcleo entre os membros da Sociedade dos Economistas, ao qual aderiram deputados, industriais e comerciantes. Também se formaram grupos importantes em Marselha, Lyon e Le Havre.
 
-Quase todos os seus livros e ensaios foram escritos durante os últimos seis anos de sua vida, de 1844 a 1850. Em 1850, Bastiat escreveu duas de suas obras mais famosas: A Lei e uma série de panfletos intitulada O que se Vê e o que Não se Vê. A Lei foi traduzida para muitos idiomas estrangeiros, incluindo inglês, alemão, espanhol, russo e italiano.
+
+![image](assets/en/005.webp)
+
+
+A Revolução de fevereiro de 1848 derrubou a monarquia de Louis-Philippe, conhecida como Monarquia de julho (1830-1848), e assistiu ao advento da Segunda República. Bastiat foi então eleito membro da Assembleia Legislativa como deputado pelas Landes. Situa-se no centro-esquerda, com Alexis de Tocqueville, entre os monárquicos e os socialistas. Aí, esforça-se por defender as liberdades individuais, como as liberdades civis, e opõe-se a todas as políticas restritivas, quer venham da direita ou da esquerda. Foi eleito vice-presidente da Comissão de Finanças e esforçou-se constantemente por lembrar aos seus colegas deputados esta verdade simples, muitas vezes esquecida nos parlamentos:
+
+
+> Não se pode dar a uns, por lei, sem ser obrigado a tirar a outros por outra lei.
+
+Quase todos os seus livros e ensaios foram escritos durante os últimos seis anos da sua vida, de 1844 a 1850. Em 1850, Bastiat escreveu duas das suas obras mais famosas: A Lei e uma série de panfletos intitulados O que se vê e o que não se vê. A Lei foi traduzida para muitas línguas estrangeiras, incluindo inglês, alemão, espanhol, russo e italiano.
+
 
 ![image](assets/en/012.webp)
 
-Ele morreu em Roma em 1850, de tuberculose. Ele está enterrado na Igreja de São Luís dos Franceses em Roma.
+
+Morreu em Roma em 1850, vítima de tuberculose. Está sepultado na Igreja de São Luís dos Franceses, em Roma.
+
 
 ![image](assets/en/013.webp)
 
+
 # Influências
+
 
 <partId>4d312b17-5740-5d33-8309-015e2b59b6dd</partId>
 
+
 ## Adam Smith e Jean-Baptiste Say
+
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-Em economia, Bastiat sempre reconheceu sua dívida para com Adam Smith e Jean-Baptiste Say. Aos 26 anos, ele escreveu para um de seus amigos: "Eu nunca li sobre esses assuntos, mas essas quatro obras, Smith, Say, Destutt e o Censor."
+
+Em economia, Bastiat sempre reconheceu a sua dívida para com Adam Smith e Jean-Baptiste Say. Aos 26 anos, escreveu a um dos seus amigos: "Nunca li sobre estes assuntos senão estas quatro obras, Smith, Say, Destutt e o Censor"
+
 
 ![image](assets/en/014.webp)
 
-_(Jean-Baptiste Say e Adam Smith)_
-A economia política, conforme concebida por Adam Smith e J.-B. Say, é encapsulada em uma única palavra: liberdade. Liberdade de comércio, liberdade individual, comércio livre e iniciativa livre. O comércio livre foi defendido pela primeira vez pelos fisiocratas, como François Quesnay e Vincent de Gournay, e depois por Adam Smith, que sintetizou suas ideias com suas próprias observações. Finalmente, no final do século 18, Jean-Baptiste Say esclareceu e corrigiu alguns pontos da doutrina de seu mestre Adam Smith em seu magistral Tratado de Economia Política.
+(Jean-Baptiste Say e Adam Smith)
+
+
+A economia política, tal como foi concebida por Adam Smith e J.-B. Say, resume-se numa única palavra: liberdade. Liberdade de comércio, liberdade individual, livre comércio e livre iniciativa. O comércio livre foi defendido primeiro pelos fisiocratas, como François Quesnay e Vincent de Gournay, e depois por Adam Smith, que sintetizou as suas ideias com as suas próprias observações. Finalmente, no final do século XVIII, Jean-Baptiste Say clarificou e corrigiu alguns pontos da doutrina do seu mestre Adam Smith no seu magistral Tratado de Economia Política.
+
 
 ![image](assets/en/015.webp)
 
-_(Say, Destutt de Tracy, Quesnay, de Gournay)_
-Adam Smith estava interessado na prosperidade, não como um fim em si mesmo, mas como um meio para a elevação moral dos indivíduos. Para ele, a riqueza das nações consiste na riqueza dos indivíduos. Se você quer uma nação próspera, diz Adam Smith, deixe os indivíduos agirem livremente. E o mercado funciona porque permite que todos expressem suas preferências e persigam seus interesses.
+(Say, Destutt de Tracy, Quesnay, de Gournay)
+
+
+Adam Smith estava interessado na prosperidade, não como um fim em si mesmo, mas como um meio para a elevação moral dos indivíduos. Para ele, a riqueza das nações consiste na riqueza dos indivíduos. Se quisermos uma nação próspera, diz Adam Smith, devemos deixar que os indivíduos actuem livremente. E o mercado funciona porque permite a cada um exprimir as suas preferências e perseguir os seus interesses.
+
+
 ![image](assets/en/016.webp)
 
-A grande novidade dos economistas modernos no alvorecer do século 18 é que eles estão interessados em cada indivíduo com a vontade de restaurar sua capacidade de ação enquanto pensam em como conter paixões e conflitos. O homem naturalmente quer melhorar sua sorte e a de seus entes queridos através da troca de bens e serviços.
 
-O que Adam Smith mostra é que só se pode servir ao próprio interesse servindo ao interesse dos outros.
+A grande novidade dos economistas modernos, no início do século XVIII, é o facto de se interessarem por cada indivíduo com vontade de restaurar a sua capacidade de ação, pensando em como conter as paixões e os conflitos. O homem quer naturalmente melhorar a sua sorte e a dos seus entes queridos através do Exchange de bens e serviços.
 
-> Dê-me o que preciso, e você terá de mim o que vocês mesmos precisam. (...) Não é da benevolência do açougueiro, do cervejeiro ou do padeiro que esperamos nosso jantar, mas do cuidado deles com o próprio interesse.
+
+O que Adam Smith mostra é que só se pode servir o próprio interesse servindo o interesse dos outros:
+
+
+> Dai-me o que preciso, e tereis de mim o que precisais. (...) Não é da benevolência do talhante, do cervejeiro ou do padeiro que esperamos o nosso jantar, mas da sua atenção aos seus próprios interesses.
 
 ![image](assets/en/017.webp)
 
----
-
->« O esforço natural de cada indivíduo para melhorar a sua própria condição... é tão poderoso que, sozinho e sem qualquer ajuda, é não apenas capaz de conduzir a sociedade à riqueza e à prosperidade, mas também de superar uma centena de obstáculos impertinentes que a insensatez das leis humanas frequentemente impõe às suas operações. »  
->_A Riqueza das Nações_  
->_Livro IV, Capítulo V_
 
 ---
 
-A troca é um jogo de soma positiva. O que um ganha, o outro também ganha. Isso difere da redistribuição política onde sempre há um vencedor e um perdedor. Se considerarmos a escola inglesa, para Smith, para Ricardo e para Locke antes deles, o valor está ligado ao trabalho. Para Marx, é o mesmo.
+> "O esforço natural de cada indivíduo para melhorar a sua própria condição... é tão poderoso, que é sozinho, e sem qualquer ajuda, não só capaz de levar a sociedade à riqueza e prosperidade, mas também de ultrapassar uma centena de obstruções impertinentes com as quais a loucura das leis humanas muitas vezes sobrecarrega as suas operações."
+> _A Riqueza das Nações_
+> _Livro IV, Capítulo V_
+
+---
+
+O Exchange é um jogo de soma positiva. O que um ganha, o outro também ganha. Difere assim da redistribuição política, em que há sempre um vencedor e um vencido. Se considerarmos a escola inglesa, para Smith, para Ricardo e para Locke antes deles, o valor está ligado ao trabalho. Para Marx, é a mesma coisa.
+
 
 ![image](assets/en/018.webp)
 
 _(Marx, Ricardo, Smith, Locke)_
 
-Por outro lado, Bastiat admitirá com Jean-Baptiste Say que a utilidade é a verdadeira fundação do valor. O trabalho não cria valor. A escassez também não. Tudo decorre da utilidade. De fato, ninguém concorda em pagar por um serviço a menos que o considere útil. Só se produz utilidade.
-Mas Bastiat também nuanciou Say neste ponto. Não se trata da utilidade que está nas coisas, trata-se da utilidade relativa dos serviços. "Valor é a razão de dois serviços trocados", segundo suas próprias palavras. Portanto, o valor é subjetivo, e a única maneira de compreender as preferências dos indivíduos é observar seu comportamento em um mercado livre. O mercado revela preferências individuais e é o grande regulador da sociedade através da troca.
 
-A economia obedece a uma série de leis simples derivadas do comportamento humano. Uma delas, chamada "Lei de Say", é a seguinte: "Produtos e serviços são trocados por produtos e serviços." Sua ideia é que nações e indivíduos se beneficiam de um aumento no nível de produção porque oferece maiores oportunidades para trocas mutuamente benéficas.
+Por outro lado, Bastiat admitirá com Jean-Baptiste Say que a utilidade é o verdadeiro fundamento do valor. O trabalho não cria valor. A escassez também não. Tudo decorre da utilidade. De facto, ninguém aceita pagar por um serviço se não o considerar útil. Só se produz utilidade.
+
+Mas Bastiat também matizou Say neste ponto. Não se trata da utilidade das coisas, mas sim da utilidade relativa dos serviços. "O valor é o rácio de dois serviços trocados", segundo as suas próprias palavras. Portanto, o valor é subjetivo e a única forma de compreender as preferências dos indivíduos é observar o seu comportamento num mercado livre. O mercado revela as preferências individuais e é o grande regulador da sociedade através do Exchange.
+
+
+A economia obedece a uma série de leis simples derivadas do comportamento humano. Uma delas, chamada "Lei de Say", é a seguinte: "Produtos e serviços são trocados por produtos e serviços" A sua ideia é que as nações e os indivíduos beneficiam de um aumento do nível de produção porque este oferece mais oportunidades para trocas mutuamente benéficas.
+
 
 ![image](assets/en/019.webp)
 
----
 
->Liberdade individual = Harmonia social
+De facto, os produtos só são comprados em antecipação dos serviços que o comprador espera: Compro um disco para a música que vou ouvir, compro um bilhete de cinema para o filme que vou ver. E num Exchange, cada parte decide porque considera que pode obter mais serviços daquilo que adquire do que daquilo de que abdica. Neste contexto, o dinheiro é apenas um bem intermediário, que compensa um serviço prestado e abre outros serviços.
 
----
 
-De fato, produtos são comprados apenas na antecipação dos serviços que o comprador espera: eu compro um disco pela música que vou ouvir, eu compro um ingresso de cinema pelo filme que vou ver. E em uma troca, cada parte decide porque julga que pode derivar mais serviços do que adquire do que o que desiste. Neste contexto, o dinheiro é apenas uma mercadoria intermediária, compensa por um serviço prestado e abre outros serviços.
+Para Bastiat, a economia de trocas, ou seja, de serviços mútuos livremente oferecidos e aceites, é a base da paz e da prosperidade, permitindo a harmonia dos interesses.
 
-Para Bastiat, a economia de trocas, ou seja, de serviços mútuos livremente oferecidos e aceitos, é o que sustenta a paz e a prosperidade, permitindo a harmonia dos interesses.
 
-Mas de Jean-Baptiste Say, Frédéric Bastiat também herda um conceito chave, o de pilhagem. Pois, ele diz, ecoando as palavras de Say:
+Mas de Jean-Baptiste Say, Frédéric Bastiat herda também um conceito-chave, o de pilhagem. Porque, diz ele, fazendo eco das palavras de Say:
 
-> Há apenas duas maneiras de adquirir as coisas necessárias para a preservação, embelezamento e melhoria da vida: produção e pilhagem.
-> Os produtores recorrem à persuasão, negociação e contrato, enquanto os saqueadores recorrem à força e ao engano. Cabe, portanto, à lei suprimir o saque e assegurar o trabalho bem como a propriedade. Como Adam Smith já havia afirmado, garantir a segurança dos cidadãos é a principal missão da autoridade pública, e é isso que legitima a cobrança de impostos.
-> ![image](assets/en/020.webp)
+
+> Só há duas maneiras de adquirir as coisas necessárias para a preservação, o embelezamento e a melhoria da vida: a produção e a pilhagem.
+
+Os produtores recorrem à persuasão, à negociação e ao Contract, enquanto os saqueadores recorrem à força e ao engano. Cabe, portanto, à lei reprimir a pilhagem e garantir a segurança do trabalho e da propriedade. Como Adam Smith já havia afirmado, garantir a segurança dos cidadãos é a principal missão da autoridade pública, e é isso que legitima a cobrança de impostos.
+
+
+![image](assets/en/020.webp)
+
 
 ## Antoine Destutt de Tracy
 
+
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-É pouco conhecido, mas Destutt de Tracy teve uma influência decisiva sobre o futuro Presidente dos Estados Unidos, Thomas Jefferson, enquanto este era embaixador em Paris na década de 1780.
 
-> "Para todo homem, seu primeiro país é sua pátria, e o segundo é a França" & "Tirania é quando o povo teme seu governo; liberdade é quando o governo teme o povo."
+É pouco conhecido, mas Destutt de Tracy teve uma influência decisiva no futuro Presidente dos Estados Unidos, Thomas Jefferson, quando este era embaixador em Paris na década de 1780.
+
+
+> Para cada homem, o seu primeiro país é a sua pátria, e o segundo é a França" & "A tirania é quando o povo teme o seu governo; a liberdade é quando o governo teme o povo.
 >
+
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)
 
-De fato, seu Tratado de Economia Política condenava o protecionismo e a expansão napoleônica. Por isso, foi proibido de ser publicado na França por Bonaparte. No entanto, foi traduzido para o inglês e publicado nos Estados Unidos pelo próprio Jefferson. Ele fez deste texto o primeiro livro didático de economia política da Universidade da Virgínia, que ele acabara de fundar em Charlottesville. O Tratado não foi publicado na França até 1819!
+
+De facto, o seu Tratado de Economia Política condenava o protecionismo e a expansão napoleónica. Foi, por isso, proibido de publicar em França por Bonaparte. No entanto, foi traduzido para inglês e publicado nos Estados Unidos pelo próprio Jefferson. Jefferson fez deste texto o primeiro manual de economia política da Universidade da Virgínia, que acabara de fundar em Charlottesville. O Tratado só foi publicado em França em 1819!
+
 
 ![image](assets/en/022.webp)
 
-Destutt de Tracy, filósofo e economista, foi o líder da chamada escola dos "Ideólogos", que incluía pessoas como Cabanis, Condorcet, Constant, Daunou, Say e Germaine de Staël. Eles são os herdeiros dos Fisiocratas e os discípulos diretos de Turgot.
+
+Destutt de Tracy, filósofo e economista, foi o líder da chamada escola dos "Ideólogos", que incluía pessoas como Cabanis, Condorcet, Constant, Daunou, Say e Germaine de Staël. São os herdeiros dos fisiocratas e os discípulos diretos de Turgot.
+
 
 ![image](assets/en/023.webp)
 
+
 ![image](assets/en/024.webp)
 
-Por ideologia, Tracy simplesmente entendia a ciência que lida com o estudo das ideias, sua origem, suas leis, sua relação com a linguagem, ou seja, em termos mais contemporâneos, epistemologia. O termo "ideologia" não tinha a conotação pejorativa que Marx mais tarde lhe daria para desacreditar os economistas do "laissez-faire". O jornal do movimento ideólogo era chamado La Décade philosophique et littéraire.
+
+Por ideologia, Tracy entendia simplesmente a ciência que se ocupa do estudo das ideias, da sua origem, das suas leis, da sua relação com a linguagem, ou seja, em termos mais actuais, a epistemologia. O termo "ideologia" não tinha a conotação pejorativa que Marx lhe daria mais tarde para desacreditar os economistas do "laissez-faire". A revista do movimento ideológico chamava-se La Décade philosophique et littéraire.
+
 
 ![image](assets/en/025.webp)
 
-Dominou o período revolucionário e foi dirigido por Jean-Baptiste Say. Destutt de Tracy foi eleito membro da Academia Francesa em 1808 e da Academia de Ciências Morais e Políticas em 1832. Sua filha casou-se com Georges Washington de La Fayette (o filho do primeiro presidente americano) em 1802, o que mostra a proximidade que ainda existia entre a França e a jovem América naquela época.
+
+Dominou o período revolucionário e foi dirigida por Jean-Baptiste Say. Destutt de Tracy foi eleito membro da Academia Francesa em 1808 e da Academia de Ciências Morais e Políticas em 1832. A sua filha casou com Georges Washington de La Fayette (filho do primeiro presidente americano) em 1802, o que mostra a proximidade que ainda existia entre a França e a jovem América nessa altura.
+
 
 ![image](assets/en/026.webp)
-O propósito de seu Tratado sobre Economia Política é "examinar a melhor maneira de empregar todas as nossas faculdades físicas e intelectuais para satisfazer nossas diversas necessidades." Sua ideia é que o comércio é a fonte de todo bem humano; é a força civilizadora, racionalizadora e pacificadora do mundo. A grande máxima da economia política é formulada por ele da seguinte forma: "o comércio é o todo da sociedade, assim como o trabalho é o todo da riqueza." De fato, ele vê a sociedade como "uma série contínua de trocas nas quais ambos os contratantes sempre ganham." Portanto, o mercado é o oposto da predação. Ele enriquece alguns sem empobrecer outros. Como será dito mais tarde, não é um "jogo de soma zero", mas um jogo de soma positiva.
-Nosso autor não chega a definir a economia política como a ciência das trocas. Mas esse mesmo raciocínio será retomado e levado adiante por Bastiat. Vender é uma troca de objetos, alugar é uma troca de serviços e emprestar é simplesmente uma troca diferida. A economia política torna-se assim para Bastiat "a teoria da troca."
+
+O objetivo do seu Tratado de Economia Política é "examinar a melhor maneira de empregar todas as nossas faculdades físicas e intelectuais para satisfazer as nossas várias necessidades" A sua ideia é que o comércio é a fonte de todo o bem humano; é a força civilizadora, racionalizadora e pacificadora do mundo. A grande máxima da economia política é formulada por ele da seguinte forma: "o comércio é o todo da sociedade, assim como o trabalho é o todo da riqueza" De facto, ele vê a sociedade como "uma série contínua de trocas em que ambos os contratantes ganham sempre" Por conseguinte, o mercado é o oposto da predação. Enriquece uns sem empobrecer outros. Como será dito mais tarde, não é um "jogo de soma zero", mas um jogo de soma positiva.
+
+
+O nosso autor não vai ao ponto de definir a economia política como a ciência das trocas. Mas este mesmo raciocínio será retomado e levado a cabo por Bastiat. A venda é um Exchange de objectos, o aluguer é um Exchange de serviços e o empréstimo é apenas um Exchange diferido. A economia política torna-se assim para Bastiat "a teoria do Exchange"
+
 
 ![image](assets/en/027.webp)
 
-De acordo com Destutt de Tracy, a propriedade necessariamente decorre de nossa natureza, de nossa faculdade de desejo. Se o homem não desejasse nada, ele não teria nem direitos nem deveres. Para atender às suas necessidades e cumprir seus deveres, o homem deve empregar meios que adquire através de seu trabalho. E a forma de organização social que se conforma a este fim é a propriedade privada. É por isso que o único objeto do governo é proteger a propriedade e permitir a troca pacífica.
 
-Para ele, os melhores impostos são os mais moderados, e ele deseja que os gastos do estado sejam o mais restritos possível. Ele condena o saque da riqueza da sociedade pelo governo na forma de dívida pública, impostos, monopólios bancários e gastos. Mais uma vez, a lei deve servir apenas para proteger a liberdade; ela nunca deve saquear.
+Segundo Destutt de Tracy, a propriedade decorre necessariamente da nossa natureza, da nossa faculdade de desejar. Se o homem não quisesse nada, não teria direitos nem deveres. Para satisfazer as suas necessidades e cumprir os seus deveres, o homem deve empregar os meios que adquire através do seu trabalho. E a forma de organização social que se coaduna com esse fim é a propriedade privada. É por isso que o único objetivo do governo é proteger a propriedade e permitir a Exchange pacífica.
 
-Finalmente, ele adiciona esta recomendação, que não perdeu sua relevância:
 
-> Que o governo não faça e não possa fazer dívidas que comprometam as gerações futuras e sempre levem os estados à sua ruína.
+![image](assets/en/028.webp)
 
-Em conclusão, os Ideólogos tiveram uma intuição profunda, a saber, que a produção e as trocas são a verdadeira solução para os problemas políticos e a verdadeira alternativa às guerras. As guerras são sempre predatórias, seja internas, como durante a Revolução, ou externas, como as travadas pelos antigos reis e por Napoleão.
+
+Para ele, os melhores impostos são os mais moderados e deseja que as despesas do Estado sejam tão limitadas quanto possível. Condena a pilhagem da riqueza da sociedade pelo governo sob a forma de dívida pública, impostos, monopólios bancários e despesas. Mais uma vez, a lei deve servir apenas para proteger a liberdade; nunca deve saquear.
+
+
+Por fim, acrescenta esta recomendação, que não perdeu a sua atualidade:
+
+
+> Que o Estado não faça e não possa fazer dívidas que comprometam as gerações futuras e que levem sempre os Estados à ruína.
+
+Em conclusão, os Ideólogos tinham uma intuição profunda, a saber, que a produção e as trocas são a verdadeira solução para os problemas políticos e a verdadeira alternativa às guerras. As guerras são sempre predatórias, quer sejam internas, como durante a Revolução, quer sejam externas, como as travadas pelos antigos reis e por Napoleão.
+
 
 ## Charles Comte e Charles Dunoyer
 
+
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 
-A história de todas as civilizações é a história da luta entre as classes saqueadoras e as classes produtivas. Este é o credo dos dois autores que vamos discutir. Eles são os originadores de uma teoria liberal de luta de classes que inspirou tanto Frédéric Bastiat quanto Karl Marx, embora este último a tenha distorcido.
+
+A história de todas as civilizações é a história da luta entre as classes saqueadoras e as classes produtoras. É este o credo dos dois autores de que vamos falar. São os criadores de uma teoria liberal da luta de classes que inspirou tanto Frédéric Bastiat como Karl Marx, embora este último a tenha deturpado.
+
 
 ![image](assets/en/029.webp)
 
-Para Comte e Dunoyer, o saque, significando todas as formas de violência exercidas na sociedade pelos fortes sobre os fracos, é a grande chave para entender a história humana. Está na origem de todos os fenômenos de exploração de uma classe por outra.
+
+Para Comte e Dunoyer, a pilhagem, ou seja, todas as formas de violência exercidas na sociedade pelos mais fortes sobre os mais fracos, é a grande chave para compreender a história da humanidade. Está na origem de todos os fenómenos de exploração de uma classe por outra.
+
 
 ![image](assets/en/030.webp)
-Se Frédéric Bastiat deve sua educação econômica a Smith, Destutt de Tracy e Say, ele deve sua educação política aos líderes do jornal Le Censeur, Charles Comte e Charles Dunoyer.
-Esta revisão (1814-1819), renomeada Le Censeur européen após os Cem Dias, disseminou as ideias liberais que triunfaram em 1830 com a insurreição dos Três Dias Gloriosos e a ascensão ao poder do Duque de Orléans, Louis-Philippe I.
+
+
+Se Frédéric Bastiat deve a sua formação económica a Smith, Destutt de Tracy e Say, deve a sua formação política aos líderes do jornal Le Censeur, Charles Comte e Charles Dunoyer.
+
+
+Esta revista (1814-1819), rebaptizada Le Censeur européen após os Cem Dias, difundiu as ideias liberais que triunfaram em 1830 com a insurreição dos Três Dias Gloriosos e a subida ao poder do Duque de Orleães, Louis-Philippe I.
+
 
 ![image](assets/en/031.webp)
 
-![image](assets/en/032.webp)
 
-Charles Comte, primo de Auguste Comte e genro de Say, é o fundador da revisão. Logo ele foi acompanhado por Charles Dunoyer, um jurista como ele, e então por um jovem historiador, Augustin Thierry, ex-secretário de Saint Simon. Seu lema na primeira página de cada edição da revisão era "Paz e Liberdade".
 
-Qual é o objetivo da revisão? O título fala por si mesmo: censurar o governo. Lutar contra a arbitrariedade do poder iluminando a opinião pública, defender a liberdade de imprensa.
+
+Charles Comte, primo de Augusto Comte e genro de Say, é o fundador da revista. A ele juntou-se Charles Dunoyer, jurista como ele, e depois um jovem historiador, Augustin Thierry, antigo secretário de Saint Simon. O seu lema, na primeira página de cada número da revista, é "Paz e Liberdade".
+
+
+Qual é o objetivo da revisão? O título fala por si: censurar o governo. Lutar contra a arbitrariedade do poder, esclarecendo a opinião pública, para defender a liberdade de imprensa.
+
 
 ![image](assets/en/033.webp)
 
-_(Benjamin Constant)_
+(Benjamin Constant)
 
-Eles adotam de Benjamin Constant a distinção entre os Antigos e os Modernos, caracterizada de um lado pela guerra, e do outro pelo comércio e indústria. Mas eles acrescentam com Say que a economia política fornece a melhor explicação dos fenômenos sociais. Eles entendem particularmente que as nações alcançam paz e prosperidade quando os direitos de propriedade e o livre comércio são respeitados. A partir de agora, para eles, a economia política é a verdadeira e única fundação da política. À filosofia, que se limita à crítica abstrata das formas de governo, deve ser substituída uma teoria baseada no conhecimento dos interesses econômicos.
-A economia política, ao demonstrar como os povos prosperam e declinam, estabeleceu as verdadeiras fundações da política.
+
+Adoptam de Benjamin Constant a distinção entre os Antigos e os Modernos, caracterizados, por um lado, pela guerra e, por outro, pelo comércio e pela indústria. Mas acrescentam com Say que a economia política fornece a melhor explicação dos fenómenos sociais. Compreendem particularmente que as nações alcançam a paz e a prosperidade quando os direitos de propriedade e o comércio livre são respeitados. A partir de agora, para eles, a economia política é o verdadeiro e único fundamento da política. À filosofia, que se limita à crítica abstrata das formas de governo, deve substituir-se uma teoria baseada no conhecimento dos interesses económicos.
+
+
+> A economia política, ao demonstrar como os povos prosperam e declinam, lançou as verdadeiras bases da política.
+>
 
 > Dunoyer
 
 ![image](assets/en/034.webp)
 
-Esta nova teoria social contém um dos elementos que se tornaria a pedra angular do socialismo científico de Marx e Engels: a luta de classes. Mas em que consiste a teoria liberal da luta de classes, e como ela difere do marxismo?
 
-Ela começa com o indivíduo que age para satisfazer suas necessidades e desejos. A partir do momento em que se cria, ou seja, aumenta a utilidade das coisas, realçando seu valor, engaja-se na indústria. Aqui, um industrial não é um proprietário de indústria, como a linguagem atual pode sugerir, mas um produtor, independentemente do campo em que trabalhe. É por isso que sua teoria é chamada industrialismo. Ela postula que o objetivo da sociedade é a criação de utilidade em sentido amplo, ou seja, bens e serviços úteis aos seres humanos.
+Esta nova teoria social contém um dos Elements que se tornaria a pedra angular do socialismo científico de Marx e Engels: a luta de classes. Mas em que consiste a teoria liberal da luta de classes e em que é que ela difere do marxismo?
 
-Neste ponto, os indivíduos enfrentam duas alternativas fundamentais: eles podem saquear a riqueza produzida por outros, ou podem trabalhar para produzir riqueza eles mesmos. Em qualquer sociedade, pode-se claramente distinguir aqueles que vivem do saque daqueles que vivem da produção. Sob o Ancien Régime, a nobreza atacava diretamente os mais industriais para viver de uma nova forma de tributo: o imposto. A nobreza rapace foi sucedida por hordas de burocratas, não menos rapaces.
+
+Começa com o indivíduo que actua para satisfazer as suas necessidades e desejos. A partir do momento em que se cria, ou seja, se aumenta a utilidade das coisas, aumentando o seu valor, está-se a fazer indústria. Aqui, um industrial não é um proprietário de indústria, como a linguagem corrente poderia sugerir, mas um produtor, independentemente do ramo em que trabalha. É por isso que a sua teoria se chama industrialismo. Esta teoria defende que o objetivo da sociedade é a criação de utilidade em sentido lato, ou seja, de bens e serviços úteis ao homem.
+
+
+Neste ponto, os indivíduos enfrentam duas alternativas fundamentais: podem pilhar a riqueza produzida por outros, ou podem trabalhar para produzir riqueza eles próprios. Em qualquer sociedade, é possível distinguir claramente aqueles que vivem da pilhagem e aqueles que vivem da produção. No Antigo Regime, a nobreza atacava diretamente os mais laboriosos para viver de uma nova forma de tributo: o imposto. À nobreza voraz sucederam-se hordas de burocratas, não menos vorazes.
+
 
 ![image](assets/en/035.webp)
-Enquanto para Marx, o antagonismo de classe está situado dentro da própria atividade produtiva, entre empregados e empregadores, para Comte e Dunoyer, as classes em conflito são, de um lado, os produtores da sociedade, que pagam impostos (incluindo capitalistas, trabalhadores, camponeses, estudiosos, etc.) e do outro, os não-produtores, que vivem de rendas financiadas por impostos, "a classe ociosa e devoradora" (burocratas, oficiais, políticos, beneficiários de subsídios ou proteções).
-Então, ao contrário de Marx, os autores do Censeur Européen não defendem a guerra de classes. Em vez disso, eles fazem campanha pela paz social. E isso, segundo eles, só pode ser alcançado através da despolitização da sociedade. Para tanto, é importante primeiro reduzir o prestígio e os benefícios dos cargos públicos. É então importante dar influência no corpo político aos produtores.
+
+
+Enquanto para Marx o antagonismo de classes se situa no interior da própria atividade produtiva, entre empregados e empregadores, para Comte e Dunoyer, as classes em conflito são, de um lado, os produtores da sociedade, que pagam impostos (incluindo capitalistas, operários, camponeses, académicos, etc.) e, do outro, os não-produtores, que vivem de rendas financiadas pelos impostos, "a classe ociosa e devoradora" (burocratas, funcionários, políticos, beneficiários de subsídios ou protecções).
+
+
+Por isso, ao contrário de Marx, os autores do Censeur Européen não defendem a luta de classes. Pelo contrário, defendem a paz social. E esta, segundo eles, só pode ser alcançada através da despolitização da sociedade. Para o efeito, é importante começar por reduzir o prestígio e os benefícios dos cargos públicos. Depois, é importante dar influência no corpo político aos produtores.
+
 
 ![image](assets/en/036.webp)
-Finalmente, a única maneira de livrar o mundo da exploração de uma classe por outra é destruir o próprio mecanismo que torna essa exploração possível: o poder do Estado de distribuir e controlar a propriedade e a alocação de benefícios relacionados a ela (os "cargos").
 
-Suas ideias, profundamente inovadoras, marcariam para sempre Frédéric Bastiat, que se tornaria ele mesmo um profundo pensador sobre crises políticas.
+Finalmente, a única maneira de livrar o mundo da exploração de uma classe por outra é destruir o próprio mecanismo que torna essa exploração possível: o poder do Estado de distribuir e controlar a propriedade e a atribuição de benefícios relacionados com ela (as "posições").
+
+
+As suas ideias, profundamente inovadoras, marcarão para sempre Frédéric Bastiat, que se tornará ele próprio um profundo pensador das crises políticas.
+
 
 ## Cobden e a Liga
 
+
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
-É 1838, em Manchester, um pequeno número de homens, até então pouco conhecidos, se reúnem para encontrar uma maneira de derrubar o monopólio dos proprietários de terras de trigo por meios legais e realizar, como Bastiat mais tarde relataria,
+
+Estamos em 1838, em Manchester, um pequeno número de homens, pouco conhecidos até então, reúne-se para encontrar uma forma de derrubar o monopólio dos proprietários de trigo através de meios legais e conseguir, como Bastiat contará mais tarde,
+
 
 ![image](assets/en/037.webp)
 
-> Sem derramamento de sangue, pelo único poder da opinião, uma revolução tão profunda, talvez mais profunda do que aquela que nossos pais realizaram em 1789.
 
-Dessa reunião surgiria a Liga contra as leis do milho, ou leis do grão, como Bastiat as chamaria. Mas muito rapidamente, esse objetivo se tornaria o da abolição total e unilateral do protecionismo.
+> Sem derramamento de sangue, pelo único poder da opinião, uma revolução tão profunda, talvez mais profunda do que a que os nossos pais levaram a cabo em 1789.
+
+Desta reunião surgirá a Liga contra as leis do milho, ou as leis dos cereais, como lhes chamaria Bastiat. Mas, muito rapidamente, este objetivo transformar-se-á no da abolição total e unilateral do protecionismo.
+
 
 ![image](assets/en/038.webp)
 
-Essa batalha econômica pelo livre comércio ocuparia toda a Inglaterra até 1846. Na França, fora de um pequeno número de iniciados, a existência desse vasto movimento era completamente desconhecida. Foi lendo um jornal inglês, ao qual havia se inscrito por acaso, que Frédéric Bastiat soube da existência da Liga em 1843. Entusiasmado, ele traduziu os discursos de Cobden, Fox e Bright. Depois, ele correspondeu-se com Cobden e, finalmente, em 1845, foi a Londres para assistir às gigantescas reuniões da Liga.
+
+Esta batalha económica pelo comércio livre ocupará toda a Inglaterra até 1846. Em França, para além de um pequeno número de iniciados, a existência deste vasto movimento era completamente desconhecida. Foi através da leitura de um jornal inglês, que assinava por acaso, que Frédéric Bastiat tomou conhecimento da existência da Liga, em 1843. Entusiasmado, traduziu os discursos de Cobden, Fox e Bright. Em seguida, corresponde-se com Cobden e, finalmente, em 1845, vai a Londres para assistir às gigantescas reuniões da Liga.
+
 
 ![image](assets/en/039.webp)
 
-Foi essa campanha de agitação pelo livre comércio, por todo o reino, com dezenas de milhares de membros, que incendiou a pena de Bastiat e mudou radical e definitivamente o curso de sua vida.
 
-A Liga pode ser comparada a uma universidade itinerante, educando economicamente aqueles que assistiam às suas reuniões pelo país — gente comum, industriais, cultivadores e agricultores, todos sob sua proteção e cujos interesses as leis do grão oprimiam. Richard Cobden era a alma do movimento e um agitador excepcional.
-Um orador fascinante e formidável, ele tinha um dom prodigioso para inventar frases marcantes e concisas, longe dos discursos abstratos dos economistas.
+Foi esta campanha de agitação pelo comércio livre, em todo o reino, com dezenas de milhares de aderentes, que incendiou a pena de Bastiat e mudou radical e definitivamente o rumo da sua vida.
 
-> O que é o monopólio do pão? ele exclamou. É a escassez de pão. Você fica surpreso ao aprender que a legislação deste país, sobre este assunto, não tem outro propósito senão produzir a maior escassez possível de pão. E ainda assim é apenas isso. A legislação só pode alcançar seu objetivo através da escassez.
 
-Em 1845, Bastiat publicou em Paris seu livro Cobden e a Liga, com suas traduções acompanhadas de comentários. O livro abre com uma introdução sobre a situação econômica da Inglaterra, sobre a história da origem e progresso da Liga. Desde 1815, o protecionismo estava muito desenvolvido na Inglaterra. Havia, em particular, leis limitando a importação de grãos que tiveram consequências muito duras para o povo. De fato, o trigo era necessário para fazer pão, uma mercadoria vital na época. Além disso, esse sistema favorecia a aristocracia, isto é, os grandes proprietários de terras, que dele derivavam rendas.
+A Liga pode ser comparada a uma universidade itinerante, que educava economicamente aqueles que assistiam às suas reuniões em todo o país - pessoas comuns, industriais, cultivadores e agricultores, todos eles acolhidos pela Liga e cujos interesses as leis dos cereais oprimiam. Richard Cobden era a alma do movimento e um agitador notável.
 
-> O que coexiste na Inglaterra, escreveu Bastiat, é um pequeno número de saqueadores e um grande número de saqueados, e não é preciso ser um grande economista para concluir a opulência dos primeiros e a miséria dos últimos.
 
-O objetivo da Liga era mobilizar a opinião pública para pressionar o parlamento a revogar a lei do grão. A longo prazo, Cobden e seus amigos esperavam:
+![image](assets/en/040.webp)
 
-- Aumentar os pontos de venda industriais
+
+Orador fascinante e formidável, tinha um dom prodigioso para inventar frases marcantes e concisas, longe dos discursos abstractos dos economistas.
+
+
+> O que é o monopólio do pão? exclamou. É a escassez de pão. Surpreende-vos saber que a legislação deste país, nesta matéria, não tem outro objetivo senão o de produzir a maior escassez possível de pão. E, no entanto, não é outra coisa. A legislação só pode atingir o seu objetivo através da escassez.
+
+![image](assets/en/041.webp)
+
+
+Em 1845, Bastiat publicou em Paris o seu livro Cobden e a Liga, com as suas traduções acompanhadas de comentários. O livro começa com uma introdução sobre a situação económica da Inglaterra, sobre a história da origem e dos progressos da Liga. Desde 1815, o protecionismo estava muito desenvolvido em Inglaterra. Havia, nomeadamente, leis que limitavam a importação de cereais e que tinham consequências muito duras para a população. De facto, o trigo era necessário para fazer pão, um bem vital na época. Além disso, este sistema favorecia a aristocracia, ou seja, os grandes proprietários de terras, que dele retiravam rendas.
+
+
+
+
+> O que coexiste em Inglaterra, escreveu Bastiat, é um pequeno número de saqueadores e um grande número de saqueados, e não é preciso ser um grande economista para concluir a opulência dos primeiros e a miséria dos segundos.
+
+O objetivo da Liga era mobilizar a opinião pública para pressionar o Parlamento a revogar a lei dos cereais. A longo prazo, Cobden e os seus amigos esperavam
+
+
+
+- Aumentar as saídas industriais
 - Aumentar o emprego
 - Reduzir o preço do pão
-- Tornar a agricultura e a indústria mais eficientes através da competição
+- Tornar a agricultura e a indústria mais eficientes através da concorrência
 - Promover a paz entre as nações
 
-_(Jeremy Bentham)_
 
-Discípulo do utilitarismo de Bentham, a convicção de Cobden era de que a liberdade de trabalho e comércio servia diretamente ao interesse das massas mais numerosas, mais pobres e mais sofredoras da sociedade. Ao contrário, os costumes como instrumento de proibições e privilégios arbitrários só poderiam beneficiar certas indústrias mais poderosas.
+![image](assets/en/043.webp)
 
-Nas eleições de 1841, cinco membros da liga, incluindo Cobden, foram eleitos para o parlamento. Em 26 de maio de 1846, o livre comércio unilateral tornou-se a lei do reino. A partir de então, o Reino Unido experimentaria um brilhante período de liberdade e prosperidade.
-O interessante é que Bastiat apropriou-se de uma parte do método deles; ele assimilou a linguagem deles e a transpôs para o contexto francês. O livro sobre Cobden e a Liga rapidamente se tornou um sucesso, e Bastiat fez uma entrada sensacional no mundo dos economistas. Ele fundou uma associação em Bordeaux a favor do livre comércio e depois a transferiu para Paris. Foi-lhe oferecida a liderança do Journal des Économistes. O movimento nasceu e continuou até 1848.
+(Jeremy Bentham)
+
+
+Discípulo do utilitarismo de Bentham, Cobden estava convencido de que a liberdade de trabalho e de comércio servia diretamente os interesses das massas mais numerosas, mais pobres e mais sofredoras da sociedade. Pelo contrário, a alfândega, enquanto instrumento de proibições e privilégios arbitrários, só podia beneficiar alguns sectores mais poderosos.
+
+
+Nas eleições de 1841, cinco membros da Liga, incluindo Cobden, foram eleitos para o Parlamento. Em 26 de maio de 1846, o comércio livre unilateral tornou-se a lei do reino. A partir de então, o Reino Unido viveria um período brilhante de liberdade e prosperidade.
+
+O que é interessante é que Bastiat se apropriou de uma parte do seu método, assimilou a sua linguagem e transpô-la para o contexto francês. O livro sobre Cobden e a Liga tornou-se rapidamente um sucesso e Bastiat fez uma entrada sensacional no mundo dos economistas. Fundou uma associação em Bordéus a favor do comércio livre e transferiu-a depois para Paris. Foi-lhe oferecida a direção do Journal des Économistes. Nasce o movimento, que se mantém até 1848.
+
 ![image](assets/en/044.webp)
 
-Foi somente após a morte de Bastiat, em 1866, que Napoleão III assinaria um tratado de livre comércio com a Inglaterra, uma espécie de vitória póstuma para o homem que dedicou os últimos seis anos de sua curta vida a esta grande ideia.
+
+Foi só depois da morte de Bastiat, em 1866, que Napoleão III assinou um tratado de comércio livre com a Inglaterra, uma espécie de vitória póstuma para o homem que tinha dedicado os últimos seis anos da sua curta vida a esta grande ideia.
+
 
 ![image](assets/en/045.webp)
 
-_(Michel Chevalier)_
-A questão do livre comércio continua sendo relevante hoje. Livros didáticos de geografia nas escolas afirmam que a globalização é a culpada e que os países pobres precisam de ajuda ocidental para sobreviver. No entanto, a extrema pobreza foi reduzida pela metade em 20 anos. Ao optar pela abertura, países como Índia, China ou Taiwan conseguiram escapar da pobreza, enquanto a estagnação caracteriza países fechados como Coreia do Norte ou Venezuela. Segundo a ONU, 36% da humanidade vivia em total desolação em 1990. Agora são "apenas" 18% em 2010. A extrema pobreza permanece um grande desafio, mas está recuando.
+(Michel Chevalier)
 
-# Os Oponentes
+
+A questão do comércio livre continua a ser relevante atualmente. Os manuais escolares de geografia afirmam que a culpa é da globalização e que os países pobres precisam da ajuda do Ocidente para sobreviver. No entanto, a pobreza extrema foi reduzida para metade em 20 anos. Ao optarem pela abertura, países como a Índia, a China ou Taiwan conseguiram sair da pobreza, enquanto a estagnação caracteriza países fechados como a Coreia do Norte ou a Venezuela. Segundo a ONU, 36% da humanidade vivia na miséria total em 1990. Atualmente, são "apenas" 18% em 2010. A pobreza extrema continua a ser um grande desafio, mas está a diminuir.
+
+
+# Os adversários
+
 
 <partId>f902ed30-269e-5e44-a76d-8efd1a4e4085</partId>
 
+
 ## Rousseau
+
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-Frédéric Bastiat, que se expressou na década de 1840, é herdeiro de uma geração de filósofos do Iluminismo que lutaram contra a censura e pela liberdade de debate. Pense em Montesquieu, Diderot, Voltaire, Condorcet, mas também Rousseau.
 
-Para eles, a ideia era simples: quanto mais ideias são permitidas ser expressas, mais a verdade progride e mais facilmente os erros são refutados. A ciência sempre progride dessa maneira.
+Frédéric Bastiat, que se exprimiu na década de 1840, é o herdeiro de uma geração de filósofos iluministas que lutaram contra a censura e pela liberdade de debate. Pensemos em Montesquieu, Diderot, Voltaire, Condorcet, mas também em Rousseau.
 
-![imagem](assets/en/046.webp)
+
+Para eles, a ideia era simples: quanto mais ideias forem expressas, mais a verdade progride e mais facilmente os erros são refutados. A ciência progride sempre desta forma.
+
+
+![image](assets/en/046.webp)
 
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
-Ao contrário, poucos entenderam que o que era verdade para as ideias também era verdade para bens e serviços. A liberdade de negociar com os outros de fato tem duas virtudes: ser eficiente e levar a uma distribuição mais justa. Não só Rousseau não entendeu isso, mas também lutou contra essa liberdade em nome de uma falsa ideia de lei e direito. Uma das principais fontes do socialismo, Bastiat observa, é a opinião de Rousseau de que toda a ordem social deriva da lei.
 
-Bastiat de fato considera Rousseau o verdadeiro precursor do socialismo e do coletivismo. No autor de O Contrato Social, há uma frase que resume bem sua filosofia: "só começamos a nos tornar homens depois de termos sido cidadãos."
 
-![imagem](assets/en/047.webp)
+Pelo contrário, poucos compreenderam que o que era verdade para as ideias era também verdade para os bens e serviços. A liberdade de negociar com os outros tem, de facto, duas virtudes: ser eficaz e conduzir a uma distribuição mais justa. Rousseau não só não compreendeu isto, como lutou contra esta liberdade em nome de uma falsa ideia de lei e de direito. Uma das principais fontes do socialismo, nota Bastiat, é a opinião de Rousseau de que toda a ordem social deriva da lei.
 
-Inicialmente, o homem é meramente um burguês. Mas o burguês é um calculista; ele quer seu prazer imediato, é escravizado pelos seus sentidos, pelos seus desejos, pelo seu interesse particular. Em resumo, ele não é racional, portanto, não é livre. Ele precisa ser educado, para entender que seu verdadeiro interesse é o interesse geral. É por isso que Rousseau escreveu em O Contrato Social:
 
-![imagem](assets/en/048.webp)
+Bastiat considera, de facto, Rousseau como o verdadeiro precursor do socialismo e do coletivismo. No autor de A Contract Social, há uma frase que resume muito bem a sua filosofia: "só começamos a tornar-nos homens depois de termos sido cidadãos"
 
-De acordo com essa doutrina, o homem tem duas vontades dentro dele: uma vontade que tende para o interesse pessoal, a do burguês, e uma vontade que tende para o interesse geral, a do cidadão. Levar os homens, mesmo que à força, a querer um fim racional, o interesse geral, é levar os homens a se tornarem livres. O que eles realmente querem é um fim racional, mesmo que não saibam.
-Portanto, é perfeitamente legítimo, segundo Rousseau, constranger os homens em nome de um fim que eles mesmos, se fossem mais esclarecidos, teriam perseguido, mas que não perseguem porque são cegos, ignorantes ou corruptos. A sociedade é fundada para forçá-los a fazer o que deveriam desejar espontaneamente se fossem esclarecidos. E, ao fazer isso, não se faz violência a eles, pois os leva a ser "livres", isto é, a fazer as escolhas certas, escolhas que estão alinhadas com seu verdadeiro eu.
+
+![image](assets/en/047.webp)
+
+
+Inicialmente, o homem é apenas um burguês. Mas o burguês é um calculista; ele quer o seu prazer imediato, é escravo dos seus sentidos, dos seus desejos, do seu interesse particular. Em suma, não é racional, logo não é livre. Ele precisa de ser educado, para compreender que o seu verdadeiro interesse é o interesse geral. É por isso que Rousseau escreveu em A Contract Social:
+
+
+![image](assets/en/048.webp)
+
+
+---
+
+> Quem se recusar a obedecer à vontade geral será obrigado a fazê-lo por todo o corpo social: o que não significa outra coisa senão que será obrigado a ser livre.
+> (Jean-Jacques Rousseau)
+
+---
+
+Segundo esta doutrina, o homem tem dentro de si duas vontades: uma vontade que tende para o interesse pessoal, a do burguês, e uma vontade que tende para o interesse geral, a do cidadão. Levar o homem, mesmo pela força, a querer um fim racional, o interesse geral, é levar o homem a tornar-se livre. O que eles querem verdadeiramente é um fim racional, mesmo que não o saibam.
+
+
+É, portanto, perfeitamente legítimo, segundo Rousseau, constranger os homens em nome de um fim que eles próprios, se fossem mais esclarecidos, teriam perseguido, mas que não perseguem porque são cegos, ignorantes ou corruptos. A sociedade é fundada para os obrigar a fazer aquilo que eles desejariam espontaneamente se fossem esclarecidos. E, ao fazê-lo, não se faz violência contra eles, pois leva-os a serem "livres", isto é, a fazerem as escolhas certas, escolhas que estão de acordo com o seu verdadeiro eu.
+
+
 ![image](assets/en/049.webp)
 
-Convencido de que a boa sociedade é uma criação da lei, Rousseau concede assim poder ilimitado ao legislador. Cabe a ele transformar indivíduos em homens realizados, em cidadãos.
-Mas, também cabe à lei fazer a propriedade existir. Segundo Rousseau, a propriedade só pode ser legítima se for regulada pelo legislador. De fato, o mal reside na desigualdade e na servidão, ambos decorrentes da propriedade. É uma invenção dos fortes que levou à má sociedade, à sociedade burguesa, às relações de dominação. Em seu Discurso sobre a Origem e os Fundamentos da Desigualdade, ele escreve esta famosa passagem:
 
-> A primeira pessoa que, tendo cercado um pedaço de terra, disse: Isto é meu, e encontrou pessoas simples o suficiente para acreditar nele, foi o verdadeiro fundador da sociedade civil. Quantos crimes, guerras, assassinatos, quanta miséria e horror teriam sido poupados à raça humana por aquele que, arrancando as estacas ou enchendo o fosso, tivesse gritado para seus semelhantes: "Cuidado para não ouvir este impostor; vocês estão perdidos se esquecerem que os frutos pertencem a todos e a terra a ninguém!"
+Convencido de que a boa sociedade é uma criação da lei, Rousseau concede assim um poder ilimitado ao legislador. Cabe-lhe a ele transformar os indivíduos em homens realizados, em cidadãos.
+
+Mas é também à lei que compete fazer existir a propriedade. Segundo Rousseau, a propriedade só pode ser legítima se for regulamentada pelo legislador. De facto, o mal reside na desigualdade e na servidão, ambas decorrentes da propriedade. É uma invenção dos fortes que conduziu à má sociedade, à sociedade burguesa, às relações de dominação. No seu Discurso sobre a origem e os fundamentos da desigualdade, ele escreve esta famosa passagem:
+
+
+> A primeira pessoa que, tendo cercado um pedaço de terra, disse: Isto é meu, e encontrou pessoas suficientemente simples para acreditar nele, foi o verdadeiro fundador da sociedade civil. Quantos crimes, guerras, assassínios, quanta miséria e horror teriam sido poupados ao género humano por aquele que, levantando as estacas ou enchendo a vala, tivesse gritado aos seus semelhantes "Não deis ouvidos a este impostor; estareis perdidos se esquecerdes que os frutos são de todos e que a terra não é de ninguém!"
 
 ![image](assets/en/050.webp)
 
-Portanto, a propriedade natural é a fonte do mal. E Marx, grande leitor de Rousseau, se lembraria disso. Como combater esse mal? Através do contrato social, responde Rousseau. De fato, a boa sociedade é aquela que resulta de um contrato que estipula a alienação do indivíduo com todos os seus direitos para a comunidade. A partir de então, cabe à comunidade conceder direitos ao indivíduo por meio da lei.
 
-Contrariamente a Rousseau, Frédéric Bastiat diz que "o homem nasce proprietário". Para ele, a propriedade é uma consequência necessária da natureza do homem, de sua constituição. Ele escreve que "o homem nasce proprietário, porque nasce com necessidades cuja satisfação é indispensável à vida, com órgãos e faculdades cujo exercício é indispensável para a satisfação dessas necessidades". Mas as faculdades são apenas a extensão da pessoa, e a propriedade é apenas a extensão das faculdades. Em outras palavras, é o uso de nossas faculdades no trabalho que legitima a propriedade.
+Portanto, a propriedade natural é a fonte do mal. E Marx, grande leitor de Rousseau, lembrar-se-ia disto. Como combater esse mal? Através do 11 de julho social, responde Rousseau. De facto, a boa sociedade é aquela que resulta de um VT-11 que estipula a alienação do indivíduo com todos os seus direitos para a comunidade. A partir daí, cabe à comunidade conceder direitos ao indivíduo através da lei.
+
+
+Ao contrário de Rousseau, Frédéric Bastiat afirma que "o homem nasce proprietário" Para ele, a propriedade é uma consequência necessária da natureza do homem, da sua constituição. Escreve que "o homem nasce proprietário, porque nasce com necessidades cuja satisfação é indispensável à vida, com órgãos e faculdades cujo exercício é indispensável à satisfação dessas necessidades". Mas as faculdades são apenas a extensão da pessoa, e a propriedade é apenas a extensão das faculdades. Por outras palavras, é o uso das nossas faculdades no trabalho que legitima a propriedade.
+
 
 ![image](assets/en/051.webp)
 
-Segundo Bastiat, a sociedade, as pessoas e as propriedades existem antes das leis, e ele tem esta frase famosa: "Não é porque há leis que há propriedades, mas porque há propriedades que há leis". É por isso que a lei deve ser negativa: deve impedir a invasão sobre as pessoas e seus bens. A propriedade é a razão de ser da lei e não o contrário.
 
-## Educação Clássica
+Segundo Bastiat, a sociedade, as pessoas e as propriedades existem antes das leis, e ele tem esta frase famosa: "Não é porque há leis que há propriedades, mas porque há propriedades que há leis". É por isso que a lei deve ser negativa: deve impedir a invasão das pessoas e dos seus bens. A propriedade é a razão de ser do direito e não o contrário.
+
+
+## Educação clássica
+
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-Em 24 de fevereiro de 1848, após três dias de tumultos em Paris, o Rei Louis-Philippe I abdicou de seu poder. Isso marcou o nascimento da Segunda República.
+
+Em 24 de fevereiro de 1848, após três dias de tumultos em Paris, o rei Luís Filipe I abdicou do seu poder. Este facto marcou o nascimento da Segunda República.
+
+
 ![image](assets/en/052.webp)
 
-Bastiat estava em Paris, testemunhando os eventos em primeira mão. Mais tarde, ele escreveria:
 
-> Em 24 de fevereiro, eu, como muitos outros, temia que a nação não estivesse preparada para se governar. Devo admitir, eu temia a influência das ideias gregas e romanas que são impostas a todos nós pelo monopólio acadêmico.
+Bastiat estava em Paris e testemunhou os acontecimentos em primeira mão. Mais tarde, ele escreveria:
 
-Esta passagem é surpreendente. O que a antiguidade grega e romana têm a ver com isso?
+
+> Em 24 de fevereiro, eu, como muitos outros, receava que a nação não estivesse preparada para se governar a si própria. Devo admitir que temia a influência das ideias gregas e romanas que nos são impostas pelo monopólio académico.
+
+Esta passagem é surpreendente. O que é que a antiguidade grega e romana têm a ver com isto?
+
 
 ![image](assets/en/053.webp)
 
-Bastiat refere-se à República de Platão e sua teoria do rei-filósofo, mas também a Esparta, que Rousseau tanto admirava, ao Império Romano, pelo qual Napoleão tinha tanta nostalgia. Infelizmente, segundo Bastiat, essas ideias gregas e romanas são baseadas em uma premissa falsa: a ideia da onipotência do legislador, da soberania absoluta da lei.
 
-Basta abrir quase qualquer livro sobre filosofia, política ou história ao acaso para encontrar essa ideia, enraizada em nossa cultura, de que a humanidade é uma matéria inerte recebendo vida, organização, moralidade e prosperidade do poder político. Deixada por conta própria, a humanidade tenderia à anarquia e só seria salva deste desastre pela mão misteriosa e onipotente do Legislador. No entanto, Bastiat diz, essa ideia foi longamente amadurecida e preparada por séculos de educação clássica.
+Bastiat remete para a República de Platão e para a sua teoria do rei-filósofo, mas também para Esparta, que Rousseau tanto admirava, para o Império Romano, de que Napoleão tanto gostava. Infelizmente, segundo Bastiat, estas ideias gregas e romanas assentam num falso pressuposto: a ideia da omnipotência do legislador, da soberania absoluta da lei.
+
+
+Basta abrir ao acaso quase qualquer livro de filosofia, política ou história para encontrar esta ideia, enraizada na nossa cultura, de que a humanidade é uma matéria inerte que recebe do poder político a vida, a organização, a moralidade e a prosperidade. Deixada à sua própria sorte, a humanidade tenderia para a anarquia e só seria salva desse desastre pela mão misteriosa e omnipotente do Legislador. No entanto, diz Bastiat, esta ideia foi longamente amadurecida e preparada por séculos de educação clássica.
+
 
 ![image](assets/en/054.webp)
 
-Primeiramente, ele diz, os romanos consideravam a propriedade como um fato puramente convencional, como uma criação artificial da lei escrita. Por quê? Simplesmente, Bastiat explica, porque eles viviam de escravidão e pilhagem. Para eles, todas as propriedades eram fruto da espoliação. Portanto, eles não podiam introduzir na legislação a ideia de que a fundação da propriedade legítima era o trabalho sem destruir as fundações de sua sociedade.
-Eles de fato tinham uma definição empírica de propriedade, "jus utendi et abutendi" (o direito de usar e abusar). No entanto, esta definição só dizia respeito aos efeitos e não às causas, em outras palavras, às origens éticas da propriedade. Para estabelecer adequadamente a propriedade, deve-se voltar à própria constituição do homem, e entender a relação e ligação necessária que existem entre necessidades, faculdades, trabalho e propriedade. Os romanos, que eram proprietários de escravos, poderiam conceber a ideia de que "todo homem é dono de si mesmo, e portanto de seu trabalho, e, consequentemente, do produto de seu trabalho"? Bastiat se pergunta.
 
-> Portanto, não nos surpreendamos, Bastiat conclui, ao ver a ideia romana de que a propriedade é um fato convencional e de instituição legal ressurgir no século XVIII; que, longe da Lei ser um corolário da Propriedade, é a Propriedade que é um corolário da Lei.
+Em primeiro lugar, diz ele, os romanos consideravam a propriedade como um facto puramente convencional, como uma criação artificial da lei escrita. Porquê? Simplesmente, explica Bastiat, porque viviam da escravatura e da pilhagem. Para eles, todas as propriedades eram o fruto da pilhagem. Por isso, não podiam introduzir na legislação a ideia de que o fundamento da propriedade legítima era o trabalho sem destruir as bases da sua sociedade.
 
-De fato, Rousseau compartilha essa ideia legal comum de basear a propriedade na lei. Rousseau atribui à lei, e consequentemente ao povo, poder absoluto sobre indivíduos e propriedades.
+De facto, tinham uma definição empírica da propriedade, o "jus utendi et abutendi" (direito de usar e abusar). No entanto, esta definição só dizia respeito aos efeitos e não às causas, ou seja, às origens éticas da propriedade. Para estabelecer corretamente a propriedade, é preciso remontar à própria constituição do homem e compreender a relação e a ligação necessária que existe entre as necessidades, as faculdades, o trabalho e a propriedade. Os romanos, que eram proprietários de escravos, poderiam conceber a ideia de que "cada homem é dono de si mesmo e, portanto, do seu trabalho e, consequentemente, do produto do seu trabalho"? Interroga-se Bastiat.
 
-E nesta concepção, que constitui a própria ideia da república desde a Revolução Francesa, o legislador deve organizar a sociedade, como um arquiteto social, como um mecânico que inventa uma máquina a partir de matéria inerte, ou como um oleiro que molda o barro. O legislador assim se coloca fora da humanidade, acima dela, para arranjá-la à vontade, de acordo com planos concebidos por sua inteligência luminosa.
+
+> Por isso, não nos admiremos, conclui Bastiat, de ver reaparecer no século XVIII a ideia romana de que a propriedade é um facto convencional e de instituição jurídica; que, longe de o Direito ser um corolário da Propriedade, é a Propriedade que é um corolário do Direito.
+
+De facto, Rousseau partilha esta ideia jurídica comum de basear a propriedade na lei. Rousseau atribui à lei, e consequentemente ao povo, um poder absoluto sobre os indivíduos e as propriedades. E nesta conceção, que constitui a própria ideia de república desde a Revolução Francesa, o legislador deve organizar a sociedade, como um arquiteto social, como um mecânico que inventa uma máquina a partir de matéria inerte, ou como um oleiro que molda o barro. O legislador coloca-se assim fora da humanidade, acima dela, para a organizar à sua vontade, segundo planos concebidos pela sua inteligência luminosa.
+
 
 ![image](assets/en/055.webp)
-Ao contrário, para Bastiat, o direito de propriedade é anterior à lei. Isso é o que ele chama de princípio dos economistas, em oposição ao princípio dos juristas. Enquanto "o princípio dos juristas contém virtualmente a escravidão", diz Bastiat, "o dos economistas contém a liberdade".
-O que é então a liberdade? É a propriedade, o direito de desfrutar dos frutos do próprio trabalho, o direito de trabalhar, de se desenvolver, de exercer as próprias faculdades, como se achar melhor, sem a intervenção do Estado, a não ser por sua ação protetora.
 
-É triste pensar que nossa filosofia social e política permaneceu presa à ideia de que a solução para todos os nossos problemas tinha que vir de cima, da lei, do Estado. Mas isso é explicável. Essas ideias são incutidas todos os dias na juventude nas escolas e universidades, através do monopólio da educação.
+
+Pelo contrário, para Bastiat, o direito de propriedade é anterior à lei. É o que ele chama de princípio dos economistas, em oposição ao princípio dos juristas. Enquanto "o princípio dos juristas contém virtualmente a escravatura, diz Bastiat, o dos economistas contém a liberdade.
+
+
+O que é então a liberdade? É a propriedade, o direito de usufruir dos frutos do seu trabalho, o direito de trabalhar, de se desenvolver, de exercer as suas faculdades, como bem entender, sem que o Estado intervenha senão através da sua ação protetora.
+
+
+É triste pensar que a nossa filosofia social e política se manteve presa à ideia de que a solução para todos os nossos problemas tinha de vir de cima, da lei, do Estado. Mas isso é explicável. Estas ideias são incutidas todos os dias aos jovens nas escolas e universidades, através do monopólio da educação.
+
 
 ![image](assets/en/056.webp)
 
-No entanto, como Bastiat nos lembra, o monopólio exclui o progresso.
+_um exemplo de um agente monopolista deste tipo pode ser uma instituição governamental_
 
-## Protecionismo e Socialismo
+
+No entanto, como recorda Bastiat, o monopólio exclui o progresso.
+
+
+## Protecionismo e socialismo
+
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
+
 ![image](assets/en/057.webp)
 
-_(Richard Cobden)_
+"O que é que eu faço?
 
-Como já vimos, foi antes de tudo a luta de Cobden contra o protecionismo com a liga inglesa pela abolição das Leis do Milho que levou Bastiat a escrever artigos e depois livros.
 
-O protecionismo é, na realidade, uma forma de nacionalismo econômico. Visa eliminar a concorrência estrangeira enquanto finge "defender os interesses nacionais". Eles então tentam fazer com que as autoridades públicas aceitem um conjunto de inverdades puramente demagógicas, apresentadas como virtuosas: a defesa dos empregos, competitividade, etc. Claro, os eleitos cedem à pressão dos produtores, porque para eles é uma oportunidade de ouro para consolidar sua clientela e expandir seu poder.
+Como já vimos, foi sobretudo a luta de Cobden contra o protecionismo, com a liga inglesa pela abolição das Corn Laws, que levou Bastiat a escrever artigos e depois livros.
+
+
+O protecionismo é, na realidade, uma forma de nacionalismo económico. O seu objetivo é eliminar a concorrência estrangeira, fingindo "defender os interesses nacionais" Depois, tentam levar os poderes públicos a aceitar um conjunto de inverdades puramente demagógicas, apresentadas como virtuosas: a defesa do emprego, da competitividade, etc. Naturalmente, os eleitos cedem à pressão dos produtores, porque é para eles uma oportunidade de ouro para consolidar a sua clientela e alargar o seu poder.
+
 
 ![image](assets/en/058.webp)
 
----
+_um exemplo de publicidade promocional de um misturador produzido em França_
 
->Nosso encontro com Arnaud Montebourg  
->Made in France,  
->ele acredita nisso, nós testamos
 
 ---
 
-O argumento para a proteção do emprego é o que Bastiat chama de falácia. Porque na realidade, é equivalente a um imposto. Tem o efeito de tornar os produtos mais caros. Vamos tomar o exemplo dado pelo próprio Bastiat.
+> O nosso encontro com Arnaud Montebourg
+> Fabricado em França,
+> ele acredita nele, nós testámo-lo
 
-Imagine uma faca inglesa que se vende em nosso país por 2 euros, e uma faca feita na França custa 3. Se deixarmos o consumidor livremente comprar a faca que quer, ele economiza um franco, que pode investir em outro lugar (em um livro, ou um lápis).
+---
 
-Se proibirmos o produto inglês, o consumidor pagará mais um franco pela sua faca. O protecionismo resulta assim em um lucro para uma indústria nacional e duas perdas, uma para outra indústria (a dos lápis) e outra para o consumidor. Ao contrário, o livre comércio faz dois felizes ganhadores.
+O argumento da proteção do emprego é aquilo a que Bastiat chama uma falácia. Porque, na realidade, é equivalente a um imposto. Tem o efeito de tornar os produtos mais caros. Vejamos o exemplo dado pelo próprio Bastiat.
 
-![image](assets/en/059.webp)
 
-O protecionismo é também uma forma de luta de classes. Segundo Bastiat, é um sistema baseado no egoísmo e na ganância dos produtores. Para aumentar sua remuneração, agricultores ou industriais exigem impostos para fechar o mercado aos produtos estrangeiros, forçando assim os consumidores a pagar mais pelos seus produtos.
+Imaginemos que uma faca inglesa é vendida no nosso país por 2 euros e que uma faca fabricada em França custa 3 euros. Se deixarmos o consumidor comprar livremente a faca que quiser, poupa 1 euro, que pode investir noutro lado (num livro ou num lápis).
+
+
+Se proibirmos o produto inglês, o consumidor pagará mais uma unidade pela sua faca. Assim, o protecionismo resulta num lucro para uma indústria nacional e em duas perdas, uma para outra indústria (a dos lápis) e outra para o consumidor. Pelo contrário, o comércio livre dá origem a dois felizes vencedores.
+
+
+
+
+O protecionismo é também uma forma de luta de classes. Segundo Bastiat, é um sistema baseado no egoísmo e na ganância dos produtores. Para aumentar a sua remuneração, os agricultores ou os industriais exigem impostos para fechar o mercado aos produtos estrangeiros, obrigando assim os consumidores a pagar mais pelos seus produtos.
+
 
 ![image](assets/en/060.webp)
 
-Bastiat firma-se ao lado dos consumidores. Contra o interesse de classe, ele coloca o interesse geral, que é o interesse do consumidor, ou seja, o interesse de todos. É sempre do ponto de vista do consumidor que o Estado deve se posicionar ao agir.
-Com a revolução de fevereiro de 1848 e suas barricadas, um inimigo mais formidável que o protecionismo emergiria, um com o qual compartilha muitas afinidades: o socialismo. O que é isso? É um movimento político que exige a organização do trabalho por lei, a nacionalização das indústrias e bancos, e a redistribuição da riqueza por meio da tributação. Bastiat agora dedicaria toda a sua energia, talento e escritos contra essa nova doutrina, que só poderia levar ao crescimento exponencial do poder e à luta de classes perpétua. Assim, desde os primeiros dias da revolução, ele contribuiu para um jornal de curta duração chamado "La République Française", que rapidamente se tornou conhecido como um jornal contrarrevolucionário. Foi nessa época que ele escreveu seus panfletos sobre propriedade, o estado, o saque e a lei.
-Em 27 de junho de 1848, um dia após uma nova insurreição sangrenta em Paris, em uma longa carta para Richard Cobden, ele refletiu sobre as causas que poderiam ter levado a esses eventos.
 
-- 1° A primeira dessas causas é a ignorância econômica. É isso que prepara as mentes para abraçar as utopias do socialismo e do falso republicanismo. Refiro-me ao vídeo anterior sobre as tendências da educação clássica e universitária neste ponto.
+Bastiat está firmemente do lado dos consumidores. Contra o interesse de classe, ele coloca o interesse geral, que é o interesse do consumidor, ou seja, o interesse de todos. É sempre do ponto de vista do consumidor que o Estado se deve posicionar quando actua.
 
-- 2° A nação se encantou com a ideia de que a fraternidade e a solidariedade poderiam ser introduzidas na lei. Ou seja, exigiu que o estado criasse diretamente a felicidade para seus cidadãos. Aqui Bastiat vê os inícios do estado de bem-estar social.
+
+Com a revolução de fevereiro de 1848 e as suas barricadas, surgiria um inimigo mais formidável do que o protecionismo, com o qual partilha muitas afinidades: o socialismo.
+
+
+![image](assets/en/061.webp)
+
+
+O que é isso? É um movimento político que exige a organização do trabalho por lei, a nacionalização das indústrias e dos bancos e a redistribuição da riqueza através da tributação. Bastiat dedicaria agora toda a sua energia, talento e escritos contra esta nova doutrina, que só poderia conduzir ao crescimento exponencial do poder e à perpétua luta de classes. Assim, desde os primeiros dias da revolução, ele contribuiu para um jornal de curta duração chamado "La République Française", que rapidamente se tornou conhecido como um jornal contrarrevolucionário. Foi nessa altura que escreveu os seus panfletos sobre a propriedade, o Estado, a pilhagem e a lei.
+
+
+Em 27 de junho de 1848, no dia seguinte a uma nova e sangrenta insurreição em Paris, numa longa carta a Richard Cobden, debruçou-se sobre as causas que poderiam ter conduzido a estes acontecimentos.
+
+
+
+- 1° A primeira dessas causas é a ignorância económica. É ela que prepara as mentes para abraçar as utopias do socialismo e do falso republicanismo. A este respeito, remeto para o vídeo anterior sobre as tendências do ensino clássico e universitário.
+
+
+
+- 2° A nação apaixonou-se pela ideia de que a fraternidade e a solidariedade podiam ser introduzidas na lei. Ou seja, exigiu que o Estado criasse diretamente a felicidade para os seus cidadãos. Bastiat vê aqui o início do Estado-providência.
+
 
 ![image](assets/en/062.webp)
 
-E ele continuaria a analisar seus efeitos perversos a partir de então. Aqui está um exemplo, citado na carta para Cobden:
 
-> Por virtude das inclinações naturais do coração humano, todos começaram a exigir do estado, para si mesmos, uma maior parcela de bem-estar. Ou seja, o estado ou o tesouro público foi posto a saque. Todas as classes exigiram do estado, como se fosse um direito, os meios de existência. Os esforços feitos nessa direção pelo estado só levaram a impostos e obstáculos, e ao aumento da miséria.
+E continuaria a analisar os seus efeitos perversos a partir de então. Eis um exemplo, citado na carta a Cobden:
 
-- 3° Bastiat acrescenta que, em sua visão, o protecionismo foi a primeira manifestação dessa desordem. Os capitalistas começaram pedindo a intervenção da lei para aumentar sua parcela de riqueza. Inevitavelmente, os trabalhadores quiseram fazer o mesmo.
+
+> Em virtude das inclinações naturais do coração humano, todos começaram a exigir do Estado, para si próprios, uma parte maior do bem-estar. Isto é, o Estado ou o tesouro público foi posto a saque. Todas as classes exigiam do Estado, como se fosse de direito, os meios de existência. Os esforços feitos nesse sentido pelo Estado só levaram a impostos e obstáculos, e ao aumento da miséria.
+
+
+- 3° Bastiat acrescenta que, na sua opinião, o protecionismo foi a primeira manifestação desta desordem. Os capitalistas começaram por pedir a intervenção da lei para aumentar a sua parte da riqueza. Inevitavelmente, os trabalhadores quiseram fazer o mesmo.
+
 
 ![image](assets/en/063.webp)
 
----
-
->PARA TER ÊXITO  
->VOTE SOCIALISTA SFIO
 
 ---
 
-Para concluir, protecionistas e socialistas compartilham um ponto comum, segundo Bastiat: o que eles buscam na lei não é garantir a todos o livre exercício de suas faculdades e a justa recompensa por seus esforços, mas sim favorecer a exploração mais ou menos completa de uma classe de cidadãos por outra. Com o protecionismo, é a minoria que explora a maioria. Com o socialismo, é a maioria que explora a minoria. Em ambos os casos, a justiça é violada e o interesse geral é comprometido. Bastiat os coloca um contra o outro.
+> PARA TER SUCESSO
+> VOTAR SFIO SOCIALISTA
 
-> O Estado é a grande ficção através da qual todos se esforçam para viver às custas de todos os outros.
+---
+
+Para concluir, proteccionistas e socialistas têm um ponto em comum, segundo Bastiat: o que pretendem da lei não é assegurar a todos o livre exercício das suas faculdades e a justa recompensa dos seus esforços, mas sim favorecer a exploração mais ou menos completa de uma classe de cidadãos por outra. Com o protecionismo, é a minoria que explora a maioria. No socialismo, é a maioria que explora a minoria. Em ambos os casos, a justiça é violada e o interesse geral é comprometido. Bastiat opõe-os um ao outro.
+
+
+> O Estado é a grande ficção através da qual todos tentam viver à custa de todos os outros.
 
 ## Proudhon
 
+
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-Pierre-Joseph Proudhon é um dos principais representantes do socialismo francês em meados do século XIX. Ele é especialmente famoso por esta declaração: "A propriedade é um roubo" em "O que é Propriedade?" em 1840.
+
+Pierre-Joseph Proudhon é um dos principais representantes do socialismo francês em meados do século XIX. É especialmente famoso por esta afirmação: "A propriedade é um roubo", em "O que é a propriedade?", de 1840.
+
 
 ![image](assets/en/064.webp)
-![image](assets/en/065.webp)
-Há algo logicamente absurdo nesta afirmação. Pois se não houvesse propriedade adquirida legitimamente, logicamente não poderia haver um ato como o roubo. É por isso que Proudhon mais tarde esclareceria que é a distribuição atual da propriedade que ele considera roubo, não a propriedade em si, que ele descreve como uma força revolucionária fundamental para a sociedade anarquista.
+
+
+
+Há algo de logicamente absurdo nesta afirmação. Porque se não houvesse propriedade legitimamente adquirida, logicamente não poderia haver um ato como o roubo. É por isso que Proudhon esclareceria mais tarde que é a distribuição efectiva da propriedade que ele considera roubo, e não a propriedade em si, que ele descreve como uma força revolucionária fundamental para a sociedade anarquista.
+
+
 ![image](assets/en/066.webp)
 
-Mas Proudhon é um anarquista individualista. Ele não vê o proletariado, nem o estado, como fontes legítimas de poder. Ele critica severamente o comunismo e defende o mutualismo dos trabalhadores, uma forma de solidariedade cooperativa estruturada, que dependeria da agregação voluntária de recursos para ajuda mútua. É menos conhecido, mas Bastiat não era de todo contrário a esta ideia em princípio. Ele simplesmente temia que o estado a transformasse em um serviço público monopolista de fato. A história provaria que ele estava certo.
 
-![image](assets/en/067.webp)
+Mas Proudhon é um anarquista individualista. Ele não vê o proletariado, nem o Estado, como fontes legítimas de poder. Critica duramente o comunismo e defende o mutualismo operário, uma forma de solidariedade cooperativa estruturada, que se basearia na partilha voluntária de recursos para ajuda mútua. É menos conhecido, mas Bastiat não se opunha de todo a esta ideia em princípio. Temia simplesmente que o Estado a transformasse num serviço público monopolista de facto. A história dar-lhe-ia razão.
 
-Por outro lado, é bem conhecido que em "A Miséria da Filosofia", Marx atacaria violentamente Proudhon e seu socialismo, que ele chamava de "utópico", em favor de um socialismo dito "científico".
+
+
+
+Por outro lado, é sabido que, em "A Pobreza da Filosofia", Marx atacaria violentamente Proudhon e o seu socialismo, que qualificou de "utópico", em favor de um socialismo dito "científico".
+
 
 ![image](assets/en/068.webp)
-Em junho de 1848, Proudhon foi eleito para a Assembleia Nacional, ao lado de Bastiat. Eles eram conhecidos e tinham grande estima um pelo outro. No entanto, em 1849, em uma controvérsia retumbante, Bastiat trocou catorze cartas com ele nas colunas de La Voix du Peuple. Nesta troca vigorosa, ele esclareceu sua posição sobre questões monetárias e bancárias. A disputa resumia-se à seguinte alternativa: crédito livre ou liberdade de crédito?
+
+Em junho de 1848, Proudhon é eleito deputado à Assembleia Nacional, ao lado de Bastiat. Os dois conheciam-se e tinham-se em grande consideração. No entanto, em 1849, numa polémica retumbante, Bastiat troca catorze cartas com ele nas colunas de La Voix du Peuple. Nesta vigorosa Exchange, esclarece a sua posição sobre questões monetárias e bancárias. A polémica resumia-se à seguinte alternativa: crédito livre ou liberdade de crédito?
+
 
 ![image](assets/en/069.webp)
 
-Proudhon via os juros sobre o capital como a causa inicial do pauperismo e da desigualdade de condições. Ele defendia a criação monetária ilimitada por um banco estatal (o Banco de Trocas ou Banco do Povo) e via no "crédito livre" a solução para o problema social. Por outro lado, Bastiat era um defensor da liberdade dos bancos, significando a regulação da circulação monetária através da liberdade de acesso à profissão, aliada a uma responsabilidade necessária sobre os próprios fundos, e a liberdade de concorrência.
+
+Proudhon via os juros sobre o capital como a causa inicial do pauperismo e da desigualdade de condições. Defendia a criação monetária ilimitada por um banco estatal (o Banco Exchange ou Banco do Povo), e via no "crédito livre" a solução para o problema social. Por outro lado, Bastiat defendia a liberdade dos bancos, ou seja, a regulação da circulação monetária através da liberdade de acesso à profissão, associada a uma necessária responsabilidade sobre os próprios fundos, e a liberdade de concorrência.
+
 
 ![image](assets/en/070.webp)
 
-Bastiat refutou seu oponente em várias etapas. Primeiro, ele analisou os efeitos perversos do crédito livre e da criação monetária. Tal sistema só poderia incentivar as ações mais arriscadas e imprudentes por bancos e atores privados porque sabem que estão cobertos pelo estado, isto é, pelo dinheiro dos contribuintes: "É uma questão séria colocar todos os homens em uma situação onde eles dizem: Vamos tentar a nossa sorte com a propriedade de outra pessoa; se eu tiver sucesso, tanto melhor para mim; se eu falhar, azar dos outros." Uma declaração premonitória, pois poderia se aplicar à nossa era.
+
+Bastiat refutou o seu adversário em várias etapas. Em primeiro lugar, analisou os efeitos perversos do crédito livre e da criação monetária. Um tal sistema só poderia encorajar as acções mais arriscadas e imprudentes dos bancos e dos agentes privados, porque estes sabem que estão cobertos pelo Estado, ou seja, pelo dinheiro dos contribuintes: "É grave colocar todos os homens numa situação em que digam: Vamos tentar a nossa sorte com a propriedade alheia; se eu for bem sucedido, tanto melhor para mim; se eu falhar, azar para os outros." Uma afirmação presciente que pode aplicar-se à nossa época.
+
 
 ![image](assets/en/071.webp)
 
-A política de taxas de juros baixas praticada pelos bancos centrais é uma maneira de criar dinheiro artificialmente. E as sucessivas crises do sistema financeiro ao longo do último século, com o endividamento dos estados, são suas consequências diretas.
 
-Então Bastiat mostra que é possível melhorar o poder de compra das classes trabalhadoras, mas por outros meios, mais justos e mais eficazes. Para ele, a redução das taxas de juros também é o objetivo de uma política liberal. Mas é através da liberação e acumulação de capital que isso é alcançado, não pela abolição dos juros, isto é, crédito livre.
+A política de baixas taxas de juro praticada pelos bancos centrais é uma forma de criar dinheiro artificialmente. E as sucessivas crises do sistema financeiro ao longo do último século, com o endividamento dos Estados, são as suas consequências diretas.
+
+
+Em seguida, Bastiat mostra que é possível melhorar o poder de compra das classes trabalhadoras, mas por outros meios, mais justos e mais eficazes. Para ele, a redução das taxas de juro é também o objetivo de uma política liberal. Mas é através da libertação e da acumulação de capital que isso se consegue, e não através da abolição dos juros, ou seja, do crédito livre.
+
 
 ![image](assets/en/072.webp)
-De fato, segundo Bastiat, o progresso da humanidade coincide com a formação de capital. Em seu panfleto intitulado Capital e Renda, Bastiat nos faz entender isso com Robinson Crusoe em sua ilha.
+
+
+De facto, segundo Bastiat, o progresso da humanidade coincide com a formação do capital. No seu panfleto intitulado Capital e Renda, Bastiat faz-nos compreender este facto com Robinson Crusoé na sua ilha.
+
+
 ![image](assets/en/073.webp)
-Sem capital acumulado ou materiais, Robinson estaria condenado à morte. Ele então explica que o capital enriquece o trabalhador de duas maneiras:
 
-- Aumenta a produção, diminuindo assim o preço dos bens de consumo
-- O que tem o efeito de aumentar os salários.
 
-Na sociedade moderna, o capital atua como uma força equalizadora. De fato, Bastiat diz:
+Sem capital ou materiais acumulados, Robinson estaria condenado à morte. Em seguida, explica que o capital enriquece o trabalhador de duas maneiras:
 
-> "quando o capital aumenta, ele compete consigo mesmo; sua remuneração diminui, ou, em outras palavras, a taxa de juros cai."
 
-Em conclusão, tanto Proudhon quanto Bastiat reconheceram a importância do acúmulo de capital e a tendência de alguns homens explorarem outros. No entanto, eles não chegaram às mesmas conclusões. Proudhon, como Marx, antecipou um empobrecimento crescente das massas nos países capitalistas. Bastiat acreditava que o capitalismo levaria a uma prosperidade sem precedentes em todas as classes, e o desenvolvimento de uma classe média cada vez mais significativa. Isso é de fato o que aconteceu.
 
-# Sofismas Econômicos
+- Aumenta a produção, diminuindo assim o preço dos bens de consumo;
+- o que tem como consequência o aumento dos salários.
+
+
+Na sociedade moderna, o capital actua como uma força equalizadora. De facto, Bastiat diz:
+
+
+> Quando o capital aumenta, compete consigo próprio; a sua remuneração diminui ou, por outras palavras, a taxa de juro desce.
+
+Em conclusão, tanto Proudhon como Bastiat reconheceram a importância da acumulação de capital e a tendência de alguns homens para explorarem outros. No entanto, não tiraram as mesmas conclusões. Proudhon, tal como Marx, previa um empobrecimento crescente das massas nos países capitalistas. Bastiat acreditava que o capitalismo conduziria a uma prosperidade sem precedentes em todas as classes e ao desenvolvimento de uma classe média cada vez mais significativa. Foi, de facto, o que aconteceu.
+
+
+# Sofismas económicos
+
 
 <partId>59686d1d-58c6-59a8-9fc4-74a10d24cdbe</partId>
 
-## O que é Visto e o que Não é Visto
+
+## O que se vê e o que não se vê
+
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-Neste capítulo, vou revelar uma tecnologia completamente nova, uma tecnologia revolucionária. Um pesquisador desenvolveu um par de óculos biônicos com uma mini-câmera ultra-poderosa embutida na frente. Esta tecnologia permite ver detalhes impossíveis de serem vistos a olho nu. Nos braços, há um chip eletrônico que transmite imagens diretamente para a nuvem via meu smartphone.
+
+Neste capítulo, vou revelar uma tecnologia totalmente nova, uma tecnologia revolucionária. Um investigador desenvolveu um par de óculos biónicos com uma mini-câmara ultra-poderosa embutida na parte da frente. Esta tecnologia permite ver pormenores impossíveis de ver a olho nu. Nas armas, há um chip eletrónico que transmite as imagens diretamente para a nuvem através do meu smartphone.
+
 
 ![image](assets/en/074.webp)
 
-O inventor do primeiro protótipo desses óculos foi Frédéric Bastiat em 1850 em um famoso panfleto: O que é Visto e o que Não é Visto. Estes óculos são os do economista. Eles permitem medir as consequências das decisões tomadas pelas autoridades em nossas vidas. São os óculos que "nos permitem ver o que não vemos": a destruição causada por políticas clientelistas e falsas teorias econômicas. Muitas vezes não vemos suas vítimas, nem seus beneficiários, em suma, seus reais efeitos em oposição às afirmações feitas em discursos oficiais, o que Bastiat chama de "Sofismas Econômicos".
-O bom economista, segundo Bastiat, deve descrever os efeitos das decisões políticas na sociedade. No entanto, eles devem estar atentos, não aos seus efeitos de curto prazo em um grupo específico, mas sim às suas consequências de longo prazo para a sociedade como um todo. Quem são as vítimas e quem são os beneficiários dessas políticas? Quais são os custos ocultos de uma certa lei ou decisão política? O que os contribuintes teriam feito em vez do governo com o dinheiro que foi tirado deles em impostos? Estas são as perguntas feitas pelo bom economista segundo Bastiat.
+
+O inventor do primeiro protótipo destes óculos foi Frédéric Bastiat, em 1850, num famoso panfleto: _Ce qu'on voit et ce qu'on ne voit pas_. Estes óculos são os do economista. Permitem medir as consequências das decisões tomadas pelas autoridades nas nossas vidas. São os óculos que "nos permitem ver o que não vemos": a destruição causada pelas políticas clientelistas e pelas falsas teorias económicas. Muitas vezes, não vemos as suas vítimas, nem os seus beneficiários, em suma, os seus efeitos reais, por oposição às afirmações feitas nos discursos oficiais, aquilo a que Bastiat chama "sofismas económicos"
+
+O bom economista, segundo Bastiat, deve descrever os efeitos das decisões políticas na sociedade. No entanto, deve estar atento, não aos seus efeitos a curto prazo num determinado grupo, mas sim às suas consequências a longo prazo para a sociedade no seu conjunto. Quem são as vítimas e quem são os beneficiários destas políticas? Quais são os custos ocultos de uma determinada lei ou decisão política? O que é que os contribuintes teriam feito em vez do governo com o dinheiro que lhes foi retirado em impostos? São estas as questões colocadas pelo bom economista, segundo Bastiat.
+
 
 Assim, em Obras Públicas, Bastiat escreve:
 
-> O Estado abre uma estrada, constrói um palácio, retifica uma rua, escava um canal; com isso, dá trabalho a certos trabalhadores, isso é o que é visto; mas priva trabalho de certos outros, isso é o que não é visto.
 
-Um dos sofismas mais conhecidos é a falácia da janela quebrada. Alguns afirmam que o quebrar de uma janela em uma casa não prejudica a economia, pois beneficia o vidraceiro. Mas Bastiat mostrará que a destruição não é do nosso interesse porque não cria riqueza. Custa mais do que rende. O jovem que quebra a janela do vizinho dá trabalho ao vidraceiro. Mas eis como seus amigos o consolam:
+> O Estado abre uma estrada, constrói um palácio, endireita uma rua, cava um canal; com isso, dá trabalho a certos trabalhadores, é o que se vê; mas priva de trabalho certos outros, é o que não se vê.
 
-> "Toda nuvem tem um lado bom. Tais acidentes mantêm a indústria em movimento. Todos precisam viver. O que seria dos vidraceiros se as janelas nunca fossem quebradas?"
+Um dos sofismas mais conhecidos é a falácia da janela partida. Há quem afirme que a quebra de uma janela de uma casa não prejudica a economia, pois beneficia o vidraceiro. Mas Bastiat mostrará que a destruição não é do nosso interesse porque não cria riqueza. Custa mais do que rende. O rapaz que parte a janela de um vizinho dá trabalho ao vidraceiro. Mas eis como os seus amigos o consolam:
 
-Assim, segundo Keynes, a destruição de propriedade, ao forçar gastos, estimularia a economia e teria um "efeito multiplicador" revigorante sobre a produção e o emprego. Isso é apenas o que se vê.
 
-Mas o que não se vê é o que o proprietário teria comprado com aquele dinheiro, mas que agora tem que fazer sem, com o que ele tem que gastar para reparar sua janela. O que não se vê é a oportunidade perdida do proprietário da janela quebrada. Ele poderia ter destinado a soma dada ao vidraceiro para outra coisa. Se não tivesse que gastar para reparar a janela, poderia ter gasto o dinheiro para seu próprio consumo, empregando assim pessoas para produção.
+> Todas as nuvens têm um lado positivo. Estes acidentes mantêm a indústria a funcionar. Toda a gente precisa de viver. O que seria dos vidraceiros se as janelas nunca se partissem?
 
-Assim, não haverá mais "estímulo" à economia com a quebra da janela do que sem ela. No entanto, terá havido uma perda líquida no primeiro caso: o valor da janela.
+Assim, segundo Keynes, a destruição de património, ao forçar a despesa, estimularia a economia e teria um "efeito multiplicador" revigorante sobre a produção e o emprego. Isto é apenas o que se vê.
+
+
+Mas o que não se vê é o que o proprietário teria comprado com esse dinheiro, mas que agora tem de prescindir, com o que tem de gastar para reparar a janela. O que não se vê é a oportunidade perdida pelo proprietário da janela partida. Ele poderia ter afetado o montante dado ao vidraceiro a outra coisa. Se não tivesse de gastar para reparar a janela, poderia ter gasto o dinheiro para consumo próprio, empregando assim pessoas para a produção.
+
+
+Assim, não haverá mais "estímulo" da economia com a quebra da janela do que sem ela. No entanto, no primeiro caso, terá havido uma perda líquida: o valor da janela.
+
 
 ![image](assets/en/075.webp)
-A primeira lição a aprender é que uma decisão ou política "boa" é aquela que custa à sociedade menos do que outra alocação de recursos poderia ter custado. A eficácia de uma política deve ser julgada não apenas com base em seus efeitos, mas também com base nas alternativas que poderiam ter ocorrido. Este é o conceito de "custo de oportunidade", caro a Bastiat.
 
-A segunda lição é que a destruição não estimula a economia como os keynesianos pensam, mas leva ao empobrecimento. A destruição de bens materiais não tem um efeito positivo sobre a economia, ao contrário do que se acredita popularmente. Para usar as palavras finais do texto de Frédéric Bastiat: "a sociedade perde o valor dos objetos desnecessariamente destruídos."
 
-Vamos pegar um exemplo atual. Assim que a indústria automobilística enfrenta dificuldades, os formuladores de políticas imaginam esquemas de sucateamento para "relançá-la". O que vemos é o aumento nas vendas da Renault e da Peugeot. O que não vemos é a perda para outros setores econômicos e que carros em perfeito estado de funcionamento são destruídos.
+A primeira lição a aprender é que uma "boa" decisão ou uma "boa" política é aquela que custa à sociedade menos do que outra afetação de recursos poderia ter custado. A eficácia de uma política deve ser avaliada não apenas com base nos seus efeitos, mas também com base nas alternativas que poderiam ter ocorrido. Este é o conceito de "custo de oportunidade", caro a Bastiat.
 
-Mas existem outras maneiras de impulsionar a economia. Se o Estado se envolve em grandes projetos ou investe fundos em certos setores industriais para apoiar o emprego, isso não é uma boa notícia para o crescimento? Não mais, Bastiat responderia. Porque com o que seria financiado o gasto público? Aumentando impostos ou por dívida, ou seja, por custos invisíveis mas muito reais, que impactarão o crescimento. Além disso, o governo não produz nada; simplesmente desvia recursos de seu uso privado. E o que não vemos são as muitas coisas que poderiam ter sido produzidas se o capital não tivesse sido retirado do setor privado para financiar programas governamentais.
 
-Finalmente, quase um século antes de Keynes, podemos dizer que Bastiat refutou os sofismas keynesianos que afirmam que o endividamento do estado incentiva a economia e que o gasto público produz crescimento.
+A segunda lição é que a destruição não estimula a economia, como pensam os keynesianos, mas conduz ao empobrecimento. A destruição de bens materiais não tem um efeito positivo na economia, ao contrário do que se pensa. Para usar as palavras finais do texto de Frédéric Bastiat: "a sociedade perde o valor dos objectos desnecessariamente destruídos"
+
+
+Vejamos um exemplo atual. Assim que a indústria automóvel está em dificuldades, os responsáveis políticos imaginam esquemas de abate para a "relançar". O que vemos é o aumento das vendas da Renault e da Peugeot. O que não se vê é o prejuízo para outros sectores económicos e a destruição de automóveis em perfeito estado de funcionamento.
+
+
+Mas há outras formas de estimular a economia. Se o Estado se envolve em grandes projectos ou investe fundos em certos sectores industriais para apoiar o emprego, não será isso uma boa notícia para o crescimento? Já não, responderia Bastiat. Porque como é que se financia a despesa pública? Através do aumento dos impostos ou do endividamento, ou seja, através de custos invisíveis, mas muito reais, que afectarão o crescimento. Além disso, o Estado não produz nada, limita-se a desviar os recursos do seu uso privado. E o que não vemos são as muitas coisas que poderiam ter sido produzidas se o capital não tivesse sido retirado do sector privado para financiar programas governamentais.
+
+
+Finalmente, quase um século antes de Keynes, podemos dizer que Bastiat refutou os sofismas keynesianos que afirmam que o endividamento do Estado estimula a economia e que a despesa pública produz crescimento.
+
 
 ![image](assets/en/076.webp)
 
-A grande lição desta série de textos é que a intervenção estatal tem efeitos perversos que não são vistos. Apenas um bom economista é capaz de prever isso. Política é o que vemos. A economia é o que não vemos.
+
+A grande lição desta série de textos é que a intervenção do Estado tem efeitos perversos que não se vêem. Só um bom economista é capaz de os prever. A política é o que se vê. A economia é o que não se vê.
+
 
 ## A petição dos fabricantes de velas
 
+
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-Em 1840, a Câmara dos Deputados votou por uma lei que aumentava os impostos de importação para proteger a indústria francesa. Esse é o famoso patriotismo econômico, que ainda encontramos hoje.
+
+Em 1840, a Câmara dos Deputados votou uma lei que aumentava os impostos de importação para proteger a indústria francesa. Este é o famoso patriotismo económico, que ainda hoje encontramos.
+
 
 ![image](assets/en/077.webp)
-![image](assets/en/078.webp)
 
-Bastiat então compôs um texto satírico que mais tarde se tornou uma de suas obras mais famosas: "a petição dos fabricantes de velas". Ele ilustra como certos grupos de pressão de produtores bem organizados obtêm privilégios indevidos do estado, em detrimento dos cidadãos. Ao mesmo tempo, demonstra a natureza absurda e destrutiva da legislação protecionista.
+_acima: Marine Le Pen, um político francês_
+
+
+
+Bastiat compôs então um texto satírico que mais tarde se tornou uma das suas obras mais famosas: "A petição dos fabricantes de velas". O texto ilustra a forma como certos grupos de pressão bem organizados de produtores obtêm privilégios indevidos do Estado, em detrimento dos cidadãos. Ao mesmo tempo, demonstra o carácter absurdo e destrutivo da legislação protecionista.
+
 
 ![image](assets/en/079.webp)
 
----
-
->PROTEJAM AS NOSSAS VELAS!
 
 ---
 
-Nesta petição, os fabricantes de velas pedem aos deputados proteção legal contra um rival perigoso:
+> PROTEGER AS NOSSAS VELAS!
 
-> Sofremos com a concorrência intolerável de um rival estrangeiro que, ao que parece, está em condições tão superiores para produzir luz que inunda nosso mercado nacional a um preço fabulosamente reduzido.
+---
 
-Então, quem é esse injusto concorrente estrangeiro? Não é outro senão o sol. Os produtores então destacam a oportunidade que haveria em reservar "o mercado nacional para o trabalho nacional", ordenando por meio de uma lei fechar "todas as janelas, claraboias, persianas, cortinas, venezianas, cortinados, lanternins, em uma palavra todas as aberturas, buracos, fendas e rachaduras por onde a luz do sol está acostumada a entrar nas casas".
+Nesta petição, os fabricantes de velas pedem aos deputados proteção jurídica contra um rival perigoso:
 
-Em outras palavras, os fabricantes de velas tentam demonstrar os efeitos prejudiciais de um "concorrente estrangeiro" (o sol) na economia da França. Porque não só o sol pode fornecer o mesmo "produto" que as velas, mas o faz gratuitamente. Duzentos anos depois, essa história permanece incrivelmente relevante. Considere os taxistas que pedem a lei para proibir VTCs e Uber. Pense nas livrarias que querem proibir a Amazon.
+
+> Sofremos a concorrência intolerável de um rival estrangeiro que, ao que parece, está em condições tão superiores para produzir luz que inunda o nosso mercado nacional a um preço fabulosamente reduzido.
+
+Então, quem é este concorrente estrangeiro desleal? Não é outro senão o sol. Os produtores destacam então a oportunidade que haveria em reservar "o mercado nacional para o trabalho nacional", ordenando, através de uma lei, que se fechem "todas as janelas, clarabóias, estores, persianas, cortinas, clarabóias, numa palavra, todas as aberturas, buracos, fendas e fissuras através das quais a luz do sol costuma entrar nas casas".
+
+
+Por outras palavras, os fabricantes de velas tentam demonstrar os efeitos nocivos de um "concorrente estrangeiro" (o sol) na economia de França. Porque não só o sol pode fornecer o mesmo "produto" que as velas, como o faz de graça. Duzentos anos depois, esta história continua a ser incrivelmente atual. Pensemos nos taxistas que pedem que a lei proíba os VTC e a Uber. Pensem nas livrarias que querem proibir a Amazon.
+
 
 ![image](assets/en/080.webp)
 
-O verdadeiro adversário de Bastiat nesta ficção é o protecionismo político e eleitoral, aquele que se baseia apenas na ganância dos produtores e na ingenuidade dos consumidores. Ele revela a conluio entre o mau capitalista da época e o Estado. Em vez de inovar e se adaptar ao mercado, o mau capitalista é aquele que busca obter uma vantagem política através do protecionismo. Isso sempre resulta em espoliação para o consumidor, ou seja, uma injustiça.
-Em resumo, o protecionismo é uma política deliberada a favor dos produtores contra os consumidores. No entanto, segundo Bastiat, os verdadeiros representantes do interesse geral são os consumidores, porque todos nós somos consumidores. Além disso, o propósito da economia é atender às nossas necessidades, não trabalhar.
-O protecionismo também se baseia em um silogismo oculto que se revela uma falácia:
 
-- Quanto mais trabalhamos, mais ricos somos;
-- Quanto mais dificuldades temos que superar, mais trabalhamos;
-- Portanto, quanto mais dificuldades temos que superar, mais ricos somos.
-  Vamos ilustrar essa absurdidade com algumas histórias curtas contadas por Bastiat. No Capítulo III da segunda série de Sofismas Econômicos, ele imagina um carpinteiro que escreve ao ministro uma petição pedindo por legislação protecionista. O carpinteiro formula assim o seu pedido: Sr. Ministro, faça uma lei que estipule que "Ninguém pode usar vigas e caibros produzidos com machados cegos." Em outras palavras, faça uma lei que proíba o uso de machados afiados na França. Assim, onde normalmente se dá 100 golpes de machado, será necessário dar 300. Carpinteiros estarão em alta demanda e, portanto, melhor remunerados.
-  ![image](assets/en/081.webp)
+O verdadeiro adversário de Bastiat nesta ficção é o protecionismo político e eleitoral, que se apoia unicamente na ganância dos produtores e na ingenuidade dos consumidores. Ele revela o conluio entre o mau capitalista da época e o Estado. Em vez de inovar e de se adaptar ao mercado, o mau capitalista é aquele que procura obter uma vantagem política através do protecionismo. O resultado é sempre uma espoliação para o consumidor, ou seja, uma injustiça.
 
-No Capítulo XVI, há outro texto muito irônico, intitulado: A Mão Direita e a Mão Esquerda. Após uma investigação, um enviado real elabora um relatório no qual propõe ao rei cortar, ou pelo menos amarrar, todas as mãos direitas dos trabalhadores. Assim, ele continua, o trabalho e consequentemente a riqueza aumentarão. A produção se tornará muito mais difícil, o que necessitará a contratação massiva de mão de obra adicional e um aumento nos salários. O pauperismo desaparecerá do país.
+Em suma, o protecionismo é uma política deliberada a favor dos produtores contra os consumidores. No entanto, segundo Bastiat, os verdadeiros representantes do interesse geral são os consumidores, porque todos nós somos consumidores.
 
-Seguindo essa lógica de criar empregos a todo custo, por que não também substituir caminhões por carrinhos de mão e pás por colheres de chá? Todos esses sofismas têm uma coisa em comum: eles confundem os meios com o fim. Para Bastiat, o objetivo da economia não é a preservação de empregos. Não deveríamos julgar a utilidade do trabalho pela sua duração e intensidade, mas pelos seus resultados: a satisfação das necessidades, utilidade.
 
-Essa confusão de meios e fim é encontrada no slogan "dinheiro é riqueza."
-Esse é o axioma que governa a política monetária da maioria dos estados. De fato, o aumento artificial na quantidade de dinheiro permite que bancos emprestem dinheiro a indivíduos e estados para facilmente repagar suas dívidas, isso é "o que vemos". Mas "o que não vemos" é que essa criação de dinheiro, não baseada em nenhuma criação real de riqueza, levará à inflação e à ruína dos poupadores.
+O protecionismo também se baseia num silogismo oculto que acaba por ser uma falácia:
 
-A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis que produzimos através do trabalho para satisfazer nossas necessidades. O dinheiro é assim apenas um meio de troca comumente usado, ele apenas desempenha o papel de um intermediário.
 
-## O Saque por meio da Tributação
+
+- Quanto mais trabalharmos, mais ricos seremos;
+- Quanto mais dificuldades tivermos de ultrapassar, mais trabalhamos;
+- Por conseguinte, quanto mais dificuldades tivermos de ultrapassar, mais ricos seremos.
+
+
+Ilustremos este absurdo com algumas histórias curtas contadas por Bastiat. No capítulo III da segunda série de Sofismas Económicos, ele imagina um carpinteiro que escreve ao ministro uma petição pedindo uma legislação protecionista. O carpinteiro formula assim o seu pedido: Senhor Ministro, faça uma lei que estipule que "ninguém poderá utilizar senão vigas e traves fabricadas com machados sem corte" Por outras palavras, fazer uma lei que proíba a utilização de machados afiados em França. Assim, onde normalmente se dá 100 golpes de machado, será necessário dar 300. Os carpinteiros serão muito procurados e, por conseguinte, mais bem pagos.
+
+
+![image](assets/en/081.webp)
+
+
+No capítulo XVI, há outro texto muito irónico, intitulado: A mão direita e a mão esquerda. Na sequência de uma investigação, um enviado real redige um relatório em que propõe ao rei cortar, ou pelo menos amarrar, todas as mãos direitas dos trabalhadores. Assim, continua ele, o trabalho e, consequentemente, a riqueza aumentarão. A produção tornar-se-á muito mais difícil, o que exigirá a contratação maciça de mais mão de obra e o aumento dos salários. O pauperismo desaparecerá do país.
+
+
+Seguindo esta lógica de criação de empregos a todo o custo, porque não substituir também os camiões por carrinhos de mão e as pás por colheres de chá? Todos estes sofismas têm uma coisa em comum: confundem os meios com os fins. Para Bastiat, o objetivo da economia não é a manutenção dos empregos. Não se deve julgar a utilidade do trabalho pela sua duração e intensidade, mas pelos seus resultados: a satisfação das necessidades, a utilidade.
+
+
+Esta confusão entre meios e fins está presente no slogan "dinheiro é riqueza"
+
+É este o axioma que rege a política monetária da maioria dos Estados. De facto, o aumento artificial da quantidade de dinheiro permite aos bancos emprestar dinheiro aos particulares e aos Estados pagar facilmente as suas dívidas, é "o que vemos". Mas "o que não vemos" é que esta criação de dinheiro, não baseada em qualquer criação real de riqueza, conduzirá à inflação e à ruína dos aforradores.
+
+
+
+
+A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis que produzimos através do trabalho para satisfazer as nossas necessidades. O dinheiro não passa, portanto, de um meio de Exchange vulgarmente utilizado, desempenhando apenas um papel de intermediário.
+
+
+## Pilhagem através da tributação
+
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
 
 > Quando os ricos perdem peso, os pobres morrem.
 
 ![image](assets/en/083.webp)
 
-Esta citação, atribuída a Lao-Tzu, descreve a consequência inevitável de um sistema de tributação que visa atingir os ricos mais do que os outros.
 
-No entanto, você já ouviu dizer:
+Esta citação, atribuída a Lao-Tzu, descreve a consequência inevitável de um sistema fiscal que visa atingir mais os ricos do que os outros.
 
-> A tributação é o melhor investimento: é um orvalho fertilizante! Veja quantas famílias ela sustenta, e siga, em pensamento, seus ricochetes na indústria: é infinito, é vida.
 
-Na França, onde os gastos públicos são considerados um benefício, os impostos são mais altos do que em outros países. Mas Bastiat nos alerta de imediato: "Em cada despesa pública, por trás do bem aparente há um mal mais difícil de discernir."
+No entanto, já alguma vez ouviste dizer:
 
-O que é isso?
-A economia descreve os efeitos bons ou ruins das decisões políticas em nossas vidas. No entanto, segundo Bastiat, o economista deve estar atento, não apenas aos seus efeitos de curto prazo em um grupo específico, mas sim às suas consequências de longo prazo para a sociedade como um todo.
 
-> "O que vemos é o trabalho e o lucro permitidos pela contribuição social. O que não vemos são as obras que seriam geradas por essa mesma contribuição se fosse deixada aos contribuintes. O que vemos é o trabalho e o lucro permitidos pela contribuição social. O que não vemos são as obras que seriam geradas por essa mesma contribuição se fosse deixada aos contribuintes."
+> A fiscalidade é o melhor investimento: é um orvalho fertilizante! Vejam quantas famílias sustenta, e sigam, em pensamento, os seus ricochetes na indústria: é infinito, é vida.
+
+Em França, onde a despesa pública é considerada um benefício, os impostos são mais elevados do que noutros países. Mas Bastiat avisa-nos logo de seguida: "Em cada despesa pública, por detrás do bem aparente, há um mal mais difícil de discernir."
+
+
+De que se trata?
+
+
+A economia descreve os efeitos positivos ou negativos das decisões políticas na nossa vida. No entanto, segundo Bastiat, o economista deve estar atento não só aos seus efeitos a curto prazo sobre um determinado grupo, mas também às suas consequências a longo prazo para a sociedade no seu conjunto.
+
+
+> O que vemos é o trabalho e o lucro permitido pela contribuição social. O que não vemos são as obras que seriam geradas por essa mesma contribuição se ela fosse deixada para os contribuintes. O que vemos é o trabalho e o lucro permitido pela contribuição social. O que não vemos são as obras que seriam geradas por essa mesma contribuição se ela fosse deixada aos contribuintes.
 >
+
 > F.Bastiat
 
-![image](assets/en/084.webp)
-Desde o início, ele refuta o argumento ainda prevalente de que os gastos públicos financiados por impostos criam empregos. De fato, os impostos não criam nada, pois o que é gasto pelo estado não é mais gasto pelos contribuintes.
 
-Além disso, o estado é mais desperdiçador do que os indivíduos. De fato, ele nos lembra, o estado não possui nada; não produz riqueza. Os gastos públicos são frequentemente uma fonte de desperdício porque as imensas somas confiscadas dos indivíduos escapam da responsabilidade de seus proprietários e são gastas em seu lugar por burocratas, sujeitos a grupos de pressão.
 
-![image](assets/en/085.webp)
+Desde o início, refuta o argumento, ainda prevalecente, de que a despesa pública financiada por impostos cria emprego. De facto, os impostos não criam nada, porque o que é gasto pelo Estado já não é gasto pelos contribuintes.
 
-Claro, como pagamento por um serviço público equivalente recebido em troca, a tributação é totalmente defensável. Mas na França, o estado atribuiu vários papéis aos impostos.
 
-Inicialmente, era suposto cobrir despesas comuns. Depois, os impostos também receberam um papel na regulação da economia. Neste caso, políticos e burocratas têm poder que é limitado apenas pela sua boa vontade. Absortos em suas construções artificiais, eles moldam a economia tributando e regulando setores mais ou menos de acordo com seus caprichos para favorecê-los ou desfavorecê-los.
+Além disso, o Estado é mais esbanjador do que os indivíduos. De facto, recorda, o Estado não possui nada, não produz riqueza. A despesa pública é muitas vezes uma fonte de desperdício, porque as somas imensas confiscadas aos indivíduos escapam à responsabilidade dos seus proprietários e são gastas em seu lugar por burocratas, sujeitos a grupos de pressão.
 
-Finalmente, um papel social foi atribuído aos impostos. Eles foram feitos um instrumento de justiça social. Assim, os impostos não devem atingir todos da mesma maneira. Os impostos devem ser redistributivos, daqueles "que têm mais" para aqueles "que têm menos".
 
-![image](assets/en/086.webp)
 
-O problema é que os impostos, como concebidos, estão sujeitos à arbitrariedade daqueles no poder. Eles favorecem ou desfavorecem certas categorias sociais dependendo se o poder espera votos deles ou não. Além disso, as taxas progressivas rendem pouco ao tesouro público. No entanto, permitem que a maioria exproprie uma minoria e naturalmente se tornem confiscatórias.
 
-É por isso que Bastiat já havia entendido a curva de Laffer. Arthur Laffer é um economista americano conhecido por sua famosa "curva" (uma elipse), publicada em 1974, que mostra que o rendimento dos impostos aumenta com a redução da taxa de imposto. Esta é a teoria do retorno decrescente da tributação excessiva.
+É claro que, como pagamento de um serviço público equivalente recebido em Exchange, a tributação é perfeitamente defensável. Mas em França, o Estado atribuiu várias funções aos impostos.
 
-> Imposto demais mata o imposto.
 
-Os políticos assumem ingenuamente que existe uma relação automática e fixa entre as taxas de imposto e as receitas fiscais. Eles pensam que podem dobrar as receitas fiscais dobrando a taxa de imposto. Segundo Laffer, tal abordagem ignora o fato de que os contribuintes podem mudar seu comportamento em resposta a novos incentivos.
+Inicialmente, destinava-se a cobrir as despesas comuns. Depois, os impostos passaram também a ter um papel regulador da economia. Neste caso, os políticos e os burocratas têm um poder que só é limitado pela sua boa vontade. Envolvidos nas suas construções artificiais, moldam a economia tributando e regulando os sectores mais ou menos de acordo com os seus caprichos para os favorecer ou desfavorecer.
+
+
+Por último, foi atribuída uma função social aos impostos. Foram transformados num instrumento de justiça social. Assim, os impostos não devem atingir toda a gente da mesma forma. Os impostos devem ser redistributivos, dos "que têm mais" para os "que têm menos"
+
+
+
+
+O problema é que os impostos, tal como são concebidos, estão sujeitos à arbitrariedade dos detentores do poder. Favorecem ou desfavorecem certas categorias sociais consoante o poder espera ou não votos delas. Além disso, as taxas progressivas rendem pouco ao erário público. No entanto, permitem à maioria expropriar uma minoria e tornam-se naturalmente confiscatórias.
+
+
+É por isso que Bastiat já tinha compreendido a curva de Laffer. Arthur Laffer é um economista americano conhecido pela sua famosa "curva" (uma elipse), publicada em 1974, que mostra que o rendimento dos impostos aumenta com a diminuição da taxa de imposto. É a teoria do rendimento decrescente da tributação excessiva.
+
+
+![image](assets/en/087.webp)
+
+
+> Demasiados impostos matam os impostos.
+>
+
+> Arthur Laffer
+
+Os políticos assumem ingenuamente que existe uma relação automática e fixa entre as taxas de imposto e as receitas fiscais. Pensam que podem duplicar as receitas fiscais duplicando a taxa de imposto. Segundo Laffer, esta abordagem não tem em conta o facto de os contribuintes poderem alterar o seu comportamento em resposta a novos incentivos.
+
 
 ![image](assets/en/088.webp)
 
-A curva de Laffer mostra que o governo não arrecada receita quando as taxas de imposto estão em 100%. Ao contrário, qualquer redução nos impostos serve para estimular a atividade econômica e, assim, as receitas do estado. De fato, reduzir as taxas marginais de imposto estimula o investimento, o trabalho, a criatividade e, assim, promove o crescimento econômico. Uma redução suficiente poderia produzir estímulo econômico suficiente para aumentar as receitas públicas ampliando significativamente a base tributária.
 
-Bastiat poderia acrescentar que tanta importância deveria ser dada à redução dos gastos do estado quanto à redução dos impostos. No entanto, como Margaret Thatcher, discípula de Frédéric Bastiat, colocou tão adequadamente:
-"O objetivo não é tornar os ricos pobres, mas tornar os pobres ricos." E ela disse isso ao se dirigir aos socialistas.
+A curva de Laffer mostra que o Estado não obtém receitas quando as taxas de imposto são de 100%. Pelo contrário, qualquer redução dos impostos serve para estimular a atividade económica e, consequentemente, as receitas do Estado. Com efeito, a redução das taxas marginais de imposto estimula o investimento, o trabalho e a criatividade, promovendo assim o crescimento económico. Uma redução suficiente poderia produzir um estímulo económico suficiente para aumentar as receitas públicas, alargando significativamente a base tributária.
 
-## As Duas Moralidades
+
+Bastiat poderia acrescentar que se deveria dar tanta importância à redução das despesas do Estado como à redução dos impostos. No entanto, como Margaret Thatcher, uma discípula de Frédéric Bastiat, disse tão corretamente:
+
+
+![image](assets/en/089.webp)
+
+
+> O objetivo não é tornar os ricos pobres, mas sim tornar os pobres ricos.
+
+E disse-o dirigindo-se aos socialistas.
+
+
+## As duas moralidades
+
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
-Todos conhecem Tartufo ou o Impostor, a comédia de Molière na qual um devoto astuto tenta seduzir Elmire e enganar seu marido Orgon. Como se pode proteger contra as decepções de tal hipócrita que finge fazer o bem enquanto trama contra você?
 
-Bastiat observa que existem duas maneiras de pôr fim a esse tipo de impostura: corrigir Tartufo ou iluminar Orgon. Claro, sempre haverá Tartufos, mas seu poder de causar dano seria muito reduzido se houvesse menos Orgons para ouvi-los.
+Muitas pessoas conhecem "Tartufo ou o Impostor", a comédia de Molière em que um devoto ardiloso tenta seduzir Elmire e enganar o seu marido Orgon. Como é que nos podemos proteger dos enganos de um tal hipócrita que finge fazer-nos bem, mas que conspira contra nós?
 
-A fraqueza da razão humana está na raiz do mau uso da liberdade. É a principal limitação dos humanos e a causa de muitos males. Portanto, é necessário iluminar as consciências sobre a natureza útil ou prejudicial, e assim justa ou injusta, dos atos humanos, sejam individuais ou coletivos.
 
-No entanto, existem duas maneiras complementares de iluminar o julgamento dos cidadãos, como Bastiat delineia em um capítulo da segunda série de Sofismas Econômicos intitulado "As Duas Moralidades".
+![image](assets/en/090.webp)
 
-- Primeiro, há uma "moralidade filosófica ou religiosa" que atua purificando e corrigindo a ação humana (o homem como agente)
-- Em seguida, há uma "moralidade econômica", que atua mostrando ao homem "as consequências necessárias de seus atos" (o homem como paciente)
-  Na verdade, são dois quadros morais perfeitamente complementares.
 
-1. A primeira aborda o coração e incentiva os indivíduos a fazer o bem; é a moralidade religiosa ou filosófica. É a mais nobre. Ela enraíza no coração do homem a consciência de seu dever. Diz-lhe:
+Bastiat observa que há duas maneiras de acabar com este tipo de impostura: corrigir o Tartufo ou esclarecer o Orgon. É claro que haverá sempre Tartufos, mas o seu poder de prejudicar seria muito reduzido se houvesse menos Orgãos para os ouvir.
 
-> Melhore-se; purifique-se; pare de fazer o mal; faça o bem, domine suas paixões; sacrifique seus interesses; não oprima seu próximo a quem é seu dever amar e aliviar; seja justo primeiro e caridoso depois.
 
-Em resumo, ensina a virtude, o ato altruísta. Essa moralidade, diz Bastiat, será eternamente a mais bela e tocante, pois mostra o que há de melhor no homem.
+A fraqueza da razão humana está na origem do mau uso da liberdade. É a principal limitação do ser humano e a causa de muitos males. Por isso, é necessário esclarecer as consciências sobre a natureza útil ou nociva, e portanto justa ou injusta, dos actos humanos, individuais ou colectivos.
+
+
+No entanto, há duas formas complementares de iluminar o juízo dos cidadãos, como Bastiat descreve num capítulo da segunda série dos Sofismas Económicos intitulado "As duas moralidades".
+
+
+![image](assets/en/091.webp)
+
+
+
+- Em primeiro lugar, há uma "moral filosófica ou religiosa" que actua purificando e corrigindo a ação humana (o homem como agente);
+- existe, então, uma "moral económica", que actua mostrando ao homem "as consequências necessárias dos seus actos" (o homem como doente).
+
+
+De facto, trata-se de dois quadros morais perfeitamente complementares.
+
+
+1. A primeira dirige-se ao coração e incita o indivíduo a fazer o bem; é a moral religiosa ou filosófica. É a mais nobre. Enraíza no coração do homem a consciência do seu dever. Diz-lhe:
+
+
+> Melhorai-vos; purificai-vos; deixai de fazer o mal; fazei o bem, domai as vossas paixões; sacrificai os vossos interesses; não oprimais o vosso próximo, a quem tendes o dever de amar e aliviar; sede primeiro justos e depois caridosos.
+
+Em suma, ensina a virtude, o ato altruísta. Esta moral, diz Bastiat, será eternamente a mais bela e comovente, pois mostra o que há de melhor no homem.
+
 
 ![image](assets/en/092.webp)
 
-2. A outra ajuda a denunciar e combater o mal através do conhecimento de seus efeitos, é a moralidade econômica. Ela se dirige ao intelecto e não ao coração, visando iluminar a vítima sobre os efeitos negativos de um comportamento. Reforça as lições da experiência. Esforça-se para espalhar o senso comum, conhecimento e desconfiança às massas oprimidas, tornando a opressão mais difícil.
 
-Esta moralidade econômica aspira ao mesmo resultado que a moralidade religiosa, mas partindo dos efeitos das ações humanas. Ensina-nos a reagir contra ações injustas ou prejudiciais e a defender aquelas que são justas ou úteis.
+2. A outra ajuda a denunciar e a combater o mal através do conhecimento dos seus efeitos, é a moral económica. Dirige-se ao intelecto e não ao coração, visando esclarecer a vítima sobre os efeitos negativos de um comportamento. Reforça as lições da experiência. Procura difundir o senso comum, o conhecimento e a desconfiança nas massas oprimidas, tornando a opressão mais difícil.
+
+
+Esta moral económica aspira ao mesmo resultado que a moral religiosa, mas a partir dos efeitos das acções humanas. Ensina-nos a reagir contra as acções injustas ou prejudiciais e a defender as que são justas ou úteis.
+
 
 ![image](assets/en/093.webp)
 
-Bastiat aqui destaca o papel da ciência, e em particular da ciência econômica. Embora diferente da moralidade tradicional, seu papel é igualmente necessário para combater a espoliação em todas as suas formas. A moralidade ataca o vício em sua intenção, ela educa a vontade. Por outro lado, a ciência ataca o vício entendendo seus efeitos, facilitando assim o triunfo da virtude.
 
-Concretamente, a ciência econômica, descrita por Bastiat como moralidade defensiva, consiste em refutar sofismas econômicos a fim de desacreditá-los completamente, e assim despojar a classe saqueadora de sua justificação e poder.
-A Economia Política, portanto, possui uma utilidade prática óbvia. Ela revela a espoliação em custos ocultos, obstáculos à competição e todas as formas de protecionismo.
-Mais uma vez, haveria menos Tartufos se houvesse menos Orgons para ouvi-los. Eis o que Bastiat tem a dizer sobre este assunto:
+Bastiat destaca aqui o papel da ciência e, em particular, da ciência económica. Embora diferente da moral tradicional, o seu papel é, no entanto, necessário para combater a espoliação em todas as suas formas. A moral ataca o vício na sua intenção, educa a vontade. Por outro lado, a ciência ataca o vício ao compreender os seus efeitos, facilitando assim o triunfo da virtude.
 
-![image](assets/en/094.webp)
-Que a moralidade religiosa, portanto, toque os corações dos Tartufos, se puder. A tarefa da economia política é iluminar seus enganados. Destas duas abordagens, qual funciona mais efetivamente para o progresso social? Deve ser dito? Acredito que seja a segunda. Receio que a humanidade não possa escapar da necessidade de primeiro aprender a moralidade defensiva.
 
-Claro, a economia política não é a ciência universal; ela não exclui abordagens filosóficas e religiosas. "Mas quem já exibiu tal reivindicação exorbitante em seu nome?" Bastiat se pergunta.
+Concretamente, a ciência económica, descrita por Bastiat como uma moral defensiva, consiste em refutar os sofismas económicos para os desacreditar completamente e, assim, retirar à classe saqueadora a sua justificação e o seu poder.
 
-Uma coisa é certa, não é o político quem pode mudar o curso das coisas e aperfeiçoar o homem. Pelo contrário, é necessário limitar o político e confiná-lo ao seu papel estrito, que é a segurança. É mais nos campos cultural, familiar, religioso e associativo, através do trabalho sobre ideias, através da educação e instrução, em suma, através da sociedade civil, que a responsabilidade e a solidariedade podem ser fortalecidas.
 
-# Harmonias Econômicas
+A Economia Política tem, portanto, uma utilidade prática evidente. Revela a espoliação dos custos ocultos, os obstáculos à concorrência e todas as formas de protecionismo.
+
+
+Mais uma vez, haveria menos Tartufos se houvesse menos Orgãos para os ouvir. Eis o que Bastiat tem a dizer sobre este assunto:
+
+
+
+
+> Que a moral religiosa toque, portanto, os corações dos Tartufos, se puder. A tarefa da economia política é iluminar os seus fantoches. Destas duas abordagens, qual é a mais eficaz para o progresso social? É preciso dizê-lo? Creio que é a segunda. Receio que a humanidade não possa escapar à necessidade de aprender primeiro a moral defensiva.
+
+É claro que a economia política não é a ciência universal, não exclui as abordagens filosóficas e religiosas. "Mas quem é que alguma vez fez uma afirmação tão exorbitante em seu nome?" Pergunta-se Bastiat.
+
+
+Uma coisa é certa, não é a política que pode mudar o curso das coisas e aperfeiçoar o homem. Pelo contrário, é necessário limitar a política e confiná-la ao seu papel estrito, que é a segurança. É antes nos domínios cultural, familiar, religioso e associativo, através do trabalho de ideias, da educação e da instrução, em suma, da sociedade civil, que a responsabilidade e a solidariedade podem ser reforçadas.
+
+
+# Harmonias económicas
+
 
 <partId>db04dfa4-a53e-5d3e-a307-a68ebc36dc4f</partId>
 
-## O Milagre do Mercado
+
+## O milagre do mercado
+
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-Uma sociedade harmoniosa pode prescindir de leis escritas, regras, medidas repressivas? Se os homens forem deixados livres, não testemunharemos desordem, anarquia, desorganização? Como evitar criar uma mera justaposição de indivíduos agindo fora de qualquer concerto, senão através de leis e uma organização política centralizada?
 
-Este é o argumento frequentemente invocado por aqueles que exigem regulação do mercado ou sociedade sozinha capaz de coordenar indivíduos em um todo coerente e harmonioso.
+Pode uma sociedade harmoniosa passar sem leis escritas, sem regras, sem medidas repressivas? Se os homens forem deixados livres, não se assistirá à desordem, à anarquia, à desorganização? Como evitar a criação de uma mera justaposição de indivíduos que actuam fora de qualquer concerto, senão através de leis e de uma organização política centralizada?
+
+
+Este é o argumento frequentemente invocado por aqueles que exigem a regulação do mercado ou apenas a sociedade capaz de coordenar os indivíduos num todo coerente e harmonioso.
+
 
 ![image](assets/en/095.webp)
 
-Esta não é a visão de Bastiat. Segundo ele, o mecanismo social, como o mecanismo celeste ou o mecanismo do corpo humano, obedece a leis gerais. Em outras palavras, já é um todo organizado harmoniosamente. E o motor desta organização é o mercado livre.
 
-O milagre do mercado livre, ele nos diz, é que ele utiliza conhecimentos que nenhuma pessoa sozinha pode possuir e que ele proporciona satisfações muito superiores a qualquer coisa que uma organização artificial pudesse fazer.
+Não é esse o ponto de vista de Bastiat. Segundo ele, o mecanismo social, tal como o mecanismo celeste ou o mecanismo do corpo humano, obedece a leis gerais. Por outras palavras, já é um todo harmoniosamente organizado. E o motor dessa organização é o mercado livre.
 
-Bastiat dá alguns exemplos para ilustrar os benefícios deste mercado. Tornamo-nos tão acostumados a este fenômeno que não prestamos mais atenção nele.
-Vamos considerar um carpinteiro em uma vila, ele diz, e observar todos os serviços que ele presta à sociedade e todos aqueles que ele recebe:
 
-> Todos os dias, ao acordar, ele se veste, e ele pessoalmente não fez nenhuma de suas roupas. No entanto, para que essas roupas estivessem disponíveis para ele, uma enorme quantidade de trabalho, indústria, transporte e invenções engenhosas teve que ser realizada em todo o mundo.
-> Então, ele toma café da manhã. Para que o pão que ele come chegue à sua mesa todas as manhãs, terras tiveram que ser desmatadas, aradas; ferro, aço, madeira, pedra tiveram que ser convertidos em ferramentas de trabalho; todas coisas que, cada uma tomada separadamente, assumem uma massa incalculável de trabalho em jogo, não apenas no espaço, mas no tempo.
+O milagre do mercado livre, diz-nos ele, é que utiliza conhecimentos que nenhuma pessoa pode possuir sozinha e que proporciona satisfações muito superiores a tudo o que uma organização artificial poderia fazer.
 
-Este homem enviará seu filho para a escola, para receber uma educação que pressupõe pesquisa, muitos anos de estudo prévio.
-Ele sai de casa: encontra uma rua pavimentada e iluminada.
 
-Sua propriedade é contestada: ele encontrará advogados para defender seus direitos, juízes para mantê-los, oficiais de justiça para executar a sentença; todas coisas que ainda pressupõem conhecimento adquirido, daí iluminação e meios de existência.
+Bastiat dá alguns exemplos para ilustrar as vantagens deste mercado. Estamos tão habituados a este fenómeno que já não lhe prestamos atenção.
 
-Bastiat descreve o mercado como uma ferramenta de cooperação descentralizada e invisível. Através do sistema de preços, ele transmite informações sobre as necessidades e habilidades de todos, conecta pessoas que querem cooperar para melhorar sua existência.
+Consideremos um carpinteiro numa aldeia, diz ele, e observemos todos os serviços que ele presta à sociedade e todos os que recebe:
 
-O que é impressionante, Bastiat conclui, é a imensa desproporção que existe entre os benefícios que este homem obtém da sociedade e aqueles que ele proporcionaria a si mesmo se fosse reduzido aos seus próprios recursos. Em um único dia, ele consome bens que não poderia produzir sozinho.
+
+> Todos os dias, ao acordar, veste-se e não faz nenhuma das suas roupas pessoalmente. No entanto, para que essas roupas estivessem disponíveis para ele, uma enorme quantidade de trabalho, indústria, transporte e invenções engenhosas tiveram que ser realizadas em todo o mundo.
+>
+
+> Depois, toma o pequeno-almoço. Para que o pão que ele come chegasse à sua mesa todas as manhãs, foi necessário desbravar terras, arar; ferro, aço, madeira, pedra tiveram de ser convertidos em instrumentos de trabalho; tudo coisas que, consideradas separadamente, pressupõem uma massa incalculável de trabalho posto em ação, não só no espaço como no tempo.
+>
+
+> Este homem vai mandar o seu filho para a escola, para receber uma educação que pressupõe investigação, muitos anos de estudo prévio.
+> Sai para o exterior: encontra uma rua pavimentada e iluminada.
+>
+
+> A sua propriedade é contestada: encontrará advogados para defender os seus direitos, juízes para os manter, oficiais de justiça para executar a sentença; tudo coisas que ainda pressupõem um conhecimento adquirido, logo, iluminação e meios de existência.
+
+Bastiat descreve o mercado como um instrumento descentralizado e invisível de cooperação. Através do sistema de preços, transmite informação sobre as necessidades e competências de cada um, liga pessoas que querem cooperar para melhorar a sua existência.
+
+
+O que é surpreendente, conclui Bastiat, é a imensa desproporção que existe entre os benefícios que este homem retira da sociedade e aqueles que ele proporcionaria a si próprio se estivesse reduzido aos seus próprios recursos. Num só dia, consome bens que não poderia produzir.
+
 
 ![image](assets/en/096.webp)
 
-Em 1958, o escritor americano Leonard Read (Foundation for Economic Education) publicou um curto ensaio na revista The Freeman, escrito à maneira de Bastiat, que se tornou muito famoso: "Eu, Lápis". Este texto é uma metáfora do que é um mercado livre. Começa assim:
 
-> Eu sou um lápis de chumbo, um lápis de madeira comum familiar a todos os meninos e meninas e adultos que sabem ler e escrever. É um dos objetos mais simples da civilização humana. E, no entanto, não há uma única pessoa nesta terra que saiba como me produzir.
+Em 1958, o escritor americano Leonard Read (Foundation for Economic Education) publicou um pequeno ensaio na revista The Freeman, escrito à maneira de Bastiat, que se tornou muito famoso: "I, Pencil". Este texto é uma metáfora do que é um mercado livre. Começa assim:
+
+
+> Sou um lápis de chumbo, um vulgar lápis de madeira, familiar a todos os rapazes, raparigas e adultos que sabem ler e escrever. É um dos objectos mais simples da civilização humana. E, no entanto, nem uma única pessoa nesta terra sabe como me produzir.
 
 ![image](assets/en/097.webp)
-Ele revisita a ideia de Bastiat de uma cooperação invisível entre milhões de indivíduos que não se conhecem, levando à construção de algo tão comum quanto um lápis. Ninguém sabe como fazer um lápis por conta própria. No entanto, milhões de seres humanos, sem saber, participam da criação deste simples lápis, trocando e coordenando seus conhecimentos e habilidades dentro de um sistema de preços sem nenhuma autoridade superior ditando sua conduta. Esta história demonstra que indivíduos livres trabalhando em busca de seu legítimo interesse agem mais em benefício da sociedade do que qualquer estratégia econômica planejada e centralizada.
 
-O Prêmio Nobel de Economia de 1976, Milton Friedman, também revisitou esta história do lápis para explicar ao grande público como funciona a economia de mercado.
 
-Em um episódio de sua série de televisão Free to Choose, ele analisa os vários componentes de algo tão comum e simples quanto um lápis e destaca o milagre da ordem espontânea, gerada por milhares de interações econômicas em todo o mundo. Pessoas que não se conhecem, que não compartilham a mesma religião ou costumes, ainda conseguem se coordenar para produzir este objeto. Ele conclui que o mercado livre é essencial para garantir não apenas a prosperidade, mas também a harmonia e a paz.
+Revisita a ideia de Bastiat de uma cooperação invisível entre milhões de indivíduos que não se conhecem, levando à construção de algo tão mundano como um lápis. Ninguém sabe fazer um lápis sozinho. No entanto, milhões de seres humanos participam inconscientemente na criação deste simples lápis, trocando e coordenando os seus conhecimentos e competências num sistema de preços sem que nenhuma autoridade superior dite a sua conduta. Esta história demonstra que os indivíduos livres que trabalham na prossecução dos seus interesses legítimos agem mais em benefício da sociedade do que qualquer estratégia económica planeada e centralizada.
+
+
+O Prémio Nobel da Economia de 1976, Milton Friedman, também revisitou esta história do lápis para explicar ao grande público como funciona a economia de mercado.
+
+
+Num episódio da sua série televisiva Free to Choose, ele analisa os vários componentes de algo tão mundano e simples como um lápis e destaca o milagre da ordem espontânea, gerada por milhares de interações económicas em todo o mundo. Pessoas que não se conhecem, que não partilham a mesma religião ou costumes, conseguem coordenar-se para produzir este objeto. O autor conclui que o mercado livre é essencial para garantir não só a prosperidade, mas também a harmonia e a paz.
+
 
 ![image](assets/en/098.webp)
 
-Friedrich Hayek, em seu ensaio "O Uso do Conhecimento na Sociedade" em 1945, já explicava por que a economia de mercado e a descentralização das decisões são vitais para a prosperidade. Segundo Hayek, nenhum planejador central ou burocrata poderia ter conhecimento suficiente para guiar com sucesso a totalidade das ações econômicas. Apenas o sistema de preços em um mercado livre permite que milhões de atores independentes decidam por si mesmos como alocar recursos de maneira eficiente.
-![imagem](assets/en/099.webp)
-O planejamento econômico, que alega fazer melhor que o mercado, leva não apenas a uma má alocação de recursos, mas também à hegemonia de uma classe sobre outra. É por isso que o socialismo não é apenas um erro intelectual, mas um erro que, em última análise, gera imensa injustiça.
 
-## Liberdade e responsabilidade são a chave para o problema social
+Friedrich Hayek, no seu ensaio "O Uso do Conhecimento na Sociedade", de 1945, já explicava porque é que a economia de mercado e a descentralização das decisões são vitais para a prosperidade. Segundo Hayek, nenhum planeador central ou burocrata poderia alguma vez ter conhecimentos suficientes para orientar com sucesso a totalidade das acções económicas. Só o sistema de preços num mercado livre permite que milhões de actores independentes decidam por si próprios como afetar eficazmente os recursos.
+
+
+![image](assets/en/099.webp)
+
+
+O planeamento económico, que pretende ser melhor do que o mercado, conduz não só a uma má distribuição dos recursos, mas também à hegemonia de uma classe sobre outra. É por isso que o socialismo não é apenas um erro intelectual, mas um erro que acaba por gerar uma imensa injustiça.
+
+
+## A liberdade e a responsabilidade são a chave para o problema social
+
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-Em uma carta para Alphonse de Lamartine em 1845, Bastiat escreveu que sua filosofia inteira está contida em um único princípio:
+
+Numa carta a Alphonse de Lamartine, em 1845, Bastiat escreveu que toda a sua filosofia está contida num único princípio:
+
 
 > A liberdade é a melhor forma de organização social.
-> ![imagem](assets/en/100.webp)
-> No entanto, ele adiciona uma condição
 
-> "Que a lei não deve eliminar as consequências, positivas ou negativas, das ações de todos. Este é o princípio corolário da responsabilidade.": "Que a lei não deve eliminar as consequências, positivas ou negativas, das ações de todos. Este é o princípio corolário da responsabilidade."
+![image](assets/en/100.webp)
 
-Em outras palavras, liberdade e responsabilidade não podem ser separadas; elas são inseparáveis. Para ele, o liberalismo distingue-se do socialismo pela crença de que a liberdade não pode existir sem responsabilidade. Mas que realidades as palavras liberdade e responsabilidade cobrem exatamente?
+No entanto, acrescenta uma condição:
 
-A liberdade é essencialmente definida de forma negativa: ser livre é agir sem coerção externa no exercício dos próprios direitos. No entanto, isso não significa a ausência de todas as restrições. Porque a liberdade exige reciprocidade: também nos impõe a agir sem infringir a propriedade dos outros e, assim, reparar qualquer dano causado, se necessário. Isso é responsabilidade.
 
-Portanto, a responsabilidade representa, de certa forma, o aspecto positivo da liberdade: na medida em que se age livremente, deve-se arcar com as consequências das próprias ações, boas ou ruins.
+> Que a lei não deve eliminar as consequências, positivas ou negativas, dos actos de cada um. Este é o princípio corolário da responsabilidade.
 
-A responsabilidade individual é tanto um vetor importante de criatividade quanto um incentivo para cautela e previsão.
+Por outras palavras, a liberdade e a responsabilidade não podem ser separadas; são inseparáveis. Para ele, o liberalismo distingue-se do socialismo pela convicção de que a liberdade não pode existir sem responsabilidade. Mas que realidades abrangem exatamente as palavras liberdade e responsabilidade?
 
-![imagem](assets/en/101.webp)
 
-Quando se gasta o próprio dinheiro, tem-se cuidado para não se endividar demais, para verificar a qualidade dos produtos, a confiabilidade dos fornecedores, sob o risco de ser severamente penalizado. Tal é o poder da responsabilidade, aliada à liberdade é o verdadeiro motor do progresso social.
+A liberdade é essencialmente definida de forma negativa: ser livre é atuar sem coação externa no exercício dos seus próprios direitos. No entanto, isto não significa a ausência de qualquer constrangimento. Porque a liberdade exige reciprocidade: impõe-nos também agir sem violar a propriedade dos outros e, portanto, reparar os danos causados, se necessário. Isto é responsabilidade.
 
-Mas de onde vem o fenômeno da irresponsabilidade ou desresponsabilização? Frédéric Bastiat nos dá uma resposta a esta questão, uma resposta política. Ele diz, eu cito:
 
-> "A intervenção do Estado tira a governança de nós mesmos."
+Assim, a responsabilidade representa, de certa forma, o aspeto positivo da liberdade: na medida em que se age livremente, é preciso suportar as consequências dos próprios actos, bons ou maus.
 
-De fato, o estatismo reduz continuamente a iniciativa privada e a livre escolha das pessoas. Faz por elas o que poderiam fazer por si mesmas e melhor. Assim, subtrai os indivíduos das consequências de seus atos. Destroi a responsabilidade.
 
-![imagem](assets/en/102.webp)
+A responsabilidade individual é simultaneamente um importante vetor de criatividade e um incentivo à prudência e à previsão.
 
-Segundo Bastiat, a hipertrofia das leis e a intervenção excessiva do Estado têm a consequência de engendrar a luta pelo poder, espoliação, privilégios, monopólios, guerras, em suma, tudo que obstrui o progresso da civilização.
-O risco de favorecer excessivamente o caminho da lei ou controle burocrático é que isso desencoraja toda motivação impondo um dilúvio de restrições, privando-nos assim dos múltiplos avanços que a iniciativa privada e a escolha livre permitem.
 
-Vamos ilustrar esta questão com alguns tópicos atuais importantes. Primeiro exemplo, a crise de 2008.
+![image](assets/en/101.webp)
 
-![imagem](assets/en/103.webp)
-_(Alan Greenspan, Presidente do FED, o banco central americano, de 1987 a 2006)_
-Por anos, líderes de política monetária explicaram que se os lucros são privatizados quando tudo vai bem, as perdas serão mutualizadas em caso de falência (resgates, planos de salvamento, manipulação de taxas de juros, impressão de dinheiro, etc.). Ao fazer isso, eles criaram um risco moral, facilitaram a tomada de riscos irracionais e incentivaram o mundo financeiro a se comportar de maneira irresponsável. Eles assim precipitaram as finanças na crise que vivenciamos.
 
-![image](assets/en/104.webp)
+Quando alguém gasta o seu próprio dinheiro, tem o cuidado de não se endividar demasiado, de verificar a qualidade dos produtos, a fiabilidade dos fornecedores, sob pena de ser fortemente penalizado. Tal é o poder da responsabilidade que, aliada à liberdade, é o verdadeiro motor do progresso social.
 
-E o fenômeno se repetirá indefinidamente enquanto os bancos permanecerem sob a dominação de autoridades centrais supostas para protegê-los, removendo toda autonomia de decisão e operação.
+
+Mas de onde vem o fenómeno da irresponsabilidade ou da desresponsabilização? Frédéric Bastiat dá-nos uma resposta a esta questão, uma resposta política. Ele diz, e passo a citar:
+
+
+> A intervenção do Estado retira-nos a governação de nós próprios.
+
+De facto, o estatismo reduz continuamente a iniciativa privada e a livre escolha das pessoas. Faz por elas o que elas poderiam fazer por si próprias e melhor. Subtrai assim os indivíduos às consequências dos seus actos. Destrói a responsabilidade.
+
+
+![image](assets/en/102.webp)
+
+
+Segundo Bastiat, a hipertrofia das leis e a intervenção excessiva do Estado têm como consequência a luta pelo poder, a espoliação, os privilégios, os monopólios, as guerras, em suma, tudo o que impede o progresso da civilização.
+
+O risco de favorecer excessivamente a via da lei ou do controlo burocrático é o de desencorajar todas as motivações, impondo um dilúvio de restrições, privando-nos assim dos múltiplos avanços que a iniciativa privada e a livre escolha permitem.
+
+
+Vamos ilustrar esta questão com alguns grandes temas da atualidade. O primeiro exemplo é a crise de 2008.
+
+
+![image](assets/en/103.webp)
+
+(Alan Greenspan, presidente do FED, o banco central americano, de 1987 a 2006)
+
+
+Durante anos, os responsáveis pela política monetária explicaram que, se os lucros são privatizados quando tudo corre bem, as perdas serão mutualizadas em caso de falência (resgates, planos de salvamento, manipulação das taxas de juro, impressão de dinheiro, etc.). Ao fazê-lo, criaram um risco moral, facilitaram a assunção de riscos desmesurados e encorajaram o mundo financeiro a comportar-se de forma irresponsável. Assim, precipitaram a finança na crise que vivemos.
+
+
+
+
+E o fenómeno repetir-se-á indefinidamente enquanto os bancos permanecerem sob o domínio de autoridades centrais que deveriam protegê-los, retirando-lhes toda a autonomia de decisão e de funcionamento.
+
 
 Outro exemplo: serviços públicos
 
+
 ![image](assets/en/105.webp)
 
-Cada serviço público impõe as preferências de uma elite burocrática, em detrimento da livre escolha individual. Isso leva a duas consequências segundo Bastiat: O cidadão "para de exercer controle livre sobre suas próprias satisfações, e, não tendo mais a responsabilidade, naturalmente ele deixa de ter a inteligência." A razão é simples: toda lei escrita é coercitiva e é a mesma para todos, não leva em conta as situações particulares, necessidades e preferências dos cidadãos.
 
-Finalmente, o serviço público é uma causa de imobilidade. De fato, quando serviços privados tornam-se públicos, eles escapam da competição. Consequentemente, diz Bastiat, eu cito: "o oficial é desprovido daquele estímulo que empurra em direção ao progresso."
+Cada serviço público impõe as preferências de uma elite burocrática, em detrimento da livre escolha individual. Segundo Bastiat, isto leva a duas consequências: O cidadão "deixa de exercer um controlo livre sobre as suas próprias satisfações e, deixando de ter a responsabilidade, deixa naturalmente de ter a inteligência" A razão é simples: toda a lei escrita é coerciva e é igual para todos, não tem em conta as situações particulares, as necessidades e as preferências dos cidadãos.
+
+
+Por último, o serviço público é uma causa de imobilidade. De facto, quando os serviços privados se tornam públicos, escapam à concorrência. Por conseguinte, diz Bastiat, e cito: "o funcionário é desprovido do estímulo que impele ao progresso"
+
 
 ![image](assets/en/106.webp)
 
-Quando observamos o serviço público de educação nacional, entendemos o que Bastiat quer dizer. Ele alivia a grande maioria dos pais do ônus de educar seus filhos, reduzindo a escola a uma creche. Não incentiva os professores a inovar e assumir riscos porque, em tal sistema, eles são meramente executores de um programa desenhado sem eles, por burocratas. Finalmente, ignora a realidade das necessidades particulares de cada indivíduo.
+
+Quando observamos o serviço público da educação nacional, compreendemos o que Bastiat quer dizer. Este sistema alivia a grande maioria dos pais do ónus de educar os seus filhos, reduzindo a escola a uma creche. Não incentiva os professores a inovar e a correr riscos, porque nesse sistema eles são meros executores de um programa concebido sem eles, por burocratas. Por último, ignora a realidade das necessidades específicas de cada indivíduo.
+
 
 ![image](assets/en/107.webp)
-Veremos em outro curso, segundo Bastiat, os únicos serviços públicos legítimos de um estado são três: o militar, a polícia e o judiciário. Mas para concluir sobre responsabilidade, o problema com a intervenção estatal é que aqueles que tomam decisões não são os que sofrem as consequências.
-Em outras palavras, escolhas coletivas não são escolhas responsáveis já que, por um lado, não envolvem tomada de risco para os tomadores de decisão, e por outro lado, forçam outros a sofrer certas consequências, o que é tão desastroso quanto imoral.
 
-## O Poder da Responsabilidade
+Veremos noutro curso que, segundo Bastiat, os únicos serviços públicos legítimos de um Estado são três: o exército, a polícia e o poder judicial. Mas para concluir sobre a responsabilidade, o problema da intervenção do Estado é que aqueles que tomam as decisões não são os que sofrem as consequências.
+
+Por outras palavras, as escolhas colectivas não são escolhas responsáveis, uma vez que, por um lado, não implicam qualquer risco para os decisores e, por outro, obrigam os outros a sofrer certas consequências, o que é tão desastroso quanto imoral.
+
+
+## O poder da responsabilidade
+
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-No curso anterior, vimos por que liberdade e responsabilidade são chaves para o problema social. Agora, vamos aprofundar neste ponto mostrando como Frédéric Bastiat vê os males que afligem as sociedades e sua solução.
 
-Os liberais às vezes foram criticados por ignorar o mal e construir a utopia da liberdade pura e perfeita em um mundo ideal. Esta crítica é absolutamente infundada em relação ao nosso autor.
+No curso anterior, vimos porque é que a liberdade e a responsabilidade são fundamentais para o problema social. Vamos agora aprofundar este ponto, mostrando como Frédéric Bastiat vê os males que afligem as sociedades e a sua solução.
 
-Ninguém pode ignorar o mal que reina na história das sociedades humanas: injustiças, guerras e sofrimentos. Gostaríamos de poder eliminar esses males. Isso é, aliás, o objeto de uma grande parte das filosofias modernas, de Rousseau a Heidegger, passando por Hegel e Marx.
-O mal não é apenas uma realidade definitiva, mas também tem um papel a desempenhar na história e na ação humana, diz Frédéric Bastiat. Ele pode ser reduzido, mas certamente não completamente erradicado, pois isso significaria matar a liberdade e a responsabilidade. Então, de onde vem o mal, qual é o seu papel e como pode ser prevenido?
-Para responder a essas perguntas, Bastiat procederá à análise da ação humana. Isso, de fato, pode levar tanto ao bem quanto ao mal.
+
+Os liberais foram por vezes criticados por ignorarem o mal e construírem a utopia da liberdade pura e perfeita num mundo ideal. Esta crítica é absolutamente infundada em relação ao nosso autor.
+
+
+Ninguém pode ignorar o mal que reina na história das sociedades humanas: injustiças, guerras e sofrimento. Gostaríamos de poder eliminar esses males. Este é, aliás, o objetivo de uma grande parte das filosofias modernas, de Rousseau a Heidegger, passando por Hegel e Marx.
+
+
+O mal não é apenas uma realidade definitiva, mas tem também um papel a desempenhar na história e na ação humana, diz Frédéric Bastiat. Pode ser reduzido, mas certamente não pode ser completamente erradicado, porque isso significaria matar a liberdade e a responsabilidade. Então, de onde vem o mal, qual é o seu papel e como pode ser evitado?
+
+
+Para responder a estas questões, Bastiat vai analisar a ação humana. Esta, de facto, pode conduzir tanto ao bem como ao mal.
+
 
 ![image](assets/en/108.webp)
 
-O mal surge primeiramente de nossa imperfeição. Escolher livremente é correr o risco de fazer uma má escolha, diz Bastiat. De fato, podemos ser enganados de muitas maneiras, até mesmo sobre nossas próprias necessidades e interesses. O homem é falível, ele está propenso a errar na compreensão do jogo das leis econômicas ou a desviá-las de seu fim.
 
-Portanto, é a imperfeição da razão que é o principal limite dos homens e que permanece na origem de nossos sofrimentos.
-Se o mal decorre da fraqueza humana e não da liberdade em si, nem do livre comércio, o remédio não está na supressão da liberdade ou do intercâmbio, mas na própria responsabilidade, já que é a fonte de toda experiência. Este princípio da responsabilidade é o seguinte, cito Bastiat:
+O mal resulta, em primeiro lugar, da nossa imperfeição. Escolher livremente é correr o risco de fazer uma má escolha, diz Bastiat. De facto, podemos ser enganados de muitas maneiras, mesmo em relação às nossas próprias necessidades e interesses. O homem é falível, tem tendência para se enganar na compreensão do jogo das leis económicas ou para as desviar do seu fim.
 
-> Todo homem que age recebe a recompensa ou punição de suas ações.
 
-Por meio dessa sanção natural, o homem aprende, descobre, corrige-se, progride e melhora. Em outras palavras, a responsabilidade é um princípio de aperfeiçoamento e progresso como vimos no curso anterior.
+Por conseguinte, é a imperfeição da razão que constitui o principal limite dos homens e que está na origem dos nossos sofrimentos.
+
+Se o mal provém da fraqueza humana e não da liberdade em si, nem do comércio livre, o remédio não está na supressão da liberdade ou da Exchange, mas na própria responsabilidade, uma vez que esta é a fonte de toda a experiência. Este princípio de responsabilidade é o seguinte, cito Bastiat:
+
+
+> Todo o homem que age recebe a recompensa ou o castigo das suas acções.
+
+Através desta sanção natural, o homem aprende, descobre, corrige-se, progride e melhora. Por outras palavras, a responsabilidade é um princípio de perfetibilidade e de progresso, como vimos no curso anterior.
+
 
 ![image](assets/en/109.webp)
 
-Se um homem suporta as consequências, boas ou ruins, de suas decisões, ele tenderá a melhorar aprendendo com a experiência. Portanto, a responsabilidade individual, que é o grande educador dos povos segundo Bastiat, o princípio fundamental de toda regulação de comportamentos e sociedades, deve ser permitida para agir.
 
-O mal gera sofrimento, e o sofrimento nos faz entender a falta ou erro, nos traz de volta ao caminho certo. É através do conhecimento do mal que progredimos.
+Se um homem suportar as consequências, boas ou más, das suas decisões, tenderá a melhorar, aprendendo com a experiência. Assim, a responsabilidade individual, que é o grande educador dos povos segundo Bastiat, o princípio fundamental de toda a regulação dos comportamentos e das sociedades, deve poder atuar.
 
-É porque o homem arrisca cometer erros ou agir de forma errada e sofrer as consequências, que ele é incentivado a ser responsável. Ele então se esforçará para antecipar os perigos que poderiam atingi-lo para se proteger.
+
+O mal gera sofrimento, e o sofrimento faz-nos compreender a falta ou o erro, traz-nos de volta ao bom caminho. É através do conhecimento do mal que progredimos.
+
+
+É porque o homem se arrisca a cometer erros ou a agir incorretamente e a sofrer as consequências, que é encorajado a ser responsável. Assim, esforçar-se-á por antecipar os perigos que o podem atingir, a fim de se proteger.
+
 
 ![image](assets/en/110.webp)
 
----
-
->Errar é humano.
 
 ---
 
-Assim, é claro que Bastiat está longe de ser cego. Ele não nega a existência do mal. O homem é fraco, propenso ao erro e à falta. Em lugar algum verá Bastiat negar o fato de que o exercício da liberdade individual está associado à possibilidade de erro, à possibilidade de uma escolha irracional ou sem sentido.
+> Errar é humano.
 
-Ele simplesmente afirma que se a fonte do mal reside na ausência de liberdade, o remédio está na própria liberdade, e mais especificamente no exercício pleno e integral da responsabilidade pessoal.
+---
+
+Assim, é evidente que Bastiat está longe de ser cego. Não nega a existência do mal. O homem é fraco, passível de erros e falhas. Em nenhum lugar se verá Bastiat negar o facto de o exercício da liberdade individual estar associado à possibilidade de erro, à possibilidade de uma escolha irracional ou insensata.
+
+
+Afirma simplesmente que, se a fonte do mal reside na ausência de liberdade, o remédio está na própria liberdade e, mais especificamente, no exercício pleno e integral da responsabilidade pessoal.
+
 
 ![image](assets/en/111.webp)
 
-Mas se o mau uso da liberdade está na origem de nossos males, seu uso adequado é o remédio, ou seja, o exercício pleno e integral da responsabilidade pessoal, baseado no direito de propriedade. A regulação social, portanto, passa pela responsabilidade, não pela intervenção do Estado em todas as áreas, que é uma das grandes fontes de espoliação e, assim, de males.
+
+Mas se o mau uso da liberdade está na origem dos nossos males, o seu uso correto é o remédio, ou seja, o exercício pleno e integral da responsabilidade pessoal, assente no direito de propriedade. A regulação social passa, portanto, pela responsabilidade e não pela intervenção do Estado em todos os domínios, que é uma das grandes fontes de espoliação e, portanto, de males.
+
 
 ![image](assets/en/112.webp)
-Contrariamente a Rousseau, que busca erradicar o mal por meio de instituições coletivas, Frédéric Bastiat defende a possibilidade do mal e do erro, sem os quais não há liberdade ou responsabilidade individual. Pois é isso que, sozinho, permite, por meio de um processo de descoberta, progredir e reduzir os males sociais.
-Deve ser esclarecido que este desenvolvimento do progresso através da responsabilidade de forma alguma é automático. Não é, de todo, como com Hegel ou Marx, uma espécie de determinismo natural ou histórico, que levaria milagrosa ou mecanicamente à harmonia e ao progresso. Trata-se de uma redução gradual e indefinida do mal e nunca sobre sua eliminação definitiva.
 
-## Verdadeira e Falsa Solidariedade
+Ao contrário de Rousseau, que procura erradicar o mal através de instituições colectivas, Frédéric Bastiat defende a possibilidade do mal e do erro, sem os quais não há liberdade nem responsabilidade individual. Pois só ela permite, através de um processo de descoberta, progredir e reduzir os males sociais.
+
+É preciso esclarecer que este desenvolvimento do progresso através da responsabilidade não é de modo algum automático. Não se trata de modo algum, como para Hegel ou Marx, de uma espécie de determinismo natural ou histórico, que conduziria milagrosa ou mecanicamente à harmonia e ao progresso. Trata-se de uma redução gradual e indefinida do mal e nunca da sua eliminação definitiva.
+
+
+## Solidariedade verdadeira e falsa
+
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![image](assets/en/113.webp)
 
-Frédéric Bastiat, em seu famoso panfleto "A Lei", denuncia a perversão da lei que consiste em legalizar, sob o nome de "solidariedade", o que de fato deve ser chamado de pilhagem. De fato, há uma contradição em querer impor fraternidade por meio da lei, o que chamaríamos hoje de "justiça social" ou solidariedade.
 
-![image](assets/en/114.webp)
 
-Pois a moralidade é definida como comportamento voluntário. Quando um indivíduo é forçado a dar algo que não deseja dar, ele é sempre vítima de roubo.
+Frédéric Bastiat, no seu célebre panfleto "A Lei", denuncia a perversão do direito que consiste em legalizar, sob o nome de "solidariedade", aquilo a que, de facto, se deve chamar pilhagem. De facto, há uma contradição em querer impor a fraternidade através da lei, aquilo a que hoje chamaríamos "justiça social" ou solidariedade.
+
+
+
+
+Porque a moral é definida como um comportamento voluntário. Quando um indivíduo é forçado a dar algo que não quer dar, está sempre a ser vítima de roubo.
+
 
 ![image](assets/en/115.webp)
 
-De fato, quando uma doação é tornada obrigatória por lei, ela não é mais uma atitude moral. A atitude moral de dar é substituída pela reivindicação "a direitos", que são reivindicações sobre o trabalho dos outros. Falsa solidariedade é o apelo para viver às custas dos outros.
 
-Isso é o que Bastiat chama de "o sofisma da fraternidade legal". Vamos citá-lo neste ponto:
+De facto, quando a doação é tornada obrigatória por lei, deixa de ser uma atitude moral. A atitude moral de dar é substituída pela reivindicação "de direitos", que são reivindicações sobre o trabalho dos outros. A falsa solidariedade é o apelo a viver à custa dos outros.
 
-> A fraternidade é espontânea, ou não é. Decretá-la é destruí-la.
 
-E novamente:
+É o que Bastiat chama "o sofisma da fraternidade jurídica" Citamo-lo sobre este ponto:
 
-> Os governos só exercem uma ação que é sancionada pela Força. Agora, é permitido forçar alguém a ser justo, não a ser caridoso. A Lei, quando busca fazer pela força o que a moralidade alcança por persuasão, longe de elevar-se ao reino da Caridade, cai no domínio da Pilhagem.
 
-No entanto, essa perversão da lei tem um nome, é o socialismo, isto é, a ideologia da redistribuição forçada de riqueza pelo Estado. O socialismo, segundo Bastiat, é caracterizado pela ideologia da pilhagem legal. Mas a astúcia dessa ideologia é que ela mascara sua violência sob um mau uso da linguagem: o apelo à solidariedade ou fraternidade.
+> A fraternidade é espontânea, ou não é. Decretá-la é destruí-la. Decretá-la é destruí-la.
+
+E mais uma vez:
+
+
+> Os governos só exercem uma ação que é sancionada pela Força. Ora, é lícito obrigar alguém a ser justo, mas não obrigá-lo a ser caridoso. O Direito, quando procura fazer pela força o que a moral consegue pela persuasão, longe de se elevar ao domínio da Caridade, cai no domínio da Pilhagem.
+> No entanto, esta perversão do direito tem um nome: socialismo, ou seja, a ideologia da redistribuição forçada da riqueza pelo Estado. O socialismo, segundo Bastiat, caracteriza-se pela ideologia da pilhagem legal. Mas a astúcia desta ideologia reside no facto de dissimular a sua violência através de uma linguagem abusiva: o apelo à solidariedade ou à fraternidade.
 
 ![image](assets/en/116.webp)
 
----
-
->Sociedade  
->de Socorro Mútuo  
->de GUISY  
->1899
 
 ---
 
-Contudo, segundo Bastiat, há uma alternativa à solidariedade estatal obrigatória: "sociedade de auxílio mútuo"
+> Ajuda mútua
+> Sociedade de GUISY
+> 1899
 
-a assistência mútua e espontânea dos homens entre si graças às sociedades de auxílio mútuo. Mas ele também previu que o Estado eventualmente se apoderaria dessas mutualidades para torná-las um corpo único e centralizado, incentivando gastos e desperdícios.
+---
+
+No entanto, segundo Bastiat, existe uma alternativa à solidariedade estatal obrigatória: a "sociedade de ajuda mútua", a assistência mútua e espontânea dos homens entre si, graças às sociedades de ajuda mútua. Mas ele também previa que o Estado acabaria por se apoderar dessas mutualidades para as transformar num organismo único e centralizado, favorecendo o despesismo e o desperdício.
+
 
 ![image](assets/en/117.webp)
 
-Em um panfleto chamado "Justiça e Fraternidade", Bastiat também explora a ideia de um sistema tributário simplificado e justo para financiar necessidades coletivas (polícia, justiça, exército): rendas e lucros estariam sujeitos a uma única taxa de imposto proporcional. Isso é o que é conhecido hoje como "Imposto Único".
+
+Num panfleto intitulado "Justiça e Fraternidade", Bastiat explora igualmente a ideia de um sistema fiscal simplificado e equitativo para financiar as necessidades colectivas (polícia, justiça, exército): os rendimentos e os lucros seriam sujeitos a uma taxa de imposto única e proporcional. É o que se designa atualmente por "Flat Tax".
+
 
 ![image](assets/en/118.webp)
 
+
 ---
 
->As fundações – um  
->**valor acrescentado**  
->para a **sociedade**  
+> Fundações -
+> **valor acrescentado**
+> para a **sociedade**
 >
->SwissFoundations
+
+> SwissFoundations
 
 ---
 
-De fato, a solidariedade intrafamiliar, a solidariedade local ou a filantropia organizada são muito mais desenvolvidas em países que possuem um sistema tributário leve e um grau relativamente alto de liberdade econômica, como Suíça e Estados Unidos, enquanto é largamente sufocada em países onde o Estado substituiu em grande parte a responsabilidade individual, como França ou Alemanha.
-É frequentemente considerado moderno lamentar a "selfishness" que prevaleceria nas sociedades liberais. Mas o exato oposto é verdadeiro. Quando uma sociedade é sobrecarregada com impostos e os indivíduos não possuem mais suas propriedades, eles não são incentivados a dar, mas sim a se recolherem em si mesmos.
-![image](assets/en/119.webp)
+Com efeito, a solidariedade intrafamiliar, a solidariedade local ou a filantropia organizada estão muito mais desenvolvidas nos países que têm um sistema fiscal leve e um grau de liberdade económica relativamente elevado, como a Suíça e os Estados Unidos, ao passo que são largamente asfixiadas nos países onde o Estado substituiu largamente a responsabilidade individual, como a França ou a Alemanha.
 
-Na realidade, uma sociedade civil livre não se baseia no egoísmo: a economia de mercado opera com base no serviço ao próximo e na reciprocidade. Só se pode servir ao próprio interesse servindo ao interesse de outro, oferecendo ao outro uma contrapartida que leva a uma troca mutuamente benéfica. Em outras palavras, é a troca voluntária que cria a verdadeira solidariedade.
 
-A redistribuição forçada não tem nada a ver com a autêntica solidariedade humana, que é de natureza privada ou voluntária e que se vê dentro das famílias, ou entre membros de uma associação.
+Está muitas vezes na moda lamentar o "egoísmo" que prevaleceria nas sociedades liberais. Mas é exatamente o contrário que acontece. Quando uma sociedade é sobrecarregada de impostos e os indivíduos deixam de ser proprietários dos seus bens, não são encorajados a dar, mas sim a fecharem-se em si próprios.
 
-É, portanto, sobre o papel da lei que Bastiat aqui se opõe aos socialistas. Ele escreve:
-A lei pode compelir um homem a ser justo, mas não pode forçá-lo a ser devotado. A falsa solidariedade dos socialistas elimina a devoção em favor da pura coerção estatal, que forma a base do totalitarismo.
 
-# A Lei
+
+
+Na realidade, uma sociedade civil livre não se baseia no egoísmo: a economia de mercado funciona com base no serviço ao próximo e na reciprocidade. Só se pode servir o próprio interesse servindo o interesse do outro, oferecendo-lhe uma contrapartida que conduza a um Exchange mutuamente vantajoso. Por outras palavras, é o Exchange voluntário que cria a verdadeira solidariedade.
+
+
+A redistribuição forçada não tem nada a ver com a autêntica solidariedade humana, que é de carácter privado ou voluntário e que se manifesta no seio das famílias ou entre os membros de uma associação.
+
+
+É, portanto, sobre o papel da lei que Bastiat se opõe aos socialistas. Ele escreve:
+
+A lei pode obrigar um homem a ser justo, mas não pode obrigá-lo a ser devoto. A falsa solidariedade dos socialistas elimina a devoção em favor da pura coerção estatal, que constitui a base do totalitarismo.
+
+
+# A lei
+
 
 <partId>653cbe58-60e1-5401-8f91-4d9843ac6045</partId>
 
-## O Direito à Propriedade
+
+## O direito de propriedade
+
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-Por propriedade, não devemos entender terra aqui. Significa "o direito de um trabalhador sobre o valor que ele criou através de seu trabalho." Bastiat especifica:
 
-> Considero que o direito à propriedade consiste na liberdade de primeiro dispor da própria pessoa, depois do próprio trabalho e, finalmente, dos produtos do próprio trabalho - o que prova, aliás, que, de certo ponto de vista, liberdade e o direito à propriedade não podem ser distinguidos um do outro.
+Por propriedade, não devemos entender aqui a terra. Trata-se do "direito de um trabalhador sobre o valor que criou com o seu trabalho" Bastiat especifica:
 
-Tendo estabelecido este ponto, para entender o fundamento moral da propriedade, Bastiat parte de um simples princípio antropológico de que, desde o início, o homem deve trabalhar para viver e que o fruto de seu trabalho é uma extensão de suas faculdades, isto é, de sua pessoa.
 
-> Personalidade, Liberdade, Propriedade, — isso é o homem. É dessas três coisas que se pode dizer, sem qualquer sutileza demagógica, que são anteriores e superiores a qualquer legislação humana.
+> Considero que o direito de propriedade consiste na liberdade de dispor, em primeiro lugar, da sua própria pessoa, depois do seu trabalho e, finalmente, dos produtos do seu trabalho - o que prova, aliás, que, de um certo ponto de vista, a liberdade e o direito de propriedade não se distinguem um do outro.
 
-Entendido neste sentido, o direito à Propriedade está entre aqueles direitos que não derivam da lei positiva, mas a precedem e são sua razão de ser. De fato,
+Tendo estabelecido este ponto, para compreender o fundamento moral da propriedade, Bastiat parte de um princípio antropológico simples: desde o início, o homem deve trabalhar para viver e o fruto do seu trabalho é uma extensão das suas faculdades, ou seja, da sua pessoa.
 
-> A lei é a organização coletiva do direito individual de legítima defesa.
-> A Lei
 
-Sua missão é defender a pessoa e sua propriedade.
+> Personalidade, Liberdade, Propriedade, isto é o homem. É destas três coisas que se pode dizer, sem qualquer subtileza demagógica, que são anteriores e superiores a qualquer legislação humana.
+
+Entendido neste sentido, o direito de propriedade faz parte dos direitos que não decorrem do direito positivo, mas que o precedem e constituem a sua razão de ser. De facto,
+
+
+> A lei é a organização colectiva do direito individual de legítima defesa.
+> A lei
+
+A sua missão é defender a pessoa e os seus bens.
+
 
 ![image](assets/en/120.webp)
 
-_(François Quesnay, líder dos Fisiocratas)_
+(François Quesnay, líder dos Fisiocratas)
 
-Portanto, o direito não é a mesma coisa que a lei. O direito não se identifica com a palavra do soberano, nem depende exclusivamente de sua legitimidade. É o produto de uma tradição, uma ordem legal anterior e superior à lei, que se impõe tanto ao legislador quanto a qualquer um dos cidadãos comuns.
 
-O direito "não é criado". Não é inventado a partir de uma visão ideal do que deveriam ser as leis da sociedade; é descoberto na natureza do homem e nas regras da civilidade, transmitidas pela sabedoria dos costumes.
-Os indivíduos possuem direitos naturais que preexistem à lei: Propriedade, Liberdade, Personalidade. O papel da Lei deve ser preservar esses direitos naturais do indivíduo. Consequentemente, o Estado deve ser limitado. Hoje, diríamos que Bastiat é um defensor do estado mínimo. ![image](assets/en/121.webp)
+Por conseguinte, o direito não é a mesma coisa que a lei. O direito não se identifica com a palavra do soberano, nem depende exclusivamente da sua legitimidade. É o produto de uma tradição, de uma ordem jurídica anterior e superior à lei, que se impõe tanto ao legislador como a qualquer cidadão comum.
 
-No sistema de Rousseau, que discutimos em um curso anterior, a missão do legislador é organizar, modificar, até mesmo abolir a propriedade se considerado apropriado. Para Rousseau, a propriedade não é natural, mas convencional, assim como a própria sociedade. Esta ideia tem origem no direito romano, com o qual Rousseau estava profundamente familiarizado.
+
+O direito "não se cria". Não é inventado a partir de uma visão ideal do que devem ser as leis da sociedade; é descoberto na natureza do homem e nas regras de civilidade, transmitidas pela sabedoria dos costumes.
+
+Os indivíduos têm direitos naturais que são anteriores à lei: A propriedade, a liberdade, a personalidade. O papel do Direito deve ser o de preservar esses direitos naturais do indivíduo. Por conseguinte, o Estado deve ser limitado. Atualmente, diríamos que Bastiat é um defensor do Estado mínimo.
+
+
+![image](assets/en/121.webp)
+
+
+No sistema de Rousseau, que discutimos num curso anterior, a missão do legislador é organizar, modificar e até abolir a propriedade, se for considerado apropriado. Para Rousseau, a propriedade não é natural, mas convencional, tal como a própria sociedade. Esta ideia tem origem no direito romano, com o qual Rousseau estava profundamente familiarizado.
+
 
 ![image](assets/en/122.webp)
 
-Robespierre, por sua vez, postula o princípio de que "Propriedade é o direito de todo cidadão de desfrutar e dispor da porção de bens garantida a ele pela lei."
 
-Para Rousseau, a propriedade não é anterior à lei; é meramente uma convenção estabelecida pela vontade geral e dentro dos limites que ela decide. Como resultado, não há liberdade ou direito independentemente da sociedade e da boa vontade dos legisladores. Mas se dissociarmos o direito à propriedade, isso justifica facilmente falsos direitos, que são adquiridos apenas violando os direitos de outros.
+Robespierre, por sua vez, postula o princípio de que "a propriedade é o direito de cada cidadão de gozar e dispor da porção de bens que lhe é garantida por lei"
 
-Por exemplo: o direito ao trabalho ou o direito à moradia.
 
-![image](assets/en/123.webp)
+Para Rousseau, a propriedade não é anterior à lei; é apenas uma convenção estabelecida pela vontade geral e dentro dos limites por ela decididos. Por conseguinte, não há liberdade ou direito independentemente da sociedade e da boa vontade dos legisladores. Mas se se dissociar o direito de propriedade, facilmente se justificam os falsos direitos, que só se adquirem violando os direitos dos outros.
 
-Para eu adquirir algo gratuitamente, alguém deve pagar em meu nome. E se for o Estado que paga, já que não produz riqueza, só pode fazê-lo tomando uma casa de alguém, ou seu equivalente, para me dar.
 
-Esta ideia de que o direito à propriedade é uma criação da lei leva, segundo Bastiat, à abertura de um campo ilimitado para utopistas que desejam modelar a sociedade de acordo com seus planos.
+Por exemplo: o direito ao trabalho ou o direito à habitação.
 
-No sistema de liberdade natural, existe uma lei natural, independente dos caprichos dos legisladores. É válida para todos os homens e antecede qualquer sociedade. E é dever do governo garantir os direitos naturais de cada indivíduo. Uma sociedade justa é aquela em que os direitos de propriedade são plenamente respeitados, ou seja, protegidos contra qualquer interferência de outros.
+
+
+
+Para que eu possa adquirir algo gratuitamente, é preciso que alguém pague por mim. E se é o Estado que paga, como não produz riqueza, só o pode fazer tirando uma casa a alguém, ou o seu equivalente, para ma dar.
+
+
+Esta ideia de que o direito de propriedade é uma criação da lei conduz assim, segundo Bastiat, a abrir um campo ilimitado aos utópicos que pretendem modelar a sociedade segundo os seus projectos.
+
+
+No sistema de liberdade natural, existe uma lei natural, independente dos caprichos dos legisladores. Ela é válida para todos os homens e é anterior a qualquer sociedade. E é dever do governo garantir os direitos naturais de cada indivíduo. Uma sociedade justa é aquela em que os direitos de propriedade são plenamente respeitados, ou seja, protegidos contra qualquer interferência de terceiros.
+
 
 ![image](assets/en/120.webp)
-Aqui, Bastiat alinha-se com o legado dos Fisiocratas, e além disso, com a tradição da filosofia do direito de Cícero e Aristóteles. A lei não cria direitos. Sua missão é defendê-los e, assim, defender a propriedade, tanto a propriedade de si mesmo, a integridade da pessoa, quanto a propriedade dos frutos do seu trabalho.
-![image](assets/en/124.webp)
 
-_(Cícero)_
 
-## Saque Legal: Uma Perversão da Lei
+Aqui, Bastiat alinha-se com o legado dos fisiocratas e, para além disso, com a tradição da filosofia do direito de Cícero e Aristóteles. A lei não cria direitos. A sua missão é defendê-los e, portanto, defender a propriedade, tanto a propriedade de si próprio, a integridade da pessoa, como a propriedade dos frutos do seu trabalho.
+
+
+
+(Cícero)
+
+
+## Pilhagem legal: Uma perversão da lei
+
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-A ideia principal de Bastiat em "A Lei", seu famoso panfleto datado de 1850, é mostrar por que e como a lei se tornou saqueadora, ou seja, uma fonte de privilégios, rendas situacionais e arbitrariedade fiscal.
+
+A ideia principal de Bastiat em "A Lei", o seu famoso panfleto de 1850, é mostrar porque e como a lei se tornou uma pilhagem, ou seja, uma fonte de privilégios, de rendas situacionais e de arbitrariedade fiscal.
+
 
 ![image](assets/en/125.webp)
 
+
 Qual é a verdadeira natureza da lei?
 
-Bastiat começa estabelecendo as fundações antropológicas naturais da lei: vida, liberdade e propriedade.
 
-O sistema institucional de liberdade natural é aquele para o qual a sociedade, os indivíduos e as propriedades existem antes das leis. Neste sistema, Bastiat acrescenta:
-Não é porque existem leis que existem propriedades, mas porque existem propriedades que existem leis.> Propriedade e Lei
+Bastiat começa por estabelecer os fundamentos antropológicos naturais do direito: a vida, a liberdade e a propriedade.
+
+
+O sistema institucional da liberdade natural é aquele para o qual a sociedade, os indivíduos e as propriedades existem antes das leis. Neste sistema, Bastiat acrescenta:
+
+
+> Não é pelo facto de existirem leis que existem propriedades, mas sim pelo facto de existirem propriedades que existem leis.
+> Propriedade e Direito
 
 ![image](assets/en/126.webp)
 
-Todo homem tem o direito de defender sua vida e de usar suas faculdades. E a lei é a organização coletiva dessa defesa legítima. A lei defende a justiça. Não uma justiça positiva que organizaria a fraternidade e a solidariedade, mas uma justiça negativa que se limita a prevenir que os direitos de uma pessoa usurpem os de outra.
 
-No entanto, quando a lei deixa de ser negativa e se torna positiva, o sentimento de desigualdade aumenta na sociedade e gera conflitos. Se expandirmos indefinidamente o domínio da Lei, isto é, a responsabilidade do governo, abrimos a porta para "uma série interminável de reclamações, ódios, distúrbios e revoltas", ele escreve.
+A cada homem é permitido defender a sua vida e usar as suas faculdades. E a lei é a organização colectiva desta legítima defesa. O direito defende a justiça. Não uma justiça positiva que organizaria a fraternidade e a solidariedade, mas uma justiça negativa que se limita a impedir que os direitos de uma pessoa usurpem os direitos de outra.
 
-A falsa filantropia, diz Bastiat, é uma das principais causas da perversão da lei. Alguns homens se consideram acima do resto da humanidade e capazes de fazer escolhas melhores do que os outros.
+
+No entanto, quando o direito deixa de ser negativo e passa a ser positivo, o sentimento de desigualdade aumenta na sociedade e gera conflitos. Se alargarmos indefinidamente o domínio do Direito, ou seja, a responsabilidade do governo, abrimos a porta a "uma série interminável de queixas, ódios, perturbações e revoltas", escreve.
+
+
+A falsa filantropia, diz Bastiat, é uma das principais causas da perversão da lei. Alguns homens consideram-se acima do resto da humanidade e capazes de fazer melhores escolhas do que outros.
+
 
 ![image](assets/en/127.webp)
-Eles sabem melhor o que é bom para os outros e imporão sua concepção do bem a todos; estes são os filantropos. Eles criaram falsos direitos que hoje são chamados de direitos sociais. Direitos sociais não são nada mais do que direitos sobre o trabalho dos outros, direitos de dispor da propriedade alheia, o fruto do trabalho alheio: o direito à habitação, o direito à saúde, à educação, ao trabalho, ao salário mínimo, etc.
 
-O que é pilhagem? É o exato oposto da propriedade, nos diz Bastiat. Pilhar vem do latim spoliare, que significa despojar. Vimos que o homem só pode viver apropriando-se das coisas, aplicando suas faculdades às coisas, isto é, trabalhando. Infelizmente, ele também pode se apropriar do produto das faculdades de seu semelhante, isto é, pilhá-lo.
+
+Eles sabem melhor o que é bom para os outros e vão impor a sua conceção de bem a toda a gente; são os filantropos. Eles criaram falsos direitos que hoje são chamados de direitos sociais. Os direitos sociais não são mais do que direitos sobre o trabalho dos outros, direitos de dispor dos seus bens, do fruto do seu trabalho: direito à habitação, direito à saúde, à educação, ao trabalho, ao salário mínimo, etc.
+
+
+O que é a pilhagem? É exatamente o oposto da propriedade, diz-nos Bastiat. Saquear vem do latim _spoliare_, que significa despir. Vimos que o homem só pode viver apropriando-se das coisas, aplicando as suas faculdades às coisas, ou seja, trabalhando. Infelizmente, pode também apropriar-se do produto das faculdades do seu semelhante, ou seja, espoliá-lo.
+
 
 ![image](assets/en/128.webp)
 
-A missão inteira da lei é prevenir essa pilhagem extra-legal, isto é, defender a propriedade e a liberdade, duas coisas inseparáveis.
 
-Assim que é admitido em princípio que a lei pode ser desviada de sua verdadeira missão, que ela pode violar propriedades em vez de garantí-las, segue-se necessariamente uma luta de classes, seja para se defender contra a pilhagem ou para organizá-la também em benefício próprio.
+Toda a missão do direito é impedir esta pilhagem extra-legal, ou seja, defender a propriedade e a liberdade, duas coisas inseparáveis.
+
+
+A partir do momento em que se admite, em princípio, que a lei pode ser desviada da sua verdadeira missão, que pode violar as propriedades em vez de as garantir, segue-se necessariamente uma luta de classes, quer para se defender contra a pilhagem, quer para a organizar também em proveito próprio.
+
 
 ![image](assets/en/129.webp)
 
-Em vez de defender os direitos naturais, a lei transforma-se em proteção dos interesses corporativos e categóricos. A pilhagem é organizada pela lei, em benefício das classes que a fazem e de seus amigos ou clientes. Bastiat assim antecipa a escola de escolha pública no século 20 para a qual a lei é o resultado de um "mercado político" pelo qual grupos de indivíduos buscam satisfazer seus interesses às custas dos outros.
+
+Em vez de defender os direitos naturais, a lei transforma-se em proteção de interesses corporativos e categoriais. A pilhagem é organizada pela lei, em benefício das classes que a fazem e dos seus amigos ou clientes. Bastiat antecipa assim a escola da escolha pública do século XX, para a qual o direito é o resultado de um "mercado político" através do qual grupos de indivíduos procuram satisfazer os seus interesses à custa de outros.
+
 
 ![image](assets/en/130.webp)
 
-Para ele, o propósito da Lei deve simplesmente ser "pôr fim a todas as pilhagens." Se o Estado não intervém na vida privada, os indivíduos são efetivamente proprietários e responsáveis por suas vidas. Eles fazem sua própria felicidade. Eles suportam as boas ou más consequências de suas ações.
 
-Eles têm certeza de que seus direitos naturais são garantidos e intocáveis. Direitos de propriedade seguros dão às pessoas a capacidade de fazer planos de longo prazo porque sabem que seus bens estão seguros contra a pilhagem.
+Para ele, o objetivo do Direito deve ser simplesmente "pôr fim a todas as pilhagens" Se o Estado não intervém na vida privada, os indivíduos são efetivamente proprietários e responsáveis pelas suas vidas. Fazem a sua própria felicidade. Suportam as consequências boas ou más dos seus actos.
 
-> Ausência de Pilhagem, — é o princípio da justiça, paz, ordem, estabilidade, conciliação, bom senso que proclamarei com toda a força, infelizmente! insuficiente, dos meus pulmões, até meu último suspiro
-> Bastiat escreveu em A Lei, algum tempo antes de morrer. Um século após a morte de Frédéric Bastiat, o saque legal é claramente evidente na Declaração Universal dos Direitos Humanos de 1948, notavelmente em seus artigos 22 ("todos têm o direito à segurança social"), 23 ("todos têm o direito ao trabalho"), 24 ("todos têm o direito ao descanso e lazer"), 25 ("todos têm o direito a um padrão de vida adequado para a saúde e bem-estar"), 26 ("todos têm o direito à educação").
 
-## O Papel da Lei e do Estado
+Têm a certeza de que os seus direitos naturais estão garantidos e são intocáveis. Os direitos de propriedade seguros dão às pessoas a capacidade de fazer planos a longo prazo, porque sabem que os seus bens estão a salvo da pilhagem.
+
+
+> Ausência de pilhagem, - é o princípio da justiça, da paz, da ordem, da estabilidade, da conciliação, do bom senso que proclamarei com toda a força, infelizmente insuficiente, dos meus pulmões, até ao meu último suspiro
+
+Bastiat escreveu a frase acima em A Lei, algum tempo antes de morrer.
+
+
+![image](assets/en/131.webp)
+
+
+Um século após a morte de Frédéric Bastiat, a pilhagem jurídica está bem patente na Declaração Universal dos Direitos do Homem de 1948, nomeadamente nos seus artigos 22º ("toda a pessoa tem direito à segurança social"), 23º ("toda a pessoa tem direito ao trabalho"), 24º ("toda a pessoa tem direito ao repouso e aos lazeres"), 25º ("toda a pessoa tem direito a um nível de vida suficiente para a saúde e o bem-estar"), 26º ("toda a pessoa tem direito à educação").
+
+
+## O papel do direito e do Estado
+
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-Em 1848, Bastiat era um deputado. Ele foi nomeado vice-presidente da comissão de finanças. Ele estava, portanto, particularmente bem posicionado para responder a esta pergunta: o que é o Estado? Recorremos ao Estado para garantir nosso bem-estar. Mas Bastiat nos lembra que o Estado não pode dar nada aos cidadãos que primeiro não tenha tirado deles.
 
-Bastiat começa por derrubar uma equação comumente aceita: é o Estado que sustenta a nação. No entanto, o Estado não pode sustentar os cidadãos porque não produz riqueza; apenas a move, redistribui. Ao contrário, são os cidadãos que sustentam o Estado através da criação de riqueza.
+Em 1848, Bastiat era deputado. Foi nomeado vice-presidente da comissão de finanças. Estava, portanto, particularmente bem colocado para responder a esta pergunta: o que é o Estado? Recorremos ao Estado para assegurar o nosso bem-estar. Mas Bastiat lembra-nos que o Estado não pode dar nada aos cidadãos que não lhes tenha tirado primeiro.
 
-![imagem](assets/en/132.webp)
 
-Além disso, o Estado em si não existe; existem apenas homens que constituem o Estado, que governam, administram, que vivem do Estado direta ou indiretamente. Portanto, os homens que administram o Estado são como outros; eles buscam satisfazer seus interesses pessoais.
+Bastiat começa por inverter uma equação comummente aceite: é o Estado que sustenta a nação. No entanto, o Estado não pode sustentar os cidadãos porque não produz riqueza; limita-se a deslocá-la, a redistribuí-la. Pelo contrário, são os cidadãos que sustentam o Estado através da criação de riqueza.
 
-![imagem](assets/en/133.webp)
 
-E, uma vez que a ação do Estado é puramente redistributiva, está sujeita à pressão de grupos de interesse especial. De fato, certos grupos de interesse especial entenderam que era mais fácil ganhar dinheiro através do engajamento político do que através de comportamentos produtivos. Eles buscam roubar o dinheiro dos outros sob o disfarce do Estado, minando a capacidade de produção do mercado através da multiplicação de leis, impostos e restrições burocráticas.
+![image](assets/en/132.webp)
 
-![imagem](assets/en/134.webp)
 
-Em outras palavras, o Estado só persegue objetivos clientelistas, e a noção de interesse geral é desprovida de significado. Qualquer ganho obtido por alguns é às custas de outros: não é um jogo de soma zero, mas um jogo de soma negativa.
-Bastiat assim antecipa, um século antes, as análises do funcionamento do mercado político que emergiriam no final dos anos 1950 com a chamada escola de Escolha Pública de James Buchanan, Prêmio Nobel de Economia, e seu colega Gordon Tullock.
-![imagem](assets/en/135.webp)
-![imagem](assets/en/136.webp)
+Além disso, o Estado em si não existe; existem apenas homens que constituem o Estado, que governam, que administram, que vivem do Estado direta ou indiretamente. Por conseguinte, os homens que administram o Estado são como os outros; procuram satisfazer os seus interesses pessoais.
 
-Além disso, Bastiat afirma, o Estado não tem direitos que não preexistam no indivíduo. Por que o Estado tem o direito de garantir, mesmo pela força, a propriedade de cada indivíduo? Simplesmente porque este direito preexiste no indivíduo. Não se pode negar aos indivíduos o direito à autodefesa, o direito de usar a força, se necessário, para repelir ataques contra suas pessoas, suas faculdades e suas propriedades. Este direito natural de autodefesa, que reside em todos os cidadãos, pode assumir uma forma coletiva e legitimar a força comum.
-Portanto, para saber se o Estado está legitimamente investido de um direito, deve-se perguntar se este direito reside no indivíduo por virtude de sua organização e na ausência de qualquer governo.
-É por isso que o Estado não pode, em caso algum, infringir os direitos naturais; deve, pelo contrário, garantir-lhes.
+
+![image](assets/en/133.webp)
+
+
+E como a ação do Estado é puramente redistributiva, está sujeita à pressão de grupos de interesses especiais. De facto, certos grupos de interesses especiais compreenderam que era mais fácil ganhar dinheiro através do envolvimento político do que através de comportamentos produtivos. Procuram roubar o dinheiro dos outros sob a capa do Estado, minando a capacidade de produção do mercado através da multiplicação de leis, impostos e constrangimentos burocráticos.
+
+
+![image](assets/en/134.webp)
+
+
+Por outras palavras, o Estado apenas persegue objectivos clientelistas e a noção de interesse geral é destituída de sentido. Qualquer ganho obtido por uns é feito à custa de outros: não se trata de um jogo de soma zero, mas de um jogo de soma negativa.
+
+Bastiat antecipa assim, com um século de antecedência, as análises do funcionamento do mercado político que surgirão no final dos anos 50 com a chamada escola da Escolha Pública de James Buchanan, Prémio Nobel da Economia, e do seu colega Gordon Tullock.
+
+![image](assets/en/135.webp)
+
+
+
+Além disso, afirma Bastiat, o Estado não tem direitos que não existam previamente no indivíduo. Por que é que o Estado tem o direito de garantir, mesmo pela força, a propriedade de cada indivíduo? Simplesmente porque esse direito preexiste ao indivíduo. Não se pode negar ao indivíduo o direito à autodefesa, o direito de usar a força, se necessário, para repelir ataques contra a sua pessoa, as suas faculdades e as suas propriedades. Este direito natural de autodefesa, que reside em todos os cidadãos, pode assumir uma forma colectiva e legitimar a força comum.
+
+
+Assim, para saber se o Estado está legitimamente investido de um direito, é preciso perguntar se esse direito reside no indivíduo em virtude da sua organização e na ausência de qualquer governo.
+
+
+É por isso que o Estado não pode, em caso algum, violar os direitos naturais; deve, pelo contrário, garanti-los.
+
 
 ![image](assets/en/137.webp)
 
-Ele assegura Segurança, tanto interna quanto externa, e Justiça. Pode ser forte e eficaz em seu domínio. Mas a lei não pode ultrapassar este papel muito estrito porque, então, torna-se um instrumento de pilhagem de alguns em benefício de outros. Quando a Lei é pervertida, atua como um instrumento de injustiça. A perversão da lei sempre leva à pilhagem, como vimos no curso anterior. É imediata, automática, inevitável e certa. Tirar a lei de seu domínio só pode infringir os direitos naturais. A sociedade civil é então despojada de seu poder (instituições naturais, contratos, trocas, associações) em favor da gestão estatal, ou seja, tecnocrática e burocrática.
 
-![image](assets/en/138.webp)
+Garante a segurança, tanto interna como externa, e a justiça. Pode ser forte e eficaz no seu domínio. Mas a lei não pode sair deste papel muito estrito, porque se torna um instrumento de pilhagem de uns em benefício de outros. Quando a lei é pervertida, actua como um instrumento de injustiça. A perversão da lei conduz sempre à pilhagem, como vimos no curso anterior. É imediato, automático, inevitável e certo. A subtração da lei ao seu domínio só pode atentar contra os direitos naturais. A sociedade civil é então despojada do seu poder (instituições naturais, contratos, trocas, associações) a favor da gestão estatal, isto é, tecnocrática e burocrática.
 
-Como resultado, os únicos serviços públicos legítimos de um Estado segundo Bastiat são três em número: o militar, a polícia e o judiciário. Em outras palavras, o Estado deve garantir a proteção interna e externa dos indivíduos, sua liberdade e sua propriedade. Portanto, é normal que todos contribuam para esta proteção. No entanto, além dessas funções legítimas, qualquer outra contribuição para outro serviço fornecido pelo Estado está sujeita a escrutínio.
 
-> Fora deste círculo, Bastiat escreve, religião, educação, associação, trabalho, trocas, tudo pertence ao domínio da atividade privada, sob o olho da autoridade pública, que deveria ter apenas uma missão de vigilância e repressão.
+![image](assets/en/107.webp)
 
-Sobre os serviços públicos, ele estabelece um princípio simples:
-Se você quer criar uma função, prove sua utilidade. Demonstre que vale os serviços que presta, equivalente ao que custa. Daí, ele conclui, é razoável confiar ao setor público apenas o que o setor privado absolutamente não pode realizar.
 
-Em resumo, quando um governo ultrapassa sua missão de defender as pessoas e a propriedade, incentiva grupos de interesse a buscar privilégios e influenciar o poder para obter benefícios às custas dos contribuintes e consumidores.
+Por conseguinte, os únicos serviços públicos legítimos de um Estado, segundo Bastiat, são três: o exército, a polícia e o poder judicial. Por outras palavras, o Estado deve assegurar a proteção interna e externa dos indivíduos, da sua liberdade e dos seus bens. É, portanto, normal que todos contribuam para essa proteção. No entanto, para além destas funções legítimas, qualquer outra contribuição para outro serviço prestado pelo Estado está sujeita a controlo. Fora deste círculo, Bastiat escreve:
 
-> O Estado é a grande ficção através da qual todos tentam viver às custas de todos os outros.
 
-Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
+> A religião, a educação, a associação, o trabalho, as trocas, tudo pertence ao domínio da atividade privada, sob o olhar da autoridade pública, que só deve ter uma missão de vigilância e de repressão.
 
-![image](assets/en/138.webp)
+No que diz respeito aos serviços públicos, o Comissário afirma um princípio simples:
 
-## O Legado de Frédéric Bastiat
+Se quiser criar uma função, prove a sua utilidade. Demonstrar que vale os serviços que presta, equivalentes ao seu custo. Por isso, conclui, é razoável confiar ao sector público apenas aquilo que o sector privado não pode absolutamente realizar.
+
+
+Em resumo, quando um governo ultrapassa a sua missão de defender as pessoas e a propriedade, encoraja os grupos de interesse a procurar privilégios e a influenciar o poder para obter benefícios à custa dos contribuintes e dos consumidores.
+
+
+> O Estado é a grande ficção através da qual todos tentam viver à custa de todos os outros.
+
+Escreveu Frédéric Bastiat num pequeno panfleto intitulado O Estado.
+
+
+
+
+## O legado de Frédéric Bastiat
+
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-A influência de Bastiat começou a declinar em direção ao final do século 19, com a ascensão do socialismo e particularmente do marxismo dentro das universidades e institutos de pesquisa, financiados por dinheiro público.
 
-Com o século 20, o conhecimento e a popularidade de Bastiat desapareceram. Ele não era mais mencionado nos livros didáticos de economia. Não seria até o final da Segunda Guerra Mundial que um interesse renovado nas ideias de liberdade, tão evidentemente esquecidas com Roosevelt e os regimes totalitários na Europa, emergiria. Um dos arquitetos deste renascimento foi o economista austríaco Ludwig von Mises, um dos muitos intelectuais europeus que fugiram da Europa através da Espanha e Portugal para chegar à América.
-Estabelecido em Nova York em 1943, Mises organizou seminários que atraíram mentes notáveis: George Stigler, Milton Friedman, ambos futuros ganhadores do Prêmio Nobel, e Murray Rothbard, então estudante na Columbia. Foi durante esses seminários que ele falou pela primeira vez sobre Bastiat como uma das principais referências do liberalismo clássico. Ele apresentou aos seus ouvintes os panfletos de Bastiat, "A Lei" e "O Estado", ainda não traduzidos para o inglês. Em 1953, um dos participantes do seminário, Leonard Read, faria com que "A Lei" de Bastiat fosse traduzida para o inglês e assumiria a tarefa de distribuir o livro por todo o país através de sua fundação: a Foundation for Economic Education.
+A influência de Bastiat começou a diminuir no final do século XIX, com a ascensão do socialismo e, em particular, do marxismo nas universidades e institutos de investigação, financiados por dinheiros públicos.
+
+
+Com o século XX, o conhecimento e a popularidade de Bastiat desapareceram. Deixou de ser mencionado nos manuais de economia. Só no final da Segunda Guerra Mundial é que surgiria um interesse renovado pelas ideias de liberdade, tão evidentemente esquecidas com Roosevelt e os regimes totalitários na Europa. Um dos arquitectos deste renascimento foi o economista austríaco Ludwig von Mises, um dos muitos intelectuais europeus que fugiram da Europa através de Espanha e Portugal para chegar à América.
+
+
+Instalado em Nova York em 1943, Mises organizou seminários que atraíram mentes notáveis: George Stigler, Milton Friedman, ambos futuros Prémios Nobel, e Murray Rothbard, então estudante em Columbia. Foi durante esses seminários que ele falou pela primeira vez de Bastiat como uma das maiores referências do liberalismo clássico. Apresentou aos seus ouvintes os panfletos de Bastiat, The Law, e The State, ainda não traduzidos para inglês. Em 1953, um dos participantes do seminário, Leonard Read, mandaria traduzir "The Law" de Bastiat para inglês e assumiria a tarefa de distribuir o livro por todo o país através da sua fundação: a Foundation for Economic Education.
+
+
 ![image](assets/en/139.webp)
-Mas quem também popularizaria as teses de Frédéric Bastiat foi um colunista econômico do New York Times, Henry Hazlitt, em um pequeno livro chamado: "Economia numa Única Lição", publicado em 1946. Explicitamente inspirado nas ideias de Bastiat, ele visa demonstrar que o problema com as soluções econômicas estatistas é a falha em considerar suas desastrosas consequências a longo prazo.
+
+Mas quem também popularizaria as teses de Frédéric Bastiat foi um colunista económico do New York Times, Henry Hazlitt, num pequeno livro chamado: "Economics in One Lesson", publicado em 1946. Inspirando-se explicitamente nas ideias de Bastiat, Hazlitt pretende demonstrar que o problema das soluções económicas estatistas é o facto de não terem em conta as suas consequências desastrosas a longo prazo.
+
 ![image](assets/en/140.webp)
 
-Hazlitt começa seu livro recontando a história da janela quebrada de Bastiat. Ele resume a história em uma lição simples e singular:
 
-> A arte da economia consiste em olhar não apenas para o imediato, mas também para os efeitos a longo prazo de qualquer ato ou política; consiste em rastrear as consequências dessa política não apenas para um grupo, mas para todos os grupos.
+Hazlitt começa o seu livro contando a história da janela partida de Bastiat. Resume a história numa lição simples e singular:
 
-Hazlitt então aplica essa lição a uma ampla variedade de problemas econômicos: controle de aluguéis, leis de salário mínimo, os supostos benefícios da guerra, obras públicas e o déficit orçamentário, inflação monetária, tarifas e, finalmente, poupanças.
 
-Bastiat foi um dos economistas favoritos de Ronald Reagan, muito antes de ele ser eleito presidente. É menos conhecido, mas por oito anos, Reagan trabalhou para a empresa General Electric como apresentador de seu programa de televisão na CBS, e como responsável pelo treinamento de pessoal da empresa. Seu programa de treinamento foi construído em torno de textos introdutórios à economia de mercado. As obras escolhidas eram de dois austríacos, Hayek e Mises, dois ingleses, Cobden e Bright, e um francês, Frédéric Bastiat.
+> A arte da economia consiste em olhar não apenas para os efeitos imediatos, mas também para os efeitos a longo prazo de qualquer ato ou política; consiste em traçar as consequências dessa política não apenas para um grupo, mas para todos os grupos.
 
-A lição que Reagan ensinou a seus funcionários, seguindo Bastiat, é que não há maior mito do que o de estimular o crescimento e o emprego por meio de gastos públicos.
+Hazlitt aplica depois esta lição a uma grande variedade de problemas económicos: controlo das rendas, leis sobre o salário mínimo, os presumíveis benefícios da guerra, obras públicas e défice orçamental, inflação monetária, tarifas e, finalmente, poupança.
+
+
+Bastiat era um dos economistas preferidos de Ronald Reagan, muito antes de este ter sido eleito presidente. É menos conhecido, mas durante oito anos, Reagan trabalhou para a empresa General Electric como apresentador do seu programa de televisão na CBS e como responsável pela formação do pessoal da empresa. O seu programa de formação baseava-se em textos de introdução à economia de mercado. As obras escolhidas foram as de dois austríacos, Hayek e Mises, dois ingleses, Cobden e Bright, e um francês, Frédéric Bastiat.
+
+
+A lição que Reagan ensinou aos seus empregados, seguindo Bastiat, é que não há maior mito do que o de estimular o crescimento e o emprego através da despesa pública.
+
 ![image](assets/en/141.webp)
 
-Foi notavelmente John Maynard Keynes quem sugeriu que os gastos públicos aumentavam a produção devido a um multiplicador: se o governo constrói uma ponte, os trabalhadores dessa ponte poderão comprar pão, então o padeiro pode comprar sapatos, e assim por diante. Se a indústria privada está em declínio, isso pode ser remediado por grandes obras. Se há desemprego, o Estado pode criar empregos públicos.
-Mas, como Bastiat demonstrou de forma apta, a intervenção estatal tem efeitos perversos que não são vistos. Apenas um bom economista é capaz de prever esses efeitos. Vamos tomar um exemplo: É uma ilusão acreditar que o governo pode "criar empregos", pois para cada emprego público criado, ele destrói um emprego no mercado. De fato, os empregos públicos são pagos por impostos. Empregos públicos não são criados; eles são percebidos. Cada centavo gasto pelo Estado deve necessariamente ser obtido por meio de um centavo de imposto ou dívida.
-![image](assets/en/142.webp)
-Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE, os chamados milagres dos gastos estatais aparecem sob uma luz completamente diferente. Porque os impostos desencorajam a produção, e a riqueza criada pelo gasto público não pode compensar totalmente aquelas que foram impedidas de nascer pelos impostos arrecadados para pagar por essas despesas.
-![image](assets/test/143.webp)
-Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…
 
-# Seção final
+Foi nomeadamente John Maynard Keynes que sugeriu que a despesa pública aumentava a produção devido a um multiplicador: se o governo construir uma ponte, os trabalhadores dessa ponte poderão comprar pão, depois o padeiro poderá comprar sapatos, e assim por diante. Se a indústria privada está em declínio, pode ser remediada por grandes obras. Se houver desemprego, o Estado pode criar empregos públicos.
+
+
+Mas, como Bastiat bem demonstrou, a intervenção do Estado tem efeitos perversos que não se vêem. Só um bom economista é capaz de os prever. Vejamos um exemplo: É uma ilusão acreditar que o Estado pode "criar empregos", porque por cada emprego público criado, destrói um emprego no mercado. De facto, os empregos públicos são pagos pelos impostos. Os empregos públicos não são criados, são percebidos. Cada cêntimo gasto pelo Estado tem necessariamente de ser obtido através de um cêntimo de imposto ou de dívida.
+
+
+![image](assets/en/142.webp)
+
+
+Se virmos as coisas por este prisma, explicou Reagan aos empregados da GE, os pretensos milagres das despesas do Estado aparecem sob uma luz completamente diferente. Porque os impostos desincentivam a produção e as riquezas criadas pela despesa pública não podem compensar totalmente as que foram impedidas de nascer pelos impostos cobrados para pagar essas despesas.
+
+
+
+
+Essencialmente, Reagan tomou de Bastiat vários Elements fundamentais de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empresário na criação de riqueza, a importância de um quadro jurídico flexível e mínimo, que permita a confiança e o respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes de poder ser distribuída, o desejo de dar a todos uma oportunidade em mercados competitivos..
+
+
+# Secção final
+
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Avaliações & Notas
+
+## Comentários e classificações
+
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
 ## Exame final
 
+
 <chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+
 <isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
+
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

@@ -1,6 +1,7 @@
 id: ccbd62a8-e90b-4030-95bf-ba735804655d
 topic: social studies
 subtopic: history
+type: theory
 level: intermediate
 hours: 5
 
@@ -25,12 +26,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.03
+    reward: 31.02
   - language: en
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -41,97 +42,112 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.03
+    reward: 31.02
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 72.26
+    reward: 72.25
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.65
+    reward: 51.64
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.03
+    reward: 31.02
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 61.96
+    reward: 61.94
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.03
+    reward: 31.02
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 61.96
+    reward: 61.94
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.65
+    reward: 51.64
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.65
+    reward: 51.64
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.03
+    reward: 31.02
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.34
+    reward: 41.33
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.64
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.33
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 61.94
 videos:
   - id: 71603b6d-b9f2-418d-b11e-f5e553041794
     youtube:

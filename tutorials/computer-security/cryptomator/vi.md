@@ -170,7 +170,7 @@ Bạn phải nhập mật khẩu để mở khóa két. Sau đó nhấp vào "**
 
 
 
-Về phía OneDrive, chúng ta không thể duyệt trực tiếp kho lưu trữ Cryptomator. Chúng ta không thể xem dữ liệu (cả tên tệp lẫn nội dung). Điều này có nghĩa là bạn không cần phải thêm dữ liệu vào kho lưu trữ Cryptomator thông qua phím tắt OneDrive thông thường. **Bạn phải thêm dữ liệu bằng ổ đĩa ảo của Cryptomator
+Về phía OneDrive, chúng ta không thể duyệt trực tiếp kho lưu trữ Cryptomator. Chúng ta không thể xem dữ liệu (cả tên tệp lẫn nội dung). Điều này có nghĩa là bạn không cần phải thêm dữ liệu vào kho lưu trữ Cryptomator thông qua phím tắt OneDrive thông thường. **Bạn phải thêm dữ liệu bằng ổ đĩa ảo của Cryptomator.**
 
 
 

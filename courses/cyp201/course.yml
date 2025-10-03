@@ -1,6 +1,7 @@
 id: 46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 topic: security
 subtopic: cryptography
+type: theory
 level: intermediate
 hours: 10
 
@@ -18,124 +19,139 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.94
+    reward: 48.66
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - xor3d
-    reward: 23.97
+    reward: 24.33
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 23.97
+    reward: 24.33
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 23.97
+    reward: 24.33
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - TinF0ilHat1
       - f205sats
-    reward: 11.99
+    reward: 12.16
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 95.78
+    reward: 97.21
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.94
+    reward: 48.66
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 95.78
+    reward: 97.21
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.83
+    reward: 81.03
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.83
+    reward: 81.03
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.73
+    reward: 113.4
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 31.94
+    reward: 32.42
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 31.94
+    reward: 32.42
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.83
+    reward: 81.03
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.94
+    reward: 48.66
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.84
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 81.03
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 64.84
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.21
 tags:
   - keys
   - wallets

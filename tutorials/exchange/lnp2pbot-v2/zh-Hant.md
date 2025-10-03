@@ -60,7 +60,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- [Breez](https://breez.technology)**：
+- [Breez](https://breez.technology)：
   - 非常適合初學者
   - 直覺、現代化的 Interface
   - 非監護（您保留對資金的控制權）
@@ -74,7 +74,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
-- [Phoenix](https://phoenix.acinq.co)** ：
+- [Phoenix](https://phoenix.acinq.co)：
   - 簡單可靠
   - 自動頻道設定
   - 原生支援 BOLT11 發票
@@ -88,7 +88,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-- [Blixt](https://blixtwallet.github.io)** ：
+- **[Blixt](https://blixtwallet.github.io)** ：
   - 技術性較高，但非常完整
   - 進階組態選項
   - 非常適合有經驗的使用者
@@ -109,9 +109,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Satoshi 的 Wallet**：接收 Sats 時效果很好，但如果銷售取消，更新餘額時可能會有延遲。
-- Muun**：不建議使用，因為殭屍路由費限制（最高 0.2%）可能會導致支付失敗。
-- Aqua**：可接收 Sats，但在銷售取消的情況下，餘額更新可能會延遲很長時間（最長 48 小時）。
+- **Satoshi 的 Wallet**：接收 Sats 時效果很好，但如果銷售取消，更新餘額時可能會有延遲。
+- **Muun**：不建議使用，因為殭屍路由費限制（最高 0.2%）可能會導致支付失敗。
+- **Aqua**：可接收 Sats，但在銷售取消的情況下，餘額更新可能會延遲很長時間（最長 48 小時）。
 
 
 💡 **提示**：為獲得最佳體驗，請選擇推薦的錢包（Breez、Phoenix 或 Blixt）。
@@ -216,7 +216,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 按一下賣家的暱稱，即可開啟私人聊天頻道，您可以 Exchange 法幣付款詳細資訊。
 
 
-**5.付款確認
+**5.付款確認**
 
 
 ![Confirmation du paiement](assets/fr/05.webp)
@@ -353,11 +353,11 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- 不需要 KYC** ：與某些平台不同，Lnp2pbot 不需要身份驗證，因此可為使用者保密。
-- 快速交易**：有了 Lightning Network，交易幾乎是瞬間完成。
-- 低費用** ：交易費用低於傳統交易所。
-- 行動可用性**：LNP2PBot 可透過 Telegram 存取，因此可輕鬆在行動裝置上使用。
-- 易於使用** ：Lnp2pbot 的直覺式 Interface 使其易於使用，即使是經驗較淺的使用者也能輕鬆上手。
+- 不需要 **KYC**：與某些平台不同，Lnp2pbot 不需要身份驗證，因此可為使用者保密。
+- **快速交易**：有了 Lightning Network，交易幾乎是瞬間完成。
+- **低費用**：交易費用低於傳統交易所。
+- **行動可用性**：LNP2PBot 可透過 Telegram 存取，因此可輕鬆在行動裝置上使用。
+- **易於使用**：Lnp2pbot 的直覺式 Interface 使其易於使用，即使是經驗較淺的使用者也能輕鬆上手。
 
 
 ### Lnp2pbot 的缺點
@@ -365,8 +365,8 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Telegram 依賴性**：使用 Lnp2pbot 需要 Telegram 帳戶，這可能不適合所有使用者。
-- 流動性較低**：與 Bisq 等較成熟的平台相比，流動性可能較有限。
+- **Telegram 依賴性**：使用 Lnp2pbot 需要 Telegram 帳戶，這可能不適合所有使用者。
+- **流動性較低**：與 Bisq 等較成熟的平台相比，流動性可能較有限。
 
 
 相較之下，Bisq 等解決方案提供較高的流動性和桌面 Interface，但可能涉及較高的費用和較長的交易時間。同時，HodlHodl 和 Robosat 也提供免 KYC 交易，但收費結構和介面不同。

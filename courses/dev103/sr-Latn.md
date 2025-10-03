@@ -36,7 +36,6 @@ Do kraja kursa, trebalo bi da budete u mogućnosti da pišete sopstvene programe
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-U ovom odeljku ćemo postaviti našu mašinu da napiše i izvrši naš prvi JavaScript program.
 
 
 JavaScript program je samo kolekcija (jedne ili više) tekstualnih datoteka, koje sadrže komande koje izvršava JavaScript okruženje za izvršavanje.
@@ -51,16 +50,16 @@ Komande koje sadrže napisane su u programskom jeziku JavaScript.
 JavaScript runtime je poseban program koji izvršava ove fajlove.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### Instalacija NodeJS-a
+### NodeJS okruženje za izvršavanje
 
 
 Najčešći JavaScript runtime je NodeJS.
 
 
-Možete ga instalirati prateći [zvanična uputstva](https://nodejs.org/en/download).
+Vaše IDE ga možda već uključuje, ili ćete ga možda morati preuzeti sa [zvaničnog sajta](https://nodejs.org/en/download).
 
 
 Stranica za preuzimanje će vam pružiti uputstva za sve tri glavne OS-ove (operativne sisteme): Windows, Linux i MacOS. Pretpostavlja se da znate kako otvoriti terminal u vašem OS-u.
@@ -72,25 +71,19 @@ Pošto je NodeJS dostupan za sve tri operativne sisteme, programi koje napišete
 To znači da možete, na primer, napisati jednostavnu video igru u JavaScript-u na vašem Windows računaru i proslediti je prijatelju da je pokrene na svom Mac-u.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Uređivanje teksta
 
 
-Jedna od zanimljivih stvari u vezi sa programiranjem je da možete pisati kod koristeći bilo koji uređivač teksta, čak i podrazumevani notepad vašeg operativnog sistema.
 
 
-Postoje neki uređivači teksta koji su specijalizovani za pisanje koda, neki su dostupni besplatno, dok drugi zahtevaju da platite za licencu.
 
 
-Izbor uređivača koda je ogromna zečja rupa koja prevazilazi obim ovog kursa, tako da o tome nećemo ovde govoriti. Ako ne znate šta da koristite, najčešće korišćeni besplatni uređivač je [VSCode](https://code.visualstudio.com/).
 
 
-Njegov Interface je malo naduven, ali ima ono što vam treba: uređivač datoteka, istraživač datoteka (za vizualizaciju datoteka i poddirektorijuma u direktorijumu na kojem radite) i terminal za pokretanje vašeg koda. Takođe podržava mnogo dodataka, a dolazi sa isticanjem sintakse za JavaScript po defaultu.
 
 
-Ako želiš biti malo više Cypherpunk-y, možeš umesto toga koristiti [VSCodium](https://vscodium.com/).
 
 
 ### Prvi program (zdravo svete)
@@ -102,7 +95,7 @@ Tradicionalno, kada se uči programski jezik, prvi program koji se napiše sasto
 Kreirajte direktorijum pod nazivom `my_js_code/`, sa fajlom unutra koji se zove `main.js` (ovi nazivi su proizvoljni).
 
 
-Otvorite direktorijum sa VSCode.
+Otvorite direktorijum pomoću vašeg uređivača koda.
 
 
 Napiši ovaj kod u svoju datoteku:
@@ -687,7 +680,7 @@ Možete kombinovati booleove vrednosti koristeći logičke operatore:
 - `!` znači „ne“, primenjuje se pre booleana i preokrenuće ga: ako je boolean `true` vratiće `false`, i obrnuto.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Primeri:
@@ -737,9 +730,9 @@ U ovom odeljku ćemo pokriti još tri tipa koja su veoma česta u JavaScript pro
 
 
 
-- Nizovi**: sekvence vrednosti
-- nedefinisano**: posebna vrednost koja znači „ništa nije dodeljeno“
-- null**: još jedna posebna vrednost koja znači „namerno prazno“
+- **Nizovi**: sekvence vrednosti
+- **nedefinisano**: posebna vrednost koja znači „ništa nije dodeljeno"
+- **null**: još jedna posebna vrednost koja znači „namerno prazno"
 
 
 ### Nizovi i pristup indeksima
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klasa `Car` sada **nasleđuje** sve od `Vehicle`. Dobija svojstvo `brand`, a metodu `start()` smo zamenili našom verzijom.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Hajde da probamo:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5235,7 +5228,7 @@ JavaScript je interpretirani jezik, za razliku od kompajliranih jezika kao što 
 Kod napisan u kompajliranom jeziku pretvara se u binarni kod, a taj binarni kod se direktno šalje CPU računara.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpredirani jezici, s druge strane, teže da budu više prilagođeni korisnicima i bliži su načinu na koji ljudi razmišljaju ("visok nivo") nego načinu na koji mašine rade ("nizak nivo"); tako da obično imaju virtuelnu mašinu napravljenu za pokretanje njihovog koda.
@@ -5268,7 +5261,7 @@ Zašto je to problem?
 Pa, pošto pregledači izvršavaju kod preuzet sa miliona različitih izvora na internetu, lako mogu naići na malver, pa su "sandboxovani" od ostatka operativnog sistema.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript nije mogao pristupiti sistemu datoteka i drugim lokalnim resursima na vašem računaru (barem ne lako kao što su to mogli drugi jezici), tako da je to bila značajna ograničenja u pogledu vrsta aplikacija koje ste mogli izraditi s njim.
@@ -5277,7 +5270,7 @@ JavaScript nije mogao pristupiti sistemu datoteka i drugim lokalnim resursima na
 2009. godine, Ryan Dahl je objavio NodeJS, koji je okruženje za izvršavanje koje omogućava korišćenje V8 engine-a van pregledača, direktno na matičnom operativnom sistemu vašeg računara. Takođe dodaje mnoge funkcije koje su korisne za pisanje server-side i command-line programa. Na primer, možete koristiti NodeJS za kreiranje web servera, čitanje i pisanje fajlova, ili izradu alata koji automatizuju zadatke.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 U ovom kursu do sada smo istraživali JavaScript funkcije koje su prisutne i u pregledaču i u NodeJS-u. Te funkcije su nam omogućile da definišemo podatke i manipulišemo njima na apstraktne načine. U narednih nekoliko lekcija istražićemo funkcije koje su specifične za NodeJS i omogućavaju nam interakciju sa operativnim sistemom.
@@ -6438,10 +6431,10 @@ NodeJS ima četiri glavne vrste tokova:
 
 
 
-- Čitljivi**: tokovi iz kojih možete čitati podatke (kao čitanje datoteke)
-- Zapisivi**: tokovi u koje možete upisivati podatke (kao što je upisivanje u datoteku)
-- Duplex**: tokovi koji su i čitljivi i upisivi
-- Transform**: kao dupleks strimovi, ali mogu menjati (transformisati) podatke dok teku
+- **Čitljivi**: tokovi iz kojih možete čitati podatke (kao čitanje datoteke)
+- **Zapisivi**: tokovi u koje možete upisivati podatke (kao što je upisivanje u datoteku)
+- **Duplex**: tokovi koji su i čitljivi i upisivi
+- **Transform**: kao dupleks strimovi, ali mogu menjati (transformisati) podatke dok teku
 
 
 ### Čitljivi tokovi

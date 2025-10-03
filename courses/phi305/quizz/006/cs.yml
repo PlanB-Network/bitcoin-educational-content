@@ -1,0 +1,9 @@
+question: Je Immanuel Kant filozof?
+answer: Němčina.
+wrong_answers:
+  - Angličtina.
+  - Polština.
+  - Holandština.
+explanation: |
+  Immanuel Kant (1724-1804) byl německý filozof, považovaný za jednoho z nejvýznamnějších myslitelů osvícenství. Rozvinul kritickou filozofii, která se snažila smířit racionalismus a empirismus.
+reviewed: false

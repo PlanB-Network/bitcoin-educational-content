@@ -1,5 +1,5 @@
 ---
-name: SAFU 忍者
+name: SAFU Ninja
 description: 用 SAFU 忍者方法拯救你的 seed
 ---
 
@@ -10,7 +10,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-忍者 SAFU**方法是一种**DIY（自己动手）**解决方案，可让您为您的**seed 短语**（由**BIP-39**标准定义的 12 或 24 个字符的 Mnemonic 短语）创建一个**可持续、安全和隐蔽的**备份。该短语对于恢复 Bitcoin Wallet 或任何其他兼容的 Wallet 都至关重要。
+忍者 **SAFU** 方法是一种 **DIY（自己动手）** 解决方案，可让您为您的 **seed 短语**（由 **BIP-39** 标准定义的 12 或 24 个字符的 Mnemonic 短语）创建一个 **可持续、安全和隐蔽的** 备份。该短语对于恢复 Bitcoin Wallet 或任何其他兼容的 Wallet 都至关重要。
 
 
 
@@ -24,19 +24,19 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 保密性**：您购买的产品不会被认定用于加密货币备份。这些组件都是标准组件（垫圈、螺栓、金属盒），在硬件商店就能买到，这就降低了在数据泄漏时被专业供应商盯上的风险。
+- **保密性**：您购买的产品不会被认定用于加密货币备份。这些组件都是标准组件（垫圈、螺栓、金属盒），在硬件商店就能买到，这就降低了在数据泄漏时被专业供应商盯上的风险。
 
 
 
 
 
-- 经济实惠** ：该解决方案的成本在 **15 至 140 欧元**之间，具体取决于您已有的工具。
+- **经济实惠**：该解决方案的成本在 **15 至 140 欧元**之间，具体取决于您已有的工具。
 
 
 
 
 
-- 可靠性**：自 2020 年以来，该方法已经过 [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)等安全专家的测试，他们对该方法进行了严格的压力测试（极热、腐蚀、机械压力）。
+- **可靠性**：自 2020 年以来，该方法已经过 [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)等安全专家的测试，他们对该方法进行了严格的压力测试（极热、腐蚀、机械压力）。
 
 
 
@@ -59,17 +59,17 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 不锈钢垫圈（建议使用 M8）** ：
- - 材料**：不锈钢（如 304 或 V4A，以增强抗腐蚀能力）
-    - 尺寸**：M8（内径 8 毫米，外径 ~24 毫米）。M6 垫圈太小，难以雕刻。
-    - 数量**：12 或 24 个垫圈用于标准 seed 句子，加上可选垫圈（见第 3.4 节）和 10 个左右用于测试或误差。
+- 不锈钢垫圈（建议使用 M8）：
+- 材料：不锈钢（如 304 或 V4A，以增强抗腐蚀能力）
+- 尺寸：M8（内径 8 毫米，外径 ~24 毫米）。M6 垫圈太小，难以雕刻。
+- 数量：12 或 24 个垫圈用于标准 seed 句子，加上可选垫圈（见第 3.4 节）和 10 个左右用于测试或误差。
 
 
 
 
 
-- 不锈钢 Bolt 和螺母 (M8)** ：
- - 规格**：Bolt 2.5 至 5 厘米长，取决于垫圈的数量和厚度，直径 8 毫米。翼形螺母便于免工具打开，但也可使用简单的螺母。
+- **不锈钢 Bolt 和螺母 (M8)**：
+- 规格：Bolt 2.5 至 5 厘米长，取决于垫圈的数量和厚度，直径 8 毫米。翼形螺母便于免工具打开，但也可使用简单的螺母。
 
 
 
@@ -79,8 +79,8 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 字母和数字打孔器套装（3 毫米或 6 毫米）** ：
-    - 规格**：6 毫米高的字迹便于辨认，如果部分字迹已退化，可选择 6 毫米高的字迹。选择一套坚固的字体，以便反复使用。
+- **字母和数字打孔器套装（3 毫米或 6 毫米）**：
+- 规格：6 毫米高的字迹便于辨认，如果部分字迹已退化，可选择 6 毫米高的字迹。选择一套坚固的字体，以便反复使用。
 
 
 
@@ -90,14 +90,14 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 锤子或大锤** ：
+- **锤子或大锤**：
     - 最好使用大锤，以获得足够和精确的冲压力
 
 
 
 
 
-- 铁砧或坚固的表面** ：
+- **铁砧或坚固的表面**：
  - 厚实的 Hard 表面（如 1 千克重的铁砧或 10 厘米厚的铺路石），以吸收冲击力。
 
 
@@ -112,7 +112,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 冲压装置**：可固定垫圈并引导打孔机，从而实现精确、整洁的烫印，更好地确定字母的方向和均匀的间距
+- 冲压装置：可固定垫圈并引导打孔机，从而实现精确、整洁的烫印，更好地确定字母的方向和均匀的间距
 
 
 
@@ -122,7 +122,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 密封装置**：密封袋或密封条
+- 密封装置：密封袋或密封条
 
 
 
@@ -132,7 +132,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 密封容器**：用于存放垫圈块
+- **密封容器**：用于存放垫圈块
 
 
 
@@ -145,8 +145,8 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 建议佩戴手套**和**安全眼镜**。
-- 管扳手**，将冲头滑入其中，用管扳手而不是手指握住冲头。
+- 建议佩戴手套**和安全眼镜**。
+- 管扳手，将冲头滑入其中，用管扳手而不是手指握住冲头。
 
 
 
@@ -156,13 +156,13 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- 24 字备份的数量**：24 个垫圈（最少）、1 个 Bolt、1 个翼形螺母、1 套冲头、1 个锤子/调音台、1 个铁砧/支架。
+- 24 字备份的数量：24 个垫圈（最少）、1 个 Bolt、1 个翼形螺母、1 套冲头、1 个锤子/调音台、1 个铁砧/支架。
 
 
 
 
 
-- 总费用** ：
+- **总费用**：
  - 垫圈和螺栓/螺母：~ 15 欧元
  - 打孔器套装：~ 45 欧元
  - 保护套：~ 55 欧元
@@ -254,7 +254,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
     - 尝试从新备份中恢复投资组合
-- 密封备份** （可选，建议使用） ：
+- **密封备份**（可选，建议使用）：
  - 密封条或密封袋。
  - 如果您使用的是邮袋，请记下它的唯一标识号，以便检查它是否是正确的邮袋，而不是替代原邮袋的诱饵。
 
@@ -269,7 +269,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-将备份存储在**隐蔽的地方，不被人发现，并可定期检查。选择防火防水的存储**，存放在家中或您**独享的地方。
+将备份存储在**隐蔽的地方，不被人发现，并可定期检查。选择防火防水的存储**，存放在家中或您**独享的地方**。
 
 
 
@@ -297,14 +297,14 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-即使保存完好，也需要定期**检查备份：
+即使保存完好，也需要定期**检查备份**：
 
 
 
 
 
-- 在看不见的地方，每年**次或两次检查备份。
-- 如果雕刻出现**退化**，请重新创建一个新的备份，**测试**，然后**小心地销毁旧副本。
+- 在看不见的地方，每年**一次**或两次检查备份。
+- 如果雕刻出现**退化**，请重新创建一个新的备份，**测试**，然后**小心地销毁旧副本**。
 - 如果备份在密封袋中 ：
  - 检查您的登录
  - 检查其完整性
@@ -313,7 +313,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-*保持安全 ！
+**保持安全！**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 垫圈**用于
+- 垫圈用于
  - [泰坦](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- 垫圈 + 螺母 + 保护套**（用于垫圈）
+- 垫圈 + 螺母 + 保护套（用于垫圈）
  - [泰坦](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - 冲压套件
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- 打字基础**
+- **打字基础**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- 攻丝装置**（导向装置）
+- 攻丝装置**（导向装置）**
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - 密封装置
  - [密封袋](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [密封条](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- 全套**套件
+- 全套**套件**
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

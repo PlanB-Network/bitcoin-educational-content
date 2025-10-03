@@ -293,7 +293,6 @@ Cette revue (1814-1819), rebaptisée Le Censeur européen après les Cent Jours,
 
 ![image](assets/en/031.webp)
 
-![image](assets/en/032.webp)
 
 Charles Comte, cousin d’Auguste Comte et gendre de Say, est le fondateur de la revue. Il sera bientôt rejoint par Charles Dunoyer, un juriste comme lui, puis par un jeune historien, Augustin Thierry, ancien secrétaire de Saint Simon. Leur devise sur la une de chaque numéro de la revue était « Paix et Liberté ».
 
@@ -362,7 +361,6 @@ Orateur fascinant et redoutable, il avait un don prodigieux pour inventer des fo
 
 En 1845, Bastiat fait paraître à Paris son livre Cobden et la Ligue, avec ses traductions accompagnées de commentaires. Le livre s'ouvre par une introduction sur la situation économique de l'Angleterre, sur l’histoire de l’origine et des progrès de la Ligue. Depuis 1815, le protectionnisme était très développé en Angleterre. Il existait en particulier des lois limitant les importations de grains qui avaient des conséquences très dures pour le peuple. En effet, le blé était nécessaire à la fabrication du pain, denrée vitale à l'époque. Par ailleurs ce système favorisait l'aristocratie, c’est-à-dire les grands propriétaires terriens, qui en tiraient des rentes.
 
-![image](assets/en/042.webp)
 
 > Ce qui coexiste en Angleterre, écrit Bastiat, c’est un petit nombre de spoliateurs et un grand nombre de spoliés, et il ne faut pas être un grand économiste pour en conclure l’opulence des uns et la misère des autres.
 
@@ -513,8 +511,6 @@ Imaginons un couteau anglais qui se vend dans notre pays pour 2 euros, et qu’u
 
 Si on interdit le produit anglais, le consommateur paiera un franc de plus son couteau. Le protectionnisme se traduit donc par un profit pour une industrie nationale et par deux pertes, l’une pour une autre industrie (celle des crayons) et l’autre pour le consommateur. Au contraire, l’échange libre fait deux heureux gagnants.
 
-![image](assets/en/059.webp)
-
 Le protectionnisme est également une forme de lutte des classes. Selon Bastiat, c’est un système fondé sur l’égoïsme et l’avidité des producteurs. Pour augmenter leur rémunération, les agriculteurs ou les industriels réclament des taxes pour fermer le marché aux produits étrangers, contraignant ainsi les consommateurs à payer leurs produits plus chers.
 
 ![image](assets/en/060.webp)
@@ -556,7 +552,6 @@ Pour conclure, protectionnistes et socialistes ont un point commun, selon Bastia
 Pierre-Joseph Proudhon est l’un des grands représentants du socialisme français au milieu du XIXe siècle. Il est resté célèbre notamment pour cette phrase : « La propriété c’est le vol » dans "Qu'est-ce que la propriété ?" en 1840.
 
 ![image](assets/en/064.webp)
-![image](assets/en/065.webp)
 
 Il y a quelque chose de logiquement absurde dans cette affirmation. Car s'il n'y avait pas de propriété acquise légitimement, il ne pourrait logiquement pas y avoir d'acte tel que le vol. C’est pourquoi Proudhon précisera par la suite que c'est la répartition effective de la propriété qu'il considère comme un vol et non la propriété elle-même qu'il qualifie de force révolutionnaire fondatrice de la société anarchiste.
 
@@ -564,7 +559,6 @@ Il y a quelque chose de logiquement absurde dans cette affirmation. Car s'il n'y
 
 Mais Proudhon est un anarchiste individualiste. Il ne voit pas le prolétariat, ni l'État, comme les sources légitimes du pouvoir. Il critique sévèrement le communisme et plaide pour un mutualisme ouvrier, une forme de solidarité coopérative structurée, qui reposerait sur la mise en commun volontaire de ressources dans un but d’entraide. On le sait peu mais Bastiat n’était pas du tout opposé à cette idée sur le principe. Simplement il craignait que l’État ne le transforme de fait en service public monopolistique. L’histoire lui donnera raison.
 
-![image](assets/en/067.webp)
 
 En revanche, on sait plus que dans La Misère de la philosophie, Marx s’en prendra violemment à Proudhon et à son socialisme qu’il appellera « utopique », pour lui préférer un socialisme dit « scientifique ».
 
@@ -660,7 +654,6 @@ La grande leçon de cette série de textes, c’est que l'intervention de l'Éta
 En 1840, la Chambre des députés vota une loi augmentant les taxes à l’importation afin de protéger l’industrie française. C’est le fameux patriotisme économique, qu’on retrouve encore de nos jours.
 
 ![image](assets/en/077.webp)
-![image](assets/en/078.webp)
 
 Bastiat composa alors un texte satirique qui est devenu par la suite l’un de ses textes les plus célèbres : "la pétition des fabricants de chandelles". Il montre comment certains groupes de pression bien organisés de producteurs obtiennent de l'État des privilèges indus, au détriment des citoyens. En même temps, il démontre le caractère absurde et destructeur des législations protectionnistes.
 
@@ -698,7 +691,6 @@ On retrouve cette confusion du moyen et du but dans ce slogan « l’argent, c�
 
 Tel est l’axiome qui commande la politique monétaire de la plupart des États. En effet, l’augmentation artificielle de la quantité de monnaie permet aux banques de prêter de l’argent aux particuliers et aux États de rembourser facilement leur dette, c’est « ce qu’on voit ». Mais « ce qu’on ne voit pas », c’est que cette création de monnaie ne reposant sur aucune création de richesse réelle entraînera l’inflation et la ruine des épargnants.
 
-![image](assets/en/082.webp)
 
 La véritable richesse, selon Bastiat, c’est donc l'ensemble des choses utiles que nous produisons par le travail pour la satisfaction de nos besoins. La monnaie n’est donc qu’un moyen d’échange communément utilisé, elle ne joue qu’un rôle d’intermédiaire.
 
@@ -728,13 +720,11 @@ L’économie décrit les effets, bons ou mauvais, des décisions politiques sur
 >  
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Dès lors, il réfute l’argument, toujours actuel, qui veut que les dépenses publiques financées par l’impôt créent de l’emploi. En effet, l’impôt ne crée rien puisque ce qui est dépensé par l’État n’est plus dépensé par les contribuables.
 
 Or l’État est plus dispendieux que les particuliers. En effet, rappelle-t-il, l’État n’a rien, il ne produit aucune richesse. La dépense publique est donc souvent une source de gaspillage parce que les sommes immenses qui sont confisquées aux individus, échappent à la responsabilité de leurs propriétaires et sont dépensées à leur place par des bureaucrates, soumis à des groupes de pression.
 
-![image](assets/en/085.webp)
 
 Bien sûr, comme paiement d’un service public équivalent reçu en échange, l’impôt est tout à fait défendable. Mais en France l’État a assigné plusieurs rôles à l’impôt.
 
@@ -742,7 +732,6 @@ Au départ, il devait seulement couvrir les dépenses communes. Puis on a égale
 
 Enfin on a assigné à l’impôt un rôle social à remplir. On en a fait un instrument de la justice sociale. Ainsi l’impôt ne doit pas frapper tout le monde de la même manière. L’impôt doit être redistributif, de ceux « qui ont le plus » vers ceux « qui ont moins ».
 
-![image](assets/en/086.webp)
 
 Le problème c’est que l’impôt ainsi conçu est soumis à l’arbitraire de celui qui détient le pouvoir. Il favorise ou défavorise telle ou telle catégorie sociale selon que le pouvoir en attend des voix ou pas. De plus les taux progressifs rapportent peu au trésor public. En revanche ils permettent à la majorité d’exproprier une minorité et deviennent naturellement confiscatoires.
 
@@ -809,7 +798,6 @@ L'Économie politique a donc une utilité pratique évidente. Elle dévoile la s
 
 Encore, une fois, il y aurait moins de Tartuffe s’il y avait moins d’Orgon pour les écouter. Voici ce que dit Bastiat à ce propos :
 
-![image](assets/en/094.webp)
 
 > Que la morale religieuse touche donc le cœur, si elle le peut, des Tartuffes. La tâche de l'économie politique est d'éclairer leurs dupes. De ces deux procédés, quel est celui qui travaille le plus efficacement au progrès social ? Faut-il le dire ? Je crois que c'est le second. Je crains que l'humanité ne puisse échapper à la nécessité d'apprendre d'abord la morale défensive.
 
@@ -928,7 +916,6 @@ _(Alan Greenspan, président de la FED, la banque centrale américaine, de 1987 
 
 Pendant des années, les dirigeants de la politique monétaire ont expliqué que si les gains sont privatisés lorsque tout va bien, les pertes seront mutualisées en cas de faillite (renflouements, plans de sauvetage, manipulation des taux d’intérêts, planche à billets etc.). Ce faisant, ils ont créé un aléa moral, ils ont facilité la prise de risque déraisonnable et ils ont incité le monde de la finance à se comporter de façon irresponsable. Ils ont donc précipité la finance dans la crise que nous avons connue.
 
-![image](assets/en/104.webp)
 
 Et le phénomène se répètera indéfiniment tant que les banques resteront sous la domination d’autorités centrales censées les protéger en leur retirant toute autonomie de décision et de fonctionnement.
 
@@ -1010,11 +997,9 @@ Encore faut-il préciser que ce développement du progrès par la responsabilit�
 
 :::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
-![image](assets/en/113.webp)
 
 Frédéric Bastiat, dans son fameux pamphlet « La loi », dénonce la perversion du droit qui consiste à légaliser, sous le nom de « solidarité », ce qu'il faut bien appeler la spoliation. Il y a en effet une contradiction à vouloir imposer la fraternité par la loi, ce qu’on appellerait aujourd’hui « justice sociale » ou solidarité.
 
-![image](assets/en/114.webp)
 
 Car la moralité se définit comme un comportement volontaire. Quand un individu est contraint de donner quelque chose qu’il ne veut pas donner, il est toujours la victime d’un vol.
 
@@ -1045,8 +1030,6 @@ Dans un pamphlet nommé "Justice et Fraternité", Bastiat explore aussi l’idé
 De fait, la solidarité intrafamiliale, la solidarité locale ou la philanthropie organisée sont beaucoup plus développées dans les pays qui connaissent un système fiscal léger et un degré relativement élevé de liberté économique, comme la Suisse et les États-Unis, alors qu'elle est largement étouffée dans les pays où l'État s'est en grande partie substitué à la responsabilité individuelle, comme la France ou l'Allemagne.
 
 Il est souvent de bon ton de déplorer « l'égoïsme » qui prévaudrait dans les sociétés libérales. Mais c’est exactement l’inverse qui est vrai. Quand une société est écrasée d’impôts et que les individus ne sont plus propriétaires de leurs biens, ils ne sont pas incités à donner mais plutôt à se replier sur eux-mêmes.
-
-![image](assets/en/119.webp)
 
 En réalité, la société civile libre ne repose pas sur l'égoïsme : l'économie de marché fonctionne sur la base du service à son prochain et sur la réciprocité. On ne peut servir son propre intérêt qu’en servant l’intérêt d’autrui, en offrant à l'autre une contrepartie qui conduit à un échange mutuellement bénéfique. Autrement dit c’est l’échange volontaire qui crée la vraie solidarité.
 
@@ -1104,7 +1087,6 @@ Chez Rousseau, la propriété n’est pas antérieure au droit, elle n’est qu�
 
 Par exemple : le droit au travail ou le droit au logement.
 
-![image](assets/en/123.webp)
 
 Pour que je puisse acquérir gratuitement il faut bien que quelqu’un paie pour moi. Et si c’est l’État qui paie, puisqu’il ne produit pas de richesses, il ne peut le faire qu’en prenant un logement à quelqu’un, ou son équivalent, pour me le donner.
 
@@ -1116,7 +1098,6 @@ Dans le système de la liberté naturelle, il existe donc une loi naturelle, ind
 
 Ici Bastiat s’inscrit ici dans l’héritage des Physiocrates, et par-delà, dans la tradition de la philosophie du droit de Cicéron et d’Aristote. La loi ne crée pas le droit. Elle a pour mission de le défendre et donc de défendre la propriété, aussi bien la propriété de soi, l’intégrité de la personne, que la propriété du fruit de son travail.
 
-![image](assets/en/124.webp)
 _(Cicéron)_
 
 ## La Spoliation Légale: Une Perversion de la Loi
@@ -1201,7 +1182,6 @@ Autrement dit l’État ne poursuit que des objectifs clientélistes et la notio
 Bastiat anticipe ainsi avec un siècle d’avance les analyses du fonctionnement du marché politique qui émergeront à la fin des années 50 avec l’école dite du Public Choice de James Buchanan, prix Nobel d’économie et son collègue Gordon Tullock.
 
 ![image](assets/en/135.webp)
-![image](assets/en/136.webp)
 
 De plus, affirme Bastiat, l’État n’a aucun droit qui ne préexiste d’abord dans l’individu. Pourquoi l'État a-t-il le droit de garantir, même par la force, la propriété de chacun ? Simplement parce que ce droit préexiste dans l'individu. On ne peut contester aux individus le droit de légitime défense, le droit d'employer la force au besoin pour repousser les atteintes dirigées contre leurs personnes, leurs facultés et leurs biens. Ce droit naturel de légitime défense qui réside en tous les citoyens, peut prendre une forme collective et légitimer la force commune.
 
@@ -1231,7 +1211,6 @@ En résumé, lorsqu’un gouvernement outrepasse sa mission de défense des pers
 
 Écrit Frédéric Bastiat dans un court pamphlet intitulé L'État.
 
-![image](assets/en/138.webp)
 
 ## La Postérité de Frédéric Bastiat
 
@@ -1271,7 +1250,6 @@ Mais comme l’a bien montré Bastiat, l’intervention de l’État a des effet
 
 Si nous envisageons les choses sous cet angle, expliquait Reagan aux employés de GE, les soi-disant miracles des dépenses de l'État nous apparaissent sous un tout autre jour. Car les impôts découragent la production et les richesses créées par les dépenses publiques ne peuvent compenser pleinement celles qu'auront empêché de naître les impôts prélevés pour payer ces dépenses.
 
-![image](assets/en/138.webp)
 
 En substance, Reagan a retenu de Bastiat quelques éléments clés d’une vision libérale de la société et de l’homme : le primat de la société civile sur l’État, la valeur du choix et de la responsabilité individuelle, l’importance de l’entrepreneur dans création de richesses, l’importance d’un cadre légal souple et minimal, qui permette la confiance et le respect des contrats, la loi fondamentale qui veut que la richesse soit créée avant d’être répartie, la volonté de donner à chacun sa chance sur des marchés concurrentiels…
 

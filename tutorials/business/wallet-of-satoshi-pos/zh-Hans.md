@@ -1,5 +1,5 @@
 ---
-name: Satoshi 的 Wallet - 销售点
+name: Wallet of Satoshi - POS
 description: 通过 Lightning Network 在企业中采用 Bitcoin。
 ---
 

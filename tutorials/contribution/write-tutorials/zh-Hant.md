@@ -119,19 +119,19 @@ paolo@planb.network
 
 
 
-- 有經驗的使用者**：繼續使用您的常規方法，只需參考下面的簡短教程，其中總結了 Plan ₿ Network 儲存庫的檔案結構、具體要求和工作方法：
+- 有經驗的使用者：繼續使用您的常規方法，只需參考下面的簡短教程，其中總結了 Plan ₿ Network 儲存庫的檔案結構、具體要求和工作方法：
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- 中級 (GitHub 桌面)** ：如果您不熟悉使用 Git，第一個選擇是輕鬆建立自己的本機環境，為 Plan ₿ Network 做出貢獻。對於重要的貢獻，例如撰寫完整的教學，建議使用此方法。要做到這一點，請按照下面的教學一步一步來：
+- **中級 (GitHub 桌面)**：如果您不熟悉使用 Git，第一個選擇是輕鬆建立自己的本機環境，為 Plan ₿ Network 做出貢獻。對於重要的貢獻，例如撰寫完整的教學，建議使用此方法。要做到這一點，請按照下面的教學一步一步來：
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- 初學者 (web Interface)** ：您也可以選擇直接使用 GitHub 的網頁 Interface，而不需要建立完整的本機環境。小規模的貢獻可以考慮使用此方法。不過，對於重大的貢獻，例如新增完整的新教學，這個方法可能會比建立本機環境更複雜。我將在本教程中解釋如何做到這一點：
+- **初學者 (web Interface)**：您也可以選擇直接使用 GitHub 的網頁 Interface，而不需要建立完整的本機環境。小規模的貢獻可以考慮使用此方法。不過，對於重大的貢獻，例如新增完整的新教學，這個方法可能會比建立本機環境更複雜。我將在本教程中解釋如何做到這一點：
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

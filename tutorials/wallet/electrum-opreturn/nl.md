@@ -150,8 +150,8 @@ Selecteer het bericht dat je wilt invoeren (bijvoorbeeld `Dank Satoshi`). Opmerk
 
 
 
-- een prachtige uitdrukking van onze menselijkheid achterlaten,*
-- vermijd het invoeren van inhoud waar u spijt van kunt krijgen*
+- een prachtige uitdrukking van onze menselijkheid achterlaten,
+- vermijd het invoeren van inhoud waar u spijt van kunt krijgen
 
 
 
@@ -208,9 +208,9 @@ die bestaat uit :
 
 
 
-- Bestemming Address**: Een geldige Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dit kan je eigen Address zijn, als je het overgemaakte geld naar jezelf wilt terugstorten;
-- Getransfereerd bedrag**: het bedrag van de transactie, hier `0.00001` BTC. **Let op**: aangezien de eenheid die in Electrum wordt gebruikt BTC is, moet het bedrag in het transactiescript ook worden uitgedrukt in BTC, en niet in Sats ;
-- Script OP_RETURN**: Het bericht geconverteerd naar hexadecimaal voorafgegaan door script(`OP_RETURN <messsage>), 0`. Hier staat `5468616e6b73205361746f736869` voor het bericht in hexadecimaal.
+- **Bestemming Address**: Een geldige Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dit kan je eigen Address zijn, als je het overgemaakte geld naar jezelf wilt terugstorten;
+- **Getransfereerd bedrag**: het bedrag van de transactie, hier `0.00001` BTC. **Let op**: aangezien de eenheid die in Electrum wordt gebruikt BTC is, moet het bedrag in het transactiescript ook worden uitgedrukt in BTC, en niet in Sats ;
+- Script **OP_RETURN**: Het bericht geconverteerd naar hexadecimaal voorafgegaan door script(`OP_RETURN <messsage>), 0`. Hier staat `5468616e6b73205361746f736869` voor het bericht in hexadecimaal.
 
 
 

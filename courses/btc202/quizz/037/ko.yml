@@ -1,0 +1,9 @@
+question: Bitcoin 홈 노드에 가장 적합한 절충안으로 제시된 머신 유형은 무엇인가요?
+answer: NUC형 미니 PC
+wrong_answers:
+  - 노트북 컴퓨터
+  - 슈퍼컴퓨터
+  - 게임 콘솔
+explanation: |
+  미니 PC(NUC, 타이니, 옵티플렉스 마이크로...)는 전력 소비가 적고 안정적이며 적응이 쉬워 이상적인 절충안입니다.
+reviewed: true

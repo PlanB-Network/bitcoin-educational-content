@@ -170,7 +170,7 @@ Lazima uweke nenosiri lako ili kufungua salama. Kisha bonyeza "** Release drive 
 
 
 
-Kwa upande wa OneDrive, hatuwezi kuvinjari hifadhi ya Cryptomator moja kwa moja. Hatuwezi kuona data (wala majina ya faili wala yaliyomo). Hii inamaanisha kuwa huhitaji kuongeza data kwenye hifadhi yako ya Cryptomator kupitia njia ya mkato ya kawaida ya OneDrive. **Lazima uongeze data yako kwa kutumia hifadhi pepe ya Cryptomator
+Kwa upande wa OneDrive, hatuwezi kuvinjari hifadhi ya Cryptomator moja kwa moja. Hatuwezi kuona data (wala majina ya faili wala yaliyomo). Hii inamaanisha kuwa huhitaji kuongeza data kwenye hifadhi yako ya Cryptomator kupitia njia ya mkato ya kawaida ya OneDrive. **Lazima uongeze data yako kwa kutumia hifadhi pepe ya Cryptomator.**
 
 
 

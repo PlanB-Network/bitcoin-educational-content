@@ -1,0 +1,9 @@
+question: Coinbase Transaction에서 Block reward을 구성하는 2개의 Elements는 무엇인가요?
+answer: 블록 보조금과 트랜잭션 수수료.
+wrong_answers:
+  - 블록 보조금과 속도 보너스.
+  - 배출권 및 보안 프리미엄.
+  - Mining 배당금과 네트워크 세금.
+explanation: |
+  Miner가 유효한 블록을 발견하면 한편으로는 블록 보조금과 다른 한편으로는 블록에 포함된 트랜잭션 수수료로 구성된 보상을 받을 자격이 주어집니다.
+reviewed: true

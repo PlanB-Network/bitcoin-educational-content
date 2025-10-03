@@ -3,7 +3,7 @@ name: RGB
 description: RGB'de giriş ve varlık oluşturma
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 
 ## gİRİŞ

@@ -2,24 +2,28 @@
 name: Neutrino
 description: Instrukcja instalacji LND Neutrino
 ---
+![image](assets/cover.webp)
 
-# Konfiguracja Raspberry Pi z LND
+
+## Konfiguracja Raspberry Pi z LND
 
 
-#### 1. Pobierz Raspberry Pi OS Lite
+### 1. Pobierz Raspberry Pi OS Lite
+
 
 Instrukcje pobierania i instalowania obrazu na karcie micro SD w systemach Windows, Mac i Linux można znaleźć na [tej stronie](https://www.raspberrypi.org/software/operating-systems/).
 
 
-#### 2. Formatowanie karty SD
+### 2. Formatowanie karty SD
 
-użyj Raspberry Pi Imager lub balenaEtcher.
+
+Użyj Raspberry Pi Imager lub balenaEtcher.
 
 
 **Uwaga:** Symbol `$` jest używany jako znak zachęty i pozwala użytkownikowi na wprowadzanie komend do komputera, komendy te będą interpretowane przez bash w Linuksie. Symbol `#` na początku linii wskazuje, że poniższy tekst jest komentarzem.
 
 
-#### 3. Włącz SSH
+### 3. Włącz SSH
 
 
 Przed uruchomieniem Raspberry Pi ze sformatowaną pamięcią, musimy włożyć ją do komputera i utworzyć dwa pliki, które pozwolą nam na zdalne połączenie. Za pomocą polecenia `touch` tworzymy pusty plik na partycji /boot, umożliwiając połączenie SSH przy pierwszym uruchomieniu świeżo sformatowanej karty SD.
@@ -31,7 +35,9 @@ Przed uruchomieniem Raspberry Pi ze sformatowaną pamięcią, musimy włożyć j
 $ touch /boot/ssh
 ```
 
-#### 4. Utwórz plik dla połączenia Wi-Fi
+
+### 4. Utwórz plik dla połączenia Wi-Fi
+
 
 Za pomocą polecenia nano tworzymy plik `wpa_supplicant.conf` i bezpośrednio rozpoczynamy jego edycję. W tym pliku musimy skopiować konfigurację wifi, kopiując tekst między START i END oraz modyfikując SSID i hasło wifi, z którym chcemy się połączyć.
 
@@ -52,14 +58,17 @@ psk="password"
 ```
 
 
-#### 5. Połączenie
+### 5. Połączenie
+
 
 Następnie wkładamy kartę SD do Raspberry Pi i podłączamy Pi do źródła zasilania, aby uruchomić system operacyjny. Musimy zidentyfikować go w sieci, a protokół mDNS prawdopodobnie przypisze mu nazwę raspberrypi.local. Spróbujmy połączyć się przez SSH.
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
+
 
 Jeśli to nie zadziała, musimy znaleźć sieć. Sprawdźmy IP Address, z którym jesteśmy połączeni.
 
@@ -86,7 +95,8 @@ password: raspberry
 ```
 
 
-#### 6. Konfiguracja Pi
+### 6. Konfiguracja Pi
+
 
 ```
 $ sudo raspi-config
@@ -100,7 +110,8 @@ $ sudo raspi-config
 - Zakończenie
 
 
-#### 7. Teraz zaktualizuj system operacyjny
+### 7. Teraz zaktualizuj system operacyjny
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
@@ -108,14 +119,15 @@ $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim 
 ```
 
 
-#### 8. Dodaj użytkownika Bitcoin
+### 8. Dodaj użytkownika Bitcoin
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
 
-#### 9. Zabezpiecz rpi
+### 9. Zabezpiecz rpi
 
 
 ```
@@ -132,9 +144,10 @@ $ sudo apt install fail2ban
 ```
 
 
-#### 10. Zainstaluj Go
+### 10. Zainstaluj Go
 
-Jeśli nie używasz raspberry pi, pobierz go dla swojej architektury [tutaj](https://golang.org/dl/)
+
+Jeśli nie używasz raspberry pi, pobierz go dla swojej architektury [tutaj] (https://golang.org/dl/).
 
 
 ```
@@ -148,7 +161,7 @@ $ go version # should display the following message 'go version go1.13.5 linux/a
 ```
 
 
-#### 11. Kompilacja i instalacja LND
+### 11. Kompilacja i instalacja LND
 
 
 ```
@@ -163,7 +176,8 @@ lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c
 ```
 
 
-#### 12. Tworzenie pliku LND conf
+### 12. Tworzenie pliku LND conf
+
 
 Utwórz plik konfiguracyjny LND, należy to zrobić za pomocą użytkownika "Bitcoin"
 
@@ -200,7 +214,8 @@ neutrino.connect=bb2.breez.technology
 ```
 
 
-#### 13. LND usługa autostartu
+### 13. LND usługa autostartu
+
 
 Aby LND uruchomił się po starcie rpi, musimy utworzyć plik .service w systemd. Jeśli jesteśmy zalogowani jako użytkownik Bitcoin i chcemy przełączyć się z powrotem na użytkownika pi, po prostu wpisujemy "exit
 
@@ -284,7 +299,7 @@ $ sudo journalctl -f -u lnd
 ```
 
 
-#### 14. Teraz zaczynamy LND
+### 14. Teraz zaczynamy LND
 
 
 ```
@@ -293,7 +308,7 @@ $ lncli create
 ```
 
 
-#### 15. Dodaj środki do węzła
+### 15. Dodaj środki do węzła
 
 
 ```
@@ -321,6 +336,7 @@ Po potwierdzeniu transakcji możemy otworzyć kanał. Jeśli nie wiesz, w który
 
 Otwarcie połączenia z węzłem:
 
+
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
@@ -328,12 +344,14 @@ $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836
 
 Następnie otwórz kanał:
 
+
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
 
 Sprawdź nasze fundusze:
+
 
 ```
 $ lncli walletbalance
@@ -343,6 +361,7 @@ $ lncli channelbalance
 
 Możemy przeglądać oczekujące i aktywne kanały:
 
+
 ```
 $ lncli pendingchannels
 $ lncli listchannels
@@ -351,12 +370,14 @@ $ lncli listchannels
 
 Aby zapłacić błyskawicę Invoice:
 
+
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 
 Aby otrzymać płatność, utwórz Invoice na określoną kwotę:
+
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100
@@ -365,6 +386,7 @@ $ lncli addinvoice --memo 'my first payment on LN' --amt 100
 
 Aby wyświetlić informacje o moim węźle:
 
+
 ```
 $ lncli getinfo
 ```
@@ -372,12 +394,14 @@ $ lncli getinfo
 
 Pełną listę poleceń można zobaczyć po prostu uruchamiając polecenie lncli:
 
+
 ```
 $ lncli
 ```
 
 
 Wreszcie, aby wykonywać połączenia z interfejsem API LND:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"

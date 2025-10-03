@@ -1,0 +1,9 @@
+question: Apa perbedaan ekonomis antara node dan Miner?
+answer: Miner menerima hadiah, simpul tidak memiliki keuntungan langsung
+wrong_answers:
+  - Node menerima biaya, Miner menerima hibah blokir
+  - Node menerima hadiah, Miner tidak memiliki keuntungan langsung
+  - Keduanya menerima penghargaan yang sama
+explanation: |
+  Penambang menerima imbalan (subsidi dan biaya), sedangkan node tidak memberikan keuntungan finansial secara langsung kepada penggunanya.
+reviewed: true

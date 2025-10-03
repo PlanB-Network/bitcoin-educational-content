@@ -1,0 +1,9 @@
+question: 데이비드 차움이 디지털 화폐 개념을 구현한 회사의 이름은 무엇인가요?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - 퍼스트 버추얼 홀딩스 Inc.
+explanation: |
+  1990년에 설립된 DigiCash B.V.는 네덜란드 암스테르담에 본사를 둔 회사로, 데이비드 차움의 발명품인 eCash에 대한 특허를 보유하고 있습니다.
+reviewed: true

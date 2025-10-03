@@ -82,7 +82,7 @@ objectives:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/fa/001.webp)
 
 
 
@@ -108,7 +108,7 @@ objectives:
 
 
 
-**بخش 1: مقدمه
+**بخش 1: مقدمه**
 
 
 ما با برجسته کردن اهمیت متحد کردن مردم در اطراف Bitcoin شروع خواهیم کرد، چه از طریق جوامع آنلاین و چه ملاقات‌های محلی. شما خواهید فهمید که چرا و کجا جامعه خود را راه‌اندازی کنید، همراه با چگونگی تعیین اهداف واضح برای تقویت رشد و پایداری بلندمدت آن.
@@ -227,7 +227,7 @@ objectives:
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/fa/002.webp)
 
 
 
@@ -252,7 +252,7 @@ objectives:
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/fa/003.webp)
 
 
 جلسات Bitcoin می‌توانند اهداف زیادی را دنبال کنند:
@@ -314,7 +314,7 @@ objectives:
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/fa/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/fa/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/fa/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/fa/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/fa/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/fa/009.webp)
 
 
 
@@ -567,7 +567,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-شما می‌توانید از [Canva](https://www.canva.com/)** برای ایجاد تصاویر مختلف برای جامعه خود استفاده کنید.
+شما می‌توانید از [Canva](https://www.canva.com/) برای ایجاد تصاویر مختلف برای جامعه خود استفاده کنید.
 
 
 
@@ -612,57 +612,57 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-- پوستر اعلامیه ملاقات** (برای رسانه‌های اجتماعی و چاپ A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **پوستر اعلامیه ملاقات** (برای رسانه‌های اجتماعی و چاپ A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
-
-
-
-
-
-- پوستر رویداد** (برای شبکه‌های اجتماعی و چاپ A4/A3): [لینک](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![image](assets/fa/010.webp)
 
 
 
 
 
-- بنرهای شبکه‌های اجتماعی**: [لینک](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **پوستر رویداد** (برای شبکه‌های اجتماعی و چاپ A4/A3): [لینک](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- اعلامیه مسابقه**: [لینک](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-![image](assets/fr/011.webp)
+- **بنرهای شبکه‌های اجتماعی**: [لینک](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- راهنمای برند** کتابخانه ما، نمایش داده شده بر روی A4 در گردهمایی‌ها: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **اعلامیه مسابقه**: [لینک](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/fa/011.webp)
 
 
 
 
 
-- ارائه پاورپوینت** "فصل ۲ - درک تراکنش‌های Bitcoin"، توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **راهنمای برند** کتابخانه ما، نمایش داده شده بر روی A4 در گردهمایی‌ها: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- فلایر** "21 دلیل برای استفاده از Bitcoin"، نوشته شده توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- ارائه پاورپوینت **"فصل ۲ - درک تراکنش‌های Bitcoin"**، توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
-![image](assets/fr/012.webp)
 
 
-![image](assets/fr/013.webp)
+- **فلایر** "21 دلیل برای استفاده از Bitcoin"، نوشته شده توسط @ProfEduStream: [لینک](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/fa/012.webp)
+
+
+![image](assets/fa/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/fa/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/fa/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/fa/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/fa/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/fa/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/fa/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/fa/020.webp)
 
 
 به خاطر داشته باشید که **سوپرگروه‌های تلگرام ممکن است برای برخی از اعضا کمی پیچیده باشند**. به عنوان مثال، همه نمی‌دانند **چگونه به موضوعات مختلف دسترسی پیدا کنند** (آنها فقط باید روی لوگوی گروه در منوی اصلی تلگرام ضربه بزنند تا لیست کامل موضوعات را ببینند). ارسال یک اسکرین‌شات سریع می‌تواند به رفع هرگونه سردرگمی کمک کند.
@@ -1053,7 +1053,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 > شبکه‌های اجتماعی دیگر ما را بررسی کنید: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/fa/021.webp)
 
 
 
@@ -1092,21 +1092,21 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 - یک **دستور قوانین** (/rules) برای نمایش دستورالعمل‌های جامعه شما؛
-- محافظت ضد هرزنامه** برای فیلتر کردن پیام‌ها و حساب‌های مشکوک؛
-- پیام‌های خوش‌آمدگویی خودکار قابل تنظیم** برای اعضای جدید (با امکان حذف خودکار پس از چند دقیقه)
-- محافظت ضد سیل** برای جلوگیری از هرزنامه پیام
+- **محافظت ضد هرزنامه** برای فیلتر کردن پیام‌ها و حساب‌های مشکوک؛
+- **پیام‌های خوش‌آمدگویی خودکار قابل تنظیم** برای اعضای جدید (با امکان حذف خودکار پس از چند دقیقه)
+- **محافظت ضد سیل** برای جلوگیری از هرزنامه پیام
 - یک **@administrator command** برای دسترسی سریع به مدیران گروه
-- قوانین مسدودسازی** برای محتوای ناخواسته
+- قوانین **مسدودسازی** برای محتوای ناخواسته
 - یک **دستور لینک گروه** (/link)
 - مدیریت **مجوز**
-- حذف خودکار** انواع خاصی از پیام‌ها
-- مسدود کردن ربات** و **مسدود کردن ورود/خروج** برای حفظ امنیت گروه شما
+- **حذف خودکار** انواع خاصی از پیام‌ها
+- **مسدود کردن ربات** و **مسدود کردن ورود/خروج** برای حفظ امنیت گروه شما
 - فهرست **شبکه‌های اجتماعی جامعه شما** (/networks)
 - و خیلی بیشتر...
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/fa/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/fa/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/fa/024.webp)
 
 
 
@@ -1309,7 +1309,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
         - پسندیدن = وزن 0.5
         - ریتوییت = وزن 1
         - پاسخ = وزن ۲۷ (!!)**
-    - به افرادی که به توییت‌های شما پاسخ می‌دهند، پاسخ دهید** (وزن ۷۵!!)؛
+- به افرادی که به توییت‌های شما پاسخ می‌دهند، **پاسخ دهید** (وزن ۷۵!!)؛
     - از قرار دادن لینک‌ها در توییت اصلی خودداری کنید: در عوض، آن‌ها را در اولین نظر اضافه کنید.
     - کلمات را به طور کامل بنویسید، از اختصارات پرهیز کنید.
 
@@ -1328,7 +1328,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/fa/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/fa/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/fa/027.webp)
 
 
 پلتفرم‌های دیگر نیز می‌توانند به افزایش دیده‌شدن شما کمک کنند. **[Meetup](https://www.meetup.com/)** یکی از آن‌هاست و یک وب‌سایت (و یک اپلیکیشن تلفن همراه) است که در آن می‌توانید یک رویداد ایجاد کنید و دیگران را در نزدیکی خود پیدا کنید.
@@ -1476,7 +1476,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/fa/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/fa/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/fa/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 در مورد دوم، یک رویداد ماهانه دوم می‌تواند به یک موضوع خاص اختصاص یابد، مانند جلسات مبتدی یا کارگاه‌ها (Mining، Lightning، نصب نود، و غیره).
 
 
-![image](assets/fr/031.webp)
+![image](assets/fa/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/fa/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/fa/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/fa/034.webp)
 
 
 
@@ -1757,12 +1757,12 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 برای اطمینان از اینکه همه در رویدادهای شما احساس شمول می‌کنند، بر دو جنبه کلیدی تمرکز کنید:
 
 
-- شمول اجتماعی**: هر کسی که شرکت می‌کند باید احساس خوش‌آمدگویی کند. تلاش کنید تا به تازه‌واردان خوش‌آمد بگویید، از آنها بپرسید چرا آمده‌اند و آنها را به دیگران معرفی کنید. وقتی افراد احساس شمول می‌کنند، احتمال بیشتری دارد که دوباره برگردند و شاید حتی در سازماندهی رویدادهای آینده کمک کنند.
-- صبر و گشودگی**: این کار زمان و انگیزه می‌طلبد. اگر با یک شیت‌کوینر متعهد (یا بدتر، یک XRP Maximalist) صحبت می‌کنید، ممکن است وسوسه شوید که آن‌ها را نادیده بگیرید. اما با وارد شدن به گفتگو، ممکن است سوءتفاهم‌ها یا استدلال‌های نادرست را برطرف کنید. اگر آن‌ها مایل به گوش دادن باشند، ممکن است آماده باشند تا واقعاً Bitcoin را درک کنند.
+- **شمول اجتماعی**: هر کسی که شرکت می‌کند باید احساس خوش‌آمدگویی کند. تلاش کنید تا به تازه‌واردان خوش‌آمد بگویید، از آنها بپرسید چرا آمده‌اند و آنها را به دیگران معرفی کنید. وقتی افراد احساس شمول می‌کنند، احتمال بیشتری دارد که دوباره برگردند و شاید حتی در سازماندهی رویدادهای آینده کمک کنند.
+- **صبر و گشودگی**: این کار زمان و انگیزه می‌طلبد. اگر با یک شیت‌کوینر متعهد (یا بدتر، یک XRP Maximalist) صحبت می‌کنید، ممکن است وسوسه شوید که آن‌ها را نادیده بگیرید. اما با وارد شدن به گفتگو، ممکن است سوءتفاهم‌ها یا استدلال‌های نادرست را برطرف کنید. اگر آن‌ها مایل به گوش دادن باشند، ممکن است آماده باشند تا واقعاً Bitcoin را درک کنند.
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/fa/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/fa/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/fa/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/fa/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/fa/039.webp)
 
 
 برای حمایت از اکوسیستم، **[ناشر Konsensus Network](https://konsensus.network/) از اواخر سال ۲۰۲۳ به گردهمایی‌ها و جوامع بین‌المللی Bitcoin تخفیف ۱۵٪ تا ۳۵٪ بر روی تمام کتاب‌های خود برای سفارش‌های سه کتاب یا بیشتر ارائه می‌دهد**.
@@ -1997,7 +1997,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/fa/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/fa/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/fa/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/fa/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/fa/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/fa/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/fa/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/fa/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/fa/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/fa/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/fa/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/fa/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/fa/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/fa/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/fa/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/fa/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/fa/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/fa/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/fa/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 در ۵ آوریل ۱۹۳۳، فرانکلین روزولت، سی و دومین رئیس‌جمهور ایالات متحده آمریکا، **دستور اجرایی ۶۱۰۲** را امضا کرد که مالکیت سکه‌های طلا، شمش یا گواهی‌های طلا توسط افراد خصوصی را در سراسر کشور غیرقانونی کرد.
 
 
-![image](assets/fr/059.webp)
+![image](assets/fa/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/fa/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Bitcoin یک دنیای پیچیده و گسترده است که به تاریخ
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/fa/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Bitcoin یک دنیای پیچیده و گسترده است که به تاریخ
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/fa/062.webp)
 
 
 
@@ -2876,15 +2876,15 @@ Bitcoin یک دنیای پیچیده و گسترده است که به تاریخ
 مزایا دوگانه است:
 
 
-- شناسایی رسمی**: شما می‌توانید یک حساب بانکی انجمن باز کنید، توجه رسانه‌ها/مطبوعات را جلب کنید، و حتی برای دریافت یارانه‌ها اقدام کنید.
-- سازمان‌دهی ساختاری**: شما می‌توانید نقش‌های مشخصی را تعریف کنید که مدیریت جامعه و اجرای پروژه‌ها را آسان‌تر می‌کند.
+- **شناسایی رسمی**: شما می‌توانید یک حساب بانکی انجمن باز کنید، توجه رسانه‌ها/مطبوعات را جلب کنید، و حتی برای دریافت یارانه‌ها اقدام کنید.
+- **سازمان‌دهی ساختاری**: شما می‌توانید نقش‌های مشخصی را تعریف کنید که مدیریت جامعه و اجرای پروژه‌ها را آسان‌تر می‌کند.
 
 
-برای کمک به رشد بیشتر جامعه خود، **دنباله‌ای برای دوره COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+برای کمک به رشد بیشتر جامعه خود، **دنباله‌ای برای دوره COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-ممکن است در ماه‌های آینده در [planb.network](https://planb.network/) منتشر شود**.
+ممکن است در ماه‌های آینده در [planb.network](https://planb.network/) منتشر شود.
 
 
 جلسه بعدی می‌تواند به بررسی موضوعات پیشرفته‌ای مانند:
@@ -2897,7 +2897,7 @@ Bitcoin یک دنیای پیچیده و گسترده است که به تاریخ
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/fa/063.webp)
 
 
 

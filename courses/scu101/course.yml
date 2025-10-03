@@ -1,6 +1,7 @@
 id: 99c46148-7080-4915-a7e0-9df0e145cd47
 topic: security
 subtopic: security
+type: practice
 level: beginner
 hours: 6
 
@@ -16,130 +17,145 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 9.45
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.06
+    reward: 7.11
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 3.53
+    reward: 3.56
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 3.53
+    reward: 3.56
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributor_names:
       - KryptoKeskus
-    reward: 4.69
+    reward: 4.72
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 3.53
+    reward: 3.56
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - TinF0ilHat1
       - Bitman-ops
-    reward: 1.77
+    reward: 1.78
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.02
+    reward: 14.12
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.06
+    reward: 7.11
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 9.45
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 7.01
+    reward: 7.06
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 9.45
   - language: id
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MilankovicProtocol
       - AgoesRichie
-    reward: 2.93
+    reward: 2.95
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.7
+    reward: 11.79
   - language: nb-NO
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - turdsferguson
-    reward: 4.69
+    reward: 4.72
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 9.45
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.34
+    reward: 16.46
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 9.45
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Arianebtc
       - monyangi10
-    reward: 2.35
+    reward: 2.36
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.7
+    reward: 11.79
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 9.45
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.06
+    reward: 7.11
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 4.69
+    reward: 4.72
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.79
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.45
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.12
 tags:
   - personal-security
   - privacy

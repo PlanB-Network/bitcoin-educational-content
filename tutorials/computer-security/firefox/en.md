@@ -27,19 +27,19 @@ But choosing Firefox is only the first step. By default, even Firefox requires a
 
 
 
-- Free and open-source** (Gecko engine): auditable, transparent code
-- Non-profit organization**: Mozilla Foundation, mission of general interest
-- Built-in native protections**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, HTTPS-only mode, DNS over HTTPS (DoH)
-- Advanced customization**: unlike Chrome, Firefox lets you modify its behavior in depth
+- **Free and open-source** (Gecko engine): auditable, transparent code
+- **Non-profit organization**: Mozilla Foundation, mission of general interest
+- **Built-in native protections**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, HTTPS-only mode, DNS over HTTPS (DoH)
+- **Advanced customization**: unlike Chrome, Firefox lets you modify its behavior in depth
 
 
 ### Important principles before you start
 
 
 
-- No universal recipe**: the more you modify, the more you risk standing out (fingerprinting). The aim is to be better protected without standing out from the crowd.
-- Step-by-step progress**: Change a setting, test your usual sites, then continue. There's no need to change everything at once.
-- Personal balance**: Find YOUR compromise between privacy and ease of use.
+- **No universal recipe**: the more you modify, the more you risk standing out (fingerprinting). The aim is to be better protected without standing out from the crowd.
+- **Step-by-step progress**: Change a setting, test your usual sites, then continue. There's no need to change everything at once.
+- **Personal balance**: Find YOUR compromise between privacy and ease of use.
 
 
 ## Quick installation
@@ -52,9 +52,9 @@ But choosing Firefox is only the first step. By default, even Firefox requires a
 
 
 
-- Windows**: download the `.exe` installer, double-click and follow the installation wizard
-- macOS**: download the `.dmg` file, open it and drag Firefox into the Applications folder
-- Linux**: several options available - package `.deb`/`.rpm`, Flatpak (Flathub), Snap, or via package manager (apt, dnf, pacman). Prefer official Mozilla sources.
+- **Windows**: download the `.exe` installer, double-click and follow the installation wizard
+- **macOS**: download the `.dmg` file, open it and drag Firefox into the Applications folder
+- **Linux**: several options available - package `.deb`/`.rpm`, Flatpak (Flathub), Snap, or via package manager (apt, dnf, pacman). Prefer official Mozilla sources.
 
 
 **Tip:** Once installed, check for updates via Help → **About Firefox** (important for security patches).
@@ -79,9 +79,9 @@ But choosing Firefox is only the first step. By default, even Firefox requires a
 
 
 
-- Site isolation (Fission)**: in progressive deployment. This feature runs each site in a separate process to prevent one malicious tab from accessing another's data. Check its status via `about:support` (search for "Fission"). If not enabled, you can manually activate it in `about:config` with `fission.autostart = true`.
-- Total Cookie Protection (TCP)**: active by default. Cookies and other storage are confined to the first-party site (one "jar" per site), which neutralizes cross-site tracking. Temporary exceptions are made via the Storage Access API when necessary (integrated login buttons).
-- Bounce/Redirect Tracking Protection**: Firefox automatically detects and cleans up cookies left behind by bounce sites (links that redirect you via a tracker before the destination), reducing this tracking channel without any action on your part.
+- **Site isolation (Fission)**: in progressive deployment. This feature runs each site in a separate process to prevent one malicious tab from accessing another's data. Check its status via `about:support` (search for "Fission"). If not enabled, you can manually activate it in `about:config` with `fission.autostart = true`.
+- **Total Cookie Protection (TCP)**: active by default. Cookies and other storage are confined to the first-party site (one "jar" per site), which neutralizes cross-site tracking. Temporary exceptions are made via the Storage Access API when necessary (integrated login buttons).
+- **Bounce/Redirect Tracking Protection**: Firefox automatically detects and cleans up cookies left behind by bounce sites (links that redirect you via a tracker before the destination), reducing this tracking channel without any action on your part.
 
 
 ## Level 1 - Essential (≤ 10 minutes)
@@ -108,20 +108,20 @@ To access the settings, click on the menu ☰ at the top right, then **"Settings
 Here are the different ETP security levels:
 
 
-- Standard** (balanced, maximum compatibility)
+- **Standard** (balanced, maximum compatibility)
   - Blocks: social trackers, cross-site cookies (all windows), tracking content in private browsing, cryptocurrency miners, fingerprint detectors.
   - Includes **Total Cookie Protection** (TCP): one jar per site.
-- Strict** (recommended for confidentiality)
+- **Strict** (recommended for confidentiality)
   - Also blocks tracking content in all windows + known and suspected fingerprinting.
   - May break some sites; use the 🛡️ shield for a local exception.
-- Custom** (advanced)
+- **Custom** (advanced)
   - Fine tuning: cookies, tracking content, minors, fingerprinting (known/suspected).
 
 
 ![Paramètres protection contre le pistage](assets/fr/06.webp)
 
 
-**Cookies and site data
+**Cookies and site data**
 
 
 - Enable **"Delete cookies and site data on close "** to restart cleanly each time you restart.
@@ -131,9 +131,9 @@ Here are the different ETP security levels:
 
 
 - Deactivate **auto-fill** (IDs, addresses, cards). Use a password manager instead.
-- Search**: deactivate **"Show search suggestions "**.
-- Address bar**: cut **"Sponsored suggestions "** and **"Contextual suggestions "**.
-- Home**: disable **Pocket** and **sponsored content**.
+- **Search**: deactivate **"Show search suggestions"**.
+- **Address bar**: cut **"Sponsored suggestions"** and **"Contextual suggestions"**.
+- **Home**: disable **Pocket** and **sponsored content**.
 
 
 ![Paramètres cookies et mots de passe](assets/fr/08.webp)
@@ -147,12 +147,12 @@ Here are the different ETP security levels:
 ![Configuration DNS over HTTPS](assets/fr/09.webp)
 
 
-**Telemetry and advertising measurement
+**Telemetry and advertising measurement**
 
 
 - In "Data collection by Firefox", **uncheck all**.
 - Deactivate **"Privacy-friendly advertising measures "** (PPA).
-- Safe Browsing**: keep it enabled (recommended). Firefox checks sites against threat lists via hashed queries and local checks, protecting against phishing and malware with minimal privacy impact.
+- **Safe Browsing**: keep it enabled (recommended). Firefox checks sites against threat lists via hashed queries and local checks, protecting against phishing and malware with minimal privacy impact.
 
 
 **Global Privacy Control (optional)**
@@ -161,7 +161,7 @@ Here are the different ETP security levels:
 - Activate the **GPC** to signal your refusal to sell/share data.
 
 
-**Search engine
+**Search engine**
 
 
 - Switch to **DuckDuckGo**, **Startpage**, **Qwant** or **Brave Search** (Settings → Search).
@@ -179,10 +179,10 @@ Here are the different ETP security levels:
 **Essential extensions** (install from the official catalog)
 
 
-- uBlock Origin**: blocks ads and current tracking, lightweight.
-- Privacy Badger**: learns to block what follows you; sends Do Not Track / GPC.
-- ClearURLs** (optional): Firefox (ETP Strict) and uBO already clean up a lot; keep it if you still see "dirty" URLs (utm, fbclid).
-- Firefox Multi-Account Containers**: **isolates cookies/sessions and storage per container; parallel multi-accounts; less cross-site tracking**. Official extension: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: blocks ads and current tracking, lightweight.
+- **Privacy Badger**: learns to block what follows you; sends Do Not Track / GPC.
+- **ClearURLs** (optional): Firefox (ETP Strict) and uBO already clean up a lot; keep it if you still see "dirty" URLs (utm, fbclid).
+- **Firefox Multi-Account Containers**: **isolates cookies/sessions and storage per container; parallel multi-accounts; less cross-site tracking**. Official extension: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 ![Extension Multi-Account Containers](assets/fr/12.webp)
@@ -191,7 +191,7 @@ Here are the different ETP security levels:
 **Passwords and 2FA**
 
 
-- Use a dedicated password manager** (Bitwarden, KeePassXC). **Avoid** storing passwords in the browser. **Enable 2FA** wherever possible.
+- Use a dedicated password manager (Bitwarden, KeePassXC). **Avoid** storing passwords in the browser. **Enable 2FA** wherever possible.
 
 
 ## Level 2 - Reinforced (Compartmentalization & Network)
@@ -203,41 +203,41 @@ Objective: compartmentalize activities and reduce network leakage.
 **DNS over HTTPS (DoH)**
 
 
-- Default status**: Automatically activated in some regions (USA, Canada, Russia, Ukraine). Elsewhere, manual activation required.
-- Configuration**: Settings → General → Network settings → **Enable DoH** → **Cloudflare** or **Quad9** → **Maximum protection**.
-- Maximum protection = TRR-only** (no fallback to system DNS). If a corporate/hotel network blocks, switch back to **Standard** or disable DoH.
-- Redundancy**: If you're already using a trusted VPN with its own secure DNS, DoH can be redundant.
-- Verification test**: `https://www.dnsleaktest.com/` should display only the chosen DoH provider.
+- **Default status**: Automatically activated in some regions (USA, Canada, Russia, Ukraine). Elsewhere, manual activation required.
+- **Configuration**: Settings → General → Network settings → **Enable DoH** → **Cloudflare** or **Quad9** → **Maximum protection**.
+- Maximum protection = **TRR-only** (no fallback to system DNS). If a corporate/hotel network blocks, switch back to **Standard** or disable DoH.
+- **Redundancy**: If you're already using a trusted VPN with its own secure DNS, DoH can be redundant.
+- **Verification test**: `https://www.dnsleaktest.com/` should display only the chosen DoH provider.
 
 
 ![Sélection fournisseur DNS Cloudflare](assets/fr/10.webp)
 
 
-**Compartmentalization with containers and profiles
+**Compartmentalization with containers and profiles**
 
 
-- Multi-Account Containers**: create spaces (Personal, Work, Finance, Social Networks, Shopping, Disposable). Configure **"Always open in this container "** for your recurring sites. Official extension: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Multi-Account Containers**: create spaces (Personal, Work, Finance, Social Networks, Shopping, Disposable). Configure **"Always open in this container"** for your recurring sites. Official extension: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Why use them?
-  - Strong isolation** of cookies/sessions/storage by space.
-  - Less cross-site tracking**: confine the giants (Facebook, Google).
-  - Simultaneous multi-accounts** on the same service.
-  - Less risk of CSRF/XSS** between segmented identities.
+- **Strong isolation** of cookies/sessions/storage by space.
+- **Less cross-site tracking**: confine the giants (Facebook, Google).
+- **Simultaneous multi-accounts** on the same service.
+- Less risk of CSRF/XSS between segmented identities.
   - Tip: at the very least, dedicated containers for Social Networks/Google, Work, Finance.
-- Facebook Container** (optional): a simplified version dedicated to FB/Instagram.
-- Separate profiles**: via `about:profiles` (main profile, minimal "ultra-secure" profile, test profile). Total data and extension compartmentalization.
+- **Facebook Container** (optional): a simplified version dedicated to FB/Instagram.
+- **Separate profiles**: via `about:profiles` (main profile, minimal "ultra-secure" profile, test profile). Total data and extension compartmentalization.
 
 
 **Advanced extensions** (to be reserved)
 
 
-- Cookie AutoDelete**: deletes a site's cookies as soon as the tab is closed (useful if Firefox is open for a long time).
-- LocalCDN**: serves current libraries locally (reduces calls to Google/Microsoft). Partial compatibility.
+- **Cookie AutoDelete**: deletes a site's cookies as soon as the tab is closed (useful if Firefox is open for a long time).
+- **LocalCDN**: serves current libraries locally (reduces calls to Google/Microsoft). Partial compatibility.
 
 
 **Mobile (Android)**
 
 
-- Firefox Android + uBlock Origin**: similar protection on the move.
+- **Firefox Android + uBlock Origin**: similar protection on the move.
 
 
 ## Level 3 - Expert (about:config & Arkenfox)
@@ -405,11 +405,11 @@ Best practices
 
 
 
-- Updates**: Firefox and extensions up to date.
-- Extensions**: reasonable and reliable; watch out for "dubious" redemptions.
-- Downloads**: caution; test sensitive files on VirusTotal.
-- Passwords**: **dedicated manager** (Bitwarden, KeePassXC); **2FA** enabled; avoid storing in browser.
-- Hygiene**: confine Google/Facebook to containers; close/open regularly to "reset" context.
+- **Updates**: Firefox and extensions up to date.
+- **Extensions**: reasonable and reliable; watch out for "dubious" redemptions.
+- **Downloads**: caution; test sensitive files on VirusTotal.
+- **Passwords**: **dedicated manager** (Bitwarden, KeePassXC); **2FA** enabled; avoid storing in browser.
+- **Hygiene**: confine Google/Facebook to containers; close/open regularly to "reset" context.
 
 
 ## Limits & Alternatives
@@ -419,13 +419,13 @@ Best practices
 - A hardened browser ≠ network anonymity: without **VPN**, your IP remains visible; even with it, correlation remains possible.
 - Modifying too much can make you **unique**. **RFP** standardizes; randomization tools (e.g. Chameleon) can... set you apart. Test, compare, adjust.
 - Alternatives/complements:
- - Tor Browser: network anonymity via Tor; slower. See our complete installation and configuration guide**:
+- Tor Browser: network anonymity via Tor; slower. See our **complete installation and configuration guide**:
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
- - Mullvad Browser: "Tor without Tor", to be combined with VPN; standardized footprint. Find out how to install it in our dedicated tutorial**:
+- Mullvad Browser: "Tor without Tor", to be combined with VPN; standardized footprint. Find out how to install it in our **dedicated tutorial**:
 
 
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
@@ -443,7 +443,7 @@ By following this step-by-step guide, you've transformed Firefox into a true bul
 **Your privacy is now better protected**: ad trackers blocked, cookies compartmentalized, IP address leaks neutralized, telemetry disabled. Firefox is no longer just a browser, but a digital resistance tool tailored to your needs.
 
 
-**Remember: confidentiality is never a given. Test your protection regularly, update your settings, and don't hesitate to adjust your configuration as your habits change. Your online anonymity depends as much on your tools as on your practices.
+**Remember: confidentiality is never a given. Test your protection regularly, update your settings, and don't hesitate to adjust your configuration as your habits change. Your online anonymity depends as much on your tools as on your practices.**
 
 
 ## Resources
@@ -452,7 +452,7 @@ By following this step-by-step guide, you've transformed Firefox into a true bul
 ### Plan ₿ Network
 
 
-- SCU 202 - Improving your personal digital security: To learn more about the digital security concepts covered in this tutorial**
+- SCU 202 - Improving your personal digital security: To learn more about the digital security concepts covered in this tutorial
 
 
 https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
@@ -476,8 +476,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Desktop browsers](https://www.privacyguides.org/en/desktop-browsers/): Browser recommendations and comparisons
-- Reddit**: r/firefox, r/privacy for feedback and support
-- PrivacyGuides forum**: in-depth technical discussions
+- **Reddit**: r/firefox, r/privacy for feedback and support
+- **PrivacyGuides forum**: in-depth technical discussions
 
 
 ### Test tools

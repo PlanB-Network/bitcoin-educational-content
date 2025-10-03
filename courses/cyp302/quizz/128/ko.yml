@@ -1,0 +1,9 @@
+question: RSA와 같은 비대칭 시스템과 관련된 어려운 계산 문제에는 어떤 것이 있나요?
+answer: 소수 인수분해
+wrong_answers:
+  - 정수의 지수 곱하기
+  - 긴 난수 생성
+  - 보안 키 Exchange
+explanation: |
+  RSA는 소인수분해의 난이도를 기반으로 하며, 이는 암호 시스템을 공격으로부터 안전하게 만드는 계산적으로 어려운 작업입니다.
+reviewed: false

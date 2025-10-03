@@ -1,4 +1,4 @@
-question: Wie können wir die Auswirkungen von COIH beim Zusammenführen von UTXOs minimieren?
+question: Wie können wir die Auswirkungen von CIOH beim Zusammenführen von UTXOs minimieren?
 
 answer: Indem wir nur UTXOs aus der gleichen Quelle zusammenführen.
 
@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Wenn Sie in der Situation sind, Ihre Bitcoins zusammenführen zu müssen, priorisieren Sie zuerst das Zusammenführen von UTXOs aus der gleichen Quelle.
 
-reviewed: false
+reviewed: true

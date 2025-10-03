@@ -1,295 +1,153 @@
 ---
-name: Mini Miner Braiins
-description: Making Mining easily from home.
+name: Braiins Mini Miner
+description: Rendre le minage facile depuis chez soi.
 ---
 ![cover](assets/cover.webp)
 
-
-
 ### Introduction
 
+Le Mini Miner braiins BMM 100 est un produit créé par le pool de minage Braiins. Cet appareil possède un design attrayant et est extrêmement silencieux. Il produit 1,1 Th/s de puissance de calcul et consomme environ 40 watts. Contrairement à d’autres appareils, il n’est pas open source, mais son installation est vraiment simple, elle ne nécessite que quelques clics ! Le Mini Miner BMM 100 est la première version sortie. Actuellement, la version 2 est en production, appelée BMM 101, qui se distingue de la première par un écran plus grand et la présence du Wi-Fi, mais les procédures d’installation restent les mêmes.
 
+Vous pouvez également trouver beaucoup plus d’informations importantes en consultant le guide complet directement sur le [site du fabricant](https://braiins.com/hardware/mini-Miner-bmm-100).
 
-The Mini Miner braiins BMM 100 is a product created by Mining pool Braiins. This device has an attractive design and is extremely quiet. It produces 1.1 Th/s of computing power and consumes about 40 watts. Unlike other devices, it is not open source, but it is really easy to install, it really only takes a few clicks! The Mini Miner BMM 100 is the first version released. Now version 2 is in production, called BMM 101, which differs from the first one in having a larger display and the presence of Wi-Fi, but the installation procedures are the same.
+### Vue d’ensemble du BMM 100
 
-
-
-You can also find much more important information by checking out the complete guide directly on [manufacturer's site](https://braiins.com/hardware/mini-Miner-bmm-100).
-
-
-
-### Overview of BMM 100
-
-
-
-the device looks like a parallelepiped with a display on the front
-
-
+L’appareil ressemble à un parallélépipède avec un écran en façade.
 
 ![image](assets/en/01.webp)
 
-
-
-a fan on the upper side
-
-
+Un ventilateur se trouve sur la face supérieure.
 
 ![image](assets/en/02.webp)
 
-
-
-while on the back side we have: the hole for the power, space for an SD card (which might be needed for any updates), a little button that says `IP REPORT` which lets you know the IP Address of the mini Miner, which Address is needed to access the device dashboard. Once the button is pressed, the IP Address is displayed for about 5 seconds, then disappears and the set screen reappears. However, if you need to change some settings, simply mash the button in question again and the IP Address will reappear on the screen. Continuing with the list we find an Ethernet port and an access to perform a device reset, for which you will need to grab a pin and hold for 10 seconds in order to reset all the settings of the mini Miner. Finally we find two indicator lights, one Green and one red, which indicate to us the status of the Miner.
-
-
+À l’arrière, on trouve : l’entrée d’alimentation, un emplacement pour carte SD (qui peut être nécessaire pour certaines mises à jour), un petit bouton marqué `IP REPORT` qui permet d’afficher l’adresse IP du Mini Miner, laquelle est indispensable pour accéder au tableau de bord de l’appareil. Une fois le bouton pressé, l’adresse IP s’affiche pendant environ 5 secondes, puis disparaît et l’écran par défaut réapparaît. Toutefois, si vous devez modifier certains paramètres, il suffit d’appuyer de nouveau sur ce bouton et l’adresse IP réapparaîtra à l’écran. En poursuivant la liste, on trouve un port Ethernet et un accès pour réinitialiser l’appareil. Pour cela, il faut utiliser une épingle et maintenir le bouton enfoncé pendant 10 secondes afin de réinitialiser tous les paramètres du Mini Miner. Enfin, il y a deux voyants lumineux, un vert et un rouge, qui indiquent l’état du mineur.
 
 ![image](assets/en/03.webp)
 
+### Connexion du Mini Miner
 
-
-### Connecting the Mini Miner
-
-
-
-You will need to connect the device to the internet via ethernet, note that with the new version (BMM 101) this is no longer necessary. Back to this mini Miner, once we locate the location we will need to connect it first to the internet line and then to the power: the device will automatically turn on and show its IP Address on the screen.
-
-
+Vous devrez connecter l’appareil à Internet via un câble Ethernet, notez que dans la nouvelle version (BMM 101) cela n’est plus nécessaire. Pour ce Mini Miner, une fois son emplacement choisi, il faut d’abord le relier à la ligne Internet puis à l’alimentation : l’appareil s’allume automatiquement et affiche son adresse IP à l’écran.
 
 ### Configuration
 
-
-
-We need to open a browser and enter the IP Address that shows us the mini Miner in the search bar. I remind you that in order to find the device on the network you will have to be local, so you will have to have the computer you are using connected to the same network as the mini Miner. once we enter the IP Address we press enter and the login page to the mini Miner's operating system, which is Braiins OS, will appear on the screen.
-
-
+Nous devons ouvrir un navigateur et entrer l’adresse IP affichée par le Mini Miner dans la barre de recherche. Je vous rappelle que, pour trouver l’appareil sur le réseau, il faut être en local, c’est-à-dire que l’ordinateur utilisé doit être connecté au même réseau que le Mini Miner. Une fois l’adresse IP saisie et validée par Entrée, la page de connexion au système d’exploitation du Mini Miner, Braiins OS, apparaît à l’écran.
 
 ![image](assets/en/06.webp)
 
-
-
-In order to log in you will have to enter `root` as your username, while you can leave the password blank. Click on login and your mini Miner dashboard will appear.
-
-
+Pour vous connecter, vous devez entrer `root` comme nom d’utilisateur, tandis que le mot de passe peut rester vide. Cliquez sur login et le tableau de bord de votre Mini Miner apparaîtra.
 
 ![image](assets/en/07.webp)
 
+### Paramètres généraux
 
-
-### General settings
-
-
-
-Let's go to System
-
-
+Allons dans System.
 
 ![image](assets/en/24.webp)
 
-
-
-within the settings we find some general settings such as theme (light or dark), language, time zone, and password change.
-
-
+Dans les paramètres, on trouve des options générales comme le thème (clair ou sombre), la langue, le fuseau horaire et le changement de mot de passe.
 
 ![image](assets/en/25.webp)
 
-
-
-If we go to "Mini Miner Screen" instead we have the settings of our mini Miner, such as the screen display. We can choose whether to show the time, or the price of Bitcoin, or the screen with the machine status information such as product Hash, temperature, watts consumed, and so on. Here it is up to you to choose what you want to see on the screen; we can also change the brightness of the screen, set the night mode, and display the time with 12-hour or 24-hour format.
-
-
+Si nous allons dans "Mini Miner Screen", nous trouvons les paramètres de notre Mini Miner, tels que l’affichage de l’écran. Nous pouvons choisir d’afficher l’heure, le prix du Bitcoin ou l’écran avec les informations d’état de la machine comme le hashrate, la température, la consommation en watts, etc. C’est à vous de choisir ce que vous souhaitez voir à l’écran. Nous pouvons également modifier la luminosité de l’écran, activer le mode nuit et afficher l’heure au format 12 heures ou 24 heures.
 
 ![image](assets/en/26.webp)
 
-
-
-Once you have made changes, click on `Save Changes` and you will see the changes on your device screen
-
-
+Une fois les modifications effectuées, cliquez sur `Save Changes` et vous verrez les changements sur l’écran de votre appareil.
 
 ![image](assets/en/27.webp)
 
+### Connexion à un pool de minage
 
-
-### Connection to Mining pool
-
-
-
-Now we are not yet operational, because we have to connect to a pool in order to start Mining, so we have to go to "Configuration"
-
-
+Nous ne sommes pas encore opérationnels, car il faut connecter l’appareil à un pool pour commencer à miner. Rendez-vous donc dans "Configuration".
 
 ![image](assets/en/08.webp)
 
-
-
-and the first entry is just `Pools`.
-
-
+La première entrée est `Pools`.
 
 ![image](assets/en/09.webp)
 
-
-
-Here we will have to decide which pool to use. In this tutorial I will show you two options. The first is to connect us to Mining pool Braiins which is also used by professional miners, as you can see from this tutorial:
-
-
+Ici, il faudra décider quel pool utiliser. Dans ce tutoriel, je vais vous en montrer deux options. La première est de se connecter au pool Braiins, utilisé également par des mineurs professionnels, comme vous pouvez le voir dans ce tutoriel :
 
 https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
-The second option is to connect us to a Mining pool that mina in solo, like Public Pool, follow this guide to do so:
-
-
+La deuxième option est de se connecter à un pool en solo, comme Public Pool. Suivez ce guide pour le faire :
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 #### Braiins pool
 
-
-
-To connect to this pool we need to create an account. this pool also makes payments using Lightning Network, so we will be able to receive a few Sats per day. To do this we need to set up a Address lightning on which to receive the rewards. If you do not know how to create an account on braiins pool or how to set up your Address lightning you can follow this guide:
-
-
+Pour se connecter à ce pool, nous devons créer un compte. Ce pool effectue également des paiements via Lightning Network, ce qui nous permettra de recevoir quelques sats par jour. Pour cela, nous devons configurer une adresse Lightning sur laquelle recevoir les récompenses. Si vous ne savez pas comment créer un compte sur Braiins Pool ou configurer votre adresse Lightning, vous pouvez suivre ce guide :
 
 https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
-Once that is done we are in the Braiins pool dashboard. What we have to do is tell the pool that we want to connect with one of our Miners, so on the left side of the screen you will find a number of entries. We need to go to "workers."
-
-
+Une fois cela fait, nous sommes dans le tableau de bord du pool Braiins. Ce que nous devons faire, c’est indiquer au pool que nous voulons connecter l’un de nos mineurs. Sur le côté gauche de l’écran, vous trouverez plusieurs entrées. Nous devons aller dans "workers".
 
 ![image](assets/en/04.webp)
 
-
-
-and we need to click on the purple button on the right that says "Connect workers."
-
-
+Puis nous devons cliquer sur le bouton violet à droite qui dit "Connect workers".
 
 ![image](assets/en/05.webp)
 
-
-
-Here comes the window with the information we need to connect our mini Miner to the pool. Here the only change we can make is to choose Stratum V2. To find out what Stratum v2 is see this entry in the [glossary](https://planb.network/en/resources/glossary/stratum-v2).
-
-
+Une fenêtre apparaît avec les informations nécessaires pour connecter notre Mini Miner au pool. Ici, le seul changement que nous pouvons effectuer est de choisir Stratum V2. Pour savoir ce qu’est Stratum v2, consultez cette entrée dans le [glossaire](https://planb.network/en/resources/glossary/stratum-v2).
 
 ![image](assets/en/10.webp)
 
-
-
-Now we need to copy this string that starts with stratumv2. So we click on the little "copy" symbol, then we go to the dashboard of our mini Miner that we had left in configuration and pools. We click on add new pool
-
-
+Nous devons maintenant copier cette chaîne qui commence par stratumv2. Cliquez sur le petit symbole "copier", puis retournez sur le tableau de bord de notre Mini Miner dans la section configuration et pools. Cliquez sur "add new pool".
 
 ![image](assets/en/11.webp)
 
-
-
-and paste the string we copied into the space below Pool URL.
-
-
+Collez la chaîne copiée dans le champ Pool URL.
 
 ![image](assets/en/12.webp)
 
-
-
-Now we need to add username and password. Let's go back to the pool dashboad. Underneath we also have a userID and password. The userID and our username, the one we gave when creating the account, plus the name of the Miner we want to put in. you can decide whether or not to give a name to the device you are connecting to the pool, it is optional, but it is advisable to put it in, so if you connect multiple devices it will be easier to identify them right away. If you don't want to put anything instead you can leave `workerName`.
-
-
+Nous devons maintenant ajouter un nom d’utilisateur et un mot de passe. Retournons sur le tableau de bord du pool. En dessous, nous avons également un userID et un mot de passe. Le userID correspond à notre nom d’utilisateur, celui que nous avons donné lors de la création du compte, plus le nom du mineur que nous voulons ajouter. Vous pouvez décider de donner ou non un nom à l’appareil que vous connectez au pool, c’est optionnel, mais conseillé : si vous connectez plusieurs appareils, il sera plus facile de les identifier. Si vous ne voulez rien indiquer, vous pouvez laisser `workerName`.
 
 ![image](assets/en/13.webp)
 
+Nous allons ensuite sur notre Mini Miner et entrons le nom d’utilisateur. Ici, je vais entrer dans mon cas "finalstepbitcoin", qui est mon userID, suivi d’un point et du nom miniminer. C’est le nom que j’ai décidé de donner à l’appareil. Si vous ne voulez pas le nommer, écrivez simplement userid.workername. Dans mon cas, ce serait finalstepbitcoin.workername. Une fois le nom d’utilisateur saisi, vous pouvez choisir un mot de passe et l’écrire dans le champ vide. Vous pouvez aussi mettre `anithing123`, qui est celui affiché à l’écran du pool, mais cela signifie simplement que vous pouvez choisir n’importe quel mot de passe.
 
-
-We then go to our mini Miner and enter the username. Here we will enter in my case "finalstepbitcoin" which is my userID, miniminer dot. This is the name I decided to give the device. If you don't want to name it just write userid dot workername. In my case it would be finalstepbitcoin.workername. Once you have entered the username you can choose a password and write it in the blank field. You can also put anithing123, which is the one also shown in the pool screen, but it simply wants to indicate that you can put any password you want.
-
-
-
-Once you have entered all the data you have to press the save button on the right (the one shaped like a floppy disk) and in this way you have configured the pool data in the mini Miner.
-
-
+Une fois toutes les données saisies, il faut cliquer sur le bouton de sauvegarde à droite (en forme de disquette). Ainsi, les données du pool sont configurées dans le Mini Miner.
 
 ![image](assets/en/14.webp)
 
-
-
-Now you have to go back to the pool dashboard and click on "Connected! Go back."
-
-
+Ensuite, vous devez retourner sur le tableau de bord du pool et cliquer sur "Connected! Go back."
 
 ![image](assets/en/15.webp)
 
-
-
-We have connected our mini Miner to the braiins pool! You can now see it in the list of workers. If it does not show up just do a refresh and wait a few moments. Once it appears, verify that it has the status "OK" with a Green check mark.
-
-
+Nous avons connecté notre Mini Miner au pool Braiins ! Vous pouvez maintenant le voir dans la liste des workers. S’il n’apparaît pas, actualisez la page et attendez quelques instants. Une fois affiché, vérifiez que son statut est "OK" avec une coche verte.
 
 ![image](assets/en/17.webp)
 
-
-
-if you go back to the dashboard you should start to see movement on the graph and see the Hashrate of our device. This means that the pool is receiving our work and therefore we are for all intents and purposes undermining.
-
-
+Si vous retournez sur le tableau de bord, vous devriez commencer à voir du mouvement sur le graphique et voir le hashrate de notre appareil. Cela signifie que le pool reçoit notre travail et que nous sommes bel et bien en train de miner.
 
 ![image](assets/en/16.webp)
 
-
-
 #### Public Pool
 
-
-
-Through this pool one can try one's luck and mine solo, leaning on a pool. In this case we will not receive reward, but we will receive the full reward if we ever manage to mine a block. We will then link to public pool, a Mining-only pool that is completely open source. We open a new window on the browser and go to [web.public-pool.io](https://web.public-pool.io/#/).
-
-
+Avec ce pool, on peut tenter sa chance et miner en solo, en s’appuyant sur un pool. Dans ce cas, nous ne recevrons pas de récompenses régulières, mais nous recevrons la récompense complète si nous réussissons à miner un bloc. Nous allons donc nous connecter à Public Pool, un pool de minage entièrement open source. Ouvrons une nouvelle fenêtre dans le navigateur et allons sur [web.public-pool.io](https://web.public-pool.io/#/).
 
 ![image](assets/en/18.webp)
 
-
-
-there goes a page with all the information we need. We then copy there the stratum Address
-
-
+Une page s’ouvre avec toutes les informations nécessaires. Nous copions ensuite l’adresse stratum.
 
 ![image](assets/en/19.webp)
 
-
-
-then we go back to the dashboard of our mini Miner, go to configuration and to pools, click on add new pool (same process as seen above) and paste the 'stratum Address under pool url.
-
-
+Nous retournons sur le tableau de bord de notre Mini Miner, allons dans configuration → pools, cliquons sur "add new pool" (même processus que vu précédemment) et collons l’adresse stratum dans le champ Pool URL.
 
 ![image](assets/en/20.webp)
 
-
-
-Now let's go back to the pool page and see that as the username we have to enter a Bitcoin Address, which will be the one on which we will receive the reward in case we undermine a block, then a dot and then the name of our device, as we did previously with Braiins Pool, while the password we can choose ourselves.
-
-
+Revenons maintenant à la page du pool et voyons que, comme nom d’utilisateur, nous devons entrer une adresse Bitcoin, qui sera celle sur laquelle nous recevrons la récompense au cas où nous parvenons à miner un bloc, puis un point et ensuite le nom de notre appareil, comme nous l’avons fait précédemment avec le pool Braiins. Le mot de passe peut être choisi librement.
 
 ![image](assets/en/21.webp)
 
-
-
-We go back to the mini Miner and under username we paste an Address Bitcoin followed by period and the name, I will put `miniminer`. In the password instead I will put test, you enter whatever you want.
-
-
+Nous retournons sur le Mini Miner et dans le champ nom d’utilisateur nous collons une adresse Bitcoin suivie d’un point et du nom ; je vais mettre `miniminer`. Dans le champ mot de passe, je vais mettre test, vous pouvez entrer ce que vous voulez.
 
 ![image](assets/en/22.webp)
 
-
-
-Now we save the settings and disable the Braiins pool.
-
-
+Nous enregistrons maintenant les paramètres et désactivons le pool Braiins.
 
 ![image](assets/en/23.webp)
 
-
-
-Good! We are now Mining on public pool!
-
-
+Parfait ! Nous minons maintenant sur Public Pool !
 
 ![MINI MINER BRAIINS | un oggetto di design che mina BITCOIN.](https://www.youtube.com/watch?v=pzzWmM2tEAQ&t=284s)

@@ -1,0 +1,9 @@
+question: Która opcja serwera Sparrow wallet odpowiada połączeniu RPC?
+answer: Bitcoin core
+wrong_answers:
+  - Serwer publiczny
+  - Prywatne Electrum
+  - Zdalny interfejs API
+explanation: |
+  W Sparrow opcja Bitcoin core odpowiada bezpośredniemu połączeniu z węzłem przez RPC.
+reviewed: true

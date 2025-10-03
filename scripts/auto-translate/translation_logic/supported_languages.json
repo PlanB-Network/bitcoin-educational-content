@@ -73,6 +73,12 @@
       "code_translator": "JA"
     },
     {
+      "code": "ko",
+      "name": "Korean",
+      "translator": "deepl",
+      "code_translator": "KO"
+    },
+    {
       "code": "nb-NO",
       "name": "Norwegian",
       "translator": "deepl",

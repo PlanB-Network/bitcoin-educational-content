@@ -1,0 +1,9 @@
+question: Ni iyihe protocole Electrs na Fulcrum bakoresha mu gufatanya ama wallet?
+answer: Umuyagankuba
+wrong_answers:
+  - RPC IRUHUKO
+  - JSON API
+  - Umuravyo gRPC
+explanation: |
+  Izo porogaramu zigaragaza umukozi wa Electrum, urugero rukoreshwa n'amasakoshi menshi nka Sparrow canke Electrum Wallet.
+reviewed: true

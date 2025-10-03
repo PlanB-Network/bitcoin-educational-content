@@ -1,0 +1,9 @@
+question: Je, ni kazi gani ya kigezo halali katika Bitcoin core?
+answer: Puuza uthibitishaji wa hati kabla ya kizuizi cha marejeleo
+wrong_answers:
+  - Puuza uthibitishaji wa Proof-of-Work kabla ya kizuizi cha marejeleo
+  - Puuza uthibitishaji wa kichwa kabla ya kizuizi cha marejeleo
+  - Lazimisha Tor kwa ugunduzi wa rika
+explanation: |
+  Assumevalid huharakisha IBD kwa kupuuza uthibitishaji wa hati kabla ya kizuizi kinachojulikana, huku ikihifadhi uthibitishaji mwingine wote.
+reviewed: true

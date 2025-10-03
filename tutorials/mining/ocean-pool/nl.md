@@ -1,5 +1,5 @@
 ---
-name: Oceaan Mining
+name: Ocean Mining
 
 description: Inleiding tot Ocean Mining
 ---
@@ -125,19 +125,19 @@ Om een worker toe te voegen, begin je met het kiezen van je bloksjabloon. Deze k
 
 
 
-- CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
-- CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
-- OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
-- DATA-VRIJ**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
+- **CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
+- **CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
+- **OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
+- **DATA-VRIJ**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
 
 
 Voer vervolgens in het gebruikersveld een Bitcoin Address in die je bezit. Hier is de lijst met compatibele Address types:
 
 
-- P2PKH** (Origineel Address type. Begint met "1")
-- P2SH** (Meerdere handtekeningen of P2SH-SegWit. Begint met "3")
-- Bech32** (SegWit. Begint met "bc".)
-- Bech32m** (Taproot. Begint met "bc". Langer dan Bech32.)
+- **P2PKH** (Origineel Address type. Begint met "1")
+- **P2SH** (Meerdere handtekeningen of P2SH-SegWit. Begint met "3")
+- **Bech32** (SegWit. Begint met "bc".)
+- **Bech32m** (Taproot. Begint met "bc". Langer dan Bech32.)
 
 
 Als je meerdere mijnwerkers hebt, kun je voor allemaal dezelfde Address invoeren, zodat hun Hash tarieven gecombineerd worden en als één Miner verschijnen. Je kunt ze ook van elkaar onderscheiden door ze elk een eigen naam te geven. Om dit te doen, voeg je gewoon ".workername" toe na de Bitcoin Address.
@@ -152,9 +152,9 @@ Als je het **OCEAN** sjabloon kiest, je Bitcoin Address is `bc1q2ed8zxq8njqsznkp
 
 
 
-- URL**: `stratum+tcp://mine.ocean.xyz:3334`
-- GEBRUIKER**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- WACHTWOORD**: `x`
+- **URL**: `stratum+tcp://mine.ocean.xyz:3334`
+- **GEBRUIKER**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **WACHTWOORD**: `x`
 
 
 Enkele minuten na het opstarten van Mining, kun je je gegevens zien op de Ocean site door te zoeken naar je Address.
@@ -163,9 +163,9 @@ Enkele minuten na het opstarten van Mining, kun je je gegevens zien op de Ocean 
 ### Dashboard Overzicht
 
 
-- Aandelen in Beloningsvenster**: Deze gegevens geven het aantal aandelen aan, het werk dat je naar de pool hebt gestuurd in het venster van de laatste 8 blokken die door de pool zijn gedolven.
-- Geschatte beloningen in vensters**: Schatting van het aantal Sats dat je zult verdienen met het werk dat je al hebt gedaan. Hierbij wordt geen rekening gehouden met transactiekosten, maar alleen met de coinbase, de nieuwe bitcoins die door het netwerk worden uitgegeven.
-- Geschatte verdiensten volgende blok**: Schatting van het aantal Sats dat wordt verdiend als er nu een blok wordt gedolven. Onthoud, als deze waarde minder is dan 1.048.576 Sats, ontvang je de Sats niet direct op je Address. Ze worden naar Ocean's Address gestuurd. Ze worden naar Ocean's Address gestuurd, totdat jouw verdiensten deze drempel overschrijden.
+- **Aandelen in Beloningsvenster**: Deze gegevens geven het aantal aandelen aan, het werk dat je naar de pool hebt gestuurd in het venster van de laatste 8 blokken die door de pool zijn gedolven.
+- **Geschatte beloningen in vensters**: Schatting van het aantal Sats dat je zult verdienen met het werk dat je al hebt gedaan. Hierbij wordt geen rekening gehouden met transactiekosten, maar alleen met de coinbase, de nieuwe bitcoins die door het netwerk worden uitgegeven.
+- **Geschatte verdiensten volgende blok**: Schatting van het aantal Sats dat wordt verdiend als er nu een blok wordt gedolven. Onthoud, als deze waarde minder is dan 1.048.576 Sats, ontvang je de Sats niet direct op je Address. Ze worden naar Ocean's Address gestuurd. Ze worden naar Ocean's Address gestuurd, totdat jouw verdiensten deze drempel overschrijden.
 
 
 Hieronder zie je een grafiek die je Hashrate geschiedenis tot 6 maanden weergeeft.

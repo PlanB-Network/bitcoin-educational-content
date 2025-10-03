@@ -30,8 +30,8 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Aloittelijoille**: Käyttäjät, jotka haluavat hallita bitcoinejaan intuitiivisen mobiilisovelluksen avulla.
-- Keskitason käyttäjät**: Ihmiset, jotka haluavat ymmärtää onchain-toimintoja ja yksityisyysvaihtoehtoja, kuten Tor tai SPV.
+- **Aloittelijoille**: Käyttäjät, jotka haluavat hallita bitcoinejaan intuitiivisen mobiilisovelluksen avulla.
+- **Keskitason käyttäjät**: Ihmiset, jotka haluavat ymmärtää onchain-toimintoja ja yksityisyysvaihtoehtoja, kuten Tor tai SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kaikki nimitykset älypuhelimeen, tietokoneeseen tai mihin tahansa Internet-yhteydellä varustettuun laitteeseen asennetulle sovellukselle, jonka avulla Bitcoin Wallet:n yksityisiä avaimia voidaan hallita ja suojata.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kaikki nimitykset älypuhelimeen, tietokoneeseen tai mihin tahansa Internet-yhteydellä varustettuun laitteeseen asennetulle sovellukselle, jonka avulla Bitcoin Wallet:n yksityisiä avaimia voidaan hallita ja suojata.
 - Toisin kuin **hardwarelompakot**, jotka tunnetaan myös nimellä **Cold-lompakot** ja jotka eristävät avaimet offline-tilassa, ohjelmistolompakot toimivat verkottuneessa ympäristössä, mikä tekee niistä haavoittuvampia tietoverkkohyökkäyksille.
 
 
 
 
 
-- Suositeltu käyttö** :
+- **Suositeltu käyttö**:
     - Ihanteellinen kohtalaisten Bitcoin-määrien hallintaan, erityisesti päivittäisissä liiketoimissa.
     - Sopii aloittelijoille tai käyttäjille, joilla on vain vähän varoja ja joille Hardware Wallet voi tuntua tarpeettomalta.
 
@@ -56,7 +56,7 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Rajoitukset**: Vähemmän turvallinen suurten varojen tai pitkäaikaisten säästöjen säilyttämiseen. Valitse tässä tapauksessa Hardware Wallet.
+- **Rajoitukset**: Vähemmän turvallinen suurten varojen tai pitkäaikaisten säästöjen säilyttämiseen. Valitse tässä tapauksessa Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-salkkujen ja Liquid Network-varojen hallintaan. [Blockstream] (https://blockstream.com/) osti sen vuonna 2016, ja se oli aiemmin nimeltään *Green Address* ja sitten *Blockstream Green*.
-- Tärkeimmät ominaisuudet** :
-    - Onchain**-tapahtumat Blockchain:ssä Bitcoin:ssä.
+- **Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-salkkujen ja Liquid Network-varojen hallintaan. [Blockstream](https://blockstream.com/) osti sen vuonna 2016, ja se oli aiemmin nimeltään *Green Address* ja sitten *Blockstream Green*.
+- **Tärkeimmät ominaisuudet**:
+- **Onchain-tapahtumat** Blockchain:ssä Bitcoin:ssä.
     - Verkkotapahtumat **Liquid** (Sidechain nopeaan, luottamukselliseen viestinvaihtoon).
-    - Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
+- **Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
     - Tietosuojavaihtoehdot: yhteys **Torin** kautta, yhteys **persoonalliseen solmuun** Electrumin kautta tai **SPV**-varmistus, jolla vähennetään riippuvuutta kolmannen osapuolen solmuista.
     - Toiminnot **Replace-by-fee (RBF)** vahvistamattomien tapahtumien nopeuttamiseksi.
-- Yhteensopivuus**: **Blockstream Jade**.
-- Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
-- Huomautus**: Tämä opas keskittyy ketjukäyttöön. Muut liitteissä olevat oppaat käsittelevät Liquid:ta, Watch-Only-ohjelmaa ja työpöytäversiota.
+- **Yhteensopivuus**: **Blockstream Jade**.
+- **Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
+- **Huomautus**: Tämä opas keskittyy ketjukäyttöön. Muut liitteissä olevat oppaat käsittelevät Liquid:ta, Watch-Only-ohjelmaa ja työpöytäversiota.
 
 
 
@@ -90,12 +90,12 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Androidille** :
+- **Androidille**:
     - Lataa [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) Google Play Storesta.
     - Vaihtoehto: Asenna APK-tiedoston kautta, joka on saatavilla [Blockstreamin virallisella GitHub-sivustolla](https://github.com/Blockstream/green_android).
-- IOS** :
+- **IOS**:
     - Lataa [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) App Storesta.
-- Huomautus**: Varmista, että lataat virallisista lähteistä, jotta vältät vilpilliset sovellukset.
+- **Huomautus**: Varmista, että lataat virallisista lähteistä, jotta vältät vilpilliset sovellukset.
 
 
 
@@ -105,7 +105,7 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:tä. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
+- **Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:tä. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
 
 
 
@@ -115,7 +115,7 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Mukauta asetuksia**: Napsauta "Sovelluksen asetukset", säädä alla olevia vaihtoehtoja, napsauta "Tallenna", käynnistä sovellus uudelleen ja luo portfoliosi.
+- **Mukauta asetuksia**: Napsauta "Sovelluksen asetukset", säädä alla olevia vaihtoehtoja, napsauta "Tallenna", käynnistä sovellus uudelleen ja luo portfoliosi.
 
 
 
@@ -129,8 +129,8 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Toiminto**: Toiminto: Poistaa kuvakaappaukset käytöstä, piilottaa sovellusten esikatselukuvat Tehtävienhallinnassa ja lukitsee pääsyn, kun puhelin on lukittu.
-- Miksi?** : Suojaa tietosi luvattomalta fyysiseltä käytöltä tai näytön sieppaavilta haittaohjelmilta.
+- **Toiminto**: Poistaa kuvakaappaukset käytöstä, piilottaa sovellusten esikatselukuvat Tehtävienhallinnassa ja lukitsee pääsyn, kun puhelin on lukittu.
+- **Miksi?**: Suojaa tietosi luvattomalta fyysiseltä käytöltä tai näytön sieppaavilta haittaohjelmilta.
 
 
 #### 3.2.2. Yhteys Torin kautta
@@ -139,10 +139,10 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
-- Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
-- Haitta**: Voi hidastaa sovellusta salauksen takia.
-- Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
+- **Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
+- **Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
+- **Haitta**: Voi hidastaa sovellusta salauksen takia.
+- **Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
 
 
 #### 3.2.3. Yhteyden muodostaminen henkilökohtaiseen solmuun
@@ -151,10 +151,10 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum**-palvelimen kautta.
-- Miksi?**: Tarjoaa täydellisen hallinnan Blockchain-tietoihin ja poistaa riippuvuuden Blockstream-palvelimista.
-- Edellytys**: Konfiguroitu Bitcoin-solmu.
-- Suositus**: Edistyneet käyttäjät, jotka etsivät maksimaalista riippumattomuutta.
+- **Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum**-palvelimen kautta.
+- **Miksi?**: Tarjoaa täydellisen hallinnan Blockchain-tietoihin ja poistaa riippuvuuden Blockstream-palvelimista.
+- **Edellytys**: Konfiguroitu Bitcoin-solmu.
+- **Suositus**: Edistyneet käyttäjät, jotka etsivät maksimaalista riippumattomuutta.
 
 
 #### 3.2.4. SPV:n todentaminen
@@ -163,10 +163,10 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Toiminto**: Käyttää **Simplified Payment Verification (SPV)** -toimintoa tiettyjen Blockchain:n tietojen suoraan tarkistamiseen lataamatta koko ketjua.
-- Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt mobiililaitteille.
-- Haitta**: Full node:ta turvattomampi, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
-- Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
+- **Toiminto**: Käyttää **Simplified Payment Verification (SPV)** -toimintoa tiettyjen Blockchain:n tietojen suoraan tarkistamiseen lataamatta koko ketjua.
+- **Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt mobiililaitteille.
+- **Haitta**: Full node:ta turvattomampi, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
+- **Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
 
 
 
@@ -182,7 +182,7 @@ description: Aseta Blockstream App mobiililaitteeseen ja hallinnoi onchain-tapah
 
 
 
-- Varoitus**: Aseta salkku yksityiseen ympäristöön, jossa ei ole kameroita tai tarkkailijoita.
+- **Varoitus**: Aseta salkku yksityiseen ympäristöön, jossa ei ole kameroita tai tarkkailijoita.
 - Napsauta aloitusnäytöltä "Get Started" :
 
 
@@ -360,7 +360,7 @@ Lukitse sovelluksen käyttöoikeus vahvalla PIN-koodilla:
 
 
 
-- Vaihtoehdot** :
+- **Vaihtoehdot**:
     - (1) "Bitcoin": valitse ketjussa oleva tai Liquid-lähetys napsauttamalla sitä ja valitse omaisuuserä.
     - (2) Napsauta nuolia valitaksesi toisen uuden Address:n, joka liittyy tähän seed-lauseeseen.
     - (3) Voit myös valita Address:n jo käytetyistä/näytetyistä osoitteista napsauttamalla kolmea pistettä oikeassa yläkulmassa ja sitten "Osoiteluettelo"
@@ -376,7 +376,7 @@ Lukitse sovelluksen käyttöoikeus vahvalla PIN-koodilla:
 
 
 - Jaa Address/URI klikkaamalla "**Jaa**", kopioimalla teksti tai skannaamalla QR-koodi.
-- Tarkastus**: Tarkista vastaanottajan kanssa jaettu Address niin pitkälle kuin mahdollista virheiden tai hyökkäysten välttämiseksi (esim. leikepöydän muokkaaminen haittaohjelmilla).
+- **Tarkastus**: Tarkista vastaanottajan kanssa jaettu Address niin pitkälle kuin mahdollista virheiden tai hyökkäysten välttämiseksi (esim. leikepöydän muokkaaminen haittaohjelmilla).
 
 
 
@@ -396,8 +396,8 @@ Lukitse sovelluksen käyttöoikeus vahvalla PIN-koodilla:
 
 
 
-- Anna tiedot** :
-    - (1) Syötä **vastaanottajan **Address-tunnus** kiinnittämällä se tai skannaamalla QR-koodi.
+- **Anna tiedot**:
+- (1) Syötä **vastaanottajan Address-tunnus** kiinnittämällä se tai skannaamalla QR-koodi.
     - (2) Tarkista varat ja tili, jolta varat lähetetään.
     - (3) Ilmoita lähetettävä **määrä**. Voit valita yksikön: BTC, satoshis, USD, ...
 
@@ -420,7 +420,7 @@ Vähimmäismäärä (dush-raja) 03/08/2025 on 546 Sats.
 
 
 
-- Tarkista** :
+- **Tarkista**:
     - Tarkista Address, määrä ja maksut yhteenvetonäytöltä.
     - Address-virhe voi johtaa peruuttamattomaan varojen menetykseen. Varo leikepöytää muokkaavia haittaohjelmia.
 
@@ -432,8 +432,8 @@ Vähimmäismäärä (dush-raja) 03/08/2025 on 546 Sats.
 
 
 
-- Vahvistus**: Lähetä-painiketta painamalla voit allekirjoittaa ja jakaa tapahtuman.
-- Seuranta**: Wallet:n "Transact"-välilehdellä tapahtuma näkyy "vireillä", kunnes se vahvistetaan (1-6 vahvistusta):
+- **Vahvistus**: Lähetä-painiketta painamalla voit allekirjoittaa ja jakaa tapahtuman.
+- **Seuranta**: Wallet:n "Transact"-välilehdellä tapahtuma näkyy "vireillä", kunnes se vahvistetaan (1-6 vahvistusta):
 
 
 
@@ -517,7 +517,7 @@ Jos haluat käyttää **Blockstream-sovellusta** turvallisesti ja tehokkaasti, n
 
 
 
-- Turvaa palautuslausekkeesi** :
+- **Turvaa palautuslausekkeesi**:
  - Tutorial: Mnemonic-lauseen tallentaminen
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Käytä suojattua todennusta** :
+- **Käytä suojattua todennusta**:
  - Ota käyttöön **vahva PIN-koodi** tai **biometrinen tunnistus** (sormenjälki tai kasvojentunnistus) sovelluksen käytön suojaamiseksi.
  - Älä koskaan jaa PIN-koodia tai biometrisiä tietoja.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Suojaa yksityisyytesi** :
+- **Suojaa yksityisyytesi**:
  - generate uusi Address jokaista onchain- tai Liquid-vastaanottoa varten Blockchain:n jäljittämisen rajoittamiseksi.
  - Aktivoi "Enhanced Privacy", "Tor" ja "SPV" -toiminnot.
  - Jos haluat maksimaalisen luottamuksellisuuden, yhdistä Wallet omaan Bitcoin-solmuun Electrum-palvelimen kautta sen sijaan, että käyttäisit julkista solmua
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Valitse tarpeisiisi parhaiten sopiva verkko** :
- - Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
- - Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
- - Salama**: Valitse välittömät, edulliset siirrot pienille summille.
+- Valitse tarpeisiisi parhaiten sopiva **verkko**:
+- **Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
+- **Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
+- **Salama**: Valitse välittömät, edulliset siirrot pienille summille.
 
 
 
 
 
-- Tarkista aina toimitusosoitteet** :
+- Tarkista aina **toimitusosoitteet**:
  - Tarkista Address huolellisesti ennen varojen lähettämistä. Väärään Address:een lähetetyt varat menetetään lopullisesti. Käytä kopiointia/liittämistä tai QR-koodin skannausta, älä koskaan kopioi/muuta Address:tä käsin.
 
 
 
 
 
-- Optimoi kustannukset** :
+- **Optimoi kustannukset**:
  - Valitse ketjutapahtumille sopivat maksut (hidas, keskitasoinen, nopea) kiireellisyyden ja verkon ruuhkautumisen mukaan.
  - Käytä Liquid:tä tai Lightningia pieniin määriin.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Viralliset linkit:**
- - [Virallinen verkkosivusto](https://blockstream.com/)**
- - [Tuki mobiilisovellukselle](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentaatio ja chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Viralliset linkit:**
+- [Virallinen verkkosivusto](https://blockstream.com/)
+- [Tuki mobiilisovellukselle](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentaatio ja chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Kortteleiden tutkijat :**
+- Kortteleiden tutkijat:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Salama: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)** :
+- **Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)** :
  - Elvytyslausekkeen turvaaminen
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sanasto](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Sanasto](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sanasto](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sanasto](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

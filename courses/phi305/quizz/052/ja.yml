@@ -1,0 +1,9 @@
+question: Cypherpunkのマニフェストは誰が書いたのか？
+answer: エリック・ヒューズ
+wrong_answers:
+  - ティモシー・メイ
+  - Satoshi 中本
+  - ミルトン・フリードマン
+explanation: |
+  エリック・ヒューズはCypherpunk宣言（1993年）の著者である。デジタル時代におけるプライバシー保護のための暗号技術の利用を擁護するこの重要なテキスト。
+reviewed: false

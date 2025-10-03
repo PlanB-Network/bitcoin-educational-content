@@ -1,5 +1,5 @@
 ---
-name: Knipperen
+name: Blink
 description: Complete Blink Wallet-handleiding - Bitcoin probleemloos verzenden, ontvangen en gebruiken
 ---
 

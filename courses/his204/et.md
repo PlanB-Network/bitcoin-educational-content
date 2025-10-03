@@ -1353,9 +1353,9 @@ Kuna piirkond oli nii vaene, ei olnud see ministritele huvi pakkunud. See andis 
 
 
 
-- Taille** ümberjaotamine, üksikisiku maks (Turgot püüdis selle hindamisel rakendada võimalikult palju objektiivsust).
-- Corvée**, tööjõumaks, mille puhul talupojad olid sunnitud töötama tee-ehitusel. Turgot märkas piirkonda külastades kiiresti teede kehva seisukorda. Ta asendas corvée rahalise maksuga.
-- Sõja ajal mobiliseeritud talurahvaarmeede, miilitsa**, värbamine.
+- **Taille** ümberjaotamine, üksikisiku maks (Turgot püüdis selle hindamisel rakendada võimalikult palju objektiivsust).
+- **Corvée**, tööjõumaks, mille puhul talupojad olid sunnitud töötama tee-ehitusel. Turgot märkas piirkonda külastades kiiresti teede kehva seisukorda. Ta asendas corvée rahalise maksuga.
+- Sõja ajal mobiliseeritud talurahvaarmeede, **miilitsa** värbamine.
 
 
 ![image](assets/fr/115.webp)

@@ -1,0 +1,9 @@
+question: В чем разница между Umbrel Home и umbrelOS?
+answer: Umbrel Home - это предустановленный мини-сервер, umbrelOS - это самостоятельная установка
+wrong_answers:
+  - Umbrel Home бесплатна, umbrelOS - нет
+  - Umbrel Home не поддерживает Bitcoin; umbrelOS поддерживает
+  - Umbrel Home - с открытым исходным кодом, umbrelOS - проприетарная
+explanation: |
+  Umbrel Home продается "под ключ" с уже установленной umbrelOS, в то время как umbrelOS можно установить самостоятельно на собственное оборудование.
+reviewed: true

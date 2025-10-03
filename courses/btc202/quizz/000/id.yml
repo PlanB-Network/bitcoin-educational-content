@@ -1,0 +1,9 @@
+question: Apa judul Buku Putih Satoshi Nakamoto yang diterbitkan pada tahun 2008?
+answer: Bitcoin Sistem Uang Elektronik Peer-to-Peer
+wrong_answers:
+  - Bitcoin Sistem Emas Digital Terdesentralisasi
+  - Bitcoin Masa Depan Uang
+  - Bitcoin Jaringan Pembayaran Berbasis Blockchain
+explanation: |
+  Satoshi Buku Putih Nakamoto, Bitcoin Sistem Uang Elektronik Peer-to-Peer, diterbitkan pada tahun 2008.
+reviewed: true

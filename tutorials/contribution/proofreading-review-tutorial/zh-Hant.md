@@ -89,9 +89,9 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 該問題包含說明 (參閱 \***A\**)，並連結至原始內容和要檢閱的檔案。
-- 如果您想要負責審查，請在問題上留下註解 (比照 \***B\**)，表示您將會處理這個問題。這樣可以避免重複工作。
-- 按一下要檢閱的檔案旁邊的連結 (cf. \***C\**)，以存取內容。
+- 該問題包含說明 (參閱 **A**)，並連結至原始內容和要檢閱的檔案。
+- 如果您想要負責審查，請在問題上留下註解 (比照 **B**)，表示您將會處理這個問題。這樣可以避免重複工作。
+- 按一下要檢閱的檔案旁邊的連結 (cf. **C**)，以存取內容。
 
 
 ![REVIEW](assets/fr/03.webp)
@@ -100,7 +100,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 - 現在您可以檢視檔案的 GitHub Interface 來進行檢閱。
 - 左側面板可讓您瀏覽分支 (cf. \**A\**) 和檔案 (cf. \**B\**)。
-- 按一下鉛筆圖示開始審閱 (參考 \***C\**)。
+- 按一下鉛筆圖示開始審閱 (參考 **C**)。
 
 
 ![REVIEW](assets/fr/04.webp)
@@ -114,7 +114,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 然後，您會到達編輯器 Interface（參見 \***A\**），在這裡您可以看到檔案路徑和相應的分支（參見 \***B\**），並在編輯和預覽模式之間切換（參見 \***C\**）。
+- 然後，您會到達編輯器 Interface（參見 **A**），在這裡您可以看到檔案路徑和相應的分支（參見 **B**），並在編輯和預覽模式之間切換（參見 **C**）。
 
 
 ![REVIEW](assets/fr/06.webp)
@@ -136,9 +136,9 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 為您的變更新增描述性訊息 (比照 \***A\**)。
-- 如有必要，請在描述中加入更多內容（參見 \***B\**）。
-- 單擊 "Propose changes"（提出變更）按鈕（參見 \***C\**）。
+- 為您的變更新增描述性訊息 (比照 **A**)。
+- 如有必要，請在描述中加入更多內容（參見 **B**）。
+- 單擊 "Propose changes"（提出變更）按鈕（參見 **C**）。
 
 
 ![REVIEW](assets/fr/08.webp)
@@ -187,8 +187,8 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 - 然後您就會到達 PR 頁面。拉取請求是提交在遠端套件庫的某個分支上所做的變更以供審查，並在可能的情況下合併到主分支的請求。
-- 為您的 PR 加入標題和簡短說明。標題應與您正在處理的問題相符。例如，如果問題的標題是"[TRANSLATION] Course CYP201 - FR"，請在您的 PR 中使用相同的標題 (cf.\***A\**)。在描述中，使用相關問題的編號提及該問題，並在前面加上「關閉」。一旦 PR 合併，這將自動關閉問題（參閱 \**B\**）。
-- 如果一切看起來都很好，請按一下 Green 的「建立 Pull Request」按鈕 (cf.\***C\**)。
+- 為您的 PR 加入標題和簡短說明。標題應與您正在處理的問題相符。例如，如果問題的標題是"[TRANSLATION] Course CYP201 - FR"，請在您的 PR 中使用相同的標題 (cf.**A**)。在描述中，使用相關問題的編號提及該問題，並在前面加上「關閉」。一旦 PR 合併，這將自動關閉問題（參閱 **B**）。
+- 如果一切看起來都很好，請按一下 Green 的「建立 Pull Request」按鈕 (cf.**C**)。
 
 
 ![REVIEW](assets/fr/11.webp)

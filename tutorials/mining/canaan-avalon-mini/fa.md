@@ -1,5 +1,5 @@
 ---
-name: کنعان آوالون مینی 3
+name: Canaan Avalon Mini 3
 description: پیکربندی ASIC Avalon برای استخراج انفرادی یا Miner pooling
 ---
 

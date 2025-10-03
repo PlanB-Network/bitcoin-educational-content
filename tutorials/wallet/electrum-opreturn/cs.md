@@ -150,8 +150,8 @@ Vyberte zprávu, kterou chcete zadat (např. `Díky Satoshi`). Poznámka: Zpráv
 
 
 
-- zanechat krásný výraz naší lidskosti,*
-- vyhněte se zadávání obsahu, kterého byste mohli litovat*
+- zanechat krásný výraz naší lidskosti,
+- vyhněte se zadávání obsahu, kterého byste mohli litovat
 
 
 
@@ -208,9 +208,9 @@ který se skládá z :
 
 
 
-- Cílová destinace Address**: Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Může to být váš vlastní Address, pokud si přejete převáděné prostředky vrátit sami sobě;
-- Převedená částka**: částka transakce, zde `0.00001` BTC. **Upozornění**: Vzhledem k tomu, že jednotkou používanou v systému Electrum je BTC, musí být částka uvedená ve skriptu transakce rovněž vyjádřena v BTC, a nikoli v Sats ;
-- Skript OP_RETURN**: Zpráva převedená do hexadecimální podoby, které předchází script(`OP_RETURN <messsage>), 0`. Zde `5468616e6b73205361746f736869` pro zprávu v šestnáctkové soustavě.
+- Cílová destinace **Address**: Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Může to být váš vlastní Address, pokud si přejete převáděné prostředky vrátit sami sobě;
+- **Převedená částka**: částka transakce, zde `0.00001` BTC. **Upozornění**: Vzhledem k tomu, že jednotkou používanou v systému Electrum je BTC, musí být částka uvedená ve skriptu transakce rovněž vyjádřena v BTC, a nikoli v Sats ;
+- Skript **OP_RETURN**: Zpráva převedená do hexadecimální podoby, které předchází script(`OP_RETURN <messsage>), 0`. Zde `5468616e6b73205361746f736869` pro zprávu v šestnáctkové soustavě.
 
 
 

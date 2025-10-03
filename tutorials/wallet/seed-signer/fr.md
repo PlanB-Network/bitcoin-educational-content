@@ -1,7 +1,6 @@
 ---
-name: Seed Signer
-
-description: Configuration de votre Seed signer
+name: SeedSigner
+description: Configuration de votre SeedSigner
 ---
 
 ![cover](assets/cover.webp)

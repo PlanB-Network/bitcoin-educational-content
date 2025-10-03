@@ -1,5 +1,5 @@
 ---
-name: Sparrow wallet
+name: Sparrow Wallet
 description: Sparrow wallet'in kurulması, yapılandırılması ve kullanılması
 ---
 ![cover](assets/cover.webp)

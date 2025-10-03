@@ -1,5 +1,5 @@
 ---
-name: 凤凰城
+name: Phoenix
 description: 安装和使用 Phoenix 钱包
 ---
 ![cover](assets/cover.webp)

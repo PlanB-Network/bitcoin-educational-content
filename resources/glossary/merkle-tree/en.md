@@ -7,10 +7,10 @@ A Merkle Tree is a cryptographic accumulator. It's a method for proving the memb
 ![](../../dictionnaire/assets/1.webp)
 
 This structure allows for the quick verification of whether a specific transaction is included in a given block without having to analyze all the transactions. For example, if I only have the Merkle Root and I want to verify that `TX 7` is indeed part of the tree, I would only need the following proofs:
-* `TX 7`;
-* `HASH 8`;
-* `HASH 5-6`;
-* `HASH 1-2-3-4`.
+`TX 7`;
+`HASH 8`;
+`HASH 5-6`;
+`HASH 1-2-3-4`.
 With these pieces of information, I am able to calculate the intermediate nodes up to the Merkle Root.
 
 ![](../../dictionnaire/assets/2.webp)

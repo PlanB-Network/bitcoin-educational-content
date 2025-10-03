@@ -1,0 +1,9 @@
+question: 2010년 여름에 Bitcoin에서 Soft 포크가 허용된 이후 어떤 추가 사항이 있었나요?
+answer: OP_NOP 연산 코드
+wrong_answers:
+  - 알림 시스템
+  - 블록 크기 제한
+  - 표준 트랜잭션 형식
+explanation: |
+  이들은 실행되더라도 스크립트를 무효화하지 않는 노옵 명령어였습니다. 2015/2016년에 프로토콜에 OP_CHECKLOCKTIMEVERIFY와 OP_CHECKSEQUENCEVERIFY를 추가할 수 있었습니다.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Fortgeschrittene
+name: COLDCARD Q - Experte
 description: Verwendung der erweiterten Optionen von COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ Bei COLDCARDs haben Sie zwei Möglichkeiten zur Verwaltung Ihrer Passphrase:
 
 1. **Klassische Eingabe:** Sie geben die Passphrase jedes Mal manuell ein, wenn Sie Ihre Hardware-Geldbörse verwenden, genau wie bei anderen Hardware-Geldbörsen. Die COLDCARD Q vereinfacht diese Aufgabe mit ihrer vollständigen Tastatur.
 
-2. **Sie können Ihre Passphrase auch verschlüsseln und auf einer microSD-Karte speichern. In diesem Fall müssen Sie die microSD-Karte jedes Mal in die COLDCARD Q einlegen, wenn Sie sie verwenden. Beachten Sie, dass diese microSD-Karte nur auf Ihrer COLDCARD Q funktioniert und nicht als Backup dient. Es ist daher sehr wichtig, dass Sie auch eine Kopie Ihrer Passphrase auf einem physischen Medium aufbewahren, z. B. auf Papier oder Metall.
+2. **Sie können Ihre Passphrase auch verschlüsseln und auf einer microSD-Karte speichern. In diesem Fall müssen Sie die microSD-Karte jedes Mal in die COLDCARD Q einlegen, wenn Sie sie verwenden. Beachten Sie, dass diese microSD-Karte nur auf Ihrer COLDCARD Q funktioniert und nicht als Backup dient. Es ist daher sehr wichtig, dass Sie auch eine Kopie Ihrer Passphrase auf einem physischen Medium aufbewahren, z. B. auf Papier oder Metall.**
 
 Um Ihre BIP39-Passphrase einzustellen, rufen Sie das Menü "*Passphrase*" auf.
 

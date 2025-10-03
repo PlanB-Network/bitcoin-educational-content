@@ -11,7 +11,7 @@ Günümüzde, kişisel belgeleriniz, fotoğraflarınız veya önemli projelerini
 Bu sorunları önlemek için, dosyalarınızın birden fazla yedeğini farklı ortamlarda tutmanızı tavsiye ederim. Bilgisayarda yaygın olarak kullanılan bir strateji, dosyalarınızın korunmasını sağlayan "3-2-1" yedekleme stratejisidir:
 
 
-- dosyalarınızın 3** kopyası;
+- dosyalarınızın **3** kopyası;
 - En az **2** farklı medya türüne kaydedilmiştir;
 - En az **1** kopyası şirket dışında tutulmalıdır.
 

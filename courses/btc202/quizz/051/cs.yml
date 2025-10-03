@@ -1,0 +1,9 @@
+question: Kdy musí uživatel nainstalovat indexer?
+answer: Spuštění modulu Block explorer
+wrong_answers:
+  - Pro bloky Mining se
+  - Aktivace zařízení Lightning Network
+  - Podepisování transakcí
+explanation: |
+  Indexer se stává nepostradatelným pro pokročilé použití, například pro místní průzkumníka.
+reviewed: true

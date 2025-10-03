@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F y FIDO2
+name: "Trezor U2F & FIDO2"
 description: Refuerza tu seguridad en línea con Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Además de U2F, que permite la autenticación de dos factores, los Trezors tambi
 
 
 
-Además de la funcionalidad "sin contraseña*", FIDO2 también permite la autenticación de dos factores de forma similar a U2F.
+Además de la funcionalidad "sin contraseña", FIDO2 también permite la autenticación de dos factores de forma similar a U2F.
 
 
 

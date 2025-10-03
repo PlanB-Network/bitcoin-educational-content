@@ -1,5 +1,5 @@
 ---
-name: Кит
+name: Keet
 description: Одноранговый чат
 ---
 ![cover](assets/cover.webp)

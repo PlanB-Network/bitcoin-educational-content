@@ -41,52 +41,52 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.64
+    reward: 0.63
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.51
+    reward: 0.5
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.64
+    reward: 0.63
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.64
+    reward: 0.63
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.64
+    reward: 0.63
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.05
+    reward: 1.03
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.78
+    reward: 0.76
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.51
+    reward: 0.5
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.91
+    reward: 0.9
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.64
+    reward: 0.63
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -137,3 +137,18 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.63
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.76
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.63
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.9

@@ -80,11 +80,11 @@ Kui teie taotlus on täidetud ja esitatud, võib platvormil kuluda mitu päeva, 
 Kui olete sisse loginud, näete kasutajaliidese ülaosas navigatsiooniriba, millel on: "*Trading*", "*Derivatiivid*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" jne. Bitfinex pakub mitmesuguseid funktsioone, sealhulgas:
 
 
-- Kauplemine**: "*klassiline*" turg, kus saab esitada tellimusi krüptovaluutade (sh bitcoin) ostmiseks ja müümiseks;
-- OTC**: Over-The-Counter teenus, mis on mõeldud suurte mahtudega kauplemiseks otse teise mängijaga, väljaspool avalikke tellimusraamatuid;
-- Rahastamine**: Laenude ja marginaalfinantseerimise valdkond;
-- Tuletisinstrumendid**: Tuletisinstrumentide (futuurid jne) sektsioon, mis on mõeldud kogenud kauplejatele;
-- P2P**: Võimaldab teil osta või müüa krüptosid teistelt kasutajatelt peer-to-peer põhimõttel.
+- **Kauplemine**: "*klassiline*" turg, kus saab esitada tellimusi krüptovaluutade (sh bitcoin) ostmiseks ja müümiseks;
+- **OTC**: Over-The-Counter teenus, mis on mõeldud suurte mahtudega kauplemiseks otse teise mängijaga, väljaspool avalikke tellimusraamatuid;
+- **Rahastamine**: Laenude ja marginaalfinantseerimise valdkond;
+- **Tuletisinstrumendid**: Tuletisinstrumentide (futuurid jne) sektsioon, mis on mõeldud kogenud kauplejatele;
+- **P2P**: Võimaldab teil osta või müüa krüptosid teistelt kasutajatelt peer-to-peer põhimõttel.
 
 Tavapäraseks kasutamiseks (bitcoinide ostmine/müümine, sissemaksed/väljavõtmised ja sularaha haldamine) kasutate peamiselt vahekaarti "*Trading*", samuti jaotisi "*Wallet*", "*Deposit*" ja "*Withdraw*".
 

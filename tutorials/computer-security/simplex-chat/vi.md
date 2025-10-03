@@ -1,5 +1,5 @@
 ---
-name: Trò chuyện SimpleX
+name: SimpleX Chat
 description: Hộp thư đầu tiên không có ID người dùng
 ---
 ![cover](assets/cover.webp)

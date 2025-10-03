@@ -1,9 +1,13 @@
-question: Otomatik parola doldurma için tarayıcı uzantılarının kullanılması neden önerilmez?
-answer: Kullanıcıyı kimlik avı saldırılarına karşı daha savunmasız hale getirebilir, saldırı yüzeyini artırabilir ve tarayıcı performansını yavaşlatabilir.
+question: Otomatik parola doldurma için tarayıcı eklentilerinin kullanılması neden önerilmez?
+answer: Kullanıcıyı, kimlik avı saldırılarına (phishing) karşı daha savunmasız hale getirebilir, 
+saldırı yüzeyini genişletebilir ve tarayıcı performansını yavaşlatabilir.
 wrong_answers:
   - Kullanımı zordur.
   - Tüm tarayıcılarla uyumlu değildirler.
   - Çok fazla depolama alanı gerektirirler.
 explanation: |
-  Parolaları otomatik olarak dolduran tarayıcı uzantıları, kullanıcıyı kimlik avı saldırılarına karşı daha savunmasız hale getirebilir. Ayrıca saldırı yüzeyini artırma eğilimindedirler ve tarayıcı performansını yavaşlatabilirler, dolayısıyla önemli bir risk oluştururlar.
+  Parolaları otomatik olarak dolduran tarayıcı eklentileri, 
+  kullanıcıyı kimlik avı saldırılarına (phishing) karşı daha savunmasız hale getirebilir. 
+  Ayrıca saldırı yüzeyini genişletme eğilimindedirler ve tarayıcı performansını yavaşlatabilirler, 
+  dolayısıyla önemli bir risk oluştururlar.
 reviewed: true

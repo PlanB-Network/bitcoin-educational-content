@@ -1,9 +1,9 @@
-question: Mnemonic ifadenizi korumak neden önemlidir?
+question: Anımsatıcı ifadenizi korumak neden önemlidir?
 answer: Çünkü onu kaybetmek bitcoinlerin kalıcı olarak kaybedilmesine neden olur
 wrong_answers:
-  - Çünkü Blockchain onu yenilemek için çok uzun
+  - Çünkü Blockchain onu yenilemek için çok uzundur
   - Çünkü kaybetmek kişisel verilerin sızmasına neden olur
-  - Exchange platformları yeniden oluşturmak için çok sayıda belge gerektirdiğinden
+  - Çünkü onu yeniden oluşturmak için dijital pazar yerleri (exchange platforms) çok sayıda belge istemektedirler
 explanation: |
   Mnemonic ifadesi erişimin kurtarılmasını sağlar. Kaybolursa ve Wallet'e cihazından artık erişilemezse, bitcoinler kalıcı olarak kaybolur.
 reviewed: false

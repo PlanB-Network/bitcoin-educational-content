@@ -1,0 +1,9 @@
+question: Wie was de laatste hoofdbeheerder van Bitcoin core voordat deze rol in 2023 werd afgeschaft?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan bekleedde deze functie van 2014 tot 2023, als opvolger van Gavin Andresen en voorafgaand aan de beëindiging van de functie.
+reviewed: true

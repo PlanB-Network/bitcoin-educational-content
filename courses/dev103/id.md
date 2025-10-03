@@ -36,7 +36,6 @@ Pada akhir kursus, Anda harus dapat menulis program Anda sendiri dalam JavaScrip
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Pada bagian ini kita akan menyiapkan mesin kita untuk menulis dan menjalankan program JavaScript pertama kita.
 
 
 Program JavaScript hanyalah sebuah kumpulan (satu atau lebih) file teks, yang berisi perintah yang akan dieksekusi oleh runtime JavaScript.
@@ -51,16 +50,16 @@ Perintah yang dikandungnya ditulis dalam bahasa pemrograman JavaScript.
 Runtime JavaScript adalah program khusus yang mengeksekusi file-file ini.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### Instalasi NodeJS
+### Runtime NodeJS
 
 
 Runtime JavaScript yang paling umum adalah NodeJS.
 
 
-Anda dapat menginstalnya dengan mengikuti [petunjuk resmi](https://nodejs.org/en/download).
+IDE Anda mungkin sudah menyertakannya, atau Anda mungkin perlu mengunduhnya dari [situs web resmi](https://nodejs.org/en/download).
 
 
 Halaman unduhan akan memberi Anda petunjuk untuk ketiga OS (Sistem Operasi) utama: Windows, Linux dan MacOS. Ini mengasumsikan Anda tahu cara membuka terminal di OS Anda.
@@ -72,25 +71,19 @@ Karena NodeJS tersedia untuk ketiga OS, program yang Anda tulis akan dapat dieks
 Ini berarti Anda bisa, misalnya, menulis videogame sederhana dalam JavaScript di PC Windows dan memberikannya kepada teman Anda untuk menjalankannya di Mac-nya.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Pengeditan teks
 
 
-Salah satu hal yang menarik dari pemrograman adalah Anda bisa menulis kode menggunakan editor teks apa pun, bahkan notepad bawaan OS Anda.
 
 
-Ada beberapa editor teks yang dikhususkan untuk menulis kode, ada yang tersedia secara gratis, ada juga yang mengharuskan Anda membayar lisensi.
 
 
-Pilihan editor kode adalah lubang kelinci raksasa yang melampaui ruang lingkup kursus ini, jadi kita tidak akan membicarakannya di sini. Jika Anda tidak tahu apa yang harus digunakan, editor gratis yang paling sering digunakan adalah [VSCode] (https://code.visualstudio.com/).
 
 
-Interface sedikit membengkak, tetapi memiliki apa yang Anda butuhkan: editor berkas, penjelajah berkas (untuk memvisualisasikan berkas dan subdirektori dalam direktori yang Anda kerjakan), dan terminal untuk menjalankan kode Anda. Ia juga mendukung banyak plugin, dan dilengkapi dengan penyorotan sintaksis JavaScript secara default.
 
 
-Jika Anda ingin sedikit lebih Cypherpunk-y, Anda dapat menggunakan [VSCodium] (https://vscodium.com/) sebagai gantinya.
 
 
 ### Program pertama (halo dunia)
@@ -102,7 +95,7 @@ Biasanya, ketika mempelajari bahasa pemrograman, program pertama yang ditulis se
 Buat direktori bernama `my_js_code/`, dengan di dalamnya terdapat file bernama `main.js` (nama ini dapat diubah-ubah).
 
 
-Buka direktori dengan VSCode.
+Buka direktori dengan editor kode Anda.
 
 
 Tulis kode ini ke dalam file Anda:
@@ -687,7 +680,7 @@ Anda dapat menggabungkan boolean menggunakan operator logika:
 - `!` berarti "tidak", diterapkan sebelum boolean, dan akan membaliknya: jika boolean tersebut bernilai `true` maka akan mengembalikan `false`, dan sebaliknya.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Contoh:
@@ -737,9 +730,9 @@ Pada bagian ini, kita akan membahas tiga jenis lagi yang sangat umum dalam progr
 
 
 
-- Larik**: urutan nilai
-- undefined**: nilai khusus yang berarti "tidak ada yang ditetapkan"
-- null**: nilai khusus lain yang berarti "sengaja dikosongkan"
+- **Larik**: urutan nilai
+- **undefined**: nilai khusus yang berarti "tidak ada yang ditetapkan"
+- **null**: nilai khusus lain yang berarti "sengaja dikosongkan"
 
 
 ### Akses array dan indeks
@@ -1527,7 +1520,7 @@ function sayHello () {console.log(`Hello!`) }
 ```
 
 
-Kode ini **mendeklarasikan** fungsi, tetapi belum **menjalankannya.
+Kode ini **mendeklarasikan** fungsi, tetapi belum **menjalankannya**.
 
 
 ### Panggilan fungsi
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Kelas `Mobil` sekarang **mewarisi** semua yang ada pada `Kendaraan`. Kelas ini mendapatkan properti `brand`, dan kita telah mengganti metode `start()` dengan versi kita sendiri.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Mari kita coba:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -2537,7 +2530,7 @@ Begini cara kerjanya:
 
 
 - Kode di dalam blok `try` akan dicoba terlebih dahulu.
-- Jika terjadi kesalahan, JavaScript **melompat ke blok `tangkap`, melewatkan blok `coba` lainnya.
+- Jika terjadi kesalahan, JavaScript **melompat ke blok `tangkap`**, melewatkan blok `coba` lainnya.
 - Blok `catch` menerima kesalahan, sehingga Anda dapat mencetaknya, atau menanganinya dengan cara lain, seperti misalnya
 
 
@@ -4056,7 +4049,7 @@ Sekarang kelas `Range` kita bekerja seperti sebuah array, dan kita dapat menggun
 ### Fungsi generator dan `hasil`
 
 
-Untuk mempermudah pembuatan iterator, JavaScript memberi Anda **fungsi generator**, dengan menggunakan kata kunci `function` (yaitu `function` dengan `*` di akhir) dan kata kunci `yield`.
+Untuk mempermudah pembuatan iterator, JavaScript memberi Anda **fungsi generator**, dengan menggunakan kata kunci `function*` (yaitu `function` dengan `*` di akhir) dan kata kunci `yield`.
 
 
 Mari kita coba:
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Apa yang terjadi di sini?
+**Apa yang terjadi di sini?**
 
 
 1. Kita memberikan `input` sebagai daftar angka yang ingin kita gandakan.
@@ -4952,7 +4945,7 @@ JavaScript memiliki beberapa sintaksis bawaan yang memungkinkan kita menulis dek
 ### Operator Ternary
 
 
-Dalam JavaScript, Anda dapat menetapkan nilai berdasarkan kondisi menggunakan **operator **ternary**, yang merupakan cara singkat untuk menulis `if...else`.
+Dalam JavaScript, Anda dapat menetapkan nilai berdasarkan kondisi menggunakan **operator ternary**, yang merupakan cara singkat untuk menulis `if...else`.
 
 
 Alih-alih melakukan:
@@ -5235,7 +5228,7 @@ JavaScript adalah bahasa yang diinterpretasikan, berbeda dengan bahasa yang diko
 Kode yang ditulis dalam bahasa yang dikompilasi akan diubah menjadi biner, dan biner tersebut diumpankan langsung ke CPU komputer.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Di sisi lain, bahasa Interpred cenderung lebih ramah pengguna, dan lebih dekat dengan cara berpikir manusia ("tingkat tinggi") daripada cara kerja mesin ("tingkat rendah"); sehingga mereka biasanya memiliki mesin virtual yang dibangun untuk menjalankan kode mereka.
@@ -5268,7 +5261,7 @@ Mengapa hal itu menjadi masalah?
 Nah, karena peramban mengeksekusi kode yang diambil dari jutaan sumber berbeda di internet, peramban dapat dengan mudah masuk ke dalam malware, sehingga mereka "di-sandbox" dari sistem operasi lainnya.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript tidak dapat mengakses sistem file dan sumber daya lokal lainnya di komputer Anda (setidaknya tidak semudah bahasa lain), jadi ini merupakan batasan yang signifikan pada jenis aplikasi yang dapat Anda buat dengan JavaScript.
@@ -5277,7 +5270,7 @@ JavaScript tidak dapat mengakses sistem file dan sumber daya lokal lainnya di ko
 Pada tahun 2009, Ryan Dahl menerbitkan NodeJS, yang merupakan sebuah runtime yang memungkinkan Anda untuk menggunakan mesin V8 di luar peramban, langsung pada sistem operasi asli komputer Anda. NodeJS juga menambahkan banyak fitur yang berguna untuk menulis program sisi server dan baris perintah. Sebagai contoh, Anda bisa menggunakan NodeJS untuk membuat server web, membaca dan menulis berkas, atau membuat alat yang mengotomatiskan tugas.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Dalam kursus ini, kita telah menjelajahi fitur-fitur JavaScript yang ada di peramban dan NodeJS. Fitur-fitur tersebut memungkinkan kita untuk mendefinisikan data dan memanipulasinya dengan cara yang abstrak. Dalam beberapa pelajaran berikutnya, kita akan menjelajahi fitur-fitur yang spesifik untuk NodeJS dan memungkinkan kita untuk berinteraksi dengan sistem operasi.
@@ -6438,10 +6431,10 @@ NodeJS memiliki empat jenis aliran utama:
 
 
 
-- Dapat dibaca**: aliran yang dapat Anda baca datanya (seperti membaca file)
-- Dapat Ditulis**: stream yang dapat Anda tulis datanya (seperti menulis ke file)
-- Duplex**: aliran yang dapat dibaca dan ditulis
-- Transform**: seperti aliran dupleks, tetapi dapat mengubah (mentransformasikan) data saat mengalir
+- **Dapat dibaca**: aliran yang dapat Anda baca datanya (seperti membaca file)
+- **Dapat Ditulis**: stream yang dapat Anda tulis datanya (seperti menulis ke file)
+- **Duplex**: aliran yang dapat dibaca dan ditulis
+- **Transform**: seperti aliran dupleks, tetapi dapat mengubah (mentransformasikan) data saat mengalir
 
 
 ### Aliran yang dapat dibaca

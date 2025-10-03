@@ -128,6 +128,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 44.11
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 55.12
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 44.11
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 66.12
 tags:
   - privacy
   - wallets

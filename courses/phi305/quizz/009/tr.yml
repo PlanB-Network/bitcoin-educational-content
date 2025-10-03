@@ -1,0 +1,9 @@
+question: Spinoza'nın ailesi miydi?
+answer: Yahudi.
+wrong_answers:
+  - Katolik.
+  - Protestan.
+  - Ateist.
+explanation: |
+  Spinoza'nın ailesi Yahudi'ydi. Anne ve babası Engizisyon'dan kaçan ve büyük bir Sefarad Yahudi cemaatinin bulunduğu Amsterdam'a yerleşen Portekizli Yahudilerdi.
+reviewed: false

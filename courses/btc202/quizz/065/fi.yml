@@ -1,0 +1,9 @@
+question: Mikä on ensimmäinen askel, jos Umbrelissa on vika?
+answer: generate diagnostiikkapaketti
+wrong_answers:
+  - Asenna Bitcoin core uudelleen ja tee IBD uudelleen
+  - Tyhjennä välimuisti
+  - Poista 2FA käytöstä
+explanation: |
+  Ongelmatilanteessa aloitamme luomalla vianmäärityskokonaisuuden vianmääritysosiossa ongelman analysoimiseksi ja tallentamiseksi.
+reviewed: true

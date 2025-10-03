@@ -1762,7 +1762,7 @@ Un'implementazione pratica di uno schema asimmetrico fu tuttavia trovata un anno
 
 Le funzioni trapdoor utilizzate nella crittografia asimmetrica (e nello scambio di chiavi Diffie Helmann) sono tutte legate a due problemi principali **difficili dal punto di vista computazionale**: la fattorizzazione dei primi e il calcolo dei logaritmi discreti.
 
-*La **fattorizzazione dei primi** richiede, come dice il nome, la scomposizione di un intero nei suoi fattori primi. Il problema RSA è di gran lunga l'esempio più noto di crittosistema legato alla fattorizzazione dei primi.
+*La **fattorizzazione dei primi** richiede, come dice il nome, la scomposizione di un intero nei suoi fattori primi. Il problema RSA è di gran lunga l'esempio più noto di crittosistema legato alla fattorizzazione dei primi.*
 
 Il **problema del logaritmo discreto** è un problema che si presenta nei gruppi ciclici. Dato un generatore in un particolare gruppo ciclico, richiede il calcolo dell'esponente unico necessario per produrre un altro elemento del gruppo a partire dal generatore.
 
@@ -2076,7 +2076,7 @@ Ad esempio, supponiamo che $N = 270$. Questo non è chiaramente un numero primo.
 
 $$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23$$
 
-Supponiamo poi che $N$ sia il prodotto di due primi, $p$ e $q$. *il precedente *teorema 2** afferma che l'ordine di $N$ è il seguente:
+Supponiamo poi che $N$ sia il prodotto di due primi, $p$ e $q$. *Il precedente* **teorema 2** afferma che l'ordine di $N$ è il seguente:
 
 $$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$
 

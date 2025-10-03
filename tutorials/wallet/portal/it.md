@@ -1,5 +1,5 @@
 ---
-name: Portale
+name: Portal
 description: Configurazione e utilizzo dell'hardware wallet Portal di TwentyTwo-Devices
 ---
 ![cover](assets/cover.webp)
@@ -68,7 +68,7 @@ Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemo
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.**_
+naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.
 
 Premere con decisione il pulsante sul portale per passare alle parole successive. Assicuratevi di posizionare l'intero dito sul pulsante e di mantenere la pressione per alcuni secondi, in modo che l'interazione venga rilevata correttamente.
 

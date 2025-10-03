@@ -1,0 +1,9 @@
+question: Bitcoin 节点在本地保存什么数据库来跟踪未使用的输出？
+answer: UTXO 套
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallet 的历史
+explanation: |
+  节点保留 UTXO 集，即未来交易可用的未用输出集。
+reviewed: true

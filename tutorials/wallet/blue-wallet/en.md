@@ -115,7 +115,7 @@ You can remove one or all recipients by clicking on **Remove Recipient** and **R
 
 
 
-- Inflate fees**: Have you made a transaction that's taking a long time to be confirmed? By enabling fee inflation you can add additional transaction fees to your pending transaction to speed up its confirmation.
+- **Inflate fees**: Have you made a transaction that's taking a long time to be confirmed? By enabling fee inflation you can add additional transaction fees to your pending transaction to speed up its confirmation.
 
 
 ![bumping](assets/fr/09.webp)
@@ -185,7 +185,7 @@ Receiving bitcoins in a multi-signature wallet is the same process as when you a
 
 
 
-- Send bitcoins** :
+- Send **bitcoins**:
 
 
 By managing a multi-signature wallet, spending bitcoins becomes a compound action, whether with other people or a second wallet of your own. The single signature of your wallet is no longer sufficient. This adds a layer of security to your bitcoins, because a malicious individual will not be able to spend those bitcoins when he comes into possession of just one of your private keys.
@@ -204,7 +204,7 @@ The second wallet signatory, if he or she is also a user, can sign the transacti
 
 
 
-- Go further with the Multi signature** portfolio:
+- Go further with the **Multi signature** portfolio:
 
 
 On the Interface of your multi-signature wallet, click on the **Manage keys** button.

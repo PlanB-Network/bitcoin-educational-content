@@ -1,5 +1,5 @@
 ---
-name: Кракен
+name: Kraken
 description: Как я могу покупать и продавать биткоины на Kraken?
 ---
 ![cover](assets/cover.webp)

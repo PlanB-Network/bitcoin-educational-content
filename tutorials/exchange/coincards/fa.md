@@ -1,5 +1,5 @@
 ---
-name: کوین‌کارت‌ها
+name: Coincards
 description: چگونه می‌توانم کالا و خدمات را با بیت‌کوین از طریق Coincards خریداری کنم؟
 ---
 ![cover](assets/cover.webp)

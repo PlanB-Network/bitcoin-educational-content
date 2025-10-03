@@ -1,122 +1,224 @@
 ---
 name: Bitcoin Core (Linux)
-description: Bitcoin Coreを使って自分自身のノードを運用する
+description: Linux上でBitcoin coreを使って自分のノードを動かす
 ---
 
 ![cover](assets/cover.webp)
 
-# Bitcoin Coreを使って自分自身のノードを運用する
 
-ビットコインとノード（node）の概念の紹介、Linux上での包括的なインストールガイドを網羅します。
+## Bitcoin coreで自分のノードを動かす
 
-ビットコインの最もエキサイティングな提案の一つは、プログラムを自分自身で実行し、ネットワークと公開トランザクション台帳の検証に細かいレベルで参加できる点です。
 
-ビットコインはオープンソースプロジェクトであり、2009年に公開されて以来、無料で利用可能になっています。その創設からほぼ15年後、ビットコインは今や強力な有機的ネットワーク効果から恩恵を受ける、停止不可能なデジタル通貨ネットワークとなりました。その努力とビジョンに対して、サトシ・ナカモト氏に私たちは当然ながら感謝の気持ちでいっぱいです。ちなみに、私たちはAgora 256（注：大学でも）でビットコインホワイトペーパーをホストしています。
+Bitcoinの紹介とノードの概念、Linuxでの包括的なインストールガイド。
 
-## 自分自身の銀行になる
 
-自分自身のノードを運用することは、ビットコインの信条を信じる人々にとって不可欠になっています。誰かの許可を求めることなく、ブロックチェーンを最初からダウンロードし、AからZまでのすべてのトランザクションをビットコインプロトコルに従って検証することが可能です。
+Bitcoinの最もエキサイティングな側面のひとつは、自分自身でプログラムを実行できることであり、その結果、ネットワークと公開トランザクションLedgerの検証に粒度レベルで参加できることである。
 
-このプログラムには独自のウォレットも含まれています。したがって、私たちは中間者や第三者なしに、残りのネットワークに送信するトランザクションを制御できます。あなたは自分自身の銀行なのです。
 
-この記事の残りの部分は、UbuntuやPop!_OSなどのDebian互換のLinuxディストリビューションに特に焦点を当てた、最も広く使用されているビットコインソフトウェアバージョン「Bitcoin Core」（ビットコインコア）のインストールガイドです。このガイドに従って、個人の主権に一歩近づきましょう。
+Bitcoinはオープンソースのプロジェクトとして、2009年から自由に利用でき、一般に配布されている。発足から17年近くが経過した現在、Bitcoinは強力な有機的ネットワーク効果の恩恵を受けて、強固で止められないデジタル通貨ネットワークとなっている。彼らの努力とビジョンに対して、Satoshiナカモトは感謝に値する。ちなみに、Bitcoinのホワイトペーパーはアゴラ256（注：大学にもあります）で公開しています。
 
-## Debian/Ubuntu用Bitcoin Coreインストールガイド
 
-> 前提条件
->
-> - 最小6GBのデータストレージ（pruned node）— 1TBのデータストレージ（full node）
-> - 初期ブロックダウンロード（IBD）の完了には少なくとも24時間を準備してください。この操作は、pruned nodeであっても必須です。
-> - pruned nodeであっても、IBDには約600GBの帯域幅を許可してください。
+### 自分の銀行になる
 
-> 💡 以下のコマンドはBitcoin Coreバージョン24.1用に事前定義されています。
 
-## ファイルのダウンロードと検証
+Bitcoinの信奉者にとっては、自分のノードを運営することが不可欠である。誰の許可も得ることなく、Blockchainを最初からダウンロードし、Bitcoinプロトコルに従ってAからZまでのすべての取引を検証することが可能である。
 
-1. bitcoin-24.1-x86_64-linux-gnu.tar.gzおよびSHA256SUMSとSHA256SUMS.ascファイルをダウンロードします。(https://bitcoincore.org/bin/bitcoin-core-24.1/bitcoin-24.1-x86_64-linux-gnu.tar.gz)
-2. ダウンロードしたファイルがあるディレクトリでターミナルを開きます。例えば、cd ~/Downloads/
-3. コマンドsha256sum --ignore-missing --check SHA256SUMSを使用して、バージョンファイルのチェックサムがチェックサムファイルにリストされていることを確認します。
-4. このコマンドの出力には、ダウンロードしたバージョンファイルの名前に続いて「OK」と表示されている必要があります。例：bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK
-5. コマンドsudo install gitを使用してgitをインストールします。次に、コマンドgit clone https://github.com/bitcoin-core/guix.sigsを使用して、Bitcoin Core署名者のPGPキーを含むリポジトリをクローンします。
-6. コマンドgpg --import guix.sigs/builder-keys/\*を使用して、すべての署名者のPGPキーをインポートします。
-7. コマンドgpg --verify SHA256SUMS.ascを使用して、チェックサムファイルが署名者のPGPキーで署名されていることを確認します。
-各署名は、次のように始まる行を返します：gpg: Good signature そしてもう一つの行は Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320（Pieter WuilleのPGPキーのフィンガープリントの例）で終わります。
-> 💡 すべての署名者のキーが「OK」と返す必要はありません。実際、1つだけが必要かもしれません。PGP検証のための自身の検証閾値をユーザーが決定することになります。
->
-> このキーは信頼できる署名で認証されていないことを意味するWARNING:メッセージは無視してかまいません！
 
-> 署名が所有者に属しているという証拠はありません。
+このプログラムには独自のWalletも含まれている。したがって、私たちは、仲介者や第三者なしに、ネットワークの残りの部分に送信するトランザクションを制御することができます。あなた自身が銀行なのです。
 
-## Bitcoin Coreグラフィカルインターフェースのインストール
 
-1. Bitcoin Coreバージョンファイルがあるディレクトリで、ターミナルを開き、コマンド tar xzf bitcoin-24.1-x86_64-linux-gnu.tar.gz を使用して、アーカイブに含まれるファイルを展開します。
-2. 以前に展開したファイルをコマンド sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-24.1/bin//\* を使用してインストールします。
-3. 必要な依存関係をコマンド sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev を使用してインストールします。
-4. コマンド bitcoin-qt を使用して bitcoin-qt（Bitcoin Coreグラフィカルインターフェース）を起動します。
-5. pruned nodeを選択するには、Limit blockchain storage をチェックし、保存されるデータの制限を設定します：
+そこで、この記事の残りの部分は、Bitcoin core（最も広く使われているBitcoinソフトウェアのバージョン）を、特にUbuntuやPop!OSのようなDebian互換のLinuxディストリビューションにインストールするためのガイドです。このガイドに従って、あなたの個人主権に一歩近づいてください。
 
-![welcome](assets/1.webp)
 
-## 第1部：インストールガイドの結論
+## Debian/Ubuntu 用 Bitcoin core インストールガイド
 
-Bitcoin Coreがインストールされたら、トランザクションを検証し、他のpeer（ピア）に新しいブロックを伝達することでビットコインネットワークに貢献するためにも、できるだけ常時実行しておくことをお勧めします。
 
-しかし、受信および送信されたトランザクションを検証するためだけであっても、ノードを断続的に実行および同期することは良い習慣です。
+**前提条件
 
-![Creation wallet](assets/2.webp)
 
-# Bitcoin CoreノードのためのTorの設定
+- 最低6GBのデータストレージ（prunedノード） - 1TBのデータストレージ（Full nodeノード）
+- 初期ブロック・ダウンロード*（IBD）には少なくとも24時間かかると思ってください。この操作はprunedノードであっても必須である。
+- prunedノードであっても、IBDの帯域幅を～600GBにする。
 
-> 💡 このガイドは、Ubuntu/Debian互換のLinuxディストリビューション上のBitcoin Core 24.0.1用に設計されています。
 
-## Bitcoin CoreのためのTorのインストールと設定
+*注：💡***以下のコマンドはBitcoin coreバージョン24.1であらかじめ定義されています。
 
-まず、匿名通信に使用されるネットワークであるTorサービス（The Onion Router）をインストールする必要があります。これにより、ビットコインネットワークとのやり取りを匿名化できます。オンラインプライバシー保護ツール（Torを含む）についての紹介は、このトピックに関する私たちの記事を参照してください。
 
-Torをインストールするには、ターミナルを開き、sudo apt -y install tor を入力します。インストールが完了すると、サービスは通常、バックグラウンドで自動的に起動されます。コマンド sudo systemctl status tor を使用して、正しく実行されているかを確認します。応答は Active: active (exited) と表示されるべきです。この機能を終了するには、Ctrl+C を押します。
+### ファイルのダウンロードと検証
 
-> いずれにせよ、以下のコマンドをターミナルで使用して、Torを開始、停止、または再起動することができます：
 
-```
+
+- [ダウンロード](https://bitcoincore.org/en/download/) `Bitcoin-24.1-x86_64-linux-gnu.tar.gz` と `SHA256SUMS` と `SHA256SUMS.asc` ファイルをダウンロードする（当然、ソフトウェアの最新バージョンをダウンロードする必要がある）。
+
+
+
+- ダウンロードしたファイルがあるディレクトリでターミナルを開く。例: `cd ~/Downloads/`.
+
+
+
+- コマンド`sha256sum --ignore-missing --check SHA256SUMS`を使って、バージョンファイルのチェックサムがチェックサムファイルにリストされていることを確認する。
+
+
+
+- このコマンドの出力には、ダウンロードしたバージョンファイルの名前の後に `OK` が続くはずである。Example: `Bitcoin-24.0.1-x86_64-linux-gnu.tar.gz:OK`.
+
+
+
+- コマンド `sudo apt install git` を使って git をインストールする。次に、`git clone https://github.com/Bitcoin-core/guix.sigs` コマンドを使って、Bitcoin core署名者のPGP鍵があるリポジトリをクローンする。
+
+
+
+- gpg --import guix.sigs/builder-keys/*` コマンドを使用して、すべての署名者のPGP鍵をインポートする。
+
+
+
+- コマンド`gpg --verify SHA256SUMS.asc`を使って、チェックサムファイルが署名者のPGP鍵で署名されていることを確認する。
+
+
+
+各有効な署名は、次の行で始まる行を表示する：gpg: Good signature`で始まる行と、次の行で終わる行が表示される：主キーの指紋：133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320` (Pieter WuilleのPGP鍵指紋の例)。
+
+
+**注💡：すべての署名鍵が「OK」を返す必要はない。実際、必要なのは1つだけかもしれません。PGP検証のしきい値を決めるのはユーザーです。
+
+
+警告は無視してもいい：
+
+
+
+- この鍵は信頼できる署名で認証されていません。
+
+
+
+- その署名が所有者のものであることを示すものはない。
+
+
+### Bitcoin coreグラフィカルInterfaceのインストール
+
+
+
+- ターミナルで、Bitcoin coreバージョンのファイルがあるディレクトリのまま、`tar xzf Bitcoin-24.1-x86_64-linux-gnu.tar.gz` コマンドを使って、アーカイブに含まれるファイルを展開します。
+
+
+
+- コマンド`sudo install -m 0755 -o root -g root -t /usr/local/bin Bitcoin-24.1/bin/*` を使って、先に展開したファイルをインストールする。
+
+
+
+- コマンド `sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev` を使って、必要な依存関係をインストールする。
+
+
+
+- Bitcoin-qt`コマンドを使って_bitcoin-qt_ (Bitcoin core graphical Interface)を起動する。
+
+
+
+- prunedノードを選択するには、_Limit Blockchain storage_にチェックを入れ、保存するデータの上限を設定する：
+
+
+![welcome](assets/fr/02.webp)
+
+
+### 第1部の結論：インストレーション・ガイド
+
+
+Bitcoin coreがインストールされたら、トランザクションを検証し、新しいブロックを他のピアに送信することによってBitcoinネットワークに貢献するために、できるだけ稼働させておくことが推奨される。
+
+
+しかし、受信したトランザクションと送信したトランザクションを検証するためだけであっても、ノードを断続的に稼働させ、同期させることは良い習慣であることに変わりはない。
+
+
+![Creation wallet](assets/fr/03.webp)
+
+
+## Bitcoin coreノードにTorを設定する
+
+
+**注意💡:** このガイドは、Ubuntu/Debian互換のLinuxディストリビューション上のBitcoin core 24.0.1用に設計されています。
+
+
+### Bitcoin coreのためのTorのインストールと設定
+
+
+まず、匿名通信のためのネットワークであるTorサービス（The Onion Router）をインストールする必要がある。Torを含むオンラインプライバシー保護ツールの紹介については、このトピックに関する記事を参照してください。
+
+
+Torをインストールするには、ターミナルを開き、`sudo apt -y install tor`と入力する。インストールが完了すると、通常はバックグラウンドで自動的にサービスが起動します。コマンド `sudo systemctl status tor` で正しく起動しているか確認してください。応答は `Active: active (exited)` と表示されるはずです。この機能を終了するには `Ctrl+C` を押してください。
+
+
+**ヒント:** いずれにせよ、ターミナルで以下のコマンドを使ってTorを起動、停止、再起動することができます：
+
+
+```shell
 sudo systemctl start tor
 sudo systemctl stop tor
 sudo systemctl restart tor
 ```
 
-次に、コマンド bitcoin-qt を使用してBitcoin Coreグラフィカルインターフェースを起動しましょう。その後、Settings > Network から、私たちの接続をTorプロキシを通じてルーティングするソフトウェアの自動機能を有効にします：Connect through SOCKS5 proxy (default proxy) および Use a separate SOCKS5 proxy to reach peers via Tor onion services をチェックします。
 
-![option](assets/3.webp)
+次に、`Bitcoin-qt`コマンドでBitcoin coreのグラフィカルなInterfaceを起動しよう。次に、Torプロキシを経由して接続をルーティングするソフトウェアの自動機能を有効にする：設定 > ネットワーク_」を選択し、「SOCKS5プロキシ経由で接続する（デフォルトのプロキシ）_」と「Torオニオンサービス経由でピアに接続するために別のSOCKS5プロキシを使用する_」をチェックします。
 
-Bitcoin Coreは自動的にTorがインストールされているかを検出し、もしそうであれば、デフォルトで他のTorを使用しているノードへのアウトバウンド接続を作成します。これは、IPv4/IPv6ネットワーク（クリアネット）を使用するノードへの接続に加えて行われます。
 
->💡 ディスプレイ言語をフランス語に変更するには、設定のディスプレイタブに移動してください。
+![option](assets/fr/04.webp)
 
-## 高度なTor設定（オプション）
 
-Bitcoin CoreをTorネットワークのみを使用してピアと接続するように設定することが可能です。これにより、ノードを通じた匿名性を最適化できます。グラフィカルインターフェースにこの機能が組み込まれていないため、手動で設定ファイルを作成する必要があります。設定に移動し、オプションを選択してください。
+Bitcoin coreは、Torがインストールされているかどうかを自動的に検出し、インストールされている場合は、デフォルトで、IPv4/IPv6ネットワーク（clearnet）を使用しているノードへの接続に加えて、同じくTorを使用している他のノードへのアウトバウンド接続を作成します。
 
-![option 2](assets/4.webp)
 
-ここで、Open configuration file をクリックします。bitcoin.confテキストファイル内で、単にonlynet=onionという行を追加してファイルを保存します。このコマンドを有効にするには、Bitcoin Coreを再起動する必要があります。次に、Bitcoin Coreがプロキシ経由で着信接続を受け取れるようにTorサービスを設定します。これにより、ネットワーク上の他のノードが私たちのノードを使用してブロックチェーンデータをダウンロードできるようになり、私たちのマシンのセキュリティを損なうことなく行えます。
+*注💡：***表示言語をフランス語に変更するには、「設定」の「表示」タブを開きます。
 
-ターミナルで、sudo nano /etc/tor/torrc を入力してTorサービス設定ファイルにアクセスします。このファイル内で、#ControlPort 9051という行を探し、#を削除して有効にします。次に、ファイルに2つの新しい行を追加します：HiddenServiceDir /var/lib/tor/bitcoin-service/ および HiddenServicePort 8333 127.0.0.1:8334。ファイルを保存して終了するには、Ctrl+X > Y > Enterを押します。ターミナルに戻り、sudo systemctl restart torコマンドを入力してTorを再起動します。
 
-この設定により、Bitcoin CoreはTorネットワーク（Onion）を介してのみ他のノードとの着信および発信接続を確立できるようになります。これを確認するには、ウィンドウタブに移動し、ピアをクリックしてください。
+### 高度なTor設定（オプション）
 
-![Nodes Window](assets/5.webp)
 
-## 追加リソース
+Bitcoin coreを設定することで、ピアとの接続にTorネットワークのみを使用し、ノードを介した匿名性を最適化することが可能です。グラフィカルなInterfaceにはこのための機能が組み込まれていないので、手動で設定ファイルを作成する必要があります。設定]、[オプション]の順に進みます。
 
-最終的に、Torネットワークのみを使用する（onlynet=onion）ことは、シビル攻撃に対して脆弱になる可能性があります。そのため、この種のリスクを軽減するために、複数のネットワーク構成を維持することを推奨する人もいます。さらに、一度設定されると、すべてのIPv4/IPv6接続が以前に示されたようにTorプロキシを介してルーティングされます。
 
-シビル攻撃のリスクを軽減し、Torネットワーク上にのみ留まるためには、信頼できる別のノードのアドレスをbitcoin.confファイルにaddnode=trusted_address.onionとして追加することができます。複数の信頼できるノードに接続したい場合は、この行を複数回追加できます。
+![option 2](assets/fr/05.webp)
 
-ビットコインノードのTorとのやり取りに関連するログを表示するには、bitcoin.confファイルにdebug=torを追加します。これで、デバッグファイルボタンで情報ウィンドウに表示されるデバッグログに関連するTor情報が表示されるようになります。また、ターミナルでbitcoind -debug=torコマンドを使用してこれらのログを直接表示することも可能です。
 
-> 💡 いくつかの興味深いリンク：
-> - Wiki page explaining Tor and its relationship with Bitcoin
-> - Bitcoin Core configuration file generator by Jameson Lopp
-> - Tor configuration guide by Jon Atack
+ここで、_Open configuration file_をクリックする。Bitcoin.conf`テキストファイルに`onlynet=onion`という行を追加して保存する。このコマンドを有効にするには、Bitcoin coreを再起動する必要がある。
 
-いつものように、質問があればAgora256コミュニティで共有してください。私たちは一緒に学び、今日よりも明日より良くなります！
 
+そして、Bitcoin coreがプロキシ経由で着信接続を受け取れるようにTorサービスを設定し、ネットワーク上の他のノードが私たちのマシンのセキュリティを損なうことなく、私たちのノードを使用してBlockchainのデータをダウンロードできるようにする。
+
+
+ターミナルで`sudo nano /etc/tor/torrc`と入力してTorサービスの設定ファイルにアクセスする。このファイルで `#ControlPort 9051` という行を探し、`#` を削除して有効にする。次にファイルに2行追加します：
+
+
+```
+HiddenServiceDir /var/lib/tor/bitcoin-service/
+HiddenServicePort 8333 127.0.0.1:8334
+```
+
+
+ファイルを保存中に終了するには `Ctrl+X > Y > Enter` を押してください。ターミナルに戻って、`sudo systemctl restart tor`コマンドを入力してTorを再起動する。
+
+
+この設定により、Bitcoin coreはTorネットワーク(Onion)を通してのみ、ネットワーク上の他のノードと発着信接続を確立できるようになります。これを確認するには、_Window_タブをクリックし、_Peers_をクリックします。
+
+
+![Nodes Window](assets/fr/06.webp)
+
+
+### その他のリソース
+
+
+結局のところ、Torネットワーク（`onlynet=onion`）だけを使うと、Sybil Attackに対して脆弱になる可能性がある。そのため、この種のリスクを軽減するためにマルチネットワーク構成を維持することを推奨する人もいる。さらに、すべてのIPv4/IPv6接続は、先に示したように、いったん設定されるとTorプロキシを経由してルーティングされます。
+
+
+別の方法として、Torネットワークだけに留まり、Sybil Attackのリスクを軽減するために、`addnode=trusted_address.onion`という行を追加することで、`Bitcoin.conf`ファイルに他の信頼できるノードのAddressを追加することができます。複数の信頼済みノードに接続したい場合は、この行を複数回追加することができる。
+
+
+Bitcoinノードのログを見るには、Bitcoin.confファイルに`debug=tor`を追加してください。これでデバッグログに関連するTorの情報が追加され、_Information_ウィンドウの_Debug File_ボタンで見ることができます。また、ターミナルで `bitcoind -debug=tor` コマンドを使って直接ログを見ることもできます。
+
+
+**ヒント💡：**ここに興味深いリンクがあります：
+
+
+- [トーアとBitcoinとの関係を説明するウィキのページ](https://en.Bitcoin.it/wiki/Tor)
+- [ジェイムソン・ロップによるBitcoin coreコンフィギュレーション・ファイル・ジェネレーター](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [ジョン・アタックによるTor設定ガイド](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
+
+
+いつも通り、何か質問があれば、遠慮なくアゴラ256のコミュニティで共有してください。私たちは、今日よりも明日、より良くなるために共に学びます！

@@ -79,7 +79,7 @@ contributors:
 
 
 
-- `proje`**: Kuruluşunuzun PlanB Network'teki tanımlayıcısını belirtin. Şirketiniz için henüz bir "proje" tanımlayıcınız yoksa, bu öğreticiyi izleyerek bir tane oluşturabilirsiniz.
+- `proje`: Kuruluşunuzun PlanB Network'teki tanımlayıcısını belirtin. Şirketiniz için henüz bir "proje" tanımlayıcınız yoksa, bu öğreticiyi izleyerek bir tane oluşturabilirsiniz.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ Eğer bir proje profiliniz yoksa, bir proje profili oluşturmadan sadece adını
 
 
 
-- `type`**: Aşağıdaki iki seçenek arasından içeriğinizin niteliğini seçin:
+- **`type`**: Aşağıdaki iki seçenek arasından içeriğinizin niteliğini seçin:
  - eğitim içerikleri için `Eğitimsel İçerik`.
  - diğer farklı içerik türleri için `Görsel İçerik`.
 
 
 
-- `bağlantılar`**: İçeriğinize bağlantılar sağlayın. İki seçeneğiniz var:
+- **bağlantılar**: İçeriğinize bağlantılar sağlayın. İki seçeneğiniz var:
  - İçeriğinizi doğrudan PlanB'nin GitHub'ında barındırmayı seçerseniz, aşağıdaki adımlar sırasında bağlantıları bu dosyaya eklemeniz gerekecektir.
  - İçeriğiniz kişisel web siteniz gibi başka bir yerde barındırılıyorsa, ilgili bağlantıları burada belirtin:
      - `indir`: İçeriğinizi indirmek için bir bağlantı.
@@ -102,7 +102,7 @@ Eğer bir proje profiliniz yoksa, bir proje profili oluşturmadan sadece adını
 
 
 
-- `tags`**: İçeriğinizle ilişkili iki etiket ekleyin. Örnekler:
+- `tags`**: İçeriğinizle ilişkili iki etiket ekleyin. Örnekler:**
  - Bitcoin
  - teknoloji
  - ekonomi
@@ -111,7 +111,7 @@ Eğer bir proje profiliniz yoksa, bir proje profili oluşturmadan sadece adını
 
 
 
-- `contributors`**: Eğer varsa katılımcı tanımlayıcınızı belirtin.
+- `contributors`**: Eğer varsa katılımcı tanımlayıcınızı belirtin.**
 
 
 Örneğin, YAML dosyanız aşağıdaki gibi görünebilir:

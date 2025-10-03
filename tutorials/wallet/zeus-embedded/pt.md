@@ -13,7 +13,7 @@ Mas a aplicação também inclui um "nó incorporado".
 
 
 
-**É esta faceta da aplicação que vamos explorar neste tutorial. Isto permite a qualquer pessoa ter o seu próprio nó de relâmpago no telemóvel, sem necessidade de um servidor dedicado, da mesma forma que a ACINQ oferece o seu incrível Wallet lightning Phoenix.
+**É esta faceta da aplicação que vamos explorar neste tutorial.** Isto permite a qualquer pessoa ter o seu próprio nó de relâmpago no telemóvel, sem necessidade de um servidor dedicado, da mesma forma que a ACINQ oferece o seu incrível Wallet lightning Phoenix.
 
 
 
@@ -23,7 +23,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-*o *Zeus "Integrated "** destina-se aos utilizadores de Bitcoin que pretendem maximizar a sua privacidade e autonomia.
+**O Zeus "Integrated"** destina-se aos utilizadores de Bitcoin que pretendem maximizar a sua privacidade e autonomia.
 
 
 Em suma, é **potencialmente** o telemóvel Wallet dos sonhos dos cypherpunks. Mesmo que ainda esteja na sua infância (versão alfa) e sujeito a alguns bugs, as suas funcionalidades são imensas e não há dúvida de que fará as delícias dos mais intrépidos de entre nós, que querem o máximo de controlo e de opções.
@@ -248,7 +248,7 @@ No ecrã seguinte, é-lhe pedido que abra um canal em colaboração com **"Olymp
 Para este tutorial, vamos escolher esta opção por uma questão de simplicidade, mas é perfeitamente possível abrir canais com qualquer nó na rede.
 
 
-É mesmo possível abrir vários canais numa única transação, selecionando "OPEN ADDITIONAL CHANNEL". *Mas veremos isso numa versão "avançada" do tutorial **Zeus Embedded****.
+É mesmo possível abrir vários canais numa única transação, selecionando "OPEN ADDITIONAL CHANNEL". *Mas veremos isso numa versão "avançada" do tutorial **Zeus Embedded***.
 
 
 

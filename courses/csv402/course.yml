@@ -1,6 +1,7 @@
 id: 3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 topic: protocol
 subtopic: client side validation
+type: theory
 level: expert
 hours: 14
 
@@ -137,6 +138,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 176.8
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 220.97
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 176.8
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 265.15
 tags:
   - protocols
   - complex-DIY

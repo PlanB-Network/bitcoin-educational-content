@@ -1,6 +1,7 @@
 id: 9fbd8b57-f278-4304-8d88-a2d384eaff58
 topic: protocol
 subtopic: lightning network
+type: practice
 level: expert
 hours: 16
 
@@ -134,6 +135,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.34
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.14
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.34
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.95
 tags:
   - development
   - lightning

@@ -83,15 +83,15 @@ paolo@planb.network
 要为 Plan ₿ Network 做出贡献，您有三种选择，具体取决于您对 GitHub 的使用经验：
 
 
-- 有经验的用户**：继续使用您的常规方法，只需参考下面的简短教程，其中概述了计划₿ 网络存储库文件结构、具体要求和工作方法：
+- 有经验的用户：继续使用您的常规方法，只需参考下面的简短教程，其中概述了计划₿ 网络存储库文件结构、具体要求和工作方法：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- 中级（GitHub 桌面）** ：如果您不熟悉 Git 的使用，第一个选择是轻松建立自己的本地环境，为 Plan ₿ Network 做出贡献。对于重大贡献，例如编写完整的教程，建议采用这种方法。为此，请按照下面的教程逐步操作：
+- **中级（GitHub 桌面）**：如果您不熟悉 Git 的使用，第一个选择是轻松建立自己的本地环境，为 Plan ₿ Network 做出贡献。对于重大贡献，例如编写完整的教程，建议采用这种方法。为此，请按照下面的教程逐步操作：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- 初学者（网页界面）** ：您也可以选择直接使用 GitHub 的网页界面，而无需建立完整的本地环境。对于小贡献，可以考虑使用这种方法。但对于重大贡献，比如添加一个完整的新教程，这种方法可能比建立本地环境更复杂。我将在本教程中解释如何做到这一点：
+- **初学者（网页界面）**：您也可以选择直接使用 GitHub 的网页界面，而无需建立完整的本地环境。对于小贡献，可以考虑使用这种方法。但对于重大贡献，比如添加一个完整的新教程，这种方法可能比建立本地环境更复杂。我将在本教程中解释如何做到这一点：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

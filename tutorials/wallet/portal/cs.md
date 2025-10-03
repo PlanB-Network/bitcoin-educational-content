@@ -1,5 +1,5 @@
 ---
-name: Portál
+name: Portal
 description: Konfigurace a používání hardwarové peněženky TwentyTwo-Devices Portál
 ---
 ![cover](assets/cover.webp)
@@ -68,7 +68,7 @@ Pro více informací o správném způsobu ukládání a správy mnemotechnický
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.**_
+samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.
 
 Chcete-li přejít k dalším slovům, stiskněte pevně tlačítko na portálu. Ujistěte se, že jste na tlačítko položili celý prst a několik sekund ho drželi, aby byla interakce správně rozpoznána.
 

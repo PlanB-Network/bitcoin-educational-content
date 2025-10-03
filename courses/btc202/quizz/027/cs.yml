@@ -1,0 +1,9 @@
+question: Co je na uzlu SPV zvláštního?
+answer: Zachovává pouze záhlaví bloku
+wrong_answers:
+  - Zachovává celý blok Blockchain od bloku Genesis
+  - Ukládá pouze nejnovější bloky
+  - Zachovává pouze sadu UTXO, nikoli Blockchain
+explanation: |
+  Uzel SPV ověřuje transakce pomocí hlaviček bloků a Merkleho důkazů, aniž by ukládal kompletní data.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welche Dateien konsultiert ein Knoten beim Neustart zuerst, um seine alten Kollegen zu finden?
+answer: anker.dat und peers.dat
+wrong_answers:
+  - Mempool.dat und peers.dat
+  - Mempool.dat und ip.dat
+  - ip.dat und anchors.dat
+explanation: |
+  Bitcoin core konsultiert zunächst anchors.dat (frühere ausgehende Peers), dann peers.dat (bekanntes Address-Buch), um die Verbindung wiederherzustellen.
+reviewed: true

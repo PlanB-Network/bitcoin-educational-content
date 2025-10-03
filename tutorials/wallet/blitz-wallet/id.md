@@ -93,19 +93,19 @@ Salah satu fitur khusus Blitz Wallet adalah mendukung jaringan dan saluran yang 
 
 
 
-- Lightning Network**: Salah satu overlay Bitcoin yang memungkinkan Anda melakukan transaksi mikro secara instan.
+- **Lightning Network**: Salah satu overlay Bitcoin yang memungkinkan Anda melakukan transaksi mikro secara instan.
 
 
 
 
 
-- Bitcoin Mainnet**: Rantai utama protokol Bitcoin, cocok untuk transaksi bernilai besar.
+- **Bitcoin Mainnet**: Rantai utama protokol Bitcoin, cocok untuk transaksi bernilai besar.
 
 
 
 
 
-- Liquid Network**: Rantai paralel untuk Bitcoin Mainnet yang dikembangkan oleh BlockStream yang menggunakan Bitcoin Liquid untuk melakukan pengiriman cepat, Confidential Transactions.
+- **Liquid Network**: Rantai paralel untuk Bitcoin Mainnet yang dikembangkan oleh BlockStream yang menggunakan Bitcoin Liquid untuk melakukan pengiriman cepat, Confidential Transactions.
 
 
 
@@ -169,7 +169,7 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-- Mengakses layanan kecerdasan buatan**: Gunakan model kecerdasan buatan generatif seperti: Claude 3-5 soneta, gpt-4o, gpt-4o-mini gemini-flash-1.5 dan membayar langsung dalam bitcoin.
+- **Mengakses layanan kecerdasan buatan**: Gunakan model kecerdasan buatan generatif seperti: Claude 3-5 soneta, gpt-4o, gpt-4o-mini gemini-flash-1.5 dan membayar langsung dalam bitcoin.
 
 
 
@@ -179,7 +179,7 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-- Kirim pesan teks ke mana saja di seluruh dunia**: Di toko Blitz, Anda memiliki akses ke layanan GSM yang memungkinkan Anda mengirim pesan teks secara anonim ke mana saja di seluruh dunia, dengan penagihan langsung di Bitcoin.
+- **Kirim pesan teks ke mana saja di seluruh dunia**: Di toko Blitz, Anda memiliki akses ke layanan GSM yang memungkinkan Anda mengirim pesan teks secara anonim ke mana saja di seluruh dunia, dengan penagihan langsung di Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-- Berselancar dalam kerahasiaan total**: Bayar langganan VPN (Virtual Private Network) WireGuard di toko Wallet Blitz dengan bitcoin Anda.
+- **Berselancar dalam kerahasiaan total**: Bayar langganan VPN (Virtual Private Network) WireGuard di toko Wallet Blitz dengan bitcoin Anda.
 
 
 
@@ -249,7 +249,7 @@ Dengan mengaktifkan mode Lightning, setelah syarat utama terpenuhi (saldo 500.00
 
 
 
-- Terima Bitcoin di toko Anda**:
+- **Terima Bitcoin di toko Anda**:
 
 
 
@@ -270,4 +270,3 @@ Jika tutorial ini membantu Anda memahami Blitz, kami yakin Anda akan menikmati t
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-

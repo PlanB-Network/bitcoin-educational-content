@@ -1,5 +1,5 @@
 ---
-name: سرور BTCpay
+name: BTCPay Server
 
 description: راهنمای راه‌اندازی سرور BTCPay و مدیریت آن
 ---

@@ -73,7 +73,7 @@ Banxaasin verkkoalusta on minimalistinen ja intuitiivinen, ja sen avulla voit su
 
 
 
-- CFA Francista satoshiksi** :
+- **CFA Francista satoshiksi**:
 
 
 
@@ -114,7 +114,7 @@ Vahvista maksutapahtuma klikkaamalla **Troc**-painiketta ostaaksesi bitcoineja C
 
 
 
-- Siirtyminen Satoshista muunna CFA frangi**
+- Siirtyminen Satoshista muunna CFA **frangi**
 
 
 

@@ -1,0 +1,9 @@
+question: 체크섬이 있는 확장 키의 총 크기는 얼마인가요?
+answer: 82바이트
+wrong_answers:
+  - 78 바이트
+  - 64바이트
+  - 128바이트
+explanation: |
+  확장 키는 체크섬이 없는 경우 78바이트, 체크섬이 포함된 경우 82바이트입니다.
+reviewed: false

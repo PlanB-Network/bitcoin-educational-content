@@ -25,10 +25,10 @@ Det gjensto imidlertid et stort problem mellom Bitcoin-protokollagene: flytende 
 
 
 
-- on chain**: Bitcoins hovedkjede hvor transaksjoner bekreftes hvert 10. minutt i gjennomsnitt, er transaksjonsgebyrene ofte høye, noe som ikke nødvendigvis oppfyller brukernes behov;
-- Lightning Network**: Bitcoin-overlegget for øyeblikkelige betalinger til lave gebyrer, slik at Bitcoin kan brukes til daglige betalinger;
-- Liquid Network**: et overlegg for Bitcoin opprettet av Blockstream, som muliggjør rask, Confidential Transactions og bruk av andre Bitcoin-baserte finansielle instrumenter;
-- RootStock**: En løsning for utvikling av smartkontrakter basert på Bitcoin-protokollen.
+- **on chain**: Bitcoins hovedkjede hvor transaksjoner bekreftes hvert 10. minutt i gjennomsnitt, er transaksjonsgebyrene ofte høye, noe som ikke nødvendigvis oppfyller brukernes behov;
+- **Lightning Network**: Bitcoin-overlegget for øyeblikkelige betalinger til lave gebyrer, slik at Bitcoin kan brukes til daglige betalinger;
+- **Liquid Network**: et overlegg for Bitcoin opprettet av Blockstream, som muliggjør rask, Confidential Transactions og bruk av andre Bitcoin-baserte finansielle instrumenter;
+- **RootStock**: En løsning for utvikling av smartkontrakter basert på Bitcoin-protokollen.
 
 
 

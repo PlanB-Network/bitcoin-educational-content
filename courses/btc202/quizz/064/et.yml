@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus, et paigaldada Umbrelile kohalik Block explorer nagu Mempool.Space?
+answer: Säilitage konfidentsiaalsus ja kasutage oma sõlme andmeid
+wrong_answers:
+  - Kiirendada Bitcoin core esialgset sünkroniseerimist
+  - Suurendada plokkide jaoks kättesaadavat salvestusmahtu
+  - Välgukanalite saamine
+explanation: |
+  Kohalik Block explorer takistab IP-lekkeid ja tugineb teie enda valideeritud andmetele, tagades konfidentsiaalsuse ja usaldusväärsuse.
+reviewed: true

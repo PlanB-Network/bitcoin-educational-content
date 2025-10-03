@@ -280,7 +280,7 @@ La naissance de Linux ne peut être comprise sans évoquer son ancêtre direct :
 
 Cette approche se traduit par le principe fondateur formulé par Doug McIlroy : 
 
-> Fais une seule chose, mais fais-la bien.
+> Do one thing and do it well.
 
 Unix peut être considéré comme une évolution et une réaction au système d’exploitation Multics, dont il adopte une architecture radicalement opposée. Multics est un projet initié en 1964, fruit d’une collaboration entre le MIT, General Electric et les laboratoires Bell d’AT&T. Ken Thompson et Dennis Ritchie (les créateurs d'UNIX) ont donc pu suivre de près ce projet Multics jusqu’en 1969, date à laquelle leur entreprise se retire du développement.
 
@@ -340,7 +340,7 @@ Très rapidement, ce noyau, initialement baptisé Freax puis renommé Linux (con
 
 À mesure que Linux gagne en popularité dans les années 1990, un débat idéologique émerge autour des termes "logiciel libre" et "open source", notamment à cause de la double signification du terme "*free*" en anglais.
 
-Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*Libre, comme dans « liberté »*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
+Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"; in FR:*Libre, comme dans « liberté »*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
 
 Richard Stallman critique ouvertement l’usage du terme "open source", qu’il juge trop neutre, voire dépolitisé. Il insiste sur le terme "logiciel libre" pour souligner que la question centrale n’est pas technique, mais sociale : celle de la liberté des utilisateurs.
 
@@ -2052,7 +2052,7 @@ En vérifiant à la fois l’authenticité (c’est-à-dire que le fichier d’i
 
 #### Les solutions techniques : hash et signature numérique
 
-Pour ce faire nous allons utiliser 2 outils cryptographiques. Le premier est le hashage. Un hash est une courte chaîne de caractères calculée de manière déterministe et imprédictible à partir du contenu d’un fichier, à l’aide d’un algorithme de hashage comme SHA-256. Deux fichiers strictement identiques auront exactement le même hash, mais à la moindre modification de ce fichier, le hash changera complètement.
+Pour ce faire nous allons utiliser 2 outils cryptographiques. Le premier est le hachage. Un hash est une courte chaîne de caractères calculée de manière déterministe et imprédictible à partir du contenu d’un fichier, à l’aide d’un algorithme de hachage comme SHA-256. Deux fichiers strictement identiques auront exactement le même hash, mais à la moindre modification de ce fichier, le hash changera complètement.
 
 Le développeur légitime publie généralement le hash du fichier original sur son site officiel. De votre côté, vous allez calculer localement le hash du fichier d’installation que vous avez téléchargé, afin de comparer les deux. Si les deux empreintes correspondent, alors vous avez la certitude que le fichier téléchargé est bien intègre et n’a pas été altéré.
 
@@ -2060,7 +2060,7 @@ Le second outil est la signature numérique. Elle permet de vérifier l’authen
 
 Ce système repose sur la cryptographie asymétrique et des outils comme GnuPG (en ligne de commande) ou Kleopatra (interface graphique pour Windows). Ces outils doivent être bien configurés, et la clé publique du développeur doit être vérifiée via un canal sûr (site officiel, fingerprint sur Twitter...). Voyons ensemble comment faire concrètement.
 
-Pour en savoir plus sur les fonctions de hashage cryptographiques et les signatures numériques, je vous invite à suivre le cours gratuit CYP 201 proposé sur Plan ₿ Network :
+Pour en savoir plus sur les fonctions de hachage cryptographiques et les signatures numériques, je vous invite à suivre le cours gratuit CYP 201 proposé sur Plan ₿ Network :
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
@@ -2188,7 +2188,7 @@ Comparez ensuite le résultat avec la valeur correspondante dans le fichier "_sp
 
 ![Image](assets/fr/231.webp)
 
-Dans mon cas, on voit que les deux hashages correspondent parfaitement.
+Dans mon cas, on voit que les deux hachages correspondent parfaitement.
 
 Sous macOS et Linux, le processus de vérification des hashs est automatisé : il n’est donc pas nécessaire de comparer manuellement les deux empreintes comme cela peut être le cas sous Windows.
 
@@ -2204,7 +2204,7 @@ Remplacez `[file_name]` par le nom du fichier authentifié contenant les hashs
 shasum --check sparrow-2.0.0-manifest.txt --ignore-missing
 ```
 
-Si les hashages correspondent, vous devriez avoir en sortie :
+Si les hachages correspondent, vous devriez avoir en sortie :
 
 ```bash
 Sparrow-2.0.0.dmg: OK

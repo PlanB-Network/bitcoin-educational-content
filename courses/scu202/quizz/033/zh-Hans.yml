@@ -1,0 +1,9 @@
+question: 必须在 UEFI 中启用什么机制才能防止在启动时执行无符号代码？
+answer: 安全启动
+wrong_answers:
+  - 快速启动
+  - 快速启动
+  - 可信平台模块（TPM）
+explanation: |
+  安全启动可确保只有经过验证的软件才能启动系统，从而限制引导工具包/rootkit 感染的风险。
+reviewed: false

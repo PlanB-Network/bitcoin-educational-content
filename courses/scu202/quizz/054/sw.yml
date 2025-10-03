@@ -1,0 +1,9 @@
+question: Ni maelezo gani yanaweza kupatikana katika metadata ya EXIF ya picha?
+answer: Tarehe, saa, nafasi ya GPS, muundo wa kifaa, mwandishi
+wrong_answers:
+  - Msimbo wa chanzo wa programu dhibiti wa kamera
+  - Nenosiri la Wi-Fi la mpiga picha
+  - Matokeo ya hivi karibuni ya antivirus
+explanation: |
+  Metadata ya EXIF ya picha mara nyingi huwa na maelezo ya kina ya muktadha kuhusu picha na kamera.
+reviewed: false

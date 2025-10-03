@@ -1,0 +1,9 @@
+question: Какой тип протокола должен быть активирован для шифрования DNS-запросов в масштабах локальной сети?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS через HTTPS) и DoT (DNS через TLS) шифруют DNS-запросы, предотвращая их перехват.
+reviewed: false

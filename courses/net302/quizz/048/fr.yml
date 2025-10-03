@@ -1,0 +1,9 @@
+question: À quelle couche du modèle OSI l’adresse MAC appartient-elle ?
+answer: Couche liaison de données
+wrong_answers:
+  - Couche application
+  - Couche transport
+  - Couche réseau
+explanation: |
+  L’adresse MAC opère à la couche 2 du modèle OSI, dite "couche liaison de données", où elle sert à l’adressage matériel des trames.
+reviewed: false

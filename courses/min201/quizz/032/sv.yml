@@ -1,0 +1,11 @@
+question: Vad är belöningen för gruvarbetare i Bitcoin-nätverket?
+answer: Nya bitcoins och transaktionsavgifter.
+wrong_answers:
+  - Endast nya bitcoins.
+  - Endast transaktionsavgifter.
+  - Det finns ingen belöning för gruvarbetare.
+explanation: |
+  Utvinnare i Bitcoin-nätverket belönas med nya bitcoins
+  bitcoins och transaktionsavgifter för sitt arbete med att validera
+  och skapa block.
+reviewed: true

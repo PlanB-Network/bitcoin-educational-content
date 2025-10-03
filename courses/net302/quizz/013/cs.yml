@@ -1,0 +1,9 @@
+question: Která organizace přiděluje čísla verzí protokolu IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Úřad IANA (Internet Assigned Numbers Authority) spravuje čísla verzí protokolů IP a přidělování rozsahů protokolů.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle pratique est essentielle pour limiter l’exposition de vos données lors de la navigation internet ?
+answer: Supprimer régulièrement les cookies
+wrong_answers:
+  - Garder tous les cookies
+  - Désactiver le mode privé du navigateur
+  - Utiliser un navigateur obsolète
+explanation: |
+  Supprimer ou limiter les cookies permet de réduire le suivi publicitaire et de préserver la confidentialité lors de la navigation web.
+reviewed: false

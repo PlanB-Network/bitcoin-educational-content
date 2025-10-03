@@ -1,5 +1,5 @@
 ---
-name: Spurv Wallet
+name: Sparrow Wallet
 description: Installere, konfigurere og bruke Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -332,7 +332,7 @@ Når transaksjonen har blitt sendt av betaleren, vises den under fanen "*Transak
 
 ![Image](assets/fr/45.webp)
 
-Under fanen "*Adresser*" finner du en liste over alle innboksadressene dine. Du kan se om de allerede er brukt, og om det er lagt til en etikett. *"*Mottak*"-adressene er de Sparrow viser når du klikker på "*Mottak*", og de er beregnet på innkommende betalinger. "*Change*"-adressene brukes til Exchange i transaksjonene dine, dvs. for å få tilbake den ubrukte delen av UTXO-ene dine i inngående betalinger.
+Under fanen **Adresser** finner du en liste over alle innboksadressene dine. Du kan se om de allerede er brukt, og om det er lagt til en etikett. **Mottak**-adressene er de Sparrow viser når du klikker på **Mottak**, og de er beregnet på innkommende betalinger. **Change**-adressene brukes til Exchange i transaksjonene dine, dvs. for å få tilbake den ubrukte delen av UTXO-ene dine i inngående betalinger.
 
 ![Image](assets/fr/46.webp)
 

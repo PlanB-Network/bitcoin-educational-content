@@ -1,0 +1,10 @@
+question: Vad är den maximala entropin för en transaktion?
+answer: Den högsta entropi som en transaktionsstruktur kan uppnå.
+wrong_answers:
+  - Den lägsta entropi som en transaktionsstruktur kan uppnå.
+  - Den faktiska entropin för en transaktion.
+  - Effektiviteten i en transaktion.
+explanation: |
+  Med maximal entropi avses den högsta entropi som en viss transaktionsstruktur teoretiskt kan uppnå.
+  
+reviewed: false

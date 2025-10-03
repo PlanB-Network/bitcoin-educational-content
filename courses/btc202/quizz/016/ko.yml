@@ -1,0 +1,9 @@
+question: 2023년 이 역할이 폐지되기 전 마지막 Bitcoin core 메인 유지 관리자는 누구였나요?
+answer: 블라디미르 J. 반 데어 란
+wrong_answers:
+  - 개빈 안드레센
+  - 피터 우일
+  - Satoshi 나카모토
+explanation: |
+  개빈 안드레센의 후임으로 2014년부터 2023년까지 이 역할을 맡았던 블라디미르 반 데어 란(Wladimir J. Van Der Laan)이 이 직책을 그만두기 전까지는 이 직책을 맡았습니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilken amerikansk utvecklare upptäckte ett märkligt block under värdeöverflödesincidenten den 15 augusti 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Detta block, som utnyttjade en brist, skapade över 184 miljarder bitcoins.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vem publicerade vitboken Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Vitboken publicerades i slutet av 2008 av Satoshi Nakamoto (en pseudonym).
+reviewed: false

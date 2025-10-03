@@ -1,0 +1,9 @@
+question: Que aplicação VPN de código aberto permite a criação de contas anónimas sem e-mail e aceita pagamentos Bitcoin?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  O Mullvad VPN destaca-se pela criação de contas totalmente anónimas, sem necessidade de e-mail ou palavra-passe, e aceita pagamentos em Bitcoin ou dinheiro.
+reviewed: false

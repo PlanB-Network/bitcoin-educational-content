@@ -1,0 +1,32 @@
+id: 83e1161e-22bd-45ad-872a-73a0ad6014ee
+
+name: Gridless
+
+address_line_1: Nairobi, Kenya
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://gridlesscompute.com/
+  twitter: https://x.com/GridlessCompute
+  Github: 
+  youtube: 
+
+category: mining
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - mining
+  - bitcoin
+  - energy
+
+contributor_names:
+  - Gloirew

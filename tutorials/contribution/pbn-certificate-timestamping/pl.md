@@ -1,5 +1,5 @@
 ---
-name: Oznaczanie czasem certyfikatów i dyplomów Plan ₿ Network
+name: Oznaczanie czasem dyplomów Plan ₿ Network
 description: Dowiedz się, w jaki sposób Plan ₿ Network wydaje weryfikowalne dowody dla Twoich certyfikatów i dyplomów
 ---
 

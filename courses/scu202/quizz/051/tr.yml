@@ -1,0 +1,9 @@
+question: Bir görüntü veya PDF dosyasından tüm meta verileri kaldırmak için Linux için hangi komut satırı aracı önerilir?
+answer: exiftool
+wrong_answers:
+  - not defteri
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool, çok çeşitli dosyalardan (görüntüler, PDF'ler, ses vb.) meta verileri görüntülemek ve kaldırmak için güçlü bir araçtır.
+reviewed: false

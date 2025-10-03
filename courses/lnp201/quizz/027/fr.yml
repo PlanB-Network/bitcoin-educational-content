@@ -6,4 +6,4 @@ wrong_answers:
   - Elle empêche d'utiliser la clé de révocation
 explanation: |
   La fermeture forcée est moins souhaitable car elle inclut un timelock, ce qui ralentit le processus, et les frais peuvent être inadaptés puisqu'ils ont été définis au moment de la création du canal.
-reviewed: false
+reviewed: true 

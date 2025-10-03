@@ -1,0 +1,9 @@
+question: Koja velika sigurnosna greška izlaže curenje podataka domino efektu?
+answer: Ponovno korišćenje iste lozinke na više sajtova
+wrong_answers:
+  - Korišćenje javnog VPN-a
+  - Prečesto brisanje istorije pretrage
+  - Krećite se u tekstualnom režimu
+explanation: |
+  Ponovno korišćenje lozinke na različitim sajtovima omogućava napadaču, u slučaju kompromitovanja servisa, pristup drugim nalozima sa istom lozinkom.
+reviewed: false

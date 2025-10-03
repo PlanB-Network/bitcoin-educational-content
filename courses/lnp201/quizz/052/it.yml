@@ -5,5 +5,5 @@ wrong_answers:
   - LNURL
   - CoinSwap
 explanation: |
-  Il servizio Loop Out di Lightning Labs consente il trasferimento di fondi da un canale Lightning alla blockchain on-chain, ottimizzando così la capacità di ricezione mentre si recuperano bitcoin sulla catena principale.
-reviewed: false
+  Il servizio Loop Out di Lightning Labs consente il trasferimento di fondi da un canale Lightning alla blockchain, ottimizzando così la capacità di ricezione mentre si recuperano bitcoin on-chain.
+reviewed: true

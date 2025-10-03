@@ -1,0 +1,10 @@
+question: Varför kan inte koordinatorn ändra CoinJoin-transaktionen efter att ha samlat in signaturer från alla deltagare?
+answer: Att ändra den skulle ogiltigförklara transaktionen.
+wrong_answers:
+  - De har inte tillgång till deltagarnas mottagningsadresser.
+  - Signaturerna är krypterade.
+  - Transaktionen har redan sänts ut i Bitcoin-nätverket.
+explanation: |
+  När deltagarna har undertecknat hela transaktionen, efter att ha försäkrat sig om att allt är korrekt, kan samordnaren inte längre ändra denna transaktion, inklusive utdata, utan att ogiltigförklara den, eftersom undertecknandet omfattar hela transaktionen.
+  
+reviewed: false

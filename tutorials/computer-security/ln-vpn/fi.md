@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: VPN:n asennus
+description: Määritä LN VPN Lightningin kanssa anonyymiä ja räätälöityä VPN:ää varten
 ---
 
 ![kuva](assets/cover.webp)

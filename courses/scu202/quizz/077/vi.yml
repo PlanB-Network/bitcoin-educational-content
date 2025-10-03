@@ -1,0 +1,9 @@
+question: Ứng dụng Shelter dành cho Android là gì?
+answer: Tạo một hồ sơ riêng biệt để phân vùng sử dụng
+wrong_answers:
+  - Tự động mã hóa tất cả dữ liệu điện thoại
+  - Chặn cuộc gọi không mong muốn
+  - Cài đặt ứng dụng bên ngoài Cửa hàng Play
+explanation: |
+  Shelter cho phép bạn sử dụng chức năng Hồ sơ công việc để phân tách các ứng dụng và dữ liệu trong một không gian riêng biệt.
+reviewed: false

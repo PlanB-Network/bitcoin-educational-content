@@ -1,5 +1,5 @@
 ---
-name: Chat SimpleX
+name: SimpleX Chat
 description: La prima mailbox senza ID utente
 ---
 ![cover](assets/cover.webp)
@@ -30,25 +30,25 @@ SimpleX integra tutte le caratteristiche classiche delle applicazioni di messagg
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| **SimpleX**          | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | **✅**          | **✅**          | **✅**               | **✅**                      | **❌**                       | **❌**                | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Applicazione         | E2EE 1:1       | E2EE gruppi    | Registrazione anonima | Licenza client open-source | Licenza server open-source | Server decentralizzato   | Anno di creazione |
+| -------------------- | -------------- | -------------- | --------------------- | -------------------------- | -------------------------- | ------------------------ | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                     | ❌                          | ❌                          | ❌                        | 2009              |
+| WeChat               | ❌              | ❌              | ❌                     | ❌                          | ❌                          | ❌                        | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (opzionale) | ❌                     | ❌                          | ❌                          | ❌                        | 2011              |
+| Telegram             | 🟡 (opzionale) | ❌              | 🟡                    | ✅                          | ❌                          | ❌                        | 2013              |
+| LINE                 | ✅              | ✅              | ❌                     | ❌                          | ❌                          | ❌                        | 2011              |
+| Signal               | ✅              | ✅              | ❌                     | ✅                          | ✅                          | ❌                        | 2014              |
+| Threema              | ✅              | ✅              | ✅                     | ✅                          | ❌                          | ❌                        | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                     | ✅                          | ✅                          | 🟡 (federato)           | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                     | ✅                          | N/A                        | 🟡 (tramite email)      | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                     | ✅                          | ✅                          | 🟡 (federato)           | 2014              |
+| Session              | ✅              | ✅              | ✅                     | ✅                          | ✅                          | ✅                        | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                     | ✅                          | ✅                          | ✅                        | 2021              |
+| Olvid                | ✅              | ✅              | ✅                     | ✅                          | ❌                          | 🟡(nessuna directory)   | 2019              |
+| Keet                 | ✅              | ✅              | ✅                     | ❌                          | N/A                        | ✅                        | 2022              |
+| Jami                 | ✅              | ✅              | ✅                     | ✅                          | N/A                        | ✅                        | 2005              |
+| Briar                | ✅              | ✅              | ✅                     | ✅                          | N/A                        | ✅                        | 2018              |
+| Tox                  | ✅              | ✅              | ✅                     | ✅                          | N/A                        | ✅                        | 2013              |
 
 *E2EE = crittografia end-to-end*
 
@@ -243,7 +243,7 @@ SimpleX genera quindi un link monouso. È possibile inoltrarlo al proprio contat
 
 
 
-È inoltre possibile scegliere quale profilo associare a questo link di invito. Per farlo, cliccate sul vostro profilo appena sotto il codice QR. Sarà quindi possibile :
+È inoltre possibile scegliere quale profilo associare a questo link di invito. Per farlo, cliccate sul vostro profilo appena sotto il codice QR. Sarà quindi possibile:
 
 
 
@@ -313,7 +313,7 @@ Una delle caratteristiche più potenti di SimpleX è la possibilità di gestire 
 
 
 
-Ad esempio, si può creare un file :
+Ad esempio, si può creare un file:
 
 
 

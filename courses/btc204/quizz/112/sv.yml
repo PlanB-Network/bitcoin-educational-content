@@ -1,0 +1,10 @@
+question: Vilken är medarbetarens roll i en Stonewall x2-transaktion?
+answer: Tillhandahålla bitcoins för att lägga till tvivel
+wrong_answers:
+  - Fungera som transaktionskoordinator
+  - Ta emot betalningsbeloppet
+  - Skicka betalningsbeloppet
+explanation: |
+  Samarbetspartnern i en Stonewall x2-transaktion tillhandahåller bitcoins för att lägga till tvivel i transaktionsanalysen, samtidigt som de återfår sina medel fullt ut i slutet (en neutral åtgärd för dem, minus Mining-avgifterna).
+  
+reviewed: false

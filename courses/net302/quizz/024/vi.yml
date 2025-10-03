@@ -1,0 +1,9 @@
+question: Vai trò chính của giao thức TCP trong mô hình TCP/IP là gì?
+answer: Đảm bảo truyền dữ liệu đáng tin cậy và có trật tự
+wrong_answers:
+  - Mã hóa thông tin liên lạc mạng
+  - Gán địa chỉ IP cho máy
+  - Phân mảnh dữ liệu ở cấp độ vật lý
+explanation: |
+  TCP đảm bảo truyền dữ liệu đáng tin cậy bằng cách xác minh tính toàn vẹn, duy trì thứ tự và xử lý khôi phục trong trường hợp mất dữ liệu.
+reviewed: false

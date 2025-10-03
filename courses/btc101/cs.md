@@ -35,7 +35,7 @@ Protokol využívá základní technologie, jako je kryptografie, síťová komu
 
 V tomto kurzu probereme některé peněžní aspekty bitcoinu, včetně toho, jak bitcoiny nakupovat a prodávat, bezpečně je ukládat do digitálních peněženek a používat je k transakcím. Prozkoumáme také úlohu těžařů, kteří jsou nezbytní pro vytváření nových bitcoinů a zabezpečení sítě Bitcoin. Nakonec se budeme zabývat budoucností Bitcoinu a tím, jak může technologie Lightning Network vylepšit bitcoinové transakce.
 
-![image](assets/en/01.webp)
+![image](assets/cs/001.webp)
 
 Je nutné si uvědomit, že Bitcoin je nový peněžní systém, který zcela mění náš vztah k penězům, takže naučit se ho používat je nezbytnou dovedností pro každého, kdo chce mít kontrolu nad svými vlastními prostředky.
 
@@ -77,11 +77,13 @@ Než se seznámíme s definicí peněz a jejich funkcí ve společnosti (kapitol
 
 Koneckonců jsme teprve v počáteční fázi jeho zavádění, protože jsme prošli fází startu: máte právě čas získat tolik znalostí, kolik si přejete o této důležité inovaci.
 
-![image](assets/en/02.webp)
+![image](assets/cs/002.webp)
 
 Důležité je pochopit tuto novou technologii v obecné rovině, takže doufáme, že se vám tento kurz bude líbit a budete pokračovat v pokroku v tomto novém globálním měnovém paradigmatu.
 
 Připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
+
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
 
 ## Prehistorie bitcoinu
 
@@ -91,7 +93,7 @@ Než se pojem "bitcoin" stal synonymem pro digitální měnu a finanční transf
 
 ### Cypherpunkeři: vizionáři digitálního světa
 
-![image](assets/en/03.webp)
+![image](assets/cs/003.webp)
 
 V centru technologického vývoje 80. a 90. let 20. století začala skupina lidí hluboce zpochybňovat roli soukromí a svobody v digitálním věku. Tito lidé, kteří byli později známí jako "cypherpunkeři", pevně věřili, že kryptografie může sloužit jako nástroj ochrany práv jednotlivce před zásahy vlád a velkých korporací.
 
@@ -99,7 +101,7 @@ Ikonické osobnosti jako Julian Assange, Wei Dai, Tim May a David Chaum hrály k
 
 ### Tři základní dokumenty Cypherpunků
 
-![image](assets/en/04.webp)
+![image](assets/cs/004.webp)
 
 Hnutí cypherpunk, které má hluboké kořeny v digitálním aktivismu a kryptografii, vychází z několika základních textů, v nichž formuluje své zásady a vizi budoucnosti. Mezi těmito spisy vynikají zejména tři:
 
@@ -123,7 +125,7 @@ Dalším důležitým předchůdcem jsou "B-peníze" Wei Daie. Ačkoli nebyl nik
 
 Následující obrázek jasně ilustruje vývoj hnutí prostřednictvím mnoha technologických inovací.
 
-![image](assets/en/05.webp)
+![image](assets/cs/005.webp)
 
 Právě v tomto plodném prostředí zveřejnil tajemný Satoshi Nakamoto v roce 2008 whitepaper Bitcoinu. V tomto dokumentu zkombinoval několik myšlenek z hnutí cypherpunk, jako jsou důkaz práce a kryptografické časové značky, a vytvořil decentralizovanou digitální měnu odolnou vůči cenzuře.
 
@@ -151,7 +153,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Vývoj peněz je fascinujícím aspektem lidských dějin, který odráží vynalézavost civilizací v průběhu věků při uspokojování neustále se vyvíjejících ekonomických potřeb.
 
-![image](assets/en/06.webp)
+![image](assets/cs/006.webp)
 
 ### Od skořápek k bankovním účtům
 
@@ -159,7 +161,7 @@ Původně bylo měnou hmotné aktivum, například obilí, dobytek nebo jiná ko
 
 S rozvojem civilizací a rozšiřováním obchodu do nových oblastí tak vznikla potřeba univerzálního prostředku směny. Jednotlivci nejprve experimentovali s předměty, jako jsou mušle a drahé kameny, ale ty nebyly tak trvanlivé a vzácné, jak se domnívali. Nakonec se standardem stalo zlato, a to díky své vzácnosti, trvanlivosti a dělitelnosti. Bylo a dodnes je symbolem bohatství a moci.
 
-![image](assets/en/07.webp)
+![image](assets/cs/007.webp)
 
 ### Jakou roli hrají peníze?
 
@@ -176,11 +178,11 @@ Z těchto důvodů je zlato jako peníze výsledkem 4000 let trvajícího peně�
 - Prostředek směny\*\*: peníze lze použít při směně zboží a služeb namísto směnného obchodu, čímž se zamezí shodě přání mezi obchodníky;
 - Zúčtovací jednotka\*\*: peníze nám také umožňují porovnávat hodnoty různých statků, abychom lépe pochopili jejich relativní výhodnost.
 
-![image](assets/en/08.webp)
+![image](assets/cs/008.webp)
 
-![image](assets/en/09.webp)
+![image](assets/cs/009.webp)
 
-![image](assets/en/10.webp)
+![image](assets/cs/010.webp)
 
 ### Charakteristika peněz
 
@@ -190,7 +192,7 @@ Naopak státní fiduciární měny (fiat) jsou snadno použitelné, ale jsou neu
 
 Abychom tento pojem lépe vysvětlili, prozkoumáme charakteristiky efektivní měny:
 
-![image](assets/en/11.webp)
+![image](assets/cs/011.webp)
 
 - Fungibilita\*\*, což znamená, že je zaměnitelná s jinou jednotkou stejného druhu bez ztráty hodnoty;
 - Dělitelnost\*\*, protože ji lze rozdělit na menší jednotky a usnadnit tak transakce s různými objemy;
@@ -219,7 +221,7 @@ Dnes jsou hlavní měny, jako je euro a dolar, považovány za fiduciární. To 
 
 Fiduciární měna je forma peněz, která je jako taková stanovena institucí, tj. státem, jako je Čína s jüanem, nebo politicko-ekonomickou unií, jako je Evropská unie s eurem. Subjektem odpovědným za její emisi je centrální banka (Můžeme zmínit například Čínskou lidovou banku, Federální rezervní systém Spojených států nebo Centrální banku Guinejské republiky). Právě tyto subjekty mají na starosti formulování měnové politiky, a tedy i to, kolik peněz se má dát do oběhu nebo vytisknout.
 
-![image](assets/en/12.webp)
+![image](assets/cs/012.webp)
 
 ### Devalvace měny: strategie stará jako Římská říše
 
@@ -229,7 +231,7 @@ Mechanismus je jednoduchý a je inspirován postupy, které existují od počát
 
 Tito představitelé však poté začnou novou měnu postupně znehodnocovat a de facto každý rok snižují její hodnotu o několik procent oproti původní ceně zlata. Tato tichá devalvace je často zdůvodňována tím, že je v zájmu lidu. Ve skutečnosti ti, kteří si v této fiduciární měně spoří, vidí, jak hodnota jejich úspor klesá, zatímco stát financuje své projekty prostřednictvím inflace. Navíc tato devalvace usnadňuje splácení dluhů.
 
-![image](assets/en/13.webp)
+![image](assets/cs/013.webp)
 
 V kritickém okamžiku vůdce oznámí: měna již není kryta zlatem. Veřejnost, která je nyní zvyklá na fiduciární měnu a je často špatně informována o finančních záležitostech, tuto skutečnost akceptuje, což státu umožňuje volně manipulovat s peněžní zásobou a tisknout obrovské množství peněz téměř bez nákladů.
 
@@ -241,17 +243,16 @@ Nakonec se může stát, že měna již nebude mít žádnou vazbu na zlato, pod
 
 Dnes jsme svědky historického zlomu. Zdá se, že dolar, který dlouho dominoval, je na ústupu, zatímco zlato ztratilo svou ústřední roli. Stojíme na prahu nového měnového cyklu, který nám připomíná, že poučení z historie se často zapomíná
 
-![image](assets/en/14.webp)
+![image](assets/cs/014.webp)
 
 ### Je Bitcoin řešením?
 
 Díky těmto předpokladům nabývá bitcoinová revoluce na síle. Na rozdíl od předchozích měn nevyžaduje **žádnou důvěryhodnou třetí stranu** a jeho cílem je oddělit stát od peněz.
 
-![image](assets/en/15.webp)
 
 Bitcoin se ve skutečnosti prezentuje jako reakce na tyto systémové problémy tím, že navrhuje decentralizované řešení a nový paralelní měnový systém. Pokud bylo historicky zlato jako měna upřednostňováno díky své odolnosti vůči padělání, Bitcoin podobně nelze padělat. Navíc je díky své decentralizované a kryptografické povaze omezen na 21 milionů jednotek. Bitcoin je měna, která si zakládá na transparentnosti a neutralitě, a nabízí tak atraktivní alternativu k současnému centralizovanému měnovému systému.
 
-![image](assets/en/16.webp)
+![image](assets/cs/015.webp)
 
 Dalším důvodem, proč si bitcoin získal pozornost, je vznik digitálních měn centrálních bank neboli CBDC, který se zdá být nevyhnutelný. Tato nová forma peněz by rozvíjela centrálně plánovanou ekonomiku a mohla by bránit finanční svobodě jednotlivců i usnadňovat autoritářské zneužívání.
 
@@ -280,11 +281,11 @@ Když nastane hyperinflace, nemluvíme již o 20 % ročně, ale spíše o 20 % m
 
 Je důležité si uvědomit, že hyperinflace nevzniká náhodou, díky kapitalismu nebo politickým útokům odpůrců. Hyperinflace je přímým důsledkem špatných měnových rozhodnutí centrálních bankéřů a politiků. Její následky ovlivňují každého občana a mají dopad i na další generace. Vyzýváme vás, abyste věnovali pět minut čtení následující tabulky, abyste si plně uvědomili skutečný dopad tohoto jevu (kurz ECO204 se tímto tématem dále zabývá). Jak vidíte, žádná země ani měna není potenciálně bezpečná.
 
-![image](assets/en/17.webp)
+![image](assets/cs/016.webp)
 
 ### Jaké jsou fáze hyperinflace?
 
-![image](assets/en/18.webp)
+![image](assets/cs/017.webp)
 
 Aby došlo k hyperinflaci, musí dojít k určitým událostem.
 
@@ -300,7 +301,7 @@ Fáze 3 - Začarovaný kruh tisku peněz
 
 - K nákupu zboží je tedy zapotřebí stále více bankovek, což vede k nedostatku papírových peněz. V reakci na to se vlády uchylují k tisku dalších bankovek, což ještě více podporuje inflaci.
 
-![image](assets/en/19.webp)
+![image](assets/cs/018.webp)
 
 Fáze 4 - Vznik nové měny
 
@@ -320,7 +321,7 @@ Německá měna se stala tak zbytečnou, že někteří občané raději pálili
 
 Nakonec úřady vytvořily novou měnu, která byla kryta dluhy Německa, Francie a Anglie a zaručena německou půdou.
 
-![image](assets/en/20.webp)
+![image](assets/cs/019.webp)
 
 - Maďarsko, 1945-1946
 
@@ -330,7 +331,7 @@ Maďarsko se ocitlo na straně poražených a většina jeho průmyslových výr
 
 Poslední bankovkou, která byla uvedena do oběhu, byla v roce 1946 bankovka v hodnotě 100 milionů miliard pengo (100 000 000 000 000 000 000).
 
-![image](assets/en/21.webp)
+![image](assets/cs/020.webp)
 
 - Zimbabwe, 2007-2008
 
@@ -342,7 +343,6 @@ Vláda již v červnu 2007 reagovala zavedením cenových kontrol, ale toto opat
 
 V dubnu 2009 ministr financí oznámil pozastavení platnosti zimbabwského dolaru a povolil používání různých zahraničních měn pro obchod. Zůstatky na účtech všech bank, penzijních fondů a finančních institucí se přes noc vypařily.
 
-![image](assets/en/15.webp)
 
 Závěrem lze říci, že hyperinflace má za následek rychlé snížení hodnoty měny, což vede k erozi úspor a ztrátě důvěry v měnový systém. Jak kdysi naznačil Voltaire, fiat měna nakonec vždy ztratí svou vnitřní hodnotu a konverguje k nule.
 
@@ -360,7 +360,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Bitcoin je decentralizovaná digitální měna s předem definovaným maximálním množstvím **21 milionů jednotek**. Tato vnitřní vlastnost vzácnosti je určena jejím počítačovým kódem a posílena konsensem všech uživatelů zapojených do protokolu.
 
-![image](assets/en/22.webp)
+![image](assets/cs/021.webp)
 
 Jeho peněžní emisi lze znázornit křivkou, která představuje množství bitcoinů vytvořených v průběhu času. Například v roce 2022 bylo v oběhu přibližně 18,5 milionu bitcoinů. Podle prognóz bude v roce 2025 v oběhu přibližně 19,5 milionu bitcoinů, což představuje přibližně 93 % celkové nabídky, a v roce 2037 dosáhne tento počet 20,4 milionu.
 
@@ -368,53 +368,32 @@ Jeho peněžní emisi lze znázornit křivkou, která představuje množství bi
 
 Výsledkem procesu těžby je vznik nových bitcoinů. Stručně řečeno, těžaři používají výkonné počítače, které řeší složité matematické problémy, jimiž ověřují a zabezpečují transakce. Jakmile je problém vyřešen, těžař přidá nový blok transakcí do blockchainu, decentralizované a distribuované účetní knihy, která zaznamenává všechny transakce provedené v síti. Řetězec bloků zajišťuje transparentnost a bezpečnost, protože každý blok je propojen s předchozím, takže je téměř nemožné změnit minulá data bez konsensu sítě.
 
-![image](assets/en/23.webp)
+![image](assets/cs/022.webp)
 
 Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "halving"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
 
-| Číslo půlení | Výška bloku | Odměna za BTC po půlení | Odhadovaný počet BTC v oběhu po půlení |
-
+| Číslo půlení | Výška bloku | Odměna za BTC po půlení  | Odhadovaný počet BTC v oběhu po půlení |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 | 210 000 | 25 BTC | 10 500 000 BTC |
-
-| 2 | 420 000 | 12,5 BTC | 15 750 000 BTC |
-
-| 3 | 630 000 | 6,25 BTC | 18 375 000 BTC |
-
-| 4 | 840 000 | 3,125 BTC | 19 687 500 BTC |
-
-| 5 | 1 050 000 | 1,5625 BTC | 20 343 750 BTC |
-
-| 6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC |
-
-| 7 | 1 470 000 | 0,390625 BTC | 20 835 937,5 BTC |
-
-| 8 | 1 680 000 | 0,1953125 BTC | 20 917 968,75 BTC |
-
-| 9 | 1 890 000 | 0,09765625 BTC | 20 958 984,375 BTC |
-
-| 10 | 2 100 000 | 0,048828125 BTC | 20 979 492,188 BTC |
-
-| 11 | 2 310 000 | 0,0244140625 BTC | 20 989 746,094 BTC |
-
-| 12 | 2 520 000 | 0,01220703125 BTC | 20 994 873,047 BTC |
-
-| 13 | 2 730 000 | 0,006103515625 BTC | 20 997 436,523 BTC |
-
-| 14 | 2 940 000 | 0,0030517578125 BTC | 20 998 718 262 BTC |
-
-| 15 | 3 150 000 | 0,00152587890625 BTC | 20 999 359,131 BTC |
-
-| 16 | 3 360 000 | 0,000762939453125 BTC | 20 999 679,566 BTC |
-
-| 17 | 3 570 000 | 0,0003814697265625 BTC | 20 999 839,783 BTC |
-
-| 18 | 3 780 000 | 0,00019073486328125 BTC | 20 999 919,892 BTC |
-
-| 19 | 3 990 000 | 0,000095367431640625 BTC | 20 999 959,946 BTC |
-
-| 20 | 4 200 000 | 0,0000476837158203125 BTC | 20 999 979,973 BTC |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Ke konceptu těžby se podrobněji vrátíme v kapitole [miner](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
@@ -426,7 +405,7 @@ Limit 21 milionů je základem nedostatku bitcoinů a je zaručen dvěma klíčo
 
 Obtížnost nalezení platného hashe se řídí určitým cyklem: pokud se počet těžařů zvyšuje, znamená to, že počet nalezených bloků je vyšší, což vede ke snížení průměrné doby nalezení bloku. Kvůli tomu se zvyšuje obtížnost. V důsledku toho se snižuje počet bloků, které těžaři najdou, což znamená, že se mechanismus vrací k průměrné hodnotě 10 minut na blok. Vizuální zobrazení naleznete na obrázku níže.
 
-![image](assets/en/24.webp)
+![image](assets/cs/023.webp)
 
 Věděli jste, že těžaři jsou motivováni k těžbě bloku, aby získali nové bitcoiny prostřednictvím blokové dotace a také transakčních poplatků z transakcí, které do daného bloku zahrnou?
 
@@ -434,7 +413,7 @@ Jakmile se tedy počet vydaných bitcoinů přiblíží hranici 21 milionů, bud
 
 - Teorie her je matematický koncept, který se opírá o lidskou racionalitu. Předpokládá, že jednotlivci jednají logicky a snaží se maximalizovat svůj vlastní prospěch, přičemž berou v úvahu možná rozhodnutí ostatních. V Bitcoinu pomáhá teorie her zajistit, aby většina těžařů a uživatelů jednala v nejlepším zájmu sítě. Vzhledem k tomu, že o změnách protokolu hlasují uživatelé, by totiž jakákoli změna protokolu Bitcoinu vyžadovala souhlas celé komunity uživatelů, což je velmi složité. Pokud by tedy někdo chtěl vytvořit bitcoin za 22 milionů, musel by přesvědčit všechny uživatele, aby dobrovolně znehodnotili své vlastní úspory, což je nepravděpodobné, protože Bitcoin je globální a není řízen centrální skupinou.
 
-![image](assets/en/25.webp)
+![image](assets/cs/024.webp)
 
 Myšlenka devalvace měny je v rozporu se základní filozofií Bitcoinu, takže změna jejího celkového množství je velmi nepravděpodobná.
 
@@ -461,7 +440,6 @@ Bitcoin zaručuje zdravou správu peněz tím, že omezuje jejich tvorbu, čím�
 
 Souhrnně lze říci, že Bitcoin díky své decentralizované povaze, naprogramovanému nedostatku a transparentnosti nabízí jedinečnou alternativu k tradičním peněžním systémům. Ukazuje, jak lze pomocí technologie vytvořit měnu, která je nejen užitečná a ověřitelná, ale také zachovává hodnotu úspor uživatelů tím, že přísně omezuje jejich nabídku.
 
-### Závěr oddílu 1!
 
 # Peněženky Bitcoin
 
@@ -485,7 +463,7 @@ Bitcoinová peněženka může mít mnoho podob: software v počítači, aplikac
 
 Portfolia lze tedy rozdělit do širokých skupin použití, které se vždy soustředí na klíčovou otázku: jste vlastníkem prostředků, nebo přenecháváte kontrolu nad svými penězi třetí straně? Tomuto tématu se budeme podrobně věnovat v další kapitole, ale otázka zůstává jednoduchá: jsou peníze ve vaší kapse, nebo v kapse vašeho bankéře?
 
-![image](assets/en/26.webp)
+![image](assets/cs/025.webp)
 
 ### Jak funguje peněženka Bitcoin?
 
@@ -507,13 +485,13 @@ Tyto adresy jsou automaticky vytvořeny vaší peněženkou a lze je bezpečně 
 
 Stručně řečeno, tato technologie nám umožňuje přijímat bitcoiny, aniž by příjemce mohl naše prostředky ukrást! Vhodnou metaforou by mohla být poštovní schránka: lidé do ní mohou vkládat peníze, ale vy jste jediný, kdo ji může otevřít.
 
-![image](assets/en/27.webp)
+![image](assets/cs/026.webp)
 
 ### Jsou bitcoiny v peněžence?
 
 Ačkoli jsou vaše klíče uloženy ve vaší peněžence, samotné bitcoiny jsou ve skutečnosti "uloženy" v bitcoinovém blockchainu, což je veřejná distribuovaná účetní kniha v rámci peer-to-peer sítě Bitcoin (podrobněji se jí budeme věnovat v části 3). To znamená, že ztráta zařízení obsahujícího vaši peněženku nemusí nutně vést ke ztrátě vašich bitcoinů. To, co vám umožní peněženku znovu vytvořit a utratit vaše bitcoiny, je ve skutečnosti soukromý klíč, takže ho vždy nezapomeňte řádně zabezpečit!
 
-![image](assets/en/28.webp)
+![image](assets/cs/027.webp)
 
 Od roku 2017 lze naštěstí soukromý klíč reprezentovat jednoduchým seznamem 12 nebo 24 slov, tzv. mnemotechnickou frází, kterou lze poměrně snadno uložit. Tato fráze slouží jako záloha vašich prostředků a umožňuje vám znovu vytvořit peněženku pomocí jakéhokoli softwaru nebo aplikace pro bitcoinovou peněženku. Kdokoli, kdo najde tento seznam slov, má tedy přístup k vašim bitcoinům.
 
@@ -521,7 +499,7 @@ Od roku 2017 lze naštěstí soukromý klíč reprezentovat jednoduchým sezname
 
 Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a 2 na 256, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
 
-![image](assets/en/29.webp)
+![image](assets/cs/028.webp)
 
 Pravděpodobnost hacknutí vaší peněženky s bitcoiny je tedy astronomicky nízká, pokud dodržujete správné bezpečnostní postupy, které podrobně popíšeme v následující části.
 
@@ -546,7 +524,7 @@ Pokud vlastníte bitcoiny, je bezpečnost vašich prostředků hlavním problém
 
 Ve skutečnosti neexistuje žádná univerzální odpověď nebo řešení, proto věnujte čas zodpovězení těchto otázek, protože vám to pomůže přizpůsobit bezpečnostní opatření vašim potřebám.
 
-![image](assets/en/30.webp)
+![image](assets/cs/029.webp)
 
 ### Přemýšlení o peněženkách Bitcoin z hlediska složitosti
 
@@ -554,7 +532,7 @@ Níže definujeme několik úrovní zabezpečení:
 
 - Na úrovni 0\*\* využíváte takzvanou "službu úschovy", kdy nejste jediným držitelem svých bitcoinů. Uvědomte si, že tato důvěryhodná třetí strana může kdykoli omezit váš přístup k vašim prostředkům. V tomto případě je úroveň vaší finanční suverenity podobná jako v tradičním bankovním systému s bankovním účtem.
 
-![image](assets/en/31.webp)
+![image](assets/cs/030.webp)
 
 - Na úrovni 1\*\* používáte bitcoinovou peněženku v telefonu nebo počítači, kde jste jediným držitelem svých bitcoinů a můžete snadno provádět transakce. Uvedený nástroj se označuje jako "horká peněženka", protože soukromý klíč je uložen v zařízení s přístupem k internetu. V tomto případě je zásadní zálohovat si mnemotechnickou frázi, abyste v případě ztráty telefonu nebo počítače znovu získali přístup ke svým finančním prostředkům.
 
@@ -572,7 +550,7 @@ https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672
 
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
-![image](assets/en/32.webp)
+![image](assets/cs/031.webp)
 
 - Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale přidali jste další přístupovou frázi. V takovém případě si uvědomte, že je třeba zálohovat jak seznam 12/24 slov **a\*\* vaši přístupovou frázi. V ideálním případě jsou tyto dvě informace uloženy na dvou různých místech.
 
@@ -580,11 +558,11 @@ Další informace o používání a fungování hesla BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![image](assets/en/33.webp)
+![image](assets/cs/032.webp)
 
 - Na úrovni 4\*\* vytvoříte pomocí sady peněženek "multisig peněženku", což znamená, že k provedení transakce je zapotřebí více podpisů. V tomto případě mějte na paměti, že každá část multisig by měla být uložena na jiném místě. Tento přístup je často považován za pokročilé využití Bitcoinu, především pro správu velkých částek a pro firemní účely.
 
-![image](assets/en/34.webp)
+![image](assets/cs/033.webp)
 
 Různé případy použití samozřejmě vyžadují také různé peněženky Bitcoin a neexistuje žádné univerzální řešení.
 
@@ -621,13 +599,13 @@ Měli byste si vzít doslova prázdný list papíru nebo si vytisknout tuto [ša
 
 Níže naleznete příklad sestavení dokumentu: slova jsou falešná, proto je nepoužívejte!
 
-![image](assets/en/35.webp)
+![image](assets/cs/034.webp)
 
 ### Naše tipy, jak to udělat správně
 
 Kromě toho dbejte na to, abyste při opisování neudělali žádnou chybu, jinak by vaši dědicové mohli mít problémy s jeho přečtením a nemohli by získat finanční prostředky zpět. Kromě toho je vhodné po uložení slov vytvořit druhou kopii a uložit ji na jiné místo než první. Tím si zajistíte zálohu pro případ ztráty nebo poškození originálu.
 
-![image](assets/en/36.webp)
+![image](assets/cs/035.webp)
 
 Seznamy slov by měly být uloženy na bezpečném místě, které si snadno zapamatujete. Vyvarujte se vytváření příliš složitých schovávacích plánů, které by mohly vést k jejich ztrátě.
 
@@ -653,7 +631,7 @@ Jednou z metod dlouhodobého zabezpečení bitcoinů je vyrytí mnemotechnické 
 
 K dispozici jsou různá řešení: některá z nich jsou levná, jako například "Blockmit", zatímco jiná mohou vyžadovat specializovanější vybavení. Toto téma můžete dále prozkoumat v sekci [tutoriály](https://planb.network/en/tutorials/wallet) naší akademie.
 
-![image](assets/en/37.webp)
+![image](assets/cs/036.webp)
 
 ### Myslete na další generace!
 
@@ -661,7 +639,7 @@ Vedle tohoto prvního postupu je vytvoření dědického plánu zásadním kroke
 
 Pokud se chcete tématu dědického plánu pro své bitcoiny věnovat hlouběji, doporučujeme přečíst si knihu Pamely Morganové [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) nebo se přihlásit do kurzu BTC102, kde vám poskytneme návod na vytvoření plánu.
 
-![image](assets/en/38.webp)
+![image](assets/cs/037.webp)
 
 ### Soukromí je důležité
 
@@ -699,27 +677,27 @@ Nyní, když jsme se seznámili se základy bitcoinových peněženek a nejlepš
 
 ### Začněme trochou historie.
 
-![image](assets/en/39.webp)
+![image](assets/cs/038.webp)
 
 31. října 2008 se zrodila nová finanční technologie, kterou je Bitcoin. V tento den anonymní Satoshi Nakamoto představil světu svou inovaci prostřednictvím e-mailu zaslaného do poštovní konference cypherpunks, komunity nadšenců do kryptografie, která se věnuje podpoře soukromí na internetu. Tento e-mail obsahoval dokument nazvaný "Bílá kniha", který představoval, jak Bitcoin funguje.
 
 Tato iniciativa nevyvolala okamžité nadšení, pravděpodobně kvůli předchozím neúspěchům při pokusech o vytvoření digitálních hotovostních systémů. Přesto se tato Bílá kniha nakonec stala referencí pro uživatele bitcoinu a v průběhu let se stala předmětem mnoha debat v ekosystému bitcoinu.
 
-![image](assets/en/40.webp)
+![image](assets/cs/039.webp)
 
 3. ledna 2009 Satoshi oficiálně zahájil provoz sítě Bitcoin vytvořením prvního bloku, známého také jako "blok Genesis", který znamenal spuštění blockchainu Bitcoinu. Tento blok obsahuje odhalující zprávu odrážející poslání Bitcoinu: "03/jan/2009 Kancléřka na pokraji druhé finanční pomoci bankám"
 
-![image](assets/en/41.webp)
+![image](assets/cs/040.webp)
 
 > "Můžeme vyhrát velkou bitvu v závodech ve zbrojení a získat
 > nové území svobody na několik let." - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/cs/041.webp)
 
 ### Protokol Bitcoin ožívá
 
 9. ledna 2009 Satoshi oznámil vydání bitcoinu verze 0.1.0. Krátce poté se softwaru chopil Hal Finney a připojil se k síti, což znamenalo přítomnost dvou uzlů, a tedy i dvou těžařů v síti. Finney tento krok dokonce zvěčnil tweetem: "Běží Bitcoin". Dne 12. ledna 2009 byla mezi Satoshim a Halem Finneym provedena první bitcoinová transakce ve výši 10 BTC, kterou snadno najdete, pokud se vrátíte k bloku 170.
 
-![image](assets/en/43.webp)
+![image](assets/cs/042.webp)
 
 Zájem o bitcoin rychle rostl, což vedlo mnoho lidí k jeho testování, debatám, řešení chyb a úvahám o jeho etických, ekonomických a filozofických aspektech. Lidé byli natolik uchváceni, že Satoshi 22. listopadu 2009 vytvořil fórum BitcoinTalk, aby tyto typy konfrontací usnadnil.
 
@@ -727,7 +705,7 @@ Fórum se rychle stalo oblíbeným místem pro diskusi uživatelů bitcoinu, a t
 
 **Věděli jste to?** 22. května 2010 se Laszlo Hanyecz zapsal do historie, když nabídl nákup dvou pizz za 10 000 BTC: bylo to poprvé, kdy byl Bitcoin použit k nákupu fyzického zboží.
 
-![image](assets/en/44.webp)
+![image](assets/cs/043.webp)
 
 ### Zmizení Satoshiho Nakamota
 
@@ -742,7 +720,7 @@ Pro některé je Bitcoin definován jako houbová entita, jako [mycelium](https:
 
 Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si ["The Book of Satoshi"](https://planb.network/en/resources/books/98) od Phila Champagneho nebo dokumentární film ARTE "Le mystaire Satoshi".
 
-![image](assets/en/45.webp)
+![image](assets/cs/044.webp)
 
 > "Základním problémem konvenční měny je důvěra, která je nutná k jejímu fungování. Je třeba důvěřovat centrální bance, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry. Bankám je třeba důvěřovat, že naše peníze budou držet a převádět elektronicky, ale ony je půjčují ve vlnách úvěrových bublin se sotva zlomkem v rezervě." - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 > Nyní, když jsme se seznámili s některými souvislostmi, prozkoumejme, jak transakce s bitcoiny obecně probíhá.
@@ -763,7 +741,7 @@ Poté Bob provede transakci otevřením své peněženky Bitcoin a stisknutím t
 
 Pro dokončení transakce ji musí Bob podepsat svým soukromým klíčem, aby ověřil, že je vlastníkem bitcoinů, které chce převést. Tento krok je u mobilních peněženek obvykle automatický nebo má podobu potvrzení ve fyzické peněžence: "Jste si jistý, že chcete poslat X na Y? Ano nebo ne".
 
-![image](assets/en/46.webp)
+![image](assets/cs/045.webp)
 
 **Proč platíme poplatky?** Poplatky jsou nezbytné pro vytvoření volného trhu pro zahrnutí transakcí v blocích. Blok má ve skutečnosti velikost 1 MB (která byla po aktualizaci Segwit rozšířena na 4 MB), takže počet transakcí, které lze do bloku "vložit", je omezen na několik tisíc transakcí na blok. Velikost transakce závisí na její složitosti. Proto jsou za složitější transakce obvykle účtovány vyšší poplatky.
 
@@ -771,25 +749,25 @@ Pro dokončení transakce ji musí Bob podepsat svým soukromým klíčem, aby o
 
 V této fázi byla transakce vytvořena a Bobova peněženka ji bude sdílet se sítí Bitcoin. Za tímto účelem bude jeho peněženka komunikovat s uzlem sítě Bitcoin, který tuto informaci rozšíří do ostatních uzlů. Tento druh procesu umožňuje celé síti vidět tuto novou transakci a vzít ji v úvahu.
 
-![image](assets/en/47.webp)
+![image](assets/cs/046.webp)
 
 V tomto okamžiku je sice tato transakce všem známá (prostřednictvím nástroje zvaného Mempool), ale nelze ji považovat za potvrzenou, dokud ji do bloku nevloží těžař, který jako jediný potvrzuje transakce tím, že je zařazuje do blockchainu.
 
 Těžaři mají za úkol shromažďovat platné a nepotvrzené transakce a sestavovat z nich blok. Stručně řečeno, musí vyřešit kryptografickou hádanku v procesu zvaném "proof of work", aby se jejich blok stal dalším v bitcoinovém blockchainu.
 
-![image](assets/en/48.webp)
+![image](assets/cs/047.webp)
 
 ### Krok 3: Těžař transakci vytěží v bloku.
 
 Systém Proof of work vyžaduje nalezení platného "hashe" pro daný blok: představte si jej jako jedinečný otisk prstu spojený s blokem, který se skládá z 256 znaků. Platnost tohoto hashe závisí na míře obtížnosti sítě Bitcoin (podrobněji se jí budeme věnovat později). Prozatím uvažujme, že těžař našel platný blok a že je v něm zahrnuta transakce Boba s Alicí. Poté je nový platný blok přidán do blockchainu, společné účetní knihy pro všechny uživatele Bitcoinu.
 
-![image](assets/en/49.webp)
+![image](assets/cs/048.webp)
 
 ### Krok 4: Blok je platný a ověřený referenčním uzlem Alice.
 
 V této fázi je transakce považována za platnou: těžař pak prostřednictvím svého uzlu rozšíří nový blok do sítě a Alicina peněženka bude aktualizována.
 
-![image](assets/en/50.webp)
+![image](assets/cs/049.webp)
 
 **Poznámka:** I když je Alici oznámeno, že obdržela bitcoiny na jednu ze svých adres, je vhodné považovat transakci za nezměnitelnou až poté, co obdrží **šest** potvrzení. To znamená, že nad blokem obsahujícím Bobovu transakci musí být vytěženo dalších šest bloků. Jinými slovy, čím starší je transakce v blockchainu, tím více je neměnná.
 
@@ -818,7 +796,7 @@ Uzly jsou základním prvkem architektury sítě Bitcoin, protože plní různé
 
 K decentralizaci sítě proto přispívá každé zařízení, na kterém běží část softwaru Bitcoinu, tzv. bitcoinový uzel (často používající [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)).
 
-![image](assets/en/51.webp)
+![image](assets/cs/050.webp)
 
 ### Uzly jsou ústředním jádrem Bitcoinu.
 
@@ -826,7 +804,7 @@ Každý uzel uchovává kopii blockchainu, což umožňuje ověřování transak
 
 Uzly jsou schopny ověřovat platnost bloků a transakcí, protože se řídí pravidly konsensu Bitcoinu. Tato pravidla stanovují měnovou politiku Bitcoinu, například výši odměny těžařů (o které se podrobněji zmíníme v následující části) a množství bitcoinů v oběhu. Uzly svým způsobem fungují jako právní systém sítě, protože všichni účastníci sítě se díky nim řídí stejnými pravidly, takže zajišťují neutralitu protokolu Bitcoin. Pravidla konsensu se téměř neliší, pokud vůbec, protože k provedení změn je nutný souhlas všech uzlů.
 
-![image](assets/en/52.webp)
+![image](assets/cs/051.webp)
 
 Správa v rámci protokolu přesahuje rámec tohoto základního kurzu, ale je důležité si uvědomit, že každý uživatel provozující uzel Bitcoin se může rozhodnout, jakými pravidly se bude řídit. Uživatel se může rozhodnout dodržovat jiná pravidla (tj. provést úpravy kódu), ale pokud tyto změny zneplatní stávající pravidla konsensu, daný uzel již nebude součástí sítě Bitcoin. V důsledku toho jsou zásadní změny vzácné a vyžadují značnou koordinaci tisíců účastníků s různými ideologiemi a zájmy, což je nutí poskytovat aktualizace, které jsou všemi uživateli Bitcoinu považovány za "lepší".
 
@@ -834,7 +812,7 @@ Správa v rámci protokolu přesahuje rámec tohoto základního kurzu, ale je d
 
 Pokud si chcete nainstalovat vlastní uzel, máte k dispozici několik možností s různými náklady na údržbu. Můžete jednoduše spustit software Bitcoin Core na svém počítači, ale to bude vyžadovat značné množství úložného prostoru, protože blockchain má asi ~500 GB. Chcete-li toto omezení překonat, můžete se rozhodnout ponechat v paměti pouze posledních N bloků vytvořením "ořezaného uzlu". U tohoto druhého řešení jsou náklady zanedbatelné, protože uzel je aktivní pouze tehdy, když ho potřebujete.
 
-![image](assets/en/53.webp)
+![image](assets/cs/052.webp)
 
 Druhou možností je použít k tomuto účelu specializovaný hardware, například Raspberry Pi 4 s dostatečně velkým SSD (asi ~2TB). Tato druhá možnost je sice dražší, pokud si musíte hardware koupit, ale z hlediska spotřeby elektřiny představuje o něco méně než 10,00 EUR ročně.
 
@@ -846,7 +824,7 @@ Velmi důležitou vlastností je přijatelná cena a dostupnost uzlu bitcoinu, p
 
 Vskutku, každý má dobrý důvod ke spuštění uzlu! Náklady a úsilí jsou v porovnání s dosaženým přínosem minimální. Stačí se jen pustit do dobrodružství a připojit se k tisícům dalších bitcoinářů, abyste společně vytvořili síť bitcoinů.
 
-![image](assets/en/54.webp)
+![image](assets/cs/053.webp)
 
 Naopak, pokud by bloky byly 100krát těžší, mohli bychom jistě každých 10 minut provést 100krát více transakcí, ale provoz bitcoinového uzlu by vyžadoval 50TB pevný disk, šířku pásma přes 500 GB/měsíc a hardware schopný validovat stovky tisíc transakcí za méně než 10 minut. V této hypotetické situaci se stokrát většími bloky by provoz uzlu Bitcoinu nebyl pro běžného člověka dostupný, což by ohrozilo jak decentralizaci protokolu, tak neměnnost transakcí a pravidel konsensu.
 
@@ -860,7 +838,7 @@ Po tomto vítězství uzly aktivovaly aktualizaci nazvanou SegWit, čímž přip
 
 **Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů ASIC**
 
-![image](assets/en/55.webp)
+![image](assets/cs/054.webp)
 
 ### Vysvětlení důkazu o práci
 
@@ -876,17 +854,17 @@ Stroje pracují nepřetržitě a po průměrně 10 minutách se objeví vítěz:
 
 Každých 2016 bloků (přibližně jednou za dva týdny) se pomocí **úpravy obtížnosti** obnoví rovnováha globální těžební hry na základě počtu účastníků. Tato úprava je nutná, protože počet těžařů a jejich kombinovaný výpočetní výkon se může v průběhu času výrazně měnit. Pro zachování cílové doby těžby bloků síť rekalibruje úroveň obtížnosti na základě toho, jak rychle byly vytěženy poslední bloky v roce 2016. Pokud byly vytěženy příliš rychle, obtížnost se zvyšuje, což ztěžuje nalezení správného hashe. Naopak pokud byly těženy příliš pomalu, obtížnost se snižuje, což usnadňuje práci.
 
-![image](assets/en/24.webp)
+![image](assets/cs/055.webp)
 
 ### Těžba se neustále vyvíjí
 
 V průběhu let se těžaři vybavují stále výkonnějším počítačovým hardwarem, aby mohli za sekundu vytvořit co nejvíce hashů (HashRate) při co nejmenší spotřebě energie a co nejhospodárnějším způsobem. První těžaři jako Satoshi nebo Hal Finney těžili pouze pomocí procesoru, jiní pak začali těžit pomocí grafických karet. V současnosti těžaři používají ASIC (Application-Specific Integrated Circuit): stroje určené výhradně k použití algoritmu SHA256.
 
-![image](assets/en/56.webp)
+![image](assets/cs/056.webp)
 
 Hashrate sítě Bitcoin představuje počet pokusů o nalezení dalšího bloku za sekundu. Dnes dokonce překročil 500 TH/s, což je 500 000 miliard pokusů za sekundu! Čím vyšší je globální hashrate, tím obtížnější je pro škodlivého aktéra monopolizovat zdroje potřebné k získání většiny těžebního výkonu a utratit své prostředky více než jednou (problém dvojího utrácení). Proto je ekonomicky výhodnější dodržovat pravidla protokolu Bitcoin než jednat proti nim.
 
-![image](assets/en/57.webp)
+![image](assets/cs/057.webp)
 
 ### Co se nachází v bloku?
 
@@ -905,11 +883,11 @@ Výše dotace je definována pravidly konsensu a závisí na epoše: **odměna z
 
 U prvních bloků činila dotace na blok 50 bitcoinů. Každých 210 000 bloků (přibližně každé 4 roky) se tato částka snižuje na polovinu. Dnes (v roce 2024) se nacházíme v 5. epoše, což znamená, že dotace činí 3,125 bitcoinu. Stručně řečeno, jedná se o automatický mechanismus, který uvolňuje nové bitcoiny do systému. Dotace se v průběhu času snižuje, dokud nedosáhne limitu emise 21 milionů bitcoinů. V oběhu je již více než 19,4 milionu bitcoinů, což je více než 92 %.
 
-![image](assets/en/58.webp)
+![image](assets/cs/058.webp)
 
 Druhý způsob kompenzace je definován částkou, kterou si uživatelé zvolí za transakční poplatky, které ukazují naléhavost uživatele, aby byla jeho transakce zařazena do dalšího bloku. Protože těžaři chtějí maximalizovat svůj příjem, budou mít tendenci upřednostňovat transakce s vysokými transakčními poplatky.
 
-![image](assets/en/59.webp)
+![image](assets/cs/059.webp)
 
 Aby těžaři stabilizovali svůj obchodní model, který je založen na odměnách za každý platný blok, často vytvářejí skupiny prostřednictvím "mining pools", kde sdružují své výpočetní zdroje.
 
@@ -919,7 +897,7 @@ Stručně řečeno, inovace Bitcoinu spočívá v návrhu řešení problému dv
 
 Jak to ale udělat bez důvěryhodného zprostředkovatele? Tento problém dobře popisuje byzantský generálský paradox, problém koordinace informací v systému, kde různým aktérům nelze důvěřovat. V problému byzantských generálů musí skupina generálů koordinovat útok na město, ale někteří z nich mohou být zrádci, kteří se snaží plán narušit. Úkolem loajálních generálů je dosáhnout konsensu o tom, zda zaútočit, nebo ustoupit, přestože od zrádců dostávají potenciálně zavádějící zprávy.
 
-![image](assets/en/60.webp)
+![image](assets/cs/060.webp)
 
 Bitcoin je tedy určitým řešením, jak tento problém vyřešit nebo alespoň obejít. "Generálové" Bitcoinu neboli těžaři vytvářejí bloky (informací) a uzly Bitcoinu ověřují finanční transakce pomocí pravidel konsensu, aby zajistily pravost informací. Asymetrie v energetických nákladech mezi produkcí a ověřováním informací zajišťuje spolehlivost informací, aniž by existovala důvěryhodná třetí strana.
 
@@ -945,7 +923,7 @@ V předchozí části jsme pochopili, že bezpečnost protokolu Bitcoin závisí
 
 Nejprve kvalitativně zhodnoťme environmentální náklady těžby. Těžař musí mít stroj, jako je ASIC, a zdroj energie v podobě elektřiny, který tyto stroje pohání. ASIC jsou většinou vyrobeny z hliníku a mohou být buď recyklovány, nebo znovu použity k druhému účelu (jak ukazuje projekt Attakaï popsaný v našem kurzu MIN201), který přeměňuje Antminer S9 na ohřívač prostoru). Hlavním problémem je tedy spotřeba energie.
 
-![image](assets/en/61.webp)
+![image](assets/cs/061.webp)
 
 Spotřeba elektřiny představuje pro těžaře téměř veškeré náklady. Proto jsou vybízeni k hledání levného zdroje elektřiny, aby se mohli vydat do míst, kde jsou instalovány elektrárny, ale ještě nejsou připojeny k elektrické síti daného území. V takovém případě těžaři fungují jako poslední odběratel a umožňují elektrárnám zajistit si financování ještě před připojením k elektrické síti. Po jejich připojení se zvýší poptávka po elektřině, což zvýší cenu a pro těžaře se v těchto místech stane získávání elektřiny méně výhodné. Protože stroje lze snadno přemístit, těžaři se pak rozhodnou vzít své zařízení a usadit se dále, kde je poptávka nízká a cena také, nejčastěji v oblastech, kde mohou získávat energii z ekologických elektráren.
 
@@ -955,11 +933,11 @@ Debata o ekologickém dopadu bitcoinu je proto často zavádějící, zejména k
 
 Je důležité zdůraznit, že Bitcoin jako revoluční vynález poskytuje jednotlivcům žijícím pod finančním útlakem nebo diktátorskými režimy možnost bojovat za svou svobodu. Jako poslední možnost nabízí Bitcoin cestu k finanční nezávislosti tím, že obchází cenzuru a bankovní omezení. Bitcoin slouží více než jen jako měna jako forma komunikace a symbol svobody a energie vynaložená těžaři hraje klíčovou roli při obraně této svobody a umožňuje emancipaci od finančního systému ovládaného dluhem a nadměrnou tvorbou peněz centrálními bankami.
 
-![image](assets/en/62.webp)
+![image](assets/cs/062.webp)
 
-![image](assets/en/63.webp)
+![image](assets/cs/063.webp)
 
-![image](assets/en/64.webp)
+![image](assets/cs/064.webp)
 
 Pro obyvatele zemí s vysokou mírou inflace je Bitcoin otázkou přežití. Poskytuje prostředek k přežití v nejistých finančních situacích. Bitcoin navíc nabízí spravedlivější a nestrannější finanční systém, který miliardám lidí na celém světě poskytuje přístup k finančním zdrojům. Je vzhledem k této perspektivě spotřeba energie oprávněná?
 
@@ -969,13 +947,13 @@ V neposlední řadě je nezbytné diskutovat o ekonomických a environmentální
 
 Srovnáme-li jej se současným finančním systémem, ten vzhledem ke své podpoře nadměrné spotřeby a zadlužování představuje vážný problém. Faktory, jako je snadný přístup k úvěrům, emise peněz bankami a praxe bankovnictví s částečnými rezervami, přispívají k nadměrnému zadlužování a v důsledku toho k nadměrné spotřebě.
 
-![image](assets/en/65.webp)
+![image](assets/cs/065.webp)
 
 Je nutné reformovat měnový systém tak, aby odrážel nedostatek našich zdrojů s nedostatkem naší měny. To podpoří odpovědnější spotřebu a dlouhodobou vizi. Naopak inflace tím, že podporuje spotřebu a investice, má dlouhodobě negativní dopad na životní prostředí.
 
 Současný finanční systém odpovídá myšlenkám keynesiánské ekonomie, která na rozdíl od rakouské ekonomie nebere v úvahu časové a dynamické aspekty situací a zdrojů. Jinými slovy, neomezená měna nemůže účinně reprezentovat omezené zdroje naší planety.
 
-![image](assets/en/66.webp)
+![image](assets/cs/066.webp)
 
 Na druhou stranu politici mají obvykle krátkodobou vizi a potřebují hospodářský růst, aby byli znovu zvoleni, takže nejsou schopni řešit ekologické problémy v dlouhodobém horizontu. Naopak přijetí zdravé měny, jako je bitcoin, je potenciální alternativou, která by mohla lidi ekonomicky posílit.
 
@@ -1003,7 +981,7 @@ Protokol Bitcoin je tedy necenzurovatelný a nezastavitelný peněžní systém,
 
 Cena bitcoinu se často vyznačuje značnou volatilitou. Jeho hodnota může výrazně kolísat v závislosti na výkyvech trhu nebo na býčích a medvědích fázích, stejně jako na jakémkoli jiném finančním trhu.
 
-![image](assets/en/67.webp)
+![image](assets/cs/067.webp)
 
 Zjednodušeně řečeno, lidé mají tendenci kupovat vše najednou a prodávat vše najednou. **Bitcoin není vůči lidské povaze imunní.**
 
@@ -1011,7 +989,7 @@ Zjednodušeně řečeno, lidé mají tendenci kupovat vše najednou a prodávat 
 
 Vývoj i evoluce bitcoinu do značné míry souvisí s různými skupinami aktérů, kteří postupně integrovali jeho ekosystém.
 
-![image](assets/en/68.webp)
+![image](assets/cs/068.webp)
 
 - Věřící:
 
@@ -1037,7 +1015,7 @@ Díky těmto výrazným výkyvům si bitcoin vysloužil pověst vysoce volatiln�
 
 Tuto značnou volatilitu dnes aktéři bitcoinu plně akceptují a lze ji zmírnit několika řešeními, jako je finanční zajištění (stablecoiny), silná dlouhodobá víra (hodling) nebo prosté vyhnutí se riziku investovat 100 % svých prostředků do bitcoinu bez důkladného porozumění. Pochopení toho, proč cena Bitcoinu tolik kolísá, je proto pro pokrok v tomto odvětví zásadní, protože jsou to nakonec právě cenové pohyby a cykly, které pomáhají trh do jisté míry mírnit a regulovat. Je však zásadní si uvědomit, že s růstem a zráním Bitcoinu se volatilita stává méně vlivnou.
 
-![image](assets/en/69.webp)
+![image](assets/cs/069.webp)
 
 Ačkoli pár btc/dolar krátkodobě kolísá, bitcoin díky svému omezenému množství 21 milionů bitcoinů a procesu půlení (půlení peněžní kreace v průměru každé 4 roky) sleduje obecný vzestupný trend kvazi-mechanickým způsobem. Jako každé finanční aktivum i bitcoin samozřejmě podléhá ekonomickým cyklům včetně období euforie, spekulativních bublin a korekcí. Tento jev je zcela běžný u rozvíjejících se technologií, kde trh není vždy racionální nebo efektivní.
 
@@ -1045,11 +1023,11 @@ Ačkoli pár btc/dolar krátkodobě kolísá, bitcoin díky svému omezenému mn
 
 Tyto cykly spekulativních bublin jsou ve světě zcela ojedinělé, protože je vzácné, aby jedno aktivum zažilo takovou sérii bublin po sobě. Tento jev lze přičíst skutečnosti, že Bitcoin není pouze bublinou určenou k prasknutí. Funguje spíše jako měna, která se aktivně používá po celém světě. Protokol bitcoin vyniká svou schopností fungovat v globálním měřítku 24 hodin denně, 7 dní v týdnu, což představuje pro finanční orgány, které se jej snaží regulovat, značnou výzvu.
 
-![image](assets/en/70.webp)
+![image](assets/cs/070.webp)
 
 V současné době bitcoin stále přežívá a ještě více roste díky tomu, že se stále více začleňuje do tradičního trhu, a k tomuto pozitivnímu vývoji přispívá zavedení bitcoinových ETF, jasnější regulace a zdokonalené nástroje pro získávání a ukládání. Bitcoin ZASE přežil svou spekulativní bublinu, takže možná nakonec není jen horký vzduch!
 
-![image](assets/en/71.webp)
+![image](assets/cs/071.webp)
 
 
 
@@ -1061,9 +1039,11 @@ V současné době bitcoin stále přežívá a ještě více roste díky tomu, 
 
 Bitcoin lze považovat za nástroj k vytvoření paralelní ekonomiky k fiat měnám, protože je možné prodávat zboží nebo služby a nechat si platit v bitcoinech. Transakce lze provádět přímo v bitcoinech, aniž by bylo nutné procházet směnnou platformou, ale jednoduše přecházet z bitcoinové peněženky do jiné.
 
-Bitcoinová ekonomika existuje a rozvíjí se v některých regionech světa, například v Salvadoru, kde je Bitcoin od roku 2021 zákonným platidlem. Všude kolem nás existují jednotlivci, podniky a organizace, které již přijímají Bitcoin jako platební prostředek za své produkty nebo služby.
+Bitcoinová ekonomika existuje a vyvíjí se v určitých regionech světa, jako je například El Salvador, kde se Bitcoin stal zákonným platidlem v roce 2021. Bohužel, v lednu 2025 shromáždění schválilo nový zákon, který Bitcoin zbavil titulu "zákonné platidlo", údajně po tlaku Mezinárodního měnového fondu. Podle nového zákona nejsou lidé povinni přijímat Bitcoin ve svých podnicích a již nemohou platit daně pomocí něj. Přijetí zůstává dobrovolné.
 
-![image](assets/en/72.webp)
+Nicméně, v El Salvadoru a v dalších částech světa je stále více jednotlivců, podniků a organizací, které přijímají Bitcoin jako prostředek platby za své produkty nebo služby.
+
+![image](assets/cs/072.webp)
 
 Kromě toho byl spuštěn projekt [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), který je založen na otevřeném zdrojovém kódu a spolupráci a který má usnadnit používání Bitcoinu při každodenních transakcích. Na této platformě jsou uvedeni všichni obchodníci, kteří přijímají Bitcoiny, a také různé bitcoinové komunity po celém světě, takže můžete navštívit jejich webové stránky a objevit bitcoinový ekosystém ve svém okolí. Navzdory obtížím a váhání tedy existují iniciativy, jako je BTCMap, které přispívají k tomu, aby byla ekonomika Bitcoinu dostupnější a pohodlnější pro všechny.
 
@@ -1073,7 +1053,7 @@ Chcete-li získat bitcoiny, můžete si je koupit na platformách regulovaných 
 
 Přijímání bitcoinu jako obchodníka má navíc několik výhod, včetně odolnosti vůči cenzuře, nižších transakčních poplatků, vyšší efektivity, ochrany před inflací a také finanční svobody a suverenity.
 
-![image](assets/en/73.webp)
+![image](assets/cs/073.webp)
 
 ### Jak můžete postupovat?
 
@@ -1132,7 +1112,7 @@ Konkrétně je třeba si položit dvě otázky:
 
 Postupná strategie zahrnuje opakované nákupy, což znamená nákup malých množství bitcoinů v pravidelných intervalech. Tato metoda vyhlazuje cenu v průběhu času a zajišťuje neustálý růst množství vlastněných bitcoinů. Je to ideální řešení pro dlouhodobé spoření a zmírňuje obavy z kolísání ceny bitcoinu. Po nastavení na něj můžete jednoduše zapomenout a sledovat, jak vaše investice roste.
 
-![image](assets/en/74.webp)
+![image](assets/cs/074.webp)
 
 **Pozor na UTXO**: Nezapomeňte čas od času konsolidovat své UTXO v peněženkách. Tento postup je nezbytný pro efektivní správu vašich bitcoinů a vyhnutí se zbytečným poplatkům při transakcích.
 
@@ -1168,7 +1148,7 @@ Jejich použití je jednoduché a dostupné pro každého:
 
 4. Výběr bitcoinů do peněženky
 
-![image](assets/en/75.webp)
+![image](assets/cs/075.webp)
 
 Po nákupu je vhodné bitcoiny okamžitě stáhnout z výměnných platforem, aby se minimalizovalo riziko hacknutí a zablokování prostředků. Mějte na paměti, že poplatky za výběr mohou být vysoké, někdy až 25 eur v závislosti na platformě.
 
@@ -1186,7 +1166,7 @@ Kromě toho existuje několik [tržišť](https://planb.network/tutorials/exchan
 - Peer-to-peer matchmaking řešení
 - Neobanky působící v zemích přátelských k bitcoinu.
 
-![image](assets/en/76.webp)
+![image](assets/cs/076.webp)
 
 V neposlední řadě je důležité upozornit, že daňové povinnosti se mohou lišit v závislosti na jurisdikci, a proto vám doporučujeme, abyste se před podniknutím jakýchkoli kroků, které by vás mohly ohrozit, seznámili s předpisy ve vaší zemi.
 
@@ -1198,17 +1178,17 @@ V neposlední řadě je důležité upozornit, že daňové povinnosti se mohou 
 
 Stejně jako každá nová technologie, i přijetí bitcoinu se vyvíjí po S-křivce, která znázorňuje postup od prvních uživatelů k širšímu přijetí. Éru prvních osvojitelů jsme již překonali a ukazatele naznačují potenciální demokratizaci bitcoinu. Koneckonců jde o virální technologii, kterou nelze snadno zastavit. Na jedné straně Salvador učinil odvážný krok a plně přijal Bitcoin jako zákonné platidlo. Na druhé straně jiné země reagovaly jeho zákazem a kriminalizací jeho používání, což ukazuje, že přijetí Bitcoinu je složité a je vystaveno vlivu kulturních, historických a národních faktorů.
 
-![image](assets/en/02.webp)
+![image](assets/cs/077.webp)
 
 Vzestup bitcoinu nutí společnosti, univerzity, regulační orgány i jednotlivce, aby tuto novou technologii vzali v úvahu. Je třeba vytvářet nové nástroje, přizpůsobovat služby a pokračovat v inovacích, aby bylo zajištěno jejich přežití. Tento kontext vyvolává mnoho otázek souvisejících s různými obory, včetně kryptografie, teorie her, ekonomie a měnové politiky, informatiky, filozofie, energetiky, zákonů a regulace. Bitcoin je zkrátka multidisciplinární téma.
 
-![image](assets/en/01.webp)
+![image](assets/cs/078.webp)
 
 ### Bitcoin je 0 až 1
 
 Na závěr vás vyzýváme k zamyšlení nad touto novou měnovou revolucí. V souvislosti s bitcoinem je toho tolik k prozkoumání, že je složité vstřebat vše najednou. Dejte si na čas, Bitcoin nezmizí. Naopak, revoluce právě začala. Věříme, že jsme schopni vytvořit svět, který chceme svěřit našim dětem: svět, kde je lidská suverenita právem, kde je standardně respektováno soukromí a kde se s penězi nemanipuluje. Doufáme, že toho společně dosáhneme.
 
-![image](assets/en/77.webp)
+![image](assets/cs/079.webp)
 
 Pokud si chcete rozšířit své znalosti o bitcoinu, je ten správný čas: řada autorů, myslitelů a esejistů vytvořila vzdělávací obsah o bitcoinu. Již několik let tato díla sepisujeme a kategorizujeme, abychom těm nejzvídavějším z vás nabídli [knihovnu zdrojů](https://planb.network/resources). V této sekci najdete nejlepší podcasty, webové stránky, články, výukové programy, knihy a další obsah.
 
@@ -1232,7 +1212,7 @@ Lightning Network je revoluční technologie, která zásadně změnila naše vn
 
 Pro úplné pochopení Lightning Network je zásadní pochopit, jak se Bitcoin vyvíjí a rozvíjí v infrastrukturních vrstvách: první vrstvou je blockchain a druhou Lightning Network.
 
-![image](assets/en/78.webp)
+![image](assets/cs/080.webp)
 
 ### Blockchain nemůže růst donekonečna
 
@@ -1240,7 +1220,7 @@ Síť Lightning Network byla schválena a implementována v roce 2017 s cílem v
 
 Problém škálovatelnosti se týká výzvy implementovat peněžní systém schopný poskytovat stále větší počet transakcí za sekundu, aby bylo možné čelit rostoucímu přijetí. Tento problém souvisí s trilematem blockchainu. Představte si trojúhelník, jehož vrcholy jsou decentralizace, bezpečnost a škálovatelnost.
 
-![image](assets/en/79.webp)
+![image](assets/cs/081.webp)
 
 Podle ní může protokol založený na blockchainu splňovat pouze dvě z těchto tří vlastností. V rámci protokolu Bitcoin se vývojáři rozhodli upřednostnit decentralizaci a bezpečnost. Na jedné straně velikost bloku 1 MB a doba mezi dvěma bloky (v průměru 10 minut) umožňují provozovat uzel Bitcoinu s nižšími náklady, což podporuje decentralizaci. Na druhou stranu vytváření bloků pomocí metody Proof-of-Work činí podvody v rámci protokolu extrémně nákladnými, zatímco usnadňuje ověřování síťovými uzly a podporuje bezpečnost. Tyto volby však znamenají omezení průměrného počtu transakcí v bloku, což zhruba odpovídá několika transakcím za sekundu. Toto číslo je ve srovnání s výpočetní kapacitou platebních procesorů, jako je VISA (1700/s), směšné, ale tento limit je nezbytný, aby bylo možné provádět transakce s Bitcoinem způsobem odolným vůči cenzuře a bez důvěry. Nicméně ti, kdo na Bitcoinu vyvíjejí, o tomto problému přemýšlejí od samého počátku.
 
@@ -1248,11 +1228,11 @@ Podle ní může protokol založený na blockchainu splňovat pouze dvě z těch
 
 Po letech úvah a několika pokusech vznikl protokol Lightning. Pomocí určitého počtu specifikací tento protokol konstruuje peer-to-peer platební síť s využitím bezpečnosti a programovatelnosti transakčního protokolu Bitcoinu. Síť Lightning Network funguje jako síť platebních kanálů, která umožňuje okamžité transakce s nízkými poplatky pro odesílatele, a dokonce vytváří směnné trasy mezi jednotlivci, kteří nemají přímé propojení kanálů.
 
-![image](assets/en/80.webp)
+![image](assets/cs/082.webp)
 
 Tradiční služby převodu peněz, jako jsou Western Union, centrální banky, Visa a Mastercard, by mohly zaniknout, pokud nepřijmou technologii Lightning Network, která je efektivnější a nákladově výhodnější než současné platební systémy. Síť Lightning Network totiž umožňuje téměř neomezené transakce mezi dvěma rovnocennými partnery, kteří sdílejí kanál, přičemž náklady na energii spojené s transakcí vznikají pouze při oznámení o vytvoření kanálu, nikoliv při každé jednotlivé transakci.
 
-![image](assets/en/81.webp)
+![image](assets/cs/083.webp)
 
 Transakce jsou zabezpečeny prostřednictvím kryptografie a nepřímo prostřednictvím energie spotřebované těžaři bitcoinu. Lze je provádět okamžitě, bez geografických omezení a s extrémně nízkými poplatky (často nižšími než 0,5 %).
 
@@ -1278,19 +1258,19 @@ Cílem této sítě peer-to-peer je usnadnit mikrotransakce (s velmi nízkou hod
 
 Tato technologie otevírá dveře široké škále potenciálních aplikací Bitcoinu, které byly dříve nedostupné kvůli nezbytným omezením pro zajištění bezpečnosti a decentralizace Bitcoinu. Mezi těmito případy každodenního použití můžeme zmínit okamžité účtování ve fyzickém i online obchodě, streamování peněz pro platby v reálném čase a mikrodary pro tvůrce obsahu. Umožněním sítě téměř okamžitých, bezpečných a nízkonákladových transakcí (v průměru méně než 0,5 %) lze realizovat mnoho dříve nepředstavitelných obchodních modelů. To je možné díky tomu, že Lightning Network funguje pomocí satoshů (sats), nejmenší jednotky Bitcoinu.
 
-![image](assets/en/82.webp)
+![image](assets/cs/084.webp)
 
 Zvláště zajímavý příklad toho, jak lze Lightning Network využít k transformaci stávajících obchodních modelů, nabízí videoherní průmysl. Koncept "kůže ve hře" je myšlenka, která si v této souvislosti nedávno získala popularitu. V podstatě jde o finanční podíl na výsledku hry. Síť Lightning Network totiž umožňuje hráčům vsadit při hraní her velmi malé částky, například několik satošů (asi zlomek eurocentu), a vytvořit tak sázku, která stimuluje konkurenci a zároveň výrazně zvyšuje náklady na používání botů.
 
-![image](assets/en/83.webp)
+![image](assets/cs/085.webp)
 
 Budoucnost mikrotransakcí s bitcoinem vypadá díky inovacím, jako je Lightning Network, slibně. Vzhledem k tomu, že se tyto technologie dále vyvíjejí a zrají, můžeme očekávat, že se v blízké budoucnosti objeví nové a zajímavé aplikace.
 
-![image](assets/en/84.webp)
+![image](assets/cs/086.webp)
 
 Dalším příkladem může být "streamování peněz": prostřednictvím sítě Lightning Network můžeme každou minutu provádět mikrotransakce (potenciálně bez důvěryhodné třetí strany), což otevírá prostor pro experimentování s ekonomickými modely, kdy spotřebitelé platí za obsah na základě jeho skutečné spotřeby. Dokonce je možné tento systém využít i pro pronájem zboží. V takovém systému se peníze automaticky rozdělují na základě předem stanoveného procenta mezi různé přispěvatele na službu nebo produkt. To by mohlo způsobit revoluci v uvažování o platebních modelech: namísto měsíčního předplatného za službu by uživatelé mohli platit za minutu nebo dokonce za sekundu za čas, který stráví používáním služby. Takový ekonomický model by mohl mít hluboké důsledky pro tvůrce obsahu, kteří by byli motivováni vytvářet kvalitní obsah, aby si udrželi pozornost uživatelů.
 
-![image](assets/en/85.webp)
+![image](assets/cs/087.webp)
 
 Závěrem lze říci, že Lightning Network otevírá uživatelům bitcoinu řadu zajímavých možností využití. Výsledné ekonomické modely a obchodní příležitosti jsou četné a rozmanité a my vám doporučujeme, abyste se o tom přesvědčili sami vyzkoušením aplikace podcast [Fountain](https://www.fountain.fm/), která vám umožní získat odměnu v podobě několika satů za poslech vašich oblíbených podcastů!
 
@@ -1384,3 +1364,6 @@ Jste připraveni se připojit?
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+

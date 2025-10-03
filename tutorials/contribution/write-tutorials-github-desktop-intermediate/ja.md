@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-
 ローカル環境を構築したくない場合は、初心者向けの別のチュートリアルを参考にしてください。このチュートリアルでは、GitHub のウェブインターフェイスを使って直接変更を行います：
 
 
-- 初心者（ウェブインターフェース）**：
+- 初心者（ウェブインターフェース）：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## 前提条件
@@ -248,30 +248,30 @@ proofreading:
 
 必須フィールドは次のとおりです：
 
-- **id** : チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
+- **id**: チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
 
-- **project_id** : チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
+- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
 
-- **tags** : チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
+- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
 
-- **category** : Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
+- **category**: Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
 
-- **level** : チュートリアルの難易度レベル、以下から選択：
+- **level**: チュートリアルの難易度レベル、以下から選択：
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : [あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
+- **professor_id**: [あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
 
-- **original_language** : チュートリアルの元の言語（例：`fr`、`en` など）;
+- **original_language**: チュートリアルの元の言語（例：`fr`、`en` など）;
 
-- **proofreading** : 校正プロセスに関する情報。 自分自身のチュートリアルを校正することは、最初の検証としてカウントされるため、最初の部分を記入してください：
-    - **language** : 校正言語のコード（例：`fr`、`en` など）。
-    - **last_contribution_date** : 本日の日付。
-    - **urgency** : 1
-    - **contributor_names** : あなたの GitHub ID。
-    - **reward** : 0
+- **proofreading**: 校正プロセスに関する情報。 自分自身のチュートリアルを校正することは、最初の検証としてカウントされるため、最初の部分を記入してください：
+    - **language**: 校正言語のコード（例：`fr`、`en` など）。
+    - **last_contribution_date**: 本日の日付。
+    - **urgency**: 1
+    - **contributor_names**: あなたの GitHub ID。
+    - **reward**: 0
 
 教師IDの詳細については、対応するチュートリアルを参照してください：
 
@@ -381,15 +381,15 @@ assets`フォルダ内のlanguageサブフォルダは、チュートリアル�
 独自のダイアグラムを作成する場合は、視覚的な一貫性を確保するため、Plan ₿ Networkのグラフィック・チャーターに従うようにしてください：
 
 
-- フォント**：ルービック](https://fonts.google.com/specimen/Rubik)を使う；
-- 色**：
+- フォント：**ルービック**](https://fonts.google.com/specimen/IBM+Plex+Sans)を使う；
+- **色**：
  - オレンジ#FF5C00
  - ブラック#000000
  - 白：白：#FFFFFFF
 
 **チュートリアルに組み込まれるすべてのビジュアルは、権利フリーであるか、ソースファイルのライセンスを尊重することが必須です**。また、Plan ₿ Networkで公開されているすべての図は、テキストと同様にCC-BY-SAライセンスの下で利用可能です。
 
-**-> ヒント：*** 画像などのファイルを公に共有する場合、不要なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の情報など、機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータは削除することをお勧めします。このプロセスを簡素化するには、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップ操作でドキュメントのメタデータをクリーニングすることができます。
+**ヒント：** 画像などのファイルを公に共有する場合、不要なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の情報など、機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータは削除することをお勧めします。このプロセスを簡素化するには、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップ操作でドキュメントのメタデータをクリーニングすることができます。
 
 ## 7 - チュートリアルを保存して送信する
 
@@ -446,5 +446,4 @@ GitHub デスクトップソフトウェアでは、フォークのメインブ�
 - PRがすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しいPRを投稿してプロセスをやり直す必要があります。作業を進める前に、ローカルリポジトリが Plan ȏ Network ソースリポジトリと同期していることを確認してください。
 
 チュートリアルを投稿する際に技術的な問題が発生した場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！
-
 

@@ -1,0 +1,9 @@
+question: Vilken typ av symmetrisk kryptering används främst för kontinuerlig kommunikation, t.ex. ljud- eller videoströmmar?
+answer: Kryptering av strömmar
+wrong_answers:
+  - Blockkryptering
+  - Verifieringskod
+  - Hashning av meddelanden
+explanation: |
+  Strömkryptering är särskilt lämpad för kontinuerlig kommunikation eftersom den krypterar data kontinuerligt, till skillnad från blockkryptering som delar upp dem i block.
+reviewed: false

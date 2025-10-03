@@ -1,0 +1,13 @@
+question: Ni ikihe ciza kimwe gishobora kuva kuri Lightning Network ku barema ibirimwo?
+answer: Bazovyurirwa umutima wo gutanga ibintu vyiza kugira ngo abakoresha bagume bavyitaho.
+wrong_answers:
+  - Bazoshobora gusaba amahera menshi ku vyo barimwo.
+  - Boshobora gushikira abantu benshi cane.
+  - Bazoshobora gutanga ibirimwo vyihuta kugira ngo abakoresha bagume babitaho.
+explanation: |
+  Na Lightning Network, abahinguzi b’ibirimwo boba
+  gutera intege gutanga ibirimwo vyiza kugira ngo bigumye
+  ivyiyumviro vy’abakoresha. Abakoresha na bo nyene, bokwishura gusa
+  ibirimwo bafungura, gutyo bagakuraho kwiyandikisha imbere y’igihe
+  amafaranga.
+reviewed: true

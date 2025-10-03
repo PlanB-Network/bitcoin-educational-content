@@ -1,0 +1,9 @@
+question: What notation is used to indicate the prefix size in an IPv6 address?
+answer: CIDR
+wrong_answers:
+  - Dotted decimal netmask
+  - Hexadecimal separated by colons
+  - ICANN
+explanation: |
+  CIDR notation specifies the number of fixed prefix bits after a slash, just like in IPv4.
+reviewed: false

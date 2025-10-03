@@ -1,0 +1,9 @@
+question: Mitä näistä työpöytäympäristöistä suositellaan erityisesti vanhemmille tai vähemmän tehokkaille koneille?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Kaneli
+  - KDE Plasma
+explanation: |
+  LXQt, kuten Xfce, kuluttaa vähän resursseja ja on suunniteltu toimimaan tehokkaasti matalan suorituskyvyn laitteistoissa.
+reviewed: false

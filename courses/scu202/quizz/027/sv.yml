@@ -1,0 +1,9 @@
+question: Vilket grafiskt verktyg i Ubuntu gör det enkelt att hantera brandväggsregler?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptisk
+explanation: |
+  GUFW är en grafisk Interface för UFW-brandväggen som gör det möjligt att aktivera, avaktivera och konfigurera regler utan att gå via terminalen.
+reviewed: false

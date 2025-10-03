@@ -1,0 +1,9 @@
+question: ¿Qué gestor de contraseñas de código abierto te permite almacenar tus credenciales localmente sin necesidad de una nube?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Administrador de contraseñas de Google
+explanation: |
+  KeePassDX funciona sobre la base de archivos locales encriptados, sin necesidad de una nube o suscripción a un servicio centralizado.
+reviewed: false

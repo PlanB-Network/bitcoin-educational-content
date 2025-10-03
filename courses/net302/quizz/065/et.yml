@@ -1,0 +1,9 @@
+question: Milline protokoll määrab dünaamiliselt eluea automaatselt jaotatud IPv6-aadressidele?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 haldab eluea kestust selgesõnaliselt liisingu kaudu, samas kui NDP teatab sellest oma marsruuteri konfiguratsiooniteadetes.
+reviewed: false

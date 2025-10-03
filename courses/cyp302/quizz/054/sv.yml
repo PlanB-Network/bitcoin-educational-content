@@ -1,0 +1,9 @@
+question: Vilken är den huvudsakliga typen av algebraisk struktur som används i finita fält för kryptografi?
+answer: Irreducibla polynom
+wrong_answers:
+  - Kvadratiska matriser
+  - Slumpmässiga vektorer
+  - Kubiska rötter
+explanation: |
+  Inom kryptografi används ofta irreducibla polynom i finita fält av ordning 2^m för att säkerställa att fältet är väldefinierat och att alla operationer är möjliga.
+reviewed: false

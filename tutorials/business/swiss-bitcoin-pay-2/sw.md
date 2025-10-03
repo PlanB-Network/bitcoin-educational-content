@@ -1,11 +1,11 @@
 ---
-name: Uswisi Bitcoin Pay
+name: Swiss Bitcoin Pay
 description: Jinsi ya kukubali malipo ya Bitcoin kwa urahisi?
 ---
 ![cover](assets/cover.webp)
 
 
-Leo, kuna suluhu nyingi kwa wafanyabiashara wanaotaka kukubali Bitcoin kama njia ya malipo. Kwa vyombo vidogo vinavyotafuta usanidi usio rasmi, kusakinisha Hot Wallet, au hata Umeme Wallet, inatosha kupokea malipo moja kwa moja ndani yake. Biashara kubwa zaidi, zinazohitaji kudumisha rekodi za uhasibu, zinafaa kuchagua mfumo maalum wa usindikaji wa malipo. Chaguzi kadhaa pia zinapatikana katika eneo hili.
+Leo, kuna suluhu nyingi kwa wafanyabiashara wanaotaka kukubali Bitcoin kama njia ya malipo. Kwa vyombo vidogo vinavyotafuta usanidi usio rasmi, kusakinisha Hot Wallet, au hata lightning Wallet, inatosha kupokea malipo moja kwa moja ndani yake. Biashara kubwa zaidi, zinazohitaji kudumisha rekodi za uhasibu, zinafaa kuchagua mfumo maalum wa usindikaji wa malipo. Chaguzi kadhaa pia zinapatikana katika eneo hili.
 
 
 Kwa wale ambao hawapendi kujisumbua na kupokea pesa kwa sarafu ya fiat moja kwa moja kwenye akaunti yao ya benki, suluhu za uhifadhi kama vile Open Node zinapatikana:
@@ -18,7 +18,7 @@ Kwa wafanyabiashara walio tayari kuchafua mikono yao na wanaotaka kudhibiti mcha
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Miongoni mwa suluhu hizi zote, Uswizi Bitcoin Pay inaonekana kuwa maelewano ya kuvutia sana kuchanganya urahisi wa matumizi, vipengele, na usalama. Suluhisho hili linafaa kwa biashara ndogo sana na miundo mikubwa. Katika somo hili, utagundua jinsi ya kutumia kwa urahisi Swiss Bitcoin Pay kukubali Bitcoin katika biashara yako.
+Miongoni mwa suluhu hizi zote, swiss-bitcoin-pay-2 inaonekana kuwa maelewano ya kuvutia sana kuchanganya urahisi wa matumizi, vipengele, na usalama. Suluhisho hili linafaa kwa biashara ndogo sana na miundo mikubwa. Katika somo hili, utagundua jinsi ya kutumia kwa urahisi Swiss Bitcoin Pay kukubali Bitcoin katika biashara yako.
 
 
 ## Kwa nini ukubali Bitcoin katika biashara yako?
@@ -27,12 +27,12 @@ Miongoni mwa suluhu hizi zote, Uswizi Bitcoin Pay inaonekana kuwa maelewano ya k
 Kukubali Bitcoin kama njia ya malipo hutoa faida nyingi kwa biashara yako. Kwanza, Bitcoin hufanya kazi kama pesa taslimu, lakini bila ubaya wa pesa za mwili. Kama pesa taslimu, Bitcoins zilizopokelewa kama malipo hazihitaji kupitia mzunguko wa kawaida wa benki. Ni muamala wa moja kwa moja kutoka kwa mteja wako hadi kwako, isipokuwa utumie mpatanishi wa malipo.
 
 
-Zaidi ya hayo, malipo ya Bitcoin hutoa ukamilishaji wa papo hapo na Umeme na inachukua dakika chache tu katika kesi ya malipo ya onchain. Baada ya kuthibitishwa, haiwezekani kughairi malipo ya Bitcoin. Ukichagua kujitunza, unadhibiti Bitcoins zako moja kwa moja, ambayo huongeza zaidi uhuru wa kifedha wa biashara yako.
+Zaidi ya hayo, malipo ya Bitcoin hutoa ukamilishaji wa papo hapo na lightning na inachukua dakika chache tu katika kesi ya malipo ya onchain. Baada ya kuthibitishwa, haiwezekani kughairi malipo ya Bitcoin. Ukichagua kujitunza, unadhibiti Bitcoins zako moja kwa moja, ambayo huongeza zaidi uhuru wa kifedha wa biashara yako.
 
 
 Ukiwa na Bitcoin, utapata pia akiba kubwa kwenye kamisheni na ada za benki. Kutumia Bitcoin huondoa hitaji la kununua au kukodisha kituo cha malipo; kompyuta au smartphone rahisi inatosha. Zaidi ya hayo, kwa kukubali malipo ya moja kwa moja ya Bitcoin, unaepuka kamisheni zinazotozwa kwa kawaida kwenye miamala. Hata ukipitia mpatanishi kwa ajili ya uchakataji wa malipo, ada zinazohusishwa na miamala ya Bitcoin kwa ujumla ni ya chini sana kuliko zile za benki za kawaida.
 
-Bitcoin inashiriki faida nyingi na pesa taslimu, lakini inatoa manufaa zaidi kama kipengee. Kwa mfano, jumla ya idadi ya BTC ni fasta kwa makubaliano katika vitengo milioni 21, na kuifanya mali adimu na sugu kwa mfumuko wa bei ya fedha, tofauti na sarafu ya serikali. Kwa kukubali Bitcoin katika biashara yako, una fursa ya kuhifadhi thamani ya hazina yako kwa muda mrefu na kubadilisha mali za kampuni yako.
+Bitcoin inashiriki faida nyingi na pesa taslimu, lakini inatoa manufaa zaidi kama kipengee. Kwa mfano, jumla ya idadi ya BTC ni haraka kwa makubaliano katika vitengo milioni 21, na kuifanya mali adimu na sugu kwa mfumuko wa bei ya fedha, tofauti na sarafu ya serikali. Kwa kukubali Bitcoin katika biashara yako, una fursa ya kuhifadhi thamani ya hazina yako kwa muda mrefu na kubadilisha mali za kampuni yako.
 
 
 Kila siku, malipo ya Bitcoin hutoa urahisi zaidi na kubadilika kuliko pesa taslimu. Faida kubwa ni kwamba huna haja ya kutoa mabadiliko kwa malipo ya Bitcoin, ambayo huondoa haja ya kusimamia rejista ya fedha ya kimwili. Zaidi ya hayo, kukubali bitcoins kunapunguza uwezekano wako wa hatari za wizi, wizi na wizi. Pia, ni sarafu ambayo haiwezi kughushiwa, tofauti na noti.
@@ -50,21 +50,21 @@ Hatimaye, kuunganisha Bitcoin kwenye biashara yako pia kunaweza kuwa sehemu ya m
 Kwa maoni yangu, kukubali Bitcoin kunapaswa kuonekana kama fursa ya hatari kidogo ambayo inaweza kuwa na matokeo chanya kwa biashara yako. Ikiwa uzoefu haujafaulu, gharama zilizotumika zitabaki kuwa ndogo. Gharama kuu iko katika wakati unaohitajika kusanidi suluhisho la kukubali BTC, lakini kama utagundua katika somo hili, sasa ni rahisi sana na haraka kufikia.
 
 
-## Uwasilishaji wa Bitcoin Pay ya Uswizi
+## Uwasilishaji wa swiss-bitcoin-pay
 
-Bitcoin Pay ya Uswizi ni suluhisho linalowaruhusu wafanyabiashara kukubali malipo ya Bitcoin kwa njia ya moja kwa moja. Inaunganisha programu ya PoS (*Pointi ya Uuzaji*) na mtumiaji angavu Interface, ambayo ni rahisi kwa wafanyakazi wako kutumia bila kuhitaji ujuzi wa kina wa kiufundi. Tofauti na Bitcoin Wallet ya jadi, programu ya Uswizi ya Bitcoin Pay inakusudiwa tu kupokea malipo ya Bitcoin, ambayo hukuruhusu kukabidhi kifaa kwa wafanyikazi bila hatari. Una chaguo la kutumia programu nyingi za PoS zilizounganishwa kwenye akaunti sawa ya Uswizi ya Bitcoin Pay, kuwezesha utumaji wao iwe kwenye kompyuta kibao, kwenye rejista, au kwenye simu mahiri za wafanyakazi wako. Programu ya Uswizi ya Bitcoin Pay inaweza kusakinishwa kwenye vifaa vya Android na iOS, na inapatikana pia katika toleo la wavuti la kompyuta.
+swiss-bitcoin-pay-2 ni suluhisho linalowaruhusu wafanyabiashara kukubali malipo ya Bitcoin kwa njia ya moja kwa moja. Inaunganisha programu ya PoS (*Point of sale*) na mtumiaji angavu Interface, ambayo ni rahisi kwa wafanyakazi wako kutumia bila kuhitaji ujuzi wa kina wa kiufundi. Tofauti na Bitcoin Wallet ya jadi, programu ya Uswizi ya Bitcoin Pay inakusudiwa tu kupokea malipo ya Bitcoin, ambayo hukuruhusu kukabidhi kifaa kwa wafanyikazi bila hatari. Una chaguo la kutumia programu nyingi za PoS zilizounganishwa kwenye akaunti sawa ya Uswizi ya Bitcoin Pay, kuwezesha utumaji wao iwe kwenye kompyuta kibao, kwenye rejista, au kwenye simu mahiri za wafanyakazi wako. Programu ya Uswizi ya Bitcoin Pay inaweza kusakinishwa kwenye vifaa vya Android na iOS, na inapatikana pia katika toleo la wavuti la kompyuta.
 
 
-Bitcoin Pay ya Uswisi inatoa chaguzi mbili za kudhibiti malipo: pesa zinaweza kutolewa moja kwa moja katika Bitcoin hadi Address mahususi au kubadilishwa kuwa sarafu ya fiat na kuwekwa kwenye akaunti ya benki. Operesheni hii ni ya kiotomatiki na hufanyika kila siku kila masaa 24. Kwa hivyo, sio lazima usimamie malipo ya Bitcoin wewe mwenyewe au yale kupitia Lightning Network; Swiss Bitcoin Pay inashughulikia kila kitu kwa ajili yako. Kila siku, utapokea salio la malipo katika Wallet yako binafsi au akaunti ya benki, kulingana na upendavyo. Ingawa si suluhu ya 100% isiyo ya ulezi kama ile inayotolewa na Seva ya BTCPay, kwa mfano, Swiss Bitcoin Pay inawakilisha maelewano ya kuvutia kati ya urahisi na usalama, kwani mpatanishi hushikilia risiti zako kwa saa 24 pekee kabla ya kukuhamishia pesa. Zaidi ya hayo, tofauti na masuluhisho mengine ya ulezi, Swiss Bitcoin Pay haihitaji uthibitishaji wowote wa utambulisho (KYC) kwa biashara yako.
+swiss-bitcoin-pay inatoa chaguzi mbili za kudhibiti malipo: pesa zinaweza kutolewa moja kwa moja katika Bitcoin hadi Address mahususi au kubadilishwa kuwa sarafu ya fiat na kuwekwa kwenye akaunti ya benki. Operesheni hii ni ya kiotomatiki na hufanyika kila siku kila masaa 24. Kwa hivyo, sio lazima usimamie malipo ya Bitcoin wewe mwenyewe au yale kupitia Lightning Network; Swiss Bitcoin Pay inashughulikia kila kitu kwa ajili yako. Kila siku, utapokea salio la malipo katika Wallet yako binafsi au akaunti ya benki, kulingana na upendavyo. Ingawa si suluhu ya 100% isiyo ya ulezi kama ile inayotolewa na Seva ya BTCPay, kwa mfano, Swiss Bitcoin Pay inawakilisha maelewano ya kuvutia kati ya urahisi na usalama, kwani mpatanishi hushikilia risiti zako kwa saa 24 pekee kabla ya kukuhamishia pesa. Zaidi ya hayo, tofauti na masuluhisho mengine ya ulezi, Swiss Bitcoin Pay haihitaji uthibitishaji wowote wa utambulisho (KYC) kwa biashara yako.
 
 
 Ada zinazohusiana na kutumia Swiss Bitcoin Pay ni za ushindani sana: mwaka wa kwanza, tume ya 0.21% inatumika kwa shughuli. Baadaye, ada ni 1% kwa malipo yaliyowekwa katika Bitcoin na 1.5% kwa wale waliobadilishwa kuwa sarafu ya fiat. Hata hivyo, inafaa kuzingatia kwamba kwa malipo, wao hulipa 100% ya ada za ununuzi wa Bitcoin kwa uondoaji wako wote.
 
 
-Kwa hivyo Bitcoin Pay ya Uswisi inajionyesha kama njia mbadala ya kuvutia kati ya suluhu zilizozuiliwa kikamilifu na mifumo ngumu zaidi inayojiendesha kama vile Seva ya BTCPay. Ni maelewano mazuri kati ya urahisi, usalama, na uhuru wa kifedha kwa mfanyabiashara.
+Kwa hivyo swiss-bitcoin-pay inajionyesha kama njia mbadala ya kuvutia kati ya suluhu zilizozuiliwa kikamilifu na mifumo ngumu zaidi inayojiendesha kama vile Seva ya BTCPay. Ni maelewano mazuri kati ya urahisi, usalama, na uhuru wa kifedha kwa mfanyabiashara.
 
 
-## Jinsi ya kuunda akaunti ya Uswizi ya Bitcoin Pay?
+## Jinsi ya kuunda akaunti ya swiss ya Bitcoin Pay?
 
 
 Tembelea [tovuti rasmi ya Uswizi ya Bitcoin Pay](https://swiss-Bitcoin-pay.ch/).
@@ -109,21 +109,21 @@ Chaguo la "*onchain*" hukuruhusu kupokea malipo yako yote kwa Bitcoin Address mo
 Ukichagua kupokea malipo yako katika bitcoins onchain, ni vyema kutumia ufunguo uliopanuliwa wa umma na chaguo la "*x/y/zpub*". Kwa njia hii, Bitcoin Pay ya Uswizi inaweza kupata Address mpya, isiyotumika kwa kila uondoaji.
 
 
-Ikiwa unatarajia kiasi cha chini cha malipo ya Bitcoin, unaweza pia kuchagua kupokea malipo moja kwa moja kupitia Lightning Network. Ili kufanya hivyo, utahitaji kutoa umeme wa Address. Pesa zako zitatumwa mara baada ya kila malipo, tofauti na chaguo za onchain ambazo hupanga risiti zote kuwa malipo moja ya kila siku.
+Ikiwa unatarajia kiasi cha chini cha malipo ya Bitcoin, unaweza pia kuchagua kupokea malipo moja kwa moja kupitia Lightning Network. Ili kufanya hivyo, utahitaji kutoa lightning Address. Pesa zako zitatumwa mara baada ya kila malipo, tofauti na chaguo za onchain ambazo hupanga risiti zote kuwa malipo moja ya kila siku.
 
 
-Bila shaka, chaguo hili linaathiri tu njia ya malipo ya Uswisi Bitcoin Pay kwa biashara yako. Wateja wako bado wanaweza kukulipa kupitia Lightning Network au onchain, bila kujali chaguo utalochagua hapa.
+Bila shaka, chaguo hili linaathiri tu njia ya malipo ya swiss Bitcoin Pay kwa biashara yako. Wateja wako bado wanaweza kukulipa kupitia Lightning Network au onchain, bila kujali chaguo utalochagua hapa.
 
 
-Kwa mafunzo haya, nitachagua kupokea malipo yangu kupitia Umeme. Kwa madhumuni ya elimu na kuhifadhi usiri wa nodi yangu halisi ya Umeme, nitatumia Wallet bandia ya Satoshi kwa uondoaji. Hata hivyo, ninashauri sana dhidi ya kutumia Bitcoin Wallet iliyohifadhiwa, iwe kwa uondoaji kwenye LN au onchain.
+Kwa mafunzo haya, nitachagua kupokea malipo yangu kupitia Lightning. Kwa madhumuni ya elimu na kuhifadhi usiri wa node yangu halisi ya lightning, nitatumia Wallet bandia ya Satoshi kwa uondoaji. Hata hivyo, ninashauri sana dhidi ya kutumia Bitcoin Wallet iliyohifadhiwa, iwe kwa uondoaji kwenye LN au onchain.
 
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 
-Kisha utahitaji kulipa sati 1 ili uthibitishe Umeme wako wa Address. Kwa upande wa Bitcoin Address, utahitaji kutoa saini na ufunguo wa faragha unaolingana na Address hiyo.
+Kisha utahitaji kulipa sati 1 ili uthibitishe lightning Address yako. Kwa upande wa Bitcoin Address, utahitaji kutoa saini na ufunguo wa faragha unaolingana na Address hiyo.
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Hatimaye, una chaguo la kuongeza msimbo wa rufaa. Ikiwa ungependa kutuunga mkono, unaweza kutumia msimbo "*DiscoverBitcoin*" ili sehemu ya tume zako ishirikiwe nasi. Asante! :)![SWISS Bitcoin PAY](mali/notext/12.webp)
+Hatimaye, una chaguo la kuongeza msimbo wa rufaa. Ikiwa ungependa kutuunga mkono, unaweza kutumia msimbo "*DiscoverBitcoin*" ili sehemu ya tume zako ishirikiwe nasi. Asante!:)![SWISS Bitcoin PAY](mali/notext/12.webp)
 
 Mara tu habari yote imejazwa, bofya kitufe cha "*Tuma*".
 
@@ -168,7 +168,7 @@ Sasa umeunganishwa kwenye mfumo wa PoS kama mfanyakazi, kumaanisha kuwa mashine 
 
 ![SWISS BITCOIN PAY](assets/notext/22.webp)
 
-Ukipenda, unaweza kubadilisha jina la PoS linaloonekana wakati wa malipo katika akaunti yako ya msimamizi. Unaweza kutaja terminal kulingana na eneo lake maalum (kwa mfano, "*Bar Mezzanine*", "*Hifadhi ya Huduma*", "*Mhudumu Mkuu wa Mraba No. 3*", "*Msaidizi wa Chumba Nambari 2*", "*Daftari la Fedha No. 7*", "*Terrace*", "*Express Checkout*", "*Mapokezi*", "*Tumia Mfanyakazi*" au "Tunamtumia* Mfanyakazi. Ili kufanya hivyo, bofya jina la sasa la PoS lililo chini ya jina la kampuni iliyo juu ya skrini. ![SWISS Bitcoin PAY](mali/notext/23.webp)
+Ukipenda, unaweza kubadilisha jina la PoS linaloonekana wakati wa malipo katika akaunti yako ya msimamizi. Unaweza kutaja terminal kulingana na eneo lake maalum (kwa mfano, "**Bar Mezzanine**", "**Hifadhi ya Huduma**", "**Mhudumu Mkuu wa Mraba No. 3**", "**Msaidizi wa Chumba Nambari 2**", "**Daftari la Fedha No. 7**", "**Terrace**", "**Express Checkout**", "**Mapokezi**", "**Tumia Mfanyakazi**" au "**Tunamtumia Mfanyakazi**". Ili kufanya hivyo, bofya jina la sasa la PoS lililo chini ya jina la kampuni iliyo juu ya skrini. ![SWISS Bitcoin PAY](mali/notext/23.webp)
 
 Kumbuka jina jipya la kichakataji hiki cha malipo, kisha ubofye kitufe cha "*Tuma*".
 
@@ -189,11 +189,11 @@ Kisha bonyeza kitufe cha "*OK*".
 
 ![SWISS BITCOIN PAY](assets/notext/27.webp)
 
-Subiri kwa sekunde chache kwa Uswizi Bitcoin Pay ili kuunda Umeme Invoice na Address inayopokea.
+Subiri kwa sekunde chache kwa Uswizi Bitcoin Pay ili kuunda lightning Invoice na Address inayopokea.
 
 ![SWISS BITCOIN PAY](assets/notext/28.webp)
 
-Kisha mfumo wa PoS utaonyesha msimbo wa QR uliounganishwa ambao unawaruhusu wateja wako kufanya malipo yao kupitia Lightning Network au onchain (ni msimbo sawa wa QR kwa njia zote mbili). Ikiwa kifaa chako kinaruhusu, malipo yanaweza pia kufanywa kupitia kadi ya Umeme kwa kutumia teknolojia ya NFC.
+Kisha mfumo wa PoS utaonyesha msimbo wa QR uliounganishwa ambao unawaruhusu wateja wako kufanya malipo yao kupitia Lightning Network au onchain (ni msimbo sawa wa QR kwa njia zote mbili). Ikiwa kifaa chako kinaruhusu, malipo yanaweza pia kufanywa kupitia kadi ya lightning kwa kutumia teknolojia ya NFC.
 
 ![SWISS BITCOIN PAY](assets/notext/29.webp)
 

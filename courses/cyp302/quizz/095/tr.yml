@@ -1,0 +1,9 @@
+question: Bir MAC, Alice'ın bir mesajın gerçekten Bob'den geldiğini doğrulamasına nasıl izin verir?
+answer: Oluşturulan etiketin Bob tarafından gönderilen etiketle eşleşip eşleşmediğini kontrol ederek
+wrong_answers:
+  - Okunabilir olup olmadığını görmek için mesajın şifresini çözerek
+  - Mesajın boyutu ile etiketin boyutunu karşılaştırarak
+  - Gönderenin IP'sini doğrulayarak Address
+explanation: |
+  Alice paylaşılan gizli anahtarı kullanarak generate'e alınan mesajdan bir etiket gönderir. Bu etiket Bob tarafından gönderilen etiketle eşleşirse, mesajın gerçek ve bozulmamış olduğunu bilir.
+reviewed: false

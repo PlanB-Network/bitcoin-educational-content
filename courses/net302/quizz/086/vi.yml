@@ -1,0 +1,9 @@
+question: Lệnh nào được khuyến nghị để phân tích các kết nối TCP và UDP đang hoạt động trên hệ thống Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - liên kết ip
+  - nếu lên
+explanation: |
+  Lệnh ss thay thế netstat để nhanh chóng hiển thị tất cả các kết nối mạng đang hoạt động.
+reviewed: false

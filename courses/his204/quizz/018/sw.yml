@@ -1,0 +1,8 @@
+question: Madhara ya Cantillon ni nini?
+answer: Kuongezeka kwa kiasi cha fedha katika nchi huathiri mgawanyo wa mapato
+wrong_answers:
+  - Kuongezeka kwa kiasi cha pesa kuna athari kwa tabia ya watu
+  - Kuongezeka kwa kiasi cha pesa kunaathiri kiasi cha deni la umma
+  - Kuongeza kiasi cha pesa hakuna athari kubwa
+explanation: |
+  Athari za Cantillon zinaelezea jinsi ongezeko la pesa Supply linavyoathiri bei na mapato kwa njia tofauti katika sekta tofauti za uchumi. Sindano ya fedha mpya haina kuenea sawasawa, na kujenga kuvuruga na kutofautiana.

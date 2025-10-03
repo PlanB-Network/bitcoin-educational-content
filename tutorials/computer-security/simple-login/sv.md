@@ -1,5 +1,5 @@
 ---
-name: Enkel inloggning
+name: Simple Login
 description: Identitet skyddad med alias
 ---
 ![cover](assets/cover.webp)
@@ -12,13 +12,13 @@ I den digitala världen har det blivit standard att ha ett konto för varje plat
 Var och en av dessa tjänster kräver en inloggning, som vanligtvis är kopplad till paret _användarnamn_ och _lösenord_. Ofta är användarnamnet användarens personliga e-postadress.
 
 
-När man använder sin personliga e-post Address för varje inloggning är det lätt att föreställa sig den första konsekvensen: förlust av sekretess, vilket blir större om Address består av _name.surname@serviceemail.com_.
+När man använder sin personliga e-post Address för varje inloggning är det lätt att föreställa sig den första konsekvensen: förlust av integritet, vilket blir större om Address består av _name.surname@serviceemail.com_.
 
 
 Utvecklare av verktyg med öppen källkod har skapat en rad programsviter som är skapade just för att användarna ska få tillbaka lite av sin integritet: de kommer fortfarande att logga in, men med ett alias istället för med det verktyg som avslöjar deras privata identitet.
 
 
-Den enklaste av dem som jag personligen har provat och fortfarande testar är [Simple Login] (https://simplelogin.io/).
+Den enklaste, bland dem jag personligen har provat och fortfarande testar, är just [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -57,7 +57,7 @@ Det bör noteras att Simple Login automatiskt aktiverar prenumerationen på nyhe
 ## Inställningar
 
 
-Du kan ta en titt på _Settings_ direkt för att upptäcka tjänstens funktioner. Simple Login startar med alla alternativ aktiva, inklusive _Premium_, som är användbara i 10 dagar. När testperioden är över kommer du att ha möjlighet att skapa 10 alias med den här profilen och du kan direkt länka din Proton-e-post, eftersom Simple Login har förvärvats av den schweiziska e-postleverantören.
+Du kan ta en titt på _Settings_ direkt för att upptäcka funktionerna i tjänsten. Simple Login startar med alla alternativ aktiva, inklusive _Premium_, som förblir användbara i 10 dagar. När testperioden är över kommer du att ha möjlighet att skapa 10 alias med den här profilen och du kan direkt länka din Proton-e-post, eftersom Simple Login har förvärvats av den schweiziska e-postleverantören.
 
 
 ![image](assets/it/07.webp)
@@ -90,7 +90,7 @@ Från huvudpanelen, genom att välja _Mailboxes_, är det till och med möjligt 
 ![image](assets/it/11.webp)
 
 
-Genom att lägga till en ny Address, särskilt om den tillhör Proton-leverantören, visar den guidade proceduren möjligheten att gå in i _sudo_-läge, superanvändare. Enkel inloggning kommer att be om att få ange lösenordet för den här brevlådan, för att bevisa att Ownership är legitimt.
+Genom att lägga till en ny Address, särskilt om den tillhör Proton-leverantören, visar den guidade proceduren möjligheten att gå in i _sudo_-läge, superanvändare. Enkel inloggning kommer att be om att få ange lösenordet för den här brevlådan, för att bevisa att Ownership är legitim.
 
 
 ⚠️ **Jag avråder personligen från att göra detta**. ⚠️
@@ -190,7 +190,7 @@ Resultatet är dock att vi har bevarat den viktigaste Address som vi, från det 
 Ett alias fungerar både för mottagning och sändning: en annan användare kommer att få svaret från alias.preoccupy789@8shield.net, om detta är den pseudonym som valts för just den mottagaren.
 
 
-## Proffs
+## Fördelar
 
 
 Att använda alias är ett effektivt sätt att skydda din identitet och integritet. E-postadresser samlas ofta in av datamäklare och webbplatser för att spåra användarnas vanor och beteenden. Även om ett alias inte gör dig helt ospårbar är det ett positivt steg mot att skydda din information om du konsekvent använder ett. I vår "globala digitala by", där hacking, dataförsäljning och säkerhetsbrister är alltför vanliga, är det dessutom mycket troligt att den e-postadress du använder för att registrera dig på olika webbplatser redan har äventyrats eller utsatts för angrepp.

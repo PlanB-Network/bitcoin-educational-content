@@ -13,6 +13,12 @@ Olvid är en fransk applikation för snabbmeddelanden som lanserades 2019 och so
 Alla meddelanden krypteras från början till slut med hjälp av ett originalkryptografiskt protokoll, som är utformat för att skydda även metadata: ingen vet vem du pratar med eller när. Klientkoden är öppen källkod, men den centrala servern som används för att dirigera krypterade meddelanden är fortfarande proprietär och finns på AWS.
 
 
+Olvids säkerhetsmodell bygger på en nyckelprincip: den fullständiga avsaknaden av betrodda tredje parter vid upprättandet av digitala identiteter. Till skillnad från de flesta krypterade budbärare som förlitar sig på en centraliserad katalog för att hantera användaridentiteter, är Olvid inte beroende av någon centraliserad infrastruktur för att säkerställa kommunikationens integritet. Denna arkitektur eliminerar de risker som är förknippade med katalogkompromisser.
+
+
+Olvid använder dock en central server för distribution av meddelanden, som är strikt begränsad till en logistisk roll: den hanterar den asynkrona överföringen av krypterade meddelanden. Denna server spelar ingen roll i krypteringsprocessen, känner varken till användarnas verkliga identiteter eller innehållet eller metadata i meddelandena (förutom mottagarens publika nyckel, som är nödvändig för routning). Den kan därför betraktas som fientlig som standard utan att systemets övergripande säkerhet äventyras. Även om den skulle komprometteras skulle den inte ge någon tillgång till meddelandets innehåll. Olvid förutsätter således centralisering för leverans av meddelanden (för effektivitet och tjänstekvalitet), samtidigt som det garanterar säkerhet som är oberoende av denna infrastruktur.
+
+
 
 Olvid erbjuder en gratisversion och en abonnemangsversion för 4,99 euro per månad. Den kostnadsfria versionen erbjuder full funktionalitet, med undantag för att ringa ljud- och videosamtal (även om det är möjligt att ta emot dem), och tillåter inte kontosynkronisering mellan flera enheter. Så om du planerar att använda din smartphone uteslutande och inte behöver ringa samtal är Olvid en utmärkt lösning.
 
@@ -21,26 +27,25 @@ Olvid erbjuder en gratisversion och en abonnemangsversion för 4,99 euro per må
 Olvid är certifierat av ANSSI (den franska cybersäkerhetsmyndigheten). Denna applikation är ett utmärkt alternativ till traditionella meddelandetjänster (WhatsApp, Facebook Messenger, WeChat ...) för dem som söker integritet samtidigt som de behåller enkelheten i användningen.
 
 
-
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Application          | E2EE 1:1      | E2EE groups   | Anonymous registration | Open-source client license | Open-source server license | Decentralized server | Year of creation |
+| -------------------- | ------------- | ------------- | ---------------------- | -------------------------- | -------------------------- | -------------------- | ---------------- |
+| WhatsApp             | ✅             | ✅             | ❌                      | ❌                          | ❌                          | ❌                    | 2009             |
+| WeChat               | ❌             | ❌             | ❌                      | ❌                          | ❌                          | ❌                    | 2011             |
+| Facebook Messenger   | ✅             | 🟡 (optional) | ❌                      | ❌                          | ❌                          | ❌                    | 2011             |
+| Telegram             | 🟡 (optional) | ❌             | 🟡                     | ✅                          | ❌                          | ❌                    | 2013             |
+| LINE                 | ✅             | ✅             | ❌                      | ❌                          | ❌                          | ❌                    | 2011             |
+| Signal               | ✅             | ✅             | ❌                      | ✅                          | ✅                          | ❌                    | 2014             |
+| Threema              | ✅             | ✅             | ✅                      | ✅                          | ❌                          | ❌                    | 2012             |
+| Element (Matrix)     | ✅             | ✅             | ✅                      | ✅                          | ✅                          | 🟡 (federated)       | 2016             |
+| Delta Chat           | ✅             | ✅             | ✅                      | ✅                          | N/A                        | 🟡 (via email)       | 2017             |
+| Conversations (XMPP) | ✅             | ✅             | ✅                      | ✅                          | ✅                          | 🟡 (federated)       | 2014             |
+| Session              | ✅             | ✅             | ✅                      | ✅                          | ✅                          | ✅                    | 2020             |
+| SimpleX              | ✅             | ✅             | ✅                      | ✅                          | ✅                          | ✅                    | 2021             |
+| **Olvid**            | **✅**         | **✅**         | **✅**                  | **✅**                      | **❌**                      | 🟡(no directory)     | **2019**         |
+| Keet                 | ✅             | ✅             | ✅                      | ❌                          | N/A                        | ✅                    | 2022             |
+| Jami                 | ✅             | ✅             | ✅                      | ✅                          | N/A                        | ✅                    | 2005             |
+| Briar                | ✅             | ✅             | ✅                      | ✅                          | N/A                        | ✅                    | 2018             |
+| Tox                  | ✅             | ✅             | ✅                      | ✅                          | N/A                        | ✅                    | 2013             |
 
 *E2EE = End-to-end-kryptering*
 
@@ -110,6 +115,8 @@ Ditt konto är nu skapat.
 
 För att förhindra förlust av åtkomst till ditt Olvid-konto rekommenderar vi att du ställer in automatiska säkerhetskopior. För att göra detta, öppna inställningarna genom att klicka på de tre prickarna längst upp till höger i Interface och välj sedan "*Inställningar*".
 
+
+⚠️ **Varning**: Sedan Olvid version 3.7 har proceduren för säkerhetskopiering av dina profiler och kontakter ersatts av en ny. Denna handledning presenterar fortfarande den gamla versionen. Du kan upptäcka den nya versionen på deras FAQ: [💾 Säkerhetskopiera dina profiler](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 
 ![Image](assets/fr/06.webp)
@@ -240,7 +247,7 @@ Grattis, du har nu kommit igång med att använda Olvid messaging, ett bra alter
 
 
 
-Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail :
+Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail:
 
 
 

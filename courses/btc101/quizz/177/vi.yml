@@ -1,10 +1,9 @@
-question: Sự kiện đáng chú ý nào đã diễn ra trong thế giới tiền mã hóa vào năm 2017?
-answer: Việc ra mắt hàng nghìn Đợt Phát Hành Tiền Mã Hóa Đầu Tiên (ICOs).
+question: Một trong những lý do Bitcoin không phải là bong bóng sẽ biến mất là gì?
+answer: Bởi vì đó là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
 wrong_answers:
-  - Việc cấm Bitcoin.
-  - Việc tạo ra Bitcoin.
-  - Sự biến mất của tất cả các loại tiền mã hóa.
+  - Bởi vì nó thực sự không được sử dụng ở bất cứ đâu.
+  - Bởi vì nó được kiểm soát bởi một cơ quan trung ương.
+  - Bởi vì nó dễ bị làm giả.
 explanation: >-
-  Năm 2017 được đánh dấu bởi một bong bóng đầu cơ đáng kể trong thế giới tiền mã hóa,
-  đặc biệt là với việc ra mắt hàng nghìn Đợt Phát Hành Tiền Mã Hóa Đầu Tiên (ICOs).
+  Bitcoin không phải là bong bóng sẽ biến mất mà là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
 reviewed: true

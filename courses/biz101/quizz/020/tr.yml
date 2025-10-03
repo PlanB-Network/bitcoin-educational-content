@@ -1,0 +1,9 @@
+question: Borca dayalı bir para sistemi bağlamında "gizli enflasyon" nedir?
+answer: Supply parasındaki artış (yılda yaklaşık %7), yatırım yapmazsanız veya varlıklarınızı buna göre büyütmezseniz toplam değerdeki payınızı azaltır.
+wrong_answers:
+  - Sabit faiz oranları için kullanılan resmi bir ekonomik terimdir.
+  - Merkez bankaları tarafından yayınlanmayan enflasyon rakamlarını ifade eder.
+  - Bu, Supply parası genişlese bile fiyatların asla artmayacağı anlamına gelir.
+explanation: |
+  Gizli enflasyon, Supply parası genişleyerek tasarrufların satın alma gücünü azalttığında ortaya çıkar. Bir işletme proaktif bir şekilde yatırım yapmaz veya servetini korumazsa, bu sessiz parasal seyreltme nedeniyle değer kaybetme riskiyle karşı karşıya kalır.
+reviewed: false

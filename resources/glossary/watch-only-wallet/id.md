@@ -1,5 +1,5 @@
 ---
-term: Watch-only wallet
+term: WATCH-ONLY WALLET
 ---
 
-Watch-only wallet adalah jenis perangkat lunak yang memungkinkan pengguna untuk melihat transaksi yang terkait dengan kunci Bitcoin tertentu atau serangkaian kunci, tanpa memiliki kunci pribadi yang sesuai. Ini memberikan visibilitas pada saldo dan riwayat transaksi, tanpa mengizinkan pengguna untuk membelanjakan dana dalam Wallet. Sebagai contoh, aplikasi Sentinel adalah sebuah Watch-only wallet.
+_Watch-only wallet_ adalah jenis perangkat lunak yang memungkinkan pengguna untuk melihat transaksi yang terkait dengan kunci Bitcoin tertentu atau serangkaian kunci, tanpa adanya kunci privat yang sesuai. Dompet ini memberikan visibilitas tentang saldo dan riwayat transaksi, tanpa mengizinkan pengguna untuk membelanjakan dana dalam dompet tersebut. Sebagai contoh, aplikasi Sentinel adalah sebuah _Watch-only wallet_.

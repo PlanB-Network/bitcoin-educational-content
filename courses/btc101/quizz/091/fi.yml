@@ -1,13 +1,9 @@
-question: Mikä on suositeltu käyttötarkoitus offline- eli kylmälle fyysiselle lompakolle?
-answer: Suurten summien säilyttäminen.
+question: Mikä on yksi suositeltu vaihtoehto paperin käytölle muistisanojen säilyttämiseen?
+answer: Kaivertaminen metallilaattaan.
 wrong_answers:
-  - Päivittäisten menojen säilyttäminen.
-  - Pienten summien säilyttäminen.
-  - Lyhytaikaisten säästöjen säilyttäminen.
+  - Säilyttäminen digitaalisessa tiedostossa.
+  - Kirjoittaminen valkotaululle.
+  - Tallentaminen yhteystiedoksi puhelimeesi.
 explanation: |
-  Offline- eli kylmää fyysistä lompakkoa suositellaan
-  suurten summien säilyttämiseen, koska se on vähemmän altis
-  online-uhille kuin kuumat lompakot. Sitä ei kuitenkaan suositella
-  päivittäisiin menoihin, koska se ei ole yhtä helposti saatavilla
-  päivittäisiin transaktioihin.
+  Yksi suositelluista vaihtoehdoista paperille muistisanojen säilyttämiseen on kaivertaminen metallilaattaan. Tämä ratkaisu on kestävämpi ja pitkäikäisempi.
 reviewed: true

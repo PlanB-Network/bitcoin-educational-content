@@ -1,0 +1,9 @@
+question: Wat is de primaire functie van een Lightning Invoice?
+answer: Een betaling aanvragen bij het verzendende knooppunt
+wrong_answers:
+  - Geld versturen zonder On-Chain transactie
+  - HTLC's op een kanaal activeren
+  - Open een nieuw Lightning-kanaal
+explanation: |
+  Een Lightning Invoice is een betalingsverzoek, verzonden door het ontvangende knooppunt naar het verzendende knooppunt om een betaling op Lightning Network te initiëren.
+reviewed: false

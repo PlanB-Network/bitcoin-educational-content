@@ -1,0 +1,13 @@
+question: Vad händer med Mining-belöningen i Bitcoin-nätverket ungefär vart fjärde år?
+answer: Den genomgår en Halving
+wrong_answers:
+  - Den fördubblar
+  - Det tredubblas
+  - Det förblir detsamma
+explanation: |
+  Mining-belöningen i Bitcoin-nätverket genomgår en
+  Halving var 210 000:e block, ungefär vart fjärde
+  år. Denna ersättning fungerar som ett kraftfullt incitament för att
+  att uppmuntra gruvarbetare att delta i Mining-processen
+  trots dess energikostnad.
+reviewed: true

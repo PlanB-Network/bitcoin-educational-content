@@ -1,0 +1,9 @@
+question: Wat is het doel van serviceprimitieven in het TCP/IP-model?
+answer: Uitwisselingen tussen lagen beheren
+wrong_answers:
+  - Netwerkberichten automatisch versleutelen
+  - IP-adressen distribueren naar hosts op afstand
+  - Controleer de totale lengte van IP-pakketten
+explanation: |
+  Serviceprimitieven definiëren de communicatie Interface tussen de verschillende lagen, waardoor netwerkuitwisselingen tot stand kunnen worden gebracht, onderhouden of beëindigd.
+reviewed: false

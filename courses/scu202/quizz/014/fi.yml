@@ -1,0 +1,9 @@
+question: Ketkä olivat Unixin kaksi tärkeintä luojaa?
+answer: Ken Thompson ja Dennis Ritchie
+wrong_answers:
+  - Richard Stallman ja Linus Torvalds
+  - Andrew S. Tanenbaum ja Larry Ewing
+  - Steve Jobs ja Bill Gates
+explanation: |
+  Unixin kehittivät Ken Thompson ja Dennis Ritchie AT&T Bell Labsissa 1960-luvun lopulla ja 1970-luvun alussa.
+reviewed: false

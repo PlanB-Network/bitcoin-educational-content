@@ -1,0 +1,8 @@
+question: Vad skulle kunna vara ett huvudproblem när det gäller banksystemet?
+answer: Bankspelets regler är inte transparenta och begripliga för alla.
+wrong_answers:
+  - Banksystemet är för lätt att förstå.
+  - Banksystemet är alltför transparent.
+  - Banksystemet är för decentraliserat.
+explanation: >-
+reviewed: true

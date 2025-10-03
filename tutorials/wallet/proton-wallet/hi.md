@@ -1,5 +1,5 @@
 ---
-name: प्रोटॉन Wallet
+name: Proton Wallet
 description: प्रोटॉन Bitcoin Wallet को स्थापित करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

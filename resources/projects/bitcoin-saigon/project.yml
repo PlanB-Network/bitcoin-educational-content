@@ -1,0 +1,25 @@
+id: 6113273c-8b76-4021-81a5-0b6746db6b0d
+name: Bitcoin Saigon
+category: communities
+address_city_country: Ho Chi Minh City, Vietnam
+address_line_2:
+address_line_3:
+language:
+  - en
+links:
+  website: https://www.bitcoinsaigon.org/
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-07-02
+    urgency: 1
+    contributor_names: 
+      - Anh-La
+    reward: 0
+tags:
+  - guides
+  - adoption
+  - good-practice
+contributor_names:
+  - Anh-La

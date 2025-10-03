@@ -1,0 +1,9 @@
+question: Vad är en bra metod för att säkra en passphrase?
+answer: Spara den på ett separat fysiskt medium från Mnemonic-fras
+wrong_answers:
+  - Memorera det bara utantill utan att skriva ner det
+  - Spara den på samma fysiska medium som Mnemonic-frasen
+  - Spela in det på ett digitalt medium som Google Drive
+explanation: |
+  passphrase måste sparas fysiskt och separat från Mnemonic-frasen för att förhindra samtidig stöld av båda.
+reviewed: false

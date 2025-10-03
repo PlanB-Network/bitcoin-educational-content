@@ -1,0 +1,9 @@
+question: Varför anses en Mnemonic-fras med 24 ord ofta vara överflödig för en Bitcoin Wallet?
+answer: De härledda nycklarna erbjuder endast 128 bitars säkerhet
+wrong_answers:
+  - Programvaran stöder inte fraser med 24 ord
+  - Det är inte möjligt att härleda publika nycklar
+  - Kortare fraser är inte standardiserade
+explanation: |
+  Även om en fras på 24 ord erbjuder 256 bitars säkerhet, garanterar de privata nycklarna i Bitcoin endast 128 bitars säkerhet, vilket gör överflödet onödigt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hangi büyük güvenlik hatası bir veri sızıntısını domino etkisine maruz bırakır?
+answer: Aynı parolayı birden fazla sitede tekrar kullanma
+wrong_answers:
+  - Herkese açık bir VPN kullanma
+  - Tarama geçmişini çok sık silme
+  - Metin modunda gezinme
+explanation: |
+  Bir parolanın farklı sitelerde tekrar kullanılması, bir hizmetin ele geçirilmesi durumunda saldırganın aynı parolayla diğer hesaplara erişmesine olanak tanır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilket kommandolinjeverktøy anbefales for Linux for å fjerne alle metadata fra et bilde eller en PDF-fil?
+answer: exiftool
+wrong_answers:
+  - notisblokk
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool er et kraftig verktøy for å vise og fjerne metadata fra en lang rekke filer (bilder, PDF-filer, lyd osv.).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket är huvudsyftet med klassisk kryptografi som fortfarande finns kvar i modern kryptografi?
+answer: Sekretess för meddelanden
+wrong_answers:
+  - Förenkling av meddelanden
+  - Upprepning av meddelanden
+  - Automatisering av utskick av meddelanden
+explanation: |
+  Den klassiska kryptografin var främst inriktad på konfidentialitet, och detta mål är fortfarande viktigt i modern kryptografi, även om andra teman, som integritet och äkthet, har lagts till.
+reviewed: false

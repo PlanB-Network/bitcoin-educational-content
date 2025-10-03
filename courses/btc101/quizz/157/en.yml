@@ -1,14 +1,11 @@
-question: What is the Byzantine Generals' Problem?
-answer: It's a problem of coordinating information in a system where the various actors cannot be trusted. 
+question: What is the main advantage of Bitcoin for individuals living under financial oppression or dictatorial regimes?
+answer: Having a chance to escape censorship and banking restrictions.
 wrong_answers:
-  - It's a problem of verifying transactions in a decentralized network. 
-  - It's a problem of preventing double spending in a digital currency. 
-  - It's a problem of maintaining consensus in a centralized network. 
-explanation: |
-  The Byzantine Generals' Problem is a classic problem in
-  distributed computing, which involves achieving consensus
-  in a network where some of the nodes may be faulty or
-  malicious. Bitcoin solves this problem through the use of a
-  blockchain based on Proof of Work, which ensures that all
-  nodes agree on the state of the transaction history.
+  - Using a stable currency that has a fixed value.
+  - Allowing for anonymous transactions.
+  - Getting high returns on investment.
+explanation: >-
+  Bitcoin offers a form of financial freedom by escaping censorship and
+  banking restrictions. This is particularly beneficial for individuals living under
+  financial oppression or a dictatorial regime.
 reviewed: true

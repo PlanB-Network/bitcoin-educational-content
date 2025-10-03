@@ -1,0 +1,9 @@
+question: Vilken är den italienska köpmansstad som Henri Pirenne anser vara den framväxande kapitalismens vagga?
+answer: Venedig.
+wrong_answers:
+  - Genoa.
+  - Florens.
+  - Allt det ovanstående.
+explanation: |
+  Henri Pirenne betraktar Venedig som kapitalismens vagga på grund av dess centrala roll i sjöhandeln och dess tidiga utveckling av avancerade affärsmetoder, som partnerskap och kredit.
+reviewed: true

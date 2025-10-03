@@ -1,0 +1,9 @@
+question: Ni mradi gani ulianzishwa mnamo 1983 kuunda mfumo wa uendeshaji wa bure kabisa?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - Mradi wa Mfumo wa Dirisha wa X
+  - Mpango wa Open Source
+explanation: |
+  Richard Stallman alizindua mradi wa GNU mnamo 1983 ili kuunda mfumo wa uendeshaji wa bure kabisa.
+reviewed: false

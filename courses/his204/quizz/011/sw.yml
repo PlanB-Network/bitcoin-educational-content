@@ -1,0 +1,8 @@
+question: Je, Boisguilbert ana uhusiano gani na Vauban?
+answer: Kwa kuelezea kwa kirefu mateso ya watu wa vijijini na kwa kupendekeza ushuru wa uwiano kwa wote
+wrong_answers:
+  - Kwa kuelezea kwa kirefu mateso ya watu wa vijijini, na kwa kuanza kazi yake kama mwandishi
+  - Kwa kuwa amependekeza ushuru wa uwiano kwa wote na kwa kuwa Waziri wa Fedha
+  - Kuwa Waziri wa Fedha na kuanza na taaluma ya fasihi
+explanation: |
+  Pierre Le Pesant, sieur de Boisguilbert, kama Vauban, alikuwa mtazamaji makini wa masaibu ya wakulima na alipendekeza mageuzi ya kodi kulingana na kodi sawia. Hata hivyo, tofauti na Colbert, wala Boisguilbert wala Vauban hawakuwa mawaziri wa fedha.

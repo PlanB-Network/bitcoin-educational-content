@@ -1,0 +1,2 @@
+description: |
+  Besplatan, decentralizovan protokol za šifrovanu komunikaciju, dizajniran da ponudi sigurnu alternativu centralizovanim uslugama. Tox funkcioniše na peer-to-peer osnovi, omogućavajući instant poruke, glasovne pozive, videokonferencije i prenos fajlova, dok garantuje poverljivost razmene zahvaljujući end-to-end enkripciji zasnovanoj na libsodium. Rođen 2013. godine nakon otkrića Edvarda Snoudena, Tox ima za cilj da ponudi jednostavnu komunikaciju koja poštuje privatnost putem modularne arhitekture i klijenata na više platformi.

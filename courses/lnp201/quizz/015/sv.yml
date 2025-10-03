@@ -1,0 +1,9 @@
+question: Vad återspeglar en Commitment Transaction i en Lightning-kanal?
+answer: Den nya fördelningen av medel mellan de två parterna
+wrong_answers:
+  - Det totala antalet transaktioner som gjorts
+  - Beloppet för de avgifter som ska betalas för transaktionen
+  - Öppnandet av en ny betalningskanal
+explanation: |
+  En Commitment Transaction representerar den aktuella fördelningen av medel i kanalen efter varje blixttransaktion, men publiceras inte på Blockchain så länge kanalen förblir öppen.
+reviewed: false

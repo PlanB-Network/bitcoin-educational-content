@@ -1,0 +1,10 @@
+question: Bland dessa 3 protokoll, vilket är inte en implementering av CoinJoin?
+answer: Kedjeanalys.
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+explanation: |
+  Chainalysis är inte alls en implementering av CoinJoin, eftersom det är ett Blockchain-analysföretag.
+  
+reviewed: false

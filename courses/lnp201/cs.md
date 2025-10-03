@@ -86,7 +86,7 @@ Vezměme si příklad transakce v Lightning Network. Pokud Alice chce poslat 40 
 
 **Kapacita kanálu**, která činí 130 000 satoshi, zůstává konstantní. To, co se mění, je rozdělení prostředků. Tento systém neumožňuje posílat více prostředků, než kolik máte. Například, pokud by Bob chtěl poslat zpět 80 000 satoshi Alici, nemohl by, protože má pouze 70 000.
 
-Další způsob, jak si představit rozdělení prostředků, je představit si **posuvník**, který ukazuje, kde se prostředky v kanálu nacházejí. Původně, s 100 000 satoshi pro Alici a 30 000 pro Boba, je posuvník logicky na straně Alice. Po transakci 40 000 satoshi se posuvník mírně posune na stranu Boba, který nyní má 70 000 satoshi.
+Další způsob, jak si představit alokaci prostředků, je představit si **kurzor**, který ukazuje, kde se prostředky v kanálu nacházejí. Na začátku, se 100 000 satoshi pro Alici a 30 000 pro Boba, je kurzor spíše na Bobově straně, protože Alice má mnohem více prostředků. Po transakci 40 000 satoshi se kurzor mírně posune na Alicinu stranu, která nyní vlastní 60 000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 
@@ -528,12 +528,12 @@ Pro lepší pochopení fungování poplatků se podívejme na stejnou Lightning 
 Pro stejnou platbu **40 000 satoshi** Bobovi bude muset Alice poslat o něco více, protože každý prostředník si odečte své poplatky:
 
 - **Carol** odečte 1,04 satoshi na kanálu s Bobem:
-  $$ f*{\text{Carol-Bob}} = \text{základní poplatek} + \left(\frac{\text{ppm} \times \text{částka}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{základní poplatek} + \left(\frac{\text{ppm} \times \text{částka}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats} $$
 
 - **Suzie** odečte 8 satoshi na poplatcích na kanálu s Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{základní poplatek} + \left(\frac{\text{ppm} \times \text{částka}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{základní poplatek} + \left(\frac{\text{ppm} \times \text{částka}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ sats} $$
 
 Celkové poplatky za tuto platbu na této cestě jsou tedy **9,04 satoshi**. Alice tedy musí poslat **40 009,04 satoshi**, aby Bob přesně obdržel **40 000 satoshi**.
 

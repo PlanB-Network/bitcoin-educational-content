@@ -25,7 +25,25 @@ I have integrated the `appdirs` library to manage user-specific configuration. I
 
 ```bash
 pip install -r requirements.txt
-````
+```
+
+### Debian quick-start
+
+1. Ensure you have **Python 3.8 +** installed.
+2. From the *data-creator* folder, run the installation script:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+This script will install the system package python3-tk (required by Tkinter/CustomTkinter), upgrade pip, install all Python dependencies from requirements.txt.
+
+Then launch the app:
+```bash
+chmod +x run.sh
+./run.sh
+```
 
 ## How to Use
 

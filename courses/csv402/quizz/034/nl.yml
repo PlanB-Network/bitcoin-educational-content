@@ -1,0 +1,9 @@
+question: Welke actie voert Bob (ontvanger) uit als hij de Terminal Consignment van Alice (betaler) heeft ontvangen?
+answer: Geldigheid van State Transition controleren en ondertekenen
+wrong_answers:
+  - Wijzig Contract Schema en stuur het naar Alice
+  - Een Invoice aanmaken voor een nieuwe bewerking
+  - Alice's PSBT ondertekenen en onchain verspreiden
+explanation: |
+  Bob onderzoekt de Consignment, controleert of de overgang aan de regels voldoet en tekent af om zijn akkoord te bevestigen.
+reviewed: false

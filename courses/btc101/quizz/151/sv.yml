@@ -1,0 +1,8 @@
+question: Vad är syftet med Proof of Work i Bitcoin-nätverket?
+answer: Proof of Work säkerställer informationens riktighet utan att lita på en tredje part.
+wrong_answers:
+  - Proof of Work används för att skapa nya bitcoins genom att lita på en tredje part.
+  - Proof of Work används för att verifiera Bitcoin-transaktioner genom att lita på en tredje part.
+  - Proof of Work används för att ändra Bitcoin-protokollet utan att lita på en tredje part.
+explanation: >-
+reviewed: true

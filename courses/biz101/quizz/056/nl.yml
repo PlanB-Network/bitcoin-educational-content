@@ -1,0 +1,9 @@
+question: Hoe verschilt een niet-vrijwillige Wallet in functionaliteit voor Starter-gebruikers?
+answer: Het geeft de bedrijfseigenaar volledige controle over de privésleutels
+wrong_answers:
+  - Het kan bitcoins automatisch omzetten naar fiatvaluta
+  - Het vereist geen back-upprocedures of beveiligingsmaatregelen
+  - Het beheert alle transacties via een service van derden
+explanation: |
+  Non-custodial wallets leggen de controle over privésleutels en transacties volledig in handen van de gebruiker.
+reviewed: false

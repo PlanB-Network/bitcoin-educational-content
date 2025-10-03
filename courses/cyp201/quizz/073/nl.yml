@@ -1,0 +1,9 @@
+question: Welke index vertegenwoordigt de externe keten van een account in een afleidingspad?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  De externe keten wordt geïdentificeerd door de index /0/ op diepte 4 van het afleidingspad.
+reviewed: false

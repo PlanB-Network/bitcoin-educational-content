@@ -1,0 +1,9 @@
+question: Quel est l’intérêt principal d’exécuter des applications dans une sandbox ou une machine virtuelle ?
+answer: Limiter l’impact d’une compromission
+wrong_answers:
+  - Accélérer l’exécution des programmes
+  - Réduire la consommation de mémoire vive
+  - Augmenter la vitesse de connexion réseau
+explanation: |
+  Le sandboxing et la virtualisation servent avant tout à isoler les applications ou systèmes pour contenir d’éventuelles attaques.
+reviewed: false

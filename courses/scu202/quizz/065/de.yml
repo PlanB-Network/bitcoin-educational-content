@@ -1,0 +1,9 @@
+question: Welche Aussage beschreibt den Modus "Privates Surfen" am besten?
+answer: Sie begrenzt die Aufzeichnung von lokalen Spuren
+wrong_answers:
+  - Es macht das Surfen im Internet anonym
+  - Blockiert alle bösartigen Tracker und Skripte
+  - Es löscht aktive Erweiterungen
+explanation: |
+  Der private Modus verhindert lediglich die lokale Protokollierung des Verlaufs und der Cookies, garantiert aber keine Anonymität im Internet.
+reviewed: false

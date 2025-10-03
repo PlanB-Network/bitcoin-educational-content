@@ -1,0 +1,11 @@
+question: Vad är den potentiella risken med Mining-centralisering i Bitcoin?
+answer: Mining-centralisering i Bitcoin kan potentiellt leda till transaktionscensur och göra nätverket sårbart för attacker, inklusive 51%-attacken, där en aktör eller grupp kontrollerar mer än 50% av nätverkets hashkraft, vilket gör att de kan kontrollera och manipulera nätverket.
+wrong_answers:
+  - Mining:s centralisering i Bitcoin kan potentiellt leda till en minskning av värdet på Bitcoin och göra nätverket sårbart för inflation.
+  - Centralisering av Mining i Bitcoin kan potentiellt leda till en minskning av Block reward och göra nätverket sårbart för stagnation.
+  - Mining centralisering i Bitcoin kan potentiellt leda till en minskning av transaktionshastigheten och göra nätverket sårbart för överbelastning.
+explanation: |
+  Kapitlet förklarar att Mining-centralisering i Bitcoin
+  potentiellt kan leda till transaktionscensur och göra nätverket
+  nätverket sårbart för attacker, inklusive 51%-attacken.
+reviewed: true

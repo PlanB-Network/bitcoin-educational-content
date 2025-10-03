@@ -1,0 +1,9 @@
+question: Hva er en anycast Address i IPv6?
+answer: En Address som er tilordnet flere noder
+wrong_answers:
+  - En Address dedikert til global multicasting
+  - En Address som endres ved hver omstart
+  - En Address reservert for teknisk dokumentasjon
+explanation: |
+  En anycast Address er tilordnet flere enheter, og rutingen leverer pakken til den som er topologisk nærmest.
+reviewed: false

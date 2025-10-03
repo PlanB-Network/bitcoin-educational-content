@@ -1,9 +1,9 @@
-question: Qual è il limite dell'importo di un pagamento indiretto sulla Lightning Network?
-answer: La minima liquidità disponibile in un canale del percorso scelto
+question: Qual è l'importo massimo di fondi utilizzabili per un pagamento indiretto su Lightning Network?
+answer: La minima liquidità disponibile in un canale utilizzato sul percorso scelto
 wrong_answers:
   - Il numero di nodi intermediari coinvolti
   - La capacità totale di Lightning Network
-  - Le commissioni di instradamento impostate da ciascun nodo
+  - Le fee di routing impostate da ciascun nodo
 explanation: |
   L'importo massimo che un pagamento indiretto può trasferire dipende dalla liquidità più bassa disponibile nei canali utilizzati, poiché ogni canale deve adeguare i fondi su ciascun lato.
-reviewed: false
+reviewed: true

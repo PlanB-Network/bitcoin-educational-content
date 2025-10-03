@@ -1,0 +1,12 @@
+question: Her on dakikada bir Blockchain'a yeni bir blok eklenmesini sağlayan mekanizma nedir?
+answer: Zorluk ayarı.
+wrong_answers:
+  - Hız ayarı.
+  - Zaman ayarı.
+  - Blok ayarı.
+explanation: |
+  Yeni bir bloğun eklenmesini sağlayan mekanizma
+  Her on dakikada bir Blockchain zorluk ayarlamasıdır.
+  Bu ayarlama her 2016 blokta bir veya yaklaşık
+  i̇ki hafta.
+reviewed: true

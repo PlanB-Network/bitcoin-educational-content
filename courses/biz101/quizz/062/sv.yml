@@ -1,0 +1,9 @@
+question: Vilken alternativ lösning till Swiss Bitcoin Pay för att acceptera Bitcoin-betalningar för Essential-profilen är 100% depå?
+answer: Öppen nod
+wrong_answers:
+  - BTCPay-server
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node karakteriseras som en helt depåbaserad lösning, vilket skiljer sig från hybridkaraktären hos Swiss Bitcoin Pay.
+reviewed: false

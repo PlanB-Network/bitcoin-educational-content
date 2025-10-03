@@ -1,0 +1,9 @@
+question: Varför betraktas shift-kryptering som symmetrisk kryptering?
+answer: Eftersom samma nyckel används för både kryptering och dekryptering
+wrong_answers:
+  - Eftersom den använder två nycklar, en offentlig och en privat
+  - Eftersom den dekrypterar utan att använda en nyckel
+  - Eftersom nyckeln varierar med varje kryptering
+explanation: |
+  Shift-kryptering betraktas som symmetrisk kryptering eftersom samma nyckel används för att kryptera och dekryptera ett meddelande, vilket garanterar sekretess mellan de parter som delar denna nyckel.
+reviewed: false

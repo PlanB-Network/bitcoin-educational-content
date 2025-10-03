@@ -1,0 +1,9 @@
+question: Quale pratica è consigliata prima di condividere un file online o via e-mail?
+answer: Pulire tutti i metadati
+wrong_answers:
+  - Crittografare tutti i metadati
+  - Autenticare tutti i metadati
+  - Rinominare tutti i metadati
+explanation: |
+  La pulizia dei metadati impedisce la divulgazione involontaria di informazioni sensibili durante la condivisione dei file.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který nástroj dokáže v počítači se systémem Linux analyzovat zabezpečení systému a vytvořit podrobnou zprávu s doporučeními?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Synaptické
+explanation: |
+  Lynis je komplexní nástroj pro audit zabezpečení systému Linux, který vyhledává zranitelnosti a chybné konfigurace systému.
+reviewed: false

@@ -1,0 +1,10 @@
+description: |
+  LNbits ni Mfumo wa Akaunti ya Umeme wa Bitcoin bila malipo na wa chanzo huria wenye Viendelezi. Inakuruhusu kuendesha mfumo wako wa akaunti ya Lightning Network, iwe ni kwako, marafiki na familia, au kwa ulimwengu mzima. LNbits inasaidia vyanzo mbalimbali vya ufadhili vya Lightning Network, ikijumuisha LND, c-umeme, Spark, LNpay, OpenNode, lntxbot, na zaidi.
+  
+  Ukiwa na LNbits, unaweza kuunda akaunti au pochi nyingi na kufikia anuwai ya viendelezi vilivyoundwa na wachangiaji. Viendelezi hivi hukuwezesha kuongeza vipengele kama vile bomba, viungo vya malipo, sehemu za mauzo zinazoweza kushirikiwa, ngome za malipo, tikiti za hafla, michezo ya kete, huduma za seva, na hata jukebox inayoweza kushirikiwa, kati ya zingine nyingi. LNbits hutoa API rahisi ambayo inaweza kuunganishwa kwa nodi nyingi na vyanzo vya ufadhili, na kuifanya iwe rahisi kuunganishwa kwenye mrundikano wako uliopo.
+  
+  Moja ya faida za LNbits ni kwamba unaweza kuitumia mara moja na moja kwa moja kwenye kivinjari chako, bila hitaji la kupakua programu zozote za ziada. Hutumia mifumo ya Quasar na VueJS kwa sehemu yake ya mbele, ikitoa utendakazi wa hali ya juu na miingiliano ya mtumiaji inayoitikia. Kwa upande wa nyuma, LNbits hutumia FastAPI, mfumo wa kisasa na wa utendaji wa juu wa Python API.
+  
+  Ili kuanza na LNbits, unaweza kuangalia hati zao za GitHub, mafunzo ya YouTube, na rasilimali ya Kushangaza ya LNbits. Jumuiya ya LNbits inafanya kazi na inaunga mkono, ikitoa kikundi cha Telegramu kwa watumiaji na wasanidi programu kwa mawazo ya Exchange, kutoa usaidizi, na kuchangia katika uundaji wa programu hii huria na huria.
+  
+  LNbits inatoa suluhu inayoweza kunyumbulika na kupanuliwa ya kudhibiti akaunti za Lightning Network na kuunganisha utendakazi mbalimbali kupitia mfumo wake wa upanuzi.

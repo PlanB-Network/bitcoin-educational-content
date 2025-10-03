@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van de passphrase in een Bitcoin HD Wallet?
+answer: Sleutelafleiding wijzigen om de beveiliging te verbeteren
+wrong_answers:
+  - Openstaande transacties decoderen
+  - UTXO's van generate en Wallet
+  - Bescherm Wallet toegang met gezicht ID
+explanation: |
+  De passphrase fungeert als een tweede veiligheidsfactor en verandert de sleutelafleiding seed om toegang tot de Wallet te voorkomen als de Mnemonic zin gecompromitteerd is.
+reviewed: false

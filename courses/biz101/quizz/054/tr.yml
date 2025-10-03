@@ -1,0 +1,9 @@
+question: Aşağıdaki yazılımlardan hangisi Bitcoin muhasebe çözümlerinden biri değildir?
+answer: Sparrow
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow bir Bitcoin muhasebe çözümü değildir, diğerleri ise öyledir (bir Bitcoin Wallet yazılımıdır).
+reviewed: false

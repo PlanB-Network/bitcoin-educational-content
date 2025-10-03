@@ -1,0 +1,9 @@
+question: Vilken detalj dokumenteras INTE uttryckligen i en typisk csv-fil för Bitcoin-transaktioner enligt beskrivningen i kursen?
+answer: Den använda skripttypen
+wrong_answers:
+  - Transaktionsdatum
+  - Motsvarande fiat-värde
+  - De Bitcoin-adresser som berörs
+explanation: |
+  Typisk csv-fil för Bitcoin-transaktioner nämner vanligtvis datum, belopp, fiatekvivalent och Bitcoin-adresser, men inte den använda skripttypen.
+reviewed: false

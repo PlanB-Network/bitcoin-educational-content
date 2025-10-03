@@ -1,9 +1,10 @@
-question: Mis on kulla peamine puudus rahana?
-answer: See ei ole kergesti jagatav ega transporditav pikamaa vahemaade taha
+question: Mis on valuuta arengulugu?
+answer: Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Plokiahel -> Lightning Network
 wrong_answers:
-  - See ei säilita oma väärtust erinevates kohtades
-  - See kulub aja jooksul
-  - Seda on kerge toota
+  - Toores kivi -> Münt -> Pangatäht -> Plokiahel -> Lightning Network
+  - Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Lightning Network
+  - Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Plokiahel
 explanation: |
-  Kulla peamine puudus rahana on see, et see ei ole kergesti jagatav ega transporditav pikamaa vahemaade taha. See muudab selle vähem praktiliseks globaliseerunud ja digitaalses maailmas.
+  Valuuta, nagu iga tehnoloogia, on arenenud toorest kivist
+  metallmündiks, seejärel pangatäheks, pangakaardiks ja lõpuks eakaaslastevahelisteks võrgustikeks Bitcoin'i plokiahelaga ja Lightning Network'iga.
 reviewed: true

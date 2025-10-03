@@ -32,7 +32,7 @@ Tapsigner är en Hardware Wallet designad i form av ett NFC-kort av företaget C
 ![TAPSIGNER NUNCHUK](assets/notext/01.webp)
 
 
-Tapsignern gör det möjligt att lagra ett par bestående av en privat huvudnyckel och en kedjekod i enlighet med BIP32, för att härleda ett träd av kryptografiska nycklar. Dessa nycklar kan användas för att signera transaktioner genom att placera Tapsigner mot en telefon eller en NFC-kortläsare.
+Tapsignern gör det möjligt att lagra ett par bestående av en privat huvudnyckel och en chain code i enlighet med BIP32, för att härleda ett träd av kryptografiska nycklar. Dessa nycklar kan användas för att signera transaktioner genom att placera Tapsigner mot en telefon eller en NFC-kortläsare.
 
 Detta NFC-kort säljs för $19,99, vilket är mycket prisvärt jämfört med andra hårdvaruplånböcker som finns på marknaden. På grund av sitt format erbjuder Tapsigner dock inte lika många alternativ som andra enheter. Det finns uppenbarligen inget batteri, ingen kamera eller en micro SD-kortläsare, eftersom det är ett kort. Enligt min mening är dess största nackdel avsaknaden av en skärm på Hardware Wallet, vilket gör den mer sårbar för vissa typer av fjärråttacker. Detta tvingar faktiskt användaren att signera blint och lita på vad de ser på sin datorskärm.
 
@@ -58,7 +58,7 @@ När du har fått din Tapsigner är det första steget att undersöka förpackni
 ![TAPSIGNER NUNCHUK](assets/notext/02.webp)
 
 
-För att hantera Wallet kommer vi att använda mobilappen **Nunchuk Wallet**. Se till att din smartphone är NFC-kompatibel och ladda sedan ner Nunchuk från [Google Play Store] (https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store] (https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [`.apk`-fil] (https://github.com/nunchuk-io/nunchuk-android/releases).
+För att hantera Wallet kommer vi att använda mobilappen **Nunchuk Wallet**. Se till att din smartphone är NFC-kompatibel och ladda sedan ner Nunchuk från [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [`.apk`-fil](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/03.webp)
@@ -110,13 +110,13 @@ Om din Tapsigner är ny kommer Nunchuk att erbjuda sig att initiera den. Klicka 
 ![TAPSIGNER NUNCHUK](assets/notext/11.webp)
 
 
-Du måste nu välja hur du generate din master chain-kod.
+Du måste nu välja hur du generate din master chain code.
 
 
-Tapsigner använder BIP32-standarden. Detta innebär att härledningen av dina kryptografiska nycklar som säkrar dina bitcoins inte förlitar sig på en Mnemonic-fras som BIP39-plånböcker, utan direkt på den privata huvudnyckeln och huvudkedjekoden. Dessa 2 Elements passerar genom HMAC-funktionen för att deterministiskt och hierarkiskt härleda resten av dina Wallet.
+Tapsigner använder BIP32-standarden. Detta innebär att härledningen av dina kryptografiska nycklar som säkrar dina bitcoins inte förlitar sig på en Mnemonic-fras som BIP39-plånböcker, utan direkt på den privata huvudnyckeln och huvud chain code. Dessa 2 Elements passerar genom HMAC-funktionen för att på ett deterministiskt och hierarkiskt sätt härleda resten av dina Wallet.
 
 
-Den privata huvudnyckeln genereras direkt av TRNG (*True Random Number Generator*) som är integrerad i din Tapsigner. Huvudkedjekoden måste å andra sidan tillhandahållas från utsidan. I det här steget har du ett val: låt Nunchuk generate göra det automatiskt genom att klicka på "*Automatic*", eller generate det själv genom att välja "*Advanced*" och ange det i det angivna fältet.
+Den privata huvudnyckeln genereras direkt av TRNG (*True Random Number Generator*) som är integrerad i din Tapsigner. Master chain code måste å andra sidan tillhandahållas från utsidan. I detta steg har du ett val: låt Nunchuk generate den automatiskt genom att klicka på "*Automatic*", eller generate den själv genom att välja "*Advanced*" och ange den i det angivna fältet.
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/12.webp)
@@ -128,7 +128,7 @@ Därefter måste du välja en PIN-kod. I fältet "*Starting PIN*" anger du den P
 ![TAPSIGNER NUNCHUK](assets/notext/13.webp)
 
 
-Välj en PIN-kod för att säkra fysisk åtkomst till din Tapsigner. Denna PIN-kod spelar ingen roll i Wallet-återställningsprocessen. Dess enda funktion är att låsa upp din Tapsigner så att du kan signera transaktioner. Se till att spara PIN-koden för att undvika att glömma den. Klicka på "*Fortsätt*" för att fortsätta.
+Välj en PIN-kod för att säkra fysisk åtkomst till din Tapsigner. Denna PIN-kod spelar ingen roll i återställningsprocessen för Wallet. Dess enda funktion är att låsa upp din Tapsigner så att du kan signera transaktioner. Se till att spara PIN-koden för att undvika att glömma den. Klicka på "*Fortsätt*" för att fortsätta.
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/14.webp)
@@ -138,7 +138,7 @@ Placera nu ditt Tapsigner-kort på baksidan av telefonen för att initiera den.
 ![TAPSIGNER NUNCHUK](assets/notext/15.webp)
 
 
-Nunchuk kommer sedan att generate återställningsfilen för din Wallet, vilket gör att du kan återfå tillgång till dina bitcoins om du förlorar ditt NFC-kort. Den här filen är krypterad med säkerhetskopieringskoden som står på baksidan av din Tapsigner. För att återfå dina bitcoins behöver du absolut den här filen samt koden för att dekryptera den. Det är därför viktigt att göra en papperskopia av den här koden, för om du tappar bort ditt NFC-kort kommer tillgången till den här koden också att gå förlorad, eftersom den bara är skriven på kortet för tillfället. Se till att också skapa flera säkerhetskopior av din krypterade återställningsfil.
+Nunchuk kommer sedan att generate återställningsfilen för din Wallet, som gör att du kan återfå tillgång till dina bitcoins om du förlorar ditt NFC-kort. Den här filen är krypterad med säkerhetskopieringskoden som står på baksidan av din Tapsigner. För att återfå dina bitcoins behöver du absolut den här filen samt koden för att dekryptera den. Det är därför viktigt att göra en papperskopia av den här koden, för om du tappar bort ditt NFC-kort kommer tillgången till den här koden också att gå förlorad, eftersom den bara är skriven på kortet för tillfället. Se till att också skapa flera säkerhetskopior av din krypterade återställningsfil.
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/16.webp)
@@ -150,7 +150,7 @@ Välj ett namn för din Wallet.
 ![TAPSIGNER NUNCHUK](assets/notext/17.webp)
 
 
-Grunden för din Wallet är nu lagd. För att verifiera äktheten hos din Tapsigner kan du när som helst klicka på knappen "*Kör hälsokontroll*".
+Grunden för din Wallet är nu lagd. För att verifiera äktheten hos dinapsigner kan du när som helst klicka på knappen "*Kör hälsokontroll*".
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/18.webp)
@@ -177,7 +177,7 @@ Tillbaka på Nunchuk-hemsidan kan du se att din Tapsigner är registrerad bland 
 ![TAPSIGNER NUNCHUK](assets/notext/21.webp)
 
 
-Du måste nu göra en generate för nycklarna till din Bitcoin Wallet. Detta gör du genom att klicka på knappen "*+*" till höger om fliken "*Wallets*".
+Du behöver nu generate nycklarna för din Bitcoin Wallet. Detta gör du genom att klicka på knappen "*+*" till höger om fliken "*Wallets*".
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/22.webp)
@@ -332,7 +332,7 @@ Placera sedan Tapsigner på baksidan av din smartphone.
 ![TAPSIGNER NUNCHUK](assets/notext/46.webp)
 
 
-Din transaktion är nu signerad. Kontrollera en sista gång att allt är korrekt och klicka sedan på "*Broadcast Transaction*" för att sända den i Bitcoin-nätverket.
+Din transaktion är nu signerad. Kontrollera en sista gång att allt är korrekt och klicka sedan på "*Broadcast Transaction*" för att sända den på Bitcoin-nätverket.
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/47.webp)
@@ -347,7 +347,7 @@ Din transaktion väntar nu på bekräftelse.
 ## Hur återfår man Wallet i händelse av förlust av tapsignern?
 
 
-Om du har förlorat din Tapsigner kan du få tillbaka din Wallet med hjälp av den kod som finns på baksidan av kortet. Det är därför viktigt att spara denna kod separat från Tapsignern, för om kortet försvinner försvinner också tillgången till denna kod. Du kommer också att behöva den krypterade säkerhetskopian av Wallet.
+Om du har förlorat din Tapsigner kan du återfå din Wallet med hjälp av den kod som anges på kortets baksida. Det är därför viktigt att spara denna kod separat från Tapsignern, för om kortet försvinner försvinner också tillgången till denna kod. Du kommer också att behöva den krypterade säkerhetskopian av Wallet.
 
 
 För återhämtning kommer vi att använda Nunchuk-appen, men kom ihåg att detta innebär att du tillfälligt säkrar dina medel i en Hot Wallet. Om din Tapsigner säkrade betydande belopp bör du överväga att följa samma återställningsprocess med ett nytt Coldcard istället.
@@ -371,7 +371,7 @@ Välj alternativet "* Återställ TAPSIGNER-nyckel från säkerhetskopia *".
 ![TAPSIGNER NUNCHUK](assets/notext/51.webp)
 
 
-Du omdirigeras sedan till din enhets filutforskare. Leta upp och välj den krypterade backup-filen för din Wallet. Normalt börjar namnet på den här filen med `backup...`.
+Du omdirigeras sedan till din enhets filutforskare. Leta upp och välj den krypterade backup-filen för din Wallet. Namnet på denna fil börjar normalt med `backup...`.
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/52.webp)
@@ -382,12 +382,12 @@ Ange lösenordet som dekrypterar backupfilen. Detta lösenord motsvarar det som 
 
 ![TAPSIGNER NUNCHUK](assets/notext/53.webp)
 
-Välj sedan ett namn för din återställning Wallet.
+Välj sedan ett namn för din återhämtning Wallet.
 
 ![TAPSIGNER NUNCHUK](assets/notext/54.webp)
 
 
-Du har nu återfått tillgången till dina bitcoins. Din Wallet hanteras nu som en Hot Wallet som är synlig på fliken "*Keys*" i Nunchuk-appen. Därefter måste du skapa en ny uppsättning kryptografiska nycklar i avsnittet "*Wallets*" genom att associera den här nyckeln med den. För att göra detta kan du följa stegen igen i delen "*Hur man skapar en Wallet på en Tapsigner?*" i denna handledning.
+Du har nu återfått åtkomsten till dina bitcoins. Din Wallet hanteras nu som en Hot Wallet som är synlig på fliken "*Keys*" i Nunchuk-appen. Därefter måste du skapa en ny uppsättning kryptografiska nycklar i avsnittet "*Wallets*" genom att associera den här nyckeln med den. För att göra detta kan du följa stegen igen i delen "*Hur man skapar en Wallet på en Tapsigner?*" i denna handledning.
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/55.webp)

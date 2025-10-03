@@ -5,5 +5,5 @@ wrong_answers:
   - Pojednostavljeno plaćanje
   - Zajednička transakcija
 explanation: |
-  Tumačenje ovog obrasca je da imamo posla sa grupisanim troškom. Ova struktura omogućava entitetima kao što su Exchange platforme da uštede na naknadama grupisanjem svojih troškova u jednu transakciju.
+  Tumačenje ovog obrasca je da imamo posla sa grupisanim troškom. Ova struktura omogućava entitetima kao što su platforme za razmenu da uštede na naknadama grupisanjem svojih troškova u jednu transakciju.
 reviewed: false

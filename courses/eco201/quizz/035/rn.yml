@@ -1,0 +1,14 @@
+question: Bigenda gute iyo inyungu zigabanutse kubera ukwiyongera kw’amahera azigamiwe hakurikijwe inyigisho y’Ubudagi y’Ikigereranyo c’Ubucuruzi?
+answer: Igitigiri c’ibintu vya nyuma bikoreshwa kizogabanuka, inyungu zizogabanuka, abashoramare bazokoresha iyo nzira y’amahera kugira ngo bareme ibintu bishasha vyo gushora imari mu bikorwa, gutyo bazoramba uburyo bwo gukora.
+wrong_answers:
+  - Igitigiri c’ibintu vya nyuma bikoreshwa kizokwongerekana, inyungu zizoduga, abashoramare bazokoresha iyo nzira y’amahera kugira ngo bareme ibintu bishasha vyo gushiramwo amahera, gutyo bagabanye uburyo bwo gukora.
+  - Igitigiri c’ibintu vya nyuma bikoreshwa kizogabanuka, inyungu zizoduga, abashoramare bazokoresha iyo nzira y’amahera kugira ngo bareme ibintu bishasha vyo gushiramwo amahera, gutyo bagabanye uburyo bwo gukora.
+  - Igitigiri c’ibintu vya nyuma bikoreshwa kizokwongerekana, inyungu zizogabanuka, abashoramari bazokoresha iyo nzira y’amahera kugira ngo bareme ibintu bishasha vyo gushiramwo amahera, gutyo bagabanye uburyo bwo gukora.
+explanation: |
+  Dukurikije inyigisho y’i Otirishiya yerekeye uruzitiro rw’ubudandaji, iyo hari .
+  igabanuka ry’inyungu bitewe n’ukwiyongera kw’amahera azigamiwe, igitigiri c’amahera ya nyuma .
+  Ibintu bikoreshwa bizogabanuka kuko kuzigama birimwo gusubiramwo igice c'ivyo umuntu akoresha
+  ku musi wo mu nyuma. Ivyo bizotuma inyungu zigabanuka kubera ko Supply y’umutungo kamere .
+  iriko iragwira. Ivyo bituma abashoramare bakoresha iyo nzira y’amahera kugira ngo bareme .
+  ibintu bishasha vyo gushora imari mu bikorwa vy’ishoramari gutyo bigatuma urutonde rw’ibikorwa ruramba.
+reviewed: true

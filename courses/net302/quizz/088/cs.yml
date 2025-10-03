@@ -1,0 +1,9 @@
+question: Který příkaz systému Linux zobrazí aktivní směrovací tabulku sítě?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping route
+  - netstat -s
+explanation: |
+  ip route show zobrazí seznam tras známých jádru a cest, kterými procházejí pakety IP.
+reviewed: false

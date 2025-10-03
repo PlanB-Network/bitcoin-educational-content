@@ -1,0 +1,9 @@
+question: Varför är mängden heltal med addition en grupp, medan den inte är det med multiplikation?
+answer: Mängden uppfyller inte inversionsvillkoret under multiplikation
+wrong_answers:
+  - Mängden är inte sluten under multiplikation
+  - Multiplikation är inte associativ över heltalen
+  - Det finns inget neutralt element för multiplikation
+explanation: |
+  Mängden heltal uppfyller inte inversionsvillkoret under multiplikation eftersom det inte finns någon invers för varje heltal som skulle multipliceras för att ge 1. Endast Elements 1 och -1 uppfyller detta villkor.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 我們如何稱呼執行 Bitcoin 實作且彼此連接的機器集合？
+answer: Bitcoin 網路
+wrong_answers:
+  - Bitcoin 協定
+  - Bitcoin 貨幣
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin 網路包含所有連接的節點，每個節點都執行不同的通訊協定實作。
+reviewed: true

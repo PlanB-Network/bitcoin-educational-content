@@ -1,0 +1,9 @@
+question: Ni ikihe gikorwa ciza co gucunga ijambobanga ry’umucungerezi w’ijambobanga?
+answer: Uvyandike ku mpapuro, ubishire ahantu hatagira uwubibona.
+wrong_answers:
+  - Bibike muri email yawe.
+  - Koresha ijambobanga rimwe ku makonti yose.
+  - Bifate mu mutwe.
+explanation: |
+  Ni vyiza ko ijambobanga ry’umucungerezi w’ijambobanga ryandikwa ku mpapuro rikabikwa ahantu hiherereye kandi hatagira umutekano. Nkako, iyo umuduga wa Hard ushizwemwo amakuru y’ibanga kandi mudasobwa ikaba ipfungiwe, ijambo banga ntirizoshobora gushikwako, mbere n’igihe umuntu yokwiba.
+reviewed: true

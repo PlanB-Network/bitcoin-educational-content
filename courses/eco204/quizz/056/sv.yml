@@ -1,0 +1,10 @@
+question: Vad var den ursprungliga Exchange-kursen för den zimbabwiska dollarn när den infördes 1980?
+answer: Två zimbabwiska dollar var värda cirka 1,60 US-dollar
+wrong_answers:
+  - En zimbabwisk dollar var värd cirka 1 US-dollar
+  - En zimbabwisk dollar var värd cirka 2 US-dollar
+  - Två zimbabwiska dollar var värda cirka 2 US-dollar
+explanation: |
+  Zimbabwe blev självständigt 1980 och införde då den zimbabwiska dollarn.
+  Initialt var två zimbabwiska dollar värda cirka 1,60 US-dollar.
+reviewed: false

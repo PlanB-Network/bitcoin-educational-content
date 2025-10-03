@@ -1,0 +1,9 @@
+question: VPN 的主要优势是什么？
+answer: 加密互联网流量
+wrong_answers:
+  - 加快网络连接
+  - 提高存储容量
+  - 集成杀毒软件
+explanation: |
+  VPN 可创建安全隧道，对设备与中间服务器之间的交换进行加密，从而加强保密性。
+reviewed: false

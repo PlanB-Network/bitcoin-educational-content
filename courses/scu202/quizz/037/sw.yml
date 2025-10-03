@@ -1,0 +1,9 @@
+question: Ni kategoria gani ya programu inayowakilisha mojawapo ya sehemu muhimu zaidi za kuingilia kwa mashambulizi kwenye kompyuta?
+answer: Kivinjari cha wavuti
+wrong_answers:
+  - Msomaji wa PDF
+  - Mhariri wa maandishi
+  - Meneja wa faili
+explanation: |
+  Kivinjari cha wavuti huonyeshwa kila mara kwa maudhui ya nje, na kuifanya kuwa vekta kuu ya mashambulizi kwa wahalifu wa mtandao.
+reviewed: false

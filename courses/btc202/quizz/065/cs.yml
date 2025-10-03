@@ -1,0 +1,9 @@
+question: Jaký je první krok, který je třeba učinit v případě chyby v systému Umbrel?
+answer: generate diagnostický balíček
+wrong_answers:
+  - Přeinstalujte Bitcoin core a znovu proveďte IBD
+  - Vymazat mezipaměť
+  - Zakázat 2FA
+explanation: |
+  V případě problému začneme generováním diagnostického balíčku v části pro řešení problémů, abychom mohli problém analyzovat a vést o něm záznamy.
+reviewed: true

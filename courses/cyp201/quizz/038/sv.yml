@@ -1,0 +1,9 @@
+question: Varför är det inte rekommenderat att återanvända en Bitcoin Address?
+answer: Det underlättar spårning av transaktioner av tredje part
+wrong_answers:
+  - Den avslöjar den privata nyckeln på grund av Nonce
+  - Det gör transaktioner dyrare
+  - Det ogiltigförklarar digitala signaturer
+explanation: |
+  Genom att återanvända en Address kan observatörer enkelt koppla olika transaktioner till samma användare, vilket äventyrar deras integritet.
+reviewed: false

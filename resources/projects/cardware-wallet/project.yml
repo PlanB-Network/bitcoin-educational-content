@@ -1,0 +1,31 @@
+id: acc56a03-691e-474f-9a7e-393807405a6a
+
+name: Cardware Wallet
+
+address_line_1: South Africa
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://www.cardwarewallet.com/
+  twitter: https://x.com/CardwareWallet
+  Github: 
+  youtube: 
+
+category: wallet
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - wallet
+  - bitcoin
+
+contributor_names:
+  - Gloirew

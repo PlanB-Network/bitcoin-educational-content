@@ -1,0 +1,9 @@
+question: Vilken inverkan hade distributions- och nyckelhanteringsfrågor före 1970-talet?
+answer: De begränsade säkerheten och effektiviteten i storskaliga kommunikationer
+wrong_answers:
+  - De förhindrade överföring av krypterade meddelanden på publika nätverk
+  - De krävde publika nycklar för varje meddelande
+  - De föreskrev användning av homomorfisk kryptografi
+explanation: |
+  Före 1970-talet gjorde problem med distribution och hantering av nycklar det svårt att säkra kommunikation i stor skala, vilket hindrade utvecklingen av moderna applikationer som t.ex. online-shopping.
+reviewed: false

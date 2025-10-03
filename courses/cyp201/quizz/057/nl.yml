@@ -1,0 +1,9 @@
+question: Wat is de grootte van de seed die gegenereerd wordt door PBKDF2?
+answer: 512 bits
+wrong_answers:
+  - 128 bits
+  - 256 bits
+  - Variabel, afhankelijk van de lengte van de Mnemonic zin
+explanation: |
+  Ongeacht de lengte van de Mnemonic zin, genereert PBKDF2 altijd een 512-bit seed.
+reviewed: false

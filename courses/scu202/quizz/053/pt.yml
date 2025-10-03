@@ -1,0 +1,9 @@
+question: Que plataforma elimina automaticamente os metadados quando uma fotografia é carregada?
+answer: Sinal
+wrong_answers:
+  - Gmail
+  - Perspectivas
+  - O seu blogue
+explanation: |
+  O Signal (tal como o Session e outros serviços de mensagens seguras) limpa os metadados das imagens partilhadas para proteger a privacidade dos utilizadores.
+reviewed: false

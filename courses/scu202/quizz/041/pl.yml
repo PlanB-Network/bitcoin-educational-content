@@ -1,0 +1,9 @@
+question: Jaki dokument, często nazywany SHA256SUMS lub MANIFEST, jest potrzebny do weryfikacji integralności pobranego oprogramowania?
+answer: Plik ze śladami oprogramowania
+wrong_answers:
+  - Podręcznik użytkownika
+  - Plik zawierający podpisy deweloperów
+  - Kompletny kod źródłowy projektu
+explanation: |
+  Plik manifestu lub SHA256SUMS zawiera Hash każdego pliku dystrybuowanego przez projekt i umożliwia weryfikację ich integralności.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je korist od verifikacije PGP potpisa na Hash fajlu ili manifestu softvera?
+answer: Garantuje da datoteka dolazi iz zvaničnog izvora
+wrong_answers:
+  - Garantuje instalaciju softvera bez grešaka
+  - Garantuje automatska ažuriranja programa
+  - Garantuje da je datoteka kompletna i da nije modifikovana
+explanation: |
+  PGP potpis, validiran korišćenjem javnog ključa programera, osigurava da autentifikovana datoteka dolazi iz originalnog izvora.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 什么免费的跨平台软件可用于创建可像虚拟磁盘一样挂载的加密容器文件？
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - 同步
+  - WinRAR
+explanation: |
+  VeraCrypt 可让你创建加密容器，在所有主流操作系统上都能作为虚拟磁盘访问。
+reviewed: false

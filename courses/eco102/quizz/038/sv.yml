@@ -1,0 +1,9 @@
+question: Vad anser Bastiat vara en bra definition av egendom?
+answer: Den måste ta hänsyn till orsakerna
+wrong_answers:
+  - Den måste ta hänsyn till effekterna
+  - Den måste ta hänsyn till lagen
+  - Det måste baseras på socialt erkännande
+explanation: |
+  Bastiat anser att egendom bör definieras utifrån dess orsaker, såsom arbete och personlig ansträngning, snarare än som en juridisk konstruktion.
+reviewed: false

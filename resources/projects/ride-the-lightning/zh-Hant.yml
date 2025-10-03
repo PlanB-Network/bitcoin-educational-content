@@ -1,0 +1,2 @@
+description: |
+  開放原始碼、基於網路的 Interface，可輕鬆管理一個或多個 Lightning 節點 (LND、Core Lightning、Eclair)。RTL 提供廣泛的功能，包括頻道管理、付款、備份和交換，所有這些功能都在直觀的 Interface 中，可在幾分鐘內部署到許多平台上。

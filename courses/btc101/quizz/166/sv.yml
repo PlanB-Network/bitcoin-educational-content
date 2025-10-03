@@ -1,0 +1,8 @@
+question: Vad är en av anledningarna till att Bitcoin är attraktivt för vissa grupper?
+answer: Dess förmåga att erbjuda lösningar som elektroniska Trustless-kontanter, motståndskraft mot censur eller en transparent och oföränderlig penningpolitik.
+wrong_answers:
+  - Den är lätt att förfalska och kan skapa lösningar för att ta emot mer pengar med ett enkelt klick.
+  - Den styrs av en central myndighet som fritt fördelar kapital till användarna.
+  - Det är inte pseudonymt, så varje användare är välkänd och betrodd.
+explanation: >-
+reviewed: true

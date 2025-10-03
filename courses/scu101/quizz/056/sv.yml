@@ -1,0 +1,11 @@
+question: Varför är det viktigt med praktisk erfarenhet inom cybersäkerhet?
+answer: Det ger dig möjlighet att tillämpa dina teoretiska kunskaper i verkliga situationer
+wrong_answers:
+  - Det är ett krav för alla cybersäkerhetsjobb
+  - Det är viktigare än akademisk kunskap
+  - Det är det enda sättet att lära sig mer om cybersäkerhet
+explanation: |
+  I kapitlet betonas vikten av praktisk erfarenhet
+  erfarenhet eftersom det ger dig möjlighet att tillämpa dina teoretiska
+  teoretiska kunskaper i verkliga situationer.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hur förhindras dubbla utgifter på Bitcoin?
+answer: Genom den offentliga sändningen av alla systemtransaktioner.
+wrong_answers:
+  - Genom att verifiera användarnas identitet före varje transaktion.
+  - Genom att regelbundet låta revisorer granska transaktioner.
+  - Genom att begränsa antalet transaktioner per användare.
+explanation: |
+  För att bekräfta att en transaktion inte har ägt rum och därmed undvika dubbla utgifter måste varje användare känna till alla tidigare transaktioner.
+reviewed: false

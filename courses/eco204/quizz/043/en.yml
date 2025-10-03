@@ -5,7 +5,5 @@ wrong_answers:
   - 250,000
   - 100,000
 explanation: |
-  The highest denomination bill in Brazil reached 500,000, and the last
-
-  redenomination in 1994 was done at a rate of 2,750 to 1.'
-reviewed: false
+  The highest denomination bill in Brazil reached 500,000, and the last redenomination in 1994 was done at a rate of 2,750 to 1.
+reviewed: true

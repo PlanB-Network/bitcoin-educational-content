@@ -1,0 +1,9 @@
+question: Bir örüntü ararken, işlemin hangi kısmını inceleyeceğiz?
+answer: Yapısı
+wrong_answers:
+  - Meta verileri
+  - Senaryoları
+  - Onun imzası
+explanation: |
+  Bir işlem kalıbı, Blockchain'da bulunabilen ve muhtemel yorumu bilinen tipik bir işlemin modeli veya genel yapısıdır.
+reviewed: false

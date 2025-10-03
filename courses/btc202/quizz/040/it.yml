@@ -1,0 +1,9 @@
+question: Dove si trova la comunità Umbrel più attiva?
+answer: Su Discord e il forum online
+wrong_answers:
+  - Su Instagram
+  - Su LinkedIn e il forum online
+  - Su IRC
+explanation: |
+  Umbrel ha una comunità molto attiva su Discord e sul suo forum online, dove gli utenti di Exchange ricevono aiuto e supporto.
+reviewed: true

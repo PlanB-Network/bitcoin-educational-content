@@ -1,0 +1,9 @@
+question: Wat doet het IP-protocol als een datagram de MTU overschrijdt van een netwerk waar het doorheen gaat?
+answer: Hij versplintert het in verschillende stukken
+wrong_answers:
+  - Het versleutelt het hele datagram voor het verzenden
+  - Het wordt altijd geweigerd en stuurt een foutbericht
+  - Hij comprimeert het voor het verzenden
+explanation: |
+  Als het datagram groter is dan de MTU, dan fragmenteert de router het in meerdere kleinere pakketten die in het doelnetwerk passen.
+reviewed: false

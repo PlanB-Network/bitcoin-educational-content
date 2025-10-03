@@ -1,0 +1,9 @@
+question: Quelle affirmation décrit le mieux le mode de navigation privée ?
+answer: Il limite l’enregistrement de traces locales
+wrong_answers:
+  - Il rend la navigation anonyme sur Internet
+  - Il bloque tous les trackers et scripts malveillants
+  - Il supprime les extensions actives
+explanation: |
+  Le mode privé empêche simplement l’enregistrement local de l’historique et des cookies mais ne garantit aucune anonymisation sur Internet.
+reviewed: false

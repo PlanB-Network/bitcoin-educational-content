@@ -1,0 +1,9 @@
+question: Welke tool kan op een Linux machine de systeembeveiliging analyseren en generate een gedetailleerd rapport met aanbevelingen geven?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Synaptisch
+explanation: |
+  Lynis is een uitgebreid beveiligingscontroleprogramma voor Linux, dat het systeem scant op kwetsbaarheden en verkeerde configuraties.
+reviewed: false

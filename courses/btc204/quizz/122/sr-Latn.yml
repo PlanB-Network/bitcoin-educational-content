@@ -5,5 +5,5 @@ wrong_answers:
   - Korišćenjem dodatnih releja
   - Korišćenjem Tor-a
 explanation: |
-  P2P transport V2 uključuje Layer oportunističke enkripcije kako bi poboljšao privatnost i sigurnost komunikacije između čvorova.
+  P2P transport V2 uključuje sloj oportunističke enkripcije kako bi poboljšao privatnost i sigurnost komunikacije između čvorova.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Vad heter grundaren av det svenska Piratpartiet som i maj 2011 beskrev Bitcoin som bankernas Napster?
+answer: Rick Falkvinge
+wrong_answers:
+  - Smári McCarthy
+  - Edward Snowden
+  - Florian Hufsky
+explanation: |
+  Bitcoin är en frihetsälskare och verkade vara en bra idé när han upptäckte den. Under de år som följde har han varit en stor förespråkare för kryptovalutor.
+reviewed: true

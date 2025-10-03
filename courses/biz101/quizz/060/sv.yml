@@ -1,0 +1,9 @@
+question: Vilket är det primära hårdvarukravet för en Starter-profil för att acceptera Bitcoin-betalningar?
+answer: En smartphone
+wrong_answers:
+  - A Bitcoin Miner ASIC
+  - En Hardware Wallet
+  - En server med egen hosting
+explanation: |
+  Starter-profilen kräver endast en smartphone eller surfplatta med en Lightning Wallet, vilket gör den till en lättviktslösning.
+reviewed: false

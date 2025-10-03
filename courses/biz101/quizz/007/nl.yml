@@ -1,0 +1,9 @@
+question: Welke van de volgende beschrijft het best hoe Bitcoin transacties finaliteit bereiken?
+answer: Eenmaal vastgelegd op de Blockchain, zijn transacties onveranderlijk en kunnen ze niet worden gewijzigd.
+wrong_answers:
+  - Transacties kunnen door banken worden teruggedraaid als er een geschil ontstaat.
+  - Gebruikers moeten goedkeuring krijgen van meerdere overheidsinstanties om een transactie te kunnen voltooien.
+  - Elke deelnemer kan naar believen transacties uit het verleden bewerken als hij of zij een speciale code heeft.
+explanation: |
+  Bitcoin s Blockchain is een fraudebestendige Ledger. Zodra een transactie is bevestigd en opgenomen in een blok, wordt het een deel van het permanente record, wat finaliteit garandeert.
+reviewed: false

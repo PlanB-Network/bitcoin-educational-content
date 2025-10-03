@@ -80,24 +80,24 @@ Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
 
-- `name`**: Podaj nazwę swojego podcastu.
+- `name`: **Podaj nazwę swojego podcastu.**
 - `host`**: Lista nazwisk lub pseudonimów prelegentów lub gospodarza podcastu. Każda nazwa powinna być oddzielona przecinkiem.
-- `language`**: Wskaż kod języka używanego w podcaście. Na przykład dla języka angielskiego `en`, dla włoskiego `it`...
+- `language`: Wskaż kod języka używanego w podcaście. Na przykład dla języka angielskiego `en`, dla włoskiego `it`...
 
 
 
-- `links`**: Podaj linki do swoich treści. Dostępne są dwie opcje:
+- `links`: Podaj linki do swoich treści. Dostępne są dwie opcje:
  - `podcast`: link do podcastu,
  - `twitter`: link do profilu Twitter podcastu lub organizacji go produkującej,
  - `website`: link do strony internetowej podcastu lub organizacji, która go wyprodukowała.
 
 
 
-- `description`**: Dodaj krótki akapit opisujący Twój podcast. Opis musi być w tym samym języku, co wskazany w polu `language:`.
+- `description`: Dodaj krótki akapit opisujący Twój podcast. Opis musi być w tym samym języku, co wskazany w polu `language:`.
 
 
 
-- `tags`**: Dodaj dwa tagi powiązane z podcastem. Przykłady:
+- `tags`**: Dodaj dwa tagi powiązane z podcastem. Przykłady:**
     - `Bitcoin`
     - `technologia`
     - `gospodarka`
@@ -105,7 +105,7 @@ Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
 
-- `contributors`**: Podaj swój identyfikator współtwórcy, jeśli go posiadasz.
+- `contributors`**: Podaj swój identyfikator współtwórcy, jeśli go posiadasz.**
 
 
 Przykładowo, plik YAML może wyglądać następująco:

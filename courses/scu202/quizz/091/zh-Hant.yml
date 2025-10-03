@@ -1,0 +1,9 @@
+question: 哪種通訊協定會動態指派本機 IP Address 給連接至網路的裝置？
+answer: DHCP
+wrong_answers:
+  - 超文件傳輸協定
+  - FTP
+  - DNS
+explanation: |
+  DHCP 會自動指派 IP Address 給連接至本端網路的每一台新裝置。
+reviewed: false

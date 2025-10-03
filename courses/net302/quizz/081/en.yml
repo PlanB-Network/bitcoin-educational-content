@@ -1,0 +1,9 @@
+question: Which command-line tool captures network traffic for real-time analysis?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump captures and logs packets circulating on a network interface for analysis.
+reviewed: false

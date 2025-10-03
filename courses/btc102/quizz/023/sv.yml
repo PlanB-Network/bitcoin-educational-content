@@ -1,0 +1,9 @@
+question: Vilken är Bitcoin:s främsta fördel när det gäller monetära kriser?
+answer: Bevara sparandet mot inflation
+wrong_answers:
+  - Stigande räntor
+  - Garanterar fast avkastning
+  - Tillhandahålla bankförsäkring
+explanation: |
+  Bitcoin erbjuder skydd mot valutadevalvering tack vare sin förutsägbara utgivningspolicy.
+reviewed: false

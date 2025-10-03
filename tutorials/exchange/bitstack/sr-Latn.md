@@ -184,7 +184,7 @@ Vaša transakcija je sada potvrđena.
 ### Postavljanje DCA
 
 
-Dollar Cost Averaging* (DCA) je privlačna investiciona strategija za akumulaciju Bitcoin uz smanjenje rizika povezanih sa njegovom volatilnošću. Redovnom kupovinom fiksnog iznosa, bez obzira na cenu, možete izravnati troškove akvizicije i izbeći impulsivno donošenje odluka. DCA pomaže u smanjenju ponašajnih pristrasnosti kao što su strah od propuštanja prilike ili panika u slučaju pada cene, i tako omogućava upravljanje vašom Bitcoin štednjom na smiren i disciplinovan način.
+Dollar Cost Averaging (DCA) je privlačna investiciona strategija za akumulaciju Bitcoin uz smanjenje rizika povezanih sa njegovom volatilnošću. Redovnom kupovinom fiksnog iznosa, bez obzira na cenu, možete izravnati troškove akvizicije i izbeći impulsivno donošenje odluka. DCA pomaže u smanjenju ponašajnih pristrasnosti kao što su strah od propuštanja prilike ili panika u slučaju pada cene, i tako omogućava upravljanje vašom Bitcoin štednjom na smiren i disciplinovan način.
 
 
 Da biste postavili ponavljajuću kupovinu (DCA) na Bitstack-u, idite na odeljak "*Savings*" na početnoj stranici i izaberite "*Recurring*". Zatim pritisnite "*Continue*".

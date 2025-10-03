@@ -1,0 +1,10 @@
+question: Hur kan vi minimera effekterna av COIH när vi konsoliderar UTXO:er?
+answer: Genom att endast konsolidera UTXO:er från samma källa.
+wrong_answers:
+  - Genom att skicka UTXO:er till tredjepartsadresser.
+  - Genom att slumpmässigt välja UTXO:er för att undvika igenkännbara mönster.
+  - Genom att konsolidera UTXO:er under perioder med låg aktivitet.
+explanation: |
+  Om du behöver konsolidera dina bitcoins ska du prioritera att konsolidera UTXO:er från samma källa först.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline sündmus sundis Google'i ümber orienteeruma Androidile puutetundliku Interface suunas?
+answer: Esimese iPhone'i vabastamine
+wrong_answers:
+  - Microsofti poolt Nokia ülevõtmine
+  - CyanogenModi loomine
+  - Play poe käivitamine
+explanation: |
+  IPhone'i tulek 2007. aastal sundis Google'i ümber mõtlema, et muuta Android puuteekraaniga ühilduvaks, loobudes füüsilise klaviatuuriga seadme ideest.
+reviewed: false

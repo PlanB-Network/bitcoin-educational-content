@@ -1,0 +1,20 @@
+id: 57b996b2-5471-4139-8dc6-5621a9a12c8e
+name: BitDevs Kano
+category: education
+links:
+  website: https://bitdevskano.org/
+  twitter: https://x.com/BitdevsKano
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-22
+    urgency: 1
+    contributor_names:
+        - AlphonseMehounme
+    reward: 0.15
+tags:
+  - development
+  - software
+  - case-studies
+contributor_names:
+  - AlphonseMehounme

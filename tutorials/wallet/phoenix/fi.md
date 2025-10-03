@@ -115,7 +115,7 @@ Napsauta "*Vastaanottaa*"-painiketta.
 
 ![Image](assets/fr/18.webp)
 
-Pyyhkäise QR-koodia oikealle paljastaaksesi Bitcoinin vastaanotto-osoitteen. Lähetä siihen summa, jonka haluat tallettaa Phoenixiin.
+Pyyhkäise QR-koodia vasemmalle paljastaaksesi Bitcoin-vastaanotto-osoitteen. Lähetä haluamasi talletussumma siihen osoitteeseen Phoenixia varten.
 
 ![Image](assets/fr/19.webp)
 

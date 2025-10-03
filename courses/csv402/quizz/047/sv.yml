@@ -1,0 +1,9 @@
+question: Vilken teknik kan användas för att sammanfoga olika versioner av Stash i händelse av avvikelser?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - Logg-baserad replikering
+explanation: |
+  CRDT:er säkerställer datakonsistens genom att göra det möjligt att sammanfoga flera versioner av Stash utan konflikter på klientsidan.
+reviewed: false

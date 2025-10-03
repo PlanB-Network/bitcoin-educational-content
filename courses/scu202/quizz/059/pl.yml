@@ -1,0 +1,9 @@
+question: Kto wynalazł World Wide Web i opracował pierwszą przeglądarkę internetową?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee jest wynalazcą World Wide Web i opracował pierwszą przeglądarkę, WorldWideWeb (obecnie Nexus), w 1990 roku.
+reviewed: false

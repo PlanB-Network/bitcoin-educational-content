@@ -1,0 +1,9 @@
+question: 哪項服務取代 ISP DNS 以保護網路請求的機密性？
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 是專注於隱私權的公共 DNS 伺服器，可過濾惡意網域，且不保留任何提名記錄。
+reviewed: false

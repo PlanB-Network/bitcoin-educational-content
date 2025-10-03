@@ -1,0 +1,9 @@
+question: Unix 的两位主要创建者是谁？
+answer: 肯-汤普森和丹尼斯-里奇
+wrong_answers:
+  - Richard Stallman 和 Linus Torvalds
+  - 安德鲁-S-塔南鲍姆和拉里-尤因
+  - 史蒂夫-乔布斯和比尔-盖茨
+explanation: |
+  Unix 由 Ken Thompson 和 Dennis Ritchie 于 20 世纪 60 年代末和 70 年代初在 AT&T 贝尔实验室开发。
+reviewed: false

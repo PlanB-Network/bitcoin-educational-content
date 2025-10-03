@@ -1,0 +1,9 @@
+question: Vilken åtgärd utför Bob (mottagare) när han tar emot Terminal Consignment från Alice (betalare)?
+answer: Kontrollera giltigheten av State Transition och signera
+wrong_answers:
+  - Modifiera Contract Schema och skicka den till Alice
+  - Skapa en Invoice för en ny operation
+  - Signera Alice:s PSBT och distribuera den på kedjan
+explanation: |
+  Bob granskar Consignment, ser till att övergången följer reglerna och skriver under för att bekräfta sitt samtycke.
+reviewed: false

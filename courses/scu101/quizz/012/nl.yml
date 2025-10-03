@@ -1,0 +1,12 @@
+question: Waarom is het verifiëren van de publieke sleutel van de site met behulp van een certificatensysteem belangrijk?
+answer: De authenticiteit van de site bevestigen.
+wrong_answers:
+  - Om oplichting te voorkomen, maar alleen als je verbinding hebt via een openbaar Wi-Fi-netwerk.
+  - Online advertenties gedeeltelijk blokkeren.
+  - Om ervoor te zorgen dat geen kwaadwillende entiteit zich voordoet als de website.
+explanation: |
+  Het verifiëren van de publieke sleutel van de site met behulp van een certificaatsysteem
+  is belangrijk om de authenticiteit van de site te bevestigen. Dit
+  helpt beschermen tegen kwaadwillenden die zich voordoen als
+  de site en gegevens in platte tekst overbrengen.
+reviewed: true

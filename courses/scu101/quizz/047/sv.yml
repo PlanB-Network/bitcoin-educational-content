@@ -1,0 +1,12 @@
+question: Vad är syftet med att implementera 2FA?
+answer: För att skydda dina onlinekonton mot obehörig åtkomst.
+wrong_answers:
+  - För att göra det svårare för dig att komma åt ditt eget konto
+  - För att spåra dina onlineaktiviteter
+  - För att öka hastigheten på din internetanslutning
+explanation: |
+  2FA lägger till en extra Layer av säkerhet till dina online
+  online-konton. Även om en hackare får tag på ditt lösenord kommer de
+  inte komma åt ditt konto utan den andra verifieringsfaktorn
+  andra verifieringsfaktorn.
+reviewed: true

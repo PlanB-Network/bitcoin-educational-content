@@ -1,0 +1,8 @@
+question: Trong số các tác giả sau đây, tác giả nào không chỉ trích những người theo chủ nghĩa trọng nông?
+answer: Condorcet
+wrong_answers:
+  - Voltaire
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet khá đồng tình với tư tưởng của những người theo chủ nghĩa trọng nông và thậm chí còn hợp tác với họ trong một số dự án.

@@ -1,0 +1,9 @@
+question: Welcher NAT-Modus ermöglicht es Dutzenden von Geräten, sich eine einzige öffentliche IP Address zu teilen, indem Ports geändert werden?
+answer: PAT
+wrong_answers:
+  - Statisches NAT
+  - Dynamisches NAT
+  - Statisches Routing
+explanation: |
+  PAT, auch bekannt als NAT-Overload oder IP-Masquerading, ändert Portnummern, um Sitzungen zu unterscheiden, und ermöglicht es vielen Geräten, denselben öffentlichen Address zu verwenden.
+reviewed: false

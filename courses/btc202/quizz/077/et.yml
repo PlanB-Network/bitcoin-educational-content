@@ -1,0 +1,9 @@
+question: Millist andmebaasi kasutatakse plokkide/indeksis/ plokkide metaandmete salvestamiseks?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core kasutab plokkide indekseerimiseks plokke LevelDBs block/index/, mis kiirendab otsingut ja teenuse osutamist eakaaslastele.
+reviewed: true

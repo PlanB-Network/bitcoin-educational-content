@@ -1,0 +1,9 @@
+question: Vilken är den primära funktionen för en MAC-kod (Message Authentication Code)?
+answer: Säkerställa meddelandets äkthet och integritet
+wrong_answers:
+  - Kryptera meddelanden för att säkerställa konfidentialitet
+  - Förhindra avlyssning av meddelanden
+  - generate privata nycklar för varje kommunikation
+explanation: |
+  En MAC är ett kryptografiskt system som gör det möjligt att verifiera att ett meddelande verkligen kommer från den legitima avsändaren och inte har ändrats, vilket säkerställer autenticitet och integritet.
+reviewed: false

@@ -16,7 +16,7 @@ LNbits är fullpackat med massor av verktyg för att kontrollera och kanalisera 
 - Online- och offlinehandlare eller tjänsteleverantörer som vill acceptera Bitcoin onchain- och Lightning Network-betalningar.
 - Utvecklare som vill bygga Lightning Network-applikationer.
 - Nodoperatörer som vill integrera sin nod med LNbits-systemet för bokföringsändamål.
-- Alla dessa har olika behov. Vi bygger LNbits på ett modulärt sätt så att varje användare kan använda våra funktioner på ett sätt som passar dig bäst.
+- Alla dessa har olika behov. Vi bygger LNbits på ett modulärt sätt så att varje användare kan använda våra funktioner på det sätt som passar dig bäst.
 
 
 # Wallet chef
@@ -28,7 +28,7 @@ LNbits är ett redovisningssystem med fri och öppen källkod - inte en nodhante
 LNbits fungerar som en Interface mellan användaren och Lightning-noden, vilket ger ett enkelt och användarvänligt sätt att hantera och interagera med betalningsnätverket.
 
 
-Tänk på LNbits som ett "modulärt Wordpress-ramverk" för din nod. En plattform som är enkel att hantera, baserad på tillägg som du kan kombinera för många olika användningsfall.
+Tänk på LNbits som ett "modulärt Wordpress-ramverk" för din nod. En plattform som är enkel att hantera, baserad på tillägg som du kan kombinera för många olika användningsområden.
 
 
 Tänk på LNbits som din egen banks programvara för finansiell hantering. Din nod erbjuder kanaler att betala genom och LNbits utökar din nod för att kunna köra mer än en blixt Wallet som din nod levereras med. Dessa plånböcker behöver inte nödvändigtvis tillhöra dig själv. Låt oss säga att du, som LN-nodkörare, redan har tillräckligt med kanallikviditet och medel och nu vill erbjuda några Bitcoin-banktjänster till dina vänner, familj, egen butik eller andra vanliga handlare.
@@ -254,7 +254,7 @@ För att Invoice ska fungera måste du ha en allmänt tillgänglig URL i dina LN
 Alby är ett webbläsartillägg med LN Wallet-funktioner och ett LNDHUB-konto som kan användas som finansieringskälla för LNbits. [Mer information här](https://getalby.com/).
 
 
-För att Invoice ska fungera måste du ha en allmänt tillgänglig URL i dina LNbits. Ingen manuell webhook-inställning är nödvändig. Du kan generate en Alby access token här: https://getalby.com/developer/access_tokens/new
+För att Invoice ska fungera måste du ha en allmänt tillgänglig URL i dina LNbits. Ingen manuell webhook-inställning är nödvändig. Du kan generate en Alby-åtkomst token här: https://getalby.com/developer/access_tokens/new
 
 
 
@@ -281,7 +281,7 @@ Det har varit så många farliga buggar på sistone, inte bara i hela rymden uta
 Om du byter till void-Wallet kommer alla användartyper på instansen att se en gul banner där du normalt skulle hitta meddelandet "LNbits är i Beta" bredvid tema-/språkområdet uppe till höger - och det är den mest uppenbara ledtråden till att något har hänt. Ta en titt på din nya serverflik som är markerad med Green i den vänstra delen av fönstret.
 
 
-Hur fungerar det här? När killswitch är aktiverad kommer ett hemligt github-arkiv som endast är tillgängligt för LNbits kärnteam att kontrolleras med ett intervall på X minuter (som kan anges). Om en sårbar bugg publiceras i det här förvaret fungerar det som en signal som utlöser killswitch på alla installationer som prenumererar och övergår din lnbits-instans till att använda void Wallet. Om molnen har skingrats och du har installerat säkerhetsuppdateringen kan du ställa in din finansieringskälla till din nod, Wallet eller vad du än använder igen också via avsnittet Manage Server. Denna wiki har ett avsnitt om att byta finansieringskällor om du inte vet vad du ska konfigurera.
+Hur fungerar det här? När killswitch är aktiverad kommer ett hemligt github-arkiv som endast är tillgängligt för LNbits kärnteam att kontrolleras med ett intervall på X minuter (som kan anges). Om en sårbar bugg publiceras i detta arkiv fungerar det som en signal som utlöser killswitch på alla installationer som prenumererade och övergår din lnbits-instans för att använda void Wallet. Om molnen har skingrats och du har installerat säkerhetsuppdateringen kan du ställa in din finansieringskälla till din nod, Wallet eller vad du nu använder igen, även via avsnittet Manage Server. Denna wiki har ett avsnitt om att byta finansieringskällor om du inte vet vad du ska konfigurera.
 
 
 
@@ -438,8 +438,8 @@ LNbits körs endast via Tor, du kan inte öppna den på en offentlig domän som 
 
 
 
-- Med tanke på att du vill att din inställning ska förbli så här öppnar du din LNbits Wallet med hjälp av .onion URI och skapar den igen. På detta sätt genereras QR för att vara tillgänglig via denna .onion URI så endast via tor. Gör inte generate den QR från en .local URI, eftersom den inte kommer att kunna nås via internet - endast från ditt hem-LAN.
-- Öppna din LN Wallet-app som du använde för att skanna QR-koden och den här gången genom att använda tor (se Wallet-appens inställningar). Om appen inte erbjuder tor kan du använda Orbot (Android) istället. Se installationsavsnittet för detaljerade instruktioner om hur du öppnar din LNbits för clearnet/https.
+- Med tanke på att du vill att din inställning ska förbli så här öppnar du din LNbits Wallet med hjälp av .onion URI och skapar den igen. På detta sätt genereras QR för att vara tillgänglig via denna .onion URI så endast via tor. Gör inte generate den QR från en .local URI, eftersom den inte kommer att kunna nås via internet - bara från ditt hem-LAN.
+- Öppna din LN Wallet-app som du använde för att skanna QR-koden och den här gången med hjälp av tor (se Wallet-appens inställningar). Om appen inte erbjuder tor kan du använda Orbot (Android) istället. Se installationsavsnittet för detaljerade instruktioner om hur du öppnar din LNbits för clearnet/https.
 
 
 
@@ -449,12 +449,12 @@ LNbits körs endast via Tor, du kan inte öppna den på en offentlig domän som 
 När du kör dina LNbits i clearnet kan i princip alla generate en Wallet på den. Eftersom pengarna i din nod är bundna till dessa plånböcker kanske du vill förhindra det. Det finns två sätt att göra det:
 
 
-Konfigurera tillåtna användare och tillägg i filen `.env` ([se env-exemplet här](https://github.com/lnbits/lnbits/blob/main/.env.example)). Detta fungerar bara om du använder inställningen `adminUI=FALSE` i .env, annars måste du göra det i avsnittet Manage Server -> Users -> Allowed Users. Alla andra kommer inte att tillåtas efteråt.
+Konfigurera tillåtna användare och tillägg i filen `.env` ([se env-exemplet här](https://github.com/lnbits/lnbits/blob/main/.env.example)). Det här fungerar bara om du använder inställningen `adminUI=FALSE` i .env, annars måste du göra det i avsnittet Manage Server -> Users -> Allowed Users. Alla andra kommer inte att tillåtas efteråt.
 
 
 
 
-#### Anpassa tidsramen för Invoice:s utgång
+#### Anpassa tidsramen för Invoice-utgången
 
 
 Nu kan du generate-fakturor med ett anpassat utgångsdatum. Kompatibel med backends: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet än så länge!
@@ -465,7 +465,7 @@ Du kan ställa in `LIGHTNING_INVOICE_EXPIRY` i din .env-fil eller använda Admin
 
 
 
-## Wallet-URL borttagen
+## Wallet-URL raderad
 
 
 ### Wallet på demo-server legend.lnbits
@@ -474,12 +474,12 @@ Du kan ställa in `LIGHTNING_INVOICE_EXPIRY` i din .env-fil eller använda Admin
 Spara alltid en kopia av din Wallet-URL, Export2phone-QR eller LNDhub för dina egna plånböcker på en säker plats. LNbits kan INTE hjälpa dig att återfå dem om du förlorar dem.
 
 
-### Wallet om din egen finansieringskälla/nod
+### Wallet på egen finansieringskälla/nod
 
-Spara alltid en kopia av din Wallet-URL, Export2phone-QR eller LNDhub för dina egna plånböcker på ett säkert ställe. Du kan hitta alla LNbits-användare och Wallet-ID:n i ditt LNbits-tillägg för användarhanterare eller i din sqlite-databas. För att redigera eller läsa LNbits-databasen går du till mappen LNbits /data och letar efter filen som heter sqlite.db. Du kan öppna och redigera den med Excel eller med en dedikerad SQL-Editor som [SQLite browser] (https://sqlitebrowser.org/).
+Spara alltid en kopia av din Wallet-URL, Export2phone-QR eller LNDhub för dina egna plånböcker på en säker plats. Du kan hitta alla LNbits-användare och Wallet-ID:n i ditt LNbits-tillägg för användarhanterare eller i din sqlite-databas. För att redigera eller läsa LNbits-databasen, gå till mappen LNbits /data och leta efter filen som heter sqlite.db. Du kan öppna och redigera den med Excel eller med en dedikerad SQL-Editor som [SQLite browser] (https://sqlitebrowser.org/).
 
 
-Du kan också dumpa plånböckerna via CLI och se varje Wallet i din databas.
+Du kan också dumpa plånböckerna via CLI och visa alla Wallet i din databas.
 
 
 ```
@@ -546,11 +546,11 @@ Andra användare som inte har tillgång till din LNbits-instans kan använda en 
 Tänk på att detta är en separat Wallet, inte den LN btc som representeras av LNbits som "din Wallet" på din LN-finansieringskälla. Denna Wallet på kedjan kan också användas för att växla LN btc till (t.ex. din hårdvaruplånbok) genom att använda LNbits Boltz- eller Deezy-tillägget. Om du driver en webbshop som är länkad till din LNbits för LN-betalningar, är det mycket praktiskt att regelbundet tömma alla Sats från LN till onchain. Detta leder till mer utrymme i dina LN-kanaler för att kunna ta emot nya färska Sats.
 
 
-Förfarande för dem som inte har en Bitcoin Hardware Wallet:
+Procedur för dem som inte har en Bitcoin Hardware Wallet:
 
 
 
-- Använd Electrum eller Sparrow Wallet för att skapa en ny onchain Wallet och spara backup seed på en säker plats.
+- Använd Electrum eller Sparrow wallet för att skapa en ny onchain Wallet och spara säkerhetskopian seed på en säker plats.
 - Gå till Wallet information och kopiera xpuben.
 - Gå till LNbits - Onchain-tillägg och skapa en ny Watch-only wallet med den xpuben.
 - Gå till LNbits - Tipjar-tillägg och skapa en ny Tipjar. Välj också onchain-alternativet förutom LN Wallet.
@@ -570,7 +570,7 @@ I din transaktionsöversikt hittar du en liten Green-pil för mottagna och en r�
 Om du klickar på pilarna visas bifogade meddelanden och avsändarens namn om det finns angivet.
 
 
-För att konfigurera ett namn som ska visas i betalningar är det för närvarande inte möjligt att göra detta i LNbits - men att ta emot. Detta är endast möjligt om avsändarens LN Wallet stöder [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (nameDesc) som [OBW, Blixt, Alby, ZBD, BitBanana](https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents).
+För att konfigurera ett namn som ska visas i betalningar är det för närvarande inte möjligt att göra detta i LNbits - men att ta emot det. Detta är endast möjligt om avsändarens LN Wallet stöder [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (nameDesc) som [OBW, Blixt, Alby, ZBD, BitBanana](https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents).
 
 
 Du kommer då att se ett alias/pseudonym i detaljavsnittet för dina LNbits-transaktioner (klicka på pilarna). Observera att du kan ange vilket namn som helst där och att det kanske inte är relaterat till den verkliga avsändarens namn om du får ett sådant.
@@ -606,7 +606,7 @@ Om du är nybörjare kan du börja med denna [MakerBits-presentationer] (https:/
 
 - LNbits fungerar baserat på LNURL-protokollet, där förfrågningar är giltiga i två former: antingen som https:// clearnet-länk (inga självsignerade certifikat tillåtna) eller som http:// v2/v3 onion-länk. För att erbjuda LNbits-tjänster som LNURLp/w QR-koder eller NFC-kort, som kan användas i naturen, måste du öppna LNbits för clearnet (https).
 - Använd endast DATA-kablar för att driva din esp32. Inte alla kablar stöder data utöver att driva esp. Du skulle inte vara den första om kabeln som följde med esp är en endast ström
-- Se till att inte använda en USB-hubb med andra enheter anslutna. Detta kan leda till konstiga effekter som är Hard att felsöka (t.ex. att den inte startar eller stannar).
+- Se till att inte använda en USB-hubb med andra enheter anslutna. Detta kan leda till konstiga effekter som är Hard svåra att felsöka (t.ex. att enheten inte startar eller stannar).
 - För att realisera esp-projekt med MacOS behöver du en UART Bridge-drivrutin. Om du har problem med drivrutinen på Mac- eller Linux-system kan du hitta dem här eller, om en TTGO-skärm är inblandad, den här. Om du är på Windows och har problem med att ansluta, se till att ladda ner den OLD-versionen 11.1.0 eftersom den nyare inte fungerar! Du kan också hitta en seriell terminal här för att kontrollera din anslutning - inställd på baudrate 115200.
 - Även om det är mycket bekvämare att använda Platform.io (t.ex. installeras beroenden automatiskt) rekommenderar vi att du använder Arduino för alla som är nya inom byggbranschen.
 - TT-Go Display S3: Färgen på fliken på skärmskyddsfilmen berättar exakt vilken styrenhet (ST7735_redtab, ST7735_blacktag, ST7735_greetab, greentab128, ...) som har använts för att bygga den. Behåll den för att kunna felsöka om du programmerar dig själv och skärmen inte visar grafik korrekt, t.ex. fel färger, spegelvända bilder eller pixlar i kanterna. Om du någonsin behöver göra detta finns det en episk guide om hur du justerar för olika skärmar
@@ -614,7 +614,7 @@ Om du är nybörjare kan du börja med denna [MakerBits-presentationer] (https:/
 - Genom att lägga till lightning:lnurl1234xyz skapas en QR som begär att öppna användarens Wallet för denna Invoice vid skanning (senast installerade lightning-app på iOS, inställning i Android)
 - Om du flashar en esp32 via webben fungerar det bara med dessa webbläsare (TL:DR Chrome, Edge & Opera).
 - Observera denna PIN-OUT-referens för esp
-- När du använder FOSSoftware eller FOSGuides, vänligen länka alltid författaren. Alla älskar att se sitt barn växa och det initierar också en byggkedja som är ganska fantastisk att se :)
+- När du använder FOSSoftware eller FOSGuides, vänligen länka alltid författaren. Alla älskar att se sitt barn växa och det initierar också en byggkedja som är ganska fantastisk att se:)
 
 
 Kom till [Makerbits Telegram Group] (https://t.me/makerbits) om du behöver hjälp med ett projekt - vi har dig!

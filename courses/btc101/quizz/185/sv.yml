@@ -1,0 +1,8 @@
+question: Vad är OpenNode?
+answer: En enkel online-lösning för företag att acceptera Bitcoin.
+wrong_answers:
+  - En typ av Bitcoin-nod som används samtidigt av många användare.
+  - A Bitcoin Mining programvara som är öppen källkod.
+  - En Bitcoin Exchange plattform.
+explanation: >-
+reviewed: true

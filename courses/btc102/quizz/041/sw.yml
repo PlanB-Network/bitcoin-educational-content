@@ -1,0 +1,9 @@
+question: Je! ni takriban kiwango cha juu cha Supply cha bitcoins katika mzunguko?
+answer: milioni 21
+wrong_answers:
+  - milioni 10
+  - milioni 47
+  - milioni 150
+explanation: |
+  Bitcoin imepangwa kuwa na Supply ndogo ya takriban bitcoins milioni 21.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Vad innebär begreppet fiduciary i valutasammanhang?
+answer: Det avser valutor som endast är värdefulla på grund av förtroendet för den centrala institution som reglerar dem.
+wrong_answers:
+  - Det avser valutor som backas upp av guld och som ges ut av små affärsbanker.
+  - Det avser valutor som endast är värdefulla för fiduciära transaktioner.
+  - Det avser valutor som endast används inom en specifik institution.
+explanation: |
+  Fiduciära valutor backas inte upp av en fysisk råvara
+  som guld eller silver. Deras värde härrör från den tillit
+  och förtroende som människor har för de institutioner som utfärdar
+  och reglerar dem.
+reviewed: true

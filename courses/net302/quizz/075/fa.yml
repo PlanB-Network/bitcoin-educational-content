@@ -1,0 +1,9 @@
+question: چه نوع رکورد DNS برای یافتن نام مرتبط با یک IPv6 Address استفاده می‌شود؟
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - سرویس‌گرایی
+explanation: |
+  PTR (Pointer Record) امکان حل معکوس را فراهم می‌کند، به این معنی که یک IPv6 Address را به یک نام دامنه متصل می‌کند.
+reviewed: false

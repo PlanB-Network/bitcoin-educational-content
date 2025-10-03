@@ -1,0 +1,9 @@
+question: Varför gör Alice och Bob Exchange sina hemligheter för tidigare Commitment-transaktioner?
+answer: För att var och en ska kunna skydda sig om den andra publicerar en gammal transaktion
+wrong_answers:
+  - För att öka kanalens kapacitet
+  - Att blockera varandras tillgång till fonderna
+  - För att dela upp medlen lika
+explanation: |
+  Genom att utbyta hemligheter för tidigare transaktioner kan varje deltagare straffa den andra om denne försöker fuska genom att publicera en gammal transaktion.
+reviewed: false

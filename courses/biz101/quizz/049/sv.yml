@@ -1,0 +1,9 @@
+question: Vilken viktig fördel har papperspengar jämfört med mynt i traditionella betalningssystem?
+answer: Ökad portabilitet och effektivitet
+wrong_answers:
+  - Förbättrat inneboende värde genom ädelmetaller
+  - Automatisk verifiering av varje transaktion
+  - Fullständig eliminering av risken för förfalskningar
+explanation: |
+  Papperspengar, som var lättare och lättare att transportera än mynt, möjliggjorde effektivare långdistanshandel och minskade de logistiska utmaningarna.
+reviewed: false

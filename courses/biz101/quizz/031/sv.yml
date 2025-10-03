@@ -1,0 +1,9 @@
+question: Hur ska ett företag välja en Bitcoin-betalningslösning som passar dess behov?
+answer: Genom att ta hänsyn till faktorer som transaktionsfrekvens, genomsnittlig betalningsstorlek och om det är online eller personligen, och sedan välja en lösning som är skräddarsydd för den kategorin.
+wrong_answers:
+  - Genom att alltid välja den enklaste lösningen, oavsett transaktionsvolym eller komplexitet.
+  - Genom att bara använda den största och dyraste lösningen som finns tillgänglig, oavsett företagets storlek.
+  - Genom att enbart förlita sig på gissningar utan att ta hänsyn till verksamhetens specifika krav.
+explanation: |
+  Olika företag har olika behov. Genom att utvärdera faktorer som transaktionsvolym, betalningsmetoder (online vs. fysiska) och skalbarhet kan ett företag välja rätt Bitcoin-betalningslösning.
+reviewed: false

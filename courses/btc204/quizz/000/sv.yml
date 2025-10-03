@@ -1,0 +1,9 @@
+question: Vad står akronymen UTXO för på engelska?
+answer: Outnyttjad transaktionsutgång
+wrong_answers:
+  - Enhetlig transaktionsutmatning
+  - Endast användartransaktion
+  - Verktyg token Exchange Alternativ
+explanation: |
+  En UTXO är ett resultat av en transaktion som ännu inte har spenderats.
+reviewed: false

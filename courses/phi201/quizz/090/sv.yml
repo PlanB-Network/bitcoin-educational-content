@@ -1,0 +1,9 @@
+question: Vad är enligt Tocqueville följden av att villkoren utjämnas?
+answer: Individerna blir skörare och mer isolerade.
+wrong_answers:
+  - Individerna blir mer självständiga och oberoende.
+  - Individer blir rikare och mer välmående.
+  - Det är mindre våld.
+explanation: |
+  Tocqueville konstaterar att utjämningen av villkoren kan leda till att individerna drar sig undan, vilket gör dem mer sårbara och isolerade, eftersom de förlorar de sociala band och det kollektiva stöd som tidigare gavs av traditionella hierarkier.
+reviewed: true

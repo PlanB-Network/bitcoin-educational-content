@@ -1,0 +1,9 @@
+question: Apa alasan utama mengapa penting untuk selalu memperbarui peramban Anda?
+answer: Memperbaiki kerentanan keamanan yang kritis
+wrong_answers:
+  - Meningkatkan kecepatan muat halaman
+  - Mencegah phishing
+  - Mengoptimalkan konsumsi memori
+explanation: |
+  Pembaruan memprioritaskan kerentanan keamanan yang dapat memungkinkan penyerang untuk membobol sistem Anda.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vem är instruktör för kursen?
+answer: Théo Mogenet
+wrong_answers:
+  - Théo Boloré
+  - Descoupes Bitcoin
+  - Inget av ovanstående
+explanation: |
+  I kapitlet nämns att kursledaren är
+  Théo Mogenet, en passionerad och kompetent professor i
+  Österrikisk ekonomi.
+reviewed: true

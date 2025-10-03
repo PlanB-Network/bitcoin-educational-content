@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste functie van een Hash functie?
+answer: Het zet informatie van willekeurige lengte om in een vingerafdruk van vaste grootte
+wrong_answers:
+  - Het versleutelt berichten om ze onleesbaar te maken
+  - Het wordt alleen gebruikt om de integriteit van Bitcoin software te controleren
+  - Het genereert privésleutels voor Bitcoin wallets
+explanation: |
+  Een Hash functie zet gegevens van elke grootte om in een Hash met vaste grootte, cruciaal voor veel toepassingen in Bitcoin.
+reviewed: false

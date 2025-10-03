@@ -1,0 +1,9 @@
+question: Какое событие заставило Google переориентировать Android на сенсорный Interface?
+answer: Выпуск первого iPhone
+wrong_answers:
+  - Поглощение компанией Microsoft компании Nokia
+  - Создание CyanogenMod
+  - Запуск магазина Play Store
+explanation: |
+  Появление iPhone в 2007 году заставило Google пересмотреть Android, чтобы сделать его совместимым с сенсорными экранами, отказавшись от идеи создания устройства с физической клавиатурой.
+reviewed: false

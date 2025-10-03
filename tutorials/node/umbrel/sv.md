@@ -1,10 +1,12 @@
 ---
-name: Paraply
+name: Umbrel
 description: Upptäck och installera Umbrel - din Bitcoin-nod och hemserver
 ---
 
 ![cover](assets/cover.webp)
 
+
+![video](https://youtu.be/qFfhr4sApso)
 
 
 ## Inledning
@@ -21,10 +23,10 @@ En Bitcoin-nod är en dator som deltar i Bitcoin-nätverket genom att köra Bitc
 
 
 
-- Blockchain-lagring**: Upprätthåller en fullständig, uppdaterad kopia av Blockchain Bitcoin
-- Transaktionsverifiering**: validerar varje transaktion och block i enlighet med protokollreglerna
-- Informationsspridning**: Delar nya transaktioner och block med andra noder
-- Skapande av samförstånd**: Bidrar till tillämpningen av nätverksreglerna
+- **Blockchain-lagring**: Upprätthåller en fullständig, uppdaterad kopia av Blockchain Bitcoin
+- **Transaktionsverifiering**: validerar varje transaktion och block i enlighet med protokollreglerna
+- **Informationsspridning**: Delar nya transaktioner och block med andra noder
+- **Skapande av samförstånd**: Bidrar till tillämpningen av nätverksreglerna
 
 
 
@@ -34,11 +36,11 @@ Att driva en egen Bitcoin-nod är ett viktigt steg mot finansiell suveränitet o
 
 
 
-- Konfidentialitet**: Dela dina transaktioner utan att avslöja din information för tredje part
-- Motstånd mot censur**: Ingen kan hindra dig från att använda Bitcoin
-- Oberoende verifiering**: Du behöver inte lita på andras noder för att verifiera dina transaktioner
-- Skapa samförstånd**: Bidra till tillämpningen av Bitcoin:s nätverksregler
-- Stöd till nätverk**: Bli en aktiv deltagare i nätverksdistribution och decentralisering
+- **Konfidentialitet**: Dela dina transaktioner utan att avslöja din information för tredje part
+- **Motstånd mot censur**: Ingen kan hindra dig från att använda Bitcoin
+- **Oberoende verifiering**: Du behöver inte lita på andras noder för att verifiera dina transaktioner
+- **Skapa samförstånd**: Bidra till tillämpningen av Bitcoin:s nätverksregler
+- **Stöd till nätverk**: Bli en aktiv deltagare i nätverksdistribution och decentralisering
 
 
 
@@ -144,7 +146,7 @@ UmbrelOS är den kostnadsfria versionen av operativsystemet Umbrel med öppen k�
 
 
 
-**Begränsningar
+**Begränsningar**
 
 
 
@@ -268,7 +270,7 @@ För denna installation behöver du :
 
 
 
-**Installation av microSD-kort
+**Installation av microSD-kort**
 
 
 
@@ -295,7 +297,7 @@ För denna installation behöver du :
 
 
 
-**Slå på strömmen
+**Slå på strömmen**
 
 
 
@@ -365,7 +367,7 @@ När din Umbrel är startad och tillgänglig via din webbläsare följer du dess
 
 
 
-**Bekräftelse av konto
+**Bekräftelse av konto**
 
 
 
@@ -581,7 +583,7 @@ Med den här applikationen kan du effektivt övervaka dina transaktioner, först
 
 
 
-**Lokal anslutning
+**Lokal anslutning**
 
 
 
@@ -609,11 +611,11 @@ Med den här applikationen kan du effektivt övervaka dina transaktioner, först
 
 
 
-### Anslutning med Sparrow Wallet
+### Anslutning med Sparrow wallet
 
 
 
-**Tillgång till parametrar
+**Tillgång till parametrar**
 
 
 
@@ -622,13 +624,13 @@ Med den här applikationen kan du effektivt övervaka dina transaktioner, först
 
 
 
-- Öppen sparv Wallet
+- Öppna Sparrow wallet
 - Gå till Inställningar > Server
 - Klicka på "Ändra befintlig anslutning"
 
 
 
-**Val av anslutningstyp
+**Val av anslutningstyp**
 
 
 
@@ -662,7 +664,7 @@ Sparrow erbjuder tre anslutningslägen:
 
 
 - Anslut till din ElectrS-server
-- Kombinerar sekretess och prestanda
+- Kombinerar integritet och prestanda
 
 
 
@@ -678,7 +680,7 @@ I båda fallen ska du inte markera alternativen "Använd SSL" och "Använd proxy
 
 
 
-**Lokal anslutning
+**Lokal anslutning**
 
 
 Värd: umbrel.local
@@ -705,7 +707,7 @@ Tor-anslutningen är nödvändig om du vill komma åt din nod utanför ditt loka
 ![Configuration connexion](assets/fr/21.webp)
 
 
-För mer information om Sparrow Wallet-programvaran har vi en omfattande handledning :
+För mer information om Sparrow wallet-programvaran har vi en omfattande handledning :
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -740,7 +742,7 @@ Din Umbrel är nu redo att användas. Du deltar aktivt i Bitcoin-nätverket samt
 - [Bitcoin Core] (https://Bitcoin.org/fr/)
 - [Electrs] (https://github.com/romanz/electrs)
 - [Mempool] (https://Mempool.space)
-- [Sparrow Wallet] (https://sparrowwallet.com)
+- [Sparrow wallet] (https://sparrowwallet.com)
 
 
 

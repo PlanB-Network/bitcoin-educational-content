@@ -1,0 +1,9 @@
+question: Vad är den kommutativa egenskapen för XOR-operationen?
+answer: Ordningen på operanderna påverkar inte resultatet av operationen
+wrong_answers:
+  - XOR fungerar bara med jämna tal
+  - XOR kräver operander av samma längd
+  - Bitarnas position i operanderna påverkar inte resultatet av operationen
+explanation: |
+  XOR är kommutativt, vilket innebär att a XOR b är lika med b XOR a.
+reviewed: false

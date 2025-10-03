@@ -1,0 +1,9 @@
+question: Wat is een digitale handtekening in de context van asymmetrische cryptografie?
+answer: Een mechanisme om de authenticiteit van een bericht te verifiëren met behulp van de privésleutel
+wrong_answers:
+  - Een proces om het bericht sterker te versleutelen
+  - Een extra openbare sleutel om een versleuteld bericht te valideren
+  - Een digitale kopie van een handgeschreven handtekening
+explanation: |
+  Een digitale handtekening is een cryptografische techniek die bewijst dat een bericht inderdaad is gemaakt door de eigenaar van de bijbehorende privésleutel, waardoor de authenticiteit wordt gewaarborgd.
+reviewed: false

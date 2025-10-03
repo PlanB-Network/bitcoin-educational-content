@@ -1,0 +1,9 @@
+question: Vad är en sammanslagning i en transaktion?
+answer: Det är en åtgärd för att använda flera UTXO som ingångar.
+wrong_answers:
+  - Det är en åtgärd för att skapa flera UTXO som utgångar.
+  - Det handlar om att kombinera flera adresser till en.
+  - Det handlar om att kombinera flera block i Blockchain.
+explanation: |
+  När användaren inte har någon UTXO som är större än eller lika med det belopp som de vill skicka, måste de använda flera av sina UTXO:er för att uppfylla kraven. Denna metod kallas sammanslagning.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Wat is een van de nadelen van goud als geld?
+answer: Het is niet gemakkelijk deelbaar.
+wrong_answers:
+  - Het behoudt zijn waarde niet in de ruimte.
+  - Het erodeert na verloop van tijd.
+  - Het is gemakkelijk te produceren.
+explanation: |
+  Een van de belangrijkste nadelen van goud als vorm van geld is
+  dat het moeilijk is om het in kleine eenheden te verdelen als dat nodig is
+  nodig is, waardoor het minder praktisch in gebruik is.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Millist käsku saab kasutada tarkvara installimiseks Ubuntu ametlikest repositooriumidest?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - install-software
+explanation: |
+  Käsk "sudo apt install" installeerib tarkvarapaketi APT paketihalduri kaudu, mis on Ubuntu algupärane meetod.
+reviewed: false

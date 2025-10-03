@@ -1,0 +1,4 @@
+description: |
+  Kaleidoswap là một giao thức giao dịch phi tập trung cho phép hoán đổi tài sản nguyên tử, không lưu ký trên Lightning Network. Được xây dựng trên RGB Lightning Node, Kaleidoswap cho phép người dùng giao dịch mã thông báo Bitcoin và RGB theo cách của Trustless—không cần trung gian hoặc lưu ký tập trung.
+  
+  Được phát hành dưới dạng ứng dụng máy tính để bàn nguồn mở, Kaleidoswap hiện hỗ trợ giao dịch đa tài sản trong môi trường Testnet, cung cấp Interface thân thiện với người dùng để tương tác với các tài sản gốc Lightning, kênh RGB và nhà cung cấp thanh khoản (LSP). Nó được thiết kế để trao quyền cho các nhà giao dịch và nhà phát triển có chủ quyền với Layer tài chính có thể lập trình hoàn toàn ngang hàng trên Bitcoin.

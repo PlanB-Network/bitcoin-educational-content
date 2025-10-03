@@ -1,0 +1,11 @@
+question: Bitcoin işlemlerinde özel anahtarların rolü nedir?
+answer: İşlemleri imzalamak ve yetkilendirmek için kullanılırlar.
+wrong_answers:
+  - İşlemlerin gerçekliğini doğrulamak için kullanılırlar.
+  - İşlem verilerini şifrelemek için kullanılırlar.
+  - Şeffaflık için kamuya açık olarak paylaşılırlar.
+explanation: |
+  Özel anahtarlar, Bitcoin işlemlerinin temel bir bileşenidir.
+  İşlemleri imzalamak ve yetkilendirmek için kullanılırlar, kanıt sağlarlar
+  ve Bitcoin'yi yalnızca mal sahibinin harcayabilmesini sağlamak.
+reviewed: true

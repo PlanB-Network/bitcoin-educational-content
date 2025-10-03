@@ -324,7 +324,10 @@ Avec un gestionnaire de mots de passe, vous n'avez plus à vous soucier d'oublie
 
 - KeePass : C'est une solution open source qui est principalement destinée à l'auto-hébergement. Vos données sont stockées localement par défaut, mais vous pouvez synchroniser la base de données de mots de passe à l'aide de différents moyens si vous le souhaitez. KeePass est largement reconnu pour sa sécurité et sa flexibilité, bien qu'il puisse être un peu moins convivial pour les novices.
   ![](assets/notext/18.webp)
-  (Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
+
+Pour les solutions auto-hébergées comme KeePass, il est possible de synchroniser votre base de données entre plusieurs appareils sans passer par des services tiers centralisés. Des outils comme **Syncthing** permettent une synchronisation chiffrée et décentralisée directement entre vos appareils. Cette approche conserve vos données sous votre contrôle tout en assurant leur disponibilité sur l’ensemble de vos équipements.
+
+(Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
 
 ### Qu'est ce qu'un bon mot de passe:
 
@@ -360,7 +363,9 @@ Cette seconde étape peut être :
 - Un code temporaire envoyé par SMS.
 - Un code généré par une application comme Google Authenticator ou Authy.
 - Une clé de sécurité physique que vous insérez dans votre ordinateur.
+
   ![](assets/notext/19.webp)
+
   Avec la 2FA, même si un pirate obtient votre mot de passe, il ne pourra pas accéder à votre compte sans ce deuxième facteur de vérification. Cela rend la 2FA essentielle pour protéger vos comptes en ligne contre les accès non autorisés.
 
 ### Quelle option choisir ?
@@ -372,6 +377,8 @@ Les différentes options pour l'authentification forte offrent des niveaux de s�
 - Les jetons matériels, tels que les clés USB ou les cartes à puce, offrent une sécurité optimale en générant une clé privée unique pour chaque site et en vérifiant l'URL avant d'autoriser la connexion.
 
 Pour une sécurité optimale avec l'authentification forte, il est recommandé d'utiliser une adresse mail sécurisée, un gestionnaire de mots de passe sécurisé et d'adopter un 2FA en utilisant des YubiKey. Il est également conseillé d'acheter deux YubiKey pour prévoir la perte ou le vol, par exemple conserver un exemplaire de sauvegarde à la fois chez soi et sur soi.
+
+En ce qui concerne les menaces potentielles pour l'authentification à deux facteurs (2FA) par SIM, un exemple courant est l'attaque par échange de SIM, où un attaquant vole le numéro de téléphone d'un utilisateur en le liant à une carte SIM contrôlée par l'attaquant. Il existe plusieurs façons pour un attaquant de mener à bien l'attaque ; cependant, cette menace est généralement une préoccupation majeure uniquement pour les personnes de haut profil et les personnes d'intérêt.
 
 La biométrie peut être utilisée comme un substitut, mais elle est moins sécurisée que la combinaison de la connaissance et de la possession. Les données biométriques doivent rester sur l'appareil d'authentification et ne pas être divulguées en ligne. Il est important de prendre en compte le modèle de menace associé aux différents moyens d'authentification et d'adapter sa pratique en conséquence.
 
@@ -448,20 +455,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 :::video id=ba8f85df-d77c-4425-b3ff-7bb543811190:::
 
-## Mise en place de Back-up
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
-:::video id=5213b709-be9b-4dea-a35d-08b7ecfdd5f1:::
-
 ## Changement de navigateur & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -479,6 +472,20 @@ Découvrez également comment utiliser Tor Browser, un navigateur spécifiquemen
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 :::video id=175fcd63-d6fd-42a7-983a-83e91a13ba31:::
+
+## Mise en place de Back-up
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
+:::video id=5213b709-be9b-4dea-a35d-08b7ecfdd5f1:::
 
 # Allez plus loins
 

@@ -1,0 +1,9 @@
+question: Welcher Dienst ersetzt den ISP-DNS, um die Vertraulichkeit von Webanfragen zu schützen?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 ist ein datenschutzfreundlicher öffentlicher DNS-Server, der bösartige Domänen herausfiltert und keine Namensprotokolle führt.
+reviewed: false

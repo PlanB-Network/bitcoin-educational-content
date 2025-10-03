@@ -37,6 +37,8 @@ Cho dù bạn đại diện cho một doanh nghiệp nhỏ hay một tập đoà
 
 Sẵn sàng khám phá thế giới Bitcoin dành cho doanh nghiệp chưa? Bắt đầu thôi!
 
+**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+
 # Tiền tệ, hệ thống thanh toán và Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -143,7 +145,7 @@ Hệ thống thanh toán là các phương pháp và cơ sở hạ tầng cho ph
     - Trọng tâm thường là khả năng truy xuất nguồn gốc, lập tài liệu và khả năng xử lý các giao dịch có giá trị lớn hơn.
     - Việc sử dụng thẻ vẫn tồn tại nhưng có xu hướng ít phổ biến hơn do phí và hạn mức giao dịch cao hơn. Các giải pháp số phổ biến như lắp đặt hay tích hợp các nền tảng thanh toán để tinh gọn và tự động hóa các quy trình phải thu/phải trả.
 
-![BIZ101](assets/en/01.webp)
+![BIZ101](assets/vi/001.webp)
 
 *Đồ họa: Xu hướng toàn cầu về phương thức thanh toán tại điểm bán hàng (POS) (2023-2027), Báo cáo thanh toán toàn cầu năm 2024, Worldpay.*
 
@@ -151,7 +153,7 @@ Hệ thống thanh toán là các phương pháp và cơ sở hạ tầng cho ph
 
 Khi khách hàng sử dụng thẻ tín dụng tại cửa hàng, thẻ sẽ được đọc bởi thiết bị đầu cuối POS, thiết bị này sẽ truyền dữ liệu giao dịch một cách an toàn đến ngân hàng thu mua của đơn vị bán hàng. Bên thu mua sẽ chuyển tiếp thông tin này đến mạng lưới thẻ có liên quan (ví dụ: Visa hoặc Mastercard), sau đó chuyển yêu cầu đến đơn vị phát hành thẻ—ngân hàng đã cung cấp thẻ cho khách hàng. Bên phát hành sẽ kiểm tra tài khoản hoặc hạn mức tín dụng của khách hàng và gửi lại lệnh ủy quyền thông qua mạng lưới và đơn vị thu mua, cho phép đơn vị bán hàng chấp nhận thanh toán.
 
-![BIZ101](assets/en/02.webp)
+![BIZ101](assets/vi/002.webp)
 
 Giao dịch có vẻ đơn giản này thực ra bao gồm hơn 15 bước, 7 bên trung gian và mất trung bình từ 48 giờ đến 5 ngày để bên bán nhận được tiền. Trong những ngày tiếp theo, một quá trình thanh toán bù trừ và quyết toán diễn ra. Mạng lưới thẻ tổng hợp các giao dịch trong ngày và điều phối việc trao đổi tiền giữa bên mua và bên phát hành. Một ngân hàng trung ương đảm bảo tính chính xác và ổn định của các khoản thanh toán liên ngân hàng này. Cuối cùng, tài khoản ngân hàng của bên bán nhận được số tiền ròng (trừ phí) được ghi có từ bên mua, do đó hoàn tất vòng đời giao dịch.
 
@@ -200,13 +202,13 @@ Bitcoin là **hệ thống trao đổi tiền kỹ thuật số ngang hàng** (t
 
 Cùng nhau, chúng tạo nên Bitcoin là **tài sản cơ bản** và là tiền kỹ thuật số **không có bên phát hành**. Quyền sở hữu được bảo đảm chỉ bằng cách nắm giữ **khóa mật mã riêng**, cấp quyền kiểm soát hoàn toàn **mà không cần trung gian hoặc bên thứ ba đáng tin cậy**. Khi được chuyển nhượng, quyền sở hữu **tính cuối cùng** là ngay lập tức: người nắm giữ mới sở hữu hoàn toàn mà không cần dựa vào cơ quan trung ương để bảo vệ hoặc chuyển đổi. Các giao dịch là **không thể thay đổi**—một khi đã được ghi lại trên blockchain, chúng không thể bị thay đổi hoặc xóa.
 
-![BIZ101](assets/en/11.webp)
+![BIZ101](assets/vi/003.webp)
 
 Bitcoin có chính sách tiền tệ cố định, với **mức giới hạn là 21 triệu bitcoin**, trong đó ~19,8 triệu đã được phân phối. Điều này khiến nó trở thành **giảm phát**, với giá trị tăng theo thời gian khi người dùng lưu trữ tiền tiết kiệm và hiệu năng sản suất trong đó.
 
 Các tính năng kỹ thuật của nó vượt trội hơn cả vàng và đô la cộng lại, khiến nó trở thành tài sản tài chính tốt nhất từng được tạo ra. Bitcoin vừa là kho lưu trữ giá trị vừa là phương tiện trao đổi, một loại tiền tệ đang được hình thành. Hãy tưởng tượng việc chuyển giá trị từ quỹ dự phòng của một công ty sang một công ty khác một cách nhanh chóng, không qua trung gian, với chi phí tối thiểu, không gian lận, 24/7 và không có bên thứ ba nào tham gia.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/vi/004.webp)
 
 Bitcoin bảo toàn giá trị hiệu quả vì sổ cái của nó không thể bị giả mạo. Giá trị của nó tăng lên do nguồn cung hạn chế và hiếm kết hợp với số lượng cơ hội trao đổi ngày càng tăng, được thúc đẩy bởi số lượng người dùng ngày càng tăng.
 
@@ -256,7 +258,7 @@ Mạng Lightning là **một giao thức và mạng lưới** tạo điều ki�
 - **Thanh toán trên chuỗi:** Chỉ **số dư cuối cùng** của các giao dịch của kênh được công bố trên chuỗi khối chính của Bitcoin (**"trên chuỗi**"), cho phép nhiều giao dịch diễn ra trong thời gian đó. Việc gộp nhiều khoản thanh toán này làm giảm tình trạng tắc nghẽn và do đó giảm phí so với việc thực hiện nhiều giao dịch trên chuỗi.
 - **Đóng kênh:** Người dùng có thể đóng kênh của họ bất kỳ lúc nào và lấy lại Bitcoin của họ bằng cách công bố trạng thái giao dịch mới nhất. Đây là nguyên tắc giao dịch **"có thể công bố" bất kỳ lúc nào nhưng "chưa được công bố"** cho đến khi cần thiết. Việc thoát (đóng kênh) có thể là đơn phương (do bất kỳ bên nào trong 2 bên quyết định bất kỳ lúc nào) hoặc được quyết định chung (dẫn đến phí trên chuỗi thấp hơn)
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/vi/005.webp)
 
 Cách tiếp cận này tránh được sự chậm chạp và phức tạp khi thực hiện mọi giao dịch trực tiếp trên chuỗi khối dữ liệu (blockchain) chính của Bitcoin, chỉ ghi lại số dư cuối cùng và duy trì tính bảo mật của nó. Mạng Lightning là một lớp "ở trên" Bitcoin nhưng vẫn được neo vào nó.
 
@@ -266,7 +268,7 @@ Giao thức này tạo ra một **mạng** máy móc, trong đó các kênh tạ
 
 Mạng Lightning cho phép trao đổi giá trị tức thời với tốc độ ánh sáng. Nó giống như một giao thức email được áp dụng cho thanh toán: một mạng lưới thanh toán thế hệ tiếp theo. Nó chuyển đổi hoàn toàn cách "tiền" di chuyển, khiến nó trở nên miễn phí và nhanh như truyền dữ liệu trên internet.
 
-![BIZ101](assets/en/12.webp)
+![BIZ101](assets/vi/006.webp)
 
 **Ưu điểm chính:**
 
@@ -374,7 +376,7 @@ Trước khi bắt đầu chế tạo ngọn giáo, người đánh cá quyết 
 
 Trong khi dành thời gian để chế tạo ngọn giáo, anh ấy dựa vào nguồn dự trữ của mình, sẵn sàng trì hoãn một số tiện nghi tức thời của mình (phản ánh **sở thích thời gian** của anh ấy). Sau nhiều ngày làm việc chăm chỉ, anh ấy đã hoàn thành một ngọn giáo chắc chắn.
 
-![BIZ101](assets/en/05.webp)
+![BIZ101](assets/vi/007.webp)
 
 Với cây giáo, giờ đây anh có thể bắt cá nhanh hơn nhiều và ít tốn công sức hơn. Anh không còn phải vắt kiệt sức mình như trước nữa và thậm chí còn bắt đầu tích lũy được một lượng cá nhàn rỗi. Lượng cá nhàn rỗi này mở ra những khả năng mới: anh có thể lưu trữ, chia sẻ hoặc đầu tư vào các dự án khác trên đảo. Bằng cách hoãn việc tiêu thụ trước mắt và sử dụng vốn của mình, người đánh cá đã cải thiện đáng kể hiệu quả và triển vọng tương lai của mình."
 
@@ -430,7 +432,7 @@ Bitcoin cung cấp một cách để tích lũy và bảo toàn vốn trong dài
 - **Milton Friedman**: Mặc dù không liên quan trực tiếp đến Trường phái Áo, Friedman ủng hộ nhiều ý tưởng ủng hộ thị trường và tự do. Chính sách tiền tệ của ông khác với tư tưởng Áo nhưng chia sẻ sự chỉ trích của họ về sự can thiệp quá mức của nhà nước vào nền kinh tế.
 - **Frédéric Bastiat**: Một nhà kinh tế học người Pháp thế kỷ 19, Bastiat đã ảnh hưởng đến Trường phái Áo với các tác phẩm của ông về thương mại tự do và những hậu quả vô hình của các chính sách kinh tế. Bài luận _What Is Seen and What Is Not Seen_ của ông là một văn bản nền tảng của chủ nghĩa tự do kinh tế.
 
-![BIZ101](assets/en/06.webp)
+![BIZ101](assets/vi/008.webp)
 
 *Ghi công: Viện Ludwig von Mises*
 
@@ -483,7 +485,7 @@ Tuy nhiên, có một số yếu tố chính cần lưu ý:
 
 Thứ hai, Bitcoin cho đến nay đã trải qua **nhiều chu kỳ 4 năm**, nghĩa là với khoảng thời gian hơn 4 năm, khoản đầu tư luôn có lãi. Đối với những người coi Bitcoin là khoản đầu tư với khoảng thời gian ngắn hạn (ít hơn 4 năm) có thể rủi ro.
 
-![BIZ101](assets/en/07.webp)
+![BIZ101](assets/vi/009.webp)
 
 *MICHAEL SAYLOR: "Tín hiệu giá Bitcoin tốt nhất là đường trung bình động đơn giản 4 năm."* Xem biểu đồ ở trên.
 
@@ -544,7 +546,7 @@ Bạn không cần phải mua chính xác 1 Bitcoin, vì Bitcoin có thể chia 
 
 Hơn nữa, tổng số 21 triệu bitcoin—hay **2,1 nghìn tỷ satoshi (sats)**—có thể được biểu diễn hiệu quả bằng số nguyên 64 bit. Điều này có nghĩa là mặc dù giá cho mỗi bitcoin nguyên cao, nhưng nó vẫn có thể tiếp cận được với nhiều nhà đầu tư nhờ tính có thể chia nhỏ của nó. Do đó, bạn không cần phải mua toàn bộ bitcoin để tham gia vào mạng lưới hoặc đầu tư vào tài sản mã hóa này.
 
-![BIZ101](assets/en/08.webp)
+![BIZ101](assets/vi/010.webp)
 
 Hãy nhớ rằng tổng vốn hóa thị trường tương đối thấp của nó, so với các tài sản khác như cổ phiếu, vàng hoặc bất động sản, vẫn giữ nguyên khả năng tăng giá của nó. Với mức thâm nhập thị trường vẫn còn rất thấp (khoảng 1% dân số toàn cầu), chúng tôi nhận định đây là chỉ mới ở giai đoạn đầu của sự tăng trưởng. Điều này khiến nó trở thành **tài sản tăng trưởng mạnh nhất của thế hệ chúng ta**: hiện tại có rất ít khả năng nó sẽ giảm xuống bằng không tại thời điểm này và có khả năng lớn là nó sẽ tiếp tục tăng giá.
 
@@ -562,6 +564,7 @@ Hiện tại, kịch bản một chủ sở hữu đa số đưa ra quyết đ�
 - **Chủ sở hữu các doanh nghiệp nhỏ**: Các doanh nhân trong ngành dịch vụ, nông nghiệp hoặc thủ công đã hiểu được tiềm năng của Bitcoin và phân bổ một phần ngân khố của họ cho nó. Động lực chính của họ nằm ở sự đa dạng hóa và sự tự do mà nó mang lại
 - **Các công ty đại chúng** như MicroStrategy đã tạo ra tiền lệ bằng cách chuyển đổi một phần đáng kể quỹ dự phòng của công ty thành Bitcoin, chứng minh sự thay đổi toàn cầu trong các chiến lược phân bổ vốn của công ty. Đến mùa thu năm 2024, nhiều công ty khác đã làm theo, hợp pháp hóa và thúc đẩy xu hướng này mạnh hơn nữa.
 
+Khám phá danh sách cập nhật các công ty nắm giữ nhiều bitcoin nhất trong kho bạc, cũng như số lượng nắm giữ, tại trang web: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Thuế đối với bitcoin do doanh nghiệp nắm giữ
 
 Đối với các doanh nghiệp không được cấu trúc như các thực thể pháp lý riêng biệt—chẳng hạn như các doanh nghiệp độc quyền hoặc các thực thể không hợp nhất khác—việc đánh thuế các giao dịch Bitcoin thường phản ánh cách xử lý áp dụng cho các cá nhân. Trong nhiều trường hợp, các quy tắc tương tự chi phối thu nhập hoặc lợi nhuận từ vốn cũng được áp dụng, giống như khi một cá nhân bán Bitcoin. Ví dụ, ở một số quốc gia, lợi nhuận có thể được coi là một phần thu nhập cá nhân của doanh nhân, chịu **các mức thuế thu nhập cá nhân**.
@@ -580,7 +583,7 @@ Do những khác biệt này, **một số chủ doanh nghiệp chọn mua và n
 
 Có ba cách để có được Bitcoin:
 
-![BIZ101](assets/en/09.webp)
+![BIZ101](assets/vi/011.webp)
 
 
 - **Để đổi lấy hàng hóa hoặc dịch vụ:**
@@ -607,7 +610,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 Để tìm hiểu thêm về các phương pháp mua bitcoin thông qua sàn giao dịch hoặc ngang hàng, bạn có thể [tham khảo phần "sàn giao dịch" trong hướng dẫn của chúng tôi](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/en/16.webp)
+![BIZ101](assets/vi/012.webp)
 
 ### Với giá nào?
 
@@ -631,7 +634,7 @@ Trên thực tế, tiềm năng tăng giá của Bitcoin là như vậy, ngay c�
 
 Ngành bất động sản thường lặp lại rằng “luôn là thời điểm thích hợp để mua”, nhưng quên rằng nếu bất động sản mất đi chức năng lưu trữ giá trị—cái có thể dịch chuyển sang các tài sản như Bitcoin—giá có thể quay trở lại gần hơn với giá trị tiện ích của chúng (nơi ở). Ngược lại, Bitcoin không phục vụ mục đích nào khác ngoài việc lưu trữ giá trị, điều này có thể có nghĩa là “luôn là thời điểm thích hợp để mua”. Tương lai sẽ trả lời.
 
-![BIZ101](assets/en/13.webp)
+![BIZ101](assets/vi/013.webp)
 
 *Nguồn: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
@@ -658,11 +661,11 @@ Ví dụ, một sàn giao dịch hoặc dịch vụ mua có thể tạo tài kho
 
 Đây là các công cụ tài chính truyền thống đại diện cho các phần nhỏ của Bitcoin, sao chép hiệu suất giá của nó. Về mặt lý thuyết, tổ chức đứng sau sản phẩm này mua và nắm giữ Bitcoin cơ bản. Các khoản đóng góp và rút tiền của bạn được thực hiện bằng tiền tệ truyền thống (ví dụ: đô la hoặc euro), không phải bằng Bitcoin. Ngoại trừ một số sản phẩm nhất định cho phép rút tiền bằng Bitcoin thực tế (để tránh sự kiện chịu thuế ở một số khu vực pháp lý), các công cụ này liên quan đến phí quản lý hàng năm. Ở đây, bạn dựa vào tính bảo mật của tổ chức và phải đối mặt với rủi ro đối tác (ví dụ: nếu chính phủ quyết định tịch thu tất cả Bitcoin do tổ chức nắm giữ, như đã xảy ra với vàng vào năm 1933 theo Lệnh hành pháp 6102 của Mỹ). Lợi ích chính của chúng là dễ dàng truy cập vì chúng được phân phối thông qua các kênh tài chính truyền thống. Chúng bỏ qua nhu cầu bảo mật khóa mật mã nhưng không cung cấp bất kỳ thuộc tính vốn có nào của Bitcoin: bạn không thể sử dụng mạng Bitcoin 24/7 để di chuyển giá trị một cách tự do mà không được phép. Chúng chỉ sao chép hiệu suất tài chính, chứ không phải chức năng hoặc chủ quyền của chính Bitcoin.
 
-![BIZ101](assets/en/15.webp)
+![BIZ101](assets/vi/014.webp)
 
 Ngoài ra, hình thức bạn nắm giữ Bitcoin có tác động đáng kể đến các biện pháp bảo mật cần thiết để bảo vệ quỹ dự phòng của công ty bạn. Cho dù bạn chọn tự lưu ký, sử dụng ví cứng chữ ký đơn hoặc đa chữ ký, v.v. để duy trì quyền kiểm soát trực tiếp đối với khóa của mình hay ủy quyền nhiệm vụ này cho các dịch vụ lưu ký của bên thứ ba hoặc ETF, thì mỗi tùy chọn đều có hồ sơ rủi ro riêng. Ví dụ, tự lưu ký cung cấp quyền truy cập đầy đủ nhưng đòi hỏi các giao thức bảo mật nội bộ nghiêm ngặt, trong khi các giải pháp của bên thứ ba giảm gánh nặng quản lý với cái giá phải trả là rủi ro đối tác. Để minh họa thêm cho sự khác biệt, biểu đồ này phác thảo mô hình bảo mật cho từng loại lưu ký, giúp bạn lựa chọn phương pháp phù hợp nhất với nhu cầu của tổ chức mình:
 
-![BIZ101](assets/en/14.webp)
+![BIZ101](assets/vi/015.webp)
 
 ### Mua từ ai?
 
@@ -710,7 +713,7 @@ Vào những ngày đầu, mạng internet giúp loại bỏ các trung gian kh�
 
 Bitcoin là một cơ sở hạ tầng của sự tin cậy, ứng dụng đầu tiên của nó là loại bỏ các trung gian khỏi việc lưu trữ và trao đổi giá trị—tiền. Các ứng dụng khác hiện không thể tưởng tượng được sẽ xuất hiện trên cơ sở hạ tầng này. Sự hiện diện ban đầu của bạn ở đây tương đương với việc có một trang web: một cổng thông tin đến các khoản thanh toán ngang hàng và trao đổi giá trị.
 
-![BIZ101](assets/en/17.webp)
+![BIZ101](assets/vi/016.webp)
 
 Bây giờ, hãy xem xét góc nhìn của một doanh nghiệp thực tế mà hoạt động cốt lõi không liên quan gì đến Bitcoin. Tại sao họ lại chọn chấp nhận thanh toán bằng Bitcoin?
 
@@ -836,19 +839,19 @@ Trong các chương sau, chúng tôi sẽ trình bày chi tiết từng hồ sơ
 
 Hồ sơ khởi đầu cơ bản được thiết kế cho các doanh nghiệp, người sáng tạo và cá nhân muốn khám phá các khoản thanh toán Bitcoin mà không cần cam kết nguồn lực hoặc chuyên môn đáng kể. Đây thường là những người xử lý một khối lượng giao dịch rất nhỏ (có thể là một vài mẹo, quyên góp hoặc bán hàng thỉnh thoảng) và tìm kiếm một giới thiệu đơn giản, nhẹ nhàng về hệ sinh thái mạng Bitcoin và Lightning. Giá trị chính của phương pháp khởi đầu cơ bản nằm ở thiết lập tối thiểu của nó: trong hầu hết các trường hợp, tất cả những gì cần thiết là một điện thoại thông minh hoặc máy tính bảng được trang bị ví tương thích với Lightning cơ bản.
 
-![BIZ101-profiles](assets/en/18.webp)
+![BIZ101-profiles](assets/vi/017.webp)
 
 Một trong những đặc điểm nổi bật của hồ sơ này là tập trung vào các khoản thanh toán khối lượng thấp hiếm khi vượt quá vài trăm euro hoặc đô la mỗi tháng. Quy mô khiêm tốn này khiến nó trở thành lựa chọn tuyệt vời cho bất kỳ ai muốn thử nghiệm thị trường bằng Bitcoin, mà không có sự phức tạp vốn có trong các đợt triển khai khối lượng lớn hơn. Ngoài ra, nó cho phép học và thực hành ngay lập tức; vì có ít áp lực vận hành hơn và tiền cược nhỏ hơn, nên có thể hạn chế được sai sót và rút ra bài học nhanh chóng. Từ những nghệ sĩ bán đồ thủ công tại các hội chợ cuối tuần đến các nhóm phi lợi nhuận chấp nhận các khoản quyên góp một lần, người dùng trong danh mục này thường nhấn mạnh vào khả năng truy cập và tính dễ sử dụng hơn là các chức năng nâng cao.
 
 Hai thiết lập ví phổ biến nhất cho giải pháp khởi đầu cơ bản liên quan đến việc quyết định giữa các giải pháp lưu ký và không lưu ký. Ví lưu ký (như Wallet of Satoshi hoặc Blink) cho phép dịch vụ của bên thứ ba quản lý khóa riêng và hoạt động phụ trợ, do đó giảm gánh nặng kỹ thuật cho người dùng. Sự sắp xếp này đặc biệt hấp dẫn đối với những người coi trọng sự tiện lợi hơn hết và muốn có quá trình tích hợp đơn giản nhất có thể. Mặt khác, ví Lightning không lưu ký (như Phoenix hoặc Breez) đặt khóa riêng và toàn quyền kiểm soát vào tay chủ doanh nghiệp, mang lại quyền tự chủ và quyền riêng tư lớn hơn để đổi lấy nỗ lực ban đầu nhiều hơn một chút. Trong cả hai trường hợp, giao diện hiện đại thường rất thân thiện với người dùng đến mức bất kỳ ai cũng có thể xử lý các tác vụ cần thiết (tạo mã QR, nhập số tiền thanh toán và xác nhận giao dịch) chỉ trong vài phút.
 
-![BIZ101-profiles](assets/en/19.webp)
+![BIZ101-profiles](assets/vi/018.webp)
 
 Mặc dù các mối lo ngại về bảo mật có vẻ ít nguy hại hơn khi các giao dịch nhỏ, nhưng việc áp dụng các biện pháp bảo vệ cơ bản vẫn rất quan trọng. Ngay cả một điện thoại thông minh hoặc máy tính bảng duy nhất được sử dụng để nhận thanh toán Bitcoin cũng phải được khóa bằng mật khẩu hoặc bảo mật sinh trắc học và các quy trình sao lưu (từ việc theo dõi thông tin đăng nhập cho ví lưu ký đến bảo vệ cụm từ mật mã cho ví không lưu ký) phải được thực hiện nghiêm túc. Các nhân viên xử lý giao dịch trong môi trường vật lý sẽ được hưởng lợi khi biết những điều cơ bản: cách mở ứng dụng, cách xuất trình mã QR cho khách hàng và cách kiểm tra xem khoản thanh toán đã thực sự đến hay chưa. 
 
 Kế toán và báo cáo, mặc dù tương đối đơn giản trong giải pháp khởi đầu cơ bản, vẫn cần được cân nhắc cẩn thận. Mặc dù khối lượng giao dịch có thể tối thiểu, việc lưu giữ hồ sơ chính xác sẽ ngăn ngừa nhầm lẫn trong tương lai và giúp duy trì tính minh bạch trong trường hợp kiểm toán tài chính hoặc nộp thuế. Nhiều ứng dụng ví cho phép người dùng xuất lịch sử giao dịch cơ bản dưới định dạng CSV; đối với một doanh nghiệp nhỏ hoặc một doanh nhân độc thân, việc lưu các dữ liệu này thường xuyên có thể giúp đối chiếu tài khoản dễ dàng hơn nhiều. Theo dõi giá trị pháp định (fiat) gần đúng (ví dụ, bằng euro hoặc đô la) tại thời điểm nhận được mỗi giao dịch cũng là điều khôn ngoan. Vì giá Bitcoin có thể biến động nên việc có hồ sơ về tỷ giá chuyển đổi là vô cùng có giá trị đối với việc ghi sổ kế toán và tuân thủ thuế.
 
-![BIZ101-profiles](assets/en/20.webp)
+![BIZ101-profiles](assets/vi/019.webp)
 
 Đối với các doanh nghiệp muốn bổ sung cho các khoản thanh toán trực tiếp hoặc trực tiếp bằng các khoản quyên góp hoặc tiền hoa hồng trực tuyến, giờ đây việc tích hợp nút tiền hoa hồng Lightning hoặc tiện ích quyên góp vào trang web hoặc blog trở nên đơn giản. Các nền tảng như BTCPay Server cung cấp các chức năng thanh toán dễ cài đặt, trong khi một số dịch vụ trên mạng xã hội và phát trực tiếp đã hỗ trợ tiền hoa hồng qua địa chỉ Lightning. Do đó, ngay cả một doanh nghiệp khởi đầu cơ bản cũng có thể xây dựng được mạng lưới khách hàng khiêm tốn nhưng toàn cầu. Trong khi đó, những người không muốn nắm giữ Bitcoin trong thời gian dài có thể khám phá việc chuyển đổi một phần hoặc tự động sang tiền pháp định bằng cách sử dụng một số ví lưu ký hoặc dịch vụ của bên thứ ba. Mặc dù tùy chọn này liên quan đến các khoản phí bổ sung và các nghĩa vụ KYC có thể xảy ra, nhưng nó giúp các doanh nghiệp tránh được sự biến động của tỷ giá hối đoái và duy trì quy trình công việc tài chính hiện tại của họ với sự gián đoạn tối thiểu.
 
@@ -861,13 +864,14 @@ Bằng cách cân bằng các công cụ thân thiện với người dùng, yê
 **Ví/nút LN tự lưu giữ:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 **Ví LN lưu ký:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi (sats)-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Thiết yếu
@@ -880,23 +884,23 @@ Không giống như giải pháp khởi đầu cơ bản, các doanh nghiệp Th
 
 Các khuyến nghị về công nghệ trong phân khúc này thường tập trung vào **Swiss Bitcoin Pay**, một giải pháp hợp lý hóa cho các thương gia để chấp nhận thanh toán Bitcoin dễ dàng. Nó có ứng dụng PoS thân thiện với người dùng, không yêu cầu chuyên môn kỹ thuật đối với nhân viên. Không giống như ví Bitcoin tiêu chuẩn, nó chỉ tập trung vào việc nhận thanh toán, cho phép nhân viên sử dụng thiết bị mà không có rủi ro bảo mật. Nhiều ứng dụng PoS có thể kết nối với cùng một tài khoản, có thể sử dụng trên máy tính bảng, máy tính tiền, điện thoại thông minh hoặc thông qua phiên bản web cho máy tính, hỗ trợ Android và iOS. Bạn cũng có thể tạo menu với các mặt hàng bạn bán và giá liên quan, cho phép nhân viên chỉ cần chọn một giỏ hàng các mặt hàng cho khách hàng trên PoS rồi tính tổng số tiền.
 
-![BIZ101-profiles](assets/en/21.webp)
+![BIZ101-profiles](assets/vi/020.webp)
 
 Thanh toán có thể được rút bằng Bitcoin đến một địa chỉ cụ thể hoặc chuyển đổi sang tiền pháp định và gửi vào tài khoản ngân hàng hàng ngày. Swiss Bitcoin Pay tự động hóa quy trình, xử lý các khoản thanh toán mạng Bitcoin và Lightning mà không cần can thiệp thủ công. Tiền được giữ tối đa 24 giờ trước khi chuyển. Mặc dù không hoàn toàn không lưu ký như BTCPay Server, nhưng nó cân bằng giữa sự tiện lợi và bảo mật, và không yêu cầu KYC.
 
-![BIZ101-profiles](assets/en/22.webp)
+![BIZ101-profiles](assets/vi/021.webp)
 
 Phí cạnh tranh: 0,21% cho năm đầu tiên, sau đó là 1% cho thanh toán Bitcoin và 1,5% cho thanh toán chuyển đổi tiền pháp định, bao gồm cả chi phí giao dịch Bitcoin. Swiss Bitcoin Pay cung cấp giải pháp trung gian thiết thực giữa các giải pháp lưu ký như Open Node và các hệ thống tự lưu trữ phức tạp như BTCPay Server, ưu tiên sự đơn giản, bảo mật và tính tự chủ về tài chính.
 
 Kiểu thiết lập này cho phép các doanh nghiệp trực tiếp tạo hóa đơn thanh toán nhanh chóng, trình bày mã QR cho khách hàng và chấp nhận các giao dịch Lightning hoặc trên chuỗi với ít ma sát nhất. Nhân viên chỉ cần định hướng ngắn gọn để xử lý các khoản thanh toán này, trong khi người quản lý có thể đăng nhập vào bảng điều khiển trực tuyến để đối chiếu doanh số hàng ngày và truy cập các báo cáo cơ bản. Việc có sẵn bảng điều khiển quản trị hợp lý cũng giúp các cơ sở nhỏ hơn theo dõi cả doanh thu tiền pháp định và tiền điện tử từ một giao diện duy nhất, do đó giảm thiểu sự nhầm lẫn và giảm thời gian dành cho việc ghi sổ thủ công.
 
-![BIZ101-profiles](assets/en/23.webp)
+![BIZ101-profiles](assets/vi/022.webp)
 
 Một lợi ích quan trọng khác của phương pháp Thiết yếu là nhấn mạnh vào việc triển khai nhanh chóng và sự gián đoạn tối thiểu. Các giải pháp như Swiss Bitcoin Pay có thể được thiết lập trong vài giờ thay vì vài ngày hoặc vài tuần. Ví dụ, đối với chủ sở hữu hoặc người quản lý của một nhà hàng có lượng khách vừa phải, mục tiêu cuối cùng là tích hợp chấp nhận Bitcoin mà không gây ra sự chậm trễ tại quầy thanh toán hoặc sự nhầm lẫn giữa các nhân viên. Sau khi POS được cấu hình, người quản lý có thể chỉ cần cung cấp cho nhân viên hướng dẫn nhanh về cách hiển thị hóa đơn và xác minh rằng khoản thanh toán đã được xóa. Trong trường hợp tốt nhất, giao dịch của khách hàng được xác nhận gần như ngay lập tức thông qua mạng Lightning và bảng điều khiển quản trị của doanh nghiệp đồng thời đăng ký một khoản thanh toán mới theo thời gian thực.
 
 Mặc dù giải pháp Thiết yếu không yêu cầu hệ thống kế toán phức tạp, nhưng vẫn nên duy trì hồ sơ giao dịch phù hợp. Các công cụ như Swiss Bitcoin Pay cung cấp chức năng xuất CSV, cho phép người quản lý nắm bắt giá trị tương đương tiền pháp định của mỗi lần bán Bitcoin và theo dõi giá trị này cùng với các nguồn thu nhập khác. Mức độ ghi chép này là đủ đối với hầu hết các doanh nghiệp nhỏ và hiểu biết cơ bản về tỷ giá hối đoái sẽ giúp ích cho việc nộp thuế và giám sát tài chính nói chung.
 
-![BIZ101-profiles](assets/en/24.webp)
+![BIZ101-profiles](assets/vi/023.webp)
 
 Giải pháp kết hợp phù hợp nhất với hồ sơ của bạn có thể là Swiss Bitcoin Pay:
 
@@ -917,19 +921,19 @@ Giải pháp Chuyên nghiệp hướng đến các doanh nghiệp đã vượt q
 
 Một trong những đặc điểm xác định của thương gia chuyên nghiệp là nhu cầu về **các tính năng nâng cao** và **các giải pháp tùy chỉnh** duy trì hiệu quả ngay cả khi khối lượng giao dịch tăng lên. Không giống như người dùng Thiết yếu, những người có thể hài lòng với một công cụ hợp lý phù hợp với ứng dụng điện thoại thông minh, doanh nghiệp chuyên nghiệp thường yêu cầu các tính năng như tùy chỉnh hóa đơn chi tiết, bảng điều khiển báo cáo tinh vi và khả năng chỉ định nhiều vai trò quản trị.
 
-![BIZ101-profiles](assets/en/25.webp)
+![BIZ101-profiles](assets/vi/024.webp)
 
 Ví dụ, một nhóm nhà hàng có thể có nhân viên chuyên lập hóa đơn và quản lý kho, trong khi một nhóm riêng giám sát danh sách sản phẩm và chiến dịch tiếp thị. Trong môi trường này, giải pháp thanh toán Bitcoin phải phù hợp chặt chẽ với các cấu trúc tổ chức hiện có này.
 
-![BIZ101-profiles](assets/en/26.webp)
+![BIZ101-profiles](assets/vi/025.webp)
 
 Về công nghệ và công cụ, các giải pháp như **BTC Pay Server** thường tạo thành cốt lõi của thiết lập Chuyên nghiệp. BTC Pay Server là một nền tảng mã nguồn mở có thể triển khai tại chỗ hoặc thông qua lưu trữ đám mây và cung cấp các tùy chọn tích hợp mở rộng cho các trang web và nền tảng thương mại điện tử. Bằng cách chạy phiên bản riêng của mình, các doanh nghiệp duy trì mức độ kiểm soát cao đối với mọi khía cạnh của luồng thanh toán, từ các trang thanh toán được tạo tự động đến các thông báo kích hoạt các quy trình nội bộ sau khi thanh toán được xác nhận.
 
-![BIZ101-profiles](assets/en/27.webp)
+![BIZ101-profiles](assets/vi/026.webp)
 
 Ngoài ra, các công cụ như [Zaprite](https://zaprite.com/) hoặc [Musqet](https://musqet.tech/) có thể tinh chỉnh thêm trải nghiệm thanh toán, cho phép tùy chỉnh chi tiết hơn (từ lựa chọn thương hiệu đến khả năng báo cáo phức tạp). Những người thích môi trường bán lẻ trực tuyến trọn gói có thể hướng đến [Be-BOP](https://be-bop.io/), một giải pháp cửa hàng điện tử được xây dựng để tạo điều kiện thuận lợi cho thanh toán Bitcoin mà không ảnh hưởng đến tính dễ sử dụng.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/vi/027.webp)
 
 Việc triển khai các công nghệ này trong môi trường chuyên nghiệp có nghĩa là phải chú ý chặt chẽ đến **sự phức tạp trong hoạt động**. Các quy trình lập hóa đơn tự động, hiển thị đa tiền tệ và đồng bộ hóa với các hệ thống kiểm kê hiện có đều là những đặc điểm nổi bật của một nền tảng tích hợp tốt. Khả năng xuất dữ liệu giao dịch chính xác (cho dù là dữ liệu CSV, lệnh gọi API trực tiếp hay định dạng tùy chỉnh) giúp các doanh nghiệp điều hòa doanh số bitcoin với các luồng doanh thu khác một cách hiệu quả.
 
@@ -937,7 +941,7 @@ Quản lý bảo mật và vai trò là một cân nhắc quan trọng khác đ�
 
 Khi nói đến các ví dụ thực tế, hãy xem xét một cửa hàng thương mại điện tử cỡ trung chuyên về phụ kiện công nghệ. Công ty có thể tích hợp BTC Pay Server vào cửa hàng trực tuyến hiện có của mình, tự động tạo địa chỉ thanh toán Bitcoin trong quá trình thanh toán. Khách hàng hoàn tất giao dịch mua của mình bằng cách quét địa chỉ Lightning hoặc trên chuỗi và nền tảng của cửa hàng sẽ xác nhận thanh toán ngay lập tức. Đồng thời, một hệ thống nội bộ sẽ cập nhật trạng thái đơn hàng và kích hoạt thông báo giao hàng. Nhờ các tính năng báo cáo nâng cao, nhóm tài chính có thể dễ dàng xem xét doanh số bán Bitcoin hàng ngày, xuất sổ cái hợp nhất để kiểm toán và theo dõi giá trị của bất kỳ khoản nắm giữ BTC nào mà công ty quyết định giữ lại.
 
-![BIZ101-profiles](assets/en/29.webp)
+![BIZ101-profiles](assets/vi/028.webp)
 
 *[Nguồn: Cửa hàng Bitcoin Bazar ở Paris, Pháp.](https://bitcoinbazar.fr/)*
 
@@ -1002,7 +1006,7 @@ Cơ sở hạ tầng mới thành công vì chúng hiệu quả hơn và những
 - **Quản lý máy chủ và kênh nâng cao:** Cả giải pháp cá nhân và chuyên nghiệp đều đã được cải tiến. Ví dụ, BTC Pay Server hiện hỗ trợ nhiều plugin để kết nối với các nhà cung cấp khác (PSP, on/off ramp, v.v.). Các nhà cung cấp cơ sở hạ tầng mới, chẳng hạn như LightSpark và Alby Hub, cũng đang đi vào sản xuất.
 - **Tăng trưởng áp dụng của nhà cung cấp dịch vụ:** Các nhà cung cấp dịch vụ như BitRefill đang báo cáo sự gia tăng trong thanh toán Bitcoin giữa những người dùng đang hoạt động của họ, với sự chuyển dịch rõ ràng sang Bitcoin so với Lightning. Ngoài ra, phí cực thấp của Lightning khiến nó trở thành lựa chọn ưa thích cho các khoản thanh toán nhỏ (trung bình 32 € cho mỗi giao dịch).
 
-![BIZ101-profiles](assets/en/30.webp)
+![BIZ101-profiles](assets/vi/029.webp)
 
 *[Nguồn: Bản đồ BTC](https://btcmap.org/)*
 
@@ -1014,7 +1018,7 @@ Cơ sở hạ tầng mới thành công vì chúng hiệu quả hơn và những
 
 Bitcoin và mạng Lightning đang hoàn thiện **cuộc cách mạng ví kỹ thuật số**. Các dịch vụ web mới hiện cho phép **giao dịch mà không cần tạo tài khoản**—ví của bạn trở thành danh tính của bạn! Với các giao thức như **Nostr Wallet Connect (NWC)** và **LN-URL-AUTH**, ví có thể xác thực người dùng một cách liền mạch và cho phép giao dịch mà không cần tài khoản truyền thống. Đã qua rồi cái thời mệt mỏi vì tài khoản cho các giao dịch mua hoặc đăng ký đơn giản. Không còn cần cung cấp thông tin cá nhân hoặc thông tin thanh toán có thể bị hack và rao bán trên dark web nữa, như chúng ta thường được nhắc nhở bởi các sự kiện gần đây.
 
-![BIZ101](assets/en/10.webp)
+![BIZ101](assets/vi/030.webp)
 
 Các thương gia tương lai sẽ nắm bắt sự đổi mới này, mang đến cho khách hàng trải nghiệm an toàn hơn, liền mạch hơn (chỉ bằng một cú nhấp chuột) đồng thời tôn trọng quyền riêng tư của họ.
 
@@ -1187,7 +1191,7 @@ Khi một công ty quyết định tích hợp Bitcoin vào kế toán của mì
 
 Chúng thường là sự bổ sung khôn ngoan cho các tổ chức lớn có nhiều ví và tài sản trên nhiều nền tảng hoặc sàn giao dịch khác nhau.
 
-![BIZ101](assets/en/31.webp)
+![BIZ101](assets/vi/031.webp)
 
 Tuy nhiên, một dữ liệu `.csv` đơn giản chứa lịch sử giao dịch thường đủ cho hầu hết các doanh nghiệp nhỏ. Mục tiêu là ghi lại ngày, số tiền, giá trị tương đương bằng euro/đô la và các địa chỉ Bitcoin có liên quan cho mỗi khoản thanh toán. Phần lớn các giải pháp thanh toán Bitcoin (BTC Pay Server, Swiss Bitcoin Pay, v.v.) hoặc nền tảng trao đổi (Bitfinex, Kraken, Coinbase, v.v.) đã cung cấp cơ chế xuất lịch sử giao dịch. Bằng cách cung cấp dữ liệu này cho một kế toán, có thể hợp lý hóa việc nhập dữ liệu và phân biệt rõ ràng các luồng đến và đi liên quan đến Bitcoin.
 
@@ -1350,3 +1354,5 @@ Cuối cùng, cho dù bạn là một thương gia nhỏ hay một doanh nghiệ
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+

@@ -1,0 +1,9 @@
+question: Vad händer med en Bitcoin-transaktion på de ingående UTXO:erna?
+answer: Den förbrukar dem för att tillfredsställa utmatningarna.
+wrong_answers:
+  - Den arkiverar dem i Blockchain för framtida referens.
+  - Den krypterar dem för att säkra transaktionen.
+  - Den duplicerar dem för att skapa nya UTXO:er.
+explanation: |
+  De ingående UTXO:erna i en transaktion förbrukas för att finansiera de utgående. Det är på sätt och vis källan till pengarna.
+reviewed: false

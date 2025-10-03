@@ -1,0 +1,9 @@
+question: Proč je vhodné odstranit z počítače nepoužívaný nebo zastaralý software?
+answer: Snížení plochy útoku
+wrong_answers:
+  - Zrychlení internetového připojení
+  - Zlepšení ochranných vektorů
+  - Zvýšení životnosti baterie
+explanation: |
+  Čím méně softwaru je nainstalováno, tím méně potenciálních zranitelností mohou útočníci zneužít.
+reviewed: false

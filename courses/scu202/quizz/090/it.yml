@@ -1,0 +1,9 @@
+question: Quale porta di rete viene utilizzata di default per le connessioni P2P sulla rete principale Bitcoin?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  La porta 8333 è la porta standard utilizzata dai nodi Bitcoin per le connessioni peer-to-peer al Mainnet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel organisme gère l’allocation initiale des blocs d’adresses IPv6 dans le monde ?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  L’IANA se trouve au sommet de la hiérarchie d’attribution et délègue les blocs IPv6 aux cinq registres régionaux (RIR).
+reviewed: false

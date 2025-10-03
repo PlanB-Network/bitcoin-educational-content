@@ -1,0 +1,10 @@
+question: Vilken roll har den publika nyckeln i en Bitcoin Wallet?
+answer: Den används för att generate Bitcoin-adresser och därmed ta emot pengar.
+wrong_answers:
+  - Den används för att kryptera Bitcoin-transaktioner.
+  - Den används för att komma åt Bitcoin Wallet.
+  - Den används som backup för Bitcoin Wallet.
+explanation: |
+  Den publika nyckeln härleds från den privata nyckeln och används
+  till generate Bitcoin-adresser för att ta emot pengar.
+reviewed: true

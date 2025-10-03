@@ -1,11 +1,13 @@
-question: Come viene creato il denaro sano?
-answer: Il denaro sano deve emergere naturalmente dal mercato e dal consenso volontario.
+question: Qual è l'obiettivo principale alla base della creazione di Bitcoin?
+answer: Separare lo Stato dal denaro.
 wrong_answers:
-  - Il denaro sano deve essere imposto dal governo mediante l'emanazione di leggi monetarie.
-  - Il denaro sano deve essere imposto dalle aziende attraverso l'uso della violenza.
-  - Il denaro sano non può essere creato.
+  - Eliminare lo standard oro.
+  - Rendere le transazioni più veloci ed economiche.
+  - Arricchire tutti.
 explanation: |
-  Il denaro sano è un fenomeno sociale naturale che deve emergere
-  dal mercato e dal consenso volontario. Nessun essere umano o
-  gruppo di esseri umani può creare denaro.
-reviewed: vero
+  Bitcoin è stato creato con l'obiettivo di separare lo Stato
+  dal denaro. È una risposta alle sfide sistemiche
+  dell'attuale sistema finanziario, dove lo Stato ha il pieno
+  controllo sull'offerta di denaro e può manipolarla a proprio
+  vantaggio.
+reviewed: true

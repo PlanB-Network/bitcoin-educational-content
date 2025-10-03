@@ -1,0 +1,4 @@
+description: |
+  Kaleidoswap est un protocole d'échange décentralisé qui permet des échanges atomiques et sans garde d'actifs sur le Lightning Network. Construit sur le Lightning Node RGB, Kaleidoswap permet aux utilisateurs d'échanger des jetons Bitcoin et RGB à la manière du Trustless, sans intermédiaire ni garde centralisée.
+  
+  Publié en tant qu'application de bureau open-source, Kaleidoswap prend actuellement en charge les échanges multi-actifs dans un environnement Testnet, offrant un Interface convivial pour interagir avec les actifs natifs de Lightning, les canaux RGB et les fournisseurs de liquidités (LSP). Il est conçu pour permettre aux traders souverains et aux développeurs de disposer d'un système financier programmable Layer entièrement peer-to-peer sur Bitcoin.

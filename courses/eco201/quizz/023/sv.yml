@@ -1,0 +1,14 @@
+question: Varför dyker problemet med samordning i arbetsfördelningen upp igen i större samhällen?
+answer: Eftersom människan begränsas av sin kognitiva förmåga är det inte ett trivialt problem att mäta värdet av bidrag i Exchange på ett socialt accepterat sätt.
+wrong_answers:
+  - Människor är nämligen inte intresserade av att arbeta med större grupper utan föredrar mindre gemenskaper.
+  - Eftersom större samhällen har mer resurser, vilket leder till mindre behov av arbetsfördelning.
+  - Eftersom större samhällen har fler konflikter, vilket gör samordningen svår.
+explanation: |
+  I större samhällen är det omöjligt för en person att
+  upprätthålla och komma ihåg stabila sociala relationer med fler än
+  än 150 individer, vilket gör att ett ryktessystem
+  otillräckligt för att övervinna fångarnas dilemma i stor skala.
+  Att utvärdera värdet av bidrag i Exchange är också ett
+  ett komplext problem i större samhällen.
+reviewed: true

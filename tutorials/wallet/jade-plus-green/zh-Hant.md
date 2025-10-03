@@ -127,7 +127,7 @@ Jade Plus 使用基於 「虛擬安全元件 」的安全模型，由 「盲甲�
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
 
-您的 Jade Plus 會顯示 12 個字的 Mnemonic 詞組。 **這個 Mnemonic 讓您可以完全不受限制地存取您所有的 bitcoins。任何擁有這個短語的人都可以盜取您的資金，即使沒有實體接觸到您的 Jade Plus。如果您的 Jade 遺失、被盜或破損，這 12 個字的短語可以恢復您對比特幣的存取權。因此，小心保存並存放在安全的地方是非常重要的。
+您的 Jade Plus 會顯示 12 個字的 Mnemonic 詞組。**這個 Mnemonic 讓您可以完全不受限制地存取您所有的 bitcoins。任何擁有這個短語的人都可以盜取您的資金，即使沒有實體接觸到您的 Jade Plus。如果您的 Jade 遺失、被盜或破損，這 12 個字的短語可以恢復您對比特幣的存取權。因此，小心保存並存放在安全的地方是非常重要的。**
 
 
 您可以在包裝盒內隨附的紙板上書寫，或者為了增加安全性，我建議您將它刻在不銹鋼底座上，以防止火災、水災或倒塌。
@@ -141,7 +141,7 @@ Jade Plus 使用基於 「虛擬安全元件 」的安全模型，由 「盲甲�
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除
+**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除**
 
 
 按一下螢幕右邊的箭頭，會顯示下列字元。
@@ -167,7 +167,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 如需安裝和設定 Blockstream Green 應用程式的說明，請參閱本其他教學的第一部分：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 進入 Blockstream Green 應用程式後，按一下「*設定新的 Wallet*」按鈕。
 
@@ -420,3 +420,4 @@ Green 會顯示接收 Address，但在使用之前，必須先在 Jade 上檢查
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

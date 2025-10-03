@@ -1,0 +1,9 @@
+question: Ni uwuhe mucukumbuzi atanga amatangazo n’ugukurikirana, uburinzi bw’ibimenyetso vy’intoke kandi ashingiye kuri Chromium?
+answer: Intwari
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave ifise uburinzi bwo kwamamaza, abakurikirana n'uburinzi bw'intoke buteye imbere, vyose bishingiye kuri Chromium.
+reviewed: false

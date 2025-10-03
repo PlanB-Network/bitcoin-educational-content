@@ -1,0 +1,9 @@
+question: Quel protocole de chiffrement Wi-Fi faut-il privilégier pour sécuriser son réseau domestique ?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Fast BSS
+explanation: |
+  WPA3 est le protocole le plus récent et le plus sûr, corrigeant les failles des versions précédentes et offrant une meilleure protection contre les attaques.
+reviewed: false

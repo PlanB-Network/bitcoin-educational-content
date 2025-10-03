@@ -1,0 +1,9 @@
+question: Met welke functie, ontworpen in oktober 2010 door Miner m0mchil, konden client nodes een kandidaatblok ophalen en de Proof of Work terugsturen als er een oplossing was gevonden?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - krediet krijgen
+explanation: |
+  Het werd gepubliceerd op 1 oktober. Op 23 november nam Satoshi een aangepaste versie van deze functie op in de hoofdsoftware.
+reviewed: true

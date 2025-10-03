@@ -1,0 +1,9 @@
+question: Welke node-in-a-box oplossing is op dit moment marktleider?
+answer: Paraplu
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel is de populairste node-in-a-box oplossing, dankzij de eenvoudige installatie en de rijke App Store.
+reviewed: true

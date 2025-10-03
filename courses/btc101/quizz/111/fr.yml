@@ -1,12 +1,12 @@
-question: Que signifie KYC ?
-answer: Connaître Votre Client.
+question: Quel est le message contenu dans le premier bloc de la blockchain Bitcoin ?
+answer: 03/jan/2009 Le Chancelier au bord d'un second sauvetage des banques.
 wrong_answers:
-  - Gardez Votre Argent.
-  - Clé Vos Codes.
-  - Veuillez Vous Conformer Gentiment.
+  - Nous pouvons remporter une bataille majeure dans la course aux armements et gagner un nouveau territoire de liberté pour plusieurs années.
+  - Les gouvernements sont doués pour couper la tête de réseaux centralisés comme Napster, mais les réseaux purement P2P comme Gnutella et Tor semblent tenir le coup.
+  - Aucune des réponses ci-dessus.
 explanation: |
-  KYC ou Connaître Votre Client fait référence à la procédure que
-  les entreprises adoptent pour vérifier l'identité de leurs clients.
-  Cela est généralement fait pour assurer la conformité avec
-  les réglementations et pour prévenir des activités illégales telles que le blanchiment d'argent ou la fraude.
+  Le premier bloc de la blockchain Bitcoin, également connu sous
+  le nom de bloc Genesis, contient le message "03/jan/2009
+  Le Chancelier au bord d'un second sauvetage des banques", qui est
+  le titre du *Times* ce jour-là pour horodater le bloc Genesis.
 reviewed: true

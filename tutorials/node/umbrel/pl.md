@@ -1,5 +1,5 @@
 ---
-name: Parasol
+name: Umbrel
 description: Odkryj i zainstaluj Umbrel - Twój węzeł Bitcoin i serwer domowy
 ---
 
@@ -21,10 +21,10 @@ Węzeł Bitcoin to komputer, który uczestniczy w sieci Bitcoin poprzez uruchomi
 
 
 
-- Przechowywanie Blockchain**: Utrzymuje kompletną, aktualną kopię Blockchain Bitcoin
-- Weryfikacja transakcji**: weryfikuje każdą transakcję i blok zgodnie z zasadami protokołu
-- Rozpowszechnianie informacji**: Udostępnia nowe transakcje i bloki innym węzłom
-- Budowanie konsensusu**: Przyczynia się do stosowania zasad sieciowych
+- **Przechowywanie Blockchain**: Utrzymuje kompletną, aktualną kopię Blockchain Bitcoin
+- **Weryfikacja transakcji**: weryfikuje każdą transakcję i blok zgodnie z zasadami protokołu
+- **Rozpowszechnianie informacji**: Udostępnia nowe transakcje i bloki innym węzłom
+- **Budowanie konsensusu**: Przyczynia się do stosowania zasad sieciowych
 
 
 
@@ -34,11 +34,11 @@ Prowadzenie własnego węzła Bitcoin jest kluczowym krokiem w kierunku suwerenn
 
 
 
-- Poufność**: Udostępniaj swoje transakcje bez ujawniania informacji stronom trzecim
-- Odporność na cenzurę**: Nikt nie może powstrzymać cię przed korzystaniem z Bitcoin
-- Niezależna weryfikacja**: Nie trzeba ufać węzłom innych osób, aby zweryfikować swoje transakcje
-- Budowanie konsensusu**: Przyczynianie się do stosowania zasad sieci Bitcoin
-- Wsparcie sieci**: Zostań aktywnym uczestnikiem dystrybucji i decentralizacji sieci
+- **Poufność**: Udostępniaj swoje transakcje bez ujawniania informacji stronom trzecim
+- **Odporność na cenzurę**: Nikt nie może powstrzymać cię przed korzystaniem z Bitcoin
+- **Niezależna weryfikacja**: Nie trzeba ufać węzłom innych osób, aby zweryfikować swoje transakcje
+- **Budowanie konsensusu**: Przyczynianie się do stosowania zasad sieci Bitcoin
+- **Wsparcie sieci**: Zostań aktywnym uczestnikiem dystrybucji i decentralizacji sieci
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS to darmowa, otwarta wersja systemu operacyjnego Umbrel. To elastyczne r
 
 
 
-**Ograniczenia
+**Ograniczenia**
 
 
 
@@ -225,7 +225,7 @@ Do tej instalacji potrzebne będą :
 
 
 
-*instalacja *Balena Etcher**
+*instalacja **Balena Etcher***
 
 
 
@@ -268,7 +268,7 @@ Do tej instalacji potrzebne będą :
 
 
 
-**instalacja karty microSD
+**instalacja karty microSD**
 
 
 
@@ -295,7 +295,7 @@ Do tej instalacji potrzebne będą :
 
 
 
-**Włącz zasilanie
+**Włącz zasilanie**
 
 
 
@@ -365,7 +365,7 @@ Po uruchomieniu aplikacji Umbrel i uzyskaniu do niej dostępu za pośrednictwem 
 
 
 
-**Potwierdzenie konta
+**Potwierdzenie konta**
 
 
 
@@ -581,7 +581,7 @@ Dzięki tej aplikacji możesz skutecznie monitorować swoje transakcje, zrozumie
 
 
 
-**Połączenie lokalne
+**Połączenie lokalne**
 
 
 
@@ -613,7 +613,7 @@ Dzięki tej aplikacji możesz skutecznie monitorować swoje transakcje, zrozumie
 
 
 
-**Dostęp do parametrów
+**Dostęp do parametrów**
 
 
 
@@ -628,7 +628,7 @@ Dzięki tej aplikacji możesz skutecznie monitorować swoje transakcje, zrozumie
 
 
 
-**Wybór typu połączenia
+**Wybór typu połączenia**
 
 
 
@@ -666,7 +666,7 @@ Sparrow oferuje trzy tryby połączenia:
 
 
 
-*konfiguracja *wyborców**
+*konfiguracja* *wyborców*
 
 
 
@@ -678,7 +678,7 @@ W obu przypadkach pozostaw opcje "Użyj SSL" i "Użyj proxy" niezaznaczone.
 
 
 
-**Połączenie lokalne
+**Połączenie lokalne**
 
 
 Host: umbrel.local

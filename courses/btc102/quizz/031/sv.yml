@@ -1,0 +1,9 @@
+question: Vilka av dem är Bitcoin-sidokedjor?
+answer: Liquid och rotstock
+wrong_answers:
+  - Polygon och Arbitrum
+  - Jupiter och Fantom
+  - Bitcoin Cash och Bitcoin Satoshi Vision
+explanation: |
+  Liquid och RSK är sidokedjor som har en 2-vägs peg med Bitcoin. De andra alternativen är inte sidokedjor, eller har inte en 2WP med Bitcoin Blockchain.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre felsefi ya da dini ahlakın rolü nedir?
+answer: Bireyleri özverili davranmaya teşvik etmek
+wrong_answers:
+  - Kötü eylemlerin olumsuz sonuçlarını ortaya çıkarmak
+  - Adil ve hakkaniyetli yasalar oluşturmak
+  - Ekonomik kalkınmayı teşvik etmek
+explanation: |
+  Bastiat, dini veya felsefi ahlakta, toplumun iyiliği için adil ve özgeci eylemlerin olumlu etkilerini anlayarak bireyleri özverili davranmaya teşvik etmenin bir yolunu görür.
+reviewed: false

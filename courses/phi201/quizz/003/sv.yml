@@ -1,0 +1,9 @@
+question: Vad är förhållandet mellan frihet och ansvar?
+answer: Ansvar uppstår ur friheten att göra individuella val
+wrong_answers:
+  - Friheten begränsas av andras ansvar
+  - Frihet och ansvar är två oberoende begrepp
+  - Ansvar är ett hinder för frihet
+explanation: |
+  Förhållandet mellan frihet och ansvar är inneboende, eftersom friheten att göra val också innebär ansvar för konsekvenserna av dessa val, vilket understryker att varje fri handling åtföljs av en moralisk skyldighet.
+reviewed: true

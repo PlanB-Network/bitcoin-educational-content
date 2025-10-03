@@ -5,5 +5,5 @@ wrong_answers:
   - Naknade za registraciju, ograničene opcije i duže vreme validacije.
   - Naknade za registraciju, strogi propisi i niska sigurnost.
 explanation: |
-  Bitcoini prodati na P2P platformama su generalno skuplji od onih sa regulisanih platformi. Ova marža je posledica nekoliko faktora: prodavac preuzima veće rizike, takođe mora pokriti dodatne troškove, a Exchange nudi kupcu viši nivo privatnosti.
+  Bitcoini prodati na P2P platformama su generalno skuplji od onih sa regulisanih platformi. Ova marža je posledica nekoliko faktora: prodavac preuzima veće rizike, takođe mora pokriti dodatne troškove, a ovakva razmena nudi kupcu viši nivo privatnosti.
 reviewed: false

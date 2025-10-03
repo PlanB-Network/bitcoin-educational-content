@@ -1,0 +1,9 @@
+question: Proč je většina zařízení se systémem Android vybavena předinstalovanými mobilními službami Google?
+answer: Výrobci musí se společností Google podepsat licenční smlouvu
+wrong_answers:
+  - Služby vyžadované evropskou legislativou
+  - Zdrojový kód GMS je zdarma
+  - GMS je povinná na všech zařízeních se systémem Linux
+explanation: |
+  Pokud chtějí výrobci využívat výhody stěžejních aplikací (Obchod Play, Mapy atd.), musí integrovat GMS, což znamená podepsat se společností Google přísné licenční dohody.
+reviewed: false

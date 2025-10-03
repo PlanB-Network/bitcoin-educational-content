@@ -1,0 +1,9 @@
+question: Vilken Cold-lagringslösning rekommenderas för den paranoida användaren?
+answer: Luftgappning eller DIY Hardware Wallet
+wrong_answers:
+  - Mobil Hot Wallet
+  - Förvaringstjänst på en Exchange-plattform
+  - Hardware Wallet för allmänt bruk med sluten källkod
+explanation: |
+  Den paranoida användaren föredrar offline-lagring med öppen källkodslösningar för att minimera risken för exponering.
+reviewed: false

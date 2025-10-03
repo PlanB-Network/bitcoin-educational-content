@@ -1,0 +1,10 @@
+question: Welk percentage van het totale transactievolume van Bitcoin is gebruikt voor illegale activiteiten?
+answer: Minder dan 1%
+wrong_answers:
+  - 2-4%
+  - Meer dan 5%
+  - Het is onbekend
+explanation: |
+  Volgens een rapport van Chainalysis uit 2020 is illegale activiteit slechts goed voor ongeveer 0,34% van alle Bitcoin transacties
+  goed voor ongeveer 0,34% van alle Bitcoin transacties.
+reviewed: true

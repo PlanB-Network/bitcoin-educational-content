@@ -1,0 +1,9 @@
+question: 哪个 Sparrow wallet 服务器选项与 RPC 连接相对应？
+answer: Bitcoin core
+wrong_answers:
+  - 公共服务器
+  - 私人电子币
+  - 远程应用程序接口
+explanation: |
+  在 Sparrow 中，Bitcoin core 选项相当于通过 RPC 直接连接节点。
+reviewed: true

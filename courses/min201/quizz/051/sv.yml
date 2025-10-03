@@ -1,0 +1,14 @@
+question: Vad är den största fördelen med Mining virgin bitcoins?
+answer: De har aldrig använts och har ingen historia kopplad till sig.
+wrong_answers:
+  - De kan säljas till ett högre pris.
+  - De kan användas för olaglig verksamhet.
+  - De kan förvaras under lång tid utan att förlora i värde.
+explanation: |
+  Den största fördelen med Mining jungfru bitcoins är att de
+  aldrig har använts och inte har någon historia kopplad till sig.
+  Dessa bitcoins anses ofta vara mer värdefulla eftersom
+  de aldrig har blivit besudlade, vilket ger viss garanti
+  mot avslag av tillsynsmyndigheter eller större Exchange
+  plattformar.
+reviewed: true

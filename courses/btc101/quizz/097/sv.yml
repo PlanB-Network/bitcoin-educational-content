@@ -1,0 +1,12 @@
+question: Vad är inte en Mnemonic-fras i samband med Bitcoin?
+answer: Ett lösenord för din Bitcoin Wallet.
+wrong_answers:
+  - En lista med 12 ord från en viss ordbok.
+  - En lista med 24 ord från en viss ordbok.
+  - Hemligheten för att få tillgång till din Bitcoin-fond.
+explanation: |
+  En Mnemonic-fras i samband med Bitcoin är en lista med 12
+  eller 24 ord som gör att du kan återställa din Wallet på alla
+  Bitcoin Wallet applikation. Den som har tillgång till denna lista
+  kan också komma åt dina bitcoins.
+reviewed: true

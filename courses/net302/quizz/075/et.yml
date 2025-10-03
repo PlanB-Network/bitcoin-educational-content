@@ -1,0 +1,9 @@
+question: Millist tüüpi DNS-kirjet kasutatakse IPv6 Address-ga seotud nime leidmiseks?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) võimaldab pöördlahendus, mis tähendab, et see seob IPv6 Address domeeninimega.
+reviewed: false

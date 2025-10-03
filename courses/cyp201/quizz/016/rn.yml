@@ -1,0 +1,9 @@
+question: Ni uwuhe murongo w’umukono washizwe muri Bitcoin na Taproot?
+answer: Umukono wa Schnorr
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Ico gikorwa co gusinya Schnorr catangujwe mu kwezi kwa 11/2021 n’ivugurura rya Taproot.
+reviewed: false

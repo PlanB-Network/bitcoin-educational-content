@@ -1,0 +1,9 @@
+question: Perché i metadati dei file digitali rappresentano un rischio per la privacy?
+answer: Possono rivelare informazioni sensibili
+wrong_answers:
+  - Rallentano l'apertura dell'antivirus su alcuni sistemi
+  - Impediscono la condivisione di file via e-mail
+  - Possono ospitare ransomware
+explanation: |
+  I metadati possono contenere informazioni riservate non visibili all'apertura del file, come le coordinate GPS, il nome dell'autore, un identificatore o la cronologia delle modifiche, che possono essere sfruttate a vostra insaputa.
+reviewed: false

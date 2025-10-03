@@ -1,0 +1,9 @@
+question: Wat gebeurt er bij een betaling binnen het RGB kanaal met de RGB uitgangen in de Commitment transacties?
+answer: Ze worden bijgewerkt om de herverdeling van activa onder deelnemers weer te geven
+wrong_answers:
+  - Ze blijven ongewijzigd om de initiële geschiedenis te behouden totdat het kanaal wordt gesloten
+  - Ze worden verwijderd en vervangen door nieuwe multi-sig
+  - Ze worden omgezet in klassieke Bitcoin UTXO's
+explanation: |
+  Wanneer een betaling wordt gedaan, past RGB State Transition aan om de activa te herverdelen volgens de nieuwe kanaalbalans.
+reviewed: false

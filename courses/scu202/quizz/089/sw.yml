@@ -1,0 +1,9 @@
+question: Ni huduma gani ya ramani inaruhusu matumizi ya nje ya mtandao kabisa na inajumuisha hakuna ufuatiliaji wa matangazo?
+answer: Ramani za Kikaboni
+wrong_answers:
+  - Ramani za Google
+  - Waze
+  - Mpangaji wa jiji
+explanation: |
+  Organic Maps ni programu huria kulingana na OpenStreetMap inayofanya kazi nje ya mtandao, bila vifuatiliaji au ukusanyaji wa data, tofauti na mbadala za wamiliki.
+reviewed: false

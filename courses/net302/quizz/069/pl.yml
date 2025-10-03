@@ -1,0 +1,9 @@
+question: Jaki jest typowy rozmiar prefiksu sieciowego używanego w IPv6 Address w sieci lokalnej?
+answer: 64-bitowy
+wrong_answers:
+  - 32-bitowy
+  - 48 bitów
+  - 8 bitów
+explanation: |
+  Pierwsze 64 bity Address IPv6 są zazwyczaj zarezerwowane dla prefiksu podsieci.
+reviewed: false

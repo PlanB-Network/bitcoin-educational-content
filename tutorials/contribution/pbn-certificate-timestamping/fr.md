@@ -1,5 +1,5 @@
 ---
-name: Horodatage des certificats et diplômes du Plan ₿ Network
+name: Horodatage des diplômes du Plan ₿ Network
 description: Comprendre comment Plan ₿ Network délivre une preuve vérifiable pour votre certificat et diplômes
 ---
 

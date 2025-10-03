@@ -1,0 +1,9 @@
+question: Vad är ett blockchiffer inom kryptografi?
+answer: En algoritm som omvandlar en sträng med fast längd till en annan sträng med samma längd
+wrong_answers:
+  - En asymmetrisk kryptering baserad på offentliga och privata hemliga nycklar
+  - Ett system som krypterar data med variabel längd per ström
+  - En kryptering som inte kräver en hemlig nyckel
+explanation: |
+  Ett blockchiffer är en algoritm som tillämpar en transformation på en bitsträng av fast längd med en nyckel för att producera en annan sträng av samma längd.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken var Sankt Augustinus inställning till förhållandet mellan andlig makt och världslig makt?
+answer: Den världsliga makten måste underordnas den andliga makten.
+wrong_answers:
+  - Andlig makt måste vara underordnad världslig makt.
+  - De två makterna är oberoende av varandra och måste samexistera fredligt.
+  - Den världsliga makten har ingen legitimitet och måste avskaffas till förmån för den andliga makten.
+explanation: |
+  Sankt Augustinus hävdade att den världsliga makten måste underordnas den andliga eftersom det yttersta syftet med människans liv är andligt och bör styra politiska handlingar i enlighet med kristna värderingar.
+reviewed: true

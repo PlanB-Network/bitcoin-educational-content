@@ -1,0 +1,9 @@
+question: Welk type sleutel is geassocieerd met het zpub voorvoegsel?
+answer: Een uitgebreide openbare sleutel voor SegWit V0 op de Mainnet
+wrong_answers:
+  - Een uitgebreide privésleutel voor SegWit V1 op Mainnet
+  - Een uitgebreide publieke sleutel voor Legacy op de Testnet
+  - Een uitgebreide openbare sleutel voor SegWit V2 op Testnet
+explanation: |
+  Het voorvoegsel zpub geeft een uitgebreide openbare sleutel aan voor SegWit V0 scripts op de Mainnet.
+reviewed: false

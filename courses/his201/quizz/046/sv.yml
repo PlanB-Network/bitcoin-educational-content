@@ -1,0 +1,9 @@
+question: Vilket versionsnummer för programvara presenterades på Slashdot i juli 2010?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Lanseringen av den här versionen, som Satoshi och Martti förberett under lång tid, innebar ett nytt försök till kommunikation.
+reviewed: true

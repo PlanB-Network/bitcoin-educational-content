@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van Schema in een RGB Contract?
+answer: Business Logic en de gegevensstructuur van Contract beschrijven
+wrong_answers:
+  - De Interface voor RGB portefeuilles definiëren
+  - Het compileren van scripts op de Blockchain beheren
+  - On-Chain cryptografische validatie
+explanation: |
+  De Schema definieert de declaratieve structuur, gegevenstypen en validatieregels van de Contract, zodat je de Business Logic aan de kant van de klant kunt beheren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: På RGB, varför rekommenderas det att använda Tapret istället för Opret för åtaganden?
+answer: För att minimera synlighet och undvika censur
+wrong_answers:
+  - För att minska transaktionskostnaderna
+  - Eftersom en OP_RETURN inte är Lightning-kompatibel
+  - För att maximera storleken på åtagandena
+explanation: |
+  Med Tapret kan du integrera åtaganden på ett diskret sätt, till skillnad från OP_RETURN, som gör dem omedelbart synliga och föremål för censur.
+reviewed: false

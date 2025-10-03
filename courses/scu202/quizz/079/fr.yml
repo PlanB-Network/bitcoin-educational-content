@@ -1,0 +1,9 @@
+question: Quel est le risque principal d’un smartphone non mis à jour ?
+answer: Il devient vulnérable à des failles connues
+wrong_answers:
+  - Il consomme plus de batterie
+  - Il perd la connexion Wi-Fi
+  - Il devient plus vulnérable au phishing
+explanation: |
+  Un smartphone non mis à jour est exposé à des vulnérabilités corrigées publiquement, facilement exploitables par des attaquants.
+reviewed: false

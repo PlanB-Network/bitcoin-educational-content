@@ -1,0 +1,13 @@
+question: Vilken inverkan har en ökning av penningmängden Supply på inflation och deflation i ett system med fast penningmängd Supply?
+answer: En ökning av penningmängden Supply upphäver den potentiella deflation som orsakas av en produktionsökning.
+wrong_answers:
+  - En ökning av penningmängden Supply leder till deflation.
+  - En ökning av penningmängden Supply har ingen inverkan på inflation eller deflation.
+  - En ökning av penningmängden Supply leder till en minskning av produktionen.
+explanation: |
+  I kapitlet förklaras att i ett Supply-system med fasta pengar bör en ökning
+  produktion teoretiskt sett leda till deflation, dvs. en sänkning av priserna,
+  eftersom det skulle finnas fler varor och tjänster tillgängliga. Men i det nuvarande fiat
+  monetära systemet upphäver en ökning av penningmängden Supply den potentiella deflation som
+  som orsakas av en produktionsökning.
+reviewed: false

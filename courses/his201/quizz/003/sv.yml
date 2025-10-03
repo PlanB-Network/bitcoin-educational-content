@@ -1,0 +1,9 @@
+question: Vad hette David Chaums företag genom vilket han implementerade sitt koncept med digital valuta?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  DigiCash B.V. grundades 1990 och var baserat i Amsterdam, Nederländerna, och innehade patenten för David Chaums uppfinning eCash.
+reviewed: true

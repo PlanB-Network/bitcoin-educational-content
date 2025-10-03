@@ -1,0 +1,9 @@
+question: Vilken roll spelar det individuella ansvaret i samhällsutvecklingen enligt Bastiat?
+answer: Det uppmuntrar individer att vara försiktiga och förutseende
+wrong_answers:
+  - Det uppmuntrar till konkurrens mellan individer
+  - Det gör det möjligt för staten att fatta beslut för allas bästa
+  - Det begränsar möjligheterna till personlig utveckling
+explanation: |
+  Bastiat menar att individuellt ansvar leder till försiktighet och försyn, eftersom alla måste bära konsekvenserna av sina handlingar, vilket uppmuntrar till ett mer eftertänksamt och ansvarsfullt beteende.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nde yahinguye iciyumviro co kugenzura amahera yoroshe (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adamu yagarutse
+  - Piteri Wuille
+explanation: |
+  SPV irerekanwa mu gice ca 8 c’Igitabu Cera ca Satoshi Nakamoto.
+reviewed: true

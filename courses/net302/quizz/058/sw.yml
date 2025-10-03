@@ -1,0 +1,9 @@
+question: Ni faili gani ya usanidi inafafanua mtandao tuli wa Interface kwenye mfumo unaofanana na RHEL?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  Kwenye RHEL, CentOS na mifumo inayofanana, kila Interface ina ifcfg-* faili yake iliyo ndani /etc/sysconfig/network-scripts/.
+reviewed: false

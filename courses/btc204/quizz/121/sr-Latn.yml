@@ -5,5 +5,5 @@ wrong_answers:
   - Transakcija je privremeno uskladištena u centralnom čvoru pre nego što bude emitovana
   - Transakcija je šifrovana postepeno na svakom koraku emitovanja.
 explanation: |
-  Maslačak prvo koristi fazu stabljike gde se transakcija šalje kroz nasumičan put čvorova. Transakcija se zatim emituje celokupnoj mreži u fazi paperja.
+  Maslačak prvo koristi fazu stabljike gde se transakcija šalje kroz nasumičan put čvorova. Transakcija se zatim emituje celokupnoj mreži u Fluff fazi.
 reviewed: false

@@ -1,0 +1,9 @@
+question: چه نوع رکورد DNS برای نگاشت یک نام دامنه با یک IPv6 Address استفاده می‌شود؟
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - ام‌ایکس
+explanation: |
+  نوع AAAA (چهار-A) برای نگاشت یک نام دامنه با یک IPv6 Address استفاده می‌شود، در حالی که نوع A برای IPv4 رزرو شده است.
+reviewed: false

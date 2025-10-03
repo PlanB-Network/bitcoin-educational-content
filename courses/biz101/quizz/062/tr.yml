@@ -1,0 +1,9 @@
+question: Essential profili için Bitcoin ödemelerini kabul etmek üzere Swiss Bitcoin Pay'e hangi alternatif çözüm %100 gözetim altındadır?
+answer: Açık Düğüm
+wrong_answers:
+  - BTCPay Sunucusu
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node, Swiss Bitcoin Pay'in hibrit yapısından farklı olarak tamamen saklama amaçlı bir çözüm olarak nitelendirilmektedir.
+reviewed: false

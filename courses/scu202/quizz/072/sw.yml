@@ -1,0 +1,9 @@
+question: Ninawezaje kusakinisha ROM mbadala kwenye simu mahiri ya Android?
+answer: Kufungua bootloader
+wrong_answers:
+  - Fungua akaunti ya Apple
+  - Kuweka SIM kadi maalum
+  - Washa hali ya msanidi kwenye iOS
+explanation: |
+  Kufungua bootloader ni muhimu kwa kuandika picha ya mfumo mpya kwa simu mahiri ya Android.
+reviewed: false

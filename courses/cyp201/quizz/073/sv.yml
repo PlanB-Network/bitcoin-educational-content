@@ -1,0 +1,9 @@
+question: Vilket index representerar den externa kedjan för ett konto i en härledningsväg?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Den externa kedjan identifieras med indexet /0/ på djup 4 i härledningsvägen.
+reviewed: false

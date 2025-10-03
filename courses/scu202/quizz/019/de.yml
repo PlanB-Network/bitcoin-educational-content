@@ -1,0 +1,9 @@
+question: Was ist eine Linux-Distribution?
+answer: Ein vollständiges Betriebssystem, das auf dem Linux-Kernel aufbaut
+wrong_answers:
+  - Ein Paketmanager
+  - Eine Linux-Desktop-Umgebung
+  - Ein automatisches Installationsskript für das Linux-Betriebssystem
+explanation: |
+  Eine Linux-Distribution integriert den Kernel, die Systemtools, die Software, den Bootloader und die Paketverwaltung, um ein einsatzbereites System bereitzustellen.
+reviewed: false

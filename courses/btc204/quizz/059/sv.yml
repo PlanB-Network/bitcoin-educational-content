@@ -1,0 +1,10 @@
+question: På ungefär vilken nivå ligger den totala återanvändningsgraden för Address på Bitcoin?
+answer: Cirka 50 procent
+wrong_answers:
+  - Cirka 5 procent
+  - Cirka 15 procent
+  - Cirka 40 procent
+explanation: |
+  Sedan början av 2010-talet har den totala återanvändningsgraden för Address på Bitcoin fluktuerat runt 50%.
+  
+reviewed: false

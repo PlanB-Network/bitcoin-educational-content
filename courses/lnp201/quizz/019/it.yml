@@ -1,9 +1,9 @@
-question: Cosa garantisce il sistema di transazione di impegno ai partecipanti di un canale Lightning?
+question: Cosa garantisce il sistema di commitment transaction ai partecipanti di un canale Lightning?
 answer: Che ciascuno può recuperare i propri fondi pubblicando l'ultima transazione firmata
 wrong_answers:
   - Che le transazioni sono visibili sulla blockchain di Bitcoin
   - Che la capacità del canale aumenta con ogni transazione
   - Che le commissioni sono condivise tra i due partecipanti
 explanation: |
-  Le transazioni di impegno firmate assicurano che ciascun partecipante possa recuperare i propri fondi pubblicando l'ultima versione in caso di chiusura del canale.
-reviewed: false
+  Le commitment transaction firmate assicurano che ciascun partecipante possa recuperare i propri fondi pubblicando l'ultima versione in caso di chiusura del canale.
+reviewed: true

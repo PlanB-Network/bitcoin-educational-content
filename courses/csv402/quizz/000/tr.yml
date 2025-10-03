@@ -1,0 +1,9 @@
+question: RGB tarafından kullanılan Client-side Validation paradigmasında Blockchain'in ana işlevi nedir?
+answer: Zaman damgası sağlayın ve çifte harcamayı önleyin
+wrong_answers:
+  - Tüm durum geçişlerini saklayın
+  - Smart contract verilerinin çoğaltılması
+  - Küresel veri kullanılabilirliğini garanti edin
+explanation: |
+  Bitcoin Blockchain, RGB'de taahhütlere zaman damgası vurmak ve tüm durum geçişlerini depolamadan Double-spending'ü önlemek için kullanılır.
+reviewed: false

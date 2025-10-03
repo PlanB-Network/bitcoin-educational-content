@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bwa porogarama bushimikwako kugira ngo umuntu ashobore gukuraho ibintu mu buryo buboneye?
+answer: Porogaramu y'ubuntu
+wrong_answers:
+  - Porogaramu y'umunyagihugu
+  - Porogaramu muri verisiyo ya beta
+  - Porogaramu irimwo kwamamaza
+explanation: |
+  Porogaramu zifunguye ni nziza cane kuko kode yayo ishobora gusuzumwa n’abanyagihugu, bigatuma haba umutekano n’uguseruka.
+reviewed: false

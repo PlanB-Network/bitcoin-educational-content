@@ -1,0 +1,10 @@
+question: Hur fungerar stamfasen i Maskrosprotokollet?
+answer: Transaktionen skickas genom en slumpmässig väg av noder.
+wrong_answers:
+  - Transaktionen sänds omedelbart till alla peers i källnoden.
+  - Transaktionen lagras temporärt i en central nod innan den sänds ut.
+  - Transaktionen krypteras stegvis vid varje steg i sändningen.
+explanation: |
+  Dandelion använder först en stamfas där transaktionen skickas genom en slumpmässig väg av noder. Transaktionen sänds sedan ut till hela nätverket i fluff-fasen.
+  
+reviewed: false

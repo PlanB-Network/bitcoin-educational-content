@@ -1,0 +1,9 @@
+question: Enligt den romerske filosofen Seneca, vad består lycka av?
+answer: Praktiserandet av dygder
+wrong_answers:
+  - Förmögenhet
+  - Nöje
+  - Alla ovanstående
+explanation: |
+  För Seneca ligger den sanna lyckan i utövandet av dygden, som gör det möjligt för en individ att leva i enlighet med förnuftet och uppnå en varaktig inre frid, oberoende av nöjen eller rikedom.
+reviewed: true

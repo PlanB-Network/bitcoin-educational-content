@@ -1,0 +1,9 @@
+question: 異なるエンジンで動作し、翻訳されたテキストを収集しないオープンソースの翻訳アプリケーションはどれですか？
+answer: TranslateYou
+wrong_answers:
+  - グーグル翻訳
+  - ディープエル
+  - マイクロソフト翻訳者
+explanation: |
+  TranslateYouは、プロプライエタリなサービスとは異なり、個人データを追跡したり収集したりすることなく、複数のエンジンのInterfaceとして機能します。
+reviewed: false

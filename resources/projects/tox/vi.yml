@@ -1,0 +1,2 @@
+description: |
+  Một giao thức phi tập trung miễn phí cho giao tiếp được mã hóa, được thiết kế để cung cấp một giải pháp thay thế an toàn cho các dịch vụ tập trung. Tox hoạt động trên cơ sở ngang hàng, cho phép nhắn tin tức thời, gọi thoại, hội nghị truyền hình và truyền tệp, đồng thời đảm bảo tính bảo mật của các cuộc trao đổi nhờ mã hóa đầu cuối dựa trên libsodium. Ra đời vào năm 2013 sau những tiết lộ của Edward Snowden, Tox hướng đến mục tiêu cung cấp giao tiếp đơn giản, thân thiện với quyền riêng tư thông qua kiến trúc mô-đun và các máy khách đa nền tảng.

@@ -1,0 +1,9 @@
+question: Vai trò chính của giao thức IP trong mô hình TCP/IP là gì?
+answer: Gửi các gói dữ liệu từ máy chủ này sang máy chủ khác
+wrong_answers:
+  - Quản lý mã hóa truyền thông mạng
+  - Đảm bảo kết nối liên tục giữa các ứng dụng
+  - Biên dịch địa chỉ MAC thành địa chỉ IP
+explanation: |
+  Giao thức IP xử lý việc định địa chỉ logic của các thiết bị và đảm bảo các gói tin được định tuyến qua các mạng được kết nối với nhau.
+reviewed: false

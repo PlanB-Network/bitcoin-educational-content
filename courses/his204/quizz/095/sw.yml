@@ -1,0 +1,8 @@
+question: Waziri gani Condorcet alimpinga katika utetezi wake wa biashara huria?
+answer: Necker
+wrong_answers:
+  - Kaloni
+  - Trudaine
+  - Choiseul
+explanation: |
+  Condorcet alimpinga Necker kuhusu suala la biashara huria, akitetea kanuni za uliberali wa kiuchumi.

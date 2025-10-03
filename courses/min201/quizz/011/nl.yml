@@ -1,0 +1,12 @@
+question: Wat zijn enkele besproken strategieën om Mining centralisatie in Bitcoin tegen te gaan?
+answer: Strategieën die besproken worden om centralisatie van Mining in Bitcoin tegen te gaan zijn onder andere Home Mining, het Stratum V2 protocol, open-sourcing van Mining software en diversificatie van actoren en geografie.
+wrong_answers:
+  - Strategieën die besproken zijn om de centralisatie van Mining in Bitcoin tegen te gaan zijn onder andere het vergroten van de blokgrootte, het implementeren van proof of stake en het creëren van een centrale autoriteit om toezicht te houden op Mining.
+  - Strategieën die worden besproken om de centralisatie van Mining in Bitcoin tegen te gaan, zijn onder andere het verlagen van de Block reward, het invoeren van een transactievergoeding en het invoeren van een Mining belasting.
+  - Strategieën om de centralisatie van Mining in Bitcoin tegen te gaan zijn onder andere het verhogen van de moeilijkheidsgraad van Mining, het invoeren van een Mining limiet en het opzetten van een Mining loterij.
+explanation: |
+  Het hoofdstuk bespreekt verschillende strategieën om Mining
+  centralisatie in Bitcoin te bestrijden, waaronder Home Mining, het
+  Stratum V2 protocol, open-sourcing van Mining software, en
+  diversificatie van actoren en geografie.
+reviewed: true

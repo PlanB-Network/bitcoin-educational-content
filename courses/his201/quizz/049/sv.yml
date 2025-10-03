@@ -1,0 +1,9 @@
+question: Hur varierade priset på Bitcoin under veckan efter det att den introducerades på Slashdot?
+answer: Från 0,008 dollar till 0,08 dollar
+wrong_answers:
+  - Från 0,001 dollar till 0,008 dollar
+  - Från 0,08 dollar till 0,50 dollar
+  - Från $0,50 till $1
+explanation: |
+  Denna variation motsvarade en tiofaldig ökning! Hash-frekvensen uppvisade en liknande ökning.
+reviewed: true

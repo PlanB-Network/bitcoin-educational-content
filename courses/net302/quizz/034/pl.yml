@@ -1,0 +1,9 @@
+question: Jaka jest główna rola protokołu IPv4 Address w sieci komputerowej?
+answer: Unikalna identyfikacja sieci Interface
+wrong_answers:
+  - Identyfikacja całego urządzenia w sieci
+  - Dynamiczne przypisywanie adresów MAC w sieci
+  - Nazwy DNS generate
+explanation: |
+  Address IPv4 jest przypisany do każdego sieciowego Interface urządzenia, umożliwiając jego zlokalizowanie i osiągnięcie w sieci.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat is de rol van mijnwerkers in het Bitcoin netwerk?
+answer: Miners beveiligen het netwerk en voegen transacties toe aan de blokken.
+wrong_answers:
+  - Miners creëren nieuwe bitcoins.
+  - Miners verifiëren de identiteit van Bitcoin gebruikers.
+  - Mijnwerkers bepalen de prijs van Bitcoin.
+explanation: >-
+reviewed: true

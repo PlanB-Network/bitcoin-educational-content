@@ -1,0 +1,9 @@
+question: ¿Por qué es crucial para la seguridad de tus datos el cifrado de todo el disco o de las llaves USB?
+answer: Impide el acceso no autorizado a los archivos
+wrong_answers:
+  - Acelera la lectura y escritura de archivos
+  - Protección contra fallos de hardware
+  - Facilita el uso compartido del disco
+explanation: |
+  El cifrado completo hace que los datos sean completamente inutilizables sin la clave o contraseña, incluso si un atacante posee físicamente el disco.
+reviewed: false

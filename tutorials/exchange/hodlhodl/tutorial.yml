@@ -1,8 +1,12 @@
 id: d7344cd5-6b18-40f5-8e78-2574a93a3879
 
+professor_id: 5f130a99-fac9-4ab0-85e1-573c6d38dbb9
+
 level: intermediate
 
 category: peer-to-peer
+
+credit_link: https://bitcoiner.guide/hodlhodl/
 
 project_id: 120557b9-b1e6-4969-aff4-5bf46fff9869
 original_language: en
@@ -11,105 +15,135 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.79
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1.82
+    reward: 1.81
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.79
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: ja
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 3.59
+    reward: 3.57
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 4.82
+    reward: 2.39
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.18
+    reward: 7.13
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.79
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.0
+    reward: 5.96
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.0
+    reward: 5.96
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.79
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.36
+    reward: 8.31
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.79
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.79
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.79
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.0
+    reward: 5.96
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.79
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.62
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.79
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.96
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.79
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.13
 tags:
   - guides
   - user-friendly

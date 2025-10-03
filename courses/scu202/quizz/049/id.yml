@@ -1,0 +1,9 @@
+question: Apa aturan pencadangan yang direkomendasikan untuk memastikan ketahanan data Anda jika terjadi bencana?
+answer: Memiliki 3 salinan, dalam 2 media yang berbeda, termasuk 1 di luar lokasi
+wrong_answers:
+  - 10 eksemplar, pada 5 media berbeda, termasuk 3 di luar lokasi
+  - 2 salinan, pada 2 media yang berbeda, 2 di antaranya di luar lokasi
+  - 4 salinan, pada 4 media berbeda, termasuk 2 di luar lokasi
+explanation: |
+  Aturan 3-2-1 melibatkan penyimpanan tiga salinan data Anda, setidaknya pada dua media yang berbeda, termasuk satu media yang berada di luar lokasi, untuk melindungi dari kehilangan, pencurian, atau kerusakan data.
+reviewed: false

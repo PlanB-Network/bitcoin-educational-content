@@ -1,0 +1,4 @@
+description: |
+  Electrum, kullanıcı güvenliği ve esnekliğine öncelik veren çok yönlü bir Bitcoin Wallet'tür.
+  
+  Mobil, masaüstü ve komut satırı arayüzleri dahil olmak üzere birden fazla platformu destekler. Özel anahtarlarınız şifrelenir ve cihazınızda tutularak asla açığa çıkmamaları sağlanır. Ayrıca Electrum, fonların kurtarılmasına izin vermek için gizli bir ifade kullanır ve sunucu ağı üzerinden Bitcoin Blockchain'a hızlı erişim sağlar. Özel anahtarlarınızı güvende tutmak için çevrimdışı "Cold depolamayı" destekler ve Coin harcamaları için izni bölmek için Multisig yetenekleri sunar. Electrum ayrıca Basitleştirilmiş Ödeme Doğrulaması (SPV) kullanarak geçmişinizdeki tüm işlemleri doğrular ve Multisig hizmetleri ve donanım cüzdanları gibi üçüncü taraf eklenti entegrasyonlarına izin verir.

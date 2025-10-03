@@ -1,5 +1,5 @@
 ---
-name: BTCpay Server
+name: BTCPay Server
 
 description: Guía para configurar tu servidor BTCPay y administrarlo
 ---
@@ -13,6 +13,6 @@ BTCpay Server - Acepta pagos de Bitcoin en minutos por BTCSession
 
 ## Guía
 
-Actualmente estamos trabajando con el equipo de BTCPayserver para proponer una guía fácil, paso a paso y simplificada. Mientras tanto, hay MUCHA documentación disponible allí.
+Actualmente estamos trabajando con el equipo de BTCPayserver para proponer una guía fácil, paso a paso y simplificada. Mientras tanto, hay MUCHA documentación disponible aquí:
 
 https://docs.btcpayserver.org/Guide/

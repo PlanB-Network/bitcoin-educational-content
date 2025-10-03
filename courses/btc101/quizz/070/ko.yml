@@ -1,0 +1,12 @@
+question: Bitcoin Wallet의 공개키를 공유하면 어떤 위험이 있나요?
+answer: 프라이버시 손실.
+wrong_answers:
+  - Bitcoin Wallet 파괴.
+  - 비트코인을 잃어버렸습니다.
+  - Bitcoin Wallet 해킹하기.
+explanation: |
+  공개 키를 공유하면 개인 정보 보호에 대한 위험은 있지만
+  보안에는 위험하지 않습니다. 공개 키는 다음과 같은 용도로 사용되기 때문입니다
+  generate Bitcoin 주소로 돈을 받을 수는 있지만
+  비트코인의 Ownership을 나타내지 않기 때문입니다.
+reviewed: true

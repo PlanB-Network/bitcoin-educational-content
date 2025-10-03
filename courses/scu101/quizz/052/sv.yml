@@ -1,0 +1,12 @@
+question: Varför anses hårdvarutokens, t.ex. USB-nycklar eller smartkort, erbjuda optimal säkerhet för 2FA?
+answer: De använder generate, en unik privat nyckel för varje webbplats, och verifierar webbadressen innan de tillåter anslutningen.
+wrong_answers:
+  - De är fysiskt svårare att stjäla, men om tjuvarna lyckas kan de lätt få fram hemligheterna från enheten.
+  - De generate endast ett lösenord för varje webbplats och verifierar webbadressen innan de tillåter anslutningen.
+  - De är nyare teknik och dyra, så de måste vara bättre.
+explanation: |
+  Hårdvarutokens erbjuder optimal säkerhet eftersom de
+  generate en unik privat nyckel för varje webbplats och verifierar
+  URL innan de tillåter anslutningen. Detta gör det mycket
+  svårare för en hackare att få obehörig åtkomst.
+reviewed: true

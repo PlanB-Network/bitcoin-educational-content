@@ -1,0 +1,9 @@
+question: Vad innebär en brute force-attack?
+answer: Provar alla möjliga nycklar tills rätt nyckel hittas
+wrong_answers:
+  - Ändra texten så att den blir obegriplig
+  - Använda en offentlig nyckel för att dekryptera meddelandet
+  - Att slå datorn mycket hårt Hard för att tvinga den att lämna ut den hemliga nyckeln
+explanation: |
+  En brute force-attack innebär att man systematiskt testar alla möjliga nycklar för att dekryptera ett krypterat meddelande.
+reviewed: false

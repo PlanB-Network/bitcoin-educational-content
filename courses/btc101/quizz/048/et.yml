@@ -1,10 +1,9 @@
-question: Mis on hüperinflatsiooni tagajärg?
-answer: Valuuta väärtuse drastiline langus
+question: Kui kõrge oli ligikaudne inflatsioonimäär Saksamaal 1923. aasta oktoobris hüperinflatsiooni haripunktis?
+answer: 29 500 %
 wrong_answers:
-  - Valuuta väärtuse märkamatu langus
-  - Valuuta väärtuse drastiline tõus
-  - Valuuta väärtuse märkamatu tõus
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Hüperinflatsiooni tõttu kaotavad inimesed kiiresti täielikult usalduse valuuta vastu, 
-  mis viib valuuta väärtuse drastilise languseni lühikese aja jooksul.
-reviewed: true
+  Kõrgeima inflatsioonimääraga kuu Saksamaal oli 1923. aasta oktoober, mil inflatsioon saavutas 29 500 % tipu.
+reviewed: false

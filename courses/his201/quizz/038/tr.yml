@@ -1,0 +1,9 @@
+question: Nisan 2010'da oluşturulan Bitcoin'ın mobilde basit kullanımına izin veren ilk gözetim uygulamasının adı neydi?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Gizlilik Köpekbalığı
+explanation: |
+  Komodo adlı biri tarafından 30 Nisan 2010 tarihinde forumda [promoted](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035).
+reviewed: true

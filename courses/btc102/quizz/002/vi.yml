@@ -1,0 +1,9 @@
+question: Cần phải thực hiện biện pháp phòng ngừa nào để chống lại tình trạng lừa đảo quyên góp và xổ số gian lận?
+answer: Không bao giờ gửi tiền để nhận bitcoin
+wrong_answers:
+  - Luôn gửi một số tiền nhỏ để thử nghiệm ưu đãi
+  - Đầu tư để có được lợi nhuận nhanh chóng và dễ dàng
+  - Chia sẻ thông tin cá nhân để bảo mật giao dịch
+explanation: |
+  Yêu cầu thanh toán trước là dấu hiệu gian lận phổ biến trong loại lừa đảo này.
+reviewed: false

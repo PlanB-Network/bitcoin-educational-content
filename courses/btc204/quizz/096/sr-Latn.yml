@@ -1,9 +1,9 @@
 question: Šta retrospektivni anonset ukazuje?
-answer: Broj verovatnih izvora za UTXO na kraju ciklusa.
+answer: Broj verovatnih ulaza za UTXO na kraju ciklusa.
 wrong_answers:
   - Veličina grupe nerazlučivih UTXO-a na kraju ciklusa.
-  - Broj verovatnih izvora za UTXO na početku ciklusa.
+  - Broj verovatnih ulaza za UTXO na početku ciklusa.
   - Vreme potrebno za završetak CoinJoin.
 explanation: |
-  Retrospektivni anonset označava broj mogućih izvora za dati novčić, uzimajući u obzir UTXO na kraju ciklusa.
+  Retrospektivni anonset označava broj mogućih ulaza za dati novčić, uzimajući u obzir UTXO na kraju ciklusa.
 reviewed: false

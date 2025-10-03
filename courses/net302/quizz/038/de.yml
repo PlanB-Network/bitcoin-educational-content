@@ -1,0 +1,9 @@
+question: Welcher typische CIDR-Bereich entspricht der Größe eines IPv4-Blocks, der von der IANA einem RIR zugewiesen wurde?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  Die IANA unterteilt den IPv4-Raum in Blöcke der Größe /8, die jeweils 2^24 Adressen enthalten.
+reviewed: false

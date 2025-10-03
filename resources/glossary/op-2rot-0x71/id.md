@@ -2,7 +2,7 @@
 term: OP_2ROT (0X71)
 
 ---
-Memindahkan dua elemen yang berada di posisi keenam dan kelima dari atas tumpukan ke atas. Misalnya, jika tumpukannya adalah:
+Memindahkan dua elemen yang berada di posisi keenam dan kelima dari atas _stack_ ke atas _stack_. Misalnya, jika keadaan _stack_ awal adalah:
 
 ```text
 A
@@ -13,7 +13,7 @@ E
 F
 ```
 
-`OP_2ROT` akan menghasilkan:
+Operasi `OP_2ROT` akan menghasilkan:
 
 ```text
 E

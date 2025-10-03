@@ -1,0 +1,12 @@
+question: Waarom vindt volgens Carl Menger vrijwillige Exchange plaats tussen twee individuen?
+answer: Elke partij gelooft dat het hun subjectieve nut zal verhogen.
+wrong_answers:
+  - Elke partij gelooft dat het hun subjectieve nut zal verminderen.
+  - Elke partij gelooft dat het hun subjectieve nut zal behouden.
+  - Elke partij gelooft dat het geen effect zal hebben op hun subjectieve nut.
+explanation: |
+  Menger leidt hieruit af dat vrijwillig Exchange tussen twee
+  individuen plaatsvindt omdat elke partij gelooft dat het
+  hun subjectieve nut zal verhogen. Dit betekent dat elke
+  partij gelooft dat ze beter af zullen zijn na de Exchange.
+reviewed: true

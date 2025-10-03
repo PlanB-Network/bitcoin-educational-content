@@ -1,0 +1,9 @@
+question: 为什么要经常检查从互联网上下载的软件的完整性和真实性？
+answer: 避免安装恶意软件
+wrong_answers:
+  - 提高系统性能
+  - 节省带宽
+  - 加快安装
+explanation: |
+  验证完整性和真实性有助于防止安装损坏、受感染或不合法的软件。
+reviewed: false

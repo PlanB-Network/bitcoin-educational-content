@@ -1,0 +1,9 @@
+question: Apa tujuan dari notasi khusus IPv4 0.0.0.0?
+answer: Untuk menetapkan semua antarmuka atau Address yang belum ditetapkan
+wrong_answers:
+  - Untuk mengirim pesan ke semua jaringan
+  - Untuk menguji koneksi lokal perangkat
+  - Untuk menunjukkan kesalahan pengalamatan atau koneksi pada router lokal
+explanation: |
+  Notasi 0.0.0.0 digunakan secara lokal untuk menunjukkan tidak adanya Address yang ditugaskan atau untuk mendengarkan pada semua antarmuka.
+reviewed: false

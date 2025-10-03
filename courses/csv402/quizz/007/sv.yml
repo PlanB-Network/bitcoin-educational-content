@@ -1,0 +1,9 @@
+question: Hur minimerar RGB sin synlighet?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig tweak
+  - Justering av tangenter
+explanation: |
+  Taproot (Tapret) gör det möjligt att infoga åtaganden i en transaktion på ett diskret och effektivt sätt, samtidigt som kompatibilitet med nuvarande standarder säkerställs.
+reviewed: false

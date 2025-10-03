@@ -1,0 +1,9 @@
+question: Vad ska Alice (avsändare) göra efter att ha tagit emot Bob:s Invoice?
+answer: Bygg en PSBT med dess UTXO och generate överföringen Consignment terminal
+wrong_answers:
+  - Signera Bitcoin-transaktionen som spenderar sin UTXO som innehåller Single-Use Seal
+  - Importera Consignment till din egen Wallet för Contract-detaljer
+  - Utfärda en ny Invoice för en tillgångsfråga
+explanation: |
+  Alice måste skapa en PSBT för att spendera den UTXO som är kopplad till tillgången, sedan generate en Terminal Consignment som inkluderar den nya övergången till Bob.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is de rol van de sleutel in symmetrische vercijfering en ontcijfering?
+answer: Het wordt gebruikt om het bericht te versleutelen en te ontsleutelen
+wrong_answers:
+  - Het wordt alleen gebruikt om het bericht te ontsleutelen
+  - Het wordt gebruikt om een berichtintegriteitsverificatiecode te maken
+  - Het wordt publiekelijk gedeeld om generate andere sleutels te geven
+explanation: |
+  In symmetrische versleutelingsschema's wordt dezelfde privésleutel gebruikt om het bericht te versleutelen tijdens het verzenden en om het te ontsleutelen bij ontvangst.
+reviewed: false

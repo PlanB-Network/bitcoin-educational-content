@@ -1,0 +1,9 @@
+question: Je, mbinu ya kuweka tabaka inatoa faida gani kuu kwa Bitcoin?
+answer: Kudumisha usalama wa itifaki ya msingi
+wrong_answers:
+  - Kuongezeka kwa kati ya mtandao kuu
+  - Ubunifu wa haraka kwenye itifaki ya msingi
+  - Kuwa na vipengele sawa kwenye tabaka kama kwenye itifaki ya msingi
+explanation: |
+  Mbinu ya kuweka tabaka inaruhusu kuongeza utendakazi bila kuathiri usalama na unyenyekevu wa itifaki ya msingi.
+reviewed: false

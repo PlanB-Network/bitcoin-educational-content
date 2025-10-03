@@ -87,7 +87,7 @@ Wacha tuchukue mfano wa shughuli za Umeme. Ikiwa Alice anataka kutuma satoshi 40
 
 Uwezo wa kituo, katika satoshi 130,000, unabaki thabiti. Mabadiliko gani ni mgao wa fedha. Mfumo huu hauruhusu kutuma pesa zaidi ya mtu anazo. Kwa mfano, kama Bob alitaka kurudisha satoshi 80,000 kwa Alice, hangeweza, kwa sababu ana 70,000 tu.
 
-Njia nyingine ya kufikiria mgao wa fedha ni kufikiria kitelezi ambacho kinaonyesha mahali pesa ziko kwenye chaneli. Hapo awali, ikiwa na satoshi 100,000 za Alice na 30,000 za Bob, kitelezi kiko upande wa Alice kimantiki. Baada ya shughuli ya satoshi 40,000, kitelezi kitasogea kidogo kuelekea upande wa Bob, ambaye sasa ana satoshi 70,000.
+Njia nyingine ya kufikiria mgawanyo wa fedha ni kufikiria **kielekezi** kinachoonyesha fedha ziko wapi kwenye njia. Mwanzoni, akiwa na satoshi 100,000 kwa Alice na 30,000 kwa Bob, kielekezi kiko zaidi upande wa Bob kwa sababu Alice ana fedha nyingi zaidi. Baada ya muamala wa satoshi 40,000, kielekezi kitahamia kidogo upande wa Alice, ambaye sasa ana satoshi 60,000.
 
 ![LNP201](assets/en/04.webp)
 
@@ -593,15 +593,15 @@ Kwa malipo yale yale ya Satoshi 40,000 kwa Bob, Alice atalazimika kutuma zaidi k
 
 - Carol anaondoa satoshi 1.04 kwenye kituo na Bob:
 
-$$ f*{\text{Carol-Bob}} = \maandishi{ada ya msingi} + \left(\frac{\text{ppm} \mara \maandishi{kiasi}}{10^6}\kulia) $$
+$$ f_{\text{Carol-Bob}} = \text{ada ya msingi} + \left(\frac{\text{ppm} \times \text{kiasi}}{10^6}\right) $$
 
-$$ f*{\text{Carol-Bob}} = 1 + \frac{1 \mara 40000}{10^6} = 1 + 0.04 = 1.04 \maandishi{ Sats} $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
 
 - Suzie anakata satoshi 8 katika ada kwenye kituo na Carol:
 
-$$ f*{\text{Suzie-Carol}} = \maandishi{ada ya msingi} + \left(\frac{\text{ppm} \mara \maandishi{kiasi}}{10^6}\kulia) $$
+$$ f_{\text{Suzie-Carol}} = \text{ada ya msingi} + \left(\frac{\text{ppm} \times \text{kiasi}}{10^6}\right) $$
 
-$$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \mara 40001.04}{10^6} = 0 + 8.0002 \takriban 8 \maandishi{ Sats} $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
 
 Jumla ya ada za malipo haya kwenye njia hii ni 9.04 satoshi. Hivyo, ni lazima Alice atume 40,009.04 satoshi ili Bob apokee satoshi 40,000 haswa.
 
@@ -905,28 +905,28 @@ Katika sehemu ya kwanza, tunaweza kuona kwamba:
 Ili kuteua kiasi cha malipo, kinaonyeshwa katika vitengo vidogo vya Bitcoin. Hapa kuna vitengo vilivyotumika:
 
 
-- Millibitcoin (iliyoashiria `m`):** Inawakilisha elfu moja ya Bitcoin.
+- **Millibitcoin (iliyoashiria `m`):** Inawakilisha elfu moja ya Bitcoin.
 
 $$
 1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshis}
 $$
 
 
-- Microbitcoin (iliyoashiria `u`):** Pia wakati mwingine huitwa "bit", inawakilisha milioni moja ya Bitcoin.
+- **Microbitcoin (iliyoashiria `u`):** Pia wakati mwingine huitwa "bit", inawakilisha milioni moja ya Bitcoin.
 
 $$
 1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshis}
 $$
 
 
-- Nanobitcoin (iliyoashiria `n`):** Inawakilisha bilioni moja ya Bitcoin.
+- **Nanobitcoin (iliyoashiria `n`):** Inawakilisha bilioni moja ya Bitcoin.
 
 $$
 1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshis}
 $$
 
 
-- Picobitcoin (iliyoashiria `p`):** Inawakilisha trilioni moja ya Bitcoin.
+- **Picobitcoin (iliyoashiria `p`):** Inawakilisha trilioni moja ya Bitcoin.
 
 $$
 1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}

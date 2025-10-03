@@ -1,0 +1,9 @@
+question: Je scholastika?
+answer: Filozofie středověku.
+wrong_answers:
+  - Filozofie moderní doby.
+  - Starověká filozofie.
+  - Ateistická filozofie.
+explanation: |
+  Scholastika byla středověká filozofie, která se snažila smířit křesťanskou víru s aristotelskou filozofií. Před vznikem moderní filozofie dominovala na evropských univerzitách.
+reviewed: false

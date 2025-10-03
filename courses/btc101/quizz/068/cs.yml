@@ -1,11 +1,12 @@
-question: Jak často je odměna za těžbu snížena na polovinu?
-answer: Každých 210 000 bloků.
+question: Co je mnemonická fráze v Bitcoinové peněžence?
+answer: Seznam 12 nebo 24 slov, který vám umožňuje přístup k vašim bitcoinům.
 wrong_answers:
-  - Každých 120 000 bloků.
-  - Každých 540 000 bloků.
-  - Každých 2 100 000 bloků.
+  - Vybrané heslo pro přístup k Bitcoinové peněžence.
+  - Kód pro šifrování Bitcoinových transakcí.
+  - Tajná obnovovací fráze, která v případě potřeby zničí Bitcoinovou peněženku.
 explanation: |
-  Odměna za těžbu je naprogramována tak, aby se každých 210 000
-  bloků snížila na polovinu, což je přibližně každé čtyři roky: událost
-  známá jako halving.
+  Od roku 2017 může být soukromý klíč zakódován do jednoduchého seznamu
+  12 nebo 24 slov, nazývaného mnemonická fráze. Tato fráze
+  je zálohou vaší Bitcoinové peněženky, takže vám umožňuje
+  přístup k vašim bitcoinům pomocí jakéhokoli softwaru/aplikace pro Bitcoinové peněženky.
 reviewed: true

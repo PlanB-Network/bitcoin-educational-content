@@ -1,0 +1,12 @@
+question: Etkin bir para biriminin temel özellikleri nelerdir?
+answer: Fungible, Divisible, Liquid.
+wrong_answers:
+  - Değiştirilebilir, Bölünebilir, Bozulabilir.
+  - Değişebilir, Bölünemez, Liquid.
+  - Değiştirilemez, Bölünebilir, Liquid.
+explanation: |
+  Etkin bir para birimi değiştirilebilir olmalıdır (değiştirilebilir
+  değer kaybı olmadan), bölünebilir (küçük parçalara ayrılabilir
+  farklı hacimlerdeki işlemleri kolaylaştırmak için parçalar) ve
+  Liquid (mal veya hizmete kolayca dönüştürülebilir).
+reviewed: true

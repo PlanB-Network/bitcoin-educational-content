@@ -1,0 +1,9 @@
+question: Welke technologie wordt bij een Bitcoin transactie meestal gebruikt om Ownership van fondsen aan te tonen door het script te ontgrendelen?
+answer: Digitale handtekeningen
+wrong_answers:
+  - Digitale certificaten
+  - Symmetrische encryptie
+  - Authenticatiecodes voor berichten (MAC)
+explanation: |
+  Digitale handtekeningen in Bitcoin bewijzen het bezit van fondsen door transacties te ondertekenen met een private sleutel om het script te ontgrendelen dat een UTXO beveiligt.
+reviewed: false

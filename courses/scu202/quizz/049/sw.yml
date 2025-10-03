@@ -1,0 +1,9 @@
+question: Je, ni sheria gani ya kuhifadhi nakala inayopendekezwa ili kuhakikisha uthabiti wa data yako iwapo kutatokea maafa?
+answer: Kuwa na nakala 3, kwenye midia 2 tofauti, ikijumuisha 1 nje ya tovuti
+wrong_answers:
+  - Nakala 10, kwenye media 5 tofauti, ikijumuisha 3 nje ya tovuti
+  - Nakala 2, kwenye media 2 tofauti, 2 ambazo hazipo kwenye tovuti
+  - Nakala 4, kwenye media 4 tofauti, ikijumuisha 2 nje ya tovuti
+explanation: |
+  Sheria ya 3-2-1 inahusisha kudumisha nakala tatu za data yako, kwenye angalau midia mbili tofauti, ikiwa ni pamoja na moja iliyoko nje ya tovuti, ili kulinda dhidi ya upotevu wa data, wizi au ufisadi.
+reviewed: false

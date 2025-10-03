@@ -1,0 +1,9 @@
+question: Vilken är den största risken med att använda en dåligt utformad PRNG för generate-entropi?
+answer: Privata nycklar kan gissas av en angripare
+wrong_answers:
+  - Mnemonic-frasen kan innehålla felaktiga ord
+  - Digitala signaturer skulle bli ogiltiga
+  - Bitcoin-adresser skulle vara inkompatibla med nätverket
+explanation: |
+  En dåligt utformad PRNG kan producera förutsägbara sekvenser, vilket gör nycklarna mer sårbara för attacker.
+reviewed: false

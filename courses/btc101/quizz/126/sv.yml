@@ -1,0 +1,8 @@
+question: Hur validerar miners transaktioner och inkluderar dem i ett block?
+answer: Genom processen med Proof of Work.
+wrong_answers:
+  - Genom processen för bevis på insats.
+  - Genom processen för bevis på auktoritet.
+  - Genom processen för bevis på bränning.
+explanation: >-
+reviewed: true

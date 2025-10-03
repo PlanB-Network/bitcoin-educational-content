@@ -1,0 +1,9 @@
+question: Koji događaj je primorao Google da preusmeri Android ka osetljivom na dodir Interface?
+answer: Puštanje prvog iPhone-a
+wrong_answers:
+  - Microsoftovo preuzimanje Nokije
+  - Kreiranje CyanogenMod
+  - Pokretanje Play Store-a
+explanation: |
+  Dolazak iPhone-a 2007. godine primorao je Google da preispita Android kako bi ga učinio kompatibilnim sa ekranom osetljivim na dodir, napuštajući ideju uređaja sa fizičkom tastaturom.
+reviewed: false

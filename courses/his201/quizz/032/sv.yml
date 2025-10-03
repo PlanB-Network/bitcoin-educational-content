@@ -1,0 +1,9 @@
+question: Vad hette den unge finländare som hjälpte Satoshi att kommunicera om sitt projekt 2009, bland annat genom att sköta Bitcoin:s webbplats och forum?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Han kontaktade Satoshi i april 2009. Satoshi gav honom omedelbart i uppdrag att skriva en FAQ och en presentation för webbplatsen. Martti Malmi var Satoshi:s högra hand i över ett år.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Cypherpunk Hal Finney'e Ağustos 2009'da, Bitcoin'i keşfettikten birkaç ay sonra hangi hastalık teşhisi kondu?
+answer: Lou Gehrig hastalığı
+wrong_answers:
+  - Huntington hastalığı
+  - Alzheimer hastalığı
+  - Parkinson hastalığı
+explanation: |
+  İngilizce konuşulan dünyada amyotrofik lateral skleroz (ALS) olarak bilinen bu hastalık Ağustos 2009'da [teşhis edildi] (https: //www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside). Kendisi 2014 yılında bu hastalıktan vefat etmiştir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Waarom is cryptografie cruciaal in een open communicatieomgeving?
+answer: Het beveiligt gegevens, zelfs als het communicatiekanaal wordt onderschept.
+wrong_answers:
+  - Het maakt communicatie onzichtbaar voor alle netwerken.
+  - Het voorkomt aanvallen op lokale netwerken.
+  - Het vervangt fysieke kabels door beveiligde communicatie.
+explanation: |
+  In een open communicatieomgeving, waar kanalen kunnen worden gecontroleerd, zorgt cryptografie voor veiligheid door de uitgewisselde gegevens te beschermen, zelfs in de aanwezigheid van mogelijke aanvallen.
+reviewed: false

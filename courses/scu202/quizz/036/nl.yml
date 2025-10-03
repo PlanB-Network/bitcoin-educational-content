@@ -1,0 +1,9 @@
+question: Waarom is het aan te raden om ongebruikte of verouderde software van je computer te verwijderen?
+answer: Het aanvalsoppervlak verkleinen
+wrong_answers:
+  - Uw internetverbinding versnellen
+  - Beschermende vectoren verbeteren
+  - De levensduur van de batterij verlengen
+explanation: |
+  Hoe minder software er is geïnstalleerd, hoe minder potentiële kwetsbaarheden er door aanvallers kunnen worden uitgebuit.
+reviewed: false

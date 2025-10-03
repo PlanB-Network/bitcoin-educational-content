@@ -1,12 +1,9 @@
-question: Vai trò của một nút Bitcoin trong mạng lưới Bitcoin là gì?
-answer: Nó xác thực các khối mới và các giao dịch bao gồm.
+question: Chức năng chính của các nút trong mạng Bitcoin là gì?
+answer: Duy trì một bản sao của blockchain Bitcoin, xác thực các giao dịch, truyền đạt thông tin cho các nút khác, và thực thi các quy tắc của giao thức Bitcoin.
 wrong_answers:
-  - Nó tạo ra Bitcoin mới và đưa chúng vào các khối.
-  - Nó điều chỉnh giá của Bitcoin.
-  - Nó quản lý mạng lưới Bitcoin.
-explanation: |
-  Một nút Bitcoin trong mạng lưới Bitcoin xử lý
-  việc xác thực các khối mới và các giao dịch bao gồm. Chính
-  mạng lưới các nút Bitcoin này làm cho nó thực sự
-  phân quyền.
+  - Duy trì một bản sao của blockchain Bitcoin, xác thực các giao dịch, truyền đạt thông tin cho chính phủ, và thay đổi các quy tắc của giao thức Bitcoin.
+  - Chỉ duy trì một bản sao của blockchain Bitcoin.
+  - Chỉ truyền đạt thông tin cho các nút khác.
+explanation: >-
+  Các nút trong mạng Bitcoin thực hiện nhiều chức năng quan trọng, bao gồm duy trì một bản sao của blockchain Bitcoin, xác thực các giao dịch, truyền đạt thông tin cho các nút khác, và thực thi các quy tắc của giao thức Bitcoin.
 reviewed: true

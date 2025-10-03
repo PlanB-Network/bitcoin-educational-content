@@ -92,7 +92,7 @@ Hajde da uzmemo primer Lajtning transakcije. Ako Alisa želi da pošalje 40.000 
 
 **Kapacitet kanala**, na 130.000 satošija, ostaje konstantan. Ono što se menja je raspodela sredstava. Ovaj sistem ne dozvoljava slanje više sredstava nego što neko poseduje. Na primer, ako Bob želi da pošalje nazad 80.000 satošija Alisi, ne bi mogao, jer ima samo 70.000.
 
-Još jedan način da zamislite raspodelu sredstava je da zamislite **klizač** koji pokazuje gde se sredstva nalaze u kanalu. U početku, sa 100.000 satošija za Alisu i 30.000 za Boba, klizač je logično na Alisinoj strani. Nakon transakcije od 40.000 satošija, klizač će se pomeriti blago ka Bobovoj strani, koji sada ima 70.000 satošija.
+Drugi način da zamislite raspodelu sredstava je da zamislite **kursor** koji pokazuje gde se sredstva nalaze u kanalu. Na početku, sa 100.000 satoshija za Alisu i 30.000 za Boba, kursor je više na Bobovoj strani, jer Alisa ima mnogo više sredstava. Nakon transakcije od 40.000 satoshija, kursor će se blago pomeriti ka Alisi, koja sada ima 60.000 satoshija.
 
 ![LNP201](assets/en/04.webp)
 
@@ -598,16 +598,16 @@ Za istu uplatu od **40,000 Satošija** Bobu, Alisa će morati poslati malo više
 
 - **Karol** oduzima 1.04 Satošija na kanalu sa Bobom:
 
-$$ f*{\text{Carol-Bob}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
 
-$$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
 
 
 - **Suzi** odbija 8 Satošija kao naknade na kanalu sa Carol:
 
-$$ f*{\text{Suzie-Carol}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
 
-$$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
 
 Ukupne naknade za ovu uplatu na ovom putu su stoga **9.04 Satošija**. Dakle, Alisa mora poslati **40,009.04 Satošija** da bi Bob primio tačno **40,000 Satošija**.
 

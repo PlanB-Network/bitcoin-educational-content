@@ -53,10 +53,10 @@ Akun Anda sekarang sudah dibuat. Klik "*Masuk*" untuk mengakses platform.
 Bitfinex menerapkan proses verifikasi (KYC) yang sesuai dengan peraturan yang berlaku saat ini. Dalam mode "Basic", tidak mungkin untuk melakukan setoran, penarikan, atau transaksi, yang membuatnya penting untuk mendapatkan setidaknya tingkat verifikasi "Basic Plus", atau bahkan "Menengah" atau "Penuh" jika perlu:
 
 
-- Basic* adalah mode tampilan saja, yang memungkinkan Anda untuk berkonsultasi dengan platform tanpa melakukan operasi apa pun;
-- Basic Plus* menyediakan akses ke berbagai fungsi penting, termasuk transaksi pasar spot dan opsi setoran dan penarikan yang dipilih;
-- Intermediate* membuka layanan lanjutan seperti perdagangan margin, pinjaman, transaksi P2P dan OTC, dan menawarkan pengurangan tenggat waktu setoran;
-- Full* memberi Anda akses ke transfer bank internasional dan semua fitur platform.
+- **Basic** adalah mode tampilan saja, yang memungkinkan Anda untuk berkonsultasi dengan platform tanpa melakukan operasi apa pun;
+- **Basic Plus** menyediakan akses ke berbagai fungsi penting, termasuk transaksi pasar spot dan opsi setoran dan penarikan yang dipilih;
+- **Intermediate** membuka layanan lanjutan seperti perdagangan margin, pinjaman, transaksi P2P dan OTC, dan menawarkan pengurangan tenggat waktu setoran;
+- **Full** memberi Anda akses ke transfer bank internasional dan semua fitur platform.
 
 Untuk setiap level, diperlukan dokumen tambahan untuk verifikasi. Untuk sebagian besar pengguna, akun *Basic Plus* atau *Intermediate* pada umumnya sudah cukup.
 
@@ -79,11 +79,11 @@ Selesaikan langkah-langkahnya dengan memberikan informasi dan dokumen yang dimin
 Setelah masuk, Anda akan melihat bilah navigasi di bagian atas antarmuka dengan: "*Trading*", "*Derivatif*", "*Pendanaan*", "*OTC*", "*P2P*", "*Dompet*", dll. Bitfinex menawarkan berbagai fungsi, termasuk:
 
 
-- Perdagangan**: pasar "*klasik*" tempat Anda bisa melakukan order untuk membeli dan menjual mata uang kripto (termasuk bitcoin);
-- OTC**: Layanan Over-The-Counter untuk memperdagangkan volume besar secara langsung dengan pemain lain, di luar buku pesanan publik;
-- Pendanaan**: Area yang didedikasikan untuk pinjaman dan pendanaan margin;
-- Derivatif**: Bagian untuk produk derivatif (futures, dll.), ditujukan untuk trader berpengalaman;
-- P2P**: Memungkinkan Anda membeli atau menjual kripto dari pengguna lain secara peer-to-peer.
+- **Perdagangan**: pasar "*klasik*" tempat Anda bisa melakukan order untuk membeli dan menjual mata uang kripto (termasuk bitcoin);
+- **OTC**: Layanan Over-The-Counter untuk memperdagangkan volume besar secara langsung dengan pemain lain, di luar buku pesanan publik;
+- **Pendanaan**: Area yang didedikasikan untuk pinjaman dan pendanaan margin;
+- **Derivatif**: Bagian untuk produk derivatif (futures, dll.), ditujukan untuk trader berpengalaman;
+- **P2P**: Memungkinkan Anda membeli atau menjual kripto dari pengguna lain secara peer-to-peer.
 
 Untuk penggunaan standar (membeli/menjual bitcoin dan deposit/penarikan), Anda terutama akan menggunakan tab "*Trading*", serta bagian "*Wallet*", "*Deposit*", dan "*Withdraw*".
 

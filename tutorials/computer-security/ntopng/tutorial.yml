@@ -1,0 +1,150 @@
+id: 77435bd3-674a-4f35-81d9-0a5325bbdcbd
+
+credit_link: https://www.it-connect.fr/monitorer-son-reseau-avec-ntopng/
+
+tags:
+  - network-security
+  - software
+  - guides
+
+category: data
+
+level: advanced
+
+professor_id: bcc40a22-9d0d-4596-a1bd-2a00da7f8d64
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-07
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 3.36
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.71
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.71
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.71
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.54
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.12
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.71
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.33
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.71
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.33
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.12
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.12
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.71
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.12
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.33

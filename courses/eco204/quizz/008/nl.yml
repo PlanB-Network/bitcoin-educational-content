@@ -1,0 +1,13 @@
+question: Wat is het effect van een verhoging van de Supply op inflatie en deflatie in een systeem met vast geld Supply?
+answer: Een toename van het geld Supply compenseert de potentiële deflatie veroorzaakt door een toename in productie.
+wrong_answers:
+  - Een toename van het geld Supply leidt tot deflatie.
+  - Een toename van het geld Supply heeft geen invloed op inflatie of deflatie.
+  - Een toename van het geld Supply leidt tot een afname van de productie.
+explanation: |
+  Het hoofdstuk legt uit dat in een systeem met vast geld Supply een toename van de productie theoretisch zou moeten leiden tot deflatie, d.w.z. een daling van de prijzen
+  productie theoretisch zou moeten leiden tot deflatie, d.w.z. een daling van de prijzen,
+  omdat er meer goederen en diensten beschikbaar zouden zijn. In het huidige fiat
+  monetaire systeem doet een toename van het geld Supply de potentiële deflatie teniet
+  veroorzaakt door een toename in productie.
+reviewed: false

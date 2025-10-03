@@ -1,0 +1,9 @@
+question: Welk moeilijk rekenprobleem is verbonden aan asymmetrische systemen zoals RSA?
+answer: Vermenigvuldiging van priemgetallen
+wrong_answers:
+  - Exponentiële vermenigvuldiging van gehele getallen
+  - Het maken van lange willekeurige getallen
+  - Veilige sleutel Exchange
+explanation: |
+  RSA is gebaseerd op de moeilijkheidsgraad van de factorisatie van priemgetallen, een rekenkundig moeilijke taak die het cryptosysteem veilig maakt tegen aanvallen.
+reviewed: false

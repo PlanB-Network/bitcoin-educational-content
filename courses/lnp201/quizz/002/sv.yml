@@ -1,0 +1,9 @@
+question: Om Alice skickar 40 000 satoshis till Bob från en betalningskanal där hon ursprungligen har 100 000 satoshis, hur mycket pengar har hon då kvar efter transaktionen?
+answer: 60.000 satoshis
+wrong_answers:
+  - 30.000 satoshis
+  - 40.000 satoshis
+  - 140.000 satoshis
+explanation: |
+  Efter att ha skickat 40.000 satoshis är Alice:s saldo i kanalen 60.000 satoshis.
+reviewed: false

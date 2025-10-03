@@ -1,0 +1,10 @@
+question: Büyük bir anonset UTXO'ın gizliliği hakkında neyi gösterir?
+answer: Geliştirilmiş gizlilik.
+wrong_answers:
+  - Azaltılmış gizlilik.
+  - Geliştirilmiş izlenebilirlik.
+  - Daha hızlı CoinJoin işlem hızları.
+explanation: |
+  Homojen küme içinde belirli bir UTXO'yi ayırt etmek zorlaştığından, büyük bir anonset yüksek düzeyde anonimliğe işaret eder.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka struktura danych podsumowuje transakcje w bloku?
+answer: Merkle Tree
+wrong_answers:
+  - Tabela Hash UTXO
+  - Plik peers.dat
+  - Rejestr assumeutxo
+explanation: |
+  Transakcje w bloku są zapisywane w Merkle Tree, którego korzeń jest zawarty w nagłówku bloku, aby zapewnić integralność bloku.
+reviewed: true

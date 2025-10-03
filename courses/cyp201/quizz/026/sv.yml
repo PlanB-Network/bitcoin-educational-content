@@ -1,0 +1,9 @@
+question: Vad är utgångspunkten för att beräkna en ECDSA-signatur?
+answer: Meddelandet Hash
+wrong_answers:
+  - Den publika nyckeln
+  - En fast Nonce
+  - En anpassad elliptisk kurva
+explanation: |
+  En ECDSA-signatur börjar med att beräkna Hash för det meddelande som ska signeras, ofta med SHA256.
+reviewed: false

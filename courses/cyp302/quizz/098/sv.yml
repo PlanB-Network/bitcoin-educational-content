@@ -1,0 +1,9 @@
+question: Hur hjälper en MAC till att förhindra att en angripare manipulerar meddelanden?
+answer: Genom att göra det möjligt att verifiera att det mottagna meddelandet inte har ändrats
+wrong_answers:
+  - Genom att förhindra attacker av typen brute-force
+  - Genom att dölja meddelandets innehåll
+  - Genom att automatiskt blockera misstänkta meddelanden
+explanation: |
+  Med en MAC kan mottagaren verifiera att ett meddelande inte har ändrats genom en tagg som genererats med en delad hemlig nyckel, vilket begränsar möjligheterna till manipulation.
+reviewed: false

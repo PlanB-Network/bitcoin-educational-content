@@ -1,0 +1,9 @@
+question: Hangi komut paketlerin bir IP hedefine ulaşmak için izlediği yolu gösterir?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute, TTL'yi kullanarak gönderen ve hedef arasındaki her ara yönlendiriciyi görüntüler.
+reviewed: false

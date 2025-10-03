@@ -1,0 +1,11 @@
+question: Wat is de belangrijkste reden voor de prijsvolatiliteit op korte termijn in stablecoins?
+answer: Lage liquiditeitsniveaus op beurzen
+wrong_answers:
+  - Gebrek aan reserves om aan onttrekkingsverzoeken te voldoen
+  - Hacks die de stablecoin in gevaar brengen
+  - Afpakken van stablecoins
+explanation: |
+  De prijsvolatiliteit op korte termijn in stablecoins is vaak het gevolg van
+  van liquiditeitsproblemen, waarbij kleinere beurzen niet in staat zijn
+  om aan de vraag van klanten te voldoen, wat tijdelijke prijsschommelingen veroorzaakt.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vem var huvudpersonen bakom skapandet av PayPal?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  PayPal-produkten utvecklades under 1999 av Confinity Inc. som grundades i december 1998 i San Francisco av Peter Thiel och Max Levchin.
+reviewed: true

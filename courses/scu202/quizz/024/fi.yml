@@ -1,0 +1,9 @@
+question: Mikä on Linux-työpöytäympäristön tärkein tehtävä?
+answer: Interface-grafiikan toimittaminen
+wrong_answers:
+  - Järjestelmän käynnistyksen hallinta
+  - Linux-ytimen kääntäminen
+  - Suojautuminen viruksilta
+explanation: |
+  Työpöytäympäristö kokoaa yhteen visuaalisen ja vuorovaikutteisen Elements:n (ikkunat, valikot, kuvakkeet, paneelit jne.), jotta käyttäjä voi olla graafisesti vuorovaikutuksessa järjestelmän kanssa.
+reviewed: false

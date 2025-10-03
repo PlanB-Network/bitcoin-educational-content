@@ -1,0 +1,10 @@
+question: Vilket av följande svar är inte en rekommenderad metod för att hantera sin doxxiska förändring?
+answer: Sammanfogning av doxiska UTXO:er.
+wrong_answers:
+  - Blandning av doxiska UTXO:er i en mindre pool.
+  - Att donera sina doxiska UTXO:er.
+  - Markera sina doxiska UTXO:er som icke spenderbara.
+explanation: |
+  Det avråds från att slå samman doxiska UTXO:er eftersom det gör det möjligt att göra en koppling mellan användarens olika poster i Whirlpool.
+  
+reviewed: false

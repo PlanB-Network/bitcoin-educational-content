@@ -1,0 +1,13 @@
+question: Varför blev guld standardmedium för Exchange?
+answer: På grund av dess sällsynthet, hållbarhet och delbarhet.
+wrong_answers:
+  - På grund av dess överflöd, hållbarhet och odelbarhet.
+  - På grund av dess sällsynthet, förgänglighet och delbarhet.
+  - På grund av dess överflöd, förgänglighet och odelbarhet.
+explanation: |
+  Guld blev standardmedium för Exchange på grund av dess
+  sällsynthet, hållbarhet och delbarhet: dess sällsynthet förhindrade
+  devalvering orsakad av produktion; dess hållbarhet
+  att det inte skulle erodera över tiden, och dess delbarhet
+  möjliggjorde användning i transaktioner av olika storlekar.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Quando viene pubblicata una transazione di impegno sulla blockchain di Bitcoin?
+question: Quando viene pubblicata una commitment transaction sulla blockchain di Bitcoin?
 answer: Alla fine, quando il canale viene chiuso
 wrong_answers:
   - Immediatamente dopo ogni trasferimento nel canale
-  - Prima di ogni nuova transazione di impegno
+  - Prima di ogni nuova commitment transaction
   - Quando i fondi disponibili sono esauriti
 explanation: |
-  Le transazioni di impegno sono costruite e firmate per ogni cambiamento nella allocazione, ma sono pubblicate sulla blockchain solo alla fine, in caso di chiusura del canale.
-reviewed: false
+  Le commitment transaction sono costruite e firmate per ogni cambiamento nella distribuzione dei fondi, ma sono pubblicate sulla blockchain solo alla fine, in caso di chiusura del canale.
+reviewed: true

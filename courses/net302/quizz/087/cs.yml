@@ -1,0 +1,9 @@
+question: Který příkaz zobrazuje cestu, kterou pakety dosáhnou cíle IP?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute zobrazí každý zprostředkující směrovač mezi odesílatelem a cílem pomocí TTL.
+reviewed: false

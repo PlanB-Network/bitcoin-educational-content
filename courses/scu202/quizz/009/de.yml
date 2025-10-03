@@ -1,0 +1,9 @@
+question: Was ist die Hauptaufgabe eines Betriebssystems?
+answer: Vermittler zwischen Hardware, Benutzer und Anwendungen
+wrong_answers:
+  - Integriertes Antivirusprogramm
+  - Grafik-Software
+  - Instant-Messaging-Server
+explanation: |
+  Das Betriebssystem fungiert als zentraler Software-Layer, der den Anwendungen und dem Benutzer den Zugriff und die Steuerung der Hardware ermöglicht.
+reviewed: false

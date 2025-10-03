@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Så här ställer du in och använder Nakamochi Bitcoin och Lightning node.
+description: Körning av nod enkelt - Hur man konfigurerar och använder Nakamochi Bitcoin- och Lightning-noden.
 ---
+
+![image](assets/cover.webp)
 
 Att köra sin egen Bitcoin och Lightning Full node behöver inte längre vara en komplex uppgift som är begränsad till tekniska experter. Traditionellt har det krävts djupgående kunskaper om kryptografi, nätverk och mjukvaruutveckling för att sätta upp och hantera noder. Nakamochi ändrar på detta genom att göra noder tillgängliga för alla, oavsett teknisk bakgrund.
 
@@ -49,35 +51,37 @@ Din Nakamochi-nod hanteras via en mobilapp, [BitBanana (Android)](https://bitban
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_
+_Anslut till ström och skriv ner din 24-ords fras_
 
 
 ![image](assets/en/02.webp)
 
-_Vänta tills Blockchain har kommit ikapp
+_Vänta tills blockkedjan har hunnit ikapp_
 
 
 ![image](assets/en/03.webp)
 
-_Sätta upp en ny Wallet i Lightning Tab_
+_Ställ in ny plånbok i Lightning-fliken_
 
 
 ![image](assets/en/04.webp)
 
-_Skanna QR-kod med Node Management App_
+_Skanna QR-koden med Node Management-appen_
 
 
 ![image](assets/en/05.webp)
 
-för extra säkerhet ange en PIN-kod
+_För extra säkerhet ställ in en PIN-kod_
 
 
-**Notera:** _Låt din Nakamochi-nod synkronisera med Blockchain. Denna process kan ta lite tid beroende på din internetanslutning._
+**Obs:** _Låt din Nakamochi-nod synkronisera med blockkedjan. Denna process kan ta lite tid beroende på din internetanslutning._
 
 
 
 ## Om Lightning Network
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network revolutionerar Bitcoin-transaktioner genom att göra dem snabbare, billigare och mer effektiva. Den är perfekt för daglig användning och möjliggör nästan omedelbara betalningar med minimala avgifter, perfekt för mikrotransaktioner som att köpa kaffe eller hantera frekventa småköp.
 
@@ -93,7 +97,7 @@ Sekretess är en annan fördel, eftersom transaktioner på Lightning dirigeras g
 Lightning Network fungerar genom betalningskanaler, som är anslutningar mellan två parter som möjliggör flera transaktioner utan att interagera direkt med Blockchain. När en kanal är öppen uppdateras saldot mellan de två parterna på denna andra Layer Lightning-lösning för varje transaktion, vilket säkerställer snabba betalningar till låg kostnad. Endast kanalens öppning och stängning registreras On-Chain, vilket minskar överbelastningen på Bitcoin Blockchain. Denna design säkerställer skalbarhet och integritet, eftersom enskilda transaktioner förblir oregistrerade på den offentliga Ledger.
 
 
-**Exempel:** Alice och Bob öppnar en kanal genom att binda Bitcoin till den. Alice skickar Bitcoins till Bob, och deras off-chain-saldon uppdateras omedelbart utan On-Chain-post. Om Alice sedan betalar Charlie, och Alice inte har någon direkt kanal till Charlie, kan betalningen dirigeras genom Bobs kanal för att nå Charlie. Routning via mellanliggande noder säkerställer betalningar även utan direkta anslutningar, vilket gör nätverket mycket effektivt.
+**Exempel:** Alice och Bob öppnar en kanal genom att binda Bitcoin till den. Alice skickar Bitcoins till Bob, och deras off-chain-saldon uppdateras omedelbart utan en On-Chain-post. Om Alice sedan betalar Charlie, och Alice inte har någon direkt kanal till Charlie, kan betalningen dirigeras genom Bob:s kanal för att nå Charlie. Routning genom mellanliggande noder säkerställer betalningar även utan direkta anslutningar, vilket gör nätverket mycket effektivt.
 
 
 
@@ -151,7 +155,7 @@ När din kanal är öppen kan betalningar dirigeras genom den till andra deltaga
 
 Om du inte längre behöver en kanal kan du stänga den. Denna åtgärd reglerar det slutliga saldot mellan dig och din peer och registrerar det On-Chain. Helst ska båda parter vara överens och vara online för en "kooperativ stängning" (snabbare och mindre avgifter jämfört med en "påtvingad stängning" med en peer som inte svarar/är offline).
 
-Generellt rekommenderar vi att kanalerna lämnas öppna för att minska kostnaderna och öka nätverkets tillförlitlighet och effektivitet. Genom att hålla kanalerna öppna minimerar du On-Chain-transaktionsavgifter, undviker driftstopp för kanalåteranslutningar och upprätthåller en stabil routningskapacitet för sömlös betalningshantering. Detta tillvägagångssätt främjar ett robust och motståndskraftigt nätverk samtidigt som det förbättrar den övergripande användarupplevelsen och minskar de operativa omkostnaderna.
+Generellt rekommenderar vi att du lämnar kanaler öppna för att minska kostnaderna och öka nätverkets tillförlitlighet och effektivitet. Genom att hålla kanalerna öppna minimerar du transaktionsavgifterna för On-Chain, undviker driftstopp för kanalåteranslutningar och upprätthåller en stabil routningskapacitet för sömlös betalningshantering. Detta tillvägagångssätt främjar ett robust och motståndskraftigt nätverk samtidigt som det förbättrar den övergripande användarupplevelsen och minskar de operativa omkostnaderna.
 
 
 
@@ -160,4 +164,4 @@ Generellt rekommenderar vi att kanalerna lämnas öppna för att minska kostnade
 
 
 - [Om Nakamochi](https://nakamochi.io/)
-- [Prenumerera på Nakamochis nyhetsbrev] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Prenumerera på Nakamochis nyhetsbrev](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

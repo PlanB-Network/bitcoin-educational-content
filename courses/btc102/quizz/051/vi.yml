@@ -1,0 +1,9 @@
+question: Phương pháp nào cho phép bạn bù đắp số bitcoin đã chi tiêu trong khi vẫn giữ được khoản tiết kiệm của mình?
+answer: Chi tiêu và Thay thế
+wrong_answers:
+  - HODLing và Thay thế
+  - Chi tiêu và HODLing
+  - Giao dịch và chi tiêu
+explanation: |
+  Phương pháp Chi tiêu và Thay thế liên quan đến việc chi tiêu bitcoin rồi mua lại số lượng tương tự để duy trì số bitcoin bạn nắm giữ.
+reviewed: false

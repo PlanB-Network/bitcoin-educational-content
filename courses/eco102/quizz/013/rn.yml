@@ -1,0 +1,9 @@
+question: Ni igiki gishingiyeko agaciro nk’uko Frédéric Bastiat abivuga?
+answer: Akamaro
+wrong_answers:
+  - Abakozi
+  - Ubukene
+  - Ibisabwa
+explanation: |
+  Bastiat yemera iciyumviro ca Say c’uko akamaro ari co gishingiyeko agaciro, bitandukanye n’ivyiyumviro bishingiye ku kazi canke ku bukene.
+reviewed: false

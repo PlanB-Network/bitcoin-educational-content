@@ -1,0 +1,8 @@
+question: Được xuất bản ẩn danh, L'Ami des Hommes đã gây ấn tượng mạnh đến nỗi ban đầu nó được cho là của ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes ban đầu được cho là của Montesquieu vì phong cách và tầm quan trọng của nó, trước khi người ta phát hiện ra rằng tác giả thực chất là Hầu tước de Mirabeau.

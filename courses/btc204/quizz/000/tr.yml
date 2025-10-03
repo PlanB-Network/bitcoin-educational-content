@@ -1,0 +1,9 @@
+question: UTXO kısaltması İngilizce'de ne anlama geliyor?
+answer: Harcanmamış İşlem Çıktısı
+wrong_answers:
+  - Birleşik İşlem Çıktısı
+  - Yalnızca Kullanıcı İşlemi
+  - Yardımcı Program token Exchange Seçenek
+explanation: |
+  UTXO, henüz harcanmamış bir işlemin çıktısıdır.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Wat geeft de retrospectieve anonimiteit aan?
+answer: Het aantal waarschijnlijke bronnen voor een UTXO aan het einde van cycli.
+wrong_answers:
+  - De grootte van de groep niet te onderscheiden UTXO's aan het einde van cycli.
+  - Het aantal waarschijnlijke bronnen voor een UTXO aan het begin van cycli.
+  - De tijd die nodig is om een CoinJoin te voltooien.
+explanation: |
+  De retrospectieve anonset geeft het aantal mogelijke bronnen voor een gegeven munt aan, rekening houdend met de UTXO aan het einde van de cyclus.
+  
+reviewed: false

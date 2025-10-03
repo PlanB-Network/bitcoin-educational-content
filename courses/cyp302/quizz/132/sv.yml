@@ -1,0 +1,9 @@
+question: I en Bitcoin-transaktion, vilken teknik används vanligtvis för att bevisa Ownership av medel genom att låsa upp skriptet?
+answer: Digitala signaturer
+wrong_answers:
+  - Digitala certifikat
+  - Symmetrisk kryptering
+  - Autentiseringskoder för meddelanden (MAC)
+explanation: |
+  Digitala signaturer i Bitcoin bevisar innehav av medel genom att signera transaktioner med en privat nyckel för att låsa upp skriptet som säkrar en UTXO.
+reviewed: false

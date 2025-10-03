@@ -1,0 +1,9 @@
+question: Kwa nini metadata ya faili ya dijiti inawakilisha hatari kwa faragha?
+answer: Wanaweza kufichua habari nyeti
+wrong_answers:
+  - Wanapunguza kasi ya kufungua antivirus kwenye baadhi ya mifumo
+  - Wanazuia kushiriki faili kupitia barua pepe
+  - Wanaweza kupangisha ransomware
+explanation: |
+  Metadata inaweza kuwa na maelezo ya siri ambayo hayaonekani wakati faili inafunguliwa, kama vile viwianishi vya GPS, jina la mwandishi, kitambulisho au historia ya urekebishaji, ambayo inaweza kutumiwa bila wewe kujua.
+reviewed: false

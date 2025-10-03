@@ -1,0 +1,8 @@
+question: Vad är en av de potentiella fördelarna med att acceptera ny teknik som Bitcoin?
+answer: Det skulle kunna ge generate enorma stordriftsfördelar över hela världen.
+wrong_answers:
+  - Det kan leda till en global ekonomisk kollaps.
+  - Det kan leda till att människans intelligens minskar.
+  - Det skulle kunna leda till att alla jobb försvinner.
+explanation: >-
+reviewed: true

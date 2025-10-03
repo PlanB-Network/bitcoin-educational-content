@@ -1,0 +1,13 @@
+question: Bir siteye yapılan her ziyaretten sonra çerezlerin silinmesi neden önerilir?
+answer: Üçüncü taraf sitelerin çevrimiçi etkinliğinizi izlemesini önlemek için.
+wrong_answers:
+  - Cihazınızda depolama alanından tasarruf etmek için.
+  - Sitenin giriş bilgilerinizi hatırlamasını önlemek için.
+  - Sitenin size hedefli reklamlar göstermesini önlemek için.
+explanation: |
+  Çerezler, web siteleri tarafından cihazınızda bilgi depolamak için 
+  oluşturulan dosyalardır. Bazı siteler bu çerezlere ihtiyaç duyarken
+  özellikle reklam takibi için üçüncü taraf siteleri de istismar edilebilirler.
+  Bir siteye yapılan her ziyaretten sonra çerezleri silmek
+  bunu önlemeye yardımcı olur.
+reviewed: true

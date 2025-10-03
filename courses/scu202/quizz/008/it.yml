@@ -1,0 +1,9 @@
+question: Qual è il principale svantaggio dell'ecosistema macOS?
+answer: Confinamento e dipendenza da Apple
+wrong_answers:
+  - Troppa apertura del software
+  - Ottimizzazione grafica debole
+  - Mancanza di aggiornamenti
+explanation: |
+  La stretta integrazione di MacOS con l'hardware Apple porta alla dipendenza e al blocco dell'ecosistema proprietario del marchio.
+reviewed: false

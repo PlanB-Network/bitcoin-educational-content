@@ -1,0 +1,9 @@
+question: Vilken valuta baserad på guld och silver skapades av Bernard von NotHaus 1998?
+answer: Liberty-dollarn
+wrong_answers:
+  - Liberty Reserve
+  - e-guld
+  - Guldpengar
+explanation: |
+  Denna valuta fanns tillgänglig i form av silvermynt och representativa sedlar samt, från och med 2003, i digital form.
+reviewed: true

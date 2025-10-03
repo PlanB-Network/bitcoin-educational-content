@@ -1,0 +1,9 @@
+question: Vilken cybersäkerhetsregel rekommenderar att man begränsar rättigheterna för varje användare eller programvara till vad som är absolut nödvändigt?
+answer: Principen om minsta möjliga privilegium
+wrong_answers:
+  - Dubbel autentisering
+  - Policy för starka lösenord
+  - Regelbunden backup
+explanation: |
+  Principen om minsta möjliga privilegium innebär att endast de nödvändiga rättigheterna ges till varje uppgift, vilket minskar risken för kompromisser.
+reviewed: false

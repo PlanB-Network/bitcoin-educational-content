@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Membuat profil guru Anda
 
-Buka folder `scripts/tutorial-related/data-creator/` pada klon lokal Anda. Pastikan Anda telah menginstal semua ketergantungan yang diperlukan untuk perangkat lunak, dengan terlebih dahulu menginstal Python :
+Buka folder `scripts/tutorial-related/data-creator/` pada klon lokal Anda. Pastikan Anda telah menginstal semua ketergantungan yang diperlukan untuk perangkat lunak, dengan terlebih dahulu menginstal Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Kemudian luncurkan perangkat lunak dengan perintah :
+Kemudian luncurkan perangkat lunak dengan perintah:
 
 ```bash
 python3 main.py

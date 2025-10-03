@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal uso de la segmentación de red basada en VLAN en una red doméstica?
+answer: Aislar diferentes tipos de aparatos o usos
+wrong_answers:
+  - Aumenta el alcance Wi-Fi de los dispositivos
+  - Cifrar las conexiones de red individualmente para cada dispositivo
+  - Activar WPA3 automáticamente
+explanation: |
+  Las VLAN pueden utilizarse para compartimentar dispositivos, limitando la propagación de un ataque entre segmentos.
+reviewed: false

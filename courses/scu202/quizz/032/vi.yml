@@ -1,0 +1,9 @@
+question: Quy tắc an ninh mạng nào khuyến nghị hạn chế quyền của mỗi người dùng hoặc phần mềm ở mức thực sự cần thiết?
+answer: Nguyên tắc đặc quyền tối thiểu
+wrong_answers:
+  - Xác thực kép
+  - Chính sách mật khẩu mạnh
+  - Sao lưu thường xuyên
+explanation: |
+  Nguyên tắc đặc quyền tối thiểu có nghĩa là chỉ cấp những quyền cần thiết cho mỗi nhiệm vụ, do đó giảm thiểu nguy cơ thỏa hiệp.
+reviewed: false

@@ -1,0 +1,21 @@
+id: 5d569fb7-87dd-419e-b778-8591def7e9df
+name: Yzer
+category: education
+
+links:
+  website: https://yzer.io/
+  twitter: https://x.com/get_yzer
+
+tags:
+  - finance
+  - adoption
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-21
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

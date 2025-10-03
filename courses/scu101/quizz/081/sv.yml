@@ -1,0 +1,9 @@
+question: Vad kan du göra på webbplatsen Have I Been Pwned?
+answer: Kontrollera om ett e-postmeddelande Address har äventyrats.
+wrong_answers:
+  - generate nya, starka och slumpmässiga lösenord.
+  - Skapa en säker inkorg för e-post.
+  - Synkronisera e-postkonton för enklare användning.
+explanation: |
+  Den här webbplatsen hjälper till att upptäcka dataintrång och verifiera säkerheten för ett Address-e-postmeddelande.
+reviewed: true

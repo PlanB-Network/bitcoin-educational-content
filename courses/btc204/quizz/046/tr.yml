@@ -1,0 +1,10 @@
+question: BIP47'nin çalışmasının merkezinde hangi kriptografik anahtar Exchange algoritması vardır?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  Kullanılan algoritma ECDH'dir (Elliptic Curve Diffie-Hellman). Klasik Diffie-Hellman algoritmasının eliptik eğriler kullanan bir çeşididir.
+  
+reviewed: false

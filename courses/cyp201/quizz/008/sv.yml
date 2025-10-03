@@ -1,0 +1,9 @@
+question: Varför tillämpar SHA256 en förbehandling av inmatningsmeddelandet?
+answer: För att säkerställa en längdmultipel av 512 bitar
+wrong_answers:
+  - För att verifiera meddelandets integritet
+  - För att kryptera data före hashing
+  - För att öka storleken på de genererade hasharna
+explanation: |
+  Förbehandlingen justerar meddelandets längd genom att lägga till utfyllnadsbitar och en binär representation av dess längd.
+reviewed: false

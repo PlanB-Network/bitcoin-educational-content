@@ -1,0 +1,13 @@
+question: Wat is de potentiële keerzijde van Mining voor winst?
+answer: Het kan leiden tot de centralisatie van hashingkracht en kan ook een aanzienlijke impact hebben op het milieu
+wrong_answers:
+  - Het kan leiden tot een daling van de prijs van Bitcoin
+  - Het kan leiden tot een afname van de Hashrate van het netwerk
+  - Het kan leiden tot een afname van het aantal actieve knooppunten in het netwerk
+explanation: |
+  Mining voor winst kan leiden tot de centralisatie van hashing
+  macht als slechts een paar grote bedrijven het zich kunnen veroorloven om te investeren in
+  hoogwaardige Mining apparatuur. Bovendien kan het energieverbruik
+  verbruik van Mining voor winst een aanzienlijke
+  milieu-impact hebben, afhankelijk van de energiebron.
+reviewed: true

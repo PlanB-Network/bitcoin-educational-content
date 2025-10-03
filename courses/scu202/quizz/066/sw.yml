@@ -1,0 +1,9 @@
+question: Ni data gani ya ndani inayowawezesha watangazaji kufuatilia tabia zako za kuvinjari kwenye tovuti nyingi?
+answer: Vidakuzi vya mtu wa tatu
+wrong_answers:
+  - JavaScript code
+  - Historia ya eneo
+  - Cheti cha SSL
+explanation: |
+  Vidakuzi vya watu wengine, vilivyowekwa na mashirika ya nje ya utangazaji, hutumiwa kufuatilia shughuli za watumiaji kwenye tovuti tofauti na kuanzisha wasifu wa utangazaji.
+reviewed: false

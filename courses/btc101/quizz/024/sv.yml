@@ -1,0 +1,13 @@
+question: Vilket av följande är inte en fördel med Bitcoin som valuta?
+answer: Det används för att betala skatt.
+wrong_answers:
+  - Den är delbar.
+  - Den är transportabel.
+  - Den är utan tillstånd.
+explanation: |
+  Bitcoin, på grund av dess egenskaper såsom dess delbarhet,
+  verifierbarhet, permissionslöshet och transportabilitet,
+  erbjuder en utmärkt värdebevarare. Dessutom, som en neutral
+  internetvaluta representerar den dessutom ett bra medium för Exchange
+  som inte känner några gränser.
+reviewed: true

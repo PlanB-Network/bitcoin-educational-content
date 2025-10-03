@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Napredno
+name: COLDCARD Q - Stručnjak
 description: Korišćenje naprednih opcija COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -39,7 +39,7 @@ Na COLDCARD uređajima, imate dve opcije za upravljanje vašim passphrase:
 1. **Klasičan unos:** Ručno unosite passphrase svaki put kada koristite svoj Hardware Wallet, baš kao i sa drugim hardverskim novčanicima. COLDCARD Q pojednostavljuje ovaj zadatak svojim punim tastaturom.
 
 
-2. **Možete izabrati da šifrujete svoj passphrase i skladištite ga na microSD kartici. U tom slučaju, moraćete da ubacite microSD u COLDCARD Q svaki put kada ga koristite. Imajte na umu da će ovaj microSD raditi samo na vašem COLDCARD Q i nije rezervna kopija. Stoga je veoma važno da takođe čuvate kopiju svog passphrase na fizičkom mediju, kao što je papir ili metal.
+2. **Možete izabrati da šifrujete svoj passphrase i skladištite ga na microSD kartici. U tom slučaju, moraćete da ubacite microSD u COLDCARD Q svaki put kada ga koristite. Imajte na umu da će ovaj microSD raditi samo na vašem COLDCARD Q i nije rezervna kopija. Stoga je veoma važno da takođe čuvate kopiju svog passphrase na fizičkom mediju, kao što je papir ili metal.**
 
 
 Da biste postavili svoj BIP39 passphrase, pristupite meniju "*passphrase*".

@@ -1,0 +1,9 @@
+question: Apa peran utama dari lingkungan desktop Linux?
+answer: Menyediakan grafik Interface
+wrong_answers:
+  - Mengelola pengaktifan sistem
+  - Mengkompilasi kernel Linux
+  - Melindungi dari virus
+explanation: |
+  Lingkungan desktop mengelompokkan Elements visual dan interaktif (jendela, menu, ikon, panel, dll.) untuk memungkinkan pengguna berinteraksi secara grafis dengan sistem.
+reviewed: false

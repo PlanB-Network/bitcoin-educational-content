@@ -1,0 +1,9 @@
+question: Vilken metall har historiskt sett ansetts vara standardreferens för valuta?
+answer: Guld
+wrong_answers:
+  - Silver
+  - Koppar
+  - Brons
+explanation: |
+  Guld har historiskt sett fungerat som standard på grund av sin knapphet, hållbarhet och universellt erkända värde, vilket gör det till en stabil grund för monetära system.
+reviewed: true

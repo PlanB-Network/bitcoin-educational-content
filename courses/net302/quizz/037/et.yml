@@ -1,0 +1,9 @@
+question: Mis on IPv4 erimärkuse 0.0.0.0.0 eesmärk?
+answer: Kõigi liideste või määramata Address määramine
+wrong_answers:
+  - Sõnumi saatmine kõigile võrkudele
+  - Seadme kohaliku ühenduse testimine
+  - Kohaliku marsruuteri adresseerimis- või ühendusvea näitamiseks
+explanation: |
+  Märkust 0.0.0.0.0 kasutatakse kohalikul tasandil, et kujutada määratud Address puudumist või kuulata kõiki liideseid.
+reviewed: false

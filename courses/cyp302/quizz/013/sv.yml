@@ -1,0 +1,9 @@
+question: Vad utgör den fysiska grunden för majoriteten av kommunikationerna i den utvecklade världen?
+answer: Fiberoptiska kabelnätverk
+wrong_answers:
+  - Satelliter för varje anslutning
+  - Endast koaxialkablar
+  - Endast koppartrådar
+explanation: |
+  Majoriteten av den moderna kommunikationen bygger på fiberoptiska kabelnätverk, som säkerställer höghastighetsdatautbyte, även om viss användning av satelliter och koaxialkablar fortfarande förekommer.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hoeveel episodes van hyperinflatie zijn er gedocumenteerd in de Hanke-Krus tabel?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  De Hanke-Krus tabel documenteert 56 periodes van hyperinflatie. Echter,
+  niet alle episodes, zoals die in Venezuela in 2016, wat het totaal op 57 brengt
+  totaal op 57.
+reviewed: false

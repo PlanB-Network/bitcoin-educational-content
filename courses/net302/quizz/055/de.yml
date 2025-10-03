@@ -1,0 +1,9 @@
+question: Welcher Befehl zeigt den detaillierten Status aller Netzwerkschnittstellen in Linux an?
+answer: ip adr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  der Befehl "ip addr show" listet alle Netzwerkschnittstellen mit ihrem Status, ihren Adressen und den zugehörigen Parametern auf.
+reviewed: false

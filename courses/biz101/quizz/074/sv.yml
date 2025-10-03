@@ -1,0 +1,9 @@
+question: Vilka avancerade säkerhetsfunktioner implementeras vanligtvis på företagsnivå för bitcoins?
+answer: Multi-signatur med tidslås
+wrong_answers:
+  - Lösenordsskydd för en mobil Lightning Wallet
+  - Single-sig med BIP39 passphrase-skydd
+  - Single-sig med 24 ord seed fras
+explanation: |
+  Högsäkerhetsåtgärder som konfigurationer med flera signaturer och tidslås är avgörande för hanteringen av stora summor.
+reviewed: false

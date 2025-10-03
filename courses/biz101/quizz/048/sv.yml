@@ -1,0 +1,9 @@
+question: Vilken är den primära funktionen hos traditionella betalningssystem?
+answer: För att möjliggöra överföring av medel mellan två parter
+wrong_answers:
+  - Att skapa en gemensam global valuta som regleras av en central myndighet
+  - Att underlätta internationell handel
+  - Att begränsa fondöverföringar till endast kontantutbyte mellan personer
+explanation: |
+  Traditionella betalningssystem tillhandahåller mekanismer och infrastruktur för att överföra medel mellan betalare och betalningsmottagare i både lokala och internationella sammanhang.
+reviewed: false

@@ -1,0 +1,23 @@
+id: 610774cc-45e7-11f0-acce-470efad187e2
+
+name: Luno
+
+address_line_1: London, United Kingdom
+address_line_2:
+address_line_3: 
+
+original_language:
+  - en
+
+links:
+  website: https://www.luno.com/
+  twitter: https://x.com/LunoGlobal
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - exchange
+
+category: exchange

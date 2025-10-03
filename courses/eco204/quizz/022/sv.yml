@@ -1,0 +1,10 @@
+question: Vad är det främsta kännetecknet för hyperinflation enligt Cagans definition?
+answer: Extremt hög månatlig inflationstakt
+wrong_answers:
+  - Extremt hög årlig inflationstakt
+  - Extremt hög veckovis inflationstakt
+  - Extremt hög daglig inflationstakt
+explanation: |
+  Enligt Cagans definition kännetecknas hyperinflation av en
+  extremt hög månatlig inflationstakt som överstiger 50%.
+reviewed: false

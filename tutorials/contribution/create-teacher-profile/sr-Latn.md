@@ -71,7 +71,7 @@ git push -u origin add-professor-loic-morel
 ### 3 - Kreirajte svoj profil nastavnika
 
 
-Idite u fasciklu `scripts/tutorial-related/data-creator/` na vašoj lokalnoj kopiji. Uverite se da ste instalirali sve zavisnosti potrebne za softver, nakon što ste prvo instalirali Python :
+Idite u fasciklu `scripts/tutorial-related/data-creator/` na vašoj lokalnoj kopiji. Uverite se da ste instalirali sve zavisnosti potrebne za softver, nakon što ste prvo instalirali Python:
 
 
 ```bash
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ```
 
 
-Zatim pokrenite softver komandom :
+Zatim pokrenite softver komandom:
 
 
 ```bash
@@ -153,7 +153,7 @@ Kada je PR spojen, možete obrisati svoju radnu granu.
 Ako ste savladali korišćenje Git-a, izmenite svoj profil nastavnika kreiranjem nove grane i direktnim uređivanjem relevantne datoteke u postojećem folderu. Izmene se mogu izvršiti ili u datoteci `professor.yml` ili u markdown datoteci, u zavisnosti od informacija koje treba ispraviti. Kada lokalno izvršite izmene, pošaljite ih na svoj Fork i podnesite PR.
 
 
-Za početnike, preporučujem da napravite izmene direktno putem GitHub-ovog Interface weba. Uverite se da imate GitHub nalog. Ako ne znate kako da ga kreirate, pratite ovaj vodič :
+Za početnike, preporučujem da napravite izmene direktno putem GitHub-ovog Interface weba. Uverite se da imate GitHub nalog. Ako ne znate kako da ga kreirate, pratite ovaj vodič:
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c

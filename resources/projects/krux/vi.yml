@@ -1,0 +1,6 @@
+description: |
+  Krux là một chương trình cơ sở mã nguồn mở biến đổi các thiết bị Kendryte K210 có sẵn, chẳng hạn như Maix Amigo, M5StickV, v.v., thành các thiết bị ký giao dịch Bitcoin đa năng. Ngoài chức năng cốt lõi, Krux là một nền tảng linh hoạt có thể thích ứng với các thiết bị có nhiều dạng khác nhau, cung cấp một bộ công cụ hỗ trợ tạo và khôi phục bản sao lưu Mnemonic, một số trong đó bao gồm các tùy chọn mã hóa để tăng cường bảo mật.
+  
+  Các thiết bị như Maix Amigo, Yahboom hoặc WonderMV đã sẵn sàng sử dụng, với màn hình cảm ứng lớn giúp người dùng dễ dàng và thân thiện khi vận hành. Các thiết bị này lý tưởng cho những ai đang tìm kiếm giải pháp cắm và chạy. Mặt khác, Krux cũng hỗ trợ các bộ bo mạch phát triển, hoàn hảo cho những người đam mê tự làm, những người thích tùy chỉnh và xây dựng các thiết lập phần cứng của riêng mình.
+  
+  Tương tác liền mạch với các ví điều phối hàng đầu thông qua mã QR, thẻ SD và thậm chí cả máy in nhiệt, chương trình cơ sở thân thiện với người dùng này cung cấp các tính năng độc đáo để hỗ trợ giao dịch và sao lưu Mnemonic trong môi trường ngoại tuyến.

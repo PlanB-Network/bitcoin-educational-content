@@ -1,0 +1,9 @@
+question: Vilken åtgärd är nödvändig för att dina arvingar ska kunna återfå dina bitcoins utan fel?
+answer: Tillhandahålla tydliga instruktioner
+wrong_answers:
+  - Förtroende för alla privata nycklar
+  - Ändra lösenord ofta
+  - Använda en KYC Exchange-plattform
+explanation: |
+  Detaljerade och begripliga instruktioner säkerställer att dina nära och kära kan få tillgång till medlen på rätt sätt.
+reviewed: false

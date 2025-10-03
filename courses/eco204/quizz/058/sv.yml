@@ -1,0 +1,12 @@
+question: Vad var det unika med de skuldebrev som introducerades vid Antwerp Stock Exchange på 1500-talet?
+answer: De bar namn och förfallodatum
+wrong_answers:
+  - De var gjorda av guld
+  - De utfärdades av Bank of Amsterdam
+  - De var konvertibla till floriner
+explanation: |
+  Antwerp Stock Exchange införde skuldebrev som bar namn och förfallodatum
+  och förfallodatum. Detta gjorde dem svåra att Exchange före förfallodagen. Men Exchange
+  gW-1 införde dock en praxis att diskontera dessa skuldebrev före förfallodagen
+  förfallodagen, vilket gjorde dem mer Liquid gångbara och introducerade begreppet pengars tidsvärde.
+reviewed: false

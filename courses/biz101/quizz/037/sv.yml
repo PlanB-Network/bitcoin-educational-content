@@ -1,0 +1,9 @@
+question: Vilken är den viktigaste fördelen med Bitcoin:s ekosystem för betalningar när det gäller att byta mellan olika lösningar?
+answer: Det är relativt enkelt att byta leverantör eller uppgradera verktyg, eftersom Bitcoin:s öppna, interoperabla standarder möjliggör sömlösa fondöverföringar.
+wrong_answers:
+  - När en leverantör väl har valts kan företaget aldrig byta till en annan lösning.
+  - Bitcoin-lösningar är proprietära och låsta till en enda leverantör.
+  - Byte av leverantör kräver myndighetsgodkännande och en långdragen juridisk process.
+explanation: |
+  Eftersom Bitcoin bygger på öppna protokoll kan handlare fritt flytta sina medel eller anta nya lösningar när de växer eller deras behov förändras. Denna flexibilitet säkerställer att företag kan välja de bästa verktygen utan att vara låsta till en viss leverantör.
+reviewed: false

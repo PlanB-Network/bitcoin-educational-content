@@ -1,0 +1,9 @@
+question: Lengo kuu la kuweka stacking ni nini?
+answer: Hatua kwa hatua kukusanya satoshi
+wrong_answers:
+  - Uvumi wa muda mfupi
+  - Kununua kiasi kikubwa cha satoshi mara moja
+  - Kutumia Bitcoin kwa malipo ya kila siku
+explanation: |
+  Mpangaji huwekeza kiasi kidogo kwa vipindi vya kawaida ili wastani wa bei ya ununuzi kwa wakati.
+reviewed: false

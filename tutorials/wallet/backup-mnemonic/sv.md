@@ -112,7 +112,7 @@ m / 86' / 0' / 0' /
 ![SEED](assets/fr/04.webp)
 
 
-Om du använder en Multisig Wallet eller en Wallet med komplexa skript inklusive återställningsnycklar, som de som erbjuds av programvaran Liana, är det viktigt att du sparar dina **Output Script Descriptors**. Dessa beskrivningar innehåller all information du behöver, utöver återställningsfraserna, för att få tillgång till dina bitcoins igen.
+Om du använder en Multisig Wallet eller en Wallet med komplexa skript inklusive återställningsnycklar, som de som erbjuds av programvaran Liana, är det viktigt att du sparar dina **Output Script Descriptors**. Dessa deskriptorer innehåller all information du behöver, utöver återställningsfraserna, för att återfå åtkomst till dina bitcoins.
 
 
 Du kan också komplettera din säkerhetskopia med ytterligare information som rör din Wallet-support. Notera till exempel PIN-koden som används för att låsa upp din Hardware Wallet, eller anti-phishing-orden om du använder ett COLDCARD.

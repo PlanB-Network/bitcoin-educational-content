@@ -1,0 +1,9 @@
+question: Bitcoin에서 짧은 지문을 generate하는 데 사용되는 Hash 기능의 조합은 무엇입니까?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160은 SHA256과 RIPEMD160을 generate 160비트 지문, 특히 Bitcoin 주소에 결합합니다.
+reviewed: false

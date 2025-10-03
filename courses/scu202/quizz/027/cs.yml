@@ -1,0 +1,9 @@
+question: Který grafický nástroj v Ubuntu usnadňuje správu pravidel brány firewall?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptické
+explanation: |
+  GUFW je grafický nástroj Interface pro bránu firewall UFW, který umožňuje aktivovat, deaktivovat a konfigurovat pravidla bez použití terminálu.
+reviewed: false

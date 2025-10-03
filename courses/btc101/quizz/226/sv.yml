@@ -1,0 +1,8 @@
+question: Vad är det huvudsakliga syftet med Lightning Network?
+answer: För att underlätta mikrotransaktioner.
+wrong_answers:
+  - För att öka värdet på Bitcoin.
+  - För att ersätta Bitcoin-protokollet.
+  - Att skapa en ny kryptovaluta.
+explanation: >-
+reviewed: true

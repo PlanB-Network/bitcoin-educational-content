@@ -1,0 +1,9 @@
+question: Какие шаги необходимо выполнить перед установкой UmbrelOS?
+answer: Создайте загрузочный USB-носитель с образом
+wrong_answers:
+  - Компиляция исходного кода Bitcoin core
+  - Форматирование Blockchain
+  - Создайте учетную запись на сайте umbrel.com
+explanation: |
+  Установка начинается с подготовки загрузочного USB-носителя с UmbrelOS с помощью Balena Etcher.
+reviewed: true

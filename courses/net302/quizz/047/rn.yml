@@ -1,0 +1,9 @@
+question: Ni irihe jambo ryerekeza ku bytes zitatu za mbere za MAC Address?
+answer: OUI (Ikimenyetso kidasanzwe c'ishirahamwe)
+wrong_answers:
+  - SID (Ikiranga Ikiganiro)
+  - LUI (Ikimenyetso kidasanzwe co mu karere)
+  - PAN (Igitigiri c'umubiri Address)
+explanation: |
+  OUI itangwa na IEEE kandi igaragaza uwukora ikarita y'urubuga muri MAC Address.
+reviewed: false

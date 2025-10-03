@@ -1,0 +1,9 @@
+question: कौन सा सिगैश फ्लैग एकल इनपुट और सभी आउटपुट को कवर करके क्राउडफंडिंग की अनुमति देता है?
+answer: SIGHASH_सभी | SIGHASH_कोई भी भुगतान कर सकता है
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_कोई भी भुगतान कर सकता है
+  - SIGHASH_SINGLE | SIGHASH_कोई भी भुगतान कर सकता है
+  - SIGHASH_ऑल
+explanation: |
+  SIGHASH_ALL को SIGHASH_ANYONECANPAY के साथ संयोजित करने पर आउटपुट को संशोधित किए बिना इनपुट जोड़ने की अनुमति मिलती है।
+reviewed: false

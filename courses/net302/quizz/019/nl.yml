@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van het IP-protocol in het TCP/IP-model?
+answer: Datapakketten van de ene host naar de andere brengen
+wrong_answers:
+  - Codering van netwerkcommunicatie beheren
+  - Zorg voor persistente verbindingen tussen applicaties
+  - MAC-adressen vertalen naar IP-adressen
+explanation: |
+  Het IP-protocol zorgt voor de logische adressering van apparaten en zorgt ervoor dat pakketten over onderling verbonden netwerken worden gerouteerd.
+reviewed: false

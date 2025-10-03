@@ -1,8 +1,9 @@
-question: Prema Bastijatu, koja je glavna karakteristika prave solidarnosti?
+question: Prema Bastiat-u, koja je glavna karakteristika prave solidarnosti?
 answer: To je dobrovoljno i nije propisano zakonom.
 wrong_answers:
   - Finansira se iz poreza
   - Namenjeno je zadovoljenju kolektivnih potreba
   - To je regulisano od strane države kako bi se sprečile zloupotrebe.
 explanation: |
-  Za Bastijata, prava solidarnost može proizaći samo iz dobrovoljnog Commitment, oslobođenog bilo kakve zakonske obaveze.
+  Za Bastiat-a, prava solidarnost može proizaći samo iz dobrovoljnog ugovora, oslobođenog bilo kakve zakonske obaveze.
+reviewed: true

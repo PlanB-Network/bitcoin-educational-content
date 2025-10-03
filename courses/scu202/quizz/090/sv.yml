@@ -1,0 +1,9 @@
+question: Vilken nätverksport används som standard för P2P-anslutningar i Bitcoin-huvudnätverket?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  Port 8333 är den standardport som används av Bitcoin-noder för peer-to-peer-anslutningar till Mainnet.
+reviewed: false

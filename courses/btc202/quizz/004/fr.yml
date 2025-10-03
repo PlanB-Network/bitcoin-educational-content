@@ -1,0 +1,9 @@
+question: C'est quoi un nœud Bitcoin ?
+answer: Un ordinateur exécutant un logiciel implémentant le protocole Bitcoin
+wrong_answers:
+  - Un portefeuille matériel implémentant le réseau Bitcoin
+  - Un mineur produisant de nouveaux blocs pour Bitcoin
+  - Un serveur central gérant le réseau Bitcoin et la confirmation des transactions
+explanation: |
+  Un nœud Bitcoin est une machine exécutant un logiciel comme Bitcoin Core qui implémente le protocole et participe au réseau.
+reviewed: false

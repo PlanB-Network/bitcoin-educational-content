@@ -1,0 +1,9 @@
+question: Vilken är enligt Bastiat den värsta formen av plundring?
+answer: Skatter och monopol
+wrong_answers:
+  - Stöld som begås av en individ mot en annan
+  - Krig och erövringar
+  - Alla former av plundring är lika dåliga
+explanation: |
+  Bastiat anser att skatter och monopol är den värsta formen av plundring eftersom de legitimeras av staten och leder till en systematisk tillägnelse av individers resurser och friheter, ofta under täckmantel av allmänintresset.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Vad är den viktigaste nyheten i P2WPKH-skript jämfört med P2PKH?
+answer: Underskrifterna flyttas till fältet Vittne.
+wrong_answers:
+  - Adresserna är kodade i base58check.
+  - ScriptPubKey innehåller Hash för den privata nyckeln.
+  - P2WPKH är oförenlig med SegWit.
+explanation: |
+  P2WPKH, som introducerades med SegWit, flyttar signaturer till ett separat avsnitt som kallas Witness för att förhindra att transaktioner kan manipuleras.

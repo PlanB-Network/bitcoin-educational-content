@@ -1,0 +1,9 @@
+question: Paranoyak kullanıcı hangi edinim yönteminden kaçınır?
+answer: KYC ile merkezi platformlar
+wrong_answers:
+  - P2P eşleştirme platformları
+  - Bitcoin ATM'ler
+  - Buluşmalarda doğrudan nakit alımlar
+explanation: |
+  Paranoyak kullanıcı, anonimliğini korumak için kimlik doğrulaması gerektiren platformlardan kaçınır
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken typ av likviditet måste en säljare på Lightning Network i första hand hantera för att ta emot betalningar?
+answer: Inkommande likviditet
+wrong_answers:
+  - Utgående likviditet
+  - En hög total kanalkapacitet
+  - En hög On-Chain-balans
+explanation: |
+  För att ta emot betalningar måste en säljare ha inkommande likviditet, vilket innebär att medel måste finnas tillgängliga på den motsatta sidan av kanalen för att de ska kunna ta emot betalningar.
+reviewed: false

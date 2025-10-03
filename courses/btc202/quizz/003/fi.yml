@@ -1,0 +1,9 @@
+question: Eric Voskuilin kirjassa Cryptoeconomics esittämän näkemyksen mukaan mihin Bitcoin:n turvallisuus perustuu?
+answer: Yksilöt
+wrong_answers:
+  - Blockchain:ssä
+  - Hash teho
+  - Tietoa kryptografiasta
+explanation: |
+  Eric Voskuil kertoo, että Bitcoin:n turvallisuus riippuu ennen kaikkea ihmisistä, jotka ottavat riskejä järjestelmän ylläpitämiseksi.
+reviewed: true

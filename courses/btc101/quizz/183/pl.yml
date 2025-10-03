@@ -1,8 +1,11 @@
-question: Jaki jest jeden powód, dla którego cena Bitcoin może spaść o 10%, 20%, a nawet 50% w ciągu zaledwie kilku dni?
-answer: Fazy hossy i bessy na rynku.
+question: Czym jest AMF?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Liczba osób korzystających z Internetu.
-  - Pogoda.
-  - Cena złota.
-explanation: >-
+  - Amerykański Fundusz Walutowy.
+  - Stowarzyszenie Placówek Mining.
+  - Zautomatyzowany przepływ pieniędzy.
+explanation: |
+  AMF, czyli Autorité des Marchés Financiers, jest francuską organizacją
+  organizacja, która reguluje platformy, na których można
+  kupić.
 reviewed: true

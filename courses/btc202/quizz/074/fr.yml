@@ -1,0 +1,9 @@
+question: Quelle structure de données résume les transactions d’un bloc ?
+answer: L’arbre de Merkle
+wrong_answers:
+  - La table hash UTXO
+  - Le fichier peers.dat
+  - Le registre assumeutxo
+explanation: |
+  Les transactions d’un bloc sont engagées dans un arbre de Merkle, dont la racine est incluse dans l’en-tête de bloc pour assurer l’intégrité.
+reviewed: false

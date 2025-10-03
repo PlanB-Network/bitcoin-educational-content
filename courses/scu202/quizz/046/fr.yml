@@ -1,0 +1,9 @@
+question: Lors de l’automatisation de vos sauvegardes, quelle précaution essentielle doit être prise régulièrement ?
+answer: Tester la restauration
+wrong_answers:
+  - Changer de fournisseur d’accès à Internet
+  - Désactiver les sauvegardes pendant les vacances
+  - Tester le chiffrement
+explanation: |
+  Il est important de restaurer régulièrement une sauvegarde pour s’assurer que les fichiers ne sont pas corrompus ou inaccessibles en cas de besoin.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Vilken var den strategi som USA använde 1933-1934 för att devalvera dollarn?
+answer: Regeringen beslagtog medborgarnas guld och ändrade sedan spelreglerna genom att omvärdera guldets värde till förmån för statskassan och till nackdel för dem som ursprungligen hade bytt ut sitt guld mot sedlar.
+wrong_answers:
+  - Regeringen ökade guldets Supply och ändrade sedan spelreglerna genom att devalvera guldets värde till förmån för statskassan och till nackdel för dem som ursprungligen hade bytt ut sitt guld mot sedlar.
+  - Regeringen beslagtog medborgarnas guld och ändrade sedan spelreglerna genom att devalvera guldets värde till förmån för statskassan och till nackdel för dem som ursprungligen hade bytt ut sitt guld mot sedlar.
+  - Regeringen ökade Supply av guld och ändrade sedan spelreglerna genom att omvärdera guldets värde till förmån för statskassan och till nackdel för dem som ursprungligen hade bytt ut sitt guld mot sedlar.
+explanation: |
+  År 1933 beslagtog den amerikanska regeringen medborgarnas guld. Sedan 1934, de
+  omvärderade de guldpriset till 35 dollar per uns, istället för 20,67 dollar. I grund och botten, den
+  devalverade regeringen den dollar som folk ägde. Genom att köpa guld från befolkningen
+  till 20,67 dollar per uns 1933, och sedan omvärdera guldpriset 1934, gjorde regeringen
+  gjorde regeringen en betydande vinst samtidigt som den devalverade sina medborgares besparingar
+reviewed: false

@@ -1,4 +1,4 @@
-question: What is the Italian merchant city that Henri Pirenne considers to be a cradle of emerging capitalism?
+question: What is the Italian merchant city that Henri Pirenne considers to be the cradle of emerging capitalism?
 answer: Venice.
 wrong_answers:
   - Genoa.
@@ -6,4 +6,4 @@ wrong_answers:
   - All of the above.
 explanation: |
   Henri Pirenne considers Venice to be a cradle of capitalism due to its central role in maritime trade and its early development of advanced commercial practices, such as partnerships and credit.
-reviewed: false
+reviewed: true

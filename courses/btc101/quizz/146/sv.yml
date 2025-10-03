@@ -1,0 +1,8 @@
+question: Vad är syftet med svårighetsjusteringen i Bitcoin Mining?
+answer: Det ombalanserar det globala Mining-spelet baserat på antalet deltagare.
+wrong_answers:
+  - Det ökar belöningen för Mining.
+  - Det minskar antalet bitcoins i omlopp.
+  - Det ökar säkerheten i Bitcoin-nätverket.
+explanation: >-
+reviewed: true

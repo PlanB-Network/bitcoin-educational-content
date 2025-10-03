@@ -3,7 +3,7 @@ answer: Zato što se mogu koristiti za povezivanje aktivnosti na lancu sa stvarn
 wrong_answers:
   - Zato što ih zlonamerni hakeri mogu lako hakovati.
   - Zato što mogu privući lažne ponude i izložiti vas fišing kampanjama.
-  - Zato što mogu omogućiti primenu zajedničkog ulaza Ownership heuristike.
+  - Zato što mogu omogućiti primenu heuristike zajedničkog vlsništva nad ulazima.
 explanation: |
   Deljenje Bitcoin adresa za primanje na internetu može se koristiti kao ulazna tačka za analizu lanca povezivanjem identiteta (stvarnog ili pseudonimnog) sa aktivnostima na lancu.
 reviewed: false

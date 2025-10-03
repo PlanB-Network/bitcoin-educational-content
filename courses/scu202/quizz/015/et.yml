@@ -1,0 +1,9 @@
+question: Mis on jooksva väljalaskmise peamine eelis?
+answer: Kasutage uusimat tarkvara
+wrong_answers:
+  - Suurem ühilduvus Windowsiga
+  - Interface graafikata keskkond
+  - Kohustuslik müügitoetus
+explanation: |
+  Jooksvad versioonid integreerivad pidevaid tarkvarauuendusi, tagades pideva juurdepääsu uusimatele versioonidele.
+reviewed: false

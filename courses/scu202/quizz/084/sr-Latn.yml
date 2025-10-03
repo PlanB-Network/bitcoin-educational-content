@@ -1,0 +1,9 @@
+question: Koja je glavna mana Signala kada je u pitanju anonimnost?
+answer: To zahteva korišćenje broja telefona
+wrong_answers:
+  - Nije otvorenog koda
+  - Čuva poruke na centralnom serveru
+  - Ne šifrira razmenjene datoteke
+explanation: |
+  Signal zahteva broj telefona za registraciju, što uvodi potencijalnu mogućnost praćenja iako protokol osigurava snažnu enkripciju.
+reviewed: false

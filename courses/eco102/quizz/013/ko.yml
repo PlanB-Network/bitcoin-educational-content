@@ -1,0 +1,9 @@
+question: 프레데릭 바스티아트가 말하는 가치의 기준은 무엇인가요?
+answer: 유틸리티
+wrong_answers:
+  - 노동
+  - 희소성
+  - 수요
+explanation: |
+  바스티아는 노동이나 희소성에 기초한 이론과 달리 효용이 가치의 기초라는 Say의 생각을 채택합니다.
+reviewed: false

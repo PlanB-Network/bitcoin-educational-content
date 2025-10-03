@@ -1,0 +1,9 @@
+question: ¿Qué herramienta de macOS permite cifrar todo el disco del sistema?
+answer: Bóveda de archivos
+wrong_answers:
+  - Utilidad de Discos
+  - llavero de iCloud
+  - BitLocker
+explanation: |
+  FileVault es la solución nativa de cifrado de disco integrada en macOS.
+reviewed: false

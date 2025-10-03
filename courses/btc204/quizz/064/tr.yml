@@ -1,0 +1,10 @@
+question: Bir Bitcoin Wallet ile ilişkili etiketler nasıl saklanır?
+answer: Yerel olarak Wallet yazılımında.
+wrong_answers:
+  - Geliştirici tarafından kontrol edilen merkezi bir veritabanında.
+  - Bitcoin Blockchain'ten bir OP_RETURN'e kadar.
+  - RAM'de yalnızca yazılımın yürütülmesi sırasında.
+explanation: |
+  Etiketler Wallet yazılımı tarafından yerel olarak saklanır ve asla Bitcoin ağı üzerinden iletilmez. Etiketleme bu nedenle bir kişisel yönetim aracıdır.
+  
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-term: State Transition
+term: STATE TRANSITION
 ---
 
-Dalam protokol RGB, State Transition adalah operasi yang digunakan untuk mengubah status Contract ke konfigurasi baru. Operasi ini dapat memodifikasi data Global State dan Owned States. Setiap transisi diperiksa secara ketat sesuai dengan aturan yang ditetapkan dalam Schema Contract, yang menjamin bahwa modifikasi mematuhi batasan yang ditetapkan dalam Genesis. Operasi ini berlabuh di Blockchain Bitcoin melalui Commitment.
+Dalam protokol RGB, _State Transition_ adalah operasi yang digunakan untuk mengubah status _Contract_ ke konfigurasi baru. Operasi ini dapat memodifikasi data _Global State_ dan _Owned States_. Setiap transisi diperiksa secara ketat sesuai dengan aturan yang ditetapkan dalam Schema _Contract_, yang menjamin bahwa modifikasi mematuhi batasan yang ditetapkan dalam Genesis. Operasi ini berlabuh di _Blockchain_ Bitcoin melalui _Commitment_.

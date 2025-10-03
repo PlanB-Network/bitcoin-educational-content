@@ -11,7 +11,7 @@ I dag är det viktigt att ha en strategi för att säkerställa tillgänglighet,
 För att förhindra dessa problem rekommenderar jag att du gör flera säkerhetskopior av dina filer på olika medier. En vanlig strategi inom databehandling är "3-2-1"-backupstrategin, som säkerställer att dina filer skyddas:
 
 
-- 3** kopior av dina filer;
+- 3 **kopior** av dina filer;
 - Sparas på minst **2** olika typer av media;
 - Med minst **1** kopia som förvaras utanför webbplatsen.
 
@@ -113,7 +113,7 @@ Alla dina filer säkerhetskopieras och synkroniseras alltså både lokalt på di
 
 Om du har följt de föregående stegen har du nu två olika platser för säkerhetskopiering av dina viktiga filer. För att slutföra vår 3-2-1 backup-strategi måste vi lägga till en tredje kopia.
 
-Jag föreslår att du utför denna extra säkerhetskopiering på ett externt medium, t.ex. en extern Hard-enhet eller ett USB-minne. Beroende på hur intensiv din användning är ställer du in en lämplig uppdateringsfrekvens för säkerhetskopieringen (veckovis, månadsvis, halvårsvis ...). Vid varje valt intervall måste du ladda ner hela din Proton Drive för att säkerhetskopiera data på det valda externa mediet. På så sätt kommer du, även om din dator skulle bli stulen och Protons servrar samtidigt förstöras, att ha säker tillgång till dina filer tack vare kopian på USB-minnet.
+Jag föreslår att du utför denna extra säkerhetskopiering på ett externt medium, t.ex. en extern Hard-enhet eller ett USB-minne. Beroende på hur intensiv din användning är ställer du in en lämplig uppdateringsfrekvens för säkerhetskopiering (veckovis, månadsvis, halvårsvis ...). Vid varje valt intervall måste du ladda ner hela din Proton Drive för att säkerhetskopiera data på det valda externa mediet. På så sätt kommer du, även om din dator skulle bli stulen och Protons servrar samtidigt förstöras, att ha säker tillgång till dina filer tack vare kopian på USB-minnet.
 
 
 För att göra detta, gå till din Proton Drive.

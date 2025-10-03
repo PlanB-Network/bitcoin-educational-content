@@ -1,0 +1,9 @@
+question: Wat kun je doen op de Have I Been Pwned-website?
+answer: Controleer of een e-mail Address is gecompromitteerd.
+wrong_answers:
+  - generate nieuwe, sterke en willekeurige wachtwoorden.
+  - Maak een beveiligde e-mailinbox.
+  - Synchroniseer e-mailaccounts voor eenvoudiger gebruik.
+explanation: |
+  Deze site helpt bij het opsporen van datalekken en controleert de veiligheid van een e-mail Address.
+reviewed: true

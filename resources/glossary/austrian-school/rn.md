@@ -1,0 +1,5 @@
+---
+term: ISHURE RY'ABA OSITERIYA
+---
+
+Ishure ry’ivyiyumviro ry’ubutunzi rivuga ko isoko ari ihuriro ry’imigenderanire y’abantu ku bushake, rishimika ku kamere k’urutonde rw’ubutunzi rwihuta, kandi riganegura ingene Leta igira ico ikoze. Ishure ry’i Otirishiya riharanira uruhara rw’umutungo w’abantu ku giti cabo, umwidegemvyo wo gukora amasezerano, n’ubudandaji bwigenga, mu gihe rinegura ingaruka mbi z’uguhingura amahera ku bukungu. Abayifashije, nka Carl Menger, Ludwig von Mises, na Friedrich Hayek, barateguye ivyiyumviro nk’uguhingura igiciro, igikorwa c’amahera, uguhinduka kw’umutungo kamere, n’inyigisho y’agaciro. Ishure ry’i Otirishiya rinegura ubusosiyalisimu kubera butashobora gukora neza imibare y’ubutunzi kandi ritera imbere uburyo bwo kwidegemvya, bw’isoko ry’ubwigenge. Ibona ko Leta igira ico ikoze ari co gituma habaho ubusumbasumbane mu vy’ubutunzi. Benshi mu ba Bitcoiners baravugana n’ubutunzi bwa Otirishiya, babona Bitcoin nk’igikoresho gihuye n’ingingo ngenderwako zaco kubera kamere yaco yegerejwe, gutanga amahera adahinduka, n’ukwigenga ku butegetsi bwa Leta.

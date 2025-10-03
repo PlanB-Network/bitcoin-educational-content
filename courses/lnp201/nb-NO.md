@@ -86,7 +86,7 @@ La oss ta et eksempel på en Lightning-transaksjon. Hvis Alice ønsker å sende 
 
 **Kanalkapasiteten**, på 130 000 satoshis, forblir konstant. Det som endres er tildelingen av midler. Dette systemet tillater ikke å sende flere midler enn det man eier. For eksempel, hvis Bob ønsket å sende tilbake 80 000 satoshis til Alice, kunne han ikke, fordi han bare har 70 000.
 
-En annen måte å forestille seg tildelingen av midler på er å tenke på en **glidebryter** som indikerer hvor midlene er i kanalen. I utgangspunktet, med 100 000 satoshis for Alice og 30 000 for Bob, er glidebryteren logisk på Alices side. Etter transaksjonen på 40 000 satoshis, vil glidebryteren flytte seg litt mot Bobs side, som nå har 70 000 satoshis.
+En annen måte å forestille seg fordelingen av midlene på, er å tenke seg en **markør** som viser hvor midlene er i kanalen. I starten, med 100 000 satoshier til Alice og 30 000 til Bob, er markøren mest på Bobs side, siden Alice har langt flere midler. Etter transaksjonen på 40 000 satoshier vil markøren flytte seg litt mot Alice, som nå har 60 000 satoshier.
 
 ![LNP201](assets/en/04.webp)
 
@@ -536,12 +536,12 @@ For å bedre forstå hvordan avgifter fungerer, la oss studere det samme Lightni
 For den samme betalingen på **40,000 satoshier** til Bob, må Alice sende litt mer, ettersom hver mellomliggende node vil trekke fra sine avgifter:
 
 - **Carol** trekker fra 1.04 satoshier på kanalen med Bob:
-  $$ f*{\text{Carol-Bob}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** trekker fra 8 satoshier i avgifter på kanalen med Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{grunnavgift} + \left(\frac{\text{ppm} \times \text{beløp}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 De totale avgiftene for denne betalingen på denne ruten er derfor **9.04 satoshier**. Dermed må Alice sende **40,009.04 satoshier** for at Bob skal motta nøyaktig **40,000 satoshier**.
 

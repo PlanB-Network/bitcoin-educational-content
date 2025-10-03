@@ -1,0 +1,9 @@
+question: Vilken tysk Miner höll 20% av Bitcoin-nätverkets Hash-tariff under flera månader 2010?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Han satte upp en Mining-farm bestående av grafikkort (kallad ArtFarm) under sommaren 2010 och fick därmed ett betydande försprång gentemot sina konkurrenter under hösten.
+reviewed: true

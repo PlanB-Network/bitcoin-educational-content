@@ -1,0 +1,10 @@
+question: Vilka färdigheter behövs inom cybersäkerhet?
+answer: Logganalys, incidenthantering
+wrong_answers:
+  - Grafisk design, videoredigering
+  - Försäljning, marknadsföring
+  - Matlagning, bakning
+explanation: |
+  I kapitlet nämns logganalys och incidenthantering som
+  några av de färdigheter som behövs inom cybersäkerhet.
+reviewed: true

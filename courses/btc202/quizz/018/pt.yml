@@ -1,0 +1,9 @@
+question: Qual é a implementação do nó Bitcoin mais utilizada?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Clássico
+  - Bcoin
+explanation: |
+  Com cerca de 9 em cada 10 nós na rede, a Bitcoin core é o cliente maioritário.
+reviewed: true

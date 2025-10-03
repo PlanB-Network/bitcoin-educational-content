@@ -1,0 +1,13 @@
+question: Varför kan inte guld prestera bra i en globaliserad och digital värld?
+answer: Eftersom det behövs en central enhet för att göra den delbar och lätt att byta ut.
+wrong_answers:
+  - För att den inte är tillräckligt värdefull.
+  - För att det inte är tillräckligt sällsynt.
+  - För att det eroderar med tiden.
+explanation: |
+  Guld kan inte hänga med i en globaliserad och digital värld
+  eftersom det behöver en central enhet för att göra det delbart och
+  lätt utbytbart. Detta gör det mindre praktiskt att använda i
+  en värld där transaktionerna blir alltmer digitala och
+  decentraliserade.
+reviewed: true

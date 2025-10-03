@@ -1,9 +1,9 @@
-question: Šta je UTXO na Bitcoin?
-answer: Deo Bitcoin koji još nije potrošen.
+question: Šta je UTXO na Bitcoin-u?
+answer: Deo bitcoina koji još nije potrošen.
 wrong_answers:
-  - A Bitcoin Address da primi sredstva.
-  - Poseban tip Bitcoin Wallet.
-  - Algoritam za šifrovanje za Bitcoin.
+  - Bitcoin adresa za primanje sredstava
+  - Poseban tip Bitcoin novčanika.
+  - Algoritam za Bitcoin šifrovanje.
 explanation: |
-  UTXO je neutrošeni izlaz transakcije, tako da je u suštini „deo Bitcoin“.
+  UTXO je neutrošeni izlaz transakcije, tako da je u suštini „deo bitcoina“.
 reviewed: false

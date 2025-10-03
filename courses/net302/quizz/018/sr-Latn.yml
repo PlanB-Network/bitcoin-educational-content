@@ -1,0 +1,9 @@
+question: Šta je datagram u kontekstu IP protokola?
+answer: Samostalni blok podataka prenet preko mreže
+wrong_answers:
+  - Šifrovana poruka namenjena jednom uređaju
+  - TCP segment inkapsuliran u UDP
+  - Fizički signal sa Network Access Layer
+explanation: |
+  IP podaci se prenose u obliku datagrama, nezavisnih blokova koji sadrže sve informacije potrebne za isporuku.
+reviewed: false

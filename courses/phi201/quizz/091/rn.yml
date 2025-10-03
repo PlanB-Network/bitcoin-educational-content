@@ -1,0 +1,9 @@
+question: Ni umuti uwuhe Tocqueville yashikirije kugira ngo umuntu yirinde akaga ko kungana?
+answer: Guteza imbere amashirahamwe y’abanyagihugu na demokarasi yo mu karere.
+wrong_answers:
+  - Gukomeza ububasha bwa Leta hagati.
+  - Kugabanya ubusumbane mu vy’ubutunzi no mu mibano.
+  - Ibindi bisubizo vyose ni ukuri.
+explanation: |
+  Tocqueville asaba gukomeza amashirahamwe y’abanyagihugu na demokarasi yo mu karere kugira ngo barwanye ingaruka zimwe z’uburinganire, kuko ivyo biremesha abanyagihugu kugira uruhara n’umwete kandi bikazigama ubudasa bw’imigambi yo mu karere.
+reviewed: true

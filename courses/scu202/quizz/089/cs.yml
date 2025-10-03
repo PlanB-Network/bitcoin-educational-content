@@ -1,0 +1,9 @@
+question: Která mapovací služba umožňuje zcela offline použití a neobsahuje sledování reklam?
+answer: Organické mapy
+wrong_answers:
+  - Mapy Google
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps je open source aplikace založená na OpenStreetMap, která na rozdíl od proprietárních alternativ funguje offline, bez sledovacích zařízení a sběru dat.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que operação garante que o software descarregado não foi modificado desde a sua publicação oficial?
+answer: Verificação da integridade através do Hash
+wrong_answers:
+  - Verificação da autenticidade através da assinatura do programador
+  - Análise de software através de uma firewall
+  - Executar o programa no modo de segurança
+explanation: |
+  A verificação da integridade baseia-se na comparação do Hash do ficheiro descarregado com o publicado pelo programador. Qualquer alteração ao ficheiro modifica este Hash.
+reviewed: false

@@ -1,0 +1,9 @@
+question: グローバルDNSが登場する以前、ローカル解決に使われていた歴史的なファイルはどれか？
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  DNSが普及する前は、名前解決はUnix/Linuxシステムの静的な/etc/hostsファイルに依存していた。
+reviewed: false

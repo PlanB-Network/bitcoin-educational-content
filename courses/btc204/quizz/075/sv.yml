@@ -1,0 +1,10 @@
+question: Vad är huvudsyftet med en CoinJoin-transaktion?
+answer: För att bryta ett mynts historia.
+wrong_answers:
+  - För att minska transaktionsavgifterna.
+  - För att göra bitcoins oupptäckbara.
+  - För att öka bekräftelsehastigheten.
+explanation: |
+  Målet med en CoinJoin-transaktion är att bryta ett mynts historia. Denna teknik ger inte permanent anonymitet och blockerar inte heller definitivt spårningen av bitcoins, i motsats till vad man skulle kunna tro. CoinJoin syftar endast till att bryta historiken vid den punkt där CoinJoin-transaktionen görs.
+  
+reviewed: false

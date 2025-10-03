@@ -1,0 +1,9 @@
+question: Wat is de grens van staatssoevereiniteit volgens John Stuart Mill?
+answer: De staat kan alleen ingrijpen als de acties van een individu anderen schaden.
+wrong_answers:
+  - De staat is onder alle omstandigheden soeverein en kan niet worden beperkt door een individu of een groep individuen.
+  - Staatssoevereiniteit wordt beperkt door economische middelen.
+  - Staatssoevereiniteit wordt beperkt door de natuurwetten.
+explanation: |
+  John Stuart Mill stelt dat staatsinterventie alleen legitiem is als de acties van een individu schade toebrengen aan anderen, om persoonlijke vrijheid te beschermen op gebieden die anderen niet schaden.
+reviewed: true

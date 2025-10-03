@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye hagati ya IPv4 Address ya bose n'IPv4 Address y'abantu ku giti cabo?
+answer: Address ya bose ni iyo kwihariza kandi irashobora gukoreshwa kuri Internet .
+wrong_answers:
+  - Address y’ibanga ni iyo kwihariza kandi irashobora gukoreshwa kuri Internet .
+  - Address ya bose yama itangwa na DHCP
+  - Address y'ibanga yama itangwa na DHCP
+explanation: |
+  IPv4 Address ya bose ni iyo kwihariza kw’isi yose kandi ishobora gukoreshwa kuri Internet, mu gihe Address y’abantu ku giti cabo ikora gusa mu muhora wo mu karere.
+reviewed: false

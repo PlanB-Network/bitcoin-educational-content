@@ -1,0 +1,9 @@
+question: Vem grundade det första Mining-kooperativet för att producera ett block på Bitcoin?
+answer: dubbelc
+wrong_answers:
+  - slask
+  - puddinpop
+  - m0mchil
+explanation: |
+  Han marknadsförde det den 1 december. Blocket [hittades](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) den 4 december 2010. Å andra sidan lanserades Slushs kooperativ den 16 december.
+reviewed: true

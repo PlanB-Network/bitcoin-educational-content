@@ -1,0 +1,9 @@
+question: Vilka är de två huvudkomponenterna i en smart Contract State i RGB?
+answer: Global State och ägda stater
+wrong_answers:
+  - Commitment och Genesis
+  - Seal Definition och State Transition
+  - Valency och Contract Rights
+explanation: |
+  Global State innehåller offentliga data, medan Owned States är associerade med specifika innehavare via UTXO:er.
+reviewed: false

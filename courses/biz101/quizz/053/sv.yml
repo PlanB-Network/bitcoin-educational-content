@@ -1,0 +1,9 @@
+question: Vilka viktiga betalningsuppgifter måste dokumenteras för varje Bitcoin-transaktion?
+answer: Datum, belopp, motsvarande fiat-värde och tillhörande adresser
+wrong_answers:
+  - transaction ID, nätverksavgift och handlarens Address
+  - Datum, Exchange-ränta, Wallet-typ och geografisk plats
+  - Blocknumret Bitcoin, Timestamp och det använda skriptet
+explanation: |
+  Genom att dokumentera dessa detaljer säkerställs tydlighet och hjälper revisorerna att skilja mellan inkommande och utgående flöden.
+reviewed: false

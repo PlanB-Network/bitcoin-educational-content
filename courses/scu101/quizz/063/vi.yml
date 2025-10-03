@@ -1,9 +1,9 @@
-question: Những khía cạnh nào của mật mã học được sử dụng trong an ninh mạng?
-answer: SSL/TLS, mã hóa đối xứng/phi đối xứng
+question: Chứng chỉ nào được công nhận trên toàn thế giới trong lĩnh vực an ninh mạng?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Chương này liệt kê SSL/TLS và mã hóa đối xứng/phi đối xứng là một số khía cạnh của mật mã học được sử dụng trong an ninh mạng.
-reviewed: true
+  Chứng chỉ CISSP là một trong những chứng chỉ được công nhận rộng rãi nhất trên thế giới trong lĩnh vực an ninh mạng.
+reviewed: false

@@ -1,10 +1,8 @@
-question: Kada je Lightning Network prvi put validiran i implementiran?
-answer: 2017
+question: Kolika je veličina bloka u Bitkoin protokolu?
+answer: 1MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Lightning Network je prvi put validiran i implementiran
-  2017.
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
 reviewed: true

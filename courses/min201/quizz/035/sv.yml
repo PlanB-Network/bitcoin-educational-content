@@ -1,0 +1,11 @@
+question: Vad mäter Hashrate i Bitcoin-nätverket?
+answer: Beräkningar per sekund
+wrong_answers:
+  - Antalet transaktioner per sekund
+  - Antal aktiva noder
+  - Mängden el som förbrukas av nätet
+explanation: |
+  Hashrate i Bitcoin-nätverket mäter antalet beräkningar som
+  beräkningar som kan utföras per sekund. Det är en viktig
+  nyckelindikator för nätverkets hälsa och säkerhet.
+reviewed: true

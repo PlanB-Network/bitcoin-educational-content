@@ -1,0 +1,14 @@
+question: Vad är det framtida problemet när det gäller användningen av Bitcoin-blockutrymmet?
+answer: Den framtida farhågan är att med den förväntade tillväxten av Lightning Network och den därav följande ökningen av kanalöppningar och stängningar, kommer utrymme i Bitcoin-block att bli alltmer värdefullt.
+wrong_answers:
+  - Det som oroar i framtiden är att storleken på Bitcoin-blocken kommer att bli för stor för att kunna hanteras.
+  - I framtiden kommer antalet Bitcoin-block att överstiga nätverkets kapacitet.
+  - Det som oroar i framtiden är att komplexiteten i Bitcoin-blocken kommer att öka, vilket gör dem svåra att bearbeta.
+explanation: |
+  Med den förväntade tillväxten av Lightning Network och den
+  och den därav följande ökningen av öppningar och stängningar av kanaler
+  i Bitcoin-block bli alltmer värdefullt. Detta
+  har lett till diskussioner om den legitima användningen av blockutrymme
+  blockutrymme, med oro för spam på Blockchain från transaktioner som
+  transaktioner som anses vara icke väsentliga.
+reviewed: true

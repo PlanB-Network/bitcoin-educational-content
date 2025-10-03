@@ -1,0 +1,9 @@
+question: Ni igikorwa nyamukuru ikihe seed ikora mu bijanye n’iminyororo y’ibinyoma?
+answer: Kugira ngo bibe intango yo gutuma haba uruzitiro rurerure
+wrong_answers:
+  - Gusobanura uburebure buhoraho bw'uruzitiro rw'ibinyoma
+  - Kugenzura ubutungane bw'uruzitiro rw'ibinyoma
+  - Kwongera ugusangira kumwe ku gaciro k'uruzitiro
+explanation: |
+  seed ni urudodo rugufi rukoreshwa nk’intango n’ubuhinga bwo kwagura gushika kuri generate urudodo rurerure rw’ibinyoma.
+reviewed: false

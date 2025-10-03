@@ -1,0 +1,9 @@
+question: Ni itegeko irihe rya Linux ryerekana imbonerahamwe y’inzira y’urubuga ikora?
+answer: ip yerekana inzira
+wrong_answers:
+  - niba imiterere -a
+  - inzira ya ping
+  - urusenga -s
+explanation: |
+  ip route show itanga urutonde rw'inzira zizwi kuri kernel n'inzira zifatwa n'amapakete ya IP.
+reviewed: false

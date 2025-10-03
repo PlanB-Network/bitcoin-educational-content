@@ -1,0 +1,9 @@
+question: Naar welke domeinnaam is het Bitcoin forum verhuisd op 1 augustus 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Na de verhuizing naar forum.Bitcoin.org op 17 mei, schakelde het vanaf 1 augustus over naar de URL bitcointalk.org. In de loop der jaren zou het bekend worden als BitcoinTalk.
+reviewed: true

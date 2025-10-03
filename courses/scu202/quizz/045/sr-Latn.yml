@@ -1,0 +1,9 @@
+question: Koji macOS alat omogućava potpunu enkripciju sistemskog diska?
+answer: FileVault
+wrong_answers:
+  - Disk Utility
+  - iCloud Keychain
+  - BitLocker
+explanation: |
+  FileVault je izvorno rešenje za šifrovanje diska integrisano u macOS.
+reviewed: false

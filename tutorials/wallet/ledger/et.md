@@ -6,6 +6,10 @@ description: Kuidas seadistada oma Ledger Nano S seadet
 
 ![pilt](assets/cover.webp)
 
+*Ledger teatas klassikalise Nano S tarkvaratoe lõpetamisest alates 25. juunist 2025: see seade ei saa enam turvavärskendusi ega ühildu uusi funktsioone, mistõttu puutuvad kasutajad kokku võimalike turvaaukude ja tulevikus ühilduvuse probleemidega. Fondidele on siiski juurdepääs mnemoonilise fraasi abil, kuid soovitatakse tungivalt üle minna uuemale mudelile, et tagada oma bitcoinide turvalisus ja pikaajaline ligipääs. Tähelepanu, siin on jutt **vanast Nano S-ist**, mitte **Nano S Plus**-ist, mis jätkab tuge.*
+
+___
+
 Külm füüsiline rahakott – 60€ – Algaja – Turvamaks 2000€ kuni 50 000€
 
 Ledger on Prantsuse lahendus bitcoinide turvaliseks hoidmiseks lihtsal viisil.

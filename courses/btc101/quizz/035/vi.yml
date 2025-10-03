@@ -1,9 +1,9 @@
-question: Fiat money có nghĩa là gì?
-answer: Fiat money là loại tiền tệ có giá trị bởi vì chính phủ duy trì và mọi người tin tưởng vào giá trị của nó, thay vì được bảo đảm bởi một hàng hóa vật lý như vàng.
+question: Một nhược điểm tiềm ẩn của tiền tệ số do ngân hàng trung ương phát hành (CBDCs) là gì?
+answer: Chúng có thể hạn chế tự do tài chính của cá nhân và tạo điều kiện cho việc lạm dụng quyền lực chuyên chế.
 wrong_answers:
-  - Fiat money là tiền tệ được bảo đảm bởi một hàng hóa vật lý, như vàng hoặc bạc, có nghĩa là giá trị của nó trực tiếp liên kết với giá trị của hàng hóa đó.
-  - Fiat money là một loại tiền mã hóa hoạt động trên một mạng lưới phi tập trung, cho phép giao dịch ngang hàng mà không cần đến một cơ quan trung ương.
-  - Fiat money là tiền tệ không có giá trị nội tại và không thể sử dụng cho các giao dịch, làm cho nó cơ bản không có giá trị trong nền kinh tế.
-explanation:
-  Fiat money được thiết lập là tiền tệ hợp pháp thông qua sắc lệnh của chính phủ, và giá trị của nó không được suy ra từ bất kỳ hàng hóa vật lý nào.
+  - Chúng có thể dẫn đến sự giảm lượng tiền trong lưu thông.
+  - Chúng có thể dẫn đến sự giảm giá trị của Bitcoin.
+  - Chúng có thể dẫn đến sự giảm giá trị của vàng.
+explanation: |
+  Tiền tệ số do ngân hàng trung ương phát hành (CBDCs) có thể tiềm ẩn hạn chế tự do tài chính của cá nhân và tạo điều kiện cho việc lạm dụng quyền lực chuyên chế. Điều này là bởi vì chúng sẽ cung cấp một nền kinh tế được lập kế hoạch trung ương một cách chặt chẽ hơn, với ngân hàng trung ương có nhiều quyền kiểm soát hơn đối với lượng tiền trong lưu thông.
 reviewed: true

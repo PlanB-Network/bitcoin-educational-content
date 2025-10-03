@@ -1,0 +1,13 @@
+question: Vad är den rekommenderade användningen av en Multisig Wallet?
+answer: Förvaring av stora mängder för företagsbruk.
+wrong_answers:
+  - Förvaring av små mängder för personligt bruk.
+  - Lagring av medelstora belopp för icke-vinstdrivande ändamål.
+  - Förvaring av dagliga utgifter för individuellt bruk.
+explanation: |
+  En Multisig Wallet rekommenderas för lagring av stora mängder
+  och för företagsanvändning eftersom det krävs flera
+  signaturer för att utföra en transaktion. Denna process ger en
+  gW-4 extra säkerhet, eftersom en enskild person inte kan
+  genomföra en transaktion utan godkännande från andra.
+reviewed: true

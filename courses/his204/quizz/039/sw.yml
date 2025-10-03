@@ -1,0 +1,8 @@
+question: Je, mduara wa Gournay ulikuwa katika muongo gani?
+answer: Muongo wa 1750
+wrong_answers:
+  - Miaka ya 1740
+  - Miaka ya 1760
+  - Miaka ya 1770
+explanation: |
+  Mduara wa Gournay ulikuwa hai katika miaka ya 1750, kipindi cha uchachushaji wa kiakili nchini Ufaransa.

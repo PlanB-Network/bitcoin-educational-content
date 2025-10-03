@@ -1,5 +1,5 @@
 ---
-term: Transition Bundle
+term: TRANSITION BUNDLE
 ---
 
-Dalam protokol RGB, sebuah Transition Bundle adalah pengelompokan State Transition yang termasuk dalam Contract yang sama, semuanya secara bersamaan terlibat dalam satu Witness Transaction Bitcoin. Mekanisme ini memungkinkan untuk mengkonsolidasikan beberapa pembaruan atau transfer dalam satu titik On-Chain Anchor, untuk mengoptimalkan penggunaan ruang blok.
+Dalam protokol RGB, sebuah _Transition Bundle_ adalah pengelompokan _State Transition_ yang termasuk dalam _Contract_ yang sama, semuanya secara bersamaan terlibat dalam satu _Witness_ Transaksi Bitcoin. Mekanisme ini memungkinkan untuk mengkonsolidasikan beberapa pembaruan atau transfer dalam satu titik _On-Chain Anchor_, untuk mengoptimalkan penggunaan ruang blok.

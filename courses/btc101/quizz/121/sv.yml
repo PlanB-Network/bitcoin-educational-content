@@ -1,0 +1,11 @@
+question: När du skapar en arvsplan, vad är inte nödvändigt att ta med?
+answer: Namnet på den Bitcoin Wallet som du vanligtvis använder.
+wrong_answers:
+  - Ett handskrivet brev med en förteckning över dina tillgångar.
+  - En beskrivning av hur du får tillgång till dina medel.
+  - Kontaktuppgifter till personer som du litar på.
+explanation: |
+  att skapa en arvsplan är ett avgörande steg för att säkerställa att dina bitcoins kommer att hanteras korrekt efter din död.
+  Denna plan kan innehålla ett handskrivet brev som listar dina tillgångar,
+  deras åtkomstmetoder och kontaktuppgifter till betrodda personer som ska kontaktas
+reviewed: true

@@ -1,0 +1,10 @@
+question: Hiperenflasyonun paranın değeri üzerindeki etkisi nedir?
+answer: Paranın hızla değer kaybetmesine neden olur.
+wrong_answers:
+  - Paranın değerinin artmasına neden olur.
+  - Paranın değeri üzerinde hiçbir etkisi yoktur.
+  - Paranın değerinin öngörülemeyen bir şekilde dalgalanmasına neden olur.
+explanation: |
+  Hiperenflasyon döneminde para hızla değer kaybeder ve bu da
+  uzun vadeli planlamayı zorlaştırmaktadır.
+reviewed: false

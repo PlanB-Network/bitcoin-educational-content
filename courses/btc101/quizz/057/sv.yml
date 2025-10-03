@@ -1,0 +1,12 @@
+question: Vad är kommandot för att verifiera mängden bitcoins i omlopp på en Bitcoin-nod?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli hämta nätverksinfo.
+explanation: |
+  Kommandot för att verifiera antalet bitcoins i omlopp
+  cirkulation på en Bitcoin nod är bitcoin-cli
+  gettxoutsetinfo. Detta kommando ger transparens och
+  verifierbarhet, vilket stärker förtroendet för Bitcoin-systemet.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaki jest menedżer pakietów używany przez Debiana i Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian i Ubuntu używają menedżera pakietów APT, opartego na formacie .deb, do zarządzania instalacją i aktualizacją oprogramowania.
+reviewed: false

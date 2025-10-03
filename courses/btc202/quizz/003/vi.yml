@@ -1,0 +1,9 @@
+question: Theo Eric Voskuil trong cuốn sách Cryptoeconomics, tính bảo mật của Bitcoin dựa trên điều gì?
+answer: Về cá nhân
+wrong_answers:
+  - Trên Blockchain
+  - Về nguồn điện Hash
+  - Về mật mã
+explanation: |
+  Eric Voskuil giải thích rằng tính bảo mật của Bitcoin phụ thuộc chủ yếu vào những người chấp nhận rủi ro để duy trì hệ thống.
+reviewed: true

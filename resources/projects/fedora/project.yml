@@ -1,0 +1,26 @@
+id: 06872ec5-37f5-4927-a57c-e4c4e3452c1a
+name: Fedora
+
+links:
+  website: https://fedoraproject.org/
+  twitter: https://x.com/fedora
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - privacy
+  - software
+  - personal-security
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-13
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -1,0 +1,9 @@
+question: Mbega iciyumviro c'"ibikoko vy'imashini" coba gishingiye kuri?
+answer: Dekarite.
+wrong_answers:
+  - Sipinoza.
+  - Galilée.
+  - Eyinishiteni.
+explanation: |
+  Iciyumviro c’ibikoko vy’imashini kivugwa na Descartes. Dukurikije iyo nyigisho, ibikoko ni ibihimba vy’umubiri bikomeye cane bitagira ubugingo canke umutima, bikora gusa bishingiye ku ngingo ngenderwako z’ubuhinga.
+reviewed: false

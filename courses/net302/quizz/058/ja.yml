@@ -1,0 +1,9 @@
+question: RHELのようなシステムで静的ネットワークInterfaceを定義する設定ファイルはどれですか？
+answer: ifcfg-[Interface]。
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  RHEL、CentOS、および同様のシステムでは、各Interfaceは、/etc/sysconfig/network-scripts/にある独自のifcfg-*ファイルを持っている。
+reviewed: false

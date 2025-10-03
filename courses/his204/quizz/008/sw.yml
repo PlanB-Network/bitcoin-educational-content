@@ -1,0 +1,8 @@
+question: Ni aina gani ya kodi ambayo Vauban alitetea katika maandishi yake?
+answer: Ushuru wa uwiano lazima kila mtu atoe asilimia sawa ya mapato yake kwa Serikali
+wrong_answers:
+  - Ushuru unaoendelea kiwango cha ushuru kwa matajiri lazima kiwe juu zaidi kuliko cha maskini
+  - Kodi ya kiwango cha gorofa bila kujali mapato yako, unalipa kiasi sawa kila mwaka kwa serikali
+  - Viwango vya kodi vya regressive vya kodi kwa maskini lazima viwe vya juu zaidi kuliko vya matajiri
+explanation: |
+  Vauban alitetea kodi ya uwiano, "zaka ya kifalme", ​​ambayo ilihusisha kutoza sehemu ya kumi (10%) ya mapato ya Wafaransa wote, bila kujali hali yao ya kijamii. Aliamini kodi hii itakuwa ya haki na yenye ufanisi zaidi kuliko mfumo wa kodi uliopo.

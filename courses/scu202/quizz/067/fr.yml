@@ -1,0 +1,9 @@
+question: À quoi sert principalement un VPN lors de la navigation sur un réseau Wi-Fi public ?
+answer: Chiffrer le trafic entre l’appareil et le serveur VPN
+wrong_answers:
+  - Rendre anonyme la connexion Internet
+  - Installer automatiquement les mises à jour
+  - Générer des mots de passe robustes
+explanation: |
+  Un VPN chiffre tout le trafic réseau, ce qui protège vos données d’éventuelles interceptions sur les réseaux non sécurisés comme le Wi-Fi public.
+reviewed: false

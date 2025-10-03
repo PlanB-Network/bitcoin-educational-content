@@ -1,0 +1,9 @@
+question: Ni njia gani inatumika kulinda ufuatiliaji wa On-Chain wa miamala?
+answer: Kwa kutumia mbinu za CoinJoin na PayJoin
+wrong_answers:
+  - Kutumia tena kupokea Address sawa
+  - Ujumuishaji wa mara kwa mara wa UTXO
+  - Kuweka kwenye Wallet iliyohifadhiwa
+explanation: |
+  Saini na viungo vya malipo husaidia kuboresha faragha ya shughuli za On-Chain.
+reviewed: false

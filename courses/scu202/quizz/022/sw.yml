@@ -1,0 +1,9 @@
+question: Ni usambazaji gani unaotumia mazingira ya eneo-kazi la Cinnamon kwa chaguo-msingi?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Mdalasini ilitengenezwa na timu ya Linux Mint ili kutoa Interface ya kisasa, ya kawaida, karibu na Windows.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Vad innebär avsaknaden av en Mnemonic-fras i en Wallet?
+answer: Det indikerar att Wallet inte är säker för långtidslagring av Bitcoin.
+wrong_answers:
+  - Det indikerar att Wallet är helt säker och inte kräver någon backup.
+  - Det innebär att Wallet kan hålla många olika obligationer.
+  - Det tyder på att Wallet automatiskt säkerhetskopieras av din enhet.
+explanation: |
+  Avsaknaden av en lista med 12 eller 24 ord, det vill säga
+  Mnemonic frasen, i en Wallet bör varna dig för att Wallet inte är
+  Wallet inte är säker eftersom den inte följer standardprocedurer för säkerhetskopiering
+  procedurer.
+reviewed: true

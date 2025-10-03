@@ -1,0 +1,13 @@
+question: Hur hög var den årliga inflationstakten i Bolivia 1985?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  År 1985 uppgick den årliga inflationen i Bolivia till 11.749%, vilket indikerar
+  
+  att inflationen nästan varje månad var nära eller översteg hyperinflationströskeln
+  
+  på 50%
+reviewed: false

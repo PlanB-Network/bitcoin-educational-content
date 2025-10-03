@@ -1,0 +1,9 @@
+question: Vad är det grundläggande konceptet bakom RGB-protokollet?
+answer: Validering på kundsidan via On-Chain-kryptografiska åtaganden
+wrong_answers:
+  - On-Chain-validering genom Turing-kompletta smarta kontrakt
+  - Exklusiv användning av okrypterade Bitcoin-transaktioner
+  - Contract-exekvering på en Blockchain som är avsedd för smarta kontrakt
+explanation: |
+  RGB är baserad på en Client-side Validation-modell där åtaganden (via Taproot eller OP_RETURN) läggs in On-Chain, medan det mesta av logiken och datan behålls off-chain.
+reviewed: false

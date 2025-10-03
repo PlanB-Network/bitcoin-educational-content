@@ -1,0 +1,9 @@
+question: /8
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA deli IPv4 prostor na blokove veličine /8, od kojih svaki sadrži 2^24 adresa.
+reviewed: false

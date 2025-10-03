@@ -8,6 +8,10 @@ Olvid est une application de messagerie instantanée française lancée en 2019,
 
 Tous les messages sont chiffrés de bout en bout avec un protocole cryptographique original, conçu pour protéger aussi les métadonnées : personne ne sait avec qui vous discutez, ni quand. Le code des clients est open source, mais le serveur central utilisé pour acheminer les messages chiffrés reste propriétaire et hébergé sur AWS.
 
+Le modèle de sécurité d’Olvid repose sur un principe important : l’absence totale de tiers de confiance dans l’établissement des identités numériques. Contrairement à la majorité des messageries chiffrées qui s’appuient sur un annuaire centralisé pour gérer les identités des utilisateurs, Olvid ne dépend d’aucune infrastructure centralisée pour garantir l’intégrité des communications. Cette architecture élimine ainsi les risques liés à une compromission de l’annuaire.
+
+Olvid utilise néanmoins un serveur central de distribution des messages, mais celui-ci est strictement cantonné à un rôle logistique : il assure la transmission asynchrone des messages chiffrés. Ce serveur ne participe à aucune étape du chiffrement, ne connaît ni l’identité réelle des utilisateurs ni le contenu ou les métadonnées des messages (à l’exception de la clé publique du destinataire, nécessaire au routage). Il peut donc être considéré comme hostile par défaut sans remettre en cause la sécurité de l’ensemble. Même s’il était compromis, il ne permettrait aucun accès au contenu des communications. Olvid assume donc une centralisation de la distribution des messages (pour des raisons d’efficacité et de qualité de service) tout en garantissant une sécurité indépendante de cette infrastructure.
+
 Olvid propose une version gratuite et une version payante avec abonnement à 4,99 € par mois. La version gratuite offre l’ensemble des fonctionnalités, à l’exception de l'émission d'appels audio et vidéo (il est toutefois possible d’en recevoir), et ne permet pas la synchronisation du compte sur plusieurs appareils. Donc si vous envisagez un usage exclusivement sur votre smartphone et que vous n’avez pas besoin de passer d’appels, Olvid constitue une excellente solution.
 
 Olvid est certifiée par l’ANSSI (autorité française chargée de la cybersécurité). Cette application est une excellente alternative aux messageries traditionnelles (WhatsApp, Facebook Messenger, WeChat...) pour ceux qui recherchent la confidentialité tout en conservant une simplicité d’usage.
@@ -26,7 +30,7 @@ Olvid est certifiée par l’ANSSI (autorité française chargée de la cybersé
 | Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
+| **Olvid**            | **✅**          | **✅**          | **✅**               | **✅**                      | **❌**                       | 🟡(pas d'annuaire)   | **2019**          |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
@@ -65,6 +69,8 @@ Votre compte est maintenant créé.
 ![Image](assets/fr/05.webp)
 
 Pour éviter toute perte d’accès à votre compte Olvid, il est recommandé de configurer des sauvegardes automatiques. Pour cela, ouvrez les paramètres en cliquant sur les trois points situés en haut à droite de l’interface, puis sélectionnez "*Paramètres*".
+
+⚠️ **Attention** : depuis la version 3.7 d'Olvid, la procédure pour sauvegarder vos profils et contacts a été remplacée par une nouvelle. Ce tutoriel présente encore l'ancienne version. Vous pouvez la découvrir la nouvelle version sur leur FAQ : [💾 Sauvegarder vos profils](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 

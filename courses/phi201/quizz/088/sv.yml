@@ -1,0 +1,9 @@
+question: Hur ser förhållandet ut mellan politisk frihet och ekonomisk frihet, enligt Constant?
+answer: De två friheterna är ömsesidigt beroende av varandra.
+wrong_answers:
+  - Politisk frihet är en nödvändig förutsättning för ekonomisk frihet.
+  - Ekonomisk frihet är en nödvändig förutsättning för politisk frihet.
+  - De två friheterna är oförenliga med varandra.
+explanation: |
+  För Benjamin Constant är politisk frihet och ekonomisk frihet nära förknippade med varandra, eftersom individens självständighet beror lika mycket på möjligheten att delta i offentliga angelägenheter som på friheten att bedriva ekonomisk verksamhet utan hinder.
+reviewed: true

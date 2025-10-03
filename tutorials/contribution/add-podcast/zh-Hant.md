@@ -80,24 +80,24 @@ contributors:
 
 
 
-- `name`**：指出您 Podcast 的名稱。
-- `host`**：列出 Podcast 講者或主持人的姓名或假名。每個名字都應以逗號分隔。
-- `language`**：指出您的 Podcast 所使用的語言代碼。例如，英文請註明 `en`，義大利語請註明 `it`...
+- `name`**：指出您 Podcast 的名稱。**
+- `host`**：**列出 Podcast 講者或主持人的姓名或假名。每個名字都應以逗號分隔。
+- `language`**：指出您的 Podcast 所使用的語言代碼。例如，英文請註明 `en`，義大利語請註明 `it`...**
 
 
 
-- `links`**：提供您內容的連結。您有兩個選項：
+- `links`**：提供您內容的連結。您有兩個選項：**
  - `podcast`：您的播客連結、
  - twitter：播客或製作機構的 Twitter 個人資料連結、
  - 網站」：播客或製作組織網站的連結。
 
 
 
-- `description`**：新增一段簡短的文字，描述您的 Podcast。描述的語言必須與 `language:` 欄位中的語言相同。
+- `description`**：新增一段簡短的文字，描述您的 Podcast。描述的語言必須與** `language:` **欄位中的語言相同。**
 
 
 
-- `tags`**：新增兩個與您的 Podcast 相關的標籤。範例：
+- `tags`**：新增兩個與您的 Podcast 相關的標籤。範例：**
     - Bitcoin
     - 技術
     - 經濟
@@ -105,7 +105,7 @@ contributors:
 
 
 
-- `contributors`**：如果您有貢獻者 ID，請提及您的 ID。
+- `contributors`**：如果您有貢獻者 ID，請提及您的 ID。**
 
 
 例如，您的 YAML 檔案可以如下所示：

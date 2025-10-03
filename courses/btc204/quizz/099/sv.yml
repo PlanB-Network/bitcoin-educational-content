@@ -1,0 +1,10 @@
+question: Vad mäter retrospektiv anonset?
+answer: Motståndet mot integritet mot en analys av nutid till dåtid.
+wrong_answers:
+  - Motståndet mot integritet mot en analys av förflutet och framtid.
+  - Motståndet mot integritet mot en nutid-till-framtid-analys.
+  - Integritetsmotståndet mot en analys från dåtid till nutid.
+explanation: |
+  Det retrospektiva anonsetet mäter motståndet hos ett mynts integritet mot en nutid-till-tidigtid-analys (output till input).
+  
+reviewed: false

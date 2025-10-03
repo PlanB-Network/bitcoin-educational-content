@@ -1,0 +1,9 @@
+question: A quale dibattito porta il terremoto di Lisbona?
+answer: Gli uomini possono e devono prendere in mano la propria vita.
+wrong_answers:
+  - La natura è responsabile.
+  - Gli uomini devono temere la natura.
+  - La natura è incomprensibile.
+explanation: |
+  Il terremoto di Lisbona (1755) portò all'idea che le persone potessero e dovessero prendere in mano la situazione. Questo evento mise in discussione la provvidenza divina e incoraggiò una visione più umanista e razionalista del mondo.
+reviewed: false

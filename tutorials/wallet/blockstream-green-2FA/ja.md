@@ -1,8 +1,14 @@
 ---
-name: ブロックストリーム・グリーン - 2FA
+name: Blockstream Green - 2FA
 description: グリーン・ウォレットの2/2マルチシグの設定
 ---
 ![cover](assets/cover.webp)
+
+___
+
+***注意：** 2025年5月以降、二要素認証（2FA）で保護された新しいアカウントを有効にすることはできなくなります。この機能は、以前にこのタイプのアカウントを有効にしていたユーザーのみが利用できます。*
+
+___
 
 ソフトウェアウォレットは、コンピュータ、スマートフォン、またはその他のインターネット接続デバイスにインストールされるアプリケーションで、ビットコインウォレットのキーを管理し、保護することができます。秘密鍵を隔離するハードウェアウォレットとは異なり、「ホット」ウォレットはサイバー攻撃にさらされる可能性のある環境で動作するため、違法コピーや盗難のリスクが高まります。
 
@@ -20,7 +26,7 @@ Greenは特に使いやすいアプリケーションであり、初心者に興
 
 Blockstream Greenはまた、メインブロックチェーン外での高速で機密性の高い取引のためにBlockstreamによって開発されたビットコインのサイドチェーンであるLiquidネットワークもサポートしています。このチュートリアルではBitcoinだけに焦点を当てますが、GreenでLiquidを使用する方法を学ぶ別のチュートリアルも作りました：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2マルチシグ・オプション（2FA）
 
@@ -40,7 +46,7 @@ Blockstreamの障害が発生した場合（例えば、会社の倒産や2つ�
 
 2FAオプションを使用せず、単にGreenで "*singlesig*"ウォレットをセットアップしたい場合は、別のチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Blockstream Green ソフトウェアのインストールと設定
 
@@ -54,7 +60,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-アプリケーションを起動し、"I accept the conditions...*"にチェックを入れる。
+アプリケーションを起動し、**"I accept the conditions..."**にチェックを入れる。
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -84,7 +90,7 @@ Androidでのみ利用可能な「*プライバシー強化*」オプション�
 
 ## Blockstream Greenでビットコイン・ウォレットを作成する
 
-これでビットコイン・ウォレットを作成する準備ができました。Get Started*」ボタンをクリックしてください。
+これでビットコイン・ウォレットを作成する準備ができました。**Get Started**」ボタンをクリックしてください。
 
 ![GREEN 2FA MULTISIG](assets/fr/12.webp)
 
@@ -98,7 +104,7 @@ Androidでのみ利用可能な「*プライバシー強化*」オプション�
 
 その後、12単語または24単語のニーモニックフレーズを選択することができます。このフレーズは、携帯電話に問題が発生した場合に、互換性のあるソフトウェアから財布へのアクセスを回復することを可能にします。現時点では、24単語のフレーズを選択しても、12単語のフレーズ以上のセキュリティは得られません。したがって、12語のニーモニック・フレーズを選択することをお勧めします。
 
-グリーンがあなたのニーモニックフレーズを表示します。続行する前に、監視されていないことを確認してください。リカバリーフレーズを表示*」をクリックすると、画面に表示されます。
+グリーンがあなたのニーモニックフレーズを表示します。続行する前に、監視されていないことを確認してください。**リカバリーフレーズを表示**」をクリックすると、画面に表示されます。
 
 ![GREEN 2FA MULTISIG](assets/fr/15.webp)
 
@@ -150,7 +156,7 @@ PINを確認するため、2回目の入力を行います。
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Authenticator Application*」を選択する。
+**Authenticator Application**」を選択する。
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
 
@@ -160,7 +166,7 @@ Authenticator Application*」を選択する。
 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
-*もちろん、このチュートリアルで私が行っているように、このキーとQRコードをインターネット上で共有してはいけません。このサンプルウォレットはTestnet上でのみ使用され、チュートリアルの最後に削除されます。
+**もちろん、このチュートリアルで私が行っているように、このキーとQRコードをインターネット上で共有してはいけません。このサンプルウォレットはTestnet上でのみ使用され、チュートリアルの最後に削除されます。**
 
 Continue*」ボタンをクリックする。
 
@@ -188,7 +194,7 @@ Continue*」ボタンをクリックする。
 
 ![GREEN 2FA MULTISIG](assets/fr/32.webp)
 
-Rename*"オプションでは、ポートフォリオの名前をカスタマイズすることができます。
+**Rename**オプションでは、ポートフォリオの名前をカスタマイズすることができます。
 
 ![GREEN 2FA MULTISIG](assets/fr/33.webp)
 
@@ -196,7 +202,7 @@ Unit*"メニューでは、ウォレットの基本単位を変更すること�
 
 ![GREEN 2FA MULTISIG](assets/fr/34.webp)
 
-設定*」メニューは、ビットコインウォレットの様々なオプションへのアクセスを提供します。
+設定メニューは、ビットコインウォレットの様々なオプションへのアクセスを提供します。
 
 ![GREEN 2FA MULTISIG](assets/fr/35.webp)
 
@@ -210,7 +216,7 @@ Unit*"メニューでは、ウォレットの基本単位を変更すること�
 
 ## ブロックストリーム・グリーンの使用
 
-ビットコイン・ウォレットがセットアップされたら、最初のサットを受け取る準備ができました！受信*」ボタンをクリックしてください。
+ビットコイン・ウォレットがセットアップされたら、最初のサットを受け取る準備ができました！**受信**ボタンをクリックしてください。
 
 ![GREEN 2FA MULTISIG](assets/fr/38.webp)
 
@@ -226,7 +232,7 @@ Unit*"メニューでは、ウォレットの基本単位を変更すること�
 
 ![GREEN 2FA MULTISIG](assets/fr/41.webp)
 
-ウォレットにビットコインがあれば、ビットコインを送ることもできます。送信*」をクリックしてください。
+ウォレットにビットコインがあれば、ビットコインを送ることもできます。「送信」をクリックしてください。
 
 ![GREEN 2FA MULTISIG](assets/fr/42.webp)
 
@@ -264,4 +270,4 @@ Unit*"メニューでは、ウォレットの基本単位を変更すること�
 
 また、Blockstream GreenモバイルアプリケーションでLiquidウォレットをセットアップするための包括的なチュートリアルをチェックすることをお勧めします：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

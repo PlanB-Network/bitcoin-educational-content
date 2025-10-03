@@ -1,0 +1,9 @@
+question: Dopo aver installato un aggiornamento critico del sistema operativo, cosa occorre fare per applicare completamente le patch?
+answer: Riavviare il computer
+wrong_answers:
+  - Reimpostare la password
+  - Disconnettere la rete Wi-Fi
+  - Eliminare i file temporanei
+explanation: |
+  Alcuni aggiornamenti del sistema operativo, come quelli per il kernel o le librerie critiche, hanno effetto solo dopo il riavvio della macchina.
+reviewed: false

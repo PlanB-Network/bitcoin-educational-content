@@ -1,9 +1,9 @@
-question: Điều gì ngăn cản mọi người sử dụng cùng một ví Bitcoin?
-answer: Mỗi người cần những trường hợp sử dụng khác nhau.
+question: Lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật lý là khi nào?
+answer: Khi Laszlo Hanyecz mua 2 chiếc pizza với 10,000 BTC.
 wrong_answers:
-  - Việc sử dụng Ví Bitcoin rất tốn kém.
-  - Việc sử dụng Ví Bitcoin là bất hợp pháp.
-  - Mọi người sẽ không bao giờ đồng ý về tên của ví như vậy.
+  - Khi Hal Finney mua một chiếc xe hơi với 100,000 BTC.
+  - Khi Satoshi Nakamoto mua một căn nhà với 1,000,000,000 BTC.
+  - Không có lựa chọn nào khác.
 explanation: |
-  Trong khi một người có thể ưu tiên về an ninh, người khác có thể coi trọng tính thân thiện với người dùng hoặc các tính năng cụ thể. Do đó, một Ví Bitcoin duy nhất có thể không đáp ứng được yêu cầu của tất cả mọi người, làm cho việc tồn tại nhiều lựa chọn ví khác nhau trở nên cần thiết.
+  Lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật lý là khi Laszlo Hanyecz mua 2 chiếc pizza với 10,000 BTC, vào ngày 22/05/2010, ngày này hiện được biết đến là Ngày Pizza.
 reviewed: true

@@ -18,7 +18,7 @@ I den här handledningen visar vi dig hur du enkelt kan bidra till översättnin
 För att översätta det pedagogiska innehållet använder vi [artificiell intelligens] (https://github.com/Asi0Flammeus/LLM-Translator). För att rätta till eventuella fel i dessa filer bjuder vi sedan in korrekturläsare att bidra. Om du vill korrekturläsa en del av innehållet kan du läsa följande handledning:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Om du däremot är intresserad av att översätta webbplatsens statiska Elements (exklusive utbildningsinnehåll) har du kommit helt rätt! För att effektivt översätta frontend använder vi verktyget Weblate, som är mycket enkelt att använda och underlättar översättningen.
 

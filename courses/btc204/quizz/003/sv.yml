@@ -1,0 +1,9 @@
+question: Vad är effekten av en Bitcoin-transaktion på UTXO:erna i utgångarna?
+answer: Den skapar dem genom att använda UTXO:er som förbrukas i ingångarna.
+wrong_answers:
+  - Den förbrukar dem för att tillfredsställa ingångarna.
+  - Den krypterar dem för att anonymisera mottagaren.
+  - Den delar tillfälligt upp dem för verifiering.
+explanation: |
+  UTXO:erna i transaktionens utdata skapas genom att UTXO:erna i indata konsumeras. Det är på sätt och vis pengarnas destination.
+reviewed: false

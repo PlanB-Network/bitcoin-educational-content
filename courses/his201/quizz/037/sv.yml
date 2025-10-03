@@ -1,0 +1,9 @@
+question: Vilken Exchange-tjänst som skapades i mars 2010 var den mest populära innan Mt. Gox uppstod i juli?
+answer: Bitcoin Marknad
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Denna peer-to-peer-marknadsplats som använder PayPal lanserades den 16 mars 2010 av en person som kallas dwdollar och var den huvudsakliga plattformen före Mt.
+reviewed: true

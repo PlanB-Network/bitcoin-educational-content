@@ -1,0 +1,143 @@
+id: 55b9a5a5-d239-44d1-aedc-2dc6de14485c
+
+level: advanced
+
+category: operating system
+
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
+tags:
+
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-08-05
+    urgency: 1 # default value
+    contributor_names:
+      - f205sats
+    reward: 3.07 # default value
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.14
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.14
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.14
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.14
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.2
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.19
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.14
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.14
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.19
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.16
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.19

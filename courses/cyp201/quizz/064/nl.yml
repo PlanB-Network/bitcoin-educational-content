@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste functie van een uitgebreide toets in een HD Wallet?
+answer: Om de afleiding van kindsleutels toe te staan
+wrong_answers:
+  - De transacties van de Wallet opslaan
+  - Direct generate de UTXO's
+  - De openbare sleutels coderen
+explanation: |
+  Een uitgebreide sleutel combineert een sleutel (privésleutel of openbare sleutel) met een bijbehorende chain code, d.w.z. de twee Elements die nodig zijn om kindsleutels af te leiden.
+reviewed: false

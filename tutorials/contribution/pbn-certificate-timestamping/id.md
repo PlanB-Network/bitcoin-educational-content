@@ -1,5 +1,5 @@
 ---
-name: Penandaan waktu Paket ₿ Sertifikat dan ijazah jaringan
+name: Cap waktu diploma jaringan Plan ₿
 description: Pahami bagaimana Plan ₿ Network menerbitkan bukti yang dapat diverifikasi untuk sertifikat dan ijazah Anda
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Vilket är huvudargumentet för dem som anser att förstörelse skapar välstånd?
+answer: Det skapar arbetstillfällen
+wrong_answers:
+  - Det främjar innovation
+  - Det ökar köpkraften
+  - Det förbättrar produktiviteten
+explanation: |
+  Förespråkarna för denna idé menar att förstörelse stimulerar sysselsättningen genom att skapa arbete för dem som utför reparationerna, ett perspektiv som Bastiat tillbakavisar genom att betona alternativkostnaderna.
+reviewed: false

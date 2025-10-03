@@ -1,0 +1,11 @@
+question: Vad innebär det för Bitcoin att vara en neutral valuta?
+answer: Den kontrolleras inte av någon enhet eller institution.
+wrong_answers:
+  - Den kontrolleras av en enda enhet eller institution.
+  - Det är reglerat av regeringen.
+  - Den används bara för stora transaktioner.
+explanation: |
+  Bitcoin är en neutral valuta, vilket innebär att den inte kontrolleras
+  av någon enhet eller institution, så alla användare har samma
+  rättigheter. Detta är en viktig aspekt av dess decentralisering.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Vad är TOR-nätverket?
+answer: Ett nätverk som erbjuder anonymitet genom att maskera användarens IP Address och ger tillgång till Darknet.
+wrong_answers:
+  - Ett nätverk som skyddar din enhet från virus och annan skadlig programvara.
+  - Ett nätverk som döljer din onlineaktivitet från din internetleverantör.
+  - Ett nätverk som gör att du kan surfa snabbare på internet.
+explanation: |
+  TOR-nätverket (The Onion Router) är ett nätverk som erbjuder
+  anonymitet genom att maskera användarens IP Address och ge
+  tillgång till Darknet. Det används av journalister, frihets
+  frihetsaktivister och andra som vill undkomma censur i auktoritära
+  auktoritära länder.
+reviewed: true

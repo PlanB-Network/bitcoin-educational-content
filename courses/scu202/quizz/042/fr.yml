@@ -1,0 +1,9 @@
+question: Pourquoi faut-il toujours vérifier l’intégrité et l’authenticité des logiciels téléchargés sur Internet ?
+answer: Pour éviter d’installer un programme malveillant
+wrong_answers:
+  - Pour améliorer les performances du système
+  - Pour économiser de la bande passante
+  - Pour accélérer la procédure d’installation
+explanation: |
+  Vérifier intégrité et authenticité permet de se prémunir contre l’installation de logiciels corrompus, infectés ou distribués par un acteur non légitime.
+reviewed: false

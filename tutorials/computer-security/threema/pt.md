@@ -30,25 +30,25 @@ Existe também uma versão dedicada a empresas chamada "*Threema Work*". Neste t
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| **Threema**          | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | **✅**          | **✅**          | **✅**               | **✅**                      | **❌**                       | **❌**                | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Aplicativo           | E2EE 1:1       | E2EE grupos    | Registro anônimo    | Licença cliente open-source | Licença servidor open-source | Servidor descentralizado | Ano de criação    |
+| -------------------- | -------------- | -------------- | ------------------- | --------------------------- | ---------------------------- | ------------------------ | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                           | ❌                            | ❌                        | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                           | ❌                            | ❌                        | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (opcional)  | ❌                   | ❌                           | ❌                            | ❌                        | 2011              |
+| Telegram             | 🟡 (opcional)  | ❌              | 🟡                  | ✅                           | ❌                            | ❌                        | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                           | ❌                            | ❌                        | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                           | ✅                            | ❌                        | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                           | ❌                            | ❌                        | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                           | ✅                            | 🟡 (federado)           | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                           | N/A                          | 🟡 (via email)          | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                           | ✅                            | 🟡 (federado)           | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                           | ✅                            | ✅                        | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                           | ✅                            | ✅                        | 2021              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                           | ❌                            | 🟡(sem diretório)       | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                           | N/A                          | ✅                        | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                        | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                        | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                        | 2013              |
 
 *E2EE = Encriptação de ponta a ponta*
 
@@ -276,7 +276,7 @@ Aqui encontra duas opções para fazer cópias de segurança dos seus dados:
 
 
 
-"O Threema Safe* guarda todas as informações da sua conta, exceto as suas conversas, nos servidores do Threema. Estes dados são encriptados com a palavra-passe que escolheu quando criou a sua conta, garantindo que o Threema não tem acesso a eles. Os backups são feitos automaticamente e regularmente.
+"O **Threema Safe** guarda todas as informações da sua conta, exceto as suas conversas, nos servidores do Threema. Estes dados são encriptados com a palavra-passe que escolheu quando criou a sua conta, garantindo que o Threema não tem acesso a eles. Os backups são feitos automaticamente e regularmente.
 
 
 
@@ -436,7 +436,7 @@ Parabéns, agora você está pronto para usar o serviço de mensagens Threema, u
 
 
 
-Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail :
+Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail:
 
 
 

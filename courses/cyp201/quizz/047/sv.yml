@@ -1,0 +1,9 @@
+question: Vad är storleken i bitar på ett binärt segment som används för att skapa varje Mnemonic-ord?
+answer: 11 bitar
+wrong_answers:
+  - 8 bitar
+  - 16 bitar
+  - 10 bitar
+explanation: |
+  Varje 11-bitars segment motsvarar ett ord från den standardiserade listan med 2048 ord i BIP39.
+reviewed: false

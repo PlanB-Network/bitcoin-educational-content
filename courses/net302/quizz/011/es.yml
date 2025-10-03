@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que IPv5 nunca se ha implantado de forma generalizada?
+answer: Siguió siendo experimental
+wrong_answers:
+  - Su despliegue era demasiado costoso
+  - No era compatible con IPv6
+  - Tenía importantes fallos de seguridad
+explanation: |
+  IPv5 sólo se implantó de forma experimental. Nunca se estandarizó ni se adoptó de forma generalizada, y finalmente se abandonó en favor de IPv6.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Varför lagras lösenord ofta som hashvärden på säkra servrar?
+answer: För att förhindra att lösenord lätt kan återskapas vid en eventuell läcka
+wrong_answers:
+  - För att öka storleken på lagring av användardata
+  - För att kryptera lösenord i realtid på ett symmetriskt sätt
+  - Tillåta användare att logga in utan lösenord
+explanation: |
+  Genom att lagra lösenordshashar kan de faktiska lösenorden inte läsas direkt, även i händelse av ett dataintrång, vilket ökar säkerheten.
+reviewed: false

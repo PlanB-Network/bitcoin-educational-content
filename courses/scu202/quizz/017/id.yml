@@ -1,0 +1,9 @@
+question: Distribusi mana yang dianggap tertua yang masih dipertahankan?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, yang dibuat pada tahun 1993 oleh Patrick Volkerding, adalah distribusi Linux tertua yang masih aktif sampai sekarang.
+reviewed: false

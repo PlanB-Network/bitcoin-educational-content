@@ -1,0 +1,9 @@
+question: Giao thức nào gán động IP cục bộ Address cho các thiết bị được kết nối với mạng?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP tự động gán IP Address cho mỗi thiết bị mới được kết nối với mạng cục bộ.
+reviewed: false

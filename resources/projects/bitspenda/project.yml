@@ -1,0 +1,32 @@
+id: 02dc57e7-81b5-4163-a360-3d8ea96085be
+
+name: Bitspenda
+
+address_line_1: Accra, Ghana
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://www.bitspenda.app/
+  twitter: https://x.com/bitspenda
+  Github: 
+  youtube: 
+
+category: payment
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - finance
+  - payment
+  - bitcoin
+
+contributor_names:
+  - Gloirew

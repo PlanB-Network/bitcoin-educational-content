@@ -1,0 +1,9 @@
+question: Welches Projekt wurde 1983 ins Leben gerufen, um ein völlig freies Betriebssystem zu schaffen?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window System-Projekt
+  - Open-Source-Initiative
+explanation: |
+  Richard Stallman rief 1983 das GNU-Projekt ins Leben, um ein völlig freies Betriebssystem zu entwickeln.
+reviewed: false

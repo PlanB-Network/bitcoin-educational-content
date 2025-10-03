@@ -1,0 +1,9 @@
+question: Welchen Zweck hat das "ACK"-Flag in einem TCP-Segment?
+answer: Den Empfang von Segmenten zu bestätigen
+wrong_answers:
+  - So leiten Sie den Verbindungsabbau ein
+  - So verschlüsseln Sie den ausgetauschten Datenstrom
+  - So identifizieren Sie den verwendeten Service-Port
+explanation: |
+  Wenn das ACK-Flag gesetzt ist, bestätigt es, dass ein Segment erfolgreich empfangen wurde und gibt die nächste erwartete Sequenznummer an.
+reviewed: false

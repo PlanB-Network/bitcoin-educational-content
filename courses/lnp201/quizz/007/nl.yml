@@ -1,0 +1,9 @@
+question: Waarom worden UTXO's vaak vergeleken met bankbiljetten?
+answer: Ze moeten in hun geheel worden uitgegeven
+wrong_answers:
+  - Ze kunnen meerdere keren worden gebruikt tot ze leeg zijn
+  - Ze zijn alleen bruikbaar in bepaalde specifieke transacties
+  - Ze vertegenwoordigen kleine vaste hoeveelheden bitcoins
+explanation: |
+  Net als een bankbiljet moet een UTXO volledig worden uitgegeven in een transactie en wordt het overschot teruggegeven aan de verzender als wisselgeld.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni nadharia gani ambayo Boisguilbert hajapewa sifa?
+answer: Hakuna mojawapo ya majibu haya yanafaa
+wrong_answers:
+  - Nadharia ya Keynes ya ukosefu wa ajira
+  - Nadharia ya tabaka la Umaksi
+  - Nadharia ya urejeshaji unaoongozwa na matumizi
+explanation: |
+  Boisguilbert ametajwa kuwa na mawazo ya utangulizi wa nadharia ya Keynes ya ukosefu wa ajira, nadharia ya darasa la Marx na nadharia ya uokoaji unaoongozwa na matumizi, ingawa hakuunda nadharia hizi kwa uwazi.

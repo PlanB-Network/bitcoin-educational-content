@@ -1,0 +1,9 @@
+question: Quel navigateur propose, par défaut, un blocage des publicités et des trackers, une protection contre le fingerprinting et se base sur Chromium ?
+answer: Brave
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave intègre par défaut le blocage des publicités, trackers et des protections avancées contre le fingerprinting, tout en étant basé sur Chromium.
+reviewed: false

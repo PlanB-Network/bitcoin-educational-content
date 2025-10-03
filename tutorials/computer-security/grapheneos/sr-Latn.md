@@ -1,13 +1,16 @@
 ---
 name: GrapheneOS
 
-description: Grafen OS vodič
+description: Mobilni operativni sistem fokusiran na bezbednost i privatnost zasnovan na Androidu
 ---
 
-> [GrapheneOS](https://grapheneos.org/) je mobilni operativni sistem fokusiran na privatnost i sigurnost sa kompatibilnošću za Android aplikacije, razvijen kao neprofitni open source projekat.
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) je neprofitni, otvorenog koda mobilni operativni sistem, dizajniran da pruži visok nivo privatnosti i bezbednosti, dok ostaje potpuno kompatibilan sa Android aplikacijama.
 
-GrapheneOS, originally founded in 2014 as 'CopperheadOS' is based on the traditional Android Code (AOSP), but with many changes and improvements aimed at improving user privacy and security. GrapheneOS puts the user in control of their phone, not the big tech companies.
+GrapheneOS, koji je prvobitno osnovan 2014. godine pod imenom 'CopperheadOS', zasniva se na standardnom Android kodu (AOSP), ali s brojnim izmenama i poboljšanjima usmerenim ka unapređenju privatnosti i bezbednosti korisnika. GrapheneOS stavlja korisnika u kontrolu nad svojim telefonom, a ne velike tehnološke kompanije.
 
+
+![video](https://youtu.be/VnumtalYLFI)
 
 ### Rezime:
 
@@ -21,7 +24,7 @@ GrapheneOS, originally founded in 2014 as 'CopperheadOS' is based on the traditi
 - Korisne informacije
 
 
-Vodič na https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ovaj vodič je adaptacija originalnog sadržaja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za početni rad na pisanju.*
 
 
 ## Zašto koristiti GrapheneOS?
@@ -39,7 +42,7 @@ GrapheneOS pruža dodatnu sigurnost vašem Android iskustvu kroz neke jednostavn
 
 2. **Prevencija izloženosti ranjivostima** - Omogućite korisniku dovoljno granularnosti da izabere kompromise sa kojima je zadovoljan.
 
-3. **Sandbox containment** - GrapheneOS dodatno učvršćuje postojeće Android sandbox okruženje, dodatno ograničavajući sposobnost svake aplikacije da komunicira sa ostatkom vašeg telefona.
+3. **Sandbox izolacija** - GrapheneOS dodatno učvršćuje postojeće Android sandbox okruženje, dodatno ograničavajući sposobnost svake aplikacije da komunicira sa ostatkom vašeg telefona.
 
 
 Saznajte više o tehničkim detaljima skupa funkcija GrapheneOS [ovde](https://grapheneos.org/features).
@@ -57,7 +60,7 @@ Koliko god da alternative postaju dobre, pomisao na takvu promenu i dalje može 
 Ako se odlučiš za ovaj pristup, budi strog prema sebi i prekini oslanjanje na nadzirane alternative što je brže moguće. Mi ljudi smo lenji i često biramo put najmanjeg otpora. Seti se zašto si uopšte napravio promenu.
 
 
-**Umesto da plaćate svojim ličnim podacima, odlučili ste da plaćate svojim vremenom, a ponekad i svojim Hard zarađenim novcem (u zavisnosti od alternativnih aplikacija koje instalirate).**
+**Umesto da plaćate svojim ličnim podacima, odlučili ste da plaćate svojim vremenom, a ponekad i svojim teško zarađenim novcem (u zavisnosti od alternativnih aplikacija koje instalirate).**
 
 
 ## Početak
@@ -69,13 +72,13 @@ GrapheneOS je trenutno u proizvodnji samo za _(prilično ironično)_ [Google Pix
 ### Odabir uređaja
 
 
-Kada birate Pixel na koji želite instalirati GrapheneOS, osigurajte da proverite koliko dugo će uređaj nastaviti da prima podrazumevane [bezbednosne ažuriranja](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g).
+Kada birate Pixel na koji želite instalirati GrapheneOS, osigurajte da proverite koliko dugo će uređaj nastaviti da prima podrazumevana [bezbednosna ažuriranja](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g).
 
 
 U vreme pisanja, Pixel 6a je najjeftiniji dostupni model sa dobrom dugoročnom podrškom, garantovanom do jula 2027. Ako se odlučite za ovaj model, otključavanje OEM-a neće raditi sa verzijom fabričkog OS-a. Potrebno je da ga ažurirate na izdanje iz juna 2022. ili kasnije putem ažuriranja preko mreže. Nakon što ga ažurirate, takođe ćete morati da vratite uređaj na fabrička podešavanja da biste popravili otključavanje OEM-a. Svi ostali modeli koji su otključani od strane operatera biće spremni za GrapheneOS odmah iz kutije.
 
 
-Kada birate uređaj, takođe ćete želeti da osigurate da kupite otključanu verziju. Određeni operateri kao što je Verizon isporučuju svoje jedinice sa zaključanim bootloader-om, što potpuno sprečava sledeći proces.
+Kada birate uređaj, takođe ćete želeti da osigurate da kupite otključanu verziju. Određeni operateri kao što je Verizon isporučuju svoje uređaje sa zaključanim bootloader-om, što potpuno sprečava sledeći proces.
 
 
 ### Instaliranje GrapheneOS-a
@@ -116,10 +119,10 @@ Hajde da zaronimo u to:
 
 9. Na kraju, pređite na sledeći korak veb instalatera i kliknite na **Lock Bootloader**. Moraćete da promenite izbor i potvrdite pomoću dugmeta za napajanje na isti način kao što ste to uradili ranije u procesu.
 
-10. Kada vidite reč `Start`, potvrdite to dugmetom za napajanje i uređaj će se pokrenuti u vaš novi operativni sistem bez Google-a.
+10. Kada vidite reč `Start`, potvrdite to dugmetom za napajanje i uređaj će se pokrenuti u vašem novom operativnom sistemu bez Google-a.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 Ekran za pokretanje GrapheneOS-a
 
@@ -141,23 +144,23 @@ Video koji detaljno prikazuje jednostavne korake navedene iznad
 Ako ti jednostavni koraci deluju kao previše, možete razmisliti o kupovini Pixel telefona sa GrapheneOS softverom [pre-instaliranim](https://ronindojo.io/en/roninmobile). Samo budite svesni da time ukazujete malu količinu poverenja dobavljaču.
 
 
-### Pre Installed Apps
+### Unapred instalirane aplikacije
 
 
 Sada kada ste postavili, možda ćete primetiti koliko GrapheneOS izgleda osnovno pri prvoj instalaciji. Podrazumevano ćete imati instalirane ove aplikacije:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Podrazumevane aplikacije
 
 
-Jedina dva sa kojima možda niste upoznati su 'Auditor' i 'Vanadium'.
+Jedine dve sa kojima možda niste upoznati su 'Auditor' i 'Vanadium'.
 
 
 
-- [Auditor aplikacija](https://play.google.com/store/apps/details?id=app.attestation.auditor) koristi sigurnosne funkcije zasnovane na hardveru za verifikaciju identiteta uređaja zajedno sa autentičnošću i integritetom operativnog sistema. Ona će proveriti da li uređaj koristi fabrički operativni sistem sa zaključanim bootloader-om i da li nije došlo do neovlašćenog menjanja operativnog sistema.
+- [Auditor aplikacija](https://play.google.com/store/apps/details?id=app.attestation.auditor) koristi sigurnosne funkcije zasnovane na hardveru za verifikaciju identiteta uređaja zajedno sa autentičnošću i integritetom operativnog sistema. Ona će proveriti da li uređaj koristi fabrički operativni sistem sa zaključanim bootloader-om i da nije došlo do neovlašćenog menjanja operativnog sistema.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) je varijanta Chromium veb pregledača sa pojačanom privatnošću i sigurnošću.
 
 
@@ -174,9 +177,9 @@ Idite na Podešavanja > Pozadina i stil. Odavde:
 
 
 
-- Ažurirajte pozadine početnog i zaključanog ekrana za slike preuzete sa weba.
+- Ažurirajte pozadine početnog i zaključanog ekrana sa slikama preuzete sa weba.
 - Biranje boja akcenta korišćenih kroz korisnički interfejs.
-- Omogući tamnu temu.
+- Omogući noćni režim rada.
 
 
 ### Prikaži procenat baterije
@@ -196,14 +199,14 @@ Idite na **Podešavanja** > **Baterija**, zatim omogućite **Prikaži procenat b
 Kada imate VCF datoteku, možete je preneti na svoj GrapheneOS uređaj pomoću opcije spoljašnje memorije kao što je microSD kartica ili USB drajv. Ako nemate nijednu od tih opcija pri ruci, možete se odlučiti za deljenje putem jedne od mnogih aplikacija navedenih ispod.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Personalizovani početni ekran
 
 
 
-## Alternativne Aplikacije
+## Alternativne aplikacije
 
 
 Da bi vaš telefon bio koristan, želećete da instalirate neke aplikacije! Opcije koje slede su uključene jer sam ih sve lično koristio ili zato što dobijaju snažne preporuke od šire zajednice koja se bavi privatnošću. Postoje mnoge druge sjajne alternative koje nisu pomenute, a [Awesome Privacy](https://awesome-privacy.xyz) nudi neverovatno opsežnu listu aplikacija koje čuvaju privatnost za sve vrste uređaja.
@@ -215,20 +218,22 @@ Samo zato što je aplikacija besplatni softver otvorenog koda (FOSS) ne znači d
 ### F-Droid
 
 
-[F-Droid](https://f-droid.org/) je instalabilni katalog FOSS aplikacija za Android. Klijent olakšava pregledanje, instalaciju i ažuriranje aplikacija na vašem uređaju. Vredi napomenuti da ažuriranja putem F-Droid-a ponekad mogu biti sporija nego kod drugih prodavnica aplikacija. Ovo uglavnom zavisi od toga da li se aplikacija nalazi putem glavnog F-Droid repozitorijuma ili prilagođenog.
+[F-Droid](https://f-droid.org/) je instalabilni katalog FOSS aplikacija za Android. Klijent olakšava pregledanje, instalaciju i ažuriranje aplikacija na vašem uređaju. Vredi napomenuti da ažuriranja putem F-Droid-a ponekad mogu biti sporija nego kod drugih prodavnica aplikacija. Ovo uglavnom zavisi od toga da li se aplikacija nalazi u glavnom F-Droid repozitorijumu ili u nekom prilagođenom.
 
 
 Da biste instalirali F-Droid, jednostavno idite na njihovu veb stranicu putem pregledača na vašem GrapheneOS telefonu i dodirnite preuzimanje. Ovo će preuzeti `.apk` datoteku. Zatim će vam biti postavljeno pitanje da li želite da instalirate aplikaciju.
 
 
-Kao i aplikacije koje se nalaze u podrazumevanom repozitorijumu u F-Droid-u, mnogi Open Source projekti će takođe hostovati sopstveni repozitorijum koji se može dodati u podešavanjima F-Droid aplikacije. Ako je to slučaj, projekat o kojem je reč će vas provesti kroz veoma jednostavne korake potrebne da to postignete na njihovoj veb stranici.
+Pored aplikacija koje se nalaze u podrazumevanom repozitorijumu F-Droid-a, mnogi open-source projekti takođe hostuju sopstvene repozitorijume koji se mogu dodati u podešavanjima F-Droid aplikacije. Ako je to slučaj, projekat o kojem je reč će vas provesti kroz veoma jednostavne korake potrebne da to postignete na njihovoj veb stranici.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 Početni ekran F-Droid
 
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 
@@ -248,26 +253,27 @@ Da biste instalirali Auroru, jednostavno potražite 'Aurora Store' u F-Droidu.
 Aurora takođe ima neke potencijalne vektore napada, jer "anonimni nalozi" su zapravo kreirani i kontrolisani od strane Aurore. U teoriji, oni bi mogli da serviraju zlonamerna ažuriranja ili da guraju aplikacije na vaš telefon, iako biste i dalje morali da prihvatite instalacioni prompt na uređaju. Aurora takođe ponekad ima problema sa aplikacijama koje se ne prikazuju zbog pogrešnog očitavanja regiona i uređaja. Ovo se obično može zaobići sledećim koracima.
 
 
-**Top tip** - Sometimes the Aurora Store will experience rate limiting which limits your ability to search and install apps. To get around this go to **Settings** > **Apps** > **Aurora** > **Open by default**, then add the domain `play.google.com`. Now, whenever navigate to a product or service's website that has the 'Download via Play Store' link, tapping on it will open that app within Aurora for you to download.
+**Top savet** -  Ponekad Aurora Store može naići na ograničenje učestalosti zahteva (rate limiting), što može ograničiti vašu mogućnost pretrage i instalacije aplikacija. Da biste to zaobišli, idite na **Settings** > **Apps** > **Aurora** > **Open by default**, zatim dodajte domen  `play.google.com`. Sada će se, kad god posetite veb-sajt nekog proizvoda ili servisa koji ima link „Preuzmi putem Play prodavnice“, taj link automatski otvoriti u aplikaciji Aurora i omogućiti vam preuzimanje.
 
 
-
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Početni ekran Aurora Store
 
 
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
 ### Preuzimanje APK
 
 
-Aplikacije na Androidu mogu se preuzeti i instalirati putem `.apk` fajla. Ovo je odlična alternativa koja ne zahteva prodavnice aplikacija trećih strana, jednostavno preuzmite fajl direktno sa sajta projekta ili usluge ili GitHub repozitorijuma.
+Aplikacije na Androidu mogu se preuzeti i instalirati putem `.apk` fajla. Ovo je odlična alternativa koja ne zahteva nijednu prodavnicu aplikacija treće strane – jednostavno preuzmite fajl direktno sa veb-sajta projekta ili servisa, ili GitHub repozitorijuma.
 
 
 Nedostatak ovog pristupa je što ne dobijate automatska ažuriranja, pa ćete morati pratiti komunikacione kanale te usluge kako biste saznali o novim izdanjima. Međutim, postoji sjajan projekat pod nazivom Obtanium koji ima za cilj da to reši. [Obtainium](https://github.com/ImranR98/Obtainium) vam omogućava da instalirate i ažurirate aplikacije otvorenog koda direktno sa njihovih stranica izdanja, i primate obaveštenja kada su nova izdanja dostupna.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium pregled
@@ -279,19 +285,19 @@ Obtanium pregled
 Za situacije kada možda želite retko koristiti neku uslugu i ne želite da preuzimate nativnu aplikaciju, možete jednostavno pristupiti veb verziji. Mnogi sajtovi danas takođe nude podršku za Progressive Web App (PWA). Ovo je slučaj kada možete obeležiti određeni sajt (npr. Twitter.com) na početnom ekranu vašeg telefona. Zatim, kada dodirnete ikonu, otvara se kao aplikacija preko celog ekrana bez uobičajenih ometanja koja dolaze sa tipičnim iskustvom pretraživača. Primer kako ovo izgleda možete videti ispod.
 
 
-Da biste to postigli u Vanadiumu, izvornom pregledaču GrapheneOS-a, jednostavno idite na željenu web stranicu, dodirnite tri vertikalne tačke u gornjem desnom uglu ekrana, a zatim dodirnite **'Dodaj na početni ekran'**.
+Da biste to postigli u Vanadiumu, izvornom pregledaču GrapheneOS-a, jednostavno idite na željenu web stranicu, dodirnite tri vertikalne tačke u gornjem desnom uglu ekrana, a zatim dodirnite **'Add to Home Screen (prevod: Dodaj na početni ekran)'**.
 
 
 Jedina mana ovog pristupa je što, pošto je ovo samo obeležena veb stranica, nećete dobiti nikakve obaveštenja. Iako bi neki to mogli videti kao pozitivnu stvar!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
 
 
-### Web Pregledači
+### Web pregledači
 
 
 Ne možete stvarno pogrešiti sa unapred upakovanom opcijom, Vanadium. Aplikacija se ponaša identično kao bilo koji drugi mobilni pregledač koji sam probao i nikada nisam imao problema sa kompatibilnošću.
@@ -303,22 +309,23 @@ Za slučajeve kada treba da pristupite Tor nativnim `.onion` sajtovima, možete 
 ### VPN-ovi
 
 
-Da biste zaštitili svoju online aktivnost od vašeg znatiželjnog internet provajdera (ISP), aplikacija za Virtuelnu Privatnu Mrežu (VPN) je dobra opcija. VPN šalje vaš internet saobraćaj kroz šifrovani tunel do deljene IP Address koju kontroliše provajder VPN usluge kako bi se osiguralo da aktivnost vašeg uređaja ne može biti povezana sa vama.
+Da biste zaštitili svoju online aktivnost od vašeg znatiželjnog internet provajdera (ISP), aplikacija za Virtuelnu Privatnu Mrežu (VPN) je dobra opcija. VPN šalje vaš internet saobraćaj kroz šifrovani tunel do deljene IP adrese koju kontroliše provajder VPN usluge kako bi se osiguralo da aktivnost vašeg uređaja ne može biti povezana sa vama.
 
 
-Sledeće su 3 dobro poštovane opcije koje vam omogućavaju da platite za uslugu u Bitcoin i bez pružanja bilo kakvih ličnih informacija. Sve 3 opcije su dostupne putem F-Droid.
+Evo dve priznate opcije koje omogućavaju plaćanje usluge Bitcoinom bez pružanja ikakvih ličnih podataka. Oba su dostupna na F-Droidu.
 
 
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Poruke
 
 
-U poslednjih godina rešenja za enkriptovane poruke postala su brojna. Problem ipak ostaje, možete imati najbolju i najprivatniju opciju instaliranu na svom telefonu, ali ako nemate kontakte koji je koriste, koja je svrha?
+Poslednjih godina rešenja za enkriptovane poruke postala su brojna. Problem ipak ostaje, možete imati najbolju i najprivatniju opciju instaliranu na svom telefonu, ali ako nemate kontakte koji je koriste, koja je svrha?
 
 
 Većina ljudi koji nisu zainteresovani za privatnost verovatno koristi WhatsApp ili iMessage. Prvi se može preuzeti putem Aurora Store-a, ali drugi neće raditi na GrapheneOS-u (očigledno!).
@@ -327,14 +334,24 @@ Većina ljudi koji nisu zainteresovani za privatnost verovatno koristi WhatsApp 
 
 - [Signal](https://signal.org/) je jedan od popularnijih end-to-end enkriptovanih (E2EE) mesindžera koji ima dobar dosadašnji učinak i bogat skup funkcija. Signal zahteva broj telefona za registraciju, tako da ako planirate da ćaskate sa ljudima za koje biste radije da ne znaju vaš broj telefona, možda bi trebalo da razmotrite neke od alternativa. Signal mora biti preuzet putem Aurora Store-a.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) je prilično nov E2EE mesindžer. Nema korisnički ID, ne zahteva broj telefona ili lične informacije. Ljudi vas pronalaze skeniranjem vašeg ličnog QR koda ili posetom vašeg jedinstvenog linka. Simplex takođe omogućava naprednim korisnicima da pokrenu sopstveni server kako bi dodatno smanjili oslanjanje na bilo koji centralizovani entitet. Simplex nema desktop klijent, pa možda nije pogodan ako vam je multi-uređaj na listi prioriteta. Simplex za Android je dostupan putem F-Droid.
-- [Threema](https://threema.ch/en/faq/libre_installation) nudi slično iskustvo kao Simplex, ali postoji duže vreme i kao rezultat toga, deluje malo uglađenije. Threema nije besplatan, doživotna licenca košta $4.99 i može se kupiti sa Bitcoin. Threema nudi web klijent i izvorne desktop aplikacije. Android aplikacija je dostupna putem F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) je nezvanični FOSS Fork zvanične Telegram aplikacije za Android. Telegram ima E2EE 'tajne četove', ali podrazumevana opcija nije privatna. Telegram FOSS se može preuzeti sa F-Droid.
+- [Threema](https://threema.ch/en/faq/libre_installation) nudi slično iskustvo kao Simplex, ali postoji duže vreme i kao rezultat toga, deluje malo uglađenije. Threema nije besplatan, doživotna licenca košta $4.99 i može se kupiti sa bitcoinom. Threema nudi web klijent i izvorne desktop aplikacije. Android aplikacija je dostupna putem F-Droid.
+- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) je nezvanični FOSS fork zvanične Telegram aplikacije za Android. Telegram ima E2EE 'tajne četove', ali podrazumevana opcija nije privatna. Telegram FOSS se može preuzeti sa F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Levo: Threema, Desno: Simplex
 
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Mediji
 
@@ -346,7 +363,7 @@ Levo: Threema, Desno: Simplex
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) je plejer za podkaste koji vam omogućava da se pretplatite i upravljate svim vašim omiljenim emisijama. AntennaPod je dostupan putem F-Droid-a.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Levo: Spotube, Desno: ViMusic
 
@@ -359,11 +376,11 @@ Ako želite glasovnu pomoć dok vozite i koristite aplikaciju za mape u Graphene
 
 
 - [Magic Earth](https://www.magicearth.com/) je alternativa za mape koja podržava navigaciju korak-po-korak, 3D i offline mape. Magic Earth se može preuzeti iz Aurora Store-a.
-- [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) je alternativna mapa za putnike, turiste, planinare i bicikliste zasnovana na podacima OpenStreetMap-a prikupljenim od strane zajednice. Fokusirana je na privatnost, otvorenog je koda i predstavlja Fork aplikacije Maps.me (ranije poznate kao MapsWithMe). Podržava 100% funkcionalnosti bez aktivne internet veze i može se preuzeti sa F-Droid-a.
+- [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) je alternativna mapa za putnike, turiste, planinare i bicikliste zasnovana na podacima OpenStreetMap-a prikupljenim od strane zajednice. Fokusirana je na privatnost, otvorenog je koda i predstavlja fork aplikacije Maps.me (ranije poznate kao MapsWithMe). Podržava 100% funkcionalnosti bez aktivne internet veze i može se preuzeti sa F-Droid-a.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) je još jedna odlična alternativa za mape koja podržava sve gore navedene funkcije.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Levo: Magic Earth, Desno: Organic Maps
 
@@ -377,7 +394,7 @@ Levo: Magic Earth, Desno: Organic Maps
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) je klijent za e-poštu otvorenog koda koji radi sa gotovo svim provajderima e-pošte. Podržava više naloga, objedinjeni prijemni sandučić i OpenPGP standard enkripcije.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Levo: Proton Mail, Desno: Tutanota
 
@@ -394,7 +411,7 @@ Levo: Proton Mail, Desno: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) je podrazumevana Google tastatura aplikacija. Po mom iskustvu, nudi ubedljivo najbolje iskustvo kucanja i prevlačenja. Ako preuzmete ovu aplikaciju, obavezno potpuno onemogućite sve dozvole vezane za mrežu. Može se preuzeti putem Aurore.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Levo: Notesnook, Desno: KDE Connect
 
@@ -409,7 +426,7 @@ Levo: Notesnook, Desno: KDE Connect
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) je aplikacija za prikazivanje i čuvanje boarding karata, kupona, karata za filmove i članskih kartica itd. Jednostavno preuzmite odgovarajući `pkpass` ili `espass` fajl i otvorite ga pomoću aplikacije. PassAndroid je dostupan putem F-Droid-a.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Levo: Geometrijsko vreme, Desno: Proton kalendar
 
@@ -425,12 +442,21 @@ Levo: Geometrijsko vreme, Desno: Proton kalendar
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) je plaćena, višeplatformska usluga koja šifrira vaše podatke lokalno kako biste ih mogli sigurno otpremiti na vašu omiljenu uslugu u oblaku. Cryptomator se može preuzeti putem F-Droid-a.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-Levo: Proton Pass, Desno: Bitwarden
+Levo: Proton Pass,
+Desno: Bitwarden
 
 
-### Cloud Solutions
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
+### Cloud rešenja
 
 
 
@@ -440,10 +466,12 @@ Levo: Proton Pass, Desno: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) nudi besplatnu, web baziranu, E2EE alternativu za Google Docs.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
 
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Nedostaci
 
@@ -455,16 +483,16 @@ Međutim, kada prelazite na GrapheneOS, postoje određene pogodnosti kojih se mo
 
 
 
-- Apple CarPlay/Android Auto** - Moraćete da se držite dobrog starog Bluetooth-a, USB-a ili Aux-a.
-- Apple/Google Pay** - Gotovo svi ionako nose svoj Wallet sa sobom!
-- Banking apps** - Nije da ove aplikacije uopšte ne rade. Neke rade savršeno. Druge rade samo kada su omogućene Google Play usluge (pročitajte više o tome ispod), a neke jednostavno ne rade uopšte. Pročitajte izveštaj o vašoj banci [ovde](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) da biste videli trenutno stanje. Ne brinite ako je vaša banka na listi onih koje ne rade, zapamtite da jednostavno možete sačuvati URL kao veb aplikaciju na vašem početnom ekranu.
-- Push Notifications** - Većina aplikacija koje vam šalju obaveštenja kada ne koristite određenu aplikaciju to će učiniti putem Google Play Services. Ove usluge nisu instalirane po defaultu sa GrapheneOS, tako da ako ne dobijate obaveštenja odmah kada vam prijatelj pošalje email, verovatno je to razlog. Dobra vest je da su neke od gore pomenutih aplikacija implementirale sopstvenu pozadinsku vezu kako bi periodično proveravale za ažuriranja i zatim vam dale obaveštenje kada je to potrebno.
+- **Apple CarPlay/Android Auto** - Moraćete da se držite dobrog starog Bluetooth-a, USB-a ili Aux-a.
+- **Apple/Google Pay** - Gotovo svi ionako nose svoj novčanik sa sobom!
+- **Bankarske aplikacije** - Nije da ove aplikacije uopšte ne rade. Neke rade savršeno. Druge rade samo kada su omogućene Google Play usluge (pročitajte više o tome ispod), a neke jednostavno ne rade uopšte. Pročitajte izveštaj o vašoj banci [ovde](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) da biste videli trenutno stanje. Ne brinite ako je vaša banka na listi onih koje ne rade, zapamtite da jednostavno možete sačuvati URL kao veb aplikaciju na vašem početnom ekranu.
+- **Push notifikacije** - Većina aplikacija koje vam šalju obaveštenja kada ne koristite određenu aplikaciju to će učiniti putem Google Play Services. Ove usluge nisu instalirane po defaultu sa GrapheneOS, tako da ako ne dobijate obaveštenja odmah kada vam prijatelj pošalje email, verovatno je to razlog. Dobra vest je da su neke od gore pomenutih aplikacija implementirale sopstvenu pozadinsku vezu kako bi periodično proveravale za ažuriranja i zatim vam dale obaveštenje kada je to potrebno.
 
 
 ### Sandboxed Google Play
 
 
-**Imajte na umu da:** GrapheneOS ima kompatibilnost Layer koja pruža opciju za instalaciju i korišćenje zvaničnih izdanja Google Play-a u standardnom peskovniku aplikacija. Google Play ne dobija apsolutno nikakav poseban pristup ili privilegije na GrapheneOS-u za razliku od zaobilaženja peskovnika aplikacija i dobijanja ogromne količine visoko privilegovanog pristupa.
+**Imajte na umu da:** GrapheneOS ima nivo kompatibilnosti koja pruža opciju za instalaciju i korišćenje zvaničnih izdanja Google Play-a u standardnom peskovniku aplikacija. Google Play ne dobija apsolutno nikakav poseban pristup ili privilegije na GrapheneOS-u za razliku od zaobilaženja peskovnika aplikacija i dobijanja ogromne količine visoko privilegovanog pristupa.
 
 
 Ako otkrijete da jednostavno ne možete živeti bez tih push obaveštenja za vašu omiljenu aplikaciju ili je određena aplikacija 'neophodna' beskorisna bez Play Services, GrapheneOS vam omogućava da [instalirate](https://grapheneos.org/usage#sandboxed-google-play-installation) ove servise u potpuno izolovanom okruženju. Kada se instaliraju, ovi servisi ne zahtevaju Google nalog za rad, a dozvole svakog od njih mogu biti strogo kontrolisane.
@@ -476,7 +504,7 @@ Pre nego što požurite da ih instalirate prvog dana, pozivam vas da vidite koli
 Ako želite da ih instalirate, jednostavno dodirnite unapred instaliranu aplikaciju 'Apps', a zatim 'Google Play Services'. Razmislite o njihovoj instalaciji zajedno sa onim manje privatnim aplikacijama bez kojih ne možete da živite, unutar potpuno odvojenog korisničkog profila kako biste obezbedili dodatni Layer nivo razdvajanja od ostatka vašeg telefona.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Ekran za instalaciju Play usluga
 
@@ -495,7 +523,7 @@ Više o ovom slučaju upotrebe možete pročitati [ovde](https://discuss.graphen
 Ako odlučite da dodate poseban profil koji odgovara vašem slučaju upotrebe, aplikacija [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) može vam biti korisna. Insular vam omogućava da lako klonirate bilo koju od vaših postojećih aplikacija na novi profil bez potrebe da prolazite kroz bilo koji od tradicionalnih puteva instalacije pokrivenih ranije u ovom vodiču. Insular takođe omogućava da brzo 'zamrznete' bilo koju od tih aplikacija kako biste potpuno onemogućili sve pozadinske servise te aplikacije da se pokreću.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Ekran za upravljanje korisničkim profilom
 
@@ -503,7 +531,7 @@ Ekran za upravljanje korisničkim profilom
 ### e-Sims
 
 
-Ako želite da podignete privatnost svog telefona na viši nivo i imate mobilnu uslugu koja je odvojena od vašeg stvarnog identiteta, eSIM bi mogao biti za vas. eSIM je virtuelna SIM kartica koju možete kupiti online i dodati na svoj telefon putem QR koda. Kompanije koje nude takve usluge i koje se mogu platiti anonimno sa Bitcoin uključuju [Silent.Link](https://silent.link/) i [Bitrefill](https://www.bitrefill.com/gb/en/esims/).
+Ako želite da podignete privatnost svog telefona na viši nivo i imate mobilnu uslugu koja je odvojena od vašeg stvarnog identiteta, eSIM bi mogao biti za vas. eSIM je virtuelna SIM kartica koju možete kupiti online i dodati na svoj telefon putem QR koda. Kompanije koje nude takve usluge i koje se mogu platiti anonimno sa bitcoinom uključuju [Silent.Link](https://silent.link/) i [Bitrefill](https://www.bitrefill.com/gb/en/esims/).
 
 
 eSIM-ovi ne treba da se posmatraju kao potpuni lek za privatnost telefona. Oni mogu biti koristan alat kada su u pravim rukama, ali molimo vas da istražite [kompromise](https://grapheneos.org/faq#cellular-tracking) korišćenja bilo koje vrste mobilne usluge ako vam je namera da budete potpuno 'van mreže'.
@@ -512,7 +540,7 @@ eSIM-ovi ne treba da se posmatraju kao potpuni lek za privatnost telefona. Oni m
 Sandboxed Play Services mora biti instaliran za eSIM provisioning u GrapheneOS.
 
 
-## Bekapovi
+## Rezervne kopije
 
 
 Nakon što postavite svoj novi Pixel telefon bez Google-a, dobra je ideja da napravite rezervnu kopiju. Ova rezervna kopija će vam omogućiti da vratite telefon u identično stanje u slučaju da izgubite telefon ili da bude izgubljen/ukraden.
@@ -524,7 +552,7 @@ Možete izabrati da sačuvate rezervnu kopiju na bilo koji eksterni medijum za s
 Da biste kreirali svoju prvu rezervnu kopiju:
 
 
-1. Idite na **Settings** > **System** > **Backup**, zatim zapišite svoj 12-reči kod za oporavak. Ovaj kod je potreban za dešifrovanje rezervne kopije datoteke kasnije. Izgubite kod, izgubite pristup rezervnoj kopiji telefona.
+1. Idite na **Settings** > **System** > **Backup**, zatim zapišite svoj kod od 12-reči za oporavak. Ovaj kod je potreban za dešifrovanje rezervne kopije datoteke kasnije. Izgubite kod, izgubite pristup rezervnoj kopiji telefona.
 
 2. Zatim izaberite lokaciju za skladištenje. Preporučio bih eksterni USB disk ili industrijski microSD karticu.
 
@@ -533,13 +561,13 @@ Da biste kreirali svoju prvu rezervnu kopiju:
 4. Dodirnite tri tačke u gornjem desnom uglu i izaberite **Backup now**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Rezervna kopija ekrana
 
 
-Zapamtite da, ako pravite offline rezervne kopije na eksternim medijima za skladištenje, ima smisla redovno završavati ovaj korak kako biste osigurali da se nedavne važne ažuriranja na vašem telefonu ne izgube ako se dogodi najgore.
+Zapamtite da, ako pravite offline rezervne kopije na eksternim medijima za skladištenje, ima smisla redovno izvršavati ovaj korak kako biste osigurali da se nedavna važna ažuriranja na vašem telefonu ne izgube ako se dogodi najgore.
 
 
 ![video](https://www.youtube.com/embed/eyWmcItzisk)
@@ -572,8 +600,10 @@ GrapheneOS je zečja rupa kojom bi svako mogao lako provesti nedelje istražuju�
 
 - [Službeni vodič za korišćenje GrapheneOS-a](https://grapheneos.org/usage) - Službena veb stranica
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Zvanična veb stranica
-- [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video by 'The Privacy Wayfinder'
+- [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video od 'The Privacy Wayfinder'
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast od 'Watchman Privacy'
 
 
-puna zasluga: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ovaj vodič je adaptacija originalnog sadržaja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za početni rad na pisanju.*
+
+

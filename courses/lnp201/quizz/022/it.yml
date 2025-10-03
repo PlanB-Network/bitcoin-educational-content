@@ -1,9 +1,9 @@
 question: Cosa consente di fare la chiave di revoca in caso di imbroglio?
 answer: Recuperare tutti i fondi punendo il truffatore
 wrong_answers:
-  - Annullare la transazione di impegno
+  - Annullare la commitment transaction
   - Raddoppiare la capacità del canale
   - Prevenire ulteriori transazioni nel canale
 explanation: |
   La chiave di revoca consente alla parte lesa di recuperare tutti i fondi in caso di tentativo di truffa da parte dell'altra parte.
-reviewed: false
+reviewed: true

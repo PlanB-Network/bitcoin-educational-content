@@ -1,0 +1,9 @@
+question: Wat zijn volgens Constant de gebieden waarop politieke macht geen invloed heeft?
+answer: Alle bovengenoemde domeinen (religie, wetenschap, industrie).
+wrong_answers:
+  - Religie
+  - Wetenschap
+  - Industrie
+explanation: |
+  Constant is van mening dat de politieke macht zich niet moet bemoeien met zaken als religie, wetenschap en industrie, om de individuele vrijheid en de autonomie van menselijke activiteiten die binnen de privésfeer vallen te behouden.
+reviewed: true

@@ -87,7 +87,7 @@ Nehmen wir ein Beispiel für eine Lightning-Transaktion. Wenn Alice 40.000 Satos
 
 Die **Kanalkapazität**, bei 130.000 Satoshis, bleibt konstant. Was sich ändert, ist die Zuordnung der Mittel. Dieses System erlaubt es nicht, mehr Mittel zu senden, als man besitzt. Zum Beispiel könnte Bob nicht 80.000 Satoshis an Alice zurücksenden, weil er nur 70.000 hat.
 
-Eine andere Art, sich die Zuordnung der Mittel vorzustellen, ist, an einen **Schieberegler** zu denken, der anzeigt, wo die Mittel im Kanal sind. Anfangs, mit 100.000 Satoshis für Alice und 30.000 für Bob, liegt der Schieberegler logischerweise auf Alices Seite. Nach der Transaktion von 40.000 Satoshis wird der Schieberegler sich leicht in Richtung Bobs Seite bewegen, der nun 70.000 Satoshis hat.
+Eine andere Möglichkeit, sich die Verteilung der Mittel vorzustellen, ist, sich einen **Cursor** vorzustellen, der anzeigt, wo sich die Mittel im Kanal befinden. Zu Beginn, mit 100.000 Satoshis für Alice und 30.000 für Bob, befindet sich der Cursor eher auf Bobs Seite, da Alice deutlich mehr Mittel hat. Nach der Transaktion von 40.000 Satoshis wird sich der Cursor leicht in Richtung Alice verschieben, die nun 60.000 Satoshis besitzt.
 
 ![LNP201](assets/en/04.webp)
 
@@ -538,12 +538,12 @@ Um besser zu verstehen, wie Gebühren funktionieren, betrachten wir dasselbe Lig
 Für dieselbe Zahlung von **40.000 Satoshis** an Bob muss Alice ein wenig mehr senden, da jeder Zwischenknoten seine Gebühren abzieht:
 
 - **Carol** zieht 1,04 Satoshis auf dem Kanal mit Bob ab:
-  $$ f*{\text{Carol-Bob}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ Sats} $$
+$$ f_{\text{Carol-Bob}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ Sats} $$
 
 - **Suzie** zieht 8 Satoshis an Gebühren auf dem Kanal mit Carol ab:
-  $$ f*{\text{Suzie-Carol}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ Sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ Sats} $$
 
 Die Gesamtgebühren für diese Zahlung auf diesem Weg betragen daher **9,04 Satoshis**. Somit muss Alice **40.009,04 Satoshis** senden, damit Bob genau **40.000 Satoshis** erhält.
 

@@ -1,0 +1,9 @@
+question: 谁可以对 IPv6 数据包进行分片？
+answer: 仅源主机
+wrong_answers:
+  - 只有第一个中间路由器
+  - 仅限目的地路由器
+  - 所有路由器
+explanation: |
+  在 IPv6 中，分片完全由源主机执行，中间路由器从不执行。
+reviewed: false

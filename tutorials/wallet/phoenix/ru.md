@@ -1,5 +1,5 @@
 ---
-name: Феникс
+name: Phoenix
 description: Установка и использование Phoenix Wallet
 ---
 ![cover](assets/cover.webp)
@@ -115,7 +115,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/18.webp)
 
-Смахните QR-код вправо, чтобы открыть адрес приема биткоинов. Отправьте на него сумму, которую вы хотите внести на счет Phoenix.
+Проведите по QR-коду влево, чтобы увидеть адрес для получения биткойнов. Отправьте на этот адрес сумму, которую хотите внести в Phoenix.
 
 ![Image](assets/fr/19.webp)
 

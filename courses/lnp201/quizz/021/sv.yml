@@ -1,0 +1,9 @@
+question: Hur skyddar tidslåset mot fusk i Commitment-transaktioner?
+answer: Den hindrar den felande parten från att omedelbart återfå sina medel
+wrong_answers:
+  - Den återbetalar automatiskt pengarna till den som fuskat
+  - Den avbryter transaktionen vid försök till bedrägeri
+  - Det blockerar användningen av återkallningsnyckeln
+explanation: |
+  Tidsspärren innebär en fördröjning under vilken den som fuskar inte kan hämta ut sina pengar, vilket ger den andra parten möjlighet att svara.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin işleminin giriş UTXO'ları üzerindeki etkisi nedir?
+answer: Çıktıları karşılamak için bunları tüketir.
+wrong_answers:
+  - İleride başvurmak üzere bunları Blockchain'de arşivler.
+  - İşlemin güvenliğini sağlamak için bunları şifreler.
+  - Yeni UTXO'lar oluşturmak için bunları çoğaltır.
+explanation: |
+  Bir işlemdeki girdi UTXO'ları, çıktıları finanse etmek için tüketilir. Bu bir bakıma paranın kaynağıdır.
+reviewed: false

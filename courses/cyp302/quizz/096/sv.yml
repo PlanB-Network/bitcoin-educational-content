@@ -1,0 +1,9 @@
+question: Vilka är de tre grundläggande stegen i ett MAC-schema?
+answer: Nyckelgenerering, tagggenerering, verifiering
+wrong_answers:
+  - Kryptering, dekryptering, överföring
+  - Generering av offentlig nyckel, kryptering av privat nyckel, validering
+  - Hashning av meddelanden, taggkryptering, taggdistribution
+explanation: |
+  Ett MAC-system består av tre huvudsteg: generering av en hemlig nyckel, framtagning av en tagg för meddelandet och verifiering av att det mottagna meddelandet och dess tagg stämmer överens.
+reviewed: false

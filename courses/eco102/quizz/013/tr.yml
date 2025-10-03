@@ -1,0 +1,9 @@
+question: Frédéric Bastiat'ya göre değerin temeli nedir?
+answer: Yardımcı Program
+wrong_answers:
+  - İşgücü
+  - Kıtlık
+  - Talep
+explanation: |
+  Bastiat, emek ya da kıtlığa dayalı teorilerin aksine, Say'ın faydanın değerin temeli olduğu fikrini benimser.
+reviewed: false

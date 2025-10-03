@@ -86,7 +86,7 @@ Vamos pegar um exemplo de uma transação Lightning. Se Alice quer enviar 40.000
 
 A **capacidade do canal**, em 130.000 satoshis, permanece constante. O que muda é a alocação dos fundos. Esse sistema não permite enviar mais fundos do que se possui. Por exemplo, se Bob quisesse enviar de volta 80.000 satoshis para Alice, ele não poderia, porque ele só tem 70.000.
 
-Outra maneira de imaginar a alocação de fundos é pensar em um **deslizante** que indica onde os fundos estão no canal. Inicialmente, com 100.000 satoshis para Alice e 30.000 para Bob, o deslizante está logicamente do lado de Alice. Após a transação de 40.000 satoshis, o deslizante moverá ligeiramente para o lado de Bob, que agora tem 70.000 satoshis.
+Outra forma de imaginar a alocação dos fundos é imaginar um **cursor** que indica onde estão os fundos no canal. No início, com 100.000 satoshis para Alice e 30.000 para Bob, o cursor está mais do lado de Bob, pois Alice tem muito mais fundos. Após a transação de 40.000 satoshis, o cursor se moverá ligeiramente para o lado de Alice, que agora possui 60.000 satoshis.
 
 ![LNP201](assets/en/04.webp)
 
@@ -536,12 +536,12 @@ Para entender melhor como funcionam as taxas, vamos estudar a mesma Rede Lightni
 Para o mesmo pagamento de **40.000 satoshis** para Bob, Alice terá que enviar um pouco mais, já que cada nó intermediário deduzirá suas taxas:
 
 - **Carol** deduz 1,04 satoshis no canal com Bob:
-  $$ f*{\text{Carol-Bob}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats} $$
 
 - **Suzie** deduz 8 satoshis em taxas no canal com Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ sats} $$
 
 As taxas totais para este pagamento neste caminho são, portanto, **9,04 satoshis**. Assim, Alice deve enviar **40.009,04 satoshis** para que Bob receba exatamente **40.000 satoshis**.
 

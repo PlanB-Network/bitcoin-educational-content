@@ -1,0 +1,4 @@
+description: |
+  Amboss 是一個提供資料、洞察力和協調工具的平台，可用於管理 Bitcoin Lightning Network 通路。
+  
+  它主要使用來自 Bitcoin Lightning 節點的網路小道消息來提供相關資訊。該平台還包括用於進行操作的 API，以及專用的流動性市場 Magma。憑藉其從 Commitment 到數據驅動的洞察力，Amboss 為高效和知情的 Lightning Network 管理提供了全面的解決方案。

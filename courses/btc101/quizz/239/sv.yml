@@ -1,0 +1,13 @@
+question: Vad är Bitcoin:s koppling till framtidens teknik och samhälle?
+answer: Bitcoin är en teknisk revolution som gör det möjligt att Exchange av värde utan någon betrodd tredje part.
+wrong_answers:
+  - Bitcoin är en form av AI-teknik som gör det möjligt för människor att Exchange-information via en central server.
+  - Bitcoin är ett verktyg för att kontrollera världens befolkning och därmed avskaffa fattigdom.
+  - Bitcoin är en metod för regeringar att spåra sina medborgares finansiella transaktioner.
+explanation: |
+  Texten förklarar att Bitcoin, precis som internet för kommunikationsmedel
+  för kommunikation, är en teknisk revolution som skapar
+  skapar möjligheter för nya sätt att organisera storskaligt
+  storskalig organisation, vilket ger oss möjligheten att utbyta
+  värde utan någon betrodd tredje part.
+reviewed: true

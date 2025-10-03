@@ -1,0 +1,9 @@
+question: Wat is het potentiële gevaar van het gebruik van gekraakte software die niet kan worden bijgewerkt?
+answer: De komst van een virus tijdens het illegaal downloaden en een onveilig gebruik tegen nieuwe vormen van aanvallen.
+wrong_answers:
+  - De software stopt na een bepaalde periode met werken.
+  - De software zal geen nieuwe functies hebben.
+  - De software verbruikt meer systeembronnen.
+explanation: |
+  Gekraakte software die niet kan worden bijgewerkt, vormt een dubbele potentiële bedreiging. Het kan een virus meebrengen tijdens het illegaal downloaden van een verdachte website en kwetsbaar zijn voor nieuwe vormen van aanvallen.
+reviewed: true

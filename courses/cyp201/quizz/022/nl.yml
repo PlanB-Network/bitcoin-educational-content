@@ -1,0 +1,9 @@
+question: Hoe wordt een openbare sleutel berekend uit een privésleutel?
+answer: Door scalaire vermenigvuldiging te gebruiken op de elliptische curve
+wrong_answers:
+  - Door een Hash toe te passen op de privésleutel
+  - Door asymmetrische versleuteling
+  - Met herhaalde toevoeging van numerieke waarden
+explanation: |
+  De openbare sleutel wordt verkregen door de scalaire vermenigvuldiging van de privésleutel met het generatorpunt G op de elliptische curve.
+reviewed: false

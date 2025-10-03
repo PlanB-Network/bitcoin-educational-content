@@ -1,0 +1,9 @@
+question: Ni aina gani ya vifaa vinavyotumika leo kuchimba Bitcoin kwa ufanisi?
+answer: ASIC
+wrong_answers:
+  - CPU ya kawaida
+  - GPU
+  - FPGA
+explanation: |
+  Leo, Bitcoin Mining inafanywa kwa kutumia ASICs. Hizi ni chipsi maalum za algorithm ya SHA-256.
+reviewed: true

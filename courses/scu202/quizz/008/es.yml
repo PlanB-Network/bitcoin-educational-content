@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal inconveniente del ecosistema macOS?
+answer: Confinamiento y dependencia de Apple
+wrong_answers:
+  - Demasiada apertura del software
+  - Escasa optimización gráfica
+  - Falta de actualizaciones
+explanation: |
+  La estrecha integración de MacOS con el hardware de Apple conduce a la dependencia y al bloqueo en el ecosistema propietario de la marca.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Wat is het concept van afnemend marginaal nut?
+answer: Elke extra eenheid van een goed is minder gewenst dan de vorige.
+wrong_answers:
+  - Elke extra eenheid van een goed is meer gewenst dan de vorige.
+  - Elke extra eenheid van een goed is even gewild als de vorige.
+  - Het verlangen naar elke extra eenheid van een goed fluctueert onvoorspelbaar.
+explanation: |
+  Het concept van afnemend marginaal nut stelt dat elke
+  extra eenheid van een goed minder gewenst is dan de
+  voorgaande. Dit komt doordat naarmate een individu meer
+  van een goed, hoe minder nut elke extra eenheid van dat
+  goed oplevert.
+reviewed: true

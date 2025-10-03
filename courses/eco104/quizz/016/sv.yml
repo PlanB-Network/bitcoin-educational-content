@@ -1,0 +1,14 @@
+question: Vad är det första du bör göra för att minimera risken för förlust när du tar egen förvaring?
+answer: Säkerhetskopiera din Wallet-återställning seed-fras
+wrong_answers:
+  - Dela dina privata nycklar med en betrodd part
+  - Anteckna din seed-fras för återställning och spara den på din dator
+  - Inaktivera tvåfaktorsautentisering (2FA)
+explanation: |
+  Först och främst ska du säkerhetskopiera din Wallet när du tar egen vårdnad.
+  Hårdvaruplånböcker levereras med en seed-återställningsfras, en uppsättning ord som
+  kan användas för att återställa dina privata nycklar om din enhet försvinner eller skadas.
+  Skapa en fysisk kopia, t.ex. en [seed-platta] i metall (https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), av denna seed-fras och
+  förvara den på en säker plats. Det är viktigt att hålla denna återhämtning seed-fras säker.
+  Dela den ALDRIG med någon.
+reviewed: true

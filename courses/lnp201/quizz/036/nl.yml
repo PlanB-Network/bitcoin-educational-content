@@ -1,0 +1,9 @@
+question: Aan welke voorwaarde moet de ontvanger van een HTLC voldoen om de fondsen te ontvangen?
+answer: Ze moeten een geheim (preimage) opgeven om de betaling te ontgrendelen.
+wrong_answers:
+  - Ze moeten de routeringskosten van elk tussenliggend knooppunt accepteren.
+  - Ze moeten een nieuwe Commitment Transaction ondertekenen.
+  - Ze moeten wachten tot het tijdslot is verlopen voordat ze het geld kunnen ophalen.
+explanation: |
+  Om het geld in een HTLC te ontvangen, moet de ontvanger een specifiek geheim opgeven waarmee de betaling beveiligd door de Hash kan worden ontgrendeld.
+reviewed: false

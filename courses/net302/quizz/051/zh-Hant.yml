@@ -1,0 +1,9 @@
+question: 什麼機制可讓內部服務透過 NAT 從外部存取？
+answer: 連接埠轉送
+wrong_answers:
+  - 封包分割
+  - RIP 路由
+  - NAT 壓縮
+explanation: |
+  埠轉送允許外部連線透過 NAT 閘道轉送至特定的內部主機。
+reviewed: false

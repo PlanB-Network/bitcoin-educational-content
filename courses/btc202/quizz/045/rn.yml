@@ -1,0 +1,9 @@
+question: Ni intambwe izihe zitegerezwa kurangira imbere y’uko UmbrelOS ishobora gushirwako?
+answer: Rema urufunguzo rwa USB rushobora gufungurwa n'ishusho
+wrong_answers:
+  - Gukoranya kode y'inkomoko ya Bitcoin core
+  - Gutegura igitabu Blockchain.
+  - Rema konti kuri umbrel.com
+explanation: |
+  Gushiramwo bitangura no gutegura urufunguzo rwa USB rushobora gufungurwa n’UmbrelOS biciye kuri Balena Etcher.
+reviewed: true

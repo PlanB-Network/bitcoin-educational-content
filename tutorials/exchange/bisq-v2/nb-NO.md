@@ -54,7 +54,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Mulighet for å brenne BSQ eller skape BSQ-obligasjoner
 - Potensielt høyere salgspremie (10-15 % over markedet)
 
-**Når Bisq Multisig-protokollen er implementert i Bisq 2, kan den gamle versjonen av Bisq fases ut. Bisq 1 vil imidlertid fortsatt bli brukt som administrasjonsverktøy for Bisq CAD og for BSQ-BTC-børser.
+**Når Bisq Multisig-protokollen er implementert i Bisq 2, kan den gamle versjonen av Bisq fases ut. Bisq 1 vil imidlertid fortsatt bli brukt som administrasjonsverktøy for Bisq CAD og for BSQ-BTC-børser.**
 
 ### Utvekslingsprosess
 
@@ -327,37 +327,37 @@ For å forbedre omdømmet ditt som selger på Bisq bør du gjennomføre regelmes
 ### Fordeler med Bisq 2
 
 
-- Maksimal konfidensialitet**: Ingen KYC, bruk av Tor
-- Desentralisering**: Ingen sentral server
-- Sikkerhet**: Åpen kildekode, ikke-frihetsberøvende kode
-- Intuitivt grensesnitt**: enklere enn Bisq 1
-- Fleksibilitet**: Flere utvekslingsprotokoller
+- **Maksimal konfidensialitet**: Ingen KYC, bruk av Tor
+- **Desentralisering**: Ingen sentral server
+- **Sikkerhet**: Åpen kildekode, ikke-frihetsberøvende kode
+- **Intuitivt grensesnitt**: enklere enn Bisq 1
+- **Fleksibilitet**: Flere utvekslingsprotokoller
 
 ### Ulemper med Bisq 2
 
 
-- Begrenset likviditet** (for øyeblikket) :
+- **Begrenset likviditet** (for øyeblikket):
  - Ny protokoll i oppstartsfasen
  - Få salgstilbud tilgjengelig
  - Potensielt lang ventetid på å finne en kjøper
-- Handelsgrenser**: Maksimalt USD 600 per transaksjon (med Bisq easy)
-- Kun for datamaskiner**: Ingen mobilapplikasjon
+- **Handelsgrenser**: Maksimalt USD 600 per transaksjon (med Bisq easy)
+- **Kun for datamaskiner**: Ingen mobilapplikasjon
 
 ## Fremtidige protokoller
 
 Selv om Bisq Easy for øyeblikket er den eneste tilgjengelige protokollen, er flere andre protokoller under utvikling for Bisq 2 :
 
 
-- Bisq Lightning**: Utvekslingsprotokoll basert på et escrow-system som bruker flerpartskryptografi på Lightning-nettverket.
-- Bisq MuSig**: Migrering av hovedprotokollen fra Bisq 1 til Bisq 2, ved hjelp av en 2-på-2 multisig med sikkerhetsdepositum.
-- BSQ-bytter**: Øyeblikkelige atombytter mellom BSQ og BTC.
-- Liquid Swaps**: Utveksling av eiendeler på Liquid-nettverket (USDT, BTC-L) via atombytter.
-- Monero Swaps**: Atomutveksling mellom Bitcoin og Monero.
-- Liquid MuSig**: En versjon av multisig-protokollen som bruker L-BTC for lavere kostnader og større konfidensialitet.
-- Submarine bytter**: Utvekslinger mellom Bitcoin på Lightning-nettverket og Bitcoin på kjeden.
-- Stablecoin-bytter**: Atomutveksling mellom Bitcoin og USD stablecoins.
-- Multisig-opsjoner**: Opprettelse av P2P-salgs- og kjøpsopsjoner med BTC-blokkering i en multisig-transaksjon i kjeden.
-- Multisig åpne kontrakter**: Gjør det mulig å opprette tilpassede betingede kontrakter ved hjelp av et 2-på-3 multisig-system med arbitrasje.
+- **Bisq Lightning**: Utvekslingsprotokoll basert på et escrow-system som bruker flerpartskryptografi på Lightning-nettverket.
+- **Bisq MuSig**: Migrering av hovedprotokollen fra Bisq 1 til Bisq 2, ved hjelp av en 2-på-2 multisig med sikkerhetsdepositum.
+- **BSQ-bytter**: Øyeblikkelige atombytter mellom BSQ og BTC.
+- **Liquid Swaps**: Utveksling av eiendeler på Liquid-nettverket (USDT, BTC-L) via atombytter.
+- **Monero Swaps**: Atomutveksling mellom Bitcoin og Monero.
+- **Liquid MuSig**: En versjon av multisig-protokollen som bruker L-BTC for lavere kostnader og større konfidensialitet.
+- **Submarine bytter**: Utvekslinger mellom Bitcoin på Lightning-nettverket og Bitcoin på kjeden.
+- **Stablecoin-bytter**: Atomutveksling mellom Bitcoin og USD stablecoins.
+- **Multisig-opsjoner**: Opprettelse av P2P-salgs- og kjøpsopsjoner med BTC-blokkering i en multisig-transaksjon i kjeden.
+- **Multisig åpne kontrakter**: Gjør det mulig å opprette tilpassede betingede kontrakter ved hjelp av et 2-på-3 multisig-system med arbitrasje.
 
 Disse protokollene er under utvikling og vil gradvis bli integrert i Bisq 2, noe som vil gi brukerne større fleksibilitet i henhold til deres spesifikke behov.
 

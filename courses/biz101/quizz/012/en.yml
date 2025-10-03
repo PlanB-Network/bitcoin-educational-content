@@ -6,4 +6,4 @@ wrong_answers:
   - Because it stores user balances in the body of an email.
 explanation: |
   Just as email revolutionized communication by removing intermediaries and enabling anyone to send messages worldwide, the Lightning Network simplifies and speeds up transactions, making value transfer as frictionless and accessible as email.
-reviewed: false
+reviewed: true

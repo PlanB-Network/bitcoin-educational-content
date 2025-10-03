@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste voordeel van een wachtwoordmanager?
+answer: Slechts één hoofdwachtwoord onthouden.
+wrong_answers:
+  - Geen nieuwe wachtwoorden meer aanmaken.
+  - Alle wachtwoorden uit het hoofd leren met Mnemonic technieken.
+  - Online accounts zijn niet meer nodig.
+explanation: |
+  De gebruiker hoeft maar één wachtwoord te onthouden om toegang te krijgen tot alle andere wachtwoorden.
+reviewed: true

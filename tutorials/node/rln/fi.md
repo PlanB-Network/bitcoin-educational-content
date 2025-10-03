@@ -1,5 +1,5 @@
 ---
-name: RGB-salamasolmu
+name: RGB Lightning Node
 description: Miten käynnistän RGB-yhteensopivan Lightning-solmun RLN:llä?
 ---
 ![cover](assets/cover.webp)
@@ -67,17 +67,17 @@ Tämän komennon jälkeen `rgb-lightning-node` on käytettävissäsi `$CARGO_HOM
 Toimiakseen `rgb-lightning-node` -demoni tarvitsee :
 
 
-- `bitcoind`**-solmu
+- `bitcoind`**-solmu**
 
 Jokaisen RLN-instanssin on kommunikoitava `bitcoind`:n kanssa, jotta se voi lähettää ja seurata ketjussa tapahtuvia transaktioitaan. Demonille on annettava tunnistautuminen (käyttäjätunnus/salasana) ja URL-osoite (host/portti).
 
 
-- Indeksilaite** (Electrum tai Esplora)
+- **Indeksilaite** (Electrum tai Esplora)
 
 Daemonilla on voitava luetella ja tutkia ketjussa tapahtuvia transaktioita ja erityisesti löytää UTXO, johon omaisuuserä on ankkuroitu. Sinun on määritettävä Electrum-palvelimesi tai Esploran URL-osoite.
 
 
-- RGB**-välityspalvelin
+- **RGB-välityspalvelin**
 
 Välityspalvelin on komponentti (valinnainen, mutta erittäin suositeltava), joka yksinkertaistaa RGB-luokitusten vaihtoa Lightning-vertaisverkon välillä. Jälleen kerran URL-osoite on määritettävä.
 

@@ -1,0 +1,9 @@
+question: Mengapa HDD tidak direkomendasikan untuk node Bitcoin?
+answer: Karena secara signifikan memperlambat IBD dan penggunaan umum
+wrong_answers:
+  - Karena tidak dapat menyimpan file Blockchain
+  - Karena mengkonsumsi terlalu sedikit energi dan berisiko meledak
+  - Karena tidak kompatibel dengan Bitcoin core
+explanation: |
+  Cakram mekanis membatasi kinerja, memperpanjang IBD secara signifikan, dan cepat aus di bawah beban simpul.
+reviewed: true

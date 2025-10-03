@@ -1,0 +1,9 @@
+question: デバイスにIP Addressを動的に割り当てるプロトコルはどれか？
+answer: ディーエイチシーピー
+wrong_answers:
+  - アープ
+  - DNS
+  - ナット
+explanation: |
+  DHCPプロトコルは、ネットワーク上のデバイスにIPアドレスを自動的に割り当て、Addressの管理を簡素化します。
+reviewed: false

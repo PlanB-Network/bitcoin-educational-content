@@ -1,0 +1,9 @@
+question: Ni programu gani isiyolipishwa ya jukwaa-msingi inaweza kutumika kuunda faili ya kontena iliyosimbwa kwa njia fiche ambayo inaweza kupachikwa kama diski pepe?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Kitu cha kusawazisha
+  - WinRAR
+explanation: |
+  VeraCrypt hukuruhusu kuunda vyombo vilivyosimbwa kwa njia fiche ambavyo vinaweza kufikiwa kama diski pepe kwenye OS zote kuu.
+reviewed: false

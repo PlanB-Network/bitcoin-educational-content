@@ -1,5 +1,5 @@
 ---
-term: op_1negate (0x4f)
+term: OP_1NEGATE (0x4F)
 
 ---
 将数值 `-1` 推入堆栈。脚本中使用此操作码表示负值 `-1`。

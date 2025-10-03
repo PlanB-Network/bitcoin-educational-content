@@ -1,0 +1,9 @@
+question: ネットワークに接続されたデバイスにローカルIP Addressを動的に割り当てるプロトコルはどれか？
+answer: ディーエイチシーピー
+wrong_answers:
+  - HTTP
+  - ファイル転送プロトコル
+  - DNS
+explanation: |
+  DHCPは、ローカルネットワークに接続された新しいデバイスにIP Addressを自動的に割り当てます。
+reviewed: false

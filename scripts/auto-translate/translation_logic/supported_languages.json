@@ -73,10 +73,22 @@
       "code_translator": "JA"
     },
     {
+      "code": "ko",
+      "name": "Korean",
+      "translator": "deepl",
+      "code_translator": "KO"
+    },
+    {
       "code": "nb-NO",
       "name": "Norwegian",
       "translator": "deepl",
       "code_translator": "NB"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "translator": "deepl",
+      "code_translator": "NL"
     },
     {
       "code": "pl",
@@ -89,6 +101,12 @@
       "name": "Portuguese",
       "translator": "deepl",
       "code_translator": "PT-PT"
+    },
+    {
+      "code": "rn",
+      "name": "Rundi",
+      "translator": "google",
+      "code_translator": "RN"
     },
     {
       "code": "ro",
@@ -131,6 +149,12 @@
       "name": "Thai",
       "translator": "openai",
       "code_translator": "Thai"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "translator": "deepl",
+      "code_translator": "TR"
     },
     {
       "code": "vi",

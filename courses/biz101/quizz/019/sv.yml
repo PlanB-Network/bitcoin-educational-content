@@ -1,0 +1,9 @@
+question: Varför betraktas volatilitet som en naturlig aspekt av Bitcoin som en ny tillgång?
+answer: Eftersom Bitcoin fortfarande är relativt ung, lockar till sig spekulanter och reagerar på marknadsnyheter, vilket orsakar prissvängningar innan de stabiliseras under längre perioder.
+wrong_answers:
+  - För att den är centralstyrd och priserna sätts av en myndighet.
+  - Eftersom Bitcoin saknar några användare som håller det långsiktigt.
+  - Eftersom handlarna måste sätta priserna oförutsägbart varje timme.
+explanation: |
+  Som en tillgång under utveckling påverkas Bitcoin:s pris av spekulationer, känslor och varierande antagningshastigheter. Med tiden, när mer stabila, långsiktiga ägare deltar, kan volatiliteten minska, men det är fortfarande en del av tillväxten i ett tidigt skede.
+reviewed: false

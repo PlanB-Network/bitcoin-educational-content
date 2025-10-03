@@ -1,0 +1,9 @@
+question: Que protocolo é utilizado principalmente para identificar cada equipamento na Internet?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  O Protocolo Internet (IP) atribui a cada dispositivo um Address único e permite o encaminhamento de pacotes de dados.
+reviewed: false

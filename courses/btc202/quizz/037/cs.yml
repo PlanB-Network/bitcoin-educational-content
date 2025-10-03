@@ -1,0 +1,9 @@
+question: Jaký typ stroje je prezentován jako nejlepší kompromis pro domácí uzel Bitcoin?
+answer: Mini PC typu NUC
+wrong_answers:
+  - Přenosný počítač
+  - Superpočítač
+  - Herní konzole
+explanation: |
+  Mini počítače (NUC, Tiny, OptiPlex Micro...) mají nízkou spotřebu energie, jsou spolehlivé a snadno se přizpůsobují, takže jsou ideálním kompromisem.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä on paras suositeltava älypuhelimen näytön lukitusmenetelmä?
+answer: Aakkosnumeerinen salasana
+wrong_answers:
+  - Graafinen kaavio
+  - Kasvontunnistus
+  - Ei lukitusta
+explanation: |
+  Aakkosnumeeriset salasanat kestävät parhaiten luvattomia pääsyyrityksiä, toisin kuin graafiset järjestelmät tai biometriikka.
+reviewed: false

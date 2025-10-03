@@ -1,0 +1,9 @@
+question: Standart uzunluktaki bir RC4 anahtar akışını örnekte sunulan basitleştirilmiş versiyondan ayıran nedir?
+answer: Standart RC4'te S dizisinin uzunluğu 256 bayttır
+wrong_answers:
+  - S dizisi 128 bayt ile sınırlıdır
+  - Kullanılan anahtar 8 bayttan fazla olmalıdır
+  - Standart RC4'te S için sabit bir uzunluk yoktur
+explanation: |
+  Standart RC4'te S dizisi 256 bayt içerir, bu da hesaplamaların karmaşıklığını önemli ölçüde artırır ve yalnızca 8 baytlık basitleştirilmiş versiyona kıyasla güvenliği artırır.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Koju revoluciju je Frédéric Bastiat iskusio izbliza kao poslanik?
-answer: Revolucija 1848
+answer: Revolucija 1848.
 wrong_answers:
-  - Revolucija 1830
-  - Revolucija 1871
-  - Revolucija iz 1789
+  - Revolucija 1830.
+  - Revolucija 1871.
+  - Revolucija iz 1789.
 explanation: |
   Bastiat je bio svedok revolucije 1848. godine, koja je uspostavila Drugu Republiku i dovela do njegovog izbora za poslanika.
 reviewed: false

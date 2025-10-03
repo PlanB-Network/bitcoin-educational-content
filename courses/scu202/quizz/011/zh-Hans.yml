@@ -1,0 +1,9 @@
+question: 自由软件运动和开放源码之间的主要区别是什么？
+answer: 优先考虑自由或技术效率
+wrong_answers:
+  - 使用 C 语言或汇编语言
+  - 本地或 PC 移动应用程序开发
+  - 国际社会的存在与否
+explanation: |
+  自由软件关乎用户自由，开放源代码则关乎透明度和技术效率。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Porque é que a encriptação total do disco ou da chave USB é crucial para a segurança dos seus dados?
+answer: Impede o acesso não autorizado aos ficheiros
+wrong_answers:
+  - Acelera a leitura e escrita de ficheiros
+  - Protege contra falhas de hardware
+  - Facilita a partilha de discos
+explanation: |
+  A encriptação total torna os dados completamente inutilizáveis sem a chave ou a palavra-passe, mesmo que um atacante possua fisicamente o disco.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Giao thức Layer thứ hai nào cho phép thanh toán gần như ngay lập tức?
+answer: Lightning Network
+wrong_answers:
+  - Chuỗi bên
+  - RGB
+  - Lõi Bitcoin
+explanation: |
+  Lightning Network cho phép thực hiện các giao dịch nhanh chóng và chi phí thấp thông qua các hoạt động của off-chain bên ngoài Bitcoin Blockchain.
+reviewed: false

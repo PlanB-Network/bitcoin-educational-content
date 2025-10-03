@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru gishobora gutuma umuntu agira ico akora ku bijanye n’ivyo gukoresha igihe kimwe?
+answer: Urufunguzo rutegerezwa kuba rurerure nk'ubutumwa kandi ntirusubire gukoreshwa .
+wrong_answers:
+  - Urufunguzo rutegerezwa guhindurwa buri musi .
+  - Urufunguzo rutegerezwa kuba rurerure incuro zitatu ubutumwa .
+  - Urufunguzo rutegerezwa kubikwa ku gifaransa Minitel .
+explanation: |
+  Urufunguzo ruri mu gitabu c’igihe kimwe rutegerezwa kuba rurerure nk’ubutumwa kandi ntirwigere rusubira gukoreshwa, ivyo bikaba bigorana cane gukoreshwa mu bikorwa. Ivyo ni kubera ko iyo umuntu ashobora gutanga amakuru igihe kirekire nk’ubutumwa mu buryo butekanye, vyoba vyiza atanga ubutumwa ataco akora aho gutanga urufunguzo.
+reviewed: false

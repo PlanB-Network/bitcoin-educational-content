@@ -1,0 +1,9 @@
+question: 在匿名性方面，Signal 的主要缺點是什麼？
+answer: 它需要使用電話號碼
+wrong_answers:
+  - 這不是開放原始碼
+  - 它將訊息儲存在中央伺服器上
+  - 它不會加密交換的檔案
+explanation: |
+  Signal 需要電話號碼才能註冊，即使協定確保了強大的加密功能，這也會帶來潛在的可追蹤性。
+reviewed: false

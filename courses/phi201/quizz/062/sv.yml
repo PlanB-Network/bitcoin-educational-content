@@ -1,0 +1,9 @@
+question: Vad var Bibelns inställning till utlåning mot ränta?
+answer: Det var förbjudet.
+wrong_answers:
+  - Det uppmuntrade det.
+  - Den tolererade det i vissa fall.
+  - Det hade ingen åsikt i frågan.
+explanation: |
+  Bibeln förbjuder utlåning mot ränta, särskilt i Gamla testamentet, där utlåning mot ränta bland samhällsmedlemmar ses som omoraliskt och i strid med solidaritetsvärderingarna.
+reviewed: true

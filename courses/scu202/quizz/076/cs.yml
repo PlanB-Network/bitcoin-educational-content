@@ -1,0 +1,9 @@
+question: Proč používat aplikaci firewallu, jako je NetGuard nebo RethinkDNS, v systému Android?
+answer: Řízení jednotlivých připojení k internetu
+wrong_answers:
+  - Automatické ukládání všech dat
+  - Odblokování všech sítí Wi-Fi
+  - Odinstalujte všechny viry
+explanation: |
+  Tyto aplikace fungují jako místní brány firewall a umožňují blokovat nebo povolovat odchozí přenosy podle jednotlivých aplikací.
+reviewed: false

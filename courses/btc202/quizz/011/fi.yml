@@ -1,0 +1,9 @@
+question: Miksi Miner tarvitsee Bitcoin-solmun?
+answer: Vuorovaikutus verkon kanssa ja lohkojen jakaminen
+wrong_answers:
+  - generate:n digitaaliset allekirjoitukset
+  - Address-toimituksen syöttäminen Coinbase Transaction:een
+  - Mining:n vaikeuksien vähentämiseksi
+explanation: |
+  Louhijat käyttävät solmua kommunikoidakseen verkon kanssa, siirtääkseen lohkojaan ja vastaanottaakseen transaktioita.
+reviewed: true

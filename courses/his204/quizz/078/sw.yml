@@ -1,0 +1,8 @@
+question: Je, ni hoja gani ya Turgot katika Valeurs et monnaie?
+answer: Thamani ya vitu inategemea uthamini wa kibinafsi wa watu
+wrong_answers:
+  - Thamani ya vitu inategemea sifa zao za ndani
+  - Tunaweza tu kupima thamani ya vitu kwa pesa
+  - Thamani imedhamiriwa na kazi
+explanation: |
+  Turgot inatetea nadharia ya thamani, kulingana na ambayo thamani ya nzuri inategemea matumizi ambayo hutoa kwa mtu binafsi na shukrani yake binafsi.

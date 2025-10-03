@@ -1,0 +1,9 @@
+question: I vilket populärekonomiskt verk återkommer Henri Hazlitt till Bastiats exempel med det trasiga fönstret?
+answer: Ekonomi i en lektion
+wrong_answers:
+  - 49 lektioner i ekonomi
+  - Freakonomics
+  - Konsten att vara ekonom
+explanation: |
+  Henri Hazlitt använder i Economics in One Lesson exemplet med det trasiga fönstret för att illustrera de dolda konsekvenserna av den ekonomiska politiken.
+reviewed: false

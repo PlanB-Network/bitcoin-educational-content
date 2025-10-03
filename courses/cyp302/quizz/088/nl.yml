@@ -1,0 +1,9 @@
+question: Wat is het blokversleutelingsalgoritme van de AES-standaard?
+answer: Het Rijndael-cijfer
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Het Rijndael-cijfer is door NIST aangenomen als symmetrische versleutelingsstandaard (AES) vanwege de hoge prestaties en veiligheid.
+reviewed: false

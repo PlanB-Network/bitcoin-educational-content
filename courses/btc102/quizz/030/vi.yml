@@ -1,0 +1,9 @@
+question: Phương pháp phân lớp mang lại lợi thế chính nào cho Bitcoin?
+answer: Duy trì tính bảo mật của giao thức cơ sở
+wrong_answers:
+  - Tăng cường tập trung mạng lưới chính
+  - Đổi mới nhanh chóng trên giao thức cơ sở
+  - Có các tính năng giống nhau trên các lớp như trên giao thức cơ sở
+explanation: |
+  Phương pháp tiếp cận theo lớp cho phép thêm chức năng mà không ảnh hưởng đến tính bảo mật và tính đơn giản của giao thức cơ sở.
+reviewed: false

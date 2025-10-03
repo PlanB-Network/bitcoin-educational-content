@@ -1,0 +1,9 @@
+question: Vad är den största sårbarheten med svaga lösenord när de är hashade?
+answer: De är sårbara för ordboksattacker
+wrong_answers:
+  - De kan inte verifieras genom hashing
+  - De har alltid generate-kollisioner
+  - De kräver längre hashing för högre säkerhet
+explanation: |
+  Svaga lösenord kan lätt återskapas från Hash med hjälp av ordboksattacker, vilket gör att valet av lösenord är viktigt för att garantera säkerheten.
+reviewed: false

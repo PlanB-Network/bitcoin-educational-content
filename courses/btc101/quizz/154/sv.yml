@@ -1,0 +1,8 @@
+question: Vad är den största farhågan när det gäller miljökostnaderna för Bitcoin Mining?
+answer: Energiförbrukningen.
+wrong_answers:
+  - Produktion av ASICs.
+  - Återvinning av ASICs.
+  - Kostnaden för elektricitet.
+explanation: >-
+reviewed: true

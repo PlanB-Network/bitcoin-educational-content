@@ -1,0 +1,9 @@
+question: Wat is het sleutelelement dat ervoor zorgt dat Bob een actief ontvangt tijdens een State Transition in RGB?
+answer: Een nieuwe Seal Definition wijst naar Bob's UTXO
+wrong_answers:
+  - Een controletransactie zonder verwijzing naar een UTXO
+  - Een publieke verklaring van Alice
+  - Een dubbele signatuur gedeeld door Alice en Bob
+explanation: |
+  De Seal Definition koppelt het goed cryptografisch aan de UTXO van Bob, zodat hij zeker weet dat hij de eigenaar is.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What should you avoid doing with USB flash drives?
+answer: Connecting unknown USB sticks
+wrong_answers:
+  - Use NTFS-formatted USB sticks
+  - Encrypt your own USB sticks
+  - Use new USB flash drives
+explanation: |
+  Plugging in an unknown USB stick can infect the computer with malware or steal sensitive data.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on VPN-i peamine eesmärk, kui surfate avalikus WiFi-võrgus?
+answer: Seadme ja VPN-serveri vahelise liikluse krüpteerimine
+wrong_answers:
+  - Anonüümseks muuta oma Interneti-ühendus
+  - Paigaldage uuendused automaatselt
+  - generate tugevad paroolid
+explanation: |
+  VPN krüpteerib kogu võrguliikluse, kaitstes teie andmeid pealtkuulamise eest turvamata võrkudes, näiteks avalikes WiFi-võrkudes.
+reviewed: false

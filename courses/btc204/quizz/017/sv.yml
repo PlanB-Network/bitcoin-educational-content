@@ -1,0 +1,9 @@
+question: Vad är termen för information som kopplar ett knippe On-Chain-aktiviteter till en form av verklig identitet?
+answer: En ingångspunkt.
+wrong_answers:
+  - En kopplingsnyckel.
+  - En fingeravtryckslänk.
+  - En analysmarkör.
+explanation: |
+  Beteenden och information som kan koppla en verklig identitet till On-Chain-aktivitet kallas ingångspunkter.
+reviewed: false

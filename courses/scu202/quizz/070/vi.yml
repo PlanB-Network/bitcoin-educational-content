@@ -1,0 +1,9 @@
+question: MicroG được tích hợp vào CalyxOS là gì?
+answer: Việc triển khai lại miễn phí các dịch vụ của Google
+wrong_answers:
+  - Trình quản lý quyền
+  - VPN nguồn mở dành cho Android
+  - Phần mềm diệt vi-rút độc quyền của Google
+explanation: |
+  MicroG là một giải pháp thay thế nguồn mở cho phép bạn chạy các ứng dụng phụ thuộc vào Google API mà không cần cài đặt các tệp nhị phân chính thức.
+reviewed: false

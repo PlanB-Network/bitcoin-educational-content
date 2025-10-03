@@ -1,0 +1,9 @@
+question: Constant'ın savunduğu kamusal alan ile özel alan arasındaki katı sınır ne anlama gelmektedir?
+answer: Bu sınır, Devletin bireylerin özel hayatlarına müdahale etmemesi gerektiği anlamına gelir.
+wrong_answers:
+  - Bu sınır, bireylerin kamu işlerine karışmaması gerektiği anlamına gelir.
+  - Bu sınır, Kilise ile Devlet arasında tam bir ayrılık anlamına gelmektedir.
+  - Bu sınır, bireylerin hem kamusal hem de özel alanda aynı özgürlüklere sahip olması gerektiği anlamına gelir.
+explanation: |
+  Benjamin Constant'a göre, kamusal ve özel alanlar arasındaki katı sınır, Devletin bireylerin mahremiyetine saygı göstermesi ve kamusal alanı ilgilendirmeyen kişisel tercihlere müdahaleden kaçınması gerektiği anlamına gelir.
+reviewed: true

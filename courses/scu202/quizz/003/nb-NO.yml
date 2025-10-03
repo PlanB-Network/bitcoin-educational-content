@@ -1,0 +1,9 @@
+question: Hva bør du unngå å gjøre med USB-minnepinner?
+answer: Koble til ukjente USB-minnepinner
+wrong_answers:
+  - Bruk NTFS-formaterte USB-minnepinner
+  - Krypter dine egne USB-minnepinner
+  - Bruk nye USB-minnepinner
+explanation: |
+  Hvis du kobler til en ukjent USB-minnepinne, kan den infisere datamaskinen med skadelig programvare eller stjele sensitive data.
+reviewed: false

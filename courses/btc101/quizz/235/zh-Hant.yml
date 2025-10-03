@@ -1,10 +1,8 @@
-question: Lightning Network 中使用的 Bitcoin 單位是什麼？
-answer: Sats.
+question: Lightning Network 如何可能用於租賃貨物？
+answer: 使用者使用貨品的時間可按分鐘甚至按秒收費。
 wrong_answers:
-  - 塊。
-  - 乙醚。
-  - Litecoin.
-explanation: |
-  Lightning Network 使用 Satoshis（也稱為 Sats），即 Bitcoin 的十進位。
-  十進位的 Bitcoin 來運作。
+  - 使用者可因租用商品而被收取高額費用。
+  - 可以根據貨品的價值向使用者收取費用。
+  - 可以根據貨物的狀況向使用者收取費用。
+explanation: >-
 reviewed: true

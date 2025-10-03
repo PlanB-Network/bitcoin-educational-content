@@ -1,0 +1,11 @@
+question: Vad är ett praktiskt sätt att få Bitcoins?
+answer: Köpa dem via reglerade eller oreglerade plattformar.
+wrong_answers:
+  - Mining dem med hjälp av en laptop.
+  - Att hitta dem i den fysiska världen.
+  - Skapar dem med hjälp av en speciell programvara.
+explanation: |
+  Texten nämner att användare kan få Bitcoins genom att
+  acceptera dem för handel eller genom att köpa dem via
+  reglerade eller oreglerade plattformar.
+reviewed: true

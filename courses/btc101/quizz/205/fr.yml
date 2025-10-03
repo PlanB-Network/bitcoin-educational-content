@@ -1,9 +1,12 @@
-question: Quelle est l'une des raisons pour lesquelles vous devriez consolider vos UTXOs dans vos portefeuilles de temps en temps ?
-answer: Pour éviter des frais inutiles lors des transactions.
+question: Comment ce cours décrit-il Bitcoin ?
+answer: Un sujet multidisciplinaire.
 wrong_answers:
-  - Pour augmenter la valeur de vos bitcoins.
-  - Pour empêcher vos bitcoins d'être volés.
-  - Pour garantir que vos bitcoins sont toujours disponibles.
-explanation: >-
-  Le texte mentionne que consolider vos UTXOs dans vos portefeuilles de temps en temps est essentiel pour gérer efficacement vos bitcoins et éviter des frais inutiles lors des transactions.
+  - Un sujet simple.
+  - Un sujet physique.
+  - Un sujet mono-disciplinaire.
+explanation: |
+  Bitcoin est décrit comme un sujet multidisciplinaire car
+  il soulève des questions liées à divers domaines, incluant
+  la cryptographie, la théorie des jeux, l'économie et la politique monétaire,
+  l'informatique, la philosophie, l'énergie, les lois et la régulation.
 reviewed: true

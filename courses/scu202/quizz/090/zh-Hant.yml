@@ -1,0 +1,9 @@
+question: Bitcoin 主網路上的 P2P 連線預設使用哪個網路埠？
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  連接埠 8333 是 Bitcoin 節點用於對等連接 Mainnet 的標準連接埠。
+reviewed: false

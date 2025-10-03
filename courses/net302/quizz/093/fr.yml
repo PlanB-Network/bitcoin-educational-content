@@ -1,0 +1,9 @@
+question: Quel outil affiche le détail des messages DNS, y compris les enregistrements et le processus de résolution ?
+answer: dig
+wrong_answers:
+  - host
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) fournit des informations détaillées sur la résolution DNS, y compris les types d’enregistrements.
+reviewed: false

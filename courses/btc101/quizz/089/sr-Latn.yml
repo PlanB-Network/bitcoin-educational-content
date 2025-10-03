@@ -1,11 +1,11 @@
-question: Koji je rizik prekomernog komplikovanja sigurnosti i pristupačnosti vaših bitkoina?
-answer: Možete se povrediti ako nepravilno rukujete rezervnim novčanicima.
+question: Koji je privatni ključ često predstavljen u Bitkoin novčaniku?
+answer: Lista od 12 ili 24 reči.
 wrong_answers:
-  - Možete se povrediti ako nepažljivo rukujete fizičkim novčanicima.
-  - Možete se povrediti ako nepravilno rukujete digitalnim novčanicima.
-  - Možete se povrediti ako nepažljivo rukujete Multisig novčanicima.
+  - Lista od 12 ili 48 reči.
+  - Lista od 32 reči.
+  - Lista od 64 reči.
 explanation: |
-  Prekomplikovanje sigurnosti i pristupačnosti vaših
-  bitkoina može vam naškoditi ako, na primer, pogrešno
-  rukujete rezervnim kopijama vaših novčanika. Ovo je zato što su jednostavne procedure pravljenja rezervnih kopija ključne za ponovno dobijanje pristupa vašim sredstvima u slučaju gubitka vašeg telefona ili računara.
+  U Bitkoin novčaniku, privatni ključ je često predstavljen
+  listom od 12 ili 24 reči, takođe poznat kao seed fraza
+  ili Mnemonic fraza.
 reviewed: true

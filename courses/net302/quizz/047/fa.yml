@@ -1,0 +1,9 @@
+question: کدام اصطلاح به اولین سه بایت یک MAC Address اشاره دارد؟
+answer: شناسه منحصربه‌فرد سازمانی (OUI)
+wrong_answers:
+  - SID (شناسه جلسه)
+  - شناسه منحصربه‌فرد محلی (LUI)
+  - PAN (شماره Address فیزیکی)
+explanation: |
+  OUI توسط IEEE اختصاص داده می‌شود و سازنده کارت شبکه را در یک MAC Address شناسایی می‌کند.
+reviewed: false

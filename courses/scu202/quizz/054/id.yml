@@ -1,0 +1,9 @@
+question: Informasi apa yang biasanya dapat ditemukan dalam metadata EXIF foto?
+answer: Tanggal, waktu, posisi GPS, model perangkat, penulis
+wrong_answers:
+  - Kode sumber firmware kamera
+  - Kata sandi Wi-Fi fotografer
+  - Hasil antivirus terbaru
+explanation: |
+  Metadata EXIF foto sering kali berisi informasi kontekstual yang mendetail mengenai bidikan dan kamera.
+reviewed: false

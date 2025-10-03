@@ -1,0 +1,14 @@
+question: Vad händer när räntorna sjunker på grund av att sparandet ökar enligt den österrikiska teorin om konjunkturcykeln?
+answer: Konsumtionen av slutprodukter kommer att minska, räntorna kommer att sjunka och entreprenörerna kommer att använda detta kapitaltillskott för att skapa nya investeringsvaror och på så sätt förlänga produktionsstrukturen.
+wrong_answers:
+  - Konsumtionen av slutprodukter kommer att öka, räntorna kommer att stiga, entreprenörerna kommer att använda detta kapitaltillskott för att skapa nya investeringsvaror och därmed förkorta produktionsstrukturen.
+  - Konsumtionen av slutprodukter kommer att minska, räntorna kommer att stiga och entreprenörerna kommer att använda detta kapitaltillskott för att skapa nya investeringsvaror och därmed förkorta produktionsstrukturen.
+  - Konsumtionen av slutprodukter kommer att öka, räntorna kommer att sjunka, entreprenörerna kommer att använda detta kapitaltillskott för att skapa nya investeringsvaror och därmed förkorta produktionsstrukturen.
+explanation: |
+  Enligt den österrikiska teorin om konjunkturcykeln, när det sker
+  när räntorna sjunker på grund av ökat sparande kommer mängden konsumerade
+  varor som konsumeras eftersom sparande innebär att man skjuter upp en del av sin konsumtion till ett
+  till ett senare datum. Till följd av detta kommer räntorna att sjunka eftersom kapitalets Supply
+  ökar. Detta gör att entreprenörer kan använda detta inflöde av kapital för att skapa
+  nya investeringsvaror och på så sätt förlänga produktionsstrukturen.
+reviewed: true

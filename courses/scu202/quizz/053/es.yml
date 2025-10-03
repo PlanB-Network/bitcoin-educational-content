@@ -1,0 +1,9 @@
+question: ¿Qué plataforma elimina automáticamente los metadatos cuando se sube una foto?
+answer: Señal
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Tu blog
+explanation: |
+  Signal (como Session y otros servicios de mensajería segura) limpia los metadatos de las imágenes compartidas para proteger la privacidad de los usuarios.
+reviewed: false

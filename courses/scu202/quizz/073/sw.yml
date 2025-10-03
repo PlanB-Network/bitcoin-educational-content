@@ -1,0 +1,9 @@
+question: Ni sehemu gani ya Android inasalia kuwa chanzo huria na inaweza kukaguliwa na jumuiya?
+answer: AOSP
+wrong_answers:
+  - Huduma za Simu za Google
+  - Play Store
+  - iOSP
+explanation: |
+  Msingi wa AOSP wa Android pekee ni bure. Huduma za Google za Simu zinazotumika sana ni za umiliki na haziwezi kukaguliwa.
+reviewed: false

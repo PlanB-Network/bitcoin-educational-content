@@ -1,0 +1,9 @@
+question: Numa máquina Linux, que ferramenta pode analisar a segurança do sistema e apresentar um relatório detalhado com recomendações?
+answer: Lince
+wrong_answers:
+  - GIMP
+  - ufw
+  - Sináptico
+explanation: |
+  O Lynis é uma ferramenta de auditoria de segurança abrangente para Linux, que analisa o sistema em busca de vulnerabilidades e configurações incorrectas.
+reviewed: false

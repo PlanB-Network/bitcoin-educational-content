@@ -1,0 +1,10 @@
+question: Vilket av följande är INTE en av de tre grundläggande funktionerna hos pengar?
+answer: Källa till energi
+wrong_answers:
+  - Värdebutik
+  - Medium för Exchange
+  - Kontoenhet
+explanation: |
+  Pengarnas tre grundläggande funktioner är värdebevarare, medium för Exchange,
+  och räkneenhet. En energikälla är inte en funktion hos pengar.
+reviewed: true

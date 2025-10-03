@@ -1,0 +1,9 @@
+question: Vad är skillnaden mellan en diskret och en kontinuerlig slumpvariabel?
+answer: En diskret variabel har ett ändligt antal möjliga utfall, medan en kontinuerlig variabel kan anta ett oändligt antal värden inom ett intervall.
+wrong_answers:
+  - En diskret variabel ändrar ständigt värde, medan en kontinuerlig variabel förblir stabil.
+  - En diskret variabel är specifik för de fysiska experiment som utförs, medan en kontinuerlig variabel är abstrakt i sitt intervall.
+  - Diskreta variabler finns inte i modern kryptografi, utan endast kontinuerliga variabler används.
+explanation: |
+  Diskreta variabler har en ändlig uppsättning utfall, medan kontinuerliga variabler kan anta vilket värde som helst inom ett intervall, t.ex. de reella talen mellan 0 och 1.
+reviewed: false

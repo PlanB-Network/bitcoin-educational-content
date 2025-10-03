@@ -1,0 +1,9 @@
+question: Vilken är nyckelfaktorn som säkerställer att Bob får en tillgång under en State Transition i RGB?
+answer: En ny Seal Definition som pekar på Bob:s UTXO
+wrong_answers:
+  - En kontrolltransaktion utan hänvisning till en UTXO
+  - Ett offentligt uttalande från Alice
+  - En dubbelsignatur som delas av Alice och Bob
+explanation: |
+  Seal Definition kopplar kryptografiskt tillgången till Bob:s UTXO, vilket säkerställer att han äger den.
+reviewed: false

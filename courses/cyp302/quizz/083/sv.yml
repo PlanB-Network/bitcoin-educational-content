@@ -1,0 +1,9 @@
+question: Varför används pseudotillfälliga strömchiffer oftare i praktiken än engångschiffer?
+answer: De gör det möjligt att använda en kortare nyckel och samtidigt generera en längre nyckelström
+wrong_answers:
+  - De kräver inte någon hemlig nyckel
+  - De använder en kombination av symmetrisk och asymmetrisk kryptering
+  - De behöver inte uppdateringar av nycklar
+explanation: |
+  Pseudorandom stream ciphers är mer praktiska eftersom de gör det möjligt att förlänga en kort nyckel till en längre nyckelström, vilket gör att man inte behöver lagra en nyckel som är lika lång som själva meddelandet.
+reviewed: false

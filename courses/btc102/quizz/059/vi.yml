@@ -1,0 +1,9 @@
+question: Mục tiêu chính của những người chơi bitcoin hoang tưởng là gì?
+answer: Để bảo vệ sự riêng tư của họ
+wrong_answers:
+  - Để tích lũy satoshi nhanh chóng
+  - Để tối đa hóa lợi nhuận giao dịch
+  - Để giữ bitcoin của họ lâu dài
+explanation: |
+  Những người chơi bitcoin hoang tưởng chủ yếu muốn tránh mọi khả năng truy xuất nguồn gốc các giao dịch và danh tính của họ.
+reviewed: false

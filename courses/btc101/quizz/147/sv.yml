@@ -1,0 +1,13 @@
+question: Vilken roll har ASICs i Bitcoin Mining?
+answer: ASIC är maskiner som är konstruerade enbart för att tillämpa SHA256-algoritmen i Mining-processen.
+wrong_answers:
+  - ASIC:er används för att verifiera Bitcoin-transaktioner genom att tillämpa SHA256-algoritmen i verifieringsprocessen.
+  - ASICs används för att godtyckligt skapa nya bitcoins.
+  - ASICs används för att säkra Bitcoin-nätverket.
+explanation: |
+  ASICs (Application-Specific Integrated Circuits) är specialiserad
+  specialiserad hårdvara som utformats särskilt för Bitcoin
+  Mining. De är optimerade för att utföra hashfunktionen SHA256
+  hashfunktion, vilket är det matematiska problem som gruvarbetare
+  måste lösa i Proof of Work-processen.
+reviewed: true

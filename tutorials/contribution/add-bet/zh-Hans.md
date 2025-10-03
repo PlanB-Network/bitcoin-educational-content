@@ -29,7 +29,7 @@ PlanB的使命是提供领先的比特币教育资源，尽可能多的语言。
 - 使用以下模板填写与你的内容相关的信息：
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -41,7 +41,7 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: 指明您的组织在PlanB网络上的标识符。如果您的公司还没有一个“builder”标识符，您可以[按照这个教程创建一个](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)。如果您没有，您可以简单地使用您的名字、假名或公司名称，而不需要创建builder档案。
+- **`project`**: 指明您的组织在PlanB网络上的标识符。如果您的公司还没有一个“project”标识符，您可以[按照这个教程创建一个](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)。如果您没有，您可以简单地使用您的名字、假名或公司名称，而不需要创建project档案。
 - **`type`**: 在以下两个选项中选择您内容的性质：
 	- `Educational Content` 用于教育内容。
 	- `Visual Content` 用于其他类型的多样化内容。
@@ -64,7 +64,7 @@ contributors:
 例如，您的YAML文件可能看起来像这样：
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -190,3 +190,4 @@ https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resource
 确保跟踪您PR的进展。管理员可能会留下评论，要求提供额外的信息。只要您的PR未被验证，您就可以在PlanB Network GitHub仓库的Pull requests标签中查看它：
 ![event](assets/56.webp)
 非常感谢您的宝贵贡献！:)
+

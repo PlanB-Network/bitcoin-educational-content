@@ -1,0 +1,9 @@
+question: Nini maana kuu ya kisiasa ya Bitcoin?
+answer: Kupunguza udhibiti wa serikali juu ya pesa
+wrong_answers:
+  - Kuongeza uwekaji kati wa benki
+  - Kukuza mfumuko wa bei
+  - Kuimarisha kanuni za fedha
+explanation: |
+  Bitcoin ni njia mbadala ambayo inadhoofisha uwezo wa taasisi za serikali juu ya pesa kupitia udhibiti na udhibiti wa shughuli.
+reviewed: false

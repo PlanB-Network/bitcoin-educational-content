@@ -1,0 +1,9 @@
+question: Apa itu aplikasi Shelter untuk Android?
+answer: Membuat profil terisolasi untuk penggunaan partisi
+wrong_answers:
+  - Mengenkripsi semua data telepon secara otomatis
+  - Memblokir panggilan yang tidak diinginkan
+  - Menginstal aplikasi di luar Play Store
+explanation: |
+  Shelter memungkinkan Anda menggunakan fungsi Profil Kerja untuk memisahkan aplikasi dan data dalam ruang yang terisolasi.
+reviewed: false

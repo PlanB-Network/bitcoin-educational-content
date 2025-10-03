@@ -1,0 +1,9 @@
+question: Varför rekommenderas det att regelbundet överföra medel från en Hot Wallet till en Hardware Wallet?
+answer: För att minska risken för hackning
+wrong_answers:
+  - För att öka likviditeten i Wallet
+  - För att minska transaktionsavgifterna
+  - För att optimera UTXO-sekretessen
+explanation: |
+  Genom att överföra till en Hardware Wallet säkras pengarna genom att privata nycklar lagras offline.
+reviewed: false

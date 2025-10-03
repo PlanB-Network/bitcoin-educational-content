@@ -1,0 +1,9 @@
+question: Wat gebeurt er als Bob een Invoice naar Alice stuurt voor 30.000 satoshis?
+answer: Alice creëert een Commitment Transaction om 30.000 satoshi over te brengen naar Bob in het kanaal.
+wrong_answers:
+  - Alice moet een nieuw kanaal openen om deze overdracht te maken.
+  - Bob ontvangt automatisch de 30.000 satoshis in zijn Wallet.
+  - De Invoice wordt betaald via een On-Chain transactie op Bitcoin.
+explanation: |
+  Wanneer Bob een Invoice naar Alice stuurt, creëert en ondertekent ze een nieuwe Commitment Transaction om de verdeling van de fondsen aan te passen, waardoor 30.000 satoshi's in het kanaal worden overgeboekt.
+reviewed: false

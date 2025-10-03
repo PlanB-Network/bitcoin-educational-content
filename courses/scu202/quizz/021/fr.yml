@@ -1,0 +1,9 @@
+question: Quel composant d’un environnement de bureau permet de naviguer visuellement dans les fichiers et dossiers ?
+answer: Gestionnaire de fichiers
+wrong_answers:
+  - Gestionnaire de session
+  - Compositeur X11
+  - Gestionnaire de paquets
+explanation: |
+  Le gestionnaire de fichiers (comme Nautilus, Dolphin, Thunar) permet à l’utilisateur de gérer ses fichiers et dossiers par une interface graphique.
+reviewed: false

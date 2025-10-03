@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan en PRNG och en TRNG?
+answer: PRNG är deterministisk, medan TRNG genererar verkliga slumptal.
+wrong_answers:
+  - PRNG är snabbare än TRNG för stora tal.
+  - PRNG används endast för kryptering, inte TRNG.
+  - PRNG använder privata nycklar, TRNG använder offentliga nycklar.
+explanation: |
+  PRNG är deterministiska, vilket innebär att de kan reproducera sekvenser från ett initialt tillstånd, till skillnad från TRNG.
+reviewed: false

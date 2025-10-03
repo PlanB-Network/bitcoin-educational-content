@@ -1,0 +1,31 @@
+id: 2586426a-4ee6-4b11-a4e7-8a59c294c13a
+
+name: Mava Pay
+
+address_line_1: Lagos, Nigeria
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://mavapay.co/
+  twitter: https://x.com/mavapay
+  Github: 
+  youtube: 
+
+category: infrastructure
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - finance
+  - bitcoin
+
+contributor_names:
+  - Gloirew

@@ -1,0 +1,9 @@
+question: Numa topologia de barramento, qual é a principal vantagem?
+answer: Baixo custo de instalação
+wrong_answers:
+  - Elevada redundância
+  - Baixa latência
+  - Alta disponibilidade
+explanation: |
+  O barramento depende de um único meio físico, o que reduz os custos de instalação, mas também introduz um único ponto de falha.
+reviewed: false

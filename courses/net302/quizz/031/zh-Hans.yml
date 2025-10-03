@@ -1,0 +1,9 @@
+question: 哪个 IPv4 Address 范围保留用于本地环回测试？
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  127.0.0.0/8 范围用于本地环回。对这一范围的任何请求都将保留在发起机器内。
+reviewed: false

@@ -1,0 +1,9 @@
+question: In welke eenheid wordt het Hash-tarief van het netwerk gemeten tijdens de tweede helft van 2010?
+answer: In GH/s
+wrong_answers:
+  - In MH/s
+  - In TH/s
+  - In PH/s
+explanation: |
+  Het Hash tarief steeg van 1,35 GH/s op 13 juli tot 120 GH/s op 31 december 2010.
+reviewed: true

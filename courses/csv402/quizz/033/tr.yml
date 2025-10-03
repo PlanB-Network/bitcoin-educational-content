@@ -1,0 +1,9 @@
+question: Terminal Consignment'ın RGB transfer sürecindeki amacı nedir?
+answer: Eyalet Geçişleri geçmişini sağlayın
+wrong_answers:
+  - Genesis Contract'yi doğrulayın
+  - Eski geçişleri silme
+  - generate transfer için yeni bir Schema
+explanation: |
+  Terminal Consignment, bugüne kadar transfer edilen varlığın meşruiyetini kanıtlamak için Contract'nin geçmişini toplar.
+reviewed: false

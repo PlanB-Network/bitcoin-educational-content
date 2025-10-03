@@ -1,0 +1,9 @@
+question: När måste en användare installera en indexerare?
+answer: För att köra en Block explorer
+wrong_answers:
+  - För Mining block själv
+  - Så här aktiverar du Lightning Network
+  - För att signera transaktioner
+explanation: |
+  En indexerare blir oumbärlig för avancerade användningsområden, t.ex. en lokal utforskare.
+reviewed: true

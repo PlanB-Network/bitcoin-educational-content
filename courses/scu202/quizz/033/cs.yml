@@ -1,0 +1,9 @@
+question: Jaký mechanismus musí být v UEFI povolen, aby se zabránilo spouštění nepodepsaného kódu při zavádění systému?
+answer: Zabezpečené spouštění
+wrong_answers:
+  - Rychlé spuštění
+  - Rychlé spuštění
+  - Modul důvěryhodné platformy (TPM)
+explanation: |
+  Secure Boot zajišťuje, že systém může spustit pouze ověřený software, čímž se omezuje riziko infekce bootkitem/rootkitem.
+reviewed: false

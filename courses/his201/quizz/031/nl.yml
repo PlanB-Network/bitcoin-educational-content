@@ -1,0 +1,9 @@
+question: In welk digitaal muntsysteem was Google-ingenieur Mike Hearn geïnteresseerd voordat hij Bitcoin ontdekte?
+answer: Rimpeling
+wrong_answers:
+  - Vrijheid Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Ryan Fugger hoorde voor het eerst over Bitcoin op zijn Google Group project in april 2009. Hij nam meteen contact op met Satoshi om vragen te stellen.
+reviewed: true

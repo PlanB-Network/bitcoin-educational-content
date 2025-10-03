@@ -5,110 +5,144 @@ level: beginner
 category: mobile
 
 project_id: ccaacfff-12c3-4b5c-80f8-0f077422d62b
+
+professor_id: bc542477-30dd-46c7-aa22-9d39341facb1
+
+# Proofreading metadata
+
 original_language: en
 proofreading:
+  - language: en
+    last_contribution_date: 2025-06-02
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0.78
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 2.05
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.08
+    reward: 1.56
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.18
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.22
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.18
-  - language: vi
-    last_contribution_date: 2024-09-24
-    urgency: 1
-    contributor_names:
-      - Henry-Da0
-    reward: 0.11
+    reward: 1.56
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
-  - language: id
+    reward: 2.05
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
-  - language: zh-Hans
+    reward: 2.05
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.18
+    reward: 1.56
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
+    reward: 3.51
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.53
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.02
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 2.05
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 2.05
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 2.05
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.02
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.53
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 2.53
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.53
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.02
 tags:
   - wallets
   - guides

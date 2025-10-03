@@ -5,7 +5,7 @@ description: Ile remiksów należy wykonać na Whirlpool?
 ![cover remix- wp](assets/cover.webp)
 
 
-***OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, narzędzie Whirlpool Stats Tool nie jest już dostępne do pobrania, ponieważ było hostowane na Gitlab Samourai. Nawet jeśli wcześniej pobrałeś to narzędzie lokalnie na swój komputer lub zostało ono zainstalowane na węźle RoninDojo, WST nie będzie teraz działać. Jego działanie opierało się na danych dostarczonych przez OXT.me, a strona ta nie jest już dostępna. Obecnie WST nie jest szczególnie przydatny, ponieważ protokół Whirlpool jest nieaktywny. Istnieje jednak możliwość, że oprogramowanie to zostanie przywrócone w nadchodzących tygodniach. Co więcej, teoretyczna część tego artykułu pozostaje istotna dla zrozumienia zasad i celów coinjoinów w ogóle (nie tylko Whirlpool), a także zrozumienia skuteczności modelu Whirlpool. Można również dowiedzieć się, jak ilościowo określić prywatność zapewnianą przez cykle CoinJoin
+**OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, narzędzie Whirlpool Stats Tool nie jest już dostępne do pobrania, ponieważ było hostowane na Gitlab Samourai. Nawet jeśli wcześniej pobrałeś to narzędzie lokalnie na swój komputer lub zostało ono zainstalowane na węźle RoninDojo, WST nie będzie teraz działać. Jego działanie opierało się na danych dostarczonych przez OXT.me, a strona ta nie jest już dostępna. Obecnie WST nie jest szczególnie przydatny, ponieważ protokół Whirlpool jest nieaktywny. Istnieje jednak możliwość, że oprogramowanie to zostanie przywrócone w nadchodzących tygodniach. Co więcej, teoretyczna część tego artykułu pozostaje istotna dla zrozumienia zasad i celów coinjoinów w ogóle (nie tylko Whirlpool), a także zrozumienia skuteczności modelu Whirlpool. Można również dowiedzieć się, jak ilościowo określić pr
 
 
 uważnie śledzimy rozwój tej sprawy, a także rozwój związany z powiązanymi narzędziami. Zapewniamy, że będziemy aktualizować ten poradnik w miarę pojawiania się nowych informacji
@@ -18,7 +18,7 @@ ten samouczek służy wyłącznie celom edukacyjnym i informacyjnym. Nie popiera
 
 > *Przerwij połączenie, które pozostawiają po sobie monety*
 
-Jest to pytanie, które jest mi często zadawane. **Podczas wykonywania coinjoinów z Whirlpool, ile remiksów należy wykonać, aby osiągnąć zadowalające wyniki?
+Jest to pytanie, które jest mi często zadawane. **Podczas wykonywania coinjoinów z Whirlpool, ile remiksów należy wykonać, aby osiągnąć zadowalające wyniki?**
 
 
 Celem CoinJoin jest zaoferowanie wiarygodnego zaprzeczenia poprzez zmieszanie monety z grupą nieodróżnialnych monet. Celem tego działania jest zerwanie powiązań identyfikowalności, zarówno z przeszłości do teraźniejszości, jak i z teraźniejszości do przeszłości. Innymi słowy, analityk, który zna początkową transakcję na wejściu cykli CoinJoin, nie powinien być w stanie ostatecznie zidentyfikować UTXO na wyjściu cykli remiksowania (analiza od cykli wejścia do cykli wyjścia).
@@ -80,7 +80,7 @@ Dlatego uważam, że wykorzystanie Whirlpool jest szczególnie istotne w strateg
 Mam nadzieję, że ta odpowiedź rzuciła nieco światła na model Whirlpool. Jeśli chcesz dowiedzieć się więcej o tym, jak coinjoiny działają w Bitcoin, polecam przeczytać mój obszerny artykuł na ten temat:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Zasoby zewnętrzne:**
 

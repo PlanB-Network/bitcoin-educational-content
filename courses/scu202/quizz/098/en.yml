@@ -1,0 +1,9 @@
+question: What is the main use of VLAN-based network segmentation in a home network?
+answer: Isolate different types of appliances or uses
+wrong_answers:
+  - Increase Wi-Fi range for devices
+  - Encrypt network connections individually for each device
+  - Enable WPA3 automatically
+explanation: |
+  VLANs can be used to compartmentalize devices, limiting the spread of an attack between segments.
+reviewed: false

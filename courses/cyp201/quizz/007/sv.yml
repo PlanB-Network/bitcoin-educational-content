@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan ShR- och RotR-verksamhet?
+answer: ShR skiftar bitar genom att lägga till nollor, RotR återinsätter de skiftade bitarna
+wrong_answers:
+  - ShR tar bort de skiftade bitarna, RotR multiplicerar deras värde
+  - ShR flyttar till vänster, RotR flyttar till höger
+  - ShR är en logisk operation, RotR är aritmetisk
+explanation: |
+  ShR flyttar bitar till höger genom att lägga till nollor, medan RotR utför en cirkulär rotation av bitarna.
+reviewed: false

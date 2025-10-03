@@ -1,0 +1,9 @@
+question: Vilka är de tre viktigaste komponenterna i ett symmetriskt krypteringsschema?
+answer: En algoritm för nyckelgenerering, en krypteringsalgoritm och en dekrypteringsalgoritm
+wrong_answers:
+  - En hashingalgoritm, en publik nyckel och en verifieringsalgoritm
+  - En offentlig nyckel, en privat nyckel och en dekrypteringsalgoritm
+  - En krypteringsalgoritm, en offentlig nyckel och en privat nyckel
+explanation: |
+  Ett symmetriskt krypteringssystem består av tre Elements: en nyckelgenereringsalgoritm, en krypteringsalgoritm och en dekrypteringsalgoritm. De använder alla samma nyckel.
+reviewed: false

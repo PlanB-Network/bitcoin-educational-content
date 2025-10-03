@@ -1,5 +1,5 @@
 ---
-name: Persika
+name: Peach
 description: Komplett guide till att använda Peach och växla bitcoins P2P
 ---
 ![cover](assets/cover.webp)
@@ -11,7 +11,7 @@ description: Komplett guide till att använda Peach och växla bitcoins P2P
 ## Inledning
 
 
-KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas konfidentialitet och finansiella oberoende. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
+KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -25,7 +25,7 @@ Peach är en P2P Exchange-plattform som gör det möjligt för användare att k�
 ### 2. Sekretess och datainsamling
 
 
-**Vilken information samlar Peach in?
+**Vilken information samlar Peach in?**
 
 
 Peach strävar efter att lagra ett absolut minimum av uppgifter om sina användare. Här är en översikt över de uppgifter som lagras på servrarna:
@@ -49,7 +49,7 @@ Som en påminnelse är en Hash data som görs oigenkännliga, på samma sätt so
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Vem kan se mina betalningsuppgifter?
+**Vem kan se mina betalningsuppgifter?**
 
 
 
@@ -93,17 +93,17 @@ Peach-applikationen är uppbyggd kring fyra huvudskärmar som nås från det ned
 
 
 
-- Hem** : Huvudskärmen för att köpa och sälja bitcoins. Det är här du kan skapa nya transaktioner och få tillgång till tillgängliga erbjudanden.
-- Wallet**: Din integrerade Bitcoin Wallet som gör det möjligt för dig att :
+- **Hem**: Huvudskärmen för att köpa och sälja bitcoins. Det är här du kan skapa nya transaktioner och få tillgång till tillgängliga erbjudanden.
+- **Wallet**: Din integrerade Bitcoin Wallet som gör det möjligt för dig att :
  - Kontrollera ditt saldo
  - Ta emot bitcoins
  - Skicka bitcoins
  - Se din transaktionshistorik
-- Handel** : Ditt handelshanteringscenter där du hittar :
+- **Handel**: Ditt handelshanteringscenter där du hittar :
  - Dina aktuella transaktioner
  - En fullständig historik över dina utbyten
  - Status för varje transaktion
-- Inställningar** : Ditt kontos konfigurationshubb för :
+- **Inställningar**: Ditt kontos konfigurationshubb för :
  - Hantera dina betalningsmetoder
  - Konfigurera dina säkerhetskopior
  - Anpassa dina preferenser
@@ -119,7 +119,7 @@ Peach-applikationen är uppbyggd kring fyra huvudskärmar som nås från det ned
 Få tillgång till betalningsmetoder via fliken Inställningar (bild 8)
 
 
-**Online-betalningar
+**Online-betalningar**
 
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
@@ -205,13 +205,13 @@ Landspecifika betalningssystem :
 ### 4. Så här säkrar du din Wallet
 
 
-** Förstå ditt Peach-konto
+**Förstå ditt Peach-konto**
 
 
 Ett Peach-konto är inte ett traditionellt konto med inloggning och lösenord. Det är en fil som lagras lokalt på din telefon, vilket innebär att Peach inte behöver lagra dina uppgifter eller känna till din identitet: du har kontrollen. Den här filen innehåller alla dina uppgifter, från dina Bitcoin Wallet-nycklar till dina betalningsuppgifter.
 
 
-Detta tillvägagångssätt garanterar större sekretess, men innebär också ett större ansvar. Om du tappar bort din telefon utan säkerhetskopia förlorar du tillgång till ditt Peach-konto och dina pengar. Det är därför viktigt att säkerhetskopiera den här filen och skydda den med ett starkt lösenord.
+Detta tillvägagångssätt garanterar större integritet, men innebär också ett större ansvar. Om du tappar bort din telefon utan säkerhetskopia förlorar du tillgång till ditt Peach-konto och dina pengar. Det är därför viktigt att säkerhetskopiera den här filen och skydda den med ett starkt lösenord.
 
 
 **Skapa dina säkerhetskopior**
@@ -378,10 +378,10 @@ För optimal säkerhet rekommenderar vi att du utför båda typerna av säkerhet
 
 
 
-- Ingen KYC krävs**: Bevarar användarnas sekretess.
-- Ingen tillgång till bankuppgifter**: Peach har ingen tillgång till dina bankuppgifter eller din identitet.
-- Intuitiv Interface**: Enkel att använda för användare på mellannivå.
-- Öppen källkod** : Källkoden är offentlig och kan verifieras av samhället.
+- **Ingen KYC krävs**: Bevarar användarnas integritet.
+- **Ingen tillgång till bankuppgifter**: Peach har ingen tillgång till dina bankuppgifter eller din identitet.
+- **Intuitiv Interface**: Enkel att använda för användare på mellannivå.
+- **Öppen källkod**: Källkoden är offentlig och kan verifieras av samhället.
 
 
 ### Nackdelar med persika
@@ -389,8 +389,8 @@ För optimal säkerhet rekommenderar vi att du utför båda typerna av säkerhet
 
 
 
-- Begränsad likviditet**: Mindre handelsvolym än mer etablerade plattformar.
-- Regulatorisk risk** : Applikationen hanteras av ett schweiziskt företag. Den är därför föremål för schweiziska bestämmelser, som kan utvecklas och eventuellt censurera applikationen.
+- **Begränsad likviditet**: Mindre handelsvolym än mer etablerade plattformar.
+- **Regulatorisk risk**: Applikationen hanteras av ett schweiziskt företag. Den är därför föremål för schweiziska bestämmelser, som kan utvecklas och eventuellt censurera applikationen.
 
 
 ## Användbara resurser

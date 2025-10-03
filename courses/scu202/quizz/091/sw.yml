@@ -1,0 +1,9 @@
+question: Ni itifaki gani inayopeana IP ya ndani Address kwa vifaa vilivyounganishwa kwenye mtandao?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP hukabidhi IP Address kiotomatiki kwa kila kifaa kipya kilichounganishwa kwenye mtandao wa ndani.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilka är de tre grundläggande kriterier som gör det möjligt för en person att försäkra sig om att han eller hon kan spendera pengarna senare?
+answer: Myntet måste vara intakt, äkta och det får inte vara dubbelspunnet.
+wrong_answers:
+  - Myntet måste vara antikt, sällsynt och i gott skick.
+  - Myntet måste vara allmänt accepterat, lagligt och förvaras i en bank.
+  - Myntet måste vara godkänt av staten, registrerat och hållbart.
+explanation: |
+  Varje rationell individ som vill ta emot ett mynt, oavsett om det är digitalt eller fysiskt, försäkrar sig om att det inte har ändrats, att det verkligen är ett riktigt mynt och att det inte kan återanvändas av utgivaren.
+reviewed: false

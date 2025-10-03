@@ -1,0 +1,9 @@
+question: Co je třeba udělat pro zobrazení stavu Wallet?
+answer: Připojení k místnímu nebo vzdálenému uzlu
+wrong_answers:
+  - Zeptejte se ostatních peněženek v síti
+  - Rozhovory se síťovými horníky
+  - Připojení k online platformě Exchange
+explanation: |
+  Wallet se musí připojit k uzlu, aby měl přístup ke stavu Blockchain a mohl vysílat své transakce.
+reviewed: true

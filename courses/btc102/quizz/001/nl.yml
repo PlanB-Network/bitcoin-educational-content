@@ -1,0 +1,9 @@
+question: Wat moet je doen om een phishingpoging in de cryptosector te herkennen?
+answer: Controleer de identiteit van de afzender
+wrong_answers:
+  - Klik alleen op links in de e-mail
+  - Deel uw privésleutels om de authenticiteit te bevestigen
+  - Vertrouw alleen op logo's en afbeeldingen in e-mails
+explanation: |
+  Zorg er altijd voor dat je met de juiste persoon in contact komt en gebruik nooit links in e-mails. Ga in plaats daarvan handmatig rechtstreeks naar de site met behulp van uw browserbladwijzers.
+reviewed: false

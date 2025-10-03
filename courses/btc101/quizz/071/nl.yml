@@ -1,0 +1,12 @@
+question: Welke van deze opties is fout over het verliezen van het apparaat waarop je Bitcoin Wallet hebt?
+answer: Je kunt je Wallet opnieuw aanmaken en je Bitcoin uitgeven door je wachtwoord opnieuw in te stellen.
+wrong_answers:
+  - Je verliest al je Bitcoins als je de Mnemonic zin niet hebt.
+  - Je kunt met je publieke sleutels verifiëren dat je bitcoins niet zijn uitgegeven.
+  - Je kunt je Wallet opnieuw maken en je Bitcoin uitgeven met de Mnemonic zin.
+explanation: |
+  Verlies van het apparaat waarop u uw Wallet hebt staan, betekent niet
+  betekent niet noodzakelijk het verlies van uw Bitcoins. Wat u in staat stelt
+  om je Wallet opnieuw te maken en je Bitcoin uit te geven is de
+  Mnemonic zin.
+reviewed: true

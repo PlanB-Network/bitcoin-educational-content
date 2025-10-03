@@ -1,0 +1,9 @@
+question: Vad ska du göra om du upptäcker ett virus på din dator?
+answer: Koppla bort den från internet, gör en fullständig antivirussökning och radera infekterade filer.
+wrong_answers:
+  - Fortsätt att använda datorn som vanligt.
+  - Stäng av datorn och låt den vara avstängd i några timmar.
+  - Ta bort alla filer på datorn.
+explanation: |
+  Om du upptäcker ett virus på din dator ska du koppla bort den från internet för att förhindra att det sprids eller kommunicerar med hackaren. Utför sedan en fullständig antivirussökning och radera infekterade filer.
+reviewed: true

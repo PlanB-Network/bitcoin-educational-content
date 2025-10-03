@@ -1,5 +1,5 @@
 ---
-name: Schweiziska Bitcoin Pay
+name: Swiss Bitcoin Pay
 description: Hur kan jag enkelt acceptera Bitcoin-betalningar?
 ---
 ![cover](assets/cover.webp)
@@ -109,7 +109,7 @@ Alternativet "*onchain*" gör att du kan ta emot alla dina betalningar till en e
 Om du väljer att ta emot dina betalningar i bitcoins onchain är det att föredra att använda en utökad publik nyckel med alternativet "*x/y/zpub*". På så sätt kan Swiss Bitcoin Pay härleda en ny, oanvänd Address för varje uttag.
 
 
-Om du förväntar dig en relativt låg volym av Bitcoin-betalningar kan du också välja att ta emot betalningar direkt via Lightning Network. För att göra detta måste du tillhandahålla en Lightning Address. Dina pengar kommer att överföras omedelbart efter varje betalning, till skillnad från onchain-alternativen som grupperar alla kvitton till en enda daglig betalning.
+Om du förväntar dig en relativt låg volym av Bitcoin-betalningar kan du också välja att ta emot betalningar direkt via Lightning Network. För att göra detta måste du tillhandahålla en Lightning Address. Dina pengar kommer att överföras omedelbart efter varje betalning, till skillnad från onchain-alternativen som grupperar alla kvitton i en enda daglig betalning.
 
 
 Självklart påverkar detta val endast betalningsmetoden för Swiss Bitcoin Pay till ditt företag. Dina kunder kan fortfarande betala dig via Lightning Network eller onchain, oavsett vilket alternativ du väljer här.
@@ -123,9 +123,9 @@ Du kommer sedan att behöva betala 1 sat för att verifiera din Lightning Addres
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Slutligen har du möjlighet att lägga till en hänvisningskod. Om du vill stödja oss kan du använda koden "*DiscoverBitcoin*" så att en del av dina provisioner delas med oss. Vi tackar dig! :)![SWISS Bitcoin PAY](tillgångar/notext/12.webp)
+Slutligen har du möjlighet att lägga till en hänvisningskod. Om du vill stödja oss kan du använda koden "*DiscoverBitcoin*" så att en del av dina provisioner delas med oss. Vi tackar dig!:)![SWISS Bitcoin PAY](tillgångar/notext/12.webp)
 
-När all information är ifylld klickar du på knappen "*Sänd*".
+När alla uppgifter är ifyllda klickar du på knappen "*Sänd*".
 
 ![SWISS BITCOIN PAY](assets/notext/13.webp)
 
@@ -177,7 +177,7 @@ Notera det nya namnet på betalningsprocessorn och klicka sedan på knappen "*Se
 ## Hur gör jag för att betala med Swiss Bitcoin Pay?
 
 
-Det är mycket enkelt att gå till kassan: när du är på en PoS anger du beloppet som ska betalas ut.
+Det är mycket enkelt att gå till kassan: när du är på en PoS anger du det belopp som ska betalas ut.
 
 ![SWISS BITCOIN PAY](assets/notext/25.webp)
 
@@ -220,7 +220,7 @@ För att hantera ditt företag mer exakt sker allt på din instrumentpanel. Bes�
 
 ![SWISS BITCOIN PAY](assets/notext/34.webp)
 
-Klicka på knappen "*Dashboard*" längst upp till höger på skärmen och ange sedan din e-postadress Address och ditt lösenord. ![SWISS Bitcoin PAY](assets/notext/35.webp) Du kommer då till denna Interface. ![SWISS Bitcoin PAY](assets/notext/36.webp) På fliken "*Home*" kan du se saldot på betalningar som väntar på uttag samt de senaste aktiviteterna på ditt konto. ![SWISS Bitcoin PAY](assets/notext/37.webp) På fliken "*Activity*" kan du se detaljerna för alla dina transaktioner. ![SWISS Bitcoin PAY](assets/notext/38.webp) På min instrumentpanel kan jag till exempel se att PoS "*Chef de Rang - Carré 3*" hämtade en öl för €5 den 22/08/2024 kl. 17:08. ![SWISS Bitcoin PAY](assets/notext/39.webp) Jag kan också se att receptionen hämtade en kaffe. ![SWISS Bitcoin PAY](assets/notext/40.webp) Slutligen kan jag se alla uttagstransaktioner till min personliga Lightning Wallet. ![SWISS Bitcoin PAY](assets/notext/41.webp) För att ställa in export av rapporter, klicka på knappen "*Export*". ![SWISS Bitcoin PAY](assets/notext/42.webp) På fliken "*Manual*" kan du göra en engångsexport av dina transaktioner. Välj bara en period och välj sedan den information du vill inkludera i din rapport. ![SWISS Bitcoin PAY](assets/notext/43.webp) Klicka sedan på knappen "*Export*" för att ladda ner en `.csv`-fil med dina transaktioner. ![SWISS Bitcoin PAY](assets/notext/44.webp) På fliken "*Recurring*" kan du schemalägga automatiskt återkommande export. Välj hur ofta exporten ska genereras och vilken information du vill ha med i rapporten. ![SWISS Bitcoin PAY](assets/notext/45.webp) Slutligen anger du e-postadressen Address dit rapporten ska skickas. Du kan till exempel direkt ange e-postadressen Address för din revisor. Klicka på knappen "*Spara*" för att spara denna schemalagda export. ![SWISS Bitcoin PAY](assets/notext/46.webp) Fliken Invoice gör att du kan generate en Invoice för en engångsbetalning. ![SWISS Bitcoin PAY](assets/notext/47.webp) På fliken "*Limits & verification*" kan du se dina dagliga och årliga inkassogränser. Du har också möjlighet att utföra en identitetsverifiering för att låsa upp högre gränser. ![SWISS Bitcoin PAY](assets/notext/48.webp) På fliken "*Referral*" kan du hantera allt som har med sponsring att göra. ![SWISS Bitcoin PAY](tillgångar/notext/49.webp)
+Klicka på knappen "*Dashboard*" längst upp till höger på skärmen och ange sedan din e-postadress Address och ditt lösenord. ![SWISS Bitcoin PAY](assets/notext/35.webp) Du kommer då till denna Interface. ![SWISS Bitcoin PAY](assets/notext/36.webp) På fliken "*Home*" kan du se saldot på betalningar som väntar på uttag samt de senaste aktiviteterna på ditt konto. ![SWISS Bitcoin PAY](assets/notext/37.webp) På fliken "*Activity*" kan du se detaljerna för alla dina transaktioner. ![SWISS Bitcoin PAY](assets/notext/38.webp) På min instrumentpanel kan jag till exempel se att PoS "*Chef de Rang - Carré 3*" hämtade en öl för €5 den 22/08/2024 kl. 17:08. ![SWISS Bitcoin PAY](assets/notext/39.webp) Jag kan också se att receptionen hämtade en kaffe. ![SWISS Bitcoin PAY](assets/notext/40.webp) Slutligen kan jag se alla uttagstransaktioner till min personliga Lightning Wallet. ![SWISS Bitcoin PAY](assets/notext/41.webp) För att ställa in export av rapporter, klicka på knappen "*Export*". ![SWISS Bitcoin PAY](assets/notext/42.webp) På fliken "*Manual*" kan du göra en engångsexport av dina transaktioner. Välj bara en period och välj sedan den information som du vill inkludera i din rapport. ![SWISS Bitcoin PAY](assets/notext/43.webp) Klicka sedan på knappen "*Export*" för att ladda ner en `.csv`-fil med dina transaktioner. ![SWISS Bitcoin PAY](assets/notext/44.webp) På fliken "*Recurring*" kan du schemalägga automatiskt återkommande export. Välj hur ofta exporten ska genereras och vilken information du vill ha med i rapporten. ![SWISS Bitcoin PAY](assets/notext/45.webp) Slutligen anger du e-postadressen Address dit rapporten ska skickas. Du kan till exempel direkt ange e-postadressen Address för din revisor. Klicka på knappen "*Spara*" för att spara denna schemalagda export. ![SWISS Bitcoin PAY](assets/notext/46.webp) Fliken Invoice gör att du kan generate en Invoice för en engångsbetalning. ![SWISS Bitcoin PAY](assets/notext/47.webp) På fliken "*Limits & verification*" kan du se dina dagliga och årliga inkassogränser. Du har också möjlighet att utföra en identitetsverifiering för att låsa upp högre gränser. ![SWISS Bitcoin PAY](assets/notext/48.webp) På fliken "*Referral*" kan du hantera allt som har med sponsring att göra. ![SWISS Bitcoin PAY](tillgångar/notext/49.webp)
 
 Slutligen, på fliken "*Settings*", har du möjlighet att ändra den information du angav under registreringen, inklusive uttagsmetoder och fördelningen mellan Bitcoin och fiat. ![SWISS Bitcoin PAY](tillgångar/notext/50.webp)
 

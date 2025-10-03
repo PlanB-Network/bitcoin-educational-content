@@ -1,5 +1,5 @@
 ---
-term: C-闪电（CLN）
+term: CLN
 
 ---
-Core-Lightning 实现的旧名称。
+Core-Lightning 实施的旧名称。

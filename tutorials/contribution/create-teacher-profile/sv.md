@@ -71,7 +71,7 @@ git push -u origin add-professor-loic-morel
 ### 3 - Skapa din lärarprofil
 
 
-Gå till mappen `scripts/tutorial-related/data-creator/` på din lokala klon. Se till att du har installerat alla beroenden som krävs för programvaran, efter att först ha installerat Python :
+Gå till mappen `scripts/tutorial-related/data-creator/` på din lokala klon. Se till att du har installerat alla beroenden som krävs för programvaran, efter att först ha installerat Python:
 
 
 ```bash
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ```
 
 
-Starta sedan programvaran med kommandot :
+Starta sedan programvaran med kommandot:
 
 
 ```bash
@@ -96,7 +96,7 @@ Klicka sedan på knappen "*New Professor*".
 ![Image](assets/fr/01.webp)
 
 
-Fyll i den information som krävs (observera att all denna information kommer att vara offentlig på vår plattform samt på GitHub) :
+Fyll i den information som krävs (observera att all denna information kommer att vara offentlig på vår plattform samt på GitHub):
 
 
 
@@ -153,7 +153,7 @@ När PR:n har sammanfogats kan du ta bort din arbetsgren.
 Om du behärskar användningen av Git kan du ändra din lärarprofil genom att skapa en ny gren och redigera den relevanta filen direkt i din befintliga mapp. Ändringar kan göras antingen i filen `professor.yml` eller i markdown-filen, beroende på vilken information som ska korrigeras. När du har gjort dina ändringar lokalt kan du skicka dem till din Fork och skicka in en PR.
 
 
-För nybörjare rekommenderar jag att du gör modifieringen direkt via GitHubs Interface-webb. Se till att du har ett GitHub-konto. Om du inte vet hur du skapar ett, följ denna handledning :
+För nybörjare rekommenderar jag att du gör modifieringen direkt via GitHubs Interface-webb. Se till att du har ett GitHub-konto. Om du inte vet hur du skapar ett, följ denna handledning:
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c

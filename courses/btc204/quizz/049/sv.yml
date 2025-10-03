@@ -1,0 +1,10 @@
+question: Varför används XOR-operatorn i BIP47?
+answer: För att symmetriskt kryptera nyttolasten för avsändarens betalkod.
+wrong_answers:
+  - För att asymmetriskt kryptera nyttolasten för avsändarens betalkod.
+  - För att symmetriskt kryptera metadata för avsändarens betalkod.
+  - Att asymmetriskt kryptera metadata för avsändarens betalkod.
+explanation: |
+  XOR-operatorn används för att symmetriskt kryptera nyttolasten för avsändarens betalkod i BIP47.
+  
+reviewed: false

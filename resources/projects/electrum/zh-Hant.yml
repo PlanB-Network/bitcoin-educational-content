@@ -1,0 +1,4 @@
+description: |
+  Electrum 是多功能的 Bitcoin Wallet，以使用者的安全性和彈性為優先。
+  
+  它支援多種平台，包括行動、桌上型電腦和命令列介面。您的私人密碼匙會被加密並保存在您的裝置上，確保永遠不會外洩。此外，Electrum 使用密語允許追回資金，並透過其伺服器網路快速存取 Bitcoin Blockchain。它支援離線「Cold 儲存」以保護您的私密金鑰安全，並提供 Multisig 功能以分割花錢的許可權。Electrum 還會使用簡化支付驗證 (SPV) 來驗證您歷史上的所有交易，並允許第三方插件整合，如 Multisig 服務和硬體錢包。

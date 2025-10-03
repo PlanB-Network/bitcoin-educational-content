@@ -1,0 +1,9 @@
+question: Varför är onlinesäkerhet avgörande för Bitcoin-användare?
+answer: Eftersom hackning resulterar i den oåterkalleliga förlusten av bitcoins
+wrong_answers:
+  - Eftersom bankerna försäkrar medel i händelse av total Bitcoin-förlust
+  - Eftersom man kan gå i fängelse för att förlora bitcoins
+  - Eftersom attacker leder till mycket tunga administrativa bördor
+explanation: |
+  Utan mellanhänder innebär ett hack en definitiv förlust av bitcoins.
+reviewed: false

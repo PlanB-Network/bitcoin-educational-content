@@ -1,0 +1,9 @@
+question: Vad är principen för jurister enligt Bastiat?
+answer: Det är principen om lagens företräde framför äganderätten
+wrong_answers:
+  - Det är principen om egendomens företräde framför lagen
+  - Det är principen om likhet inför lagen
+  - Det är rätten till egendom utan statlig inblandning
+explanation: |
+  För Bastiat innebär juristernas princip, i motsats till ekonomernas, att lagen går före egendomen, en ståndpunkt som han kritiserar för att den kan leda till orättvisor.
+reviewed: false

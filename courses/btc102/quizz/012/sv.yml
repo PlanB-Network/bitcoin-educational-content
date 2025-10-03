@@ -1,0 +1,9 @@
+question: Vad innebär begreppet "self-custody" i Bitcoin-världen?
+answer: Förvara dina privata nycklar själv
+wrong_answers:
+  - Förlita dina nycklar till en specialiserad Exchange-plattform
+  - Överlämna dina nycklar till en investmentbank
+  - Förvara dina publika nycklar själv
+explanation: |
+  Self-custody säkerställer att användaren behåller full kontroll över sina bitcoins genom sina egna privata nycklar.
+reviewed: false

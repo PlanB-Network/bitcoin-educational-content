@@ -1,0 +1,10 @@
+question: Wat is de impact van 2% inflatie op de koopkracht over 5 jaar?
+answer: Je verliest 10% van je koopkracht.
+wrong_answers:
+  - Je verliest 2% van je koopkracht.
+  - Je verliest 5% van je koopkracht.
+  - Je verliest 20% van je koopkracht.
+explanation: |
+  Met 2% inflatie verliest u jaarlijks 2% van uw koopkracht
+  per jaar, wat neerkomt op 10% over 5 jaar.
+reviewed: true

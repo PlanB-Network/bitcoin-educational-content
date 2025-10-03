@@ -1,9 +1,9 @@
 ---
-name: Postavljanje BitAxe
+name: Bitaxe
 Opis: Kako postaviti BitAxe?
 
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Uvod
 
 

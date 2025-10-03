@@ -1,0 +1,9 @@
+question: Varför kan ett företag överväga att hålla en del av sin kassa i Bitcoin?
+answer: Som en potentiellt värdestegrande tillgång som kan lagra värde och erbjuda likviditet utan att vara beroende av traditionella finansiella mellanhänder.
+wrong_answers:
+  - Att omedelbart eliminera all risk och garantera stabil avkastning.
+  - För att uppfylla obligatoriska myndighetsbestämmelser som kräver Bitcoin-innehav.
+  - För att säkerställa att det aldrig kan konvertera sina tillgångar tillbaka till traditionella valutor.
+explanation: |
+  Bitcoin:s knapphet, globala likviditet och oberoende av traditionella banksystem kan göra den attraktiv som en tillgång för statskassan. Även om den är förknippad med risk och volatilitet kan företag se den som en långsiktig värdebevarare och ett skydd mot inflation.
+reviewed: false

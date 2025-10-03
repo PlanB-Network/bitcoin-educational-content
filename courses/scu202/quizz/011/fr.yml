@@ -1,0 +1,9 @@
+question: Quelle distinction majeure oppose le mouvement du logiciel libre à l’open source ?
+answer: La priorité donnée à la liberté ou à l’efficacité technique
+wrong_answers:
+  - L’utilisation du langage C ou du langage Assembleur
+  - Le développement d’applications mobiles natives ou PC
+  - L’absence ou la présence de communauté internationale
+explanation: |
+  Le logiciel libre vise la liberté des utilisateurs ; l’open source met surtout en avant la transparence et l’efficacité technique.
+reviewed: false

@@ -1,10 +1,11 @@
-question: Jaká je role veřejného klíče v Bitcoinové peněžence?
-answer: Používá se k generování Bitcoinových adres a tím k přijímání peněz.
+question: Jaká analogie je v tomto kurzu použita k vysvětlení, jak můžete přijímat bitcoiny bez toho, aby odesílatel mohl ukrást vaše prostředky?
+answer: Poštovní schránka.
 wrong_answers:
-  - Používá se k šifrování Bitcoinových transakcí.
-  - Používá se k přístupu k Bitcoinové peněžence.
-  - Používá se k zálohování Bitcoinové peněženky.
+  - Bankovní účet.
+  - Trezor.
+  - Dům.
 explanation: |
-  Veřejný klíč je odvozen z privátního klíče a používá se
-  k generování Bitcoinových adres za účelem přijímání peněz.
+  Analogie použitá k vysvětlení, jak můžete přijímat bitcoiny
+  bez toho, aby odesílatel mohl ukrást vaše prostředky, je
+  poštovní schránka. Lidé do ní vkládají peníze, ale otevřít ji můžete jen vy.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Vilka är de viktigaste funktionerna i en RGB Contract?
+answer: State Transition, Genesis och State Extension
+wrong_answers:
+  - Seal Definition, Commitment och validering
+  - Skapande av Anchor, DAG-uppdatering och transaktionssignering
+  - Genesis Block, UTXO Allokering och validering av skript
+explanation: |
+  Dessa operationer ändrar eller kompletterar statusen för en Contract enligt dess Schema.
+reviewed: false

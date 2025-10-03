@@ -1,0 +1,9 @@
+question: Hur många bitcoins (ungefär) utvann Satoshi Nakamoto totalt?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1 122 693 bitcoins, enligt en studie av Whale Alert som publicerades 2020. Satoshi upphörde med sina Mining aktiviteter i maj 2010.
+reviewed: true

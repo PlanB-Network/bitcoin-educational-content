@@ -1,0 +1,9 @@
+question: Wat is de centrale stelling van Lord Acton over geschiedenis?
+answer: Het conflict tussen vrijheid en macht is de drijvende kracht achter vooruitgang en de evolutie van samenlevingen.
+wrong_answers:
+  - Vooruitgang is lineair en onvermijdelijk en leidt tot een samenleving van vrijheid en gelijkheid.
+  - De geschiedenis is een zich herhalende cyclus met perioden van vrijheid gevolgd door perioden van tirannie.
+  - Economische factoren bepalen het verloop van de geschiedenis.
+explanation: |
+  Lord Acton stelt dat de geschiedenis in de eerste plaats gekenmerkt wordt door het conflict tussen vrijheid en macht. Hij beschouwt deze strijd als essentieel voor vooruitgang en de evolutie van samenlevingen naar meer individuele vrijheid.
+reviewed: true

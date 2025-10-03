@@ -1,0 +1,9 @@
+question: À quoi servent les fichiers revNNNNN.dat conservés parallèlement aux blkNNNNN.dat ?
+answer: Restaurer l’UTXO set lors d’une réorganisation
+wrong_answers:
+  - Restaurer l’UTXO set lors d’un hard fork
+  - Restaurer la mempool lors d’un hard fork
+  - Restaurer la mempool lors d’une réorganisation
+explanation: |
+  Chaque revNNNNN.dat contient les données nécessaires pour annuler les effets d’un bloc sur l’UTXO set, ce qui facilite la gestion des réorganisations.
+reviewed: false

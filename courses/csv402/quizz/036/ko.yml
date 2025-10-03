@@ -1,0 +1,9 @@
+question: Stash의 역할은 무엇인가요?
+answer: 모든 클라이언트 측 데이터를 로컬에 보관
+wrong_answers:
+  - Blockchain에 트랜잭션 자동 게시
+  - 생성된 모든 송장 컴파일 및 저장
+  - Bitcoin 개인 키 관리
+explanation: |
+  Stash는 사용자가 Client-side Validation을 수행하기 위해 하나 이상의 RGB 컨트랙트를 위해 로컬에 저장하는 클라이언트 측 데이터 집합입니다.
+reviewed: false

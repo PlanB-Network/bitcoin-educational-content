@@ -1,0 +1,9 @@
+question: 바스티아트에 따르면 책임의 원칙은 ...? ?
+answer: 완벽성
+wrong_answers:
+  - 완벽함
+  - 불변성
+  - 완벽한 성취
+explanation: |
+  바스티아는 책임을 완벽성의 원칙, 즉 경험의 교훈을 통한 개선과 개인적 발전의 원천으로 여깁니다.
+reviewed: false

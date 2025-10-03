@@ -1,0 +1,9 @@
+question: Wat is de definitie van een geheel getal dat copriem is ten opzichte van een ander geheel getal?
+answer: Een geheel getal dat een grootste gemene deler van 1 heeft met dat andere gehele getal
+wrong_answers:
+  - Een geheel getal dat deelbaar is door het andere gehele getal zonder rest
+  - Een geheel getal dat priem is
+  - Een geheel getal dat groter is dan de andere
+explanation: |
+  Een geheel getal is coprime met een ander als hun grootste gemene deler 1 is, wat betekent dat ze geen andere gemeenschappelijke factor hebben.
+reviewed: false

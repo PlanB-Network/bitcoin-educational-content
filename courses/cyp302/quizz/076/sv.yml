@@ -1,0 +1,9 @@
+question: Vilken nyckelstorlek anses vara säker mot brute force-attacker för modern kryptering?
+answer: 128 bitar
+wrong_answers:
+  - 16 bitar
+  - 64 bitar
+  - 100 bitar
+explanation: |
+  Med en nyckel på minst 128 bitar anses modern kryptering för närvarande vara säker mot brute force-attacker, eftersom antalet försök skulle vara orealistiskt.
+reviewed: false

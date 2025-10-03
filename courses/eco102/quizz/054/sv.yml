@@ -1,0 +1,9 @@
+question: Vad är effekten av offentliga utgifter för Bastiat när de finansieras med skulder eller skatter?
+answer: Den avleder resurser från den privata sektorn
+wrong_answers:
+  - Det stimulerar efterfrågan utan biverkningar
+  - Det ökar konsumenternas köpkraft
+  - Det är nödvändigt för att hålla ekonomin flytande
+explanation: |
+  Bastiat menar att offentliga utgifter, som finansieras via skatter eller skulder, tar medel från den privata sektorn och därmed begränsar välståndsskapandet på andra håll i ekonomin.
+reviewed: false

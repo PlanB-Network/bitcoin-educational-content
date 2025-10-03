@@ -1,0 +1,9 @@
+question: Vilken typ av DNS-post används för att hitta namnet som är associerat med en IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) möjliggör omvänd upplösning, vilket innebär att den länkar en IPv6 Address till ett domännamn.
+reviewed: false

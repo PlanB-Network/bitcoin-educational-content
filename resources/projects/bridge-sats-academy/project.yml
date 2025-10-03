@@ -1,0 +1,31 @@
+id: 77432591-35aa-4e95-8265-06982d2387f7
+
+name: Bridge Sats Academy
+
+address_line_1: Goma, République Démocratique du Congo
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://bridgesats.academy/
+  twitter: https://x.com/Bridgesats
+  Github: 
+  youtube: 
+
+category: education
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-18
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 0
+
+tags:
+  - education
+  - bitcoin
+
+contributor_names:
+  - Gloirew

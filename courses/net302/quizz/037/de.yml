@@ -1,0 +1,9 @@
+question: Was ist der Zweck der speziellen IPv4-Notation 0.0.0.0?
+answer: So bezeichnen Sie alle Schnittstellen oder einen nicht zugewiesenen Address
+wrong_answers:
+  - So senden Sie eine Nachricht an alle Netze
+  - So testen Sie die lokale Verbindung eines Geräts
+  - Um einen Adressierungs- oder Verbindungsfehler beim lokalen Router anzuzeigen
+explanation: |
+  Die Notation 0.0.0.0 wird lokal verwendet, um das Fehlen eines zugewiesenen Address darzustellen oder um an allen Schnittstellen zu lauschen.
+reviewed: false

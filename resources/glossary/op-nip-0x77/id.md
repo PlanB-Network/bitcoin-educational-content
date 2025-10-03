@@ -2,4 +2,4 @@
 term: OP_NIP (0X77)
 
 ---
-Menghapus item tepat di bawah bagian atas tumpukan (yang kedua dari atas).
+Menghapus item tepat di bawah bagian atas _stack_ (elemen kedua dari atas).

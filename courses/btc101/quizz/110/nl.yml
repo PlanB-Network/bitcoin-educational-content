@@ -1,0 +1,10 @@
+question: Wanneer verdween Satoshi Nakamoto?
+answer: In 2010
+wrong_answers:
+  - In 2008
+  - In 2009
+  - In 2023
+explanation: |
+  Satoshi Nakamoto verdween in 2010 en liet zijn creatie
+  in handen van de gemeenschap.
+reviewed: true

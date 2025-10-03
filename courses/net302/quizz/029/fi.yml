@@ -1,0 +1,9 @@
+question: Mikä on TCP/IP-mallin palvelualustojen tarkoitus?
+answer: Hallitse kerrosten välistä vaihtoa
+wrong_answers:
+  - Salaa verkkoviestit automaattisesti
+  - IP-osoitteiden jakaminen etäisännille
+  - Tarkista IP-pakettien kokonaispituus
+explanation: |
+  Palvelun alkuominaisuudet määrittelevät eri kerrosten välisen Interface-viestinnän, jonka avulla voidaan luoda, ylläpitää tai lopettaa verkkovaihdot.
+reviewed: false

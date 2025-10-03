@@ -1,0 +1,9 @@
+question: Quel type de protocole faut-il activer pour chiffrer les requêtes DNS à l’échelle du réseau local ?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) et DoT (DNS over TLS) permettent de chiffrer les requêtes DNS, empêchant leur interception.
+reviewed: false

@@ -1,10 +1,8 @@
-question: Je, ni kitu gani unapaswa kuwa nacho kabla ya kununua Bitcoin?
-answer: Wallet salama.
+question: Ni ipi mojawapo ya sababu kwa nini unapaswa kuunganisha UTXO zako kwenye pochi mara kwa mara?
+answer: Ili kuepuka ada zisizohitajika wakati wa shughuli.
 wrong_answers:
-  - Salama ya kimwili.
-  - Akaunti ya benki.
-  - Kadi ya mkopo.
-explanation: |
-  Maandishi ya kozi yanataja kwamba kabla ya kununua Bitcoin, wewe
-  inapaswa kuwa na Wallet salama ambapo utahifadhi funguo zako.
+  - Ili kuongeza thamani ya bitcoins zako.
+  - Ili kuzuia bitcoins zako zisiibiwe.
+  - Ili kuhakikisha bitcoins zako zinapatikana kila wakati.
+explanation: >-
 reviewed: true

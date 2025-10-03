@@ -68,25 +68,25 @@ Du kommer att hitta Satochip inuti.
 ![SATOCHIP](assets/notext/04.webp)
 
 
-För att hantera Wallet föreslår jag i denna handledning att du använder Sparrow. Om du ännu inte har programvaran kan du [besöka den officiella webbplatsen för att ladda ner den](https://sparrowwallet.com/download/). Du kan också kolla in vår handledning om Sparrow Wallet (kommer snart).
+För att hantera Wallet, i denna handledning, föreslår jag att du använder Sparrow. Om du ännu inte har programvaran kan du [besöka den officiella webbplatsen för att ladda ner den](https://sparrowwallet.com/download/). Du kan också kolla in vår handledning om Sparrow wallet (kommer snart).
 
 
 ![SATOCHIP](assets/notext/05.webp)
 
 
-Sätt in din Satochip i smartkortsläsaren eller placera den på NFC-läsaren och anslut läsaren till din dator där Sparrow är öppen.
+Sätt in din Satochip i smartkortläsaren eller placera den på NFC-läsaren och anslut läsaren till din dator där Sparrow är öppen.
 
 
 ![SATOCHIP](assets/notext/06.webp)
 
 
-Öppna Sparrow Wallet och se till att du är korrekt ansluten till en Bitcoin-nod. För att göra detta, kontrollera krysset längst ner till höger: det ska vara gult om du är ansluten till en offentlig nod, Green för en anslutning till Bitcoin Core, eller blått för Electrum.
+Öppna Sparrow wallet och se till att du är korrekt ansluten till en Bitcoin-nod. För att göra detta, kontrollera krysset längst ner till höger: det ska vara gult om du är ansluten till en offentlig nod, Green för en anslutning till Bitcoin Core, eller blått för Electrum.
 
 
 ![SATOCHIP](assets/notext/07.webp)
 
 
-På Sparrow Wallet klickar du på fliken "*File*".
+På Sparrow wallet klickar du på fliken "*File*".
 
 
 ![SATOCHIP](assets/notext/08.webp)
@@ -140,7 +140,7 @@ Anteckna lösenordet igen och klicka sedan på knappen "*Initialize*".
 ![SATOCHIP](assets/notext/15.webp)
 
 
-Du kommer då till fönstret för att generera din Mnemonic-fras. Klicka på knappen "*generate Ny*".
+Du kommer då till fönstret för att skapa din Mnemonic-fras. Klicka på knappen "*generate Ny*".
 
 
 ![SATOCHIP](assets/notext/16.webp)
@@ -168,7 +168,7 @@ Din Wallet är nu skapad. Dina privata nycklar är nu lagrade på smartkortet i 
 ![SATOCHIP](assets/notext/20.webp)
 
 
-Vi rekommenderar att du skapar ett extra lösenord för att säkra den offentliga information som hanteras av Sparrow Wallet, utöver PIN-koden för din Satochip. Detta lösenord kommer att säkerställa säkerheten för åtkomst till Sparrow Wallet, vilket hjälper till att skydda dina offentliga nycklar, adresser och transaktionshistorik mot obehörig åtkomst.
+Vi rekommenderar att du ställer in ett extra lösenord för att säkra den offentliga information som hanteras av Sparrow wallet, utöver PIN-koden för din Satochip. Detta lösenord kommer att säkerställa säkerheten för åtkomst till Sparrow wallet, vilket hjälper till att skydda dina offentliga nycklar, adresser och transaktionshistorik mot obehörig åtkomst.
 
 
 ![SATOCHIP](assets/notext/21.webp)
@@ -180,7 +180,7 @@ Ange ditt lösenord i de två fälten och klicka sedan på knappen "*Set Passwor
 ![SATOCHIP](assets/notext/22.webp)
 
 
-Och så har du det, din Satochip är nu konfigurerad på Sparrow Wallet.
+Och där har du det, din Satochip är nu konfigurerad på Sparrow wallet.
 
 
 ![SATOCHIP](assets/notext/23.webp)
@@ -198,13 +198,13 @@ När du är i din Wallet klickar du på fliken "*Receive*".
 ![SATOCHIP](assets/notext/24.webp)
 
 
-Sparrow Wallet genererar en Address för din Wallet. För andra hårdvaruplånböcker rekommenderas det vanligtvis att klicka på "*Display Address*" för att verifiera Address direkt på enhetens skärm. Tyvärr är detta alternativ inte tillgängligt med Satochip, men se till att använda det för dina andra plånböcker.
+Sparrow wallet genererar en Address för din Wallet. För andra hårdvaruplånböcker rekommenderas det vanligtvis att klicka på "*Display Address*" för att verifiera Address direkt på enhetens skärm. Tyvärr är detta alternativ inte tillgängligt med Satochip, men se till att använda det för dina andra plånböcker.
 
 
 ![SATOCHIP](assets/notext/25.webp)
 
 
-Du kan lägga till en "*Label*" för att beskriva källan till de bitcoins som kommer att säkras med denna Address. Detta är en god praxis som hjälper dig att bättre hantera dina UTXO:er.
+Du kan lägga till en "*Label*" för att beskriva källan till de bitcoins som kommer att säkras med denna Address. Detta är en bra praxis som hjälper dig att bättre hantera dina UTXO:er.
 
 
 ![SATOCHIP](assets/notext/26.webp)
@@ -222,7 +222,7 @@ Du kan sedan använda denna Address för att ta emot bitcoins.
 
 ## Hur skickar jag Bitcoins med Satochip?
 
-Nu när du har fått dina första Sats i din säkra Wallet med Satochip kan du också spendera dem! Anslut din Satochip till din dator, starta Sparrow Wallet och gå sedan till fliken "*Send*" för att skapa en ny transaktion.
+Nu när du har fått dina första Sats i din säkra Wallet med Satochip kan du också spendera dem! Anslut din Satochip till din dator, starta Sparrow wallet och gå sedan till fliken "*Sänd*" för att skapa en ny transaktion.
 
 
 ![SATOCHIP](assets/notext/28.webp)
@@ -294,7 +294,7 @@ Din transaktion är nu signerad. Klicka på "*Broadcast Transaction*" för att s
 ![SATOCHIP](assets/notext/39.webp)
 
 
-Du hittar den under fliken "*Transaktioner*" i Sparrow Wallet.
+Du hittar den under fliken "*Transaktioner*" i Sparrow wallet.
 
 
 ![SATOCHIP](assets/notext/40.webp)

@@ -1,0 +1,13 @@
+question: Vad är genomsnittlig dollarkostnad?
+answer: Köpa små mängder Bitcoin med jämna mellanrum.
+wrong_answers:
+  - Köpa en stor mängd Bitcoin på en gång.
+  - Köper Bitcoin endast när priset sjunker.
+  - Köpa Bitcoin endast när priset stiger.
+explanation: |
+  I kurstexten förklaras att tekniken med genomsnittlig dollarkostnad
+  teknik innebär att man köper små mängder Bitcoin med
+  regelbundna intervall. Denna metod jämnar ut prisfluktuationerna
+  fluktuationer över tiden och säkerställer kontinuerlig tillväxt i
+  mängd Bitcoin som ägs.
+reviewed: true

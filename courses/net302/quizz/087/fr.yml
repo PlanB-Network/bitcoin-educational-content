@@ -1,0 +1,9 @@
+question: Quelle commande permet d’observer le chemin parcouru par les paquets jusqu’à une destination IP ?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute affiche chaque routeur intermédiaire entre l’émetteur et la cible, en utilisant le TTL.
+reviewed: false

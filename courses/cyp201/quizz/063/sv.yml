@@ -1,0 +1,9 @@
+question: Vilken information ingår inte i en utökad nyckel?
+answer: Nyckelns transaktionshistorik
+wrong_answers:
+  - Nyckelns indexnummer
+  - Nyckel (privat eller offentlig)
+  - chain code
+explanation: |
+  En utökad nyckel innehåller endast den information som är nödvändig för att härleda underordnade nycklar, inte information som rör transaktioner.
+reviewed: false

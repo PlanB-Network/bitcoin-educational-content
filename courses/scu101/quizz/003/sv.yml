@@ -1,0 +1,13 @@
+question: Vilken är den största fördelen med att använda programvara med öppen källkod?
+answer: Det gör det möjligt att kontrollera att det inte finns någon dold åtkomst för att stjäla dina personuppgifter.
+wrong_answers:
+  - Det är alltid gratis.
+  - Det är alltid säkrare än programvara med sluten källkod.
+  - Det är alltid mer användarvänligt än programvara med sluten källkod.
+explanation: |
+  Programvara med öppen källkod är programvara vars kod är känd och
+  tillgänglig för alla. På så sätt kan man bland annat kontrollera
+  att det inte finns någon dold åtkomst för att stjäla dina personuppgifter
+  personuppgifter. Den är dock inte alltid gratis, säkrare eller
+  eller mer användarvänlig än programvara med sluten källkod.
+reviewed: true

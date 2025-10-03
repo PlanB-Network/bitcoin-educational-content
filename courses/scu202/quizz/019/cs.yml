@@ -1,0 +1,9 @@
+question: Co je to distribuce Linuxu?
+answer: Kompletní operační systém postavený na jádře Linuxu
+wrong_answers:
+  - Správce balíčků
+  - Pracovní prostředí systému Linux
+  - Automatický instalační skript pro operační systém Linux
+explanation: |
+  Distribuce Linuxu integruje jádro, systémové nástroje, software, zavaděč a správu balíčků a poskytuje tak systém připravený k použití.
+reviewed: false

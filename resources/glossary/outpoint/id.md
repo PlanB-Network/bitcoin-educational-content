@@ -1,5 +1,5 @@
 ---
-term: TUJUAN
+term: OUTPOINT
 
 ---
 Referensi unik untuk output transaksi yang tidak terpakai (UTXO). Terdiri dari dua elemen:
@@ -16,4 +16,4 @@ abc...123:0
 
 Titik keluar digunakan dalam input (`vin`) dari transaksi baru untuk menunjukkan UTXO mana yang dibelanjakan.
 
-> ► *Istilah "outpoint" sering digunakan secara sinonim dengan "UTXO. "*
+> ► *Istilah "outpoint" sering digunakan sebagai sinonim dari "UTXO. "*

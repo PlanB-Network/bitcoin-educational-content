@@ -1,0 +1,9 @@
+question: Waarom is het riskant om handmatig generate entropie te gebruiken voor een HD Wallet?
+answer: Het kan menselijke zwakheden of voorspelbare vooroordelen introduceren
+wrong_answers:
+  - Dit resulteert in ongeldige openbare sleutels
+  - Het blokkeert de afleiding van privésleutels
+  - Het beperkt de grootte van de gegenereerde Mnemonic zinnen
+explanation: |
+  Het handmatig genereren van entropie kan vertekeningen of fouten introduceren, waardoor de sleutels kwetsbaarder worden voor aanvallen.
+reviewed: false

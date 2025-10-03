@@ -30,25 +30,25 @@ Esiste anche una versione dedicata al business, chiamata "*Threema Work*". In qu
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| **Threema**          | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | **✅**          | **✅**          | **✅**               | **✅**                      | **❌**                       | **❌**                | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Applicazione         | E2EE 1:1       | E2EE gruppi    | Registrazione anonima | Licenza client open-source | Licenza server open-source | Server decentralizzato   | Anno di creazione |
+| -------------------- | -------------- | -------------- | --------------------- | -------------------------- | -------------------------- | ------------------------ | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                     | ❌                          | ❌                          | ❌                        | 2009              |
+| WeChat               | ❌              | ❌              | ❌                     | ❌                          | ❌                          | ❌                        | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (opzionale) | ❌                     | ❌                          | ❌                          | ❌                        | 2011              |
+| Telegram             | 🟡 (opzionale) | ❌              | 🟡                    | ✅                          | ❌                          | ❌                        | 2013              |
+| LINE                 | ✅              | ✅              | ❌                     | ❌                          | ❌                          | ❌                        | 2011              |
+| Signal               | ✅              | ✅              | ❌                     | ✅                          | ✅                          | ❌                        | 2014              |
+| Threema              | ✅              | ✅              | ✅                     | ✅                          | ❌                          | ❌                        | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                     | ✅                          | ✅                          | 🟡 (federato)           | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                     | ✅                          | N/A                        | 🟡 (tramite email)      | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                     | ✅                          | ✅                          | 🟡 (federato)           | 2014              |
+| Session              | ✅              | ✅              | ✅                     | ✅                          | ✅                          | ✅                        | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                     | ✅                          | ✅                          | ✅                        | 2021              |
+| Olvid                | ✅              | ✅              | ✅                     | ✅                          | ❌                          | 🟡(nessuna directory)   | 2019              |
+| Keet                 | ✅              | ✅              | ✅                     | ❌                          | N/A                        | ✅                        | 2022              |
+| Jami                 | ✅              | ✅              | ✅                     | ✅                          | N/A                        | ✅                        | 2005              |
+| Briar                | ✅              | ✅              | ✅                     | ✅                          | N/A                        | ✅                        | 2018              |
+| Tox                  | ✅              | ✅              | ✅                     | ✅                          | N/A                        | ✅                        | 2013              |
 
 *E2EE = crittografia end-to-end*
 
@@ -272,11 +272,11 @@ Qui sono disponibili due opzioni per il backup dei dati:
 
 
 - "*Treema sicuro*";
-- "Backup dei dati*".
+- "Backup dei dati".
 
 
 
-"Threema Safe* salva tutti i dati del vostro account, ad eccezione delle vostre conversazioni, sui server di Threema. Questi dati sono criptati con la password scelta al momento della creazione dell'account, in modo che Threema non possa accedervi. I backup vengono effettuati automaticamente e regolarmente.
+"**Threema Safe** salva tutti i dati del vostro account, ad eccezione delle vostre conversazioni, sui server di Threema. Questi dati sono criptati con la password scelta al momento della creazione dell'account, in modo che Threema non possa accedervi. I backup vengono effettuati automaticamente e regolarmente.
 
 
 

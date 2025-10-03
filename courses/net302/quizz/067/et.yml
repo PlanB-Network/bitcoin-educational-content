@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus, miks IPv6-s kasutatakse juhuslikke Interface identifikaatoreid, mitte MAC Address identifikaatoreid?
+answer: Privaatsuse säilitamine
+wrong_answers:
+  - Paketi suuruse vähendamine
+  - DNS-i resolutsiooni kiirendamine
+  - ARP ühilduvuse parandamine
+explanation: |
+  Juhuslike Interface identifikaatorite kasutamine aitab kaitsta seadme jälgimise eest MAC Address alusel.
+reviewed: false

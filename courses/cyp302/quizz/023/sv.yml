@@ -1,0 +1,9 @@
+question: Vilken roll har modulo-operationen i skiftchifferkryptering?
+answer: Det säkerställer att bokstäverna återgår till början av alfabetet när de överstiger 26
+wrong_answers:
+  - Den multiplicerar bokstävernas värden med nyckeln
+  - Den vänder på bokstäverna i alfabetet
+  - Den raderar bokstäverna efter bokstaven Z
+explanation: |
+  Modulo 26-operationen gör att bokstäverna kan loopa tillbaka efter Z för att säkerställa att varje krypterad bokstav håller sig inom alfabetets 26 bokstäver.
+reviewed: false

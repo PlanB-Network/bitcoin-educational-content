@@ -1,0 +1,9 @@
+question: File mana yang secara historis digunakan untuk resolusi lokal sebelum munculnya DNS global?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/jaringan
+  - /dll/menyelesaikan
+explanation: |
+  Sebelum DNS tersebar luas, resolusi nama bergantung pada berkas statis /etc/hosts pada sistem Unix/Linux.
+reviewed: false

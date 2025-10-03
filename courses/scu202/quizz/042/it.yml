@@ -1,0 +1,9 @@
+question: Perché è necessario verificare sempre l'integrità e l'autenticità del software scaricato da Internet?
+answer: Per evitare l'installazione di malware
+wrong_answers:
+  - Per migliorare le prestazioni del sistema
+  - Per risparmiare larghezza di banda
+  - Per accelerare l'installazione
+explanation: |
+  La verifica dell'integrità e dell'autenticità aiuta a prevenire l'installazione di software corrotti, infetti o non legittimi.
+reviewed: false

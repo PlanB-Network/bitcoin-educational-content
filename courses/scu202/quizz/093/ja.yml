@@ -1,0 +1,9 @@
+question: インターネット上で各機器を識別するために主に使用されるプロトコルはどれか？
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  インターネット・プロトコル（IP）は、各デバイスに固有のAddressを割り当て、データ・パケットのルーティングを可能にする。
+reviewed: false

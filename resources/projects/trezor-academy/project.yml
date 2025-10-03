@@ -1,0 +1,32 @@
+id: 0dd3f828-31ee-456e-b850-796e2add281a
+
+name: Trezor Academy
+
+address_line_1: Africa
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://academy.trezor.io/
+  twitter: https://x.com/TrezorAcademy
+  Github: 
+  youtube: 
+
+category: education
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-17
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - bitcoin 
+  - education
+  - freedom
+
+contributor_names:
+  - Gloirew

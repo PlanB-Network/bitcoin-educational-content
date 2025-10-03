@@ -1,0 +1,9 @@
+question: Mikä on macOS-ekosysteemin suurin haittapuoli?
+answer: Rajoitukset ja riippuvuus Applesta
+wrong_answers:
+  - Ohjelmistojen liiallinen avoimuus
+  - Heikko grafiikkaoptimointi
+  - Päivitysten puute
+explanation: |
+  MacOS:n tiivis integroituminen Applen laitteistoon johtaa riippuvuuteen ja sitoutumiseen tuotemerkin omaan ekosysteemiin.
+reviewed: false

@@ -4,6 +4,12 @@ description: Sette opp en 2/2 multisig på Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Merk:** Fra og med mai 2025 vil det ikke lenger være mulig å aktivere nye kontoer beskyttet med tofaktorautentisering (2FA). Denne funksjonen er kun tilgjengelig for brukere som tidligere har aktivert denne typen konto.*
+
+___
+
 En programvarelommebok er et program som installeres på en datamaskin, smarttelefon eller annen Internett-tilkoblet enhet, slik at du kan administrere og sikre Bitcoin-lommeboknøklene dine. I motsetning til maskinvarelommebøker, som isolerer private nøkler, opererer "hot"-lommebøker derfor i et miljø som potensielt er utsatt for dataangrep, noe som øker risikoen for piratkopiering og tyveri.
 
 Programvarelommebøker bør brukes til å håndtere rimelige mengder bitcoins, spesielt for dagligdagse transaksjoner. De kan også være et interessant alternativ for personer med begrensede bitcoin-eiendeler, for hvem investeringen i en maskinvarelommebok kan virke uforholdsmessig stor. Den konstante eksponeringen mot Internett gjør dem imidlertid mindre sikre når det gjelder lagring av langsiktige sparepenger eller store midler. For sistnevnte er det best å velge sikrere løsninger, for eksempel maskinvare-lommebøker.
@@ -20,7 +26,7 @@ Green er et spesielt brukervennlig program, noe som gjør det interessant for ny
 
 Blockstream Green støtter også Liquid-nettverket, en Bitcoin-sidekjede utviklet av Blockstream for raske, konfidensielle transaksjoner utenfor hovedblokkjeden. I denne veiledningen fokuserer vi utelukkende på Bitcoin, men jeg har også laget en annen veiledning for å lære hvordan du bruker Liquid på Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 multisig-alternativ (2FA)
 
@@ -40,7 +46,7 @@ En annen ulempe med denne sikkerhetsmetoden er at du må bruke minoritetsskriptm
 
 Hvis du foretrekker å ikke bruke 2FA-alternativet og bare ønsker å sette opp en "*singlesig*"-lommebok på Green, inviterer jeg deg til å lese denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installere og konfigurere Blockstream Green-programvaren
 
@@ -54,7 +60,7 @@ For Android-brukere kan du også installere applikasjonen via `.apk`-filen [tilg
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Start programmet, og kryss av i boksen "Jeg godtar vilkårene...*".
+Start programmet, og kryss av i boksen "Jeg godtar vilkårene...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -160,7 +166,7 @@ Legg til en ny kode i autentiseringsprogrammet ditt, og skann deretter QR-koden 
 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
-*Du må selvsagt aldri dele denne nøkkelen og QR-koden på Internett, slik jeg gjør i denne veiledningen. Denne eksempellommeboken vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen
+**Du må selvsagt aldri dele denne nøkkelen og QR-koden på Internett, slik jeg gjør i denne veiledningen. Denne eksempellommeboken vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen**
 
 Klikk på knappen "*Fortsett*".
 
@@ -264,4 +270,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-mobilapplikasjonen for å sette opp en Liquid-lommebok :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

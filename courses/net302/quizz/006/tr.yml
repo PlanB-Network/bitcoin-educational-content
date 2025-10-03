@@ -1,0 +1,9 @@
+question: İnternet protokollerinin teknik yönetimini denetleyen kuruluş hangisidir?
+answer: İnternet Mimarisi Kurulu
+wrong_answers:
+  - İnternet Topluluğu
+  - World Wide Web Konsorsiyumu
+  - Elektrik ve Elektronik Mühendisleri Enstitüsü
+explanation: |
+  İnternet Mimarisi Kurulu (IAB) teknik yönetişimi denetler ve İnternet protokollerinin gelişimini koordine eder.
+reviewed: false

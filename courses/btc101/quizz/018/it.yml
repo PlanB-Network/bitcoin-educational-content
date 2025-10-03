@@ -1,12 +1,12 @@
-question: Quali sono state le prime forme di valuta?
-answer: Beni come grano e bestiame.
+question: Qual è il principale vantaggio di Bitcoin rispetto ad altre forme di valuta?
+answer: Offre un'eccellente riserva di valore grazie alla sua emissione strettamente limitata e alla sua neutralità.
 wrong_answers:
-  - Oro e argento.
-  - Banconote di carta.
-  - Asset digitali.
+  - È indivisibile e non trasportabile.
+  - È un ottimo esempio di valuta che soffre di inflazione monetaria.
+  - È ampiamente accettato nel commercio da tutti i commercianti nel mondo.
 explanation: |
-  Le prime forme di valuta erano spesso legate a beni essenziali
-  come grano, bestiame e altre merci. Tuttavia, questi beni
-  avevano grandi svantaggi, come la deperibilità, rendendo
-  difficile il loro utilizzo come mezzo di risparmio a lungo termine.
+  Il principale vantaggio di Bitcoin, rispetto ad altre forme di valuta,
+  è che offre un'eccellente riserva di valore grazie alla sua
+  offerta strettamente limitata e all'assenza di una parte fiduciaria. Questo
+  lo rende una buona scelta per il risparmio a lungo termine.
 reviewed: true

@@ -1,5 +1,5 @@
 question: Koja kriptografska metoda se koristi da spreči koordinatora da poveže ulaze i izlaze u CoinJoin?
-answer: Chaum slepi potpisi.
+answer: Chaumian slepi potpisi.
 wrong_answers:
   - Schnorr potpisi.
   - P2SH adrese.

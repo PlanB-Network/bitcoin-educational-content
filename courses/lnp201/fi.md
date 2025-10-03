@@ -86,7 +86,7 @@ Otetaan esimerkki Lightning-siirrosta. Jos Alice haluaa lähettää 40 000 satos
 
 **Kanavan kapasiteetti**, 130 000 satoshissa, pysyy vakiona. Mikä muuttuu, on varojen jakautuminen. Tämä järjestelmä ei salli lähettää enemmän varoja kuin mitä omistaa. Esimerkiksi, jos Bob haluaisi lähettää takaisin 80 000 satoshia Alicelle, hän ei voisi, koska hänellä on vain 70 000.
 
-Toinen tapa kuvitella varojen jakautumista on ajatella **liukusäädintä**, joka osoittaa, missä varat ovat kanavassa. Aluksi, kun Alicella on 100 000 satoshia ja Bobilla 30 000, liukusäädin on loogisesti Alicen puolella. 40 000 satoshin siirron jälkeen liukusäädin siirtyy hieman Bobin puolelle, jolla nyt on 70 000 satoshia.
+Toinen tapa kuvitella varojen jakautumista on kuvitella **osoitin**, joka näyttää missä varat ovat kanavassa. Aluksi, kun Alicella on 100 000 satoshia ja Bobilla 30 000, osoitin on enemmän Bobin puolella, koska Alicella on paljon enemmän varoja. 40 000 satoshin tapahtuman jälkeen osoitin siirtyy hieman Alicen puolelle, jolla on nyt 60 000 satoshia.
 
 ![LNP201](assets/en/04.webp)
 
@@ -537,12 +537,12 @@ Ymmärtääksemme paremmin, miten maksut toimivat, tutkitaan samaa Lightning Net
 Samasta **40,000 satoshin** maksusta Bobille, Alicen on lähetettävä hieman enemmän, koska jokainen välisolmu vähentää omat maksunsa:
 
 - **Carol** vähentää 1.04 satoshia kanavalla Bobin kanssa:
-  $$ f*{\text{Carol-Bob}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** vähentää 8 satoshia maksuina kanavalla Carolin kanssa:
-  $$ f*{\text{Suzie-Carol}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 Tämän maksun kokonaismaksut tällä reitillä ovat siis **9.04 satoshia**. Näin ollen Alicen on lähetettävä **40,009.04 satoshia**, jotta Bob saa tarkalleen **40,000 satoshia**.
 

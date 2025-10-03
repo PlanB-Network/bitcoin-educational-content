@@ -1,0 +1,9 @@
+question: Vad är en digital signatur i samband med asymmetrisk kryptografi?
+answer: En mekanism för att verifiera äktheten hos ett meddelande med hjälp av den privata nyckeln
+wrong_answers:
+  - En process för att kryptera meddelandet starkare
+  - En ytterligare publik nyckel för att validera ett krypterat meddelande
+  - En digital kopia av en handskriven signatur
+explanation: |
+  En digital signatur är en kryptografisk teknik som bevisar att ett meddelande verkligen har skapats av ägaren till den motsvarande privata nyckeln, vilket säkerställer dess äkthet.
+reviewed: false

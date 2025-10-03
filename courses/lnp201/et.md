@@ -86,7 +86,7 @@ Võtame näiteks Lightning tehingu. Kui Alice soovib saata 40 000 satoshit Bobil
 
 **Kanali võimsus**, 130 000 satoshit, jääb muutumatuks. Muutub vahendite jaotus. See süsteem ei luba saata rohkem vahendeid, kui omatakse. Näiteks, kui Bob sooviks saata tagasi 80 000 satoshit Alicele, ei saaks ta seda teha, kuna tal on ainult 70 000.
 
-Teine viis vahendite jaotuse ettekujutamiseks on mõelda **liugurile**, mis näitab, kus vahendid kanalis asuvad. Alguses, kui Alicel on 100 000 satoshit ja Bobil 30 000, on liugur loogiliselt Alice'i poolel. Pärast 40 000 satoshi tehingut liigub liugur veidi Bobi poole, kellel on nüüd 70 000 satoshit.
+Teine viis fondide jaotust ette kujutada on ette kujutada **kursorit**, mis näitab, kus fondid kanalis asuvad. Alguses, kui Alice’il on 100 000 satoshit ja Bobil 30 000, on kursor pigem Bobi poolel, sest Alice’il on palju rohkem vahendeid. Pärast 40 000 satoshi tehingut liigub kursor veidi Alice’i poole, kellel on nüüd 60 000 satoshit.
 
 ![LNP201](assets/en/04.webp)
 
@@ -537,12 +537,12 @@ Et paremini mõista, kuidas tasud töötavad, uurigem sama Lightning Networki na
 Sama makse puhul **40,000 satoshis** Bob'ile peab Alice saatma veidi rohkem, kuna iga vahendaja sõlm võtab oma tasud:
 
 - **Carol** võtab kanalil Bob'iga maha 1.04 satoshit:
-  $$ f*{\text{Carol-Bob}} = \text{baastasu} + \left(\frac{\text{ppm} \times \text{summa}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{baastasu} + \left(\frac{\text{ppm} \times \text{summa}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** võtab kanalil Carol'iga maha 8 satoshit tasudes:
-  $$ f*{\text{Suzie-Carol}} = \text{baastasu} + \left(\frac{\text{ppm} \times \text{summa}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{baastasu} + \left(\frac{\text{ppm} \times \text{summa}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 Seega on selle makse kogutasud sellel teel **9.04 satoshit**. Seega peab Alice saatma **40,009.04 satoshit**, et Bob saaks täpselt **40,000 satoshit**.
 

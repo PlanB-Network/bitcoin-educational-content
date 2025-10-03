@@ -1,0 +1,12 @@
+question: Vilket är det matematiska koncept som bygger på mänsklig rationalitet och som används i Bitcoin?
+answer: Spelteori.
+wrong_answers:
+  - Sannolikhetsteori.
+  - Nummerteori.
+  - Mängdteori.
+explanation: |
+  Spelteori är ett matematiskt koncept som bygger på
+  mänsklig rationalitet. I Bitcoin är protokolländringar
+  av användarna, vilket gör alla ändringar av Bitcoin-protokollet
+  protokollet mycket komplex.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilka funktioner bör staten uppfylla enligt Bastiat?
+answer: Intern säkerhet, extern säkerhet och rättvisa
+wrong_answers:
+  - Reglering, omfördelning och rättvisa
+  - Säkerhet, rättvisa och jämlikhet
+  - Utbildning, hälsa och rättvisa
+explanation: |
+  Bastiat förespråkar att statens roll ska begränsas till funktioner som inre och yttre säkerhet och rättvisa, för att skydda individers naturliga rättigheter.
+reviewed: false

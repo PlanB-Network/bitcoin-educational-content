@@ -1,0 +1,9 @@
+question: Welke van de volgende is NIET één van de drie genoemde primaire methoden om Bitcoin te verkrijgen?
+answer: Bitcoin ontvangen als overheidssubsidie voor bedrijfsontwikkeling.
+wrong_answers:
+  - Bitcoin verkrijgen in Exchange voor goederen of diensten.
+  - Mining Bitcoin door gespecialiseerde hardware en energieverbruik.
+  - Bitcoin kopen van een platform of makelaar.
+explanation: |
+  Het hoofdstuk noemt drie manieren om Bitcoin te verkrijgen: het accepteren als betaling, het delven of het kopen. Bitcoin ontvangen als een overheidssubsidie is geen erkende standaardmethode om het te verkrijgen.
+reviewed: false

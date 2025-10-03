@@ -1,0 +1,9 @@
+question: IPv6 Addressに関連する名前を見つけるために使用されるDNSレコードのタイプは何ですか？
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR（ポインタレコード）は、IPv6のAddressをドメイン名にリンクすることを意味し、逆解決を可能にする。
+reviewed: false

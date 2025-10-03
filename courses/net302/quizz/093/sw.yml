@@ -1,0 +1,9 @@
+question: Ni zana gani inayoonyesha ujumbe wa kina wa DNS, ikijumuisha rekodi na mchakato wa utatuzi?
+answer: kuchimba
+wrong_answers:
+  - mwenyeji
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) hutoa maelezo ya kina kuhusu azimio la DNS, ikiwa ni pamoja na aina za rekodi.
+reviewed: false

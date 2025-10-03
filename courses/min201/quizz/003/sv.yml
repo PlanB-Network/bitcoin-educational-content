@@ -1,0 +1,13 @@
+question: Vad är det främsta ekonomiska incitamentet för gruvarbetare att delta i Bitcoin Mining-processen?
+answer: Mining-belöningen
+wrong_answers:
+  - Möjligheten att styra Bitcoin-nätverket
+  - Möjligheten att skapa nya bitcoins efter eget gottfinnande
+  - Möjligheten att manipulera priset på Bitcoin
+explanation: |
+  Det huvudsakliga ekonomiska incitamentet för gruvarbetare att delta i
+  gW-5 Mining-processen är Mining-belöningen. Denna
+  belöning fungerar som ett kraftfullt incitament för att uppmuntra gruvarbetare
+  att delta i Mining-processen trots dess energikostnad
+  kostnad.
+reviewed: true

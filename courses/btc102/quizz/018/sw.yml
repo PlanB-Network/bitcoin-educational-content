@@ -1,0 +1,9 @@
+question: Jengo la Genesis la Bitcoin liliundwa mwaka gani?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Kitalu cha Genesis, kizuizi cha kwanza cha Blockchain, kilichimbwa mnamo Januari 2009.
+reviewed: false

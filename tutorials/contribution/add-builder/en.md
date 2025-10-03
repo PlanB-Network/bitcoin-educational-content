@@ -1,32 +1,32 @@
 ---
-name: Adding a Builder
-description: How to propose the addition of a new builder on PlanB Network?
+name: Adding a Project
+description: How to propose the addition of a new project on PlanB Network?
 ---
-![builder](assets/cover.webp)
+![project](assets/cover.webp)
 
 PlanB's mission is to provide top-tier educational resources on Bitcoin, in as many languages as possible. All content published on the site is open-source and hosted on GitHub, which allows anyone to participate in enriching the platform.
 
-Do you want to add a new Bitcoin "builder" to the PlanB Network site and give visibility to your company or software, but don't know how? This tutorial is for you!
-![builder](assets/01.webp)
+Do you want to add a new Bitcoin "project" to the PlanB Network site and give visibility to your company or software, but don't know how? This tutorial is for you!
+![project](assets/01.webp)
 - First, you need to have a GitHub account. If you don't know how to create an account, we have made a detailed tutorial to guide you.
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) in the `resources/builder/` section:
-![builder](assets/02.webp)
+- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) in the `resources/project/` section:
+![project](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
-![builder](assets/03.webp)
+![project](assets/03.webp)
 - If you have never contributed to the contents of PlanB Network before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, which allows you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
-![builder](assets/04.webp)
+![project](assets/04.webp)
 - You will then arrive at the GitHub editing page:
-![builder](assets/05.webp)
+![project](assets/05.webp)
 - Create a folder for your company. To do this, in the `Name your file...` box, write the name of your company in lowercase with dashes instead of spaces. For example, if your company is called "Bitcoin Baguette", you should write `bitcoin-baguette`:
-![builder](assets/06.webp)
+![project](assets/06.webp)
 - To validate the creation of the folder, simply add a slash after your name in the same box, for example: `bitcoin-baguette/`. Adding a slash automatically creates a folder rather than a file:
-![builder](assets/07.webp)
-- In this folder, you will create a first YAML file named `builder.yml`:
-![builder](assets/08.webp)
+![project](assets/07.webp)
+- In this folder, you will create a first YAML file named `project.yml`:
+![project](assets/08.webp)
 - Fill this file with information about your company using this template:
 
 ```yaml
@@ -101,60 +101,60 @@ tags:
 category: education
 ```
 
-![builder](assets/09.webp)
+![project](assets/09.webp)
 - Once you have finished making changes to this file, save them by clicking on the `Commit changes...` button:
-![builder](assets/10.webp)
+![project](assets/10.webp)
 - Add a title for your changes, along with a short description:
-![builder](assets/11.webp)
+![project](assets/11.webp)
 - Click on the green `Propose changes` button:
-![builder](assets/12.webp)
+![project](assets/12.webp)
 - You will then arrive at a page summarizing all your changes:
-![builder](assets/13.webp)
+![project](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
-![builder](assets/14.webp)
+![project](assets/14.webp)
 - Select your fork of the PlanB Network repository:
-![builder](assets/15.webp)
+![project](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It's probably called `patch-1`. Click on it:
-![builder](assets/16.webp)
+![project](assets/16.webp)
 - You are now on your working branch (**make sure you are on the same branch as your previous modifications, this is important!**):
-![builder](assets/17.webp)
-- Go back to the `resources/builders/` folder and select the folder of your business that you just created in the previous commit:
-![builder](assets/18.webp)
+![project](assets/17.webp)
+- Go back to the `resources/projects/` folder and select the folder of your business that you just created in the previous commit:
+![project](assets/18.webp)
 - In the folder of your business, click on the `Add file` button, then on `Create new file`:
-![builder](assets/19.webp)
+![project](assets/19.webp)
 - Name this new folder `assets` and confirm its creation by putting a slash `/` at the end:
-![builder](assets/20.webp)
+![project](assets/20.webp)
 - In this `assets` folder, create a file named `.gitkeep`:
-![builder](assets/21.webp)
+![project](assets/21.webp)
 - Click on the `Commit changes...` button:
-![builder](assets/22.webp)
-- Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![builder](assets/23.webp)
+![project](assets/22.webp)
+- Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![project](assets/23.webp)
 - Go back to the `assets` folder:
-![builder](assets/24.webp)
+![project](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`:
-![builder](assets/25.webp)
+![project](assets/25.webp)
 - A new page will open. Drag and drop an image of your company or your software into the area. This image will be displayed on the PlanB Network site:
-![builder](assets/26.webp)
+![project](assets/26.webp)
 - It can be the logo or an icon:
-![builder](assets/27.webp)
+![project](assets/27.webp)
 - Once the image is uploaded, verify that the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`:
-![builder](assets/28.webp)
+![project](assets/28.webp)
 - Be careful, your image must be square, must be named `logo`, and must be in `.webp` format. The full file name should therefore be: `logo.webp`:
-![builder](assets/29.webp)
+![project](assets/29.webp)
 - Go back to your `assets` folder and click on the `.gitkeep` intermediate file:
-![builder](assets/30.webp)
+![project](assets/30.webp)
 - Once on the file, click on the three small dots at the top right then on `Delete file`:
-![builder](assets/31.webp)
+![project](assets/31.webp)
 - Verify that you are still on the same working branch, then click on the `Commit changes` button:
-![builder](assets/32.webp)
+![project](assets/32.webp)
 - Add a title and a description to your commit, then click on `Commit changes`:
-![builder](assets/33.webp)
+![project](assets/33.webp)
 - Go back to your company's folder:
-![builder](assets/34.webp)
+![project](assets/34.webp)
 - Click on the `Add file` button, then on `Create new file`:
-![builder](assets/35.webp)
-- Create a new YAML file by naming it with the indicator of your native language. This file will be used for the description of the builder. For example, if I want to write my description in English, I will name this file `en.yml`:
-![builder](assets/36.webp)
+![project](assets/35.webp)
+- Create a new YAML file by naming it with the indicator of your native language. This file will be used for the description of the project. For example, if I want to write my description in English, I will name this file `en.yml`:
+![project](assets/36.webp)
 - Fill out this YAML file using this template:
 ```yaml
 description: |
@@ -172,23 +172,24 @@ Founded in 2017, Bitcoin Baguette is a Paris-based association dedicated to orga
 contributors:
 - 
 ```
-![builder](assets/37.webp)
+![project](assets/37.webp)
 - Click on the `Commit changes` button:
-![builder](assets/38.webp)
+![project](assets/38.webp)
 - Ensure the `Commit directly to the patch-1 branch` box is checked, add a title, then click on `Commit changes`:
-![builder](assets/39.webp)
+![project](assets/39.webp)
 - Your company folder should now look like this:
-![builder](assets/40.webp)
+![project](assets/40.webp)
 - If everything is to your satisfaction, return to the root of your fork:
-![builder](assets/41.webp)
+![project](assets/41.webp)
 - You should see a message indicating that your branch has undergone changes. Click on the `Compare & pull request` button:
-![builder](assets/42.webp)
+![project](assets/42.webp)
 - Add a clear title and description to your PR:
-![builder](assets/43.webp)
+![project](assets/43.webp)
 - Click on the `Create pull request` button:
-![builder](assets/44.webp)
-Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, integrate it into the main repository of PlanB Network. You should see your builder profile appear on the website a few days later.
+![project](assets/44.webp)
+Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, integrate it into the main repository of PlanB Network. You should see your project profile appear on the website a few days later.
 
 Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can consult it in the `Pull requests` tab on the PlanB Network GitHub repository:
-![builder](assets/45.webp)
+![project](assets/45.webp)
 Thank you very much for your valuable contribution! :)
+

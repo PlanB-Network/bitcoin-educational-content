@@ -1,0 +1,9 @@
+question: Quel outil libre, disponible sur tous les systèmes, permet de vérifier la signature d’un fichier et sa correspondance avec une clé publique ?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) est l’outil de référence pour la vérification des signatures numériques et la gestion des clés publiques.
+reviewed: false

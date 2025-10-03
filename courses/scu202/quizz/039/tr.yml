@@ -1,0 +1,9 @@
+question: Kritik bir işletim sistemi güncellemesini yükledikten sonra yamaları tam olarak uygulamak için genellikle ne yapmanız gerekir?
+answer: Bilgisayarı yeniden başlatın
+wrong_answers:
+  - Şifreyi sıfırla
+  - Wi-Fi ağının bağlantısını kes
+  - Geçici dosyaları silme
+explanation: |
+  Çekirdek veya kritik kütüphaneler için olanlar gibi bazı işletim sistemi güncellemeleri yalnızca makine yeniden başlatıldıktan sonra etkili olur.
+reviewed: false

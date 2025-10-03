@@ -1,0 +1,9 @@
+question: Wat bevat een Consignment in RGB?
+answer: De klantgegevens die nodig zijn om een overgang te valideren
+wrong_answers:
+  - Een volledige kopie van de Bitcoin Blockchain
+  - Een lijst van publieke toezeggingen van Bitcoin
+  - Openbare sleutels van State Transition deelnemers
+explanation: |
+  De Consignment bevat de RGB informatie waarmee de ontvanger de State Transition kan valideren volgens de Contract regels.
+reviewed: false

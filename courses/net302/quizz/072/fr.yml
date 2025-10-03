@@ -1,0 +1,9 @@
+question: Quel type de bloc IPv6 permet à une entreprise de conserver son préfixe même en changeant de fournisseur d’accès ?
+answer: PI (Provider Independent)
+wrong_answers:
+  - PA (Provider Aggregatable)
+  - LIR (Local Internet Registry)
+  - IP (Interchangeable Provider)
+explanation: |
+  Un bloc PI (Provider Independent) est attribué directement à une organisation par un RIR, indépendamment du fournisseur.
+reviewed: false

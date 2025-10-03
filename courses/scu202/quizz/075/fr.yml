@@ -1,0 +1,9 @@
+question: Quelle est la principale limite des applications antivirus mobiles ?
+answer: Elles sont limitées face aux vraies menaces
+wrong_answers:
+  - Elles rendent le téléphone incompatible avec les réseaux mobiles
+  - Elles suppriment les applications de messagerie
+  - Elles augmentent la batterie
+explanation: |
+  Les antivirus mobiles ne protègent ni contre le phishing ni contre les mauvaises autorisations et n’offrent qu’une sécurité limitée contre les menaces principales.
+reviewed: false

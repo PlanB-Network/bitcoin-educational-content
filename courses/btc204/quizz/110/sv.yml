@@ -1,0 +1,10 @@
+question: Vad är en Stonewall-transaktion?
+answer: En transaktion som efterliknar en mini-CoinJoin utan att vara en
+wrong_answers:
+  - En betalningstransaktion i form av en mini-CoinJoin
+  - En samarbetsbaserad transaktion med tre deltagare
+  - En transaktion som innebär att mottagaren deltar i inmatningen
+explanation: |
+  Stonewall är en specifik form av Bitcoin-transaktion som syftar till att öka användarens integritet under en spend genom att imitera en mini-CoinJoin mellan två personer, utan att faktiskt vara en.
+  
+reviewed: false

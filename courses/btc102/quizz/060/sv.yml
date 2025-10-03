@@ -1,0 +1,9 @@
+question: Vilken roll har arvsbrevet Bitcoin i en fastighetsplan?
+answer: Att vägleda arvingar att få tillgång till fonderna
+wrong_answers:
+  - Att fungera som en Contract för överföring av bitcoins till arvingar
+  - För att fastställa den skattemässiga fördelningen av tillgångar
+  - För att optimera överföringsavgifter mellan plånböcker
+explanation: |
+  Arvsbrevet ger tydliga och exakta instruktioner så att nära och kära kan återfå bitcoins.
+reviewed: false

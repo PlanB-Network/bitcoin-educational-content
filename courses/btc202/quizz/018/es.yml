@@ -1,0 +1,9 @@
+question: ¿Cuál es la implementación de nodos Bitcoin más utilizada?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Clásico
+  - Bcoin
+explanation: |
+  Con unos 9 de cada 10 nodos de la red, Bitcoin core es el cliente mayoritario.
+reviewed: true

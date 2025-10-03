@@ -1,0 +1,9 @@
+question: Welche dieser Desktop-Umgebungen ist besonders für ältere oder weniger leistungsfähige Rechner zu empfehlen?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Zimt
+  - KDE-Plasma
+explanation: |
+  LXQt verbraucht wie Xfce nur wenige Ressourcen und ist darauf ausgelegt, auf leistungsschwacher Hardware effizient zu laufen.
+reviewed: false

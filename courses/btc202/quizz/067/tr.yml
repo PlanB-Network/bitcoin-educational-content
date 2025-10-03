@@ -1,0 +1,9 @@
+question: Bir Lightning düğümünü geri yüklemek için hangi yedeklemeler gereklidir?
+answer: seed ve SCB
+wrong_answers:
+  - seed ve txindex dosyası
+  - seed ve genel IP Address
+  - seed ve 2FA
+explanation: |
+  Bir Lightning düğümünün geri yüklenmesi için hem seed hem de SCB (Statik Kanal Yedeklemesi) gerekir; bunlar olmadan kanal fonları kurtarılamaz.
+reviewed: true

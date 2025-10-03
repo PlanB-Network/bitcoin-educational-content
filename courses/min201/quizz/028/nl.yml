@@ -1,0 +1,13 @@
+question: Wat is het potentiële risico van de centralisatie van de Mining hardwareproductie in China?
+answer: Een weigering om Mining machines te exporteren of een accumulatie van Hashrate voor een potentiële 51% aanval.
+wrong_answers:
+  - China zou het Bitcoin netwerk kunnen monopoliseren.
+  - China zou de prijs van Bitcoin kunnen controleren.
+  - China zou Bitcoin Mining kunnen verbieden.
+explanation: |
+  De centralisatie van de Mining productie in China
+  vormt een risico voor het Bitcoin netwerk. Als China weigert
+  gW-9 machines exporteert of Hashrate accumuleert voor een
+  potentiële 51% aanval, kan dit een bedreiging vormen voor de veiligheid en
+  decentralisatie van het netwerk in gevaar brengen.
+reviewed: true

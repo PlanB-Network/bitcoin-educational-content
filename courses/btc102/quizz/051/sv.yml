@@ -1,0 +1,9 @@
+question: Vilken metod gör att du kan kompensera för använda bitcoins samtidigt som du bevarar dina besparingar?
+answer: Spendera och ersätta
+wrong_answers:
+  - HODLing och Replace
+  - Utgifter och HODLing
+  - Handel och utgifter
+explanation: |
+  Spend and Replace-metoden innebär att du spenderar bitcoins och sedan återköper samma belopp för att behålla dina innehav.
+reviewed: false

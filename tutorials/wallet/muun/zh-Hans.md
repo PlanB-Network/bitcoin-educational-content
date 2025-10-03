@@ -6,15 +6,15 @@ description: 设置您的Muun钱包
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) 是一个自托管的比特币和闪电网络钱包。
+[Muun](https://muun.com/) 是一个比特币和闪电网络的自托管钱包。
 
 ## 视频教程
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun钱包 - 完整用户指南
 
-Muun应用的完整用户指南（附带截图）；一个用户友好的移动比特币钱包，允许您在闪电网络上进行交易。
+Muun 应用程序的完整用户指南（含截图）；一个用户友好的移动比特币钱包，使您能够在闪电网络上进行交易。
 
 ![image](assets/0.5.webp)
 
@@ -118,15 +118,15 @@ Muun再次要求您确认您了解的问题，即如果您丢失了之前设置�
 
 如果您无法在设备上使用Muun，这个紧急程序将帮助您恢复您的资金。
 
-1. 找到您的恢复代码
+- 找到您的恢复代码
 
 在创建紧急工具包之前，您已经在一张纸上写下了这个代码。稍后您将需要它。
 
-2. 下载恢复工具
+- 下载恢复工具
 
 访问页面 https://github.com/muun/recovery 并将工具下载到您的电脑上。
 
-3. 恢复您的资金
+- 恢复您的资金
 
 运行恢复工具并按照步骤操作。该工具将把您的资金转移到您选择的比特币地址。
 

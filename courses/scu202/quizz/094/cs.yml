@@ -1,0 +1,9 @@
+question: Který projekt položil koncem 60. let 20. století základy moderního internetu?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET byl první propojenou sítí, která měla propojit několik výzkumných center a je přímým předchůdcem internetu.
+reviewed: false

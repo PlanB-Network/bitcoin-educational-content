@@ -1,0 +1,9 @@
+question: Varför är extensionsfält med basen 2 användbara inom kryptografi?
+answer: De möjliggör säker hantering av binära strängar.
+wrong_answers:
+  - De förenklar beräkningar genom att minska antalet operationer.
+  - De förhindrar beräkningsfel genom att lägga till redundans.
+  - De begränsar antalet möjligheter genom att minska antalet Elements.
+explanation: |
+  Tilläggsfält med bas 2 är praktiska eftersom deras Elements kan ses som binära strängar, vilket gör det lättare att utföra operationer på digitala data på binär nivå i system.
+reviewed: false

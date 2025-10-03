@@ -1,0 +1,9 @@
+question: Welche Open-Source-Anwendung wird für das Scannen von Lebensmittelprodukten mit einer kollaborativen Datenbank empfohlen?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts ist ein kostenloses, gemeinschaftsbasiertes Projekt, das seine Daten transparent darstellt, während Yuka auf einem undurchsichtigen, nicht quelloffenen Modell basiert.
+reviewed: false

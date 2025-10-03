@@ -86,7 +86,7 @@ Hãy lấy một ví dụ về một giao dịch Lightning. Nếu Alice muốn g
 
 **Công suất kênh**, ở mức 130,000 satoshis, vẫn giữ nguyên. Điều thay đổi là sự phân bổ tiền. Hệ thống này không cho phép gửi nhiều tiền hơn số tiền một người sở hữu. Ví dụ, nếu Bob muốn gửi lại 80,000 satoshis cho Alice, anh ta không thể, bởi vì anh ta chỉ có 70,000.
 
-Một cách khác để hình dung sự phân bổ tiền là nghĩ về một **cái trượt** chỉ ra vị trí của tiền trong kênh. Ban đầu, với 100,000 satoshis cho Alice và 30,000 cho Bob, cái trượt một cách lô-gic ở phía Alice. Sau giao dịch 40,000 satoshis, cái trượt sẽ di chuyển nhẹ về phía Bob, người giờ đây có 70,000 satoshis.
+Một cách khác để hình dung việc phân bổ quỹ là tưởng tượng một **con trỏ** chỉ ra vị trí quỹ nằm trong kênh. Ban đầu, với 100.000 satoshi cho Alice và 30.000 cho Bob, con trỏ nghiêng nhiều hơn về phía Bob vì Alice có nhiều quỹ hơn. Sau giao dịch 40.000 satoshi, con trỏ sẽ dịch nhẹ sang phía Alice, người giờ đây sở hữu 60.000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 
@@ -539,12 +539,12 @@ Ví dụ, cho một kênh giữa Alice và Suzie, chúng ta có thể có:
 Đối với cùng một khoản thanh toán **40,000 satoshis** cho Bob, Alice sẽ phải gửi một chút nhiều hơn, vì mỗi nút trung gian sẽ trừ phí của mình:
 
 - **Carol** trừ 1.04 satoshis trên kênh với Bob:
-  $$ f*{\text{Carol-Bob}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** trừ 8 satoshis phí trên kênh với Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 Tổng số phí cho khoản thanh toán này trên con đường này do đó là **9.04 satoshis**. Do đó, Alice phải gửi **40,009.04 satoshis** để Bob nhận chính xác **40,000 satoshis**.
 

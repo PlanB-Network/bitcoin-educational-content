@@ -1,0 +1,10 @@
+question: Vad är syftet med alternativet för myntkontroll i programvaran Bitcoin Wallet?
+answer: För att välja vilka UTXO som ska användas som indata för transaktioner.
+wrong_answers:
+  - Kryptera UTXO:er för att förbättra säkerheten för Wallet.
+  - För att upptäcka och blockera UTXO:er från misstänkta källor.
+  - För att märka varje UTXO i Wallet.
+explanation: |
+  Myntkontroll är en funktion som finns i Bitcoin Wallet-programvaran, som ger dig möjlighet att manuellt välja specifika UTXO:er som ska användas som ingångar när du gör en transaktion.
+  
+reviewed: false

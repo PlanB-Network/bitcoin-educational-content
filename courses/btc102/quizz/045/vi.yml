@@ -1,0 +1,9 @@
+question: Tại sao nên chuyển tiền thường xuyên từ Hot Wallet sang Hardware Wallet?
+answer: Để giảm nguy cơ bị hack
+wrong_answers:
+  - Để tăng tính thanh khoản của Wallet
+  - Để giảm phí giao dịch
+  - Để tối ưu hóa quyền riêng tư của UTXO
+explanation: |
+  Việc chuyển sang Hardware Wallet sẽ bảo mật tiền bằng cách lưu trữ khóa riêng tư ngoại tuyến.
+reviewed: false

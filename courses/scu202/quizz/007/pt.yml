@@ -1,0 +1,9 @@
+question: Que sistema se destaca pelo seu modelo de código aberto e baseado na comunidade?
+answer: GNU/Linux
+wrong_answers:
+  - Janelas
+  - macOS
+  - Chrome OS
+explanation: |
+  O GNU/Linux é livre e desenvolvido por uma comunidade mundial, garantindo transparência, segurança e flexibilidade para o utilizador.
+reviewed: false

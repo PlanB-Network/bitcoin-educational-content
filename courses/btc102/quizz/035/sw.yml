@@ -1,0 +1,9 @@
+question: Ni suluhisho gani la uhifadhi linalopendekezwa kwa hodler?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Huduma ya uhifadhi
+  - Karatasi ya Wallet
+explanation: |
+  Hodler, ambaye anashikilia bitcoins kwa muda mrefu, anapaswa kutumia Hardware Wallet ili kuongeza usalama.
+reviewed: false

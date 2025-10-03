@@ -1,11 +1,11 @@
-question: What is the average time between the creation of two blocks in the Bitcoin protocol?
-answer: 10 minutes.
+question: What is the main advantage of specialized SHA256 machines, or ASICS, in Bitcoin mining?
+answer: They increase the hash rate per joule.
 wrong_answers:
-  - 5 minutes.
-  - 15 minutes.
-  - 20 minutes.
+  - They reduce the energy consumption.
+  - They increase the speed of transactions.
+  - They increase the security of the network.
 explanation: >-
-  On average, a block is created every 10 minutes in the Bitcoin protocol.
-  This time remains constant regardless of the number of miners and their computing
-  power.
+  Specialized SHA256 machines, or ASICS, increase the hash rate per joule
+  in Bitcoin mining. This means the number of attempts per second and per consumed
+  energy.
 reviewed: true

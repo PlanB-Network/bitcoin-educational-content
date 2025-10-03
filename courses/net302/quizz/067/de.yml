@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund für die Verwendung zufälliger Interface-Kennungen anstelle von MAC Address in IPv6?
+answer: Wahrung der Privatsphäre
+wrong_answers:
+  - Verringerung der Paketgröße
+  - Beschleunigung der DNS-Auflösung
+  - Verbesserung der ARP-Kompatibilität
+explanation: |
+  Die Verwendung von zufälligen Interface-Kennungen schützt vor der Verfolgung von Geräten auf der Grundlage des MAC Address.
+reviewed: false

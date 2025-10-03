@@ -123,7 +123,7 @@ Następnie będziesz musiał zapłacić 1 sat, aby zweryfikować swój Lightning
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Wreszcie, masz możliwość dodania kodu polecającego. Jeśli chcesz nas wesprzeć, możesz użyć kodu "*DiscoverBitcoin*", aby podzielić się z nami częścią swoich prowizji. Dziękujemy! :)![SWISS Bitcoin PAY](assets/notext/12.webp)
+Wreszcie, masz możliwość dodania kodu polecającego. Jeśli chcesz nas wesprzeć, możesz użyć kodu "*DiscoverBitcoin*", aby podzielić się z nami częścią swoich prowizji. Dziękujemy!:)![SWISS Bitcoin PAY](assets/notext/12.webp)
 
 Po wypełnieniu wszystkich informacji kliknij przycisk "*Wyślij*".
 

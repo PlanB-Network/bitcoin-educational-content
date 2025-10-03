@@ -1,0 +1,9 @@
+question: Vilken funktion, som utformades i oktober 2010 av Miner m0mchil, gjorde det möjligt för klientnoder att hämta ett kandidatblock och returnera Proof of Work om en lösning hittades?
+answer: få arbete
+wrong_answers:
+  - stratum
+  - gethash
+  - få kredit
+explanation: |
+  Den publicerades den 1 oktober. Den 23 november inkluderade Satoshi en modifierad version av denna funktion i huvudprogramvaran.
+reviewed: true

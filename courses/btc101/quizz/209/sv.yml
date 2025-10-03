@@ -1,0 +1,13 @@
+question: Vad är statusen för Bitcoin i El Salvador?
+answer: Lagligt betalningsmedel.
+wrong_answers:
+  - Kriminaliserad.
+  - Okänd.
+  - Oreglerad.
+explanation: |
+  I kurstexten nämns att vissa länder har förbjudit och
+  och kriminaliserat användningen av Bitcoin, vilket bidrar till
+  komplexiteten i Bitcoin-användningen baserat på kulturer, tidsepoker och
+  nationer. El Salvador var dock tillräckligt modigt för att anta den
+  som ett lagligt betalningsmedel.
+reviewed: true

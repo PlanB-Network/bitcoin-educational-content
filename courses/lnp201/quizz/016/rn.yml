@@ -1,0 +1,9 @@
+question: Ni ryari Commitment Transaction isohorwa kuri Bitcoin Blockchain?
+answer: Amaherezo iyo umurongo ufunze .
+wrong_answers:
+  - Ubwo nyene inyuma y'ukwimurirwa kwose mu muyoboro
+  - Imbere ya Commitment Transaction nshasha yose.
+  - Igihe amahera ariho azoba arangiriye .
+explanation: |
+  Ivy’ugucuruza vya Commitment vyubakwa kandi bikashirwako umukono ku mpinduka yose y’ugutanga, ariko amaherezo bica bisohorwa gusa kuri Blockchain iyo umuhora ufunze.
+reviewed: false

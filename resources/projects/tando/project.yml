@@ -1,0 +1,23 @@
+id: ad52bab4-45e5-11f0-b059-bb679b643596
+ 
+name: Tando
+
+address_line_1: Nairobi, Kenya
+address_line_2:
+address_line_3: 
+
+original_language:
+  - en
+
+links:
+  website: https://tando.me/
+  twitter: https://x.com/tando_me
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - payments
+
+category: service

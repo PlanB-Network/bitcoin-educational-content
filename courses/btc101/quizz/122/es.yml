@@ -1,9 +1,10 @@
-question: ¿Cuál ha sido la disponibilidad en línea de Bitcoin desde 2009?
-answer: 99.988%.
+question: ¿Qué es la blockchain de Bitcoin?
+answer: Un registro público e inmutable de todas las transacciones de Bitcoin.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
-explanation: |
-  La disponibilidad en línea de Bitcoin es del 99.988% desde 2009.
+  - Un registro privado y mutable de todas las transacciones de Bitcoin.
+  - Un registro público y mutable de todas las transacciones de Bitcoin.
+  - Un registro privado e inmutable de todas las transacciones de Bitcoin.
+explanation: >-
+  La blockchain de Bitcoin es un registro público e inmutable de todas las
+  transacciones de Bitcoin. Es un libro de contabilidad común para todos los usuarios de Bitcoin.
 reviewed: true

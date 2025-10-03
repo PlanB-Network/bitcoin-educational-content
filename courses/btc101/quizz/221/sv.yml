@@ -1,0 +1,8 @@
+question: Avgifterna för transaktioner på Lightning Network är extremt låga, ofta mindre än...?
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

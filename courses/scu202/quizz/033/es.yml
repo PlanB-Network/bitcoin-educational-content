@@ -1,0 +1,9 @@
+question: ¿Qué mecanismo debe habilitarse en la UEFI para evitar la ejecución de código sin firmar en el arranque?
+answer: Arranque seguro
+wrong_answers:
+  - Arranque rápido
+  - Puesta en marcha rápida
+  - Módulo de plataforma de confianza (TPM)
+explanation: |
+  Secure Boot garantiza que sólo el software autenticado pueda arrancar el sistema, limitando así el riesgo de infección por bootkits/rootkits.
+reviewed: false

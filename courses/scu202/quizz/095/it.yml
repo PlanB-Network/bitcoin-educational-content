@@ -1,0 +1,9 @@
+question: Qual è il modo migliore per accedere alla rete domestica da remoto?
+answer: Utilizzo di una VPN personale
+wrong_answers:
+  - Aprire una porta SSH pubblica
+  - Attivare il router cloud
+  - Utilizzare WPS
+explanation: |
+  La VPN crea un tunnel crittografato per accedere alla rete locale senza esporre una porta critica a Internet.
+reviewed: false

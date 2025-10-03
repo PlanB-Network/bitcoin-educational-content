@@ -1,0 +1,9 @@
+question: ローカルネットワーク規模でDNSリクエストを暗号化するには、どのようなプロトコルを有効にすべきでしょうか？
+answer: 保健省
+wrong_answers:
+  - ファイル転送プロトコル
+  - SMBv1
+  - アップンピー
+explanation: |
+  DoH（DNS over HTTPS）とDoT（DNS over TLS）はDNSリクエストを暗号化し、傍受を防ぐ。
+reviewed: false

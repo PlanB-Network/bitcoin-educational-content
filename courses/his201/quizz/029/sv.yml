@@ -1,0 +1,9 @@
+question: Vilken kritik riktade John Gilmore, en av grundarna av cypherpunks, mot Satoshi Nakamotos uppfinning i januari 2009?
+answer: Bitcoin förorenar planeten
+wrong_answers:
+  - Bitcoin underlättar skatteflykt
+  - Bitcoin är sårbar för Sybil-attacker
+  - Bitcoin är deflationistiskt
+explanation: |
+  Han [kritiserade](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin för att förbruka el och generera koldioxid (en växthusgas).
+reviewed: true

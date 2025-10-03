@@ -1,0 +1,9 @@
+question: Waarom wordt het niet aanbevolen om browserextensies te gebruiken voor het automatisch vullen van wachtwoorden?
+answer: Ze kunnen de gebruiker kwetsbaarder maken voor phishingaanvallen, het aanvalsoppervlak vergroten en de browserprestaties vertragen.
+wrong_answers:
+  - Ze zijn moeilijk te gebruiken.
+  - Ze zijn niet compatibel met alle browsers.
+  - Ze vereisen veel opslagruimte.
+explanation: |
+  Browserextensies die automatisch wachtwoorden invullen, kunnen de gebruiker kwetsbaarder maken voor phishingaanvallen. Ze vergroten ook het aanvalsoppervlak en kunnen de browserprestaties vertragen, waardoor ze een aanzienlijk risico vormen.
+reviewed: true

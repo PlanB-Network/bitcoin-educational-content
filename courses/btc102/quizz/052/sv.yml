@@ -1,0 +1,9 @@
+question: Vilka fördelar ger det att driva en egen Bitcoin-nod?
+answer: Självständighet
+wrong_answers:
+  - Likviditet
+  - Centralisering
+  - Hastighet
+explanation: |
+  Att driva din egen nod säkerställer oberoende från tredje part och skyddar integriteten för dina transaktioner.
+reviewed: false

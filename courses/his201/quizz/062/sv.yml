@@ -1,0 +1,9 @@
+question: Vad innebär det att uppskatta Hash-värdet för en medlem i ett kooperativ genom partiell Proof of Work?
+answer: Hämtar arbetsbevis av lägre grad än nätverkssvårigheten som produceras av hasharen
+wrong_answers:
+  - Hämta avtrycket av ett frimärke, inklusive den första byten i varje block Hash som producerats av hasharen
+  - Hämta hasherens elräkning varje månad
+  - Hämta arbetsprov som producerats på ett nätverk med lägre svårighetsgrad, som BitDNS
+explanation: |
+  Den här enkla metoden föreslogs av Ribuck, Nils Schneider och Gavin Andresen [på forumet](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) den 14 oktober 2010.
+reviewed: true

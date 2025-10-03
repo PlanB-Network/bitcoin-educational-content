@@ -1,0 +1,12 @@
+question: Vilka är de enheter som ansvarar för att utfärda förvaltarvalutor?
+answer: Centralbanker.
+wrong_answers:
+  - Affärsbanker.
+  - Regeringar.
+  - Privata institutioner.
+explanation: |
+  Centralbanker är de enheter som ansvarar för att ge ut en
+  förvaltarvaluta. De beslutar om penningpolitiken och
+  bestämmer hur mycket pengar som ska sättas i omlopp eller
+  tryckas.
+reviewed: true

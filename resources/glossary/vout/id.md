@@ -7,8 +7,8 @@ Elemen spesifik dari transaksi Bitcoin yang menentukan tujuan dana yang dikirim.
 Setiap `vout` pada dasarnya merangkum dua buah informasi:
 
 
-- nilai, dinyatakan dalam bitcoin, yang mewakili jumlah yang dikirim;
-- skrip penguncian (`scriptPubKey`) yang menetapkan persyaratan yang diperlukan agar dana dapat digunakan lagi dalam transaksi di masa mendatang.
+- nominal, dinyatakan dalam bitcoin, yang mewakili jumlah yang dikirim;
+- skrip penguncian (`scriptPubKey`) yang menetapkan persyaratan yang diperlukan agar dana ini dapat digunakan lagi dalam transaksi di masa mendatang.
 
 Kombinasi dari `txid` dan `vout` dari bagian tertentu membentuk apa yang disebut UTXO, misalnya:
 

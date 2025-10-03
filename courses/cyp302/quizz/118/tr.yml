@@ -1,0 +1,9 @@
+question: Bayt değiştirme işlemi (S-Box) AES şifrelemesinde nasıl bir rol oynar?
+answer: Her baytı başka bir baytla değiştirerek karışıklığa yol açar
+wrong_answers:
+  - Mesaj baytlarını kontrol ederek bütünlüğü sağlar
+  - Difüzyonu artırmak için sütunları karıştırır
+  - Düz metni 128 bitlik bloklara böler
+explanation: |
+  AES'deki bayt değiştirme işlemi (S-Box), her baytı bir tabloya göre farklı bir değerle değiştirerek karışıklığa neden olur ve şifrelenmiş metnin analiz edilmesini zorlaştırır.
+reviewed: false

@@ -1,15 +1,15 @@
 ---
-term: Contract Operation
+term: CONTRACT OPERATION
 ---
 
-Dalam protokol RGB, berarti pembaruan status Contract yang dilakukan menurut aturan Schema. Operasi-operasi berikut ini ada dalam RGB:
+Dalam protokol RGB, _Contract Operation_ berarti pembaruan status _Contract_ yang dilakukan menurut aturan Schema. Operasi-operasi berikut ini ada dalam RGB:
 
 
 
 
-- State Transition;
-- Genesis;
-- State Extension.
+- _State Transition_;
+- _Genesis_;
+- _State Extension_.
 
 
-Setiap operasi memodifikasi laporan dengan menambahkan atau mengganti data tertentu (Global State, Owned State...).
+Setiap operasi memodifikasi laporan dengan menambahkan atau mengganti data tertentu (_Global State, Owned State_...).

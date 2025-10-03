@@ -1,0 +1,9 @@
+question: Wiens motto is "denk zelf na"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  zelf denken" (sapere aude) is het motto van Immanuel Kant en het parool van de Verlichting. Het gaat over de moed om je eigen inzicht te gebruiken zonder de voogdij van anderen.
+reviewed: false

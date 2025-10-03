@@ -50,10 +50,11 @@ Deshalb halte ich den Einsatz von Whirlpool in einer `Hodl -> Mix -> Spend -> Re
 
 Ich hoffe, diese Antwort hat etwas Licht auf das Whirlpool-Modell geworfen. Wenn Sie mehr darüber erfahren möchten, wie Coinjoins bei Bitcoin funktionieren, empfehle ich Ihnen, meinen umfassenden Artikel zu diesem Thema zu lesen :
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Externe Ressourcen:**
 - Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

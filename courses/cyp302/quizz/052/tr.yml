@@ -1,0 +1,9 @@
+question: Sonlu bir alanda, indirgenemez bir polinomun rolü nedir?
+answer: Alandaki çarpma işlemlerini tanımlayın
+wrong_answers:
+  - Her bir elemanın eklemeli tersini tanımlayın
+  - Sahanın kapatılmasını sağlayın
+  - Çarpımsal özdeşliği belirleyin
+explanation: |
+  İndirgenemez polinomlar, sonlu alanlarda çarpma işlemini yapılandırmak için kullanılır ve her bir elemanın alan içinde kalmasını sağlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Perintah mana yang direkomendasikan untuk menganalisis koneksi TCP dan UDP yang aktif pada sistem Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - tautan ip
+  - ifup
+explanation: |
+  Perintah ss menggantikan netstat untuk menampilkan semua koneksi jaringan yang aktif dengan cepat.
+reviewed: false

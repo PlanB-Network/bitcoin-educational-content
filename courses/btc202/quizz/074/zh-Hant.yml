@@ -1,0 +1,9 @@
+question: 什麼資料結構會總結區塊中的交易？
+answer: Merkle Tree
+wrong_answers:
+  - Hash UTXO 表
+  - peers.dat 檔案
+  - assumeutxo 寄存器
+explanation: |
+  區塊中的交易會承諾到 Merkle Tree，Merkle Tree 的根包含在區塊標頭中，以確保區塊的完整性。
+reviewed: true

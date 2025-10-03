@@ -1,0 +1,9 @@
+question: AES standardı olarak kabul edilen blok şifreleme algoritması nedir?
+answer: Rijndael Şifresi
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndael Şifresi, yüksek performansı ve güvenliği nedeniyle NIST tarafından simetrik şifreleme standardı (AES) olarak kabul edilmiştir.
+reviewed: false

@@ -1,10 +1,8 @@
-question: Je, ni muda gani wa wastani kati ya uundaji wa vitalu viwili katika itifaki ya Bitcoin?
-answer: Dakika 10.
+question: Je, ni dhana gani ya utiririshaji wa pesa katika muktadha wa Lightning Network?
+answer: Kufanya malipo madogo yanayoendelea, ya wakati halisi.
 wrong_answers:
-  - Dakika 5.
-  - Dakika 15.
-  - Dakika 20.
-explanation: |
-  Muda wa wastani kati ya uundaji wa mbili
-  vitalu katika itifaki ya Bitcoin ni dakika 10.
+  - Kubadilisha Bitcoin kuwa pesa taslimu mahali halisi kwa kutumia ATM.
+  - Kutiririsha maudhui ya sauti au video kwa Bitcoin.
+  - Kuunda bitcoins mpya kupitia shughuli za Mining zinazotokea kwa wakati halisi.
+explanation: >-
 reviewed: true

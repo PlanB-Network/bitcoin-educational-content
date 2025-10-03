@@ -1,0 +1,9 @@
+question: RGB, geleneksel Blockchain'a kıyasla ölçeklenebilirliği nasıl geliştiriyor?
+answer: Depolama ve doğrulamayı yalnızca ilgili durum geçişleriyle sınırlandırarak
+wrong_answers:
+  - Bitcoin bloklarının boyutunu neredeyse artırarak
+  - Her bir Contract'ü doğrudan tüm UTXO'lara bağlayarak
+  - Contract verilerini birkaç merkezi sunucuda merkezileştirerek
+explanation: |
+  RGB, yalnızca her bir katılımcıyla ilgili verileri tutarak depolama ve doğrulama gereksinimlerini azaltır.
+reviewed: false

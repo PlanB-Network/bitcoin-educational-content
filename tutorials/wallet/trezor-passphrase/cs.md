@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Jak mohu do svého portfolia produktů Trezor přidat produkt passphrase?
 ---
 ![cover](assets/cover.webp)
@@ -71,7 +71,7 @@ V tomto okně budete vyzváni k zadání čísla passphrase. Zvolte silnou jedno
 
 
 
-samozřejmě byste nikdy neměli sdílet svůj kód passphrase na internetu, jak to dělám v tomto návodu. Tento příklad Wallet bude použit pouze na Testnet a na konci návodu bude smazán.**_
+samozřejmě byste nikdy neměli sdílet svůj kód passphrase na internetu, jak to dělám v tomto návodu. Tento příklad Wallet bude použit pouze na Testnet a na konci návodu bude smazán.
 
 
 

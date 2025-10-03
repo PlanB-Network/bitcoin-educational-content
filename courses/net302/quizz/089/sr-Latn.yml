@@ -1,0 +1,9 @@
+question: Koji protokol koristi ping komanda za testiranje mrežne povezanosti?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Ping komanda koristi ICMP protokol za slanje echo zahteva i merenje kašnjenja u mreži.
+reviewed: false

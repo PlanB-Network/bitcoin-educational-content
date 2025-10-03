@@ -1,0 +1,9 @@
+question: 자금 On-Chain을 회수하는 동안 채널 반대편으로 유동성을 이동할 수 있는 서비스는 무엇인가요?
+answer: 루프 아웃
+wrong_answers:
+  - Keysend
+  - LNURL
+  - 코인스왑
+explanation: |
+  라이트닝 랩스의 루프 아웃 서비스를 사용하면 라이트닝 채널에서 On-Chain Blockchain로 자금을 전송할 수 있어 메인 체인에서 비트코인을 회수하는 동안 수신 용량을 최적화할 수 있습니다.
+reviewed: true

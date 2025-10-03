@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru gituma umuntu akoresha ibimenyetso vya Interface vy’imburakimazi aho gukoresha MAC Address muri IPv6?
+answer: Kuzigama ubuzima bwite
+wrong_answers:
+  - Kugabanya ubunini bw'amapakete
+  - Kwihutisha umuti wa DNS
+  - Kunoza uburyo bwo gukorana na ARP
+explanation: |
+  Gukoresha ibimenyetso vya Interface bifasha gukingira gukurikirana ibikoresho bishingiye kuri MAC Address.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kuki RC4 ishirwa mu rutonde rw’ibiharuro vy’uruzi bihuye?
+answer: Uruzi rw'urufunguzo rwigenga ku nyandiko rusangi n'inyandiko y'ibanga
+wrong_answers:
+  - Urufunguzo ruvana n'agaciro k'inyandiko y'imbere
+  - Umwandiko usanzwe utegerezwa gushirwa mu mugezi w'urufunguzo
+  - Ikoresha uruzi rw'urufunguzo rushingiye gusa ku nyandiko yoroshe
+explanation: |
+  RC4 ni uruzitiro rw’uruzitiro rujanye n’igihe kuko uruzitiro rwayo rw’urufunguzo ruvana gusa n’urufunguzo rw’intango atari ku nyandiko rusangi canke uruzitiro rw’uruzitiro, bikaba ari vyo bituma uruzi rudashobora kwigenga ku butumwa.
+reviewed: false

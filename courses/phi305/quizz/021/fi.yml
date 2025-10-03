@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Edeltää Spinozaa.
+wrong_answers:
+  - On Spinozan perillinen.
+  - On sveitsiläinen filosofi.
+  - On ateistinen filosofi.
+explanation: |
+  René Descartes (1596-1650) on Spinozaa vanhempi, ja häntä pidetään modernin rationalismin isänä. Spinoza sai vaikutteita Descartesilta, mutta kehitti filosofisen järjestelmän, joka poikkesi merkittävästi kartesiolaisuudesta.
+reviewed: false

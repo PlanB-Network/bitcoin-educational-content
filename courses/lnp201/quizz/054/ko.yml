@@ -1,0 +1,9 @@
+question: Lightning Network의 판매자가 결제를 수락하려면 주로 어떤 유형의 유동성을 관리해야 하나요?
+answer: 유입되는 유동성
+wrong_answers:
+  - 나가는 유동성
+  - 높은 총 채널 용량
+  - 높은 On-Chain 밸런스
+explanation: |
+  판매자가 결제를 받으려면 유입되는 유동성이 있어야 하며, 이는 채널 반대편에서 결제를 수락할 수 있는 자금이 있어야 한다는 의미입니다.
+reviewed: true

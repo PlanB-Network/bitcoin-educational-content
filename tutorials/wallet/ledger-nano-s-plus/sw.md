@@ -179,7 +179,7 @@ Ili kufikia mipangilio, shikilia vitufe 2 kwa sekunde chache.
 ![NANO S PLUS LEDGER](assets/notext/16.webp)
 
 
-Bofya kwenye menyu ya "* Mipangilio".
+Bofya kwenye menyu ya "*Mipangilio*".
 
 
 ![NANO S PLUS LEDGER](assets/notext/17.webp)
@@ -439,7 +439,7 @@ Iwapo unataka kufanya "*udhibiti wa sarafu*," ikimaanisha kuwa uchague UTXOs gan
 ![NANO S PLUS LEDGER](assets/notext/52.webp)
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 ![NANO S PLUS LEDGER](assets/notext/53.webp)

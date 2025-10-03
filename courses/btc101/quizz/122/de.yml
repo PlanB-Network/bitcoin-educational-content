@@ -1,9 +1,9 @@
-question: Wie hoch war die Online-Verfügbarkeit von Bitcoin seit 2009?
-answer: 99,988 %.
+question: Was ist die Bitcoin-Blockchain?
+answer: Ein öffentliches und unveränderliches Verzeichnis aller Bitcoin-Transaktionen.
 wrong_answers:
-  - 100 %.
-  - 90,009 %.
-  - 80,17 %.
-explanation: |
-  Die Online-Verfügbarkeit von Bitcoin beträgt seit 2009 99,988 %.
+  - Ein privates und veränderliches Verzeichnis aller Bitcoin-Transaktionen.
+  - Ein öffentliches und veränderliches Verzeichnis aller Bitcoin-Transaktionen.
+  - Ein privates und unveränderliches Verzeichnis aller Bitcoin-Transaktionen.
+explanation: >-
+  Die Bitcoin-Blockchain ist ein öffentliches und unveränderliches Verzeichnis aller Bitcoin-Transaktionen. Es handelt sich um ein gemeinsames Verzeichnis für alle Bitcoin-Nutzer.
 reviewed: true

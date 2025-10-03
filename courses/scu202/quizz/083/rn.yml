@@ -1,0 +1,9 @@
+question: Ni ubuhe butumwa bugufasha kwiyandikisha ata wuzi, ata nomero ya telefone canke ngo winjire ubudasiba?
+answer: Ibiganiro vyoroshe
+wrong_answers:
+  - Ikimenyetso
+  - Itelegaramu
+  - WhatsApp
+explanation: |
+  SimpleX Chat ikuraho iciyumviro c’ikimenyetso kidasanzwe: abantu bo guhura na bo bongerako biciye ku mahuza y’igihe gito canke amakode ya QR, kandi nta makuru y’umuntu ku giti ciwe asabwa.
+reviewed: false

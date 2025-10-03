@@ -276,7 +276,7 @@ Hapa utapata chaguzi mbili za kuhifadhi nakala ya data yako:
 
 
 
-"Threema Safe* huhifadhi maelezo yote ya akaunti yako, isipokuwa mazungumzo yako, kwenye seva za Threema. Data hii imesimbwa kwa njia fiche kwa nenosiri ulilochagua ulipofungua akaunti yako, na hivyo kuhakikisha kwamba Threema haina ufikiaji. Hifadhi rudufu hufanywa kiotomatiki na mara kwa mara.
+"**Threema Safe** huhifadhi maelezo yote ya akaunti yako, isipokuwa mazungumzo yako, kwenye seva za Threema. Data hii imesimbwa kwa njia fiche kwa nenosiri ulilochagua ulipofungua akaunti yako, na hivyo kuhakikisha kwamba Threema haina ufikiaji. Hifadhi rudufu hufanywa kiotomatiki na mara kwa mara.
 
 
 
@@ -436,7 +436,7 @@ Hongera, sasa uko kwenye kasi ya kutumia utumaji ujumbe wa Threema, njia mbadala
 
 
 
-Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail :
+Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail:
 
 
 

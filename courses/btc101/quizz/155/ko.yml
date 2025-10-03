@@ -1,0 +1,12 @@
+question: Bitcoin 프로토콜에서 채굴자의 역할은 무엇인가요?
+answer: 현재 네트워크와 과거 네트워크를 보호합니다.
+wrong_answers:
+  - Bitcoin의 가격을 규제합니다.
+  - Bitcoin의 Supply을 제어합니다.
+  - 사용자 간의 거래를 관리합니다.
+explanation: |
+  Bitcoin 프로토콜의 채굴자는 현재 네트워크와 과거 네트워크를 모두 보호합니다
+  과거 네트워크를 모두 보호합니다. 마이너는 Bitcoin의 가격을 규제하지 않으며
+  Bitcoin의 가격을 조절하거나, Supply를 제어하거나, 사용자 간의 트랜잭션을 관리하지 않습니다
+  관리하지 않습니다.
+reviewed: true

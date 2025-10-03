@@ -1,0 +1,9 @@
+question: None umugwi w’ababeli ni iki?
+answer: Itsinda aho igikorwa gihinduka
+wrong_answers:
+  - Itsinda rifise umuyagankuba wihariye
+  - Itsinda rigarukira ku mibare yose
+  - Itsinda ritagira ikintu kitagira aho kigarukira
+explanation: |
+  Itsinda ry’abeliyani ni itsinda aho urutonde rwa Elements mu gikorwa rutagira ico rukoze ku ngaruka, bisobanura ko ryubahiriza ubuhinduzi.
+reviewed: false

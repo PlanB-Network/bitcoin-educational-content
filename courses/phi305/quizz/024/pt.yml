@@ -1,0 +1,9 @@
+question: É o escolasticismo?
+answer: Uma filosofia da Idade Média.
+wrong_answers:
+  - Uma filosofia da época moderna.
+  - Uma filosofia antiga.
+  - Uma filosofia ateísta.
+explanation: |
+  A escolástica foi uma filosofia medieval que procurou conciliar a fé cristã com a filosofia aristotélica. Dominou as universidades europeias antes do aparecimento da filosofia moderna.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Bitcoin 프로토콜에서 두 블록이 생성되는 평균 시간 간격은 어떻게 되나요?
+answer: 10분.
+wrong_answers:
+  - 5분.
+  - 15분.
+  - 20분.
+explanation: |
+  Bitcoin 프로토콜의 두 블록 생성 사이의 평균 시간 간격은
+  블록 생성 사이의 평균 시간 간격은 10분입니다.
+reviewed: true

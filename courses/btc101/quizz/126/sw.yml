@@ -1,13 +1,8 @@
-question: Muamala wa Bitcoin ni nini?
-answer: Uhamisho wa Ownership ya bitcoins, kwa kutumia cryptography.
+question: Wachimbaji madini huthibitisha vipi shughuli na kuzijumuisha kwenye block?
+answer: Kupitia mchakato wa Proof of Work.
 wrong_answers:
-  - Exchange ya kimwili ya bitcoins, kwa kutumia mthibitishaji.
-  - Uhamisho wa Ownership ya bitcoins, kwa kutumia Address ya kimwili.
-  - Uhamisho wa Ownership ya bitcoins, kwa kutumia barua pepe Address.
-explanation: |
-  Muamala wa Bitcoin ni uhamisho wa kidijitali wa
-  Ownership ya bitcoins, kupitia matumizi ya Bitcoin Address
-  inayotokana na kriptografia ya Elliptic Curve. Hii
-  Address ni ya kipekee kwa Wallet ya mtu anayepokea
-  bitcoins.
+  - Kupitia mchakato wa Uthibitisho wa hisa.
+  - Kupitia mchakato wa Uthibitisho wa mamlaka.
+  - Kupitia mchakato wa Uthibitisho wa kuchoma.
+explanation: >-
 reviewed: true

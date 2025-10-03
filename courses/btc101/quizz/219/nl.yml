@@ -1,10 +1,8 @@
-question: Wat suggereert deze cursus over de toekomst van Bitcoin?
-answer: Het zal niet verdwijnen.
+question: Wat voor netwerk creëert Lightning Network?
+answer: Een netwerk van betaalkanalen.
 wrong_answers:
-  - Het zal worden vervangen door een betere technologie.
-  - Het zal wereldwijd verboden worden.
-  - Het zal zijn waarde verliezen.
-explanation: |
-  De cursustekst suggereert dat Bitcoin niet zal
-  verdwijnt. Integendeel, de revolutie is net begonnen.
+  - Een netwerk van Mining knooppunten.
+  - Een netwerk van Blockchain knooppunten.
+  - Een netwerk van cryptocurrency-beurzen.
+explanation: >-
 reviewed: true

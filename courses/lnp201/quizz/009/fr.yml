@@ -6,4 +6,4 @@ wrong_answers:
   - Il bloque temporairement les fonds pour éviter les dépenses excessives
 explanation: |
   Le script de verrouillage impose les conditions, telles qu'une signature avec une clé privée, pour déverrouiller et utiliser les fonds dans une transaction.
-reviewed: false
+reviewed: true 

@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Ví chỉ xem là gì và cách sử dụng nó?
 ---
 ![cover](assets/cover.webp)

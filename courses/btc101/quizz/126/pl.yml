@@ -1,13 +1,8 @@
-question: Czym jest transakcja Bitcoin?
-answer: Transfer Ownership bitcoinów przy użyciu kryptografii.
+question: W jaki sposób górnicy walidują transakcje i włączają je do bloku?
+answer: Poprzez proces Proof of Work.
 wrong_answers:
-  - Fizyczny Exchange bitcoinów przy użyciu notariusza.
-  - Transfer Ownership bitcoinów przy użyciu fizycznego Address.
-  - Przelew Ownership bitcoinów przy użyciu adresu e-mail Address.
-explanation: |
-  Transakcja Bitcoin jest cyfrowym transferem
-  Ownership bitcoinów, poprzez wykorzystanie Bitcoin Address
-  uzyskanego dzięki kryptografii krzywej eliptycznej. Ten
-  Address jest unikalny dla Wallet osoby otrzymującej bitcoiny
-  bitcoiny.
+  - Poprzez proces Proof of stake.
+  - Poprzez proces dowodu władzy.
+  - Poprzez proces Proof of burn.
+explanation: >-
 reviewed: true

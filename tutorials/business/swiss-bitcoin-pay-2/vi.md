@@ -73,7 +73,7 @@ Rõ ràng, lựa chọn này chỉ ảnh hưởng đến phương thức thanh t
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 Sau đó, bạn sẽ cần phải trả 1 sat để xác minh địa chỉ Lightning của mình. Trong trường hợp của một địa chỉ bitcoin, bạn sẽ cần cung cấp một chữ ký với khóa riêng tương ứng với địa chỉ đó.
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
-Cuối cùng, bạn có tùy chọn thêm một mã giới thiệu. Nếu bạn muốn hỗ trợ chúng tôi, bạn có thể sử dụng mã "*DiscoverBitcoin*" để một phần hoa hồng của bạn được chia sẻ với chúng tôi. Cảm ơn bạn! :) ![SWISS BITCOIN PAY](assets/notext/12.webp)
+Cuối cùng, bạn có tùy chọn thêm một mã giới thiệu. Nếu bạn muốn hỗ trợ chúng tôi, bạn có thể sử dụng mã "*DiscoverBitcoin*" để một phần hoa hồng của bạn được chia sẻ với chúng tôi. Cảm ơn bạn!:) ![SWISS BITCOIN PAY](assets/notext/12.webp)
 Một khi tất cả thông tin đã được điền vào, nhấp vào nút "*Gửi*".
 ![SWISS BITCOIN PAY](assets/notext/13.webp)
 Và đó là! Tài khoản Swiss Bitcoin Pay của bạn giờ đây đã sẵn sàng. Bạn có thể bắt đầu nhận thanh toán Bitcoin cho doanh nghiệp của mình!

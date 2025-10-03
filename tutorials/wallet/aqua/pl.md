@@ -284,4 +284,4 @@ Jeśli uznałeś ten poradnik za przydatny, będę wdzięczny za pozostawienie k
 Polecam również zapoznanie się z tym obszernym samouczkiem na temat aplikacji mobilnej Blockstream Green, która jest kolejnym interesującym rozwiązaniem do konfiguracji Liquid Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

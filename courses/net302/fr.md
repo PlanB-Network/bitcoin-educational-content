@@ -9,20 +9,18 @@ objectives:
   - Utiliser les principaux outils de diagnostic pour analyser et résoudre des problèmes réseau
 ---
 
-# L’essentiel pour naviguer dans l’univers IP
+# L’essentiel pour naviguer au sein de l'IP
 
 Plongez au cœur de l’univers IP et donnez-vous les moyens de comprendre et d’administrer efficacement vos réseaux. Dans ce cours, vous découvrirez de manière claire et concrète tout ce qu’il faut savoir sur les réseaux informatiques.
 
-Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vous apprendrez également à distinguer IPv4 et IPv6, à identifier et utiliser les différentes catégories d’adresses (publiques, privées, unicast, broadcast…), et à saisir toute l’importance du protocole TCP/IP et des liens qu’il tisse entre adresses IP, adresses physiques et noms DNS.
-
-Pour aller plus loin, vous découvrirez en fin de cours les principaux outils de diagnostic réseau : analyser, auditer, ajuster… vous saurez enfin agir avec méthode et précision sur vos équipements.
+Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vous apprendrez également à distinguer IPv4 et IPv6, à identifier et utiliser les différentes catégories d’adresses, et à saisir toute l’importance du protocole TCP/IP et des liens qu’il tisse entre adresses IP, adresses physiques et noms DNS.
 
 NET 302 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions de base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
 
 Rejoignez-nous et transformez vos connaissances en véritable expertise opérationnelle !
 
 ___
-Ce cours NET 302 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Ce cours NET 302 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution-NonCommercial 4.0 International ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 Des modifications substantielles ont été apportées à la version originale par Loïc Morel : le texte original a été intégralement réécrit, développé et enrichi afin d’offrir un contenu actualisé et approfondi, tout en conservant l’esprit pédagogique de la version initiale de Philippe Pierre. Les schémas ont également été refaits.
 
@@ -176,6 +174,12 @@ Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de
 | Routeur                | Adresse globalement les interfaces et détermine les meilleurs chemins à travers un réseau | Réseau                  |
 | Commutateur (switch)   | Adresse localement les interfaces, transmet localement via MAC                            | Accès au Réseau         |
 | Carte réseau (NIC)     | Encodage du signal, câblage, connecteurs, spécifications physiques                        | Accès au Réseau         |
+
+https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Le protocole QoS IPv5
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
@@ -391,6 +395,7 @@ Pour faciliter la conversion et la compréhension, on utilise des tableaux de co
 sudo apt install ipcalc
 ```
 
+https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Le protocole TCP
 <chapterId>860bf7d5-a502-4d10-a12c-9827f6c2d393</chapterId>
@@ -825,6 +830,13 @@ Grâce à cette configuration, le trafic sortant est routé et la traduction NAT
 
 Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées adaptées à différents contextes d’administration.
 
+https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+
+
 ## Comment configurer le réseau avec `ip` ?
 <chapterId>8ba7e946-d2a0-4841-8d54-e85ba96baa25</chapterId>
 
@@ -868,7 +880,7 @@ ip addr show dev eth2
 ip addr add 172.18.2.39/24 dev eth2
 ```
 
-### Scripts d’activation : `ifup` / `ifdown`
+### Scripts d’activation : ifup / ifdown
 
 Les utilitaires `ifup` et `ifdown` lisent les fichiers statiques de `/etc/sysconfig/network-scripts/` (sur RHEL, CentOS, Rocky Linux, AlmaLinux…) ou `/etc/network/interfaces` (sur Debian/Ubuntu) afin d'activer ou de désactiver proprement les interfaces.
 
@@ -1047,7 +1059,7 @@ Enfin, IPv6 a été conçu pour coexister avec les protocoles historiques. S’i
 
 L’un des changements majeurs avec IPv6 est le format même de l’adresse IP. Pour résoudre la pénurie chronique d’adresses IPv4, la longueur de l’adresse a été portée à 128 bits, soit 16 octets, contre seulement 32 bits pour IPv4. En théorie, cela ouvre un champ d'adresses possibles de :
 
-$$3,4 \times 10^{38}$$
+$$3.4 \times 10^{38}$$
 
 Cela garantit ainsi une capacité quasi illimitée pour accueillir tous les équipements actuels et futurs.
 
@@ -1997,6 +2009,8 @@ Il est important de rappeler qu’interroger de manière répétée ou intensive
 
 Dans une démarche de surveillance ou de sécurisation d’un réseau local ou étendu, il est important de pouvoir identifier les équipements actifs et les services qu’ils exposent. C’est précisément ce que permet l’outil `nmap` (*Network Mapper*).
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 #### Présentation de `nmap`
 
 `nmap` permet d’interroger de manière ciblée un ou plusieurs hôtes afin de détecter les ports ouverts, les services accessibles (HTTP, SSH, DNS...) et parfois même le type de système d’exploitation utilisé. Grâce à ses nombreuses options, il est possible d’obtenir une vision précise et synthétique de l’état de la surface d’exposition d’un réseau, ce qui est essentiel dans les phases d'audit ou de durcissement d'une infrastructure.
@@ -2030,6 +2044,8 @@ Un administrateur peut s’appuyer sur `nmap` pour plusieurs tâches :
 - Inventaire des services exposés : utile pour vérifier que seuls les ports nécessaires sont accessibles (principe du moindre privilège) ;
 - Vérification de la conformité : comparer les ports ouverts avec la politique de sécurité réseau ;
 - Prévention des failles : repérer des services non sécurisés ou obsolètes ouverts sur des machines critiques.
+
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Outils d’interrogation des processus
 

@@ -1,0 +1,9 @@
+question: RSA gibi asimetrik sistemler hangi zor hesaplama problemiyle ilişkilidir?
+answer: Asal sayı çarpanlarına ayırma
+wrong_answers:
+  - Tamsayıların üstel çarpımı
+  - Uzun rastgele sayıların oluşturulması
+  - Güvenli anahtar Exchange
+explanation: |
+  RSA, kriptosistemi saldırılara karşı güvenli kılan, hesaplama açısından zor bir görev olan asal sayı çarpanlarına ayırma zorluğuna dayanmaktadır.
+reviewed: false

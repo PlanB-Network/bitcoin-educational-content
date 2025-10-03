@@ -1,0 +1,11 @@
+question: Ni isano irihe riri hagati y’ukwaguka kw’amahera n’ugutera imbere kw’ibiciro nk’uko vyavuzwe na Milton Friedman?
+answer: Inflation yama ari ikintu c’amahera kandi hose.
+wrong_answers:
+  - Inflation yama ari ikintu c’ubutunzi kandi hose.
+  - Inflation yama ari ikintu ca politike kandi hose.
+  - Inflation yama kandi hose ari ikintu gikomeye mu kibano.
+explanation: |
+  Milton Friedman, umuhinga mu vy’ubutunzi azwi cane, yavuze mu buryo buzwi cane yuko Ugutera imbere kw’ibiciro .
+  ni ikintu c’amahera igihe cose kandi hose. Iri jambo rishira ahabona ivy’imbere mu mutima .
+  isano hagati y’ukwaguka kw’amahera n’ugutera imbere kw’ibiciro.
+reviewed: false

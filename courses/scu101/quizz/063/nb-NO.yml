@@ -1,10 +1,9 @@
-question: Hva er noen av aspektene ved kryptografi som brukes i cybersikkerhet?
-answer: SSL/TLS, symmetrisk/asymmetrisk kryptering
+question: Hvilken sertifisering er anerkjent over hele verden innen cybersikkerhet?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Kapittelet lister opp SSL/TLS og symmetrisk/asymmetrisk kryptering som noen
-  av aspektene ved kryptografi som brukes i cybersikkerhet.
+  CISSP-sertifiseringen er en av de mest internasjonalt anerkjente sertifiseringene innen cybersikkerhet.
 reviewed: false

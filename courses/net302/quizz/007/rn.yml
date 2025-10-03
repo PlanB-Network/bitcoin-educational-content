@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo gukoresha kaminuza bwatumye amasezerano ya TCP/IP akwiragira mw’isi y’inyigisho?
+answer: BSD Unix
+wrong_answers:
+  - Linukisi
+  - Izuba
+  - Minix
+explanation: |
+  BSD Unix, yateguwe na kaminuza ya Berkeley, ni imwe mu nzira za mbere zashizemwo amasezerano ya TCP/IP kandi yarafashije kuyakwiragiza cane mw’isi y’inyigisho.
+reviewed: false

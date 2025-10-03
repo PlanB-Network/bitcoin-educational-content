@@ -1,0 +1,9 @@
+question: Koje rešenje "node-in-a-box" je danas lider na tržištu?
+answer: Umbrel
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel je najpopularnije rešenje za node-in-a-box, zahvaljujući jednostavnoj instalaciji i bogatoj prodavnici aplikacija.
+reviewed: true

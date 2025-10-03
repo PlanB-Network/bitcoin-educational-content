@@ -1,0 +1,9 @@
+question: Bir MAC şemasındaki üç temel adım nedir?
+answer: Anahtar üretimi, etiket üretimi, doğrulama
+wrong_answers:
+  - Şifreleme, şifre çözme, iletim
+  - Açık anahtar oluşturma, özel anahtar şifreleme, doğrulama
+  - Mesaj karma, etiket şifreleme, etiket dağıtımı
+explanation: |
+  Bir MAC şeması üç ana adımdan oluşur: gizli bir anahtar üretmek, mesaj için bir etiket üretmek ve alınan mesaj ile etiketinin eşleştiğini doğrulamak.
+reviewed: false

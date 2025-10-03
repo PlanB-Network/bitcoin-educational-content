@@ -1,0 +1,9 @@
+question: Kerckhoff prensibinin kriptografideki rolü nedir?
+answer: Güvenliğin, planın gizliliğine değil gizli anahtara bağlı olmasını sağlamak için
+wrong_answers:
+  - Güvenliğin gizli anahtara değil, planın gizliliğine dayandığından emin olmak için
+  - Çok uzun bir şifreleme anahtarı gerektirmek için
+  - Her mesajın benzersiz bir anahtarı olduğunu garanti etmek için
+explanation: |
+  Kerckhoff'un ilkesine göre, bir kriptografik sistemin güvenliği, algoritmanın kendisinin gizliliğine değil, yalnızca gizli anahtara dayanmalıdır.
+reviewed: false

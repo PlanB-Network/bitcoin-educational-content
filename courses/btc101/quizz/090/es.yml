@@ -1,13 +1,11 @@
-question: ¿Cuál es el uso recomendado de una billetera móvil?
-answer: Almacenar gastos diarios.
+question: ¿Qué sucede si tu clave privada es revelada a un tercero?
+answer: El tercero puede gastar tus bitcoins.
 wrong_answers:
-  - Almacenar ahorros a largo plazo.
-  - Almacenar ahorros a medio plazo.
-  - Almacenar grandes cantidades.
+  - El tercero solo puede ver tu historial de transacciones.
+  - El tercero puede cambiar tu clave privada.
+  - El tercero puede acceder a tu información personal.
 explanation: |
-  Se recomienda una billetera móvil para gastos diarios porque
-  es fácil realizar transacciones con ella. Sin embargo, no
-  se recomienda para almacenar grandes cantidades o para
-  ahorros a largo plazo porque es potencialmente vulnerable a
-  amenazas en línea.
+  Si tu clave privada es revelada a un tercero, los
+  fondos asociados ya no están seguros, porque la clave
+  privada les permite acceder a tus fondos.
 reviewed: true

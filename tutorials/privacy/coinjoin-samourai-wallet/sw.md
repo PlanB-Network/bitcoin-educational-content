@@ -1,5 +1,5 @@
 ---
-name: CoinJoin - Samourai Wallet
+name: Coinjoin - Samourai Wallet
 description: Jinsi ya kufanya CoinJoin kwenye Samourai Wallet?
 ---
 ![cover](assets/cover.webp)
@@ -29,15 +29,15 @@ Katika somo hili, utajifunza CoinJoin ni nini na jinsi ya kufanya moja kwa kutum
 Coinjoins huongeza faragha ya watumiaji wa Bitcoin kwa kutatiza uchanganuzi wa msururu kwa waangalizi wa nje. Muundo wao unaruhusu kuunganisha sarafu nyingi kutoka kwa watumiaji tofauti katika shughuli moja, hivyo basi kuficha njia na kufanya iwe vigumu kubainisha viungo kati ya anwani za kuingiza na kutoa.
 
 
-Kanuni ya CoinJoin inategemea mbinu shirikishi: watumiaji kadhaa wanaotaka kuchanganya bitcoins zao huweka kiasi sawa kama pembejeo za muamala sawa. Kiasi hiki kisha kusambazwa upya kama matokeo ya thamani sawa kwa kila mtumiaji. Mwishoni mwa shughuli, inakuwa vigumu kuhusisha pato maalum na mtumiaji anayejulikana katika ingizo. Hakuna kiungo cha moja kwa moja kilichopo kati ya pembejeo na matokeo, kinachovunja uhusiano kati ya watumiaji na UTXO yao, pamoja na historia ya kila sarafu.
+Kanuni ya CoinJoin inategemea mbinu shirikishi: watumiaji kadhaa wanaotaka kuchanganya bitcoins zao huweka kiasi sawa kama pembejeo za muamala sawa. Kiasi hiki kisha kusambazwa upya kama matokeo ya thamani sawa kwa kila mtumiaji. Mwishoni mwa muamala, inakuwa vigumu kuhusisha pato maalum na mtumiaji anayejulikana katika ingizo. Hakuna kiungo cha moja kwa moja kilichopo kati ya pembejeo na matokeo, kinachovunja uhusiano kati ya watumiaji na UTXO yao, pamoja na historia ya kila sarafu.
 
 ![coinjoin](assets/notext/1.webp)
 
 
-Mfano wa shughuli ya CoinJoin (sio kutoka mimi): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://G W-19.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
+Mfano wa muamala wa CoinJoin (sio kutoka mimi): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://G W-19.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
 
-Ili kutekeleza CoinJoin huku ukihakikisha kwamba kila mtumiaji anadhibiti udhibiti wa fedha zao wakati wote, mchakato huanza na ujenzi wa shughuli na mratibu, ambaye kisha anaipeleka kwa washiriki. Kila mtumiaji basi hutia saini muamala baada ya kuthibitisha kuwa inamfaa. Saini zote zilizokusanywa hatimaye zimeunganishwa kwenye shughuli. Iwapo jaribio la kubadilisha fedha litafanywa na mtumiaji au mratibu, kwa kurekebisha matokeo ya muamala wa CoinJoin, sahihi zitathibitisha kuwa si sahihi, na hivyo kusababisha kukataliwa kwa shughuli hiyo na nodi.
+Ili kutekeleza CoinJoin huku ukihakikisha kwamba kila mtumiaji anadhibiti udhibiti wa fedha zao wakati wote, mchakato huanza na ujenzi wa muamala na mratibu, ambaye kisha anaipeleka kwa washiriki. Kila mtumiaji basi hutia saini muamala baada ya kuthibitisha kuwa inamfaa. Saini zote zilizokusanywa hatimaye zimeunganishwa kwenye shughuli. Iwapo jaribio la kubadilisha fedha litafanywa na mtumiaji au mratibu, kwa kurekebisha matokeo ya muamala wa CoinJoin, sahihi zitathibitisha kuwa si sahihi, na hivyo kusababisha kukataliwa kwa shughuli hiyo na nodi.
 
 
 Kuna utekelezaji kadhaa wa CoinJoin, kama vile Whirlpool, JoinMarket, au Wabisabi, kila moja ikilenga kudhibiti uratibu miongoni mwa washiriki na kuongeza ufanisi wa miamala ya CoinJoin.
@@ -113,7 +113,7 @@ Masharti haya yaliwaongoza watengenezaji wa Samourai Wallet katika muundo wa Whi
 **Mwishowe, hakuna haja ya kuwa na idadi kubwa ya washiriki kwa kila CoinJoin kwenye Whirlpool kwa vile kutokukamilika kunapatikana kupitia mkusanyiko wa mizunguko kadhaa ya CoinJoin.**
 
 
-[-> Pata maelezo zaidi kuhusu Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Pata maelezo zaidi kuhusu Whirlpool anonsets.
 
 
 ### Mabwawa na ada za CoinJoin
@@ -602,7 +602,7 @@ Ili CoinJoin iwe na ufanisi kweli, ni muhimu ionyeshe uwiano mzuri kati ya kiasi
 Kwa uchunguzi wa kina wa viashirio hivi (muundo wa Whirlpool unatambuliwa kama ule unaoleta ulinganifu zaidi kuungana), ninakuelekeza kwenye mafunzo: [BOLTZMANN KAKOSOA](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na kiwango cha vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na kiwango cha vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Jinsi ya kusimamia postmix?
@@ -632,12 +632,12 @@ Suluhisho rahisi na salama zaidi ni kuruhusu UTXO zako zilizochanganyika zitulie
 Ifuatayo, lazima uwe mwangalifu katika kudhibiti mabadiliko ya doxxic, mabadiliko ambayo hayakuweza kuingia kwenye bwawa la CoinJoin. UTXO hizi zenye sumu, zinazotokana na matumizi ya Whirlpool, huhatarisha faragha yako kwa vile zinaanzisha kiungo kati yako na matumizi ya CoinJoin. Kwa hivyo ni muhimu kuzishughulikia kwa tahadhari na kutozichanganya na UTXO zingine, haswa UTXO zilizochanganywa. Hapa kuna mikakati tofauti ya kuzingatia kwa matumizi yao:
 
 
-- Changanya kwenye madimbwi madogo:** Ikiwa UTXO yako yenye sumu ni kubwa ya kutosha kuingia kwenye bwawa dogo yenyewe, zingatia kuichanganya. Hii mara nyingi ni chaguo bora zaidi. Walakini, ni muhimu kutounganisha UTXO kadhaa zenye sumu ili kufikia dimbwi, kwani hii inaweza kuunganisha maingizo yako tofauti.
-- Ziweke alama kama "zisizo za spendable":** Mbinu nyingine ni kuacha kuzitumia, ziweke alama kuwa "zisizo za spendable" katika akaunti yao maalum, na HODL pekee. Hii inahakikisha kwamba hutumii kwa bahati mbaya. Iwapo thamani ya Bitcoin itaongezeka, madimbwi mapya yanayofaa zaidi UTXO zako za sumu yanaweza kuibuka;
-- Toa michango:** Fikiria kutoa michango, hata michango ya wastani, kwa wasanidi programu wanaotumia Bitcoin na programu zinazohusiana nayo. Unaweza pia kuchangia mashirika ambayo yanakubali BTC. Ikiwa kudhibiti UTXO zako zenye sumu kunaonekana kuwa ngumu sana, unaweza kuziondoa kwa kutoa mchango;
-- Nunua kadi za zawadi:** Mifumo kama vile [Bitrefill](https://www.bitrefill.com/) hukuruhusu kutumia bitcoins za Exchange kwa kadi za zawadi ambazo zinaweza kutumika kwa wafanyabiashara mbalimbali. Hii inaweza kuwa njia ya kuondoa UTXO zako zenye sumu bila kupoteza thamani inayohusika;
-- Ziunganishe kwenye Monero:** Samourai Wallet sasa inatoa huduma ya kubadilishana atomiki kati ya BTC na XMR. Hii ni bora kwa kudhibiti UTXO zenye sumu kwa kuziunganisha kwenye Monero, bila kuhatarisha faragha yako kupitia KYC, kabla ya kuzirudisha kwa Bitcoin. Hata hivyo, chaguo hili linaweza kuwa la gharama kubwa kwa mujibu wa ada za Mining na malipo kutokana na vikwazo vya ukwasi;
-- Zitume kwa Lightning Network:** Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada za ununuzi zilizopunguzwa ni chaguo ambalo linaweza kupendeza. Walakini, njia hii inaweza kufichua habari fulani kulingana na utumiaji wako wa Umeme na kwa hivyo inapaswa kufanywa kwa tahadhari.
+- **Changanya kwenye madimbwi madogo:** Ikiwa UTXO yako yenye sumu ni kubwa ya kutosha kuingia kwenye bwawa dogo yenyewe, zingatia kuichanganya. Hii mara nyingi ni chaguo bora zaidi. Walakini, ni muhimu kutounganisha UTXO kadhaa zenye sumu ili kufikia dimbwi, kwani hii inaweza kuunganisha maingizo yako tofauti.
+- Ziweke alama kama "zisizo za spendable": Mbinu nyingine ni kuacha kuzitumia, ziweke alama kuwa "zisizo za spendable" katika akaunti yao maalum, na HODL pekee. Hii inahakikisha kwamba hutumii kwa bahati mbaya. Iwapo thamani ya Bitcoin itaongezeka, madimbwi mapya yanayofaa zaidi UTXO zako za sumu yanaweza kuibuka;
+- **Toa michango:** Fikiria kutoa michango, hata michango ya wastani, kwa wasanidi programu wanaotumia Bitcoin na programu zinazohusiana nayo. Unaweza pia kuchangia mashirika ambayo yanakubali BTC. Ikiwa kudhibiti UTXO zako zenye sumu kunaonekana kuwa ngumu sana, unaweza kuziondoa kwa kutoa mchango;
+- Nunua kadi za zawadi: Mifumo kama vile [Bitrefill](https://www.bitrefill.com/) hukuruhusu kutumia bitcoins za Exchange kwa kadi za zawadi ambazo zinaweza kutumika kwa wafanyabiashara mbalimbali. Hii inaweza kuwa njia ya kuondoa UTXO zako zenye sumu bila kupoteza thamani inayohusika;
+- Ziunganishe kwenye **Monero:** Samourai Wallet sasa inatoa huduma ya kubadilishana atomiki kati ya BTC na XMR. Hii ni bora kwa kudhibiti UTXO zenye sumu kwa kuziunganisha kwenye Monero, bila kuhatarisha faragha yako kupitia KYC, kabla ya kuzirudisha kwa Bitcoin. Hata hivyo, chaguo hili linaweza kuwa la gharama kubwa kwa mujibu wa ada za Mining na malipo kutokana na vikwazo vya ukwasi;
+- Zitume kwa Lightning Network: Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada za ununuzi zilizopunguzwa ni chaguo ambalo linaweza kupendeza. Walakini, njia hii inaweza kufichua habari fulani kulingana na utumiaji wako wa Umeme na kwa hivyo inapaswa kufanywa kwa tahadhari.
 
 
 Mafunzo ya kina juu ya kutekeleza mbinu hizi tofauti yatatolewa hivi karibuni kwenye PlanB Network.
@@ -645,9 +645,10 @@ Mafunzo ya kina juu ya kutekeleza mbinu hizi tofauti yatatolewa hivi karibuni kw
 
 **Nyenzo za ziada:**
 
-[Mafunzo ya video ya Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Mafunzo ya video ya Samourai Wallet]()
 
 
 - [Hati za Samourai Wallet - Whirlpool](https://docs.samourai.io/Whirlpool/dhana-za-msingi);
 - [Uzi wa Twitter kwenye viunganishi vya sarafu](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Chapisho la blogu kwenye coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+

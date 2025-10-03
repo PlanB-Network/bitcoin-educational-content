@@ -1,0 +1,10 @@
+question: Ni igiki entropie yerekana mu bijanye n’isesengura ry’uruzitiro kuri Bitcoin?
+answer: Kubura ubumenyi bw’abahinga ku bijanye n’ingene nyabuna iyo nzira y’ubudandaji itunganijwe.
+wrong_answers:
+  - Umuvuduko amakuru yerekeye ugucuruza akwiragizwako ku rubuga rwose.
+  - Urugero rw’umutekano w’ibanga ry’imikono ya digitale ikoreshwa mu gucuruza.
+  - Ubwinshi bw’umugwi w’ama UTXO asa n’ayandi aho Coin yihishije.
+explanation: |
+  Entropie ikoreshwa mu gupima ubukene bw’ubumenyi bw’abahinga ku bijanye n’imiterere nyayo y’ugucuruza. Mu yandi majambo, uko entropie igenda irakura, ni ko bigorana ko abahinga mu vy’ubuhinga bwo kumenya uruja n’uruza rw’ama bitcoins hagati y’ivyo yinjiza n’ivyo asohoka.
+  
+reviewed: false

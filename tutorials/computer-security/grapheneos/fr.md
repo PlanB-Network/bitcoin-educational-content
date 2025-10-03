@@ -1,11 +1,14 @@
 ---
 name: GrapheneOS
-description: Tutoriel Graphene OS
+description: Un système d’exploitation mobile axé sur la sécurité et la confidentialité basé sur Android
 ---
+![cover](assets/cover.webp)
 
-> "[GrapheneOS](https://grapheneos.org/) est un système d'exploitation mobile axé sur la confidentialité et la sécurité, compatible avec les applications Android, développé en tant que projet open source à but non lucratif."
+> [GrapheneOS](https://grapheneos.org/) est un système d’exploitation mobile open source, à but non lucratif, conçu pour offrir un haut niveau de confidentialité et de sécurité tout en restant pleinement compatible avec les applications Android.
 
 GrapheneOS, initialement fondé en 2014 sous le nom de 'CopperheadOS', est basé sur le code Android traditionnel (AOSP), mais avec de nombreux changements et améliorations visant à améliorer la confidentialité et la sécurité des utilisateurs. GrapheneOS permet à l'utilisateur de contrôler son téléphone, et non les grandes entreprises technologiques.
+
+![video](https://youtu.be/VnumtalYLFI)
 
 ### Sommaire :
 
@@ -16,7 +19,7 @@ GrapheneOS, initialement fondé en 2014 sous le nom de 'CopperheadOS', est basé
 - Inconvénients
 - Informations utiles
 
-Guide disponible sur https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ce tutoriel est une adaptation du contenu original publié par [BitcoinQnA sur Bitcoiner.Guide sous licence MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), auquel revient l’intégralité du crédit pour le travail de rédaction initial.*
 
 ## Pourquoi utiliser GrapheneOS ?
 
@@ -72,7 +75,7 @@ Tout ce dont vous avez besoin est :
 9. Enfin, passez à l'étape suivante de l'installateur web et cliquez sur **"Verrouiller le bootloader"**. Vous devrez changer la sélection et confirmer avec le bouton d'alimentation de la même manière que vous l'avez fait précédemment dans le processus.
 10. Lorsque vous voyez le mot `Démarrer`, confirmez cela avec le bouton d'alimentation et l'appareil démarrera sur votre nouveau système d'exploitation sans Google.
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 Écran de démarrage de GrapheneOS
 
@@ -90,7 +93,7 @@ Si ces étapes simples vous semblent trop compliquées, vous pouvez envisager d'
 
 Maintenant que vous êtes prêt, vous remarquerez peut-être à quel point GrapheneOS est dépouillé lors de la première installation. Par défaut, vous aurez ces applications installées :
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 Applications par défaut
 Les seuls termes avec lesquels vous pourriez ne pas être familiers sont "Auditor" et "Vanadium".
@@ -120,7 +123,7 @@ Accédez à **Paramètres** > **Batterie**, puis activez **Afficher le pourcenta
 **Depuis iOS** - Utilisez une application comme Export Contact et utilisez l'option d'exportation 'vCard' pour exporter un fichier VCF.
 Une fois que vous avez le fichier VCF, vous pouvez le transférer sur votre appareil GrapheneOS avec une option de stockage externe comme une carte microSD ou une clé USB. Si vous n'en avez pas sous la main, vous pouvez choisir de le partager via l'une des nombreuses applications répertoriées ci-dessous.
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 Écran d'accueil personnalisé
 
@@ -139,9 +142,11 @@ Pour installer F-Droid, il suffit de se rendre sur leur site web via un navigate
 
 En plus des applications disponibles dans le référentiel par défaut de F-Droid, de nombreux projets open source hébergent également leur propre référentiel qui peut être ajouté dans les paramètres de l'application F-Droid. Si tel est le cas, le projet en question vous guidera à travers les étapes très simples nécessaires pour y parvenir sur leur site web.
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 Écran d'accueil de F-Droid
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) est une version FOSS de la boutique Google Play. Aurora ressemble beaucoup à la boutique Play traditionnelle et vous permet de télécharger et de mettre à jour n'importe quelle application que vous trouveriez normalement via l'option Google.
@@ -156,9 +161,11 @@ Aurora présente également quelques vecteurs d'attaque potentiels, car les "com
 **Top conseil** - Parfois, Aurora Store sera soumis à des limites de taux qui limitent votre capacité à rechercher et installer des applications. Pour contourner cela, allez dans **Paramètres** > **Applications** > **Aurora** > **Ouvrir par défaut**, puis ajoutez le domaine `play.google.com`. Maintenant, chaque fois que vous accédez au site web d'un produit ou d'un service qui a le lien 'Télécharger via Play Store', en le touchant, l'application s'ouvrira dans Aurora pour que vous puissiez la télécharger.
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 Écran d'accueil d'Aurora Store
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### Téléchargement APK
 
@@ -166,7 +173,7 @@ Les applications sur Android peuvent également être téléchargées et install
 
 L'inconvénient de cette approche est que vous ne bénéficiez pas de mises à jour automatiques, vous devrez donc surveiller les canaux de communication de ce service pour connaître les nouvelles versions. Cependant, il existe un excellent projet appelé Obtanium qui vise à résoudre ce problème. [Obtainium](https://github.com/ImranR98/Obtainium) vous permet d'installer et de mettre à jour des applications open-source directement depuis leurs pages de versions, et de recevoir des notifications lorsque de nouvelles versions sont disponibles.
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 Aperçu d'Obtanium
 
@@ -178,7 +185,7 @@ Pour réaliser cela dans Vanadium, le navigateur natif de GrapheneOS, il vous su
 
 Le seul inconvénient de cette approche est que, parce qu'il s'agit simplement d'une page web mise en favori, vous ne recevrez aucune forme de notifications. Cependant, certains pourraient voir cela comme un avantage !
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 PWA Twitter
 
@@ -191,11 +198,12 @@ Pour les moments où vous avez besoin d'accéder aux sites natifs `.onion` de To
 
 Pour protéger votre activité en ligne de votre fournisseur de services Internet (FSI) qui espionne, une application de réseau privé virtuel (VPN) est une bonne option. Un VPN envoie votre trafic Internet dans un tunnel chiffré vers une adresse IP partagée contrôlée par le fournisseur de services VPN pour garantir que l'activité de votre appareil ne peut pas être liée à vous.
 
-Voici 3 options respectées qui vous permettent de payer le service en Bitcoin et sans fournir d'informations personnelles. Les 3 options sont disponibles via F-Droid.
+Voici deux options reconnues qui permettent de payer le service en Bitcoin, sans fournir la moindre information personnelle. Toutes deux sont disponibles sur F-Droid.
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
 
 ### Messagerie
 
@@ -208,9 +216,19 @@ La plupart des personnes qui ne s'intéressent pas à la vie privée utilisent p
 - [Threema](https://threema.ch/en/faq/libre_installation) offre une expérience similaire à Simplex, mais existe depuis plus longtemps et, par conséquent, semble un peu plus abouti. Threema n'est pas gratuit, une licence à vie coûte 4,99 $ et peut être achetée avec Bitcoin. Threema propose un client web et des applications de bureau natives. L'application Android est disponible via F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) est un fork FOSS non officiel de l'application Telegram officielle pour Android. Telegram dispose de "chats secrets" E2EE, mais l'option par défaut n'est pas privée. Telegram FOSS peut être téléchargé depuis F-Droid.
 
-![image](assets/9.webp)
-Gauche : Threema
-Droite : Simplex
+![image](assets/fr/9.webp)
+Gauche : Threema; Droite : Simplex
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
 
 ### Médias
 
@@ -219,7 +237,7 @@ Droite : Simplex
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) offre une expérience YouTube sans publicités ennuyeuses et sans autorisations douteuses. Avec NewPipe, vous pouvez vous abonner à des chaînes, écouter en arrière-plan et même télécharger pour une visualisation hors ligne. NewPipe est accessible via F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) est un lecteur de podcast qui vous permet de vous abonner et de gérer tous vos émissions préférées. AntennaPod est disponible via F-Droid.
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Gauche : Spotube
 Droite : ViMusic
@@ -232,7 +250,7 @@ Si vous souhaitez bénéficier d'une assistance vocale lors de la conduite et de
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) est une alternative aux cartes pour les voyageurs, les touristes, les randonneurs et les cyclistes, basée sur les données OpenStreetMap contribuées par la communauté. Il s'agit d'une application axée sur la confidentialité, open-source et dérivée de l'application Maps.me (anciennement connue sous le nom de MapsWithMe). Elle prend en charge 100% des fonctionnalités sans connexion Internet active et peut être téléchargée depuis F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) est une autre excellente alternative aux cartes qui prend en charge toutes les fonctionnalités mentionnées ci-dessus.
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Gauche : Magic Earth
 Droite : Organic Maps
@@ -243,7 +261,7 @@ Droite : Organic Maps
 - [Tutanota](https://tutanota.com/) propose les mêmes fonctionnalités que Proton Mail, y compris des services payants optionnels, et peut être téléchargé sous forme d'APK direct ou via F-Droid.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) est un client de messagerie open source qui fonctionne avec pratiquement tous les fournisseurs de messagerie. Il prend en charge plusieurs comptes, une boîte de réception unifiée et la norme de chiffrement OpenPGP.
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Gauche : Proton Mail
 Droite : Tutanota
@@ -257,7 +275,7 @@ Droite : Tutanota
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) est une application de clavier qui vous permet de personnaliser à peu près tout ce que vous pouvez imaginer en ce qui concerne votre expérience de saisie sur téléphone. Il peut être téléchargé via F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) est l'application de clavier Google par défaut. D'après mon expérience, il offre de loin la meilleure expérience de saisie et de balayage. Si vous téléchargez cette application, assurez-vous de désactiver complètement toutes les autorisations liées au réseau. Elle peut être téléchargée via Aurora.
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Gauche : Notesnook
 Droite : KDE Connect
@@ -269,7 +287,7 @@ Droite : KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) est un calendrier simple à utiliser et E2EE qui interagit parfaitement avec vos comptes de messagerie Proton. Proton Calendar peut être téléchargé sous forme d'APK ou via le magasin Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) est une application permettant d'afficher et de stocker des cartes d'embarquement, des coupons, des billets de cinéma et des cartes de membre, etc. Il vous suffit de télécharger le fichier `pkpass` ou `espass` correspondant et de l'ouvrir avec l'application. PassAndroid est disponible via F-Droid.
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 Gauche : Geometric Weather
 Droite : Proton Calendar
 
@@ -281,9 +299,17 @@ Droite : Proton Calendar
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) est une application gratuite, sécurisée et open source pour Android qui permet de gérer vos jetons de vérification en deux étapes pour vos services en ligne. Aegis est disponible via F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) est un service payant multiplateforme qui chiffre vos données localement afin que vous puissiez les télécharger en toute sécurité sur votre service cloud préféré. Cryptomator peut être téléchargé via F-Droid.
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 À gauche : Proton Pass
 À droite : Bitwarden
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Solutions cloud
 
@@ -292,9 +318,11 @@ Droite : Proton Calendar
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) offre une solution cloud complète pour la collaboration, la synchronisation entre appareils et le stockage de fichiers. Les utilisateurs plus avancés peuvent choisir d'héberger eux-mêmes leur logiciel libre et open source sur n'importe quel matériel de leur choix. Les clients Android peuvent être téléchargés via F-Droid.
 - [Cryptpad](https://cryptpad.fr/) propose une alternative gratuite et basée sur le web à Google Docs avec chiffrement de bout en bout.
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Les inconvénients
 
@@ -316,7 +344,7 @@ Avant de vous précipiter pour les installer dès le premier jour, je vous encou
 
 Si vous souhaitez les installer, il vous suffit de toucher l'application préinstallée "Applications", puis "Services Google Play". Pensez à les installer aux côtés de ces applications moins privées dont vous ne pouvez pas vous passer, dans un profil utilisateur complètement séparé pour fournir une couche supplémentaire de ségrégation par rapport au reste de votre téléphone.
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Écran d'installation des services Play
 
@@ -329,7 +357,7 @@ Vous pouvez en savoir plus sur ce cas d'utilisation [ici](https://discuss.graphe
 
 Si vous décidez d'ajouter un profil séparé pour répondre à votre cas d'utilisation, l'application [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) pourrait vous être utile. Insular vous permet de cloner facilement l'une de vos applications existantes vers le nouveau profil sans passer par les méthodes d'installation traditionnelles mentionnées précédemment dans ce guide. Insular vous permet également de "geler" rapidement l'une de ces applications pour désactiver complètement tous les services en arrière-plan de cette application.
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Écran de gestion des profils utilisateur
 
@@ -352,7 +380,7 @@ Pour créer votre première sauvegarde :
 3. Choisissez les données à sauvegarder. Si vous avez de l'espace sur votre support de stockage spécifié, je vous conseille de tout sélectionner.
 4. Appuyez sur les trois points en haut à droite, puis choisissez **Sauvegarder maintenant**.
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 Écran de sauvegarde
 
@@ -381,4 +409,5 @@ GrapheneOS est un véritable labyrinthe dans lequel n'importe qui pourrait facil
 - [Cours magistral sur les paramètres de GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Vidéo par 'The Privacy Wayfinder'
 - [Podcast général sur GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast par 'Watchman Privacy'
 
-Crédit complet à : https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ce tutoriel est une adaptation du contenu original publié par [BitcoinQnA sur Bitcoiner.Guide sous licence MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), auquel revient l’intégralité du crédit pour le travail de rédaction initial.*
+

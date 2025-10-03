@@ -1,9 +1,12 @@
-question: Wat betekent de term HODL?
-answer: HODL is een slang term in de cryptocurrency gemeenschap die betekent om je investeringen vast te houden in plaats van ze te verkopen, vooral tijdens marktvolatiliteit.
+question: Wat is een methode om je bitcoins op de lange termijn veilig te stellen?
+answer: Graveer je Mnemonic zin op een bestendig materiaal zoals staal.
 wrong_answers:
-  - HODL verwijst naar een type cryptocurrency dat alleen wordt gebruikt voor handel.
-  - HODL is een term die betekent dat je al je cryptocurrency verkoopt tegen een hoge prijs.
-  - HODL is een strategie voor daytrading waarbij je vaak koopt en verkoopt.
+  - Opslaan in een Hot Wallet.
+  - Ze op een Exchange platform houden.
+  - Je Mnemonic zin delen met een collega.
 explanation: |
-  De term HODL is ontstaan uit een verkeerd gespelde online post in 2013 op een Bitcoin forum. In de loop der tijd is HODL geëvolueerd naar een bredere investeringsstrategie. Het moedigt investeerders aan om hun cryptocurrencies voor de lange termijn vast te houden, ongeacht marktschommelingen.
+  Door je Mnemonic zin te graveren op een bestendig materiaal zoals
+  staal creëert een fysieke back-up van uw sleutels die
+  bestand is tegen waterschade en brand, waardoor je bitcoins op de lange
+  bitcoins op de lange termijn.
 reviewed: true

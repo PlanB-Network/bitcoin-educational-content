@@ -1,12 +1,12 @@
-question: Mitkä ovat tehokkaan valuutan pääominaisuudet?
-answer: Vaihdettavissa, Jaettavissa, Likvidi.
+question: Miksi Bitcoinia ei ole laajalti hyväksytty kaupankäynnissä tänään?
+answer: Koska sitä ei ole laajalti omaksuttu yksilöiden toimesta.
 wrong_answers:
-  - Vaihdettavissa, Jaettavissa, Pilaantuva.
-  - Vaihdettavissa, Jakamaton, Likvidi.
-  - Ei-vaihdettavissa, Jaettavissa, Likvidi.
+  - Koska sitä ei voi kuljettaa.
+  - Koska sitä ei voi jakaa pieniin yksiköihin.
+  - Koska se ei ole likvidi.
 explanation: |
-  Tehokkaan valuutan on oltava vaihdettavissa (vaihdettavissa
-  ilman arvon menetystä), jaettavissa (jaettavissa pieniin
-  osiin eri suuruisten transaktioiden helpottamiseksi) ja
-  likvidi (helposti muunnettavissa tavaroihin tai palveluihin).
+  Huolimatta sen ominaisuuksista, kuten sen tiukasti rajatusta
+  tarjonnasta, Bitcoinia ei vielä tänä päivänä ole laajalti hyväksytty kaupankäynnissä,
+  johtuen sen puutteellisesta omaksumisesta yksilöiden keskuudessa, joten
+  kauppiaita ei kannusteta hyväksymään sitä.
 reviewed: true

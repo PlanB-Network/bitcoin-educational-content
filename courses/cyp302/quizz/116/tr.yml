@@ -1,0 +1,9 @@
+question: AES'de satır kaydırma işleminin amacı nedir?
+answer: Durum tablosundaki baytları yeniden düzenleyerek yayılımı artırmak için
+wrong_answers:
+  - Her bloğun aynı uzunlukta olduğundan emin olun
+  - Durum tablosunun her satırına bir gizli anahtar uygulayın
+  - Baytları değiştirerek ek karışıklık yaratın
+explanation: |
+  AES'deki satır kaydırma işlemi, bilgiyi yaymak için durum tablosundaki baytları yeniden düzenler ve böylece yayılımı artırır.
+reviewed: false

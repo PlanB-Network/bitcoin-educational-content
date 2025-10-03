@@ -1,5 +1,5 @@
 ---
-name: 機器人衛星
+name: Robosats
 
 description: 如何使用 Robosats
 ---

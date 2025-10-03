@@ -1,0 +1,9 @@
+question: Ni nini motisha kuu ya kutumia vitambulishi vya Interface nasibu badala ya MAC Address katika IPv6?
+answer: Kuhifadhi faragha
+wrong_answers:
+  - Kupunguza ukubwa wa pakiti
+  - Kuharakisha azimio la DNS
+  - Kuboresha utangamano wa ARP
+explanation: |
+  Kutumia vitambulishi nasibu vya Interface husaidia kulinda dhidi ya ufuatiliaji wa kifaa kulingana na MAC Address.
+reviewed: false

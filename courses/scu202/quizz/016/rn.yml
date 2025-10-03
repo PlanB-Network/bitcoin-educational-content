@@ -1,0 +1,9 @@
+question: Ni uwuhe muryango w’ugukwiragiza ukoresha umucungerezi w’amapaki ya RPM?
+answer: Inkofero itukura
+wrong_answers:
+  - Debiyani
+  - Arch
+  - Ibikoresho vy'ubugoyagoye
+explanation: |
+  Uburyo bwa RPM bwatangujwe na Red Hat kandi ni bwo bushingiyeko Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux n’ibindi bikoresho bijanye.
+reviewed: false

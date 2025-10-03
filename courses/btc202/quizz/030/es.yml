@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal ventaja de un nodo en una caja frente a una aplicación sin procesar?
+answer: Fácil instalación y gestión integrada de aplicaciones
+wrong_answers:
+  - Verificación más estricta de las normas de consenso
+  - Acceso directo a Blockchain sin almacenamiento
+  - Compatibilidad con una moneda distinta de Bitcoin
+explanation: |
+  El nodo en una caja simplifica la instalación y gestión de numerosas aplicaciones auxiliares a través de un Interface unificado.
+reviewed: true

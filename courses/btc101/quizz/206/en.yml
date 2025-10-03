@@ -1,12 +1,12 @@
-question: What are FOMO and FUD?
-answer: Emotions that can lead to impulsive and potentially harmful decision-making.
+question: What is the main goal of the Bitcoin revolution according to this course?
+answer: Creating a world where human sovereignty is a right, privacy is respected by default, and money is not manipulated.
 wrong_answers:
-  - Types of Bitcoin wallets.
-  - Strategies for buying Bitcoin.
-  - Regulations related to Bitcoin.
-explanation: >-
-  The text explains that FOMO (Fear of Missing Out) and FUD (Fear,
-  Uncertainty,
-  Doubt) are emotions that can lead to impulsive and potentially harmful decision-making
-  when buying Bitcoin.
+  - Creating a world where privacy is not a human right, and money is manipulated by the banks.
+  - Creating a world where governments have no power, and society is chaotic.
+  - Creating a world where physical money is obsolete.
+explanation: |
+  This course text suggests that the main goal of the Bitcoin
+  revolution is to create a world where human sovereignty is
+  a right, privacy is respected by default, and money is not
+  manipulated.
 reviewed: true

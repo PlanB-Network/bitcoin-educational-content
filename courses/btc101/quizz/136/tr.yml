@@ -1,0 +1,11 @@
+question: Bir düğüm kullanıcısı mevcut mutabakat kurallarıyla çelişen farklı kurallara uymayı seçerse ne olur?
+answer: Düğüm artık Bitcoin ağının bir parçası olmayacaktır.
+wrong_answers:
+  - Düğüm farklı bir Bitcoin ağının parçası haline gelecektir.
+  - Düğüm Bitcoin ağı tarafından cezalandırılacaktır.
+  - Düğüm Bitcoin ağı tarafından ödüllendirilecektir.
+explanation: |
+  Bir düğüm kullanıcısı aşağıdaki diğer kurallara uymaya karar verirse
+  mevcut mutabakat kurallarını geçersiz kılarsa, bu düğüm
+  artık Bitcoin ağının bir parçası olmayacaktır.
+reviewed: true

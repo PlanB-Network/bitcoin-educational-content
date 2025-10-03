@@ -1,0 +1,9 @@
+question: Co je datagram v kontextu protokolu IP?
+answer: Samostatný blok dat přenášený po síti
+wrong_answers:
+  - Šifrovaná zpráva určená pro jedno zařízení
+  - Segment TCP zapouzdřený v protokolu UDP
+  - Fyzický signál ze zařízení Network Access Layer
+explanation: |
+  Data IP se přenášejí ve formě datagramů, nezávislých bloků, které obsahují všechny informace potřebné k doručení.
+reviewed: false

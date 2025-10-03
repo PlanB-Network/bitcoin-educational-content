@@ -1,11 +1,11 @@
 ---
-name: Kalkulator Boltzmanna
+name: Boltzmann Calculator
 description: Zrozumienie pojęcia entropii i sposobu korzystania z metody Boltzmanna
 ---
 ![cover](assets/cover.webp)
 
 
-***OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, strona KYCP.org jest obecnie niedostępna. Gitlab hostujący kod Python Boltzmann Calculator również został przejęty. Obecnie nie jest już możliwe pobranie tego narzędzia. Możliwe jest jednak, że kod zostanie ponownie opublikowany przez inne osoby w nadchodzących tygodniach. W międzyczasie nadal możesz skorzystać z tego samouczka, aby zrozumieć działanie kalkulatora Boltzmanna. Wskaźniki dostarczane przez to narzędzie mają zastosowanie do każdej transakcji Bitcoin i mogą być również obliczane ręcznie. W tym samouczku przedstawię wszystkie niezbędne obliczenia. Jeśli już pobrałeś narzędzie Python na swój komputer lub jeśli używasz RoninDojo, możesz nadal korzystać z narzędzia i postępować zgodnie z tym samouczkiem, nadal działa
+**OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, strona KYCP.org jest obecnie niedostępna. Gitlab hostujący kod Python Boltzmann Calculator również został przejęty. Obecnie nie jest już możliwe pobranie tego narzędzia. Możliwe jest jednak, że kod zostanie ponownie opublikowany przez inne osoby w nadchodzących tygodniach. W międzyczasie nadal możesz skorzystać z tego samouczka, aby zrozumieć działanie kalkulatora Boltzmanna. Wskaźniki dostarczane przez to narzędzie mają zastosowanie do każdej transakcji Bitcoin i mogą być również obliczane ręcznie. W tym samouczku przedstawię wszystkie niezbędne obliczenia. Jeśli już pobrałeś narzędzie Python na swój komputer lub jeśli używasz RoninDojo, możesz nadal korzystać z narzędzia i postępować zgodnie z tym samouczkiem, nadal działa
 
 
 uważnie śledzimy rozwój tej sprawy, a także rozwój związany z powiązanymi narzędziami. Zapewniamy, że będziemy aktualizować ten poradnik w miarę pojawiania się nowych informacji

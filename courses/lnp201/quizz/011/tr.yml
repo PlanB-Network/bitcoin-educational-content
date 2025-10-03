@@ -1,0 +1,9 @@
+question: Alice neden para yatırma işlemini yayınlamadan önce bir para çekme işlemi oluşturuyor?
+answer: Bob ile ilgili bir sorun olması durumunda fonlarını geri almak için
+wrong_answers:
+  - Her işlemde kanalın kapasitesini artırmak için
+  - Açtıktan hemen sonra bir Lightning işlemi gerçekleştirmek için
+  - Bob'nin fonları doğrudan harcamasına izin vermek için
+explanation: |
+  Alice, Bob ile bir sorun yaşanması durumunda fonlarını geri almak için bir para çekme işlemi oluşturur ve böylece depozitosunun güvenliğini sağlar.
+reviewed: false

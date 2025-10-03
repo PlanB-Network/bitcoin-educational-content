@@ -1,0 +1,9 @@
+question: 일렉트르와 펄크럼의 주요 차이점은 무엇인가요?
+answer: 일렉트릭은 더 컴팩트하고, 펄크럼은 더 강력합니다
+wrong_answers:
+  - Electrs는 무료가 아니고, Fulcrum은 무료입니다
+  - 펄크럼은 일렉트럼 프로토콜을 지원하지 않습니다
+  - Electrs는 독점, Fulcrum은 오픈 소스
+explanation: |
+  Electrs는 디스크 공간을 덜 사용하는 반면, Fulcrum은 요청에 더 빠르게 응답하지만 더 많은 리소스를 사용합니다.
+reviewed: true

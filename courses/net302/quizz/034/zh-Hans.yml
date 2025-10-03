@@ -1,0 +1,9 @@
+question: IPv4 Address 在计算机网络中的主要作用是什么？
+answer: 唯一标识网络 Interface
+wrong_answers:
+  - 识别网络上的所有设备
+  - 在网络上动态分配 MAC 地址
+  - generate DNS 名称
+explanation: |
+  为设备的每个网络 Interface 分配一个 IPv4 Address，使其能够在网络上被定位和访问。
+reviewed: false

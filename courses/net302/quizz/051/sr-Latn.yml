@@ -1,0 +1,9 @@
+question: Koji mehanizam omogućava pristup unutrašnjoj usluzi spolja putem NAT-a?
+answer: Prosleđivanje portova
+wrong_answers:
+  - Fragmentacija paketa
+  - RIP rutiranje
+  - kompresija NAT
+explanation: |
+  Prosleđivanje portova omogućava da se spoljašnja konekcija prosledi ka određenom internom hostu putem NAT prolaza.
+reviewed: false

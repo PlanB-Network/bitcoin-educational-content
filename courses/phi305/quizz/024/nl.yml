@@ -1,0 +1,9 @@
+question: Is scholastiek?
+answer: Een filosofie van de Middeleeuwen.
+wrong_answers:
+  - Een filosofie van de moderne tijd.
+  - Een eeuwenoude filosofie.
+  - Een atheïstische filosofie.
+explanation: |
+  Scholastiek was een middeleeuwse filosofie die het christelijk geloof probeerde te verzoenen met de Aristotelische filosofie. Het domineerde de Europese universiteiten vóór de opkomst van de moderne filosofie.
+reviewed: false

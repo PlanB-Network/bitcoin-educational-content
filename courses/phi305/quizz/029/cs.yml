@@ -1,0 +1,9 @@
+question: Kdo je Ayn Randová?
+answer: Autor knih La Grève a La Source Vive.
+wrong_answers:
+  - Spinozův společník.
+  - Britský politik.
+  - Romantický autor.
+explanation: |
+  Ayn Randová (1905-1982) je autorkou knih Atlas Shrugged a The Fountainhead. Rozvinula filozofii zvanou objektivismus, která prosazuje racionální individualismus a kapitalismus.
+reviewed: false

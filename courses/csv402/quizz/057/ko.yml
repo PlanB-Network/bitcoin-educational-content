@@ -1,0 +1,9 @@
+question: RLN에서 리포지토리를 복제한 후 "RGB-lightning-node" 바이너리를 설치하는 명령은 무엇인가요?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "카고 실행 -잠긴 -경로 ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  "cargo install --locked --debug --path ." 명령은 "RGB-lightning-node" 바이너리를 컴파일하고 설치합니다.
+reviewed: false

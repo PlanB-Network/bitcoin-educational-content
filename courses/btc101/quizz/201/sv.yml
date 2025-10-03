@@ -1,12 +1,10 @@
-question: Vad är syftet med KYC-bestämmelserna?
-answer: Att bekämpa finansiering av terrorism, skatteflykt och penningtvätt.
+question: Vad är en av de potentiella konsekvenserna av att inte följa reglerna i ditt land när du köper Bitcoin?
+answer: Du kan utsätta dig själv för risker.
 wrong_answers:
-  - Att höja priset på Bitcoin och få användaren att betala mer skatt.
-  - För att kontrollera Supply av Bitcoin.
-  - För att hindra folk från att köpa Bitcoin.
+  - Du kan höja priset på Bitcoin.
+  - Du kan kontrollera Supply av Bitcoin.
+  - Du kan hindra andra från att köpa Bitcoin.
 explanation: |
-  I kurstexten förklaras att KYC-föreskrifter (Know Your Customer)
-  regler kräver att användare identifierar sig för att
-  bekämpa finansiering av terrorism, skatteflykt och penning
-  penningtvätt.
+  I kurstexten nämns att om du inte följer bestämmelserna i
+  i ditt land när du köper Bitcoin kan utsätta dig för risker.
 reviewed: true

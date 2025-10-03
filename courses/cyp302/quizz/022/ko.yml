@@ -1,0 +1,9 @@
+question: 시프트 암호화에서 키가 17인 DOG라는 단어의 결과는 무엇인가요?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  알파벳에서 17이 바뀌면 D는 U가 되고, O는 F가 되며, G는 X가 되므로 암호화된 단어는 UFX입니다.
+reviewed: false

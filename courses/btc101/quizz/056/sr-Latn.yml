@@ -1,9 +1,12 @@
-question: Koliko je iznosila inflacija u Mađarskoj u julu 1946.?
-answer: 41.900.000.000.000.000%
+question: Koji je matematički koncept zasnovan na ljudskoj racionalnosti i koristi se u Bitkoinu?
+answer: Teorija igara.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Teorija verovatnoće.
+  - Teorija brojeva.
+  - Teorija skupova.
 explanation: |
-  Mesec sa najvišom inflacijom u Mađarskoj bio je jul 1946., sa rekordnom inflacijom cena od 41.900.000.000.000.000%.
+  Teorija igara je matematički koncept koji se zasniva na
+  ljudskoj racionalnosti. U Bitkoinu, promene protokola se
+  sprovode od strane korisnika, što čini bilo kakvu modifikaciju Bitkoin
+  protokola veoma složenom.
 reviewed: true

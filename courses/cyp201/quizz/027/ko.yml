@@ -1,0 +1,9 @@
+question: SegWit에서 수정된 ECDSA 서명 취약점은 무엇인가요?
+answer: 가단성
+wrong_answers:
+  - 일괄 확인
+  - 집계 부족
+  - 과도한 서명 크기
+explanation: |
+  SegWit는 ECDSA 서명의 가변성을 수정하여 Lightning Network과 같은 사용이 가능하도록 했습니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tocqueville'in çalışma hakkına bakış açısı nedir?
+answer: Tocqueville çalışma hakkına karşıdır ve bunun devletçiliğe ve bireysel özgürlüğün kaybına yol açabileceğinden korkmaktadır.
+wrong_answers:
+  - Tocqueville çalışma hakkından yanadır ve Devletin tüm vatandaşlara iyi bir iş garantisi vermesi gerektiğine inanır.
+  - Tocqueville, çalışma hakkının asil bir ilke olduğunu ancak etkili ve adil bir şekilde uygulanmasının zor olduğunu düşünmektedir.
+  - Tocqueville çalışma hakkı konusundaki tutumunu açıkça belirtmez.
+explanation: |
+  Tocqueville, devlete verilen bu sorumluluğun aşırı müdahaleciliğe ve merkezi kontrol lehine bireysel özgürlüklerin azalmasına yol açabileceğinden korkarak çalışma hakkına karşı çıkmaktadır.
+reviewed: true

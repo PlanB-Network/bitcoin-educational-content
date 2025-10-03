@@ -1,0 +1,9 @@
+question: Vilket verktyg visar detaljerade DNS-meddelanden, inklusive poster och lösningsprocessen?
+answer: gräva
+wrong_answers:
+  - värd
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) ger detaljerad information om DNS-upplösning, inklusive posttyper.
+reviewed: false

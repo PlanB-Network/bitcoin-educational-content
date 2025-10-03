@@ -1,0 +1,9 @@
+question: Koji je prvi korak koji treba preduzeti u slučaju greške na Umbrelu?
+answer: generate dijagnostički paket
+wrong_answers:
+  - Ponovo instaliraj Bitcoin core i ponovo uradi IBD
+  - Obriši keš
+  - Onemogući 2FA
+explanation: |
+  U slučaju problema, započinjemo generisanjem dijagnostičkog paketa u odeljku za rešavanje problema kako bismo analizirali problem i vodili evidenciju.
+reviewed: true

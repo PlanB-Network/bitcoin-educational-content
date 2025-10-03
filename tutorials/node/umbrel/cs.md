@@ -1,5 +1,5 @@
 ---
-name: Deštník
+name: Umbrel
 description: Objevte a nainstalujte Umbrel - Váš uzel Bitcoin a domovský server
 ---
 
@@ -21,10 +21,10 @@ Uzel Bitcoin je počítač, který se účastní sítě Bitcoin tím, že na ně
 
 
 
-- Úložiště Blockchain**: Udržuje úplnou a aktuální kopii Blockchain Bitcoin
-- Ověřování transakcí**: ověřuje každou transakci a blok podle pravidel protokolu
-- Šíření informací**: Sdílí nové transakce a bloky s ostatními uzly
-- Budování konsensu**: Přispívá k uplatňování pravidel sítě
+- **Úložiště Blockchain**: Udržuje úplnou a aktuální kopii Blockchain Bitcoin
+- **Ověřování transakcí**: ověřuje každou transakci a blok podle pravidel protokolu
+- **Šíření informací**: Sdílí nové transakce a bloky s ostatními uzly
+- **Budování konsensu**: Přispívá k uplatňování pravidel sítě
 
 
 
@@ -34,11 +34,11 @@ Provozování vlastního uzlu Bitcoin je zásadním krokem k finanční nezávis
 
 
 
-- Důvěrnost**: Sdílejte své transakce, aniž byste své údaje prozradili třetím stranám
-- Odpor proti cenzuře**: Nikdo vám nemůže zabránit v používání Bitcoin
-- Nezávislé ověření**: Při ověřování vašich transakcí není třeba důvěřovat cizím uzlům
-- Vytváření konsensu**: Přispívejte k uplatňování pravidel sítě Bitcoin
-- Síťová podpora**: Staňte se aktivním účastníkem distribuce a decentralizace sítě
+- **Důvěrnost**: Sdílejte své transakce, aniž byste své údaje prozradili třetím stranám
+- **Odpor proti cenzuře**: Nikdo vám nemůže zabránit v používání Bitcoin
+- **Nezávislé ověření**: Při ověřování vašich transakcí není třeba důvěřovat cizím uzlům
+- **Vytváření konsensu**: Přispívejte k uplatňování pravidel sítě Bitcoin
+- **Síťová podpora**: Staňte se aktivním účastníkem distribuce a decentralizace sítě
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS je svobodná verze operačního systému Umbrel s otevřeným zdrojový
 
 
 
-**Omezení
+**Omezení**
 
 
 
@@ -268,7 +268,7 @@ Pro tuto instalaci budete potřebovat :
 
 
 
-**Instalace karty microSD
+**Instalace karty microSD**
 
 
 
@@ -295,7 +295,7 @@ Pro tuto instalaci budete potřebovat :
 
 
 
-**Zapnutí napájení
+**Zapnutí napájení**
 
 
 
@@ -365,7 +365,7 @@ Jakmile je aplikace Umbrel spuštěna a přístupná prostřednictvím prohlíž
 
 
 
-**Potvrzení účtu
+**Potvrzení účtu**
 
 
 
@@ -581,7 +581,7 @@ Pomocí této aplikace můžete efektivně sledovat své transakce, pochopit, ja
 
 
 
-**Místní připojení
+**Místní připojení**
 
 
 
@@ -613,7 +613,7 @@ Pomocí této aplikace můžete efektivně sledovat své transakce, pochopit, ja
 
 
 
-**Přístup k parametrům
+**Přístup k parametrům**
 
 
 
@@ -628,7 +628,7 @@ Pomocí této aplikace můžete efektivně sledovat své transakce, pochopit, ja
 
 
 
-**Výběr typu připojení
+**Výběr typu připojení**
 
 
 
@@ -678,7 +678,7 @@ V obou případech ponechte možnosti "Použít SSL" a "Použít proxy" nezaškr
 
 
 
-**Místní připojení
+**Místní připojení**
 
 
 Hostitel: umbrel.local

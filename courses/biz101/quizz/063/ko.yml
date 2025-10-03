@@ -1,0 +1,9 @@
+question: Bitcoin 결제를 위한 Essential 프로필의 사용법을 가장 잘 보여주는 시나리오는 무엇인가요?
+answer: 한 달에 몇 개의 Bitcoin 결제를 받는 레스토랑
+wrong_answers:
+  - 매일 수천 건의 트랜잭션을 처리하는 다국적 기업
+  - 비트코인으로 인보이스 결제를 받는 독립 프리랜서
+  - 고주파 Bitcoin 트레이딩 데스크
+explanation: |
+  Essential 프로필은 레스토랑과 같이 Bitcoin 거래가 제한된 중소기업을 대상으로 합니다.
+reviewed: true

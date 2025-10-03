@@ -1,0 +1,9 @@
+question: Welk typisch CIDR-bereik vertegenwoordigt de grootte van een IPv4-blok dat door IANA aan een RIR is toegewezen?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA verdeelt de IPv4-ruimte in blokken van grootte /8, die elk 2^24 adressen bevatten.
+reviewed: false

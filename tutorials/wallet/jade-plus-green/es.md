@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Verde
+name: Jade Plus - Green
 description: Configura fácilmente Jade Plus con Green
 ---
 ![cover](assets/cover.webp)
@@ -101,7 +101,7 @@ Haz clic en el botón "*Continuar*" para mostrar tu nueva frase de recuperación
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Tu Jade Plus muestra tu frase mnemotécnica de 12 palabras. **Esta frase mnemotécnica te da acceso total y sin restricciones a todos tus bitcoins. Cualquiera que posea esta frase puede robar tus fondos, incluso sin tener acceso físico a tu Jade Plus. La frase de 12 palabras restablece el acceso a tus bitcoins en caso de pérdida, robo o rotura de tu Jade. Por lo tanto, es muy importante guardarla con cuidado y almacenarla en un lugar seguro.
+Tu Jade Plus muestra tu frase mnemotécnica de 12 palabras. **Esta frase mnemotécnica te da acceso total y sin restricciones a todos tus bitcoins. Cualquiera que posea esta frase puede robar tus fondos, incluso sin tener acceso físico a tu Jade Plus. La frase de 12 palabras restablece el acceso a tus bitcoins en caso de pérdida, robo o rotura de tu Jade. Por lo tanto, es muy importante guardarla con cuidado y almacenarla en un lugar seguro.**
 
 Puede escribirlo en el cartón suministrado en la caja o, para mayor seguridad, le recomiendo grabarlo en una base de acero inoxidable para protegerlo de incendios, inundaciones o derrumbes.
 
@@ -111,7 +111,7 @@ Para más información sobre la forma correcta de guardar y gestionar tu frase m
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Obviamente, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se borrará al final del tutorial
+**Obviamente, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se borrará al final del tutorial**
 
 Haz clic en la flecha de la derecha de la pantalla para que aparezcan las siguientes palabras.
 
@@ -129,7 +129,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 Para obtener instrucciones sobre la instalación y configuración de la aplicación Blockstream Green, consulte la primera parte de este otro tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Una vez en la aplicación Blockstream Green, haz clic en el botón "*Configurar una nueva cartera*".
 
@@ -300,3 +300,5 @@ Enhorabuena, ahora ya sabes cómo configurar y utilizar el Jade Plus con la apli
 Para ir un paso más allá, te recomiendo este tutorial sobre el Jade Plus, donde lo configuramos con el software Sparrow Wallet en modo QR. También aprenderás a utilizar la configuración avanzada de tu hardware wallet:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

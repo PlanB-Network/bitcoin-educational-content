@@ -1,5 +1,5 @@
 ---
-name: seed undertecknare
+name: SeedSigner
 
 description: Uppsättning av din seed-signatur
 ---
@@ -30,7 +30,7 @@ Om du inte är så bra på att löda, eller om du helt enkelt inte har någon l�
 WaveShare LCD Hat 1,3″ 240×240 pxl LCD
 
 
-**Välj Waveshare-skärmen noggrant; se till att köpa den modell som har en upplösning på 240×240 pixlar.
+**Välj Waveshare-skärmen noggrant; se till att köpa den modell som har en upplösning på 240×240 pixlar.**
 
 
 **Kameramodul kompatibel med Pi Zero**
@@ -39,7 +39,7 @@ WaveShare LCD Hat 1,3″ 240×240 pxl LCD
 Raspberry Pi Camera Aokin/AuviPal 5MP 1080p med OV5647 Sensor Video Camera Module; andra märken med OV5647 sensormodul bör också fungera, men kanske inte är kompatibla med Orange Pill-kapslingen.
 
 
-**Du måste ha en bandkabel för kameran som är särskilt kompatibel med Raspberry Pi Zero.
+**Du måste ha en bandkabel för kameran som är särskilt kompatibel med Raspberry Pi Zero.**
 
 
 **MicroSD-kort med minst 4 GB kapacitet**

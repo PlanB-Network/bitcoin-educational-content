@@ -1,5 +1,5 @@
 ---
-name: Sygnał
+name: Signal
 description: Swobodne wyrażanie siebie
 ---
 ![cover](assets/cover.webp)
@@ -269,7 +269,7 @@ Gratulacje, jesteś teraz na bieżąco z korzystaniem z komunikatora Signal, św
 
 
 
-Polecam również ten samouczek, w którym przedstawiam Proton Mail, znacznie bardziej przyjazną dla prywatności alternatywę dla Gmaila :
+Polecam również ten samouczek, w którym przedstawiam Proton Mail, znacznie bardziej przyjazną dla prywatności alternatywę dla Gmaila:
 
 
 

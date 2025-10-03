@@ -1,0 +1,14 @@
+question: Multisig Wallet kullanmanın riski nedir?
+answer: Yeterli sayıda bireysel özel anahtara veya yedek bileşene erişimin olmaması.
+wrong_answers:
+  - Yeterli sayıda bireysel özel anahtara veya yedek bileşene erişime sahip olmak.
+  - Özel anahtarlarınızı diğer taraflarla paylaşma.
+  - Açık anahtarlarınızı diğer taraflarla paylaşma.
+explanation: |
+  Bir Multisig Wallet kullandığınızda, her bir özel anahtar
+  Multisig farklı yerlerde depolanmalıdır. Bu
+  çünkü Multisig'nin taşınması için birden fazla imza gerekmektedir
+  bir işlem gerçekleştirir, bu nedenle belirli sayıda cüzdan
+  ihtiyaç duyulmaktadır. Böylece, her bir parçanın farklı bir yerde depolanması
+  ekstra bir Layer güvenlik ekler.
+reviewed: true

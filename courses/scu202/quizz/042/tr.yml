@@ -1,0 +1,9 @@
+question: İnternetten indirilen yazılımların bütünlüğünü ve gerçekliğini neden her zaman kontrol etmelisiniz?
+answer: Kötü amaçlı yazılım yüklemekten kaçınmak için
+wrong_answers:
+  - Sistem performansını artırmak için
+  - Bant genişliğinden tasarruf etmek için
+  - Kurulumu hızlandırmak için
+explanation: |
+  Bütünlüğün ve gerçekliğin doğrulanması, bozuk, virüslü veya meşru olmayan yazılımların yüklenmesini önlemeye yardımcı olur.
+reviewed: false

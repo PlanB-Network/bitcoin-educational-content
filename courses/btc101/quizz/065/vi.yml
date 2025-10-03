@@ -1,12 +1,9 @@
-question: Nguyên tắc kinh tế nào mà Bitcoin tuân theo?
-answer: Nguyên tắc của kinh tế học Áo.
+question: Ba chức năng chính của ví Bitcoin là gì?
+answer: Nhận Bitcoin, gửi Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
 wrong_answers:
-  - Nguyên tắc của kinh tế học Keynes.
-  - Nguyên tắc của kinh tế học Marx.
-  - Nguyên tắc của kinh tế học Tân cổ điển.
+  - Lưu trữ Bitcoin, gửi Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
+  - Cho phép nhận Bitcoin, lưu trữ Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
+  - Cho phép nhận Bitcoin, cho phép gửi Bitcoin, bán Bitcoin.
 explanation: |
-  Bitcoin tuân theo nguyên tắc của kinh tế học Áo.
-  Số lượng bị giới hạn và thiếu vắng một thực thể trung ương bảo vệ nó
-  khỏi những rủi ro về lạm phát mà thường thấy trong
-  các đồng tiền truyền thống.
+  Ví Bitcoin được sử dụng để tương tác với mạng Bitcoin. Ba chức năng chính của nó là cho phép nhận Bitcoin, cho phép gửi Bitcoin và bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
 reviewed: true

@@ -1,11 +1,11 @@
 question: Ni nini ufafanuzi wa mfumuko wa bei kulingana na Bernholz?
 answer: Mfumuko wa bei ni upanuzi wa mfumuko wa bei wa juu, unaojulikana na nakisi kubwa ya bajeti inayofadhiliwa na kuunda pesa.
 wrong_answers:
-  - Mfumuko wa bei ni kupungua kwa pesa Supply.
-  - Mfumuko wa bei ni ongezeko la wastani la fedha Supply.
+  - Mfumuko wa bei ni kupungua kwa Supply ya pesa.
+  - Mfumuko wa bei ni ongezeko la wastani la Supply ya fedha.
   - Mfumuko wa bei ni kupungua kwa uzalishaji.
 explanation: |
   Sura hiyo inaeleza kuwa kulingana na Bernholz, mfumuko wa bei ni
   upanuzi wa mfumuko wa bei wa juu, unaoonyeshwa na nakisi kubwa ya bajeti inayofadhiliwa na
   kutengeneza pesa.
-reviewed: false
+reviewed: true

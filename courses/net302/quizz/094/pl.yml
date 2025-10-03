@@ -1,0 +1,9 @@
+question: Którego polecenia można użyć do zapytania serwera DNS w celu uzyskania adresu IP Address domeny?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup jest narzędziem zapytań DNS do rozpoznawania nazw domen na adresy IP.
+reviewed: false

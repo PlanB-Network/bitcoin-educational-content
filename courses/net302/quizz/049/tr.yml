@@ -1,0 +1,9 @@
+question: Yerel bir ağda MAC Address'ın ana işlevi nedir?
+answer: Bir ağı benzersiz şekilde tanımlama Interface
+wrong_answers:
+  - Bir alan adını IP Address'ye çevirme
+  - Bir ana bilgisayara dinamik olarak IP Address atama
+  - İnternet bağlantınızın hızını belirleyin
+explanation: |
+  MAC Address, her bir ağ Interface için benzersiz bir donanım tanımlayıcısı görevi görerek cihazların yerel bir ağ üzerinde fiziksel olarak ayırt edilmesini sağlar.
+reviewed: false

@@ -1,10 +1,8 @@
-question: Šta je jedna od stvari koju treba da imate pre nego što kupite Bitkoin?
-answer: Siguran novčanik.
+question: Koji je jedan od razloga zašto bi trebalo s vremena na vreme konsolidovati svoje UTXO-ove u svojim novčanicima?
+answer: Da biste izbegli nepotrebne naknade tokom transakcija.
 wrong_answers:
-  - Fizički sef.
-  - Bankovni račun.
-  - Kreditnu karticu.
-explanation: |
-  Tekst kursa pominje da pre kupovine Bitkoina,
-  treba da imate siguran novačnik gde ćete čuvati svoje ključeve.
+  - Da povećate vrednost svojih bitkoina.
+  - Da sprečite krađu vaših bitkoina.
+  - Da biste osigurali da su vaši bitkoini uvek dostupni.
+explanation: >-
 reviewed: true

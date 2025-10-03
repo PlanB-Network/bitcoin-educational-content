@@ -1,0 +1,9 @@
+question: 하위 키 파생에서 chain code의 주요 역할은 무엇인가요?
+answer: 엔트로피의 추가 소스를 소개합니다
+wrong_answers:
+  - 계층적 깊이 식별
+  - 하위 키의 인덱스 저장
+  - Bitcoin 프로토콜과의 호환성 보장
+explanation: |
+  chain code는 파생된 각 키에 고유한 추가 엔트로피 소스를 도입하는 데 사용됩니다.
+reviewed: false

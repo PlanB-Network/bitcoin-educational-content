@@ -1,0 +1,9 @@
+question: Bir işletme neden müşterilerden Bitcoin ödemelerini kabul etmeyi seçebilir?
+answer: Büyüyen bir kullanıcı tabanından yararlanmak, işlem ücretlerini potansiyel olarak düşürmek ve hazinesinde değerli bir varlık bulundurmak.
+wrong_answers:
+  - Tüm müşterilerin listelenen fiyattan daha fazlasını ödeyeceğini garanti etmek.
+  - Hiçbir vergi veya düzenleyici gerekliliğin uygulanmamasını sağlamak için.
+  - Ödeme sürecini daha yavaş ve karmaşık hale getirmek için.
+explanation: |
+  Bitcoin'i kabul etmek yeni bir alıcı demografisini çekebilir, ödeme işlem ücretlerini azaltabilir ve bir değer deposu oluşturabilir. Bitcoin sınır tanımadığı ve günün her saati çalıştığı için küresel erişimi de artırabilir.
+reviewed: false

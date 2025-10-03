@@ -1,0 +1,9 @@
+question: Jaka jest długość, w bitach, standardowego Address IPv4?
+answer: 32-bitowy
+wrong_answers:
+  - 8 bitów
+  - 128-bitowy
+  - 16 bitów
+explanation: |
+  Address IPv4 jest zakodowany na 32 bitach, podzielonych na cztery bajty po 8 bitów każdy.
+reviewed: false

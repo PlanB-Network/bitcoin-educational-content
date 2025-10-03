@@ -1,9 +1,11 @@
-question: Jaka jest pierwsza faza zjawiska hiperinflacji?
-answer: Utrata zaufania do waluty.
+question: Jaka była stopa inflacji na Węgrzech w lipcu 1946 r.?
+answer: 41,900,000,000,000,000%
 wrong_answers:
-  - Upadek waluty i wzrost cen.
-  - Błędne koło drukowania pieniędzy.
-  - Pojawia się nowa waluta.
+  - 207%
+  - 50%
+  - 100%
 explanation: |
-  Pierwszą fazą hiperinflacji jest utrata zaufania do waluty.
+  Miesiącem o najwyższej inflacji na Węgrzech był lipiec
+  1946, z rekordową inflacją cen wynoszącą
+  41,900,000,000,000,000%.
 reviewed: true

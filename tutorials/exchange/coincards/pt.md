@@ -1,5 +1,5 @@
 ---
-name: Cartões de moedas
+name: Coincards
 description: Como é que posso comprar bens e serviços em BTC com Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Como é que posso comprar bens e serviços em BTC com Coincards?
 
 > Bitcoin: Um sistema de dinheiro eletrónico ponto-a-ponto
 
-É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. *a *Coincards** está aqui para tentar resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
+É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. A **Coincards** está aqui para tentar resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
 
 
 
@@ -67,7 +67,7 @@ Esta é uma oportunidade para lembrar a todos aqueles que gostariam de pagar os 
 
 
 
-Uma seleção de tutoriais sobre as principais carteiras Lightning (Phoenix, Breez, BitKit, Zeus...) pode ser encontrada aqui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Uma seleção de tutoriais sobre as principais carteiras Lightning (Phoenix, Breez, BitKit, Zeus...) pode ser encontrada aqui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

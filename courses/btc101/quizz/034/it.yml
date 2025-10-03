@@ -1,9 +1,9 @@
-question: Qual è il principale vantaggio dell'oro come valuta?
-answer: Resiste in maniera incredibile all'azione del tempo.
+question: Qual è la conseguenza della stampa di moneta?
+answer: Porta all'inflazione, impoverendo gradualmente la popolazione.
 wrong_answers:
-  - È facilmente divisibile o trasportabile su lunghe distanze.
-  - È facilmente verificabile.
-  - Non è regolato dal governo.
+  - Porta alla deflazione, arricchendo gradualmente la popolazione.
+  - Porta a un'economia stabile senza inflazione o deflazione.
+  - Porta a una diminuzione dell'offerta di denaro.
 explanation: |
-  Sebbene non sia facilmente divisibile o trasportabile su lunghe distanze, l'oro è un materiale molto resistente, il che lo rende una buona riserva di valore. Le monete d'oro sono state utilizzate come valuta in passato, ma non riuscirebbero a svolgere la stessa funzione nell'era digitale di oggi.
+  La stampa di moneta, o la creazione di nuova moneta da parte delle banche centrali, porta all'inflazione. Questo perché l'aumento dell'offerta di denaro riduce il potere d'acquisto della moneta, portando a prezzi più alti e a una diminuzione del valore dei risparmi.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Quelle est la fonction du paramètre assumevalid dans Bitcoin Core ?
+answer: Ignorer la vérification des scripts avant un bloc de référence
+wrong_answers:
+  - Ignorer la vérification des preuves de travail avant un bloc de référence
+  - Ignorer la vérification des en-têtes avant un bloc de référence
+  - Forcer l’utilisation de Tor pour la découverte des pairs
+explanation: |
+  Assumevalid permet d’accélérer l’IBD en ignorant la vérification des scripts avant un bloc connu, tout en conservant toutes les autres validations.
+reviewed: false

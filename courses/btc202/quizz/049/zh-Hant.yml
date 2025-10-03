@@ -1,0 +1,9 @@
+question: 在 Bitcoin core 中，dbcache 參數的預設值是多少？
+answer: 450 MB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  預設情況下，Bitcoin core 會分配 450 MiB (472 MB) 到快取記憶體。
+reviewed: true

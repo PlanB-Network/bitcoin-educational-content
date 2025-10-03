@@ -1,0 +1,9 @@
+question: SegWit v1 (P2TR) adreslerinin SegWit v0 adreslerine kıyasla benzersiz özelliği nedir?
+answer: Doğrudan Address'deki ham açık anahtarı kullanırlar.
+wrong_answers:
+  - Bunlar base58check ile kodlanmıştır.
+  - Geçerli olabilmeleri için iki imza gerekmektedir.
+  - Address'te Hash açık anahtarını kullanırlar.
+explanation: |
+  SegWit v1 (P2TR) adresleri ortak anahtarın Hash'sini değil, doğrudan Taproot ortak anahtarını kullanır.
+reviewed: false

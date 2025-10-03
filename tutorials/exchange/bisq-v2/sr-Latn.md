@@ -472,11 +472,11 @@ Da biste poboljšali svoju reputaciju na Bisq-u kao prodavac, redovno obavljajte
 
 
 
-- Maksimalna poverljivost**: Nema KYC, korišćenje Tor-a
-- Decentralizacija**: Nema centralnog servera
-- Sigurnost**: Otvoreni kod, nekustodijalni kod
-- Intuitivni Interface**: jednostavniji od Bisq 1
-- Fleksibilnost**: Više Exchange protokola
+- **Maksimalna poverljivost**: Nema KYC, korišćenje Tor-a
+- **Decentralizacija**: Nema centralnog servera
+- **Sigurnost**: Otvoreni kod, nekustodijalni kod
+- **Intuitivni Interface**: jednostavniji od Bisq 1
+- **Fleksibilnost**: Više Exchange protokola
 
 
 ### Bisq 2 nedostaci
@@ -484,12 +484,12 @@ Da biste poboljšali svoju reputaciju na Bisq-u kao prodavac, redovno obavljajte
 
 
 
-- Ograničena likvidnost** (za sada) :
+- **Ograničena likvidnost** (za sada) :
  - Novi protokol u fazi pokretanja
  - Nekoliko prodajnih ponuda dostupno
  - Potencijalno dugo čekanje na pronalaženje kupca
-- Ograničenja trgovanja**: Maksimalno 600 USD po transakciji (sa Bisq easy)
-- Samo za desktop**: Nema mobilne aplikacije
+- **Ograničenja trgovanja**: Maksimalno 600 USD po transakciji (sa Bisq easy)
+- **Samo za desktop**: Nema mobilne aplikacije
 
 
 ## Budući Protokoli
@@ -500,16 +500,16 @@ Iako je Bisq Easy trenutno jedini dostupni protokol, nekoliko drugih protokola j
 
 
 
-- Bisq Lightning**: Exchange protokol zasnovan na escrow sistemu koristeći kriptografiju višestranačke računarske obrade na Lightning Network.
-- Bisq MuSig**: Migracija glavnog protokola sa Bisq 1 na Bisq 2, koristeći 2-na-2 Multisig sa sigurnosnim depozitima.
-- BSQ Swaps**: Instantni atomski svopovi između BSQ i BTC.
-- Liquid Swaps**: Exchange od sredstava na Liquid Network (USDT, BTC-L) putem atomskih zamena.
-- Monero Swaps**: Atomske razmene između Bitcoin i Monera.
-- Liquid MuSig**: Verzija Multisig protokola koja koristi L-BTC za niže troškove i veću poverljivost.
-- Zamene podmornica**: Razmene između Bitcoin na Lightning Network i Bitcoin On-Chain.
-- Stablecoin Swaps**: Atomske razmene između Bitcoin i USD stablecoina.
-- Multisig Opcije**: Kreiranje P2P put i call opcija sa BTC blokiranjem u On-Chain Multisig transakciji.
-- Multisig Open Contracts**: Omogućava kreiranje prilagođenih uslovnih ugovora koristeći 2-na-3 Multisig sistem sa arbitražom.
+- **Bisq Lightning**: Exchange protokol zasnovan na escrow sistemu koristeći kriptografiju višestranačke računarske obrade na Lightning Network.
+- **Bisq MuSig**: Migracija glavnog protokola sa Bisq 1 na Bisq 2, koristeći 2-na-2 Multisig sa sigurnosnim depozitima.
+- **BSQ Swaps**: Instantni atomski svopovi između BSQ i BTC.
+- **Liquid Swaps**: Exchange od sredstava na Liquid Network (USDT, BTC-L) putem atomskih zamena.
+- **Monero Swaps**: Atomske razmene između Bitcoin i Monera.
+- **Liquid MuSig**: Verzija Multisig protokola koja koristi L-BTC za niže troškove i veću poverljivost.
+- **Zamene podmornica**: Razmene između Bitcoin na Lightning Network i Bitcoin On-Chain.
+- **Stablecoin Swaps**: Atomske razmene između Bitcoin i USD stablecoina.
+- **Multisig Opcije**: Kreiranje P2P put i call opcija sa BTC blokiranjem u On-Chain Multisig transakciji.
+- **Multisig Open Contracts**: Omogućava kreiranje prilagođenih uslovnih ugovora koristeći 2-na-3 Multisig sistem sa arbitražom.
 
 
 Ovi protokoli su trenutno u fazi razvoja i biće postepeno integrisani u Bisq 2, nudeći veću fleksibilnost korisnicima u skladu sa njihovim specifičnim potrebama.

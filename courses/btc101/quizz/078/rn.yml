@@ -1,0 +1,13 @@
+question: Hot Wallet ni iki?
+answer: Bitcoin Wallet iri kuri telefone yawe canke kuri mudasobwa yawe ihuye na internet.
+wrong_answers:
+  - Wallet ariyo Hot ku mubiri yo gukorako.
+  - Wallet izwi cane mu bakoresha Bitcoin.
+  - Wallet igenewe kubika amafaranga menshi cane.
+explanation: |
+  Hot Wallet ni ijambo rikoreshwa mu kudondora Bitcoin Wallet .
+  iyo ibitswe ku gikoresho gifise interineti, nk’akarorero .
+  telefone canke mudasobwa. Muri ubwo buryo, biroroshe gushitsa
+  amafaranga, ariko kandi bisigura ko Wallet ari .
+  bishobora gushikirwa n’iterabwoba ryo kuri Internet.
+reviewed: true

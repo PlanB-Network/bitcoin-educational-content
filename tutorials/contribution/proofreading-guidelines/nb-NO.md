@@ -234,8 +234,6 @@ Sørg for å sjekke den opprinnelige språkfilen (ofte EN eller FR) for å se hv
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Korrekturlesing av quiz
 
 
@@ -245,11 +243,20 @@ Visste du at du også kan korrekturlese quizspørsmålene i hvert emne? Hvis du 
 Igjen, sørg for at du er i en egen filial som du åpner spesielt for dette formålet, og informer alltid koordinatoren.
 
 
-Når du har gjennomgått spørsmålet, må du sørge for å endre statusen "gjennomgått" fra "false" til "true", som vist i bildet nedenfor.
-
+En viktig ting å huske på når du korrekturleser denne typen _yml_-filer, er å unngå å legge til kolon ``:`` inne i teksten. Faktisk brukes kolon **kun** til å skille nøkkelverdipar som "wrong_answers" fra resten. Du kan se et eksempel på dette i bildet nedenfor:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Når du har gjennomgått spørsmålet, må du sørge for å endre statusen "gjennomgått" fra "false" til "true", som vist i bildet nedenfor. Sørg for at disse statusordene er på engelsk, uansett hvilket språk du jobber med!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Hvis statuslinjen "reviewed:true" mangler, må du sørge for å **legge den til på slutten av prøven**.
 
 
 ## Korrekturlesing av ordlister
@@ -258,7 +265,35 @@ Når du har gjennomgått spørsmålet, må du sørge for å endre statusen "gjen
 På samme måte som med quizene, kan du også korrekturlese ordlisten. Den opprinnelige ordlisten er skrevet på fransk, så du vil finne setninger som f.eks: "På fransk kan dette uttrykket oversettes til..."
 
 
-I tilfeller som dette bør du tilpasse denne setningen til målspråket ditt, eller til engelsk.
+I slike tilfeller bør du tilpasse setningen til målspråket eller til engelsk. Du kan for eksempel skrive "På engelsk brukes uttrykket ...".
+
+Hvis tittelen står på engelsk, kan du tilpasse setningen til ditt eget språk: "På swahili er dette uttrykket..."
+
+
+Sørg også for å skrive titler med STORE BOKSTAVER.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Tittel og beskrivelse av PR-en din
+
+
+Når du sender PR-en din, er det fint om du navngir den i dette formatet: [KORREKTURLESING] INNHOLDSNAVN - SPRÅK:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+I **kommentardelen av PR-en** kan du dessuten skrive "lukkes" + nummeret på saken som koordinatoren sendte deg da du startet korrekturlesingen, etterfulgt av ``#``.
+
+Hvis du for eksempel nettopp har sendt en PR med korrekturlesing av cyp201 + spørrekonkurranser, kan du skrive "stenger [#2934] (https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+På denne måten blir PR-en og saken koblet sammen, og den som leser det offentlige Github-arkivet, kan enkelt finne informasjon.
+
 
 
 ## Annen beste praksis
@@ -269,11 +304,11 @@ I tilfeller som dette bør du tilpasse denne setningen til målspråket ditt, el
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Når du bruker "erstatt alt"-funksjonen, er det viktig å dobbeltsjekke resultatet for å sikre at lenker ikke også er endret. Hvis du for eksempel vil endre ordet "Bitcoin" til "Bitkoin" (noe som kan være nødvendig på enkelte språk), kan du bruke "erstatt alle"-funksjonen til å oppdatere alle forekomster i teksten. Vær imidlertid oppmerksom på at dette verktøyet også vil endre alle lenker som inneholder ordet, noe som kan føre til omdirigeringsproblemer.
+Når du bruker "erstatt alt"-funksjonen, er det viktig å dobbeltsjekke resultatet for å sikre at ikke også lenkene er endret. Hvis du for eksempel vil endre ordet "Bitcoin" til "Bitkoin" (noe som kan være nødvendig på enkelte språk), kan du bruke "erstatt alle"-funksjonen til å oppdatere alle forekomster i teksten. Vær imidlertid oppmerksom på at dette verktøyet også vil endre alle lenker som inneholder ordet, noe som kan føre til omdirigeringsproblemer.
 
 
 I eksempelet nedenfor har korrekturleseren brukt funksjonen ovenfor til å erstatte "Satoshi" med "Satoshi(Sats)", og har også endret lenken til en veiledning som inneholder selve ordet. Som en konsekvens ble lenken ugyldig.
@@ -283,23 +318,35 @@ Dobbeltsjekk alltid alle hyperkoblinger i teksten for å sikre at de er korrekte
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Hvis forfatteren legger inn en lenke som henviser til et Plan ₿ Network-kurs eller en veiledning (**ikke** innenfor parentes), vil nettstedet automatisk opprette et "kort" som viser det relaterte miniatyrbildet. Sørg derfor alltid for at du **har et mellomrom mellom teksten og selve lenken**, ellers kan du se følgende feil på nettstedet.
+- Hvis forfatteren legger inn en lenke som henviser til et Plan ₿ Network-kurs eller en veiledning (**ikke** innenfor parentes), vil nettstedet automatisk opprette et "kort" som viser det relaterte miniatyrbildet. Sørg derfor alltid for at du **legger til en ny linje mellom teksten og selve lenken**, ellers kan du få følgende feilmelding på nettstedet.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Det samme skjer med "bildekoder" som denne ``[IMAGE](asset/fr/001.webp)``: Pass på at du alltid legger til en ny linje mellom bildekoden og teksten. Et eksempel nedenfor:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- En annen god fremgangsmåte du kan bruke når du er ferdig med korrekturlesingen og sender PR-en, er å gå tilbake til den opprinnelige saken som ble åpnet av koordinatoren, og kommentere med "Korrekturlesing utført". **Husk også å legge inn lenken til PR-en din der**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Konklusjon
@@ -309,6 +356,9 @@ For å oppsummere kan det å være oppmerksom på de vanligste korrekturleserfei
 
 
 Husk alltid at nybegynnere kan lese disse kursene og veiledningene, så det er vårt ansvar å sørge for at de forstår dem fullt ut. Som korrekturleser er du en pedagog!
+
+
+Nå er du klar til å begynne å korrekturlese kurs, opplæringsprogrammer, spørrekonkurranser og ordlister. Følg med for å også begynne å sjekke bilder og videotranskripsjoner ;)
 
 
 Takk for at du har lest denne veiledningen, og god fornøyelse med korrekturlesingen!

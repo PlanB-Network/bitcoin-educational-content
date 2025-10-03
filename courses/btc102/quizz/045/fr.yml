@@ -6,4 +6,4 @@ wrong_answers:
   - Pour optimiser la confidentialité des UTXOs
 explanation: |
   Le transfert vers un hardware wallet sécurise les fonds en stockant les clés privées hors ligne.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,9 @@
+question: Millist andmebaasi peab Bitcoin-sõlm kohapeal, et jälgida kulutamata toodangut?
+answer: UTXO komplekt
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallet ajalugu
+explanation: |
+  Sõlm säilitab UTXO komplekti, mis on tulevaste tehingute jaoks kättesaadavate kulutamata väljundite kogum.
+reviewed: true

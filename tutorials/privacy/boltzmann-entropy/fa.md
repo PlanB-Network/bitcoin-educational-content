@@ -1,5 +1,5 @@
 ---
-name: ماشین‌حساب بولتزمن
+name: Boltzmann Calculator
 description: مفهوم آنتروپی را درک کنید و نحوه استفاده از بولتزمن را بیاموزید.
 ---
 ![cover](assets/cover.webp)

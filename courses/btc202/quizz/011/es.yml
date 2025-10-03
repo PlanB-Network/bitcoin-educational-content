@@ -1,0 +1,9 @@
+question: ¿Por qué una Miner necesita un nodo Bitcoin?
+answer: Para interactuar con la red y distribuir tus bloques
+wrong_answers:
+  - A las firmas digitales generate
+  - Para introducir su Address de entrega en el Coinbase Transaction
+  - Para reducir la dificultad de Mining
+explanation: |
+  Los mineros utilizan un nodo para comunicarse con la red, transmitir sus bloques y recibir transacciones.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Mikä on yksi tekijä, joka tekee Bitcoinin sääntelystä vaikeaa rahoitusviranomaisille?
-answer: Se toimii globaalilla tasolla, 24 tuntia vuorokaudessa, 7 päivää viikossa.
+question: Mikä on yksi etu hyväksyä Bitcoin kauppiaana?
+answer: Sensuurin vastustuskyky.
 wrong_answers:
-  - Sitä kontrolloi keskitetty auktoriteetti.
-  - Sitä ei käytetä missään päin maailmaa.
-  - Sitä on helppo väärentää.
+  - Lisääntyneet transaktiomaksut.
+  - Suoja deflaatiota vastaan.
+  - Rahoituksellinen rajoitus.
 explanation: >-
-  Bitcoin-protokolla on ainutlaatuinen, sillä se toimii globaalilla tasolla, 24 tuntia vuorokaudessa, 7 päivää viikossa, mikä tekee sääntelystä vaikeaa rahoitusviranomaisille.
+  Bitcoinin hyväksymisellä kauppiaana on useita etuja, mukaan lukien sensuurin vastustuskyky,
+  pienemmät transaktiomaksut, lisääntynyt tehokkuus, suoja inflaatiota vastaan,
+  sekä taloudellinen vapaus ja suvereniteetti.
 reviewed: true

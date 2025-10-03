@@ -1,13 +1,10 @@
-question: What is the main issue of the current financial system in relation to the environment?
-answer: It encourages over-consumption and debt.
+question: What are the typical costs for a miner?
+answer: Electricity consumption and hardware purchase.
 wrong_answers:
-  - It promotes the use of fossil fuels.
-  - It does not invest in renewable energy.
-  - It does not regulate the production of goods.
-explanation: |
-  The current financial system is criticized for encouraging
-  over-consumption and debt, which poses serious
-  environmental problems. This is due to easy access to
-  credit, monetary issuance by banks, and the use of
-  fractional reserve banking.
-reviewed: true
+  - Only hardware purchase.
+  - Transaction fees. 
+  - Electricity consumption and transaction fees.
+explanation: >-
+  Mining Bitcoin requires substantial computational power, which in turn consumes electricity. 
+  Besides, miners need to invest in specialized hardware to effectively mine it.
+reviewed: false

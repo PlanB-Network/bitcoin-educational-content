@@ -1,0 +1,9 @@
+question: Que registo é obrigatório em todos os ficheiros de zona DNS?
+answer: SOA (Início da Autoridade)
+wrong_answers:
+  - PTR (ponteiro)
+  - AAAA (IPv6 Address)
+  - SRV (Localizador de Serviços)
+explanation: |
+  O registo SOA define a autoridade da zona e é necessário em todos os ficheiros de zona DNS.
+reviewed: false

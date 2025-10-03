@@ -1,5 +1,5 @@
 ---
-name: 奥尔维德
+name: Olvid
 description: 为每个人提供私人信息
 ---
 ![cover](assets/cover.webp)

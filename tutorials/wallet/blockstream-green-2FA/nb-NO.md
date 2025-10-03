@@ -26,7 +26,7 @@ Green er et spesielt brukervennlig program, noe som gjør det interessant for ny
 
 Blockstream Green støtter også Liquid-nettverket, en Bitcoin-sidekjede utviklet av Blockstream for raske, konfidensielle transaksjoner utenfor hovedblokkjeden. I denne veiledningen fokuserer vi utelukkende på Bitcoin, men jeg har også laget en annen veiledning for å lære hvordan du bruker Liquid på Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 multisig-alternativ (2FA)
 
@@ -46,7 +46,7 @@ En annen ulempe med denne sikkerhetsmetoden er at du må bruke minoritetsskriptm
 
 Hvis du foretrekker å ikke bruke 2FA-alternativet og bare ønsker å sette opp en "*singlesig*"-lommebok på Green, inviterer jeg deg til å lese denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installere og konfigurere Blockstream Green-programvaren
 
@@ -60,7 +60,7 @@ For Android-brukere kan du også installere applikasjonen via `.apk`-filen [tilg
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Start programmet, og kryss av i boksen "Jeg godtar vilkårene...*".
+Start programmet, og kryss av i boksen "Jeg godtar vilkårene...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -166,7 +166,7 @@ Legg til en ny kode i autentiseringsprogrammet ditt, og skann deretter QR-koden 
 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
-*Du må selvsagt aldri dele denne nøkkelen og QR-koden på Internett, slik jeg gjør i denne veiledningen. Denne eksempellommeboken vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen
+**Du må selvsagt aldri dele denne nøkkelen og QR-koden på Internett, slik jeg gjør i denne veiledningen. Denne eksempellommeboken vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen**
 
 Klikk på knappen "*Fortsett*".
 
@@ -270,4 +270,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-mobilapplikasjonen for å sette opp en Liquid-lommebok :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

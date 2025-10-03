@@ -13,7 +13,7 @@ Men applikationen innehåller också en "Embedded node".
 
 
 
-**Det är denna aspekt av applikationen som vi kommer att utforska i denna handledning. Detta gör att vem som helst kan ha sin egen blixtnod på mobilen, utan behov av en dedikerad server, på samma sätt som ACINQ erbjuder sin otroliga Wallet blixt Phoenix.
+**Det är denna aspekt av applikationen som vi kommer att utforska i denna handledning. Detta gör att vem som helst kan ha sin egen blixtnod på mobilen, utan behov av en dedikerad server, på samma sätt som ACINQ erbjuder sin otroliga Wallet blixt Phoenix.**
 
 
 
@@ -248,7 +248,7 @@ På nästa skärm ombeds du att öppna en kanal i samarbete med **"Olympus by Ze
 I den här handledningen väljer vi det här alternativet för enkelhetens skull, men det är fullt möjligt att öppna kanaler med vilken nod som helst i nätverket.
 
 
-Det är till och med möjligt att öppna flera kanaler i en enda transaktion genom att välja "OPEN ADDITIONAL CHANNEL". *Men vi kommer att titta på detta i en "avancerad" version av **Zeus Embedded**** handledning.
+Det är till och med möjligt att öppna flera kanaler i en enda transaktion genom att välja "OPEN ADDITIONAL CHANNEL". *Men vi kommer att titta på detta i en "avancerad" version av **Zeus Embedded** handledning.*
 
 
 
@@ -345,7 +345,7 @@ Med Zeus kan du sedan lägga till en nota för att denominera din betalning, ell
 
 
 
-Observera att till skillnad från en Wallet som [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), beräknas rutten med Zeus lokalt och delegeras inte till en tredje part (ACINQ i fallet med Phoenix). Så du är den enda som vet vem som är mottagare av betalningen. Vi förlorar lite effektivitet (betalningar tar lite längre tid att slutföra, men vi vinner mycket när det gäller integritet).
+Observera att till skillnad från en Wallet som [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), beräknas rutten med Zeus lokalt och delegeras inte till en tredje part (ACINQ i fallet med Phoenix). Så du är den enda som vet vem som är mottagare av betalningen. Vi förlorar lite effektivitet (betalningar tar lite längre tid att slutföra, men vi vinner mycket när det gäller integritet).
 
 
 

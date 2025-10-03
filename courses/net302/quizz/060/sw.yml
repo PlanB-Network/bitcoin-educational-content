@@ -1,0 +1,9 @@
+question: Je, kitanzi cha nyuma cha IPv6 Address, sawa na 127.0.0.1 katika IPv4 ni nini?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address ni kitanzi cha Address, kinachotumika kwa majaribio ya ndani ya mashine.
+reviewed: false

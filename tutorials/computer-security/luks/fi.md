@@ -30,7 +30,7 @@ USB-tikun salaaminen on hyvä tapa suojata arkaluonteiset tietosi. **Tässä opp
 
 
 
-Tämän ohjeen seuraamiseen tarvitset :
+Tämän ohjeen seuraamiseen tarvitset:
 
 
 
@@ -131,7 +131,7 @@ Poistamme nyt kaikki tiedot USB-tikulta. Toimenpide koostuu USB-tikkumme levytil
 
 
 
-**Varmista, että kohdistat oikeaan laitetiedostoon!
+**Varmista, että kohdistat oikeaan laitetiedostoon!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Tässä "`luksFormat`"-alakomento alustaa ja alustaa laitteen käyttämään LUKS-salausta. Sinua pyydetään vahvistamaan tämä toiminto kirjoittamalla `YES` suuraakkosin ja määrittele sitten *passphrase*. **Valitse vankka *passphrase* sen varmistamiseksi, että häviön sattuessa hyökkääjä ei voi löytää sitä brute-force-hyökkäyksillä.
+Tässä "`luksFormat`"-alakomento alustaa ja alustaa laitteen käyttämään LUKS-salausta. Sinua pyydetään vahvistamaan tämä toiminto kirjoittamalla `YES` suuraakkosin ja määrittele sitten *passphrase*. **Valitse vankka** *passphrase* **sen varmistamiseksi, että häviön sattuessa hyökkääjä ei voi löytää sitä brute-force-hyökkäyksillä.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Tässä "**usbkey1**" on nimi, jonka annan omassa kontekstissani osiolle. Voit valita haluamasi nimen. Sitten meidän on alustettava tämä LUKS-osion sisältämä osio, esimerkiksi tässä muodossa **ext4** :
+Tässä "**usbkey1**" on nimi, jonka annan omassa kontekstissani osiolle. Voit valita haluamasi nimen. Sitten meidän on alustettava tämä LUKS-osion sisältämä osio, esimerkiksi tässä muodossa **ext4**:
 
 
 
@@ -237,11 +237,11 @@ done
 
 
 
-**Tässä kohdepaikka** on määritelty "**/dev/mappe/usbkey1**"**, miksi?
+**Tässä kohdepaikka** on määritelty "**/dev/mappe/usbkey1**", miksi?
 
 
 
-"**/dev/mapper/usbkey1**" on "pikakuvake", jonka olemme antaneet USB-avaimellemme ("**/dev/mapper**" on yleinen Linuxin kartoitus). Se tarjoaa siis pääsyn purettuun osioon. Tässä on, mitä sinun pitäisi nyt nähdä :
+"**/dev/mapper/usbkey1**" on "pikakuvake", jonka olemme antaneet USB-avaimellemme ("**/dev/mapper**" on yleinen Linuxin kartoitus). Se tarjoaa siis pääsyn purettuun osioon. Tässä on, mitä sinun pitäisi nyt nähdä:
 
 
 
@@ -268,7 +268,7 @@ sr0        11:0    1 1024M  0 rom
 
 
 
-**Via Interface graphic** **:**:**
+**Via Interface graphic:**
 
 
 
@@ -353,7 +353,7 @@ Tämä tarkoittaa, että voimme käyttää USB-tikulla olevia tietoja vapaasti j
 
 
 
-Kun operaatio on valmis, älä unohda sulkea kaikkea kunnolla varmistaaksemme, ettemme vahingoita tallennustilavuutta. Ensimmäinen askel on irrottaa :
+Kun operaatio on valmis, älä unohda sulkea kaikkea kunnolla varmistaaksemme, ettemme vahingoita tallennustilavuutta. Ensimmäinen askel on irrottaa:
 
 
 

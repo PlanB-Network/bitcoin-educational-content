@@ -1,0 +1,9 @@
+question: O que é que o protocolo IP faz se um datagrama exceder o MTU de uma rede pela qual passa?
+answer: Ele fragmenta-o em vários pedaços
+wrong_answers:
+  - Encripta todo o datagrama antes de o enviar
+  - Rejeita-o sempre e envia uma mensagem de erro
+  - Ele comprime-a antes de a transmitir
+explanation: |
+  Se o tamanho do datagrama exceder o MTU, o router fragmenta-o em vários pacotes mais pequenos que se ajustam à rede de destino.
+reviewed: false

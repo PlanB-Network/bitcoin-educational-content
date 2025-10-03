@@ -1,5 +1,5 @@
 ---
-name: Velocità Wallet - PoS
+name: Speed Wallet - POS
 description: Integrare facilmente i pagamenti in Bitcoin e stablecoin nella propria azienda
 ---
 ![cover](assets/cover.webp)
@@ -22,31 +22,31 @@ L'adozione del Bitcoin a livello mondiale si basa su casi d'uso tangibili nella 
 
 
 
-Speed dispone di un'ampia gamma di funzioni per coprire gli aspetti finanziari della vostra attività. Troverete :
+Speed dispone di un'ampia gamma di funzioni per coprire gli aspetti finanziari della vostra attività. Troverete:
 
 
 
 
 
-- Configurazione dei pagamenti online**: Ricevete i pagamenti dai vostri clienti ovunque si trovino, grazie al vostro sito web.
+- **Configurazione dei pagamenti online**: Ricevete i pagamenti dai vostri clienti ovunque si trovino, grazie al vostro sito web.
 
 
 
 
 
-- Pagamenti in loco**: Ideale per i negozi e le aziende che riscuotono contanti in negozio.
+- **Pagamenti in loco**: Ideale per i negozi e le aziende che riscuotono contanti in negozio.
 
 
 
 
 
-- Prelievi**: Prelevate le vostre attività senza problemi e utilizzate i bitcoin per pagare i vostri clienti e i vostri stipendi.
+- **Prelievi**: Prelevate le vostre attività senza problemi e utilizzate i bitcoin per pagare i vostri clienti e i vostri stipendi.
 
 
 
 
 
-- Connessione con altre piattaforme**: Utilizzate strumenti esterni per gestire i pagamenti? Speed vi offre la possibilità di collegarli alla sua piattaforma, per un ecosistema all-in-one che rispecchia la vostra attività.
+- **Connessione con altre piattaforme**: Utilizzate strumenti esterni per gestire i pagamenti? Speed vi offre la possibilità di collegarli alla sua piattaforma, per un ecosistema all-in-one che rispecchia la vostra attività.
 
 
 
@@ -265,13 +265,13 @@ Nel menu **Invia pagamenti** troverete tutte le opzioni di trasferimento di dena
 
 
 
-- Pagamenti istantanei**: Con l'opzione di invio immediato, potete inviare bitcoin in modo sicuro e istantaneo dal vostro conto commerciale.
+- **Pagamenti istantanei**: Con l'opzione di invio immediato, potete inviare bitcoin in modo sicuro e istantaneo dal vostro conto commerciale.
 
 
 
 
 
-- Link di prelievo generate** per consentire ai vostri partner e fornitori di accedere al pagamento in un secondo momento senza richiedere la vostra presenza online.
+- Link di prelievo generati per consentire ai vostri partner e fornitori di accedere al pagamento in un secondo momento senza richiedere la vostra presenza online.
 
 
 
@@ -289,7 +289,7 @@ Nell'opzione **Collegamenti di prelievo**, creare un nuovo collegamento di preli
 
 
 
-- Pagamenti**: Nel menu Pagamenti, avviare i prelievi dal saldo Speed Business al proprio Wallet personale.
+- **Pagamenti**: Nel menu Pagamenti, avviare i prelievi dal saldo Speed Business al proprio Wallet personale.
 
 
 
@@ -299,7 +299,7 @@ Nell'opzione **Collegamenti di prelievo**, creare un nuovo collegamento di preli
 
 
 
-- Sconti**: Incoraggiate i vostri clienti abituali impostando opzioni di sconto per ottenere bonus.
+- **Sconti**: Incoraggiate i vostri clienti abituali impostando opzioni di sconto per ottenere bonus.
 
 
 
@@ -436,4 +436,3 @@ Dopo aver acquisito una buona padronanza di Speed, integrate il Bitcoin nella vo
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

@@ -76,10 +76,10 @@ Następnie aplikacja prezentuje swoje główne funkcje poprzez serię ekranów w
 
 
 
-- Bezproblemowy odbiór płatności**: Użytkownicy mogą otrzymywać płatności Bitcoin nawet po zamknięciu aplikacji, co gwarantuje niezawodność i wygodę.
-- Adresy Lightning bez nadzoru**: Lipa obsługuje teraz niepowiernicze adresy Lightning, zwiększając prywatność i bezpieczeństwo, dając użytkownikom pełną kontrolę nad ich bitcoinami.
-- Kontrola nad danymi analitycznymi** : Mając na uwadze przejrzystość i poufność, użytkownicy mogą przeglądać rodzaje gromadzonych danych i wybierać preferencje dotyczące ich udostępniania.
-- Wysyłanie przez numer telefonu**: Nie potrzebujesz skomplikowanych adresów - po prostu wybierz kontakt, wprowadź kwotę i wyślij bitcoiny bezpośrednio na jego numer telefonu.
+- **Bezproblemowy odbiór płatności**: Użytkownicy mogą otrzymywać płatności Bitcoin nawet po zamknięciu aplikacji, co gwarantuje niezawodność i wygodę.
+- **Adresy Lightning bez nadzoru**: Lipa obsługuje teraz niepowiernicze adresy Lightning, zwiększając prywatność i bezpieczeństwo, dając użytkownikom pełną kontrolę nad ich bitcoinami.
+- **Kontrola nad danymi analitycznymi**: Mając na uwadze przejrzystość i poufność, użytkownicy mogą przeglądać rodzaje gromadzonych danych i wybierać preferencje dotyczące ich udostępniania.
+- **Wysyłanie przez numer telefonu**: Nie potrzebujesz skomplikowanych adresów - po prostu wybierz kontakt, wprowadź kwotę i wyślij bitcoiny bezpośrednio na jego numer telefonu.
 
 
 Aplikacja korzysta również z ciągłych ulepszeń w zakresie stabilności, bezpieczeństwa i niezawodności, aby zagwarantować optymalne wrażenia użytkownika.
@@ -96,10 +96,10 @@ Interface Lipa jest zorganizowany wokół 4 głównych zakładek dostępnych za 
 
 
 
-- Strona główna**: Wyświetla bieżące saldo i historię transakcji
-- Skaner**: Umożliwia skanowanie kodów QR w celu dokonywania płatności
-- Mapa**: Wyświetla interaktywną mapę firm akceptujących Bitcoin w Twojej okolicy
-- Ustawienia**: Dostęp do ustawień aplikacji, kopii zapasowych i preferencji
+- **Strona główna**: Wyświetla bieżące saldo i historię transakcji
+- **Skaner**: Umożliwia skanowanie kodów QR w celu dokonywania płatności
+- **Mapa**: Wyświetla interaktywną mapę firm akceptujących Bitcoin w Twojej okolicy
+- **Ustawienia**: Dostęp do ustawień aplikacji, kopii zapasowych i preferencji
 
 
 Dostęp do dodatkowego menu można uzyskać, przeciągając ekran główny w dół:

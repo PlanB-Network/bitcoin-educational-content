@@ -277,7 +277,7 @@ Kwa mijadala ya kriptografia, utahitaji tu kuelewa tofauti za nasibu. Majadilian
 
 Thamani zinazowezekana na uwezekano unaohusishwa wa utofautishaji nasibu unaweza kuonyeshwa kwa urahisi kupitia grafu. Kwa mfano, zingatia utofauti wa nasibu $X$ kutoka sehemu iliyotangulia na seti ya matokeo ya $\{1, 2\}$, na $Pr [X = 1] = 0.5$ na $Pr [X = 2] = 0.5$. Kwa kawaida tungeonyesha tofauti nasibu katika umbo la grafu ya upau kama ilivyo katika *Mchoro 1*.
 
-*Kielelezo cha 1:*Kigezo cha bahati nasibu*
+**Kielelezo cha 1:** *Kigezo cha bahati nasibu*
 
 ![Figure 1: Random variable X.](assets/Figure2-1.webp)
 
@@ -669,7 +669,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(idadi kuu kubwa zaidi chini ya $2^{256}$). $x$-coordinate ni ufunguo wa faragha na $y$-coordinate ni ufunguo wako wa umma.
+(ambayo ni namba kuu kubwa zaidi chini ya $2^{256}$).
 
 Shughuli katika Bitcoin kwa kawaida huhusisha kufunga matokeo kwa funguo moja au zaidi za umma kwa njia fulani. Thamani kutoka kwa miamala hii inaweza, basi, kufunguliwa kutengeneza saini za kidijitali kwa funguo za faragha zinazolingana.
 
@@ -1344,7 +1344,7 @@ Je, MAC zinaundwaje? Ingawa MAC zinaweza kuundwa kupitia mbinu nyingi, njia ya k
 
 Tutaanzisha vitendaji vya kriptografia Hash kwa kina zaidi katika *Sura ya 6*. Kwa sasa, fahamu tu kuwa **Hash chaguo za kukokotoa** ni chaguo za kukokotoa zinazoweza kukokotwa kwa ufanisi ambazo huchukua maingizo ya ukubwa usio na mpangilio na hutoa matokeo ya urefu usiobadilika. Kwa mfano, kazi maarufu ya Hash **SHA-256** (algorithm salama ya Hash 256) daima hutoa pato la 256-bit bila kujali ukubwa wa pembejeo. Baadhi ya vitendaji vya Hash, kama vile SHA-256, vina programu muhimu katika usimbaji fiche.
 
-Aina ya kawaida ya lebo inayozalishwa kwa njia ya kriptografia ya Hash ni msimbo wa uthibitishaji wa ujumbe unaotegemea Hash** (HMAC). Mchakato umeonyeshwa kwenye *Mchoro 11*. Sherehe hutoa vitufe viwili tofauti kutoka kwa ufunguo wa faragha $K$, ufunguo wa ndani $K_1$ na ufunguo wa nje $K_2$. Maandishi ya wazi $M$ au maandishi ya siri $C$ basi huharakishwa pamoja na ufunguo wa ndani. Matokeo $T'$ basi huharakishwa kwa ufunguo wa nje ili kutoa lebo ya ujumbe $T$.
+Aina ya kawaida ya lebo inayozalishwa kwa njia ya kriptografia ya Hash ni msimbo wa uthibitishaji wa ujumbe unaotegemea **Hash** (HMAC). Mchakato umeonyeshwa kwenye *Mchoro 11*. Sherehe hutoa vitufe viwili tofauti kutoka kwa ufunguo wa faragha $K$, ufunguo wa ndani $K_1$ na ufunguo wa nje $K_2$. Maandishi ya wazi $M$ au maandishi ya siri $C$ basi huharakishwa pamoja na ufunguo wa ndani. Matokeo $T'$ basi huharakishwa kwa ufunguo wa nje ili kutoa lebo ya ujumbe $T$.
 
 Kuna palette ya kazi za Hash ambazo zinaweza kutumika kuunda HMAC. Chaguo za kukokotoa za Hash zinazotumika zaidi ni SHA-256.
 
@@ -1584,7 +1584,7 @@ Mzunguko wa 0 wa msimbo wa Rijndael ni wa moja kwa moja. Safu ya $S_0$ inatolewa
 
 Katika raundi ya 1, safu $S_0$ inaunganishwa kwanza na kitufe cha duara $K_1$ kwa kutumia operesheni ya XOR. Hii inazalisha hali mpya ya $S$.
 
-Pili, operesheni ya **Byte badala** inafanywa kwa hali ya sasa ya $S$. Inafanya kazi kwa kuchukua kila baiti ya safu ya $S$ ya baiti 16 na kuibadilisha na baiti kutoka kwa safu inayoitwa **Sanduku la S* la Rijndael**. Kila baiti ina mabadiliko ya kipekee, na hali mpya ya $S$ inatolewa kama matokeo. Kisanduku cha S cha Rijndael kinaonyeshwa kwenye *Kielelezo 3*.
+Pili, operesheni ya **Byte badala** inafanywa kwa hali ya sasa ya $S$. Inafanya kazi kwa kuchukua kila baiti ya safu ya $S$ ya baiti 16 na kuibadilisha na baiti kutoka kwa safu inayoitwa **Sanduku la S** la Rijndael. Kila baiti ina mabadiliko ya kipekee, na hali mpya ya $S$ inatolewa kama matokeo. Kisanduku cha S cha Rijndael kinaonyeshwa kwenye *Kielelezo 3*.
 
 *Kielelezo cha 3: S-Box ya Rijndael*
 
@@ -1892,7 +1892,7 @@ Kwa hivyo saini za dijiti na usimbaji fiche wa ufunguo wa umma Address hufanyaje
 
 Hakuna jibu moja hapa. Siri ya ulinganifu ni zana na hakuna njia moja ya kuajiri zana hiyo. Lakini acheni tuchukue mfano wetu wa awali kutoka kwa Bidhaa za Michezo za Jim ili kuonyesha jinsi masuala kwa kawaida yangeshughulikiwa katika mfano huu.
 
-Kuanza, Bidhaa za Michezo za Jim huenda zingekaribia **mamlaka ya cheti**, shirika linaloauni usambazaji wa ufunguo wa umma. Mamlaka ya cheti ingesajili baadhi ya maelezo kuhusu Bidhaa za Michezo za Jim na kuipa ufunguo wa umma. Basi, itatuma cheti cha Bidhaa za Michezo za Jim, kinachojulikana kama **cheti cha **TLS/SSL**, huku ufunguo wa umma wa Jim's Sporting ukiwa umetiwa saini kidijitali kwa kutumia ufunguo wa umma wa mamlaka ya cheti. Kwa njia hii, mamlaka ya cheti inathibitisha kwamba ufunguo mahususi wa umma ni mali ya Bidhaa za Michezo za Jim.
+Kuanza, Bidhaa za Michezo za Jim huenda zingekaribia **mamlaka ya cheti**, shirika linaloauni usambazaji wa ufunguo wa umma. Mamlaka ya cheti ingesajili baadhi ya maelezo kuhusu Bidhaa za Michezo za Jim na kuipa ufunguo wa umma. Basi, itatuma cheti cha Bidhaa za Michezo za Jim, kinachojulikana kama **cheti cha TLS/SSL**, huku ufunguo wa umma wa Jim's Sporting ukiwa umetiwa saini kidijitali kwa kutumia ufunguo wa umma wa mamlaka ya cheti. Kwa njia hii, mamlaka ya cheti inathibitisha kwamba ufunguo mahususi wa umma ni mali ya Bidhaa za Michezo za Jim.
 
 Ufunguo wa kuelewa mchakato huu na vyeti vya TLS/SSL ni kwamba, ingawa kwa ujumla hutakuwa na ufunguo wa umma wa Jim's Sporting Goods uliohifadhiwa popote kwenye kompyuta yako, funguo za umma za mamlaka ya cheti zinazotambuliwa kwa hakika zimehifadhiwa katika kivinjari chako au katika mfumo wako wa uendeshaji. Hizi zimehifadhiwa katika kile kinachoitwa **vyeti mizizi**.
 

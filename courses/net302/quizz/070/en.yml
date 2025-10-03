@@ -1,0 +1,9 @@
+question: Who is allowed to fragment an IPv6 packet?
+answer: Source host only
+wrong_answers:
+  - Only the first intermediate router
+  - Destination router only
+  - All routers
+explanation: |
+  In IPv6, fragmentation is performed exclusively by the source host, never by intermediate routers.
+reviewed: false

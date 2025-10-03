@@ -114,7 +114,7 @@ Poznámka: aplikace se automaticky znovu načte, pokud změníte zdrojové soubo
 
 Při prvním spuštění je třeba spustit migraci DB.
 
-Spusťte migrační skript : `pnpm run dev:db:migrate`
+Spusťte migrační skript: `pnpm run dev:db:migrate`
 
 ```markdown
 pnpm run dev:db:migrate

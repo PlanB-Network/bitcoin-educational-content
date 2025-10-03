@@ -1,0 +1,9 @@
+question: Hvilken dataenhet brukes i Internett Layer i TCP/IP-modellen?
+answer: Datagram
+wrong_answers:
+  - Segment
+  - Ramme
+  - Melding
+explanation: |
+  Internet Layer manipulerer datagrammer og kapsler inn segmenter fra Transport Layer.
+reviewed: false

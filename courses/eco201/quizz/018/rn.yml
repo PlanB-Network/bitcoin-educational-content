@@ -1,0 +1,14 @@
+question: Ni igiki ciyumviro c’akamaro gashitse mu bijanye n’ugucapura ibikorwa?
+answer: Umuntu arafise ubushobozi bwo gukora ibikorwa bimwebimwe kuruta abo mu runganwe rwiwe.
+wrong_answers:
+  - Umuntu afise ubushobozi bwo gukora ibikorwa vyose kuruta abo mu runganwe rwiwe.
+  - Umuntu afise ubushobozi bungana n’ubw’urunganwe rwiwe bwo gukora ibikorwa bimwebimwe.
+  - Umuntu afise ubushobozi bwo gukora ibikorwa bimwebimwe burengeye ubwiwe .
+explanation: |
+  Mu bijanye n’ugusangira ibikorwa, akamaro gashitse
+  yerekeza ku kuntu umuntu afise uwumusumba .
+  ubushobozi bwo gukora ibikorwa bimwebimwe kuruta abo mu runganwe rwiwe. Ibi
+  umuntu ku giti ciwe rero afise inyungu yo kwimenyereza cane
+  gukora ivyo bintu vyiza hanyuma ugahindura ivyo bisigaye .
+  baronswa kubera ivyiza bipfuza.
+reviewed: true

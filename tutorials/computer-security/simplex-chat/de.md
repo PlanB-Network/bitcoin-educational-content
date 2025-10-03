@@ -243,7 +243,7 @@ SimpleX generiert dann einen Link zur einmaligen Verwendung. Sie können ihn auf
 
 
 
-Sie können auch wählen, welches Profil mit diesem Einladungslink verknüpft werden soll. Klicken Sie dazu auf Ihr Profil direkt unter dem QR-Code. Sie werden dann in der Lage sein, :
+Sie können auch wählen, welches Profil mit diesem Einladungslink verknüpft werden soll. Klicken Sie dazu auf Ihr Profil direkt unter dem QR-Code. Sie werden dann in der Lage sein,:
 
 
 
@@ -313,7 +313,7 @@ Eine der leistungsfähigsten Funktionen von SimpleX ist die Möglichkeit, mehrer
 
 
 
-Sie könnten zum Beispiel eine :
+Sie könnten zum Beispiel eine:
 
 
 

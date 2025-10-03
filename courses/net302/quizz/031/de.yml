@@ -1,0 +1,9 @@
+question: Welcher IPv4 Address-Bereich ist für lokale Loopback-Tests reserviert?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Der Bereich 127.0.0.0/8 wird für den lokalen Loopback verwendet. Jede Anfrage an diesen Bereich bleibt innerhalb des Rechners, von dem sie ausgeht.
+reviewed: false

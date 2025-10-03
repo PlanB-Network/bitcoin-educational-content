@@ -1,0 +1,9 @@
+question: Lightning Network üzerindeki Commitment işlemlerinde temel risk nedir?
+answer: Daha fazla fon geri almak için eski bir işlemi yayınlama
+wrong_answers:
+  - Commitment Transaction'yi imzalamayı unutmak
+  - Yanlışlıkla başka bir kanala fon gönderme
+  - İşlemin uygun olmayan bir zaman kilidi ile engellenmesi
+explanation: |
+  Ana risk, bir tarafın eski bir Commitment Transaction yayınlayarak hile yapmaya kalkışması ve bu sayede artık sahip olmadıkları fonları geri alabilmesidir.
+reviewed: false

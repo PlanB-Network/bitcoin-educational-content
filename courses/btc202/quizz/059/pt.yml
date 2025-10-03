@@ -1,0 +1,9 @@
+question: Qual é a melhor forma de aceder remotamente ao Bitcoin core?
+answer: Expor a porta RPC
+wrong_answers:
+  - Utilizar o Tor
+  - Utilizar uma VPN
+  - Expor um servidor Electrum
+explanation: |
+  Expor a porta RPC sem criptografia representa um grande risco de segurança. É preferível usar Tor ou VPN.
+reviewed: true

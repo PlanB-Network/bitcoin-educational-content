@@ -1,8 +1,8 @@
-question: Kako bi se Lightning mreže potencijalno mogao koristiti za iznajmljivanje robe?
-answer: Korisnicima bi mogla biti naplaćena cena po minutu, ili čak po sekundi, za vreme koje koriste robu.
+question: Koja je jedna od potencijalnih prednosti prihvatanja novih tehnologija kao što je Bitkoin?
+answer: To bi moglo generate masivne ekonomije obima širom sveta.
 wrong_answers:
-  - Korisnicima bi mogla biti naplaćena visoka naknada za iznajmljivanje robe.
-  - Korisnicima bi se moglo naplatiti na osnovu vrednosti robe.
-  - Korisnicima bi mogla biti naplaćena naknada na osnovu stanja robe.
+  - To bi moglo dovesti do globalnog ekonomskog kolapsa.
+  - To bi moglo izazvati smanjenje ljudske inteligencije.
+  - To bi moglo dovesti do eliminacije svih poslova.
 explanation: >-
 reviewed: true

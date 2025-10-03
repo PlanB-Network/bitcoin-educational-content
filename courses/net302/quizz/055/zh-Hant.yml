@@ -1,0 +1,9 @@
+question: 在 Linux 中，哪個指令會顯示所有網路介面的詳細狀態？
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  "ip addr show" 指令會列出所有網路介面，以及它們的狀態、位址和相關參數。
+reviewed: false

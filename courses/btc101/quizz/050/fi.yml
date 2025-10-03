@@ -1,10 +1,9 @@
-question: Mikä on hyperinflaation ilmiön viimeinen vaihe?
-answer: Uuden valuutan synty.
+question: Mikä oli inflaatioaste Zimbabwessa marraskuussa 2008?
+answer: 79 600 000 000%
 wrong_answers:
-  - Luottamuksen menetys.
-  - Valuutan romahtaminen & hinnannousu.
-  - Rahanpainamisen noidankehä.
+  - 796%
+  - 79 600 000 000 000 000%
+  - 100%
 explanation: |
-  Hyperinflaation viimeinen vaihe tapahtuu, kun uusi
-  valuutta otetaan käyttöön korvaamaan vanha.
+  Marraskuussa 2008 Zimbabwen valuutan kuukausittainen inflaatioaste kohosi 79 600 000 000%; iin, mikä murskasi Zimbabwen dollarin arvon nollaan.
 reviewed: true

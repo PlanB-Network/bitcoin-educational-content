@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru c’amamashini y’ugutanga amahera (ATM)?
+answer: Akenshi amahera menshi cane.
+wrong_answers:
+  - Ukeneye internet yihuta.
+  - Kubura infashanyo ku mafaranga yo mu gihugu.
+  - Umutekano w’ibikorwa ntiwushizweho.
+explanation: |
+  Gugura ama bitcoins biciye ku ma ATM ni umuti uryoshe ku bijanye n’ubuzima bwite bw’abakoresha, ariko ikibazo cabo nyamukuru ni uko akenshi basaba amahera menshi cane.
+reviewed: false

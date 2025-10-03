@@ -1,0 +1,9 @@
+question: Bitcoin satın alırken KYC'den (müşteri tanıma kuralları) kaçınmak için hangi platformlar önerilir?
+answer: Peer-to-peer (eşler arası) Exchange platformları (pazar yerleri)
+wrong_answers:
+  - Genel amaçlı Exchange platformları
+  - Yalnızca Bitcoin Exchange platformları
+  - Ticaret odaklı Exchange platformları
+explanation: |
+  P2P platformları, kullanıcıların KYC gerektirmeden doğrudan birbirlerinden bitcoin satın almalarına olanak tanır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni ipi njia bora ya kufikia Bitcoin core kwa mbali?
+answer: Inafichua bandari ya RPC
+wrong_answers:
+  - Kwa kutumia Tor
+  - Kutumia VPN
+  - Kufichua seva ya Electrum
+explanation: |
+  Kufichua mlango wa RPC ambao haujasimbwa huleta hatari kubwa ya usalama. Tor au VPN ni vyema.
+reviewed: true

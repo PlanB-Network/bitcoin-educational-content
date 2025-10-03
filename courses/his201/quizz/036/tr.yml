@@ -1,0 +1,9 @@
+question: Şubat 2010'da ilk gerçek Bitcoin logosunu (iki dikey çubukla kesişen altın bir büyük B harfi) kim tasarladı?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  NewLibertyStandard'ın Tayland bahtı sembolünü (฿) kullanma önerisini kullandı. Turuncu logo daha sonra Bitboy olarak bilinen biri tarafından oluşturuldu.
+reviewed: true

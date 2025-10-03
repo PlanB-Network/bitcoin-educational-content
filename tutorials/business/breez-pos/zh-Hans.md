@@ -1,5 +1,5 @@
 ---
-name: Breez 销售点
+name: Breez - POS
 
 description: 指南开始使用 Breez POS 接受比特币支付
 ---

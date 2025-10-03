@@ -1,10 +1,11 @@
-question: Apa itu evolusi mata uang?
-answer: Batu mentah -> Koin -> Uang kertas -> Kartu bank -> Blockchain -> Lightning Network
+question: Manakah dari opsi berikut ini bukan merupakan keuntungan dari mata uang fiat?
+answer: Mereka tunduk pada inflasi moneter
 wrong_answers:
-  - Batu mentah -> Koin -> Uang kertas -> Blockchain -> Lightning Network
-  - Batu mentah -> Koin -> Uang kertas -> Kartu bank -> Lightning Network
-  - Batu mentah -> Koin -> Uang kertas -> Kartu bank -> Blockchain
+  - Mereka mudah dibawa
+  - Mereka mudah dibagi
+  - Mereka diterima oleh semua negara
 explanation: |
-  Mata uang, seperti teknologi apa pun, berkembang dari batu mentah
-  menjadi koin metalik, kemudian ke uang kertas, kartu bank, dan akhirnya jaringan peer-to-peer dengan blockchain Bitcoin, serta Lightning Network.
+  Mata uang fiat, seperti dolar dan euro, sangat likuid dan
+  mudah dibawa karena sekarang sebagian besar digital. Namun, nilai mereka terus
+  terkikis oleh inflasi moneter.
 reviewed: true

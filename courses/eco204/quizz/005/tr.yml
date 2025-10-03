@@ -1,0 +1,12 @@
+question: İspanya'nın uluslararası ticaretteki konumunu etkilemeden para birimini devalüe etmek için kullandığı strateji neydi?
+answer: İspanya, yerel para birimi olan Maravedi'yi seçici bir şekilde devalüe ederken, İspanyol dolarının küresel sahnedeki değerini korudu.
+wrong_answers:
+  - İspanya, Maravedi'nin küresel sahnedeki değerini korurken, yerel para birimi olan İspanyol dolarını seçici bir şekilde devalüe etti.
+  - İspanya, yerel bir para birimi olan Maravedi'nin değerini seçici bir şekilde arttırırken, İspanyol dolarının küresel sahnedeki değerini korudu.
+  - İspanya, Maravedi'nin küresel sahnedeki değerini korurken, yerel para birimi olan İspanyol dolarının değerini seçici bir şekilde arttırdı.
+explanation: |
+  İspanya kendini hassas bir durumun içinde buldu. İspanyol dolarının seyreltilmesi
+  uluslararası ticaretteki konumunu tehlikeye atabilirdi. Bu ikilemi aşmak için,
+  İspanya, çoğunlukla yerel halk arasında kullanılan bakır bir para birimi olan Maravedi'ye yöneldi.
+  Bu para birimi devalüasyon için hedef alındı.
+reviewed: false

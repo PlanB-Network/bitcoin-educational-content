@@ -1,5 +1,5 @@
 ---
-name: UTXO-Kennzeichnung
+name: Labelling UTXO
 description: Wie kennzeichnet man seine UTXOs korrekt?
 ---
 ![cover](assets/cover.webp)

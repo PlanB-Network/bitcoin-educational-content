@@ -1,0 +1,9 @@
+question: Koja konfiguraciona datoteka definiše statičku mrežu Interface na sistemu sličnom RHEL-u?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  Na RHEL, CentOS i sličnim sistemima, svaki Interface ima svoj ifcfg-* fajl smešten u /etc/sysconfig/network-scripts/.
+reviewed: false

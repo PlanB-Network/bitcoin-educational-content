@@ -1,0 +1,9 @@
+question: Koja Linux komanda prikazuje aktivnu tabelu rutiranja mreže?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping ruta
+  - netstat -s
+explanation: |
+  ip route show prikazuje rute poznate kernelu i puteve koje IP paketi koriste.
+reviewed: false

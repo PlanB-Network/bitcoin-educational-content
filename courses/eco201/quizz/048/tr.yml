@@ -1,0 +1,12 @@
+question: Sosyal bilimlerin incelenmesinde Ludwig von Mises tarafından önerilen aksiyomatik-tümdengelim yöntemi nedir?
+answer: Bu yaklaşım, matematikte kullanılanlara benzer şekilde aksiyom adı verilen temel önermelere dayanmaktadır.
+wrong_answers:
+  - Bu yaklaşım ampirik verilere ve gözlemlere dayanmaktadır.
+  - Bu yaklaşım geçici deneylere ve hipotezlere dayanmaktadır.
+  - Bu yaklaşım, sosyal bilimlerde sıklıkla kullanılan pozitivist yaklaşıma dayanmaktadır.
+explanation: |
+  Ekonomik deneyler bir laboratuvarda yeniden üretilemez ve
+  iki değişken arasında bir korelasyon gözlemlemenin nedensel bir ilişkiyi kanıtlamadığını unutmayın
+  arasındaki ilişki. İşte bu nedenle Ludwig von Mises
+  aksiyomatik-tümdengelim yöntemi.
+reviewed: true

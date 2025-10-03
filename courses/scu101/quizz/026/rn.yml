@@ -1,0 +1,10 @@
+question: Mbega Linux na Mac kenshi zikenera umuti wo gukingira umugera?
+answer: Ibi ni ibinyoma
+wrong_answers:
+  - Ivyo nivyo .
+  - Linux yonyene ikeneye umugera.
+  - Mac yonyene ikeneye umuti wo kurwanya virusi.
+explanation: |
+  Linux na Mac, bivuye ku gutandukanya uburenganzira bw'abakoresha
+  system, kenshi ntibikeneye antivirus.
+reviewed: true

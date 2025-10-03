@@ -1,0 +1,9 @@
+question: Какой протокол использует команда ping для проверки сетевого соединения?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Команда ping использует протокол ICMP для отправки эхо-запросов и измерения задержки в сети.
+reviewed: false

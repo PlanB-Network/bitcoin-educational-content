@@ -1,0 +1,8 @@
+question: Bitcoin의 맥락에서 pruned 노드란 무엇인가요?
+answer: 마지막 N개의 블록만 메모리에 보관하는 노드입니다.
+wrong_answers:
+  - 트랜잭션의 유효성 검사만 수행하는 노드입니다.
+  - 다른 노드에게 정보만 전송하는 노드입니다.
+  - Bitcoin 프로토콜의 규칙만 시행하는 노드입니다.
+explanation: >-
+reviewed: true

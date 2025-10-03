@@ -1,0 +1,9 @@
+question: Vad är risken om en Wallet är beroende av en tredjepartsnod?
+answer: Risk för övervakning och censur
+wrong_answers:
+  - Risk för automatisk Double-spending
+  - Risk för förlust av privata nycklar
+  - Risk för förlust och övervakning
+explanation: |
+  En tredjepartsnod kan analysera eller blockera dina transaktioner, eller till och med koppla dina uppgifter till din identitet.
+reviewed: true

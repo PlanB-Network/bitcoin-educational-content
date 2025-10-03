@@ -1,5 +1,5 @@
 ---
-name: Cụm từ BIP39
+name: BIP-39 Passphrase
 description: Hiểu cách hoạt động của một cụm từ bí mật
 ---
 ![cover](assets/cover.webp)
@@ -28,6 +28,10 @@ Cuối cùng, sử dụng cụm từ bí mật là thú vị khi người ta mu�
 
 ## Làm thế nào để chọn một cụm từ bí mật tốt?
 Để cụm từ bí mật có hiệu quả, nó phải đủ dài và ngẫu nhiên. Giống như với một mật khẩu mạnh, tôi khuyên bạn nên chọn một cụm từ bí mật càng dài và ngẫu nhiên càng tốt, với sự đa dạng của các chữ cái, số và biểu tượng để làm cho bất kỳ cuộc tấn công bằng cách dùng lực brút không thể xảy ra.
+
+Theo [một nghiên cứu được thực hiện bởi Trezor vào năm 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), một kẻ tấn công có quyền truy cập vào seed của bạn và sử dụng GPU cao cấp thuê từ AWS (NVIDIA Tesla V100) có thể thử gần 620 triệu cụm mật khẩu chỉ với 1 đô la. Ước tính sơ bộ, với năng lực vào năm 2019, việc phá vỡ một cụm mật khẩu gồm 12 chữ cái thường ngẫu nhiên sẽ tốn trung bình **77 triệu đô la**.
+
+Tuy nhiên, tôi không khuyến khích bạn giới hạn ở 12 ký tự. Thay vào đó, hãy tuân theo các tiêu chuẩn hiện tại cho mật khẩu mạnh: vào năm 2025, nên sử dụng ít nhất 13 ký tự ngẫu nhiên bao gồm số, chữ thường, chữ hoa và ký hiệu; hoặc 14 ký tự nếu bạn chỉ sử dụng chữ thường và chữ hoa. Tất nhiên, tôi khuyên bạn nên đặt mục tiêu cao hơn, ví dụ như sử dụng một cụm mật khẩu dài 20 ký tự có ký hiệu, để đón đầu các xu hướng trong tương lai và tính đến các rủi ro do con người gây ra mà các nghiên cứu này không đề cập đến.
 
 Cũng quan trọng là phải lưu trữ cụm từ bí mật này một cách đúng đắn, cũng như cụm từ ghi nhớ. **Mất nó có nghĩa là mất quyền truy cập vào bitcoin của bạn**. Tôi khuyên bạn không nên chỉ nhớ nó trong đầu, vì điều này tăng rủi ro mất mát một cách không hợp lý. Lý tưởng nhất là viết nó ra trên một phương tiện vật lý (giấy hoặc kim loại) riêng biệt từ cụm từ ghi nhớ. Bản sao lưu này rõ ràng phải được lưu trữ ở một vị trí khác nơi bạn giữ cụm từ ghi nhớ để ngăn chặn cả hai bị xâm phạm cùng một lúc.
 

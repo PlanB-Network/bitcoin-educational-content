@@ -1,0 +1,9 @@
+question: Hvilken oppløsningsmetode krever reversering av hvert heksadesimalt siffer i IPv6 Address for den omvendte sonen?
+answer: Omvendt oppløsning
+wrong_answers:
+  - Motsatt oppløsning
+  - Primær oppløsning
+  - Sekundær oppløsning
+explanation: |
+  For omvendt oppløsning reverseres hver nibble av hele IPv6 Address og skilles med prikker før den etterfølges av ip6.arpa.
+reviewed: false

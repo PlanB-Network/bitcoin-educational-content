@@ -1,0 +1,9 @@
+question: Wat betekent de MTU-waarde in een netwerk?
+answer: De maximale framegrootte die kan worden verzonden zonder fragmentatie
+wrong_answers:
+  - De maximale opslagcapaciteit van een router zonder fragmentatie
+  - Het maximale aantal hosts op een netwerk zonder fragmentatie
+  - De minimale IP-headerlengte zonder fragmentatie
+explanation: |
+  De MTU (Maximum Transmission Unit) definieert de maximale grootte van een frame dat op een segment kan worden verzonden zonder dat fragmentatie nodig is.
+reviewed: false

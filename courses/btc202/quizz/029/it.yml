@@ -1,0 +1,9 @@
+question: Qual è la caratteristica principale di un Full node?
+answer: Scarica e convalida l'intero Blockchain
+wrong_answers:
+  - Conserva solo le testate del blocco
+  - Cancella i vecchi blocchi dopo la verifica
+  - Dipende da un altro nodo per la convalida delle transazioni
+explanation: |
+  Il Full node conserva l'intero Blockchain e convalida ogni blocco e transazione in modo indipendente.
+reviewed: true

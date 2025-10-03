@@ -1,13 +1,9 @@
-question: Jaka jest ścieżka ewolucji dzisiejszej waluty?
-answer: Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> Blockchain -> Lightning Network
+question: Jakie jest znaczenie pieniądza fiducjarnego?
+answer: Pieniądz fiat to waluta, która ma wartość, ponieważ utrzymuje ją rząd, a ludzie wierzą w jej wartość, a nie jest zabezpieczona fizycznym towarem, takim jak złoto.
 wrong_answers:
-  - Surowy kamień -> Moneta -> Banknot -> Blockchain -> Lightning Network
-  - Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> Lightning Network
-  - Surowy kamień -> Moneta -> Karta bankowa -> Banknot -> Blockchain -> Lightning Network
+  - Pieniądz fiat to waluta, która jest zabezpieczona fizycznym towarem, takim jak złoto lub srebro, co oznacza, że jej wartość jest bezpośrednio powiązana z wartością tego towaru.
+  - Fiat money to rodzaj kryptowaluty, która działa w zdecentralizowanej sieci, umożliwiając transakcje peer-to-peer bez potrzeby posiadania centralnego organu.
+  - Pieniądz fiat to waluta, która nie ma wartości wewnętrznej i nie może być wykorzystywana do transakcji, co czyni ją zasadniczo bezwartościową w gospodarce.
 explanation: |
-  Waluta to technologia, która ewoluowała wraz z upływem czasu,
-  począwszy od bycia reprezentowanym przez surowe kamienie
-  w metalowe monety, a następnie w banknoty, karty bankowe i
-  wreszcie w sieci peer-to-peer z wykorzystaniem Bitcoin, Blockchain i Lightning Network
-  Bitcoin Blockchain i Lightning Network.
+  Pieniądz fiat jest prawnym środkiem płatniczym ustanowionym dekretem rządowym, a jego wartość nie pochodzi z żadnego fizycznego towaru.
 reviewed: true

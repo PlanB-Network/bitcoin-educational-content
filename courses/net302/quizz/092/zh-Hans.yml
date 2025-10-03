@@ -1,0 +1,9 @@
+question: 在 Linux 系统中，DNS 服务器通常配置在哪里？
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  /etc/resolv.conf 文件指定用于名称解析的 DNS 服务器和搜索域。
+reviewed: false

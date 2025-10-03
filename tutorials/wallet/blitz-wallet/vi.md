@@ -93,23 +93,23 @@ Một trong những tính năng đặc biệt của Blitz Wallet là nó hỗ tr
 
 
 
-- Lightning Network**: Một trong những lớp phủ Bitcoin cho phép bạn thực hiện các giao dịch nhỏ ngay lập tức.
+- **Lightning Network**: Một trong những lớp phủ Bitcoin cho phép bạn thực hiện các giao dịch nhỏ ngay lập tức.
 
 
 
 
 
-- Bitcoin Mainnet**: Chuỗi chính của giao thức Bitcoin, phù hợp với các giao dịch có giá trị lớn.
+- **Bitcoin Mainnet**: Chuỗi chính của giao thức Bitcoin, phù hợp với các giao dịch có giá trị lớn.
 
 
 
 
 
-- Liquid Network**: Chuỗi song song với Bitcoin Mainnet do BlockStream phát triển, sử dụng Bitcoin Liquid để thực hiện Confidential Transactions nhanh chóng.
+- **Liquid Network**: Chuỗi song song với Bitcoin Mainnet do BlockStream phát triển, sử dụng Bitcoin Liquid để thực hiện Confidential Transactions nhanh chóng.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Theo mặc định, tất cả các giao dịch của bạn sẽ được thực hiện trên Liquid Network, nhưng Blitz cho phép bạn xác định mạng mà bạn muốn nhận satoshi bằng cách nhấp vào nút **Chọn định dạng**.
 
@@ -169,7 +169,7 @@ Ngoài hoạt động chuyển tiền Bitcoin, Blitz Wallet còn cung cấp cho 
 
 
 
-- Truy cập các dịch vụ AI**: Sử dụng các mô hình trí tuệ nhân tạo tạo sinh như: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 và thanh toán trực tiếp bằng bitcoin.
+- **Truy cập các dịch vụ AI**: Sử dụng các mô hình trí tuệ nhân tạo tạo sinh như: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 và thanh toán trực tiếp bằng bitcoin.
 
 
 
@@ -179,7 +179,7 @@ Ngoài hoạt động chuyển tiền Bitcoin, Blitz Wallet còn cung cấp cho 
 
 
 
-- Gửi tin nhắn văn bản đến bất kỳ nơi nào trên thế giới**: Trong cửa hàng Blitz, bạn có thể truy cập vào dịch vụ GSM cho phép bạn gửi tin nhắn văn bản ẩn danh đến bất kỳ nơi nào trên thế giới, với tính năng thanh toán trực tiếp tại Bitcoin.
+- **Gửi tin nhắn văn bản đến bất kỳ nơi nào trên thế giới**: Trong cửa hàng Blitz, bạn có thể truy cập vào dịch vụ GSM cho phép bạn gửi tin nhắn văn bản ẩn danh đến bất kỳ nơi nào trên thế giới, với tính năng thanh toán trực tiếp tại Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Ngoài hoạt động chuyển tiền Bitcoin, Blitz Wallet còn cung cấp cho 
 
 
 
-- Lướt web hoàn toàn bảo mật**: Thanh toán cho gói đăng ký WireGuard VPN (Mạng riêng ảo) trong cửa hàng Wallet Blitz bằng bitcoin của bạn.
+- **Lướt web hoàn toàn bảo mật**: Thanh toán cho gói đăng ký WireGuard VPN (Mạng riêng ảo) trong cửa hàng Wallet Blitz bằng bitcoin của bạn.
 
 
 
@@ -249,7 +249,7 @@ Bằng cách kích hoạt chế độ Lightning, sau khi điều kiện chính �
 
 
 
-- Chấp nhận Bitcoin tại cửa hàng của bạn**:
+- **Chấp nhận Bitcoin tại cửa hàng của bạn**:
 
 
 

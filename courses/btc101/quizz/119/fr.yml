@@ -1,11 +1,13 @@
-question: Qu'est-ce que BitcoinTalk ?
-answer: Un lieu de discussion pour les utilisateurs de Bitcoin.
+question: Qu'est-ce qu'une transaction Bitcoin ?
+answer: Un transfert de propriété de bitcoins, utilisant la cryptographie.
 wrong_answers:
-  - Un logiciel de minage de Bitcoin.
-  - Un portefeuille Bitcoin.
-  - Une conférence sur le Bitcoin.
+  - Un échange physique de bitcoins, utilisant un notaire.
+  - Un transfert de propriété de bitcoins, utilisant une adresse physique.
+  - Un transfert de propriété de bitcoins, utilisant une adresse email.
 explanation: |
-  Le forum BitcoinTalk est un lieu de discussion pour les
-  utilisateurs de Bitcoin. Il a été créé par Satoshi Nakamoto le 22 novembre,
-  2009.
+  Une transaction Bitcoin est un transfert numérique de la
+  propriété de bitcoins, grâce à l'utilisation d'une adresse Bitcoin
+  dérivée grâce à la cryptographie de Courbe Elliptique. Cette
+  adresse est unique au portefeuille de la personne recevant les
+  bitcoins.
 reviewed: true

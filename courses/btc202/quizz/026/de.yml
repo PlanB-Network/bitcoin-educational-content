@@ -1,0 +1,9 @@
+question: Wer hat das Konzept der vereinfachten Zahlungsprüfung (SPV) erfunden?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  Die SPV wird in Teil 8 von Satoshi Nakamotos Weißbuch vorgestellt.
+reviewed: true

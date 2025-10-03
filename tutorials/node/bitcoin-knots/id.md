@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Knot
+name: Bitcoin Knots
 description: Bagaimana cara meluncurkan simpul dengan klien alternatif Bitcoin Knot?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Namun, perangkat lunak alternatif juga tersedia. Ini bukan node yang terhubung d
 Ada dua alasan utama untuk menggunakan klien alternatif seperti Knot daripada Core:
 
 
-- Teknis**: Klien-klien ini sering kali menawarkan opsi yang berbeda dengan Core, terutama dalam hal manajemen Mempool, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
-- Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core mengalami gangguan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terpelihara dengan baik, tetapi juga mengetahui cara menggunakannya. Orang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak setuju dengan manajemen klien mayoritas.
+- **Teknis**: Klien-klien ini sering kali menawarkan opsi yang berbeda dengan Core, terutama dalam hal manajemen Mempool, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
+- **Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core mengalami gangguan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terpelihara dengan baik, tetapi juga mengetahui cara menggunakannya. Orang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak setuju dengan manajemen klien mayoritas.
 
 ## Bagaimana cara memasang Bitcoin Knot?
 

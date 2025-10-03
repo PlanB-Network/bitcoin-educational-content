@@ -1,0 +1,9 @@
+question: Perintah historis mana yang dapat digunakan untuk melihat cache ARP pada sebagian besar sistem?
+answer: arp
+wrong_answers:
+  - menggali
+  - nslookup
+  - ping
+explanation: |
+  Perintah arp memungkinkan Anda melihat atau memodifikasi cache ARP, yang menyimpan pemetaan IP/MAC secara lokal.
+reviewed: false

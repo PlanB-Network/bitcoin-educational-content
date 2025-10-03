@@ -58,7 +58,7 @@ Možete koristiti Tox protokol putem klijenta za instant poruke koji možete pre
 
 
 
-U zavisnosti od vašeg operativnog sistema, možete preuzeti i instalirati Tox klijent koji odgovara :
+U zavisnosti od vašeg operativnog sistema, možete preuzeti i instalirati Tox klijent koji odgovara:
 
 
 

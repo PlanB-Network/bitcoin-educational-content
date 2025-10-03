@@ -1,5 +1,5 @@
 ---
-name: یو‌بی‌کی ۲FA
+name: YubiKey 2FA
 description: چگونه از یک کلید امنیتی فیزیکی استفاده کنیم؟
 ---
 ![cover](assets/cover.webp)

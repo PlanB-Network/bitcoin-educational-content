@@ -1,0 +1,9 @@
+question: HMAC nedir?
+answer: Hash işlevine dayalı bir mesaj kimlik doğrulama kodu
+wrong_answers:
+  - Hash fonksiyonuna dayalı bir asimetrik şifreleme algoritması
+  - Diffie-Hellman tabanlı bir asimetrik şifreleme algoritması
+  - Diffie-Hellman tabanlı bir mesaj kimlik doğrulama kodu
+explanation: |
+  HMAC, bir mesajın bütünlüğünü ve gerçekliğini doğrulayan bir etiket oluşturmak için SHA-256 gibi bir Hash işlevi kullanan bir mesaj kimlik doğrulama kodudur.
+reviewed: false

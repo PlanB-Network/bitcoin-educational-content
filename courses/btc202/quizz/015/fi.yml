@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin core:n tärkein vaihtoehtoinen toteutus?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Käteinen
+  - BTCD
+  - Bcoin
+explanation: |
+  Luke Dashjr:n kehittämä Bitcoin Knots on Ytimen Fork, joka tarjoaa lisävaihtoehtoja ja konservatiivisemman näkemyksen.
+reviewed: true

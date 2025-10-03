@@ -1,12 +1,11 @@
-question: Jaki jest główny cel rewolucji Bitcoin według tego kursu?
-answer: Stworzenie świata, w którym ludzka suwerenność jest prawem, prywatność jest domyślnie szanowana, a pieniądze nie są manipulowane.
+question: Co ten kurs sugeruje na temat tempa nauki o Bitcoin?
+answer: Trudno jest przyswoić wszystko na raz, więc nie spiesz się.
 wrong_answers:
-  - Stworzenie świata, w którym prywatność nie jest prawem człowieka, a banki manipulują pieniędzmi.
-  - Stworzenie świata, w którym rządy nie mają władzy, a społeczeństwo jest chaotyczne.
-  - Tworzenie świata, w którym fizyczne pieniądze są przestarzałe.
+  - Łatwo jest nauczyć się wszystkiego na raz.
+  - Nie sposób dowiedzieć się wszystkiego o Bitcoin.
+  - Nie trzeba uczyć się wszystkiego o Bitcoin.
 explanation: |
-  Tekst tego kursu sugeruje, że głównym celem rewolucji Bitcoin
-  jest stworzenie świata, w którym ludzka suwerenność jest prawem
-  prawem, prywatność jest domyślnie szanowana, a pieniądze nie są
-  manipulowane.
+  Kurs sugeruje, że jest tak wiele do zbadania z
+  Bitcoin, że przyswojenie wszystkiego naraz jest skomplikowane
+  więc nie należy się spieszyć.
 reviewed: true

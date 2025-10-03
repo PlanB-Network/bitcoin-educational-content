@@ -1,5 +1,5 @@
 ---
-name: Coincard
+name: Coincards
 description: Come posso acquistare beni e servizi in BTC con Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ Questa è l'occasione per ricordare a coloro che desiderano pagare le carte rega
 
 
 
-Una selezione di tutorial sui principali portafogli Lightning (Phoenix, Breez, BitKit, Zeus...) è disponibile qui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Una selezione di tutorial sui principali portafogli Lightning (Phoenix, Breez, BitKit, Zeus...) è disponibile qui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

@@ -1,0 +1,9 @@
+question: TCP/IP 모델에서 서비스 프리미티브의 목적은 무엇인가요?
+answer: 레이어 간 교환 관리
+wrong_answers:
+  - 네트워크 메시지 자동 암호화
+  - 원격 호스트에 IP 주소 배포
+  - IP 패킷의 총 길이 확인
+explanation: |
+  서비스 프리미티브는 서로 다른 계층 간의 통신 Interface을 정의하여 네트워크 교환을 설정, 유지 또는 종료할 수 있도록 합니다.
+reviewed: false

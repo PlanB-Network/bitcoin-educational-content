@@ -1,0 +1,10 @@
+question: Mining Bitcoin işlemleri için ödül yarıya düştüğünde olaya ne ad verilir?
+answer: Halving
+wrong_answers:
+  - İkiye katlama
+  - Çeyrekleme
+  - Üçe katlama
+explanation: |
+  Mining ödüllerinin programlı olarak azaltılması, Halving her
+  dört yıl sonra, Halving olarak bilinen bir olaydır.
+reviewed: true

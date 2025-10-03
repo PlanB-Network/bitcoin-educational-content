@@ -1,0 +1,9 @@
+question: Jakie są dwa okresy życia związane z automatycznie przypisanym adresem IPv6 Address?
+answer: Preferowany okres użytkowania i ważny okres użytkowania
+wrong_answers:
+  - Czas dzierżawy i czas wstrzymania
+  - Czas do wygaśnięcia i wygaśnięcie
+  - Początkowy okres użytkowania i wtórny okres użytkowania
+explanation: |
+  Preferowany okres użytkowania określa okres normalnego użytkowania Address, a ważny okres użytkowania jego całkowity okres ważności.
+reviewed: false

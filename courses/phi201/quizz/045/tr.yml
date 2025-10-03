@@ -1,0 +1,9 @@
+question: Thomas Aquinas'ın akıl ve inanç arasındaki ilişkiye dair temel tezi nedir?
+answer: Akıl ve inanç birbirini tamamlar ve destekleyebilir.
+wrong_answers:
+  - Akıl ve inanç birbirinden bağımsız ve çelişkili iki bilgi kaynağıdır.
+  - Diğer tüm cevaplar doğrudur.
+  - İnanç akıldan üstündür ve onun argümanları olmadan da yapabilir.
+explanation: |
+  Thomas Aquinas akıl ve imanın birbirini tamamladığını savunur; akıl imanın hakikatlerini anlamaya ve açıklamaya yardımcı olabilir. Buna karşılık iman, aklı aksi takdirde erişemeyeceği hakikatlere doğru yönlendirir.
+reviewed: true

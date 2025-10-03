@@ -1,0 +1,8 @@
+question: Bankacılık sistemine ilişkin temel endişe kaynağı ne olabilir?
+answer: Bankacılık oyununun kuralları şeffaf ve herkes tarafından anlaşılabilir değildir.
+wrong_answers:
+  - Bankacılık sistemini anlamak çok kolay.
+  - Bankacılık sistemi çok şeffaf.
+  - Bankacılık sistemi çok merkezsizleşmiş durumda.
+explanation: >-
+reviewed: true

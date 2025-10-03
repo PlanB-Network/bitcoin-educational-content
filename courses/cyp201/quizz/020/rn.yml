@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati y’urufunguzo rwa bose rwashizwemwo n’urudashizwemwo?
+answer: Urufunguzo rwa bose rufise gusa x-coordinate n'uburinganire bwa y
+wrong_answers:
+  - Urufunguzo rwa bose rwashizwemwo ruratekanye cane
+  - Urufunguzo rwa bose rufise gusa y-coordinate n'uburinganire bwa x
+  - Urufunguzo rwa bose rwashizwemwo rusaba urufunguzo rw'ibanga runini
+explanation: |
+  Urufunguzo rwa bose rufise gusa x-coordinate n'agace k'uburinganire bwa y, gutyo rugabanura ubunini bwarwo kugera kuri 33 bytes.
+reviewed: false

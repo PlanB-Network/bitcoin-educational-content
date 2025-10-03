@@ -1,0 +1,9 @@
+question: Açık kaynak terimini yaygınlaştırmak için 1998 yılında hangi kuruluş kurulmuştur?
+answer: Açık Kaynak Girişimi (OSI)
+wrong_answers:
+  - Özgür Yazılım Vakfı (FSF)
+  - Debian Projesi
+  - Mozilla Vakfı
+explanation: |
+  OSI, özgür yazılım felsefesinden farklı olarak kod açıklığının pragmatik, teknik yönünü vurgulamak için oluşturulmuştur.
+reviewed: false

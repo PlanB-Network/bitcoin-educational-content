@@ -1,0 +1,9 @@
+question: Keynes'e göre devlet ekonomide nasıl bir rol oynamalıdır?
+answer: Ekonomiyi canlandırmak için talebi teşvik ederek aktif bir rol
+wrong_answers:
+  - Piyasanın ekonomiyi düzenlemesine izin veren minimal bir rol
+  - Piyasa mekanizmalarına müdahale etmeden tarafsız bir rol
+  - Bütçeyi dengelemek için öncelikli olarak mali bir rol
+explanation: |
+  Keynes, devletin özellikle durgunluk dönemlerinde ekonomiyi canlandırmak ve piyasadaki eksiklikleri telafi etmek amacıyla talebi canlandırmak için aktif müdahalede bulunması gerektiğini savunmuştur.
+reviewed: true

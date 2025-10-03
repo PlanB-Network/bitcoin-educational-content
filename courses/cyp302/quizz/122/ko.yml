@@ -1,0 +1,9 @@
+question: 키 배포 문제는 무엇인가요?
+answer: 물리적 Exchange 없이 키를 안전하게 전송해야 하는 과제
+wrong_answers:
+  - 클라이언트당 여러 개의 키 쌍을 generate해야 할 필요성
+  - 키의 물리적 저장 공간 확보의 어려움
+  - 통신할 때마다 키를 변경해야 하는 의무
+explanation: |
+  키 분배 문제는 안전한 방식으로 키를 전송하는 문제와 관련이 있으며, 이는 물리적 Exchange가 실용적이지 않은 디지털 통신에서 필수적인 요소입니다.
+reviewed: false

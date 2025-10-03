@@ -1,0 +1,13 @@
+question: Hot Wallet nedir?
+answer: Telefonunuzda veya internete bağlı bilgisayarınızda bir Bitcoin Wallet.
+wrong_answers:
+  - Dokunulduğunda fiziksel olarak Hot olan bir Wallet.
+  - Bitcoin kullanıcıları arasında popüler olan bir Wallet.
+  - Büyük miktarlarda bitcoin depolamak için önerilen bir Wallet.
+explanation: |
+  Hot Wallet, Bitcoin Wallet'u tanımlamak için kullanılan bir terimdir
+  gibi internet erişimi olan bir cihazda depolanan
+  telefon veya bilgisayar. Bu şekilde, yürütmek kolaydır
+  işlemler, ancak aynı zamanda Wallet'un
+  potansiyel olarak çevrimiçi tehditlere karşı savunmasızdır.
+reviewed: true

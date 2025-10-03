@@ -1,11 +1,11 @@
-question: Mikä on AMF?
-answer: Autorité des Marchés Financiers.
+question: Mikä on yksi riskeistä, jotka liittyvät Bitcoinin ostamiseen?
+answer: Sen hinta voi laskea nollaan.
 wrong_answers:
-  - American Monetary Fund.
-  - Association of Mining Facilities.
-  - Automated Money Flow.
+  - Sen voi varastaa helposti.
+  - Sen voi kopioida.
+  - Sen voi menettää fyysisesti.
 explanation: |
-  AMF, eli Autorité des Marchés Financiers, on ranskalainen
-  organisaatio, joka säätelee alustoja, joilla bitcoineja voidaan
-  ostaa.
+  Kurssitekstissä mainitaan, että Bitcoin on erittäin volatiili
+  finanssiomaisuus, ja sen hinta voi laskea nollaan, mikä on yksi
+  riskeistä, jotka liittyvät Bitcoinin ostamiseen.
 reviewed: true

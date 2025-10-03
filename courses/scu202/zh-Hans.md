@@ -156,7 +156,7 @@ objectives:
 
 
 
-*注：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.network/resources/glossary) 了解其定义。
+*注：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.network/resources/glossary) 了解其定义。*
 
 
 
@@ -694,7 +694,7 @@ Linux 内核的故事始于 1991 年，当时的 Linus Torvalds 还是芬兰赫�
 
 
 
-*资料来源纳撒尼尔-韦尔奇
+*资料来源：纳撒尼尔-韦尔奇*
 
 
 
@@ -764,7 +764,7 @@ Linux 发行版（通常缩写为 "*distro*"）是一个完整的操作系统，
 
 
 
-→ 注：** **滚动发布*发行版会在最新软件版本发布后立即将其整合到系统中，因此系统会不断更新，但稳定性可能较差。相反，*稳定*发行版会在主要版本发布时发送软件版本，以牺牲新颖性为代价保证更高的可靠性。
+→ 注：**滚动发布**发行版会在最新软件版本发布后立即将其整合到系统中，因此系统会不断更新，但稳定性可能较差。相反，**稳定**发行版会在主要版本发布时发送软件版本，以牺牲新颖性为代价保证更高的可靠性。
 
 
 
@@ -794,7 +794,7 @@ Linus Torvalds 于 1991 年 9 月发布 Linux 内核后，第一批 Linux 发行
 
 
 
-- 1992 年 2 月MCC 临时 Linux**
+- 1992 年 2 月 MCC 临时 Linux
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux 由曼彻斯特大学开发，被认为是最早的 Linux 发�
 
 
 
-- 1992 年 5 月：软着陆 Linux 系统（SLS）**
+- 1992 年 5 月：软着陆 Linux 系统（SLS）
 
 
 
@@ -826,7 +826,7 @@ SLS 已不复存在。其最新版本可追溯到 1994 年末。
 
 
 
-- 1993 年 7 月：Slackware**
+- 1993 年 7 月：**Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware 至今仍在维护，使其成为仍在使用的最古老的 Linux 发
 
 
 
-- 1993 年 8 月德比恩**
+- 1993 年 8 月德比恩
 
 
 
@@ -876,7 +876,7 @@ Slackware 至今仍在维护，使其成为仍在使用的最古老的 Linux 发
 
 
 
-早期，该项目通过发布《Debian 社会 Contract》* 和《Debian 自由软件指南》（DFSG），正式确立了其道德承诺，为代码自由和透明度制定了明确的章程。Debian 曾一度由自由软件基金会赞助，后来于 1997 年成立了非营利组织 "公共利益软件"（SPI），从而在法律上实现了独立。
+早期，该项目通过发布《Debian 社会 Contract》和《Debian 自由软件指南》（DFSG），正式确立了其道德承诺，为代码自由和透明度制定了明确的章程。Debian 曾一度由自由软件基金会赞助，后来于 1997 年成立了非营利组织 "公共利益软件"（SPI），从而在法律上实现了独立。
 
 
 
@@ -886,11 +886,11 @@ Debian 因此成为 GNU/Linux 世界的技术和意识形态支柱之一，在�
 
 
 
-- 1994:红帽 Linux**
+- 1994:红帽 Linux
 
 
 
-1994 年，马克-尤因（Marc Ewing）发布了红帽 Linux 的第一个版本。这标志着一个在 Linux 专业化进程中发挥核心作用的发行版的诞生。尤因对 Unix 系统非常着迷，他创建了一个结构化的、易于访问的 Linux 版本，其中包含一个重要工具：红帽软件包管理器*（RPM），它规范了软件包的格式，方便了软件包的安装、更新和删除，尤其是在专业环境中。这种格式后来成为广泛采用的标准。
+1994 年，马克-尤因（Marc Ewing）发布了红帽 Linux 的第一个版本。这标志着一个在 Linux 专业化进程中发挥核心作用的发行版的诞生。尤因对 Unix 系统非常着迷，他创建了一个结构化的、易于访问的 Linux 版本，其中包含一个重要工具：红帽软件包管理器*（RPM）*，它规范了软件包的格式，方便了软件包的安装、更新和删除，尤其是在专业环境中。这种格式后来成为广泛采用的标准。
 
 
 
@@ -1050,7 +1050,7 @@ Gentoo 是 1999 年 Enoch Linux 项目的一个分支，由 Daniel Robbins 创�
 
 
 
-- Ubuntu**：
+- **Ubuntu**：
 
 
 
@@ -1062,11 +1062,11 @@ Ubuntu 由 Canonical 开发，于 2004 年推出，是全球最受欢迎的发�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**：
+- **Linux Mint**：
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint 于 2006 年推出，是一个源自 Ubuntu 的发行版，旨在提�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint 因其简洁性、默认的多媒体编解码器和精心设计的更新工具而脱颖而出。另一方面，Mint 严重依赖 Ubuntu 的基础架构，这使得它必须依赖 Ubuntu 的技术选择（尤其是在内核和软件源层面）。Mint 特别适合非技术用户，或者那些想要一个无需太多学习就能立即使用的系统的用户。
 
@@ -1086,7 +1086,7 @@ Mint 因其简洁性、默认的多媒体编解码器和精心设计的更新工
 
 
 
-- 佐林操作系统**：
+- **佐林操作系统**：
 
 
 
@@ -1104,7 +1104,7 @@ Zorin OS 由一个爱尔兰团队于 2008 年创建，其目标用户是希望�
 
 
 
-- 初级操作系统**：
+- 初级操作系统：
 
 elementary OS 于 2011 年推出，是一款基于 Ubuntu 的发行版，主要侧重于 Interface 的设计和一致性。它的 Pantheon 桌面环境受到 macOS 的启发，简约、优雅、流畅。不过，与其他发行版相比，该系统的可定制性仍然较低，一些高级用户可能会因 Interface 的选择及其刻意锁定的结构而感到受限。它非常适合对美学敏感、寻求简单连贯的日常使用系统的用户。
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- 流行操作系统**：
+- 流行操作系统：
 
 
 
@@ -1140,7 +1140,7 @@ Pop!OS 由美国公司 System76 开发，同样基于 Ubuntu。它既面向桌�
 
 
 
-- Fedora**（工作站或 KDE Plasma）：
+- **Fedora**（工作站或 KDE Plasma）：
 
 
 
@@ -1154,7 +1154,7 @@ Fedora 是由 Red Hat 支持的发行版，面向最新技术（Wayland、PipeWi
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE**（Tumbleweed 或 Leap）：
+- **openSUSE**（Tumbleweed 或 Leap）：
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE 可作为滚动发行版或稳定发行版提供。它采用 YaST 工�
 
 
 
-- Debian**：
+- **Debian**：
 
 
 
@@ -1182,7 +1182,7 @@ Debian 有多个分支，包括 *Stable*（非常可靠，但软件较老）和 
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**：
+- **Manjaro**：
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro 以 Arch 为基础，使 Arch Linux 更易于使用。该发行版提供
 
 
 
-- Arch Linux**：
+- **Arch Linux**：
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### 专业配送
 
-- Kali Linux**：
+- **Kali Linux**：
 
 Kali Linux 是一个基于 Debian 的发行版，专为渗透测试和安全审计而设计。它包含数百个 pentest 工具。该发行版并不适合作为日常使用的主要系统。
 
@@ -1224,7 +1224,7 @@ Kali Linux 是一个基于 Debian 的发行版，专为渗透测试和安全审�
 
 
 
-- 鹦鹉操作系统**：
+- **鹦鹉操作系统**：
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS 也源自 Debian。它提供了一个用于五项测试、攻击性安
 
 
 
-- 尾巴**：
+- 尾巴：
 
 
 
@@ -1246,7 +1246,7 @@ Tails 是一款基于 Debian、注重隐私的实时发行版。所有内容都�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **注：** Live 发行版是一种 Linux 操作系统，可直接从 U 盘或 CD 使用，无需在 Hard 磁盘上安装。
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating%20system/tails-15108
 
 
 
-- Qubes 操作系统**：
+- **Qubes 操作系统**：
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS 基于 Fedora，使用 Xen 虚拟化系统来划分使用范围。每�
 
 
 
-- BlackArch**：
+- **BlackArch**：
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch 是 Arch Linux（如 Debian 上的 Kali）的一个面向五项测试�
 
 
 
-- 纯操作系统**：
+- 纯操作系统：
 
 
 
@@ -1300,9 +1300,9 @@ PureOS 是由 Purism 开发的 Debian 衍生发行版，完全免费（经 FSF �
 
 
 
-- Raspberry Pi 操作系统**：
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-
+- **Raspberry Pi 操作系统**：
 
 Raspberry Pi OS（前身为 Raspbian）是专为 Raspberry Pi 微型计算机优化的发行版。它基于 Debian，并针对 ARM 架构重新编译了软件包。它可用于教育项目、电子测试或小型个人服务器。
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS（前身为 Raspbian）是专为 Raspberry Pi 微型计算机优
 
 
 
-- Whonix**：
+- **Whonix**：
 
 
 
@@ -1326,36 +1326,23 @@ Whonix 采用双虚拟机架构（网关 + 工作站），将 Debian 与 Tor 网
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 这幅全景图为你提供了当前 Linux 发行版生态系统的概览，使你能够选择最适合你的技术特征和目标的发行版。
-
-
 
 在 SCU202 的下一章，我们将从构成日常系统交互基础的图形环境入手，更深入地了解实用的 Linux 环境。
 
-
-
 ## Linux 桌面环境
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 在 GNU/Linux 系统中，桌面环境是用户体验中最重要的部分之一。它是图形化的 Layer，通过窗口、菜单、图标、面板和预装的应用程序等熟悉的视觉表现形式，实现与系统的交互。
-
-
 
 在本章中，我将探讨桌面环境的结构和作用、其典型组件、可用的主要系列、选择标准及其与最流行的 Linux 发行版的集成。
 
-
-
 ### 什么是办公环境？
 
-
-
 桌面环境（或 "*DE*"，意为 "*桌面环境*"）是指构成操作系统完整图形 Interface 的一组程序。在 Windows 和 macOS 系统中，默认情况下提供的是集成到系统中的单一桌面环境，无法对其进行完全修改（只有某些 shell 可以对 Interface 进行部分修改）。另一方面，Linux 系统的模块化程度要高得多，它将桌面环境视为可自由更换的独立组件。
-
-
 
 在 Linux 中，明确区分所有层级非常重要：内核（管理与硬件的交互）、显示服务器（通过内核充当应用程序、图形驱动程序和硬件之间的中介），最后是桌面环境本身，它依赖这些基础架构为用户提供连贯的图形 Interface。这种区分有时并不那么明显，因为许多 Linux 发行版都预装了桌面环境，其中有时包括自己的 Wayland 合成器，然后充当显示服务器。
 
@@ -1375,55 +1362,55 @@ Linux 发行版中的桌面环境并不是一个单一的应用程序，而是�
 
 
 
-- 窗口管理器**：绘制窗口边框、管理其位置、大小调整和过渡效果...例如Mutter (GNOME)、KWin (KDE Plasma)、Xfwm (Xfce)。
+- 窗口管理器：绘制窗口边框、管理其位置、大小调整和过渡效果...例如Mutter (GNOME)、KWin (KDE Plasma)、Xfwm (Xfce)。
 
 
 
 
 
-- 文件管理器**：允许你浏览目录树，以可视方式复制、移动或删除文件。例如Nautilus (GNOME)、Dolphin (KDE)、Thunar (Xfce)。
+- 文件管理器：允许你浏览目录树，以可视方式复制、移动或删除文件。例如Nautilus (GNOME)、Dolphin (KDE)、Thunar (Xfce)。
 
 
 
 
 
-- 配置中心**：这是一套工具，用户无需通过命令行即可修改系统参数：外观、壁纸、用户管理、网络、外设......
+- **配置中心**：这是一套工具，用户无需通过命令行即可修改系统参数：外观、壁纸、用户管理、网络、外设......
 
 
 
 
 
-- 系统小程序**：这些是任务栏（或 "面板"）上的小图标和交互式模块，如声音控制、电池电量、网络连接、时钟......
+- 系统小程序：这些是任务栏（或 "面板"）上的小图标和交互式模块，如声音控制、电池电量、网络连接、时钟......
 
 
 
 
 
-- 面板或仪表盘**：通常位于屏幕顶部或底部的可见栏，包含主菜单、系统小程序、快捷方式、通知区等。
+- 面板或仪表盘：通常位于屏幕顶部或底部的可见栏，包含主菜单、系统小程序、快捷方式、通知区等。
 
 
 
 
 
-- 会话管理器**：在启动时运行，显示登录屏幕并启动所选图形会话。例如GDM (GNOME)、SDDM (KDE)、LightDM (Xfce)。
+- **会话管理器**：在启动时运行，显示登录屏幕并启动所选图形会话。例如GDM (GNOME)、SDDM (KDE)、LightDM (Xfce)。
 
 
 
 
 
-- 通知管理器**：管理系统通知（消息、警报、更新等）的显示。例如：dunst、Plasma-notifier、xfce4-notifyd。
+- 通知管理器：管理系统通知（消息、警报、更新等）的显示。例如：dunst、Plasma-notifier、xfce4-notifyd。
 
 
 
 
 
-- X11 合成器（可选）**：在窗口管理器不支持合成的环境中添加视觉效果（阴影、透明度、动画）。例如：Compton、Picom。
+- X11 合成器（可选）：在窗口管理器不支持合成的环境中添加视觉效果（阴影、透明度、动画）。例如：**Compton、Picom**。
 
 
 
 
 
-- 显示服务器**：这是处理系统（通过内核和图形驱动程序）与图形应用程序之间通信的软件。它在屏幕上显示窗口，并管理键盘和鼠标输入。显示服务器通常是桌面环境的一个不同组件，但越来越多的系统开始采用 Wayland，这是一种现代协议，窗口管理器（如 GNOME 下的 Mutter 或 KDE 下的 KWin）可以直接接管显示服务器的角色。这就是所谓的 "Wayland 合成"。
+- **显示服务器**：这是处理系统（通过内核和图形驱动程序）与图形应用程序之间通信的软件。它在屏幕上显示窗口，并管理键盘和鼠标输入。显示服务器通常是桌面环境的一个不同组件，但越来越多的系统开始采用 Wayland，这是一种现代协议，窗口管理器（如 GNOME 下的 Mutter 或 KDE 下的 KWin）可以直接接管显示服务器的角色。这就是所谓的 "Wayland 合成"。
 
 
 
@@ -1823,7 +1810,7 @@ Ubuntu 桌面有两个版本：
 
 
 
-- LTS（*长期支持）
+- LTS（*长期支持*）
 - 最新版本
 
 
@@ -1890,7 +1877,7 @@ Ubuntu 的 LTS 版本与非 LTS 版本的主要区别在于支持期限和稳定
 
 
 
-- 与 Windows 同时安装（*双启动*）**
+- 与 Windows 同时安装（**双启动**）
 
 
 
@@ -1915,7 +1902,7 @@ Ubuntu 的 LTS 版本与非 LTS 版本的主要区别在于支持期限和稳定
 
 
 
-- 全面更换窗户**
+- 全面更换窗户
 
 
 
@@ -2033,10 +2020,10 @@ sudo reboot
 
 
 
-- main**：由 Canonical 官方维护的自由软件。例如火狐、LibreOffice、bash
-- 限制**：对硬件正常运行至关重要的非自由软件。例如英伟达驱动程序、Wi-Fi 固件、专有编解码器
-- universe**：由社区维护的自由软件。例如GIMP、Inkscape、Audacity
-- multiverse**：软件受法律限制（专利、非免费许可）。可用性可能因国家而异。例如：某些音频/视频编解码器、Steam
+- **main**：由 Canonical 官方维护的自由软件。例如火狐、LibreOffice、bash
+- **限制**：对硬件正常运行至关重要的非自由软件。例如英伟达驱动程序、Wi-Fi 固件、专有编解码器
+- **universe**：由社区维护的自由软件。例如GIMP、Inkscape、Audacity
+- **multiverse**：软件受法律限制（专利、非免费许可）。可用性可能因国家而异。例如：某些音频/视频编解码器、Steam
 
 
 
@@ -2093,7 +2080,7 @@ ls -lah
 
 
 
-- `-l`:"长*"模式，显示权限、大小、用户、日期...
+- `-l`:"长"模式，显示权限、大小、用户、日期...
 - `-a`：也显示隐藏文件（以点开头的文件）。
 - `-h`:"*人可读*"，显示可读格式的大小（KB、MB......）。
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### 办公套件
 
 
@@ -3216,7 +3204,7 @@ sudo apt update && sudo apt upgrade
 
 
 
-*来源：[蜂巢系统]()*[Hive Systems](https://www.hivesystems.com/)*
+*来源：[蜂巢系统](https://www.hivesystems.com/)*[Hive Systems](https://www.hivesystems.com/)
 
 
 
@@ -3553,7 +3541,7 @@ https://planb.network/tutorials/computer-security/operating-system/virtualbox-64
 
 
 
-- Windows* 操作系统
+- **Windows** 操作系统
 
 
 
@@ -3577,7 +3565,7 @@ Settings → Windows Update → Check for updates
 
 
 
-- Linux* 操作系统
+- **Linux** 操作系统
 
 
 
@@ -3630,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- MacOS* 操作系统
+- **MacOS** 操作系统
 
 
 
@@ -3666,25 +3654,25 @@ macOS 会通过同一菜单中的 "*自动更新*"选项自动下载安全、系
 
 
 
-- 网络浏览器*：它们处于攻击的最前沿，因为它们实时处理未经验证的内容，攻击面特别大。此外，它们在保护个人数据方面也发挥着核心作用。最重要的是，它们往往会取代许多以前在本地使用的软件应用程序（电子邮件客户端、办公套件、媒体播放器......）。不过，我们将在 SCU202 课程的下一节再讨论这一点；
+- 网络浏览器：它们处于攻击的最前沿，因为它们实时处理未经验证的内容，攻击面特别大。此外，它们在保护个人数据方面也发挥着核心作用。最重要的是，它们往往会取代许多以前在本地使用的软件应用程序（电子邮件客户端、办公套件、媒体播放器......）。不过，我们将在 SCU202 课程的下一节再讨论这一点；
 
 
 
 
 
-- 邮件客户端*：它们从外部来源接收的附件或链接是不可控的，因此存在风险；
+- 邮件客户端：它们从外部来源接收的附件或链接是不可控的，因此存在风险；
 
 
 
 
 
-- 通信工具*（TeamViewer、Zoom、Signal、Teams......）：由于其交互性，它们成为间谍攻击或远程控制企图的目标。与电子邮件客户端一样，通信工具也可被用作网络钓鱼或分发恶意附件的载体；
+- 通信工具（TeamViewer、Zoom、Signal、Teams......）：由于其交互性，它们成为间谍攻击或远程控制企图的目标。与电子邮件客户端一样，通信工具也可被用作网络钓鱼或分发恶意附件的载体；
 
 
 
 
 
-- 杀毒软件、防火墙和其他检测解决方案*：这些工具通常享有更高的权限，因为它们会持续扫描您的文件、进程和网络连接。过期的签名库、不良的配置或软件本身的漏洞都可能使恶意软件无法被发现，甚至获得更高的权限。
+- 杀毒软件、防火墙和其他检测解决方案：这些工具通常享有更高的权限，因为它们会持续扫描您的文件、进程和网络连接。过期的签名库、不良的配置或软件本身的漏洞都可能使恶意软件无法被发现，甚至获得更高的权限。
 
 
 
@@ -3905,7 +3893,7 @@ sudo apt autoremove
 
 
 
-- Microsoft Defender*：在 Windows 系统中，拥有一款好的杀毒软件是基本的必要条件。多年来，系统内置的杀毒软件 Microsoft Defender（前身为 Windows Defender）一直被认为不可靠，因此推荐使用第三方解决方案。但随着时间的推移，这款软件已经有了很大的改进，在我看来，现在已经足以为个人使用提供基本的保护。尽管如此，我们也不能高估杀毒软件的作用：首先，您自己的数字实践才能确保您的安全。Defender 的优势之一是与 Windows 的原生集成。除了实时保护外，它还提供全面扫描，您可以安排每周扫描或定期手动运行。
+- **Microsoft Defender**：在 Windows 系统中，拥有一款好的杀毒软件是基本的必要条件。多年来，系统内置的杀毒软件 Microsoft Defender（前身为 Windows Defender）一直被认为不可靠，因此推荐使用第三方解决方案。但随着时间的推移，这款软件已经有了很大的改进，在我看来，现在已经足以为个人使用提供基本的保护。尽管如此，我们也不能高估杀毒软件的作用：首先，您自己的数字实践才能确保您的安全。Defender 的优势之一是与 Windows 的原生集成。除了实时保护外，它还提供全面扫描，您可以安排每周扫描或定期手动运行。
 
 
 
@@ -3915,12 +3903,12 @@ sudo apt autoremove
 
 
 
-- Sysinternals Suite*：这是微软提供的一套更高级的工具，用于诊断、监控和排除 Windows 故障。以下是该套件中的主要工具：
-    - 进程监控器*：可让您实时观察活动进程、文件访问、寄存器等；
+- **Sysinternals Suite**：这是微软提供的一套更高级的工具，用于诊断、监控和排除 Windows 故障。以下是该套件中的主要工具：
+- 进程监控器：可让您实时观察活动进程、文件访问、寄存器等；
     - 自动运行*：显示启动时启动的所有程序，帮助你快速检测出持续存在的恶意软件或不应该运行的应用程序；
-    - 进程资源管理器*：监控进程并检测可疑行为；
-    - TCPView*：可视化活动网络连接（检测异常连接） ；
-    - Sigcheck*：检查文件上的数字签名是否有恶意代码。
+- 进程资源管理器：监控进程并检测可疑行为；
+- **TCPView**：可视化活动网络连接（检测异常连接）；
+- **Sigcheck**：检查文件上的数字签名是否有恶意代码。
 
 
 
@@ -3930,7 +3918,7 @@ sudo apt autoremove
 
 
 
-- GlassWire*：一款网络监控工具。它能实时跟踪传入和传出连接，并对异常活动发出警报。
+- **GlassWire**：一款网络监控工具。它能实时跟踪传入和传出连接，并对异常活动发出警报。
 
 
 
@@ -3948,7 +3936,7 @@ sudo apt autoremove
 
 
 
-- Fail2ban*：监控系统日志中的不成功访问尝试（如暴力 SSH 登录尝试）。检测到可疑行为时，它会通过 `iptables` 暂时禁止违规 IP Address；
+- **Fail2ban**：监控系统日志中的不成功访问尝试（如暴力 SSH 登录尝试）。检测到可疑行为时，它会通过 `iptables` 暂时禁止违规 IP Address；
 
 
 
@@ -3958,7 +3946,7 @@ sudo apt autoremove
 
 
 
-- Lynis*：一款全面的安全审计工具，可分析系统中的错误配置、已知弱点或偏离最佳实践的情况。它会生成一份易于阅读的报告，其中包含安全评分和建议。
+- **Lynis**：一款全面的安全审计工具，可分析系统中的错误配置、已知弱点或偏离最佳实践的情况。它会生成一份易于阅读的报告，其中包含安全评分和建议。
 
 
 
@@ -3977,7 +3965,7 @@ macOS 以其安全性而闻名，这主要得益于它的应用程序签名策�
 
 
 
-- KnockKnock*：扫描所有配置为在启动时运行的 Elements（代理、守护进程、内核模块......），并识别潜在可疑、未签名或未知的 Elements。它能让你快速识别系统中的恶意持续程序。
+- **KnockKnock**：扫描所有配置为在启动时运行的 Elements（代理、守护进程、内核模块......），并识别潜在可疑、未签名或未知的 Elements。它能让你快速识别系统中的恶意持续程序。
 
 
 
@@ -4561,7 +4549,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4574,7 +4562,7 @@ https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a
 
 
 
-*通过终端***
+**通过终端**
 
 
 
@@ -4820,7 +4808,7 @@ sudo apt install -y gnome-disk-utility
 
 
 
-- 视窗：**
+- 视窗：
 
 
 
@@ -4866,7 +4854,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 对于外部存储介质（Hard 磁盘、U 盘等），可使用磁盘实用程序进行加密。您需要完全重新格式化卷：
 
 - 选择设备，点击 "*删除*"。
-- 选择 "GUID* 分区表 "方案
+- 选择 "GUID 分区表" 方案
 - 然后选择加密文件系统格式（*APFS* 或 *Mac OS 扩展*）。
 - 选择一个强大的密码
 - 点击 "*删除*"，然后点击 "*确定*"，加密完成
@@ -4946,7 +4934,7 @@ sudo apt install libimage-exiftool-perl
 
 
 
-- 步骤 2：查看文件元数据**（法语）
+- 步骤 2：查看文件元数据**（法语）**
 
 
 
@@ -5692,7 +5680,7 @@ Brave 是 Chrome 浏览器的强大替代品，集速度、增强的安全性、
 
 
 
-- 弧形** ：
+- **弧形**：
 
 
 
@@ -5710,7 +5698,7 @@ Brave 是 Chrome 浏览器的强大替代品，集速度、增强的安全性、
 
 
 
-- 聚氨酯** ：
+- **聚氨酯**：
 
 
 
@@ -5754,6 +5742,7 @@ Mozilla 是一个非营利组织，这使它相对独立于纯粹的商业利益
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor 浏览器
 
 
@@ -5774,15 +5763,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### Mullvad 浏览器
 
-
-
 [Mullvad 浏览器](https://mullvad.net/en/browser) 是 Tor 基金会和 Mullvad VPN 合作的成果。它基于 Tor 浏览器，而 Tor 浏览器本身则源自 Firefox ESR。Mullvad 浏览器旨在最大限度地保护用户隐私。默认情况下，它包括针对指纹识别、跟踪器和第三方脚本的高级保护。
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 它拥有 Tor 浏览器提供的大部分安全和隐私功能，但有一点不同：它不会通过 Tor 网络重定向流量。为了避免 IP Address 泄露，你可以将它与 VPN（最好是 Mullvad VPN）结合使用。
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### 禅宗浏览器
-
-
 
 [Zen 浏览器](https://zen-browser.app/) 是一款基于 Firefox（Gecko 引擎）的免费开源浏览器，于 2024 年推出。它的目标是提供现代、优雅、高度可定制且最重要的是以隐私为中心的浏览体验，而不依赖 Chromium。
 
-
-
 Zen 在 Interface 和可用性方面采用了激进的方法，主要受到 Arc 浏览器的启发，但又通过其开源性质和 Gecko 引擎从 Arc 浏览器中解放出来。它包括 ：
-
-
-
 
 - 这是一款极简的模块化 Interface，具有垂直侧边栏标签、分割视图和按项目分组标签的*工作区*系统；
 - 可定制的 Interface 模板系统（*Zen Mods*），可用于深度修改浏览器的外观；
 - 一个名为 *Glance* 的原创功能，可在轻量级临时窗口中打开链接，避免标签页的杂乱无章...
 
-
-
 Zen 还支持 Firefox 扩展，以及通过 Mozilla 账户进行同步。
-
-
 
 从安全和隐私的角度来看，Zen 浏览器具有本地阻止第三方跟踪器的功能。该浏览器本身不收集任何数据，还允许禁用 Mozilla 遥测技术。它还能自动拒绝过时或不合规的 SSL 证书。
 
-
-
 如果你正在寻找一个自由、创新、简洁、尊重隐私的 Gecko 浏览环境，Zen 浏览器是一个有趣的替代选择。
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### 基于 WebKit 的浏览器
 
-
-
 #### 野生动物园
-
-
 
 目前仍在使用 WebKit 渲染引擎（而非 Blink 那样的 Fork）的主要浏览器是 Safari。[Safari](https://www.apple.com/safari/)是苹果为 macOS 提供的专属浏览器。它与苹果生态系统的集成度极高，性能卓越，现在还包括更强大的跟踪和指纹识别保护功能。
 
-
-
 然而，Safari 仍然是封闭的，其桌面版本仅限于 macOS，并且依赖于苹果生态系统。虽然苹果公司有严格的隐私政策，其商业模式主要基于硬件销售而非广告，但它对某些内部做法仍不清楚。
-
-
 
 在这里，我们重点讨论的是桌面浏览器，但需要注意的是，在 iOS 上，苹果要求所有浏览器都使用 WebKit 渲染引擎（不过，由于欧洲的某些规定，这一限制可能很快就会改变）。这意味着在 iOS 上，Chrome、Firefox 或 Brave 等浏览器必须提供基于 WebKit 的应用程序，而不是它们常用的呈现引擎。
 
@@ -5889,6 +5855,7 @@ Orion 完全由 Kagi 团队（以其无广告搜索引擎而闻名）开发。�
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### 无渲染引擎的浏览器
 
 
@@ -6223,25 +6190,25 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- 分析 URL**：攻击者通常使用与原文非常接近的地址（如 "micr0soft-support.com"、"paypal-verif.net "等）。有些攻击者还利用 Unicode 字符来替代视觉上相似的字符。检查 Address 是否与预期网站完全一致，没有可疑的前缀或后缀。
+- 分析 URL：攻击者通常使用与原文非常接近的地址（如 "micr0soft-support.com"、"paypal-verif.net "等）。有些攻击者还利用 Unicode 字符来替代视觉上相似的字符。检查 Address 是否与预期网站完全一致，没有可疑的前缀或后缀。
 
 
 
 
 
-- 避免缩短链接**："bit.ly "或 "t.co "等服务会掩盖最终的 Address。如果您收到缩短链接，请提高警惕，或使用 URL 扩展服务检查其目的地。
+- 避免缩短链接："bit.ly "或 "t.co "等服务会掩盖最终的 Address。如果您收到缩短链接，请提高警惕，或使用 URL 扩展服务检查其目的地。
 
 
 
 
 
-- 谨防危言耸听的信息**：网络钓鱼企图往往利用强烈的情绪（紧迫感、威胁、奖励、好奇心......）。声称您的账户即将被冻结或包裹无法送达的电子邮件自然会引起怀疑。
+- 谨防危言耸听的信息：网络钓鱼企图往往利用强烈的情绪（紧迫感、威胁、奖励、好奇心......）。声称您的账户即将被冻结或包裹无法送达的电子邮件自然会引起怀疑。
 
 
 
 
 
-- 切勿通过接收到的链接传输敏感信息**：合法机构绝不会通过简单的电子邮件或短信要求您提供密码、验证码或身份证扫描件。
+- 切勿通过接收到的链接传输敏感信息：合法机构绝不会通过简单的电子邮件或短信要求您提供密码、验证码或身份证扫描件。
 
 
 
@@ -6251,7 +6218,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- 通过书签访问重要网站**：
+- 通过书签访问重要网站：
 
 
 
@@ -6265,7 +6232,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- 尊重良好的认证做法** ：
+- **尊重良好的认证做法**：
 
 
 
@@ -6283,7 +6250,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- 检查 SSL/TLS** 证书：
+- 检查 **SSL/TLS** 证书：
 
 
 
@@ -6329,19 +6296,19 @@ Address 栏中的挂锁图标表示连接已加密，但并不保证网站的合
 
 
 
-- 使用多个不同的浏览器**：例如，个人使用 Firefox，敏感活动使用 Tor 或 Mullvad，专业任务使用 Chromium。每个浏览器都使用自己的存储实例，可以完全隔离 cookie、会话和扩展。这样，您还可以根据具体使用情况调整浏览器设置。
+- 使用多个不同的浏览器：例如，个人使用 Firefox，敏感活动使用 Tor 或 Mullvad，专业任务使用 Chromium。每个浏览器都使用自己的存储实例，可以完全隔离 cookie、会话和扩展。这样，您还可以根据具体使用情况调整浏览器设置。
 
 
 
 
 
-- 在一个浏览器中创建多个配置文件**：有些浏览器允许你创建独立的配置文件，每个配置文件都有自己的历史记录、会话、扩展和设置。与使用多个独立浏览器相比，这种解决方案的限制稍少，但效果仍然较差。
+- 在一个浏览器中创建多个配置文件：有些浏览器允许你创建独立的配置文件，每个配置文件都有自己的历史记录、会话、扩展和设置。与使用多个独立浏览器相比，这种解决方案的限制稍少，但效果仍然较差。
 
 
 
 
 
-- 使用内置容器**：Firefox 提供[多账户容器]扩展 (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)，让你可以打开独立的标签页，每个标签页都有自己的登录名和 cookies。你还可以自动将某些网站分配到特定的容器中，以便每次打开时都能将它们分开。
+- 使用内置容器：Firefox 提供[多账户容器]扩展 (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)，让你可以打开独立的标签页，每个标签页都有自己的登录名和 cookies。你还可以自动将某些网站分配到特定的容器中，以便每次打开时都能将它们分开。
 
 
 
@@ -6351,7 +6318,7 @@ Address 栏中的挂锁图标表示连接已加密，但并不保证网站的合
 
 
 
-- 使用隔离的系统环境**：对于特别敏感的用途，您也可以在虚拟机或 Docker 容器中运行浏览器，使其与主环境完全分离。
+- 使用隔离的系统环境：对于特别敏感的用途，您也可以在虚拟机或 Docker 容器中运行浏览器，使其与主环境完全分离。
 
 
 
@@ -6517,7 +6484,7 @@ Address 栏中的挂锁图标表示连接已加密，但并不保证网站的合
 但在 2007 年 1 月，一个事件标志着智能手机历史上的一个重要转折点：史蒂夫-乔布斯发布了第一代 iPhone。人们普遍认为物理键盘是不可或缺的，但这一观点被打破了。iPhone 推出了一款专为全触控使用而设计的设备，一举重新定义了市场预期。
 
 
-面对这场革命，谷歌不得不彻底重新考虑其安卓项目的方向，以使其与触摸感应式 Interface 兼容。2007 年晚些时候，谷歌正式推出了基于修改过的 Linux 内核的开源项目 Android，并将其命名为 "Android 开源项目（AOSP）*"。
+面对这场革命，谷歌不得不彻底重新考虑其安卓项目的方向，以使其与触摸感应式 Interface 兼容。2007 年晚些时候，谷歌正式推出了基于修改过的 Linux 内核的开源项目 Android，并将其命名为 "Android 开源项目（AOSP）"。
 
 
 市场上第一款搭载安卓系统的设备 HTC Dream 于 2008 年发布。它提供了一个仍很初级但完全开放的环境：制造商和运营商可以根据自己的需要自由调整系统，而开发人员则可以创建和发布应用程序，无需事先验证。这种方法很快赢得了一个活跃的社区，并促使许多制造商广泛采用安卓系统。
@@ -6529,7 +6496,7 @@ Address 栏中的挂锁图标表示连接已加密，但并不保证网站的合
 *来源 : [作者：Akela NDE - 自己的作品](https://commons.wikimedia.org/w/index.php?curid=6680413), CC BY-SA 3.0*
 
 
-不过，这种最初的开放性将逐渐受到谷歌的限制。除了 AOSP 开源代码外，该公司还在开发一套专有应用程序和 API，并将其归纳为 "谷歌移动服务（GMS）"*。这些将逐步包括 Play Store、谷歌地图、YouTube、谷歌播放服务、Gmail、Chrome 浏览器和语音助手。为了能够预装 Play Store，制造商现在必须与谷歌签署一份许可协议，并保证其设备与 GMS 标准兼容，这严重限制了他们的定制范围。
+不过，这种最初的开放性将逐渐受到谷歌的限制。除了 AOSP 开源代码外，该公司还在开发一套专有应用程序和 API，并将其归纳为"谷歌移动服务（GMS）"。这些将逐步包括 Play Store、谷歌地图、YouTube、谷歌播放服务、Gmail、Chrome 浏览器和语音助手。为了能够预装 Play Store，制造商现在必须与谷歌签署一份许可协议，并保证其设备与 GMS 标准兼容，这严重限制了他们的定制范围。
 
 
 安卓经历了快速崛起：早在 2011 年 7 月，它的市场份额就超过了 iOS，并在 2012 年 6 月成为移动操作系统的霸主，而在诺基亚放弃 SymbianOS 转而使用 Windows Phone 之后，它又突然倒下。此后，安卓一直是移动市场无可争议的领导者，如今与 iOS 形成双头垄断。
@@ -6659,7 +6626,7 @@ GrapheneOS 不集成任何专有组件。您可以自由添加或不添加 Googl
 Graphene 仅与最近的 Google Pixels（Pixel 6、7、8 和 9）兼容。
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6839,7 +6806,7 @@ CalyxOS 提供了一种有趣的平衡。用户体验依然接近标准的安卓
 #### 使用单独的专业简介
 
 
-工作配置文件*是安卓系统（自安卓 5.0 起）的一项原生功能，它允许您在同一部智能手机中创建一个独立的软件分区。在实际应用中，该配置文件的功能是一个隔离的容器：存储在此空间中的应用程序、账户和数据无法与个人配置文件中的应用程序、账户和数据交互。这种分离可以防止两个空间之间的数据泄漏，并限制应用程序的访问权限。这一功能通常由公司内部管理，但也有个人使用它来隔离应用程序的方法。
+工作配置文件是安卓系统（自安卓 5.0 起）的一项原生功能，它允许您在同一部智能手机中创建一个独立的软件分区。在实际应用中，该配置文件的功能是一个隔离的容器：存储在此空间中的应用程序、账户和数据无法与个人配置文件中的应用程序、账户和数据交互。这种分离可以防止两个空间之间的数据泄漏，并限制应用程序的访问权限。这一功能通常由公司内部管理，但也有个人使用它来隔离应用程序的方法。
 
 
 ![Image](assets/fr/143.webp)
@@ -7075,7 +7042,7 @@ Telegram 因其人性化设计和功能（公共频道、机器人、大型群�
 因此，从技术上讲，Telegram 可以访问大多数未明确保护的对话内容。即使 Telegram 对政府当局采取坚定的立场，它也不是保密或敏感交流的最佳解决方案，除非你明确使用它的 "秘密交流"，但这在日常工作中并不实用。
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### 特雷玛
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile 是 Mozilla 基金会开发的流行开源电子邮件客户�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis 是一款全面的开源应用程序。它用密码加密你的2FA数据�
 Ente Auth 是一个现代化、开源、多平台的解决方案，具有端到端加密备份功能。它能让您在手机、桌面和网络上安全地同步 2FA 代码。您还可以离线使用它，无需云备份或创建账户。
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth 还提供许多附加功能：按标签组织、为每项服务定制图标、备注、收藏、集成搜索、安全团队代码共享。
 
 
@@ -7642,6 +7611,7 @@ Authy 可在多台设备上同步使用 2FA，非常方便，但它不是开源�
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 如果您想了解有关密码管理器、2FA 身份验证和 VPN 的更多信息，我建议您阅读 SCU-101 课程中的专门章节：
 
 
@@ -8035,10 +8005,11 @@ Chrono 可在 F-Droid 上使用，完全开源，提供现代、简洁的 Interf
 该程序还集成了计时器和秒表，具有单圈记录、统计、时间比较和多计时器管理功能。您可以配置多个时区，自定义主题（颜色、样式、动画），甚至可以用标签来组织闹钟和计时器。
 
 
+为了更深入地了解该主题，我建议您访问网站 [*Awesome Privacy*](https://awesome-privacy.xyz/)，该网站列出了您日常使用的软件的最佳隐私友好型替代方案。
 ___
 
 
-⚠️ ***注意**：尽管本章介绍的替代方案大多是开源和面向隐私的，但它们并非没有局限性或风险。有些可能会停止维护、存在未修补的漏洞、成为专有软件，甚至可能是恶意软件。有些在你当地的司法管辖区也可能是非法的。本章写于 2025 年 6 月，但此后这些应用程序的情况可能会发生变化。
+⚠️ **注意**：尽管本章介绍的替代方案大多是开源和面向隐私的，但它们并非没有局限性或风险。有些可能会停止维护、存在未修补的漏洞、成为专有软件，甚至可能是恶意软件。有些在你当地的司法管辖区也可能是非法的。本章写于 2025 年 6 月，但此后这些应用程序的情况可能会发生变化。
 
 
 此外，我没有亲自审核过所有提及工具的代码，我的建议绝不应被视为绝对保证。因此，在使用这些应用程序之前，每个人都必须进行自己的研究。
@@ -8099,8 +8070,8 @@ ___
 
 
 
-- IP**（*互联网协议*）标识每个连接的设备并路由数据包。
-- TCP**（*传输控制协议*）对数据流进行分段，检查错误，并将分段按顺序排列。
+- **IP**（*互联网协议*）标识每个连接的设备并路由数据包。
+- **TCP**（*传输控制协议*）对数据流进行分段，检查错误，并将分段按顺序排列。
 
 
 → 对于可靠性不如延迟重要的实时应用（VoIP、DNS、流媒体等），通常使用另一种传输协议来代替 TCP：UDP（*用户数据报协议*）。
@@ -8127,21 +8098,21 @@ ___
 在大多数现代家庭中，上网都是通过一个充当调制解调器和路由器的中央设备来实现的。这种设备的名称因国家而异（在法国，它被称为 "Internet Box"）。正是 ISP 提供的这种多功能设备将您与互联网络的其他部分连接起来。
 
 
-→ *ISP = 互联网服务提供商。
+→ *ISP = 互联网服务提供商。*
 
 
 该设备结合了 2 项主要功能：
 
 
 
-- 调制解调器的作用**
+- **调制解调器的作用**
 
 
 调制解调器（"*调制解调器*"的缩写）是将 ISP 网络连接到家中的组件。它将接收到的电信号或光信号（通过光纤、同轴电缆、ADSL 或移动网络）转换成可被设备理解的数字信号。反之，它还能将来自设备的数据转换成可通过运营商基础设施传输的格式。如果您的家庭网络要与互联网通信，这一步骤是必不可少的。
 
 
 
-- 路由器角色**
+- **路由器角色**
 
 
 路由器是本地网络的核心。它将互联网连接分配给您的所有设备：计算机、智能手机、联网设备、打印机等。路由器为每个设备分配一个本地 IP Address（与互联网上的公共 IP 不同）。然后，路由器会组织进出流量，确保数据到达正确的设备。它还可以集成防火墙、过滤网络数据包或管理端口转发规则。NAT 使用单一公共 IP Address 代表所有设备，将本地网络屏蔽在互联网之外。只有路由器知道哪个本地设备发起了哪个请求。
@@ -8311,16 +8282,24 @@ Wi-Fi（"*Wireless Fidelity*"的缩写）是一种无线通信技术，可让您
 与 Wi-Fi 6、Wi-Fi 6E 或 Wi-Fi 7 兼容的路由器不仅能提高网速，更重要的是能为现代安全技术提供本地支持。相反，非常老旧的设备，尤其是不再接收软件更新的设备，可能包含已知的、未修补的漏洞。因此，即使配置正确，它们也会给整个网络带来风险。与手机或电脑相比，路由器是我们倾向于使用多年的设备。不过，定期更换路由器可能是个好主意，这样可以从更现代、更安全的型号中获益。
 
 
+**注意**：一般来说，互联网服务提供商提供的路由器可能缺少必要的更新功能以及个性化功能。在某些情况下，互联网服务提供商还可能对终端用户的内部网络拥有不受限制的访问权限。
+
 因此，请确保系统地更新路由器固件。这些更新可以修正漏洞、添加新功能并增强系统的整体稳定性。有些制造商提供自动更新，但在某些情况下，您需要通过路由器的 Interface 管理工具手动检查。与手机、电脑、操作系统和软件一样，定期更新路由器也很重要。您可以将此作为每周例行工作的一部分--例如每周日--列出您需要检查并保持更新的所有项目。
 
 
-如果您的路由器已不再维护，但从硬件角度看仍能正常工作，您可以安装其他开源固件，例如
+另一种选择是启用自动更新，或者至少启用自动扫描以查找新的固件更新，如果你更倾向于手动操作的话。尽管自动更新功能仍可能带来安全风险，但如果不定期更新路由器的固件，你的本地网络将暴露于公开已知的漏洞之中。
+
+**示例**：在购买自用路由器时，寻找在行业内长期提供路由器的知名厂商可能是个好主意。例如，Fritz!Box 路由器作为即插即用设备有着长期的良好声誉，既适合家庭环境也适合小型公司使用。它们的软件更新政策通常会持续多年。
+
+如果你的路由器不再维护但从硬件角度仍能正常工作，你可能能够安装替代的开源固件，例如：
 
 
 
 - OpenWrt，路由器专用的 Linux 发行版，具有极大的灵活性，并可定期更新
 - pfSense 和 OPNsense，两个基于 FreeBSD 的（类 Unix）系统，用于 x86 防火墙和路由器
 
+
+**注意**：一些 ISP 向其客户提供由同一家公司批量生产的路由器，该公司同时为全球许多不同的 ISP 提供服务。您可能会发现，为了在路由器上安装某个替代固件，其他人可能已经发现了如何操作，即使他们位于世界另一端。
 
 ![Image](assets/fr/196.webp)
 
@@ -8333,7 +8312,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 这些系统可以对防火墙规则、传出和传入连接、网络分段（VLAN）和 DNS 管理进行更精细的控制，但主要针对高级用户。
 
 
-**总之，我推荐**：
+**总而言之，我建议**:
 
 
 
@@ -8385,21 +8364,21 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-- UPnP（*通用即插即用*）**：
+- UPnP（*通用即插即用*）：
 
 
 该功能可让网络设备要求路由器自动打开端口。这虽然方便了某些用途（网络游戏、连接的摄像头等），但也为恶意应用程序打开了方便之门，它们可以在未经你授权的情况下修改网络配置。UPnP 是导致内部服务无意中暴露于外部世界的主要原因之一。
 
 
 
-- WPS（*Wi-Fi 保护设置*）**：
+- WPS（*Wi-Fi 保护设置*）：
 
 
 该系统最初的设计目的是简化无需输入密码即可将设备连接到 Wi-Fi 的过程，但它基于 PIN 码，而 PIN 码通常比较弱，很容易被暴力破解。我建议你禁用它。
 
 
 
-- 远程访问（*远程管理*）**：
+- 远程访问（*远程管理*）：
 
 
 有些路由器允许您从外部通过互联网连接到其管理的 Interface。此功能会不合理地增加路由器的攻击面。除非您有远程管理的特殊需要，否则请完全禁用它。即便如此，也一定要使用 VPN。
@@ -8408,14 +8387,14 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- 过时或不安全的协议**：
+- **过时或不安全的协议**：
 
 
 禁用任何使用纯文本协议（如 Telnet、FTP、未加密 HTTP 或 SMBv1）的管理服务。 这些协议既不能确保交换数据的保密性，也不能确保其完整性，而且经常成为恶意软件的攻击目标。如果需要本地或远程访问，只能酌情通过 HTTPS（加密的 Interface）、SSH 或 SFTP 进行连接。
 
 
 
-- Ping WAN / ICMP**：
+- Ping WAN / ICMP：
 
 
 有些路由器默认响应从外部发送的 ICMP 请求（"ping "命令）。这样，攻击者就可以检查您的网络是否处于活动状态，是否可以访问。如果不需要，请在路由器防火墙中禁用此响应。
@@ -8504,15 +8483,15 @@ DNS（*域名系统*）是将人类可理解的网址（如 "planb.network"）�
 
 
 
-- DoH（*DNS over HTTPS*）**：将 DNS 请求封装在 HTTPS 协议中，使其与传统的加密网络流量无异
+- DoH（*DNS over HTTPS*）：将 DNS 请求封装在 HTTPS 协议中，使其与传统的加密网络流量无异
 
 
 
-- DoT（*DNS over TLS*）**：在设备和 DNS 服务器之间创建特定加密通道
+- DoT（*DNS over TLS*）：在设备和 DNS 服务器之间创建特定加密通道
 
 
 
-- DoQ（*DNS over QUIC*）**：通过基于 UDP 的 QUIC 协议传输 DNS 请求
+- DoQ（*DNS over QUIC*）：通过基于 UDP 的 QUIC 协议传输 DNS 请求
 
 
 在实际应用中，DNS 加密和服务器切换可以在不同层面上实现：
@@ -8526,6 +8505,7 @@ DNS（*域名系统*）是将人类可理解的网址（如 "planb.network"）�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - 操作系统层面：一些操作系统本机集成了加密 DNS 支持（DoT 或 DoH），可确保通过系统网络堆栈的所有 DNS 请求的安全。但这并不能确保整个计算机或电话的安全：如果将应用程序配置为使用不同的 DNS 解析器或协议，它们可以绕过此设置。
 
 
@@ -8626,3 +8606,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

@@ -26,7 +26,7 @@ Green on erityisen helppokäyttöinen sovellus, mikä tekee siitä mielenkiintoi
 
 Blockstream Green tukee myös Liquid-verkkoa, joka on Blockstreamin kehittämä Bitcoin-sivuketju nopeisiin ja luottamuksellisiin transaktioihin päälohkoketjun ulkopuolella. Tässä opetusohjelmassa keskitymme yksinomaan Bitcoiniin, mutta olen tehnyt myös toisen opetusohjelman, jossa opitaan käyttämään Liquidia Greenissä :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 multisig-vaihtoehto (2FA)
 
@@ -46,7 +46,7 @@ Toinen tämän suojausmenetelmän haittapuoli on se, että sinun on käytettäv�
 
 Jos et halua käyttää 2FA-vaihtoehtoa ja haluat vain perustaa "*singlesig*"-lompakon Greeniin, voit tutustua tähän toiseen ohjeeseen :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Blockstream Green -ohjelmiston asentaminen ja konfigurointi
 
@@ -60,7 +60,7 @@ Android-käyttäjät voivat asentaa sovelluksen myös .apk-tiedoston kautta [saa
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Käynnistä sovellus ja ruksaa "Hyväksyn ehdot...*" -ruutu.
+Käynnistä sovellus ja ruksaa **"Hyväksyn ehdot..."** -ruutu.
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -270,4 +270,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 
 Suosittelen myös tutustumaan tähän muuhun kattavaan oppaaseen Blockstream Green -mobiilisovelluksesta Liquid-lompakon perustamiseksi :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

@@ -1,0 +1,9 @@
+question: Vilken komponent rekommenderas för att skydda en nod i händelse av strömavbrott?
+answer: En inverterare
+wrong_answers:
+  - Ett andra grafikkort
+  - Ytterligare en router
+  - En USB-hubb
+explanation: |
+  En inverterare förhindrar plötsliga avstängningar vid strömavbrott och skyddar nodens stabilitet.
+reviewed: true

@@ -302,7 +302,7 @@ Dê um nome à sua carteira e clique em "*Create Wallet*" (Criar carteira).
 
 ![CCQ](assets/fr/045.webp)
 
-No menu pendente "*Script Type*" (Tipo de script*), escolha o tipo de script que irá proteger os seus bitcoins.
+No menu pendente "**Script Type**" (Tipo de script), escolha o tipo de script que irá proteger os seus bitcoins.
 
 ![CCQ](assets/fr/046.webp)
 

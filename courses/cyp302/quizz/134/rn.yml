@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ubuhinga bwo gukingira amakuru atagira aho bugarukira mu bijanye n’uguhanahana amakuru hagati ya Alice na Bob?
+answer: Kugira ngo Bob ashobore gutanga ubutumwa bw'ibanga kuri Alice akoresheje urufunguzo rwiwe rwa bose
+wrong_answers:
+  - Kugira ngo Bob ishobore gupfuka no gukuraho ubutumwa ata rufunguzo rwa bose
+  - Kugira ngo Alice ntishobore gukuraho ubutumwa bwa Bob
+  - Kugira ngo Alice ishobore gupfuka ubutumwa kugira ngo isuzume ubutungane bwabwo .
+explanation: |
+  Mu bijanye n’ubuhinga bwo gupfuka amakuru ataco akora, urufunguzo rwa bose rwa Alice rurashoboza Bob kohereza ubutumwa bupfutse we wenyene ashobora kubufungura, gutyo ubutumwa bukaba ari ibanga.
+reviewed: false

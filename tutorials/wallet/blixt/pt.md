@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Como começar a utilizar um poderoso nó LN no seu telemóvel?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Este guia é dedicado a todos os novos utilizadores que queiram começar a utilizar o Bitcoin Lightning Network (LN) de uma forma GRATUITA, DE FONTE ABERTA, COMPLETA E NÃO-CUSTODIAL.
@@ -137,7 +137,7 @@ O Address e a mensagem de boas-vindas apresentada desaparecerão. Agora já não
 Agora, vamos abrir outro canal com outro par de nós. A comunidade Blixt elaborou [uma lista de bons nós para começar a utilizar com a Blixt] (https://github.com/hsjoberg/blixt-Wallet/issues/1033).
 
 
-**Procedimento para abrir um canal LN no Blixt
+**Procedimento para abrir um canal LN no Blixt**
 
 
 Isto é muito simples, bastam alguns passos e um pouco de paciência:
@@ -673,7 +673,7 @@ Entretanto, aqui estão todos os links sobre este fantástico Nó Relâmpago Bit
 *Não sou pago ou apoiado de forma alguma pelos criadores desta aplicação. Escrevi este guia porque vi que o interesse por esta aplicação Wallet está a aumentar e os novos utilizadores ainda não sabem como começar a utilizá-la. Também para ajudar o Hampus (o programador principal) com a documentação sobre a utilização deste nó Wallet.*
 
 
-*Não tenho qualquer outro interesse em promover esta aplicação LN, para além de fazer avançar a adoção do Bitcoin e do LN. Esta é a única maneira!
+*Não tenho qualquer outro interesse em promover esta aplicação LN, para além de fazer avançar a adoção do Bitcoin e do LN. Esta é a única maneira!*
 
 
 ---

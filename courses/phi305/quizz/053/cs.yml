@@ -1,0 +1,9 @@
+question: Co představuje Bílá kniha Satoshi Nakamota?
+answer: Decentralizovaný prostředek Exchange na internetu.
+wrong_answers:
+  - Nová liberální politika.
+  - Centralizovaný protokol Exchange.
+  - Politický program.
+explanation: |
+  Bílá kniha Satoshi Nakamoto představuje Bitcoin jako decentralizované médium Exchange na internetu. Navrhuje elektronický platební systém peer-to-peer bez centrální autority.
+reviewed: false

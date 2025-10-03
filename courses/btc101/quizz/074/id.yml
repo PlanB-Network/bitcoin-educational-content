@@ -1,11 +1,9 @@
-question: Di mana sebenarnya bitcoin disimpan?
-answer: Di blockchain Bitcoin
+question: Apa pertanyaan utama tentang kepemilikan mandiri ketika memilih dompet Bitcoin?
+answer: Apakah Anda pemilik dana tersebut ataukah Anda menyerahkan kontrol uang Anda kepada pihak ketiga?
 wrong_answers:
-  - Di dompet Bitcoin
-  - Di perangkat tempat dompet itu terpasang
-  - Di cadangan federal
+  - Apakah dompet tersebut aman dengan passphrase?
+  - Apakah dompet tersebut memungkinkan menerima dan mengirim bitcoin?
+  - Bisakah saya membagikan dompet saya kepada orang lain?
 explanation: |
-  Meskipun kunci privat Anda disimpan di dalam dompet Anda, bitcoin itu sendiri
-  sebenarnya disimpan di blockchain Bitcoin, yang merupakan buku besar terdistribusi publik
-  dalam jaringan peer-to-peer Bitcoin.
+  Ketika memilih dompet Bitcoin, pertanyaan utama adalah: Apakah Anda pemilik dana tersebut ataukah Anda menyerahkan kontrol uang Anda kepada pihak ketiga? Ini karena pemegang kunci privat adalah pemilik Bitcoin tersebut.
 reviewed: true

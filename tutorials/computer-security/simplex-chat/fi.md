@@ -243,7 +243,7 @@ SimpleX luo sitten kertakäyttöisen linkin. Voit välittää sen yhteyshenkilö
 
 
 
-Voit myös valita, minkä profiilin haluat liittää tähän kutsulinkkiin. Voit tehdä niin napsauttamalla profiiliasi heti QR-koodin alapuolella. Voit sitten :
+Voit myös valita, minkä profiilin haluat liittää tähän kutsulinkkiin. Voit tehdä niin napsauttamalla profiiliasi heti QR-koodin alapuolella. Voit sitten:
 
 
 
@@ -313,7 +313,7 @@ Yksi SimpleX:n tehokkaimmista ominaisuuksista on mahdollisuus hallita useita tä
 
 
 
-Voit esimerkiksi luoda :
+Voit esimerkiksi luoda:
 
 
 

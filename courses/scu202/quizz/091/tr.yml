@@ -1,0 +1,9 @@
+question: Hangi protokol bir ağa bağlı cihazlara dinamik olarak yerel bir IP Address atar?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP, yerel ağa bağlanan her yeni cihaza otomatik olarak bir IP Address atar.
+reviewed: false

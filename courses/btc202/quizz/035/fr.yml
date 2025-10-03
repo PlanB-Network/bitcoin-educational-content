@@ -1,0 +1,9 @@
+question: Quel composant est recommandé pour protéger un nœud en cas de coupure de courant ?
+answer: Un onduleur
+wrong_answers:
+  - Une deuxième carte graphique
+  - Un routeur supplémentaire
+  - Un hub USB
+explanation: |
+  Un onduleur évite les extinctions brutales en cas de coupure électrique et protège la stabilité du nœud.
+reviewed: false

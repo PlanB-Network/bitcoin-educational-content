@@ -1,0 +1,9 @@
+question: Milline kaasaegne tööriist asendab arp uuemates Linuxi distributsioonides?
+answer: ip neigh
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - marsruut
+explanation: |
+  ip neigh, mis kuulub iproute2 komplekti, asendab arp-i IP/MAC-ühenduste haldamiseks kaasaegses Linuxis.
+reviewed: false

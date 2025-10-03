@@ -1,10 +1,8 @@
-question: Je! ni kitengo gani cha Bitcoin kinachotumika katika Lightning Network?
-answer: Sats.
+question: Je, Lightning Network inawezaje kutumika kwa kukodisha bidhaa?
+answer: Watumiaji wanaweza kutozwa kwa dakika, au hata kwa sekunde, kwa muda wanaotumia bidhaa.
 wrong_answers:
-  - Zuia.
-  - Etha.
-  - Litecoin.
-explanation: |
-  Lightning Network hutumia satoshis (pia inaitwa Sats), the
-  decimal ya Bitcoin, kufanya kazi.
+  - Watumiaji wanaweza kutozwa ada ya juu kwa kukodisha bidhaa.
+  - Watumiaji wanaweza kutozwa kulingana na thamani ya bidhaa.
+  - Watumiaji wanaweza kutozwa kulingana na hali ya bidhaa.
+explanation: >-
 reviewed: true

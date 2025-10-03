@@ -1,10 +1,10 @@
-question: Mikä on yksi Bitcoinin pääominaisuuksista?
-answer: Sitä voidaan vaihtaa missä päin maailmaa tahansa ilman minkään tahon lupaa.
+question: Mikä on yksi pääsyy siihen, miksi Bitcoin luotiin?
+answer: Ehdottamaan rahoitusjärjestelmän muutosta.
 wrong_answers:
-  - Sitä voi käyttää vain valikoitu joukko ihmisiä.
-  - Sen käyttö vaatii luvan keskusviranomaiselta.
-  - Sitä voi käyttää vain tietyissä maissa.
+  - Ehdottamaan rahan poistamista.
+  - Ehdottamaan uudenlaisen tekoälyteknologian luomista.
+  - Ehdottamaan maailman väestön hallinnan ottamista.
 explanation: |
-  Tekstissä mainitaan, että Bitcoin on pseudonyymi ja sitä voidaan
-  vaihtaa missä päin maailmaa tahansa ilman minkään tahon lupaa.
+  Tekstissä mainitaan, että Satoshi Nakamoto loi Bitcoinin
+  vuonna 2008 ehdottaakseen rahoitusjärjestelmän muutosta.
 reviewed: true

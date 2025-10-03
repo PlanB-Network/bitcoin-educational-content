@@ -1,0 +1,9 @@
+question: Proč má soubor UTXO v průběhu času tendenci strukturálně růst?
+answer: Každá platba zpravidla vytvoří dva nové UTXO
+wrong_answers:
+  - Konvenční platby nespotřebovávají žádný UTXO na vstupu
+  - Každá jednotka Fork násobí počet stávajících jednotek UTXO
+  - Počet bitcoinů, které lze vytvořit, je nekonečný
+explanation: |
+  Platební transakce spotřebuje jeden UTXO a často znovu vytvoří dva (platba + Exchange), čímž se celková velikost sady zvětší.
+reviewed: true

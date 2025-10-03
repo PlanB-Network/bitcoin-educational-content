@@ -467,7 +467,7 @@ Ikiwa ungependa kutumia *Udhibiti wa Sarafu*, yaani, chagua mwenyewe UTXO unazot
 
 
 
-Ingiza unakoenda Address. Anwani nyingi zinaweza kuongezwa kwa kubofya "+ Ongeza*".
+Ingiza unakoenda Address. Anwani nyingi zinaweza kuongezwa kwa kubofya **"+ Ongeza"**.
 
 
 

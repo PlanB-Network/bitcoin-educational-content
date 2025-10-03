@@ -34,12 +34,12 @@ Uzupełnij wymagane informacje: wprowadź swój służbowy adres e-mail Address 
 ![BITFINEX](assets/fr/02.webp)
 
 
-Wskazówki dotyczące używania i zabezpieczania silnych, unikalnych haseł można znaleźć również w tym samouczku :
+Wskazówki dotyczące używania i zabezpieczania silnych, unikalnych haseł można znaleźć również w tym samouczku:
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Teraz skonfigurujemy 2FA, aby zabezpieczyć konto. Użyj aplikacji uwierzytelniającej na smartfonie, takiej jak na przykład Google Authenticator lub Authy. Samouczek dotyczący tego narzędzia znajdziesz tutaj :
+Teraz skonfigurujemy 2FA, aby zabezpieczyć konto. Użyj aplikacji uwierzytelniającej na smartfonie, takiej jak na przykład Google Authenticator lub Authy. Samouczek dotyczący tego narzędzia znajdziesz tutaj:
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -92,7 +92,7 @@ W sekcji "*Account Type*" wybierz "*Corporate*". W moim przypadku zmieniam konto
 ![BITFINEX](assets/fr/09.webp)
 
 
-Wykonaj kroki, podając :
+Wykonaj kroki, podając:
 
 
 
@@ -111,16 +111,16 @@ Po wypełnieniu i przesłaniu wniosku może minąć kilka dni, zanim platforma z
 ## 3 - Szybkie wprowadzenie do Bitfinex Interface
 
 
-Po zalogowaniu, w górnej części Interface pojawi się pasek nawigacyjny zawierający: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" itd. Bitfinex oferuje szeroki zakres funkcjonalności, w tym :
+Po zalogowaniu, w górnej części Interface pojawi się pasek nawigacyjny zawierający: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" itd. Bitfinex oferuje szeroki zakres funkcjonalności, w tym:
 
 
 
 
-- Handel**: "*klasyczny*" rynek, na którym można składać zlecenia kupna i sprzedaży kryptowalut (w tym Bitcoin);
-- OTC**: Over-The-Counter - usługa handlu dużymi wolumenami bezpośrednio z innym graczem, poza publicznymi księgami zleceń;
-- Finansowanie**: Obszar poświęcony finansowaniu pożyczek i depozytów zabezpieczających;
-- Instrumenty pochodne**: Sekcja dotycząca instrumentów pochodnych (kontrakty futures itp.), przeznaczona dla doświadczonych traderów;
-- P2P**: Umożliwia kupowanie lub sprzedawanie kryptowalut od innych użytkowników na zasadzie peer-to-peer.
+- **Handel**: "*klasyczny*" rynek, na którym można składać zlecenia kupna i sprzedaży kryptowalut (w tym Bitcoin);
+- **OTC**: Over-The-Counter - usługa handlu dużymi wolumenami bezpośrednio z innym graczem, poza publicznymi księgami zleceń;
+- **Finansowanie**: Obszar poświęcony finansowaniu pożyczek i depozytów zabezpieczających;
+- **Instrumenty pochodne**: Sekcja dotycząca instrumentów pochodnych (kontrakty futures itp.), przeznaczona dla doświadczonych traderów;
+- **P2P**: Umożliwia kupowanie lub sprzedawanie kryptowalut od innych użytkowników na zasadzie peer-to-peer.
 
 
 Do standardowego użytku (kupno/sprzedaż bitcoinów, wpłaty/wypłaty i zarządzanie gotówką) będziesz głównie korzystać z zakładki "*Trading*", a także sekcji "*Wallet*", "*Deposit*" i "*Withdraw*".

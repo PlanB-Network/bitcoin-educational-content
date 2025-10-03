@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Zlepšete své online zabezpečení pomocí Ledger
 ---
 ![cover](assets/cover.webp)
@@ -162,7 +162,7 @@ Doporučuji, abyste tento kód uchovávali na jiném místě než hlavní heslo,
 
 
 
-Tento přístup nabízí dvě úrovně zálohování v případě ztráty vašeho účtu Ledger pro ověřování 2FA: první zálohu pomocí fráze Mnemonic pro všechny vaše účty a druhou zálohu pro konkrétní účet pomocí nouzových kódů. Je však důležité **nezaměňovat úlohu fráze Mnemonic s úlohou nouzového kódu** :
+Tento přístup nabízí dvě úrovně zálohování v případě ztráty vašeho účtu Ledger pro ověřování 2FA: první zálohu pomocí fráze Mnemonic pro všechny vaše účty a druhou zálohu pro konkrétní účet pomocí nouzových kódů. Je však důležité **nezaměňovat úlohu fráze Mnemonic s úlohou nouzového kódu**:
 
 
 

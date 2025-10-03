@@ -6,4 +6,4 @@ wrong_answers:
   - The number of payments made by the target node
 explanation: |
   The total capacity of the channels can indicate a higher probability of success, as it suggests a greater availability of liquidity for transactions.
-reviewed: false
+reviewed: true

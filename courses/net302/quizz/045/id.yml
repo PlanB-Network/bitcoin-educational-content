@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan praktik memodifikasi MAC Address secara artifisial?
+answer: MAC Spoofing
+wrong_answers:
+  - MAC Phishing
+  - Mengendus MAC
+  - Pencatatan Kunci Mac
+explanation: |
+  MAC spoofing adalah tindakan mengubah perangkat keras Address dari jaringan Interface, sering kali karena alasan privasi atau untuk melewati batasan.
+reviewed: false

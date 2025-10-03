@@ -1,8 +1,8 @@
-question: Jaka jest główna rola węzła wysyłającego w routingu na Lightning Network?
-answer: Oblicz pełną trasę do odbiorcy
+question: Jaka jest główna rola węzła wysyłającego w routingu w sieci Lightning?
+answer: Oblicza pełną trasę do odbiorcy
 wrong_answers:
-  - Przechowywanie informacji o płynności wszystkich kanałów sieci
-  - Określenie opłat transakcyjnych dla każdego węzła pośredniczącego
+  - Przechowywuje informacje o płynności wszystkich kanałów sieci
+  - Określa opłaty transakcyjne dla każdego węzła pośredniczącego
   - Komunikuje się bezpośrednio ze wszystkimi węzłami pośredniczącymi
 explanation: |
   Węzeł wysyłający jest odpowiedzialny za obliczenie całej trasy do odbiorcy, ponieważ węzły pośredniczące znają tylko swoich bezpośrednich sąsiadów.

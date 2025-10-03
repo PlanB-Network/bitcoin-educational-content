@@ -1,0 +1,9 @@
+question: Hva heter prosedyren for etablering av forbindelse i flere trinn i TCP?
+answer: Treveis håndtrykk
+wrong_answers:
+  - Fireveis håndtrykk
+  - Skyvevindu
+  - Sjekksum-prosess
+explanation: |
+  Treveis håndtrykk synkroniserer sekvensnumre mellom klient og server før Exchange av nyttelastdata.
+reviewed: false

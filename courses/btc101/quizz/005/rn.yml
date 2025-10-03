@@ -1,0 +1,12 @@
+question: None aba cipherpunk ni bande?
+answer: Umugwi w’abantu batanguye kwibaza cane uruhara rw’ubuzima bwite n’umwidegemvyo mu gihe c’ubuhinga bwa none.
+wrong_answers:
+  - Umugwi w'abanyaruyeri biba amakuru ya leta.
+  - Umugwi w’abantu bavumbuye Bitcoin n’ibindi bikoresho vy’ubuhinga bwa none.
+  - Umugwi w’abantu barwanya ikoreshwa ry’ubuhinga bwa none.
+explanation: |
+  Aba cypherpunks ni umugwi w’abantu bemera .
+  iyo cryptography yoshobora gukora nk’igikoresho co kurinda .
+  uburenganzira bw'umuntu ku giti ciwe bwo kurwanya kwivanga mu bikorwa vya Leta
+  n’amashirahamwe maninimanini.
+reviewed: true

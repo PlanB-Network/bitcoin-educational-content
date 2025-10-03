@@ -1,0 +1,8 @@
+question: 금융 당국이 Bitcoin 규제를 어렵게 만드는 한 가지 요인은 무엇인가요?
+answer: 24시간 연중무휴로 글로벌 규모로 운영됩니다.
+wrong_answers:
+  - 중앙 기관에서 관리합니다.
+  - 전 세계 어디에서도 사용되지 않습니다.
+  - 위조하기 쉽습니다.
+explanation: >-
+reviewed: true

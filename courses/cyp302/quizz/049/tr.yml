@@ -1,0 +1,9 @@
+question: Üs alma yoluyla tüm Elements'ları generate yapabilmesi nedeniyle açık anahtar kriptografisi için özellikle önemli olan grup türü hangisidir?
+answer: Döngüsel gruplar
+wrong_answers:
+  - Abelian olmayan gruplar
+  - Sonsuz gruplar
+  - Karmaşık sayı grupları
+explanation: |
+  Kriptografide, döngüsel gruplar çok önemlidir çünkü jeneratör olarak adlandırılan tek bir elemanın üstelleştirilmesi kullanılarak grubun tüm Elements'lerinin oluşturulmasına izin verirler.
+reviewed: false

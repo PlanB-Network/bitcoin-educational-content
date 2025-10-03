@@ -1,0 +1,9 @@
+question: Vad händer om ett block bryter mot konsensusreglerna?
+answer: Den avvisas omedelbart av noderna
+wrong_answers:
+  - Den lagras i Mempool i väntan på validering
+  - Den vidarebefordras endast av noder som accepterar andra regler
+  - Den valideras endast av plånböckerna
+explanation: |
+  Noderna avvisar systematiskt alla block som inte följer konsensusreglerna.
+reviewed: true

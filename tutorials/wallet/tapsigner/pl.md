@@ -387,7 +387,7 @@ Następnie wybierz nazwę dla odzyskiwania Wallet.
 ![TAPSIGNER NUNCHUK](assets/notext/54.webp)
 
 
-Odzyskałeś dostęp do swoich bitcoinów. Twój Wallet jest teraz zarządzany jako Hot Wallet widoczny w zakładce "*Klucze*" aplikacji Nunchuk. Następnie musisz utworzyć nowy zestaw kluczy kryptograficznych w sekcji "*Wallets*", kojarząc z nim ten klucz. Aby to zrobić, możesz ponownie wykonać kroki opisane w części "*Jak utworzyć Wallet na Tapsignerze?" tego samouczka.
+Odzyskałeś dostęp do swoich bitcoinów. Twój Wallet jest teraz zarządzany jako Hot Wallet widoczny w zakładce **Klucze** aplikacji Nunchuk. Następnie musisz utworzyć nowy zestaw kluczy kryptograficznych w sekcji **Wallets**, kojarząc z nim ten klucz. Aby to zrobić, możesz ponownie wykonać kroki opisane w części **Jak utworzyć Wallet na Tapsignerze?** tego samouczka.
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/55.webp)

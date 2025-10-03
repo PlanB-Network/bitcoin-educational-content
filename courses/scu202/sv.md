@@ -156,7 +156,7 @@ Som avslutning på kursen kommer du att kunna göra ett slutprov för att få di
 
 
 
-*OBS: Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan] (https://planb.network/resources/glossary) för definitioner
+**OBS:** Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan](https://planb.network/resources/glossary) för definitioner
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman kritiserar öppet användningen av termen "open source" och ans
 
 
 
-*Källa: Nathaniel Welch
+**Källa:** Nathaniel Welch
 
 
 
@@ -794,7 +794,7 @@ Dessa tidiga insatser var startskottet för Linux-distributioner:
 
 
 
-- Februari 1992: MCC Interim Linux**
+- Februari 1992: **MCC Interim Linux**
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux utvecklades vid University of Manchester och anses vara den al
 
 
 
-- Maj 1992: Softlanding Linux System (SLS)**
+- Maj 1992: **Softlanding Linux System (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS finns inte längre. Den senast kända versionen är från slutet av 1994.
 
 
 
-- Juli 1993: Slackware**
+- Juli 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware underhålls än idag, vilket gör det till den äldsta Linux-distribut
 
 
 
-- Augusti 1993: Debian**
+- Augusti 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Debian blev därmed en av de tekniska och ideologiska grundpelarna i GNU/Linux-v
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ Valet av Linux-distribution beror på dina specifika behov, din tekniska nivå o
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1062,11 +1062,11 @@ Ubuntu, som utvecklades av Canonical och lanserades 2004, är en av världens me
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint lanserades 2006 och är en distribution som härrör från Ubuntu, ut
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint utmärker sig genom sin enkelhet, att multimedia-codecs finns med som standard och ett väldesignat uppdateringsverktyg. Å andra sidan är det starkt beroende av Ubuntus infrastruktur, vilket gör det beroende av Ubuntus tekniska val (särskilt på kärn- och arkivnivå). Mint är särskilt väl lämpat för icke-tekniska användare, eller för dem som vill ha ett färdigt system som inte kräver alltför mycket inlärning.
 
@@ -1086,7 +1086,7 @@ Mint utmärker sig genom sin enkelhet, att multimedia-codecs finns med som stand
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ Installationen är smidig, nödvändig programvara är förinstallerad och med "
 
 
 
-- elementärt OS**:
+- **elementärt OS**:
 
 Elementary OS, som lanserades 2011, är en Ubuntu-baserad distribution som framför allt fokuserar på design och konsekvens i Interface. Dess Pantheon-skrivbordsmiljö, inspirerad av macOS, är minimalistisk, elegant och flytande. Systemet är dock fortfarande mindre anpassningsbart än andra distributioner, och vissa avancerade användare kan känna sig begränsade av Interface: s val och dess medvetet låsta struktur. Det passar bra för estetiskt känsliga användare som letar efter ett enkelt, sammanhängande system för daglig användning.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Pop!OS har utvecklats av det amerikanska företaget System76 och är också base
 
 
 
-- Fedora** (arbetsstation eller KDE Plasma):
+- **Fedora** (arbetsstation eller KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora är en Red Hat-stödd distribution som är inriktad på den senaste tekni
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed eller Leap):
+- **openSUSE** (Tumbleweed eller Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE finns tillgänglig som en rullande version eller stabil distribution. D
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian finns i flera grenar, inklusive *Stable* (mycket pålitlig, men äldre pr
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro är baserad på Arch och gör Arch Linux tillgängligt. Denna distributi
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Specialiserad distribution
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux är en Debian-baserad distribution som är utformad för penetrationstestning och säkerhetsgranskning. Den innehåller hundratals pentestverktyg. Den här distributionen är inte riktigt lämplig som ett huvudsystem för daglig användning.
 
@@ -1224,7 +1224,7 @@ Kali Linux är en Debian-baserad distribution som är utformad för penetrations
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS härstammar också från Debian. Det erbjuder en miljö för pentestin
 
 
 
-- Svansar**:
+- **Svansar**:
 
 
 
@@ -1246,7 +1246,7 @@ Tails är en Debian-baserad, integritetsfokuserad live-distribution. Allt passer
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Anmärkning:** En live-distribution är ett Linux-operativsystem som kan användas direkt från ett USB-minne eller en CD, utan installation på Hard-disken.
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating%20system/tails-15108
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS är baserat på Fedora och använder Xen-virtualiseringssystemet för a
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch är ett pentest-orienterat tillägg till Arch Linux (som Kali på Debi
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ PureOS är en Debian-härledd distribution som utvecklats av Purism, helt fri (F
 
 
 
-- Raspberry Pi OS**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (tidigare Raspbian) är en distribution som är optimerad för Raspberry Pi mikrodatorer. Den är baserad på Debian, med paket som är omkompilerade för ARM-arkitekturen. Den kan användas för utbildningsprojekt, elektronisk testning eller små personliga servrar.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (tidigare Raspbian) är en distribution som är optimerad för R
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,36 +1326,23 @@ Whonix kombinerar Debian med Tor-nätverket i en två-VM-arkitektur (gateway + a
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Detta panorama ger dig en överblick över det nuvarande ekosystemet för Linux-distributioner, så att du kan välja den distribution som passar bäst för din tekniska profil och dina mål.
-
-
 
 I nästa kapitel av SCU202 tittar vi närmare på den praktiska Linux-miljön, och börjar med de grafiska miljöer som utgör grunden för din dagliga interaktion med systemet.
 
-
-
 ## Linux skrivbordsmiljöer
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 I ett GNU/Linux-system spelar skrivbordsmiljön en av de viktigaste rollerna i din användarupplevelse. Det är den grafiska Layer som gör det möjligt att interagera med systemet, baserat på välbekanta visuella representationer: fönster, menyer, ikoner, paneler och förinstallerade program.
-
-
 
 I det här kapitlet går jag igenom skrivbordsmiljöns struktur och roll, dess typiska komponenter, de viktigaste tillgängliga familjerna, urvalskriterier och hur de integreras i de mest populära Linux-distributionerna.
 
-
-
 ### Vad är en kontorsmiljö?
 
-
-
 En skrivbordsmiljö (eller "*DE*" för *Desktop Environment*) avser den uppsättning program som utgör den kompletta grafiska Interface i ett operativsystem. I Windows och macOS erbjuds en enda skrivbordsmiljö som standard, integrerad i systemet, utan möjlighet att ändra den helt och hållet (endast vissa skal finns för att delvis ändra Interface). Linux-system är å andra sidan mycket mer modulära och behandlar skrivbordsmiljön som en oberoende komponent som fritt kan bytas ut.
-
-
 
 I Linux är det viktigt att tydligt skilja mellan alla lager: kärnan (som hanterar interaktionen med hårdvaran), displayservern (som fungerar som en mellanhand mellan applikationer, grafikdrivrutiner och hårdvara via kärnan) och slutligen själva skrivbordsmiljön, som förlitar sig på denna infrastruktur för att leverera en sammanhängande grafisk Interface till användaren. Denna distinktion kan ibland vara mindre tydlig, eftersom många Linux-distributioner levereras med en förinstallerad skrivbordsmiljö som ibland innehåller sin egen Wayland-kompositör, som sedan fungerar som en displayserver.
 
@@ -1375,55 +1362,55 @@ En skrivbordsmiljö i en Linux-distribution är inte en enskild applikation, uta
 
 
 
-- En fönsterhanterare**: ritar fönsterkanter, hanterar deras placering, storleksändring och övergångseffekter... Till exempel: Mutter (GNOME) Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- En **fönsterhanterare**: ritar fönsterkanter, hanterar deras placering, storleksändring och övergångseffekter... Till exempel: Mutter (GNOME) Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- En filhanterare**: gör att du kan navigera genom katalogträdet och kopiera, flytta eller radera filer visuellt. Exempel på sådana: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **En filhanterare**: gör att du kan navigera genom katalogträdet och kopiera, flytta eller radera filer visuellt. Exempel på sådana: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Ett konfigurationscenter**: detta är en uppsättning verktyg som gör det möjligt för användaren att ändra systemparametrar utan att gå via kommandoraden: utseende, bakgrundsbild, användarhantering, nätverk, kringutrustning...
+- **Ett konfigurationscenter**: detta är en uppsättning verktyg som gör det möjligt för användaren att ändra systemparametrar utan att gå via kommandoraden: utseende, bakgrundsbild, användarhantering, nätverk, kringutrustning...
 
 
 
 
 
-- Systemapplets**: detta är de små ikonerna och interaktiva modulerna i aktivitetsfältet (eller "panelen"), t.ex. ljudkontroll, batterinivå, nätverksanslutning, klocka...
+- **Systemapplets**: detta är de små ikonerna och interaktiva modulerna i aktivitetsfältet (eller "panelen"), t.ex. ljudkontroll, batterinivå, nätverksanslutning, klocka...
 
 
 
 
 
-- En panel eller instrumentpanel**: ett synligt fält, ofta överst eller nederst på skärmen, som innehåller huvudmenyn, systemapplets, genvägar, meddelandezon etc.
+- En panel eller instrumentpanel: ett synligt fält, ofta överst eller nederst på skärmen, som innehåller huvudmenyn, systemapplets, genvägar, meddelandezon etc.
 
 
 
 
 
-- En sessionshanterare**: körs vid uppstart, visar inloggningsskärmen och startar den valda grafiska sessionen. Till exempel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **En sessionshanterare**: körs vid uppstart, visar inloggningsskärmen och startar den valda grafiska sessionen. Till exempel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Notifieringshanterare**: hanterar visningen av systemmeddelanden (meddelanden, varningar, uppdateringar etc.). Till exempel: dunst, Plasma-notifier, xfce4-notifyd.
+- **Notifieringshanterare**: hanterar visningen av systemmeddelanden (meddelanden, varningar, uppdateringar etc.). Till exempel: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 compositor (valfritt)**: lägger till visuella effekter (skuggor, transparens, animationer) i miljöer där fönsterhanteraren inte stöder compositing. Till exempel: compton, picom.
+- **X11 compositor (valfritt)**: lägger till visuella effekter (skuggor, transparens, animationer) i miljöer där fönsterhanteraren inte stöder compositing. Till exempel: compton, picom.
 
 
 
 
 
-- En displayserver**: detta är den programvara som hanterar kommunikationen mellan systemet (via kärnan och grafikdrivrutinerna) och grafikprogrammen. Den visar fönster på skärmen och hanterar tangentbords- och musinmatningar. Displayservern är ofta en annan komponent i skrivbordsmiljön, men fler och fler system använder Wayland, ett modernt protokoll där displayserverns roll kan tas över direkt av fönsterhanteraren (t.ex. Mutter under GNOME eller KWin under KDE). Detta kallas då för "Wayland compositing".
+- En **displayserver**: detta är den programvara som hanterar kommunikationen mellan systemet (via kärnan och grafikdrivrutinerna) och grafikprogrammen. Den visar fönster på skärmen och hanterar tangentbords- och musinmatningar. Displayservern är ofta en annan komponent i skrivbordsmiljön, men fler och fler system använder Wayland, ett modernt protokoll där displayserverns roll kan tas över direkt av fönsterhanteraren (t.ex. Mutter under GNOME eller KWin under KDE). Detta kallas då för "Wayland compositing".
 
 
 
@@ -1890,7 +1877,7 @@ När du har startat Ubuntu kommer installationsguiden att vägleda dig steg för
 
 
 
-- Installation tillsammans med Windows (*dual boot*)**
+- Installation tillsammans med Windows (*dual boot*)
 
 
 
@@ -1915,7 +1902,7 @@ För att göra detta på rätt sätt rekommenderar jag att du först skapar en o
 
 
 
-- Komplett byte av fönster**
+- Komplett byte av fönster
 
 
 
@@ -2033,10 +2020,10 @@ Varje arkiv är indelat i sektioner. Som standard aktiverar Ubuntu fyra huvudavs
 
 
 
-- main**: fri programvara som officiellt underhålls av Canonical. Exempel: Firefox, LibreOffice, bash
-- restricted**: icke-fri programvara som är nödvändig för att maskinvaran ska fungera korrekt. Exempel på detta: NVIDIA-drivrutiner, Wi-Fi-firmware, proprietära codecs
-- universum**: fri programvara som underhålls av samhället. Exempel på detta: GIMP, Inkscape, Audacity
-- multiverse**: Programvaran omfattas av juridiska begränsningar (patent, icke-fria licenser). Tillgängligheten kan variera beroende på land. Exempel: vissa audio/video-codecs, Steam
+- **main**: fri programvara som officiellt underhålls av Canonical. Exempel: Firefox, LibreOffice, bash
+- **restricted**: icke-fri programvara som är nödvändig för att maskinvaran ska fungera korrekt. Exempel på detta: NVIDIA-drivrutiner, Wi-Fi-firmware, proprietära codecs
+- **universum**: fri programvara som underhålls av samhället. Exempel på detta: GIMP, Inkscape, Audacity
+- **multiverse**: Programvaran omfattas av juridiska begränsningar (patent, icke-fria licenser). Tillgängligheten kan variera beroende på land. Exempel: vissa audio/video-codecs, Steam
 
 
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontorspaket
 
 
@@ -3555,6 +3543,8 @@ Slutligen bör du komma ihåg att vissa kritiska uppdateringar i många fall end
 
 - Windows*-operativsystem
 
+The line is already correctly formatted. The single asterisk (*) appears to be used as a literal character (likely a wildcard or bullet point) rather than as a Markdown formatting marker, so no correction is needed.
+
 
 
 Windows har en centraliserad uppdateringshanterare som heter "Windows Update". Den hämtar och installerar automatiskt uppdateringar, säkerhetsfixar, drivrutiner och ibland till och med mikrokod för processorn.
@@ -3578,6 +3568,8 @@ Glöm inte att kontrollera om det finns valfria uppdateringar i samma meny.
 
 
 - Linux*-operativsystem
+
+The line is already correctly formatted. The single asterisk (*) after "Linux" appears to be intentional, likely indicating a footnote or special notation, and doesn't need to be balanced since it's not being used for italic formatting in this context.
 
 
 
@@ -3630,7 +3622,7 @@ sudo pacman -Syu
 
 
 
-- MacOS* operativsystem
+- **MacOS** operativsystem
 
 
 
@@ -3666,25 +3658,25 @@ Viss programvara är känsligare än annan, eftersom den interagerar direkt med 
 
 
 
-- Webbläsare*: de är i frontlinjen för attacker, eftersom de behandlar overifierat innehåll i realtid och har en särskilt stor attackyta. Dessutom spelar de en central roll när det gäller att skydda dina personuppgifter. Och framför allt tenderar de att ersätta många mjukvaruapplikationer som tidigare användes lokalt (e-postklienter, kontorssviter, mediaspelare ...). Men vi återkommer till detta i nästa avsnitt av SCU202-kursen;
+- Webbläsare: de är i frontlinjen för attacker, eftersom de behandlar overifierat innehåll i realtid och har en särskilt stor attackyta. Dessutom spelar de en central roll när det gäller att skydda dina personuppgifter. Och framför allt tenderar de att ersätta många mjukvaruapplikationer som tidigare användes lokalt (e-postklienter, kontorssviter, mediaspelare ...). Men vi återkommer till detta i nästa avsnitt av SCU202-kursen;
 
 
 
 
 
-- Mailklienter*: de tar emot bilagor eller länkar från externa källor som är okontrollerbara och därför riskfyllda;
+- **Mailklienter**: de tar emot bilagor eller länkar från externa källor som är okontrollerbara och därför riskfyllda;
 
 
 
 
 
-- Kommunikationsverktyg* (TeamViewer, Zoom, Signal, Teams ...): på grund av sin interaktiva natur är de mål för spionageattacker eller försök till fjärrstyrning. På samma sätt som e-postklienter kan kommunikationsverktyg användas som vektorer för nätfiskeförsök eller distribution av skadliga bilagor;
+- **Kommunikationsverktyg** (TeamViewer, Zoom, Signal, Teams ...): på grund av sin interaktiva natur är de mål för spionageattacker eller försök till fjärrstyrning. På samma sätt som e-postklienter kan kommunikationsverktyg användas som vektorer för nätfiskeförsök eller distribution av skadliga bilagor;
 
 
 
 
 
-- Antivirus, brandvägg och andra detekteringslösningar*: dessa verktyg har i allmänhet förhöjda privilegier eftersom de kontinuerligt skannar dina filer, processer och nätverksanslutningar. En föråldrad signaturbas, dålig konfiguration eller en sårbarhet i själva programvaran kan göra att skadlig kod inte upptäcks eller till och med får förhöjda privilegier.
+- Antivirus, brandvägg och andra detekteringslösningar: dessa verktyg har i allmänhet förhöjda privilegier eftersom de kontinuerligt skannar dina filer, processer och nätverksanslutningar. En föråldrad signaturbas, dålig konfiguration eller en sårbarhet i själva programvaran kan göra att skadlig kod inte upptäcks eller till och med får förhöjda privilegier.
 
 
 
@@ -3905,7 +3897,7 @@ Som vi såg i föregående avsnitt har Windows historiskt sett varit mer utsatt 
 
 
 
-- Microsoft Defender*: I Windows är det en grundläggande nödvändighet att ha ett bra antivirusprogram. Under många år ansågs Microsoft Defender (tidigare Windows Defender), systemets inbyggda antivirusprogram, vara opålitligt och istället rekommenderades tredjepartslösningar. Men den här programvaran har förbättrats avsevärt med tiden och är nu, enligt min mening, tillräcklig för att ge ett grundläggande skydd för personligt bruk. Med detta sagt får vi inte överskatta antivirusprogrammens roll: det är framför allt dina egna digitala rutiner som garanterar din säkerhet. En av Defenders fördelar är dess inbyggda integration med Windows. Förutom realtidsskydd erbjuder det omfattande skanningar som du kan schemalägga varje vecka eller köra manuellt med jämna mellanrum.
+- **Microsoft Defender**: I Windows är det en grundläggande nödvändighet att ha ett bra antivirusprogram. Under många år ansågs Microsoft Defender (tidigare Windows Defender), systemets inbyggda antivirusprogram, vara opålitligt och istället rekommenderades tredjepartslösningar. Men den här programvaran har förbättrats avsevärt med tiden och är nu, enligt min mening, tillräcklig för att ge ett grundläggande skydd för personligt bruk. Med detta sagt får vi inte överskatta antivirusprogrammens roll: det är framför allt dina egna digitala rutiner som garanterar din säkerhet. En av Defenders fördelar är dess inbyggda integration med Windows. Förutom realtidsskydd erbjuder det omfattande skanningar som du kan schemalägga varje vecka eller köra manuellt med jämna mellanrum.
 
 
 
@@ -3915,12 +3907,12 @@ Som vi såg i föregående avsnitt har Windows historiskt sett varit mer utsatt 
 
 
 
-- Sysinternals Suite*: Detta är en mycket mer avancerad uppsättning verktyg som erbjuds av Microsoft för diagnos, övervakning och felsökning av Windows. Här är de viktigaste verktygen i den här sviten:
-    - Process Monitor*: gör att du kan observera aktiva processer, filåtkomst, register etc. i realtid;
-    - Autoruns*: visar alla program som startas vid uppstart, vilket hjälper dig att snabbt upptäcka kvarvarande skadlig kod eller program som inte borde köras;
-    - Process Explorer*: övervakar processer och upptäcker misstänkta beteenden;
-    - TCPView*: Visar aktiva nätverksanslutningar (upptäckt av onormala anslutningar) ;
-    - Sigcheck*: kontrollerar digitala signaturer på filer med avseende på skadlig kod.
+- **Sysinternals Suite**: Detta är en mycket mer avancerad uppsättning verktyg som erbjuds av Microsoft för diagnos, övervakning och felsökning av Windows. Här är de viktigaste verktygen i den här sviten:
+- **Process Monitor**: gör att du kan observera aktiva processer, filåtkomst, register etc. i realtid;
+- **Autoruns**: visar alla program som startas vid uppstart, vilket hjälper dig att snabbt upptäcka kvarvarande skadlig kod eller program som inte borde köras;
+- **Process Explorer**: övervakar processer och upptäcker misstänkta beteenden;
+- **TCPView**: Visar aktiva nätverksanslutningar (upptäckt av onormala anslutningar);
+- **Sigcheck**: kontrollerar digitala signaturer på filer med avseende på skadlig kod.
 
 
 
@@ -3930,7 +3922,7 @@ Som vi såg i föregående avsnitt har Windows historiskt sett varit mer utsatt 
 
 
 
-- GlassWire*: ett verktyg för nätverksövervakning. Det spårar inkommande och utgående anslutningar i realtid och varnar dig för ovanlig aktivitet.
+- **GlassWire**: ett verktyg för nätverksövervakning. Det spårar inkommande och utgående anslutningar i realtid och varnar dig för ovanlig aktivitet.
 
 
 
@@ -3948,7 +3940,7 @@ På en väl underhållen Linux-maskin som används för personliga ändamål är
 
 
 
-- Fail2ban*: övervakar systemloggar för misslyckade åtkomstförsök (t.ex. brute-force SSH-inloggningsförsök). När ett misstänkt beteende upptäcks förbjuds den felande IP Address tillfälligt via `iptables`;
+- **Fail2ban**: övervakar systemloggar för misslyckade åtkomstförsök (t.ex. brute-force SSH-inloggningsförsök). När ett misstänkt beteende upptäcks förbjuds den felande IP Address tillfälligt via `iptables`;
 
 
 
@@ -3958,7 +3950,7 @@ På en väl underhållen Linux-maskin som används för personliga ändamål är
 
 
 
-- Lynis*: ett omfattande verktyg för säkerhetsgranskning som analyserar ditt system med avseende på felkonfigurationer, kända svagheter eller avvikelser från bästa praxis. Det genererar en lättläst rapport med en säkerhetspoäng och rekommendationer.
+- **Lynis**: ett omfattande verktyg för säkerhetsgranskning som analyserar ditt system med avseende på felkonfigurationer, kända svagheter eller avvikelser från bästa praxis. Det genererar en lättläst rapport med en säkerhetspoäng och rekommendationer.
 
 
 
@@ -3977,7 +3969,7 @@ macOS är känt för sin säkerhet, framför allt tack vare policyn för program
 
 
 
-- KnockKnock*: skannar alla Elements som är konfigurerade att köras vid start (agenter, daemons, kärnmoduler ...) och identifierar de som är potentiellt misstänkta, osignerade eller okända. Det gör att du snabbt kan identifiera skadlig persistens på ditt system.
+- **KnockKnock**: skannar alla Elements som är konfigurerade att köras vid start (agenter, daemons, kärnmoduler ...) och identifierar de som är potentiellt misstänkta, osignerade eller okända. Det gör att du snabbt kan identifiera skadlig persistens på ditt system.
 
 
 
@@ -4561,7 +4553,7 @@ Fullständig kryptering är som ett lås: så länge lösenordet inte anges för
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4820,7 +4812,7 @@ Slutligen klickar du på den pilformade knappen i det övre högra hörnet för 
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4866,7 +4858,7 @@ När FileVault har aktiverats måste du välja en återställningsmetod i hände
 För externa lagringsmedia (Hard-diskar, USB-minnen etc.) utförs krypteringen med hjälp av diskverktyget. Du måste formatera om volymen helt och hållet:
 
 - Välj enheten och klicka på "*Delete*"
-- Välj "GUID* Partition Table"-schemat
+- Välj "GUID Partition Table"-schemat
 - Välj sedan ett krypterat filsystemformat (*APFS* eller *Mac OS extended*)
 - Välj ett starkt lösenord
 - Klicka på "*Delete*" och sedan på "*OK*" och krypteringen är klar
@@ -4946,7 +4938,7 @@ Detta paket installerar `exiftool`, som du sedan kan använda direkt från komma
 
 
 
-- Steg 2: Visa metadata för filer** (på franska)
+- Steg 2: **Visa metadata för filer** (på franska)
 
 
 
@@ -5692,7 +5684,7 @@ Bland de Blink-baserade webbläsarna finns också ett antal mer marginella webbl
 
 
 
-- Arc** :
+- **Arc**:
 
 
 
@@ -5710,7 +5702,7 @@ Ur teknisk synvinkel är Arc baserat på Chromium, men är fortfarande en propri
 
 
 
-- Polypan** :
+- **Polypan** :
 
 
 
@@ -5754,6 +5746,7 @@ Firefox är fortfarande ett riktmärke för säkerhet och integritet, även om d
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor webbläsare
 
 
@@ -5774,15 +5767,11 @@ Nackdelen är en betydande prestandaförsämring (hög latens) och begränsad ko
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) är resultatet av ett samarbete mellan Tor Foundation och Mullvad VPN. Den är baserad på Tor-webbläsaren, som i sin tur är hämtad från Firefox ESR. Mullvad Browser är utformad för att maximera användarnas integritet. Som standard innehåller den avancerat skydd mot fingeravtryck, spårare och skript från tredje part.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Den har de flesta av de säkerhets- och sekretessfunktioner som Tor Browser erbjuder, med en skillnad: den omdirigerar inte trafik via Tor-nätverket. För att undvika IP Address-läckor kan du använda den i kombination med ett VPN (helst Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5799,33 @@ Som standard aktiverar LibreWolf Firefox avancerade säkerhetsinställningar (t.
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen webbläsare
-
-
 
 [Zen Browser] (https://zen-browser.app/) är en gratis webbläsare med öppen källkod baserad på Firefox (Gecko-motor) som lanserades 2024. Dess mål är att erbjuda en modern, elegant, mycket anpassningsbar och framför allt integritetscentrerad surfupplevelse, utan beroende av Chromium.
 
-
-
 Zen utmärker sig för sin radikala inställning till Interface och användbarhet, till stor del inspirerad av Arc-webbläsaren, men ändå frigjord från den genom sin öppna källkod och Gecko-motor. Den innehåller :
-
-
-
 
 - En minimalistisk, modulär Interface med ett vertikalt sidofält för flikar, en delad vy och ett *workspace*-system för gruppering av flikar efter projekt;
 - Ett system med anpassningsbara Interface-mallar (*Zen Mods*) som kan användas för att på djupet ändra webbläsarens utseende;
 - En originalfunktion som heter *Glance*, som öppnar en länk i ett lättviktigt tillfälligt fönster och undviker röran av flikar...
 
-
-
 Zen stöder också Firefox-tillägg samt synkronisering via ett Mozilla-konto.
-
-
 
 Ur säkerhets- och integritetssynpunkt har Zen inbyggd blockering av spårare från tredje part. Webbläsaren samlar inte in några data själv och det går också att inaktivera Mozillas telemetri. Den avvisar också automatiskt föråldrade eller icke-kompatibla SSL-certifikat.
 
-
-
 Zen Browser är ett intressant alternativ om du letar efter en Gecko-surfmiljö som är gratis, innovativ, snygg och respekterar din integritet.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-baserade webbläsare
 
-
-
 #### Safari
-
-
 
 Den huvudsakliga webbläsaren som fortfarande använder WebKit-renderingsmotorn (inte en Fork som Blink) är Safari. [Safari](https://www.apple.com/safari/) är Apples exklusiva webbläsare för macOS. Den erbjuder utmärkt integration med Apples ekosystem, hög prestanda och innehåller nu starkare skydd mot spårning och fingeravtryck.
 
-
-
 Safari är dock fortfarande stängt, begränsat till macOS för desktopversionen och beroende av Apples ekosystem. Även om Apple har en stark integritetspolicy, med en affärsmodell som främst bygger på hårdvaruförsäljning snarare än reklam, är det fortfarande oklart om vissa interna metoder.
-
-
 
 Här fokuserar vi på webbläsare för datorer, men det är viktigt att notera att Apple kräver att alla webbläsare på iOS använder renderingsmotorn WebKit (en begränsning som dock snart kan komma att ändras till följd av vissa europeiska bestämmelser). Detta innebär att webbläsare som Chrome, Firefox eller Brave på iOS måste erbjuda en applikation baserad på WebKit och inte på deras vanliga renderingsmotor.
 
@@ -5889,6 +5859,7 @@ Orion är helt och hållet utvecklat av Kagi-teamet (känt för sin annonsfria s
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Webbläsare utan renderingsmotorer
 
 
@@ -6223,25 +6194,25 @@ För att undvika dessa attacker när du surfar på nätet är det viktigt att f�
 
 
 
-- Analysera webbadressen**: angripare använder ofta adresser som ligger mycket nära originalet (t.ex. `micr0soft-support.com`, `paypal-verif.net`, etc.). Vissa byter också ut visuellt liknande tecken och utnyttjar Unicode-tecken. Kontrollera att Address motsvarar exakt den förväntade webbplatsen, utan misstänkta prefix eller suffix.
+- Analysera webbadressen: angripare använder ofta adresser som ligger mycket nära originalet (t.ex. `micr0soft-support.com`, `paypal-verif.net`, etc.). Vissa byter också ut visuellt liknande tecken och utnyttjar Unicode-tecken. Kontrollera att Address motsvarar exakt den förväntade webbplatsen, utan misstänkta prefix eller suffix.
 
 
 
 
 
-- Undvik förkortade länkar**: tjänster som `bit.ly` eller `t.co` kan maskera den slutliga Address. Om du får en förkortad länk, var misstänksam eller använd en URL-expansionstjänst för att kontrollera dess destination.
+- Undvik förkortade länkar: tjänster som `bit.ly` eller `t.co` kan maskera den slutliga Address. Om du får en förkortad länk, var misstänksam eller använd en URL-expansionstjänst för att kontrollera dess destination.
 
 
 
 
 
-- Akta dig för alarmistiska meddelanden**: nätfiskeförsök utnyttjar ofta starka känslor (brådska, hot, belöning, nyfikenhet...). Ett e-postmeddelande som hävdar att ditt konto håller på att spärras eller att ett paket inte kan levereras är naturligtvis misstänkt.
+- Akta dig för **alarmistiska meddelanden**: nätfiskeförsök utnyttjar ofta starka känslor (brådska, hot, belöning, nyfikenhet...). Ett e-postmeddelande som hävdar att ditt konto håller på att spärras eller att ett paket inte kan levereras är naturligtvis misstänkt.
 
 
 
 
 
-- Överför aldrig känslig information via en mottagen länk**: En legitim institution kommer aldrig att be dig om ett lösenord, en autentiseringskod eller en skannad kopia av ditt ID via ett enkelt e-postmeddelande eller SMS.
+- **Överför aldrig känslig information via en mottagen länk**: En legitim institution kommer aldrig att be dig om ett lösenord, en autentiseringskod eller en skannad kopia av ditt ID via ett enkelt e-postmeddelande eller SMS.
 
 
 
@@ -6251,7 +6222,7 @@ Och här är några förebyggande åtgärder som du kan implementera direkt i di
 
 
 
-- Få tillgång till viktiga webbplatser via dina bokmärken**:
+- Få tillgång till viktiga webbplatser via dina **bokmärken**:
 
 
 
@@ -6265,7 +6236,7 @@ Har du fått ett e-postmeddelande från Skatteverket som innehåller en länk? K
 
 
 
-- Respektera god praxis för autentisering** :
+- **Respektera god praxis för autentisering**:
 
 
 
@@ -6283,7 +6254,7 @@ Utöver dessa åtgärder kan användningen av en bra lösenordshanterare som ett
 
 
 
-- Inspektera SSL/TLS**-certifikat:
+- Inspektera **SSL/TLS-certifikat**:
 
 
 
@@ -6329,19 +6300,19 @@ Syftet är enkelt: att förhindra att en incident som involverar en specifik akt
 
 
 
-- Använd flera olika webbläsare**: till exempel Firefox för personligt bruk, Tor eller Mullvad för känsliga aktiviteter och Chromium för professionella uppgifter. Varje webbläsare använder sin egen lagringsinstans, som helt isolerar cookies, sessioner och tillägg. Detta gör också att du kan skräddarsy webbläsarinställningar för dina specifika användningsfall.
+- **Använd flera olika webbläsare**: till exempel Firefox för personligt bruk, Tor eller Mullvad för känsliga aktiviteter och Chromium för professionella uppgifter. Varje webbläsare använder sin egen lagringsinstans, som helt isolerar cookies, sessioner och tillägg. Detta gör också att du kan skräddarsy webbläsarinställningar för dina specifika användningsfall.
 
 
 
 
 
-- Skapa flera profiler i en och samma webbläsare**: I vissa webbläsare kan du skapa oberoende profiler, var och en med sin egen historik, sessioner, tillägg och inställningar. Detta är en något mindre restriktiv lösning än att använda flera separata webbläsare, men är ändå mindre effektivt.
+- **Skapa flera profiler i en och samma webbläsare**: I vissa webbläsare kan du skapa oberoende profiler, var och en med sin egen historik, sessioner, tillägg och inställningar. Detta är en något mindre restriktiv lösning än att använda flera separata webbläsare, men är ändå mindre effektivt.
 
 
 
 
 
-- Använd inbyggda behållare**: Firefox erbjuder tillägget [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), som gör att du kan öppna separata flikar, var och en med sin egen inloggning och cookies. Du kan också automatiskt tilldela vissa webbplatser till en specifik behållare, så att de hålls åtskilda varje gång de öppnas.
+- Använd inbyggda behållare: Firefox erbjuder tillägget [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), som gör att du kan öppna separata flikar, var och en med sin egen inloggning och cookies. Du kan också automatiskt tilldela vissa webbplatser till en specifik behållare, så att de hålls åtskilda varje gång de öppnas.
 
 
 
@@ -6351,7 +6322,7 @@ Syftet är enkelt: att förhindra att en incident som involverar en specifik akt
 
 
 
-- Använd en isolerad systemmiljö**: För särskilt känsliga användningsområden kan du också köra din webbläsare i en virtuell maskin eller Docker-container för att hålla den helt åtskild från din huvudmiljö.
+- **Använd en isolerad systemmiljö**: För särskilt känsliga användningsområden kan du också köra din webbläsare i en virtuell maskin eller Docker-container för att hålla den helt åtskild från din huvudmiljö.
 
 
 
@@ -6659,7 +6630,7 @@ GrapheneOS integrerar inga proprietära komponenter. Det står dig fritt att lä
 Graphene är endast kompatibel med de senaste Google Pixels (Pixel 6, 7, 8 och 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7075,7 +7046,7 @@ Telegram är en mycket populär meddelandetjänst tack vare dess ergonomi och fu
 Telegram kan därför tekniskt sett komma åt innehållet i de flesta konversationer som inte uttryckligen är skyddade. Även om företaget intar en fast hållning gentemot statliga myndigheter är Telegram inte en optimal lösning för konfidentiella eller känsliga utbyten, såvida du inte uttryckligen använder dess "hemliga utbyten", som är mycket mindre praktiska på daglig basis.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7293,6 +7264,7 @@ Thunderbird Mobile är den mobila versionen av den populära e-postklienten med 
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta] (https://tuta.com/)
 
 
@@ -7627,6 +7599,7 @@ Aegis är en omfattande applikation med öppen källkod. Det krypterar din 2FA-d
 Ente Auth är en modern, öppen källkodslösning för flera plattformar med krypterade säkerhetskopior från början till slut. Det gör att du kan synkronisera dina 2FA-koder på ett säkert sätt på mobil, dator och webb. Du kan också använda den offline, utan molnbackup eller skapande av konto.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth erbjuder många ytterligare funktioner: Organisation med hjälp av taggar, anpassade ikoner för varje tjänst, anteckningar, favoriter, integrerad sökning, säker delning av teamkoder.
 
 
@@ -7642,6 +7615,7 @@ Authy erbjuder 2FA-synkronisering över flera enheter, vilket kan vara praktiskt
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Om du vill veta mer om lösenordshanterare, 2FA-autentisering och VPN rekommenderar jag att du läser de särskilda kapitlen i SCU-101-kursen:
 
 
@@ -8035,6 +8009,7 @@ Chrono finns på F-Droid och är helt öppen källkod och erbjuder en modern, sn
 Programmet innehåller också en timer och ett stoppur, med varvregistrering, statistik, tidsjämförelser och hantering av flera timers. Du kan konfigurera flera tidszoner, anpassa temat (färger, stilar, animationer) och till och med organisera dina larm och timers med etiketter.
 
 
+För att fördjupa dig i ämnet rekommenderar jag att du besöker webbplatsen [*Awesome Privacy*](https://awesome-privacy.xyz/), som listar de bästa integritetsvänliga alternativen till de program du använder dagligen.
 ___
 
 
@@ -8099,8 +8074,8 @@ Infrastrukturen på Internet bygger huvudsakligen på två protokoll:
 
 
 
-- IP** (*Internet Protocol*) Identifierar varje ansluten enhet och dirigerar datapaket.
-- TCP** (*Transmission Control Protocol*) Segmenterar flödet, söker efter fel och sätter tillbaka segmenten i ordning.
+- **IP** (*Internet Protocol*) Identifierar varje ansluten enhet och dirigerar datapaket.
+- **TCP** (*Transmission Control Protocol*) Segmenterar flödet, söker efter fel och sätter tillbaka segmenten i ordning.
 
 
 → För realtidsanvändning där tillförlitlighet är mindre viktigt än fördröjning (VoIP, DNS, streaming etc.) används ofta ett annat transportprotokoll i stället för TCP: UDP (*User Datagram Protocol*).
@@ -8127,21 +8102,21 @@ Internet kan därför sammanfattas som ett enormt decentraliserat nätverk, base
 I de flesta moderna hem tillhandahålls internetåtkomst via en central enhet som fungerar som modem och router. Namnet på den här enheten varierar från land till land (i Frankrike kallas den "Internet Box"). Det är denna multifunktionella enhet som levereras av internetleverantören som ansluter dig till resten av internetnätverket.
 
 
-→ *ISP = Internet Service Provider (Internetleverantör)
+→ *ISP = Internet Service Provider (Internetleverantör)*
 
 
 Denna enhet kombinerar 2 huvudfunktioner:
 
 
 
-- Modemets roll**
+- Modemets roll
 
 
 Modemet (förkortning för "*modulator-demodulator*") är den komponent som ansluter din internetleverantörs nätverk till ditt hem. Det anpassar de elektriska eller optiska signaler som tas emot (via fiberoptik, koaxialkabel, ADSL eller mobilnätet) till digitala signaler som kan förstås av dina enheter. Omvänt omvandlar den data från din utrustning till ett format som kan överföras via operatörens infrastruktur. Detta steg är nödvändigt för att ditt hemmanätverk ska kunna kommunicera med Internet.
 
 
 
-- Rollen som router**
+- Rollen som **router**
 
 
 Routern är hjärtat i ditt lokala nätverk. Den distribuerar internetanslutningen till alla dina enheter: Datorer, smartphones, anslutna objekt, skrivare osv. Den tilldelar var och en av dem en lokal IP Address (skiljer sig från din offentliga IP som är synlig på Internet). Routern organiserar sedan inkommande och utgående trafik och ser till att data når rätt enhet. Den kan också integrera en brandvägg, filtrera nätverkspaket eller hantera regler för portvidarebefordran. NAT maskerar ditt lokala nätverk från Internet genom att använda en enda offentlig IP Address för att representera alla dina enheter. Endast routern vet vilken lokal enhet som initierade vilken begäran.
@@ -8311,16 +8286,24 @@ Det är viktigt att välja modern utrustning som underhålls av tillverkaren och
 En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel router ger dig bättre hastigheter och framför allt inbyggt stöd för modern säkerhetsteknik. Omvänt kan mycket gammal utrustning, särskilt sådan som inte längre får programuppdateringar, innehålla kända sårbarheter som inte har åtgärdats. De utgör därför en risk för hela ditt nätverk, även om du konfigurerar dem korrekt. Jämfört med mobiltelefoner eller datorer är routrar utrustning som vi tenderar att behålla i många år. Det kan dock vara en bra idé att byta ut dem mer regelbundet för att dra nytta av en modernare och säkrare modell.
 
 
+**Observera**: Som en allmän tumregel kan routrar som tillhandahålls av internetleverantörer sakna den viktiga uppdateringsfunktionen samt möjligheter till anpassning. I vissa fall kan internetleverantörer också ha obegränsad åtkomst till slutanvändarens interna nätverk.
+
 Se därför till att du systematiskt uppdaterar routerns inbyggda programvara. Dessa uppdateringar korrigerar sårbarheter, lägger till nya funktioner och förbättrar den övergripande systemstabiliteten. Vissa tillverkare erbjuder automatiska uppdateringar, men i vissa fall måste du kontrollera manuellt via routerns administrationsverktyg Interface. Precis som med din telefon, dator, operativsystem och programvara är det viktigt att du uppdaterar din router regelbundet. Du kan göra detta till en del av din veckorutin - till exempel varje söndag - genom att upprätta en lista över alla de saker du behöver kontrollera och hålla uppdaterade.
 
 
-Om din router inte längre underhålls men fortfarande fungerar korrekt ur hårdvarusynpunkt kan du installera en alternativ firmware med öppen källkod, t.ex:
+Alternativt kan du aktivera automatiska uppdateringar eller åtminstone automatisk skanning efter nya firmwareuppdateringar om du föredrar att agera manuellt. Även om funktionen för automatisk uppdatering fortfarande kan utgöra ett säkerhetshot, kommer underlåtenhet att regelbundet uppdatera routerns firmware att utsätta ditt lokala nätverk för offentligt kända sårbarheter.
+
+**Exempel**: När du köper din egen router kan det vara en bra idé att leta efter etablerade företag i branschen som under lång tid levererat routrar på marknaden. Till exempel har Fritz!Box-routrar ett långt anseende som plug-and-play-enheter, lämpliga för användning både i familjemiljöer och i små företag. Deras policy för programvaruuppdateringar sträcker sig vanligtvis över flera år.
+
+Om din router inte längre underhålls men fortfarande fungerar korrekt ur hårdvarusynpunkt kan du kanske installera ett alternativt open-source-firmware, såsom:
 
 
 
 - OpenWrt, en Linux-distribution som är specialiserad på routrar och som erbjuder stor flexibilitet och regelbundna uppdateringar
 - pfSense och OPNsense, två FreeBSD-baserade (Unix-liknande) system för x86-brandväggar och routrar
 
+
+**Observera**: Vissa ISP levererar sina kunder bulkroutrar tillverkade av ett enda företag som samtidigt levererar till många olika ISP:er runt om i världen. Du kan upptäcka att för att installera en av de alternativa firmwares på routern kan någon annan redan ha listat ut hur man gör det, även om de befinner sig på andra sidan jordklotet.
 
 ![Image](assets/fr/196.webp)
 
@@ -8333,7 +8316,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 Dessa system möjliggör finare kontroll av brandväggsregler, utgående och inkommande anslutningar, nätverkssegmentering (VLAN) och DNS-hantering, men riktar sig mer till avancerade användare.
 
 
-** Sammanfattningsvis rekommenderar jag**:
+**Sammanfattningsvis rekommenderar jag**:
 
 
 
@@ -8385,21 +8368,21 @@ Vissa funktioner bör undvikas eller systematiskt avaktiveras:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Med den här funktionen kan enheterna i ditt nätverk be routern att öppna portar automatiskt. Även om detta underlättar vissa användningsområden (onlinespel, anslutna kameror etc.) öppnar det också dörren för skadliga program som kan ändra nätverkskonfigurationen utan ditt tillstånd. UPnP är en av de främsta orsakerna till att interna tjänster oavsiktligt exponeras för omvärlden.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Detta system, som ursprungligen utformades för att förenkla anslutning av enheter till Wi-Fi utan att ange ett lösenord, baseras på en PIN-kod som ofta är svag och lätt kan angripas med brute force. Jag råder dig att inaktivera det.
 
 
 
-- Fjärråtkomst (*Remote Management*)**:
+- Fjärråtkomst (**Remote Management**):
 
 
 Vissa routrar gör det möjligt att ansluta till administrationen Interface från utsidan, via Internet. Den här funktionen ökar routerns attackyta på ett orimligt sätt. Avaktivera den helt, såvida du inte har ett specifikt behov av fjärrhantering. Även då ska du alltid använda ett VPN.
@@ -8408,14 +8391,14 @@ Vissa routrar gör det möjligt att ansluta till administrationen Interface frå
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Föråldrade eller osäkra protokoll**:
+- **Föråldrade eller osäkra protokoll**:
 
 
 Inaktivera alla administrationstjänster som använder klartextprotokoll som Telnet, FTP, okrypterad HTTP eller SMBv1. Dessa protokoll garanterar varken sekretess eller integritet för utbytta data och är ofta mål för skadlig kod. Om du behöver lokal åtkomst eller fjärråtkomst ska du endast använda anslutningar via HTTPS (krypterad Interface), SSH eller SFTP, beroende på vad som är lämpligt.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Vissa routrar svarar som standard på ICMP-förfrågningar som skickas från utsidan (kommandot `ping`). Detta gör att en angripare kan kontrollera att ditt nätverk är aktivt och tillgängligt. Om du inte behöver det kan du inaktivera detta svar i routerns brandvägg.
@@ -8504,15 +8487,15 @@ Därefter aktiverar du ett krypteringsprotokoll för DNS-frågor för att förhi
 
 
 
-- DoH (*DNS över HTTPS*)**: Kapslar in DNS-förfrågningar i HTTPS-protokollet, vilket gör att de inte kan skiljas från vanlig krypterad webbtrafik
+- DoH (*DNS över HTTPS*): Kapslar in DNS-förfrågningar i HTTPS-protokollet, vilket gör att de inte kan skiljas från vanlig krypterad webbtrafik
 
 
 
-- DoT (*DNS över TLS*)**: Skapar en specifik krypterad kanal mellan din enhet och DNS-servern
+- DoT (**DNS över TLS**): Skapar en specifik krypterad kanal mellan din enhet och DNS-servern
 
 
 
-- DoQ (*DNS över QUIC*)**: Transporterar DNS-förfrågningar via det UDP-baserade QUIC-protokollet
+- DoQ (**DNS över QUIC**): Transporterar DNS-förfrågningar via det UDP-baserade QUIC-protokollet
 
 
 I praktiken kan DNS-kryptering och serverväxling implementeras på olika nivåer:
@@ -8526,6 +8509,7 @@ I praktiken kan DNS-kryptering och serverväxling implementeras på olika nivåe
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - På operativsystemsnivå: Vissa operativsystem har inbyggt stöd för krypterad DNS (DoT eller DoH), vilket säkrar alla DNS-förfrågningar som passerar genom systemets nätverksstack. Detta säkrar dock inte hela datorn eller telefonen: Program kan kringgå den här inställningen om de är konfigurerade för att använda en annan DNS-resolver eller ett annat DNS-protokoll.
 
 
@@ -8626,3 +8610,4 @@ Genom att följa dessa få steg bygger du upp en robust och säker nätverksmilj
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

@@ -1,0 +1,9 @@
+question: Gde su DNS serveri obično konfigurisani na Linux sistemu?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  Datoteka /etc/resolv.conf specificira DNS servere i pretraživačke domene za razrešavanje imena.
+reviewed: false

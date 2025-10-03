@@ -1,0 +1,9 @@
+question: Nk’uko Bastiat abivuga, ni nde atunga ubuzima bwa Leta?
+answer: Abanyagihugu ni bo batunganya Leta .
+wrong_answers:
+  - Ni abanyagihugu babeshwaho na Leta .
+  - Leta ni yo itunga igihugu .
+  - Ni imigwi y'inyungu ifasha Leta .
+explanation: |
+  Bastiat yemeza ko abanyagihugu ari bo bashigikira Leta biciye mu kurema ubutunzi atari ukundi.
+reviewed: false

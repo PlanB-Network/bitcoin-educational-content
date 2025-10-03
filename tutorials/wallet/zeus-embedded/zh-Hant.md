@@ -1,5 +1,5 @@
 ---
-name: Zeus 嵌入式
+name: Zeus Embedded
 description: 如何使用 Lightning Zeus 嵌入式 Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,20 +13,20 @@ ZEUS 最初是用於遠端管理閃電節點的行動應用程式，可讓您控
 
 
 
-**在本教程中，我們將探討應用程式的這個面向。這讓任何人都可以在行動裝置上擁有自己的閃電節點，而不需要專用伺服器，就像 ACINQ 提供其令人難以置信的 Wallet Lightning Phoenix 一樣。
+**在本教程中，我們將探討應用程式的這個面向。這讓任何人都可以在行動裝置上擁有自己的閃電節點，而不需要專用伺服器，就像 ACINQ 提供其令人難以置信的 Wallet Lightning Phoenix 一樣。**
 
 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-*提醒一下，Lightning 是一個與 Bitcoin 並行運作的網路，使比特幣的交換無需有系統地進行 On-Chain 交易。其結果是近乎瞬間的交易，無需等待 10 分鐘來驗證一個區塊。這在支付實體世界中的商家時特別有用。更重要的是，Lightning 提供了 Bitcoin 網路所不具備的**保密性**。
+*提醒一下，Lightning 是一個與 Bitcoin 並行運作的網路，使比特幣的交換無需有系統地進行 On-Chain 交易。其結果是近乎瞬間的交易，無需等待 10 分鐘來驗證一個區塊。這在支付實體世界中的商家時特別有用。更重要的是，Lightning 提供了 Bitcoin 網路所不具備的* **保密性**。
 
 
 
 **Zeus "Integrated "** 針對希望最大化隱私和自主權的比特幣使用者。
 
 
-簡而言之，它有可能是***cypherpunks夢寐以求的Wallet手機。儘管它仍處於起步階段（alpha 版本），而且有一些錯誤，但它的功能非常多，毫無疑問會讓我們中最無畏的人感到高興，因為他們想要最大的控制權和可選性。
+簡而言之，它有可能是**cypherpunks夢寐以求的Wallet手機**。儘管它仍處於起步階段（alpha 版本），而且有一些錯誤，但它的功能非常多，毫無疑問會讓我們中最無畏的人感到高興，因為他們想要最大的控制權和可選性。
 
 
 
@@ -248,7 +248,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 在本教程中，為了簡單起見，我們會選擇這個選項，但也完全可以與網路上的任何節點開啟通道。
 
 
-透過選擇「OPENDITIONAL CHANNEL」，甚至可以在單一交易中開啟多個通道。 *但我們會在 **Zeus Embedded**** 教學的「進階」版本中研究這個問題。
+透過選擇「OPENDITIONAL CHANNEL」，甚至可以在單一交易中開啟多個通道。 *但我們會在 **Zeus Embedded** 教學的「進階」版本中研究這個問題。*
 
 
 

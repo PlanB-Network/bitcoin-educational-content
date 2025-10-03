@@ -73,7 +73,7 @@ Die Banxaas-Webplattform ist minimalistisch und intuitiv und ermöglicht es Ihne
 
 
 
-- Vom CFA-Franc zum Satoshis** :
+- Vom CFA-Franc zum **Satoshis**:
 
 
 
@@ -114,7 +114,7 @@ Bestätigen Sie Ihre Transaktion, indem Sie auf die Schaltfläche **Troc** klick
 
 
 
-- Von Satoshis in CFA-Francs**
+- **Von Satoshis in CFA-Francs**
 
 
 

@@ -1,0 +1,11 @@
+question: Bitcoin Wallet'inizin varsayılan güvenliğini nasıl güçlendirebilirsiniz?
+answer: Bitcoin Wallet'ünüze bir passphrase ekleyerek.
+wrong_answers:
+  - Bitcoin Wallet'nıza ikinci bir özel anahtar ekleyerek.
+  - Bitcoin Wallet'inize ikinci bir ortak anahtar ekleyerek.
+  - Bitcoin Wallet'inize ikinci bir Mnemonic cümlesi ekleyerek.
+explanation: |
+  Eğer varsayılan güvenlik sisteminizden memnun değilseniz
+  Bitcoin Wallet, bir Bitcoin Wallet ekleyerek her zaman güçlendirebilirsiniz
+  passphrase'den Bitcoin Wallet'e.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Какой параметр в файле ifcfg-eth0 указывает на конфигурацию DHCP?
+answer: BOOTPROTO=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - GATEWAY=dhcp
+explanation: |
+  Параметр "BOOTPROTO=dhcp" указывает, что Interface должен получать свою конфигурацию по протоколу DHCP.
+reviewed: false

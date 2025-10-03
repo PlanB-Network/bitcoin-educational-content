@@ -1,0 +1,12 @@
+question: Bitcoin madencileri enerji fazlalıklarının yönetilmesine ve elektrik şebekelerinin dengelenmesine nasıl yardımcı olabilir?
+answer: Bitcoin madencileri enerji fazlalıklarını absorbe edebilir, esnek bir tampon görevi görerek Supply'ten ziyade talebi ayarlayabilir. Yenilenebilir (kontrol edilemeyen) kaynaklardan elektrik üretiminin sürekli arttığı bir dünyada madenciler, Mining operasyonlarına güç sağlamak için ucuz veya fazla elektrikten yararlanırken, elektrik şebekelerimizin dengesini sağlamada kilit bir rol oynayabilir.
+wrong_answers:
+  - Bitcoin madencileri, fazla enerjiyi bataryalarda depolayarak enerji fazlalıklarının yönetilmesine yardımcı olabilir.
+  - Bitcoin madencileri, fazla enerjiyi şebekeye geri satarak enerji fazlalıklarının yönetilmesine yardımcı olabilir.
+  - Bitcoin madencileri, fazla enerjiyi ısıya dönüştürerek enerji fazlalıklarının yönetilmesine yardımcı olabilir.
+explanation: |
+  Bölüm, Bitcoin madencilerinin enerjiyi emebildiğini açıklıyor
+  fazlalıklar, esnek bir tampon görevi görerek talebi ayarlar
+  gW-8 yerine. Bu, enerji yönetiminde yardımcı olabilir
+  fazlalıkları ve elektrik şebekelerinin dengelenmesi.
+reviewed: true

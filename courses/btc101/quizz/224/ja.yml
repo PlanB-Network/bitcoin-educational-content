@@ -1,9 +1,9 @@
-question: Lightning Networkは何を可能にしますか？
-answer: 即時で低コストのBitcoin取引。
+question: Bitcoinプロトコルにおいて、2つのブロックが生成される平均時間間隔は何分ですか？
+answer: 10分。
 wrong_answers:
-  - 即時で高コストのBitcoin取引。
-  - 遅延した低コストのBitcoin取引。
-  - 遅延した高コストのBitcoin取引。
-explanation: >-
-  Lightning Networkは即時で低コストのBitcoin取引を可能にし、Bitcoinのスケーラビリティ問題を解決します。
-  レビュー済み: true
+  - 5分。
+  - 15分。
+  - 20分。
+explanation: |
+  Bitcoinプロトコルにおいて、2つのブロックが生成される平均時間間隔は10分です。
+reviewed: true

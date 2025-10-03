@@ -1,5 +1,5 @@
 ---
-name: 眨眼
+name: Blink
 description: 完整的 Blink Wallet 教程 - 轻松发送、接收和使用 Bitcoin
 ---
 

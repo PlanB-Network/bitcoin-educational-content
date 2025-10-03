@@ -1,8 +1,8 @@
-question: Wat is een van de potentiële voordelen van het accepteren van nieuwe technologieën zoals Bitcoin?
-answer: Het zou wereldwijd enorme schaalvoordelen kunnen opleveren.
+question: Wat is een van de belangrijkste gevolgen van Bitcoin op het banksysteem?
+answer: Het maakt de emancipatie van het banksysteem mogelijk.
 wrong_answers:
-  - Het zou kunnen leiden tot een wereldwijde economische ineenstorting.
-  - Het zou een afname van de menselijke intelligentie kunnen veroorzaken.
-  - Het zou kunnen leiden tot het verdwijnen van alle banen.
+  - Het maakt controle over het banksysteem mogelijk.
+  - Het maakt de opheffing van het banksysteem mogelijk.
+  - Het maakt corruptie van het banksysteem mogelijk.
 explanation: >-
 reviewed: true

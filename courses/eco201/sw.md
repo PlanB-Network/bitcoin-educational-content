@@ -61,7 +61,7 @@ Wakati taasisi ya fedha ina leseni ya benki, ina maana kwamba madeni yaliyorekod
 
 Baada ya kununua nyumba, unamwagiza benki yako kuhamisha pesa kwa akaunti ya muuzaji. Ikiwa akaunti ya muuzaji iko kwenye benki tofauti, benki yako humwarifu benki husika katika taasisi nyingine ili kuhakikisha kuwa akaunti ya muuzaji inawekwa ipasavyo, huku akitoza akaunti yako kwa kiasi kinacholingana.
 
-![image](assets/en/01.webp)
+![image](assets/sw/001.webp)
 
 Kielelezo cha 1: Uundaji wa Pesa kama Maingizo ya Uwekaji hesabu
 
@@ -79,7 +79,7 @@ Kitendawili hiki kilizua benki kuu za kisasa. Katika karne ya 19 huko Uingereza,
 
 Mbali na kudumisha utulivu wa kifedha, benki kuu zina jukumu la kuweka viwango muhimu vya sera. Viwango hivi huamua gharama ambayo benki zilizo na leseni zinaweza kukopa fedha kutoka kwa benki kuu, hasa kufafanua gharama ya ukwasi kwa taasisi za fedha ambazo zina jukumu muhimu katika kukopesha katika uchumi wetu. Kwa hivyo, viwango hivi vinatumika kama kipimo cha mfumo mzima wa kifedha. Kama mtu binafsi, viwango vya riba unavyolipa kwenye rehani yako vinaweza kugawanywa katika kiwango cha sera na ukingo wa benki.
 
-![image](assets/en/02.webp)
+![image](assets/sw/002.webp)
 
 Kielelezo 2: Kufilisika kwa Lehman Brothers (15/09/2008)
 
@@ -87,7 +87,7 @@ Wakati wa msukosuko mkubwa wa kifedha wa 2008, Lehman Brothers, benki kubwa ya u
 
 Ingawa hatua hizi zilizuia wimbi kubwa la kufilisika, zilifanya kidogo kupunguza mdororo wa uchumi uliofuata. Mamilioni ya watu walipoteza kazi na nyumba zao, matumizi ya wateja yalishuka sana, biashara zikashuka, na benki zilipata hasara kubwa. Licha ya viwango vya chini vya riba kihistoria, wachache walikuwa tayari kukopa, na kusababisha mzunguko mbaya ambapo upungufu wa awali wa matumizi na uwekezaji ulijiimarisha. Kwa hiyo, benki kuu zilichukua hatua zaidi kwa kutekeleza programu za Urahisishaji Kiasi (QE). Programu hizi zilihusisha benki kuu kununua dhamana za serikali na dhamana zinazoungwa mkono na rehani kutoka kwa benki za biashara zilizo na akiba ya benki kuu.
 
-![image](assets/en/03.webp)
+![image](assets/sw/003.webp)
 
 Kielelezo 3 : Viwango vya Riba Katika Uchumi Mkuu / Chanzo: ECB
 
@@ -97,7 +97,7 @@ Kinyume na matarajio mengi, programu za QE hazikufufua ukuaji wa uchumi kwa kias
 
 Walakini, kanuni muhimu ya kiuchumi inaweza kutolewa kutoka kwa kipindi hiki: pesa mpya zinapoundwa, hapo awali huwanufaisha walio karibu na chanzo cha pesa, kwa gharama ya wale walio mbali zaidi. Maarifa haya ya kiuchumi yalianza karne ya 18 wakati Richard Cantillon alipoeleza katika "Insha kuhusu Hali ya Biashara kwa Ujumla." Sasa inajulikana kama "Athari ya Cantillon".
 
-![image](assets/en/04.webp)
+![image](assets/sw/004.webp)
 
 Kielelezo cha 4: Athari ya Cantillon kwa Kifupi / Chanzo: Kifedha cha Mto
 
@@ -105,7 +105,7 @@ Katika tukio hili, mabenki, wasimamizi wa benki, wamiliki wa hisa na dhamana, wa
 
 Kwa asili, mfumo umepotoshwa. Benki kwa asili hazina msimamo, lakini kushindwa kwao kunaweza kuhatarisha uchumi mzima. Hatari hii ya kimaadili inawapa motisha watendaji wa benki kuchukua hatari nyingi ili kuongeza mapato ya benki zao, wakijua kwamba benki kuu hatimaye itawaokoa, na kuhamisha gharama kwa walipa kodi. Katika hali kama hizi, mabenki kuu huunda masharti ya uhamisho mkubwa wa uwezo wa ununuzi kutoka kwa watu binafsi wanaofanya kazi kwa bidii na waokoaji kwenda kwa wamiliki wa mali na wale waliounganishwa na mfumo wa kifedha, na hivyo kukataza mchakato wa kuunda utajiri kutoka kwa ulimbikizaji wa mali.
 
-![image](assets/en/05.webp)
+![image](assets/sw/005.webp)
 
 Kielelezo cha 5: Usambazaji wa Utajiri nchini Uchina + Ulaya + Marekani / Chanzo: OECD
 
@@ -115,7 +115,7 @@ Wakati wa muda mrefu wa Sera za Viwango Sifuri vya Riba (ZIRP), benki zina fursa
 
 Matokeo mengine yasiyotarajiwa ya ZIRP ni kwamba inahimiza serikali kushiriki katika matumizi makubwa ya fedha. Kwa kuwa serikali hazikabiliani na gharama za kukopa na zinaweza kutegemea benki kuu kununua dhamana zao kupitia programu za QE, zina motisha ya asili ya kutumia kadri inavyowezekana, hasa katika miktadha ya kidemokrasia ambapo matumizi yanaweza kukusanya kura. Mwelekeo huu mara nyingi hupuuza matokeo ya muda mrefu ya ubadhirifu huo wa fedha, unaosababisha ongezeko kubwa la viwango vya deni la umma katika nchi zilizoendelea tangu Mgogoro wa Kifedha Duniani (GFC).
 
-![image](assets/en/06.webp)
+![image](assets/sw/006.webp)
 
 Kielelezo cha 6: Deni la Umma na Binafsi kama % ya Pato la Taifa (Ulimwengu, uzani wa Pato la Taifa kwa kila nchi) / Chanzo IMF
 
@@ -153,7 +153,7 @@ Maswali kama haya yamechukua wachumi na wanafalsafa kwa karne nyingi na yamepata
 
 Baada ya nadharia ya wanafizikia ya thamani ya ardhi, wakidai kwamba thamani yote inatoka kwa ardhi, ilikanushwa na nadharia ya thamani ya kazi ya wanauchumi wa kitamaduni, wakidai kwamba thamani ya kitu kizuri inatokana na kiasi cha kazi inayoingia katika uzalishaji wake, ilikuwa zamu ya nadharia ya kando ya thamani kuchukua nafasi ya mwisho. Katika miaka ya 1870, kufuatia Marx, mwanauchumi wa mwisho wa kitamaduni, shule tatu mpya za mawazo ya kiuchumi ziliibuka karibu wakati huo huo karibu na nadharia ya kando ya thamani: shule ya Lausanne na Léon Walras, shule ya kisasa au ya kisasa na William Stanley Jevons, na shule ya Austria iliyo na Carl Menger. Mapinduzi haya katika nadharia ya thamani yalijumuisha upya mkubwa wa mawazo ya kiuchumi.
 
-![image](assets/en/07.webp)
+![image](assets/sw/007.webp)
 
 Kutoka Kushoto kwenda Kulia: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -163,7 +163,7 @@ Ni jambo la kawaida kuwasilisha ubaguzi wa shule hizi tatu kuwa sawa. Hakika, Wa
 
 ### Thamani ya Mada
 
-![image](assets/en/08.webp)
+![image](assets/sw/008.webp)
 
 Mwanauchumi wa Austria anakanusha dhana ya warithi wa Adam Smith na kuachana na wazo kwamba thamani ya kitu kizuri hutokana na kiasi cha kazi inayotumiwa katika uzalishaji wake, kwa kupendelea dhana kwamba thamani yake imeamuliwa na mtu binafsi, ambaye, katika kila muktadha, anafanya kitendo cha kiakili cha kuthamini kuhusu kiasi fulani cha bidhaa au huduma. Hatua hii ya kiakili iliyofanywa na Menger inapinga usawa wa thamani: kwake, thamani si mali inayolengwa ya bidhaa; ni matokeo tu ya uhusiano ambao mtu anao na kitu hicho: "thamani haipo nje ya ufahamu wa mwanadamu."
 
@@ -187,7 +187,7 @@ Dhana hii ya thamani, inayoeleweka kama uhusiano wa kisaikolojia ambayo mtu hubu
 
 ### Idara ya Kazi
 
-![image](assets/en/09.webp)
+![image](assets/sw/009.webp)
 
 Kutembelea Kiwanda cha Kucha, Léonard Defrance (karne ya 18)
 
@@ -256,7 +256,7 @@ Mchezo huu unaonyesha tatizo linalojitokeza mara kwa mara katika maisha halisi: 
 
 ### Pesa za Kutatua Matatizo ya Uratibu
 
-![image](assets/en/10.webp)
+![image](assets/sw/010.webp)
 
 Tatizo hili lina athari ndogo katika jumuiya ndogo (k.m., familia, miduara ya marafiki) kwa sababu, katika hali kama hizi, kila mtu anamjua mwenzake moja kwa moja, hivyo basi iwezekane kukumbuka michango ya kila mmoja. Kwa kuchukulia kuwa kuacha jumuiya (kutoroka) kunaleta gharama, mfumo wa sifa unaozingatia kumbukumbu za mawakala binafsi kwa kawaida hutosha kuepuka mitego inayoletwa na mtanziko wa mfungwa.
 
@@ -276,7 +276,7 @@ Katika nyakati za kabla ya ustaarabu, teknolojia hizi hazikuwepo. Kwa hivyo, bab
 
 ### Sadfa Maradufu ya Mahitaji na Usawa
 
-![image](assets/en/11.webp)
+![image](assets/sw/011.webp)
 
 Pesa inaweza kuonekana kama suluhu iliyogunduliwa na mababu zetu kwa Address ambayo wanauchumi wanaita tatizo la "double coincidence of wants". Tatizo hili lina pande tatu: anga, muda, na baina ya watu.
 
@@ -322,7 +322,7 @@ Tathmini hii ya kibinafsi ya thamani ya bidhaa za siku zijazo ikilinganishwa na 
 
 Dhana hii ya uthamini wa jamaa wa bidhaa za siku zijazo juu ya bidhaa za sasa ndio mzizi wa hali ya riba. Hakika, katika uchumi ulio na masoko ya mitaji ambayo hayajadhibitiwa, viwango vya riba vya marejeleo (vinachukuliwa kuwa visivyo na hatari kutoka kwa chaguo-msingi) huamuliwa kwenye makutano ya mji mkuu wa Supply na mahitaji. Kwa hiyo, viwango hivi vinawakilisha hali ya mapendeleo ya muda kwa uchumi mzima: ongezeko la kiwango cha riba linatokana na ongezeko la jamaa la mahitaji ya mtaji ikilinganishwa na Supply, inayoonyesha mapendekezo ya juu ya muda. Kinyume chake, kupungua kwa viwango vya riba hutokea kutokana na ongezeko la akiba, ambayo ni ongezeko la Supply ya mtaji, inayoonyesha kupunguzwa kwa mapendekezo ya wakati.
 
-![image](assets/en/12.webp)
+![image](assets/sw/012.webp)
 
 Katika uchumi ambapo viwango vya riba havitumiwi na benki kuu, huwa tunazingatia mteremko wa mavuno unaopanda juu: kadri deni linavyozidi kukomaa, ndivyo kiwango cha riba kinavyoongezeka. Hali iliyo kinyume haiwezi kutokea kwa sababu itahusisha kwamba siku zijazo ni hakika zaidi kuliko sasa, jambo ambalo ni jambo lisilowezekana kimantiki.
 
@@ -330,7 +330,7 @@ Wazo la upendeleo wa wakati na jinsi tunavyoelezea upendeleo wetu wa wakati kwa 
 
 ### Nadharia ya Capital
 
-![image](assets/en/13.webp)
+![image](assets/sw/013.webp)
 
 Mwanzoni mwa kozi hii, tuliona kwamba, kwa Carl Menger, bidhaa zinachukuliwa tu kuwa bidhaa za kiuchumi (zinazothaminiwa) kwa sababu hutumika kama njia za kufikia malengo yaliyochaguliwa na kuthaminiwa na watu binafsi. Kulingana na maoni haya, uchanganuzi wote wa kiuchumi unahusu matumizi kwa sababu hatimaye ndio lengo kuu la shughuli zote za kiuchumi. Kwa hivyo, kwa Menger, mahali pa kuanzia uchambuzi wa kiuchumi ni bidhaa za watumiaji, au bidhaa za mwisho, kwani zinawakilisha kusudi kuu la shughuli za kiuchumi. Bidhaa nyingine zote katika uchumi, ambazo tunaweza kuziita "bidhaa za kati," zina thamani tu kwa sababu zinawezesha watu binafsi kupata bidhaa hizi za matumizi: ni bidhaa zinazotumiwa katika uzalishaji wa bidhaa nyingine.
 
@@ -346,13 +346,13 @@ Kutokana na asili ya mfuatano wa hatua za binadamu, chaguo hizi za baina ya muda
 
 Ili kufafanua jambo hili, hebu tuangalie tena mfano uliotolewa na Böhm-Bawerk, katika kazi yake "Capital and Interest":
 
-![image](assets/en/14.webp)
+![image](assets/sw/014.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe na Mchepuko wa Uzalishaji/Mzunguko:
 
-![image](assets/en/15.webp)
+![image](assets/sw/015.webp)
 
 Duka za Kutua za Robinson Crusoe kutoka kwenye Wreck, John Alexander Gilfillan (1793-1864)
 
@@ -376,7 +376,7 @@ Sasa, kama ilivyoelezewa katika sura ya kwanza, viwango vya riba vimechezewa kwa
 
 Hii inaonyeshwa kikamilifu na chati iliyo hapa chini: viwango vya muda mrefu ni vya chini kuliko viwango vya muda mfupi. Kwanza, hii haina maana kabisa, kwa sababu ingejumuisha kwamba siku zijazo ni za hakika zaidi kuliko sasa. Pili, inataka uchunguzi kuhusu matokeo ya mgao wa mtaji: ikiwa kila mtu atahamasishwa kufanya kana kwamba akiba ni nyingi, ilhali waweka akiba hawapatikani popote kwa sababu hawajatuzwa kwa kuweka akiba, je, hii inaweza kuleta matokeo gani kwa uchumi?
 
-![image](assets/en/16.webp)
+![image](assets/sw/016.webp)
 
 Haya ndiyo tutakayopata katika sura inayofuata inayohusu Nadharia ya Austria ya Mzunguko wa Biashara!
 
@@ -406,7 +406,7 @@ Ili kuelezea jambo hili la upotovu wa muda na matokeo yake kwa uwazi iwezekanavy
 
 Ili kuwezesha maelezo yetu, tutarudi kwenye uainishaji wa Menger wa bidhaa na kuwakilisha muundo wenye tija kwenye mchoro unaojumuisha idadi ya hatua kiholela:
 
-![image](assets/en/17.webp)
+![image](assets/sw/017.webp)
 
 Katika mchoro hapo juu, rasilimali za awali hupitia hatua mbalimbali za uzalishaji, zikifanyika mabadiliko ambayo huwaleta karibu na hali ya bidhaa za mwisho za walaji (kupitia mwingiliano na mambo ya awali ya uzalishaji: wakati, ardhi, kazi). Urefu wa upande wa kulia wa pembetatu kwa mpangilio unawakilisha Pato la Taifa kwa kuwa unaonyesha jumla ya bidhaa zote za watumiaji zinazouzwa katika kipindi fulani. Pengo kati ya kila bar inalingana na thamani iliyoongezwa (kwa maneno ya fedha) inayotokana na kila hatua ya mchakato. Tofauti hii pia inaweza kuonekana kama mapato yanayohusiana na kila hatua (mapato - gharama).
 
@@ -414,7 +414,7 @@ Ikiwa, kwa kiwango cha jumla, mawakala wa kiuchumi wataongeza akiba zao, kiasi c
 
 Kisha tutapata muundo wa uzalishaji uliopanuliwa, mabadiliko ambayo yanaweza kuwakilishwa kwa ubora na mchoro ufuatao:
 
-![image](assets/en/18.webp)
+![image](assets/sw/018.webp)
 
 Hapa, thamani ya fedha ya bidhaa zinazohitajika za matumizi imepungua, ikitoa rasilimali kwa ajili ya kuundwa kwa hatua ya ziada ya uzalishaji. Katika hali hii ambapo kupungua kwa viwango vya riba ni matokeo ya kupungua kwa matumizi, yaani, ongezeko la akiba, eneo la pembetatu, linalowakilisha kiasi cha fedha katika mzunguko, bado halijabadilika. Mabadiliko ya muundo wa uzalishaji (kurefusha) husababisha tu uhamisho wa nguvu ya ununuzi kutoka sehemu moja ya muundo hadi nyingine.
 
@@ -430,7 +430,7 @@ Kwa viwango vya chini vya riba, wajasiriamali wanaweza kukopa rasilimali zaidi n
 
 Kumbuka kuwa haya ni matokeo ya kimantiki kabisa ya upanuzi wa mikopo. Kwa kadiri benki zinavyozalisha vyombo vya habari vya uaminifu kwa kutoa mikopo, mtu anapaswa kutarajia uwezo wa jumla wa ununuzi kuongezeka.
 
-![image](assets/en/19.webp)
+![image](assets/sw/019.webp)
 
 Mikopo inapoingia kwenye uchumi kupitia mikopo kwa wajasiriamali, tunapaswa kuzingatia ongezeko la faida katika sekta za uzalishaji zilizo mbali na matumizi, na kupungua kwa faida katika sekta zilizo karibu na matumizi. Faida hii ya juu basi inasaidia ugawaji upya wa mtaji kuelekea hatua hizi mpya, zinazohitaji mtaji mkubwa zaidi (uundaji wa meli, magari, ujenzi, teknolojia za hali ya juu, n.k.), na kupungua kwa uwekezaji katika sekta zilizo karibu na matumizi.
 
@@ -446,7 +446,7 @@ Marekebisho kama haya yanaweza kutazamwa kama kipindi ambacho matumizi duni, na 
 
 Kwa bahati mbaya, utaratibu huu wa unyogovu mara nyingi huingiliwa na mamlaka ya kisiasa na benki kuu zinazotaka "kukuza" uchumi kupitia matumizi ya nakisi na sera rahisi ya fedha.
 
-![image](assets/en/20.webp)
+![image](assets/sw/020.webp)
 
 Kwa wenye fedha na Wakenesia, sababu ya unyogovu ni mahitaji ya jumla ya kutosha, kwa hivyo hakuna anayezingatia mabadiliko ya bei ya jamaa, ambayo, kama tumeona, ndiyo kiini cha tatizo. Kwa hivyo, wanaamini kwamba kutoa motisha kwa upanuzi wa mikopo (kupunguza viwango vya riba) na kutumia uwezo wa nakisi wa serikali kuongeza mahitaji kutaanza ahueni. Kwa muda mfupi, hatua hizo zinaweza kuonekana kuzalisha athari zinazohitajika: nakisi inasaidia matumizi, wakati kupunguza viwango vya riba husababisha bei ya juu ya mali, ambayo, kwa upande wake, inawahimiza wamiliki wa mali kuongeza matumizi yao. Hata hivyo, ongezeko kama hilo hatimaye hupungua, huku tatizo la kimuundo likisalia, au hata kuwa mbaya zaidi kadiri mgao wa mtaji unavyoendelea kutokana na viwango vya chini vya riba.
 
@@ -486,7 +486,7 @@ Kwa makala yake, Mises alianzisha mwelekeo mpya wa mjadala. Kuweka kando dhana z
 
 ### Kuelezea Kutowezekana kwa Mahesabu ya Kiuchumi
 
-![image](assets/en/21.webp)
+![image](assets/sw/021.webp)
 
 Imani nyingi potofu kuhusu hoja za Mises hutokana na kutoelewa majukumu yanayotekelezwa na madarasa ya usimamizi na ujasiriamali katika uchumi wa kibepari. Mises hakuwahi kughairi uwezo wa wasimamizi kubuni mipango madhubuti ya uzalishaji ndani ya shughuli zao wenyewe. Badala yake, alisisitiza umuhimu wa wajasiriamali na wanahisa, ambao, kama wamiliki wa njia za uzalishaji, hutenga mtaji katika tasnia tofauti, na hivyo kutengeneza bei ambazo hutumika kama pembejeo katika hesabu za kiuchumi za wasimamizi.
 
@@ -504,7 +504,7 @@ Utaratibu huu ni muhimu kwa sababu unathibitisha au kubatilisha ufanisi wa shugh
 
 Kwa mtazamo huu, uchumi uliopangwa na serikali kuu utakabiliwa na mgao wa mtaji usioepukika. Katika muda mfupi hadi wa kati, ugawaji potofu kama huo unaweza kutotambuliwa kwa sababu hakuna bei za soko au kufilisika kuzifichua. Hata hivyo, kutokana na kukosekana kwa maoni (bei) na taratibu za ugawaji upya (kufilisika), makosa yatajilimbikiza hadi ubadhirifu utakapodhihirika kupitia kuzorota kwa hali ya maisha.
 
-![image](assets/en/22.webp)
+![image](assets/sw/022.webp)
 
 ### Mtazamo wa Austria na Kufeli kwa Shule Nyingine za Kiuchumi
 
@@ -514,7 +514,7 @@ Licha ya utabiri huu wa kuvutia na maonyesho mengi ya kitaalamu ya kutowezekana 
 
 ### Nadharia ya Mzunguko wa Biashara ya Austria kama Kesi Maalum ya Kutowezekana kwa Uhesabuji wa Kiuchumi chini ya Ujamaa.
 
-![image](assets/en/23.webp)
+![image](assets/sw/023.webp)
 
 Katika sura iliyotangulia, tulifafanua mienendo ya uwekezaji kupita kiasi na mgao mbaya wa mtaji unaotokana na ghiliba za viwango vya riba na benki kuu. Kimsingi, kile tulichoeleza kinaweza kutazamwa kama kisa mahususi cha kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa, inayotumika kwenye uwanja wa soko la pesa. Wakati bei zinapangwa nje ya thamani zao za soko, wajasiriamali na wagawaji mitaji wanahamasishwa kushiriki katika uwekezaji ambao hauwezi kuendelezwa kwa muda mrefu kwa sababu ya ukosefu wa akiba. Kwa kuingilia mfumo wa bei, wapangaji wa kati (katika kesi hii, mabenki kuu) huunda ugomvi kati ya mawakala wa kiuchumi. Katika tukio hili, upatanishi mbaya wa wakati unajumuisha uwekezaji kupita kiasi katika bidhaa za uwekezaji wa hali ya juu na uwekezaji mdogo katika bidhaa za uwekezaji wa viwango vya chini, ambao unawakilisha udhihirisho mahususi wa mgao mbaya wa mtaji katika sekta zote.
 

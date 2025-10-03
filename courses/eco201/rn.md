@@ -96,7 +96,7 @@ Iyo ikigo c'ivy'imari gifise uruhusha rwo gukora muri banki, bisigura mu vy'ukur
 Uhejeje kugura iyo nzu, urategeka uwugukorera muri banki ngo arungike amahera kuri konti y’uwugurisha. Iyo konti y’umuguzi iri muri banki itandukanye, umukozi wawe wa banki amenyesha umukozi wa banki ahuye n’iyo banki kugira ngo abone ko konti y’umuguzi ishobora gushirwamwo amahera nk’uko bibereye, mu gihe akuraho amahera kuri konti yawe amahera ahuye n’ayo.
 
 
-![image](assets/en/01.webp)
+![image](assets/rn/001.webp)
 
 
 Igishushanyo ca 1: Guhingura amahera nk'Ivyinjira mu Bubiko bw'Ibitabo
@@ -123,7 +123,7 @@ Ico kibazo c’uruyeri ni co catumye habaho amabanki akomeye yo muri iki gihe. M
 Uretse kubungabunga ugushikama kw’ivy’ubutunzi, amabanki nkuru ni yo ashinzwe gushinga ibiciro vy’ingenzi vy’amategeko. Ivyo bipimo ni vyo bigena igiciro amabanki afise uruhusha ashobora kugurana amafaranga muri banki nkuru, mu vy’ukuri bikaba bisobanura igiciro c’amahera y’ibigo vy’imari bifise uruhara runini mu gutanga inguzanyo mu bukungu bwacu. Ivyo bipimo rero birakora nk’ikigereranyo c’urutonde rw’ivy’ubutunzi rwose. Nk’umuntu ku giti ciwe, inyungu wishura ku ngwati yawe zishobora guca mu giciro c’inyungu n’inyungu ya banki.
 
 
-![image](assets/en/02.webp)
+![image](assets/rn/002.webp)
 
 
 Igishushanyo2: Igihombo c’abavukanyi ba Lehman (15/09/2008)
@@ -135,7 +135,7 @@ Mu gihe c’amagume akomeye y’ivy’ubutunzi yo mu 2008, Lehman Brothers, bank
 Naho izo ngingo zabujije ko haba umupfunda w’ugusenyuka kw’ubutunzi, nta co zakoze kugira ngo ubutunzi bube buteye akaga bwakurikiyeho. Abantu amamiliyoni baratakaje akazi n’amazu yabo, amahera abaguzi bakoresha yaragabanutse cane, ubudandaji buragabanuka, amabanki na yo aratakaza amahera menshi. Naho inyungu zari ntoyi mu mateka, bake ni bo bari biteguriye kugurana, ivyo bikaba vyatumye haba uruzitiro rubi aho ukugabanya kw’intango kw’amahera akoreshwa n’ishoramari kwari gukomeje. Ku bw’ivyo, abakozi bo mu mabanki nkuru barateye intambwe zindi mu gushirwa mu ngiro porogarama zo kworohereza amafaranga (QE). Izo porogarama zari zirimwo amabanki nkuru agura amabondi ya Leta be n’amafaranga y’ingwati ashigikiwe n’ingwati mu mabanki y’ubudandaji afise amafaranga y’ububiko bwa banki nkuru.
 
 
-![image](assets/en/03.webp)
+![image](assets/rn/003.webp)
 
 
 Igishushanyo3 : Inyungu mu bihugu bikomeye / Inkomoko: ECB
@@ -150,7 +150,7 @@ Mu buryo butandukanye n’ivyo benshi bari biteze, porogarama za QE ntizasubiye 
 Naho biri ukwo, ingingo ngenderwako y’ubutunzi y’ingenzi irashobora gukugwa muri iki gice: iyo amahera mashasha aremwe, mu ntango agira akamaro ku bari hafi cane y’aho ayo mahera akomoka, akagirira akamaro abari kure cane. Ubwo bumenyi bw'ubutunzi bwatanguye mu kinjana ca 18 igihe Richard Cantillon yabuvuga mu gitabu ciwe "Inyandiko ku mico y'ubudandaji muri rusangi." Ubu mu rurimi rw’ikirundi ryitwa “Effet Cantillon”.
 
 
-![image](assets/en/04.webp)
+![image](assets/rn/004.webp)
 
 
 Igishushanyo4: Ingaruka za Cantillon muri make / Inkomoko: Ivy'Imari y'Uruzi
@@ -162,7 +162,7 @@ Muri iyo nkuru, abakozi bo mu mabanki, abarongozi ba banki, abafise amasheke n�
 Mu vy’ukuri, iyo nzira iragoramye. Amabanki ntaco akora, yamara iyo ananiwe, birashobora gutuma ubutunzi bwose buhungabana. Ico kibazo co mu vy’inyifato runtu gituma abarongozi ba banki bafata ingingo zirengeje urugero kugira ngo banki yabo ishobore kuronka amahera menshi, bazi ko amaherezo banki nkuru izobakiza, ivyo bikaba bizotuma ivyo bihembo bishika ku bariha imisoro. Muri ivyo bihe, abakozi ba banki nkuru bararema ivyangombwa vyo guhindura cane ububasha bwo kugura buva ku bantu bakora cane no ku bazigama buja ku bafise itunga n’abafitaniye isano n’ubuhinga bw’ivy’ubutunzi, gutyo bagaca inzira yo kurema ubutunzi n’ukwirundanira ubutunzi.
 
 
-![image](assets/en/05.webp)
+![image](assets/rn/005.webp)
 
 
 Igishushanyo5: Ugusangira ubutunzi mu Bushinwa + Uburayi + Amerika / Inkomoko: OECD
@@ -177,7 +177,7 @@ Mu bihe birebire vy’Itegeko ry’Inyungu Zitagira Inyungu (ZIRP), amabanki ara
 Iyindi ngaruka itategekanijwe ya ZIRP ni uko iremesha intwaro gukoresha amahera menshi. Kubera ko intwaro zitagira amafaranga yo kugurana kandi zishobora kwizigira amabanki nkuru kugira ngo zigure amabondi yazo biciye mu migambi ya QE, zifise ikintu gisanzwe zituma zikoresha amahera menshi bishoboka, cane cane mu bihe vya demokarasi aho gukoresha amahera bishobora gutuma abantu batora. Ivyo bimenyetso akenshi ntivyitaho ingaruka z’igihe kirekire z’ukwo gukoresha nabi amafaranga, bikaba bituma habaho ukwiyongera gukomeye kw’imyenda ya Leta mu bihugu vyateye imbere kuva mu gihe c’Ikibazo c’Ivy’Imari kw’Isi Yose (GFC).
 
 
-![image](assets/en/06.webp)
+![image](assets/rn/006.webp)
 
 
 Igishushanyo ca 6: Ideni rya Leta n'iry'abikorera ku giti cabo nk'% y'umusaruro w'igihugu (Isi, igereranijwe n'umusaruro w'igihugu ku gihugu) / Inkomoko FMI
@@ -234,7 +234,7 @@ Mwene ivyo bibazo vyaramaze ibinjana vyinshi bihangayikishije abahinga mu vy’u
 Inyuma y'aho inyigisho y'aba physiocrates yerekeye agaciro k'ubutaka, ivuga ko agaciro kose kava ku butaka, yari yarahakanwe n'inyigisho y'agaciro k'akazi k'abahinga mu vy'ubutunzi, bavuga ko agaciro k'ikintu kava ku rugero rw'abakozi baja mu guhingura, ni ho inyigisho y'agaciro k'inyuma yasubiriye ivya nyuma. Mu myaka ya 1870, hakurikijwe Marx, uwa nyuma mu bahinga b'ubutunzi ba kera, amashure atatu mashasha y'ivyiyumviro vy'ubutunzi yaraserutse hafi icarimwe akikuje inyigisho y'agaciro: ishure rya Lausanne ryari kumwe na Léon Walras, ishure ry'ubu canke ry'ubuhinga bushasha ryari kumwe na William Stanley Jevons, n'ishure ryo muri Otirishiya ryari kumwe na Carl Menger. Iryo hinduka mu vyiyumviro vy’agaciro ryatumye habaho ugusubira gusubirana gukomeye kw’ivyiyumviro vy’ubutunzi.
 
 
-![image](assets/en/07.webp)
+![image](assets/rn/007.webp)
 
 
 Kuva ibubamfu uja iburyo: William Stanley Jevons, Carl Menger, Léon Walras
@@ -249,7 +249,7 @@ Ni ibisanzwe gushikiriza ukuntu ayo mashure atatu ashirwa ku ruhande nk’aho as
 ### Agaciro k'umuntu
 
 
-![image](assets/en/08.webp)
+![image](assets/rn/008.webp)
 
 
 Umuhinga mu vy'ubutunzi wo muri Otirishiya arahakana iciyumviro c'abakurikiye Adamu Smith maze aheba iciyumviro c'uko agaciro k'ikintu kava ku rugero rw'abakozi bakoreshwa mu kugikora, ashigikira iciyumviro c'uko agaciro kaco kagenwa n'umuntu ku giti ciwe, uwo, muri buri gihe, akora igikorwa co mu mutwe co gupima agaciro ku bijanye n'ingero yihariye y'ikintu. Iryo simbuka ry’ubwenge ryakozwe na Menger rirwanya intumbero y’agaciro: kuri we, agaciro si umutungo w’intumbero w’ibintu; ni ingaruka gusa y'ubucuti umuntu afise n'ico kintu: «agaciro ntikabaho hanze y'ubumenyi bw'umuntu».
@@ -285,7 +285,7 @@ Ico ciyumviro c’agaciro, gitahurwa nk’ubucuti bwo mu mutwe umuntu afise n’
 ### Ugucapura kw'akazi
 
 
-![image](assets/en/09.webp)
+![image](assets/rn/009.webp)
 
 
 Gusura uruganda rw’imisumari, Léonard Defrance (mu kinjana ca 18)
@@ -380,7 +380,7 @@ Uyu mukino ugaragaza ingorane ikunda guhura n’abantu mu buzima nyakuri: iyo at
 ### Amahera yo gutorera umuti ingorane zo guhuza ibikorwa
 
 
-![image](assets/en/10.webp)
+![image](assets/rn/010.webp)
 
 
 Ico kibazo gifise ingaruka nke mu mibano mito mito (nk’akarorero, umuryango, imigwi y’abagenzi) kuko, muri ivyo bihe, umuntu wese aramenyana ataco yishisha, bikaba bishoboka kwibuka intererano z’uwundi. Dufashe ko kuva mu kibano (guhunga) bitera igiciro, uburyo bwo kumenyekana bushingiye ku kwibuka kw’abakozi ku giti cabo akenshi burahagije kugira ngo umuntu yirinde imitego iterwa n’ingorane y’infungwa.
@@ -410,7 +410,7 @@ Mu bihe vy’imbere y’ubutekerezi, izo tekinoloji ntizariho. Gutyo, ba sogokur
 ### Guhura kabiri kw'ivyo umuntu ashaka n'ivyo ashobora kugurisha
 
 
-![image](assets/en/11.webp)
+![image](assets/rn/011.webp)
 
 
 Amahera ashobora kubonwa nk'umuti wavumbuwe na ba sogokuruza bacu ku kibazo ca Address ico abahinga mu vy'ubutunzi bita "uguhura kabiri kw'ivyo umuntu yipfuza". Ico kibazo gifise ivyiyumviro bitatu: ivy’ahantu, ivy’igihe n’ivy’abantu.
@@ -479,7 +479,7 @@ Ukwo gusuzuma umuntu ku giti ciwe agaciro k’ibintu vyo muri kazoza ugereranyij
 Ico ciyumviro co gupima agaciro k’ibintu vyo muri kazoza ku bintu vyo muri iki gihe ni co gishingiyeko ikintu c’inyungu. Nkako, mu bukungu bufise amasoko y’itunga atakoreshwa, inyungu z’ishingiro (zibonwa ko zidafise ingorane zo kudatanga) zigenwa ku mahuriro y’itunga Supply n’ivyo umuntu asaba. Rero, ivyo bipimo bigereranya uko igihe umuntu akunda ku bukungu bwose kimeze: ukwiyongera kw’inyungu kuva ku kwiyongera kw’abasaba umutungo ugereranije na Supply, bikaba vyerekana ko umuntu akunda igihe kinini. Ku rundi ruhande, ukugabanya inyungu bishika kubera ukwiyongera kw’amahera azigamiwe, ivyo bikaba ari ukwiyongera kwa Supply y’umutungo kamere, bikaba vyerekana ko igihe umuntu akunda kigabanuka.
 
 
-![image](assets/en/12.webp)
+![image](assets/rn/012.webp)
 
 
 Mu bukungu aho inyungu zidakoreshwa na banki nkuru, dukunda kubona umurongo w’inyungu ugenda uraduga: uko umwenda umara igihe kirekire, ni ko inyungu igenda irakura. Ivyo bihushanye n’ivyo ntibishobora kubaho kuko vyotuma kazoza kazoba gatomoye kuruta ubu, ivyo bikaba ari ibintu bidashoboka.
@@ -491,7 +491,7 @@ Iciyumviro co guhitamwo umwanya n’ingene duserura umwanya wacu bwite dukunda b
 ### Ivyiyumviro vy'umutungo
 
 
-![image](assets/en/13.webp)
+![image](assets/rn/013.webp)
 
 
 Mu ntango y’iri shure, twabonye ko, kuri Carl Menger, ibintu bifatwa gusa nk’ibintu vy’ubutunzi (bifise agaciro) kuko bikora nk’uburyo bwo gushika ku ntumbero zitowe kandi zihabwa agaciro n’abantu ku giti cabo. Dushingiye kuri iyo mbonerahamwe, isesengura ryose ry’ubutunzi rizunguruka ugukoresha kuko ari yo ntumbero y’iherezo ituma umuntu akora ibikorwa vyose vy’ubutunzi. Rero, kuri Menger, intango y’isesengura ry’ubutunzi ni ibicuruzwa vy’abaguzi, canke ibicuruzwa vya nyuma, kuko ari vyo bigereranya intumbero nyamukuru y’igikorwa c’ubutunzi. Ibindi bicuruzwa vyose vyo mu bukungu, ivyo twokwita "ibicuruzwa vyo hagati", bifise agaciro gusa kuko bishoboza abantu ku giti cabo kuronka ivyo bicuruzwa vy'abaguzi: ni ibicuruzwa bikoreshwa mu guhingura ibindi bicuruzwa.
@@ -515,7 +515,7 @@ Kubera urutonde rw’ibikorwa vy’umuntu, ayo mahitamwo hagati y’ibihe yama a
 Kugira ngo tubone neza iyo ngingo, reka dusubire kuraba akarorero katanzwe na Böhm-Bawerk, mu gitabu ciwe "Itunga n'inyungu":
 
 
-![image](assets/en/14.webp)
+![image](assets/rn/014.webp)
 
 
 Eugen von Bohm-Bawerk (1851-1914)
@@ -524,7 +524,7 @@ Eugen von Bohm-Bawerk (1851-1914)
 ### Robinson Crusoe n'Ibarabara ry'Ibikorwa:
 
 
-![image](assets/en/15.webp)
+![image](assets/rn/015.webp)
 
 
 Amaduka ya Robinson Crusoe avuye mu bwato bwasambutse, Yohani Alegizandere Gilfillan (1793-1864)
@@ -560,7 +560,7 @@ Ubu, nk’uko vyacitse intege mu kigabane ca mbere, inyungu zamaze imyaka mirong
 Ivyo vyerekanywe neza n’ikigereranyo kiri aha hepfo: ibiciro vy’igihe kirekire biri hasi y’ibiciro vy’igihe gito. Ica mbere, ivyo nta co bimaze na gato, kuko vyotuma kazoza kazoba gatomoye kuruta ubu. Ubwa kabiri, birakenewe ko haba itohoza ku ngaruka zishobora guterwa n’ugutanga umutungo: iyo umuntu wese atera intege gukora nk’aho amafaranga azigamye ari menshi, mu gihe abazigama ataho bari kubera ko badahembwa kubera bazigamye, ivyo vyoshobora kugira ingaruka izihe ku bukungu?
 
 
-![image](assets/en/16.webp)
+![image](assets/rn/016.webp)
 
 
 Ivyo ni vyo tuzobibona mu kigabane gikurikira kijanye n’Inyigisho y’Ubucuruzi y’Ubudagi!
@@ -605,7 +605,7 @@ Kugira ngo tudondore neza iki kintu c’uguhuza nabi igihe n’ingaruka zaco, tu
 Kugira ngo tworohereze insobanuro yacu, tuzosubira ku rutonde rwa Menger rw’ibintu maze tugaragaze imiterere y’umwimbu ku kigereranyo gifise umubare w’intambwe zidasanzwe:
 
 
-![image](assets/en/17.webp)
+![image](assets/rn/017.webp)
 
 
 Mu kigereranyo kiri hejuru, ibikoresho vy’intango bica mu ntambwe zitandukanye z’uguhingura, bikagira amahinduka bituma bikwegeranya uko ibintu vy’iherezo bikoreshwa (biciye mu gukorana n’ibintu vy’intango vy’uguhingura: igihe, ubutaka, abakozi). Uburebure bw’uruhande rw’iburyo rw’inkomoko itatu bugereranya mu buryo bw’igishushanyo umusaruro w’igihugu kuko bugaragaza umubare w’ibintu vyose bigurishwa mu kiringo kinaka. Ico kinogo kiri hagati y’umurongo umwe umwe gihuye n’agaciro kongereweko (mu mafaranga) kava ku ntambwe yose y’urugendo. Iryo tandukaniro rishobora kandi kubonwa nk’inyungu ijana n’intambwe imwe imwe (inyungu - amafaranga).
@@ -617,7 +617,7 @@ Iyo, ku rugero rwose, abakozi b’ubutunzi bongera ivyo bazigama, igitigiri c’
 Tuzoheza turonke urutonde rw’ibikorwa rwagutse, ihinduka rishobora guserurwa mu buryo bw’uburyo n’iki kigereranyo gikurikira:
 
 
-![image](assets/en/18.webp)
+![image](assets/rn/018.webp)
 
 
 Aha, agaciro k’amahera k’ibicuruzwa vy’abaguzi bisabwa karagabanutse, bituma habaho uburyo bwo kurema intambwe y’inyongera y’uguhingura. Muri iki gihe aho ukugabanya inyungu ari ingaruka y’ukugabanya ugukoresha, ni ukuvuga, ukwongerekana kw’amahera azigamiwe, uburebure bw’inkomoko y’inkomoko y’inkomoko, bugereranya ubwinshi bw’amahera ariko arakoreshwa, ntibuhinduka. Ihinduka ry’imiterere y’ibikorwa (ugukura) riva gusa ku kwimurira ububasha bwo kugura buva ku gice kimwe c’imiterere bukaja mu kindi.
@@ -641,7 +641,7 @@ Kubera ko inyungu ziri hasi, abashoramare barashobora kugurana ubutunzi bwinshi,
 Zirikana ko ivyo ari ingaruka zihuye n’ubwenge rwose z’ukwaguka kw’inguzanyo. Kubera ko amabanki atanga ibinyamakuru vy’ubudandaji mu gutanga inguzanyo, umuntu akwiye kwitega ko ubushobozi bwo kugura muri rusangi buzokwongerekana.
 
 
-![image](assets/en/19.webp)
+![image](assets/rn/019.webp)
 
 
 Uko inguzanyo zija mu bukungu biciye mu ngurane zihabwa abashoramare, dukwiye kubona ko inyungu zigenda zirushirizaho mu nzego z’ubuhinga ziri kure y’ugukoresha, n’inyungu zigereranywa zigabanuka mu nzego ziri hafi y’ugukoresha. Uwo nyungu myinshi rero urashigikira ugusubira gutanga umutungo uja muri izo ntambwe nshasha, zikoresha umutungo mwinshi (ubwubatsi bw’ubwato, imodoka, ubwubatsi, ubuhinga buteye imbere, n’ibindi), no kugabanya ishoramari mu nzego ziri hafi y’ugukoresha.
@@ -665,7 +665,7 @@ Mwene ukwo guhindura gushobora gufatwa nk’igihe aho ugukoresha nabi, n’ugush
 Ikibabaje ni uko ubwo buryo bwo gutera agahinda kenshi bucikamwo n’ububasha bwa politike be n’amabanki akomeye arondera “gutera imbere” ubutunzi biciye mu gukoresha amahera ataco amaze no gukoresha politike yoroshe y’amahera.
 
 
-![image](assets/en/20.webp)
+![image](assets/rn/020.webp)
 
 
 Ku bakunda amahera no ku bakunda Keynes, imvo y’ugucika intege ni ukudahagije kw’abasaba vyose hamwe, rero nta n’umwe muri bo yitwararika iterambere ry’ibiciro bihuye, nk’uko twabibonye, ​​ari ryo shingiro ry’ingorane. Gutyo, bemera ko gutanga insiguro y’ukwagura inguzanyo (kugabanya inyungu) no gukoresha ubushobozi bwa Leta bwo gutanga amadeni kugira ngo yongere ivyifuzo bizotuma habaho ugusubirana. Mu gihe gito, izo ngingo zishobora gusa n’izitanga ingaruka zikenewe: ikinyuranyo gifasha mu gukoresha amahera, mu gihe ukugabanya inyungu bituma ibiciro vy’itunga biduga, ivyo na vyo bikaba bituma abafise itunga bongera amahera bakoresha. Ariko rero, mwene ukwo gutera imbere kuraheza kugabanuka, mu gihe ingorane y’imibumbe igumaho, canke mbere igakomera cane uko ugutanga nabi kw’itunga kubandanya bivuye ku nyungu ziri hasi cane.
@@ -724,7 +724,7 @@ Mises akoresheje ingingo yiwe, yarashizeho urugero rushasha mu bijanye n’impak
 ### Gusigura ukuntu ububaruzi bw'ubutunzi budashoboka
 
 
-![image](assets/en/21.webp)
+![image](assets/rn/021.webp)
 
 
 Ivyiyumviro vyinshi bitari vyo ku bijanye n’imvo za Mises biva ku gutahura nabi uruhara rw’imigwi y’abarongozi n’abanyamigambi mu bukungu bw’abanyagihugu. Mises ntiyigeze yirengagiza ubushobozi bw’abarongozi bwo gutegura imigambi myiza y’uguhingura mu bikorwa vyabo bwite. Ahubwo yashimikiye akamaro k’abanyamigambi n’abanyamigabane, abo, nk’abafise uburyo bwo gukora, bagatanga umutungo mu nganda zitandukanye, gutyo bagahingura ibiciro bikora nk’ibikoresho mu biharuro vy’ubutunzi vy’abarongozi.
@@ -751,7 +751,7 @@ Uwo murongo ni uwuhambaye cane kuko wemeza canke ugakuraho ubushobozi bw’ibiko
 Uvuye muri iyo nzira, ubutunzi butegekanijwe hagati buzoshikirwa ata kabuza n’ugutanga nabi umutungo. Mu gihe gito canke giciriritse, mwene ukwo gutanga nabi vyoshobora kutamenyekana kubera ko ata bici- ro vy’isoko canke gusenyuka kw’amahera bishobora kubihishura. Ariko rero, kubera ko ata n’inyishu (ibiciro) n’uburyo bwo gusubira gutanga (ugusenyuka), amakosa azokwirundanira gushika aho ubusazi bugaragaye biciye mu kugabanya cane ubuzima.
 
 
-![image](assets/en/22.webp)
+![image](assets/rn/022.webp)
 
 
 ### Ivyo Otirishiya ibona n’ivyo ayandi mashure y’ubutunzi yananiwe
@@ -766,7 +766,7 @@ Naho ivyo bimenyetso bitangaje be n’ibimenyetso vyinshi vyerekana ko ubutunzi 
 ### Ivyiyumviro vy'ingendo y'ubudandaji vyo muri Otirishiya nk'ikibazo kidasanzwe c'ukudashoboka kw'ibara ry'ubutunzi mu gihe c'ubusosiyalisimu
 
 
-![image](assets/en/23.webp)
+![image](assets/rn/023.webp)
 
 
 Mu kigabane c’imbere, twasobanuye neza ingene ishoramari rirenze urugero n’ugutanga nabi umutungo biva ku gukoresha nabi inyungu n’amabanki akomeye. Mu vy’ukuri, ivyo twasiguye birashobora gufatwa nk’ikibazo kidasanzwe c’ukudashoboka kw’ibara ry’ubutunzi mu gihe c’ubusosiyalisimu, bikoreshwa mu bijanye n’amasoko y’amahera. Iyo ibiciro bishizwe hanze y’agaciro kavyo kw’isoko, abashoramare n’abatanga umutungo baraterwa intege zo kwinjira mu bikorwa vy’ishoramari bidashobora kugumaho mu kiringo kirekire kubera ukubura amahera bazigamye. Mu kwivanga mu nzira y’ibiciro, abategura imigambi nkuru (muri iki gihe, abakozi bo mu mabanki nkuru) baratuma haba uguhuza nabi hagati y’abakozi b’ubutunzi. Muri iki gihe, ukudahuza neza hagati y’ibihe bijana n’ugushiramwo amahera menshi mu bicuruzwa vy’ishoramari vy’urugero rwo hejuru n’ugushiramwo amahera make mu bicuruzwa vy’ishoramari vy’urugero rwo hasi, ivyo bikaba bigaragaza ikimenyetso kidasanzwe c’ugutanga nabi umutungo mu nganda zose.

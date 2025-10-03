@@ -526,7 +526,7 @@ Hal Finney 於 2007 年
 
 Bitcoin 使用了一種分布式共識演算法，使所有網絡節點對帳本的內容達成共識，Hal Finney 在他的第一封電子郵件中將此稱為「區塊 鏈（block chain）」，用兩個詞表示。正確的區塊鏈選擇是擁有最多區塊的那個，競爭區塊的衝突根據這個簡單的原則解決。機制後來[得到了改進](https://sourceforge.net/p/Bitcoin/code/109/) 以考量累積的工作量，而非區塊數。
 
-這種共識機制允許在系統中實施各種規則和激勵措施（套用白皮書的最後一句話）。由於 Bitcoin 構成分散式時間戳記服務，因此這些規則也有可能與時間產生互動。因此，難度調整演算法開始發揮作用，用來調節新區塊的生產以及與之相關的 Bitcoin ：如果在特定時期內生產的區塊數量過多，那麼生產的難度就會增加；反之，難度就會降低。Bitcoin 因此不同於 RPOW，在 RPOW 中，工作憑證本身構成了記帳單位。
+這種共識機制允許在系統中實施各種規則和激勵措施（套用白皮書的最後一句話）。由於 Bitcoin 構成分散式時間戳記服務，因此這些規則也有可能與時間產生互動。因此，難度調整演算法開始發揮作用，用來調節新區塊的生產以及與之相關的 Bitcoin: 如果在特定時期內生產的區塊數量過多，那麼生產的難度就會增加；反之，難度就會降低。Bitcoin 因此不同於 RPOW，在 RPOW 中，工作憑證本身構成了記帳單位。
 
 憑藉這一難度調整，Bitcoin 可以擁有貨幣政策，發行的新單位數量可以預先確定。最初的計劃是使貨幣發行保持恆定，以鼓勵生產節點將計算能力貢獻給網絡，並且沒有交易費用。正如中本聰在[白皮書](assets/pdf/Bitcoin-20081003.pdf) 的「獎勵」部分所寫的一樣：
 
@@ -783,8 +783,8 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 
 
 - Hal Finney 在網路啟動至 2009 年 3 月期間管理他的電腦，累積了超過 10,000 個 Bitcoin 。
-- Dustin Trammell，他在 2009 年和 2010 年初挖出了數量驚人的區塊，從與他的 [Address](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv) 相關聯的活動中可以看出，他因此獲得了超過 70,000 個 Bitcoin ；- 一位名叫 James Howells 的英國工程師，他在 2 月到 4 月期間用自己的電腦 [產生](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 了 8,000 個 Bitcoin （他將在 2013 年把自己的電腦送去垃圾填埋場，並在幾個月後意識到自己的錯誤；他的案例將被 *The Guardian* [公開](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site)）；
-- Martti Malmi，他在 2009 年 4 月至 2010 年間，參與網路區塊的生產，因此 [獲得](https://twitter.com/marttimalmi/status/1339908783187832834) 55,000 多個 Bitcoin ；
+- Dustin Trammell，他在 2009 年和 2010 年初挖出了數量驚人的區塊，從與他的 [Address](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv) 相關聯的活動中可以看出，他因此獲得了超過 70,000 個 Bitcoin;- 一位名叫 James Howells 的英國工程師，他在 2 月到 4 月期間用自己的電腦 [產生](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 了 8,000 個 Bitcoin （他將在 2013 年把自己的電腦送去垃圾填埋場，並在幾個月後意識到自己的錯誤；他的案例將被 *The Guardian* [公開](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site)）；
+- Martti Malmi，他在 2009 年 4 月至 2010 年間，參與網路區塊的生產，因此 [獲得](https://twitter.com/marttimalmi/status/1339908783187832834) 55,000 多個 Bitcoin;
 - 一位稱為 NewLibertyStandard 的人於 2009 年 9 月開始產生大量的 Bitcoin ，以支持其新開的兌換服務...
 
 ### 首次兌換服務和首個價格
@@ -1291,7 +1291,7 @@ Bitcoin 的崛起意味著事物開始被衡量，無論是價格、鏈上的活
 
 2010年8月13日，一位名叫 Kiba 的論壇成員主動[提出](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)聯繫EFF，並建議他們接受社區的捐款，[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)。為此，他在 MyBitcoin 上建立了一個[賬戶](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那裡他收集了資金，並希望轉移給EFF。他草擬了一封電子郵件，並於 8 月底寄出。
 
-兩週後，在沒有回覆的情況下，第二位論壇會員向他伸出援手。這位化名為 BrightAnarchist 的會員認識其中一位創始人，並在 9 月 13 日寄了一封電子郵件給他們。他在同一天收到了回復，並在論壇上[寫道](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)：「EFF絕對有興趣接收 Bitcoin ！」該帳戶隨後被轉給了該組織。
+兩週後，在沒有回覆的情況下，第二位論壇會員向他伸出援手。這位化名為 BrightAnarchist 的會員認識其中一位創始人，並在 9 月 13 日寄了一封電子郵件給他們。他在同一天收到了回復，並在論壇上[寫道](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)：「EFF絕對有興趣接收 Bitcoin!」該帳戶隨後被轉給了該組織。
 
 EFF 花了一些時間才開始接受大眾捐款。經過協商後，社群說服他們在網站上發表捐款地址。11 月 9 日，地址出現在 [捐款頁面](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout)。Bitcoin 用戶開始[轉移](https://Mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) 資金。
 

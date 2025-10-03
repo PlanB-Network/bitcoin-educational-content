@@ -41,7 +41,7 @@ Ce cours est conçu pour les personnes qui sont complètement novices en program
 Un programme JavaScript est simplement un ensemble de (un ou plusieurs) fichiers texte contenant des commandes à exécuter par un moteur d'exécution JavaScript.
 
 
-Les noms de ces fichiers textes se terminent généralement par une extension de fichier `.js`, comme `mon_script.js`, `mon_programme.js`, etc.
+Les noms de ces fichiers texte se terminent généralement par une extension de fichier `.js`, comme `mon_script.js`, `mon_programme.js`, etc.
 
 
 Les commandes qu'ils contiennent sont écrites dans le langage de programmation JavaScript.
@@ -6419,7 +6419,7 @@ De nombreux objets en NodeJS émettent des événements pour informer le reste d
 Les flux combinent des buffers et des événements pour nous aider à traiter les données.
 
 
-Lorsque nous travaillons avec des fichiers, des données provenant du réseau ou même de longs textes, nous n'avons pas toujours besoin (ou envie) de tout charger en mémoire en une seule fois. Cela peut être lent, voire faire planter le programme si les données sont trop volumineuses.
+Lorsque nous travaillons avec des fichiers, des données provenant du réseau ou même de longs texte, nous n'avons pas toujours besoin (ou envie) de tout charger en mémoire en une seule fois. Cela peut être lent, voire faire planter le programme si les données sont trop volumineuses.
 
 
 Au lieu de cela, nous pouvons traiter les données **petit à petit**, au fur et à mesure qu'elles arrivent ou sont lues, un peu comme si nous buvions de l'eau avec une paille au lieu d'essayer de boire tout le verre d'un coup. C'est ce qu'on appelle un **flux**.

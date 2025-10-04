@@ -1315,6 +1315,7 @@ Allarmato dalla crescita dell'interventismo governativo nelle economie delle dem
 ### Il fascino del collettivismo
 
 Scritto tra il 1940 e il 1943, questo breve saggio mira a fornire una valutazione iniziale degli esperimenti statalisti tentati nella seconda metà degli anni '30: le nazionalizzazioni e la gestione keynesiana della domanda che hanno preso piede nell'Europa socialdemocratica e nella Nuova America del Deal. Dedicato ai "socialisti di tutti i partiti", cerca di dimostrare che "l'Occidente ha gradualmente abbandonato il principio della libertà economica senza il quale nessuna libertà individuale o politica è stata precedentemente possibile."
+
 Infatti, lo stesso processo di centralizzazione politica e lo stesso desiderio di sostituire un'organizzazione statalista con i meccanismi tradizionali del mercato si trovano ovunque. In Gran Bretagna come negli Stati Uniti, si afferma che il potere pubblico deve pianificare tutto e può risolvere tutto.
 
 Per quanto riguarda il liberalismo autentico, esso si preoccupa della giustizia. Ma Hayek ci ricorda che spetta alla società civile e non allo Stato organizzare questa solidarietà. Ciò che differenzia il liberalismo dal socialismo non sono i fini, ma i mezzi. Secondo Hayek:
@@ -1381,9 +1382,11 @@ Per Keynes, l'intervento dello Stato è necessario per stimolare la domanda e ri
 
 ![image](assets/6/img-010.webp)
 
-Ecco perché alcuni economisti, in minoranza, criticano Keynes per il suo corto termine e sostengono un ritorno ai meccanismi di mercato come alternativa migliore all'intervento dello Stato.
-Così, Friedrich Hayek spiegava che la continua riduzione dei tassi di interesse da parte delle banche centrali e l'espansione artificiale del credito potevano solo ingannare gli attori economici, facendoli investire come se esistessero molte risorse risparmiate (poiché i tassi di interesse diminuiscono naturalmente in risposta ad un aumento del risparmio). Questa allocazione errata delle risorse alimenta poi un'ascesa artificiale della crescita, una bolla, che è seguita da una recessione brutale. È questo contributo alla teoria dei cicli che valse a Hayek il Premio Nobel per l'Economia nel 1974.
-Insieme ad altri, ha anche evidenziato il pericolo della centralizzazione e manipolazione della valuta. Questo è il caso del francese Jacques Rueff, anch'egli discepolo e amico di Ludwig von Mises.
+Ecco perché alcuni economisti, in minoranza, criticano Keynes per la sua visione di breve periodo e sostengono invece un ritorno ai meccanismi di mercato come alternativa migliore all'intervento dello Stato.
+
+In qeusto modo, Friedrich Hayek spiegava che la continua riduzione dei tassi di interesse da parte delle banche centrali e l'espansione artificiale del credito potevano solo ingannare gli attori economici, facendoli investire come se esistessero molte risorse risparmiate (poiché i tassi di interesse diminuiscono naturalmente in risposta ad un aumento del risparmio). Questa allocazione errata delle risorse alimenta poi un'ascesa artificiale della crescita, una bolla, che è seguita da una recessione brutale. È questo contributo alla teoria dei cicli che valse a Hayek il Premio Nobel per l'Economia nel 1974.
+
+Insieme ad altri, Hayek ha anche evidenziato il pericolo della centralizzazione e manipolazione della valuta. Questo è il caso del francese Jacques Rueff, anch'egli discepolo e amico di Ludwig von Mises.
 
 ![image](assets/6/img-012.webp)
 
@@ -1393,9 +1396,9 @@ Questo libro include un capitolo chiave intitolato: "Moneta sana o Stato totalit
 
 Nel 1947, cinque anni dopo la traduzione francese della _Teoria generale_, pubblicò un articolo intitolato: _Gli errori della teoria generale di Lord Keynes_. Espone i seguenti avvertimenti:
 
-> È probabile che il prossimo periodo di depressione porterà alla diffusa applicazione della politica suggerita da Lord Keynes in tutto il mondo. Non ho paura di sbagliarmi affermando che questa politica ridurrà solo in piccola parte la disoccupazione, ma avrà profonde conseguenze sull'evoluzione dei paesi in cui sarà applicata. (...) A causa di Lord Keynes, il prossimo ciclo sarà un'opportunità per profondi cambiamenti politici, che alcuni sperano, mentre altri temono. In ogni caso, basandosi su una teoria falsa, i rimedi che saranno implementati avranno ripercussioni profondamente diverse da quelle che erano intese promuovere. La loro inefficacia sarà, per una grande parte dell'opinione pubblica, un nuovo motivo per richiedere la sostituzione di un regime che, negando se stesso, si sarà distrutto.
+> È probabile che il prossimo periodo di depressione porterà alla diffusa applicazione della politica suggerita da Lord Keynes in tutto il mondo. Non ho paura di sbagliarmi affermando che questa politica ridurrà solo in piccola parte la disoccupazione, ma avrà profonde conseguenze sull'evoluzione dei paesi in cui sarà applicata. (...) A causa di Lord Keynes, il prossimo ciclo sarà un'opportunità per profondi cambiamenti politici, che alcuni sperano, mentre altri temono. In ogni caso, basandosi su una teoria falsa, i rimedi che saranno implementati avranno ripercussioni profondamente diverse da quelle che erano intese promuovere. La loro inefficacia sarà, per gran parte dell'opinione pubblica, un nuovo motivo per chiedere la sostituzione di un regime che, rinnegando se stesso, si sarà autodistrutto.
 
-A partire dal 1958, una politica per rettificare l'economia francese, ispirata da Jacques Rueff, sarà condotta sotto l'autorità del Generale de Gaulle. Porterà alle famose "Trente Glorieuses" (Trent'anni Gloriosi).
+A partire dal 1958, una politica di risanamento dell'economia francese, ispirata da Jacques Rueff, fu condotta sotto l'autorità del generale de Gaulle. Essa porterà ai famosi "Trente Glorieuses" (Trenta anni gloriosi).
 
 Nel _Peccato monetario dell'Occidente_, nel 1971, Rueff scrive:
 
@@ -1404,6 +1407,7 @@ Nel _Peccato monetario dell'Occidente_, nel 1971, Rueff scrive:
 Aggiunge: "L'inflazione consiste nel sovvenzionare spese che non fruttano nulla con denaro che non esiste." Secondo lui: "Si potrebbe pensare, osservando l'evoluzione del sistema monetario internazionale, che l'Occidente stia applicando il consiglio di Lenin, secondo il quale: Per distruggere il regime borghese, basta corrompere la sua moneta.
 
 Nel 1976, attacca una ultima volta il Keynesismo in un articolo per il giornale _Le Monde_.
+
 Nessuna religione si è diffusa nel mondo così rapidamente come quella dell'occupazione. Spinta dal ricordo delle tragedie della disoccupazione che hanno devastato l'Inghilterra e la Germania durante gli anni '20, è diventata il principio fondamentale, espresso o implicito, della politica economica in quasi ogni paese del mondo. Nascondendo il suo scopo sotto l'astuto e specioso travestimento della "teoria generale", elevata da discepoli entusiasti e ciechi davanti all'azione governativa, ha mascherato il vero volto delle politiche inflazionistiche che copriva. Attraverso questo deviazione, ha dato una buona coscienza ai governi che, avendo esaurito le loro possibilità di tasse e prestiti, hanno fatto ricorso ai piaceri ingannevoli della creazione monetaria. (_La fine dell'era Keynesiana: quando il lungo periodo è scaduto_, Euromoney, aprile 1976, pp.70-7.)
 
 ## L'abbandono del gold standard
@@ -1422,7 +1426,7 @@ Infatti, l'oro è una valuta solida, difficile da produrre, costosa da contraffa
 
 Ecco perché, in _Azione umana_, Ludwig von Mises scrive:
 
-> Lo standard oro era lo standard mondiale dell'era capitalista, di crescente prosperità, libertà e democrazia \[…\] Era lo standard internazionale di cui il commercio internazionale e i mercati mondiali del capitale avevano bisogno \[…\] Ha portato industria, capitale e civiltà occidentale nei più remoti angoli del pianeta, creando una ricchezza precedentemente sconosciuta.
+> Il gold standard era lo standard mondiale dell'era capitalista, di crescente prosperità, libertà e democrazia \[…\] Era lo standard internazionale di cui il commercio internazionale e i mercati mondiali del capitale avevano bisogno \[…\] Ha portato industria, capitale e civiltà occidentale nei più remoti angoli del pianeta, creando una ricchezza precedentemente sconosciuta.
 > Ma il gold standard costringe i governi a finanziare le loro spese tramite tasse piuttosto che inflazione, il che spiega una certa ostilità da parte delle élite politiche ed economiche verso questo sistema. Perché collegare la valuta a un metallo prezioso limita la capacità delle banche centrali di finanziare la crescita dello Stato sociale attraverso la tassa indiretta che è l'inflazione.
 
 Ecco perché già nel 1923, Keynes dichiarava:
@@ -1464,7 +1468,7 @@ Egli scrive:
 
 > Finché non avremo ripristinato una situazione in cui i governi (così come altre autorità pubbliche) sappiano che se spendono troppo saranno, come chiunque altro, incapaci di far fronte ai loro obblighi, non ci sarà pausa in questo processo che, sostituendo l'attività collettiva all'attività privata, minaccia di soffocare l'iniziativa individuale. Nell'attuale democrazia illimitata, in cui il governo ha il potere di conferire speciali benefici materiali a gruppi particolari, è costretto a comprare il sostegno di un numero sufficiente di essi per costituire la maggioranza. (Ch. XXI, Gli effetti delle finanze e della spesa pubblica).
 
-Per Hayek, l'instabilità passata dell'economia di mercato deriva dal fatto che il regolatore più importante dei meccanismi di mercato, ovvero il denaro, non poteva di per sé essere il prodotto di un processo di mercato.
+Per Hayek, la passata instabilità dell'economia di mercato deriva dal fatto che il più importante regolatore dei meccanismi di mercato, vale a dire il denaro, non può essere esso stesso il prodotto di un processo di mercato.
 
 ![immagine](assets/6/img-006.webp)
 
@@ -1496,7 +1500,7 @@ Questo è ciò che Murray Rothbard suggeriva nel 1982:
 In un certo senso, la nostra situazione è migliore rispetto al passato. Dopo i successivi fallimenti di vari esperimenti socialisti, comunisti e socialdemocratici, oggi sappiamo come distinguere, meglio di ieri, le idee vere da quelle false. E le idee false possono essere confutate e sostituite con quelle vere. Come diceva Mises:
 
 > Tutto ciò che accade nella società globale in cui viviamo è il risultato delle idee. Il bene e il male. Ciò che è necessario è combattere le idee false. (...) La nostra civiltà può sopravvivere, e deve. E sopravviverà grazie a idee migliori rispetto a quelle che governano il mondo oggi; e queste idee migliori saranno sviluppate dalla generazione emergente.
-(_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+(_Politica economica: riflessioni per oggi e domani_, 1979).
 
 # Sezione finale
 

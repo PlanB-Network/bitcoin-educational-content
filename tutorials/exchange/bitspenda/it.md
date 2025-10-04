@@ -7,7 +7,7 @@ description: Il modo più veloce per convertire Bitcoin in Mobile Money.
 
 
 
-I trasferimenti transfrontalieri in Africa rappresentano un vero e proprio grattacapo per il libero Exchange di beni e servizi. Di fronte a questo problema, il Bitcoin è un'innovazione che, se adeguatamente contestualizzata, può risolvere molti dei problemi che affliggono le società africane, dalla sovranità finanziaria al libero Exchange del valore. Oggi andiamo a scoprire BitSpenda, un'iniziativa di Bitcoin Dua, una comunità ghanese in crescita che mira a democratizzare l'uso quotidiano del Bitcoin in Ghana e a facilitare le transazioni transfrontaliere.
+I trasferimenti transfrontalieri in Africa rappresentano un vero e proprio grattacapo per il libero scambio di beni e servizi. Di fronte a questo problema, Bitcoin è un'innovazione che, se adeguatamente contestualizzata, può risolvere molti dei problemi che affliggono le società africane, dalla sovranità finanziaria al libero Exchange del valore. Oggi andiamo a scoprire BitSpenda, un'iniziativa di Bitcoin Dua, una comunità ghanese in crescita che mira a democratizzare l'uso quotidiano del Bitcoin in Ghana e a facilitare le transazioni transfrontaliere.
 
 
 

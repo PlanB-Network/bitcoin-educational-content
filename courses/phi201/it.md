@@ -904,7 +904,7 @@ Al contrario, per i Fisiocratici, il libero scambio era l'unica buona politica e
 
 ### I benefici del mercato libero
 
-Fino alla Rivoluzione Francese, la società viveva in un'economia aristocratica basata su dono e privilegio. Azioni arbitrarie e vessazioni rendevano difficile l'accesso al mercato per i cittadini comuni.
+Fino alla Rivoluzione Francese, la società era caratterizzata da un'economia aristocratica basata sui regali e privilegi. Azioni arbitrarie e vessazioni rendevano difficile l'accesso al mercato per i cittadini comuni.
 
 Tuttavia, fin dal Medioevo, come abbiamo visto, l'economia di mercato si sviluppò. I mercanti divennero più ricchi e ottennero sempre più libertà economica.
 
@@ -912,7 +912,7 @@ Il mercato riguarda lo scambio volontario a un prezzo negoziato. Il mercato migl
 
 Infatti, gli esseri umani vogliono naturalmente migliorare la propria condizione e quella dei propri cari, attraverso lo scambio di beni e servizi. Da qui il desiderio di questi nuovi filosofi, gli "economisti", di consentire al popolo di procurarsi un reddito sufficiente e quindi di raggiungere ciò che Kant chiama nel suo opuscolo _Che cos'è l'illuminismo?_ la loro "maggioranza", la loro autonomia di decisione e azione.
 
-Per i Fisiocratici, la libertà non divide. Combattere i privilegi politici e combattere le rendite economiche sono una cosa sola. La grande novità degli economisti moderni, all'alba del XVIII secolo, fu che si concentrarono su ogni individuo con l'intenzione di ripristinare la loro capacità di azione pensando a come contenere passioni e interessi attraverso il libero mercato.
+Per i Fisiocratici, la libertà non divide. Combattere i privilegi politici e le rendite economiche sono una cosa sola. La grande novità degli economisti moderni, all'alba del XVIII secolo, fu che si concentrarono su ogni individuo con l'intenzione di ripristinare la loro capacità di azione pensando a come contenere passioni e interessi attraverso il libero mercato.
 
 Infatti, come far coesistere uomini con interessi divergenti? Cosa fare se gli uomini entrano in conflitto, se commettono errori, se sono avidi ed egoisti?
 
@@ -999,7 +999,7 @@ Negli anni successivi, i francesi La Fayette, Rochambeau, l'ammiraglio de Grasse
 
 141 anni dopo, il 4 luglio 1917, nel bel mezzo della Prima Guerra Mondiale, fu organizzata una cerimonia per i primi soldati dell'AEF arrivati a Parigi al Cimitero di Picpus sulla tomba di La Fayette, l'"eroe dei due mondi". In questa occasione, il capitano Charles E. Stanton dello staff del generale Pershing pronunciò un famoso discorso:
 
-> Mi rammarico di non poter rivolgermi alla popolazione francese nella bella lingua del suo fedele paese. Non si può dimenticare che la vostra nazione è stata nostra amica quando l'America ha combattuto per la sua esistenza, quando un pugno di uomini coraggiosi e patriottici erano determinati a difendere i diritti che il loro Creatore aveva loro dato -- che la Francia, nella persona di Lafayette, è venuta in nostro aiuto con parole e azioni. Sarebbe ingrato non ricordare questo, e l'America non mancherà ai suoi obblighi...
+> Mi dispiace di non potermi rivolgere al popolo francese nella bella lingua della sua leale patria. Non si può dimenticare che la vostra nazione è stata nostra amica quando l'America ha combattuto per la propria esistenza, quando un pugno di uomini coraggiosi e patriottici erano determinati a difendere i diritti che il loro Creatore aveva loro concesso – che la Francia, nella persona di La Fayette, è venuta in nostro aiuto con parole e fatti. Sarebbe ingrato non ricordarlo, e l'America non verrà meno ai suoi obblighi...
 > Pertanto, è con grande orgoglio che abbracciamo i colori in tributo di rispetto verso questo cittadino della vostra grande Repubblica, e qui e ora all'ombra degli illustri defunti gli assicuriamo il nostro cuore e il nostro onore per dare a questa guerra un esito favorevole.
 > Lafayette, siamo qui!
 
@@ -1011,7 +1011,7 @@ Adam Smith pubblicò nel 1776 _Un'indagine sulla natura e le cause della ricchez
 
 ![immagine](assets/4/img-070.webp)
 
-In realtà, Smith doveva molto agli economisti Quesnay e Turgot che incontrò durante un viaggio di più di un anno in Francia. In questo libro, descrive in particolare un "semplice sistema di libertà naturale" in cui gli individui, perseguendo i propri interessi, sono condotti "da una mano invisibile" a promuovere il benessere della società nel suo insieme.
+In realtà, Smith doveva molto agli economisti Quesnay e Turgot che incontrò durante un viaggio che durò più di un anno in Francia. In questo libro, descrive in particolare un "semplice sistema di libertà naturale" in cui gli individui, perseguendo i propri interessi, sono condotti "da una mano invisibile" a promuovere il benessere della società nel suo insieme.
 
 Ecco il passaggio più famoso:
 
@@ -1078,7 +1078,7 @@ Il Primo Emendamento della Costituzione Americana, redatto nel 1789, afferma:
 
 Questa formulazione protegge esplicitamente contro la tirannia della maggioranza. Tuttavia, la Rivoluzione Francese fu piuttosto diversa. I francesi volevano staccarsi completamente dal passato. I principi secolari dell'eredità cristiana non soddisfacevano più le aspettative di rivoluzionari come Robespierre.
 
-### Dalla rivolta del terzo stato al terrore giacobino
+### Dalla rivolta del Terzo Stato al terrore giacobino
 
 Abbé Sieyès (1748-1836) è considerato il padre della Rivoluzione Francese. È l'autore di _Che cos'è il Terzo Stato?_, nel gennaio 1789
 

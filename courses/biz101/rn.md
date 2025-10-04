@@ -126,18 +126,18 @@ Ubu, ingingo ngenderwako y’ubutegetsi (seigniorage) iriko iratuma inegurwa kub
 
 
 
-- **Ishobora kugabanywa**: Amafaranga akwiye kugabanywamwo utugingo ngengabuzima dutoduto kugira ngo bishobore gukoreshwa mu gucuruza amafaranga y'ubunini butandukanye. Ukwo guhinduranya bituma bishoboka ku bijanye n'ugugura ibintu bitobito be n'ubudandaji bukomeye.
+- **Ishobora kugabanywa**: Amafaranga ategerezwa  kugaburwa  muduce  dutoduto nukuvuga muma hera matomato kugira ngo bishobore korohereza irungika nirungikwa ryamahera yubunini butandukanye. Ukwo guhinduranya bituma bishoboka ko ibiguzi vyubudandaji buto buto hamwe ni biguzi vyubu dandaji bunini bunini vyoroherezwa vyose .
 
 
 
-- **Fungible**: Ivyiyumviro vyose vy'amahera bitegerezwa kuba bishobora guhindurwa kandi bikaba bifise agaciro kangana. Nk'akarorero, idolari rimwe ritegerezwa kuba ringana n'irindi dolari ryose. Ukwo guhuza gutuma haba ubutungane n'ukworoha mu bikorwa vy'ugucuruza.
+- **Fungible**: utwo duce twamafaranga dutegerezwa (amafaranga mato mato na mani mani) kuba dukoreshwa  kugaciro kamwwe na kamwe   . Nk'akarorero, idolari rimwe ritegerezwa kuba ringana n'irindi dolari ryose ryi dolari rimwe nyene . Ukwo kungana kwa mahera gutuma korohereza ikoreshwa ryamahera biciye mumuco .
 
 
 
-- **Imenyekana**: Ifaranga ritegerezwa kuba ryoroshe kumenyekana kandi ryizigirwa. Amafaranga y'umubiri arashika kuri ivyo biciye ku migero yihariye be n'ibintu vy'umutekano, mu gihe amafaranga y'ubuhinga bwa none yoshobora kwizigira amategeko yo kugenzura. Ivyo bituma abantu benshi bavyemera kandi bikagabanya ingorane zo guhendahenda.
+- **Imenyekana**: Ifaranga ritegerezwa kuba ryoroshe kumenya kandi ryizewe . Amafaranga agaragara yoroshe kumenya kubera ukuntu ateye nukuntu akozwe muburyo bwihariye  kubijanye numutekano , mu gihe amafaranga y'ubuhinga bwa none yo ashobora kumenyekana ko ari yanyayo biciye muburyo bwokugenzurwa . Ivyo bituma abantu benshi bayizigira  kandi bikagabanya ingorane zu busuma bwokuyigana(( kuyitirira ).
 
 
-Ivyo biranga bituma ifaranga rikora, ryizigirwa kandi rikora neza mu kworohereza ubudandaji no kubika agaciro mu bukungu.
+Ubwo buranga  bituma ifaranga rikora, ryizewe kandi rikora neza mu kworohereza ubudandaji no kubika ubutunzi mu bukungu.
 
 
 ### Ugutera imbere kw'uburyo bw'amafaranga

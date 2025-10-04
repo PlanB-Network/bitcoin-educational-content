@@ -5,9 +5,11 @@ objectives:
   - Zdobądź ogólne zrozumienie technologii Bitcoin
   - Zrozum, jak kupować i zabezpieczać bitcoiny
   - Zdobądź ogólne zrozumienie technologii Blockchain
-  - Zapoznaj się z koncepcją Lightning Network
+  - Zapoznaj się z koncepcją sieci Lightning
   - Zrozum geopolityczny i społeczny wpływ Bitcoina
 ---
+
+„”
 
 # Twoja pierwsza przygoda z Bitcoinem
 
@@ -27,17 +29,17 @@ Nie potrzebujesz żadnej specjalistycznej wiedzy, aby zacząć naukę - kurs jes
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 
-Witamy w kursie BTC101!
+Witamy na kursie BTC101!
 
 
-Bitcoin to rewolucja technologiczna i monetarna, która może sprawić, że zakwestionujemy nasze relacje z pieniędzmi i społeczeństwem. W rzeczywistości Bitcoin (określany jako BTC) jest **neutralną** i **zdecentralizowaną** walutą, co oznacza, że nie jest kontrolowany przez żaden podmiot ani instytucję. Jest to innowacja, która wykracza poza zwykłą "walutę internetową": jest to zarówno protokół komputerowy (Bitcoin), jak i jednostka monetarna (Bitcoin).
+Bitcoin to rewolucja technologiczna i monetarna, która może sprawić, że zakwestionujemy nasze relacje z pieniędzmi i społeczeństwem. W rzeczywistości Bitcoin (określany jako BTC) jest **neutralną** i **zdecentralizowaną** walutą, co oznacza, że nie jest kontrolowany przez żaden podmiot ani instytucję. Jest to innowacja, która wykracza poza zwykłą „walutę internetową”: jest to zarówno protokół komputerowy (Bitcoin), jak i jednostka monetarna (bitcoin).
 
 
-Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "Blockchain", podczas gdy jednostka Bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty Bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
+Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny „Blockchain”, podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
 
 **Kompleksowy, ale przystępny program nauczania:**
 
-W tym kursie omówimy niektóre aspekty pieniężne Bitcoin, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w cyfrowych portfelach i używać ich do transakcji. Przeanalizujemy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Na koniec zbadamy przyszłość Bitcoin i sposób, w jaki technologia Lightning Network może usprawnić transakcje Bitcoin.
+Na tym kursie omówimy niektóre aspekty pieniężne Bitcoina, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w portfelach cyfrowych i używać ich do transakcji. Przeanalizujemy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Na koniec zbadamy przyszłość Bitcoina i sposób, w jaki technologia Lightning Network może usprawnić transakcje w bitcoinach.
 
 ![image](assets/en/01.webp)
 
@@ -46,7 +48,7 @@ Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całko
 **Sekcja 1 - Wprowadzenie**
 
 - Rozdział 1 - Przegląd kursu
-- Rozdział 2 - Prehistoria Bitcoin
+- Rozdział 2 - Prehistoria Bitcoina
 
 **Sekcja 2 - Pieniądze**
 
@@ -57,42 +59,42 @@ Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całko
 - 
 **Sekcja 3 - Portfele Bitcoin**
 
-- Rozdział 7 - Czym jest Bitcoin Wallet?
+- Rozdział 7 - Czym jest portfel Bitcoin?
 - Rozdział 8 - Portfele Bitcoin i bezpieczeństwo
-- Rozdział 9 - Konfiguracja Wallet
+- Rozdział 9 - Konfiguracja portfela
 - Rozdział 10 - Przetrwać próbę czasu
 
-**Sekcja 4 - Techniczne aspekty Bitcoin**
+**Sekcja 4 - Techniczne aspekty Bitcoina**
 
-- Rozdział 11 - Uruchomienie Bitcoin
+- Rozdział 11 - Uruchomienie Bitcoina
 - Rozdział 12 - Transakcje Bitcoin
-- Rozdział 13 - Węzły Bitcoin
+- Rozdział 13 - Węzły Bitcoina
 - Rozdział 14 - Górnicy
-- Rozdział 15 - Bitcoin i ekologia
+- Rozdział 15 - Bitcoin a ekologia
 
-**Sekcja 5 - Jak zdobyć Bitcoiny?
+**Sekcja 5 - Jak zdobyć Bitcoiny?**
 
 - Rozdział 16 - Bitcoin nigdy nie śpi!
-- Rozdział 17 - Zarabianie Bitcoinów poprzez pracę
-- Rozdział 18 - Oszczędzanie z Bitcoin
+- Rozdział 17 - Zarabianie bitcoinów poprzez pracę
+- Rozdział 18 - Oszczędzanie z Bitcoinem
 - Rozdział 19 - Hiperbitcoinizacja
 
-**Sekcja 6 - Przyszłość Bitcoin: Lightning Network**
+**Sekcja 6 - Przyszłość Bitcoina: sieć Lightning**
 
-- Rozdział 20 - Krótkie wprowadzenie do Lightning Network
-- Rozdział 21 - Przypadki użycia Lightning Network
+- Rozdział 20 - Krótkie wprowadzenie do sieci Lightning
+- Rozdział 21 - Przypadki użycia sieci Lightning
 - Rozdział 22 - Czerwona czy niebieska pigułka?
 
 
-Przed wprowadzeniem definicji pieniądza i jego funkcji w społeczeństwie (Rozdział 1), powinniśmy zacząć od Genesis Bitcoin. Wprowadzony na rynek w 2009 roku, Bitcoin jest stosunkowo nową technologią, niepodobną do niczego innego. Dlatego normalne jest, że nie zrozumiemy wszystkiego od razu. W rzeczywistości, podobnie jak w przypadku nauki korzystania z Internetu lub prowadzenia samochodu, nie musisz od razu znać wszystkich szczegółów technicznych: możesz zacząć od nauki, jak odbierać, płacić i zabezpieczać swoje fundusze, a następnie małymi krokami zgłębiać je głębiej.
+Przed wprowadzeniem definicji pieniądza i jego funkcji w społeczeństwie (Rozdział 1), powinniśmy zacząć od historii powstania Bitcoina. Wprowadzony na rynek w 2009 roku, Bitcoin jest stosunkowo nową technologią, niepodobną do niczego innego. Dlatego normalne jest, że nie rozumiemy wszystkiego od razu. W rzeczywistości, podobnie jak w przypadku nauki korzystania z Internetu lub prowadzenia samochodu, nie musisz od razu znać wszystkich szczegółów technicznych: możesz zacząć od nauki, jak odbierać, płacić i zabezpieczać swoje fundusze, a następnie małymi krokami zgłębiać je głębiej.
 
-W końcu jesteśmy dopiero na początkowych etapach jego wdrażania, ponieważ minęliśmy fazę startową: jesteś w samą porę, aby zdobyć tyle wiedzy, ile chcesz, na temat tej ważnej innowacji.
+Jesteśmy dopiero na początkowych etapach jego wdrażania, minęliśmy dopiero fazę startową: jesteś tutaj w samą porę, aby zdobyć tyle wiedzy, ile chcesz, na temat tej ważnej innowacji.
 
 ![image](assets/en/02.webp)
 
 Ważne jest, aby zrozumieć tę nową technologię w sposób ogólny, więc mamy nadzieję, że spodoba ci się ten kurs i będziesz robić postępy w tym nowym globalnym paradygmacie monetarnym.
 
-Gotowy, by zanurzyć się w fascynującym świecie Bitcoin i zrozumieć wszystkie jego wewnętrzne mechanizmy? Do dzieła!
+Gotowy, by zanurzyć się w fascynującym świecie Bitcoina i zrozumieć wszystkie jego wewnętrzne mechanizmy? Do dzieła!
 
 ## Prehistoria Bitcoina
 
@@ -130,7 +132,7 @@ Poniższa grafika jasno ilustruje rozwój ruchu poprzez jego liczne innowacje te
 
 ![image](assets/en/05.webp)
 
-To w tym inspirującym środowisku w 2008 roku tajemniczy Satoshi Nakamoto opublikował Whitepaper Bitcoina (rodzaj publikacji używany do prezentacji nowych projektów czy produktów, zawierający szczegółowy opis produktu, jego funkcje, zastosowanie i docelowych użytkowników – przyp. tłum.). Połączył kilka pomysłów z ruchu cypherpunk, takich jak dowód pracy i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
+To w tym inspirującym środowisku w 2008 roku tajemniczy Satoshi Nakamoto opublikował Whitepaper Bitcoina (rodzaj publikacji używany do prezentacji nowych projektów czy produktów, zawierający szczegółowy opis produktu, jego funkcje, zastosowanie i docelowych użytkowników – przyp. korekt.). Połączył kilka pomysłów z ruchu cypherpunk, takich jak dowód pracy i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
 
 Bitcoin był czymś więcej niż tylko walutą cyfrową; stanowił realizację ideałów cypherpunk. Wyszedł poza aspekt technologiczny, symbolizując rewolucję przeciwko tradycyjnym systemom finansowym i zaoferował alternatywę opartą na przejrzystości, decentralizacji i suwerenności jednostki.
 
@@ -138,7 +140,7 @@ Bitcoin był czymś więcej niż tylko walutą cyfrową; stanowił realizację i
 
 Prehistoria Bitcoina jest głęboko zakorzeniona w ruchu cypherpunk i kolektywnym dążeniu do większej wolności w erze cyfrowej. Łącząc zasady kryptografii, decentralizacji i integralności, Bitcoin stał się czymś więcej niż walutą; jest produktem filozoficznej i technologicznej rewolucji, która nadal kształtuje nasz świat.
 
-Bitcoin jest więc protokołem, który obejmuje długie okresy czasu i zachęca nas do zastanowienia się nad naszym stosunkiem do energii, czasu i pieniędzy. Ale czy Bitcoin jest „prawdziwą” walutą? Aby to zrozumieć, musimy najpierw zrozumieć ideę pieniądza w jego różnych formach. Zastanowimy się nad tym w następnym rozdziale. Jeśli chcesz zająć się historią Bitcoina bardziej szczegółowo, gorąco polecamy nasz kurs HIS 201, gdzie odkryjemy powstanie i stopniowy rozwój Bitcoina oraz początki jego historii i społeczności wokół niego. Kurs zaopatrzony jest w pełną dokumentację i źródła oraz wiele anegdot:
+Bitcoin jest więc protokołem, który obejmuje długie okresy czasu i zachęca nas do zastanowienia się nad naszym stosunkiem do energii, czasu i pieniędzy. Ale czy Bitcoin jest „prawdziwą” walutą? Aby to zrozumieć, musimy najpierw zrozumieć ideę pieniądza w jego różnych formach. Zastanowimy się nad tym w następnym rozdziale. Jeśli chcesz zająć się historią Bitcoina bardziej szczegółowo, gorąco polecamy nasz kurs HIS 201, gdzie odkryjemy powstanie i stopniowy rozwój Bitcoina oraz społeczności wokół niego. Kurs zaopatrzony jest w pełną dokumentację i źródła oraz wiele anegdot:
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
@@ -168,7 +170,7 @@ Pieniądz to wysoce zaawansowane narzędzie komunikacji:
 - Umożliwia komunikację we wspólnym uniwersalnym języku. Nie znając się, nie mówiąc tym samym językiem, dwaj obcy mogą wymieniać się, handlować i dogadywać się co do wartości przedmiotów i usług.
 
 Funkcjonowanie systemu obiegu pieniądza w naszym świecie jest trudne do sztucznego odtworzenia. Żaden człowiek ani grupa ludzi nie może stworzyć pieniądza; jest to naturalne zjawisko społeczne, które musi wyłonić się z rynku i dobrowolnego konsensusu. Według tej optyki ceny są sygnałami, informacjami, które pomagają społeczeństwu decydować, jak alokować zasoby.
-Z tych powodów złoto używane jako pieniądz to wybór 4000 lat ewolucji monetarnej oparty na poniższych funkcjach:
+Z tych powodów złoto jako pieniądz to wybór 4000 lat ewolucji monetarnej oparty na poniższych funkcjach:
 - **Przechowywanie wartości**: pieniądz umożliwia przeniesienie siły nabywczej w przyszłość, więc musi być trwały 
 - **Środek wymiany**: pieniądz może być wykorzystany jako środek wymiany w miejsce barteru, eliminując w ten sposób konieczność wzajemnego zainteresowania partnerów handlowych swoimi dobrami i usługami
 - **Jednostka rozliczeniowa**: pieniądz pomaga również w porównaniu wartości różnych dóbr i usług i zrozumieniu ich przydatności
@@ -181,7 +183,7 @@ Z tych powodów złoto używane jako pieniądz to wybór 4000 lat ewolucji monet
 
 Złoto idealnie spełnia niektóre kryteria, które charakteryzują dobrze funkcjonującą walutę: jego naturalna rzadkość sprawia, że jest cenne, podczas gdy jego właściwości chemiczne pozwalają mu nie ulegać erozji z biegiem czasu. Sprawiło to, że złoto stało się świetnym środkiem **przechowywania wartości**, ale nie powszechnie używaną walutą, ponieważ ta forma pieniądza nie jest łatwo podzielna ani łatwa w transporcie na długie dystanse. W zglobalizowanym i cyfrowym świecie złoto nie jest w stanie nadążyć za naszymi potrzebami i wymaga istnienia centralnej jednostki, aby je dzielić i łatwo wymieniać (bicie monety).
 
-Z drugiej strony państwowe waluty dekretowe (ang. fiat money, mowa tu o pieniądzu w formie banknotów, monet lub cyfr zapisanych na koncie bankowym, emitowanym przez państwa narodowe – przyp. tłum.) są łatwe w użyciu, ale ciągle dewaluowane przez jednostki, które nimi zarządzają (król, bank centralny, cesarz, dyktator).
+Z drugiej strony państwowe waluty dekretowe (ang. fiat money, mowa tu o pieniądzu w formie banknotów, monet lub cyfr zapisanych na koncie bankowym, emitowanym przez państwa narodowe – przyp. korekt.) są łatwe w użyciu, ale ciągle dewaluowane przez jednostki, które nimi zarządzają (król, bank centralny, cesarz, dyktator).
 
 Aby wyjaśnić to lepiej, przyjżyjmy się kryteriom charakteryzującym dobrze funkcjonującą walutę:
 
@@ -195,7 +197,7 @@ Aby spełnić te kryteria, waluty w historii ewoluowały krok po kroku:
 
 - Surowy kamień -> Moneta
 - Banknot -> Karta bankowa
-- łańcuch bloków Blockchain -> sieć Lightning Network
+- łańcuch bloków Blockchain -> sieć Lightning
 
 Dzisiaj waluty nadal ewoluują, dostosowując swoje formy do różnych zastosowań. Chociaż złoto jest doskonałym środkiem przechowywania wartości, nie nadaje się już do łatwego zastosowania w obecnej zglobalizowanej ekonomii. Podobnie, waluty fiducjarne takie jak dolar i euro są bardzo płynne i łatwe w transporcie, ponieważ obecnie są głównie cyfrowe, jednak ich wartość jest ciągle erodowana przez inflację monetarną.
 

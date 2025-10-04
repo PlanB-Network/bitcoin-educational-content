@@ -213,7 +213,7 @@ Bitcoin z kolei oferuje nowe możliwości. Dzięki swoim właściwościom, takim
 
 Główne używane obecnie waluty takie jak euro i dolar są określane mianem fiducjarnych. Oznacza to, że nie mają one wartości same w sobie. Ich wartość opiera się całkowicie na zaufaniu i wierze, jaką pokładamy w instytucjach, które je regulują.
 
-Waluta fiducjarna to forma waluty, która jest dekretowana przez instytucję, taką jak państwo-naród, jak Chiny z jenem, lub unia polityczno-ekonomiczna, jak Unia Europejska, z euro. Jednostką odpowiedzialną za emisję waluty fiducjarnej jest bank centralny (na przykład, Ludowy Bank Chin, Rezerwa Federalna Stanów Zjednoczonych lub Centralny Bank Republiki Gwinei). To te jednostki są odpowiedzialne za decydowanie o polityce monetarnej i tym samym o tym, ile pieniędzy powinno być wprowadzonych do obiegu lub wydrukowanych.
+Waluta fiducjarna to forma waluty, która jest dekretowana przez instytucję, taką jak państwo-naród, jak Chiny z jenem, lub unia polityczno-ekonomiczna, jak Unia Europejska, z euro. Jednostką odpowiedzialną za emisję waluty fiducjarnej jest bank centralny (na przykład Ludowy Bank Chin, Rezerwa Federalna Stanów Zjednoczonych lub Centralny Bank Republiki Gwinei). To te jednostki są odpowiedzialne za decydowanie o polityce monetarnej i tym samym o tym, ile pieniędzy powinno być wprowadzonych do obiegu lub wydrukowanych.
 
 ![image](assets/en/12.webp)
 
@@ -247,7 +247,7 @@ W odpowiedzi na te wyzwania systemowe Bitcoin prezentuje się jako zdecentralizo
 
 ![image](assets/en/16.webp)
 
-Kolejnym powodem, dla którego Bitcoin zaczął przyciągać więcej uwagi jest pojawianie się cyfrowych walut banków centralnych, czyli CBDC, co wydaje się nieuniknione. Ta nowa forma waluty umożliwi większą centralizację gospodarki, co może oznaczać ograniczenie wolności finansowej jednostek i ułatwienie nadużyć o charakterze autorytarnym. Możemy zakończyć ten rozdział cytatem laureata Nagrody Nobla, F.A. Hayek'a z 1984 roku: „Nie wierzę, że kiedykolwiek znajdziemy dobrą walutę, dopóki nie wyjmiemy jej z rąk rządu. Jednak jeśli nie możemy zrobić tego siłą, pozostaje nam wprowadzenie w sprytny i okrężny sposób czegoś, czego nie mogą powstrzymać”.
+Kolejnym powodem, dla którego Bitcoin zaczął przyciągać więcej uwagi jest pojawianie się cyfrowych walut banków centralnych, czyli CBDC, co wydaje się nieuniknione. Ta nowa forma waluty umożliwi większą centralizację gospodarki, co może oznaczać ograniczenie wolności finansowej jednostek i ułatwienie nadużyć o charakterze autorytarnym. Możemy zakończyć ten rozdział cytatem laureata Nagrody Nobla, F.A. Hayeka z 1984 roku: „Nie wierzę, że kiedykolwiek znajdziemy dobrą walutę, dopóki nie wyjmiemy jej z rąk rządu. Jednak jeśli nie możemy zrobić tego siłą, pozostaje nam wprowadzenie w sprytny i okrężny sposób czegoś, czego nie mogą powstrzymać”.
 
 Aby dowiedzieć się więcej o problemach systemu finansowego i wolności, zachęcamy do zapoznania się z naszym kursem ECO 102, który omawia życie i idee Frederyka Bastiata, XIX-wiecznego francuskiego myśliciela, który z całą pewnościa doceniłby pojawienie sie Bitcoina.
 
@@ -329,7 +329,7 @@ Rozwiązanie kryzysu hiperinflacji często wymaga radykalnych zmian, takich jak 
 ![image](assets/en/15.webp)
 
 Podsumowując, hiperinflacja powoduje szybką degradację wartości waluty, prowadząc do erozji oszczędności i utraty zaufania do systemu monetarnego. Jak sugerował Voltaire, waluta fiducjarna zawsze ostatecznie straci swoją wartość rzeczywistą i zbliży się do zera.
-'Waluta, która opiera się na zaufanej stronie trzeciej, jak instytucja finansowa, jest w praktyce i na dłuższą metę walutą wadliwą, ponieważ nie jest w stanie zagwarantować swojej siły nabywczej ani zdolności przechowywania wartości.
+Waluta, która opiera się na zaufanej stronie trzeciej, jak instytucja finansowa, jest w praktyce i na dłuższą metę walutą wadliwą, ponieważ nie jest w stanie zagwarantować swojej siły nabywczej ani zdolności przechowywania wartości.
 
 Aby zagłębić się w temat inflacji, polecamy kurs Davida St-Onge'a ECO 204, gdzie nauczysz się więcej o cyklach hiperinflacji i ich realnym wpływie na nasze życie. Odkryjesz również podobieństwa pomiędzy cyklami i, co najważniejsze, nauczysz się przed nimi bronić.
 

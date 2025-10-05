@@ -7,7 +7,7 @@ description: Il modo più veloce per convertire Bitcoin in Mobile Money.
 
 
 
-I trasferimenti transfrontalieri in Africa rappresentano un vero e proprio grattacapo per il libero scambio di beni e servizi. Di fronte a questo problema, Bitcoin è un'innovazione che, se adeguatamente contestualizzata, può risolvere molti dei problemi che affliggono le società africane, dalla sovranità finanziaria al libero Exchange del valore. Oggi andiamo a scoprire BitSpenda, un'iniziativa di Bitcoin Dua, una comunità ghanese in crescita che mira a democratizzare l'uso quotidiano del Bitcoin in Ghana e a facilitare le transazioni transfrontaliere.
+I trasferimenti transfrontalieri in Africa rappresentano un vero e proprio mal di testa per il libero scambio di beni e servizi. Di fronte a questo problema, Bitcoin è un'innovazione che, se adeguatamente contestualizzata, può risolvere molti dei problemi che affliggono le società africane, dalla sovranità finanziaria al libero scambio del valore. Oggi andiamo a scoprire BitSpenda, un'iniziativa di Bitcoin Dua, una comunità ghanese in crescita che mira a democratizzare l'uso quotidiano del Bitcoin in Ghana e a facilitare le transazioni transfrontaliere.
 
 
 
@@ -19,7 +19,7 @@ I trasferimenti transfrontalieri in Africa rappresentano un vero e proprio gratt
 
 
 
-BitSpenda è una piattaforma di valuta Exchange che consente di convertire tra Bitcoin e Mobile Money senza alcuna verifica, senza informazioni personali e senza commissioni. Viene a risolvere un problema specifico comunemente riscontrato in Ghana ma anche in molti Paesi africani: i pagamenti transfrontalieri. Con BitSpenda, potrete effettuare scambi rapidi e anonimi da utilizzare nelle vostre attività quotidiane. L'obiettivo principale di BitSpenda è quello di consentire transazioni fluide per l'adozione globale del Bitcoin nelle comunità africane.
+BitSpenda è una piattaforma di scambio valuta che consente di convertire tra Bitcoin e Mobile Money senza alcuna verifica, senza informazioni personali e senza commissioni. Viene a risolvere un problema specifico comunemente riscontrato in Ghana ma anche in molti Paesi africani: i pagamenti transfrontalieri. Con BitSpenda, potrete effettuare scambi rapidi e anonimi da utilizzare nelle vostre attività quotidiane. L'obiettivo principale di BitSpenda è quello di consentire transazioni fluide per l'adozione globale del Bitcoin nelle comunità africane.
 
 
 
@@ -27,26 +27,20 @@ BitSpenda è una piattaforma di valuta Exchange che consente di convertire tra B
 
 
 
-BitSpenda è una piattaforma basata sul web su cui è possibile effettuare Exchange Bitcoin e Mobile Money preservando la propria riservatezza. Infatti, BitSpenda è uno scambiatore che non richiede un conto, né dati personali, né verifica dell'identità: ci siete solo voi e la vostra transazione.
-
-
+BitSpenda è una piattaforma web sulla quale puoi scambiare Bitcoin e Mobile Money preservando la tua riservatezza. Infatti, BitSpenda è un exchange che non richiede alcun account, nessun dato personale e nessuna verifica d’identità: ci sei solo tu e la tua transazione.
 
 ![hero](assets/fr/01.webp)
 
 
 
-Effettuare una transazione con BitSpenda è abbastanza intuitivo e richiede pochi passaggi. Sul sito ufficiale di BitSpenda (https://bitspenda.app), cliccate sul pulsante "Start" e sarete reindirizzati al sito Interface Exchange.
-
-
+Effettuare una transazione con BitSpenda è abbastanza intuitivo e richiede pochi passaggi. Sul sito ufficiale di BitSpenda (https://bitspenda.app), clicca sul pulsante "Get Starter" e verrai reindirizzato all’interfaccia di scambio.
 
 BitSpenda copre attualmente tre Paesi:
 
 
-
-
 - Ghana con scambi Bitcoin con numeri di Mobile Money.
 - Nigeria tramite bonifico bancario.
-- Kenya attraverso la moneta mobile M-pesa.
+- Kenya attraverso M-pesa mobile money.
 
 
 
@@ -54,7 +48,7 @@ BitSpenda copre attualmente tre Paesi:
 
 
 
-Grazie a queste opzioni, è più facile utilizzare il Bitcoin tramite il Lightning Network per inviare denaro in questi Paesi ed effettuare acquisti quotidiani senza la valuta locale.
+Grazie a queste opzioni, è più facile utilizzare Bitcoin tramite Lightning Network per inviare denaro in questi Paesi ed effettuare acquisti quotidiani senza la valuta locale.
 
 
 
@@ -62,11 +56,10 @@ Grazie a queste opzioni, è più facile utilizzare il Bitcoin tramite il Lightni
 
 
 
-Le transazioni interbancarie in Africa creano abbastanza attrito e di solito hanno un tempo di elaborazione considerevole. Con BitSpenda è possibile effettuare Exchange, inviare denaro ovunque, effettuare un bonifico bancario in Nigeria in modo gratuito e istantaneo. BitSpenda copre oltre 50 banche e neo-banche in Nigeria.
+Le transazioni interbancarie in Africa creano abbastanza attrito e di solito hanno un tempo di elaborazione considerevole. Con BitSpenda puoi scambiare, inviare denaro ovunque, effettuare un bonifico bancario in Nigeria gratuitamente e in modo istantaneo. BitSpenda copre oltre 50 banche e neobanche in Nigeria.
 
 
-
-Nella prima pagina dell'applicazione BitSpenda, selezionare la Nigeria come Paese di destinazione.
+Nella prima pagina dell'applicazione BitSpenda, seleziona la Nigeria come Paese di destinazione.
 
 
 
@@ -74,7 +67,7 @@ Nella prima pagina dell'applicazione BitSpenda, selezionare la Nigeria come Paes
 
 
 
-Selezionate la banca del vostro destinatario e inserite il suo numero di conto. È possibile inviare da 1.000 a 2.000.000 di NGN (Naira nigeriana) per ogni Exchange.
+Seleziona la banca del destinatario e inserisci il suo numero di conto. Puoi inviare tra 1.000 e 2.000.000 NGN (naira nigeriani) per ogni scambio.
 
 
 
@@ -82,15 +75,14 @@ Selezionate la banca del vostro destinatario e inserite il suo numero di conto. 
 
 
 
-Controllare quindi le informazioni inserite per confermare il Exchange.
-
+Verifica le informazioni che hai inserito per confermare il tuo scambio.
 
 
 ![confirm](assets/fr/09.webp)
 
 
 
-Una volta confermata la transazione, pagare il Lightning Invoice associato. Il bonifico bancario viene effettuato automaticamente non appena il pagamento viene effettuato.
+Una volta confermata la transazione, paga la fattura Lightning Network associata. Il bonifico bancario viene effettuato automaticamente non appena il pagamento e' confermato.
 
 
 
@@ -113,19 +105,18 @@ BitSpenda si basa su due innovazioni finanziarie e tecnologiche: Bitcoin e Mobil
 BitSpenda serve il Kenya attraverso M-Pesa, un servizio di moneta mobile molto diffuso nel Paese.
 
 
-Grazie a iniziative come BitSpenda, oggi è possibile utilizzare il Bitcoin per pagare in un negozio, mangiare in un ristorante, pagare l'affitto e le bollette.
+Grazie a iniziative come BitSpenda, oggi è possibile utilizzare Bitcoin per pagare in un negozio, mangiare in un ristorante, pagare l'affitto e le bollette.
 
 
 
-Selezionate il Kenya come Paese di destinazione, quindi inserite il numero M-pesa del vostro destinatario e l'importo che dovrà ricevere.
-
+Seleziona il Kenya come paese di destinazione, quindi inserisci il numero M-Pesa del beneficiario e l’importo che deve ricevere.
 
 
 ![mpesa](assets/fr/11.webp)
 
 
 
-Procedere alla conferma, controllando le informazioni inserite.
+Procedi alla conferma, controllando le informazioni inserite.
 
 
 
@@ -133,8 +124,7 @@ Procedere alla conferma, controllando le informazioni inserite.
 
 
 
-Pagare il Lightning Invoice per convalidare il Exchange e completarlo.
-
+Paga la fattura Lightning Network per convalidare e completare lo scambio.
 
 
 ![payment](assets/fr/13.webp)
@@ -149,11 +139,11 @@ Pagare il Lightning Invoice per convalidare il Exchange e completarlo.
 
 
 
-Selezionare il Ghana come Paese.
+Seleziona il Ghana come Paese.
 
 
 
-Inserire quindi il numero di cellulare del destinatario della Exchange.
+Inserisci il numero Mobile Money del beneficiario dello scambio.
 
 
 
@@ -161,7 +151,7 @@ Inserire quindi il numero di cellulare del destinatario della Exchange.
 
 
 
-Controllare e confermare il numero e l'importo del proprio Exchange, quindi pagare il Lightning Invoice associato al proprio Exchange.
+Controlla e conferma il numero e l’importo dello scambio, quindi paga la fattura Lightning associata.
 
 
 
@@ -184,7 +174,7 @@ Attraverso BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) mira a creare u
 
 - **Riservatezza**: Non è necessario creare un account sulla piattaforma, non è necessario verificare la propria identità e non è necessario fornire alcuna informazione personale.
 - **Libertà**: È possibile utilizzare BitSpenda da qualsiasi paese per effettuare transazioni in Ghana, Nigeria e Kenya.
-- **Velocità**: Affidarsi ai pagamenti Lightning ha permesso a BitSpenda di ridurre i tempi di elaborazione e di rendere le transazioni istantanee.
+- **Velocità**: Affidarsi ai pagamenti Lightning Network ha permesso a BitSpenda di ridurre i tempi di elaborazione e di rendere le transazioni istantanee.
 - **Trasparenza**: Tutte le transazioni effettuate su BitSpenda sono associate a identificatori unici che consentono di tracciare e seguire l'andamento delle transazioni. È inoltre possibile utilizzare questi identificatori per contattare [il supporto dell'applicazione su X](https://x.com/bitspenda).
 
 

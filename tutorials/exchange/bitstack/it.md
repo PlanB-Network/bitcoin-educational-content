@@ -131,29 +131,29 @@ Per impostare un acquisto ricorrente (DCA) su Bitstack, vai nella sezione "Épar
 
 ![Image](assets/fr/21.webp)
 
-Definire l'importo dell'acquisto ricorrente e il metodo di pagamento.
+Definisci l'importo dell'acquisto ricorrente e il metodo di pagamento.
 
 ![Image](assets/fr/22.webp)
 
-Selezionare la data di inizio e la frequenza del DCA, con opzioni che vanno dall'ora al mese. Confermare cliccando su "*Schedule*".
+Seleziona la data di inizio e la frequenza del DCA, con opzioni che vanno dall'ora al mese. Conferma cliccando su "Programmer"("*programmare*").
 
 ![Image](assets/fr/23.webp)
 
-Il vostro DCA è ora attivo. È possibile visualizzarlo o modificarlo dalla pagina iniziale selezionando nuovamente "*Recurring*".
+Il tuo DCA è ora attivo. È possibile visualizzarlo o modificarlo nella pagina iniziale selezionando nuovamente "Récurrent"("*Ricorrente*").
 
 ![Image](assets/fr/24.webp)
 
 ### Abilitazione dell'arrotondamento automatico delle spese
 
-Come già spiegato, Bitstack offre un'originale funzione di arrotondamento automatico delle spese. Questa permette di arrotondare i propri acquisti giornalieri all'euro (o più, a seconda dell'impostazione scelta) e di investire la differenza in BTC. Ad esempio, un acquisto di 1,10 euro si tradurrà in un investimento automatico di 0,90 euro in BTC da parte di Bitstack, che rileva e aggrega queste transazioni ogni settimana.
+Come già spiegato, Bitstack offre un'originale funzione di arrotondamento automatico delle spese. Questa permette di arrotondare i propri acquisti giornalieri all'euro successivo (o più, a seconda dell'impostazione scelta) e di investire la differenza in BTC. Ad esempio, un acquisto di 1,10 euro si tradurrà in un investimento automatico di 0,90 euro in BTC da parte di Bitstack, che rileva e aggrega queste transazioni ogni settimana.
 
 Questa funzione consente di investire con una sorta di DCA stabilito sulle spese personali, in modo quasi impercettibile, per accumulare gradualmente risparmi in bitcoin.
 
-Per attivarlo, è necessario prima sincronizzare un conto bancario, come descritto all'inizio di questa sezione. Quindi, nell'applicazione Bitstack, cliccare su "*Arrondi*" nella sezione "*Risparmio*".
+Per attivarlo, è necessario prima sincronizzare un conto bancario, come descritto all'inizio di questa sezione. Quindi, nell'applicazione Bitstack, clicca su "*Arrondi*"("Arrotondamento") nella sezione"Épargne"("*Risparmio*").
 
 ![Image](assets/fr/25.webp)
 
-Scegliere un moltiplicatore per l'arrotondamento. Ad esempio, con un moltiplicatore x2, un acquisto di 1,10 euro vi farà risparmiare 1,80 euro in bitcoin: `0,9 * 2 = 1,8`.
+Scegli un moltiplicatore per l'arrotondamento. Ad esempio, con un moltiplicatore x2, su un acquisto di 1,10 euro vi farà risparmiare 1,80 euro in bitcoin: `0,9 * 2 = 1,8`.
 
 ![Image](assets/fr/26.webp)
 

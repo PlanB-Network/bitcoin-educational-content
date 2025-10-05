@@ -177,7 +177,9 @@ Diffie ve Hellman'ın makalesi birçok yeniliğin önünü açmıştır. Bunlard
 Asimetrik kriptografinin keşfi, bir görüntünün hesaplanmasını (ileri yön) ve bir ön görüntünün elde edilmesini (geri yön) çok zor hale getiren tek yönlü fonksiyonların yaratılmasını da motive etti. Özellikle, değişken boyutlu bir mesajı sabit boyutlu bir özete dönüştüren ilk kriptografik Hash fonksiyonlarının geliştirilmesine yol açtı. 1989 ve 1991 yılları arasında Ronald Rivest, MIT için çeşitli hash algoritmaları (MD2, MD4 ve MD5) tasarlamıştır.
 
 
-Bitcoin'nin temel kriptografik Elements'sı bu araştırmadan kaynaklanmaktadır. Geleneksel bir işlem için harcama yetkisi sağlayan ECDSA imza şeması 1992 yılında NIST için oluşturulmuştur. Protokolün birçok yerinde kullanılan SHA-256 Hash işlevi, 2001 yılında NSA tarafından kamuya açıklanan SHA-2 algoritma paketinin bir parçası olarak yayınlanmıştır. Bu konu hakkında daha fazla bilgi için Loïc Morel tarafından sunulan [Crypto 301](../crypto301/fr.md) kursuna bakınız.
+Bitcoin'nin temel kriptografik Elements'sı bu araştırmadan kaynaklanmaktadır. Geleneksel bir işlem için harcama yetkisi sağlayan ECDSA imza şeması 1992 yılında NIST için oluşturulmuştur. Protokolün birçok yerinde kullanılan SHA-256 Hash işlevi, 2001 yılında NSA tarafından kamuya açıklanan SHA-2 algoritma paketinin bir parçası olarak yayınlanmıştır. Bu konu hakkında daha fazla bilgi için Loïc Morel tarafından sunulan CYP201 kursuna bakınız.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Kör İmzalar ve Elektronik Nakit

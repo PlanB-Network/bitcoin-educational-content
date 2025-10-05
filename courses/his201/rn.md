@@ -177,7 +177,9 @@ Iyo ngingo yanditswe na Diffie na Hellman yarateguye inzira y’ibintu vyinshi b
 Kuvumbura ubuhinga bwo gukingira amakuru ataco buvuze (asymétrique cryptography) na vyo nyene vyatumye habaho ibikorwa vy’inzira imwe, ivyo bikaba vyatuma kubara ishusho (inzira y’imbere) no kuronka ishusho y’imbere (inzira y’inyuma) bigorana cane. Cane cane, vyatumye habaho ibikorwa vya mbere vy’ubuhinga bwa none Hash, vyahinduye ubutumwa bufise ubunini buhinduka bukaba ubutumwa bufise ubunini budahinduka. Hagati y’umwaka wa 1989 n’uwa 1991, Ronald Rivest yarateguye ubuhinga bwinshi bwo gukora amakuru (MD2, MD4, na MD5) ku bwa MIT.
 
 
-Igishushanyo c’ishimikiro c’ibanga Elements ca Bitcoin kiva muri ubwo bushakashatsi. Igishushanyo c’umukono wa ECDSA, cemerera uruhusha rwo gukoresha amahera y’ubudandaji bwa kera, cashinzwe mu 1992 ku bwa NIST. Igikorwa kijanye n’ubuhinga bwa SHA-256 Hash, gikoreshwa ahantu henshi muri iyo porotokole, carasohowe mu 2001 nk’igice c’ubuhinga bwa SHA-2 bwashizwe ahabona na NSA. Ushaka kumenya vyinshi kuri iyo nkuru, raba inyigisho [Crypto 301](../crypto301/fr.md) yashikirijwe na Loïc Morel.
+Igishushanyo c’ishimikiro c’ibanga Elements ca Bitcoin kiva muri ubwo bushakashatsi. Igishushanyo c’umukono wa ECDSA, cemerera uruhusha rwo gukoresha amahera y’ubudandaji bwa kera, cashinzwe mu 1992 ku bwa NIST. Igikorwa kijanye n’ubuhinga bwa SHA-256 Hash, gikoreshwa ahantu henshi muri iyo porotokole, carasohowe mu 2001 nk’igice c’ubuhinga bwa SHA-2 bwashizwe ahabona na NSA. Ushaka kumenya vyinshi kuri iyo nkuru, raba inyigisho CYP201 yashikirijwe na Loïc Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Imikono y'impumyi n'amahera y'ubuhinga bwa none

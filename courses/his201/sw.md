@@ -128,7 +128,9 @@ Makala ya Diffie na Hellman yalifungua njia kwa wingi wa ubunifu. Mojawapo ya hi
 
 Ugunduzi wa cryptography asymmetric pia ulihamasisha uundaji wa kazi za njia moja, zinazojulikana kwa kufanya hesabu ya picha (mwelekeo wa mbele) rahisi sana na kupata picha ya awali (mwelekeo wa nyuma) vigumu sana. Hasa, ilisababisha maendeleo ya kazi za kwanza za kriptografia za Hash, ambazo zilibadilisha ujumbe wa ukubwa tofauti kuwa digest ya saizi isiyobadilika. Kati ya 1989 na 1991, algorithms kadhaa za hashing (MD2, MD4, na MD5) ziliundwa na Ronald Rivest kwa MIT.
 
-Msingi wa kriptografia Elements ya Bitcoin inatokana na utafiti huu. Mpango wa sahihi wa ECDSA, unaoruhusu uidhinishaji wa matumizi ya shughuli za kitamaduni, uliundwa mnamo 1992 kwa NIST. Chaguo za kukokotoa za SHA-256 Hash, zinazotumika katika sehemu nyingi katika itifaki, zilichapishwa mwaka wa 2001 kama sehemu ya safu ya kanuni za SHA-2 iliyotangazwa kwa umma na NSA. Kwa maelezo zaidi kuhusu mada hii, unaweza kurejelea kozi [Crypto 301](../crypto301/fr.md) iliyowasilishwa na Loïc Morel.
+Msingi wa kriptografia Elements ya Bitcoin inatokana na utafiti huu. Mpango wa sahihi wa ECDSA, unaoruhusu uidhinishaji wa matumizi ya shughuli za kitamaduni, uliundwa mnamo 1992 kwa NIST. Chaguo za kukokotoa za SHA-256 Hash, zinazotumika katika sehemu nyingi katika itifaki, zilichapishwa mwaka wa 2001 kama sehemu ya safu ya kanuni za SHA-2 iliyotangazwa kwa umma na NSA. Kwa maelezo zaidi kuhusu mada hii, unaweza kurejelea kozi CYP201 iliyowasilishwa na Loïc Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Sahihi Vipofu na Pesa za Kielektroniki
 

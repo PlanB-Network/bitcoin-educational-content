@@ -67,19 +67,19 @@ Si consiglia di eseguire la configurazione in un luogo tranquillo e riservato. L
 ![image3](assets/en/03.webp)
 
 
-- Fai clic su “*Add a wallet*”("Aggiungi un Wallet") (se si dispone già di un Wallet, passare alla fase successiva).
+- Fai clic su “*Add a wallet*”("*Aggiungi un Wallet*") (se si dispone già di un Wallet, passare alla fase successiva).
 
 
 ![image4](assets/en/04.webp)
 
 
-- Seleziona il tuo Wallet e vai al messaggio di firma.
+- Seleziona il tuo wallet e vai alla firma del messaggio.
 
 
 ![image5](assets/en/05.webp)
 
 
-- Completa la firma del messaggio e incolla la tua firma sul sito web.
+- Completa la firma del messaggio e inseriscila sul sito web.
 
 
 ![image6](assets/en/06.webp)
@@ -88,7 +88,7 @@ Si consiglia di eseguire la configurazione in un luogo tranquillo e riservato. L
 **Nota: Puoi anche cliccare su "Share"("Condividi") in BlueWallet, copiare l'intero link e incollarlo nel campo sul sito web di Bittr.**
 
 
-- Imposta il bonifico bancario con la descrizione del pagamento personale.
+- Effettua il bonifico bancario indicando la descrizione personale del pagamento.
 
 
 ![image7](assets/en/07.webp)
@@ -109,7 +109,7 @@ Si consiglia di eseguire la configurazione in un luogo tranquillo e riservato. L
 ![image9](assets/en/09.webp)
 
 
-- Sblocca il BitBox ed seguire i passaggi per completare la firma del messaggio.
+- Sblocca il BitBox e segui i passaggi per completare la firma del messaggio.
 
 
 ![image10](assets/en/10.webp)

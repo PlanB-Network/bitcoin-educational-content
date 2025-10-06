@@ -27,10 +27,10 @@ En este sentido, todos los colaboradores de Plan ₿ Network son educadores
 
 ## Los primeros pasos antes de corregir en Plan ₿ Network
 
-Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Network, que abrirá una [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). En el contexto de GitHub, un "issue" es una función que permite a los usuarios rastrear tareas, mejoras, errores o cualquier otra solicitud relacionada con un proyecto. Cuando reciba el enlace de la cuestión, simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
+Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Network, quien abrirá un [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). En el contexto de GitHub, un "issue" es una función que permite a los usuarios rastrear tareas, mejoras, errores o cualquier otra solicitud relacionada con un proyecto. Cuando recibas el enlace dei "issue", simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
 
 Este sistema ayuda al coordinador a seguir el progreso dentro del repositorio, y permite que el contenido sea "reclamado" por el corrector, lo que evita la duplicación de esfuerzos por parte de otra persona.
-En la propia edición, encontrarás los enlaces que te redirigen al contenido a comprobar. Puedes simplemente hacer clic en ellos, o, incluso mejor, puedes volver a tu propio repositorio y trabajar directamente desde allí. ¡Veamos cómo puedes hacerlo!
+En la propia edición, encontrarás los enlaces que te redirigen al contenido a revisar. Puedes simplemente hacer clic en ellos, o, incluso mejor, puedes volver a tu propio repositorio y trabajar directamente desde allí. ¡Veamos cómo puedes hacerlo!
 
 En primer lugar, **recuerda SIEMPRE SINCRONIZAR tu repo, en la rama "dev"**. De esta forma, el contenido siempre estará actualizado antes de que inicies cualquier tipo de tarea, y no crearás conflictos entre el material antiguo y el nuevo. Asegúrate de hacer clic en "Sync Fork" y "Update branch".
 
@@ -148,7 +148,7 @@ En casos como éste, adapta esta frase a su lengua de destino, o al inglés.
 
 ![REVIEW](assets/en/13.webp)
 
-Al utilizar la función "reemplazar todo (replace all)", es importante comprobar dos veces los resultados para asegurarse de que no se han alterado también los enlaces. Por ejemplo, si deseas cambiar la palabra "Bitcoin" por "Bitkoin" (lo que puede ser necesario en algunos idiomas), la función "reemplazar todo" puede actualizar eficazmente todas las instancias del texto. Sin embargo, ten en cuenta que esta herramienta también modificará todos los enlaces que contengan esa palabra, lo que puede provocar problemas de redireccionamiento.
+Al utilizar la función "reemplazar todo" (replace all), es importante comprobar dos veces los resultados para asegurarse de que no se han alterado también los enlaces. Por ejemplo, si deseas cambiar la palabra "Bitcoin" por "Bitkoin" (lo que puede ser necesario en algunos idiomas), la función "reemplazar todo" puede actualizar eficazmente todas las instancias del texto. Sin embargo, ten en cuenta que esta herramienta también modificará todos los enlaces que contengan esa palabra, lo que puede provocar problemas de redireccionamiento.
 
 En el ejemplo siguiente, el corrector utilizó la función anterior para sustituir "Satoshi" por "Satoshi(Sats)", y también cambió el enlace a un tutorial que contenía la propia palabra. Como consecuencia, el enlace dejó de ser válido.
 Comprueba siempre todos los hipervínculos del texto para asegurarte de que son correctos.

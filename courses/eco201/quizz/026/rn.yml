@@ -1,10 +1,10 @@
-ikibazo: None bisiguriki kukidandazwa(bien) gufita abaguzi benshi nukuvuga abakirondera benshi?
-inyishu:vyitwa ko kiba kironderwa n'abantu benshi cane bashoboka, kandi akenshi.
-inyishu zitarizo:
+question: None bisiguriki kukidandazwa(bien) gufita abaguzi benshi nukuvuga abakirondera benshi?
+answer: vyitwa ko kiba kironderwa n'abantu benshi cane bashoboka, kandi akenshi.
+wrong_answers:
   - bitegerezwa kwipfuzwa n’abantu bakeyi, kenshi.
   - Bitegerezwa kwipfuzwa n’abantu benshi bishoboka, rimwe na rimwe.
   - Bitegerezwa kwipfuzwa n’abantu bakeyi, rimwe na rimwe.
-insiguro: |
+Explanation: |
   Ibidandazwa bigurishwa cane ni ivyo abantu benshi bipfuza .
   kandi bishobora gukabishwa bitagoranye n’ibindi bintu canke ibikorwa.
   Ivyo bituma amahera aba ariyo abereye gukora.

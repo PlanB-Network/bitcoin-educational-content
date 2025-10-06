@@ -1,10 +1,10 @@
-ikibazo: Ni igiki ciyumviro c’aakamaro ko kugereranya mu bijanye n’ukugabanganya ibikorwa?
-inyishu: Umuntu afise ubushobozi bwo gukora ibikorwa bimwebimwe kuruta ibindi.
-inyishu zitarizo:
+question: Ni igiki ciyumviro c’aakamaro ko kugereranya mu bijanye n’ukugabanganya ibikorwa?
+answer: Umuntu afise ubushobozi bwo gukora ibikorwa bimwebimwe kuruta ibindi.
+wrong_answers:
   - Umuntu afise ubushobozi bungana n’ubw’abandi bwo gukora ibikorwa vyose.
   - Umuntu afise ubushobozi bwo gukora ibikorwa bimwebimwe biri hasi kuruta ibindi.
   - Umuntu arafise ubushobozi bwo gukora ibikorwa vyose kuruta abandi.
-insiguro: |
+Explanation: |
   Mu bijanye n’ukugabanganya ibikorwa, ukugereranya 
   akamaro yerekeza ku kuntu umuntu afise 
   ubushobozi bwo gukora ibikorwa bimwebimwe kuruta ibindi.

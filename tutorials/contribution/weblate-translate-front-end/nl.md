@@ -1,17 +1,17 @@
 ---
-name: Weblate - statische Elements vertalen
-description: Hoe kun je deelnemen aan de vertaling van de statische Elements op planb.network?
+name: Weblate - statische elementen vertalen
+description: Hoe kun je deelnemen aan de vertaling van de statische elementen op planb.network?
 ---
 ![cover](assets/cover.webp)
 
 
-De missie van Plan ₿ Network is om eersteklas educatieve bronnen op Bitcoin aan te bieden en deze in zoveel mogelijk talen te vertalen. Veel van de inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, zodat iedereen kan deelnemen aan het verrijken van het platform. Bijdragen kunnen verschillende vormen aannemen: het corrigeren en proeflezen van bestaande inhoud, het bijwerken van informatie of het creëren van nieuwe tutorials om toe te voegen aan het platform.
+De missie van Plan ₿ Network is om eersteklas educatieve bronnen over Bitcoin aan te bieden en deze in zoveel mogelijk talen te vertalen. Veel van de inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, zodat iedereen kan deelnemen aan het verrijken van het platform. Bijdragen kunnen verschillende vormen aannemen: het corrigeren en proeflezen van bestaande inhoud, het bijwerken van informatie of het creëren van nieuwe tutorials om toe te voegen aan het platform.
 
 
-In deze tutorial laten we je zien hoe je eenvoudig kunt bijdragen aan de vertaling van de statische Elements op onze website. De gegevens op het platform zijn verdeeld in twee hoofdcategorieën:
+In deze tutorial laten we je zien hoe je eenvoudig kunt bijdragen aan de vertaling van de statische elementen op onze website. De gegevens op het platform zijn verdeeld in twee hoofdcategorieën:
 
 
-- de frontend gegevens/statisch Elements (pagina's, knoppen, enz.);
+- de frontend gegevens/statische elementen (pagina's, knoppen, enz.);
 - de educatieve inhoud (tutorials, cursussen, bronnen...).
 
 
@@ -20,7 +20,7 @@ Om de educatieve inhoud te vertalen, gebruiken we [kunstmatige intelligentie] (h
 
 https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
-Aan de andere kant, als je geïnteresseerd bent in het vertalen van de statische Elements van de website (met uitzondering van educatieve inhoud), ben je op de juiste plaats! Om de voorkant effectief te vertalen, gebruiken we de tool Weblate, die heel eenvoudig te gebruiken is en de aanpak van de vertaling vergemakkelijkt.
+Aan de andere kant, als je geïnteresseerd bent in het vertalen van de statische elementen van de website (met uitzondering van educatieve inhoud), ben je op de juiste plaats! Om de frontend effectief te vertalen, gebruiken we de tool Weblate, die heel eenvoudig te gebruiken is en de aanpak van de vertaling vergemakkelijkt.
 
 
 Als je een compleet nieuwe taal aan Plan ₿ Network wilt toevoegen, neem dan contact op met het Plan ₿ Network team via onze [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder). Als je geen telegram hebt, kun je een e-mail sturen naar mari@planb.network. Zorg ervoor dat je een kleine presentatie schrijft over wie je bent en welke talen je spreekt.
@@ -45,32 +45,32 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ![weblate](assets/01.webp)
 
 
-- Als je al een Weblate-account hebt, klik je op `Aanmelden`:
+- Als je al een Weblate-account hebt, klik je op `Sign in` (Aanmelden):
 
 ![weblate](assets/02.webp)
 
 
-- Als je nog geen account hebt, klik je op `Registreren`:
+- Als je nog geen account hebt, klik je op `Register` (Registreren):
 
 ![weblate](assets/03.webp)
 
 
-- Voer je e-mailadres Address in, evenals een gebruikersnaam en volledige naam (je kunt een pseudoniem gebruiken), klik dan op `Registreren`:
+- Voer je e-mailadres adres in, evenals een gebruikersnaam en volledige naam (je kunt een pseudoniem gebruiken), klik dan op `Register` (Registreren):
 
 ![weblate](assets/04.webp)
 
 
-- In je inbox van je e-mail zou je een bevestigingsbericht van Weblate moeten hebben ontvangen. Klik op de link om je registratie te bevestigen:
+- In de inbox van je e-mail zou je een bevestigingsbericht van Weblate moeten hebben ontvangen. Klik op de link om je registratie te bevestigen:
 
 ![weblate](assets/05.webp)
 
 
-- Kies een sterk wachtwoord en klik vervolgens op `Verander mijn wachtwoord`:
+- Kies een sterk wachtwoord en klik vervolgens op `Change my password` (Verander mijn wachtwoord):
 
 ![weblate](assets/06.webp)
 
 
-- U kunt nu teruggaan naar het Plan ₿ Network dashboard:
+- Je kunt nu teruggaan naar het Plan ₿ Network dashboard:
 
 ![weblate](assets/07.webp)
 
@@ -79,12 +79,12 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 
 
 
-- Klik op het `Website Elements` project (niet de woordenlijst):
+- Klik op het project `Website element` (niet de woordenlijst):
 
 ![weblate](assets/08.webp)
 
 
-- Je komt bij een Interface, waar je de talen in uitvoering kunt zien:
+- Je komt bij een overzicht, waar je de talen in uitvoering kunt zien:
 
 ![weblate](assets/09.webp)
 
@@ -94,17 +94,17 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ![weblate](assets/10.webp)
 
 
-- Klik op de knop `Vertaal` om te beginnen met vertalen:
+- Klik op de knop `Translate` (Vertaal) om te beginnen met vertalen:
 
 ![weblate](assets/11.webp)
 
 
-- Je wordt doorgestuurd naar het werk Interface:
+- Je wordt doorgestuurd naar de werk omgeving:
 
 ![weblate](assets/12.webp)
 
 
-- De Weblate zal dan automatisch zinnen, paragrafen of zelfs woorden voorstellen om te vertalen in het vak `taal`. In jouw geval zie je waarschijnlijk de Engelse hoofdstring en een ander tekstvak voor jouw taal:
+- De Weblate zal dan automatisch zinnen, paragrafen of zelfs woorden voorstellen om te vertalen in het `taal` vak `. In jouw geval zie je waarschijnlijk de Engelse hoofdstring en een ander tekstvak voor jouw taal:
 
 ![weblate](assets/13.webp)
 
@@ -114,7 +114,7 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ![weblate](assets/14.webp)
 
 
-- Klik op het tabblad `Automatische suggestie`:
+- Klik op het tabblad `Automatic suggestion` (Automatische suggestie):
 
 ![weblate](assets/15.webp)
 
@@ -124,12 +124,12 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ![weblate](assets/16.webp)
 
 
-- Als de voorgestelde vertaling relevant voor je lijkt, kun je op de knop `Clonen naar vertaling` klikken:
+- Als de voorgestelde vertaling relevant voor je lijkt, kun je op de knop `Clone to translation` (Clonen naar vertaling) klikken:
 
 ![weblate](assets/17.webp)
 
 
-- De suggestie wordt nu in je werkbak geplaatst:
+- De suggestie wordt nu in je werkvak geplaatst:
 
 ![weblate](assets/18.webp)
 
@@ -139,17 +139,17 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ![weblate](assets/19.webp)
 
 
-- Als de vertaling je bevredigend lijkt, klik je op de knop `Opslaan en doorgaan`. Zorg ervoor dat je het vinkje weghaalt bij "Moet bewerkt worden" als je zeker bent van je vertaling:
+- Als de vertaling je bevredigend lijkt, klik je op de knop `Save and Continue` (Opslaan en doorgaan). Zorg ervoor dat je het vinkje weghaalt bij "Needs editing" (Moet bewerkt worden) als je zeker bent van je vertaling:
 
 ![weblate](assets/20.webp)
 
 
-- Ziezo! Je vertaling is succesvol opgeslagen. De Weblate zal je automatisch doorverwijzen naar het volgende te vertalen item. Als je teruggaat naar het dashboard dat overeenkomt met jouw taal, zie je dat elk type string een andere vertaalstatus heeft. Als je je bijvoorbeeld alleen wilt concentreren op "onvertaalde strings", kun je op de specifieke tab klikken:
+- Ziezo! Je vertaling is succesvol opgeslagen. De Weblate zal je automatisch doorverwijzen naar het volgende te vertalen item. Als je teruggaat naar het dashboard dat overeenkomt met jouw taal, zie je dat elk type string een andere vertaalstatus heeft. Als je je bijvoorbeeld alleen wilt concentreren op "untranslated strings" (onvertaalde strings), kun je op de specifieke tab klikken:
 
 ![weblate](assets/21.webp)
 
 
-- Als je naar een specifiek woord moet zoeken, in jouw taal of in de oorspronkelijke taal, klik dan op "zoeken" en voeg het daar in:
+- Als je naar een specifiek woord moet zoeken, in jouw taal of in de oorspronkelijke taal, klik dan op "search" (zoeken) en voeg het daar in:
 
 ![weblate](assets/22.webp)
 
@@ -169,7 +169,7 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ## Nieuwe functies
 
 
-- We werken aan het toevoegen van een "uitleg"-sectie voor elke string, samen met een screenshot, om je te helpen vinden waar een specifieke zin/woord op de website staat. Op dit moment kun je, als je twijfels hebt over bepaalde woorden en hun specifieke locatie op de website wilt vinden, een vraag stellen in de "opmerkingen"-sectie of de vertaalcoördinator vragen op de Telegram-groep die aan het begin van deze handleiding wordt genoemd.
+- We werken aan het toevoegen van een "explanation"-sectie (uitleg) voor elke string, samen met een screenshot, om je te helpen vinden waar een specifieke zin/woord op de website staat. Op dit moment kun je, als je twijfels hebt over bepaalde woorden en hun specifieke locatie op de website wilt vinden, een vraag stellen in de "comments"-sectie (opmerkingen) of aan de vertaalcoördinator vragen in de Telegram-groep die aan het begin van deze tutorial wordt genoemd.
 
 ![weblate](assets/23.webp)
 

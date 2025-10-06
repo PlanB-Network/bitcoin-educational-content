@@ -386,20 +386,20 @@ Zu diesem Zweck gibt es eine Reihe von KI-Tools. Dazu gehören
 - [midjourney](https://docs.midjourney.com/docs/quick-start) (bezahlt);
 - [leonardo](https://leonardo.ai/) (kostenlos, kontobeschränkt);
 - [copilot](https://copilot.microsoft.com/) (kostenlos, kontobeschränkt);
-- [DALL-E] (https://www.dall-efree.com/) (bezahlt).
+- [DALL-E](https://www.dall-efree.com/) (bezahlt).
 
 In letzter Zeit sind viele weitere KI-Tools aufgetaucht, so dass diese Liste bei weitem nicht vollständig ist.
 
 **Beispiel: Erstellung eines futuristischen Bitcoin London Logos**
 Wenn du ein futuristisches Logo für ein "Bitcoin London"-Treffen entwerfen willst, könnest du Copilot fragen:
 
-- [ ] *Aufforderung: Entwerfe ein Bitcoin-Logo mit der London Bridge und Big Ben im Hintergrund. Futuristisch* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Aufforderung: Entwerfe ein Bitcoin-Logo mit der London Bridge und Big Ben im Hintergrund. Futuristisch*
 
 ![image](assets/fr/014.webp)
 
 Wenn die ersten vier Ergebnisse nicht realistisch genug sind, verfeinere deine Anfrage:
 
-- [ ] *Aufforderung: Mach die 4. viel realistischer* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Aufforderung: Mach die 4. viel realistischer* 
 
 ![image](assets/fr/015.webp)
 
@@ -408,7 +408,7 @@ Das letzte Ergebnis ist großartig!
 **Beispiel: Erstellung eines einfachen Logos im britischen Stil**
 Für ein saubereres Aussehen, wie bei einem Aufkleber:
 
-- [ ] *Aufforderung: Erstelle das Logo des "London Bitcoin Meetup" mit einem britischen und sauberen Stil* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Aufforderung: Erstelle das Logo des "London Bitcoin Meetup" mit einem britischen und sauberen Stil*
 
 ![image](assets/fr/016.webp)
 
@@ -419,249 +419,135 @@ Das Ergebnis sieht wirklich cool aus!
 - Verwende präzise Aufforderungen: Je klarer und detaillierter deine Anweisungen sind, desto besser sind die Ergebnisse.
 - Bitte um Hilfe: Wenn du nicht zufrieden bist, wende dich an jemanden, der Erfahrung mit Grafikdesign oder KI-Tools hat. Viele Bitcoiner helfen gerne, manchmal sogar kostenlos oder für ein paar Sats.
 
-# Schaffung von Kommunikationskanälen für deine Bitcoin-Community  Start Here
+# Schaffung von Kommunikationskanälen für deine Bitcoin-Community
 
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
 
 ## Welche Kommunikationskanäle sollten Sie wählen?
 
-
 <chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
-
-
 
 Wie bereits erwähnt, können die Kommunikationskanäle einer Gemeinschaft je nach Motivation und Gewohnheiten unterschiedlich sein.
 
+So sind zum Beispiel **in Frankreich, Deutschland und Italien Telegram und Twitter die vorherrschenden Plattformen**, die zum "Standard" für Bitcoin-Gemeinschaften geworden sind. In der Tschechischen Republik hingegen verwenden viele Gemeinschaften **Matrix**, ein sicheres Instant-Messaging-Protokoll, anstelle von Telegram.
 
-So sind zum Beispiel **in Frankreich, Deutschland und Italien Telegram und Twitter die vorherrschenden Plattformen**, die zum "Standard" für Bitcoin-Gemeinschaften geworden sind.
-
-In der Tschechischen Republik hingegen verwenden viele Gemeinschaften **Matrix**, ein sicheres Instant-Messaging-Protokoll, anstelle von Telegram.
-
-
-Tipp: Bevor Sie Ihre Kanäle auswählen, **schauen Sie sich an, was in den umliegenden Gemeinden passiert**. Verwenden Sie die Karte [btcmap.org] (https://btcmap.org/communities/map#0/0/0/), um zu sehen, welche Plattformen in Ihrer Region am beliebtesten sind.
-
+Tipp: Bevor du deine Kanäle auswählst, **schau dir an, was die umliegenden Gemeinden verwenden**. Verwende die Karte [btcmap.org](https://btcmap.org/communities/map#0/0/0/), um zu sehen, welche Plattformen in deiner Region am beliebtesten sind.
 
 So nutzen die Schweizer Communities vor allem Telegram, Twitter und ihre eigene Website:
 
-
-
 ![image](assets/fr/017.webp)
-
-
 
 **Empfohlene Kanäle für französischsprachige Gemeinschaften**
 
+- **Telegramm:** Die Nummer 1 der Kommunikationstools, über 90 % der französischen Treffen nutzen es.
+- **Twitter (X):** Das wichtigste soziale Netzwerk, das von Bitcoinern auf der ganzen Welt genutzt wird. Es wird von ~70% der französischen Treffen genutzt. Es ist ideal, um Bitcoiner zu erreichen.
+- **Meetup.com:** Kostenpflichtig, aber weit verbreitet (von ~30% der französischen und fast allen kanadischen Meetups), um die Sichtbarkeit außerhalb des Bitcoin-Ökosystems zu erhöhen.
+- **Andere Optionen:** ~30% haben auch eine Website; ~10% betreiben Discord-Server oder NOSTR Accounts.
 
+Andere Plattformen wie Matrix, Keet, Signal, Facebook, Instagram und LinkedIn können ebenfalls genutzt werden. Aber Vorsicht: Je mehr Kanäle du verwaltest, desto mehr Zeit musst du für die Moderation, das Posten und das Aktivhalten aufwenden.
 
-- Telegramm: Die Nummer 1 der Kommunikationstools, über 90 % der französischen Treffen nutzen es.
-
-
-
-- Twitter (X): Das wichtigste soziale Netzwerk, das von Bitcoinern auf der ganzen Welt genutzt wird. Es wird von ~70% der französischen Treffen genutzt. Es ist ideal, um Bitcoiner zu erreichen.
-
-
-
-- Meetup.com: Kostenpflichtig, aber weit verbreitet (von ~30% der französischen und fast allen kanadischen Meetups), um die Sichtbarkeit außerhalb des Bitcoin-Ökosystems zu erhöhen.
-
-
-
-- Andere Optionen: ~30% haben auch eine Website; ~10% betreiben Discord-Server oder NOSTR-Konten.
-
-
-Andere Plattformen wie Matrix, Keet, Signal, Facebook, Instagram und LinkedIn können ebenfalls genutzt werden. Aber Vorsicht: Je mehr Kanäle Sie verwalten, desto mehr Zeit müssen Sie für die Moderation, das Posten und das Aktivhalten aufwenden.
-
-
-
-Jeder, der in Frankreich eine Gemeinschaft gründen möchte, ist daher gut beraten, mit der Gründung zu beginnen:
-
-
-
+Jeder, der in Frankreich eine Gemeinschaft gründen möchte, ist daher gut beraten, mit folgender Einrichtung zu beginnen:
 - eine Telegram-Gruppe;
-- ein Twitter-Konto.
+- ein Twitter Account.
 
-
-Wenn Ihre Community wächst, können Sie weitere Plattformen hinzufügen und die Moderation an vertrauenswürdige Mitglieder delegieren.
-
+Wenn deine Community wächst, kannst du weitere Plattformen hinzufügen und die Moderation an vertrauenswürdige Mitglieder delegieren.
 
 
 ## Erstellen und Konfigurieren eines Telegram-Kanals, einer Gruppe oder Supergruppe
 
-
 <chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
 
-
-
-Bevor Sie den Kommunikationsbereich Ihrer Community auf Telegram erstellen, ist es wichtig, den Unterschied zu kennen:
-
-
-
-
+Bevor du den Kommunikationsbereich deiner Community auf Telegram erstellst, ist es wichtig, den Unterschied zu kennen:
 - einen Telegram-Kanal;
 - eine Telegram-Gruppe;
 - eine Telegramm-Supergruppe.
 
+Es wird dringend empfohlen, mit einer Telegram-Gruppe zu beginnen. Falls erforderlich, kannst du sie später in eine Supergruppe umwandeln.
 
-
-Es wird dringend empfohlen, mit einer Telegram-Gruppe zu beginnen.
-
-Falls erforderlich, können Sie sie später in eine Supergruppe umwandeln.
-
-
-Für die folgenden Anleitungen haben wir ursprünglich die APK "Telegram+" verwendet, die eine erweiterte Konfiguration ermöglicht. Sie brauchen sie jedoch nicht unbedingt, da die offizielle Telegram-App zum Erstellen und Verwalten von Gruppen ausreicht, sogar über Ihr Telefon:
-
-
+Für die folgenden Anleitungen haben wir ursprünglich die APK "Telegram+" verwendet, die eine erweiterte Konfiguration ermöglicht. Du brauchst sie jedoch nicht unbedingt, da die offizielle Telegram-App zum Erstellen und Verwalten von Gruppen ausreicht, sogar über dein Telefon:
 
 :::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
-
-
 ### Einen Telegram-Kanal erstellen
 
+Wenn du einen Ort schaffen willst, an dem deine Mitglieder direkt miteinander sprechen, sich gegenseitig antworten können, usw., dann solltest du eine Telegram-Gruppe und keinen Telegram-Kanal erstellen!
 
-
-Wenn Sie einen Ort schaffen wollen, an dem Ihre Mitglieder direkt miteinander sprechen, sich gegenseitig antworten können usw., dann sollten Sie eine Telegram-Gruppe und keinen Telegram-Kanal erstellen!
-
-
-Gehen Sie direkt zum nächsten Abschnitt mit dem Titel [Eine Telegram-Gruppe erstellen] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
-
-
+Gehe direkt zum nächsten Abschnitt mit dem Titel [Eine Telegram-Gruppe erstellen](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 In der Tat ist **ein Telegram-Kanal eher ein einseitiges Sendetool für Administratoren**. Die Mitglieder können nicht frei chatten, sie können nur mit Emojis reagieren (oder Kommentare in separaten Threads hinterlassen, was die Gespräche fragmentiert).
 
-
-
 ![image](assets/fr/018.webp)
 
-
-
-**Da Communities Interaktion und Zusammenarbeit brauchen, ist ein Telegram-Kanal nicht zu empfehlen**, wenn Ihr Ziel der Aufbau von Beziehungen und der Austausch von Wissen ist.
-
-
+**Da Communities Interaktion und Zusammenarbeit brauchen, ist ein Telegram-Kanal nicht zu empfehlen**, wenn dein Ziel der Aufbau von Beziehungen und der Austausch von Wissen ist.
 
 Anleitung zum Erstellen eines Telegram-Kanals:
 
-
-
 :::video id=98be4709-d221-4030-8c31-e10113482515:::
-
-
 
 ### Eine Telegram-Gruppe erstellen
 
-
-
 Auf der anderen Seite ist **eine Telegram-Gruppe ideal für Gemeinschaften**: Genau wie bei Messaging-Anwendungen wie Messenger oder WhatsApp können die Mitglieder in einer einzigen gemeinsamen Konversation miteinander chatten und sich gegenseitig antworten.
-
-
 
 ![image](assets/fr/019.webp)
 
-
-
-Was Sie als Administrator tun können:
-
-
-
-- Posten und pinnen Sie wichtige Nachrichten.
-- Erstellen Sie **Umfragen** (nützlich für die Festlegung von Terminen für Treffen, wenn Ihre Gemeinschaft neu ist).
-- erstellen Sie einen **Benutzerdefinierten Einladungslink** (Nur wenn die Gruppe "öffentlich" und nicht "privat" ist, was in den Einstellungen festgelegt ist. Es ist auch praktisch, einen eigenen Telegram-Einladungslink zu haben, z. B.: t.me/Bitcoin[CITY]);
-- Verwalten Sie die Berechtigungen, Rollen und die Moderation der Mitglieder.
-- Fügen Sie ein Profilbild (Ihr Gemeinschaftslogo) hinzu und aktualisieren Sie den Namen der Gruppe.
-
-
+Was du als Administrator tun kannst:
+- Posten und pinnen von wichtigen Nachrichten.
+- Erstellen von **Umfragen** (nützlich für die Festlegung von Terminen für Treffen, wenn deine Gemeinschaft neu ist).
+- Erstellen von **Benutzerdefinierten Einladungslinks** (Nur wenn die Gruppe "öffentlich" und nicht "privat" ist, was in den Einstellungen festgelegt ist. Es ist auch praktisch, einen eigenen Telegram-Einladungslink zu haben, z. B.: t.me/Bitcoin[STADT]);
+- Verwaltung der Berechtigungen, Rollen und die Moderation der Mitglieder.
+- Einfügen eines Profilbilds (Euer Gemeinschaftslogo) und Aktualisierung des Namen der Gruppe.
 
 Anleitung zum Erstellen einer Telegram-Gruppe:
 
-
-
 :::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
-
-
-Hinweis: Diese Anleitung wurde mit Telegram+ erstellt, aber Sie können alles auch direkt über die Standard-Telegram-App machen.
-
-
+Hinweis: Dieses Tutorial wurde mit Telegram+ erstellt, aber du kannst alles auch direkt über die Standard-Telegram-App machen.
 
 ### Eine Telegram-Supergruppe erstellen
 
-
-
 Warum eine Supergruppe?
 
-Wenn Ihre Telegram-Gruppe auf Hunderte von Mitgliedern anwächst, können die Unterhaltungen chaotisch werden. Das führt oft dazu, dass Mitglieder wichtige Ankündigungen, wie das Datum des nächsten Treffens, verpassen.
-
+Wenn deine Telegram-Gruppe auf Hunderte von Mitgliedern anwächst, können die Unterhaltungen chaotisch werden. Das führt oft dazu, dass Mitglieder wichtige Ankündigungen, wie das Datum des nächsten Treffens, verpassen.
 
 Es sind mehrere Lösungen verfügbar:
 
-
 1. **Wichtige Nachrichten anheften**, damit alle Mitglieder eine Benachrichtigung erhalten (einmal mit dem Finger auf die betreffende Nachricht drücken, dann "Anheften" wählen);
-
-
-2. Erwägen Sie die Verwendung von **Discord** für mehrere Kommunikationskanäle, von denen jeder einzelne bei Bedarf stumm geschaltet werden kann.
-
-
-3. **Konvertieren Sie Ihre Telegram-Gruppe in eine Supergruppe**.
-
-
+2. Erwäge die Verwendung von **Discord** für mehrere Kommunikationskanäle, von denen jeder einzelne bei Bedarf stumm geschaltet werden kann.
+3. **Konvertiere dein Telegram-Gruppe in eine Supergruppe**.
 
 Was ist eine Telegramm-Supergruppe?
 
-
 Eine Supergruppe ist im Wesentlichen eine Telegram-Gruppe mit Themen (Unterkanälen) innerhalb dieser Gruppe.
 
-
 Beispielthemen:
-
-
 - "Wichtige Informationen": nur wichtige Aktualisierungen und Veranstaltungsankündigungen.
 - "Allgemein": für alle Diskussionen der Mitglieder.
 - Spezifische Themen: z.B. Mining, Projektentwicklung, bevorstehende Konferenzen.
 
-
-Tipp: Passen Sie Ihre Themen an die Bedürfnisse Ihrer Gemeinschaft an. Beispiel: Das Bitcoin-Treffen in Abidjan verwendet erfolgreich dieses Format.
-
-
+Tipp: Passe deine Themen an die Bedürfnisse deiner Gemeinschaft an. Beispiel: Das Abidjan Bitcoin-Treffen verwendet erfolgreich dieses Format.
 
 ![image](assets/fr/020.webp)
 
+Denke daran, dass **Telegram-Supergruppen für einige Mitglieder etwas schwierig zu bedienen sein können**. Zum Beispiel weiß nicht jeder, **wie man auf die verschiedenen Themen** zugreift (musst nur auf das Gruppenlogo im Hauptmenü von Telegram tippen, um die vollständige Liste der Themen zu sehen). Ein kurzer Screenshot kann helfen, die Unklarheiten zu beseitigen.
 
-Denken Sie daran, dass **Telegram-Supergruppen für einige Mitglieder etwas schwierig zu bedienen sein können**. Zum Beispiel weiß nicht jeder, **wie man auf die verschiedenen Themen** zugreift (sie müssen nur auf das Gruppenlogo im Hauptmenü von Telegram tippen, um die vollständige Liste der Themen zu sehen). Ein kurzer Screenshot kann helfen, die Unklarheiten zu beseitigen.
-
-
-Es gibt keine strikte Regel, wann man von einer regulären Telegram-Gruppe zu einer Supergruppe wechseln sollte, es hängt wirklich von den Bedürfnissen Ihrer Mitglieder ab. Die gute Nachricht ist, dass Sie leicht hin- und herwechseln können: Erstellen Sie einfach ein Thema, um in eine Supergruppe umzuwandeln oder löschen Sie alle Themen außer "Allgemein", um zu einer regulären Gruppe zurückzukehren.
-
-
+Es gibt keine strikte Regel, wann man von einer regulären Telegram-Gruppe zu einer Supergruppe wechseln sollte, es hängt wirklich von den Bedürfnissen deiner Mitglieder ab. Die gute Nachricht ist, dass du leicht hin- und herwechseln kannst: Erstelle einfach ein Thema, um in eine Supergruppe umzuwandeln oder lösche alle Themen außer "Allgemein", um zu einer regulären Gruppe zurückzukehren.
 
 Anleitung zum Erstellen einer Telegram-Supergruppe:
 
-
-
 :::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
+Kurzer Hinweis: Wie bereits erwähnt, wurde die obige Anleitung auf einem Computer mit der APK "Telegram+" erstellt. Heute ist es jedoch einfach, eine Telegram-Supergruppe auf deinem Telefon zu erstellen.
 
-
-Kurzer Hinweis: Wie bereits erwähnt, wurde die obige Anleitung auf einem Computer mit der APK "Telegram+" erstellt. Heute ist es jedoch einfach, eine Telegram-Supergruppe auf Ihrem Telefon zu erstellen.
-
-
-Erstellen Sie einfach eine Telegram-Gruppe, gehen Sie zu deren Einstellungen und tippen Sie auf die Schaltfläche "Themen", um Themen hinzuzufügen. Nach dem Speichern sehen Sie eine Liste von Themen, die Sie nach Belieben bearbeiten können.
-
-
+Erstelle einfach eine Telegram-Gruppe, gehe zu deren Einstellungen und tippe auf die Schaltfläche "Themen", um Themen hinzuzufügen. Nach dem Speichern siehst du eine Liste von Themen, die du nach Belieben bearbeiten kannst.
 Es gibt also keinen Grund mehr, "Telegram+" herunterzuladen, es sei denn, du möchtest Zugang zu erweiterten Datenschutzeinstellungen für deine Supergruppe.
-
 
 
 ## Einrichten Ihrer Telegram-Gruppe oder Supergruppe
 
-
 <chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
 
-
-
-Nun, da Ihre Telegram-Gruppe (oder Supergruppe) eingerichtet ist, ist es an der Zeit, **Berechtigungen zu konfigurieren und Moderation** einzurichten.
-
+Nun, da deine Telegram-Gruppe (oder Supergruppe) eingerichtet ist, ist es an der Zeit, **Berechtigungen zu konfigurieren und die Moderation** einzurichten.
 Es steht jeder Gemeinschaft frei, ihren eigenen Ansatz zu wählen, aber die Erfahrung zeigt, dass es **am besten ist, bestimmte Mitgliederrechte zu beschränken**:
-
-
 
 - Versenden einer Umfrage;
 - Versenden von Dateien (um mögliche Viren zu vermeiden);
@@ -670,55 +556,35 @@ Es steht jeder Gemeinschaft frei, ihren eigenen Ansatz zu wählen, aber die Erfa
 - Anheften von Nachrichten;
 - Bearbeitung von Gruppeninformationen.
 
-
 Es wird dringend empfohlen, **eine klare Beschreibung deines Treffens** zu verfassen, wenn du deine Telegram-Gruppe oder Supergruppe erstellst, da dies das Erste ist, was potenzielle Mitglieder sehen werden. Zum Beispiel:
 
-
-> Willkommen bei @Bitcoin's Telegram [CITY] 🔥
+> Willkommen bei @Bitcoin's Telegram [STADT] 🔥
 >
 
 > Wir organisieren jeden ersten Mittwoch im Monat ein Treffen in der Bar [BAR_NAME], in [STADT] 🍻
 >
 
-> Besuchen Sie auch unsere anderen sozialen Netzwerke: [LINK] 🌐
+> Besuche auch unsere anderen sozialen Netzwerke: [LINK] 🌐
 
 ![image](assets/fr/021.webp)
 
-
-
 In diesem Beispiel haben die Administratoren des Bitcoin Lille ihren öffentlichen Telegram-Link angepasst, um das Teilen zu erleichtern.
 
-
-
 In den "Gruppeneinstellungen" kann es ratsam sein, **die Option "Neue Mitglieder genehmigen "** zu aktivieren.
-
-
 Einige Bitcoin-Telegram-Gruppen wurden von Tausenden von gefälschten Konten angegriffen, die darauf abzielen, die Gemeinschaft zu spammen oder zu stören.
+**Das Aktivieren der Mitgliederfreigabe kann deine Gruppe vor einem Spam-Angriff schützen**
 
-
-**Das Aktivieren der Mitgliederfreigabe kann Ihre Gruppe vor einem Spam-Angriff schützen**
-
-
-
-Im Bereich Administratoren können Sie auch eine "Aggressive Anti-Spam"-Funktion aktivieren, um verdächtige Nachrichten automatisch zu löschen.
-
+Im Bereich Administratoren kannst du auch eine "Aggressive Anti-Spam"-Funktion aktivieren, um verdächtige Nachrichten automatisch zu löschen.
 Dies ist nicht immer notwendig, kann aber einen zusätzlichen Layer Schutz bieten.
-
 
 
 ## Hinzufügen eines Multifunktions-Bots zu Ihrer Telegram-Gruppe
 
-
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
-
-
-**Eine weitere Möglichkeit, Ihre Telegram-Gruppe oder Supergruppe zu konfigurieren und zu sichern, ist das Hinzufügen eines Multi-Funktions-Bots**. Damit können Sie die Funktionen und Moderationsmöglichkeiten Ihrer Gruppe erheblich erweitern.
-
+**Eine weitere Möglichkeit, deine Telegram-Gruppe oder Supergruppe zu konfigurieren und zu sichern, ist das Hinzufügen eines Multi-Funktions-Bots**. Damit kannst du die Funktionen und Moderationsmöglichkeiten deiner Gruppe erheblich erweitern.
 
 Mit **dem Bot [@GroupHelpBot](https://telegram.me/grouphelpbot)** sind die nützlichsten Optionen:
-
-
 
 - Ein **Regel-Befehl** (/rules), um Ihre Gemeinschaftsrichtlinien anzuzeigen;
 - **Anti-Spam**-Schutz zum Filtern verdächtiger Nachrichten und Konten;
@@ -729,86 +595,52 @@ Mit **dem Bot [@GroupHelpBot](https://telegram.me/grouphelpbot)** sind die nütz
 - Ein **Gruppenverknüpfungsbefehl** (/link)
 - Befehl **Zulassungsmanagement**
 - **Automatische Löschung** von bestimmten Nachrichtentypen
-- **Bot-Blockierung** und **Eintritts-/Ausgangssperre** für die Sicherheit Ihrer Gruppe
-- Liste der sozialen Netzwerke Ihrer **Gemeinschaft** (/networks)
+- **Bot-Blockierung** und **Eintritts-/Ausgangssperre** für die Sicherheit deiner Gruppe
+- Liste der sozialen Netzwerke deiner **Gemeinschaft** (/networks)
 - Und vieles mehr...
-
-
 
 ![image](assets/fr/022.webp)
 
-
-
 Unzählige zusätzliche Funktionen sind verfügbar.
 
-
-Profi-Tipp: **Gespräche nicht zu sehr einschränken**.
-
-
+Profi-Tipp: **Schränke Gespräche nicht zu sehr ein**.
 
 Anleitung zum Hinzufügen eines Multifunktions-Bots zu einer Telegram-Gruppe oder Supergruppe:
 
-
-
 :::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
-
-
-(Hinweis: Dieser gesamte Vorgang kann jetzt direkt von Ihrem Telefon aus durchgeführt werden. Die Telegram+ App wird nicht mehr benötigt)
-
-
+Hinweis: Dieser gesamte Vorgang kann jetzt direkt von deinem Telefon aus durchgeführt werden. Die Telegram+ App wird nicht mehr benötigt
 
 ## Einen Discord-Server einrichten
 
-
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
 
-
-
-Wenn Ihre Telegram-Gruppe zu groß wird, können Sie sie in eine Telegram-Supergruppe umwandeln, um die Diskussionen zu organisieren.
-
+Wenn deine Telegram-Gruppe zu groß wird, kannst du sie in eine Telegram-Supergruppe umwandeln, um die Diskussionen zu organisieren.
 Wie bereits erwähnt, können jedoch die **zusätzliche Komplexität und die Zunahme der Themen und Nachrichten dazu führen, dass einige aktive Mitglieder das Interesse verlieren**.
 
-
-Warum sollte man Discord in Betracht ziehen?
-
-**Discord ist eine Alternative** zu einer Telegram-Supergruppe, da es den Nutzern erlaubt, **bestimmte Text- und Sprach-Chaträume** zu erstellen und den Mitgliedern die Möglichkeit zu geben, Kanäle stumm zu schalten, an denen sie nicht interessiert sind.
+Warum sollte man Discord in Betracht ziehen? **Discord ist eine Alternative** zu einer Telegram-Supergruppe, da es den Nutzern erlaubt, **bestimmte Text- und Sprach-Chaträume** zu erstellen und den Mitgliedern die Möglichkeit zu geben, Kanäle stumm zu schalten, an denen sie nicht interessiert sind.
 
 
-Natürlich erfordert die Verwaltung von Telegram und Discord etwas mehr Zeit, insbesondere bei der Konfiguration und dem Start.
+Natürlich erfordert die Verwaltung von Telegram und Discord gleichzeitig etwas mehr Zeit, insbesondere bei der Konfiguration und dem Start.
 
-
-
-Um die Dinge für euch einfacher zu machen, **teilen wir einen [Discord-Server, den ihr duplizieren und anpassen könnt](https://discord.com/template/bDY4eXXJk2C8)**:
-
-
+Um die Dinge für dich einfacher zu machen, **teilen wir einen [Discord-Server, den du duplizieren und anpassen kannst](https://discord.com/template/bDY4eXXJk2C8)**:
 
 :::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
+Wenn er gut konzipiert ist, kann ein Discord-Server ein echter Gewinn für deine Gemeinschaft sein. Viele Bitcoiner nutzen **Discord** bereits täglich, und die Möglichkeit, Telegram-Unterhaltungen direkt in Discord zu verfolgen (und umgekehrt), kann allen eine Menge Zeit sparen.
 
-Wenn er gut konzipiert ist, kann ein Discord-Server ein echter Gewinn für Ihre Gemeinschaft sein. Viele Bitcoiner nutzen **Discord** bereits täglich, und die Möglichkeit, Telegram-Unterhaltungen direkt in Discord zu verfolgen (und umgekehrt), kann allen eine Menge Zeit sparen.
+Um beide Plattformen zu synchronisieren, gibt es einen Open-Source-Bot namens [TediCross](https://github.com/TediCross/TediCross). Sein Zweck ist einfach: Er leitet automatisch Nachrichten aus einem Discord-Textkanal an eine Telegram-Gruppe (oder ein Thema in einer Supergruppe) weiter und umgekehrt.
 
+Denk jedoch daran, dass die Installation nicht ganz einfach ist. Du musst eine Eingabeaufforderung (CMD) auf deinem Computer laufen lassen, damit der Bot funktioniert, und gelegentlich können Fehler auftreten. Glücklicherweise ist die Fehlerbehebung einfach: Starte den Bot einfach neu, und in den meisten Fällen läuft alles wieder normal ab.
 
-Um beide Plattformen zu synchronisieren, gibt es einen Open-Source-Bot namens [TediCross] (https://github.com/TediCross/TediCross). Sein Zweck ist einfach: Er leitet automatisch Nachrichten aus einem Discord-Textkanal an eine Telegram-Gruppe (oder ein Thema in einer Supergruppe) weiter und umgekehrt.
-
-
-Denken Sie jedoch daran, dass die Installation nicht ganz einfach ist. Sie müssen eine Eingabeaufforderung (CMD) auf Ihrem Computer laufen lassen, damit der Bot funktioniert, und gelegentlich können Fehler auftreten. Glücklicherweise ist die Fehlerbehebung einfach: Starten Sie den Bot einfach neu, und in den meisten Fällen läuft alles wieder normal ab.
-
-
-Um Ihnen Zeit zu sparen, finden Sie hier eine Anleitung, wie Sie diesen Multifunktions-Bot zu einer Telegram-Gruppe oder Supergruppe hinzufügen können:
-
-
+Um Ihnen Zeit zu sparen, findest du hier eine Anleitung, wie du diesen Multifunktions-Bot zu einer Telegram-Gruppe oder Supergruppe hinzufügen kannst:
 
 :::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 
-
-## Erwägen Sie alternative, private und sicherere Kommunikationskanäle
-
+## Erwäge alternative, private und sicherere Kommunikationskanäle
 
 <chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
-
-
 
 Wie bereits erwähnt, sind Twitter und Telegram die meistgenutzten Kommunikationsmittel für Bitcoin-Gemeinschaften in Europa (wenn nicht sogar weltweit).
 
@@ -816,183 +648,115 @@ Wie bereits erwähnt, sind Twitter und Telegram die meistgenutzten Kommunikation
 Allerdings ist Telegram nicht gerade dafür bekannt, die sicherste oder datenschutzfreundlichste Messaging-App zu sein, und Twitter, jetzt X, ist im Besitz eines der freizügigsten Unternehmen der Welt.
 
 
-Deshalb kann es sich lohnen, sobald Ihre Hauptkanäle eingerichtet sind und die Dinge reibungslos laufen, sich die Zeit zu nehmen, andere Optionen zu prüfen.
-
-
+Deshalb kann es sich lohnen, sobald deine Hauptkanäle eingerichtet sind und die Dinge reibungslos laufen, sich die Zeit zu nehmen, andere Optionen zu prüfen.
 In den kommenden Monaten werden in diesem Kurs und auf der planb.network-Plattform Anleitungen zur Verwendung alternativer Protokolle wie **Simplex und Element** angeboten: dezentrale, verschlüsselte und hochgradig anpassbare Kommunikationsmittel.
 
 
-**Warum sollte man sich mit diesen Optionen befassen?**
-
-Denn genau wie das soziale Netzwerk NOSTR bieten sie nicht nur mehr Privatsphäre, sondern auch einen Schutz vor Zensur oder der willkürlichen Schließung Ihrer Telegram-Gruppe.
-
+**Warum sollte man sich mit diesen Optionen befassen?** Denn genau wie das soziale Netzwerk NOSTR bieten sie nicht nur mehr Privatsphäre, sondern auch einen Schutz vor Zensur oder der willkürlichen Schließung deiner Telegram-Gruppe.
 
 Und was könnte dem Geist von Bitcoin besser entsprechen als zensurresistente und widerstandsfähige Produkte?
 
 
-
-# Starten Sie Ihre sozialen Netzwerke
-
+# Starte deine sozialen Netzwerke
 
 <partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
 
-
-
-## Die Bedeutung der Sichtbarkeit für das Wachstum Ihrer Bitcoin-Gemeinschaft
-
+## Die Bedeutung der Sichtbarkeit für das Wachstum deiner Bitcoin-Gemeinschaft
 
 <chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
 
+Deine Community ist also eingerichtet und läuft. Du hast deine Telegram- oder Matrix-Bereich eingerichtet... aber im Moment bist du der Einzige, der dort ist. **Es ist Zeit, die Leute wissen zu lassen, dass es dich gibt!**
 
-
-Ihre Community ist also eingerichtet und läuft. Sie haben Ihren Telegram- oder Matrix-Bereich eingerichtet... aber im Moment sind Sie der Einzige, der dort ist. **Es ist Zeit, die Leute wissen zu lassen, dass es dich gibt!**
-
-
-Es ist ganz einfach: Wenn niemand auf Ihre Gruppe zugreifen und sehen kann, wann das nächste Treffen stattfindet, posten Sie nur ins Leere. Deshalb sind soziale Medien und einige spezielle Plattformen, auf die wir später eingehen werden, so wichtig für den Aufbau Ihrer Gemeinschaft.
-
+Es ist ganz einfach: Wenn niemand auf deine Gruppe zugreifen und sehen kann, wann das nächste Treffen stattfindet, postest du nur ins Leere. Deshalb sind soziale Medien und einige spezielle Plattformen, auf die wir später eingehen werden, so wichtig für den Aufbau deiner Gemeinschaft.
 
 Twitter (X) ist fast zum Synonym für Bitcoin-Gespräche im Internet geworden. Es ist nicht perfekt, bei weitem nicht, aber es ist derzeit der Ort, an dem sich ein großer Teil der Gemeinschaft versammelt. Es wird dringend empfohlen, dort ein Konto einzurichten.
 
-
-Um einer möglichen Zensur oder Beschränkung zuvorzukommen, eröffnen einige Gemeinschaften auch ein NOSTR-Profil.
-
-
-Das ist es, was das FREE Madeira Kollektiv getan hat.
-
-
+Um einer möglichen Zensur oder Beschränkung zuvorzukommen, eröffnen einige Gemeinschaften auch ein NOSTR-Profil. Das ist es, was das FREE Madeira Kollektiv getan hat.
 
 ![image](assets/fr/023.webp)
 
-
-
 Natürlich können auch andere Plattformen nützlich sein. Facebook (entweder mit einer Gruppe oder einer Seite) oder auch LinkedIn.
 
-
-Denken Sie jedoch daran, dass **je mehr Kommunikationskanäle und soziale Netzwerke Sie verwalten, desto mehr Zeit benötigen Sie**. Es ist oft besser, sich **auf die wichtigsten** zu konzentrieren. Twitter (und NOSTR) sind gute Optionen für den Anfang.
-
-
+Denk jedoch daran, dass **je mehr Kommunikationskanäle und soziale Netzwerke du verwaltest, desto mehr Zeit benötigst du**. Es ist oft besser, sich **auf die wichtigsten** zu konzentrieren. Twitter (und NOSTR) sind gute Optionen für den Anfang.
 
 ## Ein Twitter-Profil erstellen
 
-
 <chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
 
+Twitter ist sehr einfach zu bedienen, und um deine Privatsphäre zu verbessern, musst ein paar Einstellungen vornehmen.
 
+**Bei der Erstellung eines neuen Twitter-Kontos müssen vier wichtige Informationen eingegeben werden:**
 
-Twitter ist sehr einfach zu bedienen, und um Ihre Privatsphäre zu verbessern, müssen Sie ein paar Einstellungen vornehmen.
+1) **das @ Twitter**, das deine Identität definiert und dich leicht zu finden macht. Wenn der Name deiner Gemeinschaft "Bitcoin [STADT]" lautet, ist es angemessen, "@Bitcoin[STADT]" zu wählen;
 
+2) **das Logo und das Banner**, die du für deine Gemeinschaft oder dein Treffen erstellst hast (siehe Abschnitt [Erstellen eines Logos, Posters und Banners](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
-**Bei der Erstellung eines neuen Twitter-Kontos müssen vier wichtige Informationen eingegeben werden:**:
-
-
-1/ **das @ Twitter**, das Ihre Identität definiert und Sie leicht zu finden macht. Wenn der Name Ihrer Gemeinschaft "Bitcoin [STADT]" lautet, ist es angemessen, "@Bitcoin[STADT]" zu wählen;
-
-
-2/ **das Logo und das Banner**, die Sie für Ihre Gemeinschaft oder Ihr Treffen erstellt haben (siehe Abschnitt [Erstellen eines Logos, Posters und Banners] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
-
-
-3/ **die Beschreibung**, mit der Sie in wenigen hundert Zeichen die wichtigsten Informationen über Ihre Gemeinschaft mitteilen können. Zum Beispiel:
-
+3) **die Beschreibung**, mit der du in wenigen hundert Zeichen die wichtigsten Informationen über deine Gemeinschaft mitteilen kannst. Zum Beispiel:
 
 > Offizieller Account der Bitcoin [STADT] Gemeinschaft #BTC | Treffen jeden 1. Mittwoch im Monat in [BAR_NAME] in [STADT] 🍻 | Tritt uns auf Telegram bei 🔽
 
-4/ Unter dieser Beschreibung ist es möglich, **einen Link** einzufügen. Dieser kann die Nutzer zu einer "Social Media"-Seite auf der Website Ihrer Gemeinschaft oder zu Ihrem Telegram-Kanal führen. Es liegt an Ihnen zu entscheiden, was Sie hervorheben möchten.
-
-
+4) Unter dieser Beschreibung ist es möglich, **einen Link** einzufügen. Dieser kann die Nutzer zu einer "Social Media"-Seite auf der Website Ihrer Gemeinschaft oder zu Ihrem Telegram-Kanal führen. Es liegt an Ihnen zu entscheiden, was Sie hervorheben möchten.
 
 ![image](assets/fr/024.webp)
 
-
-
 Außerdem lohnt es sich, **ein paar Datenschutzeinstellungen anzupassen**:
 
+- lasse dein X-Konto im "öffentlichen" Modus (Beiträge sind für jeden sichtbar);
+- ermögliche es jedem, dich zu finden;
+- Deaktiviere die Standortverfolgung und die gemeinsame Nutzung von Daten mit anderen Einrichtungen (in den Datenschutzeinstellungen).
 
+Für jede Veranstaltung wirst du wahrscheinlich X (Twitter)   nutzen, um nützliche Informationen zu teilen. Aber wie bei den meisten sozialen Netzwerken gilt auch hier: **Sichtbarkeit ist alles**.
 
-- lassen Sie Ihr Twitter-Konto im "öffentlichen" Modus (Beiträge sind für jeden sichtbar);
-- ermöglichen es jedem, Sie zu finden;
-- die Standortverfolgung und die gemeinsame Nutzung von Daten mit anderen Einrichtungen deaktivieren (in den Datenschutzeinstellungen).
+Um dir viel Zeit zu ersparen, haben wir uns die Zeit genommen, [Twitters Open-Source-Ranking-Algorithmus](https://github.com/twitter) zu studieren.
 
-
-Für jede Veranstaltung werden Sie wahrscheinlich Twitter nutzen, um nützliche Informationen zu teilen. Aber wie bei den meisten sozialen Netzwerken gilt auch hier: **Sichtbarkeit ist alles**.
-
-
-Um Ihnen viel Zeit zu ersparen, haben wir uns die Zeit genommen, [Twitters Open-Source-Ranking-Algorithmus] (https://github.com/twitter) zu studieren.
-
-
-Hier sind die **Schlüsselpunkte, auf die Sie sich konzentrieren sollten, um Ihre Sichtbarkeit zu erhöhen**:
-
-
+Hier sind die **Schlüsselpunkte, auf die du dich konzentrieren solltest,  um deine Sichtbarkeit zu erhöhen**:
 
 - Allgemeine Tipps:
-    - Tweeten Sie in der eingestellten Sprache Ihres Kontos oder auf Englisch: Tweets in anderen Sprachen können Ihre Sichtbarkeit stark verringern;
-    - Bleiben Sie bei Ihrer Nische und teilen Sie nur Inhalte, die mit dem Schwerpunkt Ihres Kontos zu tun haben; themenfremde Tweets werden vom Algorithmus abgestraft;
-    - Streben Sie 1 bis 2 Tweets pro Tag an;
-    - Posten Sie während der Spitzenzeiten: Donnerstags oder freitags zwischen 8 und 10 Uhr ist die Performance am besten (siehe in Ihrem Konto: Twitter Analytics).
-
-
-
+    - Tweete in der eingestellten Sprache deines Kontos oder auf Englisch: Tweets in anderen Sprachen können deine Sichtbarkeit stark verringern;
+    - Bleibe bei deiner Nische und teile nur Inhalte, die mit dem Schwerpunkt deines Kontos zu tun haben; themenfremde Tweets werden vom Algorithmus abgestraft;
+    - Strebe 1 bis 2 Tweets pro Tag an;
+    - Poste während der Spitzenzeiten: Donnerstags oder freitags zwischen 8 und 10 Uhr ist die Performance am besten (siehe in deinem Konto: Twitter Analytics).
+      
 - Beim Schreiben eines Tweets:
-    - ein Foto (oder sogar ein Video) hinzufügen;
-    - Verwenden Sie nur einen Hashtag (normalerweise ist #Bitcoin der relevanteste. Gegebenenfalls können Sie einen Trend-Hashtag hinzufügen, der sich auf Ihren Kontobereich bezieht);
-    - Ermutigen Sie Ihre Gemeinschaft zur Interaktion:
-        - Wie = Gewicht 0,5
+    - Füge ein Foto (oder sogar ein Video) hinzu;
+    - Verwende nur einen Hashtag (normalerweise ist #Bitcoin der relevanteste. Gegebenenfalls kannst du einen Trend-Hashtag hinzufügen, der sich auf deinen Kontobereich bezieht);
+    - Ermutige deine Gemeinschaft zur Interaktion:
+        - Like = Gewicht 0,5
         - Retweet = Gewicht 1
-- Antwort = Gewicht 27 (**!!**)
-- Antworten Sie auf Personen, die auf Ihre Tweets antworten (Gewicht von 75!!);
-    - Vermeiden Sie es, Links im Haupt-Tweet zu platzieren: Fügen Sie sie stattdessen im ersten Kommentar ein;
-    - Schreiben Sie die Wörter vollständig, vermeiden Sie Abkürzungen.
-
-
+        - **Antwort = Gewicht 27 (!!)**
+    - **Antworte auf Personen, die auf Ihre Tweets antworten (Gewicht von 75!!);**
+    - Vermeide es, Links im Haupt-Tweet zu platzieren: Füge sie stattdessen im ersten Kommentar ein;
+    - Schreibe die Wörter vollständig und vermeide Abkürzungen.
 
 - Weitere Tipps:
-    - Tweeten Sie über aktuelle Themen, sofern diese mit dem Fachgebiet Ihres Kontos übereinstimmen;
-    - Veröffentlichen Sie Ihre erfolgreichsten Tweets erneut;
-    - Gelegentlich Umfragen durchführen;
-    - Schreiben Sie, wenn möglich, Threads;
-    - Ermutigen Sie Ihre Community, Ihr Profil zu besuchen und Ihnen zu folgen.
+    - Tweete über aktuelle Themen, sofern diese mit dem Fachgebiet deines Kontos übereinstimmen;
+    - Veröffentliche deine erfolgreichsten Tweets erneut;
+    - Führe gelegentlich Umfragen durch;
+    - Schreibe, wenn möglich, Threads;
+    - Ermutige deine Community, dein Profil zu besuchen und dir zu folgen.
 
-
-
-Darüber hinaus können **Sie einen Tweet oder ein Thema an Ihr Twitter-Profil anheften, um ihm maximale Sichtbarkeit zu verleihen**, so wie es die Bitcoin Witsand-Gemeinschaft in Südafrika tut.
-
-
+Darüber hinaus kannst **du einen Tweet oder ein Thema an dein Twitter-Profil anheften, um ihm maximale Sichtbarkeit zu verleihen**, so wie es die Bitcoin Witsand-Gemeinschaft in Südafrika tut.
 
 ![image](assets/fr/025.webp)
 
+Beachte auch, dass es möglich ist, bei zwei Twitter-Konten gleichzeitig angemeldet zu bleiben, sowohl auf dem Telefon als auch auf dem Computer. Das ist sehr praktisch, wenn du einfach zwischen deinem persönlichen und deinem Community-Konto wechseln möchtest.
+Sei nur vorsichtig... ein versehentliches Posten eines Partyfotos vom Gemeinschaftskonto kann schneller passieren, als denkst!
 
-
-Beachten Sie auch, dass es möglich ist, bei zwei Twitter-Konten gleichzeitig angemeldet zu bleiben, sowohl auf dem Telefon als auch auf dem Computer. Das ist sehr praktisch, wenn Sie einfach zwischen Ihrem persönlichen und Ihrem Community-Konto wechseln möchten.
-
-Seien Sie nur vorsichtig... ein versehentliches Posten eines Partyfotos vom Gemeinschaftskonto kann schneller passieren, als Sie denken!
-
-
-Auch wenn Ihr Benutzername "@Bitcoin[CITY]" einzigartig ist und Ihnen gehört, sollten Sie sich vor gefälschten oder nachgemachten Accounts in Acht nehmen. Ziehen Sie auch eine Registrierung in Betracht:
-
-
+Auch wenn dein Benutzername "@Bitcoin[CITY]" einzigartig ist und dir gehört, solltest du dich vor gefälschten oder nachahmten Accounts in Acht nehmen. Beispiele für Nachahmungen: 
 
 - @Bitcoin_[CITY]
 - @[STADT]Bitcoin
 - @[STADT]_Bitcoin
 
-
-Auf diese Weise verringern Sie die Wahrscheinlichkeit, dass sich jemand als Ihre Gemeinschaft ausgibt.
-
-
+Ziehe auch eine Registrierung in Betracht. Auf diese Weise verringerst du die Wahrscheinlichkeit, dass sich jemand als deine Gemeinschaft ausgibt.
 
 Anleitung zum Erstellen eines Twitter-Kontos:
 
-
-
 :::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
-
-
 
 ## Annäherung an benachbarte Treffpunkte
 
-
 <chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
-
-
 
 Nun, da Ihre Kommunikationskanäle und sozialen Netzwerke eingerichtet sind und die visuelle Identität Ihrer Gemeinschaft widerspiegeln, ist es an der Zeit, den richtigen Personen zu folgen.
 

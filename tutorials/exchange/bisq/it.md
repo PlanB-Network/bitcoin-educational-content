@@ -136,3 +136,4 @@ Se non hai fretta di acquistare, puoi anche creare un "Offerta di acquisto" in c
 4. Anche se non mi è mai successo, a volte il trading peer-to-peer non va come previsto e gli utenti devono seguire il processo di risoluzione delle controversie. Fortunatamente, grazie alla struttura degli incentivi di Bisq, questi casi sono rari.
 
 Come per la maggior parte delle cose legate a Bitcoin, il dibattito KYC/Non-KYC è sfumato e pieno di compromessi. Capisco che le piattaforme più comuni come Coinbase e CashApp rendano molto facile l'acquisto, soprattutto per i principianti, ma ti prego di prenderti un attimo per considerare i compromessi e valutare le alternative prima di fornire così facilmente le tue informazioni personali.
+

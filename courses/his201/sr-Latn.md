@@ -176,7 +176,10 @@ Evo fotografije iz 1977. godine, koju je snimio Chuck Painter za Stanford News S
 Otkrivanje asimetrične kriptografije takođe je motivisalo stvaranje jednousmernih funkcija, koje karakteriše lakoća izračunavanja slike (pravac napred) i velika težina dobijanja pre-slike (pravac unazad). Konkretno, to je dovelo do razvoja prvih kriptografskih Hash funkcija, koje su transformisale poruku promenljive veličine u sažetak fiksne veličine. Između 1989. i 1991. godine, nekoliko algoritama za heširanje (MD2, MD4 i MD5) je dizajnirao Ronald Rivest za MIT.
 
 
-Osnovni kriptografski Elements od Bitcoin potiču iz ovog istraživanja. Šema potpisa ECDSA, koja omogućava autorizaciju trošenja tradicionalne transakcije, kreirana je 1992. godine za NIST. Funkcija SHA-256 Hash, korišćena na više mesta u protokolu, objavljena je 2001. godine kao deo SHA-2 algoritamskog paketa koji je NSA učinila javnim. Za više informacija o ovoj temi, možete se obratiti kursu [Crypto 301](../crypto301/fr.md) koji predstavlja Loïc Morel.
+Osnovni kriptografski Elements od Bitcoin potiču iz ovog istraživanja. Šema potpisa ECDSA, koja omogućava autorizaciju trošenja tradicionalne transakcije, kreirana je 1992. godine za NIST. Funkcija SHA-256 Hash, korišćena na više mesta u protokolu, objavljena je 2001. godine kao deo SHA-2 algoritamskog paketa koji je NSA učinila javnim. Za više informacija o ovoj temi, možete se obratiti kursu CYP201 koji predstavlja Loïc Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 
 
 ### Slepi potpisi i elektronski novac

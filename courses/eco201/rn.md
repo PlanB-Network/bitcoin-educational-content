@@ -1,6 +1,6 @@
 ---
-Izina ry'icigwa: Intangamarara y'ubutunzi bwa Otirishiya
-intego: Vumbura ishure ry’ivyiyumviro vy’ubutunzi ryo muri Otirishiya. Iga ivyiyumviro vyabo ku kibano no ku vyerekeye ubutunzi buhambaye/buto.
+Name: Intangamarara y'ubutunzi bwa Otirishiya
+goals: Vumbura ishure ry’ivyiyumviro vy’ubutunzi ryo muri Otirishiya. Iga ivyiyumviro vyabo ku kibano no ku vyerekeye ubutunzi buhambaye/buto.
 objectives: 
 
   - Iyindi nzira yo gusubirira Ivyiyumviro vya  Keynes

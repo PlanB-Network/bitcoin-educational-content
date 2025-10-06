@@ -1,10 +1,10 @@
-ikibazo: Ni isano irihe riri hagati y’uguhitamwo umwanya n’inyungu mu butunzi bufise amasoko y’imitahe adakoreshwa?
-inyishu: Ukwiyongera kw’inyungu biva ku kwiyongera kw’abasaba imitahe ugereranije na n'ibihari vyo gutanga, bikaba vyerekana ko umuntu akunda igihe kinini. Ku rundi ruhande, ukugabanya inyungu biva ku kwiyongera kw’amahera aziganijwe, ari vyo kwiyongera kwa kw'ibitangwa vy’imitahe, bikaba vyerekana ko igihe umuntu akunda kigabanutse.
-inyishu zitarizo:
+question: Ni isano irihe riri hagati y’uguhitamwo umwanya n’inyungu mu butunzi bufise amasoko y’imitahe adakoreshwa?
+answer: Ukwiyongera kw’inyungu biva ku kwiyongera kw’abasaba imitahe ugereranije na n'ibihari vyo gutanga, bikaba vyerekana ko umuntu akunda igihe kinini. Ku rundi ruhande, ukugabanya inyungu biva ku kwiyongera kw’amahera aziganijwe, ari vyo kwiyongera kwa kw'ibitangwa vy’imitahe, bikaba vyerekana ko igihe umuntu akunda kigabanutse.
+wrong_answers:
   - Ukwongerekana kw’inyungu vyerekana ko umuntu akunda igihe kigabanutse, mu gihe inyungu zigabanutse vyerekana ko umuntu akunda igihe ciyongeye.
   - Igihe umuntu akunda n’inyungu ntaho bisa bisana.
   - Igihe umuntu akunda n’inyungu nta sano na ritoya bifitaniye.
-insiguro: |
+Explanation: |
   Mu butunzi bufise amasoko y’imitahe adakoreshwa, ivyerekeye
   inyungu zigenwa ku ihuririo y’
   umutahe ivyo utanga n’ivyo usaba. Ku bw’ivyo, ivyo bipimo bigereranya .

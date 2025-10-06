@@ -1,10 +1,10 @@
-ikibazo: Ni uruhara uruhe rw’ibikoresho(vyo mubuzima bwa minsi yose) mu butunzi?
-inyishu: ibikoresho bikoreshwa mu guhingura ibindi bikoresho. Bituma abantu bashobora kuronka ibintu bakoresha.
-inyishu zitarizo:
+question: Ni uruhara uruhe rw’ibikoresho(vyo mubuzima bwa minsi yose) mu butunzi?
+answer: ibikoresho bikoreshwa mu guhingura ibindi bikoresho. Bituma abantu bashobora kuronka ibintu bakoresha.
+wrong_answers:
   - Ibikoresho bakoresha mu gukora ibindi bikorwa.
   - Ibikoresho nta ruhara bifise mu butunzi.
   - Ibikoresho bikoreshwa mu guhingura ibindi bikoresho.
-insiguro: |
+Explanation: |
   Kugira ngo abacuruzi bashobore guhingura ibintu bikoreshwa, barahuza ibintu bitandukanye .
   Ibicuruzwa vyo hagati bifise ibintu vy'intango vy'uguhingura
   (abakozi, ubutaka n’umutahe) bishingiye ku citegererezo c’uko .

@@ -114,7 +114,7 @@ Nota: Se recomienda revisar en la ventana de código, con el contenido original 
 ![REVIEW](assets/fr/10.webp)
 
 - Entonces llegarás a la página PR. Un Pull Request es una solicitud para enviar los cambios realizados en una rama de un repositorio remoto para su revisión y posible fusión en la rama principal.
-- Agrega un título y una breve descripción a tu PR. El título debe coincidir con el issue en el que estás trabajando. Por ejemplo, si el título del issue es `[PROOFREADING] Course CYP201 - FR`, utiliza el mismo título para tu RP (ver \**A\**). En la descripción, menciona el issue asociado utilizando su número, precedido por "Closes" (Cierra). Esto cerrará automáticamente el issue una vez que se haya fusionado el PR (ver \**B\**).
+- Agrega un título y una breve descripción a tu Pull Request (PR). El título debe coincidir con el issue en el que estás trabajando. Por ejemplo, si el título del issue es `[PROOFREADING] Course CYP201 - FR`, utiliza el mismo título para tu RP (ver \**A\**). En la descripción, menciona el issue asociado utilizando su número, precedido por "Closes" (Cierra). Esto cerrará automáticamente el issue una vez que se haya fusionado el PR (ver \**B\**).
 - Si todo parece correcto, haz clic en el botón verde "Create Pull Request" (ver. \**C\**).
 
 ![REVIEW](assets/fr/11.webp)

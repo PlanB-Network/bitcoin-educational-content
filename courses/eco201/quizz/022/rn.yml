@@ -1,10 +1,10 @@
-ikibazo: Ni ikihe kibazo(ukwijijanya imitima) umufungwa afise mu bijanye n’ukugabanganya ibikorwa?
-inyishu: Ni igihe ugukorana neza bizana inyungu ntoya cane kuruta uko vyari vyitezwe kumuntu umwe. ariko inyungu nini ku mugwi
-inyishu zitarizo:
+question: Ni ikihe kibazo(ukwijijanya imitima) umufungwa afise mu bijanye n’ukugabanganya ibikorwa?
+answer: Ni igihe ugukorana neza bizana inyungu ntoya cane kuruta uko vyari vyitezwe kumuntu umwe. ariko inyungu nini ku mugwi
+wrong_answers:
   - Ni igihe abantu ku giti cabo banse gukorerea hamwe canke gukorana, bikaba bituma uwo mugwi uronka inyungu nini cane.
   - Ni igihe abantu bakorana canke bakorera hamwe, bikaba bituma baronka inyungu nyinshi cane kuri bo, ariko inyungu nke cane ku mugwi.
   - Ni igihe abantu banka gukorana, bikabajana ku nyungu zitari nziza kuri bo no ku mugwi.
-insiguro: |
+Explanation: |
   amadidane y'umupfungwa ni iciyumviro mu vyiyumviro vy’urukino aho
   abantu bategerezwa guhitamwo uburyo bwo guhitamwo kugira bagire inyungu zirenze canke bipfuza, ata kuraba 
   naho vyoba bingana nukurongora canke gukorana bishoboka.

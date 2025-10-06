@@ -1,6 +1,6 @@
-ikibazo: Ni irihe jambonyamukuru Ludwig von Mises yashizeho mu kiganiro ciwe kivuga ngo Ibara ry’ubutunzi mu gihugu c’Ubumwe bw’Abasosiyalisiti?
-inyishu: Ugutunganya ubutunzi mu buryo bubereye ntibishoboka ata biciro nk'ikintu hagati y’umwimbu.
-inyishu zitarizo:
+question: Ni irihe jambonyamukuru Ludwig von Mises yashizeho mu kiganiro ciwe kivuga ngo Ibara ry’ubutunzi mu gihugu c’Ubumwe bw’Abasosiyalisiti?
+answer: Ugutunganya ubutunzi mu buryo bubereye ntibishoboka ata biciro nk'ikintu hagati y’umwimbu.
+wrong_answers:
   - Ubusosiyalisiti buraruta ubu kapitalizimu mu majambo.
   - kapitalizimu ni bwo buryo bwonyene bwo kubamwo mu vy’ubutunzi.
   - Ubusosiyalisimu burashobora kuvyara abantu batagira kamere y’ubu kapitalizimu.

@@ -43,7 +43,6 @@ Une fois votre choix effectué, cliquez sur "Proceed".
 
 Attention : si vous optez pour la sauvegarde manuelle, vous êtes seul responsable de la sécurité de cette phrase. Elle permet un accès total à vos fonds, et toute personne qui la détient peut les dérober, même sans avoir accès à votre téléphone ou votre compte Rumble. Si vous avez choisi cette méthode, cliquez sur "Reveal Seed Phrase" pour afficher votre phrase. Assurez-vous de ne pas être observé pendant cette étape.
 
-
 05
 
 Rumble Wallet affiche ensuite votre phrase mnémonique de 12 mots à l’écran. Cette phrase vous permettra de restaurer l’accès à vos bitcoins en cas de perte, de vol ou de casse de votre téléphone. Il est donc important de la sauvegarder soigneusement et de la conserver dans un endroit sûr.

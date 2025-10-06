@@ -1,10 +1,10 @@
-ikibazo: Iciyumviro co guhitamwo umwanya n'iki?
-inyishu: Igihe co guhitamwo umwanya ni ugusuzuma umuntu ku gaciro k’ibintu vyo muri kazoza ugereranyije n’ibintu vyo muri kubu. Ibindi vyose bikaba bingana, ivyiza vyo muri iki gihe birakunda cane kuruta ivyiza vyo muri kazoza.
-inyishu zitarizo:
+question: Iciyumviro co guhitamwo umwanya n'iki?
+answer: Igihe co guhitamwo umwanya ni ugusuzuma umuntu ku gaciro k’ibintu vyo muri kazoza ugereranyije n’ibintu vyo muri kubu. Ibindi vyose bikaba bingana, ivyiza vyo muri iki gihe birakunda cane kuruta ivyiza vyo muri kazoza.
+wrong_answers:
   - guhitamwo igihe ni ugusuzuma ataco agaciro k’ibintu vyo muri kazoza ugereranyije n’ivyo muri kubu.
   - guhitamwo igihe ni uguhitamwo ibintu vyo muri kazoza kuruta ibintu vyo muri kubu.
   - guhitamwo igihe ni ugusuzuma agaciro k’ibintu biriho ubu ugereranije n’ibintu vyo muri kazoza.
-insiguro: |
+Explanation: |
   guhitamwo igihe ni ugusuzuma agaciro
   k’ibintu vyo muri kazoza ugereranyije n’ivyo muri iki gihe. Kubera ko turi abapfa, kandi kazoza kama katazwi, twebwe mu bisanzwe .
   duhitamwo kuronka ivyiza ubu aho kubironka mu nyuma.

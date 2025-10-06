@@ -149,7 +149,7 @@ Come già spiegato, Bitstack offre un'originale funzione di arrotondamento autom
 
 Questa funzione consente di investire con una sorta di DCA stabilito sulle spese personali, in modo quasi impercettibile, per accumulare gradualmente risparmi in bitcoin.
 
-Per attivarlo, è necessario prima sincronizzare un conto bancario, come descritto all'inizio di questa sezione. Quindi, nell'applicazione Bitstack, clicca su "*Arrondi*"("Arrotondamento") nella sezione"Épargne"("*Risparmio*").
+Per attivarlo, è necessario prima sincronizzare un conto bancario, come descritto all'inizio di questa sezione. Quindi, nell'applicazione Bitstack, clicca su "*Arrondi*"("Arrotondamento") nella sezione"*Épargne*"("*Risparmio*").
 
 ![Image](assets/fr/25.webp)
 

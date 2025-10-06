@@ -12,7 +12,7 @@ description: Una semplice guida passo-passo per l'acquisto di Bitcoin in autocus
 Bittr è uno strumento semplice per chiunque voglia far crescere i propri risparmi in Bitcoin, senza app complicate, controlli di identità o custodia da parte di terzi. È pensato per chi preferisce la semplicità, la privacy e il pieno controllo del proprio denaro.
 
 
-Basta inviare un regolare bonifico bancario dal tuo conto e riceverete i Bitcoin direttamente nel tuo Wallet. Che tu volgia risparmiare settimanalmente, mensilmente o ogni volta che lo desideri, Bittr è stato progettato per inserirsi nella tua routine senza intralciarti.
+Basta inviare un regolare bonifico bancario dal tuo conto e riceverete i Bitcoin direttamente nel tuo Wallet. Che tu voglia risparmiare settimanalmente, mensilmente o ogni volta che lo desideri, Bittr è stato progettato per inserirsi nella tua routine senza intralciarti.
 
 
 Vediamo insieme quanto è facile iniziare ad accumulare sats con Bittr.

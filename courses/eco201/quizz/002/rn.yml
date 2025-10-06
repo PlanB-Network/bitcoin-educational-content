@@ -1,11 +1,11 @@
-Ikibazo: None umwigisha w'ico cirwa?
-Inyishu:Théo Mogenet 
-Inyishu itariyo:
+question: None umwigisha w'ico cirwa?
+answer: Théo Mogenet 
+wrong_answers:
    - Théo Boloré
   - Descoupes Bitco
   - Nta nyishu nimwe irimwomo.
-Insiguro: |
+explanation: |
   Ico kigabane kivuga ko umwigisha w’ivyo vyigwa ari .
   Théo Mogenet, umwigisha w’umunyamwete(abikora abikunze cane) kandi afise uruhara runini mu
   Ubutunzi bwa Otirishi.
-vyasuzumwe
+reviewed: true

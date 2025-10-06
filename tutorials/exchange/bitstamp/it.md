@@ -11,3 +11,4 @@ Bitstamp (https://www.bitstamp.net/) è un broker di Bitcoin per l'acquisto e la
 ![video](https://youtu.be/enL6T9J-LnQ)
 
 Non abbiamo ancora una guida alla scrittura, sentiti libero di proporre una :D
+

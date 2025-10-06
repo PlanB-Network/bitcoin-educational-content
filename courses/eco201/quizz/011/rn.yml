@@ -1,8 +1,8 @@
-Ikibazo: Ni ingaruka izihe ziterwa na politike ashingiye ku nyungu (ZIRP)?
-inyishu: ZIRP irasenya inyungu z’amabanki, igaca intege inguzanyo ku bacuruzi n’abafata
+question: Ni ingaruka izihe ziterwa na politike ashingiye ku nyungu (ZIRP)?
+answer: ZIRP irasenya inyungu z’amabanki, igaca intege inguzanyo ku bacuruzi n’abafata
 ingorane, kandi iremesha intwaro gukoresha amahera menshi, ivyo bikaba
 bituma umwenda wa Leta wiyongera.
-Inyishu zitarizo:
+wrong_answers:
   - ZIRP yongera inyungu z’amabanki, iremesha abacuruzi n’abafata ingorane guha inguzanyo, kandi igatuma Leta idakoresha amahera.
   - ZIRP nta ngaruka zikomeye ifise ku mabanki, ku migenzo yo gutanga ingurane, canke ku mahera Leta ikoresha.
   - ZIRP igabanya umwenda wa Leta, iremesha abacuruzi n’abafata ingorane guha ingurane, kandi igatuma Leta idakoresha amahera.

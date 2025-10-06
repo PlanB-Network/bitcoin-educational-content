@@ -34,11 +34,11 @@ Per scaricare l'applicazione Bitstack, vai sul tuo store delle applicazioni:
 
 ## Creare un account
 
-Quando si apre l'applicazione, fai clic sul pulsante "S'inscrire"("*Registrati*").
+Quando si apre l'applicazione, fai clic sul pulsante "*S'inscrire*"("*Registrati*").
 
 ![Image](assets/fr/03.webp)
 
-Inserisci il numero di telefono e fai clic su "Continuer"("*Continua*"). Inserisci il codice ricevuto via SMS.
+Inserisci il numero di telefono e fai clic su "*Continuer*"("*Continua*"). Inserisci il codice ricevuto via SMS.
 
 ![Image](assets/fr/04.webp)
 
@@ -46,7 +46,7 @@ Inserisci l'indirizzo e-mail.
 
 ![Image](assets/fr/05.webp)
 
-Scegli una password forte per proteggere l'accesso al tuo account, quindi fai clic su "Continuer"("*Continua*").
+Scegli una password forte per proteggere l'accesso al tuo account, quindi fai clic su "*Continuer"*("*Continua*").
 
 ![Image](assets/fr/06.webp)
 
@@ -76,15 +76,15 @@ In Impostazioni è possibile personalizzare una serie di opzioni. Per accedervi,
 
 ![Image](assets/fr/11.webp)
 
-Inizia dalla sezione "Sécurité"("*Sicurezza*"), dove puoi attivare l'autenticazione biometrica per evitare di dover inserire manualmente la password a ogni accesso.
+Inizia dalla sezione "*Sécurité*"("*Sicurezza*"), dove puoi attivare l'autenticazione biometrica per evitare di dover inserire manualmente la password a ogni accesso.
 
 ![Image](assets/fr/12.webp)
 
-In "Préférences"("*Preferenze*") è possibile personalizzare varie impostazioni, come la valuta fiat visualizzata, l'unità bitcoin (BTC o sats) o le preferenze di notifica.
+In "*Préférences*"("*Preferenze*") è possibile personalizzare varie impostazioni, come la valuta fiat visualizzata, l'unità bitcoin (BTC o sats) o le preferenze di notifica.
 
 ![Image](assets/fr/13.webp)
 
-Vai su "Général"("*Generali*") nelle impostazioni e clicca su "Modes de paiement"("*Metodi di pagamento*").
+Vai su "*Général*"("*Generali*") nelle impostazioni e clicca su "*Modes de paiement*"("*Metodi di pagamento*").
 
 ![Image](assets/fr/14.webp)
 
@@ -92,7 +92,7 @@ Qui è possibile registrare le carte di credito per gli acquisti in bitcoin.
 
 ![Image](assets/fr/15.webp)
 
-Per utilizzare la funzione di arrotondamento automatico, è necessario sincronizzare un conto bancario. Clicca su "Comptes synchronisés"("*Conti sincronizzati*"), quindi su "Synchroniser un compte bancaire"("*Sincronizzazione di un conto bancario*").
+Per utilizzare la funzione di arrotondamento automatico, è necessario sincronizzare un conto bancario. Clicca su "*Comptes synchronisés*"("*Conti sincronizzati*"), quindi su "*Synchroniser un compte bancaire*"("*Sincronizzazione di un conto bancario*").
 
 ![Image](assets/fr/16.webp)
 
@@ -105,17 +105,17 @@ Scegli la tua banca e segui le istruzioni del browser. Una volta collegato, il t
 Come accennato nell'introduzione, Bitstack offre 3 metodi per investire in Bitcoin:
 
 
-- Acquisto immediato di un importo specifico in contanti;
+- Acquisto a mercato di un importo specifico ;
 - Configurazione acquisti ricorrenti (RPC) ;
 - L'uso dell'arrotondamento automatico delle spese.
 
-### Acquisto in contanti
+### Acquisto a mercato
 
-Per effettuare un acquisto una tantum di bitcoin al prezzo di mercato, è sufficiente cliccare su "Acheter"("*Acquista*").
+Per effettuare un acquisto una tantum di bitcoin al prezzo di mercato, è sufficiente cliccare su "*Acheter*"("*Acquista*").
 
 ![Image](assets/fr/18.webp)
 
-Inserisci l'importo desiderato, seleziona il metodo di pagamento e premi "Continuer"("*Continua*"). Controlla l'ordine di acquisto prima di confermare cliccando su "Acheter"("*Acquista*").
+Inserisci l'importo desiderato, seleziona il metodo di pagamento e premi "*Continuer*"("*Continua*"). Controlla l'ordine di acquisto prima di confermare cliccando su "*Acheter*"("*Acquista*").
 
 ![Image](assets/fr/19.webp)
 
@@ -127,7 +127,7 @@ La transazione è ora confermata.
 
 Il **Dollar Cost Averaging** (DCA) è una strategia di investimento interessante per accumulare bitcoin riducendo i rischi associati alla sua volatilità. Acquistando regolarmente una quantità fissa, a prescindere dal prezzo, è possibile ammortizzare il costo di acquisizione ed evitare decisioni impulsive. La DCA aiuta a ridurre i pregiudizi comportamentali, come la paura di perdere un'opportunità o il panico in caso di calo dei prezzi, e consente quindi di gestire i propri risparmi in bitcoin in modo sereno e disciplinato.
 
-Per impostare un acquisto ricorrente (DCA) su Bitstack, vai nella sezione "Épargne"("*Risparmio*") nella home page e selezionate "Récurrent"("*Ricorrenti*"). Quindi premere "Continuer"("*Continua*").
+Per impostare un acquisto ricorrente (DCA) su Bitstack, vai nella sezione "*Épargne*"("*Risparmio*") nella home page e selezionate "*Récurrent*"("*Ricorrenti*"). Quindi premere "*Continuer*"("*Continua*").
 
 ![Image](assets/fr/21.webp)
 
@@ -135,11 +135,11 @@ Definisci l'importo dell'acquisto ricorrente e il metodo di pagamento.
 
 ![Image](assets/fr/22.webp)
 
-Seleziona la data di inizio e la frequenza del DCA, con opzioni che vanno dall'ora al mese. Conferma cliccando su "Programmer"("*programmare*").
+Seleziona la data di inizio e la frequenza del DCA, con opzioni che vanno dall'ora al mese. Conferma cliccando su "*Programmer*"("*programmare*").
 
 ![Image](assets/fr/23.webp)
 
-Il tuo DCA è ora attivo. È possibile visualizzarlo o modificarlo nella pagina iniziale selezionando nuovamente "Récurrent"("*Ricorrente*").
+Il tuo DCA è ora attivo. È possibile visualizzarlo o modificarlo nella pagina iniziale selezionando nuovamente "*Récurrent*"("*Ricorrente*").
 
 ![Image](assets/fr/24.webp)
 
@@ -157,48 +157,48 @@ Scegli un moltiplicatore per l'arrotondamento. Ad esempio, con un moltiplicatore
 
 ![Image](assets/fr/26.webp)
 
-Selezionate il vostro conto bancario e cliccate su "*Continua*". Scegliete quindi un metodo di pagamento per l'acquisto dell'arrotondamento.
+Seleziona il tuo conto bancario e clicca su "*Continuer*"("*Continua*"). Scegli ora un metodo di pagamento per l'acquisto dell'arrotondamento.
 
 ![Image](assets/fr/27.webp)
 
-L'opzione di arrotondamento automatico è ora attiva. È possibile visualizzarla o modificarla nella sezione "*Arrotondamento*".
+L'opzione di arrotondamento automatico è ora attiva. È possibile visualizzarla o modificarla nella sezione "*Arrondi*"("*Arrotondamento*").
 
 ![Image](assets/fr/28.webp)
 
 ## Prelievo da bitcoin
 
-Una volta acquistati i primi satoshi su Bitstack, è possibile ritirarli dalla piattaforma e tenerli in autodeposito. Per farlo, cliccate sull'icona "*Invio*", quindi su "*Invio di Bitcoin*".
+Una volta acquistati i primi satoshi su Bitstack, è possibile ritirarli dalla piattaforma e tenerli in autodeposito. Per farlo, clicca sull'icona "*Envoyer*"("*Invio*"), quindi su "*Envoyer du Bitcoin*"("*Invio di Bitcoin*").
 
 ![Image](assets/fr/29.webp)
 
-Scegliete l'importo che desiderate prelevare e cliccate su "*Invio*". Quindi selezionare "*Indirizzo Bitcoin*".
+Scegli l'importo che desiderate prelevare e cliccate su "*Envoyer*"("*Invio*"). Quindi selezionare "*Adresse Bitcoin*"("*Indirizzo Bitcoin*").
 
 ![Image](assets/fr/30.webp)
 
-Inserite un indirizzo di destinatario vuoto dal vostro portafoglio. Fate attenzione, perché in caso di errore la transazione sarà irreversibile.
+Inserisci un indirizzo di ricezione del tuo portafoglio. Presta molta attenzione, perché in caso di errore la transazione sarà irreversibile.
 
 ![Image](assets/fr/31.webp)
 
-Determinare la priorità della transazione. Per un prelievo senza commissioni, scegliere la priorità "*Standard*". Controllare i dettagli del prelievo e confermare.
+Stabilisci la priorità della transazione. Per un prelievo senza commissioni, scegli la priorità “*Standard*”. Poi verifica i dettagli del tuo prelievo e confermalo.
 
 ![Image](assets/fr/32.webp)
 
-Se non avete familiarità con il funzionamento di un portafoglio di autocustodia, offriamo tutorial sulla maggior parte delle soluzioni disponibili [sulla Rete Plan ₿ nella sezione "*Portafoglio*"](https://planb.network/tutorials/wallet).
+Se non hai familiarità con il funzionamento di un portafoglio di autocustodia, offriamo tutorial sulla maggior parte delle soluzioni disponibili [sulla Rete Plan ₿ nella sezione "*Portafoglio*"](https://planb.network/tutorials/wallet).
 
 ## Vendere bitcoin
 
-Per vendere bitcoin con l'applicazione Bitstack, premere il pulsante "*Vendere*".
+Per vendere bitcoin con l'applicazione Bitstack, premere il pulsante "*Vendre*"("*Vendere*").
 
 ![Image](assets/fr/33.webp)
 
-Inserite la quantità di bitcoin che desiderate vendere e cliccate su "*Continua*". Selezionare quindi il conto bancario su cui si desidera accreditare i fondi.
+Inserisci la quantità di bitcoin che desideri vendere e cliccate su "*Continuer*"("*Continua*"). Seleziona quindi il conto bancario su cui desideri accreditare i fondi.
 
 ![Image](assets/fr/34.webp)
 
-Controllare i dettagli dell'ordine di vendita e confermarlo.
+Controlla i dettagli dell'ordine di vendita e confermarlo.
 
 ![Image](assets/fr/35.webp)
 
-È possibile visualizzare i dettagli di tutte le transazioni nella sezione "*Attività*".
+È possibile visualizzare i dettagli di tutte le transazioni nella sezione "*Activité*"("*Attività*").
 
 ![Image](assets/fr/36.webp)

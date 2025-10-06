@@ -1,10 +1,10 @@
-ikibazo: Ni igiki gituma haba uguhagarika umutima nk’uko umuhari w'abakunda amahera n’aba Keynes babivuga?
-inyishu: Ibisabwa vyose hamwe ntibihagije
-imyishu zitarizo:
+question: Ni igiki gituma haba uguhagarika umutima nk’uko umuhari w'abakunda amahera n’aba Keynes babivuga?
+answer: Ibisabwa vyose hamwe ntibihagije
+wrong_answers:
   - Guhingura birenze urugero
   - Inyungu nyinshi
   - Ukwiyongera kw'ibiciro canke amafaranga ata agaciro
-insiguro: |
+Explanation: |
   Ku bakunda amahera no ku ba Keynes, imvo y’uguhagarika umutima ni .
   ivyipfuzo vyose hamwe bidahagije. Bemera ko gutanga insiguro . 
   ku bijanye no kwagura ingurane (kugabanya inyungu) no gukoresha ubuhasha bwa leta muguhimiria abasaba ingurane bishoboze kugarukana uwo murindi no gusubiramwo ivyo hanyuma.

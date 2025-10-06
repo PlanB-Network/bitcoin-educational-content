@@ -2,13 +2,12 @@
 name: Uso di Jade con Electrum Wallet
 description: Come usare il tuo Jade con Electrum (desktop)
 ---
+
 ![cover](assets/cover.webp)
 _Questa guida è tratta da una [lezione di Officine Bitcoin](https://officinebitcoin.it/lezioni/jadeele/index.html)_
 
----
 Il tutorial è realizzato con Jade Classic, ma le operazioni sono valide anche per chi ha Jade Plus.
 
----
 Dopo aver inizializzato Jade, puoi iniziare ad usarlo e – per farlo – scegli un wallet di visualizzazione.
 
 Jade è un dispositivo che può essere usato con diversi wallet, o companion app come le specifica Blockstream sul suo sito.
@@ -131,5 +130,4 @@ Il wallet, così testato, è utilizzabile per ricevere UTXO destinati ad essere 
 
 ![img](assets/en/55.webp)
 
----
 Questa guida è un esempio di come utilizzare il tuo Jade, connesso via USB, ad un wallet watch-only. Electrum è un classico esempio, ma potresti preferire altri software wallet. Jade esporta la chiave pubblica su molti altri wallet: trova le funzioni simili che hai letto in questo tutorial, per orientarti e trovare come impiegarlo la tua companio app preferita.

@@ -134,4 +134,137 @@ Vous pouvez ensuite copier l'adresse de réception et l'envoyer au payeur, ou bi
 
 20
 
+Depuis la page d'accueil de votre Rumble Wallet, vous pouvez accéder à vos différents comptes : BTC, USDT et XAUT.
 
+21
+
+Ici, on peut voir que j'ai bien reçu 30 000 sats on-chain.
+
+22
+
+Pour envoyer des bitcoins, c'est une nouvelle fois très simple : il suffit de cliquer sur le bouton "Send", soit depuis notre compte Bitcoin, soit depuis la page d'accueil.
+
+23
+
+Vous pouvez ensuite choisir quelle crypto envoyer, et sur quel réseau. Ici, je choisis des BTC on-chain. Renseignez ensuite le montant à envoyer.
+
+24
+
+Vous pouvez ensuite coller l'adresse de votre destinataire, ou bien scanner son QR code en cliquant sur l'icone correposdnante. Puis, cliquez sur le bouton "Confirm".
+
+25
+
+Vérifiez les détails de votre transaction, puis confirmez son envoi.
+
+26
+
+Votre transaction a bien été diffusée. Vous pouvez suivre ses confirmations sur un explorateur de blocs avec son TXID qui vous est donné sur la page suivante.
+
+27
+
+## 6. Échanger des bitcoins sur Rumble Wallet
+
+Comme vous pouvez le voir en haut de votre comtpe Bitcoin, Rumble Wallet vous permet bien plus que juste recevoir et envoyer des bitcoins : vous pouvez également les échanger contre des monnaies fiat directement à l'interrieur de votre wallet grâce MoonPay, mais également échanger vos BTC contre des USDT ou des XAUT.
+
+### 6.1. Swap en échange de cryptomonnaies
+
+Par exemple, si vous souaitez convertir vos BTC en USDT, rendez-vous sur votre compte Bitcoin, puis cliquez sur le bouton "Swap". Ce bouton est disponible dans tous vos comptes.
+
+28
+
+Sélectionnez le montant que vous souhaitez échanger, et la cryptomonaie que vous souhaitez recevoir en échange, ainsi que le réseau sur lequel vous souhaitez recevoir cette crypto. Une fois tous les paramètres renseignés, cliquez sur le bouton "Continue".
+
+29
+
+Vérifiez les informations de votre échange, puis cliquez sur le bouton "Swap" pour confirmer.
+
+30
+
+Votre swap est en cours.
+
+31
+
+### 6.2. Swap en échange de monnaie fiat
+
+Depuis votre compte Bitcoin, vous pouvez également acheter du BTC en échange de monnaie fiat, ou bien l'inverse, vendre vos satoshis. Pour acheter, cliquez simplement sur le bouton "Buy".
+
+32
+
+Choisissez votre monnaie locale, le montant que vou souahtiez acheter, puis cliquez sur "Proceed".
+
+33
+
+La première fois, vous devrez connecter votre compte MoonPay, puis vous retrouverez vos bitcoins directement sur votre Rumble Wallet.
+
+De la même manière, vous pouvez vendre vos bitcoins contre des euros, dollars ou toute autre monnaie fiat. Pour ce faire, cliquez sur le bouton "Cashout", puis renseignez le montant et la monnaie souhaitée.
+
+34
+
+## 7. Récompenser un créateur sur Rumble
+
+Comme nous avons vu en introduction, Rumble Wallet est parfaitement intégré avec la plateforme vidéo Rumble. Vous pouvez ainsi facilement envoyer des pourboires en bitcoins à vos créateurs préférés sur Rumble sans aucun intermédiaire.
+
+Pour ce faire, vous devez activer la fonciotnnalité ***Tip Jars***. Depuis la page d'accueil de Rumble Wallet cliquez sur le bouton "Activate Tip Jars".
+
+35
+
+Renseignez votre nom si vous ne l'aviez pas déjà fait sur votre compte Rumble.
+
+36
+
+Puis sélecitonnez le wallet sur lequel vous allez recevoir d'éventuels poureboir en tant que créateur. Puis cliquez sur le bouton "Enable Tip Jars".
+
+37
+
+Sur la page d'accueil, vous retrouverez une liste de tous les comptes Rumble que vous suivez. Pour leur envoyer un poureboire, il suffit de cliquer sur le bouton "Send Tip".
+
+38
+
+Séelcitonnez un wallet source depuis lequel payer votre poureboire.
+
+39
+
+Sélectionnez la crypto que vous souhaitez envoyer.
+
+40
+
+Puis renseignez le montant et validez en cliquant sur "Confirm".
+
+41
+
+Vérifiez les détails de votre transaction et cliquez sur le bouton "Confirm Transfer".
+
+42
+
+Votre tip est confirmé !
+
+43
+
+Une autre manière de récompenser vos créateur préférés est de le faire directement depuis la palteforme Rumble, sur le site web ou sur l'application. Pour ce faire, rendez-vous sur le profil du créateur, ou en dessous de ses vidéos, et cliquez sur le bouton "Tip".
+
+44
+
+Scannez ensuite le QR code avec votre Rumble Wallet pour lui faire un don.
+
+45
+
+Vous pouvez également cliquer sur "Tip with another crypto wallet" si vous souhaitez lui envoyer des fonds avec un autre logiciel de portefeuille Bitcoin.
+
+46
+
+
+## 8. Recevoir des récompenses depuis Rumble
+
+Vous êtes créateur de contenu sur Rumble ? Vous pouvez commencer dès maintenant à accepter des pourboires de la part de vos fans en BTC, USDT et XAUT grâce à Rumble Wallet. Pour ce faire, il vous suffit de créer un portefeuille sur Rumble Wallet avec votre compte Rumble comme nous l'avons vu dans l'étape 3 de ce tutoriel. Une fois votre compte créé, cliquez sur le bouton "Enable Tip Jars", et c'est tout ! Le bouton "Tip" est dorénavant disponible sur votre profil Rumble et en dessous de vos vidéos.
+
+Depuis Rumble Wallet, cliquez simplement sur vos compte "tip jar" pour retrouver vos poureboires.
+
+47
+
+Vous pouvez ensuite sur Rumble Wallet vous pouvez les échanger contre des monnaies fiat grâce à MoonPay, ou bien les échanger contre d'autres cryptomonnaies, les envoyer vers un autre wallet, ou encore tout simplement les conserver ici en toute sécurité, puisque vous seul avez la main sur ce portefeuille.
+
+48
+
+Vous savez maintenant tout sur Rumble Wallet ! Avoir un portefeuille en self-custody comme Rumble Wallet est essentiel, mais ce n'est qu'une première étape dans votre parcours de bitcoiners : pour aller plus loins, être indépendant, prendre part au réseau et protéger votre confidentialité, vous devez également faire tourner votre propre noeud Bitcoin. Vous ne savez pas par ou commencer ? Nous avons rédigé une formation complète et gratuite qui vous accompagne dans l'instalation de votre premier noeud, du choix du matériel et du logiciel, jusqu'à sa maintenance.
+
+https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426

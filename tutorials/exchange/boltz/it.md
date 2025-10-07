@@ -1,6 +1,6 @@
 ---
 name: Boltz
-description: Passare da uno strato all'altro di Bitcoin mantenendo il controllo.
+description: Scambia tra i diversi livelli di Bitcoin mantenendo il controllo.
 ---
 
 
@@ -12,7 +12,7 @@ Dalla sua introduzione nel 2009, il sistema di contante elettronico peer-to-peer
 
 
 
-Tuttavia, rimaneva un problema importante tra i livelli del protocollo Bitcoin: l'interoperabilità fluida. Per sfruttare appieno il potenziale del Bitcoin, era indispensabile trovare una soluzione che consentisse di effettuare transazioni tra i diversi livelli del protocollo. Questa esigenza ha fatto nascere nel 2019 Boltz, un ponte che collega diversi livelli del Bitcoin.
+Tuttavia, rimaneva un problema importante tra i livelli del protocollo Bitcoin: l'interoperabilità fluida. Per sfruttare appieno il potenziale di Bitcoin, era indispensabile trovare una soluzione che consentisse di effettuare transazioni tra i diversi livelli del protocollo. Questa esigenza ha fatto nascere nel 2019 Boltz, un ponte che collega diversi livelli del Bitcoin.
 
 
 
@@ -20,13 +20,13 @@ Tuttavia, rimaneva un problema importante tra i livelli del protocollo Bitcoin: 
 
 
 
-[Boltz](https://boltz.Exchange) è una piattaforma non custodiale, ideale per chiunque desideri effettuare transazioni tra i diversi livelli del protocollo Bitcoin:
+[Boltz](https://boltz.Exchange) è una piattaforma non custodial, ideale per chiunque desideri effettuare transazioni tra i diversi livelli del protocollo Bitcoin:
 
 
 
 
 - **on chain**: La catena principale di Bitcoin dove le transazioni sono confermate in media ogni 10 minuti, le commissioni di transazione sono spesso elevate, il che non soddisfa necessariamente le esigenze degli utenti;
-- **Lightning Network**: Il sovrapposto Bitcoin per pagamenti istantanei a commissioni ridotte, che consente di utilizzare il Bitcoin per i pagamenti giornalieri;
+- **Lightning Network**: Il layer 2 di Bitcoin, che permette di effettuare pagamenti istantanei con commissioni molto basse, rendendo possibile usare Bitcoin per le spese quotidiane;
 - **Liquid Network**: un overlay per il Bitcoin creato da Blockstream, che consente di utilizzare strumenti finanziari veloci, Confidential Transactions e altri strumenti finanziari basati su Bitcoin;
 - **RootStock**: Una soluzione per lo sviluppo di contratti intelligenti basati sul protocollo Bitcoin.
 
@@ -40,21 +40,20 @@ L'interoperabilità tra questi diversi livelli è di grande importanza, in quant
 
 
 
-Boltz utilizza gli scambi atomici. Questa tecnologia consente di scambiare bitcoin tra 2 livelli (ad esempio BTC onchain in Exchange per BTC su Lightning) direttamente tra due parti, senza bisogno di fiducia e senza la necessità di un intermediario. Questi scambi sono chiamati "atomici" perché possono produrre solo due risultati:
+Boltz utilizza gli atomic swap. Questa tecnologia consente di scambiare bitcoin tra due layer (ad esempio BTC on-chain in cambio di BTC su Lightning Network) direttamente tra due parti, senza bisogno di fiducia e senza intermediari. Questi scambi sono detti “atomici” perché possono avere solo due risultati:
 
 
 
 
-- O il Exchange ha successo e i due partecipanti hanno effettivamente scambiato i loro BTC ;
-- O il Exchange fallisce, ed entrambi i partecipanti se ne vanno con i loro BTC originali.
+- O lo scambio va a buon fine e i due partecipanti hanno effettivamente scambiato i loro BTC;
+- Oppure lo scambio non va a buon fine e entrambi i partecipanti mantengono i propri BTC originali.
+
+
+In questo modo mantieni sempre l’autocustodia dei tuoi bitcoin e lo scambio non si basa su alcuna fiducia nella controparte: o lo scambio va a buon fine oppure fallisce, ma nessuna delle due parti può sottrarre i fondi dell’altra.
 
 
 
-In questo modo, si mantiene un'autocustodia permanente dei propri bitcoin e il Exchange non si basa su alcuna fiducia nella controparte: il Exchange può avere successo o fallire, ma nessuna delle due parti può rubare i fondi dell'altra.
-
-
-
-Un Exchange atomico funziona con gli smart contract [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In questo tipo di Contract, l'importo viene "bloccato" in un canale bidirezionale e viene introdotta una restrizione temporale, in modo che se la transazione non viene completata entro un certo tempo, il saldo torna al depositante. Questo è il meccanismo utilizzato dalla piattaforma Boltz.
+Uno scambio atomico funziona con gli smart contract [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In questo tipo di Contract, l'importo viene "bloccato" in un canale bidirezionale e viene introdotta una restrizione temporale, in modo che se la transazione non viene completata entro un certo tempo, il saldo torna al depositante. Questo è il meccanismo utilizzato dalla piattaforma Boltz.
 
 
 
@@ -62,8 +61,7 @@ Un Exchange atomico funziona con gli smart contract [HTLC](https://planb.network
 
 
 
-Boltz è una piattaforma web non depositaria che non richiede informazioni personali all'utente. Boltz ha una Interface minimalista e fluida che consente di iniziare a fare trading in meno di un minuto.
-
+Boltz è una piattaforma web non depositaria che non richiede informazioni personali all'utente. Boltz ha un’interfaccia minimalista e fluida che ti permette di iniziare a scambiare in meno di un minuto.
 
 
 ![boltz](assets/fr/02.webp)
@@ -78,7 +76,7 @@ Una volta sulla piattaforma, è possibile creare scambi atomici tra i vari livel
 
 
 
-Vedrete il numero minimo e massimo di satoshis (l'unità più piccola del Bitcoin) che potete scambiare tramite Boltz, comprese le spese di rete e una percentuale applicata da Boltz tra lo 0,1% e lo 0,5%.
+Vedrai il numero minimo e massimo di satoshi (l'unità più piccola del Bitcoin) che potete scambiare tramite Boltz, comprese le spese di rete e una percentuale applicata da Boltz tra lo 0,1% e lo 0,5%.
 
 
 
@@ -86,7 +84,7 @@ Vedrete il numero minimo e massimo di satoshis (l'unità più piccola del Bitcoi
 
 
 
-Quindi selezionare il Layer dal quale si desidera creare un Exchange atomico e selezionare il Layer sul quale si desidera ricevere i bitcoin.
+Quindi seleziona il layer da cui desideri effettuare lo scambio atomico e scegli il layer sul quale vuoi ricevere i bitcoin.
 
 
 

@@ -177,7 +177,9 @@ Artykuł Diffiego i Hellmana utorował drogę wielu innowacjom. Jedną z nich by
 Odkrycie kryptografii asymetrycznej było również motywacją do stworzenia funkcji jednokierunkowych, charakteryzujących się tym, że obliczenie obrazu (kierunek do przodu) jest bardzo łatwe, a uzyskanie obrazu wstępnego (kierunek wsteczny) bardzo trudne. Doprowadziło to do opracowania pierwszych kryptograficznych funkcji hash, które przekształcały wiadomość o zmiennym rozmiarze w skrót o stałym rozmiarze. W latach 1989-1991 kilka algorytmów haszujących (MD2, MD4 i MD5) zostało zaprojektowanych dla MIT przez Ronalda Rivesta.
 
 
-Podstawowe elementy kryptograficzne Bitcoina wywodzą się z tych badań. Schemat podpisu ECDSA, umożliwiający autoryzację wydatków tradycyjnej transakcji, został stworzony w 1992 roku dla NIST. Funkcja SHA-256 Hash, używana w wielu miejscach protokołu, została opublikowana w 2001 roku jako część pakietu algorytmów SHA-2 upublicznionego przez NSA. Więcej informacji na ten temat można znaleźć na kursie [Crypto 301] (../crypto301/fr.md) prowadzonym przez Loïca Morela.
+Podstawowe elementy kryptograficzne Bitcoina wywodzą się z tych badań. Schemat podpisu ECDSA, umożliwiający autoryzację wydatków tradycyjnej transakcji, został stworzony w 1992 roku dla NIST. Funkcja SHA-256 Hash, używana w wielu miejscach protokołu, została opublikowana w 2001 roku jako część pakietu algorytmów SHA-2 upublicznionego przez NSA. Więcej informacji na ten temat można znaleźć na kursie CYP201 prowadzonym przez Loïca Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Protokół ślepych podpisów i gotówka elektroniczna

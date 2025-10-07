@@ -12,5 +12,4 @@ Kwa maelezo zaidi, unaweza kupata hati zao zote kwenye tovuti yao [hapa](https:/
 
 ## Mafunzo ya Video
 
-
 ![video tutorial](https://www.youtube.com/watch?v=mV1KS-Uwjew)

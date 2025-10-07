@@ -10,22 +10,22 @@ description: Umeme usio na upinde Wallet.
 Misty Breez ni Lightning inayojishikilia yenyewe ya Wallet iliyotengenezwa na Breez kulingana na Kifaa chao cha Kukuza Programu na mtandao wa **Liquid** uliotengenezwa na BlockStream.
 
 
-Inakuja na mbinu mpya kabisa ya kufanya kazi bila nodi ya Umeme: uwezekano wa **GAME CHANGER** katika uhamishaji wa Bitcoin baina ya mtandao.
+Inakuja na mbinu mpya kabisa ya kufanya kazi bila node ya Lightning: uwezekano wa **GAME CHANGER** katika uhamishaji wa Bitcoin baina ya mtandao.
 
 
 Katika somo hili, tutaelezea jinsi kwingineko hii inavyofanya kazi na kukupa muhtasari kamili.
 
 
 
-## Je, Misty Breez anafanya kazi gani?
+## Je, Misty Breez inafanya kazi gani?
 
 
 
-Misty Breez ni utekelezaji bila nodi ya Umeme kama backend. Imetengenezwa kwa misingi ya Breez SDK na Liquid.
+Misty Breez ni utekelezaji bila node ya Lightning kama backend. Imetengenezwa kwa misingi ya Breez SDK na Liquid.
 
 
 
-Liquid ni Layer sambamba na mtandao wa Bitcoin, ikitoa maboresho makubwa katika gharama za kasi na miamala. Layer hii inaruhusu Misty Breez kutumia nodi ya Umeme na badala yake kutumia huduma za watu wengine za Exchange kama vile **Boltz** ili kuhakikisha ushirikiano kati ya Liquid Network na Lightning Network. Usifanye haraka, tutarudi kwa hili.
+Liquid ni Layer sambamba na mtandao wa Bitcoin, ikitoa maboresho makubwa katika gharama, kasi na miamala. Layer hii inaruhusu Misty Breez kutumia nodi ya Umeme na badala yake kutumia huduma za watu wengine za Exchange kama vile Boltz ili kuhakikisha ushirikiano kati ya Liquid Network na Lightning Network. Usifanye haraka, tutarudi kwa hili.
 
 
 
@@ -95,7 +95,7 @@ Kwa usalama ulioongezwa, unaweza pia **kuunda msimbo wa PIN** ili kuthibitisha u
 
 
 
-Pata sarafu ya eneo lako katika sarafu nyingi zinazokubaliwa na Misty Breez. Sanidi sarafu yako kutoka kwa menyu ya **Mapendeleo > Sarafu za Fiat**, kisha uchague sarafu au sarafu unayohitaji.
+Pata sarafu ya eneo lako kati ya sarafu nyingi zinazokubaliwa na Misty Breez. Sanidi sarafu yako kutoka kwenye menyu ya Mapendeleo > Sarafu za Fiat, kisha chagua sarafu au sarafu unazohitaji.
 
 
 
@@ -135,7 +135,7 @@ Ukiwa na Misty Breez, unaweza:
 Hapa ndipo uchawi wa Misty Breez unapoanza.
 
 
-Tofauti na Breez Wallet, ambayo hukupa nodi ya Umeme na kukuuliza ulipie gharama za kufungua na kufunga njia za malipo mwenyewe, Misty Breez hakuombi ufanye chochote. Kama ilivyotajwa hapo awali, Misty Breez haifanyi kazi hata kwa msingi wa nodi ya Umeme.
+Tofauti na Breez Wallet, ambayo hukupa node ya Lightning na kukuuliza ulipie gharama za kufungua na kufunga njia za malipo mwenyewe, Misty Breez hakuombi ufanye chochote. Kama ilivyotajwa hapo awali, Misty Breez haifanyi kazi hata kwa msingi wa node ya Lightning.
 
 
 
@@ -158,7 +158,7 @@ Hapa kuna mchoro uliorahisishwa wa mchakato nyuma ya pazia.
 
 
 
-Bofya kwenye Interface katika menyu ya **Mizani**, bofya kwenye chaguo la **Tuma** ili kulipa Umeme Invoice.
+Bofya kwenye Interface katika menyu ya **Mizani**, bofya kwenye chaguo la **Tuma** ili kulipa Lightning Invoice.
 
 
 Ingiza Lightning Invoice, Lightning Address ya mpokeaji au changanua tu msimbo wa QR kwenye Invoice ili kufanya malipo yako.

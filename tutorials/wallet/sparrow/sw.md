@@ -5,7 +5,7 @@ description: Kufunga, kusanidi na kutumia Sparrow Wallet
 ![cover](assets/cover.webp)
 
 
-Sparrow Wallet ni programu ya usimamizi ya Bitcoin Wallet iliyotengenezwa na Craig Raw. Programu hii ya chanzo huria inathaminiwa na bitcoiners kwa vipengele vyake vingi na angavu Interface.
+Sparrow Wallet ni programu ya usimamizi wa Bitcoin Wallet iliyotengenezwa na Craig Raw. Programu hii ya chanzo huria inathaminiwa na bitcoiners kwa Elements zake nyingi na interface yake angavu.
 
 
 Kuna njia mbili za kutumia Sparrow:
@@ -17,13 +17,13 @@ Kuna njia mbili za kutumia Sparrow:
 - Kama meneja wa Cold Wallet, ambapo funguo za kibinafsi zinashikiliwa kwenye Hardware Wallet. Katika hali hii, Sparrow huchezea tu taarifa za umma za Wallet, kufuatilia fedha, kuzalisha anwani, na kuunda miamala, lakini sahihi ya Hardware Wallet inahitajika ili kufanya miamala hii kuwa halali. Kwa hivyo inaweza kuchukua nafasi ya programu kama vile Ledger Live au Trezor Suite.
 
 
-Sparrow inasaidia pochi zenye saini moja na zenye saini nyingi, na huwezesha udhibiti wa maji wa pochi nyingi. Kwa mfano, unaweza kudhibiti wakati huo huo Wallet iliyounganishwa na Ledger, nyingine kwa Trezor, na pia kuwa na Hot Wallet.
+Sparrow inasaidia wallet zenye saini moja na zenye saini nyingi, na huwezesha udhibiti wa maji wa Wallet nyingi. Kwa mfano, unaweza kudhibiti wakati huo huo Wallet iliyounganishwa na Ledger, nyingine kwa Trezor, na pia kuwa na Hot Wallet.
 
 
 Programu pia hutoa vipengele vya juu vya udhibiti wa sarafu, vinavyokuruhusu kuchagua kwa usahihi ni UTXO gani utatumia katika miamala yako ili kuboresha usiri wako.
 
 
-Kwa upande wa muunganisho, Sparrow hukuwezesha kuunganisha kwenye nodi yako ya Bitcoin, ama ukiwa mbali kupitia Seva ya Electrum, au kwa Bitcoin Core. Inawezekana pia kutumia nodi ya umma ikiwa bado huna yako. Viunganisho vya mbali hufanywa kupitia Tor.
+Kwa upande wa muunganisho, Sparrow hukuwezesha kuunganisha kwenye node yako ya Bitcoin, ama ukiwa mbali kupitia Seva ya Electrum, au kwa Bitcoin Core. Inawezekana pia kutumia nodi ya umma ikiwa bado huna yako. Viunganisho vya mbali hufanywa kupitia Tor.
 
 
 ## Sakinisha Sparrow Wallet
@@ -60,15 +60,15 @@ Ili kuingiliana na mtandao wa Bitcoin na kutangaza miamala yako, Sparrow lazima 
 
 
 
-- 🟡 Kwa kutumia nodi ya umma, yaani, kuunganisha kwa nodi ya wahusika wengine ambayo inaruhusu miunganisho kama hiyo. Ikiwa huna nodi yako ya Bitcoin, chaguo hili hukuruhusu kuanza kutumia Sparrow haraka. Walakini, nodi unayounganisha itaona miamala yako yote, ambayo inaweza kuhatarisha usiri wako. Kuwa na udhibiti wa funguo zako ni muhimu, lakini kuwa na nodi yako ni bora zaidi. Kwa hivyo tumia chaguo hili tu ikiwa ndio kwanza unaanza, huku ukifahamu hatari za faragha yako.
-- 🟢 Inaunganisha kwenye nodi ya Msingi ya Bitcoin. Ikiwa una Bitcoin Core nodi yako mwenyewe, unaweza kuiunganisha kwa Sparrow Wallet, ama ndani ya nchi ikiwa Bitcoin Core imesakinishwa kwenye mashine moja, au kwa mbali.
-- 🔵 Muunganisho kupitia seva ya Electrum. Ikiwa nodi yako ya Bitcoin ina Electrs, kama ilivyo kwa suluhu za nodi-in-a-box kama vile Umbrel au Start9, unaweza kuiunganisha ukiwa mbali na Sparrow.
+- 🟡 Kwa kutumia node ya umma, yaani, kuunganisha kwa node ya wahusika wengine ambayo inaruhusu miunganisho kama hiyo. Ikiwa huna node yako ya Bitcoin, chaguo hili hukuruhusu kuanza kutumia Sparrow haraka. Walakini, node unayounganisha itaona miamala yako yote, ambayo inaweza kuhatarisha usiri wako. Kuwa na udhibiti wa funguo zako ni muhimu, lakini kuwa na node yako ni bora zaidi. Kwa hivyo tumia chaguo hili tu ikiwa ndio kwanza unaanza, huku ukifahamu hatari za faragha yako.
+- 🟢 Inaunganisha kwenye node ya Msingi ya Bitcoin. Ikiwa una Bitcoin Core node yako mwenyewe, unaweza kuiunganisha kwa Sparrow Wallet, ama ndani ya nchi ikiwa Bitcoin Core imesakinishwa kwenye mashine moja, au kwa mbali.
+- 🔵 Muunganisho kupitia seva ya Electrum. Ikiwa node yako ya Bitcoin ina Electrs, kama ilivyo kwa suluhu za node-in-a-box kama vile Umbrel au Start9, unaweza kuiunganisha ukiwa mbali na Sparrow.
 
 
-**Ni vyema kutumia muunganisho kupitia Electrs au Bitcoin Core kwenye nodi yako mwenyewe ili kupunguza hitaji la kumwamini mtu mwingine na kuboresha usiri wako**
+**Ni vyema kutumia muunganisho kupitia Electrs au Bitcoin Core kwenye node yako mwenyewe ili kupunguza hitaji la kumwamini mtu mwingine na kuboresha usiri wako**
 
 
-### Unganisha kwenye nodi ya umma 🟡
+### Unganisha kwenye node ya umma 🟡
 
 
 Kuunganisha kwa nodi ya umma ni rahisi sana. Bofya kwenye kichupo cha "*Seva ya Umma*".
@@ -77,7 +77,7 @@ Kuunganisha kwa nodi ya umma ni rahisi sana. Bofya kwenye kichupo cha "*Seva ya 
 ![Image](assets/fr/03.webp)
 
 
-Chagua nodi kutoka kwenye orodha kunjuzi.
+Chagua node kutoka kwenye orodha kunjuzi.
 
 
 ![Image](assets/fr/04.webp)
@@ -89,7 +89,7 @@ Kisha bofya "*Jaribio la Muunganisho*".
 ![Image](assets/fr/05.webp)
 
 
-Baada ya kuunganishwa, Sparrow Wallet itaonyesha tiki ya njano kwenye kona ya chini ya mkono wa kulia ya Interface ili kuonyesha kuwa umeunganishwa kwenye nodi ya umma.
+Baada ya kuunganishwa, Sparrow Wallet itaonyesha tiki ya njano kwenye kona ya chini ya mkono wa kulia ya Interface ili kuonyesha kuwa umeunganishwa kwenye node ya umma.
 
 
 ![Image](assets/fr/06.webp)
@@ -98,10 +98,10 @@ Baada ya kuunganishwa, Sparrow Wallet itaonyesha tiki ya njano kwenye kona ya ch
 ### Inaunganisha kwa Bitcoin Core 🟢
 
 
-Njia ya pili ya kuunganisha kwenye node ya Bitcoin ni kuunganisha Sparrow na Bitcoin Core. Ikiwa Bitcoin Core imesakinishwa kwenye mashine sawa, uthibitishaji utakuwa kupitia faili ya kidakuzi. Ikiwa Bitcoin Core iko kwenye mashine ya mbali, utahitaji kutumia nenosiri lililofafanuliwa katika faili ya `Bitcoin.conf`.
+Njia ya pili ya kuunganisha kwenye node ya Bitcoin ni kuunganisha Sparrow na Bitcoin Core. Ikiwa Bitcoin Core imesakinishwa kwenye mashine sawa, uthibitishaji utatumia faili ya kidakuzi. Ikiwa Bitcoin Core iko kwenye mashine ya mbali, utahitaji kutumia nenosiri lililofafanuliwa katika faili ya `Bitcoin.conf`.
 
 
-Tafadhali kumbuka kuwa ukitumia Bitcoin Core nodi iliyokatwa, hutaweza kurejesha Wallet iliyo na miamala iliyotangulia vizuizi vilivyohifadhiwa ndani. Hata hivyo, kwa Wallet mpya iliyoundwa kwenye Sparrow, hili halitakuwa tatizo: shughuli zako mpya zitaonekana, hata kwa nodi iliyokatwa.
+Tafadhali kumbuka kuwa ukitumia Bitcoin Core node iliyokatwa, hutaweza kurejesha wallet iliyo na miamala iliyotangulia block zilizohifadhiwa ndani. Hata hivyo, kwa wallet mpya iliyoundwa kwenye Sparrow, hili halitakuwa tatizo: miamala yako mipya itaonekana, hata kwa node iliyokatwa.
 
 
 Ili kusanidi nodi ya Bitcoin Core, unaweza kushauriana na mojawapo ya mafunzo yafuatayo, kulingana na mfumo wako wa uendeshaji:
@@ -182,7 +182,7 @@ Baada ya kuhariri faili, hakikisha umeihifadhi kwenye folda inayofaa kwa mfumo w
 | **Windows** | %APPDATA%\Bitcoin |
 | **Linux** | ~/.Bitcoin |
 
-Operesheni hii pia inaweza kufanywa kupitia Bitcoin-QT Interface Interface ya picha. Nenda kwenye menyu ya "*Mipangilio*", kisha "* Chaguzi...*", na uamilishe chaguo la "*Wezesha seva ya RPC*" kwa kuangalia kisanduku sambamba. Ikiwa faili ya `Bitcoin.conf` haipo, unaweza kuiunda moja kwa moja kutoka kwa Interface hii kwa kubofya "*Fungua Faili ya Usanidi*".
+Operesheni hii pia inaweza kufanywa kupitia Bitcoin-QT interface ya picha. Nenda kwenye menyu ya "Mipangilio", kisha "Chaguzi...", na uamilishe chaguo la "Wezesha seva ya RPC" kwa kuangalia kisanduku sambamba. Ikiwa faili ya `Bitcoin.conf` haipo, unaweza kuiunda moja kwa moja kutoka kwa Interface hii kwa kubofya "*Fungua Faili ya Usanidi*".
 
 
 ![Image](assets/fr/12.webp)
@@ -239,7 +239,7 @@ Uunganisho umeanzishwa. Jibu la Green litaonekana kwenye kona ya chini kulia ili
 ### Inaunganisha kwenye seva ya Electrum 🔵
 
 
-Chaguo la mwisho la kuunganisha ni kutumia seva ya Electrum ya mbali. Njia hii hukuruhusu kuunganishwa kwenye nodi yako kupitia Tor kutoka kwa kifaa kingine, na inachukua fursa ya indexer kuvinjari pochi zako kwenye Sparrow kwa haraka zaidi. Inafaa haswa ikiwa una suluhisho la nodi ndani ya kisanduku kama Umbrel au Start9, ambayo hukuruhusu kusakinisha Electrs kwa kubofya mara moja.
+Chaguo la mwisho la kuunganisha ni kutumia seva ya Electrum ya mbali. Njia hii hukuruhusu kuunganishwa kwenye nodi yako kupitia Tor kutoka kwa kifaa kingine, na inachukua fursa ya indexer kuvinjari wallets zako kwenye Sparrow kwa haraka zaidi. Inafaa haswa ikiwa una suluhisho la node ndani ya kisanduku kama Umbrel au Start9, ambayo hukuruhusu kusakinisha Electrs kwa kubofya mara moja.
 
 
 Ili kufanya hivyo, pata Tor `.onion' Address ya seva yako ya Electrum. Kwa Umbrel, kwa mfano, utaipata kwenye programu ya Electrs.
@@ -269,7 +269,7 @@ Muunganisho umethibitishwa. Ukifunga dirisha hili, tiki ya bluu itaonekana kweny
 ## Unda Hot Wallet
 
 
-Sasa kwa kuwa Sparrow Wallet imesanidiwa kuwasiliana na mtandao wa Bitcoin, uko tayari kuunda Wallet yako ya kwanza. Sehemu hii inakuongoza kupitia uundaji wa Hot Wallet, yaani, Wallet ambayo funguo zake za kibinafsi zimehifadhiwa kwenye kompyuta yako. Kwa kuwa kompyuta yako ni mashine changamano iliyounganishwa kwenye Mtandao, inatoa eneo kubwa sana la mashambulizi. Kwa hiyo, Hot Wallet inapaswa kutumika tu kwa kiasi kidogo cha bitcoins. Ili kuhifadhi kiasi kikubwa, chagua Wallet salama yenye Hardware Wallet. Ikiwa hiki ndicho unachotafuta, unaweza kuruka kwenda sehemu inayofuata.
+Sasa kwa kuwa Sparrow Wallet imesanidiwa kuwasiliana na mtandao wa Bitcoin, uko tayari kuunda wallet yako ya kwanza. Sehemu hii inakuongoza kupitia uundaji wa hot wallet, yaani, wallet ambayo funguo zake za kibinafsi zimehifadhiwa kwenye kompyuta yako. Kwa kuwa kompyuta yako ni mashine changamano iliyounganishwa kwenye Mtandao, inatoa eneo kubwa sana la mashambulizi. Kwa hiyo, hot wallet inapaswa kutumika tu kwa kiasi kidogo cha bitcoins. Ili kuhifadhi kiasi kikubwa, chagua wallet salama yenye hardware wallet. Ikiwa hiki ndicho unachotafuta, unaweza kuruka kwenda sehemu inayofuata.
 
 
 Ili kuunda Hot Wallet, kutoka kwa skrini ya nyumbani ya Sparrow Wallet, bofya kwenye kichupo cha "*Faili*" na kisha kwenye "*Mpya Wallet*".
@@ -296,19 +296,19 @@ Kisha bonyeza "*Mpya au Iliyoingizwa Software Wallet*".
 ![Image](assets/fr/24.webp)
 
 
-Chagua kiwango cha BIP39, kwani kinatumika na takriban programu zote za Bitcoin Wallet. Kisha, chagua urefu wa maneno yako ya kurejesha akaunti. Kwa sasa, kishazi cha maneno 12 kinatosha, kwani zote mbili hutoa usalama sawa, lakini kifungu cha maneno 12 ni rahisi kuhifadhi.
+Chagua kiwango cha BIP39, kwani kinatumika na takriban programu zote za Bitcoin wallet. Kisha, chagua urefu wa maneno yako ya kurejesha akaunti. Kwa sasa, kishazi cha maneno 12 kinatosha, kwani vyote viwili hutoa usalama sawa, lakini kifungu cha maneno 12 ni rahisi kuhifadhi.
 
 
 ![Image](assets/fr/25.webp)
 
 
-Bofya kitufe cha "*generate Mpya*" ili generate maneno yako ya Wallet ya Mnemonic. Maneno haya yanatoa ufikiaji kamili, usio na kikomo kwa bitcoins zako zote. Mtu yeyote aliye na kifungu hiki cha maneno anaweza kuiba pesa zako, hata bila ufikiaji wa kimwili kwa kompyuta yako.
+Bofya kitufe cha "*generate new*" ili generate maneno yako ya Wallet ya Mnemonic. Maneno haya yanatoa ufikiaji kamili, usio na kikomo kwa bitcoins zako zote. Mtu yeyote aliye na kifungu hiki cha maneno anaweza kuiba pesa zako, hata bila ufikiaji wa kimwili kwa kompyuta yako.
 
 
 Kifungu cha maneno 12 kinarejesha ufikiaji wa bitcoins zako katika tukio la kupoteza, kuibiwa au kuharibika kwa kompyuta yako. Kwa hiyo ni muhimu sana kuihifadhi kwa uangalifu na kuihifadhi mahali salama.
 
 
-Unaweza kuiandika kwenye karatasi au, kwa usalama zaidi, uichonge kwenye chuma cha pua ili kuilinda kutokana na moto, mafuriko au kuanguka. Chaguo la kati kwa Mnemonic yako litategemea mkakati wako wa usalama, lakini ikiwa unatumia Sparrow kama matumizi ya joto Wallet iliyo na kiasi cha wastani, karatasi inapaswa kutosha.
+Unaweza kuiandika kwenye karatasi au, kwa usalama zaidi, uichonge kwenye chuma cha pua ili kuilinda dhidi ya moto, mafuriko au kuanguka. Chaguo la hifadhi kwa mnemonic yako litategemea mkakati wako wa usalama, lakini ikiwa unatumia Sparrow kama hot wallet iliyo na kiasi cha wastani, karatasi inapaswa kutosha.
 
 
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
@@ -322,7 +322,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 **Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.**
 
 
-Unaweza pia kuchagua kuongeza passphrase BIP39 kwa kubofya kisanduku cha "*Tumia passphrase*". Onyo: kutumia passphrase inaweza kuwa muhimu sana, lakini ikiwa huelewi jinsi inavyofanya kazi, inaweza kuwa hatari sana. Ndio maana nakushauri sana usome nakala hii fupi ya kinadharia juu ya mada hii:
+Unaweza pia kuchagua kuongeza passphrase ya BIP39 kwa kubofya kisanduku cha "Tumia passphrase". Onyo: kutumia passphrase inaweza kuwa muhimu sana, lakini ikiwa huelewi jinsi inavyofanya kazi, inaweza kuwa hatari sana. Ndiyo maana nakushauri sana usome nakala hii fupi ya kinadharia kuhusu mada hii:
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
@@ -351,7 +351,7 @@ Bofya kwenye "*Tuma*" ili kukamilisha uundaji wa Wallet.
 ![Image](assets/fr/30.webp)
 
 
-Weka nenosiri thabiti ili kupata ufikiaji salama wa Sparrow Wallet yako. Ni vyema kuweka nenosiri hili kwenye kidhibiti nenosiri, ili usilisahau. Kumbuka kuwa nenosiri hili halina sehemu yoyote katika kupatikana kwa funguo zako. Inatumika tu kufikia Wallet yako kupitia Sparrow Wallet. Kwa hivyo, hata bila nenosiri hili, maneno yako ya Mnemonic yatatosha kufikia bitcoins zako kutoka kwa programu yoyote inayotangamana na BIP39.
+Weka nenosiri thabiti ili kupata ufikiaji salama wa Sparrow Wallet yako. Ni vyema kuhifadhi nenosiri hili kwenye kidhibiti cha nenosiri ili usilisahau. Kumbuka kuwa nenosiri hili halihusiani kabisa na upatikanaji wa funguo zako; linatumika tu kufikia wallet yako kupitia Sparrow Wallet. Hivyo basi, hata bila nenosiri hili, maneno yako ya mnemonic yatatosha kufikia bitcoins zako kutoka kwa programu yoyote inayooana na BIP39.
 
 
 ![Image](assets/fr/31.webp)
@@ -384,7 +384,7 @@ Kwa mafunzo haya, nitakuwa nikitumia Ledger Nano S na kebo, lakini utaratibu ni 
 Kabla ya kuanza, hakikisha kwamba Wallet tayari imesanidiwa kwenye Hardware Wallet yako. Ikiwa unatumia muunganisho wa waya, unganishe kwenye kompyuta yako kupitia kebo.
 
 
-Ili kuleta kinachojulikana kama "*Keystore*" (maelezo ya umma yanayohitajika kudhibiti Wallet) kwenye Sparrow Wallet, bofya kichupo cha "*Faili*", kisha kwenye "*Mpya Wallet*".
+Ili kuleta kinachojulikana kama "*Keystore*" (maelezo ya umma yanayohitajika kudhibiti Wallet) kwenye Sparrow Wallet, bofya kichupo cha "*Faili*", kisha kwenye "*New Wallet*".
 
 
 ![Image](assets/fr/32.webp)
@@ -396,7 +396,7 @@ Taja Wallet yako na ubofye "*Unda Wallet*". Ninakushauri uweke jina la Hardware 
 ![Image](assets/fr/33.webp)
 
 
-Katika sehemu ya juu ya Interface, chagua kati ya "*Sahihi Moja*" au "*Sahihi Nyingi*" Wallet. Kwa mfano wetu, tutasanidi Wallet ya sig moja.
+Katika sehemu ya juu ya Interface, chagua kati ya "*Single-sign*" au "*Multiple-sign*" Wallet. Kwa mfano wetu, tutasanidi Wallet ya sig moja.
 
 
 Chini kidogo, chagua aina ya hati ya kufunga UTXO zako. Ikiwa Hardware Wallet yako inaiunga mkono, ninapendekeza uchague "*Taproot (P2TR)*".
@@ -411,7 +411,7 @@ Ifuatayo, utaratibu unatofautiana kulingana na njia yako ya uunganisho. Ikiwa un
 ![Image](assets/fr/35.webp)
 
 
-Ikiwa unatumia unganisho la kebo, kama ilivyo kwangu, chagua "*Imeunganishwa Hardware Wallet*".
+Ikiwa unatumia unganisho la kebo, kama ilivyo kwangu, chagua "*Imeunganishwa na Hardware Wallet*".
 
 
 ![Image](assets/fr/36.webp)
@@ -423,7 +423,7 @@ Bofya kwenye "*Scan*" ili Sparrow atambue kifaa chako. Hakikisha kuwa imechomekw
 ![Image](assets/fr/37.webp)
 
 
-Chagua "*Ingiza Duka la vitufe*".
+Chagua "Ingiza duka la vitufe".
 
 
 ![Image](assets/fr/38.webp)
@@ -435,7 +435,7 @@ Bofya kwenye "*Tuma*" ili kukamilisha uundaji wa Wallet.
 ![Image](assets/fr/39.webp)
 
 
-Weka nenosiri thabiti ili kupata ufikiaji salama wa Sparrow Wallet yako. Nenosiri hili litalinda funguo zako za umma, anwani na historia ya muamala. Tunapendekeza uihifadhi kwenye kidhibiti cha nenosiri. Kumbuka kuwa nenosiri hili halina sehemu yoyote katika kupatikana kwa funguo zako. Hata bila hiyo, unaweza kurejesha ufikiaji wa bitcoins zako na Mnemonic yako kupitia programu yoyote inayotangamana na BIP39.
+Weka nenosiri thabiti ili kupata ufikiaji salama wa Sparrow Wallet yako. Nenosiri hili litalinda funguo zako za umma, anwani na historia ya miamala. Tunapendekeza uihifadhi kwenye kidhibiti cha nenosiri. Kumbuka kuwa nenosiri hili halihusiani kabisa na upatikanaji wa funguo zako; hata bila hilo, unaweza kurejesha ufikiaji wa bitcoins zako kwa kutumia mnemonic yako kupitia programu yoyote inayooana na BIP39.
 
 
 ![Image](assets/fr/40.webp)
@@ -474,13 +474,13 @@ Ikiwa unatumia Hardware Wallet, ni muhimu sana kuangalia Address kwenye skrini y
 Kwa watumiaji wa Hardware Wallet Air-Gap, uthibitishaji wa Address hutofautiana kulingana na muundo wa kifaa. Tazama mafunzo maalum ya Plan ₿ Network kwa maagizo sahihi.
 
 
-Baada ya shughuli hiyo kutangazwa na mlipaji, utaona ikionekana kwenye kichupo cha "*Shughuli*". Unaweza kubofya juu yake kwa maelezo zaidi, kama vile txid.
+Baada ya shughuli hiyo kutangazwa na mlipaji, utaona ikionekana kwenye kichupo cha "*Muamala*". Unaweza kubofya juu yake kwa maelezo zaidi, kama vile txid.
 
 
 ![Image](assets/fr/45.webp)
 
 
-Katika kichupo cha "*Anwani*", utapata orodha ya anwani za kikasha chako. Unaweza kuona ikiwa tayari zimetumika na kama lebo imeongezwa. *Pokea*" ni zile maonyesho ya Sparrow unapobofya "*Pokea*" na yanakusudiwa malipo yanayoingia. Anwani za "*Change*" hutumika kwa Exchange katika miamala yako, yaani kurejesha sehemu ambayo haijatumika ya UTXO zako katika pembejeo.
+Katika kichupo cha "*Address*", utapata orodha ya anwani za kikasha chako. Unaweza kuona ikiwa tayari zimetumika na kama lebo imeongezwa. *Pokea*" ni zile maonyesho ya Sparrow unapobofya "*Pokea*" na yanakusudiwa malipo yanayoingia. Anwani za "*Change*" hutumika kwa Exchange katika miamala yako, yaani kurejesha sehemu ambayo haijatumika ya UTXO zako katika pembejeo.
 
 
 ![Image](assets/fr/46.webp)
@@ -501,7 +501,7 @@ Kwa kuwa sasa una satoshi chache kwenye Wallet yako, pia una chaguo la kutuma ba
 ![Image](assets/fr/48.webp)
 
 
-Chagua UTXO unazotaka kutumia kama pembejeo za muamala huu, kisha ubofye "*Tuma Zilizochaguliwa*". Mbinu hii hukuruhusu kuchagua vyanzo vinavyofaa zaidi kati ya UTXO zako, kulingana na gharama zako na lebo zinazotumika zinapopokelewa, ili kuboresha usiri wa malipo yako. Hakikisha kuwa jumla ya UTXO zilizochaguliwa ni kubwa kuliko kiasi unachotaka kutuma.
+Chagua UTXO unazotaka kutumia kama pembejeo za muamala huu, kisha ubofye "Tuma Zilizochaguliwa". Mbinu hii hukuruhusu kuchagua vyanzo vinavyofaa zaidi kati ya UTXO zako, kulingana na gharama zako na lebo zilizotumika zilipopokelewa, ili kuboresha usiri wa malipo yako. Hakikisha kuwa jumla ya UTXO zilizochaguliwa ni kubwa kuliko kiasi unachotaka kutuma.
 
 
 ![Image](assets/fr/49.webp)
@@ -513,7 +513,7 @@ Weka Address ya mpokeaji katika sehemu ya "**Lipa kwa**". Unaweza pia kuchanganu
 ![Image](assets/fr/50.webp)
 
 
-Ongeza lebo kwenye shughuli yako ya ununuzi ili kukukumbusha madhumuni yake. Lebo hii pia itahusishwa na Exchange yako ya baadaye.
+Ongeza lebo kwenye muamala wako wa ununuzi ili kukukumbusha madhumuni yake. Lebo hii pia itahusishwa na Exchange yako ya baadaye.
 
 
 ![Image](assets/fr/51.webp)
@@ -570,7 +570,7 @@ Kwenye skrini inayofuata, chaguo hutofautiana kulingana na aina ya Wallet unayot
 Kwenye Hardware Wallet yako, angalia Address ya mpokeaji, kiasi kilichotumwa na gharama. Ikiwa kila kitu kiko sawa, endelea na saini.
 
 
-Mara tu muamala utakapotiwa saini, utaonekana tena katika Sparrow, tayari kutangazwa kwenye mtandao wa Bitcoin ili kujumuishwa kwenye kizuizi. Ikiwa kila kitu kiko sawa, bofya kwenye "*Tangaza Muamala*".
+Mara tu muamala utakapotiwa saini, utaonekana tena katika Sparrow, tayari kutangazwa kwenye mtandao wa Bitcoin ili kujumuishwa kwenye block. Ikiwa kila kitu kiko sawa, bofya kwenye "*Tangaza Muamala*".
 
 
 ![Image](assets/fr/58.webp)

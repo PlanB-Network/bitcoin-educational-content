@@ -15,7 +15,7 @@ Kabla hatujazama kwenye Minibits, hebu tuelewe vizuri ecash ni nini na si nini. 
 Ecash SIO Bitcoin. Haichukui nafasi yako ya kujilinda ya Bitcoin Wallet bali inaikamilisha. Ecash SI Blockchain na HAIishi kwenye Ledger yoyote ya umma. Jambo la kufurahisha, ecash SI teknolojia mpya—imekuwepo kabla ya mtandao wa dunia nzima, ikiwa na dhana zilizotengenezwa miaka ya 1980 na 1990.
 
 
-Ecash NI NINI: ya faragha sana (shughuli haziachi historia inayoweza kufuatiliwa), rika-kwa-rika (uhamisho wa moja kwa moja bila wasuluhishi), na hufanya kazi kama chombo cha kubeba dijitali (ikiwa unayo, unaidhibiti). Faida kuu ni kwamba ecash INAWEZA kutumika nje ya mtandao—ama mtumaji au mpokeaji anaweza kukatwa muunganisho wa mtandao wakati wa shughuli za malipo. Ecash INAWEZA kutengenezwa na chama kimoja au shirikisho la mashirika yanayoaminika, na NI teknolojia inayosaidia Bitcoin, inayoshughulikia miamala midogo ya mara kwa mara huku Bitcoin ikitumika kama suluhu la Layer.
+Ecash NI NINI: ya faragha sana (miamala haiachi historia inayoweza kufuatiliwa), peer to peer (uhamisho wa moja kwa moja bila wasuluhishi), na hufanya kazi kama chombo cha kubeba dijitali (ikiwa unayo, unaidhibiti). Faida kuu ni kwamba ecash INAWEZA kutumika nje ya mtandao—ama mtumaji au mpokeaji anaweza kukatwa muunganisho wa mtandao wakati wa shughuli za malipo. Ecash INAWEZA kutengenezwa na chama kimoja au shirikisho la mashirika yanayoaminika, na NI teknolojia inayosaidia Bitcoin, inayoshughulikia miamala midogo ya mara kwa mara huku Bitcoin ikitumika kama suluhu la Layer.
 
 
 Tafadhali kumbuka kuwa usanidi huu wa Minibits unawakilisha `suluhisho la uhifadhi`, kumaanisha kuwa unamwamini opereta wa Mint kudhibiti pesa zako. Hii inaleta hatari maalum ambazo lazima uelewe kabla ya kuendelea.

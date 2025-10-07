@@ -892,7 +892,7 @@ IP-adresser kan tildeles på to hovedmåter:
 **IPv4-adresser** skrives i et **32-biters** format som er delt inn i **fire byte**. Hver byte inneholder 8 bits og representerer et desimaltall fra 0 til 255. De fire bytebitene er atskilt med prikker for å danne en tydelig og leselig notasjon.
 
 
-eksempel: Address 172.16.254.1_
+eksempel: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Dynamiske rutingsprotokoller omfatter standarder som RIP (_Routing Information P
 ### Definisjon
 
 
-Network Address Translation_ (NAT) er en teknikk som er utviklet for å Address den gradvise uttømmingen av tilgjengelige IPv4-adresser. NAT ble utviklet som en midlertidig løsning før IPv6 ble tatt i bruk i stor skala, og gjorde det mulig for bedrifter og enkeltpersoner å fortsette å koble til et stort antall maskiner samtidig som de bare brukte et begrenset sett med offentlige IP-adresser.
+Network Address Translation (NAT) er en teknikk som er utviklet for å **address** den gradvise uttømmingen av tilgjengelige IPv4-adresser. NAT ble utviklet som en midlertidig løsning før IPv6 ble tatt i bruk i stor skala, og gjorde det mulig for bedrifter og enkeltpersoner å fortsette å koble til et stort antall maskiner samtidig som de bare brukte et begrenset sett med offentlige IP-adresser.
 
 
 **Viktig påminnelse:** Overgangen fra IPv4 til IPv6 løser i teorien utmattelsesproblemet ved å utvide Address-området fra 32 bits til 128 bits, noe som gir et nesten ubegrenset antall adresser (2^128). I praksis er overgangen imidlertid fortsatt ufullstendig, og NAT er fortsatt mye brukt i dag.
@@ -1596,7 +1596,7 @@ ip link set eth1 up
 Opprett tre filer i `/etc/sysconfig/network-scripts`:
 
 
-_ifcfg-bond0_ _ifcfg-bond0___ifcfg-bond0___ifcfg-bond0
+_ifcfg-bond0_ _ifcfg-bond0_ _ifcfg-bond0_ _ifcfg-bond0_
 
 
 ```ini

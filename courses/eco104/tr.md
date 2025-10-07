@@ -1008,25 +1008,25 @@ Birinci Modülden hatırlarsanız, paranın hem işlevlerine hem de özellikleri
 
 
 
-- dayanıklı:_ Aşınma ve yıpranmaya karşı dayanıklıdır.
+- **dayanıklı:** Aşınma ve yıpranmaya karşı dayanıklıdır.
 - miktarı sınırlı.
-- değişmez:_ Değiştirilemez veya tahrif edilemez.
+- **değişmez:** Değiştirilemez veya tahrif edilemez.
 
 
 **Exchange'ün Aracı:** Mal ve hizmet ticareti için bir araç olarak kullanılır.
 
 
 
-- taşınabilir:_ Kolayca taşınır veya nakledilir.
-- bölünebilir:_ Daha küçük birimlere bölünebilir.
-- kabul Edilen:_ Yaygın olarak tanınan ve bir ödeme şekli olarak kabul edilen.
+- **taşınabilir:** Kolayca taşınır veya nakledilir.
+- **bölünebilir:** Daha küçük birimlere bölünebilir.
+- **Kabul Edilen:** Yaygın olarak tanınan ve bir ödeme şekli olarak kabul edilen.
 
 
 **Hesap Birimi:** Değer ölçmek için kullanılır.
 
 
 
-- değiştirilebilir:_ Aynı tipteki diğer birimlerle değiştirilebilir.
+- **değiştirilebilir:** Aynı tipteki diğer birimlerle değiştirilebilir.
 
 
 Şimdi fiat ve Bitcoin'ü bu işlevler ve özellikler merceğinden inceleyerek nasıl farklılaştıklarını daha iyi anlayalım.
@@ -1081,7 +1081,7 @@ Yukarıda Bitcoin'ün yalnızca değer depolamak için güçlü bir varlık olma
 İtibari para birimlerine "varlık" ve "ağ" perspektifinden baktığımızda, üçüncü taraflara ve aracılara çok daha fazla güven ve bağımlılık duymamız gerektiği ortaya çıkmaktadır. Örneğin:
 
 
-#### **Varlık** - _Değer deposu olarak kullandığımız fiat para birimleri (Örneğin ABD doları, euro, yen, frank, sterlin, vb.)
+#### **Varlık** - _Değer deposu olarak kullandığımız fiat para birimleri (Örneğin ABD doları, euro, yen, frank, sterlin, vb.)_
 
 
 **Merkez Bankaları Para Politikasını Denetler** - Para politikası, bir merkez bankası tarafından faiz oranlarını ve dolaşımdaki toplam para miktarını yönetmek için alınan önlemleri ifade eder. Merkez bankası faiz oranlarını düşürdüğünde veya para miktarını artırdığında ekonomiye yeni para enjekte eder ve böylece dolaşımdaki mevcut para biriminin değerini düşürür. Bu da paranın satın alma gücünde bir azalmaya yol açarak enflasyon yaratır.
@@ -1888,7 +1888,7 @@ Tarih boyunca, bir şeyin fiyatında muazzam bir artış yaşandığında, bu fi
 _**Yan Not:** Finans eğitimi aldıysanız, piyasaların rasyonel davranışlar nedeniyle mükemmel derecede verimli olduğu fikri etrafında inşa edilen "etkin piyasa teoremini" duymuş olabilirsiniz. Bu nedenle, finansal piyasalardaki varlık fiyatlarının mevcut tüm bilgileri yansıttığını ve geçmiş verileri veya diğer piyasa bilgilerini analiz ederek sürekli olarak ortalamanın üzerinde getiri elde etmeyi imkansız hale getirdiğini öne sürer._
 
 
-ancak bu teori, piyasaların bireylerden oluştuğunu ve insan doğasının doğası gereği irrasyonel olduğunu ve duygulardan etkilendiğini unutmaktadır. Bu irrasyonellik önyargılara, sürü davranışına ve bilişsel hatalara yol açarak fiyatların gerçek değerlerinden sapmasına neden olur. Örneğin, Bitcoin'nin Halving olayları bağlamında, rasyonel piyasalar Bitcoin'nin bugünkü fiyatında gelecekteki Supply düşüşünü öngörmeli ve yansıtmalıdır. Ancak, periyodik fiyat artışları, katılımcıların bu tür bilgileri hesaba katmadıklarını vurgulamaktadır. Bu irrasyonelliğin uzun vadeli sabırlı sahiplere önemli finansal ödüller sağladığı kanıtlanmıştır._
+ancak bu teori, piyasaların bireylerden oluştuğunu ve insan doğasının doğası gereği irrasyonel olduğunu ve duygulardan etkilendiğini unutmaktadır. Bu irrasyonellik önyargılara, sürü davranışına ve bilişsel hatalara yol açarak fiyatların gerçek değerlerinden sapmasına neden olur. Örneğin, Bitcoin'nin Halving olayları bağlamında, rasyonel piyasalar Bitcoin'nin bugünkü fiyatında gelecekteki Supply düşüşünü öngörmeli ve yansıtmalıdır. Ancak, periyodik fiyat artışları, katılımcıların bu tür bilgileri hesaba katmadıklarını vurgulamaktadır. Bu irrasyonelliğin uzun vadeli sabırlı sahiplere önemli finansal ödüller sağladığı kanıtlanmıştır.
 
 
 Üçüncü olarak, Bitcoin küresel Exchange'de devrim yaratma potansiyeline sahiptir. Tarihte ilk kez, Trustless, izinsiz ve merkezi olmayan bir şekilde işlem yapma yöntemine sahibiz. Bu kursta daha önce de tartışıldığı gibi, bu benzersiz bir durumdur ve hem gelişmiş hem de gelişmekte olan ülkelere muazzam faydalar sağlamaktadır.
@@ -2220,7 +2220,7 @@ Sabit coinleri anlarken, her sabit coinin kendine özgü ilkeler ve çerçeveler
 Ancak bu durum tüm sabit coinler için geçerli değildir ve birçoğu aynı düzeyde şeffaflık sunmamaktadır. Bu nedenle, herhangi bir sabit coine önemli bir servet emanet etmeden önce kapsamlı bir araştırma yapmanın önemini vurgulayamayız. Ayrıca, şeffaflık seviyesine bakılmaksızın, kullanıcının stablecoin'i çıkaran kuruluşa duyması gereken bir güven seviyesi vardır.
 
 
-Bir başka yaygın eleştiri de sabit coinlerin genellikle tam olarak nakitle değil, "nakit ve nakit benzerleri" ile desteklendiğidir bu, kolayca nakde dönüştürülebilen nakit ve nakit benzeri rezervler için kullanılan teknik terimdir_. Ancak iki noktayı göz önünde bulundurmak önemlidir:
+Bir başka yaygın eleştiri de sabit coinlerin genellikle tam olarak nakitle değil, "nakit ve nakit benzerleri" ile desteklendiğidir bu, kolayca nakde dönüştürülebilen nakit ve nakit benzeri rezervler için kullanılan teknik terimdir. Ancak iki noktayı göz önünde bulundurmak önemlidir:
 
 
 İlk olarak, stabilcoin ihraççıları genellikle nakit tutmak yerine nakit eşdeğerlerine yatırım yapar, çünkü nakit, stabilcoin ihraççısının bilançosunu önemli ölçüde etkileyebilir. Mevcut bankacılık düzenlemelerine göre, nakit gibi tüm bilanço varlıkları iflas durumunda potansiyel kayba maruz kalmaktadır ve Federal Mevduat Sigorta Kurumu (FDIC) yalnızca 250.000 ABD dolarına kadar sigorta teminatı sağlamaktadır ve bu limiti aşan tutarlar risk altındadır. Bu riski azaltmak için, kullanıcıları öngörülemeyen olaylara karşı korumayı amaçlayan sabit coinler genellikle devlet tarafından ihraç edilen hazine bonolarına yatırım yapar. Hazine bonoları gibi varlıklara yatırım yaparak, yalnızca generate getirisi elde etmekle kalmazlar, aynı zamanda bu varlıklar bilanço dışı menkul kıymetler olarak kabul edilebilir. Sonuç olarak, stablecoin ihraççıları, bu menkul kıymetler müşteriye iade edilebileceğinden, banka iflası durumunda fonlarını koruyabilirler. Bunun ilgi çekici bir örneği Şubat/Mart 2023'te, Silicon Valley Bank (SVB) ve stablecoin USDC'nin arkasındaki şirket olan Circle'ın katılımıyla gerçekleşti. O dönemde Circle'ın SVB'ye yatırılmış önemli miktarda [\$3.3 milyar](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) nakit parası vardı. Ve sonra SVB iflas etti. Finansal bir felaketi önlemek için FDIC, Circle'ı ve etkilenen diğer şirketleri kurtarmak için kayıp fonları karşılayarak müdahale etti. Ancak bu standart bir hareket tarzı değildir. Bu eşi benzeri görülmemiş olay, tarihte ilk kez böyle bir durumun ortaya çıkmasına işaret ediyordu. FDIC'nin müdahalesi olmasaydı, Circle da iflasla karşı karşıya kalabilirdi.

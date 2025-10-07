@@ -255,7 +255,7 @@ Kliendipoolne valideerimine pakub kahte olulist eelist:
 Plokiahelas sisalduvad kohustused (*commitments*) on väikesed (suurusjärgus mõnikümmend baiti). See tagab, et plokiruumi ei küllastata, kuna vaja on lisada ainult hash. See võimaldab ka ahelavälise protokolli arengut, kuna iga kasutaja peab salvestama ainult oma ajaloofragmenti (oma _stash_).
 
 
-- Privaatsus :**
+- Privaatsus:
 
 Tehinguid (st nende üksikasjalikku sisu) ei avaldata ahelas. Avaldatakse ainult nende sõrmejäljed (*hash*). Seega jäävad summad, aadressid ja lepinguloogika privaatseks ning vastuvõtja saab kohapeal kontrollida oma osakonna kehtivust, vaadates kõiki eelnevaid ülekandeid. Vastuvõtjal ei ole mingit põhjust neid andmeid avalikustada, välja arvatud vaidluse korral või kui on vaja tõestust.
 
@@ -483,7 +483,7 @@ Tuletame meelde, et _kasutatava pitseri_ määratlemine ei nõua tingimata ahela
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Päeval, mil ta tahab sulgeda pitseri (et anda märku mingist sündmusest või kinnitada mingi konkreetne sõnum), kulutab ta selle UTXO uues tehingus (seda tehingut nimetatakse sageli "_näitlustehinguks_" (ei ole seotud _segwit_ga, see on lihtsalt termin, mille me talle anname). See uus tehing sisaldab sõnumi _commitment_.
+Päeval, mil ta tahab sulgeda pitseri (et anda märku mingist sündmusest või kinnitada mingi konkreetne sõnum), kulutab ta selle UTXO uues tehingus (seda tehingut nimetatakse sageli "_näitlustehinguks_" (ei ole seotud _segwit_'ga, see on lihtsalt termin, mille me talle anname)). See uus tehing sisaldab sõnumi _commitment_.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -802,7 +802,7 @@ Mitme protokolliga seotud kohustused (MPC) on mõeldud kahe vajaduse rahuldamise
 
 
 - `mpc::Commitment` hashi konstrueerimine: see lisatakse Bitcoini plokiahelasse vastavalt `Opret` või `Tapret` skeemile ja peab kajastama kõiki valideeritavaid olekumuutusi;
-- Mitme lepingu samaaegne salvestamine ühes _commitment_is, mis võimaldab mitme vara või RGB-lepingu eraldi uuendusi hallata ühes Bitcoini tehingus.
+- Mitme lepingu samaaegne salvestamine ühes _commitment_'is, mis võimaldab mitme vara või RGB-lepingu eraldi uuendusi hallata ühes Bitcoini tehingus.
 
 Konkreetselt öeldes kuulub iga _üleminekupakett_ konkreetsele lepingule. Kogu see teave sisestatakse **MPC-puusse**, mille juur (`mpc::Root`) on seejärel uuesti hashitud, et saada `mpc::Commitment`. See viimane hash pannakse Bitcoini tehingusse (_tunnistustehing_) vastavalt valitud deterministlikule meetodile.
 
@@ -2845,10 +2845,10 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 Analüüsime seda URL-i:
 
 
-- `rgb:`** (eesliide): tähistab linki, mis kasutab RGB-protokolli (analoogne `http:` või `bitcoin:` teistes kontekstides);
+- **`rgb:`** (eesliide): tähistab linki, mis kasutab RGB-protokolli (analoogne `http:` või `bitcoin:` teistes kontekstides);
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: tähistab selle sümboli `ContractId`, millega soovite manipuleerida;
 - `/RGB20/100`: näitab, et kasutatakse liidest `RGB20` ja et taotletakse 100 ühikut vara. Süntaks on järgmine: `/Interface/amount` ;
-- `+utxob:`**: määrab, et lisatakse teave vastuvõtva UTXO kohta (või täpsemalt, ühekordse pitseri määratlus);
+- `+utxob:` **määrab, et lisatakse teave vastuvõtva UTXO kohta (või täpsemalt, ühekordse pitseri määratlus);**
 - `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: see on *pimendatud* UTXO (või pitseri määratlus). Teisisõnu, Bob on maskeerinud oma täpse UTXO, nii et saatja (Alice) ei tea, milline on täpne aadress. Ta teab ainult, et on olemas kehtiv pitser, mis viitab Bobi kontrollitavale UTXO-le.
 
 Asjaolu, et kõik mahub ühte URL-i, teeb kasutaja elu lihtsamaks: lihtne klõps või skaneerimine rahakotis ja operatsioon on valmis.
@@ -2876,7 +2876,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Siin näeme :
 
 
-- `rgb:`**: URL prefiks ;
+- **`rgb:`**: URL prefiks ;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Lepingu ID (NFT) ;
 - **rGB21**: liides mittekantavate varade jaoks (NFT);
 - **`DbwzvSu-4BZU81jEp-...`**: selgesõnaline viide NFT unikaalsele osale, näiteks andmeploki (meedia, metaandmed...) hash;

@@ -367,7 +367,7 @@ Client-side Validation, hata hivyo, huenda hatua moja zaidi: ikiwa ufafanuzi wa 
 Hivi ndivyo mfumo wa RGB hufanya:
 
 
-- Ujumbe uliochapishwa ni _commitment-kwa data iliyothibitishwa ya upande wa mteja;
+- Ujumbe uliochapishwa ni _commitment_ kwa data iliyothibitishwa ya upande wa mteja;
 - Seal Definition inahusishwa na Bitcoin UTXO;
 - Seal hufunga wakati UTXO hii inatumiwa au wakati pato jipya linawekwa kwenye Commitment sawa;
 - Msururu wa muamala unaotumia UTXO hizi unalingana na uthibitisho wa uchapishaji: kila mpito au mabadiliko ya hali kwenye RGB kwa hivyo yamewekwa kwenye Bitcoin.
@@ -442,17 +442,17 @@ Ikumbukwe kwamba shughuli za kriptografia zilizoelezewa zinaweza kutumika, kwa m
 
 Kama tulivyoona katika sura ya kwanza ya kozi, Mihuri ya Matumizi Moja ni dhana ya jumla: tunatoa ahadi ya kujumuisha Commitment (_commitment_) katika eneo mahususi la muamala, na eneo hili hufanya kama Seal ambayo tunafunga kwenye ujumbe. Walakini, kwenye Bitcoin Blockchain, kuna chaguzi kadhaa za kuchagua mahali pa kuweka _commitment_ hii.
 
-Ili kuelewa mantiki, hebu tukumbuke kanuni ya msingi: kufunga _Single-Use Seal_, tunatumia eneo lililofungwa kwa kuingiza _commitment-kwenye ujumbe fulani. Katika Bitcoin, hii inaweza kufanywa kwa njia kadhaa:
+Ili kuelewa mantiki, hebu tukumbuke kanuni ya msingi: kufunga _Single-Use Seal_, tunatumia eneo lililofungwa kwa kuingiza _commitment_ kwenye ujumbe fulani. Katika Bitcoin, hii inaweza kufanywa kwa njia kadhaa:
 
 
 - **Tumia ufunguo wa umma au Address**
 
-Tunaweza kuamua kuwa ufunguo mahususi wa umma au Address ndio single-use seal_. Mara tu ufunguo huu au Address inaonekana On-Chain katika shughuli, ina maana kwamba Seal imefungwa na ujumbe fulani.
+Tunaweza kuamua kuwa ufunguo mahususi wa umma au Address ndio **single-use seal**. Mara tu ufunguo huu au Address inaonekana On-Chain katika shughuli, ina maana kwamba Seal imefungwa na ujumbe fulani.
 
 
 - **Tumia pato la muamala la Bitcoin**
 
-Hii ina maana kwambasingle-use seal_ inafafanuliwa kama _outpoint_ sahihi (jozi ya nambari ya pato ya txid +). Mara tu _outpoint_ hii inapotumika, Seal inafungwa.
+Hii ina maana kwamba **single-use seal** inafafanuliwa kama **outpoint** sahihi (jozi ya nambari ya pato ya txid +). Mara tu **outpoint** hii inapotumika, Seal inafungwa.
 
 Wakati tukifanyia kazi RGB, tulitambua angalau njia nne tofauti za kutekeleza mihuri hii kwenye Bitcoin:
 
@@ -554,7 +554,7 @@ Katika sehemu iliyopita, tulitaja kwa ufupi jinsi mfano wa Client-side Validatio
 
 ### Maeneo ya Commitment katika muamala
 
-Unapompa mtu uthibitisho kwamba ujumbe fulani umepachikwa katika muamala, unahitaji kuwa na uwezo wa kuhakikisha kuwa hakuna aina nyingine ya Commitment (sekunde, ujumbe uliofichwa) katika muamala ule ule ambao haujafichuliwa kwako. Ili Client-side Validation iendelee kuwa thabiti, unahitaji utaratibu wa **ubainishaji** wa kuweka _commitment_ moja katika muamala unaofunga _Single-Use Seal-.
+Unapompa mtu uthibitisho kwamba ujumbe fulani umepachikwa katika muamala, unahitaji kuwa na uwezo wa kuhakikisha kuwa hakuna aina nyingine ya Commitment (sekunde, ujumbe uliofichwa) katika muamala ule ule ambao haujafichuliwa kwako. Ili Client-side Validation iendelee kuwa thabiti, unahitaji utaratibu wa **ubainishaji** wa kuweka **commitment** moja katika muamala unaofunga **Single-Use Seal**.
 
 Shughuli ya _shahidi_ hutumia UTXO maarufu (au _seal definition_) na matumizi haya yanalingana na kufungwa kwa Seal. Kitaalamu, tunajua kwamba kila muhtasari unaweza kutumika mara moja tu. Hili ndilo hasa linalosisitiza upinzani wa Bitcoin kwa matumizi maradufu. Lakini shughuli ya matumizi inaweza kuwa na _pembejeo_ kadhaa, _matokeo_ kadhaa, au ikatungwa kwa njia changamano (sainjoins, njia za umeme, n.k.). Kwa hivyo tunahitaji kufafanua wazi mahali pa kuingiza _commitment_ katika muundo huu, bila utata na kwa usawa.
 
@@ -563,7 +563,7 @@ Njia yoyote (PkO, TxO2, n.k.), _commitment_ inaweza kuingizwa :
 
 - **Katika Ingizo** kupitia:
     - **Sigtweak** (hurekebisha kipengele cha `r` cha sahihi ya ECDSA, sawa na kanuni ya "Sign-to-Contract") ;
-    - **Witweak** (data ya _shahidi_ aliyetengwa_ imerekebishwa).
+- **Witweak** (data ya _shahidi_ aliyetengwa imerekebishwa).
 - **Katika Pato** kupitia :
     - **Keytweak** (ufunguo wa umma wa mpokeaji "umebadilishwa" na ujumbe);
     - **Opret** (ujumbe umewekwa katika pato lisiloweza spendable `OP_RETURN`);
@@ -815,7 +815,7 @@ Tulipoanzisha RGB, tulikagua mbinu hizi zote ili kubaini ni wapi na jinsi ya kuw
 
 | Algo Tapret #4: Nodi yoyote + dhibitisho | 🟢 | 🟢 | 🟢 | 🟠 | 🔴 |
 
-Katika kipindi cha utafiti, ilionekana wazi kuwa hakuna mpango wowote wa Commitment unaoendana kikamilifu na kiwango cha sasa cha Umeme (ambacho hakitumii Taproot, _muSig2_ au usaidizi wa ziada wa _commitment). Juhudi zinaendelea za kurekebisha ujenzi wa chaneli ya Lightning (*BiFrost*) ili kuruhusu uwekaji wa ahadi za RGB. Hili ni eneo lingine ambalo tunahitaji kukagua muundo wa muamala, funguo na jinsi masasisho ya vituo yanavyotiwa saini.
+Katika kipindi cha utafiti, ilionekana wazi kuwa hakuna mpango wowote wa Commitment unaoendana kikamilifu na kiwango cha sasa cha Umeme (ambacho hakitumii Taproot, _muSig2_ au usaidizi wa ziada wa _commitment_). Juhudi zinaendelea za kurekebisha ujenzi wa chaneli ya Lightning (**BiFrost**) ili kuruhusu uwekaji wa ahadi za RGB. Hili ni eneo lingine ambalo tunahitaji kukagua muundo wa muamala, funguo na jinsi masasisho ya vituo yanavyotiwa saini.
 
 Uchanganuzi ulionyesha kuwa, kwa kweli, mbinu zingine (key tweak, sig tweak, shahidi tweak, n.k.) ziliwasilisha aina zingine za utata:
 
@@ -1030,7 +1030,7 @@ Katika sura hii, tunashughulikia:
 - Jinsi ya kutumia dhana ya Mihuri ya matumizi Moja katika Bitcoin (haswa kupitia _outpoint_);
 - Mbinu mbalimbali za kubainisha _commitment_ katika muamala (Sig tweak, Key tweak, tweak ya mashahidi, OP_RETURN, Taproot/Tapret);
 - Sababu kwa nini RGB inazingatia ahadi za Tapret;
-- Usimamizi wa Contract nyingi kupitia _commitment _za itifaki nyingi_, ni muhimu ikiwa hutaki kufichua jimbo zima au mikataba mingine unapotaka kuthibitisha hoja mahususi;
+- Usimamizi wa Contract nyingi kupitia _commitment za itifaki nyingi_, ni muhimu ikiwa hutaki kufichua jimbo zima au mikataba mingine unapotaka kuthibitisha hoja mahususi;
 - Tumeona pia jukumu la _Anchors_, ambayo huleta kila kitu pamoja (muamala txid, uthibitisho wa Merkle Tree na uthibitisho wa Taproot) katika kifurushi kimoja.
 
 Katika mazoezi, utekelezaji wa kiufundi umegawanywa kati ya Rust _crates_ kadhaa maalum (katika _client_side_validation_, _commit-verify_, _bp_core_, nk.). Mawazo ya kimsingi yapo:

@@ -324,7 +324,7 @@ Er bestaat echter een ander perspectief op geschiedenis. Het is behoorlijk succe
 Het verklaart de buitengewone groei van Europa voornamelijk door de vooruitgang van de technologie in combinatie met de "primitieve accumulatie" van kapitaal, voortkomend uit imperialisme, slavernij, de driehoekshandel, de onteigening van kleine boeren en de uitbuiting van de arbeidersklasse. De conclusie is duidelijk. Deze uitzonderlijke Europese groei werd bereikt ten koste van miljoenen en miljoenen slaven en onderdrukte individuen.
 
 
-In eerste instantie heeft Marx in één ding gelijk: de geschiedenis is de geschiedenis van klassenstrijd en uitbuiting. Het citaat is bekend, want het is de eerste zin van het eerste hoofdstuk van het [Communistisch Manifesto_] (https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "De geschiedenis van alle tot nu toe bestaande samenlevingen is de geschiedenis van klassenstrijd." Marx erkende zelf dat hij zijn theorie van klassenstrijd had ontleend aan eerdere auteurs:
+In eerste instantie heeft Marx in één ding gelijk: de geschiedenis is de geschiedenis van klassenstrijd en uitbuiting. Het citaat is bekend, want het is de eerste zin van het eerste hoofdstuk van het [**Communistisch Manifesto**] (https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "De geschiedenis van alle tot nu toe bestaande samenlevingen is de geschiedenis van klassenstrijd." Marx erkende zelf dat hij zijn theorie van klassenstrijd had ontleend aan eerdere auteurs:
 
 
 > Het is niet aan mij om klassen en klassenstrijd in de moderne samenleving te ontdekken. Lang voor mij hadden burgerlijke historici de historische ontwikkeling van deze klassenstrijd beschreven en burgerlijke economen de economische anatomie van klassen.
@@ -563,7 +563,7 @@ Volgens hem garanderen wetten, die onpersoonlijk en permanent zijn, rechtvaardig
 
 Cicero, de beroemde Romeinse redenaar en filosoof uit de 1e eeuw voor Christus, nam dit idee over: "We zijn slaven van de wetten zodat we vrij kunnen zijn" (_De Republica_, Boek III, Hoofdstuk 13). In deze passage ontwikkelt Cicero een argument ten gunste van een republiek die geregeerd wordt door wetten, in plaats van door één man of een kleine groep mannen.
 
-Het concept van de republiek stamt uit de Griekse filosofie. Het werd vaak tegenover democratie geplaatst, omdat het te riskant werd geacht. Plato gaf zijn belangrijkste werk over politieke filosofie de titel: de Republiek_, en hij beoordeelt de democratie zeer streng. Als het volk regeert, bestaat er een groot risico dat het de wet van zijn verlangens oplegt en het goede met het aangename verwart. Daarom werd de tragische dood van Socrates, ter dood veroordeeld door een volksjury, gemanipuleerd door de sofisten. Plato heeft hier alle lessen uit getrokken.
+Het concept van de republiek stamt uit de Griekse filosofie. Het werd vaak tegenover democratie geplaatst, omdat het te riskant werd geacht. Plato gaf zijn belangrijkste werk over politieke filosofie de titel: **de Republiek**, en hij beoordeelt de democratie zeer streng. Als het volk regeert, bestaat er een groot risico dat het de wet van zijn verlangens oplegt en het goede met het aangename verwart. Daarom werd de tragische dood van Socrates, ter dood veroordeeld door een volksjury, gemanipuleerd door de sofisten. Plato heeft hier alle lessen uit getrokken.
 
 
 ![image](assets/2/img-111.webp)
@@ -1325,7 +1325,7 @@ Als reactie op het mercantilisme en, in bredere zin, op de ideeën van het Ancie
 Zij legden de basis voor de liberale economie. De belangrijkste vertegenwoordigers van de fysiocratische school zijn François Quesnay, de Markies de Mirabeau, Lemercier de la Rivière, Abbé Nicolas Baudeau, Louis-Paul Abeille en Pierre-Samuel Dupont de Nemours.
 
 
-> Politieke economie, zo vat Dupont de Nemours het samen, is de wetenschap van de natuurwet toegepast op beschaafde samenlevingen. (Briefwisseling met J.-B. Say_).
+> Politieke economie, zo vat Dupont de Nemours het samen, is de wetenschap van de natuurwet toegepast op beschaafde samenlevingen. (Briefwisseling met J.-B. Say).
 
 Ze pleitten voor "Laissez-faire", wat aanbeveelt dat de staat niet moet ingrijpen in de economie.
 
@@ -1887,7 +1887,7 @@ Wat heb je aan het recht om te spreken, schrijven en stemmen, riep Marx uit, als
 ### De mythe van de onpartijdige staat
 
 
-De fundamentele kritiek die Marx levert op het politieke liberalisme, met name in zijn vroege geschriften (Kritiek op Hegels Rechtsfilosofie_ en _Op de Joodse Kwestie_), richt zich op de scheiding van de burgermaatschappij en de staat. Deze kritiek moet worden begrepen binnen het algemene kader van zijn interpretatie van de "burgerlijke revolutie" Het is deze revolutie die leidt tot de vorming van een staat die gescheiden is van de burgermaatschappij, die geacht wordt te streven naar het universele, dat wil zeggen het algemeen belang, door de rol te spelen van een onpartijdige scheidsrechter.
+De fundamentele kritiek die Marx levert op het politieke liberalisme, met name in zijn vroege geschriften (_Kritiek op Hegels Rechtsfilosofie_ en _Op de Joodse Kwestie_), richt zich op de scheiding van de burgermaatschappij en de staat. Deze kritiek moet worden begrepen binnen het algemene kader van zijn interpretatie van de "burgerlijke revolutie". Het is deze revolutie die leidt tot de vorming van een staat die gescheiden is van de burgermaatschappij, die geacht wordt te streven naar het universele, dat wil zeggen het algemeen belang, door de rol te spelen van een onpartijdige scheidsrechter.
 
 
 Voor Marx is dit alles echter slechts een bedrieglijke schijn. In werkelijkheid is de staat niets anders dan een instrument dat bedoeld is om de specifieke belangen van de heersende klasse te dienen. Met andere woorden, de staat is niet onpartijdig; hij is niet gescheiden van de burgermaatschappij. In feite is de liberale staat de plaats van een dubbele illusie. De illusie van het universele, zoals we zojuist zagen, en bijgevolg de illusie van emancipatie. Inderdaad, de Revolutie emancipeerde de burger door het instellen van volkssoevereiniteit en gelijkheid voor de wet, maar deze vrijheid en gelijkheid blijven puur ideaal en abstract. Het is onjuist, zegt Marx, om te denken, zoals Rousseau of Hegel, dat de mens zijn rationele aard volledig realiseert door burger te worden. In werkelijkheid kan iemand burger worden en toch uitgebuit en geknecht blijven, overgeleverd aan de grillen van de verlangens, aan de anarchie van het egoïsme en de wet van de sterkste.

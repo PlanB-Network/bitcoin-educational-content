@@ -76,7 +76,7 @@ Witamy na pierwszym wykładzie w ramach programu edukacyjnego **Cubo Plus**. Dzi
 
 ![Unbanked Population](assets/en/1/1.webp)
 
-globalna populacja nieubankowionych_
+globalna populacja **nieubankowionych**
 
 
 ### Bitcoin: Wolność finansowa i jej wpływ na Salwador
@@ -88,10 +88,10 @@ Ten wykład, **"Dlaczego Salwador potrzebuje Bitcoin"**, zawiera przegląd **pro
 > **Definicje:**
 >
 
-> - protokół Bitcoin:_ Zasady i struktura, które regulują sposób działania Bitcoin jako zdecentralizowanej waluty cyfrowej.
-> - ruch_Cypherpunk:_ Grupa opowiadająca się za wykorzystaniem kryptografii w celu zapewnienia prywatności i wolności w przestrzeni cyfrowej.
+> - protokół Bitcoin: Zasady i struktura, które regulują sposób działania Bitcoin jako zdecentralizowanej waluty cyfrowej.
+> - **ruch Cypherpunk:** Grupa opowiadająca się za wykorzystaniem kryptografii w celu zapewnienia prywatności i wolności w przestrzeni cyfrowej.
 > - integracja finansowa: Zapewnienie dostępu do usług finansowych osobom, które zostały wykluczone z tradycyjnych systemów bankowych, często określanych jako "nieubankowione"
-> - pieniądze nieocenzurowane:_ Pieniądze, które nie mogą być kontrolowane lub ograniczane przez rządy lub instytucje finansowe.
+> - **pieniądze nieocenzurowane**: Pieniądze, które nie mogą być kontrolowane lub ograniczane przez rządy lub instytucje finansowe.
 
 #### Tło Ricky'ego i rzecznictwo Bitcoin
 
@@ -117,7 +117,7 @@ Pomimo swojego potencjału, Bitcoin stoi przed poważnymi wyzwaniami. W obszarac
 > **Definicje:**
 >
 
-> - klucze prywatne:_ Tajne kody dające dostęp do Bitcoin użytkownika.
+> - **klucze prywatne:** Tajne kody dające dostęp do Bitcoin użytkownika.
 > - _Open-source:_ Oprogramowanie, które każdy może sprawdzać, modyfikować i ulepszać.
 
 ### Przypadek Salwadoru
@@ -187,7 +187,7 @@ Jednocześnie **Austriacka Ekonomia** stanowiła fundament dla zasad monetarnych
 >
 
 > - _Preferencja czasowa:_ Przedkładanie dóbr teraźniejszych nad przyszłe.
-> - zapisywanie:_ Przechowywanie wartości do wykorzystania w przyszłości.
+> - **zapisywanie:** Przechowywanie wartości do wykorzystania w przyszłości.
 
 ### Bitcoin w Salwadorze
 

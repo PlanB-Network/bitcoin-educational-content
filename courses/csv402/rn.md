@@ -248,7 +248,7 @@ Iyi trilemma itwibutsa ko ibanga, ubutungane n’ukuboneka vyose bidashobora gut
 ### Uruhara rwa Blockchain n'iciyumviro co gucapura
 
 
-Blockchain (muri iki gihe, Bitcoin) ikora cane cane nk’uburyo bwo _gushiramwo ikidodo_ c’igihe_ n’uburinzi bwo gukoresha amahera kabiri. Aho kwinjiza amakuru yuzuye ya Smart contract canke uburyo bwegerejwe, dushiramwo gusa **imihigo y'ubuhinga bwa none** ku bikorwa (mu busobanuro bwa Client-side Validation, ivyo tuzokwita "imihindukire ya leta"). Gutyo:
+Blockchain (muri iki gihe, Bitcoin) ikora cane cane nk'uburyo bwo **gushiramwo ikidodo** c'igihe n'uburinzi bwo gukoresha amahera kabiri. Aho kwinjiza amakuru yuzuye ya Smart contract canke uburyo bwegerejwe, dushiramwo gusa **imihigo y'ubuhinga bwa none** ku bikorwa (mu busobanuro bwa Client-side Validation, ivyo tuzokwita "imihindukire ya leta"). Gutyo:
 
 
 
@@ -587,7 +587,7 @@ Zirikana ko ayo matafari ya porogarama ari Bitcoin agnostic; mu vyiyumviro, vyos
 #### Ku bijanye n'ikoreshwa ryagutse ry'Ibidodo Bikoreshwa Rimwe
 
 
-Peter Todd nawe yararemye _Open Timestamps_ umurongo, kandi iciyumviro ca Single-Use Seal ni ukwaguka kw'ivyo vyiyumviro. Uretse RGB, hariho n'ibindi bikoresho bishobora gukoreshwa, nk'ubwubatsi bw'imirongo y'inyuma_ ata gukoresha _gufatanya ubucukuzi_ canke ivyiyumviro bijanye n'imirongo y'imiduga nka BIP300. Uburyo bwose busaba Commitment imwe burashobora, mu ngingo ngenderwako, gukoresha iyo nzira y’ubuhinga bwa none. Ubu, RGB ni ryo rya mbere rikomeye ry’ugushirwa mu ngiro ku rugero rwose.
+Peter Todd nawe yararemye **Open Timestamps** umurongo, kandi iciyumviro ca Single-Use Seal ni ukwaguka kw'ivyo vyiyumviro. Uretse RGB, hariho n'ibindi bikoresho bishobora gukoreshwa, nk'ubwubatsi bw'imirongo y'inyuma **ata gukoresha** _gufatanya ubucukuzi_ canke ivyiyumviro bijanye n'imirongo y'imiduga nka BIP300. Uburyo bwose busaba Commitment imwe burashobora, mu ngingo ngenderwako, gukoresha iyo nzira y'ubuhinga bwa none. Ubu, RGB ni ryo rya mbere rikomeye ry'ugushirwa mu ngiro ku rugero rwose.
 
 
 #### Ibibazo vyo kuboneka kw'amakuru
@@ -706,7 +706,7 @@ Nk’ukwibutsa, gusobanura _ikidodo co gukoresha rimwe_ ntibisaba gutangaza ivy�
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Umusi ishaka gufunga Seal (kugira ngo yerekane ikintu, canke ku Anchor ubutumwa bumwe bumwe), ikoresha iyo UTXO mu gikorwa gishasha (ico gikorwa citwa kenshi "_igikorwa c'icabona_" (kidafitaniye isano na _segwit_in_ transmit_, ni ijambo gusa the will it conmitcom). ku butumwa.
+Umusi ishaka gufunga Seal (kugira ngo yerekane ikintu, canke ku Anchor ubutumwa bumwe bumwe), ikoresha iyo UTXO mu gikorwa gishasha (ico gikorwa citwa kenshi **igikorwa c'icabona** (kidafitaniye isano na **segwit** in **transmit**, ni ijambo gusa the will it conmitcom). ku butumwa.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -938,7 +938,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 
-- Ivyo bice 29 `OP_RESERVED`, bikurikiwe na `OP_RETURN`, hanyuma `OP_PUSHBYTE_33`, bikora igice c'intango_ c'ibice 31;
+- Ivyo bice 29 `OP_RESERVED`, bikurikiwe na `OP_RETURN`, hanyuma `OP_PUSHBYTE_33`, bikora igice c'intango c'ibice 31;
 - Hakurikiraho _ukwiyemeza_ kw’amabayiti 32 (kenshi Merkle Root iva kuri **MPC**), aho twongerako byte 1 ya **Nonce** (ivyo vyose hamwe ni amabayiti 33 y’iki gice ca kabiri).
 
 
@@ -1436,13 +1436,13 @@ Muri iki kigabane, twarihweje ibi:
 - Twarabonye kandi uruhara rwa _Anchors_, zizana vyose hamwe (ugucuruza txid, ikimenyamenya ca Merkle Tree n'ikimenyamenya ca Taproot) mu gice kimwe.
 
 
-Mu bikorwa, ugushirwa mu ngiro kw’ubuhinga kugabanywa hagati y’ibikoresho vyinshi vy’ubuhinga bwa Rust (mu _kwemeza_ku ruhande_rw’umukiriya, _gusuzuma_, _bp_core_, n’ibindi). Ivyiyumviro vy’ishimikiro biri ng’aho:
+Mu bikorwa, ugushirwa mu ngiro kw'ubuhinga kugabanywa hagati y'ibikoresho vyinshi vy'ubuhinga bwa Rust (mu **kwemeza ku ruhande rw'umukiriya**, **gusuzuma**, **bp_core**, n'ibindi). Ivyiyumviro vy'ishimikiro biri ng'aho:
 
 
 ![RGB-Bitcoin](assets/en/046.webp)
 
 
-Mu gice gikurikira, turaza kuraba igice ca off-chain gusa ca RGB, ni ukuvuga ubuhinga bwa Contract. Turabona ingene amasezerano ya RGB, atunganijwe nk'ibice vy'amamashini ya leta_, ashika ku vyo guserura vyinshi kuruta inyandiko za Bitcoin, mu gihe azigama ibanga ry'amakuru yabo.
+Mu gice gikurikira, turaza kuraba igice ca off-chain gusa ca RGB, ni ukuvuga ubuhinga bwa Contract. Turabona ingene amasezerano ya RGB, atunganijwe nk'ibice vy'amamashini ya **leta**, ashika ku vyo guserura vyinshi kuruta inyandiko za Bitcoin, mu gihe azigama ibanga ry'amakuru yabo.
 
 
 ## Intangamarara y'amasezerano y'ubwenge n'ibihugu vyayo
@@ -1658,7 +1658,7 @@ Iyo Bob yuzuye, arashobora gutanga ukwemera kwiwe (nk’akarorero, mu gushira um
 Leta nshasha ubu ikoresha Bob ya Bob, igaha Bob Ownership yahora ifiswe na Alice. Igisohoka ca Bitcoin aho amakuru ya RGB ashizweho gica kiba ikimenyamenya kidashobora gusubirwamwo c'ukwimurirwa kwa Ownership.
 
 
-Akarorero k’i DAG ntoyi (*Directed Acyclic Graph*) igizwe n’ibikorwa bibiri vya Contract (**Genesis** hanyuma ***State Transition***) karashobora kwerekana ingene igihugu ca RGB (*uruhande rw’umukiriya* Layer, mu mutuku) gifatanya na Blockchain4 G4*W-740). mu rurimi rw’umuhondo).
+Akarorero k'i DAG ntoyi (*Directed Acyclic Graph*) igizwe n'ibikorwa bibiri vya Contract (**Genesis** hanyuma **State Transition**) karashobora kwerekana ingene igihugu ca RGB (*uruhande rw'umukiriya* Layer, mu mutuku) gifatanya na Blockchain (*G4W-740 mu rurimi rw'umuhondo*).
 
 
 ![RGB-Bitcoin](assets/en/062.webp)
@@ -2537,7 +2537,7 @@ Ubu buryo burasobanura neza ingene _ukwiyemeza_ gushirwa mu gisohoka canke mu mi
 #### Directed Acyclic Graph - DAG
 
 
-DAG (canke *Acyclic Guided Graph*) ni igishushanyo kitagira inzinguzingu, gishoboza gutegura urutonde rw'ibintu. Ivyuma vy’amabara, nk’ibice _vy’amasezerano ya RGB, bishobora guserukirwa n’ama DAG.
+DAG (canke **Acyclic Guided Graph**) ni igishushanyo kitagira inzinguzingu, gishoboza gutegura urutonde rw'ibintu. Ivyuma vy'amabara, nk'ibice **vy'amasezerano ya RGB**, bishobora guserukirwa n'ama DAG.
 
 
 Ku bindi bisobanuro: [Directed Acyclic Graph](Igishushanyo_c'Igishushanyo_C'Igishushanyo_C'Igishushanyo)
@@ -3981,10 +3981,10 @@ Reka dusuzume iyi URL:
 
 
 
-- `RGB:`** (intango): yerekana ihuriro rikoresha umurongo wa RGB (bisa n'ivyo `http:` canke `Bitcoin:` mu bindi bihe);
+- **`RGB:`** (intango): yerekana ihuriro rikoresha umurongo wa RGB (bisa n'ivyo `http:` canke `Bitcoin:` mu bindi bihe);
 - **igereranya**: igereranya `ContractId` ya token ushaka gukoresha;
 - `/RGB20/100`: yerekana ko `RGB20` Interface ikoreshwa kandi ko ibice 100 vy'umutungo bisabwa. Inyuguti ni: `/Interface/umubare`;
-- `+utxob:`**: isobanura ko amakuru yerekeye uwuronka UTXO (canke, mu buryo bubereye, insobanuro ya Single-Use Seal) yongeweko;
+- **`+utxob:`**: isobanura ko amakuru yerekeye uwuronka UTXO (canke, mu buryo bubereye, insobanuro ya Single-Use Seal) yongeweko;
 - **Seal**: iyi ni *blinded* UTXO (canke Seal Definition). Mu yandi majambo, Bob yarapfutse UTXO yiwe nyayo, rero uwuyirungitse (Alice) ntazi ico Address nyayo ari co. Azi gusa ko hariho Seal ikora yerekeza kuri UTXO igenzurwa na Bob.
 
 
@@ -4024,7 +4024,7 @@ Aha turabona:
 
 
 
-- `RGB:`**: Intangiriro ya URL;
+- **RGB:** Intangiriro ya URL;
 - 1917 ID (NFT);
 - **rGB21**: Interface ku mitungo idashobora guhinduka (NFT);
 - **`DbwzvSu-4BZU81jEp-...`**: ivyerekeye igice kidasanzwe ca NFT, nk'akarorero Hash y'amakuru (ivy'amakuru, amakuru y'imbere...);

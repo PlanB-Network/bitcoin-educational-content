@@ -812,7 +812,7 @@ Mu bisanzwe imvugo “urudodo rw’imburakimazi”, ata n’umwe afise ubushoboz
 Iciyumviro nyamukuru kiri mu vy’ubuhinga bwo gukingira amakuru ni ic’ubuhinga bwo gukingira amakuru. **Urudodo rw'ibinyoma** rw'uburebure $n$ ruboneka *nk'aho* rwari ingaruka y'ugutora urugero rw'umuhinduzi umwe $S$ utanga urudodo rwose muri **$S_n$** ubushobozi bungana bwo guhitamwo. Ariko rero, mu vy'ukuri, urudodo ni ingaruka y'ugutora urugero rw'umuhinduzi umwe $S'$ asobanura gusa ugusangira kw'ibishoboka—si ngombwa ko haba uwufise ibishoboka bingana ku ngaruka zose zishoboka-ku gice c'ibishoboka **$S_n$**. Iciyumviro gihambaye cane aha ni uko ata n’umwe ashobora vy’ukuri gutandukanya ivyerekanwa biva kuri $S$ na $S’$, naho woba ufata vyinshi muri vyo.
 
 
-Twibaze nk’akarorero, umuhinduzi w’imburakimazi $S$. Igisubizo caco ni **$S_{256}$**, iki ni igisubizo c'imirongo ibiri yose y'uburebure 256. Iyi nkuru ifise $2^{256}$ Elements. Ikintu cose gifise ubushobozi bungana bwo guhitamwo, $1/2^{256}$, ku bijanye n'ugutora.
+Twibaze nk'akarorero, umuhinduzi w'imburakimazi **S**. Igisubizo caco ni **S₂₅₆**, iki ni igisubizo c'imirongo ibiri yose y'uburebure 256. Iyi nkuru ifise **2²⁵⁶** Elements. Ikintu cose gifise ubushobozi bungana bwo guhitamwo, **1/2²⁵⁶**, ku bijanye n'ugutora.
 
 
 Ikindi, dufate ko umuhinduzi w'imburakimazi $S'$. Ivyiza vyayo birimwo gusa $2^{128}$ imirongo ibiri y'uburebure 256. Ifise ugusangira kw'ibishoboka kuri iyo mirongo, ariko iyo nsangira si ngombwa ko iba imwe.

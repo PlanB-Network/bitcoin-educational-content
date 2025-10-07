@@ -270,7 +270,7 @@ Van de tijd van ruilgoederen tot het moderne tijdperk van digitale munteenheden 
 Maar hoe heeft het geld dat we gebruiken zich ontwikkeld tot het onmisbare onderdeel van ons leven dat het vandaag de dag is? In dit gedeelte verkennen we de evolutie van geld, van de vroegste vormen tot de moderne digitale munteenheden die we vandaag de dag gebruiken. We verdiepen ons in elke belangrijke iteratie van geld en bekijken hoe ze onze moderne samenleving hebben helpen vormgeven.
 
 
-_**Een korte opmerking:** Het is belangrijk om te benadrukken dat dit gedeelte niet noodzakelijkerwijs een chronologisch verslag is van de evolutie van geld. Het is meer een educatieve reis over de opkomst en ondergang van verschillende vormen van geld. Veel van deze media van Exchange hebben tegelijkertijd bestaan, en sommige bestaan vandaag de dag nog steeds op de een of andere manier
+**Een korte opmerking:** Het is belangrijk om te benadrukken dat dit gedeelte niet noodzakelijkerwijs een chronologisch verslag is van de evolutie van geld. Het is meer een educatieve reis over de opkomst en ondergang van verschillende vormen van geld. Veel van deze media van Exchange hebben tegelijkertijd bestaan, en sommige bestaan vandaag de dag nog steeds op de een of andere manier
 
 
 Na het lezen van deze inleiding vraag je je misschien af: **Waarom moet geld evolueren en veranderen in de loop van de tijd?**
@@ -943,7 +943,7 @@ Zonder ontwikkelaars zou het Bitcoin netwerk niet kunnen evolueren en zich aanpa
 Tot slot is er nog een rol die we willen benadrukken: de gemeenschap, die Bitcoin zijn waarde geeft. De gemeenschap bestaat uit iedereen die het netwerk gebruikt, over en weer transacties doet en de nodes, miners en ontwikkelaars stimuleert om aan Bitcoin te blijven werken. Als de gemeenschap groeit, groeit ook de waarde van het Bitcoin netwerk.
 
 
-het is belangrijk om te benadrukken dat de gedecentraliseerde aard van Bitcoin iedereen, ongeacht hun achtergrond of status, in staat stelt om deel te nemen aan het netwerk en alle rollen op zich te nemen die nodig zijn voor het functioneren ervan. Dit onderscheidt Bitcoin van traditionele valuta, die vaak onder controle staan van centrale banken of overheden. Met andere woorden, Bitcoin geeft de macht terug aan de mensen door hen in staat te stellen actief deel te nemen aan het netwerk in plaats van passieve consumenten te zijn van een gecentraliseerd systeem._
+het is belangrijk om te benadrukken dat de gedecentraliseerde aard van Bitcoin iedereen, ongeacht hun achtergrond of status, in staat stelt om deel te nemen aan het netwerk en alle rollen op zich te nemen die nodig zijn voor het functioneren ervan. Dit onderscheidt Bitcoin van traditionele valuta, die vaak onder controle staan van centrale banken of overheden. Met andere woorden, Bitcoin geeft de macht terug aan de mensen door hen in staat te stellen actief deel te nemen aan het netwerk in plaats van passieve consumenten te zijn van een gecentraliseerd systeem.
 
 
 ### Een transactie van begin tot eind
@@ -1008,7 +1008,7 @@ Als je je nog herinnert uit module één, hebben we gekeken naar zowel de functi
 
 
 
-- duurzaam:_ Bestand tegen slijtage.
+- **duurzaam:** Bestand tegen slijtage.
 - beperkt in hoeveelheid.
 - _Immutable:_ Kan niet worden gewijzigd of aangepast.
 
@@ -1437,7 +1437,7 @@ Na de komst van Tether lanceerden veel andere bedrijven en initiatieven vergelij
 Concluderend: naarmate onze samenleving zich blijft ontwikkelen en de technologie voortschrijdt, verandert ook onze relatie met geld. Van munten tot digitale valuta's, we hebben een verschuiving gezien in de manier waarop we omgaan met en transacties doen met geld. Terwijl traditionele banksystemen hun beperkingen hebben, biedt Tether, via zijn stabielecoinselectie, een potentiële oplossing voor deze uitdagingen. Door de relatieve kortetermijnstabiliteit van traditionele valuta's te combineren met de flexibiliteit en toegankelijkheid van native digitale valuta's, bieden hun stablecoins gebruikers meer controle over hun geld. Of u nu geen toegang hebt tot bankdiensten, te maken hebt met overheidsbemoeienis of gewoon buiten de traditionele bankuren moet handelen, stablecoins zoals USDt kunnen een betrouwbaar alternatief bieden. Hierdoor worden ze snel een integraal onderdeel van ons financiële systeem.
 
 
-maak je geen zorgen als sommige van deze termen niet helemaal duidelijk zijn. We zullen in de loop van deze module dieper op elk onderwerp ingaan._
+maak je geen zorgen als sommige van deze termen niet helemaal duidelijk zijn. We zullen in de loop van deze module dieper op elk onderwerp ingaan.
 
 
 ## Geschiedenis van Stablecoins
@@ -1885,10 +1885,10 @@ Ten eerste heeft Bitcoin een gelimiteerde Supply van 21 miljoen munten, wat bete
 Ten tweede is er in de code van Bitcoin een functie ingebouwd die Halving heet. Ongeveer elke vier jaar wordt de beloning voor Mining gehalveerd, wat een impact heeft op de nominale inkomsten van mijnwerkers. Tenzij de prijs van Bitcoin verdubbelt, ervaren mijnwerkers een aanzienlijke daling van hun inkomsten. Dit aspect heeft ertoe geleid dat Bitcoin wordt gekarakteriseerd als "number go up" technologie, omdat dit kenmerk elke vier jaar een opwaartse druk uitoefent op de prijs om ervoor te zorgen dat mijnwerkers voldoende compensatie krijgen voor het veiligstellen van de Blockchain. Bijgevolg zijn we ongeveer om de vier jaar getuige van deze volatiele prijsschommelingen.
 
 
-als je financiën hebt gestudeerd, heb je misschien gehoord van het "theorema van de efficiënte markt", dat gebaseerd is op het idee dat markten volmaakt efficiënt zijn als gevolg van rationeel gedrag. Het stelt daarom dat activaprijzen in financiële markten alle beschikbare informatie weerspiegelen, waardoor het onmogelijk is om consistent bovengemiddelde rendementen te behalen door historische gegevens of andere marktinformatie te analyseren._
+als je financiën hebt gestudeerd, heb je misschien gehoord van het "theorema van de efficiënte markt", dat gebaseerd is op het idee dat markten volmaakt efficiënt zijn als gevolg van rationeel gedrag. Het stelt daarom dat activaprijzen in financiële markten alle beschikbare informatie weerspiegelen, waardoor het onmogelijk is om consistent bovengemiddelde rendementen te behalen door historische gegevens of andere marktinformatie te analyseren.
 
 
-deze theorie vergeet echter dat markten bestaan uit individuen en dat de menselijke natuur van nature irrationeel is en beïnvloed wordt door emoties. Deze irrationaliteit leidt tot vertekeningen, kuddegedrag en cognitieve fouten, waardoor prijzen afwijken van hun werkelijke waarde. In de context van de Halving gebeurtenissen van Bitcoin bijvoorbeeld, zouden rationele markten moeten anticiperen op toekomstige verminderde Supply en dit weerspiegelen in de huidige prijs van Bitcoin. De periodieke prijsstijgingen laten echter zien dat deelnemers geen rekening hebben gehouden met dergelijke informatie. Deze irrationaliteit blijkt aanzienlijke financiële beloningen op te leveren voor geduldige langetermijnhouders._
+deze theorie vergeet echter dat markten bestaan uit individuen en dat de menselijke natuur van nature irrationeel is en beïnvloed wordt door emoties. Deze irrationaliteit leidt tot vertekeningen, kuddegedrag en cognitieve fouten, waardoor prijzen afwijken van hun werkelijke waarde. In de context van de Halving gebeurtenissen van Bitcoin bijvoorbeeld, zouden rationele markten moeten anticiperen op toekomstige verminderde Supply en dit weerspiegelen in de huidige prijs van Bitcoin. De periodieke prijsstijgingen laten echter zien dat deelnemers geen rekening hebben gehouden met dergelijke informatie. Deze irrationaliteit blijkt aanzienlijke financiële beloningen op te leveren voor geduldige langetermijnhouders.
 
 
 Ten derde heeft Bitcoin de potentie om Exchange wereldwijd te revolutioneren. Voor het eerst in de geschiedenis hebben we een methode om transacties te verrichten op een Trustless, toestemmingsvrije en gedecentraliseerde manier. Zoals eerder in deze cursus besproken, is dit ongeëvenaard en biedt het enorme voordelen voor zowel ontwikkelde als ontwikkelingslanden.

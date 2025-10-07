@@ -500,7 +500,7 @@ Vifaa vingi vinaweza kufanya kazi hii, lakini tunapendekeza VONETS WiFi Bridge/R
 
 Washa daraja kwa kuiunganisha kupitia USB.
 
-Kutoka kwa kompyuta yako, unganisha kwenye mtandao wa VONETS\_**\*\*** WIFI na nenosiri 12345678.
+Kutoka kwa kompyuta yako, unganisha kwenye mtandao wa **VONETS** WIFI na nenosiri 12345678.
 
 ![image](assets/en/032.webp)
 

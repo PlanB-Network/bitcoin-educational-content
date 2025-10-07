@@ -166,7 +166,7 @@ Tal tekkis kiiresti kirg poliitilise ökonoomia vastu ning ta uuris Adam Smithi,
 
 ![image](assets/en/009.webp)
 
-_(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy) _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
+_(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_ _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
 
 Pärast Inglismaalt naasmist kirjutas ta artikli pealkirjaga "Inglise ja Prantsuse tariifide mõjust kahe rahva tulevikule", mille ta saatis Pariisi ajakirjale Journal des Économistes. Artikkel ilmus 1844. aasta oktoobri numbris ja see oli täielik edu. Kõik imetlesid tema jõulist ja teravat argumentatsiooni, tema kainet ja elegantset stiili.
@@ -234,7 +234,7 @@ Adam Smithi ja J.-B. Say, on koondatud ühteainsasse sõnasse: vabadus. Kaubandu
 
 ![image](assets/en/015.webp)
 
-_(Say, Destutt de Tracy, Quesnay, de Gournay) _(Say, Destutt de Tracy, Quesnay, de Gournay)_
+_(Say, Destutt de Tracy, Quesnay, de Gournay)_ _(Say, Destutt de Tracy, Quesnay, de Gournay)_
 
 
 Adam Smith oli huvitatud jõukusest mitte kui eesmärgist iseenesest, vaid kui vahendist üksikisikute moraalse tõusu saavutamiseks. Tema jaoks koosneb rahvaste rikkus üksikisikute rikkusest. Kui te tahate jõukat rahvast, ütleb Adam Smith, laske üksikisikutel vabalt tegutseda. Ja turg toimib, sest see võimaldab igaühel väljendada oma eelistusi ja järgida oma huve.
@@ -551,7 +551,7 @@ Nende jaoks oli mõte lihtne: mida rohkem ideid on lubatud väljendada, seda roh
 
 ![image](assets/en/046.webp)
 
-_(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_ (Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
+_(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
 
 Vastupidi, vähesed on mõistnud, et see, mis kehtis ideede kohta, kehtib ka kaupade ja teenuste kohta. Vabadusel teistega kaubelda on tõepoolest kaks voorust: see on tõhus ja viib õiglasema jaotuse saavutamiseni. Rousseau mitte ainult ei mõistnud seda, vaid ta ka võitles selle vabaduse vastu vale õiguse ja õiguse idee nimel. Bastiat märgib, et sotsialismi üks peamisi allikaid on Rousseau arvamus, et kogu ühiskondlik kord tuleneb seadusest.
@@ -1287,7 +1287,7 @@ Illustreerime seda teemat mõne olulise päevakajalise teemaga. Esimene näide o
 
 ![image](assets/en/103.webp)
 
-_(Alan Greenspan, Ameerika keskpanga FED esimees 1987-2006)_(Alan Greenspan, Ameerika keskpanga esimees 1987-2006)_
+_(Alan Greenspan, Ameerika keskpanga FED esimees 1987-2006)_
 
 
 Aastaid selgitasid rahapoliitika juhid, et kui kasumid erastatakse, kui kõik läheb hästi, siis pankroti korral (päästeplaanid, päästekavad, intressimäära manipuleerimine, rahaprintimine jne) kahjumid vastastikku. Sellega tekitasid nad moraalse ohu, soodustasid põhjendamatut riskivõtmist ja julgustasid finantsmaailma vastutustundetult käituma. Seega põhjustasid nad finantssektori kriisi, mida me kogesime.

@@ -255,7 +255,7 @@ Validering på klientsiden gir to store fordeler:
 Forpliktelsene (*commitments*) som inngår i blokkjeden, er små (i størrelsesorden noen titalls byte). Dette sikrer at blokkplassen ikke blir mettet, ettersom det bare er hashen som trenger å inkluderes. Det gjør det også mulig å utvikle protokollen utenfor kjeden, ettersom hver bruker bare trenger å lagre sitt eget historiefragment (sin _stash_).
 
 
-- Personvern :**
+- **Personvern:**
 
 Transaksjonene i seg selv (dvs. deres detaljerte innhold) publiseres ikke i kjeden. Det er bare fingeravtrykkene deres (*hash*) som er det. Dermed forblir beløp, adresser og kontraktslogikk private, og mottakeren kan lokalt verifisere gyldigheten av sin shard ved å inspisere alle tidligere transaksjoner. Det er ingen grunn til at mottakeren skal offentliggjøre disse dataene, bortsett fra i tilfelle en tvist eller dersom det kreves bevis.
 
@@ -373,7 +373,7 @@ Det er nettopp dette RGB-systemet gjør:
 For å oppsummere:
 
 
-- Forseglingsdefinisjonen_ er UTXO-en du har tenkt å forsegle en fremtidig forpliktelse med;
+- **Forseglingsdefinisjonen** er UTXO-en du har tenkt å forsegle en fremtidig forpliktelse med;
 - _seal closing_ skjer når du bruker denne UTXO-en og oppretter en transaksjon som inneholder forpliktelsen;
 - _vitnet_ er selve transaksjonen, som beviser at du har lukket seglet med dette innholdet;
 - Du kan ikke bevise at et segl ikke har blitt lukket (du kan ikke være helt sikker på at en UTXO ikke allerede har blitt brukt eller ikke vil bli brukt i en blokk du ikke har sett ennå), men du kan bevise at det faktisk har blitt lukket.
@@ -640,7 +640,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 ```
 
 
-- De 29 byte `OP_RESERVED`, etterfulgt av `OP_RETURN`, og deretter `OP_PUSHBYTE_33`, utgjør den 31 byte store _prefiks_delen;
+- De 29 byte `OP_RESERVED`, etterfulgt av `OP_RETURN`, og deretter `OP_PUSHBYTE_33`, utgjør den 31 byte store _prefiks_-delen;
 - Deretter kommer en 32-byte _commitment_ (vanligvis Merkle-roten fra **MPC**), som vi legger til 1 byte med **Nonce** (totalt 33 byte for denne andre delen).
 
 Metoden `Tapret` på 64 byte ser altså ut som en `Opret` som vi har prefikset 29 byte med `OP_RESERVED` og lagt til en ekstra byte som en nonce.
@@ -2877,7 +2877,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Her ser vi :
 
 
-- `rgb:`**: URL-prefiks ;
+- **`rgb:`**: URL-prefiks ;
 - `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`: **Kontrakts-ID (NFT)** ;
 - **rGB21**: grensesnitt for ikke-soppbare eiendeler (NFT);
 - `DbwzvSu-4BZU81jEp-...`: en eksplisitt referanse til den unike delen av NFT-en, for eksempel en hash av datablobben (media, metadata ...) ;

@@ -585,7 +585,7 @@ Alice 透過通道傳送 **40,000 薩托希**給 Bob：
 
 - 頻道 **Alice - Suzie**：Alice 的基本費用為 1 Satoshi 和 1 ppm。
 - 頻道 **Suzie - Carol**：Suzie 的基本費用為 0 Satoshi 和 200 ppm。
-- Carol - Bob** 通道：基本費用為 1 Satoshi 和 Suzie 的 1 ppm 2.
+- **Carol - Bob** 通道：基本費用為 1 Satoshi 和 Suzie 的 1 ppm 2.
 
 ![LNP201](assets/en/43.webp)
 

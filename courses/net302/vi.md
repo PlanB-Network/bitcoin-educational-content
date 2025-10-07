@@ -892,7 +892,7 @@ IP Address là một mã định danh số duy nhất được gán cho mỗi **
 Địa chỉ IPv4 được viết theo định dạng 32 bit, chia thành bốn byte. Mỗi byte chứa 8 bit và biểu diễn một số thập phân từ 0 đến 255. 4 byte được phân cách bằng dấu chấm để tạo thành ký hiệu rõ ràng, dễ đọc.
 
 
-ví dụ: Address 172.16.254.1_
+ví dụ: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Cuối cùng, các giao thức định tuyến động bao gồm các tiêu chu�
 ### Sự định nghĩa
 
 
-NAT (Network Address Translation_) là một kỹ thuật được phát triển để giải quyết vấn đề cạn kiệt dần địa chỉ IPv4 khả dụng. Được thiết kế như một giải pháp tạm thời trước khi IPv6 được áp dụng rộng rãi, NAT cho phép các công ty và cá nhân tiếp tục kết nối số lượng lớn máy tính trong khi chỉ sử dụng một bộ địa chỉ IP công cộng hạn chế.
+NAT (Network Address Translation) là một kỹ thuật được phát triển để giải quyết vấn đề cạn kiệt dần địa chỉ IPv4 khả dụng. Được thiết kế như một giải pháp tạm thời trước khi IPv6 được áp dụng rộng rãi, NAT cho phép các công ty và cá nhân tiếp tục kết nối số lượng lớn máy tính trong khi chỉ sử dụng một bộ địa chỉ IP công cộng hạn chế.
 
 
 **Lưu ý quan trọng:** Việc chuyển đổi từ IPv4 sang IPv6 về mặt lý thuyết sẽ giải quyết vấn đề cạn kiệt bằng cách mở rộng không gian Address từ 32 bit lên 128 bit, cung cấp số lượng địa chỉ gần như không giới hạn (2^128). Tuy nhiên, trên thực tế, quá trình chuyển đổi vẫn chưa hoàn tất, và NAT vẫn được sử dụng rộng rãi cho đến ngày nay.

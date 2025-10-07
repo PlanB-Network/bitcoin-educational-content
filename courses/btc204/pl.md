@@ -916,7 +916,7 @@ Interpretacja ponownego użycia Address jest taka, że wszystkie UTXO zablokowan
 Jak wyjaśniono we wstępie do części 3, heurystyka ta została odkryta przez samego Satoshi Nakamoto. W Białej Księdze wspomina on o rozwiązaniu, które ma pomóc użytkownikom uniknąć jej generowania, polegającym po prostu na użyciu pustego Address dla każdej nowej transakcji:
 
 
-"_Jako dodatkowy firewall, dla każdej transakcji można użyć nowej pary kluczy, aby nie były one powiązane ze wspólnym właścicielem."
+"_Jako dodatkowy firewall, dla każdej transakcji można użyć nowej pary kluczy, aby nie były one powiązane ze wspólnym właścicielem._"
 
 
 ![BTC204](assets/pl/055.webp)
@@ -987,7 +987,7 @@ Z drugiej strony, jeśli transakcja nie pasuje do żadnego znanego modelu transa
 CIOH został odkryty przez Satoshi Nakamoto. Mówi o tym w części 10 Białej Księgi:
 
 
-"_[...] łączenie jest nieuniknione w przypadku transakcji z wieloma wpisami, które z konieczności ujawniają, że ich wpisy należały do tego samego właściciela. Ryzyko polega na tym, że jeśli właściciel klucza zostanie ujawniony, linki mogą ujawnić inne transakcje, które należały do tego samego właściciela."
+"_[...] łączenie jest nieuniknione w przypadku transakcji z wieloma wpisami, które z konieczności ujawniają, że ich wpisy należały do tego samego właściciela. Ryzyko polega na tym, że jeśli właściciel klucza zostanie ujawniony, linki mogą ujawnić inne transakcje, które należały do tego samego właściciela._"
 
 
 ![BTC204](assets/pl/061.webp)
@@ -5797,7 +5797,7 @@ W tym celu BIP352 wymaga od odbiornika użycia 2 różnych par kluczy:
 
 
 - b_{\text{spend}}$: do obliczania kluczy prywatnych unikalnych adresów płatności;
-- b_{\text{scan}}$: aby znaleźć unikalne adresy płatności.
+- **b_scan**: aby znaleźć unikalne adresy płatności.
 
 
 W ten sposób Bob może przechowywać klucz prywatny $b_{\text{spend}}$ na Hardware Wallet i używać klucza prywatnego $b_{\text{scan}}$ w oprogramowaniu online, aby znaleźć swoje Silent Payments, bez ujawniania $b_{\text{spend}}$. Z drugiej strony, klucze publiczne $B_{\text{scan}}$ i $B_{\text{spend}}$ są publicznie ujawnione, ponieważ znajdują się w statycznym Address $B$ Boba:
@@ -5986,7 +5986,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 Ważną kwestią dotyczącą adresów statycznych, którą można było zrozumieć w poprzednich sekcjach, jest to, że adresy te nie są widoczne w transakcjach Bitcoin. Tylko adresy płatności $P$ używane w wyjściach pojawiają się na Blockchain w standardowym formacie Taproot. Tak więc z zewnątrz niemożliwe jest odróżnienie transakcji obejmującej Silent Payment od zwykłej transakcji wykorzystującej wyjścia P2TR.
 
 
-Podobnie jak w przypadku BIP47, niemożliwe jest ustanowienie połączenia między statycznym Address $B$ a płatniczym Address $P$ wyprowadzonym z $B$. Rzeczywiście, nawet jeśli Ewa, potencjalny atakujący, spróbuje zeskanować Blockchain za pomocą statycznego Address $B$ Boba, nie będzie w stanie wykonać obliczeń wymaganych do określenia $P$. Aby to zrobić, potrzebowałaby albo klucza prywatnego Boba $b_{\text{scan}}$, albo kluczy prywatnych nadawcy $a$, ale oba są oczywiście prywatne. Możliwe jest zatem wyraźne powiązanie statycznego Address z formą tożsamości osobistej.
+Podobnie jak w przypadku BIP47, niemożliwe jest ustanowienie połączenia między statycznym Address **B** a płatniczym Address **P** wyprowadzonym z **B**. Rzeczywiście, nawet jeśli Ewa, potencjalny atakujący, spróbuje zeskanować Blockchain za pomocą statycznego Address **B** Boba, nie będzie w stanie wykonać obliczeń wymaganych do określenia **P**. Aby to zrobić, potrzebowałaby albo klucza prywatnego Boba **b_scan**, albo kluczy prywatnych nadawcy **a**, ale oba są oczywiście prywatne. Możliwe jest zatem wyraźne powiązanie statycznego Address z formą tożsamości osobistej.
 
 
 ### Jak korzystać z Silent Payments?

@@ -209,7 +209,7 @@ In definitiva, la migliore difesa è l'educazione personale, un sano scetticismo
 ### Come evitare le truffe
 
 **Per rimanere al sicuro online, soprattutto nel mondo delle crypto, è bene che ricordi questi principi chiave:**
-- Mai fidarsi ciecamente: _"_Don't trust, verify_";
+- Mai fidarsi ciecamente: _"Don't trust, verify"_;
 - Sii scettico nei confronti di rendimenti garantiti o insolitamente elevati;
 - Non condividere mai le tue chiavi private con nessuno;
 - Non inviare Bitcoin (o altre crypto) a indirizzi sconosciuti;
@@ -2519,7 +2519,6 @@ Ancora una volta, complimenti per i progressi fatti. E ricorda: il mio obiettivo
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

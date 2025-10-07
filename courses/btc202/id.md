@@ -388,9 +388,9 @@ Menurut [data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr] (https://luke
 
 
 
-- Bitcoin core**: 87.3% dari node
-- Bitcoin Knots**: 12.5
-- Implementasi kumulatif lainnya**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% dari node
+- **Bitcoin Knots**: 12.5
+- **Implementasi kumulatif lainnya**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core ditulis dalam bahasa C++. Proyek ini juga merupakan proyek sumber t
 
 
 
-- Kontributor** mengajukan proposal dalam bentuk _pull request_ (PR). Pada prinsipnya, setiap orang dapat mengajukan usulan perubahan, tetapi harus diuji, didokumentasikan, dan melalui proses peninjauan sejawat.
+- **Kontributor** mengajukan proposal dalam bentuk _pull request_ (PR). Pada prinsipnya, setiap orang dapat mengajukan usulan perubahan, tetapi harus diuji, didokumentasikan, dan melalui proses peninjauan sejawat.
 - Para **pengelola** memiliki hak untuk menyetujui dan menggabungkan PR. Merekalah yang menjamin koherensi dan stabilitas proyek. Pada bulan Juli 2025, ada lima orang: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao, dan Ryan Ofsky.
 - Tidak ada **pemelihara utama** sejak Februari 2023. Peran ini awalnya dipegang oleh Satoshi Nakamoto saat peluncuran Bitcoin, kemudian oleh Gavin Andresen setelah kepergian Nakamoto pada awal 2011, dan akhirnya oleh Wladimir J. Van Der Laan dari tahun 2014 hingga 2023.
 
@@ -446,9 +446,9 @@ Kami juga dapat menyebutkan:
 
 
 
-- Libbitcoin**: sebuah pustaka C++ modular yang dikembangkan oleh Amir Taaki dan dikelola oleh Eric Voskuil;
-- Bcoin**: implementasi JavaScript, tidak lagi dikelola secara aktif;
-- BTCD/btcsuit**e: sebuah implementasi di Go.
+- **Libbitcoin**: sebuah pustaka C++ modular yang dikembangkan oleh Amir Taaki dan dikelola oleh Eric Voskuil;
+- **Bcoin**: implementasi JavaScript, tidak lagi dikelola secara aktif;
+- **BTCD/btcsuite**: sebuah implementasi di Go.
 
 
 
@@ -590,7 +590,7 @@ Aspek penting yang sering disalahpahami adalah bahwa mengoperasikan sebuah node 
 
 
 
-- Aturan konsensus**:
+- **Aturan konsensus**:
 
 
 
@@ -604,7 +604,7 @@ Mengubah aturan ini sama dengan mengubah protokol, dan oleh karena itu mata uang
 
 
 
-- Aturan estafet**:
+- **Aturan estafet**:
 
 
 
@@ -616,7 +616,7 @@ Sebagai contoh, sebuah transaksi tanpa biaya, menurut aturan konsensus, sangat v
 
 
 
-Memutar simpul Anda sendiri berarti menegaskan: "Saya memvalidasi apa yang saya pilih untuk divalidasi, sesuai dengan aturan yang saya terapkan sendiri "*. Dengan demikian, Anda menjadi aktor dalam tata kelola sistem, dapat menolak evolusi yang tampaknya tidak dapat Anda terima, atau menyetujui pembaruan sesuai dengan kriteria Anda sendiri.
+Memutar simpul Anda sendiri berarti menegaskan: "Saya memvalidasi apa yang saya pilih untuk divalidasi, sesuai dengan aturan yang saya terapkan sendiri". Dengan demikian, Anda menjadi aktor dalam tata kelola sistem, dapat menolak evolusi yang tampaknya tidak dapat Anda terima, atau menyetujui pembaruan sesuai dengan kriteria Anda sendiri.
 
 
 
@@ -882,8 +882,8 @@ Ada 2 alasan yang memungkinkan untuk memilih Knot daripada Core:
 
 
 
-- Teknik**: Opsi yang berbeda dari Core, terutama dalam hal manajemen relai, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
-- Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core pernah dikompromikan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terawat dengan baik, tetapi juga untuk mengetahui cara menggunakannya secara efektif. Yang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak menyetujui sebagian besar manajemen klien.
+- **Teknik**: Opsi yang berbeda dari Core, terutama dalam hal manajemen relai, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
+- **Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core pernah dikompromikan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terawat dengan baik, tetapi juga untuk mengetahui cara menggunakannya secara efektif. Yang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak menyetujui sebagian besar manajemen klien.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel dapat tetap sangat minimalis dan hanya berfokus pada Bitcoin, atau berevo
 
 
 
-- Node Bitcoin sederhana**: ini adalah penggunaan awal yang menjadi andalan Umbrel sejak awal. Anda dapat menjalankan Bitcoin core (atau Knot), menghubungkan dompet Anda secara langsung ke node Anda, mengekspos server Electrum, meng-host Mempool Block explorer Anda untuk melihat Blockchain, dan memperkirakan biaya... Penggunaan-penggunaan inilah yang akan kita fokuskan dalam kursus ini.
+- **Node Bitcoin sederhana**: ini adalah penggunaan awal yang menjadi andalan Umbrel sejak awal. Anda dapat menjalankan Bitcoin core (atau Knot), menghubungkan dompet Anda secara langsung ke node Anda, mengekspos server Electrum, meng-host Mempool Block explorer Anda untuk melihat Blockchain, dan memperkirakan biaya... Penggunaan-penggunaan inilah yang akan kita fokuskan dalam kursus ini.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel dapat tetap sangat minimalis dan hanya berfokus pada Bitcoin, atau berevo
 
 
 
-- Lightning Network**: Umbrel juga memungkinkan Anda menggunakan LND atau Core Lightning, dua implementasi dari Lightning Network, untuk mengelola node Lightning Anda sendiri. Anda akan dapat membuka saluran, mengelola likuiditas, melakukan pembayaran, mengotomatiskan penyeimbangan, menawarkan layanan, menghubungkan Wallet jarak jauh, atau memanfaatkan manajemen Interface tingkat lanjut berkat banyak aplikasi yang tersedia. Kita akan melihat kasus penggunaan khusus ini dalam kursus LNP 202 berikutnya.
+- **Lightning Network**: Umbrel juga memungkinkan Anda menggunakan LND atau Core Lightning, dua implementasi dari Lightning Network, untuk mengelola node Lightning Anda sendiri. Anda akan dapat membuka saluran, mengelola likuiditas, melakukan pembayaran, mengotomatiskan penyeimbangan, menawarkan layanan, menghubungkan Wallet jarak jauh, atau memanfaatkan manajemen Interface tingkat lanjut berkat banyak aplikasi yang tersedia. Kita akan melihat kasus penggunaan khusus ini dalam kursus LNP 202 berikutnya.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel dapat tetap sangat minimalis dan hanya berfokus pada Bitcoin, atau berevo
 
 
 
-- Hosting mandiri umum**: dengan Nextcloud, Immich, Jellyfin/Plex, pemblokir iklan di seluruh DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), otomatisasi rumah (Asisten Rumah Tangga), pencadangan, manajemen catatan, alat kantor, AI lokal (Ollama + Open WebUI)... Umbrel dapat menjadi server pribadi Anda, memungkinkan Anda untuk mendapatkan kembali kendali atas data Anda. Anda meng-host sendiri layanan yang Anda gunakan setiap hari, dengan pengalaman pengguna yang dipoles yang sangat mirip dengan solusi eksternal, sambil mempertahankan kontrol penuh atas data dan privasi Anda.
+- **Hosting mandiri umum**: dengan Nextcloud, Immich, Jellyfin/Plex, pemblokir iklan di seluruh DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), otomatisasi rumah (Asisten Rumah Tangga), pencadangan, manajemen catatan, alat kantor, AI lokal (Ollama + Open WebUI)... Umbrel dapat menjadi server pribadi Anda, memungkinkan Anda untuk mendapatkan kembali kendali atas data Anda. Anda meng-host sendiri layanan yang Anda gunakan setiap hari, dengan pengalaman pengguna yang dipoles yang sangat mirip dengan solusi eksternal, sambil mempertahankan kontrol penuh atas data dan privasi Anda.
 
 
 
@@ -1759,8 +1759,8 @@ Sebelum menghidupkan ulang perangkat, periksa dua hal berikut ini:
 
 
 
-- Kunci USB dicabut**: jika tetap tersambung, sistem mungkin akan melakukan boot ulang dan bukannya menggunakan disk internal;
-- Kabel Ethernet dicolokkan**: perangkat harus tersambung ke router agar dapat beroperasi.
+- **Kunci USB dicabut**: jika tetap tersambung, sistem mungkin akan melakukan boot ulang dan bukannya menggunakan disk internal;
+- **Kabel Ethernet dicolokkan**: perangkat harus tersambung ke router agar dapat beroperasi.
 
 
 
@@ -2285,9 +2285,9 @@ Anda kemudian akan menemukan tiga opsi untuk menautkan perangkat lunak Anda ke n
 
 
 
-- Public Server* (kuning): secara default, jika Anda tidak memiliki node Bitcoin, opsi ini menghubungkan Anda ke node publik yang tidak Anda miliki (biasanya milik perusahaan). Opsi ini tidak relevan di sini, karena Anda memiliki node Anda sendiri di Umbrel.
-- Bitcoin core* (Green): opsi ini sesuai dengan koneksi melalui Interface RPC, yaitu langsung ke Bitcoin core.
-- Private Electrum* (biru): opsi ini memungkinkan Anda terhubung melalui pengindeks Interface Electrum Server (Electrs atau Fulcrum) milik pengindeks Anda.
+- **Public Server** (kuning): secara default, jika Anda tidak memiliki node Bitcoin, opsi ini menghubungkan Anda ke node publik yang tidak Anda miliki (biasanya milik perusahaan). Opsi ini tidak relevan di sini, karena Anda memiliki node Anda sendiri di Umbrel.
+- **Bitcoin core** (Green): opsi ini sesuai dengan koneksi melalui Interface RPC, yaitu langsung ke Bitcoin core.
+- Private Electrum (biru): opsi ini memungkinkan Anda terhubung melalui pengindeks Interface Electrum Server (Electrs atau Fulcrum) milik pengindeks Anda.
 
 
 

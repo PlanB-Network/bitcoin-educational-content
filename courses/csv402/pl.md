@@ -378,7 +378,7 @@ Zobowiązania (*commitments*) zawarte w Blockchain są niewielkie (rzędu kilkud
 
 
 
-- Prywatność :**
+- Prywatność:
 
 
 Same transakcje (tj. ich szczegółowa treść) nie są publikowane On-Chain. Publikowane są jedynie ich odciski palców (*Hash*). W ten sposób kwoty, adresy i logika Contract pozostają prywatne, a odbiorca może lokalnie zweryfikować ważność swojego Shard, sprawdzając wszystkie poprzednie transakcje. Nie ma powodu, aby odbiorca upubliczniał te dane, z wyjątkiem sytuacji spornych lub wymagających dowodu.
@@ -547,7 +547,7 @@ Podsumowując:
 
 - Definicja _seal_ to UTXO, który ma być Seal przyszłego Commitment;
 - Zamknięcie _seal closing_ następuje po wydaniu UTXO, tworząc transakcję zawierającą Commitment;
-- Świadectwem_ jest sama transakcja, która dowodzi, że zamknąłeś Seal o tej treści;
+- **Świadectwem** jest sama transakcja, która dowodzi, że zamknąłeś Seal o tej treści;
 - Nie możesz udowodnić, że Seal nie został zamknięty (nie możesz być absolutnie pewien, że UTXO nie został już wydany lub nie zostanie wydany w bloku, którego jeszcze nie widziałeś), ale możesz udowodnić, że rzeczywiście został zamknięty.
 
 
@@ -682,7 +682,7 @@ Podczas pracy nad RGB zidentyfikowaliśmy co najmniej 4 różne sposoby wdrożen
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
-Nie będziemy zagłębiać się w szczegóły każdej z tych konfiguracji, ponieważ w RGB zdecydowaliśmy się użyć **punktu wyjścia_ jako definicji Seal** i umieścić _commitment_ na wyjściu transakcji wydającej ten _punkt wyjścia_. Możemy zatem wprowadzić następujące koncepcje dla sequela:
+Nie będziemy zagłębiać się w szczegóły każdej z tych konfiguracji, ponieważ w RGB zdecydowaliśmy się użyć **punktu wyjścia** jako definicji **Seal** i umieścić _commitment_ na wyjściu transakcji wydającej ten _punkt wyjścia_. Możemy zatem wprowadzić następujące koncepcje dla sequela:
 
 
 
@@ -3959,7 +3959,7 @@ Przeanalizujmy ten adres URL:
 
 
 
-- `RGB:`** (prefiks): wskazuje link wywołujący protokół RGB (analogiczny do `http:` lub `Bitcoin:` w innych kontekstach);
+- **`RGB:`** (prefiks): wskazuje link wywołujący protokół RGB (analogiczny do `http:` lub `Bitcoin:` w innych kontekstach);
 - **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: reprezentuje `ContractId` tokena, którym chcesz manipulować;
 - `/RGB20/100`: wskazuje, że używany jest `RGB20` Interface i że wymagane jest 100 jednostek zasobu. Składnia jest następująca: `/Interface/amount` ;
 - `+utxob:` **określa, że dodawane są informacje o odbiorcy UTXO (a dokładniej definicja Single-Use Seal);**
@@ -4002,7 +4002,7 @@ Tutaj widzimy :
 
 
 
-- `RGB:`**: Prefiks URL ;
+- **`RGB:`** Prefiks URL ;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT) ;
 - **rGB21**: Interface dla aktywów niewymienialnych (NFT);
 - `DbwzvSu-4BZU81jEp-...`: wyraźne odniesienie do unikalnej części NFT, na przykład Hash bloku danych (media, metadane...);

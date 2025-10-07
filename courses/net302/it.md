@@ -892,7 +892,7 @@ Gli indirizzi IP possono essere assegnati in due modi principali:
 *gli indirizzi* **IPv4** sono scritti in un formato a **32 bit** suddiviso in **quattro byte**. Ogni byte contiene 8 bit e rappresenta un numero decimale da 0 a 255. I 4 byte sono separati da punti per formare una notazione chiara e leggibile.
 
 
-esempio: Address 172.16.254.1_
+esempio: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Infine, i protocolli di routing dinamico includono standard come RIP (_Routing I
 ### Definizione
 
 
-Network Address Translation_ (NAT) è una tecnica sviluppata per Address l'esaurimento graduale degli indirizzi IPv4 disponibili. Progettata come soluzione provvisoria prima dell'adozione generalizzata dell'IPv6, la NAT ha permesso ad aziende e privati di continuare a collegare un gran numero di macchine utilizzando solo un insieme limitato di indirizzi IP pubblici.
+**Network Address Translation** (NAT) è una tecnica sviluppata per Address l'esaurimento graduale degli indirizzi IPv4 disponibili. Progettata come soluzione provvisoria prima dell'adozione generalizzata dell'IPv6, la NAT ha permesso ad aziende e privati di continuare a collegare un gran numero di macchine utilizzando solo un insieme limitato di indirizzi IP pubblici.
 
 
 **Il passaggio da IPv4 a IPv6 risolve teoricamente il problema dell'esaurimento espandendo lo spazio Address da 32 bit a 128 bit, fornendo un numero quasi illimitato di indirizzi (2^128). In pratica, tuttavia, la transizione è ancora incompleta e il NAT rimane ancora oggi ampiamente utilizzato.**

@@ -355,7 +355,7 @@ Nämä kuuluisat heuristiikat voidaan ryhmitellä eri luokkiin, joita kuvaamme y
 
 
 - Tapahtumamallit
-- Transaktioiden sisäiset heuristiikat ;**
+- Transaktioiden sisäiset heuristiikat
 - Tapahtuman ulkopuoliset heuristiikat.
 
 ### Satoshi Nakamoto ja ketjuanalyysi
@@ -1025,7 +1025,7 @@ ___
 *Haluan kiittää niiden tekijöitä, kehittäjiä ja tuottajia. Kiitos myös oikolukijoille, jotka korjasivat huolellisesti artikkelin, johon tämä osa 3 perustuu, ja antoivat minulle asiantuntevia neuvojaan :*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # Parhaat käytännöt yksityisyyden suojaamiseksi
@@ -1243,7 +1243,7 @@ Jos esimerkiksi yksi UTXO:eistasi on peräisin vaihtopalvelusta ja haluat, ettei
 
 Sen valitseminen, mitä UTXO:ta käytetään tässä ensimmäisessä kohdassa, on siis henkilökohtainen päätös, johon vaikuttaa se, mitä olet valmis paljastamaan tai olemaan paljastamatta. UTXO-merkinnät, jotka annat UTXO:ille niitä vastaanotettaessa, auttavat sinua valitsemaan ne, jotka käytettyäsi paljastavat vain sellaisia tietoja, jotka voit mielelläsi paljastaa vastaanottajalle.
 
-Vastaanottajalle mahdollisesti paljastuvien tietojen lisäksi syötteiden valinta vaikuttaa myös siihen, mitä paljastat kaikille lohkoketjun tarkkailijoille. Käyttämällä useita UTXO:ita tapahtuman syötteinä paljastat CIOH-heuristiikan (Common Input Ownership Heuristic_) mukaan, että ne ovat saman tahon omistuksessa.
+Vastaanottajalle mahdollisesti paljastuvien tietojen lisäksi syötteiden valinta vaikuttaa myös siihen, mitä paljastat kaikille lohkoketjun tarkkailijoille. Käyttämällä useita UTXO:ita tapahtuman syötteinä paljastat CIOH-heuristiikan (Common Input Ownership Heuristic) mukaan, että ne ovat saman tahon omistuksessa.
 
 ![BTC204](assets/fi/079.webp)
 
@@ -1844,7 +1844,7 @@ Tärkeä Zerolinkin toteuttama ennaltaehkäisevä toimenpide on pitää sekoitta
 
 ![BTC204](assets/fi/134.webp)
 
-UTXO:iden tiukalla erottelulla pyritään ennen kaikkea estämään sekoitetun UTXO:n ja sekoittamattoman UTXO:n vahingossa tapahtuva yhdistäminen. Jos tällaisia yhteyksiä tapahtuu, sekoitetun UTXO:n coinjoinin tehokkuus peruuntuu käyttäjän tietämättä, mikä vaarantaa sen UTXO:n luottamuksellisuuden, jonka historian hän luuli rikkoneensa. Tällaisia yhteyksiä voi syntyä joko osoitteen uudelleenkäytön kautta, kun sekoitettu UTXO suojataan sekoittamattomalla UTXO:lla, tai CIOH:n (Common-Input-Ownership Heuristic_) soveltamisen kautta, jos käyttäjä käyttää sekoitettuja ja sekoittamattomia UTXO:ita saman tapahtuman syötteinä. Erottelemalla esisekoitetut ja jälkisekoitetut salkut toisistaan vältämme tällaiset tahattomat yhdistelmät ja suojaamme käyttäjää tahattomilta virheiltä.
+UTXO:iden tiukalla erottelulla pyritään ennen kaikkea estämään sekoitetun UTXO:n ja sekoittamattoman UTXO:n vahingossa tapahtuva yhdistäminen. Jos tällaisia yhteyksiä tapahtuu, sekoitetun UTXO:n coinjoinin tehokkuus peruuntuu käyttäjän tietämättä, mikä vaarantaa sen UTXO:n luottamuksellisuuden, jonka historian hän luuli rikkoneensa. Tällaisia yhteyksiä voi syntyä joko osoitteen uudelleenkäytön kautta, kun sekoitettu UTXO suojataan sekoittamattomalla UTXO:lla, tai **CIOH:n (Common-Input-Ownership Heuristic)** soveltamisen kautta, jos käyttäjä käyttää sekoitettuja ja sekoittamattomia UTXO:ita saman tapahtuman syötteinä. Erottelemalla esisekoitetut ja jälkisekoitetut salkut toisistaan vältäm
 
 ![BTC204](assets/fi/135.webp)
 

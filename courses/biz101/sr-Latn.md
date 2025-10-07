@@ -423,7 +423,7 @@ Bitkoin nudi način za akumulaciju i očuvanje kapitala na duži rok bez erozije
 - **Carl Menger**: Osnivač Austrijske škole, Menger je razvio teoriju subjektivne vrednosti, koja tvrdi da vrednost dobara zavisi od individualnih preferencija, a ne od troškova proizvodnje.
 - **Ludwig von Mises**: Kamen temeljac Austrijske škole, Mises je uveo prakseologiju (teoriju ljudske akcije) i napisao knjigu _Ljudska akcija_, duboku kritiku socijalizma i centralnog planiranja.
 - **Friedrich Hayek**: Student Misesa, Hayek je osvojio Nobelovu nagradu za ekonomiju 1974. godine za svoj rad na decentralizovanom znanju i spontanosti tržišta. U svojoj knjizi _Put u ropstvo_, oštro je kritikovao centralizovanu kontrolu.
-- **Murray Rothbard**: Učenik Misesa i odlučan zagovornik libertarijanizma, Rothbard je razvio teoriju anarho-kapitalizma, zamišljajući društvo bez države kojim upravljaju dobrovoljni ugovori. Njegova knjiga _Man, Economy, and State_ (_Čovek, ekonomija i država) je ključno delo u austrijskoj ekonomiji.
+- **Murray Rothbard**: Učenik Misesa i odlučan zagovornik libertarijanizma, Rothbard je razvio teoriju anarho-kapitalizma, zamišljajući društvo bez države kojim upravljaju dobrovoljni ugovori. Njegova knjiga _Man, Economy, and State_ (_Čovek, ekonomija i država_) je ključno delo u austrijskoj ekonomiji.
 
 **Drugi uticajni ekonomisti**
 
@@ -1350,7 +1350,6 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

@@ -677,7 +677,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 
 中本聪发现了 CIOH。他在《白皮书》第 10 部分中谈到了这一点：
 
-"_[......]对于多条目交易，链接是不可避免的，因为这些交易必然会显示其条目是由同一所有人持有的。风险在于，如果密钥的所有者被揭露，链接可能会揭露属于同一所有者的其他交易。
+**[......]对于多条目交易，链接是不可避免的，因为这些交易必然会显示其条目是由同一所有人持有的。风险在于，如果密钥的所有者被揭露，链接可能会揭露属于同一所有者的其他交易。**
 
 ![BTC204](assets/zh-Hans/061.webp)
 
@@ -1022,7 +1022,7 @@ ___
 *我要感谢它们的作者、开发者和制作者。还要感谢校对人员，他们一丝不苟地校正了这篇文章，而这篇文章正是第 3 部分的基础，他们还为我提供了专家建议。*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # 掌握保护隐私的最佳做法

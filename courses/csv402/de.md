@@ -255,7 +255,7 @@ Die clientseitige Validierung bietet zwei wesentliche Vorteile:
 Die in der Blockchain enthaltenen Verpflichtungen (*Commitments*) sind klein (in der Größenordnung von einigen Dutzend Bytes). Dadurch wird sichergestellt, dass der Blockspeicher nicht gesättigt ist, da nur der Hash enthalten sein muss. Es ermöglicht auch die Weiterentwicklung des Off-Chain-Protokolls, da jeder Nutzer nur sein eigenes History-Fragment (seinen _stash_) speichern muss.
 
 
-- Datenschutz :**
+- **Datenschutz:**
 
 Die Transaktionen selbst (d. h. ihr detaillierter Inhalt) werden nicht auf der Kette veröffentlicht. Nur ihre Fingerabdrücke (*Hash*) werden veröffentlicht. Beträge, Adressen und Vertragslogik bleiben also privat, und der Empfänger kann die Gültigkeit seines Scherbens lokal überprüfen, indem er alle früheren Übertragungen untersucht. Es gibt keinen Grund für den Empfänger, diese Daten zu veröffentlichen, außer im Falle eines Rechtsstreits oder wenn ein Beweis erforderlich ist.
 
@@ -2876,7 +2876,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Hier sehen wir:
 
 
-- `rgb:`**: URL-Präfix ;
+- **`rgb:`**: URL-Präfix ;
 - 7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK: **Vertrags-ID (NFT)**;
 - **rGB21**: Schnittstelle für nicht vertretbare Vermögenswerte (NFT);
 - **dbwzvSu-4BZU81jEp-...**: ein expliziter Verweis auf den eindeutigen Teil der NFT, z. B. ein Hash des Datenblob (Medien, Metadaten...) ;

@@ -351,7 +351,7 @@ Toàn bộ mục đích của phân tích chuỗi nằm chính xác trong việc
 Những phương pháp tìm kiếm thông tin nổi tiếng này có thể được nhóm thành nhiều loại khác nhau, chúng tôi sẽ mô tả chi tiết bên dưới:
 
 
-- Mẫu giao dịch ;**
+- Mẫu giao dịch
 - Thuật toán tìm kiếm nội bộ giao dịch;
 - Phương pháp tìm kiếm bên ngoài giao dịch.
 

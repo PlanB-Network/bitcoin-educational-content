@@ -3984,7 +3984,7 @@ Laten we deze URL analyseren:
 
 
 
-- `RGB:`** (prefix): geeft een link aan die het RGB protocol aanroept (analoog aan `http:` of `Bitcoin:` in andere contexten);
+- **`RGB:`** (prefix): geeft een link aan die het RGB protocol aanroept (analoog aan `http:` of `Bitcoin:` in andere contexten);
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: vertegenwoordigt de `ContractId` van de token die je wilt manipuleren;
 - `/RGB20/100`: geeft aan dat de `RGB20` Interface wordt gebruikt en dat 100 eenheden van het goed worden gevraagd. De syntaxis is: `/Interface/bedrag`;
 - `+utxob:`**: geeft aan dat informatie over de ontvanger UTXO (of, preciezer, de definitie van de Single-Use Seal) wordt toegevoegd;**

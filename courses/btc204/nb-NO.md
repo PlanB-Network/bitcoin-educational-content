@@ -352,7 +352,7 @@ Disse berømte heuristikkene kan grupperes i ulike kategorier, som vi vil beskri
 
 
 - Transaksjonsmønstre;
-- Transaksjonsintern heuristikk ;**
+- Transaksjonsintern heuristikk
 - **Heuristikk utenfor transaksjonen**
 
 ### Satoshi Nakamoto og kjedeanalyse
@@ -629,7 +629,7 @@ Tolkningen av gjenbruk av en adresse er at alle UTXO-er som er blokkert på den 
 
 Som forklart i innledningen til del 3, ble denne heuristikken oppdaget av Satoshi Nakamoto selv. I hvitboken nevner han en løsning for å hjelpe brukerne med å unngå å generere den, nemlig å bruke en tom adresse for hver nye transaksjon:
 
-"_Som en ekstra brannmur kan et nytt nøkkelpar brukes for hver transaksjon, slik at de ikke knyttes til en felles eier."
+"_Som en ekstra brannmur kan et nytt nøkkelpar brukes for hver transaksjon, slik at de ikke knyttes til en felles eier._"
 
 ![BTC204](assets/nb-NO/055.webp)
 
@@ -677,7 +677,7 @@ Hvis transaksjonen derimot ikke passer inn i noen kjent samarbeidende transaksjo
 
 CIOH ble oppdaget av Satoshi Nakamoto. Han snakker om det i del 10 av hvitboken:
 
-"_[...] kobling er uunngåelig ved transaksjoner med flere poster, som nødvendigvis avslører at postene har samme eier. Risikoen er at hvis eieren av en nøkkel blir avslørt, kan koblingene avsløre andre transaksjoner som tilhørte samme eier."
+"_[...] kobling er uunngåelig ved transaksjoner med flere poster, som nødvendigvis avslører at postene har samme eier. Risikoen er at hvis eieren av en nøkkel blir avslørt, kan koblingene avsløre andre transaksjoner som tilhørte samme eier._"
 
 ![BTC204](assets/nb-NO/061.webp)
 
@@ -1022,7 +1022,7 @@ ___
 *Jeg vil gjerne takke forfatterne, utviklerne og produsentene. Takk også til korrekturleserne som omhyggelig korrigerte artikkelen som denne del 3 er basert på, og som ga meg sine ekspertråd :*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # Beherske beste praksis for å beskytte personvernet ditt
@@ -2818,7 +2818,7 @@ Dette kan oppnås ved hjelp av HTLC (*Hash Time-Locked Contracts*) eller PTLC (*
 I et myntbyttescenario med HTLC eller PTLC mellom Alice og Bob foregår utvekslingen på en sikker måte: enten lykkes den, og begge mottar den andres BTC, eller så mislykkes den, og begge beholder sin egen BTC. Dette gjør det umulig for noen av partene å jukse eller stjele den andres BTC.
 
 > *HTLC er også mekanismen som brukes til å rute betalinger sikkert gjennom Lightning-nettverkets toveiskanaler*
-Bruken av Adaptor Signatures er spesielt interessant i denne sammenhengen, ettersom den gjør det mulig å unngå tradisjonelle skript (en mekanisme som noen ganger omtales som "_skriptløse skript"). Denne funksjonen reduserer kostnadene forbundet med utveksling. En annen stor fordel med Adaptor Signatures er at de ikke krever bruk av en felles hash for begge parter i transaksjonen, slik at det ikke er nødvendig å avsløre en direkte kobling mellom dem ved visse typer utveksling.
+Bruken av Adaptor Signatures er spesielt interessant i denne sammenhengen, ettersom den gjør det mulig å unngå tradisjonelle skript (en mekanisme som noen ganger omtales som **skriptløse skript**). Denne funksjonen reduserer kostnadene forbundet med utveksling. En annen stor fordel med Adaptor Signatures er at de ikke krever bruk av en felles hash for begge parter i transaksjonen, slik at det ikke er nødvendig å avsløre en direkte kobling mellom dem ved visse typer utveksling.
 
 ### Adaptorsignaturer
 
@@ -4121,7 +4121,7 @@ $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{
 
 I virkeligheten vet Alice ikke engang nødvendigvis at Bob har en merket adresse, ettersom hun bare bruker den andre delen av den statiske adressen han oppga, og i dette tilfellet er det verdien $B_1$ i stedet for $B_{text{spend}}$.
 
-For å skanne betalinger vil Bob alltid bruke verdien av sin opprinnelige statiske adresse med $B_{\text{spend}}$ på denne måten:
+For å skanne betalinger vil Bob alltid bruke verdien av sin opprinnelige statiske adresse med **B_spend** på denne måten:
 
 $$ P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$$
 

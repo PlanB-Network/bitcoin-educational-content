@@ -303,7 +303,7 @@ According to [data collected in August 2025 by Luke Dashjr](https://luke.dashjr.
 In other words, around 9 out of 10 public nodes are running Bitcoin Core. The rest of the network relies on more marginal clients (although Knots' share has risen sharply in recent months, not least in the wake of debates over the `OP_RETURN` size limit). These alternative implementations are often maintained by a single person or a small team.
 
 
-**Note:** These figures are still estimates, however, as they are based primarily on *listening nodes*, i.e., nodes accepting incoming connections (with port 8333 open). Non-listening nodes* are much more complex to count, since it's impossible to connect to them directly: you have to wait for the initiative to come from them, in the form of an outgoing connection. Luke Dashjr's site claims to be trying to count these *non-listening nodes* too, but it remains impossible to obtain perfectly accurate data about them, and the updating of these statistics inevitably lags behind reality.
+**Note:** These figures are still estimates, however, as they are based primarily on *listening nodes*, i.e., nodes accepting incoming connections (with port 8333 open). *Non-listening nodes* are much more complex to count, since it's impossible to connect to them directly: you have to wait for the initiative to come from them, in the form of an outgoing connection. Luke Dashjr's site claims to be trying to count these *non-listening nodes* too, but it remains impossible to obtain perfectly accurate data about them, and the updating of these statistics inevitably lags behind reality.
 
 
 ### Internal operation of Bitcoin Core
@@ -463,7 +463,7 @@ These are rules specific to each Bitcoin node, which are added to the consensus 
 For example, a transaction with no fees is, according to the consensus rules, perfectly valid, but it will be rejected by default according to the Bitcoin Core relay policy, because the `minRelayTxFee` parameter is set to `0.00001` (in BTC/kB). However, it is possible, on your own node, to lower this threshold to relay transactions with lower fees, or, conversely, to increase the limit, for example, to 2 Sats/vB, to avoid relaying low-fee transactions.
 
 
-Spinning your own node means asserting: "I validate what I choose to validate, according to the rules I myself have adopted "*. You thus become an actor in the governance of the system, able to reject an evolution that seems unacceptable to you, or to approve an update according to your own criteria.
+Spinning your own node means asserting: "I validate what I choose to validate, according to the rules I myself have adopted". You thus become an actor in the governance of the system, able to reject an evolution that seems unacceptable to you, or to approve an update according to your own criteria.
 
 
 So we can quickly try to understand how much power you have over the rules thanks to your node. And the extent of this power will depend on the type of rule.
@@ -1707,9 +1707,9 @@ Then click on "*Server*" to access the connection parameters.
 You will then discover three options for linking your software to a Bitcoin node:
 
 
-- Public Server* (yellow): by default, if you don't own a Bitcoin node, this option connects you to a public node you don't own (usually a company's). This option is not relevant here, as you have your own node on Umbrel.
-- Bitcoin Core* (green): this option corresponds to connection via Interface RPC, i.e., directly to Bitcoin Core.
-- Private Electrum* (blue): this option lets you connect via your indexer's Interface Electrum Server (Electrs or Fulcrum).
+- **Public Server** (yellow): by default, if you don't own a Bitcoin node, this option connects you to a public node you don't own (usually a company's). This option is not relevant here, as you have your own node on Umbrel.
+- **Bitcoin Core** (green): this option corresponds to connection via Interface RPC, i.e., directly to Bitcoin Core.
+- Private Electrum (blue): this option lets you connect via your indexer's Interface Electrum Server (Electrs or Fulcrum).
 
 
 ### Connection to Bitcoin Core RPC

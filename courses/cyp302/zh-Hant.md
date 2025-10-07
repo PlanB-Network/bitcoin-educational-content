@@ -1097,7 +1097,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 [2] Jonathan Katz and Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), p. 7f。
 
-[3] Eric Raymond，「The Cathedral and the Bazaar」，論文發表於德國 Würzburg 的 Linux Kongress（1997 年 5 月 27 日）。有許多後續版本以及一本書。我的引文來自該書的第 30 頁：Eric Raymond, _The Cathedral and the Bazaar：我的引文來自書中第 30 頁：Eric Raymond，_The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_，advised edn.(2001), O'Reilly：Sebastopol, CA.
+[3] Eric Raymond，「The Cathedral and the Bazaar」，論文發表於德國 Würzburg 的 Linux Kongress（1997 年 5 月 27 日）。有許多後續版本以及一本書。我的引文來自該書的第 30 頁：Eric Raymond, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_, revised edn.(2001), O'Reilly：Sebastopol, CA.
 
 ## 串流密碼
 

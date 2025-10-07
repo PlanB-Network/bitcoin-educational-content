@@ -270,7 +270,7 @@ Pengar har genomgått en fascinerande utveckling, från byteshandelns dagar till
 Men hur har de pengar vi använder utvecklats till att bli den oumbärliga del av våra liv som de är idag? I det här avsnittet kommer vi att utforska pengarnas utveckling, från dess tidigaste former till de moderna digitala valutor vi använder idag. Vi kommer att fördjupa oss i varje större iteration av pengar och titta på hur de har hjälpt till att forma vårt moderna samhälle.
 
 
-det är viktigt att påpeka att det här avsnittet inte nödvändigtvis är en kronologisk redogörelse för pengarnas utveckling. Istället är det mer av en pedagogisk resa om olika former av pengars uppgång och fall. Många av dessa medium för Exchange har existerat samtidigt, och vissa existerar fortfarande idag på något sätt, i någon form._
+det är viktigt att påpeka att det här avsnittet inte nödvändigtvis är en kronologisk redogörelse för pengarnas utveckling. Istället är det mer av en pedagogisk resa om olika former av pengars uppgång och fall. Många av dessa medium för Exchange har existerat samtidigt, och vissa existerar fortfarande idag på något sätt, i någon form.
 
 
 Efter att ha läst den här introduktionen kanske du undrar: **Varför måste pengar utvecklas och förändras över tiden?**
@@ -943,7 +943,7 @@ Utan utvecklare skulle Bitcoin-nätverket inte kunna utvecklas och anpassas till
 Slutligen finns det ytterligare en roll som vi vill lyfta fram: communityn, som är det som ger Bitcoin dess värde. Gemenskapen består av alla som använder nätverket, gör transaktioner fram och tillbaka och uppmuntrar noderna, gruvarbetarna och utvecklarna att fortsätta arbeta med Bitcoin. I takt med att communityn växer, växer också värdet på Bitcoin-nätverket.
 
 
-det är viktigt att betona att Bitcoin:s decentraliserade natur gör det möjligt för alla, oavsett bakgrund eller status, att delta i nätverket och ta på sig alla de roller som krävs för att det ska fungera. Detta skiljer Bitcoin från traditionella valutor, som ofta är föremål för kontroll av centralbanker eller regeringar. Med andra ord ger Bitcoin makten tillbaka till folket genom att göra det möjligt för dem att vara aktiva deltagare i nätverket snarare än passiva konsumenter av ett centraliserat system._
+det är viktigt att betona att Bitcoin:s decentraliserade natur gör det möjligt för alla, oavsett bakgrund eller status, att delta i nätverket och ta på sig alla de roller som krävs för att det ska fungera. Detta skiljer Bitcoin från traditionella valutor, som ofta är föremål för kontroll av centralbanker eller regeringar. Med andra ord ger Bitcoin makten tillbaka till folket genom att göra det möjligt för dem att vara aktiva deltagare i nätverket snarare än passiva konsumenter av ett centraliserat system.
 
 
 ### En transaktion från början till slut
@@ -973,7 +973,7 @@ Miners tar nu dessa väntande transaktioner, buntar ihop dem till ett nytt block
 När transaktionen har bekräftats ska Bob nu kunna se 0,00100000 Bitcoin i sin Wallet. Men det stannar inte där. Noderna verifierar sedan att Miner har gjort sitt jobb korrekt och att de transaktioner som ingår i det nya blocket uppfyller de regler som noderna har kommit överens om. Om blocket inte gör det kommer det nya blocket att avvisas och Miner kommer att förlora sin Mining-belöning.
 
 
-_**Fun Fact:** Även efter att en Bitcoin-transaktion har bekräftats finns det en möjlighet till reversering om noder avvisar block. Men med varje nytt block som läggs till Blockchain efter transaktionen minskar sannolikheten för reversering exponentiellt. För att öka säkerheten håller börser och plånböcker ofta kvar din Bitcoin tills flera efterföljande block har lagts till - vanligtvis tre till sex. Detta skyddar medel och garanterar sinnesfrid vid transaktioner._ _
+**Fun Fact:** Även efter att en Bitcoin-transaktion har bekräftats finns det en möjlighet till reversering om noder avvisar block. Men med varje nytt block som läggs till Blockchain efter transaktionen minskar sannolikheten för reversering exponentiellt. För att öka säkerheten håller börser och plånböcker ofta kvar din Bitcoin tills flera efterföljande block har lagts till - vanligtvis tre till sex. Detta skyddar medel och garanterar sinnesfrid vid transaktioner.
 
 
 **Slutsats**
@@ -1081,7 +1081,7 @@ Du kanske har märkt ovan att Bitcoin inte bara är en kraftfull tillgång för 
 När vi betraktar fiatvalutor ur perspektivet "tillgången" och "nätverket" blir det uppenbart att vi måste sätta mycket större tillit och beroende till tredje part och mellanhänder. Som exempel kan nämnas
 
 
-#### **Tillgången** - _De fiatvalutor vi använder som värdebevarare (t.ex. US-dollar, euro, yen, franc, brittiska pund etc
+#### **Tillgången** - _De fiatvalutor vi använder som värdebevarare (t.ex. US-dollar, euro, yen, franc, brittiska pund etc.)_
 
 
 **Centralbankerna övervakar penningpolitiken** - Penningpolitiken avser de åtgärder som en centralbank vidtar för att styra räntorna och den totala Supply mängden pengar i omlopp. När centralbanken sänker räntorna eller ökar penningmängden Supply injicerar den nya pengar i ekonomin och späder därmed ut värdet på den befintliga valutan i omlopp. Detta leder till att valutans köpkraft minskar, vilket skapar inflation.
@@ -1165,7 +1165,7 @@ I det här avsnittet kommer vi att fördjupa oss i de olika lagren av transaktio
 ### Bitcoin:s olika skikt
 
 
-Bitcoin:s Blockchain är uppbyggd av block, som namnet antyder. Dessa block har en teoretisk maximal storlek på 4 megabyte. den genomsnittliga blockstorleken i skrivande stund ligger på cirka 1,5 MB._ På grund av denna gräns finns det en begränsning för hur många transaktioner Bitcoin kan behandla per sekund, vilket är mellan sju och tio transaktioner per sekund (tps).
+Bitcoin:s Blockchain är uppbyggd av block, som namnet antyder. Dessa block har en teoretisk maximal storlek på 4 megabyte. Den genomsnittliga blockstorleken i skrivande stund ligger på cirka 1,5 MB. På grund av denna gräns finns det en begränsning för hur många transaktioner Bitcoin kan behandla per sekund, vilket är mellan sju och tio transaktioner per sekund (tps).
 
 
 Därför kan du undra: Hur kan Bitcoin:s Blockchain konkurrera med nätverk som Visa eller Mastercard som har en transaktionshastighet på [1 700 tps] (https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
@@ -1888,7 +1888,7 @@ För det andra finns det i Bitcoin:s kod en funktion som kallas Halving. Ungefä
 om du har studerat ekonomi har du kanske hört talas om "teoremet om den effektiva marknaden", som bygger på idén att marknader är perfekt effektiva på grund av rationellt beteende. Det innebär att tillgångspriserna på finansmarknaderna återspeglar all tillgänglig information, vilket gör det omöjligt att konsekvent uppnå avkastning över genomsnittet genom att analysera historiska data eller annan marknadsinformation
 
 
-denna teori glömmer dock bort att marknader består av individer och att människans natur i sig är irrationell och påverkas av känslor. Denna irrationalitet leder till fördomar, flockbeteende och kognitiva fel, vilket gör att priserna avviker från sitt verkliga värde. Till exempel, i samband med Bitcoin:s Halving-händelser, borde rationella marknader förutse och återspegla framtida reducerade Supply i Bitcoin:s nuvarande pris. De periodiska prisuppgångarna visar dock att deltagarna inte har tagit hänsyn till sådan information. Denna irrationalitet har visat sig ge betydande ekonomiska belöningar till tålmodiga långsiktiga innehavare._
+denna teori glömmer dock bort att marknader består av individer och att människans natur i sig är irrationell och påverkas av känslor. Denna irrationalitet leder till fördomar, flockbeteende och kognitiva fel, vilket gör att priserna avviker från sitt verkliga värde. Till exempel, i samband med **Bitcoin:s Halving-händelser**, borde rationella marknader förutse och återspegla framtida reducerade **Supply** i **Bitcoin:s** nuvarande pris. De periodiska prisuppgångarna visar dock att deltagarna inte har tagit hänsyn till sådan information. Denna irrationalitet har visat sig ge betydande ekonomiska belöningar till tålmodiga långsiktiga innehavare.
 
 
 För det tredje har Bitcoin potential att revolutionera den globala Exchange. För första gången i historien har vi en metod för att göra transaktioner på ett Trustless, tillståndslöst och decentraliserat sätt. Som diskuterats tidigare i denna kurs är detta oöverträffat och erbjuder enorma fördelar för både utvecklade länder och utvecklingsländer.

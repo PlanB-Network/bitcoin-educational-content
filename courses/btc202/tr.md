@@ -388,9 +388,9 @@ Ağustos 2025'te Luke Dashjr] (https://luke.dashjr.org/programs/Bitcoin/files/ch
 
 
 
-- Bitcoin core**: 87.düğümlerin %3'ü
-- Bitcoin Knots**: 12.5
-- Diğer kümülatif uygulamalar**: 0.2 (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.düğümlerin %3'ü
+- **Bitcoin Knots**: 12.5
+- **Diğer kümülatif uygulamalar**: 0.2 (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Başka bir deyişle, 10 genel düğümden yaklaşık 9'u Bitcoin core çalışt�
 
 
 
-**Not:** Ancak bu rakamlar, öncelikle *dinleyen düğümlere*, yani gelen bağlantıları kabul eden düğümlere (8333 numaralı bağlantı noktası açık) dayandığından yine de tahmini rakamlardır. Dinlemeyen düğümleri* saymak çok daha karmaşıktır, çünkü onlara doğrudan bağlanmak imkansızdır: inisiyatifin giden bir bağlantı şeklinde onlardan gelmesini beklemeniz gerekir. Luke Dashjr'ın sitesi bu *dinlemeyen düğümleri* de saymaya çalıştığını iddia ediyor, ancak bunlar hakkında tamamen doğru veriler elde etmek imkansız ve bu istatistiklerin güncellenmesi kaçınılmaz olarak gerçeğin gerisinde kalıyor.
+**Not:** Ancak bu rakamlar, öncelikle *dinleyen düğümlere*, yani gelen bağlantıları kabul eden düğümlere (8333 numaralı bağlantı noktası açık) dayandığından yine de tahmini rakamlardır. *Dinlemeyen düğümleri* saymak çok daha karmaşıktır, çünkü onlara doğrudan bağlanmak imkansızdır: inisiyatifin giden bir bağlantı şeklinde onlardan gelmesini beklemeniz gerekir. Luke Dashjr'ın sitesi bu *dinlemeyen düğümleri* de saymaya çalıştığını iddia ediyor, ancak bunlar hakkında tamamen doğru veriler elde etmek imkansız ve bu istatistiklerin güncellenmesi kaçınılmaz olarak gerçeğin gerisinde kalıyor.
 
 
 
@@ -415,8 +415,8 @@ Bitcoin core C++ dilinde yazılmıştır. Ayrıca, gönüllü olan veya çeşitl
 
 
 
-- Katkıda bulunanlar** tekliflerini _pull requests_ (PR) şeklinde gönderirler. Prensip olarak, herkes bir değişiklik önerebilir, ancak bunun test edilmesi, belgelenmesi ve bir akran değerlendirme sürecinden geçmesi gerekir.
-- Bakımcılar** PR'ları onaylama ve birleştirme hakkına sahiptir. Projenin tutarlılığını ve istikrarını garanti edenler onlardır. Temmuz 2025'te bunlardan beşi vardır: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao ve Ryan Ofsky.
+- **Katkıda bulunanlar** tekliflerini _pull requests_ (PR) şeklinde gönderirler. Prensip olarak, herkes bir değişiklik önerebilir, ancak bunun test edilmesi, belgelenmesi ve bir akran değerlendirme sürecinden geçmesi gerekir.
+- **Bakımcılar** PR'ları onaylama ve birleştirme hakkına sahiptir. Projenin tutarlılığını ve istikrarını garanti edenler onlardır. Temmuz 2025'te bunlardan beşi vardır: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao ve Ryan Ofsky.
 - Şubat 2023'ten bu yana **baş bakım sorumlusu** bulunmamaktadır. Bu rol ilk olarak Satoshi'in lansmanında Bitcoin Nakamoto tarafından, daha sonra Nakamoto'nun 2011'in başlarında ayrılmasının ardından Gavin Andresen tarafından ve son olarak 2014'ten 2023'e kadar Wladimir J. Van Der Laan tarafından üstlenilmiştir.
 
 
@@ -446,9 +446,9 @@ Ayrıca şunu da belirtebiliriz:
 
 
 
-- Libbitcoin**: Amir Taaki tarafından geliştirilen ve Eric Voskuil tarafından bakımı yapılan modüler bir C++ kütüphanesi;
-- Bcoin**: artık aktif olarak bakımı yapılmayan bir JavaScript uygulaması;
-- BTCD/btcsuit**e: Go'da bir uygulama.
+- **Libbitcoin**: Amir Taaki tarafından geliştirilen ve Eric Voskuil tarafından bakımı yapılan modüler bir C++ kütüphanesi;
+- **Bcoin**: artık aktif olarak bakımı yapılmayan bir JavaScript uygulaması;
+- **BTCD/btcsuite**: Go'da bir uygulama.
 
 
 
@@ -590,7 +590,7 @@ Genellikle yanlış anlaşılan önemli bir husus, bir düğümü çalıştırma
 
 
 
-- Konsensüs kuralları**:
+- **Konsensüs kuralları**:
 
 
 
@@ -604,7 +604,7 @@ Bu kuralları değiştirmek protokolü ve dolayısıyla para birimini değiştir
 
 
 
-- Röle kuralları**:
+- **Röle kuralları**:
 
 
 
@@ -616,7 +616,7 @@ Bunlar, Mempool'da kabul edilen ve eşlere iletilen onaylanmamış işlemlerin y
 
 
 
-Kendi düğümünüzü döndürmek, iddia etmek anlamına gelir: "Doğrulamayı seçtiğim şeyi, kendi benimsediğim kurallara göre doğrularım "*. Böylece sistemin yönetiminde bir aktör haline gelirsiniz, size kabul edilemez görünen bir evrimi reddedebilir veya kendi kriterlerinize göre bir güncellemeyi onaylayabilirsiniz.
+Kendi düğümünüzü döndürmek, iddia etmek anlamına gelir: "Doğrulamayı seçtiğim şeyi, kendi benimsediğim kurallara göre doğrularım". Böylece sistemin yönetiminde bir aktör haline gelirsiniz, size kabul edilemez görünen bir evrimi reddedebilir veya kendi kriterlerinize göre bir güncellemeyi onaylayabilirsiniz.
 
 
 
@@ -882,8 +882,8 @@ Core yerine Knots'u seçmenin 2 olası nedeni vardır:
 
 
 
-- Teknikler**: Düğümünüz tarafından hangi işlemlerin kabul edileceğini ve yayınlanacağını belirleyerek, özellikle röle yönetimi açısından Core'dan farklı seçenekler.
-- Politika**: Bazı insanlar Knots gibi alternatif istemcileri teknik olmayan nedenlerle, özellikle de Core'a bir alternatifi desteklemek ve böylece onun tekelini azaltmak için kullanmayı tercih etmektedir. Eğer Core tehlikeye girerse, sadece sağlam, iyi bakımlı alternatif istemcilere sahip olmak değil, aynı zamanda bunları etkili bir şekilde nasıl kullanacaklarını bilmek de yararlı olacaktır. Diğerleri Knots'u protesto amacıyla kullanmaktadır, çünkü Core'un geliştiricilerine olan güvenlerini kaybetmişlerdir ya da istemci yönetiminin çoğunluğunu onaylamamaktadırlar.
+- **Teknikler**: Düğümünüz tarafından hangi işlemlerin kabul edileceğini ve yayınlanacağını belirleyerek, özellikle röle yönetimi açısından Core'dan farklı seçenekler.
+- **Politika**: Bazı insanlar Knots gibi alternatif istemcileri teknik olmayan nedenlerle, özellikle de Core'a bir alternatifi desteklemek ve böylece onun tekelini azaltmak için kullanmayı tercih etmektedir. Eğer Core tehlikeye girerse, sadece sağlam, iyi bakımlı alternatif istemcilere sahip olmak değil, aynı zamanda bunları etkili bir şekilde nasıl kullanacaklarını bilmek de yararlı olacaktır. Diğerleri Knots'u protesto amacıyla kullanmaktadır, çünkü Core'un geliştiricilerine olan güvenlerini kaybetmişlerdir ya da istemci yönetiminin çoğunluğunu onaylamamaktadırlar.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel, ihtiyaçlarınıza bağlı olarak çok minimalist kalabilir ve yalnızca
 
 
 
-- Basit Bitcoin düğümü**: Bu, Umbrel'in en başından beri dayandığı temel kullanımdır. Bitcoin core (veya Knots) çalıştırabilir, cüzdanlarınızı doğrudan düğümünüze bağlayabilir, bir Electrum sunucusunu açığa çıkarabilir, Blockchain'ü görüntülemek için Mempool Block explorer'nizi barındırabilir ve ücretleri tahmin edebilirsiniz... Bu kursta bu kullanımlara odaklanacağız.
+- **Basit Bitcoin düğümü**: Bu, Umbrel'in en başından beri dayandığı temel kullanımdır. Bitcoin core (veya Knots) çalıştırabilir, cüzdanlarınızı doğrudan düğümünüze bağlayabilir, bir Electrum sunucusunu açığa çıkarabilir, Blockchain'ü görüntülemek için Mempool Block explorer'nizi barındırabilir ve ücretleri tahmin edebilirsiniz... Bu kursta bu kullanımlara odaklanacağız.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel, ihtiyaçlarınıza bağlı olarak çok minimalist kalabilir ve yalnızca
 
 
 
-- Lightning Network**: Umbrel ayrıca kendi Lightning düğümünüzü yönetmek için Lightning Network'nin iki uygulaması olan LND veya Core Lightning'i dağıtmanıza olanak tanır. Mevcut birçok uygulama sayesinde kanallar açabilecek, likiditenizi yönetebilecek, ödemeler yapabilecek, dengelemeyi otomatikleştirebilecek, hizmetler sunabilecek, uzak bir Wallet'a bağlanabilecek veya gelişmiş Interface yönetiminden yararlanabileceksiniz. Bir sonraki LNP 202 kursumuzda bu özel kullanım durumunu inceleyeceğiz.
+- **Lightning Network**: Umbrel ayrıca kendi Lightning düğümünüzü yönetmek için Lightning Network'nin iki uygulaması olan LND veya Core Lightning'i dağıtmanıza olanak tanır. Mevcut birçok uygulama sayesinde kanallar açabilecek, likiditenizi yönetebilecek, ödemeler yapabilecek, dengelemeyi otomatikleştirebilecek, hizmetler sunabilecek, uzak bir Wallet'a bağlanabilecek veya gelişmiş Interface yönetiminden yararlanabileceksiniz. Bir sonraki LNP 202 kursumuzda bu özel kullanım durumunu inceleyeceğiz.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel, ihtiyaçlarınıza bağlı olarak çok minimalist kalabilir ve yalnızca
 
 
 
-- Genel self-hosting**: Nextcloud, Immich, Jellyfin/Plex, DNS çapında reklam engelleyiciler (Pi-hole/AdGuard), VPN'ler (WireGuard, Tailscale), ev otomasyonu (Home Assistant), yedeklemeler, not yönetimi, ofis araçları, yerel AI (Ollama + Open WebUI) ile... Umbrel kişisel sunucunuz haline gelebilir ve verilerinizin kontrolünü yeniden kazanmanızı sağlar. Verileriniz ve gizliliğiniz üzerinde tam kontrol sahibi olurken, harici çözümlere çok benzeyen gösterişli bir kullanıcı deneyimi ile her gün kullandığınız hizmetleri kendiniz barındırırsınız.
+- **Genel self-hosting**: Nextcloud, Immich, Jellyfin/Plex, DNS çapında reklam engelleyiciler (Pi-hole/AdGuard), VPN'ler (WireGuard, Tailscale), ev otomasyonu (Home Assistant), yedeklemeler, not yönetimi, ofis araçları, yerel AI (Ollama + Open WebUI) ile... Umbrel kişisel sunucunuz haline gelebilir ve verilerinizin kontrolünü yeniden kazanmanızı sağlar. Verileriniz ve gizliliğiniz üzerinde tam kontrol sahibi olurken, harici çözümlere çok benzeyen gösterişli bir kullanıcı deneyimi ile her gün kullandığınız hizmetleri kendiniz barındırırsınız.
 
 
 
@@ -1759,8 +1759,8 @@ Cihazı yeniden başlatmadan önce aşağıdaki iki noktayı kontrol edin:
 
 
 
-- USB anahtarının fişi çekilmiş**: bağlı kalırsa, sistem dahili disk yerine bu anahtarla yeniden başlatılabilir;
-- Ethernet kablosu takılı**: cihazın çalışması için yönlendiricinize bağlı olması gerekir.
+- **USB anahtarının fişi çekilmiş**: bağlı kalırsa, sistem dahili disk yerine bu anahtarla yeniden başlatılabilir;
+- **Ethernet kablosu takılı**: cihazın çalışması için yönlendiricinize bağlı olması gerekir.
 
 
 
@@ -1768,7 +1768,7 @@ Güç düğmesine basın. Sistem otomatik olarak UmbrelOS'un kurulu olduğu dahi
 
 
 
-Aynı yerel ağa** bağlı başka bir bilgisayardan (günlük bilgisayarınız), bir web tarayıcısı açın (Firefox, Chrome...) ve şu adrese gidin:
+Aynı yerel ağa bağlı başka bir bilgisayardan (günlük bilgisayarınız), bir web tarayıcısı açın (Firefox, Chrome...) ve şu adrese gidin:
 
 
 
@@ -2285,9 +2285,9 @@ Daha sonra yazılımınızı bir Bitcoin düğümüne bağlamak için üç seçe
 
 
 
-- Genel Sunucu* (sarı): varsayılan olarak, bir Bitcoin düğümüne sahip değilseniz, bu seçenek sizi sahip olmadığınız bir genel düğüme (genellikle bir şirketin) bağlar. Umbrel'de kendi düğümünüz olduğu için bu seçenek burada geçerli değildir.
-- Bitcoin core* (Green): bu seçenek Interface RPC üzerinden, yani doğrudan Bitcoin core'ya bağlantıya karşılık gelir.
-- Özel Electrum* (mavi): bu seçenek indeksleyicinizin Interface Electrum Sunucusu (Electrs veya Fulcrum) üzerinden bağlanmanızı sağlar.
+- **Genel Sunucu** (sarı): varsayılan olarak, bir Bitcoin düğümüne sahip değilseniz, bu seçenek sizi sahip olmadığınız bir genel düğüme (genellikle bir şirketin) bağlar. Umbrel'de kendi düğümünüz olduğu için bu seçenek burada geçerli değildir.
+- **Bitcoin core** (Green): bu seçenek Interface RPC üzerinden, yani doğrudan Bitcoin core'ya bağlantıya karşılık gelir.
+- **Özel Electrum** (mavi): bu seçenek indeksleyicinizin Interface Electrum Sunucusu (Electrs veya Fulcrum) üzerinden bağlanmanızı sağlar.
 
 
 
@@ -2582,7 +2582,7 @@ Bu protokol Bitcoin topluluğu içinde çok popülerdir çünkü Bitcoin gibi No
 
 
 
-Umbrel'iniz ile Nostr kullanımınızı optimize edebilirsiniz. Nostr Relay*** uygulamasını yükleyerek, kendi özel aktarıcınızı doğrudan makinenizde barındırabilir, Nostr'daki tüm gönderilerinizin ve etkileşimlerinizin yerel olarak kaydedilmesini ve genel aktarıcılar tarafından silinerek kaybedilmemesini sağlayabilirsiniz.
+Umbrel'iniz ile Nostr kullanımınızı optimize edebilirsiniz. **Nostr Relay** uygulamasını yükleyerek, kendi özel aktarıcınızı doğrudan makinenizde barındırabilir, Nostr'daki tüm gönderilerinizin ve etkileşimlerinizin yerel olarak kaydedilmesini ve genel aktarıcılar tarafından silinerek kaybedilmemesini sağlayabilirsiniz.
 
 
 
@@ -3466,7 +3466,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- `permitbaremultisig=1`: Bare-Multisig* P2MS işlemlerinin aktarılmasına izin verir (varsayılan: `1`). Bu, bir UTXO üzerinde çoklu imza koşulları oluşturmak için kullanılan en eski komut dosyası şablonudur (2011 yılında Gavin Andresen tarafından icat edilmiştir).
+- `permitbaremultisig=1`: Bare-Multisig **P2MS** işlemlerinin aktarılmasına izin verir (varsayılan: `1`). Bu, bir UTXO üzerinde çoklu imza koşulları oluşturmak için kullanılan en eski komut dosyası şablonudur (2011 yılında Gavin Andresen tarafından icat edilmiştir).
 
 
 

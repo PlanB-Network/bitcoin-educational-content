@@ -964,7 +964,7 @@ Kipindi hiki pia kilishuhudia kuwasili kwa mtu mkuu katika historia ya Bitcoin: 
 
 ![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
 
-Gavin Andresen akiwa Townsville, Queensland, Australia (chanzo: [kumbukumbu ya CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin)_
+Gavin Andresen akiwa Townsville, Queensland, Australia (chanzo: [kumbukumbu ya CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin))
 
 Kwa hamu na uvumbuzi, alianza haraka kufanya kazi kwenye mradi wa kibinafsi: "Bitcoin Faucet" ambayo inatoa bitcoins kwa mtu yeyote anayeomba. Mnamo tarehe 11 Juni, [alizindua](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) huduma yake na kuiwasilisha kwenye jukwaa kama ifuatavyo:
 
@@ -993,7 +993,7 @@ Katika sura hii, tunalenga kujadili "upunguzaji mkubwa," yaani, utitiri wa ghafl
 
 ### Toleo la 0.3 la programu
 
-Mwanzo wa majira ya joto 2010 uliwekwa alama na kutolewa kwa toleo la 0.3 la programu, ambayo ilikuwa imeandaliwa kwa muda mrefu na Satoshi Nakamoto na Martti Malmi. Ikilinganishwa na toleo la 0.2, lililotolewa Desemba mwaka uliopita, toleo hili linajumuisha maboresho muhimu kama vile [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\)) (ambayo itakuwa bitcoind), udhibiti wa mstari wa amri, API (kupitia JSON-RPC kitengo cha atimash), optimization ya kitengo cha atimash, kizazi cha atimash cha JSON-RPC. kiwango cha mtumiaji cha Hash. Pia inajumuisha usaidizi wa Mac OS X ulioletwa na mchango wa Laszlo Hanyecz na tafsiri ya picha ya Interface katika Kijerumani, Kiholanzi na Kiitaliano.
+Mwanzo wa majira ya joto 2010 uliwekwa alama na kutolewa kwa toleo la 0.3 la programu, ambayo ilikuwa imeandaliwa kwa muda mrefu na Satoshi Nakamoto na Martti Malmi. Ikilinganishwa na toleo la 0.2, lililotolewa Desemba mwaka uliopita, toleo hili linajumuisha maboresho muhimu kama vile **daemon** (ambayo itakuwa bitcoind), udhibiti wa mstari wa amri, API (kupitia JSON-RPC kitengo cha atimash), optimization ya kitengo cha atimash, kizazi cha atimash cha JSON-RPC. kiwango cha mtumiaji cha Hash. Pia inajumuisha usaidizi wa Mac OS X ulioletwa na mchango wa Laszlo Hanyecz na tafsiri ya picha ya Interface katika Kijerumani, Kiholanzi na Kiitaliano.
 
 Mnamo Juni 22, Satoshi [inauliza](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) wanachama wa mijadala ili kujaribu toleo hili la programu. Anaona kutolewa kwa toleo hili kama wakati muhimu katika uundaji wa Bitcoin na [considers](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) hata kuangusha kipengele cha "beta" kwa kusogeza nambari moja kwa moja hadi toleo la 1.3. Yeye [hurejesha](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) kwa uamuzi wake kwa haraka, hata hivyo.
 

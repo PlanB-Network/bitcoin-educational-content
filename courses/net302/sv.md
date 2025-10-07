@@ -1242,7 +1242,7 @@ Slutligen omfattar dynamiska routingprotokoll standarder som RIP (_Routing Infor
 ### Definition
 
 
-Network Address Translation_ (NAT) är en teknik som utvecklats för att Address den gradvisa uttömningen av tillgängliga IPv4-adresser. NAT utformades som en tillfällig lösning innan IPv6 infördes på bred front och gjorde det möjligt för företag och privatpersoner att fortsätta ansluta ett stort antal maskiner samtidigt som de endast använde en begränsad uppsättning offentliga IP-adresser.
+Network Address Translation (NAT) är en teknik som utvecklats för att **address** den gradvisa uttömningen av tillgängliga IPv4-adresser. NAT utformades som en tillfällig lösning innan IPv6 infördes på bred front och gjorde det möjligt för företag och privatpersoner att fortsätta ansluta ett stort antal maskiner samtidigt som de endast använde en begränsad uppsättning offentliga IP-adresser.
 
 
 **Viktig påminnelse:** Övergången från IPv4 till IPv6 löser teoretiskt sett utmattningsproblemet genom att Address-utrymmet utökas från 32 bitar till 128 bitar, vilket ger ett nästan obegränsat antal adresser (2^128). I praktiken är dock övergången fortfarande ofullständig, och NAT används fortfarande i stor utsträckning idag.
@@ -1327,7 +1327,7 @@ I allmänhet kommer alla protokoll som uttryckligen innehåller den interna IP A
 **Försiktighet:** Även om NAT hjälper till att dölja det interna nätverket och kontrollera inkommande trafik, är det inte en ersättning för en dedikerad brandvägg. Enbart översättning är inte en fullständig säkerhetsbarriär: den måste alltid kompletteras med tydliga filtreringsregler för att blockera oönskad eller oönskad trafik.
 
 
-för att illustrera hur detta fungerar i praktiken, se följande exempel:_
+för att illustrera hur detta fungerar i praktiken, se följande exempel:
 
 
 
@@ -1596,7 +1596,7 @@ ip link set eth1 up
 Skapa tre filer i `/etc/sysconfig/network-scripts`:
 
 
-_ifcfg-bond0_ _ifcfg-bond0
+**ifcfg-bond0** **ifcfg-bond0**
 
 
 ```ini

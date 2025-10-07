@@ -75,9 +75,9 @@ Ardından, Bitcoin'ün teknolojik, ekonomik ve sosyal açılardan neden temelde 
 
 
 
-- hodler*, Bitcoin'i uzun vadede tutmaya odaklanmıştır;
-- düzenli ve metodik olarak satın alan istifleyici*;
-- gW-16'yı günlük olarak kullanmaya öncelik veren kullanıcı*;
+- **hodler**, Bitcoin'i uzun vadede tutmaya odaklanmıştır;
+- düzenli ve metodik olarak satın alan **istifleyici**;
+- gW-16'yı günlük olarak kullanmaya öncelik veren kullanıcı;
 - ve son olarak varlıklarını ve mahremiyetini etkin bir şekilde korumak için maksimum güvenlik isteyen *paranoyak*.
 
 
@@ -127,11 +127,11 @@ Daha ileri gitmeden önce, temelde farklı olan iki dünya arasında net bir ayr
 
 
 
-- Bitcoin ekosistemi** güçlü ademi merkeziyetçilik, uzun vadeli esneklik, mahremiyet ve bireysel egemenlik üzerine inşa edilmiş sağlam para fikri etrafında şekillenmiştir. Bitcoin, 2009'daki lansmanından bu yana, küresel ve kararlı bir geliştirici topluluğu tarafından desteklenerek güvenilir ve emniyetli bir şekilde faaliyet göstermektedir. Bu geçici bir trend değil, zaman içinde değeri korumak için tasarlanmış istikrarlı ve köklü bir protokoldür.
+- **Bitcoin ekosistemi** güçlü ademi merkeziyetçilik, uzun vadeli esneklik, mahremiyet ve bireysel egemenlik üzerine inşa edilmiş sağlam para fikri etrafında şekillenmiştir. Bitcoin, 2009'daki lansmanından bu yana, küresel ve kararlı bir geliştirici topluluğu tarafından desteklenerek güvenilir ve emniyetli bir şekilde faaliyet göstermektedir. Bu geçici bir trend değil, zaman içinde değeri korumak için tasarlanmış istikrarlı ve köklü bir protokoldür.
 
 
 
-- Öte yandan kripto para sektörü** çok daha büyüktür ve her biri kendi token'üne sahip on binlerce farklı proje içerir. Bu alan genellikle hızlı inovasyon, yutturmaca ve kısa vadeli finansal spekülasyonlarla yönlendirilmektedir. Bu projelerin çoğu merkezileştirilmiş, daha az güvenli ve cesur vaatlere ve gösterişli pazarlamaya rağmen çok fazla gerçek değer sunmuyor.
+- Öte yandan **kripto para sektörü** çok daha büyüktür ve her biri kendi token'üne sahip on binlerce farklı proje içerir. Bu alan genellikle hızlı inovasyon, yutturmaca ve kısa vadeli finansal spekülasyonlarla yönlendirilmektedir. Bu projelerin çoğu merkezileştirilmiş, daha az güvenli ve cesur vaatlere ve gösterişli pazarlamaya rağmen çok fazla gerçek değer sunmuyor.
 
 
 ![BTC102-Bitcoin](assets/tr/001.webp)
@@ -298,12 +298,12 @@ Bu gerçek ışığında, dürüst olmayan influencer'ların kurduğu tuzaklara 
 
 
 
-- Herhangi bir kripto yatırım önerisi konusunda çok dikkatli olun.**
+- Herhangi bir kripto yatırım önerisi konusunda çok dikkatli olun.
 
 Güvenilir ve bilgili bir kişi, sizi önce kendi araştırmanızı yapmaya teşvik etmeden asla bir kripto para birimi satın almanız için baskı yapmayacaktır.
 
 
-- Ücretli ticaret veya yatırım kursları her zaman kalite göstergesi değildir.**
+- Ücretli ticaret veya yatırım kursları her zaman kalite göstergesi değildir.
 
 Bu kursların çoğu riskli veya aşırı basit stratejileri teşvik eder; genellikle aynı bilgileri internette ücretsiz olarak bulabilirsiniz.
 
@@ -313,7 +313,7 @@ Bu kursların çoğu riskli veya aşırı basit stratejileri teşvik eder; genel
 Her yatırım stratejisi kişisel bağlama, zamanlamaya, bilgiye ve birebir kopyalanamayan diğer faktörlere bağlıdır.
 
 
-- Özellikle kulağa gerçek olamayacak kadar iyi gelen tavsiyelere karşı dikkatli olun.**
+- Özellikle kulağa gerçek olamayacak kadar iyi gelen tavsiyelere karşı dikkatli olun.
 
 Gerçekçi olmayan vaatler veya garantili kârlar neredeyse her zaman manipülasyon belirtileridir. Unutmayın: Birinin kendinden emin bir şekilde bir şey söylemesi onu doğru yapmaz.
 
@@ -429,9 +429,9 @@ Bu yaklaşım güçlü bir esneklik sunar ve bir şeyler ciddi şekilde ters git
 Bir parola yöneticisi size izin verir:
 
 
-- Tüm parolalarınızı güvenli bir şekilde** şifreli bir kasada saklayın
-- generate her hesap için otomatik olarak uzun, karmaşık ve benzersiz parolalar**
-- Her şeye güvenli bir şekilde erişmek için sadece bir ana şifre** kullanın
+- Tüm parolalarınızı güvenli bir şekilde **şifreli bir kasada saklayın**
+- generate her hesap için otomatik olarak uzun, karmaşık ve benzersiz parolalar
+- Her şeye güvenli bir şekilde erişmek için sadece bir **ana şifre** kullanın
 
 
 Bir parola yöneticisi ile bir daha asla "Parolamı unuttum" seçeneğine tıklamak veya zayıf, yeniden kullanılan kimlik bilgilerine güvenmek zorunda kalmazsınız. Ayrıca, çoğu parola yöneticisi cihazlarınız (masaüstü, telefon, tablet) arasında sorunsuz bir şekilde senkronize olur ve hatta giriş formlarını otomatik doldurarak güvenli erişimi hem zahmetsiz hem de verimli hale getirir.
@@ -522,7 +522,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 
-- Dosyalarınızı Bitlocker (Windows için) veya VeraCrypt (çoklu platformda kullanılabilir) gibi araçlarla şifrelemek**.
+- Dosyalarınızı Bitlocker (Windows için) veya VeraCrypt (çoklu platformda kullanılabilir) gibi araçlarla **şifrelemek**.
 
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -570,13 +570,13 @@ Bu bölümde, ilk adımlarını atan herkes için, özellikle de ilk satın alı
 
 
 
-- Shitcoins** ve diğer işe yaramaz kripto para birimlerine dikkat edin;
+- **Shitcoins** ve diğer işe yaramaz kripto para birimlerine dikkat edin;
 - Yalnızca kaybetmeyi göze alabileceğiniz **parayla** yatırım yapın;
-- Ticaret** ile **yatırım** arasındaki farkı bilin;
+- **Ticaret** ile **yatırım** arasındaki farkı bilin;
 - Yatırımlarınızın **vergi etkilerinin** farkında olun;
-- Kurtarma cümlenizi** dikkatle koruyun;
+- **Kurtarma cümlenizi** dikkatle koruyun;
 - Alçakgönüllü olun ve **düşük profil** sergileyin (sağduyu güvenliğin bir parçasıdır);
-- Uzun vadeli düşünün**, uzaklaşın ve sabırlı olun (bunu bir maraton olarak düşünün, koşu değil).
+- **Uzun vadeli düşünün**, uzaklaşın ve sabırlı olun (bunu bir maraton olarak düşünün, koşu değil).
 
 
 ![BTC102-Bitcoin](assets/tr/017.webp)
@@ -592,29 +592,29 @@ Bitcoin herkese açıktır, ancak bu hazırlıksız dalmanız gerektiği anlamı
 
 
 
-- seed cümlenizi kaybetmek:** Kurtarma cümleniz (genellikle 12 veya 24 kelime), Wallet'inize bir şey olması durumunda Bitcoin'unuza erişmenin tek yoludur. Eğer kaybederseniz, fonlarınız kalıcı olarak yok olur;
-- Bitcoinlerinizi üçüncü taraf bir platformda saklamak:** Coin'leriniz merkezi bir platformdaysa, onlara gerçekten sahip değilsiniz demektir. Hacklenme, platform arızaları ve hatta fonlara el konulması gibi risklere maruz kalırsınız;
-- Gizliliği ihmal etmek:** Gizliliğinizi korumak, varlıklarınızı güvence altına almanın temel bir parçasıdır. Elinizde ne kadar Bitcoin olduğunu kamuya açıklamak sizi hedef haline getirebilir;
-- Yetersiz çevrimiçi güvenlik:** Cihazlarınızı temel korumalarla (güncellemeler, güçlü parolalar veya 2FA gibi) güvence altına almamak sizi saldırganlar için kolay bir hedef haline getirir ve her şeyinize mal olabilir.
+- **seed cümlenizi kaybetmek:** Kurtarma cümleniz (genellikle 12 veya 24 kelime), Wallet'inize bir şey olması durumunda Bitcoin'unuza erişmenin tek yoludur. Eğer kaybederseniz, fonlarınız kalıcı olarak yok olur;
+- **Bitcoinlerinizi üçüncü taraf bir platformda saklamak:** Coin'leriniz merkezi bir platformdaysa, onlara gerçekten sahip değilsiniz demektir. Hacklenme, platform arızaları ve hatta fonlara el konulması gibi risklere maruz kalırsınız;
+- **Gizliliği ihmal etmek:** Gizliliğinizi korumak, varlıklarınızı güvence altına almanın temel bir parçasıdır. Elinizde ne kadar Bitcoin olduğunu kamuya açıklamak sizi hedef haline getirebilir;
+- **Yetersiz çevrimiçi güvenlik:** Cihazlarınızı temel korumalarla (güncellemeler, güçlü parolalar veya 2FA gibi) güvence altına almamak sizi saldırganlar için kolay bir hedef haline getirir ve her şeyinize mal olabilir.
 
 
 **Finansal hatalar:**
 
 
 
-- Kaybetmeyi göze alabileceğinizden daha fazla yatırım yapın**: Asla borca girmeyin veya kira paranızı Bitcoin'e yatırmayın. Temel finansal istikrarınız her zaman önce gelmelidir.
+- **Kaybetmeyi göze alabileceğinizden daha fazla yatırım yapın**: Asla borca girmeyin veya kira paranızı Bitcoin'e yatırmayın. Temel finansal istikrarınız her zaman önce gelmelidir.
 
 
 
-- Ticaret ve yatırım arasındaki farkı bilmemek**: Alım satım yapmak zaman, beceri ve ciddi bir duygusal disiplin gerektirir. Uzun vadeli yatırım çok daha acemi dostudur.
+- **Ticaret ve yatırım arasındaki farkı bilmemek**: Alım satım yapmak zaman, beceri ve ciddi bir duygusal disiplin gerektirir. Uzun vadeli yatırım çok daha acemi dostudur.
 
 
 
-- Vergileri unutmak**: Her ülkenin kripto için kendi vergi kuralları vardır. Bunları göz ardı etmek, ileride acı verici sürprizlere yol açabilir.
+- **Vergileri unutmak**: Her ülkenin kripto için kendi vergi kuralları vardır. Bunları göz ardı etmek, ileride acı verici sürprizlere yol açabilir.
 
 
 
-- FOMO'ya** kapılmak: Kaybetme korkusuyla düşünmeden satın almak genellikle kötü zamanlamaya ve kötü kararlara yol açar. Sabır en iyi müttefikinizdir.
+- **FOMO'ya** kapılmak: Kaybetme korkusuyla düşünmeden satın almak genellikle kötü zamanlamaya ve kötü kararlara yol açar. Sabır en iyi müttefikinizdir.
 
 
 ![BTC102-Bitcoin](assets/tr/019.webp)
@@ -743,7 +743,7 @@ Bitcoin genellikle popüler yanlış anlamalarla çevrilidir; en yaygın olanlar
 
 
 
-- Ticaret:**
+- **Ticaret:**
 
 
 Dürüst olalım: **muhtemelen ticaret yapmamalısınız.**
@@ -758,14 +758,14 @@ Bitcoin hızlı zengin olma planı değildir.
 
 
 
-- Yatırım:**
+- **Yatırım:**
 
 
 Yatırımcılar, değerinin zaman içinde (aylar, yıllar, hatta on yıllar) artacağı inancıyla Bitcoin satın alarak orta ila uzun vadeli bir bakış açısına sahip olurlar. Elbette Bitcoin'ün fiyatı önemli ölçüde dalgalanabileceği için hala risk vardır. Ancak bu yaklaşım genellikle daha sakin ve çoğu insan için, özellikle de her gün grafiklere bağlı kalarak saatler geçirmek istemeyenler için çok daha pratiktir.
 
 
 
-- Holding (HODL):**
+- **Holding (HODL):**
 
 
 "HODL", "hold" için bir yazım hatası olarak başladı ve kısa sürede Bitcoin kültürünün bir parçası haline geldi. Bugün ise bir onur nişanı.
@@ -806,9 +806,9 @@ Toparlamak gerekirse, her Bitcoin kullanıcısının (özellikle de yeni başlay
 
 
 
-- Kural n°1**: Asla kaybetmeyi göze alabileceğinizden daha fazla yatırım yapmayın. Bitcoin değişken bir varlıktır. Kazanç peşinde koşarak finansal istikrarınızı riske atmayın. Temel ihtiyaçlarınız ve huzurunuz her zaman önce gelmelidir.
-- Kural n°2**: Yutturmacayı körü körüne takip etmeyin veya mucize tavsiyelere güvenmeyin. Trendleri ve gösterişli vaatleri görmezden gelin. Bunun yerine iyi bilgilendirilmiş, rasyonel kararlar almaya odaklanın. Şüpheye düştüğünüzde, üzerinde uyuyun; güvendiğiniz kişilerle konuşun. Yavaş ve düşünceli hareket etmek, maliyetli hatalara acele etmekten daha iyidir.
-- Kural n°3**: Bir plan oluşturun ve uzun vadeli bir vizyona bağlı kalın.
+- **Kural n°1**: Asla kaybetmeyi göze alabileceğinizden daha fazla yatırım yapmayın. Bitcoin değişken bir varlıktır. Kazanç peşinde koşarak finansal istikrarınızı riske atmayın. Temel ihtiyaçlarınız ve huzurunuz her zaman önce gelmelidir.
+- **Kural n°2**: Yutturmacayı körü körüne takip etmeyin veya mucize tavsiyelere güvenmeyin. Trendleri ve gösterişli vaatleri görmezden gelin. Bunun yerine iyi bilgilendirilmiş, rasyonel kararlar almaya odaklanın. Şüpheye düştüğünüzde, üzerinde uyuyun; güvendiğiniz kişilerle konuşun. Yavaş ve düşünceli hareket etmek, maliyetli hatalara acele etmekten daha iyidir.
+- **Kural n°3**: Bir plan oluşturun ve uzun vadeli bir vizyona bağlı kalın.
 
 Tutarlılık, sabır ve disiplin sizi kısa vadeli heyecandan daha ileriye götürecektir. Ay atışlarını hedeflemeyin; sürdürülebilir büyümeyi hedefleyin. Ölümcül hatalardan kaçının ve küçük kazançların zamanla birleşmesine izin verin.
 
@@ -1108,7 +1108,7 @@ Ve son olarak, hükümetler ulusal para birimlerini devalüe ettiklerinde, insan
 Bitcoin, bu kronik parasal istikrarsızlık döngüsüne cesur bir alternatif sunuyor. Devlet tarafından çıkarılan para birimlerinin aksine, hükümetler veya merkez bankaları tarafından değil, fikir birliği ile uygulanan değiştirilemez, matematik tabanlı kurallar üzerine inşa edilmiştir. İhracı öngörülebilir ve yaklaşık 21 milyon coin ile sınırlandırılmıştır, bu da onu zaman içinde değerini korumak için tasarlanmış sağlam bir para biçimi haline getirmektedir. Sansüre karşı dirençli olduğundan, herkes bir kuruma güvenmeden değer depolayabilir ve transfer edebilir. Bölünebilirliği ve taşınabilirliği sayesinde hem erişilebilir hem de pratiktir; herkes için, her yerde finansal altyapı.
 
 
-**Biliyor muydunuz? Tarih boyunca dünya çapında belgelenmiş en az 56 hiperenflasyon vakası yaşanmıştır. Bu vakaların çoğunda tüm ekonomiler çökmüş, yaşam birikimleri yok olmuş ve milyonlarca insan aşırı yoksulluğa itilmiştir. Daha da kötüsü, bu parasal başarısızlıklar genellikle siyasi ayaklanmalar için bir sıçrama tahtası görevi görmüş; 1920'lerde Almanya'da ve 1970'lerde Şili'de olduğu gibi bazen otoriter rejimlere yol açmıştır.
+**Biliyor muydunuz? Tarih boyunca dünya çapında belgelenmiş en az 56 hiperenflasyon vakası yaşanmıştır. Bu vakaların çoğunda tüm ekonomiler çökmüş, yaşam birikimleri yok olmuş ve milyonlarca insan aşırı yoksulluğa itilmiştir. Daha da kötüsü, bu parasal başarısızlıklar genellikle siyasi ayaklanmalar için bir sıçrama tahtası görevi görmüş; 1920'lerde Almanya'da ve 1970'lerde Şili'de olduğu gibi bazen otoriter rejimlere yol açmıştır.**
 
 
 ![BTC102-Bitcoin](assets/tr/039.webp)
@@ -1133,15 +1133,15 @@ Ancak devletin varlıklar ve işlemler üzerinde tam kontrol uygulayabildiği bi
 
 
 
-- Banka hesapları** bir anda dondurulabilir, basit bir hükümet emriyle el konulabilir veya aşırı parasal kısıtlamalarla boşaltılabilir.
+- **Banka hesapları** bir anda dondurulabilir, basit bir hükümet emriyle el konulabilir veya aşırı parasal kısıtlamalarla boşaltılabilir.
 
 
 
-- Altın**, binlerce yıldır değer saklama aracı olarak kullanılmasına rağmen, bölünmesi Hard, taşınması zahmetli ve acil kriz durumlarında kullanılması pratik değildir.
+- **Altın**, binlerce yıldır değer saklama aracı olarak kullanılmasına rağmen, bölünmesi zor, taşınması zahmetli ve acil kriz durumlarında kullanılması pratik değildir.
 
 
 
-- Nakit**, anonim olsa da hacimlidir, el konulması kolaydır ve enflasyon nedeniyle sürekli değer kaybeder.
+- **Nakit**, anonim olsa da hacimlidir, el konulması kolaydır ve enflasyon nedeniyle sürekli değer kaybeder.
 
 
 Ancak Bitcoin pratik bir araçtan çok daha fazlasıdır. Aynı zamanda **barışçıl bir protesto biçimidir**; keyfi güce, merkezileşmeye ve sistemik eşitsizliğe dayalı bir finansal sistemden bağımsızlık ilanıdır. Bitcoin'ü seçmek manipülasyonu, değersizleştirmeyi ve gözetimi reddetmek anlamına gelir. Bu, **egemenliğinizi** geri almak, geleceğinizi güvence altına almak ve kendi servetinizi kontrol etme hakkınızı savunmakla ilgilidir.
@@ -1203,8 +1203,8 @@ Bu sistem, finansal kurumlara duyulan kör kamu güveni üzerine inşa edilmişt
 
 
 
-- Bankanız çökerse, paranız yok olabilir.** Mevduat sigortası planları olsa bile, tarih bu garantilerin sistemik krizler sırasında başarısız olabileceğini göstermiştir.
-- Bankanız fonlarınıza erişimi kısıtlarsa, kendi paranızı çekemeyebilir veya kullanamayabilirsiniz**. Bu durum Yunanistan, Lübnan ve Arjantin'deki ekonomik çöküşler sırasında veya Kanada'daki kamyoncu protestoları gibi siyasi baskılar sırasında birçok kez yaşanmıştır.
+- **Bankanız çökerse, paranız yok olabilir.** Mevduat sigortası planları olsa bile, tarih bu garantilerin sistemik krizler sırasında başarısız olabileceğini göstermiştir.
+- Bankanız fonlarınıza erişimi kısıtlarsa, kendi paranızı çekemeyebilir veya kullanamayabilirsiniz. Bu durum Yunanistan, Lübnan ve Arjantin'deki ekonomik çöküşler sırasında veya Kanada'daki kamyoncu protestoları gibi siyasi baskılar sırasında birçok kez yaşanmıştır.
 
 
 Bitcoin tamamen farklı bir mod sunar; açık, tarafsız ve bozulamaz. Kuralları fikir birliği ile kodlanmıştır ve tüm ağ katılımcıları için eşit olarak geçerlidir.
@@ -1230,11 +1230,11 @@ Bitcoin'i benimsemek, sağlam parayı seçmektir. Bu, mevcut finansal sistemin e
 Bitcoin'ciler hayatın her kesiminden geliyorlar, ancak ortak bir vizyonu paylaşıyorlar: parasal egemenliğin kurumların değil bireylerin elinde olduğu bir dünya. Bunların arasında
 
 
-- Gizliliği savunan ve gözetime direnen Cypherpunks**;
-- Otoriter rejimlerden ve sermaye kontrollerinden kaçan mazlum vatandaşlar**;
-- Bitcoin'yi devlet kontrolünden kurtuluş için bir araç olarak gören anarşistler**;
-- Avusturyalı ekonomistler**, sağlam para ve hükümet manipülasyonundan özgürlüğü savunurlar;
-- Bu yeni parasal paradigmanın derin toplumsal etkilerinin farkında olan mühendisler, finansörler ve ifade özgürlüğü savunucuları**.
+- Gizliliği savunan ve gözetime direnen **Cypherpunks**;
+- Otoriter rejimlerden ve sermaye kontrollerinden kaçan mazlum vatandaşlar;
+- Bitcoin'yi devlet kontrolünden kurtuluş için bir araç olarak gören **anarşistler**;
+- **Avusturyalı ekonomistler**, sağlam para ve hükümet manipülasyonundan özgürlüğü savunurlar;
+- Bu yeni parasal paradigmanın derin toplumsal etkilerinin farkında olan **mühendisler, finansörler ve ifade özgürlüğü savunucuları**.
 
 
 ![BTC102-Bitcoin](assets/tr/043.webp)
@@ -1305,7 +1305,7 @@ Teknik olarak konuşmak gerekirse, yeni bir kripto para birimi oluşturmak inan�
 Aralık 2019'da CoinMarketCap 5.000'in üzerinde token listeledi. NFT'lerin, merkezi olmayan finansın (DeFi) ve sayısız diğer uygulamanın (bazıları meşru, birçoğu şüpheli) yükselişi sayesinde 2025 yılına kadar bu sayı milyonlara ulaştı. Bu tokenlar farklı şekil ve biçimlerde karşımıza çıkmaktadır: bazıları para birimi olduğunu iddia ederken, diğerleri menkul kıymetler, platform araçları, yan zincirler veya dijital sanatın tokenlaştırılmış temsilleri olarak işlev görmektedir.
 
 
-Ama açık olalım: **Bu kripto para birimlerinin çoğu dolandırıcılıktan biraz daha fazlasıdır.
+Ama açık olalım: **Bu kripto para birimlerinin çoğu dolandırıcılıktan biraz daha fazlasıdır.**
 
 Gösterişli teknoloji ve kaygan markalaşma perdesinin ardında, bu projelerin çoğu tek bir şey yapmak için tasarlanmış agresif pazarlama stratejileriyle desteklenmektedir, **Bitcoin'unuzu çıkarın**. Yatırımcıların açgözlülüğüne ve cehaletine oynayarak, devrim niteliğindeki teknoloji veya garantili getiriler hakkında baştan çıkarıcı hikayeler uydururlar; bu iddialar nadiren incelemeye tabi tutulur.
 
@@ -1315,7 +1315,7 @@ Elbette, bu gürültü denizi içinde, küçük bir avuç proje gerçekten sın�
 
 Ancak temel soru hâlâ ortada duruyor:
 
-**Bu yenilikler Bitcoin dışında da gelişebilir mi?
+**Bu yenilikler Bitcoin dışında da gelişebilir mi?**
 
 
 Şimdiye kadar bir gerçek öne çıktı: Bitcoin, küresel bir ağ tarafından desteklenen ve giderek daha fazla benimsenen, gerçekten merkezi olmayan, sansüre dayanıklı tek dijital para olmaya devam ediyor. Altcoinlerin aksine, Bitcoin merkezi şirketler tarafından desteklenmiyor ya da bir avuç geliştirici ve erken yatırımcı tarafından yönetilmiyor. Binlerce saatlik araştırma, geliştirme ve durmak bilmeyen iyileştirme çalışmalarının ağırlığını hak eden tek projedir.
@@ -1388,15 +1388,15 @@ Bitcoin küresel bir ağ olduğundan, ülkeler çok farklı şekillerde yanıt v
 
 
 
-- Çin gibi bazıları ağır kısıtlamalar** getirerek, kullanımı gerçekten durdurmadan engellemeye çalışmaktadır.
+- Çin gibi bazıları **ağır kısıtlamalar** getirerek, kullanımı gerçekten durdurmadan engellemeye çalışmaktadır.
 
 
 
-- Bitcoin'yı bir tehditten ziyade bir fırsat olarak gören İsviçre veya Kanada gibi diğer bazı ülkeler daha sıcak ortamlar** sunmaktadır.
+- Bitcoin'yı bir tehditten ziyade bir fırsat olarak gören İsviçre veya Kanada gibi diğer bazı ülkeler **daha sıcak ortamlar** sunmaktadır.
 
 
 
-- Çoğu hala kararsız**, inovasyon ile gözetimi dengelemeye çalışırken bir yandan da düzenlemeleri deniyor.
+- Çoğu hala kararsız, inovasyon ile gözetimi dengelemeye çalışırken bir yandan da düzenlemeleri deniyor.
 
 
 ![BTC102-Bitcoin](assets/tr/056.webp)
@@ -1455,7 +1455,7 @@ Her biri belirli kullanımlar için uygun olan çeşitli platform türleri vard�
 
 
 
-- Eşler arası Exchange platformları (P2P)**
+- **Eşler arası Exchange platformları (P2P)**
 
 
 Bu platformlar, kullanıcıların merkezi bir aracı olmadan doğrudan birbirleriyle bitcoin alıp satmalarına olanak tanır. Özellikle KYC olmadan çalıştıkları için daha fazla gizlilik sunarlar. Yüz yüze işlem yapabileceğiniz veya çeşitli çevrimiçi ödeme yöntemlerini (SEPA, Revolut, Wise, vb.) kullanabileceğiniz yerel satıcılar bulabilirsiniz.
@@ -1475,7 +1475,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Yalnızca Bitcoin Exchange platformları**
+- Yalnızca **Bitcoin Exchange platformları**
 
 
 Bu platformlar basit ve şeffaf bir hizmet sunarak kullanıcı dostu bir yaklaşım benimsemektedir. Yalnızca Bitcoin'dirler. Genellikle Dolar-Maliyet Ortalaması (DCA) yoluyla bitcoin satın almak için çözümler uygularlar ve kişisel bir Wallet'a otomatik para çekme imkanı sunarlar. Özellikle aşamalı ve güvenli bir şekilde bitcoin biriktirmek isteyen yeni başlayanlar için uygundurlar. Örnekler: Relai, Bull Bitcoin, StackinSat, Bitstack...
@@ -1490,7 +1490,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
-- Genel Amaçlı veya Ticaret Odaklı Exchange Platformları**
+- **Genel Amaçlı veya Ticaret Odaklı Exchange Platformları**
 
 
 Bu platformlar, kaldıraç ve türevler dahil olmak üzere sadece Bitcoin satın almanın ötesinde gelişmiş özellikler sunar. Ancak, ticarete karşı şiddetle tavsiye ediyoruz. Bunun yerine, Bitcoin satın almanızı ve kendi Wallet'nize taşımanızı öneririz. Alım satım yüksek riskli bir faaliyettir ve genellikle uzun vadeli birikime odaklananlar için uygun değildir. Ticaret oyununun dışında kalmak genellikle daha akıllıca bir yoldur.
@@ -1508,9 +1508,9 @@ https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-
 
 
 
-- Bilgisayar korsanlığı**: Güvenliği ihlal edilmiş platformlardan (örneğin MtGox) çok sayıda bitcoin çalınmıştır;
-- Devlet el koyması**: Bir hükümet bir platformu kapatabilir ve kullanıcılarının fonlarını dondurabilir;
-- İflas veya dolandırıcılık**: Çok sayıda platform müşterilerinin paralarıyla birlikte ortadan kaybolmuştur (örn. FTX).
+- **Bilgisayar korsanlığı**: Güvenliği ihlal edilmiş platformlardan (örneğin MtGox) çok sayıda bitcoin çalınmıştır;
+- **Devlet el koyması**: Bir hükümet bir platformu kapatabilir ve kullanıcılarının fonlarını dondurabilir;
+- **İflas veya dolandırıcılık**: Çok sayıda platform müşterilerinin paralarıyla birlikte ortadan kaybolmuştur (örn. FTX).
 
 
 Altın kural basittir: **Eğer özel anahtarlarınıza sahip değilseniz, bitcoinlerinize de gerçekten sahip değilsiniz demektir**. Paranız üzerinde tam egemenlik sağlamak için fonlarınızı her zaman mümkün olan en kısa sürede kişisel bir Wallet'e çekin.
@@ -1538,9 +1538,9 @@ Bitcoin Wallet endüstrisi, her biri farklı ihtiyaçlara ve teknik uzmanlık se
 
 
 
-- Hardware Wallet Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
-- Software Wallet Geliştiriciler**: Bunlar, mobil ve masaüstü uygulamalar yaratan şirketlerden bağımsız geliştiricilere kadar uzanmaktadır. Sundukları teklifler kullanıcı deneyimi, güvenlik ve özellikler açısından farklılık gösterir. Örnekler arasında Sparrow, Wizard Sardine, Galoy, Synonym ve Blockstream bulunmaktadır.
-- DIY (*Kendin Yap*) Cüzdanlar**: Bu açık kaynaklı çözümler, tam kontrol ve üçüncü taraflara minimum bağımlılık isteyen ileri düzey kullanıcılar için tasarlanmıştır. Kendi Wallet'nizi oluşturmak güven bağımlılıklarını azaltır ve güvenlik duruşunuzu artırabilir. Önemli DIY seçenekleri arasında Seedsigner ve Specter DIY bulunmaktadır.
+- **Hardware Wallet Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
+- **Software Wallet Geliştiriciler**: Bunlar, mobil ve masaüstü uygulamalar yaratan şirketlerden bağımsız geliştiricilere kadar uzanmaktadır. Sundukları teklifler kullanıcı deneyimi, güvenlik ve özellikler açısından farklılık gösterir. Örnekler arasında Sparrow, Wizard Sardine, Galoy, Synonym ve Blockstream bulunmaktadır.
+- **DIY (*Kendin Yap*) Cüzdanlar**: Bu açık kaynaklı çözümler, tam kontrol ve üçüncü taraflara minimum bağımlılık isteyen ileri düzey kullanıcılar için tasarlanmıştır. Kendi Wallet'nizi oluşturmak güven bağımlılıklarını azaltır ve güvenlik duruşunuzu artırabilir. Önemli DIY seçenekleri arasında Seedsigner ve Specter DIY bulunmaktadır.
 
 
 Cüzdanlar Bitcoin'de temel bir rol oynamaktadır ve bu kursun ilerleyen bölümlerinde daha derinlemesine incelenecektir.
@@ -1559,9 +1559,9 @@ Mining ekosistemi birkaç büyük oyuncudan oluşmaktadır:
 
 
 
-- Donanım Üreticileri**: Bitmain gibi şirketler, yalnızca Mining Bitcoin için oluşturulan ultra özel çipler olan ASIC'leri (Uygulamaya Özel Entegre Devreler) tasarlar ve üretir.
-- Mining havuzları**: Bunlar, ödül kazanma şanslarını artırmak için bilgi işlem güçlerini birleştiren madenci kolektifleridir. Mining'ün artan zorluğu göz önüne alındığında, havuzlar blok ödüllerini (yeni çıkarılan bitcoinler ve işlem ücretleri) katkılarına göre katılımcılar arasında dağıtarak daha öngörülebilir ödemeler sunar. Örnekler arasında Foundry USA, AntPool, F2Pool, MARA Pool ve Braiins Pool bulunmaktadır.
-- Madenciler**: Bunlar Mining donanım ve yazılımını çalıştıran kişi veya kuruluşlardır. Bir tarafta Antminer S9 gibi makineleri kullanan küçük ölçekli madenciler, diğer tarafta ise Mining'e adanmış devasa tesisleri yöneten Galaxy Digital gibi endüstriyel operasyonlar bulunmaktadır.
+- **Donanım Üreticileri**: Bitmain gibi şirketler, yalnızca Mining Bitcoin için oluşturulan ultra özel çipler olan ASIC'leri (Uygulamaya Özel Entegre Devreler) tasarlar ve üretir.
+- **Mining havuzları**: Bunlar, ödül kazanma şanslarını artırmak için bilgi işlem güçlerini birleştiren madenci kolektifleridir. Mining'ün artan zorluğu göz önüne alındığında, havuzlar blok ödüllerini (yeni çıkarılan bitcoinler ve işlem ücretleri) katkılarına göre katılımcılar arasında dağıtarak daha öngörülebilir ödemeler sunar. Örnekler arasında Foundry USA, AntPool, F2Pool, MARA Pool ve Braiins Pool bulunmaktadır.
+- **Madenciler**: Bunlar Mining donanım ve yazılımını çalıştıran kişi veya kuruluşlardır. Bir tarafta Antminer S9 gibi makineleri kullanan küçük ölçekli madenciler, diğer tarafta ise Mining'e adanmış devasa tesisleri yöneten Galaxy Digital gibi endüstriyel operasyonlar bulunmaktadır.
 
 
 Mining, keşfedilecek birçok katmanı olan kendi başına bir dünyadır; teknik zorluklar, ekonomik teşvikler ve enerji hususlarının tümü devreye girer. Bu alanı daha fazla keşfetmek ve nasıl çalıştığını gerçekten anlamak isteyenler için MIN201 kursumuz bilmeniz gereken her şeyi size sunuyor.
@@ -1579,9 +1579,9 @@ Bitcoin'nın gelişimi, katkıda bulunan birkaç farklı grup aracılığıyla a
 
 
 
-- Bitcoin core geliştiricileri**, Bunlar ana yazılım istemcisini koruyan ve geliştiren bireylerdir. Bunların arasında, depoyu yönetmenin anahtarlarını elinde tutan bakımcılar da vardır. 2025 yılında bunlardan beş tanesi bulunmaktadır: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao ve Ryan Ofsky. Bir de kod değişiklikleri, hata düzeltmeleri veya iyileştirmeler gönderen katılımcılar var. Bu teklifler kabul edilmeden önce akran değerlendirmesinden ve topluluk tartışmasından geçiyor.
-- Katmanlı protokol geliştiricileri**, Bu grup, Bitcoin'un çekirdeğini değiştirmeden yeteneklerini genişletmeyi amaçlayan Lightning Network veya RGB gibi Bitcoin'un üzerine inşa edilen teknolojiler üzerinde çalışmaktadır.
-- Bağımsız geliştiriciler**, Bu geliştiriciler, Mempool.space (işlem etkinliğini izlemek için görsel bir Interface) veya Alby (tarayıcılarda ve uygulamalarda Lightning ödemelerini kullanmaya yönelik araçlar) gibi kullanıcı deneyimini iyileştirmeye yönelik araçlar ve uygulamalar oluşturmaya odaklanır.
+- **Bitcoin core geliştiricileri**, Bunlar ana yazılım istemcisini koruyan ve geliştiren bireylerdir. Bunların arasında, depoyu yönetmenin anahtarlarını elinde tutan bakımcılar da vardır. 2025 yılında bunlardan beş tanesi bulunmaktadır: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao ve Ryan Ofsky. Bir de kod değişiklikleri, hata düzeltmeleri veya iyileştirmeler gönderen katılımcılar var. Bu teklifler kabul edilmeden önce akran değerlendirmesinden ve topluluk tartışmasından geçiyor.
+- **Katmanlı protokol geliştiricileri**, Bu grup, Bitcoin'un çekirdeğini değiştirmeden yeteneklerini genişletmeyi amaçlayan Lightning Network veya RGB gibi Bitcoin'un üzerine inşa edilen teknolojiler üzerinde çalışmaktadır.
+- **Bağımsız geliştiriciler**, Bu geliştiriciler, Mempool.space (işlem etkinliğini izlemek için görsel bir Interface) veya Alby (tarayıcılarda ve uygulamalarda Lightning ödemelerini kullanmaya yönelik araçlar) gibi kullanıcı deneyimini iyileştirmeye yönelik araçlar ve uygulamalar oluşturmaya odaklanır.
 
 
 Herkes Bitcoin core'te değişiklik önerebilir, ancak süreç kasıtlı olarak titizdir. Yeni fikirlerin rafine edilmesi genellikle yıllar alır ve derin teknik anlayış, geniş topluluk katılımı ve birden fazla inceleme katmanı gerektirir. Teklifler tipik olarak **Bitcoin İyileştirme Teklifleri (BIPs)** şeklinde sunulur; bunlardan bazıları asla protokole girmez.
@@ -1627,7 +1627,7 @@ Bitcoin ekosistemini zenginleştiren ana kaplama sistemleri arasında şunlar ye
 
 
 
-- Lightning Network**:
+- **Lightning Network**:
 
 
 Thaddeus Dryja ve Joseph Poon tarafından 2016 yılında yaratılan Lightning Network, anında ve düşük maliyetli ödemeleri mümkün kılmak için tasarlanmış ikinci bir Layer çözümüdür. İki kullanıcı, yalnızca kanal açıldığında veya kapatıldığında Blockchain'da güncellenen bakiye ile işlem yapabilecekleri özel bir kanal açabilir. Kanal içindeki işlemler off-chain'da gerçekleşir, yani Bitcoin Blockchain'da ayrı ayrı kaydedilmeleri gerekmez. Bu yapı, anlık işlemlere ve minimum ücretlere olanak tanıyarak hızlı onay gerektiren düşük değerli işlemler için idealdir.
@@ -1645,7 +1645,7 @@ Lightning'in nasıl çalıştığı hakkında daha fazla bilgi edinmek istiyorsa
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
-- Yan zincirler**:
+- **Yan zincirler**:
 
 
 Yan zincirler, Bitcoin'in ana Blockchain'sına paralel olarak çalışan blok zincirleridir. Bunlar, zincirler arasında hareket eden varlığın aynı değeri korumasını sağlayan iki yönlü bir peg aracılığıyla birbirine bağlanır; yani Sidechain'deki bir Bitcoin, ana zincirde hala bir Bitcoin değerindedir. Her Sidechain'nin tamamen ayrı veya kısmen Bitcoin'lere bağımlı olabilen kendi mutabakat mekanizması vardır.
@@ -1663,7 +1663,7 @@ Liquid'ü daha ayrıntılı olarak incelemek isterseniz, konuyla ilgili ileri d�
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
-- RGB**:
+- **RGB**:
 
 
 RGB, Bitcoin ve Lightning Network'nın üzerinde çalışmak üzere tasarlanmış merkezi olmayan ve gizlilik odaklı bir Smart contract sistemidir. Geleneksel Smart contract platformlarının aksine, RGB bir Client-side Validation modeli kullanır (yani tüm Contract State off-chain'de saklanır ve Bitcoin Blockchain'a yalnızca kriptografik taahhütler yayınlanır). Bu tasarım hem ölçeklenebilirliği hem de gizliliği artırır. RGB ile kullanıcılar token, NFT, merkeziyetsiz kimlik ve hatta DeFi uygulamalarını doğrudan Bitcoin veya Lightning üzerinde yayınlamak için gelişmiş akıllı sözleşmeler oluşturabilir.
@@ -1689,7 +1689,7 @@ Bu katmanlı tasarım, genellikle birçok özelliği tek bir protokolde toplamay
 ![BTC102-Bitcoin](assets/tr/058.webp)
 
 
-**İnternet bir kerede inşa edilmedi; birlikte çalışabilir protokollerden oluşan bir yığın olarak gelişti. Örneğin, TCP/IP ağ iletişimini yönetir, HTTP web'e güç verir ve diğer birçok katman belirli işlevlere hizmet eder. Her bir Layer kendi işi için optimize edilerek sağlam ve modüler bir sistem yaratılmıştır. Bitcoin de aynı felsefeyi takip eder. Temel Layer güçlü ve minimaldir ve Lightning, Liquid veya RGB gibi katmanlı protokoller aracılığıyla ek işlevler eklenir; her biri temeli sağlam tutarken farklı kullanıcı ihtiyaçlarını çözmeye odaklanmıştır.
+**İnternet bir kerede inşa edilmedi; birlikte çalışabilir protokollerden oluşan bir yığın olarak gelişti. Örneğin, TCP/IP ağ iletişimini yönetir, HTTP web'e güç verir ve diğer birçok katman belirli işlevlere hizmet eder. Her bir Layer kendi işi için optimize edilerek sağlam ve modüler bir sistem yaratılmıştır. Bitcoin de aynı felsefeyi takip eder. Temel Layer güçlü ve minimaldir ve Lightning, Liquid veya RGB gibi katmanlı protokoller aracılığıyla ek işlevler eklenir; her biri temeli sağlam tutarken farklı kullanıcı ihtiyaçlarını çözmeye odaklanmıştır.**
 
 
 ### Bitcoin'yı Kabul Etmek için Satıcı Araçları
@@ -1747,7 +1747,7 @@ Bitcoin artık durdurulamaz.
 ### Kişisel Perspektifim
 
 
-"Bitcoin otoyolu" metaforunu her zaman ekosistemin nasıl geliştiğini ve nereye gittiğini anlamanın en doğru ve ilgi çekici yollarından biri olarak görmüşümdür. Bitcoin sadece dijital para değil; kendi güçlü ve kusurlu yönleriyle büyüyen alternatif bir finansal sistem**. Hala genç ve zorluklarla karşı karşıya olsa da, esnekliği inkar edilemez. Yok olup gitmiyor. Aksine, bir kara delik gibi, inkar edilemez bir parasal standart haline gelene kadar etrafındaki her şeyi yavaş yavaş emecektir.
+"Bitcoin otoyolu" metaforunu her zaman ekosistemin nasıl geliştiğini ve nereye gittiğini anlamanın en doğru ve ilgi çekici yollarından biri olarak görmüşümdür. Bitcoin sadece dijital para değil; kendi güçlü ve kusurlu yönleriyle büyüyen alternatif bir finansal sistem**dir**. Hala genç ve zorluklarla karşı karşıya olsa da, esnekliği inkar edilemez. Yok olup gitmiyor. Aksine, bir kara delik gibi, inkar edilemez bir parasal standart haline gelene kadar etrafındaki her şeyi yavaş yavaş emecektir.
 
 
 Bitcoin'ü araba kullandığınız bir yol olarak hayal edin. Şu anda, günlük temel ihtiyaçlarınızı karşılamak için (market alışverişi yapmak, hizmetler için ödeme yapmak veya arabanızı tamir ettirmek) bazen bu yoldan çıkmanız gerekiyor; yani geçici olarak eski finansal sisteme geri dönüyorsunuz. Bunun nedeni, Bitcoin altyapısının hala yapım aşamasında olması ve günlük yaşamın bazı bölümlerinin hala itibari para birimine ve bankalara dayanmasıdır.
@@ -1802,11 +1802,11 @@ BTC satın almak ve yönetmek için herkese uyan tek bir yaklaşım yoktur. Her 
 
 
 
-- Yatırım yapmak istediğiniz miktar**: Fazla risk almadan sadece denemek ve öğrenmek için küçük bir miktar mı satın alıyorsunuz? Yoksa uzun vadede elde tutulacak daha önemli bir yatırım mı planlıyorsunuz?
-- Yatırım sıklığınız**: Tek seferlik bir satın alma işlemi yapıp fonlarınızı hemen güvence altına almak mı istiyorsunuz yoksa fiyat dalgalanmalarını yumuşatmak için Dolar-Maliyet Ortalaması (DCA) gibi bir strateji kullanarak satın alma işlemlerinizi zamana yaymayı mı tercih ediyorsunuz?
-- Bitcoinlerinizle ne yapmak istiyorsunuz**: Kesinlikle uzun vadeli tasarruf olarak mı tutuyorsunuz? Günlük ödemeler için mi kullanıyorsunuz? Ya da belki ikisinden de biraz?
-- Gizlilik konusundaki tutumunuz**: Bitcoin satın almak için kişisel bilgilerinizi vermek ve merkezi platformları kullanmak konusunda rahat mısınız? Yoksa eşler arası, KYC'siz borsalar gibi gizlilik öncelikli yöntemleri mi tercih edersiniz?
-- Kişisel, yasal ve coğrafi bağlamınız**: Yaşadığınız yere bağlı olarak, belirli borsalara erişim kısıtlanmış olabilir. Yerel yasalar ve vergi kuralları da Bitcoin'ünüzü nasıl saklayacağınızı ve kullanacağınızı etkileyebilir.
+- **Yatırım yapmak istediğiniz miktar**: Fazla risk almadan sadece denemek ve öğrenmek için küçük bir miktar mı satın alıyorsunuz? Yoksa uzun vadede elde tutulacak daha önemli bir yatırım mı planlıyorsunuz?
+- **Yatırım sıklığınız**: Tek seferlik bir satın alma işlemi yapıp fonlarınızı hemen güvence altına almak mı istiyorsunuz yoksa fiyat dalgalanmalarını yumuşatmak için Dolar-Maliyet Ortalaması (DCA) gibi bir strateji kullanarak satın alma işlemlerinizi zamana yaymayı mı tercih ediyorsunuz?
+- **Bitcoinlerinizle ne yapmak istiyorsunuz**: Kesinlikle uzun vadeli tasarruf olarak mı tutuyorsunuz? Günlük ödemeler için mi kullanıyorsunuz? Ya da belki ikisinden de biraz?
+- **Gizlilik konusundaki tutumunuz**: Bitcoin satın almak için kişisel bilgilerinizi vermek ve merkezi platformları kullanmak konusunda rahat mısınız? Yoksa eşler arası, KYC'siz borsalar gibi gizlilik öncelikli yöntemleri mi tercih edersiniz?
+- **Kişisel, yasal ve coğrafi bağlamınız**: Yaşadığınız yere bağlı olarak, belirli borsalara erişim kısıtlanmış olabilir. Yerel yasalar ve vergi kuralları da Bitcoin'ünüzü nasıl saklayacağınızı ve kullanacağınızı etkileyebilir.
 
 
 Bu faktörlerin her biri sizin için doğru stratejinin şekillendirilmesinde rol oynar. Bazı kullanıcılar düzenlenmiş hizmetler aracılığıyla basitliğe ve kullanım kolaylığına değer verirken, diğerleri daha özerk ve gizlilik odaklı bir yaklaşımı tercih edecektir.
@@ -1834,20 +1834,20 @@ Bitcoinlerinizi edinmek ve güvence altına almak için doğru stratejiyi seçme
 
 
 
-- Siber saldırılar**: Siber güvenlik konusunda bilgili değilseniz veya savunmasız cihazlar kullanıyorsanız, çevrimiçi saldırıların hedefi haline gelebilirsiniz. Bu durumda, bitcoinlerinizi çevrimdışı olarak saklamak (Cold depolama) daha güvenli bir seçenek olabilir.
-- Fiziksel tehditler**: Ne yazık ki fiziksel saldırılar gerçekleşmektedir; hırsızlık, soygun ve hatta adam kaçırma olayları Bitcoin sahiplerini hedef almıştır. Bu olaylar hala nadir olsa ve çoğunlukla yüksek profilli kişileri etkilese de, güvenlik kurulumunuzu tasarlarken bunları en baştan dikkate almaya değer.
+- **Siber saldırılar**: Siber güvenlik konusunda bilgili değilseniz veya savunmasız cihazlar kullanıyorsanız, çevrimiçi saldırıların hedefi haline gelebilirsiniz. Bu durumda, bitcoinlerinizi çevrimdışı olarak saklamak (Cold depolama) daha güvenli bir seçenek olabilir.
+- **Fiziksel tehditler**: Ne yazık ki fiziksel saldırılar gerçekleşmektedir; hırsızlık, soygun ve hatta adam kaçırma olayları Bitcoin sahiplerini hedef almıştır. Bu olaylar hala nadir olsa ve çoğunlukla yüksek profilli kişileri etkilese de, güvenlik kurulumunuzu tasarlarken bunları en baştan dikkate almaya değer.
 
 
 
-- Doğal afetler**: Orman yangınlarına, sellere veya diğer aşırı hava olaylarına eğilimli bir bölgede yaşıyorsanız, özel anahtarlarınızı koruyan esnek bir yedekleme sistemine sahip olmanız çok önemlidir.
+- **Doğal afetler**: Orman yangınlarına, sellere veya diğer aşırı hava olaylarına eğilimli bir bölgede yaşıyorsanız, özel anahtarlarınızı koruyan esnek bir yedekleme sistemine sahip olmanız çok önemlidir.
 
 
 
-- Devletin el koyması**: Ülkenizde kısıtlayıcı veya istikrarsız mali düzenlemeler varsa, Bitcoin satın alma veya kullanma konusunda sınırlamalarla karşılaşabilirsiniz. Bu gibi durumlarda, özel, gözetim dışı çözümleri tercih etmek isteyeceksiniz.
+- **Devletin el koyması**: Ülkenizde kısıtlayıcı veya istikrarsız mali düzenlemeler varsa, Bitcoin satın alma veya kullanma konusunda sınırlamalarla karşılaşabilirsiniz. Bu gibi durumlarda, özel, gözetim dışı çözümleri tercih etmek isteyeceksiniz.
 
 
 
-- Hafıza kaybı veya veri kaybı**: Özel anahtarları yönetmek, hassas bilgileri saklamanızı ve geri almanızı gerektirir. Unutkanlık veya potansiyel sağlık sorunları konusunda endişeleriniz varsa, güçlü yedekleme sistemleri uygulamak, hatta güvenlik planınıza güvendiğiniz bir kişiyi dahil etmek akıllıca olacaktır.
+- **Hafıza kaybı veya veri kaybı**: Özel anahtarları yönetmek, hassas bilgileri saklamanızı ve geri almanızı gerektirir. Unutkanlık veya potansiyel sağlık sorunları konusunda endişeleriniz varsa, güçlü yedekleme sistemleri uygulamak, hatta güvenlik planınıza güvendiğiniz bir kişiyi dahil etmek akıllıca olacaktır.
 
 
 Güvenlik açıklarınızı daha iyi anlamak için, bu risklerin her birini 0 (düşük) ile 10 (yüksek) arasında bir ölçekte derecelendirin. Bu öz değerlendirme, ileriye dönük doğru korumalara öncelik vermenize yardımcı olacaktır.
@@ -1862,16 +1862,16 @@ Güvenlik açıklarınızı daha iyi anlamak için, bu risklerin her birini 0 (d
 Günlük yaşamınız da bitcoinlerinizi nasıl yöneteceğiniz konusunda büyük bir rol oynar. Yaşam tarzınıza uygun bir kurulum seçmek işleri kolaylaştıracak ve gereksiz sürtüşmelerden kaçınmanıza yardımcı olacaktır.
 
 
-**Basit, otomatik çözümleri tercih edin; otomatik olarak güvenli depoya aktarılan planlanmış satın alımlar gibi.
+**Basit, otomatik çözümleri tercih edin; otomatik olarak güvenli depoya aktarılan planlanmış satın alımlar gibi.**
 
 
-**Daha fazla kontrol ve güvenlik sunan Multisig cüzdanları gibi daha gelişmiş çözümleri tercih edebilirsiniz.
+**Daha fazla kontrol ve güvenlik sunan Multisig cüzdanları gibi daha gelişmiş çözümleri tercih edebilirsiniz.**
 
 
 **Sevdikleriniz veya gelecek nesiller için yatırım mı yapıyorsunuz? ** Miras konusunu erkenden düşünün. Size bir şey olması durumunda bitcoinlerinizin güvenli bir şekilde aktarılabileceğinden emin olmanın yolları vardır.
 
 
-**Bazı satın alma yöntemleri kişisel bilgi gerektirirken (KYC platformları), diğerleri (eşler arası veya Mining gibi) daha fazla gizlilik sunar.
+**Bazı satın alma yöntemleri kişisel bilgi gerektirirken (KYC platformları), diğerleri (eşler arası veya Mining gibi) daha fazla gizlilik sunar.**
 
 
 #### Bitcoin'lerinizi kullanma
@@ -1881,10 +1881,10 @@ Depolama ve yönetim stratejiniz, Bitcoin'ünüzü nasıl kullanmayı düşünd�
 
 
 
-- Uzun vadeli tasarruf**: Bitcoin'i bir yatırım olarak satın alıyorsunuz ve yakın zamanda kullanmayı planlamıyorsunuz. Bu durumda, maksimum güvenlik ve en aza indirilmiş erişim riski çok önemlidir.
-- Kademeli birikim**: Düzenli olarak küçük miktarlarda alım yapıyorsunuz. Güvenli bir Wallet ile eşleştirilmiş Dolar Maliyet Ortalaması (DCA) gibi bir strateji iyi çalışır.
-- Günlük harcamalar**: Bitcoin'ü para gibi kullanın. Küçük günlük ödemeler için mobil bir Wallet kullanın (belki Lightning ile) ve Bitcoin'ünüzün çoğunu daha güvenli bir yerde saklayın.
-- Emekliliğe hazırlanıyor veya servetinizi devrediyorsunuz**: Bitcoin'nızı daha sonra birine devretmek istiyorsunuz. Doğru zaman geldiğinde fon aktarımını kolay ve güvenli hale getiren araçlar kullanın. Zaman kilitli Multisig veya özel miras planları gibi stratejiler, fonlarınızın kaybolmamasını veya çok erken erişilmemesini sağlamak için devreye sokulabilir.
+- **Uzun vadeli tasarruf**: Bitcoin'i bir yatırım olarak satın alıyorsunuz ve yakın zamanda kullanmayı planlamıyorsunuz. Bu durumda, maksimum güvenlik ve en aza indirilmiş erişim riski çok önemlidir.
+- **Kademeli birikim**: Düzenli olarak küçük miktarlarda alım yapıyorsunuz. Güvenli bir Wallet ile eşleştirilmiş Dolar Maliyet Ortalaması (DCA) gibi bir strateji iyi çalışır.
+- **Günlük harcamalar**: Bitcoin'ü para gibi kullanın. Küçük günlük ödemeler için mobil bir Wallet kullanın (belki Lightning ile) ve Bitcoin'ünüzün çoğunu daha güvenli bir yerde saklayın.
+- **Emekliliğe hazırlanıyor veya servetinizi devrediyorsunuz**: Bitcoin'nızı daha sonra birine devretmek istiyorsunuz. Doğru zaman geldiğinde fon aktarımını kolay ve güvenli hale getiren araçlar kullanın. Zaman kilitli Multisig veya özel miras planları gibi stratejiler, fonlarınızın kaybolmamasını veya çok erken erişilmemesini sağlamak için devreye sokulabilir.
 
 
 Risklerinizi, yaşam tarzınızı ve hedeflerinizi gözden geçirdikten sonra, Bitcoin yolculuğunuz için akıllı seçimler yapmaya hazır olacaksınız.
@@ -2110,12 +2110,12 @@ Kimliğinizi açıklamadan Bitcoin satın almak, gizliliğe öncelik verenler i�
 
 
 
-- Özel kişiler arasında eşler arası (P2P)**: Güvendiğiniz bir kişiden (arkadaşlar, aile, yerel ağ, buluşmalar...) doğrudan nakit olarak satın almak, herhangi bir resmi işlem kaydını önler ve sizi bankacılık sisteminin dışında tutar. Bu muhtemelen Bitcoin edinmenin veya satmanın en iyi yolu olsa da, yüz yüze bir Exchange olduğu için fiziksel saldırı riskini de beraberinde getirir.
-- P2P Platformları**: Bisq, RoboSats ve Peach gibi platformlar, işlemleri güvence altına almak için emanet sistemleri kullanarak kimlik doğrulamasına gerek kalmadan özel kişiler arasında alışverişi kolaylaştırır. Bu platformlar, karşı tarafın işbirliği yapmaması halinde hırsızlık riskini hala taşımaktadır, ancak risk emanet hizmetleri ile en aza indirilmiştir.
-- Bitcoin Otomatik Vezne Makineleri (ATM'ler)**: Bazı ATM'ler (kiosklar) nakit para ile Bitcoin satın almanıza izin verir, ancak ücretler yüksek olma eğilimindedir ve bazıları daha büyük işlemler için kimlik doğrulaması gerektirir.
-- KYC içermeyen Exchange platformları**: Özellikle İsviçre'deki bazı platformlar, kimlik doğrulaması gerektirmeden küçük miktarlarda Bitcoin satın almanıza izin verir.
-- Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın] (https://planb.network/tutorials/Mining).
-- Ödemeler / Maaş bitcoin olarak**: Eğer bir işletme işletiyorsanız, ödeme olarak Bitcoin kabul edebilirsiniz. Çalışıyorsanız, yargı alanınıza bağlı olarak, Bitcoin ile ödeme yapılmasını isteyebilirsiniz. Bu yöntemler KYC olmadan Bitcoin elde etmenizi sağlar.
+- **Özel kişiler arasında eşler arası (P2P)**: Güvendiğiniz bir kişiden (arkadaşlar, aile, yerel ağ, buluşmalar...) doğrudan nakit olarak satın almak, herhangi bir resmi işlem kaydını önler ve sizi bankacılık sisteminin dışında tutar. Bu muhtemelen Bitcoin edinmenin veya satmanın en iyi yolu olsa da, yüz yüze bir Exchange olduğu için fiziksel saldırı riskini de beraberinde getirir.
+- **P2P Platformları**: Bisq, RoboSats ve Peach gibi platformlar, işlemleri güvence altına almak için emanet sistemleri kullanarak kimlik doğrulamasına gerek kalmadan özel kişiler arasında alışverişi kolaylaştırır. Bu platformlar, karşı tarafın işbirliği yapmaması halinde hırsızlık riskini hala taşımaktadır, ancak risk emanet hizmetleri ile en aza indirilmiştir.
+- **Bitcoin Otomatik Vezne Makineleri (ATM'ler)**: Bazı ATM'ler (kiosklar) nakit para ile Bitcoin satın almanıza izin verir, ancak ücretler yüksek olma eğilimindedir ve bazıları daha büyük işlemler için kimlik doğrulaması gerektirir.
+- **KYC içermeyen Exchange platformları**: Özellikle İsviçre'deki bazı platformlar, kimlik doğrulaması gerektirmeden küçük miktarlarda Bitcoin satın almanıza izin verir.
+- **Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın](https://planb.network/tutorials/Mining).
+- **Ödemeler / Maaş bitcoin olarak**: Eğer bir işletme işletiyorsanız, ödeme olarak Bitcoin kabul edebilirsiniz. Çalışıyorsanız, yargı alanınıza bağlı olarak, Bitcoin ile ödeme yapılmasını isteyebilirsiniz. Bu yöntemler KYC olmadan Bitcoin elde etmenizi sağlar.
 
 
 **Avantajlar**:
@@ -2392,11 +2392,11 @@ Kendinizi bu kişilik özelliklerinde tanıyorsanız, muhtemelen doğal bir Hodl
 
 
 
-- Sabır**: Bir hodler olağanüstü sabır gösterir. Günlük fiyat dalgalanmalarından etkilenmeden Bitcoin'i yıllarca (bazen on yıllarca) ellerinde tutmaya isteklidirler. Bitcoin'in döngüler halinde hareket ettiğini anlarlar ve fiyat düştüğünde paniğe kapılmazlar. Düzeltmeler sadece oyunun bir parçasıdır. Hodlerlar için değer aylarla değil, uzun vadeyle ölçülür..;
-- Uzun vadeli vizyon**: Hodler kısa vadeli kârların çok ötesinde düşünüyor. Bitcoin'nin yapısal büyümesine ve kademeli olarak küresel çapta benimsenmesine inanıyorlar. Dalgalanmalara rağmen, yukarı yönlü bir yörünge görüyorlar; bir genişleme ve ardından konsolidasyon. Onlara göre Bitcoin uzun ömürlü bir varlık, enflasyona karşı bir koruma ve daha büyük bir parasal devrimin önemli bir parçasıdır;
-- Öz disiplin**: Zihinsel disiplin, hodler zihniyetinin temelidir. Paradoksal olarak, en büyük zorlukları harekete geçmemektir. Fiyat dalgalanmaları sırasında satma dürtüsüne direnirler ve çöküşler sırasında korkuya teslim olmazlar. Bitcoin'ün pek çok acımasız ayı piyasasından sağ çıktığını ve acıya dayanabilenlerin genellikle en çok faydayı sağladığını bilirler;
-- Duygusal esneklik**: Bitcoin'ün fiyatı birkaç hafta içinde %50 veya daha fazla düşebilir; yine de hodler sakin kalır. Dalgalanmanın Bitcoin'ün temellerini zayıflatmadığı fikrini içselleştirmişlerdir. Bu duygusal dayanıklılık, belirsizlik sırasında sakin kalmalarını ve diğerleri paniğe kapıldığında rasyonel bir bakış açısını korumalarını sağlar;
-- Teknolojiye olan inanç**: Hodlers, Bitcoin'i sadece spekülatif bir varlık olarak görmüyor. Teknolojisine ve yıkıcı potansiyeline inanıyorlar. Birçoğu için bu sadece parayla ilgili değil; özgürlükle ilgili. Bitcoin esnek, apolitik bir para birimi ve geleneksel bankacılığa gerçek bir alternatif olarak görülüyor ve bireyleri daha fazla finansal egemenlikle güçlendiriyor.
+- **Sabır**: Bir hodler olağanüstü sabır gösterir. Günlük fiyat dalgalanmalarından etkilenmeden Bitcoin'i yıllarca (bazen on yıllarca) ellerinde tutmaya isteklidirler. Bitcoin'in döngüler halinde hareket ettiğini anlarlar ve fiyat düştüğünde paniğe kapılmazlar. Düzeltmeler sadece oyunun bir parçasıdır. Hodlerlar için değer aylarla değil, uzun vadeyle ölçülür.
+- **Uzun vadeli vizyon**: Hodler kısa vadeli kârların çok ötesinde düşünüyor. Bitcoin'nin yapısal büyümesine ve kademeli olarak küresel çapta benimsenmesine inanıyorlar. Dalgalanmalara rağmen, yukarı yönlü bir yörünge görüyorlar; bir genişleme ve ardından konsolidasyon. Onlara göre Bitcoin uzun ömürlü bir varlık, enflasyona karşı bir koruma ve daha büyük bir parasal devrimin önemli bir parçasıdır;
+- **Öz disiplin**: Zihinsel disiplin, hodler zihniyetinin temelidir. Paradoksal olarak, en büyük zorlukları harekete geçmemektir. Fiyat dalgalanmaları sırasında satma dürtüsüne direnirler ve çöküşler sırasında korkuya teslim olmazlar. Bitcoin'ün pek çok acımasız ayı piyasasından sağ çıktığını ve acıya dayanabilenlerin genellikle en çok faydayı sağladığını bilirler;
+- **Duygusal esneklik**: Bitcoin'ün fiyatı birkaç hafta içinde %50 veya daha fazla düşebilir; yine de hodler sakin kalır. Dalgalanmanın Bitcoin'ün temellerini zayıflatmadığı fikrini içselleştirmişlerdir. Bu duygusal dayanıklılık, belirsizlik sırasında sakin kalmalarını ve diğerleri paniğe kapıldığında rasyonel bir bakış açısını korumalarını sağlar;
+- **Teknolojiye olan inanç**: Hodlers, Bitcoin'i sadece spekülatif bir varlık olarak görmüyor. Teknolojisine ve yıkıcı potansiyeline inanıyorlar. Birçoğu için bu sadece parayla ilgili değil; özgürlükle ilgili. Bitcoin esnek, apolitik bir para birimi ve geleneksel bankacılığa gerçek bir alternatif olarak görülüyor ve bireyleri daha fazla finansal egemenlikle güçlendiriyor.
 
 
 ![BTC102-Bitcoin](assets/tr/072.webp)
@@ -2435,10 +2435,10 @@ Biriktirme, kademeli olarak bir Bitcoin pozisyonu oluştururken piyasa oynaklı�
 
 
 
-- Azaltılmış oynaklık**: Düzenli alımlar, fiyatlar düşükken daha fazla ve yüksekken daha az Sats satın aldığınız için fiyat dalgalanmalarını yumuşatmaya yardımcı olur; maliyet temelinizin ortalamasını alır ve duygusal stresi azaltır.
-- Erişilebilirlik**: Büyük bir başlangıç sermayesine ihtiyacınız yok. Aylık 10 € gibi düşük bir miktarla başlayabilir ve zaman içinde DCA miktarınızı artırabilirsiniz.
-- Disiplin ve otomasyon**: İstifleyiciler duygusal karar vermekten kaçınır. Otomatik olarak yinelenen satın alımlar tutarlılık sağlar ve düşünmeden hareket etme riskini azaltır.
-- Uzun Vadeli Strateji**: Kademeli yatırım, düşüş dönemlerinde riski azaltırken boğa piyasalarından yararlanma şansını artırır.
+- **Azaltılmış oynaklık**: Düzenli alımlar, fiyatlar düşükken daha fazla ve yüksekken daha az Sats satın aldığınız için fiyat dalgalanmalarını yumuşatmaya yardımcı olur; maliyet temelinizin ortalamasını alır ve duygusal stresi azaltır.
+- **Erişilebilirlik**: Büyük bir başlangıç sermayesine ihtiyacınız yok. Aylık 10 € gibi düşük bir miktarla başlayabilir ve zaman içinde DCA miktarınızı artırabilirsiniz.
+- **Disiplin ve otomasyon**: İstifleyiciler duygusal karar vermekten kaçınır. Otomatik olarak yinelenen satın alımlar tutarlılık sağlar ve düşünmeden hareket etme riskini azaltır.
+- **Uzun Vadeli Strateji**: Kademeli yatırım, düşüş dönemlerinde riski azaltırken boğa piyasalarından yararlanma şansını artırır.
 
 
 Bu yöntem özellikle yeni başlayanlar için **uygundur**; piyasayı zamanlama baskısını ortadan kaldırır ve istikrarlı, el değmeden birikime olanak tanır.
@@ -2457,7 +2457,7 @@ Bir istifleyici, kullanım kolaylığı ile uzun vadeli güvenliği dengeleyen b
 
 
 
-- Hot Wallet**: Yeni başlayanlar için ideal olan mobil veya masaüstü cüzdanlar, kolayca Sats almanıza ve ödeme yapmanıza olanak tanır. Ancak, küçük miktarlar için en uygun olanlardır. On-Chain cüzdanları, daha iyi UTXO yönetimi nedeniyle Lightning cüzdanlarına göre istifleme için tercih edilir. Önerilen yazılım cüzdanları: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot Wallet**: Yeni başlayanlar için ideal olan mobil veya masaüstü cüzdanlar, kolayca Sats almanıza ve ödeme yapmanıza olanak tanır. Ancak, küçük miktarlar için en uygun olanlardır. On-Chain cüzdanları, daha iyi UTXO yönetimi nedeniyle Lightning cüzdanlarına göre istifleme için tercih edilir. Önerilen yazılım cüzdanları: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
@@ -2478,7 +2478,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Hardware Wallet**: Bitcoin varlıklarınız arttıkça, hırsızlık riskini en aza indirmek için fonlarınızı bir Cold Wallet ile güvence altına almak çok önemlidir. Ciddi bir istifleyici fonlarını düzenli olarak Hot Wallet'ten Hardware Wallet'ye taşır. Örnekler: Bitbox02, Trezor, Ledger, Coldcard, Jade...
+- **Hardware Wallet**: Bitcoin varlıklarınız arttıkça, hırsızlık riskini en aza indirmek için fonlarınızı bir Cold Wallet ile güvence altına almak çok önemlidir. Ciddi bir istifleyici fonlarını düzenli olarak Hot Wallet'ten Hardware Wallet'ye taşır. Örnekler: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
@@ -2506,7 +2506,7 @@ Dolar-Maliyet Ortalaması (DCA), fiyatından bağımsız olarak düzenli aralık
 
 
 
-- Satın alma sıklığı**: Haftalık, iki haftada bir veya aylık; gelirinize ve hedeflerinize göre seçim yapın. Daha sonra harcanması maliyetli olan çok sayıda küçük UTXO'larla sonuçlanırsa çok sık satın alımlardan kaçının Bunu bütçenize ve risk toleransınıza dayandırın Tutarlılık boyuttan daha önemlidir; yıllarca mütevazı miktarlar biriktirmek, aşırı taahhütte bulunup bırakmaktansa daha iyidir. Doğal olarak, DCA miktarınız mali durumunuz geliştikçe ayarlanabilir.
+- **Satın alma sıklığı**: Haftalık, iki haftada bir veya aylık; gelirinize ve hedeflerinize göre seçim yapın. Daha sonra harcanması maliyetli olan çok sayıda küçük UTXO'larla sonuçlanırsa çok sık satın alımlardan kaçının. Bunu bütçenize ve risk toleransınıza dayandırın. Tutarlılık boyuttan daha önemlidir; yıllarca mütevazı miktarlar biriktirmek, aşırı taahhütte bulunup bırakmaktansa daha iyidir. Doğal olarak, DCA miktarınız mali durumunuz geliştikçe ayarlanabilir.
 
 
 
@@ -2588,11 +2588,11 @@ Başarılı istifçiler bu özellikleri gösterirler:
 
 
 
-- Organizasyon**: Bütçenizi aşmayın, planınıza sadık kalın. İstifleyiciler, birikim planlarının birkaç yıl boyunca uygulanabilir olmasını sağlamalıdır.
-- Disiplin**: Piyasa gürültüsüne tepki vermeden programınızı takip edin. Düzenlilik, dürtüsel ayarlamalardan daha önceliklidir. Ancak yine de makul ayarlamalar yapmak mümkündür.
-- Sabır**: İstiflemenin ödülleri hemen gelmez. Bu strateji, somut sonuçlar vermeden önce uzun dönemler boyunca, bazen yıllar alarak gelişir. Başarılı olanlar, kısa vadeli dalgalanmalardan etkilenmeden sabırlı kalabilenlerdir.
-- Finansal bilgi**: DCA, risk yönetimi ve Bitcoin piyasa temelleri hakkında sağlam bir anlayış, güvenle yatırım yapmanıza yardımcı olur. Bilgili bir istifleyici, yüksek dalgalanma dönemlerinde şüphelere direnmek ve fevri kararlar almaktan kaçınmak için daha donanımlıdır.
-- Uzun vadeli vizyon**: Bir istifleyici Bitcoin'in teknolojik potansiyeline güçlü bir şekilde inanmaktadır. Odak noktaları kısa vadeli fiyat dalgalanmaları değil, yıllar içinde varlıklarını istikrarlı bir şekilde büyütmektir.
+- **Organizasyon**: Bütçenizi aşmayın, planınıza sadık kalın. İstifleyiciler, birikim planlarının birkaç yıl boyunca uygulanabilir olmasını sağlamalıdır.
+- **Disiplin**: Piyasa gürültüsüne tepki vermeden programınızı takip edin. Düzenlilik, dürtüsel ayarlamalardan daha önceliklidir. Ancak yine de makul ayarlamalar yapmak mümkündür.
+- **Sabır**: İstiflemenin ödülleri hemen gelmez. Bu strateji, somut sonuçlar vermeden önce uzun dönemler boyunca, bazen yıllar alarak gelişir. Başarılı olanlar, kısa vadeli dalgalanmalardan etkilenmeden sabırlı kalabilenlerdir.
+- **Finansal bilgi**: DCA, risk yönetimi ve Bitcoin piyasa temelleri hakkında sağlam bir anlayış, güvenle yatırım yapmanıza yardımcı olur. Bilgili bir istifleyici, yüksek dalgalanma dönemlerinde şüphelere direnmek ve fevri kararlar almaktan kaçınmak için daha donanımlıdır.
+- **Uzun vadeli vizyon**: Bir istifleyici Bitcoin'in teknolojik potansiyeline güçlü bir şekilde inanmaktadır. Odak noktaları kısa vadeli fiyat dalgalanmaları değil, yıllar içinde varlıklarını istikrarlı bir şekilde büyütmektir.
 
 
 ![BTC102-Bitcoin](assets/tr/079.webp)
@@ -2626,21 +2626,21 @@ Bitcoin'ı günlük olarak kullanmak hem bireysel hem de kolektif avantajlar sun
 
 
 
-- Benimseme yoluyla Bitcoin ekosistemini destekleyin**:
+- **Benimseme yoluyla Bitcoin ekosistemini destekleyin**:
 
 
 Her işlem Bitcoin'nin bir para birimi olarak meşruiyetini güçlendirir ve daha fazla tüccar ve hizmeti kabul etmeye teşvik eder. Bitcoin'yi kullanmak, onun faydası için oy vermektir. Para değerini ticareti kolaylaştırma kabiliyetinden alır; takastan değil. Eğer hiçbir tüccar bir para birimini kabul etmiyorsa, o paranın nesnel bir değeri yoktur. Onunla ne kadar çok mal ve hizmet satın alabilirseniz, o kadar kullanışlı hale gelir. Bitcoin ile ödeme yapmayı seçerek, değeri onu kabul eden tüccarlara yönlendirmiş olursunuz. Bu onların karlarını artırır ve zamanla bunu reddeden rakiplerin karlarını azaltabilir. Bir topluluk genelinde bu dinamik, Bitcoin'nin daha geniş çapta kabul görmesini sağlayabilir ve erdemli bir benimseme döngüsüne katkıda bulunabilir.
 
 
 
-- Bitcoin'ün benzersiz özelliklerinden** yararlanın:
+- **Bitcoin'ün benzersiz özelliklerinden** yararlanın:
 
 
 Bitcoin, Lightning Network aracılığıyla hızlı işlemler ve sansür, mali gözetim ve senyorajdan muafiyet gibi çeşitli güçlü özellikler sunar. Temel değeri, para Supply üzerindeki devlet kontrolünü ortadan kaldırması ve sansürlenemeyen işlemlere olanak tanımasıdır. Bu avantajlar kişisel ihtiyaçlarınız ve değerlerinizle örtüşüyorsa, Aktif Kullanıcı profilinin size uygun olduğunu görebilirsiniz.
 
 
 
-- Yaparak öğrenin**:
+- **Yaparak öğrenin**:
 
 
 Bitcoin'yi aktif olarak kullanmak, gerçek dünya deneyimi geliştirmenize yardımcı olur. Wallet türlerine, ödeme gizliliğine ve UTXO yönetimine aşina olacaksınız. Günlük kullanım pratik bir öğrenme ortamı haline gelir.
@@ -2758,7 +2758,7 @@ Aradığınız gizlilik düzeyine bağlı olarak Bitcoin'ü edinmenin birkaç yo
 
 
 
-- Bitfinex veya Bull Bitcoin gibi düzenlenmiş platformlar** aracılığıyla geleneksel satın alma (Cold Wallet'nızı doldurmak için ideal);
+- **Bitfinex veya Bull Bitcoin gibi düzenlenmiş platformlar** aracılığıyla geleneksel satın alma (Cold Wallet'nızı doldurmak için ideal);
 
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
@@ -2778,7 +2778,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
-- Peach, Robosats veya Bitcoin ATM'leri gibi eşler arası hizmetler aracılığıyla KYC dışı edinim**; kişisel bilgilerinizi açıklamadan Wallet'unuza ekleme yapmanıza olanak tanır.
+- **Peach, Robosats veya Bitcoin ATM'leri gibi eşler arası hizmetler aracılığıyla KYC dışı edinim**; kişisel bilgilerinizi açıklamadan Wallet'unuza ekleme yapmanıza olanak tanır.
 
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
@@ -2792,7 +2792,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Bitcoin'da Kazanç**, Aktif bir kullanıcı olmak sadece BTC harcamakla ilgili değildir; aynı zamanda onu kazanmakla da ilgilidir. Bir işletme işletiyorsanız, Bitcoin'ı ödeme olarak kabul etmeyi düşünün. Eğer bir çalışansanız, işvereninizin maaşınızın tamamını veya bir kısmını BTC olarak alma seçeneği sunup sunmadığına bakın.
+- **Bitcoin'da Kazanç**, Aktif bir kullanıcı olmak sadece BTC harcamakla ilgili değildir; aynı zamanda onu kazanmakla da ilgilidir. Bir işletme işletiyorsanız, Bitcoin'ı ödeme olarak kabul etmeyi düşünün. Eğer bir çalışansanız, işvereninizin maaşınızın tamamını veya bir kısmını BTC olarak alma seçeneği sunup sunmadığına bakın.
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
@@ -2840,10 +2840,10 @@ Aktif bir Bitcoin kullanıcısı olmak için biçilmiş kaftan mısınız? İşt
 
 
 
-- Pragmatizm ve Commitment:** Bitcoin'i günlük hayatınıza entegre etmek ve ekosisteminin büyümesinde aktif bir rol oynamak için motive oluyorsunuz. Bununla birlikte gelen hem faydaların hem de zorlukların farkındasınız.
-- Teknik Yeterlilik:** Ya Bitcoin cüzdanlarının ve Lightning Network'nin nasıl çalıştığını zaten biliyorsunuz; ya da öğrenmeye heveslisiniz. UTXO yönetimi gibi gelişmiş kavramlarda rahatça gezinebilirsiniz.
-- Esneklik ve Uyarlanabilirlik:** Bitcoin ekosistemi geliştikçe ve ihtiyaçlarınız değiştikçe yeni araçlar denemeye, çözümler arasında geçiş yapmaya ve uygulamalarınızı ayarlamaya açıksınız.
-- Mali Disiplin:** Bitcoin harcamalarınızı ve tasarruflarınızı özenle yönetiyorsunuz. Günlük fonlarınızı uzun vadeli birikimlerinizden net bir şekilde ayırmanın önemini anlıyorsunuz.
+- **Pragmatizm ve Commitment:** Bitcoin'i günlük hayatınıza entegre etmek ve ekosisteminin büyümesinde aktif bir rol oynamak için motive oluyorsunuz. Bununla birlikte gelen hem faydaların hem de zorlukların farkındasınız.
+- **Teknik Yeterlilik:** Ya Bitcoin cüzdanlarının ve Lightning Network'nin nasıl çalıştığını zaten biliyorsunuz; ya da öğrenmeye heveslisiniz. UTXO yönetimi gibi gelişmiş kavramlarda rahatça gezinebilirsiniz.
+- **Esneklik ve Uyarlanabilirlik:** Bitcoin ekosistemi geliştikçe ve ihtiyaçlarınız değiştikçe yeni araçlar denemeye, çözümler arasında geçiş yapmaya ve uygulamalarınızı ayarlamaya açıksınız.
+- **Mali Disiplin:** Bitcoin harcamalarınızı ve tasarruflarınızı özenle yönetiyorsunuz. Günlük fonlarınızı uzun vadeli birikimlerinizden net bir şekilde ayırmanın önemini anlıyorsunuz.
 
 
 ![BTC102-Bitcoin](assets/tr/082.webp)
@@ -2880,11 +2880,11 @@ Gizlilik öncelikli bir zihniyet seçmek birkaç önemli avantaj sunar:
 
 
 
-- Finansal özerklik:** Bankaların, hükümetlerin ve şirketlerin radarından uzak durarak kendinizi gözetimden ve istenmeyen müdahalelerden korursunuz.
-- Varlık koruması:** Ekonomik veya siyasi koşullar istikrarsız hale gelirse, kimliğinizle bağlantılı değilse üçüncü tarafların Bitcoin'nizi izlemesi veya ele geçirmesi çok daha zordur.
-- Geliştirilmiş kişisel güvenlik:** Yüksek miktarda Bitcoin bulundurduğu bilinen kişiler hedef haline gelebilir. Kimliğinizi gizli tutmanız hedef olma riskinizi azaltır.
-- Ayrımcılığa karşı özgürlük**: Bazı hizmetler veya devletler, geçmiş faaliyetlerinize veya kim olduğunuza bağlı olarak işlemleri veya hesapları engelleyebilir. Gizlilik bu gücü kontrol altında tutar.
-- Bitcoin'ün köklerine sadık kalmak:** Bitcoin sansüre dirençli ve izinsiz bir para biçimi olarak tasarlanmıştır. Gizliliğinizi korumak, bu orijinal misyonu onurlandırmanın bir parçasıdır.
+- **Finansal özerklik:** Bankaların, hükümetlerin ve şirketlerin radarından uzak durarak kendinizi gözetimden ve istenmeyen müdahalelerden korursunuz.
+- **Varlık koruması:** Ekonomik veya siyasi koşullar istikrarsız hale gelirse, kimliğinizle bağlantılı değilse üçüncü tarafların Bitcoin'nizi izlemesi veya ele geçirmesi çok daha zordur.
+- **Geliştirilmiş kişisel güvenlik:** Yüksek miktarda Bitcoin bulundurduğu bilinen kişiler hedef haline gelebilir. Kimliğinizi gizli tutmanız hedef olma riskinizi azaltır.
+- **Ayrımcılığa karşı özgürlük**: Bazı hizmetler veya devletler, geçmiş faaliyetlerinize veya kim olduğunuza bağlı olarak işlemleri veya hesapları engelleyebilir. Gizlilik bu gücü kontrol altında tutar.
+- **Bitcoin'ün köklerine sadık kalmak:** Bitcoin sansüre dirençli ve izinsiz bir para biçimi olarak tasarlanmıştır. Gizliliğinizi korumak, bu orijinal misyonu onurlandırmanın bir parçasıdır.
 
 
 Bu, günümüzün dijital ve finansal ortamında var olan çok gerçek tehditlere karşı akıllıca ve hesaplanmış bir yanıttır. Evet, bu yaklaşım daha fazla çaba gerektiriyor. Zaman, teknik bilgi ve disiplin gerektirir. Ancak bu yolu seçenler için mesele sadece Bitcoin kullanmak değil; paraları, kimlikleri ve özgürlükleri üzerindeki kontrolü geri almaktır.
@@ -2908,7 +2908,7 @@ Paranoyak kullanıcı fonları asla kaynağına veya kullanımına göre karış
 
 
 
-- Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar] (https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
+- **Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar](https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -2920,7 +2920,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- Günlük işlemler için bir Hot Wallet**, Düzenli harcamalar için paranoyak kullanıcılar Ashigaru, Wasabi Wallet veya Sparrow wallet gibi gizlilik odaklı cüzdanları tercih eder. Bu cüzdanlar, mini CoinJoin harcama işlemleri, payjoins, potansiyel CoinJoin araçları, Coin kontrolü, UTXO etiketleme veya kendi Bitcoin düğümünüz üzerinden bağlanma yeteneği gibi gelişmiş özellikleri destekler.
+- Günlük işlemler için bir **Hot Wallet**, Düzenli harcamalar için paranoyak kullanıcılar Ashigaru, Wasabi Wallet veya Sparrow wallet gibi gizlilik odaklı cüzdanları tercih eder. Bu cüzdanlar, mini CoinJoin harcama işlemleri, payjoins, potensiyel CoinJoin araçları, Coin kontrolü, UTXO etiketleme veya kendi Bitcoin düğümünüz üzerinden bağlanma yeteneği gibi gelişmiş özellikleri destekler.
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -2980,7 +2980,7 @@ Daha geniş anlamda, bu tür kullanıcılar bir bütün olarak bilişime gelişm
 
 
 
-- Hem telefonlarındaki hem de bilgisayarlarındaki işletim sistemleri**;
+- Hem telefonlarındaki hem de bilgisayarlarındaki **işletim sistemleri**;
 
 
 https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
@@ -2990,7 +2990,7 @@ https://planb.network/tutorials/computer-security/operating-system/linux-mint-da
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
-- Kimlik doğrulama araçları**;
+- **Kimlik doğrulama araçları**;
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -3002,7 +3002,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
-- İletişim araçları**;
+- **İletişim araçları**;
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -3014,7 +3014,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
-- Veri yönetim araçları**.
+- **Veri yönetim araçları**.
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
@@ -3035,7 +3035,7 @@ Paranoyak yatırımcılar için temel ilke, Bitcoin'yı gerçek dünyadaki kimli
 
 
 
-- Bisq, Robosat, LNP2PBot, Peach, HODL HODL, vb. gibi P2P satın alma platformları**;
+- Bisq, Robosat, LNP2PBot, Peach, HODL HODL, vb. gibi P2P satın alma platformları;
 
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
@@ -3049,15 +3049,15 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Yüz yüze nakit takası**, örneğin yerel Bitcoin buluşmalarında;
+- **Yüz yüze nakit takası**, örneğin yerel Bitcoin buluşmalarında;
 
 
 https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
-- Bitcoin ATM'ler**;
-- Bitcoin için Exchange'de mal veya hizmet sağlayarak Sats** kazanmak;
-- Mining bitcoins**.
+- **Bitcoin ATM'ler**;
+- Bitcoin için Exchange'de mal veya hizmet sağlayarak **Sats** kazanmak;
+- Mining bitcoins.
 
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
@@ -3079,11 +3079,11 @@ Coinleri anonim olarak aldıktan sonra bile, dikkatli olmazsanız kişisel veril
 
 
 
-- Manuel olarak ya da Sessiz Ödemeler veya BIP47 gibi gelişmiş araçlar kullanarak Address'nın yeniden kullanımından** kaçınmak;
-- UTXO'larınızı etiketleyin**;
-- Harcama yaparken Coin kontrolünü uygulamak**;
-- UTXO'ların** konsolidasyonundan kaçınılması;
-- Gizliliği koruyan işlem yapılarını kullanma**: coinjoins, payjoins, ricochets ve mini-payment coinjoins...
+- Manuel olarak ya da Sessiz Ödemeler veya BIP47 gibi gelişmiş araçlar kullanarak **Address'nın yeniden kullanımından** kaçınmak;
+- **UTXO'larınızı etiketleyin**;
+- Harcama yaparken **Coin kontrolünü uygulamak**;
+- **UTXO'ların konsolidasyonundan kaçınılması;**
+- **Gizliliği koruyan işlem yapılarını kullanma**: coinjoins, payjoins, ricochets ve mini-payment coinjoins...
 
 
 Ayrıca Blockchain gözetiminin temellerine aşinadırlar ve şirketlerin faaliyetleri nasıl izlediğini bilirler. Zincir analiz firmaları tarafından kullanılan sezgisel yöntemleri ve kalıpları anlayarak, bilinen tuzaklara düşmekten kaçınmak için aktif adımlar atabilirler.
@@ -3119,11 +3119,11 @@ Bu yaklaşım sizin için doğru mu?
 
 
 
-- Uyanık ve Güvenlik Bilincine Sahip**: Gizliliğinize büyük değer veriyorsunuz ve kişisel bilgilerinizin sızmasını önlemek için ekstra önlemler almaya hazırsınız. Finansal gözetimi ciddi bir tehdit olarak görüyor ve kendinizi bundan korumanın yollarını arıyorsunuz.
-- Bağımsız**: Bitcoinlerinizi saklamak, yönetmek veya transfer etmek için herhangi bir üçüncü taraf hizmetine güvenmeyi reddediyorsunuz. Kendi Bitcoin ve Lightning düğümlerinizi barındırmaya, karmaşık cüzdanlar kullanmaya ve yedeklemelerinizi ve özel anahtarlarınızı yönetmek için tüm sorumluluğu almaya hazırsınız.
-- Güvensiz**: KYC platformlarından aktif olarak kaçınıyor ve anonim P2P edinme yöntemlerini tercih ediyorsunuz, bunun için prim ödemek anlamına gelse bile. Paylaşılan tüm kişisel verilerin bir gün size karşı kullanılabileceğinin farkındasınız.
-- Bilgili ve Disiplinli**: Siber güvenlik ve gizliliği artıran teknolojilere karşı bir tutkunuz var. Mevcut çözümleri incelemek, araçları test etmek, en iyi uygulamalar konusunda kendinizi eğitmek ve riskleri en aza indirmek için katı metodolojiler uygulamak için zaman ayırırsınız.
-- Pragmatik ve Gerçekçi**: Tam anonimliğin neredeyse imkansız olduğunu biliyorsunuz, ancak gizlilik, güvenlik ve kullanılabilirlik arasında denge kurarken maruz kaldığınız riskleri mümkün olduğunca azaltmaya çalışıyorsunuz. Yaklaşımınız yeni tehditlere ve teknolojik gelişmelere yanıt olarak sürekli gelişir.
+- **Uyanık ve Güvenlik Bilincine Sahip**: Gizliliğinize büyük değer veriyorsunuz ve kişisel bilgilerinizin sızmasını önlemek için ekstra önlemler almaya hazırsınız. Finansal gözetimi ciddi bir tehdit olarak görüyor ve kendinizi bundan korumanın yollarını arıyorsunuz.
+- **Bağımsız**: Bitcoinlerinizi saklamak, yönetmek veya transfer etmek için herhangi bir üçüncü taraf hizmetine güvenmeyi reddediyorsunuz. Kendi Bitcoin ve Lightning düğümlerinizi barındırmaya, karmaşık cüzdanlar kullanmaya ve yedeklemelerinizi ve özel anahtarlarınızı yönetmek için tüm sorumluluğu almaya hazırsınız.
+- **Güvensiz**: KYC platformlarından aktif olarak kaçınıyor ve anonim P2P edinme yöntemlerini tercih ediyorsunuz, bunun için prim ödemek anlamına gelse bile. Paylaşılan tüm kişisel verilerin bir gün size karşı kullanılabileceğinin farkındasınız.
+- **Bilgili ve Disiplinli**: Siber güvenlik ve gizliliği artıran teknolojilere karşı bir tutkunuz var. Mevcut çözümleri incelemek, araçları test etmek, en iyi uygulamalar konusunda kendinizi eğitmek ve riskleri en aza indirmek için katı metodolojiler uygulamak için zaman ayırırsınız.
+- **Pragmatik ve Gerçekçi**: Tam anonimliğin neredeyse imkansız olduğunu biliyorsunuz, ancak gizlilik, güvenlik ve kullanılabilirlik arasında denge kurarken maruz kaldığınız riskleri mümkün olduğunca azaltmaya çalışıyorsunuz. Yaklaşımınız yeni tehditlere ve teknolojik gelişmelere yanıt olarak sürekli gelişir.
 
 
 Bu özellikler tanıdık geliyorsa, bu strateji muhtemelen sizin için uygundur. Zorludur ve sürekli çaba gerektirir, ancak yüksek düzeyde finansal egemenlik ve fonlarınızın gözetimine, el konulmasına veya izlenebilirliğine karşı koruma sağlar.
@@ -3254,12 +3254,12 @@ Birçok kişi, harekete geçmelerini engelleyen yanlış kanılar nedeniyle bu a
 
 
 
-- "*Bir avukat tutmam gerekiyor.*"** → **Yanlış**. Yasal konularda bir avukat yardımcı olsa da, teknik bir Bitcoin miras planı avukat olmadan da oluşturulabilir. En önemli şey açık ve erişilebilir talimatlara sahip olmaktır;
-- "*Üçüncü bir tarafa güvenmem gerekiyor.*"** → **Yanlış**. Planınız, bilgileri birden fazla tarafa dağıtmak veya zaman kilidi olsun ya da olmasın çoklu imza çözümleri kullanmak gibi güven ihtiyacını en aza indirecek şekilde tasarlanabilir;
-- "*Planlama, varlıklarımın çalınmasını kolaylaştıracaktır.*"** → **Yanlış**. İyi düşünülmüş bir plan, hırsızlık girişimlerine karşı koruma sağlarken mirasçılarınızın fonlarınızı güvenli bir şekilde geri alabilmesini sağlar. Bununla birlikte, hiçbir çözümün kusursuz olmadığını belirtmek önemlidir: bir miras planı, hangi bilgilerin paylaşıldığına bağlı olarak hırsızlık riskini artırır. Bu konuyu daha sonra daha ayrıntılı olarak ele alacağız;
-- "*Bitcoinlerimin değeri plan yapmak için çok küçük. "** → **Yanlış**. Önceden plan yapmak her zaman daha iyidir. Sevdikleriniz muhtemelen sahip olduğunuz Bitcoin miktarını tam olarak bilmiyordur ve bu iyi bir şeydir. Ancak size bir şey olursa, tam miktarı bilmeseler bile onu geri almak istemezler mi? Bitcoin'in değeri zaman içinde önemli ölçüde artabilir, bu nedenle fonlarınıza erişmelerini kolaylaştırmak ve onlara değer hakkında yanlış umut vermekten veya onları var olmayan bir şeyi aramak zorunda bırakmaktan kaçınmak akıllıca olacaktır.
-- "*Varislerim bunu kendi başlarına halledecekler. "** → **Yanlış**. Bitcoin normal bir banka hesabı gibi değildir. Açık talimatlar olmadan, sevdikleriniz fonlarınıza asla erişemeyebilir veya sadece bir kısmını bulabilir. Finans kuruluşlarının veya noterlerin ölüm halinde aile üyeleriyle iletişime geçtiği banka hesaplarının aksine, ailenizi Bitcoin Wallet'niz hakkında bilgilendirecek bir aracı yoktur. Bu nedenle, bunu miras planınıza açıkça dahil etmek size bağlıdır;
-- "*Bir Smart contract her şeyi yönetebilir.*"** → **Yanlış**. Zaman kilidi olan bir Smart contract multi-sig Wallet gibi bir multi-sig çözümün bir parçası olabilir, ancak özellikle Bitcoin'e aşina olmayan kişiler için asla iyi yapılandırılmış bir planın yerini almayacaktır. Her iki çözüm de birbirini tamamlayıcı niteliktedir.
+- **"*Bir avukat tutmam gerekiyor.*"** → **Yanlış**. Yasal konularda bir avukat yardımcı olsa da, teknik bir Bitcoin miras planı avukat olmadan da oluşturulabilir. En önemli şey açık ve erişilebilir talimatlara sahip olmaktır;
+- "**Üçüncü bir tarafa güvenmem gerekiyor.**" → **Yanlış**. Planınız, bilgileri birden fazla tarafa dağıtmak veya zaman kilidi olsun ya da olmasın çoklu imza çözümleri kullanmak gibi güven ihtiyacını en aza indirecek şekilde tasarlanabilir;
+- **"Planlama, varlıklarımın çalınmasını kolaylaştıracaktır."** → **Yanlış**. İyi düşünülmüş bir plan, hırsızlık girişimlerine karşı koruma sağlarken mirasçılarınızın fonlarınızı güvenli bir şekilde geri alabilmesini sağlar. Bununla birlikte, hiçbir çözümün kusursuz olmadığını belirtmek önemlidir: bir miras planı, hangi bilgilerin paylaşıldığına bağlı olarak hırsızlık riskini artırır. Bu konuyu daha sonra daha ayrıntılı olarak ele alacağız;
+- **"Bitcoinlerimin değeri plan yapmak için çok küçük."** → **Yanlış**. Önceden plan yapmak her zaman daha iyidir. Sevdikleriniz muhtemelen sahip olduğunuz Bitcoin miktarını tam olarak bilmiyordur ve bu iyi bir şeydir. Ancak size bir şey olursa, tam miktarı bilmeseler bile onu geri almak istemezler mi? Bitcoin'in değeri zaman içinde önemli ölçüde artabilir, bu nedenle fonlarınıza erişmelerini kolaylaştırmak ve onlara değer hakkında yanlış umut vermekten veya onları var olmayan bir şeyi aramak zorunda bırakmaktan kaçınmak akıllıca olacaktır.
+- **"Varislerim bunu kendi başlarına halledecekler."** → **Yanlış**. Bitcoin normal bir banka hesabı gibi değildir. Açık talimatlar olmadan, sevdikleriniz fonlarınıza asla erişemeyebilir veya sadece bir kısmını bulabilir. Finans kuruluşlarının veya noterlerin ölüm halinde aile üyeleriyle iletişime geçtiği banka hesaplarının aksine, ailenizi Bitcoin Wallet'niz hakkında bilgilendirecek bir aracı yoktur. Bu nedenle, bunu miras planınıza açıkça dahil etmek size bağlıdır;
+- **"Bir Smart contract her şeyi yönetebilir."** → **Yanlış**. Zaman kilidi olan bir Smart contract multi-sig Wallet gibi bir multi-sig çözümün bir parçası olabilir, ancak özellikle Bitcoin'e aşina olmayan kişiler için asla iyi yapılandırılmış bir planın yerini almayacaktır. Her iki çözüm de birbirini tamamlayıcı niteliktedir.
 
 
 
@@ -3273,8 +3273,8 @@ Bitcoin'de bir mirası devretmek söz konusu olduğunda, sevdikleriniz muhtemele
 
 
 
-- Planınızın sorunsuz bir şekilde yürütülmesini sağlayacak güvenilir bir akraba**. Bu kişinin Bitcoin hakkında derin bilgiye sahip olması gerekmez, ancak mirasçılarınızın güvenebileceği biri olmalıdır.
-- Fonların kurtarılması, cüzdanların yönetilmesi ve ilgili süreçlerin anlaşılması için teknik destek sağlayabilecek deneyimli bir Bitcoin kullanıcısı**.
+- Planınızın sorunsuz bir şekilde yürütülmesini sağlayacak güvenilir bir **akraba**. Bu kişinin Bitcoin hakkında derin bilgiye sahip olması gerekmez, ancak mirasçılarınızın güvenebileceği biri olmalıdır.
+- Fonların kurtarılması, cüzdanların yönetilmesi ve ilgili süreçlerin anlaşılması için teknik destek sağlayabilecek deneyimli bir Bitcoin kullanıcısı.
 
 
 Seçtiğiniz kişilerin özel anahtarlarınıza (veya Mnemonic ifadenize) asla doğrudan erişimi olmamalıdır, ancak bunu yapabilmeleri gerekir:
@@ -3312,10 +3312,10 @@ Bitcoin ile ilişkili bitcoin veya fiat para biriminizin olduğu tüm yerleri d�
 
 
 
-- Exchange platformları**:  Bitcoin satın alımlarınızla bağlantılı BTC veya fiat içeren hesaplar.
-- Hot cüzdanları (mobil veya masaüstü)**: Telefonunuza yüklenen, günlük işlemler için kullanılan uygulamalar;
-- Donanım cüzdanları**: Özel anahtarlarınızı çevrimdışı olarak saklayan fiziksel cihazlar;
-- Diğer çözümler**: Multisig, kağıt cüzdanlar, özel olarak saklanan özel anahtarlar vb.
+- **Exchange platformları**: Bitcoin satın alımlarınızla bağlantılı BTC veya fiat içeren hesaplar.
+- **Hot cüzdanları (mobil veya masaüstü)**: Telefonunuza yüklenen, günlük işlemler için kullanılan uygulamalar;
+- **Donanım cüzdanları**: Özel anahtarlarınızı çevrimdışı olarak saklayan fiziksel cihazlar;
+- **Diğer çözümler**: Multisig, kağıt cüzdanlar, özel olarak saklanan özel anahtarlar vb.
 
 
 Bu envanteri yapılandırmak için bir tablo kullanın. Buradaki fikir, bu belgeyi çevrimiçi olarak saklamak değil, ideal olarak kağıt üzerinde güvenli bir yerde tutmaktır. Örneğin:
@@ -3383,7 +3383,7 @@ Bitcoin'yi anlamanıza ve varlıklarımı geri almanıza yardımcı olacak birka
 Kulağa garip gelebilir ama hepsiyle iletişime geçin. Ayrıca, YouTube'da Andreas Antonopoulos'u dinleyerek ve Pamela Morgan'ın *Kripto Varlık Miras Planlaması* kitabını satın alarak daha fazla bilgi edinebilirsiniz.
 
 
-Tüm bu kişilerle iletişime geçin ve önemli kararlar almadan önce görüşlerini çapraz kontrol edin. **Kimseye körü körüne güvenmeyin
+Tüm bu kişilerle iletişime geçin ve önemli kararlar almadan önce görüşlerini çapraz kontrol edin. **Kimseye körü körüne güvenmeyin.**
 
 
 #### 2. Bitcoinlerim Nerede?
@@ -3405,11 +3405,11 @@ Bu fonları kullanmadan önce gerekli tüm önlemleri alın. Geri kazanım ifade
 
 
 
-- Acele etmeyin**. Harekete geçmeden önce öğrenmek için zaman ayırın. Bitcoin doğru kullanıldığında güvenlidir.
-- 24 kelimelik cümleyi asla tek bir kişiye vermeyin**. Eğer birisi sizden tam erişim isterse, dikkatli olun.
-- Cüzdanlarımı bilinmeyen bir bilgisayara** bağlamayın. Mümkünse çevrimdışı, güvenli bir ortam kullanın.
-- Dolandırıcılıklara dikkat edin**. Bitcoin'i çevreleyen birçok dolandırıcılık var. Sadece bu mektupta adı geçen kişilere güvenin.
-- Yaptığınız her şeyi kaydedin**.  Not alın, önemli adımları kaydedin ve erişimi koruyun.
+- **Acele etmeyin**. Harekete geçmeden önce öğrenmek için zaman ayırın. Bitcoin doğru kullanıldığında güvenlidir.
+- 24 kelimelik cümleyi asla tek bir kişiye vermeyin. Eğer birisi sizden tam erişim isterse, dikkatli olun.
+- Cüzdanlarımı bilinmeyen bir bilgisayara **bağlamayın**. Mümkünse çevrimdışı, güvenli bir ortam kullanın.
+- **Dolandırıcılıklara dikkat edin**. Bitcoin'i çevreleyen birçok dolandırıcılık var. Sadece bu mektupta adı geçen kişilere güvenin.
+- **Yaptığınız her şeyi kaydedin**. Not alın, önemli adımları kaydedin ve erişimi koruyun.
 
 
 #### 4. Yasal bilgiler ve son mesaj
@@ -3593,9 +3593,9 @@ Bitcoin finansal bir araçtan daha fazlasıdır; bu bir harekettir. Becerilerini
 
 
 
-- Eğitin ve farkındalığı artırın**: Sevdiklerinizin Bitcoin'yı anlamasına yardımcı olun, bilginizi paylaşın ve yerel tartışmalara katılın;
-- Araçlar ve uygulamalar geliştirin**: Teknik becerileriniz varsa, açık kaynaklı araçlara katkıda bulunmak Bitcoin'ye değer katmanın harika bir yoludur;
-- Yerel bir topluluğa katılın**: Diğer bitcoin kullanıcılarıyla tanışmak ve en son gelişmeler hakkında Exchange görüşlerini almak için etkinliklere, buluşmalara ve forumlara katılın.
+- **Eğitin ve farkındalığı artırın**: Sevdiklerinizin Bitcoin'yı anlamasına yardımcı olun, bilginizi paylaşın ve yerel tartışmalara katılın;
+- **Araçlar ve uygulamalar geliştirin**: Teknik becerileriniz varsa, açık kaynaklı araçlara katkıda bulunmak Bitcoin'ye değer katmanın harika bir yoludur;
+- **Yerel bir topluluğa katılın**: Diğer bitcoin kullanıcılarıyla tanışmak ve en son gelişmeler hakkında Exchange görüşlerini almak için etkinliklere, buluşmalara ve forumlara katılın.
 
 
 Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Network her zaman katkıda bulunacak kişiler arıyor! Tüm eğitim içeriğimiz açık kaynaklıdır ve GitHub'da barındırılmaktadır. İçeriği düzeltmeye ve çeşitli dillere çevirmeye yardımcı olacak katılımcıları bekliyoruz; birkaç Sats için Exchange'da! İster şimdi ister daha sonra Bitcoin yolculuğunuzda, Plan ₿ Network'un [katkıda bulunanlar için Telegram grubumuza] (https://t.me/PlanBNetwork_ContentBuilder) katılmaya davetlisiniz.
@@ -3627,7 +3627,7 @@ Geldiğiniz nokta için bir kez daha tebrikler. Ve unutmayın; öncelikli hedefi
 **Bitcoin.** aracılığıyla mümkün olduğunca çok sayıda insanın finansal egemenlik elde etmesine yardımcı olmak
 
 
-**Bitcoin ile yolculuğunuzda size başarılar dilerim!
+**Bitcoin ile yolculuğunuzda size başarılar dilerim!**
 
 
 # Son Bölüm

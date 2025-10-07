@@ -388,9 +388,9 @@ Nach [im August 2025 von Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/f
 
 
 
-- Bitcoin core**: 87.3% der Knotenpunkte
-- Bitcoin Knots**: 12.5
-- Andere kumulative Implementierungen**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% der Knotenpunkte
+- **Bitcoin Knots**: 12.5
+- **Andere kumulative Implementierungen**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Mit anderen Worten: Etwa 9 von 10 öffentlichen Knoten laufen mit Bitcoin core. 
 
 
 
-**Anmerkung:** Bei diesen Zahlen handelt es sich jedoch noch um Schätzungen, da sie in erster Linie auf *hörenden Knoten* beruhen, d. h. auf Knoten, die eingehende Verbindungen annehmen (mit offenem Port 8333). Nicht-abhörende Knoten* sind viel komplexer zu zählen, da es unmöglich ist, sich direkt mit ihnen zu verbinden: Man muss darauf warten, dass die Initiative von ihnen ausgeht, in Form einer ausgehenden Verbindung. Die Website von Luke Dashjr behauptet, auch diese *nicht-hörenden Knoten* zu zählen, aber es ist nach wie vor unmöglich, genaue Daten über sie zu erhalten, und die Aktualisierung dieser Statistiken hinkt zwangsläufig der Realität hinterher.
+**Anmerkung:** Bei diesen Zahlen handelt es sich jedoch noch um Schätzungen, da sie in erster Linie auf *hörenden Knoten* beruhen, d. h. auf Knoten, die eingehende Verbindungen annehmen (mit offenem Port 8333). *Nicht-abhörende Knoten* sind viel komplexer zu zählen, da es unmöglich ist, sich direkt mit ihnen zu verbinden: Man muss darauf warten, dass die Initiative von ihnen ausgeht, in Form einer ausgehenden Verbindung. Die Website von Luke Dashjr behauptet, auch diese *nicht-hörenden Knoten* zu zählen, aber es ist nach wie vor unmöglich, genaue Daten über sie zu erhalten, und die Aktualisierung dieser Statistiken hinkt zwangsläufig der Realität hinterher.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core ist in C++ geschrieben. Es ist auch ein Open-Source-Projekt, das vo
 
 
 
-- Mitwirkende** reichen Vorschläge in Form von _Pull Requests_ (PR) ein. Im Prinzip kann jeder eine Änderung vorschlagen, aber sie muss getestet und dokumentiert werden und einen Peer-Review-Prozess durchlaufen.
+- **Mitwirkende** reichen Vorschläge in Form von _Pull Requests_ (PR) ein. Im Prinzip kann jeder eine Änderung vorschlagen, aber sie muss getestet und dokumentiert werden und einen Peer-Review-Prozess durchlaufen.
 - Die **Maintainer** haben das Recht, PRs zu genehmigen und zusammenzuführen. Sie sind diejenigen, die die Kohärenz und Stabilität des Projekts garantieren. Im Juli 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao und Ryan Ofsky.
 - Seit Februar 2023 gibt es keinen **Hauptbetreuer** mehr. Diese Rolle hatte zunächst Satoshi Nakamoto beim Start von Bitcoin inne, dann Gavin Andresen nach Nakamotos Weggang Anfang 2011 und schließlich Wladimir J. Van Der Laan von 2014 bis 2023.
 
@@ -446,9 +446,9 @@ Wir können auch erwähnen:
 
 
 
-- Libbitcoin**: eine modulare C++-Bibliothek, die von Amir Taaki entwickelt und von Eric Voskuil gepflegt wird;
-- Bcoin**: eine JavaScript-Implementierung, die nicht mehr aktiv gepflegt wird;
-- BTCD/btcsuit**e: eine Implementierung in Go.
+- **Libbitcoin**: eine modulare C++-Bibliothek, die von Amir Taaki entwickelt und von Eric Voskuil gepflegt wird;
+- **Bcoin**: eine JavaScript-Implementierung, die nicht mehr aktiv gepflegt wird;
+- **BTCD/btcsuite**: eine Implementierung in Go.
 
 
 
@@ -590,7 +590,7 @@ Ein wichtiger Aspekt, der oft missverstanden wird, ist die Tatsache, dass der Be
 
 
 
-- Konsensregeln**:
+- **Konsensregeln**:
 
 
 
@@ -604,7 +604,7 @@ Eine Änderung dieser Regeln ist gleichbedeutend mit einer Änderung des Protoko
 
 
 
-- Staffelregeln**:
+- **Staffelregeln**:
 
 
 
@@ -616,7 +616,7 @@ Zum Beispiel ist eine Transaktion ohne Gebühren nach den Konsensregeln vollkomm
 
 
 
-Seinen eigenen Knoten zu spinnen bedeutet zu behaupten: "Ich validiere, was ich für gültig halte, nach den Regeln, die ich selbst festgelegt habe "*. Auf diese Weise werden Sie zu einem Akteur in der Steuerung des Systems, der in der Lage ist, eine Entwicklung abzulehnen, die Ihnen inakzeptabel erscheint, oder eine Aktualisierung nach Ihren eigenen Kriterien zu genehmigen.
+Seinen eigenen Knoten zu spinnen bedeutet zu behaupten: "Ich validiere, was ich für gültig halte, nach den Regeln, die ich selbst festgelegt habe". Auf diese Weise werden Sie zu einem Akteur in der Steuerung des Systems, der in der Lage ist, eine Entwicklung abzulehnen, die Ihnen inakzeptabel erscheint, oder eine Aktualisierung nach Ihren eigenen Kriterien zu genehmigen.
 
 
 
@@ -882,8 +882,8 @@ Es gibt 2 mögliche Gründe für die Wahl von Knoten statt Kern:
 
 
 
-- Techniken**: Unterschiedliche Optionen gegenüber Core, insbesondere in Bezug auf die Relaisverwaltung, indem festgelegt wird, welche Transaktionen von Ihrem Knoten akzeptiert und verbreitet werden.
-- Politik**: Einige Leute ziehen es vor, alternative Clients wie Knots aus nicht-technischen Gründen zu verwenden, vor allem um eine Alternative zu Core zu unterstützen und so dessen Monopol zu verringern. Sollte Core jemals kompromittiert werden, wäre es nicht nur nützlich, solide, gut gewartete alternative Clients zu haben, sondern auch zu wissen, wie man sie effektiv einsetzt. Andere nutzen Knots aus Protest, weil sie das Vertrauen in die Core-Entwickler verloren haben oder mit der Mehrheit des Client-Managements nicht einverstanden sind.
+- **Techniken**: Unterschiedliche Optionen gegenüber Core, insbesondere in Bezug auf die Relaisverwaltung, indem festgelegt wird, welche Transaktionen von Ihrem Knoten akzeptiert und verbreitet werden.
+- **Politik**: Einige Leute ziehen es vor, alternative Clients wie Knots aus nicht-technischen Gründen zu verwenden, vor allem um eine Alternative zu Core zu unterstützen und so dessen Monopol zu verringern. Sollte Core jemals kompromittiert werden, wäre es nicht nur nützlich, solide, gut gewartete alternative Clients zu haben, sondern auch zu wissen, wie man sie effektiv einsetzt. Andere nutzen Knots aus Protest, weil sie das Vertrauen in die Core-Entwickler verloren haben oder mit der Mehrheit des Client-Managements nicht einverstanden sind.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin kon
 
 
 
-- Einfacher Bitcoin-Knoten**: Dies ist die grundlegende Nutzung, auf die sich Umbrel von Anfang an verlassen hat. Du kannst Bitcoin core (oder Knots) laufen lassen, deine Wallets direkt mit deinem Node verbinden, einen Electrum-Server bereitstellen, deinen Mempool Block explorer hosten, um den Blockchain zu sehen, und Gebühren schätzen... Es sind diese Anwendungen, auf die wir uns in diesem Kurs konzentrieren werden.
+- **Einfacher Bitcoin-Knoten**: Dies ist die grundlegende Nutzung, auf die sich Umbrel von Anfang an verlassen hat. Du kannst Bitcoin core (oder Knots) laufen lassen, deine Wallets direkt mit deinem Node verbinden, einen Electrum-Server bereitstellen, deinen Mempool Block explorer hosten, um den Blockchain zu sehen, und Gebühren schätzen... Es sind diese Anwendungen, auf die wir uns in diesem Kurs konzentrieren werden.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin kon
 
 
 
-- Lightning Network**: Mit Umbrel können Sie auch LND oder Core Lightning, zwei Implementierungen des Lightning Network, einsetzen, um Ihren eigenen Lightning-Knoten zu verwalten. Sie können Kanäle öffnen, Ihre Liquidität verwalten, Zahlungen tätigen, den Ausgleich automatisieren, Dienstleistungen anbieten, einen entfernten Wallet anschließen oder dank der vielen verfügbaren Anwendungen die Vorteile eines erweiterten Interface-Managements nutzen. Wir werden diesen speziellen Anwendungsfall in unserem nächsten LNP 202-Kurs behandeln.
+- **Lightning Network**: Mit Umbrel können Sie auch LND oder Core Lightning, zwei Implementierungen des Lightning Network, einsetzen, um Ihren eigenen Lightning-Knoten zu verwalten. Sie können Kanäle öffnen, Ihre Liquidität verwalten, Zahlungen tätigen, den Ausgleich automatisieren, Dienstleistungen anbieten, einen entfernten Wallet anschließen oder dank der vielen verfügbaren Anwendungen die Vorteile eines erweiterten Interface-Managements nutzen. Wir werden diesen speziellen Anwendungsfall in unserem nächsten LNP 202-Kurs behandeln.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin kon
 
 
 
-- Allgemeines Self-Hosting**: mit Nextcloud, Immich, Jellyfin/Plex, DNS-weiten Werbeblockern (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), Heimautomatisierung (Home Assistant), Backups, Notizverwaltung, Office-Tools, lokale KI (Ollama + Open WebUI)... Umbrel kann Ihr persönlicher Server werden, der es Ihnen ermöglicht, die Kontrolle über Ihre Daten zurückzugewinnen. Sie hosten die Dienste, die Sie täglich nutzen, selbst, mit einer ausgefeilten Benutzererfahrung, die externen Lösungen sehr ähnlich ist, während Sie die volle Kontrolle über Ihre Daten und Ihre Privatsphäre behalten.
+- **Allgemeines Self-Hosting**: mit Nextcloud, Immich, Jellyfin/Plex, DNS-weiten Werbeblockern (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), Heimautomatisierung (Home Assistant), Backups, Notizverwaltung, Office-Tools, lokale KI (Ollama + Open WebUI)... Umbrel kann Ihr persönlicher Server werden, der es Ihnen ermöglicht, die Kontrolle über Ihre Daten zurückzugewinnen. Sie hosten die Dienste, die Sie täglich nutzen, selbst, mit einer ausgefeilten Benutzererfahrung, die externen Lösungen sehr ähnlich ist, während Sie die volle Kontrolle über Ihre Daten und Ihre Privatsphäre behalten.
 
 
 
@@ -1759,8 +1759,8 @@ Sie können nun den USB-Stick, die Tastatur und den Bildschirm entfernen, da sie
 
 
 
-- Der USB-Stick ist ausgesteckt**: Wenn er angeschlossen bleibt, kann es sein, dass das System auf ihm statt auf der internen Festplatte neu startet;
-- Das Ethernet-Kabel ist eingesteckt**: Das Gerät muss mit Ihrem Router verbunden sein, um zu funktionieren.
+- **Der USB-Stick ist ausgesteckt**: Wenn er angeschlossen bleibt, kann es sein, dass das System auf ihm statt auf der internen Festplatte neu startet;
+- **Das Ethernet-Kabel ist eingesteckt**: Das Gerät muss mit Ihrem Router verbunden sein, um zu funktionieren.
 
 
 
@@ -2285,9 +2285,9 @@ Sie werden dann drei Optionen für die Verknüpfung Ihrer Software mit einem Bit
 
 
 
-- Öffentlicher Server* (gelb): Wenn Sie keinen Bitcoin-Knoten besitzen, verbindet Sie diese Option standardmäßig mit einem öffentlichen Knoten, der Ihnen nicht gehört (normalerweise der eines Unternehmens). Diese Option ist hier nicht relevant, da Sie Ihren eigenen Knoten auf Umbrel haben.
-- Bitcoin core* (Green): Diese Option entspricht der Verbindung über Interface RPC, d. h. direkt mit Bitcoin core.
-- Private Electrum* (blau): Mit dieser Option können Sie eine Verbindung über den Interface Electrum Server (Electrs oder Fulcrum) Ihres Indexers herstellen.
+- **Öffentlicher Server** (gelb): Wenn Sie keinen Bitcoin-Knoten besitzen, verbindet Sie diese Option standardmäßig mit einem öffentlichen Knoten, der Ihnen nicht gehört (normalerweise der eines Unternehmens). Diese Option ist hier nicht relevant, da Sie Ihren eigenen Knoten auf Umbrel haben.
+- **Bitcoin core** (Green): Diese Option entspricht der Verbindung über Interface RPC, d. h. direkt mit Bitcoin core.
+- Private **Electrum** (blau): Mit dieser Option können Sie eine Verbindung über den Interface Electrum Server (Electrs oder Fulcrum) Ihres Indexers herstellen.
 
 
 

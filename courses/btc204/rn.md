@@ -5692,7 +5692,7 @@ Nk'uko twabibonye mu bice vyabanje, Alice ikoresha urufunguzo rubiri rukingira U
 
 
 > *Address gusubira gukoresha ni umugenzo mubi cane mu bijanye n'ibanga ry'abakoresha. Kugira ngo umenye igituma, ndaguhanura ngo usubiremwo ibice vya mbere vy’iri shure.*
-Nkako, kuko Address $P_0$ yihariye ikomoka kuri $A$ na $B$, rero nimba Alice ikomoka kuri Address ya kabiri ku kwishura ubwa kabiri kuri $B$, n'urufunguzo rumwe $A$, azoheza kuri Address $P_$0 imwe nyene. Kugira ngo twirinde iyo ngorane kandi ntihagire Address isubira gukoreshwa mu gihe c’Ivyishyurwa vy’Iceceka, tuzokenera guhindura gatoyi imibare yacu.
+Nkako, kuko Address $P_0$ yihariye ikomoka kuri $A$ na $B$, rero nimba Alice ikomoka kuri Address ya kabiri ku kwishura ubwa kabiri kuri $B$, n'urufunguzo rumwe $A$, azoheza kuri Address $P_0$ imwe nyene. Kugira ngo twirinde iyo ngorane kandi ntihagire Address isubira gukoreshwa mu gihe c'Ivyishyurwa vy'Iceceka, tuzokenera guhindura gatoyi imibare yacu.
 
 
 Ico twipfuza ni uko UTXO yose ikoreshwa na Alice nk’injiza mu kwishura kugira ngo itange Address yihariye ku ruhande rwa Bob, naho UTXO nyinshi zoba zikingiwe n’urufunguzo rumwe. Rero ico dukeneye gukora n'ukwongerako ivyerekeye UTXO igihe tubarura Address $P_0$ yihariye. Iyi nzira izoba gusa Hash ya UTXO ikoreshwa nk'inyungu:
@@ -5889,7 +5889,7 @@ $$ B = B_{\umwandiko{gupima}} \umwandiko{‖ } B_1 $$
 
 
 > *Dutangura gusa n'ikimenyetso 1 kuko ikimenyetso 0 ni co cabikiwe ihinduka.*
-Alice, ku ruhande rwiwe, azoronka ukwishyura kumwe Address $P$ mu buryo bumwe n'ubwo mbere, ariko akoresheje $B_1$ nshasha aho gukoresha $B_{\text{spend}}$:
+Alice, ku ruhande rwiwe, azoronka ukwishyura kumwe Address **P** mu buryo bumwe n'ubwo mbere, ariko akoresheje **B_1** nshasha aho gukoresha **B_spend**:
 
 
 $$ P_0 = B_1 + \umwandiko{Hash}(\umwandiko{injizaHash} \cdot a \cdot B_{\umwandiko{gupima}} \cdot{ ‖ } 0) \cdot G $$
@@ -5999,7 +5999,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 Iciyumviro gihambaye ku bijanye n’amaderesi adahinduka, ushobora kuba waratahuye mu bice vyabanje, ni uko ayo maderesi ataboneka mu bikorwa vya Bitcoin. Aderesi zo kwishura $P$ zonyene zikoreshwa mu bisohoka ni zo ziboneka kuri Blockchain mu buryo busanzwe bwa Taproot. Rero, uhereye hanze, ntibishoboka gutandukanya igikorwa gifise Silent Payment n’igikorwa gisanzwe hakoreshejwe ibisohoka vya P2TR.
 
 
-Nk’uko biri kuri BIP47, ntibishoboka gushinga isano hagati ya Address $B$ idahinduka n’ukwishura Address $P$ ikomoka kuri $B$. Nkako, naho Eva, uwushobora gutera, yogerageza gucapura Blockchain akoresheje static $B$ Address ya Bob, ntazoshobora gukora imibare isabwa kugira ngo amenye $P$. Kugira ngo abikore, yokenera urufunguzo rw'ibanga rwa Bob $b_{\text{scan}}$, canke urufunguzo rw'ibanga rw'uwarungitse $a$, ariko vyose ni ivy'ibanga. Birashoboka rero ko umuntu ahuza mu buryo butomoye Address yiwe idahinduka n’uburyo bumwe bw’akaranga k’umuntu.
+Nk'uko biri kuri BIP47, ntibishoboka gushinga isano hagati ya Address **B** idahinduka n'ukwishura Address **P** ikomoka kuri **B**. Nkako, naho Eva, uwushobora gutera, yogerageza gucapura Blockchain akoresheje static **B** Address ya Bob, ntazoshobora gukora imibare isabwa kugira ngo amenye **P**. Kugira ngo abikore, yokenera urufunguzo rw'ibanga rwa Bob **b_scan**, canke urufunguzo rw'ibanga rw'uwarungitse **a**, ariko vyose ni ivy'ibanga. Birashoboka rero ko umuntu ahuza mu buryo butomoye Address yiwe idahinduka n'uburyo bumwe bw'akaranga k'umuntu.
 
 
 ### Nokoresha gute amahera y’uguceceka?

@@ -388,9 +388,9 @@ Bitcoin core 是 Bitcoin 協定的參考軟體。它源自 Satoshi Nakamoto 在 
 
 
 
-- Bitcoin core**： 87.3% 的節點
-- Bitcoin Knots**： 12.5
-- 其他累計實現**： 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**： 87.3% 的節點
+- **Bitcoin Knots**: 12.5
+- 其他累計實現**：** 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Bitcoin core 是 Bitcoin 協定的參考軟體。它源自 Satoshi Nakamoto 在 
 
 
 
-**註：** 這些數字仍是估計值，因為它們主要是基於*聆聽節點*，也就是接受傳入連線的節點 (開啟了 8333 連接埠)。非監聽節點*的計算要複雜得多，因為您不可能直接連線到這些節點：您必須等待這些節點以傳出連線的形式主動提供連線。Luke Dashjr 的網站聲稱也在嘗試計算這些 * 非監聽節點 *，但仍無法取得完全精確的相關資料，而且這些統計資料的更新也不可避免地落後於現實。
+**註：** 這些數字仍是估計值，因為它們主要是基於*聆聽節點*，也就是接受傳入連線的節點 (開啟了 8333 連接埠)。*非監聽節點*的計算要複雜得多，因為您不可能直接連線到這些節點：您必須等待這些節點以傳出連線的形式主動提供連線。Luke Dashjr 的網站聲稱也在嘗試計算這些*非監聽節點*，但仍無法取得完全精確的相關資料，而且這些統計資料的更新也不可避免地落後於現實。
 
 
 
@@ -415,9 +415,9 @@ Bitcoin core 以 C++ 寫成。它也是一個開放原始碼專案，由志願�
 
 
 
-- 貢獻者**以_pull request_ (PR) 的形式提交提案。原則上，任何人都可以提出變更，但必須經過測試、記錄並通過同儕審查程序。
-- 維護者**有權批准和合併 PR。他們保證專案的連貫性和穩定性。在 2025 年 7 月，共有五位維護員：Hennadii Stepanov、Michael Ford、Andrew Chow、Gloria Zhao 和 Ryan Ofsky。
-- 自 2023 年 2 月起就沒有**首席維護員。這個角色最初在 Bitcoin 推出時由 Satoshi Nakamoto 擔任，然後在 2011 年初 Nakamoto 離任後由 Gavin Andresen 擔任，最後在 2014 年至 2023 年間由 Wladimir J. Van Der Laan 擔任。
+- 貢獻者以**pull request (PR)** 的形式提交提案。原則上，任何人都可以提出變更，但必須經過測試、記錄並通過同儕審查程序。
+- 維護者**有權批准和合併 PR**。他們保證專案的連貫性和穩定性。在 2025 年 7 月，共有五位維護員：Hennadii Stepanov、Michael Ford、Andrew Chow、Gloria Zhao 和 Ryan Ofsky。
+- 自 2023 年 2 月起就沒有**首席維護員**。這個角色最初在 Bitcoin 推出時由 Satoshi Nakamoto 擔任，然後在 2011 年初 Nakamoto 離任後由 Gavin Andresen 擔任，最後在 2014 年至 2023 年間由 Wladimir J. Van Der Laan 擔任。
 
 
 
@@ -446,9 +446,9 @@ Bitcoin core 的開發遵循任人唯才的邏輯：鼓勵新的貢獻者在自�
 
 
 
-- Libbitcoin**: 由 Amir Taaki 開發、Eric Voskuil 維護的模組化 C++ 函式庫；
-- Bcoin**: JavaScript 實作，已不再積極維護；
-- BTCD/btcsuit**e: Go 中的實作。
+- **Libbitcoin**: 由 Amir Taaki 開發、Eric Voskuil 維護的模組化 C++ 函式庫；
+- **Bcoin**: JavaScript 實作，已不再積極維護；
+- **BTCD/btcsuite**: Go 中的實作。
 
 
 
@@ -590,7 +590,7 @@ Bitcoin 之類的分散式系統的特點在於在所有參與其運作的人之
 
 
 
-- 共識規則**：
+- **共識規則**：
 
 
 
@@ -604,7 +604,7 @@ Bitcoin 之類的分散式系統的特點在於在所有參與其運作的人之
 
 
 
-- 接力規則**：
+- **接力規則**：
 
 
 
@@ -616,7 +616,7 @@ Bitcoin 之類的分散式系統的特點在於在所有參與其運作的人之
 
 
 
-編織你自己的節點意味著：「根據我自己採用的規則，我驗證我選擇驗證的東西 」*。您因此成為系統管理的參與者，能夠拒絕您無法接受的演進，或根據您自己的標準核准更新。
+編織你自己的節點意味著：「根據我自己採用的規則，我驗證我選擇驗證的東西」。您因此成為系統管理的參與者，能夠拒絕您無法接受的演進，或根據您自己的標準核准更新。
 
 
 
@@ -734,7 +734,7 @@ Full node 不需要信任任何人，因為它驗證並知識系統中的所有�
 
 
 
-pruned 節點會以 Full node 的方式驗證所有東西，從 Genesis 區塊到工作最多的鏈頭，但 ** 只會保留區塊檔案的最新部分。一旦檢查過舊區塊，它會逐漸刪除它們，以保持低於您可以設定的空間限制。如果您有磁碟空間限制，此設定是理想的選擇：您可以保留區塊驗證的獨立性，而無需儲存完整的 Blockchain 歷史存檔。如果您只想在個人電腦上安裝 Bitcoin core，而不使用專用機器，此選項特別有用。
+pruned 節點會以 Full node 的方式驗證所有東西，從 Genesis 區塊到工作最多的鏈頭，但**只會保留區塊檔案的最新部分**。一旦檢查過舊區塊，它會逐漸刪除它們，以保持低於您可以設定的空間限制。如果您有磁碟空間限制，此設定是理想的選擇：您可以保留區塊驗證的獨立性，而無需儲存完整的 Blockchain 歷史存檔。如果您只想在個人電腦上安裝 Bitcoin core，而不使用專用機器，此選項特別有用。
 
 
 
@@ -882,8 +882,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-- 技術**：與 Core 不同的選項，特別是在中繼管理方面，透過決定您的節點接受和廣播哪些交易。
-- 政策**：有些人基於非技術上的原因，喜歡使用 Knots 等替代用戶端，主要是為了支持 Core 的替代方案，從而減少 Core 的壟斷。如果 Core 遭到攻擊，擁有可靠、維護良好的替代用戶端，而且知道如何有效地使用它們，將是非常有用的。其他人使用 Knots 是為了抗議目的，因為他們對 Core 的開發人員失去信心，或不認同用戶端的大多數管理人員。
+- **技術**：與 Core 不同的選項，特別是在中繼管理方面，透過決定您的節點接受和廣播哪些交易。
+- **政策**：有些人基於非技術上的原因，喜歡使用 Knots 等替代用戶端，主要是為了支持 Core 的替代方案，從而減少 Core 的壟斷。如果 Core 遭到攻擊，擁有可靠、維護良好的替代用戶端，而且知道如何有效地使用它們，將是非常有用的。其他人使用 Knots 是為了抗議目的，因為他們對 Core 的開發人員失去信心，或不認同用戶端的大多數管理人員。
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel 可以保持非常簡約的風格，只專注於 Bitcoin，也可以演�
 
 
 
-- 簡單的 Bitcoin 節點**：這是 Umbrel 從一開始就依賴的創始用途。您可以執行 Bitcoin core（或 Knots）、直接將您的錢包連接到您的節點、曝露一個 Electrum 伺服器、託管您的 Mempool Block explorer 來檢視 Blockchain，以及估算費用...在本課程中，我們將著重於這些用途。
+- 簡單的 Bitcoin 節點：這是 Umbrel 從一開始就依賴的創始用途。您可以執行 Bitcoin core（或 Knots）、直接將您的錢包連接到您的節點、曝露一個 Electrum 伺服器、託管您的 Mempool Block explorer 來檢視 Blockchain，以及估算費用...在本課程中，我們將著重於這些用途。
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel 可以保持非常簡約的風格，只專注於 Bitcoin，也可以演�
 
 
 
-- Lightning Network**：Umbrel 也可讓您部署 LND 或 Core Lightning（Lightning Network 的兩種實作），以管理您自己的 Lightning 節點。您將能夠打開通道、管理您的流動資金、進行支付、自動平衡、提供服務、連接遠端 Wallet，或利用許多可用的應用程式來進行進階的 Interface 管理。我們將在下一堂 LNP 202 課程中探討此特定使用個案。
+- **Lightning Network**：Umbrel 也可讓您部署 LND 或 Core Lightning（Lightning Network 的兩種實作），以管理您自己的 Lightning 節點。您將能夠打開通道、管理您的流動資金、進行支付、自動平衡、提供服務、連接遠端 Wallet，或利用許多可用的應用程式來進行進階的 Interface 管理。我們將在下一堂 LNP 202 課程中探討此特定使用個案。
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel 可以保持非常簡約的風格，只專注於 Bitcoin，也可以演�
 
 
 
-- 一般自我託管**：與 Nextcloud、Immich、Jellyfin/Plex、DNS 範圍內的廣告封鎖程式 (Pi-hole/AdGuard)、VPN (WireGuard、Tailscale)、家庭自動化 (家庭助理)、備份、筆記管理、辦公室工具、本機 AI (Ollama + Open WebUI)...Umbrel 可以成為您的個人伺服器，讓您重新掌控自己的資料。您可自行託管每天使用的服務，並擁有與外部解決方案極為相似的精緻使用者體驗，同時保留對資料和隱私的完全控制。
+- **一般自我託管**：與 Nextcloud、Immich、Jellyfin/Plex、DNS 範圍內的廣告封鎖程式 (Pi-hole/AdGuard)、VPN (WireGuard、Tailscale)、家庭自動化 (家庭助理)、備份、筆記管理、辦公室工具、本機 AI (Ollama + Open WebUI)...Umbrel 可以成為您的個人伺服器，讓您重新掌控自己的資料。您可自行託管每天使用的服務，並擁有與外部解決方案極為相似的精緻使用者體驗，同時保留對資料和隱私的完全控制。
 
 
 
@@ -1713,7 +1713,7 @@ Umbrel 顯然需要網際網路連線。在裝置和路由器之間連接 RJ45 �
 
 
 
-出現的畫面會列出電腦偵測到的所有內部儲存裝置。每個磁碟都附有編號、名稱和儲存容量。找到要安裝 Umbrel 的磁碟。 **警告：此磁碟上的所有檔案都會被永久刪除。
+出現的畫面會列出電腦偵測到的所有內部儲存裝置。每個磁碟都附有編號、名稱和儲存容量。找到要安裝 Umbrel 的磁碟。**警告：此磁碟上的所有檔案都會被永久刪除。**
 
 
 
@@ -1759,8 +1759,8 @@ Umbrel 顯然需要網際網路連線。在裝置和路由器之間連接 RJ45 �
 
 
 
-- USB 隨身碟已拔除**：如果 USB 隨身碟仍保持連接，系統可能會在 USB 隨身碟上而非內接式磁碟上重新啟動；
-- 乙太網路線已插入**：裝置必須連接到路由器才能運作。
+- USB 隨身碟已拔除：如果 USB 隨身碟仍保持連接，系統可能會在 USB 隨身碟上而非內接式磁碟上重新啟動；
+- 乙太網路線已插入：裝置必須連接到路由器才能運作。
 
 
 
@@ -1914,7 +1914,7 @@ Umbrel 的 Interface 相當直覺：
 
 
 
-- 檔案*」功能表可集中儲存 Umbrel 上的所有文件。
+- 檔案功能表可集中儲存 Umbrel 上的所有文件。
 
 
 
@@ -2285,8 +2285,8 @@ Bitcoin core 確實有一個可選的交易索引器 (`txindex`)，這是其歷�
 
 
 
-- Public Server* (黃色)：預設情況下，如果您不擁有 Bitcoin 節點，這個選項會將您連線到您不擁有的公共節點 (通常是公司的)。此選項與此無關，因為您在 Umbrel 上有自己的節點。
-- Bitcoin core* (Green)：此選項對應於透過 Interface RPC 連線，即直接與 Bitcoin core 連線。
+- **Public Server** (黃色)：預設情況下，如果您不擁有 Bitcoin 節點，這個選項會將您連線到您不擁有的公共節點 (通常是公司的)。此選項與此無關，因為您在 Umbrel 上有自己的節點。
+- **Bitcoin core** (Green)：此選項對應於透過 Interface RPC 連線，即直接與 Bitcoin core 連線。
 - Private Electrum*（藍色）：此選項可讓您透過索引器的 Interface Electrum 伺服器（Electrs 或 Fulcrum）連線。
 
 

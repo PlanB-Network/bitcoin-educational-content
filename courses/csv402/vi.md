@@ -696,7 +696,7 @@ Theo quy tắc rễ cọc, mỗi nhánh/lá phải được kết hợp theo th�
 
 
 - `tHT` > `tHABC`: cam kết Tapret di chuyển sang bên phải của cây. Bằng chứng duy nhất chỉ cần `tHABC` và `P`;
-- tHT` < `tHABC`**: cam kết Tapret được đặt ở bên trái. Để chứng minh rằng không có cam kết Tapret nào khác ở bên phải, `tHAB` và `tHC` phải được tiết lộ để chứng minh sự vắng mặt của bất kỳ tập lệnh nào khác như vậy.
+- **tHT` < `tHABC`**: cam kết Tapret được đặt ở bên trái. Để chứng minh rằng không có cam kết Tapret nào khác ở bên phải, `tHAB` và `tHC` phải được tiết lộ để chứng minh sự vắng mặt của bất kỳ tập lệnh nào khác như vậy.
 
 Ví dụ trực quan cho trường hợp đầu tiên (`tHABC < tHT`):
 
@@ -2871,7 +2871,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Ở đây chúng ta thấy:
 
 
-- `rgb:`**: Tiền tố URL;
+- **`rgb:`**: Tiền tố URL;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Mã hợp đồng (NFT);
 - **rGB21**: giao diện cho tài sản không thể thay thế (NFT);
 - **`DbwzvSu-4BZU81jEp-...`**: tham chiếu rõ ràng đến phần duy nhất của NFT, ví dụ như hàm băm của blob dữ liệu (phương tiện, siêu dữ liệu...);

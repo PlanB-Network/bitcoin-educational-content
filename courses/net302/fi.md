@@ -892,7 +892,7 @@ IP-osoitteita voidaan määrittää kahdella tavalla:
 **IPv4**-osoitteet kirjoitetaan **32-bittisessä** muodossa, joka on jaettu **neljään tavuun**. Kukin tavu sisältää 8 bittiä ja edustaa desimaalilukua 0-255. Neljä tavua erotetaan toisistaan pisteillä selkeän ja luettavan merkintätavan muodostamiseksi.
 
 
-esimerkki: Address 172.16.254.1_
+esimerkki: Address 172.16.254.1
 
 
 
@@ -988,7 +988,7 @@ Seuraavat alueet on varattu sisäiseen käyttöön:
 Osoitteita **127.0.0.1** ja yleisemmin koko 127.0.0.0/8-aluetta käytetään sisäiseen testaukseen: kaikki niihin lähetetyt pyynnöt eivät koskaan poistu koneelta. Tämä on hyödyllistä, kun halutaan tarkistaa, että paikallinen verkkopalvelu toimii ilman, että laajempi verkko on mukana.
 
 
-Jotta Address-avaruutta voitaisiin hyödyntää paremmin, järjestelmänvalvojat jakavat verkot usein **alaverkkoihin** käyttämällä aliverkkomaskkeja tai **CIDR**-merkintää (__Classless Inter-Domain Routing_). CIDR mahdollistaa tarkemman hallinnan ja auttaa välttämään osoitteiden tuhlaamista. Nykyään CIDR on välttämätön IP-alueiden hienosäätämisessä ja reititystaulujen koon pienentämisessä.
+Jotta Address-avaruutta voitaisiin hyödyntää paremmin, järjestelmänvalvojat jakavat verkot usein **alaverkkoihin** käyttämällä aliverkkomaskkeja tai **CIDR**-merkintää (**Classless Inter-Domain Routing**). CIDR mahdollistaa tarkemman hallinnan ja auttaa välttämään osoitteiden tuhlaamista. Nykyään CIDR on välttämätön IP-alueiden hienosäätämisessä ja reititystaulujen koon pienentämisessä.
 
 
 Nykyaikaisissa verkoissa IP-osoite on yleensä yhdistetty muihin tunnisteisiin:
@@ -1242,7 +1242,7 @@ Dynaamisiin reititysprotokolliin kuuluvat standardit, kuten etäisyysalgoritmiin
 ### Määritelmä
 
 
-Network Address Translation_ (NAT) on tekniikka, joka on kehitetty Address käytettävissä olevien IPv4-osoitteiden asteittaiseen loppumiseen. NAT on suunniteltu väliaikaiseksi ratkaisuksi ennen IPv6:n laajaa käyttöönottoa, ja sen avulla yritykset ja yksityishenkilöt voivat edelleen yhdistää suuren määrän koneita ja käyttää vain rajoitettua joukkoa julkisia IP-osoitteita.
+**Network Address Translation** (NAT) on tekniikka, joka on kehitetty käytettävissä olevien IPv4-osoitteiden asteittaiseen loppumiseen. NAT on suunniteltu väliaikaiseksi ratkaisuksi ennen IPv6:n laajaa käyttöönottoa, ja sen avulla yritykset ja yksityishenkilöt voivat edelleen yhdistää suuren määrän koneita ja käyttää vain rajoitettua joukkoa julkisia IP-osoitteita.
 
 
 **Tärkeä muistutus:** Siirtyminen IPv4:stä IPv6:een ratkaisee teoreettisesti uupumisongelman laajentamalla Address-avaruutta 32 bitistä 128 bittiin, jolloin osoitteita on lähes rajattomasti (2^128). Käytännössä siirtyminen on kuitenkin vielä epätäydellinen, ja NAT on edelleen laajalti käytössä.

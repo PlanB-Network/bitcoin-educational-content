@@ -233,7 +233,7 @@ Politisk ekonomi, så som den utformades av Adam Smith och J.-B. Say, sammanfatt
 
 ![image](assets/en/015.webp)
 
-_(Say, Destutt de Tracy, Quesnay, de Gournay)_ _
+_(Say, Destutt de Tracy, Quesnay, de Gournay)_
 
 
 Adam Smith var intresserad av välstånd, inte som ett mål i sig utan som ett medel för att höja individernas moral. För honom består nationernas rikedom av individernas rikedom. Om man vill ha en välmående nation, säger Adam Smith, måste man låta individerna agera fritt. Och marknaden fungerar eftersom den tillåter alla att uttrycka sina preferenser och driva sina intressen.
@@ -675,7 +675,7 @@ Men, som Bastiat påminner oss om, monopol utesluter framsteg.
 
 ![image](assets/en/057.webp)
 
-_(Richard Cobden)_ _(Richard Cobden)
+_(Richard Cobden)_ _(Richard Cobden)_
 
 
 Som vi redan har sett var det först och främst Cobdens kamp mot protektionism med den engelska ligan för avskaffandet av majslagarna som fick Bastiat att skriva artiklar och sedan böcker.

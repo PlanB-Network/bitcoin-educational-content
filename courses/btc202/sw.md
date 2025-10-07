@@ -388,9 +388,9 @@ Kulingana na [data iliyokusanywa Agosti 2025 na Luke Dashjr](https://luke.dashjr
 
 
 
-- Bitcoin core**: 87.3% ya nodes
-- Bitcoin Knots**: 12.5
-- Utekelezaji mwingine limbikizi**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% ya nodes
+- **Bitcoin Knots**: 12.5
+- **Utekelezaji mwingine limbikizi**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Kwa maneno mengine, karibu nodi 9 kati ya 10 za umma zinaendesha Bitcoin core. M
 
 
 
-**Kumbuka:** Takwimu hizi bado ni makadirio, hata hivyo, kwa vile zinatokana hasa na *nodi za kusikiliza*, yaani, nodi zinazokubali miunganisho inayoingia (na bandari 8333 imefunguliwa). Nodi zisizosikiza* ni ngumu zaidi kuhesabu, kwani haiwezekani kuunganishwa nazo moja kwa moja: lazima ungojee mpango kutoka kwao, kwa njia ya muunganisho unaotoka. Tovuti ya Luke Dashjr inadai kuwa inajaribu kuhesabu hizi *nodi zisizosikiza* pia, lakini bado haiwezekani kupata data sahihi kabisa kuzihusu, na kusasishwa kwa takwimu hizi kunabaki nyuma ya ukweli.
+**Kumbuka:** Takwimu hizi bado ni makadirio, hata hivyo, kwa vile zinatokana hasa na *nodi za kusikiliza*, yaani, nodi zinazokubali miunganisho inayoingia (na bandari 8333 imefunguliwa). *Nodi zisizosikiza* ni ngumu zaidi kuhesabu, kwani haiwezekani kuunganishwa nazo moja kwa moja: lazima ungojee mpango kutoka kwao, kwa njia ya muunganisho unaotoka. Tovuti ya Luke Dashjr inadai kuwa inajaribu kuhesabu hizi *nodi zisizosikiza* pia, lakini bado haiwezekani kupata data sahihi kabisa kuzihusu, na kusasishwa kwa takwimu hizi kunabaki nyuma ya ukweli.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core imeandikwa katika C++. Pia ni mradi wa programu huria ambao hudumis
 
 
 
-- Wachangiaji** huwasilisha mapendekezo katika mfumo wa _vuta maombi_ (PR). Kimsingi, mtu yeyote anaweza kupendekeza mabadiliko, lakini lazima yajaribiwe, yameandikwa, na kupitia mchakato wa ukaguzi wa rika.
+- **Wachangiaji** huwasilisha mapendekezo katika mfumo wa _vuta maombi_ (PR). Kimsingi, mtu yeyote anaweza kupendekeza mabadiliko, lakini lazima yajaribiwe, yameandikwa, na kupitia mchakato wa ukaguzi wa rika.
 - **watunzaji** wana haki ya kuidhinisha na kuunganisha PRs. Ndio wanaohakikisha uwiano na utulivu wa mradi. Mnamo Julai 2025, kuna watano kati yao: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao, na Ryan Ofsky.
 - Hakujawa na **mtunzaji mkuu** tangu Februari 2023. Jukumu hili lilishikiliwa awali na Satoshi Nakamoto wakati wa uzinduzi wa Bitcoin, kisha Gavin Andresen kufuatia kuondoka kwa Nakamoto mapema 2011, na hatimaye Wladimir J. Van Der Laan kutoka 2014 hadi 2023.
 
@@ -446,9 +446,9 @@ Tunaweza pia kutaja:
 
 
 
-- Libbitcoin**: maktaba ya kawaida ya C++ iliyotengenezwa na Amir Taaki na kudumishwa na Eric Voskuil;
-- Bcoin**: utekelezaji wa JavaScript, haudumiwi tena kikamilifu;
-- BTCD/btcsuit**e: utekelezaji katika Go.
+- **Libbitcoin**: maktaba ya kawaida ya C++ iliyotengenezwa na Amir Taaki na kudumishwa na Eric Voskuil;
+- **Bcoin**: utekelezaji wa JavaScript, haudumiwi tena kikamilifu;
+- **BTCD/btcsuite**: utekelezaji katika Go.
 
 
 
@@ -590,7 +590,7 @@ Kipengele muhimu, ambacho mara nyingi hakieleweki, ni kwamba uendeshaji wa nodi 
 
 
 
-- Sheria za Makubaliano**:
+- **Sheria za Makubaliano**:
 
 
 
@@ -604,7 +604,7 @@ Kubadilisha sheria hizi ni sawa na kubadilisha itifaki, na kwa hiyo sarafu (Hard
 
 
 
-- Kanuni za relay**:
+- **Kanuni za relay**:
 
 
 
@@ -616,7 +616,7 @@ Kwa mfano, muamala usio na ada, kwa mujibu wa sheria za makubaliano, ni halali k
 
 
 
-Kuzungusha nodi yako mwenyewe kunamaanisha kudai: "Ninathibitisha kile ninachochagua kuhalalisha, kulingana na sheria ambazo nimepitisha mwenyewe "*. Kwa hivyo unakuwa muigizaji katika usimamizi wa mfumo, unaoweza kukataa mageuzi ambayo yanaonekana kuwa hayakubaliki kwako, au kuidhinisha sasisho kulingana na vigezo vyako mwenyewe.
+Kuzungusha nodi yako mwenyewe kunamaanisha kudai: "Ninathibitisha kile ninachochagua kuhalalisha, kulingana na sheria ambazo nimepitisha mwenyewe **"**. Kwa hivyo unakuwa muigizaji katika usimamizi wa mfumo, unaoweza kukataa mageuzi ambayo yanaonekana kuwa hayakubaliki kwako, au kuidhinisha sasisho kulingana na vigezo vyako mwenyewe.
 
 
 
@@ -882,8 +882,8 @@ Kuna sababu 2 zinazowezekana za kuchagua Mafundo juu ya Msingi:
 
 
 
-- Mbinu**: Chaguo tofauti kutoka kwa Msingi, hasa katika suala la usimamizi wa relay, kwa kubainisha ni miamala ipi inayokubaliwa na kutangazwa na nodi yako.
-- Sera**: Baadhi ya watu wanapendelea kutumia wateja mbadala kama vile Knots kwa sababu zisizo za kiufundi, hasa kusaidia njia mbadala ya Core na hivyo kupunguza ukiritimba wake. Ikiwa Core ingewahi kuathiriwa, itakuwa muhimu sio tu kuwa na wateja mbadala thabiti, wanaodumishwa vyema lakini pia kujua jinsi ya kuwatumia kwa ufanisi. Wengine hutumia Knots kwa madhumuni ya kupinga, kwa sababu wamepoteza imani na wasanidi wa Core au hawaidhinishi wengi wa usimamizi wa mteja.
+- **Mbinu**: Chaguo tofauti kutoka kwa Msingi, hasa katika suala la usimamizi wa relay, kwa kubainisha ni miamala ipi inayokubaliwa na kutangazwa na nodi yako.
+- **Sera**: Baadhi ya watu wanapendelea kutumia wateja mbadala kama vile Knots kwa sababu zisizo za kiufundi, hasa kusaidia njia mbadala ya Core na hivyo kupunguza ukiritimba wake. Ikiwa Core ingewahi kuathiriwa, itakuwa muhimu sio tu kuwa na wateja mbadala thabiti, wanaodumishwa vyema lakini pia kujua jinsi ya kuwatumia kwa ufanisi. Wengine hutumia Knots kwa madhumuni ya kupinga, kwa sababu wamepoteza imani na wasanidi wa Core au hawaidhinishi wengi wa usimamizi wa mteja.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Mwavuli unaweza kubaki kuwa mdogo sana na kulenga Bitcoin pekee, au kubadilika n
 
 
 
-- Njia rahisi ya Bitcoin**: haya ndiyo matumizi ya mwanzilishi ambayo Umbrel ameitegemea tangu mwanzo. Unaweza kuendesha Bitcoin core (au Mafundo), kuunganisha pochi zako moja kwa moja kwenye nodi yako, onyesha seva ya Electrum, karibisha Mempool Block explorer yako ili kutazama Blockchain, na kukadiria gharama... Ni matumizi haya ambayo tutakuwa tukiyazingatia katika kozi hii.
+- **Njia rahisi ya Bitcoin**: haya ndiyo matumizi ya mwanzilishi ambayo Umbrel ameitegemea tangu mwanzo. Unaweza kuendesha Bitcoin core (au Mafundo), kuunganisha pochi zako moja kwa moja kwenye nodi yako, onyesha seva ya Electrum, karibisha Mempool Block explorer yako ili kutazama Blockchain, na kukadiria gharama... Ni matumizi haya ambayo tutakuwa tukiyazingatia katika kozi hii.
 
 
 
@@ -1487,7 +1487,7 @@ Mwavuli unaweza kubaki kuwa mdogo sana na kulenga Bitcoin pekee, au kubadilika n
 
 
 
-- Lightning Network**: Mwavuli pia hukuruhusu kupeleka LND au Core Lightning, utekelezaji mbili wa Lightning Network, ili kudhibiti nukta yako ya Umeme. Utaweza kufungua vituo, kudhibiti ukwasi wako, kufanya malipo, kusawazisha kiotomatiki, kutoa huduma, kuunganisha Wallet ya mbali, au kunufaika na usimamizi wa hali ya juu wa Interface kutokana na programu nyingi zinazopatikana. Tutakuwa tukiangalia kesi hii maalum ya utumiaji katika kozi yetu inayofuata ya LNP 202.
+- **Lightning Network**: Mwavuli pia hukuruhusu kupeleka LND au Core Lightning, utekelezaji mbili wa Lightning Network, ili kudhibiti nukta yako ya Umeme. Utaweza kufungua vituo, kudhibiti ukwasi wako, kufanya malipo, kusawazisha kiotomatiki, kutoa huduma, kuunganisha Wallet ya mbali, au kunufaika na usimamizi wa hali ya juu wa Interface kutokana na programu nyingi zinazopatikana. Tutakuwa tukiangalia kesi hii maalum ya utumiaji katika kozi yetu inayofuata ya LNP 202.
 
 
 
@@ -1497,7 +1497,7 @@ Mwavuli unaweza kubaki kuwa mdogo sana na kulenga Bitcoin pekee, au kubadilika n
 
 
 
-- Upangishaji wa kibinafsi wa jumla**: ukitumia Nextcloud, Immich, Jellyfin/Plex, vizuizi vya matangazo kote vya DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), mitambo ya kiotomatiki ya nyumbani (Msaidizi wa Nyumbani), hifadhi rudufu, udhibiti wa madokezo, zana za ofisi, AI ya ndani (Ollama + Open WebUI)... Mwavuli unaweza kuwa udhibiti wa data yako ya kibinafsi. Unapangisha huduma unazotumia kila siku wewe mwenyewe, ukitumia hali iliyoboreshwa ya mtumiaji ambayo inafanana kwa karibu na suluhu za nje, huku ukihifadhi udhibiti kamili wa data na faragha yako.
+- **Upangishaji wa kibinafsi wa jumla**: ukitumia Nextcloud, Immich, Jellyfin/Plex, vizuizi vya matangazo kote vya DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), mitambo ya kiotomatiki ya nyumbani (Msaidizi wa Nyumbani), hifadhi rudufu, udhibiti wa madokezo, zana za ofisi, AI ya ndani (Ollama + Open WebUI)... Mwavuli unaweza kuwa udhibiti wa data yako ya kibinafsi. Unapangisha huduma unazotumia kila siku wewe mwenyewe, ukitumia hali iliyoboreshwa ya mtumiaji ambayo inafanana kwa karibu na suluhu za nje, huku ukihifadhi udhibiti kamili wa data na faragha yako.
 
 
 
@@ -1759,8 +1759,8 @@ Kabla ya kuanzisha upya kifaa, angalia pointi mbili zifuatazo:
 
 
 
-- Kitufe cha USB hakijaunganishwa**: ikiwa kitaendelea kushikamana, mfumo unaweza kuanzisha upya juu yake badala ya diski ya ndani;
-- Kebo ya Ethaneti imechomekwa**: lazima kifaa kiunganishwe kwenye kipanga njia chako ili kufanya kazi.
+- **Kitufe cha USB hakijaunganishwa**: ikiwa kitaendelea kushikamana, mfumo unaweza kuanzisha upya juu yake badala ya diski ya ndani;
+- **Kebo ya Ethaneti imechomekwa**: lazima kifaa kiunganishwe kwenye kipanga njia chako ili kufanya kazi.
 
 
 
@@ -2285,9 +2285,9 @@ Kisha utagundua chaguzi tatu za kuunganisha programu yako na nodi ya Bitcoin:
 
 
 
-- Seva ya Umma* (njano): kwa chaguo-msingi, ikiwa humiliki nodi ya Bitcoin, chaguo hili hukuunganisha kwenye nodi ya umma usiyomiliki (kwa kawaida ni ya kampuni). Chaguo hili halifai hapa, kwani unayo nodi yako kwenye Umbrel.
+- **Seva ya Umma** (njano): kwa chaguo-msingi, ikiwa humiliki nodi ya Bitcoin, chaguo hili hukuunganisha kwenye nodi ya umma usiyomiliki (kwa kawaida ni ya kampuni). Chaguo hili halifai hapa, kwani unayo nodi yako kwenye Umbrel.
 - Bitcoin core * (Green): chaguo hili linalingana na uunganisho kupitia Interface RPC, yaani, moja kwa moja kwa Bitcoin core.
-- Electrum ya Kibinafsi* (bluu): chaguo hili hukuwezesha kuunganisha kupitia Seva ya Electrum ya Interface ya kielekezi chako (Electrs au Fulcrum).
+- **Electrum ya Kibinafsi** (bluu): chaguo hili hukuwezesha kuunganisha kupitia Seva ya Electrum ya Interface ya kielekezi chako (Electrs au Fulcrum).
 
 
 
@@ -2908,7 +2908,7 @@ Katika hali hii, programu inauliza _**Mbegu za DNS**_. Hizi ni [seva zinazodumis
 
 
 
-Katika idadi kubwa ya matukio, hatua ya *Mbegu za DNS* inatosha kuanzisha miunganisho ya kwanza na nodi nyingine. Iwapo, kipekee, seva hizi zitashindwa kujibu ndani ya sekunde 60, nodi hubadilika kwenda kwa njia nyingine: [orodha tuli ya zaidi ya anwani 1,000](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) ya _seed nodes-5 husasishwa mara kwa mara katika GW's misimbo ya GW. Ikiwa njia mbili za kwanza za kupata anwani za IP zinashindwa, suluhisho hili la mwisho linaanzisha uunganisho wa awali, ambayo node inaweza kuomba anwani mpya za IP.
+Katika idadi kubwa ya matukio, hatua ya *Mbegu za DNS* inatosha kuanzisha miunganisho ya kwanza na nodi nyingine. Iwapo, kipekee, seva hizi zitashindwa kujibu ndani ya sekunde 60, nodi hubadilika kwenda kwa njia nyingine: [orodha tuli ya zaidi ya anwani 1,000](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) ya *seed nodes* husasishwa mara kwa mara katika GW's misimbo ya GW. Ikiwa njia mbili za kwanza za kupata anwani za IP zinashindwa, suluhisho hili la mwisho linaanzisha uunganisho wa awali, ambayo node inaweza kuomba anwani mpya za IP.
 
 
 

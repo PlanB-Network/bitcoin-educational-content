@@ -545,9 +545,9 @@ RGB sisteminin yaptığı da tam olarak budur:
 
 
 
-- Mühür tanımı_ gelecekteki bir Commitment için Seal niyetinde olduğunuz UTXO'dir;
+- **Mühür tanımı** gelecekteki bir Commitment için Seal niyetinde olduğunuz UTXO'dir;
 - Bu UTXO'u harcayarak Commitment'i içeren bir işlem oluşturduğunuzda _seal closing_ gerçekleşir;
-- Tanık_, Seal'yi bu içerikle kapattığınızı kanıtlayan işlemin kendisidir;
+- **Tanık**, Seal'yi bu içerikle kapattığınızı kanıtlayan işlemin kendisidir;
 - Bir Seal'in kapatılmadığını kanıtlayamazsınız (bir UTXO'nin zaten harcanmadığından veya henüz görmediğiniz bir blokta harcanmayacağından kesinlikle emin olamazsınız), ancak gerçekten kapatıldığını kanıtlayabilirsiniz.
 
 
@@ -628,7 +628,7 @@ Bu bölümde, Bitcoin Blockchain içinde Client-side Validation ve Tek Kullanım
 
 
 
-- Belirleyici Bitcoin taahhütleri_;
+- **Belirleyici Bitcoin taahhütleri**;
 - Çoklu protokol taahhütleri.
 
 
@@ -806,7 +806,7 @@ Ancak Seal'yı kapatırken, _taahhüdün_ nereye eklenmesi gerektiği sorusu ort
 Birisine bir işlemde belirli bir mesajın gömülü olduğuna dair kanıt verdiğinizde, aynı işlemde size açıklanmamış başka bir Commitment (ikinci, gizli bir mesaj) olmadığını garanti edebilmeniz gerekir. Client-side Validation'nin sağlam kalabilmesi için, _tek kullanımlık mührü_ kapatan işleme tek bir _commitment_ yerleştirmek için **deterministik** bir mekanizmaya ihtiyacınız vardır.
 
 
-Tanıklık işlemi_ ünlü UTXO'yı (veya _mühür tanımını_) harcar ve bu harcama Seal'in kapanmasına karşılık gelir. Teknik olarak konuşursak, her bir çıkış noktasının yalnızca bir kez harcanabileceğini biliyoruz. Bitcoin'ün çifte harcamaya karşı direncinin altında yatan şey de tam olarak budur. Ancak harcama işlemi birkaç _giriş_, birkaç _çıkış_ içerebilir veya karmaşık bir şekilde oluşturulabilir (coinjoins, Lightning channels, vb.). Bu nedenle, bu yapıda _commitment_'ın nereye yerleştirileceğini açık ve tekdüze bir şekilde tanımlamamız gerekir.
+Tanıklık işlemi **ünlü UTXO'yı** (veya **mühür tanımını**) harcar ve bu harcama Seal'in kapanmasına karşılık gelir. Teknik olarak konuşursak, her bir çıkış noktasının yalnızca bir kez harcanabileceğini biliyoruz. Bitcoin'ün çifte harcamaya karşı direncinin altında yatan şey de tam olarak budur. Ancak harcama işlemi birkaç **giriş**, birkaç **çıkış** içerebilir veya karmaşık bir şekilde oluşturulabilir (coinjoins, Lightning channels, vb.). Bu nedenle, bu yapıda **commitment**'ın nereye yerleştirileceğini açık ve tekdüze bir şekilde tanımlamamız gerekir.
 
 
 Yöntem ne olursa olsun (PkO, TxO2, vb.), _commitment_ eklenebilir:
@@ -884,7 +884,7 @@ RGB bağlamında, bu yol 2021 yılına kadar öngörülmüştü, ancak mevcut st
 ***Tanıklık tweak:***
 
 
-Inscriptions Ordinals_ gibi bazı protokollerin uygulamaya koyduğu bir başka fikir de verileri doğrudan işlemin "tanık" bölümüne yerleştirmektir (bu nedenle "tanık tweak" ifadesi kullanılır). Ancak bu yöntem:
+Inscriptions Ordinals gibi bazı protokollerin uygulamaya koyduğu bir başka fikir de verileri doğrudan işlemin "tanık" bölümüne yerleştirmektir (bu nedenle "tanık tweak" ifadesi kullanılır). Ancak bu yöntem:
 
 
 
@@ -1333,7 +1333,7 @@ Bu mekanizma şunları sağlar:
 Multi Protocol Commitment (MPC), RGB'nin birden fazla sözleşmeyi tek bir Bitcoin işleminde toplamasını ve diğer katılımcılara karşı taahhütlerin benzersizliğini ve gizliliğini korumasını sağlayan ilkedir. Ağacın deterministik yapısı sayesinde, her bir Contract benzersiz bir konuma atanır ve "kukla" yaprakların (**Entropi Yaprakları**) varlığı, işleme katılan toplam sözleşme sayısını kısmen maskeler.
 
 
-Merkle Tree'ün tamamı asla istemcide saklanmaz. Biz sadece ilgili her Contract için alıcıya iletilmek üzere (daha sonra Commitment'ü doğrulayabilecek olan) bir _Merkle yolu_ generate oluştururuz. Bazı durumlarda, aynı UTXO'den geçen birkaç varlığınız olabilir. Daha sonra çok fazla verinin tekrarlanmasını önlemek için birkaç _Merkle yolunu_ çoklu protokol Commitment bloğu_ olarak adlandırılan bir blokta birleştirebilirsiniz.
+Merkle Tree'ün tamamı asla istemcide saklanmaz. Biz sadece ilgili her Contract için alıcıya iletilmek üzere (daha sonra Commitment'ü doğrulayabilecek olan) bir _Merkle yolu_ generate oluştururuz. Bazı durumlarda, aynı UTXO'den geçen birkaç varlığınız olabilir. Daha sonra çok fazla verinin tekrarlanmasını önlemek için birkaç _Merkle yolunu_ _çoklu protokol Commitment bloğu_ olarak adlandırılan bir blokta birleştirebilirsiniz.
 
 
 Bu nedenle her _Merkle kanıtı_ hafiftir, özellikle de RGB'de ağaç derinliği 32'yi geçmeyeceği için. Ayrıca, birkaç dalı birleştirmek veya ayırmak için yararlı olan daha fazla bilgiyi (kesit, entropi vb.) koruyan bir "Merkle bloğu" kavramı da vardır.
@@ -3984,7 +3984,7 @@ Bu URL'yi analiz edelim:
 - gW-1888: **önek**: RGB protokolünü çağıran bir bağlantıyı gösterir (diğer bağlamlarda `http:` veya `Bitcoin:` ile benzerdir);
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: manipüle etmek istediğiniz token'un `ContractId`sini temsil eder;
 - `/RGB20/100`: `RGB20` Interface'ın kullanıldığını ve varlıktan 100 birim talep edildiğini belirtir. Sözdizimi şöyledir: `/Interface/amount`;
-- `+utxob:`**: alıcı UTXO (veya daha doğrusu Single-Use Seal'in tanımı) hakkındaki bilgilerin eklendiğini belirtir;
+- `+utxob:` **alıcı UTXO (veya daha doğrusu Single-Use Seal'in tanımı) hakkındaki bilgilerin eklendiğini belirtir;**
 - `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: bu **blinded** UTXO (veya Seal Definition). Başka bir deyişle, Bob tam UTXO'ini maskelemiştir, bu nedenle gönderen (Alice) tam Address'ün ne olduğunu bilmemektedir. Sadece Bob tarafından kontrol edilen bir UTXO'e atıfta bulunan geçerli bir Seal olduğunu biliyor.
 
 

@@ -4123,7 +4123,7 @@ $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{
 
 Ve skutečnosti Alice ani nemusí nutně vědět, že Bob má označenou adresu, protože prostě používá druhou část statické adresy, kterou jí poskytl, a v tomto případě je to hodnota $B_1$, nikoli $B_{text{spend}}$.
 
-Pro skenování plateb bude Bob vždy používat hodnotu své počáteční statické adresy s $B_{\text{spend}}$ tímto způsobem:
+Pro skenování plateb bude Bob vždy používat hodnotu své počáteční statické adresy s **B_spend** tímto způsobem:
 
 $$ P_0 = B_{\text{výdaj}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$
 

@@ -1430,7 +1430,7 @@ ___
 
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 
@@ -3976,7 +3976,7 @@ In een coinswap-scenario met HTLC of PTLC tussen Alice en Bob, vindt de Exchange
 
 
 > *De HTLC is ook het mechanisme dat gebruikt wordt om betalingen veilig te routeren via de bidirectionele kanalen van de Lightning Network*
-Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omdat het het mogelijk maakt om af te zien van traditionele scripts (een mechanisme dat soms "scriptloze scripts_" wordt genoemd). Deze functie vermindert de kosten die Exchange met zich meebrengt. Een ander groot voordeel van Adaptor-handtekeningen is dat ze niet het gebruik van een gemeenschappelijke Hash vereisen voor beide partijen bij de transactie, waardoor het niet nodig is om een directe link tussen hen te onthullen in bepaalde typen Exchange.
+Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omdat het het mogelijk maakt om af te zien van traditionele scripts (een mechanisme dat soms **scriptloze scripts** wordt genoemd). Deze functie vermindert de kosten die Exchange met zich meebrengt. Een ander groot voordeel van Adaptor-handtekeningen is dat ze niet het gebruik van een gemeenschappelijke Hash vereisen voor beide partijen bij de transactie, waardoor het niet nodig is om een directe link tussen hen te onthullen in bepaalde typen Exchange.
 
 
 ### Handtekeningen van adapters
@@ -5850,7 +5850,7 @@ $$ P_0 = B_1 + \text{Hash}(\text{inputHash} \cdot a \cdot B_{scan} \text{ ‖ } 
 In werkelijkheid hoeft Alice niet eens te weten dat Bob een gelabelde Address heeft, want ze gebruikt gewoon het tweede deel van de statische Address die hij gaf, en in dit geval is dat de waarde $B_1$ in plaats van $B_{text{spend}}$.
 
 
-Om betalingen te scannen zal Bob altijd de waarde van zijn initiële statische Address met $B_{text{spend}}$ op deze manier gebruiken:
+Om betalingen te scannen zal Bob altijd de waarde van zijn initiële statische Address met **B_spend** op deze manier gebruiken:
 
 
 $$ P_0 = B_{{bestedingen}} + \text{Hash}(\text{inputHash} \cdot b_{scan} \cdot A \text{ ‖ } 0) \cdot G $$

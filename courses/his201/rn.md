@@ -1381,7 +1381,7 @@ Muri iki gice, dufise intumbero yo kuganira ku “slashdotting ikomeye,” ni uk
 
 ### Verisiyo 0.3 ya porogaramu
 
-Mu ntango z’umwaka w’2010, hasohotse verisiyo 0.3 y’iyo porogarama, iyo Satoshi Nakamoto na Martti Malmi bari bamaze igihe kirekire bateguye. Ugereranije na verisiyo 0.2, yasohotse mu kwezi kwa kigarama umwaka uheze, iyo verisiyo irimwo ibintu bihambaye cane nk’ivyo [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\)) (ivyo vyobaye bitcoind), ukugenzura umurongo w’amabwirizwa-vici ya JSO9. uruvyaro, na "hashmeter" igereranya igipimo ca Hash c'ukoresha. Harimwo kandi n’ugushigikira Mac OS X yazanywe n’intererano ya Laszlo Hanyecz be n’uguhindura igitabu c’ibishushanyo Interface mu rurimi rw’ikidagi, igiholandi n’igitaliyano.
+Mu ntango z'umwaka w'2010, hasohotse verisiyo 0.3 y'iyo porogarama, iyo Satoshi Nakamoto na Martti Malmi bari bamaze igihe kirekire bateguye. Ugereranije na verisiyo 0.2, yasohotse mu kwezi kwa kigarama umwaka uheze, iyo verisiyo irimwo ibintu bihambaye cane nk'ivyo **daemon** (ivyo vyobaye bitcoind), ukugenzura umurongo w'amabwirizwa-vici ya JSO9. uruvyaro, na "hashmeter" igereranya igipimo ca Hash c'ukoresha. Harimwo kandi n'ugushigikira Mac OS X yazanywe n'intererano ya Laszlo Hanyecz be n'uguhindura igitabu c'ibishushanyo Interface mu rurimi rw'ikidagi, igiholandi n'igitaliyano.
 
 Ku wa 22 Ruheshi, Satoshi [asaba] abagize ihuriro kugerageza iyi verisiyo ya porogarama. Abona ko gusohoka kw'iyi verisiyo ari igihe gihambaye mu gutegura Bitcoin kandi [ariyumvira](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) mbere n'ugukuraho umuce wa "beta" mu guhindura ata guca ku ruhande inomero kuri verisiyo1. Ariko rero, [arasubira] ku ngingo yiwe ahubwo yihuta cane.
 

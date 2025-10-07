@@ -128,7 +128,7 @@ Da han ble valgt som deputert, var det under den andre republikken, og fra da av
 > Mens det bare finnes arbeid til 16 000 menn, og antallet innrullerte menn overstiger 50 000;
 > Det er enighet om at hvert selskap inntil videre, og i påvente av bedre ordninger, skal arbeide to dager i uken fra og med mandag den 17.
 > republikkens kommissær, direktør for de nasjonale verkstedene
-> **Émile THOMAS.*
+> **Émile THOMAS.**
 
 ---
 
@@ -226,7 +226,7 @@ I økonomifaget erkjente Bastiat alltid sin gjeld til Adam Smith og Jean-Baptist
 
 ![image](assets/en/014.webp)
 
-_(Jean-Baptiste Say og Adam Smith)
+_(Jean-Baptiste Say og Adam Smith)_
 
 
 Politisk økonomi, slik Adam Smith og J.-B. Say oppfattet den. Say, er sammenfattet i ett eneste ord: frihet. Handelsfrihet, individuell frihet, frihandel og fritt initiativ. Frihandel ble først forsvart av fysiokratene, som François Quesnay og Vincent de Gournay, og deretter av Adam Smith, som syntetiserte deres ideer med sine egne observasjoner. På slutten av 1700-tallet klargjorde og korrigerte Jean-Baptiste Say enkelte punkter i sin læremester Adam Smiths doktrine i sitt mesterlige verk Treatise on Political Economy.
@@ -258,7 +258,7 @@ Det Adam Smith viser, er at man bare kan tjene sine egne interesser ved å tjene
 
 > "Den naturlige innsatsen til hvert enkelt individ for å forbedre sin egen tilstand ... er så kraftig at den alene, og uten hjelp, ikke bare er i stand til å føre samfunnet videre til rikdom og velstand, men også til å overvinne de hundre uforskammede hindringene som menneskelovenes dårskap altfor ofte legger i veien for dens virksomhet."
 > _The Wealth of Nations_
-> _Bok IV, kapittel V
+> **Bok IV, kapittel V**
 
 ---
 
@@ -551,7 +551,7 @@ For dem var tanken enkel: Jo flere ideer som får komme til uttrykk, desto mer u
 
 ![image](assets/en/046.webp)
 
-_(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_ _
+_(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
 
 Tvert imot er det få som har forstått at det som gjaldt for ideer, også gjaldt for varer og tjenester. Friheten til å handle med andre har nemlig to dyder: den er effektiv og den fører til en mer rettferdig fordeling. Ikke bare forstod ikke Rousseau dette, men han bekjempet også denne friheten i navnet til en falsk idé om lov og rett. En av de viktigste kildene til sosialismen, påpeker Bastiat, er Rousseaus oppfatning om at hele samfunnsordenen springer ut av loven.
@@ -1287,7 +1287,7 @@ La oss illustrere denne problemstillingen med noen aktuelle temaer. Første ekse
 
 ![image](assets/en/103.webp)
 
-_(Alan Greenspan, leder av FED, den amerikanske sentralbanken, fra 1987 til 2006)
+_(Alan Greenspan, leder av FED, den amerikanske sentralbanken, fra 1987 til 2006)_
 
 
 I årevis forklarte pengepolitiske ledere at hvis fortjenesten privatiseres når alt går bra, vil tapene bli gjensidig utlignet i tilfelle konkurs (redningsaksjoner, redningsplaner, rentemanipulasjon, pengetrykking osv.) Dermed skapte de moralsk hasard, de la til rette for urimelig risikotaking, og de oppmuntret finansverdenen til å oppføre seg uansvarlig. Dermed utløste de finanskrisen vi opplevde.
@@ -1519,7 +1519,7 @@ Dens oppgave er å forsvare personen og hans eiendom.
 
 ![image](assets/en/120.webp)
 
-_(François Quesnay, leder av fysiokratene)
+_(François Quesnay, leder av fysiokratene)_
 
 
 Retten er derfor ikke det samme som loven. Retten er ikke identifisert med regentens ord, og den er heller ikke utelukkende avhengig av hans legitimitet. Den er et produkt av en tradisjon, en rettsorden som går forut for og er overordnet loven, og som pålegger lovgiveren like mye som de vanlige borgerne.

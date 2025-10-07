@@ -3669,7 +3669,7 @@ Hariho porogarama zimwe zimwe zishobora gukora cane kuruta izindi, kuko zikorana
 
 
 
-- Web browsers*: ni zo zibanza gutera, kuko zikora ibintu bitagenzuwe mu gihe nyaco kandi zifise ahantu hanini cane ho gutera. Ikindi kandi, zifise uruhara runini mu kurinda amakuru yawe bwite. Kandi, ikiruta vyose, zikunda gusubirira porogarama nyinshi zahora zikoreshwa mu karere (aba clients ba e-mail, ama suites y’ibiro, aba media players...). Ariko tuzogaruka kuri iyo ngingo mu gice gikurikira c’inyigisho ya SCU202;
+- **Web browsers**: ni zo zibanza gutera, kuko zikora ibintu bitagenzuwe mu gihe nyaco kandi zifise ahantu hanini cane ho gutera. Ikindi kandi, zifise uruhara runini mu kurinda amakuru yawe bwite. Kandi, ikiruta vyose, zikunda gusubirira porogarama nyinshi zahora zikoreshwa mu karere (aba clients ba e-mail, ama suites y'ibiro, aba media players...). Ariko tuzogaruka kuri iyo ngingo mu gice gikurikira c'inyigisho ya SCU202;
 
 
 
@@ -4852,7 +4852,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 
-- OS :**
+- **OS:**
 
 
 

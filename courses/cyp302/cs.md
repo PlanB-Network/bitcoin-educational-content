@@ -1100,7 +1100,7 @@ I když se nebudeme zabývat všemi podrobnostmi různých pojetí kryptografick
 
 [2] Jonathan Katz a Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), str. 7f.
 
-[3] Eric Raymond, "The Cathedral and the Bazaar", příspěvek byl přednesen na konferenci Linux Kongress, Würzburg, Německo (27. května 1997). K dispozici je řada následných verzí i kniha. Mé citace pocházejí ze strany 30 v knize: Eric Raymond, _The Cathedral and the Bazaar: Vydání: Brána a bazar, revidované vydání. (2001), O'Reilly: Sebastopol, Kalifornie.
+[3] Eric Raymond, "The Cathedral and the Bazaar", příspěvek byl přednesen na konferenci Linux Kongress, Würzburg, Německo (27. května 1997). K dispozici je řada následných verzí i kniha. Mé citace pocházejí ze strany 30 v knize: Eric Raymond, _The Cathedral and the Bazaar: Vydání: Brána a bazar_, revidované vydání. (2001), O'Reilly: Sebastopol, Kalifornie.
 
 ## Proudové šifry
 

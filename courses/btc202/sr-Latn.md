@@ -388,9 +388,9 @@ Prema [podacima prikupljenim u avgustu 2025. od strane Luke Dashjr](https://luke
 
 
 
-- Bitcoin core**: 87.3% čvorova
-- Bitcoin Knots**: 12.5
-- Ostale kumulativne implementacije**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% čvorova
+- **Bitcoin Knots**: 12.5
+- **Ostale kumulativne implementacije**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core je napisan u C++. Takođe je open source projekat koji održava zaj
 
 
 
-- Doprinosioci** podnose predloge u obliku _pull request_ (PR). U principu, svako može predložiti izmenu, ali ona mora biti testirana, dokumentovana i proći kroz proces recenzije od strane kolega.
+- **Doprinosioci** podnose predloge u obliku _pull request_ (PR). U principu, svako može predložiti izmenu, ali ona mora biti testirana, dokumentovana i proći kroz proces recenzije od strane kolega.
 - **Održavaoci** imaju pravo da odobravaju i spajaju PR-ove. Oni su ti koji garantuju koherentnost i stabilnost projekta. U julu 2025. godine, njih petoro su: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao i Ryan Ofsky.
 - Nije bilo **glavnog održavaoca** od februara 2023. Ovu ulogu je u početku imao Satoshi Nakamoto prilikom lansiranja Bitcoin, zatim Gavin Andresen nakon Nakamotovog odlaska početkom 2011, i na kraju Wladimir J. Van Der Laan od 2014. do 2023.
 
@@ -446,9 +446,9 @@ Možemo takođe pomenuti:
 
 
 
-- Libbitcoin**: modularna C++ biblioteka koju je razvio Amir Taaki i održava Eric Voskuil;
-- Bcoin**: JavaScript implementacija, više se ne održava;
-- BTCD/btcsuit**e: implementacija u Go jeziku.
+- **Libbitcoin**: modularna C++ biblioteka koju je razvio Amir Taaki i održava Eric Voskuil;
+- **Bcoin**: JavaScript implementacija, više se ne održava;
+- **BTCD/btcsuite**: implementacija u Go jeziku.
 
 
 
@@ -590,7 +590,7 @@ Važan aspekt, koji se često pogrešno shvata, jeste da upravljanje čvorom omo
 
 
 
-- Pravila konsenzusa**:
+- **Pravila konsenzusa**:
 
 
 
@@ -604,7 +604,7 @@ Promena ovih pravila je ekvivalentna promeni protokola, a samim tim i valute (Ha
 
 
 
-- Pravila štafete**:
+- **Pravila štafete**:
 
 
 
@@ -616,7 +616,7 @@ Na primer, transakcija bez naknada je, prema pravilima konsenzusa, potpuno valid
 
 
 
-Pokretanje sopstvenog čvora znači tvrditi: "Validiram ono što odlučim da validiram, prema pravilima koja sam sam usvojio"*. Tako postajete akter u upravljanju sistemom, sposoban da odbacite evoluciju koja vam se čini neprihvatljivom, ili da odobrite ažuriranje prema sopstvenim kriterijumima.
+Pokretanje sopstvenog čvora znači tvrditi: "Validiram ono što odlučim da validiram, prema pravilima koja sam sam usvojio". Tako postajete akter u upravljanju sistemom, sposoban da odbacite evoluciju koja vam se čini neprihvatljivom, ili da odobrite ažuriranje prema sopstvenim kriterijumima.
 
 
 
@@ -882,8 +882,8 @@ Postoje 2 moguća razloga za odabir Knots-a umesto Core-a:
 
 
 
-- Tehnike**: Različite opcije iz Core-a, posebno u smislu upravljanja relejima, određivanjem koje transakcije prihvata i emituje vaš čvor.
-- Policy**: Neki ljudi preferiraju korišćenje alternativnih klijenata kao što je Knots iz netehničkih razloga, posebno da bi podržali alternativu Core-u i tako smanjili njegov monopol. Ako bi Core ikada bio kompromitovan, bilo bi korisno ne samo imati solidne, dobro održavane alternativne klijente već i znati kako ih efikasno koristiti. Drugi koriste Knots iz protesta, jer su izgubili poverenje u Core-ove programere ili ne odobravaju većinu upravljanja klijentom.
+- **Tehnike**: Različite opcije iz Core-a, posebno u smislu upravljanja relejima, određivanjem koje transakcije prihvata i emituje vaš čvor.
+- **Policy**: Neki ljudi preferiraju korišćenje alternativnih klijenata kao što je Knots iz netehničkih razloga, posebno da bi podržali alternativu Core-u i tako smanjili njegov monopol. Ako bi Core ikada bio kompromitovan, bilo bi korisno ne samo imati solidne, dobro održavane alternativne klijente već i znati kako ih efikasno koristiti. Drugi koriste Knots iz protesta, jer su izgubili poverenje u Core-ove programere ili ne odobravaju većinu upravljanja klijentom.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel može ostati vrlo minimalistički i fokusiran isključivo na Bitcoin, ili
 
 
 
-- Jednostavan Bitcoin čvor**: ovo je osnova na kojoj se Umbrel oslanjao od samog početka. Možete pokrenuti Bitcoin core (ili Knots), direktno povezati svoje novčanike sa svojim čvorom, izložiti Electrum server, hostovati svoj Mempool Block explorer za pregled Blockchain, i proceniti troškove... Na ove upotrebe ćemo se fokusirati u ovom kursu.
+- **Jednostavan Bitcoin čvor**: ovo je osnova na kojoj se Umbrel oslanjao od samog početka. Možete pokrenuti Bitcoin core (ili Knots), direktno povezati svoje novčanike sa svojim čvorom, izložiti Electrum server, hostovati svoj Mempool Block explorer za pregled Blockchain, i proceniti troškove... Na ove upotrebe ćemo se fokusirati u ovom kursu.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel može ostati vrlo minimalistički i fokusiran isključivo na Bitcoin, ili
 
 
 
-- Lightning Network**: Umbrel vam takođe omogućava da implementirate LND ili Core Lightning, dve implementacije Lightning Network, kako biste upravljali sopstvenim Lightning čvorom. Moći ćete da otvarate kanale, upravljate svojom likvidnošću, vršite plaćanja, automatizujete balansiranje, nudite usluge, povežete udaljeni Wallet, ili iskoristite napredno upravljanje Interface zahvaljujući mnogim dostupnim aplikacijama. Ovaj specifičan slučaj upotrebe ćemo razmatrati u našem sledećem LNP 202 kursu.
+- **Lightning Network**: Umbrel vam takođe omogućava da implementirate LND ili Core Lightning, dve implementacije Lightning Network, kako biste upravljali sopstvenim Lightning čvorom. Moći ćete da otvarate kanale, upravljate svojom likvidnošću, vršite plaćanja, automatizujete balansiranje, nudite usluge, povežete udaljeni Wallet, ili iskoristite napredno upravljanje Interface zahvaljujući mnogim dostupnim aplikacijama. Ovaj specifičan slučaj upotrebe ćemo razmatrati u našem sledećem LNP 202 kursu.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel može ostati vrlo minimalistički i fokusiran isključivo na Bitcoin, ili
 
 
 
-- Opšte samostalno hostovanje**: sa Nextcloud, Immich, Jellyfin/Plex, DNS-širokim blokatorima oglasa (Pi-hole/AdGuard), VPN-ovima (WireGuard, Tailscale), kućnom automatizacijom (Home Assistant), rezervnim kopijama, upravljanjem beleškama, kancelarijskim alatima, lokalnom veštačkom inteligencijom (Ollama + Open WebUI)... Umbrel može postati vaš lični server, omogućavajući vam da povratite kontrolu nad vašim podacima. Sami hostujete usluge koje svakodnevno koristite, sa uglađenim korisničkim iskustvom koje blisko podseća na spoljne solucije, dok zadržavate potpunu kontrolu nad vašim podacima i privatnošću.
+- **Opšte samostalno hostovanje**: sa Nextcloud, Immich, Jellyfin/Plex, DNS-širokim blokatorima oglasa (Pi-hole/AdGuard), VPN-ovima (WireGuard, Tailscale), kućnom automatizacijom (Home Assistant), rezervnim kopijama, upravljanjem beleškama, kancelarijskim alatima, lokalnom veštačkom inteligencijom (Ollama + Open WebUI)... Umbrel može postati vaš lični server, omogućavajući vam da povratite kontrolu nad vašim podacima. Sami hostujete usluge koje svakodnevno koristite, sa uglađenim korisničkim iskustvom koje blisko podseća na spoljne solucije, dok zadržavate potpunu kontrolu nad vašim podacima i privatnošću.
 
 
 
@@ -1759,8 +1759,8 @@ Pre nego što ponovo pokrenete uređaj, proverite sledeće dve tačke:
 
 
 
-- USB ključ je isključen**: ako ostane povezan, sistem se može ponovo pokrenuti na njemu umesto na internom disku;
-- Ethernet kabl je priključen**: uređaj mora biti povezan sa vašim ruterom da bi radio.
+- **USB ključ je isključen**: ako ostane povezan, sistem se može ponovo pokrenuti na njemu umesto na internom disku;
+- **Ethernet kabl je priključen**: uređaj mora biti povezan sa vašim ruterom da bi radio.
 
 
 
@@ -2285,9 +2285,9 @@ Zatim ćete otkriti tri opcije za povezivanje vašeg softvera sa Bitcoin čvorom
 
 
 
-- Javni Server* (žuto): po podrazumevanoj postavci, ako ne posedujete Bitcoin čvor, ova opcija vas povezuje sa javnim čvorom koji ne posedujete (obično kompanijskim). Ova opcija nije relevantna ovde, jer imate svoj čvor na Umbrel.
-- Bitcoin core* (Green): ova opcija odgovara povezivanju putem Interface RPC, tj. direktno na Bitcoin core.
-- Privatni Electrum* (plavo): ova opcija vam omogućava povezivanje putem vašeg indekserskog Interface Electrum Servera (Electrs ili Fulcrum).
+- **Javni Server** (žuto): po podrazumevanoj postavci, ako ne posedujete Bitcoin čvor, ova opcija vas povezuje sa javnim čvorom koji ne posedujete (obično kompanijskim). Ova opcija nije relevantna ovde, jer imate svoj čvor na Umbrel.
+- **Bitcoin core** (Green): ova opcija odgovara povezivanju putem Interface RPC, tj. direktno na Bitcoin core.
+- **Privatni Electrum** (plavo): ova opcija vam omogućava povezivanje putem vašeg indekserskog Interface Electrum Servera (Electrs ili Fulcrum).
 
 
 

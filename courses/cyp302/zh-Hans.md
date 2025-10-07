@@ -1088,7 +1088,7 @@ ___
 
 [2] Jonathan Katz 和 Yehuda Lindell，《现代密码学入门》，CRC Press（佛罗里达州博卡拉顿：2015 年），第 7 页以下。
 
-[3] Eric Raymond，"The Cathedral and the Bazaar"，论文发表于德国维尔茨堡 Linux 大会（1997 年 5 月 27 日）。该论文在德国维尔茨堡 Linux Kongress 上发表（1997 年 5 月 27 日），随后有多个版本和一本书面世。我引用的是该书第 30 页的内容：Eric Raymond，_The Cathedral and the Bazaar：一个意外的革命者对 Linux 和开源的思考》，修订版（2001 年），O'Reilly 出版社。(2001), O'Reilly：加利福尼亚州塞巴斯托波尔。
+[3] Eric Raymond，"The Cathedral and the Bazaar"，论文发表于德国维尔茨堡 Linux 大会（1997 年 5 月 27 日）。该论文在德国维尔茨堡 Linux Kongress 上发表（1997 年 5 月 27 日），随后有多个版本和一本书面世。我引用的是该书第 30 页的内容：Eric Raymond，_The Cathedral and the Bazaar：一个意外的革命者对 Linux 和开源的思考_，修订版（2001 年），O'Reilly 出版社：加利福尼亚州塞巴斯托波尔。
 
 ## 流密码
 
@@ -1469,7 +1469,7 @@ for 循环从 $i = 0$ 开始。根据我们上面的伪代码，**j** 的新值�
     - $t = (S[i] + S[j])\mod 8$
     - 密钥流的 $i^{th}$ 字节 = $S[t]$
 
-计算结果见表 2*。
+计算结果见表 2。
 
 **S** 的初始状态为 $S = [6, 4, 1, 0, 3, 7, 5, 2]$ 。设置 $i = 1$，**j**的值变为 4（$j = (j + S[i]) \mod 8 = (0 + 4) \mod 8 = 4$）。然后我们交换 $S[1]$ 和 $S[4]$，得出第二行中**S**的变换，即 $[6, 3, 1, 0, 4, 7, 5, 2]$。这样，**t** 的值就是 7（$t = (S[i] + S[j]) \mod 8 = (3 + 4) \mod 8 = 7$）。最后，密钥流的字节为 $S[7]$，即 2。
 

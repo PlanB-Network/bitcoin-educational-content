@@ -916,7 +916,7 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 正如在第三部分的介紹中所解釋的，這個啟發式是由 Satoshi Nakamoto 自己發現的。在白皮書中，他提到了一個幫助用戶避免產生這種情況的解決方案，那就是簡單地為每筆新交易使用空白的 Address：
 
 
-"_作為額外的防火牆，每筆交易都可以使用新的金鑰對，以保持它們與共同擁有者無關。
+**作為額外的防火牆，每筆交易都可以使用新的金鑰對，以保持它們與共同擁有者無關。**
 
 
 ![BTC204](assets/zh-Hant/055.webp)
@@ -1466,7 +1466,7 @@ ___
 
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 

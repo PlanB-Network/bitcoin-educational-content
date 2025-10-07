@@ -1142,7 +1142,7 @@ Untuk investasi skala besar, platform yang teregulasi dan diakui seperti Kraken,
 
 Penggunaannya sederhana dan dapat diakses oleh semua orang:
 
-1. Menyiapkan akun KYC/\*
+1. Menyiapkan akun KYC
 
 2. Transfer dana ke rekening Anda
 
@@ -1366,6 +1366,5 @@ Apakah Anda siap untuk bergabung?
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

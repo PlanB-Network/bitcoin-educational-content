@@ -84,7 +84,7 @@ Licha ya uwezo wake, Bitcoin inakabiliwa na changamoto kubwa. Katika maeneo kama
 >
 
 > - _Private keys:_ Nambari za siri zinazotoa ufikiaji wa Bitcoin ya mtumiaji.
-> - __Open-source:_ Programu ambayo mtu yeyote anaweza kukagua, kurekebisha, na kuboresha.
+> - **Open-source:** Programu ambayo mtu yeyote anaweza kukagua, kurekebisha, na kuboresha.
 ### Kesi ya El Salvador
 
 Uamuzi wa El Salvador wa kupitisha Bitcoin kama zabuni ya kisheria unaonyesha uwezo wake wa kuleta mabadiliko. Kwa kutumia Bitcoin, nchi inalenga kuvutia uwekezaji wa kigeni na kuimarisha utulivu wa kifedha. Miradi kama vile **Bitcoin Beach** inaonyesha jinsi uchumi wa ndani unavyoweza kukua kwa kutumia Bitcoin kama njia ya exchange .
@@ -1213,7 +1213,7 @@ Kila shughuli katika block ya Bitcoin ina yafuatayo:
 - **Idadi ya Matokeo**: Hesabu ya matokeo ya muamala.
 - **Matokeo**: Ina Thamani na ScriptPubKey.
   - **Thamani**: Thamani ya muamala.
-  - Urefu wa Hati ya PubKey**: Urefu wa hati ya PubKey.
+- **Urefu wa Hati ya PubKey**: Urefu wa hati ya PubKey.
   - **Hati ya PubKey**: Ina ufunguo wa umma kama usanidi wa kudai matokeo.
 - **Muda wa Kufunga**: Huonyesha urefu wa kizuizi au Muhuri wa muda ambapo muamala huu unaweza kujumuishwa kwenye kizuizi.
 

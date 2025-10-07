@@ -407,7 +407,7 @@ Kulingana na Jacqueline de Romilly:
 
 Wagiriki wenyewe wanaonekana kuwa walipima uhalisi huu na walifahamu mwanzoni mwa karne ya 5, katika mshtuko uliowapinga kwa wavamizi wa Kiajemi. Na jambo la kwanza lililowagusa ni kwamba kulikuwa na tofauti ya kisiasa kati yao na wapinzani wao, ambao waliamuru kila kitu kingine. Waajemi walimtii mtawala kamili, ambaye alikuwa bwana wao, ambaye walimwogopa, na ambaye walimsujudia: mazoea haya hayakuwa ya kawaida katika Ugiriki. Kuna mazungumzo ya kushangaza katika Herodotus, ambayo yanapinga Xerxes kwa mfalme wa zamani wa Sparta. Mfalme huyu anatangaza kwa Xerxes kwamba Wagiriki hawatakubali kwa sababu Ugiriki daima inapigana dhidi ya utumwa wa bwana. Itapigana, bila kujali idadi ya wapinzani wake. Kwa maana, ikiwa Wagiriki ni huru, "hawako huru katika kila kitu: wana bwana, sheria, ambayo wanaogopa hata zaidi ya raia wako wanaogopa wewe."
 
-(Ugiriki ya Kale katika Ugunduzi wa Uhuru, Paris, Matoleo ya Fallois, 1989_)
+*(Ugiriki ya Kale katika Ugunduzi wa Uhuru, Paris, Matoleo ya Fallois, 1989)*
 
 ![image](assets/2/img-108.webp)
 

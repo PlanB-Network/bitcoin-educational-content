@@ -99,7 +99,7 @@ Okazuje się, że po II wojnie światowej jedna z jego książek została opubli
 
 ![image](assets/en/003.webp)
 
-(Rynek w Mugron w Landes, miasto Bastiat)_
+(Rynek w Mugron w Landes, miasto Bastiat)
 
 
 Tak więc, nierozpoznany geniusz, ale także światło dla naszych czasów. Rzeczywiście, Frédéric Bastiat, który urodził się w Bayonne, najpierw mieszkał przez część swojego życia w Landes, gdzie zarządzał odziedziczoną posiadłością rolną i ostatecznie prowadził życie jako przedsiębiorca. A potem, bardzo wcześnie, zainteresował się ekonomią, podróżował do Anglii, spotkał Richarda Cobdena, który był liderem ruchu wolnego handlu. Bastiat był zafascynowany tym ruchem, był przekonany, że wolny handel jest rozwiązaniem dla Francji i postanowił spróbować rozpowszechnić swoje pomysły we Francji. Napisał artykuły, które odniosły duży sukces i przeniósł się do Paryża, aby prowadzić gazetę o nazwie Journal des économistes.
@@ -166,7 +166,7 @@ Szybko rozwinął pasję do ekonomii politycznej i studiował prace Adama Smitha
 
 ![image](assets/en/009.webp)
 
-(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
+(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)
 
 
 Po powrocie z Anglii napisał artykuł zatytułowany "On the Influence of English and French Tariffs on the Future of the Two Peoples", który wysłał do Journal des Économistes w Paryżu. Artykuł ukazał się w numerze z października 1844 r. i odniósł pełny sukces. Wszyscy podziwiali jego mocną i wnikliwą argumentację, jego trzeźwy i elegancki styl.
@@ -225,7 +225,7 @@ W dziedzinie ekonomii Bastiat zawsze uznawał swój dług wobec Adama Smitha i J
 
 ![image](assets/en/014.webp)
 
-(Jean-Baptiste Say i Adam Smith)_
+(Jean-Baptiste Say i Adam Smith)
 
 
 Ekonomia polityczna w rozumieniu Adama Smitha i J.-B. Say'a, zawiera się w jednym słowie: wolność. Wolność handlu, wolność jednostki, wolny handel i wolna inicjatywa. Wolny handel był najpierw broniony przez fizjokratów, takich jak François Quesnay i Vincent de Gournay, a następnie przez Adama Smitha, który zsyntetyzował ich pomysły z własnymi obserwacjami. Wreszcie, pod koniec XVIII wieku, Jean-Baptiste Say wyjaśnił i poprawił niektóre punkty doktryny swojego mistrza Adama Smitha w swoim mistrzowskim Traktacie o ekonomii politycznej.
@@ -233,7 +233,7 @@ Ekonomia polityczna w rozumieniu Adama Smitha i J.-B. Say'a, zawiera się w jedn
 
 ![image](assets/en/015.webp)
 
-(Say, Destutt de Tracy, Quesnay, de Gournay)_
+(Say, Destutt de Tracy, Quesnay, de Gournay)
 
 
 Adam Smith był zainteresowany dobrobytem nie jako celem samym w sobie, ale jako środkiem do moralnego wyniesienia jednostek. Dla niego bogactwo narodów składa się z bogactwa jednostek. Według Adama Smitha, jeśli chcesz, by naród był zamożny, pozwól jednostkom działać swobodnie. A rynek działa, ponieważ pozwala każdemu wyrazić swoje preferencje i realizować swoje interesy.
@@ -265,7 +265,7 @@ Exchange to gra o sumie dodatniej. Co jeden zyskuje, drugi również zyskuje. R�
 
 ![image](assets/en/018.webp)
 
-(Marks, Ricardo, Smith, Locke)_
+(Marks, Ricardo, Smith, Locke)
 
 
 Z drugiej strony Bastiat przyzna wraz z Jean-Baptiste Sayem, że użyteczność jest prawdziwą podstawą wartości. Praca nie tworzy wartości. Niedobór również nie. Wszystko wynika z użyteczności. Nikt nie zgodzi się zapłacić za usługę, jeśli nie uzna jej za użyteczną. Zawsze wytwarza się tylko użyteczność.
@@ -407,7 +407,7 @@ Jaki jest cel tego przeglądu? Tytuł mówi sam za siebie: cenzurować rząd. Wa
 
 ![image](assets/en/033.webp)
 
-(Benjamin Constant)_
+(Benjamin Constant)
 
 
 Przyjmują oni od Benjamina Constanta rozróżnienie między starożytnymi i nowożytnymi, charakteryzującymi się z jednej strony wojną, a z drugiej handlem i przemysłem. Dodają jednak z Sayem, że ekonomia polityczna zapewnia najlepsze wyjaśnienie zjawisk społecznych. W szczególności rozumieją, że narody osiągają pokój i dobrobyt, gdy przestrzegane są prawa własności i wolny handel. Odtąd ekonomia polityczna jest dla nich prawdziwym i jedynym fundamentem polityki. Filozofia, która ogranicza się do abstrakcyjnej krytyki form rządów, musi zostać zastąpiona teorią opartą na wiedzy o interesach gospodarczych.
@@ -510,7 +510,7 @@ Celem Ligi było zmobilizowanie opinii publicznej do wywarcia nacisku na parlame
 
 ![image](assets/en/043.webp)
 
-(Jeremy Bentham)_
+(Jeremy Bentham)
 
 
 Cobden, uczeń utylitaryzmu Benthama, był przekonany, że wolność pracy i handlu bezpośrednio służy interesom najliczniejszych, najbiedniejszych i najbardziej cierpiących mas społecznych. Wręcz przeciwnie, cła jako instrument arbitralnych zakazów i przywilejów mogły przynieść korzyści tylko niektórym najpotężniejszym gałęziom przemysłu.
@@ -528,7 +528,7 @@ Dopiero po śmierci Bastiata, w 1866 r., Napoleon III podpisał traktat o wolnym
 
 ![image](assets/en/045.webp)
 
-(Michel Chevalier)_
+(Michel Chevalier)
 
 
 Kwestia wolnego handlu jest nadal aktualna. Podręczniki geografii w szkołach twierdzą, że winna jest globalizacja i że biedne kraje potrzebują zachodniej pomocy, aby przetrwać. Jednak skrajne ubóstwo zmniejszyło się o połowę w ciągu 20 lat. Wybierając otwartość, kraje takie jak Indie, Chiny czy Tajwan były w stanie uniknąć ubóstwa, podczas gdy stagnacja charakteryzuje kraje zamknięte, takie jak Korea Północna czy Wenezuela. Według ONZ, w 1990 roku 36% ludzkości żyło w całkowitej nędzy. Obecnie jest to "tylko" 18% w 2010 roku. Skrajne ubóstwo pozostaje poważnym wyzwaniem, ale ustępuje.
@@ -554,7 +554,7 @@ Dla nich idea była prosta: im więcej idei można wyrazić, tym bardziej postę
 
 ![image](assets/en/046.webp)
 
-(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
+(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)
 
 
 Wręcz przeciwnie, niewielu zrozumiało, że to, co było prawdą w przypadku idei, było również prawdą w przypadku towarów i usług. Wolność handlu z innymi ma dwie zalety: jest wydajna i prowadzi do bardziej sprawiedliwej dystrybucji. Rousseau nie tylko tego nie rozumiał, ale także walczył z tą wolnością w imię fałszywej idei prawa i słuszności. Bastiat zauważa, że jednym z głównych źródeł socjalizmu jest opinia Rousseau, że cały porządek społeczny wywodzi się z prawa.
@@ -677,7 +677,7 @@ Jednak, jak przypomina nam Bastiat, monopol wyklucza postęp.
 
 ![image](assets/en/057.webp)
 
-(Richard Cobden)_
+(Richard Cobden)
 
 
 Jak już widzieliśmy, to przede wszystkim walka Cobdena przeciwko protekcjonizmowi z angielską ligą na rzecz zniesienia ustaw kukurydzianych skłoniła Bastiata do napisania artykułów, a następnie książek.
@@ -1284,7 +1284,7 @@ Zilustrujmy tę kwestię kilkoma ważnymi bieżącymi tematami. Pierwszy przykł
 
 ![image](assets/en/103.webp)
 
-(Alan Greenspan, prezes FED, amerykańskiego banku centralnego, w latach 1987-2006)_
+(Alan Greenspan, prezes FED, amerykańskiego banku centralnego, w latach 1987-2006)
 
 
 Przez lata liderzy polityki monetarnej tłumaczyli, że jeśli zyski są prywatyzowane, gdy wszystko idzie dobrze, straty będą uwspólniane w przypadku bankructwa (bailouty, plany ratunkowe, manipulacje stopami procentowymi, drukowanie pieniędzy itp.) W ten sposób stworzyli pokusę nadużycia, ułatwili podejmowanie nieuzasadnionego ryzyka i zachęcili świat finansów do nieodpowiedzialnych zachowań. W ten sposób doprowadziły finanse do kryzysu, którego doświadczyliśmy.
@@ -1513,7 +1513,7 @@ Jego misją jest obrona człowieka i jego własności.
 
 ![image](assets/en/120.webp)
 
-(François Quesnay, przywódca fizjokratów)_
+(François Quesnay, przywódca fizjokratów)
 
 
 Dlatego prawo nie jest tym samym, co ustawa. Prawo nie jest utożsamiane ze słowem suwerena ani nie zależy wyłącznie od jego legitymacji. Jest wytworem tradycji, porządku prawnego wcześniejszego i wyższego od prawa, który narzuca się prawodawcy w takim samym stopniu, jak każdemu zwykłemu obywatelowi.

@@ -687,8 +687,8 @@ Nećemo ulaziti u detalje o svakoj od ovih konfiguracija, jer smo u RGB odluči
 
 
 
-- "Seal Definition "** : Dati _outpoint_ (identifikovan sa txid + broj izlaza) ;
-- "Seal zatvaranje" **: Transakcija koja troši ovaj _outpoint_, u kojoj je _commitment_ dodat poruci.
+- **"Seal Definition"**: Dati _outpoint_ (identifikovan sa txid + broj izlaza);
+- "Seal zatvaranje" **: Transakcija koja troši ovaj _outpoint_, u kojoj je _commitment_ dodat poruci.**
 
 
 Ova šema je odabrana zbog svoje kompatibilnosti sa RGB arhitekturom, ali druge konfiguracije bi mogle biti korisne za različite namene.
@@ -1491,7 +1491,7 @@ Važno je razumeti da ovi ugovori nisu ograničeni na jednostavan prenos tokena.
 
 
 - **Izdavalac** ili tvorac Contract, koji definiše Genesis od Contract i njegove početne varijable;
-- Strane sa pravima** (*Ownership*) ili drugim mogućnostima sprovođenja ;
+- Strane sa pravima **(*Ownership*)** ili drugim mogućnostima sprovođenja ;
 - **Posmatrači**, potencijalno ograničeni na pregled određenih informacija, ali koji ne mogu pokrenuti izmene.
 
 
@@ -3959,10 +3959,10 @@ Hajde da analiziramo ovaj URL:
 
 
 
-- `RGB:`** (prefiks): označava vezu koja poziva RGB protokol (analogno `http:` ili `Bitcoin:` u drugim kontekstima);
+- **`RGB:`** (prefiks): označava vezu koja poziva RGB protokol (analogno `http:` ili `Bitcoin:` u drugim kontekstima);
 - **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: predstavlja `ContractId` tokena kojim želite da manipulišete;
 - `/RGB20/100`: označava da se koristi `RGB20` Interface i da je zatraženo 100 jedinica sredstva. Sintaksa je: `/Interface/amount` ;
-- `+utxob:`**: specificira da su dodate informacije o primaocu UTXO (ili, preciznije, definicija Single-Use Seal);
+- `+utxob:` **specificira da su dodate informacije o primaocu UTXO (ili, preciznije, definicija Single-Use Seal);**
 - `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: ovo je *blinded* UTXO (ili Seal Definition). Drugim rečima, Bob je prikrio svoj tačan UTXO, tako da pošiljalac (Alice) ne zna koji je tačan Address. Ona samo zna da postoji važeći Seal koji se odnosi na UTXO kojim upravlja Bob.
 
 

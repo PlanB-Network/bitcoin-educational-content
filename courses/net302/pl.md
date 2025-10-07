@@ -811,12 +811,12 @@ Architektura warstwowa opiera się na zasadzie, że każdy Layer przetwarza tylk
 
 
 - **wiadomość** dla aplikacji Layer,
-- segment** dla Layer Transport (TCP),
+- **segment** dla Layer Transport (TCP),
 
 The line appears to have an unbalanced ** marker. Here's the corrected version:
 
 - **segment** dla Layer Transport (TCP),
-- datagram** dla Internetu Layer (IP),
+- **datagram** dla Internetu Layer (IP),
 - **ramka** dla Network Access Layer.
 
 
@@ -896,7 +896,7 @@ Adresy IP mogą być przypisywane na dwa główne sposoby:
 **Adresy IPv4** są zapisywane w **32-bitowym** formacie podzielonym na **cztery bajty**. Każdy bajt zawiera 8 bitów i reprezentuje liczbę dziesiętną od 0 do 255. Cztery bajty są oddzielone kropkami, aby utworzyć jasny, czytelny zapis.
 
 
-przykład: Address 172.16.254.1_
+przykład: Address 172.16.254.1
 
 
 
@@ -1246,7 +1246,7 @@ Wreszcie, dynamiczne protokoły routingu obejmują standardy takie jak RIP (_Rou
 ### Definicja
 
 
-Network Address Translation_ (NAT) to technika opracowana w celu Address stopniowego wyczerpywania się dostępnych adresów IPv4. Zaprojektowany jako rozwiązanie tymczasowe przed powszechnym przyjęciem IPv6, NAT umożliwił firmom i osobom prywatnym łączenie dużej liczby maszyn przy użyciu tylko ograniczonego zestawu publicznych adresów IP.
+**Network Address Translation** (NAT) to technika opracowana w celu Address stopniowego wyczerpywania się dostępnych adresów IPv4. Zaprojektowany jako rozwiązanie tymczasowe przed powszechnym przyjęciem IPv6, NAT umożliwił firmom i osobom prywatnym łączenie dużej liczby maszyn przy użyciu tylko ograniczonego zestawu publicznych adresów IP.
 
 
 **Ważne przypomnienie:** Przejście z IPv4 na IPv6 teoretycznie rozwiązuje problem wyczerpania poprzez rozszerzenie przestrzeni Address z 32 do 128 bitów, zapewniając niemal nieograniczoną liczbę adresów (2^128). W praktyce jednak przejście to jest nadal niekompletne, a NAT jest nadal szeroko stosowany.
@@ -1299,7 +1299,7 @@ Każdy wpis w tej tabeli łączy co najmniej jedną parę: wewnętrzny adres IP 
 Ta zasada dynamicznej translacji opiera się na precyzyjnym zarządzaniu tabelą: każdy wpis pozostaje ważny tak długo, jak długo istnieje aktywny ruch, który go uzasadnia. Po konfigurowalnym okresie bezczynności wpis jest czyszczony i może być ponownie użyty dla nowych połączeń.
 
 
-przykład uproszczonej tabeli translacji NAT:_
+przykład uproszczonej tabeli translacji NAT:
 
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
@@ -1331,7 +1331,7 @@ Ogólnie rzecz biorąc, będzie to miało wpływ na każdy protokół, który wy
 **Uwaga:** Chociaż NAT pomaga ukryć sieć wewnętrzną i kontrolować ruch przychodzący, nie zastępuje dedykowanej zapory sieciowej. Samo tłumaczenie nie jest kompletną barierą bezpieczeństwa: zawsze musi być uzupełnione jasnymi regułami filtrowania w celu zablokowania niechcianego lub niepożądanego ruchu.
 
 
-aby zilustrować, jak to działa w praktyce, rozważmy następujący przykład:_
+aby zilustrować, jak to działa w praktyce, rozważmy następujący przykład:
 
 
 

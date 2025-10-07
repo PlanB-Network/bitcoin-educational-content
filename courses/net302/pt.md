@@ -810,7 +810,7 @@ A arquitetura em camadas segue o princípio de que cada Layer processa apenas a 
 **Lembrete**: É utilizada uma terminologia específica para descrever as unidades de dados trocadas entre camadas:
 
 
-- mensagem** para a aplicação Layer,
+- **mensagem** para a aplicação Layer,
 
 The line appears to have an unbalanced ** marker. Here's the corrected version:
 
@@ -896,7 +896,7 @@ Os endereços IP podem ser atribuídos de duas formas principais:
 Os endereços **IPv4** são escritos num formato de **32 bits** dividido em **quatro bytes**. Cada byte contém 8 bits e representa um número decimal de 0 a 255. Os 4 bytes são separados por pontos para formar uma notação clara e legível.
 
 
-exemplo: Address 172.16.254.1_
+exemplo: Address 172.16.254.1
 
 
 
@@ -1246,7 +1246,7 @@ Por último, os protocolos de encaminhamento dinâmico incluem normas como o RIP
 ### Definição
 
 
-O Network Address Translation_ (NAT) é uma técnica desenvolvida para resolver o problema do esgotamento gradual dos endereços IPv4 disponíveis. Concebida como uma solução provisória antes da adoção generalizada do IPv6, a NAT permitiu que as empresas e os indivíduos continuassem a ligar um grande número de máquinas, utilizando apenas um conjunto limitado de endereços IP públicos.
+O **Network Address Translation** (NAT) é uma técnica desenvolvida para resolver o problema do esgotamento gradual dos endereços IPv4 disponíveis. Concebida como uma solução provisória antes da adoção generalizada do IPv6, a NAT permitiu que as empresas e os indivíduos continuassem a ligar um grande número de máquinas, utilizando apenas um conjunto limitado de endereços IP públicos.
 
 
 **Lembrete importante:** a passagem do IPv4 para o IPv6 resolve teoricamente o problema do esgotamento, ao alargar o espaço Address de 32 bits para 128 bits, proporcionando um número quase ilimitado de endereços (2^128). Na prática, porém, a transição ainda não está concluída e o NAT continua a ser muito utilizado atualmente.
@@ -1281,7 +1281,7 @@ A NAT pode ser implementada de diferentes formas para se adequar a necessidades 
 **A tradução dinâmica**, por outro lado, utiliza um conjunto de endereços IP públicos. Quando um anfitrião interno inicia uma ligação, o router atribui temporariamente um destes endereços públicos ao Address privado do anfitrião durante a sessão. A ligação é de 1 para 1, mas temporária: quando a ligação termina, o Address público fica disponível para outro dispositivo. A NAT dinâmica reduz, portanto, o número de endereços públicos necessários quando nem todas as máquinas estão online ao mesmo tempo, mas ainda requer um bloco de endereços externos pelo menos tão grande quanto o número máximo de conexões simultâneas.
 
 
-*a *Tradução de portas** (PAT), também conhecida como *Sobrecarga NAT* ou *Mascaramento de IP*, vai mais longe: todos os dispositivos privados partilham um único IP público Address (ou um número muito reduzido). Para distinguir as sessões, a gateway modifica não só o Address de origem, mas também a porta de origem. Ele mantém uma tabela que liga cada par *(Address privado, porta privada)* a um único par *(Address público, porta pública)*. Esta forma de NAT é utilizada em quase todos os routers domésticos, permitindo que dezenas de dispositivos (computadores, smartphones, objectos ligados, etc.) partilhem o mesmo IP público Address, mantendo uma comunicação fluida.
+**Tradução de portas** (PAT), também conhecida como **Sobrecarga NAT** ou **Mascaramento de IP**, vai mais longe: todos os dispositivos privados partilham um único IP público Address (ou um número muito reduzido). Para distinguir as sessões, a gateway modifica não só o Address de origem, mas também a porta de origem. Ele mantém uma tabela que liga cada par **(Address privado, porta privada)** a um único par **(Address público, porta pública)**. Esta forma de NAT é utilizada em quase todos os routers domésticos, permitindo que dezenas de dispositivos (computadores, smartphones, objectos ligados, etc.) partilhem o mesmo IP público Address, mantendo uma comunicação fluida.
 
 
 O NAT, portanto, prolonga a vida útil do IPv4, enquanto adiciona um valioso Layer de segmentação e segurança. No entanto, à medida que a adoção do IPv6 cresce e o seu vasto espaço Address se torna mais utilizado, o papel do NAT irá provavelmente diminuir, embora, para fins de compatibilidade e controlo, continue a ser utilizado em alguns ambientes para segmentar e filtrar o tráfego.
@@ -1299,7 +1299,7 @@ Cada entrada nessa tabela vincula pelo menos um par: o IP interno Address da má
 Este princípio de tradução dinâmica assenta numa gestão precisa da tabela: cada entrada permanece válida enquanto houver tráfego ativo que a justifique. Após um período de inatividade configurável, a entrada é apagada e pode ser reutilizada para novas ligações.
 
 
-_Exemplo de uma tabela de tradução NAT simplificada
+**Exemplo de uma tabela de tradução NAT simplificada**
 
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
@@ -1331,7 +1331,7 @@ Em geral, qualquer protocolo que inclua explicitamente o IP interno Address na c
 **Atenção:** Embora a NAT ajude a ocultar a rede interna e a controlar o tráfego de entrada, não substitui uma firewall dedicada. A tradução por si só não é uma barreira de segurança completa: deve ser sempre complementada por regras de filtragem claras para bloquear o tráfego não solicitado ou indesejado.
 
 
-para ilustrar como isto funciona na prática, considere o seguinte exemplo:_
+para ilustrar como isto funciona na prática, considere o seguinte exemplo:
 
 
 

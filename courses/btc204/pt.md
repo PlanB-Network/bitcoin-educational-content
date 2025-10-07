@@ -629,7 +629,7 @@ A interpretação da reutilização de um endereço é que todos os UTXOs bloque
 
 Como explicado na introdução da Parte 3, esta heurística foi descoberta pelo próprio Satoshi Nakamoto. No Livro Branco, ele menciona uma solução para ajudar os utilizadores a evitar a sua geração, que consiste simplesmente em utilizar um endereço em branco para cada nova transação:
 
-"_Como firewall adicional, pode ser utilizado um novo par de chaves para cada transação para as manter desvinculadas de um proprietário comum."
+"_Como firewall adicional, pode ser utilizado um novo par de chaves para cada transação para as manter desvinculadas de um proprietário comum._"
 
 ![BTC204](assets/pt/055.webp)
 
@@ -677,7 +677,7 @@ Por outro lado, se a transação não se enquadrar em nenhum modelo de transaç�
 
 O CIOH foi descoberto por Satoshi Nakamoto. Ele fala sobre isso na parte 10 do Livro Branco:
 
-"_[...] a ligação é inevitável com transacções de múltiplas entradas, que revelam necessariamente que as suas entradas foram detidas pelo mesmo proprietário. O risco é que, se o proprietário de uma chave for revelado, as ligações podem revelar outras transacções que pertenciam ao mesmo proprietário
+"_[...] a ligação é inevitável com transacções de múltiplas entradas, que revelam necessariamente que as suas entradas foram detidas pelo mesmo proprietário. O risco é que, se o proprietário de uma chave for revelado, as ligações podem revelar outras transacções que pertenciam ao mesmo proprietário._"
 
 ![BTC204](assets/pt/061.webp)
 
@@ -1022,7 +1022,7 @@ ___
 *Gostaria de agradecer aos seus autores, criadores e produtores. Obrigado também aos revisores que corrigiram meticulosamente o artigo em que se baseia esta parte 3 e me deram os seus conselhos de especialistas :*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan)
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # Dominar as melhores práticas para proteger a sua privacidade
@@ -4058,7 +4058,7 @@ Para tal, o BIP352 requer que o recetor utilize 2 pares de chaves diferentes:
 
 
 - b_{\text{spend}}$: para calcular as chaves privadas de endereços de pagamento únicos;
-- b_{\text{scan}}$: para encontrar endereços de pagamento únicos.
+- **b_scan**: para encontrar endereços de pagamento únicos.
 
 Desta forma, Bob pode manter a chave privada $b_{\text{spend}}$ numa carteira de hardware e utilizar a chave privada $b_{\text{scan}}$ num software online para encontrar os seus pagamentos silenciosos, sem revelar $b_{\text{spend}}$. Por outro lado, as chaves públicas $B_{\text{scan}}$ e $B_{\text{spend}}$ são ambas reveladas publicamente, uma vez que estão localizadas no endereço estático de Bob $B$ :
 

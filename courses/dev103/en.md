@@ -1953,7 +1953,7 @@ Here’s how it works:
 
 * The code inside the `try` block is attempted first.
 *If an error occurs, JavaScript **jumps to the `catch` block**, skipping the rest of the `try` block.*
-* The `catch` block receives the error, so you can print it, or handle it in some other way, like for example
+* The `catch` block receives the error, so you can print it, or handle it in some other way, like for example*
 
 ```javascript
 try {

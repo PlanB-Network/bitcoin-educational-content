@@ -892,7 +892,7 @@ Las direcciones IP pueden asignarse de dos formas principales:
 **Las direcciones IPv4** se escriben en un formato de 32 bits dividido en cuatro bytes. Cada byte contiene 8 bits y representa un número decimal de 0 a 255. Los 4 bytes están separados por puntos para formar una notación clara y legible.
 
 
-ejemplo: Address 172.16.254.1_
+ejemplo: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Por último, los protocolos de encaminamiento dinámico incluyen estándares com
 ### Definición
 
 
-Network Address Translation_ (NAT) es una técnica desarrollada para Address el agotamiento gradual de las direcciones IPv4 disponibles. Diseñada como solución provisional antes de la adopción generalizada de IPv6, NAT permitía a empresas y particulares seguir conectando un gran número de máquinas utilizando sólo un conjunto limitado de direcciones IP públicas.
+**Network Address Translation** (NAT) es una técnica desarrollada para **address** el agotamiento gradual de las direcciones IPv4 disponibles. Diseñada como solución provisional antes de la adopción generalizada de IPv6, NAT permitía a empresas y particulares seguir conectando un gran número de máquinas utilizando sólo un conjunto limitado de direcciones IP públicas.
 
 
 **Recordatorio importante:** el paso de IPv4 a IPv6 resuelve teóricamente el problema del agotamiento al ampliar el espacio Address de 32 bits a 128 bits, proporcionando un número casi ilimitado de direcciones (2^128). En la práctica, sin embargo, la transición es aún incompleta, y NAT sigue siendo ampliamente utilizado hoy en día.
@@ -1327,7 +1327,7 @@ En general, cualquier protocolo que incluya explícitamente la IP interna Addres
 **Precaución:** Aunque NAT ayuda a ocultar la red interna y a controlar el tráfico entrante, no sustituye a un cortafuegos dedicado. La traducción por sí sola no es una barrera de seguridad completa: siempre debe complementarse con reglas de filtrado claras para bloquear el tráfico no solicitado o no deseado.
 
 
-para ilustrar cómo funciona esto en la práctica, considere el siguiente ejemplo:_
+para ilustrar cómo funciona esto en la práctica, considere el siguiente ejemplo:
 
 
 

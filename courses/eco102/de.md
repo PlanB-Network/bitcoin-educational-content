@@ -99,7 +99,7 @@ Es stellte sich heraus, dass nach dem Zweiten Weltkrieg eines seiner Bücher in 
 
 ![image](assets/en/003.webp)
 
-(Marktplatz in Mugron in den Landes, der Stadt von Bastiat)_
+(Marktplatz in Mugron in den Landes, der Stadt von Bastiat)
 
 
 Ein unerkanntes Genie also, aber auch eine Leuchte für unsere Zeit. In der Tat lebte der in Bayonne geborene Frédéric Bastiat zunächst einen Teil seines Lebens in den Landes, wo er ein geerbtes landwirtschaftliches Gut verwaltete und letztlich ein Leben als Unternehmer führte. Und dann, sehr früh, interessierte er sich für Wirtschaft, er reiste nach England, er traf Richard Cobden, der ein Führer der Freihandelsbewegung war. Bastiat war von dieser Bewegung fasziniert, er war überzeugt, dass der Freihandel eine Lösung für Frankreich war, und er beschloss daraufhin, seine Ideen in Frankreich zu verbreiten. Er schrieb Artikel, die sehr erfolgreich waren, und zog nach Paris, um eine Zeitung zu leiten, die damals Journal des économistes hieß.
@@ -128,7 +128,7 @@ Als er zum Abgeordneten gewählt wurde, war das während der Zweiten Republik, u
 > Arbeit gibt es dagegen nur für 16.000 Männer, und die Zahl der eingeschriebenen Männer liegt bei über 50.000;
 > Es wurde vereinbart, dass bis auf weiteres und bis zu einer besseren Regelung jedes Unternehmen ab Montag, dem 17. Januar, zwei Tage pro Woche arbeiten wird.
 > _Der Kommissar der Republik, Direktor der Nationalen Werkstätten,_
-> **Émile THOMAS.*
+> **Émile THOMAS.**
 
 ---
 
@@ -226,7 +226,7 @@ Auf dem Gebiet der Ökonomie hat Bastiat stets seine Schuld bei Adam Smith und J
 
 ![image](assets/en/014.webp)
 
-(Jean-Baptiste Say und Adam Smith)_
+(Jean-Baptiste Say und Adam Smith)
 
 
 Die politische Ökonomie, wie sie von Adam Smith und J.-B. Say, ist in einem einzigen Wort zusammengefasst: Freiheit. Handelsfreiheit, individuelle Freiheit, Freihandel und freie Initiative. Der Freihandel wurde zunächst von den Physiokraten, wie François Quesnay und Vincent de Gournay, und dann von Adam Smith verteidigt, der ihre Ideen mit seinen eigenen Beobachtungen zusammenfasste. Ende des 18. Jahrhunderts schließlich präzisierte und korrigierte Jean-Baptiste Say in seiner meisterhaften Abhandlung über die politische Ökonomie einige Punkte der Doktrin seines Lehrmeisters Adam Smith.
@@ -234,7 +234,7 @@ Die politische Ökonomie, wie sie von Adam Smith und J.-B. Say, ist in einem ein
 
 ![image](assets/en/015.webp)
 
-(Say, Destutt de Tracy, Quesnay, de Gournay)_
+(Say, Destutt de Tracy, Quesnay, de Gournay)
 
 
 Adam Smith interessierte sich für den Wohlstand, nicht als Selbstzweck, sondern als Mittel zur moralischen Erhebung des Einzelnen. Für ihn besteht der Reichtum der Nationen aus dem Reichtum der Individuen. Wenn man eine wohlhabende Nation will, so Adam Smith, muss man den Einzelnen frei handeln lassen. Und der Markt funktioniert, weil er es jedem erlaubt, seine Präferenzen zu äußern und seine Interessen zu verfolgen.
@@ -404,7 +404,7 @@ Was ist das Ziel der Überprüfung? Der Titel spricht für sich selbst: die Regi
 
 ![image](assets/en/033.webp)
 
-{(Benjamin Constant)_
+**(Benjamin Constant)**
 
 
 Sie übernehmen von Benjamin Constant die Unterscheidung zwischen der Antike und der Moderne, die einerseits durch Krieg und andererseits durch Handel und Industrie gekennzeichnet sind. Aber sie fügen mit Say hinzu, dass die politische Ökonomie die beste Erklärung für soziale Phänomene liefert. Sie verstehen insbesondere, dass die Nationen Frieden und Wohlstand erreichen, wenn die Eigentumsrechte und der freie Handel respektiert werden. Von nun an ist für sie die politische Ökonomie die wahre und einzige Grundlage der Politik. An die Stelle der Philosophie, die sich auf eine abstrakte Kritik der Regierungsformen beschränkt, muss eine Theorie treten, die auf der Kenntnis der wirtschaftlichen Interessen beruht.
@@ -507,7 +507,7 @@ Ziel der Liga war es, die öffentliche Meinung zu mobilisieren, um das Parlament
 
 ![image](assets/en/043.webp)
 
-(Jeremy Bentham)_
+(Jeremy Bentham)
 
 
 Als Anhänger des Utilitarismus von Bentham war Cobden der Überzeugung, dass die Freiheit von Arbeit und Handel unmittelbar dem Interesse der zahlreichsten, ärmsten und am meisten leidenden Massen der Gesellschaft dient. Im Gegenteil, Zölle als Instrument willkürlicher Verbote und Privilegien konnten nur bestimmten, besonders mächtigen Branchen zugute kommen.
@@ -1287,7 +1287,7 @@ Lassen Sie uns diese Frage anhand einiger wichtiger aktueller Themen veranschaul
 
 ![image](assets/en/103.webp)
 
-(Alan Greenspan, Vorsitzender der FED, der amerikanischen Zentralbank, von 1987 bis 2006)_
+(Alan Greenspan, Vorsitzender der FED, der amerikanischen Zentralbank, von 1987 bis 2006)
 
 
 Jahrelang erklärten die geldpolitischen Entscheidungsträger, dass, wenn die Gewinne privatisiert werden, wenn alles gut läuft, die Verluste im Falle eines Konkurses gemeinsam getragen werden (Rettungsaktionen, Rettungspläne, Zinsmanipulationen, Gelddrucken usw.). Damit schufen sie ein moralisches Risiko, erleichterten eine unvernünftige Risikobereitschaft und ermutigten die Finanzwelt zu unverantwortlichem Verhalten. So haben sie die Finanzwelt in die Krise gestürzt, die wir erlebt haben.

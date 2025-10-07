@@ -273,11 +273,9 @@ Your first event will likely be a meet-up. Its main purpose: to bring together b
 
 However, as we'll see later in [Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **a meet-up can be built in many ways, with many objectives:**
 
-* Combine networking with an educational presentation on a Bitcoin concept;
-* Host a professional demonstration of Bitcoin solutions;
-
-The line is already correctly formatted. It uses a single asterisk (*) for a bullet point, which is proper Markdown syntax. There are no unbalanced, mismatched, or nested emphasis markers to fix.
-* Debate strategies for orange-pilling local merchants;
+- Combine networking with an educational presentation on a Bitcoin concept;
+- Host a professional demonstration of Bitcoin solutions;
+- Debate strategies for orange-pilling local merchants;
 and so on.
 
 Depending on the subjects (technical talks or hands-on workshops), it may even make sense to **organize additional events** outside your regular meet-up.

@@ -581,7 +581,7 @@ Her biri 60 ana bilgisayara kadar 4 alt ağ istiyoruz.
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
 
 
-**Adım 5**: Bu, genel adresleme şemasını verimli tutarken, her biri 62 makineye kadar destekleyen dört alt ağ oluşturur. Hostid_ kısmı bir _subnetid_ kısmına ve bir host kısmına bölünür.
+**Adım 5**: Bu, genel adresleme şemasını verimli tutarken, her biri 62 makineye kadar destekleyen dört alt ağ oluşturur. **Hostid** kısmı bir **subnetid** kısmına ve bir host kısmına bölünür.
 
 
 
@@ -892,7 +892,7 @@ IP adresleri iki ana şekilde atanabilir:
 **IPv4** adresleri **32-bit** formatında **dört bayta** bölünmüş olarak yazılır. Her bayt 8 bit içerir ve 0 ila 255 arasında bir ondalık sayıyı temsil eder. 4 bayt, net ve okunaklı bir gösterim oluşturmak için noktalarla ayrılmıştır.
 
 
-örnek: Address 172.16.254.1_
+örnek: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Son olarak, dinamik yönlendirme protokolleri, mesafe algoritmasına dayanan RIP
 ### Tanım
 
 
-Network Address Translation_ (NAT), mevcut IPv4 adreslerinin kademeli olarak tükenmesi için geliştirilmiş bir tekniktir. IPv6'nın yaygın olarak benimsenmesinden önce geçici bir çözüm olarak tasarlanan NAT, şirketlerin ve bireylerin yalnızca sınırlı sayıda genel IP adresi kullanırken çok sayıda makineyi birbirine bağlamaya devam etmesini sağlamıştır.
+**Network Address Translation** (NAT), mevcut IPv4 adreslerinin kademeli olarak tükenmesi için geliştirilmiş bir tekniktir. IPv6'nın yaygın olarak benimsenmesinden önce geçici bir çözüm olarak tasarlanan NAT, şirketlerin ve bireylerin yalnızca sınırlı sayıda genel IP adresi kullanırken çok sayıda makineyi birbirine bağlamaya devam etmesini sağlamıştır.
 
 
 **Önemli hatırlatma:** IPv4'ten IPv6'ya geçiş teorik olarak Address alanını 32 bitten 128 bite genişleterek neredeyse sınırsız sayıda adres (2^128) sağlayarak tükenme sorununu çözmektedir. Ancak pratikte geçiş hala tamamlanmamıştır ve NAT günümüzde yaygın olarak kullanılmaya devam etmektedir.
@@ -1295,7 +1295,7 @@ Bu tablodaki her giriş en az bir çifti birbirine bağlar: gönderen makinenin 
 Bu dinamik çeviri prensibi hassas tablo yönetimine dayanır: her giriş, onu haklı çıkaracak aktif trafik olduğu sürece geçerli kalır. Yapılandırılabilir bir hareketsizlik döneminden sonra, giriş temizlenir ve yeni bağlantılar için yeniden kullanılabilir.
 
 
-basitleştirilmiş bir NAT çeviri tablosu örneği:_
+basitleştirilmiş bir NAT çeviri tablosu örneği:
 
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
@@ -1327,7 +1327,7 @@ Genel olarak, paket yükünde dahili IP Address'yı açıkça içeren herhangi b
 **Dikkat:** NAT iç ağı gizlemeye ve gelen trafiği kontrol etmeye yardımcı olsa da, özel bir güvenlik duvarının yerini tutmaz. Çeviri tek başına tam bir güvenlik bariyeri değildir: istenmeyen veya istenmeyen trafiği engellemek için her zaman açık filtreleme kuralları ile tamamlanmalıdır.
 
 
-bunun pratikte nasıl işlediğini göstermek için aşağıdaki örneği ele alalım:_
+bunun pratikte nasıl işlediğini göstermek için aşağıdaki örneği ele alalım:
 
 
 

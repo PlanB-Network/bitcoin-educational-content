@@ -997,7 +997,7 @@ CIOH'u uygulamak için öncelikle birkaç girdisi olan bir işlem gözlemleriz. 
 CIOH, Satoshi Nakamoto tarafından keşfedilmiştir. Beyaz Kitap'ın 10. bölümünde bundan bahsediyor:
 
 
-"_[...] çok girişli işlemlerde bağlantı kaçınılmazdır, bu da girişlerinin aynı sahip tarafından yapıldığını ortaya çıkarır. Risk, bir anahtarın sahibi ortaya çıkarsa, bağlantıların aynı sahibine ait diğer işlemleri de ortaya çıkarabilmesidir."
+**[...] çok girişli işlemlerde bağlantı kaçınılmazdır, bu da girişlerinin aynı sahip tarafından yapıldığını ortaya çıkarır. Risk, bir anahtarın sahibi ortaya çıkarsa, bağlantıların aynı sahibine ait diğer işlemleri de ortaya çıkarabilmesidir.**
 
 
 ![BTC204](assets/tr/061.webp)
@@ -6001,7 +6001,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 Önceki bölümlerde kavramış olabileceğiniz statik adreslerle ilgili önemli bir nokta, bu adreslerin Bitcoin işlemlerinde görünmemesidir. Yalnızca çıkışlarda kullanılan $P$ ödeme adresleri Blockchain üzerinde standart Taproot formatında görünür. Dolayısıyla, dışarıdan bakıldığında, Sessiz Ödeme içeren bir işlemi P2TR çıktılarını kullanan sıradan bir işlemden ayırt etmek imkansızdır.
 
 
-BIP47'de olduğu gibi, statik bir Address $B$ ile $B$'den türetilen bir ödeme Address $P$ arasında bir bağlantı kurmak imkansızdır. Gerçekten de, potansiyel bir saldırgan olan Eve, Blockchain'ü Bob'in statik $B$ Address'ü ile taramaya çalışsa bile, $P$'yi belirlemek için gereken hesaplamaları yapamayacaktır. Bunu yapmak için ya Bob'in $b_{\text{scan}}$ özel anahtarına ya da göndericinin $a$ özel anahtarına ihtiyacı olacaktır, ancak her ikisi de elbette özeldir. Bu nedenle, kişinin statik Address'ünü bir tür kişisel kimlikle açıkça ilişkilendirmek mümkündür.
+BIP47'de olduğu gibi, statik bir Address **B** ile **B**'den türetilen bir ödeme Address **P** arasında bir bağlantı kurmak imkansızdır. Gerçekten de, potansiyel bir saldırgan olan Eve, Blockchain'ü Bob'in statik **B** Address'ü ile taramaya çalışsa bile, **P**'yi belirlemek için gereken hesaplamaları yapamayacaktır. Bunu yapmak için ya Bob'in **b_scan** özel anahtarına ya da göndericinin **a** özel anahtarına ihtiyacı olacaktır, ancak her ikisi de elbette özeldir. Bu nedenle, kişinin statik Address'ünü bir tür kişisel kimlikle açıkça ilişkilendirmek mümkündür.
 
 
 ### Sessiz Ödemeleri nasıl kullanabilirim?

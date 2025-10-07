@@ -1081,7 +1081,7 @@ Być może zauważyłeś powyżej, że Bitcoin jest nie tylko potężnym zasobem
 Kiedy patrzymy na waluty fiducjarne z perspektywy "aktywów" i "sieci", staje się oczywiste, że musimy pokładać znacznie większe zaufanie i polegać na osobach trzecich i pośrednikach. Na przykład:
 
 
-#### **Aktywa** - _waluty fiducjarne, których używamy jako środka przechowywania wartości (np. dolar amerykański, euro, jen, frank, funt szterling itp.)
+#### **Aktywa** - _waluty fiducjarne, których używamy jako środka przechowywania wartości (np. dolar amerykański, euro, jen, frank, funt szterling itp.)_
 
 
 **Banki centralne nadzorują politykę pieniężną** - Polityka pieniężna odnosi się do środków podejmowanych przez bank centralny w celu zarządzania stopami procentowymi i całkowitą Supply ilością pieniądza w obiegu. Kiedy bank centralny obniża stopy procentowe lub zwiększa Supply pieniądza, wstrzykuje nowe pieniądze do gospodarki, tym samym osłabiając wartość istniejącej waluty w obiegu. Powoduje to zmniejszenie siły nabywczej waluty, tworząc inflację.
@@ -1093,7 +1093,7 @@ Kiedy patrzymy na waluty fiducjarne z perspektywy "aktywów" i "sieci", staje si
 Jako obywatele podlegamy decyzjom podejmowanym przez osoby odpowiedzialne za politykę monetarną i fiskalną i musimy polegać na ich osądzie. Powierzamy naszemu rządowi i niewybieralnym bankierom centralnym działanie w naszym najlepszym interesie, ale ich wybory mogą znacząco wpłynąć na siłę nabywczą naszej waluty, a w konsekwencji na nasz standard życia. Historia wielokrotnie pokazała, że zaufanie to zostało naruszone, co doprowadziło do osłabienia waluty.
 
 
-#### **Sieć** - _szyny, które pozwalają nam dokonywać transakcji między sobą
+#### **Sieć** - _szyny, które pozwalają nam dokonywać transakcji między sobą_
 
 
 **Kupując kawę za pomocą karty kredytowej, mamy do czynienia z co najmniej czterema różnymi pośrednikami** - Pierwszym z nich jest bank, z którego usług korzysta kawiarnia. Drugim są sieci komunikacyjne, które umożliwiają bankom przesyłanie środków między sobą. Następnie jest stowarzyszenie, które przetwarza transakcję, takie jak Visa, Mastercard lub Discover. I wreszcie nasza własna instytucja bankowa, która weryfikuje i rejestruje transakcję.

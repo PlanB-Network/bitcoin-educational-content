@@ -86,7 +86,7 @@ Untuk mengakhiri kursus ini, Anda akan dapat mengikuti ujian akhir untuk mendapa
 
 Apakah Anda siap untuk sepenuhnya mengambil kendali atas keamanan TI (teknologi informasi) Anda, memperkuat kedaulatan individu Anda, dan menjamin privasi online Anda? Ayo mulai!
 
-*Catatan: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisinya
+**Catatan: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisinya**
 
 ## Rekapitulasi penting dari SCU101
 
@@ -2508,7 +2508,7 @@ Setelah FileVault diaktifkan, Anda akan diminta untuk memilih metode pemulihan j
 Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakukan dengan menggunakan utilitas disk. Anda harus memformat ulang volume sepenuhnya:
 
 - Pilih perangkat, klik "*Hapus*"
-- Pilih skema "Tabel Partisi GUID*"
+- Pilih skema "Tabel Partisi GUID"
 - Kemudian pilih format sistem file yang dienkripsi (*APFS* atau *Mac OS extended*)
 - Pilih kata sandi yang kuat
 - Klik "*Hapus*" lalu "*OK*" dan enkripsi selesai
@@ -2586,7 +2586,7 @@ Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsun
 
 ![Image](assets/fr/259.webp)
 
-- Langkah 2: Melihat metadata file** (dalam bahasa Prancis)
+- Langkah 2: Melihat metadata **file** (dalam bahasa Prancis)
 
 Untuk melihat semua metadata yang terkandung dalam file, gunakan perintah berikut:
 
@@ -4494,7 +4494,7 @@ Perangkat ini menggabungkan 2 fungsi utama:
 
 Modem (kependekan dari "_modulator-demodulator_") adalah komponen yang menghubungkan jaringan ISP Anda ke rumah Anda. Modem menyesuaikan sinyal listrik atau optik yang diterima (melalui serat optik, kabel koaksial, ADSL atau jaringan mobile) menjadi sinyal digital yang dapat dipahami oleh perangkat Anda. Sebaliknya, Modem mengubah data dari peralatan Anda menjadi format yang dapat ditransmisikan melalui infrastruktur operator. Langkah ini penting agar jaringan rumah Anda dapat berkomunikasi dengan Internet.
 
-- Peran router**
+- **Peran router**
 
 Router adalah jantung dari jaringan lokal Anda. Ia mendistribusikan koneksi Internet ke semua perangkat Anda: Komputer, smartphone, objek terhubung, printer, dll. Router menetapkan setiap perangkat alamat IP lokal (Berbeda dari IP publik Anda yang terlihat di Internet). Router kemudian mengorganisir lalu lintas masuk dan keluar, memastikan bahwa data mencapai perangkat yang tepat. Router juga dapat mengintegrasikan firewall, menyaring paket jaringan, atau mengelola aturan port forwarding. NAT menyembunyikan jaringan lokal Anda dari mata Internet, menggunakan satu alamat IP publik untuk merepresentasikan semua perangkat Anda. Hanya router yang tahu dari perangkat lokal mana yang memulai suatu permintaan.
 

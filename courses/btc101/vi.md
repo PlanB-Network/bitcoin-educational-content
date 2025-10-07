@@ -1186,7 +1186,7 @@ Ngày nay, hầu hết các giải pháp DCA đều tương đối hiệu quả 
 
 Việc sử dụng chúng rất đơn giản và dễ dàng với mọi người:
 
-1. Thiết lập tài khoản KYC/\*
+1. Thiết lập tài khoản KYC
 
 2. Chuyển tiền vào tài khoản của bạn
 
@@ -1413,6 +1413,5 @@ Bạn đã sẵn sàng tham gia chưa?
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

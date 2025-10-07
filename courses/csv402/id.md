@@ -255,7 +255,7 @@ Validasi dari sisi klien menawarkan dua manfaat utama:
 Komitmen (*commitments*) yang disertakan dalam blockchain berukuran kecil (sekitar beberapa puluh byte). Hal ini memastikan bahwa ruang blok tidak jenuh, karena hanya hash yang perlu disertakan. Hal ini juga memungkinkan protokol off-chain untuk berkembang, karena setiap pengguna hanya perlu menyimpan fragmen riwayatnya (_stash_).
 
 
-- Privasi :**
+- Privasi:
 
 Transaksi itu sendiri (yaitu konten detailnya) tidak dipublikasikan secara on-chain. Hanya sidik jarinya (*hash*) yang dipublikasikan. Dengan demikian, jumlah, alamat, dan logika kontrak tetap bersifat pribadi, dan penerima dapat memverifikasi, secara lokal, keabsahan pecahannya dengan memeriksa semua transisi sebelumnya. Tidak ada alasan bagi penerima untuk mempublikasikan data ini, kecuali jika terjadi perselisihan atau jika diperlukan bukti.
 
@@ -470,7 +470,7 @@ Ketika mengerjakan RGB, kami mengidentifikasi setidaknya 4 cara berbeda untuk me
 Kita tidak akan membahas secara detail mengenai masing-masing konfigurasi ini, karena dalam RGB kita telah memilih untuk menggunakan _outpoint_ sebagai definisi **seal**, dan menempatkan _commitment_ pada keluaran transaksi yang menggunakan _outpoint_ ini. Oleh karena itu, kita dapat memperkenalkan konsep-konsep berikut untuk sekuelnya:
 
 
-- "Definisi segel "** : Titik _output_ yang diberikan (diidentifikasi oleh TXID + no. output);
+- **"Definisi segel"**: Titik _output_ yang diberikan (diidentifikasi oleh TXID + no. output);
 - **"Penutupan segel"**: Transaksi yang menghabiskan _outpoint_ ini, di mana _komitmen_ ditambahkan ke pesan.
 
 Skema ini dipilih karena kompatibilitasnya dengan arsitektur RGB, tetapi konfigurasi lainnya dapat berguna untuk penggunaan yang berbeda.
@@ -589,7 +589,7 @@ Dalam praktiknya, **sig tweak** juga tidak terlalu kompatibel dengan perangkat k
 Tweak kunci ini mengambil konsep historis dari _bayar-ke-kontrak_. Kita mengambil kunci publik `X` dan mengubahnya dengan menambahkan nilai `H(pesan)`. Secara khusus, jika `X = x * G` dan `h = H(pesan)`, maka kunci baru akan menjadi `X' = X + h * G`. Kunci yang telah diubah ini menyembunyikan komitmen terhadap `pesan`. Pemegang kunci privat yang asli dapat, dengan menambahkan `h` ke kunci privatnya `x`, membuktikan bahwa ia memiliki kunci untuk mengeluarkan output. Secara teori, ini adalah hal yang elegan, karena :
 
 
-- Komitmen_ dimasukkan tanpa menambahkan kolom tambahan;
+- **Komitmen** dimasukkan tanpa menambahkan kolom tambahan;
 - Anda tidak menyimpan data on-chain tambahan apa pun.
 
 Namun dalam praktiknya, kami menghadapi beberapa kesulitan berikut ini:
@@ -1238,7 +1238,7 @@ Sebagai transaksi pertama dalam kontrak, Genesis tidak merujuk pada state sebelu
 
 ### Perpanjangan Negara Bagian
 
-State Extensions** menawarkan sebuah fitur orisinil untuk smart contract. Mereka memungkinkan untuk menukarkan hak digital tertentu (*Valensi*) yang disediakan dalam definisi kontrak, tanpa segera menutup segel. Paling sering, hal ini menyangkut :
+**State Extensions** menawarkan sebuah fitur orisinil untuk smart contract. Mereka memungkinkan untuk menukarkan hak digital tertentu (*Valensi*) yang disediakan dalam definisi kontrak, tanpa segera menutup segel. Paling sering, hal ini menyangkut :
 
 
 - Masalah token yang didistribusikan;
@@ -2847,9 +2847,13 @@ Mari kita analisis URL ini:
 
 
 - `rgb:`** (awalan): mengindikasikan sebuah tautan yang menggunakan protokol RGB (analog dengan `http:` atau `bitcoin:` dalam konteks lain);
+
+Wait, I need to fix the unbalanced formatting. The `**` after the colon is unmatched.
+
+- `rgb:` **(awalan)**: mengindikasikan sebuah tautan yang menggunakan protokol RGB (analog dengan `http:` atau `bitcoin:` dalam konteks lain);
 - **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: merepresentasikan `ContractId` token yang ingin Anda manipulasi;
 - `/RGB20/100`: mengindikasikan bahwa antarmuka `RGB20` digunakan dan 100 unit aset diminta. Sintaksnya adalah: `/Interface/jumlah` ;
-- `+utxob:`**: menentukan bahwa informasi tentang UTXO penerima (atau, lebih tepatnya, definisi Segel Sekali Pakai) ditambahkan;
+- **`+utxob:`**: menentukan bahwa informasi tentang UTXO penerima (atau, lebih tepatnya, definisi Segel Sekali Pakai) ditambahkan;
 - `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: ini adalah UTXO yang *dibutakan* (atau definisi segel). Dengan kata lain, Bob telah menutupi UTXO yang sebenarnya, sehingga pengirim (Alice) tidak tahu alamat yang sebenarnya. Dia hanya tahu bahwa ada segel yang valid yang mengacu pada UTXO yang dikendalikan oleh Bob.
 
 Fakta bahwa semuanya dapat dimasukkan ke dalam satu URL membuat hidup lebih mudah bagi pengguna: klik atau pindai sederhana di dompet, dan operasi siap dijalankan.
@@ -2877,7 +2881,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Di sini kita lihat :
 
 
-- `rgb:`**: Awalan URL ;
+- **`rgb:`**: Awalan URL ;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: ID Kontrak (NFT);
 - **rGB21**: antarmuka untuk aset yang tidak dapat dipertukarkan (NFT);
 - **`DbwzvSu-4BZU81jEp-...`**: referensi eksplisit ke bagian unik NFT, misalnya hash dari gumpalan data (media, metadata...);

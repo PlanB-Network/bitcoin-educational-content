@@ -388,9 +388,9 @@ Según [datos recogidos en agosto de 2025 por Luke Dashjr](https://luke.dashjr.o
 
 
 
-- Bitcoin core**: 87.3% de los nodos
-- Bitcoin Knots**: 12.5
-- Otras implementaciones acumuladas**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% de los nodos
+- **Bitcoin Knots**: 12.5
+- **Otras implementaciones acumuladas**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ En otras palabras, aproximadamente 9 de cada 10 nodos públicos utilizan Bitcoin
 
 
 
-**Nota:** No obstante, estas cifras siguen siendo estimaciones, ya que se basan principalmente en los *nodos que escuchan*, es decir, los nodos que aceptan conexiones entrantes (con el puerto 8333 abierto). Los nodos que no escuchan* son mucho más complejos de contabilizar, ya que es imposible conectarse a ellos directamente: hay que esperar a que la iniciativa venga de ellos, en forma de conexión saliente. El sitio de Luke Dashjr afirma que también intenta contabilizar estos *nodos que no escuchan*, pero sigue siendo imposible obtener datos perfectamente precisos sobre ellos, y la actualización de estas estadísticas va inevitablemente por detrás de la realidad.
+**Nota:** No obstante, estas cifras siguen siendo estimaciones, ya que se basan principalmente en los *nodos que escuchan*, es decir, los nodos que aceptan conexiones entrantes (con el puerto 8333 abierto). Los *nodos que no escuchan* son mucho más complejos de contabilizar, ya que es imposible conectarse a ellos directamente: hay que esperar a que la iniciativa venga de ellos, en forma de conexión saliente. El sitio de Luke Dashjr afirma que también intenta contabilizar estos *nodos que no escuchan*, pero sigue siendo imposible obtener datos perfectamente precisos sobre ellos, y la actualización de estas estadísticas va inevitablemente por detrás de la realidad.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core está escrito en C++. También es un proyecto de código abierto ma
 
 
 
-- Los colaboradores** presentan propuestas en forma de _pull requests_ (PR). En principio, cualquiera puede proponer un cambio, pero debe probarse, documentarse y pasar por un proceso de revisión por pares.
+- Los **colaboradores** presentan propuestas en forma de _pull requests_ (PR). En principio, cualquiera puede proponer un cambio, pero debe probarse, documentarse y pasar por un proceso de revisión por pares.
 - Los **maintainers** tienen derecho a aprobar y fusionar los PR. Son los que garantizan la coherencia y la estabilidad del proyecto. En julio de 2025, son cinco: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao y Ryan Ofsky.
 - No ha habido **mantenedor principal** desde febrero de 2023. Esta función fue desempeñada inicialmente por Satoshi Nakamoto en el lanzamiento de Bitcoin, luego por Gavin Andresen tras la marcha de Nakamoto a principios de 2011 y, por último, por Wladimir J. Van Der Laan desde 2014 hasta 2023.
 
@@ -446,9 +446,9 @@ También podemos mencionar:
 
 
 
-- Libbitcoin**: una biblioteca modular en C++ desarrollada por Amir Taaki y mantenida por Eric Voskuil;
-- Bcoin**: una implementación de JavaScript, que ya no se mantiene activamente;
-- BTCD/btcsuit**e: una implementación en Go.
+- **Libbitcoin**: una biblioteca modular en C++ desarrollada por Amir Taaki y mantenida por Eric Voskuil;
+- **Bcoin**: una implementación de JavaScript, que ya no se mantiene activamente;
+- **BTCD/btcsuite**: una implementación en Go.
 
 
 
@@ -590,7 +590,7 @@ Un aspecto importante, a menudo mal entendido, es que el funcionamiento de un no
 
 
 
-- El consenso manda**:
+- El consenso **manda**:
 
 
 
@@ -604,7 +604,7 @@ Cambiar estas reglas equivale a cambiar el protocolo y, por tanto, la moneda (Ha
 
 
 
-- Reglas de relevo**:
+- **Reglas de relevo**:
 
 
 
@@ -616,7 +616,7 @@ Por ejemplo, una transacción sin comisiones es, según las reglas de consenso, 
 
 
 
-Dar vueltas a tu propio nodo significa afirmar: "Valido lo que decido validar, según las reglas que yo mismo he adoptado "*. Te conviertes así en un actor de la gobernanza del sistema, capaz de rechazar una evolución que te parece inaceptable, o de aprobar una actualización según tus propios criterios.
+Dar vueltas a tu propio nodo significa afirmar: "Valido lo que decido validar, según las reglas que yo mismo he adoptado". Te conviertes así en un actor de la gobernanza del sistema, capaz de rechazar una evolución que te parece inaceptable, o de aprobar una actualización según tus propios criterios.
 
 
 
@@ -882,8 +882,8 @@ Hay 2 posibles razones para elegir Nudos en lugar de Núcleo:
 
 
 
-- Técnicas**: Diferentes opciones de Core, sobre todo en cuanto a la gestión de relés, determinando qué transacciones son aceptadas y difundidas por su nodo.
-- Política**: Algunas personas prefieren utilizar clientes alternativos como Knots por razones no técnicas, en particular para apoyar una alternativa a Core y reducir así su monopolio. Si alguna vez Core se viera comprometido, sería útil no sólo disponer de clientes alternativos sólidos y bien mantenidos, sino también saber cómo utilizarlos eficazmente. Otros utilizan Nudos con fines de protesta, porque han perdido la confianza en los desarrolladores de Core o desaprueban la mayor parte de la gestión del cliente.
+- **Técnicas**: Diferentes opciones de Core, sobre todo en cuanto a la gestión de relés, determinando qué transacciones son aceptadas y difundidas por su nodo.
+- **Política**: Algunas personas prefieren utilizar clientes alternativos como Knots por razones no técnicas, en particular para apoyar una alternativa a Core y reducir así su monopolio. Si alguna vez Core se viera comprometido, sería útil no sólo disponer de clientes alternativos sólidos y bien mantenidos, sino también saber cómo utilizarlos eficazmente. Otros utilizan Nudos con fines de protesta, porque han perdido la confianza en los desarrolladores de Core o desaprueban la mayor parte de la gestión del cliente.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1437,7 +1437,7 @@ Umbrel ofrece dos enfoques distintos:
 
 
 
-- [Umbrel Home**](https://umbrel.com/umbrel-home): se trata de un miniservidor listo para usar, especialmente diseñado y optimizado para umbrelOS. Compacto, silencioso, conectado a Ethernet, está equipado con un SSD NVMe (hasta 4 TB opcional), 16 GB de RAM y una CPU de cuatro núcleos. Lo pides, lo conectas y entras en `umbrel.local`. Puedes tener un Umbrel operativo y funcionando en cuestión de minutos. Esa es la opción plug-and-play.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): se trata de un miniservidor listo para usar, especialmente diseñado y optimizado para umbrelOS. Compacto, silencioso, conectado a Ethernet, está equipado con un SSD NVMe (hasta 4 TB opcional), 16 GB de RAM y una CPU de cuatro núcleos. Lo pides, lo conectas y entras en `umbrel.local`. Puedes tener un Umbrel operativo y funcionando en cuestión de minutos. Esa es la opción plug-and-play.
 
 
 
@@ -1477,7 +1477,7 @@ Umbrel puede seguir siendo muy minimalista y centrarse únicamente en Bitcoin, o
 
 
 
-- Nodo Bitcoin simple**: este es el uso fundacional en el que Umbrel se ha basado desde el principio. Puedes ejecutar Bitcoin core (o Knots), conectar tus monederos directamente a tu nodo, exponer un servidor de Electrum, alojar tu Mempool Block explorer para ver el Blockchain, y estimar cargos... Son estos usos en los que nos centraremos en este curso.
+- **Nodo Bitcoin simple**: este es el uso fundacional en el que Umbrel se ha basado desde el principio. Puedes ejecutar Bitcoin core (o Knots), conectar tus monederos directamente a tu nodo, exponer un servidor de Electrum, alojar tu Mempool Block explorer para ver el Blockchain, y estimar cargos... Son estos usos en los que nos centraremos en este curso.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel puede seguir siendo muy minimalista y centrarse únicamente en Bitcoin, o
 
 
 
-- Lightning Network**: Umbrel también te permite desplegar LND o Core Lightning, dos implementaciones de Lightning Network, para gestionar tu propio nodo Lightning. Podrá abrir canales, gestionar su liquidez, realizar pagos, automatizar el balanceo, ofrecer servicios, conectar una Wallet remota o aprovechar la gestión avanzada de Interface gracias a las numerosas aplicaciones disponibles. Veremos este caso de uso específico en nuestro próximo curso LNP 202.
+- **Lightning Network**: Umbrel también te permite desplegar LND o Core Lightning, dos implementaciones de Lightning Network, para gestionar tu propio nodo Lightning. Podrá abrir canales, gestionar su liquidez, realizar pagos, automatizar el balanceo, ofrecer servicios, conectar una Wallet remota o aprovechar la gestión avanzada de Interface gracias a las numerosas aplicaciones disponibles. Veremos este caso de uso específico en nuestro próximo curso LNP 202.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel puede seguir siendo muy minimalista y centrarse únicamente en Bitcoin, o
 
 
 
-- Autoalojamiento general**: con Nextcloud, Immich, Jellyfin/Plex, bloqueadores de publicidad a nivel de DNS (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), domótica (Home Assistant), copias de seguridad, gestión de notas, herramientas de oficina, IA local (Ollama + Open WebUI)... Umbrel puede convertirse en tu servidor personal, permitiéndote recuperar el control de tus datos. Usted mismo aloja los servicios que utiliza a diario, con una experiencia de usuario pulida que se asemeja mucho a las soluciones externas, al tiempo que conserva el control total sobre sus datos y su privacidad.
+- **Autoalojamiento general**: con Nextcloud, Immich, Jellyfin/Plex, bloqueadores de publicidad a nivel de DNS (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), domótica (Home Assistant), copias de seguridad, gestión de notas, herramientas de oficina, IA local (Ollama + Open WebUI)... Umbrel puede convertirse en tu servidor personal, permitiéndote recuperar el control de tus datos. Usted mismo aloja los servicios que utiliza a diario, con una experiencia de usuario pulida que se asemeja mucho a las soluciones externas, al tiempo que conserva el control total sobre sus datos y su privacidad.
 
 
 
@@ -1713,7 +1713,7 @@ Una vez que el dispositivo ha arrancado desde la memoria USB, será recibido por
 
 
 
-La pantalla que aparece enumera todos los dispositivos de almacenamiento interno detectados por el ordenador. Cada disco va acompañado de un número, un nombre y una capacidad de almacenamiento. Localice el disco en el que desea instalar Umbrel. **Advertencia: todos los archivos de este disco se borrarán permanentemente
+La pantalla que aparece enumera todos los dispositivos de almacenamiento interno detectados por el ordenador. Cada disco va acompañado de un número, un nombre y una capacidad de almacenamiento. Localice el disco en el que desea instalar Umbrel. **Advertencia: todos los archivos de este disco se borrarán permanentemente.**
 
 
 
@@ -1759,8 +1759,8 @@ Antes de reiniciar el dispositivo, compruebe los dos puntos siguientes:
 
 
 
-- La llave USB está desconectada**: si permanece conectada, el sistema puede reiniciarse en ella en lugar de en el disco interno;
-- El cable Ethernet está enchufado**: el aparato debe estar conectado al router para funcionar.
+- **La llave USB está desconectada**: si permanece conectada, el sistema puede reiniciarse en ella en lugar de en el disco interno;
+- **El cable Ethernet está enchufado**: el aparato debe estar conectado al router para funcionar.
 
 
 
@@ -2285,9 +2285,9 @@ A continuación, descubrirá tres opciones para vincular su software a un nodo B
 
 
 
-- Servidor Público* (amarillo): por defecto, si no posees un nodo Bitcoin, esta opción te conecta a un nodo público que no poseas (normalmente el de una empresa). Esta opción no es relevante aquí, ya que tienes tu propio nodo en Umbrel.
-- Bitcoin core* (Green): esta opción corresponde a la conexión a través de Interface RPC, es decir, directamente a Bitcoin core.
-- Electrum privado* (azul): esta opción le permite conectarse a través del servidor Electrum Interface de su indexador (Electrs o Fulcrum).
+- **Servidor Público** (amarillo): por defecto, si no posees un nodo Bitcoin, esta opción te conecta a un nodo público que no poseas (normalmente el de una empresa). Esta opción no es relevante aquí, ya que tienes tu propio nodo en Umbrel.
+- **Bitcoin core** (Green): esta opción corresponde a la conexión a través de Interface RPC, es decir, directamente a Bitcoin core.
+- **Electrum privado** (azul): esta opción le permite conectarse a través del servidor Electrum Interface de su indexador (Electrs o Fulcrum).
 
 
 

@@ -767,7 +767,7 @@ Quando criámos o RGB, analisámos todos estes métodos para determinar onde e c
 | **Tipo**                        | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
 | MuSig (n-of-n)                  | 16.5                   | 0                      | 0                      | 0                        | 0                        |
 | FROST (n-of-m)                  | ?                      | 0                      | 0                      | 0                        | 0                        |
-| Multi_a (n-of-m)                | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Multi_a (n-of-m)                | 1+16n+8m               | 8                      | 8                      | 33 × m                   | 65                       |
 | Ramificação MuSig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n)  | 8                      | 0                      | 64                       | 65                       |
 | Com timeouts (n-of-m)           | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
@@ -2298,7 +2298,7 @@ Por exemplo, a interface RGB20 pode ser ligada ao regime **Non-Inflatable Asset 
 - Suporte integrado para a inclusão direta de um ficheiro (até 16 MB) no contrato (para recuperação do lado do cliente);
 - A possibilidade de o proprietário introduzir uma "*gravura*" no historial para provar a propriedade anterior de um NFT.
 
-*o *RGB25** é uma norma híbrida que combina aspectos fungíveis e não fungíveis. Foi concebida para activos parcialmente fungíveis, como a tokenização de bens imobiliários, em que se pretende dividir uma propriedade, mantendo uma ligação a um único ativo de raiz (por outras palavras, tem partes fungíveis de uma casa, ligadas a uma casa não fungível). Tecnicamente, esta interface pode ser ligada ao esquema **Collectible Fungible Asset* (CFA)**, que tem em conta a noção de divisão enquanto rastreia o ativo original.
+**O RGB25** é uma norma híbrida que combina aspectos fungíveis e não fungíveis. Foi concebida para activos parcialmente fungíveis, como a tokenização de bens imobiliários, em que se pretende dividir uma propriedade, mantendo uma ligação a um único ativo de raiz (por outras palavras, tem partes fungíveis de uma casa, ligadas a uma casa não fungível). Tecnicamente, esta interface pode ser ligada ao esquema **Collectible Fungible Asset (CFA)**, que tem em conta a noção de divisão enquanto rastreia o ativo original.
 
 #### Interfaces em desenvolvimento
 
@@ -2846,7 +2846,7 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 Vamos analisar este URL:
 
 
-- `rgb:`** (prefixo): indica uma ligação que invoca o protocolo RGB (análogo a `http:` ou `bitcoin:` noutros contextos);
+- **`rgb:`** (prefixo): indica uma ligação que invoca o protocolo RGB (análogo a `http:` ou `bitcoin:` noutros contextos);
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: representa o `ContractId` do token que pretende manipular;
 - `/RGB20/100`: indica que é utilizada a interface `RGB20` e que são pedidas 100 unidades do bem. A sintaxe é a seguinte: `/Interface/amount` ;
 - `+utxob:` **especifica que são acrescentadas informações sobre o UTXO destinatário (ou, mais precisamente, a definição do selo de utilização única);**
@@ -2877,7 +2877,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Aqui vemos :
 
 
-- `rgb:`**: Prefixo do URL ;
+- **`rgb:`**: Prefixo do URL ;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: ID do contrato (NFT) ;
 - **rGB21**: interface para activos não fungíveis (NFT) ;
 - `DbwzvSu-4BZU81jEp-...`: uma referência explícita à parte única do NFT, por exemplo, um hash do blob de dados (media, metadados...) ;

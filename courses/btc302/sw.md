@@ -1092,7 +1092,7 @@ Kwa kutumia **kijibu [@GroupHelpBot](https://telegram.me/grouphelpbot)**, chaguo
 
 
 - **Sheria amri** (/kanuni) kuonyesha miongozo ya jumuiya yako;
-- Kinga dhidi ya barua taka** ili kuchuja ujumbe na akaunti zinazotiliwa shaka;
+- **Kinga dhidi ya barua taka** ili kuchuja ujumbe na akaunti zinazotiliwa shaka;
 - **Ujumbe wa kukaribisha otomatiki unaoweza kubinafsishwa** kwa wanachama wapya (kwa hiari ya kufuta kiotomatiki baada ya dakika chache)
 - **Ulinzi dhidi ya mafuriko** ili kuzuia barua taka za ujumbe
 - **@amri ya msimamizi** ya kuwafikia wasimamizi wa kikundi kwa haraka

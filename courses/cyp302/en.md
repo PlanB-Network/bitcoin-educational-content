@@ -1941,7 +1941,7 @@ Around 2,500 years ago, the Greek mathematician Euclid of Alexandria discovered 
 
 All the latter part of this statement means is that you can take any non-prime integer $N$ greater than 1, and write it out as a multiplication of prime numbers. Below are several examples of non-prime integers written as the product of prime factors.
 
-* $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
+$18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
 $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
 * $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 

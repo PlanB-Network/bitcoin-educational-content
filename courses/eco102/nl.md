@@ -917,7 +917,7 @@ In 1840 stemde de Kamer van Afgevaardigden voor een wet die de importbelastingen
 
 ![image](assets/en/077.webp)
 
-hierboven: Marine Le Pen, een Franse politica_
+hierboven: Marine Le Pen, een Franse politica
 
 
 

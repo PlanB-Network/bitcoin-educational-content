@@ -352,7 +352,7 @@ Queste famose euristiche possono essere raggruppate in diverse categorie, che de
 
 
 - Modelli di transazione;
-- Euristica interna alle transazioni ;**
+- Euristica interna alle transazioni;
 - Euristica esterna alla transazione.
 
 ### Satoshi Nakamoto e l'analisi della catena
@@ -629,7 +629,7 @@ L'interpretazione del riutilizzo di un indirizzo è che tutti gli UTXO bloccati 
 
 Come spiegato nell'introduzione alla Parte 3, questa euristica è stata scoperta dallo stesso Satoshi Nakamoto. Nel Libro Bianco, egli menziona una soluzione per aiutare gli utenti a non generarla, che consiste semplicemente nell'utilizzare un indirizzo vuoto per ogni nuova transazione:
 
-"Come ulteriore firewall, si potrebbe usare una nuova coppia di chiavi per ogni transazione, in modo da non collegarle a un proprietario comune._"
+"Come ulteriore firewall, si potrebbe usare una nuova coppia di chiavi per ogni transazione, in modo da non collegarle a un proprietario comune."
 
 ![BTC204](assets/it/055.webp)
 
@@ -1022,7 +1022,7 @@ ___
 *Vorrei ringraziare i loro autori, sviluppatori e produttori. Grazie anche ai correttori di bozze che hanno corretto meticolosamente l'articolo su cui si basa questa parte 3 e mi hanno dato i loro consigli da esperti :*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # Padroneggiare le migliori pratiche per proteggere la privacy

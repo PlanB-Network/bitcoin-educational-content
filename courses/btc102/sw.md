@@ -428,7 +428,7 @@ Kidhibiti cha nenosiri hukuruhusu:
 
 - **Hifadhi manenosiri yako yote kwa usalama** katika chumba kilichosimbwa kwa njia fiche
 - Manenosiri marefu, changamano na ya kipekee ya **generate** kiotomatiki kwa kila akaunti
-- Tumia nenosiri kuu moja tu **, ili kufikia kila kitu kwa usalama
+- Tumia nenosiri kuu moja tu **, ili kufikia kila kitu kwa usalama**
 
 
 Ukiwa na kidhibiti cha nenosiri, hutawahi kubofya "Umesahau nenosiri" tena au kutegemea vitambulisho dhaifu vilivyotumika tena. Zaidi ya hayo, wasimamizi wengi wa nenosiri husawazisha kirahisi kwenye vifaa vyako vyote (kompyuta ya mezani, simu, kompyuta kibao) na hata kujaza fomu za kuingia kiotomatiki, hivyo kufanya ufikiaji salama kuwa rahisi na mzuri.
@@ -3653,7 +3653,6 @@ Kwa mara nyingine tena, hongera kwa jinsi ulivyofikia. Na kumbuka; lengo langu l
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

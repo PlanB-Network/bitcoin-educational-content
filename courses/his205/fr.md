@@ -1722,10 +1722,10 @@ Les métaux précieux, spécialement l’or et l’argent, ont longtemps été c
 
 Au fil des siècles, plusieurs empires se sont succédé comme centres économiques mondiaux. Le pays qui domine le commerce mondial durant une période donnée obtient en général le statut de monnaie de réserve. On mentionne ainsi :
 
-**L'Espagne et le Portugal (XVe et XVIe siècles)**
-* Les Provinces-Unies (Pays-Bas) au XVIIe  
-*La France et la Grande-Bretagne aux XVIIIe et XIXe*
-**Les États-Unis au XXe siècle**
+- L'Espagne et le Portugal (XVe et XVIe siècles)
+- Les Provinces-Unies (Pays-Bas) au XVIIe
+- La France et la Grande-Bretagne aux XVIIIe et XIXe
+- Les États-Unis au XXe siècle
 
 ### L'essor portugais et le Real (1450-1530)
 
@@ -2159,7 +2159,6 @@ Il faut simplement réaliser que ce concept d'État-providence émane de la fina
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

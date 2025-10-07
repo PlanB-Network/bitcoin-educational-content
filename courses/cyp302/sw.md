@@ -2107,7 +2107,7 @@ Tuseme hiyo $N$ si ya msingi. Unaweza, basi, kuhesabu mpangilio wake kwa kutumia
 
 **Nadharia 2**. Acha $N$ iwe sawa na $p_1^{e_1} \cdot p_2^{e_2} \cdot \lddots \cdot p_i^{e_i} \cdot \lddots \cdot p_n^{e_n}$, ambapo seti $\{p_i\}$ hujumuisha mara ngapi sababu kuu na sababu kuu za $e N$ kila moja. $p_i$ hutokea kwa $N$. Kisha,
 
-$$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldets \cdot p_n^{e_n - 1} \cdot (p_$n - 1)$
+$$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
 **Nadharia ya 2** inaonyesha kuwa ukishagawanya $N$ yoyote isiyo ya msingi katika vipengele vyake kuu mahususi, ni rahisi kukokotoa mpangilio wa $N$.
 

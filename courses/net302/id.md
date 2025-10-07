@@ -811,7 +811,7 @@ Arsitektur berlapis mengikuti prinsip bahwa setiap Layer hanya memproses informa
 
 
 - **pesan** untuk Aplikasi Layer,
-- segmen** untuk Transport Layer (TCP),
+- **segmen** untuk Transport Layer (TCP),
 
 The line appears to have an unbalanced ** marker. Here's the corrected version:
 
@@ -896,7 +896,7 @@ Alamat IP dapat ditetapkan dengan dua cara utama:
 *alamat* **IPv4** ditulis dalam format **32-bit** yang dibagi menjadi **empat byte**. Setiap byte berisi 8 bit dan mewakili angka desimal dari 0 hingga 255. Keempat byte dipisahkan oleh titik-titik untuk membentuk notasi yang jelas dan mudah dibaca.
 
 
-contoh: Address 172.16.254.1_
+contoh: Address 172.16.254.1
 
 
 
@@ -1246,7 +1246,7 @@ Terakhir, protokol perutean dinamis mencakup standar seperti RIP (_Routing Infor
 ### Definisi
 
 
-Network Address Translation_ (NAT) adalah sebuah teknik yang dikembangkan untuk mengatasi penipisan alamat IPv4 yang tersedia secara bertahap. Dirancang sebagai solusi sementara sebelum adopsi IPv6 secara luas, NAT memungkinkan perusahaan dan individu untuk terus menghubungkan sejumlah besar mesin sementara hanya menggunakan satu set alamat IP publik yang terbatas.
+Network Address Translation (NAT) adalah sebuah teknik yang dikembangkan untuk mengatasi penipisan alamat IPv4 yang tersedia secara bertahap. Dirancang sebagai solusi sementara sebelum adopsi IPv6 secara luas, NAT memungkinkan perusahaan dan individu untuk terus menghubungkan sejumlah besar mesin sementara hanya menggunakan satu set alamat IP publik yang terbatas.
 
 
 **Pengingat penting:** Perpindahan dari IPv4 ke IPv6 secara teoritis memecahkan masalah kelelahan dengan memperluas ruang Address dari 32 bit ke 128 bit, menyediakan jumlah alamat yang hampir tidak terbatas (2^128). Namun dalam praktiknya, transisi ini masih belum selesai, dan NAT masih digunakan secara luas hingga saat ini.
@@ -1299,7 +1299,7 @@ Setiap entri dalam tabel ini menghubungkan setidaknya satu pasangan: IP internal
 Prinsip penerjemahan dinamis ini bergantung pada manajemen tabel yang tepat: setiap entri tetap valid selama ada trafik yang aktif untuk membenarkannya. Setelah periode tidak aktif yang dapat dikonfigurasi, entri akan dihapus dan dapat digunakan kembali untuk koneksi baru.
 
 
-contoh tabel terjemahan NAT yang disederhanakan:_
+contoh tabel terjemahan NAT yang disederhanakan:
 
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
@@ -1331,7 +1331,7 @@ Secara umum, protokol apa pun yang secara eksplisit menyertakan IP internal Addr
 **Perhatian:** Meskipun NAT membantu menyembunyikan jaringan internal dan mengontrol trafik yang masuk, NAT bukanlah pengganti firewall khusus. Penerjemahan saja bukanlah penghalang keamanan yang lengkap: harus selalu dilengkapi dengan aturan penyaringan yang jelas untuk memblokir trafik yang tidak diminta atau tidak diinginkan.
 
 
-untuk mengilustrasikan bagaimana hal ini bekerja dalam praktiknya, pertimbangkan contoh berikut:_
+untuk mengilustrasikan bagaimana hal ini bekerja dalam praktiknya, pertimbangkan contoh berikut:
 
 
 
@@ -2115,7 +2115,7 @@ Empat bidang pertama dari header rooting ini adalah:
 - **Header Berikutnya**: mengidentifikasi jenis header berikutnya;
 - **Jenis Routing**: menentukan metode routing (biasanya `0`);
 - **Segmen kiri**: jumlah segmen yang tersisa untuk dilintasi;
-- Address [n]**: daftar alamat perantara.
+- **Address [n]**: daftar alamat perantara.
 
 
 Kolom "Segmen Tersisa" dimulai dengan jumlah total segmen yang tersisa dan dikurangi satu pada setiap hop.

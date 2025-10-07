@@ -388,9 +388,9 @@ Dushingiye ku [amakuru yashizwe hamwe muri Myandagaro 2025 na Luke Dashjr] (umuh
 
 
 
-- Bitcoin core**: 87,3% vy'ibihimba
-- 124**: 12,5
-- Ibindi bishirwa mu ngiro**: 0,2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87,3% vy'ibihimba
+- **124**: 12,5
+- **Ibindi bishirwa mu ngiro**: 0,2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Mu yandi majambo, nk'ibice 9 kuri 10 vy'abantu bose bikoresha Bitcoin core. Ibin
 
 
 
-**Iciyumviro:** Iyi mibare iracari ingereranyo, ariko, kuko ishingiye ahanini ku *node zo kwumviriza*, ni ukuvuga node zemera ama connexions yinjira (n’icuma 8333 kifunguye). Ivyuma bitarumviriza* biragoye cane guharura, kuko bidashoboka ko umuntu abifatanya navyo ataco bimaze: utegerezwa kurindira ko ingamba iva kuri vyo, mu buryo bw’uguhuza gusohoka. Urubuga rwa Luke Dashjr ruvuga ko ruriko ruragerageza guharura izo *node zitarumviriza* na zo nyene, ariko biraguma bidashoboka ko umuntu aronka amakuru y’ukuri ata gatotsi ku bijanye na zo, kandi ugusubiramwo iyo mibare nta kabuza birasigaye inyuma y’ukuri.
+**Iciyumviro:** Iyi mibare iracari ingereranyo, ariko, kuko ishingiye ahanini ku **node zo kwumviriza**, ni ukuvuga node zemera ama connexions yinjira (n'icuma 8333 kifunguye). Ivyuma bitarumviriza biragoye cane guharura, kuko bidashoboka ko umuntu abifatanya navyo ataco bimaze: utegerezwa kurindira ko ingamba iva kuri vyo, mu buryo bw'uguhuza gusohoka. Urubuga rwa Luke Dashjr ruvuga ko ruriko ruragerageza guharura izo **node zitarumviriza** na zo nyene, ariko biraguma bidashoboka ko umuntu aronka amakuru y'ukuri ata gatotsi ku bijanye na zo, kandi ugusubiramwo iyo mibare nta kabuza birasigaye inyuma y'ukuri.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core yanditswe mu rurimi rwa C++. Ni umugambi kandi w’inkomoko yuguruy
 
 
 
-- Abatanga** batanga ivyiyumviro mu buryo bw'_ibisabwa vyo gukurura_ (PR). Mu ngingo ngenderwako, umuntu wese arashobora gutanga iciyumviro c’ihinduka, ariko ritegerezwa kugeragezwa, rikagira inyandiko, rikaca mu nzira y’isuzuma ry’abagenzi.
+- **Abatanga** batanga ivyiyumviro mu buryo bw'_ibisabwa vyo gukurura_ (PR). Mu ngingo ngenderwako, umuntu wese arashobora gutanga iciyumviro c'ihinduka, ariko ritegerezwa kugeragezwa, rikagira inyandiko, rikaca mu nzira y'isuzuma ry'abagenzi.
 - Aba **abacungera** barafise uburenganzira bwo kwemeza no gufatanya ama PR. Ni bo bashingira intahe ko umugambi uzoguma uhuye kandi uhagaze neza. Muri Nyakanga 2025, hari batanu muri bo: Hennadii Stepanov, Mikaheli Ford, Andrew Chow, Gloria Zhao na Ryan Ofsky.
 - Nta **umucungerezi mukuru** yariho kuva muri Ruhuhuma 2023. Uwo murimo wari waratangujwe na Satoshi Nakamoto igihe Bitcoin yatanguzwa, hanyuma na Gavin Andresen akurikije ukugenda kwa Nakamoto mu ntango za 2011, hanyuma na Wladimir J. Van204.
 
@@ -446,9 +446,9 @@ Turashobora kandi kuvuga:
 
 
 
-- Libbitcoin**: ububiko bw’ibitabu bwa C++ bwateguwe na Amir Taaki kandi bugatunganirizwa na Eric Voskuil;
-- Bcoin**: ugushirwa mu ngiro kwa JavaScript, ntikugikoreshwa neza;
-- BTCD/btcsuit**e: ugushirwa mu ngiro muri Go.
+- **Libbitcoin**: ububiko bw'ibitabu bwa C++ bwateguwe na Amir Taaki kandi bugatunganirizwa na Eric Voskuil;
+- **Bcoin**: ugushirwa mu ngiro kwa JavaScript, ntikugikoreshwa neza;
+- **BTCD/btcsuite**: ugushirwa mu ngiro muri Go.
 
 
 
@@ -590,7 +590,7 @@ Ikintu gihambaye, akenshi kidatahurwa neza, ni uko gukoresha urudodo bigufasha g
 
 
 
-- Amategeko y'ukwemeranya**:
+- **Amategeko y'ukwemeranya**:
 
 
 
@@ -604,7 +604,7 @@ Guhindura ayo mategeko ni nk’uguhindura umurongo w’amategeko, rero n’amahe
 
 
 
-- Amategeko yo gutanga**:
+- **Amategeko yo gutanga**:
 
 
 
@@ -616,7 +616,7 @@ Nk’akarorero, ugucuruza ata mahera, hakurikijwe amategeko y’uguhurizako, bir
 
 
 
-Guhindukiza urudodo rwawe bwite bisigura kwemeza ngo: "Nshingira intahe ivyo mpisemwo kwemeza, hakurikijwe amategeko jewe ubwanje nafashe "*. Gutyo uba ubaye umukinyi mu bijanye n’uburongozi bw’urutonde, ushobora kwanka ubwihindurize busa n’ubutemera kuri wewe, canke ukemera uguhindura ibintu bishingiye ku vyo wewe ubwawe ubona.
+Guhindukiza urudodo rwawe bwite bisigura kwemeza ngo: "Nshingira intahe ivyo mpisemwo kwemeza, hakurikijwe amategeko jewe ubwanje nafashe". Gutyo uba ubaye umukinyi mu bijanye n'uburongozi bw'urutonde, ushobora kwanka ubwihindurize busa n'ubutemera kuri wewe, canke ukemera uguhindura ibintu bishingiye ku vyo wewe ubwawe ubona.
 
 
 
@@ -882,8 +882,8 @@ Hari impamvu 2 zishoboka zo guhitamwo Knots kuruta Core:
 
 
 
-- Ubuhinga**: Amahitamwo atandukanye ava kuri Core, cane cane mu bijanye n’uburongozi bw’ivy’ugutanga amakuru, mu kumenya amafaranga yemerwa kandi atangazwa n’uruzitiro rwawe.
-- Policy**: Abantu bamwe bamwe barakunda gukoresha ubundi ba clients nka Knots kubera imvo zitari izo mu vy’ubuhinga, cane cane kugira ngo bashigikire ubundi buryo bwo gukoresha Core gutyo bagabanye ububasha bwayo bwo gukoresha. Iyo Core izokwigera ihungabana, vyoba vyiza atari gusa kugira abaguzi bakomeye kandi batunganijwe neza, ariko kandi no kumenya ingene yobakoresha neza. Abandi bakoresha Knots mu ntumbero zo kwiyamiriza, kubera ko batakaje icizigiro mu bategura Core canke ntibemera uburongozi bwinshi bw’umukiriya.
+- **Ubuhinga**: Amahitamwo atandukanye ava kuri Core, cane cane mu bijanye n'uburongozi bw'ivy'ugutanga amakuru, mu kumenya amafaranga yemerwa kandi atangazwa n'uruzitiro rwawe.
+- **Policy**: Abantu bamwe bamwe barakunda gukoresha ubundi ba clients nka Knots kubera imvo zitari izo mu vy'ubuhinga, cane cane kugira ngo bashigikire ubundi buryo bwo gukoresha Core gutyo bagabanye ububasha bwayo bwo gukoresha. Iyo Core izokwigera ihungabana, vyoba vyiza atari gusa kugira abaguzi bakomeye kandi batunganijwe neza, ariko kandi no kumenya ingene yobakoresha neza. Abandi bakoresha Knots mu ntumbero zo kwiyamiriza, kubera ko batakaje icizigiro mu bategura Core canke ntibemera uburongozi bwinshi bw'umukiriya.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1447,7 +1447,7 @@ Umbrel itanga uburyo bubiri butandukanye:
 
 
 
-- [**umbrelOS**](https://umbrelOS**](https://umbrel.com/umbrelos): iyi ni yo nzira yo gukoresha ushobora kwishiramwo wewe nyene ku bikoresho vyawe bwite (mini-PC, NUC, umunara, laptop yihariye...). Ufise Interface imwe n’iyi App Store nk’iyo uri ku nzu y’umutaka.
+- [**umbrelOS**](https://umbrel.com/umbrelos): iyi ni yo nzira yo gukoresha ushobora kwishiramwo wewe nyene ku bikoresho vyawe bwite (mini-PC, NUC, umunara, laptop yihariye...). Ufise Interface imwe n'iyi App Store nk'iyo uri ku nzu y'umutaka.
 
 
 
@@ -1477,7 +1477,7 @@ Umbrel ishobora kuguma ari minimalist cane kandi yibanda kuri Bitcoin gusa, cank
 
 
 
-- Igikoresho gisanzwe ca Bitcoin**: iki ni co gikoreshwa c’ishimikiro Umbrel yizigiye kuva mu ntango. Ushobora gukoresha Bitcoin core (canke Knots), gufatanya ama wallets yawe n’uruzitiro rwawe, gushikiriza server ya Electrum, kwakira Mempool Block explorer yawe kugira ngo ubone Blockchain, no kugereranya amafaranga... Ivyo ni vyo tuzoba turiko twibandako muri iri shure.
+- **Igikoresho gisanzwe ca Bitcoin**: iki ni co gikoreshwa c'ishimikiro Umbrel yizigiye kuva mu ntango. Ushobora gukoresha Bitcoin core (canke Knots), gufatanya ama wallets yawe n'uruzitiro rwawe, gushikiriza server ya Electrum, kwakira Mempool Block explorer yawe kugira ngo ubone Blockchain, no kugereranya amafaranga... Ivyo ni vyo tuzoba turiko twibandako muri iri shure.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel ishobora kuguma ari minimalist cane kandi yibanda kuri Bitcoin gusa, cank
 
 
 
-- Lightning Network**: Umbrel kandi iragufasha gukoresha LND canke Core Lightning, ibikorwa bibiri vya Lightning Network, kugira ngo ushobore gucunga urudodo rwawe rw’umuravyo. Uzoshobora gufungura imihora, gucunga amahera yawe, gutanga amahera, gukoresha ubuhinga bwo gupima, gutanga ibikorwa, gufatanya Wallet iri kure, canke kwungukira ku burongozi buteye imbere bwa Interface bivuye ku bikoresho vyinshi biriho. Tuzoba turiko turaraba iki kibazo c'ikoreshwa mu nyigisho yacu ikurikira ya LNP 202.
+- **Lightning Network**: Umbrel kandi iragufasha gukoresha LND canke Core Lightning, ibikorwa bibiri vya Lightning Network, kugira ngo ushobore gucunga urudodo rwawe rw'umuravyo. Uzoshobora gufungura imihora, gucunga amahera yawe, gutanga amahera, gukoresha ubuhinga bwo gupima, gutanga ibikorwa, gufatanya Wallet iri kure, canke kwungukira ku burongozi buteye imbere bwa Interface bivuye ku bikoresho vyinshi biriho. Tuzoba turiko turaraba iki kibazo c'ikoreshwa mu nyigisho yacu ikurikira ya LNP 202.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel ishobora kuguma ari minimalist cane kandi yibanda kuri Bitcoin gusa, cank
 
 
 
-- Ukwiyakira muri rusangi **: na Nextcloud, Immich, Jellyfin/Plex, ibikoresho bibuza kwamamaza muri DNS (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), ubuhinga bwo mu nzu (Umufasha wo mu nzu), ububiko, uburongozi bw’amakete, ibikoresho vy’ibiro, AI yawe yo mu karere kugira ngo uyikoreshe gusubira kugenzura amakuru yawe. Ushobora kwakira ibikorwa ukoresha buri musi wewe nyene, ufise ubumenyi bwiza busa cane n’imiti yo hanze, mu gihe uguma ugenzura amakuru yawe n’ubuzima bwite bwawe.
+- Ukwiyakira muri rusangi: na Nextcloud, Immich, Jellyfin/Plex, ibikoresho bibuza kwamamaza muri DNS (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), ubuhinga bwo mu nzu (Umufasha wo mu nzu), ububiko, uburongozi bw'amakete, ibikoresho vy'ibiro, AI yawe yo mu karere kugira ngo uyikoreshe gusubira kugenzura amakuru yawe. Ushobora kwakira ibikorwa ukoresha buri musi wewe nyene, ufise ubumenyi bwiza busa cane n'imiti yo hanze, mu gihe uguma ugenzura amakuru yawe n'ubuzima bwite bwawe.
 
 
 
@@ -1759,8 +1759,8 @@ Imbere yo gusubira gukoresha igikoresho, nusuzume ingingo zibiri zikurikira:
 
 
 
-- Urufunguzo rwa USB rurakurwako**: iyo rugumye rufatanye, sisitemu ishobora gusubira kurirwo aho gufungura kuri disiki yo mu mutima;
-- Umugozi wa Ethernet urashizwemwo**: igikoresho kigomba gufatanywa na router yawe kugira ngo gikore.
+- **Urufunguzo rwa USB rurakurwako**: iyo rugumye rufatanye, sisitemu ishobora gusubira kurirwo aho gufungura kuri disiki yo mu mutima;
+- **Umugozi wa Ethernet urashizwemwo**: igikoresho kigomba gufatanywa na router yawe kugira ngo gikore.
 
 
 
@@ -2285,9 +2285,9 @@ Uzoca ubona uburyo butatu bwo guhuza porogaramu yawe n'uruzitiro rwa Bitcoin:
 
 
 
-- Server ya bose* (umuhondo): ku buryo busanzwe, iyo udafise urudodo rwa Bitcoin, iyi nzira iraguhuza n’urudodo rwa bose udafise (kenshi n’urw’ishirahamwe). Iyi nzira ntaco imaze hano, kuko ufise urudodo rwawe kuri Umbrel.
-- Bitcoin core* (Green): iyi nzira ihuye n'uguhuza biciye kuri Interface RPC, ni ukuvuga, guca kuri Bitcoin core.
-- Igikoresho c’amashanyarazi c’ibanga* (ubururu): iyi nzira ituma ushobora kwifatanya biciye ku gikorwa cawe c’amashanyarazi Interface (Electrs canke Fulcrum).
+- Server ya bose (umuhondo): ku buryo busanzwe, iyo udafise urudodo rwa Bitcoin, iyi nzira iraguhuza n'urudodo rwa bose udafise (kenshi n'urw'ishirahamwe). Iyi nzira ntaco imaze hano, kuko ufise urudodo rwawe kuri Umbrel.
+- **Bitcoin core** (Green): iyi nzira ihuye n'uguhuza biciye kuri Interface RPC, ni ukuvuga, guca kuri Bitcoin core.
+- **Igikoresho c'amashanyarazi c'ibanga** (ubururu): iyi nzira ituma ushobora kwifatanya biciye ku gikorwa cawe c'amashanyarazi Interface (Electrs canke Fulcrum).
 
 
 

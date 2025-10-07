@@ -76,7 +76,7 @@ A terceira secção, "Configurar o seu plano", centra-se na sua abordagem pessoa
 
 
 - o *hodler*, centrado na manutenção do Bitcoin a longo prazo ;
-- o empilhador*, que compra de forma regular e metódica;
+- o empilhador, que compra de forma regular e metódica;
 - o *utilizador*, que dá prioridade à utilização diária do Bitcoin;
 - e, finalmente, *o paranoico*, que pretende segurança máxima para proteger eficazmente os seus bens e a sua privacidade.
 
@@ -736,7 +736,7 @@ O Bitcoin está frequentemente rodeado de equívocos populares; um dos mais comu
 
 
 
-- Negociação :**
+- **Negociação:**
 
 
 Sejamos honestos: provavelmente não deveria estar a negociar
@@ -3619,7 +3619,6 @@ Mais uma vez, parabéns pelo caminho percorrido. E lembrem-se: o meu principal o
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

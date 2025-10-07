@@ -3541,7 +3541,7 @@ Nawet jeśli automatyczne aktualizacje są włączone w systemie, nadal ważne j
 
 
 
-- System operacyjny Windows*
+- System operacyjny **Windows**
 
 
 
@@ -8606,4 +8606,3 @@ Postępując zgodnie z tymi kilkoma krokami, zbudujesz solidne, bezpieczne środ
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-

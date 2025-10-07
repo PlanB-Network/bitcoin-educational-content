@@ -1577,7 +1577,7 @@ Smarta kontrakt i RGB introducerar en modell av digitala innehavarinstrument, de
 
 - En **Contract State**, som anger den aktuella konfigurationen av Contract (rättigheter, saldon, variabler etc.);
 - En **Business Logic** (*Schema*), som definierar vilka övergångar som är tillåtna och hur de måste valideras;
-- Contract Operationer**, som uppdaterar detta tillstånd steg för steg, tack vare åtaganden som är förankrade i Bitcoin transaktioner.
+- Contract Operationer, som uppdaterar detta tillstånd steg för steg, tack vare åtaganden som är förankrade i Bitcoin transaktioner.
 
 
 I nästa kapitel kommer vi att gå in mer i detalj på den konkreta representationen av dessa ***tillstånd*** och ***tillståndsövergångar*** på off-chain-nivå, och hur de relaterar till UTXO:er och engångsförseglingar som är inbäddade i Bitcoin. Detta kommer att vara en möjlighet att se hur RGB:s interna mekanik, baserad på Client-side Validation, lyckas upprätthålla konsistensen hos smarta kontrakt samtidigt som datakonfidentialiteten bevaras.
@@ -3984,7 +3984,7 @@ Låt oss analysera den här webbadressen:
 
 
 
-- `RGB:`** (prefix): anger en länk som anropar RGB-protokollet (analogt med `http:` eller `Bitcoin:` i andra sammanhang);
+- **`RGB:`** (prefix): anger en länk som anropar RGB-protokollet (analogt med `http:` eller `Bitcoin:` i andra sammanhang);
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: representerar `ContractId` för den token som du vill manipulera;
 - `/RGB20/100`: anger att Interface `RGB20` används och att 100 enheter av tillgången begärs. Syntaxen är: `/Interface/amount`;
 - `+utxob:` **anger att information om mottagaren UTXO (eller, mer exakt, definitionen av Single-Use Seal) läggs till;**

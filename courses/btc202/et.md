@@ -388,9 +388,9 @@ Vastavalt [Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/so
 
 
 
-- Bitcoin core**: 87.3% sõlmedest
-- Bitcoin Knots**: 12.5
-- Muud kumulatiivsed rakendused**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% sõlmedest
+- **Bitcoin Knots**: 12.5
+- **Muud kumulatiivsed rakendused**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Teisisõnu, umbes 9 avalikku sõlme 10-st kasutab Bitcoin core. Ülejäänud võ
 
 
 
-**Märkus:** Need arvud on siiski hinnangulised, kuna need põhinevad peamiselt *kuulates sõlmedel*, st sõlmedel, mis võtavad vastu sissetulevaid ühendusi (avatud pordiga 8333). Mitte-kuulavaid sõlmi* on palju keerulisem arvutada, sest nendega ei ole võimalik otse ühendust luua: tuleb oodata, et algatus tuleb neilt, väljamineva ühenduse näol. Luke Dashjr'i sait väidab, et püüab ka neid *non-listening nodes* loendada, kuid täiesti täpseid andmeid nende kohta on endiselt võimatu saada ja nende statistika uuendamine jääb paratamatult tegelikkusele maha.
+**Märkus:** Need arvud on siiski hinnangulised, kuna need põhinevad peamiselt *kuulates sõlmedel*, st sõlmedel, mis võtavad vastu sissetulevaid ühendusi (avatud pordiga 8333). *Mitte-kuulavaid sõlmi* on palju keerulisem arvutada, sest nendega ei ole võimalik otse ühendust luua: tuleb oodata, et algatus tuleb neilt, väljamineva ühenduse näol. Luke Dashjr'i sait väidab, et püüab ka neid *non-listening nodes* loendada, kuid täiesti täpseid andmeid nende kohta on endiselt võimatu saada ja nende statistika uuendamine jääb paratamatult tegelikkusele maha.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core on kirjutatud C++ keeles. Samuti on tegemist avatud lähtekoodiga p
 
 
 
-- Kaastöötajad** esitavad ettepanekuid _väljaandmistaotluste_ (PR) vormis. Põhimõtteliselt võib igaüks teha muudatusettepaneku, kuid see peab olema testitud, dokumenteeritud ja läbima vastastikuse eksperdihinnangu.
+- **Kaastöötajad** esitavad ettepanekuid _väljaandmistaotluste_ (PR) vormis. Põhimõtteliselt võib igaüks teha muudatusettepaneku, kuid see peab olema testitud, dokumenteeritud ja läbima vastastikuse eksperdihinnangu.
 - **Hooldajatel** on õigus kiita ja ühendada PR-id. Nemad on need, kes tagavad projekti sidususe ja stabiilsuse. Juulis 2025 on neid viis: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao ja Ryan Ofsky.
 - Alates 2023. aasta veebruarist ei ole olnud **peaminevat hooldajat**. Seda rolli täitis algselt Satoshi Nakamoto Bitcoin käivitamisel, seejärel Gavin Andresen pärast Nakamoto lahkumist 2011. aasta alguses ja lõpuks Wladimir J. Van Der Laan aastatel 2014-2023.
 
@@ -446,9 +446,9 @@ Võime ka mainida:
 
 
 
-- Libbitcoin**: Amir Taaki poolt välja töötatud ja Eric Voskuili poolt hooldatud modulaarne C++ raamatukogu;
-- Bcoin**: JavaScripti rakendus, mida enam aktiivselt ei hooldata;
-- BTCD/btcsuit**e: rakendamine Go keeles.
+- **Libbitcoin**: Amir Taaki poolt välja töötatud ja Eric Voskuili poolt hooldatud modulaarne C++ raamatukogu;
+- **Bcoin**: JavaScripti rakendus, mida enam aktiivselt ei hooldata;
+- **BTCD/btcsuite**: rakendamine Go keeles.
 
 
 
@@ -590,7 +590,7 @@ Oluline aspekt, mida sageli valesti mõistetakse, on see, et sõlme käitamine v
 
 
 
-- Konsensusreeglid**:
+- **Konsensusreeglid**:
 
 
 
@@ -604,7 +604,7 @@ Nende reeglite muutmine on samaväärne protokolli ja seega ka valuuta muutmiseg
 
 
 
-- Releereeglid**:
+- **Releereeglid**:
 
 
 
@@ -616,7 +616,7 @@ Näiteks tehing, mille puhul ei ole tasusid, on konsensuseeskirjade kohaselt tä
 
 
 
-Oma sõlme keerutamine tähendab kinnitamist: "Ma kinnitan seda, mida ma valin kinnitada, vastavalt reeglitele, mille ma ise olen vastu võtnud "*. Seega muutute süsteemi juhtimises osalejaks, kes suudab tagasi lükata evolutsiooni, mis tundub teile vastuvõetamatu, või heaks kiita uuenduse vastavalt oma kriteeriumidele.
+Oma sõlme keerutamine tähendab kinnitamist: "Ma kinnitan seda, mida ma valin kinnitada, vastavalt reeglitele, mille ma ise olen vastu võtnud". Seega muutute süsteemi juhtimises osalejaks, kes suudab tagasi lükata evolutsiooni, mis tundub teile vastuvõetamatu, või heaks kiita uuenduse vastavalt oma kriteeriumidele.
 
 
 
@@ -882,8 +882,8 @@ On 2 võimalikku põhjust, miks valida Knotid Core'i asemel:
 
 
 
-- Tehnikad**: Erinevad võimalused Core'ist, eelkõige relee haldamise osas, määrates, milliseid tehinguid teie sõlme poolt aktsepteeritakse ja edastatakse.
-- Poliitika**: Mõned inimesed eelistavad kasutada alternatiivseid kliente, nagu Knots, mittetehnilistel põhjustel, eelkõige selleks, et toetada alternatiivi Core'ile ja seega vähendada selle monopoli. Kui Core peaks kunagi ohtu sattuma, oleks kasulik mitte ainult omada kindlaid, hästi hooldatud alternatiivseid kliente, vaid ka teada, kuidas neid tõhusalt kasutada. Teised kasutavad Knots'i protestiks, sest nad on kaotanud usalduse Core'i arendajate vastu või ei kiida heaks enamikku kliendi juhtimist.
+- **Tehnikad**: Erinevad võimalused Core'ist, eelkõige relee haldamise osas, määrates, milliseid tehinguid teie sõlme poolt aktsepteeritakse ja edastatakse.
+- **Poliitika**: Mõned inimesed eelistavad kasutada alternatiivseid kliente, nagu Knots, mittetehnilistel põhjustel, eelkõige selleks, et toetada alternatiivi Core'ile ja seega vähendada selle monopoli. Kui Core peaks kunagi ohtu sattuma, oleks kasulik mitte ainult omada kindlaid, hästi hooldatud alternatiivseid kliente, vaid ka teada, kuidas neid tõhusalt kasutada. Teised kasutavad Knots'i protestiks, sest nad on kaotanud usalduse Core'i arendajate vastu või ei kiida heaks enamikku kliendi juhtimist.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel võib jääda väga minimalistlikuks ja keskenduda ainult Bitcoin-le või
 
 
 
-- Lihtne Bitcoin-sõlm**: see on põhiline kasutusviis, millele Umbrel on algusest peale toetunud. Võite käivitada Bitcoin core (või Knots), ühendada oma rahakotid otse oma sõlme, paljastada Electrumi serveri, võõrustada oma Mempool Block explorer, et vaadata Blockchain ja hinnata tasusid... Need on need kasutusalad, millele me selles kursuses keskendume.
+- **Lihtne Bitcoin-sõlm**: see on põhiline kasutusviis, millele Umbrel on algusest peale toetunud. Võite käivitada Bitcoin core (või Knots), ühendada oma rahakotid otse oma sõlme, paljastada Electrumi serveri, võõrustada oma Mempool Block explorer, et vaadata Blockchain ja hinnata tasusid... Need on need kasutusalad, millele me selles kursuses keskendume.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel võib jääda väga minimalistlikuks ja keskenduda ainult Bitcoin-le või
 
 
 
-- Lightning Network**: LND või Core Lightning, mis on kaks Lightning Network rakendust, võimaldab teil ka oma Lightning-sõlme hallata. Tänu paljudele olemasolevatele rakendustele saate avada kanaleid, hallata oma likviidsust, teha makseid, automatiseerida tasakaalustamist, pakkuda teenuseid, ühendada kaugkasutatava Wallet või kasutada Interface täiustatud haldust. Seda konkreetset kasutusjuhtumit käsitleme meie järgmisel LNP 202 kursusel.
+- **Lightning Network**: LND või Core Lightning, mis on kaks Lightning Network rakendust, võimaldab teil ka oma Lightning-sõlme hallata. Tänu paljudele olemasolevatele rakendustele saate avada kanaleid, hallata oma likviidsust, teha makseid, automatiseerida tasakaalustamist, pakkuda teenuseid, ühendada kaugkasutatava Wallet või kasutada Interface täiustatud haldust. Seda konkreetset kasutusjuhtumit käsitleme meie järgmisel LNP 202 kursusel.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel võib jääda väga minimalistlikuks ja keskenduda ainult Bitcoin-le või
 
 
 
-- Üldine self-hosting**: Nextcloud, Immich, Jellyfin/Plex, DNS-ülesed reklaamblokeerijad (Pi-hole/AdGuard), VPN-id (WireGuard, Tailscale), koduautomaatika (Home Assistant), varukoopiad, märkmete haldamine, kontoritööriistad, kohalik AI (Ollama + Open WebUI)... Umbrel võib muutuda teie isiklikuks serveriks, mis võimaldab teil taastada kontrolli oma andmete üle. Te ise hostite teenuseid, mida kasutate iga päev, kasutades lihvitud kasutajakogemust, mis sarnaneb väga palju välistele lahendustele, säilitades samas täieliku kontrolli oma andmete ja privaatsuse üle.
+- **Üldine self-hosting**: Nextcloud, Immich, Jellyfin/Plex, DNS-ülesed reklaamblokeerijad (Pi-hole/AdGuard), VPN-id (WireGuard, Tailscale), koduautomaatika (Home Assistant), varukoopiad, märkmete haldamine, kontoritööriistad, kohalik AI (Ollama + Open WebUI)... Umbrel võib muutuda teie isiklikuks serveriks, mis võimaldab teil taastada kontrolli oma andmete üle. Te ise hostite teenuseid, mida kasutate iga päev, kasutades lihvitud kasutajakogemust, mis sarnaneb väga palju välistele lahendustele, säilitades samas täieliku kontrolli oma andmete ja privaatsuse üle.
 
 
 
@@ -1759,8 +1759,8 @@ Enne seadme taaskäivitamist kontrollige kahte järgmist punkti:
 
 
 
-- USB-mäluseade on lahti ühendatud**: kui see jääb ühendatuks, võib süsteem taaskäivituda siseketta asemel selle abil;
-- Ethernet-kaabel on ühendatud**: seade peab töötamiseks olema ühendatud ruuteriga.
+- **USB-mäluseade on lahti ühendatud**: kui see jääb ühendatuks, võib süsteem taaskäivituda siseketta asemel selle abil;
+- **Ethernet-kaabel on ühendatud**: seade peab töötamiseks olema ühendatud ruuteriga.
 
 
 
@@ -2285,9 +2285,9 @@ Seejärel avastate kolm võimalust oma tarkvara sidumiseks Bitcoin-sõlmega:
 
 
 
-- Avalik server* (kollane): vaikimisi, kui teil ei ole Bitcoin sõlme, ühendab see valik teid avaliku sõlme, mida te ei oma (tavaliselt ettevõtte). See valik ei ole siinkohal oluline, kuna teil on Umbrelil oma sõlme.
-- Bitcoin core* (Green): see valik vastab ühendusele Interface RPC kaudu, st otse Bitcoin core-ga.
-- Private Electrum* (sinine): see valik võimaldab teil luua ühenduse oma indekseerija Interface Electrumi serveri (Electrs või Fulcrum) kaudu.
+- **Avalik server** (kollane): vaikimisi, kui teil ei ole Bitcoin sõlme, ühendab see valik teid avaliku sõlme, mida te ei oma (tavaliselt ettevõtte). See valik ei ole siinkohal oluline, kuna teil on Umbrelil oma sõlme.
+- **Bitcoin core** (Green): see valik vastab ühendusele Interface RPC kaudu, st otse Bitcoin core-ga.
+- **Private Electrum** (sinine): see valik võimaldab teil luua ühenduse oma indekseerija Interface Electrumi serveri (Electrs või Fulcrum) kaudu.
 
 
 

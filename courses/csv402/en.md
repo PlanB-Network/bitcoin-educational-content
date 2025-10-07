@@ -928,7 +928,7 @@ This mechanism ensures that:
 
 #### Summary of the MPC structure
 
-Multi Protocol Commitment* (MPC) is the principle that enables RGB to aggregate multiple contracts into a single Bitcoin transaction, while maintaining the uniqueness of commitments and confidentiality vis-à-vis other participants. Thanks to the deterministic construction of the tree, each contract is assigned a unique position, and the presence of "dummy" leaves (*Entropy Leaves*) partially masks the total number of contracts participating in the transaction.
+**Multi Protocol Commitment** (MPC) is the principle that enables RGB to aggregate multiple contracts into a single Bitcoin transaction, while maintaining the uniqueness of commitments and confidentiality vis-à-vis other participants. Thanks to the deterministic construction of the tree, each contract is assigned a unique position, and the presence of "dummy" leaves (**Entropy Leaves**) partially masks the total number of contracts participating in the transaction.
 
 The entire Merkle tree is never stored on the client. We simply generate a _Merkle path_ for each contract concerned, to be transmitted to the recipient (who can then validate the commitment). In some cases, you may have several assets that have passed through the same UTXO. You can then merge several _Merkle paths_ into a so-called _multi-protocol commitment block_, to avoid duplicating too much data.
 
@@ -2897,7 +2897,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Here we see:
 
 
-- `rgb:`**: URL prefix;
+- **`rgb:`**: URL prefix;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT);
 - **rGB21**: interface for non-fungible assets (NFT);
 - `DbwzvSu-4BZU81jEp-...`: **an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...);**

@@ -3195,7 +3195,7 @@ $$
 Aho $G$ ari umugenzuzi w’umurongo w’uruzitiro ukoreshwa. Iyi nzira itanga urufunguzo rushasha rwa bose ruva ku rufunguzo rw’intango, mu gihe ruguma rufise imiterere y’ubuhinga bwo gukingira amakuru yemerera gukoreshwa.
 
 
-Niba udakeneye kwongerako izindi nyandiko (gukoresha gusa biciye mu nzira y'urufunguzo_), ushobora generate Taproot Address ishinzwe gusa ku rufunguzo rwa bose ruri mu burebure bwa 5 bwa Wallet yawe. Muri ivyo, birakenewe gukora inyandiko idashobora gukoreshwa ku _inzira y'inyandiko_, kugira ngo ushobore gushitsa ibisabwa n'imiterere. Ivyo bihinduka $t$ bica biharurwa hakoreshejwe igikorwa ca Hash, **`TapTweak`**, ku rufunguzo rwa bose rw'imbere $P$:
+Niba udakeneye kwongerako izindi nyandiko (gukoresha gusa biciye mu nzira y'urufunguzo), ushobora generate Taproot Address ishinzwe gusa ku rufunguzo rwa bose ruri mu burebure bwa 5 bwa Wallet yawe. Muri ivyo, birakenewe gukora inyandiko idashobora gukoreshwa ku **inzira y'inyandiko**, kugira ngo ushobore gushitsa ibisabwa n'imiterere. Ivyo bihinduka $t$ bica biharurwa hakoreshejwe igikorwa ca Hash, **`TapTweak`**, ku rufunguzo rwa bose rw'imbere $P$:
 
 
 

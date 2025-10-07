@@ -633,7 +633,7 @@ IP addresses can be assigned in two main ways:
 
 **IPv4** addresses are written in a **32-bit** format split into **four bytes**. Each byte contains 8 bits and represent a decimal number from 0 to 255. The 4 bytes are separated by dots to form a clear, legible notation.
 
-example: address 172.16.254.1_
+example: address 172.16.254.1
 
 
 ![Image](assets/fr/027.webp)
@@ -877,7 +877,7 @@ Finally, dynamic routing protocols include standards such as RIP (_Routing Infor
 
 ### Definition
 
-Network Address Translation_ (NAT) is a technique developed to address the gradual depletion of available IPv4 addresses. Designed as an interim solution before the widespread adoption of IPv6, NAT enabled companies and individuals to keep connecting large numbers of machines while using only a limited set of public IP addresses.
+Network Address Translation (NAT) is a technique developed to address the gradual depletion of available IPv4 addresses. Designed as an interim solution before the widespread adoption of IPv6, NAT enabled companies and individuals to keep connecting large numbers of machines while using only a limited set of public IP addresses.
 
 **Important reminder:** the move from IPv4 to IPv6 theoretically solves the exhaustion problem by expanding the address space from 32 bits to 128 bits, providing an almost unlimited number of addresses (2^128). In practice, however, the transition is still incomplete, and NAT remains widely used today.
 

@@ -388,9 +388,9 @@ Enligt [data som samlades in i augusti 2025 av Luke Dashjr](https://luke.dashjr.
 
 
 
-- Bitcoin core**: 87.3% av noderna
-- Bitcoin Knots**: 12.5
-- Andra kumulativa implementeringar**: 0.2% (btcsuite, Bcoin, BTCD ...)
+- **Bitcoin core**: 87.3% av noderna
+- **Bitcoin Knots**: 12.5
+- **Andra kumulativa implementeringar**: 0.2% (btcsuite, Bcoin, BTCD ...)
 
 
 
@@ -402,7 +402,7 @@ Med andra ord kör cirka 9 av 10 publika noder Bitcoin core. Resten av nätverke
 
 
 
-**Anmärkning:** Dessa siffror är dock fortfarande uppskattningar, eftersom de främst baseras på *lyssnande noder*, dvs. noder som accepterar inkommande anslutningar (med port 8333 öppen). Icke-lyssnande noder* är mycket mer komplicerade att räkna, eftersom det är omöjligt att ansluta till dem direkt: du måste vänta på att initiativet ska komma från dem, i form av en utgående anslutning. Luke Dashjrs webbplats påstår sig försöka räkna dessa *icke-lyssnande noder* också, men det är fortfarande omöjligt att få helt korrekta uppgifter om dem, och uppdateringen av denna statistik släpar oundvikligen efter verkligheten.
+**Anmärkning:** Dessa siffror är dock fortfarande uppskattningar, eftersom de främst baseras på *lyssnande noder*, dvs. noder som accepterar inkommande anslutningar (med port 8333 öppen). *Icke-lyssnande noder* är mycket mer komplicerade att räkna, eftersom det är omöjligt att ansluta till dem direkt: du måste vänta på att initiativet ska komma från dem, i form av en utgående anslutning. Luke Dashjrs webbplats påstår sig försöka räkna dessa *icke-lyssnande noder* också, men det är fortfarande omöjligt att få helt korrekta uppgifter om dem, och uppdateringen av denna statistik släpar oundvikligen efter verkligheten.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core är skrivet i C++. Det är också ett projekt med öppen källkod s
 
 
 
-- Bidragsgivare** skickar in förslag i form av _pull requests_ (PR). I princip kan vem som helst föreslå en ändring, men den måste testas, dokumenteras och genomgå en peer review-process.
+- **Bidragsgivare** skickar in förslag i form av _pull requests_ (PR). I princip kan vem som helst föreslå en ändring, men den måste testas, dokumenteras och genomgå en peer review-process.
 - **Underhållarna** har rätt att godkänna och sammanfoga PR:er. Det är de som garanterar att projektet är sammanhängande och stabilt. I juli 2025 finns det fem av dem: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao och Ryan Ofsky.
 - Det har inte funnits någon **principal underhållare** sedan februari 2023. Denna roll innehades ursprungligen av Satoshi Nakamoto vid lanseringen av Bitcoin, sedan av Gavin Andresen efter Nakamotos avgång i början av 2011, och slutligen av Wladimir J. Van Der Laan från 2014 till 2023.
 
@@ -446,9 +446,9 @@ Vi kan också nämna:
 
 
 
-- Libbitcoin**: ett modulärt C++-bibliotek som utvecklats av Amir Taaki och underhålls av Eric Voskuil;
-- Bcoin**: en JavaScript-implementering, som inte längre underhålls aktivt;
-- BTCD/btcsuit**e: en implementering i Go.
+- **Libbitcoin**: ett modulärt C++-bibliotek som utvecklats av Amir Taaki och underhålls av Eric Voskuil;
+- **Bcoin**: en JavaScript-implementering, som inte längre underhålls aktivt;
+- **BTCD/btcsuite**: en implementering i Go.
 
 
 
@@ -590,7 +590,7 @@ En viktig aspekt, som ofta missförstås, är att man genom att driva en nod kan
 
 
 
-- Samförstånd råder**:
+- **Samförstånd råder**:
 
 
 
@@ -604,7 +604,7 @@ Att ändra dessa regler är detsamma som att ändra protokollet och därmed valu
 
 
 
-- Stafettregler**:
+- **Stafettregler**:
 
 
 
@@ -616,7 +616,7 @@ Till exempel är en transaktion utan avgifter enligt konsensusreglerna helt gilt
 
 
 
-Att spinna sin egen nod innebär att hävda: "Jag validerar det jag väljer att validera, enligt de regler som jag själv har antagit"*. Du blir därmed en aktör i styrningen av systemet, och kan avvisa en utveckling som verkar oacceptabel för dig, eller godkänna en uppdatering enligt dina egna kriterier.
+Att spinna sin egen nod innebär att hävda: "Jag validerar det jag väljer att validera, enligt de regler som jag själv har antagit". Du blir därmed en aktör i styrningen av systemet, och kan avvisa en utveckling som verkar oacceptabel för dig, eller godkänna en uppdatering enligt dina egna kriterier.
 
 
 
@@ -882,8 +882,8 @@ Det finns två möjliga skäl till att välja Knots framför Core:
 
 
 
-- Tekniker**: Olika alternativ från Core, särskilt när det gäller relähantering, genom att bestämma vilka transaktioner som accepteras och sänds av din nod.
-- Policy**: En del människor föredrar att använda alternativa klienter som Knots av icke-tekniska skäl, framför allt för att stödja ett alternativ till Core och därmed minska dess monopol. Om Core någonsin skulle äventyras skulle det vara bra att inte bara ha solida, väl underhållna alternativa klienter utan också att veta hur man använder dem på ett effektivt sätt. Andra använder Knots i protestsyfte, eftersom de har tappat förtroendet för Core-utvecklarna eller ogillar majoriteten av klientens ledning.
+- **Tekniker**: Olika alternativ från Core, särskilt när det gäller relähantering, genom att bestämma vilka transaktioner som accepteras och sänds av din nod.
+- **Policy**: En del människor föredrar att använda alternativa klienter som Knots av icke-tekniska skäl, framför allt för att stödja ett alternativ till Core och därmed minska dess monopol. Om Core någonsin skulle äventyras skulle det vara bra att inte bara ha solida, väl underhållna alternativa klienter utan också att veta hur man använder dem på ett effektivt sätt. Andra använder Knots i protestsyfte, eftersom de har tappat förtroendet för Core-utvecklarna eller ogillar majoriteten av klientens ledning.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel kan förbli mycket minimalistisk och fokuserad enbart på Bitcoin, eller 
 
 
 
-- Enkel Bitcoin-nod**: detta är den grundläggande användningen som Umbrel har förlitat sig på från början. Du kan köra Bitcoin core (eller Knots), ansluta dina plånböcker direkt till din nod, exponera en Electrum-server, vara värd för din Mempool Block explorer för att visa Blockchain och uppskatta avgifter... Det är dessa användningsområden som vi kommer att fokusera på i den här kursen.
+- **Enkel Bitcoin-nod**: detta är den grundläggande användningen som Umbrel har förlitat sig på från början. Du kan köra Bitcoin core (eller Knots), ansluta dina plånböcker direkt till din nod, exponera en Electrum-server, vara värd för din Mempool Block explorer för att visa Blockchain och uppskatta avgifter... Det är dessa användningsområden som vi kommer att fokusera på i den här kursen.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel kan förbli mycket minimalistisk och fokuserad enbart på Bitcoin, eller 
 
 
 
-- Lightning Network**: Umbrel låter dig också distribuera LND eller Core Lightning, två implementeringar av Lightning Network, för att hantera din egen Lightning-nod. Du kommer att kunna öppna kanaler, hantera din likviditet, göra betalningar, automatisera balansering, erbjuda tjänster, ansluta en fjärransluten Wallet eller dra nytta av avancerad Interface-hantering tack vare de många tillgängliga applikationerna. Vi kommer att titta på detta specifika användningsfall i vår nästa LNP 202-kurs.
+- **Lightning Network**: Umbrel låter dig också distribuera LND eller Core Lightning, två implementeringar av Lightning Network, för att hantera din egen Lightning-nod. Du kommer att kunna öppna kanaler, hantera din likviditet, göra betalningar, automatisera balansering, erbjuda tjänster, ansluta en fjärransluten Wallet eller dra nytta av avancerad Interface-hantering tack vare de många tillgängliga applikationerna. Vi kommer att titta på detta specifika användningsfall i vår nästa LNP 202-kurs.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel kan förbli mycket minimalistisk och fokuserad enbart på Bitcoin, eller 
 
 
 
-- Allmän självhosting**: med Nextcloud, Immich, Jellyfin/Plex, DNS-breda annonsblockerare (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), hemautomation (Home Assistant), säkerhetskopiering, anteckningshantering, kontorsverktyg, lokal AI (Ollama + Open WebUI) ... Umbrel kan bli din personliga server, så att du kan återfå kontrollen över dina data. Du är själv värd för de tjänster du använder varje dag, med en polerad användarupplevelse som liknar externa lösningar, samtidigt som du behåller total kontroll över dina data och din integritet.
+- **Allmän självhosting**: med Nextcloud, Immich, Jellyfin/Plex, DNS-breda annonsblockerare (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), hemautomation (Home Assistant), säkerhetskopiering, anteckningshantering, kontorsverktyg, lokal AI (Ollama + Open WebUI) ... Umbrel kan bli din personliga server, så att du kan återfå kontrollen över dina data. Du är själv värd för de tjänster du använder varje dag, med en polerad användarupplevelse som liknar externa lösningar, samtidigt som du behåller total kontroll över dina data och din integritet.
 
 
 
@@ -1759,8 +1759,8 @@ Innan du startar om enheten ska du kontrollera följande två punkter:
 
 
 
-- USB-nyckeln är urkopplad**: om den förblir ansluten kan systemet starta om på den istället för på den interna disken;
-- Ethernet-kabeln är inkopplad**: enheten måste vara ansluten till routern för att fungera.
+- **USB-nyckeln är urkopplad**: om den förblir ansluten kan systemet starta om på den istället för på den interna disken;
+- **Ethernet-kabeln är inkopplad**: enheten måste vara ansluten till routern för att fungera.
 
 
 
@@ -2285,9 +2285,9 @@ Du kommer sedan att upptäcka tre alternativ för att länka din programvara til
 
 
 
-- Public Server* (gul): som standard, om du inte äger en Bitcoin-nod, ansluter det här alternativet dig till en offentlig nod som du inte äger (vanligtvis ett företags). Det här alternativet är inte relevant här, eftersom du har din egen nod på Umbrel.
-- Bitcoin core* (Green): detta alternativ motsvarar anslutning via Interface RPC, dvs. direkt till Bitcoin core.
-- Private Electrum* (blå): med det här alternativet kan du ansluta via din indexerares Interface Electrum Server (Electrs eller Fulcrum).
+- **Public Server** (gul): som standard, om du inte äger en Bitcoin-nod, ansluter det här alternativet dig till en offentlig nod som du inte äger (vanligtvis ett företags). Det här alternativet är inte relevant här, eftersom du har din egen nod på Umbrel.
+- **Bitcoin core** (Green): detta alternativ motsvarar anslutning via Interface RPC, dvs. direkt till Bitcoin core.
+- Private Electrum (blå): med det här alternativet kan du ansluta via din indexerares Interface Electrum Server (Electrs eller Fulcrum).
 
 
 
@@ -2971,7 +2971,7 @@ Blockchain är därför en samling block. En Full node lagrar dessa block som se
 
 
 
-**En omorganisering, eller resynkronisering, är ett fenomen där Blockchain genomgår en modifiering av sin struktur på grund av att det finns konkurrerande block på samma höjd. Detta sker när en del av Blockchain ersätts av en annan kedja med en större mängd ackumulerat arbete. Dessa resynkroniseringar är en naturlig del av Bitcoin:s verksamhet, där olika gruvarbetare kan hitta nya block nästan samtidigt och därmed dela Bitcoin-nätverket i två. I sådana fall kan nätverket tillfälligt delas upp i konkurrerande kedjor. Så småningom, när en av dessa kedjor ackumulerar mer arbete, överges de andra kedjorna av noderna och deras block blir kända som "föråldrade block" eller "föräldralösa block" Denna process, där en kedja ersätts med en annan, kallas resynkronisering.
+**En omorganisering, eller resynkronisering, är ett fenomen där Blockchain genomgår en modifiering av sin struktur på grund av att det finns konkurrerande block på samma höjd. Detta sker när en del av Blockchain ersätts av en annan kedja med en större mängd ackumulerat arbete. Dessa resynkroniseringar är en naturlig del av Bitcoin:s verksamhet, där olika gruvarbetare kan hitta nya block nästan samtidigt och därmed dela Bitcoin-nätverket i två. I sådana fall kan nätverket tillfälligt delas upp i konkurrerande kedjor. Så småningom, när en av dessa kedjor ackumulerar mer arbete, överges de andra kedjorna av noderna och deras block blir kända som "föråldrade block" eller "föräldralösa block". Denna process, där en kedja ersätts med en annan, kallas resynkronisering.**
 
 
 

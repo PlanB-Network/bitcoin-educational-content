@@ -90,8 +90,8 @@ _Bankasız Küresel Nüfus_
 
 > - _Bitcoin protokolü:_ Bitcoin'nin merkezi olmayan bir dijital para birimi olarak nasıl çalıştığını yöneten kurallar ve yapı.
 > - _Cypherpunk hareketi:_ Dijital alanlarda gizlilik ve özgürlüğü sağlamak için kriptografinin kullanılmasını savunan bir grup.
-> - finansal içerme:_ Geleneksel bankacılık sistemlerinden dışlanmış olan ve genellikle "bankasızlar" olarak adlandırılan kişilerin finansal hizmetlere erişiminin sağlanması
-> - sansürsüz para:_ Hükümetler veya finansal kurumlar tarafından kontrol edilemeyen veya kısıtlanamayan para.
+> - **finansal içerme:** Geleneksel bankacılık sistemlerinden dışlanmış olan ve genellikle "bankasızlar" olarak adlandırılan kişilerin finansal hizmetlere erişiminin sağlanması
+> - **sansürsüz para:** Hükümetler veya finansal kurumlar tarafından kontrol edilemeyen veya kısıtlanamayan para.
 
 #### Ricky'nin geçmişi ve Bitcoin savunuculuğu
 
@@ -118,7 +118,7 @@ Potansiyeline rağmen Bitcoin önemli zorluklarla karşı karşıyadır. Afrika 
 >
 
 > - _Özel anahtarlar:_ Bir kullanıcının Bitcoin'sine erişim sağlayan gizli kodlar.
-> - açık kaynak:_ Herkesin inceleyebileceği, değiştirebileceği ve geliştirebileceği yazılım.
+> - **açık kaynak:** Herkesin inceleyebileceği, değiştirebileceği ve geliştirebileceği yazılım.
 
 ### El Salvador örneği
 
@@ -161,7 +161,7 @@ Aynı zamanda, **Avusturya Ekonomisi** Bitcoin'nın parasal ilkelerinin temelini
 > **Tanım:**
 >
 
-> - kıtlık:_ Sınırlı bulunabilirlik, dikkatli tahsis ihtiyacı yoluyla değer yaratma.
+> - **kıtlık:** Sınırlı bulunabilirlik, dikkatli tahsis ihtiyacı yoluyla değer yaratma.
 
 ### Bitcoin'nin yaratılışı
 
@@ -172,7 +172,7 @@ Aynı zamanda, **Avusturya Ekonomisi** Bitcoin'nın parasal ilkelerinin temelini
 > **Tanım:**
 >
 
-> - sansüre dayanıklı:_ Dış güçler tarafından kontrol edilemeyen veya engellenemeyen para.
+> - **sansüre dayanıklı:** Dış güçler tarafından kontrol edilemeyen veya engellenemeyen para.
 
 #### Temel ekonomik ilkeler
 
@@ -186,7 +186,7 @@ Aynı zamanda, **Avusturya Ekonomisi** Bitcoin'nın parasal ilkelerinin temelini
 > **Tanımlar:**
 >
 
-> - zaman tercihi:_ Şimdiki mallara gelecektekilere kıyasla değer biçmek.
+> - zaman tercihi: Şimdiki mallara gelecektekilere kıyasla değer biçmek.
 > - _Kaydetmek:_ Gelecekte kullanmak üzere değer depolamak.
 
 ### El Salvador'da Bitcoin
@@ -260,8 +260,8 @@ Bitcoin, işlemleri güvence altına almak ve doğrulamak için **eliptik eğri 
 > **Tanımlar:**
 >
 
-> - i̇ş Kanıtı (PoW):_ Katılımcıların işlemleri doğrulamak ve ağı güvence altına almak için hesaplama bulmacalarını çözmeleri gereken bir sistem.
-> - eliptik Eğri Kriptografisi:_ Güvenli, verimli dijital imzalar sağlayan bir kriptografik yöntem.
+> - **İş Kanıtı (PoW):** Katılımcıların işlemleri doğrulamak ve ağı güvence altına almak için hesaplama bulmacalarını çözmeleri gereken bir sistem.
+> - **Eliptik Eğri Kriptografisi:** Güvenli, verimli dijital imzalar sağlayan bir kriptografik yöntem.
 
 ### Blockchain mekaniği ve işlem doğrulaması
 
@@ -281,7 +281,7 @@ Blockchain'teki her **blok** bir **başlık** (bir önceki bloğun Hash'si gibi 
 > **Tanımlar:**
 >
 
-> - madencilik:_ Blockchain'e yeni bloklar eklemek için kriptografik bulmacaları çözme süreci.
+> - **madencilik:** Blockchain'e yeni bloklar eklemek için kriptografik bulmacaları çözme süreci.
 > - _Nonce:_ Mining sırasında doğru Hash'yi bulmak için kullanılan bir değer.
 > - _Mempool:_ Bir bloğa eklenmeden önce onaylanmamış işlemler için bir bekleme alanı.
 
@@ -334,7 +334,7 @@ Sıklıkla yapılan bir yanlış anlama, **Bitcoin** ve **Blockchain**'ün aynı
 > **Tanımlar:**
 >
 
-> - blockchain:_ İşlemleri merkezi olmayan, değişmez bir Ledger'ye kaydetmek için kullanılan temel teknoloji.
+> - **blockchain:** İşlemleri merkezi olmayan, değişmez bir Ledger'ye kaydetmek için kullanılan temel teknoloji.
 > - _Lightning Network:_ off-chain işlemlerini etkinleştirerek Bitcoin'un işlem verimliliğini artıran ikinci bir Layer çözümü.
 
 ### Bitcoin vs. Kripto
@@ -346,7 +346,7 @@ Bir diğer önemli ayrım ise **Bitcoin**'nin herhangi bir şirket veya hüküme
 > **Tanımlar:**
 >
 
-> - shitcoins:_ Shitcoins, gerçek faydadan yoksun, düşük değerli veya şüpheli kalitede kripto para birimleridir. Genellikle son derece spekülatiftirler ve bazen kripto para piyasasındaki patlamadan faydalanarak dolandırıcılık amacıyla veya net bir amaç olmaksızın yaratılırlar.
+> - **shitcoins:** Shitcoins, gerçek faydadan yoksun, düşük değerli veya şüpheli kalitede kripto para birimleridir. Genellikle son derece spekülatiftirler ve bazen kripto para piyasasındaki patlamadan faydalanarak dolandırıcılık amacıyla veya net bir amaç olmaksızın yaratılırlar.
 
 ![Image](assets/en/05.webp)
 
@@ -377,7 +377,7 @@ Bitcoin genellikle suç faaliyetlerinde kullanıldığı için eleştirilmektedi
 > **Tanımlar:**
 >
 
-> - değişebilirlik:_ Her birimin bir diğeriyle değiştirilebilir olduğu ve eşit değer sağladığı para özelliği.
+> - **değişebilirlik:** Her birimin bir diğeriyle değiştirilebilir olduğu ve eşit değer sağladığı para özelliği.
 
 ### FUD ve pazar dinamiklerinin ele alınması
 

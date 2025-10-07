@@ -830,7 +830,7 @@ Alice은 채널을 통해 **40,000개의 사토시**를 Bob로 전송합니다:
 
 - 채널 **Alice - Suzie**: 기본 요금 1Satoshi, Alice의 경우 1ppm입니다.
 - 채널 **수지 - 캐롤**: 기본 요금 0Satoshi, 수지의 경우 200ppm입니다.
-- Carol - Bob** 채널: 기본 요금 1Satoshi, 수지 2의 경우 1ppm.
+- **Carol - Bob** 채널: 기본 요금 1Satoshi, 수지 2의 경우 1ppm.
 
 ![LNP201](assets/en/43.webp)
 

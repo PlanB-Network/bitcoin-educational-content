@@ -2018,7 +2018,7 @@ Come P2PK, lo script P2PKH è stato introdotto al lancio di Bitcoin. A differenz
 
 **P2SH (_Pay-to-Script-Hash_)**:
 
-Introdotta nel 2012 con il BIP16, il modello P2SH prevede nello_scriptPubKey_ l'uso dell'hash di uno script arbitrario. L'hash di questo script, chiamato "_redeemScript_", contiene le condizioni per sbloccare i fondi. Per spendere un UTXO bloccato con P2SH, è necessario fornire uno _scriptSig_ contenente il _redeemScript_ originale, così come i dati necessari per validarlo. Questo modello è principalmente utilizzato per vecchi multisig. Gli indirizzi associati a P2SH iniziano con `3` e sono codificati in _base58check_. Anche questo script appartiene anche allo standard "_Legacy_".
+Introdotta nel 2012 con il BIP16, il modello P2SH prevede nello _scriptPubKey_ l'uso dell'hash di uno script arbitrario. L'hash di questo script, chiamato _redeemScript_, contiene le condizioni per sbloccare i fondi. Per spendere un UTXO bloccato con P2SH, è necessario fornire uno _scriptSig_ contenente il _redeemScript_ originale, così come i dati necessari per validarlo. Questo modello è principalmente utilizzato per vecchi multisig. Gli indirizzi associati a P2SH iniziano con `3` e sono codificati in _base58check_. Anche questo script appartiene allo standard _Legacy_.
 
 **P2WPKH (_Pay-to-Witness-PubKey-Hash_)**:
 

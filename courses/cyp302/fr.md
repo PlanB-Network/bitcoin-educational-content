@@ -1892,7 +1892,7 @@ Il y a environ 2 500 ans, le mathématicien grec Euclide d'Alexandrie a découve
 
 La seconde partie de cette affirmation signifie simplement que vous pouvez prendre n'importe quel entier non premier $N$ supérieur à 1, et l'écrire comme une multiplication de nombres premiers. Voici plusieurs exemples d'entiers non premiers écrits comme produit de facteurs premiers.
 
-* $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
+$18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
 $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
 * $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
@@ -1921,7 +1921,7 @@ Cela dépend vraiment de $N$. Supposons, par exemple, que $N$ soit égal à 50 4
 **7 : 1 001** ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)
 *7 : 143* ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
 *11 : 13* ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
-* Comme 13 est un nombre premier, le résultat est $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
+**Comme 13 est un nombre premier, le résultat est $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.**
 
 Réaliser cette décomposition en facteurs premiers à la main prend un certain temps. Un ordinateur, bien sûr, pourrait effectuer tous ces calculs en une fraction de seconde. En fait, un ordinateur peut fréquemment factoriser des entiers extrêmement grands en une fraction de seconde.
 
@@ -2175,6 +2175,5 @@ Cependant, en ajoutant une certaine complexité astucieuse, le problème RSA peu
 ## Conclusion
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

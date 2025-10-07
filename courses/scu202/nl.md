@@ -3541,7 +3541,7 @@ Zelfs als automatische updates zijn ingeschakeld op je systeem, is het nog steed
 
 
 
-- Windows*-besturingssysteem
+- **Windows**-besturingssysteem
 
 
 
@@ -3565,7 +3565,7 @@ Vergeet niet om in hetzelfde menu te controleren of er optionele updates zijn.
 
 
 
-- Linux*-besturingssysteem
+- **Linux**-besturingssysteem
 
 
 
@@ -8606,4 +8606,3 @@ Door deze paar stappen te volgen, bouw je een robuuste, veilige netwerkomgeving 
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-

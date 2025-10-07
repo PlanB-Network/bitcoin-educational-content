@@ -388,9 +388,9 @@ Według [danych zebranych w sierpniu 2025 r. przez Luke'a Dashjra](https://luke.
 
 
 
-- Bitcoin core**: 87.3% węzłów
-- Bitcoin Knots**: 12.5
-- Inne skumulowane wdrożenia**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% węzłów
+- **Bitcoin Knots**: 12.5
+- **Inne skumulowane wdrożenia**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Innymi słowy, około 9 na 10 węzłów publicznych korzysta z Bitcoin core. Res
 
 
 
-**Uwaga:** Liczby te są jednak nadal szacunkowe, ponieważ opierają się głównie na *węzłach nasłuchujących*, tj. węzłach akceptujących połączenia przychodzące (z otwartym portem 8333). Węzły niesłuchające* są znacznie bardziej skomplikowane do policzenia, ponieważ nie można się z nimi połączyć bezpośrednio: trzeba czekać na inicjatywę z ich strony, w postaci połączenia wychodzącego. Witryna Luke'a Dashjra twierdzi, że próbuje policzyć również te *węzły niesłuchające*, ale nadal niemożliwe jest uzyskanie idealnie dokładnych danych na ich temat, a aktualizacja tych statystyk nieuchronnie pozostaje w tyle za rzeczywistością.
+**Uwaga:** Liczby te są jednak nadal szacunkowe, ponieważ opierają się głównie na *węzłach nasłuchujących*, tj. węzłach akceptujących połączenia przychodzące (z otwartym portem 8333). *Węzły niesłuchające* są znacznie bardziej skomplikowane do policzenia, ponieważ nie można się z nimi połączyć bezpośrednio: trzeba czekać na inicjatywę z ich strony, w postaci połączenia wychodzącego. Witryna Luke'a Dashjra twierdzi, że próbuje policzyć również te *węzły niesłuchające*, ale nadal niemożliwe jest uzyskanie idealnie dokładnych danych na ich temat, a aktualizacja tych statystyk nieuchronnie pozostaje w tyle za rzeczywistością.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core jest napisany w języku C++. Jest to również projekt open source,
 
 
 
-- Współtwórcy** przesyłają propozycje w formie _pull requests_ (PR). Zasadniczo każdy może zaproponować zmianę, ale musi ona zostać przetestowana, udokumentowana i przejść przez proces wzajemnej weryfikacji.
+- **Współtwórcy** przesyłają propozycje w formie _pull requests_ (PR). Zasadniczo każdy może zaproponować zmianę, ale musi ona zostać przetestowana, udokumentowana i przejść przez proces wzajemnej weryfikacji.
 - **Opiekunowie** mają prawo do zatwierdzania i łączenia PR-ów. To oni gwarantują spójność i stabilność projektu. W lipcu 2025 roku jest ich pięciu: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao i Ryan Ofsky.
 - Od lutego 2023 r. nie było **głównego opiekuna**. Rolę tę początkowo pełnił Satoshi Nakamoto w momencie uruchomienia Bitcoin, następnie Gavin Andresen po odejściu Nakamoto na początku 2011 roku, a ostatecznie Wladimir J. Van Der Laan od 2014 do 2023 roku.
 
@@ -446,9 +446,9 @@ Możemy również wspomnieć:
 
 
 
-- Libbitcoin**: modułowa biblioteka C++ opracowana przez Amira Taaki i utrzymywana przez Erica Voskuila;
-- Bcoin**: implementacja JavaScript, która nie jest już aktywnie utrzymywana;
-- BTCD/btcsuit**e: implementacja w Go.
+- **Libbitcoin**: modułowa biblioteka C++ opracowana przez Amira Taaki i utrzymywana przez Erica Voskuila;
+- **Bcoin**: implementacja JavaScript, która nie jest już aktywnie utrzymywana;
+- **BTCD/btcsuite**: implementacja w Go.
 
 
 
@@ -590,7 +590,7 @@ Ważnym aspektem, często źle rozumianym, jest to, że obsługa węzła pozwala
 
 
 
-- Zasady konsensusu**:
+- **Zasady konsensusu**:
 
 
 
@@ -604,7 +604,7 @@ Zmiana tych zasad jest równoznaczna ze zmianą protokołu, a tym samym waluty (
 
 
 
-- Zasady sztafety**:
+- **Zasady sztafety**:
 
 
 
@@ -616,7 +616,7 @@ Na przykład transakcja bez opłat jest, zgodnie z zasadami konsensusu, całkowi
 
 
 
-Kręcenie własnym węzłem oznacza stwierdzenie: "Zatwierdzam to, co zdecyduję się zatwierdzić, zgodnie z zasadami, które sam przyjąłem "*. W ten sposób stajesz się aktorem w zarządzaniu systemem, zdolnym do odrzucenia ewolucji, która wydaje ci się nie do przyjęcia, lub do zatwierdzenia aktualizacji zgodnie z własnymi kryteriami.
+Kręcenie własnym węzłem oznacza stwierdzenie: "Zatwierdzam to, co zdecyduję się zatwierdzić, zgodnie z zasadami, które sam przyjąłem". W ten sposób stajesz się aktorem w zarządzaniu systemem, zdolnym do odrzucenia ewolucji, która wydaje ci się nie do przyjęcia, lub do zatwierdzenia aktualizacji zgodnie z własnymi kryteriami.
 
 
 
@@ -882,8 +882,8 @@ Istnieją 2 możliwe powody, dla których warto wybrać Knots zamiast Core:
 
 
 
-- Techniki**: Różne opcje od Core, szczególnie w zakresie zarządzania przekaźnikami, poprzez określenie, które transakcje są akceptowane i transmitowane przez węzeł.
-- Polityka**: Niektórzy ludzie wolą używać alternatywnych klientów, takich jak Knots, z powodów nietechnicznych, zwłaszcza w celu wspierania alternatywy dla Core, a tym samym zmniejszenia jego monopolu. Jeśli Core zostałby kiedykolwiek skompromitowany, przydatne byłoby nie tylko posiadanie solidnych, dobrze utrzymanych alternatywnych klientów, ale także wiedza, jak skutecznie z nich korzystać. Inni używają Knots w celach protestacyjnych, ponieważ stracili zaufanie do programistów Core lub nie akceptują większości kierownictwa klienta.
+- **Techniki**: Różne opcje od Core, szczególnie w zakresie zarządzania przekaźnikami, poprzez określenie, które transakcje są akceptowane i transmitowane przez węzeł.
+- **Polityka**: Niektórzy ludzie wolą używać alternatywnych klientów, takich jak Knots, z powodów nietechnicznych, zwłaszcza w celu wspierania alternatywy dla Core, a tym samym zmniejszenia jego monopolu. Jeśli Core zostałby kiedykolwiek skompromitowany, przydatne byłoby nie tylko posiadanie solidnych, dobrze utrzymanych alternatywnych klientów, ale także wiedza, jak skutecznie z nich korzystać. Inni używają Knots w celach protestacyjnych, ponieważ stracili zaufanie do programistów Core lub nie akceptują większości kierownictwa klienta.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1112,7 +1112,7 @@ Możliwe jest również znalezienie używanych komputerów PC i laptopów sprzed
 
 
 
-**Uwaga: *Urządzenia z flot korporacyjnych, takie jak *ThinkCentre Tiny*, są często wyposażone tylko w port *DisplayPort* (DP) dla ekranu, bez wyjścia HDMI. Nie zapomnij więc zabrać ze sobą adaptera lub kabla DP-HDMI, jeśli go potrzebujesz.
+**Uwaga: Urządzenia z flot korporacyjnych, takie jak *ThinkCentre Tiny*, są często wyposażone tylko w port *DisplayPort* (DP) dla ekranu, bez wyjścia HDMI. Nie zapomnij więc zabrać ze sobą adaptera lub kabla DP-HDMI, jeśli go potrzebujesz.**
 
 
 
@@ -1477,7 +1477,7 @@ Umbrel może pozostać bardzo minimalistyczny i skupiać się wyłącznie na Bit
 
 
 
-- Prosty węzeł Bitcoin**: jest to podstawowe zastosowanie, na którym Umbrel opierał się od samego początku. Możesz uruchomić Bitcoin core (lub Knots), podłączyć portfele bezpośrednio do węzła, wystawić serwer Electrum, hostować Mempool Block explorer, aby wyświetlić Blockchain i oszacować opłaty... To właśnie na tych zastosowaniach skupimy się w tym kursie.
+- **Prosty węzeł Bitcoin**: jest to podstawowe zastosowanie, na którym Umbrel opierał się od samego początku. Możesz uruchomić Bitcoin core (lub Knots), podłączyć portfele bezpośrednio do węzła, wystawić serwer Electrum, hostować Mempool Block explorer, aby wyświetlić Blockchain i oszacować opłaty... To właśnie na tych zastosowaniach skupimy się w tym kursie.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel może pozostać bardzo minimalistyczny i skupiać się wyłącznie na Bit
 
 
 
-- Lightning Network**: Umbrel umożliwia również wdrożenie LND lub Core Lightning, dwóch implementacji Lightning Network, do zarządzania własnym węzłem Lightning. Będziesz mógł otwierać kanały, zarządzać płynnością, dokonywać płatności, automatyzować bilansowanie, oferować usługi, łączyć zdalny Wallet lub korzystać z zaawansowanego zarządzania Interface dzięki wielu dostępnym aplikacjom. Przyjrzymy się temu konkretnemu przypadkowi użycia w naszym następnym kursie LNP 202.
+- **Lightning Network**: Umbrel umożliwia również wdrożenie LND lub Core Lightning, dwóch implementacji Lightning Network, do zarządzania własnym węzłem Lightning. Będziesz mógł otwierać kanały, zarządzać płynnością, dokonywać płatności, automatyzować bilansowanie, oferować usługi, łączyć zdalny Wallet lub korzystać z zaawansowanego zarządzania Interface dzięki wielu dostępnym aplikacjom. Przyjrzymy się temu konkretnemu przypadkowi użycia w naszym następnym kursie LNP 202.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel może pozostać bardzo minimalistyczny i skupiać się wyłącznie na Bit
 
 
 
-- Ogólny self-hosting**: z Nextcloud, Immich, Jellyfin/Plex, blokerami reklam w całym DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), automatyką domową (Home Assistant), kopiami zapasowymi, zarządzaniem notatkami, narzędziami biurowymi, lokalną AI (Ollama + Open WebUI)... Umbrel może stać się Twoim osobistym serwerem, pozwalając Ci odzyskać kontrolę nad Twoimi danymi. Sam hostujesz usługi, z których korzystasz na co dzień, z dopracowanym doświadczeniem użytkownika, które bardzo przypomina rozwiązania zewnętrzne, zachowując pełną kontrolę nad swoimi danymi i prywatnością.
+- **Ogólny self-hosting**: z Nextcloud, Immich, Jellyfin/Plex, blokerami reklam w całym DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), automatyką domową (Home Assistant), kopiami zapasowymi, zarządzaniem notatkami, narzędziami biurowymi, lokalną AI (Ollama + Open WebUI)... Umbrel może stać się Twoim osobistym serwerem, pozwalając Ci odzyskać kontrolę nad Twoimi danymi. Sam hostujesz usługi, z których korzystasz na co dzień, z dopracowanym doświadczeniem użytkownika, które bardzo przypomina rozwiązania zewnętrzne, zachowując pełną kontrolę nad swoimi danymi i prywatnością.
 
 
 
@@ -1713,7 +1713,7 @@ Po uruchomieniu urządzenia z pamięci USB, zostaniesz powitany przez instalacj�
 
 
 
-Na wyświetlonym ekranie wyświetlona zostanie lista wszystkich wewnętrznych urządzeń pamięci masowej wykrytych przez komputer. Każdemu dyskowi towarzyszy numer, nazwa i pojemność. Zlokalizuj dysk, na którym chcesz zainstalować Umbrel. **Ostrzeżenie: wszystkie pliki na tym dysku zostaną trwale usunięte
+Na wyświetlonym ekranie wyświetlona zostanie lista wszystkich wewnętrznych urządzeń pamięci masowej wykrytych przez komputer. Każdemu dyskowi towarzyszy numer, nazwa i pojemność. Zlokalizuj dysk, na którym chcesz zainstalować Umbrel. **Ostrzeżenie: wszystkie pliki na tym dysku zostaną trwale usunięte**
 
 
 
@@ -1759,8 +1759,8 @@ Przed ponownym uruchomieniem urządzenia należy sprawdzić następujące dwa pu
 
 
 
-- Klucz USB jest odłączony**: jeśli pozostanie podłączony, system może uruchomić się ponownie na nim zamiast na dysku wewnętrznym;
-- Kabel Ethernet jest podłączony**: urządzenie musi być podłączone do routera, aby działać.
+- **Klucz USB jest odłączony**: jeśli pozostanie podłączony, system może uruchomić się ponownie na nim zamiast na dysku wewnętrznym;
+- **Kabel Ethernet jest podłączony**: urządzenie musi być podłączone do routera, aby działać.
 
 
 
@@ -2285,9 +2285,9 @@ Następnie odkryjesz trzy opcje łączenia oprogramowania z węzłem Bitcoin:
 
 
 
-- Serwer publiczny* (żółty): domyślnie, jeśli nie posiadasz węzła Bitcoin, ta opcja łączy cię z węzłem publicznym, którego nie posiadasz (zwykle firmy). Ta opcja nie jest tutaj istotna, ponieważ masz własny węzeł na Umbrel.
-- Bitcoin core* (Green): ta opcja odpowiada połączeniu przez Interface RPC, tj. bezpośrednio z Bitcoin core.
-- Private Electrum* (niebieski): ta opcja umożliwia połączenie za pośrednictwem serwera Electrum Interface indeksera (Electrs lub Fulcrum).
+- **Serwer publiczny** (żółty): domyślnie, jeśli nie posiadasz węzła Bitcoin, ta opcja łączy cię z węzłem publicznym, którego nie posiadasz (zwykle firmy). Ta opcja nie jest tutaj istotna, ponieważ masz własny węzeł na Umbrel.
+- **Bitcoin core** (Green): ta opcja odpowiada połączeniu przez Interface RPC, tj. bezpośrednio z Bitcoin core.
+- Private Electrum (niebieski): ta opcja umożliwia połączenie za pośrednictwem serwera Electrum Interface indeksera (Electrs lub Fulcrum).
 
 
 

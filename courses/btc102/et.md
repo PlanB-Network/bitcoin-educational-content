@@ -736,7 +736,7 @@ Bitcoin on sageli ümbritsetud populaarsete väärarusaamadega; üks levinumaid 
 
 
 
-- Kauplemine :**
+- Kauplemine:
 
 
 Olgem ausad: **sa ei peaks ilmselt kauplema.**
@@ -3619,7 +3619,6 @@ Veel kord, õnnitlen teid selle puhul, kui kaugele te olete jõudnud. Ja pidage 
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

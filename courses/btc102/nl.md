@@ -51,9 +51,9 @@ Daarna zullen we uitleggen waarom Bitcoin fundamenteel belangrijk is vanuit tech
 
 Het derde deel, "Jouw plan opstellen", richt zich op je persoonlijke benadering van Bitcoin. We beginnen met het definiëren van jouw gebruikersprofiel uit vier hoofdcategorieën:
 
-- de hodler*, gericht op het vasthouden van Bitcoin op de lange termijn;
+- de **hodler**, gericht op het vasthouden van Bitcoin op de lange termijn;
 - de **stapelaar**, die regelmatig en methodisch inkoopt;
-- de gebruiker*, die prioriteit geeft aan het dagelijks gebruik van Bitcoin;
+- de gebruiker, die prioriteit geeft aan het dagelijks gebruik van Bitcoin;
 - en tot slot *de paranoïde*, die maximale beveiliging wil om zijn bezittingen en privacy effectief te beschermen.
 
 We begeleiden je bij het implementeren van een strategie die past bij jouw profiel en die je helpt om je persoonlijke doelen te bereiken.
@@ -2530,5 +2530,4 @@ Nogmaals gefeliciteerd met hoe ver je bent gekomen. En onthoud: mijn hoofddoel z
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 

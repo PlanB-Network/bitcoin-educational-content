@@ -600,9 +600,9 @@ Det finns tre huvudsakliga sätt att stänga den här kanalen, som kan kallas **
 
 
 
-- Det goda**: den **samarbetsinriktade stängningen**, där Alice och Bob kommer överens om att stänga kanalen.
+- Det goda: den **samarbetsinriktade stängningen**, där Alice och Bob kommer överens om att stänga kanalen.
 - Det dåliga: den **tvingade stängningen**, där en av parterna beslutar att stänga kanalen ärligt, men utan den andras samtycke.
-- Det fula**: **avslut med fusk**, där en av parterna försöker stjäla medel genom att publicera en gammal Commitment Transaction (vilken som helst, men inte den sista, som återspeglar den faktiska och rättvisa fördelningen av medel).
+- Det **fula avslut med fusk**, där en av parterna försöker stjäla medel genom att publicera en gammal Commitment Transaction (vilken som helst, men inte den sista, som återspeglar den faktiska och rättvisa fördelningen av medel).
 
 
 Låt oss ta ett exempel:

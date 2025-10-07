@@ -748,7 +748,7 @@ Idealerweise sollte für diese Übungen ein professionelles Blockchain-Analyse-T
 
 Zu Beginn stelle ich Ihnen die Übungen vor. Benutzen Sie Ihren Block-Explorer, um sie auszufüllen, und notieren Sie Ihre Antworten auf einem Blatt Papier. Am Ende dieses Kapitels gebe ich Ihnen dann die Antworten, damit Sie Ihre Ergebnisse überprüfen und korrigieren können.
 
-*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen.
+*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen.*
 
 ### Übung 1
 
@@ -1026,7 +1026,7 @@ ___
 
 
 - *[Gilles Cadignan](https://twitter.com/gillesCadignan);*
-- *[Ludovic Lars](https://viresinnumeris.fr/)
+- **[Ludovic Lars](https://viresinnumeris.fr/)**
 
 # Bewährte Praktiken zum Schutz Ihrer Privatsphäre beherrschen
 
@@ -3940,8 +3940,8 @@ Mit dieser Methode erhalten wir allmählich ein gutes Protokoll, aber es gibt no
 
 Wie wir in den vorangegangenen Abschnitten gesehen haben, verwendet Alice das Schlüsselpaar, mit dem sie ihr UTXO sichert, um das gemeinsame ECDH-Geheimnis mit Bob zu berechnen. Dieses Geheimnis ermöglicht es ihr, die eindeutige Adresse $P_0$ abzuleiten. Das von Alice verwendete Schlüsselpaar ($a$, $A$) kann jedoch mehrere UTXOs sichern, wenn sie diese Adresse mehrmals verwendet hat. Falls Alice zwei Zahlungen an Bobs statische Adresse $B$ unter Verwendung von zwei UTXOs vornimmt, die mit demselben Schlüssel $A$ gesichert sind, würde dies zu einer Adresswiederverwendung für Bob führen.
 
-> *Die Wiederverwendung von Adressen ist eine sehr schlechte Praxis im Hinblick auf die Vertraulichkeit der Benutzer. Um herauszufinden, warum, empfehle ich Ihnen, die ersten Teile dieses Kurses zu lesen
-Da die eindeutige Adresse $P_0$ aus $A$ und $B$ abgeleitet wird, landet Alice, wenn sie eine zweite Adresse für eine zweite Zahlung an $B$ mit demselben Schlüssel $A$ ableitet, bei genau der gleichen Adresse $P_0$.*
+> *Die Wiederverwendung von Adressen ist eine sehr schlechte Praxis im Hinblick auf die Vertraulichkeit der Benutzer. Um herauszufinden, warum, empfehle ich Ihnen, die ersten Teile dieses Kurses zu lesen*
+Da die eindeutige Adresse $P_0$ aus $A$ und $B$ abgeleitet wird, landet Alice, wenn sie eine zweite Adresse für eine zweite Zahlung an $B$ mit demselben Schlüssel $A$ ableitet, bei genau der gleichen Adresse $P_0$.
 
 Um dieses Risiko zu vermeiden und die Wiederverwendung von Adressen innerhalb von Silent Payments zu verhindern, müssen wir unsere Berechnungen ein wenig abändern.
 

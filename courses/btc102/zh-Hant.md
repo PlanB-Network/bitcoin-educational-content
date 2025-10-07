@@ -758,7 +758,7 @@ Bitcoin 並不是一個快速致富的計劃。
 
 
 
-- 保持 (HODL) :**
+- 保持 (HODL)：
 
 
 "HODL 「最初是 」hold "的錯字，後來迅速成為 Bitcoin 文化的一部分。如今，它已成為一種榮譽徽章。
@@ -2597,7 +2597,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 
 
-- 透過採用**來支援 Bitcoin 生態系統：
+- 透過採用**來支援 Bitcoin 生態系統**：
 
 The line appears to be incomplete. The ** marker is opened but not closed, and there seems to be missing text after "採用". To properly fix this, I would need the complete intended text. However, based on the current content, here's the corrected version:
 
@@ -3095,7 +3095,7 @@ Bitcoin 通訊協定、Lightning Network 及相關工具不斷演進。偏執的
 - **獨立**：您拒絕依賴任何第三方服務來儲存、管理或轉移您的比特幣。您準備托管自己的 Bitcoin 和 Lightning 節點，使用複雜的錢包，並負起管理備份和私密金鑰的全部責任。
 - **不信任**：您主動避開 KYC 平台，並偏好匿名的 P2P 獲取方式，即使這意味著要為此支付高價。您了解任何分享的個人資料有一天都可能會被用來對付您。
 - 知識淵博、紀律嚴謹：您對網路安全和加強隱私權的技術充滿熱情。您會花時間研究可用的解決方案、測試工具、進行最佳實務教育，並應用嚴格的方法將風險降至最低。
-- 務實與現實**:您了解完全匿名幾乎是不可能的，但您會努力在平衡隱私、安全性與可用性的同時，盡可能降低您的曝光率。您的方法會因應新的威脅和技術發展而不斷演進。
+- **務實與現實**:您了解完全匿名幾乎是不可能的，但您會努力在平衡隱私、安全性與可用性的同時，盡可能降低您的曝光率。您的方法會因應新的威脅和技術發展而不斷演進。
 
 
 如果這些特徵聽起來很熟悉，這個策略很可能很適合您。它的要求很高，需要持續努力，但它提供了高度的財務主權和保護，使您的資金不被監控、扣押或追蹤。
@@ -3282,7 +3282,7 @@ Pamela Morgan 在她的*[Cryptoasset Inheritance Planning](https://www.amazon.co
 
 
 - Exchange 平台：與您 Bitcoin 購物連結的 BTC 或法幣帳戶。
-- Hot 錢包（手機或桌上型電腦）**：安裝在手機上的應用程式，用於日常交易；
+- Hot 錢包（手機或桌上型電腦）：安裝在手機上的應用程式，用於日常交易；
 - **硬體錢包**：可離線儲存私人密碼匙的實體裝置；
 - 其他解決方案：Multisig、紙錢包、特別儲存的私人金鑰等。
 
@@ -3623,7 +3623,6 @@ Bitcoin 不只是一個財務工具，更是一個運動。根據您的技能和
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

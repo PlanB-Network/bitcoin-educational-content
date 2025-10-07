@@ -245,7 +245,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**WAT IS LIGHTNING?
+**WHAT IS LIGHTNING?**
 
 Het Lightning Network is **een protocol en een netwerk** dat Bitcoin transacties mogelijke maakt met minimale interactie met Bitcoin's hoofdblockchain. Zo werkt het:
 
@@ -542,7 +542,7 @@ Laten we niet vergeten dat de relatief lage totale marktkapitalisatie,vergeleken
 
 ### De beslissing om bedrijfsreserves in Bitcoin te alloceren
 
-Het **beslissingsproces** omtrent het investeren in Bitcoin wordt sterk beïnvloed door je positie binnen het bedrijf. Als je een **meerderheidsaandeelhouder** bent, staat het je vrij** om overtollige kasmiddelen naar eigen inzicht toe te wijzen. Omgekeerd geldt ook dat, als je een partner of aandeelhouder bent binnen een collectieve besluitvormingsstructuur, je gezamenlijk moet overleggen, wat de zaken kan compliceren.
+Het **beslissingsproces** omtrent het investeren in Bitcoin wordt sterk beïnvloed door je positie binnen het bedrijf. Als je een **meerderheidsaandeelhouder** bent, staat het je vrij om overtollige kasmiddelen naar eigen inzicht toe te wijzen. Omgekeerd geldt ook dat, als je een partner of aandeelhouder bent binnen een collectieve besluitvormingsstructuur, je gezamenlijk moet overleggen, wat de zaken kan compliceren.
 
 In dit tweede scenario wordt het harmoniseren van verschillende standpunten essentieel. Dit hangt grotendeels af van **het begrip van elke stakeholder van het Bitcoin activum**. Zoals het gezegde luidt: "Bitcoin is alles wat mensen niet weten over computers gecombineerd met alles wat ze niet begrijpen over geld." Zelfs als één partner moeite heeft gedaan om Bitcoin grondig te begrijpen, kan het een uitdaging zijn om deze kennis over te brengen op anderen. In zulke gevallen is het aan te raden om **een externe bron in te schakelen** om te voorkomen dat het idee te zeer geïdentificeerd wordt met één individu, wat weerstand zou kunnen oproepen.
 
@@ -1101,8 +1101,8 @@ De classificatie van Bitcoin in jaarrekeningen verschilt per jurisdictie en hang
 
 Waarderingsmethodes zijn boekhoudtechnieken die gebruikt worden om de kostenbasis van Bitcoin te bepalen, wat essentieel is voor het nauwkeurig berekenen van winsten of verliezen tijdens transacties. In het algemeen is het het beste om **een altijd bijgewerkte waarde van de kosten van huidige Bitcoin holdings** in het boekhoudsysteem bij te houden. Dit zorgt voor transparantie, naleving van belastingregels en voorkomt dat je achterop raakt wanneer er berekeningen moeten worden uitgevoerd.
 
-- First In, First Out (FIFO)**: Deze methode, die gebruikelijk is in rechtsgebieden zoals Australië en India, waardeert Bitcoin op basis van de vroegste verwervingskosten. Dit kan behoorlijk **complex** worden, omdat het nodig kan zijn om elke fractie van een Bitcoin afzonderlijk te traceren wanneer een verkoop plaatsvindt.
-- Weighted Average Cost (WAC)**: Vaak de voorkeur voor transacties met hoge volumes vanwege de **eenvoudigheid**, zoals in landen als de Verenigde Staten.
+- **First In, First Out (FIFO)**: Deze methode, die gebruikelijk is in rechtsgebieden zoals Australië en India, waardeert Bitcoin op basis van de vroegste verwervingskosten. Dit kan behoorlijk **complex** worden, omdat het nodig kan zijn om elke fractie van een Bitcoin afzonderlijk te traceren wanneer een verkoop plaatsvindt.
+- **Weighted Average Cost (WAC)**: Vaak de voorkeur voor transacties met hoge volumes vanwege de **eenvoudigheid**, zoals in landen als de Verenigde Staten.
 
 Het wordt ten zeerste aanbevolen om een gedetailleerd werkboek bij te houden waarin de kosten van Bitcoin worden bijgehouden **vanaf het moment dat een bedrijf Bitcoin begint te kopen of het als betaling accepteert** om een nauwkeurige en georganiseerde administratie te garanderen. Alleen al deze overweging zou bovenaan moeten staan bij het kiezen van een softwareoplossing om Bitcoin betalingen te accepteren of om Bitcoin te kopen.
 

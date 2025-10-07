@@ -755,7 +755,7 @@ Usimamizi huu sahihi, unaochanganya uelekezaji unaonyumbulika wa IP na udhibiti 
 
 
 
-Katika baadhi ya matukio, hata hivyo, kuegemea kabisa sio kipaumbele: kasi na unyenyekevu ni. Hii ni kweli kwa programu kama vile utiririshaji wa moja kwa moja au VoIP, ambayo inaweza kustahimili upotezaji wa pakiti bila kuathiri sana matumizi ya mtumiaji. Katika hali kama hizi, **UDP** (Itifaki_ya Data ya Mtumiaji_) inapendekezwa.
+Katika baadhi ya matukio, hata hivyo, kuegemea kabisa sio kipaumbele: kasi na unyenyekevu ni. Hii ni kweli kwa programu kama vile utiririshaji wa moja kwa moja au VoIP, ambayo inaweza kustahimili upotezaji wa pakiti bila kuathiri sana matumizi ya mtumiaji. Katika hali kama hizi, **UDP** (**Itifaki ya Data ya Mtumiaji**) inapendekezwa.
 
 
 UDP hufanya kazi kwa kanuni tofauti kabisa na TCP: haina muunganisho, kumaanisha hakuna uhusiano wa awali ulioanzishwa kati ya mtumaji na mpokeaji. Wakati mashine inatuma pakiti kupitia UDP, zinapitishwa kwa njia moja; mpokeaji haitumi shukrani, na mtumaji hana uthibitisho kwamba ujumbe umefika. Kijajuu cha UDP ni chache kimakusudi, kinajumuisha mlango wa chanzo pekee, mlango wa mwisho, urefu wa sehemu na cheki, bila uthibitisho uliojumuishwa ndani au utaratibu wa udhibiti wa serikali. Kama kawaida, anwani za IP hubebwa na kichwa cha msingi cha IP.
@@ -893,7 +893,7 @@ IP address zinaweza kupewa kwa njia kuu mbili:
 **Address za IPv4** zimeandikwa katika umbizo la **32-bit** lililogawanywa katika **baiti nne**. Kila baiti ina biti 8 na inawakilisha nambari ya desimali kutoka 0 hadi 255. Baiti 4 hutenganishwa kwa nukta ili kuunda nukuu wazi na inayosomeka.
 
 
-mfano: Address 172.16.254.1_
+mfano: Address 172.16.254.1
 
 
 
@@ -1124,7 +1124,7 @@ Ili protocol ya uelekezaji wa data ifanye kazi kwa uhakika na kwa uthabiti, sehe
 MAC Address imetolewa kwa kudumu na kwa kipekee na mtengenezaji vifaa vinavyotengenezwa. MAC Address inatambua kadi ya mtandao bila shaka iwe ni kompyuta, simu mahiri, kichapishi au kifaa kingine chochote kilichounganishwa. Tofauti na IP Address, ambayo inaweza kubadilika kwa nguvu (kupitia seva ya DHCP au usanidi wa mtu), MAC Address kwa kawaida husalia sawa katika maisha ya kifaa, isipokuwa ikiwa imebadilishwa kimakusudi.
 
 
-Kila mtandao wa Interface, wenye waya au pasiwaya, una MAC Address yake. Address hii inatumika ndani ya kiungo cha data Layer (Layer 2 ya muundo wa OSI) ili kuingiza na kudhibiti maunzi ya Address katika kila fremu ya mtandao inayobadilishwa. Hii wakati mwingine hujulikana kama _Ethernet address au _UAA_ (_Universally Administered Address_). Imesawazishwa kwa urefu wa biti 48, au baiti 6, imeandikwa kwa nukuu hexadecimal, kwa ujumla katika umbo la baiti zinazotenganishwa na `:` au `-`.
+Kila mtandao wa Interface, wenye waya au pasiwaya, una MAC Address yake. Address hii inatumika ndani ya kiungo cha data Layer (Layer 2 ya muundo wa OSI) ili kuingiza na kudhibiti maunzi ya Address katika kila fremu ya mtandao inayobadilishwa. Hii wakati mwingine hujulikana kama _Ethernet address_ au _UAA_ (_Universally Administered Address_). Imesawazishwa kwa urefu wa biti 48, au baiti 6, imeandikwa kwa nukuu hexadecimal, kwa ujumla katika umbo la baiti zinazotenganishwa na `:` au `-`.
 
 
 Kwa mfano: `5A:BC:17:A2:AF:15`
@@ -1243,7 +1243,7 @@ Hatimaye, itifaki zinazobadilika za uelekezaji zinajumuisha viwango kama vile RI
 ### Ufafanuzi
 
 
-Network Address Translation_ (NAT) ni mbinu iliyobuniwa hadi Address ya kupungua polepole kwa adsress zinazopatikana za IPv4. Iliyoundwa kama suluhisho la muda kabla ya kupitishwa kwa IPv6 kwa wingi, NAT iliwezesha makampuni na watu binafsi kuendelea kuunganisha idadi kubwa ya mashine huku wakitumia tu seti ndogo ya  IP address za umma.
+Network Address Translation **(NAT)** ni mbinu iliyobuniwa hadi Address ya kupungua polepole kwa adsress zinazopatikana za IPv4. Iliyoundwa kama suluhisho la muda kabla ya kupitishwa kwa IPv6 kwa wingi, NAT iliwezesha makampuni na watu binafsi kuendelea kuunganisha idadi kubwa ya mashine huku wakitumia tu seti ndogo ya IP address za umma.
 
 
 **Kikumbusho muhimu:** hoja kutoka IPv4 hadi IPv6 kinadharia hutatua tatizo la uchovu kwa kupanua nafasi ya Address kutoka biti 32 hadi biti 128, kutoa karibu idadi isiyo na kikomo ya anwani (2^128). Katika mazoezi, hata hivyo, mpito bado haujakamilika, na NAT inabakia kutumika sana leo.

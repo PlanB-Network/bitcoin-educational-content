@@ -736,7 +736,7 @@ Bitcoin je často obklopen populárními mylnými představami; jednou z nejčas
 
 
 
-- Obchodování :**
+- **Obchodování:**
 
 
 Buďme upřímní:** pravděpodobně byste neměli obchodovat.**
@@ -3619,7 +3619,6 @@ Ještě jednou vám blahopřeji k tomu, jak daleko jste došli. A nezapomeňte, 
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

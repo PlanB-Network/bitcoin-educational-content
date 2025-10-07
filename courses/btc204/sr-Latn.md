@@ -5886,7 +5886,7 @@ $$ P_0 = B_1 + \text{Hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{
 U stvarnosti, Alisa čak i ne mora nužno znati da Bob ima označenu adresu, jer ona jednostavno koristi drugi deo statičke adrese koji je on obezbedio, i u ovom slučaju, to je vrednost $B_1$ umesto $B_{text{spend}}$.
 
 
-Da bi skenirao uplate, Bob će uvek koristiti vrednost svoje početne statičke adrese sa $B_{\text{spend}}$ na sledeći način:
+Da bi skenirao uplate, Bob će uvek koristiti vrednost svoje početne statičke adrese sa **B_spend** na sledeći način:
 
 
 $$ P_0 = B_{\text{spend}} + \text{Hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$

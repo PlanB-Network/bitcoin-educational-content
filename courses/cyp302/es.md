@@ -2083,7 +2083,7 @@ Por ejemplo, supongamos que $N = 270$. Está claro que no es un número primo. D
 
 $$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23$$
 
-Supongamos a continuación que $N$ es un producto de dos primos, $p$ y $q$. *entonces, el *teorema 2** anterior establece que el orden de $N$ es el siguiente:
+Supongamos a continuación que $N$ es un producto de dos primos, $p$ y $q$. **Entonces, el teorema 2 anterior establece que el orden de $N$ es el siguiente:**
 
 $$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$
 

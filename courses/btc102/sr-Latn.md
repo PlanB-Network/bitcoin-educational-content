@@ -1579,7 +1579,7 @@ Razvoj Bitcoin može se razumeti kroz nekoliko različitih grupa saradnika:
 
 
 - **Bitcoin Core developers**, Ovo su pojedinci koji održavaju i unapređuju glavni softverski klijent. Među njima su održavaoci, koji imaju ključeve za upravljanje repozitorijumom. U 2025. godini, njih petoro su: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao i Ryan Ofsky. Zatim, tu su i saradnici koji podnose izmene koda, ispravke grešaka ili poboljšanja. Ovi predlozi prolaze kroz recenziju kolega i diskusiju u zajednici pre nego što budu prihvaćeni.
-- Programeri slojevitih protokola**,Ova grupa radi na tehnologijama koje se nadograđuju na Bitcoin, kao što su Lightning Network ili RGB, s ciljem proširenja mogućnosti Bitcoin bez promene njegove osnove.
+- **Programeri slojevitih protokola**, Ova grupa radi na tehnologijama koje se nadograđuju na Bitcoin, kao što su Lightning Network ili RGB, s ciljem proširenja mogućnosti Bitcoin bez promene njegove osnove.
 - **Nezavisni programeri**, Ovi programeri se fokusiraju na kreiranje alata i aplikacija za poboljšanje korisničkog iskustva, kao što su Mempool.space (vizuelni Interface za praćenje aktivnosti transakcija) ili Alby (alati za korišćenje Lightning plaćanja u pregledačima i aplikacijama).
 
 
@@ -3656,6 +3656,5 @@ Još jednom, čestitam na tome koliko ste daleko stigli. I zapamtite; moj primar
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

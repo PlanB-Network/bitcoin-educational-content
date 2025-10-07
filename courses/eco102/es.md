@@ -44,7 +44,7 @@ Por último, el curso concluye con una reflexión sobre "El Derecho", en la que 
 El objetivo de este curso es proporcionarle un conocimiento profundo de la vida, las influencias intelectuales, los adversarios ideológicos y las teorías económicas de Frédéric Bastiat. A través de este recorrido estructurado, descubrirá cómo sus ideas han configurado el pensamiento económico y siguen influyendo en los debates actuales.
 
 
-**Sección 1: Introducción
+**Sección 1: Introducción**
 
 Comenzaremos con una visión general de Frédéric Bastiat, un genio subestimado de la economía. Conoceremos su vida, su trayectoria intelectual y el contexto histórico en el que desarrolló su pensamiento. Entender este contexto es esencial para comprender plenamente el alcance de sus escritos y teorías.
 
@@ -234,7 +234,7 @@ La economía política, tal como la concibieron Adam Smith y J.-B. Say, se resum
 
 ![image](assets/en/015.webp)
 
-(Say, Destutt de Tracy, Quesnay, de Gournay)_
+(Say, Destutt de Tracy, Quesnay, de Gournay)
 
 
 Adam Smith se interesaba por la prosperidad, no como un fin en sí mismo, sino como un medio para la elevación moral de los individuos. Para él, la riqueza de las naciones consiste en la riqueza de los individuos. Si quieres una nación próspera, dice Adam Smith, deja que los individuos actúen libremente. Y el mercado funciona porque permite a cada cual expresar sus preferencias y perseguir su interés.
@@ -1287,7 +1287,7 @@ Ilustremos esta cuestión con algunos grandes temas de actualidad. Primer ejempl
 
 ![image](assets/en/103.webp)
 
-(Alan Greenspan, Presidente de la FED, el banco central estadounidense, de 1987 a 2006)_
+(Alan Greenspan, Presidente de la FED, el banco central estadounidense, de 1987 a 2006)
 
 
 Durante años, los responsables de la política monetaria explicaron que si los beneficios se privatizan cuando todo va bien, las pérdidas se mutualizarán en caso de quiebra (rescates, planes de salvamento, manipulación de los tipos de interés, impresión de dinero, etc.). Al hacerlo, crearon un riesgo moral, facilitaron la asunción de riesgos irracionales y animaron al mundo financiero a comportarse de forma irresponsable. De este modo precipitaron a las finanzas en la crisis que experimentamos.

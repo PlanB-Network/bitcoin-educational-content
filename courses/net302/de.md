@@ -892,7 +892,7 @@ IP-Adressen können im Wesentlichen auf zwei Arten zugewiesen werden:
 **IPv4**-Adressen werden in einem **32-Bit**-Format geschrieben, das in **vier Bytes** unterteilt ist. Jedes Byte enthält 8 Bits und stellt eine Dezimalzahl von 0 bis 255 dar. Die 4 Bytes werden durch Punkte getrennt, um eine klare, lesbare Schreibweise zu gewährleisten.
 
 
-beispiel: Address 172.16.254.1_
+beispiel: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Zu den dynamischen Routing-Protokollen gehören Standards wie RIP (_Routing Info
 ### Definition
 
 
-Network Address Translation_ (NAT) ist eine Technik, die entwickelt wurde, um Address die allmähliche Erschöpfung der verfügbaren IPv4-Adressen zu verhindern. NAT wurde als Zwischenlösung vor der weit verbreiteten Einführung von IPv6 entwickelt und ermöglichte es Unternehmen und Einzelpersonen, weiterhin eine große Anzahl von Rechnern anzuschließen und dabei nur eine begrenzte Anzahl öffentlicher IP-Adressen zu verwenden.
+Network Address Translation **(NAT)** ist eine Technik, die entwickelt wurde, um die allmähliche Erschöpfung der verfügbaren IPv4-Adressen zu verhindern. NAT wurde als Zwischenlösung vor der weit verbreiteten Einführung von IPv6 entwickelt und ermöglichte es Unternehmen und Einzelpersonen, weiterhin eine große Anzahl von Rechnern anzuschließen und dabei nur eine begrenzte Anzahl öffentlicher IP-Adressen zu verwenden.
 
 
 **Wichtige Erinnerung:** Der Übergang von IPv4 zu IPv6 löst theoretisch das Erschöpfungsproblem, indem der Address-Raum von 32 Bit auf 128 Bit erweitert wird, was eine nahezu unbegrenzte Anzahl von Adressen (2^128) ermöglicht. In der Praxis ist die Umstellung jedoch noch unvollständig, und NAT wird auch heute noch häufig verwendet.
@@ -1295,7 +1295,7 @@ Jeder Eintrag in dieser Tabelle verknüpft mindestens ein Paar: den internen IP-
 Dieses dynamische Übersetzungsprinzip beruht auf einer präzisen Tabellenverwaltung: Jeder Eintrag bleibt so lange gültig, wie aktiver Verkehr vorliegt, der ihn rechtfertigt. Nach einer konfigurierbaren Zeit der Inaktivität wird der Eintrag gelöscht und kann für neue Verbindungen wieder verwendet werden.
 
 
-beispiel für eine vereinfachte NAT-Übersetzungstabelle:_
+beispiel für eine vereinfachte NAT-Übersetzungstabelle:
 
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
@@ -1327,7 +1327,7 @@ Im Allgemeinen ist jedes Protokoll betroffen, das explizit die interne IP Addres
 **Vorsicht:** Obwohl NAT dazu beiträgt, das interne Netz zu verbergen und den eingehenden Datenverkehr zu kontrollieren, ist es kein Ersatz für eine spezielle Firewall. Die Übersetzung allein ist keine vollständige Sicherheitsbarriere: Sie muss immer durch klare Filterregeln ergänzt werden, um unerwünschten oder ungewollten Verkehr zu blockieren.
 
 
-um zu veranschaulichen, wie dies in der Praxis funktioniert, betrachten Sie das folgende Beispiel:_
+um zu veranschaulichen, wie dies in der Praxis funktioniert, betrachten Sie das folgende Beispiel:
 
 
 

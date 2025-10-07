@@ -1343,7 +1343,7 @@ Infine, anche se il vostro nome utente "@Bitcoin[CITY]" è unico e ormai vostro,
 
 - @Bitcoin_[CITY]
 - @[CITY]Bitcoin
-- @[CITTÀ]_Bitcoin
+- @[CITTÀ]**Bitcoin**
 
 
 In questo modo, ridurrete notevolmente le possibilità che qualcuno si spacci per la vostra comunità.

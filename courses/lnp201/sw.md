@@ -287,7 +287,7 @@ Ili kuthibitisha uhamisho huu, Alice na Bob wataunda **muamala mpya wa Bitcoin**
 
 ### Mchakato wa Uhamisho: Invoice
 
-Bob anapotaka kupokea pesa, anamtumia Alice _ ankara_kwa Satoshi 30,000. Kisha Alice anaendelea kulipa ankara ya ununuzi hii kwa kuanzisha uhamisho ndani ya chaneli. Kama tulivyoona, mchakato huu unategemea kuundwa na kutiwa sahihi kwa kujitolea kufanya shughuli mpya.
+Bob anapotaka kupokea pesa, anamtumia Alice **ankara** kwa Satoshi 30,000. Kisha Alice anaendelea kulipa ankara ya ununuzi hii kwa kuanzisha uhamisho ndani ya chaneli. Kama tulivyoona, mchakato huu unategemea kuundwa na kutiwa sahihi kwa kujitolea kufanya shughuli mpya.
 
 Kila kujitolea shughuli kunawakilisha usambazaji mpya wa fedha katika kituo baada ya uhamisho. Katika mfano huu, baada ya shughuli, Bob ana satoshi 30,000 na Alice ana satoshi 100,000. Iwapo mmoja wa washiriki wawili aliamua kuchapisha kujitolea shughuli hii kwenye Blockchain, ingesababisha kufungwa kwa chaneli na pesa zingegawanywa kulingana na usambazaji huu wa mwisho.
 

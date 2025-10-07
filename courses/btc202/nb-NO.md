@@ -388,9 +388,9 @@ Ifølge [data samlet inn i august 2025 av Luke Dashjr](https://luke.dashjr.org/p
 
 
 
-- Bitcoin core**: 87.3 % av nodene
-- Bitcoin Knots**: 12.5
-- Andre kumulative implementeringer**: 0.2 % (btcsuite, Bcoin, BTCD ...)
+- **Bitcoin core**: 87.3 % av nodene
+- **Bitcoin Knots**: 12.5
+- **Andre kumulative implementeringer**: 0.2 % (btcsuite, Bcoin, BTCD ...)
 
 
 
@@ -402,7 +402,7 @@ Med andre ord kjører rundt 9 av 10 offentlige noder Bitcoin core. Resten av net
 
 
 
-**Disse tallene er imidlertid fortsatt estimater, ettersom de først og fremst er basert på *lyttende noder*, dvs. noder som godtar innkommende tilkoblinger (med port 8333 åpen). Ikke-lyttende noder* er mye mer komplekse å telle, siden det er umulig å koble seg direkte til dem: Du må vente på at initiativet kommer fra dem, i form av en utgående tilkobling. Luke Dashjrs nettsted hevder å prøve å telle disse *ikke-lyttende nodene* også, men det er fortsatt umulig å få helt nøyaktige data om dem, og oppdateringen av denne statistikken henger uunngåelig etter virkeligheten.
+**Disse tallene er imidlertid fortsatt estimater, ettersom de først og fremst er basert på *lyttende noder*, dvs. noder som godtar innkommende tilkoblinger (med port 8333 åpen). *Ikke-lyttende noder* er mye mer komplekse å telle, siden det er umulig å koble seg direkte til dem: Du må vente på at initiativet kommer fra dem, i form av en utgående tilkobling.** Luke Dashjrs nettsted hevder å prøve å telle disse *ikke-lyttende nodene* også, men det er fortsatt umulig å få helt nøyaktige data om dem, og oppdateringen av denne statistikken henger uunngåelig etter virkeligheten.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core er skrevet i C++. Det er også et åpen kildekode-prosjekt som vedl
 
 
 
-- Bidragsytere** sender inn forslag i form av _pull requests_ (PR). I prinsippet kan hvem som helst foreslå en endring, men den må testes, dokumenteres og gå gjennom en fagfellevurderingsprosess.
+- **Bidragsytere** sender inn forslag i form av _pull requests_ (PR). I prinsippet kan hvem som helst foreslå en endring, men den må testes, dokumenteres og gå gjennom en fagfellevurderingsprosess.
 - **Vedlikeholderne** har rett til å godkjenne og slå sammen PR-er. Det er de som garanterer sammenhengen og stabiliteten i prosjektet. I juli 2025 er det fem av dem: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao og Ryan Ofsky.
 - Det har ikke vært noen **hovedvedlikeholder** siden februar 2023. Denne rollen ble først innehatt av Satoshi Nakamoto ved lanseringen av Bitcoin, deretter av Gavin Andresen etter Nakamotos avgang tidlig i 2011, og til slutt av Wladimir J. Van Der Laan fra 2014 til 2023.
 
@@ -446,9 +446,9 @@ Vi kan også nevne:
 
 
 
-- Libbitcoin**: et modulært C++-bibliotek utviklet av Amir Taaki og vedlikeholdt av Eric Voskuil;
-- Bcoin**: en JavaScript-implementasjon som ikke lenger vedlikeholdes aktivt;
-- BTCD/btcsuit**e: en implementering i Go.
+- **Libbitcoin**: et modulært C++-bibliotek utviklet av Amir Taaki og vedlikeholdt av Eric Voskuil;
+- **Bcoin**: en JavaScript-implementasjon som ikke lenger vedlikeholdes aktivt;
+- **BTCD/btcsuite**: en implementering i Go.
 
 
 
@@ -590,7 +590,7 @@ Et viktig aspekt, som ofte blir misforstått, er at du kan velge hvilke regler d
 
 
 
-- Konsensusregler**:
+- **Konsensusregler**:
 
 
 
@@ -604,7 +604,7 @@ Dette er de grunnleggende reglene i Bitcoin-protokollen, som sikrer systemets in
 
 
 
-- Stafettregler**:
+- **Stafettregler**:
 
 
 
@@ -616,7 +616,7 @@ For eksempel er en transaksjon uten gebyrer, i henhold til konsensusreglene, hel
 
 
 
-Å spinne sin egen node betyr å hevde: "Jeg validerer det jeg velger å validere, i henhold til de reglene jeg selv har vedtatt"*. Du blir dermed en aktør i styringen av systemet, og kan avvise en utvikling som virker uakseptabel for deg, eller godkjenne en oppdatering i henhold til dine egne kriterier.
+Å spinne sin egen node betyr å hevde: "Jeg validerer det jeg velger å validere, i henhold til de reglene jeg selv har vedtatt". Du blir dermed en aktør i styringen av systemet, og kan avvise en utvikling som virker uakseptabel for deg, eller godkjenne en oppdatering i henhold til dine egne kriterier.
 
 
 
@@ -882,8 +882,8 @@ Det er to mulige grunner til å velge Knots fremfor Core:
 
 
 
-- Teknikker**: Forskjellige alternativer fra Core, spesielt når det gjelder reléhåndtering, ved å bestemme hvilke transaksjoner som skal aksepteres og kringkastes av noden din.
-- Policy**: Noen foretrekker å bruke alternative klienter som Knots av ikke-tekniske grunner, særlig for å støtte et alternativ til Core og dermed redusere Core-monopolet. Hvis Core noen gang skulle bli kompromittert, ville det være nyttig ikke bare å ha solide, godt vedlikeholdte alternative klienter, men også å vite hvordan man bruker dem effektivt. Andre bruker Knots i protest, fordi de har mistet tilliten til Core-utviklerne eller misliker majoriteten av klientens ledelse.
+- **Teknikker**: Forskjellige alternativer fra Core, spesielt når det gjelder reléhåndtering, ved å bestemme hvilke transaksjoner som skal aksepteres og kringkastes av noden din.
+- **Policy**: Noen foretrekker å bruke alternative klienter som Knots av ikke-tekniske grunner, særlig for å støtte et alternativ til Core og dermed redusere Core-monopolet. Hvis Core noen gang skulle bli kompromittert, ville det være nyttig ikke bare å ha solide, godt vedlikeholdte alternative klienter, men også å vite hvordan man bruker dem effektivt. Andre bruker Knots i protest, fordi de har mistet tilliten til Core-utviklerne eller misliker majoriteten av klientens ledelse.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel kan forbli minimalistisk og fokusere utelukkende på Bitcoin, eller utvik
 
 
 
-- Enkel Bitcoin-node**: Dette er den grunnleggende bruken som Umbrel har basert seg på fra starten av. Du kan kjøre Bitcoin core (eller Knots), koble lommebøkene dine direkte til noden din, eksponere en Electrum-server, være vert for Mempool Block explorer for å se Blockchain, og estimere kostnader... Det er disse bruksområdene vi skal fokusere på i dette kurset.
+- **Enkel Bitcoin-node**: Dette er den grunnleggende bruken som Umbrel har basert seg på fra starten av. Du kan kjøre Bitcoin core (eller Knots), koble lommebøkene dine direkte til noden din, eksponere en Electrum-server, være vert for Mempool Block explorer for å se Blockchain, og estimere kostnader... Det er disse bruksområdene vi skal fokusere på i dette kurset.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel kan forbli minimalistisk og fokusere utelukkende på Bitcoin, eller utvik
 
 
 
-- Lightning Network**: Umbrel lar deg også distribuere LND eller Core Lightning, to implementeringer av Lightning Network, for å administrere din egen Lightning-node. Du kan åpne kanaler, administrere likviditeten din, foreta betalinger, automatisere balansering, tilby tjenester, koble til en ekstern Wallet eller dra nytte av avansert Interface-administrasjon takket være de mange applikasjonene som er tilgjengelige. Vi skal se nærmere på dette spesifikke bruksområdet i vårt neste LNP 202-kurs.
+- **Lightning Network**: Umbrel lar deg også distribuere LND eller Core Lightning, to implementeringer av Lightning Network, for å administrere din egen Lightning-node. Du kan åpne kanaler, administrere likviditeten din, foreta betalinger, automatisere balansering, tilby tjenester, koble til en ekstern Wallet eller dra nytte av avansert Interface-administrasjon takket være de mange applikasjonene som er tilgjengelige. Vi skal se nærmere på dette spesifikke bruksområdet i vårt neste LNP 202-kurs.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel kan forbli minimalistisk og fokusere utelukkende på Bitcoin, eller utvik
 
 
 
-- Generell selvhosting**: med Nextcloud, Immich, Jellyfin/Plex, DNS-omfattende annonseblokkere (Pi-hole/AdGuard), VPN-er (WireGuard, Tailscale), hjemmeautomatisering (Home Assistant), sikkerhetskopiering, notatadministrasjon, kontorverktøy, lokal AI (Ollama + Open WebUI)... Umbrel kan bli din personlige server, slik at du kan gjenvinne kontrollen over dataene dine. Du er selv vert for tjenestene du bruker hver dag, med en polert brukeropplevelse som ligger tett opp til eksterne løsninger, samtidig som du beholder full kontroll over dataene og personvernet ditt.
+- **Generell selvhosting**: med Nextcloud, Immich, Jellyfin/Plex, DNS-omfattende annonseblokkere (Pi-hole/AdGuard), VPN-er (WireGuard, Tailscale), hjemmeautomatisering (Home Assistant), sikkerhetskopiering, notatadministrasjon, kontorverktøy, lokal AI (Ollama + Open WebUI)... Umbrel kan bli din personlige server, slik at du kan gjenvinne kontrollen over dataene dine. Du er selv vert for tjenestene du bruker hver dag, med en polert brukeropplevelse som ligger tett opp til eksterne løsninger, samtidig som du beholder full kontroll over dataene og personvernet ditt.
 
 
 
@@ -1685,7 +1685,7 @@ Som forklart i begynnelsen av dette kapittelet, trenger du en skjermenhet og en 
 
 
 
-**Tips: Hvis du ikke har en ekstern skjerm hjemme, kan du bruke TV-en din. Med HDMI-inngang (eller annen inngang) kan den brukes som midlertidig skjerm mens du installerer operativsystemet.
+**Tips: Hvis du ikke har en ekstern skjerm hjemme, kan du bruke TV-en din. Med HDMI-inngang (eller annen inngang) kan den brukes som midlertidig skjerm mens du installerer operativsystemet.**
 
 
 
@@ -1713,7 +1713,7 @@ Når enheten har startet opp fra USB-minnepinnen, blir du møtt av Interface Umb
 
 
 
-Skjermbildet som vises, inneholder en liste over alle de interne lagringsenhetene som er oppdaget av datamaskinen. Hver disk har et nummer, et navn og en lagringskapasitet. Finn disken du ønsker å installere Umbrel på. **Advarsel: Alle filer på denne disken vil bli slettet permanent
+Skjermbildet som vises, inneholder en liste over alle de interne lagringsenhetene som er oppdaget av datamaskinen. Hver disk har et nummer, et navn og en lagringskapasitet. Finn disken du ønsker å installere Umbrel på. **Advarsel: Alle filer på denne disken vil bli slettet permanent.**
 
 
 
@@ -1759,8 +1759,8 @@ Før du starter enheten på nytt, må du kontrollere følgende to punkter:
 
 
 
-- USB-nøkkelen er frakoblet**: Hvis den forblir tilkoblet, kan det hende at systemet starter på nytt på den i stedet for på den interne disken;
-- Ethernet-kabelen er koblet til**: Enheten må være koblet til ruteren for å fungere.
+- **USB-nøkkelen er frakoblet**: Hvis den forblir tilkoblet, kan det hende at systemet starter på nytt på den i stedet for på den interne disken;
+- **Ethernet-kabelen er koblet til**: Enheten må være koblet til ruteren for å fungere.
 
 
 
@@ -2285,9 +2285,9 @@ Deretter finner du tre alternativer for å koble programvaren din til en Bitcoin
 
 
 
-- Public Server* (gul): Hvis du ikke eier en Bitcoin-node, kobler dette alternativet deg som standard til en offentlig node du ikke eier (vanligvis en bedriftsnode). Dette alternativet er ikke relevant her, siden du har din egen node på Umbrel.
-- Bitcoin core* (Green): Dette alternativet tilsvarer tilkobling via Interface RPC, dvs. direkte til Bitcoin core.
-- Private Electrum* (blå): Med dette alternativet kan du koble til via indeksererens Interface Electrum-server (Electrs eller Fulcrum).
+- **Public Server** (gul): Hvis du ikke eier en Bitcoin-node, kobler dette alternativet deg som standard til en offentlig node du ikke eier (vanligvis en bedriftsnode). Dette alternativet er ikke relevant her, siden du har din egen node på Umbrel.
+- **Bitcoin core** (Green): Dette alternativet tilsvarer tilkobling via Interface RPC, dvs. direkte til Bitcoin core.
+- Private Electrum (blå): Med dette alternativet kan du koble til via indeksererens Interface Electrum-server (Electrs eller Fulcrum).
 
 
 
@@ -2339,7 +2339,7 @@ Krysset nederst til høyre på Interface Sparrow wallet vil nå være Green (noe
 
 
 
-**Merk: For at tilkoblingen skal lykkes, må noden din være 100 % synkronisert. Hvis dette ikke er tilfelle, må du vente til slutten av IBD-en.
+**Merk: For at tilkoblingen skal lykkes, må noden din være 100 % synkronisert. Hvis dette ikke er tilfelle, må du vente til slutten av IBD-en.**
 
 
 
@@ -2391,7 +2391,7 @@ Haken nederst i høyre hjørne på Interface Sparrow wallet blir blå (fargen so
 
 
 
-**Merk: For at tilkoblingen skal fungere, må indekseringsenheten være 100 % synkronisert. Hvis dette ikke er tilfelle, må du vente til indekseringsprosessen er fullført.
+**Merk: For at tilkoblingen skal fungere, må indekseringsenheten være 100 % synkronisert. Hvis dette ikke er tilfelle, må du vente til indekseringsprosessen er fullført.**
 
 
 
@@ -2971,7 +2971,7 @@ Blockchain er derfor en samling av blokker. En Full node lagrer disse blokkene s
 
 
 
-**En omorganisering, eller resynkronisering, er et fenomen der Blockchain gjennomgår en endring i strukturen fordi det finnes konkurrerende blokker i samme høyde. Dette skjer når en del av Blockchain erstattes av en annen kjede med en større mengde akkumulert arbeid. Disse resynkroniseringene er en naturlig del av Bitcoins drift, der forskjellige utvinnere kan finne nye blokker nesten samtidig, og dermed dele Bitcoin-nettverket i to. I slike tilfeller kan nettverket midlertidig splittes i konkurrerende kjeder. Etter hvert som en av disse kjedene akkumulerer mer arbeid, blir de andre kjedene forlatt av nodene, og blokkene deres blir kjent som "foreldede blokker" eller "orphan blocks" Denne prosessen med å erstatte en kjede med en annen kalles resynkronisering.
+**En omorganisering, eller resynkronisering, er et fenomen der Blockchain gjennomgår en endring i strukturen fordi det finnes konkurrerende blokker i samme høyde. Dette skjer når en del av Blockchain erstattes av en annen kjede med en større mengde akkumulert arbeid. Disse resynkroniseringene er en naturlig del av Bitcoins drift, der forskjellige utvinnere kan finne nye blokker nesten samtidig, og dermed dele Bitcoin-nettverket i to. I slike tilfeller kan nettverket midlertidig splittes i konkurrerende kjeder. Etter hvert som en av disse kjedene akkumulerer mer arbeid, blir de andre kjedene forlatt av nodene, og blokkene deres blir kjent som "foreldede blokker" eller "orphan blocks". Denne prosessen med å erstatte en kjede med en annen kalles resynkronisering.**
 
 
 

@@ -892,7 +892,7 @@ IP adresy lze přidělovat dvěma hlavními způsoby:
 *Adresy* **IPv4** se zapisují v **32bitovém** formátu rozděleném na **čtyři bajty**. Každý bajt obsahuje 8 bitů a představuje desítkové číslo od 0 do 255. Tyto 4 bajty jsou odděleny tečkami, aby tvořily jasný a čitelný zápis.
 
 
-příklad: Address 172.16.254.1_
+příklad: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Mezi dynamické směrovací protokoly patří standardy jako RIP (_Routing Infor
 ### Definice
 
 
-Network Address Translation_ (NAT) je technika vyvinutá pro Address postupné vyčerpávání dostupných adres IPv4. NAT byl navržen jako dočasné řešení před širokým přijetím protokolu IPv6 a umožnil společnostem a jednotlivcům nadále připojovat velké množství počítačů a přitom používat pouze omezenou sadu veřejných IP adres.
+**Network Address Translation** (NAT) je technika vyvinutá pro postupné vyčerpávání dostupných adres IPv4. NAT byl navržen jako dočasné řešení před širokým přijetím protokolu IPv6 a umožnil společnostem a jednotlivcům nadále připojovat velké množství počítačů a přitom používat pouze omezenou sadu veřejných IP adres.
 
 
 **Důležitá připomínka:** přechod z IPv4 na IPv6 teoreticky řeší problém vyčerpání adres rozšířením prostoru Address z 32 bitů na 128 bitů, což poskytuje téměř neomezený počet adres (2^128). V praxi je však přechod stále neúplný a NAT se dnes stále hojně používá.
@@ -1964,7 +1964,7 @@ Kvůli rostoucím obavám ze sledování zařízení však moderní operační s
 Stejně jako u protokolu DHCP v protokolu IPv4 mohou mít automaticky přidělené adresy IPv6 dvě doby životnosti definované směrovači nebo servery DHCPv6:
 
 
-- Preferovaná doba životnosti*: po uplynutí této doby zůstává Address platný, ale již se nepoužívá k navazování nových spojení;
+- **Preferovaná doba životnosti**: po uplynutí této doby zůstává Address platný, ale již se nepoužívá k navazování nových spojení;
 - Platná doba životnosti: po uplynutí této doby je Address zcela odstraněn z konfigurace Interface.
 
 

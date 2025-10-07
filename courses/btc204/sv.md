@@ -511,7 +511,7 @@ Dessa berömda heuristiker kan grupperas i olika kategorier, som vi kommer att b
 
 
 
-- Transaktionsmönster ;**
+- Transaktionsmönster
 - Transaktionsintern heuristik ;
 - Heuristik utanför transaktionen.
 
@@ -987,7 +987,7 @@ Om transaktionen å andra sidan inte passar in i någon känd samarbetsmodell f�
 CIOH upptäcktes av Satoshi Nakamoto. Han talar om det i del 10 av vitboken:
 
 
-"_[...] länkning är oundvikligt med transaktioner med flera poster, som nödvändigtvis avslöjar att deras poster innehades av samma ägare. Risken är att om ägaren till en nyckel avslöjas kan länkarna avslöja andra transaktioner som tillhört samma ägare."
+"_[...] länkning är oundvikligt med transaktioner med flera poster, som nödvändigtvis avslöjar att deras poster innehades av samma ägare. Risken är att om ägaren till en nyckel avslöjas kan länkarna avslöja andra transaktioner som tillhört samma ägare._"
 
 
 ![BTC204](assets/sv/061.webp)
@@ -1466,7 +1466,7 @@ ___
 
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan)
 - [Ludovic Lars] (https://viresinnumeris.fr/)
 
 
@@ -5886,7 +5886,7 @@ $$ P_0 = B_1 + \text{Hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{
 I själva verket vet Alice inte ens nödvändigtvis att Bob har en märkt Address, eftersom hon helt enkelt använder den andra delen av den statiska Address som han tillhandahöll, och i det här fallet är det värdet $B_1$ snarare än $B_{text{spend}}$$.
 
 
-För att skanna betalningar kommer Bob alltid att använda värdet av sin ursprungliga statiska Address med $B_{\text{spend}}$ på detta sätt:
+För att skanna betalningar kommer Bob alltid att använda värdet av sin ursprungliga statiska Address med **B_spend** på detta sätt:
 
 
 $$ P_0 = B_{\text{spend}} + \text{Hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$$
@@ -5987,7 +5987,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 En viktig punkt beträffande statiska adresser, som du kanske har förstått i de tidigare avsnitten, är att dessa adresser inte är synliga i Bitcoin-transaktioner. Endast $P$-betalningsadresserna som används i utgångar visas på Blockchain i standardformatet Taproot. Så från utsidan är det omöjligt att skilja en transaktion som involverar Silent Payment från en vanlig transaktion som använder P2TR-utgångar.
 
 
-Precis som med BIP47 är det omöjligt att upprätta en koppling mellan en statisk Address $B$ och en betalning Address $P$ som härrör från $B$. Faktum är att även om Eve, en potentiell angripare, försöker skanna Blockchain med Bob:s statiska $B$ Address, kommer hon inte att kunna utföra de beräkningar som krävs för att bestämma $P$. För att göra det skulle hon behöva antingen Bob:s privata nyckel $b_{\text{scan}}$, eller avsändarens privata nycklar $a$, men båda är naturligtvis privata. Det är därför möjligt att uttryckligen koppla sin statiska Address till en form av personlig identitet.
+Precis som med BIP47 är det omöjligt att upprätta en koppling mellan en statisk Address **B** och en betalning Address **P** som härrör från **B**. Faktum är att även om Eve, en potentiell angripare, försöker skanna Blockchain med Bob:s statiska **B** Address, kommer hon inte att kunna utföra de beräkningar som krävs för att bestämma **P**. För att göra det skulle hon behöva antingen Bob:s privata nyckel **b_scan**, eller avsändarens privata nycklar **a**, men båda är naturligtvis privata. Det är därför möjligt att uttryckligen koppla sin statiska Address till en form av personlig identitet.
 
 
 ### Hur använder jag Silent Payments?

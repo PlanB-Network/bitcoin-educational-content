@@ -2848,7 +2848,7 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 Analizziamo questo URL:
 
 
-- `rgb:`** (prefisso): indica un collegamento che invoca il protocollo RGB (analogo a `http:` o `bitcoin:` in altri contesti);
+- **`rgb:`** (prefisso): indica un collegamento che invoca il protocollo RGB (analogo a `http:` o `bitcoin:` in altri contesti);
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: rappresenta il `ContractId` del token che si vuole manipolare;
 - `/RGB20/100`: indica che viene utilizzata l'interfaccia `RGB20` e che vengono richieste 100 unità dell'asset. La sintassi è: `/Interface/amount` ;
 - `+utxob:`**: specifica che vengono aggiunte informazioni sull'UTXO ricevente (o, più precisamente, sulla definizione del sigillo monouso);**
@@ -2879,7 +2879,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Qui vediamo :
 
 
-- `rgb:`**: Prefisso URL ;
+- **`rgb:`**: Prefisso URL ;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: ID contratto (NFT) ;
 - **rGB21**: interfaccia per beni non fungibili (NFT) ;
 - `DbwzvSu-4BZU81jEp-...`: **un riferimento esplicito alla parte unica dell'NFT, ad esempio un hash del blob di dati (media, metadati...)**;

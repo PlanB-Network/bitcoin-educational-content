@@ -804,7 +804,7 @@ Linuxをもっと身近なものにするために、Linuxカーネルと首尾�
 
 
 
-- 1992年5月：ソフトランディング・リナックス・システム（SLS）*2
+- 1992年5月：ソフトランディング・リナックス・システム（SLS）**2**
 
 
 
@@ -8606,4 +8606,3 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-

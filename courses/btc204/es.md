@@ -355,7 +355,7 @@ Estas famosas heurísticas pueden agruparse en diferentes categorías, que descr
 
 
 - Patrones de transacción**;**
-- Heurística interna de la transacción ;**
+- Heurística interna de la transacción;
 - Heurística externa a la transacción.
 
 ### Satoshi Nakamoto y el análisis de la cadena
@@ -1025,7 +1025,7 @@ ___
 *Me gustaría dar las gracias a sus autores, desarrolladores y productores. Gracias también a los correctores que corrigieron meticulosamente el artículo en el que se basa esta parte 3 y me dieron sus expertos consejos :*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # Dominar las mejores prácticas para proteger su privacidad

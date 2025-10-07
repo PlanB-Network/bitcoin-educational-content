@@ -374,7 +374,7 @@ Shrnuto a podtrženo:
 
 - Definice _plomby_ je UTXO, kterým hodláte zapečetit budoucí závazek;
 - Uzavření _závěrky_ nastane, když utratíte tento UTXO a vytvoříte transakci, která obsahuje závazek;
-- Svědkem_ je samotná transakce, která dokazuje, že jste pečeť uzavřeli tímto obsahem;
+- Svědkem je samotná transakce, která dokazuje, že jste pečeť uzavřeli tímto obsahem;
 - Nemůžete dokázat, že pečeť nebyla uzavřena (nemůžete si být zcela jisti, že UTXO již nebylo utraceno nebo nebude utraceno v bloku, který jste ještě neviděli), ale můžete dokázat, že skutečně bylo uzavřeno.
 
 Tato jedinečnost je důležitá pro ověřování na straně klienta: při ověřování přechodu stavu se kontroluje, zda odpovídá jedinečnému UTXO, které nebylo dříve použito v konkurenčním závazku. Právě to zaručuje, že v chytrých kontraktech mimo řetězec nedochází k dvojímu utrácení.
@@ -782,7 +782,7 @@ Při spuštění systému RGB jsme všechny tyto metody přezkoumali, abychom ur
 
 
 
-V průběhu studie se ukázalo, že žádné z těchto schémat závazků není plně kompatibilní se současným standardem Lightning (který nepoužívá Taproot, _muSig2_ ani další podporu _závazků). Probíhá úsilí o úpravu konstrukce kanálu Lightning (*BiFrost*) tak, aby umožňovala vkládání závazků RGB. To je další oblast, kde je třeba přezkoumat strukturu transakcí, klíče a způsob, jakým se podepisují aktualizace kanálů.
+V průběhu studie se ukázalo, že žádné z těchto schémat závazků není plně kompatibilní se současným standardem Lightning (který nepoužívá Taproot, _muSig2_ ani další podporu _závazků_). Probíhá úsilí o úpravu konstrukce kanálu Lightning (**BiFrost**) tak, aby umožňovala vkládání závazků RGB. To je další oblast, kde je třeba přezkoumat strukturu transakcí, klíče a způsob, jakým se podepisují aktualizace kanálů.
 
 Analýza ukázala, že ostatní metody (key tweak, sig tweak, witness tweak atd.) ve skutečnosti představují jiné formy komplikací:
 
@@ -2305,7 +2305,7 @@ Další rozhraní jsou plánována pro specializovanější použití, ale zatí
 
 - **RGB22**, věnovaný digitálním identitám, pro správu identifikátorů a profilů na řetězci v ekosystému RGB;
 - **RGB23**, pro pokročilé časové razítkování, využívající některé myšlenky *Opentimestamps*, ale s funkcemi sledovatelnosti;
-- RGB24**, jehož cílem je vytvořit obdobu decentralizovaného systému názvů domén (DNS) podobného systému *Ethereum Name Service* ;
+- **RGB24**, jehož cílem je vytvořit obdobu decentralizovaného systému názvů domén (DNS) podobného systému *Ethereum Name Service*;
 - **RGB26**, určený pro správu DAO (*Decentralizovaná autonomní organizace*) ve složitějším formátu (řízení, hlasování atd.);
 - **RGB30**, velmi podobný RGB20, ale s tím rozdílem, že zohledňuje decentralizované počáteční vydávání a používá státní rozšíření. To by se používalo pro aktiva, jejichž opětovnou emisi spravuje několik subjektů, nebo podléhá jemnějším podmínkám.
 
@@ -2844,10 +2844,10 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 Proveďme analýzu této adresy URL:
 
 
-- `rgb:`** (prefix): označuje odkaz vyvolávající protokol RGB (obdoba `http:` nebo `bitcoin:` v jiných kontextech);
+- **`rgb:`** (prefix): označuje odkaz vyvolávající protokol RGB (obdoba `http:` nebo `bitcoin:` v jiných kontextech);
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: představuje `ContractId` tokenu, se kterým chcete manipulovat;
 - `/RGB20/100`: označuje, že je použito rozhraní `RGB20` a že je požadováno 100 jednotek aktiva. Syntaxe je: `/Interface/amount` ;
-- `+utxob:`**: určuje, že jsou přidány informace o příjemci UTXO (přesněji definice jednorázové pečeti);
+- `+utxob:` **určuje, že jsou přidány informace o příjemci UTXO (přesněji definice jednorázové pečeti);**
 - `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: toto je *zaslepený* UTXO (nebo definice pečeti). Jinými slovy, Bob zamaskoval své přesné UTXO, takže odesílatel (Alice) neví, jaká je jeho přesná adresa. Ví pouze, že existuje platná pečeť odkazující na UTXO ovládané Bobem.
 
 Skutečnost, že se vše vejde do jediné adresy URL, uživateli usnadňuje život: stačí kliknout nebo naskenovat peněženku a operace je připravena k provedení.
@@ -2875,7 +2875,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Zde vidíme :
 
 
-- `rgb:`**: Předpona URL ;
+- **`rgb:`**: Předpona URL ;
 - `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`: **ID smlouvy (NFT)** ;
 - **rGB21**: rozhraní pro nehmotný majetek (NFT) ;
 - `DbwzvSu-4BZU81jEp-...`: explicitní odkaz na jedinečnou část NFT, například hash datového blobu (média, metadata...) ;

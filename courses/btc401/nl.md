@@ -88,10 +88,10 @@ Deze lezing, **"Waarom El Salvador Bitcoin nodig heeft,"** geeft een overzicht v
 > **Definities:**
 >
 
-> - bitcoin-protocol:_ De regels en structuur die bepalen hoe Bitcoin werkt als gedecentraliseerde digitale valuta.
+> - **bitcoin-protocol:** De regels en structuur die bepalen hoe Bitcoin werkt als gedecentraliseerde digitale valuta.
 > - _Cypherpunk-beweging:_ Een groep die pleit voor het gebruik van cryptografie om privacy en vrijheid in digitale ruimtes te garanderen.
 > - financiële inclusie: toegang bieden tot financiële diensten aan mensen die zijn uitgesloten van traditionele banksystemen, vaak aangeduid als de "unbanked"
-> - ongecensureerd geld:_ Geld dat niet gecontroleerd of beperkt kan worden door overheden of financiële instellingen.
+> - **ongecensureerd geld:** Geld dat niet gecontroleerd of beperkt kan worden door overheden of financiële instellingen.
 
 #### Ricky's achtergrond en verdediging voor Bitcoin
 
@@ -118,7 +118,7 @@ Ondanks het potentieel staat Bitcoin voor grote uitdagingen. In gebieden zoals A
 >
 
 > - geheime codes die toegang geven tot de Bitcoin van een gebruiker.
-> - open-source:_ Software die iedereen kan inspecteren, wijzigen en verbeteren.
+> - **open-source:** Software die iedereen kan inspecteren, wijzigen en verbeteren.
 
 ### Het geval van El Salvador
 
@@ -161,7 +161,7 @@ Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire prin
 > **Definitie:**
 >
 
-> - schaarste:_ Beperkte beschikbaarheid, wat waarde creëert door de noodzaak van zorgvuldige allocatie.
+> - **schaarste:** Beperkte beschikbaarheid, wat waarde creëert door de noodzaak van zorgvuldige allocatie.
 
 ### Bitcoin's creatie
 
@@ -186,8 +186,8 @@ Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire prin
 > **Definities:**
 >
 
-> - tijdsvoorkeur:_ Huidige goederen boven toekomstige waarderen.
-> - opslaan:_ Waarde opslaan voor toekomstig gebruik.
+> - tijdsvoorkeur: _Huidige goederen boven toekomstige waarderen._
+> - **opslaan:** Waarde opslaan voor toekomstig gebruik.
 
 ### Bitcoin in El Salvador
 
@@ -260,7 +260,7 @@ Bitcoin vertrouwt op **digitale handtekeningen** met **elliptische curve cryptog
 > **Definities:**
 >
 
-> - proof-of-Work (PoW):_ Een systeem waarbij deelnemers rekenpuzzels moeten oplossen om transacties te valideren en het netwerk te beveiligen.
+> - **Proof-of-Work (PoW):** Een systeem waarbij deelnemers rekenpuzzels moeten oplossen om transacties te valideren en het netwerk te beveiligen.
 > - een cryptografische methode die veilige, efficiënte digitale handtekeningen mogelijk maakt.
 
 ### Blockchain mechanica en transactievalidatie
@@ -281,9 +281,9 @@ Voordat transacties in een blok worden opgenomen, verblijven ze in de **Mempool*
 > **Definities:**
 >
 
-> - mijnen:_ Het proces van het oplossen van cryptografische puzzels om nieuwe blokken aan het Blockchain toe te voegen.
+> - **mijnen:** Het proces van het oplossen van cryptografische puzzels om nieuwe blokken aan het Blockchain toe te voegen.
 > - _Nonce:_ Een waarde die gebruikt wordt om de juiste Hash te vinden tijdens Mining.
-> - mempool:_ Een wachtruimte voor onbevestigde transacties voordat ze aan een blok worden toegevoegd.
+> - **mempool:** Een wachtruimte voor onbevestigde transacties voordat ze aan een blok worden toegevoegd.
 
 ### Schaalbaarheid, privacy en ontwikkeling in Bitcoin
 
@@ -300,9 +300,9 @@ Bitcoin ontwikkeling is geëvolueerd om prestaties en veiligheid te verbeteren. 
 > **Definities:**
 >
 
-> - segWit:_ Een Bitcoin upgrade die handtekeninggegevens scheidt van transactiegegevens, wat de efficiëntie verbetert.
+> - **SegWit:** Een Bitcoin upgrade die handtekeninggegevens scheidt van transactiegegevens, wat de efficiëntie verbetert.
 > - _Taproot:_ Een upgrade die de privacy en schaalbaarheid van Bitcoin verbetert door complexere slimme contracten mogelijk te maken.
-> - lightning Network:_ Een tweede Layer oplossing voor snellere, goedkopere Bitcoin transacties via betaalkanalen.
+> - **Lightning Network:** Een tweede Layer oplossing voor snellere, goedkopere Bitcoin transacties via betaalkanalen.
 
 #### Conclusie
 
@@ -334,8 +334,8 @@ Een veel voorkomende misvatting is dat **Bitcoin** en **Blockchain** hetzelfde z
 > **Definities:**
 >
 
-> - blockchain:_ De onderliggende technologie die wordt gebruikt om transacties vast te leggen in een gedecentraliseerd, onveranderbaar Ledger.
-> - lightning Network:_ Een tweede Layer oplossing die de transactie-efficiëntie van Bitcoin verbetert door off-chain transacties mogelijk te maken.
+> - **blockchain:** De onderliggende technologie die wordt gebruikt om transacties vast te leggen in een gedecentraliseerd, onveranderbaar Ledger.
+> - **Lightning Network:** Een tweede Layer oplossing die de transactie-efficiëntie van Bitcoin verbetert door off-chain transacties mogelijk te maken.
 
 ### Bitcoin vs. Crypto
 
@@ -346,7 +346,7 @@ Een ander belangrijk verschil is dat **Bitcoin** is gecreëerd met als enige doe
 > **Definities:**
 >
 
-> - shitcoins:_ Shitcoins zijn cryptocurrencies met een lage waarde of van twijfelachtige kwaliteit die geen echt nut hebben. Ze zijn vaak zeer speculatief en worden soms gemaakt voor frauduleuze doeleinden of zonder een duidelijk doel, waarbij ze profiteren van de hausse op de cryptocurrency markt.
+> - **shitcoins:** Shitcoins zijn cryptocurrencies met een lage waarde of van twijfelachtige kwaliteit die geen echt nut hebben. Ze zijn vaak zeer speculatief en worden soms gemaakt voor frauduleuze doeleinden of zonder een duidelijk doel, waarbij ze profiteren van de hausse op de cryptocurrency markt.
 
 ![Image](assets/en/05.webp)
 
@@ -360,7 +360,7 @@ Een van de meest gehoorde punten van kritiek op Bitcoin is het energieverbruik**
 > **Definities:**
 >
 
-> - bitcoin Mining:_ Het proces van het valideren van transacties en het beveiligen van het netwerk door het oplossen van cryptografische puzzels, waarvoor rekenkracht nodig is.
+> - **Bitcoin Mining:** Het proces van het valideren van transacties en het beveiligen van het netwerk door het oplossen van cryptografische puzzels, waarvoor rekenkracht nodig is.
 
 ### Misvattingen over crimineel gebruik
 

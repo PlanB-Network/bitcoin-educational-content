@@ -632,7 +632,7 @@ Aadressi korduvkasutust tõlgendatakse nii, et kõik sellel aadressil blokeeritu
 
 Nagu 3. osa sissejuhatuses selgitatud, avastas selle heuristika Satoshi Nakamoto ise. Valges raamatus mainib ta lahendust, mis aitab kasutajatel vältida selle genereerimist, milleks on lihtsalt tühja aadressi kasutamine iga uue tehingu puhul:
 
-"_Täiendava tulemüürina võiks iga tehingu jaoks kasutada uut võtmepaari, et need ei oleks seotud ühise omanikuga."
+"_Täiendava tulemüürina võiks iga tehingu jaoks kasutada uut võtmepaari, et need ei oleks seotud ühise omanikuga._"
 
 ![BTC204](assets/et/055.webp)
 
@@ -1243,7 +1243,7 @@ Näiteks kui üks teie UTXO on pärit vahetusplatvormilt ja te eelistate, et pag
 
 Selle esimese punkti puhul kasutatava UTXO valimine on seega isiklik otsus, mida mõjutab see, mida olete valmis avaldama või mitte. Sildid, mida te oma UTXOdele nende saamisel annate, aitavad teil valida need, mis pärast kulutamist paljastavad ainult sellist teavet, mida te olete nõus saajale avaldama.
 
-Lisaks teabe potentsiaalsele avaldamisele vastuvõtjale mõjutab sisendite valik ka seda, mida avaldate kõigile plokiahela vaatlejatele. Kasutades oma tehingu sisenditena mitut UTXO-d, paljastate te tõepoolest, et need kuuluvad CIOH-heuristiku (Common Input Ownership Heuristic_) kohaselt ühele ja samale üksusele.
+Lisaks teabe potentsiaalsele avaldamisele vastuvõtjale mõjutab sisendite valik ka seda, mida avaldate kõigile plokiahela vaatlejatele. Kasutades oma tehingu sisenditena mitut UTXO-d, paljastate te tõepoolest, et need kuuluvad CIOH-heuristiku (**Common Input Ownership Heuristic**) kohaselt ühele ja samale üksusele.
 
 ![BTC204](assets/et/079.webp)
 
@@ -4123,7 +4123,7 @@ $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{
 
 Tegelikkuses ei pruugi Alice isegi teada, et Bobil on märgistatud aadress, sest ta kasutab lihtsalt tema esitatud staatilise aadressi teist osa, ja sel juhul on see väärtus $B_1$, mitte $B_{teksti{kulutada}}$.
 
-Maksete skaneerimiseks kasutab Bob alati oma esialgse staatilise aadressi väärtust koos $B_{\text{spend}}$ sellisel viisil:
+Maksete skaneerimiseks kasutab Bob alati oma esialgse staatilise aadressi väärtust koos **B_spend** sellisel viisil:
 
 $$ P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$
 

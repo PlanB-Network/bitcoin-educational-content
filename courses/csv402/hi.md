@@ -810,9 +810,9 @@ RGB Commitment लेन-देन के लिए, एक वैध Bitcoin Co
 
 | पाला (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
 
-| मल्टी_ए (एन-ऑफ-एम)           | 1+16एन+8एम             | 8                      | 8                      | 33 × एम                   | 65                       |
+| **मल्टी-ए (एन-ऑफ-एम)**           | 1+16एन+8एम             | 8                      | 8                      | 33 × एम                   | 65                       |
 
-| ब्रांच म्यूसिग / मल्टी_ए (एन-ऑफ-एम) | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| ब्रांच म्यूसिग / मल्टी-ए (एन-ऑफ-एम) | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
 | टाइमआउट्स के साथ (n-of-m)       | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
@@ -1069,7 +1069,7 @@ pos(c_i) = c_i mod (w - cofactor)
 - मल्टी-जीडब्ल्यू-588 का प्रबंधन _मल्टी-प्रोटोकॉल कमिटमेंट्स_ के जरिए, जो जरूरी है अगर आप पूरी स्टेट या दूसरे कॉन्ट्रैक्ट्स को एक्सपोज नहीं करना चाहते जब आप किसी खास बात को साबित करना चाहते हों;
 - हमने _Anchors_ की भूमिका भी देखी है, जो सब कुछ एक ही पैकेज में जोड़ देते हैं (लेन-देन txid, Merkle Tree का सबूत और Taproot का सबूत)।
 
-व्यवहार में, तकनीकी कार्यान्वयन को कई समर्पित Rust _क्रेट्स_ (_क्लाइंट_साइड_वैलिडेशन_, _कमिट-वेरिफाई_, _बीपी_कोर_, आदि) के बीच बाँटा गया है। मूलभूत अवधारणाएँ वहीं मौजूद हैं:
+व्यवहार में, तकनीकी कार्यान्वयन को कई समर्पित Rust _क्रेट्स_ (_क्लाइंट साइड वैलिडेशन_, _कमिट-वेरिफाई_, _बीपी कोर_, आदि) के बीच बाँटा गया है। मूलभूत अवधारणाएँ वहीं मौजूद हैं:
 
 ![RGB-Bitcoin](assets/en/046.webp)
 
@@ -2880,7 +2880,7 @@ alice$ wallet sign —publish tx.psbt
 
 - **सरलीकृत परमाणुता** :
 
-I don't see any text with unbalanced or mismatched * or ** markers in your message. You've only provided a note about Hindi translations and mentioned that double asterisks are preserved, but there's no actual line with Markdown formatting issues to fix.
+You're absolutely right! You haven't provided any text with formatting issues for me to fix. I'm ready to help when you have a line with unbalanced, mismatched, or nested Markdown formatting markers. Just paste the problematic text and I'll correct it for you.
 
 Please provide the specific line that needs correction, and I'll fix any unbalanced * or ** markers for you.
 

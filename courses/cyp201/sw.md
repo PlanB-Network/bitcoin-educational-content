@@ -615,7 +615,7 @@ Kwenye wallets za Bitcoin, algorithms 2 za derivation hutumiwa:
 
 
 - **HMAC (Msimbo wa Uthibitishaji wa Ujumbe msingi wa Hash)**
-- **PBKDF2** (_Matendo ya Utoaji wa Ufunguo (Key) 2_ kwa Msingi wa Nenosiri 2_)
+- **PBKDF2** (_Matendo ya Utoaji wa Ufunguo (Key) 2 kwa Msingi wa Nenosiri 2_)
 
 Tutachunguza kwa pamoja utendaji na jukumu la kila mmoja wao.
 
@@ -1433,7 +1433,7 @@ Mara tu maneno ya Mnemonic na passphrase ya hiari yanapozalishwa, mchakato wa ku
 
 ### seed ya HD Wallet
 
-Kiwango cha BIP39 Kina (depth)fafanua seed kama mlolongo wa 512-bit, ambayo hutumika kama sehemu ya kuanzia ya kupata funguo zote za HD Wallet. seed inatokana na maneno ya Mnemonic na passphrase inayowezekana kwa kutumia algoriti ya **PBKDF2** (_Kazi 2_ ya Utoaji Muhimu wa Nenosiri 2_) ambayo tayari tumeijadili katika sura ya 3.3. Katika kazi hii ya derivation, tutatumia vigezo vifuatavyo:
+Kiwango cha BIP39 Kina (depth)fafanua seed kama mlolongo wa 512-bit, ambayo hutumika kama sehemu ya kuanzia ya kupata funguo zote za HD Wallet. seed inatokana na maneno ya Mnemonic na passphrase inayowezekana kwa kutumia algoriti ya **PBKDF2** (**Kazi 2 ya Utoaji Muhimu wa Nenosiri 2**) ambayo tayari tumeijadili katika sura ya 3.3. Katika kazi hii ya derivation, tutatumia vigezo vifuatavyo:
 
 
 - $m$ : maneno ya Mnemonic;

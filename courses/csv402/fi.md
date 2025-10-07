@@ -467,7 +467,7 @@ RGB:n parissa työskennellessämme löysimme ainakin neljä erilaista tapaa tote
 | PkI           | Julkisen avaimen arvo     | Tapahtuman sisääntulo   | Vain Taproot & ei yhteensopiva perinteisten lompakoiden kanssa  | Bitcoin-pohjaiset identiteetit | Sigtweak, witweak                |
 | TxO1          | Tapahtuman ulostulo       | Tapahtuman sisääntulo   | Vain Taproot & ei yhteensopiva perinteisten lompakoiden kanssa  | Ei vielä käytössä          | Sigtweak, witweak                 |
 
-Emme mene yksityiskohtaisesti kuhunkin näistä konfiguraatioista, sillä RGB:ssä olemme päättäneet käyttää **ulkopistettä_ tiivisteen määritelmänä** ja sijoittaa _sitoumuksen_ transaktion ulostuloon, joka kuluttaa tämän _ulkopisteen_. Voimme siis ottaa käyttöön seuraavat käsitteet jatkoa varten:
+Emme mene yksityiskohtaisesti kuhunkin näistä konfiguraatioista, sillä RGB:ssä olemme päättäneet käyttää **ulkopistettä tiivisteen määritelmänä** ja sijoittaa _sitoumuksen_ transaktion ulostuloon, joka kuluttaa tämän _ulkopisteen_. Voimme siis ottaa käyttöön seuraavat käsitteet jatkoa varten:
 
 
 - **"Sinetin määritelmä"**: Tietty _ulostulopiste_ (tunnistettu TXID + lähtönumero) ;
@@ -549,7 +549,7 @@ Edellisessä jaksossa mainittiin lyhyesti, miten asiakaspuolen validointimallia 
 
 Kun annat jollekin todisteen siitä, että tietty viesti sisältyy transaktioon, sinun on pystyttävä takaamaan, että samassa transaktiossa ei ole toista sitoutumisen muotoa (toista, piilotettua viestiä), jota ei ole paljastettu sinulle. Jotta asiakaspuolen validointi pysyisi vankkana, tarvitaan **deterministinen** mekanismi, jolla transaktioon voidaan sijoittaa yksittäinen _sitoumus_, joka sulkee _kertakäyttöisen sinetin_.
 
-Todistajatapahtuma_ kuluttaa kuuluisan UTXO:n (tai _sinetin määrittelyn_), ja tämä kulu vastaa sinetin sulkemista. Teknisesti ottaen tiedämme, että kukin ulostulopiste voidaan käyttää vain kerran. Juuri tämä on Bitcoinin kaksinkertaisen kuluttamisen vastustuskyvyn perusta. Kulutustapahtumalla voi kuitenkin olla useita _sisäänmenoja_, useita _ulostuloja_ tai se voi koostua monimutkaisella tavalla (kolikkoliitokset, Lightning-kanavat jne.). Siksi meidän on määriteltävä selkeästi, mihin kohtaan _sitoumus_ lisätään tässä rakenteessa, yksiselitteisesti ja yhdenmukaisesti.
+Todistajatapahtuma kuluttaa kuuluisan UTXO:n (tai **sinetin määrittelyn**), ja tämä kulu vastaa sinetin sulkemista. Teknisesti ottaen tiedämme, että kukin ulostulopiste voidaan käyttää vain kerran. Juuri tämä on Bitcoinin kaksinkertaisen kuluttamisen vastustuskyvyn perusta. Kulutustapahtumalla voi kuitenkin olla useita **sisäänmenoja**, useita **ulostuloja** tai se voi koostua monimutkaisella tavalla (kolikkoliitokset, Lightning-kanavat jne.). Siksi meidän on määriteltävä selkeästi, mihin kohtaan **sitoumus** lisätään tässä rakenteessa, yksiselitteisesti ja yhdenmukaisesti.
 
 Menetelmästä riippumatta (PkO, TxO2 jne.), _sitoumus_ voidaan lisätä :
 
@@ -589,7 +589,7 @@ Käytännössä **sig tweak** ei myöskään ole kovin yhteensopiva nykyisten la
 **Tärkein parannus** on historiallinen käsite _pay-to-contract_. Otetaan julkinen avain `X` ja muokataan sitä lisäämällä siihen arvo `H(viesti)`. Jos `X = x * G` ja `h = H(viesti)`, uusi avain on `X' = X + h * G`. Tämä muokattu avain kätkee `viestiin` sitoutumisen. Alkuperäisen yksityisen avaimen haltija voi lisäämällä `h` yksityiseen avaimeensa `x` todistaa, että hänellä on avain, jolla hän voi käyttää tuloksen. Teoriassa tämä on tyylikästä, koska :
 
 
-- Sitoumus_ syötetään ilman lisäkenttien lisäämistä;
+- **Sitoumus** syötetään ilman lisäkenttien lisäämistä;
 - Et tallenna ketjussa mitään ylimääräisiä tietoja.
 
 Käytännössä törmäämme kuitenkin seuraaviin ongelmiin:
@@ -928,7 +928,7 @@ Tällä mekanismilla varmistetaan, että :
 
 #### Yhteenveto MPC:n rakenteesta
 
-Multi Protocol Commitment* (MPC) on periaate, jonka avulla RGB voi yhdistää useita sopimuksia yhdeksi Bitcoin-tapahtumaksi säilyttäen samalla sitoumusten ainutlaatuisuuden ja luottamuksellisuuden muihin osallistujiin nähden. Puun deterministisen rakenteen ansiosta jokaiselle sopimukselle annetaan yksilöllinen asema, ja "tyhjien" lehtien (*Entropy Leaves*) läsnäolo peittää osittain transaktioon osallistuvien sopimusten kokonaismäärän.
+Multi Protocol Commitment (MPC) on periaate, jonka avulla RGB voi yhdistää useita sopimuksia yhdeksi Bitcoin-tapahtumaksi säilyttäen samalla sitoumusten ainutlaatuisuuden ja luottamuksellisuuden muihin osallistujiin nähden. Puun deterministisen rakenteen ansiosta jokaiselle sopimukselle annetaan yksilöllinen asema, ja "tyhjien" lehtien (*Entropy Leaves*) läsnäolo peittää osittain transaktioon osallistuvien sopimusten kokonaismäärän.
 
 Koko Merkle-puuta ei koskaan tallenneta asiakkaalle. Luomme vain _Merkle-polun_ kullekin kyseiselle sopimukselle, joka toimitetaan vastaanottajalle (joka voi sitten validoida sitoumuksen). Joissakin tapauksissa sinulla voi olla useita omaisuuseriä, jotka ovat kulkeneet saman UTXO:n kautta. Tällöin voit yhdistää useita _Merkle-polkuja_ ns. moniprotokollasitoumuslohkoksi, jotta vältytään liialliselta tietojen päällekkäisyydeltä.
 
@@ -2846,7 +2846,7 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 Analysoidaanpa tätä URL-osoitetta:
 
 
-- `rgb:`** (etuliite): ilmaisee linkin, joka käyttää RGB-protokollaa (analogisesti `http:` tai `bitcoin:` muissa yhteyksissä);
+- **`rgb:`** (etuliite): ilmaisee linkin, joka käyttää RGB-protokollaa (analogisesti `http:` tai `bitcoin:` muissa yhteyksissä);
 - **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: edustaa sen tunnuksen `ContractId`, jota haluat käsitellä;
 - `/RGB20/100`: ilmaisee, että käytetään `RGB20`-rajapintaa ja että hyödykettä pyydetään 100 yksikköä. Syntaksi on: `/Interface/amount` ;
 - `+utxob:`**: määrittää, että vastaanottavaa UTXO:ta (tai tarkemmin sanottuna kertakäyttösinetin määritelmää) koskevat tiedot lisätään;**
@@ -2877,7 +2877,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Tässä näemme :
 
 
-- `rgb:`**: URL-etuliite ;
+- **`rgb:`**: URL-etuliite ;
 - `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`: **Sopimuksen tunnus (NFT)** ;
 - **rGB21**: käyttöliittymä sienettömille omaisuuserille (NFT);
 - `DbwzvSu-4BZU81jEp-...`: **nimenomainen viittaus NFT:n yksilöivään osaan, esimerkiksi datatiedoston (media, metatiedot...) hash-tietueeseen;**

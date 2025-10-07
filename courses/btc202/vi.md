@@ -388,9 +388,9 @@ Theo [dữ liệu được thu thập vào tháng 8 năm 2025 bởi Luke Dashjr]
 
 
 
-- Bitcoin core**: 87,3% số nút
-- Bitcoin Knots**: 12,5
-- Các triển khai tích lũy khác**: 0,2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87,3% số nút
+- **Bitcoin Knots**: 12,5
+- **Các triển khai tích lũy khác**: 0,2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Nói cách khác, khoảng 9/10 nút công khai đang chạy Bitcoin core. Phầ
 
 
 
-**Lưu ý:** Tuy nhiên, những con số này vẫn chỉ là ước tính, vì chúng chủ yếu dựa trên các *nút lắng nghe*, tức là các nút chấp nhận kết nối đến (với cổng 8333 mở). Việc đếm các nút không lắng nghe* phức tạp hơn nhiều, vì không thể kết nối trực tiếp với chúng: bạn phải chờ chúng chủ động, dưới dạng kết nối đi. Trang web của Luke Dashjr tuyên bố cũng đang cố gắng đếm các *nút không lắng nghe* này, nhưng vẫn không thể có được dữ liệu hoàn toàn chính xác về chúng, và việc cập nhật các số liệu thống kê này chắc chắn sẽ chậm trễ so với thực tế.
+**Lưu ý:** Tuy nhiên, những con số này vẫn chỉ là ước tính, vì chúng chủ yếu dựa trên các *nút lắng nghe*, tức là các nút chấp nhận kết nối đến (với cổng 8333 mở). Việc đếm các *nút không lắng nghe* phức tạp hơn nhiều, vì không thể kết nối trực tiếp với chúng: bạn phải chờ chúng chủ động, dưới dạng kết nối đi. Trang web của Luke Dashjr tuyên bố cũng đang cố gắng đếm các *nút không lắng nghe* này, nhưng vẫn không thể có được dữ liệu hoàn toàn chính xác về chúng, và việc cập nhật các số liệu thống kê này chắc chắn sẽ chậm trễ so với thực tế.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core được viết bằng C++. Đây cũng là một dự án nguồn 
 
 
 
-- Người đóng góp** gửi đề xuất dưới dạng _yêu cầu kéo_ (PR). Về nguyên tắc, bất kỳ ai cũng có thể đề xuất thay đổi, nhưng phải được kiểm tra, ghi chép và trải qua quy trình đánh giá ngang hàng.
+- **Người đóng góp** gửi đề xuất dưới dạng _yêu cầu kéo_ (PR). Về nguyên tắc, bất kỳ ai cũng có thể đề xuất thay đổi, nhưng phải được kiểm tra, ghi chép và trải qua quy trình đánh giá ngang hàng.
 - **Người bảo trì** có quyền phê duyệt và hợp nhất các PR. Họ là những người đảm bảo tính nhất quán và ổn định của dự án. Tính đến tháng 7 năm 2025, có năm người trong số họ: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao và Ryan Ofsky.
 - Không có **người bảo trì chính** nào kể từ tháng 2 năm 2023. Vai trò này ban đầu do Satoshi Nakamoto đảm nhiệm khi ra mắt Bitcoin, sau đó là Gavin Andresen sau khi Nakamoto rời đi vào đầu năm 2011, và cuối cùng là Wladimir J. Van Der Laan từ năm 2014 đến năm 2023.
 
@@ -446,9 +446,9 @@ Chúng ta cũng có thể đề cập đến:
 
 
 
-- Libbitcoin**: một thư viện C++ dạng mô-đun được phát triển bởi Amir Taaki và được bảo trì bởi Eric Voskuil;
-- Bcoin**: một triển khai JavaScript, hiện không còn được duy trì tích cực;
-- BTCD/btcsuit**e: một triển khai trong Go.
+- **Libbitcoin**: một thư viện C++ dạng mô-đun được phát triển bởi Amir Taaki và được bảo trì bởi Eric Voskuil;
+- **Bcoin**: một triển khai JavaScript, hiện không còn được duy trì tích cực;
+- **BTCD/btcsuite**: một triển khai trong Go.
 
 
 
@@ -590,7 +590,7 @@ Một khía cạnh quan trọng, thường bị hiểu lầm, là việc vận h
 
 
 
-- Quy tắc đồng thuận**:
+- **Quy tắc đồng thuận**:
 
 
 
@@ -604,7 +604,7 @@ Việc thay đổi các quy tắc này tương đương với việc thay đổi
 
 
 
-- Quy tắc tiếp sức**:
+- **Quy tắc tiếp sức**:
 
 
 
@@ -616,7 +616,7 @@ Ví dụ, một giao dịch không mất phí, theo quy tắc đồng thuận, h
 
 
 
-Việc tự tạo nút của riêng bạn có nghĩa là khẳng định: "Tôi xác thực những gì tôi chọn xác thực, theo các quy tắc mà chính tôi đã áp dụng"*. Do đó, bạn trở thành một tác nhân trong việc quản trị hệ thống, có thể từ chối một sự phát triển mà bạn cho là không thể chấp nhận được, hoặc phê duyệt một bản cập nhật theo tiêu chí của riêng bạn.
+Việc tự tạo nút của riêng bạn có nghĩa là khẳng định: "Tôi xác thực những gì tôi chọn xác thực, theo các quy tắc mà chính tôi đã áp dụng". Do đó, bạn trở thành một tác nhân trong việc quản trị hệ thống, có thể từ chối một sự phát triển mà bạn cho là không thể chấp nhận được, hoặc phê duyệt một bản cập nhật theo tiêu chí của riêng bạn.
 
 
 
@@ -882,8 +882,8 @@ Có 2 lý do để chọn Knots thay vì Core:
 
 
 
-- Kỹ thuật**: Các tùy chọn khác nhau từ Core, đặc biệt là về mặt quản lý chuyển tiếp, bằng cách xác định giao dịch nào được nút của bạn chấp nhận và phát đi.
-- Chính sách**: Một số người thích sử dụng các máy khách thay thế như Knots vì những lý do phi kỹ thuật, đặc biệt là để hỗ trợ một giải pháp thay thế cho Core và do đó giảm bớt sự độc quyền của nó. Nếu Core bị xâm phạm, việc có các máy khách thay thế vững chắc, được bảo trì tốt sẽ rất hữu ích không chỉ mà còn phải biết cách sử dụng chúng một cách hiệu quả. Những người khác sử dụng Knots cho mục đích phản đối, vì họ đã mất niềm tin vào các nhà phát triển của Core hoặc không đồng tình với phần lớn ban quản lý của máy khách.
+- **Kỹ thuật**: Các tùy chọn khác nhau từ Core, đặc biệt là về mặt quản lý chuyển tiếp, bằng cách xác định giao dịch nào được nút của bạn chấp nhận và phát đi.
+- **Chính sách**: Một số người thích sử dụng các máy khách thay thế như Knots vì những lý do phi kỹ thuật, đặc biệt là để hỗ trợ một giải pháp thay thế cho Core và do đó giảm bớt sự độc quyền của nó. Nếu Core bị xâm phạm, việc có các máy khách thay thế vững chắc, được bảo trì tốt sẽ rất hữu ích không chỉ mà còn phải biết cách sử dụng chúng một cách hiệu quả. Những người khác sử dụng Knots cho mục đích phản đối, vì họ đã mất niềm tin vào các nhà phát triển của Core hoặc không đồng tình với phần lớn ban quản lý của máy khách.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel có thể giữ nguyên thiết kế tối giản và chỉ tập trung v
 
 
 
-- Nút Bitcoin đơn giản**: đây là ứng dụng nền tảng mà Umbrel đã dựa vào ngay từ đầu. Bạn có thể chạy Bitcoin core (hoặc Knots), kết nối ví trực tiếp với nút, hiển thị máy chủ Electrum, lưu trữ Mempool Block explorer để xem Blockchain và ước tính chi phí... Chúng ta sẽ tập trung vào những ứng dụng này trong khóa học này.
+- **Nút Bitcoin đơn giản**: đây là ứng dụng nền tảng mà Umbrel đã dựa vào ngay từ đầu. Bạn có thể chạy Bitcoin core (hoặc Knots), kết nối ví trực tiếp với nút, hiển thị máy chủ Electrum, lưu trữ Mempool Block explorer để xem Blockchain và ước tính chi phí... Chúng ta sẽ tập trung vào những ứng dụng này trong khóa học này.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel có thể giữ nguyên thiết kế tối giản và chỉ tập trung v
 
 
 
-- Lightning Network**: Umbrel cũng cho phép bạn triển khai LND hoặc Core Lightning, hai phiên bản triển khai của Lightning Network, để quản lý node Lightning của riêng bạn. Bạn sẽ có thể mở kênh, quản lý thanh khoản, thực hiện thanh toán, tự động cân bằng, cung cấp dịch vụ, kết nối Wallet từ xa hoặc tận dụng tính năng quản lý Interface tiên tiến nhờ vào nhiều ứng dụng có sẵn. Chúng ta sẽ xem xét trường hợp sử dụng cụ thể này trong khóa học LNP 202 tiếp theo.
+- **Lightning Network**: Umbrel cũng cho phép bạn triển khai LND hoặc Core Lightning, hai phiên bản triển khai của Lightning Network, để quản lý node Lightning của riêng bạn. Bạn sẽ có thể mở kênh, quản lý thanh khoản, thực hiện thanh toán, tự động cân bằng, cung cấp dịch vụ, kết nối Wallet từ xa hoặc tận dụng tính năng quản lý Interface tiên tiến nhờ vào nhiều ứng dụng có sẵn. Chúng ta sẽ xem xét trường hợp sử dụng cụ thể này trong khóa học LNP 202 tiếp theo.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel có thể giữ nguyên thiết kế tối giản và chỉ tập trung v
 
 
 
-- Tự lưu trữ chung**: với Nextcloud, Immich, Jellyfin/Plex, trình chặn quảng cáo toàn DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), tự động hóa nhà (Home Assistant), sao lưu, quản lý ghi chú, công cụ văn phòng, AI cục bộ (Ollama + Open WebUI)... Umbrel có thể trở thành máy chủ cá nhân của bạn, cho phép bạn lấy lại quyền kiểm soát dữ liệu. Bạn tự lưu trữ các dịch vụ bạn sử dụng hàng ngày, với trải nghiệm người dùng được trau chuốt gần giống với các giải pháp bên ngoài, đồng thời vẫn giữ được toàn quyền kiểm soát dữ liệu và quyền riêng tư của mình.
+- **Tự lưu trữ chung**: với Nextcloud, Immich, Jellyfin/Plex, trình chặn quảng cáo toàn DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), tự động hóa nhà (Home Assistant), sao lưu, quản lý ghi chú, công cụ văn phòng, AI cục bộ (Ollama + Open WebUI)... Umbrel có thể trở thành máy chủ cá nhân của bạn, cho phép bạn lấy lại quyền kiểm soát dữ liệu. Bạn tự lưu trữ các dịch vụ bạn sử dụng hàng ngày, với trải nghiệm người dùng được trau chuốt gần giống với các giải pháp bên ngoài, đồng thời vẫn giữ được toàn quyền kiểm soát dữ liệu và quyền riêng tư của mình.
 
 
 
@@ -1759,8 +1759,8 @@ Trước khi khởi động lại thiết bị, hãy kiểm tra hai điểm sau:
 
 
 
-- Ổ USB không được rút ra**: nếu ổ USB vẫn được kết nối, hệ thống có thể khởi động lại trên ổ USB đó thay vì ổ đĩa bên trong;
-- Cáp Ethernet đã được cắm vào**: thiết bị phải được kết nối với bộ định tuyến để hoạt động.
+- **Ổ USB không được rút ra**: nếu ổ USB vẫn được kết nối, hệ thống có thể khởi động lại trên ổ USB đó thay vì ổ đĩa bên trong;
+- **Cáp Ethernet đã được cắm vào**: thiết bị phải được kết nối với bộ định tuyến để hoạt động.
 
 
 
@@ -2285,9 +2285,9 @@ Sau đó, bạn sẽ khám phá ra ba tùy chọn để liên kết phần mềm
 
 
 
-- Máy chủ công cộng* (màu vàng): theo mặc định, nếu bạn không sở hữu node Bitcoin, tùy chọn này sẽ kết nối bạn với một node công cộng mà bạn không sở hữu (thường là của công ty). Tùy chọn này không liên quan ở đây, vì bạn đã có node riêng trên Umbrel.
-- Bitcoin core* (Green): tùy chọn này tương ứng với kết nối qua Interface RPC, tức là trực tiếp tới Bitcoin core.
-- Electrum riêng tư* (màu xanh): tùy chọn này cho phép bạn kết nối thông qua Máy chủ Electrum Interface của người lập chỉ mục (Electrs hoặc Fulcrum).
+- **Máy chủ công cộng** (màu vàng): theo mặc định, nếu bạn không sở hữu node Bitcoin, tùy chọn này sẽ kết nối bạn với một node công cộng mà bạn không sở hữu (thường là của công ty). Tùy chọn này không liên quan ở đây, vì bạn đã có node riêng trên Umbrel.
+- **Bitcoin core** (Green): tùy chọn này tương ứng với kết nối qua Interface RPC, tức là trực tiếp tới Bitcoin core.
+- **Electrum riêng tư** (màu xanh): tùy chọn này cho phép bạn kết nối thông qua Máy chủ Electrum Interface của người lập chỉ mục (Electrs hoặc Fulcrum).
 
 
 

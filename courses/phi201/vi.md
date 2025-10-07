@@ -143,7 +143,7 @@ Bastiat cho chúng ta biết vẫn còn hai hình thức cướp đoạt hợp p
 
 > Cướp đoạt từ bên ngoài được gọi là chiến tranh, chinh phục, thuộc địa. Cướp bóc từ bên trong được gọi là thuế, chức vụ, độc quyền. ([_Cobden và Liên đoàn, Giới thiệu - Cobden et la ligue, Introduction_](http://bastiat.org/fr/introduction_cobden_ligue.html)).
 
-Trong [_Triết học về Cướp đoạt - Physiologie de la Spoliation__](http://bastiat.org/fr/physiologie_de_la_spoliation.html), ông đã mở rộng:
+Trong [_Triết học về Cướp đoạt - Physiologie de la Spoliation_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), ông đã mở rộng:
 > Luật chân chính và công bằng của con người là: Trao đổi các dịch vụ một cách tự do. Cướp đoạt là việc cấm quyền tự do trao đổi, tranh luật bằng vũ lực hoặc lừa dối để được nhận dịch vụ mà không cần phải phải đáp lại. Cướp đoạt bằng vũ lực được thực hiện như sau: Người ta chờ đợi một người sản xuất ra thứ gì đó, sau đó giật lấy nó từ anh ta, với vũ khí trong tay. Hành động này chính thức bị nghiêm cấm trong Mười Điều Răn: Ngươi không được ăn cắp. Khi điều này xảy ra giữa các cá nhân, nó được gọi là trộm cắp và dẫn đến tù tội; khi nó diễn ra giữa các quốc gia, nó được gọi là chinh phục và dẫn đến vinh quang.
 
 ### Lịch sử của cướp đoạt

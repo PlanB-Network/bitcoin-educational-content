@@ -319,7 +319,7 @@ Het allereerste veld in de header heet Version. Deze 4-bits waarde geeft aan wel
 | 10–14          | Unassigned | Unassigned                  |                         |
 | 15             | Reserved   | Reserved                    |                         |
 
-Een daarvan is IPv5, dat, hoewel grotendeels onbekend bij het publiek, al bestond als ST (_Stream Protocol_). IPv5 werd ontwikkeld in de jaren 80 en was bedoeld om te voldoen aan een groeiende behoefte in die tijd: het bieden van "Quality of Service_" (QoS) voor bepaalde gegevensstromen die een continue, stabiele overdracht vereisten, zoals Voice over IP of multimediastromen. Het doel was om end-to-end bandbreedte en prioriteit te garanderen, een concept dat vergelijkbaar is met wat RSVP (_Resource Reservation Protocol_) tegenwoordig biedt voor het dynamisch reserveren van netwerkbronnen op moderne routers.
+Een daarvan is IPv5, dat, hoewel grotendeels onbekend bij het publiek, al bestond als ST (_Stream Protocol_). IPv5 werd ontwikkeld in de jaren 80 en was bedoeld om te voldoen aan een groeiende behoefte in die tijd: het bieden van "Quality of Service" (QoS) voor bepaalde gegevensstromen die een continue, stabiele overdracht vereisten, zoals Voice over IP of multimediastromen. Het doel was om end-to-end bandbreedte en prioriteit te garanderen, een concept dat vergelijkbaar is met wat RSVP (_Resource Reservation Protocol_) tegenwoordig biedt voor het dynamisch reserveren van netwerkbronnen op moderne routers.
 
 
 IPv5 bleef echter experimenteel en werd slechts op een klein aantal netwerkapparaten geïmplementeerd. De beperkte acceptatie, gecombineerd met de snel groeiende behoefte aan meer Address ruimte, bracht internetontwerpers ertoe om direct over te stappen van IPv4 naar IPv6. Dit omzeilde zowel de Address beperkingen van IPv4 als elk risico op verwarring of incompatibiliteit met de experimentele specificaties van IPv5.
@@ -892,7 +892,7 @@ IP-adressen kunnen op twee manieren worden toegewezen:
 **IPv4**-adressen worden geschreven in een **32-bits** formaat opgedeeld in **vier bytes**. Elke byte bevat 8 bits en staat voor een decimaal getal van 0 tot 255. De 4 bytes worden gescheiden door punten om een duidelijke, leesbare notatie te vormen.
 
 
-voorbeeld: Address 172.16.254.1_
+voorbeeld: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Tot slot omvatten dynamische routeringsprotocollen standaarden zoals RIP (_Routi
 ### Definitie
 
 
-Network Address Translation_ (NAT) is een techniek ontwikkeld om Address de geleidelijke uitputting van beschikbare IPv4-adressen tegen te gaan. NAT werd ontworpen als een tijdelijke oplossing vóór de wijdverspreide invoering van IPv6 en stelde bedrijven en individuen in staat om grote aantallen machines te blijven verbinden terwijl ze slechts een beperkte reeks openbare IP-adressen gebruikten.
+**Network Address Translation** (NAT) is een techniek ontwikkeld om de geleidelijke uitputting van beschikbare IPv4-adressen tegen te gaan. NAT werd ontworpen als een tijdelijke oplossing vóór de wijdverspreide invoering van IPv6 en stelde bedrijven en individuen in staat om grote aantallen machines te blijven verbinden terwijl ze slechts een beperkte reeks openbare IP-adressen gebruikten.
 
 
 **Belangrijke herinnering:** de overgang van IPv4 naar IPv6 lost theoretisch het uitputtingsprobleem op door de Address ruimte uit te breiden van 32 bits naar 128 bits, wat een bijna onbeperkt aantal adressen oplevert (2^128). In de praktijk is de overgang echter nog steeds onvolledig en NAT wordt nog steeds veel gebruikt.
@@ -1295,7 +1295,7 @@ Elke entry in deze tabel verbindt minstens één paar: de interne IP Address van
 Dit dynamische vertalingsprincipe berust op nauwkeurig tabelbeheer: elk item blijft geldig zolang er actief verkeer is om het te rechtvaardigen. Na een configureerbare periode van inactiviteit wordt de entry gewist en kan hij opnieuw gebruikt worden voor nieuwe verbindingen.
 
 
-voorbeeld van een vereenvoudigde NAT-vertaaltabel:_
+voorbeeld van een vereenvoudigde NAT-vertaaltabel:
 
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
@@ -1327,7 +1327,7 @@ In het algemeen zal elk protocol dat expliciet de interne IP Address in de paylo
 **Let op:** Hoewel NAT helpt om het interne netwerk te verbergen en binnenkomend verkeer te controleren, is het geen vervanging voor een toegewijde firewall. Translation alleen is geen volledige veiligheidsbarrière: het moet altijd aangevuld worden met duidelijke filterregels om ongevraagd of ongewenst verkeer te blokkeren.
 
 
-om te illustreren hoe dit in de praktijk werkt, kun je het volgende voorbeeld bekijken:_
+om te illustreren hoe dit in de praktijk werkt, kun je het volgende voorbeeld bekijken:
 
 
 

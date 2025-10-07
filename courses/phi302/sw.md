@@ -380,7 +380,7 @@ Kuna mantra ambayo bitcoiners wengi hujiandikisha, ambayo inachukua vizuri mengi
 
 > Usiamini, thibitisha.
 
-Hii inarejelea maneno "[tumaini, lakini thibitisha](https://en.wikipedia.org/wiki/Trust,_but_verify)" ambayo rais wa zamani wa Marekani Ronald Reagan alitumia katika muktadha wa upokonyaji silaha za nyuklia. [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) ilibadilisha ili kuangazia kukataliwa kwa uaminifu na umuhimu wa kuendesha Full node.
+Hii inarejelea maneno **"tumaini, lakini thibitisha"** ambayo rais wa zamani wa Marekani Ronald Reagan alitumia katika muktadha wa upokonyaji silaha za nyuklia. **Bitcoiners** ilibadilisha ili kuangazia kukataliwa kwa uaminifu na umuhimu wa kuendesha Full node.
 
 
 Ni juu ya watumiaji kuamua ni kwa kiwango gani wanataka kuthibitisha programu wanayotumia na data ya Blockchain wanayopokea. Kama ilivyo kwa vitu vingine vingi katika Bitcoin, kuna biashara kati ya urahisi na kutokuwa na uaminifu. Karibu kila wakati ni rahisi zaidi kutumia wallet ya uangalizi ikilinganishwa na kuendesha Bitcoin Core kwenye maunzi yako mwenyewe. Hata hivyo, kwa kuwa programu ya Bitcoin inapevuka na miingiliano ya watumiaji inaboreka, baada ya muda inapaswa kuwa bora katika kusaidia watumiaji walio tayari kufanya kazi kuelekea kutokuwa na uaminifu. Pia, watumiaji wanapopata maarifa zaidi baada ya muda, wanapaswa kuwa na uwezo wa kuondoa uaminifu hatua kwa hatua kutoka kwa mlinganyo.

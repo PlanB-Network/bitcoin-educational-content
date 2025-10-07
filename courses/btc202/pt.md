@@ -388,9 +388,9 @@ De acordo com [dados recolhidos em agosto de 2025 por Luke Dashjr](https://luke.
 
 
 
-- Bitcoin core**: 87.3% dos nós
-- Bitcoin Knots**: 12.5
-- Outras implementações cumulativas**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% dos nós
+- **Bitcoin Knots**: 12.5
+- **Outras implementações cumulativas**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Por outras palavras, cerca de 9 em cada 10 nós públicos estão a executar o Bi
 
 
 
-**Nota:** No entanto, estes números ainda são estimativas, uma vez que se baseiam principalmente em *nós ouvintes*, ou seja, nós que aceitam ligações de entrada (com a porta 8333 aberta). Os nós não ouvintes* são muito mais complexos de contabilizar, uma vez que é impossível ligar diretamente a eles: é preciso esperar que a iniciativa venha deles, sob a forma de uma ligação de saída. O site de Luke Dashjr afirma estar a tentar contar também estes *nós não ouvintes*, mas continua a ser impossível obter dados perfeitamente exactos sobre eles, e a atualização destas estatísticas está inevitavelmente atrasada em relação à realidade.
+**Nota:** No entanto, estes números ainda são estimativas, uma vez que se baseiam principalmente em *nós ouvintes*, ou seja, nós que aceitam ligações de entrada (com a porta 8333 aberta). Os *nós não ouvintes* são muito mais complexos de contabilizar, uma vez que é impossível ligar diretamente a eles: é preciso esperar que a iniciativa venha deles, sob a forma de uma ligação de saída. O site de Luke Dashjr afirma estar a tentar contar também estes *nós não ouvintes*, mas continua a ser impossível obter dados perfeitamente exactos sobre eles, e a atualização destas estatísticas está inevitavelmente atrasada em relação à realidade.
 
 
 
@@ -415,7 +415,7 @@ O Bitcoin core é escrito em C++. É também um projeto de código aberto que é
 
 
 
-- Os colaboradores** apresentam propostas sob a forma de _pull requests_ (PR). Em princípio, qualquer pessoa pode propor uma alteração, mas esta tem de ser testada, documentada e passar por um processo de revisão por pares.
+- Os **colaboradores** apresentam propostas sob a forma de _pull requests_ (PR). Em princípio, qualquer pessoa pode propor uma alteração, mas esta tem de ser testada, documentada e passar por um processo de revisão por pares.
 - Os **mantenedores** têm o direito de aprovar e fundir PRs. São eles que garantem a coerência e a estabilidade do projeto. Em julho de 2025, são cinco: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao e Ryan Ofsky.
 - Não existe um **principal mantenedor** desde fevereiro de 2023. Esta função foi inicialmente ocupada por Satoshi Nakamoto no lançamento do Bitcoin, depois por Gavin Andresen após a saída de Nakamoto no início de 2011 e, finalmente, por Wladimir J. Van Der Laan de 2014 a 2023.
 
@@ -446,9 +446,9 @@ Podemos também mencionar:
 
 
 
-- Libbitcoin**: uma biblioteca modular C++ desenvolvida por Amir Taaki e mantida por Eric Voskuil;
-- Bcoin**: uma implementação JavaScript, que já não é mantida ativamente;
-- BTCD/btcsuit**e: uma implementação em Go.
+- **Libbitcoin**: uma biblioteca modular C++ desenvolvida por Amir Taaki e mantida por Eric Voskuil;
+- **Bcoin**: uma implementação JavaScript, que já não é mantida ativamente;
+- **BTCD/btcsuite**: uma implementação em Go.
 
 
 
@@ -590,7 +590,7 @@ Um aspeto importante, muitas vezes mal compreendido, é que o funcionamento de u
 
 
 
-- Regras de consenso**:
+- **Regras de consenso**:
 
 
 
@@ -604,7 +604,7 @@ Alterar estas regras equivale a alterar o protocolo e, por conseguinte, a moeda 
 
 
 
-- Regras de estafetas**:
+- **Regras de estafetas**:
 
 
 
@@ -616,7 +616,7 @@ Por exemplo, uma transação sem taxas é, de acordo com as regras de consenso, 
 
 
 
-Rodar o seu próprio nó significa afirmar: "Eu valido o que escolho validar, de acordo com as regras que eu próprio adoptei "*. Torna-se assim um ator na governação do sistema, capaz de rejeitar uma evolução que lhe pareça inaceitável ou de aprovar uma atualização de acordo com os seus próprios critérios.
+Rodar o seu próprio nó significa afirmar: "Eu valido o que escolho validar, de acordo com as regras que eu próprio adoptei". Torna-se assim um ator na governação do sistema, capaz de rejeitar uma evolução que lhe pareça inaceitável ou de aprovar uma atualização de acordo com os seus próprios critérios.
 
 
 
@@ -882,8 +882,8 @@ Existem 2 razões possíveis para escolher Knots em vez de Core:
 
 
 
-- Técnicas**: Opções diferentes do Core, nomeadamente em termos de gestão de retransmissões, determinando quais as transacções que são aceites e difundidas pelo seu nó.
-- Política**: Algumas pessoas preferem usar clientes alternativos como o Knots por razões não técnicas, nomeadamente para suportar uma alternativa ao Core e assim reduzir o seu monopólio. Se o Core fosse alguma vez comprometido, seria útil não só ter clientes alternativos sólidos e bem mantidos, mas também saber como utilizá-los efetivamente. Outros usam o Knots para protestar, porque perderam a confiança nos programadores do Core ou desaprovam a maioria da gestão do cliente.
+- **Técnicas**: Opções diferentes do Core, nomeadamente em termos de gestão de retransmissões, determinando quais as transacções que são aceites e difundidas pelo seu nó.
+- **Política**: Algumas pessoas preferem usar clientes alternativos como o Knots por razões não técnicas, nomeadamente para suportar uma alternativa ao Core e assim reduzir o seu monopólio. Se o Core fosse alguma vez comprometido, seria útil não só ter clientes alternativos sólidos e bem mantidos, mas também saber como utilizá-los efetivamente. Outros usam o Knots para protestar, porque perderam a confiança nos programadores do Core ou desaprovam a maioria da gestão do cliente.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ O Umbrel pode permanecer muito minimalista e focado apenas no Bitcoin, ou evolui
 
 
 
-- Nó Bitcoin simples**: este é o uso fundador em que a Umbrel se baseou desde o início. Pode correr o Bitcoin core (ou Knots), ligar as suas carteiras diretamente ao seu nó, expor um servidor Electrum, alojar o seu Mempool Block explorer para ver o Blockchain, e estimar os custos... É nestas utilizações que nos vamos concentrar neste curso.
+- **Nó Bitcoin simples**: este é o uso fundador em que a Umbrel se baseou desde o início. Pode correr o Bitcoin core (ou Knots), ligar as suas carteiras diretamente ao seu nó, expor um servidor Electrum, alojar o seu Mempool Block explorer para ver o Blockchain, e estimar os custos... É nestas utilizações que nos vamos concentrar neste curso.
 
 
 
@@ -1487,7 +1487,7 @@ O Umbrel pode permanecer muito minimalista e focado apenas no Bitcoin, ou evolui
 
 
 
-- Lightning Network**: A Umbrel permite-lhe igualmente implementar o LND ou o Core Lightning, duas implementações do Lightning Network, para gerir o seu próprio nó Lightning. Poderá abrir canais, gerir a sua liquidez, efetuar pagamentos, automatizar o balanceamento, oferecer serviços, ligar um Wallet remoto ou tirar partido de uma gestão avançada do Interface graças às numerosas aplicações disponíveis. Iremos analisar este caso de utilização específico no nosso próximo curso LNP 202.
+- **Lightning Network**: A Umbrel permite-lhe igualmente implementar o LND ou o Core Lightning, duas implementações do Lightning Network, para gerir o seu próprio nó Lightning. Poderá abrir canais, gerir a sua liquidez, efetuar pagamentos, automatizar o balanceamento, oferecer serviços, ligar um Wallet remoto ou tirar partido de uma gestão avançada do Interface graças às numerosas aplicações disponíveis. Iremos analisar este caso de utilização específico no nosso próximo curso LNP 202.
 
 
 
@@ -1497,7 +1497,7 @@ O Umbrel pode permanecer muito minimalista e focado apenas no Bitcoin, ou evolui
 
 
 
-- Auto-hospedagem geral**: com Nextcloud, Immich, Jellyfin/Plex, bloqueadores de anúncios em todo o DNS (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), domótica (Home Assistant), cópias de segurança, gestão de notas, ferramentas de escritório, IA local (Ollama + Open WebUI)... O Umbrel pode tornar-se o seu servidor pessoal, permitindo-lhe recuperar o controlo dos seus dados. Aloja os serviços que utiliza todos os dias, com uma experiência de utilizador aperfeiçoada que se assemelha às soluções externas, mantendo o controlo total dos seus dados e da sua privacidade.
+- **Auto-hospedagem geral**: com Nextcloud, Immich, Jellyfin/Plex, bloqueadores de anúncios em todo o DNS (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), domótica (Home Assistant), cópias de segurança, gestão de notas, ferramentas de escritório, IA local (Ollama + Open WebUI)... O Umbrel pode tornar-se o seu servidor pessoal, permitindo-lhe recuperar o controlo dos seus dados. Aloja os serviços que utiliza todos os dias, com uma experiência de utilizador aperfeiçoada que se assemelha às soluções externas, mantendo o controlo total dos seus dados e da sua privacidade.
 
 
 
@@ -1713,7 +1713,7 @@ Uma vez que o dispositivo tenha arrancado a partir da pen USB, será saudado pel
 
 
 
-O ecrã que aparece lista todos os dispositivos de armazenamento interno detectados pelo computador. Cada disco é acompanhado por um número, um nome e uma capacidade de armazenamento. Localize o disco no qual pretende instalar o Umbrel. **Aviso: todos os ficheiros neste disco serão permanentemente apagados
+O ecrã que aparece lista todos os dispositivos de armazenamento interno detectados pelo computador. Cada disco é acompanhado por um número, um nome e uma capacidade de armazenamento. Localize o disco no qual pretende instalar o Umbrel. **Aviso: todos os ficheiros neste disco serão permanentemente apagados**
 
 
 
@@ -1759,8 +1759,8 @@ Antes de reiniciar o aparelho, verificar os dois pontos seguintes:
 
 
 
-- A chave USB está desligada**: se permanecer ligada, o sistema pode reiniciar a partir dela em vez do disco interno;
-- O cabo Ethernet está ligado**: o dispositivo tem de estar ligado ao router para funcionar.
+- **A chave USB está desligada**: se permanecer ligada, o sistema pode reiniciar a partir dela em vez do disco interno;
+- **O cabo Ethernet está ligado**: o dispositivo tem de estar ligado ao router para funcionar.
 
 
 
@@ -2285,9 +2285,9 @@ Em seguida, descobrirá três opções para ligar o seu software a um nó Bitcoi
 
 
 
-- Public Server* (amarelo): por defeito, se não possuir um nó Bitcoin, esta opção liga-o a um nó público que não possui (normalmente o de uma empresa). Esta opção não é relevante neste caso, uma vez que tens o teu próprio nó na Umbrel.
-- Bitcoin core* (Green): esta opção corresponde à ligação via Interface RPC, ou seja, diretamente ao Bitcoin core.
-- Private Electrum* (azul): esta opção permite-lhe ligar-se através do servidor Electrum Interface do seu indexador (Electrs ou Fulcrum).
+- **Public Server** (amarelo): por defeito, se não possuir um nó Bitcoin, esta opção liga-o a um nó público que não possui (normalmente o de uma empresa). Esta opção não é relevante neste caso, uma vez que tens o teu próprio nó na Umbrel.
+- **Bitcoin core** (Green): esta opção corresponde à ligação via Interface RPC, ou seja, diretamente ao Bitcoin core.
+- **Private Electrum** (azul): esta opção permite-lhe ligar-se através do servidor Electrum Interface do seu indexador (Electrs ou Fulcrum).
 
 
 
@@ -2971,7 +2971,7 @@ O Blockchain é, portanto, uma coleção de blocos. Um Full node armazena estes 
 
 
 
-**Nota: Uma reorganização, ou ressincronização, é um fenómeno em que o Blockchain sofre uma modificação da sua estrutura devido à existência de blocos concorrentes à mesma altura. Isto acontece quando uma parte do Blockchain é substituída por outra cadeia com maior quantidade de trabalho acumulado. Estas ressincronizações são uma parte natural do funcionamento do Bitcoin, onde diferentes mineiros podem encontrar novos blocos quase em simultâneo, dividindo assim a rede Bitcoin em duas. Nestes casos, a rede pode dividir-se temporariamente em cadeias concorrentes. Eventualmente, à medida que uma destas cadeias acumula mais trabalho, as outras cadeias são abandonadas pelos nós, e os seus blocos tornam-se conhecidos como "blocos obsoletos" ou "blocos órfãos" Esse processo de substituição de uma cadeia por outra é chamado de ressincronização.
+**Nota: Uma reorganização, ou ressincronização, é um fenómeno em que o Blockchain sofre uma modificação da sua estrutura devido à existência de blocos concorrentes à mesma altura. Isto acontece quando uma parte do Blockchain é substituída por outra cadeia com maior quantidade de trabalho acumulado. Estas ressincronizações são uma parte natural do funcionamento do Bitcoin, onde diferentes mineiros podem encontrar novos blocos quase em simultâneo, dividindo assim a rede Bitcoin em duas. Nestes casos, a rede pode dividir-se temporariamente em cadeias concorrentes. Eventualmente, à medida que uma destas cadeias acumula mais trabalho, as outras cadeias são abandonadas pelos nós, e os seus blocos tornam-se conhecidos como "blocos obsoletos" ou "blocos órfãos". Esse processo de substituição de uma cadeia por outra é chamado de ressincronização.**
 
 
 

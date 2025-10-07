@@ -388,9 +388,9 @@ Teoriassa Bitcoin core ei edusta Bitcoin-protokollaa, vaan se on vain yksi toteu
 
 
 
-- Bitcoin core**: 87.3% solmuista
-- Bitcoin Knots**: 12.5
-- Muut kumulatiiviset toteutukset**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% solmuista
+- **Bitcoin Knots**: 12.5
+- **Muut kumulatiiviset toteutukset**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Toisin sanoen noin yhdeksässä kymmenestä julkisesta solmusta käytetään Bit
 
 
 
-**Huomautus:** Nämä luvut ovat kuitenkin vielä arvioita, sillä ne perustuvat pääasiassa *kuunteleviin solmuihin*, eli solmuihin, jotka ottavat vastaan saapuvia yhteyksiä (portti 8333 on auki). Muita kuin kuuntelevia solmuja* on paljon monimutkaisempi laskea, koska niihin ei voi ottaa yhteyttä suoraan: on odotettava, että ne tekevät aloitteen lähtevän yhteyden muodossa. Luke Dashjr:n sivusto väittää yrittävänsä laskea myös näitä *ei-kuuntelevia solmuja*, mutta täysin tarkkoja tietoja niistä on edelleen mahdotonta saada, ja näiden tilastojen päivittäminen on väistämättä jäljessä todellisuudesta.
+**Huomautus:** Nämä luvut ovat kuitenkin vielä arvioita, sillä ne perustuvat pääasiassa *kuunteleviin solmuihin*, eli solmuihin, jotka ottavat vastaan saapuvia yhteyksiä (portti 8333 on auki). Muita kuin kuuntelevia solmuja on paljon monimutkaisempi laskea, koska niihin ei voi ottaa yhteyttä suoraan: on odotettava, että ne tekevät aloitteen lähtevän yhteyden muodossa. Luke Dashjr:n sivusto väittää yrittävänsä laskea myös näitä *ei-kuuntelevia solmuja*, mutta täysin tarkkoja tietoja niistä on edelleen mahdotonta saada, ja näiden tilastojen päivittäminen on väistämättä jäljessä todellisuudesta.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core on kirjoitettu C++-kielellä. Se on myös avoimen lähdekoodin hank
 
 
 
-- Osallistujat** esittävät ehdotuksia _pull request_ (PR) -muodossa. Periaatteessa kuka tahansa voi ehdottaa muutosta, mutta se on testattava, dokumentoitava ja läpäistävä vertaisarviointiprosessi.
+- **Osallistujat** esittävät ehdotuksia _pull request_ (PR) -muodossa. Periaatteessa kuka tahansa voi ehdottaa muutosta, mutta se on testattava, dokumentoitava ja läpäistävä vertaisarviointiprosessi.
 - **ylläpitäjillä** on oikeus hyväksyä ja yhdistää PR:t. He takaavat projektin yhtenäisyyden ja vakauden. Heinäkuussa 2025 heitä on viisi: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao ja Ryan Ofsky.
 - Helmikuun 2023 jälkeen ei ole ollut **pääylläpitäjää**. Tätä tehtävää hoiti aluksi Satoshi Nakamoto Bitcoin:n käynnistämisen yhteydessä, sitten Gavin Andresen Nakamoton lähdettyä vuoden 2011 alussa ja lopulta Wladimir J. Van Der Laan vuodesta 2014 vuoteen 2023.
 
@@ -446,9 +446,9 @@ Voimme myös mainita:
 
 
 
-- Libbitcoin**: Amir Taakin kehittämä ja Eric Voskuilin ylläpitämä modulaarinen C++-kirjasto;
-- Bcoin**: JavaScript-toteutus, jota ei enää ylläpidetä aktiivisesti;
-- BTCD/btcsuit**e: toteutus Go-kielellä.
+- **Libbitcoin**: Amir Taakin kehittämä ja Eric Voskuilin ylläpitämä modulaarinen C++-kirjasto;
+- **Bcoin**: JavaScript-toteutus, jota ei enää ylläpidetä aktiivisesti;
+- **BTCD/btcsuite**: toteutus Go-kielellä.
 
 
 
@@ -590,7 +590,7 @@ Tärkeä ja usein väärinymmärretty näkökohta on se, että solmun käyttämi
 
 
 
-- Konsensussäännöt**:
+- **Konsensussäännöt**:
 
 
 
@@ -604,7 +604,7 @@ Näiden sääntöjen muuttaminen vastaa protokollan ja siten valuutan muuttamist
 
 
 
-- Relesäännöt**:
+- **Relesäännöt**:
 
 
 
@@ -616,7 +616,7 @@ Esimerkiksi maksuton transaktio on konsensussääntöjen mukaan täysin pätevä
 
 
 
-Oman solmun kehrääminen tarkoittaa väittämistä: "Vahvistan sen, mitä päätän vahvistaa, itse hyväksymieni sääntöjen mukaisesti "*. Näin sinusta tulee järjestelmän hallintaan osallistuva toimija, joka voi hylätä kehityksen, jota et voi hyväksyä, tai hyväksyä päivityksen omien kriteeriensä mukaisesti.
+Oman solmun kehrääminen tarkoittaa väittämistä: "Vahvistan sen, mitä päätän vahvistaa, itse hyväksymieni sääntöjen mukaisesti". Näin sinusta tulee järjestelmän hallintaan osallistuva toimija, joka voi hylätä kehityksen, jota et voi hyväksyä, tai hyväksyä päivityksen omien kriteeriensä mukaisesti.
 
 
 
@@ -882,8 +882,8 @@ On kaksi mahdollista syytä valita Knots Coreen nähden:
 
 
 
-- Tekniikat**: Määrittämällä, mitkä tapahtumat solmusi hyväksyy ja lähettää.
-- Politiikka**: Jotkut haluavat käyttää vaihtoehtoisia asiakkaita, kuten Knotsia, muista kuin teknisistä syistä, erityisesti tukeakseen vaihtoehtoa Core-ohjelmalle ja vähentääkseen siten sen monopolia. Jos Core joskus vaarantuisi, olisi hyödyllistä, että olisi paitsi vankkoja, hyvin ylläpidettyjä vaihtoehtoisia asiakkaita, myös tietoa siitä, miten niitä käytetään tehokkaasti. Toiset käyttävät Knotsia protestitarkoituksessa, koska he ovat menettäneet luottamuksensa Coren kehittäjiin tai eivät hyväksy suurinta osaa asiakkaan hallinnosta.
+- **Tekniikat**: Määrittämällä, mitkä tapahtumat solmusi hyväksyy ja lähettää.
+- **Politiikka**: Jotkut haluavat käyttää vaihtoehtoisia asiakkaita, kuten Knotsia, muista kuin teknisistä syistä, erityisesti tukeakseen vaihtoehtoa Core-ohjelmalle ja vähentääkseen siten sen monopolia. Jos Core joskus vaarantuisi, olisi hyödyllistä, että olisi paitsi vankkoja, hyvin ylläpidettyjä vaihtoehtoisia asiakkaita, myös tietoa siitä, miten niitä käytetään tehokkaasti. Toiset käyttävät Knotsia protestitarkoituksessa, koska he ovat menettäneet luottamuksensa Coren kehittäjiin tai eivät hyväksy suurinta osaa asiakkaan hallinnosta.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel voi pysyä hyvin minimalistisena ja keskittyä pelkästään Bitcoin:een 
 
 
 
-- Yksinkertainen Bitcoin-solmu**: tämä on peruskäyttö, johon Umbrel on alusta alkaen luottanut. Voit käyttää Bitcoin core:a (tai Knotsia), liittää lompakot suoraan solmuun, paljastaa Electrum-palvelimen, isännöidä Mempool Block explorer:ta Blockchain:n tarkastelemiseksi ja arvioida maksuja... Näihin käyttötarkoituksiin keskitymme tällä kurssilla.
+- **Yksinkertainen Bitcoin-solmu**: tämä on peruskäyttö, johon Umbrel on alusta alkaen luottanut. Voit käyttää Bitcoin core:a (tai Knotsia), liittää lompakot suoraan solmuun, paljastaa Electrum-palvelimen, isännöidä Mempool Block explorer:ta Blockchain:n tarkastelemiseksi ja arvioida maksuja... Näihin käyttötarkoituksiin keskitymme tällä kurssilla.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel voi pysyä hyvin minimalistisena ja keskittyä pelkästään Bitcoin:een 
 
 
 
-- Lightning Network**: Kaksi Lightning Network:n toteutusta, LND tai Core Lightning, voit myös ottaa käyttöön Umbrelin avulla oman Lightning-solmusi hallintaan. Voit avata kanavia, hallita likviditeettiäsi, suorittaa maksuja, automatisoida tasapainotusta, tarjota palveluja, yhdistää etä-Wallet:n tai hyödyntää Interface:n kehittynyttä hallintaa monien käytettävissä olevien sovellusten ansiosta. Tarkastelemme tätä erityistä käyttötapaa seuraavalla LNP 202 -kurssillamme.
+- **Lightning Network**: Kaksi Lightning Network:n toteutusta, LND tai Core Lightning, voit myös ottaa käyttöön Umbrelin avulla oman Lightning-solmusi hallintaan. Voit avata kanavia, hallita likviditeettiäsi, suorittaa maksuja, automatisoida tasapainotusta, tarjota palveluja, yhdistää etä-Wallet:n tai hyödyntää Interface:n kehittynyttä hallintaa monien käytettävissä olevien sovellusten ansiosta. Tarkastelemme tätä erityistä käyttötapaa seuraavalla LNP 202 -kurssillamme.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel voi pysyä hyvin minimalistisena ja keskittyä pelkästään Bitcoin:een 
 
 
 
-- Yleinen self-hosting**: Nextcloud, Immich, Jellyfin/Plex, DNS:n laajuiset mainosblokkerit (Pi-hole/AdGuard), VPN:t (WireGuard, Tailscale), kotiautomaatio (Home Assistant), varmuuskopiot, muistiinpanojen hallinta, toimistotyökalut, paikallinen tekoäly (Ollama + Open WebUI)... Umbrelista voi tulla henkilökohtainen palvelimesi, jonka avulla voit saada tietosi takaisin hallintaasi. Isännöit itse päivittäin käyttämiäsi palveluita, joiden käyttökokemus muistuttaa pitkälti ulkoisia ratkaisuja, ja säilytät samalla täydellisen hallinnan tietojesi ja yksityisyytesi suhteen.
+- **Yleinen self-hosting**: Nextcloud, Immich, Jellyfin/Plex, DNS:n laajuiset mainosblokkerit (Pi-hole/AdGuard), VPN:t (WireGuard, Tailscale), kotiautomaatio (Home Assistant), varmuuskopiot, muistiinpanojen hallinta, toimistotyökalut, paikallinen tekoäly (Ollama + Open WebUI)... Umbrelista voi tulla henkilökohtainen palvelimesi, jonka avulla voit saada tietosi takaisin hallintaasi. Isännöit itse päivittäin käyttämiäsi palveluita, joiden käyttökokemus muistuttaa pitkälti ulkoisia ratkaisuja, ja säilytät samalla täydellisen hallinnan tietojesi ja yksityisyytesi suhteen.
 
 
 
@@ -1759,8 +1759,8 @@ Tarkista seuraavat kaksi kohtaa ennen laitteen uudelleenkäynnistämistä:
 
 
 
-- USB-muistitikku on irrotettu**: jos se on edelleen kytkettynä, järjestelmä saattaa käynnistyä uudelleen sisäisen levyn sijasta USB-muistitikulla;
-- Ethernet-kaapeli on kytketty**: laitteen on oltava kytkettynä reitittimeen toimiakseen.
+- **USB-muistitikku on irrotettu**: jos se on edelleen kytkettynä, järjestelmä saattaa käynnistyä uudelleen sisäisen levyn sijasta USB-muistitikulla;
+- **Ethernet-kaapeli on kytketty**: laitteen on oltava kytkettynä reitittimeen toimiakseen.
 
 
 
@@ -2285,9 +2285,9 @@ Tämän jälkeen näet kolme vaihtoehtoa ohjelmiston liittämiseksi Bitcoin-solm
 
 
 
-- Julkinen palvelin* (keltainen): Jos et omista Bitcoin-solmua, tämä vaihtoehto yhdistää sinut oletusarvoisesti julkiseen solmuun, jota et omista (yleensä yrityksen solmuun). Tämä vaihtoehto ei ole tässä yhteydessä merkityksellinen, koska sinulla on oma solmusi Umbrelissa.
-- Bitcoin core* (Green): tämä vaihtoehto vastaa yhteyttä Interface RPC:n kautta eli suoraan Bitcoin core:een.
-- Private Electrum* (sininen): Tämän vaihtoehdon avulla voit muodostaa yhteyden indeksoijan Interface Electrum-palvelimen (Electrs tai Fulcrum) kautta.
+- **Julkinen palvelin** (keltainen): Jos et omista Bitcoin-solmua, tämä vaihtoehto yhdistää sinut oletusarvoisesti julkiseen solmuun, jota et omista (yleensä yrityksen solmuun). Tämä vaihtoehto ei ole tässä yhteydessä merkityksellinen, koska sinulla on oma solmusi Umbrelissa.
+- **Bitcoin core** (Green): tämä vaihtoehto vastaa yhteyttä Interface RPC:n kautta eli suoraan Bitcoin core:een.
+- Private Electrum (sininen): Tämän vaihtoehdon avulla voit muodostaa yhteyden indeksoijan Interface Electrum-palvelimen (Electrs tai Fulcrum) kautta.
 
 
 

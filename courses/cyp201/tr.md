@@ -2269,7 +2269,7 @@ Her alt anahtar çifti 32 bitlik bir **indeks** ile tanımlanır (hesaplamaları
 ### HMAC-SHA512 ile Türetme Süreci
 
 
-Her bir alt anahtarın türetilmesi, Bölüm 2'de Hash işlevleri hakkında tartıştığımız HMAC-SHA512 işlevine dayanmaktadır. İki girdi alır: üst chain code $C_{\text{PAR}}$ ve üst anahtarın (istenen alt anahtarın türüne bağlı olarak $K_{\text{PAR}}$ açık anahtarı ya da $k_{\text{PAR}}$ özel anahtarı) dizinle birleştirilmesi. HMAC-SHA512'nin çıktısı 512 bitlik bir dizidir ve iki bölüme ayrılmıştır:
+Her bir alt anahtarın türetilmesi, Bölüm 2'de Hash işlevleri hakkında tartıştığımız HMAC-SHA512 işlevine dayanmaktadır. İki girdi alır: üst chain code **C_PAR** ve üst anahtarın (istenen alt anahtarın türüne bağlı olarak **K_PAR** açık anahtarı ya da **k_PAR** özel anahtarı) dizinle birleştirilmesi. HMAC-SHA512'nin çıktısı 512 bitlik bir dizidir ve iki bölüme ayrılmıştır:
 
 
 - İlk 32 bayt (veya $h_1$) yeni alt çifti hesaplamak için kullanılır.

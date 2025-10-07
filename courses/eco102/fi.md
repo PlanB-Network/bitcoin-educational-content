@@ -61,7 +61,7 @@ Seuraavaksi tarkastelemme Bastiatin kritiikkiä ideologisia vastustajiaan kohtaa
 
 **Jakso 4: Taloudelliset harhaluulot**
 
-Tämä jakso on omistettu Bastiatin paljastamille taloudellisille harhaluuloille, kuten kuuluisille "*Mitä nähdään ja mitä ei nähdä*" ja "Kynttilänvalmistajien vetoomus*". Tarkastelemme, miten hän osoitti taitavasti satiirin ja tiukan analyysin avulla aikansa yleiset taloudelliset virheet, jotka ovat edelleen ajankohtaisia.
+Tämä jakso on omistettu Bastiatin paljastamille taloudellisille harhaluuloille, kuten kuuluisille "*Mitä nähdään ja mitä ei nähdä*" ja "*Kynttilänvalmistajien vetoomus*". Tarkastelemme, miten hän osoitti taitavasti satiirin ja tiukan analyysin avulla aikansa yleiset taloudelliset virheet, jotka ovat edelleen ajankohtaisia.
 
 
 **5. jakso: Taloudelliset harmoniat**
@@ -127,7 +127,7 @@ Kun hänet valittiin kansanedustajaksi, se tapahtui toisen tasavallan aikana, ja
 > Kansallisiin työpajoihin ilmoittautuneet työntekijät ovat perustellusti vaatineet, että käytettävissä oleva työ jaetaan heidän kesken mahdollisimman tasapuolisesti ja oikeudenmukaisesti;
 > Työtä on vain 16 000 miehelle, ja ilmoittautuneiden määrä on yli 50 000;
 > On sovittu, että kunnes toisin ilmoitetaan ja odotettaessa parempia järjestelyjä, kumpikin yritys työskentelee kaksi päivää viikossa maanantaista 17. päivästä alkaen.
-> tasavallan komissaari, kansallisten työpajojen johtaja,_
+> tasavallan komissaari, kansallisten työpajojen johtaja,
 > **Émile THOMAS.**
 
 ---
@@ -267,7 +267,7 @@ Exchange on positiivisen summan peli. Mitä toinen voittaa, voittaa myös toinen
 
 ![image](assets/en/018.webp)
 
-_(Marx, Ricardo, Smith, Locke)_ (Marx, Ricardo, Smith, Locke)_
+_(Marx, Ricardo, Smith, Locke)_
 
 
 Toisaalta Bastiat myöntää Jean-Baptiste Sayn kanssa, että hyöty on arvon todellinen perusta. Työ ei luo arvoa. Ei myöskään niukkuus. Kaikki juontaa juurensa hyödyllisyydestä. Kukaan ei suostu maksamaan palvelusta, ellei pidä sitä hyödyllisenä. Yksi tuottaa aina vain hyötyä.
@@ -1287,7 +1287,7 @@ Havainnollistetaan tätä asiaa muutamalla tärkeällä ajankohtaisella aiheella
 
 ![image](assets/en/103.webp)
 
-_(Alan Greenspan, Yhdysvaltain keskuspankin FED:n puheenjohtaja vuosina 1987-2006)_ _
+_(Alan Greenspan, Yhdysvaltain keskuspankin FED:n puheenjohtaja vuosina 1987-2006)_
 
 
 Vuosien ajan rahapolitiikan johtajat selittivät, että jos voitot yksityistetään silloin, kun kaikki menee hyvin, tappiot yhteisvastuullisesti maksetaan konkurssin sattuessa (pelastuspaketit, pelastussuunnitelmat, korkojen manipulointi, rahan painaminen jne.). Näin he loivat moraalikadon, helpottivat kohtuutonta riskinottoa ja kannustivat rahoitusmaailmaa käyttäytymään vastuuttomasti. Näin ne saivat rahoitusalan ajautumaan kokemaansa kriisiin.

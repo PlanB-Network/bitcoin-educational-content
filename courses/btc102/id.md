@@ -568,7 +568,7 @@ Berikut adalah poin-poin penting yang akan kita bahas bersama:
 - Ketahuilah implikasi pajak dari investasi Anda;
 - Lindungi **frase pemulihan** Anda dengan hati-hati;
 - Tetaplah rendah hati dan jaga agar tetap **rendah hati** (kebijaksanaan adalah bagian dari keamanan);
-- Berpikirlah jangka panjang**, perbesar preferensi waktu dan bersabarlah (anggaplah ini sebagai maraton, bukan lari cepat).
+- Berpikirlah jangka panjang, perbesar preferensi waktu dan bersabarlah (anggaplah ini sebagai maraton, bukan lari cepat).
 
 
 ![image](assets/id/021.webp)
@@ -735,7 +735,7 @@ Bitcoin sering kali dikelilingi oleh kesalahpahaman yang populer; salah satu yan
 
 
 
-- Perdagangan :**
+- Perdagangan:
 
 
 Jujur saja:**Anda mungkin tidak seharusnya melakukan trading.**
@@ -1459,7 +1459,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- ***Platform Bitcoin khusus Exchange****
+- **Platform Bitcoin khusus Exchange**
 
 
 Platform ini mengambil pendekatan yang ramah pengguna, menawarkan layanan yang sederhana dan transparan. Mereka hanya untuk Bitcoin. Mereka sering menerapkan solusi untuk membeli bitcoin melalui Dollar-Cost Averaging (DCA) dan menawarkan penarikan otomatis ke Wallet pribadi. Mereka sangat cocok untuk pemula yang ingin mengumpulkan bitcoin dengan cara yang progresif dan aman. Contoh: Relai, Bull Bitcoin, StackinSat, Bitstack...
@@ -2558,7 +2558,7 @@ Stacker yang sukses menunjukkan sifat-sifat ini:
 
 
 - **Organisasi**: Tetap sesuai anggaran, tetap berpegang pada rencana Anda. Stacker harus memastikan bahwa rencana akumulasi mereka dapat berjalan selama beberapa tahun.
-- Disiplin**: Ikuti jadwal Anda tanpa bereaksi terhadap kebisingan pasar. Keteraturan lebih diutamakan daripada penyesuaian impulsif. Namun, Anda masih bisa melakukan penyesuaian yang wajar.
+- **Disiplin**: Ikuti jadwal Anda tanpa bereaksi terhadap kebisingan pasar. Keteraturan lebih diutamakan daripada penyesuaian impulsif. Namun, Anda masih bisa melakukan penyesuaian yang wajar.
 - **Kesabaran**: Hasil dari stacking tidak langsung terlihat. Strategi ini berlangsung dalam jangka waktu lama, terkadang bertahun-tahun, sebelum memberikan hasil yang nyata. Mereka yang berhasil adalah mereka yang dapat tetap bersabar, tanpa terpengaruh oleh volatilitas jangka pendek.
 - **Pengetahuan keuangan**: Pemahaman yang kuat mengenai DCA, manajemen risiko, dan fundamental pasar Bitcoin membantu Anda berinvestasi dengan percaya diri. Seorang stacker yang berpengetahuan luas akan lebih siap untuk menahan keraguan dan menghindari membuat keputusan impulsif selama periode volatilitas tinggi.
 - **Visi jangka panjang**: Seorang stacker sangat percaya pada potensi teknologi Bitcoin. Fokus mereka bukan pada perubahan harga jangka pendek, tetapi pada pertumbuhan kepemilikan mereka secara stabil selama bertahun-tahun.
@@ -3613,7 +3613,6 @@ Sekali lagi, selamat atas pencapaian Anda. Dan ingatlah; tujuan utama saya akan 
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

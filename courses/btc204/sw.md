@@ -1014,7 +1014,7 @@ wallet ya Samourai) ;
 *Ningependa kuwashukuru waandishi, watengenezaji na watayarishaji wao. Asante pia kwa wasahihishaji waliosahihisha kwa uangalifu nakala ambayo sehemu hii ya 3 inategemea, na kunipa ushauri wao wa kitaalamu:*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # Kumudu mbinu bora za kulinda faragha yako
@@ -3509,9 +3509,9 @@ Sasa kwa kuwa Alice ametuma muamala wa arifa kwa Bob, hebu tuone jinsi Bob anavy
 
 **1-** Bob hufuatilia miamala inayounda matokeo kwa arifa ya address yake.
 
-**2-** Wakati muamala una matokeo kwenye arifa ya Anwani (address) yake, Bob huichanganua ili kuona kama ina toleo la OP\_RETURN linalotii kiwango cha BIP47.
+**2-** Wakati muamala una matokeo kwenye arifa ya Anwani (address) yake, Bob huichanganua ili kuona kama ina toleo la OP_RETURN linalotii kiwango cha BIP47.
 
-**3-** Ikiwa baiti ya kwanza ya upakiaji wa OP\_RETURN ni `0x01`, Bob huanza utafutaji wake wa siri inayoweza kushirikiwa kupitia ECDH:
+**3-** Ikiwa baiti ya kwanza ya upakiaji wa OP_RETURN ni `0x01`, Bob huanza utafutaji wake wa siri inayoweza kushirikiwa kupitia ECDH:
 
 
 - Bob huchagua ufunguo wa umma wa kuingiza kwa muamala huo. Hii ni, ufunguo wa umma wa Alice unaoitwa \$A\$ na:
@@ -3533,7 +3533,7 @@ $$ S = b \cdot A $$
 
 $$ f = \maandishi{HMAC-SHA512}(o, x) $$
 
-**4-** Bob anatafsiri data ya OP\_RETURN katika muamala wa arifa kama msimbo wa malipo. Atasimbua tu upakiaji wa msimbo huu unaowezekana wa malipo kwa kutumia blinding element \$f\$:
+**4.** Bob anatafsiri data ya OP_RETURN katika muamala wa arifa kama msimbo wa malipo. Atasimbua tu upakiaji wa msimbo huu unaowezekana wa malipo kwa kutumia blinding element $f$:
 
 - Bob anagawanya blinding element \$f\$ katika sehemu mbili: baiti 32 za kwanza za \$f\$ zitakuwa \$f1\$, na baiti 32 za mwisho zitakuwa \$f2\$;
   
@@ -3591,7 +3591,7 @@ Nitafanya muhtasari wa hatua ambazo tumeziona kwa pamoja ili kupokea na kutafsir
 - Inapogundua moja, hupata maelezo yaliyomo kwenye OP_RETURN;
 - Bob huchagua ufunguo wa umma kama ingizo na kukokotoa sehemu ya siri kwa kutumia ECDH ;
 - Inatumia hatua hii ya siri kuhesabu HMAC, ambayo ni sababu ya upofu;
--Inatumia blinding element hii ili kusimbua upakiaji wa msimbo wa malipo wa Alice ulio katika OP\_RETURN.
+**Inatumia blinding element hii ili kusimbua upakiaji wa msimbo wa malipo wa Alice ulio katika OP_RETURN.**
 
 ![BTC204](assets/sw/235.webp)
 
@@ -3874,7 +3874,7 @@ $$ P_0 = B + \maandishi{Hash}(a \cdot B \maandishi{ ‖} 0) \cdot G $$
 
 $$ P_1 = B + \maandishi{Hash}(a \cdot B \maandishi{ ‖} 1) \cdot G $$
 
-Wakati Bob anachanganua Blockchain kwa Malipo ya Kimya yaliyokusudiwa kwake, anaanza kwa kutumia \$i = 0\$ kwa address \$P\_0\$. Asipopata malipo yoyote kwenye \$P\_0\$, atahitimisha kuwa muamala huu hauna Malipo ya Kimya yaliyokusudiwa kwake, na ataachana na utafutaji. Hata hivyo, ikiwa \$P\_0\$ ni halali na ina malipo yake, ataendelea na \$P\_1\$ katika muamala huo huo ili kuangalia kama Alice amefanya malipo ya pili. Iwapo \$P\_1\$ itakuwa batili, ataacha kutafuta muamala huu; vinginevyo, ataendelea kujaribu maadili ya \$i\$ mfululizo:
+Wakati Bob anachanganua Blockchain kwa Malipo ya Kimya yaliyokusudiwa kwake, anaanza kwa kutumia $i = 0$ kwa address $P_0$. Asipopata malipo yoyote kwenye $P_0$, atahitimisha kuwa muamala huu hauna Malipo ya Kimya yaliyokusudiwa kwake, na ataachana na utafutaji. Hata hivyo, ikiwa $P_0$ ni halali na ina malipo yake, ataendelea na $P_1$ katika muamala huo huo ili kuangalia kama Alice amefanya malipo ya pili. Iwapo $P_1$ itakuwa batili, ataacha kutafuta muamala huu; vinginevyo, ataendelea kujaribu maadili ya $i$ mfululizo:
 
 $$ P_0 = B + \maandishi{Hash}(b \cdot A \text{ ‖ } 0) \cdot G $$
 
@@ -3912,12 +3912,12 @@ Kwa njia hii, tunaanza kupata itifaki nzuri, lakini bado kuna changamoto chache 
 
 ### Jinsi ya kuzuia kutumia tena ya address?
 
-Kama tulivyoona katika sehemu zilizopita, Alice anatumia jozi muhimu ambayo inalinda UTXO yake, ambayo atatumia kukokotoa siri iliyoshirikiwa ya ECDH na Bob. Siri hii inamwezesha kupata address \$P\_0\$ ya kipekee. Hata hivyo, jozi muhimu (\$a\$, \$A\$) iliyotumiwa na Alice inaweza kupata UTXO kadhaa ikiwa ametumia tena address hii mara kadhaa. Iwapo Alice atafanya malipo mawili kwa address \$B\$ tuli ya Bob kwa kutumia UTXO mbili zilizolindwa kwa ufunguo sawa wa \$A\$, hii inaweza kusababisha matumizi ya address tena kwa Bob.
+Kama tulivyoona katika sehemu zilizopita, Alice anatumia jozi muhimu ambayo inalinda UTXO yake, ambayo atatumia kukokotoa siri iliyoshirikiwa ya ECDH na Bob. Siri hii inamwezesha kupata address $P_0$ ya kipekee. Hata hivyo, jozi muhimu ($a$, $A$) iliyotumiwa na Alice inaweza kupata UTXO kadhaa ikiwa ametumia tena address hii mara kadhaa. Iwapo Alice atafanya malipo mawili kwa address $B$ tuli ya Bob kwa kutumia UTXO mbili zilizolindwa kwa ufunguo sawa wa $A$, hii inaweza kusababisha matumizi ya address tena kwa Bob.
 
 > *Utumiaji tena wa address ni mazoea mabaya sana katika suala la usiri wa mtumiaji. Ili kujua ni kwa nini, nakushauri upitie sehemu za kwanza za kozi hii ya mafunzo.*
 Hakika, kwa kuwa address \$P\_0\$ ya kipekee imechukuliwa kutoka \$A\$ na \$B\$, basi ikiwa Alice atapata address ya pili kwa malipo ya pili kwa \$B\$, kwa kutumia ufunguo uleule \$A\$, ataishia tena kwenye address \$P\_0\$ ileile. Ili kuepuka hatari hii na kuzuia kutumia tena address ndani ya Malipo ya Kimya, tutahitaji kurekebisha hesabu zetu kidogo.
 
-Tunachotaka ni kuhakikisha kuwa kila UTXO inayotumiwa na Alice kama ingizo la malipo inazalisha address ya kipekee kwa upande wa Bob, hata kama UTXO kadhaa zinalindwa na jozi ileile ya funguo. Kwa hivyo, tunachohitaji kufanya ni kuongeza marejeleo ya UTXO wakati wa kukokotoa address ya kipekee \$P\_0\$. Rejeleo hili litakuwa tu Hash ya UTXO inayotumika kama pembejeo.
+Tunachotaka ni kuhakikisha kuwa kila UTXO inayotumiwa na Alice kama ingizo la malipo inazalisha address ya kipekee kwa upande wa Bob, hata kama UTXO kadhaa zinalindwa na jozi ileile ya funguo. Kwa hivyo, tunachohitaji kufanya ni kuongeza marejeleo ya UTXO wakati wa kukokotoa address ya kipekee $P_0$. Rejeleo hili litakuwa tu Hash ya UTXO inayotumika kama pembejeo.
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint} \text{ ‖ } A) $$
 
@@ -3965,7 +3965,7 @@ Kwa mfano, hebu tufikirie kuwa muamala wa Alice una pembejeo 3, kila moja ikiwa 
 
 ![BTC204](assets/sw/247.webp)
 
-Kufuatia njia iliyoelezwa hapo awali, Alice angelazimika kuchagua jozi moja ya funguo kati ya \$a\_0\$, \$a\_1\$, na \$a\_2\$ ili kukokotoa siri ya ECDH na kuzalisha malipo moja ya address \$P\$ kutoka kwa address tuli ya Bob \$B\$. Hata hivyo, mbinu hii inahitaji Bob ajaribu kila uwezekano kwa mfuatano, akianza na \$a\_0\$, kisha \$a\_1\$, na kadhalika, hadi atambue jozi inayozalisha address \$P\$ halali. Mchakato huu unamhitaji Bob kuendesha hesabu ya ECDH kwenye pembejeo zote za miamala yote, ambayo huongeza kwa kiasi kikubwa mzigo wa uendeshaji wa skanning.
+Kufuatia njia iliyoelezwa hapo awali, Alice angelazimika kuchagua jozi moja ya funguo kati ya $a_0$, $a_1$, na $a_2$ ili kukokotoa siri ya ECDH na kuzalisha malipo moja ya address $P$ kutoka kwa address tuli ya Bob $B$. Hata hivyo, mbinu hii inahitaji Bob ajaribu kila uwezekano kwa mfuatano, akianza na $a_0$, kisha $a_1$, na kadhalika, hadi atambue jozi inayozalisha address $P$ halali. Mchakato huu unamhitaji Bob kuendesha hesabu ya ECDH kwenye pembejeo zote za miamala yote, ambayo huongeza kwa kiasi kikubwa mzigo wa uendeshaji wa skanning.
 
 Ili kuepuka hili, tutamwomba Alice akokotoe \$P\$ kwa kutumia jumla ya funguo zote za pembejeo. Kwa kutumia mfano wetu, ufunguo wa faragha uliobadilishwa \$a\$ utahesabiwa kama ifuatavyo:
 
@@ -4001,7 +4001,7 @@ Kwa njia hii, Bob anaweza kuweka ufunguo wa faragha \$b\_{\text{spend}}\$ kwenye
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
-Ili kukokotoa malipo ya kipekee ya address \$P\_0\$ ya Bob, Alice sasa atafanya hesabu ifuatayo:
+Ili kukokotoa malipo ya kipekee ya address **$P_0$** ya Bob, Alice sasa atafanya hesabu ifuatayo:
 
 $$ P_0 = B_{\text{spend}} + \text{Hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G $$
 
@@ -4038,7 +4038,7 @@ $$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
 Tatizo la njia hii ni kwamba haikuruhusu kutenganisha malipo tofauti yanayotumwa kwa address hii. Kwa mfano, ikiwa Bob ana wateja wawili tofauti wa biashara yake, na anataka kutofautisha malipo kwa kila mmoja, atahitaji address mbili tofauti tuli. Suluhisho la kutojulikana, pamoja na mbinu ya sasa, lingekuwa kwa Bob kuunda wallet mbili tofauti, kila moja ikiwa na address yake tuli, au hata kuanzisha address mbili tofauti ndani ya wallet moja. Hata hivyo, suluhisho hili linahitaji kuchanganua Blockchain nzima mara mbili (mara moja kwa kila address) ili kugundua malipo yanayokusudiwa kwa kila address mtawalia. Uchanganuzi huu mara mbili huongeza mzigo wa uendeshaji kwa Bob bila sababu.
 
-Ili kutatua tatizo hili, BIP352 hutumia mfumo wa alama unaoruhusu address tofauti za tuli, bila kuongeza bila sababu mzigo wa kazi wa kutafuta Malipo ya Kimya kwenye Blockchain. Ili kufanya hivyo, tunaongeza nambari kamili \$m\$ kwenye ufunguo wa matumizi ya umma \$B\_{\text{spend}}\$. Nambari hii kamili inaweza kuchukua thamani ya \$1\$ kwa address tuli ya kwanza, kisha \$2\$ kwa ya pili, na kadhalika. Vifunguo vya matumizi \$B\_{\text{spend}}\$ sasa vitaitwa \$B\_m\$ na vitaundwa kwa njia hii:
+Ili kutatua tatizo hili, BIP352 hutumia mfumo wa alama unaoruhusu address tofauti za tuli, bila kuongeza bila sababu mzigo wa kazi wa kutafuta Malipo ya Kimya kwenye Blockchain. Ili kufanya hivyo, tunaongeza nambari kamili $m$ kwenye ufunguo wa matumizi ya umma $B_{\text{spend}}$. Nambari hii kamili inaweza kuchukua thamani ya $1$ kwa address tuli ya kwanza, kisha $2$ kwa ya pili, na kadhalika. Vifunguo vya matumizi $B_{\text{spend}}$ sasa vitaitwa $B_m$ na vitaundwa kwa njia hii:
 $$ B_m = B_{\text{spend}} + \text{Hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G $$
 
 Kwa mfano, kwa ufunguo wa kwanza wa gharama ulio na alama $1$ :
@@ -4071,7 +4071,7 @@ Inafanya kazi kwa sababu:
 
 $$ B_1 = B_{\text{spend}} + \text{Hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
 
-Shukrani kwa mbinu hii, Bob anaweza kutumia wingi wa address tuli (\$B\_1\$, \$B\_2\$, \$B\_3\$...), zote zimetokana na address yake ya msingi (\$B = B\_{\text{scan}} \text{ ‖ } B\_{\text{spend}}\$), ili kutenga matumizi tofauti.
+Shukrani kwa mbinu hii, Bob anaweza kutumia wingi wa address tuli ($B_1$, $B_2$, $B_3$...), zote zimetokana na address yake ya msingi ($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$), ili kutenga matumizi tofauti.
 
 Tafadhali kumbuka, hata hivyo, kwamba utengano huu wa address tuli ni halali tu kutoka kwa mtazamo wa usimamizi wa kwingineko ya kibinafsi, lakini hautenganishi vitambulisho. Kwa kuwa zote zina \$B\_{\text{scan}}\$ sawa, ni rahisi sana kuhusisha address zote pamoja na kubaini kuwa zinamilikiwa na huluki moja.
 ![BTC204](assets/sw/249.webp)
@@ -4079,7 +4079,7 @@ Tafadhali kumbuka, hata hivyo, kwamba utengano huu wa address tuli ni halali tu 
 *Hadithi:*
 
 
-- $B_{\text{scan}$: Kitufe cha kuchanganua hadharani cha Bob (Anwani (address) tuli)
+- **B_scan**: Kitufe cha kuchanganua hadharani cha Bob (Anwani (address) tuli)
 - $b_{\text{scan}$ : Ufunguo wa faragha wa Bob wa kuchanganua
 - $B_{\text{spend}}$ : Kitufe cha Bob cha matumizi ya umma (Anwani (address) ya awali)
 - $B_m$ : Kitufe cha Bob cha matumizi ya umma kilichoandikwa (Anwani (address) tuli)

@@ -219,9 +219,9 @@ Yasadışı yağma, bir vatandaşın diğerine karşı işlediği hırsızlık v
 Bastiat bize hala iki tür yasal yağma olduğunu söyler:
 
 
-> Dış yağma savaş, fetihler ve sömürgeler olarak adlandırılır. İç yağma ise genellikle vergiler, mevkiler ve tekeller olarak adlandırılır. ([Cobden and the League_] (http://bastiat.org/fr/introduction_cobden_ligue.html), Giriş).
+> Dış yağma savaş, fetihler ve sömürgeler olarak adlandırılır. İç yağma ise genellikle vergiler, mevkiler ve tekeller olarak adlandırılır. ([Cobden and the League](http://bastiat.org/fr/introduction_cobden_ligue.html), Giriş).
 
-The Physiology of Plunder_] (http://bastiat.org/fr/physiologie_de_la_spoliation.html) adlı kitabında ayrıntılı olarak açıklamaktadır:
+**The Physiology of Plunder** (http://bastiat.org/fr/physiologie_de_la_spoliation.html) adlı kitabında ayrıntılı olarak açıklamaktadır:
 
 
 > İnsanların gerçek ve adil yasası şudur: Özgürce tartışılan Exchange hizmet karşılığı hizmet. Yağma, karşılığında bir hizmet sunmadan bir hizmet almak için tartışma özgürlüğünün zorla veya hileyle yasaklanmasından oluşur. Zorla yağma şu şekilde uygulanır: Bir kişi bir adamın bir şey üretmesini bekler, sonra elinde silahla onu ondan alır. Dekalog bunu resmen kınamaktadır: Çalmayacaksın. Bireyden bireye yapıldığında hırsızlık olarak adlandırılır ve hapse yol açar; ulustan ulusa yapıldığında ise fetih olarak adlandırılır ve zafere yol açar.
@@ -437,7 +437,7 @@ Albert J. Nock'a atıfta bulunan Rothbard, bu iki karşıt gücü tanımlamak i�
 
 Rothbard Devleti, üretken toplumun sırtından geçinen bir parazit olarak görür. Servet ve güce el koymak için stratejik olarak "komuta mevkilerini" ele geçirir. Güç, adalet, eğitim ve altyapı tekeli. Ve ekler: "Modern ekonomide para temel komuta merkezidir."
 
-Rothbard'a göre özgürlük ilkesi para için de geçerli olmalıdır. Eğer diğer sektörlerde özgürlükten yanaysak, mülkiyeti ve kişiyi Devletin müdahalesine karşı korumak istiyorsak, en acil görevimiz serbest bir para piyasası olasılığını araştırmak olmalıdır. (Bu konuda makalesine bakınız: "Devlet, Paramıza Ne Yaptın?"_ Institut Coppet için Stéphane Couvreur tarafından yapılan çeviri, 2011).
+Rothbard'a göre özgürlük ilkesi para için de geçerli olmalıdır. Eğer diğer sektörlerde özgürlükten yanaysak, mülkiyeti ve kişiyi Devletin müdahalesine karşı korumak istiyorsak, en acil görevimiz serbest bir para piyasası olasılığını araştırmak olmalıdır. (Bu konuda makalesine bakınız: **"Devlet, Paramıza Ne Yaptın?"** Institut Coppet için Stéphane Couvreur tarafından yapılan çeviri, 2011).
 
 
 ### Devleti Sınırlandırma Girişimlerinin Başarısızlığı
@@ -531,8 +531,8 @@ Bu yenilik, Yunan dilinde iki tür yasayı tanımlayan "phusis" ve "nomos" terim
 
 
 
-- phusis_ doğa yasasıdır (Fransızca'da "fizik" kelimesinin karşılığıdır).
-- nomos_ insan yasasıdır ("kendi yasasına uymak" anlamına gelen "otonomi" sözcüğünde bulunan bir terim).
+- **phusis** doğa yasasıdır (Fransızca'da "fizik" kelimesinin karşılığıdır).
+- **nomos** insan yasasıdır ("kendi yasasına uymak" anlamına gelen "otonomi" sözcüğünde bulunan bir terim).
 
 Şehir, yasanın (nomos) insan kaynaklı olduğu, doğadan farklı olarak insanlar tarafından özgürce değiştirilebileceği ve herkes için geçerli olabileceği fikriyle ortaya çıkar. Yunanlılar daha sonra toplumsal ve siyasi düzenin doğal düzen karşısındaki özerkliğinin farkına varmışlardır.
 
@@ -563,7 +563,7 @@ Ona göre, kişisel olmayan ve kalıcı olan yasalar, tüm vatandaşlar için ad
 
 MÖ 1. yüzyılın ünlü Romalı hatibi ve filozofu Cicero bu fikri benimsemiştir: "Özgür olabilmek için yasaların kölesiyiz" (_De Republica_, Kitap III, Bölüm 13). Bu pasajda Cicero, tek bir kişi ya da küçük bir grup insan tarafından değil, yasalar tarafından yönetilen bir cumhuriyet lehine bir argüman geliştirmektedir.
 
-Cumhuriyet kavramı Yunan felsefesinden kaynaklanmaktadır. Sıklıkla çok riskli olduğu düşünülen demokrasi ile karşılaştırılmıştır. Platon siyaset felsefesinin ana eserine bu adı vermiştir: cumhuriyet_ ve demokrasiyi çok sert bir şekilde yargılar. Halk yönettiğinde, kendi arzularının yasasını dayatma ve iyi ile hoş olanı birbirine karıştırma riski çok yüksektir. Bu nedenle, halktan oluşan bir jüri tarafından ölüme mahkûm edilen Sokrates'in trajik ölümü sofistler tarafından manipüle edilmiştir. Platon bundan tüm dersleri çıkarmıştır.
+Cumhuriyet kavramı Yunan felsefesinden kaynaklanmaktadır. Sıklıkla çok riskli olduğu düşünülen demokrasi ile karşılaştırılmıştır. Platon siyaset felsefesinin ana eserine bu adı vermiştir: **cumhuriyet** ve demokrasiyi çok sert bir şekilde yargılar. Halk yönettiğinde, kendi arzularının yasasını dayatma ve iyi ile hoş olanı birbirine karıştırma riski çok yüksektir. Bu nedenle, halktan oluşan bir jüri tarafından ölüme mahkûm edilen Sokrates'in trajik ölümü sofistler tarafından manipüle edilmiştir. Platon bundan tüm dersleri çıkarmıştır.
 
 
 ![image](assets/2/img-111.webp)
@@ -760,7 +760,7 @@ Cicero MÖ 1. yüzyılda yaşamıştır ve Roma İmparatorluğu döneminde Latin
 
 ![image](assets/2/img-004.webp)
 
-Kanunlar Üzerine_ (_De Legibus_) adlı risalesinde hukukun temeli üzerine düşünür. Ona göre, pozitif hukuk, bir toplum tarafından kabul edilen sözleşmeler veya yazılı yasalar bütünü, adına yakışır bir adalet tesis edemez. İnsan aklına kazınmış doğal bir adalet vardır: "hukukun temeli doğanın kendisindedir." Adaletsizliğin bir teamülün sonucu olduğunu söylemek, hakikatin hükme bağlandığını söylemektir. Ancak hakikat, çoğunluk tarafından bile kararlaştırılamaz; o bizim yargılarımıza rehberlik eder.
+Kanunlar Üzerine (_De Legibus_) adlı risalesinde hukukun temeli üzerine düşünür. Ona göre, pozitif hukuk, bir toplum tarafından kabul edilen sözleşmeler veya yazılı yasalar bütünü, adına yakışır bir adalet tesis edemez. İnsan aklına kazınmış doğal bir adalet vardır: "hukukun temeli doğanın kendisindedir." Adaletsizliğin bir teamülün sonucu olduğunu söylemek, hakikatin hükme bağlandığını söylemektir. Ancak hakikat, çoğunluk tarafından bile kararlaştırılamaz; o bizim yargılarımıza rehberlik eder.
 
 Cicero da hukukun temeli olarak faydayı reddeder. Gerçekten de şöyle yazar:
 
@@ -1152,7 +1152,7 @@ Cevabın bir kısmı, kapitalizmin Protestan Reformu'ndan çok önce dini bir ba
 ### İtalyan Şehirlerinin Yükselişi
 
 
-20'nci yüzyılın başlarında yaşamış Belçikalı tarihçi Henri Pirenne, çalışmalarının bir bölümünü Avrupa'da kapitalizmin ortaya çıkışını analiz etmeye ayırmıştır. Avrupa Tarihi_ adlı kitabında şöyle der:
+20'nci yüzyılın başlarında yaşamış Belçikalı tarihçi Henri Pirenne, çalışmalarının bir bölümünü Avrupa'da kapitalizmin ortaya çıkışını analiz etmeye ayırmıştır. **Avrupa Tarihi** adlı kitabında şöyle der:
 
 
 ![image](assets/3/img-034.webp)
@@ -1179,7 +1179,7 @@ Kutsal Yazılar, faizle borç vermenin savunmasız borçluları sömürmek anlam
 
 Jacques Le Goff, Orta Çağ kültürü ve zihniyetleri konusunda uzmanlaşmış bir Fransız tarihçidir. Pirenne'i izleyerek, kapitalizmin tohumlarının Ortaçağ'ın başlarında, özellikle de bireysel girişim, kâr peşinde koşma ve kredi araçlarının kullanımı gibi uygulamaların zaten mevcut olduğu İtalyan şehirlerinde var olduğunu kabul eder.
 
-Veya Le Goff, _L'usure au Moyen Âge_ (1967, 1986'da _La bourse et la vie; économie et religion au moyen-age_ başlığı altında yeniden yayımlanmıştır) adlı eserinde, 13. yüzyılın başlarında Aziz Albert'in "meşru faiz" kavramını teorileştirdiğini vurgulamaktadır: la bourse et la vie; économie et religion au moyen-age_) 13. yüzyılın başlarında Büyük Aziz Albert'in "meşru faiz" kavramını teorileştirdiğini ve bu kavramın kendisinden sonra Aziz Thomas Aquinas tarafından daha da geliştirildiğini belirtmektedir. Dini yasaklara rağmen, borç verme uygulaması vardı ve gerçek ekonomik ihtiyaçları karşılıyordu. Adam Smith'ten çok önce, borç faizinin tefecilik değil, kapitalizmin temelinde yatan risk için borç verene, yatırım için de borç alana tazminat ödemenin bir yolu olduğunu anlamışlardı.
+Veya Le Goff, _L'usure au Moyen Âge_ (1967, 1986'da _La bourse et la vie; économie et religion au moyen-age_ başlığı altında yeniden yayımlanmıştır) adlı eserinde, 13. yüzyılın başlarında Aziz Albert'in "meşru faiz" kavramını teorileştirdiğini vurgulamaktadır: 13. yüzyılın başlarında Büyük Aziz Albert'in "meşru faiz" kavramını teorileştirdiğini ve bu kavramın kendisinden sonra Aziz Thomas Aquinas tarafından daha da geliştirildiğini belirtmektedir. Dini yasaklara rağmen, borç verme uygulaması vardı ve gerçek ekonomik ihtiyaçları karşılıyordu. Adam Smith'ten çok önce, borç faizinin tefecilik değil, kapitalizmin temelinde yatan risk için borç verene, yatırım için de borç alana tazminat ödemenin bir yolu olduğunu anlamışlardı.
 
 ![image](assets/3/img-047.webp)
 
@@ -1243,7 +1243,7 @@ Voltaire de ticaret için aynı şeyi düşünüyordu. Hoşgörüyü herhangi bi
 ### "Barışçıl bir din" olarak kâr
 
 
-Voltaire'e göre, hoşgörü ve siyasi özgürlük doktrininin temelini oluşturan şey öncelikle insanın yanılabilirliğidir. Felsefi Sözlük_ (1764) adlı eserinde şöyle yazar:
+Voltaire'e göre, hoşgörü ve siyasi özgürlük doktrininin temelini oluşturan şey öncelikle insanın yanılabilirliğidir. **Felsefi Sözlük** (1764) adlı eserinde şöyle yazar:
 
 
 > Hoşgörü, hata yapabileceğimizin farkında olmamızın zorunlu bir sonucudur. Hata yapmak insana özgüdür ve hepimiz sürekli hata yaparız. Birbirimizin hatalarını affedelim; bu doğanın ilk kanunudur.
@@ -1296,7 +1296,7 @@ Yine de Fransa büyük beyinlerden yoksun değildi. Çok az bilinir ama Baron de
 Turgot mektuplarında hoşgörünün bir tanımını sunar. Hoşgörmek, hataya karşı şiddet kullanmayı reddetmek anlamına gelir. Başka bir deyişle, hoşgörü hatanın kabulü değildir. Hataya karşı mücadele edilebilir, ancak şiddetle değil, inanç ve akıl silahlarıyla.
 
 
-Daha sonra Turgot, Louis XVI'nın taç giyme töreninde ettiği yeminden "sapkınlığı bastıracağıma yemin ederim" ifadesini çıkarması için çaba gösterdi. Kral'a Hoşgörü Üzerine Anılar_ (1775) adlı kitabında şöyle yazar:
+Daha sonra Turgot, Louis XVI'nın taç giyme töreninde ettiği yeminden "sapkınlığı bastıracağıma yemin ederim" ifadesini çıkarması için çaba gösterdi. Kral'a *Hoşgörü Üzerine Anılar* (1775) adlı kitabında şöyle yazar:
 
 
 > Hoşgörüsüzlüğün savunucuları, prensin dini doğru olduğunda emretme hakkına sahip olduğunu ve o zaman ona itaat edilmesi gerektiğini mi söyleyecekler? Hayır, o zaman bile kişi ona itaat edemez ve etmemelidir; çünkü kişi onun emrettiği dine uymak zorundaysa, bu onun emrettiği için değil, doğru olduğu içindir; ve prensin emrettiği din doğru olduğu için değildir, olamaz da. Böyle bir nedenle bir dinin doğru olduğuna inanacak kadar aptal kimse yoktur. Bu nedenle, iyi niyetle ona boyun eğen kişi prense itaat etmez, yalnızca vicdanına itaat eder; ve prensin emri, bu vicdanın ona yüklediği yükümlülüğe hiçbir ağırlık katmaz. Prens bir dine inansa da inanmasa da, ona uyulmasını emretse de emretmese de, doğru ya da yanlış, ne eksik ne de fazladır. Bu nedenle prensin görüşü bir dinin doğruluğuna ve dolayısıyla ona uyma yükümlülüğüne kesinlikle yabancıdır: dolayısıyla prensin, bir prens olarak, bu konuda yargılama hakkı, emir verme hakkı yoktur; kendi yetki alanına girmeyen ve her bireyin vicdanının tek yargıcı olarak yalnızca Tanrı'yı görebileceği ve görmesi gereken bu tür konularda yetkisizliği mutlaktır.
@@ -1887,7 +1887,7 @@ Marx'a göre, günlük yaşam bir hayatta kalma mücadelesi ise, konuşma, yazma
 ### Tarafsız Devlet Efsanesi
 
 
-Marx'ın özellikle ilk yazılarında (Hegel'in Hak Felsefesinin Eleştirisi_ ve _Yahudi Sorunu Üzerine_) siyasal liberalizme yönelttiği temel eleştiri, sivil toplum ile devletin birbirinden ayrılmasına odaklanır. Bu eleştiri, onun "Burjuva Devrimi" yorumunun genel çerçevesi içinde anlaşılmalıdır Bu devrim, tarafsız bir hakem rolü oynayarak evrenseli, yani ortak çıkarı hedeflemesi beklenen, sivil toplumdan ayrılmış bir devletin oluşumuna yol açar.
+Marx'ın özellikle ilk yazılarında (**Hegel'in Hak Felsefesinin Eleştirisi** ve **Yahudi Sorunu Üzerine**) siyasal liberalizme yönelttiği temel eleştiri, sivil toplum ile devletin birbirinden ayrılmasına odaklanır. Bu eleştiri, onun "Burjuva Devrimi" yorumunun genel çerçevesi içinde anlaşılmalıdır. Bu devrim, tarafsız bir hakem rolü oynayarak evrenseli, yani ortak çıkarı hedeflemesi beklenen, sivil toplumdan ayrılmış bir devletin oluşumuna yol açar.
 
 
 Ancak tüm bunlar Marx için sadece aldatıcı bir görünümdür. Gerçekte devlet, egemen sınıfın özel çıkarlarına hizmet etmeyi amaçlayan bir araçtan başka bir şey değildir. Başka bir deyişle, devlet tarafsız değildir; sivil toplumdan ayrı değildir. Aslında liberal devlet çifte bir yanılsama alanıdır. Az önce gördüğümüz gibi evrensel yanılsaması ve dolayısıyla özgürleşme yanılsaması. Gerçekten de Devrim, halk egemenliğini ve kanun önünde eşitliği tesis ederek yurttaşı özgürleştirmiştir, ancak bu özgürlük ve eşitlik tamamen ideal ve soyut kalmaktadır. Marx, Rousseau ya da Hegel gibi, insanın yurttaş olarak rasyonel doğasını tam olarak gerçekleştirdiğini düşünmenin yanlış olduğunu söyler. Gerçekte, kişi yurttaş olabilir ve sömürülmüş, köleleştirilmiş, arzuların kaprislerine, bencilliğin anarşisine ve en güçlünün yasasına terk edilmiş olarak kalabilir.
@@ -1944,7 +1944,7 @@ Ludwig von Mises, Marx'ın insan haklarının burjuva ideolojisine ilişkin olan
 Murray Rothbard, _The Ethics of Liberty_ ve _Anatomy of the State_ adlı eserlerinde sömürünün yalnızca özel mülkiyete karşı bir saldırı olarak anlamlı olduğunu ve yalnızca Devletin gelirlerini saldırganlık yoluyla, yani vergilendirme, borçlanma, para basma ve dolayısıyla enflasyon yoluyla elde ettiğini açıklamıştır. Gerçekte, toplumdaki şiddet ve çatışmaların kaynağı sınıf mücadelesi değil, devlet müdahalesidir. Devlet, kaynaklara el koyarak ve ekonomiyi düzenleyerek, çatışmalara ve baskıya yol açan çarpıklıklar ve adaletsizlikler yaratır. Dolayısıyla sömürüyü sona erdirmek, yağmacı kastın, yani Devletin gücünü azaltmayı gerektirir.
 
 
-Bu konuda ayrıca bkz: _Marksist ve Avusturyacı Sınıf Analizi_, Hans Hermann Hoppe, Liberter Çalışmalar Dergisi, Cilt IX No. 2, Güz 1990. [François Guillaumat'ın çevirisi] (https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993) kitabının 4. Bölümü olarak yer almaktadır.
+Bu konuda ayrıca bkz: _Marksist ve Avusturyacı Sınıf Analizi_, Hans Hermann Hoppe, Liberter Çalışmalar Dergisi, Cilt IX No. 2, Güz 1990. [François Guillaumat'ın çevirisi](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993) kitabının 4. Bölümü olarak yer almaktadır.
 
 
 ### Polilojizm
@@ -1998,7 +1998,7 @@ Marksistler, üretim araçlarının işçiler tarafından sahiplenildiği ve kon
 ![image](assets/5/img-090.webp)
 
 
-Ludwig von Mises, 1922 gibi erken bir tarihte _Sosyalizm _ adlı kitabında, merkezi planlamacılar piyasanın sağladığı fiyat sistemi olmadan doğru ekonomik hesaplamalar yapamayacağından, sosyalizmin yaygın kıtlıklara yol açacağını göstermiştir.
+Ludwig von Mises, 1922 gibi erken bir tarihte _Sosyalizm_ adlı kitabında, merkezi planlamacılar piyasanın sağladığı fiyat sistemi olmadan doğru ekonomik hesaplamalar yapamayacağından, sosyalizmin yaygın kıtlıklara yol açacağını göstermiştir.
 
 
 ## Köleliğe Giden Yol
@@ -2007,7 +2007,7 @@ Ludwig von Mises, 1922 gibi erken bir tarihte _Sosyalizm _ adlı kitabında, mer
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
 
-Batı demokrasilerinin ekonomilerinde devlet müdahaleciliğinin yükselişinden endişe duyan Hayek, ister sağdan ister soldan gelsin, kolektivizmin felsefi bir eleştirisi olarak _The Road to Serfdom_ kitabını yazdı. Reader's Digest_ sayesinde birkaç milyon adet basılan bu kitap, Hayek'in Amerika Birleşik Devletleri'ndeki ününe büyük katkıda bulunmuştur.
+Batı demokrasilerinin ekonomilerinde devlet müdahaleciliğinin yükselişinden endişe duyan Hayek, ister sağdan ister soldan gelsin, kolektivizmin felsefi bir eleştirisi olarak _The Road to Serfdom_ kitabını yazdı. _Reader's Digest_ sayesinde birkaç milyon adet basılan bu kitap, Hayek'in Amerika Birleşik Devletleri'ndeki ününe büyük katkıda bulunmuştur.
 
 
 ![image](assets/5/img-100.webp)

@@ -2070,7 +2070,7 @@ Supponiamo che $N$ non sia primo. È quindi possibile calcolare il suo ordine ut
 
 $$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
-*il *teorema 2** dimostra che, una volta scomposto un qualsiasi $N$ non primo nei suoi fattori primi distinti, è facile calcolare l'ordine di $N$.
+**Il teorema 2** dimostra che, una volta scomposto un qualsiasi $N$ non primo nei suoi fattori primi distinti, è facile calcolare l'ordine di $N$.
 
 Ad esempio, supponiamo che $N = 270$. Questo non è chiaramente un numero primo. Scomponendo $N$ nei suoi fattori primi si ottiene l'espressione: $2 \cdot 3^3 \cdot 5$. Secondo la funzione Phi di Eulero, l'ordine di $N$ è quindi il seguente:
 

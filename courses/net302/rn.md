@@ -892,7 +892,7 @@ Aderesi za IP zishobora guhabwa mu buryo bubiri nyamukuru:
 **Aderesi za IPv4** zanditswe mu buryo bwa **32-bit** bugabanywemwo **bytes zine**. Buri byte irimwo ibice 8 kandi bigereranya umubare w’icumi kuva kuri 0 gushika kuri 255. Ivyo bice 4 bitandukanijwe n’utudomo kugira ngo bibe ikimenyetso gitomoye kandi gisomwa.
 
 
-akarorero: Address 172.16.254.1_
+akarorero: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Ubwa nyuma, amategeko y’inzira y’inguvu arimwo ingingo ngenderwako nka RIP (
 ### Insobanuro
 
 
-Urubuga Address Ubuhinduzi_ (NAT) ni ubuhinga bwateguwe kugira ngo Address buhoro buhoro amaderesi IPv4 ariho agabanuke. NAT yari yateguwe nk’umuti w’agateganyo imbere y’uko IPv6 yemerwa cane, yatumye amashirahamwe n’abantu ku giti cabo baguma bahuza imashini nyinshi mu gihe bakoresha gusa amaderesi IP ya bose.
+Urubuga Address Ubuhinduzi (NAT) ni ubuhinga bwateguwe kugira ngo Address buhoro buhoro amaderesi IPv4 ariho agabanuke. NAT yari yateguwe nk'umuti w'agateganyo imbere y'uko IPv6 yemerwa cane, yatumye amashirahamwe n'abantu ku giti cabo baguma bahuza imashini nyinshi mu gihe bakoresha gusa amaderesi IP ya bose.
 
 
 **Iciyumviro gihambaye:** kuva kuri IPv4 uja kuri IPv6 mu vyiyumviro bitorera umuti ingorane y’urushe mu kwagura umwanya wa Address kuva ku bice 32 gushika ku bice 128, bikaba bitanga umubare hafi w’amaderesi ataco amaze (2^128). Ariko rero, mu bikorwa, iyo mpinduka iracari itaraheza, kandi NAT iracariko irakoreshwa cane no muri iki gihe.

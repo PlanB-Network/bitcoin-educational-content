@@ -127,7 +127,7 @@ Milletvekili seçildiğinde, İkinci Cumhuriyet dönemindeydi ve o noktadan itib
 > Oysa Ulusal Atölyelere kayıtlı işçiler haklı olarak mevcut işin aralarında mümkün olduğunca eşit ve adil bir şekilde dağıtılmasını talep etmişlerdir;
 > Oysa sadece 16.000 erkek için iş mevcuttur ve kayıtlı erkeklerin sayısı 50.000'i aşmaktadır;
 > Bir sonraki duyuruya kadar ve daha iyi düzenlemeler yapılana kadar, her şirketin 17'si Pazartesi gününden itibaren haftada iki gün çalışması kararlaştırılmıştır.
-> cumhuriyet Komiseri, Ulusal Atölyeler Müdürü, _
+> cumhuriyet Komiseri, Ulusal Atölyeler Müdürü,
 > **Émile THOMAS.**
 
 ---
@@ -256,7 +256,7 @@ Adam Smith'in gösterdiği şey, kişinin kendi çıkarına ancak başkalarını
 ---
 
 > "Her bireyin kendi durumunu iyileştirmeye yönelik doğal çabası... o kadar güçlüdür ki, tek başına ve hiçbir yardım almadan toplumu zenginlik ve refaha taşımakla kalmaz, aynı zamanda insan yasalarının aptallığının çoğu zaman faaliyetlerini engellediği yüzlerce küstah engeli de aşabilir."
-> ulusların Zenginliği_
+> ulusların **Zenginliği**
 > _Kitap IV, Bölüm V_
 
 ---
@@ -686,7 +686,7 @@ Korumacılık gerçekte bir tür ekonomik milliyetçiliktir. "Ulusal çıkarlar�
 
 ![image](assets/en/058.webp)
 
-fransa'da üretilen bir blenderin tanıtım reklamı örneği_
+fransa'da üretilen bir blenderin tanıtım reklamı örneği
 
 
 ---

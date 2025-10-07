@@ -388,9 +388,9 @@ Podle [údajů, které v srpnu 2025 shromáždil Luke Dashjr](https://luke.dashj
 
 
 
-- Bitcoin core**: 87.3 % uzlů
-- Bitcoin Knots**: 12.5
-- Další kumulativní implementace**: 0.(btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3 % uzlů
+- **Bitcoin Knots**: 12.5
+- **Další kumulativní implementace**: 0.(btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Jinými slovy, přibližně 9 z 10 veřejných uzlů používá Bitcoin core. Zb
 
 
 
-**Poznámka:** Tyto údaje jsou však stále odhady, protože jsou založeny především na *poslouchajících uzlech*, tj. uzlech přijímajících příchozí spojení (s otevřeným portem 8333). U neposlouchajících uzlů* je počítání mnohem složitější, protože se k nim nelze připojit přímo: musíte čekat, až od nich přijde iniciativa v podobě odchozího spojení. Stránky Luka Dashjra tvrdí, že se snaží počítat i tyto *neposlouchající uzly*, ale získat o nich naprosto přesné údaje je nadále nemožné a aktualizace těchto statistik nevyhnutelně zaostává za skutečností.
+**Poznámka:** Tyto údaje jsou však stále odhady, protože jsou založeny především na *poslouchajících uzlech*, tj. uzlech přijímajících příchozí spojení (s otevřeným portem 8333). U *neposlouchajících uzlů* je počítání mnohem složitější, protože se k nim nelze připojit přímo: musíte čekat, až od nich přijde iniciativa v podobě odchozího spojení. Stránky Luka Dashjra tvrdí, že se snaží počítat i tyto *neposlouchající uzly*, ale získat o nich naprosto přesné údaje je nadále nemožné a aktualizace těchto statistik nevyhnutelně zaostává za skutečností.
 
 
 
@@ -415,8 +415,8 @@ Bitcoin core je napsán v jazyce C++. Je to také projekt s otevřeným zdrojov�
 
 
 
-- Přispěvatelé** předkládají návrhy ve formě _žádostí o stažení_ (PR). V zásadě může změnu navrhnout kdokoli, ale musí být otestována, zdokumentována a projít procesem vzájemného hodnocení.
-- Správci** mají právo schvalovat a slučovat PR. Jsou to oni, kdo zaručují soudržnost a stabilitu projektu. V červenci 2025 je jich pět: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao a Ryan Ofsky.
+- **Přispěvatelé** předkládají návrhy ve formě _žádostí o stažení_ (PR). V zásadě může změnu navrhnout kdokoli, ale musí být otestována, zdokumentována a projít procesem vzájemného hodnocení.
+- **Správci** mají právo schvalovat a slučovat PR. Jsou to oni, kdo zaručují soudržnost a stabilitu projektu. V červenci 2025 je jich pět: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao a Ryan Ofsky.
 - Od února 2023 není žádný **hlavní správce**. Tuto roli původně zastával Satoshi Nakamoto při spuštění Bitcoin, poté Gavin Andresen po Nakamotově odchodu na začátku roku 2011 a nakonec Wladimir J. Van Der Laan od roku 2014 do roku 2023.
 
 
@@ -446,9 +446,9 @@ Můžeme také zmínit:
 
 
 
-- Libbitcoin**: modulární knihovna C++, kterou vyvinul Amir Taaki a udržuje Eric Voskuil;
-- Bcoin**: implementace v jazyce JavaScript, která již není aktivně udržována;
-- BTCD/btcsuit**e: implementace v jazyce Go.
+- **Libbitcoin**: modulární knihovna C++, kterou vyvinul Amir Taaki a udržuje Eric Voskuil;
+- **Bcoin**: implementace v jazyce JavaScript, která již není aktivně udržována;
+- **BTCD/btcsuite**: implementace v jazyce Go.
 
 
 
@@ -590,7 +590,7 @@ Důležitým aspektem, který je často špatně chápán, je to, že provoz uzl
 
 
 
-- Pravidla konsensu**:
+- **Pravidla konsensu**:
 
 
 
@@ -604,7 +604,7 @@ Změna těchto pravidel se rovná změně protokolu, a tedy i měny (Hard Fork).
 
 
 
-- Pravidla štafety**:
+- **Pravidla štafety**:
 
 
 
@@ -616,7 +616,7 @@ Například transakce bez poplatků je podle pravidel konsensu naprosto platná,
 
 
 
-Spřádání vlastního uzlu znamená tvrzení: "Potvrzuji to, co jsem se rozhodl potvrdit, podle pravidel, která jsem sám přijal "*. Stáváte se tak aktérem řízení systému, který může odmítnout vývoj, který se vám zdá nepřijatelný, nebo schválit aktualizaci podle vlastních kritérií.
+Spřádání vlastního uzlu znamená tvrzení: "Potvrzuji to, co jsem se rozhodl potvrdit, podle pravidel, která jsem sám přijal". Stáváte se tak aktérem řízení systému, který může odmítnout vývoj, který se vám zdá nepřijatelný, nebo schválit aktualizace podle vlastních kritérií.
 
 
 
@@ -882,8 +882,8 @@ Existují 2 možné důvody, proč se rozhodnout pro uzly místo jádra:
 
 
 
-- Techniky**: V porovnání s jádrem se liší zejména v oblasti správy relé tím, že určuje, které transakce uzel přijímá a vysílá.
-- Zásady**: Někteří lidé dávají přednost používání alternativních klientů, jako je Knots, z netechnických důvodů, zejména proto, aby podpořili alternativu k jádru a omezili tak jeho monopol. Pokud by někdy došlo k ohrožení jádra, bylo by užitečné mít nejen solidní a dobře udržované alternativní klienty, ale také vědět, jak je efektivně využívat. Jiní používají Knots z protestních důvodů, protože ztratili důvěru ve vývojáře Core nebo nesouhlasí s většinou vedení klienta.
+- **Techniky**: V porovnání s jádrem se liší zejména v oblasti správy relé tím, že určuje, které transakce uzel přijímá a vysílá.
+- **Zásady**: Někteří lidé dávají přednost používání alternativních klientů, jako je Knots, z netechnických důvodů, zejména proto, aby podpořili alternativu k jádru a omezili tak jeho monopol. Pokud by někdy došlo k ohrožení jádra, bylo by užitečné mít nejen solidní a dobře udržované alternativní klienty, ale také vědět, jak je efektivně využívat. Jiní používají Knots z protestních důvodů, protože ztratili důvěru ve vývojáře Core nebo nesouhlasí s většinou vedení klienta.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -896,7 +896,7 @@ Osobně doporučuji zvolit jádro, a to hlavně proto, abyste mohli rychleji vyu
 
 
 
-Uzel v krabici_ kombinuje Bitcoin core (nebo Knots) s předkonfigurovaným operačním systémem, webem Interface a obchodem s aplikacemi pro samoobslužné služby (Lightning, explorers, server Electrum, Mempool, BTCPay Server, Nextcloud atd.). Jedním kliknutím můžete tyto různé moduly nainstalovat, aktualizovat a propojit.
+Uzel v krabici kombinuje Bitcoin core (nebo Knots) s předkonfigurovaným operačním systémem, webem Interface a obchodem s aplikacemi pro samoobslužné služby (Lightning, explorers, server Electrum, Mempool, BTCPay Server, Nextcloud atd.). Jedním kliknutím můžete tyto různé moduly nainstalovat, aktualizovat a propojit.
 
 
 
@@ -1136,7 +1136,7 @@ Minipočítače podle mého názoru představují nejlepší kompromis pro domá
 
 
 
-Osobně dávám přednost modelu *Lenovo ThinkCentre Tiny*, který je na trhu s použitými počítači (z firemních flotil) velmi rozšířený; je obzvláště robustní a snadno se upravuje. Existuje samozřejmě mnoho ekvivalentů od jiných výrobců: **Dell OptiPlex Micro*, *HP ProDesk / EliteDesk Mini / Micro*, *Intel NUC*, *Gigabyte BRIX*, *MSI Cubi*..
+Osobně dávám přednost modelu *Lenovo ThinkCentre Tiny*, který je na trhu s použitými počítači (z firemních flotil) velmi rozšířený; je obzvláště robustní a snadno se upravuje. Existuje samozřejmě mnoho ekvivalentů od jiných výrobců: *Dell OptiPlex Micro*, *HP ProDesk / EliteDesk Mini / Micro*, *Intel NUC*, *Gigabyte BRIX*, *MSI Cubi*...
 
 
 
@@ -1282,7 +1282,7 @@ V první řadě potřebujete SSD disk, který je dostatečně velký na to, aby 
 
 
 
-Jako příklad jsem pro účely tohoto kurzu zvolil následující model: *2Tb*, který je na Amazonu k dostání za přibližně 120 EUR: Samsung 990 EVO Plus NVMe M.2 SSD 2Tb*. Můžete se rozhodnout i pro jiné známé značky, jako jsou Crucial, Western Digital nebo Kingston.
+Jako příklad jsem pro účely tohoto kurzu zvolil následující model: **2Tb**, který je na Amazonu k dostání za přibližně 120 EUR: **Samsung 990 EVO Plus NVMe M.2 SSD 2Tb**. Můžete se rozhodnout i pro jiné známé značky, jako jsou Crucial, Western Digital nebo Kingston.
 
 
 
@@ -1477,7 +1477,7 @@ Umbrel může zůstat velmi minimalistický a zaměřený pouze na Bitcoin, nebo
 
 
 
-- Jednoduchý uzel Bitcoin**: na toto základní použití se společnost Umbrel spoléhá od samého počátku. Můžete spustit Bitcoin core (nebo Knots), připojit peněženky přímo k uzlu, vystavit server Electrum, hostovat Mempool Block explorer pro zobrazení Blockchain a odhadovat poplatky... Právě na tato využití se v tomto kurzu zaměříme.
+- **Jednoduchý uzel Bitcoin**: na toto základní použití se společnost Umbrel spoléhá od samého počátku. Můžete spustit Bitcoin core (nebo Knots), připojit peněženky přímo k uzlu, vystavit server Electrum, hostovat Mempool Block explorer pro zobrazení Blockchain a odhadovat poplatky... Právě na tato využití se v tomto kurzu zaměříme.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel může zůstat velmi minimalistický a zaměřený pouze na Bitcoin, nebo
 
 
 
-- Lightning Network**: Umbrel také umožňuje nasadit LND nebo Core Lightning, dvě implementace Lightning Network, pro správu vlastního uzlu Lightning. Díky mnoha dostupným aplikacím budete moci otevírat kanály, spravovat likviditu, provádět platby, automatizovat vyvažování, nabízet služby, připojit vzdálený Wallet nebo využívat pokročilou správu Interface. Tomuto konkrétnímu případu použití se budeme věnovat v příštím kurzu LNP 202.
+- **Lightning Network**: Umbrel také umožňuje nasadit LND nebo Core Lightning, dvě implementace Lightning Network, pro správu vlastního uzlu Lightning. Díky mnoha dostupným aplikacím budete moci otevírat kanály, spravovat likviditu, provádět platby, automatizovat vyvažování, nabízet služby, připojit vzdálený Wallet nebo využívat pokročilou správu Interface. Tomuto konkrétnímu případu použití se budeme věnovat v příštím kurzu LNP 202.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel může zůstat velmi minimalistický a zaměřený pouze na Bitcoin, nebo
 
 
 
-- Obecný self-hosting**: s Nextcloud, Immich, Jellyfin/Plex, blokátory reklamy v rámci DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), domácí automatizace (Home Assistant), zálohování, správa poznámek, kancelářské nástroje, místní AI (Ollama + Open WebUI)... Umbrel se může stát vaším osobním serverem, který vám umožní získat kontrolu nad vašimi daty. Služby, které denně používáte, hostujete sami, s vyladěným uživatelským prostředím, které se velmi podobá externím řešením, a přitom si zachováváte plnou kontrolu nad svými daty a soukromím.
+- **Obecný self-hosting**: s Nextcloud, Immich, Jellyfin/Plex, blokátory reklamy v rámci DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), domácí automatizace (Home Assistant), zálohování, správa poznámek, kancelářské nástroje, místní AI (Ollama + Open WebUI)... Umbrel se může stát vaším osobním serverem, který vám umožní získat kontrolu nad vašimi daty. Služby, které denně používáte, hostujete sami, s vyladěným uživatelským prostředím, které se velmi podobá externím řešením, a přitom si zachováváte plnou kontrolu nad svými daty a soukromím.
 
 
 
@@ -1759,8 +1759,8 @@ Před restartováním zařízení zkontrolujte následující dva body:
 
 
 
-- Klíč USB je odpojen**: pokud zůstane připojen, může se systém restartovat na něm místo na interním disku;
-- Ethernetový kabel je zapojen**: aby zařízení fungovalo, musí být připojeno k routeru.
+- **Klíč USB je odpojen**: pokud zůstane připojen, může se systém restartovat na něm místo na interním disku;
+- **Ethernetový kabel je zapojen**: aby zařízení fungovalo, musí být připojeno k routeru.
 
 
 
@@ -1904,7 +1904,7 @@ Model Interface společnosti Umbrel je poměrně intuitivní:
 
 
 
-- "Obchod s aplikacemi*" umožňuje instalovat nové aplikace,
+- **"Obchod s aplikacemi"** umožňuje instalovat nové aplikace,
 
 
 
@@ -2285,9 +2285,9 @@ Poté se dozvíte tři možnosti propojení softwaru s uzlem Bitcoin:
 
 
 
-- Veřejný server* (žlutá): ve výchozím nastavení, pokud nevlastníte uzel Bitcoin, vás tato možnost připojí k veřejnému uzlu, který nevlastníte (obvykle k uzlu společnosti). Tato volba zde není relevantní, protože máte svůj vlastní uzel Umbrel.
-- Bitcoin core* (Green): tato možnost odpovídá připojení přes Interface RPC, tj. přímo ke Bitcoin core.
-- Private Electrum* (modrá): tato možnost umožňuje připojení prostřednictvím serveru Electrum Interface indexeru (Electrs nebo Fulcrum).
+- **Veřejný server** (žlutá): ve výchozím nastavení, pokud nevlastníte uzel Bitcoin, vás tato možnost připojí k veřejnému uzlu, který nevlastníte (obvykle k uzlu společnosti). Tato volba zde není relevantní, protože máte svůj vlastní uzel Umbrel.
+- **Bitcoin core** (Green): tato možnost odpovídá připojení přes Interface RPC, tj. přímo ke Bitcoin core.
+- Private Electrum (modrá): tato možnost umožňuje připojení prostřednictvím serveru Electrum Interface indexeru (Electrs nebo Fulcrum).
 
 
 

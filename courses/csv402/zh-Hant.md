@@ -450,7 +450,7 @@ Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則�
 
 - 使用 **Bitcoin** 交易輸出
 
-這表示一個 _ 單次使用的封印被定義為一個精確的 _outpoint_ （一個 txid + 輸出號碼對）。只要這個 _outpoint_ 用完，Seal 就會關閉。
+這表示一個 _單次使用的封印_ 被定義為一個精確的 _outpoint_ （一個 txid + 輸出號碼對）。只要這個 _outpoint_ 用完，Seal 就會關閉。
 
 在研發 RGB 時，我們發現至少有 4 種不同的方式可以在 Bitcoin 上實現這些封條：
 
@@ -484,7 +484,7 @@ TxO2 「中的 」O2 "提醒我們，定義和結束都是基於交易輸出的�
 
 ### TxO2 圖示範例
 
-提醒一下，定義_單次使用的印章_不一定需要發佈 On-Chain 交易。舉例來說，Alice 已經有一個未使用的 UTXO 就夠了。她可以決定「這個 _outpoint_ (已經存在的) 現在是我的 Seal」。她在本地（_客戶端）記下這一點，直到這個 UTXO 用完，Seal 才會被視為開放。
+提醒一下，定義**單次使用的印章**不一定需要發佈 On-Chain 交易。舉例來說，Alice 已經有一個未使用的 UTXO 就夠了。她可以決定「這個 **outpoint** (已經存在的) 現在是我的 Seal」。她在本地（**客戶端**）記下這一點，直到這個 UTXO 用完，Seal 才會被視為開放。
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
@@ -536,7 +536,7 @@ Alice 通知 Bob 如果花掉這筆 UTXO，就會被視為發生了特定事件�
 
 ![RGB-Bitcoin](assets/en/033.webp)
 
-因此，我們稱第二筆交易為「_見證交易」。
+因此，我們稱第二筆交易為「**見證交易**」。
 
 從另一個角度來說明，我們可以代表兩個層次：
 
@@ -575,7 +575,7 @@ _witness transaction_ 花費了著名的 UTXO（或稱 _seal definition_），�
 
 *** 簽名調整 (簽名至 Contract) :***
 
-早期的方案是利用簽章（ECDSA 或 Schnorr）的隨機部分來嵌入 _commitment：這就是所謂的「**Sign-to-Contract**」技術。您可以使用包含資料的 Hash 來取代隨機產生的 Nonce。如此一來，簽章就隱含揭示了您的 Commitment，而不需要在交易中增加任何額外的空間。這種方式有許多優點：
+早期的方案是利用簽章（ECDSA 或 Schnorr）的隨機部分來嵌入 **commitment**：這就是所謂的「**Sign-to-Contract**」技術。您可以使用包含資料的 Hash 來取代隨機產生的 Nonce。如此一來，簽章就隱含揭示了您的 Commitment，而不需要在交易中增加任何額外的空間。這種方式有許多優點：
 
 
 - 沒有 On-Chain 過載（您使用的地方與基本 Nonce 相同）；
@@ -954,11 +954,11 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 
 - 相對於 `c_2` 的狀態確實包含在彙總資訊區塊中（用戶端）；
-- 由於 On-Chain _commitment 指向單一 MPC 根，因此沒有人能以相同的交易建立另一個歷史。
+- 由於 On-Chain **commitment** 指向單一 MPC 根，因此沒有人能以相同的交易建立另一個歷史。
 
 #### MPC 結構概要
 
-Multi Protocol Commitment* (MPC) 是使 RGB 將多個合約彙集到單一 Bitcoin 交易中的原則，同時保持承諾的唯一性和對其他參與者的保密性。由於樹狀結構的確定性，每個 Contract 都被分配到一個唯一的位置，而「假」葉 (*Entropy Leaves*) 的存在部分掩蓋了參與交易的合約總數。
+Multi Protocol Commitment (MPC) 是使 RGB 將多個合約彙集到單一 Bitcoin 交易中的原則，同時保持承諾的唯一性和對其他參與者的保密性。由於樹狀結構的確定性，每個 Contract 都被分配到一個唯一的位置，而「假」葉 (**Entropy Leaves**) 的存在部分掩蓋了參與交易的合約總數。
 
 整個 Merkle Tree 永遠不會儲存在客戶端。我們只需為每個相關的 Contract 設定一個 _Merkle path_ generate，並傳送給接收者（接收者可隨後驗證 Commitment）。在某些情況下，您可能有數個資產已通過相同的 UTXO。您可以將幾個 _Merkle paths_ 合併為一個所謂的 _multi-protocol Commitment block_，以避免重複太多資料。
 
@@ -1070,7 +1070,7 @@ RGB 中的 Smart contract 可視為狀態機，由 ：
 
 
 - Contract 的發行者**或建立者**，他定義了 Contract 的 Genesis 及其初始變數；
-- 有權** (*Ownership*) 或其他執行能力的當事人 ；
+- 有權**擁有** (*Ownership*) 或其他執行能力的當事人；
 - 觀察員，可能只限於看到某些資訊，但不能觸發修改。
 
 這種角色分離確保只有授權人員才能與契約狀態互動，有助於抵抗審查。這也讓 RGB 具備橫向擴充的能力：大部分的驗證都在 Blockchain 外部進行，只有加密錨點 (*承諾*) 會刻在 Bitcoin 上。
@@ -1383,7 +1383,7 @@ RGB Contract 由 Genesis `OpId`衍生的 `ContractId` 來識別（因為沒有�
 
 - 單一 **Global State**：這是 Contract 的公共、全局部分，對所有人可見；
 - 一個或多個 Owned 狀態：每個 Owned State 都與唯一的 Seal 相關聯（因此在 Bitcoin 上有一個 UTXO）。與之間有區別：
-- 公**擁有的國家、
+- **公擁有的國家**、
 
 Looking at this line, I can see there's an unbalanced ** marker. The text appears to be incomplete, but based on the context, it seems like it should be bold text. Here's the corrected version:
 
@@ -1398,7 +1398,7 @@ RGB 的一大特色是修改 Global State 和 Owned States 的方式。一般有
 
 
 - 可變**：當狀態元素被描述為可變時，每次新的操作都會以新的狀態取代先前的狀態。舊資料會被視為過時；
-- 累積**：當狀態元素被定義為累積時，每次新的操作都會在之前的狀態上增加新的資訊，而不會覆蓋之前的狀態。結果就是一種累積的歷史。
+- **累積**：當狀態元素被定義為累積時，每次新的操作都會在之前的狀態上增加新的資訊，而不會覆蓋之前的狀態。結果就是一種累積的歷史。
 
 如果在 Contract 中，某個狀態元素沒有被定義為可變或可累積，則此元素在後續操作中會保持為空（換言之，此欄位沒有新版本）。是 Contract 的 Schema（即編碼的 Business Logic）決定一個狀態（全局或擁有）是可變更、累積或固定的。一旦定義了 Genesis，只有在 Contract 本身允許的情況下才能修改這些屬性，例如透過特定的 State Extension。
 
@@ -1751,7 +1751,7 @@ $$
 Commitment 必須尊重兩個屬性：
 
 
-- 綁定**：一定不可能找到兩個不同的訊息產生相同的 `C` ：
+- **綁定**：一定不可能找到兩個不同的訊息產生相同的 `C`：
 
 $$
 m' : \, | \, : m' \neq m \quad \text{and} \quad r' : \, | \, : r' \neq r \quad
@@ -1773,7 +1773,7 @@ $$
 一個**Consignment**將各方之間交換的資料組合起來，受 Client-side Validation 的規範，在 RGB 中。Consignment 有兩大類：
 
 
-- Contract Consignment**：由 * 發行者* (Contract 發行者) 提供，它包括初始化資訊，例如 Schema、Genesis、Interface 和 Interface Implementation。
+- **Contract Consignment**：由 **發行者** (Contract 發行者) 提供，它包括初始化資訊，例如 Schema、Genesis、Interface 和 Interface Implementation。
 - 傳輸 Consignment：由付款方 (*payer*) 提供。它包含導致 Terminal Consignment 的整個狀態轉換歷史（即付款方收到的最終狀態）。
 
 這些託運貨物不會在 Blockchain 上公開記錄，而是由相關各方透過其選擇的通訊渠道直接交換。
@@ -1809,7 +1809,7 @@ Contract Rights 指參與 RGB Contract 者可行使的各種權利。它們可�
 
 - Ownership 權限**，與特定 UTXO 的 Ownership 相關聯（透過_Seal Definition_）；
 - 執行權**，即根據 Schema 建立一個或多個轉換（State Transitions）的能力；
-- 公共權利**，當 Schema 授權某些公共用途時，例如透過贖回 Valency 建立 State Extension。
+- 公共權利，當 Schema 授權某些公共用途時，例如透過贖回 Valency 建立 State Extension。
 
 #### Contract State
 
@@ -2895,8 +2895,8 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 讓我們分析一下這個 URL：
 
 
-- `RGB:`** (前綴): 表示啟用 RGB 通訊協定的連結 (類似於其他上下文中的 `http:` 或 `Bitcoin:`)；
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**：表示您要操作的令牌的`ContractId`；
+- **`RGB:`** (前綴): 表示啟用 RGB 通訊協定的連結 (類似於其他上下文中的 `http:` 或 `Bitcoin:`)；
+- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**：表示您要操作的令牌的`ContractId`；**
 - `/RGB20/100`**：表示使用 `RGB20` Interface，並要求 100 單位的資產。語法為`/Interface/amount`** ；
 - `+utxob:`**指定加入收件人 UTXO 的資訊 (或更精確地說，Single-Use Seal 的定義)；**
 - `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`：這是 *blinded* UTXO（或 Seal Definition）。換句話說，Bob 隱藏了他確切的 UTXO，所以寄件者 (Alice) 不知道確切的 Address 是什麼。她只知道有一個有效的 Seal 指的是由 Bob 控制的 UTXO。
@@ -2926,7 +2926,7 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 在這裡我們看到：
 
 
-- `RGB:`**：URL 前綴 ；
+- `RGB:`**URL 前綴**；
 - `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**：Contract ID (NFT)；**
 - rGB21**：Interface 適用於不可偽造資產 (NFT)** ；
 - `DbwzvSu-4BZU81jEp-...`**：對 NFT 唯一部分的明確引用，例如資料 Blob（媒體、元資料...）的 Hash；**

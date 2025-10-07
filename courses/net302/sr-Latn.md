@@ -892,7 +892,7 @@ IP adrese mogu biti dodeljene na dva glavna načina:
 **IPv4** adrese su napisane u formatu od **32 bita** podeljenom na **četiri bajta**. Svaki bajt sadrži 8 bita i predstavlja decimalni broj od 0 do 255. Četiri bajta su odvojena tačkama kako bi se formirala jasna, čitljiva notacija.
 
 
-primer: Address 172.16.254.1_
+primer: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Konačno, dinamički protokoli rutiranja uključuju standarde kao što su RIP (_
 ### Definicija
 
 
-Mreža Address Translation_ (NAT) je tehnika razvijena za Address postepeno iscrpljivanje dostupnih IPv4 adresa. Dizajnirana kao privremeno rešenje pre široke primene IPv6, NAT je omogućila kompanijama i pojedincima da nastave povezivanje velikog broja mašina koristeći samo ograničen skup javnih IP adresa.
+**Network Address Translation** (NAT) je tehnika razvijena za postepeno iscrpljivanje dostupnih IPv4 adresa. Dizajnirana kao privremeno rešenje pre široke primene IPv6, NAT je omogućila kompanijama i pojedincima da nastave povezivanje velikog broja mašina koristeći samo ograničen skup javnih IP adresa.
 
 
 **Važno podsećanje:** prelazak sa IPv4 na IPv6 teoretski rešava problem iscrpljivanja proširivanjem Address prostora sa 32 bita na 128 bita, pružajući gotovo neograničen broj adresa (2^128). U praksi, međutim, tranzicija je još uvek nepotpuna, i NAT se i dalje široko koristi danas.

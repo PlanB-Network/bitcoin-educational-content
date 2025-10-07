@@ -678,7 +678,7 @@ Di sisi lain, jika transaksi tidak sesuai dengan model transaksi kolaboratif yan
 
 CIOH ditemukan oleh Satoshi Nakamoto. Dia membicarakannya di bagian 10 Buku Putih:
 
-"_[...] penautan tidak dapat dihindari dengan transaksi multi entri, yang tentu saja mengungkapkan bahwa entri-entri tersebut dipegang oleh pemilik yang sama. Risikonya adalah jika pemilik sebuah kunci terungkap, tautan tersebut dapat mengungkapkan transaksi lain yang dimiliki oleh pemilik yang sama."
+"_[...] penautan tidak dapat dihindari dengan transaksi multi entri, yang tentu saja mengungkapkan bahwa entri-entri tersebut dipegang oleh pemilik yang sama. Risikonya adalah jika pemilik sebuah kunci terungkap, tautan tersebut dapat mengungkapkan transaksi lain yang dimiliki oleh pemilik yang sama._"
 
 ![BTC204](assets/id/061.webp)
 
@@ -1023,7 +1023,7 @@ ___
 *Saya ingin berterima kasih kepada para penulis, pengembang dan produsernya. Terima kasih juga kepada para korektor yang dengan cermat mengoreksi artikel yang menjadi dasar bagian 3 ini, dan memberi saya saran ahli mereka :*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 # Menguasai praktik terbaik untuk melindungi privasi Anda
@@ -4121,7 +4121,7 @@ $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{
 
 Pada kenyataannya, Alice bahkan tidak perlu tahu bahwa Bob memiliki alamat berlabel, karena dia hanya menggunakan bagian kedua dari alamat statis yang dia berikan, dan dalam kasus ini, ini adalah nilai $B_1$ daripada $B_{text{spend}}$.
 
-Untuk memindai pembayaran, Bob akan selalu menggunakan nilai alamat statis awalnya dengan $B_{\text{spend}}$ dengan cara ini:
+Untuk memindai pembayaran, Bob akan selalu menggunakan nilai alamat statis awalnya dengan **B_spend** dengan cara ini:
 
 $$ P_0 = B_{\text{buang}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$
 

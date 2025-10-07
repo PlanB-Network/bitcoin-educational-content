@@ -388,9 +388,9 @@ Volgens [gegevens verzameld in augustus 2025 door Luke Dashjr](https://luke.dash
 
 
 
-- Bitcoin core**: 87.3% van knooppunten
-- Bitcoin Knots**: 12.5
-- Andere cumulatieve implementaties**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% van knooppunten
+- **Bitcoin Knots**: 12.5
+- **Andere cumulatieve implementaties**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -402,7 +402,7 @@ Met andere woorden, ongeveer 9 van de 10 publieke knooppunten draaien Bitcoin co
 
 
 
-**Noot:** Deze cijfers zijn echter nog steeds schattingen, omdat ze voornamelijk gebaseerd zijn op *luisterende knooppunten*, d.w.z. knooppunten die inkomende verbindingen accepteren (met poort 8333 open). Niet-luisterende knooppunten* zijn veel complexer om te tellen, omdat het onmogelijk is om direct verbinding met ze te maken: je moet wachten tot het initiatief van hen komt, in de vorm van een uitgaande verbinding. De site van Luke Dashjr beweert dat hij deze *niet-luisterende knooppunten* ook probeert te tellen, maar het blijft onmogelijk om er perfect nauwkeurige gegevens over te verkrijgen en het bijwerken van deze statistieken loopt onvermijdelijk achter op de realiteit.
+**Noot:** Deze cijfers zijn echter nog steeds schattingen, omdat ze voornamelijk gebaseerd zijn op *luisterende knooppunten*, d.w.z. knooppunten die inkomende verbindingen accepteren (met poort 8333 open). *Niet-luisterende knooppunten* zijn veel complexer om te tellen, omdat het onmogelijk is om direct verbinding met ze te maken: je moet wachten tot het initiatief van hen komt, in de vorm van een uitgaande verbinding. De site van Luke Dashjr beweert dat hij deze *niet-luisterende knooppunten* ook probeert te tellen, maar het blijft onmogelijk om er perfect nauwkeurige gegevens over te verkrijgen en het bijwerken van deze statistieken loopt onvermijdelijk achter op de realiteit.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin core is geschreven in C++. Het is ook een open source project dat wordt 
 
 
 
-- Contributors** dienen voorstellen in in de vorm van _pull requests_ (PR). In principe kan iedereen een verandering voorstellen, maar het moet getest en gedocumenteerd worden en door een peer review proces gaan.
+- **Contributors** dienen voorstellen in in de vorm van _pull requests_ (PR). In principe kan iedereen een verandering voorstellen, maar het moet getest en gedocumenteerd worden en door een peer review proces gaan.
 - De **beheerders** hebben het recht om PR's goed te keuren en samen te voegen. Zij zijn degenen die de samenhang en stabiliteit van het project garanderen. In juli 2025 zijn er vijf van hen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao en Ryan Ofsky.
 - Sinds februari 2023 is er geen **hoofdbeheerder** meer geweest. Deze rol werd aanvankelijk vervuld door Satoshi Nakamoto bij de lancering van Bitcoin, daarna door Gavin Andresen na het vertrek van Nakamoto begin 2011, en ten slotte door Wladimir J. Van Der Laan van 2014 tot 2023.
 
@@ -446,9 +446,9 @@ We kunnen ook vermelden:
 
 
 
-- Libbitcoin**: een modulaire C++ bibliotheek ontwikkeld door Amir Taaki en onderhouden door Eric Voskuil;
-- Bcoin**: een JavaScript-implementatie, niet langer actief onderhouden;
-- BTCD/btcsuit**e: een implementatie in Go.
+- **Libbitcoin**: een modulaire C++ bibliotheek ontwikkeld door Amir Taaki en onderhouden door Eric Voskuil;
+- **Bcoin**: een JavaScript-implementatie, niet langer actief onderhouden;
+- **BTCD/btcsuite**: een implementatie in Go.
 
 
 
@@ -590,7 +590,7 @@ Een belangrijk aspect, dat vaak verkeerd begrepen wordt, is dat je met een knoop
 
 
 
-- Consensusregels**:
+- **Consensusregels**:
 
 
 
@@ -604,7 +604,7 @@ Het veranderen van deze regels staat gelijk aan het veranderen van het protocol 
 
 
 
-- Estafette-regels**:
+- **Estafette-regels**:
 
 
 
@@ -616,7 +616,7 @@ Bijvoorbeeld, een transactie zonder kosten is, volgens de consensusregels, volko
 
 
 
-Je eigen knoop doorhakken betekent dat je beweert: "Ik valideer wat ik verkies te valideren, volgens de regels die ik zelf heb aangenomen"*. Je wordt zo een actor in het beheer van het systeem, in staat om een evolutie die je onaanvaardbaar lijkt af te wijzen of om een update goed te keuren volgens je eigen criteria.
+Je eigen knoop doorhakken betekent dat je beweert: "Ik valideer wat ik verkies te valideren, volgens de regels die ik zelf heb aangenomen". Je wordt zo een actor in het beheer van het systeem, in staat om een evolutie die je onaanvaardbaar lijkt af te wijzen of om een update goed te keuren volgens je eigen criteria.
 
 
 
@@ -882,8 +882,8 @@ Er zijn 2 mogelijke redenen om Knots boven Core te kiezen:
 
 
 
-- Technieken**: Andere opties dan Core, met name op het gebied van relaisbeheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door je knooppunt.
-- Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe deze effectief gebruikt kunnen worden. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het merendeel van het beheer van de client afkeuren.
+- **Technieken**: Andere opties dan Core, met name op het gebied van relaisbeheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door je knooppunt.
+- **Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe deze effectief gebruikt kunnen worden. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het merendeel van het beheer van de client afkeuren.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1477,7 +1477,7 @@ Umbrel kan heel minimalistisch blijven en zich alleen richten op Bitcoin, of evo
 
 
 
-- Eenvoudig Bitcoin knooppunt**: dit is het eerste gebruik waarop Umbrel vanaf het begin heeft vertrouwd. Je kunt Bitcoin core (of Knots) draaien, je wallets direct op je node aansluiten, een Electrum server ontsluiten, je Mempool Block explorer hosten om de Blockchain te bekijken, en kosten schatten... Het zijn deze toepassingen waar we ons in deze cursus op zullen richten.
+- **Eenvoudig Bitcoin knooppunt**: dit is het eerste gebruik waarop Umbrel vanaf het begin heeft vertrouwd. Je kunt Bitcoin core (of Knots) draaien, je wallets direct op je node aansluiten, een Electrum server ontsluiten, je Mempool Block explorer hosten om de Blockchain te bekijken, en kosten schatten... Het zijn deze toepassingen waar we ons in deze cursus op zullen richten.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel kan heel minimalistisch blijven en zich alleen richten op Bitcoin, of evo
 
 
 
-- Lightning Network**: Umbrel laat je ook LND of Core Lightning, twee implementaties van de Lightning Network, inzetten om je eigen Lightning node te beheren. Je zult in staat zijn om kanalen te openen, je liquiditeit te beheren, betalingen te doen, balancering te automatiseren, diensten aan te bieden, een Wallet op afstand aan te sluiten of te profiteren van geavanceerd Interface beheer dankzij de vele beschikbare toepassingen. We bekijken deze specifieke use case in onze volgende LNP 202 cursus.
+- **Lightning Network**: Umbrel laat je ook LND of Core Lightning, twee implementaties van de Lightning Network, inzetten om je eigen Lightning node te beheren. Je zult in staat zijn om kanalen te openen, je liquiditeit te beheren, betalingen te doen, balancering te automatiseren, diensten aan te bieden, een Wallet op afstand aan te sluiten of te profiteren van geavanceerd Interface beheer dankzij de vele beschikbare toepassingen. We bekijken deze specifieke use case in onze volgende LNP 202 cursus.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel kan heel minimalistisch blijven en zich alleen richten op Bitcoin, of evo
 
 
 
-- Algemene zelf-hosting**: met Nextcloud, Immich, Jellyfin/Plex, DNS-brede advertentieblokkers (Pi-hole/AdGuard), VPN's (WireGuard, Tailscale), domotica (Home Assistant), back-ups, notitiebeheer, kantoortools, lokale AI (Ollama + Open WebUI)... Umbrel kan je persoonlijke server worden, zodat je weer controle hebt over je gegevens. Je host de diensten die je elke dag gebruikt zelf, met een gepolijste gebruikerservaring die sterk lijkt op externe oplossingen, terwijl je de volledige controle behoudt over je gegevens en privacy.
+- **Algemene zelf-hosting**: met Nextcloud, Immich, Jellyfin/Plex, DNS-brede advertentieblokkers (Pi-hole/AdGuard), VPN's (WireGuard, Tailscale), domotica (Home Assistant), back-ups, notitiebeheer, kantoortools, lokale AI (Ollama + Open WebUI)... Umbrel kan je persoonlijke server worden, zodat je weer controle hebt over je gegevens. Je host de diensten die je elke dag gebruikt zelf, met een gepolijste gebruikerservaring die sterk lijkt op externe oplossingen, terwijl je de volledige controle behoudt over je gegevens en privacy.
 
 
 
@@ -1759,8 +1759,8 @@ Controleer de volgende twee punten voordat u het apparaat opnieuw opstart:
 
 
 
-- De USB-stekker is losgekoppeld**: als deze aangesloten blijft, kan het systeem hierop herstarten in plaats van op de interne schijf;
-- Ethernetkabel is aangesloten**: het apparaat moet verbonden zijn met je router om te kunnen werken.
+- **De USB-stekker is losgekoppeld**: als deze aangesloten blijft, kan het systeem hierop herstarten in plaats van op de interne schijf;
+- **Ethernetkabel is aangesloten**: het apparaat moet verbonden zijn met je router om te kunnen werken.
 
 
 
@@ -1768,7 +1768,7 @@ Druk op de aan/uit-knop. Het systeem start automatisch op vanaf de interne schij
 
 
 
-Open vanaf een andere computer (uw gewone pc) die is aangesloten op hetzelfde lokale netwerk**, een webbrowser (Firefox, Chrome...) en ga naar:
+Open vanaf een andere computer (uw gewone pc) die is aangesloten op hetzelfde lokale netwerk, een webbrowser (Firefox, Chrome...) en ga naar:
 
 
 
@@ -2285,9 +2285,9 @@ Vervolgens ontdek je drie mogelijkheden om je software aan een Bitcoin knooppunt
 
 
 
-- Publieke server* (geel): standaard, als u geen Bitcoin knooppunt bezit, verbindt deze optie u met een publiek knooppunt dat u niet bezit (meestal van een bedrijf). Deze optie is hier niet relevant, aangezien je je eigen knooppunt op Umbrel hebt.
-- Bitcoin core* (Green): deze optie komt overeen met verbinding via Interface RPC, d.w.z. rechtstreeks met Bitcoin core.
-- Private Electrum* (blauw): met deze optie kun je verbinding maken via de Interface Electrum Server van je indexer (Electrs of Fulcrum).
+- **Publieke server** (geel): standaard, als u geen Bitcoin knooppunt bezit, verbindt deze optie u met een publiek knooppunt dat u niet bezit (meestal van een bedrijf). Deze optie is hier niet relevant, aangezien je je eigen knooppunt op Umbrel hebt.
+- **Bitcoin core** (Green): deze optie komt overeen met verbinding via Interface RPC, d.w.z. rechtstreeks met Bitcoin core.
+- Private Electrum (blauw): met deze optie kun je verbinding maken via de Interface Electrum Server van je indexer (Electrs of Fulcrum).
 
 
 

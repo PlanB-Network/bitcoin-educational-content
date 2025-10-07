@@ -892,7 +892,7 @@ IP-aadresse saab määrata peamiselt kahel viisil:
 **IPv4**-aadressid kirjutatakse **32-bitises** formaadis, mis on jagatud **neljaks baidiks**. Iga bait sisaldab 8 bitti ja kujutab kümnendarvu vahemikus 0 kuni 255. Neli baiti on eraldatud punktidega, et moodustada selge ja loetav tähistus.
 
 
-näide: Address 172.16.254.1_
+näide: Address 172.16.254.1
 
 
 
@@ -1242,7 +1242,7 @@ Dünaamilised marsruutimisprotokollid hõlmavad selliseid standardeid nagu RIP (
 ### Määratlus
 
 
-Network Address Translation_ (NAT) on tehnika, mis on välja töötatud Address olemasolevate IPv4-aadresside järkjärguliseks ammendumiseks. Enne IPv6 laialdast kasutuselevõttu ajutise lahendusena loodud NAT võimaldas ettevõtetel ja üksikisikutel jätkata suure hulga masinate ühendamist, kasutades samal ajal ainult piiratud hulka avalikke IP-aadresse.
+Network Address Translation (NAT) on tehnika, mis on välja töötatud Address olemasolevate IPv4-aadresside järkjärguliseks ammendumiseks. Enne IPv6 laialdast kasutuselevõttu ajutise lahendusena loodud NAT võimaldas ettevõtetel ja üksikisikutel jätkata suure hulga masinate ühendamist, kasutades samal ajal ainult piiratud hulka avalikke IP-aadresse.
 
 
 **Tähtis meeldetuletus:** üleminek IPv4-lt IPv6-le teoreetiliselt lahendab ammendumise probleemi, laiendades Address ruumi 32 bitilt 128 bitile, pakkudes peaaegu piiramatut arvu aadresse (2^128). Tegelikkuses on üleminek siiski veel mittetäielik ja NAT on ka praegu laialdaselt kasutusel.
@@ -1295,7 +1295,7 @@ Iga kirje selles tabelis seob vähemalt ühe paari: saatva masina sisemine IP Ad
 See dünaamilise tõlkimise põhimõte tugineb täpsele tabelihaldusele: iga kirje jääb kehtima seni, kuni on olemas aktiivne liiklus, mis seda õigustab. Pärast konfigureeritavat tegevusetuse perioodi kustutatakse kirje ja seda saab uuesti kasutada uute ühenduste jaoks.
 
 
-näide lihtsustatud NAT-tõlketabelist:_
+näide lihtsustatud NAT-tõlketabelist:
 
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
@@ -1327,7 +1327,7 @@ Tüüpilised näited piirangute kohta on järgmised:
 **Ohutus:** Kuigi NAT aitab varjata sisevõrku ja kontrollida sissetulevat liiklust, ei asenda see spetsiaalset tulemüüri. Tõlkimine üksi ei ole täielik turvatõke: seda tuleb alati täiendada selgete filtreerimisreeglitega, et blokeerida soovimatu või soovimatu liiklus.
 
 
-selle praktilise toimimise näitlikustamiseks võib tuua järgmise näite:_
+selle praktilise toimimise näitlikustamiseks võib tuua järgmise näite:
 
 
 
@@ -1496,7 +1496,7 @@ See moodulstruktuur on endiselt kehtiv ja seda saab praegustes süsteemides hõl
 ### Täiustatud konfiguratsioon: sidumine
 
 
-Professionaalsetes keskkondades on eesmärk tagada teenuse järjepidevus ja/või koondada ribalaiust. *Bonding* (või *teaming* koos _teamd_ga) mehhanismid vastavad nendele vajadustele: mitu füüsilist liidest toimivad ühe loogilise Interface-na, mida sageli nimetatakse `bond0` või `team0`.
+Professionaalsetes keskkondades on eesmärk tagada teenuse järjepidevus ja/või koondada ribalaiust. *Bonding* (või *teaming* koos *teamd*-ga) mehhanismid vastavad nendele vajadustele: mitu füüsilist liidest toimivad ühe loogilise Interface-na, mida sageli nimetatakse `bond0` või `team0`.
 
 
 

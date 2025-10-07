@@ -452,7 +452,7 @@ Paljud seadmed võivad seda funktsiooni täita, kuid soovitame VONETS WiFi silda
 
 Lülitage sild sisse, ühendades selle USB kaudu.
 
-Ühendage oma arvuti VONETS\_**\*\*** WIFI võrguga parooliga 12345678.
+Ühendage oma arvuti **VONETS_WIFI** võrguga parooliga 12345678.
 
 ![image](assets/en/032.webp)
 

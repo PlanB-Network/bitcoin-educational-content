@@ -1341,7 +1341,7 @@ Ubwa nyuma, naho izina ryawe ry'urubuga "@Bitcoin[CITY]" ari ryo ryonyene kandi 
 
 
 
-- @Bitcoin_[Igisagara]
+- @Bitcoin_Igisagara
 - @[Igisagara]Bitcoin
 - @[Igisagara]_Ibikoni
 
@@ -2543,7 +2543,7 @@ Iyi nzira ishobora gukora neza mu bintu bimwebimwe kuruta ibindi, ariko birabere
 
 
 - [acpm.fr](https://www.acpm.fr/Itangazamakuru-ry'Igihugu/Itangazamakuru-ry'Igihugu);
-- [amajambo y'abantu bose] (page=annuaire&cat=itangazamakuru&ubwoko_ bw'itangazamakuru=Itangazamakuru%20quotidienne%20r%C3%A9gionale).
+- [amajambo y'abantu bose] (page=annuaire&cat=itangazamakuru&ubwoko_bw'itangazamakuru=Itangazamakuru%20quotidienne%20r%C3%A9gionale).
 
 kandi mu guhamagara amaradiyo yo mu karere kugira ngo bamuhe iciyumviro co kubazwa canke gusohoka mu kiganiro ca podcast.
 

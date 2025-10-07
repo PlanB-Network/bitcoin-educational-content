@@ -41,41 +41,95 @@ class MarkdownFixerHybrid:
         self.md = MarkdownIt()
 
     def _is_suspicious(self, line: str) -> bool:
-        if "*" not in line:
+        # Check for both asterisk and underscore markers
+        if "*" not in line and "_" not in line:
             return False
 
-        # 1. Balance check
-        double = line.count("**")
-        single = line.count("*") - 2 * double
-        if single % 2 != 0 or double % 2 != 0:
-            return True
-
-        # 2. Regex overlaps
-        regex_sus = bool(
-            re.search(r"\*\*[^*]+\*", line) or re.search(r"\*[^*]+\*\*", line)
-        )
-        if not regex_sus:
-            return False
-
-        # 3. Parser confirmation
-        try:
-            tokens = self.md.parse(line)
-        except Exception:
-            return True
-
-        for t in tokens:
-            if t.type == "text" and "*" in t.content:
+        # 1. Balance check for asterisks
+        if "*" in line:
+            double_ast = line.count("**")
+            single_ast = line.count("*") - 2 * double_ast
+            if single_ast % 2 != 0 or double_ast % 2 != 0:
                 return True
+
+        # 2. Check for underscore formatting (not snake_case)
+        if "_" in line:
+            # Skip lines that only have underscores in snake_case context
+            # (between alphanumeric characters)
+            non_snake_pattern = r'(?<![a-zA-Z0-9])_|_(?![a-zA-Z0-9])'
+            if not re.search(non_snake_pattern, line):
+                return False  # Only snake_case underscores
+
+            # Count formatting-style underscores at word boundaries
+            # Single underscores for italic (not part of identifier)
+            single_und_pattern = r'(?<![a-zA-Z0-9_])_(?![_])|(?<![_])_(?![a-zA-Z0-9_])'
+            # Double underscores for bold
+            double_und_pattern = r'(?<![a-zA-Z0-9_])__(?![_])|(?<![_])__(?![a-zA-Z0-9_])'
+
+            single_matches = re.findall(single_und_pattern, line)
+            double_matches = re.findall(double_und_pattern, line)
+
+            single_count = len(single_matches)
+            double_count = len(double_matches)
+
+            # Check for unbalanced formatting markers
+            if single_count % 2 != 0 or double_count % 2 != 0:
+                return True
+
+            # Check for isolated underscores (surrounded by spaces)
+            # This pattern is almost always a formatting error
+            if re.search(r'\s_\s', line):
+                return True
+
+            # Additional check: Look for patterns that suggest broken formatting
+            # Like "_text _ text" where there's an underscore inside what should be italic
+            # Check if we have underscores that are too far apart to be a pair
+            underscore_positions = [m.start() for m in re.finditer(r'(?<![a-zA-Z0-9])_|_(?![a-zA-Z0-9])', line)]
+            if len(underscore_positions) == 2:
+                # If two underscores are very far apart with another underscore pattern between them
+                # it's likely broken (rough heuristic: if there's 20+ chars between them and text has spaces)
+                distance = underscore_positions[1] - underscore_positions[0]
+                text_between = line[underscore_positions[0]+1:underscore_positions[1]]
+                if distance > 15 and ' _ ' in text_between:
+                    return True
+
+        # 3. Regex overlaps for asterisks
+        if "*" in line:
+            regex_ast_sus = bool(
+                re.search(r"\*\*[^*]+\*(?!\*)", line) or re.search(r"(?<!\*)\*[^*]+\*\*", line)
+            )
+            if regex_ast_sus:
+                # Parser confirmation for asterisks
+                try:
+                    tokens = self.md.parse(line)
+                except Exception:
+                    return True
+                for t in tokens:
+                    if t.type == "text" and "*" in t.content:
+                        return True
+
+        # 4. Check for mixed/overlapping underscore formatting
+        if "_" in line:
+            # Check for overlapping bold/italic with underscores
+            overlapping_patterns = [
+                r'__[^_]*_[^_]+_[^_]*__',  # __text _italic_ text__
+                r'_[^_]*__[^_]+__[^_]*_',    # _text __bold__ text_
+            ]
+            for pattern in overlapping_patterns:
+                if re.search(pattern, line):
+                    return True
+
         return False
 
     def _fix_with_claude(self, line: str) -> str:
         system_prompt = (
             "You are a Markdown formatting expert. "
-            "Fix unbalanced, mismatched, or nested * or ** markers. "
+            "Fix unbalanced, mismatched, or nested formatting markers (*, **, _, __). "
             "Rules:\n"
             "- Balance all markers\n"
             "- Preserve original wording\n"
-            "- Use ** for bold, * for italic\n"
+            "- Use ** or __ for bold, * or _ for italic\n"
+            "- Keep consistent style (don't mix * and _ in same context)\n"
             "Return ONLY the corrected line."
         )
         message = self.client.messages.create(

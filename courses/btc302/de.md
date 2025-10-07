@@ -1028,522 +1028,328 @@ Letztendlich liegt es an dir zu entscheiden, wie weit "offen und integrativ" geh
 
 <chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
 
-Im Laufe der Blöcke wird sich Ihre Gemeinschaft weiterentwickeln. Neue Gesichter werden hinzukommen, andere werden abwandern, aber der Leitgedanke sollte derselbe bleiben: das Bitcoin-Ökosystem zu entwickeln und die Bindungen zwischen den Mitgliedern zu stärken.
+Im Laufe der Blöcke wird sich deine Gemeinschaft weiterentwickeln. Neue Gesichter werden hinzukommen, andere werden abwandern, aber der Leitgedanke sollte derselbe bleiben: das Bitcoin-Ökosystem zu entwickeln und die Bindungen zwischen den Mitgliedern zu stärken.
 
-
-Es gibt viele Projekte und Initiativen, die umgesetzt werden können. Dieses Kapitel bietet eine nicht erschöpfende Liste von Ideen, die innerhalb einer Gemeinschaft oder während eines Treffens umgesetzt werden können. Fühlen Sie sich frei, diejenigen auszuwählen, die Sie inspirieren und sogar Ihre eigenen Ideen zu diesem Kurs beizutragen [indem Sie einen "Pull Request" auf GitHub stellen] (https://github.com/PlanB-Network/Bitcoin-educational-content).
-
+Es gibt viele Projekte und Initiativen, die umgesetzt werden können. Dieses Kapitel bietet eine nicht erschöpfende Liste von Ideen, die innerhalb einer Gemeinschaft oder während eines Treffens umgesetzt werden können. Fühle dich frei, diejenigen auszuwählen, die dich inspirieren und trage sogar deine eigenen Ideen zu diesem Kurs bei [indem du einen "Pull Request" auf GitHub stellen](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Bevor wir uns damit befassen, sollten wir noch einmal auf einen bereits erwähnten Punkt zurückkommen.
 
-
-Wenn Sie ein Bitcoin-Treffen organisieren, lernen Sie neue Leute kennen. Soziale Interaktion ist wichtig, und Bier (oder Alkohol im Allgemeinen) kann dazu beitragen, eine festliche Atmosphäre zu schaffen. Aber es lohnt sich, das im Hinterkopf zu behalten:
-
+Wenn du ein Bitcoin-Treffen organisierst, lernst du neue Leute kennen. Soziale Interaktion ist wichtig, und Bier (oder Alkohol im Allgemeinen) kann dazu beitragen, eine festliche Atmosphäre zu schaffen. Aber es lohnt sich, das im Hinterkopf zu behalten:
 
 - Alkohol beeinträchtigt die kognitiven Fähigkeiten wie Denken und Verstehen, was es für die Teilnehmer schwieriger machen kann, ernsthaften Diskussionen oder Präsentationen zu folgen.
-- Alkohol kann auch zu einem bequemen Ritual werden: Jeden Monat teilen Sie Ihren "Bitcoin-Moment" mit Freunden bei einem Getränk. Das ist zwar eine tolle Möglichkeit, Kontakte zu knüpfen, aber ist das Biertrinken wirklich das Hauptziel Ihres Treffens? Oder würden Sie lieber Exchange erforschen, von anderen lernen und Neulingen helfen, Bitcoin zu entdecken?
-
+- Alkohol kann auch zu einem bequemen Ritual werden: Jeden Monat teilst du deinen "Bitcoin-Moment" mit Freunden bei einem Getränk. Das ist zwar eine tolle Möglichkeit, Kontakte zu knüpfen, aber ist das Biertrinken wirklich das Hauptziel deines Treffens? Oder würdest du lieber Neuigkeiten austauschen, von anderen lernen und Neulingen helfen, Bitcoin zu entdecken?
 
 Jeder hat seine eigenen Vorlieben, Überzeugungen und seine eigene Persönlichkeit. Hier geht es nicht darum, ein Treffen gegenüber einem anderen zu beurteilen. Auch wenn wir oft bei einem Bier darüber reden, wie wir die Welt verändern können, beginnen oder entwickeln sich Revolutionen nicht auf diese Weise.
 
-
 Das Wichtigste ist, sich dessen bewusst zu sein.
-
-
 
 ![image](assets/fr/036.webp)
 
-
-
 ## Organisieren Sie thematische Treffen mit einem jährlichen Rhythmus
-
 
 <chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
 
-
-
-Sobald Sie eine Kerngruppe von etwa zehn Personen gebildet haben, können Sie damit beginnen, Präsentationen zu jeder Veranstaltung hinzuzufügen. Diese können einem im Voraus angekündigten Thema folgen oder völlig unabhängig voneinander sein.
-
+Sobald du eine Kerngruppe von etwa zehn Personen gebildet hast, kannst du damit beginnen, Präsentationen zu jeder Veranstaltung hinzuzufügen. Diese können einem im Voraus angekündigten Thema folgen oder völlig unabhängig voneinander sein.
 
 Bei der Planung von Präsentationen oder Workshops ist es hilfreich, einen klaren, gut strukturierten Ablauf zu schaffen. Ziel ist es, **die Kernkonzepte von Bitcoin Schritt für Schritt** abzudecken und den Teilnehmern einen vollständigen Überblick über das Thema aus verschiedenen Blickwinkeln zu geben.
 
-
 In Frankreich arbeiteten die Organisatoren des Treffens im Sommer 2023 an einem **Jahresablauf**.
-
 Abgesehen von seinem hohen pädagogischen Wert ermöglicht dieser Ansatz die gemeinsame Nutzung von Open-Source-Dokumenten und Foliendokumenten durch die Gruppen und den schrittweisen Aufbau einer gemeinsamen Bibliothek von Ressourcen. Die Initiative wurde gut aufgenommen und soll in den kommenden Jahren weiter ausgebaut werden.
 
+Nachstehend findest du den Ablauf der französischen Treffen 2023-2024. Zu jedem Thema sind eine Open-Source-Präsentation und ein Video verfügbar, die dir Ideen für Themen geben können, die du bei deinen eigenen Veranstaltungen behandeln könntest.
 
-Nachstehend finden Sie den Ablauf der französischen Treffen 2023-2024. Zu jedem Thema sind eine Open-Source-Präsentation und ein Video verfügbar, die Ihnen Ideen für Themen geben können, die Sie bei Ihren eigenen Veranstaltungen behandeln könnten.
+Zusätzliche editierbare Materialien findest du auch in der [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
 
-
-Zusätzliche editierbare Materialien finden Sie auch in der [Bitcoin Teaching Toolbox] (https://planb.network/fr/resources/bet)!
-
-
-
-| Month | Theme | Video | Editable Resource |
+| Month | Theme | Video | Bearbeitbare Datei |
 | -------- | -------- | -------- | --- |
-| September     | Chapter 1: What is Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
-| October & November| Chapter 2: Understanding Bitcoin Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
-| December     | Chapter 3: Understanding the Lightning Network     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Editable PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
-| January     | Chapter 4: What is Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Editable PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-| February     | 	Chapter 5: Running a Bitcoin and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
-| March     | 	Chapter 6: Using the Lightning Network in Daily Life    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Editable PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
-| April & May    | Chapter 7: Securing Your Bitcoins      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Editable PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
-| June     | 	Chapter 8: What is Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Editable PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
-| July     | 	Chapter 9: Understanding the Bull Run and How to Prepare    | [YouTube link](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [Editable PowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
-| August     | Chapter 10: The Taxman is Never Far Away   | [YouTube link](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [Editable PowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
+| September     | Kapitel 1: Was ist Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| Oktober & November| Kapitel 2: Bitcoin Transaktionen verstehen     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| Dezember     | Kapitel 3: Das Lightning Netzwerk verstehen     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+| Januar     | Kapitel 4: Was ist Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| Februar     | 	Kapitel 5: Eine Bitcoin und Lightning Node betreiben    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| März     | 	Kapitel 6: Das Lightning Netzwerk im Alltag benutzen    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
+| April & Mai    | Kapitel 7: Deine Bitcoins sicher verwahren      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
+| Juni     | 	Kapitel 8: Was ist Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
+| Juli     | 	Kapitel 9: Den Bull Run verstehen und sich darauf vorbereiten    | [YouTube link](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
+| August     | Kapitel 10: Der Steuereintreiber ist nie weit Weg   | [YouTube link](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [Bearbeitbare PowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
 
 Die Kapitel 2 und 7 können in zwei kürzere Präsentationen aufgeteilt werden, um die Teilnehmer nicht zu überfordern. Die Durchführung in einer Sitzung schafft jedoch Platz im Kalender für besondere Aktivitäten, wie z. B. gemeinsame Treffen mit benachbarten Gruppen, Quizspiele oder Workshops.
 
-
-**Es steht Ihnen frei, diese Ressourcen zu verwenden, anzupassen und weiterzugeben, achten Sie nur darauf, die Originalautoren zu nennen, wenn Sie ihre Arbeit weiterverwenden**
-
+**Es steht dir frei, diese Ressourcen zu verwenden, anzupassen und weiterzugeben, achte nur darauf, die Originalautoren zu nennen, wenn du ihre Arbeit weiterverwendest**
 
 Da nicht jeder an jedem Treffen teilnehmen wird, ist es eine gute Idee, Präsentationen aufzuzeichnen und sie auf eine Streaming-Plattform oder Ihre Website hochzuladen. Auf diese Weise können Abwesende das Gelernte nachholen und die Teilnehmer können sich das Material später noch einmal ansehen.
 
-
-Parallel dazu können Sie andere thematische Treffen veranstalten, z. B:
-
+Parallel dazu kannst du andere thematische Treffen veranstalten, z. B:
 
 - Ein Bitcoin-Wissensquiz (mit einem Hardware Wallet als Preis)
-- Eine Onboarding-Herausforderung, bei der du kostenlose Satoshis an Nicht-Münzer auf der Straße schickst
+- Eine Onboarding-Herausforderung, bei der du kostenlose Satoshis an No-Coiner (Personen die noch nicht mit Bitcoin vertraut sind) auf der Straße schickst
 - Einladung eines Fachreferenten oder eines Unternehmens zur Präsentation eines Bitcoin-bezogenen Produkts
 - Eine nächtliche Tour durch Bars und Geschäfte, die Bitcoin akzeptieren
 
-
-Und noch viel mehr, Ihre Fantasie ist die einzige Grenze!
-
-
+Und noch viel mehr, deine Fantasie ist die einzige Grenze!
 
 ## Schaffung von Nebenveranstaltungen und Workshops
 
-
 <chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
 
-
-
-Je nach Ihrer Verfügbarkeit und dem Grad der Beteiligung in Ihrer Gemeinde können Sie im Laufe des Jahres zusätzliche Veranstaltungen planen, z. B:
-
+Je nach deiner Verfügbarkeit und dem Grad der Beteiligung in deiner Gemeinde kannst du im Laufe des Jahres zusätzliche Veranstaltungen planen, z. B:
 
 - Ein Restaurantabend zum **Pizzatag** am 22. Mai
-- Ein Abend oder ein Wochenende, um die nächste **Halving** zu feiern
-- Ein **Spieleabend** für die ganze Familie über Bitcoin und wie es funktioniert, mit Spielen wie [Le Coin de Table] (https://www.Maximalist.ovh/) oder [SHAmory] (https://shamory.com/)
+- Ein Abend oder ein Wochenende, um das nächste **Halving** zu feiern
+- Ein **Spieleabend** für die ganze Familie über Bitcoin und wie es funktioniert, mit Spielen wie [SHAmory](https://shamory.com/)
 - Ein **Mining Workshop**, in dem verschiedene Arten von Hardware vorgestellt werden (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - Ein **Nachmittag oder Abend für Anfänger**, mit thematischen Workshops
 - Ein **Gemeinsames Treffen mit benachbarten Gemeinden**
-
-
-
+- 
 ![image](assets/fr/037.webp)
 
-
-
-Achten Sie nur darauf, den Kalender nicht zu überfrachten. Zu viele Veranstaltungen in einem einzigen Monat können bei den Organisatoren zu einem Burnout führen und mit der Zeit die Teilnehmerzahlen verringern.
-
-
+Achte nur darauf, den Kalender nicht zu überfrachten. Zu viele Veranstaltungen in einem einzigen Monat können bei den Organisatoren zu einem Burnout führen und mit der Zeit die Teilnehmerzahlen verringern.
 
 ## Aufkleber erstellen
 
-
 <chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
 
+Aufkleber sind eine unterhaltsame Möglichkeit, sowohl für Bitcoin als auch für deine Gemeinschaft zu werben und gleichzeitig deine Identität zu stärken.
 
-
-Aufkleber sind eine unterhaltsame Möglichkeit, sowohl für Bitcoin als auch für Ihre Gemeinschaft zu werben und gleichzeitig Ihre Identität zu stärken.
-
-
-Bevor Sie eine Bestellung aufgeben, sollten Sie diese Tipps beachten:
-
+Bevor du eine Bestellung aufgibst, solltest du diese Tipps beachten:
 
 - Bei der Verwendung im Freien müssen die Aufkleber wasserfest sein.
-- Halten Sie Ihr Logo etwas kleiner als den Schneidbereich, um Beschneidungsprobleme beim Laserschneiden zu vermeiden.
-- Verwenden Sie eine Vektordatei anstelle eines Rasterbildes, um eine bessere Druckqualität zu erzielen.
-- Wählen Sie die richtige Größe: 8 cm Durchmesser (etwa so groß wie die Handfläche eines Erwachsenen) sind gut sichtbar, während 4 cm eher diskret sind. Legen Sie Wert auf Sichtbarkeit oder Diskretion?
-- Für den Druck in sattem Schwarz ("Vierfach-Schwarz") verwenden Sie 30% Cyan, 30% Magenta, 30% Gelb und 100% Schwarz. Wenn Sie nur 100 % Schwarz verwenden, kann dies zu einem gräulichen Ton führen. Die Drucker überprüfen dies oft, aber es ist wichtig zu wissen.
-
-
+- Halte dein Logo etwas kleiner als den Schneidbereich, um Beschneidungsprobleme beim Laserschneiden zu vermeiden.
+- Verwende eine Vektordatei anstelle eines Rasterbildes, um eine bessere Druckqualität zu erzielen.
+- Wähle die richtige Größe: 8 cm Durchmesser (etwa so groß wie die Handfläche eines Erwachsenen) sind gut sichtbar, während 4 cm eher diskret sind. Legst Wert auf Sichtbarkeit oder Diskretion?
+- Für den Druck in sattem Schwarz ("Vierfach-Schwarz") verwende 30% Cyan, 30% Magenta, 30% Gelb und 100% Schwarz. Wenn du nur 100 % Schwarz verwendest, kann dies zu einem gräulichen Ton führen. Die Drucker überprüfen dies oft, aber es ist wichtig zu wissen.
 
 ![image](assets/fr/038.webp)
 
-
-
-Je nach Bedarf und Anbieter können 1.000 Aufkleber zwischen 100€ und 250€ kosten. Sie können sich an [@Mill3sim3 auf Twitter](https://x.com/Mill3sim3) wenden, einen französischen Bitcoiner, der sich auf Marketing spezialisiert hat und manchmal Preise erzielen kann, die bis zu 30 % unter denen der üblichen Online-Händler liegen.
-
+Je nach Bedarf und Anbieter können 1.000 Aufkleber zwischen 100€ und 250€ kosten. Du kannst sich an [@Mill3sim3 auf Twitter](https://x.com/Mill3sim3) wenden, einen französischen Bitcoiner, der sich auf Marketing spezialisiert hat und manchmal Preise erzielen kann, die bis zu 30 % unter denen der üblichen Online-Händler liegen.
 
 Allerdings sind 1.000 Aufkleber eine Menge. In der Regel ist es besser, mit etwa 100 zu beginnen, um sicherzustellen, dass man sie alle verteilen kann.
 
+Wichtig! **Prüfe  die örtlichen Vorschriften, bevor du Aufkleber an öffentlichen Orten anbringst**.
 
-Wichtig! **Prüfen Sie die örtlichen Vorschriften, bevor Sie Aufkleber an öffentlichen Orten anbringen**.
+In Frankreich dürfen Aufkleber nur an offiziellen öffentlichen Anschlagtafeln angebracht werden. Wenn du sie anderswo anbringst (z. B. an einem Stoppschild), werden sie wahrscheinlich entfernt und möglicherweise mit einer Geldstrafe belegt, wenn sie mit dir oder deinem Treffen in Verbindung gebracht werden können. Informiere deine Mitglieder hierüber.
 
-
-In Frankreich dürfen Aufkleber nur an offiziellen öffentlichen Anschlagtafeln angebracht werden. Wenn Sie sie anderswo anbringen (z. B. an einem Stoppschild), werden sie wahrscheinlich entfernt und möglicherweise mit einer Geldstrafe belegt, wenn sie mit Ihnen oder Ihrem Treffen in Verbindung gebracht werden können. Informieren Sie Ihre Mitglieder hierüber.
-
-Prüfen Sie an privaten Veranstaltungsorten wie Konzerten, Bars oder Stadien, ob bereits Aufkleber vorhanden sind, bevor Sie Ihren hinzufügen. Wenn nicht, fragen Sie das Personal um Erlaubnis. Sie möchten nicht, dass der erste Eindruck eines Geschäftsinhabers von Ihrer Gemeinschaft der ist, dass Sie seine Räumlichkeiten vandalisiert haben.
-
-
+Prüfe an privaten Veranstaltungsorten wie Konzerten, Bars oder Stadien, ob bereits Aufkleber vorhanden sind, bevor du deinen hinzufügst. Wenn nicht, frage das Personal um Erlaubnis. Du möchtest nicht, dass der erste Eindruck eines Geschäftsinhabers von deiner Gemeinschaft der ist, dass sie seine Räumlichkeiten vandalisiert hat.
 
 ## Eine Bibliothek erstellen
 
-
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
+Ein weiteres Projekt, das du leicht einrichten kannst, ist **die Einrichtung einer Bibliothek bei deinen Treffen**.
 
-
-Ein weiteres Projekt, das Sie leicht einrichten können, ist **die Einrichtung einer Bibliothek bei Ihren Treffen**.
-
-
-Sie könnten Teilnehmer, die ihren Lesestoff mit anderen teilen möchten, dazu einladen, ein Buch mit Bezug zu Bitcoin mitzubringen. Wenn jemand anderes auf dem Treffen das Buch ausleihen möchte, könnte mit dem Eigentümer in Exchange eine Ausleihe gegen eine Kaution von z. B. 21.000 Satoshis über Lightning vereinbart werden.
-
+Du kannst Teilnehmer, die ihren Lesestoff mit anderen teilen möchten, dazu einladen, ein Buch mit Bezug zu Bitcoin mitzubringen. Wenn jemand anderes auf dem Treffen das Buch ausleihen möchte, könnte mit dem Eigentümer eine Ausleihe gegen eine Kaution von z. B. 21.000 Satoshis über Lightning vereinbart werden.
 
 Für den Eigentümer ist diese Kaution eine Absicherung bei Verlust oder Diebstahl. Für den Entleiher ist es ein Anreiz, zu einem zukünftigen Treffen zu kommen, um seine Kaution zurückzuholen.
 
-
-Wenn Sie eine Vereinigung leiten und einen Teil Ihrer Mittel in Bildungsressourcen investieren möchten, können Sie auch mehrere Bücher kaufen, um sie in Ihrer **Bitcoin-Bibliothek** anzubieten, die bei jedem Treffen erhältlich ist.
-
-
+Wenn du eine Vereinigung leitest und einen Teil deiner Mittel in Bildungsressourcen investieren möchtest, kannst du auch mehrere Bücher kaufen, um sie in deiner **Bitcoin-Bibliothek** anzubieten, die bei jedem Treffen erhältlich ist.
 
 ![image](assets/fr/039.webp)
 
+Um das Ökosystem zu unterstützen, bietet der **[Verlag Konsensus Network](https://konsensus.network/) seit Ende 2023 internationalen Bitcoin-Treffen und -Gemeinschaften einen Rabatt von 15 % bis 35 % auf alle seine Bücher bei einer Bestellung von drei Büchern oder mehr**.
 
-Um das Ökosystem zu unterstützen, bietet der **[Verlag Konsensus Network] (https://konsensus.network/) seit Ende 2023 internationalen Bitcoin-Treffen und -Gemeinschaften einen Rabatt von 15 % bis 35 % auf alle seine Bücher bei einer Bestellung von drei Büchern oder mehr**.
+Um diesen Rabatt in Anspruch zu nehmen, wende dich einfach **auf Twitter** an den [Konsensus-Verlag](https://twitter.com/KonsensusFR).
+Wenn du nicht über das nötige Geld verfügst, kannst du den Rabatt trotzdem an Mitglieder deiner Gemeinschaft weitergeben.
+Zum Beispiel könnte ein Organisator Bestellungen von Mitgliedern sammeln, eine Großbestellung zum reduzierten Preis aufgeben und die Bücher beim nächsten Treffen verteilen, wobei die Bezahlung dann per Lightning erfolgt.
 
+Du könntest auch eine 'Ausleihordnung' für die Buchausleihe bei deinen Treffen auslegen, um Neulingen die Ausleihregeln klar zu erklären.
 
-Um diesen Rabatt in Anspruch zu nehmen, wenden Sie sich einfach **auf Twitter** an den [Konsensus-Verlag] (https://twitter.com/KonsensusFR).
-
-
-Wenn Sie nicht über das nötige Bargeld verfügen, können Sie den Rabatt trotzdem an Mitglieder Ihrer Gemeinschaft weitergeben.
-
-
-Wenn Sie selbst nicht über die nötigen Mittel verfügen, können Sie den Rabatt trotzdem an Ihre Mitglieder weitergeben. Zum Beispiel könnte ein Organisator Bestellungen von Mitgliedern sammeln, eine Großbestellung zum reduzierten Preis aufgeben und die Bücher beim nächsten Treffen verteilen, wobei die Bezahlung dann per Blitzzahlung erfolgt.
-
-
-Sie könnten auch eine Charta für die Buchausleihe bei Ihren Treffen auslegen, um Neulingen die Ausleihregeln klar zu erklären.
-
-
-Hier ist ein Open-Source-Beispiel, das Sie verwenden und anpassen können:
-
-[Charta der Buchausleihe] (https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
-
-
+Hier ist ein Open-Source-Beispiel, das du verwenden und anpassen kannst:
+[Charta der Buchausleihe](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
 
 ![image](assets/fr/040.webp)
 
-
-
-Um die Lektüre von Bitcoin zu fördern, könnten Sie in den **örtlichen Stadtbibliotheken** nachsehen, ob sie Bücher über Bitcoin haben.
-
-Wenn dies der Fall ist, fragen Sie die Bibliothekare, ob ein **runder Tisch** zu diesem Thema geplant ist, und bieten Sie ihnen die Kontaktdaten Ihres Treffens an.
-
-Wenn nicht, schlagen Sie ihnen vor, einige Bücher aus einer vorausgewählten Liste zu erwerben. Das [publisher Konsensus Network] (https://konsensus.network/) kann eine Quelle der Inspiration sein.
-
-
+Um die Lektüre von Bitcoin zu fördern, könntest du in den **örtlichen Stadtbibliotheken** nachsehen, ob sie Bücher über Bitcoin haben.
+Wenn dies der Fall ist, frage die Bibliothekare, ob ein **runder Tisch** zu diesem Thema geplant ist, und biete ihnen die Kontaktdaten deines Treffens an.
+Wenn nicht, schlage ihnen vor, einige Bücher aus einer vorausgewählten Liste zu erwerben. Das [publisher Konsensus Network](https://konsensus.network/) kann eine Quelle der Inspiration sein.
 
 ## Erstellen und Verteilen von personalisierten Flyern
 
-
 <chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
 
-
-
-Das Entwerfen und Schreiben von Flugblättern nimmt Zeit in Anspruch, aber das ist es wert. Sie geben Ihnen ein greifbares Hilfsmittel an die Hand, wenn Sie über Bitcoin sprechen, was immer geschätzt wird.
-
+Das Entwerfen und Schreiben von Flyern nimmt Zeit in Anspruch, aber das ist es wert. Sie geben dir ein greifbares Hilfsmittel an die Hand, wenn du über Bitcoin sprichst, was immer geschätzt wird.
 
 Diese Flugblätter können gezielt eingesetzt werden:
 
-
-- Händler, wenn Sie Bitcoin als Zahlungsmittel einführen wollen;
+- Händler, wenn du Bitcoin als Zahlungsmittel einführen willst;
 - Veranstaltungsteilnehmer mit einem Flugblatt, das erklärt, wie man mit Bitcoin/Lightning bezahlt und benutzt;
 - Anfänger, egal ob sie auf der Straße, am Arbeitsplatz oder bei einem Familientreffen getroffen werden, mit einem Flugblatt, das die wichtigsten Vorteile des Bitcoin hervorhebt.
 
-
-Sie könnten auch einen Flyer speziell für Ihre Gemeinschaft oder Ihren Treff entwerfen, in dem Sie Ihre Aktivitäten, Ziele, Links zu sozialen Medien, Kommunikationskanäle und bevorstehende Veranstaltungen vorstellen.
-
+Du könntest auch einen Flyer speziell für deine Gemeinschaft oder dein Treff entwerfen, in dem du deine Aktivitäten, Ziele, Links zu sozialen Medien, Kommunikationskanäle und bevorstehende Veranstaltungen vorstellst.
 
 Mehrere Flugblätter sind bereits **als Open-Source in der [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** auf planB.network verfügbar und weitere werden im Laufe der Zeit hinzugefügt.
 
-
-Ein Beispiel ist ein [vollständiges Flugblatt](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) mit 21 Gründen für die Verwendung von Bitcoin. Das Design ist auch [als Open-Source-Datei](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) verfügbar, damit Sie es ändern, anpassen und weitergeben können. Denken Sie einfach daran, Ihre Quellen anzugeben.
-
-
+Ein Beispiel ist ein [vollständiges Flugblatt](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) mit 21 Gründen für die Verwendung von Bitcoin. Das Design ist auch [als Open-Source-Datei](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) verfügbar, damit du es ändern, anpassen und weitergeben kannst. Denke einfach daran, deine Quellen anzugeben.
 
 ![image](assets/fr/041.webp)
 
-
 ![image](assets/fr/042.webp)
 
+Wie bereits erwähnt, kannst du diese Flugblätter fast überall ablegen: auf einem gemeinsamen Schreibtisch am Arbeitsplatz, am Esstisch der Familie, in einer öffentlichen Bibliothek usw.
 
-
-Wie bereits erwähnt, können Sie diese Flugblätter fast überall ablegen: auf einem gemeinsamen Schreibtisch am Arbeitsplatz, am Esstisch der Familie, in einer öffentlichen Bibliothek usw.
-
-
-In Frankreich und einigen anderen Ländern gibt es auch "Bücherkisten", kleine Holzkisten, in denen die Menschen kostenlos Bücher spenden oder ausleihen können. Sie könnten dort ein Flugblatt oder noch besser ein Buch hinterlassen.
-
-
+In Frankreich und einigen anderen Ländern gibt es auch "Bücherkisten", kleine Holzkisten, in denen die Menschen kostenlos Bücher spenden oder ausleihen können. Du könntest dort ein Flugblatt oder noch besser ein Buch hinterlassen.
 
 ![image](assets/fr/043.webp)
 
-
 ![image](assets/fr/044.webp)
 
-
-
-Im Jahr 2023 wurde die Initiative **"Bitcoin Weißbuch in Frankreichs Bücherkisten**" gestartet.
-
+Im Jahr 2023 wurde die Initiative **"Bitcoin Whitepaper in Frankreichs Bücherkisten**" gestartet.
 
 Um dieses Projekt durchzuführen, mussten die Teilnehmer zunächst die geografische Lage aller Bücherkisten im Land erfassen. Zu diesem Zweck gibt es mehrere Datenbanken:
-
 
 - [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/);
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
 - [delivrez.fr](https://delivrez.fr/maps/fr_FR/);
 - sowie Artikel der lokalen Presse
 
-
-Das Weißbuch Bitcoin hat zwar Symbolcharakter, ist aber für Neueinsteiger oft zu komplex. Stattdessen war die Idee, eine kleine Broschüre zu erstellen, die Folgendes enthält:
-
+Das Whitepaper Bitcoin hat zwar Symbolcharakter, ist aber für Neueinsteiger oft zu komplex. Stattdessen war die Idee, eine kleine Broschüre zu erstellen, die Folgendes enthält:
 
 - eine leicht zugängliche, gut recherchierte Einführung in Bitcoin, seine Anwendungen und die Probleme, die es löst;
-- das Weißbuch Bitcoin, übersetzt ins Französische.
+- das Whitepaper Bitcoin, übersetzt ins Französische.
 
-
-Hier ist [die von französischen Bitcoinern gemeinsam genutzte Broschüre](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), die in Dutzenden von Bücherkästen im ganzen Land ausgelegt wurde. Sein Design ist auch [als Open-Source verfügbar](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-
+Die von französischen Bitcoinern gemeinsam genutzte Broschüre, die in Dutzenden von Bücherkästen im ganzen Land ausgelegt wurde ist auch [als Open-Source verfügbar](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 ![image](assets/fr/045.webp)
 
-
 ![image](assets/fr/046.webp)
-
-
 
 ## Herstellung einer Videoprojektion
 
-
 <chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
 
+Fast jeder Bitcoiner hat wahrscheinlich [Rémi Forte](https://twitter.com/forteremi)'s faszinierende Zwischenserie "Le mystère Satoshi, aux origines du Bitcoin" ([Mysterium Satoshi - Bitcoin wie alles begann](https://www.youtube.com/watch?v=ojCrZbO2wJE) gesehen.
 
+Er wurde 2021 veröffentlicht und wurde mehrere Millionen Mal auf YouTube angesehen.
 
-Fast jeder Bitcoiner hat wahrscheinlich [Rémi Forte](https://twitter.com/forteremi)'s faszinierende Zwischenserie "Le mystère Satoshi, aux origines du Bitcoin" (Das Satoshi Mysterium: Die Ursprünge von Bitcoin) gesehen.
-
-
-Er wurde 2021 veröffentlicht und wurde [mehrere Millionen Mal auf YouTube] angesehen (https://www.youtube.com/watch?v=0ETcLj5jBy4).
-
-
-Eine Idee könnte sein, eine Vorführung von The Satoshi Mystery für Ihre Gemeinde zu organisieren, vielleicht als zusätzliche monatliche Veranstaltung.
-
+Eine Idee könnte sein, eine Vorführung von Mysterium Satoshi für Ihre Gemeinde zu organisieren, vielleicht als zusätzliche monatliche Veranstaltung.
 
 Ein Wort der Warnung: Obwohl ARTE France bestätigt hat, dass öffentliche Vorführungen erlaubt sind, müssen Sie für die Projektionsrechte bezahlen, um dies legal zu tun. Im Jahr 2023 betrugen diese Kosten etwa 250 € pro Vorführung bzw. 120 € pro Vorführung, wenn der Film im Laufe des Jahres bei mindestens fünf Treffen vorgeführt wurde.
-
-
 Für die meisten Gemeinden ist dieser Preis unerschwinglich, zumal die Dokumentation bereits kostenlos auf dem YouTube-Kanal von ARTE verfügbar ist.
-
 
 Natürlich sind auch andere Projektionen möglich.
 
-
-In Frankreich beispielsweise gewährte die **Regisseurin [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) lokalen Treffen das Recht, ihren Dokumentarfilm "Gestrandet "** vorzuführen, der Ausschnitte aus dem kommenden Film 2024 [Film "Dirty Coin"] (https://www.dirtycointhemovie.com/) enthält.
-
+In Frankreich beispielsweise gewährte die **Regisseurin [Alana Mediavilla](https://twitter.com/AlanaMediavilla) lokalen Treffen das Recht, ihren Dokumentarfilm "Stranded "** vorzuführen, der Ausschnitte aus dem kommenden Film 2024 [Film "Dirty Coin"](https://www.dirtycointhemovie.com/) enthält.
 
 Einige Bitcoiner ergriffen sogar die Initiative, "Stranded" vollständig ins Französische zu übersetzen, mit Untertiteln zu versehen und bei Treffen im ganzen Land vorzuführen. In der Woche vom 4. März 2024 wurde der Film gleichzeitig bei rund einem Dutzend Treffen im ganzen Land gezeigt.
 
-
-
 ![image](assets/fr/047.webp)
-
-
 
 Die Veranstaltung löste lebhafte Diskussionen über Bitcoin Mining, seinen Energieverbrauch und seine weiteren Umweltauswirkungen aus.
 
-
-
-## Aufhängen von Plakaten in Ihrer Stadt
-
+## Aufhängen von Plakaten in deiner Stadt
 
 <chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
 
-
-
 In mehreren europäischen Ländern (darunter Deutschland, Spanien und Frankreich) haben Bitcoiner die Initiative ergriffen und Plakate in ihren Städten aufgehängt.
-
 Einige Entwürfe überarbeiten Banksys Kunst, um das Bitcoin-Logo einzubeziehen.
 
 
-Ein Beispiel ist [StreetCyberArt] (https://twitter.com/streetcyber_art), ein deutscher Bitcoiner, der seit einigen Jahren Collagen und Street Art macht.
-
-
+Ein Beispiel ist [StreetCyberArt](https://twitter.com/streetcyber_art), ein deutscher Bitcoiner, der seit einigen Jahren Collagen und Street Art macht.
 
 ![image](assets/fr/048.webp)
 
+Wenn du in die Straßenplakatierung einsteigen willst, solltest du dich über die Gesetze deines Landes informieren. In Frankreich zum Beispiel dürfen Plakate nur auf öffentlichen Plakatwänden angebracht werden. In anderen Ländern ist es gänzlich verboten und wird mit einer Geldstrafe geahndet.
 
+Wenn du dich dazu entschließt, die Grenzen zu überschreiten, und hoffst, nicht "auf frischer Tat" ertappt zu werden, vermeide es, auf den Plakaten irgendwelche identifizierenden Informationen (wie den Namen deines Treffens oder @Twitter) anzugeben.
 
-Wenn Sie in die Straßenplakatierung einsteigen wollen, sollten Sie sich über die Gesetze Ihres Landes informieren. In Frankreich zum Beispiel dürfen Plakate nur auf öffentlichen Plakatwänden angebracht werden. In anderen Ländern ist es gänzlich verboten und wird mit einer Geldstrafe geahndet.
-
-Wenn Sie sich dazu entschließen, die Grenzen zu überschreiten, und hoffen, nicht "auf frischer Tat" ertappt zu werden, vermeiden Sie es, auf den Plakaten irgendwelche identifizierenden Informationen (wie den Namen Ihres Treffens oder @Twitter) anzugeben.
-
-
-Beachten Sie auch, dass der Druck dieser Plakate auf einem Privatdrucker in der Regel zum Ausbluten der Tinte und zu einer raschen Verschlechterung der Qualität im Außenbereich führt. Am besten ist es, mit einer professionellen Druckerei zusammenzuarbeiten, die die Plakate auf speziellem, selbstklebendem Papier für den Außenbereich drucken kann, das sowohl Qualität als auch Haltbarkeit gewährleistet.
-
-
+Beachte auch, dass der Druck dieser Plakate auf einem Privatdrucker in der Regel zum Ausbluten der Tinte und zu einer raschen Verschlechterung der Qualität im Außenbereich führt. Am besten ist es, mit einer professionellen Druckerei zusammenzuarbeiten, die die Plakate auf speziellem, selbstklebendem Papier für den Außenbereich drucken kann, das sowohl Qualität als auch Haltbarkeit gewährleistet.
 
 ![image](assets/fr/049.webp)
 
-
-
 Diese Initiative kann mehr als 0,40 € pro Plakat kosten (etwa 40 € für hundert Plakate), und die Online-Preise können zwischen dem Doppelten und dem Fünffachen dieses Betrags liegen. Gute Kontakte sind unerlässlich.
 
+Wie oben erwähnt, hat der französische Bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) die richtige professionelle Ausrüstung und kann für Details kontaktiert werden.
 
-Wie oben erwähnt, hat der französische Bitcoiner [@Mill3sim3] (https://twitter.com/Mill3sim3) die richtige professionelle Ausrüstung und kann für Details kontaktiert werden.
-
-
-Alternativ dazu können Sie auch eine Schablone aus einem großen Stück Pappe anfertigen und Ihr Motiv mit Sprühfarbe an ausgewählten Stellen in Ihrer Stadt anbringen.
-
-
+Alternativ dazu kannst du auch eine Schablone aus einem großen Stück Pappe anfertigen und dein Motiv mit Sprühfarbe an ausgewählten Stellen in Ihrer Stadt anbringen.
 
 ## Eine personalisierte NFC-Karte
 
-
 <chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
 
+Eine weitere originelle Projektidee ist die Erstellung von personalisierten NFC-Karten für Lightning-Zahlungen (kompatibel mit dem BoltCard-Standard). Hierfür ist Schweizer Bitcoin Pay ein großartiger Partner.
 
+[Ihre Website](https://swiss-Bitcoin-pay.ch/cards) bietet derzeit vier Standarddesigns an.
 
-Eine weitere originelle Projektidee ist die Erstellung von personalisierten NFC-Karten für Lightning-Zahlungen (kompatibel mit dem BoltCard-Standard). Hierfür ist die Schweizer Bitcoin Pay ein großartiger Partner.
-
-
-[Ihre Website] (https://swiss-Bitcoin-pay.ch/cards) bietet derzeit vier Standarddesigns an.
-
-
-Wenn Sie mehr als 50 NFC-Karten bestellen möchten, können Sie sich über die offizielle Website des Unternehmens oder über [Twitter] (https://twitter.com/SwissBitcoinPay) an das Unternehmen wenden und ein individuelles Design für die Vorderseite der Karte vorschlagen. Die Rückseite wird standardisiert bleiben.
-
-
+Wenn du mehr als 50 NFC-Karten bestellen möchtest, kannst du dich über die offizielle Website des Unternehmens oder über [Twitter](https://twitter.com/SwissBitcoinPay) an das Unternehmen wenden und ein individuelles Design für die Vorderseite der Karte vorschlagen. Die Rückseite wird standardisiert bleiben.
 
 ![image](assets/fr/050.webp)
 
-
-
-So hat beispielsweise die französische Vereinigung [Bitcoin Lille] (https://twitter.com/BitcoinLille) im Jahr 2023 eine Reihe von NFC-Karten mit einem individuellen Design bestellt. Jedes neue Mitglied erhielt im Laufe des Jahres eine in seinem Willkommenspaket. Diese Idee kann leicht für Ihre eigene Gemeinschaft angepasst und personalisiert werden.
-
+So hat beispielsweise die französische Gemeinschaft [Bitcoin Lille](https://twitter.com/BitcoinLille) im Jahr 2023 eine Reihe von NFC-Karten mit einem individuellen Design bestellt. Jedes neue Mitglied erhielt im Laufe des Jahres eine in seinem Willkommenspaket. Diese Idee kann leicht für deine eigene Gemeinschaft angepasst und personalisiert werden.
 
 Der Stückpreis für diese Karten liegt in der Regel zwischen 2,50 € und 5 €, je nach Auftragsgröße und Marktbedingungen, wobei die Preise für größere Mengen niedriger sind.
 
-
-
 ## Eine Website erstellen
-
 
 <chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
 
+In einem bestimmten Stadium des Wachstums deiner Gemeinschaft kann eine Website nützlich sein, die als Schaufenster für deine Gruppe, Treffen, Veranstaltungen und Bildungsinhalte dient.
 
+Der Aufbau einer Website braucht Zeit, aber die folgende Anleitung zeigt dir, wie du in nur 30 Minuten eine kostenlose WordPress-Website erstellen kannst. Du wirst in der Lage sein, eine anpassbare Homepage einzurichten, Artikel zu veröffentlichen und Medien wie YouTube-Videos, Bilder oder PDFs einzubetten.
 
-In einem bestimmten Stadium des Wachstums Ihrer Gemeinschaft kann eine Website nützlich sein, die als Schaufenster für Ihre Gruppe, Treffen, Veranstaltungen und Bildungsinhalte dient.
-
-
-Der Aufbau einer Website braucht Zeit, aber die folgende Anleitung zeigt Ihnen, wie Sie in nur 30 Minuten eine kostenlose WordPress-Website erstellen können. Sie werden in der Lage sein, eine anpassbare Homepage einzurichten, Artikel zu veröffentlichen und Medien wie YouTube-Videos, Bilder oder PDFs einzubetten.
-
-Später können Sie einen eigenen Domänennamen erwerben oder die Website sogar auf Ihrem eigenen Server hosten.
-
-
+Später kannst du einen eigenen Domainnamen erwerben oder die Website sogar auf deinem eigenen Server hosten.
 
 :::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
-
-
 Es gibt zwar auch andere CMS-Plattformen, einige mit einfacheren, einsteigerfreundlicheren Oberflächen, aber sie sind in der Regel weit weniger anpassbar. Deshalb ist WordPress in der Regel die beste Ausgangsbasis.
 
-
-WordPress unterstützt auch eine breite Palette von Plug-ins (einige davon kostenpflichtig, aber von hoher Qualität), die die Möglichkeiten Ihrer Website erheblich erweitern können, ohne dass Sie Programmierkenntnisse benötigen. Ein Beispiel ist das [Premium-Theme "Uncode"](https://undsgn.com/uncode/)
-
-
+WordPress unterstützt auch eine breite Palette von Plug-ins (einige davon kostenpflichtig, aber von hoher Qualität), die die Möglichkeiten deiner Website erheblich erweitern können, ohne dass Programmierkenntnisse benötigst. Ein Beispiel ist das [Premium-Theme "Uncode"](https://undsgn.com/uncode/)
 
 ## Erstellen Sie einen Videokanal (Youtube oder Odyssee)
 
-
 <chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
 
+Einige Mitglieder deiner Gemeinschaft möchten vielleicht multimediale Inhalte erstellen, z. B. Videos mit Anleitungen.
 
+Du kannst auch Vorträge bei Treffen oder sogar an Universitäten halten.
 
-Einige Mitglieder Ihrer Gemeinschaft möchten vielleicht multimediale Inhalte erstellen, z. B. Videos mit Anleitungen.
-
-Sie können auch Vorträge bei Treffen oder sogar an Universitäten halten.
-
-
-**Wenn es soweit ist, können Sie mit einem speziellen Videokanal alle Ihre Inhalte an einem Ort veröffentlichen und zentralisieren**
-
+**Wenn es soweit ist, kannst du mit einem speziellen Videokanal alle deine Inhalte an einem Ort veröffentlichen und zentralisieren**
 
 Beliebte Plattformen sind:
 
+- [**YouTube**](https://www.youtube.com/), weit verbreitet, aber nicht zensurresistent.
+- [**Odyssee**](https://odysee.com/), weniger populär, aber dezentralisiert durch Peer-to-Peer-Technologie.
+- [**peertube**](https://joinpeertube.org/de), ermöglicht es dir, deine eigene Videoplattform zu hosten, auch wenn die Einrichtung etwas komplizierter ist.
 
-- [**YouTube**] (https://www.youtube.com/), weit verbreitet, aber nicht zensurresistent.
-- [**Odyssee**] (https://odysee.com/), weniger populär, aber dezentralisiert durch Peer-to-Peer-Technologie.
-- [**peertube**] (https://joinpeertube.org/fr_FR), ermöglicht es Ihnen, Ihre eigene Videoplattform zu hosten, auch wenn die Einrichtung etwas komplizierter ist.
-
-
-Egal wofür Sie sich entscheiden, entwerfen Sie plattformspezifisches Bildmaterial, um Ihren Kanal ansprechend zu gestalten. Canva, erwähnt in [Teil 2/8] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), bietet eine Kategorie "YouTube Thumbnail" mit vorgefertigten, anpassbaren Designs.
-
-
+Egal wofür du dich entscheidest, entwerfe plattformspezifisches Bildmaterial, um deinen Kanal ansprechend zu gestalten. Canva, erwähnt in [Teil 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), bietet eine Kategorie "YouTube Thumbnail" mit vorgefertigten, anpassbaren Designs.
 
 ![image](assets/fr/051.webp)
 
+Für **Aufnahmen** von deinem Computer aus ist [Streamlabs](https://streamlabs.com/de-de) kostenlos, bietet viele Funktionen und unterstützt Szenenübergänge.
 
+Für die **Videobearbeitung** ist [Wondershare Filmora](https://filmora.wondershare.de/) (ca. 45€/Jahr) einfach zu bedienen und liefert schnell professionelle Ergebnisse.
 
-Für **Aufnahmen** von Ihrem Computer aus ist [Streamlabs] (https://streamlabs.com/fr-fr) kostenlos, bietet viele Funktionen und unterstützt Szenenübergänge.
+Für das Intro und Outro deines **Videos** findest du auf Canva ganz einfach passende Vorlagen. Passe das Design nach Geschmack an, lade es herunter und füge es zu deiner Bearbeitungssoftware hinzu.
 
-Für die **Videobearbeitung** ist [Wondershare Filmora] (https://filmora.wondershare.fr/) (ca. 45€/Jahr) einfach zu bedienen und liefert schnell professionelle Ergebnisse.
-
-
-Für das Intro und Outro Ihres **Videos** finden Sie auf Canva ganz einfach passende Vorlagen. Passen Sie das Design nach Ihrem Geschmack an, laden Sie es herunter und fügen Sie es zu Ihrer Bearbeitungssoftware hinzu.
-
-
-Tipp: Falls Bitcoin jemals verboten oder zensiert wird, sollten Sie immer eine lokale Sicherungskopie Ihrer Videos auf einem Hard-Laufwerk aufbewahren.
-
-
+Tipp: Falls Bitcoin jemals verboten oder zensiert wird, solltest immer eine lokale Sicherungskopie deiner Videos auf einem Hard-Laufwerk aufbewahren.
 
 ## Einen Audio-Podcast erstellen
 
-
 <chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
-
-
 
 Ein Audio-Podcast ist eine weitere gute Möglichkeit, Ideen zu verbreiten. Wie bei Videokanälen braucht es Zeit, um ein Publikum aufzubauen.
 
-
 Beliebte Podcast-Plattformen sind:
 
+- [**Brunnen**](https://www.fountain.fm/), unterstützt Lightning-Spenden.
+- [**Soundcloud**](https://soundcloud.com/);
+- [**Deezer**](https://www.deezer.com/de/);
+- [**Spotify**](https://open.spotify.com/);
+- [**Google podcast**](https://podcasts.google.com/).
 
-- [**Brunnen**] (https://www.fountain.fm/), unterstützt Lightning-Spenden.
-- [**Soundcloud**] (https://soundcloud.com/);
-- [**Deezer**] (https://www.deezer.com/fr/);
-- [**Spotify**] (https://open.spotify.com/);
-- [**Google podcast**] (https://podcasts.google.com/).
+Jede Plattform hat ihr eigenes Publikum. Wenn du also auf mehreren Plattformen präsent bist, kannst du deine Reichweite erhöhen. **[Spotify für Podcaster](https://podcasters.spotify.com/) macht dies einfach, indem es dir erlaubt, deinen Podcast einmal hochzuladen und einen RSS-Feed für andere Plattformen zu generieren**.
 
+Wenn die Arbeit an "Spotify für Podcaster" also erledigt ist, musst du deine Inhalte nur noch für die anderen Plattformen formatieren - ein relativ schneller Prozess.
 
-Jede Plattform hat ihr eigenes Publikum. Wenn Sie also auf mehreren Plattformen präsent sind, können Sie Ihre Reichweite erhöhen. **[Spotify für Podcaster] (https://podcasters.spotify.com/) macht dies einfach, indem es Ihnen erlaubt, Ihren Podcast einmal hochzuladen und generate einen RSS-Feed für andere Plattformen**.
-
-Wenn die Arbeit an "Spotify für Podcaster" also erledigt ist, müssen Sie Ihre Inhalte nur noch für die anderen Plattformen formatieren - ein relativ schneller Prozess.
-
-
-Für die Aufnahme ist [Audacity] (https://www.audacityteam.org/) kostenlos und ermöglicht es Ihnen, Audiopegel anzupassen, Effekte wie Überblendungen hinzuzufügen und die Klarheit während der Bearbeitung zu verbessern. Es ist ganz einfach, Ihre Stimme aufzunehmen und einen Podcast in professioneller Qualität zu erstellen.
-
+Für die Aufnahme ist [Audacity](https://www.audacityteam.org/) kostenlos und ermöglicht es dir, Audiopegel anzupassen, Effekte wie Überblendungen hinzuzufügen und die Klarheit während der Bearbeitung zu verbessern. Es ist ganz einfach, deine Stimme aufzunehmen und einen Podcast in professioneller Qualität zu erstellen.
 
 Hier ist ein kurzes 10-Minuten-Tutorial, das die Grundlagen der Podcast-Erstellung mit Audacity behandelt:
 
-
-
 :::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
+Tipp: Genau wie bei Videos solltest du eine lokale Sicherungskopie aller Podcasts für den Fall einer zukünftigen Zensur anlegen.
 
-
-Tipp: Genau wie bei Videos sollten Sie eine lokale Sicherungskopie aller Podcasts für den Fall einer zukünftigen Zensur anlegen.
-
-
-
-## Erstellen Sie ein Abzeichen für Ihre Veranstaltungen
-
+## Erstelle ein Abzeichen für deine Veranstaltungen
 
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
-
-
 
 Bei Ihren Treffen und Veranstaltungen können Sie einen kleinen Anreiz einführen: Veranstaltungsabzeichen. Die Idee ist, **ein Abzeichen zu erstellen, das man nur bei dieser bestimmten Veranstaltung erhalten kann**. Dieses Konzept existiert auf anderen Blockchains unter dem Namen "POAP" ("Proof Of Attendance Protocol"). Allerdings gibt es derzeit keine freie Möglichkeit, dies auf Bitcoin zu implementieren.
 

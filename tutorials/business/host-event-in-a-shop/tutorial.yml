@@ -1,0 +1,25 @@
+id: 47860c39-78ef-4778-9211-51c1403ad87e
+
+category: others
+
+level: beginner
+
+professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: en
+    last_contribution_date: 2025-10-03
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+  - language: it
+    last_contribution_date: 2025-10-03
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1

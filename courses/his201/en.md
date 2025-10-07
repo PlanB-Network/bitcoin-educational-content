@@ -122,7 +122,9 @@ The article by Diffie and Hellman paved the way for many innovations. One of the
 
 The discovery of asymmetric cryptography also motivated the creation of one-way functions, which made calculating an image (forward direction) and obtaining a pre-image (reverse direction) very difficult. In particular, it led to the development of the first cryptographic hash functions, which transformed a variable-size message into a fixed-size digest. Between 1989 and 1991, Ronald Rivest designed several hashing algorithms (MD2, MD4, and MD5) for MIT.
 
-The basic cryptographic elements of Bitcoin stem from this research. The ECDSA signature scheme, allowing the authorization of spending a traditional transaction, was created in 1992 for NIST. The SHA-256 hash function, used in multiple places in the protocol, was published in 2001 as part of the SHA-2 algorithm suite made public by the NSA. For more information on this topic, refer to the course [Crypto 301](../crypto301/fr.md) presented by Loïc Morel.
+The basic cryptographic elements of Bitcoin stem from this research. The ECDSA signature scheme, allowing the authorization of spending a traditional transaction, was created in 1992 for NIST. The SHA-256 hash function, used in multiple places in the protocol, was published in 2001 as part of the SHA-2 algorithm suite made public by the NSA. For more information on this topic, refer to the course CYP201 written by Loïc Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Blind Signatures and Electronic Cash
 

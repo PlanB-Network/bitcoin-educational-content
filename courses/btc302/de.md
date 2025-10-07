@@ -1,39 +1,29 @@
 ---
-name: Erstellen Sie eine Bitcoin-Gemeinschaft oder ein Treffen
+name: Erstelle eine Bitcoin-Gemeinschaft oder ein Treffen
 goal: Einfaches Erstellen und Organisieren einer Bitcoin-Gemeinschaft oder eines Treffens
 objectives: 
 
 
   - Schaffung einer Bitcoin-Gemeinschaft und/oder eines Treffens
-  - Aufbau einer visuellen und digitalen Identität für Ihre Gemeinschaft
-  - Setzen Sie jährliche Ziele für Ihre Gemeinschaft
-  - Starten Sie Projekte und Initiativen mit Ihrer Gemeinde
-  - Verstehen, wie wichtig es ist, die künftige Entwicklung einer Gemeinschaft zu antizipieren
+  - Aufbau einer visuellen und digitalen Identität für deine Gemeinschaft
+  - Setze jährliche Ziele für deine Gemeinschaft
+  - Starte Projekte und Initiativen mit deiner Gemeinschaft
+  - Verstehe, wie wichtig es ist, die künftige Entwicklung einer Gemeinschaft zu antizipieren
 
 
 ---
 
 # Der erste Schritt zur Einführung von Bitcoin
-
-
-
 Heutzutage gibt es eine Fülle von Bildungsinhalten im Internet, die es jedem ermöglichen, etwas über Bitcoin und sein Ökosystem zu lernen.
-
-
-Aber **Eines fehlt oft: die Möglichkeit, sich zu treffen, Exchange Ideen, Wissen zu teilen** und vor allem **gemeinsam zu bauen**.
-
-
+Aber **Eines fehlt oft: die Möglichkeit, sich zu treffen, Ideen auszutauschen, Wissen zu teilen** und vor allem **gemeinsam zu bauen**.
 
 Um diesem wachsenden Bedarf gerecht zu werden, entscheiden sich viele Bitcoiner regelmäßig für die **Gründung lokaler Gemeinschaften**.
 
 Sobald sich genügend Teilnehmer gefunden haben, werden Treffen organisiert, und diese wiederkehrenden Zusammenkünfte sind oft ein fruchtbarer Boden für technische Präsentationen, praktische Workshops und breitere Diskussionen.
 
-
 In diesem Kurs "**BTC302**" werden wir untersuchen, **warum es wichtig ist, eine Bitcoin-Gemeinschaft und/oder ein Treffen einzurichten**, und uns dann mit **Werkzeugen und Methoden zur Entwicklung der visuellen und digitalen Identität Ihrer Gemeinschaft** beschäftigen.
 
-
 Wir werden auch **Projekte und Initiativen** vorstellen, die einfach zu starten sind, insbesondere im Bildungsbereich, und die durch verschiedene vorgefertigte Open-Source-Ressourcen unterstützt werden.
-
 
 Schließlich werden wir **die Entwicklung von Bitcoin-Gemeinschaften auf nationaler Ebene** und **ihr Potenzial zur Beschleunigung der hyperbitcoinisierten Welt von morgen** diskutieren.
 
@@ -43,39 +33,23 @@ Schließlich werden wir **die Entwicklung von Bitcoin-Gemeinschaften auf nationa
 
 # Einführung
 
-
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
-
-
 
 ## Überblick über den Kurs
 
-
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
-
-
 
 Willkommen bei BTC302!
 
+Seit 2009 ist Bitcoin unaufhaltsam gewachsen. Dieses Wachstum hat durch neue Bitcoin Improvement Proposals (BIP) (z.D. Verbessungsvorschläge), die Schaffung zusätzlicher Schichten, um das Netz skalierbar zu machen (u. a. Lightning Network), und die Entwicklung mehrerer Unternehmen und Start-ups Gestalt angenommen.
 
+Diese Entwicklung ist auch On-Chain zu beobachten, wo die Zahl der Transaktionen stetig zunimmt.
 
-Seit 2009 ist Bitcoin unaufhaltsam gewachsen. Dieses Wachstum hat durch neue Bitcoin-Verbesserungsvorschläge (BIP), die Schaffung zusätzlicher Schichten, um das Netz skalierbar zu machen (u. a. Lightning Network), und die Entwicklung mehrerer Unternehmen und Start-ups Gestalt angenommen.
-
-
-
-Diese Entwicklung ist auch in On-Chain zu beobachten, wo die Zahl der Transaktionen stetig zunimmt.
-
-
-Zwischen dem 1. Januar 2018 und dem 1. Januar 2024 wird die Zahl der Transaktionen auf Bitcoin's Haupt-Layer schätzungsweise [um 66,2%] gestiegen sein (https://dune.com/queries/3375917/5663935). Zwischen August 2021 und August 2023 ist die Zahl der öffentlichen Transaktionen auf Lightning Network [um 1.212 %] gestiegen (https://river.com/learn/files/river-lightning-report-2023.pdf).
-
-
+Zwischen dem 1. Januar 2018 und dem 1. Januar 2024 wird die Zahl der Transaktionen auf Bitcoin's Main-Layer schätzungsweise [um 66,2% gestiegen sein](https://dune.com/queries/3375917/5663935). Zwischen August 2021 und August 2023 ist die Zahl der öffentlichen Transaktionen auf Lightning Network [um 1.212 % gestiegen](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 Dieses beträchtliche Wachstum steht natürlich in engem Zusammenhang mit:
 
-
-
-
-- das [wachsende Interesse der Menschen auf der ganzen Welt an der Verwendung von Bitcoin] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), um sich vom Bankensystem zu befreien und/oder eine weniger volatile oder weniger abgewertete Währung zu verwenden, wie es bei der Bevölkerung im Libanon, in Syrien, Ägypten, Argentinien und anderen der Fall ist;
+- das [wachsende Interesse der Menschen auf der ganzen Welt an der Verwendung von Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), um sich vom Bankensystem zu befreien und/oder eine weniger volatile oder weniger abgewertete Währung zu verwenden, wie es bei der Bevölkerung im Libanon, in Syrien, Ägypten, Argentinien und anderen der Fall ist;
 - sein Kursanstieg im Laufe der Zeit, wodurch er sich als Wertaufbewahrungsmittel und langfristige Anlage etabliert, was durch seine feste Geldpolitik gefördert wird;
 - das sukzessive Wachstum des spekulativen Kryptowährungsmarktes, insbesondere in den Jahren 2017-2018 und 2020-2021;
 - Die wachsende Präsenz von Bitcoin in den Mainstream-Medien.
@@ -84,144 +58,77 @@ Dieses beträchtliche Wachstum steht natürlich in engem Zusammenhang mit:
 
 ![image](assets/de/001.webp)
 
-
-
-
-Obwohl Bitcoin noch in den Kinderschuhen steckt, veranlasst uns diese Realität, der Sie sich wahrscheinlich bereits bewusst sind, dazu, zwei wichtige Fragen zu stellen:
-
-
-
+Obwohl Bitcoin noch in den Kinderschuhen steckt, veranlasst uns diese Realität, der du dir wahrscheinlich bereits bewusst sind, dazu, zwei wichtige Fragen zu stellen:
 
 - Wie können wir Bitcoiner dazu ermutigen, in ihrem Lernen und in ihren Projekten weiterzugehen, um das Potenzial von Bitcoin **voll auszuschöpfen**?
 
-
-
 - Wie können wir Neulingen, die sich oft zu kurzfristigen Spekulationen hinreißen lassen, dabei helfen, kein Geld mit dem neuesten Memecoin-Wahn zu verlieren und sich stattdessen auf das **Erlernen der Grundlagen von Bitcoin** zu konzentrieren?
 
+Die beste Lösung für beide Herausforderungen ist einfach: **sei in der realen Welt präsent und bilde dich weiter**.
 
-
-Die beste Lösung für beide Herausforderungen ist einfach: **in der realen Welt präsent sein und aufklären**.
-
-
-
-Ziel dieses Kurses ist es, Ihnen alles zur Verfügung zu stellen, was Sie brauchen, um eine Bitcoin-Gemeinschaft oder ein Treffen effektiv zu organisieren. Ganz gleich, ob Sie eine lokale Initiative aufbauen oder eine Online-Gruppe vergrößern wollen, dieser Kurs wird Sie Schritt für Schritt anleiten: von der Erstellung Ihrer visuellen Identität bis hin zur Organisation regelmäßiger Veranstaltungen und der Verwaltung Ihrer Kommunikationskanäle.
-
+Ziel dieses Kurses ist es, dir alles zur Verfügung zu stellen, was du brauchst, um eine Bitcoin-Gemeinschaft oder ein Treffen effektiv zu organisieren. Ganz gleich, ob du eine lokale Initiative aufbauen oder eine Online-Gruppe vergrößern willst, dieser Kurs wird dich Schritt für Schritt anleiten: von der Erstellung deiner visuellen Identität bis hin zur Organisation regelmäßiger Veranstaltungen und der Verwaltung deiner Kommunikationskanäle.
 
 
 **Abschnitt 1: Einleitung**
 
+Wir beginnen damit, die Bedeutung des Zusammenschlusses von Menschen rund um Bitcoin hervorzuheben, sei es durch Online-Gemeinschaften oder lokale Treffen. Du wirst erfahren, warum und wo du deine eigene Gemeinschaft gründen sollst und wie du klare Ziele setzen kannst, um dein Wachstum und deine langfristige Nachhaltigkeit zu fördern.
 
-Wir beginnen damit, die Bedeutung des Zusammenschlusses von Menschen rund um Bitcoin hervorzuheben, sei es durch Online-Gemeinschaften oder lokale Treffen. Sie werden erfahren, warum und wo Sie Ihre eigene Gemeinschaft gründen sollten und wie Sie klare Ziele setzen können, um ihr Wachstum und ihre langfristige Nachhaltigkeit zu fördern.
+**Abschnitt 2: Entwurf einer einzigartigen Identität für deine Bitcoin-Gemeinschaft**
 
+Um neue Mitglieder zu gewinnen und ein Gefühl der Zugehörigkeit zu fördern, ist es wichtig, eine einzigartige Identität zu schaffen. In diesem Abschnitt erfährst du, wie du Logos, Poster und Banner entwirfst, die den Geist deiner Bitcoin-Gemeinschaft verkörpern.
 
+**Abschnitt 3: Kommunikationskanäle für deine Bitcoin-Gemeinschaft schaffen**
 
-**Abschnitt 2: Entwurf einer einzigartigen Identität für Ihre Bitcoin-Gemeinschaft**
+Kommunikation ist das Rückgrat einer jeden Community. In diesem Abschnitt stellen wir dir die besten Kanäle vor und zeigen dir, wie du eine Telegram-Gruppe oder einen Discord-Server effizient einrichtest. Außerdem erfährst du, wie du multifunktionale Bots integrieren kannst, um das Community-Management zu optimieren.
 
+**Kapitel 4: Starte deine sozialen Netzwerke** (auf Französisch)
 
-Um neue Mitglieder zu gewinnen und ein Gefühl der Zugehörigkeit zu fördern, ist es wichtig, eine einzigartige Identität zu schaffen. In diesem Abschnitt erfahren Sie, wie Sie Logos, Poster und Banner entwerfen, die den Geist Ihrer Bitcoin-Gemeinschaft verkörpern.
-
-
-
-**Abschnitt 3: Kommunikationskanäle für Ihre Bitcoin-Gemeinschaft schaffen**
-
-
-Kommunikation ist das Rückgrat einer jeden Community. In diesem Abschnitt stellen wir Ihnen die besten Kanäle vor und zeigen Ihnen, wie Sie eine Telegram-Gruppe oder einen Discord-Server effizient einrichten. Außerdem erfahren Sie, wie Sie multifunktionale Bots integrieren können, um das Community-Management zu optimieren.
-
-
-
-**Kapitel 4: Starten Sie Ihre sozialen Netzwerke** (auf Französisch)
-
-
-Sichtbarkeit ist der Schlüssel zum Wachstum Ihrer Community. In diesem Abschnitt erfahren Sie, wie Sie ein eigenes Twitter-Profil erstellen, sich mit lokalen Treffen verbinden und Plattformen wie btcmap.org nutzen können, um Ihre Sichtbarkeit zu erhöhen und neue Mitglieder zu gewinnen.
-
-
+Sichtbarkeit ist der Schlüssel zum Wachstum deiner Community. In diesem Abschnitt erfährst du, wie du ein eigenes Twitter-Profil erstellst, dich mit lokalen Treffen verbindest und Plattformen wie btcmap.org nutzen kannst, um deine Sichtbarkeit zu erhöhen und neue Mitglieder zu gewinnen.
 
 **Abschnitt 5: Organisation eines Bitcoin-Treffens**
 
-
-In diesem Abschnitt geht es um die Organisation von Meetings: von der Wahl des richtigen Veranstaltungsortes bis zur Durchführung der Veranstaltung selbst. Wir werden auch Strategien erkunden, um Teilnehmer zu binden und die langfristige Nachhaltigkeit Ihrer Community zu gewährleisten.
-
-
+In diesem Abschnitt geht es um die Organisation von Meetings: von der Wahl des richtigen Veranstaltungsortes bis zur Durchführung der Veranstaltung selbst. Wir werden auch Strategien erkunden, um Teilnehmer zu binden und die langfristige Nachhaltigkeit deiner Community zu gewährleisten.
 
 **Abschnitt 6: Beispiele für Projekte und Initiativen** (auf Französisch)
 
-
-Um über einfache Treffen hinauszugehen, werden in diesem Abschnitt konkrete und originelle Projekte vorgestellt: von thematischen Veranstaltungen und Workshops bis hin zur Erstellung von Bildungsinhalten und lokalen Kooperationen. Außerdem erfahren Sie, wie Sie sowohl physische als auch digitale Materialien zur Förderung Ihrer Gemeinschaft gestalten können.
-
-
+Um über einfache Treffen hinauszugehen, werden in diesem Abschnitt konkrete und originelle Projekte vorgestellt: von thematischen Veranstaltungen und Workshops bis hin zur Erstellung von Bildungsinhalten und lokalen Kooperationen. Außerdem erfährst du, wie du sowohl physische als auch digitale Materialien zur Förderung deiner Gemeinschaft gestalten kannst.
 
 **Abschnitt 7: Die Zukunft vorwegnehmen**
 
-
-Hier werden wir die natürliche Entwicklung Ihrer Gemeinschaft untersuchen: Was tun, wenn sie zu schnell wächst, wie Sie Ihre Organisation dezentralisieren und wie Sie auf ein feindliches regulatorisches Umfeld reagieren können. Dieser Abschnitt wird Ihnen helfen, diese Herausforderungen zu antizipieren und zu bewältigen.
-
-
+Hier werden wir die natürliche Entwicklung deiner Gemeinschaft untersuchen: Was tun, wenn sie zu schnell wächst, wie du Ihre Organisation dezentralisieren und wie du auf ein feindliches regulatorisches Umfeld reagieren kannst. Dieser Abschnitt wird dir helfen, diese Herausforderungen zu antizipieren und zu bewältigen.
 
 **Abschnitt 8: Bitcoiner zusammenbringen**
 
+Der letzte Abschnitt konzentriert sich auf das Wesentliche deines Projekts: Bitcoin-Enthusiasten um eine gemeinsame Vision zu vereinen. Du wirst lernen, wie du deinen Ansatz strukturierst, um Mitglieder zu gewinnen und zu halten, Aufgaben effektiv zu delegierst und deine Gemeinschaft nachhaltig vergrößerst.
 
-Der letzte Abschnitt konzentriert sich auf das Wesentliche Ihres Projekts: Bitcoin-Enthusiasten um eine gemeinsame Vision zu vereinen. Sie werden lernen, wie Sie Ihren Ansatz strukturieren, um Mitglieder zu gewinnen und zu halten, Aufgaben effektiv zu delegieren und Ihre Gemeinschaft nachhaltig zu vergrößern.
-
-
-
-Sind Sie bereit zu lernen, wie Sie eine starke, lebendige Bitcoin Gemeinschaft aufbauen können? Lassen Sie uns eintauchen!
-
-
+Bist du bereit zu lernen, wie du eine starke, lebendige Bitcoin Gemeinschaft aufbauen kannst? Lass uns eintauchen!
 
 ## Warum eine Bitcoin-Gemeinschaft oder ein Treffen gründen?
 
-
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
-
-
 
 ### Was ist der Unterschied zwischen einer Gemeinschaft und einem Treffen?
 
-
-
 Es gibt zwar keine strenge Definition dieser Begriffe im Bitcoin-Ökosystem, aber eine Gemeinschaft wird am besten als eine Gruppe von Menschen verstanden, die eine gemeinsame Leidenschaft teilen und regelmäßig kommunizieren.
-
 
 Ein Treffen hingegen ist eine Veranstaltung, die von und für diese Gemeinschaft zu einem bestimmten Zweck organisiert wird. Meetups finden in der Regel statt, wenn eine Gemeinschaft bereits etabliert ist.
 
-
-In diesem Kurs gehen wir davon aus, dass Sie vor dem Start eines Bitcoin-Treffens bereits mit einigen Personen in Kontakt getreten sind, die an einer solchen Veranstaltung interessiert sind, mit anderen Worten, die **Gemeinschaft existiert bereits**.
-
-
+In diesem Kurs gehen wir davon aus, dass du vor dem Start eines Bitcoin-Treffens bereits mit einigen Personen in Kontakt getreten bist, die an einer solchen Veranstaltung interessiert sind, mit anderen Worten, die **Gemeinschaft existiert bereits**.
 
 ### Warum eine Bitcoin-Gemeinschaft gründen?
 
+Es gibt mehrere Gründe für die Gründung einer Bitcoin-Gemeinschaft:
 
-
-Es gibt mehrere Gründe für die Schaffung einer Bitcoin-Gemeinschaft:
-
-
-
-- Wissensaustausch und Zusammenarbeit: Gemeinschaften bieten den Mitgliedern einen Raum für Exchange Ideen und Wissensaustausch. Gegenseitige Unterstützung ist eine wichtige Säule für Wachstum, die es jedem ermöglicht, sein Lernen zu beschleunigen, was für Bitcoin besonders wichtig ist, da es so viel zu entdecken gibt.
-
-
-
+- Wissensaustausch und Zusammenarbeit: Gemeinschaften bieten den Mitgliedern einen Raum für den Austausch von Ideen und Wissen. Gegenseitige Unterstützung ist eine wichtige Säule für Wachstum, die es jedem ermöglicht, sein Lernen zu beschleunigen, was für Bitcoin besonders wichtig ist, da es so viel zu entdecken gibt.
 - Peer-to-Peer-Aufbau: Viele Initiativen und Projekte werden innerhalb dieser Gemeinschaften konzipiert, aufgebaut und entwickelt.
-
-
 
 Bitcoin-Gemeinschaften verfolgen oft umfassendere Ziele, insbesondere im Bereich der öffentlichen Bildung:
 
-
 1. Was Bitcoin ist;
-
-
 2. Wie es funktioniert;
-
-
-3. Ihr Beitrag zur Gesellschaft;
-
-
+3. Sein Beitrag zur Gesellschaft;
 4. Entlarvung irreführender oder unbegründeter Behauptungen, die von einigen Persönlichkeiten des öffentlichen Lebens und den Medien aufgestellt werden;
-
-
 5. Die grundlegenden Unterschiede zwischen Bitcoin und anderen Kryptowährungen;
-
 
 Durch den Aufbau der ersten "Zitadellen" von morgen dienen **Bitcoin-Gemeinschaften weltweit als Bollwerk gegen Desinformation und Zensur und bieten gleichzeitig einen fruchtbaren Boden für das Erlernen der Grundlagen von Bitcoin**. Sie bieten Neulingen, selbst Skeptikern, die Ressourcen und Verbindungen, die sie benötigen, um das wahre Potenzial von Bitcoin zu erkunden.
 
@@ -229,24 +136,15 @@ Durch den Aufbau der ersten "Zitadellen" von morgen dienen **Bitcoin-Gemeinschaf
 
 ![image](assets/de/002.webp)
 
-
-
 Es ist auch erwähnenswert, dass **eine Gemeinschaft vollständig online** existieren kann, sei es eine Telegram-Gruppe ("Bitcoin London"), eine Facebook-Gruppe ("Bitcoin Berlin"), ein Discord-Server ("Bitcoin Madrid") oder sogar eine E-Mail-Liste ("Bitcoin Frankreich").
-
 
 Mit anderen Worten: **Eine Gemeinschaft braucht keine physischen Treffen, um zu gedeihen oder Projekte zu starten. Ihr Hauptzweck bleibt derselbe: Austausch, Aufbau und Bildung**.
 
-
-
 ### Warum ein Treffen einrichten?
-
-
 
 Wie bereits erwähnt, kommen **Treffen in der Regel nach der Gründung einer Gemeinschaft zustande und dienen der Ergänzung**.
 
-
 Wenn sich die Reise eines Bitcoiners weiterentwickelt, entsteht oft der Wunsch oder sogar das Bedürfnis, **andere** aus dem gleichen Ökosystem persönlich zu treffen und mit ihnen zu interagieren. Dies kann daher kommen, dass man sich isoliert fühlt oder einfach niemanden hat, mit dem man im täglichen Leben über Bitcoin sprechen kann.
-
 
 Meetups bieten eine persönlichere und einladendere Erfahrung als Online-Audio- oder Videoanrufe. Ob **bei einem Getränk oder einer Mahlzeit**, sie schaffen informelle, freundliche Räume, in denen Menschen ihre Ideen offen und direkt austauschen können.
 
@@ -254,142 +152,80 @@ Meetups bieten eine persönlichere und einladendere Erfahrung als Online-Audio- 
 
 ![image](assets/de/003.webp)
 
-
 Bitcoin-Treffen können vielen Zwecken dienen:
-
-
 
 - Erörterung technischer Themen oder laufender Projekte
 - Neuen Bitcoinern dabei helfen, schrittweise tiefer in die Bitcoin-Welt einzutauchen
 - Ankündigung neuer Projekte oder Initiativen
-- Tausch von Materialien oder Büchern
-- Vorführung von Dokumentarfilmen in der Vorschau
+- Ausausch von Materialien oder Büchern
+- Preview-Vorführungen von Dokumentarfilmen
 - Veranstaltung von Konferenzen oder Workshops zu bestimmten Themen
 
+Wir werden viele dieser Möglichkeiten in Teil 6/8 dieses Kurses mit dem Titel "[Beispiele für Projekte und Initiativen](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)" im Detail behandeln.
 
+Während es jeder Gemeinschaft freisteht, sich ihre eigenen Meinungen zu bilden, Projekte zu starten und auf ihre eigene Weise zu experimentieren, erweisen sich Treffen zunehmend als **wesentlich für die Entwicklung von Bitcoin und das Wachstum von Bitcoinern. Sie zu organisieren erfordert Zeit und Mühe**, weshalb dieser Kurs die kombinierte Erfahrung von [etwa sechzig Bitcoin-Gemeinschaften in Frankreich und Belgien](https://btcmap.org/communities/map#2/5.24949/0.20000) weitergibt, **um dir zu helfen, deine eigene Gemeinschaft und Treffen so reibungslos wie möglich aufzubauen und wachsen zu lassen**.
 
-Wir werden viele dieser Möglichkeiten in Teil 6/8 dieses Kurses mit dem Titel "[Beispiele für Projekte und Initiativen] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)" im Detail behandeln.
-
-
-
-Während es jeder Gemeinschaft freisteht, sich ihre eigenen Meinungen zu bilden, Projekte zu starten und auf ihre eigene Weise zu experimentieren, erweisen sich Treffen zunehmend als **wesentlich für die Entwicklung von Bitcoin und das Wachstum von Bitcoinern**. **Sie zu organisieren erfordert Zeit und Mühe**, weshalb dieser Kurs die kombinierte Erfahrung von [etwa sechzig Bitcoin-Gemeinschaften in Frankreich und Belgien] (https://btcmap.org/communities/map#2/5.24949/0.20000) weitergibt, **um Ihnen zu helfen, Ihre eigene Gemeinschaft und Treffen so reibungslos wie möglich aufzubauen und wachsen zu lassen**.
-
-
-
-## Wo sollten Sie Ihre Gemeinschaft aufbauen?
-
+## Wo solltest du deine Gemeinschaft aufbauen?
 
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
+Die erste Frage, die man sich stellen muss, lautet: Wo soll deine Gemeinschaft ihren Sitz haben?
+Diese Entscheidung ist von hoher Bedeutung, wenn du dir die Möglichkeit offen halten willst, später Treffen zu organisieren.
 
-
-Die erste Frage, die man sich stellen muss, lautet: Wo sollte Ihre Gemeinschaft ihren Sitz haben?
-
-Diese Entscheidung ist von entscheidender Bedeutung, wenn Sie sich die Möglichkeit offen halten wollen, später Treffen zu organisieren.
-
-
-Wenn die Mitglieder zwei Stunden fahren müssen, um an einer Veranstaltung teilzunehmen, ist die Teilnehmerzahl wahrscheinlich gering. Deshalb hat die Wahl des richtigen **Ortes für Ihre Community und damit für Ihre zukünftigen Treffen einen großen Einfluss auf ihr Wachstum**.
-
-
+Wenn die Mitglieder zwei Stunden fahren müssen, um an einer Veranstaltung teilzunehmen, ist die Teilnehmerzahl wahrscheinlich gering. Deshalb hat die Wahl des richtigen **Ortes für deine Community und damit für deine zukünftigen Treffen einen großen Einfluss auf ihr Wachstum**.
 
 Ein paar Tipps für Ihre Entscheidung:
 
+1. **Gründe und erweitere deine Gemeinschaft in einer mittelgroßen oder großen Stadt**. Dies wird es einfacher machen,:
 
-1/ **Gründen und erweitern Sie Ihre Gemeinschaft in einer mittelgroßen oder großen Stadt**. Dies wird es einfacher machen,:
+    - Angenehme Orte für Begegnungen und Projekte (Präsentationen, Workshops, Förderung der Bitcoin-Einführung usw.) zu finden;
+    - Das Gefühl der Beteiligung und Zugehörigkeit einer größeren Anzahl von Menschen zu stärken;
+    - Die Erreichbarkeit der Veranstaltung (öffentliche Verkehrsmittel, Parkplätze usw.) zu verbessern. Die Wahl eines Standorts in der Nähe von öffentlichen Verkehrsmitteln und Parkplätzen wird dringend empfohlen.
 
+2. **Wähle einen Namen, der mit deiner Stadt verbunden ist**. So können sich die Menschen leicht mit deiner Gemeinschaft identifizieren. Beispiele: Bitcoin Paris, Einundzwanzig Berlin, Satoshi Spritz Mailand, usw.
 
+3. **Prüfe, ob es in deiner Nähe bereits ein Treffen gibt**.
 
-    - Finden Sie angenehme Orte für Begegnungen und Projekte (Präsentationen, Workshops, Förderung der Bitcoin-Einführung usw.);
-    - Stärkung des Gefühls der Beteiligung und Zugehörigkeit einer größeren Anzahl von Menschen;
-    - Verbessern Sie die Erreichbarkeit der Veranstaltung (öffentliche Verkehrsmittel, Parkplätze usw.). Die Wahl eines Standorts in der Nähe von öffentlichen Verkehrsmitteln und Parkplätzen wird dringend empfohlen.
-
-
-
-2/ **Wählen Sie einen Namen, der mit Ihrer Stadt verbunden ist**. So können sich die Menschen leicht mit Ihrer Gemeinschaft identifizieren. Beispiele: Bitcoin Paris, Einundzwanzig Berlin, Satoshi Spritz Mailand, usw.
-
-
-3/ **Prüfen Sie, ob es in Ihrer Nähe bereits ein Treffen gibt**.
-
-Sie können auf [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) nachsehen, wo die meisten Bitcoin-Gemeinschaften und Treffen weltweit aufgelistet sind.
-
-
+Du kannst auf [btcmap.org](https://btcmap.org/communities/map#0/0/0/) nachsehen, wo die meisten Bitcoin-Gemeinschaften und Treffen weltweit aufgelistet sind.
 
 ![image](assets/de/004.webp)
 
-
-
-Nach einigen Recherchen finden Sie vielleicht ein bestehendes Treffen oder eine Gemeinschaft in Ihrer Stadt.
-
+Nach einigen Recherchen findest du vielleicht ein bestehendes Treffen oder eine Gemeinschaft in deiner Stadt.
 Bitcoin ist dezentralisiert, so dass es natürlich jedem freisteht, zu tun, was er will.
-
-
 Es ist jedoch **oft sinnvoller, die Kräfte zu bündeln, als benachbarte Gemeinschaften aufzuteilen und die Auswirkungen jeder einzelnen zu verringern**. Eine neue Gemeinschaft zu gründen, wo es bereits eine gibt, kann ungewollt Konkurrenz schaffen.
 
+In diesem Sinne kann eine einfache "Faustregel" helfen: Wenn es in einem Umkreis von 30-45 Minuten um deinen Wohnort keine aktive Bitcoin-Gemeinschaft gibt, kann es sich lohnen, eine neue zu gründen. Es steht dir jedoch immer frei, zu tun, was du willst.
+Und wenn sich eine ältere Gemeinschaft in eine Richtung "entwickelt" hat, die nicht mehr mit deinen Werten übereinstimmt, und du nicht die Zeit oder die Motivation hast, sie zu "Orange-Pillen", dann ist die Schaffung einer eigenen Fork natürlich immer eine Option.
 
-In diesem Sinne kann eine einfache "Faustregel" helfen: Wenn es in einem Umkreis von 30-45 Minuten um Ihren Wohnort keine aktive Bitcoin-Gemeinschaft gibt, kann es sich lohnen, eine neue zu gründen. Es steht Ihnen jedoch immer frei, zu tun, was Sie wollen.
-
-
-Und wenn sich eine ältere Gemeinschaft in eine Richtung "entwickelt" hat, die nicht mehr mit Ihren Werten übereinstimmt, und Sie nicht die Zeit oder die Motivation haben, sie "auf Vordermann zu bringen", dann ist die Schaffung eines eigenen Fork natürlich immer eine Option.
-
-
-
-## Welche Ziele sollte Ihre Gemeinschaft verfolgen?
-
+## Welche Ziele sollte deine Gemeinschaft verfolgen?
 
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
+Sobald du die Stadt (oder das geografische Gebiet) für deine Gemeinschaft bestimmt hast, ist es an der Zeit, **zu definieren, was du erreichen willst**.
+Diese Ziele können gleich zu Beginn festgelegt oder später verfeinert werden, wenn mehrere Mitglieder beigetreten sind und sich deine Gruppe aktiv engagiert.
 
+Hier sind einige Punkte, die dir bei deinen Überlegungen helfen können:
 
-Sobald Sie die Stadt (oder das geografische Gebiet) für Ihre Gemeinschaft bestimmt haben, ist es an der Zeit, **zu definieren, was Sie erreichen wollen**.
+1 - **Warum gründe ich diese Gemeinschaft als Bitcoiner?** Ist es, um Wissen zu teilen? Andere zu unterrichten? Von erfahreneren Kollegen zu lernen? Gleichgesinnte zu treffen? In das Bitcoin-Ökosystem eingebunden zu werden? Mit Fachleuten in Kontakt zu treten? Oder einfach nur einen Drink nehmen und neue Freunde finden?
 
+Deine Antworten werden deine Positionierung und Motivation bestimmen.
+Wenn es dein Ziel ist, **Wissen weiterzugeben und Menschen über Bitcoin** aufzuklären, konzentriere dich auf die **Erstellung von Bildungsinhalten** (Artikel, Podcasts, Videos, Präsentationen, Flyer usw.) und erspare anderen unzählige Stunden der Recherche. Du kannst sogar noch weiter gehen, indem du **Workshops, Präsentationen und Konferenzen** veranstaltest.
 
-Diese Ziele können gleich zu Beginn festgelegt oder später verfeinert werden, wenn mehrere Mitglieder beigetreten sind und sich Ihre Gruppe aktiv engagiert.
-
-
-
-Hier sind einige Punkte, die Ihnen bei Ihren Überlegungen helfen können:
-
-
-
-1/ **Warum gründe ich diese Gemeinschaft als Bitcoiner?** Ist es, um Wissen zu teilen? Andere zu unterrichten? Von erfahreneren Kollegen zu lernen? Gleichgesinnte zu treffen? In das Bitcoin-Ökosystem eingebunden werden? Mit Fachleuten in Kontakt zu treten? Oder einfach nur einen Drink nehmen und neue Freunde finden?
-
-
-
-Ihre Antworten werden Ihre Positionierung und Motivation bestimmen.
-
-
-Wenn es Ihr Ziel ist, **Wissen weiterzugeben und Menschen über Bitcoin** aufzuklären, konzentrieren Sie sich auf die **Erstellung von Bildungsinhalten** (Artikel, Podcasts, Videos, Präsentationen, Flyer usw.) und ersparen Sie anderen unzählige Stunden der Recherche. Sie können sogar noch weiter gehen, indem Sie **Workshops, Präsentationen und Konferenzen** veranstalten.
-
-
-
-Wenn Sie einfach nur andere Bitcoiner kennenlernen und Erfahrungen austauschen möchten, können Sie einen entspannteren Ansatz wählen und sich zum Beispiel auf einen Drink treffen.
-
-Auf diese Weise können Sie leichter soziale Bindungen aufbauen. Denken Sie aber immer daran, dass **Biertrinken nicht der richtige Weg ist, um die Welt von morgen aufzubauen**.
-
+Wenn du einfach nur andere Bitcoiner kennenlernen und Erfahrungen austauschen möchtest, kannst du einen entspannteren Ansatz wählen und dich zum Beispiel auf einen Drink treffen.
+Auf diese Weise kannst du leichter soziale Bindungen aufbauen. Denke aber immer daran, dass **Biertrinken nicht der richtige Weg ist, um die Welt von morgen aufzubauen**.
 
 Aus diesem Grund ist es wichtig, **konkrete Ziele und Projekte festzulegen**.
 
+2 - Soll ich meiner Gemeinschaft eine **physische Dimension** geben? Wenn ja, welche Art von Veranstaltungen solltest du organisieren?
 
+Deine erste Veranstaltung wird wahrscheinlich ein Treffen sein. Sein Hauptzweck: Bitcoiner in deiner Gegend zusammenzubringen.
+Wie wir jedoch später in [Beispiele für Projekte und Initiativen](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) sehen werden, kann **ein Treffen auf viele Arten und mit vielen Zielen aufgebaut werden:**
 
-
-2/ Soll ich meiner Gemeinschaft eine **physische Dimension** geben? Wenn ja, welche Art von Veranstaltungen sollten Sie organisieren?
-
-
-
-Ihre erste Veranstaltung wird wahrscheinlich ein Treffen sein. Sein Hauptzweck: Bitcoiner in Ihrer Gegend zusammenzubringen.
-
-
-
-Wie wir jedoch später in [Beispiele für Projekte und Initiativen] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) sehen werden, kann **ein Treffen auf viele Arten und mit vielen Zielen aufgebaut werden:**
-
-
-
-- Kombinieren Sie Networking mit einer pädagogischen Präsentation über ein Bitcoin-Konzept;
-- Veranstalten Sie eine professionelle Demonstration von Bitcoin-Lösungen;
+- Kombinieren von Networking mit einer pädagogischen Präsentation über ein Bitcoin-Konzept;
+- Veranstaltung eine professionellen Demonstration von Bitcoin-Lösungen;
 - Erörterung von Strategien für das "Orange-Pilling" von lokalen Händlern;
 
 und so weiter.
-
 
 Je nach Thema (Fachvorträge oder praktische Workshops) kann es sogar sinnvoll sein, **zusätzliche Veranstaltungen** außerhalb des regulären Treffens zu organisieren.
 
@@ -397,120 +233,67 @@ Je nach Thema (Fachvorträge oder praktische Workshops) kann es sogar sinnvoll s
 
 ![image](assets/de/005.webp)
 
-
-
-
-3/ Wie möchte ich, dass meine Gemeinschaft zum Bitcoin-Ökosystem beiträgt?
-
-
+3 - Wie möchte ich, dass meine Gemeinschaft zum Bitcoin-Ökosystem beiträgt?
 
 Dies ist eine Frage für Fortgeschrittene, aber es lohnt sich, frühzeitig darüber nachzudenken.
+Wenn deine Vision darin besteht, **eine eng verbundene, motivierte Gemeinschaft** zu schaffen, die sich darauf konzentriert, so viele Menschen wie möglich zu Orange-Pillen, dann:
 
-
-Wenn Ihre Vision darin besteht, **eine eng verbundene, motivierte Gemeinschaft** zu schaffen, die sich darauf konzentriert, so viele Menschen wie möglich in Orange zu färben, dann:
-
-
-
-- Arbeiten Sie mit bestehenden Gemeinschaften zusammen, um bei Bedarf Zugang zu umfassenderen Informationen, Open-Source-Ressourcen und wertvoller Unterstützung zu erhalten.
-- Organisieren und delegieren Sie Aufgaben innerhalb Ihrer Gruppe, um Ihre Bemühungen effektiv zu erweitern und zu skalieren.
-
-
+- Arbeite mit bestehenden Gemeinschaften zusammen, um bei Bedarf Zugang zu umfassenderen Informationen, Open-Source-Ressourcen und wertvoller Unterstützung zu erhalten.
+- Organisiere und delegiere Aufgaben innerhalb deiner Gruppe, um Ihre Bemühungen effektiv zu erweitern und zu skalieren.
 
 **Kurz-, mittel- und langfristige Ziele setzen**
 
 Eine praktische Art der Planung ist die Festlegung von Zielen für jeden Zeitrahmen:
 
-
-
 - Kurzfristig: Aufbau einer Präsenz in den sozialen Medien und Einrichtung von Kommunikationskanälen in der Gemeinschaft.
 - Mittelfristig: Erstellung von Bildungsressourcen (Artikel, Flugblätter, Videos).
 - Langfristig: Einführung regelmäßiger physischer Treffen.
 
-
-Sobald die Treffen etabliert sind, könnten Sie sich ein Ziel setzen:
-
-
+Sobald die Treffen etabliert sind, könntest du dir ein Ziel setzen:
 
 - Kurzfristig: Veranstaltung von Workshops oder Präsentationen zu bestimmten Themen
 - Mittelfristig: Durchführung von Bitcoin-Sensibilisierungs- oder Aufklärungskampagnen
 - Langfristig: Gründung einer formellen Vereinigung oder Partnerschaft mit einer Bar, die Bitcoin als Zahlungsmittel akzeptiert.
 
-
-Seien Sie vorbereitet: **Der Aufbau einer Gemeinschaft ist mühsam**
-
+Halte dir aber immer im Hinterkopf: **Der Aufbau einer Gemeinschaft ist mühsam**
 
 Der Aufbau einer Gemeinschaft geschieht nicht über Nacht. Es braucht Zeit, Motivation und Organisation.
-
 Manchmal kann es sich sogar entmutigend anfühlen, vor allem, wenn niemand auftaucht und man sich wie der Einzige fühlt, der diese Aufgabe auf seinen Schultern trägt.
-
 
 Deshalb ist **dieser Kurs darauf ausgerichtet, wertvolle Ressourcen und Tipps weiterzugeben, um Gemeinschaften dabei zu helfen, effektiv zu wachsen und sich schließlich selbst zu versorgen**.
 
-
-
-# Gestaltung einer Gemeinschaftsidentität Bitcoin
-
+# Gestaltung einer Identität für die Bitcoin-Community
 
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
-
-
-## Warum und wie können Sie Ihre eigene Identität schaffen?
-
+## Warum und wie kannst du deine eigene Identität schaffen?
 
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
-
-
 In diesem Stadium gehen wir davon aus, dass:
 
+- Du bereits weißt, wo deine Gemeinschaft (oder dein zukünftiges regelmäßiges Treffen) angesiedelt sein wird.
+- Du dir Ziele für verschiedene Zeithorizonte gesetzt hast, auch wenn diese noch nicht endgültig sind.
 
-
-- Sie wissen bereits, wo Ihre Gemeinschaft (oder Ihr zukünftiges regelmäßiges Treffen) angesiedelt sein wird.
-- Sie haben sich Ziele für verschiedene Zeithorizonte gesetzt, auch wenn diese noch nicht endgültig sind.
-
-
-Der nächste Schritt beim Aufbau Ihrer Community ist die **Definition ihrer Identität**, sowohl ihres Namens als auch ihres visuellen Stils.
-
-
-In diesem Abschnitt finden Sie Anleitungen und einsteigerfreundliche Softwarelösungen, die Ihnen dabei helfen, die visuelle Identität Ihrer Gemeinschaft zu gestalten, auch wenn Sie noch keine Vorkenntnisse haben.
-
+Der nächste Schritt beim Aufbau deiner Community ist die **Definition ihrer Identität**, sowohl ihres Namens als auch ihres visuellen Stils.
+In diesem Abschnitt findest du Anleitungen und einsteigerfreundliche Softwarelösungen, die dir dabei helfen, die visuelle Identität deiner Gemeinschaft zu gestalten, auch wenn du noch keine Vorkenntnisse hast.
 
 **Warum ist Identität wichtig?**
-
-Menschen fühlen sich engagierter und engagierter, wenn sie sich mit einer Gruppe identifizieren können. Eine starke Identität trägt dazu bei, dass sich Ihre Gemeinschaft von anderen abhebt und das Gefühl der Zugehörigkeit fördert.
-
+Menschen fühlen sich mehr einbezogen und verstanden, wenn sie sich mit einer Gruppe identifizieren können. Eine starke Identität trägt dazu bei, dass sich deine Gemeinschaft von anderen abhebt und das Gefühl der Zugehörigkeit fördert.
 
 Alles beginnt mit der Wahl eines Namens, und jedes Land hat oft seine eigenen Trends:
-
-
-
-- Frankreich: Die meisten der über 60 lokalen Gemeinschaften verwenden Namen wie "Bitcoin [STADT]" oder "[STADT] Bitcoin". Ihre Telegram-Gruppen folgen oft diesem Muster: "Bitcoin [STADT] Treffen".
-- Deutschland: Die Initiative "Einundzwanzig" inspirierte zu Namen wie "Einundzwanzig [CITY]".
-- Italien: Das Netz Satoshi Spritz verwendet Namen wie Satoshi "Spritz [CITY]".
-
+- Frankreich: Die meisten der über 60 lokalen Gemeinschaften verwenden Namen wie "Bitcoin [STADT]" oder "[STADT] Bitcoin". Ihre Telegram-Gruppen folgen oft diesem Muster: "Bitcoin [STADT] Meetup".
+- Deutschland: Die Initiative "Einundzwanzig" inspirierte zu Namen wie "Einundzwanzig [STADT]".
+- Italien: Das Satoshi Spritz Netzwerk verwendet Namen wie Satoshi "Spritz [CITY]".
 
 **Jede Gemeinschaft hat ihre eigene Identität, die mit ihrer Heimatstadt verbunden ist, aber auch mit der umfassenderen Identität ihres Landes**.
 
+Deine visuelle Identität: Logo, Farben, Banner, ist das, was die Menschen in Erinnerung behalten und mit deiner Gruppe in Verbindung bringen werden.
+Bei der Einrichtung von Konten und Kommunikationskanälen in sozialen Medien sind ein Logo und ein Banner von großem Vorteil. Keine Sorge, du brauchst keine professionellen Designfähigkeiten; es gibt kostenlose und einfach zu verwendende Tools.
+Ein guter Ausgangspunkt ist die Einbeziehung eines Wahrzeichens oder Symbols aus deiner Stadt. In Paris könnte dies der Eiffelturm sein. In Lille der Glockenturm oder die Zitadelle. In New York, die Freiheitsstatue. In London der Big Ben, und so weiter.
 
-
-Ihre visuelle Identität: Logo, Farben, Banner, ist das, was die Menschen in Erinnerung behalten und mit Ihrer Gruppe in Verbindung bringen werden.
-
-
-Bei der Einrichtung von Konten und Kommunikationskanälen in sozialen Medien sind ein Logo und ein Banner von großem Vorteil. Keine Sorge, Sie brauchen keine professionellen Designfähigkeiten; es gibt kostenlose und einfach zu verwendende Tools.
-
-
-Ein guter Ausgangspunkt ist die Einbeziehung eines Wahrzeichens oder Symbols aus Ihrer Stadt. In Paris könnte dies der Eiffelturm sein. In Lille der Glockenturm oder die Zitadelle. In New York, die Freiheitsstatue. In London der Big Ben, und so weiter.
-
-
-Von dort aus können Sie je nach Wunsch ein einfaches oder ein detaillierteres Logo entwerfen.
-
-
-
-Um Ihnen einige Ideen zu geben, finden Sie hier einige Beispiele für französische Gemeinschaftslogos:
-
-
-
+Von dort aus kannst du je nach Wunsch ein einfaches oder ein detaillierteres Logo entwerfen.
+Um dir einige Ideen zu geben, findest du hier einige Beispiele für französische Gemeinschaftslogos:
 
 - In Marseille stellt das Logo die Basilika Notre-Dame-de-la-Garde dar, die die Stadt überragt:
 
@@ -518,19 +301,11 @@ Um Ihnen einige Ideen zu geben, finden Sie hier einige Beispiele für französis
 
 ![image](assets/de/006.webp)
 
-
-
-
-
 - In Monaco bezieht er sich auf den monegassischen Felsen:
 
 
 
 ![image](assets/de/007.webp)
-
-
-
-
 
 - In Lille stellt das schlichte Logo die Zitadelle von Vauban und ihren Park dar:
 
@@ -538,100 +313,52 @@ Um Ihnen einige Ideen zu geben, finden Sie hier einige Beispiele für französis
 
 ![image](assets/de/008.webp)
 
-
-
-
-
 - In Saint-Malo ist das Hermelin, das Wahrzeichen der Stadt, besonders hervorgehoben:
 
 
 
 ![image](assets/de/009.webp)
 
-
-
-**Weiter, wenn Sie möchten**
-
-Wenn Sie sich inspirieren lassen, können Sie sogar noch weiter gehen: Entwerfen Sie ein Wappen, ein Motto oder sogar ein Lied für Ihre Gemeinschaft. Eurer Kreativität sind keine Grenzen gesetzt!
-
-
+Wenn du dich inspirieren lässt, kannst du sogar noch weiter gehen: Entwirf ein Wappen, ein Motto oder sogar ein Lied für deine Gemeinschaft. Deiner Kreativität sind keine Grenzen gesetzt!
 
 ## Erstellung eines Logos, eines Posters und eines Banners
 
-
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
-
-
 
 ### Canva verwenden
 
+Du kannst [Canva](https://www.canva.com/) verwenden, um die verschiedenen visuellen Elemente für deine Gemeinschaft zu erstellen.
+Diese kostenlose und benutzerfreundliche Plattform ist beliebt für ihre große Bibliothek an vorgefertigten Vorlagen, die du mit nur wenigen Klicks duplizieren und anpassen kannst.
 
+**Erstellung deines Logos:**
+Suche auf der Canva-Startseite nach vordefinierten Logos. Wähle eines oder mehrere aus, die dich inspirieren, kopieren sie und passe sie dann an deine Gemeinschaft an.
 
-Sie können [Canva](https://www.canva.com/) verwenden, um die verschiedenen visuellen Elemente für Ihre Gemeinschaft zu erstellen.
+Du kannst ein lokales Wahrzeichen oder Emblem in den Hintergrund einfügen (importiere ein Foto oder suche im Elements-Menü nach "Illustrationen" oder "Bilder") und dann das Bitcoin-Logo oder ₿ überlagern, wobei du bei Bedarf die Farbe anpassen kannst.
 
+**Erstellung von Bannern und Postern:**
+Um ein Banner oder Poster zu erstellen, suche in der Canva-Bibliothek nach vorgefertigten Vorlagen. Sobald du eine kopiert hast, ändere den Text und die Schriftarten, füge dein Gemeindelogo hinzu und importiere Fotos mithilfe von Rahmen (suche im Elements-Menü nach "Rahmen").
 
+Du kannst auch das Design-Menü verwenden, um weitere Modelle zu finden, die deinen Anforderungen entsprechen.
+Für YouTube-Thumbnails oder Banner suche einfach nach diesen Vorlagen, dupliziere und passe sie nach Belieben an.
 
-Diese kostenlose und benutzerfreundliche Plattform ist beliebt für ihre große Bibliothek an vorgefertigten Vorlagen, die Sie mit nur wenigen Klicks duplizieren und anpassen können.
+Kurz gesagt, **die Möglichkeiten sind endlos und werden nicht nur durch deine Bedürfnisse, sondern auch durch den visuellen Stil, den du für deine Community und deine Treffen/Events kreieren willst, bestimmt**!
 
-
-**Erstellung Ihres Logos**
-
-Suchen Sie auf der Canva-Startseite nach vordefinierten Logos. Wählen Sie eines oder mehrere aus, die Sie inspirieren, kopieren Sie sie und passen Sie sie dann an Ihre Gemeinschaft an.
-
-
-Sie können ein lokales Wahrzeichen oder Emblem in den Hintergrund einfügen (importieren Sie ein Foto oder suchen Sie im Elements-Menü nach "Illustrationen" oder "Bilder") und dann das Bitcoin-Logo oder ₿ überlagern, wobei Sie bei Bedarf die Farbe anpassen.
-
-
-**Erstellung von Bannern und Postern**
-
-Um ein Banner oder Poster zu erstellen, suchen Sie in der Canva-Bibliothek nach vorgefertigten Vorlagen. Sobald Sie eine kopiert haben, ändern Sie den Text und die Schriftarten, fügen Sie Ihr Gemeindelogo hinzu und importieren Sie Fotos mit Rahmen (suchen Sie im Elements-Menü nach "Rahmen").
-
-
-Sie können auch das Menü "Designs" verwenden, um weitere Modelle zu finden, die Ihren Anforderungen entsprechen.
-
-
-Für YouTube-Thumbnails oder Banner suchen Sie einfach nach diesen Vorlagen, duplizieren sie und passen sie nach Belieben an.
-
-
-
-Kurz gesagt, **die Möglichkeiten sind endlos und werden nicht nur durch Ihre Bedürfnisse, sondern auch durch den visuellen Stil, den Sie für Ihre Community und Ihre Treffen/Events kreieren wollen, bestimmt**!
-
-
-
-Um Ihnen eine bessere Vorstellung davon zu geben, haben wir ein nicht erschöpfendes Video-Tutorial beigefügt, in dem einige dieser Möglichkeiten vorgestellt werden:
-
-
+Um dir eine bessere Vorstellung davon zu geben, haben wir ein Video-Tutorial (Französisch) beigefügt, in dem einige dieser Möglichkeiten vorgestellt werden:
 
 :::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
+**Beispielvorlagen von Bitcoin Lille:**
 
-
-**Beispielvorlagen von Bitcoin Lille**
-
-Hier finden Sie fertige Canva-Vorlagen, die Sie kopieren und für Ihre Community anpassen können:
-
-
+Hier findest du fertige Canva-Vorlagen, die du kopieren und für deine Community anpassen kannst:
 
 - **Plakat zur Ankündigung des Treffens** (für soziale Medien und A4/A3-Druck): [Link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/de/010.webp)
 
-
-
-
-
 - **Veranstaltungsplakat** (für soziale Medien und A4/A3-Druck): [Link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-
-
-
-
 - **banner für soziale Medien**: [Link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-
 
 - **Ausschreibung des Wettbewerbs**: [Link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
@@ -639,21 +366,9 @@ Hier finden Sie fertige Canva-Vorlagen, die Sie kopieren und für Ihre Community
 
 ![image](assets/de/011.webp)
 
-
-
-
-
 - **Markenrichtlinien** unserer Bibliothek, die bei Treffen auf A4 aushängen: [Link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-
-
-
-
 - **PowerPoint Präsentation** "Chapter 2 - Understanding Bitcoin transactions", by @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-
 
 - **flyer** "21 Gründe, Bitcoin zu nutzen", verfasst von @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
@@ -664,18 +379,10 @@ Hier finden Sie fertige Canva-Vorlagen, die Sie kopieren und für Ihre Community
 
 ![image](assets/de/013.webp)
 
+Die Möglichkeiten sind endlos, und deine Entwürfe werden von deinen Zielen und deiner visuellen Identität abhängen. Ziehe in Erwägung, deine Vorlagen als Open Source zur Verfügung zu stellen. Das spart Zeit für andere Bitcoin-Gemeinschaften, die unweigerlich vor denselben Herausforderungen stehen wie du. Durch die gemeinsame Nutzung hilfst du, das Wachstum von Bitcoin-Gemeinschaften überall zu beschleunigen.
 
-
-**Teilen Sie Ihre Kreationen**
-
-Die Möglichkeiten sind endlos, und Ihre Entwürfe werden von Ihren Zielen und Ihrer visuellen Identität abhängen. Ziehen Sie in Erwägung, Ihre Vorlagen als Open Source zur Verfügung zu stellen. Das spart Zeit für andere Bitcoin-Gemeinschaften, die unweigerlich vor denselben Herausforderungen stehen wie Sie. Durch die gemeinsame Nutzung helfen Sie, das Wachstum von Bitcoin-Gemeinschaften überall zu beschleunigen.
-
-
-**Empfohlene Abmessungen**
-
-Prüfen Sie bei der Erstellung von Bildmaterial immer die Größenanforderungen für jede Plattform:
-
-
+**Empfohlene Abmessungen:**
+Prüfe bei der Erstellung von Bildmaterial immer die Größenanforderungen für jede Plattform:
 
 | Platform | Logo | Banner | Poster / Image
 | -------- | -------- | -------- | -------- |
@@ -687,59 +394,32 @@ Prüfen Sie bei der Erstellung von Bildmaterial immer die Größenanforderungen 
 | Facebook     | 512 x 512     | 851 x 315     | 960 x 720     |
 
 In der Regel geeignete Größen:
-
-Logos: 512 x 512 Pixel
-
-Banner: Variieren je nach App oder Website
-
-Plakate: A4 ist das Standarddruckformat
-
-
+- Logos: 512 x 512 Pixel
+- Banner: Variieren je nach App oder Website
+- Plakate: A4 ist das Standarddruckformat
 
 ### Einsatz künstlicher Intelligenz
 
+Canva bietet zwar eine breite Palette von Tools für die Erstellung von Logos, Postern, Bannern und Flyern, ist aber nicht die einzige Option. Wenn du mit anderer Software (wie Photoshop oder Illustrator) besser zurechtkommst, kannst du das verwenden, was für dich am besten geeignet ist.
 
+Ganz gleich, ob du ein Gemeindelogo entwirfst oder Plakate, Präsentationen oder Flyer verbessern willst, **künstliche Intelligenz kann ein mächtiger Verbündeter sein, wenn es darum geht, einzigartiges und ansprechendes Bildmaterial zu erstellen**.
 
-Canva bietet zwar eine breite Palette von Tools für die Erstellung von Logos, Postern, Bannern und Flyern, ist aber nicht die einzige Option. Wenn Sie mit anderer Software (wie Photoshop oder Illustrator) besser zurechtkommen, können Sie das verwenden, was für Sie am besten geeignet ist.
-
-
-Ganz gleich, ob Sie ein Gemeindelogo entwerfen oder Plakate, Präsentationen oder Flyer verbessern wollen, **künstliche Intelligenz kann ein mächtiger Verbündeter sein, wenn es darum geht, einzigartiges und ansprechendes Bildmaterial zu erstellen**.
-
-
-
-Zu diesem Zweck gibt es eine Reihe von KI. Dazu gehören
-
-
-
-
+Zu diesem Zweck gibt es eine Reihe von KI-Tools. Dazu gehören
 - [midjourney](https://docs.midjourney.com/docs/quick-start) (bezahlt);
 - [leonardo](https://leonardo.ai/) (kostenlos, kontobeschränkt);
 - [copilot](https://copilot.microsoft.com/) (kostenlos, kontobeschränkt);
 - [DALL-E] (https://www.dall-efree.com/) (bezahlt).
 
-
 In letzter Zeit sind viele weitere KI-Tools aufgetaucht, so dass diese Liste bei weitem nicht vollständig ist.
 
-
-
 **Beispiel: Erstellung eines futuristischen Bitcoin London Logos**
+Wenn du ein futuristisches Logo für ein "Bitcoin London"-Treffen entwerfen willst, könnest du Copilot fragen:
 
-Wenn Sie ein futuristisches Logo für ein "Bitcoin London"-Treffen entwerfen wollen, können Sie Copilot fragen:
-
-
-
-- [ ] *Aufforderung: Entwerfen Sie ein Bitcoin-Logo mit der London Bridge und Big Ben im Hintergrund. Futuristisch* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
-
-
+- [ ] *Aufforderung: Entwerfe ein Bitcoin-Logo mit der London Bridge und Big Ben im Hintergrund. Futuristisch* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
 
 ![image](assets/de/014.webp)
 
-
-
-Wenn die ersten vier Ergebnisse nicht realistisch genug sind, verfeinern Sie Ihre Anfrage:
-
-
-
+Wenn die ersten vier Ergebnisse nicht realistisch genug sind, verfeinere deine Anfrage:
 
 - [ ] *Aufforderung: Mach die 4. viel realistischer* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
 
@@ -747,52 +427,25 @@ Wenn die ersten vier Ergebnisse nicht realistisch genug sind, verfeinern Sie Ihr
 
 ![image](assets/de/015.webp)
 
-
-
-Das neueste Ergebnis ist großartig!
-
-
+Das letzte Ergebnis ist großartig!
 
 **Beispiel: Erstellung eines einfachen Logos im britischen Stil**
-
 Für ein saubereres Aussehen, wie bei einem Aufkleber:
 
-
-
-- [ ] *Aufforderung: Erstellen Sie das Logo des "London Bitcoin Meetup" mit einem britischen und sauberen Stil* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
-
-
+- [ ] *Aufforderung: Erstelle das Logo des "London Bitcoin Meetup" mit einem britischen und sauberen Stil* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
 
 ![image](assets/de/016.webp)
 
-
-
 Das Ergebnis sieht wirklich cool aus!
 
+**Tipps für die Arbeit mit AI:**
+- Habe Geduld: Es kann sein, dass die KI nicht gleich beim ersten Versuch genau das produziert, was du dir vorstellst.
+- Verwende präzise Aufforderungen: Je klarer und detaillierter deine Anweisungen sind, desto besser sind die Ergebnisse.
+- Bitte um Hilfe: Wenn du nicht zufrieden bist, wende dich an jemanden, der Erfahrung mit Grafikdesign oder KI-Tools hat. Viele Bitcoiner helfen gerne, manchmal sogar kostenlos oder für ein paar Sats.
 
-
-**Tipps für die Arbeit mit AI**
-
-
-
-- Haben Sie Geduld: Es kann sein, dass die KI nicht gleich beim ersten Versuch genau das produziert, was Sie sich vorstellen.
-
-
-
-- Verwenden Sie präzise Aufforderungen: Je klarer und detaillierter Ihre Anweisungen sind, desto besser sind die Ergebnisse.
-
-
-
-- Bitten Sie um Hilfe: Wenn Sie nicht zufrieden sind, wenden Sie sich an jemanden, der Erfahrung mit Grafikdesign oder KI-Tools hat. Viele Bitcoiner helfen gerne, manchmal sogar kostenlos oder für ein paar Sats.
-
-
-
-# Schaffung von Kommunikationskanälen für Ihre Bitcoin-Community
-
+# Schaffung von Kommunikationskanälen für deine Bitcoin-Community
 
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
-
-
 
 ## Welche Kommunikationskanäle sollten Sie wählen?
 

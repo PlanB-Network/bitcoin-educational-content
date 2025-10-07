@@ -715,20 +715,20 @@ Refleksja ta skłania nas do zakwestionowania sztywności tradycyjnej definicji 
 
 Ile jest w sumie przypadków hiperinflacji?
 
-Powszechne definicje hiperinflacji, takie jak ta przedstawiona przez Kagana określająca miesięczną stopę inflacji na poziomie 50%, mogą być czasami mylące lub nadmiernie uproszczone. Na przykład, dwa kraje doświadczające odpowiednio rocznych stóp inflacji na poziomie 1000% i 3000% mogą być postrzegane inaczej w zależności od miesięcznego rozkładu tej inflacji. Jeśli żaden miesiąc nie przekroczy progu 50%, zgodnie z definicją Kagana, kraje te nie będą w stanie hiperinflacji. Takie podejście może zatem prowadzić do anomalii w klasyfikacji hiperinflacji, zwłaszcza przy porównywaniu skumulowanych inflacji w ciągu roku.
+Powszechne definicje hiperinflacji, takie jak ta przedstawiona przez Cagana określająca miesięczną stopę inflacji na poziomie 50%, mogą być czasami mylące lub nadmiernie uproszczone. Na przykład, dwa kraje doświadczające odpowiednio rocznych stóp inflacji na poziomie 1000% i 3000% mogą być postrzegane inaczej w zależności od miesięcznego rozkładu tej inflacji. Jeśli żaden miesiąc nie przekroczy progu 50%, zgodnie z definicją Cagana, kraje te nie będą w stanie hiperinflacji. Takie podejście może zatem prowadzić do anomalii w klasyfikacji hiperinflacji, zwłaszcza przy porównywaniu skumulowanych inflacji w ciągu roku.
 
 
 ![image](assets/fr/038.webp)
 
 
 
-- Praca Kagana "Monetary Dynamics of Hyperinflation", która zawiera fundamentalną analizę hiperinflacji.
-- Książka Bernolda, która bada 30 różnych okresów hiperinflacji, rozszerzając w ten sposób zakres analizy.
+- Praca Cagana "Monetary Dynamics of Hyperinflation", która zawiera fundamentalną analizę hiperinflacji.
+- Książka Bernholza, która bada 30 różnych okresów hiperinflacji, rozszerzając w ten sposób zakres analizy.
 - Osobista kolekcja banknotów Davida z 36 okresów hiperinflacji pozwala na namacalne i historyczne zrozumienie.
-- Tabela Hanky'ego Crossa (wersja z 2012 r., zaktualizowana w 2016 r. o Wenezuelę), zawierająca 57 okresów hiperinflacji w oparciu o definicję Kagana.
+- Tabela Hanky'ego Crossa (wersja z 2012 r., zaktualizowana w 2016 r. o Wenezuelę), zawierająca 57 okresów hiperinflacji w oparciu o definicję Cagana.
 
 
-Należy zauważyć, że niektóre historyczne okresy wysokiej inflacji nie są uwzględniane w klasycznych tabelach hiperinflacji, często ze względu na surowe kryteria klasyfikacji. Na przykład podczas amerykańskiej wojny o niepodległość w listopadzie 1779 r. i podczas amerykańskiej wojny secesyjnej w marcu 1864 r. miesięczne stopy inflacji wyniosły odpowiednio 47,4% i 40%. Wskaźniki te, choć wysokie, nie przekraczają progu 50% określonego przez Kagana, wykluczając tym samym te okresy z klasyfikacji jako przypadki hiperinflacji. To pominięcie ilustruje ograniczenia sztywnych definicji i podkreśla potrzebę bardziej zniuansowanego podejścia do zrozumienia hiperinflacji w całej jej złożoności.
+Należy zauważyć, że niektóre historyczne okresy wysokiej inflacji nie są uwzględniane w klasycznych tabelach hiperinflacji, często ze względu na surowe kryteria klasyfikacji. Na przykład podczas amerykańskiej wojny o niepodległość w listopadzie 1779 r. i podczas amerykańskiej wojny secesyjnej w marcu 1864 r. miesięczne stopy inflacji wyniosły odpowiednio 47,4% i 40%. Wskaźniki te, choć wysokie, nie przekraczają progu 50% określonego przez Cagana, wykluczając tym samym te okresy z klasyfikacji jako przypadki hiperinflacji. To pominięcie ilustruje ograniczenia sztywnych definicji i podkreśla potrzebę bardziej zniuansowanego podejścia do zrozumienia hiperinflacji w całej jej złożoności.
 
 
 ## Podobieństwa między Weimarem a Zimbabwe
@@ -1128,7 +1128,7 @@ Na slajdzie po lewej stronie znajdują się lata redenominacji, nazwa nowej walu
 ![image](assets/fr/052.webp)
 
 
-Po prawej stronie slajdu znajduje się wykres inflacji. Czerwone strzałki oznaczają lata hiperinflacji, zdefiniowanej zgodnie z kryterium Kagana jako stopa inflacji na poziomie 50% miesięcznie. Kryterium to może czasami prowadzić do niejednoznacznych interpretacji, z latami o wysokich stopach inflacji, ale niespełniającymi ścisłej definicji hiperinflacji.
+Po prawej stronie slajdu znajduje się wykres inflacji. Czerwone strzałki oznaczają lata hiperinflacji, zdefiniowanej zgodnie z kryterium Cagana jako stopa inflacji na poziomie 50% miesięcznie. Kryterium to może czasami prowadzić do niejednoznacznych interpretacji, z latami o wysokich stopach inflacji, ale niespełniającymi ścisłej definicji hiperinflacji.
 
 Należy zauważyć, że redenominacja w okresach inflacji jest powszechnym środkiem podejmowanym przez rządy. Nie rozwiązuje to jednak podstawowego problemu inflacji lub hiperinflacji. Jest to jedynie sposób na zmianę nazwy waluty i usunięcie zer, bez prawdziwego zajęcia się podstawową przyczyną hiperinflacji: ekspansją pieniądza Supply. W późniejszym wideo omówimy prawdziwe rozwiązania Address i rozwiążemy problem hiperinflacji. W tej serii podkreślimy konsekwencje prostej redenominacji bez odpowiednich reform: inflacja utrzymuje się.
 
@@ -1277,7 +1277,7 @@ Podsumowując, hiperinflacja to tylko jeden z aspektów wyzwań gospodarczych. S
 ### Jak zakończyć umiarkowaną i wysoką inflację
 
 
-Wspomniane wnioski pochodzą z książki "Monetary Regime and Inflation" autorstwa Bernolda. Według Bernolda jedyną metodą na zakończenie inflacji jest przeprowadzenie reformy monetarnej i nałożenie ograniczeń na rząd. Ograniczenia te obejmują ustanowienie instytucji, takiej jak bank centralny, która działa niezależnie od decyzji politycznych rządu. Wysoka i hiperinflacja są często wynikiem finansowania deficytów budżetowych poprzez kreację pieniądza. Aby Address złagodzić inflację, konieczne jest zmniejszenie wzrostu pieniądza Supply. Bernold sugeruje również, że ten wzrost monetarny powinien być względny w stosunku do krajów sąsiednich. Zaskakujące jest to, że w okresach wysokiej lub hiperinflacji całkowita wartość pieniądza Supply może faktycznie spaść. Uderzającym przykładem takiej sytuacji jest Zimbabwe.
+Wspomniane wnioski pochodzą z książki "Monetary Regime and Inflation" autorstwa Bernholza. Według Bernholza jedyną metodą na zakończenie inflacji jest przeprowadzenie reformy monetarnej i nałożenie ograniczeń na rząd. Ograniczenia te obejmują ustanowienie instytucji, takiej jak bank centralny, która działa niezależnie od decyzji politycznych rządu. Wysoka i hiperinflacja są często wynikiem finansowania deficytów budżetowych poprzez kreację pieniądza. Aby Address złagodzić inflację, konieczne jest zmniejszenie wzrostu pieniądza Supply. Bernholz sugeruje również, że ten wzrost monetarny powinien być względny w stosunku do krajów sąsiednich. Zaskakujące jest to, że w okresach wysokiej lub hiperinflacji całkowita wartość pieniądza Supply może faktycznie spaść. Uderzającym przykładem takiej sytuacji jest Zimbabwe.
 
 
 ### Kontrintuicyjne rozwiązania
@@ -1286,10 +1286,10 @@ Wspomniane wnioski pochodzą z książki "Monetary Regime and Inflation" autorst
 Podczas badania Zimbabwe zauważono, że 10 bilionów jednostek pieniądza Supply straciło całą swoją wartość. W Weimarze możliwe było wydrukowanie dwóch trzecich całkowitej wartości nominalnej 65 miliardów jednostek pieniądza Supply w ciągu jednego dnia. To pokazuje, jak można zdewaluować pieniądze Supply. Aby zaradzić tej sytuacji, konieczne jest znaczne zwiększenie Supply, aby osiągnąć odpowiedni poziom. Wówczas niezbędna jest reforma monetarna. W sytuacji wysokiej inflacji reforma ta jest nieunikniona, ale musi zapewnić wystarczającą ilość pieniędzy w obiegu. Po tym kroku można nałożyć ograniczenia na rząd.
 
 
-Zgodnie z obserwacjami Bernolda, jeśli chodzi o rozwiązywanie problemów inflacyjnych, instytucje takie jak MFW i Bank Światowy nie zawsze przyjmują właściwą strategię. W niektórych przypadkach, gdy kraj musi zwiększyć swój Supply pieniądza, instytucje te starają się go zmniejszyć. Kluczem jest osiągnięcie odpowiedniego poziomu pieniądza, a następnie nałożenie ograniczeń na jego wzrost, unikając w ten sposób finansowania wydatków rządowych poprzez kreację pieniądza.
+Zgodnie z obserwacjami Bernholza, jeśli chodzi o rozwiązywanie problemów inflacyjnych, instytucje takie jak MFW i Bank Światowy nie zawsze przyjmują właściwą strategię. W niektórych przypadkach, gdy kraj musi zwiększyć swój Supply pieniądza, instytucje te starają się go zmniejszyć. Kluczem jest osiągnięcie odpowiedniego poziomu pieniądza, a następnie nałożenie ograniczeń na jego wzrost, unikając w ten sposób finansowania wydatków rządowych poprzez kreację pieniądza.
 
 
-Interesującym aspektem poruszonym przez Bernolda jest to, że sukces reformy monetarnej zależy nie tylko od jej technicznego znaczenia, ale także od zaufania, jakim darzy ją społeczeństwo. Niektóre dobrze zaprojektowane reformy mogą zakończyć się niepowodzeniem, ponieważ społeczeństwo im nie ufa, podczas gdy inne, źle zaprojektowane, mogą odnieść sukces, ponieważ społeczeństwo im ufa. Percepcja i zaufanie społeczne są zatem kluczowymi Elements w powodzeniu lub porażce reformy monetarnej.
+Interesującym aspektem poruszonym przez Bernholza jest to, że sukces reformy monetarnej zależy nie tylko od jej technicznego znaczenia, ale także od zaufania, jakim darzy ją społeczeństwo. Niektóre dobrze zaprojektowane reformy mogą zakończyć się niepowodzeniem, ponieważ społeczeństwo im nie ufa, podczas gdy inne, źle zaprojektowane, mogą odnieść sukces, ponieważ społeczeństwo im ufa. Percepcja i zaufanie społeczne są zatem kluczowymi Elements w powodzeniu lub porażce reformy monetarnej.
 
 
 

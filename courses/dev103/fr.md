@@ -38,7 +38,7 @@ Ce cours est conçu pour les personnes qui sont complètement novices en program
 
 
 
-Un programme JavaScript n'est qu'un ensemble de (un ou plusieurs) fichiers texte contenant des commandes à exécuter par un moteur d'exécution JavaScript.
+Un programme JavaScript est simplement un ensemble de (un ou plusieurs) fichiers texte contenant des commandes à exécuter par un moteur d'exécution JavaScript.
 
 
 Les noms de ces fichiers texte se terminent généralement par une extension de fichier `.js`, comme `mon_script.js`, `mon_programme.js`, etc.
@@ -89,7 +89,7 @@ Cela signifie que vous pouvez, par exemple, écrire un jeu vidéo simple en Java
 ### Premier programme (hello world)
 
 
-Traditionnellement, lorsqu'on étudie un langage de programmation, le premier programme que l'on écrit consiste à imprimer "hello world !" sur la console.
+Traditionnellement, lorsqu'on étudie un langage de programmation, le premier programme que l'on écrit consiste à afficher "hello world !" sur la console.
 
 
 Créez un répertoire appelé `my_js_code/`, avec à l'intérieur un fichier appelé `main.js` (ces noms sont arbitraires).
@@ -98,7 +98,7 @@ Créez un répertoire appelé `my_js_code/`, avec à l'intérieur un fichier app
 Ouvrez le répertoire avec votre éditeur de code.
 
 
-Inscrivez ce code dans votre fichier :
+Ecrivez ce code dans votre fichier :
 
 
 ```javascript
@@ -122,7 +122,7 @@ hello world!
 ```
 
 
-### Ce qui s'est passé
+### Ce qu'il s'est passé
 
 
 En JavaScript, tout est un "objet".
@@ -134,10 +134,10 @@ En JavaScript, tout est un "objet".
 `console.log` est la méthode la plus utilisée de la `console`. Elle affiche simplement les arguments que vous lui passez.
 
 
-Vous passez des arguments à `console.log` en utilisant les crochets ronds `()`.
+Vous passez des arguments à `console.log` en utilisant les parenthèses `()`.
 
 
-Ainsi, par exemple, si vous voulez imprimer le nombre `1000`, il vous suffit d'écrire
+Ainsi, par exemple, si vous voulez afficher le nombre `1000`, il vous suffit d'écrire :
 
 
 ```javascript
@@ -156,7 +156,7 @@ node main.js
 dans votre terminal (à partir de maintenant, ce cours supposera que vous savez que c'est ainsi que vous exécutez un programme).
 
 
-Cela devrait se traduire par l'impression suivante
+Cela devrait afficher 
 
 
 ```
@@ -164,7 +164,7 @@ Cela devrait se traduire par l'impression suivante
 ```
 
 
-Vous pouvez transmettre plusieurs éléments, comme
+Vous pouvez passer plusieurs éléments en arguments, comme
 
 
 ```javascript
@@ -172,7 +172,7 @@ console.log(16, 8, 1993)
 ```
 
 
-Ceci imprimera
+Ceci affichera
 
 
 ```
@@ -191,7 +191,7 @@ Les programmes exécutent généralement des opérations sur des données.
 Les variables sont comme des boîtes nommées que nous utilisons pour stocker des données. Elles nous permettent d'associer un élément de données à un nom spécifique, de sorte que nous puissions le retrouver plus tard en utilisant ce nom.
 
 
-### déclarations `let
+### déclarations `let`
 
 
 Pour déclarer une variable en JavaScript, on peut utiliser le mot-clé `let`.
@@ -210,13 +210,13 @@ console.log(age)
 ```
 
 
-Le nom d'une variable (techniquement appelé "identificateur") peut généralement contenir des lettres, des traits de soulignement (`_`), le signe du dollar (`$`) et des chiffres, bien que le premier caractère ne puisse pas être un chiffre.
+Le nom d'une variable (techniquement appelé "identifiant") peut généralement contenir des lettres, des tirets bas (`_`), le symbole dollar (`$`) et des chiffres, bien que le premier caractère ne puisse pas être un chiffre.
 
 
 Dans le code ci-dessus, nous avons déclaré une variable appelée `age` et y avons stocké la valeur `25`.
 
 
-Ensuite, nous avons imprimé la valeur en utilisant `console.log(age)`.
+Ensuite, nous avons affiché sa valeur en utilisant `console.log(age)`.
 
 
 Si vous exécutez ce code avec `node main.js`, la sortie sera :
@@ -227,7 +227,7 @@ Si vous exécutez ce code avec `node main.js`, la sortie sera :
 ```
 
 
-Les identificateurs sont sensibles à la casse, ce qui signifie que les minuscules et les majuscules comptent comme des différences dans les identificateurs
+Les noms de variables sont sensibles à la casse, ce qui signifie que les minuscules et les majuscules sont considérés comme des caractères différents. Par exemple
 
 
 ```javascript
@@ -239,7 +239,7 @@ console.log(age)
 ```
 
 
-imprimera 25, car il s'agit de deux variables complètement distinctes !
+affichera 25, car il s'agit de deux variables complètement distinctes !
 
 
 Vous pouvez également stocker des chaînes de caractères (texte) dans une variable :
@@ -252,7 +252,7 @@ console.log(message)
 ```
 
 
-Ce message s'imprimera :
+Ceci s'affichera :
 
 
 ```
@@ -277,7 +277,7 @@ console.log(message)
 ```
 
 
-L'exécution de cette opération entraînera l'impression d'un message :
+L'exécution de ce programme provoquera l'affichage de :
 
 
 ```
@@ -305,10 +305,10 @@ console.log(score)
 ```
 
 
-Tout d'abord, nous assignons `10` à `score`, puis nous l'imprimons.
+Tout d'abord, nous assignons `10` à `score`, puis nous l'affichons.
 
 
-Ensuite, nous changeons la valeur de `score` en `15` et nous l'imprimons à nouveau.
+Ensuite, nous changeons la valeur de `score` en `15` et nous l'affichons à nouveau.
 
 
 Le résultat sera le suivant :
@@ -320,7 +320,7 @@ Le résultat sera le suivant :
 ```
 
 
-Cette fonction est très utile lorsque la valeur change avec le temps, comme dans un jeu où le score augmente.
+C'est très utile lorsque la valeur change avec le temps, comme dans un jeu où le score augmente.
 
 
 Ajoutons une autre variable au mélange :
@@ -341,7 +341,7 @@ console.log(player)
 ```
 
 
-Ce message s'imprimera :
+Ce message s'affichera :
 
 
 ```
@@ -355,7 +355,7 @@ Bob
 Comme vous pouvez le voir, `score` et `player` ont été modifiés.
 
 
-### déclarations `const` (en français dans le texte)
+### déclarations `const`
 
 
 La plupart du temps, nous ne voulons pas qu'une variable change après sa création. Pour cela, nous utilisons `const`.
@@ -370,7 +370,7 @@ console.log(pi)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -385,12 +385,12 @@ Mais si vous essayez de le faire :
 const pi = 3.14
 console.log(pi)
 
-pi = 99 // this line will cause an error
+pi = 99 // cette ligne provoquera une erreur
 console.log(pi)
 ```
 
 
-JavaScript vous donnera une erreur comme :
+JavaScript vous renverra une erreur comme :
 
 
 ```
@@ -401,10 +401,10 @@ TypeError: Assignment to constant variable.
 C'est parce que `pi` a été déclaré en utilisant `const`, et vous ne pouvez pas changer sa valeur après cela. Vous communiquez à l'interpréteur JavaScript que vous ne voulez pas que cette variable change.
 
 
-C'est utile parce que cela réduit les risques de modification par erreur. Lorsque les programmes deviennent très volumineux, avec des milliers de lignes de code, il est impossible de suivre tout ce qui se passe en même temps (c'est la principale raison pour laquelle nous utilisons des ordinateurs, pour exécuter des processus complexes que nous ne pouvons pas calculer avec notre cerveau), il devient donc utile d'avoir des restrictions comme celle-ci, qui rendent le programme plus déterministe.
+C'est utile car cela réduit les risques de modification par erreur. Lorsque les programmes deviennent très volumineux, avec des milliers de lignes de code, il est impossible de suivre tout ce qu'il se passe en même temps (c'est la principale raison pour laquelle nous utilisons des ordinateurs, pour exécuter des processus complexes que nous ne pouvons pas calculer avec notre cerveau), il devient donc utile d'avoir des restrictions comme celle-ci, qui rendent le programme plus déterministe.
 
 
-La meilleure pratique consiste à toujours déclarer nos valeurs comme `const`, à moins que nous ne soyons sûrs de vouloir les modifier plus tard.
+Il est considéré comme bonne pratique de toujours déclarer nos variables comme `const`, à moins que nous ne soyons sûrs de vouloir les modifier plus tard.
 
 
 ### Commentaires en JavaScript
@@ -420,13 +420,13 @@ Pour écrire un commentaire d'une seule ligne, utilisez `//`
 
 
 ```javascript
-// This is a comment
-const x = 10 // This is also a comment
+// Ceci est un commentaire
+const x = 10 // Ceci est aussi un commentaire
 console.log(x)
 ```
 
 
-L'impression se fera quand même :
+Cela affichera toujours :
 
 
 ```
@@ -442,15 +442,15 @@ Vous pouvez également écrire des commentaires sur plusieurs lignes en utilisan
 
 ```javascript
 /*
-This is a multi-line comment.
-It can span several lines.
+Ceci est un commentaire multiligne.
+Il peut s'étendre sur plusieurs lignes.
 */
 const y = 20
 console.log(y)
 ```
 
 
-Ceci imprimera
+Ceci affichera
 
 
 ```
@@ -481,13 +481,13 @@ Javascript a quelques types de base, et dans cette section nous allons explorer 
 Le premier type que nous allons introduire est `number`.
 
 
-Les nombres en JavaScript peuvent être des entiers (comme `5`) ou des décimales (comme `3.14`).
+Les nombres en JavaScript peuvent être des entiers (comme `5`) ou des décimaux (comme `3.14`).
 
 
 Ils permettent de faire de l'arithmétique : addition, soustraction, multiplication et division.
 
 
-Voici un exemple de base :
+Voici un exemple basique :
 
 
 ```javascript
@@ -506,7 +506,7 @@ console.log(quotient)
 ```
 
 
-Ce message s'imprimera :
+Cela affichera :
 
 
 ```
@@ -526,7 +526,7 @@ console.log(result)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -543,7 +543,7 @@ console.log(result)
 ```
 
 
-Cela s'imprimerait :
+Cela afficherait :
 
 
 ```
@@ -571,7 +571,7 @@ console.log(name)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -593,7 +593,7 @@ console.log(fullGreeting)
 ```
 
 
-Ce message s'imprimera :
+Ceci affichera :
 
 
 ```
@@ -601,7 +601,7 @@ hello Bob
 ```
 
 
-Mais il existe une façon plus agréable de combiner des chaînes de caractères appelée **interpolation de chaînes**. Vous utilisez des antisèches pour déclarer la chaîne `` `...` ` et vous écrivez des variables en utilisant `${...}` à l'intérieur de la chaîne :
+Mais il existe une façon plus agréable de combiner des chaînes de caractères appelée **interpolation de chaînes**. Vous utilisez des accent graves pour déclarer la chaîne `` `...` `` et vous écrivez des variables en utilisant `${...}` à l'intérieur de la chaîne :
 
 
 ```javascript
@@ -613,7 +613,7 @@ console.log(fullGreeting)
 ```
 
 
-Il s'imprime également :
+Ceci affiche également :
 
 
 ```
@@ -630,7 +630,7 @@ console.log(`Next year, I will be ${age + 1} years old.`)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -662,7 +662,7 @@ console.log(thisCourseIsBad)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -744,7 +744,7 @@ Un **tableau** est un type qui peut contenir plusieurs valeurs dans une liste.
 Vous créez un tableau en utilisant des crochets `[]` et en séparant les éléments par des virgules.
 
 
-Voici un exemple de base :
+Voici un exemple basique :
 
 
 ```javascript
@@ -753,7 +753,7 @@ console.log(numbers)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -770,7 +770,7 @@ console.log(things)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -806,7 +806,7 @@ console.log(colors[2])
 ```
 
 
-Ce message s'imprimera :
+Cela affichera :
 
 
 ```
@@ -828,7 +828,7 @@ console.log(colors)
 ```
 
 
-Ce message s'imprimera :
+Ce message s'affichera :
 
 
 ```
@@ -847,7 +847,7 @@ console.log(colors[i])
 ```
 
 
-Ce message s'imprimera :
+Ceci affichera :
 
 
 ```
@@ -864,7 +864,7 @@ console.log(colors[3])
 ```
 
 
-Cette empreinte :
+Ce message s'affiche :
 
 
 ```
@@ -890,7 +890,7 @@ console.log(name)
 ```
 
 
-Cette empreinte :
+Ceci s'affiche :
 
 
 ```
@@ -910,7 +910,7 @@ console.log(fruits[2]) // There is no index 2
 ```
 
 
-Cette empreinte :
+Ceci s'affiche :
 
 
 ```
@@ -936,7 +936,7 @@ console.log(currentUser)
 ```
 
 
-Cette empreinte :
+Affiche :
 
 
 ```
@@ -957,7 +957,7 @@ console.log(winner)
 ```
 
 
-Cette empreinte :
+Ceci s'affiche :
 
 
 ```
@@ -982,16 +982,16 @@ Mais lorsque nous codons, nous pouvons contrôler l'ordre d'exécution.
 C'est ce qu'on appelle le **flux de contrôle**.
 
 
-Commençons par comprendre ce que sont les blocs et le champ d'application.
+Commençons par comprendre ce que sont les blocs et la portée.
 
 
-### Le champ d'application mondial
+### Le portée globale
 
 
-Chaque variable que nous déclarons existe dans un **scope**, c'est-à-dire la région du code où la variable est connue.
+Chaque variable que nous déclarons existe dans un **scope**, ou **portée**, c'est-à-dire la région du code où la variable est connue. 
 
 
-Si vous déclarez une variable en dehors de tout bloc, elle existe dans la **portée globale**.
+Si vous déclarez une variable en dehors de tout bloc, elle existe dans le **scope globale**.
 
 
 ```javascript
@@ -1016,7 +1016,7 @@ console.log(size)
 ```
 
 
-Les variables `color` et `size` sont des variables globales. Elles sont disponibles partout dans le fichier.
+Alors les variables `color` et `size` sont des variables globales. Elles sont disponibles partout dans le fichier.
 
 
 Mais que se passe-t-il à l'intérieur d'un bloc ?
@@ -1039,7 +1039,7 @@ console.log(message)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1092,7 +1092,7 @@ console.log("Yes I am!")
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -1119,7 +1119,7 @@ console.log("Yes I am!")
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -1143,7 +1143,7 @@ console.log("No, I am not.")
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -1173,7 +1173,7 @@ console.log("No, I am not.")
 }
 ```
 
-Il s'imprime toujours :
+Cela affiche toujours :
 
 
 ```
@@ -1190,10 +1190,12 @@ Parce que nous avons utilisé l'opérateur `!` pour inverser la variable `adult`
 En utilisant des blocs, des opérateurs logiques et des opérateurs de comparaison, nous pouvons structurer l'exécution du programme en définissant des variables qui doivent être "vraies" (ou "fausses") pour que quelque chose se produise.
 
 
-### `pendant`, `interrompre`, `continuer`
+### `while`, `break`, `continue`
 
 
-Une boucle `while` répète le code *tant qu'une condition est vraie*.
+
+Une boucle `while` répète le code *tant* qu'une condition est vraie.
+
 
 
 ```javascript
@@ -1207,7 +1209,7 @@ console.log("the loop is over!")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1218,26 +1220,26 @@ the loop is over!
 ```
 
 
-Lorsque `count` devient 3, la boucle s'arrête.
+Lorsque `count` devient égal à 3, la boucle s'arrête.
 
 
 Vous pouvez arrêter une boucle plus tôt en utilisant `break` :
 
 
 ```javascript
-let number = 1 // Start with number 1
+let number = 1 // On commence avec number égale à 1
 
-while (true) { // This condition is always true, so this loop will run forever unless we stop it
-console.log(number) // Print the current number
-if (number === 3) { // If the number is 3, stop the loop
+while (true) { // Cette condition est toujour vraie, donc cette boucle tourne indéfiniment, sauf si nous la stoppons
+console.log(number) // Affiche la valeur actuelle de la variable number
+if (number === 3) { // Si la variable vaut 3, termine la boucle avec le mot clé break
 break
 }
-number = number + 1 // Add 1 to the number
+number = number + 1 // Ajoute 1 à la variable number
 }
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1247,28 +1249,28 @@ Cette empreinte :
 ```
 
 
-En effet, lorsque le nombre devient `3`, le bloc `if` est exécuté et la boucle s'arrête.
+En effet, lorsque la variable `number` devient égale à `3`, le bloc `if` est exécuté et la boucle s'arrête.
 
 
 Vous pouvez sauter le reste d'une boucle en utilisant `continue` :
 
 
 ```javascript
-let number = 0 // Start with number 0
+let number = 0 // On commence avec number égale à 0
 
-while (number < 5) { // Keep going while number is less than 5
-number = number + 1 // Add 1 to the number
+while (number < 5) { // On continue tant que number est inférieur à 5
+number = number + 1 // Ajoute 1 à la variable number
 
-if (number === 3) { // If the number is 3
-continue // Skip the rest of the block and go to the next iteration of the loop
+if (number === 3) { // Si la variable number vaut 3
+continue // Ignore le reste du bloc et retourne au début du while pour la prochaine itération
 }
 
-console.log(number) // Print the number
+console.log(number) // Affiche la variable number
 }
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1279,10 +1281,10 @@ Cette empreinte :
 ```
 
 
-Parce que lorsque le nombre était `3`, `continue` a fait sauter au programme la ligne qui imprime le nombre.
+Parce que lorsque `number` valait `3`, l'instruction `continue` a eu pour effet d'ignorer tout le reste du bloc, y compris la ligne qui affiche cette variable, et de recommencer une nouvelle itération.
 
 
-### `pour ... de ...`
+### `for ... of ...`
 
 
 Si vous avez un tableau et que vous voulez faire quelque chose à chacun de ses éléments, vous pouvez utiliser `for ... of ... {...}`.
@@ -1297,7 +1299,7 @@ console.log(fruit)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1312,10 +1314,10 @@ Le bloc sera exécuté une fois pour chaque élément du tableau.
 `fruit` est une nouvelle variable qui prend la valeur de chaque élément du tableau, pour opérer sur lui à l'intérieur du bloc.
 
 
-### `pour ... en ...`
+### `for ... in ...`
 
 
-Vous pouvez utiliser `for ... in` pour boucler sur les clés (index) d'un tableau :
+Vous pouvez utiliser `for ... in` pour itérer sur les clés (index) d'un tableau :
 
 
 ```javascript
@@ -1327,7 +1329,7 @@ console.log(index)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1349,7 +1351,7 @@ console.log(fruits[index])
 ```
 
 
-L'impression est la même que celle de `for ... of` :
+L'affichage est le même que celui de `for ... of` :
 
 
 ```
@@ -1365,7 +1367,7 @@ En pratique, pour les tableaux, vous devriez préférer utiliser `for ... of`, c
 ### Boucles délimitées
 
 
-Parfois, nous voulons boucler un nombre spécifique de fois, ou en général écrire un morceau de code qui répète un bloc tout en gardant la trace de quelque chose.
+Parfois, nous voulons itérer un nombre spécifique de fois, ou en général écrire un morceau de code qui répète un bloc tout en gardant la trace de quelque chose.
 
 C'est à cela que sert une boucle "for" délimitée.
 
@@ -1379,7 +1381,7 @@ console.log(i)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1394,7 +1396,7 @@ Expliquons-le :
 
 
 - `let i = 0` : déclare une variable à utiliser dans le bloc (dans ce cas, il s'agit d'un compteur qui commence à 0)
-- `i < 3` : déclare une condition qui doit être `vraie` pour que le bloc soit exécuté (dans ce cas, il s'agit de "répéter pendant que `i` est inférieur à 3")
+- `i < 3` : déclare une condition qui doit être `vraie` pour que le bloc soit exécuté (dans ce cas, il s'agit de "répéter tant que `i` est inférieur à 3")
 - `i = i + 1` : déclarer un code à exécuter après chaque exécution du bloc (dans ce cas "augmenter `i` de 1")
 
 
@@ -1426,7 +1428,7 @@ console.log("Done")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1443,10 +1445,10 @@ Vous pouvez également étiqueter les boucles. Prenons cet exemple :
 
 
 ```javascript
-// Declare a variable to count the total number of days in a year
+// Déclare une variable pour compter le nombre total de jour dans une année
 let totalDaysInOneYear = 0
 
-// Declare one variable per month, with the number of the month
+// Déclare une variable pour chaque mois, valant le numéro du mois
 const january = 1
 const february = 2
 const march = 3
@@ -1460,45 +1462,45 @@ const october = 10
 const november = 11
 const december = 12
 
-// Declare an array that holds the months that have 30 days
+// Déclare un tableau qui contient les mois ayant 30 jours
 const monthsWith30Days = [
 april, june, september, november
 ]
 
-// Declare variables to keep track of the month and day we're in
+// Déclare des variables pour connaitre le jour et le mois actuels
 let currentMonth = january
 let currentDay = 1
 
-monthsLoop: while (true) {  // Start a loop labeled "monthsLoop" to process each month
+monthsLoop: while (true) {  // Commence une boucle labellisée "monthsLoop" pour traiter chaque mois
 
-daysLoop: while (true) {  // Start a loop labeled "daysLoop" to process each day in the month
-totalDaysInOneYear = totalDaysInOneYear + 1  // Increase the total number of days we counted by 1
+daysLoop: while (true) {  // Commence une boucle labellisée "daysLoop" pour traiter chaque jour du mois
+totalDaysInOneYear = totalDaysInOneYear + 1  // Augmente le nombre total de jours par 1
 
-if (                                                                   // We want to check if we're at the end of the month.
-currentDay === 31                                                  // Check if the current day is 31 (for months with 31 days)...
-|| currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...or 30 if it's among the 30-days months...
-|| currentDay === 28 && (currentMonth === february)                // ...or 28 if it's February. If it's any of these three, then:
+if (                                                                   // Nous voulons vérifier que nous sommes à la fin du mois.
+currentDay === 31                                                  // Vérifie si le jour courant est le 31 (pour les mois de 31 jours)...
+|| currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...ou 30 s'il fait parti des mois à 30 jours...
+|| currentDay === 28 && (currentMonth === february)                // ...ou 28 si c'est le mois de Février. S'il est l'un d'eux, alors :
 
 ){
-currentMonth = currentMonth + 1  // Move to the next month
-currentDay = 1                   // Reset the day to 1 for the new month
-break daysLoop                   // Exit the inner loop (which tracks days) and go back to the outer loop (which tracks months)
+currentMonth = currentMonth + 1  // On passe au mois suivant
+currentDay = 1                   // Réinitialise le jour courant à 1 pour le nouveau mois
+break daysLoop                   // Quite la boucle interne (laquel traite des jours) et retourne dans la boucle externe (qui traite les mois)
 }
-else { currentDay = currentDay + 1 }                                   // Otherwise, we're not at the end of the month, and we just move to the next day
+else { currentDay = currentDay + 1 }                                   // Sinon, nous ne sommes pas à la fin du mois, et nous continuons vers le prochain jour
 
 }
-if (currentMonth > 12) {  // After processing a month, check if we've gone past December
-break monthsLoop  // If so, break the outer loop and stop the day-counting process
+if (currentMonth > 12) {  // Après avoir traité un mois, on vérifie si on est passé le mois de Décembre
+break monthsLoop  // Si c'est le cas, on quitte la boucle externe et on arrête de compter les jours.
 }
 }
 
-console.log(totalDaysInOneYear)  // Print the total number of days in the year (should be 365)
+console.log(totalDaysInOneYear)  // Affiche le nombre totale de jour dans l'année (devrait être 365)
 ```
 
 Cet exemple était très ennuyeux, mais j'espère qu'il a permis de clarifier le besoin (occasionnel) d'étiquettes.
 
 
-## Introduction des fonctions
+## Présentation des fonctions
 
 <chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
 
@@ -1535,7 +1537,7 @@ sayHello()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1556,7 +1558,7 @@ sayHello()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1571,7 +1573,7 @@ Le code contenu dans la fonction ne s'exécute que lorsque vous l'appelez.
 ### Arguments de fonction (entrée des fonctions)
 
 
-Parfois, vous souhaitez qu'une fonction fonctionne avec une entrée. Vous pouvez le faire en ajoutant des **arguments** à l'intérieur des parenthèses.
+Parfois, vous souhaitez qu'une fonction prenne des arguments en entrée. Vous pouvez le faire en ajoutant des **arguments** à l'intérieur des parenthèses.
 
 
 Par exemple :
@@ -1584,7 +1586,7 @@ console.log(`Hello ${friend}!`)
 ```
 
 
-Cette fonction prend **un argument** appelé `friend`.
+Cette fonction prend **un seul argument** appelé `friend`.
 
 
 Lorsque vous appelez la fonction, vous pouvez lui transmettre une valeur :
@@ -1595,7 +1597,7 @@ sayHelloTo("Tommy")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1611,7 +1613,7 @@ sayHelloTo("Sam")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1634,7 +1636,7 @@ greetTwoPeople("Lina", "Marco")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1661,7 +1663,7 @@ console.log(result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1669,7 +1671,7 @@ Cette empreinte :
 ```
 
 
-La fonction `getNumber()` renvoie `42`, et nous le stockons dans `result`, puis nous l'imprimons.
+La fonction `getNumber()` renvoie `42`, et nous le stockons dans `result`, puis nous l'affichons.
 
 
 Vous pouvez également renvoyer quelque chose que vous avez calculé :
@@ -1685,7 +1687,7 @@ console.log(result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1710,7 +1712,7 @@ console.log(message)
 ```
 
 
-Il s'agit d'une impression uniquement :
+Uniquement ceci s'affiche :
 
 
 ```
@@ -1766,7 +1768,7 @@ console.log(console)
 ```
 
 
-et il affichera une liste des méthodes qu'il contient. Par exemple, sur ma machine, il a imprimé
+et il affichera la liste des méthodes qu'il contient. Par exemple, sur ma machine, il a imprimé
 
 
 ```javascript
@@ -1834,7 +1836,7 @@ L'objet possède deux **propriétés** :
 - `age` avec la valeur `3`
 
 
-Imprimons-le :
+Affichons-le :
 
 
 ```javascript
@@ -1842,7 +1844,7 @@ console.log(cat)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1850,16 +1852,16 @@ Cette empreinte :
 ```
 
 
-Vous pouvez obtenir les propriétés de l'objet en utilisant un point, comme dans `objectName.propertyName` :
+Vous pouvez accéder aux propriétés de l'objet en utilisant un point, comme dans `objectName.propertyName` :
 
 
 ```javascript
-console.log(cat.name)  // prints "Whiskers"
-console.log(cat.age)   // prints 3
+console.log(cat.name)  // affiche "Whiskers"
+console.log(cat.age)   // affiche 3
 ```
 
 
-Vous pouvez également **modifier** un bien :
+Vous pouvez également **modifier** une propriété :
 
 
 ```javascript
@@ -1880,9 +1882,9 @@ name: "Whiskers",
 age: 3
 }
 
-cat.age = 5 // this works
+cat.age = 5 // Ceci fonctionne
 
-cat = 5 // this throws an error, you're trying to reassign the whole object
+cat = 5 // Ceci renvoie une erreur, nous essayons de modifier l'objet entièrement
 
 ```
 
@@ -1919,7 +1921,7 @@ cat.speak()
 ```
 
 
-Il imprime :
+Elle affiche :
 
 
 ```
@@ -1944,7 +1946,7 @@ cat.speak()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1956,13 +1958,13 @@ Le mot "this" signifie "cet objet"... dans ce cas, l'objet "chat".
 
 
 
-Ces types d'objets sont parfaits lorsque vous voulez quelque chose de simple et rapide. Mais si vous avez besoin de créer **plusieurs objets** avec la même structure, il y a une meilleure façon, et c'est là que les **classes** entrent en jeu.
+Ces types d'objets sont parfaits lorsque vous voulez quelque chose de simple et rapide. Mais si vous avez besoin de créer **plusieurs objets** avec la même structure, il y a une meilleure façon de procéder, et c'est là que les **classes** entrent en jeu.
 
 
 ### Classes et constructeurs
 
 
-Une **classe** est comme un plan. Elle indique à JavaScript comment créer un certain type d'objet.
+Une **classe** est comme un plan de construction d'un batiment. Elle indique à JavaScript comment créer un certain type d'objet.
 
 
 Vous définissez une classe en utilisant le mot-clé `class`, suivi du nom de la classe et d'un bloc d'accolades `{}`.
@@ -1973,10 +1975,10 @@ class Dog {}
 ```
 
 
-Par convention, les classes commencent par une lettre majuscule.
+Par convention, les noms des classes commencent par une lettre majuscule.
 
 
-Vous pouvez créer un nouvel objet d'une classe en utilisant `new` :
+Vous pouvez créer un nouvel objet, c'est à dire une instance d'une classe, en utilisant `new` :
 
 
 ```javascript
@@ -1984,7 +1986,7 @@ const hachiko = new Dog()
 ```
 
 
-Essayez d'imprimer l'objet :
+Essayez d'afficher l'objet :
 
 ```javascript
 class Dog {}
@@ -2029,7 +2031,7 @@ constructor(name) { }
 ```
 
 
-Ensuite, nous utilisons `this` pour déclarer que `name` est le `nom` de l'objet `Dog` que nous construisons
+Ensuite, nous utilisons `this` pour indiquer que `name` est le `nom` de l'objet `Dog` que nous construisons
 
 
 ```javascript
@@ -2097,7 +2099,7 @@ myDog.speak()
 ```
 
 
-Ceci imprimera
+Ceci affichera
 
 
 ```javascript
@@ -2151,10 +2153,10 @@ Lorsque nous appelons une méthode sur l'un de ces objets, elle opère sur les d
 ### Modifier la forme d'un objet
 
 
-Les objets en JavaScript sont flexibles. Même après en avoir créé un, vous pouvez encore ajouter de nouvelles propriétés ou en supprimer.
+Les objets en JavaScript sont assez flexibles. Même après en avoir créé un, vous pouvez encore ajouter de nouvelles propriétés ou en supprimer.
 
 
-Elle est autorisée, mais il convient de l'utiliser avec précaution.
+C'est autorisée, mais à utiliser avec précaution.
 
 
 Commençons par notre classe simple `Dog` :
@@ -2203,17 +2205,17 @@ Nous pouvons également supprimer des propriétés en utilisant le mot-clé `del
 ```javascript
 delete myDog.name
 
-console.log(myDog.name) // prints 'undefined'
+console.log(myDog.name) // affiche 'undefined'
 ```
 
 
-Cela fonctionne, mais il y a quelque chose d'important à savoir : Les moteurs JavaScript comme le V8 (utilisé dans Node.js et dans le navigateur Chrome) fonctionnent plus rapidement lorsque vos objets conservent toujours les mêmes propriétés. Si vous ajoutez ou supprimez des propriétés après la création de l'objet, cela peut ralentir les choses.
+Cela fonctionne, mais il y a quelque chose d'important à savoir : Les moteurs JavaScript comme le V8 (utilisé dans Node.js et dans le navigateur Chrome) fonctionnent plus rapidement lorsque vos objets conservent toujours les mêmes propriétés. Si vous ajoutez ou supprimez des propriétés après la création de l'objet, cela peut ralentir l'exécution du programme.
 
 
 Dans les petits programmes, cela n'a pas beaucoup d'importance. Mais dans les projets plus importants (comme les jeux), il est préférable de lister toutes les propriétés dans le constructeur dès le départ, même si vous ne les utilisez pas tout de suite. Cela permet de maintenir la forme de l'objet stable et d'accélérer l'exécution du code.
 
 
-Par exemple, au lieu de ceci :
+Par exemple, à la place de ceci :
 
 
 ```javascript
@@ -2229,7 +2231,7 @@ dog.breed = "Labrador"
 ```
 
 
-Vous pouvez faire
+Vous pouvez faire :
 
 
 ```javascript
@@ -2298,7 +2300,7 @@ La classe `Car` **hérite** maintenant de la classe `Vehicle`. Elle obtient la p
 ![](assets/en/004.webp)
 
 
-Essayons-le :
+Essayons-la :
 
 
 ```javascript
@@ -2307,7 +2309,7 @@ myCar.start()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2353,7 +2355,7 @@ myCar.start()
 
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2368,7 +2370,7 @@ En résumé
 - `extends` signifie qu'une classe est basée sur une autre.
 - `super()` est utilisé pour appeler le constructeur de la classe que vous étendez.
 - La nouvelle classe bénéficie de toutes les propriétés et méthodes de la classe d'origine.
-- Vous pouvez **override** les méthodes (comme `start()`) pour leur faire faire quelque chose de différent.
+- Vous pouvez **override** (écraser) les méthodes (comme `start()`) pour leur faire faire quelque chose de différent.
 
 
 Cette fonction est utile lorsque vous avez plusieurs objets similaires (comme des voitures, des camions et des vélos) et que vous souhaitez qu'ils partagent le même code tout en continuant à se comporter de manière distincte.
@@ -2396,7 +2398,7 @@ console.log(regularUser instanceof User)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2404,7 +2406,7 @@ true
 ```
 
 
-Confirmation que `regularUser` est un `User`. C'est parce que `regularUser` a été créé en utilisant la classe `User`.
+Confirmant que `regularUser` est un `User`. C'est parce que `regularUser` a été créé en utilisant la classe `User`.
 
 
 Cela fonctionne également avec les classes **héritées**. Par exemple, voici une classe `Admin` qui étend `User` :
@@ -2439,7 +2441,7 @@ Au fur et à mesure que vous écrivez des programmes JavaScript plus complexes, 
 Si nous ne gérons pas ces erreurs correctement, notre programme risque de se bloquer ou de se comporter de manière imprévisible. JavaScript fournit des outils pour détecter et gérer ces erreurs afin que nous puissions les traiter de manière plus élégante.
 
 
-### Erreur commune : accès à une valeur sur `undefined`
+### Erreur commune : accès à une variable contenant `undefined`
 
 
 Voici une situation courante qui provoque une erreur :
@@ -2459,10 +2461,10 @@ TypeError: Cannot read properties of undefined (reading 'name')
 ```
 
 
-C'est JavaScript qui vous dit : "Hé, vous avez essayé d'obtenir la propriété `name` à partir de quelque chose qui est `undefined`, et cela n'a pas de sens." Comme vous pouvez le constater, lorsque ce type d'erreur se produit, le programme s'arrête, à moins que vous n'ayez spécifiquement écrit du code pour l'attraper et la gérer.
+C'est JavaScript qui vous dit : "Hé, vous avez essayé d'obtenir la propriété `name` à partir de quelque chose qui est `undefined`, et cela n'a pas de sens." Comme vous pouvez le constater, lorsque ce type d'erreur se produit, le programme s'arrête, à moins que vous n'ayez spécifiquement écrit du code pour la détecter et la gérer.
 
 
-### lancer une erreur
+### Renvoyer une erreur
 
 
 Parfois, vous voulez manuellement **faire remonter une erreur** dans votre code. Dans ce cas, vous utilisez le mot-clé `throw`.
@@ -2473,7 +2475,7 @@ throw new Error("This is a custom error message")
 ```
 
 
-Le programme s'arrête immédiatement et s'imprime :
+Le programme s'arrête immédiatement et ceci s'affiche :
 
 
 ```
@@ -2481,7 +2483,7 @@ Uncaught Error: This is a custom error message
 ```
 
 
-Vous pouvez utiliser `throw` pour appliquer des règles dans votre programme. Par exemple, vous pouvez utiliser `throw` pour faire respecter des règles dans votre programme :
+Vous pouvez utiliser `throw` pour assurer le respect de certaines règles dans votre programme.
 
 
 ```javascript
@@ -2503,7 +2505,7 @@ Le deuxième appel provoque une erreur car la division par zéro n'est pas autor
 ### Rattraper les erreurs avec `try...catch` (essayer...rattraper)
 
 
-Si vous ne voulez pas que votre programme se plante lorsqu'une erreur se produit, vous pouvez attraper l'erreur en utilisant un bloc `try...catch`. Ceci est utile lorsque vous voulez que votre programme **continue** même si quelque chose échoue.
+Si vous ne voulez pas que votre programme plante lorsqu'une erreur se produit, vous pouvez attraper l'erreur en utilisant un bloc `try...catch`. Ceci est utile lorsque vous voulez que votre programme **continue** même si quelque chose échoue.
 
 
 ```javascript
@@ -2531,7 +2533,7 @@ Voici comment cela fonctionne :
 
 - Le code à l'intérieur du bloc `try` est essayé en premier.
 - En cas d'erreur, JavaScript **saute au bloc `catch`**, ignorant le reste du bloc `try`.
-- Le bloc `catch` reçoit l'erreur, vous pouvez donc l'imprimer ou la gérer d'une autre manière, comme par exemple
+- Le bloc `catch` reçoit l'erreur, vous pouvez donc afficher une erreur ou la gérer d'une autre manière, comme par exemple
 
 
 ```javascript
@@ -2553,7 +2555,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Le bloc `finally
+### Le bloc `finally`
 
 
 Vous pouvez également ajouter un bloc `finally`. Il s'agit d'un code qui s'exécute **toujours**, qu'il y ait eu une erreur ou non.
@@ -2581,7 +2583,7 @@ This will run no matter what.
 ```
 
 
-## Éviter les insectes
+## Éviter les bugs
 
 <chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
 
@@ -2589,10 +2591,10 @@ This will run no matter what.
 Ce chapitre présente quelques-uns des pièges les plus courants en JavaScript et explique comment les éviter.
 
 
-### `var` et Assignment sans déclaration
+### `var` et définition sans déclaration
 
 
-Dans l'ancien code JavaScript, les variables étaient souvent déclarées à l'aide du mot-clé `var`. Contrairement à `let` et `const`, que vous avez déjà appris à connaître, `var` peut se comporter de manière déroutante.
+Dans d'anciens programmes JavaScript, les variables étaient souvent déclarées à l'aide du mot-clé `var`. Contrairement à `let` et `const`, que vous avez déjà appris à connaître, `var` peut se comporter de manière déroutante.
 
 
 Par exemple :
@@ -2624,13 +2626,13 @@ console.log(user) // prints "Alice"
 ```
 
 
-Cela crée une nouvelle variable globale `name` sans aucune déclaration. Cela peut se produire silencieusement et conduire à des bogues qui sont Hard à traquer, surtout s'il s'agit d'une simple erreur de frappe. Déclarez toujours les variables en utilisant `let` ou `const`.
+Cela crée une nouvelle variable globale `name` sans aucune déclaration. Cela peut se produire silencieusement et conduire à des bogues qui sont difficles à traquer, surtout s'il s'agit d'une simple erreur de frappe. Déclarez toujours les variables en utilisant `let` ou `const`.
 
 
-### Système de type faible
+### Typage faible
 
 
-JavaScript est faiblement typé, ce qui signifie qu'il convertit automatiquement les valeurs d'un type à un autre si nécessaire. C'est ce qu'on appelle la coercition de type, et bien qu'elle puisse être pratique, elle conduit souvent à des résultats déroutants.
+JavaScript est faiblement typé, ce qui signifie qu'il convertit automatiquement les valeurs d'un type à un autre si nécessaire. C'est ce qu'on appelle la coercition de type, et bien qu'elle puisse être pratique, elle conduit souvent à des résultats surprenant.
 
 
 Par exemple :
@@ -2647,7 +2649,7 @@ console.log(null + 1)   // 1
 Dans ces exemples, JavaScript essaie de deviner ce que vous vouliez dire. Il transforme parfois des chaînes de caractères en nombres, des booléens en nombres ou des chaînes de caractères en chaînes de caractères. Votre code peut alors se comporter de manière inattendue.
 
 
-Il est important d'être conscient de la faiblesse du système de typage de JavaScript. Lorsque les choses commencent à se comporter de manière étrange, cela peut être dû à une coercition de type inattendue.
+Il est important d'être conscient du système de typage faible de JavaScript. Lorsque les choses commencent à se comporter de manière étrange, cela peut être dû à une coercition de type inattendue.
 
 
 ### `"use strict"`
@@ -2699,16 +2701,16 @@ D'autres sont **partagées** lorsque vous les affectez à une nouvelle variable,
 Lorsqu'une valeur est transmise **par valeur**, JavaScript en fait une **copie**.
 
 
-Ainsi, si vous changez l'un, cela n'affecte pas l'autre.
+Ainsi, si vous changez l'une d'elle, cela n'affecte pas l'autre.
 
 
 Cela se produit avec les types primitifs, comme :
 
 
 
-- chiffres
-- cordes
-- les booléens (`vrai` et `faux`)
+- nombres 
+- chaines de caractères
+- les booléens (`true` et `false`)
 - `null`
 - `undefined`
 
@@ -2750,7 +2752,7 @@ console.log(name2) // Bob
 Encore une fois, changer `name2` n'a pas affecté `name1`, parce que les chaînes de caractères sont aussi passées par valeur.
 
 
-La même chose se produit lorsque vous passez une primitive à une fonction : elle est copiée. La fonction ne peut donc pas modifier l'original.
+La même chose se produit lorsque vous passez une variable de type primitif à une fonction : elle est copiée. La fonction ne peut donc pas modifier l'original.
 
 
 ```javascript
@@ -2775,10 +2777,10 @@ C'est parce que seule une **copie** a été transmise à la fonction.
 ### Passer par référence
 
 
-Les objets sont transmis **par référence**.
+Les objets sont passés **par référence**.
 
 
-Cela signifie qu'au lieu de les copier, JavaScript leur transmet simplement une **référence**, et si vous la modifiez, toutes les autres variables qui pointent vers elle verront également le changement.
+Cela signifie qu'au lieu de les copier, JavaScript leur transmet simplement une **référence** vers l'objet, et si vous la modifiez, toutes les autres variables qui pointent vers ce même objet verront également le changement.
 
 
 Par exemple :
@@ -2834,13 +2836,13 @@ console.log(person.name) // Charlie
 ```
 
 
-La fonction a changé l'objet ! C'est parce qu'elle a reçu une **référence** à l'objet `person` original.
+La fonction a changé l'objet ! C'est parce qu'elle a reçu une **référence** de l'objet `person` original.
 
 
-Il n'a pas obtenu de copie. Il a eu accès à l'objet original et a ainsi pu le modifier.
+Elle n'a pas obtenu de copie, elle a eu accès à l'objet original et a ainsi pu le modifier.
 
 
-Il est important de se souvenir de cette distinction, car sinon notre code pourrait se comporter différemment de ce que nous attendons. Par exemple, nous pourrions écrire une fonction en pensant qu'elle ne modifiera pas les arguments qu'elle reçoit, et découvrir plus tard qu'elle les a en fait modifiés (parce qu'il s'agissait d'objets, donc passés par référence).
+Il est important de se souvenir de cette distinction, car sinon notre code pourrait se comporter différemment de ce que à quoi nous nous attendons. Par exemple, nous pourrions écrire une fonction en pensant qu'elle ne modifiera pas les arguments qu'elle reçoit, et découvrir plus tard qu'elle les a en fait modifiés (parce qu'il s'agissait d'objets, donc passés par référence).
 
 
 ## Travailler avec des fonctions
@@ -2848,13 +2850,13 @@ Il est important de se souvenir de cette distinction, car sinon notre code pourr
 <chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
 
 
-Vous avez déjà appris à déclarer et à utiliser des fonctions en JavaScript. Mais JavaScript vous offre davantage d'outils pour utiliser les fonctions de manière puissante.
+Vous avez déjà appris à déclarer et à utiliser des fonctions en JavaScript. Mais JavaScript permet d'utiliser les fonctions de manière encore plus efficace.
 
 
-### Fonctions de la flèche
+### Fonctions fléchées
 
 
-Les fonctions fléchées sont une façon plus courte d'écrire des fonctions. Au lieu d'utiliser le mot-clé `fonction`, nous utilisons une flèche (`=>`).
+Les fonctions fléchées sont une façon plus concise d'écrire des fonctions. Au lieu d'utiliser le mot-clé `fonction`, nous utilisons une flèche (`=>`).
 
 
 Voici une fonction normale :
@@ -2893,13 +2895,13 @@ const greet = name => `Hello, ${name}!`
 ```
 
 
-Les fonctions fléchées sont très répandues dans le JavaScript moderne, car elles permettent d'exprimer des fonctions simples en limitant considérablement le nombre de lignes directrices.
+Les fonctions fléchées sont très répandues en JavaScript moderne, car elles permettent de définir les fonctions simples à l'aide d'une syntaxe plus légère. 
 
 
 ### Paramètres par défaut
 
 
-Il arrive que l'on veuille qu'une fonction ait une **valeur par défaut** si aucun argument n'est transmis.
+Il arrive que l'on veuille qu'une fonction ait en argument une **valeur par défaut** si aucun argument n'est transmis.
 
 
 Vous pouvez procéder comme suit :
@@ -2980,7 +2982,7 @@ runTwice(sayHello)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -2999,7 +3001,7 @@ runTwice(
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3027,13 +3029,13 @@ greetBob() // Hi, Bob
 La fonction `makeGreeter` est une fonction qui construit d'autres fonctions. Elle reçoit une chaîne de caractères et renvoie une nouvelle fonction qui utilise cette chaîne dans son appel à `console.log`.
 
 
-Ce type de modèle est très puissant, car il vous permet de laisser des "trous" dans vos fonctions que vous pouvez remplir plus tard avec le comportement dont vous avez besoin.
+Ce type de construction est très puissant, car il vous permet de laisser des "trous" dans vos fonctions que vous pouvez remplir plus tard de la manière dont vous avez besoin.
 
 
 ### `map()`, `filter()`, `reduce()`
 
 
-JavaScript propose quelques méthodes intégrées utiles à utiliser avec les tableaux.
+JavaScript propose quelques méthodes fournis par le langage (**builtin functions**) pratiques lorsqu'on travaille avec les tableaux.
 
 
 Ces méthodes prennent des fonctions comme arguments, et sont donc également des fonctions d'ordre supérieur.
@@ -3093,7 +3095,7 @@ console.log(total) // 10
 Vous pouvez utiliser `reduce()` pour de nombreuses choses comme les totaux, les moyennes, ou la construction de nouvelles valeurs étape par étape.
 
 
-Ces méthodes (`map`, `filter`, `reduce`) sont des outils puissants pour traiter les données sans écrire de boucles manuelles.
+Ces méthodes (`map`, `filter`, `reduce`) sont des outils puissants pour traiter les données sans écrire de boucles manuellement.
 
 
 Vous pouvez même les combiner dans une chaîne d'opérations, comme ceci :
@@ -3116,13 +3118,13 @@ console.log(result) // 28
 <chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
 
 
-Dans ce chapitre, nous allons apprendre quelques outils puissants et légèrement plus avancés pour travailler avec des objets en JavaScript.
+Dans ce chapitre, nous allons découvrir quelques outils puissants et légèrement plus avancés pour travailler avec des objets en JavaScript.
 
 
 ### Propriétés privées
 
 
-Parfois, nous voulons cacher une propriété d'un objet afin qu'elle ne puisse pas être modifiée ou accessible depuis l'extérieur de l'objet. JavaScript nous donne un moyen de le faire en utilisant `#` avant le nom de la propriété. Cela crée une propriété **privée**, qui n'est accessible qu'à l'intérieur de la classe.
+Parfois, nous voulons cacher une propriété d'un objet afin qu'elle ne puisse pas être modifiée ou être accessible depuis l'extérieur de l'objet. JavaScript nous donne un moyen de le faire en utilisant `#` avant le nom de la propriété. Cela crée une propriété **privée**, qui n'est accessible que depuis l'intérieur de la classe.
 
 
 ```javascript
@@ -3141,15 +3143,15 @@ return this.#age
 
 const alice = new Person("Alice", 30)
 console.log(alice.name)      // Alice
-console.log(alice.getAge())  // 30, the method can access the private property
-console.log(alice.#age)      // ❌ Error! You can't access private properties directly
+console.log(alice.getAge())  // 30, la méthode peut accéder à la propriété privée
+console.log(alice.#age)      // ❌ Erreur! Vous ne pouvez pas accéder directement à une propriété privée
 ```
 
 
 Les propriétés privées sont utiles lorsque vous souhaitez éviter les modifications accidentelles.
 
 
-### propriétés `statiques
+### propriétés `statiques`
 
 
 Parfois, vous voulez qu'une propriété appartienne à la classe elle-même, et non à chaque objet que vous créez à partir de cette classe. C'est la raison d'être de `static`. Une propriété `static` est contenue dans la classe et tous les objets de cette classe y feront référence.
@@ -3157,21 +3159,21 @@ Parfois, vous voulez qu'une propriété appartienne à la classe elle-même, et 
 
 ```javascript
 class User {
-static counter = 0 // this belongs to the class, not to instances. The same counter will be shared by all objects
+static counter = 0 // ce compteur est commun à toutes les instances de la class.
 
 constructor() {
-User.counter++ // changes the static property every time an object of this class gets initiated
+User.counter++ // change la propriété statique chaque fois qu'une instance de la classe (un objet) est créé.
 }
 }
 
-const a = new User() // the constructor will change the shared counter from 0 to 1
-const b = new User() // the constructor will change the shared counter from 1 to 2
+const a = new User() // le constructeur va changer la valeur du compteur partagée de 0 à 1
+const b = new User() // le constructeur va changer la valeur du compteur partagée de 1 à 2
 
-console.log(User.counter) //  prints 2
+console.log(User.counter) //  affiche 2
 ```
 
 
-Ceci est utile pour stocker des données et des méthodes partagées qui s'appliquent à l'ensemble du groupe d'objets, et non à un seul d'entre eux.
+Le mot clé `static` est utile pour stocker des données et des méthodes partagées qui s'appliquent à l'ensemble du groupe d'objets, et non à un seul d'entre eux.
 
 
 ### `get` et `set`
@@ -3200,7 +3202,7 @@ console.log(user.fullName) // Jane Doe
 ```
 
 
-Même si `fullName` n'est pas une propriété normale, nous pouvons l'utiliser comme telle, et dans les coulisses, elle exécute la fonction `get` pour construire le nom complet.
+Même si `fullName` n'est pas une propriété normale, nous pouvons l'utiliser comme telle, et lorsqu'accédée, elle exécute la fonction `get` pour construire le nom complet.
 
 
 Une méthode `set`ter s'exécute lorsque vous *assignez* une valeur à une propriété. Elle vous permet de contrôler ce qui se passe lorsque quelqu'un essaie de changer cette valeur. Elle est déclarée en écrivant `set` devant une méthode avec le nom de la propriété.
@@ -3217,10 +3219,10 @@ get fullName() {
 return `${this.firstName} ${this.lastName}`
 }
 
-set fullName(input) {            // gets the name that is passed
-const parts = input.split(" ") // breaks it into parts
-this.firstName = parts[0]      // uses the first part as first name
-this.lastName = parts[1]       // uses the second part as last name
+set fullName(input) {            // récupère le nom complet passé en entrée
+const parts = input.split(" ") // sépare l'entrée en morceaux si séparés par des espaces
+this.firstName = parts[0]      // utilise la première partie comme prénom
+this.lastName = parts[1]       // utilise la seconde partie comme nom
 }
 }
 
@@ -3276,7 +3278,7 @@ console.log(user["name"]) // Alice
 ```
 
 
-Nous avons passé la chaîne de caractères `nom` à l'objet afin d'obtenir la valeur correspondante.
+Nous avons passé la chaîne de caractères `name` à l'objet afin d'obtenir la valeur correspondante.
 
 
 Nous pouvons enregistrer une clé dans une variable et l'utiliser pour accéder ultérieurement à la valeur correspondante, comme suit
@@ -3294,10 +3296,10 @@ console.log(user[key]) // Alice
 ```
 
 
-### Dynamique Assignment
+### Affectation Dynamique
 
 
-Vous pouvez également créer ou mettre à jour des propriétés d'objets en utilisant des variables comme clés.
+Vous pouvez également créer ou mettre à jour des propriétés d'objets en utilisant des variables en tant que clés.
 
 
 ```javascript
@@ -3340,7 +3342,7 @@ console.log(config.language) // JavaScript
 C'est ce qu'on appelle une **propriété calculée**. La valeur entre crochets est évaluée et le résultat est utilisé comme clé.
 
 
-### `Symbol` Type
+### Le type `Symbol` 
 
 
 En plus des chaînes de caractères, JavaScript vous permet également d'utiliser un type spécial appelé `Symbol` comme clé d'objet.
@@ -3361,7 +3363,7 @@ console.log(user[id]) // 12345
 ```
 
 
-Dans cet exemple, `id` est un symbole. Ce n'est pas une chaîne de caractères, mais il fonctionne toujours comme une clé. Si vous essayez d'enregistrer `user` dans la console, vous verrez ceci :
+Dans cet exemple, `id` est un symbole. Ce n'est pas une chaîne de caractères, mais ça fonctionne toujours comme une clé. Si vous essayez d'afficher `user` dans la console, vous verrez ceci :
 
 
 ```javascript
@@ -3418,7 +3420,7 @@ Comme vous pouvez le voir, la propriété originale `name` est préservée de ce
 <chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
 
 
-JavaScript nous donne quelques objets intégrés utiles qui nous aident à faire des choses comme le débogage et les opérations mathématiques.
+JavaScript fournis quelques objets intégrés au langage (**builtin objects**) utiles qui nous aident pour différentes choses comme le débogage ou les opérations mathématiques.
 
 
 ### Autres méthodes de la console
@@ -3433,7 +3435,7 @@ Il existe d'autres méthodes utiles disponibles sur l'objet `console` qui peuven
 #### `console.warn`
 
 
-Imprime un message en jaune (ou avec une icône d'avertissement dans certains environnements) :
+Affiche un message en jaune (ou avec une icône d'avertissement dans certains environnements) :
 
 
 ```javascript
@@ -3444,7 +3446,7 @@ console.warn("This is just a warning.")
 #### `console.error`
 
 
-Imprime un message en rouge, comme une erreur :
+Affiche un message en rouge, comme une erreur :
 
 
 ```javascript
@@ -3455,7 +3457,7 @@ console.error("Something went wrong!")
 #### `console.table`
 
 
-Affiche un tableau ou un objet sous forme de tableau :
+Affiche un tableau (**array** javascript) ou un objet sous forme d'un tableau :
 
 
 ```javascript
@@ -3468,7 +3470,7 @@ console.table(users)
 ```
 
 
-Cela permet d'imprimer un tableau comme celui-ci :
+Cela permet d'afficher un tableau comme celui-ci :
 
 
 ```
@@ -3511,13 +3513,13 @@ Utile pour des tests de performance simples.
 ### L'objet `Math` (mathématique)
 
 
-JavaScript vous offre un objet `Math` avec des méthodes utiles pour effectuer des calculs.
+JavaScript met à disposition un objet `Math` avec des méthodes utiles pour effectuer toutes sortes de calculs.
 
 
 #### `Math.random()`
 
 
-Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclusif) :
+Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclus) :
 
 
 ```javascript
@@ -3538,7 +3540,7 @@ Exemple de sortie :
 
 
 
-- `Math.floor(n)` arrondit **vers le bas** à l'entier le plus proche
+- `Math.floor(n)` arrondit **par valeur inférieur** à l'entier le plus proche
 - `Math.ceil(n)` arrondit **à l'entier supérieur** le plus proche
 
 
@@ -3576,7 +3578,7 @@ console.log(Math.min(5, 9, 3)) // 3
 
 
 
-- `Math.pow(a, b)` vous donne `a` à la puissance de `b`
+- `Math.pow(a, b)` vous donne `a` à la puissance `b`
 - `Math.sqrt(n)` vous donne la racine carrée de `n`
 
 
@@ -3596,10 +3598,10 @@ console.log(Math.sqrt(16))    // 4
 <chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
 
 
-JavaScript nous offre des types de collection spéciaux qui vont au-delà des tableaux et des objets ordinaires. Il s'agit de `Map` et de `Set`.
+JavaScript met à disposition des types de collection spéciaux qui vont au-delà des tableaux et des objets ordinaires. Il s'agit de `Map` (une table de hachage) et de `Set` (un ensemble). Ce sont deux structures de données classique en informatique.
 
 
-Ils vous aident à stocker et à gérer des groupes de valeurs, mais ils fonctionnent différemment de ce que vous avez vu jusqu'à présent.
+Ces types vous aident à stocker et à gérer des groupes de valeurs, mais ils fonctionnent différemment de ce que vous avez vu jusqu'à présent.
 
 
 Une `Map` est une collection de **paires clé-valeur**, tout comme un objet. Mais il y a des différences importantes :
@@ -3611,7 +3613,7 @@ Une `Map` est une collection de **paires clé-valeur**, tout comme un objet. Mai
 - Il dispose de méthodes intégrées qui facilitent son utilisation.
 
 
-Vous créez une nouvelle carte comme suit :
+Vous créez une nouvelle table de hachage comme suit :
 
 
 ```javascript
@@ -3619,7 +3621,7 @@ const myMap = new Map()
 ```
 
 
-Cela crée une carte vide. Pour y ajouter des entrées, utilisez `myMap.set(key, value)` :
+Cela crée une Map vide. Pour y ajouter des entrées, utilisez `myMap.set(key, value)` :
 
 
 ```javascript
@@ -3676,7 +3678,7 @@ myMap.delete("name")
 ```
 
 
-Pour **effacer toute la carte**, utilisez `myMap.clear()` :
+Pour **effacer toute la Map**, utilisez `myMap.clear()` :
 
 
 ```javascript
@@ -3684,7 +3686,7 @@ myMap.clear()
 ```
 
 
-Les cartes sont idéales pour gérer de grandes collections de valeurs, car l'accès aux valeurs sur une grande carte est généralement beaucoup plus performant que sur un grand objet.
+Les Maps, ou tables de hachages, sont idéales pour gérer de grandes collections de valeurs, car l'accès aux valeurs sur une grande table est généralement beaucoup plus performant que sur un grand objet.
 
 
 ### `Set`
@@ -3698,7 +3700,7 @@ Un `Set` est une collection de **valeurs uniquement** (pas de clés), où chaque
 - Les valeurs sont stockées dans l'ordre dans lequel vous les ajoutez
 
 
-Vous créez un jeu comme celui-ci :
+Vous créez un set comme suit :
 
 
 ```javascript
@@ -3712,11 +3714,11 @@ Pour **ajouter des valeurs**, utilisez `mySet.add(value)` :
 ```javascript
 mySet.add(1)
 mySet.add(2)
-mySet.add(2) // duplicate, will be ignored
+mySet.add(2) // Les doublons seront ignorés
 ```
 
 
-Même si nous avons essayé d'ajouter `2` deux fois, l'ensemble ne gardera qu'une seule copie.
+Même si nous avons essayé d'ajouter `2` deux fois, le set ne gardera qu'une seule copie.
 
 
 Pour **vérifier si une valeur est dans le set**, utilisez `mySet.has(value)` :
@@ -3767,13 +3769,13 @@ Le `Set` évite les doublons.
 La plupart des éléments en JavaScript sur lesquels vous pouvez effectuer une boucle (comme les tableaux, les chaînes, les cartes, les ensembles) sont **itérables** : ils peuvent fournir des itérateurs pour leur contenu.
 
 
-Un **itérateur** est un objet spécial en JavaScript qui vous aide à parcourir une liste d'éléments **un à la fois**.
+Un **itérateur** est un objet spécial en JavaScript qui vous aide à parcourir une liste d'éléments **un à par un**.
 
 
-### itérateurs `Objet
+### itérateurs d'`Objet`
 
 
-Contrairement aux tableaux ou aux cartes, les objets ordinaires **ne sont pas itérables** avec `for...of`. Si vous essayez ceci :
+Contrairement aux tableaux ou aux maps, les objets ordinaires **ne sont pas itérables** avec `for...of`. Si vous essayez ceci :
 
 
 ```javascript
@@ -3796,10 +3798,10 @@ TypeError: user is not iterable
 ```
 
 
-En effet, les objets simples n'ont pas d'itérateur intégré. Mais JavaScript vous offre d'autres outils pour effectuer des boucles sur ces objets.
+En effet, les objets simples n'ont pas d'itérateur intégré. Mais JavaScript vous fournit d'autres outils pour effectuer des boucles sur ces objets.
 
 
-#### `Objet.keys()`
+#### `Object.keys()`
 
 
 Vous pouvez utiliser `Object.keys(obj)` pour obtenir un tableau des **clés** de l'objet, et faire une boucle dessus :
@@ -3819,7 +3821,7 @@ console.log(key)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3848,7 +3850,7 @@ console.log(value)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3877,7 +3879,7 @@ console.log(`${key} is ${value}`)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3886,7 +3888,7 @@ age is 30
 ```
 
 
-Même si les objets ne sont pas directement itérables, ces méthodes vous donnent un accès complet à leur contenu d'une manière qui fonctionne bien avec `for...of`.
+Même si les objets ne sont pas directement itérables, ces méthodes vous donnent un accès complet à leur contenu, de manière élégante, avec `for...of`.
 
 
 Mais comment fonctionnent les itérateurs ?
@@ -3898,10 +3900,10 @@ Mais comment fonctionnent les itérateurs ?
 Le secret de tous les itérables est un **symbole** spécial appelé `Symbol.iterator`.
 
 
-Ce symbole est une clé intégrée qui indique à JavaScript : "Cet objet peut être itéré"
+Ce symbole est une clé **builtin** qui indique à JavaScript : "Cet objet peut être itéré"
 
 
-Lorsque vous appelez `myIterable[Symbol.iterator]()`, JavaScript vous renvoie un **objet itérateur** avec une méthode `.next()`.
+Lorsque vous appelez `myIterable[Symbol.iterator]()`, JavaScript vous renvoie un **objet itérateur** disposant d'une méthode `.next()`.
 
 
 Voyons ce que cela donne :
@@ -3942,19 +3944,19 @@ Prenons un exemple complet :
 
 
 ```javascript
-const names = ["Lina", "Tom", "Eva"]      // declare an array
-const iterator = names[Symbol.iterator]() // use the Symbol.iterator function to get an iterator for this array
+const names = ["Lina", "Tom", "Eva"]      // défini un tableau
+const iterator = names[Symbol.iterator]() // utilise la fonction Symbol.iterator pour obtenir un itérateur du tableau
 
-let result = iterator.next()              // get the first element of the array
+let result = iterator.next()              // recupère le premier élément du tableau
 
-while (!result.done) {                    // repeat this loop until you reach the last element of the array, which is marked with { done: true }
-console.log(result.value)               // print the value of each element
-result = iterator.next()                // get the next element of the array
+while (!result.done) {                    // recommence jusqu'à atteindre le dernier élément du tableau, qui est marqué avec { done: true}
+console.log(result.value)               // affiche la valeur de chaque élément
+result = iterator.next()                // récupère l'élément suivant du tableau
 }
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -3964,7 +3966,7 @@ Eva
 ```
 
 
-C'est ainsi qu'une boucle `for...of` fonctionne sous le capot : elle utilise ce modèle avec `.next()`.
+C'est ainsi qu'une boucle `for...of` fonctionne sous le capot : elle utilise cette construction avec `.next()`.
 
 
 Vous obtiendrez le même résultat avec
@@ -3985,7 +3987,7 @@ console.log(result)
 Vous pouvez également définir votre propre classe **itérable** en ajoutant une méthode `[Symbol.iterator]()`.
 
 
-Disons que nous voulons une classe qui représente une **gamme de nombres**, comme de 1 à 5.
+Imaginons que nous voulions une classe représentant une **gamme de nombres**, de 1 à 5.
 
 
 ```javascript
@@ -4021,7 +4023,7 @@ console.log(num)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4033,7 +4035,7 @@ Cette empreinte :
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 
@@ -4046,7 +4048,7 @@ Voici ce qui se passe :
 Maintenant notre classe `Range` fonctionne comme un tableau, et nous pouvons l'utiliser dans n'importe quelle boucle qui attend un itérable.
 
 
-### Fonctions génératrices et `yield` (rendement)
+### Fonctions génératrices et `yield`
 
 
 Pour faciliter la création d'itérateurs, JavaScript propose des **fonctions génératrices**, utilisant le mot-clé `function*` (c'est `function` avec un `*` à la fin) et le mot-clé `yield`.
@@ -4071,7 +4073,7 @@ console.log(iterator.next()) // { value: undefined, done: true }
 ```
 
 
-Chaque `yield` renvoie une valeur, et **pause** la fonction jusqu'à ce que le prochain `.next()` soit appelé.
+Chaque `yield` renvoie une valeur, et **stoppe** la fonction jusqu'à ce que le prochain `.next()` soit appelé.
 
 
 Vous pouvez également boucler sur un générateur avec `for...of` :
@@ -4084,7 +4086,7 @@ console.log(num)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4094,21 +4096,23 @@ Cette empreinte :
 ```
 
 
-## Concurrence avec les rappels
+## Concurrence avec les fonctions de rappels (**callbacks**)
 
 <chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
 
 
-Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause pendant l'attente.
+Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause si ce n'est pas nécessaire.
 
 
-Dans ce chapitre, nous allons introduire un nouveau concept : **la concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
+
+Dans ce chapitre, nous allons introduire un nouveau concept : **la concurrence**. La concurrence nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
+
 
 
 ### `setTimeout`
 
 
-La fonction `setTimeout` vous permet **d'exécuter une fonction plus tard**, après un certain temps.
+La fonction `setTimeout` vous permet **d'exécuter une fonction plus tard**, après un  temps d'attente que vous fournissez.
 
 
 Exemple :
@@ -4118,15 +4122,15 @@ Exemple :
 console.log("Start")
 
 setTimeout(
-() => console.log("This runs after 2 seconds"),
-2000
+() => console.log("Ceci s'exécute après 2 secondes d'attente"),
+2000 // millisecondes
 )
 
 console.log("End")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4136,15 +4140,13 @@ This runs after 2 seconds
 ```
 
 
-Même si `setTimeout` apparaît au milieu du code, il ne bloque pas le reste. Au lieu de cela, il programme la fonction pour qu'elle s'exécute **plus tard**, et passe immédiatement à autre chose.
+Même si `setTimeout` apparaît au milieu du code, il ne bloque pas le reste. Au lieu de cela, ce `setTimeout` programme la fonction pour qu'elle s'exécute **plus tard**, et passe immédiatement à autre chose.
 
 
-Le `2000` signifie 2000 millisecondes (soit 2 secondes).
-
-Voici une réécriture plus verbeuse et plus conviviale des sections **Callbacks** et **Promise**, utilisant la manipulation de données et des annotations claires tout au long du texte :
 
 
-### Rappels
+
+### Fonction de rappels
 
 
 Un **callback** est une fonction que l'on donne à une autre fonction pour qu'elle puisse être **appelée plus tard**.
@@ -4158,14 +4160,14 @@ Voici une fonction qui fait cela en utilisant un **callback** :
 
 ```javascript
 function doubleNumbers(numbersArray, callback) {
-// Pretend we're doing a slow operation using setTimeout
+// Simulons une opération qui prend du temps à l'aide d'un setTimeout
 setTimeout(() => {
-// Use the map method to create a new array where each number is doubled
+// Utile une table de hachage pour créer un nouveau tableau dans lequel chaque entrée est le double du tableau d'origine
 const doubled = numbersArray.map(n => n * 2)
 
-// When we're done, we call the callback function with the result
+// Une fois fini, nous utilisons la fonction de rappel avec le résultat 
 callback(doubled)
-}, 1000) // Wait 1 second before running the code inside
+}, 1000) // Attend une seconde avant d'exécuter le code contenu entre parenthèse
 }
 ```
 
@@ -4182,7 +4184,7 @@ console.log("Here is the doubled array:", result)
 ```
 
 
-Au bout d'une seconde, le message s'imprime :
+Au bout d'une seconde, le message s'affiche :
 
 
 ```
@@ -4202,7 +4204,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 4. Une fois que c'est fait, nous appelons le callback sur le tableau "doublé" résultant.
 
 
-Cette technique fonctionne, mais imaginez que vous vouliez faire **plus d'étapes** après cela, comme filtrer les petits nombres et les additionner. Vous devriez **enfermer** plus de rappels comme celui-ci :
+Cette technique fonctionne, mais imaginez que vous vouliez faire **plus d'étapes** après cela, comme filtrer les petits nombres et les additionner. Vous devriez **imbriquer** plus de callback comme dans l'exemple ci-dessous :
 
 
 ```javascript
@@ -4216,15 +4218,15 @@ console.log("Final result:", total)
 ```
 
 
-C'est Hard à lire et désordonné. Ce style est appelé **callback hell**, et c'est exactement ce que `Promise` a été créé pour corriger.
+C'est difficile à lire et désordonné. Ce style est appelé **callback hell** (enfer du callback), et c'est exactement pour éviter ces complications que `Promise` a été créé.
 
 
-## Concurrence avec promesses
+## Concurrence avec des promesses (**Promises**)
 
 <chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
 
 
-Une `Promesse` est un objet JavaScript intégré qui représente une valeur qui sera **prête dans le futur**.
+Une `Promise` est un objet JavaScript intégré au langage représentant une valeur qui sera **prête dans le futur**.
 
 
 Nous pouvons créer une promesse comme suit :
@@ -4232,9 +4234,9 @@ Nous pouvons créer une promesse comme suit :
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-// Do something that takes time here...
+// Faites quelques choses qui prend du temps ici...
 
-resolve("It worked!") // This means everything went OK
+resolve("It worked!") // Cela signifie que tout s'est bien passé
 })
 ```
 
@@ -4242,12 +4244,12 @@ resolve("It worked!") // This means everything went OK
 La partie `new Promise()` crée la promesse.
 
 
-À l'intérieur, nous lui attribuons une fonction avec deux paramètres :
+À l'intérieur des paranthèses, nous lui pasAsons une fonction qui prend deux paramètres, eux mêmes des fonctions:
 
 
 
 - `resolve`, est une fonction que nous appelons lorsque tout s'est bien passé
-- `reject`, est une fonction que nous appelons si quelque chose ne va pas
+- `reject`, est une fonction que nous appelons si quelque chose s'est mal passé
 
 
 Dans l'exemple ci-dessus, nous le résolvons immédiatement avec le message `"It worked !"`.
@@ -4256,14 +4258,14 @@ Dans l'exemple ci-dessus, nous le résolvons immédiatement avec le message `"It
 ### `.then()`
 
 
-Pour faire quelque chose **après** que la promesse soit faite, nous utilisons `.then()` :
+Pour faire quelque chose **après** que la promesse se soit réalisé, nous utilisons `.then()` :
 
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-// Do something that takes time here...
+// Faites quelque chose qui prend du temps ici...
 
-resolve(100) // This means everything went OK
+resolve(100) // Cela signifie que tout s'est bien passé
 })
 
 promise.then(result => {
@@ -4272,7 +4274,7 @@ console.log("The result is:", result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4280,7 +4282,7 @@ The result is: 100
 ```
 
 
-La valeur que nous avons passée à `resolve()` est envoyée à la fonction à l'intérieur de `.then()` en tant que `result`.
+La valeur que nous avons passée en argument à `resolve()` est renvoyée à la fonction placé dans l'appel à `.then()` en tant que l'argument attendu `result`.
 
 
 Simulons une tâche qui prend 2 secondes en utilisant `setTimeout` :
@@ -4299,7 +4301,7 @@ delayedPromise.then(result => console.log(result))
 ```
 
 
-Cette opération attendra 2 secondes, puis imprimera :
+Cette opération attendra 2 secondes, puis affichera :
 
 
 ```
@@ -4320,7 +4322,7 @@ reject("Something went wrong")
 ```
 
 
-Maintenant, si nous utilisons `.then()` pour cela, rien ne se passera, parce que `.then()` ne gère que le succès.
+Maintenant, si nous utilisons `.then()` pour cela, rien ne se passera, parce que `.then()` ne gère que le cas où tout se passe bien.
 
 
 Pour gérer les erreurs, nous utilisons `.catch()` :
@@ -4333,15 +4335,15 @@ reject("Something went wrong")
 
 failingPromise
 .then(
-result => console.log("This will NOT run:", result)
+result => console.log("This will NOT run:", result) // Ceci ne s'exécutera pas
 )
 .catch(
-error => console.log("Caught an error:", error)
+error => console.log("Caught an error:", error) // Une erreur a été interceptée
 )
 ```
 
 
-Cette impression ne concerne que
+Cela affiche uniquement
 
 
 ```
@@ -4382,7 +4384,7 @@ err => console.log("Failure:", err)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4404,7 +4406,7 @@ err => console.log("Failure:", err)
 ```
 
 
-Il imprime :
+Ceci affiche:
 
 
 ```
@@ -4412,7 +4414,7 @@ Failure: Not a positive number
 ```
 
 
-### Enchaînement d'opérations à l'aide de "promesses
+### Chainage d'opérations à l'aide de `Promises`
 
 
 
@@ -4458,7 +4460,7 @@ result => console.log("Doubled numbers:", result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4466,7 +4468,7 @@ Doubled numbers: [ 2, 4, 6 ]
 ```
 
 
-Jusqu'à présent, le fonctionnement est identique à celui de la version avec rappel, mais le code est désormais plus facile à étendre et à lire.
+Jusqu'à présent, le fonctionnement est identique à celui de la version avec callback, cependant le code est maintenant plus facile à lire et à compléter.
 
 
 Supposons que nous voulions ajouter des étapes supplémentaires :
@@ -4528,7 +4530,7 @@ result => console.log("Final result after all steps:", result)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4545,27 +4547,27 @@ Voyons ce que cela donne :
 
 3. `sumNumbers` additionne les nombres restants : `4 + 6 = 10`
 
-4. Enfin, nous imprimons le résultat.
+4. Enfin, nous affichons le résultat.
 
 
-Chaque `.then()` attend que l'étape précédente se termine. Nous pouvons donc construire une **chaîne d'actions** sans imbrication. Cela rend le code plus lisible et plus facile à déboguer.
+Chaque `.then()` attend que l'étape précédente se termine. Nous pouvons donc construire une **chaîne d'actions** sans boucle imbriquées ou autres constructions complexes. Cela rend le code plus lisible et plus facile à déboguer.
 
 
-## Concurrence avec `async`/`await` (en anglais)
+## Concurrence avec `async`/`await`
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
 
-Nous avons vu comment les chaînes `Promise` nous aident à éviter l'enfer du callback, mais elles peuvent encore devenir un peu Hard à lire quand il y a beaucoup d'étapes impliquées.
+Nous avons vu comment le chainage de `Promise` nous aide à éviter l'enfer du callback, mais elles peuvent rester un peu difficile à lire quand il y a beaucoup d'étapes.
 
 
-C'est là que `async` et `await` entrent en jeu. Ils nous permettent d'écrire du code asynchrone **qui ressemble à du code synchrone**, ce qui le rend plus facile à comprendre.
+C'est là que `async` et `await` entrent en jeu. Ces mots clés nous permettent d'écrire du code asynchrone **qui ressemble à du code synchrone**, ce qui le rend plus facile à comprendre.
 
 
 ### Qu'est-ce que `async` ?
 
 
-Lorsque vous écrivez le mot-clé `async` devant une fonction, JavaScript enveloppe automatiquement la valeur de retour de la fonction dans une Promesse.
+Lorsque vous écrivez le mot-clé `async` devant une fonction, JavaScript enveloppe automatiquement la valeur de retour de la fonction dans une promesse.
 
 
 Prenons un exemple simple :
@@ -4595,7 +4597,7 @@ Promise { 'hello' }
 ```
 
 
-Même si vous venez de renvoyer une chaîne, JavaScript la transforme en promesse pour vous. Vous pouvez obtenir la valeur réelle en utilisant `.then()` comme ceci :
+Même si vous venez de renvoyer une chaîne caractère, Javascript la transforme en promesse pour vous. Vous pouvez obtenir la valeur réelle en utilisant `.then()` comme ceci :
 
 
 ```javascript
@@ -4609,10 +4611,10 @@ Ou vous pouvez utiliser `await`...
 ### Qu'est-ce que `await` ?
 
 
-Le mot-clé `await` dit à JavaScript : "attendez que cette promesse soit faite, et donnez-moi le résultat"
+Le mot-clé `await` dit à JavaScript : "attend que cette promesse soit réalisée, et donne-moi le résultat"
 
 
-Mais vous ne pouvez utiliser `await` que **à l'intérieur d'une fonction asynchrone**.
+Mais vous ne pouvez utiliser `await` qu'**à l'intérieur d'une fonction asynchrone**.
 
 
 Réécrivons l'exemple en utilisant `await` :
@@ -4641,7 +4643,7 @@ Faisons quelque chose d'un peu plus utile maintenant.
 ### Simuler un délai avec `await`
 
 
-Nous allons créer une simple fonction `wait` qui prend une quantité de millisecondes comme argument et qui se résout après ce nombre de millisecondes, sans rien faire d'autre :
+Nous allons créer une simple fonction `wait` qui prend une quantité de millisecondes comme argument et qui termine son exécution après ce nombre de millisecondes, sans rien faire d'autre :
 
 
 ```javascript
@@ -4667,7 +4669,7 @@ test()
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4676,16 +4678,16 @@ done waiting
 ```
 
 
-Vous pouvez considérer `await` comme une "pause ici jusqu'à ce que la promesse soit faite, puis continuez"
+Vous pouvez considérer `await` comme un "fait une pause ici jusqu'à ce que la promesse soit réalisée, puis continue"
 
 
 Cela vous permet d'écrire du code de manière **top-to-bottom** qui se comporte de manière asynchrone, sans enchaîner les appels `.then()`.
 
 
-### En attente de données
+### Attendre des données
 
 
-Reprenons notre exemple précédent, où nous doublons les nombres, puis filtrons, puis additionnons. Mais cette fois, nous allons utiliser `async`/`await`.
+Reprenons notre exemple précédent, où nous doublons les nombres, puis les filtrons et les additionnons. Mais cette fois utilisons `async`/`await`.
 
 
 Nous allons créer 3 fonctions qui simulent l'attente et renvoient des promesses :
@@ -4738,7 +4740,7 @@ process(input)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -4749,7 +4751,7 @@ Final result: 10
 C'est beaucoup plus facile à lire que d'enchaîner des `.then()` ou d'imbriquer des callbacks.
 
 
-Il ressemble à un programme étape par étape normal, mais il se comporte toujours de manière asynchrone.
+Ce code ressemble à un programme séquentiel tout à fait classique, mais il est en réalité asynchrone.
 
 
 ## Itérateurs asynchrones
@@ -4757,7 +4759,7 @@ Il ressemble à un programme étape par étape normal, mais il se comporte toujo
 <chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
 
 
-Vous avez déjà appris ce que sont les **itérateurs** et comment nous pouvons utiliser `for...of` pour boucler sur des tableaux et d'autres éléments itérables.
+Vous avez déjà vu ce que sont les **itérateurs** et comment nous pouvons utiliser `for...of` pour boucler sur des tableaux et d'autres éléments itérables.
 
 
 Mais que se passe-t-il si les données sur lesquelles nous voulons itérer mettent du temps à arriver ?
@@ -4766,10 +4768,10 @@ Mais que se passe-t-il si les données sur lesquelles nous voulons itérer mette
 Parfois, nous voulons boucler sur des éléments qui arrivent de manière **asynchrone**, comme des messages provenant d'un chat, des lignes d'un fichier ou des nombres provenant d'une source lente.
 
 
-Pour ce faire, JavaScript nous offre des itérateurs **async**.
+Pour ce faire, JavaScript nous met à disposition des itérateurs **async**.
 
 
-### Fonctions du générateur asynchrone
+### Fonctions génératrices asynchrones
 
 
 La façon la plus simple de créer un itérateur asynchrone est d'utiliser une **fonction génératrice asynchrone**.
@@ -4806,7 +4808,7 @@ run()
 ```
 
 
-Ce message s'imprimera :
+Ce message s'affichera :
 
 
 ```
@@ -4823,7 +4825,7 @@ Quelle est donc la différence avec un générateur normal ?
 La différence est que nous pouvons maintenant utiliser `await` à l'intérieur du générateur.
 
 
-Fabriquons à nouveau une aide au retard :
+Construisons à nouveau un simulateur de délai :
 
 
 ```javascript
@@ -4874,11 +4876,10 @@ Les itérateurs asynchrones sont utiles dans les cas suivants :
 
 
 - Les valeurs n'arrivent pas toutes en même temps.
-- Vous voulez les traiter un par un, **au fur et à mesure**.
-- Vous travaillez avec des promesses et vous voulez faire des boucles de manière propre.
+- Vous voulez les traiter une par une, **au fur et à mesure** qu'elles arrivent.
+- Vous travaillez avec des promesses et vous voulez faire des boucles propres.
 
-
-Par exemple, si vous voulez charger les messages d'un serveur de chat un par un, ou télécharger un gros fichier par morceaux, les itérateurs asynchrones vous permettent d'écrire une boucle `for` qui fonctionne avec des données différées.
+Par exemple, si vous voulez charger un par un les messages d'un serveur de chat, ou télécharger un gros fichier par morceaux, les itérateurs asynchrones vous permettent d'écrire une boucle `for` qui fonctionne avec des données différées.
 
 
 ### `Symbol.asyncIterator` (symbole.asyncIterator)
@@ -4887,7 +4888,7 @@ Par exemple, si vous voulez charger les messages d'un serveur de chat un par un,
 Nous pouvons également utiliser des itérateurs asynchrones dans des classes personnalisées.
 
 
-Voici un exemple qui produit des nombres avec un délai :
+Voici un exemple qui produit des nombres avec un délai d'attente entre chaque:
 
 
 ```javascript
@@ -4910,7 +4911,7 @@ yield n
 ```
 
 
-Nous pouvons maintenant utiliser `for await...of` comme auparavant :
+Nous pouvons utiliser `for await...of` comme d'habitude :
 
 
 ```javascript
@@ -4928,18 +4929,18 @@ run()
 ```
 
 
-Cela vous permet de créer des objets qui peuvent être parcourus de manière asynchrone
+Cela vous permet de créer des objets qui peuvent être parcourus de manière asynchrone.
 
 
-## Assignment sucre syntaxique
+## Sucre syntaxique pour l'affectation
 
 <chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
 
 
-le "sucre syntaxique" consiste à écrire quelque chose d'une manière plus courte ou plus facile, sans changer ce qu'il fait. Il s'agit simplement d'une manière plus agréable de dire la même chose.
+Un "sucre syntaxique" consiste en l'écriture de quelque chose d'une manière plus courte ou plus facile, sans changer ce qu'il fait. Il s'agit simplement d'une manière plus agréable de dire la même chose.
 
 
-JavaScript dispose d'un sucre syntaxique intégré qui nous permet d'écrire des déclarations plus propres et plus courtes. Dans ce chapitre, nous verrons comment affecter des valeurs en fonction d'une condition, mettre à jour des variables avec des calculs mathématiques, extraire des valeurs de tableaux ou d'objets et les copier ou les combiner avec une syntaxe plus simple.
+JavaScript dispose d'un sucre syntaxique intégré qui nous permet de faire des déclarations plus propres et plus courtes. Dans ce chapitre, nous verrons comment affecter des valeurs en fonction d'une condition, mettre à jour des variables à l'aide de calculs mathématiques, extraire des valeurs de tableaux ou d'objets et les copier ou les combiner en utilisant une syntaxe plus simple.
 
 
 ### L'opérateur ternaire
@@ -4994,13 +4995,13 @@ console.log(isSunny ? "Go outside" : "Stay in")
 ```
 
 
-Veillez simplement à l'utiliser pour des décisions **simples**. Si la logique est complexe, utilisez `if...else`.
+Veillez simplement à l'utiliser pour des cas **simples**. Si la logique est complexe, utilisez `if...else`.
 
 
-### Opérateurs alternatifs Assignment
+### Autres opérateurs d'affectations
 
 
-JavaScript dispose de **opérateurs de raccourci** pour effectuer des affectations combinées à des opérations.
+JavaScript dispose d'**opérateurs raccourcis** pour effectuer des affectations combinées à des opérations.
 
 
 Examinons la méthode normale :
@@ -5021,7 +5022,7 @@ counter += 1 // same as counter = counter + 1
 ```
 
 
-Voici les plus courantes :
+Voici les doubles opérations les plus courantes :
 
 
 | Operator | Meaning             |
@@ -5062,7 +5063,7 @@ const colors = ["red", "green", "blue"]
 ```
 
 
-Au lieu de faire :
+Au lieu de faire ceci :
 
 
 ```javascript
@@ -5071,7 +5072,7 @@ const second = colors[1]
 ```
 
 
-Vous pouvez le faire :
+Vous pouvez faire :
 
 
 ```javascript
@@ -5079,15 +5080,15 @@ const [first, second] = colors
 ```
 
 
-Il s'agit d'une assignation :
+Ceci a pour effet d'affecter :
 
 
 
-- `premier` à `"red"`
-- `seconde` à `"Green"`
+- à `premier` la valeur `"red"`
+- à `seconde` la valeur `"Green"`
 
 
-Vous pouvez également sauter des valeurs :
+Vous pouvez également ignorer des valeurs :
 
 
 ```javascript
@@ -5099,7 +5100,7 @@ console.log(third) // blue
 #### Objets
 
 
-Vous pouvez également extraire des valeurs d'objets :
+Vous pouvez également extraire des valeurs contenues dans des objets :
 
 
 ```javascript
@@ -5111,7 +5112,7 @@ console.log(age)  // 30
 ```
 
 
-Si la propriété porte un nom différent de la variable souhaitée, vous pouvez la renommer :
+Si l'attribut porte un nom différent de la variable souhaitée, vous pouvez la renommer :
 
 
 ```javascript
@@ -5192,7 +5193,7 @@ Cette fonction est très utile pour mettre à jour des objets sans modifier l'or
 <chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
 
 
-Dans ce chapitre, nous allons apprendre un peu de contexte historique sur JavaScript et NodeJS.
+Dans ce chapitre, nous allons en apprendre un peu plus sur l'histoire de JavaScript et NodeJS.
 
 
 Le contexte historique est très important dans le domaine des logiciels, car nous utilisons souvent des outils construits par d'autres personnes et nous sommes donc influencés par les décisions prises dans le passé par ces dernières.
@@ -5204,13 +5205,13 @@ Comprendre la raison de ces décisions et comment les outils que nous utilisons 
 ### Origine de JavaScript
 
 
-JavaScript a commencé comme un simple langage conçu pour rendre les pages web interactives.
+JavaScript a été pensé pour être un langage simple, conçu pour rendre les pages web interactives.
 
 
-Dans les années 1990, les navigateurs web tels que Netscape Navigator ont ajouté JavaScript afin que les développeurs puissent écrire un code qui s'exécute directement dans le navigateur.
+Dans les années 1990, les premiers navigateurs web tel que Netscape Navigator ont ajouté le support JavaScript afin que les développeurs puissent écrire un code qui s'exécute directement dans le-dit navigateur.
 
 
-L'idée de départ était de faire de Java le langage de base pour la création de sites web (avec les "applets Java"), et de JavaScript pour les petites choses.
+L'idée de départ était de faire de Java le langage de base pour la création de sites web (avec les "applets Java"), et d'utiliser JavaScript pour des petites features.
 
 
 La conception de base a été réalisée par Brendan Eich, qui était à l'époque employé chez Netscape, en moins de deux semaines.
@@ -5225,16 +5226,16 @@ Mais la plupart des gens préféraient utiliser JavaScript plutôt que Java, et 
 JavaScript est un langage interprété, par opposition aux langages compilés comme le C.
 
 
-Le code écrit dans un langage compilé est transformé en binaire, et le binaire est transmis directement à l'unité centrale de l'ordinateur.
+Le code écrit dans un langage compilé est transformé en binaire, et le binaire est transmis directement au processeur de l'ordinateur.
 
 
 ![](assets/en/006.webp)
 
 
-Les langages prédéfinis, en revanche, tendent à être plus conviviaux et sont plus proches de la façon dont les humains pensent ("haut niveau") que de la façon dont les machines fonctionnent ("bas niveau") ; c'est pourquoi ils disposent généralement d'une machine virtuelle pour exécuter leur code.
+Les langages interprétés, en revanche, tendent à être plus conviviaux et sont plus proches de la façon dont les humains pensent ("haut niveau") que de la façon dont les machines fonctionnent ("bas niveau") ; c'est pourquoi ces langages interprétés disposent généralement d'une machine virtuelle pour exécuter leur code.
 
 
-Une machine virtuelle est un programme spécial qui s'interpose entre le code que vous écrivez et l'unité centrale, et qui exécute votre code (parce que l'unité centrale ne peut pas le comprendre).
+Une machine virtuelle est un programme spécial qui s'interpose entre le code que vous écrivez et le processeur, et qui exécute votre code (parce que le processeur ne peut pas le comprendre directement).
 
 
 Cela vous permet de programmer sans trop connaître la machine sous-jacente, mais cela a aussi un coût en termes de performances, car l'ordinateur n'exécute pas seulement votre programme ; il exécute un programme (la machine virtuelle) qui exécute votre programme.
@@ -5243,10 +5244,10 @@ Cela vous permet de programmer sans trop connaître la machine sous-jacente, mai
 Les applications web devenant de plus en plus complexes, il était nécessaire d'améliorer les performances de JavaScript. Le moteur V8 est l'interpréteur qui alimente JavaScript dans Google Chrome. Il a été développé par Google et lancé en 2008.
 
 
-Alors que les anciens moteurs JavaScript étaient principalement des machines virtuelles traditionnelles, le moteur V8 est un compilateur JIT (juste à temps).
+Alors que les anciens moteurs JavaScript étaient principalement des machines virtuelles traditionnelles, le moteur V8 est un compilateur Just In Time (JIT), ou juste à temps en français.
 
 
-Le code JavaScript est transmis au moteur V8, qui tente d'en compiler des parties sous forme de binaires natifs à la volée. Cela permet de bénéficier de l'expérience d'un langage de haut niveau, avec des performances un peu plus proches de celles des langages de bas niveau. Cela a fait de JavaScript le langage de haut niveau le plus rapide au monde, un peu comme le meilleur des deux mondes.
+Le code JavaScript est transmis au moteur V8, qui tente d'en compiler des parties sous forme de binaires natifs à la volée. Cela permet de bénéficier de l'expérience utilisateur d'un langage de haut niveau, avec des performances un peu plus proches de celles des langages de bas niveau. Cela a fait de JavaScript le langage de haut niveau le plus rapide au monde, un peu comme le meilleur des deux mondes.
 
 
 ### Le moteur d'exécution NodeJS
@@ -5321,7 +5322,7 @@ node my_script.js alpha beta
 ```
 
 
-Vous pouvez imprimer les arguments comme suit :
+Vous pouvez afficher les arguments comme suit :
 
 
 ```javascript
@@ -5329,7 +5330,7 @@ console.log(process.argv)
 ```
 
 
-Le résultat peut ressembler à ceci :
+Le résultat ressemblera à ceci :
 
 
 ```
@@ -5337,7 +5338,7 @@ Le résultat peut ressembler à ceci :
 ```
 
 
-Les deux premiers éléments sont toujours le chemin du nœud et le chemin de votre script. Tous les mots supplémentaires que vous avez transmis au script viennent ensuite.
+Les deux premiers éléments sont toujours le chemin du programme Node et le chemin de votre script Javascript. Tous les mots supplémentaires que vous avez transmis au script viennent ensuite.
 
 
 Le tableau `process.argv` peut être découpé comme n'importe quel autre tableau en utilisant la méthode `.slice()`, donc pour obtenir seulement les arguments qui ont été passés, vous pouvez faire
@@ -5350,7 +5351,7 @@ console.log(args)
 ```
 
 
-Il est fondamental d'avoir accès aux arguments que l'utilisateur transmet pour développer des applications en ligne de commande.
+Il est essentiel d'avoir accès aux arguments que l'utilisateur transmet pour développer des applications en ligne de commande.
 
 
 ## Modules
@@ -5364,13 +5365,13 @@ Les moteurs d'exécution JavaScript tels que NodeJS traitent généralement chaq
 Pensez à un module comme à une boîte. La boîte possède son propre espace privé, de sorte que les variables et les fonctions que vous y déclarez n'interfèrent pas avec le code des autres boîtes. En fait, chaque module a sa propre portée.
 
 
-Un module peut exporter une partie de son contenu pour le mettre à la disposition d'autres modules, et il peut importer le contenu que d'autres modules ont exporté. JavaScript vous permet d'exporter et d'importer du contenu entre modules, de connecter différents fichiers.
+Un module peut exporter une partie de son contenu pour le mettre à la disposition d'autres modules, et il peut importer le contenu que d'autres modules ont exporté. JavaScript vous permet d'exporter et d'importer du contenu entre modules, ainsi que de connecter différents fichiers.
 
 
 Un programme JavaScript est souvent composé de plusieurs modules, qui sont reliés les uns aux autres.
 
 
-Pourquoi utiliser des modules ? En divisant votre code en modules, vous pouvez organiser votre programme en parties plus petites, plus claires et réutilisables. Chaque module peut se concentrer sur un seul type de tâche, comme le traitement de calculs mathématiques, le travail avec des fichiers ou le formatage de texte.
+Pourquoi utiliser des modules ? En divisant votre code en modules, vous pouvez organiser votre programme en parties plus petites, plus claires et réutilisables. Chaque module peut se concentrer sur un seul type de tâche, comme le traitement de calculs mathématiques, les actions sur des fichiers ou le formatage de texte.
 
 
 ### Modules CommonJS
@@ -5395,7 +5396,7 @@ module.exports = greeting
 Ici, c'est la chaîne `"Hello !"` qui est exportée par ce module.
 
 
-Pour utiliser le code exporté d'un autre fichier, il faut utiliser la fonction `require()` avec le chemin de ce fichier :
+Pour utiliser le code exporté par un fichier, il faut utiliser la fonction `require()` avec le chemin de ce fichier :
 
 
 ```javascript
@@ -5405,7 +5406,7 @@ console.log(greeting)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -5490,10 +5491,10 @@ console.log(os.platform())
 Vous n'avez pas besoin d'installer ces modules intégrés, ils sont fournis avec NodeJS. Ils constituent la "bibliothèque standard" du moteur d'exécution et sont utilisés par la plupart des applications Node pour effectuer des opérations telles que la lecture de fichiers ou la communication via l'internet.
 
 
-Les chapitres suivants vous donneront quelques exemples utiles de leur utilisation.
+Les chapitres suivants vous donneront quelques exemples utiles.
 
 
-## Le module `fs
+## Le module `fs`
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5501,7 +5502,7 @@ Les chapitres suivants vous donneront quelques exemples utiles de leur utilisati
 Le module `fs` (abréviation de **file system**) fait partie de la bibliothèque standard de NodeJS. Il vous permet de travailler avec des fichiers et des répertoires sur votre ordinateur : vous pouvez lire des fichiers, écrire des fichiers, les supprimer, les renommer, et plus encore.
 
 
-Pour l'utiliser, vous devez d'abord l'importer en tête de votre fichier :
+Pour l'utiliser, vous devez d'abord l'importer au début de votre fichier :
 
 
 ```javascript
@@ -5545,7 +5546,7 @@ console.log("File written!")
 ```
 
 
-Cela crée (ou écrase) un fichier appelé `output.txt` avec le texte.
+Cela crée (ou écrase) un fichier appelé `output.txt` avec le texte passé en argument.
 
 
 Voici quelques opérations courantes que vous pouvez effectuer avec cette API :
@@ -5554,27 +5555,27 @@ Voici quelques opérations courantes que vous pouvez effectuer avec cette API :
 ```javascript
 const fs = require("fs")
 
-// List files and folders
+// Liste les fichiers et dossiers
 const items = fs.readdirSync(".")
 console.log("Items in current directory:", items)
 
-// Create folder
+// Créer un dossier
 fs.mkdirSync("my_folder")
 console.log("Folder created")
 
-// Delete folder
+// Supprimer un dossier
 fs.rmdirSync("my_folder")
 console.log("Folder deleted")
 
-// Create & write file
+// Créer et écrire dans un fichier
 fs.writeFileSync("my_file.txt", "Hello world")
 console.log("File created & written")
 
-// Read file
+// Lire un fichier
 const content = fs.readFileSync("my_file.txt", "utf8")
 console.log("File content:", content)
 
-// Delete file
+// Supprimer un fichier
 fs.unlinkSync("my_file.txt")
 console.log("File deleted")
 ```
@@ -5583,10 +5584,10 @@ console.log("File deleted")
 L'API Sync est simple et adaptée aux petits scripts, mais comme elle bloque le programme jusqu'à ce qu'il soit terminé, elle peut ralentir les choses si vous travaillez avec de gros fichiers ou un serveur.
 
 
-### API asynchrone de rappel
+### API asynchrone de callback
 
 
-L'API **callback** est non bloquante : elle permet à NodeJS de continuer à faire d'autres choses pendant que l'opération de fichier se déroule.
+L'API **callback** est non bloquante : elle permet à NodeJS de continuer à faire d'autres choses pendant que l'opération sur un fichier se fait.
 
 
 Au lieu de renvoyer directement le résultat, il prend une fonction (un **callback**) qui est appelée lorsque l'opération est terminée.
@@ -5605,7 +5606,7 @@ console.log(data)
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 
@@ -5644,37 +5645,37 @@ Quelques exemples de ce que vous pouvez faire avec cette API :
 ```javascript
 const fs = require("fs")
 
-// List files and folders
+// Lister les fichiers et dossier
 fs.readdir(".", (err, items) => {
 if (err) return console.error(err)
 console.log("Items in current directory:", items)
 })
 
-// Create folder
+// Créer un dossier
 fs.mkdir("my_folder", (err) => {
 if (err) return console.error(err)
 console.log("Folder created")
 })
 
-// Delete folder
+// Supprimer un dossier
 fs.rmdir("my_folder", (err) => {
 if (err) return console.error(err)
 console.log("Folder deleted")
 })
 
-// Create & write file
+// Créer et écrire dans un fichier
 fs.writeFile("my_file.txt", "Hello world", (err) => {
 if (err) return console.error(err)
 console.log("File created & written")
 })
 
-// Read file
+// Lire un fichier
 fs.readFile("my_file.txt", "utf8", (err, content) => {
 if (err) return console.error(err)
 console.log("File content:", content)
 })
 
-// Delete file
+// Supprimer un fichier
 fs.unlink("my_file.txt", (err) => {
 if (err) return console.error(err)
 console.log("File deleted")
@@ -5682,16 +5683,16 @@ console.log("File deleted")
 ```
 
 
-L'API de rappel est meilleure pour les serveurs et les tâches importantes car elle ne bloque pas le programme, mais les rappels imbriqués peuvent devenir gênants si vous enchaînez de nombreuses opérations. C'est pourquoi une API asynchrone basée sur des promesses a été ajoutée.
+L'API callback est meilleure pour les serveurs et les tâches importantes car elle ne bloque pas le programme, mais les callback imbriqués peuvent devenir gênants si vous enchaînez de nombreuses opérations. C'est pourquoi une API asynchrone basée sur des promesses a été ajoutée.
 
 
-### API asynchrone à promesse
+### API asynchrone basé sur les promesses
 
 
 L'API basée sur les promesses est moderne et fonctionne très bien avec `.then()` et `async/await`. Elle est disponible sous la forme `fs.promises`.
 
 
-Vous devez importer la propriété `promesses` :
+Vous devez importer l'attribut `promesses` du module `fs` :
 
 
 ```javascript
@@ -5759,29 +5760,29 @@ La liste habituelle des exemples pour l'API :
 ```javascript
 const fs = require("fs").promises
 
-// Use an async function to await operations
+// Utilise une fonction asynchrone pour attendre une action
 async function main() {
-// List files and folders
+// Liste les fichiers et dossiers
 const items = await fs.readdir(".")
 console.log("Items in current directory:", items)
 
-// Create folder
+// Crée un dossier
 await fs.mkdir("my_folder")
 console.log("Folder created")
 
-// Delete folder
+// Supprime un dossier
 await fs.rmdir("my_folder")
 console.log("Folder deleted")
 
-// Create & write file
+// Créer et écrire dans un fichier
 await fs.writeFile("my_file.txt", "Hello world")
 console.log("File created & written")
 
-// Read file
+// Lire un fichier
 const content = await fs.readFile("my_file.txt", "utf8")
 console.log("File content:", content)
 
-// Delete file
+// Supprime un fichier
 await fs.unlink("my_file.txt")
 console.log("File deleted")
 }
@@ -5806,12 +5807,12 @@ Un gestionnaire de paquets est un outil qui :
 
 
 
-- paquets de téléchargements
+- télécharge des paquets
 - garde la trace des paquets dont votre projet a besoin
 - s'assure que tous les membres de l'équipe disposent des mêmes versions des paquets
 
 
-### Qu'est-ce que la NPM ?
+### Qu'est-ce que NPM ?
 
 
 Dans le monde NodeJS, le gestionnaire de paquets le plus populaire est **NPM**, qui signifie *Node Package Manager*.
@@ -5828,7 +5829,7 @@ npm -v
 ```
 
 
-Ceci imprime la version de NPM que vous avez, comme :
+Ceci affiche la version de NPM que vous avez, comme :
 
 
 ```
@@ -5908,7 +5909,7 @@ Voici un exemple :
 ```
 
 
-Quelques domaines importants :
+Quelques champs importants :
 
 
 
@@ -5922,7 +5923,7 @@ Quelques domaines importants :
 ### Installation d'un paquet
 
 
-Disons que vous voulez utiliser un certain paquet appelé `picocolors` pour ajouter des couleurs à la sortie de votre terminal.
+Supposons que vous vouliez utiliser un certain paquet appelé `picocolors` pour ajouter des couleurs à la sortie de votre terminal.
 
 
 Vous pouvez l'installer en exécutant :
@@ -5945,15 +5946,15 @@ pico.green("This text is green!")
 ```
 
 
-et essayez de l'exécuter. Le terminal devrait imprimer une version colorée du texte.
+et essayez de l'exécuter. Le terminal devrait afficher une version colorée du texte.
 
 
-Qu'a fait le mécanisme national de prévention ?
+Qu'a fait NPM ?
 
 
 
 - Il a téléchargé le paquet et l'a stocké dans un sous-dossier appelé `node_modules/`
-- il a ajouté une entrée sous `dependencies` dans votre `package.json`
+- il a ajouté une entrée dans `dependencies` dans votre `package.json`
 - il a mis à jour le fichier `package-lock.json`
 
 
@@ -5972,7 +5973,7 @@ En voici la raison :
 
 
 
-- `package.json` indique simplement quelle version **gamme** d'un paquet est nécessaire à votre projet.
+- `package.json` indique simplement quelle **fourchette de version** d'un paquet est nécessaire à votre projet.
 
 Exemple :
 
@@ -5988,7 +5989,7 @@ Le `^1.1.0` signifie "toute version compatible avec 1.1.x", donc flexible.
 
 
 
-- `package-lock.json` **gèle** les versions exactes de chaque paquet et de leurs sous-dépendances, de sorte que tous ceux qui installent votre projet obtiennent exactement la même configuration de travail.
+- `package-lock.json` **gèle** les versions exactes de chaque paquet et de leurs sous-dépendances, de sorte que tous ceux qui installent votre projet obtiennent exactement la même configuration de travail que vous.
 
 
 Pourquoi est-ce important ?
@@ -5996,16 +5997,16 @@ Pourquoi est-ce important ?
 
 Si vous travaillez en équipe, si vous déployez votre projet sur un serveur ou si vous y revenez à l'avenir, vous voulez vous assurer qu'il fonctionne toujours de la même manière.
 
-Si les paquets ont été mis à jour et que vous réinstallez sans fichier de verrouillage, vous pouvez obtenir une version légèrement différente qui se comporte différemment.
+Si les paquets ont été mis à jour et que vous réinstallez sans fichier de verrouillage (communément appelé un **lock**), vous pouvez obtenir une version légèrement différente qui se comporte différemment.
 
 
-En gardant le `package-lock.json` dans votre projet, NPM installera toujours les versions exactes qui y sont listées, s'assurant que tout le monde a le même environnement.
+En conservant le `package-lock.json` dans votre projet, NPM installera toujours les versions exactes qui y sont listées, s'assurant que tout le monde a le même environnement.
 
 
 `package-lock.json` verrouille tout à une version très spécifique, pour rendre le projet plus reproductible sur d'autres machines.
 
 
-Mais si votre paquet doit être utilisé par de nombreuses personnes, vous pouvez choisir de ne pas le livrer, afin que NPM ne trouve que le fichier `package.json` et qu'il soit autorisé à installer automatiquement les dernières versions autorisées dans ce fichier.
+Mais si votre paquet doit être utilisé par de nombreuses personnes, vous pouvez choisir de ne pas fournir le `package-lock.json`, pour que NPM ne trouve que le fichier `package.json` et qu'il soit autorisé à installer automatiquement les dernières versions autorisées dans ce fichier.
 
 
 Mais ce sont des choses dont vous devrez vous préoccuper plus tard, lorsque vous commencerez à publier votre propre code. Pour l'instant, nous avons présenté les bases de NPM pour vous permettre de trouver et d'utiliser les bibliothèques publiées par d'autres développeurs dans vos projets.
@@ -6020,7 +6021,7 @@ Mais ce sont des choses dont vous devrez vous préoccuper plus tard, lorsque vou
 NodeJS est souvent utilisé comme langage pour le backend : vous pouvez transformer votre script en serveur et l'utiliser pour envoyer des requêtes à d'autres serveurs.
 
 
-Dans ce chapitre, nous allons présenter quelques fonctions de réseau de base qui vous permettront de le faire.
+Dans ce chapitre, nous allons présenter quelques fonctionnalités réseau de base qui vous permettront d'interagir avec un serveur.
 
 
 ### `fetch()`
@@ -6056,17 +6057,17 @@ Lorsque vous exécutez ce programme, vous verrez quelque chose comme :
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 1. `fetch()` prend une URL et fait une requête.
 
 2. Elle renvoie une **Promesse** qui se résout en un objet `Response`.
 
-3. `response.text()` lit le corps de la réponse sous forme de chaîne.
+3. `response.text()` lit le corps de la réponse sous forme de chaîne de caractères.
 
 
-Mais la chaîne que vous obtenez en retour est en fait JSON. Qu'est-ce que c'est ?
+Mais la chaîne que vous obtenez en retour est en fait du JSON. Qu'est-ce que c'est ?
 
 
 ### JSON
@@ -6075,7 +6076,7 @@ Mais la chaîne que vous obtenez en retour est en fait JSON. Qu'est-ce que c'est
 Lorsque l'on travaille avec des API web, les données sont souvent envoyées et reçues sous forme de **JSON**, ce qui signifie JavaScript Object Notation.
 
 
-JSON est un format de texte qui ressemble beaucoup aux objets JavaScript. Par exemple, JSON est un format de texte qui ressemble beaucoup aux objets JavaScript :
+JSON est un format de texte qui ressemble beaucoup aux objets JavaScript. Par exemple :
 
 
 ```json
@@ -6102,7 +6103,7 @@ console.log(jsonString)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6122,7 +6123,7 @@ console.log(obj)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6130,7 +6131,7 @@ Cette empreinte :
 ```
 
 
-Attention : `JSON.parse()` lancera une erreur si la chaîne n'est pas du JSON valide.
+Attention : `JSON.parse()` renverra une erreur si la chaîne n'est pas du JSON valide.
 
 
 ```javascript
@@ -6197,14 +6198,14 @@ Exemple avec routage :
 
 ```javascript
 const server = http.createServer((req, res) => {
-if (req.url === "/") { // handle requests for the root of the website
+if (req.url === "/") { // gère les requêtes vers la racine du site web
 res.statusCode = 200
 res.end("Home page")
-} else if (req.url === "/about") { // handle requests for the about page
+} else if (req.url === "/about") { // gère les requêts de la page **about** (à propos)
 res.statusCode = 200
 res.end("About page")
 } else {
-res.statusCode = 404 // we send a 404 status code to signal that the requested page is missing
+res.statusCode = 404 // nous renvoyons un code d'erreur 404 pour indiquer que la page demandé est introuvable
 res.end("Not Found")
 }
 })
@@ -6223,24 +6224,24 @@ Dans ce chapitre, nous présenterons principalement trois classes d'objets :
 
 
 
-- `Buffer`, qui représente de petits morceaux de données binaires
+- `Buffer`, ou tampon, qui représente de petits morceaux de données binaires
 - `EventEmitter`, qui peut être utilisé pour suivre une étape d'un processus asynchrone en émettant des signaux appelés "événements"
 - `Stream`, qui nous permet de traiter de grandes portions de données, un `Buffer` à la fois, et qui suit le processus en émettant des événements
 
 
-Ils sont extrêmement courants dans le code NodeJS professionnel, donc même si vous ne les utilisez pas dans vos premiers projets, il est bon d'avoir une compréhension de base pour savoir quand vous aurez besoin d'interagir avec eux. d'eux
+Ces éléments sont extrêmement courants dans le code NodeJS professionnel, donc même si vous ne les utilisez pas dans vos premiers projets, il est bon d'avoir des notions de base à leurs sujets pour savoir quand vous aurez besoin d'interagir avec eux.
 
 
-### Tampons
+### Tampons (buffers)
 
 
-En NodeJS, un **tampon** est un type d'objet utilisé pour travailler avec des données binaires.
+En NodeJS, un **buffer** est un type d'objet utilisé pour travailler avec des données binaires.
 
 
-Vous pouvez considérer une mémoire tampon comme un conteneur de taille fixe pour les octets bruts.
+Vous pouvez considérer un buffer comme un conteneur de taille fixe pour les octets bruts.
 
 
-Voici comment créer un tampon à partir d'une chaîne de caractères :
+Voici comment créer un buffer à partir d'une chaîne de caractères :
 
 
 ```javascript
@@ -6257,7 +6258,7 @@ Cela donne quelque chose comme :
 ```
 
 
-Ces nombres (`68`, `65`, `6c`, etc.) sont des représentations hexadécimales des lettres de `"hello"`.
+Ces nombres (`68`, `65`, `6c`, etc.) sont des représentations hexadécimales des lettres du mot `"hello"`.
 
 
 Vous pouvez le reconvertir en chaîne de caractères comme suit :
@@ -6268,7 +6269,7 @@ console.log(buf.toString())
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6276,7 +6277,7 @@ hello
 ```
 
 
-Vous pouvez également créer un tampon d'une certaine taille rempli de zéros :
+Vous pouvez également créer un buffer d'une certaine taille rempli de zéros :
 
 
 ```javascript
@@ -6293,7 +6294,7 @@ Cela donne quelque chose comme :
 ```
 
 
-Vous pouvez écrire dans la mémoire tampon :
+Vous pouvez écrire dans le buffer :
 
 
 ```javascript
@@ -6306,11 +6307,11 @@ Et vous pouvez accéder à des octets individuels :
 
 
 ```javascript
-console.log(buf[0]) // prints the ASCII number for 'a', which is 97
+console.log(buf[0]) // affiche le numero de caractère ASCII de la lettre 'a', qui est 97
 ```
 
 
-Les tampons sont particulièrement utiles lorsque vous devez manipuler des données à un niveau très bas.
+Les buffers sont particulièrement utiles lorsque vous devez manipuler des données à un niveau très bas, c'est à dire des données compréhensibles par le processeur. 
 
 
 ### Evénements
@@ -6326,10 +6327,10 @@ Par exemple :
 - le chargement d'un fichier se termine
 - une minuterie se déclenche
 - un utilisateur clique sur un bouton
-- une demande de réseau renvoie des données
+- une requête réseau renvoie des données
 
 
-Un **événement** est simplement un signal indiquant que quelque chose s'est produit, et vous pouvez écrire du code pour écouter ces événements et y réagir.
+Un **événement** est simplement un signal indiquant que quelque chose s'est produit, et vous pouvez écrire du code pour surveiller l'arrivé de ces événements et y réagir.
 
 
 En NodeJS, de nombreux objets peuvent émettre des événements. Ces objets sont appelés **EventEmitters**.
@@ -6343,17 +6344,17 @@ const EventEmitter = require("events")
 
 const emitter = new EventEmitter()
 
-// Listen for an event
+// Surveille l'arrivé d'un évènement
 emitter.on("greet", () => {
-console.log("Hello! An event happened.") // this will get printed when a "greet" event gets fired
+console.log("Hello! An event happened.") // ceci s'affichera lorsqu'un évènement "greet" arrivera
 })
 
-// Emit the event
+// Emet l'évènement
 emitter.emit("greet")
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6381,11 +6382,11 @@ emitter.on("greet",
 (name) => console.log(`Hello, ${name}!`)
 )
 
-emitter.emit("greet", "Alice") // first argument is the type of event, second argument is the data we pass with this event
+emitter.emit("greet", "Alice") // le premier argument est du type évènement, le second argument sont les données que nous voulons transmettre avec cet évènement
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -6412,13 +6413,13 @@ De nombreux objets en NodeJS émettent des événements pour informer le reste d
 
 
 
-### Qu'est-ce qu'un cours d'eau ?
+### Qu'est-ce qu'un flux (**stream**) ?
 
 
-Les flux combinent des tampons et des événements pour nous aider à traiter les données.
+Les flux combinent des buffers et des événements pour nous aider à traiter les données.
 
 
-Lorsque nous travaillons avec des fichiers, des données provenant du réseau ou même de longs textes, nous n'avons pas toujours besoin (ou envie) de tout charger en mémoire en une seule fois. Cela peut être lent, voire faire planter le programme si les données sont trop volumineuses.
+Lorsque nous travaillons avec des fichiers, des données provenant du réseau ou même de longs texte, nous n'avons pas toujours besoin (ou envie) de tout charger en mémoire en une seule fois. Cela peut être lent, voire faire planter le programme si les données sont trop volumineuses.
 
 
 Au lieu de cela, nous pouvons traiter les données **petit à petit**, au fur et à mesure qu'elles arrivent ou sont lues, un peu comme si nous buvions de l'eau avec une paille au lieu d'essayer de boire tout le verre d'un coup. C'est ce qu'on appelle un **flux**.
@@ -6431,16 +6432,18 @@ NodeJS dispose de quatre types principaux de flux :
 
 
 
-- **Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
-- **Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
-- **Duplex** : flux qui sont à la fois lisibles et inscriptibles
-- **Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
+
+- **Readable**, **Lisible** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
+- **Writable**, **Inscriptible** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
+- **Duplex** : flux qui sont à la fois Readable et Writable
+- **Transform** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
 
 
-### Flux lisibles
+
+### Readable streams
 
 
-Disons que vous avez un `gros fichier.txt` à traiter. Vous pouvez créer un flux lisible avec le module `fs` pour lire le fichier morceau par morceau.
+Imaginons que vous ayez un `gros fichier.txt` à traiter. Vous pouvez créer un flux lisible avec le module `fs` pour lire le fichier morceau par morceau.
 
 
 ```javascript
@@ -6469,17 +6472,17 @@ Que se passe-t-il ici ?
 
 1. `fs.createReadStream()` crée un flux lisible.
 
-2. Chaque fois qu'un morceau du fichier est prêt, le flux émet un événement `data` et nous donne un "morceau" de données (un `Buffer`). Nous imprimons le morceau.
+2. Chaque fois qu'un morceau du fichier est prêt, le flux émet un événement `data` et nous donne un "morceau" de données (un `Buffer`). Nous affichons ce morceau.
 
 3. Lorsque tout le fichier a été lu, l'événement `end` est déclenché.
 
 4. En cas d'erreur (par exemple, si le fichier n'existe pas), l'événement `error` est déclenché.
 
 
-De cette façon, vous pouvez lire des fichiers géants sans les charger tous en même temps dans la mémoire.
+De cette façon, vous pouvez lire des fichiers gigantesques sans les charger tous en même temps dans la mémoire.
 
 
-Si nous voulons que les données arrivent sous une forme lisible par l'homme (au lieu d'une forme binaire), nous pouvons spécifier l'encodage du flux :
+Si nous voulons que les données arrivent sous une forme lisible par les développeurs et les utilisateurs (au lieu d'une forme binaire), nous pouvons spécifier l'encodage du flux :
 
 
 ```javascript
@@ -6487,7 +6490,7 @@ const fs = require("fs")
 
 const readableStream = fs.createReadStream(
 "bigfile.txt",
-{ encoding: "utf8" } // we tell NodeJS that the file should be read as utf8
+{ encoding: "utf8" } //  nous indiquons à NodeJS que ce fichier doit pouvoir être lu au format utf8
 )
 
 readableStream.on("data", (chunk) => {
@@ -6504,7 +6507,7 @@ console.error("Error reading file:", err)
 ```
 
 
-Le code imprimera maintenant le fichier sous une forme lisible par l'homme.
+Le code affichera maintenant le fichier sous une forme lisible par un humain.
 
 
 ### Flux inscriptibles
@@ -6535,7 +6538,7 @@ console.error("Error:", err)
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 1. `fs.createWriteStream()` crée un flux inscriptible.
@@ -6552,10 +6555,10 @@ Voici ce qui se passe :
 Tout comme les flux lisibles, les flux inscriptibles sont adaptés aux données volumineuses car ils n'ont pas besoin de tout conserver en mémoire en même temps.
 
 
-### Courants de tuyauterie
+### Piping streams
 
 
-L'un des aspects les plus intéressants des flux est qu'il est possible de les **pipe** ensemble : connecter un flux lisible directement à un flux inscriptible.
+L'un des aspects les plus intéressants des flux est qu'il est possible de les **emboiter** ensemble : connecter un flux lisible directement à un flux inscriptible.
 
 
 ```javascript
@@ -6577,7 +6580,7 @@ Ici :
 - `.pipe()` envoie les données directement du flux lisible au flux inscriptible.
 
 
-### Flux recto-verso
+### Flux recto-verso (Duplex stream)
 
 
 Un flux duplex est à la fois lisible et inscriptible. Un exemple est une prise réseau : vous pouvez lui envoyer des données et en recevoir d'elle.
@@ -6594,7 +6597,7 @@ socket.write("Welcome!\n")
 
 socket.on("data", (chunk) => {
 console.log("Received:",
-chunk.toString()  // we convert the chunk of data from Buffer to string
+chunk.toString()  // nous convertissons le bloc de donnéee stocké dans un buffer en une chaine de caractères
 )
 })
 })
@@ -6613,7 +6616,7 @@ Dans cet exemple :
 - Vous pouvez y `écrire()` et aussi écouter les événements `data` qu'il émet.
 
 
-### Transformer les flux
+### Flux de transformation (Transform streams)
 
 
 Un flux de transformation est un flux duplex qui modifie également les données qui le traversent.
@@ -6629,13 +6632,13 @@ Voici comment compresser un fichier à l'aide d'un flux de transformation :
 const fs = require("fs")
 const zlib = require("zlib")
 
-const readable = fs.createReadStream("bigfile.txt")     // create a readable stream that reads from a file
-const zip = zlib.createGzip()                           // create a transform stream that compresses data
-const writable = fs.createWriteStream("bigfile.txt.gz") // create a writable stream that writes to a file
+const readable = fs.createReadStream("bigfile.txt")     // crée un flux lisible qui lit depuis un fichier
+const zip = zlib.createGzip()                           // crée un flux de transformation qui compresse les données
+const writable = fs.createWriteStream("bigfile.txt.gz") // crée un flux inscriptible qui écrit dans un fichier
 
-readable          // take the readable stream
-.pipe(zip)      // pipe it into the transform stream to compress the data
-.pipe(writable) // then pipe it into the writable stream that saves the data to a zipped file
+readable          // prend le flux lisible
+.pipe(zip)      // puis le relie au flux de transformation qui compresse les donnéess 
+.pipe(writable) // puis le relie au flux inscriptible qui écrit dans un fichier zippé
 
 writable.on("finish", () => {
 console.log("File compressed.")
@@ -6643,7 +6646,7 @@ console.log("File compressed.")
 ```
 
 
-Et de la décompresser :
+Et voici comment le décompresser :
 
 
 ```javascript
@@ -6659,13 +6662,13 @@ console.log("File decompressed.")
 ```
 
 
-Les flux de transformation sont très utiles pour des tâches telles que la compression, le cryptage ou le changement de format de fichier pendant la diffusion.
+Les flux de transformation sont très utiles pour des tâches telles que la compression, le chiffrement ou le changement de format de fichier pendant la diffusion.
 
 
-### Contre-pression
+### Contre-pression (Backpressure)
 
 
-Il arrive qu'un flux inscriptible soit lent à traiter les données. Si nous continuons à envoyer des données à un flux inscriptible plus rapidement qu'il ne peut le faire, nous risquons de rencontrer des problèmes. C'est ce qu'on appelle la **rétropression**.
+Il arrive qu'un flux inscriptible soit lent à traiter les données. Si nous continuons à envoyer des données à un flux inscriptible plus rapidement qu'il ne peut le faire, nous risquons de rencontrer des problèmes. C'est ce qu'on appelle la **contre-pression**.
 
 
 Si vous appelez la méthode `.write()` sur un flux inscriptible, elle renvoie un booléen qui vous informe si le flux a besoin d'une pause ; vous devrez peut-être vérifier sa valeur de retour, comme ceci :
@@ -6676,26 +6679,26 @@ const fs = require("fs")
 
 const readable = fs.createReadStream("example.txt")
 const writable = fs.createWriteStream("copy.txt")
-r
-readable.on("data", chunk => {               // each chunk of data we read from the readable stream...
 
-const canContinue = writable.write(chunk)  // ...we send it to the writable, which returns us a boolean to confirm we can continue
+readable.on("data", chunk => {               // chaque bloc de donnée que nous lisons depuis le flux lisible...
 
-if (!canContinue) { readable.pause() }     // ...if we can't, we temporarily pause reading
+const canContinue = writable.write(chunk)  // ...nous l'envoyons vers le flux inscriptible, qui nous retourne un booléen pour indiquer si nous pouvons continuer ou pas
+
+if (!canContinue) { readable.pause() }     // ...si nous ne pouvons pas, nous faisons une pause
 })
 
-writable.on("drain",                // the writable stream emits a "drain" event when the backpressure is gone
+writable.on("drain",                // le flux inscriptible émet un "drain" event, ou évènement "purge", lorsque la contre-pression a disparu
 
-() => { readable.resume() }      // so we resume reading (and writing)
+() => { readable.resume() }      // donc nous reprenons la lecture
 
 )
 ```
 
 
-Il s'agissait d'un exemple illustrant le transfert manuel de données d'un support lisible à un support inscriptible et la gestion manuelle de la contre-pression.
+Il s'agissait ci-dessus d'un exemple illustrant le transfert manuel de données d'un flux lisible vers un flux inscriptible et la gestion manuelle de la contre-pression.
 
 
-Habituellement, nous acheminons les données à l'aide de la méthode `.pipe()`, qui gère automatiquement la contre-pression.
+Généralement, nous choisissons d'utiliser la méthode `.pipe()` qui gère automatiquement la contre-pression.
 
 
 Vous n'avez donc à vous soucier de la contre-pression que lorsque, pour une raison quelconque, vous appelez manuellement `.write()`.
@@ -6715,7 +6718,7 @@ C'est exactement ce que je vous conseille de faire : après avoir appris les bas
 Ce que vous construisez n'a pas vraiment d'importance, ce qui compte c'est que vous vous mettiez au défi de résoudre des problèmes à l'aide du code.
 
 
-Les langages de programmation modernes sont incroyablement puissants, et NodeJS est probablement la meilleure boîte à outils à expérimenter dans cette phase de votre parcours.
+Les langages de programmation modernes sont incroyablement puissants, et NodeJS est probablement la meilleure boîte à outils à utiliser dans cette phase de votre parcours.
 
 
 Bonne chance !

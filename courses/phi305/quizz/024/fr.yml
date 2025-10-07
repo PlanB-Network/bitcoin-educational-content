@@ -1,4 +1,4 @@
-question: La scolastique est-elle  ?
+question: Qu’est-ce que la scolastique?
 answer: Une philosophie du Moyen-Âge.
 wrong_answers:
   - Une philosophie de l'époque moderne.

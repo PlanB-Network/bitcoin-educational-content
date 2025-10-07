@@ -67,7 +67,7 @@ Kisha unda msimbo wa PIN ili kuthibitisha ufikiaji wa Wallet yako.
 
 
 
-Biashara na Blitz ni angavu zaidi kuliko pochi zingine nyingi za Bitcoin.
+Biashara na Blitz ni angavu zaidi kuliko Wallet zingine nyingi za Bitcoin.
 
 
 
@@ -127,7 +127,7 @@ Blitz Wallet hukurahisishia kutuma bitcoins kutoka Wallet yake.
 
 
 
-Katika menyu ya **Anwani**, unaweza kusajili majina ya watumiaji ya Blitz au URL za Umeme unazotumia kuwasiliana nazo zaidi.
+Katika menyu ya **address**, unaweza kusajili majina ya watumiaji ya Blitz au URL za Umeme unazotumia kuwasiliana nazo zaidi.
 
 
 
@@ -163,7 +163,7 @@ Kiasi cha chini cha kutuma Bitcoin katika Blitz Wallet kwa sasa ni satoshi 1,000
 
 
 
-Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo unaweza kutumia bitcoins zako kulipia huduma za kidijitali.
+Kando na miamala ya uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo unaweza kutumia bitcoins zako kulipia huduma za kidijitali.
 
 
 
@@ -201,7 +201,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
-## Wallet Blitz nyuma ya pazia: Kwenda mbele zaidi
+## Wallet Blitz nyuma ya pazia: Kuenda mbele zaidi
 
 
 
@@ -235,7 +235,7 @@ Blitz Wallet, hata hivyo, hukupa wepesi wa kuwezesha hali ya Mwanga, ambayo itak
 
 
 
-Ili kuamilisha hali ya Umeme, nenda kwa **Mipangilio**, kisha katika sehemu ya **Mipangilio ya Kiufundi**, bofya kwenye chaguo la **Maelezo ya Nodi**.
+Ili kuamilisha hali ya Umeme, nenda kwa **Mipangilio**, kisha katika sehemu ya **Mipangilio ya Kiufundi**, bofya kwenye chaguo la **Maelezo ya Node**.
 
 
 
@@ -243,7 +243,7 @@ Ili kuamilisha hali ya Umeme, nenda kwa **Mipangilio**, kisha katika sehemu ya *
 
 
 
-Kwa kuwezesha hali ya Umeme, mara tu hali kuu itakapotimizwa (salio la satoshi 500,000 au 0.005 Bitcoin), utaweza kufanya miamala kwenye Lightning Network na hutalazimika tena kupitia Liquid Network ya BlockStream.
+Kwa kuwezesha hali ya Lightning, mara tu hali kuu itakapotimizwa (salio la satoshi 500,000 au 0.005 Bitcoin), utaweza kufanya miamala kwenye Lightning Network na hutalazimika tena kupitia Liquid Network ya BlockStream.
 
 
 

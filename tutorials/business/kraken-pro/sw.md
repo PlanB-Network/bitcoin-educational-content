@@ -1,5 +1,5 @@
 ---
-name: Kraken - Kampuni
+name: Kraken - pro
 description: Kuunda na kusimamia akaunti ya kampuni ya Kraken
 ---
 ![cover](assets/cover.webp)
@@ -16,8 +16,8 @@ Ikiwa ungependa somo la kuunganisha Bitcoin kwenye biashara yako, ningependekeza
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
-## 1 - Kuunda akaunti ya kampuni ya Kraken
-
+## 1 - Kuunda akaunti ya kampuni ya
+kraken-pro
 
 Hatua ya kwanza ya kutumia Kraken kudhibiti fedha za kampuni yako ni, bila shaka, kuunda akaunti. Hapa, hatutafungua akaunti ya watu binafsi, lakini akaunti ya shirika, ambayo sio tu inahakikisha uzingatiaji wa udhibiti, lakini pia inatoa vipengele maalum kama vile mauzo ya uhasibu.
 
@@ -55,7 +55,7 @@ Fungua barua pepe hii na ubofye "*Amilisha Akaunti*" au weka msimbo wa tarakimu 
 ## 2 - Uthibitishaji wa akaunti ya kampuni
 
 
-Baada ya kufungua akaunti yako, utahitaji kukamilisha mchakato wa uthibitishaji wa KYC (*Mjue Mteja Wako*) kwa akaunti za shirika. Hatua hii inaruhusu Kraken kuthibitisha uhalali wa kampuni yako na kufuata kanuni za kifedha.
+Baada ya kufungua akaunti yako, utahitaji kukamilisha mchakato wa uthibitishaji wa KYC (*know your client*) kwa akaunti za shirika. Hatua hii inaruhusu Kraken kuthibitisha uhalali wa kampuni yako na kufuata kanuni za kifedha.
 
 
 Bonyeza kitufe cha "*Endelea*".
@@ -88,7 +88,7 @@ Baada ya akaunti yako kuthibitishwa, utafikia jukwaa ambapo utapewa violesura vi
 
 
 - **Kraken**: Interface iliyorahisishwa inayotoa utendaji muhimu.
-- **Kraken Pro**: Interface ya hali ya juu iliyo na vipengele vya ziada, haswa kwa biashara.
+- **Kraken Pro**: Interface ya hali ya juu iliyo na elements za ziada, haswa kwa biashara.
 
 
 Ikiwa lengo lako ni kununua na kuuza Bitcoin pekee, chagua Interface iliyorahisishwa. Utakuwa na chaguo la kubadilisha hadi Interface ya hali ya juu baadaye ikiwa ni lazima.
@@ -97,7 +97,7 @@ Ikiwa lengo lako ni kununua na kuuza Bitcoin pekee, chagua Interface iliyorahisi
 ![KRAKEN](assets/fr/09.webp)
 
 
-Kwanza kabisa, ni muhimu sana kulinda akaunti yako ili kuzuia ufikiaji usioidhinishwa. Mbali na nenosiri dhabiti lililoanzishwa wakati wa usajili, tutakuwa tukitekeleza uthibitishaji maradufu. Hii ina maana kwamba kila wakati unapoingia kwenye akaunti yako ya Kraken, hutahitaji tu nenosiri lako, lakini pia kipengele cha pili cha uthibitishaji, ambacho kinaweza kuwa ufunguo halisi au msimbo unaozalishwa na programu ya uthibitishaji.
+Kwanza kabisa, ni muhimu sana kulinda akaunti yako ili kuzuia ufikiaji usioidhinishwa. Mbali na nenosiri dhabiti lililoanzishwa wakati wa usajili, tutakuwa tukitekeleza uthibitishaji maradufu. Hii ina maana kwamba kila wakati unapoingia kwenye akaunti yako ya Kraken, hutahitaji tu password lako, lakini pia kipengele cha pili cha uthibitishaji, ambacho kinaweza kuwa ufunguo halisi au msimbo unaozalishwa na programu ya uthibitishaji.
 
 
 Nenda kwenye ikoni ya akaunti yako na ubofye "*Usalama*".
@@ -117,7 +117,7 @@ Kwa maelezo zaidi kuhusu jinsi ya kutumia aina hii ya kifaa, angalia mafunzo yet
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-Chaguo jingine ni kutumia programu ya uthibitishaji kama vile Kithibitishaji cha Google au Authy. Programu hizi generate msimbo unaobadilika wa tarakimu 6 ambao utahitaji kuingiza kila wakati unapoingia.
+Chaguo jingine ni kutumia programu ya uthibitishaji kama vile  Google authenticator au Authy. Programu hizi hugenerate msimbo unaobadilika wa tarakimu 6 ambao utahitaji kuingiza kila wakati unapoingia.
 
 
 ![KRAKEN](assets/fr/12.webp)
@@ -233,9 +233,9 @@ Kwa miamala hii, unaweza kuchagua kati ya aina tofauti za agizo: *Soko*, *Limit*
 
 
 
-- **Market**: Inaruhusu ununuzi wa mara moja kwa bei ya sasa ya soko;
-- **Kikomo**: Hukuruhusu kubainisha bei ya ununuzi, na agizo litatekelezwa tu ikiwa bei ya soko itafikia kiasi hiki;
-- **Simamisha-Hasara**: Inauzwa kiotomatiki bei inapofikia kiwango fulani.
+- **Market*: Inaruhusu ununuzi wa mara moja kwa bei ya sasa ya soko;
+- **Kikomo*: Hukuruhusu kubainisha bei ya ununuzi, na agizo litatekelezwa tu ikiwa bei ya soko itafikia kiasi hiki;
+- **Simamisha-Hasara*: Inauzwa kiotomatiki bei inapofikia kiwango fulani.
 
 
 ## 7 - Usimamizi wa shughuli na uhasibu

@@ -7,7 +7,7 @@ wrong_answers:
 explanation: |
   Tarayıcı uzantıları yararlı olabilirken
   işlevsellikler, aynı zamanda güvenlik riskleri de oluşturabilirler
-  verilerinize ve tarama etkinliğinize erişebilir. Ayrıca,
+  çünkü verilerinize ve tarama etkinliğinize erişebilirler. Ayrıca,
   çok fazla uzantıya sahip olmak tarayıcınızı yavaşlatabilir ve
   performansını etkiler.
 reviewed: true

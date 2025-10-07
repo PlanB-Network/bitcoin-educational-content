@@ -177,7 +177,9 @@ Het artikel van Diffie en Hellman maakte de weg vrij voor vele innovaties. Eén 
 De ontdekking van asymmetrische cryptografie motiveerde ook de creatie van eenrichtingsfuncties, die het berekenen van een beeld (voorwaartse richting) en het verkrijgen van een voorbeeld (achterwaartse richting) erg moeilijk maakten. Het leidde in het bijzonder tot de ontwikkeling van de eerste cryptografische Hash functies, die een bericht van variabele grootte omzette in een digest van vaste grootte. Tussen 1989 en 1991 ontwierp Ronald Rivest verschillende hashingalgoritmen (MD2, MD4 en MD5) voor MIT.
 
 
-De fundamentele cryptografische Elements van Bitcoin komt voort uit dit onderzoek. Het ECDSA-handtekeningschema, dat de autorisatie van uitgaven voor een traditionele transactie mogelijk maakt, werd in 1992 gemaakt voor NIST. De SHA-256 Hash functie, die op meerdere plaatsen in het protocol wordt gebruikt, werd in 2001 gepubliceerd als onderdeel van de SHA-2 algoritmesuite die door de NSA openbaar werd gemaakt. Voor meer informatie over dit onderwerp, zie de cursus [Crypto 301](../crypto301/fr.md) gepresenteerd door Loïc Morel.
+De fundamentele cryptografische Elements van Bitcoin komt voort uit dit onderzoek. Het ECDSA-handtekeningschema, dat de autorisatie van uitgaven voor een traditionele transactie mogelijk maakt, werd in 1992 gemaakt voor NIST. De SHA-256 Hash functie, die op meerdere plaatsen in het protocol wordt gebruikt, werd in 2001 gepubliceerd als onderdeel van de SHA-2 algoritmesuite die door de NSA openbaar werd gemaakt. Voor meer informatie over dit onderwerp, zie de cursus CYP201 gepresenteerd door Loïc Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Blinde handtekeningen en elektronisch geld

@@ -177,7 +177,9 @@ Artikeln av Diffie och Hellman banade väg för många innovationer. En av dessa
 Upptäckten av asymmetrisk kryptografi motiverade också skapandet av envägsfunktioner, som gjorde det mycket svårt att beräkna en bild (framåtriktad riktning) och erhålla en förbild (bakåtriktad riktning). Framför allt ledde det till utvecklingen av de första kryptografiska Hash-funktionerna, som omvandlade ett meddelande med variabel storlek till en sammanställning med fast storlek. Mellan 1989 och 1991 utformade Ronald Rivest flera hash-algoritmer (MD2, MD4 och MD5) för MIT.
 
 
-De grundläggande kryptografiska Elements i Bitcoin härrör från denna forskning. ECDSA-signaturschemat, som gör det möjligt att auktorisera utgifter för en traditionell transaktion, skapades 1992 för NIST. Funktionen SHA-256 Hash, som används på flera ställen i protokollet, publicerades 2001 som en del av algoritmsviten SHA-2 som offentliggjordes av NSA. För mer information om detta ämne, se kursen [Crypto 301](../crypto301/fr.md) som ges av Loïc Morel.
+De grundläggande kryptografiska Elements i Bitcoin härrör från denna forskning. ECDSA-signaturschemat, som gör det möjligt att auktorisera utgifter för en traditionell transaktion, skapades 1992 för NIST. Funktionen SHA-256 Hash, som används på flera ställen i protokollet, publicerades 2001 som en del av algoritmsviten SHA-2 som offentliggjordes av NSA. För mer information om detta ämne, se kursen CYP201 som ges av Loïc Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Blinda signaturer och elektroniska kontanter

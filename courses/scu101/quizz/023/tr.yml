@@ -1,9 +1,9 @@
 question: Bilgisayar güvenliği için güçlü bir parola kullanmanın önemi nedir?
-answer: Sisteme yetkisiz erişimi önlemek için.
+answer: Sisteme yetkisiz erişimi önlemek için yapılır.
 wrong_answers:
   - Sistemin daha hızlı çalışmasını sağlamak için.
   - Depolama kapasitesini artırmak için.
-  - Kullanıcı Interface'ı iyileştirmek için.
+  - Kullanıcı içyüz'ünü iyileştirmek için.
 explanation: |
   Güçlü bir parola bilgisayar güvenliği için çok önemlidir
   sisteme yetkisiz erişimi önler.

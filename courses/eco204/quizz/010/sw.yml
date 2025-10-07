@@ -1,5 +1,5 @@
 question: Je, Fahirisi ya Bei ya Watumiaji (CPI) ina athari gani kwenye kipimo cha mfumuko wa bei?
-answer: CPI inaweza kudharau mfumuko halisi wa bei kwani haizingatii kwa kina mabadiliko ya bei ya mali isiyohamishika na inaweza kupunguza au kuzuia ongezeko la bei halisi.
+answer: CPI inaweza kudharau mfumuko halisi wa bei kwani haizingatii kwa kina mabadiliko ya bei ya mali yasiyohamishika na inaweza kupunguza au kuzuia ongezeko la bei halisi.
 wrong_answers:
   - CPI daima hupima kwa usahihi mfumuko wa bei.
   - CPI inakadiria mfumuko halisi wa bei.
@@ -7,6 +7,6 @@ wrong_answers:
 explanation: |
   Sura inaeleza kuwa CPI, inayotumika kama kiashirio kikuu cha mfumuko wa bei,
   ina mapungufu fulani. Kwa mfano, haizingatii kikamilifu
-  mabadiliko ya bei ya mali isiyohamishika. Pia, hesabu ya CPI inajumuisha fulani
+  mabadiliko ya bei ya mali yasiyohamishika. Pia, hesabu ya CPI inajumuisha fulani
   mbinu zinazoweza kupunguza au kuzuia ongezeko la bei halisi.
-reviewed: false
+reviewed: true

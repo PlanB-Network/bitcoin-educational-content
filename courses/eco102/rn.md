@@ -393,7 +393,6 @@ Iryo suzuma (1814-1819), ryahinduwe izina ryitwa Le Censeur européen inyuma y�
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, muvyara wa Auguste Comte akaba n’umukwe wa Say, ni we yashinze iyo nkuru y’isubiramwo. Bidatevye, aca afatanywa na Charles Dunoyer, umuhinga mu vy’amategeko nka we, hanyuma aca afatanywa n’umuhinga mu vya kahise akiri muto yitwa Augustin Thierry, yahora ari umunyamabanga wa Simon mweranda. Icivugo cabo ku rupapuro rwa mbere rw'inomero yose y'isubiramwo cari "Amahoro n'Umwidegemvyo".
@@ -490,7 +489,6 @@ Yari umuvugizi ateye umunezero kandi ateye ubwoba, yari afise ingabirano idasanz
 Mu 1845, Bastiat yarasohoye i Paris igitabu ciwe citwa Cobden and the League, ivyo yahinduye bikaba vyari biherekejwe n’ibisobanuro. Ico gitabu gitangura n’intangamarara yerekeye ubutunzi bw’Ubwongereza, yerekeye kahise k’inkomoko n’iterambere ry’Ishirahamwe. Kuva mu 1815, uburinzi bwarateye imbere cane mu Bwongereza. Hariho cane cane amategeko agenga ivy’intete biva hanze vyari bifise ingaruka zikomeye cane ku bantu. Nkako, ingano zari zikenewe kugira ngo umuntu akore umukate, kikaba cari ikintu gihambaye cane ico gihe. Vyongeye, iyo nzira yarashigikira abakuru b’igihugu, ni ukuvuga ba nyen’amatongo menshi, bakaba ari bo bayironkeramwo amahera y’ubukode.
 
 
-![image](assets/en/042.webp)
 
 
 > Bastiat yanditse ati: “Ikiba kumwe mu Bwongereza ni umubare mutoyi w’abasahura n’umubare munini w’abasahura, kandi umuntu ntakeneye kuba umuhinga mu vy’ubutunzi akomeye kugira ngo ashike ku ciyumviro c’ubutunzi bw’aba mbere n’ububabare bw’aba nyuma.
@@ -708,7 +706,6 @@ Ibaze imbugita y’icongereza igurishwa mu gihugu cacu ku ma euro 2, imbugita ik
 Nitwabuza igicuruzwa c’icongereza, umuguzi azoriha uwundi unité imwe ku mbugita yiwe. Ugukingira rero bituma inganda y’igihugu ironka inyungu, n’ibihombo bibiri, kimwe ku yindi nganda (iy’amakaramu) ikindi ku baguzi. Ahubwo, ubudandaji bw’ubuntu butuma abantu babiri batsinda banezerewe.
 
 
-![image](assets/en/059.webp)
 
 
 Ugukingira igihugu na co nyene ni uburyo bwo kurwana n’abanyagihugu. Nk’uko Bastiat abivuga, ni uburyo bushingiye ku bwikunzi n’ukunzi kw’abahinguzi. Kugira ngo bongere impembo zabo, abarimyi canke abahinga mu vy’inganda basaba imisoro kugira ngo isoko ry’ibicuruzwa vyo hanze rifungwe, gutyo bagahatira abaguzi kwishura vyinshi ku bicuruzwa vyabo.
@@ -778,7 +775,6 @@ Pierre-Joseph Proudhon ni umwe mu baserukira cane ubusosiyalisimu bw’Ubufarans
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Hariho ikintu kidasobanutse mu buryo bubereye muri ivyo vyemezo. Kuko iyo hataba umutungo umuntu aronka mu buryo bubereye, mu buryo bubereye ntihashobora kubaho igikorwa nk’ubusuma. Ni co gituma Proudhon azoheza agatomora ko ari ugusangira vy’ukuri kw’itunga abona ko ari ubusuma, atari itunga ubwaryo, ivyo adondora nk’inkomezi z’ihinduka zishingiye ku kibano c’abanyagitugu.
@@ -790,7 +786,6 @@ Hariho ikintu kidasobanutse mu buryo bubereye muri ivyo vyemezo. Kuko iyo hataba
 Ariko Proudhon ni umunyagitugu w’umuntu ku giti ciwe. Ntabona ko abanyagihugu, canke Leta, ari bo bafise ububasha bubereye. Aranegura cane ubukomunisita kandi akavuga ko abakozi bofatanya, uburyo bwo gukorana n’abandi mu buryo butunganijwe, bwoba bwishingikirije ku gukoranya ubutunzi ku bushake kugira ngo bafashanye. Ntibizwi cane ariko Bastiat ntiyarwanya na gato ico ciyumviro mu ngingo ngenderwako. Yaratinya gusa ko Leta yoyihindura igikorwa ca Leta gifise uburenganzira bwo gukora de facto. Amateka yokwemeza ko ari ukuri.
 
 
-![image](assets/en/067.webp)
 
 
 Ku rundi ruhande, birazwi neza ko muri « Ubukene bwa filozofiya », Marx yotera n’ubukazi Proudhon n’ubusosiyalisimu bwiwe, ubwo yise « utopique », ashigikira ico bita ubusosiyalisimu « bwa siyansi ».
@@ -924,7 +919,6 @@ Mu mwaka w’1840, Inama Nkuru y’Igihugu yatoye itegeko ryo kwongera imisoro k
 
 _hejuru: Marine Le Pen, umunyapolitike w'umufaransa_
 
-![image](assets/en/078.webp)
 
 
 Bastiat yaciye yandika igitabu c'ugutwenga caje kuba kimwe mu bitabu vyiwe bizwi cane: "igisabisho c'abahinguzi b'amabuye y'agaciro". Birerekana ingene imigwi imwimwe y’abahingura ibintu itunganijwe neza, ironka uduteka tudakwiriye kuri Leta, bikaba bitera ingorane abanyagihugu. Muri ico gihe nyene, ryerekana ukuntu amategeko y’uburinzi ari ubujuju kandi asenya.
@@ -984,7 +978,6 @@ Ukwo gutera urujijo kw'uburyo n'iherezo kuboneka mu nsiguro ivuga ngo "amahera n
 Ivyo ni vyo bigenzura politike y’amahera y’ibihugu vyinshi. Nkako, ukwo kwongerekana kw'amahera bituma amabanki aguriza amahera abantu ku giti cabo n'ibihugu kugira ngo bishobore kwishura umwenda wabo bitagoranye, ivyo ni vyo "tubona". Ariko "ico tutabona" ​​ni uko iyo nzira yo kurema amahera, itashingiye ku kurema ubutunzi nyakuri, izotuma haba ugutera imbere kw'ibiciro n'ugusenyuka kw'abazigama.
 
 
-![image](assets/en/082.webp)
 
 
 Ubutunzi nyakuri rero, nk’uko Bastiat abivuga, ni urutonde rw’ibintu vy’ingirakamaro dutanga biciye ku gikorwa kugira ngo turonke ivyo dukeneye. Amahera rero ni uburyo gusa bukoreshwa cane bwa Exchange, akora gusa uruhara rw’umuhuza.
@@ -1023,7 +1016,6 @@ Ubutunzi buradondora ingaruka nziza canke mbi ingingo za politike zigira ku buzi
 
 > F.Basitiyati
 
-![image](assets/en/084.webp)
 
 Kuva mu ntango, arahakana iciyumviro kikiriho c’uko amahera Leta ikoresha aterwa inkunga n’imisoro atuma abantu baronka akazi. Nkako, imisoro ntaco irema kuko ivyo Leta ikoresha ntibigikoreshwa n’abasoreshwa.
 
@@ -1031,7 +1023,6 @@ Kuva mu ntango, arahakana iciyumviro kikiriho c’uko amahera Leta ikoresha ater
 Ikindi kandi, Leta irasesagura kuruta abantu ku giti cabo. Nkako, aratwibutsa, Leta ntaco ifise; nta butunzi buvamwo. Amafaranga Leta ikoresha akenshi ni isoko y’ubusa kubera ko amahera menshi cane afatwa ku bantu ku giti cabo ahunga inshingano za ba nyen’ayo mahera, agakoreshwa mu kibanza cayo n’abanyabiro, bishingiye ku migwi y’abakosha.
 
 
-![image](assets/en/085.webp)
 
 
 Ego ni ko, nk’ukwishurwa kw’igikorwa ca Leta kingana n’ico umuntu aronka mu Exchange, ugutanga imisoro ni ikintu co gukingira rwose. Ariko mu Bufaransa, Leta yarahaye imisoro uruhara rwinshi.
@@ -1043,7 +1034,6 @@ Mu ntango, ryari rikwiye gufasha abantu bose. Hanyuma, imisoro na yo nyene yarah
 Ubwa nyuma, imisoro yarahawe uruhara mu kibano. Baciye bacika igikoresho c’ubutungane mu kibano. Gutyo, imisoro ntikwiye gutera abantu bose mu buryo bumwe. Imisoro itegerezwa gusubira gusangira, kuva ku "bafise vyinshi" gushika ku "bafise bike."
 
 
-![image](assets/en/086.webp)
 
 
 Ikibazo ni uko imisoro, nk’uko vyiyumviriwe, ishingiye ku bubisha bw’abafise ububasha. Bakunda canke ntibakunda abantu bamwebamwe bivanye n’uko ubutegetsi bubategereje amajwi canke atarivyo. Vyongeye, ibiciro bitera imbere ntibitanga inyungu nyinshi ku bubiko bwa Leta. Ariko rero, zireka benshi bagafata ivy’abantu bakeyi, maze mu bisanzwe zikaba abafata ibintu.
@@ -1144,7 +1134,6 @@ Ubutunzi bwa politike rero burafise akamaro kagaragara. Birahishura ubusazi mu b
 Na none, hariho aba Tartuffe bake iyo habaho aba Orgon bake bo kubumviriza. Ehe ivyo Bastiat avuga kuri ivyo:
 
 
-![image](assets/en/094.webp)
 
 
 > Rero inyifato runtu y’idini ikore ku mitima y’Abatartufe nimba ishobora. Igikorwa kijanye n’ubutunzi bwa politike ni ugumurikira abadupe babo. Muri izo nzira zibiri, ni iyihe ikora neza cane kugira ngo abantu batere imbere? Mbega vyoba bitegerezwa kuvugwa? Nizera ko ari ubwa kabiri. Ndatinya ko abantu badashobora guhunga ivy’uko bikenewe ko babanza kwiga inyifato runtu yo kwikingira.
@@ -1299,7 +1288,6 @@ _(Alan Greenspan, umuyobozi wa FED, banki nkuru y'Amerika, kuva mu 1987 gushika 
 Imyaka myinshi, abarongozi b’ivy’amahera barasiguye ko iyo inyungu zishizwe mu vy’abikorera ku giti cabo igihe vyose bigenda neza, ibihombo bizoba ari ivy’abantu bose iyo umuntu ashobora gusenyuka (ugufasha abantu, imigambi yo gutabara, gukoresha nabi inyungu, gucapura amahera, n’ibindi). Mu kubigira, baratuma haba akaga mu vy’inyifato runtu, baratuma abantu bashobora gufata ingingo zidasanzwe, kandi bararemesha isi y’ivy’ubutunzi kwigenza mu buryo butagiramwo inshingano. Baciye rero bavyura amahera mu ngorane twaciyemwo.
 
 
-![image](assets/en/104.webp)
 
 
 Kandi ico kintu kizosubira kubaho igihe cose amabanki azoguma ari munsi y’ubutegetsi bwa Leta bukuru butegerezwa kuyakingira mu gukuraho ubwigenge bwose bwo gufata ingingo no gukora.
@@ -1413,13 +1401,11 @@ Bitegerezwa gutomorwa ko iyo nzira y’iterambere biciye mu nshingano ataco ikor
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, mu gatabo kiwe kazwi cane citwa «Itegeko», aragaya ukugoranya itegeko gushingiye ku gutuma, mw’izina ry’«ubumwe», ivyo vy’ukuri bitegerezwa kwitwa gusahura bibe ivy’amategeko. Nkako, hariho ukuvuguruzanya mu gushaka gutegeka ubuvukanyi biciye mu mategeko, ivyo twokwita uno musi "ubutungane bw'abantu" canke ubumwe.
 
 
-![image](assets/en/114.webp)
 
 
 Kuko inyifato runtu isobanurwa nk’inyifato y’ubushake. Iyo umuntu ku giti ciwe agoberewe gutanga ikintu adashaka gutanga, yama ari umunyavyaha w’ubusuma.
@@ -1482,7 +1468,6 @@ Nkako, ubumwe bwo mu miryango, ubumwe bwo mu karere, canke ubugiraneza buteguwe 
 Kenshi ni umuco kwidodomba "ubwikunzi" bwobayeho mu bihugu vy'ubwigenge. Ariko ni ibihushanye n’ivyo. Iyo igihugu kiremerewe n’imisoro kandi abantu ku giti cabo batagifise ivyabo, ntibaremeshwa gutanga ahubwo bakikuramwo.
 
 
-![image](assets/en/119.webp)
 
 
 Mu vy’ukuri, sosiyete sivile yidegemvya ntiruhukira ku bwikunzi: ubutunzi bw’isoko bukora bushingiye ku gukorera mugenziwe no gusubizanya. Umuntu ashobora gukorera inyungu yiwe gusa mu gukorera inyungu z’uwundi, mu guha uwundi umugenzi ajana ku Exchange y’inyungu bose. Mu yandi majambo, ni Exchange y’ubushake irema ubumwe nyakuri.
@@ -1558,7 +1543,6 @@ Ku bwa Rousseau, umutungo ntubanza itegeko; ni isezerano gusa rishirwaho n’ubu
 Nk’akarorero: uburenganzira bwo gukora canke uburenganzira bwo kuba mu nzu.
 
 
-![image](assets/en/123.webp)
 
 
 Kugira ngo nshobore kuronka ikintu ku buntu, umuntu ategerezwa kwishura mu izina ryanje. Kandi nimba ari Leta iriha, kuko itazana ubutunzi, ishobora kubigira gusa mu gufata inzu ku muntu, canke ikingana na yo, ngo ayimpe.
@@ -1575,7 +1559,6 @@ Mu rutonde rw’umwidegemvyo w’akameremere, hariho itegeko ry’akameremere, r
 Aha, Bastiat yifatanya n’iragi ry’abafiziyokarate, kandi birenze ivyo, n’umugenzo wa filozofiya y’amategeko ya Ciceron na Aristote. Itegeko ntirirema uburenganzira. Intumbero yayo ni ukubirwanira gutyo igakingira itunga, ry’umuntu ubwiwe, iry’ubunyankamugayo bw’umuntu, n’iry’ivyamwa vy’ibikorwa vyiwe.
 
 
-![image](assets/en/124.webp)
 
 _(Sisero)_
 
@@ -1692,7 +1675,6 @@ Bastiat rero ariteze, imbere y’imyaka ijana, isesengura ry’ingene isoko rya 
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Ikindi kandi, Bastiat yemeza ko Leta ata burenganzira ifise butabanza kubaho mu muntu ku giti ciwe. Ni kuki Leta ifise uburenganzira bwo kwishingira, mbere n’inguvu, umutungo w’umuntu wese? Kubera gusa ko ubwo burenganzira bubaho imbere y’igihe mu muntu ku giti ciwe. Umuntu ntashobora kwima abantu ku giti cabo uburenganzira bwo kwikingira, uburenganzira bwo gukoresha inguvu iyo bikenewe kugira ngo yirukane ibitero bikorerwa abantu babo, ubushobozi bwabo n’itunga ryabo. Ubwo burenganzira busanzwe bwo kwikingira, buba mu benegihugu bose, burashobora gufata uburyo rusangi, bugatuma inguvu rusangi zigira uburenganzira.
@@ -1731,7 +1713,6 @@ Mu ncamake, iyo Leta irenze ubutumwa bwayo bwo kurwanira abantu n’itunga, irem
 Yanditse Frédéric Bastiat mu gatabu gatoyi kitwa Leta.
 
 
-![image](assets/en/138.webp)
 
 
 ## Iragi rya Frédéric Bastiat
@@ -1783,7 +1764,6 @@ Ariko nk’uko Bastiat yavyerekanye neza, ukugira ico Leta ikora biragira ingaru
 Turavye ibintu muri iyo nzira, Reagan yasiguriye abakozi ba GE, ivyo bita ibitangaro vy’amahera Leta ikoresha bigaragara mu buryo butandukanye rwose. Kuko imisoro igabanya ubushobozi bwo gukora, kandi ubutunzi buvugwa n’amahera Leta ikoresha ntibushobora gusubiza bimwe bishitse ivyo bwabujijwe kuvuka n’imisoro yashizweho kugira ngo umuntu yishure ayo mahera.
 
 
-![image](assets/en/138.webp)
 
 Mu vy’ukuri, Reagan yafashe kuri Bastiat ingingo nyinshi z’ingenzi zijanye n’iyerekwa ry’ubwigenge ry’imibano n’abantu: ubukuru bw’imibano ku gihugu, agaciro k’uguhitamwo n’inshingano z’umuntu ku giti ciwe, akamaro k’rwiyemezamirimo mu kurema ubutunzi, akamaro k’amasezerano y’ishimikiro y’amategeko, ategerezwa kwemerera ubutunzi kuba imbere y'uko ishobora gukwiragizwa, icipfuzo co guha umuntu wese amahirwe mu masoko y'amahiganwa...
 

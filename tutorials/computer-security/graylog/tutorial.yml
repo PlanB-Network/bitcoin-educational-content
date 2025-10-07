@@ -22,77 +22,77 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 5.3
+    reward: 5.2
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.11
+    reward: 13.84
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.61
+    reward: 10.41
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.61
+    reward: 10.41
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.61
+    reward: 10.41
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.11
+    reward: 13.84
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.11
+    reward: 13.84
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.11
+    reward: 13.84
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.62
+    reward: 24.15
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.61
+    reward: 17.28
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.61
+    reward: 10.41
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.12
+    reward: 20.72
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.11
+    reward: 13.84
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.11
+    reward: 13.84
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.61
+    reward: 10.41
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -132,7 +132,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.11
+    reward: 13.84
   - language: tr
     last_contribution_date:
     urgency: 1

@@ -1,14 +1,14 @@
 ---
-name: Je eerste Bitcoin knooppunt opzetten
+name: Je eerste Bitcoin node opzetten
 goal: Een Bitcoin node begrijpen, installeren, configureren en gebruiken
 objectives: 
 
 
-  - De rol en het doel van een Bitcoin knooppunt begrijpen.
+  - De rol en het doel van een Bitcoin node begrijpen.
   - De verschillende beschikbare hardware- en softwareoplossingen identificeren.
-  - Installeer en configureer een Full node (Bitcoin core).
-  - Gebruik de Interface paraplu en voeg nuttige toepassingen toe.
-  - Verbind een persoonlijke Wallet met zijn eigen node.
+  - Installeer en configureer een full node (Bitcoin core).
+  - Gebruik de Umbrel interface en toevoegen van nuttige toepassingen.
+  - Verbind een persoonlijke wallet met je eigen node.
   - Verken geavanceerde instellingen en de beste beveiligingspraktijken.
 
 
@@ -17,11 +17,11 @@ objectives:
 
 
 
-Je bent waarschijnlijk bekend met het adagium "Niet je sleutels, niet je munten", dat zelfbewaarneming van je bitcoins aanmoedigt. Het hebben van je eigen sleutels is inderdaad een essentiële eerste stap, maar het is niet genoeg. Om echte monetaire soevereiniteit te bereiken, moet je ook je eigen Bitcoin node installeren en gebruiken. Deze cursus is ontworpen om je te begeleiden bij deze fundamentele stap in je Bitcoin reis!
+Je bent waarschijnlijk bekend met het adagium "Niet je sleutels, niet je munten", dat het zelf bewaren van je bitcoins aanmoedigt. Het hebben van je eigen sleutels is inderdaad een essentiële eerste stap, maar het is niet genoeg. Om echte monetaire soevereiniteit te bereiken, moet je ook je eigen Bitcoin node installeren en gebruiken. Deze cursus is ontworpen om je te begeleiden bij deze fundamentele stap in je Bitcoin reis!
 
 
 
-BTC 202 is een toegankelijke cursus die is ontworpen om je te leren je eigen Bitcoin knoop te spinnen, zelfs als je geen technisch expert bent. We beginnen met te definiëren wat een Bitcoin knoop is, waar hij voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Daarna begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het aansluiten van je Wallet en het maken van de eerste mogelijke optimalisaties om verder te komen.
+BTC 202 is een toegankelijke cursus die is ontworpen om je te leren je eigen Bitcoin node te laten draaien, zelfs als je geen technisch expert bent. We beginnen met te definiëren wat een Bitcoin node is, waarvoor het dient en waarom het absoluut essentieel is om er zelf een te draaien. Daarna begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het aansluiten van je wallet en het maken van de eerste mogelijke optimalisaties naar het volgende niveau.
 
 
 
@@ -58,7 +58,7 @@ Welkom bij BTC 202, waar je leert hoe je gemakkelijk en zelfstandig een Bitcoin 
 
 
 
-In dit eerste deel van de cursus zullen we de basisbegrippen verduidelijken en vervolgens overgaan tot meer precieze definities. Wat is een knooppunt? Wat zijn de verschillen tussen node, Wallet en Miner? Daarna leer je over Bitcoin core en de implementaties van het protocol. Het doel is om dezelfde taal te spreken, verwarring te voorkomen en een solide theoretische basis te leggen.
+In dit eerste deel van de cursus zullen we de basisbegrippen verduidelijken en vervolgens overgaan tot meer precieze definities. Wat is een node? Wat zijn de verschillen tussen node, wallet en miner? Daarna leer je over Bitcoin core en de implementaties van het protocol. Het doel is om dezelfde taal te spreken, verwarring te voorkomen en een solide theoretische basis te leggen.
 
 
 
@@ -86,15 +86,15 @@ Zodra deze voorbereiding klaar is, is het tijd om praktisch aan de slag te gaan 
 
 
 
-Na een korte introductie tot Umbrel, geven we een gedetailleerde tutorial om je door het installatie- en configuratieproces op je eigen doe-het-zelf machine te leiden. Het doel van dit deel is duidelijk: uw eerste volledig functionele en gesynchroniseerde Bitcoin knooppunt.
+Na een korte introductie tot Umbrel, geven we een gedetailleerde tutorial om je door het installatie- en configuratieproces op je eigen doe-het-zelf machine te leiden. Het doel van dit deel is duidelijk: het hebben van je eerste volledig functionele en gesynchroniseerde Bitcoin node.
 
 
 
-### Deel 4 - Uw Wallet aansluiten op uw knooppunt
+### Deel 4 - Je Wallet aansluiten op je node
 
 
 
-Nu je een Bitcoin knooppunt hebt opgezet, is het tijd om het te gebruiken! In dit gedeelte leer je hoe je je Wallet beheersoftware (zoals Sparrow wallet) kunt verbinden met je eigen Address indexer (Electrs of Fulcrum), of direct met Bitcoin core, zodat je niet meer afhankelijk bent van publieke servers.
+Nu je een Bitcoin node hebt opgezet, is het tijd om het te gebruiken! In dit gedeelte leer je hoe je je wallet beheersoftware (zoals Sparrow wallet) kunt verbinden met je eigen adres indexer (Electrs of Fulcrum), of direct met Bitcoin core, zodat je niet meer afhankelijk bent van publieke servers.
 
 
 
@@ -106,11 +106,11 @@ We onderzoeken ook de rol van indexers en de verschillende methoden om verbindin
 
 
 
-In dit laatste deel van BTC 202 is het de bedoeling om je kennis te verdiepen. Eerst kijken we naar de best practices voor uw nieuwe Bitcoin node en hoe u deze op lange termijn kunt onderhouden.
+In dit laatste deel van BTC 202 is het de bedoeling om je kennis te verdiepen. Eerst kijken we naar de best practices voor je nieuwe Bitcoin node en hoe je deze op lange termijn kunt onderhouden.
 
 
 
-We nemen dan de tijd om wat van de theorie die eerder in de cursus is behandeld door te nemen, waaronder het IBD proces en peer discovery in detail begrijpen, de anatomie van een knooppunt onderzoeken en tenslotte leren we hoe je het `Bitcoin.conf` bestand kunt gebruiken om je instellingen te fine-tunen.
+We nemen dan de tijd om wat van de theorie die eerder in de cursus is behandeld door te nemen, waaronder het IBD proces en peer discovery in detail begrijpen, de anatomie van een node onderzoeken en tenslotte leren we hoe je het `Bitcoin.conf` bestand kunt gebruiken om je instellingen te fine-tunen.
 
 
 
@@ -118,15 +118,15 @@ We nemen dan de tijd om wat van de theorie die eerder in de cursus is behandeld 
 
 
 
-Zoals bij alle Plan ₿ Network cursussen, vind je in het laatste deel een eindexamen om je kennis van Bitcoin knooppunten te testen.
+Zoals bij alle Plan ₿ Network cursussen, vind je in het laatste deel een eindexamen om je kennis van Bitcoin nodes te testen.
 
 
 
-Dus, ben je klaar om je eerste Bitcoin knooppunt aan te zetten? Zet koers naar soevereiniteit!
+Dus, ben je klaar om je eerste Bitcoin node aan te zetten? Zet koers naar soevereiniteit!
 
 
 
-## Wat is een Bitcoin knooppunt?
+## Wat is een Bitcoin node?
 
 
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
@@ -160,7 +160,7 @@ Het zijn juist deze gebruikers die de veiligheid van Bitcoin garanderen. Zoals E
 
 
 
-Dit principe is eenvoudig te begrijpen: als Bitcoin afhankelijk zou zijn van één enkel knooppunt van één enkele persoon, zou het opsluiten van die persoon voldoende zijn om het netwerk uit te schakelen, omdat hij alleen alle risico's op zich zou nemen. Met tienduizenden knooppunten verspreid over de hele wereld is het risico verspreid: elk van deze operators zou geneutraliseerd moeten worden om Bitcoin uit te schakelen.
+Dit principe is eenvoudig te begrijpen: als Bitcoin afhankelijk zou zijn van één enkele node van één enkele persoon, zou het opsluiten van die persoon voldoende zijn om het netwerk uit te schakelen, omdat die persoon alleen alle risico's op zich zou nemen. Met tienduizenden nodes verspreid over de hele wereld is het risico verspreid: elk van deze operators zou geneutraliseerd moeten worden om Bitcoin uit te schakelen.
 
 
 
@@ -174,15 +174,15 @@ We kunnen dus verschillende concepten onderscheiden en benoemen om dingen te ver
 
 
 - Bitcoin valuta: de rekeneenheid die gebruikt wordt voor transacties binnen dit systeem;
-- Het Bitcoin netwerk: de verzameling van alle verbonden knooppunten;
-- Bitcoin knooppunten: machines waarop een implementatie van Bitcoin draait;
+- Het Bitcoin netwerk: de verzameling van alle verbonden nodes;
+- Bitcoin nodes: machines waarop een implementatie van Bitcoin draait;
 - Bitcoin implementaties: software die het protocol vertaalt in uitvoerbare instructies;
 - Bitcoin protocol: de verzameling regels voor de werking van het systeem;
-- Het Bitcoin systeem: de coherente combinatie van al deze Elements.
+- Het Bitcoin systeem: de coherente combinatie van al deze elementen.
 
 
 
-### De rol van het Bitcoin knooppunt
+### De rol van de Bitcoin node
 
 
 
@@ -190,7 +190,7 @@ De Bitcoin nodes vormen samen het zogenaamde Bitcoin netwerk. Ze maken het mogel
 
 
 
-Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijk knooppunt te laten beheren. Dit geldt nog steeds voor de huidige Bitcoin core software, die de rollen van Wallet en node combineert. Maar tegenwoordig wordt deze functie vaak losgekoppeld: veel moderne Bitcoin wallets zijn gewoon wallets die verbinding maken met externe nodes (al dan niet eigendom van dezelfde persoon).
+Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijke node te laten beheren. Dit geldt nog steeds voor de huidige Bitcoin core software, die de rollen van wallet en node combineert. Maar tegenwoordig wordt deze functie vaak losgekoppeld: veel moderne Bitcoin wallets zijn gewoon wallets die verbinding maken met externe nodes (al dan niet eigendom van dezelfde persoon).
 
 
 
@@ -198,7 +198,7 @@ Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijk knooppun
 
 
 
-De eerste taak van een knooppunt is om een lokale kopie van Blockchain te onderhouden. Om Double-spending op Bitcoin te voorkomen zonder een centrale autoriteit in te schakelen, moet elke gebruiker controleren of er geen transactie in het systeem bestaat. De enige manier om hier zeker van te zijn, is door alle transacties op Bitcoin te kennen. Daarom worden alle transacties voorzien van een tijdstempel en gegroepeerd in blokken, en slaat elk knooppunt het volledige Blockchain op.
+De eerste taak van een node is om een lokale kopie van Blockchain te onderhouden. Om dubbele uitgaven op Bitcoin te voorkomen zonder een centrale autoriteit in te schakelen, moet elke gebruiker controleren of er geen transactie in het systeem bestaat. De enige manier om hier zeker van te zijn, is door alle transacties op Bitcoin te kennen. Daarom worden alle transacties voorzien van een tijdstempel en gegroepeerd in blokken, en slaat elk node de volledige Blockchain op.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https
 
 
 
-Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt gepubliceerd door een Miner, controleert het knooppunt de geldigheid ervan voordat het het toevoegt aan zijn eigen lokale kopie van de keten. Op dit moment (juli 2025) is de volledige Blockchain groter dan 675 GB en deze grootte blijft groeien, omdat er gemiddeld elke 10 minuten een nieuw blok wordt toegevoegd.
+Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt gepubliceerd door een miner, controleert de node de geldigheid ervan voordat het het toevoegt aan zijn eigen lokale kopie van de keten. Op dit moment (juli 2025) is de volledige Blockchain groter dan 675 GB en deze grootte blijft groeien, omdat er gemiddeld elke 10 minuten een nieuw blok wordt toegevoegd.
 
 
 
@@ -216,20 +216,20 @@ Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt
 
 
 
-Het knooppunt houdt ook een lokaal overzicht bij van alle UTXO's die op een bepaald moment bestaan, bekend als de **UTXO set**. Deze database bevat alle ongebruikte Bitcoin fragmenten. We komen hier in detail op terug in het laatste deel van de cursus.
+De node houdt ook een lokaal overzicht bij van alle UTXO's die op een bepaald moment bestaan, bekend als de **UTXO set**. Deze database bevat alle ongebruikte Bitcoin fragmenten. We komen hier in detail op terug in het laatste deel van de cursus.
 
 
 
-### Transacties verifiëren en distribueren
+### Transacties verifiëren en verspreiden
 
 
 
-De tweede rol van een knooppunt is het verifiëren en verspreiden van transacties. Wanneer een nieuwe transactie het knooppunt bereikt (via Wallet software of een ander knooppunt), controleert het of het voldoet aan een set regels (consensusregels en relaisregels). Bijvoorbeeld:
+De tweede rol van een node is het verifiëren en verspreiden van transacties. Wanneer een nieuwe transactie de node bereikt (via wallet software of een andere node), controleert het of het voldoet aan een set regels (consensusregels en relaisregels). Bijvoorbeeld:
 
 
 
 
-- uitgegeven bitcoins moeten bestaan in de UTXO set (de database van niet-uitgegeven uitgangen);
+- uitgegeven bitcoins moeten bestaan in de UTXO set (de database van niet-uitgegeven outputs);
 - de handtekening moet geldig zijn en aan alle bestedingsvoorwaarden moet zijn voldaan (geldig script);
 - de totale hoeveelheid outputs mag niet groter zijn dan de totale hoeveelheid inputs, wat betekent dat de kosten niet negatief kunnen zijn.
 
@@ -239,7 +239,7 @@ De tweede rol van een knooppunt is het verifiëren en verspreiden van transactie
 
 
 
-Na validatie wordt de transactie opgeslagen in de Mempool van het knooppunt, een tijdelijke geheugenruimte die gereserveerd is voor onbevestigde transacties, en vervolgens doorgestuurd naar de andere netwerkpeers waarmee het verbonden is. Dit distributie- en validatiemechanisme gaat door van knooppunt tot knooppunt. Op deze manier wordt de transactie verspreid over het Bitcoin netwerk en elk knooppunt slaat het op in Mempool totdat het wordt opgenomen in een geldig blok door een Miner, die dan handelt op basis van de eerste bevestiging.
+Na validatie wordt de transactie opgeslagen in de Mempool van de node, een tijdelijke geheugenruimte die gereserveerd is voor onbevestigde transacties, en vervolgens doorgestuurd naar de andere netwerkpeers waarmee het verbonden is. Dit distributie- en validatiemechanisme gaat door van node tot node. Op deze manier wordt de transactie verspreid over het Bitcoin netwerk en elk node slaat het op in Mempool totdat het wordt opgenomen in een geldig blok door een miner, die dan handelt op basis van de eerste bevestiging.
 
 
 
@@ -247,7 +247,7 @@ Na validatie wordt de transactie opgeslagen in de Mempool van het knooppunt, een
 
 
 
-De derde rol van het knooppunt is het beheren van gemijnde blokken. Wanneer een Miner een nieuw blok met een geldige Proof of Work ontdekt, wordt het uitgezonden op het netwerk. De knooppunten ontvangen het, controleren of het voldoet aan alle protocolregels en integreren het in hun eigen lokale kopie van de Blockchain als het geldig is. Net als bij transacties worden nieuw gevalideerde blokken vervolgens doorgestuurd naar alle peers die verbonden zijn met het knooppunt. Dit proces gaat door totdat alle knooppunten op het Bitcoin netwerk op de hoogte zijn van het nieuwe blok.
+De derde rol van de node is het beheren van gemijnde blokken. Wanneer een miner een nieuw blok met een geldige proof of work ontdekt, wordt het uitgezonden naar het netwerk. De nodes ontvangen het, controleren of het voldoet aan alle protocolregels en integreren het in hun eigen lokale kopie van de Blockchain als het geldig is. Net als bij transacties worden nieuw gevalideerde blokken vervolgens doorgestuurd naar alle peers die verbonden zijn met de node. Dit proces gaat door totdat alle nodes op het Bitcoin netwerk op de hoogte zijn van het nieuwe blok.
 
 
 
@@ -262,26 +262,26 @@ De derde rol van het knooppunt is het beheren van gemijnde blokken. Wanneer een 
 
 
 
-Het is essentieel om onderscheid te maken tussen twee verschillende soorten software bij het gebruik van Bitcoin: de node en de Wallet.
+Het is essentieel om onderscheid te maken tussen twee verschillende soorten software bij het gebruik van Bitcoin: de node en de wallet.
 
 
 
-Een Bitcoin knooppunt is, zoals hierboven genoemd, een stuk software dat actief deelneemt aan het peer-to-peer netwerk. Het voert drie hoofdtaken uit:
+Een Bitcoin node is, zoals hierboven genoemd, een stuk software dat actief deelneemt aan het peer-to-peer netwerk. Het voert drie hoofdtaken uit:
 
 
 
 
 - back-up van Blockchain,
-- transactievalidatie en -relais,
-- blokvalidatie en relais.
+- transactievalidatie en doorsturen,
+- blokvalidatie en doorsturen.
 
 
 
-Een Bitcoin Wallet, aan de andere kant, is een stuk software dat ontworpen is om je privésleutels op te slaan en te beheren. Met deze sleutels kun je je bitcoins uitgeven door te voldoen aan de vergrendelingsscripts (meestal door middel van een handtekening). Een Wallet kan verbinding maken met een knooppunt (lokaal of op afstand) om de status van de Blockchain te raadplegen en de transacties die het bouwt uit te zenden, maar het is als zodanig geen deelnemer aan het netwerk.
+Een Bitcoin wallet, aan de andere kant, is een stuk software dat ontworpen is om je privésleutels op te slaan en te beheren. Met deze sleutels kun je je bitcoins uitgeven door te voldoen aan de vergrendelingsscripts (meestal door middel van een handtekening). Een wallet kan verbinding maken met een node (lokaal of op afstand) om de status van de Blockchain te raadplegen en de transacties die het bouwt uit te zenden, maar het is als zodanig geen deelnemer aan het netwerk.
 
 
 
-In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software, zoals het geval is bij Bitcoin core, dat zowel als Full node en als Wallet dient. Veel populaire Wallet programma's (Sparrow, BlueWallet, etc.) vereisen echter een verbinding met een extern knooppunt (van jezelf of van een derde partij) om transacties uit te zenden en het Wallet saldo te bepalen.
+In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software, zoals het geval is bij Bitcoin core, dat zowel als full node en als wallet dient. Veel populaire wallet programma's (Sparrow, BlueWallet, etc.) vereisen echter een verbinding met een externe node (van jezelf of van een derde partij) om transacties uit te zenden en het wallet saldo te bepalen.
 
 
 
@@ -289,18 +289,18 @@ In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software
 
 
 
-## Wat is het verschil tussen een knooppunt en een Miner?
+## Wat is het verschil tussen een node en een Miner?
 
 
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
 
 
 
-De begrippen knooppunt en Miner worden vaak met elkaar verward. Toch vervullen deze twee Elements radicaal verschillende functies binnen het systeem.
+De begrippen node en Miner worden vaak met elkaar verward. Toch vervullen deze twee Elements radicaal verschillende functies binnen het systeem.
 
 
 
-Aanvankelijk, toen Bitcoin in 2009 door Satoshi Nakamoto werd gelanceerd, werd van elke gebruiker verwacht dat hij deelnam aan het netwerk als geheel. De oorspronkelijke Bitcoin software combineerde dus meerdere functies tegelijk: het fungeerde als een Wallet, een knooppunt, en ook als een Miner, in staat om nieuwe blokken te genereren. In die tijd was de moeilijkheidsgraad van Mining erg laag. Je hoefde alleen maar de Bitcoin software op je computer te draaien om blokken te vinden en bitcoins als beloning te ontvangen.
+Aanvankelijk, toen Bitcoin in 2009 door Satoshi Nakamoto werd gelanceerd, werd van elke gebruiker verwacht dat hij deelnam aan het netwerk als geheel. De oorspronkelijke Bitcoin software combineerde dus meerdere functies tegelijk: het fungeerde als een Wallet, een node, en ook als een Miner, in staat om nieuwe blokken te genereren. In die tijd was de moeilijkheidsgraad van Mining erg laag. Je hoefde alleen maar de Bitcoin software op je computer te draaien om blokken te vinden en bitcoins als beloning te ontvangen.
 
 
 
@@ -312,7 +312,7 @@ Maar met de geleidelijke popularisering van Bitcoin en de toename van het aantal
 
 
 
-Door deze evolutie zijn de rollen van het Bitcoin knooppunt en het Miner knooppunt duidelijk gescheiden. Zoals hierboven getoond, is de rol van een Bitcoin knooppunt puur informatief en gebaseerd op validatie. De rol van het Miner knooppunt is anders:
+Door deze evolutie zijn de rollen van het Bitcoin node en het Miner node duidelijk gescheiden. Zoals hierboven getoond, is de rol van een Bitcoin node puur informatief en gebaseerd op validatie. De rol van het Miner node is anders:
 
 
 
@@ -320,11 +320,11 @@ Door deze evolutie zijn de rollen van het Bitcoin knooppunt en het Miner knooppu
 - Het selecteert lopende transacties in de Mempool.
 - Het bouwt een kandidaatblok dat deze transacties integreert.
 - Hij zoekt met vallen en opstaan naar een geldige Proof of Work.
-- Als het een geldig bewijs vindt, zendt het het blok via zijn knooppunt uit naar de andere knooppunten.
+- Als het een geldig bewijs vindt, zendt het het blok via zijn node uit naar de andere nodes.
 
 
 
-Een Miner heeft een Bitcoin knooppunt nodig voor interactie met het netwerk.
+Een Miner heeft een Bitcoin node nodig voor interactie met het netwerk.
 
 
 
@@ -336,7 +336,7 @@ De rol van de Miner wordt soms ook onderscheiden van die van de hakker. Een hakk
 
 
 
-Tenslotte is er een belangrijk verschil in economische stimulans tussen de Miner en het knooppunt. Het runnen van een Bitcoin node levert geen direct geldelijk voordeel op. Aan de andere kant levert deelname aan Mining beloningen op (subsidies en transactiekosten) voor elk gevonden blok.
+Tenslotte is er een belangrijk verschil in economische stimulans tussen de Miner en de node. Het runnen van een Bitcoin node levert geen direct geldelijk voordeel op. Aan de andere kant levert deelname aan Mining beloningen op (subsidies en transactiekosten) voor elk gevonden blok.
 
 
 
@@ -355,7 +355,7 @@ Het Bitcoin protocol is geen software: het is een verzameling stilzwijgende rege
 
 
 
-Een implementatie is daarom knooppuntsoftware: een programma dat in staat is om te communiceren met andere machines op het Bitcoin netwerk, blokken en transacties te downloaden, te verifiëren, op te slaan en te propageren, en lokaal consensus en relay regels af te dwingen. Elke implementatie is een concrete interpretatie van het protocol, geschreven in een bepaalde programmeertaal, met zijn eigen architectuur, prestaties en ergonomie. Elke implementatie heeft ook zijn eigen ontwikkelingsorganisatie, met zijn eigen verdeling van verantwoordelijkheden.
+Een implementatie is daarom nodesoftware: een programma dat in staat is om te communiceren met andere machines op het Bitcoin netwerk, blokken en transacties te downloaden, te verifiëren, op te slaan en te propageren, en lokaal consensus en relay regels af te dwingen. Elke implementatie is een concrete interpretatie van het protocol, geschreven in een bepaalde programmeertaal, met zijn eigen architectuur, prestaties en ergonomie. Elke implementatie heeft ook zijn eigen ontwikkelingsorganisatie, met zijn eigen verdeling van verantwoordelijkheden.
 
 
 
@@ -383,12 +383,12 @@ In theorie vertegenwoordigt Bitcoin core niet het Bitcoin protocol, maar is het 
 
 
 
-Volgens [gegevens verzameld in augustus 2025 door Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (een bekende ontwikkelaar in het ecosysteem) is de verdeling van implementaties over de openbare knooppunten van het netwerk als volgt:
+Volgens [gegevens verzameld in augustus 2025 door Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (een bekende ontwikkelaar in het ecosysteem) is de verdeling van implementaties over de openbare nodes van het netwerk als volgt:
 
 
 
 
-- Bitcoin core**: 87.3% van knooppunten
+- Bitcoin core**: 87.3% van nodes
 - Bitcoin Knots**: 12.5
 - Andere cumulatieve implementaties**: 0.2% (btcsuite, Bcoin, BTCD...)
 
@@ -398,11 +398,11 @@ Volgens [gegevens verzameld in augustus 2025 door Luke Dashjr](https://luke.dash
 
 
 
-Met andere woorden, ongeveer 9 van de 10 publieke knooppunten draaien Bitcoin core. De rest van het netwerk vertrouwt op meer marginale clients (hoewel het aandeel van Knots de laatste maanden sterk is gestegen, niet in het minst in de nasleep van discussies over de `OP_RETURN` grootte limiet). Deze alternatieve implementaties worden vaak onderhouden door één persoon of een klein team.
+Met andere woorden, ongeveer 9 van de 10 publieke nodes draaien Bitcoin core. De rest van het netwerk vertrouwt op meer marginale clients (hoewel het aandeel van Knots de laatste maanden sterk is gestegen, niet in het minst in de nasleep van discussies over de `OP_RETURN` grootte limiet). Deze alternatieve implementaties worden vaak onderhouden door één persoon of een klein team.
 
 
 
-**Noot:** Deze cijfers zijn echter nog steeds schattingen, omdat ze voornamelijk gebaseerd zijn op *luisterende knooppunten*, d.w.z. knooppunten die inkomende verbindingen accepteren (met poort 8333 open). Niet-luisterende knooppunten* zijn veel complexer om te tellen, omdat het onmogelijk is om direct verbinding met ze te maken: je moet wachten tot het initiatief van hen komt, in de vorm van een uitgaande verbinding. De site van Luke Dashjr beweert dat hij deze *niet-luisterende knooppunten* ook probeert te tellen, maar het blijft onmogelijk om er perfect nauwkeurige gegevens over te verkrijgen en het bijwerken van deze statistieken loopt onvermijdelijk achter op de realiteit.
+**Noot:** Deze cijfers zijn echter nog steeds schattingen, omdat ze voornamelijk gebaseerd zijn op *luisterende nodes*, d.w.z. nodes die inkomende verbindingen accepteren (met poort 8333 open). Niet-luisterende nodes* zijn veel complexer om te tellen, omdat het onmogelijk is om direct verbinding met ze te maken: je moet wachten tot het initiatief van hen komt, in de vorm van een uitgaande verbinding. De site van Luke Dashjr beweert dat hij deze *niet-luisterende nodes* ook probeert te tellen, maar het blijft onmogelijk om er perfect nauwkeurige gegevens over te verkrijgen en het bijwerken van deze statistieken loopt onvermijdelijk achter op de realiteit.
 
 
 
@@ -460,15 +460,15 @@ Deze projecten dragen bij aan de diversiteit van het ecosysteem, maar hun toepas
 
 
 
-Je zou kunnen denken dat Bitcoin core ontwikkelaars directe controle hebben over Bitcoin, maar dat is niet het geval. Ze kunnen geen verandering aan het protocol opleggen. Hun rol is om code voor te stellen. Het is aan elke gebruiker, via zijn knooppunt, om te beslissen of hij deze code al dan niet gebruikt.
+Je zou kunnen denken dat Bitcoin core ontwikkelaars directe controle hebben over Bitcoin, maar dat is niet het geval. Ze kunnen geen verandering aan het protocol opleggen. Hun rol is om code voor te stellen. Het is aan elke gebruiker, via zijn node, om te beslissen of hij deze code al dan niet gebruikt.
 
 
 
-Dit betekent dat als er geen consensus is over een verandering in Bitcoin core, deze genegeerd kan worden door de knooppunten, door Bitcoin core niet bij te werken of door simpelweg de implementatie te veranderen. Omgekeerd, als een door gebruikers gewenste functie geblokkeerd wordt in het ontwikkelproces van Core, is het altijd mogelijk om over te stappen op een andere implementatie of Fork het project te verlaten.
+Dit betekent dat als er geen consensus is over een verandering in Bitcoin core, deze genegeerd kan worden door de nodes, door Bitcoin core niet bij te werken of door simpelweg de implementatie te veranderen. Omgekeerd, als een door gebruikers gewenste functie geblokkeerd wordt in het ontwikkelproces van Core, is het altijd mogelijk om over te stappen op een andere implementatie of Fork het project te verlaten.
 
 
 
-Zoals we later in deze cursus zullen bespreken, zijn het de knooppunten, op basis van hun economisch gewicht (de handelaren), die een versie van het protocol (en dus de bijbehorende valuta) nut geven door eenheden te accepteren die de regels respecteren. De echte bestuurlijke macht over Bitcoin ligt daarom bij deze handelaren, niet bij de ontwikkelaars.
+Zoals we later in deze cursus zullen bespreken, zijn het de nodes, op basis van hun economisch gewicht (de handelaren), die een versie van het protocol (en dus de bijbehorende valuta) nut geven door eenheden te accepteren die de regels respecteren. De echte bestuurlijke macht over Bitcoin ligt daarom bij deze handelaren, niet bij de ontwikkelaars.
 
 
 
@@ -500,7 +500,7 @@ Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voo
 
 
 
-Wanneer Wallet software verbinding maakt met een extern knooppunt, stuurt het zijn transacties door naar een infrastructuur die niet onder jouw controle staat. Dit brengt voor de hand liggende risico's van toezicht met zich mee: de operator van het externe knooppunt kan de details van jouw transacties analyseren, inclusief bedragen en frequenties, en door het kruislings controleren van bepaalde metadata (zoals IP-adressen, tijden en locaties), deze mogelijk in verband brengen met jouw identiteit.
+Wanneer Wallet software verbinding maakt met een extern node, stuurt het zijn transacties door naar een infrastructuur die niet onder jouw controle staat. Dit brengt voor de hand liggende risico's van toezicht met zich mee: de operator van het externe node kan de details van jouw transacties analyseren, inclusief bedragen en frequenties, en door het kruislings controleren van bepaalde metadata (zoals IP-adressen, tijden en locaties), deze mogelijk in verband brengen met jouw identiteit.
 
 
 
@@ -512,7 +512,7 @@ Zoals we in een vorig hoofdstuk al aangaven, communiceren wallets niet zomaar me
 
 
 
-Door je eigen node te gebruiken, verstuur je je transacties rechtstreeks naar het netwerk, zonder tussenpersonen. Op voorwaarde dat je je knooppunt goed beveiligt (wat we later zullen bespreken) of aan bepaalde standaarden voldoet, wordt er geen informatie blootgesteld: noch je IP Address, noch de details van je transacties gaan door een entiteit waar jij geen controle over hebt. Dit is een basisvoorwaarde om je vertrouwelijkheid op Bitcoin te bewaren.
+Door je eigen node te gebruiken, verstuur je je transacties rechtstreeks naar het netwerk, zonder tussenpersonen. Op voorwaarde dat je je node goed beveiligt (wat we later zullen bespreken) of aan bepaalde standaarden voldoet, wordt er geen informatie blootgesteld: noch je IP Address, noch de details van je transacties gaan door een entiteit waar jij geen controle over hebt. Dit is een basisvoorwaarde om je vertrouwelijkheid op Bitcoin te bewaren.
 
 
 
@@ -522,11 +522,11 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Om dezelfde redenen die hierboven genoemd zijn, is Wallet software gebaseerd op een knooppunt van een derde partij kwetsbaar voor censuurrisico's: de operator van het knooppunt op afstand kan om verschillende redenen weigeren om bepaalde transacties door te geven. Hij kan ze verdacht vinden of in strijd met zijn beleid. De transactie kan ook worden geblokkeerd als deze niet voldoet aan de doorgeefregels van het knooppunt. Tot slot kan de operator zich specifiek richten op jouw IP Address om de uitzending van jouw transacties te blokkeren.
+Om dezelfde redenen die hierboven genoemd zijn, is Wallet software gebaseerd op een node van een derde partij kwetsbaar voor censuurrisico's: de operator van de node op afstand kan om verschillende redenen weigeren om bepaalde transacties door te geven. Hij kan ze verdacht vinden of in strijd met zijn beleid. De transactie kan ook worden geblokkeerd als deze niet voldoet aan de doorgeefregels van de node. Tot slot kan de operator zich specifiek richten op jouw IP Address om de uitzending van jouw transacties te blokkeren.
 
 
 
-Omgekeerd, door je eigen node te gebruiken, zorg je voor de verspreiding van je transacties binnen het peer-to-peer netwerk. Dit betekent dat je volledige controle behoudt over de verspreiding van je transacties, zonder afhankelijkheid van een tussenpersoon. Zolang de transactie voldoet aan de consensus- en relayregels van de knooppunten die met het jouwe verbonden zijn, zal ze worden uitgezonden op het netwerk en vervolgens, op voorwaarde dat er voldoende vergoedingen zijn, door een Miner in een blok worden geïntegreerd. Een eigen node garandeert een neutrale, toestemmingsvrije bevestiging van je transacties.
+Omgekeerd, door je eigen node te gebruiken, zorg je voor de verspreiding van je transacties binnen het peer-to-peer netwerk. Dit betekent dat je volledige controle behoudt over de verspreiding van je transacties, zonder afhankelijkheid van een tussenpersoon. Zolang de transactie voldoet aan de consensus- en relayregels van de nodes die met het jouwe verbonden zijn, zal ze worden uitgezonden op het netwerk en vervolgens, op voorwaarde dat er voldoende vergoedingen zijn, door een Miner in een blok worden geïntegreerd. Een eigen node garandeert een neutrale, toestemmingsvrije bevestiging van je transacties.
 
 
 
@@ -534,7 +534,7 @@ Omgekeerd, door je eigen node te gebruiken, zorg je voor de verspreiding van je 
 
 
 
-Zonder een persoonlijk knooppunt blijft u afhankelijk van een derde partij voor toegang tot informatie, zoals uw Address saldo, transactiebevestigingsstatus en blokgeldigheid. Dit impliceert een impliciet vertrouwen in de nauwkeurigheid en integriteit van het externe knooppunt.
+Zonder een persoonlijk node blijft u afhankelijk van een derde partij voor toegang tot informatie, zoals uw Address saldo, transactiebevestigingsstatus en blokgeldigheid. Dit impliceert een impliciet vertrouwen in de nauwkeurigheid en integriteit van het externe node.
 
 
 
@@ -552,11 +552,11 @@ Met een Full node kun je alle protocolregels zelf controleren, voor elke transac
 
 
 
-Elk knooppunt dat zich bij het netwerk aansluit, versterkt de redundantie en veerkracht van Bitcoin. Het vergemakkelijkt de verspreiding van informatie en stelt nieuwe peers in staat om zich met elkaar te verbinden. Zonder de knooppunten zou het systeem simpelweg onbruikbaar zijn.
+Elk node dat zich bij het netwerk aansluit, versterkt de redundantie en veerkracht van Bitcoin. Het vergemakkelijkt de verspreiding van informatie en stelt nieuwe peers in staat om zich met elkaar te verbinden. Zonder de nodes zou het systeem simpelweg onbruikbaar zijn.
 
 
 
-Zoals we hebben gezien is de veiligheid van Bitcoin niet gebaseerd op decentralisatie, Mining of cryptografie: zoals bij elk systeem is het afhankelijk van individuen. Om precies te zijn, het hangt af van het vermogen van knooppuntbeheerders om dwang te weerstaan.
+Zoals we hebben gezien is de veiligheid van Bitcoin niet gebaseerd op decentralisatie, Mining of cryptografie: zoals bij elk systeem is het afhankelijk van individuen. Om precies te zijn, het hangt af van het vermogen van nodebeheerders om dwang te weerstaan.
 
 
 
@@ -584,7 +584,7 @@ Het verwerven van deze kennis versterkt je vertrouwen in het gereedschap en kan 
 
 
 
-Een belangrijk aspect, dat vaak verkeerd begrepen wordt, is dat je met een knooppunt kunt kiezen welke regels je lokaal toepast. Er zijn twee hoofdtypen regels:
+Een belangrijk aspect, dat vaak verkeerd begrepen wordt, is dat je met een node kunt kiezen welke regels je lokaal toepast. Er zijn twee hoofdtypen regels:
 
 
 
@@ -608,7 +608,7 @@ Het veranderen van deze regels staat gelijk aan het veranderen van het protocol 
 
 
 
-Dit zijn regels die specifiek zijn voor elk Bitcoin knooppunt en die toegevoegd worden aan de consensusregels om de structuur van onbevestigde transacties te definiëren die geaccepteerd worden in de Mempool en doorgegeven worden aan peers. Elk knooppunt configureert en past deze regels lokaal toe, wat verklaart waarom ze van knooppunt tot knooppunt kunnen verschillen. Ze zijn alleen van toepassing op onbevestigde transacties: een transactie die door een knooppunt als "niet-standaard" wordt beschouwd, wordt alleen geaccepteerd als deze al in een geldig blok voorkomt. Het veranderen van deze regels sluit het knooppunt niet uit van het Bitcoin systeem.
+Dit zijn regels die specifiek zijn voor elk Bitcoin node en die toegevoegd worden aan de consensusregels om de structuur van onbevestigde transacties te definiëren die geaccepteerd worden in de Mempool en doorgegeven worden aan peers. Elk node configureert en past deze regels lokaal toe, wat verklaart waarom ze van node tot node kunnen verschillen. Ze zijn alleen van toepassing op onbevestigde transacties: een transactie die door een node als "niet-standaard" wordt beschouwd, wordt alleen geaccepteerd als deze al in een geldig blok voorkomt. Het veranderen van deze regels sluit de node niet uit van het Bitcoin systeem.
 
 
 
@@ -620,7 +620,7 @@ Je eigen knoop doorhakken betekent dat je beweert: "Ik valideer wat ik verkies t
 
 
 
-We kunnen dus snel proberen te begrijpen hoeveel macht je hebt over de regels dankzij je knooppunt. En de omvang van deze macht hangt af van het type regel.
+We kunnen dus snel proberen te begrijpen hoeveel macht je hebt over de regels dankzij je node. En de omvang van deze macht hangt af van het type regel.
 
 
 
@@ -628,15 +628,15 @@ We kunnen dus snel proberen te begrijpen hoeveel macht je hebt over de regels da
 
 
 
-Wat de regels voor het doorgeven van transacties betreft, is het belangrijkste gewoon dat je een knooppunt bezit, ongeacht de economische activiteit ervan. Waar het hier om gaat is of je wel of niet akkoord gaat met het doorgeven van bepaalde soorten transacties.
+Wat de regels voor het doorgeven van transacties betreft, is het belangrijkste gewoon dat je een node bezit, ongeacht de economische activiteit ervan. Waar het hier om gaat is of je wel of niet akkoord gaat met het doorgeven van bepaalde soorten transacties.
 
 
 
-Als je bijvoorbeeld van mening bent dat transacties met vergoedingen van minder dan 1 sat/vB geaccepteerd moeten worden op Bitcoin, dan kun je deze regel op je knooppunt aanpassen zodat het deze transacties uitzendt en zo hun verspreiding op het netwerk vergemakkelijkt totdat een Miner ze uiteindelijk opneemt in een geldig blok. In wezen is het dus een kwestie van macht over de verspreiding van transacties: elk knooppunt heeft beslissingsbevoegdheid, omdat ermee instemmen om een type transactie door te geven gelijk staat aan het bevorderen van de acceptatie ervan op het Bitcoin netwerk. Als je meerdere knooppunten beheert, heb je dus meer invloed op het doorgeefbeleid, omdat elk knooppunt zijn eigen verbindingen en invloedssferen op het netwerk heeft.
+Als je bijvoorbeeld van mening bent dat transacties met vergoedingen van minder dan 1 sat/vB geaccepteerd moeten worden op Bitcoin, dan kun je deze regel op je node aanpassen zodat het deze transacties uitzendt en zo hun verspreiding op het netwerk vergemakkelijkt totdat een Miner ze uiteindelijk opneemt in een geldig blok. In wezen is het dus een kwestie van macht over de verspreiding van transacties: elk node heeft beslissingsbevoegdheid, omdat ermee instemmen om een type transactie door te geven gelijk staat aan het bevorderen van de acceptatie ervan op het Bitcoin netwerk. Als je meerdere nodes beheert, heb je dus meer invloed op het doorgeefbeleid, omdat elk node zijn eigen verbindingen en invloedssferen op het netwerk heeft.
 
 
 
-Het hebben van een of meer knooppunten die geconfigureerd zijn met specifieke relaisregels betekent dat bepaald wordt welk deel van het netwerk een bepaald type transactie accepteert om te verspreiden. Het verspreiden van een bericht in een peer-to-peer grafiek, zoals het geval is voor Bitcoin transacties, volgt de logica van de percolatietheorie. Stel je elk knooppunt voor als een site die actief (`p` = het doorgeeft) of inactief (`1-p`) kan zijn. Zodra het aandeel `p` een kritieke drempel overschrijdt (`p_c`), ontstaat er een gigantische component: de transactie slaagt erin het netwerk te doorkruisen en heeft alle kans om een Miner te bereiken. In een netwerk zoals Bitcoin, waar elk knooppunt gemiddeld 8 uitgaande verbindingen onderhoudt, wordt de `p_c` drempel over het algemeen ingesteld op slechts enkele procenten, zelfs lager als sommige knooppunten een zeer groot aantal verbindingen hebben.
+Het hebben van een of meer nodes die geconfigureerd zijn met specifieke relaisregels betekent dat bepaald wordt welk deel van het netwerk een bepaald type transactie accepteert om te verspreiden. Het verspreiden van een bericht in een peer-to-peer grafiek, zoals het geval is voor Bitcoin transacties, volgt de logica van de percolatietheorie. Stel je elk node voor als een site die actief (`p` = het doorgeeft) of inactief (`1-p`) kan zijn. Zodra het aandeel `p` een kritieke drempel overschrijdt (`p_c`), ontstaat er een gigantische component: de transactie slaagt erin het netwerk te doorkruisen en heeft alle kans om een Miner te bereiken. In een netwerk zoals Bitcoin, waar elk node gemiddeld 8 uitgaande verbindingen onderhoudt, wordt de `p_c` drempel over het algemeen ingesteld op slechts enkele procenten, zelfs lager als sommige nodes een zeer groot aantal verbindingen hebben.
 
 
 
@@ -648,7 +648,7 @@ Zolang `p` onder `p_c` blijft, blijft een transactie beperkt tot geïsoleerde po
 
 
 
-Uiteindelijk zijn het altijd de miners die beslissen of een transactie al dan niet wordt opgenomen in een blok. De knooppunten interveniëren echter stroomopwaarts door de distributie van transacties te beïnvloeden: zij bepalen of de miners al dan niet op de hoogte zullen zijn van een bepaalde transactie. Als een transactie niet wordt doorgegeven aan de miners, is het uiteraard onmogelijk voor hen om deze in een blok op te nemen.
+Uiteindelijk zijn het altijd de miners die beslissen of een transactie al dan niet wordt opgenomen in een blok. De nodes interveniëren echter stroomopwaarts door de distributie van transacties te beïnvloeden: zij bepalen of de miners al dan niet op de hoogte zullen zijn van een bepaalde transactie. Als een transactie niet wordt doorgegeven aan de miners, is het uiteraard onmogelijk voor hen om deze in een blok op te nemen.
 
 
 
@@ -684,25 +684,25 @@ Op Bitcoin omvat de rol van "handelaar", opgevat als elke entiteit met een bepaa
 
 
 
-Wat de consensusregels betreft, kun je met je knooppunt je economische activiteit richten op de ene of de andere valuta. Als je bijvoorbeeld 10 volle nodes thuis hebt, maar geen significante economische activiteit, zal je invloed tijdens een Fork bijna nihil zijn. Omgekeerd geeft één enkel knooppunt, dat gebruikt wordt om een keten van 200 winkels te beheren die Bitcoin accepteren, een aanzienlijk economisch gewicht.
+Wat de consensusregels betreft, kun je met je node je economische activiteit richten op de ene of de andere valuta. Als je bijvoorbeeld 10 volle nodes thuis hebt, maar geen significante economische activiteit, zal je invloed tijdens een Fork bijna nihil zijn. Omgekeerd geeft één enkel node, dat gebruikt wordt om een keten van 200 winkels te beheren die Bitcoin accepteren, een aanzienlijk economisch gewicht.
 
 
 
-Het gaat dus niet om het aantal knooppunten, maar om het belang van de economische activiteit die ze ondersteunen. Bovendien, als je economische activiteit afhangt van een knooppunt waar je geen controle over hebt, zal de eigenaar ervan beslissen welke valuta je gebruikt, zolang je verbonden blijft met dat knooppunt. Daarom is het runnen en gebruiken van je eigen node bijzonder belangrijk in de context van systeembeheer:
+Het gaat dus niet om het aantal nodes, maar om het belang van de economische activiteit die ze ondersteunen. Bovendien, als je economische activiteit afhangt van een node waar je geen controle over hebt, zal de eigenaar ervan beslissen welke valuta je gebruikt, zolang je verbonden blijft met dat node. Daarom is het runnen en gebruiken van je eigen node bijzonder belangrijk in de context van systeembeheer:
 
 
 
 > Niet jouw knoop, niet jouw regels.
 
 
-## De verschillende typen Bitcoin knooppunten
+## De verschillende typen Bitcoin nodes
 
 
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
 
 
 
-Een Bitcoin knooppunt is dus een machine waarop een implementatie van het Bitcoin protocol draait. Achter deze algemene definitie van knooppunten bestaan verschillende mogelijke configuraties, die niet allemaal hetzelfde niveau van autonomie, resourceverbruik en bruikbaarheid voor het netwerk bieden. In dit hoofdstuk proberen we deze verschillen te begrijpen om je te helpen een knooppuntarchitectuur te kiezen die past bij jouw gebruik en hardwarebeperkingen.
+Een Bitcoin node is dus een machine waarop een implementatie van het Bitcoin protocol draait. Achter deze algemene definitie van nodes bestaan verschillende mogelijke configuraties, die niet allemaal hetzelfde niveau van autonomie, resourceverbruik en bruikbaarheid voor het netwerk bieden. In dit hoofdstuk proberen we deze verschillen te begrijpen om je te helpen een nodearchitectuur te kiezen die past bij jouw gebruik en hardwarebeperkingen.
 
 
 
@@ -710,7 +710,7 @@ Een Bitcoin knooppunt is dus een machine waarop een implementatie van het Bitcoi
 
 
 
-Een Full node is simpelweg een Bitcoin knooppunt dat het volledige Blockchain van het Genesis blok downloadt, elk blok onafhankelijk valideert en de geschiedenis van al dat Blockchain lokaal opslaat. Dit is de "normale" vorm van een Bitcoin knooppunt, zoals voorgesteld door Satoshi Nakamoto.
+Een Full node is simpelweg een Bitcoin node dat het volledige Blockchain van het Genesis blok downloadt, elk blok onafhankelijk valideert en de geschiedenis van al dat Blockchain lokaal opslaat. Dit is de "normale" vorm van een Bitcoin node, zoals voorgesteld door Satoshi Nakamoto.
 
 
 
@@ -726,7 +726,7 @@ In de praktijk vereist een Full node niet-triviale middelen, waaronder enkele ho
 
 
 
-Afhankelijk van je behoeften kun je een indexer toevoegen aan je Full node. Bitcoin core biedt transactie-indexering als een optionele functie (standaard uitgeschakeld), die nuttig kan zijn voor specifieke doeleinden. Het bevat echter geen Address indexer, wat vaak de meest gewilde functie is voor individuele gebruikers. Om dit te verhelpen kun je speciale software op je knooppunt installeren, zoals Electrs of Fulcrum, om Address balansverificatie queries van geassocieerde UTXO's te versnellen. We zullen in een apart hoofdstuk dieper ingaan op de rol van de indexeerder.
+Afhankelijk van je behoeften kun je een indexer toevoegen aan je Full node. Bitcoin core biedt transactie-indexering als een optionele functie (standaard uitgeschakeld), die nuttig kan zijn voor specifieke doeleinden. Het bevat echter geen Address indexer, wat vaak de meest gewilde functie is voor individuele gebruikers. Om dit te verhelpen kun je speciale software op je node installeren, zoals Electrs of Fulcrum, om Address balansverificatie queries van geassocieerde UTXO's te versnellen. We zullen in een apart hoofdstuk dieper ingaan op de rol van de indexeerder.
 
 
 
@@ -734,7 +734,7 @@ Afhankelijk van je behoeften kun je een indexer toevoegen aan je Full node. Bitc
 
 
 
-Het pruned knooppunt valideert alles als een Full node, van het Genesis blok tot de kop van de keten met het meeste werk, maar **behoudt alleen het meest recente deel van de blokbestanden**. Zodra de oude blokken gecontroleerd zijn, worden ze geleidelijk verwijderd om onder een ruimtelimiet te blijven die je kunt instellen. Deze configuratie is ideaal als u beperkte schijfruimte hebt: u behoudt de onafhankelijkheid van de blokvalidatie, zonder het complete Blockchain geschiedenisarchief op te slaan. Deze optie is vooral handig als u de Bitcoin core op uw pc wilt installeren, zonder een speciale machine te gebruiken.
+Het pruned node valideert alles als een Full node, van het Genesis blok tot de kop van de keten met het meeste werk, maar **behoudt alleen het meest recente deel van de blokbestanden**. Zodra de oude blokken gecontroleerd zijn, worden ze geleidelijk verwijderd om onder een ruimtelimiet te blijven die je kunt instellen. Deze configuratie is ideaal als u beperkte schijfruimte hebt: u behoudt de onafhankelijkheid van de blokvalidatie, zonder het complete Blockchain geschiedenisarchief op te slaan. Deze optie is vooral handig als u de Bitcoin core op uw pc wilt installeren, zonder een speciale machine te gebruiken.
 
 
 
@@ -742,15 +742,15 @@ Het pruned knooppunt valideert alles als een Full node, van het Genesis blok tot
 
 
 
-De technische implicaties van deze optie zijn vrij eenvoudig: het pruned knooppunt is perfect in staat om uw transacties uit te zenden, deel te nemen aan de relay, blokken en transacties te verifiëren en de keten te volgen. Aan de andere kant kan het niet dienen als een bron van historische gegevens buiten zijn grenzen voor andere toepassingen (bv. volledige verkenners, indexeerders, wallets). Functies die het archief (of een globale index) nodig hebben, zullen daarom niet beschikbaar zijn.
+De technische implicaties van deze optie zijn vrij eenvoudig: het pruned node is perfect in staat om uw transacties uit te zenden, deel te nemen aan de relay, blokken en transacties te verifiëren en de keten te volgen. Aan de andere kant kan het niet dienen als een bron van historische gegevens buiten zijn grenzen voor andere toepassingen (bv. volledige verkenners, indexeerders, wallets). Functies die het archief (of een globale index) nodig hebben, zullen daarom niet beschikbaar zijn.
 
 
 
-Praktisch gezien kunt u een pruned knooppunt gebruiken om Wallet beheersoftware zoals Sparrow wallet aan te sluiten. Je zult echter geen transacties op je Wallet kunnen scannen die van voor de snoeilimiet dateren. Als je bijvoorbeeld een transactie geregistreerd hebt in blok 901 458, maar je node bewaart alleen blokken vanaf 905 402 (omdat de oudste pruned zijn), dan kun je deze transactie niet scannen. Aan de andere kant, als je het al had gescand toen je knooppunt deze blokhoogte nog had, dan zal je Wallet beheersoftware de informatie opslaan en het saldo van de corresponderende UTXO's correct weergeven.
+Praktisch gezien kunt u een pruned node gebruiken om Wallet beheersoftware zoals Sparrow wallet aan te sluiten. Je zult echter geen transacties op je Wallet kunnen scannen die van voor de snoeilimiet dateren. Als je bijvoorbeeld een transactie geregistreerd hebt in blok 901 458, maar je node bewaart alleen blokken vanaf 905 402 (omdat de oudste pruned zijn), dan kun je deze transactie niet scannen. Aan de andere kant, als je het al had gescand toen je node deze blokhoogte nog had, dan zal je Wallet beheersoftware de informatie opslaan en het saldo van de corresponderende UTXO's correct weergeven.
 
 
 
-Kortom, Wallet traceren werkt probleemloos op een pruned knooppunt als je een nieuwe Wallet aanmaakt terwijl je software al verbonden is met dat knooppunt. Aan de andere kant kunt u problemen ondervinden als u een oude Wallet herstelt, omdat transacties uit het verleden die niet meer door het knooppunt worden bewaard, natuurlijk niet meer terug te vinden zijn.
+Kortom, Wallet traceren werkt probleemloos op een pruned node als je een nieuwe Wallet aanmaakt terwijl je software al verbonden is met dat node. Aan de andere kant kunt u problemen ondervinden als u een oude Wallet herstelt, omdat transacties uit het verleden die niet meer door de node worden bewaard, natuurlijk niet meer terug te vinden zijn.
 
 
 
@@ -770,11 +770,11 @@ Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https
 
 
 
-Dit type knooppunt is duidelijk veel lichter in termen van opslag en CPU-gebruik dan een Full node of zelfs een pruned knooppunt. De SPV node is daarom zeer geschikt voor kleinere apparaten en intermitterende verbindingen. In feite wordt het vaak direct geïntegreerd in de Wallet, vooral mobiele software zoals de Blockstream App.
+Dit type node is duidelijk veel lichter in termen van opslag en CPU-gebruik dan een Full node of zelfs een pruned node. De SPV node is daarom zeer geschikt voor kleinere apparaten en intermitterende verbindingen. In feite wordt het vaak direct geïntegreerd in de Wallet, vooral mobiele software zoals de Blockstream App.
 
 
 
-De afweging is vertrouwen en vertrouwelijkheid: een SPV client controleert zelf geen scripts of validatiebeleid; hij gaat ervan uit dat de keten met het meeste werk geldig is en is afhankelijk van een of meer volledige knooppunten voor antwoorden. Het gebruik van dit type knooppunt is daarom een betere optie dan verbinding maken met een knooppunt van een derde partij; het is echter nog steeds minder voordelig dan een Full node of zelfs een pruned knooppunt.
+De afweging is vertrouwen en vertrouwelijkheid: een SPV client controleert zelf geen scripts of validatiebeleid; hij gaat ervan uit dat de keten met het meeste werk geldig is en is afhankelijk van een of meer volledige nodes voor antwoorden. Het gebruik van dit type node is daarom een betere optie dan verbinding maken met een node van een derde partij; het is echter nog steeds minder voordelig dan een Full node of zelfs een pruned node.
 
 
 
@@ -782,7 +782,7 @@ De afweging is vertrouwen en vertrouwelijkheid: een SPV client controleert zelf 
 
 
 
-### Welk knooppunt voor welke behoefte?
+### Welk node voor welke behoefte?
 
 
 
@@ -837,7 +837,7 @@ Beide benaderingen leiden tot hetzelfde doel: het hebben van je eigen node, maar
 
 
 
-### Ruwe Bitcoin knooppuntimplementaties
+### Ruwe Bitcoin nodeimplementaties
 
 
 
@@ -861,7 +861,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-**Nadelen:** Je moet de rest van de stack handmatig bouwen om een complete applicatie-omgeving te maken, in plaats van alleen een Bitcoin knooppunt.
+**Nadelen:** Je moet de rest van de stack handmatig bouwen om een complete applicatie-omgeving te maken, in plaats van alleen een Bitcoin node.
 
 
 
@@ -882,7 +882,7 @@ Er zijn 2 mogelijke redenen om Knots boven Core te kiezen:
 
 
 
-- Technieken**: Andere opties dan Core, met name op het gebied van relaisbeheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door je knooppunt.
+- Technieken**: Andere opties dan Core, met name op het gebied van relaisbeheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door je node.
 - Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe deze effectief gebruikt kunnen worden. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het merendeel van het beheer van de client afkeuren.
 
 
@@ -934,7 +934,7 @@ Hier volgt een overzicht van de belangrijkste beschikbare node-in-a-box oplossin
 
 
 
-Umbrel werd in 2020 gelanceerd als een eenvoudig Bitcoin knooppunt met een paar aanvullende toepassingen, maar heeft zich geleidelijk ontwikkeld tot een moderne cloud met alle functies.
+Umbrel werd in 2020 gelanceerd als een eenvoudig Bitcoin node met een paar aanvullende toepassingen, maar heeft zich geleidelijk ontwikkeld tot een moderne cloud met alle functies.
 
 
 
@@ -1156,7 +1156,7 @@ Persoonlijk geef ik de voorkeur aan de *Lenovo ThinkCentre Tiny*, die zeer wijdv
 
 
 
-Het is een uitstekend goedkoop alternatief voor de mini-pc: tegenwoordig kun je gebruikte of zelfs nieuwe laptops vinden tegen lage prijzen, uitgerust met fatsoenlijke processors, talloze poorten en een geïntegreerd scherm en toetsenbord (erg praktisch voor de eerste installatie). Bovendien werkt de batterij als een natuurlijke UPS: in het geval van een stroomstoring wordt het knooppunt niet abrupt uitgeschakeld en kan het zelfs enkele uren operationeel blijven.
+Het is een uitstekend goedkoop alternatief voor de mini-pc: tegenwoordig kun je gebruikte of zelfs nieuwe laptops vinden tegen lage prijzen, uitgerust met fatsoenlijke processors, talloze poorten en een geïntegreerd scherm en toetsenbord (erg praktisch voor de eerste installatie). Bovendien werkt de batterij als een natuurlijke UPS: in het geval van een stroomstoring wordt de node niet abrupt uitgeschakeld en kan het zelfs enkele uren operationeel blijven.
 
 
 
@@ -1396,7 +1396,7 @@ Afhankelijk van je beoogde gebruik kun je kiezen voor een 2TB SSD, zoals in de a
 
 
 
-# Eenvoudig een Bitcoin knooppunt installeren
+# Eenvoudig een Bitcoin node installeren
 
 
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
@@ -1404,7 +1404,7 @@ Afhankelijk van je beoogde gebruik kun je kiezen voor een 2TB SSD, zoals in de a
 
 
 
-## Umbrel: veel meer dan een Bitcoin knooppunt
+## Umbrel: veel meer dan een Bitcoin node
 
 
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
@@ -1415,7 +1415,7 @@ Umbrel is een persoonlijk serverbesturingssysteem ontworpen om zelf-hosting toeg
 
 
 
-Het project populariseerde eerst het idee van een Bitcoin- en Lightning-knooppunt met één klik en breidde daarna uit tot een echte "thuiswolk": bestands- en foto-opslag, multimediastreaming, netwerktools, domotica, lokale AI en honderden apps die geïnstalleerd kunnen worden vanuit een geïntegreerde App Store.
+Het project populariseerde eerst het idee van een Bitcoin- en Lightning-node met één klik en breidde daarna uit tot een echte "thuiswolk": bestands- en foto-opslag, multimediastreaming, netwerktools, domotica, lokale AI en honderden apps die geïnstalleerd kunnen worden vanuit een geïntegreerde App Store.
 
 
 
@@ -1467,7 +1467,7 @@ In het volgende hoofdstuk gaan we kijken hoe je umbrelOS DIY op je eigen machine
 
 
 
-### Gebruikssituatie: van het Bitcoin knooppunt naar de thuiscloud
+### Gebruikssituatie: van het Bitcoin node naar de thuiscloud
 
 
 
@@ -1477,7 +1477,7 @@ Umbrel kan heel minimalistisch blijven en zich alleen richten op Bitcoin, of evo
 
 
 
-- Eenvoudig Bitcoin knooppunt**: dit is het eerste gebruik waarop Umbrel vanaf het begin heeft vertrouwd. Je kunt Bitcoin core (of Knots) draaien, je wallets direct op je node aansluiten, een Electrum server ontsluiten, je Mempool Block explorer hosten om de Blockchain te bekijken, en kosten schatten... Het zijn deze toepassingen waar we ons in deze cursus op zullen richten.
+- Eenvoudig Bitcoin node**: dit is het eerste gebruik waarop Umbrel vanaf het begin heeft vertrouwd. Je kunt Bitcoin core (of Knots) draaien, je wallets direct op je node aansluiten, een Electrum server ontsluiten, je Mempool Block explorer hosten om de Blockchain te bekijken, en kosten schatten... Het zijn deze toepassingen waar we ons in deze cursus op zullen richten.
 
 
 
@@ -1549,7 +1549,7 @@ Elke toepassing in de Store behoudt echter zijn eigen licentie, vaak open source
 
 
 
-Nu we alle benodigde informatie hebben, is het tijd om in de details te duiken. In deze tutorial laten we zien hoe je een compleet Bitcoin knooppunt installeert met UmbrelOS.
+Nu we alle benodigde informatie hebben, is het tijd om in de details te duiken. In deze tutorial laten we zien hoe je een compleet Bitcoin node installeert met UmbrelOS.
 
 
 
@@ -1677,7 +1677,7 @@ Zodra de bewerking voltooid is, hebt u een opstartbare USB-sleutel met UmbrelOS,
 
 
 
-Nu uw opstartbare USB-stick met UmbrelOS klaar is, kunt u uw computer erop opstarten om de systeeminstallatie te starten. Haal de USB-stick uit uw hoofdcomputer en steek deze in het apparaat waarop u Umbrel en uw Bitcoin knooppunt wilt installeren.
+Nu uw opstartbare USB-stick met UmbrelOS klaar is, kunt u uw computer erop opstarten om de systeeminstallatie te starten. Haal de USB-stick uit uw hoofdcomputer en steek deze in het apparaat waarop u Umbrel en uw Bitcoin node wilt installeren.
 
 
 
@@ -1745,7 +1745,7 @@ Wanneer de installatie voltooid is, wordt u gevraagd om het apparaat uit te scha
 
 
 
-U kunt nu de USB-stekker, het toetsenbord en het scherm verwijderen, omdat deze niet langer nodig zijn voor uw Umbrel. Het enige dat overblijft van je knooppunt is de Supply en de RJ45 Ethernetkabel.
+U kunt nu de USB-stekker, het toetsenbord en het scherm verwijderen, omdat deze niet langer nodig zijn voor uw Umbrel. Het enige dat overblijft van je node is de Supply en de RJ45 Ethernetkabel.
 
 
 
@@ -1966,7 +1966,7 @@ Vanaf nu vereist elke nieuwe verbinding met je Umbrel zowel het wachtwoord als d
 
 
 
-Wat betreft toegang op afstand via Tor, als je het niet nodig hebt, raad ik aan om deze optie uit te schakelen om het aanvalsoppervlak van je Umbrel te beperken. Standaard is je knooppunt alleen toegankelijk vanaf een machine die verbonden is met hetzelfde lokale netwerk. Als je toegang via Tor inschakelt, kun je je Umbrel toch onderweg beheren.
+Wat betreft toegang op afstand via Tor, als je het niet nodig hebt, raad ik aan om deze optie uit te schakelen om het aanvalsoppervlak van je Umbrel te beperken. Standaard is je node alleen toegankelijk vanaf een machine die verbonden is met hetzelfde lokale netwerk. Als je toegang via Tor inschakelt, kun je je Umbrel toch onderweg beheren.
 
 
 
@@ -1986,11 +1986,11 @@ Voer gewoon deze Tor Address in je Tor browser in om toegang te krijgen tot Umbr
 
 
 
-Tot slot kunt u op deze instellingenpagina ook de Wi-Fi-verbinding activeren. Als uw machine die Umbrel host een Wi-Fi-netwerkkaart of een Wi-Fi-dongle heeft, kunt u hiermee toegang krijgen tot het internet zonder de RJ45-kabel te gebruiken. Afhankelijk van je configuratie kan deze oplossing echter de verbinding vertragen, wat invloed kan hebben op de initiële synchronisatie (IBD) en toekomstig gebruik van het knooppunt (bijvoorbeeld voor Lightning-transacties). Persoonlijk raad ik deze optie niet aan, omdat een knooppunt niet bedoeld is voor mobiel gebruik: het wordt altijd op afstand benaderd, dus je kunt het net zo goed aangesloten laten.
+Tot slot kunt u op deze instellingenpagina ook de Wi-Fi-verbinding activeren. Als uw machine die Umbrel host een Wi-Fi-netwerkkaart of een Wi-Fi-dongle heeft, kunt u hiermee toegang krijgen tot het internet zonder de RJ45-kabel te gebruiken. Afhankelijk van je configuratie kan deze oplossing echter de verbinding vertragen, wat invloed kan hebben op de initiële synchronisatie (IBD) en toekomstig gebruik van de node (bijvoorbeeld voor Lightning-transacties). Persoonlijk raad ik deze optie niet aan, omdat een node niet bedoeld is voor mobiel gebruik: het wordt altijd op afstand benaderd, dus je kunt het net zo goed aangesloten laten.
 
 
 
-### Stap 6: Installeer een Bitcoin knooppunt op Umbrel
+### Stap 6: Installeer een Bitcoin node op Umbrel
 
 
 
@@ -2018,7 +2018,7 @@ Zodra de installatie is voltooid, zal uw Bitcoin node zijn IBD (*Initial Block D
 
 
 
-Deze fase is bijzonder tijdrovend, omdat de duur afhangt van verschillende factoren, waaronder de hoeveelheid RAM die is toegewezen aan de cache van het knooppunt, de snelheid van de schijf, de snelheid van de internetverbinding en de kracht van de processor. Het bereik van de duur is daarom erg groot, afhankelijk van de configuratie. Met een krachtige pc (NVMe SSD, +32 GB RAM, krachtige processor en goede internetverbinding) kan IBD in ongeveer tien uur voltooid worden. Aan de andere kant kan een oude processor, weinig RAM of, nog erger, een mechanische Hard schijf (sterk afgeraden) deze operatie verlengen tot enkele weken.
+Deze fase is bijzonder tijdrovend, omdat de duur afhangt van verschillende factoren, waaronder de hoeveelheid RAM die is toegewezen aan de cache van de node, de snelheid van de schijf, de snelheid van de internetverbinding en de kracht van de processor. Het bereik van de duur is daarom erg groot, afhankelijk van de configuratie. Met een krachtige pc (NVMe SSD, +32 GB RAM, krachtige processor en goede internetverbinding) kan IBD in ongeveer tien uur voltooid worden. Aan de andere kant kan een oude processor, weinig RAM of, nog erger, een mechanische Hard schijf (sterk afgeraden) deze operatie verlengen tot enkele weken.
 
 
 
@@ -2038,7 +2038,7 @@ Standaard is de waarde van de `dbcache` parameter in Bitcoin core ingesteld op 4
 
 
 
-Wees voorzichtig dat u geen waarde toewijst die te groot is voor uw machine. Als het beschikbare RAM-geheugen voor UmbrelOS opraakt, kan uw knooppunt abrupt stoppen, waardoor de IBD onderbroken wordt en u het handmatig opnieuw moet opstarten, wat resulteert in een aanzienlijk tijdverlies.
+Wees voorzichtig dat u geen waarde toewijst die te groot is voor uw machine. Als het beschikbare RAM-geheugen voor UmbrelOS opraakt, kan uw node abrupt stoppen, waardoor de IBD onderbroken wordt en u het handmatig opnieuw moet opstarten, wat resulteert in een aanzienlijk tijdverlies.
 
 
 
@@ -2046,7 +2046,7 @@ Om meer te weten te komen over de invloed van de `dbcache` parameter op initiël
 
 
 
-Zodra de IBD van je knooppunt is voltooid (100% synchronisatie), heb je nu een volledig operationeel Bitcoin knooppunt. Gefeliciteerd, je bent nu een integraal onderdeel van het Bitcoin netwerk!
+Zodra de IBD van je node is voltooid (100% synchronisatie), heb je nu een volledig operationeel Bitcoin node. Gefeliciteerd, je bent nu een integraal onderdeel van het Bitcoin netwerk!
 
 
 
@@ -2060,7 +2060,7 @@ In het volgende deel verkennen we het praktische gebruik van je nieuwe node: hoe
 
 
 
-# Uw Wallet aansluiten op uw knooppunt
+# Uw Wallet aansluiten op uw node
 
 
 <partId>418d0afd-3a61-4b5a-9db4-203c0335fd29</partId>
@@ -2074,7 +2074,7 @@ In het volgende deel verkennen we het praktische gebruik van je nieuwe node: hoe
 
 
 
-Als je Bitcoin knooppunten al verkend hebt voordat je deze cursus volgde, ben je misschien de term "indexer" tegengekomen. Dit zijn tools zoals Electrs of Fulcrum, die toegevoegd kunnen worden aan een Bitcoin core knooppunt. Maar wat is precies hun rol? Hoe werken ze in de praktijk? En moet je er een installeren op je nieuwe Bitcoin node? Dat is wat we in dit hoofdstuk gaan onderzoeken.
+Als je Bitcoin nodes al verkend hebt voordat je deze cursus volgde, ben je misschien de term "indexer" tegengekomen. Dit zijn tools zoals Electrs of Fulcrum, die toegevoegd kunnen worden aan een Bitcoin core node. Maar wat is precies hun rol? Hoe werken ze in de praktijk? En moet je er een installeren op je nieuwe Bitcoin node? Dat is wat we in dit hoofdstuk gaan onderzoeken.
 
 
 
@@ -2090,7 +2090,7 @@ In lekentaal is het hetzelfde principe als een index in een boek: als je op zoek
 
 
 
-In een Bitcoin knooppunt, zoals Bitcoin core, worden Blockchain gegevens in hun ruwe, chronologische vorm opgeslagen. Elk blok bevat transacties, die op hun beurt inputs en outputs bevatten, zonder een bepaalde classificatie per Address, identifier of Wallet. Deze lineaire organisatie is geoptimaliseerd voor blokvalidatie, maar ongeschikt voor gericht zoeken. Als je bijvoorbeeld alle transacties wilt vinden die gekoppeld zijn aan een specifieke Address in een niet-geïndexeerd knooppunt, moet je handmatig de hele Blockchain doornemen, blok voor blok en transactie voor transactie. Dit is precies waar de indexer op je Bitcoin knooppunt om de hoek komt kijken.
+In een Bitcoin node, zoals Bitcoin core, worden Blockchain gegevens in hun ruwe, chronologische vorm opgeslagen. Elk blok bevat transacties, die op hun beurt inputs en outputs bevatten, zonder een bepaalde classificatie per Address, identifier of Wallet. Deze lineaire organisatie is geoptimaliseerd voor blokvalidatie, maar ongeschikt voor gericht zoeken. Als je bijvoorbeeld alle transacties wilt vinden die gekoppeld zijn aan een specifieke Address in een niet-geïndexeerd node, moet je handmatig de hele Blockchain doornemen, blok voor blok en transactie voor transactie. Dit is precies waar de indexer op je Bitcoin node om de hoek komt kijken.
 
 
 
@@ -2098,7 +2098,7 @@ In een Bitcoin knooppunt, zoals Bitcoin core, worden Blockchain gegevens in hun 
 
 
 
-Een indexer is een gespecialiseerd softwareprogramma dat deze massa ruwe gegevens analyseert (Blockchain, Mempool, UTXO set) en sleutels extraheert, zoals transactie-ID's, adressen en blokhoogtes. Uit deze sleutels stelt het zijn index samen, waarbij elke sleutel geassocieerd wordt met de exacte locatie van de informatie in de opslag van het knooppunt.
+Een indexer is een gespecialiseerd softwareprogramma dat deze massa ruwe gegevens analyseert (Blockchain, Mempool, UTXO set) en sleutels extraheert, zoals transactie-ID's, adressen en blokhoogtes. Uit deze sleutels stelt het zijn index samen, waarbij elke sleutel geassocieerd wordt met de exacte locatie van de informatie in de opslag van de node.
 
 
 
@@ -2106,7 +2106,7 @@ Een indexer is een gespecialiseerd softwareprogramma dat deze massa ruwe gegeven
 
 
 
-Met indexering kun je snel, nauwkeurig en efficiënt naar informatie op je node zoeken. Als je bijvoorbeeld een Wallet zoals Sparrow op je knooppunt aansluit, kan het vrijwel direct de balans van een Address weergeven. Concreet: het bevraagt de indexer met een verzoek als: "_Welke UTXO's zijn geassocieerd met dit script-Hash?_" De indexer antwoordt vrijwel onmiddellijk, zonder de hele Blockchain opnieuw te hoeven lezen, omdat deze gegevens al in de database staan.
+Met indexering kun je snel, nauwkeurig en efficiënt naar informatie op je node zoeken. Als je bijvoorbeeld een Wallet zoals Sparrow op je node aansluit, kan het vrijwel direct de balans van een Address weergeven. Concreet: het bevraagt de indexer met een verzoek als: "_Welke UTXO's zijn geassocieerd met dit script-Hash?_" De indexer antwoordt vrijwel onmiddellijk, zonder de hele Blockchain opnieuw te hoeven lezen, omdat deze gegevens al in de database staan.
 
 
 
@@ -2118,7 +2118,7 @@ Zonder de noodzaak van aanvullende software, biedt Bitcoin core strikt genomen g
 
 
 
-Tot Bitcoin core versie 0.8.0 was transactievalidatie gebaseerd op een globale transactie-index, bekend als de `txindex`. Deze index refereerde aan alle Blockchain transacties en hun uitvoer. Wanneer een knooppunt een nieuwe transactie ontving, raadpleegde het deze index om te controleren of de verbruikte outputs (in inputs) werkelijk bestonden en niet al waren uitgegeven. `txindex` was daarom destijds onmisbaar voor transactievalidatie.
+Tot Bitcoin core versie 0.8.0 was transactievalidatie gebaseerd op een globale transactie-index, bekend als de `txindex`. Deze index refereerde aan alle Blockchain transacties en hun uitvoer. Wanneer een node een nieuwe transactie ontving, raadpleegde het deze index om te controleren of de verbruikte outputs (in inputs) werkelijk bestonden en niet al waren uitgegeven. `txindex` was daarom destijds onmisbaar voor transactievalidatie.
 
 
 
@@ -2126,7 +2126,7 @@ Deze aanpak had echter zijn beperkingen: het was langzaam, kostbaar in termen va
 
 
 
-Deze methode is veel sneller en slaat alleen de huidige staat van het register op, waardoor de `txindex` indexer overbodig wordt. Echter, in plaats van de `txindex` code te verwijderen, hebben de ontwikkelaars ervoor gekozen om deze functionaliteit achter een eenvoudige parameter te houden (`txindex=1`). Door deze optie in te schakelen op je knooppunt, kun je elke transactie opvragen vanuit zijn `txid`.
+Deze methode is veel sneller en slaat alleen de huidige staat van het register op, waardoor de `txindex` indexer overbodig wordt. Echter, in plaats van de `txindex` code te verwijderen, hebben de ontwikkelaars ervoor gekozen om deze functionaliteit achter een eenvoudige parameter te houden (`txindex=1`). Door deze optie in te schakelen op je node, kun je elke transactie opvragen vanuit zijn `txid`.
 
 
 
@@ -2156,7 +2156,7 @@ Bitcoin core heeft een optionele transactie indexer (`txindex`), een overblijfse
 
 
 
-### Moet je een Address indexer toevoegen aan je knooppunt?
+### Moet je een Address indexer toevoegen aan je node?
 
 
 
@@ -2164,7 +2164,7 @@ Het toevoegen van een Address indexer, zoals Electrs of Fulcrum, is niet verplic
 
 
 
-Als je gewoon een Wallet, zoals Sparrow, op je knooppunt wilt aansluiten om saldi te bekijken en transacties uit te zenden, dan is dat heel goed mogelijk direct via Interface RPC van Bitcoin core, lokaal of op afstand via Tor.
+Als je gewoon een Wallet, zoals Sparrow, op je node wilt aansluiten om saldi te bekijken en transacties uit te zenden, dan is dat heel goed mogelijk direct via Interface RPC van Bitcoin core, lokaal of op afstand via Tor.
 
 
 
@@ -2235,14 +2235,14 @@ Zodra de synchronisatie voltooid is, kunt u uw Wallet software verbinden met uw 
 
 
 
-## Hoe sluit ik mijn Wallet aan op mijn Bitcoin-knooppunt?
+## Hoe sluit ik mijn Wallet aan op mijn Bitcoin-node?
 
 
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 
 
 
-Nu je een compleet Bitcoin knooppunt hebt, is het tijd om het goed te gebruiken! In het volgende hoofdstuk zullen we andere gebruiksmogelijkheden van je Umbrel instantie verkennen. Laten we echter beginnen met de basis: uw Wallet software aansluiten om informatie van uw eigen Blockchain te gebruiken en transacties via uw eigen knooppunt te distribueren.
+Nu je een compleet Bitcoin node hebt, is het tijd om het goed te gebruiken! In het volgende hoofdstuk zullen we andere gebruiksmogelijkheden van je Umbrel instantie verkennen. Laten we echter beginnen met de basis: uw Wallet software aansluiten om informatie van uw eigen Blockchain te gebruiken en transacties via uw eigen node te distribueren.
 
 
 
@@ -2256,7 +2256,7 @@ Zoals hierboven vermeld, zijn er twee belangrijke verbindingsinterfaces:
 
 
 
-In deze tutorial concentreren we ons op het verbinden met je node via Tor, omdat dit zowel een eenvoudige als veilige oplossing is voor beginners. Ik raad ten zeerste af om de RPC poort van je node vrij te geven, omdat een verkeerde configuratie een aanzienlijk risico vormt voor de veiligheid en vertrouwelijkheid van je gegevens. Het grootste nadeel van communicatie via Tor is de traagheid. In het volgende hoofdstuk verkennen we een snel en veilig alternatief voor Tor voor toegang op afstand tot je knooppunt: VPN.
+In deze tutorial concentreren we ons op het verbinden met je node via Tor, omdat dit zowel een eenvoudige als veilige oplossing is voor beginners. Ik raad ten zeerste af om de RPC poort van je node vrij te geven, omdat een verkeerde configuratie een aanzienlijk risico vormt voor de veiligheid en vertrouwelijkheid van je gegevens. Het grootste nadeel van communicatie via Tor is de traagheid. In het volgende hoofdstuk verkennen we een snel en veilig alternatief voor Tor voor toegang op afstand tot je node: VPN.
 
 
 
@@ -2280,12 +2280,12 @@ Klik vervolgens op "*Server*" om toegang te krijgen tot de verbindingsparameters
 
 
 
-Vervolgens ontdek je drie mogelijkheden om je software aan een Bitcoin knooppunt te koppelen:
+Vervolgens ontdek je drie mogelijkheden om je software aan een Bitcoin node te koppelen:
 
 
 
 
-- Publieke server* (geel): standaard, als u geen Bitcoin knooppunt bezit, verbindt deze optie u met een publiek knooppunt dat u niet bezit (meestal van een bedrijf). Deze optie is hier niet relevant, aangezien je je eigen knooppunt op Umbrel hebt.
+- Publieke server* (geel): standaard, als u geen Bitcoin node bezit, verbindt deze optie u met een publiek node dat u niet bezit (meestal van een bedrijf). Deze optie is hier niet relevant, aangezien je je eigen node op Umbrel hebt.
 - Bitcoin core* (Green): deze optie komt overeen met verbinding via Interface RPC, d.w.z. rechtstreeks met Bitcoin core.
 - Private Electrum* (blauw): met deze optie kun je verbinding maken via de Interface Electrum Server van je indexer (Electrs of Fulcrum).
 
@@ -2295,7 +2295,7 @@ Vervolgens ontdek je drie mogelijkheden om je software aan een Bitcoin knooppunt
 
 
 
-Als je Umbrel knooppunt geen indexer heeft, is dit de optie die je moet selecteren. Klik op Sparrow op "*Bitcoin core*".
+Als je Umbrel node geen indexer heeft, is dit de optie die je moet selecteren. Klik op Sparrow op "*Bitcoin core*".
 
 
 
@@ -2303,7 +2303,7 @@ Als je Umbrel knooppunt geen indexer heeft, is dit de optie die je moet selecter
 
 
 
-U moet dan verschillende gegevens invoeren om de verbinding met uw knooppunt tot stand te brengen. Al deze gegevens zijn toegankelijk vanuit de "*Bitcoin Node*" toepassing op Umbrel door te klikken op de "*Connect*" knop in de rechter bovenhoek van de Interface.
+U moet dan verschillende gegevens invoeren om de verbinding met uw node tot stand te brengen. Al deze gegevens zijn toegankelijk vanuit de "*Bitcoin Node*" toepassing op Umbrel door te klikken op de "*Connect*" knop in de rechter bovenhoek van de Interface.
 
 
 
@@ -2474,11 +2474,11 @@ Om meer te leren over het gebruik van de Mempool.Space verkenner, raad ik deze u
 
 https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-### Bliksemknooppunt
+### Bliksemnode
 
 
 
-Nu je je eigen Bitcoin knooppunt hebt, kun je ook je eigen Lightning knooppunt opzetten om off-chain transacties uit te voeren, zonder afhankelijk te zijn van een infrastructuur van derden.
+Nu je je eigen Bitcoin node hebt, kun je ook je eigen Lightning node opzetten om off-chain transacties uit te voeren, zonder afhankelijk te zijn van een infrastructuur van derden.
 
 
 
@@ -2540,7 +2540,7 @@ Concreet biedt Tailscale je verschillende voordelen bij het gebruik van je Umbre
 
 
 
-- U kunt de Interface Umbrel beheren of toegang krijgen tot de applicaties die aan uw knooppunt zijn gekoppeld (zoals Mempool, Ride The Lightning, ThunderHub...) vanaf elke locatie, alsof u zich op hetzelfde lokale netwerk bevindt, zonder poorten bloot te stellen op het internet en zonder door Tor te gaan, wat erg traag is;
+- U kunt de Interface Umbrel beheren of toegang krijgen tot de applicaties die aan uw node zijn gekoppeld (zoals Mempool, Ride The Lightning, ThunderHub...) vanaf elke locatie, alsof u zich op hetzelfde lokale netwerk bevindt, zonder poorten bloot te stellen op het internet en zonder door Tor te gaan, wat erg traag is;
 
 
 
@@ -2590,7 +2590,7 @@ Nostr clients ***noStrudel*** of ***Snort*** zijn ook beschikbaar op Umbrel. Dan
 
 
 
-Tot slot is er de ***Nostr Wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-knooppunt koppelen aan je Nostr-klanten om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf uw persoonlijke knooppunt via uw kanalen verzonden.
+Tot slot is er de ***Nostr Wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr-klanten om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf uw persoonlijke node via uw kanalen verzonden.
 
 
 
@@ -2616,7 +2616,7 @@ De architectuur van BTCPay Server is gebaseerd op een Bitcoin node en, voor Ligh
 
 
 
-Als u een bedrijf hebt en Bitcoin betalingen rechtstreeks via uw Umbrel knooppunt wilt aanvaarden, dan is de BTCPay Server toepassing ideaal voor u. Om meer te weten te komen over dit onderwerp, raad ik u aan de volgende bronnen te raadplegen:
+Als u een bedrijf hebt en Bitcoin betalingen rechtstreeks via uw Umbrel node wilt aanvaarden, dan is de BTCPay Server toepassing ideaal voor u. Om meer te weten te komen over dit onderwerp, raad ik u aan de volgende bronnen te raadplegen:
 
 
 
@@ -2667,7 +2667,7 @@ Om deze laatste sectie af te trappen, en voordat we verder gaan met meer geavanc
 
 
 
-Een betrouwbaar knooppunt begint met stabiele hardware. Zorg ervoor dat de machine waar je node op staat goed geventileerd, Dust-vrij en geïnstalleerd is in een droge omgeving, uit de buurt van warmte- en vochtbronnen. Vermijd het proppen in een kleine ruimte en kies voor een goed geventileerde locatie.
+Een betrouwbaar node begint met stabiele hardware. Zorg ervoor dat de machine waar je node op staat goed geventileerd, Dust-vrij en geïnstalleerd is in een droge omgeving, uit de buurt van warmte- en vochtbronnen. Vermijd het proppen in een kleine ruimte en kies voor een goed geventileerde locatie.
 
 
 
@@ -2683,7 +2683,7 @@ Ik raad ook aan om te investeren in een UPS. Dit beschermt je node tegen plotsel
 
 
 
-Houd aan de opslagkant de voortgang in de gaten: als de schijf verzadigd dreigt te raken, overweeg dan ruimte vrij te maken (ongebruikte apps verwijderen, de instellingen van de indexer aanpassen) of migreer naar een grotere SSD. Het nadeel van een vol Bitcoin knooppunt is dat de opslagvereisten continu toenemen, omdat er elke 10 minuten een nieuw blok wordt gegenereerd en oude blokken niet kunnen worden verwijderd (tenzij het knooppunt pruned is). Ik raad je daarom aan om bij de aanschaf van je hardware een voldoende grote capaciteit te plannen (minimaal 2 TB).
+Houd aan de opslagkant de voortgang in de gaten: als de schijf verzadigd dreigt te raken, overweeg dan ruimte vrij te maken (ongebruikte apps verwijderen, de instellingen van de indexer aanpassen) of migreer naar een grotere SSD. Het nadeel van een vol Bitcoin node is dat de opslagvereisten continu toenemen, omdat er elke 10 minuten een nieuw blok wordt gegenereerd en oude blokken niet kunnen worden verwijderd (tenzij de node pruned is). Ik raad je daarom aan om bij de aanschaf van je hardware een voldoende grote capaciteit te plannen (minimaal 2 TB).
 
 
 
@@ -2723,11 +2723,11 @@ Als je alleen je Bitcoin node gebruikt om je transacties te valideren en te dist
 
 
 
-Aan de andere kant, afhankelijk van de extra applicaties die je gebruikt op Umbrel, kunnen er meer back-ups nodig zijn. Dit is met name het geval als u een Lightning-node op Umbrel gebruikt. In dit geval is het absoluut noodzakelijk om een back-up te maken van de seed die u bij de installatie van uw Lightning-node hebt gekregen. Naast de seed hebt u een up-to-date ***Static Channel Backup (SCB)*** nodig om uw Lightning-node te kunnen herstellen in het geval van een probleem. Met SCB kunt u uw fondsen herstellen door kanalen geforceerd af te sluiten. Als de seed of de SCB ontbreekt, is het onmogelijk om een Lightning-knooppunt te herstellen.
+Aan de andere kant, afhankelijk van de extra applicaties die je gebruikt op Umbrel, kunnen er meer back-ups nodig zijn. Dit is met name het geval als u een Lightning-node op Umbrel gebruikt. In dit geval is het absoluut noodzakelijk om een back-up te maken van de seed die u bij de installatie van uw Lightning-node hebt gekregen. Naast de seed hebt u een up-to-date ***Static Channel Backup (SCB)*** nodig om uw Lightning-node te kunnen herstellen in het geval van een probleem. Met SCB kunt u uw fondsen herstellen door kanalen geforceerd af te sluiten. Als de seed of de SCB ontbreekt, is het onmogelijk om een Lightning-node te herstellen.
 
 
 
-Umbrel biedt ook de optie om automatisch en dynamisch een back-up te maken van deze SCB op hun servers, via Tor, zodat er altijd een up-to-date bestand beschikbaar is. In dit geval is alleen de seed nodig om het knooppunt te herstellen.
+Umbrel biedt ook de optie om automatisch en dynamisch een back-up te maken van deze SCB op hun servers, via Tor, zodat er altijd een up-to-date bestand beschikbaar is. In dit geval is alleen de seed nodig om de node te herstellen.
 
 
 
@@ -2781,7 +2781,7 @@ Met deze eenvoudige gewoontes blijft uw Umbrel node stabiel, veilig en nuttig, z
 
 
 
-Je Bitcoin node start op zonder enige voorkennis van de transactiegeschiedenis. In eerste instantie is het gewoon een computer met software (Bitcoin core of vergelijkbaar). Om een volledig gesynchroniseerd en operationeel Bitcoin knooppunt te worden, moet het lokaal de toestand van Ledger reconstrueren door alle blokken te controleren die gepubliceerd zijn sinds het Genesis blok (blok 0, gepubliceerd door Satoshi Nakamoto op 3 januari 2009). Deze stap heet **IBD (_Initial Block Download_)**.
+Je Bitcoin node start op zonder enige voorkennis van de transactiegeschiedenis. In eerste instantie is het gewoon een computer met software (Bitcoin core of vergelijkbaar). Om een volledig gesynchroniseerd en operationeel Bitcoin node te worden, moet het lokaal de toestand van Ledger reconstrueren door alle blokken te controleren die gepubliceerd zijn sinds het Genesis blok (blok 0, gepubliceerd door Satoshi Nakamoto op 3 januari 2009). Deze stap heet **IBD (_Initial Block Download_)**.
 
 
 
@@ -2797,7 +2797,7 @@ IBD bestaat uit het downloaden en verifiëren van elk blok en elke transactie af
 
 
 
-De synchronisatie begint met de stap _**headers-first**_. Uw knooppunt vraagt de reeks block headers op bij verschillende peers en controleert voor elk ervan de Proof of Work, moeilijkheidsaanpassing, syntaxis, evenals de Timestamp en versienummerregels. Kortom, het zorgt ervoor dat elke ontvangen header voldoet aan de consensusregels.
+De synchronisatie begint met de stap _**headers-first**_. Uw node vraagt de reeks block headers op bij verschillende peers en controleert voor elk ervan de Proof of Work, moeilijkheidsaanpassing, syntaxis, evenals de Timestamp en versienummerregels. Kortom, het zorgt ervoor dat elke ontvangen header voldoet aan de consensusregels.
 
 
 
@@ -2831,15 +2831,15 @@ Transacties worden vastgelegd in een Merkle Tree. Dit is een structuur die een g
 
 
 
-Deze _**headers-first**_ stap stelt het knooppunt in staat om de tak met het meeste werk (ongeacht het aantal blokken) te identificeren, wat de tak is waarop Bitcoin knooppunten synchroniseren. Zodra deze tak is geïdentificeerd, downloadt het knooppunt de inhoud van de blokken parallel van verschillende verbindingen en valideert dan elke transactie: formaat, geldigheid van scripts (behalve `assumevalid=1`), bedragen en afwezigheid van dubbele uitgaven. Bij elke succesvolle controle wordt de huidige staat van onuitgegeven munten (UTXO set) bijgewerkt in de `chainstate/` database: uitgegeven uitgangen worden verwijderd, terwijl nieuwe geldige uitgangen worden toegevoegd.
+Deze _**headers-first**_ stap stelt de node in staat om de tak met het meeste werk (ongeacht het aantal blokken) te identificeren, wat de tak is waarop Bitcoin nodes synchroniseren. Zodra deze tak is geïdentificeerd, downloadt de node de inhoud van de blokken parallel van verschillende verbindingen en valideert dan elke transactie: formaat, geldigheid van scripts (behalve `assumevalid=1`), bedragen en afwezigheid van dubbele uitgaven. Bij elke succesvolle controle wordt de huidige staat van onuitgegeven munten (UTXO set) bijgewerkt in de `chainstate/` database: uitgegeven uitgangen worden verwijderd, terwijl nieuwe geldige uitgangen worden toegevoegd.
 
 
 
-Mempool, aan de andere kant, komt alleen in het spel als je de top van de keten nadert: zolang het knooppunt te laat is, heeft het geen lopende transacties om op te slaan.
+Mempool, aan de andere kant, komt alleen in het spel als je de top van de keten nadert: zolang de node te laat is, heeft het geen lopende transacties om op te slaan.
 
 
 
-Zodra de IBD voltooid is, gaat het knooppunt zijn normale fase in: het valideert nieuwe blokken als ze gepubliceerd worden, onderhoudt zijn Mempool met hangende transacties volgens zijn relaisregels, geeft transacties en blokken door en beheert eventuele reorganisaties van de keten.
+Zodra de IBD voltooid is, gaat de node zijn normale fase in: het valideert nieuwe blokken als ze gepubliceerd worden, onderhoudt zijn Mempool met hangende transacties volgens zijn relaisregels, geeft transacties en blokken door en beheert eventuele reorganisaties van de keten.
 
 
 
@@ -2847,11 +2847,11 @@ Zodra de IBD voltooid is, gaat het knooppunt zijn normale fase in: het valideert
 
 
 
-Bitcoin core bevat een mechanisme dat ontworpen is om de tijd te verkorten die nodig is voordat een knooppunt volledig operationeel is, terwijl de essentie van het autonome verificatieprincipe behouden blijft: AssumeValid.
+Bitcoin core bevat een mechanisme dat ontworpen is om de tijd te verkorten die nodig is voordat een node volledig operationeel is, terwijl de essentie van het autonome verificatieprincipe behouden blijft: AssumeValid.
 
 
 
-De `assumevalid` parameter is gebaseerd op een referentieblok uit het verleden, waarvan Hash in elke softwareversie geïntegreerd is. Tijdens IBD, als je knooppunt vindt dat dit blok inderdaad op de tak met het meeste werk zit, kan het script verificatie voor alle transacties voorafgaand aan dit punt negeren.
+De `assumevalid` parameter is gebaseerd op een referentieblok uit het verleden, waarvan Hash in elke softwareversie geïntegreerd is. Tijdens IBD, als je node vindt dat dit blok inderdaad op de tak met het meeste werk zit, kan het script verificatie voor alle transacties voorafgaand aan dit punt negeren.
 
 
 
@@ -2871,7 +2871,7 @@ Je kunt volledige validatie van alle scripts forceren door dit mechanisme uit te
 
 
 
-Het knooppunt wordt dus snel operationeel voor algemeen gebruik (RPC, wallets verbinden, etc.), terwijl het tegelijkertijd de volledige, geverifieerde reconstructie van zijn eigen UTXO set op de achtergrond start. Zodra deze fase is voltooid, wordt de initiële momentopname vervangen door de lokaal gereconstrueerde toestand. Deze aanpak scheidt snelle levering van knooppunten van volledige verificatie, zonder de laatste in gevaar te brengen.
+Het node wordt dus snel operationeel voor algemeen gebruik (RPC, wallets verbinden, etc.), terwijl het tegelijkertijd de volledige, geverifieerde reconstructie van zijn eigen UTXO set op de achtergrond start. Zodra deze fase is voltooid, wordt de initiële momentopname vervangen door de lokaal gereconstrueerde toestand. Deze aanpak scheidt snelle levering van nodes van volledige verificatie, zonder de laatste in gevaar te brengen.
 
 
 
@@ -2879,7 +2879,7 @@ Het knooppunt wordt dus snel operationeel voor algemeen gebruik (RPC, wallets ve
 
 
 
-Wanneer een knooppunt voor het eerst opstart, kent het nog geen peers. Het moet echter andere Bitcoin knooppunten op het Internet vinden om headers aan te vragen, en vervolgens blokken, om zijn IBD te voltooien. Om deze verbindingen te initiëren, volgt Bitcoin core een geprioriteerde logica.
+Wanneer een node voor het eerst opstart, kent het nog geen peers. Het moet echter andere Bitcoin nodes op het Internet vinden om headers aan te vragen, en vervolgens blokken, om zijn IBD te voltooien. Om deze verbindingen te initiëren, volgt Bitcoin core een geprioriteerde logica.
 
 
 
@@ -2887,11 +2887,11 @@ Wanneer een knooppunt voor het eerst opstart, kent het nog geen peers. Het moet 
 
 
 
-Wanneer het knooppunt opnieuw opstart nadat het al eerder is gebruikt, probeert Core eerst opnieuw verbinding te maken met uitgaande peers die voor de uitschakeling zijn geregistreerd, informatie die is opgeslagen in het `anchors.dat` bestand. Daarna raadpleegt hij zijn IP Address boek **`peers.dat`**, waarin de lijst van eerder gevonden peers is opgeslagen, om opnieuw verbinding met ze te maken. Dit is gewoon een lokaal bestand, bijgewerkt en bewaard door Core. Aan de andere kant, voor een nieuwe node die net gelanceerd is, zijn deze 2 bestanden leeg, omdat deze nog nooit met andere Bitcoin nodes heeft gecommuniceerd.
+Wanneer de node opnieuw opstart nadat het al eerder is gebruikt, probeert Core eerst opnieuw verbinding te maken met uitgaande peers die voor de uitschakeling zijn geregistreerd, informatie die is opgeslagen in het `anchors.dat` bestand. Daarna raadpleegt hij zijn IP Address boek **`peers.dat`**, waarin de lijst van eerder gevonden peers is opgeslagen, om opnieuw verbinding met ze te maken. Dit is gewoon een lokaal bestand, bijgewerkt en bewaard door Core. Aan de andere kant, voor een nieuwe node die net gelanceerd is, zijn deze 2 bestanden leeg, omdat deze nog nooit met andere Bitcoin nodes heeft gecommuniceerd.
 
 
 
-In dit geval bevraagt de software _**DNS seeds**_. Dit zijn [servers onderhouden door erkende ontwikkelaars van ecosystemen](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die een lijst met IP-adressen van vermoedelijk actieve knooppunten terugsturen. Met deze adressen kan het nieuwe knooppunt zijn eerste verbindingen starten en de benodigde gegevens opvragen bij de IBD. Hier is de lijst van *DNS seeds* die tot nu toe actief zijn (augustus 2025):
+In dit geval bevraagt de software _**DNS seeds**_. Dit zijn [servers onderhouden door erkende ontwikkelaars van ecosystemen](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die een lijst met IP-adressen van vermoedelijk actieve nodes terugsturen. Met deze adressen kan het nieuwe node zijn eerste verbindingen starten en de benodigde gegevens opvragen bij de IBD. Hier is de lijst van *DNS seeds* die tot nu toe actief zijn (augustus 2025):
 
 
 
@@ -2908,7 +2908,7 @@ In dit geval bevraagt de software _**DNS seeds**_. Dit zijn [servers onderhouden
 
 
 
-In de meeste gevallen is de stap *DNS seeds* voldoende om de eerste verbindingen met andere knooppunten tot stand te brengen. Als deze servers bij uitzondering niet binnen 60 seconden reageren, schakelt het knooppunt over op een andere methode: [een statische lijst van meer dan 1000 adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) van _zaadknooppunten_ is ingebouwd in de code van Bitcoin core en wordt regelmatig bijgewerkt. Als de eerste twee methoden om IP-adressen te verkrijgen mislukken, brengt deze laatste oplossing een initiële verbinding tot stand, van waaruit de node vervolgens nieuwe IP-adressen kan aanvragen.
+In de meeste gevallen is de stap *DNS seeds* voldoende om de eerste verbindingen met andere nodes tot stand te brengen. Als deze servers bij uitzondering niet binnen 60 seconden reageren, schakelt de node over op een andere methode: [een statische lijst van meer dan 1000 adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) van _zaadnodes_ is ingebouwd in de code van Bitcoin core en wordt regelmatig bijgewerkt. Als de eerste twee methoden om IP-adressen te verkrijgen mislukken, brengt deze laatste oplossing een initiële verbinding tot stand, van waaruit de node vervolgens nieuwe IP-adressen kan aanvragen.
 
 
 
@@ -2920,11 +2920,11 @@ Als laatste redmiddel kun je handmatig Supply IP adressen instellen via het `pee
 
 
 
-Eenmaal opgestart, diversifieert de interne Address manager de bronnen (aparte autonome netwerken, clearnet en Tor, evenals verschillende geografische gebieden) om het risico van topologische isolatie te verminderen. Het knooppunt maakt deze uitgaande verbindingen (verbindingen die het zelf selecteert en die daarom veiliger zijn).
+Eenmaal opgestart, diversifieert de interne Address manager de bronnen (aparte autonome netwerken, clearnet en Tor, evenals verschillende geografische gebieden) om het risico van topologische isolatie te verminderen. Het node maakt deze uitgaande verbindingen (verbindingen die het zelf selecteert en die daarom veiliger zijn).
 
 
 
-Als je knooppunt luistert op een open poort (standaard 8333), dan accepteert het binnenkomende verbindingen. Deze versterken de algehele veerkracht van het netwerk door een contactpunt voor nieuwe knooppunten te bieden, zonder dat dit een bijzonder voordeel oplevert voor je eigen IBD. Als je node op Tor draait, blijft de logica hetzelfde, maar de gebruikte adressen zijn `.onion` diensten.
+Als je node luistert op een open poort (standaard 8333), dan accepteert het binnenkomende verbindingen. Deze versterken de algehele veerkracht van het netwerk door een contactpunt voor nieuwe nodes te bieden, zonder dat dit een bijzonder voordeel oplevert voor je eigen IBD. Als je node op Tor draait, blijft de logica hetzelfde, maar de gebruikte adressen zijn `.onion` diensten.
 
 
 
@@ -2936,7 +2936,7 @@ Als je knooppunt luistert op een open poort (standaard 8333), dan accepteert het
 
 
 
-Wanneer je node zijn initiële synchronisatie heeft voltooid, slaat het lokaal verschillende complementaire gegevenssets op, waardoor het blokken en transacties kan valideren, netwerkpeers kan bedienen en snel opnieuw kan opstarten met behoud van zijn status. 3 belangrijke bouwstenen zijn essentieel op een knooppunt:
+Wanneer je node zijn initiële synchronisatie heeft voltooid, slaat het lokaal verschillende complementaire gegevenssets op, waardoor het blokken en transacties kan valideren, netwerkpeers kan bedienen en snel opnieuw kan opstarten met behoud van zijn status. 3 belangrijke bouwstenen zijn essentieel op een node:
 
 
 
@@ -2951,7 +2951,7 @@ Daarnaast maken verschillende hulpbestanden (peers, schattingen van honoraria, u
 
 
 
-### Waar bevinden de gegevens van het knooppunt zich eigenlijk?
+### Waar bevinden de gegevens van de node zich eigenlijk?
 
 
 
@@ -2987,7 +2987,7 @@ Ontvangen en gevalideerde blokken worden geschreven naar opeenvolgende container
 
 
 
-In pruned modus bewaart het knooppunt alleen een recent venster van deze bestanden om de schijfruimte te beperken. De oudste `blk*.dat` containers worden verwijderd zodra de geconfigureerde ruimtedoelstelling is bereikt, terwijl er voldoende geschiedenis wordt bewaard om consistent te blijven met de best bekende keten. De index en UTXO set blijven normaal, waardoor de volgende transacties en blokken gevalideerd kunnen worden.
+In pruned modus bewaart de node alleen een recent venster van deze bestanden om de schijfruimte te beperken. De oudste `blk*.dat` containers worden verwijderd zodra de geconfigureerde ruimtedoelstelling is bereikt, terwijl er voldoende geschiedenis wordt bewaard om consistent te blijven met de best bekende keten. De index en UTXO set blijven normaal, waardoor de volgende transacties en blokken gevalideerd kunnen worden.
 
 
 
@@ -2995,7 +2995,7 @@ In pruned modus bewaart het knooppunt alleen een recent venster van deze bestand
 
 
 
-Om terug te kunnen gaan in de tijd tijdens een reorganisatie, slaat Core, parallel aan elk `blk` bestand, een `revNNN.dat` bestand op in `blocks/`. Dit bestand bevat de informatie die nodig is om het effect van een blok op de UTXO set ongedaan te maken: voor elke uitgang die door het blok wordt verbruikt, wordt de vorige toestand van de corresponderende UTXO opgeslagen (hoeveelheid, script, hoogte...). Als een blok wordt afgebroken, kan het knooppunt de vorige toestand snel herstellen zonder dat de hele keten opnieuw hoeft te worden gescand.
+Om terug te kunnen gaan in de tijd tijdens een reorganisatie, slaat Core, parallel aan elk `blk` bestand, een `revNNN.dat` bestand op in `blocks/`. Dit bestand bevat de informatie die nodig is om het effect van een blok op de UTXO set ongedaan te maken: voor elke uitgang die door het blok wordt verbruikt, wordt de vorige toestand van de corresponderende UTXO opgeslagen (hoeveelheid, script, hoogte...). Als een blok wordt afgebroken, kan de node de vorige toestand snel herstellen zonder dat de hele keten opnieuw hoeft te worden gescand.
 
 
 
@@ -3025,7 +3025,7 @@ Sommige indexen zijn optioneel en standaard uitgeschakeld, omdat ze de schijfrui
 
 
 - `indexes/txindex/`, die we al genoemd hebben, biedt een transactie → locatie mapping tabel, waardoor het mogelijk is om elke bevestigde transactie op te halen zonder het blok te kennen dat het bevat. Dit is handig voor buiten Wallet `getrawtransaction` type RPC queries, maar is vrij duur.
-- indexes/blockfilter/` die compacte blokfilters (BIP157/158) kunnen bevatten voor thin clients. Deze structuren versnellen verificatie aan de cliëntkant ten koste van extra opslag op het indexeerknooppunt.
+- indexes/blockfilter/` die compacte blokfilters (BIP157/158) kunnen bevatten voor thin clients. Deze structuren versnellen verificatie aan de cliëntkant ten koste van extra opslag op het indexeernode.
 
 
 
@@ -3041,7 +3041,7 @@ Het UTXO (*Onbestede Transactie Output*) model is de boekhoudkundige representat
 
 
 
-De totaliteit van al deze onderdelen op een gegeven moment T vormt de UTXO set: een grote lijst van alle onderdelen die nu beschikbaar zijn. Het is deze staat die het knooppunt raadpleegt om te beslissen of een transactie legitieme eenheden uitgeeft die nog niet gebruikt zijn in een eerdere transactie (om Double-spending te vermijden).
+De totaliteit van al deze onderdelen op een gegeven moment T vormt de UTXO set: een grote lijst van alle onderdelen die nu beschikbaar zijn. Het is deze staat die de node raadpleegt om te beslissen of een transactie legitieme eenheden uitgeeft die nog niet gebruikt zijn in een eerdere transactie (om Double-spending te vermijden).
 
 
 
@@ -3057,7 +3057,7 @@ De UTXO set wordt opgeslagen in de `chainstate/` map als een compacte LevelDB da
 
 
 
-Het knooppunt onderhoudt een geheugencache boven LevelDB om frequente lees- en schrijfbewerkingen op te vangen. De `dbcache` parameter kan worden gebruikt om de grootte van deze cache aan te passen: hoe groter deze is, hoe meer geheugentoegang de IBD en de huidige validatie profiteren, ten koste van een hoger RAM-verbruik. Wanneer een nieuw blok wordt gevonden door een Miner, verwijdert het knooppunt uit de UTXO set de uitgangen die zijn uitgegeven (of verbruikt) door de transacties in het blok en voegt de nieuw gecreëerde uitgangen toe.
+Het node onderhoudt een geheugencache boven LevelDB om frequente lees- en schrijfbewerkingen op te vangen. De `dbcache` parameter kan worden gebruikt om de grootte van deze cache aan te passen: hoe groter deze is, hoe meer geheugentoegang de IBD en de huidige validatie profiteren, ten koste van een hoger RAM-verbruik. Wanneer een nieuw blok wordt gevonden door een Miner, verwijdert de node uit de UTXO set de uitgangen die zijn uitgegeven (of verbruikt) door de transacties in het blok en voegt de nieuw gecreëerde uitgangen toe.
 
 
 
@@ -3087,18 +3087,18 @@ Omdat een deel ervan in het RAM moet worden bewaard om transacties binnen een re
 
 
 
-De Mempool is de lokale verzameling geldige transacties die zijn ontvangen, maar nog niet bevestigd. Ter herinnering, een "bevestigde transactie" is een transactie die is opgenomen in een geldig blok. Elk knooppunt onderhoudt zijn eigen Mempool, die kan verschillen van die van andere knooppunten in het netwerk, afhankelijk van:
+De Mempool is de lokale verzameling geldige transacties die zijn ontvangen, maar nog niet bevestigd. Ter herinnering, een "bevestigde transactie" is een transactie die is opgenomen in een geldig blok. Elk node onderhoudt zijn eigen Mempool, die kan verschillen van die van andere nodes in het netwerk, afhankelijk van:
 
 
 
 
-- de grootte die is toegewezen aan de Mempool via de `maxmempool` parameter: een knooppunt met een grotere Mempool zal meer transacties kunnen bevatten dan een knooppunt met een kleinere Mempool (tenzij de laatste leeg raakt);
-- gW-433 regels: deze zijn een subset van de relaisregels van het knooppunt en definiëren de kenmerken waaraan een onbevestigde transactie moet voldoen om in Mempool geaccepteerd te worden;
+- de grootte die is toegewezen aan de Mempool via de `maxmempool` parameter: een node met een grotere Mempool zal meer transacties kunnen bevatten dan een node met een kleinere Mempool (tenzij de laatste leeg raakt);
+- gW-433 regels: deze zijn een subset van de relaisregels van de node en definiëren de kenmerken waaraan een onbevestigde transactie moet voldoen om in Mempool geaccepteerd te worden;
 - transactie percolatie: door verschillende factoren kan een bepaalde transactie gedistribueerd zijn naar een deel van het netwerk, maar een ander deel nog niet bereikt hebben.
 
 
 
-Het is belangrijk om op te merken dat node mempools geen consensuswaarde hebben. Bitcoin werkt perfect, zelfs als elk knooppunt een andere Mempool heeft. Uiteindelijk zijn de gezaghebbende blokken altijd die blokken die zijn toegevoegd aan de Blockchain. Bijvoorbeeld, zelfs als een node in eerste instantie een bepaalde transactie afwijst in zijn Mempool (geldig volgens de consensusregels), zal het verplicht zijn om het te accepteren als het uiteindelijk wordt opgenomen in een blok met een geldige Proof of Work. Als het dit niet doet en dit blok verwerpt, ook al voldoet het aan de consensusregels, zou het een Hard Fork veroorzaken, d.w.z. de aanmaak van een nieuwe, aparte Bitcoin waarop het alleen zou staan.
+Het is belangrijk om op te merken dat node mempools geen consensuswaarde hebben. Bitcoin werkt perfect, zelfs als elk node een andere Mempool heeft. Uiteindelijk zijn de gezaghebbende blokken altijd die blokken die zijn toegevoegd aan de Blockchain. Bijvoorbeeld, zelfs als een node in eerste instantie een bepaalde transactie afwijst in zijn Mempool (geldig volgens de consensusregels), zal het verplicht zijn om het te accepteren als het uiteindelijk wordt opgenomen in een blok met een geldige Proof of Work. Als het dit niet doet en dit blok verwerpt, ook al voldoet het aan de consensusregels, zou het een Hard Fork veroorzaken, d.w.z. de aanmaak van een nieuwe, aparte Bitcoin waarop het alleen zou staan.
 
 
 
@@ -3118,7 +3118,7 @@ De grootte van de Mempool wordt beperkt door de `maxmempool` parameter in het `B
 
 
 
-Om het herstarten te versnellen, serialiseert Core periodiek de toestand van de Mempool in het `Mempool.dat` bestand wanneer de node wordt afgesloten. Naast de eigenlijke Mempool, die in het geheugen blijft, slaat Core dit `Mempool.dat` bestand op schijf op. De volgende keer dat het knooppunt wordt gestart, wordt deze momentopname opnieuw geladen en wordt alles verwijderd dat niet langer geldig is voor de huidige Blockchain.
+Om het herstarten te versnellen, serialiseert Core periodiek de toestand van de Mempool in het `Mempool.dat` bestand wanneer de node wordt afgesloten. Naast de eigenlijke Mempool, die in het geheugen blijft, slaat Core dit `Mempool.dat` bestand op schijf op. De volgende keer dat de node wordt gestart, wordt deze momentopname opnieuw geladen en wordt alles verwijderd dat niet langer geldig is voor de huidige Blockchain.
 
 
 
@@ -3131,14 +3131,14 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 
 
 
-- `peers.dat` houdt een IP Address boek bij van potentiële peers, gevoed door initiële DNS ontdekking, netwerkuitwisselingen en handmatige toevoegingen. Wanneer het knooppunt opstart, kan het uit dit bestand putten om uitgaande verbindingen tot stand te brengen.
-- Als het knooppunt wordt uitgeschakeld, bewaart `anchors.dat` de adressen van uitgaande peers, zodat je ze de volgende keer dat je opstart snel weer kunt proberen te bereiken.
-- `banlist.json` bevat lokale verboden die zijn ingesteld door de operator of door het knooppunt (herhaaldelijk ongeldig gedrag), om te voorkomen dat het knooppunt opnieuw verbinding maakt of verbindingen accepteert van deze specifieke peers.
+- `peers.dat` houdt een IP Address boek bij van potentiële peers, gevoed door initiële DNS ontdekking, netwerkuitwisselingen en handmatige toevoegingen. Wanneer de node opstart, kan het uit dit bestand putten om uitgaande verbindingen tot stand te brengen.
+- Als de node wordt uitgeschakeld, bewaart `anchors.dat` de adressen van uitgaande peers, zodat je ze de volgende keer dat je opstart snel weer kunt proberen te bereiken.
+- `banlist.json` bevat lokale verboden die zijn ingesteld door de operator of door de node (herhaaldelijk ongeldig gedrag), om te voorkomen dat de node opnieuw verbinding maakt of verbindingen accepteert van deze specifieke peers.
 - `fee_estimates.dat` bewaart statistieken over de tijdshorizon van waargenomen bevestigingen, die door de tariefschatter worden gebruikt om tariefpercentages voor te stellen die overeenkomen met de vertragingsdoelstellingen die zijn gekozen bij het aanmaken van een transactie.
-- gW-446.conf` bevat de configuratieparameters van je knooppunt. Hier kun je de relaisregels aanpassen. Ik vertel je hier meer over in het volgende hoofdstuk.
+- gW-446.conf` bevat de configuratieparameters van je node. Hier kun je de relaisregels aanpassen. Ik vertel je hier meer over in het volgende hoofdstuk.
 - `settings.json` bevat aanvullende parameters voor `Bitcoin.conf`.
-- `debug.log` is het diagnostische tekstlogboek, dat kan worden gebruikt om de activiteit van een knooppunt te begrijpen in het geval van een bug.
-- gW-448.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van het knooppunt en verwijderd bij het afsluiten.
+- `debug.log` is het diagnostische tekstlogboek, dat kan worden gebruikt om de activiteit van een node te begrijpen in het geval van een bug.
+- gW-448.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van de node en verwijderd bij het afsluiten.
 - `ip_asn.map` is een IP → ASN mapping tabel (standalone systeem) gebruikt voor bucketing en peer diversificatie (`-asmap` optie).
 - `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiele onion Address te behouden tussen reboots.
 - `i2p_private_key` slaat de privé-sleutel van I2P op wanneer `-i2psam=` wordt gebruikt, om uitgaande en mogelijk inkomende verbindingen op I2P te maken.
@@ -3208,7 +3208,7 @@ Samengevat is dit de Bitcoin core bestandsstructuur:
 
 
 
-Bij ontvangst van een nieuw blok controleert je knooppunt de Proof of Work en, meer in het algemeen, de naleving van de consensusregels. Als alles goed is, past het de veranderingen transactie voor transactie toe op zijn UTXO set: het controleert of elke entry bestaande UTXO's met een geldig script spendeert, verwijdert deze UTXO's en voegt de nieuwe exits toe. Als alles geldig is, worden de wijzigingen vastgelegd op `chainstate/`.
+Bij ontvangst van een nieuw blok controleert je node de Proof of Work en, meer in het algemeen, de naleving van de consensusregels. Als alles goed is, past het de veranderingen transactie voor transactie toe op zijn UTXO set: het controleert of elke entry bestaande UTXO's met een geldig script spendeert, verwijdert deze UTXO's en voegt de nieuwe exits toe. Als alles geldig is, worden de wijzigingen vastgelegd op `chainstate/`.
 
 
 
@@ -3225,7 +3225,7 @@ Parallel worden ongedaan gemaakte gegevens naar `rev*.dat` geschreven en metadat
 
 
 
-Het `Bitcoin.conf` bestand is het belangrijkste Interface configuratiebestand voor Bitcoin core. Hiermee kun je het gedrag en de parameters van je knooppunt aanpassen zonder dat je de broncode opnieuw hoeft te compileren of commandoregel aanpassingen hoeft te maken. Concreet is het een platte tekst bestand gestructureerd in sleutel-waarde paren, wat betekent dat elke regel van het bestand verwijst naar een specifieke parameter (de sleutel) en de bijbehorende waarde, die gewijzigd kan worden om die parameter aan te passen.
+Het `Bitcoin.conf` bestand is het belangrijkste Interface configuratiebestand voor Bitcoin core. Hiermee kun je het gedrag en de parameters van je node aanpassen zonder dat je de broncode opnieuw hoeft te compileren of commandoregel aanpassingen hoeft te maken. Concreet is het een platte tekst bestand gestructureerd in sleutel-waarde paren, wat betekent dat elke regel van het bestand verwijst naar een specifieke parameter (de sleutel) en de bijbehorende waarde, die gewijzigd kan worden om die parameter aan te passen.
 
 
 
@@ -3251,7 +3251,7 @@ De parameters die zijn gedefinieerd in `Bitcoin.conf` kunnen worden overschreven
 
 
 
-Merk op dat elke wijziging aan `Bitcoin.conf` een herstart van het knooppunt vereist om van kracht te worden.
+Merk op dat elke wijziging aan `Bitcoin.conf` een herstart van de node vereist om van kracht te worden.
 
 
 
@@ -3282,11 +3282,11 @@ Zoals hierboven uitgelegd zijn consensusregels uiteraard niet configureerbaar in
 
 - Puur lokale parameters. Deze hebben alleen invloed op jouw node: cache grootte (`dbcache`), pruned modus (`prune`), optionele indexen... Ze beïnvloeden de prestaties van jouw machine, maar niet die van het netwerk.
 - Relay- en Mempool-beleid. Deze bepalen wat je node accepteert, bewaart en doorstuurt voor bevestiging: minimumtariefdrempel (`minrelaytxfee`), Mempool grootte en bewaartijd (`maxmempool`, `mempoolexpiry`), transactievervanging (RBF)... Deze regels maken geen deel uit van de consensus, dus twee verschillende nodes kunnen een verschillend beleid hebben en toch volledig compatibel zijn. Aan de andere kant zullen deze parameters wel invloed hebben op het Bitcoin netwerk (zoals uitgelegd in het eerste deel, met name met percolatietheorie).
-- Netwerkconnectiviteit. Deze opties bepalen hoe je knooppunt peers vindt, luistert, een NAT doorkruist, Tor of een proxy gebruikt of zijn bandbreedte beperkt. Ze geven vorm aan je topologie, maar veranderen niets aan het doorgeven van transacties.
+- Netwerkconnectiviteit. Deze opties bepalen hoe je node peers vindt, luistert, een NAT doorkruist, Tor of een proxy gebruikt of zijn bandbreedte beperkt. Ze geven vorm aan je topologie, maar veranderen niets aan het doorgeven van transacties.
 
 
 
-Het begrijpen van deze scheiding is cruciaal: als een transactie niet voldoet aan de consensusregels, zal je knooppunt deze hoe dan ook weigeren. Maar een strenger lokaal beleid kan weigeren om een transactie door te geven die geldig is in de consensus zin.
+Het begrijpen van deze scheiding is cruciaal: als een transactie niet voldoet aan de consensusregels, zal je node deze hoe dan ook weigeren. Maar een strenger lokaal beleid kan weigeren om een transactie door te geven die geldig is in de consensus zin.
 
 
 
@@ -3294,12 +3294,12 @@ Het begrijpen van deze scheiding is cruciaal: als een transactie niet voldoet aa
 
 
 
-Allereerst is het belangrijk om duidelijk onderscheid te maken tussen de 2 soorten verbindingen die een Bitcoin knooppunt kan hebben:
+Allereerst is het belangrijk om duidelijk onderscheid te maken tussen de 2 soorten verbindingen die een Bitcoin node kan hebben:
 
 
 
 
-- Uitgaande verbindingen, die door ons knooppunt naar een ander knooppunt worden geïnitieerd;
+- Uitgaande verbindingen, die door ons node naar een ander node worden geïnitieerd;
 
 
 
@@ -3309,7 +3309,7 @@ Allereerst is het belangrijk om duidelijk onderscheid te maken tussen de 2 soort
 
 
 
-- Inkomende verbindingen, geïnitieerd door een ander knooppunt naar het onze.
+- Inkomende verbindingen, geïnitieerd door een ander node naar het onze.
 
 
 
@@ -3317,7 +3317,7 @@ Allereerst is het belangrijk om duidelijk onderscheid te maken tussen de 2 soort
 
 
 
-Deze twee soorten verbindingen zijn perfect in staat om dezelfde gegevens in beide richtingen uit te wisselen; het is geen kwestie van het beperken van de richting van de stroom, maar alleen van een verschil in de initiator van de verbinding. Vanuit het oogpunt van ons knooppunt worden uitgaande verbindingen over het algemeen als veiliger beschouwd, omdat we ze initiëren en precies kiezen met welk knooppunt we een verbinding maken, waardoor het onwaarschijnlijk is dat de verbinding kwaadaardig is. Standaard onderhoudt Bitcoin core 10 uitgaande verbindingen (8 "*full-relay*" + 2 "*block-relay-only*").
+Deze twee soorten verbindingen zijn perfect in staat om dezelfde gegevens in beide richtingen uit te wisselen; het is geen kwestie van het beperken van de richting van de stroom, maar alleen van een verschil in de initiator van de verbinding. Vanuit het oogpunt van ons node worden uitgaande verbindingen over het algemeen als veiliger beschouwd, omdat we ze initiëren en precies kiezen met welk node we een verbinding maken, waardoor het onwaarschijnlijk is dat de verbinding kwaadaardig is. Standaard onderhoudt Bitcoin core 10 uitgaande verbindingen (8 "*full-relay*" + 2 "*block-relay-only*").
 
 
 
@@ -3335,9 +3335,9 @@ Op netwerkniveau hebben we ook:
 
 
 - `addnode`: voegt een vriendelijke peer toe om contact mee op te nemen naast de gebruikelijke ontdekking (kan meerdere keren gespecificeerd worden).
-- connect`: beperkt verbindingen strikt tot het Address knooppunt (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere knooppunten.
-- `seednode`: wordt alleen gebruikt om het boek-Address in te vullen als er verbinding wordt gemaakt met een knooppunt en daarna de verbinding wordt verbroken.
-- `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je knooppunt nooit meer dan 125 verbindingen zal accepteren.
+- connect`: beperkt verbindingen strikt tot het Address node (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere nodes.
+- `seednode`: wordt alleen gebruikt om het boek-Address in te vullen als er verbinding wordt gemaakt met een node en daarna de verbinding wordt verbroken.
+- `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je node nooit meer dan 125 verbindingen zal accepteren.
 - maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente Elements.
 - `onlynet`: beperkt uitgaande verbindingen tot alleen geselecteerde netwerken (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Als je bijvoorbeeld wilt dat je node alleen via Tor verbinding maakt met het Bitcoin netwerk, dan kun je de `onlynet=onion` parameter inschakelen en inkomende verbindingen uitschakelen (of ook alleen verbindingen via Tor toestaan).
 - `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale Address pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
@@ -3394,7 +3394,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- `maxmempool=<n>`: Beperkt de maximale grootte van de lokale Mempool tot `<n>` megabytes (standaard: `300`). Als de limiet is bereikt, verhoogt het knooppunt dynamisch de effectieve vergoedingsdrempel en geeft het prioriteit aan de minst winstgevende transacties (gebaseerd op het vergoedingspercentage, niet de absolute waarde) om onder de limiet te blijven. Je kunt deze instelling als standaard laten staan. Verhogen kan handig zijn als je Mining solo bent, of als je een nauwkeuriger beeld wilt krijgen van Mempool congestie en de schatting van de kosten wilt verbeteren. Verlagen bespaart RAM en, in mindere mate, andere systeembronnen.
+- `maxmempool=<n>`: Beperkt de maximale grootte van de lokale Mempool tot `<n>` megabytes (standaard: `300`). Als de limiet is bereikt, verhoogt de node dynamisch de effectieve vergoedingsdrempel en geeft het prioriteit aan de minst winstgevende transacties (gebaseerd op het vergoedingspercentage, niet de absolute waarde) om onder de limiet te blijven. Je kunt deze instelling als standaard laten staan. Verhogen kan handig zijn als je Mining solo bent, of als je een nauwkeuriger beeld wilt krijgen van Mempool congestie en de schatting van de kosten wilt verbeteren. Verlagen bespaart RAM en, in mindere mate, andere systeembronnen.
 
 
 
@@ -3418,13 +3418,13 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het knooppunt uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je knooppunt met je Wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
+- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het node uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je Wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
 
 
 
 
 
-- `minrelaytxfee=<n>`: Minimumtarief (in BTC/kvB) waaronder transacties niet worden geaccepteerd in de Mempool van het knooppunt en niet worden doorgegeven aan peers (standaard: `0.00001` = 1 sat/vB). Hoe hoger deze waarde, hoe agressiever je node goedkope transacties filtert.
+- `minrelaytxfee=<n>`: Minimumtarief (in BTC/kvB) waaronder transacties niet worden geaccepteerd in de Mempool van de node en niet worden doorgegeven aan peers (standaard: `0.00001` = 1 sat/vB). Hoe hoger deze waarde, hoe agressiever je node goedkope transacties filtert.
 
 
 
@@ -3448,13 +3448,13 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien Mining via knooppunt) op te nemen via een `OP_RETURN` uitgang (standaard: `1`). Het deactiveren van deze parameter verkleint de oppervlakte voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gedolven `OP_RETURN` accepteren.
+- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien Mining via node) op te nemen via een `OP_RETURN` uitgang (standaard: `1`). Het deactiveren van deze parameter verkleint de oppervlakte voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gedolven `OP_RETURN` accepteren.
 
 
 
 
 
-- `datacarriersize=<n>`: Maximale grootte (in bytes) van de `OP_RETURN` die het knooppunt doorgeeft (standaard: `83`). Het verlagen van deze waarde beperkt de payloads die via `OP_RETURN` getransporteerd worden. Merk op dat deze limiet standaard zal worden verwijderd in een toekomstige versie van Bitcoin core.
+- `datacarriersize=<n>`: Maximale grootte (in bytes) van de `OP_RETURN` die de node doorgeeft (standaard: `83`). Het verlagen van deze waarde beperkt de payloads die via `OP_RETURN` getransporteerd worden. Merk op dat deze limiet standaard zal worden verwijderd in een toekomstige versie van Bitcoin core.
 
 
 
@@ -3472,13 +3472,13 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- `whitelistrelay=1`: Verleent automatisch relay-toestemming aan inkomende peers op de witte lijst (standaard: `1`). Van deze peers worden de transacties geaccepteerd door de relay, zelfs als het knooppunt niet in algemene relaymodus staat.
+- `whitelistrelay=1`: Verleent automatisch relay-toestemming aan inkomende peers op de witte lijst (standaard: `1`). Van deze peers worden de transacties geaccepteerd door de relay, zelfs als de node niet in algemene relaymodus staat.
 
 
 
 
 
-- `whitelistforcerelay=1`: Wijst "*forcerelay*" permissie toe aan whitelisted peers met standaard permissie (standaard: `0`). Het knooppunt stuurt dan hun transacties door, zelfs als ze al aanwezig zijn in Mempool, en omzeilt zo anti-redundantie mechanismen.
+- `whitelistforcerelay=1`: Wijst "*forcerelay*" permissie toe aan whitelisted peers met standaard permissie (standaard: `0`). Het node stuurt dan hun transacties door, zelfs als ze al aanwezig zijn in Mempool, en omzeilt zo anti-redundantie mechanismen.
 
 
 
@@ -3622,7 +3622,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `disablewallet=1`: Start Bitcoin core zonder het Wallet subsysteem en schakelt geassocieerde RPC's uit. Vermindert het aanvalsoppervlak en de footprint als het knooppunt alleen wordt gebruikt voor validatie/vrijgave.
+- `disablewallet=1`: Start Bitcoin core zonder het Wallet subsysteem en schakelt geassocieerde RPC's uit. Vermindert het aanvalsoppervlak en de footprint als de node alleen wordt gebruikt voor validatie/vrijgave.
 
 
 
@@ -3654,7 +3654,7 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- `prune=<n>`: Schakelt het snoeien van blokbestanden in en stelt een schijfruimte doel in MiB in (standaard: `0` = uitgeschakeld; `1` = handmatig snoeien via RPC; `>=550` = automatisch snoeien onder het doel). Niet compatibel met `txindex=1`. Het knooppunt blijft een volledig validerend knooppunt, maar kan niet langer de oude geschiedenis leveren. Deze optie is vooral handig als je schijfruimte beperkt is, bijvoorbeeld als je een knooppunt op je thuiscomputer installeert.
+- `prune=<n>`: Schakelt het snoeien van blokbestanden in en stelt een schijfruimte doel in MiB in (standaard: `0` = uitgeschakeld; `1` = handmatig snoeien via RPC; `>=550` = automatisch snoeien onder het doel). Niet compatibel met `txindex=1`. Het node blijft een volledig validerend node, maar kan niet langer de oude geschiedenis leveren. Deze optie is vooral handig als je schijfruimte beperkt is, bijvoorbeeld als je een node op je thuiscomputer installeert.
 
 
 
@@ -3728,13 +3728,13 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je knooppunt instellen. Wees voorzichtig met deze instellingen, vooral als je net begint: verander ze niet zonder een grondig begrip van de implicaties, omdat dit kwetsbaarheden kan introduceren.
+Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je node instellen. Wees voorzichtig met deze instellingen, vooral als je net begint: verander ze niet zonder een grondig begrip van de implicaties, omdat dit kwetsbaarheden kan introduceren.
 
 
 
 
 
-- `server=1`: Activeert de JSON-RPC server. Essentieel als je `bitcoind` aanstuurt via `bitcoin-cli` of een toepassing van derden. Uitschakelen (`0`) op een zuiver validerend knooppunt dat geen API beschikbaar stelt of al een Electrum-server gebruikt.
+- `server=1`: Activeert de JSON-RPC server. Essentieel als je `bitcoind` aanstuurt via `bitcoin-cli` of een toepassing van derden. Uitschakelen (`0`) op een zuiver validerend node dat geen API beschikbaar stelt of al een Electrum-server gebruikt.
 
 
 

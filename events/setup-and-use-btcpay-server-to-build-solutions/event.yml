@@ -1,0 +1,18 @@
+id: c03de0bc-484a-47a6-8035-c181f6d3ccef
+start_date: 2025-09-30 20:00:00
+end_date: 2025-09-30 21:00:00
+timezone: Africa/Dakar
+address_city_country: Dakar, Senegal
+name: Setup and use btcpay server to build solutions
+type: workshop
+description: |
+  "We are powering their live learning lectures leading up to the
+  hackathon Oct 29–31.
+  It kicked off with a deep dive into Setup and use btcpay server to build solutions!"
+language:
+  - fr
+links:
+  website: https://discord.com/invite/aZzsy2EfJ
+tags:
+  - development
+  - software

@@ -137,7 +137,7 @@ Questo file contiene le 12 parole chiave del portafoglio associato agli scambi a
 
 
 
-Cliccare quindi sul pulsante **Crea Exchange atomico** e procedere al pagamento dell'importo indicato.
+Clicca quindi sul pulsante **Crea Exchange atomico**(“Crea scambio atomico”) e procedere al pagamento dell'importo indicato.
 
 
 
@@ -153,15 +153,13 @@ Una volta che il pagamento è stato effettuato e confermato, riceverete automati
 
 
 
-Nel menu **Rimborso**, trovare la cronologia del Exchange atomico per identificare il Exchange su cui si desidera essere rimborsati. È anche possibile importare la cronologia degli scambi effettuati su un altro dispositivo, ad esempio utilizzando il file della chiave di backup associata a tali scambi.
-
-
+Nel menu **Refund**("Rimborso"), trovi la cronologia dei tuoi scambi atomici, per individuare quello per il quale desideri ricevere il rimborso. Puoi anche importare la cronologia delle operazioni effettuate su un altro dispositivo, ad esempio utilizzando il file della chiave di backup associato a queste transazioni.
 
 ![refund](assets/fr/11.webp)
 
 
 
-Nel menu **Storia** è possibile scaricare una cronologia più dettagliata degli scambi associati alla chiave di soccorso facendo clic sul pulsante **Backup**.
+Nel menu **History**("Storia") puoi scaricare un resoconto più dettagliato delle operazioni legate alla tua chiave di recupero, cliccando sul pulsante **Backup**.
 
 
 
@@ -169,12 +167,11 @@ Nel menu **Storia** è possibile scaricare una cronologia più dettagliata degli
 
 
 
-⚠️ Si prega di non divulgare nemmeno questo file, poiché contiene tutte le informazioni associate alle transazioni e la chiave di backup collegata a tali transazioni.
+⚠️ Ti preghiamo di non divulgare questo file, poiché contiene tutte le informazioni relative alle tue transazioni e la chiave di backup collegata a queste operazioni.
 
 
 
-Boltz offre un alto livello di riservatezza grazie al suo accesso tramite un link `.onion` sulla rete Tor. Rendete totalmente anonimi gli scambi atomici selezionando il menu **Onion**, dopo aver attivato la navigazione Tor nel vostro browser.
-
+Boltz ti offre un alto livello di riservatezza grazie all’accesso tramite un link `.onion` sulla rete Tor. Effettua scambi atomici completamente anonimi selezionando il menu Onion, dopo aver attivato la navigazione Tor nel tuo browser.
 
 
 ![onion](assets/fr/13.webp)
@@ -183,4 +180,4 @@ Boltz offre un alto livello di riservatezza grazie al suo accesso tramite un lin
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-Ormai conoscete Boltz, una piattaforma Exchange unica nel suo genere che consente l'interoperabilità tra i diversi livelli dell'ecosistema Bitcoin .
+Ormai conosci Boltz, una piattaforma di scambio unica che permette l’interoperabilità tra i diversi layer dell’ecosistema Bitcoin.

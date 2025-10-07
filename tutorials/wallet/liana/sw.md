@@ -8,7 +8,7 @@ description: Kuweka na kutumia Wallet kwenye Liana
 Katika somo hili, tutaeleza hatua kwa hatua jinsi ya kutumia programu ya Liana kwenye kompyuta. Miongoni mwa mambo mengine, utajifunza jinsi ya kusanidi mpango wa urithi wa kiotomatiki, kupokea na kutuma bitcoins katika hali ya kawaida, na kurejesha pesa kutoka kwa Wallet iliyopo baada ya muda fulani.
 
 
-Mnamo Januari 2025, pochi za maunzi zinazoendana na Liana zilikuwa: BitBox02, Blockstream Jade, Blockstream Jade Plus, COLDCARD MK4, COLDCARD Q, Ledger Nano S, Ledger Nano S Plus, Ledger Nano X, Ledger Flex, Specter DIY.
+Mnamo Januari 2025, wallet za maunzi zinazoendana na Liana zilikuwa: BitBox02, Blockstream Jade, Blockstream Jade Plus, COLDCARD MK4, COLDCARD Q, Ledger Nano S, Ledger Nano S Plus, Ledger Nano X, Ledger Flex, Specter DIY.
 
 
 Ikiwa ungependa kurejesha fedha kutoka kwa Liana Wallet iliyopo, soma wasilisho hapa chini na uende moja kwa moja kwenye sehemu ya "Kurejesha bitcoins".
@@ -17,12 +17,12 @@ Ikiwa ungependa kurejesha fedha kutoka kwa Liana Wallet iliyopo, soma wasilisho 
 ## Tunakuletea programu ya Liana
 
 
-Liana ni kifurushi cha programu huria kilichoundwa kwa ajili ya kuunda na kudhibiti pochi za hali ya juu, haswa kama sehemu ya mfumo wa urithi otomatiki au utaratibu thabiti wa kuhifadhi. Mradi huu umeendelezwa tangu 2022 na Wizardsardine, kampuni iliyoanzishwa pamoja na Kévin Loaec na Antoine Poinsot. Kwenye tovuti rasmi, Liana imewasilishwa kama "Wallet rahisi kwa ajili ya matibabu ya kibinafsi, yenye utendaji wa kurejesha na urithi". Programu inaendeshwa kwenye kompyuta -- Linux, MacOS, Windows -- na msimbo wake wa chanzo (wazi) unapatikana [kwenye GitHub](https://github.com/wizardsardine/Liana).
+Liana ni kifurushi cha programu huria kilichoundwa kwa ajili ya kuunda na kudhibiti wallet za hali ya juu, hasa kama sehemu ya mfumo wa urithi otomatiki au utaratibu thabiti wa kuhifadhi. Mradi huu umeendelezwa tangu 2022 na Wizardsardine, kampuni iliyoanzishwa pamoja na Kévin Loaec na Antoine Poinsot. Kwenye tovuti rasmi, Liana imewasilishwa kama "wallet rahisi kwa ajili ya matibabu ya kibinafsi, yenye utendaji wa kurejesha na urithi". Programu inaendeshwa kwenye kompyuta — Linux, MacOS, Windows — na msimbo wake wa chanzo (wazi) unapatikana [kwenye GitHub].
+
+(https://github.com/wizardsardine/Liana).
 
 
-Liana inajengwa juu ya uratibu wa Bitcoin ili kuunda Wallet ya hali ya juu. Hasa, inachukua faida ya kufuli kwa muda (*timelocks*), ambayo inaruhusu fedha kutumika mara moja tu kipindi fulani cha muda kimepita, na ambacho kinahusika katika kurejesha Bitcoins. Liana Wallet kwa hivyo inaundwa na njia kadhaa za matumizi:
-
-
+Liana inajengwa juu ya uratibu wa Bitcoin ili kuunda wallet ya hali ya juu. Hasa, inachukua faida ya kufuli kwa muda (*timelocks*), ambayo inaruhusu fedha kutumika mara tu baada ya kipindi fulani cha muda kupita, na ambacho kinahusika katika kurejesha Bitcoins. Liana wallet kwa hivyo inaundwa na njia kadhaa za matumizi:
 
 
 - Njia kuu ya matumizi, ambayo inapatikana kila wakati;
@@ -35,32 +35,28 @@ Mchoro hapa chini unaonyesha utendakazi wa Wallet na njia mbili za matumizi:
 ![Schéma explicatif](assets/fr/01.webp)
 
 
-Operesheni hii hukuruhusu kusanidi usanidi anuwai, pamoja na:
+Hatua hii hukuruhusu kusanidi usanidi anuwai, pamoja na:
 
 
-
-
-- Mpango wa urithi (au urithi), unaowawezesha warithi kurejesha fedha katika tukio la kifo cha mtumiaji. Kwa maelezo zaidi kuhusu somo hili, tunapendekeza usome [sehemu ya 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a20901) kozi ya BTC318.
+- Mpango wa urithi (au kurithi), unaowawezesha warithi kurejesha fedha katika tukio la kifo cha mtumiaji. Kwa maelezo zaidi kuhusu somo hili, tunapendekeza usome [sehemu ya 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a20901) kozi ya BTC318.
 - Hifadhi rudufu iliyoimarishwa na muda wa kurejesha, ikimpa mtumiaji uwezekano wa kutumia Wallet yake bila kulazimika kuweka maneno ya siri yanayolingana na kuhatarisha kuibiwa, wakati wa wizi kwa mfano.
 - Wavu ya usalama kwa watu wanaoanza na Bitcoin: watasimamia Wallet yao wenyewe, na "mlezi" wao (jamaa, kwa mfano) atahifadhi haki ya kurejesha pesa zao baada ya kipindi fulani.
 - Mpango wa sahihi wa vyama vingi (*Multisig*) na mahitaji yaliyopunguzwa kwa wakati, ili kukabiliana na kutoweka kwa mshiriki mmoja au zaidi, kama vile washirika wa kampuni.
 
 
-Nguvu kubwa ya Liana ni kwamba inaleta njia sanifu ya kuhakikisha urejeshaji wa fedha katika tukio la kupoteza ufunguo kuu, unaotumiwa kwa matumizi ya sasa. Hii inawakilisha ubunifu mkubwa wa utunzaji safi wa pesa, ambao umejaa hatari, haswa ikiwa huna ufahamu wa kutosha juu ya mada hiyo. Kwa hivyo Liana inaweza kuhimiza hata watumiaji wasio na hatari zaidi kuacha kutumia mtunzaji (kama vile jukwaa la Exchange) kushikilia pesa zao na kurejesha Ownership ya pesa zao, kwa kuzingatia maadili ya Bitcoin ya Cypherpunk.
+Nguvu kubwa ya Liana ni kwamba inaleta njia sanifu ya kuhakikisha urejeshaji wa fedha katika tukio la kupoteza ufunguo mkuu, unaotumika kwa matumizi ya sasa. Hii inawakilisha ubunifu mkubwa wa utunzaji safi wa pesa, ambao umejaa hatari, hasa ikiwa huna ufahamu wa kutosha juu ya mada hiyo. Kwa hivyo, Liana inaweza kuhimiza hata watumiaji wasio na hatari zaidi kuacha kutumia mtunzaji (kama vile jukwaa la exchange) kushikilia pesa zao na kurejesha ownership ya pesa zao, kwa kuzingatia maadili ya Bitcoin ya Cypherpunk.
 
 
-Kwa kweli, Liana ina shida zake. Ya kwanza ni kwamba unapaswa kusasisha Wallet yako mara kwa mara kwa kufanya muamala kwenye Bitcoin Blockchain. Hii inaweza kuwa maumivu (kulingana na mara ngapi unatumia programu) na ya gharama kubwa (kulingana na kiwango cha ada kwa wakati huo), lakini ni bei unayolipa kwa usalama wa ziada.
+Kwa kweli, Liana ina changamoto zake. Ya kwanza ni kwamba unapaswa kusasisha wallet yako mara kwa mara kwa kufanya muamala kwenye Bitcoin blockchain. Hii inaweza kuwa kero (kulingana na mara ngapi unatumia programu) na ya gharama kubwa (kulingana na kiwango cha ada kwa wakati huo), lakini ni bei unayolipa kwa usalama wa ziada.
 
 
-Jambo la pili hasi linaweza kuwa usiri. Unapohusisha mtu mwingine katika usanidi, anafahamu anwani zako zote na kwa hivyo anaweza kufuatilia shughuli zako. Hata hivyo, hili halitakuwa tatizo ikiwa utachagua hifadhi rudufu iliyoimarishwa, au kwa mpango wa urithi ambao mrithi wako hana ufahamu wa haraka wa maelezo ya Wallet.
+Jambo la pili hasi linaweza kuwa usiri. Unapohusisha mtu mwingine katika usanidi, anafahamu address zako zote na kwa hivyo anaweza kufuatilia miamala zako. Hata hivyo, hili halitakuwa tatizo ikiwa utachagua hifadhi rudufu iliyoimarishwa, au kwa mpango wa urithi ambao mrithi wako hana ufahamu wa haraka wa maelezo ya Wallet.
 
 
 ## Maandalizi
 
 
 Katika somo hili, tutaweka mpango wa urithi. Tutatumia:
-
-
 
 
 - Ledger Nano S Plus, kwa gharama za kila siku;
@@ -124,7 +120,7 @@ Mara tu unaposoma maelezo, utaweza kusanidi funguo za Liana Wallet yako. Hii ni 
 ![Configurer clés](assets/fr/06.webp)
 
 
-Awali ya yote, katika orodha ya "Mipangilio ya Juu", unaweza kuamua juu ya "aina ya maelezo", yaani, njia ambayo Contract itaandikwa kwenye mlolongo. Unaweza kuchagua kati ya aina mbili: P2WSH (SegWit) au Taproot. Katika hali zote mbili, semantiki ya hali ya matumizi itakuwa sawa. Ingawa P2WSH hufanya Contract iwe rahisi kuelewa, Taproot ni bora kwa kuwa inaficha hali ambazo hazijatumiwa na kuokoa gharama wakati wa kurejesha.
+Kwanza kabisa, kwenye orodha ya "Mipangilio ya Juu", unaweza kuchagua "aina ya maelezo", yaani njia ambayo contract itaandikwa kwenye blockchain. Unaweza kuchagua kati ya aina mbili: P2WSH (SegWit) au Taproot. Katika chaguo zote mbili, maana ya hali ya matumizi hubaki ile ile. Ingawa P2WSH hufanya contract iwe rahisi kufasiriwa, Taproot ni chaguo bora zaidi kwa sababu huficha hali ambazo hazikutumika na pia hupunguza gharama wakati wa urejeshaji.
 
 
 Chaguo hili ni la hiari: ikiwa una shaka, acha chaguo-msingi (P2WSH katika kesi ya toleo la 0.9, lakini hii inaweza kubadilika).
@@ -142,13 +138,13 @@ Idhinisha ushiriki wa ufunguo wa umma uliopanuliwa kutoka kwa kifaa. Ipe ufunguo
 ![Configurer clé principale](assets/fr/08.webp)
 
 
-Ifuatayo, weka ucheleweshaji wa malipo, yaani, wakati ambapo pesa zinaweza kutumiwa na *ufunguo wa urithi*. Ucheleweshaji huu unafafanuliwa kulingana na vizuizi, na kila block ikitenganishwa kwa wastani wa dakika 10. Inaweza kuanzia dakika 10 (block 1) hadi karibu miezi 15 (vitalu 65,535). Kikomo hiki cha juu ni kizuizi cha itifaki ya Bitcoin, kwani wakati wa kufunga umewekwa kwenye bits 16.
+Ifuatayo, weka ucheleweshaji wa malipo, yaani, wakati ambapo pesa zinaweza kutumiwa na *ufunguo wa urithi*. Ucheleweshaji huu unafafanuliwa kulingana na blocks, na kila block ikitenganishwa kwa wastani wa dakika 10. Inaweza kuanzia dakika 10 (block 1) hadi karibu miezi 15 (vitalu 65,535). Kikomo hiki cha juu ni kizuizi cha itifaki ya Bitcoin, kwani wakati wa kufunga umewekwa kwenye bits 16.
 
 
-Ukizuia hali maalum, chagua muda mrefu zaidi wa kuongoza: miezi 15 au vitalu 65,535. Hii itakuokoa gharama. Hata hivyo, tunapendekeza kwamba utekeleze utaratibu wa kusasisha (ulioelezewa katika sehemu ya "Kusasisha Wallet") ​​mara moja kwa mwaka, kila wakati kwa wakati mmoja wa mwaka, ili "kufanya" mazoezi haya na kuepuka kusahau.
+Ukizuia hali maalum, chagua muda mrefu zaidi wa kuongoza: miezi 15 au blocks 65,535. Hii itakuokoa gharama. Hata hivyo, tunapendekeza kwamba utekeleze utaratibu wa kusasisha (ulioelezewa katika sehemu ya "Kusasisha Wallet") ​​mara moja kwa mwaka, kila wakati kwa wakati mmoja wa mwaka, ili "kufanya" mazoezi haya na kuepuka kusahau.
 
 
-Hapa, tumeweka muda wa kurejesha wa saa moja (vitalu 6) ili kutekeleza majaribio yetu.
+Hapa, tumeweka muda wa kurejesha wa saa moja (blocks 6) ili kutekeleza majaribio yetu.
 
 
 ![Configurer temps de verrouillage](assets/fr/09.webp)
@@ -169,10 +165,10 @@ Mara tu vitendo hivi vyote vimekamilishwa, hakikisha kuwa kila kitu kiko sawa na
 ![Confirmer clés](assets/fr/11.webp)
 
 
-Hatua inayofuata ni kuhifadhi kifafanuzi chako cha Wallet. Haya ndiyo maelezo unayohitaji ili kupata fedha katika akaunti yako. Kinyume na kifungu cha Mnemonic, kielezi hakikuruhusu kutumia pesa, kwa hivyo kufichua kutaleta shida ya usiri tu (mtu atajua shughuli zako zote).
+Hatua inayofuata ni kuhifadhi kifafanuzi chako cha Wallet. Haya ndiyo maelezo unayohitaji ili kupata fedha katika akaunti yako. Kinyume na kifungu cha Mnemonic, kielezi hakikuruhusu kutumia pesa, kwa hivyo kufichua kutaleta shida ya usiri tu (mtu atajua miamala zako zote).
 
 
-Hifadhi nakala mbili za kifafanuzi kwenye midia ya kielektroniki, kama vile vijiti vya USB. Hakikisha pia kuchapisha nakala mbili kwenye karatasi, ili uweze kuzifikia katika tukio la uharibifu wa vyombo vya habari vya elektroniki. Kila chelezo lazima ihusishwe na kifaa chenye sahihi.
+Hifadhi nakala mbili za kifafanuzi kwenye midia ya kielektroniki, kama vile disck za USB. Hakikisha pia kuchapisha nakala mbili kwenye karatasi, ili uweze kuzifikia katika tukio la uharibifu wa vyombo vya habari vya elektroniki. Kila chelezo lazima ihusishwe na kifaa chenye sahihi.
 
 
 ![Sauvegarder descripteur](assets/fr/12.webp)
@@ -186,7 +182,7 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 ```
 
 
-Hatua ya mwisho katika usanidi wa awali wa Wallet ni kuthibitisha kifafanuzi katika kila pochi ya maunzi ambayo hutumika kama vifaa vya kutia sahihi.
+Hatua ya mwisho katika usanidi wa awali wa Wallet ni kuthibitisha kifafanuzi katika kila wallet ya maunzi ambayo hutumika kama vifaa vya kutia sahihi.
 
 
 ![Enregistrer descripteur](assets/fr/13.webp)
@@ -198,36 +194,34 @@ Fanya vivyo hivyo kwa kila kifaa kinachotia sahihi. Utahitaji kuangalia na kuthi
 ![Enregistrer descripteur Nano S Plus](assets/fr/14.webp)
 
 
-Maelezo yako ya Wallet sasa yamesajiliwa, na kilichobaki ni kusanidi jinsi unavyotaka kuunganisha kwenye mtandao wa Bitcoin. Unaweza kuchagua kutumia nodi yako mwenyewe (ya ndani au ya mbali) au kutumia miundombinu ya WizardSardine. Katika kesi ya mwisho, utahitaji kuunganisha barua pepe ya Address kwa Wallet yako, ambayo itakuwezesha kupata kifafanuzi. WizardSardine itaweza kufikia shughuli zako zote. Kwa hivyo, chaguo la kwanza linapendekezwa.
+Maelezo yako ya Wallet sasa yamesajiliwa, na kilichobaki ni kusanidi jinsi unavyotaka kuunganisha kwenye mtandao wa Bitcoin. Unaweza kuchagua kutumia node yako mwenyewe (ya ndani au ya mbali) au kutumia miundombinu ya WizardSardine. Katika kesi ya mwisho, utahitaji kuunganisha barua pepe ya Address kwa Wallet yako, ambayo itakuwezesha kupata kifafanuzi. WizardSardine itaweza kufikia shughuli zako zote. Kwa hivyo, chaguo la kwanza linapendekezwa.
 
 
 ![Sélectionner connexion réseau](assets/fr/15.webp)
 
 
-Tumechagua kutumia nodi zetu wenyewe. Unaweza kutumia nodi iliyopo, au kusakinisha *nodi iliyokatwa* kwenye mashine yako. Ikiwa huna ufikiaji wa nodi nyingine yoyote, sakinisha nodi yako mwenyewe kwenye mashine yako, ambayo inapaswa kuchukua muda (kwa utaratibu wa siku kadhaa).
+Tumechagua kutumia node zetu wenyewe. Unaweza kutumia node iliyopo, au kusakinisha light node kwenye mashine yako. Ikiwa huna ufikiaji wa node nyingine yoyote, sakinisha node yako mwenyewe kwenye mashine yako, ambayo inapaswa kuchukua muda (kwa utaratibu wa siku kadhaa).
 
 
 ![Choisir type de nœud](assets/fr/16.webp)
 
 
-Kwa mafunzo haya, tumetumia seva ya Electrum iliyopo (ya umma). Lakini kuwa makini! Ilikuwa na ufikiaji wa shughuli zetu zote na Liana Wallet. Kwa hivyo tumia nodi yako mwenyewe ikiwa unataka kulinda faragha yako.
+Kwa mafunzo haya, tumetumia seva ya Electrum iliyopo (ya umma). Lakini kuwa makini! Ilikuwa na ufikiaji wa miamala zetu zote na Liana Wallet. Kwa hivyo tumia node yako mwenyewe ikiwa unataka kulinda faragha yako.
 
 
 ![Connexion serveur Electrum public](assets/fr/17.webp)
 
 
-Mara tu usanidi wa nodi utakapokamilika, skrini kuu inapaswa kufunguka, ikionyesha Liana Wallet yako iliyoundwa upya.
+Mara tu usanidi wa node utakapokamilika, skrini kuu inapaswa kufunguka, ikionyesha Liana Wallet yako iliyoundwa upya.
 
 
 Chukua fursa ya kuhifadhi kitengo cha uokoaji mahali salama. Inapaswa kuhifadhiwa katika eneo la kimkakati, ili iweze kupatikana na warithi wako katika tukio la kifo chako.
 
 
-Kwa usalama ulioongezwa, unaweza kuweka vipengee vilivyotumika kurejesha katika mfuko uliofungwa (*mfuko unaoonekana kuharibika*) na uandike nambari yake ya ufuatiliaji mahali fulani. Hii inahakikisha kuwa hakuna mtu aliyeifikia, na kwamba kifaa chako kinaendelea kuwa halali.
+Kwa usalama ulioongezwa, unaweza kuweka elements vilivyotumika kurejesha katika mfuko uliofungwa (*mfuko unaoonekana kuharibika*) na uandike nambari yake ya ufuatiliaji mahali fulani. Hii inahakikisha kuwa hakuna mtu aliyeifikia, na kwamba kifaa chako kinaendelea kuwa halali.
 
 
 Katika mfano wetu, tumekusanya Elements ifuatayo:
-
-
 
 
 - Blockstream Jade kama kifaa sahihi kwa ajili ya mali isiyohamishika;
@@ -256,7 +250,7 @@ Skrini kuu ya Liana huonyesha salio lako na miamala (ya zamani na ya sasa) iliyo
 ![Écran principal](assets/fr/20.webp)
 
 
-Ili kupokea pesa, nenda kwenye kichupo cha "*Pokea*" na ubofye "*generate Address*". Address mpya inapaswa kuonekana kwenye skrini yako. Ni ndefu kuliko katika pochi za kawaida: ni Address iliyounganishwa na Contract ya kusimama pekee (P2WSH au Taproot).
+Ili kupokea pesa, nenda kwenye kichupo cha "*Pokea*" na ubofye "*generate Address*". Address mpya inapaswa kuonekana kwenye skrini yako. Ni ndefu kuliko katika wallet za kawaida: ni Address iliyounganishwa na Contract ya kusimama pekee (P2WSH au Taproot).
 
 
 ![Générer nouvelle adresse](assets/fr/21.webp)
@@ -268,7 +262,7 @@ Unahitaji kuthibitisha Address hii kwenye Hardware Wallet yako kwa kubofya "*Thi
 ![Vérifier adresse portefeuille matériel](assets/fr/22.webp)
 
 
-Mara tu fedha zimetumwa, shughuli inaonekana kwenye skrini kuu (kwanza kama haijathibitishwa, kisha imethibitishwa). Hapa, tumetuma satoshi 50,000 (zaidi ya $50 tu wakati wa kuhamisha) kwa jaribio hili. Inakwenda bila kusema kwamba kiasi kilichohamishwa katika kesi yako itabidi kiwe amri ya ukubwa wa juu kuliko thamani hii, kutokana na ada za ununuzi.
+Mara tu fedha zimetumwa, muamala unaonekana kwenye skrini kuu (kwanza kama haijathibitishwa, kisha imethibitishwa). Hapa, tumetuma satoshi 50,000 (zaidi ya $50 tu wakati wa kuhamisha) kwa jaribio hili. Inakwenda bila kusema kwamba kiasi kilichohamishwa katika kesi yako itabidi kiwe amri ya ukubwa wa juu kuliko thamani hii, kutokana na ada za ununuzi.
 
 
 ![Vérifier solde](assets/fr/23.webp)
@@ -288,7 +282,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ## Matumizi ya sasa
 
 
-Matumizi ya sasa ni hali ya kawaida ya kutumia Liana. Kutuma bitcoins kwa ufunguo mkuu hufanya kazi kama katika pochi zote za kawaida za Bitcoin kama vile Electrum au Sparrow.
+Matumizi ya sasa ni hali ya kawaida ya kutumia Liana. Kutuma bitcoins kwa ufunguo mkuu hufanya kazi kama katika wallet zote za kawaida za Bitcoin kama vile Electrum au Sparrow.
 
 
 Ili kufanya malipo, nenda kwenye kichupo cha "*Tuma*" na uweke taarifa muhimu: BTC Address ya mpokeaji, kiasi cha kutumwa na kiwango cha malipo kinachohitajika. Maelezo (yaliyohifadhiwa ndani) yanaweza pia kuongezwa kwa manufaa yako binafsi. Katika mfano wetu, tulituma satoshi 10,000 kwa Bob fulani, kwa kiwango cha malipo cha 4 sat/ov, au $0.67 wakati wa muamala.
@@ -321,7 +315,7 @@ Muamala utaonekana kwenye skrini kuu na salio lako litasasishwa.
 ## Sasisho la kwingineko
 
 
-Kama ilivyoelezwa hapo juu, Liana Wallet inakuhitaji usasishe fedha zako mara kwa mara kwa kufanya muamala kwenye Blockchain. Ukikosa kufanya hivyo, pesa zako zinaweza kurejeshwa na mrithi wako (au kwa kifaa chako cha pili ikiwa ni hifadhi rudufu iliyoimarishwa). Hali hii si hatari sana, lakini inashinda madhumuni ya kuanzisha utaratibu huu: kubaki katika udhibiti wa bitcoins zako bila kukimbilia kwa mtu wa tatu anayeaminika, wakati unafaidika na wavu wa usalama.
+Kama ilivyoelezwa hapo juu, Liana Wallet inakuhitaji usasishe fedha zako mara kwa mara kwa kufanya muamala kwenye Blockchain. Ukikosa kufanya hivyo, pesa zako zinaweza kurejeshwa na mrithi wako (au kwa kifaa chako cha pili ikiwa ni hifadhi rudufu iliyoimarishwa). Hali hii si hatari sana, lakini inapingana na madhumuni ya kuanzisha utaratibu huu: kubaki katika udhibiti wa bitcoins zako bila kutegemea mtu wa tatu anayeaminika, huku ukifaidi na wavu wa usalama.
 
 
 Onyo litaonyeshwa kabla ya pesa zako (au sehemu yake) kuisha na inaweza kutumika kwa ufunguo wa kurejesha akaunti. Itaonyesha kuwa "njia yako ya uokoaji" (*njia ya uokoaji*) itapatikana hivi karibuni. Kwa kuzingatia ufupi wa muda wetu wa uokoaji (saa moja), ujumbe huu unaonyeshwa moja kwa moja katika kesi yetu.
@@ -360,7 +354,7 @@ Baada ya kuthibitishwa, sarafu yako iko salama! Unaweza kupumzika kwa urahisi ha
 ## Ahueni ya Bitcoin
 
 
-Wakati wa kurejesha fedha kutoka kwa Liana Wallet, unaweza kukabiliwa na moja ya hali mbili. Unaweza kuwa na upatikanaji wa kompyuta ambayo programu imewekwa, katika hali ambayo wote unapaswa kufanya ni kuifungua (ambayo itatokea katika kesi ya mfano ulioimarishwa wa chelezo). Hata hivyo, huenda huna ufikiaji wa kompyuta hii, kwa hivyo tutaanza kutoka mwanzo hapa. Kumbuka kwamba utaratibu wa kurejesha ni sawa katika matukio yote mawili.
+Wakati wa kurejesha fedha kutoka kwenye Liana Wallet, unaweza kujikuta katika mojawapo ya hali mbili. Kwanza, unaweza kuwa na upatikanaji wa kompyuta ambayo programu ya Liana tayari imewekwa — katika hali hii, unachotakiwa kufanya ni kuifungua tu (hii ndiyo hali ya chelezo iliyoimarishwa). Lakini ikiwa huna ufikiaji wa kompyuta hiyo, basi utahitaji kuanza mchakato mzima upya. Kumbuka kwamba utaratibu wa urejeshaji ni sawa katika hali zote mbili.
 
 
 Ili kuanza, pakua Liana kutoka [tovuti rasmi ya Wizardsardine](https://wizardsardine.com/Liana/), au kutoka [hazina ya GitHub](https://github.com/wizardsardine/Liana/releases), ambapo unaweza kuangalia uhalisi wa programu. Sakinisha programu na uikimbie. Toleo lililotumiwa kwa upande wetu ni 0.9, hivyo taswira zinaweza kubadilika. Kwenye skrini ya kukaribisha, chagua chaguo la "Ongeza Liana Wallet" iliyopo.
@@ -369,19 +363,18 @@ Ili kuanza, pakua Liana kutoka [tovuti rasmi ya Wizardsardine](https://wizardsar
 ![Ajouter portefeuille existant](assets/fr/34.webp)
 
 
-Sanidi jinsi unavyotaka kuunganisha kwenye mtandao. Unaweza kuchagua kutumia nodi yako mwenyewe (ya ndani au ya mbali) au kutumia miundombinu ya WizardSardine. Katika kesi ya mwisho, utahitaji barua pepe ya Address inayotumiwa na muundaji wa Wallet, ili fedha ziweze kupatikana moja kwa moja. Ikiwa huna maelezo haya, chagua chaguo la kwanza.
+Sanidi jinsi unavyotaka kuunganisha kwenye mtandao. Unaweza kuchagua kutumia node yako mwenyewe (iwe ya ndani au ya mbali), au kutumia miundombinu ya WizardSardine. Ukichagua kutumia WizardSardine, utahitaji kuingiza email address iliyotumika wakati wa kuunda Wallet, ili fedha zako ziweze kurejeshwa moja kwa moja. Ikiwa huna email address hiyo, chagua kutumia node yako mwenyewe.
 
 
 ![Sélectionner connexion réseau](assets/fr/35.webp)
 
 
-Ikiwa unatumia nodi yako mwenyewe, ingiza kifafanuzi cha Wallet. Haya ni maelezo ya kiufundi ya akaunti, ambayo hukuwezesha kurejesha pesa zilizohifadhiwa ndani yake. Kwa upande wetu, ni habari ifuatayo:
+Ikiwa unatumia node yako mwenyewe, ingiza kifafanuzi cha Wallet. Haya ni maelezo ya kiufundi ya akaunti, ambayo hukuwezesha kurejesha pesa zilizohifadhiwa ndani yake. Kwa upande wetu, ni habari ifuatayo:
 
 
 ```plaintext
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
 ```
-
 
 ![Importer descripteur](assets/fr/36.webp)
 
@@ -401,19 +394,19 @@ Angalia na uhifadhi kifafanuzi kwenye kifaa chako cha sahihi kwa kukichagua kwen
 ![Enregistrer descripteur sur l'appareil de récupération](assets/fr/38.webp)
 
 
-Sanidi nodi yako. Unaweza kutumia nodi iliyopo au kusakinisha *nodi iliyokatwa* kwenye mashine yako. Kwa upande wetu, tumetumia nodi iliyopo.
+Sanidi node yako. Unaweza kutumia nodi iliyopo au kusakinisha *nodi iliyokatwa* kwenye mashine yako. Kwa upande wetu, tumetumia node iliyopo.
 
 
 ![Choisir type de nœud](assets/fr/39.webp)
 
 
-Kwa somo hili, tulitumia seva ya Electrum ya umma. Hata hivyo, ilikuwa na uwezo wa kufikia shughuli zetu zote na Liana Wallet. Ikiwa unataka kulinda faragha yako, ni bora kutumia nodi yako mwenyewe.
+Kwa somo hili, tulitumia seva ya Electrum ya umma. Hata hivyo, ilikuwa na uwezo wa kufikia miamala zetu zote na Liana Wallet. Ikiwa unataka kulinda faragha yako, ni bora kutumia node yako mwenyewe.
 
 
 ![Connexion serveur Electrum public](assets/fr/17.webp)
 
 
-Mara baada ya kusanidi nodi yako, utapelekwa kwenye skrini kuu ya Wallet, ambapo unaweza kuona salio na shughuli za awali zilizounganishwa kwenye akaunti. Unaweza pia kuona ikiwa pesa zinaweza kurejeshwa. Hapa, tunaona kwamba sarafu inaweza kurejeshwa.
+Mara baada ya kusanidi node yako, utapelekwa kwenye skrini kuu ya Wallet, ambapo unaweza kuona salio na miamala za awali zilizounganishwa kwenye akaunti. Unaweza pia kuona ikiwa pesa zinaweza kurejeshwa. Hapa, tunaona kwamba sarafu inaweza kurejeshwa.
 
 
 ![Accueil Liana récupération](assets/fr/40.webp)
@@ -442,8 +435,7 @@ Kisha itangaze kwenye mtandao kwa kubofya "*Matangazo*".
 
 ![Diffuser transaction clé de récupération](assets/fr/44.webp)
 
-
-Shughuli inapaswa kuonekana kwenye skrini kuu. Baada ya kuthibitishwa, urejeshaji umekamilika!
+Muamala unapaswa kuonekana kwenye skrini kuu. Baada ya kuthibitishwa, urejeshaji umekamilika!
 
 
 ![Écran principal après récupération](assets/fr/45.webp)
@@ -455,34 +447,28 @@ Shughuli inapaswa kuonekana kwenye skrini kuu. Baada ya kuthibitishwa, urejeshaj
 Kifafanuzi ni mfuatano wa herufi unaoweza kusomeka na binadamu ambao unaeleza kikamilifu seti ya anwani. Inachanganya idadi ya vipande muhimu vya habari kwa ajili ya kurejesha sehemu (UTXO) ya Wallet ya hali ya juu. Jinsi kifafanuzi kinavyoandikwa inategemea [Sintaksia ndogo](https://bitbox.swiss/blog/understanding-Bitcoin-miniscript-part-2/), lugha ya uandishi iliyotengenezwa na Andrew Poelstra, Pieter Wuille na Sanket Kanjalkar mwaka wa 2019.
 
 
-Ili kuelewa vyema kwa nini kamba hii ya herufi ni muhimu, wacha tuchambue maelezo katika mfano wetu, ambayo ni:
+Ili kuelewa vyema kwa nini string hii ya herufi ni muhimu, hebu tuchambue maelezo katika mfano wetu, ambayo ni:
 
 
 ```plaintext
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
 ```
 
-
 Habari ifuatayo inaweza kutolewa kutoka kwa maelezo haya:
 
-
-
-
 - `wsh` (kifupi cha *hati ya shahidi Hash*): Hii ndiyo aina ya matokeo ya muamala iliyoundwa. Ikiwa tungechagua kutumia Taproot, kitambulisho kingekuwa `tr`.
-- `or_d`: Huyu ni opereta kimantiki inayoonyesha kwamba *moja ya masharti mawili* yafuatayo lazima yatimizwe ili gharama ikubalike (`_d` inaonyesha sintaksia fulani).
-- `pk` (fupi kwa *ufunguo wa umma*): Opereta huyu hukagua saini iliyotolewa dhidi ya ufunguo ufuatao wa umma, na kutoa jibu kama Boolean (TRUE au FALSE).
-- `[3689a8e7/48'/0'/0'/2']`: Kipengele hiki kinajumuisha *alama ya vidole* ya ufunguo mkuu wa Hardware Wallet kuu (katika hali hii Nano S Plus), na njia ya kupata ufunguo wa faragha uliopanuliwa uliounganishwa (ambapo funguo nyingine zote za faragha zimetolewa).
+- `or_d`: Huyu ni operator kimantiki inayoonyesha kwamba *moja ya masharti mawili* yafuatayo lazima yatimizwe ili gharama ikubalike (`_d` inaonyesha sintaksia fulani).
+- `pk` (fupi kwa *ufunguo wa umma*): Operator huyu hukagua saini iliyotolewa dhidi ya ufunguo ufuatao wa umma, na kutoa jibu kama Boolean (TRUE au FALSE).
+- `[3689a8e7/48'/0'/0'/2']`:  Element hii kinajumuisha *alama ya vidole* ya ufunguo mkuu wa Hardware Wallet kuu (katika hali hii Nano S Plus), na njia ya kupata ufunguo wa faragha uliopanuliwa uliounganishwa (ambapo funguo nyingine zote za faragha zimetolewa).
 - `xpub6FKY ... WQa`: Huu ni ufunguo uliopanuliwa wa umma uliounganishwa na Hardware Wallet kuu (hapa Nano S Plus)
-- `/<0;1>/*`: Hizi ndizo njia za kupata funguo na anwani rahisi: `0` kwa ajili ya mapokezi, `1` kwa shughuli za ndani (*badilisha*), yenye "wildcard" (`*`) inayoruhusu utokezaji wa mpangilio wa anwani kadhaa kwa njia inayoweza kusanidiwa, sawa na usimamizi wa "pengo" la programu ya kawaida ya Wallet.
+- `/<0;1>/*`: Hizi ndizo njia za kupata funguo na anwani rahisi: `0` kwa ajili ya mapokezi, `1` kwa miamala za ndani (*badilisha*), yenye "wildcard" (`*`) inayoruhusu utokezaji wa mpangilio wa anwani kadhaa kwa njia inayoweza kusanidiwa, sawa na usimamizi wa "pengo" la programu ya kawaida ya Wallet.
 - na_v`: Hii ni opereta kimantiki inayoonyesha kwamba *masharti mawili* yafuatayo lazima yatimizwe ili gharama ikubalike (`_v` inaonyesha sintaksia fulani).
-- `v:pkh` (fupi ya *thibitisha: ufunguo wa umma Hash*): Opereta huyu huthibitisha sahihi na ufunguo fulani wa umma dhidi ya ufunguo wa umma wa Hash (*Hash*) unaofuata. Hii kimsingi ni hundi sawa na hati za P2PKH na P2WPKH.
-- `[42e629dd/48'/0'/0'/2']`: Hiki ni kipengele sawa na hapo juu (kinachojumuisha ufuatiliaji na njia ya utokaji), isipokuwa kwamba ufuatiliaji wa ufunguo mkuu wa urejeshaji wa maunzi Wallet (katika kesi hii Jade) umeonyeshwa.
+- `v:pkh` (fupi ya *thibitisha: ufunguo wa umma Hash*): Operator huyu huthibitisha sahihi na ufunguo fulani wa umma dhidi ya ufunguo wa umma wa Hash (*Hash*) unaofuata. Hii kimsingi ni hundi sawa na hati za P2PKH na P2WPKH.
+- `[42e629dd/48'/0'/0'/2']`: Hiki ni element sawa na hapo juu (kinachojumuisha ufuatiliaji na njia ya utokaji), isipokuwa kwamba ufuatiliaji wa ufunguo mkuu wa urejeshaji wa maunzi Wallet (katika kesi hii Jade) umeonyeshwa.
 - `xpub6DpQ ... WQd`: Huu ni ufunguo uliopanuliwa wa umma uliounganishwa na urejeshaji maunzi Wallet (hapa Jade).
-- `wakubwa(6)` : Opereta huyu hukagua kuwa pato la muamala lililoundwa lazima liwe na umri mkubwa zaidi ya vizuizi 6 ili kutumika.
+- `wakubwa(6)` : Operator huyu hukagua kuwa pato la muamala lililoundwa lazima liwe na umri mkubwa zaidi ya block 6 ili kutumika.
 
-
-Kipengee cha mwisho cha data (`8alrve5h`) ni cheki ya maelezo, na inalingana na kitambulishi cha Wallet.
-
+Element ya mwisho cha data (`8alrve5h`) ni cheki ya maelezo, na inalingana na kitambulishi cha Wallet.
 
 Maandishi yaliyoundwa na Wallet hii yatachukua fomu ifuatayo:
 
@@ -491,8 +477,7 @@ Maandishi yaliyoundwa na Wallet hii yatachukua fomu ifuatayo:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-
-Kwa kuwa usalama wa Bitcoin Wallet yako pia unategemea uelewa wako wa jinsi inavyofanya kazi, ninapendekeza usome taratibu za pochi za kuamua na za viwango vya juu kwa kuchukua kozi hii ya mafunzo bila malipo kwenye Plan ₿ Network :
+Kwa kuwa usalama wa Bitcoin Wallet yako pia unategemea uelewa wako wa jinsi inavyofanya kazi, ninapendekeza usome taratibu za wallet za kuamua na za viwango vya juu kwa kuchukua kozi hii ya mafunzo bila malipo kwenye Plan ₿ Network :
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

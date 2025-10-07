@@ -92,16 +92,15 @@ Quindi seleziona il layer da cui desideri effettuare lo scambio atomico e scegli
 
 
 
-In questa esercitazione ci concentreremo sul Exchange atomico dal Layer principale al Lightning Network.
+In questo tutorial ci concentreremo sullo scambio atomico dal layer principale al Lightning Network.
 
 
 
-È possibile configurare l'unità base per le proprie centrali scegliendo tra le opzioni :
+Puoi configurare l’unità di base per i tuoi scambi scegliendo tra le seguenti opzioni:
 
 
 
-
-- BTC ;
+- BTC;
 - Sats.
 
 
@@ -110,9 +109,7 @@ In questa esercitazione ci concentreremo sul Exchange atomico dal Layer principa
 
 
 
-Una volta completate le configurazioni di base, inserite l'importo del vostro Exchange atomico, quindi create un Lightning Invoice per l'importo equivalente, oppure inserite semplicemente il vostro LNURL.
-
-
+Una volta completate le configurazioni di base, inserisci l’importo del tuo scambio atomico, quindi crea una fattura Lightning per l’importo equivalente o inserisci semplicemente il tuo LNURL.
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
@@ -122,12 +119,10 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-Per sicurezza, verificare i parametri del proprio Exchange atomico per esportare le chiavi di backup collegate al Exchange.
+Per sicurezza, controlla i parametri del tuo scambio atomico per esportare le chiavi di backup collegate al tuo scambio.
 
 
-
-Sull'icona **Impostazioni**, scaricare la chiave di backup e salvare il file in modo appropriato.
-
+Clicca sull’icona Impostazioni, scarica la chiave di backup e salva il file in modo appropriato.
 
 
 ![settings](assets/fr/08.webp)

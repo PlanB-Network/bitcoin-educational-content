@@ -28,7 +28,7 @@ description: 如何在電腦上使用 Hardware Wallet with Blockstream App？
 
 
 
-- 初學者**：希望使用安全桌面軟體和 Hardware Wallet 管理比特幣的使用者。
+- **初學者**：希望使用安全桌面軟體和 Hardware Wallet 管理比特幣的使用者。
 - 中級使用者：希望瞭解如何使用 Hardware Wallet 進行上鏈交易以及 Tor 或 SPV 等隱私選項的人。
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- 注意**：請確認您的 Ledger 已經使用 PIN 碼解除鎖定，且 Bitcoin Legacy 應用程式在您連線時處於啟動狀態。
+- **注意**：請確認您的 Ledger 已經使用 PIN 碼解除鎖定，且 Bitcoin Legacy 應用程式在您連線時處於啟動狀態。
 
 
 

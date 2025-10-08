@@ -366,7 +366,7 @@ Zde je očekávaný výsledek:
 
 
 
-výsledek zobrazení aktuální verze Nmap._
+výsledek zobrazení aktuální verze Nmap.
 
 
 
@@ -451,7 +451,7 @@ Zde je očekávaný výsledek:
 
 
 
-výsledek zobrazení aktuální verze Nmap._
+výsledek zobrazení aktuální verze Nmap.
 
 
 
@@ -475,7 +475,7 @@ Ve své základní podobě, tj. aniž byste zašli příliš daleko v používá
 
 
 
-chybová zpráva pod Linuxem, když možnosti Nmap vyžadují práva roota._
+chybová zpráva pod Linuxem, když možnosti Nmap vyžadují práva roota.
 
 
 
@@ -611,7 +611,7 @@ Zde je možný výsledek. Vidíme klasický návrat Nmapu se spoustou informací
 
 
 
-výsledky jednoduchého skenování TCP provedeného pomocí nástroje Nmap._
+výsledky jednoduchého skenování TCP provedeného pomocí nástroje Nmap.
 
 
 
@@ -723,7 +723,7 @@ Pokud se podíváte do souboru /etc/services v systému Linux, najdete odkaz "po
 
 
 
-vyextrahuje obsah souboru "/etc/services" pod Linuxem._
+vyextrahuje obsah souboru "/etc/services" pod Linuxem.
 
 
 
@@ -857,7 +857,7 @@ Zde má vrácená zpráva stejný formát jako při skenování TCP, ale zobraze
 
 
 
-výsledek jednoduchého skenování UDP pomocí programu Nmap._
+výsledek jednoduchého skenování UDP pomocí programu Nmap.
 
 
 
@@ -869,7 +869,7 @@ Mimochodem, pravděpodobně jste si všimli, že Nmap vyžaduje pro skenování 
 
 
 
-poznámka: Od nejnovějších verzí programu Nmap se pro zajištění spolehlivých výsledků vždy doporučuje provádět skenování UDP s právy správce, protože některé funkce vyžadují neošetřený přístup k síťovým soketům._
+poznámka: Od nejnovějších verzí programu Nmap se pro zajištění spolehlivých výsledků vždy doporučuje provádět skenování UDP s právy správce, protože některé funkce vyžadují neošetřený přístup k síťovým soketům.
 
 
 
@@ -909,7 +909,7 @@ Na výše uvedeném obrázku vidíme, že Nmap odešle velké množství paketů
 
 
 
-výtah z RFC 1122._
+výtah z RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Podívejme se blíže na tento snímek Wireshark, který ukazuje **tři možné 
 
 
 
-zachycení sítě během skenování UDP na různých portech pomocí Nmap._
+zachycení sítě během skenování UDP na různých portech pomocí Nmap.
 
 
 
@@ -956,7 +956,7 @@ Zde je výsledek zobrazený programem Nmap po těchto třech případech:
 
 
 
-možné výsledky skenování UDP provedeného pomocí Nmap._
+možné výsledky skenování UDP provedeného pomocí Nmap.
 
 
 
@@ -988,7 +988,7 @@ Jak jsme viděli, pokud nezadáte žádné možnosti, Nmap sám vybere počet a 
 
 
 
-extrahované ze souboru "/usr/shares/nmap/nmap-services"._
+extrahované ze souboru "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Abyste lépe pochopili, jak mohou sondy vypadat, uvádíme seznam některých so
 
 
 
-příklad několika sond, které Nmap používá a které jsou v souboru `/usr/share/nmap/nmap-service-probes`._
+příklad několika sond, které Nmap používá a které jsou v souboru `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Nyní se vrátíme k direktivě v souboru `/usr/share/nmap/nmap-service-probes`,
 
 
 
-direktiva `rarity` v souboru `/usr/share/nmap/nmap-service-probes`._
+direktiva `rarity` v souboru `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ Na závěr tohoto tématu uvádíme příklad _Sondy_ 9 a 8:
 
 
 
-příklady sond s raritou 8 a 9 v souboru `/usr/share/nmap/nmap-service-probes`._
+příklady sond s raritou 8 a 9 v souboru `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Zde je výsledek skenování Nmap pomocí skriptů NSE:
 
 
 
-příklad výsledků skenování zranitelností hostitele pomocí nástroje Nmap._
+příklad výsledků skenování zranitelností hostitele pomocí nástroje Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Technicky jsou kategorie, do kterých skript patří, uvedeny přímo v jeho kó
 
 
 
-kategorie skriptů nSE `ftp-anon`._
+kategorie skriptů nSE `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Ve výchozím nastavení jsou skripty Nmap NSE umístěny v adresáři `/usr/sha
 
 
 
-rozbalí obsah adresáře `/usr/share/nmap/scripts/` obsahujícího skripty NSE._
+rozbalí obsah adresáře `/usr/share/nmap/scripts/` obsahujícího skripty NSE.
 
 
 
@@ -2296,7 +2296,7 @@ Tento adresář obsahuje více než 5 000 skriptů NSE. Ve většině případů
 
 
 
-seznam skriptů NSE Nmap s názvy začínajícími na `ftp-`._
+seznam skriptů NSE Nmap s názvy začínajícími na `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Pak získáme velmi přesný výsledek:
 
 
 
-výsledek použití skriptu NSE `ftp-anon` na portu FTP prostřednictvím Nmap._
+výsledek použití skriptu NSE `ftp-anon` na portu FTP prostřednictvím Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Pro stručný popis toho, co skript NSE dělá, můžete použít výše uvedeno
 
 
 
-help zobrazení výsledku pro NSE skript `sshv1`._
+help zobrazení výsledku pro NSE skript `sshv1`.
 
 
 
@@ -2500,7 +2500,7 @@ Tento skript má "výchozí" možnosti, které bychom mohli upravit tak, aby vyh
 
 
 
-výsledek zobrazení nápovědy pro skript NSE `ssh-brute` s odkazem na nmap.org._
+výsledek zobrazení nápovědy pro skript NSE `ssh-brute` s odkazem na nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Jak vidíte v tomto posledním příkazu, můžeme zadat potřebné argumenty sk
 
 
 
-výsledek provedení SSH bruteforce pomocí Nmap._
+výsledek provedení SSH bruteforce pomocí Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Tento formát byl vytvořen pro "zhuštěný" pohled na výstup Nmapu, strukturo
 
 
 
-nmap skenování sítě a výstup ve formátu "greppable"._
+nmap skenování sítě a výstup ve formátu "greppable".
 
 
 
@@ -2700,7 +2700,7 @@ Tento formát lze použít k různým účelům a je obzvláště užitečný pr
 
 
 
-poznámka: formát `-oG` greppable je od verze Nmap 7.90 oficiálně zastaralý. Kvůli kompatibilitě jej lze stále používat. Pro účely kompatibility jej lze stále používat, ale pro jakýkoli vývoj nebo automatizované analyzování se doporučuje používat XML nebo normální formát._
+poznámka: formát `-oG` greppable je od verze Nmap 7.90 oficiálně zastaralý. Kvůli kompatibilitě jej lze stále používat. Pro účely kompatibility jej lze stále používat, ale pro jakýkoli vývoj nebo automatizované analyzování se doporučuje používat XML nebo normální formát.
 
 
 
@@ -2838,7 +2838,7 @@ Díky tomu budeme mít celý sken pěkně strukturovaný, dokonce s několika ba
 
 
 
-výpis ze zprávy o skenování Nmap ve formátu HTML vygenerované pomocí xsltproc._
+výpis ze zprávy o skenování Nmap ve formátu HTML vygenerované pomocí **xsltproc**.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) je podmnožinou jazyka X
 
 
 
-zdroj: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+zdroj: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ První volbou, kterou bychom měli zmínit, je volba `-v`, která zvyšuje slovn
 
 
 
-slovní výstup nmapu pomocí volby `-v`._
+slovní výstup nmapu pomocí volby `-v`.
 
 
 
@@ -2900,7 +2900,7 @@ Chcete-li dále sledovat činnost programu Nmap během skenování, můžete pou
 
 
 
-podrobné sledování aktivity Nmap pomocí `--packet-trace`._
+podrobné sledování aktivity Nmap pomocí `--packet-trace`.
 
 
 
@@ -3120,7 +3120,7 @@ Pokud Aquatone běžně provádí zjišťování portů na hostitelích za úče
 
 
 
-použití výsledků Nmap ve formátu XML s `aquatone`._
+použití výsledků Nmap ve formátu XML s `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ V každém případě můžete zkontrolovat výchozí hodnoty parametrů, na kte
 
 
 
-zobrazit možnosti časování pomocí volby `-d` Nmap._
+zobrazit možnosti časování pomocí volby `-d` Nmap.
 
 
 
@@ -3465,7 +3465,7 @@ Pokud jste se rozhodli používat Nmap nikoli prostřednictvím relace jako `roo
 
 
 
-povýšení práv Nmapu pomocí `sudo`._
+povýšení práv Nmapu pomocí `sudo`.
 
 
 
@@ -3509,7 +3509,7 @@ Jak jste si možná všimli, Nmap nabízí několik možností pro skenování T
 
 
 
-skenovací techniky dostupné v aplikaci Nmap._
+skenovací techniky dostupné v aplikaci Nmap.
 
 
 
@@ -3598,7 +3598,7 @@ Jak již bylo zmíněno, při spuštění Nmapu z privilegovaného terminálu je
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Zde je příklad výsledku skenování TCP FIN v programu Nmap:
 
 
 
-výsledky skenování TCP FIN pomocí Nmap._
+výsledky skenování TCP FIN pomocí Nmap.
 
 
 
@@ -3892,7 +3892,7 @@ Je důležité poznamenat, že skenování TCP XMAS není schopno detekovat fire
 
 
 
-poznámka: podpora skenování XMAS/FIN/NULL v posledních verzích systému Windows je stále omezená a výsledky mohou být u tohoto typu cíle nekonzistentní. (Aktualizace 2025)_
+poznámka: podpora skenování XMAS/FIN/NULL v posledních verzích systému Windows je stále omezená a výsledky mohou být u tohoto typu cíle nekonzistentní. (Aktualizace 2025)
 
 
 
@@ -3983,7 +3983,7 @@ Pro tento typ skenování použijeme volbu `-sA` programu Nmap. Zde je výsledek
 
 
 
-zobrazení nmap během TCP ACK Scan._
+zobrazení nmap během **TCP ACK Scan**.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-poznámka: Volba `-sP` je již několik let zastaralá a měla by být nahrazena volbou `-sn`. (Aktualizace 2025)_
+poznámka: Volba `-sP` je již několik let zastaralá a měla by být nahrazena volbou `-sn`. _(Aktualizace 2025)_
 
 
 

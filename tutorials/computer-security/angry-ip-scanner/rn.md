@@ -84,8 +84,8 @@ Ku gutangura kwa mbere, fata umwanya wo gusoma amabwirizwa ari mw'idirisha rya "
 
 
 
-- Feeder**: module ishinzwe gutanga urutonde rw’amaderesi ya IP azosuzumwa, kuva ku rutonde rwa IP rudasanzwe canke dosiye ifise urutonde rw’amaderesi ya IP.
-- Fetcher**: umugwi w'ibice vyo kuronka amakuru yerekeye abashitsi ku rubuga. Hariho nk’akarorero, ama fetchers yo kumenya amaderesi ya MAC, gucapura ivyuho, kumenya amazina y’abashitsi canke kohereza ibisabwa vya HTTP.
+- **Feeder**: module ishinzwe gutanga urutonde rw'amaderesi ya IP azosuzumwa, kuva ku rutonde rwa IP rudasanzwe canke dosiye ifise urutonde rw'amaderesi ya IP.
+- **Fetcher**: umugwi w'ibice vyo kuronka amakuru yerekeye abashitsi ku rubuga. Hariho nk'akarorero, ama fetchers yo kumenya amaderesi ya MAC, gucapura ivyuho, kumenya amazina y'abashitsi canke kohereza ibisabwa vya HTTP.
 
 
 

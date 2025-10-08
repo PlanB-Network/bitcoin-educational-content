@@ -8,4 +8,4 @@ term: TEMPORAL MODEL (时态模型)
 
 除了观察实体的性质外，时间模式还可以通过时区大致显示用户的位置。由此，我们就可以将其他交易关联起来，并将这些交易的时间戳作为一种额外的启发式方法，纳入连锁分析中。
 
-在另一种情况下，也正是这种时间分析引起了中本聪不是在日本而是在美国操作的假设：[中本聪的时区_](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)。
+在另一种情况下，也正是这种时间分析引起了中本聪不是在日本而是在美国操作的假设：[中本聪的时区](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)。

@@ -15,7 +15,7 @@ description: Tora igice ca Co-Sign maze ugikoreshe kuri COLDCARD yawe
 
 
 
-**Kubera iki ColdCard ikora umukono?
+**Kubera iki ColdCard ikora umukono?**
 
 
 
@@ -29,14 +29,14 @@ Ivyo gukoresha amahera bishobora kuba, nk’akarorero:
 
 
 
-- Imipaka ku bunini**: cap umubare w’ama bitcoins ushobora gukoresha mu gucuruza rimwe.
-- Imipaka y’umuvuduko:** ufata ingingo y’ingene ushobora gukora ibikorwa vyinshi ku gihe (ku isaha, ku musi, ku ndwi, n’ibindi), bisaba umubare mutoyi w’amabuye hagati yavyo.
-- Amaderesi yemejwe mbere:** Kwemerera gusa bitcoins koherezwa ku maderesi yemejwe mbere.
-- Ivyemezo bibiri:** Bisaba kwemezwa n’iporogarama y’uwundi muntu 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) kuri telefone ngendanwa/tablette ikoresha NFC ifise interineti.
+- **Imipaka ku bunini**: cap umubare w'ama bitcoins ushobora gukoresha mu gucuruza rimwe.
+- **Imipaka y'umuvuduko:** ufata ingingo y'ingene ushobora gukora ibikorwa vyinshi ku gihe (ku isaha, ku musi, ku ndwi, n'ibindi), bisaba umubare mutoyi w'amabuye hagati yavyo.
+- **Amaderesi yemejwe mbere:** Kwemerera gusa bitcoins koherezwa ku maderesi yemejwe mbere.
+- **Ivyemezo bibiri:** Bisaba kwemezwa n'iporogarama y'uwundi muntu 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) kuri telefone ngendanwa/tablette ikoresha NFC ifise interineti.
 
 
 
-**Uko bikora
+**Uko bikora**
 
 
 

@@ -19,7 +19,7 @@ Tak jest w przypadku **Leenderta de Borst** i jego `Alias Vault`, rewolucyjnego 
 
 
 
-**Ale Alias Vault na tym się nie kończy.
+**Ale Alias Vault na tym się nie kończy.**
 
 
 
@@ -36,10 +36,10 @@ W jednym Interface Alias Vault jest:
 
 
 
-- Darmowe i otwarte źródło**
-- Menedżer haseł**, do przechowywania wszystkich złożonych haseł. Korzystając z rozszerzenia przeglądarki, menedżer haseł uzupełnia loginy do stron internetowych
-- 2FA**, do obsługi uwierzytelniania dwuskładnikowego
-- Menedżer aliasów z wbudowanym serwerem poczty e-mail**: Alias Vault nie tworzy aliasów, które przekazują wiadomości e-mail do skrzynki pocztowej użytkownika; raczej tworzy rzeczywiste alter-ego, wraz z imieniem, nazwiskiem, płcią, nazwą użytkownika, hasłem i datą urodzin (jeśli te informacje są wymagane).
+- **Darmowe i otwarte źródło**
+- **Menedżer haseł**, do przechowywania wszystkich złożonych haseł. Korzystając z rozszerzenia przeglądarki, menedżer haseł uzupełnia loginy do stron internetowych
+- **2FA**, do obsługi uwierzytelniania dwuskładnikowego
+- **Menedżer aliasów z wbudowanym serwerem poczty e-mail**: Alias Vault nie tworzy aliasów, które przekazują wiadomości e-mail do skrzynki pocztowej użytkownika; raczej tworzy rzeczywiste alter-ego, wraz z imieniem, nazwiskiem, płcią, nazwą użytkownika, hasłem i datą urodzin (jeśli te informacje są wymagane).
 
 
 

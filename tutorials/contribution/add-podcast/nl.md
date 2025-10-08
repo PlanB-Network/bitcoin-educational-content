@@ -81,12 +81,12 @@ Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
 - **`naam`**: Geef de naam van je podcast aan.
-- `host`**: Vermeld de namen of pseudoniemen van de sprekers of de host van de podcast. Elke naam moet gescheiden worden door een komma.
+- **`host`**: Vermeld de namen of pseudoniemen van de sprekers of de host van de podcast. Elke naam moet gescheiden worden door een komma.
 - **`taal`**: Geef de taalcode aan van de taal die in je podcast wordt gesproken. Bijvoorbeeld, voor Engels, noteer `en`, voor Italiaans `it`...
 
 
 
-- `links`**: Geef links naar je inhoud. Je hebt twee opties:
+- **`links`**: Geef links naar je inhoud. Je hebt twee opties:
  - `podcast`: de link naar je podcast,
  - `twitter`: de link naar het Twitter-profiel van de podcast of de organisatie die hem produceert,
  - `website`: de link naar de website van de podcast of de organisatie die hem produceert.

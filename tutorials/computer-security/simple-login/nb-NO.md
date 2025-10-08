@@ -205,7 +205,7 @@ Når det gjelder Simple Login, har dette verktøyet følgende funksjoner:
 
 - mobilapp (også fra F-Droid) og nettleserutvidelse, for å administrere aliaser i alle situasjoner;
 - tofaktorautentisering for hvert nye pseudonym, noe som øker graden av uavhengighet fra selve tjenesten;
-- PGP-støtte (for _Premium-brukere);
+- PGP-støtte (for _Premium-brukere_);
 - enkel oppretting av alle typer alias (egendefinerte, tilfeldige og UUID);
 - blant de gratis planene i sektoren, muligheten til å bruke aliaser med flere "offisielle" e-postbokser. Andre konkurrenter begrenser seg til bare én.
 

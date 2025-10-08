@@ -160,7 +160,7 @@ Vložte bootovací USB klíč do vypnutého počítače (toho, na kterém chcete
 
 
 
-Zobrazí se domovská obrazovka Ubuntu. Vyberte možnost "Vyzkoušet nebo nainstalovat Ubuntu*".
+Zobrazí se domovská obrazovka Ubuntu. Vyberte možnost "Vyzkoušet nebo nainstalovat Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Prosíme, zachovejte důvěrnost tohoto dokumentu Address
+⚠️ **Prosíme, zachovejte důvěrnost tohoto dokumentu**
 
 
 
@@ -1426,7 +1426,7 @@ Chcete-li přistupovat k prohlížeči z libovolného počítače v libovolné s
 
 
 
-⚠️ **Prosíme, zachovejte důvěrnost tohoto Address
+⚠️ **Prosíme, zachovejte důvěrnost tohoto Address**
 
 
 

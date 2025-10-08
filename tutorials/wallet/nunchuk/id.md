@@ -163,7 +163,7 @@ Pada layar di bawah ini Anda dapat memeriksa apakah Wallet online dan Anda dapat
 
 
 
-Simpan pengaturan dengan perintah _Save network settings (Simpan pengaturan jaringan), kembali ke menu _Profile (Profil) dan pilih _Security settings (Pengaturan keamanan).
+Simpan pengaturan dengan perintah _Save network settings_ (Simpan pengaturan jaringan), kembali ke menu _Profile_ (Profil) dan pilih _Security settings_ (Pengaturan keamanan).
 
 
 
@@ -324,7 +324,7 @@ Nunchuk menunjukkan kepada Anda sejumlah kemungkinan yang sebagian besar berkait
 
 
 
-Dalam panduan ini kita akan membuat _Hot Wallet dan _Dompet khusus_ dengan merinci detailnya.
+Dalam panduan ini kita akan membuat _Hot Wallet_ dan _Dompet khusus_ dengan merinci detailnya.
 
 
 Mari kita mulai dengan _Custom wallet_.

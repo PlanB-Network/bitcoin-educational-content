@@ -65,7 +65,7 @@ Tùy thuộc vào Lightning Wallet bạn đang sử dụng, bạn sẽ tìm th�
 
 
 
-- Alby Hub** dành cho ví Alby Go, tiện ích mở rộng Alby dành cho trình duyệt của bạn.
+- **Alby Hub** dành cho ví Alby Go, tiện ích mở rộng Alby dành cho trình duyệt của bạn.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** để kết nối Bitcoin web CoinOS Wallet.
-- Flash Wallet** để kết nối với Flash Wallet.
-- Liên kết LN**
+- **Coinos** để kết nối Bitcoin web CoinOS Wallet.
+- **Flash Wallet** để kết nối với Flash Wallet.
+- Liên kết LN
 
 
 

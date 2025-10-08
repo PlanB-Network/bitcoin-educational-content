@@ -43,16 +43,16 @@ Hebu tuzame kwenye vipengele na tuchunguze kile ambacho Cashu.me inatoa:
 
 
 
-- Chaumian ecash on Radi**: Hutumia sahihi saini ili minti isiweze kufuatilia salio la watumiaji au historia za miamala
-- Kujitunza kwa tokeni**: Unadhibiti tokeni za ecash ndani ya nchi kwa kutumia maneno yako ya seed
-- Hifadhi rudufu za maneno ya seed**: Kishazi cha urejeshaji cha maneno 12 kwa urejeshaji wa Wallet
-- Uhuru wa Mint**: Inafanya kazi na sarafu nyingi huru—hujafungiwa ndani ya mtoaji mmoja
-- Miamala ya papo hapo na isiyolipishwa**: Ndani ya thamani sawa, malipo hukamilika kwa sekunde na ada sifuri
-- Usanifu wa kuhifadhi faragha**: Minti haiwezi kuona ni nani anafanya miamala na nani
-- Pesa ya nje ya mtandao**: Tuma/pokea tokeni kupitia itifaki ya usambazaji ya ndani, kama vile NFC, msimbo wa QR, Bluetooth, n.k. bila muunganisho wa intaneti
-- Gundua sarafu za ecash kupitia Nostr**: Tafuta na uthibitishe mints zinazoaminika kupitia itifaki ya Nostr
-- Badilisha pesa kati ya minti**: Minti zote huzungumza Umeme, ambayo inamaanisha unaweza kuhamisha thamani kati yao.
-- Dhibiti kwa mbali Wallet yako ukitumia Nostr Wallet Connect (NWC)**: Unganisha kwenye programu zingine kama vile Nostr Client na uanze kuzima kupitia NWC
+- **Chaumian ecash on Radi**: Hutumia sahihi saini ili minti isiweze kufuatilia salio la watumiaji au historia za miamala
+- **Kujitunza kwa tokeni**: Unadhibiti tokeni za ecash ndani ya nchi kwa kutumia maneno yako ya seed
+- **Hifadhi rudufu za maneno ya seed**: Kishazi cha urejeshaji cha maneno 12 kwa urejeshaji wa Wallet
+- **Uhuru wa Mint**: Inafanya kazi na sarafu nyingi huru—hujafungiwa ndani ya mtoaji mmoja
+- **Miamala ya papo hapo na isiyolipishwa**: Ndani ya thamani sawa, malipo hukamilika kwa sekunde na ada sifuri
+- **Usanifu wa kuhifadhi faragha**: Minti haiwezi kuona ni nani anafanya miamala na nani
+- **Pesa ya nje ya mtandao**: Tuma/pokea tokeni kupitia itifaki ya usambazaji ya ndani, kama vile NFC, msimbo wa QR, Bluetooth, n.k. bila muunganisho wa intaneti
+- **Gundua sarafu za ecash kupitia Nostr**: Tafuta na uthibitishe mints zinazoaminika kupitia itifaki ya Nostr
+- **Badilisha pesa kati ya minti**: Minti zote huzungumza Umeme, ambayo inamaanisha unaweza kuhamisha thamani kati yao.
+- **Dhibiti kwa mbali Wallet yako ukitumia Nostr Wallet Connect (NWC)**: Unganisha kwenye programu zingine kama vile Nostr Client na uanze kuzima kupitia NWC
 
 
 Ubadilishanaji muhimu ni `uaminifu`: wakati unadhibiti tokeni zenyewe, lazima uamini mints kutunza hifadhi ya msingi ya Bitcoin. Kama nyaraka za Cashu zinavyosema:

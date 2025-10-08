@@ -4,7 +4,7 @@ description: RoninDojo v2 Bitcoin-solmun asentaminen Raspberry Pi:lle
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-**VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, tietyt RoninDojon ominaisuudet, kuten Whirlpool, eivät ole enää toiminnassa. On kuitenkin mahdollista, että nämä työkalut voidaan palauttaa tai käynnistää uudelleen eri tavalla tulevina viikkoina. Lisäksi, koska RoninDojon koodi oli isännöity Samourain GitLabiin, joka myös takavarikoitiin, koodin etälataus ei tällä hetkellä ole mahdollista. RoninDojon tiimit työskentelevät todennäköisesti koodin uudelleenjulkaisemiseksi.*
+**VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, tietyt RoninDojon ominaisuudet, kuten Whirlpool, eivät ole enää toiminnassa. On kuitenkin mahdollista, että nämä työkalut voidaan palauttaa tai käynnistää uudelleen eri tavalla tulevina viikkoina. Lisäksi, koska RoninDojon koodi oli isännöity Samourain GitLabiin, joka myös takavarikoitiin, koodin etälataus ei tällä hetkellä ole mahdollista. RoninDojon tiimit työskentelevät todennäköisesti koodin uudelleenjulkaisemiseksi.
 
 _Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän oppaan, kun uutta tietoa tulee saataville._
 
@@ -508,4 +508,3 @@ Siinä se! Kiitos, että seurasit tätä opasta loppuun. Jos pidit siitä, kannu
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/esittelyssä-boltzmann-85930984a159](https://medium.com/@laurentmt/esittelyssä-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
-

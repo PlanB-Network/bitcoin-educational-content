@@ -176,9 +176,9 @@ _Håll i minnet:_
 
 när du öppnar en kanal med Olympus LSP med hjälp av de inslagna LN-fakturorna får du också en 100k inkommande likviditet! Detta är ett riktigt bra alternativ om du behöver ta emot mer Sats direkt
 
-_Exempel: du sätter in 400k Sats för att öppna en LSP-kanal, då öppnar LSP:n en kanal med 500k Sats kapacitet mot din Zeus-nod och skjuter de 400k Sats du sätter in mot din sida
+_Exempel: du sätter in 400k Sats för att öppna en LSP-kanal, då öppnar LSP:n en kanal med 500k Sats kapacitet mot din Zeus-nod och skjuter de 400k Sats du sätter in mot din sida_
 
-_"Inkommande likviditet" = mer "utrymme" i din kanal för att ta emot
+_"Inkommande likviditet"_ = mer "utrymme" i din kanal för att ta emot
 
 
 I framtiden hoppas vi att vi kan ha många andra LSP som kan integreras i Zeus och använda alternativt var och en. Det är bara en tidsfråga innan nya LSP:er kommer att anta en öppen standard för den här typen av 0conf-kanaler.

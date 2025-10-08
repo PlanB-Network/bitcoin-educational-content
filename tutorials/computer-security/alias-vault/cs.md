@@ -36,10 +36,10 @@ V jednom trezoru Interface Alias Vault je:
 
 
 
-- Zdarma a s otevřeným zdrojovým kódem**
-- Správce hesel**, do kterého se ukládají všechna složitá hesla. Pomocí rozšíření prohlížeče správce hesel dokončí přihlášení k webovým stránkám
-- 2FA**, podpora dvoufaktorového ověřování
-- Správce aliasů s vestavěným e-mailovým serverem**: Alias Vault nevytváří aliasy, které přeposílají e-maily do schránky uživatele, ale vytváří skutečné alter-egy, doplněné o jméno, příjmení, pohlaví, uživatelské jméno, heslo a narozeniny (pokud jsou tyto informace vyžadovány).
+- **Zdarma a s otevřeným zdrojovým kódem**
+- **Správce hesel**, do kterého se ukládají všechna složitá hesla. Pomocí rozšíření prohlížeče správce hesel dokončí přihlášení k webovým stránkám
+- **2FA**, podpora dvoufaktorového ověřování
+- **Správce aliasů s vestavěným e-mailovým serverem**: Alias Vault nevytváří aliasy, které přeposílají e-maily do schránky uživatele, ale vytváří skutečné alter-egy, doplněné o jméno, příjmení, pohlaví, uživatelské jméno, heslo a narozeniny (pokud jsou tyto informace vyžadovány).
 
 
 

@@ -29,7 +29,7 @@ Turagusavye uzirikane ko itandukaniro ry’igiciro n’ibikoresho vya kera vy’
 
 
 
-Mu vyiyumviro vyanje, ivyo bikoresho bikwiye gufatwa cane nk'uburyo bworoshe bwo gushika ku Miner muhira ku bipfuza kubigira kubera imvo z'umuntu ku giti ciwe: *kuronka Satss zitari za KYC / gukina "loteri" mu gukora solominate / kugira uruhara mu kwegereza Hashrate n'ibindi. Ariko si nk’uburyo bwo kuzigama amahera mu bihe vyinshi n’imiburiburi (ibihugu vy’uburengero).
+Mu vyiyumviro vyanje, ivyo bikoresho bikwiye gufatwa cane nk'uburyo bworoshe bwo gushika ku Miner muhira ku bipfuza kubigira kubera imvo z'umuntu ku giti ciwe: **kuronka Satss zitari za KYC / gukina "loteri" mu gukora solominate / kugira uruhara mu kwegereza Hashrate n'ibindi**. Ariko si nk'uburyo bwo kuzigama amahera mu bihe vyinshi n'imiburiburi (ibihugu vy'uburengero).
 
 
 
@@ -223,7 +223,7 @@ Mu guca irya n’ino, turakeneye .
 
 
 
-- izina ry'"umukozi" rigizwe na *Bitcoin yawe Address* n'*ikinyoma* uhisemwo ku gikoresho cawe, ivyo 2 bitandukanijwe n'akadomo*, nk'akarorero:**bc1qxxxxxxxxxxxxxxxx.MonAvalonNano3S**
+- izina ry'"umukozi" rigizwe na **Bitcoin yawe Address** n'**ikinyoma** uhisemwo ku gikoresho cawe, ivyo 2 bitandukanijwe n'akadomo, nk'akarorero: **bc1qxxxxxxxxxxxxxxxx.MonAvalonNano3S**
 
 
 

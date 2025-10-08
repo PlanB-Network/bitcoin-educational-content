@@ -149,8 +149,8 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-- Android Flash 工具**：使用 Google 官方工具 [flash.android.com](https://flash.android.com)，可從網頁瀏覽器 (需使用 Chrome/Edge) 輕鬆將 Pixel 裝置還原為 Android 原廠版本
-- 替代**：從 [developers.google.com/android/images] (https://developers.google.com/android/images) 手動製作工廠影像。
+- Android Flash 工具：使用 Google 官方工具 [flash.android.com](https://flash.android.com)，可從網頁瀏覽器 (需使用 Chrome/Edge) 輕鬆將 Pixel 裝置還原為 Android 原廠版本
+- 替代**方案**：從 [developers.google.com/android/images](https://developers.google.com/android/images) 手動製作工廠影像。
 
 
 
@@ -159,9 +159,9 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-- 使用原始系統啟動裝置至少一次**。
-- 測試所有功能**：簡訊、通話、Wi-Fi、行動資料
-- 重要**：檢查您是否可以發送/接收簡訊和撥打/接聽電話（包括透過 WiFi 和 4G/5G）。如果在原生系統上無法運作，在 LineageOS 上也無法運作！
+- 使用原始系統啟動裝置至少一次。
+- 測試所有功能：簡訊、通話、Wi-Fi、行動資料
+- **重要**：檢查您是否可以發送/接收簡訊和撥打/接聽電話（包括透過 WiFi 和 4G/5G）。如果在原生系統上無法運作，在 LineageOS 上也無法運作！
 - 最近的裝置**：有些裝置需要在原廠系統上至少使用一次 VoLTE/VoWiFi 才能提供 IMS
 
 
@@ -171,8 +171,8 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-- 移除裝置上的所有 Google** 帳戶，以避免「出廠重設保護」（Factory Reset Protection）可能會阻止啟動。
-- 完整備份** ：此過程會完全刪除您的手機。備份相片、聯絡人、應用程式和重要檔案
+- 移除裝置上的所有 **Google** 帳戶，以避免「出廠重設保護」（Factory Reset Protection）可能會阻止啟動。
+- **完整備份**：此過程會完全刪除您的手機。備份相片、聯絡人、應用程式和重要檔案
 
 
 
@@ -216,7 +216,7 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-⚠️ **這些說明是 LineageOS 22.2 所特有的。請準確遵循每個步驟。若有任何失敗，請勿繼續前進！
+⚠️ **這些說明是 LineageOS 22.2 所特有的。請準確遵循每個步驟。若有任何失敗，請勿繼續前進！**
 
 
 
@@ -249,8 +249,8 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-- 建立 LineageOS**：[download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- 所需的檔案**：從本頁下載 3 個所需的檔案 (這些檔案會在下列步驟中使用)：
+- 建立 **LineageOS**：[download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- 所需的檔案：從本頁下載 3 個所需的檔案 (這些檔案會在下列步驟中使用)：
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (main ROM)
   - dtbo.img` (磁碟分割裝置樹 blob)
   - `boot.img` (復原 LineageOS)
@@ -269,13 +269,13 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-⚠️ **此步驟會刪除您的所有資料！
+⚠️ **此步驟會刪除您的所有資料！**
 
 
 
 
 
-- 測試 ADB 連線**：透過 USB 連接您的裝置，並從電腦終端機使用 `adb devices` 指令進行測試
+- 測試 ADB 連線：透過 USB 連接您的裝置，並從電腦終端機使用 `adb devices` 指令進行測試
 
 
 
@@ -289,7 +289,7 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-- 在手機上授權連線**
+- 在手機上授權連線
 
 
 
@@ -303,7 +303,7 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 
-- 開機進入開機載入模式** ：
+- **開機進入開機載入模式**：
 
 
 ```
@@ -317,7 +317,7 @@ adb -d reboot bootloader
 
 
 
-- 檢查 fastboot** 連線：
+- 檢查 **fastboot** 連線：
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- 解鎖開機載入程式** ：
+- **解鎖開機載入程式**：
 
 
 ```
@@ -370,7 +370,7 @@ fastboot flashing unlock
 
 
 
-- 自動重新啟動**後，在開發者選項中重新啟用 USB 除錯功能
+- 自動重新啟動**後**，在開發者選項中重新啟用 USB 除錯功能
 
 
 
@@ -385,8 +385,8 @@ fastboot flashing unlock
 
 
 
-- 重新啟動開機載入程式**：按下音量 + 電源
-- Flash** (將 `/path/to/` 改為您下載檔案的資料夾) ：
+- 重新啟動開機載入程式**：按下音量 + 電源**
+- **Flash** (將 `/path/to/` 改為您下載檔案的資料夾)：
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (將 `/path/to/` 改為下載檔案的資料夾) ：
+- **Flash recovery** (將 `/path/to/` 改為下載檔案的資料夾)：
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 在復原中重新啟動**以檢查
+- 在復原中重新啟動**以檢查**
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 以恢復模式重新啟動**：音量下 + 電源 → 復原模式
+- 以恢復模式重新啟動：音量下 + 電源 → 復原模式
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 出廠重設** ：輸入 「工廠重設」→「格式化資料/工廠重設」
+- **出廠重設**：輸入 「工廠重設」→「格式化資料/工廠重設」
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 返回主選單**
-- 側載 LineageOS** ：
+- 返回主選單
+- **側載 LineageOS**：
    - 在裝置上：「套用更新」→「從 ADB 套用」
    - 在電腦上： `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 重新啟動**：「立即重新啟動系統」
-- 第一次開機**：可能需要 15 分鐘
+- 重新啟動**：「立即重新啟動系統」**
+- 第一次開機：可能需要 15 分鐘
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 韌體相容性**：請務必在您機型的下載頁面上檢查所需的韌體版本
-- 安裝 LineageOS 之後，切勿重新上鎖**開機載入程式
-- 請遵循您裝置的特定指示**
+- **韌體相容性**：請務必在您機型的下載頁面上檢查所需的韌體版本
+- 安裝 LineageOS 之後，切勿重新上鎖**開機載入程式**
+- 請遵循您裝置的特定指示
 
 
 
@@ -559,11 +559,11 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 導航**：有機地圖（基於 OpenStreetMap 的離線地圖）
-- 通訊**：Signal (端對端加密訊息)、K-9 Mail (免費電子郵件用戶端)
-- 媒體**：NewPipe (無廣告、無追蹤的 YouTube)、VLC (通用媒體播放器)
-- 生產力**：Nextcloud (自託管雲端)、Simple Calendar (CalDAV 同步)
-- 安全性**：Bitwarden (密碼管理器)、Aegis Authenticator (2FA 代碼)
+- 導航：有機地圖（基於 OpenStreetMap 的離線地圖）
+- 通訊：**Signal** (端對端加密訊息)、**K-9 Mail** (免費電子郵件用戶端)
+- 媒體：NewPipe (無廣告、無追蹤的 YouTube)、VLC (通用媒體播放器)
+- **生產力**：Nextcloud (自託管雲端)、Simple Calendar (CalDAV 同步)
+- **安全性**：Bitwarden (密碼管理器)、Aegis Authenticator (2FA 代碼)
 
 
 

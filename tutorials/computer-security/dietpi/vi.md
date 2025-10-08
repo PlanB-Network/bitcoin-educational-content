@@ -28,9 +28,9 @@ Trong giới không chuyên về kỹ thuật, các thương hiệu như `Odroid
 
 
 
-- Được tối ưu hóa về tốc độ và dung lượng**: [so sánh với các bản phân phối Debian khác dành cho SBC](https://dietpi.com/blog/?p=888), DietPi nhẹ hơn về mọi mặt. Ảnh ISO của DietPi chỉ nặng chưa đến 1 GB, nhỏ nhất trong số các ảnh dành riêng cho các mẫu Raspberry hoặc Orange PI cũ (ví dụ). Nhu cầu về tài nguyên RAM và CPU rất thấp, nhờ đó nó luôn tận dụng tối đa hiệu suất của bo mạch chủ, ngay cả những bo mạch cũ.
-- Tự động hóa và trình cài đặt tích hợp**: Một bộ lệnh chuyên dụng giúp người dùng theo dõi tài nguyên hệ thống cũng như tự động hóa các tác vụ cài đặt và khởi chạy chương trình, cập nhật phiên bản, tạo bản sao lưu và kiểm tra tất cả nhật ký.
-- Một cộng đồng mạnh mẽ, hướng đến thử nghiệm**: [hướng dẫn](https://dietpi.com/forum/c/community-tutorials/8) và các dự án từ cộng đồng DietPi là nơi lý tưởng để tìm cảm hứng về phần mềm mà bạn có thể cài đặt chỉ bằng một cú nhấp chuột, nhờ DietPi.
+- **Được tối ưu hóa về tốc độ và dung lượng**: [so sánh với các bản phân phối Debian khác dành cho SBC](https://dietpi.com/blog/?p=888), DietPi nhẹ hơn về mọi mặt. Ảnh ISO của DietPi chỉ nặng chưa đến 1 GB, nhỏ nhất trong số các ảnh dành riêng cho các mẫu Raspberry hoặc Orange PI cũ (ví dụ). Nhu cầu về tài nguyên RAM và CPU rất thấp, nhờ đó nó luôn tận dụng tối đa hiệu suất của bo mạch chủ, ngay cả những bo mạch cũ.
+- **Tự động hóa và trình cài đặt tích hợp**: Một bộ lệnh chuyên dụng giúp người dùng theo dõi tài nguyên hệ thống cũng như tự động hóa các tác vụ cài đặt và khởi chạy chương trình, cập nhật phiên bản, tạo bản sao lưu và kiểm tra tất cả nhật ký.
+- Một cộng đồng mạnh mẽ, hướng đến thử nghiệm: [hướng dẫn](https://dietpi.com/forum/c/community-tutorials/8) và các dự án từ cộng đồng DietPi là nơi lý tưởng để tìm cảm hứng về phần mềm mà bạn có thể cài đặt chỉ bằng một cú nhấp chuột, nhờ DietPi.
 
 
 

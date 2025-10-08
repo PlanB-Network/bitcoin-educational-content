@@ -121,7 +121,7 @@ Insert the bootable USB key into the switched-off computer (the one on which you
 ### 1.2. install the operating system
 
 
-The Ubuntu home screen appears. Select "Try or Install Ubuntu*".
+The Ubuntu home screen appears. Select **"Try or Install Ubuntu"**.
 
 
 ![Image](assets/fr/05.webp)
@@ -894,7 +894,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 ```
 
 
-⚠️ **Please keep this address strictly confidential
+⚠️ **Please keep this address strictly confidential**
 
 
 You will then be redirected to an authentication page. The DMT is logged in using the `NODE_ADMIN_KEY` password you generated earlier.
@@ -1109,7 +1109,7 @@ If you're already connected to your DMT, you can also find this address in the "
 To access your browser from any machine on any network (even remotely), open [Tor Browser](https://www.torproject.org/download/) and enter the URL you've just retrieved.
 
 
-⚠️ **Please keep this address strictly confidential
+⚠️ **Please keep this address strictly confidential**
 
 
 You'll then have access to your own block explorer.

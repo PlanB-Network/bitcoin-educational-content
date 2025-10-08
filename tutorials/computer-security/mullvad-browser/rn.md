@@ -13,10 +13,10 @@ Mu isi aho ubuhinga bwo gucungera abantu ku mbuga ngurukanabumenyi buriko buragw
 
 
 
-- Ama cookies y'uwundi muntu**: amadosiye mato mato ashizweho n'imbuga zo hanze kugira ngo agukurikirane kuva ku rubuga rumwe uja ku rundi
-- Igishushanyo c'intoke**: gikorakoranya ibiranga umucukumbuzi wawe n'igikoresho cawe (uburebure bw'ibarabara, imyandikire yashizwemwo, ibikoresho, n'ibindi) kugira ngo bikumenye ata cookies
-- Gukurikirana inyandiko**: amakode ya JavaScript ataboneka asesangura inyifato yawe yo gushakisha (gukanda, guca, umwanya umaze)
-- Isesengura rya IP Address**: ahantu n'ikimenyetso c'uwuguha Internet
+- **Ama cookies y'uwundi muntu**: amadosiye mato mato ashizweho n'imbuga zo hanze kugira ngo agukurikirane kuva ku rubuga rumwe uja ku rundi
+- **Igishushanyo c'intoke**: gikorakoranya ibiranga umucukumbuzi wawe n'igikoresho cawe (uburebure bw'ibarabara, imyandikire yashizwemwo, ibikoresho, n'ibindi) kugira ngo bikumenye ata cookies
+- **Gukurikirana inyandiko**: amakode ya JavaScript ataboneka asesangura inyifato yawe yo gushakisha (gukanda, guca, umwanya umaze)
+- **Isesengura rya IP Address**: ahantu n'ikimenyetso c'uwuguha Internet
 
 
 
@@ -100,42 +100,42 @@ Mucukumbuzi ya Mullvad yakozwe ifise intumbero imwe nyamukuru mu muzirikanyi: **
 
 
 
-Mullvad Browser irimwo urutonde rw'ibintu vy'umutekano n'ubuzima bwite** vyahumekewe na Tor Browser:
+Mullvad Browser irimwo urutonde rw'ibintu vy'umutekano n'ubuzima bwite **vyahumekewe na Tor Browser:**
 
 
 
 
 
-- Gushakisha mu buryo bwihariye ibihe vyose:** Uburyo bwo gushakisha mu buryo bwihariye burakora ku buryo busanzwe kandi ntibushobora guhagarara. **Nta mateka, amakuru canke ububiko bubikwa kuva ku gihe kimwe gushika ku kindi**. Ukimara gufunga Mullvad Browser, amakuru yose yo gusura arafutwa.
+- Gushakisha mu buryo bwihariye ibihe vyose: **Uburyo bwo gushakisha mu buryo bwihariye burakora ku buryo busanzwe kandi ntibushobora guhagarara. Nta mateka, amakuru canke ububiko bubikwa kuva ku gihe kimwe gushika ku kindi**. Ukimara gufunga Mullvad Browser, amakuru yose yo gusura arafutwa.
 
 
 
 
 
-- Uburinzi bwongerewe ku bimenyetso vy'intoke:** Mucukumbuzi akoresha amasetingi akomeye kugira ngo abuze ibimenyetso vy'intoke vy'ubuhinga bwa none. Ivyo birimwo:
-- Ukoresha umukozi** n'umucukumbuzi verisiyo guhuza
+- **Uburinzi bwongerewe ku bimenyetso vy'intoke:** Mucukumbuzi akoresha amasetingi akomeye kugira ngo abuze ibimenyetso vy'intoke vy'ubuhinga bwa none. Ivyo birimwo:
+- Ukoresha umukozi **n'umucukumbuzi** verisiyo guhuza
 - Isaha yashizweho kuri **UTC** ku bakoresha bose
-- Letterboxing**: ubuhinga bwongera ubwabwo amabara y'umweru ku mpande z'urubuga kugira ngo ugereranije ubunini bw'ikigaragaza no kubuza kumenyana n'ingero z'igicapo cawe
-- APIs zo guhagarika urutoke**: Ubuhinga bwa Canvas (igishushanyo ca 2D), WebGL (ibishushanyo vya 3D) na AudioContext (ugutunganya amajwi) burazimye kubera ko bushobora guhishura amakuru yihariye yerekeye ibikoresho vyawe
+- **Letterboxing**: ubuhinga bwongera ubwabwo amabara y'umweru ku mpande z'urubuga kugira ngo ugereranije ubunini bw'ikigaragaza no kubuza kumenyana n'ingero z'igicapo cawe
+- **APIs zo guhagarika urutoke**: Ubuhinga bwa Canvas (igishushanyo ca 2D), WebGL (ibishushanyo vya 3D) na AudioContext (ugutunganya amajwi) burazimye kubera ko bushobora guhishura amakuru yihariye yerekeye ibikoresho vyawe
 - Imyandikire ya sisitemu igezweho kugira ngo ntiyimenyekane n'imyandikire yashizweho
 
 
 
 
 
-- Guhagarika abakurikirana n’amatangazo:** Mullvad Browser ikoresha mu buryo bw’imvukira **uBlock Origin** extension (yashizweho mbere) n’urutonde rw’uburinzi rw’inyongera kugira ngo ibuze **abakurikirana n’abandi, inyandiko z’amatangazo n’ibindi bintu bibi**. Ubwo burinzi bujana n'**First-Party Isolation**: ubuhinga bubika amakuru mu "bibindi" bitandukanye ku rubuga rumwe rumwe, bikabuza urubuga rumwe gusoma amakuru yashizweho n'urundi.
+- Guhagarika abakurikirana n'amatangazo: Mullvad Browser ikoresha mu buryo bw'imvukira **uBlock Origin** extension (yashizweho mbere) n'urutonde rw'uburinzi rw'inyongera kugira ngo ibuze **abakurikirana n'abandi, inyandiko z'amatangazo n'ibindi bintu bibi**. Ubwo burinzi bujana n'**First-Party Isolation**: ubuhinga bubika amakuru mu "bibindi" bitandukanye ku rubuga rumwe rumwe, bikabuza urubuga rumwe gusoma amakuru yashizweho n'urundi.
 
 
 
 
 
-- Buto yo gusubiramwo igihe:** Nka buto ya Tor Browser "New Identity", Mullvad Browser itanga ubuto bwo **gusubiramwo vuba umucukumbuzi n'igihe gishasha, ataco kirimwo**.
+- **Buto yo gusubiramwo igihe:** Nka buto ya Tor Browser "New Identity", Mullvad Browser itanga ubuto bwo **gusubiramwo vuba umucukumbuzi n'igihe gishasha, ataco kirimwo**.
 
 
 
 
 
-- Ingero z'umutekano zishobora guhindurwa:** Ushobora guhindura ingero z'umutekano (*Isanzwe*, *Itekanye*, *Itekanye*) mu mitunganyirize, nk'uko biri muri Tor Browser.
+- **Ingero z'umutekano zishobora guhindurwa:** Ushobora guhindura ingero z'umutekano (*Isanzwe*, *Itekanye*, *Itekanye*) mu mitunganyirize, nk'uko biri muri Tor Browser.
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser irimwo **ibindi bitatu vyashizweho imbere** bigize umushinge w�
 ### **UBlock Inkomoko**
 
 
-Iyi kwamamaza n'ugukurikirana ububisha kwagutse biza mbere vyatunganijwe n'urutonde rw'iyunguruzo ryiza** kugira ngo ububike:
+Iyi kwamamaza n'ugukurikirana ububisha kwagutse biza mbere vyatunganijwe n'urutonde rw'iyunguruzo ryiza kugira ngo ububike:
 
 
 
@@ -193,9 +193,9 @@ Iyi nzira yihariye ya Mullvad itanga ibikorwa bitandukanye bivanye n’uko uri u
 
 
 
-- Igenzura ry'ihuriro ry'ishimikiro**: yerekana IP yawe ya bose n'amakuru y'ihuriro
-- Impanuro z'ubuzima bwite**: impanuro zo kunoza imiterere y'umutekano wawe (DNS, HTTPS-gusa, moteri y'ubushakashatsi)
-- WebRTC** ubugenzuzi: gushoboza/guhagarika gukingira IP Address gusohoka
+- **Igenzura ry'ihuriro ry'ishimikiro**: yerekana IP yawe ya bose n'amakuru y'ihuriro
+- **Impanuro z'ubuzima bwite**: impanuro zo kunoza imiterere y'umutekano wawe (DNS, HTTPS-gusa, moteri y'ubushakashatsi)
+- **WebRTC ubugenzuzi**: gushoboza/guhagarika gukingira IP Address gusohoka
 - Ishobora gukurwaho ata **ingaruka** ku birenge vyawe vy'ubuhinga bwa none iyo udakoresheje Mullvad VPN
 
 
@@ -209,16 +209,16 @@ Ukwaguka kwerekana ubushobozi bwayo bwose n'ibintu biteye imbere:
 
 
 
-- Igikoresho ca SOCKS5 gishizwemwo**: gukanda rimwe guhuzwa n'igikoresho ca Mullvad VPN
-- IP idahinduka Address**: bitandukanye na VPN, ishobora guhindura IP yayo Address, proxy yama yizeza igisohoka kimwe Address.
-- Ihinduka ry'ukwica **: iyo VPN ivuye, uruja n'uruza rw'umucukumbuzi ruca ruhagarara
-- IPv6 support**: Uguhuza IPv6 naho ubuhuza bwawe bwa VPN butagira
+- **Igikoresho ca SOCKS5 gishizwemwo**: gukanda rimwe guhuzwa n'igikoresho ca Mullvad VPN
+- **IP Address**: bitandukanye na VPN, ishobora guhindura IP yayo Address, proxy yama yizeza igisohoka kimwe Address.
+- **Ihinduka ry'ukwica**: iyo VPN ivuye, uruja n'uruza rw'umucukumbuzi ruca ruhagarara
+- **IPv6 support**: Uguhuza IPv6 naho ubuhuza bwawe bwa VPN butagira
 
 
 
 
 
-- Multihop (VPN ibiri)**: ubushobozi bwo guhindura ahantu proxy iri kugira ngo ureme umugende uri mu mugende
+- **Multihop (VPN ibiri)**: ubushobozi bwo guhindura ahantu proxy iri kugira ngo ureme umugende uri mu mugende
  - Ivy'urugendo rwawe bibanza guca kuri server yawe ya VPN, hanyuma "bikasimbuka" ku yindi server ya Mullvad .
  - Koresha uburyo butandukanye bwo gukoresha mu mucukumbuzi gusa
 
@@ -226,13 +226,13 @@ Ukwaguka kwerekana ubushobozi bwayo bwose n'ibintu biteye imbere:
 
 
 
-- Gukurikirana ubuhuza buteye imbere**: gukurikirana igihe nyaco c'imiterere ya VPN yawe, server ihuye, n'ugutahura ukuvuza kwa DNS
+- **Gukurikirana ubuhuza buteye imbere**: gukurikirana igihe nyaco c'imiterere ya VPN yawe, server ihuye, n'ugutahura ukuvuza kwa DNS
 
 
 
 
 
-- Ushobora gushika kuri Mullvad Leta**: ubushakashatsi bwigenga bugenewe abayikoresha (naho butasabwa na Mullvad kubera imvo zifitaniye isano na konti yawe)
+- Ushobora gushika kuri **Mullvad Leta**: ubushakashatsi bwigenga bugenewe abayikoresha (naho butasabwa na Mullvad kubera imvo zifitaniye isano na konti yawe)
 
 
 
@@ -250,25 +250,25 @@ Ivyo bice bitatu bikorana kugira ngo bibeho uburyo bwo kwikingira, aho umukoresh
 
 
 
-- Uburinzi bwiza cane bw’ubuzima bwite ku buryo busanzwe:** Mullvad Browser ikoresha amategeko akomeye cane y’ubuzima bwite kuva mu ntango, ata nkenerwa yo guhindura ibintu n’amaboko.
+- **Uburinzi bwiza cane bw'ubuzima bwite ku buryo busanzwe:** Mullvad Browser ikoresha amategeko akomeye cane y'ubuzima bwite kuva mu ntango, ata nkenerwa yo guhindura ibintu n'amaboko.
 
 
 
 
 
-- Ibikorwa vyiza kurusha Tor Browser:** Iyo ata nzira y'igitunguru iriho, Mullvad Browser **iranyaruka cane kandi irasubiza neza** kurusha Tor Browser ku rubuga rwa kera.
+- **Ibikorwa vyiza kurusha Tor Browser:** Iyo ata nzira y'igitunguru iriho, Mullvad Browser **iranyaruka cane kandi irasubiza neza** kurusha Tor Browser ku rubuga rwa kera.
 
 
 
 
 
-- Ubworohe bwa Interface bumenyerewe:** Mucukumbuzi ya Mullvad ishingiye kuri Interface ya Firefox. Niba waramenyereye Firefox canke mbere Tor Browser, ntuzokwiyumva ko utari mu kibanza cawe.
+- **Ubworohe bwa Interface bumenyerewe:** Mucukumbuzi ya Mullvad ishingiye kuri Interface ya Firefox. Niba waramenyereye Firefox canke mbere Tor Browser, ntuzokwiyumva ko utari mu kibanza cawe.
 
 
 
 
 
-- Ugukorana kwizigirwa n’itegeko ry’igenzura:** Mullvad Browser ivyungukira ku buhinga bw’umugambi wa Tor, kandi kode yose y’inkomoko iraboneka kugira ngo igenzurwe hanze.
+- **Ugukorana kwizigirwa n'itegeko ry'igenzura:** Mullvad Browser ivyungukira ku buhinga bw'umugambi wa Tor, kandi kode yose y'inkomoko iraboneka kugira ngo igenzurwe hanze.
 
 
 
@@ -284,19 +284,19 @@ Ivyo bice bitatu bikorana kugira ngo bibeho uburyo bwo kwikingira, aho umukoresh
 
 
 
-- Nta verisiyo yo kuri telefone ngendanwa:** Gushika ubu, Mullvad Browser iboneka kuri PC gusa (Windows, Mac, Linux).
+- **Nta verisiyo yo kuri telefone ngendanwa:** Gushika ubu, Mullvad Browser iboneka kuri PC gusa (Windows, Mac, Linux).
 
 
 
 
 
-- Ntibihuye n'ingeso zimwe zimwe:** **Uburyo bwihariye buhoraho** bisigura ko udashobora kuguma ukoresha igice kuva ku gukoresha kumwe gushika ku kundi. Ntibishoboka ko uguma uhuye na konti y’urubuga kuva ku kiganiro kimwe gushika ku kindi.
+- **Ntibihuye n'ingeso zimwe zimwe:** **Uburyo bwihariye buhoraho** bisigura ko udashobora kuguma ukoresha igice kuva ku gukoresha kumwe gushika ku kundi. Ntibishoboka ko uguma uhuye na konti y'urubuga kuva ku kiganiro kimwe gushika ku kindi.
 
 
 
 
 
-- Ibirango bibujijwe:** Kugira ngo urutoke rube rumwe, Mullvad Browser **yazimye ibirango vyinshi** biri muri Firefox kandi ntibigenewe guhindura.
+- **Ibirango bibujijwe:** Kugira ngo urutoke rube rumwe, Mullvad Browser **yazimye ibirango vyinshi** biri muri Firefox kandi ntibigenewe guhindura.
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser itanga ivyicaro bitatu vy'umutekano:
 
 
 
-- Bisanzwe** (ubu urugero mburabuzi): Ibikorwa vyose vy'umucukumbuzi n'urubuga vyashobojwe
+- **Bisanzwe** (ubu urugero mburabuzi): Ibikorwa vyose vy'umucukumbuzi n'urubuga vyashobojwe
 
 
 
 
 
-- Safer**: Ihagarika kenshi ibikorwa vy'urubuga biteye akaga, bishobora gutuma urubuga rumwe rudakora neza:
+- **Safer**: Ihagarika kenshi ibikorwa vy'urubuga biteye akaga, bishobora gutuma urubuga rumwe rudakora neza:
  - JavaScript irabujijwe ku mbuga zitari HTTPS
  - Imyandikire imwe imwe n'ibimenyetso vy'imibare birazimye
  - Ijwi n'amasanamu (HTML5 media) hamwe na WebGL ni "kanda kugira ngo ukinire".
@@ -414,7 +414,7 @@ Mullvad Browser itanga ivyicaro bitatu vy'umutekano:
 
 
 
-- Igitekanye**: Kwemerera gusa ibikorwa vy'urubuga bisabwa ku mbuga zidahinduka n'ibikorwa vy'ishimikiro:
+- **Igitekanye**: Kwemerera gusa ibikorwa vy'urubuga bisabwa ku mbuga zidahinduka n'ibikorwa vy'ishimikiro:
  - JavaScript irazimye ku mbuga zose
  - Imyandikire imwe imwe, ibishushanyo, amashusho n'ibimenyetso vy'imibare birazimye
  - Ijwi n'amasanamu (HTML5 media) hamwe na WebGL ni "kanda kugira ngo ukinire".
@@ -494,9 +494,9 @@ Niwahitamwo gushiramwo extensions uko biri kwose, menya neza ko uriko urema ikim
 
 
 
-- Ivyasanzwe (vyiza)**: Ku bijanye no gusura buri musi. Amaze gutanga uburinzi bwiza cane mu gihe iguma ikora imbuga. Iyi ni yo nzira nziza cane ku 95% vy’abakoresha.
-- Safer**: Niba uriko urasura imbuga zitazwi canke zishobora gutera akaga, canke kugira ngo ukingirwe cane ku nzira za Wi-Fi za bose. Hari imbuga zishobora gukora nabi.
-- Itekanye cane**: Igenewe ibintu bishobora gutera ingorane nyinshi (itangazamakuru ry’itohoza, ivy’itumanaho bifise akamaro, ibidukikije vy’urwanko). Imbuga nyinshi zo muri iki gihe zizomeneka, ariko ico ni co gici- ro c’umutekano mwinshi.
+- **Ivyasanzwe (vyiza)**: Ku bijanye no gusura buri musi. Amaze gutanga uburinzi bwiza cane mu gihe iguma ikora imbuga. Iyi ni yo nzira nziza cane ku 95% vy'abakoresha.
+- **Safer**: Niba uriko urasura imbuga zitazwi canke zishobora gutera akaga, canke kugira ngo ukingirwe cane ku nzira za Wi-Fi za bose. Hari imbuga zishobora gukora nabi.
+- **Itekanye cane**: Igenewe ibintu bishobora gutera ingorane nyinshi (itangazamakuru ry'itohoza, ivy'itumanaho bifise akamaro, ibidukikije vy'urwanko). Imbuga nyinshi zo muri iki gihe zizomeneka, ariko ico ni co gici- ro c'umutekano mwinshi.
 
 
 

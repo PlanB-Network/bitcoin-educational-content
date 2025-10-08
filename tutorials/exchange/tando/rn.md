@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Scan kugira wishyure**:
+- Scan kugira wishyure:
 
 
 
@@ -95,7 +95,7 @@ Scan to pay ni imwe mu nzira zo kwishura zihita zikoreshwa muri iyo porogarama. 
 
 
 
-- Kwohereza amafranga muri Kenya**:
+- **Kwohereza amafranga muri Kenya**:
 
 
 
@@ -121,7 +121,7 @@ Ishura fagitire ukoresheje Lightning Wallet yawe maze Tando izoyihindura mu mash
 
 
 
-- Ishura amafaranga yawe**:
+- **Ishura amafaranga yawe**:
 
 
 
@@ -135,7 +135,7 @@ Injira umubare wa Invoice wipfuza kwishura, hanyuma ubandanye kwishura Lightning
 
 
 
-- Gugura ibicuruzwa**:
+- **Gugura ibicuruzwa**:
 
 
 

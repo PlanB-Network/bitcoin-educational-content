@@ -15,7 +15,7 @@ description: Tutustu rinnakkaisallekirjoitusominaisuuteen ja käytä sitä COLDC
 
 
 
-**Miksi ColdCard Co-Sign?
+**Miksi ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Kulutusehtoja voivat olla esimerkiksi:
 
 
 
-- Suuruusrajat**: rajoittaa bitcoinien määrän, jonka voit käyttää yhdessä transaktiossa.
-- Nopeusrajoitukset:** Määritä, kuinka monta transaktiota voit suorittaa aikayksikössä (tunnissa, päivässä, viikossa jne.) ja kuinka monta lohkoa niiden välillä on oltava vähintään.
-- Ennalta hyväksytyt osoitteet:** Salli bitcoinien lähettäminen vain ennalta hyväksyttyihin osoitteisiin.
-- Kaksitekijätodennus:** Vaatii vahvistuksen kolmannen osapuolen 2FA-mobiilisovelluksesta (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) NFC-yhteydellä varustetulla älypuhelimella/tabletilla, jossa on internetyhteys.
+- **Suuruusrajat**: rajoittaa bitcoinien määrän, jonka voit käyttää yhdessä transaktiossa.
+- **Nopeusrajoitukset:** Määritä, kuinka monta transaktiota voit suorittaa aikayksikössä (tunnissa, päivässä, viikossa jne.) ja kuinka monta lohkoa niiden välillä on oltava vähintään.
+- **Ennalta hyväksytyt osoitteet:** Salli bitcoinien lähettäminen vain ennalta hyväksyttyihin osoitteisiin.
+- **Kaksitekijätodennus:** Vaatii vahvistuksen kolmannen osapuolen 2FA-mobiilisovelluksesta (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) NFC-yhteydellä varustetulla älypuhelimella/tabletilla, jossa on internetyhteys.
 
 
 
-**Miten se toimii
+**Miten se toimii**
 
 
 
@@ -647,7 +647,7 @@ ColdcardQ näyttää tämän jälkeen varoituksen, jossa näytön alareunaan vie
 
 
 
-**Huomaa, että laite ei kerro meille, mitä menoehtoja siihen liittyy, jotta mahdollinen hyökkääjä ei yrittäisi kiertää rajoituksia.** **Huomaa, että laite ei kerro meille, mitä menoehtoja siihen liittyy, jotta mahdollinen hyökkääjä ei yrittäisi kiertää rajoituksia
+**Huomaa, että laite ei kerro meille, mitä menoehtoja siihen liittyy, jotta mahdollinen hyökkääjä ei yrittäisi kiertää rajoituksia.** **Huomaa, että laite ei kerro meille, mitä menoehtoja siihen liittyy, jotta mahdollinen hyökkääjä ei yrittäisi kiertää rajoituksia.**
 
 
 

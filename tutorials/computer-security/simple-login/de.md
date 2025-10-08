@@ -205,7 +205,7 @@ Was die einfache Anmeldung betrifft, so verfügt dieses Tool über die folgenden
 
 - mobile App (auch von F-Droid) und Browsererweiterung, um Aliase in jeder Situation zu verwalten;
 - zwei-Faktor-Authentifizierung für jedes neue Pseudonym, was den Grad der Unabhängigkeit vom Dienst selbst erhöht;
-- PGP-Unterstützung (für _Premium-Benutzer);
+- PGP-Unterstützung (für _Premium-Benutzer_);
 - einfache Erstellung aller Arten von Aliasen (benutzerdefiniert, zufällig und UUID);
 - unter den kostenlosen Angeboten des Sektors die Möglichkeit, Aliase mit mehreren "offiziellen" E-Mail-Postfächern zu verwenden. Andere Konkurrenten beschränken sich auf nur einen.
 

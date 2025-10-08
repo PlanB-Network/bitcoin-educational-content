@@ -4,7 +4,7 @@ description: Oma RoninDojo v2 Bitcoin node'i paigaldamine Raspberry Pi'le
 ---
 ![kaanepilt RoninDojo v2](assets/cover.webp)
 
-**HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil on mõned RoninDojo funktsioonid, nagu Whirlpool, enam mitte töökorras. Siiski on võimalik, et need tööriistad võidakse järgnevatel nädalatel taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise nimel.*
+**HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil on mõned RoninDojo funktsioonid, nagu Whirlpool, enam mitte töökorras. Siiski on võimalik, et need tööriistad võidakse järgnevatel nädalatel taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise nimel.
 
 _Jälgime selle juhtumi arenguid ning seotud tööriistade arenguid tähelepanelikult. Võite olla kindlad, et uuendame seda õpetust, kui uut teavet saadaval on._
 
@@ -240,7 +240,7 @@ Palju õnne! Teie RoninDojo v2 sõlm on nüüd seadistatud ja kasutusvalmis. See
 
 **Kui te migreerite vanast RoninDojo v1 sõlmest** uude versiooni selle õpetuse abil, säilitades sama SSD, peaks teie sõlm automaatselt tuvastama ja taaskasutama kettal olemasolevaid andmeid, säästes teid IBD uuesti tegemise vajadusest. Sel juhul peate lihtsalt ootama, kuni teie sõlm sünkroniseerub viimaste plokkidega.
 
-### 8. samm: "veth* parandus"
+### 8. samm: "**veth parandus**"
 Kui kohtate oma RoninDojo v2 sõlmega Raspberry Pi peal viga, kus pärast probleemideta paigaldust muutub teie sõlm äkki SSH kaudu kättesaamatuks, kuid taastub pärast lihtsat taaskäivitust, siis peate järgima seda 8. sammu. See levinud viga saab kergesti lahendatud kogukonna välja töötatud lahendusega: "_veth parandus_". See väike parandus kõrvaldab järsud katkestused püsivalt. Siin on, kuidas seda rakendada.
 
 Avage oma isiklikul arvutil uus terminal ja looge oma sõlmega SSH-ühendus järgmise käsu abil:
@@ -497,4 +497,3 @@ Siin see on! Täname, et järgisite seda õpetust lõpuni. Kui see meeldis, julg
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/boltzmanni-tutvustus-85930984a159](https://medium.com/@laurentmt/boltzmanni-tutvustus-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
-

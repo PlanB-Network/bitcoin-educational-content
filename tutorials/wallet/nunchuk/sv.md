@@ -324,7 +324,7 @@ Nunchuk visar dig ett antal möjligheter som till största delen har att göra m
 
 
 
-I den här guiden kommer vi att skapa en _Hot Wallet och en _Custom wallet_ genom att beskriva detaljerna.
+I den här guiden kommer vi att skapa en _Hot Wallet_ och en _Custom wallet_ genom att beskriva detaljerna.
 
 
 Låt oss börja med _Custom wallet_.
@@ -402,7 +402,7 @@ Du befinner dig i _Home_, där du ser den nyskapade Wallet som rapporterar saldo
 
 
 
-Utmärkelser _Mottagare
+**Utmärkelser** Mottagare
 
 
 

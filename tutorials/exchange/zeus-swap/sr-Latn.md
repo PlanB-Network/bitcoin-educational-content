@@ -277,10 +277,10 @@ Svaka zamena ima jedinstveni identifikator sa praćenjem u realnom vremenu. Prik
 
 
 
-- Jednostavnost**: Zamena u nekoliko klikova naspram ručnog manipulisanja kanalima
-- Bez staratelja**: nema KYC, nema naloga, sredstva nikada nisu poverena trećoj strani
-- Transparentnost**: naknade su eksplicitno prikazane pre validacije (0,1% do 0,5% + minage u zavisnosti od korisničkih testova - proverite trenutne naknade pri svakoj zameni)
-- Mobilna integracija**: izvorno iskustvo u Zeus Wallet
+- **Jednostavnost**: Zamena u nekoliko klikova naspram ručnog manipulisanja kanalima
+- **Bez staratelja**: nema KYC, nema naloga, sredstva nikada nisu poverena trećoj strani
+- **Transparentnost**: naknade su eksplicitno prikazane pre validacije (0,1% do 0,5% + minage u zavisnosti od korisničkih testova - proverite trenutne naknade pri svakoj zameni)
+- **Mobilna integracija**: izvorno iskustvo u Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Svaka zamena ima jedinstveni identifikator sa praćenjem u realnom vremenu. Prik
 
 
 
-- Vremena isteka**: maksimalno 24-48h, neuspeh ako Bitcoin nije potvrđen na vreme
-- Ograničenja iznosa**: minimum 25,000 Sats, Zeus LSP likvidnost varijabilna prema uslovima
-- Tragovi On-Chain**: HTLC skripte potencijalno prepoznatljive analizom Blockchain
-- Potvrda potrebna**: minimum 10 minuta za validaciju Bitcoin
+- **Vremena isteka**: maksimalno 24-48h, neuspeh ako Bitcoin nije potvrđen na vreme
+- **Ograničenja iznosa**: minimum 25,000 Sats, Zeus LSP likvidnost varijabilna prema uslovima
+- **Tragovi On-Chain**: HTLC skripte potencijalno prepoznatljive analizom Blockchain
+- **Potvrda potrebna**: minimum 10 minuta za validaciju Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Svaka zamena ima jedinstveni identifikator sa praćenjem u realnom vremenu. Prik
 
 
 - Proverite adrese Bitcoin pažljivo (preporučuje se kopiranje-lepljenje)
-- Napravite rezervnu kopiju Zeus Swaps ključa za spasavanje**: preuzmite i sačuvajte ključ za oporavak na sigurnom mestu
+- Napravite rezervnu kopiju Zeus Swaps ključa za spasavanje: preuzmite i sačuvajte ključ za oporavak na sigurnom mestu
 - Dokument: Contract ID, povraćaj Address, datum isteka
 - Koristite odgovarajuće Mining naknade za pravovremenu potvrdu.
 
@@ -354,11 +354,11 @@ Zeus Swap koristi Boltzovu pozadinsku tehnologiju, ali uvodi neka ključna pobol
 
 
 
-- Interface unified**: native integration in Zeus Wallet vs Interface web technique Boltz
-- WebSocket API**: ažuriranja u realnom vremenu vs. ručno anketiranje
-- Automatizovano upravljanje**: automatsko fakturisanje i upravljanje Address
-- Podrška za mobilne uređaje**: optimizacija za pametne telefone vs. samo za desktop računare
-- Swagger dokumentacija**: kompletan REST API za programere
+- **Interface unified**: native integration in Zeus Wallet vs Interface web technique Boltz
+- **WebSocket API**: ažuriranja u realnom vremenu vs. ručno anketiranje
+- **Automatizovano upravljanje**: automatsko fakturisanje i upravljanje Address
+- **Podrška za mobilne uređaje**: optimizacija za pametne telefone vs. samo za desktop računare
+- **Swagger dokumentacija**: kompletan REST API za programere
 
 
 

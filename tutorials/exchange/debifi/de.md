@@ -64,25 +64,25 @@ Bevor ich Ihnen Schritt für Schritt zeige, wie Sie bei Debifi einen Kredit aufn
 
 
 
-- Bearbeitungsgebühren** sind einmalige Gebühren, die zum Zeitpunkt der Kreditvergabe erhoben und als Prozentsatz des geliehenen Betrags berechnet werden. Diese Gebühren decken die Verwaltungs-, Betriebs- und Managementkosten.
+- **Bearbeitungsgebühren** sind einmalige Gebühren, die zum Zeitpunkt der Kreditvergabe erhoben und als Prozentsatz des geliehenen Betrags berechnet werden. Diese Gebühren decken die Verwaltungs-, Betriebs- und Managementkosten.
 
 
 
 
 
-- Eine Sicherheit** ist ein Vermögenswert, den Sie zur Sicherung eines Kredits hinterlegen. Im Fall von Debifi ist die Sicherheit Bitcoin (BTC), die der Kreditnehmer auf dem Multisig 3/4-Treuhandkonto hinterlegt.
+- Eine **Sicherheit** ist ein Vermögenswert, den Sie zur Sicherung eines Kredits hinterlegen. Im Fall von Debifi ist die Sicherheit Bitcoin (BTC), die der Kreditnehmer auf dem Multisig 3/4-Treuhandkonto hinterlegt.
 
 
 
 
 
-- Das Multisig-Treuhandsystem (3/4)** ist ein sicherer Hinterlegungsmechanismus, bei dem die Bitcoins eines Kreditnehmers in einem Address mit mehreren Signaturen hinterlegt werden. Konkret halten vier (4) Parteien jeweils einen Schlüssel (Kreditnehmer, Kreditgeber, Debifi, unabhängige dritte Partei). Um Geldmittel zu bewegen, sind mindestens 3 von 4 Unterschriften erforderlich.
+- Das **Multisig-Treuhandsystem (3/4)** ist ein sicherer Hinterlegungsmechanismus, bei dem die Bitcoins eines Kreditnehmers in einem Address mit mehreren Signaturen hinterlegt werden. Konkret halten vier (4) Parteien jeweils einen Schlüssel (Kreditnehmer, Kreditgeber, Debifi, unabhängige dritte Partei). Um Geldmittel zu bewegen, sind mindestens 3 von 4 Unterschriften erforderlich.
 
 
 
 
 
-- Ein Stablecoin** ist eine Kryptowährung, deren Wert an einen stabilen Vermögenswert (z. B. den US-Dollar) gekoppelt ist, wodurch die Volatilität von Bitcoin vermieden wird. Zum Beispiel ist 1 USDC immer ~$1 wert, da er durch Fiat-Reserven gedeckt ist.
+- Ein **Stablecoin** ist eine Kryptowährung, deren Wert an einen stabilen Vermögenswert (z. B. den US-Dollar) gekoppelt ist, wodurch die Volatilität von Bitcoin vermieden wird. Zum Beispiel ist 1 USDC immer ~$1 wert, da er durch Fiat-Reserven gedeckt ist.
 
 
 

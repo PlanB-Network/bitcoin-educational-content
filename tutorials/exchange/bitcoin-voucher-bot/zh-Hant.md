@@ -5,7 +5,7 @@ description: 用 Telegram 機器人購買保密的 Bitcoin
 ![image](assets/cover.webp)
 
 
-_本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 撰寫
+_本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus) _撰寫_
 
 
 ## 介紹
@@ -81,7 +81,7 @@ BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot) 服務來了，這是一個 
 ### 訂單準備
 
 
-按一下指令功能表中的 _/購買
+按一下指令功能表中的 **/購買**
 
 
 ![image](assets/it/03.webp)
@@ -135,7 +135,7 @@ IBAN 必須寫在訊息列中、檢查並傳送給機器人。
 現在與 VoucherBot 聊天時會出現控制訊息。
 
 
-如果一切正確，請按一下 _Proceed（繼續）繼續。
+如果一切正確，請按一下 _Proceed（繼續）_ 繼續。
 
 
 ![image](assets/it/10.webp)

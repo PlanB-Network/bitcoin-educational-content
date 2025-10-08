@@ -257,7 +257,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-Settings(設定)>Point-of-sale(販売時点情報)**メニューでは、店舗に関連する一意の識別子と、支払いを受け取るための現地通貨を設定することができます。
+Settings(設定)>Point-of-sale(販売時点情報)**メニューでは、店舗に関連する一意の識別子と、支払いを受け取るための現地通貨を設定することができます。**
 
 
 

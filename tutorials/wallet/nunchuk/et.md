@@ -324,7 +324,7 @@ Nunchuk näitab teile mitmeid võimalusi, mis on enamasti seotud ettevõtte paku
 
 
 
-Selles juhendis loome _Hot Wallet ja _Custom wallet_, kirjeldades üksikasju.
+Selles juhendis loome _Hot Wallet_ ja _Custom wallet_, kirjeldades üksikasju.
 
 
 Alustame _Custom wallet_.

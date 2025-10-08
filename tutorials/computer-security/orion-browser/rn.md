@@ -50,7 +50,7 @@ Ikintu kidasanzwe kiyiranga? Orion ni **WebKit** yonyene ishobora gushiramwo Chr
 
 
 
-**Ishigikiro ry'ivyagutse kw'isi yose**: Igikorwa gishasha, Orion ishobora kugufasha gushiramwo ivyagutse biva ku rubuga rwa Chrome **n'ivyongeweko vya Mozilla. Ubufasha bwa WebExtensions buriko burageragezwa, n'intumbero yo guhuza 100% ku gusohoka kwa beta. Ushobora gukoresha ivyungura vyinshi bikundwa nka uBlock Origin, Bitwarden, mbere no kuri iPhone - isi ya mbere kuri iOS, naho bimwe bimwe bishobora kutakora neza.
+**Ishigikiro ry'ivyagutse kw'isi yose**: Igikorwa gishasha, Orion ishobora kugufasha gushiramwo ivyagutse biva ku rubuga rwa Chrome **n'ivyongeweko vya Mozilla**. Ubufasha bwa WebExtensions buriko burageragezwa, n'intumbero yo guhuza 100% ku gusohoka kwa beta. Ushobora gukoresha ivyungura vyinshi bikundwa nka uBlock Origin, Bitwarden, mbere no kuri iPhone - isi ya mbere kuri iOS, naho bimwe bimwe bishobora kutakora neza.
 
 
 
@@ -60,11 +60,11 @@ Ikintu kidasanzwe kiyiranga? Orion ni **WebKit** yonyene ishobora gushiramwo Chr
 
 
 
-- Ivyo bishobora gukoreshwa bike**: Ubu bigenewe macOS na iOS/iPadOS. Verisiyo ya Linux iriko irashika ku ntambwe z’iterambere (Intambwe ya 2 muri 2025), ariko nta nyubakwa ya bose iriho. Windows na Android ntibiri mu gutegurwa kubera ubukene bw’ibikoresho.
-- Closed source code**: Naho ibice bimwe bimwe ari ivy’inkomoko yuguruye, Orion iguma ari iya nyen’umuntu, ikintu gitera impaka mu muryango w’ubuzima bwite.
-- Ivyagutse vy'igerageza**: Infashanyo y'ivyagutse iguma muri beta, n'ukudahuza kenshi. Ivyo kwagura birashobora kugira ico bikoze ku mikorere, kandi bimwe ntibikora na gato.
-- Umutekano wa WebKit**: Bitandukanye na Chromium, WebKit ntitanga mwene ukwo kwitandukanya kw’imigenderanire y’urubuga, bishobora gutera ingorane z’umutekano mu bihe bimwebimwe.
-- Ivyagezwe vyo guhagarika**: Orion ikora nabi n'ibigirankana mu bigeragezo vyo kwamamaza kuri internet (26-35%), kuko Kagi abona ko ivyo bigeragezo "bifise amakosa y'ishimikiro". Ubushobozi nyakuri bwo gukoresha buri musi buraruta kure n’iyo.
+- **Ivyo bishobora gukoreshwa bike**: Ubu bigenewe macOS na iOS/iPadOS. Verisiyo ya Linux iriko irashika ku ntambwe z'iterambere (Intambwe ya 2 muri 2025), ariko nta nyubakwa ya bose iriho. Windows na Android ntibiri mu gutegurwa kubera ubukene bw'ibikoresho.
+- **Closed source code**: Naho ibice bimwe bimwe ari ivy'inkomoko yuguruye, Orion iguma ari iya nyen'umuntu, ikintu gitera impaka mu muryango w'ubuzima bwite.
+- **Ivyagutse vy'igerageza**: Infashanyo y'ivyagutse iguma muri beta, n'ukudahuza kenshi. Ivyo kwagura birashobora kugira ico bikoze ku mikorere, kandi bimwe ntibikora na gato.
+- **Umutekano wa WebKit**: Bitandukanye na Chromium, WebKit ntitanga mwene ukwo kwitandukanya kw'imigenderanire y'urubuga, bishobora gutera ingorane z'umutekano mu bihe bimwebimwe.
+- **Ivyagezwe vyo guhagarika**: Orion ikora nabi n'ibigirankana mu bigeragezo vyo kwamamaza kuri internet (26-35%), kuko Kagi abona ko ivyo bigeragezo "bifise amakosa y'ishimikiro". Ubushobozi nyakuri bwo gukoresha buri musi buraruta kure n'iyo.
 
 
 
@@ -156,8 +156,8 @@ Ku gutangura kwa mbere, Orion irakuyobora mu ntambwe nyinshi:
 
 
 
-- Kwinjiza amakuru**: Kwimurira mu buryo bworoshe ivyo ukunda n'amajambobanga bivuye kuri Safari, Chrome canke Firefox
-- iCloud sync**: Gukoresha kugira uronke ivyo ukunda n'ibice ku bikoresho vyawe vyose vya Apple
+- **Kwinjiza amakuru**: Kwimurira mu buryo bworoshe ivyo ukunda n'amajambobanga bivuye kuri Safari, Chrome canke Firefox
+- **iCloud sync**: Gukoresha kugira uronke ivyo ukunda n'ibice ku bikoresho vyawe vyose vya Apple
 
 
 
@@ -188,9 +188,9 @@ Igihe configuration izoba yarangiye, uzobona Interface ya Orion itunganye neza n
 
 
 
-- Inkinzo 🛡️**: Igaragaza raporo y'ubuzima bwite n'umubare w'ibintu vyabujijwe kuri paji iriho ubu
-- Uburoso 🖌️**: Guhindura ukugaragara kwa paji (insanganyamatsiko, imyandikire, gukuraho ibisamaza Elements)
-- Gear ⚙️**: Gutunganya urubuga-rwihariye amaparametere (uruhusha, kubuza, n'ibindi)
+- **Inkinzo 🛡️**: Igaragaza raporo y'ubuzima bwite n'umubare w'ibintu vyabujijwe kuri paji iriho ubu
+- **Uburoso 🖌️**: Guhindura ukugaragara kwa paji (insanganyamatsiko, imyandikire, gukuraho ibisamaza Elements)
+- **Gear ⚙️**: Gutunganya urubuga-rwihariye amaparametere (uruhusha, kubuza, n'ibindi)
 
 
 
@@ -251,8 +251,8 @@ Ushobora gushika ku vyo ukunda biciye ku **Orion → Ivyo ukunda** (canke ⌘,):
 
 
 
-- Moteri mburabuzi**: Hitamwo **DuckDuckGo**, **Urupapuro rw'intango** canke **Kagi** kugira ngo ubone ubuzima bwite bwiza (wirinde Google/Bing)
-- Ivyiyumviro vyo gushakisha**: Bizimye kugira ngo uburinde gukanda amafunguro ngo ntibishike ku maserukira ya moteri y'ugushakisha
+- **Moteri mburabuzi**: Hitamwo **DuckDuckGo**, **Urupapuro rw'intango** canke **Kagi** kugira ngo ubone ubuzima bwite bwiza (wirinde Google/Bing)
+- **Ivyiyumviro vyo gushakisha**: Bizimye kugira ngo uburinde gukanda amafunguro ngo ntibishike ku maserukira ya moteri y'ugushakisha
 
 
 
@@ -272,9 +272,9 @@ Ushobora gushika ku vyo ukunda biciye ku **Orion → Ivyo ukunda** (canke ⌘,):
 
 
 
-- Urutonde rworoshe**: 119k+ amategeko yo kubuza kwamamaza
-- EasyPrivacy**: Uburinzi bwo gukurikirana
-- Gucungera urutonde rw'akayunguruzo**: Wongereko urutonde rw'inyongera (Hagezi arasaba)
+- **Urutonde rworoshe**: 119k+ amategeko yo kubuza kwamamaza
+- **EasyPrivacy**: Uburinzi bwo gukurikirana
+- **Gucungera urutonde rw'akayunguruzo**: Wongereko urutonde rw'inyongera (Hagezi arasaba)
 
 
 
@@ -283,9 +283,9 @@ Ushobora gushika ku vyo ukunda biciye ku **Orion → Ivyo ukunda** (canke ⌘,):
 
 
 
-- Kuraho abakurikirana kuri URLs**: "Ku gushakisha mu buryo bwihariye gusa" bisukura amahuza yakopiwe
-- Sangira raporo z'impanuka**: "Inyuma yo gusaba kwemererwa" yubaha ukwemera kwawe
-- Umukozi w'umukoresha**: Bishobora guhindurwa kugira ngo bice bimwe bimwe bibujijwe
+- Kuraho abakurikirana kuri URLs: "Ku gushakisha mu buryo bwihariye gusa" bisukura amahuza yakopiwe
+- **Sangira raporo z'impanuka**: "Inyuma yo gusaba kwemererwa" yubaha ukwemera kwawe
+- **Umukozi w'umukoresha**: Bishobora guhindurwa kugira ngo bice bimwe bimwe bibujijwe
 
 
 
@@ -312,10 +312,10 @@ Ushobora gushika ku vyo ukunda biciye ku **Orion → Ivyo ukunda** (canke ⌘,):
 
 
 
-- Uburyo bwo guhuza**: Gutorera umuti ibibazo vy'iyerekanwa mu guhagarika ivyungura
-- Ibirimwo**: Bibuza urubuga runaka nimba bikenewe
-- JavaScript/Ibikuki**: Igenzura ry'ubutare hakurikijwe urubuga
-- Uruhusha**: Kamera, mikoro, ahantu hatunganijwe ku giti cawe
+- **Uburyo bwo guhuza**: Gutorera umuti ibibazo vy'iyerekanwa mu guhagarika ivyungura
+- **Ibirimwo**: Bibuza urubuga runaka nimba bikenewe
+- **JavaScript/Ibikuki**: Igenzura ry'ubutare hakurikijwe urubuga
+- **Uruhusha**: Kamera, mikoro, ahantu hatunganijwe ku giti cawe
 
 
 
@@ -355,9 +355,9 @@ Orion ishigikira Chrome na Firefox. Bishiremwo uhereye mu maduka yemewe:
 
 
 
-- uBlock Origin**: Yongerako ubugenzuzi bw'ubutare ku mubuji w'imvukira
-- Bitwarden**: Umuyobozi w'ijambobanga ry'inkomoko yuguruye
-- Kura URLs**: Gukuraho URL gukurikirana amaparametere
+- **uBlock Origin**: Yongerako ubugenzuzi bw'ubutare ku mubuji w'imvukira
+- **Bitwarden**: Umuyobozi w'ijambobanga ry'inkomoko yuguruye
+- **Kura URLs**: Gukuraho URL gukurikirana amaparametere
 
 
 
@@ -366,9 +366,9 @@ Orion ishigikira Chrome na Firefox. Bishiremwo uhereye mu maduka yemewe:
 
 
 
-- LocalCDN**: Ikoresha amasomero asangiye mu karere
-- Gukuraho amakuru y'ibanga**: Isubiramwo amakuru y'ibanga inyuma yo gufunga uturongo
-- NoScript**: Ubugenzuzi bwose ku gushirwa mu ngiro kwa JavaScript (abakoresha bateye imbere)
+- **LocalCDN**: Ikoresha amasomero asangiye mu karere
+- **Gukuraho amakuru y'ibanga**: Isubiramwo amakuru y'ibanga inyuma yo gufunga uturongo
+- **NoScript**: Ubugenzuzi bwose ku gushirwa mu ngiro kwa JavaScript (abakoresha bateye imbere)
 
 
 
@@ -426,8 +426,8 @@ Igikoresho ca Orion **brush** ni ikintu kidasanzwe kigufasha guhindura uko urubu
 
 
 
-- Ingano y'inyuguti**: Guhindura ukuntu umuntu ashobora gusoma ukoresheje ubuto A- na A+
-- Uburyo bw'inyuguti**: Guhindura umuryango w'inyuguti (mburabuzi canke umugenzo)
+- **Ingano y'inyuguti**: Guhindura ukuntu umuntu ashobora gusoma ukoresheje ubuto A- na A+
+- **Uburyo bw'inyuguti**: Guhindura umuryango w'inyuguti (mburabuzi canke umugenzo)
 
 
 
@@ -436,8 +436,8 @@ Igikoresho ca Orion **brush** ni ikintu kidasanzwe kigufasha guhindura uko urubu
 
 
 
-- Guhagarika imitwe ifatanye**: Gukuraho imitwe iguma ifatanye hejuru iyo uriko uragendagenda
-- Gukuraho Elements**: Kuraho ubuziraherezo Elements ibabaza (amatangazo, ibiza, amabendera y'ibifungurwa)
+- **Guhagarika imitwe ifatanye**: Gukuraho imitwe iguma ifatanye hejuru iyo uriko uragendagenda
+- **Gukuraho Elements**: Kuraho ubuziraherezo Elements ibabaza (amatangazo, ibiza, amabendera y'ibifungurwa)
   - Fyonda kuri "+ Erase" hanyuma uhitemwo ikintu ushaka guhisha
   - Ni ngirakamaro cane ku mbuga zifise amatangazo ahoraho canke gukurikirana amashusho Elements
 
@@ -452,10 +452,10 @@ Igikoresho ca Orion **brush** ni ikintu kidasanzwe kigufasha guhindura uko urubu
 
 
 
-- Ibipande bihagaze**: Bikoreshwa biciye ku murongo w'ibikubiyemo (Ibipande biri ku ruhande)
-- Ivyiyumviro bikomeye**: Mu vyo ukunda → Ivyiyumviro → Igishushanyo "Ivyiyumviro" kugira ngo uzigame umwanya
-- Amatsinda y'ibice**: Gutunganya ibiganiro vyawe hakurikijwe insanganyamatsiko
-- Imirongo myinshi**: Rema ibiranga bitandukanye biciye ku murongo w'ibikubiyemo (Ibikorwa vy'imirongo) n'amakuru atandukanye
+- **Ibipande bihagaze**: Bikoreshwa biciye ku murongo w'ibikubiyemo (Ibipande biri ku ruhande)
+- **Ivyiyumviro bikomeye**: Mu vyo ukunda → Ivyiyumviro → Igishushanyo "Ivyiyumviro" kugira ngo uzigame umwanya
+- **Amatsinda y'ibice**: Gutunganya ibiganiro vyawe hakurikijwe insanganyamatsiko
+- **Imirongo myinshi**: Rema ibiranga bitandukanye biciye ku murongo w'ibikubiyemo (Ibikorwa vy'imirongo) n'amakuru atandukanye
 
 
 
@@ -468,13 +468,13 @@ Igikoresho ca Orion **brush** ni ikintu kidasanzwe kigufasha guhindura uko urubu
 
 
 
-- Guhindura umwandiko kuri paji**: guhindura umwandiko wose (Guhindura urutonde)
-- Kwemera gukopa no gushiramwo**: Bica ku mategeko yo gukopa (Guhindura ibikubiyemo)
-- Kopa ihuriro ryiza**: Fyonda iburyo ku ihuriro kugira ngo ukureho amaparametere yo gukurikirana
-- Uburyo bwo kwibanda**: ataco bisamaza, kugendera ku rubuga rwose
-- Ishusho-mu-Ishusho**: Raba amasanamu mw'idirisha rireremba
-- Gufungura mu bubiko bwa interineti**: Ushobora gushika ku bubiko bwa verisiyo
-- Raporo y'ubuzima bwite**: Fyonda ku ngabo 🛡️ kugira ngo ubone ibintu vyabujijwe na page
+- **Guhindura umwandiko kuri paji**: guhindura umwandiko wose (Guhindura urutonde)
+- **Kwemera gukopa no gushiramwo**: Bica ku mategeko yo gukopa (Guhindura ibikubiyemo)
+- **Kopa ihuriro ryiza**: Fyonda iburyo ku ihuriro kugira ngo ukureho amaparametere yo gukurikirana
+- **Uburyo bwo kwibanda**: ataco bisamaza, kugendera ku rubuga rwose
+- **Ishusho-mu-Ishusho**: Raba amasanamu mw'idirisha rireremba
+- **Gufungura mu bubiko bwa interineti**: Ushobora gushika ku bubiko bwa verisiyo
+- **Raporo y'ubuzima bwite**: Fyonda ku ngabo 🛡️ kugira ngo ubone ibintu vyabujijwe na page
 
 
 
@@ -507,14 +507,14 @@ Kugira ngo Orion igume yihuta kandi iri mu mwiherero:
 
 
 
-- Ivyongera**: Gushika ku giciro gitoyi cane (bishobora kugabanya ubushobozi)
-- Uburyo bw'inguvu nke**: Gukoresha mu bihe birebire (90% birashoboka)
-- Raporo y'ubuzima bwite**: Fyonda ku ngabo 🛡️ kugira ubone ibibujijwe mu gihe nyaco
-- Guhindura amashusho**: Koresha 🖌️ uburoso kugira ngo uhindure ikigaragaza kandi ukureho ibisamaza Elements
-- Kopa amahuza asukuye**: Fyonda iburyo kugira ngo ukope amahuza ata bakurikirana
-- Gutandukanya imirongo**: Koresha imirongo yihariye kugira ngo ushiremwo ibikorwa vyawe
-- Amategeko y'urubuga**: Fyonda kuri gear ⚙️ kugira ngo uhindure uruhusha ku rubuga
-- Gusukura ubudasiba**: Kuraho ububiko biciye kuri Orion → Kukuraho amakuru y'ugushakisha
+- **Ivyongera**: Gushika ku giciro gitoyi cane (bishobora kugabanya ubushobozi)
+- **Uburyo bw'inguvu nke**: Gukoresha mu bihe birebire (90% birashoboka)
+- **Raporo y'ubuzima bwite**: Fyonda ku ngabo 🛡️ kugira ubone ibibujijwe mu gihe nyaco
+- **Guhindura amashusho**: Koresha 🖌️ uburoso kugira ngo uhindure ikigaragaza kandi ukureho ibisamaza Elements
+- **Kopa amahuza asukuye**: Fyonda iburyo kugira ngo ukope amahuza ata bakurikirana
+- **Gutandukanya imirongo**: Koresha imirongo yihariye kugira ngo ushiremwo ibikorwa vyawe
+- **Amategeko y'urubuga**: Fyonda kuri gear ⚙️ kugira ngo uhindure uruhusha ku rubuga
+- **Gusukura ubudasiba**: Kuraho ububiko biciye kuri Orion → Kukuraho amakuru y'ugushakisha
 
 
 
@@ -605,9 +605,9 @@ Kugira ngo Orion igume yihuta kandi iri mu mwiherero:
 
 
 
-- Impinduka zihita**: Orion ihita ivugurura kuri macOS biciye kuri Sparkle
-- Gukurikirana ubugoyagoye**: Suzuma ubudasiba amakuru y'isohoka ku bice vy'umutekano
-- Raporo y'ibibazo**: Koresha [ibisubizo.org](https://ibisubizo.org) kugira ngo umenyeshe ibibazo
+- **Impinduka zihita**: Orion ihita ivugurura kuri macOS biciye kuri Sparkle
+- **Gukurikirana ubugoyagoye**: Suzuma ubudasiba amakuru y'isohoka ku bice vy'umutekano
+- **Raporo y'ibibazo**: Koresha [ibisubizo.org](https://ibisubizo.org) kugira ngo umenyeshe ibibazo
 
 
 
@@ -641,12 +641,12 @@ Ibuka: kurinda ubuzima bwite bwawe ntibivana gusa n’umucukumbuzi wawe. Gufatan
 
 
 
-- Urubuga rwemewe**: [kagi.com/orion/)
-- Ibibazo vyuzuye**: [umucukumbuzi.kagi.com/ibibazo](https://umucukumbuzi.kagi.com/ibibazo)
-- Ihuriro ry'abanyagihugu**: [abanyagihugu.kagi.com](https://abanyagihugu.kagi.com)
-- Gukurikirana ibikoko**: [ibisubizo vya orion.org](https://ibisubizo vya orion.org)
-- GitHub Orion**: [github.com/Umucukumbuzi wa Orion](https://github.com/Umucukumbuzi wa Orion) - Ibice vy'inkomoko yuguruye
-- Urubuga rwa Kagi**: [urubuga.kagi.com](https://urubuga.kagi.com) - Amakuru n'ibindi bishasha
+- **Urubuga rwemewe**: [kagi.com/orion/](kagi.com/orion/)
+- **Ibibazo vyuzuye**: [umucukumbuzi.kagi.com/ibibazo](https://umucukumbuzi.kagi.com/ibibazo)
+- **Ihuriro ry'abanyagihugu**: [abanyagihugu.kagi.com](https://abanyagihugu.kagi.com)
+- **Gukurikirana ibikoko**: [ibisubizo vya orion.org](https://ibisubizo vya orion.org)
+- **GitHub Orion**: [github.com/Umucukumbuzi wa Orion](https://github.com/Umucukumbuzi wa Orion) - Ibice vy'inkomoko yuguruye
+- **Urubuga rwa Kagi**: [urubuga.kagi.com](https://urubuga.kagi.com) - Amakuru n'ibindi bishasha
 
 
 

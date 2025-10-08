@@ -19,7 +19,7 @@ description: 브레이인스 풀 소개
 2023년 말부터 브레이인스 풀은 보상 시스템을 변경하여 FPPS(풀 페이 퍼 셰어) 시스템을 채택했습니다. 즉, 채굴자는 풀에서 블록을 찾지 못하더라도 전날의 모든 작업에 대해 매일 보상을 받게 됩니다. 이는 풀에서 블록을 발견했을 때만 보상을 받았던 기존 시스템과 다릅니다.
 
 
-**Bitcoin 타임체인을 분석하는 Mononaut](https://x.com/mononautical/status/1777686545715089605)의 트윗에 따르면, FPPS 시스템을 사용하는 많은 Mining 풀이 채굴된 비트코인을 앤트풀의 Address로 보내는데, 이는 앤트풀이 이 모든 풀의 Hashrate, 즉 글로벌 Bitcoin Hashrate의 약 47%를 통제한다는 의미입니다. 이는 네트워크의 탈중앙화에 매우 나쁜 소식입니다
+**Bitcoin 타임체인을 분석하는 Mononaut**(https://x.com/mononautical/status/1777686545715089605)의 트윗에 따르면, FPPS 시스템을 사용하는 많은 Mining 풀이 채굴된 비트코인을 앤트풀의 Address로 보내는데, 이는 앤트풀이 이 모든 풀의 Hashrate, 즉 글로벌 Bitcoin Hashrate의 약 47%를 통제한다는 의미입니다. 이는 네트워크의 탈중앙화에 매우 나쁜 소식입니다
 
 
 ### 수영장 요금

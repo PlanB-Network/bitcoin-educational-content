@@ -205,7 +205,7 @@ Daha sonra verilerin şifresi çözülür ve alıcı cihaz tarafından anlaşıl
 
 - gönderici tarafından **"Işınlanma Şifresi"** kullanılarak iletilen verilerin şifresini çözdük.
 - bu nedenle Kb açık anahtarına ve **"Oturum Anahtarı "**, "Ks" ile şifrelenmiş gizli mesajımıza sahibiz. Ancak alıcı olarak, gönderici tarafından oluşturulan Ks'yi bilmediğimiz için bunu nasıl yapabiliriz?
-- İlk adımdaki **"Verileri alacak cihazı hazırlayın "** özel anahtarımız "ka "yı Kb.* genel anahtarına uygulamamız gerekir
+- İlk adımdaki **"Verileri alacak cihazı hazırlayın"** özel anahtarımız "ka"yı Kb genel anahtarına uygulamamız gerekir
 - Aslında, ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks hesaplanarak Ks bulunur. Bu da sonunda gizli mesajı deşifre etmek için kullanılır.
 
 

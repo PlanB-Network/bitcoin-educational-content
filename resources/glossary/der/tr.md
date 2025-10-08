@@ -2,7 +2,7 @@
 term: DER
 ---
 
-Ayırt Edici Kodlama Kuralları* için kısaltma. ITU-T X.690, 2002.] (https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) spesifikasyonunda tanımlanan ASN.1 kodlama kurallarının katı bir alt kümesidir ve her tür veriyi ikili bir dizide kodlamak için kullanılır. DER temel olarak verilerin standart, öngörülebilir bir şekilde kodlanması gereken kriptografi gibi belirli alanlarda kullanılır.
+Ayırt Edici Kodlama Kuralları için kısaltma. ITU-T X.690, 2002.] (https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) spesifikasyonunda tanımlanan ASN.1 kodlama kurallarının katı bir alt kümesidir ve her tür veriyi ikili bir dizide kodlamak için kullanılır. DER temel olarak verilerin standart, öngörülebilir bir şekilde kodlanması gereken kriptografi gibi belirli alanlarda kullanılır.
 
 
 Bitcoin'de ECDSA imzaları DER biçiminde kodlanır. İki adet 32 baytlık kodlanmış sayıdan (`r`,`s`) oluşurlar. İmza biçimi aşağıdaki Elements'dan (71 bayt) oluşur:

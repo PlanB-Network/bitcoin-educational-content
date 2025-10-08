@@ -33,7 +33,7 @@ Neste tutorial, veremos 3 formas de utilizar um **Watchtower** :
 
 
 
-*Este tutorial foi retirado da [documentação oficial do LND] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Algumas mudanças podem ter sido feitas na versão original
+*Este tutorial foi retirado da [documentação oficial do LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Algumas mudanças podem ter sido feitas na versão original.*
 
 
 
@@ -53,7 +53,7 @@ Observe que optamos por implantar nesta versão um conjunto limitado de recursos
 
 
 
-nota: por enquanto, as torres de vigia apenas guardam a saída `to_local` e `to_remote` dos compromissos revogados; guardar a saída HTLC será implementado numa versão futura, uma vez que o protocolo pode ser alargado para incluir dados de assinatura adicionais em blobs encriptados._
+**nota:** por enquanto, as torres de vigia apenas guardam a saída `to_local` e `to_remote` dos compromissos revogados; guardar a saída HTLC será implementado numa versão futura, uma vez que o protocolo pode ser alargado para incluir dados de assinatura adicionais em blobs encriptados.
 
 
 
@@ -337,13 +337,13 @@ O Olho de Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) é um 
 
 
 
-- teos**: inclui um Interface de linha de comando (CLI) e as caraterísticas essenciais de servidor do Watchtower. Dois binários - **teosd** e **teos-CLI** - são produzidos quando este _crate_ é compilado.
+- **teos**: inclui um Interface de linha de comando (CLI) e as caraterísticas essenciais de servidor do Watchtower. Dois binários - **teosd** e **teos-CLI** - são produzidos quando este _crate_ é compilado.
 
 
 
 
 
-- teos-common**: inclui funcionalidades partilhadas do lado do servidor e do lado do cliente (útil para criar um cliente).
+- **teos-common**: inclui funcionalidades partilhadas do lado do servidor e do lado do cliente (útil para criar um cliente).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- servidor**: para pedidos RPC
+- **servidor**: para pedidos RPC
 
 
 
 
 
-- rpcuser** e **rpcpassword**: autenticam os clientes RPC no servidor
+- **rpcuser** e **rpcpassword**: autenticam os clientes RPC no servidor
 
 
 
 
 
-- regtest**: não é necessário, mas é útil se estiver a planear o desenvolvimento.
+- **regtest**: não é necessário, mas é útil se estiver a planear o desenvolvimento.
 
 
 
@@ -489,13 +489,13 @@ No menu "**Watchtower**", estão disponíveis duas opções:
 
 
 
-- Serviço Watchtower**: esta opção permite-lhe operar um Watchtower, ou seja, um serviço que monitoriza os canais de outros nós para detetar qualquer tentativa de fraude. Em caso de violação, o seu Watchtower publica uma transação no Blockchain, permitindo aos utilizadores recuperar os seus fundos bloqueados. Uma vez ativado, o URI do seu Watchtower aparece e pode ser comunicado a outros nós para que o possam adicionar ao seu cliente Watchtower;
+- **Serviço Watchtower**: esta opção permite-lhe operar um Watchtower, ou seja, um serviço que monitoriza os canais de outros nós para detetar qualquer tentativa de fraude. Em caso de violação, o seu Watchtower publica uma transação no Blockchain, permitindo aos utilizadores recuperar os seus fundos bloqueados. Uma vez ativado, o URI do seu Watchtower aparece e pode ser comunicado a outros nós para que o possam adicionar ao seu cliente Watchtower;
 
 
 
 
 
-- Cliente Watchtower**: esta opção permite-lhe ligar-se a torres de vigilância externas para proteger os seus próprios canais. Uma vez activada, pode adicionar serviços Watchtower aos quais o seu nó transmitirá as informações necessárias sobre os seus canais. Estas torres de vigilância vigiarão o seu estado e intervirão em caso de tentativa de fraude.
+- **Cliente Watchtower**: esta opção permite-lhe ligar-se a torres de vigilância externas para proteger os seus próprios canais. Uma vez activada, pode adicionar serviços Watchtower aos quais o seu nó transmitirá as informações necessárias sobre os seus canais. Estas torres de vigilância vigiarão o seu estado e intervirão em caso de tentativa de fraude.
 
 
 

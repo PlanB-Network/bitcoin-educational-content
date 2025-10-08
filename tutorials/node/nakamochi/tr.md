@@ -110,7 +110,7 @@ Nakamochi'niz kurulduktan ve bir node yönetim uygulamasına bağlandıktan sonr
 ### Zeus (iOS) üzerinde Kanal Açma:
 
 
-1. "Kanallar "** sekmesine gidin (alt menü).
+1. "Kanallar" sekmesine gidin (alt menü).
 
 2. Yeni bir kanal açmak için **"+"** işaretine tıklayın.
 

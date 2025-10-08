@@ -44,7 +44,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 ![BITFINEX](assets/fr/05.webp)
 
-アカウントが作成されました。ログイン*」をクリックしてプラットフォームにアクセスしてください。
+アカウントが作成されました。「ログイン」をクリックしてプラットフォームにアクセスしてください。
 
 ![BITFINEX](assets/fr/06.webp)
 

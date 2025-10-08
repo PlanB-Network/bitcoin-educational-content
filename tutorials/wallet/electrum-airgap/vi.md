@@ -346,7 +346,7 @@ Giải nén phương tiện có tệp `.PSBT` và kết nối nó với máy tí
 
 
 
-Từ airgap Wallet, bây giờ hãy chọn menu _Tools_, sau đó chọn _Load transaction_ và tiếp theo là From file_.
+Từ airgap Wallet, bây giờ hãy chọn menu _Tools_, sau đó chọn _Load transaction_ và tiếp theo là _From file_.
 
 
 

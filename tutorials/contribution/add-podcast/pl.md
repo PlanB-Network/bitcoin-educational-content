@@ -81,7 +81,7 @@ Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
 - `name`: **Podaj nazwę swojego podcastu.**
-- `host`**: Lista nazwisk lub pseudonimów prelegentów lub gospodarza podcastu. Każda nazwa powinna być oddzielona przecinkiem.
+- **`host`**: Lista nazwisk lub pseudonimów prelegentów lub gospodarza podcastu. Każda nazwa powinna być oddzielona przecinkiem.
 - `language`: Wskaż kod języka używanego w podcaście. Na przykład dla języka angielskiego `en`, dla włoskiego `it`...
 
 

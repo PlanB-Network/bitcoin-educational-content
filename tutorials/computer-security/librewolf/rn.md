@@ -119,37 +119,37 @@ Kuva mu ntango, LibreWolf itanga urutonde rw'ibintu vyerekeye ubuzima bwite:
 
 
 
-- Nta telemetry canke amahuzu adakenewe:** LibreWolf nta makuru y'ikoreshwa irungika, igatuma ubuzima bwite bwawe bubaha.
+- **Nta telemetry canke amahuzu adakenewe:** LibreWolf nta makuru y'ikoreshwa irungika, igatuma ubuzima bwite bwawe bubaha.
 
 
 
 
 
-- Umugambi ufunguye kandi ushingiye ku kibano:** Umugambi ni 100% ufunguye kandi utunganywa n’abakozi b’intahemuka. Ukwo kwigenga kuratanga icemeza ko ata citegererezo co kwamamaza kizogira ico gikoze ku bijanye n’iterambere.
+- **Umugambi ufunguye kandi ushingiye ku kibano:** Umugambi ni 100% ufunguye kandi utunganywa n'abakozi b'intahemuka. Ukwo kwigenga kuratanga icemeza ko ata citegererezo co kwamamaza kizogira ico gikoze ku bijanye n'iterambere.
 
 
 
 
 
-- Ivyateguwe mbere ku bw'ubuzima bwite:** LibreWolf iragukiza umwanya w'agaciro: ntaco bimaze kumara amasaha ukomeza amasetingi ya Firefox, vyose vyaramaze gukorwa.
+- **Ivyateguwe mbere ku bw'ubuzima bwite:** LibreWolf iragukiza umwanya w'agaciro: ntaco bimaze kumara amasaha ukomeza amasetingi ya Firefox, vyose vyaramaze gukorwa.
 
 
 
 
 
-- Igikoresho co gukingira amatangazo/ugukurikirana:** uBlock Origin ishizwemwo nk’itegeko, rero ntubwirizwa gukora ikintu kugira ngo wikingire amatangazo n’ibikoko.
+- **Igikoresho co gukingira amatangazo/ugukurikirana:** uBlock Origin ishizwemwo nk'itegeko, rero ntubwirizwa gukora ikintu kugira ngo wikingire amatangazo n'ibikoko.
 
 
 
 
 
-- Uburinzi bwiza cane bwo kurwanya ibimenyetso vy'intoke:** Kubera RFP n'imiterere myinshi y'ubuzima bwite, LibreWolf igabanya cane ibimenyetso vyawe vy'ubuhinga bwa none ku rubuga.
+- **Uburinzi bwiza cane bwo kurwanya ibimenyetso vy'intoke:** Kubera RFP n'imiterere myinshi y'ubuzima bwite, LibreWolf igabanya cane ibimenyetso vyawe vy'ubuhinga bwa none ku rubuga.
 
 
 
 
 
-- Ibikorwa vyiza n'uburemere buke:** Mu gukuraho telemetry n'ibintu bimwe bimwe bitari ngombwa, LibreWolf ishobora kwihuta gatoyi kandi idakoresha ubushobozi bwinshi kuruta Firefox isanzwe.
+- **Ibikorwa vyiza n'uburemere buke:** Mu gukuraho telemetry n'ibintu bimwe bimwe bitari ngombwa, LibreWolf ishobora kwihuta gatoyi kandi idakoresha ubushobozi bwinshi kuruta Firefox isanzwe.
 
 
 
@@ -159,31 +159,31 @@ Kuva mu ntango, LibreWolf itanga urutonde rw'ibintu vyerekeye ubuzima bwite:
 
 
 
-- Nta bivugururwa vyubatswemwo:** LibreWolf ntiyivugurura. Ni wewe ushobora gushiramwo ama versions mashasha akimara gusohoka, kugira ngo ugume utekanye.
+- **Nta bivugururwa vyubatswemwo:** LibreWolf ntiyivugurura. Ni wewe ushobora gushiramwo ama versions mashasha akimara gusohoka, kugira ngo ugume utekanye.
 
 
 
 
 
-- Kugabanya uguhuza n'ibikorwa bimwe bimwe:** Kubera imiterere yayo ikomeye cane, LibreWolf ishobora guhura n'ingorane ku mbuga zimwe zimwe. Ivyuma vy’ugucapura vya Netflix na Disney+ ntibizokora, kuko LibreWolf izimya DRM ya Widevine ku buryo busanzwe.
+- **Kugabanya uguhuza n'ibikorwa bimwe bimwe:** Kubera imiterere yayo ikomeye cane, LibreWolf ishobora guhura n'ingorane ku mbuga zimwe zimwe. Ivyuma vy'ugucapura vya Netflix na Disney+ ntibizokora, kuko LibreWolf izimya DRM ya Widevine ku buryo busanzwe.
 
 
 
 
 
-- Nta nzira y'amazina yubatswemwo:** Bitandukanye n'umucukumbuzi wa Tor, LibreWolf ntiyobora uruja n'uruza biciye kuri Tor canke VPN ubwayo. Niba ukeneye ko urubuga rutamenyekana, uzokenera guhindura proxy/VPN n’amaboko.
+- **Nta nzira y'amazina yubatswemwo:** Bitandukanye n'umucukumbuzi wa Tor, LibreWolf ntiyobora uruja n'uruza biciye kuri Tor canke VPN ubwayo. Niba ukeneye ko urubuga rutamenyekana, uzokenera guhindura proxy/VPN n'amaboko.
 
 
 
 
 
-- Amakuru n’ibihe bitagumaho (ivya kera):** Kubera imvo z’ibanga, LibreWolf irafuta amakuru, amateka n’amakuru y’urubuga igihe cose ufunze umucukumbuzi wawe. Uzokenera gusubira kwinjira muri konti zawe igihe cose winjiye.
+- **Amakuru n'ibihe bitagumaho (ivya kera):** Kubera imvo z'ibanga, LibreWolf irafuta amakuru, amateka n'amakuru y'urubuga igihe cose ufunze umucukumbuzi wawe. Uzokenera gusubira kwinjira muri konti zawe igihe cose winjiye.
 
 
 
 
 
-- Nta verisiyo ya telefone ngendanwa canke guhuza igicu:** LibreWolf iboneka gusa ku biro (Windows, Linux, macOS). Nta porogarama yo kuri telefone ngendanwa iriho, rero nta guhuza amakonti canke ibimenyetso vy’ibitabu biciye ku gicu.
+- Nta verisiyo ya telefone ngendanwa canke guhuza igicu: **LibreWolf iboneka gusa ku biro (Windows, Linux, macOS). Nta porogarama yo kuri telefone ngendanwa iriho, rero nta guhuza amakonti canke ibimenyetso vy'ibitabu biciye ku gicu.**
 
 
 
@@ -241,8 +241,8 @@ Gukuraho installer (.exe) ku rubuga rwemewe canke ukoreshe:
 
 
 
-- Isokoroti:** `isokoroti ishizeho librewolf`
-- WinGet:** `amababa ashiraho librewolf`
+- **Isokoroti:** `isokoroti ishizeho librewolf`
+- **WinGet:** `amababa ashiraho librewolf`
 
 
 
@@ -325,8 +325,8 @@ Nk'ingingo ngenderwako, LibreWolf iracisha bugufi kwongerako ivyungura bidakenew
 
 
 
-- Ibikoresho vya Firefox vy'amakonti menshi** (na Mozilla) ku gushakisha mu bice
-- Amaso yegerejwe** canke **LocalCDN** kugira ngo ukoreshe amasomero rusangi yo mu karere
+- **Ibikoresho vya Firefox vy'amakonti menshi** (na Mozilla) ku gushakisha mu bice
+- Amaso yegerejwe **canke** **LocalCDN** kugira ngo ukoreshe amasomero rusangi yo mu karere
 
 
 

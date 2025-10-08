@@ -15,7 +15,7 @@ description: Gundua kipengele cha Co-Sign na ukitumie kwenye COLDCARD yako
 
 
 
-**Kwa nini ColdCard Co-sign?
+**Kwa nini ColdCard Co-sign?**
 
 
 
@@ -29,14 +29,14 @@ Masharti ya matumizi yanaweza kuwa, kwa mfano:
 
 
 
-- Vizuizi kwa ukubwa**: punguza kiwango cha bitcoins unaweza kutumia katika muamala mmoja.
-- Vikomo vya kasi:** amua ni shughuli ngapi unaweza kufanya kwa kila kitengo cha muda (kwa saa, siku, wiki, n.k.), inayohitaji idadi ya chini ya vitalu kati yao.
-- Anwani zilizoidhinishwa awali:** Ruhusu bitcoins tu kutumwa kwa anwani zilizoidhinishwa awali.
-- Uthibitishaji wa vipengele viwili:** Inahitaji uthibitisho kutoka kwa programu ya simu ya mtu mwingine ya 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) kwenye simu/kompyuta kibao inayotumia NFC yenye ufikiaji wa mtandao.
+- **Vizuizi kwa ukubwa**: punguza kiwango cha bitcoins unaweza kutumia katika muamala mmoja.
+- **Vikomo vya kasi:** amua ni shughuli ngapi unaweza kufanya kwa kila kitengo cha muda (kwa saa, siku, wiki, n.k.), inayohitaji idadi ya chini ya vitalu kati yao.
+- **Anwani zilizoidhinishwa awali:** Ruhusu bitcoins tu kutumwa kwa anwani zilizoidhinishwa awali.
+- **Uthibitishaji wa vipengele viwili:** Inahitaji uthibitisho kutoka kwa programu ya simu ya mtu mwingine ya 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) kwenye simu/kompyuta kibao inayotumia NFC yenye ufikiaji wa mtandao.
 
 
 
-**Jinsi inavyofanya kazi
+**Jinsi inavyofanya kazi**
 
 
 

@@ -53,13 +53,13 @@ Urubuga ruca rumenya sisitemu yawe rukagusaba uruja n'uruza rwiza:
 
 
 
-- Amadirisha:** .exe yo gushiramwo amadirisha 10/11 (x64 na ARM64 verisiyo)
-- macOS:** Ishusho ya disiki .dmg ihuye na Intel na Apple (macOS Monterey n'inyuma)
-- Linux:** Amahitamwo menshi araboneka:
-- Flatpak** (bisabwa): `flatpak gushiramwo porogaramu ya flathub.zen_umucukumbuzi.Zen`
-- AppImage**: Ishobora gutwarwa, ishobora gukorwa ataco ihinduye
-- Ububiko tar.gz**: Buzokurwa n'amaboko
-- AUR** (Linux y'imbere): umucukumbuzi wa Zen
+- **Amadirisha:** .exe yo gushiramwo amadirisha 10/11 (x64 na ARM64 verisiyo)
+- **macOS:** Ishusho ya disiki .dmg ihuye na Intel na Apple (macOS Monterey n'inyuma)
+- **Linux:** Amahitamwo menshi araboneka:
+- **Flatpak** (bisabwa): `flatpak gushiramwo porogaramu ya flathub.zen_umucukumbuzi.Zen`
+- **AppImage**: Ishobora gutwarwa, ishobora gukorwa ataco ihinduye
+- **Ububiko tar.gz**: Buzokurwa n'amaboko
+- **AUR** (Linux y'imbere): umucukumbuzi wa Zen
 
 
 
@@ -96,9 +96,9 @@ Urubuga ruca rumenya sisitemu yawe rukagusaba uruja n'uruza rwiza:
 
 
 
-- Flatpak:** Gushiramwo ubwavyo biciye ku mucungerezi w'amapaki
-- Ishusho ya Porogaramu:** `chmod +x Umucukumbuzi wa Zen.Ishusho ya Porogaramu` hanyuma ukande kabiri
-- tar.gz:** Gukuraho no gukoresha umucukumbuzi wa zen
+- **Flatpak:** Gushiramwo ubwavyo biciye ku mucungerezi w'amapaki
+- **Ishusho ya Porogaramu:** `chmod +x Umucukumbuzi wa Zen.Ishusho ya Porogaramu` hanyuma ukande kabiri
+- **tar.gz:** Gukuraho no gukoresha umucukumbuzi wa zen
 
 
 
@@ -188,10 +188,10 @@ Zen Browser ikoresha uburinzi bukomeye bw'ubuzima bwite:
 
 
 
-- Ivyiza vyo kurwanya gukurikirana:** Guhagarika ubwavyo abakurikirana, amakuru y'uwundi muntu n'inyandiko z'ibimenyetso vy'intoke
-- Telemetry yazimye:** Nta makuru yoherejwe kuri serveri zo hanze
-- DNS kuri HTTPS:** Gushiramwo ibisabwa vyawe vya DNS kugira ngo ntukurikirane
-- Kugabanya ivyerekeye Google:** Zen Browser ikuraho amahuza menshi ku bikorwa vya Google, naho bimwe bishobora kugumaho (gucukura bitekanye, gusubiramwo)
+- **Ivyiza vyo kurwanya gukurikirana:** Guhagarika ubwavyo abakurikirana, amakuru y'uwundi muntu n'inyandiko z'ibimenyetso vy'intoke
+- **Telemetry yazimye:** Nta makuru yoherejwe kuri serveri zo hanze
+- **DNS kuri HTTPS:** Gushiramwo ibisabwa vyawe vya DNS kugira ngo ntukurikirane
+- **Kugabanya ivyerekeye Google:** Zen Browser ikuraho amahuza menshi ku bikorwa vya Google, naho bimwe bishobora kugumaho (gucukura bitekanye, gusubiramwo)
 
 
 
@@ -209,13 +209,13 @@ Zen itanga uburyo bwihariye bwo guhindura ibintu ku buryo bubereye n’ibidukiki
 
 
 
-- SuperPins** ⭐: Guhindura ama tabs yashizweko amabuto ateye igomwe kugira ngo uboneke nk'umwuga Interface
-- Ubumwe**: Uburyo buhoraho, bubonerana buhuza umurongo wa URL, umurongo wo ku ruhande n'ibimenyetso
-- Better Find Bar**: Yimurira umurongo w'ubushakashatsi hejuru kugira ngo ubone ubuhinga bwiza
-- Ukwagura umurongo wo ku ruhande iyo uhagaze**: Ukwagura umurongo wo ku ruhande wihuta iyo uhagaze, kwongerera umwanya wo ku rubuga
-- Better Undowned Tabs**: Bituma ubucungezi bw'ubwenge bugenda neza n'ibimenyetso bigaragara ku bitabo bitakora
-- URL Bar yasukuwe**: Interface yasukuye Address bar, ikuraho Elements idakenewe.
-- Transparent Zen**: ingaruka nziza z'uguca ibibatsi n'ibishushanyo bimeze neza
+- **SuperPins** ⭐: Guhindura ama tabs yashizweko amabuto ateye igomwe kugira ngo uboneke nk'umwuga Interface
+- **Ubumwe**: Uburyo buhoraho, bubonerana buhuza umurongo wa URL, umurongo wo ku ruhande n'ibimenyetso
+- **Better Find Bar**: Yimurira umurongo w'ubushakashatsi hejuru kugira ngo ubone ubuhinga bwiza
+- **Ukwagura umurongo wo ku ruhande iyo uhagaze**: Ukwagura umurongo wo ku ruhande wihuta iyo uhagaze, kwongerera umwanya wo ku rubuga
+- **Better Undowned Tabs**: Bituma ubucungezi bw'ubwenge bugenda neza n'ibimenyetso bigaragara ku bitabo bitakora
+- **URL Bar yasukuwe**: Interface yasukuye Address bar, ikuraho Elements idakenewe.
+- **Transparent Zen**: ingaruka nziza z'uguca ibibatsi n'ibishushanyo bimeze neza
 
 
 
@@ -272,8 +272,8 @@ Uko urushiriza guhindura Zen Browser (insanganyamatsiko, ivyungura, ama mods), n
 
 
 
-- Uguhindura umuntu ku giti ciwe** = Ubumenyi bwiza bw'ukoresha ARIKO budasanzwe, bushobora kumenyekana bitagoranye
-- Itunganywa mburabuzi** = Ikirenge gisanzwe ARIKO ubumenyi buke bw'umuntu ku giti ciwe
+- **Uguhindura umuntu ku giti ciwe** = Ubumenyi bwiza bw'ukoresha ARIKO budasanzwe, bushobora kumenyekana bitagoranye
+- **Itunganywa mburabuzi** = Ikirenge gisanzwe ARIKO ubumenyi buke bw'umuntu ku giti ciwe
 
 
 
@@ -295,11 +295,11 @@ Ikindi, kuba ishingiye kuri Firefox, Zen irahuye n’ibidukikije vyose vy’ukwa
 
 
 
-- Ubuzima bwite ku mibumbe:** Uburinzi bwo kurwanya gukurikirana burakora, telemetry irazimye, nta kwegeranya amakuru
-- Innovative Interface:** Ama tabs ahagaze, ibibanza vyo gukoreramwo, Split View bitera imbere cane mu bijanye n'umwimbu
-- Ivyagezwe vyihuta:** Guhuza na Firefox mu masaha atarenga 72 ku bice vy'umutekano
-- Guhindura biteye imbere:** Insanganyamatsiko z'abanyagihugu, gutunganya neza, guhuza ukwaguka kwa Firefox
-- Inkomoko yuguruye n'umuryango:** Kode igaragara, iterambere ry'ubufatanye, ukwigenga kuri Big Tech
+- **Ubuzima bwite ku mibumbe:** Uburinzi bwo kurwanya gukurikirana burakora, telemetry irazimye, nta kwegeranya amakuru
+- **Innovative Interface:** Ama tabs ahagaze, ibibanza vyo gukoreramwo, Split View bitera imbere cane mu bijanye n'umwimbu
+- **Ivyagezwe vyihuta:** Guhuza na Firefox mu masaha atarenga 72 ku bice vy'umutekano
+- **Guhindura biteye imbere:** Insanganyamatsiko z'abanyagihugu, gutunganya neza, guhuza ukwaguka kwa Firefox
+- **Inkomoko yuguruye n'umuryango:** Kode igaragara, iterambere ry'ubufatanye, ukwigenga kuri Big Tech
 
 
 
@@ -309,10 +309,10 @@ Ikindi, kuba ishingiye kuri Firefox, Zen irahuye n’ibidukikije vyose vy’ukwa
 
 
 
-- Nta verisiyo y'amatelefone ngendanwa:** Iboneka kuri PC gusa (amadirisha, macOS, Linux)
-- Uguhuza kwa DRM:** Netflix, Disney+, Spotify n'izindi serivisi zo gutanga amakuru ntizikora ubu
-- Umugambi muto:** Itsinda rito, infashanyo y'abanyagihugu, rimwe na rimwe ibikoko
-- Ivyigwa:** Interface bitandukanye, bisaba guhindura abamenyereye gukoresha amabara aringaniye
+- **Nta verisiyo y'amatelefone ngendanwa:** Iboneka kuri PC gusa (amadirisha, macOS, Linux)
+- **Uguhuza kwa DRM:** Netflix, Disney+, Spotify n'izindi serivisi zo gutanga amakuru ntizikora ubu
+- **Umugambi muto:** Itsinda rito, infashanyo y'abanyagihugu, rimwe na rimwe ibikoko
+- **Ivyigwa:** Interface bitandukanye, bisaba guhindura abamenyereye gukoresha amabara aringaniye
 
 
 
@@ -348,7 +348,7 @@ Kuva mu ntango, Zen Browser ikoresha uburyo bwo gucungera ubuzima bwite burengey
 
 
 
-- Uburinzi bukomeye bwo kurwanya gukurikirana:** "Ikigereranyo" urugero rwakoreshejwe na mburabuzi, kubuza:
+- **Uburinzi bukomeye bwo kurwanya gukurikirana:** "Ikigereranyo" urugero rwakoreshejwe na mburabuzi, kubuza:
   - Amakuru y'ikurikirana n'amakuru akomeye
   - Inyandiko z'abakurikirana kwamamaza (Isesengura rya Google, Pixel ya Facebook, n'ibindi)
   - Amafaranga y'ibanga akoresha CPU yawe ku mafaranga y'ibanga ya Miner
@@ -358,10 +358,10 @@ Kuva mu ntango, Zen Browser ikoresha uburyo bwo gucungera ubuzima bwite burengey
 
 
 
-- Ukwitandukanya kw'amakuru yose:** Ukwitandukanya kw'umuntu wa mbere kubuza urubuga rumwe gusoma amakuru y'uwundi
-- Telemetry yazimye cane:** Ivyinshi mu bimenyetso vyakuweho, naho nyene hariho amahuza n'ibikorwa vya Mozilla/Google yoshobora kugumaho kandi bisaba ko umuntu akoresha ibindi bikoresho
-- DNS itekanye ku buryo busanzwe:** DNS-over-HTTPS yashobojwe kugira ngo ntihagire uwutahura ibisabwa vyawe
-- HTTPS-Gusa yashobojwe:** Guhatira amahuza yashizwemwo amakuru ku mbuga zose
+- **Ukwitandukanya kw'amakuru yose:** Ukwitandukanya kw'umuntu wa mbere kubuza urubuga rumwe gusoma amakuru y'uwundi
+- **Telemetry yazimye cane:** Ivyinshi mu bimenyetso vyakuweho, naho nyene hariho amahuza n'ibikorwa vya Mozilla/Google yoshobora kugumaho kandi bisaba ko umuntu akoresha ibindi bikoresho
+- **DNS itekanye ku buryo busanzwe:** DNS-over-HTTPS yashobojwe kugira ngo ntihagire uwutahura ibisabwa vyawe
+- **HTTPS-Gusa yashobojwe:** Guhatira amahuza yashizwemwo amakuru ku mbuga zose
 
 
 
@@ -426,11 +426,11 @@ Amagenamiterere > Gushakisha > Moteri y'ishakisha mburabuzi:
 
 
 
-- DuckDuckGo**: Nta gusobanura, nta bibumbano vy'akayunguruzo, ibisubizo bitagira aho bihuriye
-- Urupapuro rw'intango**: ibisubizo vya Google bitamenyekanye, bishingiye mu Buholandi (RGPD)
-- Searx**: Moteri y'ubushakashatsi yegerejwe, nta bitabo, inkomoko yuguruye
-- Ubushakashatsi bw'intwari**: Urutonde rwigenga, rutavuye kuri Google
-- Irinde**: Google, Bing, Yahoo (ugukusanya amakuru menshi)
+- **DuckDuckGo**: Nta gusobanura, nta bibumbano vy'akayunguruzo, ibisubizo bitagira aho bihuriye
+- **Urupapuro rw'intango**: ibisubizo vya Google bitamenyekanye, bishingiye mu Buholandi (RGPD)
+- **Searx**: Moteri y'ubushakashatsi yegerejwe, nta bitabo, inkomoko yuguruye
+- **Ubushakashatsi bw'intwari**: Urutonde rwigenga, rutavuye kuri Google
+- **Irinde**: Google, Bing, Yahoo (ugukusanya amakuru menshi)
 
 
 
@@ -464,8 +464,8 @@ Amagenamiterere > Ubuzima bwite n'umutekano > DNS kuri HTTPS (hasi kuri paji)
 
 - Ugenzura igihe co gukoresha DNS itekanye maze ugahitamwo uwuyitanga
 - Ikoresha umutanga yatowe n'ugusubira inyuma kuri sisitemu ya DNS iyo bikenewe
-- Uwutanga mburabuzi:** Cloudflare (inyandiko zinyaruka, zitazwi)
-- Ibindi:** Guhindukira kuri Quad9, NextDNS bivanye n'uko bibonetse
+- **Uwutanga mburabuzi:** Cloudflare (inyandiko zinyaruka, zitazwi)
+- **Ibindi:** Guhindukira kuri Quad9, NextDNS bivanye n'uko bibonetse
 
 
 
@@ -476,7 +476,7 @@ Amagenamiterere > Ubuzima bwite n'umutekano > DNS kuri HTTPS (hasi kuri paji)
 
 - Zen **imisi yose** ikoresha DNS itekanye gusa
 - Imburi y'umutekano imbere yo gukoresha sisitemu ya DNS
-- Imburi:** Imbuga ntizishobora gufunguka iyo DNS itekanye itaboneka
+- **Imburi:** Imbuga ntizishobora gufunguka iyo DNS itekanye itaboneka
 
 
 
@@ -501,10 +501,10 @@ Amagenamiterere > Ubuzima bwite n'Umutekano > Uruhusha:
 
 
 
-- Aho**: Ibarabara (kiretse ibikorwa vy'amakarata)
-- Kamera/Mikoro**: Guhagarika (kwemerera ku kibazo ku kibazo)
-- Amatangazo**: Guhagarika (kubuza ubutumwa butari bwo)
-- Gusubiramwo ubwavyo**: Guhagarika amajwi na videwo
+- **Aho**: Ibarabara (kiretse ibikorwa vy'amakarata)
+- **Kamera/Mikoro**: Guhagarika (kwemerera ku kibazo ku kibazo)
+- **Amatangazo**: Guhagarika (kubuza ubutumwa butari bwo)
+- **Gusubiramwo ubwavyo**: Guhagarika amajwi na videwo
 
 
 
@@ -517,7 +517,7 @@ Amagenamiterere > Ubuzima bwite n'Umutekano > Uruhusha:
 
 
 
-- uBlock Inkomoko**: Igikoresho gikomeye cane co kubuza kwamamaza no gukurikirana
+- **uBlock Inkomoko**: Igikoresho gikomeye cane co kubuza kwamamaza no gukurikirana
   - Urutonde rw'ivyiza: Urutonde rworoshe, Ubuzima bworoshe, Itangazo rya Peter Lowe n'urutonde rw'abakurikirana
   - Uburyo buteye imbere ku bakoresha bazi utuntu n'utundi
 
@@ -525,9 +525,9 @@ Amagenamiterere > Ubuzima bwite n'Umutekano > Uruhusha:
 
 
 
-- Gukuraho URLs**: Gukuraho URL zikurikirana (utm_inkomoko, fbclid, n'ibindi)
-- Cookie AutoDelete**: ihita ifuta amakuru n'amakuru yo gushakisha iyo tab yugarijwe
-- Amaso yegerejwe**: Akoresha amasomero ya JS mu karere kugira ngo wirinde Google/Cloudflare CDNs
+- **Gukuraho URLs**: Gukuraho URL zikurikirana (utm_inkomoko, fbclid, n'ibindi)
+- **Cookie AutoDelete**: ihita ifuta amakuru n'amakuru yo gushakisha iyo tab yugarijwe
+- **Amaso yegerejwe**: Akoresha amasomero ya JS mu karere kugira ngo wirinde Google/Cloudflare CDNs
 
 
 
@@ -536,9 +536,9 @@ Amagenamiterere > Ubuzima bwite n'Umutekano > Uruhusha:
 
 
 
-- NoScript**: Igenzura ry'inyandiko ya JavaScript (rishobora gusenyura imbuga nyinshi)
-- Igikoko c'ubuzima bwite** (EFF): Inyifato y'abakurikirana
-- Ibikoresho vy'igihe gito**: Itandukanya buri tab mu gikoresho gitandukanye
+- **NoScript**: Igenzura ry'inyandiko ya JavaScript (rishobora gusenyura imbuga nyinshi)
+- **Igikoko c'ubuzima bwite** (EFF): Inyifato y'abakurikirana
+- **Ibikoresho vy'igihe gito**: Itandukanya buri tab mu gikoresho gitandukanye
 
 
 
@@ -559,9 +559,9 @@ Amagenamiterere > Ubuzima bwite n'Umutekano > Uruhusha:
 
 
 
-- Gutanga amasanamu:** Netflix, Disney+, HBO Max, amasanamu ya mbere ya Amazon
-- Umuziki wo hejuru:** Spotify wo hejuru, Umuziki wo kuri YouTube, Deezer
-- Amahugurwa yo kuri internet:** Udemy, Coursera (amasanamu akinzwe)
+- **Gutanga amasanamu:** Netflix, Disney+, HBO Max, amasanamu ya mbere ya Amazon
+- **Umuziki wo hejuru:** Spotify wo hejuru, Umuziki wo kuri YouTube, Deezer
+- **Amahugurwa yo kuri internet:** Udemy, Coursera (amasanamu akinzwe)
 
 
 
@@ -666,8 +666,8 @@ YouTube y'ubuntu, Twitch, Vimeo, imbuga z'amakuru, imbuga ngurukanabumenyi, ibig
 
 
 
-- Split View**: Hitamwo ama tabs menshi > kanda iburyo > "Gapura x tabs".
-- Iraba**: Alt + kanda ku nzira kugira ngo ubone
+- **Split View**: Hitamwo ama tabs menshi > kanda iburyo > "Gapura x tabs".
+- **Iraba**: Alt + kanda ku nzira kugira ngo ubone
 
 
 
@@ -691,11 +691,11 @@ YouTube y'ubuntu, Twitch, Vimeo, imbuga z'amakuru, imbuga ngurukanabumenyi, ibig
 
 
 
-- Tunganya ibibanza vyawe**: Rema ibibanza bifise insiguro (Akazi, Reba, Umuntu ku giti ciwe)
+- **Tunganya ibibanza vyawe**: Rema ibibanza bifise insiguro (Akazi, Reba, Umuntu ku giti ciwe)
 - Koresha **ibice bishizweko**: Ku mbuga zawe zasuwe cane
-- Gukoresha Imbonerahamwe Igabanywe**: Ni vyiza ku gukora ibikorwa vyinshi ku bimenyetso binini
-- Gumana amakuru mashasha**: Uhora usuzuma ko hari amakuru mashasha
-- Gutahura Zen Mods**: guhindura ukuntu usa kugira ngo bihure n'ivyo ukunda
+- **Gukoresha Imbonerahamwe Igabanywe**: Ni vyiza ku gukora ibikorwa vyinshi ku bimenyetso binini
+- **Gumana amakuru mashasha**: Uhora usuzuma ko hari amakuru mashasha
+- **Gutahura Zen Mods**: guhindura ukuntu usa kugira ngo bihure n'ivyo ukunda
 
 
 

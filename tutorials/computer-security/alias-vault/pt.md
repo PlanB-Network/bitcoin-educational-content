@@ -19,7 +19,7 @@ Além disso, estas questões fazem parte de um mundo em constante agitação: ca
 
 
 
-**Mas o Alias Vault não se fica por aqui.
+**Mas o Alias Vault não se fica por aqui.**
 
 
 
@@ -36,10 +36,10 @@ Num dos Interface, o Alias Vault é:
 
 
 
-- Gratuito e de fonte aberta**
-- Password Manager**, para armazenar todas as palavras-passe complexas. Utilizando a extensão do navegador, o gestor de senhas completa os logins em sites
-- 2FA**, para suportar a autenticação de dois factores
-- Gestor de aliases com servidor de correio eletrónico incorporado**: O Alias Vault não cria aliases que reencaminham correio eletrónico para a caixa de correio de um utilizador; em vez disso, cria alter-egos reais, completos com nome próprio, apelido, sexo, nome de utilizador, palavra-passe e data de nascimento (se esta informação for necessária).
+- **Gratuito e de fonte aberta**
+- **Password Manager**, para armazenar todas as palavras-passe complexas. Utilizando a extensão do navegador, o gestor de senhas completa os logins em sites
+- **2FA**, para suportar a autenticação de dois factores
+- **Gestor de aliases com servidor de correio eletrónico incorporado**: O Alias Vault não cria aliases que reencaminham correio eletrónico para a caixa de correio de um utilizador; em vez disso, cria alter-egos reais, completos com nome próprio, apelido, sexo, nome de utilizador, palavra-passe e data de nascimento (se esta informação for necessária).
 
 
 

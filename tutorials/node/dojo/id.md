@@ -160,7 +160,7 @@ Masukkan kunci USB yang dapat di-boot ke dalam komputer yang dimatikan (komputer
 
 
 
-Layar beranda Ubuntu akan muncul. Pilih "Coba atau Instal Ubuntu*".
+Layar beranda Ubuntu akan muncul. Pilih "Coba atau Instal Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ ** Mohon jaga kerahasiaan Address ini
+⚠️ **Mohon jaga kerahasiaan Address ini**
 
 
 
@@ -1426,7 +1426,7 @@ Untuk mengakses peramban Anda dari mesin apa pun di jaringan apa pun (bahkan dar
 
 
 
-⚠️ ** Mohon jaga kerahasiaan Address ini
+⚠️ **Mohon jaga kerahasiaan Address ini**
 
 
 

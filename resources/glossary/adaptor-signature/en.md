@@ -15,7 +15,7 @@ $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
 **This verification gives Bob some assurance from Alice, allowing him to safely proceed with the atomic swap process.** He then creates his own transaction $m_B$ sending 1 BTC to Alice and calculates his own adaptor signature $s_B'$, which is linked to the same secret $t$ (a value known only by Alice at this point, Bob only knows its corresponding point $T$, which Alice provided): $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
 
-* Bob sends to Alice his adaptor signature $s_B'$, his unsigned transaction $m_B$, the point corresponding to the secret $T$, and the point corresponding to the nonce $N_B$. Alice can now combine Bob's adaptor signature $s_B'$ with the secret $t$, which only she knows, to compute a valid signature $s_B$ for the transaction $m_B$ that sends her Bob's BTC: 
+**Bob sends to Alice his adaptor signature $s_B'$, his unsigned transaction $m_B$, the point corresponding to the secret $T$, and the point corresponding to the nonce $N_B$. Alice can now combine Bob's adaptor signature $s_B'$ with the secret $t$, which only she knows, to compute a valid signature $s_B$ for the transaction $m_B$ that sends her Bob's BTC:**
 $$s_B = s_B' + t$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$

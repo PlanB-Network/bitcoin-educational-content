@@ -156,7 +156,7 @@ sudo systemctl restart tor
 ```
 
 
-A continuación, vamos a lanzar el Bitcoin core gráfico Interface con el comando `Bitcoin-qt`. Luego, habilitamos la característica automática del software para enrutar nuestras conexiones a través de un proxy Tor: configuración > Red_, y desde allí marque _Conectar a través de proxy SOCKS5 (proxy por defecto)_ así como _Usar un proxy SOCKS5 separado para alcanzar pares a través de servicios Tor onion_.
+A continuación, vamos a lanzar el Bitcoin core gráfico Interface con el comando `Bitcoin-qt`. Luego, habilitamos la característica automática del software para enrutar nuestras conexiones a través de un proxy Tor: **configuración > Red**, y desde allí marque **Conectar a través de proxy SOCKS5 (proxy por defecto)** así como **Usar un proxy SOCKS5 separado para alcanzar pares a través de servicios Tor onion**.
 
 
 ![option](assets/fr/04.webp)

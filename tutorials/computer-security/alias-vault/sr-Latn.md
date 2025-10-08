@@ -36,10 +36,10 @@ U jednom Interface Alias Vault je:
 
 
 
-- Besplatan i otvoren izvor**
-- Password Manager**, za čuvanje svih složenih lozinki. Koristeći ekstenziju za pregledač, menadžer lozinki popunjava prijave na vebsajtove
-- 2FA**, da podrži dvofaktorsku autentifikaciju
-- Menadžer alias-a sa ugrađenim email serverom**: Alias Vault ne kreira alias-e koji prosleđuju email korisnikovom poštanskom sandučetu; umesto toga, kreira stvarne alter-egoe, kompletne sa imenom, prezimenom, polom, korisničkim imenom, lozinkom i datumom rođenja (ako su ovi podaci potrebni).
+- **Besplatan i otvoren izvor**
+- **Password Manager**, za čuvanje svih složenih lozinki. Koristeći ekstenziju za pregledač, menadžer lozinki popunjava prijave na vebsajtove
+- **2FA**, da podrži dvofaktorsku autentifikaciju
+- **Menadžer alias-a sa ugrađenim email serverom**: Alias Vault ne kreira alias-e koji prosleđuju email korisnikovom poštanskom sandučetu; umesto toga, kreira stvarne alter-egoe, kompletne sa imenom, prezimenom, polom, korisničkim imenom, lozinkom i datumom rođenja (ako su ovi podaci potrebni).
 
 
 

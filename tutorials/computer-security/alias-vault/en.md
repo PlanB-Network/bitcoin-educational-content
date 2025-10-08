@@ -27,10 +27,10 @@ Alias Vault works in the cloud on the developer's servers or self-hosted in its 
 In one interface Alias Vault is:
 
 
-- Free and open source**
-- Password Manager**, to store all complex passwords. Using the browser extension, the password manager completes logins to websites
-- 2FA**, to support two-factor authentication
-- Alias manager with embedded email server**: Alias Vault does not create aliases that forward email to a user's mailbox; rather, it creates actual alter-egos, complete with first name, last name, gender, username, password, and birthday (if this information is required).
+- **Free and open source**
+- **Password Manager**, to store all complex passwords. Using the browser extension, the password manager completes logins to websites
+- **2FA**, to support two-factor authentication
+- **Alias manager with embedded email server**: Alias Vault does not create aliases that forward email to a user's mailbox; rather, it creates actual alter-egos, complete with first name, last name, gender, username, password, and birthday (if this information is required).
 
 
 An extensive and thorough documentation is part of the package, which will accompany newcomers to the discovery of this powerful tool.

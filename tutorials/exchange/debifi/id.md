@@ -64,25 +64,25 @@ Sebelum saya menunjukkan kepada Anda langkah demi langkah cara meminjam di Debif
 
 
 
-- Biaya awal** adalah biaya satu kali yang dikenakan pada saat pinjaman diberikan, dan dihitung sebagai persentase dari jumlah yang dipinjam. Biaya ini mencakup biaya administrasi, operasional dan manajemen.
+- **Biaya awal** adalah biaya satu kali yang dikenakan pada saat pinjaman diberikan, dan dihitung sebagai persentase dari jumlah yang dipinjam. Biaya ini mencakup biaya administrasi, operasional dan manajemen.
 
 
 
 
 
-- Agunan** adalah aset yang Anda setorkan untuk mengamankan pinjaman. Dalam kasus Debifi, agunannya adalah Bitcoin (BTC), yang disetorkan oleh peminjam ke escrow Multisig 3/4.
+- **Agunan** adalah aset yang Anda setorkan untuk mengamankan pinjaman. Dalam kasus Debifi, agunannya adalah Bitcoin (BTC), yang disetorkan oleh peminjam ke escrow Multisig 3/4.
 
 
 
 
 
-- Sistem escrow Multisig (3/4)** adalah sebuah mekanisme penyimpanan yang aman di mana bitcoin peminjam ditempatkan di dalam Address multi-tanda tangan. Secara khusus, empat (4) pihak masing-masing memegang kunci (peminjam, pemberi pinjaman, Debifi, pihak ketiga yang independen). Untuk memindahkan dana, setidaknya dibutuhkan 3 dari 4 tanda tangan.
+- **Sistem escrow Multisig (3/4)** adalah sebuah mekanisme penyimpanan yang aman di mana bitcoin peminjam ditempatkan di dalam Address multi-tanda tangan. Secara khusus, empat (4) pihak masing-masing memegang kunci (peminjam, pemberi pinjaman, Debifi, pihak ketiga yang independen). Untuk memindahkan dana, setidaknya dibutuhkan 3 dari 4 tanda tangan.
 
 
 
 
 
-- Stablecoin** adalah mata uang kripto yang nilainya dipatok ke aset stabil (misalnya dolar AS), yang menghindari volatilitas Bitcoin. Sebagai contoh, 1 USDC selalu bernilai ~$1, karena didukung oleh cadangan fiat.
+- **Stablecoin** adalah mata uang kripto yang nilainya dipatok ke aset stabil (misalnya dolar AS), yang menghindari volatilitas Bitcoin. Sebagai contoh, 1 USDC selalu bernilai ~$1, karena didukung oleh cadangan fiat.
 
 
 

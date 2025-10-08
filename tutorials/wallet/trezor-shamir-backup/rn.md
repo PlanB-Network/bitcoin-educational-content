@@ -34,7 +34,7 @@ Abakoresha bakoze Wallet ifise *Igikoresho co gusangira kimwe* barashobora guhin
 
 
 
-Ivy’ugusangira ibintu vyinshi* biraboneka kuri Trezor Model T, Safe 3 na Safe 5. Ivyo ntibishigikirwa na Trezor Model One.
+Ivy'ugusangira ibintu vyinshi **biraboneka** kuri Trezor Model T, Safe 3 na Safe 5. Ivyo ntibishigikirwa na Trezor Model One.
 
 
 

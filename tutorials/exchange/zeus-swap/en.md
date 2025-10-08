@@ -209,20 +209,20 @@ Each swap has a unique identifier with real-time tracking. Full progress display
 
 
 
-- Simplicity**: Swap in a few clicks vs. manual channel manipulation
-- Non-custodial**: no KYC, no account, funds never entrusted to a third party
-- Transparency**: fees explicitly displayed before validation (0.1% to 0.5% + minage depending on user tests - check current fees at each swap)
-- Mobile integration**: native experience in Zeus Wallet
+- **Simplicity**: Swap in a few clicks vs. manual channel manipulation
+- **Non-custodial**: no KYC, no account, funds never entrusted to a third party
+- **Transparency**: fees explicitly displayed before validation (0.1% to 0.5% + minage depending on user tests - check current fees at each swap)
+- **Mobile integration**: native experience in Zeus Wallet
 
 
 ### Limitations
 
 
 
-- Expiry times**: 24-48h maximum, failure if Bitcoin not confirmed in time
-- Amount limits**: minimum 25,000 Sats, Zeus LSP liquidity variable according to conditions
-- Traces On-Chain**: HTLC scripts potentially identifiable by Blockchain analysis
-- Confirmation required**: minimum 10 minutes for Bitcoin validation
+- **Expiry times**: 24-48h maximum, failure if Bitcoin not confirmed in time
+- **Amount limits**: minimum 25,000 Sats, Zeus LSP liquidity variable according to conditions
+- **Traces On-Chain**: HTLC scripts potentially identifiable by Blockchain analysis
+- **Confirmation required**: minimum 10 minutes for Bitcoin validation
 
 
 ## Best practices
@@ -242,7 +242,7 @@ Each swap has a unique identifier with real-time tracking. Full progress display
 
 
 - Check Bitcoin addresses carefully (copy-paste recommended)
-- Back up the Zeus Swaps Rescue Key**: download and store the recovery key in a safe place
+- **Back up the Zeus Swaps Rescue Key**: download and store the recovery key in a safe place
 - Document: contract ID, refund address, expiry date
 - Use appropriate mining fees for timely confirmation
 
@@ -267,11 +267,11 @@ Zeus Swap uses Boltz's backend technology, but makes some crucial improvements:
 **Zeus Swap benefits** :
 
 
-- Interface unified**: native integration in Zeus Wallet vs Interface web technique Boltz
-- WebSocket API**: real-time updates vs. manual polling
-- Automated management**: automatic billing and address management
-- Mobile support**: smartphone vs. desktop optimization only
-- Swagger documentation**: complete REST API for developers
+- **Interface unified**: native integration in Zeus Wallet vs Interface web technique Boltz
+- **WebSocket API**: real-time updates vs. manual polling
+- **Automated management**: automatic billing and address management
+- **Mobile support**: smartphone vs. desktop optimization only
+- **Swagger documentation**: complete REST API for developers
 
 
 **Boltz remains advantageous** for total independence and use with any Bitcoin/Lightning setup.

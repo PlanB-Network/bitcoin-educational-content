@@ -7,7 +7,7 @@ description: 实现隐私和自主的开源 Bitcoin 节点
 
 
 
-*本教程基于[Ashigaru 官方文档](https://ashigaru.rs/docs/)，我接管并扩充了该文档。我重新编写了所有章节，以提高清晰度，增加了更详细的解释，并为初学者提供了插图，使安装和使用更容易理解。
+*本教程基于[Ashigaru 官方文档](https://ashigaru.rs/docs/)，我接管并扩充了该文档。我重新编写了所有章节，以提高清晰度，增加了更详细的解释，并为初学者提供了插图，使安装和使用更容易理解。*
 
 
 
@@ -160,7 +160,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-出现 Ubuntu 主屏幕。选择 "试用或安装 Ubuntu*"。
+出现 Ubuntu 主屏幕。选择 "试用或安装 Ubuntu"。
 
 
 
@@ -1060,7 +1060,7 @@ Ctrl + C
 
 
 
-在实际操作中，这一过程一般需要 2 到 7 天**。在此期间，您可以让机器持续运行。机器运行时间越长，同步完成的速度就越快。我建议您通过查看 Bitcoin core 日志或使用安装后的 Dojo 维护工具（见下一节）定期检查同步状态。
+在实际操作中，这一过程一般需要 2 到 7 天。在此期间，您可以让机器持续运行。机器运行时间越长，同步完成的速度就越快。我建议您通过查看 Bitcoin core 日志或使用安装后的 Dojo 维护工具（见下一节）定期检查同步状态。
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **请对本 Address 严格保密
+⚠️ **请对本 Address 严格保密**
 
 
 
@@ -1426,7 +1426,7 @@ Block Explorer =
 
 
 
-⚠️ **请对本 Address 严格保密
+⚠️ **请对本 Address 严格保密**
 
 
 

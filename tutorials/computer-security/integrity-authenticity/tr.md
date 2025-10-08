@@ -209,7 +209,7 @@ Sparrow-2.0.0.dmg: OK
 ```
 
 
-Linux** üzerinde komut benzerdir:
+**Linux** üzerinde komut benzerdir:
 
 
 ```bash

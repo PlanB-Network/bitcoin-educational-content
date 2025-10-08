@@ -3,7 +3,7 @@ name: Wallet of Satoshi
 description: Il più semplice wallet (custodial) per iniziare
 ---
 ![cover](assets/cover.webp)
-_Questo tutorial è stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Questo tutorial è stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 ## Scaricare, configurare e usare Wallet of Satoshi
 

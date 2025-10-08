@@ -5,7 +5,7 @@ description: Tangira na Coin Control, igikoresho nyamukuru co kurinda ubuzima bw
 ![cover](assets/cover.webp)
 
 
-*Iyi nyigisho yavanwe muri [icigwa cakozwe na Officine Bitcoin](https.
+**Iyi nyigisho yavanwe muri [icigwa cakozwe na Officine Bitcoin](https.**
 
 
 

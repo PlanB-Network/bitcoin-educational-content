@@ -143,7 +143,7 @@ Na početnoj stranici **Wallet** pronaći ćete :
 
 
 
-- Primanje uplata na Speed Wallet :**
+- Primanje uplata na Speed Wallet:
 
 
 

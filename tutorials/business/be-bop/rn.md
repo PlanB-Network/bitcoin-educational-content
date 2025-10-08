@@ -62,10 +62,10 @@ Uzokenera gutunganya indobo maze ugatanga aya makuru akurikira:
 
 
 
-- S3_INDOBO**: izina ry'indobo
-- S3_IMPERA_URL**: ukwinjira ku rubuga rwawe rwa S3
-- S3_URUPFUZO_ID** na **S3_URUPFUZO_IBANGA**: amakode yawe yo kwinjira
-- S3_REGION**: akarere ka serivisi yawe ya S3
+- **S3_INDOBO**: izina ry'indobo
+- **S3_IMPERA_URL**: ukwinjira ku rubuga rwawe rwa S3
+- **S3_URUPFUZO_ID** na **S3_URUPFUZO_IBANGA**: amakode yawe yo kwinjira
+- **S3_REGION**: akarere ka serivisi yawe ya S3
 
 
 
@@ -94,8 +94,8 @@ Uzokenera ibi bikurikira:
 
 
 
-- MONGODB_URL**: ihuriro ry'urutonde rw'amakuru Address.
-- MONGODB_DB**: izina ry'urutonde
+- **MONGODB_URL**: ihuriro ry'urutonde rw'amakuru Address.
+- **MONGODB_DB**: izina ry'urutonde
 
 
 
@@ -398,7 +398,7 @@ be-BOP kandi itanga ubufatanye bushitse na **Stripe**, imwe mu nzira zizwi cane 
 
 
 
-⚠️ **Ibuka:** Ni ngombwa kumenya uburyo bwo gutanga IVA bujanye n'igikorwa cawe (nk'akarorero: ugurisha hakurikijwe IVA mu gihugu c'ugurisha, gusonerwa hakurikijwe imvo n'imvano, canke ugurisha ku rugero rw'IVA mu gihugu c'umuguzi) kugira ngo ushobore gutunganya neza uburyo bwo gutanga invoice muri **be-OP.
+⚠️ **Ibuka:** Ni ngombwa kumenya uburyo bwo gutanga IVA bujanye n'igikorwa cawe (nk'akarorero: ugurisha hakurikijwe IVA mu gihugu c'ugurisha, gusonerwa hakurikijwe imvo n'imvano, canke ugurisha ku rugero rw'IVA mu gihugu c'umuguzi) kugira ngo ushobore gutunganya neza uburyo bwo gutanga invoice muri **be-OP**.
 
 
 
@@ -474,8 +474,8 @@ Iyi porogarama itanga ubushobozi bwo kuvuga indimi nyinshi kugira ngo imenyere a
 
 
 - Mu kibanza `Izina ry'ikigo`, shiramwo izina ry'ishirahamwe ryawe, ishirahamwe canke igicuruzwa. Iri zina rizoboneka hejuru y’igitabu ca Interface kandi rizoserukira akaranga kawe nyamukuru k’ivyo ubona.
-- Erekana umutwe w’urubuga**: umutwe watowe ukwiye kuvuga mu ncamake intumbero y’urubuga. Uwo mutwe ushobora kuboneka mu mutwe canke mu gice c’umucukumbuzi.
-- Yongerako insobanuro y’urubuga**: aha niho winjiza insobanuro ngufi y’umugambi wawe. Iyi ndondoro ifasha gushiramwo igikoresho ku bakoresha kandi ishobora no gukoreshwa ku ntumbero za SEO.
+- **Erekana umutwe w'urubuga**: umutwe watowe ukwiye kuvuga mu ncamake intumbero y'urubuga. Uwo mutwe ushobora kuboneka mu mutwe canke mu gice c'umucukumbuzi.
+- **Yongerako insobanuro y'urubuga**: aha niho winjiza insobanuro ngufi y'umugambi wawe. Iyi ndondoro ifasha gushiramwo igikoresho ku bakoresha kandi ishobora no gukoreshwa ku ntumbero za SEO.
 
 
 
@@ -497,10 +497,10 @@ Igice ca `Amahuza` co ku Murongo wo Hejuru kigufasha kwongerako inzira ngufi ku 
 
 
 
-- Injira izina ry'ihuriro (Ivyanditswe)**: mu mwanya `Ivyanditswe`, shiramwo izina canke ikimenyetso c'ihuriro uko rizoboneka (nk'akarorero Inzu, Uwo guhamagara, Imfashanyo...).
-- Erekana ihuriro Address (Url)**: mu mwanya wa `Url`, shiramwo Address yuzuye ya paji y'intumbero (imbere canke hanze).
-- Yongerako ayandi mahuza nimba bikenewe**: umurongo wose w'imiterere ushobora kugufasha kwongerako iyindi mahuza ukoresheje `Ivyanditswe` na `Url`.
-- Bika amahuza**: amahuza yose amaze kwinjira, ukande kuri buto ya "Ongera amahuza yo hejuru" kugira ngo uyabike.
+- **Injira izina ry'ihuriro (Ivyanditswe)**: mu mwanya `Ivyanditswe`, shiramwo izina canke ikimenyetso c'ihuriro uko rizoboneka (nk'akarorero Inzu, Uwo guhamagara, Imfashanyo...).
+- **Erekana ihuriro Address (Url)**: mu mwanya wa `Url`, shiramwo Address yuzuye ya paji y'intumbero (imbere canke hanze).
+- **Yongerako ayandi mahuza nimba bikenewe**: umurongo wose w'imiterere ushobora kugufasha kwongerako iyindi mahuza ukoresheje `Ivyanditswe` na `Url`.
+- **Bika amahuza**: amahuza yose amaze kwinjira, ukande kuri buto ya "Ongera amahuza yo hejuru" kugira ngo uyabike.
 
 
 
@@ -524,8 +524,8 @@ Igice ca **Navbar** kigufasha gutunganya urutonde rw'ibintu vy'ingenzi vya be-BO
 
 - Injira izina ry'ihuriro (`Ivyanditswe`): ku murongo w'imiterere, tangura wuzuze `Ivyanditswe` umwanya. Ivyo bihuye n’izina ry’ihuriro ryerekanywe mu murongo w’ivy’ugugenderamwo (ingero: *Dashboard*, *Abakoresha*, *Ivyagezwe*...).
 - Injira ihuriro Address (`Url`): iruhande y'umwanya `Ivyanditswe`, uzosanga umwanya `Url`. Muri iki kibanza, shiramwo Address y’urupapuro iyo nzira ikwiye kujako. Ivyo bishobora kuba inzira yo mu mutima canke uruja n'uruza rw'inyuma.
-- Yongerako amahuza menshi nimba bisabwa**: munsi y'umurongo wa mbere, hariho ivyicaro bishasha `Ivyanditswe` na `Url` vyo kwongerako amahuza menshi nk'uko bisabwa. Umurongo wose ugereranya uruja n’uruza rw’inyongera rwo kugenderamwo.
-- Bika amahuzu**: umaze kwinjiza Elements zose, ukande kuri buto ya `Add nav bar link` kugira ngo ubike kandi ugaragaze ibisubizo mu murongo w'urugendo.
+- **Yongerako amahuza menshi nimba bisabwa**: munsi y'umurongo wa mbere, hariho ivyicaro bishasha `Ivyanditswe` na `Url` vyo kwongerako amahuza menshi nk'uko bisabwa. Umurongo wose ugereranya uruja n'uruza rw'inyongera rwo kugenderamwo.
+- **Bika amahuzu**: umaze kwinjiza Elements zose, ukande kuri buto ya `Add nav bar link` kugira ngo ubike kandi ugaragaze ibisubizo mu murongo w'urugendo.
 
 
 
@@ -550,8 +550,8 @@ Igice ca **Footer** kigufasha guhindura footer ya porogaramu yawe, ukongerako am
 - Gushoboza kwerekana ikimenyetso "Ikoreshwa na be-BOP": gukoresha buto ya `Iyerekanwa Ikoreshwa na be-BOP` kugira ngo ugaragaze iki kimenyetso mu gice co hasi.
 - Injira izina ry'ihuriro (**Ivyanditswe**): wuzuze ahantu **Ivyanditswe**, bihuye n'amajambo y'ihuriro ari mu gice co hasi (ingero: *Amabwirizwa*, *Ibanga*, *Umuntu*...).
 - Erekana ihuriro Address (`Url`): mu mwanya wa `Url`, shiramwo Address ya paji y'intumbero (imbere canke hanze).
-- Yongerako ayandi mahuza nimba bisabwa**: koresha imirongo y'inyongera kugira ngo ureme amahuza menshi uko ushaka.
-- Bika amahuza**: fyonda ku buto "Ongera amahuza y'inyuma" kugira ngo ubike amahuza.
+- **Yongerako ayandi mahuza nimba bisabwa**: koresha imirongo y'inyongera kugira ngo ureme amahuza menshi uko ushaka.
+- **Bika amahuza**: fyonda ku buto "Ongera amahuza y'inyuma" kugira ngo ubike amahuza.
 
 
 
@@ -641,8 +641,8 @@ Ushobora kuronka amakuru y'uburongozi n'amategeko y'ishirahamwe ryawe.
 
 
 
-- Izina ry'ubucuruzi**: izina ry'ishirahamwe ryemewe.
-- Indangamuntu y’ubucuruzi**: ikimenyetso c’ubucuruzi canke inomero y’iyandikwa (RCCM, SIRET...).
+- **Izina ry'ubucuruzi**: izina ry'ishirahamwe ryemewe.
+- **Indangamuntu y'ubucuruzi**: ikimenyetso c'ubucuruzi canke inomero y'iyandikwa (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Ushobora kuronka amakuru y'uburongozi n'amategeko y'ishirahamwe ryawe.
 
 
 
-- Ibarabara**: iposita Address (ibarabara, inomero...).
-- Igihugu**: igihugu.
-- Leta**: intara canke akarere.
-- Igisagara**: igisagara.
-- Kode ya ZIP**: kode ya posita.
+- **Ibarabara**: iposita Address (ibarabara, inomero...).
+- **Igihugu**: igihugu.
+- **Leta**: intara canke akarere.
+- **Igisagara**: igisagara.
+- **Kode ya ZIP**: kode ya posita.
 
 
 
@@ -666,8 +666,8 @@ Ushobora kuronka amakuru y'uburongozi n'amategeko y'ishirahamwe ryawe.
 
 
 
-- Imeli**: imeli y'umwuga Address.
-- Telefone**: inomero ya telefone y’ishirahamwe.
+- **Imeli**: imeli y'umwuga Address.
+- **Telefone**: inomero ya telefone y'ishirahamwe.
 
 
 
@@ -677,10 +677,10 @@ Ushobora kuronka amakuru y'uburongozi n'amategeko y'ishirahamwe ryawe.
 
 
 
-- Izina ry'uwufise konti**: izina ry'uwufise konti.
-- Uwufise konti Address**: Address y'uwufise.
-- IBAN**: Inomero ya Konti ya Banki Mpuzamakungu.
-- BIC**: Kode y'IKIMENYETSO/BIC.
+- **Izina ry'uwufise konti**: izina ry'uwufise konti.
+- **Uwufise konti Address**: Address y'uwufise.
+- **IBAN**: Inomero ya Konti ya Banki Mpuzamakungu.
+- **BIC**: Kode y'IKIMENYETSO/BIC.
 
 
 
@@ -695,7 +695,7 @@ Ushobora kuronka amakuru y'uburongozi n'amategeko y'ishirahamwe ryawe.
 
 
 - Fyonda kuri `Uzuza amakuru y'iduka ry'ingenzi` kugira ngo wuzuze amakuru.
-- Amakuru y'uwutanga amakuru yo hejuru cane**: umwanya w'amakuru y'amategeko/imisoro aboneka ku mafagitire.
+- **Amakuru y'uwutanga amakuru yo hejuru cane**: umwanya w'amakuru y'amategeko/imisoro aboneka ku mafagitire.
 - Fyonda `Update` kugira ngo ubike ivyo wahinduye.
 
 
@@ -742,9 +742,9 @@ Genda kuri `Umuyobozi > Ibicuruzwa > Ibicuruzwa` kugira ngo wongereko canke uhin
 
 
 
-- Izina ry'igicuruzwa**: izina ry'igicuruzwa (nk'akarorero *T-shirt ya BOP ishobora gukoreshwa mu buryo buke*).
-- Slug**: Indangamuntu ya URL ata myanya (nk'akarorero `ishati-bop-igitabu-gifise umupaka`).
-- Alias** *(ntibikenewe)*: ni ngirakamaro mu kwongera vuba ku giseke biciye mu murima wihariye.
+- **Izina ry'igicuruzwa**: izina ry'igicuruzwa (nk'akarorero *T-shirt ya BOP ishobora gukoreshwa mu buryo buke*).
+- **Slug**: Indangamuntu ya URL ata myanya (nk'akarorero `ishati-bop-igitabu-gifise umupaka`).
+- **Alias** *(ntibikenewe)*: ni ngirakamaro mu kwongera vuba ku giseke biciye mu murima wihariye.
 
 
 
@@ -758,9 +758,9 @@ Genda kuri `Umuyobozi > Ibicuruzwa > Ibicuruzwa` kugira ngo wongereko canke uhin
 
 
 
-- Igiciro**: igiciro c'igicuruzwa (nk'akarorero `25.00`).
-- Igiciro Amafaranga**: amafaranga (EUR, USD, BTC, n’ibindi).
-- Ibintu bidasanzwe**:
+- **Igiciro**: igiciro c'igicuruzwa (nk'akarorero `25.00`).
+- **Igiciro Amafaranga**: amafaranga (EUR, USD, BTC, n'ibindi).
+- **Ibintu bidasanzwe**:
   - iki ni igicuruzwa c’ubuntu.
   - iki ni igicuruzwa co kwishura ivyo ushaka.
 
@@ -772,14 +772,14 @@ Genda kuri `Umuyobozi > Ibicuruzwa > Ibicuruzwa` kugira ngo wongereko canke uhin
 
 
 
-- Igicuruzwa kimwe (`kigenga`)**: kwongerako kimwe gusa gishoboka ku bijanye n'itegeko (nk'akarorero, intererano, itike yo kwinjira).
-- Igicuruzwa gifise ubudasa**:
+- **Igicuruzwa kimwe (`kigenga`)**: kwongerako kimwe gusa gishoboka ku bijanye n'itegeko (nk'akarorero, intererano, itike yo kwinjira).
+- **Igicuruzwa gifise ubudasa**:
   - Ntusuzume `Ihagaze`.
   - Suzuma `Igicuruzwa gifise ubudasa buke (nta tandukaniro ry'ububiko)`.
   - Kongerako:
-- Izina** (nk'akarorero *Ingano*),
-- Agaciro** (nk'akarorero: S, M, L, XL),
-- Ibiciro bitandukanye** nimba bishoboka (nk'akarorero: `+2 USD` kuri XL).
+- **Izina** (nk'akarorero *Ingano*),
+- **Agaciro** (nk'akarorero: S, M, L, XL),
+- **Ibiciro bitandukanye** nimba bishoboka (nk'akarorero: `+2 USD` kuri XL).
 
 
 
@@ -809,8 +809,8 @@ Ubuhinga buracungera:
 
 
 
-- Ibintu vyabitswe** → ibintu biri mu biseke bitarahembwa
-- Ibintu vyagurishijwe** → ibintu vyaramaze kugurwa
+- **Ibintu vyabitswe** → ibintu biri mu biseke bitarahembwa
+- **Ibintu vyagurishijwe** → ibintu vyaramaze kugurwa
 
 
 
@@ -832,8 +832,8 @@ Suzuma `Igicuruzwa gifise igice c'umubiri kizorungikwa ku Address y'umukiriya`. 
 
 
 
-- Tike**: shira akamenyetso nimba igicuruzwa ari itike y'umusi mukuru
-- Gufata umwanya**: reba nimba aha ari ahantu ho gufata umwanya (nk'akarorero: igihe, umubonano)
+- **Tike**: shira akamenyetso nimba igicuruzwa ari itike y'umusi mukuru
+- **Gufata umwanya**: reba nimba aha ari ahantu ho gufata umwanya (nk'akarorero: igihe, umubonano)
 
 
 
@@ -845,7 +845,7 @@ Suzuma `Igicuruzwa gifise igice c'umubiri kizorungikwa ku Address y'umukiriya`. 
 
 
 
-Iki gice kigena **aho** n'ingene** igicuruzwa gishobora kurabwa no kugurwa:
+Iki gice kigena **aho** n'ingene **igicuruzwa** gishobora kurabwa no kugurwa:
 
 
 
@@ -1001,14 +1001,14 @@ Ingero z'ibikoresho biriho:
 
 
 
-- Ingorane**: ingorane canke ubutumwa
-- Tags**: ivyiciro canke amajambo y'ingenzi
-- Ivyerekanwa**: amashusho y'ibinyabuzima
-- Ibisobanuro**: Imbonerahamwe z'ibisobanuro
-- Amafishi**: amafishi (uguhamagara, inyishu, n'ibindi)
-- Guharura**: ibihe
-- Amabarabara**: amabarabara y'amashusho
-- Imbonerahamwe**: urutonde rw'abakoresha
+- **Ingorane**: ingorane canke ubutumwa
+- **Tags**: ivyiciro canke amajambo y'ingenzi
+- **Ivyerekanwa**: amashusho y'ibinyabuzima
+- **Ibisobanuro**: Imbonerahamwe z'ibisobanuro
+- **Amafishi**: amafishi (uguhamagara, inyishu, n'ibindi)
+- **Guharura**: ibihe
+- **Amabarabara**: amabarabara y'amashusho
+- **Imbonerahamwe**: urutonde rw'abakoresha
 
 
 
@@ -1166,9 +1166,9 @@ Izo raporo zigabanywemwo ibice:
 
 
 
-- Ibisobanuro vy'amategeko**: umubare w'amategeko, ikibanza (vyemejwe, vyasubiwemwo, birindiriwe), iterambere
-- Ibisobanuro vy'ibicuruzwa**: ibicuruzwa vyagurishijwe, ubwinshi, ibicuruzwa bikundwa
-- Ivyerekeye kwishura**: amafaranga yashizwe hamwe, agabanywa hakurikijwe uburyo bwo kwishura
+- **Ibisobanuro vy'amategeko**: umubare w'amategeko, ikibanza (vyemejwe, vyasubiwemwo, birindiriwe), iterambere
+- **Ibisobanuro vy'ibicuruzwa**: ibicuruzwa vyagurishijwe, ubwinshi, ibicuruzwa bikundwa
+- **Ivyerekeye kwishura**: amafaranga yashizwe hamwe, agabanywa hakurikijwe uburyo bwo kwishura
 
 
 
@@ -1310,9 +1310,9 @@ Igihe urema canke uhindura insanganyamatsiko, ushobora gusobanura:
 
 
 
-- Amabara**: ku buto, inyuma, umwandiko, amahuza, n'ibindi.
-- Imyandikire**: uguhitamwo imyandikire y'imitwe, ibice, ibikubiyemo
-- Uburyo bw'ibishushanyo**: imbibe, impande, ikibanza, imiterere y'amabuye
+- **Amabara**: ku buto, inyuma, umwandiko, amahuza, n'ibindi.
+- **Imyandikire**: uguhitamwo imyandikire y'imitwe, ibice, ibikubiyemo
+- **Uburyo bw'ibishushanyo**: imbibe, impande, ikibanza, imiterere y'amabuye
 
 
 
@@ -1326,9 +1326,9 @@ Igice cose c'urubuga gishobora guhindurwa kigizwe n'ibintu:
 
 
 
-- Umutwe**: umurongo wo hejuru wo kugenderamwo
-- Umubiri**: ibirimwo nyamukuru
-- Insi**: hasi kuri paji
+- **Umutwe**: umurongo wo hejuru wo kugenderamwo
+- **Umubiri**: ibirimwo nyamukuru
+- **Insi**: hasi kuri paji
 
 
 
@@ -1377,8 +1377,8 @@ Imeli yose (kwemeza itegeko, ijambobanga ryibagiwe, n'ibindi) ifise:
 
 
 
-- Insiguro**: insiguro y'imeli (nk'akarorero "Itegeko ryawe ryemejwe")
-- Umubiri wa HTML**: Ibiri muri HTML vyerekanywe muri imeyili
+- **Insiguro**: insiguro y'imeli (nk'akarorero "Itegeko ryawe ryemejwe")
+- **Umubiri wa HTML**: Ibiri muri HTML vyerekanywe muri imeyili
 
 
 
@@ -1444,9 +1444,9 @@ Uzuza ibi bikurikira:
 
 
 
-- Izina ry'ikimenyetso**: izina ry'ikimenyetso ryagaragajwe
-- Slug**: ikimenyetso kidasanzwe (nta myanya canke inyuguti)
-- Umuryango w'ibimenyetso**: amatsinda y'ibimenyetso hakurikijwe urwego
+- **Izina ry'ikimenyetso**: izina ry'ikimenyetso ryagaragajwe
+- **Slug**: ikimenyetso kidasanzwe (nta myanya canke inyuguti)
+- **Umuryango w'ibimenyetso**: amatsinda y'ibimenyetso hakurikijwe urwego
 
 
 
@@ -1479,9 +1479,9 @@ Ibi bibanza bishobora gukoreshwa mu gutunganya ikimenyetso nk'aho yoba ari paji 
 
 - Umutwe
 - Insiguro
-- Bigufi** ibirimwo
-- Ibirimwo vyose** (mu gifaransa)
-- CTAs** (amabuto y'ibikorwa)
+- **Bigufi** ibirimwo
+- **Ibirimwo vyose** (mu gifaransa)
+- **CTAs** (amabuto y'ibikorwa)
 
 
 
@@ -1520,8 +1520,8 @@ Gutanga inyandiko zishobora gukurwa ku bakiriya bawe: `Umuyobozi > Ibicuruzwa > 
 
 
 
-- Izina rya dosiye** (nk'akarorero *Inyigisho yo gushiramwo*)
-- Dosiye yo gushiramwo** (PDF, ishusho, Ijambo...)
+- **Izina rya dosiye** (nk'akarorero *Inyigisho yo gushiramwo*)
+- **Dosiye yo gushiramwo** (PDF, ishusho, Ijambo...)
 
 
 
@@ -1539,7 +1539,7 @@ Iyi nzira ishobora rero kwinjizwa muri:
 
 
 
-- CMS** urupapuro (nk'ihuriro ry'inyandiko canke ubuto)
+- **CMS** urupapuro (nk'ihuriro ry'inyandiko canke ubuto)
 - **Umukiriya w'iposita** (biciye ku citegererezo)
 - **Urupapuro rw'igicuruzwa** (nk'akarorero gukuraho n'amaboko)
 
@@ -1595,7 +1595,7 @@ Genda kuri: Ubuyobozi bw'uruzitiro > Nostr
 
 
 
-- Wongereko **ikimenyetso** n'izina rya bose**
+- Wongereko **ikimenyetso** n'izina rya bose
 - Ihuza ku **urubuga rwagenzuwe**
 - Yongera kwizerwa n'ukwemerwa kw'akaranga kawe ka Nostr
 
@@ -1636,7 +1636,7 @@ Amadosiye y'ubuhinduzi ari muri JSON. Urashobora:
 
 
 - Gukuraho **amadosiye y'ururimi**
-- Guhindura** ivyanditswe biriho
+- **Guhindura** ivyanditswe biriho
 - Wongereko **ubuhinduzi bwawe bwite**
 
 
@@ -1678,9 +1678,9 @@ Uruhara rwose rurimwo:
 
 
 
-- kwandika uburenganzira**: kwandika uburenganzira
-- gusoma uburenganzira**: gusoma uburenganzira
-- Ukwinjira bibujijwe**: ibice biri hagati
+- **kwandika uburenganzira**: kwandika uburenganzira
+- **gusoma uburenganzira**: gusoma uburenganzira
+- **Ukwinjira bibujijwe**: ibice biri hagati
 
 
 
@@ -1779,8 +1779,8 @@ Amahitamwo abiri ateye imbere araboneka:
 
 
 
-- Gusonerwa IVA**: bikoreshwa ku mvo (imiryango itegamiye kuri Leta, abanyamahanga...)
-- Igabanuka ry'ingabirano**: igabanuka ridasanzwe n'ibitekerezo vy'ingorane
+- **Gusonerwa IVA**: bikoreshwa ku mvo (imiryango itegamiye kuri Leta, abanyamahanga...)
+- **Igabanuka ry'ingabirano**: igabanuka ridasanzwe n'ibitekerezo vy'ingorane
 
 
 

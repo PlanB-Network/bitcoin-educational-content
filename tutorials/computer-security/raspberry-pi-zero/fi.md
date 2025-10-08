@@ -276,7 +276,7 @@ Raspi OS:n ensimmäinen käynnistys on hieman tavallista hitaampi, koska sen on 
 
 
 
-Napsauta _Next_ (Seuraava_) asettaaksesi maantieteellisen alueen, erityisesti oikean näppäimistön lataamista varten. Kiinnitä erityistä huomiota jälkimmäiseen.
+Napsauta _Next_ (Seuraava) asettaaksesi maantieteellisen alueen, erityisesti oikean näppäimistön lataamista varten. Kiinnitä erityistä huomiota jälkimmäiseen.
 
 
 

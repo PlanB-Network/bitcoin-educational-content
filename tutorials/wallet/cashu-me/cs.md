@@ -43,16 +43,16 @@ Pojďme se ponořit do funkcí a prozkoumat, co Cashu.me nabízí:
 
 
 
-- Chaumian ecash na Lightning**: Používá slepé podpisy, takže mincovny nemohou sledovat zůstatky uživatelů ani historii transakcí
-- Vlastní úschova žetonů**: Tokeny ecash ovládáte lokálně pomocí své věty seed
-- Zálohy frází seed**: 12 slov pro obnovení fráze Wallet
-- Mátová nezávislost**: Pracuje s více nezávislými mincovnami - nejste vázáni na jednoho poskytovatele
-- Okamžité bezplatné transakce**: V rámci stejné mincovny jsou platby dokončeny během několika sekund s nulovými poplatky
-- Architektura zachovávající soukromí**: Mincovny nevidí, kdo s kým obchoduje
-- Offline ecash**: Odesílání/přijímání žetonů prostřednictvím místního přenosového protokolu, jako je NFC, QR kód, Bluetooth atd., bez připojení k internetu
-- Objevte mincovníky ecash prostřednictvím Nostr**: Najděte a ověřte důvěryhodné mincovny prostřednictvím protokolu Nostr
-- Vyměňte si ecash mezi mincovnami**: Všechny mincovny mluví jazykem Lightning, což znamená, že mezi nimi můžete převádět hodnotu.
-- Dálkově ovládejte svůj Wallet pomocí aplikace Nostr Wallet Connect (NWC)**: Připojte se k dalším aplikacím, jako je Nostr Client, a začněte zapping přes NWC
+- **Chaumian ecash na Lightning**: Používá slepé podpisy, takže mincovny nemohou sledovat zůstatky uživatelů ani historii transakcí
+- **Vlastní úschova žetonů**: Tokeny ecash ovládáte lokálně pomocí své věty seed
+- **Zálohy frází seed**: 12 slov pro obnovení fráze Wallet
+- **Mátová nezávislost**: Pracuje s více nezávislými mincovnami - nejste vázáni na jednoho poskytovatele
+- **Okamžité bezplatné transakce**: V rámci stejné mincovny jsou platby dokončeny během několika sekund s nulovými poplatky
+- **Architektura zachovávající soukromí**: Mincovny nevidí, kdo s kým obchoduje
+- **Offline ecash**: Odesílání/přijímání žetonů prostřednictvím místního přenosového protokolu, jako je NFC, QR kód, Bluetooth atd., bez připojení k internetu
+- **Objevte mincovníky ecash prostřednictvím Nostr**: Najděte a ověřte důvěryhodné mincovny prostřednictvím protokolu Nostr
+- **Vyměňte si ecash mezi mincovnami**: Všechny mincovny mluví jazykem Lightning, což znamená, že mezi nimi můžete převádět hodnotu.
+- **Dálkově ovládejte svůj Wallet pomocí aplikace Nostr Wallet Connect (NWC)**: Připojte se k dalším aplikacím, jako je Nostr Client, a začněte zapping přes NWC
 
 
 Rozhodujícím kompromisem je "důvěra": zatímco samotné tokeny máte pod kontrolou, mincovnám musíte důvěřovat, že budou opatrovat podkladové rezervy Bitcoin. Jak uvádí dokumentace Cashu:

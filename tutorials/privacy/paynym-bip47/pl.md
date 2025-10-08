@@ -129,7 +129,7 @@ Wykres z OXT.me pokazujący ewolucję ogólnego wskaźnika ponownego wykorzystan
 
 ![image](assets/2.webp)
 
-kredyt: OXT_
+kredyt: **OXT**
 
 
 Większość tych ponownych użyć pochodzi z giełd, które ze względu na wydajność i wygodę wielokrotnie używają tego samego Address. Do tej pory BIP47 byłby najlepszym rozwiązaniem, aby powstrzymać to zjawisko wśród giełd. Pomogłoby to zmniejszyć ogólny wskaźnik ponownego wykorzystania Address bez powodowania zbyt dużych tarć dla tych podmiotów.

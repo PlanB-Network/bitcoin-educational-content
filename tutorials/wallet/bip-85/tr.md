@@ -117,7 +117,7 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 - **Senaryo**: Bitcoinlerinizi farklı amaçlar için ayırıyorsunuz (örn. uzun vadeli tasarruflar, KYC dışı fonlar).
 - **Çözüm BIP-85**: Her bir hedef için seed ikincil ifadeler oluşturursunuz.
-- BIP-32**'ye göre avantaj: BIP-32 ile tüm hesaplar aynı seed ifadesini paylaşır, bu da `m/44'/0'/0'` gibi türetme yollarının yönetilmesini gerektirerek üçüncü taraf portföylerinde yönetimi zorlaştırır. Buna ek olarak, her cihaz için ayrı bir hesap atamak mümkün değildir (örneğin, "Coldcard'da tasarruf", "cep telefonunda günlük", "Trezor'da tatil"). BIP-85, hedef başına benzersiz bir seed ikincil ifade atar, bu da her cihazda ayrı ayrı tanımlanması ve içe aktarılması kolaydır.
+- **BIP-32'ye göre avantaj:** BIP-32 ile tüm hesaplar aynı seed ifadesini paylaşır, bu da `m/44'/0'/0'` gibi türetme yollarının yönetilmesini gerektirerek üçüncü taraf portföylerinde yönetimi zorlaştırır. Buna ek olarak, her cihaz için ayrı bir hesap atamak mümkün değildir (örneğin, "Coldcard'da tasarruf", "cep telefonunda günlük", "Trezor'da tatil"). BIP-85, hedef başına benzersiz bir seed ikincil ifade atar, bu da her cihazda ayrı ayrı tanımlanması ve içe aktarılması kolaydır.
 
 
 

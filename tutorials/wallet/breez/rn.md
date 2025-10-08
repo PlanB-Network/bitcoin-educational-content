@@ -104,8 +104,8 @@ Breez iraguha uburyo butatu:
 
 
 - Kwakira n’umuravyo canke **ID** Invoice: generate Invoice maze uhebwe.
-- Kwakira biciye ku Bitcoin Address**: Kwakira amafaranga y’ibiceri n’ibikorwa ku rubuga rwa Bitcoin.
-- Gura Bitcoin**: Breez ishiramwo uburyo bwo kuronka Bitcoin ataco ukoresheje mu mafaranga y’amahera.
+- **Kwakira biciye ku Bitcoin Address**: Kwakira amafaranga y'ibiceri n'ibikorwa ku rubuga rwa Bitcoin.
+- **Gura Bitcoin**: Breez ishiramwo uburyo bwo kuronka Bitcoin ataco ukoresheje mu mafaranga y'amahera.
 
 
 
@@ -139,8 +139,8 @@ Breez iraguha uburyo butatu bwo kohereza ama bitcoins.
 
 
 
-- Gushiramwo Invoice canke ID y'ukoresha**: Wishura umuravyo Invoice.
-- Connect to pay**: Rema ikiganiro maze utumire uwukwakira ngo yinjire mu kiganiro kugira ngo umurungikire ama bitcoins.
+- **Gushiramwo Invoice canke ID y'ukoresha**: Wishura umuravyo Invoice.
+- **Connect to pay**: Rema ikiganiro maze utumire uwukwakira ngo yinjire mu kiganiro kugira ngo umurungikire ama bitcoins.
 - Wohereze kuri BTC Address: Gukoresha ku rubuga rwa Bitcoin.
 
 
@@ -169,7 +169,7 @@ Uzosanga ibikorwa vy'ingirakamaro mu buryo butaziguye muri porogarama.
 
 
 
-- Umviriza ama podcast**: Breez ni umukinyi wa podcast 2.0 ashobora kugufasha gushigikira abahinguzi ukunda n’intererano za Bitcoin.
+- Umviriza ama podcast: **Breez ni umukinyi wa podcast 2.0 ashobora kugufasha gushigikira abahinguzi ukunda n'intererano za Bitcoin.**
 
 
 Mu vyo ubona, uhitemwo **Podcasts**, hanyuma urondere, uvumbure kandi wumvirize abahinguzi b’ibintu ukunda.
@@ -186,7 +186,7 @@ Shigikira igikorwa c’abahinguzi b’ibintu ukunda mu gutanga intererano.
 
 
 
-- A Point of Sale**: Breez irahuye neza n’ubucuruzi bwawe, ikagufasha gukoresha ahantu h’ugurisha muri porogarama. Ushobora gucunga ibikoresho vyo mu iduka ryawe, ukaronka amahera y’abaguzi bawe be n’amafagitire acapwa generate ku kintu cose uguze. Ikindi, urashobora gusanga amafaranga yawe yo mu karere kawe mu mafaranga menshi cane ashigikiwe na Breez.
+- **A Point of Sale**: Breez irahuye neza n'ubucuruzi bwawe, ikagufasha gukoresha ahantu h'ugurisha muri porogarama. Ushobora gucunga ibikoresho vyo mu iduka ryawe, ukaronka amahera y'abaguzi bawe be n'amafagitire acapwa generate ku kintu cose uguze. Ikindi, urashobora gusanga amafaranga yawe yo mu karere kawe mu mafaranga menshi cane ashigikiwe na Breez.
 
 
 
@@ -210,7 +210,7 @@ Igihe urutonde rwawe rurangiye, urashobora gutanga Invoice ku bakiriya bawe ku b
 
 
 
-- Ushobora gushika ku bikorwa vy'abandi**: Breez ishiramwo ibikorwa vy'abandi bigufasha gukora vyinshi utavuye muri Wallet. Ivyo birimwo Bitrefill, Amasoko ya LN, Wavlake, Fold, Fixed Float, Ishirahamwe rya Bitcoin, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- Ushobora gushika ku bikorwa vy'abandi: **Breez ishiramwo ibikorwa vy'abandi bigufasha gukora vyinshi utavuye muri Wallet. Ivyo birimwo Bitrefill, Amasoko ya LN, Wavlake, Fold, Fixed Float, Ishirahamwe rya Bitcoin, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.**
 
 
 ![apps](assets/fr/16.webp)

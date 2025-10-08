@@ -33,7 +33,7 @@ V tomto návodu se podíváme na 3 způsoby použití **Watchtower** :
 
 
 
-*Tento návod je převzat z [oficiální dokumentace ke LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). V původní verzi mohly být provedeny některé změny
+**Tento návod je převzat z [oficiální dokumentace ke LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). V původní verzi mohly být provedeny některé změny**
 
 
 
@@ -53,7 +53,7 @@ Všimněte si, že jsme se rozhodli v této verzi nasadit omezenou sadu funkcí,
 
 
 
-poznámka: prozatím watchtowery ukládají pouze výstup `to_local` a `to_remote` odvolaných závazků; ukládání výstupu HTLC bude zavedeno v některé z budoucích verzí, protože protokol může být rozšířen o další podpisová data v šifrovaných blobech._
+poznámka: prozatím watchtowery ukládají pouze výstup `to_local` a `to_remote` odvolaných závazků; ukládání výstupu HTLC bude zavedeno v některé z budoucích verzí, protože protokol může být rozšířen o další podpisová data v šifrovaných blobech.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-poznámka: veřejný klíč Watchtower je odlišný od veřejného klíče uzlu `LND`. Prozatím slouží jako "bílá listina Soft", protože zákazníci musí znát veřejný klíč Watchtower, aby jej mohli používat jako zálohu, dokud nebudou k dispozici pokročilejší mechanismy bílé listiny. Doporučujeme tento veřejný klíč NEZVEŘEJŇOVAT, pokud nejste připraveni vystavit svůj Watchtower celému internetu._
+poznámka: veřejný klíč Watchtower je odlišný od veřejného klíče uzlu `LND`. Prozatím slouží jako "bílá listina Soft", protože zákazníci musí znát veřejný klíč Watchtower, aby jej mohli používat jako zálohu, dokud nebudou k dispozici pokročilejší mechanismy bílé listiny. Doporučujeme tento veřejný klíč **NEZVEŘEJŇOVAT**, pokud nejste připraveni vystavit svůj Watchtower celému internetu.
 
 
 
@@ -337,13 +337,13 @@ Oko Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) je nedepozi�
 
 
 
-- teos**: obsahuje příkazový řádek Interface (CLI) a základní serverové funkce Watchtower. Při kompilaci tohoto _crate_ se vytvoří dva binární soubory - **teosd** a **teos-CLI**.
+- **teos**: obsahuje příkazový řádek Interface (CLI) a základní serverové funkce Watchtower. Při kompilaci tohoto _crate_ se vytvoří dva binární soubory - **teosd** a **teos-CLI**.
 
 
 
 
 
-- teos-common**: obsahuje sdílené funkce na straně serveru a klienta (užitečné při vytváření klienta).
+- **teos-common**: obsahuje sdílené funkce na straně serveru a klienta (užitečné při vytváření klienta).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: pro požadavky RPC
+- **server**: pro požadavky RPC
 
 
 
 
 
-- rpcuser** a **rpcpassword**: ověřování klientů RPC na serveru
+- **rpcuser** a **rpcpassword**: ověřování klientů RPC na serveru
 
 
 
 
 
-- regtest**: není vyžadován, ale je užitečný, pokud plánujete vývoj.
+- **regtest**: není vyžadován, ale je užitečný, pokud plánujete vývoj.
 
 
 
@@ -489,13 +489,13 @@ V nabídce "**Watchtower**" jsou k dispozici dvě možnosti:
 
 
 
-- Služba Watchtower**: tato možnost umožňuje provozovat službu Watchtower, tj. službu, která monitoruje kanály ostatních uzlů a odhaluje pokusy o podvod. V případě narušení váš Watchtower zveřejní transakci na Blockchain a umožní tak uživatelům získat zpět své zablokované prostředky. Po aktivaci se objeví URI vašeho Watchtower, který lze sdělit ostatním uzlům, aby jej mohly přidat do svého klienta Watchtower;
+- **Služba Watchtower**: tato možnost umožňuje provozovat službu Watchtower, tj. službu, která monitoruje kanály ostatních uzlů a odhaluje pokusy o podvod. V případě narušení váš Watchtower zveřejní transakci na Blockchain a umožní tak uživatelům získat zpět své zablokované prostředky. Po aktivaci se objeví URI vašeho Watchtower, který lze sdělit ostatním uzlům, aby jej mohly přidat do svého klienta Watchtower;
 
 
 
 
 
-- Watchtower Client**: tato možnost umožňuje připojení k externím strážním věžím pro ochranu vlastních kanálů. Po aktivaci můžete přidávat služby Watchtower, kterým bude váš uzel předávat potřebné informace o svých kanálech. Tyto hlídací věže pak budou monitorovat jejich stav a v případě pokusu o podvod zasáhnou.
+- **Watchtower Client**: tato možnost umožňuje připojení k externím strážním věžím pro ochranu vlastních kanálů. Po aktivaci můžete přidávat služby Watchtower, kterým bude váš uzel předávat potřebné informace o svých kanálech. Tyto hlídací věže pak budou monitorovat jejich stav a v případě pokusu o podvod zasáhnou.
 
 
 

@@ -199,7 +199,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-앱을 설치한 후 처음 실행하면 선택한 공급자(Tailscale에 사용 중인 서비스에 따라 Google, Apple ID, Microsoft 등)를 통해 인증하라는 메시지가 표시됩니다. 다른 플랫폼에서와 동일한 절차로, 일반적으로 OAuth 웹 페이지로 리디렉션됩니다. 그 후 모바일 앱이 VPN을 생성합니다(iOS의 경우 VPN 구성 애드온을 수락해야 합니다). 그러면 앱이 백그라운드에서 실행되어 어디서나 테일넷에 액세스할 수 있습니다. *참고: 모바일에서는 **한 번에 하나의 활성 VPN만 사용할 수 있습니다**. 따라서 동시에 다른 VPN이 연결되어 있지 않은지 확인해야 하며, 그렇지 않으면 Tailscale이 자체적으로 설정할 수 없습니다. Android에서는 특정 용도를 격리하려는 경우 별도의 작업 프로필을 설정할 수 있습니다(예: 특정 앱에 대해 Tailscale이 활성화된 프로필).
+앱을 설치한 후 처음 실행하면 선택한 공급자(Tailscale에 사용 중인 서비스에 따라 Google, Apple ID, Microsoft 등)를 통해 인증하라는 메시지가 표시됩니다. 다른 플랫폼에서와 동일한 절차로, 일반적으로 OAuth 웹 페이지로 리디렉션됩니다. 그 후 모바일 앱이 VPN을 생성합니다(iOS의 경우 VPN 구성 애드온을 수락해야 합니다). 그러면 앱이 백그라운드에서 실행되어 어디서나 테일넷에 액세스할 수 있습니다. **참고: 모바일에서는 한 번에 하나의 활성 VPN만 사용할 수 있습니다**. 따라서 동시에 다른 VPN이 연결되어 있지 않은지 확인해야 하며, 그
 
 
 
@@ -261,13 +261,13 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-- Interface 웹(관리자 콘솔)**: [https://login.tailscale.com](https://login.tailscale.com)에서 액세스할 수 있는 이 웹 콘솔은 Tailscale 네트워크의 중앙 대시보드입니다. 여기에는 모든 장치(*머신*), 온라인/오프라인 상태, Tailscale IP 주소 등이 나열됩니다. 여기에서 **장치 관리**(이름 변경, 키 만료, 경로 승인, 노드 비활성화), **사용자 관리**(조직적 맥락에서), 보안 규칙(ACL)을 정의할 수 있습니다. 또한 MagicDNS, 태그 또는 인증 키(자동화된 장치 추가를 위한 generate 이전 인증 키)와 같은 글로벌 옵션을 구성할 수 있습니다. Interface 웹은 개요를 확인하고 조정 서버를 통해 모든 노드에 전파될 변경 사항을 적용하는 데 매우 편리합니다. *예: **서브넷 경로** 또는 **엑시트 노드** 활성화는 콘솔에서 한 번의 클릭으로 해당 노드가 스스로 이를 알리면 완료됩니다.
+- **Interface 웹(관리자 콘솔)**: [https://login.tailscale.com](https://login.tailscale.com)에서 액세스할 수 있는 이 웹 콘솔은 Tailscale 네트워크의 중앙 대시보드입니다. 여기에는 모든 장치(*머신*), 온라인/오프라인 상태, Tailscale IP 주소 등이 나열됩니다. 여기에서 **장치 관리**(이름 변경, 키 만료, 경로 승인, 노드 비활성화), **사용자 관리**(조직적 맥락에서), 보안 규칙(ACL)을 정의할 수 있습니다. 또한 MagicDNS, 태그 또는 인증 키(자동화된 장치 추가를 위한 generate 이전 인증 키)와 같은 글로벌 옵션을 구성할 수 있습니다. Interface 웹은 개요
 
 
 
 
 
-- Interface 명령줄(CLI):** `tailscale` 명령은 Tailscale이 설치된 모든 장치에서 CLI에서 사용할 수 있습니다. 이 CLI을 사용하면 연결(`tailscale up`), 상태 검사(`tailscale status`로 연결된 피어를 확인), 디버그(`tailscale ping <ip>`) 등 모든 작업을 로컬에서 수행할 수 있습니다. 예를 들어, 일부 기능은 **CLI** 또는 그 이상의 고급 기능도 있습니다:
+- **Interface 명령줄(CLI):** `tailscale` 명령은 Tailscale이 설치된 모든 장치에서 CLI에서 사용할 수 있습니다. 이 CLI을 사용하면 연결(`tailscale up`), 상태 검사(`tailscale status`로 연결된 피어를 확인), 디버그(`tailscale ping <ip>`) 등 모든 작업을 로컬에서 수행할 수 있습니다. 예를 들어, 일부 기능은 **CLI** 또는 그 이상의 고급 기능도 있습니다:
 
 
 
@@ -305,7 +305,7 @@ Umbrel과 Tailscale을 함께 사용하는 것은 특히 흥미로운 사용 사
 
 
 
-- 엄브렐에 테일스케일 설치하기: ** 엄브렐은 앱 스토어에 공식 테일스케일 애플리케이션을 제공합니다. 설치는 이보다 더 간단할 수 없습니다:
+- 엄브렐에 테일스케일 설치하기: **엄브렐은 앱 스토어에 공식 테일스케일 애플리케이션을 제공합니다. 설치는 이보다 더 간단할 수 없습니다:**
 
 
 
@@ -379,11 +379,11 @@ Tailscale 계정(Google/GitHub 등)을 통해 인증하거나 이메일을 입�
 
 
 
-- Interface 메인 엄브렐**: 브라우저에 `http://100.x.y.z`을 입력하여 엄브렐 대시보드에 액세스하세요
-- Bitcoin 노드**: 지연 시간 없이 Bitcoin 노드를 관리하고 동기화 및 통계 보기
-- 라이트닝 노드**: 즉각적인 응답성을 갖춘 ThunderHub, RTL 또는 기타 Lightning 관리 인터페이스를 사용하세요
-- Mempool**: 토르 지연 없이 Bitcoin 트랜잭션 및 Mempool 보기
-- noStrudel**: 엄브렐에서 호스팅되는 노스트르 서비스에 액세스하세요
+- **Interface 메인 엄브렐라**: 브라우저에 `http://100.x.y.z`을 입력하여 엄브렐라 대시보드에 액세스하세요
+- **Bitcoin 노드**: 지연 시간 없이 Bitcoin 노드를 관리하고 동기화 및 통계 보기
+- **라이트닝 노드**: 즉각적인 응답성을 갖춘 ThunderHub, RTL 또는 기타 Lightning 관리 인터페이스를 사용하세요
+- **Mempool**: 토르 지연 없이 Bitcoin 트랜잭션 및 Mempool 보기
+- **noStrudel**: 엄브렐에서 호스팅되는 노스트르 서비스에 액세스하세요
 
 
 
@@ -397,7 +397,7 @@ Tailscale 계정(Google/GitHub 등)을 통해 인증하거나 이메일을 입�
 
 
 
-- Sparrow wallet (Bitcoin)**: 이 외부 Wallet Bitcoin는 테일스케일 IP Address을 사용하여 엄브렐의 일렉트럼 서버에 직접 연결할 수 있습니다:
+- **Sparrow wallet (Bitcoin)**: 이 외부 Wallet Bitcoin는 테일스케일 IP Address을 사용하여 엄브렐의 일렉트럼 서버에 직접 연결할 수 있습니다:
 
 
 
@@ -424,7 +424,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- 제우스 (라이트닝)**: 이 Wallet 모바일 라이트닝은 Umbrel의 라이트닝 노드에 연결할 수 있습니다. 엔드포인트를 '.onion'으로 구성하는 대신, Umbrel의 Tailscale IP와 Lightning API 포트를 설정하기만 하면 됩니다. 연결은 토르에 비해 즉각적으로 이루어집니다.
+- **제우스 (라이트닝)**: 이 Wallet 모바일 라이트닝은 Umbrel의 라이트닝 노드에 연결할 수 있습니다. 엔드포인트를 '.onion'으로 구성하는 대신, Umbrel의 Tailscale IP와 Lightning API 포트를 설정하기만 하면 됩니다. 연결은 토르에 비해 즉각적으로 이루어집니다.
 
 
 
@@ -453,7 +453,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-엄브렐은 기본적으로 토르를 통한 원격 액세스를 제공합니다(웹 서비스에 '.onion' 주소를 제공). 토르는 기밀성(익명성)이 보장되고 등록이 필요 없다는 장점이 있지만, 많은 사용자가 일상적인 사용(페이지 로딩 속도, 시간 초과 등)에서 **토르가 느리고 불안정하다고 생각합니다 - *"토르를 통한 엄브렐은 너무 느리다"* 일부 불만을 토로합니다.
+엄브렐은 기본적으로 토르를 통한 원격 액세스를 제공합니다(웹 서비스에 '.onion' 주소를 제공). 토르는 기밀성(익명성)이 보장되고 등록이 필요 없다는 장점이 있지만, 많은 사용자가 일상적인 사용(페이지 로딩 속도, 시간 초과 등)에서 **토르가 느리고 불안정하다고 생각합니다** - *"토르를 통한 엄브렐은 너무 느리다"* 일부 불만을 토로합니다.
 
 
 
@@ -465,7 +465,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-**요약하자면, 대화형 사용(라이트닝 지갑, 빈번한 웹 인터페이스)의 경우, 테일스케일은 약간의 외부 의존성을 감수하는 대신 토르에 비해 상당한 편의성과 속도를 제공합니다. 많은 사람들이 *둘 다* 사용하기로 선택합니다: 일상적인 용도로는 Tailscale을 사용하고, 다른 사람을 VPN에 초대하지 않고 액세스를 공유할 때나 비상용으로 Tor를 사용합니다.
+**요약하자면, 대화형 사용(라이트닝 지갑, 빈번한 웹 인터페이스)의 경우, 테일스케일은 약간의 외부 의존성을 감수하는 대신 토르에 비해 상당한 편의성과 속도를 제공합니다.** 많은 사람들이 *둘 다* 사용하기로 선택합니다: 일상적인 용도로는 Tailscale을 사용하고, 다른 사람을 VPN에 초대하지 않고 액세스를 공유할 때나 비상용으로 Tor를 사용합니다.
 
 
 
@@ -503,7 +503,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-**ACL 및 액세스 제어: 특정 장치를 격리하거나 특정 서비스에 대한 액세스를 제한하는 데 이상적인 JSON 규칙을 통해 네트워크에서 누가 무엇에 액세스할 수 있는지 정확하게 정의할 수 있습니다.
+**ACL 및 액세스 제어**: 특정 장치를 격리하거나 특정 서비스에 대한 액세스를 제한하는 데 이상적인 JSON 규칙을 통해 네트워크에서 누가 무엇에 액세스할 수 있는지 정확하게 정의할 수 있습니다.
 
 
 
@@ -519,7 +519,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-**테일드롭: 에어드롭의 안전한 대안으로, 플랫폼이나 위치에 상관없이 테일스케일 장치 간에 파일을 전송할 수 있습니다. Apple 생태계와 물리적 근접성에만 국한된 AirDrop과 달리, Taildrop은 다른 국가에 있더라도 모든 장치(Windows, Mac, Linux, Android, iOS) 간에 작동합니다. 파일은 중앙 서버를 거치지 않고 엔드투엔드 암호화를 통해 장치 간에 직접 전송됩니다. 시스템에 따라 명령줄 `tailscale file cp` 또는 그래픽 Interface 애플리케이션을 사용하세요.
+**테일드롭: 에어드롭의 안전한 대안으로, 플랫폼이나 위치에 상관없이 테일스케일 장치 간에 파일을 전송할 수 있습니다.** Apple 생태계와 물리적 근접성에만 국한된 AirDrop과 달리, Taildrop은 다른 국가에 있더라도 모든 장치(Windows, Mac, Linux, Android, iOS) 간에 작동합니다. 파일은 중앙 서버를 거치지 않고 엔드투엔드 암호화를 통해 장치 간에 직접 전송됩니다. 시스템에 따라 명령줄 `tailscale file cp` 또는 그래픽 Interface 애플리케이션을 사용하세요.
 
 
 
@@ -557,8 +557,8 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-- 단순성 및 성능** - 복잡한 네트워크 구성 없이 모든 플랫폼에 빠르게 설치할 수 있습니다. 트래픽은 와이어가드 프로토콜의 성능과 처리량을 제한하는 중앙 서버 없이 시스템 간 가장 직접적인 경로(P2P 메시)를 따라 이동합니다.
-- 보안 및 유연성** - 엔드투엔드 암호화, 공격 표면 감소, 고급 기능(ACL, SSO/MFA 인증). 필요에 따라 네트워크를 조정할 수 있도록 서브넷 라우터와 출구 노드를 사용하여 NAT 뒤에서 또는 이동 중에도 작동합니다.
+- **단순성 및 성능** - 복잡한 네트워크 구성 없이 모든 플랫폼에 빠르게 설치할 수 있습니다. 트래픽은 와이어가드 프로토콜의 성능과 처리량을 제한하는 중앙 서버 없이 시스템 간 가장 직접적인 경로(P2P 메시)를 따라 이동합니다.
+- **보안 및 유연성** - 엔드투엔드 암호화, 공격 표면 감소, 고급 기능(ACL, SSO/MFA 인증). 필요에 따라 네트워크를 조정할 수 있도록 서브넷 라우터와 출구 노드를 사용하여 NAT 뒤에서 또는 이동 중에도 작동합니다.
 
 
 
@@ -568,8 +568,8 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-- 외부 종속성** - 표준 버전에서 이 서비스는 Tailscale Inc. 인프라에 의존합니다. 이 종속성은 헤드스케일(자체 호스팅 대안)을 통해 우회할 수 있습니다.
-- 기타 제약 사항** - 부분적으로 비공개된 소스 코드, 특정 고급 용도의 무료 버전 제한, Layer 2(브로드캐스트/멀티캐스트) 미지원, 연결 설정을 위한 인터넷 액세스 필요.
+- **외부 종속성** - 표준 버전에서 이 서비스는 Tailscale Inc. 인프라에 의존합니다. 이 종속성은 헤드스케일(자체 호스팅 대안)을 통해 우회할 수 있습니다.
+- **기타 제약 사항** - 부분적으로 비공개된 소스 코드, 특정 고급 용도의 무료 버전 제한, Layer 2(브로드캐스트/멀티캐스트) 미지원, 연결 설정을 위한 인터넷 액세스 필요.
 
 
 
@@ -595,9 +595,9 @@ Tailscale은 단순성과 효율성을 갖춘 셀프 호스팅의 필수 도구�
 
 
 
-- 테일즈스케일 문서 센터**: [docs.tailscale.com](https://docs.tailscale.com) - 전체 영문 문서, 설치 가이드, 튜토리얼 및 기술 참조 자료.
-- 테일스케일 작동 방식**: [테일스케일 작동 방식](https://tailscale.com/blog/how-tailscale-works) - 테일스케일의 내부 작동 방식을 설명하는 자세한 문서입니다.
-- 변경 로그**: [tailscale.com/changelog](https://tailscale.com/changelog) - 업데이트 및 새로운 기능을 추적합니다.
+- **테일즈스케일 문서 센터**: [docs.tailscale.com](https://docs.tailscale.com) - 전체 영문 문서, 설치 가이드, 튜토리얼 및 기술 참조 자료.
+- **테일스케일 작동 방식**: [테일스케일 작동 방식](https://tailscale.com/blog/how-tailscale-works) - 테일스케일의 내부 작동 방식을 설명하는 자세한 문서입니다.
+- **변경 로그**: [tailscale.com/changelog](https://tailscale.com/changelog) - 업데이트 및 새로운 기능을 추적합니다.
 
 
 
@@ -607,9 +607,9 @@ Tailscale은 단순성과 효율성을 갖춘 셀프 호스팅의 필수 도구�
 
 
 
-- 홈랩** 튜토리얼: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - 셀프 호스팅을 위한 구체적인 가이드입니다.
-- 출구 노드 구성하기**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - 출구 노드 구성에 대한 자세한 안내서입니다.
-- 테일드롭**을 사용합니다: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Tailscale 장치 간에 파일을 전송합니다.
+- **홈랩** 튜토리얼: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - 셀프 호스팅을 위한 구체적인 가이드입니다.
+- **출구 노드 구성하기**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - 출구 노드 구성에 대한 자세한 안내서입니다.
+- **테일드롭**을 사용합니다: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Tailscale 장치 간에 파일을 전송합니다.
 
 
 
@@ -619,7 +619,7 @@ Tailscale은 단순성과 효율성을 갖춘 셀프 호스팅의 필수 도구�
 
 
 
-- 테일스케일과 다른 솔루션 비교**: [tailscale.com/compare](https://tailscale.com/compare) - 다른 VPN 및 네트워크 솔루션(제로티어, OpenVPN 등)과의 자세한 비교.
+- **테일스케일과 다른 솔루션 비교**: [tailscale.com/compare](https://tailscale.com/compare) - 다른 VPN 및 네트워크 솔루션(제로티어, OpenVPN 등)과의 자세한 비교.
 
 
 
@@ -629,9 +629,9 @@ Tailscale은 단순성과 효율성을 갖춘 셀프 호스팅의 필수 도구�
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - 토론, 질문 및 피드백.
-- 깃허브**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - 고객 소스 코드, 개발을 추적하고 문제를 보고할 수 있는 곳입니다.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - 사용자 및 개발자 커뮤니티입니다.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - 토론, 질문 및 피드백.
+- **깃허브**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - 고객 소스 코드, 개발을 추적하고 문제를 보고할 수 있는 곳입니다.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - 사용자 및 개발자 커뮤니티입니다.
 
 
 

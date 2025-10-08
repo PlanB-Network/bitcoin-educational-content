@@ -397,7 +397,7 @@ Tailscaleはまた、他のデバイスにインストールされたBitcoinとL
 
 
 
-- Sparrow wallet（Bitcoin）**：この外部Wallet Bitcoinは、Tailscale IP Addressを使用してUmbrelのElectrumサーバーに直接接続することができます：
+- **Sparrow wallet（Bitcoin）**：この外部Wallet Bitcoinは、Tailscale IP Addressを使用してUmbrelのElectrumサーバーに直接接続することができます：
 
 
 

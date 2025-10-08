@@ -34,7 +34,7 @@ Käyttäjät, jotka ovat luoneet salkun *Single-share Backup*:lla, voivat milloi
 
 
 
-Multi-share Backup* on käytettävissä Trezor Model T:ssä, Safe 3:ssa ja Safe 5:ssä. Trezor Model One ei tue tätä ominaisuutta.
+**Multi-share Backup** on käytettävissä Trezor Model T:ssä, Safe 3:ssa ja Safe 5:ssä. Trezor Model One ei tue tätä ominaisuutta.
 
 
 

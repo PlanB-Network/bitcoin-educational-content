@@ -34,7 +34,7 @@ description: 트레저의 단일 공유 및 다중 공유 Mnemonic 문구
 
 
 
-다중 공유 백업*은 Trezor 모델 T, Safe 3 및 Safe 5에서 사용할 수 있습니다. 이 기능은 Trezor 모델 1에서는 지원되지 않습니다.
+다중 공유 백업은 Trezor 모델 T, Safe 3 및 Safe 5에서 사용할 수 있습니다. 이 기능은 Trezor 모델 1에서는 지원되지 않습니다.
 
 
 

@@ -4,7 +4,7 @@ description: Bot Telegram sẽ mua Bitcoin một cách bí mật
 ---
 ![image](assets/cover.webp)
 
-_Hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 ## Giới thiệu
 

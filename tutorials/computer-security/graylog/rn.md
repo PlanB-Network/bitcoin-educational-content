@@ -57,9 +57,9 @@ Graylog ni igikoresho co gusesangura no kugenzura gituma vyoroha kumenya inyifat
 
 
 
-- MongoDB 7**, ni verisiyo y'ubu igenewe Graylog (ubuke 5.0.7, ubunini 7.x)
-- Gushaka gufungura**, inkomoko yuguruye Fork y'ubushakashatsi bukomeye bwakozwe na Amazon (ubuke 1.1.x, ubunini 2.15.x)
-- GufunguraJDK 17**
+- MongoDB 7, ni verisiyo y'ubu igenewe Graylog (ubuke 5.0.7, ubunini 7.x)
+- **Gushaka gufungura**, inkomoko yuguruye Fork y'ubushakashatsi bukomeye bwakozwe na Amazon (ubuke 1.1.x, ubunini 2.15.x)
+- **GufunguraJDK 17**
 
 
 
@@ -285,8 +285,8 @@ Iyi nzira ya OpenSearch yagenewe gushinga urudodo rumwe. Aha hariho insobanuro z
 - inzira.ibitabo: /var/ibitabo/ugufungura ubushakashatsi: iyi nzira isobanura aho amadosiye y'inyandiko y'ubushakashatsi abikwa, hano muri "**/var/ibitabo/ugufungura ubushakashatsi**".
 - discovery.type: urudodo rumwe: iyi parametere itunganiriza OpenSearch gukorana n'urudodo rumwe, ni co gituma uguhitamwo "**urudodo rumwe**".
 - network.host: 127.0.0.1: iyi ntunganyo ituma OpenSearch yumviriza gusa ku nzira yayo ya Interface, ivyo bikaba bihagije kuko iri kuri server imwe na Graylog.
-- action.auto_create_index: false**: mu guhagarika urutonde rwikora, OpenSearch ntizokwikora urutonde iyo inyandiko yoherejwe ata rutonde ruriho.
-- plugins.security.disabled: true**: iyi nzira izibira umutekano wa OpenSearch, bisobanura ko ata kwemeza, gucunga uburenganzira canke gukingira amakuru. Iyi nzira izigama umwanya iyo ushiraho Graylog, ariko ikwiye kwirindwa mu gukora (raba [iyi paji](https://opensearch.org/docs/1.0/umutekano-plugin/index/)).
+- **action.auto_create_index: false**: mu guhagarika urutonde rwikora, OpenSearch ntizokwikora urutonde iyo inyandiko yoherejwe ata rutonde ruriho.
+- **plugins.security.disabled: true**: iyi nzira izibira umutekano wa OpenSearch, bisobanura ko ata kwemeza, gucunga uburenganzira canke gukingira amakuru. Iyi nzira izigama umwanya iyo ushiraho Graylog, ariko ikwiye kwirindwa mu gukora (raba [iyi paji](https://opensearch.org/docs/1.0/umutekano-plugin/index/)).
 
 
 
@@ -431,8 +431,8 @@ Reka dutangure dutunganye aya mahitamwo abiri:
 
 
 
-- password_secret**: iyi parameter ikoreshwa mu gusobanura urufunguzo rukoreshwa na Graylog kugira ngo ikingire ububiko bw'amajambo banga y'abakoresha (mu mpwemu y'urufunguzo rw'umunyu). Urufunguzo rutegerezwa kuba **rwihariye** kandi **rudasanzwe**.
-- root_password_sha2**: iyi parametere ihuye n'ijambobanga ry'umuyobozi mburabuzi muri Graylog. Ibikwa nk'igitabu ca Hash SHA-256.
+- **password_secret**: iyi parameter ikoreshwa mu gusobanura urufunguzo rukoreshwa na Graylog kugira ngo ikingire ububiko bw'amajambo banga y'abakoresha (mu mpwemu y'urufunguzo rw'umunyu). Urufunguzo rutegerezwa kuba **rwihariye** kandi **rudasanzwe**.
+- **root_password_sha2**: iyi parametere ihuye n'ijambobanga ry'umuyobozi mburabuzi muri Graylog. Ibikwa nk'igitabu ca Hash SHA-256.
 
 
 
@@ -893,7 +893,7 @@ ssh [email protected]
 
 
 
-Hanyuma winjize n'ibigirankana **izina ry'ukoresha** n'ijambobanga** bitari vyo, kugira ngo **amakosa yo guhuza generate**. Mu dosiye "**/var/log/auth.log**", ibi bizotuma ubutumwa bwa generate busa n'ubu bukurikira:
+Hanyuma winjize n'ibigirankana **izina ry'ukoresha** n'**ijambobanga** bitari vyo, kugira ngo **amakosa yo guhuza generate**. Mu dosiye "**/var/log/auth.log**", ibi bizotuma ubutumwa bwa generate busa n'ubu bukurikira:
 
 
 

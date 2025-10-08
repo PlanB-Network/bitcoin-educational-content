@@ -205,7 +205,7 @@ Pokud jde o jednoduché přihlášení, tento nástroj má následující funkce
 
 - mobilní aplikace (také od F-Droid) a rozšíření prohlížeče, které umožňuje spravovat aliasy v jakékoli situaci;
 - dvoufaktorové ověřování pro každý nový pseudonym, což zvyšuje míru nezávislosti na samotné službě;
-- Podpora PGP (pro uživatele s příplatkem _Premium);
+- Podpora PGP (pro uživatele s příplatkem _Premium_);
 - jednoduché vytváření všech typů aliasů (vlastní, náhodné a UUID);
 - mezi bezplatnými plány v tomto odvětví možnost používat aliasy s více "oficiálními" e-mailovými schránkami. Ostatní konkurenti se omezují pouze na jednu.
 

@@ -31,7 +31,7 @@ Phoenixd es un nodo Lightning mínimo y especializado desarrollado por ACINQ. Es
 
 
 
-**Phoenixd es un nodo Lightning mínimo que utiliza ACINQ como su LSP (Lightning Service Provider) para obtener liquidez automática. Cuando recibe pagos Lightning, abre automáticamente canales con nodos ACINQ para asignar la capacidad entrante necesaria. Esta liquidez "sobre la marcha" es instantánea, pero se cobra exactamente al **1% + tasas Mining** de la cantidad recibida.
+**Phoenixd es un nodo Lightning mínimo que utiliza ACINQ como su LSP (Lightning Service Provider) para obtener liquidez automática. Cuando recibe pagos Lightning, abre automáticamente canales con nodos ACINQ para asignar la capacidad entrante necesaria. Esta liquidez "sobre la marcha" es instantánea, pero se cobra exactamente al 1% + tasas Mining de la cantidad recibida.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd es un nodo Lightning mínimo y especializado desarrollado por ACINQ. Es
 
 
 
-- Canales Lightning**: Abre, cierra y gestiona automáticamente según sea necesario
-- Liquidez entrante/saliente**: Provisión automática mediante empalme y apertura de canales
-- Crédito de tasas** : Los pequeños pagos insuficientes para justificar un canal se almacenan como provisión para futuros cargos
+- **Canales Lightning**: Abre, cierra y gestiona automáticamente según sea necesario
+- **Liquidez entrante/saliente**: Provisión automática mediante empalme y apertura de canales
+- **Crédito de tasas**: Los pequeños pagos insuficientes para justificar un canal se almacenan como provisión para futuros cargos
 
 
 
@@ -50,7 +50,7 @@ Phoenixd es un nodo Lightning mínimo y especializado desarrollado por ACINQ. Es
 
 
 
-**Usted controla sus claves privadas (seed de 12 palabras) y sus fondos. Phoenixd genera su Wallet localmente sin compartir nunca sus claves.
+**Usted controla sus claves privadas (seed de 12 palabras) y sus fondos. Phoenixd genera su Wallet localmente sin compartir nunca sus claves.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd requiere un entorno Linux (se recomienda Ubuntu/Debian), con algunos co
 
 
 
-- Servidor Linux**: VPS o máquina local con conexión estable
-- OpenJDK 21** : Entorno de ejecución Java
-- Conexión estable a Internet**: Para la sincronización con el Lightning Network
-- Nombre de dominio** (opcional) : Para un acceso HTTPS seguro a la API
+- **Servidor Linux**: VPS o máquina local con conexión estable
+- **OpenJDK 21**: Entorno de ejecución Java
+- **Conexión estable a Internet**: Para la sincronización con el Lightning Network
+- **Nombre de dominio** (opcional): Para un acceso HTTPS seguro a la API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Primera puesta en marcha
+**2. Primera puesta en marcha**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Demuestre la identidad de su servidor** (evita los ataques de intermediario)
-- Habilita el cifrado HTTPS**: todos los datos, incluidas las contraseñas de la API, se cifran durante el transporte
-- Emitido gratuitamente** por Let's Encrypt a través de la herramienta certbot
+- Demuestre la identidad de su servidor (evita los ataques de intermediario)
+- **Habilita el cifrado HTTPS**: todos los datos, incluidas las contraseñas de la API, se cifran durante el transporte
+- **Emitido gratuitamente** por Let's Encrypt a través de la herramienta certbot
 
 
 
@@ -297,10 +297,10 @@ Esta configuración le permite :
 
 
 
-- Acceso seguro a la API desde Internet**
-- Cifre sus contraseñas API** durante el transporte (para evitar que se transmitan en texto claro)
-- Integrar Phoenixd** en aplicaciones externas que requieran HTTPS
-- Cumplimiento de las normas de seguridad** para API financieras
+- **Acceso seguro a la API desde Internet**
+- **Cifre sus contraseñas API** durante el transporte (para evitar que se transmitan en texto claro)
+- Integrar **Phoenixd** en aplicaciones externas que requieran HTTPS
+- **Cumplimiento de las normas de seguridad** para API financieras
 
 
 
@@ -308,7 +308,7 @@ Configurar este proxy inverso HTTPS con nginx :
 
 
 
-**1. Configuración de Nginx
+**1. Configuración de Nginx**
 
 
 
@@ -341,7 +341,7 @@ sudo nginx -t && sudo systemctl reload nginx
 
 
 
-**2. Certificado SSL
+**2. Certificado SSL**
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Canon de servicio**: 1% de la capacidad del canal (2.115.000 Sats) = 21.150 Sats
-- Mining tasas**: ~3.289 Sats (por transacción On-Chain)
-- Total**: 24.439 Sats deducidos automáticamente
+- **Canon de servicio**: 1% de la capacidad del canal (2.115.000 Sats) = 21.150 Sats
+- **Mining tasas**: ~3.289 Sats (por transacción On-Chain)
+- **Total**: 24.439 Sats deducidos automáticamente
 
 
 
@@ -466,7 +466,7 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-**Si recibes pagos demasiado pequeños para justificar la apertura de un canal (< aprox. 25k Sats), se almacenan en un "crédito de cuota" no reembolsable. Este crédito se utilizará para pagar futuras cuotas de canal cuando recibas una cantidad suficiente.
+**Si recibes pagos demasiado pequeños para justificar la apertura de un canal (< aprox. 25k Sats), se almacenan en un "crédito de cuota" no reembolsable. Este crédito se utilizará para pagar futuras cuotas de canal cuando recibas una cantidad suficiente.**
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Recibo**: 1% + Mining tasa de liquidez automática
-- Gastos de envío**: 0.4% de gastos de envío en la Lightning Network
+- **Recibo**: 1% + Mining tasa de liquidez automática
+- **Gastos de envío**: 0.4% de gastos de envío en la Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Su tienda en línea recibe automáticamente una notificación cuando un cliente paga un pedido, lo que permite la validación instantánea de la transacción.
+**Su tienda en línea recibe automáticamente una notificación cuando un cliente paga un pedido, lo que permite la validación instantánea de la transacción.**
 
 
 
@@ -684,7 +684,7 @@ Gracias a su completa API REST, puede desarrollar aplicaciones :
 
 
 
-*directorio ~/.phoenix:** Realice copias de seguridad periódicas de esta carpeta (después de apagar Phoenixd) para conservar el estado del canal y acelerar la restauración.
+**directorio ~/.phoenix:** Realice copias de seguridad periódicas de esta carpeta (después de apagar Phoenixd) para conservar el estado del canal y acelerar la restauración.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Ambos utilizan ACINQ como PSL para la liquidez automática.
+**Ambos utilizan ACINQ como PSL para la liquidez automática.**
 
 
 
@@ -866,9 +866,9 @@ Con Phoenixd, construyes tu propia infraestructura Lightning privada con una mod
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Código fuente y versiones
-- Sitio del servidor Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Documentación completa
-- FAQ Phoenixd** : [Phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Preguntas más frecuentes
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Código fuente y versiones
+- **Sitio del servidor Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Documentación completa
+- **FAQ Phoenixd**: [Phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Preguntas más frecuentes
 
 
 
@@ -877,5 +877,5 @@ Con Phoenixd, construyes tu propia infraestructura Lightning privada con una mod
 
 
 
-- GitHub Issues** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Asistencia técnica
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Noticias y anuncios
+- **GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Asistencia técnica
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Noticias y anuncios

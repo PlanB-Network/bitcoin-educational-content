@@ -31,7 +31,7 @@ Phoenixd是ACINQ开发的一个最小化、专业化的Lightning节点。它是�
 
 
 
-**Phoenixd是一个最小的闪电节点，它使用ACINQ作为其LSP（闪电服务提供商），以实现自动流动性。当您收到闪电付款时，它会自动打开与 ACINQ 节点的通道，以分配必要的输入容量。这种 "即时 "流动性是瞬时的，但收取的费用正好是所收金额的**1% + Mining 费用**。
+**Phoenixd是一个最小的闪电节点，它使用ACINQ作为其LSP（闪电服务提供商），以实现自动流动性。当您收到闪电付款时，它会自动打开与 ACINQ 节点的通道，以分配必要的输入容量。这种 "即时 "流动性是瞬时的，但收取的费用正好是所收金额的1% + Mining 费用。**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd是ACINQ开发的一个最小化、专业化的Lightning节点。它是�
 
 
 
-- 闪电**通道：根据需要自动打开、关闭和管理
-- 输入/输出流动性**：通过拼接和通道开放自动提供
-- 费用贷记** ：小额付款不足以证明渠道的合理性，将作为未来收费的准备金储存起来
+- 闪电**通道**：根据需要自动打开、关闭和管理
+- 输入/输出流动性：通过拼接和通道开放自动提供
+- **费用贷记**：小额付款不足以证明渠道的合理性，将作为未来收费的准备金储存起来
 
 
 
@@ -50,7 +50,7 @@ Phoenixd是ACINQ开发的一个最小化、专业化的Lightning节点。它是�
 
 
 
-**您可以控制自己的私人密钥（12 个字的 seed）和资金。Phoenixd 在本地生成您的 Wallet，无需共享您的密钥。
+**您可以控制自己的私人密钥（12 个字的 seed）和资金。Phoenixd 在本地生成您的 Wallet，无需共享您的密钥。**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd 需要在 Linux 环境下运行（推荐使用 Ubuntu/Debian），并�
 
 
 
-- Linux 服务器**：VPS 或连接稳定的本地机器
-- OpenJDK 21** ：Java 运行环境
-- 稳定的互联网连接**：用于与 Lightning Network 同步
-- 域名**（可选） ：用于安全 HTTPS 访问应用程序接口
+- Linux 服务器：VPS 或连接稳定的本地机器
+- **OpenJDK 21**：Java 运行环境
+- 稳定的互联网连接：用于与 Lightning Network 同步
+- 域名**（可选）**：用于安全 HTTPS 访问应用程序接口
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2.首次启动
+**2.首次启动**
 
 
 
@@ -131,7 +131,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-*信息 1 - 备份：***
+**信息 1 - 备份：**
 
 
 ```
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- 证明服务器身份**（防止中间人攻击）
-- 启用 HTTPS** 加密：包括 API 密码在内的所有数据在传输过程中均已加密
-- 由 Let's Encrypt 通过 certbot 工具免费签发**
+- 证明服务器身份**（防止中间人攻击）**
+- 启用 **HTTPS** 加密：包括 API 密码在内的所有数据在传输过程中均已加密
+- 由 Let's Encrypt 通过 certbot 工具免费签发
 
 
 
@@ -297,10 +297,10 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- 从互联网安全访问应用程序接口**
-- 在传输过程中加密 API** 密码（防止密码以明文传输）
-- 将 Phoenixd** 集成到需要 HTTPS 的外部应用程序中
-- 遵守金融应用程序接口的安全标准**
+- 从互联网安全访问应用程序接口
+- 在传输过程中加密 **API 密码**（防止密码以明文传输）
+- 将 **Phoenixd** 集成到需要 HTTPS 的外部应用程序中
+- 遵守金融应用程序接口的安全标准
 
 
 
@@ -407,7 +407,7 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-**基本原理：** 当您收到闪电付款时，Phoenixd 有时需要打开一个新通道才能收到付款。打开通道需要支付一定费用，该费用**自动从收到的金额中扣除。
+**基本原理：** 当您收到闪电付款时，Phoenixd 有时需要打开一个新通道才能收到付款。打开通道需要支付一定费用，该费用**自动从收到的金额中扣除**。
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- 服务费**：渠道容量的 1%（2,115,000 千兆瓦-15）= 21,150 千兆瓦-15
-- Mining 费用**：~3,289 Sats（用于 On-Chain 交易）
-- 总计**：24,439 Sats 自动扣除
+- 服务费：渠道容量的 1%（2,115,000 千兆瓦-15）= 21,150 千兆瓦-15
+- **Mining 费用**：~3,289 Sats（用于 On-Chain 交易）
+- **总计**：24,439 Sats 自动扣除
 
 
 
@@ -543,16 +543,16 @@ curl http://localhost:9740/getbalance \
 
 
 
-- 收款**：1% + Mining 自动清算费
-- 运费**： 0.Lightning Network运费的4%路由费
+- 收款：1% + Mining 自动清算费
+- 运费**：** 0.Lightning Network运费的4%路由费
 
 
 
-**Webhooks：** Webhooks使Phoenixd能够在事件发生时（收到付款、支付Invoice、通道打开等）自动通知**您的应用程序。您的应用程序将收到即时的 HTTP 通知，而无需不断地向 Phoenixd 请求更新。
+**Webhooks：** Webhooks使Phoenixd能够在事件发生时（收到付款、支付Invoice、通道打开等）自动通知**您的应用程序**。您的应用程序将收到即时的 HTTP 通知，而无需不断地向 Phoenixd 请求更新。
 
 
 
-**当客户为订单付款时，您的在线商店会自动收到通知，以便即时验证交易。
+**当客户为订单付款时，您的在线商店会自动收到通知，以便即时验证交易。**
 
 
 
@@ -684,7 +684,7 @@ PHOENIXD_API_PASSWORD=your_password_phoenixd
 
 
 
-*~/.phoenix 目录：** 定期（在 Phoenixd 关闭后）备份此文件夹，以保留通道状态并加快恢复速度。
+**~/.phoenix 目录：** 定期（在 Phoenixd 关闭后）备份此文件夹，以保留通道状态并加快恢复速度。
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**两者都使用 ACINQ 作为自动流动性的 LSP。
+**两者都使用 ACINQ 作为自动流动性的 LSP。**
 
 
 
@@ -866,9 +866,9 @@ Phoenixd 是易用性与开发人员技术主权之间的绝佳折衷方案。�
 
 
 
-- GitHub Phoenixd** ：[github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - 源代码和发行版
-- 凤凰服务器**站点：[phoenix.acinq.co/server](https://phoenix.acinq.co/server) - 完整文档
-- 常见问题 Phoenixd** ：[phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - 常见问题
+- **GitHub Phoenixd**：[github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - 源代码和发行版
+- 凤凰服务器**站点**：[phoenix.acinq.co/server](https://phoenix.acinq.co/server) - 完整文档
+- 常见问题 **Phoenixd** ：[phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - 常见问题
 
 
 
@@ -877,5 +877,5 @@ Phoenixd 是易用性与开发人员技术主权之间的绝佳折衷方案。�
 
 
 
-- GitHub 问题** ：[github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - 技术支持
-- Twitter ACINQ** ：[@ACINQ_co](https://twitter.com/ACINQ_co) - 新闻和公告
+- **GitHub 问题**：[github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - 技术支持
+- **Twitter ACINQ**：[@ACINQ_co](https://twitter.com/ACINQ_co) - 新闻和公告

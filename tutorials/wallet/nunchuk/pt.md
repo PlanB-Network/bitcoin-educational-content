@@ -324,7 +324,7 @@ O Nunchuk mostra-lhe uma série de possibilidades que têm a ver, na sua maioria
 
 
 
-Neste guia, vamos criar uma _Hot Wallet e uma _Custom wallet_ detalhando os pormenores.
+Neste guia, vamos criar uma _Hot Wallet_ e uma _Custom wallet_ detalhando os pormenores.
 
 
 Comecemos pela _Carteira personalizada_.

@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Ukworohereza no gukoresha neza**: Igishushanyo ca Interface ca Elementary OS kiri hagati y’ivyo MacOs na Windows. Ukwo kumenyera bituma vyoroha kubikoresha, mbere n’ababikoresha batazi utuntu n’utundi.
+- **Ukworohereza no gukoresha neza**: Igishushanyo ca Interface ca Elementary OS kiri hagati y'ivyo MacOs na Windows. Ukwo kumenyera bituma vyoroha kubikoresha, mbere n'ababikoresha batazi utuntu n'utundi.
 
 
 
 
 
-- Umutekano**: Cokimwe n’ibindi bikoresho vyinshi vya Linux, Elementary OS ivyungukira ku mutekano wo hejuru. Guhindura ibintu bihoraho, gucunga uburenganzira n’ukubura ama virusi asanzwe bituma iba uburyo bwo kwizigirwa.
+- **Umutekano**: Cokimwe n'ibindi bikoresho vyinshi vya Linux, Elementary OS ivyungukira ku mutekano wo hejuru. Guhindura ibintu bihoraho, gucunga uburenganzira n'ukubura ama virusi asanzwe bituma iba uburyo bwo kwizigirwa.
 
 
 
 
 
-- Umuvuduko**: OS y’intango ni ugusangira kworoshe. Bisaba ibikoresho bike, ivyo bikaba bituma vyihuta kandi bibereye kuri orodinateri zifise imiterere mikeyi.
+- **Umuvuduko**: OS y'intango ni ugusangira kworoshe. Bisaba ibikoresho bike, ivyo bikaba bituma vyihuta kandi bibereye kuri orodinateri zifise imiterere mikeyi.
 
 
 
 
 
-- Ubuntu**: Sisitemu ni ubuntu rwose. Ariko rero, iyo uyikuye kuri Internet, urashobora gutanga intererano kugira ngo ushigikire abayiteguye.
+- **Ubuntu**: Sisitemu ni ubuntu rwose. Ariko rero, iyo uyikuye kuri Internet, urashobora gutanga intererano kugira ngo ushigikire abayiteguye.
 
 
 
 
 
-- Umuryango ukora**: Umuryango ukikuje Elementary OS ni uwutandukanye kandi urasubiza. Iyo ushikiwe n’ingorane, urashobora kuronka imfashanyo bitagoranye ku mahuriro canke ku mbuga ngurukanabumenyi.
+- **Umuryango ukora**: Umuryango ukikuje Elementary OS ni uwutandukanye kandi urasubiza. Iyo ushikiwe n'ingorane, urashobora kuronka imfashanyo bitagoranye ku mahuriro canke ku mbuga ngurukanabumenyi.
 
 
 
@@ -61,7 +61,7 @@ Imbere yo gutangura gushiramwo, urabe neza ko ufise ibi bikoresho bikurikira:
 
 
 - **Urufunguzo rwa USB** rw'imiburiburi 12 GB
-- RAM** ububiko bwa 4 GB
+- **RAM** ububiko bwa 4 GB
 - Disiki **Hard ya 20 GB** canke irenga kugira ngo ukoreshe neza
 
 

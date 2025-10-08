@@ -37,7 +37,7 @@ Jos sinulla on jo solmu isännöitynä esimerkiksi Umbrelissa tai Start9:ssä, A
 On myös mahdollista asentaa Alby Hub suoraan tietokoneellesi, vaikka tämä vaihtoehto on vähemmän käytännöllinen, koska tietokoneesi on oltava jatkuvasti aktiivinen, jotta Lightning-solmuun voidaan etäyhteydellä päästä. Tämä vaihtoehto voi kuitenkin sopia erityistarpeisiisi.
 
 
-- Alby Hub henkilökohtaisella palvelimella :**
+- Alby Hub henkilökohtaisella palvelimella:
 
 Edistyneille käyttäjille Alby Hub voidaan ottaa käyttöön henkilökohtaisella palvelimella yksinkertaisella komennolla. Tätä vaihtoehtoa ei käsitellä tässä oppaassa, mutta löydät omat ohjeet [Albyn GitHubista](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 

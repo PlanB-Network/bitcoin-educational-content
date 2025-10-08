@@ -7,7 +7,7 @@ description: En Telegram-tilgjengelig forvaringsenhet Wallet
 ![cover](assets/cover.webp)
 
 
-_Denne opplæringen ble skrevet av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Denne opplæringen ble skrevet av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Sats.Mobi

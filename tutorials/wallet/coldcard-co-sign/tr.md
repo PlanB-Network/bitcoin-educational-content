@@ -15,7 +15,7 @@ description: Co-Sign özelliğini keşfedin ve COLDCARD'ınızda kullanın
 
 
 
-**Neden ColdCard Ortak İmza?
+**Neden ColdCard Ortak İmza?**
 
 
 
@@ -29,14 +29,14 @@ Harcama koşulları örneğin şöyle olabilir:
 
 
 
-- Büyüklük sınırları**: tek bir işlemde harcayabileceğiniz bitcoin miktarını sınırlandırın.
-- Hız limitleri:** zaman birimi başına (saat, gün, hafta vb.) kaç işlem gerçekleştirebileceğinize karar verir ve bunlar arasında minimum sayıda blok gerektirir.
-- Önceden onaylanmış adresler:** Yalnızca önceden onaylanmış adreslere bitcoin gönderilmesine izin verin.
-- İki faktörlü kimlik doğrulama:** İnternet erişimi olan NFC özellikli bir akıllı telefon/tablet üzerinde üçüncü taraf 2FA mobil uygulamasından (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) onay gerektirir.
+- **Büyüklük sınırları**: tek bir işlemde harcayabileceğiniz bitcoin miktarını sınırlandırın.
+- **Hız limitleri:** zaman birimi başına (saat, gün, hafta vb.) kaç işlem gerçekleştirebileceğinize karar verir ve bunlar arasında minimum sayıda blok gerektirir.
+- **Önceden onaylanmış adresler:** Yalnızca önceden onaylanmış adreslere bitcoin gönderilmesine izin verin.
+- **İki faktörlü kimlik doğrulama:** İnternet erişimi olan NFC özellikli bir akıllı telefon/tablet üzerinde üçüncü taraf 2FA mobil uygulamasından (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) onay gerektirir.
 
 
 
-**Nasıl çalışır
+**Nasıl çalışır**
 
 
 
@@ -118,7 +118,7 @@ Anahtar C = Harcama Politikası Anahtarı
 
 
 
-"ENTER "** düğmesine tıklayın.
+"ENTER" **düğmesine** tıklayın.
 
 
 
@@ -179,7 +179,7 @@ Burada, **"C Anahtarı "** veya **"Harcama Politikası Anahtarı**" bir işlemi 
 
 
 
-"Ortak İmza "** menüsünde **"Harcama Politikası**" üzerine tıklayın.
+"Ortak İmza" menüsünde **"Harcama Politikası"** üzerine tıklayın.
 
 
 
@@ -474,7 +474,7 @@ Bu paragrafta, Wallet Multisig Ortak İşaretimizi Nunchuk ile kullanacağız ve
 
 
 
-Gelişmiş Araçlar > ColdCard Ortak İmzalama* bölümüne gidin.
+Gelişmiş Araçlar > ColdCard Ortak İmzalama bölümüne gidin.
 
 
 Harcama koşullarını değiştirmemizi sağlayan menüye erişmek için "Harcama Politikası Anahtarımızı" girmemiz istenir. Bizim durumumuzda 12 x "sığır eti" giriyoruz.
@@ -558,7 +558,7 @@ Açılan web sayfasında, favori uygulamanızın 2FA kodunu girin. Ardından Col
 Daha önce Sparrow ile yaptığımız gibi bu sefer de Wallet Multisig 2'ye 3'ü Nunchuk'a aktaralım.
 
 
-Ayarlar > Multisig Cüzdanlar > 2/3: ColdCard Ortak İmza > ColdCard Dışa Aktarma* bölümüne gidin.
+Ayarlar > Multisig Cüzdanlar > 2/3: ColdCard Ortak İmza > **ColdCard Dışa Aktarma** bölümüne gidin.
 
 
 

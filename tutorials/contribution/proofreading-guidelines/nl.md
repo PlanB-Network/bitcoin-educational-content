@@ -205,7 +205,7 @@ Hieronder vind je een paar voorbeelden van opmaakproblemen waar je op moet lette
 
 
 
-- Let op vreemde interpunctie zoals ``\*\*\``, of ``**`` die een slechte weergave van het vetgedrukte symbool kunnen zijn. In de afbeelding hieronder zie je dat de sterretjes alleen aan de rechterkant van het woord staan, wat er vreemd uitziet.
+- Let op vreemde interpunctie zoals **\*\*\`**, of **\*\*** die een slechte weergave van het vetgedrukte symbool kunnen zijn. In de afbeelding hieronder zie je dat de sterretjes alleen aan de rechterkant van het woord staan, wat er vreemd uitziet.
 
 
 

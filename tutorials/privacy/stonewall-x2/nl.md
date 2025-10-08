@@ -8,13 +8,13 @@ description: Stonewall x2-transacties begrijpen en gebruiken
 ***WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, functioneren Stonewallx2 transacties alleen nog door handmatig PSBT's uit te wisselen tussen de betrokken partijen, mits beide gebruikers verbonden zijn met hun eigen Dojo. Het is echter mogelijk dat deze tools in de komende weken opnieuw worden gelanceerd. In de tussentijd kun je nog steeds dit artikel raadplegen om de theoretische werking van Stonewallx2 te begrijpen en te leren hoe je ze handmatig kunt uitvoeren.*
 
 
-als je overweegt om handmatig een Stonewallx2 uit te voeren, dan lijkt de procedure erg op de procedure die in deze handleiding wordt beschreven. Het belangrijkste verschil zit in de keuze van het type Stonewallx2 transactie: in plaats van `Online` te selecteren, klik je op `In Person / Manual`. Vervolgens moet u handmatig Exchange de PSBT's om de Stonewallx2 transactie te construeren. Als je fysiek dicht bij je medewerker bent, kun je de QR-codes achtereenvolgens scannen. Als je op afstand bent, kunnen JSON-bestanden worden uitgewisseld via een beveiligd communicatiekanaal. De rest van de tutorial blijft ongewijzigd._
+als je overweegt om handmatig een Stonewallx2 uit te voeren, dan lijkt de procedure erg op de procedure die in deze handleiding wordt beschreven. Het belangrijkste verschil zit in de keuze van het type Stonewallx2 transactie: in plaats van `Online` te selecteren, klik je op `In Person / Manual`. Vervolgens moet u handmatig **Exchange** de PSBT's om de Stonewallx2 transactie te construeren. Als je fysiek dicht bij je medewerker bent, kun je de QR-codes achtereenvolgens scannen. Als je op afstand bent, kunnen JSON-bestanden worden uitgewisseld via een beveiligd communicatiekanaal. De rest van de tutorial blijft ongewijzigd.
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
+we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is.
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
+deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied.
 
 
 ---

@@ -324,7 +324,7 @@ Nunchuk hukuonyesha idadi ya uwezekano ambao unapaswa kufanya, kwa sehemu kubwa,
 
 
 
-Katika mwongozo huu tutaunda _Hot Wallet na __wallet Maalum_ kwa kufafanua maelezo.
+Katika mwongozo huu tutaunda _Hot Wallet_ na __Wallet Maalum__ kwa kufafanua maelezo.
 
 
 Wacha tuanze na _Custom wallet_.
@@ -434,7 +434,7 @@ lakini bado tunabofya _Pokea_ ili kupokea nyingine.
 
 
 
-Madhumuni ni kwako kujua kwamba Nunchuk anaripoti Address hii mpya kwako kama __Address Isiyotumiwa_ lakini pia inakuonyesha kuwa _Address zilizotumiwa_ na hesabu yake.
+Madhumuni ni kwako kujua kwamba Nunchuk anaripoti Address hii mpya kwako kama **Address Isiyotumiwa** lakini pia inakuonyesha kuwa **Address zilizotumiwa** na hesabu yake.
 
 
 

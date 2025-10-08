@@ -17,7 +17,7 @@ Mu bijanye n'ibipapuro vy'amahera vy'ubukuru (HD), inzira y'ugukura yerekeza ku 
 
 
 
-- `m / intumbero' / Coin-ubwoko' / konti' / ihinduka / Address-index` yerekana gusa umubare wa Address yakira n'imfunguruzo zayo zibiri, kugira ngo itandukanye n'abavukanyi bayo ku burebure bumwe ku ishami rimwe. Nk’akarorero, Address ya mbere ikomotse ifise urutonde `0`, iya kabiri Address ifise urutonde `1`, n’ibindi...*
+- `m / intumbero' / Coin-ubwoko' / konti' / ihinduka / Address-index` yerekana gusa umubare wa Address yakira n'imfunguruzo zayo zibiri, kugira ngo itandukanye n'abavukanyi bayo ku burebure bumwe ku ishami rimwe. Nk'akarorero, Address ya mbere ikomotse ifise urutonde `0`, iya kabiri Address ifise urutonde `1`, n'ibindi...
 
 
 Nk'akarorero, nimba Address yanje yakira ifise inzira y'ugukomoka `m / 86' / 0' / 0' / 0 / 5`, turashobora gukuramwo amakuru akurikira:

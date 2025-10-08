@@ -149,8 +149,8 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-- Android-Flash-Tool**: Verwenden Sie das offizielle Google-Tool [flash.android.com] (https://flash.android.com), um Ihr Pixel-Gerät ganz einfach über Ihren Webbrowser (Chrome/Edge erforderlich) auf das Standard-Android zurückzusetzen
-- Alternative**: Werksbilder manuell von [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Android-Flash-Tool**: Verwenden Sie das offizielle Google-Tool [flash.android.com](https://flash.android.com), um Ihr Pixel-Gerät ganz einfach über Ihren Webbrowser (Chrome/Edge erforderlich) auf das Standard-Android zurückzusetzen
+- **Alternative**: Werksbilder manuell von [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-- Starten Sie Ihr Gerät mindestens einmal** mit dem ursprünglichen Standardsystem
-- Testen Sie alle Funktionen**: SMS, Anrufe, Wi-Fi, mobile Daten
-- Wichtig**: Stellen Sie sicher, dass Sie SMS senden/empfangen und Anrufe tätigen/empfangen können (auch über WiFi und 4G/5G). Wenn es auf dem Stock-System nicht funktioniert, wird es auch auf LineageOS nicht funktionieren!
-- Neuere Geräte**: Bei einigen muss VoLTE/VoWiFi mindestens einmal auf dem Standardsystem verwendet werden, um IMS bereitzustellen
+- Starten Sie Ihr Gerät mindestens einmal mit dem ursprünglichen Standardsystem
+- **Testen Sie alle Funktionen**: SMS, Anrufe, Wi-Fi, mobile Daten
+- **Wichtig**: Stellen Sie sicher, dass Sie SMS senden/empfangen und Anrufe tätigen/empfangen können (auch über WiFi und 4G/5G). Wenn es auf dem Stock-System nicht funktioniert, wird es auch auf LineageOS nicht funktionieren!
+- **Neuere Geräte**: Bei einigen muss VoLTE/VoWiFi mindestens einmal auf dem Standardsystem verwendet werden, um IMS bereitzustellen
 
 
 
@@ -171,8 +171,8 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-- Entfernen Sie alle Google**-Konten von Ihrem Gerät, um den Werksreset-Schutz zu umgehen, der die Aktivierung blockieren kann
-- Vollständige Sicherung** : Bei diesem Vorgang wird Ihr Telefon vollständig gelöscht. Sichern Sie Fotos, Kontakte, Anwendungen und wichtige Dateien
+- Entfernen Sie alle **Google-Konten** von Ihrem Gerät, um den Werksreset-Schutz zu umgehen, der die Aktivierung blockieren kann
+- **Vollständige Sicherung**: Bei diesem Vorgang wird Ihr Telefon vollständig gelöscht. Sichern Sie Fotos, Kontakte, Anwendungen und wichtige Dateien
 
 
 
@@ -216,7 +216,7 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-⚠️ **Diese Anweisungen sind spezifisch für LineageOS 22.2. Befolgen Sie jeden Schritt genau. Machen Sie nicht weiter, wenn etwas fehlschlägt!
+⚠️ **Diese Anweisungen sind spezifisch für LineageOS 22.2. Befolgen Sie jeden Schritt genau. Machen Sie nicht weiter, wenn etwas fehlschlägt!**
 
 
 
@@ -249,8 +249,8 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-- LineageOS** bauen: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Erforderliche Dateien**: Laden Sie die 3 erforderlichen Dateien von dieser Seite herunter (sie werden in den folgenden Schritten verwendet):
+- **LineageOS** bauen: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Erforderliche Dateien**: Laden Sie die 3 erforderlichen Dateien von dieser Seite herunter (sie werden in den folgenden Schritten verwendet):
   - lineage-22.2-YYYYYMMDD-nightly-flame-signed.zip" (Haupt-ROM)
   - dtbo.img` (Partitions-Gerätebaum-Blob)
   - boot.img" (Wiederherstellung LineageOS)
@@ -269,13 +269,13 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-⚠️ **Dieser Schritt löscht alle Ihre Daten!
+⚠️ **Dieser Schritt löscht alle Ihre Daten!**
 
 
 
 
 
-- Testen Sie die ADB-Verbindung**: Schließen Sie Ihr Gerät über USB an und testen Sie es mit dem Befehl `adb devices` von Ihrem Computerterminal aus
+- **Testen Sie die ADB-Verbindung**: Schließen Sie Ihr Gerät über USB an und testen Sie es mit dem Befehl `adb devices` von Ihrem Computerterminal aus
 
 
 
@@ -289,7 +289,7 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-- Verbindung** auf Ihrem Telefon autorisieren
+- **Verbindung** auf Ihrem Telefon autorisieren
 
 
 
@@ -303,7 +303,7 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-- Booten in den Bootloader-Modus** :
+- **Booten in den Bootloader-Modus**:
 
 
 ```
@@ -317,7 +317,7 @@ Oder halten Sie **Lautstärke runter + Power** Gerät aus
 
 
 
-- Überprüfen Sie die fastboot**-Verbindung:
+- Überprüfen Sie die **fastboot**-Verbindung:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Entsperren Sie den Bootloader** :
+- **Entsperren Sie den Bootloader**:
 
 
 ```
@@ -370,7 +370,7 @@ Verwenden Sie auf dem Gerät die Lautstärketasten zum Navigieren und drücken S
 
 
 
-- Aktivieren Sie nach dem automatischen Neustart** das USB-Debugging in den Entwickleroptionen erneut
+- Aktivieren Sie nach dem automatischen Neustart das USB-Debugging in den Entwickleroptionen erneut
 
 
 
@@ -385,8 +385,8 @@ Verwenden Sie auf dem Gerät die Lautstärketasten zum Navigieren und drücken S
 
 
 
-- Bootloader neu starten**: Lautstärke runter + Power
-- Flash** (ersetzen Sie `/path/to/` durch den Ordner, in den Sie die Datei heruntergeladen haben) :
+- **Bootloader neu starten**: Lautstärke runter + Power
+- **Flash** (ersetzen Sie `/path/to/` durch den Ordner, in den Sie die Datei heruntergeladen haben) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash Recovery** (ersetzen Sie `/path/to/` durch den Ordner, in den Sie die Datei heruntergeladen haben) :
+- **Flash Recovery** (ersetzen Sie `/path/to/` durch den Ordner, in den Sie die Datei heruntergeladen haben) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Neustart in der Wiederherstellung** zur Überprüfung
+- **Neustart in der Wiederherstellung** zur Überprüfung
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Neustart im Wiederherstellungsmodus**: Leiser + Ein/Aus → Wiederherstellungsmodus
+- **Neustart im Wiederherstellungsmodus**: Leiser + Ein/Aus → Wiederherstellungsmodus
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Werksrückstellung** : Tippen Sie "Werksreset" → "Daten formatieren / Werksreset"
+- **Werksrückstellung**: Tippen Sie "Werksreset" → "Daten formatieren / Werksreset"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Zurück zum Hauptmenü**
-- LineageOS** von der Seite laden:
+- **Zurück zum Hauptmenü**
+- **LineageOS** von der Seite laden:
    - Auf dem Gerät: "Update anwenden" → "Von ADB anwenden"
    - Auf dem PC: "adb -d sideload /path/to/lineageos.zip"
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Neustart**: "System jetzt neu starten"
-- Erster Start**: Kann bis zu 15 Minuten dauern
+- **Neustart**: "System jetzt neu starten"
+- **Erster Start**: Kann bis zu 15 Minuten dauern
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Firmware-Kompatibilität**: Stellen Sie sicher, dass Sie die erforderliche Firmware-Version auf der Download-Seite Ihres Modells überprüfen
-- Den Bootloader nach der Installation von LineageOS nie wieder sperren**
-- Befolgen Sie die spezifischen Anweisungen** für Ihr Gerät
+- **Firmware-Kompatibilität**: Stellen Sie sicher, dass Sie die erforderliche Firmware-Version auf der Download-Seite Ihres Modells überprüfen
+- **Den Bootloader nach der Installation von LineageOS nie wieder sperren**
+- Befolgen Sie die **spezifischen Anweisungen** für Ihr Gerät
 
 
 
@@ -559,11 +559,11 @@ Schlankes Interface, nahe am Standard-Android, ohne Google. Einfache Konfigurati
 
 
 
-- Navigation**: Organische Karten (Offline-Karten auf Basis von OpenStreetMap)
-- Kommunikation**: Signal (Ende-zu-Ende-verschlüsselte Nachrichten), K-9 Mail (kostenloser E-Mail-Client)
-- Medien**: NewPipe (werbefreies, verfolgungsfreies YouTube), VLC (universeller Media-Player)
-- Produktivität**: Nextcloud (selbst gehostete Cloud), Simple Calendar (CalDAV-Synchronisierung)
-- Sicherheit**: Bitwarden (Passwortmanager), Aegis Authenticator (2FA-Codes)
+- **Navigation**: Organische Karten (Offline-Karten auf Basis von OpenStreetMap)
+- **Kommunikation**: Signal (Ende-zu-Ende-verschlüsselte Nachrichten), K-9 Mail (kostenloser E-Mail-Client)
+- **Medien**: NewPipe (werbefreies, verfolgungsfreies YouTube), VLC (universeller Media-Player)
+- **Produktivität**: Nextcloud (selbst gehostete Cloud), Simple Calendar (CalDAV-Synchronisierung)
+- **Sicherheit**: Bitwarden (Passwortmanager), Aegis Authenticator (2FA-Codes)
 
 
 

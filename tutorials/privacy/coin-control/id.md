@@ -264,7 +264,7 @@ Jika desktop Wallet Anda adalah Electrum, Anda harus mengetahui bahwa Anda dapat
 
 
 
-Bahkan dengan perangkat lunak ini, Anda dapat memilih lebih dari satu UTXO, dibantu dengan tombol __CTRL_ pada keyboard Anda jika mereka tidak berdekatan satu sama lain.
+Bahkan dengan perangkat lunak ini, Anda dapat memilih lebih dari satu UTXO, dibantu dengan tombol __CTRL__ pada keyboard Anda jika mereka tidak berdekatan satu sama lain.
 
 
 

@@ -101,9 +101,9 @@ Ku bijanye n’amaderesi ya IP, ivyo bitanga:
 
 
 
-- Urubuga rwo muhira**: 192.168.1.0/24
-- Urubuga rw'amashirahamwe**: 192.168.100.0/24
-- Urubuga rw'imigende y'abacungera amashanyarazi**: 192.168.110.0/24
+- **Urubuga rwo muhira**: 192.168.1.0/24
+- **Urubuga rw'amashirahamwe**: 192.168.100.0/24
+- **Urubuga rw'imigende y'abacungera amashanyarazi**: 192.168.110.0/24
 
 
 + IP Address y'Urunganwe rwa 1 (Amadirisho) mu mugende: 192.168.110.2/24
@@ -219,10 +219,10 @@ Igice `[Interface]` gikoreshwa mu gutangaza igice ca server. Akira amakuru amwe 
 
 
 
-- Address**: IP Address ya Interface WireGuard iri mu mugende wa VPN (umurongo muto utandukanye na LAN iri kure)
-- SaveConfig**: ivyagezwe birabikwa (kandi bikarindwa) igihe cose Interface ikora
-- Igikoresho co kwumviriza**: Igikoresho co kwumviriza ca WireGuard. Muri iki gihe, 51820 ni port mburabuzi, ariko urashobora kuyihindura
-- Urufunguzo rw'ibanga**: agaciro k'urufunguzo rw'ibanga rwa server yacu (*wg-urufunguzo rw'ibanga*)
+- **Address**: IP Address ya Interface WireGuard iri mu mugende wa VPN (umurongo muto utandukanye na LAN iri kure)
+- **SaveConfig**: ivyagezwe birabikwa (kandi bikarindwa) igihe cose Interface ikora
+- **Igikoresho co kwumviriza**: Igikoresho co kwumviriza ca WireGuard. Muri iki gihe, 51820 ni port mburabuzi, ariko urashobora kuyihindura
+- **Urufunguzo rw'ibanga**: agaciro k'urufunguzo rw'ibanga rwa server yacu (*wg-urufunguzo rw'ibanga*)
 
 
 
@@ -529,9 +529,9 @@ Mu mafoto:
 
 
 
-- Urufunguzo rwa bose**: uru ni urufunguzo rwa bose rwa server ya WireGuard Debian 11 (ushobora kuronka agaciro kayo ukoresheje itegeko "*sudo wg*")
-- AllowedIPs**: izo ni aderesi za IP / inzira zishobora gushikwako biciye kuri iyi nzira ya VPN ya WireGuard, muri iki gihe ni inzira yihariye kuri VPN yanje ya WireGuard (*192.168.110.0/24*) na LAN yanje yo kure (*192.168.100.0/24*)
-- Iherezo**: iyi ni IP Address y'umushitsi wa Debian 11, kuko iyi ni ihuriro ryacu rya WireGuard (uzokenera kugaragaza IP ya bose Address)
+- **Urufunguzo rwa bose**: uru ni urufunguzo rwa bose rwa server ya WireGuard Debian 11 (ushobora kuronka agaciro kayo ukoresheje itegeko "**sudo wg**")
+- **AllowedIPs**: izo ni aderesi za IP / inzira zishobora gushikwako biciye kuri iyi nzira ya VPN ya WireGuard, muri iki gihe ni inzira yihariye kuri VPN yanje ya WireGuard (*192.168.110.0/24*) na LAN yanje yo kure (*192.168.100.0/24*)
+- **Iherezo**: iyi ni IP Address y'umushitsi wa Debian 11, kuko iyi ni ihuriro ryacu rya WireGuard (uzokenera kugaragaza IP ya bose Address)
 
 
 

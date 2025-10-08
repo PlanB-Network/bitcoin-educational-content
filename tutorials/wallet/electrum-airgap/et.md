@@ -346,7 +346,7 @@ Väljavõtke meedium koos failiga `.PSBT` ja ühendage see arvutiga võrguühend
 
 
 
-Valige nüüd Wallet airgapist menüüst _Tööriistad_, seejärel _Load transaction_ ja seejärel From file_.
+Valige nüüd Wallet airgapist menüüst _Tööriistad_, seejärel _Load transaction_ ja seejärel _From file_.
 
 
 
@@ -441,7 +441,7 @@ Ainsad asjad, millele peate tähelepanu pöörama, on kaks:
 
 
 
-nagu ülaltoodud pildilt näha, ei tea võrguühenduseta Wallet oma Address ajalugu. Ta on selles osas täiesti pime. **Ainsaks ülesandeks, mida ta saab teie jaoks teha, on teie offline-võtmete salvestamine ja tehingute allkirjastamine**_.
+nagu ülaltoodud pildilt näha, ei tea võrguühenduseta Wallet oma Address ajalugu. Ta on selles osas täiesti pime. **Ainsaks ülesandeks, mida ta saab teie jaoks teha, on teie offline-võtmete salvestamine ja tehingute allkirjastamine**.
 
 
 

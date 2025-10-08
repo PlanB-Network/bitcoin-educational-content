@@ -1521,7 +1521,7 @@ Oleh karena itu, konversi ke HTML merupakan fungsi yang disediakan dan difasilit
 
 XSLT (_Extensible Stylesheet Language Transformations_) adalah bagian dari XSL yang memungkinkan data XML ditampilkan pada halaman web dan "ditransformasikan", secara paralel dengan gaya XSL, menjadi informasi yang dapat dibaca dan diformat dalam format HTML.
 
-sumber: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+sumber: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 Tingkat informasi dalam laporan ini setara dengan format XML Nmap dan lebih baik daripada output terminal standar (_output interaktif_).
 

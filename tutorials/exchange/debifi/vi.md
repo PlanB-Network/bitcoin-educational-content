@@ -64,25 +64,25 @@ Trước khi tôi hướng dẫn bạn từng bước cách vay trên Debifi, t�
 
 
 
-- Phí khởi tạo** là khoản phí một lần được tính vào thời điểm khoản vay được cấp và được tính theo tỷ lệ phần trăm của số tiền vay. Các khoản phí này bao gồm chi phí hành chính, vận hành và quản lý.
+- **Phí khởi tạo** là khoản phí một lần được tính vào thời điểm khoản vay được cấp và được tính theo tỷ lệ phần trăm của số tiền vay. Các khoản phí này bao gồm chi phí hành chính, vận hành và quản lý.
 
 
 
 
 
-- Tài sản thế chấp** là tài sản bạn ký quỹ để đảm bảo khoản vay. Trong trường hợp của Debifi, tài sản thế chấp là Bitcoin (BTC), được người vay ký quỹ Multisig 3/4.
+- **Tài sản thế chấp** là tài sản bạn ký quỹ để đảm bảo khoản vay. Trong trường hợp của Debifi, tài sản thế chấp là Bitcoin (BTC), được người vay ký quỹ Multisig 3/4.
 
 
 
 
 
-- Hệ thống ký quỹ Multisig (3/4)** là một cơ chế gửi tiền an toàn, trong đó bitcoin của người vay được lưu trữ trong một hệ thống Address đa chữ ký. Cụ thể, bốn (4) bên, mỗi bên nắm giữ một khóa (bên vay, bên cho vay, Debifi, bên thứ ba độc lập). Để chuyển tiền, cần có ít nhất 3 trong số 4 chữ ký.
+- Hệ thống ký quỹ Multisig (3/4) là một cơ chế gửi tiền an toàn, trong đó bitcoin của người vay được lưu trữ trong một hệ thống Address đa chữ ký. Cụ thể, bốn (4) bên, mỗi bên nắm giữ một khóa (bên vay, bên cho vay, Debifi, bên thứ ba độc lập). Để chuyển tiền, cần có ít nhất 3 trong số 4 chữ ký.
 
 
 
 
 
-- Stablecoin** là một loại tiền điện tử có giá trị được neo theo một tài sản ổn định (ví dụ: đô la Mỹ), tránh được sự biến động của Bitcoin. Ví dụ: 1 USDC luôn có giá trị khoảng 1 đô la, vì nó được bảo chứng bằng dự trữ tiền pháp định.
+- **Stablecoin** là một loại tiền điện tử có giá trị được neo theo một tài sản ổn định (ví dụ: đô la Mỹ), tránh được sự biến động của Bitcoin. Ví dụ: 1 USDC luôn có giá trị khoảng 1 đô la, vì nó được bảo chứng bằng dự trữ tiền pháp định.
 
 
 
@@ -453,7 +453,7 @@ Quay lại ứng dụng di động để ''**Cung cấp khóa công khai**''.
 
 
 
-Nhấn ''Cung cấp khóa công khai**'', sau đó chọn nguồn khóa công khai. Bên cho vay cũng sẽ cần Supply một khóa công khai.
+Nhấn **"Cung cấp khóa công khai"**, sau đó chọn nguồn khóa công khai. Bên cho vay cũng sẽ cần Supply một khóa công khai.
 
 
 

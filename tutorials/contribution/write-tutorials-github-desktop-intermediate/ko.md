@@ -22,7 +22,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 
 
-- 숙련된 사용자**:
+- **숙련된 사용자**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
@@ -31,7 +31,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-
 
 
 
-- 초보자(웹 Interface)**:
+- **초보자(웹 Interface)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -340,23 +340,23 @@ reward:
 
 
 
-- id**: 튜토리얼을 고유하게 식별하는 UUID(_유니버설 고유 식별자_)입니다. 온라인 도구](https://www.uuidgenerator.net/version4)를 사용하여 generate를 생성할 수 있습니다. 유일한 요구 사항은 플랫폼의 다른 UUID와의 충돌을 피하기 위해 이 UUID가 무작위여야 한다는 것입니다;
+- **id**: 튜토리얼을 고유하게 식별하는 UUID(_유니버설 고유 식별자_)입니다. [온라인 도구](https://www.uuidgenerator.net/version4)를 사용하여 generate를 생성할 수 있습니다. 유일한 요구 사항은 플랫폼의 다른 UUID와의 충돌을 피하기 위해 이 UUID가 무작위여야 한다는 것입니다;
 
 
 
-- project_id**: 프로젝트 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생성됩니다;
+- **project_id**: [프로젝트 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생
 
 
 
-- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Network 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Network 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- 카테고리**: Plan ₿ Network 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
+- **카테고리**: Plan ₿ Network 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
 
 
 
-- 레벨**: 튜토리얼의 난이도(선택): 튜토리얼의 난이도입니다:
+- **레벨**: 튜토리얼의 난이도(선택): 튜토리얼의 난이도입니다:
     - '초보자'
     - `중급`
     - `고급`
@@ -364,20 +364,20 @@ reward:
 
 
 
-- 교수자_ID**: 교수자 프로필](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
+- **교수자_ID**: [교수자 프로필](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
 
 
 
-- original_language**: 튜토리얼의 원래 언어(예: `fr`, `en` 등);
+- **original_language**: 튜토리얼의 원래 언어(예: `fr`, `en` 등);
 
 
 
-- 교정**: 교정 과정에 대한 정보입니다. 튜토리얼을 직접 교정하는 것은 첫 번째 검증으로 간주되므로 첫 번째 부분을 완료하세요:
-    - 언어**: 교정의 언어 코드(예: `fr`, `en` 등).
-    - 마지막_기여_날짜**: 오늘의 날짜입니다.
-    - 긴급성**: 1
+- **교정**: 교정 과정에 대한 정보입니다. 튜토리얼을 직접 교정하는 것은 첫 번째 검증으로 간주되므로 첫 번째 부분을 완료하세요:
+- **언어**: 교정의 언어 코드(예: `fr`, `en` 등).
+- **마지막_기여_날짜**: 오늘의 날짜입니다.
+- **긴급성**: 1
     - 기여자_이름**: GitHub ID.
-    - 보상**: 0
+- **보상**: 0
 
 
 교사 ID에 대한 자세한 내용은 해당 튜토리얼을 참조하세요:
@@ -521,8 +521,8 @@ description: [Description]
 자신만의 다이어그램을 만들려면 시각적 일관성을 보장하기 위해 Plan ₿ Network의 그래픽 헌장을 준수해야 합니다:
 
 
-- Font**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) 사용;
-- 색상**:
+- **Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) 사용;
+- **색상**:
  - 오렌지: 주황색: #FF5C00
  - Black: #000000
  - 흰색: 흰색: #FFFFFF
@@ -530,7 +530,7 @@ description: [Description]
 
 **튜토리얼에 포함된 모든 시각 자료는 저작권이 없거나 소스 파일의 라이선스를 준수해야 합니다**. 또한 Plan ₿ Network에 게시된 모든 다이어그램은 텍스트와 동일한 방식으로 CC-BY-SA 라이선스에 따라 제공됩니다.
 
-**-> 팁: 이미지와 같은 파일을 공개적으로 공유할 때는 불필요한 메타데이터를 제거하는 것이 중요합니다. 여기에는 위치 데이터, 생성 날짜 또는 작성자에 대한 세부 정보와 같은 민감한 정보가 포함될 수 있습니다. 개인정보를 보호하려면 이러한 메타데이터를 삭제하는 것이 좋습니다. 이 과정을 간소화하기 위해 간단한 드래그 앤 드롭으로 문서의 메타데이터를 정리할 수 있는 [Exif Cleaner](https://exifcleaner.com/)와 같은 전문 도구를 사용할 수 있습니다.
+**팁:** 이미지와 같은 파일을 공개적으로 공유할 때는 불필요한 메타데이터를 제거하는 것이 중요합니다. 여기에는 위치 데이터, 생성 날짜 또는 작성자에 대한 세부 정보와 같은 민감한 정보가 포함될 수 있습니다. 개인정보를 보호하려면 이러한 메타데이터를 삭제하는 것이 좋습니다. 이 과정을 간소화하기 위해 간단한 드래그 앤 드롭으로 문서의 메타데이터를 정리할 수 있는 [Exif Cleaner](https://exifcleaner.com/)와 같은 전문 도구를 사용할 수 있습니다.
 
 ## 7 - 튜토리얼 저장 및 제출
 

@@ -196,8 +196,8 @@ alias rgb1-cli="$HOME/.cargo/bin/rgb-cli -d $HOME/rgbdata/data1 -n testnet"
 
 
 - یک issuance_utxo که RGB-node-0 دارایی جدید صادر شده را به آن متصل خواهد کرد
-- دریافت_utxo که در آن RGB-node-1 دارایی را دریافت می‌کند
-- تغییر_utxo که در آن RGB-node-0 تغییر دارایی را دریافت می‌کند
+- دریافت **utxo** که در آن **RGB-node-1** دارایی را دریافت می‌کند
+- تغییر **utxo** که در آن RGB-node-0 تغییر دارایی را دریافت می‌کند
 - یک Partially Signed Bitcoin Transaction (tx.PSBT)، که کلید عمومی خروجی آن برای شامل کردن یک Commitment به انتقال، تغییر خواهد یافت.
 
 

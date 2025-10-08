@@ -330,7 +330,7 @@ Da questo descrittore si possono estrarre le seguenti informazioni:
 
 
 - `wsh` (abbreviazione di *witness script hash*): È il tipo di output transazionale creato. Se si fosse scelto di usare Taproot, l'identificatore sarebbe stato `tr`.
-- `o_d`: È un operatore logico che indica che _una delle due condizioni seguenti_ deve essere soddisfatta affinché la spesa sia accettata (la `_d` indica una particolare sintassi).
+- `o_d`: È un operatore logico che indica che _una delle due condizioni seguenti_ deve essere soddisfatta affinché la spesa sia accettata (la `d` indica una particolare sintassi).
 - `pk` (abbreviazione di _public key_): Questo operatore verifica una data firma rispetto alla seguente chiave pubblica e fornisce una risposta booleana (VERO o FALSO).
 - `[3689a8e7/48'/0'/0'/2']`: Questo elemento include l'_impronta digitale_ della chiave master per il wallet hardware principale (in questo caso il Nano S Plus) e il percorso di derivazione della chiave privata estesa collegata (da cui derivano tutte le altre chiavi private).
 - `xpub6FKY ... WQa`: È la chiave pubblica estesa collegata al wallet hardware principale (qui il Nano S Plus)

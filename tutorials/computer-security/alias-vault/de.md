@@ -36,10 +36,10 @@ In einem Interface ist Alias Vault:
 
 
 
-- Frei und quelloffen**
-- Password Manager**, um alle komplexen Passwörter zu speichern. Mit der Browser-Erweiterung vervollständigt der Passwort-Manager die Anmeldungen bei Websites
-- 2FA**, zur Unterstützung der Zwei-Faktor-Authentifizierung
-- Alias-Manager mit integriertem E-Mail-Server**: Alias Vault erstellt keine Aliase, die E-Mails an die Mailbox eines Benutzers weiterleiten, sondern echte Alter-Egos, komplett mit Vorname, Nachname, Geschlecht, Benutzername, Passwort und Geburtstag (falls diese Informationen erforderlich sind).
+- **Frei und quelloffen**
+- **Password Manager**, um alle komplexen Passwörter zu speichern. Mit der Browser-Erweiterung vervollständigt der Passwort-Manager die Anmeldungen bei Websites
+- **2FA**, zur Unterstützung der Zwei-Faktor-Authentifizierung
+- **Alias-Manager mit integriertem E-Mail-Server**: Alias Vault erstellt keine Aliase, die E-Mails an die Mailbox eines Benutzers weiterleiten, sondern echte Alter-Egos, komplett mit Vorname, Nachname, Geschlecht, Benutzername, Passwort und Geburtstag (falls diese Informationen erforderlich sind).
 
 
 
@@ -456,7 +456,7 @@ Es gibt Team-/Familienpläne und Unterstützung für Hardware-Schlüssel, letzte
 
 
 
-**Ein Tool wie dieses ist ideal für alle, denen die Privatsphäre im Internet wichtig ist.
+**Ein Tool wie dieses ist ideal für alle, denen die Privatsphäre im Internet wichtig ist.**
 
 
 

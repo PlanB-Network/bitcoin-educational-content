@@ -64,25 +64,25 @@ Antes de mostrarte paso a paso cómo pedir un préstamo en Debifi, hay algunos p
 
 
 
-- Las comisiones de apertura** son gastos únicos que se cobran en el momento de la concesión del préstamo y se calculan como un porcentaje del importe prestado. Estas comisiones cubren los gastos administrativos, operativos y de gestión.
+- Las **comisiones de apertura** son gastos únicos que se cobran en el momento de la concesión del préstamo y se calculan como un porcentaje del importe prestado. Estas comisiones cubren los gastos administrativos, operativos y de gestión.
 
 
 
 
 
-- La garantía** es un activo que se deposita para garantizar un préstamo. En el caso de Debifi, la garantía es Bitcoin (BTC), que el prestatario deposita en la plica Multisig 3/4.
+- La **garantía** es un activo que se deposita para garantizar un préstamo. En el caso de Debifi, la garantía es Bitcoin (BTC), que el prestatario deposita en la plica Multisig 3/4.
 
 
 
 
 
-- El sistema Multisig escrow (3/4)** es un mecanismo de depósito seguro en el que los bitcoins de un prestatario se colocan en un Address multifirma. En concreto, cuatro (4) partes poseen cada una una clave (prestatario, prestamista, Debifi, tercero independiente). Para mover los fondos, se requieren al menos 3 de las 4 firmas.
+- El sistema **Multisig escrow (3/4)** es un mecanismo de depósito seguro en el que los bitcoins de un prestatario se colocan en un Address multifirma. En concreto, cuatro (4) partes poseen cada una una clave (prestatario, prestamista, Debifi, tercero independiente). Para mover los fondos, se requieren al menos 3 de las 4 firmas.
 
 
 
 
 
-- Una stablecoin** es una criptomoneda cuyo valor está vinculado a un activo estable (por ejemplo, el dólar estadounidense), lo que evita la volatilidad del Bitcoin. Por ejemplo, 1 USDC siempre vale ~$1, ya que está respaldada por reservas fiduciarias.
+- Una **stablecoin** es una criptomoneda cuyo valor está vinculado a un activo estable (por ejemplo, el dólar estadounidense), lo que evita la volatilidad del Bitcoin. Por ejemplo, 1 USDC siempre vale ~$1, ya que está respaldada por reservas fiduciarias.
 
 
 

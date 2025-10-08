@@ -481,7 +481,7 @@ Per questa sezione raccomando quanto segue:
 ### CASO 1 - PROBLEMI DI SINCRONIZZAZIONE
 
 
-"Il mio Blixt non si sincronizza... Il mio Blixt non mostra il saldo... Il mio Blixt non può aprire i canali... Ho provato a ripristinarlo in un altro dispositivo... ecc_"
+"Il mio Blixt non si sincronizza... Il mio Blixt non mostra il saldo... Il mio Blixt non può aprire i canali... Ho provato a ripristinarlo in un altro dispositivo... ecc"
 
 
 Tutti questi problemi iniziano perché il vostro dispositivo non si sincronizza correttamente. Vi preghiamo di comprendere questo aspetto importante: Blixt è un nodo mobile LND che utilizza Neutrino per la sincronizzazione/lettura dei blocchi.

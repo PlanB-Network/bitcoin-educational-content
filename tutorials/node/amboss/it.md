@@ -145,9 +145,9 @@ Nella sezione **Canali**, viene visualizzato l'elenco dei canali aperti e le con
 
 
 
-- Rapporto in entrata**: L'importo che il nodo addebiterà per ogni milione di Satoshi che riceve, a seconda del canale scelto.
+- **Rapporto in entrata**: L'importo che il nodo addebiterà per ogni milione di Satoshi che riceve, a seconda del canale scelto.
 - Il rapporto (parti per milione)** : rappresenta il numero di Satoshi per milione di unità che il nodo addebiterà all'utente quando decide di effettuare un pagamento tramite uno dei suoi canali. Supponiamo che decidiate di effettuare un pagamento di `10_000 Sats` attraverso un canale il cui rapporto ppm è `500 Sats`, dovrete pagare al nodo `10_000 * 500 / 1_000_000` satoshi, equivalenti a `5 Sats`.
-- Il [HTLC](https://planb.network/resources/glossary/HTLC) massimo** : L'importo massimo che questo nodo consente di transitare attraverso uno di questi canali.
+- Il **[HTLC](https://planb.network/resources/glossary/HTLC) massimo** : L'importo massimo che questo nodo consente di transitare attraverso uno di questi canali.
 
 
 
@@ -172,7 +172,7 @@ La sezione **Canali chiusi** raggruppa tutti i canali precedenti del nodo in bas
 
 
 
-- Chiusura reciproca**: rappresenta l'accordo di entrambe le parti, che utilizzano la loro chiave privata per firmare la transazione che segna la chiusura del canale e la distribuzione dei saldi al suo interno
+- **Chiusura reciproca**: rappresenta l'accordo di entrambe le parti, che utilizzano la loro chiave privata per firmare la transazione che segna la chiusura del canale e la distribuzione dei saldi al suo interno
 - Una **chiusura forzata**: rappresenta la chiusura improvvisa e unilaterale di una parte del canale. Questo tipo di chiusura è sconsigliato, poiché il Lightning Network è un protocollo basato sulla punizione: quando si cerca di frodare l'equilibrio di un canale, si rischia di perdere tutto l'equilibrio disponibile in quel canale.
 
 

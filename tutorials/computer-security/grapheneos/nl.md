@@ -128,10 +128,10 @@ GrapheneOS startscherm
 
 
 
-na de eerste keer opstarten en instellen is het een goed gebruik om OEM-ontgrendeling uit te schakelen via Instellingen > Systeem > Opties voor ontwikkelaars._
+na de eerste keer opstarten en instellen is het een goed gebruik om OEM-ontgrendeling uit te schakelen via Instellingen > Systeem > Opties voor ontwikkelaars.
 
 
-je kunt ook de extra, optionele maar aanbevolen stap nemen om de installatie te verifiëren via de Auditor app. Je hebt een aparte Android-telefoon nodig waarop de app is geïnstalleerd om deze stap uit te voeren. Instructies hiervoor vind je [hier](https://attestation.app/tutorial)._
+je kunt ook de extra, optionele maar aanbevolen stap nemen om de installatie te verifiëren via de Auditor app. Je hebt een aparte Android-telefoon nodig waarop de app is geïnstalleerd om deze stap uit te voeren. Instructies hiervoor vind je [hier](https://attestation.app/tutorial).
 
 
 

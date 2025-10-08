@@ -17,10 +17,10 @@ Arch Linux ni distribution izwi cane kubera ubukomezi bwayo, ubushobozi bwayo n�
 
 
 
-- Inkomoko y’ubuntu kandi yuguruye**: Cokimwe n’ibindi bikoresho vyinshi vya Linux, Arch Linux ni ubuntu rwose. Nta mahera y’uruhusha, ivyo bikaba bituma ari ihitamwo ryiza cane ku banyeshure, abakora ibikorwa vy’ubuhinga canke ababikunda.
-- KISS** filozofiya: Arch yakozwe kugira ngo ibe yoroshe, yoroshe kandi ikore neza. Itanga gusa ivy’ingenzi, bikagufasha kwubaka ibidukikije vyawe à la carte.
-- Pacman** umuyobozi w’amapaki: Pacman ni umuyobozi w’amapaki yihuta, yizigirwa kandi ateguwe neza. Bishoboza gushiramwo neza no guhindura porogarama, no gucunga neza ivyo bishingiyeko.
-- Ivyanditswe vyuzuye n'umuryango ukora**: [Wiki ya Arch](https://wiki.archlinux.org) birashoboka ko ari imwe mu nyandiko nziza cane z'ubuhinga kw'isi ya Linux. Ni icumbi ry’inzahabu ryo gutahura ivyo uriko urakora. Umuryango, ahanini ugizwe n’abantu bazi utuntu n’utundi, urakora cane kandi urashobora kugufasha iyo uhagaze, igihe cose wakoze ubushakashatsi bukeyi imbere y’aho.
+- **Inkomoko y'ubuntu kandi yuguruye**: Cokimwe n'ibindi bikoresho vyinshi vya Linux, Arch Linux ni ubuntu rwose. Nta mahera y'uruhusha, ivyo bikaba bituma ari ihitamwo ryiza cane ku banyeshure, abakora ibikorwa vy'ubuhinga canke ababikunda.
+- **KISS filozofiya**: Arch yakozwe kugira ngo ibe yoroshe, yoroshe kandi ikore neza. Itanga gusa ivy'ingenzi, bikagufasha kwubaka ibidukikije vyawe à la carte.
+- **Pacman** umuyobozi w'amapaki: Pacman ni umuyobozi w'amapaki yihuta, yizigirwa kandi ateguwe neza. Bishoboza gushiramwo neza no guhindura porogarama, no gucunga neza ivyo bishingiyeko.
+- Ivyanditswe vyuzuye n'umuryango ukora: **[Wiki ya Arch](https://wiki.archlinux.org)** birashoboka ko ari imwe mu nyandiko nziza cane z'ubuhinga kw'isi ya Linux. Ni icumbi ry'inzahabu ryo gutahura ivyo uriko urakora. Umuryango, ahanini ugizwe n'abantu bazi utuntu n'utundi, urakora cane kandi urashobora kugufasha iyo uhagaze, igihe cose wakoze ubushakashatsi bukeyi imbere y'aho.
 
 
 
@@ -39,7 +39,7 @@ Ibikoresho bisabwa:
 
 
 - Urufunguzo rwa USB rwo nibura **8 GB**
-- 2 GB** RAM n'imiburiburi
+- **2 GB RAM** n'imiburiburi
 - Mudasobwa ifise nibura 20 GB z'umwanya kuri disiki
 
 
@@ -294,7 +294,7 @@ Hitamwo **Wandike**, wandike **egome**, hanyuma **Reka**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

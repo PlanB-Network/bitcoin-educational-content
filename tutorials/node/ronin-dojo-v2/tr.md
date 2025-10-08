@@ -246,7 +246,7 @@ Ardından Ethernet kablosunu kullanarak Raspberry Pi'nizi yönlendiricinize bağ
 
 ### Adım 3: Düğüm ile SSH Bağlantısı Kurun
 
-İlk olarak, düğümünüzün IP Address'ini bulmak gerekir. Advanced IP Scanner](https://www.advanced-ip-scanner.com/)_ veya _[Angry IP Scanner](https://angryip.org/)_ gibi bir araç kullanma veya yönlendiricinizin yönetim Interface'ünü kontrol etme seçeneğiniz vardır. IP Address `192.168.1.??` şeklinde olmalıdır. **Aşağıdaki tüm komutlar için `[IP]` yerine düğümünüzün** gerçek IP Address'ini yazın (parantezleri kaldırın).
+İlk olarak, düğümünüzün IP Address'ini bulmak gerekir. **[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)** veya **[Angry IP Scanner](https://angryip.org/)** gibi bir araç kullanma veya yönlendiricinizin yönetim Interface'ünü kontrol etme seçeneğiniz vardır. IP Address `192.168.1.??` şeklinde olmalıdır. **Aşağıdaki tüm komutlar için `[IP]` yerine düğümünüzün gerçek IP Address'ini yazın (parantezleri kaldırın).**
 
 
 Bir terminal başlatın.
@@ -748,7 +748,7 @@ Burada, her bir çıktının 0 numaralı girdiden gelme olasılığının %100 o
 
 **RoninDojo'da Boltzmann Hesaplayıcısına nasıl erişilir?**
 
-Boltzmann Hesaplayıcı* aracına erişmek için RoninCLI'ye gidin. Bunu yapmak için, kişisel bilgisayarınızda bir terminal açın ve aşağıdaki komutu kullanarak düğümünüzle bir SSH bağlantısı kurun: `SSH ronindojo@[IP]`
+Boltzmann Hesaplayıcı aracına erişmek için RoninCLI'ye gidin. Bunu yapmak için, kişisel bilgisayarınızda bir terminal açın ve aşağıdaki komutu kullanarak düğümünüzle bir SSH bağlantısı kurun: `SSH ronindojo@[IP]`
 
 
 Örneğin, düğümünüzün Address IP adresi `192.168.1.40` ise, uygun komut şu şekilde olacaktır:

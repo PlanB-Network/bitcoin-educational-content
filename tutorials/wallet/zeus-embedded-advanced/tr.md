@@ -174,11 +174,11 @@ Bu bölümde, varsayılan olarak Olympus LSP'dir (https://0conf.lnolymp.us), anc
 
 aklında tut:_
 
-olympus LSP ile sarılmış LN faturalarını kullanarak bir kanal açtığınızda, ayrıca 100k gelen likidite elde edersiniz! Bu, hemen daha fazla Sats almanız gerektiğinde gerçekten iyi bir seçenektir._
+olympus LSP ile sarılmış LN faturalarını kullanarak bir kanal açtığınızda, ayrıca 100k gelen likidite elde edersiniz! Bu, hemen daha fazla Sats almanız gerektiğinde gerçekten iyi bir seçenektir.
 
 örnek: Bir LSP kanalı açmak için 400k Sats yatırıyorsunuz, ardından LSP Zeus düğümünüze doğru 500k Sats kapasiteli bir kanal açıyor ve yatırdığınız 400k Sats'u kendi tarafınıza doğru itiyor
 
-"Gelen likidite" = kanalınızda almak için daha fazla "alan"._
+"Gelen likidite" = kanalınızda almak için daha fazla "alan".
 
 
 Gelecekte Zeus'a entegre edilebilecek ve her birini alternatif olarak kullanabileceğimiz birçok başka LSP'ye sahip olabileceğimizi umuyoruz. Yeni LSP'lerin bu tür 0conf kanalları için açık bir standart benimsemeleri sadece bir zaman meselesidir.
@@ -427,7 +427,7 @@ Burada daha fazla araç içeren çeşitli alt bölümlerimiz var:
 
 
 
-- hesaplar_ - burada Zeus düğüm kanallarınız için harici fon kaynağı olarak kullanmak veya kontrol etmek için harici hesapları / cüzdanları, Cold cüzdanlarını, Hot cüzdanlarını içe aktarabilirsiniz. Bu özellik hala deneyseldir.
+- **hesaplar** - burada Zeus düğüm kanallarınız için harici fon kaynağı olarak kullanmak veya kontrol etmek için harici hesapları / cüzdanları, Cold cüzdanlarını, Hot cüzdanlarını içe aktarabilirsiniz. Bu özellik hala deneyseldir.
 - _İşlemi hızlandır_ - Bu özellik, Mempool'a sıkışmış bir tx'iniz olduğunda ve ücreti artırmak istediğinizde yardımcı olabilir. Tx ayrıntılarından tx çıktısını sağlamanız ve kullanmak istediğiniz yeni ücreti seçmeniz gerekecektir. Bir öncekinden daha yüksek olmalı ve Wallet zincirinizde daha fazla para bulundurmanızı gerektirmelidir.
 
 

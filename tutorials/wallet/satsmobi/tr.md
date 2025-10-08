@@ -99,7 +99,7 @@ Bir Invoice ödemesi yapmanın en basit yolu `lnbc1xxxxx` mesaj dizesini kopyala
 ![image](assets/it/11.webp)
 
 
-Wallet onay isteyen bir mesaj gönderir. Öde_ seçeneğine tıklandığında Invoice'a ödeme yapılır.
+Wallet onay isteyen bir mesaj gönderir. **Öde** seçeneğine tıklandığında Invoice'a ödeme yapılır.
 
 
 ![image](assets/it/12.webp)

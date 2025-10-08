@@ -7,7 +7,7 @@ description: A Telegram-yhteydellä varustettu huoltaja Wallet
 ![cover](assets/cover.webp)
 
 
-_Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Sats.Mobi

@@ -7,7 +7,7 @@ description: 콜드카드 장치 및 Bitcoin core로 Bitcoin 개인 키 생성, 
 ![cover](assets/cover.webp)
 
 
-콜드카드 장치 및 Bitcoin 코어로 Bitcoin 개인 키 생성, 백업 및 사용__
+**콜드카드 장치 및 Bitcoin 코어로 Bitcoin 개인 키 생성, 백업 및 사용**
 
 
 ## 콜드카드를 사용하여 개인키를 생성하고 Bitcoin core 노드의 Interface를 통해 사용하는 방법에 대한 전체 가이드!
@@ -110,8 +110,8 @@ Bitcoin core에 대한 설치 및 구성 가이드를 참조하세요:
 
 
 
-- Bitcoin core로 자체 노드 실행하기:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Bitcoin core 노드에 Tor 구성하기:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Bitcoin core로 자체 노드 실행하기:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Bitcoin core 노드에 Tor 구성하기:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 먼저 마이크로 SD 카드를 콜드카드에 삽입한 다음 다음 단계에 따라 Wallet을 Bitcoin core용으로 내보냅니다: 고급/도구 > Wallet 내보내기 > Bitcoin core. 마이크로 SD 카드에 두 개의 파일이 기록됩니다: Bitcoin-core.sig & Bitcoin-core.txt. 마이크로 SD 카드를 Bitcoin core이 설치된 컴퓨터에 삽입하고 .txt 파일을 엽니다. "마스터 키 지문이 있는 Wallet의 경우"라는 줄이 표시됩니다 8자 XFP가 개인 키를 만들 때 기록한 것과 일치하는지 확인합니다

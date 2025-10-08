@@ -28,9 +28,9 @@ Ovo nije "uobičajeni duplikat" Debiana za male ploče tipa Raspberry. DietPi je
 
 
 
-- Optimizovan za brzinu i lakoću**: [poređenje sa drugim Debian distribucijama za SBC](https://dietpi.com/blog/?p=888), DietPi je lakši u svemu. DietPi ISO slika teži manje od 1 GB, što je daleko najmanje među onima posvećenim starijim modelima Raspberry ili Orange PI (na primer). Zahtevi za RAM i CPU resursima su veoma niski, tako da uvek izvlači najbolje iz ploča, čak i starijih.
-- Ugrađene automatizacije i instalateri**: Paket posvećenih komandi pomaže korisnicima da prate sistemske resurse, kao i da automatizuju zadatke za instalaciju i pokretanje programa, ažuriranje verzija, pravljenje rezervnih kopija i proveru svih logova.
-- Snažna zajednica orijentisana na eksperimentisanje**: [tutorijali](https://dietpi.com/forum/c/community-tutorials/8) i projekti iz DietPi zajednice, idealni su za inspiraciju softverom koji možete instalirati jednim klikom, zahvaljujući DietPi-ju.
+- **Optimizovan za brzinu i lakoću**: [poređenje sa drugim Debian distribucijama za SBC](https://dietpi.com/blog/?p=888), DietPi je lakši u svemu. DietPi ISO slika teži manje od 1 GB, što je daleko najmanje među onima posvećenim starijim modelima Raspberry ili Orange PI (na primer). Zahtevi za RAM i CPU resursima su veoma niski, tako da uvek izvlači najbolje iz ploča, čak i starijih.
+- **Ugrađene automatizacije i instalateri**: Paket posvećenih komandi pomaže korisnicima da prate sistemske resurse, kao i da automatizuju zadatke za instalaciju i pokretanje programa, ažuriranje verzija, pravljenje rezervnih kopija i proveru svih logova.
+- **Snažna zajednica orijentisana na eksperimentisanje**: [tutorijali](https://dietpi.com/forum/c/community-tutorials/8) i projekti iz DietPi zajednice, idealni su za inspiraciju softverom koji možete instalirati jednim klikom, zahvaljujući DietPi-ju.
 
 
 

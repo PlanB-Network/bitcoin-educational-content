@@ -31,7 +31,7 @@ Phoenixd, ACINQ tarafından geliştirilen minimal, özel bir Lightning düğüm�
 
 
 
-**Phoenixd, otomatik likidite için LSP (Lightning Service Provider) olarak ACINQ kullanan minimal bir Lightning düğümüdür. Lightning ödemeleri aldığınızda, gerekli gelen kapasiteyi tahsis etmek için ACINQ düğümleriyle otomatik olarak kanallar açar. Bu "anında" likidite anlıktır, ancak alınan miktarın tam olarak **%1 + Mining ücretleri** üzerinden ücretlendirilir.
+**Phoenixd, otomatik likidite için LSP (Lightning Service Provider) olarak ACINQ kullanan minimal bir Lightning düğümüdür. Lightning ödemeleri aldığınızda, gerekli gelen kapasiteyi tahsis etmek için ACINQ düğümleriyle otomatik olarak kanallar açar. Bu "anında" likidite anlıktır, ancak alınan miktarın tam olarak %1 + Mining ücretleri üzerinden ücretlendirilir.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd, ACINQ tarafından geliştirilen minimal, özel bir Lightning düğüm�
 
 
 
-- Lightning** kanalları: Gerektiğinde otomatik olarak açın, kapatın ve yönetin
-- Gelen/giden likidite**: Ekleme ve kanal açma yoluyla otomatik provizyon
-- Ücret kredisi** : Bir kanalı haklı çıkarmak için yeterli olmayan küçük ödemeler, gelecekteki ücretler için bir karşılık olarak saklanır
+- **Lightning** kanalları: Gerektiğinde otomatik olarak açın, kapatın ve yönetin
+- **Gelen/giden likidite**: Ekleme ve kanal açma yoluyla otomatik provizyon
+- **Ücret kredisi**: Bir kanalı haklı çıkarmak için yeterli olmayan küçük ödemeler, gelecekteki ücretler için bir karşılık olarak saklanır
 
 
 
@@ -50,7 +50,7 @@ Phoenixd, ACINQ tarafından geliştirilen minimal, özel bir Lightning düğüm�
 
 
 
-**Özel anahtarlarınızı (12 kelimelik seed) ve fonlarınızı kontrol edersiniz. Phoenixd, anahtarlarınızı hiç paylaşmadan Wallet'inizi yerel olarak üretir.
+**Özel anahtarlarınızı (12 kelimelik seed) ve fonlarınızı kontrol edersiniz. Phoenixd, anahtarlarınızı hiç paylaşmadan Wallet'inizi yerel olarak üretir.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd, bazı temel komut satırı becerilerine sahip bir Linux ortamı (Ubunt
 
 
 
-- Linux sunucusu**: Sabit bağlantıya sahip VPS veya yerel makine
-- OpenJDK 21** : Java çalışma zamanı ortamı
-- Sabit İnternet bağlantısı**: Lightning Network ile senkronizasyon için
-- Alan adı** (isteğe bağlı) : API'ye güvenli HTTPS erişimi için
+- **Linux sunucusu**: Sabit bağlantıya sahip VPS veya yerel makine
+- **OpenJDK 21**: Java çalışma zamanı ortamı
+- **Sabit İnternet bağlantısı**: Lightning Network ile senkronizasyon için
+- **Alan adı** (isteğe bağlı) : API'ye güvenli HTTPS erişimi için
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. İlk çalıştırma
+**2. İlk çalıştırma**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Sunucunuzun kimliğini kanıtlayın** (ortadaki adam saldırılarını önler)
-- HTTPS** şifrelemesini etkinleştirir: API parolalarınız dahil tüm veriler aktarım sırasında şifrelenir
-- Let's Encrypt tarafından certbot aracı aracılığıyla ücretsiz olarak verilir**
+- **Sunucunuzun kimliğini kanıtlayın** (ortadaki adam saldırılarını önler)
+- **HTTPS** şifrelemesini etkinleştirir: API parolalarınız dahil tüm veriler aktarım sırasında şifrelenir
+- Let's Encrypt tarafından certbot aracı aracılığıyla ücretsiz olarak verilir
 
 
 
@@ -297,10 +297,10 @@ Bu yapılandırma şunları yapmanıza olanak tanır:
 
 
 
-- İnternetten API'ye güvenli erişim**
-- Taşıma sırasında API** parolalarınızı şifreleyin (açık metin olarak iletilmelerini önlemek için)
-- Phoenixd**'yi HTTPS gerektiren harici uygulamalara entegre edin
-- Finansal API'ler için güvenlik standartlarına** uygunluk
+- **İnternetten API'ye güvenli erişim**
+- Taşıma sırasında **API parolalarınızı** şifreleyin (açık metin olarak iletilmelerini önlemek için)
+- **Phoenixd'yi** HTTPS gerektiren harici uygulamalara entegre edin
+- Finansal API'ler için **güvenlik standartlarına** uygunluk
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Hizmet bedeli**: kanal kapasitesinin %1'i (2.115.000 Sats) = 21.150 Sats
-- Mining ücretleri**: ~3,289 Sats (On-Chain işlemi için)
-- Toplam**: 24,439 Sats otomatik olarak düşülür
+- **Hizmet bedeli**: kanal kapasitesinin %1'i (2.115.000 Sats) = 21.150 Sats
+- **Mining ücretleri**: ~3,289 Sats (On-Chain işlemi için)
+- **Toplam**: 24,439 Sats otomatik olarak düşülür
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Makbuz**: otomatik likidite için %1 + Mining ücreti
-- Nakliye**: 0.gW-27 için %4 yönlendirme ücreti
+- **Makbuz**: otomatik likidite için %1 + Mining ücreti
+- **Nakliye**: 0.gW-27 için %4 yönlendirme ücreti
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Online mağazanız, bir müşteri sipariş için ödeme yaptığında otomatik olarak bir bildirim alır ve işlemin anında doğrulanmasını sağlar.
+**Online mağazanız, bir müşteri sipariş için ödeme yaptığında otomatik olarak bir bildirim alır ve işlemin anında doğrulanmasını sağlar.**
 
 
 
@@ -684,7 +684,7 @@ Kapsamlı REST API'si sayesinde, :
 
 
 
-*~/.phoenix dizini:** Kanal durumunu korumak ve geri yüklemeyi hızlandırmak için bu klasörü düzenli olarak (Phoenixd kapatıldıktan sonra) yedekleyin.
+**~/.phoenix dizini:** Kanal durumunu korumak ve geri yüklemeyi hızlandırmak için bu klasörü düzenli olarak (Phoenixd kapatıldıktan sonra) yedekleyin.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Her ikisi de otomatik likidite için LSP olarak ACINQ kullanmaktadır.
+**Her ikisi de otomatik likidite için LSP olarak ACINQ kullanmaktadır.**
 
 
 
@@ -866,9 +866,9 @@ Phoenixd ile, modern bir REST API ve teknik yönlerin otomatik yönetimi ile ken
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kaynak kodu ve sürümler
-- Phoenix Sunucusu** sitesi: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Tam dokümantasyon
-- SSS Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Sıkça sorulan sorular
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kaynak kodu ve sürümler
+- **Phoenix Sunucusu** sitesi: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Tam dokümantasyon
+- **SSS Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Sıkça sorulan sorular
 
 
 
@@ -877,5 +877,5 @@ Phoenixd ile, modern bir REST API ve teknik yönlerin otomatik yönetimi ile ken
 
 
 
-- GitHub Sorunları** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Teknik destek
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Haberler ve duyurular
+- **GitHub Sorunları**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Teknik destek
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Haberler ve duyurular

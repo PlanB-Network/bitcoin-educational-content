@@ -160,7 +160,7 @@ Stecken Sie den bootfähigen USB-Stick in den ausgeschalteten Computer (den, auf
 
 
 
-Der Startbildschirm von Ubuntu wird angezeigt. Wählen Sie "Ubuntu* ausprobieren oder installieren".
+Der Startbildschirm von Ubuntu wird angezeigt. Wählen Sie "Ubuntu ausprobieren oder installieren".
 
 
 
@@ -705,7 +705,7 @@ BITCOIND_RPC_PASSWORD=your-password-here
 
 
 
-⚠️ ***Ersetzen Sie "your-ID-here" und "your-password-here" durch Ihre eigenen Logins (mit einem sicheren Passwort)
+⚠️ **Ersetzen Sie "your-ID-here" und "your-password-here" durch Ihre eigenen Logins (mit einem sicheren Passwort)**
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Bitte behandeln Sie diesen Address streng vertraulich
+⚠️ **Bitte behandeln Sie diesen Address streng vertraulich**
 
 
 
@@ -1426,7 +1426,7 @@ Um von einem beliebigen Rechner in einem beliebigen Netzwerk (auch aus der Ferne
 
 
 
-⚠️ **Bitte behandeln Sie diese Address streng vertraulich
+⚠️ **Bitte behandeln Sie diese Address streng vertraulich**
 
 
 

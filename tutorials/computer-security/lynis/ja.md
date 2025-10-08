@@ -141,7 +141,7 @@ sudo tar -zxf lynis-3.0.9.tar.gz
 
 
 
-lynis**フォルダに移動しよう：
+**lynis**フォルダに移動しよう：
 
 
 
@@ -780,7 +780,7 @@ sshdのドキュメント(**manページ**)](https://www.delafond.org/traducmanf
 
 
 
-- motd、banner、lastlog**を無効にして情報漏洩を防ぐ。
+- motd、banner、lastlog**を無効にして情報漏洩を防ぐ。**
 
 
 

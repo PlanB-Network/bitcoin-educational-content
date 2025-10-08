@@ -64,10 +64,10 @@ Mu murongo w'ibikubiyemo, uzosanga imirongo ikurikira:
 
 
 
-- Mainnet**: Urubuga nyamukuru rwa Bitcoin aho amafaranga nyayo ya Bitcoin aba.
-- Signet**: Urubuga rwo kugerageza rukoresha imikono ya digitale kugira ngo rwemeze amabuye ataco bisaba ibikoresho bisabwa n’urubuga nyamukuru.
-- Testnet 3**: Urubuga rwo kugerageza no gutegura rudafise ingorane ku masezerano ya Bitcoin.
-- Testnet 4**: Verisiyo nshasha ya Testnet 3 izana ugushikama gukomeye n’amategeko mashasha y’uguhuriza ku bidukikije vy’igerageza.
+- **Mainnet**: Urubuga nyamukuru rwa Bitcoin aho amafaranga nyayo ya Bitcoin aba.
+- **Signet**: Urubuga rwo kugerageza rukoresha imikono ya digitale kugira ngo rwemeze amabuye ataco bisaba ibikoresho bisabwa n'urubuga nyamukuru.
+- **Testnet 3**: Urubuga rwo kugerageza no gutegura rudafise ingorane ku masezerano ya Bitcoin.
+- **Testnet 4**: Verisiyo nshasha ya Testnet 3 izana ugushikama gukomeye n'amategeko mashasha y'uguhuriza ku bidukikije vy'igerageza.
 
 
 
@@ -142,9 +142,9 @@ Kuri paji y'ibisobanuro vy'ibikorwa, uzosanga amakuru rusangi yerekeye ibikorwa 
 
 
 
-- Status**: Yemejwe iyo yongewe ku gice, ntiyemejwe iyo urindiriye muri Mempool.
-- Amafaranga y’ugucuruza**.
-- Igihe kigereranywa co gushika (ETA)**: Igihe kigereranywa kizotwara kugira ngo amafaranga yawe yongererwe ku gice. Iharurwa hakurikijwe igipimo gifise amahera ajanye n’ivyo bikorwa.
+- **Status**: Yemejwe iyo yongewe ku gice, ntiyemejwe iyo urindiriye muri Mempool.
+- **Amafaranga y'ugucuruza**.
+- **Igihe kigereranywa co gushika (ETA)**: Igihe kigereranywa kizotwara kugira ngo amafaranga yawe yongererwe ku gice. Iharurwa hakurikijwe igipimo gifise amahera ajanye n'ivyo bikorwa.
 
 
 
@@ -192,7 +192,7 @@ Ikintu ciza, hari uburyo bubiri buboneka ku rubuga rwa Bitcoin kugira ngo wihuti
 
 
 
-- RBF** - Replacement By Fee: Uburyo bugufasha gukoresha amafaranga nk’ayo ukoresha mu gukoresha amafaranga make, ariko ubu mu kwongera amafaranga y’amafaranga kugira ngo wihutishe kwemeza. Ivyo ukoresha bishasha bizokwerekanwa ningoga kandi bishirwe mu gice, bihindure ivy’amahera make.
+- **RBF** - Replacement By Fee: Uburyo bugufasha gukoresha amafaranga nk'ayo ukoresha mu gukoresha amafaranga make, ariko ubu mu kwongera amafaranga y'amafaranga kugira ngo wihutishe kwemeza. Ivyo ukoresha bishasha bizokwerekanwa ningoga kandi bishirwe mu gice, bihindure ivy'amahera make.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Uburyo bwahumekewe na RBF, ariko ku ruhande rw’uwukira. Iyo igikorwa uriko urakira kibujijwe muri Mempool, urafise uburenganzira bwo gukoresha amafaranga (UTXOs) y’ico gikorwa, naho nyene kitari bwaremejwe, mu gutanga amahera menshi kuri ico gikorwa gishasha kugira ngo amafaranga y’agaciro - y’igikorwa reci -ura muri wewe abacukuzi kugira ngo bashire ivyo bicuruzwa vyose mu gice.
+- **CPFP** - Child pay for parent: Uburyo bwahumekewe na RBF, ariko ku ruhande rw'uwukira. Iyo igikorwa uriko urakira kibujijwe muri Mempool, urafise uburenganzira bwo gukoresha amafaranga (UTXOs) y'ico gikorwa, naho nyene kitari bwaremejwe, mu gutanga amahera menshi kuri ico gikorwa gishasha kugira ngo amafaranga y'agaciro - y'igikorwa reci -ura muri wewe abacukuzi kugira ngo bashire ivyo bicuruzwa vyose mu gice.
 
 
 

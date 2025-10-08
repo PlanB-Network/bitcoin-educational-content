@@ -214,7 +214,7 @@ Es gibt noch weitere Funktionen, die das Angebot des Sats.Mobi Wallet vervollst�
 
 
 - _/nostr_: um den Wallet mit einem eigenen Nostr-Benutzer zu verbinden, um Zaps zu empfangen;
-- /cashback_: zeigt einen Code an, der einem Händler vorgelegt werden kann, um eine Rückvergütung für einen Einkauf zu erhalten;
+- **/cashback**: zeigt einen Code an, der einem Händler vorgelegt werden kann, um eine Rückvergütung für einen Einkauf zu erhalten;
 - _/buy_: startet eine geführte Prozedur innerhalb des Bots, die den Kauf von Sats für Euro ermöglicht;
 - _/activatecard_: um die Aktivierung einer NFC-Debitkarte zu beantragen, die über das Sats.Mobi Wallet aufgeladen werden kann und für die Benachrichtigungen aktiviert werden können;
 - _/link_: erstellt einen Link für Ihren eigenen Zeus oder Blue Wallet, die als Fernbedienungen für diesen Wallet verwendet werden können.

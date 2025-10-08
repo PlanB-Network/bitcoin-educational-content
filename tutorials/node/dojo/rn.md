@@ -160,7 +160,7 @@ Injira urufunguzo rwa USB rushobora gutangura muri mudasobwa izimye (iyo ushaka 
 
 
 
-Igishushanyo c'inzu c'Ubuntu kiraboneka. Hitamwo "Gerageza canke Shiraho Ubuntu*".
+Igishushanyo c'inzu c'Ubuntu kiraboneka. Hitamwo "Gerageza canke Shiraho Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Ndasavye ko iyi Address muyigumye ari ibanga ryose
+⚠️ **Ndasavye ko iyi Address muyigumye ari ibanga ryose**
 
 
 
@@ -1426,7 +1426,7 @@ Kugira ngo ushikire umucukumbuzi wawe ukoresheje imashini iyo ari yo yose iri ku
 
 
 
-⚠️ **Ndasavye ko iyi Address muyigumye ari ibanga ryose
+⚠️ **Ndasavye ko iyi Address muyigumye ari ibanga ryose**
 
 
 

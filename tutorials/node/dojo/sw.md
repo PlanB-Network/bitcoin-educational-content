@@ -160,7 +160,7 @@ Ingiza ufunguo wa USB unaoweza kuwashwa kwenye kompyuta iliyozimwa (ile ambayo u
 
 
 
-Skrini ya nyumbani ya Ubuntu inaonekana. Chagua "Jaribu au Sakinisha Ubuntu*".
+Skrini ya nyumbani ya Ubuntu inaonekana. Chagua "Jaribu au Sakinisha Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Tafadhali weka Address hii kwa siri kabisa
+⚠️ **Tafadhali weka Address hii kwa siri kabisa**
 
 
 
@@ -1426,7 +1426,7 @@ Ili kufikia kivinjari chako kutoka kwa mashine yoyote kwenye mtandao wowote (hat
 
 
 
-⚠️ **Tafadhali weka Address hii kwa siri kabisa
+⚠️ **Tafadhali weka Address hii kwa siri kabisa**
 
 
 

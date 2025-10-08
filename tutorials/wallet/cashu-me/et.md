@@ -43,16 +43,16 @@ Sukeldume funktsioonidesse ja uurime, mida Cashu.me pakub:
 
 
 
-- Chaumian ecash on Lightning**: Kasutab pimesi allkirju, nii et rahapajad ei saa jälgida kasutajate saldosid või tehinguajalugu
-- Märgiste omavahetus**: Te kontrollibite ecash-märke lokaalselt oma seed fraasiga
-- seed fraasi varundused**: 12-sõnaline taastamise fraas Wallet taastamiseks
-- Rahapaja sõltumatus**: Töötab mitme sõltumatu rahapoega - te ei ole lukustatud ühe teenusepakkuja külge
-- Kohesed, tasuta tehingud**: Sama rahapaja raames toimuvad maksed sekunditega ja ilma tasudeta
-- Privaatsust säilitav arhitektuur**: Rahapajad ei näe, kes kellega tehinguid teeb
-- Offline-ekraam**: Märgiste saatmine/vastuvõtmine kohaliku ülekandeprotokolli, näiteks NFC, QR-koodi, Bluetoothi jne kaudu ilma internetiühenduseta
-- Avastage Nostr** kaudu ecash-mündid: Leidke ja kontrollige usaldusväärseid rahapaigutusi Nostr-protokolli kaudu
-- Vahetage e-raha mündi** vahel: See tähendab, et saate nende vahel väärtust üle kanda.
-- Kaugjuhtige oma Wallet seadet Nostr Wallet Connect (NWC)** abil: Ühendage teiste rakendustega, nagu Nostr Client, ja alustage NWC kaudu zappimist
+- **Chaumian ecash on Lightning**: Kasutab pimesi allkirju, nii et rahapajad ei saa jälgida kasutajate saldosid või tehinguajalugu
+- **Märgiste omavahetus**: Te kontrollibite ecash-märke lokaalselt oma seed fraasiga
+- **seed fraasi varundused**: 12-sõnaline taastamise fraas Wallet taastamiseks
+- **Rahapaja sõltumatus**: Töötab mitme sõltumatu rahapoega - te ei ole lukustatud ühe teenusepakkuja külge
+- **Kohesed, tasuta tehingud**: Sama rahapaja raames toimuvad maksed sekunditega ja ilma tasudeta
+- **Privaatsust säilitav arhitektuur**: Rahapajad ei näe, kes kellega tehinguid teeb
+- **Offline-ekraam**: Märgiste saatmine/vastuvõtmine kohaliku ülekandeprotokolli, näiteks NFC, QR-koodi, Bluetoothi jne kaudu ilma internetiühenduseta
+- Avastage **Nostr** kaudu ecash-mündid: Leidke ja kontrollige usaldusväärseid rahapaigutusi Nostr-protokolli kaudu
+- Vahetage e-raha **mündi** vahel: See tähendab, et saate nende vahel väärtust üle kanda.
+- Kaugjuhtige oma Wallet seadet **Nostr Wallet Connect (NWC)** abil: Ühendage teiste rakendustega, nagu Nostr Client, ja alustage NWC kaudu zappimist
 
 
 Kriitiline kompromiss on "usaldus": kuigi te kontrollite žetoonide endi üle, peate usaldama rahapajaid, et nad hoiavad nende aluseks olevaid Bitcoin varusid. Nagu Cashu dokumentatsioonis öeldakse:

@@ -76,7 +76,7 @@ description: 在手机上设置 Blockstream 应用程序并管理链上交易
     - 功能 **Replace-by-fee (RBF)** 可加快未确认交易的速度。
 - **兼容性**：集成硬件钱包，如 **Blockstream Jade**。
 - **Interface**：为初学者提供直观操作，为专家提供高级选项。
-- 注意**：本指南侧重于链上使用。附录中的其他教程涵盖 Liquid、Watch-Only 和桌面版。
+- **注意**：本指南侧重于链上使用。附录中的其他教程涵盖 Liquid、Watch-Only 和桌面版。
 
 
 
@@ -182,7 +182,7 @@ description: 在手机上设置 Blockstream 应用程序并管理链上交易
 
 
 
-- 注意**：在没有摄像头或旁观者的私密环境中设置您的投资组合。
+- **注意**：在没有摄像头或旁观者的私密环境中设置您的投资组合。
 - 从主屏幕点击 "开始"：
 
 
@@ -420,7 +420,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- 检查** ：
+- 检查**：**
     - 检查摘要屏幕上的 Address、金额和费用。
     - Address 错误可能导致无法挽回的资金损失。谨防修改剪贴板的恶意软件。
 

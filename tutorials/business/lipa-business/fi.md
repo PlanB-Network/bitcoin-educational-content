@@ -130,10 +130,10 @@ Perintäprosessi on samanlainen kuin tavanomaisessa liiketoimessa:
 
 
 
-- Kirjoita summa**: Maksunäytössä anna summa paikallisessa valuutassa (CHF tai EUR). Esimerkki: jos kahvi maksaa 4,50 CHF, syötä 4,50
-- Invoice-sukupolvi** : Sovellus muuntaa summan välittömästi nykyisellä kurssilla satelliiteiksi ja luo Lightning Invoice:n QR-koodin muodossa
-- Asiakasmaksu** : Asiakas skannaa QR-koodin Wallet Lightningilla ja vahvistaa maksun
-- Vahvistus** : Maksu vahvistetaan muutamassa sekunnissa, ja sen onnistuminen näytetään visuaalisesti
+- **Kirjoita summa**: Maksunäytössä anna summa paikallisessa valuutassa (CHF tai EUR). Esimerkki: jos kahvi maksaa 4,50 CHF, syötä 4,50
+- **Invoice-sukupolvi**: Sovellus muuntaa summan välittömästi nykyisellä kurssilla satelliiteiksi ja luo Lightning Invoice:n QR-koodin muodossa
+- **Asiakasmaksu**: Asiakas skannaa QR-koodin Wallet Lightningilla ja vahvistaa maksun
+- **Vahvistus**: Maksu vahvistetaan muutamassa sekunnissa, ja sen onnistuminen näytetään visuaalisesti
 
 
 
@@ -207,11 +207,11 @@ Perintäprosessi on samanlainen kuin tavanomaisessa liiketoimessa:
 
 
 
-- Ateriapalvelu**: Baarit, ravintolat, kahvilat, jotka hyväksyvät lisäykset Bitcoin:ssä juomarahojen hallinnoinnin avulla
-- Vähittäiskauppa**: Päivittäistavarakaupat, leipomot maksutapojen laajentamiseen ilman kiinteitä maksuja
-- Nomadiset myyjät**: ruokarekat, torit, festivaalit vain älypuhelimella
-- Tapahtumat** : Väliaikaiset osastot valmiilla ratkaisuilla
-- Palvelut**: Konsultit, käsityöläiset Bitcoin:n kertalaskutusta varten
+- **Ateriapalvelu**: Baarit, ravintolat, kahvilat, jotka hyväksyvät lisäykset Bitcoin:ssä juomarahojen hallinnoinnin avulla
+- **Vähittäiskauppa**: Päivittäistavarakaupat, leipomot maksutapojen laajentamiseen ilman kiinteitä maksuja
+- **Nomadiset myyjät**: ruokarekat, torit, festivaalit vain älypuhelimella
+- **Tapahtumat**: Väliaikaiset osastot valmiilla ratkaisuilla
+- **Palvelut**: Konsultit, käsityöläiset Bitcoin:n kertalaskutusta varten
 
 
 

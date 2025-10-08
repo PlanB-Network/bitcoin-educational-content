@@ -28,9 +28,9 @@ No es el "duplicado habitual" de Debian para placas pequeñas tipo Raspberry. Di
 
 
 
-- Optimizada para la velocidad y la ligereza**: una [comparación con otras distribuciones Debian para SBC](https://dietpi.com/blog/?p=888), DietPi es más ligera en todo. La imagen ISO de DietPi pesa menos de 1 GB, con diferencia la más pequeña entre las dedicadas a modelos más antiguos de Raspberry o Orange PI (por ejemplo). La demanda de recursos RAM y CPU es muy baja, por lo que siempre saca lo mejor de las placas, incluso de las más antiguas.
-- Automatizaciones e instaladores integrados**: Un conjunto de comandos específicos ayuda a los usuarios a supervisar los recursos del sistema, así como a automatizar tareas para instalar y ejecutar programas, actualizar versiones, realizar copias de seguridad y comprobar todos los registros.
-- Una comunidad fuerte y orientada a la experimentación**: los [tutoriales](https://dietpi.com/forum/c/community-tutorials/8) y proyectos de la comunidad DietPi, son ideales para inspirarse con software que puede instalar con un solo clic, gracias a DietPi.
+- **Optimizada para la velocidad y la ligereza**: una [comparación con otras distribuciones Debian para SBC](https://dietpi.com/blog/?p=888), DietPi es más ligera en todo. La imagen ISO de DietPi pesa menos de 1 GB, con diferencia la más pequeña entre las dedicadas a modelos más antiguos de Raspberry o Orange PI (por ejemplo). La demanda de recursos RAM y CPU es muy baja, por lo que siempre saca lo mejor de las placas, incluso de las más antiguas.
+- **Automatizaciones e instaladores integrados**: Un conjunto de comandos específicos ayuda a los usuarios a supervisar los recursos del sistema, así como a automatizar tareas para instalar y ejecutar programas, actualizar versiones, realizar copias de seguridad y comprobar todos los registros.
+- **Una comunidad fuerte y orientada a la experimentación**: los [tutoriales](https://dietpi.com/forum/c/community-tutorials/8) y proyectos de la comunidad DietPi, son ideales para inspirarse con software que puede instalar con un solo clic, gracias a DietPi.
 
 
 

@@ -281,7 +281,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Addressのみコピーまたはスキャン "**オプションを有効にすると、アプリケーションはBitcoin AddressをSegWit(bech32)フォーマットで生成します。
+- **Addressのみコピーまたはスキャン**オプションを有効にすると、アプリケーションはBitcoin AddressをSegWit(bech32)フォーマットで生成します。
 
 
 
@@ -764,7 +764,7 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 - **制限:**
 - Walletライトニング・ネイティブ（上記参照）より高い最低額。
-- 経費**＋Liquid → ボルツ経由でのライトニング交換
+- **経費**＋Liquid → ボルツ経由でのライトニング交換
 
 The line appears to have an unbalanced ** marker. Here's the corrected version:
 

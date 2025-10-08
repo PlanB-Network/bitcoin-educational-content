@@ -205,7 +205,7 @@ En ce qui concerne Simple Login, cet outil présente les caractéristiques suiva
 
 - (également de F-Droid) et une extension de navigateur, pour gérer les alias dans n'importe quelle situation ;
 - une authentification à deux facteurs pour chaque nouveau pseudonyme, ce qui augmente le degré d'indépendance par rapport au service lui-même ;
-- Prise en charge de PGP (pour les utilisateurs de _Premium) ;
+- Prise en charge de PGP (pour les utilisateurs de _Premium_) ;
 - création simple de tous les types d'alias (personnalisés, aléatoires et UUID) ;
 - parmi les offres gratuites du secteur, la possibilité d'utiliser des alias avec plus de boîtes aux lettres "officielles". D'autres concurrents se limitent à une seule.
 

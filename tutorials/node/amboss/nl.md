@@ -145,9 +145,9 @@ In het **Kanalen** gedeelte zie je de lijst met open kanalen en de verbindingen 
 
 
 
-- Inkomend tarief**: Het bedrag dat het knooppunt je in rekening brengt voor elk miljoen Satoshi dat het ontvangt, afhankelijk van het gekozen kanaal.
+- **Inkomend tarief**: Het bedrag dat het knooppunt je in rekening brengt voor elk miljoen Satoshi dat het ontvangt, afhankelijk van het gekozen kanaal.
 - De verhouding (deeltjes per miljoen)** : die staat voor het aantal Satoshi per miljoen eenheden dat het knooppunt je in rekening brengt als je besluit een betaling te doen via een van zijn kanalen. Stel dat je besluit een betaling van `10_000 Sats` te doen via een kanaal waarvan de ppm-verhouding `500 Sats` is, dan moet je de knoop `10_000 * 500 / 1_000_000` satoshis betalen, wat overeenkomt met `5 Sats`.
-- Het [HTLC](https://planb.network/resources/glossary/HTLC) maximum** : Het maximale bedrag dat dit knooppunt toestaat om door te sturen via een van deze kanalen.
+- Het [HTLC](https://planb.network/resources/glossary/HTLC) **maximum**: Het maximale bedrag dat dit knooppunt toestaat om door te sturen via een van deze kanalen.
 
 
 
@@ -172,7 +172,7 @@ De sectie **Gesloten kanalen** groepeert alle voormalige kanalen van het knooppu
 
 
 
-- Wederzijds sluiten**: vertegenwoordigt de overeenkomst van beide partijen, die hun privésleutel gebruiken om de transactie te ondertekenen die het sluiten van het kanaal en de verdeling van saldi binnen het kanaal markeert
+- **Wederzijds sluiten**: vertegenwoordigt de overeenkomst van beide partijen, die hun privésleutel gebruiken om de transactie te ondertekenen die het sluiten van het kanaal en de verdeling van saldi binnen het kanaal markeert
 - Een **geforceerde sluiting**: staat voor de abrupte, eenzijdige sluiting van een deel van het kanaal. Dit type sluiting wordt niet aangeraden, omdat Lightning Network een straf-gebaseerd protocol is: wanneer je probeert het saldo van een kanaal te frauderen, riskeer je al je beschikbare saldo in dat kanaal te verliezen.
 
 

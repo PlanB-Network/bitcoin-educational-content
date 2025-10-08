@@ -8,10 +8,10 @@ description: Het concept entropie en het gebruik van Boltzmann begrijpen
 ***WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, is de KYCP.org website momenteel ontoegankelijk. De Gitlab die de Python Boltzmann Calculator code host is ook in beslag genomen. Vanaf nu is het niet meer mogelijk om deze tool te downloaden. Het is echter mogelijk dat de code in de komende weken door anderen opnieuw gepubliceerd wordt. In de tussentijd kun je nog steeds je voordeel doen met deze tutorial om de werking van de Boltzmann Calculator te begrijpen. De indicatoren van deze tool zijn toepasbaar op elke Bitcoin transactie en kunnen ook handmatig berekend worden. Ik zal alle benodigde berekeningen in deze tutorial geven. Als je de Python tool al had gedownload op je machine of als je een RoninDojo gebruikt, kun je de tool blijven gebruiken en deze tutorial gewoon volgen, het werkt nog steeds.*
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
+we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is.
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
+deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied.
 
 
 ---

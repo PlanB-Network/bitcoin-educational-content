@@ -112,7 +112,7 @@ Bonyeza "* Sanidi Jade*".
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
 
-Chagua "Mipangilio ya Juu *".
+Chagua "Mipangilio ya Juu **"**.
 
 
 ![Image](assets/fr/07.webp)

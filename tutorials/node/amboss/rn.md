@@ -145,9 +145,9 @@ Mu gice ca **Imirongo**, uzobona urutonde rw'imirongo yuguruye n'uburyo iyo node
 
 
 
-- Incoming ratio**: Amahera node izogusaba ku miliyoni yose ya Satoshi ironka, bivanye n’umurongo wahisemwo.
+- **Incoming ratio**: Amahera node izogusaba ku miliyoni yose ya Satoshi ironka, bivanye n'umurongo wahisemwo.
 - Igitigiri (ibice ku miliyoni)** : kigereranya umubare w’ama Satoshi ku miliyoni y’ibice iyo node izogusaba iyo ufashe ingingo yo kwishura biciye kuri imwe mu nzira zayo. Reka tuvuge ko ufashe ingingo yo kwishura `10_000 Sats` biciye ku muhora ufise igipimo ca ppm `500 Sats`, uzobwirizwa kwishura urudodo `10_000 * 500 / 1_000_000` satoshis, bingana na GW-2` `5.
-- Igitigiri kinini** : Igitigiri kinini iyi node iguha uburenganzira bwo guca muri imwe muri izo nzira.
+- **Igitigiri kinini**: Igitigiri kinini iyi node iguha uburenganzira bwo guca muri imwe muri izo nzira.
 
 
 
@@ -172,7 +172,7 @@ Igice ca **Imirongo yugarijwe** gishira hamwe imirongo yose ya kera y'uruzitiro 
 
 
 
-- Gufungana**: bigereranya amasezerano y’ababiri, bakoresha urufunguzo rwabo rw’ibanga kugira ngo bashire umukono ku gikorwa kigaragaza ugufunga umuyoboro n’ugusangira amafaranga asigaye muri wo .
+- **Gufungana**: bigereranya amasezerano y'ababiri, bakoresha urufunguzo rwabo rw'ibanga kugira ngo bashire umukono ku gikorwa kigaragaza ugufunga umuyoboro n'ugusangira amafaranga asigaye muri wo.
 - **Ugufunga ku nguvu**: bigereranya ugufunga bukwi na bukwi, ku ruhande rumwe kw’igice kimwe c’umuyoboro. Ubwo bwoko bwo gufunga ntibubereye, kuko Lightning Network ari umurongo ushingiye ku gihano: iyo ugerageje guhenda uburinganire bw’umurongo, ushobora gutakaza uburinganire bwawe bwose buri muri uwo muhora.
 
 

@@ -24,25 +24,25 @@ Relai igaragara kubera ko yoroshe, ishobora gushikirwa, kandi yibanda ku kuzigam
 
 
 
-- Aho woyisanga:** Iyi porogarama iboneka ku maduka y’amaporogarama (iOS) no ku maduka y’amaporogarama (Android). Rondera “Relai” maze uyikure ku buntu.
-- Gutegura vyihuse:** Iyo umaze gushiramwo, fungura app hanyuma ukurikize uburyo bwo gutegura burongowe.
+- **Aho woyisanga:** Iyi porogarama iboneka ku maduka y'amaporogarama (iOS) no ku maduka y'amaporogarama (Android). Rondera "Relai" maze uyikure ku buntu.
+- **Gutegura vyihuse:** Iyo umaze gushiramwo, fungura app hanyuma ukurikize uburyo bwo gutegura burongowe.
 
 
 ### Intambwe ya 2: Rema konti yawe
 
 
 
-- KYC itegekanijwe:** Relai ubu isaba ko umenya umukiriya wawe (KYC). Gutegura inyandiko y’indangamuntu n’ikimenyamenya ca Address.
-- Uburyo bwo kugenzura:** Shirako ivyangombwa vyawe, ufate selfie kugira ngo wemeze akaranga kawe, hanyuma urindire kwemezwa (mu bisanzwe mu masaha 24).
-- Kubera iki KYC?:** Ituma amategeko agenga ivy’ubutunzi yubahirizwa kandi igatuma abakoresha bose bagira umutekano.
+- **KYC itegekanijwe:** Relai ubu isaba ko umenya umukiriya wawe (KYC). Gutegura inyandiko y'indangamuntu n'ikimenyamenya ca Address.
+- **Uburyo bwo kugenzura:** Shirako ivyangombwa vyawe, ufate selfie kugira ngo wemeze akaranga kawe, hanyuma urindire kwemezwa (mu bisanzwe mu masaha 24).
+- **Kubera iki KYC?** Ituma amategeko agenga ivy'ubutunzi yubahirizwa kandi igatuma abakoresha bose bagira umutekano.
 
 
 ### Intambwe ya 3: Gukingira Wallet yawe.
 
 
 
-- Ukwirinda:** Relai itanga Wallet idashobora kwirinda, bisobanura ko ari wewe ugenzura imfunguruzo zawe z’ibanga.
-- Backup Your Keys:** Andika amajambo yawe yo gusubizaho amajambo 12 ku mpapuro (atari mu buryo bwa digitale) maze uyabike neza. Ivyo ni ngirakamaro kugira ngo ushobore kuronka amahera yawe iyo telefone yawe yazimiye canke yibwe.
+- **Ukwirinda:** Relai itanga Wallet idashobora kwirinda, bisobanura ko ari wewe ugenzura imfunguruzo zawe z'ibanga.
+- **Backup Your Keys:** Andika amajambo yawe yo gusubizaho amajambo 12 ku mpapuro (atari mu buryo bwa digitale) maze uyabike neza. Ivyo ni ngirakamaro kugira ngo ushobore kuronka amahera yawe iyo telefone yawe yazimiye canke yibwe.
 
 
 ---
@@ -175,11 +175,11 @@ Relai izokwerekana amafaranga y’urubuga akoreshwa.
 
 
 
-- Gumana Ijambo ryawe ryo Gukira:** Uribike utari mu murongo kandi wirinde kurisangira n’umuntu uwo ari we wese.
-- Gushoboza umutekano wa porogaramu:** Koresha PIN ikomeye canke ivyemezo vy'ubuzima.
-- Guhindura ububiko:** Niwiyumvire gukoresha Hardware Wallet ku bipimo vyinshi vya Bitcoin.
-- Guhora Uvugurura App:** Gumana ukingiwe n’ibintu bishasha vyo gucungera umutekano be n’ibintu bishasha.
-- Irinde Wi-Fi ya bose:** Ushobora gukoresha Wallet yawe gusa ku nzira zitekanye.
+- **Gumana Ijambo ryawe ryo Gukira:** Uribike utari mu murongo kandi wirinde kurisangira n'umuntu uwo ari we wese.
+- **Gushoboza umutekano wa porogaramu:** Koresha PIN ikomeye canke ivyemezo vy'ubuzima.
+- **Guhindura ububiko:** Niwiyumvire gukoresha Hardware Wallet ku bipimo vyinshi vya Bitcoin.
+- **Guhora Uvugurura App:** Gumana ukingiwe n'ibintu bishasha vyo gucungera umutekano be n'ibintu bishasha.
+- **Irinde Wi-Fi ya bose:** Ushobora gukoresha Wallet yawe gusa ku nzira zitekanye.
 
 
 ---
@@ -191,10 +191,10 @@ Relai kandi irashigikira ubucuruzi bushaka gushiramwo amahera muri Bitcoin. Ibir
 
 
 
-- Imigambi yo kuzigama:** Imigambi ihuye n’ivyo ubucuruzi bukeneye.
-- Multi-User Access:** Gushoboza abagize umugwi benshi gucunga konti mu mutekano.
-- Imipaka yongerewe:** Gushiramwo amahera menshi ugereranije n’amakonti y’umuntu ku giti ciwe.
-- Infashanyo yihariye:** Kuronka ubufasha bw’abaguzi bw’imbere ku bucuruzi.
+- **Imigambi yo kuzigama:** Imigambi ihuye n'ivyo ubucuruzi bukeneye.
+- **Multi-User Access:** Gushoboza abagize umugwi benshi gucunga konti mu mutekano.
+- **Imipaka yongerewe:** Gushiramwo amahera menshi ugereranije n'amakonti y'umuntu ku giti ciwe.
+- **Infashanyo yihariye:** Kuronka ubufasha bw'abaguzi bw'imbere ku bucuruzi.
 
 
 Kugira ngo ushireho konti y’ubudandaji, bwira umugwi w’abafasha Relai biciye ku rubuga rwabo.
@@ -209,9 +209,9 @@ Relai itanga porogarama iryoshe cane yo gutuma abantu aho ushobora kuronka Bitco
 
 
 
-- Sangira Kode Yawe Yo Kurungika:** Buri muntu wese akoresha Relai aronka kode yihariye yo gutumako. Bisangire n'abagenzi bawe.
-- Uronke 10% vy’amafaranga:** Uzoronka 10% vy’amafaranga y’abagenzi bawe iyo bakoresheje kode yawe.
-- Inyungu ya Bitcoin:** Uko abagenzi bawe babandanya gucuruza kuri Relai, uzoguma uronka Bitcoin. Ni intsinzi kuri wewe n’abagenzi bawe.
+- **Sangira Kode Yawe Yo Kurungika:** Buri muntu wese akoresha Relai aronka kode yihariye yo gutumako. Bisangire n'abagenzi bawe.
+- **Uronke 10% vy'amafaranga:** Uzoronka 10% vy'amafaranga y'abagenzi bawe iyo bakoresheje kode yawe.
+- **Inyungu ya Bitcoin:** Uko abagenzi bawe babandanya gucuruza kuri Relai, uzoguma uronka Bitcoin. Ni intsinzi kuri wewe n'abagenzi bawe.
 
 
 Tanga gusangira kode yawe uno musi maze ukure ikirundo cawe ca Bitcoin ata ngorane!
@@ -227,7 +227,7 @@ Tanga gusangira kode yawe uno musi maze ukure ikirundo cawe ca Bitcoin ata ngora
 
 
 - Relai isaba amafaranga 1% ku giciro cose, canke 0.9% iyo ukoresheje kode yo gutumako nka `REL361712`. Amafaranga yerekanwa mu buryo buboneka imbere y’uko wemeza ko uguze.
-- Zero Fees:** Amafaranga ashika ku €100 canke CHF 100 ntaco atanga.
+- **Zero Fees:** Amafaranga ashika ku €100 canke CHF 100 ntaco atanga.
 
 
 ### Noshobora guhagarika umugambi wanje wo kuzigama?

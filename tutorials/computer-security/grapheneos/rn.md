@@ -26,7 +26,7 @@ GrapheneOS, yashinzwe mu mwaka w’2014 yitwa ‘CopperheadOS’ ishingiye ku nz
 - Amakuru y'ingirakamaro
 
 
-*Iyi nyigisho ni uguhindura ibirimwo vy’umwimerere vyasohowe na [BitcoinQnA kuri Bitcoiner.Guide munsi y’uruhusha rwa MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), uwo ni we afise icubahiro cose ku bijanye n’inyandiko ya mbere.
+**Iyi nyigisho ni uguhindura ibirimwo vy'umwimerere vyasohowe na [BitcoinQnA kuri Bitcoiner.Guide munsi y'uruhusha rwa MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), uwo ni we afise icubahiro cose ku bijanye n'inyandiko ya mbere.**
 
 
 ## Ni kuki ukoresha GrapheneOS?
@@ -485,10 +485,10 @@ Ariko iyo wimukiye kuri GrapheneOS, hariho ivyiza vy’ibiremwa utegerezwa kurek
 
 
 
-- Apple CarPlay/Android Auto** - Uzokenera kwizirika ku nzira nziza ya kera ya Bluetooth, USB canke Aux.
-- Apple/Google Pay** - Hafi umuntu wese atwara Wallet yiwe uko biri kwose!
-- Banking apps** - Si uko ivyo bidakora na gato. Bamwebamwe barabigira, mu vy’ukuri ata gatotsi. Abandi bakora gusa Google Play Services zifunguye (soma ibindi kuri ivyo aha hepfo) abandi na bo ntibakora na gato. Soma raporo iri kuri banki yawe [hano](https://privsec.dev/posts/android/ibikoresho-vy’amabanki-bihuye-n’ama-grapheneos/) kugira ngo ubone uko urukino rumeze ubu. Ntutinye nimba ivyawe biri kuri list idakora, wibuke ko ushobora kubika URL nk’urubuga ku rubuga rwawe rw’inzu.
-- Amatangazo yo gusunika** - Porogaramu nyinshi zigurungikira amakuru mashasha iyo udakoresha porogaramu yihariye zizobikora biciye ku bikorwa vya Google Play. Ivyo ntibishirwaho na GrapheneOS, rero niwasanga utamenyeshwa ubwo nyene iyo umugenzi wawe akurungikiye email, birashoboka ko ari co gituma. Inkuru nziza ni uko zimwe muri izo porogarama twavuze haruguru zashizeho uburyo bwazo bwo gukorana n’inyuma kugira ngo zihora zigenzura ko hariho ivyahinduwe hanyuma ziguhe itangazo aho bisabwa .
+- **Apple CarPlay/Android Auto** - Uzokenera kwizirika ku nzira nziza ya kera ya Bluetooth, USB canke Aux.
+- **Apple/Google Pay** - Hafi umuntu wese atwara Wallet yiwe uko biri kwose!
+- **Banking apps** - Si uko ivyo bidakora na gato. Bamwebamwe barabigira, mu vy'ukuri ata gatotsi. Abandi bakora gusa Google Play Services zifunguye (soma ibindi kuri ivyo aha hepfo) abandi na bo ntibakora na gato. Soma raporo iri kuri banki yawe [hano](https://privsec.dev/posts/android/ibikoresho-vy'amabanki-bihuye-n'ama-grapheneos/) kugira ngo ubone uko urukino rumeze ubu. Ntutinye nimba ivyawe biri kuri list idakora, wibuke ko ushobora kubika URL nk'urubuga ku rubuga rwawe rw'inzu.
+- **Amatangazo yo gusunika** - Porogaramu nyinshi zigurungikira amakuru mashasha iyo udakoresha porogaramu yihariye zizobikora biciye ku bikorwa vya Google Play. Ivyo ntibishirwaho na GrapheneOS, rero niwasanga utamenyeshwa ubwo nyene iyo umugenzi wawe akurungikiye email, birashoboka ko ari co gituma. Inkuru nziza ni uko zimwe muri izo porogarama twavuze haruguru zashizeho uburyo bwazo bwo gukorana n'inyuma kugira ngo zihora zigenzura ko hariho ivyahinduwe hanyuma ziguhe itangazo aho bisabwa.
 
 
 ### Google Play mu gasandugu k'umusenyi
@@ -606,4 +606,4 @@ GrapheneOS ni umwobo w’inkwavu umuntu wese yoshobora kumara amayinga menshi ar
 - [Ikiganiro rusangi ca GrapheneOS] (Ikiganiro rusangi ca GrapheneOS] - Igitabu ca 'Watchman Privacy'
 
 
-*Iyi nyigisho ni uguhindura ibirimwo vy’umwimerere vyasohowe na [BitcoinQnA kuri Bitcoiner.Guide munsi y’uruhusha rwa MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), uwo ni we afise icubahiro cose ku bijanye n’inyandiko ya mbere.
+**Iyi nyigisho ni uguhindura ibirimwo vy'umwimerere vyasohowe na [BitcoinQnA kuri Bitcoiner.Guide munsi y'uruhusha rwa MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), uwo ni we afise icubahiro cose ku bijanye n'inyandiko ya mbere.**

@@ -81,7 +81,7 @@ Tout ce dont vous avez besoin est :
 
 _Après le démarrage initial et la configuration, il est recommandé de désactiver le déverrouillage OEM depuis Paramètres > Système > Options pour les développeurs._
 
-+Vous voudrez peut-être également effectuer l'étape supplémentaire, facultative mais recommandée, de vérifier l'installation via l'application Auditor. Vous aurez besoin d'un autre téléphone Android avec l'application installée pour effectuer cette étape. Les instructions à cet effet se trouvent [ici](https://attestation.app/tutorial)._
++Vous voudrez peut-être également effectuer l'étape supplémentaire, facultative mais recommandée, de vérifier l'installation via l'application Auditor. Vous aurez besoin d'un autre téléphone Android avec l'application installée pour effectuer cette étape. Les instructions à cet effet se trouvent [ici](https://attestation.app/tutorial).
 
 ![video](https://www.youtube.com/embed/L1KZWjZVnAw)
 
@@ -410,4 +410,3 @@ GrapheneOS est un véritable labyrinthe dans lequel n'importe qui pourrait facil
 - [Podcast général sur GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast par 'Watchman Privacy'
 
 *Ce tutoriel est une adaptation du contenu original publié par [BitcoinQnA sur Bitcoiner.Guide sous licence MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), auquel revient l’intégralité du crédit pour le travail de rédaction initial.*
-

@@ -366,7 +366,7 @@ nmap --version
 
 
 
-顯示 Nmap._ 目前版本的結果。
+顯示 Nmap 目前版本的結果。
 
 
 
@@ -451,7 +451,7 @@ nmap --version
 
 
 
-顯示 Nmap._ 目前版本的結果。
+顯示 Nmap 目前版本的結果。
 
 
 
@@ -611,7 +611,7 @@ nmap 192.168.1.18
 
 
 
-使用 Nmap._ 執行簡單 TCP 掃描的結果
+使用 Nmap 執行簡單 TCP 掃描的結果
 
 
 
@@ -759,7 +759,7 @@ Nmap 首先會透過傳送 ARP 請求，找出目標主機是否在本機網路�
 
 
 
-_ARP 請求由 Nmap 發出，以確定本機網路中是否有目標主機。
+**ARP 請求由 Nmap 發出，以確定本機網路中是否有目標主機。**
 
 
 
@@ -909,7 +909,7 @@ UDP 的第二個難點是**服務並不總是回應進入的封包**，很簡單
 
 
 
-摘自 RFC 1122._
+摘自 RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ UDP 的第二個難點是**服務並不總是回應進入的封包**，很簡單
 
 
 
-使用 Nmap._ 在不同連接埠進行 UDP 掃描時的網路擷取。
+使用 Nmap 在不同連接埠進行 UDP 掃描時的網路擷取。
 
 
 
@@ -956,7 +956,7 @@ UDP 的第二個難點是**服務並不總是回應進入的封包**，很簡單
 
 
 
-透過 Nmap._ 執行 UDP 掃描的可能結果
+透過 **Nmap** 執行 UDP 掃描的可能結果
 
 
 
@@ -988,7 +988,7 @@ UDP 的第二個難點是**服務並不總是回應進入的封包**，很簡單
 
 
 
-從檔案 "/usr/shares/nmap/nmap-services"._ 中萃取。
+從檔案 "/usr/shares/nmap/nmap-services" 中萃取。
 
 
 
@@ -1706,7 +1706,7 @@ nmap 192.168.0.0/24 --exclude 192.168.0.4 -p-
 
 
 
-- `Probe`: 這是 Nmap 將要傳送的封包的定義，嘗試激起要識別的服務的反應。把它想像成一個盲目的嘗試，就像 _Hello?Guten Tag?哈囉？或許是 Buenos Dias？一旦目標服務收到它能理解的探測 (也就是說正確的通訊協定)，它就會回應給 Nmap，Nmap 就能確認它是哪一種服務。
+- `Probe`: 這是 Nmap 將要傳送的封包的定義，嘗試激起要識別的服務的反應。把它想像成一個盲目的嘗試，就像 _Hello? Guten Tag? 哈囉？或許是 Buenos Dias？_ 一旦目標服務收到它能理解的探測 (也就是說正確的通訊協定)，它就會回應給 Nmap，Nmap 就能確認它是哪一種服務。
 
 
 
@@ -1749,7 +1749,7 @@ ports "行會告訴 Nmap 要傳送這個 Probe 到哪個連接埠。這可以讓
 
 
 
-Nmap使用的幾個Probes的範例，這些Probes存在於文件`/usr/share/nmap/nmap-service-probes`._中。
+Nmap使用的幾個Probes的範例，這些Probes存在於文件`/usr/share/nmap/nmap-service-probes`中。
 
 
 
@@ -1858,7 +1858,7 @@ Service scan hard match (Probe GetRequest matched with GetRequest line 10510): 1
 
 
 
-在 `/usr/share/nmap/nmap-service-probes`._ 檔案中的 probes `rarity` 指令
+在 `/usr/share/nmap/nmap-service-probes` 檔案中的 probes `rarity` 指令
 
 
 
@@ -1866,7 +1866,7 @@ Service scan hard match (Probe GetRequest matched with GetRequest line 10510): 1
 
 
 
-為了更清楚一點，在預設的情況下，Nmap 會傳送稀有度從 1 到 7 的 _Probes 到每個要被識別的服務。為了讓您更了解_Probes_在_rarity_的分佈，這裡是它們的數量：
+為了更清楚一點，在預設的情況下，Nmap 會傳送稀有度從 1 到 7 的 _Probes_ 到每個要被識別的服務。為了讓您更了解 _Probes_ 在 _rarity_ 的分佈，這裡是它們的數量：
 
 
 
@@ -1912,7 +1912,7 @@ nmap 192.168.1.0/24 -sV --version-intensity 9
 
 
 
-檔案 `/usr/share/nmap/nmap-service-probes`._ 中稀有度為 8 和 9 的探針範例
+檔案 `/usr/share/nmap/nmap-service-probes` 中稀有度為 8 和 9 的探針範例
 
 
 
@@ -2109,7 +2109,7 @@ nmap -sC -p- 10.10.10.152
 
 
 
-透過 Nmap._ 對主機進行漏洞掃描的結果範例
+透過 Nmap 對主機進行漏洞掃描的結果範例
 
 
 
@@ -2264,7 +2264,7 @@ Nmap 的 NSE 腳本允許您以一種高度靈活的方式來擴展它的功能�
 
 
 
-nSE 腳本類別 `ftp-anon`._
+nSE 腳本類別 `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ nSE 腳本類別 `ftp-anon`._
 
 
 
-提取包含 NSE scripts._ 的 `/usr/share/nmap/scripts/` 目錄的內容。
+提取包含 NSE scripts 的 `/usr/share/nmap/scripts/` 目錄的內容。
 
 
 
@@ -2296,7 +2296,7 @@ nSE 腳本類別 `ftp-anon`._
 
 
 
-名稱以 `ftp-`._ 開頭的 NSE Nmap 指令碼清單
+名稱以 `ftp-` 開頭的 NSE Nmap 指令碼清單
 
 
 
@@ -2441,7 +2441,7 @@ nmap --script ftp-anon -p 21 10.10.10.152
 
 
 
-透過 Nmap._ 在 FTP 連接埠使用 NSE `ftp-anon` 指令碼的結果
+透過 Nmap 在 FTP 連接埠使用 NSE `ftp-anon` 指令碼的結果
 
 
 
@@ -2468,7 +2468,7 @@ nmap --script ftp-anon 10.10.10.152
 
 
 
-幫助顯示 NSE 腳本 `sshv1`._ 的結果
+幫助顯示 NSE 腳本 `sshv1` 的結果
 
 
 
@@ -2500,7 +2500,7 @@ nmap --script ftp-anon 10.10.10.152
 
 
 
-顯示 NSE `ssh-brute` 腳本說明的結果，並連結至 nmap.org._
+顯示 NSE `ssh-brute` 腳本說明的結果，並連結至 nmap.org。
 
 
 
@@ -2543,7 +2543,7 @@ nmap --script ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist 
 
 
 
-透過 Nmap._ 強行執行 SSH 的結果
+透過 **Nmap** 強行執行 SSH 的結果
 
 
 
@@ -2838,7 +2838,7 @@ firefox "Nmap – rapport web 05-2024.html"
 
 
 
-從 xsltproc._ 產生的 HTML 格式 Nmap 掃描報告中摘錄
+從 **xsltproc** 產生的 HTML 格式 Nmap 掃描報告中摘錄
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) 是 XSL 的子集，它�
 
 
 
-來源：[helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+來源：[helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) 是 XSL 的子集，它�
 
 
 
-nmap 使用 `-v`._ 選項的詳盡輸出
+nmap 使用 `-v` 選項的詳盡輸出
 
 
 
@@ -2900,7 +2900,7 @@ nmap 使用 `-v`._ 選項的詳盡輸出
 
 
 
-透過`--packet-trace`._詳細監控 Nmap 活動。
+透過`--packet-trace`**詳細監控 Nmap 活動**。
 
 
 
@@ -3120,7 +3120,7 @@ Aquatone 通常會在主機上執行連接埠發現，以尋找網路服務，�
 
 
 
-使用 XML 格式的 Nmap 結果與 `aquatone`._
+使用 XML 格式的 Nmap 結果與 `aquatone`。
 
 
 
@@ -3465,7 +3465,7 @@ Nmap 產生的結果可被視為敏感，尤其是當這些結果包含資訊系
 
 
 
-透過 `sudo`._ 提升 Nmap 權限
+透過 `sudo` 提升 Nmap 權限
 
 
 
@@ -3509,7 +3509,7 @@ Nmap 產生的結果可被視為敏感，尤其是當這些結果包含資訊系
 
 
 
-Nmap._ 中提供的掃描技術
+**Nmap** 中提供的掃描技術
 
 
 
@@ -3598,7 +3598,7 @@ Nmap._ 中提供的掃描技術
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3892,7 +3892,7 @@ nmap -sX 192.168.1.15
 
 
 
-注意：最近版本的 Windows 對 XMAS/FIN/NULL 掃描的支援仍然有限，在此類目標上的結果可能不一致。(2025年更新)_
+注意：最近版本的 Windows 對 XMAS/FIN/NULL 掃描的支援仍然有限，在此類目標上的結果可能不一致。(2025年更新)
 
 
 
@@ -3983,7 +3983,7 @@ TCP ACK 掃描用於偵測目標主機上或目標與掃描來源之間是否存
 
 
 
-在 TCP ACK Scan._ 期間 nmap 顯示
+在 TCP ACK Scan 期間 nmap 顯示
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-注意: `-sP`選項已經過時數年，應以`-sn`取代。(2025年更新)_
+注意: `-sP`選項已經過時數年，應以`-sn`取代。(2025年更新)
 
 
 

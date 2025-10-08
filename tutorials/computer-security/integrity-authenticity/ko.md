@@ -23,7 +23,7 @@ description: 소프트웨어의 무결성과 신뢰성을 확인하는 방법은
 ## 전제 조건
 
 
-Linux**를 사용하는 경우 대부분의 배포판에는 GPG가 사전 설치되어 있습니다. 그렇지 않은 경우 다음 명령을 사용하여 설치할 수 있습니다:
+**Linux**를 사용하는 경우 대부분의 배포판에는 GPG가 사전 설치되어 있습니다. 그렇지 않은 경우 다음 명령을 사용하여 설치할 수 있습니다:
 
 
 ```bash
@@ -31,7 +31,7 @@ sudo apt install gnupg
 ```
 
 
-MacOS**의 경우, 아직 홈브루 패키지 관리자를 설치하지 않았다면 다음 명령어를 사용하여 설치하세요:
+**MacOS**의 경우, 아직 홈브루 패키지 관리자를 설치하지 않았다면 다음 명령어를 사용하여 설치하세요:
 
 
 ```bash
@@ -56,7 +56,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install gnupg
 ```
 
-Windows**의 경우, GPG가 없는 경우 [Gpg4win](https://www.gpg4win.org/) 소프트웨어를 설치할 수 있습니다.
+Windows의 경우, GPG가 없는 경우 [Gpg4win](https://www.gpg4win.org/) 소프트웨어를 설치할 수 있습니다.
 
 ![GnuPG](assets/notext/01.webp)
 
@@ -150,7 +150,7 @@ File.asc]`를 서명 파일의 경로로 바꿉니다. Sparrow의 경우 이 파
 이제 소프트웨어의 진위 여부가 확인되었으므로 무결성을 검증해야 합니다. 소프트웨어의 Hash과 개발자가 제공한 Hash을 비교합니다. 두 개가 일치하면 소프트웨어 코드가 변경되지 않았음을 보장합니다.
 
 
-Windows**에서 터미널을 열고 다음 명령을 실행합니다:
+**Windows**에서 터미널을 열고 다음 명령을 실행합니다:
 
 
 ```bash
@@ -182,10 +182,10 @@ CertUtil -hashfile [file path] SHA256 | findstr /v "hash"
 제 경우에는 두 해시가 완벽하게 일치하는 것을 확인할 수 있습니다.
 
 
-MacOS** 및 **Linux**에서는 Hash 확인 프로세스가 자동화되어 있습니다. Windows에서와 같이 두 해시의 일치 여부를 수동으로 확인할 필요가 없습니다.
+**MacOS** 및 **Linux**에서는 Hash 확인 프로세스가 자동화되어 있습니다. Windows에서와 같이 두 해시의 일치 여부를 수동으로 확인할 필요가 없습니다.
 
 
-MacOS**에서 이 명령을 실행하기만 하면 됩니다:
+**MacOS**에서 이 명령을 실행하기만 하면 됩니다:
 
 
 ```bash
@@ -209,7 +209,7 @@ Sparrow-2.0.0.dmg: OK
 ```
 
 
-Linux**에서도 명령은 비슷합니다:
+Linux**에서도 명령은 비슷합니다:**
 
 
 ```bash

@@ -15,7 +15,7 @@ description: Upptäck Co-Sign-funktionen och använd den på ditt COLDCARD
 
 
 
-**Varför ColdCard Co-Sign?
+**Varför ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Utgiftsvillkor kan till exempel vara:
 
 
 
-- Gränser för magnitud**: Begränsa mängden bitcoins du kan spendera i en enda transaktion.
-- Velocity limits:** bestämmer hur många transaktioner du kan genomföra per tidsenhet (per timme, dag, vecka etc.), vilket kräver ett minsta antal block mellan dem.
-- Förhandsgodkända adresser:** Tillåt endast att bitcoins skickas till förhandsgodkända adresser.
-- Tvåfaktorsautentisering:** Kräver bekräftelse från en mobil 2FA-applikation från tredje part (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) på en NFC-aktiverad smartphone/surfplatta med internetåtkomst.
+- **Gränser för magnitud**: Begränsa mängden bitcoins du kan spendera i en enda transaktion.
+- **Velocity limits:** bestämmer hur många transaktioner du kan genomföra per tidsenhet (per timme, dag, vecka etc.), vilket kräver ett minsta antal block mellan dem.
+- **Förhandsgodkända adresser:** Tillåt endast att bitcoins skickas till förhandsgodkända adresser.
+- **Tvåfaktorsautentisering:** Kräver bekräftelse från en mobil 2FA-applikation från tredje part (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) på en NFC-aktiverad smartphone/surfplatta med internetåtkomst.
 
 
 
-**Hur det fungerar
+**Hur det fungerar**
 
 
 
@@ -61,7 +61,7 @@ Om du vill avstå från dessa utgiftsvillkor kan du göra det:
 
 
 - genom att signera med en av reservnycklarna och seed-handen, eller 2 reservnycklar beroende på storleken på din Multisig.
-- genom att ange "Spending Policy Key" eller "C Key" i menyn "Co-Sign". **Den senare kan inte användas direkt på enheten, eftersom vem som helst annars skulle kunna avbryta de utgiftsvillkor som har konfigurerats
+- genom att ange "Spending Policy Key" eller "C Key" i menyn "Co-Sign". **Den senare kan inte användas direkt på enheten, eftersom vem som helst annars skulle kunna avbryta de utgiftsvillkor som har konfigurerats.**
 
 
 

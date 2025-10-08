@@ -15,7 +15,7 @@ description: Odkryj funkcję Co-Sign i korzystaj z niej na swojej karcie COLDCAR
 
 
 
-**Dlaczego ColdCard Co-Sign?
+**Dlaczego ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Warunkami wydatkowania mogą być na przykład
 
 
 
-- Limity wielkości**: ograniczają ilość bitcoinów, które można wydać w pojedynczej transakcji.
-- Limity prędkości:** decydują o tym, ile transakcji można przeprowadzić w jednostce czasu (na godzinę, dzień, tydzień itp.), wymagając minimalnej liczby bloków między nimi.
-- Wstępnie zatwierdzone adresy:** Zezwalaj na wysyłanie bitcoinów tylko na wstępnie zatwierdzone adresy.
-- Uwierzytelnianie dwuskładnikowe:** Wymaga potwierdzenia z aplikacji mobilnej 2FA innej firmy (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) na smartfonie/tablecie z obsługą NFC i dostępem do Internetu.
+- **Limity wielkości**: ograniczają ilość bitcoinów, które można wydać w pojedynczej transakcji.
+- **Limity prędkości:** decydują o tym, ile transakcji można przeprowadzić w jednostce czasu (na godzinę, dzień, tydzień itp.), wymagając minimalnej liczby bloków między nimi.
+- **Wstępnie zatwierdzone adresy:** Zezwalaj na wysyłanie bitcoinów tylko na wstępnie zatwierdzone adresy.
+- **Uwierzytelnianie dwuskładnikowe:** Wymaga potwierdzenia z aplikacji mobilnej 2FA innej firmy (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) na smartfonie/tablecie z obsługą NFC i dostępem do Internetu.
 
 
 
-**Jak to działa
+**Jak to działa**
 
 
 
@@ -647,7 +647,7 @@ Następnie ColdcardQ wyświetla ostrzeżenie, które po przewinięciu do dołu e
 
 
 
-**Należy zauważyć, że urządzenie nie informuje nas o warunkach wydatków, aby uniemożliwić potencjalnemu atakującemu próbę obejścia ograniczeń
+**Należy zauważyć, że urządzenie nie informuje nas o warunkach wydatków, aby uniemożliwić potencjalnemu atakującemu próbę obejścia ograniczeń**
 
 
 

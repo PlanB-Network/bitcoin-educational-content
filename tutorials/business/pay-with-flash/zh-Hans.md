@@ -65,7 +65,7 @@ Flash 平台接受来自各大洲的企业，包括非洲（尼日利亚、加�
 
 
 
-- Alby Hub** 用于 Alby Go 钱包，是浏览器的 Alby 扩展。
+- **Alby Hub** 用于 Alby Go 钱包，是浏览器的 Alby 扩展。
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** 连接 Bitcoin 网络 CoinOS Wallet。
-- Flash Wallet** 用于连接 Flash Wallet。
-- LN 链接**
+- **Coinos** 连接 Bitcoin 网络 CoinOS Wallet。
+- **Flash Wallet** 用于连接 Flash Wallet。
+- LN 链接
 
 
 

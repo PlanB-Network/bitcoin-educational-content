@@ -36,10 +36,10 @@ In één Interface is Alias Vault:
 
 
 
-- Gratis en open bron**
-- Password Manager**, om alle complexe wachtwoorden op te slaan. Met behulp van de browserextensie voltooit de wachtwoordmanager aanmeldingen op websites
-- 2FA**, ter ondersteuning van verificatie met twee factoren
-- Alias manager met ingebouwde e-mailserver**: Alias Vault maakt geen aliassen aan die e-mail doorsturen naar de mailbox van een gebruiker, maar maakt echte alter-ego's aan, compleet met voornaam, achternaam, geslacht, gebruikersnaam, wachtwoord en verjaardag (als deze informatie vereist is).
+- **Gratis en open bron**
+- **Password Manager**, om alle complexe wachtwoorden op te slaan. Met behulp van de browserextensie voltooit de wachtwoordmanager aanmeldingen op websites
+- **2FA**, ter ondersteuning van verificatie met twee factoren
+- **Alias manager met ingebouwde e-mailserver**: Alias Vault maakt geen aliassen aan die e-mail doorsturen naar de mailbox van een gebruiker, maar maakt echte alter-ego's aan, compleet met voornaam, achternaam, geslacht, gebruikersnaam, wachtwoord en verjaardag (als deze informatie vereist is).
 
 
 

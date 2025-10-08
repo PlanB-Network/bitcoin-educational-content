@@ -56,45 +56,45 @@ Kuri Git na GitHub, uzohura n’amabwirizwa n’ibintu amazina yavyo yoshobora g
 
 
 
-- Fetch origin:** Itegeko rigarura amakuru aheruka n'ihinduka rivuye mu bubiko bwa kure ritabifatanije n'igikorwa cawe co mu karere. Ihindura ububiko bwawe bwo mu karere n'amashami mashasha n'ibikorwa biri mu bubiko bwa kure.
+- **Fetch origin:** Itegeko rigarura amakuru aheruka n'ihinduka rivuye mu bubiko bwa kure ritabifatanije n'igikorwa cawe co mu karere. Ihindura ububiko bwawe bwo mu karere n'amashami mashasha n'ibikorwa biri mu bubiko bwa kure.
 
 
 
-- Pull origin:** Itegeko rikura amakuru mashasha mu bubiko bwa kure maze rikabishira mu ishami ryawe ryo mu karere kugira ngo rihuze. Ivyo bihuza intambwe zo gukura no gufatanya mu itegeko rimwe.
-- Sync Fork:** Igikoresho kiri kuri GitHub kigufasha guhindura Fork yawe y'umugambi n'amahinduka mashasha avuye mu bubiko bw'inkomoko. Ivyo bituma kopi yawe y’umugambi iguma ihuye n’iterambere nyamukuru.
-- Push origin:** Itegeko rikoreshwa mu kohereza amahinduka yawe yo mu karere ku bubiko bwa kure.
+- **Pull origin:** Itegeko rikura amakuru mashasha mu bubiko bwa kure maze rikabishira mu ishami ryawe ryo mu karere kugira ngo rihuze. Ivyo bihuza intambwe zo gukura no gufatanya mu itegeko rimwe.
+- **Sync Fork:** Igikoresho kiri kuri GitHub kigufasha guhindura Fork yawe y'umugambi n'amahinduka mashasha avuye mu bubiko bw'inkomoko. Ivyo bituma kopi yawe y'umugambi iguma ihuye n'iterambere nyamukuru.
+- **Push origin:** Itegeko rikoreshwa mu kohereza amahinduka yawe yo mu karere ku bubiko bwa kure.
 
 
 
-- Pull Request:** Igisabwa coherejwe n’umuterankunga kugira ngo yerekane ko basunikiye amahinduka kw’ishami riri mu bubiko bwa kure kandi bipfuza ko ayo mahinduka asubirwamwo kandi ashobora guhurizwa hamwe n’ishami nyamukuru ry’ububiko.
+- **Pull Request:** Igisabwa coherejwe n'umuterankunga kugira ngo yerekane ko basunikiye amahinduka kw'ishami riri mu bubiko bwa kure kandi bipfuza ko ayo mahinduka asubirwamwo kandi ashobora guhurizwa hamwe n'ishami nyamukuru ry'ububiko.
 
 
 
-- Ivyemezo:** Kubika ivyo wahinduye. Isezerano ni nk’ifoto y’igikorwa cawe mu gihe kanaka, ivyo bikaba bituma ushobora kubika amateka y’amahinduka. Isezerano ryose ririmwo ubutumwa budondora ivyo vyahinduwe.
+- **Ivyemezo:** Kubika ivyo wahinduye. Isezerano ni nk'ifoto y'igikorwa cawe mu gihe kanaka, ivyo bikaba bituma ushobora kubika amateka y'amahinduka. Isezerano ryose ririmwo ubutumwa budondora ivyo vyahinduwe.
 
 
 
-- Ishami:** Verisiyo y'ububiko ihuye, ishobora kugufasha gukora ku mahinduka ataco ihinduye ku ishami ry'ingenzi (kenshi ryitwa "rikuru" canke "umukuru"). Amashami arafasha gutegura ibintu bishasha no gukosora ibibazo ata ngorane yo guhungabanya kode ihamye.
+- **Ishami:** Verisiyo y'ububiko ihuye, ishobora kugufasha gukora ku mahinduka ataco ihinduye ku ishami ry'ingenzi (kenshi ryitwa "rikuru" canke "umukuru"). Amashami arafasha gutegura ibintu bishasha no gukosora ibibazo ata ngorane yo guhungabanya kode ihamye.
 
 
 
-- Gufatanya:** Gufatanya ni ugushiramwo amahinduka ava mw'ishami rimwe aja mu rindi. Ikoreshwa nk’akarorero, mu kwongerako amahinduka ava ku ishami rikora aja ku ishami ry’ingenzi, ivyo bikaba bituma umuntu ashobora kwongerako intererano zitandukanye.
+- **Gufatanya:** Gufatanya ni ugushiramwo amahinduka ava mw'ishami rimwe aja mu rindi. Ikoreshwa nk'akarorero, mu kwongerako amahinduka ava ku ishami rikora aja ku ishami ry'ingenzi, ivyo bikaba bituma umuntu ashobora kwongerako intererano zitandukanye.
 
 
 
-- Fork:** Gucapura ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco bihinduye ku bubiko bw'intango. Fork ishobora kuja mu nzira yayo maze ikaba umugambi utandukanye n’uw’intango, canke ishobora kwama ikorana n’umugambi w’intango kugira ngo uwuterere umusanzu.
+- **Fork:** Gucapura ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco bihinduye ku bubiko bw'intango. Fork ishobora kuja mu nzira yayo maze ikaba umugambi utandukanye n'uw'intango, canke ishobora kwama ikorana n'umugambi w'intango kugira ngo uwuterere umusanzu.
 
 
 
-- Clone:** Gukora clone y’ububiko bisigura gukora kopi y’aho hantu kuri mudasobwa yawe, ivyo bikaba biguha uburenganzira bwo kubona amadosiye yose n’amateka. Ivyo bituma ushobora gukora uwo mugambi ataco uhinduye mu karere.
+- **Clone:** Gukora clone y'ububiko bisigura gukora kopi y'aho hantu kuri mudasobwa yawe, ivyo bikaba biguha uburenganzira bwo kubona amadosiye yose n'amateka. Ivyo bituma ushobora gukora uwo mugambi ataco uhinduye mu karere.
 
 
 
-- Ububiko:** Ububiko bw'umugambi kuri GitHub. Ububiko burimwo amadosiye yose y’umugambi hamwe n’amateka y’amahinduka yose yagizweko. Ni ryo shingiro ry’ububiko n’ugukorana kuri GitHub.
+- **Ububiko:** Ububiko bw'umugambi kuri GitHub. Ububiko burimwo amadosiye yose y'umugambi hamwe n'amateka y'amahinduka yose yagizweko. Ni ryo shingiro ry'ububiko n'ugukorana kuri GitHub.
 
 
 
-- Ikibazo:** Igikoresho co gukurikirana ibikorwa n'ibikoko kuri GitHub. Ibibazo biratuma umuntu ashobora gutanga raporo y’ingorane, gutanga ivyiyumviro vyo guhindura canke kuganira ku bintu bishasha. Ikinyamakuru cose gishobora guhabwa, kigashirwako ikimenyetso, kigashirwako ibitekerezo.
+- **Ikibazo:** Igikoresho co gukurikirana ibikorwa n'ibikoko kuri GitHub. Ibibazo biratuma umuntu ashobora gutanga raporo y'ingorane, gutanga ivyiyumviro vyo guhindura canke kuganira ku bintu bishasha. Ikinyamakuru cose gishobora guhabwa, kigashirwako ikimenyetso, kigashirwako ibitekerezo.
 
 
 Biragaragara ko uru rutonde rudaheza. Hariho n'ayandi majambo menshi y'ubuhinga yihariye kuri Git na GitHub. Ariko rero, abo bavuze ngaha ni bo nyamukuru uzokunda guhura na bo.

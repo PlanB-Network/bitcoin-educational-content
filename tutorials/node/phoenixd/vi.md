@@ -31,7 +31,7 @@ Phoenixd là một node Lightning tối giản, chuyên biệt do ACINQ phát tr
 
 
 
-**Phoenixd là một nút Lightning tối thiểu sử dụng ACINQ làm LSP (Nhà cung cấp dịch vụ Lightning) để tự động thanh khoản. Khi bạn nhận được thanh toán Lightning, nó sẽ tự động mở các kênh với các nút ACINQ để phân bổ dung lượng đầu vào cần thiết. Tính thanh khoản "ngay lập tức" này diễn ra tức thời, nhưng được tính phí chính xác **1% + phí Mining** trên số tiền nhận được.
+**Phoenixd là một nút Lightning tối thiểu sử dụng ACINQ làm LSP (Nhà cung cấp dịch vụ Lightning) để tự động thanh khoản. Khi bạn nhận được thanh toán Lightning, nó sẽ tự động mở các kênh với các nút ACINQ để phân bổ dung lượng đầu vào cần thiết. Tính thanh khoản "ngay lập tức" này diễn ra tức thời, nhưng được tính phí chính xác** **1% + phí Mining** **trên số tiền nhận được.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd là một node Lightning tối giản, chuyên biệt do ACINQ phát tr
 
 
 
-- Kênh Lightning**: Tự động mở, đóng và quản lý khi cần
-- Thanh khoản đến/đi**: Tự động cung cấp thông qua việc ghép nối và mở kênh
-- Tín dụng phí**: Các khoản thanh toán nhỏ không đủ để biện minh cho một kênh được lưu trữ như một khoản dự phòng cho các khoản phí trong tương lai
+- **Kênh Lightning**: Tự động mở, đóng và quản lý khi cần
+- **Thanh khoản đến/đi**: Tự động cung cấp thông qua việc ghép nối và mở kênh
+- **Tín dụng phí**: Các khoản thanh toán nhỏ không đủ để biện minh cho một kênh được lưu trữ như một khoản dự phòng cho các khoản phí trong tương lai
 
 
 
@@ -50,7 +50,7 @@ Phoenixd là một node Lightning tối giản, chuyên biệt do ACINQ phát tr
 
 
 
-**Bạn kiểm soát khóa riêng (seed 12 từ) và tiền của mình. Phoenixd tạo Wallet cục bộ mà không cần chia sẻ khóa.
+**Bạn kiểm soát khóa riêng (seed 12 từ) và tiền của mình. Phoenixd tạo Wallet cục bộ mà không cần chia sẻ khóa.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd yêu cầu môi trường Linux (khuyến nghị Ubuntu/Debian) và m�
 
 
 
-- Máy chủ Linux**: VPS hoặc máy cục bộ có kết nối ổn định
-- OpenJDK 21**: Môi trường chạy Java
-- Kết nối Internet ổn định**: Để đồng bộ hóa với Lightning Network
-- Tên miền** (tùy chọn): Để truy cập HTTPS an toàn vào API
+- **Máy chủ Linux**: VPS hoặc máy cục bộ có kết nối ổn định
+- **OpenJDK 21**: Môi trường chạy Java
+- **Kết nối Internet ổn định**: Để đồng bộ hóa với Lightning Network
+- **Tên miền** (tùy chọn): Để truy cập HTTPS an toàn vào API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Khởi động lần đầu
+**2. Khởi động lần đầu**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Chứng minh danh tính máy chủ của bạn** (ngăn chặn các cuộc tấn công trung gian)
-- Cho phép mã hóa HTTPS**: tất cả dữ liệu, bao gồm cả mật khẩu API của bạn, đều được mã hóa trong quá trình truyền tải
-- Được phát hành miễn phí** bởi Let's Encrypt thông qua công cụ certbot
+- **Chứng minh danh tính máy chủ của bạn** (ngăn chặn các cuộc tấn công trung gian)
+- Cho phép mã hóa **HTTPS**: tất cả dữ liệu, bao gồm cả mật khẩu API của bạn, đều được mã hóa trong quá trình truyền tải
+- **Được phát hành miễn phí** bởi Let's Encrypt thông qua công cụ certbot
 
 
 
@@ -297,10 +297,10 @@ Cấu hình này cho phép bạn:
 
 
 
-- Truy cập an toàn vào API từ Internet**
-- Mã hóa mật khẩu API** của bạn trong quá trình truyền tải (để tránh việc chúng được truyền dưới dạng văn bản thuần túy)
-- Tích hợp Phoenixd** vào các ứng dụng bên ngoài yêu cầu HTTPS
-- Tuân thủ các tiêu chuẩn bảo mật** cho API tài chính
+- **Truy cập an toàn vào API từ Internet**
+- **Mã hóa mật khẩu API** của bạn trong quá trình truyền tải (để tránh việc chúng được truyền dưới dạng văn bản thuần túy)
+- Tích hợp **Phoenixd** vào các ứng dụng bên ngoài yêu cầu HTTPS
+- Tuân thủ các tiêu chuẩn **bảo mật** cho API tài chính
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Phí dịch vụ**: 1% dung lượng kênh (2.115.000 Sats) = 21.150 Sats
-- Phí Mining**: ~3.289 Sats (cho giao dịch On-Chain)
-- Tổng cộng**: 24.439 Sats được khấu trừ tự động
+- **Phí dịch vụ**: 1% dung lượng kênh (2.115.000 Sats) = 21.150 Sats
+- **Phí Mining**: ~3.289 Sats (cho giao dịch On-Chain)
+- **Tổng cộng**: 24.439 Sats được khấu trừ tự động
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Biên lai**: 1% + phí Mining cho thanh khoản tự động
-- Vận chuyển**: Phí định tuyến 0,4% cho Lightning Network
+- **Biên lai**: 1% + phí Mining cho thanh khoản tự động
+- **Vận chuyển**: Phí định tuyến 0,4% cho Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Cửa hàng trực tuyến của bạn sẽ tự động nhận được thông báo khi khách hàng thanh toán đơn hàng, cho phép xác thực giao dịch ngay lập tức.
+**Cửa hàng trực tuyến của bạn sẽ tự động nhận được thông báo khi khách hàng thanh toán đơn hàng, cho phép xác thực giao dịch ngay lập tức.**
 
 
 
@@ -684,7 +684,7 @@ Nhờ có REST API toàn diện, bạn có thể phát triển:
 
 
 
-*~/.phoenix directory:** Sao lưu thư mục này thường xuyên (sau khi Phoenixd đã tắt) để bảo toàn trạng thái kênh và tăng tốc độ khôi phục.
+**~/.phoenix directory:** Sao lưu thư mục này thường xuyên (sau khi Phoenixd đã tắt) để bảo toàn trạng thái kênh và tăng tốc độ khôi phục.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Cả hai đều sử dụng ACINQ làm LSP để thanh khoản tự động.
+**Cả hai đều sử dụng ACINQ làm LSP để thanh khoản tự động.**
 
 
 
@@ -866,9 +866,9 @@ Với Phoenixd, bạn có thể xây dựng cơ sở hạ tầng Lightning riên
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Mã nguồn và bản phát hành
-- Trang web Phoenix Server**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Tài liệu đầy đủ
-- Câu hỏi thường gặp về Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Câu hỏi thường gặp
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Mã nguồn và bản phát hành
+- Trang web **Phoenix Server**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Tài liệu đầy đủ
+- **Câu hỏi thường gặp về Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Câu hỏi thường gặp
 
 
 
@@ -877,5 +877,5 @@ Với Phoenixd, bạn có thể xây dựng cơ sở hạ tầng Lightning riên
 
 
 
-- GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Hỗ trợ kỹ thuật
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Tin tức và thông báo
+- **GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Hỗ trợ kỹ thuật
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Tin tức và thông báo

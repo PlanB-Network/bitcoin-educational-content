@@ -64,7 +64,7 @@ Resmi istatistikler projenin ölçeğini ortaya koyuyor: 224 ülkede 4,4 milyond
 
 
 
-*varsayılan olarak *Google içermez**: Yasal ve etik nedenlerden dolayı hiçbir Google hizmeti önceden yüklenmemiştir. Bu "Google'sız" yaklaşım, kişisel verileriniz üzerinde tam kontrolü garanti eder ve arka planda çalışan hizmetlerden kaçınarak performansı artırır.
+**varsayılan olarak Google içermez**: Yasal ve etik nedenlerden dolayı hiçbir Google hizmeti önceden yüklenmemiştir. Bu "Google'sız" yaklaşım, kişisel verileriniz üzerinde tam kontrolü garanti eder ve arka planda çalışan hizmetlerden kaçınarak performansı artırır.
 
 
 
@@ -149,8 +149,8 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Android Flash Aracı**: Pixel cihazınızı web tarayıcınızdan kolayca stok Android'e geri yüklemek için resmi Google aracını [flash.android.com] (https://flash.android.com) kullanın (Chrome/Edge gereklidir)
-- Alternatif**: Fabrika görüntülerini manuel olarak [developers.google.com/android/images](https://developers.google.com/android/images) adresinden
+- **Android Flash Aracı**: Pixel cihazınızı web tarayıcınızdan kolayca stok Android'e geri yüklemek için resmi Google aracını [flash.android.com](https://flash.android.com) kullanın (Chrome/Edge gereklidir)
+- **Alternatif**: Fabrika görüntülerini manuel olarak [developers.google.com/android/images](https://developers.google.com/android/images) adresinden
 
 
 
@@ -159,10 +159,10 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Cihazınızı en az bir kez** orijinal stok sistemiyle başlatın
-- Tüm özellikleri test edin**: SMS, aramalar, Wi-Fi, mobil veri
-- Önemli**: SMS gönderip/alabildiğinizi ve arama yapıp/alabildiğinizi kontrol edin (WiFi ve 4G/5G üzerinden dahil). Eğer stok sistemde çalışmıyorsa, LineageOS üzerinde de çalışmayacaktır!
-- Yeni cihazlar**: Bazıları IMS sağlamak için VoLTE/VoWiFi'nin stok sistemde en az bir kez kullanılmasını gerektirir
+- Cihazınızı en az bir kez **orijinal stok sistemiyle** başlatın
+- **Tüm özellikleri test edin**: SMS, aramalar, Wi-Fi, mobil veri
+- **Önemli**: SMS gönderip/alabildiğinizi ve arama yapıp/alabildiğinizi kontrol edin (WiFi ve 4G/5G üzerinden dahil). Eğer stok sistemde çalışmıyorsa, LineageOS üzerinde de çalışmayacaktır!
+- **Yeni cihazlar**: Bazıları IMS sağlamak için VoLTE/VoWiFi'nin stok sistemde en az bir kez kullanılmasını gerektirir
 
 
 
@@ -171,8 +171,8 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Etkinleştirmeyi engelleyebilecek Fabrika Ayarlarına Sıfırlama Korumasını önlemek için cihazınızdan tüm Google** hesaplarını kaldırın
-- Tam yedekleme** : İşlem telefonunuzu tamamen silecektir. Fotoğrafları, kişileri, uygulamaları ve önemli dosyaları yedekleyin
+- Etkinleştirmeyi engelleyebilecek Fabrika Ayarlarına Sıfırlama Korumasını önlemek için cihazınızdan tüm **Google** hesaplarını kaldırın
+- **Tam yedekleme**: İşlem telefonunuzu tamamen silecektir. Fotoğrafları, kişileri, uygulamaları ve önemli dosyaları yedekleyin
 
 
 
@@ -185,7 +185,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Geliştirici seçeneklerini** etkinleştirin: Ayarlar > Hakkında > "Yapı numarası "na 7 kez dokunun
+- **Geliştirici seçeneklerini** etkinleştirin: Ayarlar > Hakkında > "Yapı numarası"na 7 kez dokunun
 
 
 
@@ -200,7 +200,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 - Geliştirici seçeneklerinde **USB hata ayıklamayı** etkinleştirin
-- OEM Kilit Açma** özelliğini etkinleştirin (önyükleyicinin kilidini açmak için gereklidir)
+- **OEM Kilit Açma** özelliğini etkinleştirin (önyükleyicinin kilidini açmak için gereklidir)
 
 
 
@@ -216,7 +216,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-⚠️ **Bu talimatlar LineageOS 22.2'ye özeldir. Her adımı tam olarak izleyin. Bir şey başarısız olursa devam etmeyin!
+⚠️ **Bu talimatlar LineageOS 22.2'ye özeldir. Her adımı tam olarak izleyin. Bir şey başarısız olursa devam etmeyin!**
 
 
 
@@ -249,8 +249,8 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- LineageOS oluştur**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Gerekli dosyalar**: Gerekli 3 dosyayı bu sayfadan indirin (sonraki adımlarda kullanılacaklardır):
+- **LineageOS oluştur**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Gerekli dosyalar**: Gerekli 3 dosyayı bu sayfadan indirin (sonraki adımlarda kullanılacaklardır):
   - `lineage-22.2-YYYMMDD-nightly-flame-signed.zip` (ana ROM)
   - dtbo.img` (bölüm aygıt ağacı blobu)
   - `boot.img` (kurtarma LineageOS)
@@ -269,13 +269,13 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-⚠️ **Bu adım tüm verilerinizi siler!
+⚠️ **Bu adım tüm verilerinizi siler!**
 
 
 
 
 
-- ADB bağlantısını test edin**: Cihazınızı USB ile bağlayın ve bilgisayarınızın terminalinden `adb devices` komutu ile test edin
+- **ADB bağlantısını test edin**: Cihazınızı USB ile bağlayın ve bilgisayarınızın terminalinden `adb devices` komutu ile test edin
 
 
 
@@ -289,7 +289,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Telefonunuzda bağlantıyı** yetkilendirin
+- Telefonunuzda **bağlantıyı yetkilendirin**
 
 
 
@@ -303,7 +303,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Önyükleyici moduna önyükleme yapın** :
+- **Önyükleyici moduna önyükleme yapın**:
 
 
 ```
@@ -317,7 +317,7 @@ Veya **Ses Kısma + Güç** tuşlarını basılı tutarak cihazı kapatın
 
 
 
-- Fastboot** bağlantısını kontrol edin:
+- **Fastboot** bağlantısını kontrol edin:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Önyükleyici kilidini açın** :
+- **Önyükleyici kilidini açın** :
 
 
 ```
@@ -370,7 +370,7 @@ Cihazda, gezinmek için Ses tuşlarını kullanın ve **Güç** düğmesine basa
 
 
 
-- Otomatik yeniden başlatmadan** sonra, geliştirici seçeneklerinde USB hata ayıklamayı yeniden etkinleştirin
+- Otomatik yeniden başlatmadan sonra, geliştirici seçeneklerinde USB hata ayıklamayı yeniden etkinleştirin
 
 
 
@@ -385,8 +385,8 @@ Cihazda, gezinmek için Ses tuşlarını kullanın ve **Güç** düğmesine basa
 
 
 
-- Önyükleyiciyi yeniden başlatın**: Sesi Kısma + Güç
-- Flash** (`/path/to/` yerine dosyayı indirdiğiniz klasörü yazın) :
+- **Önyükleyiciyi yeniden başlatın**: Sesi Kısma + Güç
+- **Flash** (`/path/to/` yerine dosyayı indirdiğiniz klasörü yazın) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (`/path/to/` yerine dosyayı indirdiğiniz klasörü yazın) :
+- **Flash recovery** (`/path/to/` yerine dosyayı indirdiğiniz klasörü yazın) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Kontrol etmek için kurtarmada** yeniden başlatın
+- Kontrol etmek için kurtarmada **yeniden başlatın**
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Kurtarma modunda yeniden başlat**: Ses Kısma + Güç → Kurtarma Modu
+- **Kurtarma modunda yeniden başlat**: Ses Kısma + Güç → Kurtarma Modu
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Fabrika Ayarlarına Sıfırla** : "Fabrika ayarlarına sıfırla" → "Verileri biçimlendir / fabrika ayarlarına sıfırla" yazın
+- **Fabrika Ayarlarına Sıfırla** : "Fabrika ayarlarına sıfırla" → "Verileri biçimlendir / fabrika ayarlarına sıfırla" yazın
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Ana menüye dön**
-- LineageOS'u Yan Yükle** :
+- Ana menüye dön
+- **LineageOS'u Yan Yükle** :
    - Cihaz üzerinde: "Güncellemeyi Uygula" → "ADB'den Uygula"
    - Bilgisayarda: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Yeniden başlat**: "Sistemi şimdi yeniden başlat"
-- İlk açılış**: 15 dakikaya kadar sürebilir
+- **Yeniden başlat**: "Sistemi şimdi yeniden başlat"
+- **İlk açılış**: 15 dakikaya kadar sürebilir
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Ürün yazılımı uyumluluğu**: Modelinizin indirme sayfasında gereken ürün yazılımı sürümünü kontrol ettiğinizden emin olun
-- LineageOS'u yükledikten sonra asla önyükleyiciyi yeniden kilitlemeyin**
-- Cihazınız için özel talimatları** izleyin
+- **Ürün yazılımı uyumluluğu**: Modelinizin indirme sayfasında gereken ürün yazılımı sürümünü kontrol ettiğinizden emin olun
+- **LineageOS'u yükledikten sonra asla önyükleyiciyi yeniden kilitlemeyin**
+- Cihazınız için **özel talimatları** izleyin
 
 
 
@@ -559,11 +559,11 @@ Google olmadan stok Android'e yakın, kolaylaştırılmış Interface. Basit yap
 
 
 
-- Navigasyon**: Organik Haritalar (OpenStreetMap tabanlı çevrimdışı haritalar)
-- İletişim**: Signal (uçtan uca şifrelenmiş mesajlar), K-9 Mail (ücretsiz e-posta istemcisi)
-- Medya**: NewPipe (reklamsız, izlemesiz YouTube), VLC (evrensel medya oynatıcı)
-- Üretkenlik**: Nextcloud (kendi kendini barındıran bulut), Basit Takvim (CalDAV senkronizasyonu)
-- Güvenlik**: Bitwarden (şifre yöneticisi), Aegis Authenticator (2FA kodları)
+- **Navigasyon**: Organik Haritalar (OpenStreetMap tabanlı çevrimdışı haritalar)
+- **İletişim**: Signal (uçtan uca şifrelenmiş mesajlar), K-9 Mail (ücretsiz e-posta istemcisi)
+- **Medya**: NewPipe (reklamsız, izlemesiz YouTube), VLC (evrensel medya oynatıcı)
+- **Üretkenlik**: Nextcloud (kendi kendini barındıran bulut), Basit Takvim (CalDAV senkronizasyonu)
+- **Güvenlik**: Bitwarden (şifre yöneticisi), Aegis Authenticator (2FA kodları)
 
 
 

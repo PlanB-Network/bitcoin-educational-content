@@ -433,14 +433,10 @@ Ente Auth 提供大量自定义选项，可通过应用程序设置进行访问�
 
 - 语言：Interface 多语种
 - 显示：大图标，紧凑模式
-- 隐私**：隐藏代码、快速搜索
-
-The line appears to have an unbalanced ** marker. Here's the corrected version:
-
 - **隐私**：隐藏代码、快速搜索
-- 遥测**：错误报告（可禁用）
+- **隐私**：隐藏代码、快速搜索
+- **遥测**：错误报告（可禁用）
 
-The line is already correctly formatted. The ** markers are balanced (one opening ** and one closing **), making "遥测" bold as intended.
 
 
 

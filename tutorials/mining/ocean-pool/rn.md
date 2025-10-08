@@ -125,19 +125,19 @@ Kugira ngo wongereko umukozi, tangura uhisemwo igishushanyo c'ibarabara ryawe. I
 
 
 
-- CORE**: `igice+tcp://core.imine.ikiyaga.xyz:3202`
-- CORE+ANTISPAM**: `igice+tcp://ordis.imine.inyanja.xyz:3303`
-- IKIYAGA**: `igice+tcp://imine.ikiyaga.xyz:3334`
-- AMAKURU-UBUSA**: `igice+tcp://amakuru.ubuntu.imine.ikiyaga.xyz:3404`
+- **CORE**: `igice+tcp://core.imine.ikiyaga.xyz:3202`
+- **CORE+ANTISPAM**: `igice+tcp://ordis.imine.inyanja.xyz:3303`
+- **IKIYAGA**: `igice+tcp://imine.ikiyaga.xyz:3334`
+- **AMAKURU-UBUSA**: `igice+tcp://amakuru.ubuntu.imine.ikiyaga.xyz:3404`
 
 
 Inyuma, ku bijanye n’ukoresha, shiramwo Bitcoin Address ufise. Aha niho hari urutonde rw'ubwoko bwa Address buhuye:
 
 
-- P2PKH** (Ubwoko bw’umwimerere bwa Address. Butangura na “1”)
-- P2SH** (Imikono myinshi canke P2SH-SegWit. Itangura na “3”)
-- Bech32** (SegWit. Itangura n’ijambo “imbere y’ivuka rya Yezu”.)
-- Beki32m** (Taproot. Itangura n’ijambo “bc”. Ireha kuruta Beki32.)
+- **P2PKH** (Ubwoko bw'umwimerere bwa Address. Butangura na "1")
+- **P2SH** (Imikono myinshi canke P2SH-SegWit. Itangura na "3")
+- **Bech32** (SegWit. Itangura n'ijambo "imbere y'ivuka rya Yezu".)
+- **Beki32m** (Taproot. Itangura n'ijambo "bc". Ireha kuruta Beki32.)
 
 
 Niba ufise abacukuzi benshi, ushobora kwinjiza Address imwe kuri bo bose kugira ngo ibiciro vyabo vya Hash bihurizwe hamwe bigaragare nk'i Miner imwe. Ushobora kandi kubitandukanya mu kwongerako izina ridasanzwe kuri kimwe cose. Kugira ngo ubikore, wongereko gusa “.izina ry’umukozi” inyuma ya Bitcoin Address.
@@ -152,9 +152,9 @@ Niwahitamwo igishushanyo ca **OCEAN**, Bitcoin Address yawe ni `bc1q2ed8zxq8njqs
 
 
 
-- URL**: `igice+cp://imine.ikiyaga.xyz:3334`
-- UMUKORESHA**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- IJAMBO BANGA**: `x`
+- **URL**: `igice+cp://imine.ikiyaga.xyz:3334`
+- **UMUKORESHA**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **IJAMBO BANGA**: `x`
 
 
 Iminota mikeyi inyuma yo gutangura Mining, uzoshobora kubona amakuru yawe ku rubuga rwa Ocean urondera Address yawe.
@@ -163,9 +163,9 @@ Iminota mikeyi inyuma yo gutangura Mining, uzoshobora kubona amakuru yawe ku rub
 ### Incamake y'urubaho
 
 
-- Imigabane mu Idirisha ry’Impembo**: Aya makuru yerekana umubare w’imigabane, igikorwa wohereje ku kidengeri mw’idirisha ry’amabuye 8 ya nyuma yacukuwe n’ikidengeri.
-- Ivyiza bigereranywa muri Windows**: Igereranyo ry’umubare w’ama Sats uzoronka n’igikorwa umaze gukora. Ivyo ntibifata mu muzirikanyi amafaranga y’ugucuruza, ahubwo bifata coinbase gusa, ni ukuvuga ama bitcoins mashasha asohowe n’urubuga.
-- Ivyiyumviro vy’Ivyiza Bizoronka Igikurikira**: Ivyiyumviro vy’umubare w’ama Sats umuntu aronka iyo icukurwa ubu. Ibuka ko iyo iyo nkuru iri munsi ya 1.048.576 Sats, ntuzoronka Sats ku Address yawe. Bizorungikwa kuri Address ya Ocean gushika amahera ubona arenze iyo nzira.
+- **Imigabane mu Idirisha ry'Impembo**: Aya makuru yerekana umubare w'imigabane, igikorwa wohereje ku kidengeri mw'idirisha ry'amabuye 8 ya nyuma yacukuwe n'ikidengeri.
+- **Ivyiza bigereranywa muri Windows**: Igereranyo ry'umubare w'ama Sats uzoronka n'igikorwa umaze gukora. Ivyo ntibifata mu muzirikanyi amafaranga y'ugucuruza, ahubwo bifata coinbase gusa, ni ukuvuga ama bitcoins mashasha asohowe n'urubuga.
+- **Ivyiyumviro vy'Ivyiza Bizoronka Igikurikira**: Ivyiyumviro vy'umubare w'ama Sats umuntu aronka iyo icukurwa ubu. Ibuka ko iyo iyo nkuru iri munsi ya 1.048.576 Sats, ntuzoronka Sats ku Address yawe. Bizorungikwa kuri Address ya Ocean gushika amahera ubona arenze iyo nzira.
 
 
 Hasi, ufise igicapo kigaragaza amateka yawe ya Hashrate gushika ku mezi 6.
@@ -273,7 +273,7 @@ Dufate ko urufunguzo rwawe rw'ibanga ruri muri BlueWallet (ushobora gukora nk'uk
 ![signup](assets/15.webp)
 
 
-Hanyuma ku *........ hejuru iburyo.
+Hanyuma ku *........ hejuru iburyo.*
 
 
 ![signup](assets/15bis.webp)

@@ -36,10 +36,10 @@ Bir Interface Alias Vault'ta:
 
 
 
-- Ücretsiz ve açık kaynak**
-- Password Manager**, tüm karmaşık şifreleri saklamak için. Tarayıcı uzantısını kullanarak, parola yöneticisi web sitelerine girişleri tamamlar
-- 2FA**, iki faktörlü kimlik doğrulamayı desteklemek için
-- Yerleşik e-posta sunucusuna sahip takma ad yöneticisi**: Alias Vault, e-postayı kullanıcının posta kutusuna ileten takma adlar oluşturmaz; bunun yerine, ad, soyad, cinsiyet, kullanıcı adı, şifre ve doğum günü (bu bilgiler gerekliyse) ile tamamlanan gerçek alter-egolar oluşturur.
+- **Ücretsiz ve açık kaynak**
+- **Password Manager**, tüm karmaşık şifreleri saklamak için. Tarayıcı uzantısını kullanarak, parola yöneticisi web sitelerine girişleri tamamlar
+- **2FA**, iki faktörlü kimlik doğrulamayı desteklemek için
+- **Yerleşik e-posta sunucusuna sahip takma ad yöneticisi**: Alias Vault, e-postayı kullanıcının posta kutusuna ileten takma adlar oluşturmaz; bunun yerine, ad, soyad, cinsiyet, kullanıcı adı, şifre ve doğum günü (bu bilgiler gerekliyse) ile tamamlanan gerçek alter-egolar oluşturur.
 
 
 

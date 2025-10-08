@@ -93,7 +93,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Federations**メニューでフェデレーションまでスクロールダウンし、**Federation Details**をクリックして、どの閾値が設定されているかを確認する。
+**Federations**メニューでフェデレーションまでスクロールダウンし、**Federation Details**をクリックして、どの閾値が設定されているかを確認する。
 
 
 

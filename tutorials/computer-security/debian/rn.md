@@ -17,11 +17,11 @@ Debian ni ubuntu bwa GNU/Linux, buzwi cane kubera ubukomezi bwayo n'ukwizigirwa.
 
 
 
-- Ku buntu kandi yuguruye**: Debian ni inkomoko yuguruye yose, itanga icemezo c'uguseruka kandi nta mahera y'uruhusha.
-- Gushikama n’umutekano**: igisohoka cose gica mu nzira y’igerageza ryinshi, bikaba bituma Debian iba imwe mu nzira zishobora kwizigirwa kandi zitekanye ku isoko.
-- Umuryango ukora**: umuryango munini n’inyandiko nyinshi ziraboneka kugira ngo zigufashe igihe cose ubikeneye.
-- Iremereye kandi ishobora guhindurwa**: ushobora gushiramwo Debian ku mashini zifise uburyo buke mu gihe uguma ukora neza.
-- Urutonde rwa porogarama nyinshi**: amapaki arenga 50.000 yemewe araboneka biciye ku bubiko.
+- **Ku buntu kandi yuguruye**: Debian ni inkomoko yuguruye yose, itanga icemezo c'uguseruka kandi nta mahera y'uruhusha.
+- **Gushikama n'umutekano**: igisohoka cose gica mu nzira y'igerageza ryinshi, bikaba bituma Debian iba imwe mu nzira zishobora kwizigirwa kandi zitekanye ku isoko.
+- **Umuryango ukora**: umuryango munini n'inyandiko nyinshi ziraboneka kugira ngo zigufashe igihe cose ubikeneye.
+- **Iremereye kandi ishobora guhindurwa**: ushobora gushiramwo Debian ku mashini zifise uburyo buke mu gihe uguma ukora neza.
+- **Urutonde rwa porogarama nyinshi**: amapaki arenga 50.000 yemewe araboneka biciye ku bubiko.
 
 
 
@@ -35,12 +35,12 @@ Debian itanga ibidukikije vyinshi vy'ibiro bihuye n'ivyo ukeneye:
 
 
 
-- GNOME**: Interface y’ubu, ishobora gutahurwa, ni nziza ku batangura. Itanga urutonde rw’ibishushanyo rugenda neza kandi rworoshe gukoresha kugira ngo umuntu ashobore gushika ku bikorwa.
-- XFCE**: yoroshe kandi yihuta, ibereye ku mashini zidakomeye cane.
-- KDE Plasma**: ishobora guhindurwa cane, isa n’iya Windows.
-- Cinnamon**: yoroshe, nziza cane Interface, yahumekewe na Windows.
-- LXDE / LXQt**: umuco mwinshi cane, ubereye mudasobwa za kera.
-- MATE**: yoroshe kandi ya kera, hafi ya GNOME ya kera.
+- **GNOME**: Interface y'ubu, ishobora gutahurwa, ni nziza ku batangura. Itanga urutonde rw'ibishushanyo rugenda neza kandi rworoshe gukoresha kugira ngo umuntu ashobore gushika ku bikorwa.
+- **XFCE**: yoroshe kandi yihuta, ibereye ku mashini zidakomeye cane.
+- **KDE Plasma**: ishobora guhindurwa cane, isa n'iya Windows.
+- **Cinnamon**: yoroshe, nziza cane Interface, yahumekewe na Windows.
+- **LXDE / LXQt**: umuco mwinshi cane, ubereye mudasobwa za kera.
+- **MATE**: yoroshe kandi ya kera, hafi ya GNOME ya kera.
 
 
 
@@ -61,9 +61,9 @@ Imbere yo gutangura gushiramwo, urabe neza ko ufise ibi bikoresho bikurikira:
 
 
 
-- Urufunguzo rwa USB**: 8 GB n’imiburiburi kugira ngo ufate ishusho ya ISO ishobora gufungurwa.
-- Ubuhinga bwo kwibuka (RAM)**: 4 GB kugira ngo ushobore gushiramwo no gukoresha neza.
-- Disk space**: nibura 15 GB y’umwanya w’ubuntu wo gukoresha muri sisitemu n’ibindi bishasha.
+- **Urufunguzo rwa USB**: 8 GB n'imiburiburi kugira ngo ufate ishusho ya ISO ishobora gufungurwa.
+- **Ubuhinga bwo kwibuka (RAM)**: 4 GB kugira ngo ushobore gushiramwo no gukoresha neza.
+- **Disk space**: nibura 15 GB y'umwanya w'ubuntu wo gukoresha muri sisitemu n'ibindi bishasha.
 
 
 
@@ -77,9 +77,9 @@ Guhitamwo ishusho ya Debian bivana n'ubwubatsi bwa processeur yawe:
 
 
 
-- AMD64**: gukuraho igitabu "cy'ubuzima" ku rutonde [gukuraho] (https://debian.obspm.fr/debian-cd/12.11.0-ubuzima/amd64/iso-hybrid/).
-- ARM64**: ubone ishusho ya DVD ku rubuga rwemewe rwa Debian (Debian.obspm.fr/12.11.0/arm64/iso-dvd/).
-- Ibindi vyubatswe**: rondera ISO ihuye n'ubwubatsi bwawe [hano](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: gukuraho igitabu "cy'ubuzima" ku rutonde [gukuraho](https://debian.obspm.fr/debian-cd/12.11.0-ubuzima/amd64/iso-hybrid/).
+- **ARM64**: ubone ishusho ya DVD ku rubuga rwemewe rwa Debian (Debian.obspm.fr/12.11.0/arm64/iso-dvd/).
+- **Ibindi vyubatswe**: rondera ISO ihuye n'ubwubatsi bwawe [hano](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -106,9 +106,9 @@ Umaze gukuraho ishusho ISO ibereye, genda ureme ubuhinga bwawe bwo gushiramwo:
 
 
 
-- Launch Etcher**: gufungura porogaramu maze uhitemwo ishusho ya Debian ISO yari yarakuweho mbere.
+- **Launch Etcher**: gufungura porogaramu maze uhitemwo ishusho ya Debian ISO yari yarakuweho mbere.
 - Hitamwo urufunguzo rwa USB: vuga urufunguzo rwawe (8 GB+) nk’intumbero.
-- Tangira flash**: ukande kuri **Flash!** hanyuma urindire gushika igikorwa kirangiye.
+- Tangira flash: ukande kuri **Flash!** hanyuma urindire gushika igikorwa kirangiye.
 
 
 
@@ -133,10 +133,10 @@ Kugira ngo utangure gushiramwo ukoresheje urufunguzo rwawe rwa USB:
 
 
 
-- Zima** mudasobwa yose.
-- Reboot** hanyuma winjire muri BIOS/UEFI ukanda `ESC`, `F2`, `F11` (canke urufunguzo rwihariye bivanye n’ibara ryawe).
+- **Zima** mudasobwa yose.
+- **Reboot** hanyuma winjire muri BIOS/UEFI ukanda `ESC`, `F2`, `F11` (canke urufunguzo rwihariye bivanye n'ibara ryawe).
 - Mu nzira y'ugutangura, **hitamwo urufunguzo rwawe rwa USB** nk'igikoresho co gufungura.
-- Wemeze** n'urufunguzo Enter kugira ngo utangure ku ishusho ya Debian: ibi bizokujana ku mugaragaro w'akabazo w'umushiramwo.
+- Wemeze n'urufunguzo **Enter** kugira ngo utangure ku ishusho ya Debian: ibi bizokujana ku mugaragaro w'akabazo w'umushiramwo.
 
 
 
@@ -157,9 +157,9 @@ Igihe ufunguye ukoresheje inkoni ya USB, igicapo c'akabazo ca Debian gitanga ama
 
 
 
-- Live System**: itanguza Debian itayishizemwo, ni nziza cane mu kugerageza ibidukikije.
-- Gutangura gushiramwo**: itangura gushiramwo ataco ihinduye kuri disiki ya Hard.
-- Amahitamwo yo gushiramwo**: aguha uburenganzira bwo gukoresha uburyo bwo gushiramwo bugenewe.
+- **Live System**: itanguza Debian itayishizemwo, ni nziza cane mu kugerageza ibidukikije.
+- **Gutangura gushiramwo**: itangura gushiramwo ataco ihinduye kuri disiki ya Hard.
+- **Amahitamwo yo gushiramwo**: aguha uburenganzira bwo gukoresha uburyo bwo gushiramwo bugenewe.
 
 
 
@@ -173,7 +173,7 @@ Kugira ngo ubone Debian mu buryo bubaho, hitamwo **Uburyo bubaho** maze wemeze n
 
 
 
-- Guhitamwo ururimi** (ntibikenewe)
+- **Guhitamwo ururimi** (ntibikenewe)
 
 
 
@@ -187,7 +187,7 @@ Hitamwo ururimi nyamukuru rwa sisitemu yawe ya Debian muri urwo rutonde, hanyuma
 
 
 
-- Igihe** (GMT)
+- **Igihe** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Hitamwo ururimi rwa klavye yawe n’ingene iteye. Koresha umwanya w’ikigeragez
 
 
 
-- Erase disk**: niba ufise igice kigenewe, iyi nzira izofuta ibirimwo vyose.
-- Gucapura n'amaboko**: hitamwo iyi nzira kugira ngo ureme, uhindure ingano canke usibe ibice nk'uko bisabwa.
+- **Erase disk**: niba ufise igice kigenewe, iyi nzira izofuta ibirimwo vyose.
+- **Gucapura n'amaboko**: hitamwo iyi nzira kugira ngo ureme, uhindure ingano canke usibe ibice nk'uko bisabwa.
 
 
 
@@ -244,7 +244,7 @@ Injira izina ryawe ryose, izina rya konti yawe n’ijambobanga rikomeye kugira n
 
 
 
-- Incamake y'imirongo**
+- **Incamake y'imirongo**
 
 
 
@@ -272,7 +272,7 @@ Fyonda kuri **Install** kugira utangure gukopa amadosiye no gutunganya system, h
 
 
 
-- Gusubira gutangura**
+- **Gusubira gutangura**
 
 
 

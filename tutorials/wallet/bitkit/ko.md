@@ -16,7 +16,7 @@ Bitkit(https://www.bitkit.to)은 간단하지만 강력한 셀프 커스터디 W
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-위의 동영상 튜토리얼은 비트킷 월렛에 대한 20' 종합 가이드입니다_
+위의 동영상 튜토리얼은 비트킷 월렛에 대한 20' 종합 가이드입니다.
 
 
 ## 가이드

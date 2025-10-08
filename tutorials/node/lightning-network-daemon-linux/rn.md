@@ -28,8 +28,8 @@ Mu yandi majambo, n'iyi nzira, urashobora :
 
 
 
-- Gukorana na Lightning Network**: Ushobora gukoresha imirongo y’amabwirizwa kugira ngo ureme ama wallets ya Lightning, ucunge inzira zo kwishura n’inzira, n’ibindi vyinshi, ukoresheje imashini yawe.
-- Guhuza urudodo rwa Bitcoin ruri kure canke urugero rwawe rwa Bitcoin core**: LND igufasha guhuza urugero rwa Bitcoin maze ukarukoresha nk'inyuma yawe. Kugira ngo ukoreshe iyi nzira, ntukeneye gukoresha instance ya Bitcoin core ku mashini yawe.
+- **Gukorana na Lightning Network**: Ushobora gukoresha imirongo y'amabwirizwa kugira ngo ureme ama wallets ya Lightning, ucunge inzira zo kwishura n'inzira, n'ibindi vyinshi, ukoresheje imashini yawe.
+- **Guhuza urudodo rwa Bitcoin ruri kure canke urugero rwawe rwa Bitcoin core**: LND igufasha guhuza urugero rwa Bitcoin maze ukarukoresha nk'inyuma yawe. Kugira ngo ukoreshe iyi nzira, ntukeneye gukoresha instance ya Bitcoin core ku mashini yawe.
 
 
 
@@ -57,10 +57,10 @@ Muri ubwo buryo, gukoresha urudodo rwa Lightning birongereza umutekano n’ubutu
 
 
 
-- Total control**: Ucunge inzira zawe zo kwishura, ube banki yawe kandi ube umukuru w’itunga ryawe.
-- Ibanga**: Gukora ataco wizigiye abandi bantu kugira ngo bakingire ubuzima bwite bwawe.
-- Kwiga no kwigenga**: Ushimira amabwirizwa ya `lncli`, urashobora gutahura neza imigenderanire ya Lightning mu kwikoresha uri ku nzira yawe.
-- Kwegereza ubutegetsi**: Gugira uruhara runini mu gukomeza no kwegereza ubutegetsi Bitcoin / Lightning Network.
+- **Total control**: Ucunge inzira zawe zo kwishura, ube banki yawe kandi ube umukuru w'itunga ryawe.
+- **Ibanga**: Gukora ataco wizigiye abandi bantu kugira ngo bakingire ubuzima bwite bwawe.
+- **Kwiga no kwigenga**: Ushimira amabwirizwa ya `lncli`, urashobora gutahura neza imigenderanire ya Lightning mu kwikoresha uri ku nzira yawe.
+- **Kwegereza ubutegetsi**: Gugira uruhara runini mu gukomeza no kwegereza ubutegetsi Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Nk’uko LND yanditswe muri Go, ukeneye kumenya neza ko ufise ibidukikije vya Go
 
 
 
-- Ibisabwa mu bikoresho:**
+- Ibisabwa mu bikoresho:
 
 
 Kugira ngo ukore neza kandi utagira umurongo, imashini yawe izokenera kugira ubushobozi bukwiye bwo gukoresha urudodo rwawe rwa LND Lightning.
@@ -124,7 +124,7 @@ sudo apt install -y build-essential git make
 
 
 
-- Shiraho GoLang ku mashine yawe ya Linux**
+- **Shiraho GoLang ku mashine yawe ya Linux**
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Genda** imiterere y'ibidukikije
+- **Genda** imiterere y'ibidukikije
 
 
 Mu dosiye yawe `~/.bashrc`, tangura ibi bihinduka vy'ibidukikije bikurikira kugira ngo wongere Genda kuri sisitemu yawe ya Linux.
@@ -239,7 +239,7 @@ make install
 
 
 
-- Gusuzuma uko washizeho** (mu gifaransa)
+- **Gusuzuma uko washizeho** (mu gifaransa)
 
 
 
@@ -334,37 +334,37 @@ Hashingiwe ku birimwo muri dosiye `~/.LND/LND.conf`, ng'ibi ibisobanuro vy'ibiba
 
 
 
-- noseedbackup**: Iguha uburenganzira bwo guhitamwo nimba ushaka ko LND ikora ububiko bw'amasakoshi yawe. Gushinga iki kintu kuri `0` bigufasha kubika amakuru yo gusubiza mu kibanza gitekanye wahisemwo.
+- **noseedbackup**: Iguha uburenganzira bwo guhitamwo nimba ushaka ko LND ikora ububiko bw'amasakoshi yawe. Gushinga iki kintu kuri `0` bigufasha kubika amakuru yo gusubiza mu kibanza gitekanye wahisemwo.
 
 
 
 
 
-- debuglevel**: Iguha uburenganzira bwo gusobanura urugero rw'ido n'ido ry'amakosa n'ibitabo mu gihe amakosa abaye mu gihe c'igikorwa.
+- **debuglevel**: Iguha uburenganzira bwo gusobanura urugero rw'ido n'ido ry'amakosa n'ibitabo mu gihe amakosa abaye mu gihe c'igikorwa.
 
 
 
 
 
-- Bitcoin.active**: Itegeka LND gukora nk’uruzitiro rwa Bitcoin no gukorana n’urubuga rwa Bitcoin.
+- **Bitcoin.active**: Itegeka LND gukora nk'uruzitiro rwa Bitcoin no gukorana n'urubuga rwa Bitcoin.
 
 
 
 
 
-- Bitcoin.Mainnet**: Igaragaza LND kugira ngo ihuze n'urubuga rwa Bitcoin (Mainnet), ushobora gushinga agaciro `bitcoind.signet` na `bitcoind.regtest` hakurikijwe urubuga rwa Bitcoin rwa Bitcoin n'urubuga rwa Bitcoin
+- **Bitcoin.Mainnet**: Igaragaza LND kugira ngo ihuze n'urubuga rwa Bitcoin (Mainnet), ushobora gushinga agaciro `bitcoind.signet` na `bitcoind.regtest` hakurikijwe urubuga rwa Bitcoin rwa Bitcoin n'urubuga rwa Bitcoin
 
 
 
 
 
-- Bitcoin.node**: Igaragaza ubwoko bw'uruzitiro rwa Bitcoin LND ikwiye kwifatanya nazo.
+- **Bitcoin.node**: Igaragaza ubwoko bw'uruzitiro rwa Bitcoin LND ikwiye kwifatanya nazo.
 
 
 
 
 
-- Bitcoin.rpc** na **Bitcoin.ijambobanga** : Biserukira.
+- **Bitcoin.rpc** na **Bitcoin.ijambobanga** : Biserukira.
 
 
 nk'uko bigenda (ukoresha, ijambobanga) kugira ngo wihuze n'uruzitiro rwawe rwa Bitcoin
@@ -373,7 +373,7 @@ nk'uko bigenda (ukoresha, ijambobanga) kugira ngo wihuze n'uruzitiro rwawe rwa B
 
 
 
-- bitcoind.zmqpubrawblock** na **bitcoind.zmqpubrawtx**: uko bikurikirana bisobanura iherezo rya ZeroMQ kugira ngo uronke amatangazo yerekeye amabuye mashasha n'ibikorwa ku rubuga rwa Bitcoin.
+- **bitcoind.zmqpubrawblock** na **bitcoind.zmqpubrawtx**: uko bikurikirana bisobanura iherezo rya ZeroMQ kugira ngo uronke amatangazo yerekeye amabuye mashasha n'ibikorwa ku rubuga rwa Bitcoin.
 
 
 
@@ -492,9 +492,9 @@ Kugira ngo wihuze n'umugenzi (Lightning node), uzokenera amakuru atatu:
 
 
 
-- Urufunguzo rwa bose rw'urudodo**: Uru ni ikimenyetso kidasanzwe c'urudodo mu rubuga rwa Bitcoin;
-- IP**: IP y’imashini iyo node ishizweko;
-- PORT**: Icuma kifunguka ku mashini kiremesha guhanahana amakuru n’iyi node.
+- **Urufunguzo rwa bose rw'urudodo**: Uru ni ikimenyetso kidasanzwe c'urudodo mu rubuga rwa Bitcoin;
+- **IP**: IP y'imashini iyo node ishizweko;
+- **PORT**: Icuma kifunguka ku mashini kiremesha guhanahana amakuru n'iyi node.
 
 
 
@@ -519,25 +519,25 @@ Raba neza ko wifatanya na **nodes zizewe** kugira ngo uzigame ubutungane bwa sis
 
 
 
-- Uguhinduranya ibibanza**: Guhuza n’ibihimba vyo mu turere dutandukanye.
+- **Uguhinduranya ibibanza**: Guhuza n'ibihimba vyo mu turere dutandukanye.
 
 
 
 
 
-- Izina**: Hitamwo amanode afise uburyo bwiza bwo kuronka.
+- **Izina**: Hitamwo amanode afise uburyo bwiza bwo kuronka.
 
 
 
 
 
-- Ubushobozi**: Hitamwo amapfundo afise amahera meza.
+- **Ubushobozi**: Hitamwo amapfundo afise amahera meza.
 
 
 
 
 
-- Ibiciro**: Suzuma ibiciro vy’inzira.
+- **Ibiciro**: Suzuma ibiciro vy'inzira.
 
 
 ### Gufungura umurongo wo kwishura
@@ -590,7 +590,7 @@ Hari uburyo bubiri bwo gufunga umurongo ukora kuri node yawe y'ubu.
 
 
 
-- Gufunga kw’ubufatanye**: Ivyo bigaragaza icipfuzo c’urudodo rwawe co kuva mu muhora wo kwishura, bikaba ari vyo bituma ibikorwa bigenda biraheza kandi ko amakuru ashigikirwa kugira ngo ntihagire amahera atakaza.
+- **Gufunga kw'ubufatanye**: Ivyo bigaragaza icipfuzo c'urudodo rwawe co kuva mu muhora wo kwishura, bikaba ari vyo bituma ibikorwa bigenda biraheza kandi ko amakuru ashigikirwa kugira ngo ntihagire amahera atakaza.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Gufunga ku nguvu**: ⚠️ Kugira ngo uvyirinde nimba bishoboka, ico gikorwa kirahagarika ibikorwa biriko biraba mu muhora wawe wo kwishura kandi kikongera ingorane zo gutakaza amahera.
+- **Gufunga ku nguvu**: ⚠️ Kugira ngo uvyirinde nimba bishoboka, ico gikorwa kirahagarika ibikorwa biriko biraba mu muhora wawe wo kwishura kandi kikongera ingorane zo gutakaza amahera.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- Ikosa ryo guhuza bitcoind**: Suzuma amakuru yawe yo kwinjira muri RPC
-- Guhuza vyabujijwe**: Suzuma uruja n'uruza rwawe rwa interineti
-- Ikosa ry'uruhusha**: Suzuma uburenganzira bwa dosiye `~/.LND`
+- **Ikosa ryo guhuza bitcoind**: Suzuma amakuru yawe yo kwinjira muri RPC
+- **Guhuza vyabujijwe**: Suzuma uruja n'uruza rwawe rwa interineti
+- **Ikosa ry'uruhusha**: Suzuma uburenganzira bwa dosiye `~/.LND`
 
 
 

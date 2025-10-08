@@ -33,7 +33,7 @@ Trong hướng dẫn này, chúng ta sẽ xem xét 3 cách sử dụng **Watchto
 
 
 
-*Hướng dẫn này được trích từ [tài liệu chính thức của LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Một số thay đổi có thể đã được thực hiện đối với phiên bản gốc
+*Hướng dẫn này được trích từ [tài liệu chính thức của LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Một số thay đổi có thể đã được thực hiện đối với phiên bản gốc.*
 
 
 
@@ -53,7 +53,7 @@ Xin lưu ý rằng chúng tôi đã quyết định triển khai trong phiên b�
 
 
 
-lưu ý: hiện tại, các tháp canh chỉ lưu đầu ra `to_local` và `to_remote` của các cam kết đã thu hồi; việc lưu đầu ra HTLC sẽ được triển khai trong phiên bản tương lai, vì giao thức có thể được mở rộng để bao gồm dữ liệu chữ ký bổ sung trong các blob được mã hóa._
+lưu ý: hiện tại, các tháp canh chỉ lưu đầu ra `to_local` và `to_remote` của các cam kết đã thu hồi; việc lưu đầu ra HTLC sẽ được triển khai trong phiên bản tương lai, vì giao thức có thể được mở rộng để bao gồm dữ liệu chữ ký bổ sung trong các blob được mã hóa.
 
 
 
@@ -337,13 +337,13 @@ Eye of Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) là một
 
 
 
-- teos**: bao gồm Interface (CLI) dòng lệnh và các tính năng máy chủ thiết yếu của Watchtower. Hai tệp nhị phân - **teosd** và **teos-CLI** - được tạo ra khi _crate_ này được biên dịch.
+- **teos**: bao gồm Interface (CLI) dòng lệnh và các tính năng máy chủ thiết yếu của Watchtower. Hai tệp nhị phân - **teosd** và **teos-CLI** - được tạo ra khi _crate_ này được biên dịch.
 
 
 
 
 
-- teos-common**: bao gồm chức năng chia sẻ ở phía máy chủ và phía máy khách (hữu ích khi tạo máy khách).
+- **teos-common**: bao gồm chức năng chia sẻ ở phía máy chủ và phía máy khách (hữu ích khi tạo máy khách).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- máy chủ**: dành cho các yêu cầu RPC
+- **máy chủ**: dành cho các yêu cầu RPC
 
 
 
 
 
-- rpcuser** và **rpcpassword**: xác thực máy khách RPC với máy chủ
+- **rpcuser** và **rpcpassword**: xác thực máy khách RPC với máy chủ
 
 
 
 
 
-- regtest**: không bắt buộc, nhưng hữu ích nếu bạn đang lập kế hoạch phát triển.
+- **regtest**: không bắt buộc, nhưng hữu ích nếu bạn đang lập kế hoạch phát triển.
 
 
 
@@ -489,13 +489,13 @@ Trong menu "**Watchtower**", có hai tùy chọn:
 
 
 
-- Dịch vụ Watchtower**: Tùy chọn này cho phép bạn vận hành Watchtower, tức là một dịch vụ giám sát kênh của các nút khác để phát hiện bất kỳ hành vi gian lận nào. Trong trường hợp bị vi phạm, Watchtower của bạn sẽ xuất bản một giao dịch trên Blockchain, cho phép người dùng khôi phục số tiền bị khóa. Sau khi được kích hoạt, URI của Watchtower sẽ xuất hiện và có thể được truyền đến các nút khác để họ có thể thêm nó vào máy khách Watchtower của mình;
+- **Dịch vụ Watchtower**: Tùy chọn này cho phép bạn vận hành Watchtower, tức là một dịch vụ giám sát kênh của các nút khác để phát hiện bất kỳ hành vi gian lận nào. Trong trường hợp bị vi phạm, Watchtower của bạn sẽ xuất bản một giao dịch trên Blockchain, cho phép người dùng khôi phục số tiền bị khóa. Sau khi được kích hoạt, URI của Watchtower sẽ xuất hiện và có thể được truyền đến các nút khác để họ có thể thêm nó vào máy khách Watchtower của mình;
 
 
 
 
 
-- Máy khách Watchtower**: tùy chọn này cho phép bạn kết nối với các tháp canh bên ngoài để bảo vệ kênh của mình. Sau khi được kích hoạt, bạn có thể thêm các dịch vụ Watchtower mà nút của bạn sẽ truyền thông tin cần thiết về các kênh của nó. Các tháp canh này sau đó sẽ theo dõi trạng thái của chúng và can thiệp trong trường hợp có hành vi gian lận.
+- **Máy khách Watchtower**: tùy chọn này cho phép bạn kết nối với các tháp canh bên ngoài để bảo vệ kênh của mình. Sau khi được kích hoạt, bạn có thể thêm các dịch vụ Watchtower mà nút của bạn sẽ truyền thông tin cần thiết về các kênh của nó. Các tháp canh này sau đó sẽ theo dõi trạng thái của chúng và can thiệp trong trường hợp có hành vi gian lận.
 
 
 

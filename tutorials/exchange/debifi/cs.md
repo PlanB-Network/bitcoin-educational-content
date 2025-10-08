@@ -64,25 +64,25 @@ Než vám krok za krokem ukážu, jak si půjčit na Debifi, je tu několik bod�
 
 
 
-- Poplatky za poskytnutí úvěru** jsou jednorázové poplatky vybírané v okamžiku poskytnutí úvěru a vypočítané jako procento z vypůjčené částky. Tyto poplatky pokrývají administrativní, provozní a řídicí náklady.
+- **Poplatky za poskytnutí úvěru** jsou jednorázové poplatky vybírané v okamžiku poskytnutí úvěru a vypočítané jako procento z vypůjčené částky. Tyto poplatky pokrývají administrativní, provozní a řídicí náklady.
 
 
 
 
 
-- Zajištění** je majetek, který složíte k zajištění úvěru. V případě společnosti Debifi je zástavou Bitcoin (BTC), který dlužník uloží do úschovy Multisig 3/4.
+- **Zajištění** je majetek, který složíte k zajištění úvěru. V případě společnosti Debifi je zástavou Bitcoin (BTC), který dlužník uloží do úschovy Multisig 3/4.
 
 
 
 
 
-- Systém úschovy Multisig (3/4)** je bezpečný vkladový mechanismus, v němž jsou bitcoiny dlužníka uloženy na vícepodpisovou úschovu Address. Konkrétně čtyři (4) strany mají každá svůj klíč (dlužník, věřitel, Debifi, nezávislá třetí strana). K přesunu finančních prostředků jsou zapotřebí alespoň 3 ze 4 podpisů.
+- Systém úschovy **Multisig (3/4)** je bezpečný vkladový mechanismus, v němž jsou bitcoiny dlužníka uloženy na vícepodpisovou úschovu Address. Konkrétně čtyři (4) strany mají každá svůj klíč (dlužník, věřitel, Debifi, nezávislá třetí strana). K přesunu finančních prostředků jsou zapotřebí alespoň 3 ze 4 podpisů.
 
 
 
 
 
-- Stablecoin** je kryptoměna, jejíž hodnota je navázána na stabilní aktivum (např. americký dolar), což zabraňuje volatilitě Bitcoin. Například 1 USDC má vždy hodnotu ~1 USD, protože je krytý fiat rezervami.
+- **Stablecoin** je kryptoměna, jejíž hodnota je navázána na stabilní aktivum (např. americký dolar), což zabraňuje volatilitě Bitcoinu. Například 1 USDC má vždy hodnotu ~1 USD, protože je krytý fiat rezervami.
 
 
 

@@ -282,7 +282,7 @@ Here is the expected result:
 ![nmap-image](assets/fr/05.webp)
 
 
-result of displaying the current version of Nmap._
+result of displaying the current version of Nmap.
 
 
 Note the presence in this display of the "libpcap" (_Packet Capture Library_) library and its version. Also used by Wireshark, "libpcap" is used by Nmap to create and manipulate packets and listen to network traffic.
@@ -346,7 +346,7 @@ Here is the expected result:
 ![nmap-image](assets/fr/09.webp)
 
 
-result of displaying the current version of Nmap._
+result of displaying the current version of Nmap.
 
 
 Nmap is now installed on Windows. You can use it in exactly the same way as on Linux, by following this tutorial.
@@ -364,7 +364,7 @@ In its very basic form, i.e. without going very far in using its options, Nmap d
 ![nmap-image](assets/fr/10.webp)
 
 
-error message under Linux when Nmap options require root rights._
+error message under Linux when Nmap options require root rights.
 
 
 Whether on Linux or Windows, there are many cases where Nmap will ask you for privileged access. The main reasons are as follows (non-exhaustive list):
@@ -464,7 +464,7 @@ Here is a possible result. We see a classic Nmap return with a lot of informatio
 ![nmap-image](assets/fr/11.webp)
 
 
-results of a simple TCP scan performed with Nmap._
+results of a simple TCP scan performed with Nmap.
 
 
 Taking a quick look at this result, we understand that ports TCP/22 and TCP/80 are accessible on this host.
@@ -550,7 +550,7 @@ If you take a look at the "/etc/services" file on a Linux system, you'll find a 
 ![nmap-image](assets/fr/12.webp)
 
 
-extracts the contents of the "/etc/services" file under Linux._
+extracts the contents of the "/etc/services" file under Linux.
 
 
 It's important to understand that, for the time being, Nmap hasn't performed any active service discovery. For example, it would have been unable to identify the SSH service behind a TCP/80 port if this had been the case. Hence the importance of knowing how to use the right options - it's coming soon!
@@ -651,7 +651,7 @@ Here, the return obtained has the same format as for a TCP scan, but the active 
 ![nmap-image](assets/fr/18.webp)
 
 
-result of a simple UDP scan performed with Nmap._
+result of a simple UDP scan performed with Nmap.
 
 
 The "-sU" option is used to tell Nmap that you want to work on UDP, rather than TCP as is the default.
@@ -660,7 +660,7 @@ The "-sU" option is used to tell Nmap that you want to work on UDP, rather than 
 By the way, you'll probably notice that Nmap requires "root" rights for UDP scans, as mentioned earlier in the tutorial.
 
 
-note: Since the latest versions of Nmap, it is always recommended to run UDP scans with administrator privileges to ensure reliable results, as some features require raw access to network sockets._
+note: Since the latest versions of Nmap, it is always recommended to run UDP scans with administrator privileges to ensure reliable results, as some features require raw access to network sockets.
 
 
 UDP scans can take a very long time (1100 seconds to scan 1000 ports in my example), due to the absence of the "Three Way Handshake" in UDP, which means that Nmap will wait for a return for each UDP packet sent, and will determine the port as "closed" only if there is no return after a certain time (timeout). This response from scanned hosts is not systematic and is often limited in terms of the number of responses per second, to avoid certain amplification attacks. This is in contrast to TCP, where there is an immediate response from the scanned host, whether the port is open or closed. We'll see later how to optimize this.
@@ -690,7 +690,7 @@ We can see on the above screenshot that Nmap will send a large number of UDP pac
 ![nmap-image](assets/fr/20.webp)
 
 
-extract from RFC 1122._
+extract from RFC 1122.
 
 
 Let's take a closer look at this Wireshark capture, which shows **the three possible scenarios** in UDP:
@@ -699,7 +699,7 @@ Let's take a closer look at this Wireshark capture, which shows **the three poss
 ![nmap-image](assets/fr/21.webp)
 
 
-network capture during a UDP scan on different ports with Nmap._
+network capture during a UDP scan on different ports with Nmap.
 
 
 The three cases are as follows:
@@ -724,7 +724,7 @@ Here is the result displayed by Nmap following these three cases:
 ![nmap-image](assets/fr/22.webp)
 
 
-possible results of a UDP scan performed via Nmap._
+possible results of a UDP scan performed via Nmap.
 
 
 We now have a better idea of how to do a UDP scan and what actually happens when it's performed. So far we've just been using Nmap in a very simple way, without really deciding which ports to scan, but that's about to change!
@@ -748,7 +748,7 @@ The 1000 ports scanned in the default mode are chosen according to their frequen
 ![nmap-image](assets/fr/23.webp)
 
 
-extracted from the file "/usr/shares/nmap/nmap-services"._
+extracted from the file "/usr/shares/nmap/nmap-services".
 
 
 Here, in the third column, we see what looks like probabilities (between 0 and 1) or a percentage distribution. This is the frequency of occurrence of each port/protocol pair. We can see that the best-known ports (FTP, SSH, TELNET and SMTP in this extract) have a much higher value than the others.
@@ -1345,7 +1345,7 @@ To help you understand what Probes can look like, here's a list of some of the P
 ![nmap-image](assets/fr/34.webp)
 
 
-example of several Probes used by Nmap and present in the file `/usr/share/nmap/nmap-service-probes`._
+example of several Probes used by Nmap and present in the file `/usr/share/nmap/nmap-service-probes`.
 
 
 The first two (called `NULL` and `GenericLines`) are of particular interest here, as they simply send an empty TCP packet or one containing a line break. Server services often announce themselves precisely as soon as a connection is received, without any specific action, command or request from the client.
@@ -1430,7 +1430,7 @@ We're now going to return to a directive in the `/usr/share/nmap/nmap-service-pr
 ![nmap-image](assets/fr/36.webp)
 
 
-probes `rarity` directive in the `/usr/share/nmap/nmap-service-probes`._ file
+probes `rarity` directive in the `/usr/share/nmap/nmap-service-probes` file
 
 
 This directive is used to indicate the rarity (i.e. priority/probability) associated with a _Probe_. This notation from 1 to 9 allows you to control the completeness of the analysis performed by Nmap when sending _Probes_. In Nmap's "notation" system, a rarity of 1 provides information in the vast majority of cases, whereas a rarity of 8 or 9 represents a very special case, specific to a configuration or service that is rarely present.
@@ -1475,7 +1475,7 @@ To finish on this subject, here's an example of _Probe_ 9 and 8:
 ![nmap-image](assets/fr/37.webp)
 
 
-examples of Probe at rarity 8 and 9 in the file `/usr/share/nmap/nmap-service-probes`._
+examples of Probe at rarity 8 and 9 in the file `/usr/share/nmap/nmap-service-probes`.
 
 
 These two _Probes_ detect Quake1 and Quake2 servers (the video game). Interesting for the nostalgic side, but unlikely to be of much use in everyday life.
@@ -1622,7 +1622,7 @@ Here's the result of an Nmap scan using NSE scripts:
 ![nmap-image](assets/fr/40.webp)
 
 
-example of the results of a vulnerability scan on a host via Nmap._
+example of the results of a vulnerability scan on a host via Nmap.
 
 
 Here we see the display of additional information of interest in the context of a vulnerability analysis:
@@ -1740,7 +1740,7 @@ Technically, the categories to which a script belongs are indicated directly in 
 ![nmap-image](assets/fr/41.webp)
 
 
-nSE script categories `ftp-anon`._
+nSE script categories `ftp-anon`.
 
 
 This example shows part of the code of the NSE script `ftp-anon.nse`, whose execution we saw in the previous section.
@@ -1755,7 +1755,7 @@ By default, Nmap's NSE scripts are located in the `/usr/share/nmap/scripts/` dir
 ![nmap-image](assets/fr/42.webp)
 
 
-extracts the contents of the `/usr/share/nmap/scripts/` directory containing NSE scripts._
+extracts the contents of the `/usr/share/nmap/scripts/` directory containing NSE scripts.
 
 
 This directory contains over 5,000 NSE scripts. In most cases, the first part of the script name contains the protocol or category to which it belongs. This enables us to sort the list, for example, if we wish to list all scripts targeting the FTP service:
@@ -1764,7 +1764,7 @@ This directory contains over 5,000 NSE scripts. In most cases, the first part of
 ![nmap-image](assets/fr/43.webp)
 
 
-list of NSE Nmap scripts with names starting with `ftp-`._
+list of NSE Nmap scripts with names starting with `ftp-`.
 
 
 Nmap doesn't really offer an option for browsing and listing its NSE scripts; you can use the command `--script-help` followed by the name of a category or a word:
@@ -1881,7 +1881,7 @@ We then have a very precise result:
 ![nmap-image](assets/fr/45.webp)
 
 
-result of using the NSE `ftp-anon` script on an FTP port via Nmap._
+result of using the NSE `ftp-anon` script on an FTP port via Nmap.
 
 
 We see the result of running the `ftp-anon` script on port 21, and no other port, because we specified the `-p 21` option. We could also have performed a basic port scan, executing the `ftp-anon` NSE script only on the FTP services discovered:
@@ -1902,7 +1902,7 @@ For a brief description of what an NSE script does, you can use the `--script-he
 ![nmap-image](assets/fr/46.webp)
 
 
-help display result for NSE script `sshv1`._
+help display result for NSE script **sshv1**.
 
 
 In short, once again we can reuse all the network discovery options, services, versions and technologies we've used up to now!
@@ -1926,7 +1926,7 @@ This script has "default" options, which we could customize to suit our context.
 ![nmap-image](assets/fr/47.webp)
 
 
-result of displaying help for the NSE `ssh-brute` script with a link to nmap.org._
+result of displaying help for the NSE `ssh-brute` script with a link to nmap.org.
 
 
 By clicking on the indicated link, we arrive on this web page of the site [https://nmap.org](https://nmap.org/):
@@ -1961,7 +1961,7 @@ As you can see in this last command, we can specify the necessary arguments to a
 ![nmap-image](assets/fr/49.webp)
 
 
-result of SSH bruteforce execution via Nmap._
+result of SSH bruteforce execution via Nmap.
 
 
 As you can see, the information generated by NSE scripts is prefixed with `NSE: [script name]` in the interactive output (terminal output), making it easier to find. Within the usual display of Nmap results, we simply have a summary indicating whether or not weak identifiers have been discovered (including passwords, remember).
@@ -2034,7 +2034,7 @@ This format was created to provide a "condensed" view of the Nmap output, struct
 ![nmap-image](assets/fr/50.webp)
 
 
-nmap network scan and output in "greppable" format._
+nmap network scan and output in "greppable" format.
 
 
 Here, I've performed a network discovery as well as a port scan and an analysis of technologies and versions on a /24 network, then stored the output in a file in "greppable" format. I end up with a file containing 2 lines per active host:
@@ -2084,7 +2084,7 @@ nmap 10.10.10.0/24 -sV -oG nmap_scan_10.10.10.0_24.gnmap
 This format can be used for a variety of purposes and is particularly useful for rapid scripting/sorting. Nevertheless, it's tending to be abandoned in favor of the format we'll be looking at next.
 
 
-note: the `-oG` greppable format has been officially deprecated since Nmap 7.90. It can still be used for compatibility. It can still be used for compatibility purposes, but it is recommended that you use the XML or normal format for any development or automated parsing._
+note: the `-oG` greppable format has been officially deprecated since Nmap 7.90. It can still be used for compatibility. It can still be used for compatibility purposes, but it is recommended that you use the XML or normal format for any development or automated parsing.
 
 
 #### C. XML format for Nmap output
@@ -2192,7 +2192,7 @@ As a result, we'll have our entire scan nicely structured, with even a few color
 ![nmap-image](assets/fr/53.webp)
 
 
-extract from a Nmap scan report in HTML format generated by xsltproc._
+**extract from a Nmap scan report in HTML format generated by xsltproc.**
 
 
 Broadly speaking, the XML file saved by Nmap contains a reference to another file in XSL format:
@@ -2209,7 +2209,7 @@ Conversion to HTML is therefore a function provided and facilitated by Nmap, `xs
 XSLT (_Extensible Stylesheet Language Transformations_) is a subset of XSL that allows XML data to be displayed on a web page and "transformed", in parallel with XSL styles, into readable, formatted information in HTML format.
 
 
-source: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+source: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 The level of information in the report is equivalent to that of Nmap's XML format and higher than that of the standard terminal output (_interactive output_).
@@ -2227,7 +2227,7 @@ The first option we should mention is the `-v` option, which increases Nmap's ve
 ![nmap-image](assets/fr/54.webp)
 
 
-nmap's verbose output using the `-v`._ option
+nmap's verbose output using the `-v` option
 
 
 On a scan targeting many hosts and ports, the terminal output will become difficult to exploit due to the amount of information displayed. For this reason, this option should be used in combination with the options seen previously, which allow you to store Nmap's standard output in a file. Information related to the use of verbosity will not be included in this output file. As you can see from the example above, this verbosity allows you to track Nmap's actions and discoveries clearly and directly. For longer scans where data display may be slow in coming, this avoids being blind to Nmap's current activity and knowing that things are progressing and at what pace. To increase verbosity by a further level, you can use the `-vv` option.
@@ -2239,7 +2239,7 @@ To further track Nmap's activity during its scan, you can use the `--packet-trac
 ![nmap-image](assets/fr/55.webp)
 
 
-detailed monitoring of Nmap activity via `--packet-trace`._
+detailed monitoring of Nmap activity via `--packet-trace`.
 
 
 Again, this information will not be recorded in the output file produced by Nmap if the `-oN`, `-oG`, `-oX` or `-oA` options are used.
@@ -2332,7 +2332,7 @@ Once my workspace has been created, we need to validate that communication with 
 ```
 # Retrieve the database status
 msf6 > db_status
-[*] Connected to msf. Connection type: postgresql.
+**Connected to msf. Connection type: postgresql.**
 ```
 
 
@@ -2407,7 +2407,7 @@ Where Aquatone normally performs port discovery on hosts to find web services, i
 ![nmap-image](assets/fr/61.webp)
 
 
-using Nmap results in XML format with `aquatone`._
+using Nmap results in XML format with `aquatone`.
 
 
 For your information, here is an extract from the report produced by Aquatone:
@@ -2465,7 +2465,7 @@ In any case, you can check the default values of the parameters we are going to 
 ![nmap-image](assets/fr/63.webp)
 
 
-view Timing options via Nmap's `-d` option._
+view Timing options via Nmap's `-d` option.
 
 
 ### II. Managing the speed of Nmap scans
@@ -2665,7 +2665,7 @@ If you have opted to use Nmap not via a session as `root`, but by granting speci
 ![nmap-image](assets/fr/65.webp)
 
 
-elevation of Nmap privileges via `sudo`._
+elevation of Nmap privileges via `sudo`.
 
 
 Here, I'm using the Nmap command through `sudo`, but this allows me to get an interactive shell as `root` on the system, which wasn't the original goal.
@@ -2698,7 +2698,7 @@ As you may have noticed, Nmap offers several options for TCP scans:
 ![nmap-image](assets/fr/66.webp)
 
 
-scanning techniques available in Nmap._
+scanning techniques available in Nmap.
 
 
 The idea here is to explain some of these methods, to help you understand their differences, their advantages and their limitations. You'll see that, depending on the context or what you want to know, it's better to opt for one option or another.
@@ -2765,7 +2765,7 @@ As mentioned, when running Nmap from a privileged terminal, TCP SYN Scan is the 
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -2909,7 +2909,7 @@ Here is an example of Nmap's TCP FIN scan result:
 ![nmap-image](assets/fr/79.webp)
 
 
-results of a TCP FIN scan by Nmap._
+results of a TCP FIN scan by Nmap.
 
 
 In fact, a non-response from the host on a given port can mean that the port is filtered, but also that it is open and active.
@@ -2989,7 +2989,7 @@ nmap -sX 192.168.1.15
 It's important to note that the TCP XMAS scan is not able to detect firewalls that may be between the target and the scan machine, unlike some other types of scan such as TCP SYN or Connect. Indeed, an active firewall between the two hosts will ensure that no TCP return is made if the targeted port is filtered (i.e. protected by the firewall). In the event of a non-response, it is therefore impossible to know whether the port is protected by the firewall or open and active. You should also be aware that, like the TCP FIN scan, certain applications or operating systems such as Windows can distort the results of this type of scan.
 
 
-note: support for XMAS/FIN/NULL scans on recent versions of Windows remains limited, and results may be inconsistent on this type of target. (Update 2025)_
+note: support for XMAS/FIN/NULL scans on recent versions of Windows remains limited, and results may be inconsistent on this type of target. (Update 2025)
 
 
 ### III. TCP Null scan
@@ -3058,7 +3058,7 @@ We'll use Nmap's `-sA` option to perform this type of scan. Here's the result of
 ![nmap-image](assets/fr/88.webp)
 
 
-nmap display during TCP ACK Scan._
+nmap display during TCP ACK Scan.
 
 
 Example result for a host with a firewall and one without. Nmap returns `filtered` on ports TCP/80 and TCP/81 of host `10.10.10.203`. On a network analysis via Wireshark, the behavior is as follows:
@@ -3156,7 +3156,7 @@ nmap -sn 192.168.1.0/24
 ```
 
 
-note: The `-sP` option has been obsolete for several years and should be replaced by `-sn`. (Update 2025)_
+note: The `-sP` option has been obsolete for several years and should be replaced by `-sn`. (Update 2025)
 
 
 ```bash

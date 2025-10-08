@@ -92,19 +92,19 @@ Kimwe mu bintu bidasanzwe vya Blitz Wallet ni uko ishigikira imihora itandukanye
 
 
 
-- Lightning Network**: Imwe mu nzira za Bitcoin zigufasha gukora ibikorwa bitobito ubwo nyene.
+- **Lightning Network**: Imwe mu nzira za Bitcoin zigufasha gukora ibikorwa bitobito ubwo nyene.
 
 
 
 
 
-- Bitcoin Mainnet**: Uruhererekane nyamukuru rw’amasezerano ya Bitcoin, rwiza ku bikorwa vy’agaciro kanini.
+- **Bitcoin Mainnet**: Uruhererekane nyamukuru rw'amasezerano ya Bitcoin, rwiza ku bikorwa vy'agaciro kanini.
 
 
 
 
 
-- Liquid Network**: Uruzitiro rumwe na Bitcoin Mainnet rwateguwe na BlockStream rukoresha amafaranga y'ama Bitcoins kugira ngo rukore vyihuta, Confidential Transactions.
+- **Liquid Network**: Uruzitiro rumwe na Bitcoin Mainnet rwateguwe na BlockStream rukoresha amafaranga y'ama Bitcoins kugira ngo rukore vyihuta, Confidential Transactions.
 
 
 
@@ -168,7 +168,7 @@ Uretse ibikorwa vyo gutanga amafaranga vya Bitcoin, Blitz Wallet iraguha iduka a
 
 
 
-- Ushobora gushika ku bikorwa vya AI**: Koresha ubuhinga bw’ubwenge bukora nk’ubu: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 maze wishyure ataco uhinduye mu bice vy’amahera.
+- **Ushobora gushika ku bikorwa vya AI**: Koresha ubuhinga bw'ubwenge bukora nk'ubu: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 maze wishyure ataco uhinduye mu bice vy'amahera.
 
 
 
@@ -178,7 +178,7 @@ Uretse ibikorwa vyo gutanga amafaranga vya Bitcoin, Blitz Wallet iraguha iduka a
 
 
 
-- Wohereze ubutumwa aho hose kw'isi**: Mu iduka rya Blitz, urashobora gukoresha ubuhinga bwa GSM bugufasha kohereza ubutumwa ata mazina yawe aho hose kw'isi, ukoresheje amafaranga ataco akora muri Bitcoin.
+- **Wohereza ubutumwa aho hose kw'isi**: Mu iduka rya Blitz, urashobora gukoresha ubuhinga bwa GSM bugufasha kohereza ubutumwa ata mazina yawe aho hose kw'isi, ukoresheje amafaranga ataco akora muri Bitcoin.
 
 
 
@@ -188,7 +188,7 @@ Uretse ibikorwa vyo gutanga amafaranga vya Bitcoin, Blitz Wallet iraguha iduka a
 
 
 
-- Surf mu ibanga ryose**: Urihe amafaranga y’ukwiyandikisha kuri WireGuard VPN (Irezo y’Ibanga) mu iduka rya Wallet Blitz n’amahera yawe y’ibiceri.
+- **Surf mu ibanga ryose**: Urihe amafaranga y'ukwiyandikisha kuri WireGuard VPN (Irezo y'Ibanga) mu iduka rya Wallet Blitz n'amahera yawe y'ibiceri.
 
 
 
@@ -248,7 +248,7 @@ Mu gukoresha uburyo bw’umuravyo, iyo ivyangombwa nyamukuru bishitse (uburingan
 
 
 
-- Wemere Bitcoin mu iduka ryawe**:
+- **Wemere Bitcoin mu iduka ryawe**:
 
 
 

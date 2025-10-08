@@ -71,7 +71,7 @@ Mining'i başlattıktan birkaç dakika sonra, **Public Pool** web sitesinde Addr
 ![signup](assets/4.webp)
 
 
-Public Pool'a** bağlandıktan sonra, **User** alanına girdiğiniz **Bitcoin** Address ile arama yaparak **Dashboard'unuza** erişebilirsiniz. Bizim durumumuzda bu **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv'** şeklindedir.
+Public Pool'a bağlandıktan sonra, **User** alanına girdiğiniz **Bitcoin** Address ile arama yaparak **Dashboard'unuza** erişebilirsiniz. Bizim durumumuzda bu **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv'** şeklindedir.
 
 
 Gösterge tablosunda **hem verileriniz hem de ağ hakkında farklı bilgiler görüntülenir.**

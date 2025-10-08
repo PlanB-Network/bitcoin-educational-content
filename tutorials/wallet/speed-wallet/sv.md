@@ -143,7 +143,7 @@ På hemsidan för **Wallet** hittar du :
 
 
 
-- Mottagande av betalningar på Speed Wallet :**
+- Mottagande av betalningar på Speed Wallet:
 
 
 

@@ -110,7 +110,7 @@ Para obter mais informações: [Channels | Zeus Documentation](https://docs.zeus
 
 ![image](assets/en/07.webp)
 
-captura de ecrã de Bitbanana_
+captura de ecrã de **Bitbanana**
 
 Para mais informações: [BitBanana](https://bitbanana.com)
 

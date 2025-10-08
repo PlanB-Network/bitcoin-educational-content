@@ -25,13 +25,13 @@ Muri iyi nyigisho, turaza kuraba ingene wokwongerako inyigisho yawe kuri Plan �
 
 
 
-- Abakoresha bazi utuntu n'utundi**:
+- **Abakoresha bazi utuntu n'utundi**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Hagati (Ibiro vya GitHub)**:
+- **Hagati (Ibiro vya GitHub)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
@@ -193,23 +193,23 @@ Akira ahantu hakenewe:
 
 
 
-- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet] Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
+- **id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet] Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n'iyindi UUID iri kuri platform;
 
 
 
-- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urahingura inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Network ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
+- **project_id**: UUID y'ishirahamwe canke ishirahamwe riri inyuma y'igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw'imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy'inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urahingura inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y'inyigisho yawe kubera ko Plan ₿ Network ibungabunga urutonde rw'amashirahamwe yose n'imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hag
 
 
 
-- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Network]
+- **tags**: amajambo 2 canke 3 y'ingenzi ajanye n'ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw'amajambo ya Plan ₿ Network]
 
 
 
-- category**: Urutonde ruto rujanye n’ibirimwo mu nyigisho, hakurikijwe imiterere y’urubuga rwa Plan ₿ Network (nk’akarorero, ku bikoresho: `ibikoresho`, `ibikoresho`, `bikoresho`, `ibikoresho`);
+- **category**: Urutonde ruto rujanye n'ibirimwo mu nyigisho, hakurikijwe imiterere y'urubuga rwa Plan ₿ Network (nk'akarorero, ku bikoresho: `ibikoresho`, `ibikoresho`, `bikoresho`, `ibikoresho`);
 
 
 
-- urugero**: Urugero rw'ingorane z'inyigisho, rwatowe muri:
+- **urugero**: Urugero rw'ingorane z'inyigisho, rwatowe muri:
     - 'umutanguzi`
     - `hagati`
     - `iteye imbere`
@@ -217,20 +217,20 @@ Akira ahantu hakenewe:
 
 
 
-- professor_id**: `id_y'umwigisha` (UUID) yawe nk'uko yerekanwa kuri [umwirondoro wawe w'umwigisha](https://github.com/Ikigo-C'Umugambi/Bitcoin-ibirimwo-ivy'inyigisho/igiti/dev/abaporofeseri);
+- **professor_id**: `id_y'umwigisha` (UUID) yawe nk'uko yerekanwa kuri [umwirondoro wawe w'umwigisha](https://github.com/Ikigo-C'Umugambi/Bitcoin-ibirimwo-ivy'inyigisho/igiti/dev/abaporofeseri);
 
 
 
-- ururimi_rw'umwimerere**: Ururimi rw'umwimerere rw'inyigisho (nk'akarorero, `fr`, `en`, n'ibindi);
+- **ururimi_rw'umwimerere**: Ururimi rw'umwimerere rw'inyigisho (nk'akarorero, `fr`, `en`, n'ibindi);
 
 
 
-- gukosora**: Amakuru yerekeye ingene umuntu akora ivyo gukosora. Uzuza igice ca mbere, nk'uko gukosora inyigisho yawe bwite biharurwa nk'ukwemeza kwa mbere:
-    - ururimi**: Ururimi rw'ugukosora (nk'akarorero, `fr`, `en`, n'ibindi).
-    - itariki_yanyuma_y'intererano**: Itariki y'umusi.
-    - vyihutirwa**: 1
-    - amazina_y'abaterankunga**: Indangamuntu yawe ya GitHub.
-    - impembo**: 0
+- **gukosora**: Amakuru yerekeye ingene umuntu akora ivyo gukosora. Uzuza igice ca mbere, nk'uko gukosora inyigisho yawe bwite biharurwa nk'ukwemeza kwa mbere:
+- **ururimi**: Ururimi rw'ugukosora (nk'akarorero, `fr`, `en`, n'ibindi).
+- **itariki_yanyuma_y'intererano**: Itariki y'umusi.
+- **vyihutirwa**: 1
+- **amazina_y'abaterankunga**: Indangamuntu yawe ya GitHub.
+- **impembo**: 0
 
 
 Kubindi bisobanuro ku bijanye n'ikarata yawe y'umwigisha, urashobora kuraba inyigisho ihuye:
@@ -479,8 +479,8 @@ Niba wipfuza kwikorera ibishushanyo, urabe ko ukurikiza amabwirizwa y’ibishush
 
 
 
-- Imyandikire**: Koresha [IBM Plex Sans](IBM+Plex+Sans);
-- Amabara**:
+- **Imyandikire**: Koresha [IBM Plex Sans](IBM+Plex+Sans);
+- **Amabara**:
  - Umutuku: #FF5C00
  - Umwirabura: #000000
  - Umweru: #FFFFFF

@@ -15,7 +15,7 @@ description: Temukan fitur Co-Sign dan gunakan di COLDCARD Anda
 
 
 
-**Mengapa Tanda Tangan Bersama ColdCard?
+**Mengapa Tanda Tangan Bersama ColdCard?**
 
 
 
@@ -29,14 +29,14 @@ Kondisi pengeluaran dapat berupa, misalnya:
 
 
 
-- Batasan jumlah**: membatasi jumlah bitcoin yang dapat Anda belanjakan dalam satu transaksi.
-- Batas kecepatan:** tentukan berapa banyak transaksi yang dapat Anda lakukan per unit waktu (per jam, hari, minggu, dll.), yang membutuhkan jumlah minimum blok di antaranya.
-- Alamat yang telah disetujui sebelumnya:** Hanya mengizinkan pengiriman bitcoin ke alamat yang telah disetujui sebelumnya.
-- Autentikasi dua faktor:** Memerlukan konfirmasi dari aplikasi seluler 2FA pihak ketiga (TOTP [RFC 6238] (https://www.rfc-editor.org/rfc/rfc6238)) pada ponsel cerdas/tablet berkemampuan NFC dengan akses internet.
+- **Batasan jumlah**: membatasi jumlah bitcoin yang dapat Anda belanjakan dalam satu transaksi.
+- **Batas kecepatan:** tentukan berapa banyak transaksi yang dapat Anda lakukan per unit waktu (per jam, hari, minggu, dll.), yang membutuhkan jumlah minimum blok di antaranya.
+- **Alamat yang telah disetujui sebelumnya:** Hanya mengizinkan pengiriman bitcoin ke alamat yang telah disetujui sebelumnya.
+- **Autentikasi dua faktor:** Memerlukan konfirmasi dari aplikasi seluler 2FA pihak ketiga (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) pada ponsel cerdas/tablet berkemampuan NFC dengan akses internet.
 
 
 
-**Bagaimana cara kerjanya
+**Bagaimana cara kerjanya**
 
 
 

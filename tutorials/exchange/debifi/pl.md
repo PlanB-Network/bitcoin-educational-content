@@ -64,25 +64,25 @@ Zanim pokażę ci krok po kroku, jak zaciągnąć pożyczkę w Debifi, jest kilk
 
 
 
-- Opłaty początkowe** to jednorazowe opłaty pobierane w momencie udzielenia pożyczki i obliczane jako procent pożyczonej kwoty. Opłaty te pokrywają koszty administracyjne, operacyjne i zarządzania.
+- **Opłaty początkowe** to jednorazowe opłaty pobierane w momencie udzielenia pożyczki i obliczane jako procent pożyczonej kwoty. Opłaty te pokrywają koszty administracyjne, operacyjne i zarządzania.
 
 
 
 
 
-- Zabezpieczenie** to aktywa zdeponowane w celu zabezpieczenia pożyczki. W przypadku Debifi zabezpieczeniem jest Bitcoin (BTC), który pożyczkobiorca deponuje w depozycie Multisig 3/4.
+- **Zabezpieczenie** to aktywa zdeponowane w celu zabezpieczenia pożyczki. W przypadku Debifi zabezpieczeniem jest Bitcoin (BTC), który pożyczkobiorca deponuje w depozycie Multisig 3/4.
 
 
 
 
 
-- System Multisig escrow (3/4)** to bezpieczny mechanizm depozytowy, w którym bitcoiny pożyczkobiorcy są umieszczane w Address z wieloma podpisami. W szczególności cztery (4) strony posiadają klucz (pożyczkobiorca, pożyczkodawca, Debifi, niezależna strona trzecia). Aby przenieść środki, wymagane są co najmniej 3 z 4 podpisów.
+- **System Multisig escrow (3/4)** to bezpieczny mechanizm depozytowy, w którym bitcoiny pożyczkobiorcy są umieszczane w Address z wieloma podpisami. W szczególności cztery (4) strony posiadają klucz (pożyczkobiorca, pożyczkodawca, Debifi, niezależna strona trzecia). Aby przenieść środki, wymagane są co najmniej 3 z 4 podpisów.
 
 
 
 
 
-- Stablecoin** to kryptowaluta, której wartość jest powiązana ze stabilnym aktywem (np. dolarem amerykańskim), co pozwala uniknąć zmienności Bitcoin. Na przykład 1 USDC jest zawsze wart ~ 1 USD, ponieważ jest zabezpieczony rezerwami fiducjarnymi.
+- **Stablecoin** to kryptowaluta, której wartość jest powiązana ze stabilnym aktywem (np. dolarem amerykańskim), co pozwala uniknąć zmienności Bitcoin. Na przykład 1 USDC jest zawsze wart ~ 1 USD, ponieważ jest zabezpieczony rezerwami fiducjarnymi.
 
 
 

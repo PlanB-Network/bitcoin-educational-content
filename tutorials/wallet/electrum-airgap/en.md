@@ -259,7 +259,7 @@ You will notice that Electrum gives the file a name bearing the first digits of 
 Extract the media with the `.PSBT` file and connect it to the computer offline.
 
 
-From the Wallet airgap, now choose the _Tools_ menu, then _Load transaction_ and following From file_.
+From the Wallet airgap, now choose the _Tools_ menu, then _Load transaction_ and following _From file_.
 
 
 ![image](assets/en/25.webp)

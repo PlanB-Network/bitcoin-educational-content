@@ -31,7 +31,7 @@ Phoenixd ni umurongo mutoyi, wihariye w’umuravyo wakozwe na ACINQ. Ni umuti wa
 
 
 
-**Phoenixd ni urudodo rutoyi rw’umuravyo rukoresha ACINQ nk’umurongo wa LSP (Umutanga Serivisi z’Umuravyo) kugira ngo rubone amahera yihuta. Iyo uronse amahera ya Lightning, ihita ifungura imirongo ifise ama node ya ACINQ kugira ngo itange ubushobozi bukenewe bwo kwinjira. Ivyo bihembo "on-the-fly" biraheza bikaja mu kanya nk'ako gukubita, ariko bifatwa ku giciro nyaco **1% + amafaranga Mining** y'amahera umuntu yaronse.
+**Phoenixd ni urudodo rutoyi rw'umuravyo rukoresha ACINQ nk'umurongo wa LSP (Umutanga Serivisi z'Umuravyo) kugira ngo rubone amahera yihuta. Iyo uronse amahera ya Lightning, ihita ifungura imirongo ifise ama node ya ACINQ kugira ngo itange ubushobozi bukenewe bwo kwinjira. Ivyo bihembo "on-the-fly" biraheza bikaja mu kanya nk'ako gukubita, ariko bifatwa ku giciro nyaco** 1% + amafaranga Mining **y'amahera umuntu yaronse.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd ni umurongo mutoyi, wihariye w’umuravyo wakozwe na ACINQ. Ni umuti wa
 
 
 
-- Imirongo y'umuravyo**: Gufungura, gufunga no gucunga ubwavyo nk'uko bikenewe
-- Amafaranga yinjira/asohoka**: Gutanga ubwavyo biciye mu gukoranya no gufungura umuyoboro
-- Fee credit** : Amahera mato mato adahagije kugira ngo umuntu ashobore gushingira intahe umurongo abikwa nk'ingingo y'amahera azokwishurwa muri kazoza
+- **Imirongo y'umuravyo**: Gufungura, gufunga no gucunga ubwavyo nk'uko bikenewe
+- **Amafaranga yinjira/asohoka**: Gutanga ubwavyo biciye mu gukoranya no gufungura umuyoboro
+- **Fee credit**: Amahera mato mato adahagije kugira ngo umuntu ashobore gushingira intahe umurongo abikwa nk'ingingo y'amahera azokwishurwa muri kazoza
 
 
 
@@ -50,7 +50,7 @@ Phoenixd ni umurongo mutoyi, wihariye w’umuravyo wakozwe na ACINQ. Ni umuti wa
 
 
 
-**Ugenzura imfunguruzo zawe z’ibanga (amajambo 12 seed) n’amahera. Phoenixd itanga Wallet yawe mu karere ataco wigeze usangira imfunguruzo zawe.
+**Ugenzura imfunguruzo zawe z'ibanga (amajambo 12 seed) n'amahera. Phoenixd itanga Wallet yawe mu karere ataco wigeze usangira imfunguruzo zawe.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd isaba ibidukikije vya Linux (Ubuntu/Debian birasabwa), n'ubuhinga bumwe
 
 
 
-- Server ya Linux**: VPS canke imashini yo mu karere ifise ubufatanye buhamye
-- GufunguraJDK 21** : Ibidukikije vy'igihe c'ibikorwa vya Java
-- Ihuriro rya Internet rihamye**: Kugira ngo rihuzwe na Lightning Network.
-- Izina ry'indangarubuga** (ubusabe) : Kugira ngo HTTPS igere kuri API
+- **Server ya Linux**: VPS canke imashini yo mu karere ifise ubufatanye buhamye
+- **Gufungura JDK 21**: Ibidukikije vy'igihe c'ibikorwa vya Java
+- **Ihuriro rya Internet rihamye**: Kugira ngo rihuzwe na Lightning Network.
+- **Izina ry'indangarubuga** (ubusabe) : Kugira ngo HTTPS igere kuri API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Itanguriro rya mbere
+**2. Itanguriro rya mbere**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Erekana akaranga ka server yawe** (ibuza ibitero vy'umuntu wo hagati)
-- Bishoboza HTTPS** gupfuka: amakuru yose, harimwo n'amajambobanga yawe ya API, apfutse mu gihe co gutwara
-- Isohowe ku buntu** na Let's Encrypt biciye ku gikoresho ca certbot
+- **Erekana akaranga ka server yawe** (ibuza ibitero vy'umuntu wo hagati)
+- Bishoboza **HTTPS** gupfuka: amakuru yose, harimwo n'amajambobanga yawe ya API, apfutse mu gihe co gutwara
+- **Isohowe ku buntu** na Let's Encrypt biciye ku gikoresho ca certbot
 
 
 
@@ -297,10 +297,10 @@ Iyi ntunganyo iraguha uburenganzira bwo :
 
 
 
-- Ushobora gushika kuri API ukoresheje Internet**
-- Gushiramwo amajambobanga yawe ya API** mu gihe co gutwara (kugira ngo ntamenyekane mu nyandiko itomoye)
-- Kwinjiza Phoenixd** mu bikorwa vyo hanze bisaba HTTPS
-- Kubahiriza ingingo ngenderwako z'umutekano** ku ma API y'ivy'amahera
+- Ushobora gushika kuri API ukoresheje Internet
+- Gushiramwo amajambobanga yawe ya **API** mu gihe co gutwara (kugira ngo ntamenyekane mu nyandiko itomoye)
+- Kwinjiza **Phoenixd** mu bikorwa vyo hanze bisaba HTTPS
+- **Kubahiriza ingingo ngenderwako z'umutekano ku ma API y'ivy'amahera**
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Igiciro c'ibikorwa**: 1% y'ubushobozi bw'umuyoboro (2.115.000 Sats) = 21.150 Sats
-- Amafaranga y'ama Mining**: ~3.289 Sats (ku bijanye n'ugucuruza ama On-Chain)
-- Igitigiri cose**: 24.439 Sats zica zikurwako
+- **Igiciro c'ibikorwa**: 1% y'ubushobozi bw'umuyoboro (2.115.000 Sats) = 21.150 Sats
+- **Amafaranga y'ama Mining**: ~3.289 Sats (ku bijanye n'ugucuruza ama On-Chain)
+- **Igitigiri cose**: 24.439 Sats zica zikurwako
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Inyishu**: 1% + amafaranga Mining y'amahera yihuta
-- Ugutwara**: 0.4% y'amahera yo gutwara ku Lightning Network
+- **Inyishu**: 1% + amafaranga Mining y'amahera yihuta
+- **Ugutwara**: 0.4% y'amahera yo gutwara ku Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Iduka ryawe ryo kuri internet rihita rironka itangazo iyo umukiriya yishuye ivyo yasavye, bikaba bituma ivyo yasavye bishobora kwemezwa ubwo nyene.
+**Iduka ryawe ryo kuri internet rihita rironka itangazo iyo umukiriya yishuye ivyo yasavye, bikaba bituma ivyo yasavye bishobora kwemezwa ubwo nyene.**
 
 
 
@@ -684,7 +684,7 @@ Ushimiye REST API yayo, ushobora gutegura :
 
 
 
-*~/.phoenix directory:** Gusubiza inyuma iyi dosiye ubudasiba (inyuma y'aho Phoenixd ipfungiwe) kugira ngo uzigame ikibanza c'umurongo no kwihutisha gusubirana.
+**~/.phoenix directory:** Gusubiza inyuma iyi dosiye ubudasiba (inyuma y'aho Phoenixd ipfungiwe) kugira ngo uzigame ikibanza c'umurongo no kwihutisha gusubirana.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Bompi bakoresha ACINQ nka LSP yabo kugira ngo bashobore gutanga amahera.
+**Bompi bakoresha ACINQ nka LSP yabo kugira ngo bashobore gutanga amahera.**
 
 
 
@@ -867,8 +867,8 @@ Na Phoenixd, wubaka ibikorwa remezo vyawe vy’ibanga vy’umuravyo ufise REST A
 
 
 - - Kode y'inkomoko n'ibisohoka
-- Urubuga rwa Phoenix Server**: [umukozi wa Phoenix) - Inyandiko zose
-- Ibibazo bikunze kwibazwa Phoenixd** : [Ibibazo bikunze kwibazwa) - Ibibazo bikunze kubazwa
+- **Urubuga rwa Phoenix Server**: [umukozi wa Phoenix] - Inyandiko zose
+- **Ibibazo bikunze kwibazwa Phoenixd**: [Ibibazo bikunze kwibazwa] - Ibibazo bikunze kubazwa
 
 
 
@@ -877,5 +877,5 @@ Na Phoenixd, wubaka ibikorwa remezo vyawe vy’ibanga vy’umuravyo ufise REST A
 
 
 
-- Ibibazo vya GitHub** : [ibibazo] (ibibazo) - Ubufasha mu vy'ubuhinga
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Amakuru n'amatangazo
+- **Ibibazo vya GitHub**: [ibibazo] (ibibazo) - Ubufasha mu vy'ubuhinga
+- Twitter **ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Amakuru n'amatangazo

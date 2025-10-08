@@ -31,7 +31,7 @@ Phoenixd on ACINQ:n kehittämä minimaalinen, erikoistunut Lightning-solmu. Se o
 
 
 
-**Phoenixd on minimaalinen Lightning-solmu, joka käyttää ACINQ:ta LSP:nä (Lightning Service Provider) automaattiseen likviditeettiin. Kun vastaanotat Lightning-maksuja, se avaa automaattisesti kanavia ACINQ-solmujen kanssa tarvittavan saapuvan kapasiteetin jakamiseksi. Tämä "lennossa oleva" likviditeetti on välitöntä, mutta siitä veloitetaan tasan **1 % + Mining-maksut** vastaanotetusta summasta.
+**Phoenixd on minimaalinen Lightning-solmu, joka käyttää ACINQ:ta LSP:nä (Lightning Service Provider) automaattiseen likviditeettiin. Kun vastaanotat Lightning-maksuja, se avaa automaattisesti kanavia ACINQ-solmujen kanssa tarvittavan saapuvan kapasiteetin jakamiseksi. Tämä "lennossa oleva" likviditeetti on välitöntä, mutta siitä veloitetaan tasan 1 % + Mining-maksut vastaanotetusta summasta.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd on ACINQ:n kehittämä minimaalinen, erikoistunut Lightning-solmu. Se o
 
 
 
-- Salama**-kanavat: Avaa, sulje ja hallitse automaattisesti tarpeen mukaan
-- Saapuva/lähtevä likviditeetti**: Automaattinen tarjoaminen liittämisen ja kanavien avaamisen avulla
-- Maksuhyvitys** : Pienet maksut, jotka eivät riitä oikeuttamaan kanavaa, tallennetaan varaukseksi tulevia maksuja varten
+- **Salama-kanavat**: Avaa, sulje ja hallitse automaattisesti tarpeen mukaan
+- **Saapuva/lähtevä likviditeetti**: Automaattinen tarjoaminen liittämisen ja kanavien avaamisen avulla
+- **Maksuhyvitys**: Pienet maksut, jotka eivät riitä oikeuttamaan kanavaa, tallennetaan varaukseksi tulevia maksuja varten
 
 
 
@@ -50,7 +50,7 @@ Phoenixd on ACINQ:n kehittämä minimaalinen, erikoistunut Lightning-solmu. Se o
 
 
 
-**Hallitset yksityiset avaimesi (12-sanainen seed) ja varasi. Phoenixd luo Wallet:n paikallisesti jakamatta avaimiasi.
+**Hallitset yksityiset avaimesi (12-sanainen seed) ja varasi.** Phoenixd luo Wallet:n paikallisesti jakamatta avaimiasi.
 
 
 
@@ -84,10 +84,10 @@ Phoenixd vaatii Linux-ympäristön (Ubuntu/Debian suositeltava) ja joitakin peru
 
 
 
-- Linux-palvelin**: VPS tai paikallinen kone, jossa on vakaa yhteys
-- OpenJDK 21** : Java-ajoympäristö
-- Vakaa Internet-yhteys**: Synkronointia varten Lightning Network:n kanssa
-- Verkkotunnus** (valinnainen) : API:n suojattua HTTPS-yhteyttä varten
+- **Linux-palvelin**: VPS tai paikallinen kone, jossa on vakaa yhteys
+- **OpenJDK 21**: Java-ajoympäristö
+- **Vakaa Internet-yhteys**: Synkronointia varten Lightning Network:n kanssa
+- **Verkkotunnus** (valinnainen) : API:n suojattua HTTPS-yhteyttä varten
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Ensimmäinen käynnistys
+**2. Ensimmäinen käynnistys**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Todistaa palvelimen henkilöllisyyden** (estää välikäsien välityksellä tapahtuvat hyökkäykset)
-- Ottaa käyttöön HTTPS**-salauksen: kaikki tiedot, myös API-salasanat, salataan siirron aikana
-- Let's Encrypt myöntää maksutta** certbot-työkalun kautta
+- **Todistaa palvelimen henkilöllisyyden** (estää välikäsien välityksellä tapahtuvat hyökkäykset)
+- Ottaa käyttöön **HTTPS-salauksen**: kaikki tiedot, myös API-salasanat, salataan siirron aikana
+- Let's Encrypt myöntää maksutta **certbot-työkalun** kautta
 
 
 
@@ -297,10 +297,10 @@ Tämän kokoonpanon avulla voit :
 
 
 
-- Turvallinen pääsy API:han Internetistä**
-- Salaa API**-salasanasi kuljetuksen aikana (jotta ne eivät välity selvänä tekstinä)
-- Integroi Phoenixd** ulkoisiin sovelluksiin, jotka vaativat HTTPS:ää
-- Rahoitusalan sovellusliittymien turvallisuusstandardien** noudattaminen
+- **Turvallinen pääsy API:han Internetistä**
+- **Salaa API-salasanasi** kuljetuksen aikana (jotta ne eivät välity selvänä tekstinä)
+- Integroi **Phoenixd** ulkoisiin sovelluksiin, jotka vaativat HTTPS:ää
+- **Rahoitusalan sovellusliittymien turvallisuusstandardien** noudattaminen
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Palvelumaksu**: 1 % kanavan kapasiteetista (2,115,000 Sats) = 21,150 Sats
-- Mining-maksut**: ~3,289 Sats (On-Chain-tapahtuman osalta)
-- Yhteensä**: 24,439 Sats automaattisesti vähennetty
+- **Palvelumaksu**: 1 % kanavan kapasiteetista (2,115,000 Sats) = 21,150 Sats
+- **Mining-maksut**: ~3,289 Sats (On-Chain-tapahtuman osalta)
+- **Yhteensä**: 24,439 Sats automaattisesti vähennetty
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Kuitti**: 1% + Mining maksu automaattisesta likviditeetistä
-- Toimitus**: 0.4% reititysmaksu Lightning Network:lle
+- **Kuitti**: 1% + Mining maksu automaattisesta likviditeetistä
+- **Toimitus**: 0.4% reititysmaksu Lightning Network:lle
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Verkkokauppasi saa automaattisesti ilmoituksen, kun asiakas maksaa tilauksen, mikä mahdollistaa tapahtuman välittömän validoinnin.
+**Verkkokauppasi saa automaattisesti ilmoituksen, kun asiakas maksaa tilauksen, mikä mahdollistaa tapahtuman välittömän validoinnin.**
 
 
 
@@ -684,7 +684,7 @@ Sen kattavan REST API:n ansiosta voit kehittää :
 
 
 
-*~/.phoenix-hakemisto:** Varmuuskopioi tämä kansio säännöllisesti (Phoenixd:n sammuttamisen jälkeen) kanavan tilan säilyttämiseksi ja palauttamisen nopeuttamiseksi.
+**~/.phoenix-hakemisto:** Varmuuskopioi tämä kansio säännöllisesti (Phoenixd:n sammuttamisen jälkeen) kanavan tilan säilyttämiseksi ja palauttamisen nopeuttamiseksi.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Kumpikin käyttää ACINQ:ta automaattisen likviditeetin LSP:nä.
+**Kumpikin käyttää ACINQ:ta automaattisen likviditeetin LSP:nä.**
 
 
 
@@ -866,9 +866,9 @@ Phoenixd:n avulla voit rakentaa oman yksityisen Lightning-infrastruktuurin, joss
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Lähdekoodi ja julkaisut
-- Phoenix Server**-sivusto: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Täydellinen dokumentaatio
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Usein kysytyt kysymykset
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Lähdekoodi ja julkaisut
+- **Phoenix Server**-sivusto: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Täydellinen dokumentaatio
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Usein kysytyt kysymykset
 
 
 
@@ -877,5 +877,5 @@ Phoenixd:n avulla voit rakentaa oman yksityisen Lightning-infrastruktuurin, joss
 
 
 
-- GitHub Issues** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Tekninen tuki
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Uutiset ja ilmoitukset
+- **GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Tekninen tuki
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Uutiset ja ilmoitukset

@@ -64,7 +64,7 @@ Officiële statistieken onthullen de omvang van het project: met meer dan 4,4 mi
 
 
 
-*standaard *Google-vrij**: Om juridische en ethische redenen zijn er geen Google-services vooraf geïnstalleerd. Deze "Google-vrije" benadering garandeert volledige controle over je persoonlijke gegevens en verbetert de prestaties door te voorkomen dat services op de achtergrond worden uitgevoerd.
+**Standaard Google-vrij**: Om juridische en ethische redenen zijn er geen Google-services vooraf geïnstalleerd. Deze "Google-vrije" benadering garandeert volledige controle over je persoonlijke gegevens en verbetert de prestaties door te voorkomen dat services op de achtergrond worden uitgevoerd.
 
 
 
@@ -149,8 +149,8 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- Android Flash-tool**: Gebruik de officiële tool van Google [flash.android.com] (https://flash.android.com) om je Pixel-apparaat eenvoudig te herstellen naar stock-Android vanuit je webbrowser (Chrome/Edge vereist)
-- Alternatief**: Fabrieksafbeeldingen handmatig van [developers.google.com/android/images] (https://developers.google.com/android/images)
+- **Android Flash-tool**: Gebruik de officiële tool van Google [flash.android.com](https://flash.android.com) om je Pixel-apparaat eenvoudig te herstellen naar stock-Android vanuit je webbrowser (Chrome/Edge vereist)
+- **Alternatief**: Fabrieksafbeeldingen handmatig van [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- Start het apparaat ten minste één keer** op met het originele standaardsysteem
-- Test alle functies**: SMS, gesprekken, Wi-Fi, mobiele data
-- Belangrijk**: Controleer of je sms'jes kunt versturen/ontvangen en gesprekken kunt voeren/ontvangen (ook via wifi en 4G/5G). Als het niet werkt op het standaardsysteem, zal het ook niet werken op LineageOS!
-- Recente toestellen**: Sommige vereisen dat VoLTE/VoWiFi ten minste één keer wordt gebruikt op het standaardsysteem om IMS te leveren
+- Start het apparaat ten minste één keer op met het **originele standaardsysteem**
+- **Test alle functies**: SMS, gesprekken, Wi-Fi, mobiele data
+- **Belangrijk**: Controleer of je sms'jes kunt versturen/ontvangen en gesprekken kunt voeren/ontvangen (ook via wifi en 4G/5G). Als het niet werkt op het standaardsysteem, zal het ook niet werken op LineageOS!
+- **Recente toestellen**: Sommige vereisen dat VoLTE/VoWiFi ten minste één keer wordt gebruikt op het standaardsysteem om IMS te leveren
 
 
 
@@ -171,8 +171,8 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- Verwijder alle Google**-accounts van je apparaat om te voorkomen dat de fabrieksresetbeveiliging de activering blokkeert
-- Volledige back-up** : Het proces wist je telefoon volledig. Maak een back-up van foto's, contacten, applicaties en belangrijke bestanden
+- Verwijder alle Google-accounts van je apparaat om te voorkomen dat de fabrieksresetbeveiliging de activering blokkeert
+- **Volledige back-up**: Het proces wist je telefoon volledig. Maak een back-up van foto's, contacten, applicaties en belangrijke bestanden
 
 
 
@@ -216,7 +216,7 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-⚠️ **Deze instructies zijn specifiek voor LineageOS 22.2. Volg elke stap nauwkeurig. Ga niet verder als er iets mislukt!
+⚠️ **Deze instructies zijn specifiek voor LineageOS 22.2. Volg elke stap nauwkeurig. Ga niet verder als er iets mislukt!**
 
 
 
@@ -249,8 +249,8 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- LineageOS bouwen**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Vereiste bestanden**: Download de 3 vereiste bestanden van deze pagina (ze worden in de volgende stappen gebruikt):
+- **LineageOS bouwen**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Vereiste bestanden**: Download de 3 vereiste bestanden van deze pagina (ze worden in de volgende stappen gebruikt):
   - `lineage-22.2-YYYMMDD-nightly-flame-signed.zip` (hoofd-ROM)
   - dtbo.img` (blob met partitieapparaatstructuur)
   - `boot.img` (herstel LineageOS)
@@ -269,13 +269,13 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-⚠️ **Deze stap verwijdert al je gegevens!
+⚠️ **Deze stap verwijdert al je gegevens!**
 
 
 
 
 
-- Test de ADB-verbinding**: Sluit je apparaat aan via USB en test het met de opdracht `adb devices` vanaf de computerterminal
+- **Test de ADB-verbinding**: Sluit je apparaat aan via USB en test het met de opdracht `adb devices` vanaf de computerterminal
 
 
 
@@ -289,7 +289,7 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- Autoriseer verbinding** op uw telefoon
+- **Autoriseer verbinding** op uw telefoon
 
 
 
@@ -303,7 +303,7 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- Opstarten in bootloadermodus** :
+- **Opstarten in bootloadermodus**:
 
 
 ```
@@ -317,7 +317,7 @@ Of houd **Volume omlaag + Aan/uit** apparaat uit
 
 
 
-- Controleer de fastboot** verbinding:
+- Controleer de **fastboot** verbinding:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Ontgrendel de bootloader** :
+- **Ontgrendel de bootloader** :
 
 
 ```
@@ -370,7 +370,7 @@ Gebruik op het apparaat de volumetoetsen om te navigeren en druk op de **Power**
 
 
 
-- Schakel na automatisch opnieuw opstarten** USB-foutopsporing opnieuw in de ontwikkelaarsopties in
+- Schakel na automatisch opnieuw opstarten **USB-foutopsporing** opnieuw in de ontwikkelaarsopties in
 
 
 
@@ -385,8 +385,8 @@ Gebruik op het apparaat de volumetoetsen om te navigeren en druk op de **Power**
 
 
 
-- Bootloader opnieuw opstarten**: Volume omlaag + Aan/uit
-- Flash** (vervang `/path/to/` door de map waar je het bestand hebt gedownload) :
+- **Bootloader opnieuw opstarten**: Volume omlaag + Aan/uit
+- **Flash** (vervang `/path/to/` door de map waar je het bestand hebt gedownload) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flashherstel** (vervang `/path/to/` door de map waar je het bestand hebt gedownload) :
+- **Flashherstel** (vervang `/path/to/` door de map waar je het bestand hebt gedownload) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Herstart in herstel** om te controleren
+- **Herstart in herstel** om te controleren
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Opnieuw opstarten in herstel**: Volume omlaag + Power → Herstelmodus
+- **Opnieuw opstarten in herstel**: Volume omlaag + Power → Herstelmodus
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Fabrieksreset** : Type "Fabrieksreset" → "Gegevens formatteren / fabrieksreset"
+- **Fabrieksreset**: Type "Fabrieksreset" → "Gegevens formatteren / fabrieksreset"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Terug naar hoofdmenu**
-- Laad LineageOS** :
+- **Terug naar hoofdmenu**
+- Laad **LineageOS**:
    - Op het apparaat: "Update toepassen" → "Toepassen vanaf ADB"
    - Op PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -488,7 +488,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-normaal**: Het proces kan stoppen bij 47% of "Succes"-fouten weergeven - dit is normaal!
+**normaal**: Het proces kan stoppen bij 47% of "Succes"-fouten weergeven - dit is normaal!
 
 
 
@@ -498,12 +498,12 @@ normaal**: Het proces kan stoppen bij 47% of "Succes"-fouten weergeven - dit is 
 
 
 
-- Opnieuw opstarten**: "Systeem nu opnieuw opstarten"
-- Eerste keer opstarten**: Kan tot 15 minuten duren
+- **Opnieuw opstarten**: "Systeem nu opnieuw opstarten"
+- **Eerste keer opstarten**: Kan tot 15 minuten duren
 
 
 
-**Installatie voltooid!
+**Installatie voltooid!**
 
 
 
@@ -520,9 +520,9 @@ normaal**: Het proces kan stoppen bij 47% of "Succes"-fouten weergeven - dit is 
 
 
 
-- Compatibiliteit firmware**: Controleer de vereiste firmwareversie op de downloadpagina van uw model
-- Nooit de bootloader opnieuw vergrendelen** na installatie van LineageOS
-- Volg de specifieke instructies** voor uw apparaat
+- **Compatibiliteit firmware**: Controleer de vereiste firmwareversie op de downloadpagina van uw model
+- **Nooit de bootloader opnieuw vergrendelen** na installatie van LineageOS
+- Volg de **specifieke instructies** voor uw apparaat
 
 
 
@@ -559,11 +559,11 @@ Gestroomlijnd Interface, dicht bij stock-Android, zonder Google. Eenvoudige conf
 
 
 
-- Navigatie**: Organic Maps (offline kaarten gebaseerd op OpenStreetMap)
-- Communicatie**: Signal (end-to-end versleutelde berichten), K-9 Mail (gratis e-mailclient)
-- Media**: NewPipe (reclamevrije, trackingvrije YouTube), VLC (universele mediaspeler)
-- Productiviteit**: Nextcloud (zelf-hostende cloud), Simple Calendar (CalDAV-synchronisatie)
-- Beveiliging**: Bitwarden (wachtwoordbeheerder), Aegis Authenticator (2FA-codes)
+- **Navigatie**: Organic Maps (offline kaarten gebaseerd op OpenStreetMap)
+- **Communicatie**: Signal (end-to-end versleutelde berichten), K-9 Mail (gratis e-mailclient)
+- **Media**: NewPipe (reclamevrije, trackingvrije YouTube), VLC (universele mediaspeler)
+- **Productiviteit**: Nextcloud (zelf-hostende cloud), Simple Calendar (CalDAV-synchronisatie)
+- **Beveiliging**: Bitwarden (wachtwoordbeheerder), Aegis Authenticator (2FA-codes)
 
 
 

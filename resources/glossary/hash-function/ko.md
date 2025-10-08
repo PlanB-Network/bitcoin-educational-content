@@ -21,4 +21,4 @@ Bitcoin의 맥락에서 Hash 함수는 Proof-of-Work 메커니즘(*Proof-of-Work
 - hASH160`은 `SHA256`과 `RIPEMD160`의 연속적인 사용을 설명합니다. hASH160`은 수신 주소를 생성하는 과정(P2PK 및 P2TR 제외)과 확장 키의 부모 키 지문을 계산하는 데 사용됩니다.
 
 
-> ► *영어로는 "Hash 기능"이라고 합니다
+> ► *영어로는 "Hash 기능"이라고 합니다*

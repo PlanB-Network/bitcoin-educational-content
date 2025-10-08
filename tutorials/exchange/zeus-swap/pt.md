@@ -277,10 +277,10 @@ Cada troca tem um identificador único com acompanhamento em tempo real. Visuali
 
 
 
-- Simplicidade**: Troca em poucos cliques vs. manipulação manual de canais
-- Sem custódia**: sem KYC, sem conta, fundos nunca confiados a terceiros
-- Transparência**: taxas explicitamente apresentadas antes da validação (0,1% a 0,5% + mínimo, dependendo dos testes dos utilizadores - verificar as taxas actuais em cada swap)
-- Integração móvel**: experiência nativa no Zeus Wallet
+- **Simplicidade**: Troca em poucos cliques vs. manipulação manual de canais
+- **Sem custódia**: sem KYC, sem conta, fundos nunca confiados a terceiros
+- **Transparência**: taxas explicitamente apresentadas antes da validação (0,1% a 0,5% + mínimo, dependendo dos testes dos utilizadores - verificar as taxas actuais em cada swap)
+- **Integração móvel**: experiência nativa no Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Cada troca tem um identificador único com acompanhamento em tempo real. Visuali
 
 
 
-- Tempos de expiração**: 24-48h no máximo, falha se o Bitcoin não for confirmado a tempo
-- Limites de montante**: mínimo 25 000 Sats, liquidez Zeus LSP variável em função das condições
-- Traços On-Chain**: Scripts do HTLC potencialmente identificáveis pela análise do Blockchain
-- Confirmação necessária**: mínimo de 10 minutos para validação do Bitcoin
+- **Tempos de expiração**: 24-48h no máximo, falha se o Bitcoin não for confirmado a tempo
+- **Limites de montante**: mínimo 25 000 Sats, liquidez Zeus LSP variável em função das condições
+- **Traços On-Chain**: Scripts do HTLC potencialmente identificáveis pela análise do Blockchain
+- **Confirmação necessária**: mínimo de 10 minutos para validação do Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Cada troca tem um identificador único com acompanhamento em tempo real. Visuali
 
 
 - Verificar cuidadosamente os endereços Bitcoin (recomenda-se copiar e colar)
-- Cópia de segurança da chave de recuperação do Zeus Swaps**: transfira e guarde a chave de recuperação num local seguro
+- **Cópia de segurança da chave de recuperação do Zeus Swaps**: transfira e guarde a chave de recuperação num local seguro
 - Documento: Contract ID, reembolso Address, data de validade
 - Utilizar as taxas Mining adequadas para uma confirmação atempada
 
@@ -354,11 +354,11 @@ O Zeus Swap utiliza a tecnologia de backend do Boltz, mas introduz algumas melho
 
 
 
-- Interface unificado**: integração nativa em Zeus Wallet vs Interface técnica Web Boltz
-- API WebSocket**: actualizações em tempo real vs. sondagem manual
-- Gestão automatizada**: faturação automática e gestão Address
-- Suporte móvel**: apenas otimização para smartphone vs. desktop
-- Documentação Swagger**: API REST completa para programadores
+- **Interface unificado**: integração nativa em Zeus Wallet vs Interface técnica Web Boltz
+- **API WebSocket**: actualizações em tempo real vs. sondagem manual
+- **Gestão automatizada**: faturação automática e gestão Address
+- **Suporte móvel**: apenas otimização para smartphone vs. desktop
+- **Documentação Swagger**: API REST completa para programadores
 
 
 

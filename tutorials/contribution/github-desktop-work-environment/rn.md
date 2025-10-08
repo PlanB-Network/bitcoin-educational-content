@@ -11,8 +11,8 @@ Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru
 Niba wipfuza gutanga umusanzu ku rubuga rwa PlanB, uzokenera gukoresha GitHub kugira ngo ushireho amahinduka. Kugira ngo ubikore, ufise uburyo bubiri:
 
 
-- Gutanga umusanzu utaziguye biciye ku rubuga rwa GitHub Interface**: Ubu ni uburyo bworoshe. Nimba uri uwutangura canke nimba utegura gutanga intererano nkeyi gusa, kumbure iyo nzira ni yo nziza kuri wewe;
-- Gutanga intererano mu karere ukoresheje Git**: Ubu buryo burabereye cane nimba utegura gutanga intererano zidasanzwe canke zihambaye ku rubuga rwa PlanB. Naho gushinga ibidukikije vya Git vyo mu karere kawe kuri mudasobwa yawe bishobora gusa n’ibigoye mu ntango, ubu buryo burakora neza cane mu gihe kirekire. Bituma habaho ugucungera amahinduka mu buryo bubereye. Niba uri mushasha muri ivyo, ntuhagarike umutima, **turagusigurira inzira yose yo gushinga ibidukikije vyawe muri iyi nyigisho** (isezerano, ntuzokenera kwandika imirongo y'amabwirizwa ^^).
+- **Gutanga umusanzu utaziguye biciye ku rubuga rwa GitHub Interface**: Ubu ni uburyo bworoshe. Nimba uri uwutangura canke nimba utegura gutanga intererano nkeyi gusa, kumbure iyo nzira ni yo nziza kuri wewe;
+- Gutanga intererano mu karere ukoresheje Git: Ubu buryo burabereye cane nimba utegura gutanga intererano zidasanzwe canke zihambaye ku rubuga rwa PlanB. Naho gushinga ibidukikije vya Git vyo mu karere kawe kuri mudasobwa yawe bishobora gusa n'ibigoye mu ntango, ubu buryo burakora neza cane mu gihe kirekire. Bituma habaho ugucungera amahinduka mu buryo bubereye. Niba uri mushasha muri ivyo, ntuhagarike umutima, **turagusigurira inzira yose yo gushinga ibidukikije vyawe muri iyi nyigisho** (isezerano, ntuzokenera kwandika imirongo y'amabwirizwa ^^).
 
 
 Niba utazi ico GitHub ari co, canke nimba ushaka kumenya vyinshi ku majambo y’ubuhinga ajanye na Git na GitHub, ndagusavye gusoma ingingo yacu y’intango kugira ngo umenye neza ivyo vyiyumviro.

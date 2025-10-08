@@ -149,8 +149,8 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-- Android Flash Tool**: Käytä virallista Google-työkalua [flash.android.com](https://flash.android.com), jolla voit helposti palauttaa Pixel-laitteesi varasto-Androidin selaimesta (Chrome/Edge vaaditaan)
-- Vaihtoehto**: Tehdaskuvat manuaalisesti osoitteesta [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Android Flash Tool**: Käytä virallista Google-työkalua [flash.android.com](https://flash.android.com), jolla voit helposti palauttaa Pixel-laitteesi varasto-Androidin selaimesta (Chrome/Edge vaaditaan)
+- **Vaihtoehto**: Tehdaskuvat manuaalisesti osoitteesta [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-- Käynnistä laite vähintään kerran** alkuperäisellä varastointijärjestelmällä
-- Testaa kaikki ominaisuudet**: Tekstiviestit, puhelut, Wi-Fi, mobiilidata
-- Tärkeää**: Tarkista, että voit lähettää/vastaanottaa tekstiviestejä ja soittaa/vastaanottaa puheluita (myös WiFin ja 4G/5G:n kautta). Jos se ei toimi kantajärjestelmässä, se ei toimi myöskään LineageOS:ssä!
-- Viimeisimmät laitteet**: Jotkin vaativat VoLTE/VoWiFi:n käyttämistä vähintään kerran kantajärjestelmässä IMS:n käyttöönottoa varten
+- Käynnistä laite vähintään kerran alkuperäisellä varastointijärjestelmällä
+- **Testaa kaikki ominaisuudet**: Tekstiviestit, puhelut, Wi-Fi, mobiilidata
+- **Tärkeää**: Tarkista, että voit lähettää/vastaanottaa tekstiviestejä ja soittaa/vastaanottaa puheluita (myös WiFin ja 4G/5G:n kautta). Jos se ei toimi kantajärjestelmässä, se ei toimi myöskään LineageOS:ssä!
+- **Viimeisimmät laitteet**: Jotkin vaativat VoLTE/VoWiFi:n käyttämistä vähintään kerran kantajärjestelmässä IMS:n käyttöönottoa varten
 
 
 
@@ -171,8 +171,8 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-- Poista kaikki Google**-tilit laitteestasi välttääksesi tehdasasetusten palautussuojauksen, joka voi estää aktivoinnin
-- Täydellinen varmuuskopiointi** : Prosessi poistaa puhelimesi kokonaan. Varmuuskopioi valokuvat, yhteystiedot, sovellukset ja tärkeät tiedostot
+- Poista kaikki **Google-tilit** laitteestasi välttääksesi tehdasasetusten palautussuojauksen, joka voi estää aktivoinnin
+- **Täydellinen varmuuskopiointi**: Prosessi poistaa puhelimesi kokonaan. Varmuuskopioi valokuvat, yhteystiedot, sovellukset ja tärkeät tiedostot
 
 
 
@@ -216,7 +216,7 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-⚠️ **Nämä ohjeet koskevat LineageOS 22.2:ta. Noudata jokaista vaihetta tarkasti. Älä jatka, jos jokin epäonnistuu!
+⚠️ **Nämä ohjeet koskevat LineageOS 22.2:ta. Noudata jokaista vaihetta tarkasti. Älä jatka, jos jokin epäonnistuu!**
 
 
 
@@ -249,8 +249,8 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-- Rakenna LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Tarvittavat tiedostot**: Lataa 3 vaadittua tiedostoa tältä sivulta (niitä käytetään seuraavissa vaiheissa):
+- **Rakenna LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Tarvittavat tiedostot**: Lataa 3 vaadittua tiedostoa tältä sivulta (niitä käytetään seuraavissa vaiheissa):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (tärkein ROM)
   - dtbo.img` (osioiden laitepuiden blob)
   - `boot.img` (palautus LineageOS)
@@ -269,13 +269,13 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-⚠️ **Tämä vaihe poistaa kaikki tietosi!
+⚠️ **Tämä vaihe poistaa kaikki tietosi!**
 
 
 
 
 
-- Testaa ADB-yhteys**: Liitä laite USB:n kautta ja testaa tietokoneen päätelaitteesta komennolla `adb devices`
+- **Testaa ADB-yhteys**: Liitä laite USB:n kautta ja testaa tietokoneen päätelaitteesta komennolla `adb devices`
 
 
 
@@ -289,7 +289,7 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-- Yhteyden salliminen** puhelimessa
+- **Yhteyden salliminen** puhelimessa
 
 
 
@@ -303,7 +303,7 @@ Virallisten tilastojen mukaan käytetyimpiin malleihin kuuluu erilaisia laitteit
 
 
 
-- Käynnistä käynnistyslataustilaan** :
+- **Käynnistä käynnistyslataustilaan**:
 
 
 ```
@@ -317,7 +317,7 @@ Tai pidä alhaalla **Volume Down + Virta** laitteen sammuttaminen
 
 
 
-- Tarkista fastboot**-yhteys:
+- Tarkista **fastboot-yhteys**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Avaa käynnistyslatauksen lukitus** :
+- **Avaa käynnistyslatauksen lukitus**:
 
 
 ```
@@ -370,7 +370,7 @@ Siirry laitteessa äänenvoimakkuusnäppäimillä ja valitse "Unlock the bootloa
 
 
 
-- Automaattisen uudelleenkäynnistyksen** jälkeen ota USB-debuggaus uudelleen käyttöön kehittäjäasetuksissa
+- **Automaattisen uudelleenkäynnistyksen** jälkeen ota USB-debuggaus uudelleen käyttöön kehittäjäasetuksissa
 
 
 
@@ -385,8 +385,8 @@ Siirry laitteessa äänenvoimakkuusnäppäimillä ja valitse "Unlock the bootloa
 
 
 
-- Käynnistä käynnistysohjelma uudelleen**: Äänenvoimakkuus alas + virta
-- Flash** (korvaa `/path/to/` kansiolla, josta latasit tiedoston) :
+- **Käynnistä käynnistysohjelma uudelleen**: Äänenvoimakkuus alas + virta
+- **Flash** (korvaa `/path/to/` kansiolla, josta latasit tiedoston) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (korvaa `/path/to/` kansiolla, josta latasit tiedoston) :
+- **Flash recovery** (korvaa `/path/to/` kansiolla, josta latasit tiedoston):
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Käynnistä toipuminen uudelleen** tarkistaaksesi
+- **Käynnistä toipuminen uudelleen** tarkistaaksesi
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Uudelleenkäynnistys toipumisvaiheessa**: Äänenvoimakkuus alas + virta → palautustila
+- **Uudelleenkäynnistys toipumisvaiheessa**: Äänenvoimakkuus alas + virta → palautustila
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Tehdasasetusten palautus** : Kirjoita "Tehdasasetusten palautus" → "Muotoile tiedot / tehdasasetusten palautus"
+- **Tehdasasetusten palautus**: Kirjoita "Tehdasasetusten palautus" → "Muotoile tiedot / tehdasasetusten palautus"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Palaa päävalikkoon**
-- LineageOS:n sivulataus** :
+- **Palaa päävalikkoon**
+- **LineageOS:n sivulataus**:
    - Laitteessa: "Hae päivitys" → "Hae ADB:stä"
    - PC:llä: `adb -d sideload /polku/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Uudelleenkäynnistys**: "Käynnistä järjestelmä uudelleen nyt"
-- Ensimmäinen saapas**: Voi kestää jopa 15 minuuttia
+- **Uudelleenkäynnistys**: "Käynnistä järjestelmä uudelleen nyt"
+- **Ensimmäinen saapas**: Voi kestää jopa 15 minuuttia
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Firmware-yhteensopivuus**: Tarkista vaadittu laiteohjelmistoversio mallisi lataussivulta
-- Älä koskaan lukitse uudelleen** käynnistyslataajaa LineageOS:n asennuksen jälkeen
-- Noudata laitteesi erityisohjeita**
+- **Firmware-yhteensopivuus**: Tarkista vaadittu laiteohjelmistoversio mallisi lataussivulta
+- Älä koskaan **lukitse uudelleen** käynnistyslataajaa LineageOS:n asennuksen jälkeen
+- Noudata laitteesi erityisohjeita
 
 
 
@@ -559,11 +559,11 @@ Virtaviivaistettu Interface, joka on lähellä alkuperäistä Androidia ilman Go
 
 
 
-- Navigointi**: Kartat: Organic Maps (OpenStreetMapiin perustuvat offline-kartat)
-- Viestintä**: Signal (päästä päähän salatut viestit), K-9 Mail (ilmainen sähköpostiohjelma)
-- Media**: NewPipe (mainokseton, seurantavapaa YouTube), VLC (universaali mediasoitin)
-- Tuottavuus**: Nextcloud (itsepalvelupilvi), Simple Calendar (CalDAV-synkronointi)
-- Turvallisuus**: Bitwarden (salasanahallinta), Aegis Authenticator (2FA-koodit)
+- **Navigointi**: Kartat: Organic Maps (OpenStreetMapiin perustuvat offline-kartat)
+- **Viestintä**: Signal (päästä päähän salatut viestit), K-9 Mail (ilmainen sähköpostiohjelma)
+- **Media**: NewPipe (mainokseton, seurantavapaa YouTube), VLC (universaali mediasoitin)
+- **Tuottavuus**: Nextcloud (itsepalvelupilvi), Simple Calendar (CalDAV-synkronointi)
+- **Turvallisuus**: Bitwarden (salasanahallinta), Aegis Authenticator (2FA-koodit)
 
 
 

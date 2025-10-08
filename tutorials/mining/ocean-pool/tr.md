@@ -288,7 +288,7 @@ Ve **İmzala/Doğrulama Mesajı**.
 Bu pencerede üç alan bulunmaktadır: **Address**, **İmza** ve **Mesaj**.
 
 
-Address** alanına Bitcoin Address'inizi girin. Örneğimize geri dönersek, bu Address'dir: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`.
+**Address** alanına Bitcoin Address'inizi girin. Örneğimize geri dönersek, bu Address'dir: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`.
 
 
 **İmza** alanını boş bırakın.

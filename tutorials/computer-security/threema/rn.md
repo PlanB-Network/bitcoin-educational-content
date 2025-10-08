@@ -276,7 +276,7 @@ Aha uzosanga uburyo bubiri bwo gukingira amakuru yawe:
 
 
 
-"Threema Safe* ibika amakuru yose ya konti yawe, kiretse ibiyago vyawe, ku ma server ya Threema. Aya makuru apfukwa n'ijambobanga wahisemwo igihe wakora konti yawe, kugira ngo Threema idashobora kuyaronka. Gukora backups bikorwa ubwavyo kandi bihoraho."
+"Threema Safe ibika amakuru yose ya konti yawe, kiretse ibiyago vyawe, ku ma server ya Threema. Aya makuru apfukwa n'ijambobanga wahisemwo igihe wakora konti yawe, kugira ngo Threema idashobora kuyaronka. Gukora backups bikorwa ubwavyo kandi bihoraho."
 
 
 

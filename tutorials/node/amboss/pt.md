@@ -145,9 +145,9 @@ Na secção **Channels**, verá a lista de canais abertos e as ligações do nó
 
 
 
-- Rácio de entrada**: O montante que o nó cobrará por cada milhão de Satoshi que receber, dependendo do canal escolhido.
+- **Rácio de entrada**: O montante que o nó cobrará por cada milhão de Satoshi que receber, dependendo do canal escolhido.
 - O rácio (partes por milhão)** : que representa o número de Satoshi por milhão de unidades que o nó lhe cobrará quando decidir efetuar um pagamento através de um dos seus canais. Digamos que decide fazer um pagamento de `10_000 Sats` através de um canal cujo rácio de ppm é de `500 Sats`, terá de pagar ao nó `10_000 * 500 / 1_000_000` satoshis, equivalente a `5 Sats`.
-- O [HTLC](https://planb.network/resources/glossary/HTLC) máximo** : O montante máximo que este nó lhe permite transitar através de um destes canais.
+- O **[HTLC](https://planb.network/resources/glossary/HTLC) máximo**: O montante máximo que este nó lhe permite transitar através de um destes canais.
 
 
 
@@ -172,7 +172,7 @@ A secção **Canais encerrados** agrupa todos os antigos canais do nó de acordo
 
 
 
-- Encerramento mútuo**: representa o acordo de ambas as partes, que utilizam a sua chave privada para assinar a transação que marca o encerramento do canal e a distribuição dos saldos no seu interior
+- **Encerramento mútuo**: representa o acordo de ambas as partes, que utilizam a sua chave privada para assinar a transação que marca o encerramento do canal e a distribuição dos saldos no seu interior
 - Um **encerramento forçado**: representa o encerramento abrupto e unilateral de uma parte do canal. Este tipo de encerramento não é recomendado, uma vez que o Lightning Network é um protocolo baseado em punições: quando se tenta defraudar o saldo de um canal, corre-se o risco de perder todo o saldo disponível nesse canal.
 
 

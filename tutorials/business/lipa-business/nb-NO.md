@@ -130,10 +130,10 @@ Innkrevingsprosessen ligner på en vanlig transaksjon:
 
 
 
-- Angi beløp**: På betalingsskjermen skriver du inn beløpet i lokal valuta (CHF eller EUR). Eksempel: For en kaffe til 4,50 CHF skriver du inn 4,50
-- Generering av Invoice** : Applikasjonen konverterer umiddelbart beløpet til satoshis til gjeldende kurs, og genererer en Lightning Invoice i form av en QR-kode
-- Kundebetaling** : Kunden skanner QR-koden med sin Wallet Lightning og validerer betalingen
-- Bekreftelse** : Betaling bekreftes i løpet av sekunder, med visuell visning av suksess
+- **Angi beløp**: På betalingsskjermen skriver du inn beløpet i lokal valuta (CHF eller EUR). Eksempel: For en kaffe til 4,50 CHF skriver du inn 4,50
+- **Generering av Invoice**: Applikasjonen konverterer umiddelbart beløpet til satoshis til gjeldende kurs, og genererer en Lightning Invoice i form av en QR-kode
+- **Kundebetaling**: Kunden skanner QR-koden med sin Wallet Lightning og validerer betalingen
+- **Bekreftelse**: Betaling bekreftes i løpet av sekunder, med visuell visning av suksess
 
 
 
@@ -207,11 +207,11 @@ Innkrevingsprosessen ligner på en vanlig transaksjon:
 
 
 
-- Servering**: Barer, restauranter, kafeer kan ta imot tillegg i Bitcoin med tipshåndtering
-- Detaljhandel**: Dagligvarebutikker, bakerier for å utvide betalingsmetoder uten faste avgifter
-- Nomadiske leverandører**: matbiler, markeder, festivaler med bare en smarttelefon
-- Arrangementer** : Midlertidige stands med løsninger som er klare til bruk
-- Tjenester**: Konsulenter, håndverkere for engangsfakturering i Bitcoin
+- **Servering**: Barer, restauranter, kafeer kan ta imot tillegg i Bitcoin med tipshåndtering
+- **Detaljhandel**: Dagligvarebutikker, bakerier for å utvide betalingsmetoder uten faste avgifter
+- **Nomadiske leverandører**: matbiler, markeder, festivaler med bare en smarttelefon
+- **Arrangementer**: Midlertidige stands med løsninger som er klare til bruk
+- **Tjenester**: Konsulenter, håndverkere for engangsfakturering i Bitcoin
 
 
 

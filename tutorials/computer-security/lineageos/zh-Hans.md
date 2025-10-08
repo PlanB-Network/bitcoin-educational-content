@@ -149,7 +149,7 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-- 安卓闪存工具**：使用谷歌官方工具 [flash.android.com](https://flash.android.com)，通过网络浏览器（需要 Chrome/Edge 浏览器）轻松将 Pixel 设备还原为原版 Android 系统。
+- 安卓闪存工具：使用谷歌官方工具 [flash.android.com](https://flash.android.com)，通过网络浏览器（需要 Chrome/Edge 浏览器）轻松将 Pixel 设备还原为原版 Android 系统。
 - 替代**：手动从 [developers.google.com/android/images](https://developers.google.com/android/images) 出厂图像
 
 
@@ -159,10 +159,10 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-- 使用原始系统启动设备至少一次**
-- 测试所有功能**：短信、通话、Wi-Fi、移动数据
-- 重要**：检查你是否可以发送/接收短信和拨打/接听电话（包括通过 WiFi 和 4G/5G）。如果在原版系统上无法使用，那么在 LineageOS 上也无法使用！
-- 最新设备**：有些设备要求在原系统上至少使用一次 VoLTE/VoWiFi，以配置 IMS
+- 使用原始系统启动设备至少一次
+- 测试所有功能**：短信、通话、Wi-Fi、移动数据**
+- **重要**：检查你是否可以发送/接收短信和拨打/接听电话（包括通过 WiFi 和 4G/5G）。如果在原版系统上无法使用，那么在 LineageOS 上也无法使用！
+- 最新设备**：有些设备要求在原系统上至少使用一次 VoLTE/VoWiFi，以配置 IMS**
 
 
 
@@ -171,8 +171,8 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-- 删除设备中的所有谷歌**账户，以避免 "出厂重置保护"（可能会阻止激活）。
-- 完全备份** ：此过程将完全删除您的手机。备份照片、联系人、应用程序和重要文件
+- 删除设备中的所有谷歌**账户**，以避免 "出厂重置保护"（可能会阻止激活）。
+- **完全备份**：此过程将完全删除您的手机。备份照片、联系人、应用程序和重要文件
 
 
 
@@ -216,7 +216,7 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-⚠️ **这些说明针对 LineageOS 22.2。请准确遵循每个步骤。如果出现故障，请勿继续！
+⚠️ **这些说明针对 LineageOS 22.2。请准确遵循每个步骤。如果出现故障，请勿继续！**
 
 
 
@@ -249,8 +249,8 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-- 构建 LineageOS**：[download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- 所需文件**：从本页下载 3 个所需文件（这些文件将在以下步骤中使用）：
+- 构建 **LineageOS**：[download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **所需文件**：从本页下载 3 个所需文件（这些文件将在以下步骤中使用）：
   - lineage-22.2-YYYYMMDD-nightly-flame-signed.zip`（主 ROM）
   - dtbo.img`（分区设备树 blob）
   - boot.img（恢复 LineageOS）
@@ -269,13 +269,13 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-⚠️ **此步骤将删除所有数据！
+⚠️ **此步骤将删除所有数据！**
 
 
 
 
 
-- 测试 ADB 连接**：通过 USB 连接设备，并在电脑终端上使用 "adb devices "命令进行测试
+- 测试 ADB 连接：通过 USB 连接设备，并在电脑终端上使用 "adb devices" 命令进行测试
 
 
 
@@ -289,7 +289,7 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-- 在手机上授权连接**
+- 在手机上授权连接
 
 
 
@@ -303,7 +303,7 @@ LineageOS 支持来自 20 多家制造商的数百款设备：三星、小米、
 
 
 
-- 启动到启动加载程序模式** ：
+- **启动到启动加载程序模式**：
 
 
 ```
@@ -317,7 +317,7 @@ adb -d reboot bootloader
 
 
 
-- 检查 fastboot** 连接：
+- 检查 **fastboot** 连接：
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- 解锁启动加载器** ：
+- **解锁启动加载器**：
 
 
 ```
@@ -370,7 +370,7 @@ fastboot flashing unlock
 
 
 
-- 自动重启**后，在开发人员选项中重新启用 USB 调试
+- 自动重启后，在开发人员选项中重新启用 **USB 调试**
 
 
 
@@ -385,8 +385,8 @@ fastboot flashing unlock
 
 
 
-- 重启启动加载程序**：音量下+电源
-- Flash**（将 `/path/to/`替换为下载文件的文件夹） ：
+- 重启启动加载程序：音量下+电源
+- **Flash**（将 `/path/to/`替换为下载文件的文件夹）：
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- 闪存恢复** （将 `/path/to/`替换为下载文件的文件夹） ：
+- **闪存恢复**（将 `/path/to/`替换为下载文件的文件夹）：
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 在恢复**中重新启动以检查
+- 在恢复**中重新启动以检查**
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 在恢复模式下重新启动**：音量下+电源→恢复模式
+- 在恢复模式下重新启动：音量下+电源→恢复模式
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 出厂重置** ：键入 "出厂重置"→"格式化数据/出厂重置"。
+- **出厂重置**：键入 "出厂重置"→"格式化数据/出厂重置"。
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 返回主菜单**
-- 侧载 LineageOS** ：
+- 返回主菜单
+- 侧载 **LineageOS**：
    - 在设备上："应用更新"→"从 ADB 应用
    - 在电脑上： `adb -d sideload /path/to/lineageos.zip`.
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 重新启动**："立即重启系统"
-- 首次启动**：可能需要 15 分钟
+- 重新启动**："立即重启系统"**
+- 首次启动**：可能需要 15 分钟**
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 固件兼容性**：请务必在型号下载页面上查看所需的固件版本
-- 安装 LineageOS 后，切勿重新锁定**启动加载器
-- 请按照设备的具体说明**操作
+- **固件兼容性**：请务必在型号下载页面上查看所需的固件版本
+- 安装 LineageOS 后，切勿重新锁定**启动加载器**
+- 请按照设备的具体说明**操作**
 
 
 
@@ -559,11 +559,11 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- 导航**：有机地图（基于 OpenStreetMap 的离线地图）
-- 通信**：Signal（端到端加密信息）、K-9 Mail（免费电子邮件客户端）
-- 媒体**：NewPipe（无广告、无跟踪 YouTube）、VLC（通用媒体播放器）
-- 生产力**：Nextcloud（自托管云）、Simple Calendar（CalDAV 同步）
-- 安全性**：Bitwarden（密码管理器）、Aegis Authenticator（2FA 密码）
+- **导航**：有机地图（基于 OpenStreetMap 的离线地图）
+- **通信**：Signal（端到端加密信息）、K-9 Mail（免费电子邮件客户端）
+- 媒体：NewPipe（无广告、无跟踪 YouTube）、VLC（通用媒体播放器）
+- 生产力：Nextcloud（自托管云）、Simple Calendar（CalDAV 同步）
+- **安全性**：Bitwarden（密码管理器）、Aegis Authenticator（2FA 密码）
 
 
 

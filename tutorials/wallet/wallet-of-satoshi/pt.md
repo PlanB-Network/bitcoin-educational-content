@@ -4,7 +4,7 @@ description: O Wallet de custódia mais simples para começar
 ---
 ![cover](assets/cover.webp)
 
-_Este tutorial foi escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Este tutorial foi escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Transferência, configuração e utilização do Wallet do Satoshi

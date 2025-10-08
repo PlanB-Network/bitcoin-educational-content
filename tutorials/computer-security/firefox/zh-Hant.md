@@ -322,7 +322,7 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- Firefox Android + uBlock Origin**：移動時提供類似的保護。
+- **Firefox Android + uBlock Origin**：移動時提供類似的保護。
 
 
 
@@ -544,9 +544,9 @@ user_pref("network.http.referer.trimOnCrossOrigin", true);
 
 - 更新：Firefox 和擴充套件為最新版本。
 - 延長**：合理可靠；小心「可疑」的贖回。
-- 下載**：請謹慎；在 VirusTotal 上測試敏感檔案。
+- **下載**：請謹慎；在 VirusTotal 上測試敏感檔案。
 - 密碼：**專用管理器** (Bitwarden, KeePassXC)；啟用**2FA**；避免儲存在瀏覽器中。
-- 衛生**：將 Google/Facebook 限制在容器中；定期關閉/開啟，以「重設」上下文。
+- **衛生**：將 Google/Facebook 限制在容器中；定期關閉/開啟，以「重設」上下文。
 
 
 

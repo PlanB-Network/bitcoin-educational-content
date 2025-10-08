@@ -64,25 +64,25 @@ Debifi'de nasıl borçlanacağınızı adım adım göstermeden önce bilmeniz g
 
 
 
-- Başlangıç ücretleri**, bir kredinin verilmesi sırasında alınan ve borç alınan tutarın yüzdesi olarak hesaplanan bir defaya mahsus ücretlerdir. Bu ücretler idari, operasyonel ve yönetim maliyetlerini kapsar.
+- **Başlangıç ücretleri**, bir kredinin verilmesi sırasında alınan ve borç alınan tutarın yüzdesi olarak hesaplanan bir defaya mahsus ücretlerdir. Bu ücretler idari, operasyonel ve yönetim maliyetlerini kapsar.
 
 
 
 
 
-- Teminat** bir krediyi güvence altına almak için yatırdığınız bir varlıktır. Debifi'nin durumunda teminat, borçlunun Multisig 3/4 emanetine yatırdığı Bitcoin'dur (BTC).
+- **Teminat** bir krediyi güvence altına almak için yatırdığınız bir varlıktır. Debifi'nin durumunda teminat, borçlunun Multisig 3/4 emanetine yatırdığı Bitcoin'dur (BTC).
 
 
 
 
 
-- Multisig emanet (3/4)** sistemi, bir borçlunun bitcoinlerinin çok imzalı bir Address'ye yerleştirildiği güvenli bir para yatırma mekanizmasıdır. Spesifik olarak, dört (4) tarafın her biri bir anahtara sahiptir (borç alan, borç veren, Debifi, bağımsız üçüncü taraf). Fonları taşımak için 4 imzadan en az 3'ü gereklidir.
+- **Multisig emanet (3/4)** sistemi, bir borçlunun bitcoinlerinin çok imzalı bir Address'ye yerleştirildiği güvenli bir para yatırma mekanizmasıdır. Spesifik olarak, dört (4) tarafın her biri bir anahtara sahiptir (borç alan, borç veren, Debifi, bağımsız üçüncü taraf). Fonları taşımak için 4 imzadan en az 3'ü gereklidir.
 
 
 
 
 
-- Stabilcoin**, değeri sabit bir varlığa (örneğin ABD doları) sabitlenmiş bir kripto para birimidir ve Bitcoin'ün oynaklığını önler. Örneğin, 1 USDC fiat rezervleri tarafından desteklendiği için her zaman ~1$ değerindedir.
+- **Stablecoin**, değeri sabit bir varlığa (örneğin ABD doları) sabitlenmiş bir kripto para birimidir ve Bitcoin'ün oynaklığını önler. Örneğin, 1 USDC fiat rezervleri tarafından desteklendiği için her zaman ~1$ değerindedir.
 
 
 

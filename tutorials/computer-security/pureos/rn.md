@@ -27,25 +27,25 @@ PureOS ni ubuhinga bushingiye kuri Debian bwateguwe na Purism. PureOS irabereye 
 
 
 
-- Interface** yoroshe, igaragara neza: GNOME itanga ibiro bigaragara Interface, vyateguwe kugira ngo vyorohe gukoresha, mbere n'abantu batamenyereye umurongo w'amabwirizwa.
+- **Interface yoroshe, igaragara neza**: GNOME itanga ibiro bigaragara Interface, vyateguwe kugira ngo vyorohe gukoresha, mbere n'abantu batamenyereye umurongo w'amabwirizwa.
 
 
 
 
 
-- Ubuntu**: nk’ibindi bikoresho vyinshi vya Linux, PureOS ni ubuntu bwose bwo gukoresha. Ariko rero, hariho amahera yo kwiyandikisha buri kwezi kugira ngo umuntu afashe abahinguzi.
+- **Ubuntu**: nk'ibindi bikoresho vyinshi vya Linux, PureOS ni ubuntu bwose bwo gukoresha. Ariko rero, hariho amahera yo kwiyandikisha buri kwezi kugira ngo umuntu afashe abahinguzi.
 
 
 
 
 
-- Umutekano n’ugushikama**: Ubwubatsi bwa PureOS n’uburyo ikora bituma iba ukwiragira gutekanye cane, bikaba vyemeza ko amakuru akingwa n’ugushikama kwa sisitemu.
+- **Umutekano n'ugushikama**: Ubwubatsi bwa PureOS n'uburyo ikora bituma iba ukwiragira gutekanye cane, bikaba vyemeza ko amakuru akingwa n'ugushikama kwa sisitemu.
 
 
 
 
 
-- Ivyandiko n’umuryango ukora**: PureOS ifise inyandiko zitomoye, zishikira n’umuryango wiyemeje, wishura, bituma vyoroha gutorera umuti ingorane no kwiga ubuhinga intambwe ku yindi.
+- **Ivyandiko n'umuryango ukora**: PureOS ifise inyandiko zitomoye, zishikira n'umuryango wiyemeje, wishura, bituma vyoroha gutorera umuti ingorane no kwiga ubuhinga intambwe ku yindi.
 
 
 
@@ -181,7 +181,7 @@ Ufise uburyo bubiri bwo gucapura disiki yawe ya Hard:
 
 
 
-- Erase disk**: Kugira ngo ushiremwo PureOS yose, gukuraho amakuru yose yariho mbere kuri disiki yawe ya Hard.
+- **Erase disk**: Kugira ngo ushiremwo PureOS yose, gukuraho amakuru yose yariho mbere kuri disiki yawe ya Hard.
 
 
 
@@ -191,7 +191,7 @@ Ufise uburyo bubiri bwo gucapura disiki yawe ya Hard:
 
 
 
-- Gucapura n'amaboko** kugira ngo wikore amanota yawe bwite
+- **Gucapura n'amaboko** kugira ngo wikore amanota yawe bwite
 
 
 
@@ -269,7 +269,7 @@ Ugurure porogaramu ya **Software**, hanyuma ugende ku rubuga rwa **Ivyahinduwe**
 
 
 
-- Kuvugurura biciye ku nzira**:
+- **Kuvugurura biciye ku nzira**:
 
 
 Gufungura terminal, hanyuma winjize itegeko rikurikira kugira ngo uhindure urutonde rw'amapaki ariho:
@@ -331,9 +331,9 @@ PureOS kandi irimwo **LibreOffice** ibiro, birimwo:
 
 
 
-- Umwanditsi**: igikoresho c'amajambo yuzuye co gukora no guhindura inyandiko.
-- Calc**: porogaramu ikomeye y'urupapuro rwo gucunga amakuru yawe n'imibare yawe.
-- Impress**: igikoresho co guhingura ibiganiro vy’umwuga.
+- **Umwanditsi**: igikoresho c'amajambo yuzuye co gukora no guhindura inyandiko.
+- **Calc**: porogaramu ikomeye y'urupapuro rwo gucunga amakuru yawe n'imibare yawe.
+- **Impress**: igikoresho co guhingura ibiganiro vy'umwuga.
 
 
 

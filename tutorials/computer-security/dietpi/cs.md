@@ -28,9 +28,9 @@ Nejedná se o "obvyklý duplikát" Debianu pro malé desky typu Raspberry. DietP
 
 
 
-- Optimalizováno pro rychlost a lehkost**: [srovnání s ostatními distribucemi Debianu pro SBC](https://dietpi.com/blog/?p=888), DietPi je ve všem lehčí. Obraz ISO DietPi váží méně než 1 GB, což je zdaleka nejméně mezi těmi, které jsou určeny pro starší modely Raspberry nebo Orange PI (například). Nároky na prostředky RAM a CPU jsou velmi nízké, takže z desek, i těch starších, vždy dostane to nejlepší.
-- Vestavěné automatizace a instalátory**: Sada specializovaných příkazů pomáhá uživatelům sledovat systémové prostředky a automatizovat úlohy instalace a spouštění programů, aktualizace verzí, zálohování a kontroly všech protokolů.
-- Silná komunita zaměřená na experimenty**: [návody](https://dietpi.com/forum/c/community-tutorials/8) a projekty komunity DietPi jsou ideální pro získání inspirace softwarem, který si díky DietPi můžete nainstalovat jedním kliknutím.
+- **Optimalizováno pro rychlost a lehkost**: [srovnání s ostatními distribucemi Debianu pro SBC](https://dietpi.com/blog/?p=888), DietPi je ve všem lehčí. Obraz ISO DietPi váží méně než 1 GB, což je zdaleka nejméně mezi těmi, které jsou určeny pro starší modely Raspberry nebo Orange PI (například). Nároky na prostředky RAM a CPU jsou velmi nízké, takže z desek, i těch starších, vždy dostane to nejlepší.
+- **Vestavěné automatizace a instalátory**: Sada specializovaných příkazů pomáhá uživatelům sledovat systémové prostředky a automatizovat úlohy instalace a spouštění programů, aktualizace verzí, zálohování a kontroly všech protokolů.
+- **Silná komunita zaměřená na experimenty**: [návody](https://dietpi.com/forum/c/community-tutorials/8) a projekty komunity DietPi jsou ideální pro získání inspirace softwarem, který si díky DietPi můžete nainstalovat jedním kliknutím.
 
 
 

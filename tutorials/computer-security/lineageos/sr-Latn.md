@@ -149,8 +149,8 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-- Android Flash Tool**: Koristite zvanični Google alat [flash.android.com](https://flash.android.com) da lako vratite vaš Pixel uređaj na originalni Android iz vašeg web pregledača (potreban je Chrome/Edge)
-- Alternative**: Ručno preuzmite fabričke slike sa [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Android Flash Tool**: Koristite zvanični Google alat [flash.android.com](https://flash.android.com) da lako vratite vaš Pixel uređaj na originalni Android iz vašeg web pregledača (potreban je Chrome/Edge)
+- **Alternative**: Ručno preuzmite fabričke slike sa [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-- Pokrenite svoj uređaj barem jednom** sa originalnim stock sistemom
-- Testiraj sve funkcije**: SMS, pozivi, Wi-Fi, mobilni podaci
-- Važno**: Proverite da li možete slati/primati SMS poruke i obavljati/primati pozive (uključujući putem WiFi i 4G/5G). Ako to ne funkcioniše na osnovnom sistemu, neće raditi ni na LineageOS!
-- Nedavni uređaji**: Neki zahtevaju da se VoLTE/VoWiFi koristi barem jednom na osnovnom sistemu kako bi se omogućio IMS
+- Pokrenite svoj uređaj barem jednom **sa originalnim stock sistemom**
+- **Testiraj sve funkcije**: SMS, pozivi, Wi-Fi, mobilni podaci
+- **Važno**: Proverite da li možete slati/primati SMS poruke i obavljati/primati pozive (uključujući putem WiFi i 4G/5G). Ako to ne funkcioniše na osnovnom sistemu, neće raditi ni na LineageOS!
+- **Nedavni uređaji**: Neki zahtevaju da se VoLTE/VoWiFi koristi barem jednom na osnovnom sistemu kako bi se omogućio IMS
 
 
 
@@ -171,8 +171,8 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-- Uklonite sve Google** naloge sa svog uređaja kako biste izbegli zaštitu od vraćanja na fabrička podešavanja, koja može blokirati aktivaciju.
-- Potpuna sigurnosna kopija** : Proces će potpuno obrisati vaš telefon. Napravite rezervnu kopiju fotografija, kontakata, aplikacija i važnih fajlova
+- Uklonite sve **Google** naloge sa svog uređaja kako biste izbegli zaštitu od vraćanja na fabrička podešavanja, koja može blokirati aktivaciju.
+- **Potpuna sigurnosna kopija**: Proces će potpuno obrisati vaš telefon. Napravite rezervnu kopiju fotografija, kontakata, aplikacija i važnih fajlova
 
 
 
@@ -216,7 +216,7 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-⚠️ **Ova uputstva su specifična za LineageOS 22.2. Pratite svaki korak precizno. Ne prelazite dalje ako nešto ne uspe!
+⚠️ **Ova uputstva su specifična za LineageOS 22.2. Pratite svaki korak precizno. Ne prelazite dalje ako nešto ne uspe!**
 
 
 
@@ -249,8 +249,8 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-- Build LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Potrebne datoteke**: Preuzmite 3 potrebne datoteke sa ove stranice (biće korišćene u narednim koracima):
+- **Build LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Potrebne datoteke**: Preuzmite 3 potrebne datoteke sa ove stranice (biće korišćene u narednim koracima):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (glavni ROM)
   - dtbo.img` (particija uređajnog stabla blob)
   - `boot.img` (recovery LineageOS)
@@ -269,13 +269,13 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-⚠️ **Ovaj korak briše sve vaše podatke!
+⚠️ **Ovaj korak briše sve vaše podatke!**
 
 
 
 
 
-- Testirajte ADB konekciju**: Povežite vaš uređaj putem USB-a i testirajte komandom `adb devices` iz terminala na vašem računaru
+- **Testirajte ADB konekciju**: Povežite vaš uređaj putem USB-a i testirajte komandom `adb devices` iz terminala na vašem računaru
 
 
 
@@ -289,7 +289,7 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-- Autorizujte vezu** na vašem telefonu
+- **Autorizujte vezu** na vašem telefonu
 
 
 
@@ -303,7 +303,7 @@ Prema zvaničnim statistikama, najčešće korišćeni modeli uključuju razne u
 
 
 
-- Pokreni u režimu bootloader-a** :
+- Pokreni u režimu bootloader-a:
 
 
 ```
@@ -317,7 +317,7 @@ Ili držite **Volume Down + Power** uređaj isključen
 
 
 
-- Proveri fastboot** konekciju:
+- Proveri **fastboot** konekciju:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Otključaj bootloader** :
+- **Otključaj bootloader** :
 
 
 ```
@@ -370,7 +370,7 @@ Na uređaju koristite tastere za jačinu zvuka za navigaciju i pritisnite dugme 
 
 
 
-- Nakon automatskog ponovnog pokretanja**, ponovo omogućite USB ispravljanje grešaka u opcijama za programere
+- Nakon automatskog ponovnog pokretanja, ponovo omogućite USB ispravljanje grešaka u opcijama za programere
 
 
 
@@ -385,8 +385,8 @@ Na uređaju koristite tastere za jačinu zvuka za navigaciju i pritisnite dugme 
 
 
 
-- Ponovno pokreni bootloader**: Smanji zvuk + Napajanje
-- Flash** (zamenite `/path/to/` sa fasciklom u kojoj ste preuzeli datoteku) :
+- **Ponovno pokreni bootloader**: Smanji zvuk + Napajanje
+- **Flash** (zamenite `/path/to/` sa fasciklom u kojoj ste preuzeli datoteku) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (zameni `/path/to/` sa fasciklom gde si preuzeo datoteku) :
+- **Flash recovery** (zameni `/path/to/` sa fasciklom gde si preuzeo datoteku) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Ponovo pokreni u recovery** da proveriš
+- Ponovo pokreni u **recovery** da proveriš
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Ponovno pokretanje u recovery**: Smanjenje zvuka + Napajanje → Recovery Mode
+- **Ponovno pokretanje u recovery**: Smanjenje zvuka + Napajanje → Recovery Mode
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Factory Reset** : Ukucajte "Factory Reset" → "Format data / factory reset"
+- **Factory Reset**: Ukucajte "Factory Reset" → "Format data / factory reset"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Povratak na glavni meni**
-- Sideload LineageOS** :
+- **Povratak na glavni meni**
+- **Sideload LineageOS**:
    - Na uređaju: "Primeni ažuriranje" → "Primeni sa ADB-a"
    - Na PC-u: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reboot**: "Ponovo pokreni sistem sada"
-- Prvo pokretanje**: Može potrajati do 15 minuta
+- **Reboot**: "Ponovo pokreni sistem sada"
+- **Prvo pokretanje**: Može potrajati do 15 minuta
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Kompatibilnost firmvera**: Obavezno proverite verziju firmvera koja je potrebna na stranici za preuzimanje vašeg modela
-- Nikada ponovo ne zaključavajte** bootloader nakon instalacije LineageOS-a
-- Pratite specifična uputstva** za vaš uređaj
+- **Kompatibilnost firmvera**: Obavezno proverite verziju firmvera koja je potrebna na stranici za preuzimanje vašeg modela
+- Nikada ponovo ne zaključavajte **bootloader** nakon instalacije LineageOS-a
+- Pratite **specifična uputstva** za vaš uređaj
 
 
 
@@ -559,11 +559,11 @@ Pojednostavljen Interface, blizak osnovnom Androidu, bez Google-a. Jednostavna k
 
 
 
-- Navigacija**: Organic Maps (offline mape bazirane na OpenStreetMap)
-- Komunikacija**: Signal (end-to-end šifrovane poruke), K-9 Mail (besplatan email klijent)
-- Media**: NewPipe (bez reklama, bez praćenja YouTube), VLC (univerzalni medija plejer)
-- Produktivnost**: Nextcloud (samo-hosting cloud), Simple Calendar (CalDAV sinhronizacija)
-- Bezbednost**: Bitwarden (upravljač lozinkama), Aegis Authenticator (2FA kodovi)
+- **Navigacija**: Organic Maps (offline mape bazirane na OpenStreetMap)
+- **Komunikacija**: Signal (end-to-end šifrovane poruke), K-9 Mail (besplatan email klijent)
+- **Media**: NewPipe (bez reklama, bez praćenja YouTube), VLC (univerzalni medija plejer)
+- **Produktivnost**: Nextcloud (samo-hosting cloud), Simple Calendar (CalDAV sinhronizacija)
+- **Bezbednost**: Bitwarden (upravljač lozinkama), Aegis Authenticator (2FA kodovi)
 
 
 

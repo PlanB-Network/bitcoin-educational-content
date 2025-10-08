@@ -346,7 +346,7 @@ Entpacken Sie den Datenträger mit der Datei `.PSBT` und schließen Sie ihn offl
 
 
 
-Wählen Sie nun im Wallet airgap das Menü _Tools_, dann _Load transaction_ und anschließend From file_.
+Wählen Sie nun im Wallet airgap das Menü _Tools_, dann _Load transaction_ und anschließend _From file_.
 
 
 

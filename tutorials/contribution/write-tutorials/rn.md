@@ -119,19 +119,19 @@ Kugira ngo ushiremwo Plan ₿ Network, ufise uburyo 3 bivanye n'ubumenyi ufise k
 
 
 
-- Abakoresha bazi utuntu n’utundi**: Bandanya n’uburyo bwawe busanzwe kandi urabe gusa inyigisho ngufi iri musi ivuga mu ncamake imiterere ya dosiye y’ububiko bwa Plan ₿ Network, ibisabwa vyihariye n’uburyo bwo gukora:
+- **Abakoresha bazi utuntu n'utundi**: Bandanya n'uburyo bwawe busanzwe kandi urabe gusa inyigisho ngufi iri musi ivuga mu ncamake imiterere ya dosiye y'ububiko bwa Plan ₿ Network, ibisabwa vyihariye n'uburyo bwo gukora:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Igihugu (GitHub Desktop)**: Niba utazi gukoresha Git, uburyo bwa mbere ni ugushinga mu buryo bworoshe ibidukikije vyawe kugira ngo ushiremwo Plan ₿ Network. Ubu buryo buraremeshwa ku ntererano zihambaye, nko kwandika inyigisho yuzuye. Kugira ngo ubikore, ukurikize inyigisho intambwe ku yindi iri musi:
+- **Igihugu (GitHub Desktop)**: Niba utazi gukoresha Git, uburyo bwa mbere ni ugushinga mu buryo bworoshe ibidukikije vyawe kugira ngo ushiremwo Plan ₿ Network. Ubu buryo buraremeshwa ku ntererano zihambaye, nko kwandika inyigisho yuzuye. Kugira ngo ubikore, ukurikize inyigisho intambwe ku yindi iri musi:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Abatanguje (urubuga Interface)**: Ushobora kandi guhitamwo gukoresha urubuga rwa GitHub Interface ataco uhinduye, utabwirizwa gushinga ibidukikije vyuzuye vyo mu karere. Ubwo buryo burashobora gukoreshwa ku bijanye n’intererano ntoyi. Ariko rero, ku bijanye n’intererano zikomeye, nk’ukwongerako inyigisho nshasha yuzuye, iyo nzira yoshobora kwerekana ko igoye kuruta gushinga ahantu h’aho hantu. Nzobasigurira ingene ivyo bikorwa muri iyi nyigisho:
+- **Abatanguje (urubuga Interface)**: Ushobora kandi guhitamwo gukoresha urubuga rwa GitHub Interface ataco uhinduye, utabwirizwa gushinga ibidukikije vyuzuye vyo mu karere. Ubwo buryo burashobora gukoreshwa ku bijanye n'intererano ntoyi. Ariko rero, ku bijanye n'intererano zikomeye, nk'ukwongerako inyigisho nshasha yuzuye, iyo nzira yoshobora kwerekana ko igoye kuruta gushinga ahantu h'aho hantu. Nzobasigurira ingene ivyo bikorwa muri iyi nyigisho:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

@@ -4,7 +4,7 @@ description: Yksinkertaisin huoltajien Wallet, jolla pääsee alkuun
 ---
 ![cover](assets/cover.webp)
 
-_Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Satoshi:n Wallet:n lataaminen, käyttöönotto ja käyttö

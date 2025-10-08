@@ -8,4 +8,4 @@ term: Hashrate
 Hashrate는 채굴자 간의 경쟁을 나타내는 지표이기도 합니다. Hashrate가 높을수록 Mining 난이도가 높아져 보상 분배와 채굴자의 수익성에 영향을 미칩니다. 따라서 Bitcoin 시스템의 건전성과 보안을 나타내는 핵심 지표입니다. Hashrate가 Bitcoin 네트워크의 전체 컴퓨팅 파워를 측정하는 데 사용되는 것과 마찬가지로, 머신, Mining 농장 또는 Mining pool의 컴퓨팅 파워를 측정하는 데에도 사용할 수 있습니다.
 
 
-> 프랑스어에서는 "taux de hachage"라고 부르지만, 일상 언어에서는 "Hashrate"이라는 용어가 널리 사용됩니다.*
+> 프랑스어에서는 "taux de hachage"라고 부르지만, 일상 언어에서는 "Hashrate"이라는 용어가 널리 사용됩니다.

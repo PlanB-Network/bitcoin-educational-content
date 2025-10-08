@@ -15,7 +15,7 @@ Ivyo bibazo, n’ikindi, ni igice c’isi iguma itera umuvurungano: abahinguzi b
 
 
 
-Ivyo ni ko biri kuri **Leendert de Borst** na `Alias ​​Vault` yiwe, igikoresho c’ihinduka (ica mbere mu bwoko bwaco) kigufasha gucunga no kubika amajambo y’ibanga, gukoresha amakuru y’ibanga kugira ngo wemeze ku bikorwa vy’urubuga, gutanga ukwemeza kw’ibintu bibiri, ariko ikiruta vyose generate nyayo yose _W_alia.
+Ivyo ni ko biri kuri **Leendert de Borst** na `Alias ​​Vault` yiwe, igikoresho c'ihinduka (ica mbere mu bwoko bwaco) kigufasha gucunga no kubika amajambo y'ibanga, gukoresha amakuru y'ibanga kugira ngo wemeze ku bikorwa vy'urubuga, gutanga ukwemeza kw'ibintu bibiri, ariko ikiruta vyose generate nyayo yose **Walia**.
 
 
 
@@ -36,10 +36,10 @@ Mu nzu imwe ya Interface y'ibanga ni:
 
 
 
-- Inkomoko y'ubuntu kandi yuguruye**
-- Ijambobanga Umuyobozi**, kugira ngo ubike amajambobanga yose agoranye. Ukoresheje ukwagura umucukumbuzi, umucungerezi w'ijambobanga araheza kwinjira ku mbuga
-- 2FA**, gushigikira ivyemezo bibiri
-- Umuyobozi w'amazina y'ibanga afise server ya imeyili yinjijwe**: Alias ​​Vault ntirema amazina y'ibanga yohereza imeyili ku gasandugu k'ubutumwa k'ukoresha; ahubwo, irema alter-egos nyayo, yuzuye izina ry’imbere, izina ry’umuryango, igitsina, izina ry’ukoresha, ijambobanga, n’umusi w’amavuko (niba ayo makuru asabwa).
+- **Inkomoko y'ubuntu kandi yuguruye**
+- **Ijambobanga Umuyobozi**, kugira ngo ubike amajambobanga yose agoranye. Ukoresheje ukwagura umucukumbuzi, umucungerezi w'ijambobanga araheza kwinjira ku mbuga
+- **2FA**, gushigikira ivyemezo bibiri
+- **Umuyobozi w'amazina y'ibanga afise server ya imeyili yinjijwe**: Alias ​​Vault ntirema amazina y'ibanga yohereza imeyili ku gasandugu k'ubutumwa k'ukoresha; ahubwo, irema alter-egos nyayo, yuzuye izina ry'imbere, izina ry'umuryango, igitsina, izina ry'ukoresha, ijambobanga, n'umusi w'amavuko (niba ayo makuru asabwa).
 
 
 

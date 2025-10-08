@@ -1110,7 +1110,7 @@ Följ dessa rekommendationer för att använda **Bull Bitcoin Mobile** på ett s
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Blixten: **[1ML (Lightning Network)](https://1ml.com/)**

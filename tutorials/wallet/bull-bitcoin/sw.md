@@ -1110,7 +1110,7 @@ Ili kutumia **Bull Bitcoin Mobile** kwa usalama na kwa ustadi, fuata mapendekezo
 
 
 
-- Zuia Wachunguzi :**
+- Zuia Wachunguzi:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Maelezo ya Blockstream](https://blockstream.info/Liquid)**
  - Umeme: **[1ML (Lightning Network)](https://1ml.com/)**

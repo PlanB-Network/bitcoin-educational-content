@@ -60,7 +60,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-在主屏幕上点击 "接收**"按钮，然后设置一个大于红色指定金额的金额。在我们的例子中，使用 StashPay Wallet 收到的金额不能少于 0.11 美元。
+在主屏幕上点击 **"接收"** 按钮，然后设置一个大于红色指定金额的金额。在我们的例子中，使用 StashPay Wallet 收到的金额不能少于 0.11 美元。
 
 
 
@@ -156,7 +156,7 @@ StashPay 可让您根据自己选择的当地货币 Exchange 萨托希。点击*
 
 
 
-导出日志**菜单会列出 Breez 和 Boltz 基础设施的所有操作，这些操作涉及您的交易以及 Bitcoin 协议链之间的原子交换。
+导出日志**菜单**会列出 Breez 和 Boltz 基础设施的所有操作，这些操作涉及您的交易以及 Bitcoin 协议链之间的原子交换。
 
 
 

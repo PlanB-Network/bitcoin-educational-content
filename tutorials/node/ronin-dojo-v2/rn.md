@@ -5,7 +5,7 @@ description: Gushiramwo urudodo rwawe rwa RoninDojo v2 Bitcoin kuri Raspberry Pi
 ![cover RoninDojo v2](assets/cover.webp)
 
 
-**IMBURIZO:** Inyuma y'aho abashinze Samourai Wallet bafashwe, ama server yabo bagafatwa kw'igenekerezo rya 24 Ndamukiza, hari ibintu bimwe bimwe vyo muri RoninDojo, nka Whirlpool, bitagikora. Ariko birashoboka ko ivyo bikoresho vyosubira gukoreshwa canke bikagaruka gukoreshwa mu buryo butandukanye mu ndwi ziza. Ikindi, kubera ko kode ya RoninDojo yari yashizwe kuri GitLab ya Samourai, na yo nyene yafashwe, ubu ntibishoboka ko umuntu ayikura kure. Amashirahamwe ya RoninDojo birashoboka ko ariko arakora ku bijanye no gusubira gusohora iyo kode.*
+**IMBURIZO:** Inyuma y'aho abashinze Samourai Wallet bafashwe, ama server yabo bagafatwa kw'igenekerezo rya 24 Ndamukiza, hari ibintu bimwe bimwe vyo muri RoninDojo, nka Whirlpool, bitagikora. Ariko birashoboka ko ivyo bikoresho vyosubira gukoreshwa canke bikagaruka gukoreshwa mu buryo butandukanye mu ndwi ziza. Ikindi, kubera ko kode ya RoninDojo yari yashizwe kuri GitLab ya Samourai, na yo nyene yafashwe, ubu ntibishoboka ko umuntu ayikura kure. Amashirahamwe ya RoninDojo birashoboka ko ariko arakora ku bijanye no gusubira gusohora iyo kode.
 
 
 _Turiko turakurikirana cane iterambere ry’uru rubanza hamwe n’iterambere ryerekeye ibikoresho bijana. Nimwizere ko tuzosubiramwo iyi nyigisho uko amakuru mashasha azoboneka._
@@ -419,7 +419,7 @@ Subira wemeze ijambobanga ryawe hanyuma ukande `enter`.
 
 Uzoshika kuri dosiye `dhcpcd.conf`. Ukeneye gukopa umwandiko ukurikira, ukamenya neza ko ushiramwo akamenyetso k'inyenyeri, hanyuma ukawongerako hasi muri dosiye:
 
-`kwanka imirongo veth*`
+`kwanka imirongo veth`
 
 
 Kugira ngo ubikore, genda hasi muri dosiye ukoresheje umwampi uri hasi kuri klavye yawe, hanyuma ukoreshe gukanda iburyo kw’imbeba yawe kugira ngo ushire umwandiko ku murongo wigenga.
@@ -807,9 +807,9 @@ Raba neza ko amafaranga yose agurishwa ari ku rutonde rwiza. Ni ngombwa kandi ku
 Uretse iki gikoresho, `Maintenance` tab ya RoninUI yuzuye ibindi bikoresho vy'ingirakamaro:
 
 
-- Igikoresho co Gucuruza*: Kiremesha gusuzuma ido n’ido ry’ugucuruza;
-- Address Tool*: Iremeza kwemeza ugukurikirana kwa Address yatanzwe na Dojo yawe;
-- Rescan Blocks*: Ihatira node yawe gukora scanner nshasha y'urutonde rw'amabuye.
+- **Igikoresho co Gucuruza**: Kiremesha gusuzuma ido n'ido ry'ugucuruza;
+- **Address Tool**: Iremeza kwemeza ugukurikirana kwa Address yatanzwe na Dojo yawe;
+- **Rescan Blocks**: Ihatira node yawe gukora scanner nshasha y'urutonde rw'amabuye.
 
 
 Igipande ca `Push Tx` ni ikindi kintu gishimishije ca RoninUI, gishobora gutangaza amakuru yashizweko umukono ku rubuga rwa Bitcoin. Ivyo bicuruzwa bitegerezwa kwinjira mu buryo bw’inyuguti cumi n’itandatu.
@@ -835,4 +835,3 @@ Aho ni ho ufise! Murakoze gukurikira iyi nyigisho gushika kw’iherezo. Niba war
 - [Ikiganiro c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu.
 - [Ubumenyeshamakuru/@laurentmt/kumenyesha-boltzmann-85930984a159](ubumenyeshamakuru/@laurentmt/kumenyekanisha-boltzmann-85930984a159)
 - [wiki.ronindojo.io/ru/gutegura/V2_0_0-guhindura-umukaraba](ubutumwa bushasha/gutegura/V2_0_0-guhindura-umukaraba)
-

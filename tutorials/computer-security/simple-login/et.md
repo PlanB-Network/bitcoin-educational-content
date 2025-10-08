@@ -205,7 +205,7 @@ Simple Login'i puhul on sellel tööriistal järgmised omadused:
 
 - mobiilirakendus (samuti F-Droidilt) ja brauseripikendus, et hallata varjunimesid igas olukorras;
 - kahefaktoriline autentimine iga uue pseudonüümi puhul, mis suurendab sõltumatust teenusest endast;
-- PGP-tugi (_Premium-kasutajatele);
+- **PGP-tugi** (_Premium-kasutajatele_);
 - iga tüüpi aliase (kohandatud, juhuslik ja UUID) lihtne loomine;
 - sektori tasuta plaanide hulgas on võimalus kasutada varjunimesid rohkemate "ametlike" e-postkastidega. Teised konkurendid piirduvad vaid ühega.
 

@@ -16,11 +16,11 @@ description: Alby Go 모바일 앱 가이드
 
 
 
-- [알비 허브](https://albyhub.com/)** *(권장)*
-- 엄브렐**, **스타트9**, **라스피블리츠** (**알비 허브** 경유)
-- Coinos** *(테스트되지 않음)*
-- 원시** *(테스트되지 않음)*
-- 미니비트** *(테스트되지 않음)*
+- [알비 허브](https://albyhub.com/) **(권장)**
+- **엄브렐**, **스타트9**, **라스피블리츠** (**알비 허브** 경유)
+- **Coinos** *(테스트되지 않음)*
+- **원시** *(테스트되지 않음)*
+- **미니비트** *(테스트되지 않음)*
 
 
 대부분의 NWC 지원 서비스는 작동합니다. 새로운 서비스를 테스트하는 경우 커뮤니티에 결과를 알려주세요!
@@ -33,9 +33,9 @@ description: Alby Go 모바일 앱 가이드
 
 
 
-- iOS:** [앱스토어에서 다운로드](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [구글 플레이에서 다운로드](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [앱스토어에서 다운로드](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [구글 플레이에서 다운로드](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Alby Go로 Sats을 받으려면:
 - 🧷 지갑 추가, 제거 및 내보내기
 
 
-**💡 도움이 필요하세요?
+**💡 도움이 필요하세요?**
 
 지원 및 업데이트는 getalby.com을 방문하세요.

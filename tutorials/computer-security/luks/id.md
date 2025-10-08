@@ -153,7 +153,7 @@ Writing superblocks and filesystem accounting information:
 done
 ```
 
-**Di sini, lokasi target** ditetapkan sebagai "**/dev/mappe/usbkey1**"**, mengapa?
+**Di sini, lokasi target** ditetapkan sebagai "**/dev/mappe/usbkey1**", mengapa?
 
 "**/dev/mapper/usbkey1**" adalah "jalan pintas" yang kita berikan pada flash disk USB kita ("**/dev/mapper**" bersifat generik untuk mapping di Linux). Oleh karena itu, jalur ini menyediakan akses ke partisi kita yang telah didekripsi. Berikut adalah apa yang seharusnya Anda lihat sekarang:
 

@@ -91,7 +91,7 @@ Kugira ngo Manjaro ikore neza, mudasobwa yawe itegerezwa kuba ifise ibisabwa bik
 
 
 - Igikoresho c'ibice 64 (x86_64)
-- 4 GB RAM irasabwa (nibura 2 GB)** (raba munsi)
+- **4 GB RAM irasabwa (nibura 2 GB)** (raba munsi)
 - 30 GB y'umwanya kuri disiki (ibindi iyo uremye umugabane wihariye `/home`)
 
 
@@ -190,7 +190,7 @@ Kugira ngo ukoreshe neza, turagusavye gukora nibura ibice bitatu:
 
 - Igice ca mbere ca **516 MB** (ica mbere) ku **boot**.
 - Igipande ca kabiri **2 GB** (gihuje n'ubwenge) ku **swap**.
-- Igice ca gatatu c'amakuru yawe bwite**.
+- Igice ca gatatu c'amakuru yawe bwite.
 
 
 
@@ -219,8 +219,8 @@ Manjaro iguha uburenganzira bwo guhitamwo hagati ya **Ibiro vy'Ubuntu** na **Ibi
 
 
 
-- LibreOffice** irarushiriza kuba yuzuye, ifise ubuhinga bwinshi n'ibikoresho vy'ubuhinga buhanitse.
-- FreeOffice**, ku rundi ruhande, iraremereye kandi irimwo gusa ivy’ingenzi: **Umuhinguzi w’Inyandiko**, **Umuhinguzi w’Imigambi** na **Ivyiyumviro**.
+- **LibreOffice** irarushiriza kuba yuzuye, ifise ubuhinga bwinshi n'ibikoresho vy'ubuhinga buhanitse.
+- **FreeOffice**, ku rundi ruhande, iraremereye kandi irimwo gusa ivy'ingenzi: **Umuhinguzi w'Inyandiko**, **Umuhinguzi w'Imigambi** na **Ivyiyumviro**.
 
 
 

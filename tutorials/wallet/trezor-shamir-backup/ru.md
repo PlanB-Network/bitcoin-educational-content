@@ -34,7 +34,7 @@ description: Одноактные и многоактные фразы Mnemonic 
 
 
 
-Функция Multi-share Backup* доступна в Trezor Model T, Safe 3 и Safe 5. Эта функция не поддерживается Trezor Model One.
+Функция **Multi-share Backup** доступна в Trezor Model T, Safe 3 и Safe 5. Эта функция не поддерживается Trezor Model One.
 
 
 

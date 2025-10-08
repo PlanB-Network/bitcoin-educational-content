@@ -205,7 +205,7 @@ Simple Login -työkalulla on seuraavat ominaisuudet:
 
 - mobiilisovellus (myös F-Droidilta) ja selainlaajennus, jolla voit hallita peitenimiä kaikissa tilanteissa;
 - kahden tekijän todennus jokaiselle uudelle salanimelle, mikä lisää riippumattomuutta itse palvelusta;
-- PGP-tuki (_Premium-käyttäjille);
+- **PGP-tuki** (_Premium-käyttäjille_);
 - kaikkien alias-tyyppien (mukautettu, satunnainen ja UUID) yksinkertainen luominen;
 - alan ilmaisten suunnitelmien joukossa, mahdollisuus käyttää peitenimiä "virallisempien" sähköpostilaatikoiden kanssa. Muut kilpailijat rajoittavat vain yhteen.
 

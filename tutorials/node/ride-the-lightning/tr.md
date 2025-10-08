@@ -9,35 +9,35 @@ description: Yıldırım düğümünüzü yönetmek için Ride The Lightning (RT
 
 
 
-**Ride The Lightning (RTL)** bir Lightning Network düğümünü yönetmek için eksiksiz bir Interface web uygulamasıdır. Kendi kendine barındırılan bu web uygulaması, tarayıcınızdan erişilebilen bir Lightning** "kokpiti" sunar. RTL, tüm büyük Lightning uygulamalarıyla (LND, Core Lightning/CLN ve Eclair) çalışır ve size düğümünüz ve kanallarınız üzerinde tam kontrol sağlar. Açık kaynaklı (MIT lisansı) ve ücretsiz olan RTL, birçok anahtar teslim node çözümüne (RaspiBlitz, MyNode, Umbrel, vb.) varsayılan olarak entegre edilmiştir.
+**Ride The Lightning (RTL)** bir Lightning Network düğümünü yönetmek için eksiksiz bir Interface web uygulamasıdır. Kendi kendine barındırılan bu web uygulaması, tarayıcınızdan erişilebilen bir Lightning **"kokpiti"** sunar. RTL, tüm büyük Lightning uygulamalarıyla (LND, Core Lightning/CLN ve Eclair) çalışır ve size düğümünüz ve kanallarınız üzerinde tam kontrol sağlar. Açık kaynaklı (MIT lisansı) ve ücretsiz olan RTL, birçok anahtar teslim node çözümüne (RaspiBlitz, MyNode, Umbrel, vb.) varsayılan olarak entegre edilmiştir.
 
 
 
-**Grafiksel bir Interface olmadan, Lightning düğümleri yalnızca kullanıcı dostu CLI komutları ile yönetilebilir. RTL bu işlemleri ergonomik bir Interface ile basitleştirir. İşte **ana uygulamalar**:
-
-
-
-
-
-- Kanallarınızı ve düğümünüzü görüntüleyin** - Kontrol panelinde On-Chain bakiyesi, Lightning likiditesi (yerel/uzaktan), senkronizasyon durumu, düğüm takma adı ve daha fazlası görüntülenir. Kanal listenizi, kapasitenizi, yerel/uzaktan dağıtımınızı ve durumunuzu görüntüleyebilirsiniz. RTL, etkinliği farklı açılardan analiz etmek için içeriğe duyarlı gösterge tabloları sunar.
+**Grafiksel bir Interface olmadan, Lightning düğümleri yalnızca kullanıcı dostu CLI komutları ile yönetilebilir. RTL bu işlemleri ergonomik bir Interface ile basitleştirir. İşte ana uygulamalar:**
 
 
 
 
 
-- Lightning kanal yönetimi** - Birkaç tıklama ile kanalları açın/kapatın. RTL, bir eşe bağlanmanızı ve komut vermeden bir kanal açmanızı sağlar. Yönlendirme ücretlerini ayarlayabilir, bakiye puanını görüntüleyebilir veya kanallar arasında fonları yeniden dengelemek için döngüsel bir yeniden dengeleme başlatabilirsiniz.
+- **Kanallarınızı ve düğümünüzü görüntüleyin** - Kontrol panelinde On-Chain bakiyesi, Lightning likiditesi (yerel/uzaktan), senkronizasyon durumu, düğüm takma adı ve daha fazlası görüntülenir. Kanal listenizi, kapasitenizi, yerel/uzaktan dağıtımınızı ve durumunuzu görüntüleyebilirsiniz. RTL, etkinliği farklı açılardan analiz etmek için içeriğe duyarlı gösterge tabloları sunar.
 
 
 
 
 
-- Ödemeleri takip edin ve yapın** - RTL, Lightning işlemlerini yönetir: ödemeleri faturalar aracılığıyla gönderin, generate faturaları alın, işlemleri (ödemeler, yönlendirme) ayrıntılı geçmişle takip edin. Interface ayrıca hangi ödemelerin düğümünüzden geçtiğini görmek için yönlendirmeyi analiz eder.
+- **Lightning kanal yönetimi** - Birkaç tıklama ile kanalları açın/kapatın. RTL, bir eşe bağlanmanızı ve komut vermeden bir kanal açmanızı sağlar. Yönlendirme ücretlerini ayarlayabilir, bakiye puanını görüntüleyebilir veya kanallar arasında fonları yeniden dengelemek için döngüsel bir yeniden dengeleme başlatabilirsiniz.
 
 
 
 
 
-- Wallet On-Chain yönetimi ve yedekleme** - On-Chain sekmesi generate adreslerini ve gönderme işlemlerini yapmanızı sağlar. RTL, her kanal değişikliği için otomatik güncelleme ile LND için SCB dosyasını dışa aktararak kanalları kaydetmeyi kolaylaştırır.
+- **Ödemeleri takip edin ve yapın** - RTL, Lightning işlemlerini yönetir: ödemeleri faturalar aracılığıyla gönderin, faturalar generate edin, işlemleri (ödemeler, yönlendirme) ayrıntılı geçmişle takip edin. Interface ayrıca hangi ödemelerin düğümünüzden geçtiğini görmek için yönlendirmeyi analiz eder.
+
+
+
+
+
+- **Wallet On-Chain yönetimi ve yedekleme** - On-Chain sekmesi generate adreslerini ve gönderme işlemlerini yapmanızı sağlar. RTL, her kanal değişikliği için otomatik güncelleme ile LND için SCB dosyasını dışa aktararak kanalları kaydetmeyi kolaylaştırır.
 
 
 
@@ -63,19 +63,19 @@ Kısacası, RTL, Lightning Network** için **güçlü bir gösterge tablosudur v
 
 
 
-- LND** ile RTL, Lightning komutlarını yürütmek için LND'ün REST API'sini (port 8080) kullanır. Bağlantı TLS ile güvence altına alınmıştır ve kimlik doğrulama için LND'ün **admin macaroon** dosyasını gerektirir.
+- **LND** ile RTL, Lightning komutlarını yürütmek için LND'ün REST API'sini (port 8080) kullanır. Bağlantı TLS ile güvence altına alınmıştır ve kimlik doğrulama için LND'ün **admin macaroon** dosyasını gerektirir.
 
 
 
 
 
-- Çekirdek Lightning (CLN)** ile RTL, *c-lightning-REST* tarafından sağlanan REST API'sini ya da `commando` eklentisi aracılığıyla bir **erişim rune** kullanır. Umbrel gibi çözümler bu Elements'i otomatik olarak yapılandırır.
+- **Çekirdek Lightning (CLN)** ile RTL, *c-lightning-REST* tarafından sağlanan REST API'sini ya da `commando` eklentisi aracılığıyla bir **erişim rune** kullanır. Umbrel gibi çözümler bu elementleri otomatik olarak yapılandırır.
 
 
 
 
 
-- Eclair** ile RTL, yapılandırılmış kimlik doğrulama parolasını kullanarak Eclair REST API'sine bağlanır.
+- **Eclair** ile RTL, yapılandırılmış kimlik doğrulama parolasını kullanarak Eclair REST API'sine bağlanır.
 
 
 
@@ -142,9 +142,9 @@ Bu komut gerekli NPM paketlerini yükler (geliştirme bağımlılıklarını gö
 
 
 
-   - UI parolası**: güvenli bir parola seçin ve `multiPass` içine girin (varsayılan `"parola"` yerine).
-   - Port**: varsayılan `3000`. Makinenizde bu bağlantı noktası zaten alınmışsa değiştirebilirsiniz.
-   - Node**: `nodes[0]` bölümünde node'unuz için parametreleri ayarlayın:
+- **UI parolası**: güvenli bir parola seçin ve `multiPass` içine girin (varsayılan `"parola"` yerine).
+- **Port**: varsayılan `3000`. Makinenizde bu bağlantı noktası zaten alınmışsa değiştirebilirsiniz.
+- **Node**: `nodes[0]` bölümünde node'unuz için parametreleri ayarlayın:
      - `lnNode`: düğümünüz için açıklayıcı bir ad (örneğin `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (veya uygun şekilde `"CLN"`/`"ECL"`).
      - Kimlik doğrulama' altında:
@@ -260,7 +260,7 @@ Umbrel](https://getumbrel.com) kullanıyorsanız, RTL kurulumu çok daha basitti
 
 
 - Interface Umbrel'e erişim (genellikle `http://umbrel.local` üzerinden)
-- Uygulama Mağazasına** gidin
+- **Uygulama Mağazasına** gidin
 - "Ride The Lightning" için arama yapın
 
 
@@ -270,8 +270,8 @@ Umbrel](https://getumbrel.com) kullanıyorsanız, RTL kurulumu çok daha basitti
 
 
 
-- Ride The Lightning** (LND için): Umbrel'in varsayılan Lightning düğümü (LND) ile kullanım içindir.
-- Ride The Lightning (Core Lightning)**: yalnızca Umbrel'e *Core Lightning* uygulamasını yüklediyseniz ve bu düğümü RTL ile yönetmek istiyorsanız kullanın.
+- **Ride The Lightning** (LND için): Umbrel'in varsayılan Lightning düğümü (LND) ile kullanım içindir.
+- **Ride The Lightning (Core Lightning)**: yalnızca Umbrel'e *Core Lightning* uygulamasını yüklediyseniz ve bu düğümü RTL ile yönetmek istiyorsanız kullanın.
 
 
 
@@ -285,7 +285,7 @@ Umbrel](https://getumbrel.com) kullanıyorsanız, RTL kurulumu çok daha basitti
 
 
 
-- Yükle** üzerine tıklayın
+- **Yükle** üzerine tıklayın
 
 
 
@@ -357,7 +357,7 @@ Oturum açar açmaz, Lightning düğümünüze genel bir bakış sağlayan **ana
 
 
 
-On-Chain** sekmesi, bitcoinlerinizi doğrudan ana zincir üzerinde yönetmenizi sağlar:
+**On-Chain** sekmesi, bitcoinlerinizi doğrudan ana zincir üzerinde yönetmenizi sağlar:
 
 
 
@@ -575,7 +575,7 @@ Bu iki mekanizma, Lightning kanalı likiditesinin verimli bir şekilde yönetilm
 
 
 
-Düğüm Yapılandırması** sekmesi deneyiminizi özelleştirmenizi sağlar:
+**Düğüm Yapılandırması** sekmesi deneyiminizi özelleştirmenizi sağlar:
 
 
 
@@ -639,9 +639,9 @@ RTL'yi asla doğrudan internette ifşa etmeyin. Şunları tercih edin :
 
 
 
-- Özel, şifreli erişim için VPN** (örn. Tailscale)
-- Güvenli, anonim erişim için Tor**
-- Ters proxy HTTPS** (Nginx/Caddy) yalnızca nasıl yapılandırılacağını biliyorsanız
+- Özel, şifreli erişim için **VPN** (örn. Tailscale)
+- Güvenli, anonim erişim için **Tor**
+- **Ters proxy HTTPS** (Nginx/Caddy) yalnızca nasıl yapılandırılacağını biliyorsanız
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Erişiminizi koruyun**: admin.macaroon veya RTL şifrenizi asla paylaşmayın. Hassas dosyalar üzerindeki izinleri sınırlayın.
-- Düzenli yedeklemeler**: her değişiklikten sonra kanal yedekleme dosyasını (SCB) dışa aktarın ve düğümün dışında saklayın.
-- Güncellemeler**: RTL'yi, düğümünüzü ve Umbrel'i en son güvenlik düzeltmeleriyle güncel tutun.
-- Gizlilik**: günlükleri ve ekran görüntülerini paylaşmadan önce anonimleştirin. Bakiyelerinizi veya eş listelerinizi asla herkese açık olarak paylaşmayın.
-- Tek erişim**: RTL çok kullanıcılı değildir. Yönetici erişimini paylaşmayın. Salt okunur erişim için gerekirse özel bir makaron kullanın.
+- **Erişiminizi koruyun**: admin.macaroon veya RTL şifrenizi asla paylaşmayın. Hassas dosyalar üzerindeki izinleri sınırlayın.
+- **Düzenli yedeklemeler**: her değişiklikten sonra kanal yedekleme dosyasını (SCB) dışa aktarın ve düğümün dışında saklayın.
+- **Güncellemeler**: RTL'yi, düğümünüzü ve Umbrel'i en son güvenlik düzeltmeleriyle güncel tutun.
+- **Gizlilik**: günlükleri ve ekran görüntülerini paylaşmadan önce anonimleştirin. Bakiyelerinizi veya eş listelerinizi asla herkese açık olarak paylaşmayın.
+- **Tek erişim**: RTL çok kullanıcılı değildir. Yönetici erişimini paylaşmayın. Salt okunur erişim için gerekirse özel bir makaron kullanın.
 
 
 
@@ -684,10 +684,10 @@ Daha fazlasını öğrenmek için :
 
 - Resmi RTL web sitesi: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Teknik tartışmalar, proje duyuruları, geri bildirim ve eğitim kaynakları
-- Umbrel Topluluk Forumu**: [community.getumbrel.com](https://community.getumbrel.com) - Özel Bitcoin/Lightning bölümü, kılavuzlar ve yaygın sorunlara çözümler içeren resmi forum
-- Lightning Network Geliştiricileri**: [github.com/lightning](https://github.com/lightning) - Geliştirmeyi takip etmek ve kaynak koduna katkıda bulunmak için resmi GitHub deposu
-- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Geliştiriciler ve ileri düzey kullanıcılar ile Teknik Soru-Cevap
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Teknik tartışmalar, proje duyuruları, geri bildirim ve eğitim kaynakları
+- **Umbrel Topluluk Forumu**: [community.getumbrel.com](https://community.getumbrel.com) - Özel Bitcoin/Lightning bölümü, kılavuzlar ve yaygın sorunlara çözümler içeren resmi forum
+- **Lightning Network Geliştiricileri**: [github.com/lightning](https://github.com/lightning) - Geliştirmeyi takip etmek ve kaynak koduna katkıda bulunmak için resmi GitHub deposu
+- **Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Geliştiriciler ve ileri düzey kullanıcılar ile Teknik Soru-Cevap
 
 
 

@@ -8,10 +8,10 @@ description: Inzicht in en gebruik van Stonewall-transacties
 ***WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, vereist het gebruik van de Samourai Wallet app nu een verbinding met je eigen Dojo om goed te functioneren. Afgezien hiervan worden Stonewall-transacties helemaal niet beïnvloed en kunnen ze nog steeds zonder problemen worden uitgevoerd. Dit soort transacties worden namelijk autonoom uitgevoerd, zonder de noodzaak voor externe samenwerking of verbinding via Soroban.*
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
+we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is.
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
+deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied.
 
 
 ---

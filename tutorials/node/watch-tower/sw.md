@@ -33,7 +33,7 @@ Katika somo hili, tutaangalia njia 3 za kutumia **Watchtower** :
 
 
 
-*Mafunzo haya yamechukuliwa kutoka [hati rasmi ya LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Baadhi ya mabadiliko yanaweza kuwa yamefanywa kwa toleo asili
+*Mafunzo haya yamechukuliwa kutoka [hati rasmi ya LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Baadhi ya mabadiliko yanaweza kuwa yamefanywa kwa toleo asili.*
 
 
 
@@ -53,7 +53,7 @@ Kumbuka kuwa tumechagua kutumia katika toleo hili seti ndogo ya vipengele ambavy
 
 
 
-kumbuka: kwa sasa, minara ya ulinzi huhifadhi tu matokeo ya `kwa_ndani` na `kwa_mbali` ya ahadi zilizobatilishwa; kuokoa pato la HTLC kutatumiwa katika toleo la baadaye, kwa kuwa itifaki inaweza kupanuliwa ili kujumuisha data ya ziada ya sahihi katika vitone vilivyosimbwa._
+kumbuka: kwa sasa, minara ya ulinzi huhifadhi tu matokeo ya `kwa_ndani` na `kwa_mbali` ya ahadi zilizobatilishwa; kuokoa pato la HTLC kutatumiwa katika toleo la baadaye, kwa kuwa itifaki inaweza kupanuliwa ili kujumuisha data ya ziada ya sahihi katika vitone vilivyosimbwa.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-kumbuka: ufunguo wa umma wa Watchtower ni tofauti na ufunguo wa umma wa nodi ya `LND`. Kwa sasa, inafanya kazi kama "orodha ya walioidhinishwa ya Soft", kwa vile wateja wanahitaji kujua ufunguo wa umma wa Watchtower ili kuutumia kama hifadhi rudufu, ikisubiri mbinu za juu zaidi za uidhinishaji. Tunapendekeza USIFUNGE ufunguo huu wa umma kwa uwazi, isipokuwa kama uko tayari kufichua Watchtower yako kwenye Mtandao mzima._
+**kumbuka**: ufunguo wa umma wa Watchtower ni tofauti na ufunguo wa umma wa nodi ya `LND`. Kwa sasa, inafanya kazi kama "orodha ya walioidhinishwa ya Soft", kwa vile wateja wanahitaji kujua ufunguo wa umma wa Watchtower ili kuutumia kama hifadhi rudufu, ikisubiri mbinu za juu zaidi za uidhinishaji. Tunapendekeza **USIFUNGE** ufunguo huu wa umma kwa uwazi, isipokuwa kama uko tayari kufichua Watchtower yako kwenye Mtandao mzima.
 
 
 
@@ -337,13 +337,13 @@ Jicho la Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) ni Umem
 
 
 
-- teos**: inajumuisha mstari wa amri Interface (CLI) na vipengele muhimu vya seva vya Watchtower. Pembe mbili - **teosd** na **teos-CLI** - hutolewa wakati _crate_ hii inapokusanywa.
+- **teos**: inajumuisha mstari wa amri Interface (CLI) na vipengele muhimu vya seva vya Watchtower. Pembe mbili - **teosd** na **teos-CLI** - hutolewa wakati **crate** hii inapokusanywa.
 
 
 
 
 
-- teos-common**: inajumuisha utendakazi wa upande wa seva na upande wa mteja (muhimu kwa kuunda mteja).
+- **teos-common**: inajumuisha utendakazi wa upande wa seva na upande wa mteja (muhimu kwa kuunda mteja).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- seva**: kwa maombi ya RPC
+- **seva**: kwa maombi ya RPC
 
 
 
 
 
-- rpcuser** na **rpcpassword**: thibitisha wateja wa RPC kwa seva
+- **rpcuser** na **rpcpassword**: thibitisha wateja wa RPC kwa seva
 
 
 
 
 
-- regtest**: haihitajiki, lakini ni muhimu ikiwa unapanga maendeleo.
+- **regtest**: haihitajiki, lakini ni muhimu ikiwa unapanga maendeleo.
 
 
 
@@ -489,13 +489,13 @@ Katika menyu ya "**Watchtower**", chaguzi mbili zinapatikana:
 
 
 
-- Huduma ya Watchtower**: chaguo hili hukuwezesha kutumia Watchtower, yaani, huduma inayofuatilia njia za nodi nyingine ili kugundua ulaghai wowote uliojaribiwa. Katika tukio la ukiukaji, Watchtower yako itachapisha muamala kwenye Blockchain, ili kuwawezesha watumiaji kurejesha pesa zao walizofunga. Mara baada ya kuanzishwa, URI yako ya Watchtower inaonekana na inaweza kuwasilishwa kwa nodi nyingine ili waweze kuiongeza kwa mteja wao wa Watchtower;
+- **Huduma ya Watchtower**: chaguo hili hukuwezesha kutumia Watchtower, yaani, huduma inayofuatilia njia za nodi nyingine ili kugundua ulaghai wowote uliojaribiwa. Katika tukio la ukiukaji, Watchtower yako itachapisha muamala kwenye Blockchain, ili kuwawezesha watumiaji kurejesha pesa zao walizofunga. Mara baada ya kuanzishwa, URI yako ya Watchtower inaonekana na inaweza kuwasilishwa kwa nodi nyingine ili waweze kuiongeza kwa mteja wao wa Watchtower;
 
 
 
 
 
-- Mteja wa Watchtower**: chaguo hili hukuwezesha kuunganisha kwenye minara ya nje ili kulinda chaneli zako mwenyewe. Mara baada ya kuanzishwa, unaweza kuongeza huduma za Watchtower ambazo nodi yako itasambaza taarifa muhimu kuhusu njia zake. Walinzi hawa watafuatilia hali yao na kuingilia kati katika tukio la jaribio la ulaghai.
+- **Mteja wa Watchtower**: chaguo hili hukuwezesha kuunganisha kwenye minara ya nje ili kulinda chaneli zako mwenyewe. Mara baada ya kuanzishwa, unaweza kuongeza huduma za Watchtower ambazo nodi yako itasambaza taarifa muhimu kuhusu njia zake. Walinzi hawa watafuatilia hali yao na kuingilia kati katika tukio la jaribio la ulaghai.
 
 
 

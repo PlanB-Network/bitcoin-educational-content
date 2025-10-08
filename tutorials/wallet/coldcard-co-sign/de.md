@@ -15,7 +15,7 @@ description: Entdecken Sie die Co-Sign-Funktion und nutzen Sie sie auf Ihrer COL
 
 
 
-**Warum ColdCard Co-Sign?
+**Warum ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Ausgabenbedingungen können zum Beispiel sein:
 
 
 
-- Betragsbegrenzungen**: Begrenzen Sie die Menge der Bitcoins, die Sie in einer einzigen Transaktion ausgeben können.
-- Geschwindigkeitsbeschränkungen:** entscheiden, wie viele Transaktionen Sie pro Zeiteinheit (pro Stunde, Tag, Woche usw.) durchführen können, wobei eine Mindestanzahl von Blöcken zwischen den Transaktionen erforderlich ist.
-- Vorab genehmigte Adressen:** Lassen Sie nur Bitcoins zu, die an vorab genehmigte Adressen gesendet werden.
-- Zwei-Faktor-Authentifizierung:** Erfordert die Bestätigung durch eine mobile 2FA-Anwendung eines Drittanbieters (TOTP [RFC 6238] (https://www.rfc-editor.org/rfc/rfc6238)) auf einem NFC-fähigen Smartphone/Tablet mit Internetzugang.
+- **Betragsbegrenzungen**: Begrenzen Sie die Menge der Bitcoins, die Sie in einer einzigen Transaktion ausgeben können.
+- **Geschwindigkeitsbeschränkungen:** entscheiden, wie viele Transaktionen Sie pro Zeiteinheit (pro Stunde, Tag, Woche usw.) durchführen können, wobei eine Mindestanzahl von Blöcken zwischen den Transaktionen erforderlich ist.
+- **Vorab genehmigte Adressen:** Lassen Sie nur Bitcoins zu, die an vorab genehmigte Adressen gesendet werden.
+- **Zwei-Faktor-Authentifizierung:** Erfordert die Bestätigung durch eine mobile 2FA-Anwendung eines Drittanbieters (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) auf einem NFC-fähigen Smartphone/Tablet mit Internetzugang.
 
 
 
-**Wie es funktioniert
+**Wie es funktioniert**
 
 
 
@@ -61,7 +61,7 @@ Wenn Sie auf diese Ausgabenbedingungen verzichten möchten, können Sie dies tun
 
 
 - indem Sie mit einer der Ersatztasten und der seed-Hand unterschreiben, oder mit 2 Ersatztasten, je nach Größe Ihres Multisig.
-- durch Eingabe des "Ausgaberegelungsschlüssels" oder des "C-Schlüssels" im Menü "Mitunterzeichnung". **Letztere kann nicht direkt am Gerät abgefragt werden, da sonst jeder die konfigurierten Ausgabenbedingungen aufheben könnte
+- durch Eingabe des "Ausgaberegelungsschlüssels" oder des "C-Schlüssels" im Menü "Mitunterzeichnung". **Letztere kann nicht direkt am Gerät abgefragt werden, da sonst jeder die konfigurierten Ausgabenbedingungen aufheben könnte.**
 
 
 
@@ -647,7 +647,7 @@ Ihre ColdcardQ zeigt dann eine Warnung an, die beim Scrollen zum unteren Rand de
 
 
 
-**Beachten Sie, dass das Gerät nicht angibt, welche Ausgabenbedingungen gelten, um zu verhindern, dass ein potenzieller Angreifer versucht, die Beschränkungen zu umgehen
+**Beachten Sie, dass das Gerät nicht angibt, welche Ausgabenbedingungen gelten, um zu verhindern, dass ein potenzieller Angreifer versucht, die Beschränkungen zu umgehen**
 
 
 

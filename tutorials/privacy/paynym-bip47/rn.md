@@ -164,7 +164,7 @@ Kode y'ukwishyura ikora nk'ikimenyetso c'ukuri, kiva kuri Wallet seed. Mu ntumbe
 Intumbero yayo y'ugukomoka ni 47' (0x8000002F) mu bijanye na BIP47. Nk'akarorero, inzira y'ugukomoka kuri kode y'ukwishura yosubira gukoreshwa yoba: ** m/47'/0'/0'/**
 
 
-Kugira ngo mubone iciyumviro c’ingene kode yo kwishura isa, ng’iyi iyanje: **PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ21UVRKU5
+Kugira ngo mubone iciyumviro c'ingene kode yo kwishura isa, ng'iyi iyanje: **PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ21UVRKU5**
 
 
 Ishobora kandi gushirwamwo kode ya QR kugira ngo umuntu ashobore guhanahana amakuru:
@@ -316,7 +316,7 @@ Aha niho hari igishushanyo c’icumi na gatandatu c’itegeko ryanje ryo kwishur
 Igikurikira, urakeneye kandi kwongerako byte y'intango "P" kugira ngo umenye ningoga ko turiko turakorana na kode yo kwishura. Iyi byte ni 0x47.
 
 
-**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c4. 70c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000000000000000000000000
+**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c4. 70c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000000000000000000000000**
 
 
 Ubwa nyuma, turaharura umubare w’igenzura ry’iyi kode y’ukwishyura dukoresheje HASH256, bisobanura gukora hashing kabiri n’igikorwa ca SHA256. Turakura ama bytes ane ya mbere y’iyi digest tukayafatanya ku mpera (mu rangi y’umutuku).
@@ -328,7 +328,7 @@ Ubwa nyuma, turaharura umubare w’igenzura ry’iyi kode y’ukwishyura dukores
 Kode yo kwishura irateguye, ubu dukeneye gusa kuyihindura ngo ibe Base 58:
 
 
-**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ21UVRKU5
+**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ21UVRKU5**
 
 
 Nk'uko ushobora kubibona, iyi nyubakwa isa cane n'imiterere y'urufunguzo rwa bose rwagutse rw'ubwoko "xpub".
@@ -773,7 +773,7 @@ Kugira ngo dutahure neza ingene ikora, cane cane ikoreshwa rya OP_RETURN, reka t
 244.0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e
 
 
-txid: **
+txid:
 
 
 ![BIP47 Notification Transaction](assets/17.webp)
@@ -801,7 +801,7 @@ Igishimishije cane kwiga ni igisohoka 0 hakoreshejwe OP_RETURN. Reka twihweze ne
 Inguzanyo: https://ububiko.amakuru/
 
 
-Turabona inyandiko y'icumi na gatandatu y'igisohoka: **6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e8. 8f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Turabona inyandiko y'icumi na gatandatu y'igisohoka: **6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e8. 8f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000**
 
 
 Muri iyi nyandiko, turashobora gucapura ibice vyinshi:
@@ -815,7 +815,7 @@ Inyuma y’aho haza kode yo kwishura iri kumwe n’umuzigo w’amahera washizwem
 Akira kode yanje yo kwishura ikoreshwa muri iyi nzira:
 
 
-Mu rwego rwa 58: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQTUGZUGM2GM
+Mu rwego rwa 58: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQTUGZUGM2GM**
 
 
 Mu rwego rwa 16 (HEX): **4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a50493103cc42kwongerako94881210d6e 752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc00000000000000000000000008604e4db**

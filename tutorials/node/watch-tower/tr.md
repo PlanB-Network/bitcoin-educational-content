@@ -33,7 +33,7 @@ Bu eğitimde, bir **Watchtower** kullanmanın 3 yolunu inceleyeceğiz:
 
 
 
-*Bu eğitim [resmi LND belgelerinden] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) alınmıştır. Orijinal sürümde bazı değişiklikler yapılmış olabilir
+*Bu eğitim [resmi LND belgelerinden](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) alınmıştır. Orijinal sürümde bazı değişiklikler yapılmış olabilir.*
 
 
 
@@ -53,7 +53,7 @@ Bu sürümde, `LND` kullanıcıları için zaten önemli güvenlik sağlayan sı
 
 
 
-not: şu an için, gözetleme kuleleri iptal edilen taahhütlerin yalnızca `to_local` ve `to_remote` çıktılarını kaydetmektedir; protokol şifrelenmiş bloblarda ek imza verilerini içerecek şekilde genişletilebileceğinden, HTLC çıktısının kaydedilmesi gelecekteki bir sürümde devreye alınacaktır._
+not: şu an için, gözetleme kuleleri iptal edilen taahhütlerin yalnızca `to_local` ve `to_remote` çıktılarını kaydetmektedir; protokol şifrelenmiş bloblarda ek imza verilerini içerecek şekilde genişletilebileceğinden, HTLC çıktısının kaydedilmesi gelecekteki bir sürümde devreye alınacaktır.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-not: Watchtower açık anahtarı `LND` düğümünün açık anahtarından farklıdır. Şimdilik, müşterilerin Watchtower'ın açık anahtarını yedek olarak kullanmak için bilmeleri gerektiğinden, daha gelişmiş beyaz liste mekanizmalarını beklerken bir "Soft beyaz listesi" görevi görür. Watchtower'ınızı tüm internete ifşa etmeye hazır değilseniz, bu açık anahtarı açıkça ifşa ETMEMENİZİ öneririz._
+not: Watchtower açık anahtarı `LND` düğümünün açık anahtarından farklıdır. Şimdilik, müşterilerin Watchtower'ın açık anahtarını yedek olarak kullanmak için bilmeleri gerektiğinden, daha gelişmiş beyaz liste mekanizmalarını beklerken bir "Soft beyaz listesi" görevi görür. Watchtower'ınızı tüm internete ifşa etmeye hazır değilseniz, bu açık anahtarı açıkça ifşa **ETMEMENİZİ** öneririz.
 
 
 
@@ -337,13 +337,13 @@ Satoshi'ün Gözü ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)), [Bol
 
 
 
-- teos**: bir komut satırı Interface (CLI) ve Watchtower'nin temel sunucu özelliklerini içerir. Bu _crate_ derlendiğinde iki ikili dosya - **teosd** ve **teos-CLI** - üretilir.
+- **teos**: bir komut satırı Interface (CLI) ve Watchtower'nin temel sunucu özelliklerini içerir. Bu _crate_ derlendiğinde iki ikili dosya - **teosd** ve **teos-CLI** - üretilir.
 
 
 
 
 
-- teos-common**: paylaşılan sunucu tarafı ve istemci tarafı işlevselliğini içerir (bir istemci oluşturmak için kullanışlıdır).
+- **teos-common**: paylaşılan sunucu tarafı ve istemci tarafı işlevselliğini içerir (bir istemci oluşturmak için kullanışlıdır).
 
 
 
@@ -377,23 +377,23 @@ regtest=1
 
 
 
-- sunucu**: RPC istekleri için
+- **sunucu**: RPC istekleri için
 
 
 
 
 
-- rpcuser** ve **rpcpassword**: RPC istemcilerinin sunucuya kimlik doğrulamasını yapar
+- **rpcuser** ve **rpcpassword**: RPC istemcilerinin sunucuya kimlik doğrulamasını yapar
 
 
 
 
 
-- regtest**: gerekli değildir, ancak geliştirme planlıyorsanız yararlıdır.
+- **regtest**: gerekli değildir, ancak geliştirme planlıyorsanız yararlıdır.
 
 
 
-Rpcuser** ve **rpcpassword** değerleri sizin tarafınızdan seçilmelidir. Tırnak işareti olmadan yazılmalıdırlar. Örneğin:
+**Rpcuser** ve **rpcpassword** değerleri sizin tarafınızdan seçilmelidir. Tırnak işareti olmadan yazılmalıdırlar. Örneğin:
 
 
 
@@ -450,7 +450,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-Regtest** kullandığımız için, diğer ağlarda (Mainnet veya Testnet gibi) görülen ortalama 10 dakikalık gecikmeyi beklemek zorunda kalmadan bir RPC komutu vererek Miner blokları oluşturabiliriz. Miner bloklarının nasıl yapılacağına ilişkin ayrıntılar için **bitcoin-cli** yardımına bakın.
+**Regtest** kullandığımız için, diğer ağlarda (Mainnet veya Testnet gibi) görülen ortalama 10 dakikalık gecikmeyi beklemek zorunda kalmadan bir RPC komutu vererek Miner blokları oluşturabiliriz. Miner bloklarının nasıl yapılacağına ilişkin ayrıntılar için **bitcoin-cli** yardımına bakın.
 
 
 
@@ -489,13 +489,13 @@ Interface'nin sağ üst köşesindeki üç küçük noktaya tıklayın ve ardın
 
 
 
-- Watchtower Hizmeti**: bu seçenek bir Watchtower, yani herhangi bir dolandırıcılık girişimini tespit etmek için diğer düğümlerin kanallarını izleyen bir hizmet çalıştırmanıza olanak tanır. Bir ihlal durumunda, Watchtower'iniz Blockchain'te bir işlem yayınlayarak kullanıcıların kilitli fonlarını kurtarmalarını sağlar. Etkinleştirildikten sonra, Watchtower'inizin URI'si görünür ve Watchtower istemcilerine ekleyebilmeleri için diğer düğümlere iletilebilir;
+- **Watchtower Hizmeti**: bu seçenek bir Watchtower, yani herhangi bir dolandırıcılık girişimini tespit etmek için diğer düğümlerin kanallarını izleyen bir hizmet çalıştırmanıza olanak tanır. Bir ihlal durumunda, Watchtower'iniz Blockchain'te bir işlem yayınlayarak kullanıcıların kilitli fonlarını kurtarmalarını sağlar. Etkinleştirildikten sonra, Watchtower'inizin URI'si görünür ve Watchtower istemcilerine ekleyebilmeleri için diğer düğümlere iletilebilir;
 
 
 
 
 
-- Watchtower İstemcisi**: bu seçenek kendi kanallarınızı korumak için harici gözetleme kulelerine bağlanmanızı sağlar. Etkinleştirildikten sonra, düğümünüzün kanalları hakkında gerekli bilgileri ileteceği Watchtower hizmetleri ekleyebilirsiniz. Bu gözetleme kuleleri daha sonra durumlarını izleyecek ve dolandırıcılık girişimi durumunda müdahale edecektir.
+- **Watchtower İstemcisi**: bu seçenek kendi kanallarınızı korumak için harici gözetleme kulelerine bağlanmanızı sağlar. Etkinleştirildikten sonra, düğümünüzün kanalları hakkında gerekli bilgileri ileteceği Watchtower hizmetleri ekleyebilirsiniz. Bu gözetleme kuleleri daha sonra durumlarını izleyecek ve dolandırıcılık girişimi durumunda müdahale edecektir.
 
 
 

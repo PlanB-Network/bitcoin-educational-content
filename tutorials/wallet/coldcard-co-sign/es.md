@@ -15,7 +15,7 @@ description: Descubra la función Co-Firma y utilícela en su COLDCARD
 
 
 
-**¿Por qué ColdCard Co-Sign?
+**¿Por qué ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Las condiciones de gasto pueden ser, por ejemplo:
 
 
 
-- Límites de magnitud**: limita la cantidad de bitcoins que puedes gastar en una sola transacción.
-- Límites de velocidad:** decide cuántas transacciones puedes realizar por unidad de tiempo (por hora, día, semana, etc.), requiriendo un número mínimo de bloques entre ellas.
-- Direcciones pre-aprobadas:** Sólo permite el envío de bitcoins a direcciones pre-aprobadas.
-- Autenticación de dos factores:** Requiere confirmación desde una aplicación móvil 2FA de terceros (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) en un smartphone/tableta con NFC y acceso a Internet.
+- **Límites de magnitud**: limita la cantidad de bitcoins que puedes gastar en una sola transacción.
+- **Límites de velocidad:** decide cuántas transacciones puedes realizar por unidad de tiempo (por hora, día, semana, etc.), requiriendo un número mínimo de bloques entre ellas.
+- **Direcciones pre-aprobadas:** Sólo permite el envío de bitcoins a direcciones pre-aprobadas.
+- **Autenticación de dos factores:** Requiere confirmación desde una aplicación móvil 2FA de terceros (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) en un smartphone/tableta con NFC y acceso a Internet.
 
 
 
-**Cómo funciona
+**Cómo funciona**
 
 
 

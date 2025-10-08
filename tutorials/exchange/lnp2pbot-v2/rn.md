@@ -109,9 +109,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Wallet ya Satoshi**: Ikora neza ku kwakira Sats, ariko ishobora kugira ugucererwa mu kuvugurura umubare w’amahera iyo ugurisha gusubitswe.
-- Muun**: Ntivyiza kuko amahera yo kwishura ashobora kunanirwa kubera amafaranga yo gukoresha bot (arengeye 0.2%).
-- Aqua**: Ikora kugira ngo uronke Sats, ariko ishobora guteba igihe kirekire (gushika ku masaha 48) kugira ngo ushiremwo ivy’ugusubiramwo amafaranga iyo ugurisha gusubirwamwo.
+- **Wallet ya Satoshi**: Ikora neza ku kwakira Sats, ariko ishobora kugira ugucererwa mu kuvugurura umubare w'amahera iyo ugurisha gusubitswe.
+- **Muun**: Ntivyiza kuko amahera yo kwishura ashobora kunanirwa kubera amafaranga yo gukoresha bot (arengeye 0.2%).
+- **Aqua**: Ikora kugira ngo uronke Sats, ariko ishobora guteba igihe kirekire (gushika ku masaha 48) kugira ngo ushiremwo ivy'ugusubiramwo amafaranga iyo ugurisha gusubirwamwo.
 
 
 💡 **Impanuro**: Kugira ngo ubone ubumenyi bwiza, hitamwo ama wallets ashobora gukoreshwa (Breez, Phoenix canke Blixt).
@@ -353,11 +353,11 @@ Lnp2pbot ifise ivyiza n’ibibi vyinshi ku bindi bisubizo vya P2P Exchange nka P
 
 
 
-- Nta KYC isabwa**: Bitandukanye n’ibindi bikoresho, Lnp2pbot ntibisaba kugenzura akaranga, gutyo bikazigama ubuzima bwite bw’abakoresha.
-- Ivyimburwa vyihuta**: Kubera Lightning Network, ivyimburwa birashika hafi mu kanya nk’ako gukubita.
-- Amafaranga make**: Ibiciro vy’ugucuruza ni bito kuruta ivyo gucuruza mu buryo busanzwe.
-- Ushobora gukoreshwa kuri telefone ngendanwa**: LNP2PBot ishobora gukoreshwa kuri Telegram, bikaba vyoroshe gukoresha kuri telefone ngendanwa.
-- Biroroshe gukoresha**: Interface ya Lnp2pbot ishobora gukoreshwa neza, mbere n’abakoresha batazi cane.
+- **Nta KYC isabwa**: Bitandukanye n'ibindi bikoresho, Lnp2pbot ntibisaba kugenzura akaranga, gutyo bikazigama ubuzima bwite bw'abakoresha.
+- **Ivyimburwa vyihuta**: Kubera Lightning Network, ivyimburwa birashika hafi mu kanya nk'ako gukubita.
+- **Amafaranga make**: Ibiciro vy'ugucuruza ni bito kuruta ivyo gucuruza mu buryo busanzwe.
+- **Ushobora gukoreshwa kuri telefone ngendanwa**: LNP2PBot ishobora gukoreshwa kuri Telegram, bikaba vyoroshe gukoresha kuri telefone ngendanwa.
+- **Biroroshe gukoresha**: Interface ya Lnp2pbot ishobora gukoreshwa neza, mbere n'abakoresha batazi cane.
 
 
 ### Inyungu za Lnp2pbot
@@ -365,8 +365,8 @@ Lnp2pbot ifise ivyiza n’ibibi vyinshi ku bindi bisubizo vya P2P Exchange nka P
 
 
 
-- Ugushingira kuri Telegram**: Gukoresha Lnp2pbot bisaba konti ya Telegram, ishobora kuba idakwiriye abakoresha bose.
-- Amafaranga make**: Ugereranije n’amashirahamwe akomeye nka Bisq, amafaranga ashobora kuba make cane.
+- **Ugushingira kuri Telegram**: Gukoresha Lnp2pbot bisaba konti ya Telegram, ishobora kuba idakwiriye abakoresha bose.
+- **Amafaranga make**: Ugereranije n'amashirahamwe akomeye nka Bisq, amafaranga ashobora kuba make cane.
 
 
 Mu kugereranya, inyishu nka Bisq zitanga amahera menshi n’ikoreshwa ry’ibiro Interface, ariko zishobora gusaba amahera menshi n’igihe kirekire co gukora. HodlHodl na Robosat, muri ico gihe, na bo nyene baratanga ubudandaji ata KYC, ariko bafise imiterere y’amahera itandukanye n’imirongo y’ubudandaji.

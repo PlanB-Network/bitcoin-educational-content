@@ -34,7 +34,7 @@ Los usuarios que hayan creado una cartera con *Single-share Backup* pueden cambi
 
 
 
-Multi-share Backup* está disponible en el Trezor Model T, Safe 3 y Safe 5. Esta función no es compatible con el Trezor Model One.
+**Multi-share Backup** está disponible en el Trezor Model T, Safe 3 y Safe 5. Esta función no es compatible con el Trezor Model One.
 
 
 

@@ -160,7 +160,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-صفحه اصلی اوبونتو ظاهر می‌شود. گزینه "Try or Install Ubuntu*" را انتخاب کنید.
+صفحه اصلی اوبونتو ظاهر می‌شود. گزینه **"Try or Install Ubuntu"** را انتخاب کنید.
 
 
 

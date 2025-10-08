@@ -33,7 +33,7 @@ In deze tutorial bekijken we 3 manieren om een **Watchtower** te gebruiken:
 
 
 
-*Deze tutorial komt uit [de officiële LND documentatie] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Er kunnen enkele wijzigingen zijn aangebracht in de originele versie
+*Deze tutorial komt uit [de officiële LND documentatie](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Er kunnen enkele wijzigingen zijn aangebracht in de originele versie.*
 
 
 
@@ -53,7 +53,7 @@ Merk op dat we ervoor gekozen hebben om in deze release een beperkte set functie
 
 
 
-opmerking: voorlopig slaan wachttorens alleen de `to_local` en `to_remote` uitvoer van herroepen verbintenissen op; het opslaan van HTLC uitvoer zal in een toekomstige versie worden ingezet, aangezien het protocol kan worden uitgebreid om aanvullende handtekeninggegevens in versleutelde blobs op te nemen._
+opmerking: voorlopig slaan wachttorens alleen de `to_local` en `to_remote` uitvoer van herroepen verbintenissen op; het opslaan van HTLC uitvoer zal in een toekomstige versie worden ingezet, aangezien het protocol kan worden uitgebreid om aanvullende handtekeninggegevens in versleutelde blobs op te nemen.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-opmerking: de openbare sleutel van Watchtower is verschillend van de openbare sleutel van het `LND` knooppunt. Voorlopig fungeert het als een "Soft witte lijst", omdat klanten de openbare sleutel van de Watchtower moeten kennen om hem als back-up te kunnen gebruiken, in afwachting van meer geavanceerde witte lijst mechanismen. We raden aan deze publieke sleutel NIET openlijk bekend te maken, tenzij je bereid bent je Watchtower aan het hele Internet bloot te stellen._
+opmerking: de openbare sleutel van Watchtower is verschillend van de openbare sleutel van het `LND` knooppunt. Voorlopig fungeert het als een "Soft witte lijst", omdat klanten de openbare sleutel van de Watchtower moeten kennen om hem als back-up te kunnen gebruiken, in afwachting van meer geavanceerde witte lijst mechanismen. We raden aan deze publieke sleutel NIET openlijk bekend te maken, tenzij je bereid bent je Watchtower aan het hele Internet bloot te stellen.
 
 
 
@@ -337,13 +337,13 @@ Het Oog van Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) is e
 
 
 
-- teos**: bevat een commandoregel Interface (CLI) en de essentiële serverfuncties van Watchtower. Twee binairen - **teosd** en **teos-CLI** - worden geproduceerd wanneer deze _crate_ wordt gecompileerd.
+- **teos**: bevat een commandoregel Interface (CLI) en de essentiële serverfuncties van Watchtower. Twee binairen - **teosd** en **teos-CLI** - worden geproduceerd wanneer deze _crate_ wordt gecompileerd.
 
 
 
 
 
-- teos-common**: bevat gedeelde server- en client-side functionaliteit (handig voor het maken van een client).
+- **teos-common**: bevat gedeelde server- en client-side functionaliteit (handig voor het maken van een client).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: voor RPC verzoeken
+- **server**: voor RPC verzoeken
 
 
 
 
 
-- rpcuser** en **rpcpassword**: authenticeren RPC cliënten bij de server
+- **rpcuser** en **rpcpassword**: authenticeren RPC cliënten bij de server
 
 
 
 
 
-- regtest**: niet vereist, maar handig als je ontwikkeling plant.
+- **regtest**: niet vereist, maar handig als je ontwikkeling plant.
 
 
 
@@ -489,13 +489,13 @@ In het menu "**Watchtower**" zijn twee opties beschikbaar:
 
 
 
-- Watchtower Service**: met deze optie kun je een Watchtower beheren, d.w.z. een dienst die de kanalen van andere nodes controleert op pogingen tot fraude. In het geval van een inbreuk, publiceert jouw Watchtower een transactie op de Blockchain, waardoor gebruikers hun geblokkeerde fondsen kunnen terugkrijgen. Eenmaal geactiveerd, verschijnt de URI van jouw Watchtower en kan gecommuniceerd worden naar andere nodes, zodat ze het kunnen toevoegen aan hun Watchtower client;
+- **Watchtower Service**: met deze optie kun je een Watchtower beheren, d.w.z. een dienst die de kanalen van andere nodes controleert op pogingen tot fraude. In het geval van een inbreuk, publiceert jouw Watchtower een transactie op de Blockchain, waardoor gebruikers hun geblokkeerde fondsen kunnen terugkrijgen. Eenmaal geactiveerd, verschijnt de URI van jouw Watchtower en kan gecommuniceerd worden naar andere nodes, zodat ze het kunnen toevoegen aan hun Watchtower client;
 
 
 
 
 
-- Watchtower Client**: met deze optie kun je verbinding maken met externe wachttorens om je eigen kanalen te beschermen. Eenmaal geactiveerd, kun je Watchtower diensten toevoegen, waaraan je node de benodigde informatie over zijn kanalen doorgeeft. Deze wachttorens bewaken dan hun status en grijpen in bij pogingen tot fraude.
+- **Watchtower Client**: met deze optie kun je verbinding maken met externe wachttorens om je eigen kanalen te beschermen. Eenmaal geactiveerd, kun je Watchtower diensten toevoegen, waaraan je node de benodigde informatie over zijn kanalen doorgeeft. Deze wachttorens bewaken dan hun status en grijpen in bij pogingen tot fraude.
 
 
 

@@ -111,7 +111,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-Wallet**のホームページには、：
+**Wallet**のホームページには、：
 
 The line appears to have an unbalanced ** marker. Here's the corrected version:
 
@@ -257,7 +257,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 
 
-Shop**メニューには、Bitrefillがあります。Bitrefillを利用することで、お住まいの地域やその他の地域で利用可能なデジタルサービス（ギフトカード、電話トップアップなど）にさらに近づくことができます。
+**Shop**メニューには、Bitrefillがあります。Bitrefillを利用することで、お住まいの地域やその他の地域で利用可能なデジタルサービス（ギフトカード、電話トップアップなど）にさらに近づくことができます。
 
 
 

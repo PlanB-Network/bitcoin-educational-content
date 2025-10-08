@@ -145,9 +145,9 @@ Im Abschnitt **Kanäle** sehen Sie die Liste der offenen Kanäle und die Verbind
 
 
 
-- Eingehende Quote**: Der Betrag, den der Knoten für jede Million Satoshi, die er empfängt, in Rechnung stellt, abhängig vom gewählten Kanal.
+- **Eingehende Quote**: Der Betrag, den der Knoten für jede Million Satoshi, die er empfängt, in Rechnung stellt, abhängig vom gewählten Kanal.
 - Das Verhältnis (Teile pro Million)** : Es stellt die Anzahl der Satoshi pro Million Einheiten dar, die der Knotenpunkt Ihnen in Rechnung stellt, wenn Sie sich entscheiden, eine Zahlung über einen seiner Kanäle vorzunehmen. Angenommen, Sie entscheiden sich, eine Zahlung von `10_000 Sats` über einen Kanal zu tätigen, dessen ppm-Verhältnis `500 Sats` ist, dann müssen Sie dem Knoten `10_000 * 500 / 1_000_000` Satoshis zahlen, was `5 Sats` entspricht.
-- Das [HTLC](https://planb.network/resources/glossary/HTLC) Maximum** : Der Höchstbetrag, den dieser Knoten Ihnen erlaubt, über einen dieser Kanäle zu übertragen.
+- Das [HTLC](https://planb.network/resources/glossary/HTLC) **Maximum**: Der Höchstbetrag, den dieser Knoten Ihnen erlaubt, über einen dieser Kanäle zu übertragen.
 
 
 
@@ -172,7 +172,7 @@ Der Abschnitt **Geschlossene Kanäle** gruppiert alle ehemaligen Kanäle des Kno
 
 
 
-- Gegenseitiges Schließen**: ist die Zustimmung beider Parteien, die mit ihrem privaten Schlüssel die Transaktion unterzeichnen, die das Schließen des Kanals und die Verteilung der Guthaben innerhalb des Kanals markiert
+- **Gegenseitiges Schließen**: ist die Zustimmung beider Parteien, die mit ihrem privaten Schlüssel die Transaktion unterzeichnen, die das Schließen des Kanals und die Verteilung der Guthaben innerhalb des Kanals markiert
 - Eine **erzwungene Schließung**: stellt die abrupte, einseitige Schließung eines Teils des Kanals dar. Diese Art der Schließung wird nicht empfohlen, da Lightning Network ein auf Bestrafung basierendes Protokoll ist: Wenn Sie versuchen, das Gleichgewicht eines Kanals zu betrügen, riskieren Sie, Ihr gesamtes verfügbares Gleichgewicht in diesem Kanal zu verlieren.
 
 

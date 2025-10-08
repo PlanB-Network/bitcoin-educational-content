@@ -163,7 +163,7 @@ Di sini disajikan dua layanan LSP:
 
 
 - saluran _Just in time_ - ketika Anda tidak memiliki saluran terbuka atau likuiditas masuk yang tersedia, jika layanan ini diaktifkan, layanan ini akan membuka saluran dengan cepat untuk Anda. Opsi ini dapat dinonaktifkan jika Anda tidak ingin membuka lebih banyak saluran jenis ini.
-- meminta saluran terlebih dahulu_ - Anda dapat membeli saluran masuk dari LSP Olympus secara langsung di aplikasi dengan berbagai opsi dan jumlah (untuk masuk dan keluar).
+- meminta saluran terlebih dahulu - Anda dapat membeli saluran masuk dari LSP Olympus secara langsung di aplikasi dengan berbagai opsi dan jumlah (untuk masuk dan keluar).
 
 
 LSP membantu menghubungkan pengguna ke jaringan Lightning dengan membuka saluran pembayaran ke node mereka. [Baca lebih lanjut tentang LSP di sini](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS memiliki LSP baru yang terintegrasi bernama [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), yang tersedia untuk semua pengguna yang menggunakan node tersemat baru.
@@ -172,9 +172,9 @@ LSP membantu menghubungkan pengguna ke jaringan Lightning dengan membuka saluran
 Pada bagian ini, secara default adalah LSP Olympus (https://0conf.lnolymp.us), tetapi Anda juga dapat mengatur LSP 0conf lain yang mendukung protokol ini.
 
 
-perlu diingat:_
+perlu diingat:
 
-ketika Anda membuka saluran dengan Olympus LSP menggunakan faktur LN yang dibungkus, Anda juga akan mendapatkan likuiditas masuk sebesar 100 ribu! Ini adalah opsi yang sangat bagus jika Anda perlu menerima lebih banyak Sats._
+ketika Anda membuka saluran dengan Olympus LSP menggunakan faktur LN yang dibungkus, Anda juga akan mendapatkan likuiditas masuk sebesar 100 ribu! Ini adalah opsi yang sangat bagus jika Anda perlu menerima lebih banyak Sats.
 
 contoh: Anda menyetor 400k Sats untuk membuka saluran LSP, maka LSP akan membuka saluran berkapasitas 500k Sats ke node Zeus Anda dan mendorong 400k Sats yang Anda setorkan ke sisi Anda
 
@@ -332,7 +332,7 @@ Pada bagian ini kita akan menemukan beberapa alat dasar untuk mengelola node ter
 
 
 
-- pemulihan Bencana_ - Pencadangan otomatis dan manual untuk saluran LN. Silakan baca lebih lanjut cara menggunakan fitur ini di halaman Dokumen Zeus.
+- **Pemulihan Bencana** - Pencadangan otomatis dan manual untuk saluran LN. Silakan baca lebih lanjut cara menggunakan fitur ini di halaman Dokumen Zeus.
 - _Express Graph Sync_ - Aplikasi Zeus akan mengunduh grafik data gosip LN dari server khusus, untuk sinkronisasi yang lebih cepat dan lebih baik, menawarkan jalur pembayaran terbaik. Anda juga dapat memilih untuk menghapus data grafik sebelumnya pada saat pengaktifan.
 - _Peers_ - bagian untuk mengelola neutrino peers dan 0-conf peers. Jika Anda mengalami masalah dengan sinkronisasi awal, saluran tidak online, itu karena perangkat Anda memiliki latensi tinggi dengan peer neutrino yang dikonfigurasi. Coba ganti daftar peer yang disukai atau tambahkan peer spesifik Anda yang Anda tahu memiliki latensi yang lebih baik untuk sinkronisasi. Server neutrino yang terkenal adalah:
 
@@ -352,7 +352,7 @@ Pada bagian ini kita akan menemukan beberapa alat dasar untuk mengelola node ter
 
 
 - log _LND_ - alat yang sangat berguna untuk men-debug masalah node LN Anda dan mengontrol secara mendalam apa yang terjadi dengan tingkat yang lebih teknis.
-- pengaturan lanjutan_ - lebih banyak alat untuk mengontrol penggunaan node LND Anda:
+- **pengaturan lanjutan** - lebih banyak alat untuk mengontrol penggunaan node LND Anda:
 
 
 
@@ -427,8 +427,8 @@ Di sini kami memiliki berbagai sub-bagian dengan lebih banyak alat:
 
 
 
-- akun_ - di sini Anda dapat mengimpor akun/dompet eksternal, dompet Cold, dompet Hot, untuk mengontrol atau digunakan sebagai sumber pendanaan eksternal untuk saluran node Zeus Anda. Fitur ini masih dalam tahap percobaan.
-- mempercepat transaksi_ - Fitur ini dapat membantu ketika Anda memiliki tx yang macet ke dalam Mempool dan ingin menaikkan biaya. Anda harus memberikan output tx dari detail tx dan memilih biaya baru yang ingin Anda gunakan. Harus lebih tinggi dari yang sebelumnya dan mengharuskan Anda memiliki lebih banyak dana yang tersedia di onchain Wallet Anda.
+- **akun** - di sini Anda dapat mengimpor akun/dompet eksternal, dompet Cold, dompet Hot, untuk mengontrol atau digunakan sebagai sumber pendanaan eksternal untuk saluran node Zeus Anda. Fitur ini masih dalam tahap percobaan.
+- **mempercepat transaksi** - Fitur ini dapat membantu ketika Anda memiliki tx yang macet ke dalam Mempool dan ingin menaikkan biaya. Anda harus memberikan output tx dari detail tx dan memilih biaya baru yang ingin Anda gunakan. Harus lebih tinggi dari yang sebelumnya dan mengharuskan Anda memiliki lebih banyak dana yang tersedia di onchain Wallet Anda.
 
 
 ![Image](assets/en/05.webp)
@@ -441,7 +441,7 @@ Selalu lebih baik untuk menyimpan UTXO dengan maksimum 100k Sats di Zeus onchain
 
 
 
-- tanda tangani atau verifikasi_ - Dengan fitur ini Anda dapat menandatangani pesan tertentu dengan kunci Wallet Anda. Juga dapat digunakan untuk memverifikasi pesan untuk membuktikan bahwa pesan tersebut berasal dari kunci Wallet tertentu.
+- **tanda tangani atau verifikasi** - Dengan fitur ini Anda dapat menandatangani pesan tertentu dengan kunci Wallet Anda. Juga dapat digunakan untuk memverifikasi pesan untuk membuktikan bahwa pesan tersebut berasal dari kunci Wallet tertentu.
 - konverter mata uang - alat sederhana untuk menghitung konversi kurs antara BTC dan mata uang fiat lainnya.
 
 

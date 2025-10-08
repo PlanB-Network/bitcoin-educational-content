@@ -366,7 +366,7 @@ Hier is het verwachte resultaat:
 
 
 
-resultaat van het weergeven van de huidige versie van Nmap._
+resultaat van het weergeven van de huidige versie van Nmap.
 
 
 
@@ -451,7 +451,7 @@ Hier is het verwachte resultaat:
 
 
 
-resultaat van het weergeven van de huidige versie van Nmap._
+resultaat van het weergeven van de huidige versie van Nmap.
 
 
 
@@ -475,7 +475,7 @@ In zijn basisvorm, d.w.z. zonder erg ver te gaan in het gebruik van zijn opties,
 
 
 
-foutmelding onder Linux wanneer Nmap-opties rootrechten vereisen._
+foutmelding onder Linux wanneer Nmap-opties rootrechten vereisen.
 
 
 
@@ -611,7 +611,7 @@ Hier is een mogelijk resultaat. We zien een klassieke Nmap terugkomst met veel i
 
 
 
-resultaten van een eenvoudige TCP-scan uitgevoerd met Nmap._
+resultaten van een eenvoudige TCP-scan uitgevoerd met Nmap.
 
 
 
@@ -857,7 +857,7 @@ Hier heeft het verkregen resultaat hetzelfde formaat als voor een TCP-scan, maar
 
 
 
-resultaat van een eenvoudige UDP-scan uitgevoerd met Nmap._
+resultaat van een eenvoudige UDP-scan uitgevoerd met Nmap.
 
 
 
@@ -869,7 +869,7 @@ Overigens zul je waarschijnlijk merken dat Nmap "root"-rechten nodig heeft voor 
 
 
 
-opmerking: Sinds de laatste versies van Nmap is het altijd aanbevolen om UDP-scans uit te voeren met beheerdersrechten om betrouwbare resultaten te garanderen, omdat sommige functies onbewerkte toegang tot netwerk sockets vereisen._
+opmerking: Sinds de laatste versies van Nmap is het altijd aanbevolen om UDP-scans uit te voeren met beheerdersrechten om betrouwbare resultaten te garanderen, omdat sommige functies onbewerkte toegang tot netwerk sockets vereisen.
 
 
 
@@ -909,7 +909,7 @@ We kunnen op de bovenstaande schermafbeelding zien dat Nmap een groot aantal UDP
 
 
 
-uittreksel uit RFC 1122._
+uittreksel uit RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Laten we eens kijken naar deze Wireshark-capture, die **de drie mogelijke scenar
 
 
 
-netwerk vastleggen tijdens een UDP-scan op verschillende poorten met Nmap._
+netwerk vastleggen tijdens een UDP-scan op verschillende poorten met Nmap.
 
 
 
@@ -956,7 +956,7 @@ Hier is het resultaat dat wordt weergegeven door Nmap na deze drie gevallen:
 
 
 
-mogelijke resultaten van een UDP-scan uitgevoerd via Nmap._
+mogelijke resultaten van een UDP-scan uitgevoerd via Nmap.
 
 
 
@@ -988,7 +988,7 @@ De 1000 poorten die in de standaardmodus worden gescand, worden gekozen op basis
 
 
 
-uitgepakt uit het bestand "/usr/shares/nmap/nmap-services"._
+uitgepakt uit het bestand "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Om je te helpen begrijpen hoe Probes eruit kunnen zien, is hier een lijst van en
 
 
 
-voorbeeld van verschillende Probes die door Nmap worden gebruikt en aanwezig zijn in het bestand `/usr/share/nmap/nmap-service-probes`._
+voorbeeld van verschillende Probes die door Nmap worden gebruikt en aanwezig zijn in het bestand `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ We gaan nu terug naar een richtlijn in het `/usr/share/nmap/nmap-service-probes`
 
 
 
-probes `rarity` richtlijn in het `/usr/share/nmap/nmap-service-probes`._ bestand
+probes `rarity` richtlijn in het `/usr/share/nmap/nmap-service-probes` bestand
 
 
 
@@ -1912,7 +1912,7 @@ Om dit onderwerp af te sluiten, is hier een voorbeeld van _Probe_ 9 en 8:
 
 
 
-voorbeelden van sonde bij zeldzaamheid 8 en 9 in het bestand `/usr/share/nmap/nmap-service-probes`._
+voorbeelden van sonde bij zeldzaamheid 8 en 9 in het bestand `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Hier is het resultaat van een Nmap-scan met NSE-scripts:
 
 
 
-voorbeeld van de resultaten van een kwetsbaarhedenscan op een host via Nmap._
+voorbeeld van de resultaten van een kwetsbaarhedenscan op een host via Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Technisch gezien worden de categorieën waartoe een script behoort direct in de 
 
 
 
-nSE script categorieën `ftp-anon`._
+nSE script categorieën `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Standaard staan de NSE scripts van Nmap in de `/usr/share/nmap/scripts/` directo
 
 
 
-haalt de inhoud uit de `/usr/share/nmap/scripts/` directory met NSE scripts._
+haalt de inhoud uit de `/usr/share/nmap/scripts/` directory met NSE scripts.
 
 
 
@@ -2296,7 +2296,7 @@ Deze map bevat meer dan 5.000 NSE-scripts. In de meeste gevallen bevat het eerst
 
 
 
-lijst van NSE Nmap scripts met namen die beginnen met `ftp-`._
+lijst van NSE Nmap scripts met namen die beginnen met `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ We hebben dan een zeer nauwkeurig resultaat:
 
 
 
-resultaat van het gebruik van het NSE `ftp-anon` script op een FTP poort via Nmap._
+resultaat van het gebruik van het NSE `ftp-anon` script op een FTP poort via Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Voor een korte beschrijving van wat een NSE script doet, kun je de `-script-help
 
 
 
-help resultaat weergeven voor NSE-script `sshv1`._
+help resultaat weergeven voor NSE-script `sshv1`.
 
 
 
@@ -2500,7 +2500,7 @@ Dit script heeft "standaard" opties, die we kunnen aanpassen aan onze context. I
 
 
 
-resultaat van het weergeven van hulp voor het NSE `ssh-brute` script met een link naar nmap.org._
+resultaat van het weergeven van hulp voor het NSE `ssh-brute` script met een link naar nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Zoals je in dit laatste commando kunt zien, kunnen we de benodigde argumenten vo
 
 
 
-resultaat van SSH bruteforce-uitvoering via Nmap._
+resultaat van SSH bruteforce-uitvoering via Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Dit formaat is gemaakt om een "verkorte" weergave van de Nmap uitvoer te geven, 
 
 
 
-nmap netwerkscan en uitvoer in "greppable" formaat._
+nmap netwerkscan en uitvoer in **greppable** formaat.
 
 
 
@@ -2700,7 +2700,7 @@ Dit formaat kan voor verschillende doeleinden worden gebruikt en is vooral handi
 
 
 
-opmerking: het `-oG` greppable formaat is officieel vervallen sinds Nmap 7.90. Het kan nog steeds worden gebruikt voor compatibiliteit. Het kan nog steeds worden gebruikt voor compatibiliteitsdoeleinden, maar het wordt aanbevolen om het XML- of normale formaat te gebruiken voor ontwikkeling of geautomatiseerde parsing._
+opmerking: het `-oG` greppable formaat is officieel vervallen sinds Nmap 7.90. Het kan nog steeds worden gebruikt voor compatibiliteit. Het kan nog steeds worden gebruikt voor compatibiliteitsdoeleinden, maar het wordt aanbevolen om het XML- of normale formaat te gebruiken voor ontwikkeling of geautomatiseerde parsing.
 
 
 
@@ -2838,7 +2838,7 @@ Als resultaat hebben we onze hele scan mooi gestructureerd, met zelfs een paar k
 
 
 
-uittreksel van een Nmap-scanrapport in HTML-indeling, gegenereerd door xsltproc._
+uittreksel van een Nmap-scanrapport in HTML-indeling, gegenereerd door xsltproc.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) is een subset van XSL wa
 
 
 
-bron: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+bron: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ De eerste optie die we moeten noemen is de `-v` optie, die de verbositeit van Nm
 
 
 
-nmap's uitgebreide uitvoer met de `-v`._ optie
+nmap's uitgebreide uitvoer met de `-v` optie
 
 
 
@@ -2900,7 +2900,7 @@ Om de activiteit van Nmap tijdens het scannen verder te volgen, kun je de `--pac
 
 
 
-gedetailleerde monitoring van Nmap-activiteit via `--packet-trace`._
+gedetailleerde monitoring van Nmap-activiteit via `--packet-trace`.
 
 
 
@@ -3022,7 +3022,7 @@ Nadat mijn werkruimte is gemaakt, moeten we valideren dat de communicatie met de
 ```
 # Retrieve the database status
 msf6 > db_status
-[*] Connected to msf. Connection type: postgresql.
+**Connected to msf. Connection type: postgresql.**
 ```
 
 
@@ -3120,7 +3120,7 @@ Waar Aquatone normaal gesproken port discovery uitvoert op hosts om webservices 
 
 
 
-met Nmap-resultaten in XML-formaat met `aquatone`._
+met Nmap-resultaten in XML-formaat met `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ In ieder geval kun je via de Nmap debug (optie `-d` gezien in een vorig hoofdstu
 
 
 
-timingopties bekijken via de `-d` optie van Nmap._
+timingopties bekijken via de `-d` optie van Nmap.
 
 
 
@@ -3465,7 +3465,7 @@ Als je ervoor gekozen hebt om Nmap niet via een sessie als `root` te gebruiken, 
 
 
 
-verhoging van Nmap-rechten via `sudo`._
+verhoging van Nmap-rechten via `sudo`.
 
 
 
@@ -3509,7 +3509,7 @@ Zoals je misschien hebt gemerkt, biedt Nmap verschillende opties voor TCP scans:
 
 
 
-scantechnieken die beschikbaar zijn in Nmap._
+scantechnieken die beschikbaar zijn in Nmap.
 
 
 
@@ -3598,7 +3598,7 @@ Zoals gezegd, wanneer Nmap vanaf een geprivilegieerde terminal wordt uitgevoerd,
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Hier is een voorbeeld van het TCP FIN scanresultaat van Nmap:
 
 
 
-resultaten van een TCP FIN-scan door Nmap._
+resultaten van een TCP FIN-scan door Nmap.
 
 
 
@@ -3892,7 +3892,7 @@ Het is belangrijk om op te merken dat de TCP XMAS scan niet in staat is om firew
 
 
 
-opmerking: ondersteuning voor XMAS/FIN/NULL-scans op recente versies van Windows blijft beperkt en de resultaten kunnen inconsistent zijn op dit type doelwit. (Update 2025)_
+opmerking: ondersteuning voor XMAS/FIN/NULL-scans op recente versies van Windows blijft beperkt en de resultaten kunnen inconsistent zijn op dit type doelwit. (Update 2025)
 
 
 
@@ -3983,7 +3983,7 @@ We gebruiken de `-sA` optie van Nmap om dit type scan uit te voeren. Hier is het
 
 
 
-nmap-weergave tijdens TCP ACK Scan._
+nmap-weergave tijdens TCP ACK Scan.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-opmerking: De optie `-sP` is al enkele jaren verouderd en moet worden vervangen door `-sn`. (Update 2025)_
+opmerking: De optie `-sP` is al enkele jaren verouderd en moet worden vervangen door `-sn`. (Update 2025)
 
 
 

@@ -7,4 +7,4 @@ term: テンポラルモデル
 
 観察されたエンティティの性質だけでなく、時間的パターンはタイムゾーンを通じてユーザーの位置もおおよそ示すことができる。これにより、他のトランザクションを相関させ、連鎖分析に含めることができる追加のヒューリスティックとして、これらのタイムスタンプを使用することができる。
 
-また、別の登録ではあるが、サトシ・ナカモトが日本からではなく、実際にアメリカから活動していたという仮説を導いたのも、この種の時間分析である：[The Time Zones of Satoshi Nakamoto_](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).
+また、別の登録ではあるが、サトシ・ナカモトが日本からではなく、実際にアメリカから活動していたという仮説を導いたのも、この種の時間分析である：[The Time Zones of Satoshi Nakamoto](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).

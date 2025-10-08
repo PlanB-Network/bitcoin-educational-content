@@ -154,7 +154,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - 功能 **Replace-by-fee (RBF)** 加速未確認的交易。
 - **相容性**：整合硬體錢包，例如 **Blockstream Jade**。
 - **Interface**：初學者可直覺操作，專家可使用進階選項。
-- 注意**：本指南著重於 onchain 的使用。附錄中的其他教程涵蓋 Onchain、Watch-Only 和桌面版。
+- 注意**：本指南著重於 onchain 的使用。附錄中的其他教程涵蓋 Onchain、Watch-Only 和桌面版。**
 
 
 
@@ -289,7 +289,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 注意**：在沒有攝影機或觀察者的私人環境中設定您的投資組合。
+- **注意**：在沒有攝影機或觀察者的私人環境中設定您的投資組合。
 - 從主畫面按一下「設定新的投資組合」，然後按一下「開始」：
 
 
@@ -385,7 +385,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 注意**：請務必檢查收款的 Address 和交易詳細資料，以免出錯。發送至錯誤 Address 的資金將無法收回。
+- **注意**：請務必檢查收款的 Address 和交易詳細資料，以免出錯。發送至錯誤 Address 的資金將無法收回。
 
 
 

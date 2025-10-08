@@ -65,7 +65,7 @@ Tergantung pada Lightning Wallet yang Anda gunakan, Anda akan menemukan opsi ber
 
 
 
-- Alby Hub** untuk dompet Alby Go, ekstensi Alby untuk peramban Anda.
+- **Alby Hub** untuk dompet Alby Go, ekstensi Alby untuk peramban Anda.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** untuk menghubungkan web Bitcoin CoinOS Wallet.
-- Flash Wallet** untuk koneksi ke Flash Wallet.
-- Tautan LN ** Tautan LN
+- **Coinos** untuk menghubungkan web Bitcoin CoinOS Wallet.
+- **Flash Wallet** untuk koneksi ke Flash Wallet.
+- Tautan LN **Tautan LN**
 
 
 

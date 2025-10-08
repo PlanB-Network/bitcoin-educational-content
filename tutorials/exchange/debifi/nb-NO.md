@@ -64,25 +64,25 @@ Før jeg viser deg steg for steg hvordan du låner på Debifi, er det noen ting 
 
 
 
-- Etableringsgebyr** er en engangsavgift som påløper ved innvilgelse av lån og beregnes som en prosentandel av lånebeløpet. Disse gebyrene dekker administrative, operasjonelle og forvaltningsmessige kostnader.
+- **Etableringsgebyr** er en engangsavgift som påløper ved innvilgelse av lån og beregnes som en prosentandel av lånebeløpet. Disse gebyrene dekker administrative, operasjonelle og forvaltningsmessige kostnader.
 
 
 
 
 
-- Sikkerhet** er en eiendel du setter inn for å sikre et lån. I Debifis tilfelle er sikkerheten Bitcoin (BTC), som låntakeren deponerer i Multisig 3/4 escrow.
+- **Sikkerhet** er en eiendel du setter inn for å sikre et lån. I Debifis tilfelle er sikkerheten Bitcoin (BTC), som låntakeren deponerer i Multisig 3/4 escrow.
 
 
 
 
 
-- Multisig escrow (3/4)**-systemet er en sikker innskuddsmekanisme der en låntakers bitcoins plasseres i en Address med flere signaturer. Nærmere bestemt har fire (4) parter hver sin nøkkel (låntaker, långiver, Debifi, uavhengig tredjepart). For å flytte midler kreves minst 3 av 4 signaturer.
+- Multisig escrow (3/4)-systemet er en sikker innskuddsmekanisme der en låntakers bitcoins plasseres i en Address med flere signaturer. Nærmere bestemt har fire (4) parter hver sin nøkkel (låntaker, långiver, Debifi, uavhengig tredjepart). For å flytte midler kreves minst 3 av 4 signaturer.
 
 
 
 
 
-- En stablecoin** er en kryptovaluta hvis verdi er knyttet til en stabil eiendel (f.eks. amerikanske dollar), noe som gjør at man unngår volatiliteten til Bitcoin. For eksempel er 1 USDC alltid verdt ~ 1 USD, ettersom den er støttet av fiat-reserver.
+- En **stablecoin** er en kryptovaluta hvis verdi er knyttet til en stabil eiendel (f.eks. amerikanske dollar), noe som gjør at man unngår volatiliteten til Bitcoin. For eksempel er 1 USDC alltid verdt ~ 1 USD, ettersom den er støttet av fiat-reserver.
 
 
 

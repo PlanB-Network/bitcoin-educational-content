@@ -31,7 +31,7 @@ Phoenixd ni nodi ndogo, maalum ya Umeme iliyotengenezwa na ACINQ. Ni suluhisho i
 
 
 
-**Phoenixd ni sehemu ndogo ya Umeme inayotumia ACINQ kama LSP (Mtoa Huduma ya Umeme) kwa ukwasi kiotomatiki. Unapopokea malipo ya Radi, hufungua kiotomatiki chaneli zenye nodi za ACINQ ili kutenga uwezo unaohitajika unaoingia. Ukwasi huu wa "on-the-fly" ni wa papo hapo, lakini unatozwa kwa **1% + ada ya Mining** ya kiasi kilichopokelewa.
+**Phoenixd ni sehemu ndogo ya Umeme inayotumia ACINQ kama LSP (Mtoa Huduma ya Umeme) kwa ukwasi kiotomatiki. Unapopokea malipo ya Radi, hufungua kiotomatiki chaneli zenye nodi za ACINQ ili kutenga uwezo unaohitajika unaoingia. Ukwasi huu wa "on-the-fly" ni wa papo hapo, lakini unatozwa kwa 1% + ada ya Mining ya kiasi kilichopokelewa.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd ni nodi ndogo, maalum ya Umeme iliyotengenezwa na ACINQ. Ni suluhisho i
 
 
 
-- Vituo vya Umeme**: Fungua, funga na udhibiti kiotomatiki inavyohitajika
-- Ukwasi unaoingia/unaotoka**: Utoaji kiotomatiki kupitia kuunganisha na kufungua chaneli
-- Salio la ada** : Malipo madogo yasiyotosha kuhalalisha kituo huhifadhiwa kama kipengele cha malipo ya siku zijazo
+- **Vituo vya Umeme**: Fungua, funga na udhibiti kiotomatiki inavyohitajika
+- **Ukwasi unaoingia/unaotoka**: Utoaji kiotomatiki kupitia kuunganisha na kufungua chaneli
+- Salio la ada: Malipo madogo yasiyotosha kuhalalisha kituo huhifadhiwa kama kipengele cha malipo ya siku zijazo
 
 
 
@@ -50,7 +50,7 @@ Phoenixd ni nodi ndogo, maalum ya Umeme iliyotengenezwa na ACINQ. Ni suluhisho i
 
 
 
-**Unadhibiti funguo zako za faragha (maneno 12 seed) na fedha. Phoenixd hutengeneza Wallet yako ndani ya nchi bila kushiriki funguo zako.
+**Unadhibiti funguo zako za faragha (maneno 12 seed) na fedha. Phoenixd hutengeneza Wallet yako ndani ya nchi bila kushiriki funguo zako.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd inahitaji mazingira ya Linux (Ubuntu/Debian inapendekezwa), yenye ujuzi
 
 
 
-- Seva ya Linux**: VPS au mashine ya ndani yenye muunganisho thabiti
-- OpenJDK 21** : Mazingira ya wakati wa utekelezaji wa Java
-- Muunganisho thabiti wa Mtandao**: Kwa ulandanishi na Lightning Network
-- Jina la kikoa** (si lazima) : Kwa ufikiaji salama wa HTTPS kwa API
+- **Seva ya Linux**: VPS au mashine ya ndani yenye muunganisho thabiti
+- **OpenJDK 21**: Mazingira ya wakati wa utekelezaji wa Java
+- **Muunganisho thabiti wa Mtandao**: Kwa ulandanishi na Lightning Network
+- **Jina la kikoa** (si lazima) : Kwa ufikiaji salama wa HTTPS kwa API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Uzinduzi wa kwanza
+**2. Uzinduzi wa kwanza**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Thibitisha utambulisho wa seva yako** (huzuia mashambulizi ya mtu katikati)
-- Huwasha usimbaji fiche wa HTTPS**: data zote, pamoja na manenosiri yako ya API, husimbwa kwa njia fiche wakati wa usafirishaji.
-- Imetolewa bila malipo** na Let's Encrypt kupitia zana ya certbot
+- **Thibitisha utambulisho wa seva yako** (huzuia mashambulizi ya mtu katikati)
+- **Huwasha usimbaji fiche wa HTTPS**: data zote, pamoja na manenosiri yako ya API, husimbwa kwa njia fiche wakati wa usafirishaji.
+- **Imetolewa bila malipo** na Let's Encrypt kupitia zana ya certbot
 
 
 
@@ -297,10 +297,10 @@ Mpangilio huu hukuruhusu:
 
 
 
-- Ufikiaji salama wa API kutoka kwa Mtandao**
-- Simba nenosiri lako la API** wakati wa usafiri (ili kuzuia kutumwa kwa maandishi wazi)
-- Unganisha Phoenixd** katika programu za nje zinazohitaji HTTPS
-- Kuzingatia viwango vya usalama** vya API za kifedha
+- **Ufikiaji salama wa API kutoka kwa Mtandao**
+- Simba nenosiri lako la **API** wakati wa usafiri (ili kuzuia kutumwa kwa maandishi wazi)
+- Unganisha **Phoenixd** katika programu za nje zinazohitaji HTTPS
+- Kuzingatia viwango vya **usalama** vya API za kifedha
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Ada ya huduma**: 1% ya uwezo wa chaneli (2,115,000 Sats) = 21,150 Sats
-- Ada za Mining**: ~3,289 Sats (kwa muamala wa On-Chain)
-- Jumla**: 24,439 Sats imekatwa kiotomatiki
+- **Ada ya huduma**: 1% ya uwezo wa chaneli (2,115,000 Sats) = 21,150 Sats
+- **Ada za Mining**: ~3,289 Sats (kwa muamala wa On-Chain)
+- **Jumla**: 24,439 Sats imekatwa kiotomatiki
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Risiti**: 1% + ada ya Mining kwa ukwasi otomatiki
-- Usafirishaji**: Ada ya 0.4% ya uelekezaji kwenye Lightning Network
+- **Risiti**: 1% + ada ya Mining kwa ukwasi otomatiki
+- **Usafirishaji**: Ada ya 0.4% ya uelekezaji kwenye Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Duka lako la mtandaoni hupokea arifa kiotomatiki mteja anapolipia agizo, kuwezesha uthibitishaji wa papo hapo wa muamala.
+**Duka lako la mtandaoni hupokea arifa kiotomatiki mteja anapolipia agizo, kuwezesha uthibitishaji wa papo hapo wa muamala.**
 
 
 
@@ -684,7 +684,7 @@ Shukrani kwa API yake ya kina ya REST, unaweza kukuza:
 
 
 
-*~/.phoenix saraka:** Hifadhi nakala ya folda hii mara kwa mara (baada ya Phoenixd kuzimwa) ili kuhifadhi hali ya kituo na kuharakisha urejeshaji.
+**~/.phoenix saraka:** Hifadhi nakala ya folda hii mara kwa mara (baada ya Phoenixd kuzimwa) ili kuhifadhi hali ya kituo na kuharakisha urejeshaji.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Wote wawili hutumia ACINQ kama LSP yao kwa ukwasi otomatiki.
+**Wote wawili hutumia ACINQ kama LSP yao kwa ukwasi otomatiki.**
 
 
 
@@ -866,9 +866,9 @@ Ukiwa na Phoenixd, unaunda miundombinu yako ya kibinafsi ya Umeme kwa API ya kis
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Msimbo wa chanzo na matoleo
-- Tovuti ya Seva ya Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Hati kamili
-- Maswali Yanayoulizwa Mara kwa Mara** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Maswali yanayoulizwa sana
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Msimbo wa chanzo na matoleo
+- **Tovuti ya Seva ya Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Hati kamili
+- **Maswali Yanayoulizwa Mara kwa Mara**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Maswali yanayoulizwa sana
 
 
 
@@ -877,5 +877,5 @@ Ukiwa na Phoenixd, unaunda miundombinu yako ya kibinafsi ya Umeme kwa API ya kis
 
 
 
-- Masuala ya GitHub** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Usaidizi wa kiufundi
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Habari na matangazo
+- **Masuala ya GitHub**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Usaidizi wa kiufundi
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Habari na matangazo

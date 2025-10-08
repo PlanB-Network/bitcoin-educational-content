@@ -302,7 +302,7 @@ En image :
 **Quelques explications au sujet du bloc `[Peer]`** :
 
 **PublicKey** : il s'agit de la clé publique du serveur WireGuard Debian 11 (vous pouvez obtenir sa valeur via la commande "*sudo wg*")
-* **AllowedIPs** : il s'agit des adresses IP / des sous-réseaux accessibles via ce réseau VPN WireGuard, ici il s'agit du sous-réseau propre à mon VPN WireGuard (*192.168.110.0/24*) et de mon LAN distant (*192.168.100.0/24*)
+**AllowedIPs** : il s'agit des adresses IP / des sous-réseaux accessibles via ce réseau VPN WireGuard, ici il s'agit du sous-réseau propre à mon VPN WireGuard (*192.168.110.0/24*) et de mon LAN distant (*192.168.100.0/24*)
 **Endpoint** : il s'agit de l'adresse IP de l'hôte Debian 11 puisque c'est notre point de liaison WireGuard (il faudra préciser l'adresse IP publique)
 
 Pour finir, donnez un nom en renseignant le champ "**Nom**" (sans espaces) et copiez-collez la clé publique du client, car nous allons devoir la déclarer sur le serveur. Cliquez sur "**Enregistrer**".

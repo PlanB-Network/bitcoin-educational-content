@@ -16,7 +16,7 @@ Bitkit ist ein selbstverwaltetes mobiles Wallet, das es Ihnen ermöglicht, Ihr B
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-das Video-Tutorial oben ist eine 20' umfassende Anleitung zu Bitkit Wallet_
+das Video-Tutorial oben ist eine 20' umfassende Anleitung zu Bitkit Wallet
 
 
 ## Leitfaden

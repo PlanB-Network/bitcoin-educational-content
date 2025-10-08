@@ -65,7 +65,7 @@ Kullandığınız Lightning Wallet'e bağlı olarak, aşağıdaki seçenekleri b
 
 
 
-- Alby Go cüzdanları için Alby Hub**, tarayıcınız için Alby uzantısı.
+- Alby Go cüzdanları için **Alby Hub**, tarayıcınız için Alby uzantısı.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** Bitcoin web CoinOS Wallet'yi bağlamak için.
-- Flash Wallet'e bağlantı için Flash Wallet**.
-- LN bağlantısı**
+- **Coinos** Bitcoin web CoinOS Wallet'yi bağlamak için.
+- Flash Wallet'e bağlantı için **Flash Wallet**.
+- **LN bağlantısı**
 
 
 
@@ -172,7 +172,7 @@ Satış Noktası menünüze **Aktif hizmetler** bölümündeki satış noktanız
 
 
 
-Satış noktanızın Interface bağlantısını kopyalayın ve ona erişin. Ürünler** bölümünde, bu satış noktası ile ilişkilendirdiğiniz tüm ürünlerin bir listesini bulacaksınız. Daha sonra müşterilerinizden ücret almak için generate Bitcoin (Lightning) faturaları oluşturabilirsiniz.
+Satış noktanızın Interface bağlantısını kopyalayın ve ona erişin. **Ürünler** bölümünde, bu satış noktası ile ilişkilendirdiğiniz tüm ürünlerin bir listesini bulacaksınız. Daha sonra müşterilerinizden ücret almak için generate Bitcoin (Lightning) faturaları oluşturabilirsiniz.
 
 
 
@@ -208,11 +208,11 @@ Flash panosunda **Ödeme bağlantısı** üzerine tıklayın ve ödeme bağlant�
 
 
 
-Checkouts** menüsünde, insanların projenizi destekleyebilmesi için web sitenize veya sosyal ağlarınıza koyabileceğiniz bağış eklentileri oluşturabilirsiniz.
+**Checkouts** menüsünde, insanların projenizi destekleyebilmesi için web sitenize veya sosyal ağlarınıza koyabileceğiniz bağış eklentileri oluşturabilirsiniz.
 
 
 
-Yeni bağış eklentisi** seçeneğine tıklayın, ardından bağış eklentinizin ayrıntılarını yapılandırın
+**Yeni bağış eklentisi** seçeneğine tıklayın, ardından bağış eklentinizin ayrıntılarını yapılandırın
 
 
 
@@ -237,7 +237,7 @@ Abonelikler, aboneleriniz olduğunda veya yinelenen bir temelde belirli bir mikt
 
 
 
-Abonelikler** menüsünde **Yeni abonelik planı** seçeneğine tıklayın. Kurmak istediğiniz farklı planları tanımlayın, ardından abonelik parametrelerinizi yapılandırın.
+**Abonelikler** menüsünde **Yeni abonelik planı** seçeneğine tıklayın. Kurmak istediğiniz farklı planları tanımlayın, ardından abonelik parametrelerinizi yapılandırın.
 
 
 

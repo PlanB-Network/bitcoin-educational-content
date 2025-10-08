@@ -277,10 +277,10 @@ Cada swap tiene un identificador único con seguimiento en tiempo real. Visualiz
 
 
 
-- Sencillez**: Intercambio en unos pocos clics frente a la manipulación manual de canales
-- Sin custodia**: sin CSC, sin cuenta, los fondos nunca se confían a un tercero
-- Transparencia**: las comisiones se muestran explícitamente antes de la validación (del 0,1% al 0,5% + minage según las pruebas realizadas por los usuarios - compruebe las comisiones actuales en cada swap)
-- Integración móvil**: experiencia nativa en Zeus Wallet
+- **Sencillez**: Intercambio en unos pocos clics frente a la manipulación manual de canales
+- **Sin custodia**: sin CSC, sin cuenta, los fondos nunca se confían a un tercero
+- **Transparencia**: las comisiones se muestran explícitamente antes de la validación (del 0,1% al 0,5% + minage según las pruebas realizadas por los usuarios - compruebe las comisiones actuales en cada swap)
+- **Integración móvil**: experiencia nativa en Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Cada swap tiene un identificador único con seguimiento en tiempo real. Visualiz
 
 
 
-- Plazos de caducidad**: 24-48h máximo, fallo si Bitcoin no se confirma a tiempo
-- Límites de importe**: mínimo 25.000 Sats, liquidez Zeus LSP variable según condiciones
-- Rastrea On-Chain**: Scripts HTLC potencialmente identificables por el análisis Blockchain
-- Confirmación requerida**: mínimo 10 minutos para la validación Bitcoin
+- **Plazos de caducidad**: 24-48h máximo, fallo si Bitcoin no se confirma a tiempo
+- **Límites de importe**: mínimo 25.000 Sats, liquidez Zeus LSP variable según condiciones
+- **Rastrea On-Chain**: Scripts HTLC potencialmente identificables por el análisis Blockchain
+- **Confirmación requerida**: mínimo 10 minutos para la validación Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Cada swap tiene un identificador único con seguimiento en tiempo real. Visualiz
 
 
 - Compruebe cuidadosamente las direcciones de Bitcoin (se recomienda copiar y pegar)
-- Haz una copia de seguridad de la clave de rescate de Zeus Swaps**: descarga y guarda la clave de recuperación en un lugar seguro
+- **Haz una copia de seguridad de la clave de rescate de Zeus Swaps**: descarga y guarda la clave de recuperación en un lugar seguro
 - Documento: Contract ID, reembolso Address, fecha de caducidad
 - Utilice las tasas Mining adecuadas para la confirmación oportuna
 
@@ -354,11 +354,11 @@ Zeus Swap utiliza la tecnología backend de Boltz, pero introduce algunas mejora
 
 
 
-- Interface unificado**: integración nativa en Zeus Wallet vs Interface técnica web Boltz
-- API WebSocket**: actualizaciones en tiempo real frente al sondeo manual
-- Gestión automatizada**: facturación automática y gestión de Address
-- Soporte móvil**: optimización sólo para smartphones y ordenadores de sobremesa
-- Documentación Swagger**: API REST completa para desarrolladores
+- **Interface unificado**: integración nativa en Zeus Wallet vs Interface técnica web Boltz
+- **API WebSocket**: actualizaciones en tiempo real frente al sondeo manual
+- **Gestión automatizada**: facturación automática y gestión de Address
+- **Soporte móvil**: optimización sólo para smartphones y ordenadores de sobremesa
+- **Documentación Swagger**: API REST completa para desarrolladores
 
 
 

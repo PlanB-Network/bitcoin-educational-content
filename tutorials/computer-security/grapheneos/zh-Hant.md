@@ -131,7 +131,7 @@ GrapheneOS 開始畫面
 在初始開機和設定之後，最好從「設定」>「系統」>「開發者選項」中停用 OEM 解鎖功能。
 
 
-您可能還需要採取額外、可選但建議的步驟，即透過 Auditor 應用程式驗證安裝。您需要一部已安裝應用程式的 Android 手機來完成此步驟。您可在 [此處](https://attestation.app/tutorial)_找到相關說明。
+您可能還需要採取額外、可選但建議的步驟，即透過 Auditor 應用程式驗證安裝。您需要一部已安裝應用程式的 Android 手機來完成此步驟。您可在 [此處](https://attestation.app/tutorial) _找到相關說明_。
 
 
 

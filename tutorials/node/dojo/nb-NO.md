@@ -7,7 +7,7 @@ description: En Bitcoin-node med åpen kildekode for personvern og autonomi
 
 
 
-*Denne veiledningen er basert på [den offisielle Ashigaru-dokumentasjonen] (https://ashigaru.rs/docs/), som jeg har overtatt og utvidet. Jeg har omskrevet alle avsnitt for å gjøre dem mer oversiktlige, lagt til mer detaljerte forklaringer og illustrasjoner for nybegynnere, slik at installasjonen og bruken blir enklere å forstå
+**Denne veiledningen er basert på [den offisielle Ashigaru-dokumentasjonen](https://ashigaru.rs/docs/), som jeg har overtatt og utvidet. Jeg har omskrevet alle avsnitt for å gjøre dem mer oversiktlige, lagt til mer detaljerte forklaringer og illustrasjoner for nybegynnere, slik at installasjonen og bruken blir enklere å forstå**
 
 
 
@@ -160,7 +160,7 @@ Sett den oppstartbare USB-nøkkelen inn i den avslåtte datamaskinen (den du vil
 
 
 
-Startskjermen til Ubuntu vises. Velg "Prøv eller installer Ubuntu*".
+Startskjermen til Ubuntu vises. Velg "Prøv eller installer Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Vær vennlig å behandle denne Address strengt konfidensielt
+⚠️ **Vær vennlig å behandle denne Address strengt konfidensielt**
 
 
 
@@ -1269,7 +1269,7 @@ fulcrum | The database has been corrupted etc...
 
 
 
-**Denne typen feil bør være rettet i den kommende utgivelsen av Fulcrum 2.0.
+**Denne typen feil bør være rettet i den kommende utgivelsen av Fulcrum 2.0.**
 
 
 
@@ -1426,7 +1426,7 @@ For å få tilgang til nettleseren din fra en hvilken som helst maskin på et hv
 
 
 
-⚠️ **Vær vennlig å behandle denne Address strengt konfidensielt
+⚠️ **Vær vennlig å behandle denne Address strengt konfidensielt**
 
 
 

@@ -803,7 +803,7 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 
-- 通过主屏幕** ：
+- 通过主屏幕：
  - 点击**安全 Bitcoin Wallet** 查看**链上**交易，或点击**即时支付 Wallet** 查看**Liquid**和**闪电**交易。
  - 历史记录显示在投资组合总额的正下方，根据所选的 Wallet 类型进行筛选。
 

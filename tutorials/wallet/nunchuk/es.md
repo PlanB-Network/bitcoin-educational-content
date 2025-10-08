@@ -324,7 +324,7 @@ Nunchuk te muestra una serie de posibilidades que tienen que ver, en su mayoría
 
 
 
-En esta guía crearemos un _Hot Wallet y un _Custom wallet_ detallando los pormenores.
+En esta guía crearemos un _Hot Wallet_ y un _Custom wallet_ detallando los pormenores.
 
 
 Empecemos por _Cartera personalizada_.
@@ -402,7 +402,7 @@ Se encuentra en _Home_, donde se le muestra la Wallet recién creada informando 
 
 
 
-Premios _Recibir
+Premios _Recibidos_
 
 
 

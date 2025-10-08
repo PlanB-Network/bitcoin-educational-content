@@ -107,9 +107,9 @@ Ufise amahitamwo menshi:
 
 
 
-- Iduka rya Google Play**: Rondera "Ente Auth" kugira ngo ushireho
-- F-Droid**: Iboneka mu rutonde rw'ibikoresho vya Android, bifise icemezo c'ubwubatsi bugenzuwe kandi nta birimwo vy'umunyagihugu
-- Gushiramwo n'amaboko**: Amadosiye ya APK ashobora gukurwa kuri [paji ya GitHub y'umugambi](https://github.com/ente-io/auth/releases) n'imenyekanisha ryinjijwe ry'amaverisiyo mashasha
+- **Iduka rya Google Play**: Rondera "Ente Auth" kugira ngo ushireho
+- **F-Droid**: Iboneka mu rutonde rw'ibikoresho vya Android, bifise icemezo c'ubwubatsi bugenzuwe kandi nta birimwo vy'umunyagihugu
+- **Gushiramwo n'amaboko**: Amadosiye ya APK ashobora gukurwa kuri [paji ya GitHub y'umugambi](https://github.com/ente-io/auth/releases) n'imenyekanisha ryinjijwe ry'amaverisiyo mashasha
 
 
 
@@ -129,9 +129,9 @@ Ente Auth itanga ibikorwa vy'ibiro vy'akavukire. Sura [ente.io/gukuraho](https:/
 
 
 
-- Windows**: Igikoresho co gushiramwo EXE kiratangwa
-- macOS**: Kurura-no-gutera ishusho ya disiki ya DMG mu bikorwa
-- Linux**: Uburyo bwinshi buraboneka (Ishusho y'ikoreshwa, .deb kuri Debian/Ubuntu, .rpm kuri Fedora/Inkofero itukura)
+- **Windows**: Igikoresho co gushiramwo EXE kiratangwa
+- **macOS**: Kurura-no-gutera ishusho ya disiki ya DMG mu bikorwa
+- **Linux**: Uburyo bwinshi buraboneka (Ishusho y'ikoreshwa, .deb kuri Debian/Ubuntu, .rpm kuri Fedora/Inkofero itukura)
 
 
 
@@ -196,9 +196,9 @@ Ndabahimiriza cane gushoboza uburinzi bw’aho hantu hakoreshejwe kode canke bio
 
 
 
-- Gufungura Biometric**: Indangamuntu yo mu maso, urutoke bivanye n'ubushobozi bw'igikoresho cawe
-- PIN/ijambobanga ry'ikoreshwa**
-- Gufunga kwikora**: nk'akarorero. "Ubwo nyene" canke inyuma y'amasegonda 30 ataco ukora
+- **Gufungura Biometric**: Indangamuntu yo mu maso, urutoke bivanye n'ubushobozi bw'igikoresho cawe
+- **PIN/ijambobanga ry'ikoreshwa**
+- **Gufunga kwikora**: nk'akarorero. "Ubwo nyene" canke inyuma y'amasegonda 30 ataco ukora
 
 
 
@@ -431,10 +431,10 @@ Amagenamiterere rusangi arimwo :
 
 
 
-- Ururimi**: Interface indimi nyinshi
-- Iyerekanwa**: Ibishushanyo binini, uburyo bukomeye
-- Ubuzima bwite**: Hisha amakode, gushakisha vyihuse
-- Telemetry**: Gutanga raporo y'ikosa (bishobora guhagarara)
+- **Ururimi**: Interface indimi nyinshi
+- **Iyerekanwa**: Ibishushanyo binini, uburyo bukomeye
+- **Ubuzima bwite**: Hisha amakode, gushakisha vyihuse
+- **Telemetry**: Gutanga raporo y'ikosa (bishobora guhagarara)
 
 
 
@@ -516,9 +516,9 @@ Kubera ko kode ari [inkomoko yuguruye](https://github.com/ente-io/auth), umuryan
 
 
 
-- Cure53** (Ubudage): Igenzura ry'umutekano w'ibikoresho n'ubuhinga bwa none
-- Porogaramu y'ikigereranyo** (Ubufaransa): Ubuhinga bwihariye bwo gukora amakuru y'ibanga
-- Fallible** (Ubuhinde): Igerageza ryo kwinjira n'isesengura ry'ubugoyagoye
+- **Cure53** (Ubudage): Igenzura ry'umutekano w'ibikoresho n'ubuhinga bwa none
+- **Porogaramu y'ikigereranyo** (Ubufaransa): Ubuhinga bwihariye bwo gukora amakuru y'ibanga
+- **Fallible** (Ubuhinde): Igerageza ryo kwinjira n'isesengura ry'ubugoyagoye
 
 
 
@@ -600,37 +600,37 @@ Ku matsinda acungera amakonti y'agaciro, Ente Auth irafasha gukorana mu gihe izi
 
 
 
-- Bika amakode yawe y’ivyihutirwa**: Bika amakode yo gusubirana atangwa na serivisi yose kure ya telefone yawe.
+- **Bika amakode yawe y'ivyihutirwa**: Bika amakode yo gusubirana atangwa na serivisi yose kure ya telefone yawe.
 
 
 
 
 
-- Koresha ijambobanga ry’ingenzi rikomeye**: Ijambobanga ryawe ry’ingenzi rya Ente Auth ritegerezwa kuba ryihariye kandi rikomeye, kuko ririnda amakode yawe yose.
+- **Koresha ijambobanga ry'ingenzi rikomeye**: Ijambobanga ryawe ry'ingenzi rya Ente Auth ritegerezwa kuba ryihariye kandi rikomeye, kuko ririnda amakode yawe yose.
 
 
 
 
 
-- Gukoresha uburinzi bwo mu karere**: Gutegura PIN canke biometrics kugira ngo ukinge umuntu ashobora gushika ku mubiri ata wemerewe.
+- **Gukoresha uburinzi bwo mu karere**: Gutegura PIN canke biometrics kugira ngo ukinge umuntu ashobora gushika ku mubiri ata wemerewe.
 
 
 
 
 
-- Ntuhindure birenze urugero**: Irinde guhindura ibintu biteye imbere bishobora gutuma udashobora gukorana neza.
+- **Ntuhindure birenze urugero**: Irinde guhindura ibintu biteye imbere bishobora gutuma udashobora gukorana neza.
 
 
 
 
 
-- Gumana porogaramu iri ku gihe**: Ihindura ukosora amakosa y’umutekano kandi igatuma ikora neza.
+- **Gumana porogaramu iri ku gihe**: Ihindura ukosora amakosa y'umutekano kandi igatuma ikora neza.
 
 
 
 
 
-- Igerageza ryo gusubizaho**: Rimwe na rimwe urabe ko ushobora gusubizaho amakode yawe ku kindi gikoresho.
+- **Igerageza ryo gusubizaho**: Rimwe na rimwe urabe ko ushobora gusubizaho amakode yawe ku kindi gikoresho.
 
 
 
@@ -659,9 +659,9 @@ Waba uri umuntu ku giti ciwe arondera gucungera amakonti yawe bwite, canke umugw
 
 
 
-- Urubuga rwemewe**: [ente.io/uburenganzira]
-- Ikigo c'imfashanyo**: [imfashanyo.ente.io/ukwemeza](https://imfashanyo.ente.io/ukwemeza)
-- Urubuga rw'ubuhinga**: [ente.io/urubuga](https://ente.io/urubuga)
+- **Urubuga rwemewe**: [ente.io/uburenganzira]
+- **Ikigo c'imfashanyo**: [imfashanyo.ente.io/ukwemeza](https://imfashanyo.ente.io/ukwemeza)
+- **Urubuga rw'ubuhinga**: [ente.io/urubuga](https://ente.io/urubuga)
 
 
 
@@ -670,8 +670,8 @@ Waba uri umuntu ku giti ciwe arondera gucungera amakonti yawe bwite, canke umugw
 
 
 
-- GitHub**: [github.com/injira-io/uburenganzira](ubutumwa bw'ibanga/uburenganzira)
-- Igenzura ry'ububiko**: [ente.io/urubuga/igenzura ry'ububiko](https://ente.io/urubuga/igenzura ry'ububiko)
+- **GitHub**: [github.com/injira-io/uburenganzira](ubutumwa bw'ibanga/uburenganzira)
+- **Igenzura ry'ububiko**: [ente.io/urubuga/igenzura ry'ububiko](https://ente.io/urubuga/igenzura ry'ububiko)
 
 
 
@@ -680,5 +680,5 @@ Waba uri umuntu ku giti ciwe arondera gucungera amakonti yawe bwite, canke umugw
 
 
 
-- Ugutahura**: [ugutahura.gg/z2YVKkycX3](https://ugutahura.gg/z2YVKkyc3)
-- Reddit **: [Ikiganiro] (Ikiganiro)
+- **Ugutahura**: [ugutahura.gg/z2YVKkycX3](https://ugutahura.gg/z2YVKkyc3)
+- **Reddit**: [Ikiganiro] (Ikiganiro)

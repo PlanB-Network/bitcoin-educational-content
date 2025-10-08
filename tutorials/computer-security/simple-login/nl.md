@@ -205,7 +205,7 @@ Simple Login heeft de volgende functies:
 
 - mobiele app (ook van F-Droid) en browserextensie, om aliassen in elke situatie te beheren;
 - twee-factor authenticatie voor elk nieuw pseudoniem, wat de mate van onafhankelijkheid van de service zelf vergroot;
-- PGP-ondersteuning (voor _Premium-gebruikers);
+- PGP-ondersteuning (voor _Premium-gebruikers_);
 - eenvoudig aanmaken van elk type alias (aangepast, willekeurig en UUID);
 - van de gratis plannen in de sector, de mogelijkheid om aliassen te gebruiken met meer "officiële" e-mailboxen. Andere concurrenten beperken zich tot slechts één.
 

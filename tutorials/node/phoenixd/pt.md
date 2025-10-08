@@ -31,7 +31,7 @@ O Phoenixd é um nó Lightning mínimo e especializado desenvolvido pela ACINQ. 
 
 
 
-**O Phoenixd é um nó Lightning mínimo que utiliza o ACINQ como seu LSP (Lightning Service Provider) para liquidez automática. Quando recebe pagamentos Lightning, abre automaticamente canais com nós ACINQ para atribuir a capacidade de entrada necessária. Esta liquidez "on-the-fly" é instantânea, mas cobrada exatamente a **1% + taxas Mining** do montante recebido.
+**O Phoenixd é um nó Lightning mínimo que utiliza o ACINQ como seu LSP (Lightning Service Provider) para liquidez automática. Quando recebe pagamentos Lightning, abre automaticamente canais com nós ACINQ para atribuir a capacidade de entrada necessária. Esta liquidez "on-the-fly" é instantânea, mas cobrada exatamente a 1% + taxas Mining do montante recebido.**
 
 
 
@@ -40,9 +40,9 @@ O Phoenixd é um nó Lightning mínimo e especializado desenvolvido pela ACINQ. 
 
 
 
-- Canais Lightning**: Abrir, fechar e gerir automaticamente conforme necessário
-- Liquidez de entrada/saída**: Aprovisionamento automático através de splicing e abertura de canais
-- Crédito de taxas** : Os pequenos pagamentos insuficientes para justificar um canal são armazenados como uma provisão para encargos futuros
+- **Canais Lightning**: Abrir, fechar e gerir automaticamente conforme necessário
+- **Liquidez de entrada/saída**: Aprovisionamento automático através de splicing e abertura de canais
+- **Crédito de taxas**: Os pequenos pagamentos insuficientes para justificar um canal são armazenados como uma provisão para encargos futuros
 
 
 
@@ -50,7 +50,7 @@ O Phoenixd é um nó Lightning mínimo e especializado desenvolvido pela ACINQ. 
 
 
 
-**Você controla as suas chaves privadas (seed de 12 palavras) e os seus fundos. Phoenixd gera seu Wallet localmente sem nunca compartilhar suas chaves.
+**Você controla as suas chaves privadas (seed de 12 palavras) e os seus fundos. Phoenixd gera seu Wallet localmente sem nunca compartilhar suas chaves.**
 
 
 
@@ -84,10 +84,10 @@ O Phoenixd requer um ambiente Linux (recomenda-se o Ubuntu/Debian), com alguns c
 
 
 
-- Servidor Linux**: VPS ou máquina local com ligação estável
-- OpenJDK 21** : Ambiente de tempo de execução Java
-- Ligação estável à Internet**: Para sincronização com o Lightning Network
-- Nome do domínio** (opcional) : Para acesso HTTPS seguro à API
+- **Servidor Linux**: VPS ou máquina local com ligação estável
+- **OpenJDK 21**: Ambiente de tempo de execução Java
+- **Ligação estável à Internet**: Para sincronização com o Lightning Network
+- **Nome do domínio** (opcional): Para acesso HTTPS seguro à API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Primeiro arranque
+**2. Primeiro arranque**
 
 
 
@@ -249,7 +249,7 @@ http-password-limited-access=limited_password
 
 
 
-**Parâmetros-chave
+**Parâmetros-chave**
 
 
 
@@ -277,7 +277,7 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-*o *Nginx** actua como um **proxy inverso**: ouve os pedidos HTTPS da Internet no porto 443, redirecciona-os para o Phoenixd localmente (porto 9740) e envia as respostas encriptadas de volta ao cliente.
+**o Nginx** actua como um **proxy inverso**: ouve os pedidos HTTPS da Internet no porto 443, redirecciona-os para o Phoenixd localmente (porto 9740) e envia as respostas encriptadas de volta ao cliente.
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Provar a identidade do seu servidor** (evita ataques man-in-the-middle)
-- Permite a encriptação HTTPS**: todos os dados, incluindo as suas palavras-passe API, são encriptados durante o transporte
-- Emitido gratuitamente** pela Let's Encrypt através da ferramenta certbot
+- Provar a identidade do seu servidor (evita ataques man-in-the-middle)
+- **Permite a encriptação HTTPS**: todos os dados, incluindo as suas palavras-passe API, são encriptados durante o transporte
+- **Emitido gratuitamente** pela Let's Encrypt através da ferramenta certbot
 
 
 
@@ -297,10 +297,10 @@ Esta configuração permite-lhe :
 
 
 
-- Acesso seguro à API a partir da Internet**
-- Encriptar as suas palavras-passe API** durante o transporte (para evitar que sejam transmitidas em texto claro)
-- Integrar o Phoenixd** em aplicações externas que requerem HTTPS
-- Conformidade com as normas de segurança** para APIs financeiras
+- **Acesso seguro à API a partir da Internet**
+- **Encriptar as suas palavras-passe API** durante o transporte (para evitar que sejam transmitidas em texto claro)
+- Integrar o **Phoenixd** em aplicações externas que requerem HTTPS
+- **Conformidade com as normas de segurança** para APIs financeiras
 
 
 
@@ -341,7 +341,7 @@ sudo nginx -t && sudo systemctl reload nginx
 
 
 
-**2. Certificado SSL
+**2. Certificado SSL**
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Taxa de serviço**: 1% da capacidade do canal (2.115.000 Sats) = 21.150 Sats
-- Taxas Mining**: ~3,289 Sats (para transação On-Chain)
-- Total**: 24,439 Sats deduzido automaticamente
+- **Taxa de serviço**: 1% da capacidade do canal (2.115.000 Sats) = 21.150 Sats
+- **Taxas Mining**: ~3,289 Sats (para transação On-Chain)
+- **Total**: 24,439 Sats deduzido automaticamente
 
 
 
@@ -510,7 +510,7 @@ O Phoenixd expõe uma API REST na porta 9740 que permite :
 
 
 
-**Operações básicas
+**Operações básicas**
 
 
 ```bash
@@ -538,13 +538,13 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Importante para os custos
+**Importante para os custos**
 
 
 
 
-- Receção**: 1% + taxa Mining para liquidez automática
-- Envio**: 0.4% de taxa de encaminhamento no Lightning Network
+- **Receção**: 1% + taxa Mining para liquidez automática
+- **Envio**: 0.4% de taxa de encaminhamento no Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**A sua loja online recebe automaticamente uma notificação quando um cliente paga uma encomenda, permitindo a validação instantânea da transação.
+**A sua loja online recebe automaticamente uma notificação quando um cliente paga uma encomenda, permitindo a validação instantânea da transação.**
 
 
 
@@ -684,7 +684,7 @@ Graças à sua API REST abrangente, pode desenvolver aplicações :
 
 
 
-*diretório ~/.phoenix:** Faça backup desta pasta regularmente (após o Phoenixd ter sido desligado) para preservar o status do canal e acelerar a restauração.
+**diretório ~/.phoenix:** Faça backup desta pasta regularmente (após o Phoenixd ter sido desligado) para preservar o status do canal e acelerar a restauração.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Ambos utilizam o ACINQ como seu LSP para liquidez automática.
+**Ambos utilizam o ACINQ como seu LSP para liquidez automática.**
 
 
 
@@ -866,9 +866,9 @@ Com o Phoenixd, você constrói sua própria infraestrutura privada do Lightning
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Código-fonte e versões
-- Site do Servidor Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Documentação completa
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Perguntas mais frequentes
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Código-fonte e versões
+- **Site do Servidor Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Documentação completa
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Perguntas mais frequentes
 
 
 
@@ -877,5 +877,5 @@ Com o Phoenixd, você constrói sua própria infraestrutura privada do Lightning
 
 
 
-- Problemas no GitHub** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Suporte técnico
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Notícias e anúncios
+- **Problemas no GitHub**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Suporte técnico
+- Twitter **ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Notícias e anúncios

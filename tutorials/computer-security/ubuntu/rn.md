@@ -16,13 +16,13 @@ Sisitemu ikoresha (OS) ni porogaramu nyamukuru icungera ibikoresho vyose vya mud
 
 
 
-- Umutekano wongerewe**: Ivyiyumviro vya Linux birazwi cane kubera umutekano wavyo n'ubukomezi bwavyo
-- Igiciro ntaco kigura**: Ubuntu n'ibindi bikoresho vyinshi vya Linux ni ubuntu
-- Umuryango munini**: Umuryango w'abakoresha witeguriye gufasha biciye mu mahuriro n'inyigisho
-- Kwubaha ubuzima bwite**: Uburyo bufunguye kugira ngo habeho uguserukira abantu
-- Ukworohereza**: Interface ikoreshwa neza kandi yoroshe gukoresha
-- Ubutunzi bw'ibidukikije**: Urutonde rwinshi rwa porogaramu zifunguye
-- Infashanyo idasanzwe**: Ivyagezwe biva kuri Canonical
+- **Umutekano wongerewe**: Ivyiyumviro vya Linux birazwi cane kubera umutekano wavyo n'ubukomezi bwavyo
+- **Igiciro ntaco kigura**: Ubuntu n'ibindi bikoresho vyinshi vya Linux ni ubuntu
+- **Umuryango munini**: Umuryango w'abakoresha witeguriye gufasha biciye mu mahuriro n'inyigisho
+- **Kwubaha ubuzima bwite**: Uburyo bufunguye kugira ngo habeho uguserukira abantu
+- **Ukworohereza**: Interface ikoreshwa neza kandi yoroshe gukoresha
+- **Ubutunzi bw'ibidukikije**: Urutonde rwinshi rwa porogaramu zifunguye
+- **Infashanyo idasanzwe**: Ivyagezwe biva kuri Canonical
 
 
 ## Gushiramwo no gutunganya

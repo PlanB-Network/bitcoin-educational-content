@@ -346,7 +346,7 @@ Wallet 创建完成后，设置一个复杂的密码（"Strong"）来加密气�
 
 
 
-现在从 Wallet 气隙中选择 _Tools_ 菜单，然后选择 _Load transaction_ 和 From file_。
+现在从 Wallet 气隙中选择 _Tools_ 菜单，然后选择 _Load transaction_ 和 _From file_。
 
 
 
@@ -441,7 +441,7 @@ Electrum 会为你打开交易窗口，与之前在 Wallet 上显示的窗口有
 
 
 
-从上图可以看出，离线的 Wallet 不知道自己的 Address 历史。在这方面，它是完全盲目的。 **它能为您做的唯一工作就是存储您的离线密钥和签署您的交易**_。
+从上图可以看出，离线的 Wallet 不知道自己的 Address 历史。在这方面，它是完全盲目的。**它能为您做的唯一工作就是存储您的离线密钥和签署您的交易**。
 
 
 

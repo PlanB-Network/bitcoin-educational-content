@@ -74,7 +74,7 @@ Não é necessário comprar uma máquina nova. Um computador recondicionado com 
 
 
 
-**Especificações mínimas
+**Especificações mínimas**
 
 
 
@@ -95,7 +95,7 @@ Não é necessário comprar uma máquina nova. Um computador recondicionado com 
 
 
 
-**Equipamento recomendado
+**Equipamento recomendado**
 
 
 
@@ -160,7 +160,7 @@ Insira a chave USB inicializável no computador desligado (aquele no qual deseja
 
 
 
-Aparece o ecrã inicial do Ubuntu. Selecione "Experimentar ou instalar o Ubuntu*".
+Aparece o ecrã inicial do Ubuntu. Selecione "Experimentar ou instalar o Ubuntu".
 
 
 
@@ -756,7 +756,7 @@ MYSQL_PASSWORD=your-password-here
 
 
 
-⚠️ ***Substitua `seu-ID-aqui` e `sua-senha-aqui` pelos seus próprios logins (com senhas fortes e únicas)
+⚠️ **Substitua `seu-ID-aqui` e `sua-senha-aqui` pelos seus próprios logins (com senhas fortes e únicas)**
 
 
 
@@ -863,7 +863,7 @@ NODE_JWT_SECRET=your-password-here
 
 
 
-⚠️ ***Substitua `sua-senha-aqui` pelas suas próprias credenciais (com palavras-passe fortes e únicas)
+⚠️ **Substitua `sua-senha-aqui` pelas suas próprias credenciais (com palavras-passe fortes e únicas)**
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Por favor, mantenha este Address estritamente confidencial
+⚠️ **Por favor, mantenha este Address estritamente confidencial**
 
 
 
@@ -1426,7 +1426,7 @@ Para aceder ao seu navegador a partir de qualquer máquina em qualquer rede (mes
 
 
 
-⚠️ **Por favor, mantenha este Address estritamente confidencial
+⚠️ **Por favor, mantenha este Address estritamente confidencial**
 
 
 

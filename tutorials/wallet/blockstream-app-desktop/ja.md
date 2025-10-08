@@ -77,7 +77,7 @@ description: パソコンでHardware Wallet with Blockstream Appを使うには�
 
 
 - 公式サイト](https://blockstream.com/app/)にアクセスし、"_Download Now_"をクリックします。お使いのOS（Windows、macOS、Linux）に対応するバージョンをダウンロードしてください。
-- 注意**：不正なソフトウェアを避けるため、必ず公式ソースからダウンロードしてください。
+- **注意**：不正なソフトウェアを避けるため、必ず公式ソースからダウンロードしてください。
 
 
 

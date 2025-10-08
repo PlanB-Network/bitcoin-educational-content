@@ -33,7 +33,7 @@ I denne veiledningen skal vi se på tre måter å bruke en **Watchtower** på:
 
 
 
-*Denne veiledningen er hentet fra [den offisielle LND-dokumentasjonen] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Noen endringer kan ha blitt gjort i forhold til den opprinnelige versjonen
+*Denne veiledningen er hentet fra [den offisielle LND-dokumentasjonen](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Noen endringer kan ha blitt gjort i forhold til den opprinnelige versjonen.*
 
 
 
@@ -337,13 +337,13 @@ The Eye of Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) er en
 
 
 
-- teos**: inkluderer en kommandolinje-Interface (CLI) og de viktigste serverfunksjonene i Watchtower. To binære filer - **teosd** og **teos-CLI** - blir produsert når denne _krisen_ kompileres.
+- **teos**: inkluderer en kommandolinje-Interface (CLI) og de viktigste serverfunksjonene i Watchtower. To binære filer - **teosd** og **teos-CLI** - blir produsert når denne _krisen_ kompileres.
 
 
 
 
 
-- teos-common**: inkluderer delt funksjonalitet på server- og klientsiden (nyttig for å opprette en klient).
+- **teos-common**: inkluderer delt funksjonalitet på server- og klientsiden (nyttig for å opprette en klient).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: for RPC-forespørsler
+- **server**: for RPC-forespørsler
 
 
 
 
 
-- rpcuser** og **rpcpassword**: autentiserer RPC-klienter overfor serveren
+- **rpcuser** og **rpcpassword**: autentiserer RPC-klienter overfor serveren
 
 
 
 
 
-- regtest**: ikke påkrevd, men nyttig hvis du planlegger utvikling.
+- **regtest**: ikke påkrevd, men nyttig hvis du planlegger utvikling.
 
 
 
@@ -489,13 +489,13 @@ I menyen "**Watchtower**" er to alternativer tilgjengelige:
 
 
 
-- Watchtower-tjeneste**: Med dette alternativet kan du drive en Watchtower, dvs. en tjeneste som overvåker kanalene til andre noder for å oppdage eventuelle svindelforsøk. I tilfelle brudd publiserer din Watchtower en transaksjon på Blockchain, slik at brukerne kan få tilbake de låste midlene sine. Når den er aktivert, vises URI-en til din Watchtower og kan kommuniseres til andre noder, slik at de kan legge den til i Watchtower-klienten sin;
+- **Watchtower-tjeneste**: Med dette alternativet kan du drive en Watchtower, dvs. en tjeneste som overvåker kanalene til andre noder for å oppdage eventuelle svindelforsøk. I tilfelle brudd publiserer din Watchtower en transaksjon på Blockchain, slik at brukerne kan få tilbake de låste midlene sine. Når den er aktivert, vises URI-en til din Watchtower og kan kommuniseres til andre noder, slik at de kan legge den til i Watchtower-klienten sin;
 
 
 
 
 
-- Watchtower Client**: Med dette alternativet kan du koble deg til eksterne vakttårn for å beskytte dine egne kanaler. Når den er aktivert, kan du legge til Watchtower-tjenester som noden din sender nødvendig informasjon om kanalene sine til. Disse vakttårnene vil deretter overvåke statusen deres og gripe inn i tilfelle forsøk på svindel.
+- **Watchtower Client**: Med dette alternativet kan du koble deg til eksterne vakttårn for å beskytte dine egne kanaler. Når den er aktivert, kan du legge til Watchtower-tjenester som noden din sender nødvendig informasjon om kanalene sine til. Disse vakttårnene vil deretter overvåke statusen deres og gripe inn i tilfelle forsøk på svindel.
 
 
 

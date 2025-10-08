@@ -4,7 +4,7 @@ description: Un robot Telegram pour acheter Bitcoin en toute confidentialité
 ---
 ![image](assets/cover.webp)
 
-_Ce tutoriel a été rédigé par_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Ce tutoriel a été rédigé par_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 ## Introduction
 

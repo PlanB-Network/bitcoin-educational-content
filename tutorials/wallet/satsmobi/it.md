@@ -6,7 +6,7 @@ description: Un wallet (custodial) a portata di Telegram
 
 ![cover](assets/cover.webp)
 
-_Questo tutorial è stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Questo tutorial è stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 ## Sats.Mobi
 SatsMobi è un wallet che gira su Telegram, che ha tutte le funzioni di un wallet Lightning Network (custodial) e che offre, in più, una serie di funzionalità molto divertenti. Nasce da un fork di LightningTipBot, ormai discontinuo, ne eredita tutte le caratteristiche aggiungendone altre più attuali, risultando così più moderno. Di LNTipBot, Sats.Mobi ricalca anche la filosofia open source. Il wallet può essere, infatti, configurato e gestito in proprio clonandolo da questo [repository](https://github.com/massmux/SatsMobiBot).

@@ -112,24 +112,24 @@ According to official statistics, the most-used models include a variety of devi
 **Return to stock firmware (if necessary) :**
 
 
-- Android Flash Tool**: Use the official Google tool [flash.android.com](https://flash.android.com) to easily restore your Pixel device to stock Android from your web browser (Chrome/Edge required)
-- Alternative**: Factory images manually from [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Android Flash Tool**: Use the official Google tool [flash.android.com](https://flash.android.com) to easily restore your Pixel device to stock Android from your web browser (Chrome/Edge required)
+- **Alternative**: Factory images manually from [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 **Mandatory prerequisite tests:**
 
 
-- Boot your device at least once** with the original stock system
-- Test all features**: SMS, calls, Wi-Fi, mobile data
-- Important**: Check that you can send/receive SMS and make/receive calls (including via WiFi and 4G/5G). If it doesn't work on the stock system, it won't work on LineageOS either!
-- Recent devices**: Some require VoLTE/VoWiFi to be used at least once on the stock system to provision IMS
+- **Boot your device at least once** with the original stock system
+- **Test all features**: SMS, calls, Wi-Fi, mobile data
+- **Important**: Check that you can send/receive SMS and make/receive calls (including via WiFi and 4G/5G). If it doesn't work on the stock system, it won't work on LineageOS either!
+- **Recent devices**: Some require VoLTE/VoWiFi to be used at least once on the stock system to provision IMS
 
 
 **System preparation:**
 
 
-- Remove all Google** accounts from your device to avoid Factory Reset Protection, which may block activation
-- Full backup** : The process will completely erase your phone. Back up photos, contacts, applications and important files
+- Remove all **Google** accounts from your device to avoid Factory Reset Protection, which may block activation
+- **Full backup**: The process will completely erase your phone. Back up photos, contacts, applications and important files
 
 
 **ADB and Fastboot tools:** Follow the [official LineageOS guide](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) to install the Android SDK Platform Tools. Verify installation with `adb version` and `fastboot --version`.
@@ -161,7 +161,7 @@ According to official statistics, the most-used models include a variety of devi
 ### Detailed installation
 
 
-⚠️ **These instructions are specific to LineageOS 22.2. Follow each step precisely. Don't move on if something fails!
+⚠️ **These instructions are specific to LineageOS 22.2. Follow each step precisely. Don't move on if something fails!**
 
 
 #### Step 1: Firmware check
@@ -185,8 +185,8 @@ According to official statistics, the most-used models include a variety of devi
 **Pixel 4 specific downloads:**
 
 
-- Build LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Required files**: Download the 3 required files from this page (they will be used in the following steps):
+- **Build LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Required files**: Download the 3 required files from this page (they will be used in the following steps):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (main ROM)
   - dtbo.img` (partition device tree blob)
   - `boot.img` (recovery LineageOS)
@@ -201,11 +201,11 @@ According to official statistics, the most-used models include a variety of devi
 #### Step 2: Unlocking the bootloader
 
 
-⚠️ **This step deletes all your data!
+⚠️ **This step deletes all your data!**
 
 
 
-- Test the ADB connection**: Connect your device via USB and test with the command `adb devices` from your computer terminal
+- **Test the ADB connection**: Connect your device via USB and test with the command `adb devices` from your computer terminal
 
 
 ![adb-devices](assets/fr/08.webp)
@@ -215,7 +215,7 @@ According to official statistics, the most-used models include a variety of devi
 
 
 
-- Authorize connection** on your phone
+- **Authorize connection** on your phone
 
 
 ![usb-debugging-auth](assets/fr/09.webp)
@@ -225,7 +225,7 @@ According to official statistics, the most-used models include a variety of devi
 
 
 
-- Boot into bootloader mode** :
+- **Boot into bootloader mode**:
 
 ```
 adb -d reboot bootloader
@@ -235,7 +235,7 @@ Or hold **Volume Down + Power** device off
 
 
 
-- Check the fastboot** connection:
+- Check the **fastboot** connection:
 
 ```
 fastboot devices
@@ -255,7 +255,7 @@ fastboot devices
 
 
 
-- Unlock the bootloader** :
+- **Unlock the bootloader** :
 
 ```
 fastboot flashing unlock
@@ -274,7 +274,7 @@ On the device, use the Volume keys to navigate and press the **Power** button to
 
 
 
-- After automatic restart**, re-enable USB debugging in the developer options
+- After automatic restart, re-enable USB debugging in the developer options
 
 
 
@@ -285,8 +285,8 @@ On the device, use the Volume keys to navigate and press the **Power** button to
 
 
 
-- Restart bootloader**: Volume Down + Power
-- Flash** (replace `/path/to/` with the folder where you downloaded the file) :
+- **Restart bootloader**: Volume Down + Power
+- **Flash** (replace `/path/to/` with the folder where you downloaded the file) :
 
 ```
 fastboot flash dtbo /chemin/vers/dtbo.img
@@ -303,21 +303,21 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (replace `/path/to/` with the folder where you downloaded the file) :
+- **Flash recovery** (replace `/path/to/` with the folder where you downloaded the file) :
 
 ```
 fastboot flash boot /chemin/vers/boot.img
 ```
 
 
-- Restart in recovery** to check
+- **Restart in recovery** to check
 
 
 #### Step 5: Installing LineageOS
 
 
 
-- Restart in recovery**: Volume Down + Power → Recovery Mode
+- **Restart in recovery**: Volume Down + Power → Recovery Mode
 
 
 ![recovery-mode](assets/fr/14.webp)
@@ -327,7 +327,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Factory Reset** : Type "Factory Reset" → "Format data / factory reset"
+- **Factory Reset**: Type "Factory Reset" → "Format data / factory reset"
 
 
 ![factory-reset](assets/fr/15.webp)
@@ -337,8 +337,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Return to main menu**
-- Sideload LineageOS** :
+- **Return to main menu**
+- **Sideload LineageOS**:
    - On the device: "Apply Update" → "Apply from ADB"
    - On PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -368,8 +368,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reboot**: "Reboot system now"
-- First boot**: May take up to 15 minutes
+- **Reboot**: "Reboot system now"
+- **First boot**: May take up to 15 minutes
 
 
 🎉 **Installation complete!**
@@ -384,9 +384,9 @@ fastboot flash boot /chemin/vers/boot.img
 **Critical checks:**
 
 
-- Firmware compatibility**: Be sure to check the firmware version required on your model's download page
-- Never relock** the bootloader after installing LineageOS
-- Follow the specific instructions** for your device
+- **Firmware compatibility**: Be sure to check the firmware version required on your model's download page
+- Never **relock** the bootloader after installing LineageOS
+- Follow the **specific instructions** for your device
 
 
 ## Configuration and applications
@@ -413,11 +413,11 @@ Streamlined Interface, close to stock Android, without Google. Simple configurat
 
 
 
-- Navigation**: Organic Maps (offline maps based on OpenStreetMap)
-- Communication**: Signal (end-to-end encrypted messages), K-9 Mail (free email client)
-- Media**: NewPipe (ad-free, tracking-free YouTube), VLC (universal media player)
-- Productivity**: Nextcloud (self-hosting cloud), Simple Calendar (CalDAV synchronization)
-- Security**: Bitwarden (password manager), Aegis Authenticator (2FA codes)
+- **Navigation**: Organic Maps (offline maps based on OpenStreetMap)
+- **Communication**: Signal (end-to-end encrypted messages), K-9 Mail (free email client)
+- **Media**: NewPipe (ad-free, tracking-free YouTube), VLC (universal media player)
+- **Productivity**: Nextcloud (self-hosting cloud), Simple Calendar (CalDAV synchronization)
+- **Security**: Bitwarden (password manager), Aegis Authenticator (2FA codes)
 
 
 These applications, most of which are available via F-Droid, form a coherent ecosystem that can fully replace Google services while offering a modern, functional user experience.

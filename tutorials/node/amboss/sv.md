@@ -145,9 +145,9 @@ I avsnittet **Channels** ser du listan över öppna kanaler och nodens anslutnin
 
 
 
-- Inkommande förhållande**: Det belopp som noden debiterar dig för varje miljon Satoshi som den tar emot, beroende på vilken kanal som valts.
+- **Inkommande förhållande**: Det belopp som noden debiterar dig för varje miljon Satoshi som den tar emot, beroende på vilken kanal som valts.
 - Förhållandet (parts per million)** : som representerar antalet Satoshi per miljon enheter som noden kommer att debitera dig när du bestämmer dig för att göra en betalning via en av dess kanaler. Låt oss säga att du bestämmer dig för att göra en betalning på `10_000 Sats` via en kanal vars ppm-kvot är `500 Sats`, du kommer att behöva betala noden `10_000 * 500 / 1_000_000` satoshis, motsvarande `5 Sats`.
-- Maximalt belopp för [HTLC](https://planb.network/resources/glossary/HTLC)** : Det maximala belopp som denna nod tillåter dig att transitera via en av dessa kanaler.
+- Maximalt belopp för **[HTLC](https://planb.network/resources/glossary/HTLC)**: Det maximala belopp som denna nod tillåter dig att transitera via en av dessa kanaler.
 
 
 
@@ -172,7 +172,7 @@ I avsnittet **Nedstängda kanaler** grupperas alla nodens tidigare kanaler efter
 
 
 
-- Ömsesidig stängning**: innebär att båda parter är överens och använder sin privata nyckel för att signera transaktionen som markerar stängningen av kanalen och fördelningen av saldon inom den
+- **Ömsesidig stängning**: innebär att båda parter är överens och använder sin privata nyckel för att signera transaktionen som markerar stängningen av kanalen och fördelningen av saldon inom den
 - En **tvingad stängning**: representerar en plötslig, ensidig stängning av en del av kanalen. Denna typ av stängning rekommenderas inte, eftersom Lightning Network är ett straffbaserat protokoll: när du försöker bedra saldot i en kanal riskerar du att förlora allt ditt tillgängliga saldo i den kanalen.
 
 

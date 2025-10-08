@@ -9,7 +9,7 @@ description: Cashu.me guide för användning av ecash
 ![video](https://www.youtube.com/watch?v=LIPw1c74LBU)
 
 
-*Här är en videohandledning från BTC Sessions, en videoguide som går igenom hur du ställer in och använder Cashu.me Bitcoin Wallet, vilket ger dig tillgång till enkla, billiga och privata Bitcoin-transaktioner - utan behov av en appbutik!
+**Här är en videohandledning från BTC Sessions, en videoguide som går igenom hur du ställer in och använder Cashu.me Bitcoin Wallet, vilket ger dig tillgång till enkla, billiga och privata Bitcoin-transaktioner - utan behov av en appbutik!**
 
 
 I denna handledning kommer vi att utforska Cashu.me, en webbläsarbaserad Wallet för privata Bitcoin-betalningar med Chaumian ecash. Innan vi dyker in, låt oss ha en kort introduktion till ecash och hur det fungerar.
@@ -43,16 +43,16 @@ Låt oss dyka in i funktionerna och utforska vad Cashu.me har att erbjuda:
 
 
 
-- Chaumian ecash på Lightning**: Använder blinda signaturer så att myntverk inte kan spåra användarsaldon eller transaktionshistorik
-- Självförvaltande av tokens**: Du kontrollerar ecash-tokens lokalt med din seed-fras
-- Säkerhetskopior av seed-fras**: 12-ords återställningsfras för återställning av Wallet
-- Oberoende av myntverk**: Fungerar med flera oberoende myntverk - du är inte låst till en leverantör
-- Omedelbara, kostnadsfria transaktioner**: Inom samma myntsystem slutförs betalningar på några sekunder utan avgifter
-- Sekretesskyddande arkitektur**: Mints kan inte se vem som gör transaktioner med vem
-- Offline ecash**: Skicka/ta emot polletter via ett lokalt överföringsprotokoll, som NFC, QR-kod, Bluetooth etc. utan internetanslutning
-- Upptäck ecash-mynt via Nostr**: Hitta och verifiera betrodda mynthanterare via Nostr-protokollet
-- Byt ecash mellan myntverk**: Alla myntverk talar Lightning, vilket innebär att du kan överföra värde mellan dem.
-- Fjärrstyr din Wallet med Nostr Wallet Connect (NWC)**: Anslut till andra appar som Nostr Client och börja zappa via NWC
+- **Chaumian ecash på Lightning**: Använder blinda signaturer så att myntverk inte kan spåra användarsaldon eller transaktionshistorik
+- **Självförvaltande av tokens**: Du kontrollerar ecash-tokens lokalt med din seed-fras
+- **Säkerhetskopior av seed-fras**: 12-ords återställningsfras för återställning av Wallet
+- **Oberoende av myntverk**: Fungerar med flera oberoende myntverk - du är inte låst till en leverantör
+- **Omedelbara, kostnadsfria transaktioner**: Inom samma myntsystem slutförs betalningar på några sekunder utan avgifter
+- **Sekretesskyddande arkitektur**: Mints kan inte se vem som gör transaktioner med vem
+- **Offline ecash**: Skicka/ta emot polletter via ett lokalt överföringsprotokoll, som NFC, QR-kod, Bluetooth etc. utan internetanslutning
+- **Upptäck ecash-mynt via Nostr**: Hitta och verifiera betrodda mynthanterare via Nostr-protokollet
+- **Byt ecash mellan myntverk**: Alla myntverk talar Lightning, vilket innebär att du kan överföra värde mellan dem.
+- **Fjärrstyr din Wallet med Nostr Wallet Connect (NWC)**: Anslut till andra appar som Nostr Client och börja zappa via NWC
 
 
 Den kritiska avvägningen är "förtroende": medan du kontrollerar själva symbolerna måste du lita på att myntverk förvaltar de underliggande Bitcoin-reserverna. Som Cashus dokumentation säger:

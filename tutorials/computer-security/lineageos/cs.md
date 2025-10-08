@@ -149,8 +149,8 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-- Nástroj Android Flash Tool**: Pomocí oficiálního nástroje Google [flash.android.com](https://flash.android.com) můžete snadno obnovit zařízení Pixel do výchozího systému Android z webového prohlížeče (vyžaduje se Chrome/Edge)
-- Alternativa**: Tovární obrázky ručně z [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Nástroj Android Flash Tool**: Pomocí oficiálního nástroje Google [flash.android.com](https://flash.android.com) můžete snadno obnovit zařízení Pixel do výchozího systému Android z webového prohlížeče (vyžaduje se Chrome/Edge)
+- **Alternativa**: Tovární obrázky ručně z [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-- Spusťte zařízení alespoň jednou** s původním výchozím systémem
-- Otestujte všechny funkce**: Zkoušejte SMS, hovory, Wi-Fi, mobilní data
-- Důležité**: Zkontrolujte, zda můžete odesílat/přijímat SMS a uskutečňovat/přijímat hovory (včetně hovorů přes WiFi a 4G/5G). Pokud to nefunguje ve stock systému, nebude to fungovat ani v LineageOS!
-- Nedávná zařízení**: Některá vyžadují, aby bylo VoLTE/VoWiFi použito alespoň jednou v základním systému pro zajištění IMS
+- Spusťte zařízení alespoň jednou s původním výchozím systémem
+- **Otestujte všechny funkce**: Zkoušejte SMS, hovory, Wi-Fi, mobilní data
+- **Důležité**: Zkontrolujte, zda můžete odesílat/přijímat SMS a uskutečňovat/přijímat hovory (včetně hovorů přes WiFi a 4G/5G). Pokud to nefunguje ve stock systému, nebude to fungovat ani v LineageOS!
+- **Nedávná zařízení**: Některá vyžadují, aby bylo VoLTE/VoWiFi použito alespoň jednou v základním systému pro zajištění IMS
 
 
 
@@ -171,8 +171,8 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-- Odstranění všech účtů Google** ze zařízení, abyste se vyhnuli ochraně před obnovením továrního nastavení, která může zablokovat aktivaci
-- Úplné zálohování** : Tento proces zcela vymaže telefon. Zálohujte fotografie, kontakty, aplikace a důležité soubory
+- Odstranění všech účtů Google ze zařízení, abyste se vyhnuli ochraně před obnovením továrního nastavení, která může zablokovat aktivaci
+- **Úplné zálohování**: Tento proces zcela vymaže telefon. Zálohujte fotografie, kontakty, aplikace a důležité soubory
 
 
 
@@ -216,7 +216,7 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-⚠️ **Tyto pokyny jsou specifické pro LineageOS 22.2. Postupujte přesně podle jednotlivých kroků. Pokud se něco nepodaří, nepokračujte dál!
+⚠️ **Tyto pokyny jsou specifické pro LineageOS 22.2. Postupujte přesně podle jednotlivých kroků. Pokud se něco nepodaří, nepokračujte dál!**
 
 
 
@@ -249,8 +249,8 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-- Sestavte LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Požadované soubory**: Stáhněte si 3 požadované soubory z této stránky (budou použity v následujících krocích):
+- **Sestavte LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Požadované soubory**: Stáhněte si 3 požadované soubory z této stránky (budou použity v následujících krocích):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (hlavní ROM)
   - dtbo.img` (blob stromu zařízení oddílu)
   - `boot.img` (recovery LineageOS)
@@ -269,13 +269,13 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-⚠️ **Tímto krokem odstraníte všechna data!
+⚠️ **Tímto krokem odstraníte všechna data!**
 
 
 
 
 
-- Otestujte připojení ADB**: Připojte zařízení přes USB a otestujte ho pomocí příkazu `adb devices` z terminálu počítače
+- **Otestujte připojení ADB**: Připojte zařízení přes USB a otestujte ho pomocí příkazu `adb devices` z terminálu počítače
 
 
 
@@ -289,7 +289,7 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-- Autorizace připojení** v telefonu
+- **Autorizace připojení** v telefonu
 
 
 
@@ -303,7 +303,7 @@ Podle oficiálních statistik patří mezi nejpoužívanější modely celá řa
 
 
 
-- Zavedení do režimu zavaděče** :
+- **Zavedení do režimu zavaděče**:
 
 
 ```
@@ -317,7 +317,7 @@ Nebo podržte tlačítko **Ztlumit hlasitost + Napájení** zařízení vypnuté
 
 
 
-- Zkontrolujte připojení fastboot**:
+- Zkontrolujte připojení **fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Odemknutí zavaděče** :
+- **Odemknutí zavaděče**:
 
 
 ```
@@ -370,7 +370,7 @@ V zařízení se pohybujte pomocí tlačítek hlasitosti a stisknutím tlačítk
 
 
 
-- Po automatickém restartu** znovu povolte ladění USB v možnostech pro vývojáře
+- Po automatickém restartu znovu povolte ladění USB v možnostech pro vývojáře
 
 
 
@@ -385,8 +385,8 @@ V zařízení se pohybujte pomocí tlačítek hlasitosti a stisknutím tlačítk
 
 
 
-- Restartujte zavaděč**: Snížení hlasitosti + napájení
-- Flash** (nahraďte `/path/to/` složkou, do které jste soubor stáhli) :
+- **Restartujte zavaděč**: Snížení hlasitosti + napájení
+- **Flash** (nahraďte `/path/to/` složkou, do které jste soubor stáhli) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (nahraďte `/path/to/` složkou, do které jste soubor stáhli) :
+- **Flash recovery** (nahraďte `/path/to/` složkou, do které jste soubor stáhli) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Restartujte obnovení** a zkontrolujte
+- **Restartujte obnovení** a zkontrolujte
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Restart v režimu obnovení**: Režim obnovení: Snížení hlasitosti + napájení → Režim obnovení
+- **Restart v režimu obnovení**: Režim obnovení: Snížení hlasitosti + napájení → Režim obnovení
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Obnovení továrního nastavení** : Zadejte "Obnovení továrního nastavení" → "Formátovat data / obnovení továrního nastavení"
+- **Obnovení továrního nastavení**: Zadejte "Obnovení továrního nastavení" → "Formátovat data / obnovení továrního nastavení"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Návrat do hlavní nabídky**
-- Sideload LineageOS** :
+- **Návrat do hlavní nabídky**
+- **Sideload LineageOS**:
    - V zařízení: "Použít aktualizaci" → "Použít z ADB"
    - Na PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Restart**: "Restartovat systém"
-- První bota**: Může trvat až 15 minut
+- **Restart**: "Restartovat systém"
+- **První bota**: Může trvat až 15 minut
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Kompatibilita firmwaru**: Ujistěte se, že požadovaná verze firmwaru je uvedena na stránce ke stažení vašeho modelu
-- Po instalaci systému LineageOS nikdy znovu nezamykejte** zavaděč
-- Postupujte podle konkrétních pokynů** pro své zařízení
+- **Kompatibilita firmwaru**: Ujistěte se, že požadovaná verze firmwaru je uvedena na stránce ke stažení vašeho modelu
+- Po instalaci systému LineageOS nikdy znovu nezamykejte **zavaděč**
+- Postupujte podle **konkrétních pokynů** pro své zařízení
 
 
 
@@ -559,11 +559,11 @@ Zjednodušený systém Interface, který se blíží systému Android, bez spole
 
 
 
-- Navigace**: (offline mapy založené na OpenStreetMap)
-- Komunikace**: Signal (šifrované zprávy end-to-end), K-9 Mail (bezplatný e-mailový klient)
-- Média**: (YouTube bez reklam a sledování), VLC (univerzální přehrávač médií)
-- Produktivita**: (selfhostingový cloud), Simple Calendar (synchronizace CalDAV)
-- Bezpečnost**: Bitwarden (správce hesel), Aegis Authenticator (kódy 2FA)
+- **Navigace**: (offline mapy založené na OpenStreetMap)
+- **Komunikace**: Signal (šifrované zprávy end-to-end), K-9 Mail (bezplatný e-mailový klient)
+- **Média**: (YouTube bez reklam a sledování), VLC (univerzální přehrávač médií)
+- **Produktivita**: (selfhostingový cloud), Simple Calendar (synchronizace CalDAV)
+- **Bezpečnost**: Bitwarden (správce hesel), Aegis Authenticator (kódy 2FA)
 
 
 

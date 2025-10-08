@@ -890,7 +890,7 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 
-- 貨幣**：選擇是否以 BTC 或 Sats 顯示金額，以及預設法定貨幣（美元、歐元等）。
+- **貨幣**：選擇是否以 BTC 或 Sats 顯示金額，以及預設法定貨幣（美元、歐元等）。
 
 
 

@@ -71,7 +71,7 @@ Nmap'in güçlü yönleri çoktur:
 
 
 
-Nmap, halk arasında belli bir şöhrete sahip olan birkaç güvenlik aracından biridir. Matrix Reloaded_ filminde Trinity'nin bir sistemi hacklemek için kullandığı sembolik bir sahnede yer almaktadır:
+Nmap, halk arasında belli bir şöhrete sahip olan birkaç güvenlik aracından biridir. **Matrix Reloaded** filminde Trinity'nin bir sistemi hacklemek için kullandığı sembolik bir sahnede yer almaktadır:
 
 
 
@@ -366,7 +366,7 @@ nmap --version
 
 
 
-nmap'in geçerli sürümünü görüntülemenin sonucu._
+nmap'in geçerli sürümünü görüntülemenin sonucu.
 
 
 
@@ -451,7 +451,7 @@ nmap --version
 
 
 
-nmap'in geçerli sürümünü görüntülemenin sonucu._
+nmap'in geçerli sürümünü görüntülemenin sonucu.
 
 
 
@@ -475,7 +475,7 @@ En temel haliyle, yani seçeneklerini kullanmada çok ileri gitmeden, Nmap mutla
 
 
 
-nmap seçenekleri kök hakları gerektirdiğinde Linux altında hata mesajı._
+nmap seçenekleri kök hakları gerektirdiğinde Linux altında hata mesajı.
 
 
 
@@ -611,7 +611,7 @@ nmap 192.168.1.18
 
 
 
-nmap ile gerçekleştirilen basit bir TCP taramasının sonuçları._
+nmap ile gerçekleştirilen basit bir TCP taramasının sonuçları.
 
 
 
@@ -723,7 +723,7 @@ Bir Linux sistemindeki "/etc/services" dosyasına bakarsanız, Nmap tarafından 
 
 
 
-linux altında "/etc/services" dosyasının içeriğini çıkarır._
+linux altında "/etc/services" dosyasının içeriğini çıkarır.
 
 
 
@@ -857,7 +857,7 @@ Burada, elde edilen dönüş TCP taramasıyla aynı biçime sahiptir, ancak gör
 
 
 
-nmap ile gerçekleştirilen basit bir UDP taramasının sonucu._
+nmap ile gerçekleştirilen basit bir UDP taramasının sonucu.
 
 
 
@@ -869,7 +869,7 @@ Bu arada, eğitimde daha önce de belirtildiği gibi, Nmap'in UDP taramaları i�
 
 
 
-not: Nmap'in en son sürümlerinden bu yana, bazı özellikler ağ soketlerine ham erişim gerektirdiğinden, güvenilir sonuçlar elde etmek için UDP taramalarını her zaman yönetici ayrıcalıklarıyla çalıştırmanız önerilir._
+**not:** Nmap'in en son sürümlerinden bu yana, bazı özellikler ağ soketlerine ham erişim gerektirdiğinden, güvenilir sonuçlar elde etmek için UDP taramalarını her zaman yönetici ayrıcalıklarıyla çalıştırmanız önerilir.
 
 
 
@@ -909,7 +909,7 @@ Yukarıdaki ekran görüntüsünde Nmap'in çok sayıda UDP paketi göndereceği
 
 
 
-rFC 1122'den alıntıdır._
+rFC 1122'den alıntıdır.
 
 
 
@@ -921,7 +921,7 @@ UDP'deki **üç olası senaryoyu** gösteren bu Wireshark yakalamasına daha yak
 
 
 
-nmap ile farklı portlarda UDP taraması sırasında ağ yakalama._
+nmap ile farklı portlarda UDP taraması sırasında ağ yakalama.
 
 
 
@@ -956,7 +956,7 @@ nmap ile farklı portlarda UDP taraması sırasında ağ yakalama._
 
 
 
-nmap._ aracılığıyla gerçekleştirilen bir UDP taramasının olası sonuçları
+**nmap** aracılığıyla gerçekleştirilen bir UDP taramasının olası sonuçları
 
 
 
@@ -988,7 +988,7 @@ Varsayılan modda taranan 1000 port, görülme sıklıklarına göre seçilir. B
 
 
 
-"/usr/shares/nmap/nmap-services"._ dosyasından çıkarılmıştır
+"/usr/shares/nmap/nmap-services" dosyasından çıkarılmıştır
 
 
 
@@ -1706,7 +1706,7 @@ Bu dosya, tümü iki ana kılavuz etrafında düzenlenmiş çok sayıda girdiden
 
 
 
-- Prob: Bu, Nmap'in tanımlanacak hizmetten bir tepki almak için göndereceği paketin tanımıdır. Bunu kör bir girişim gibi düşünün _Hello? Guten Tag? Merhaba mı? Um... Buenos Dias belki? Hedeflenen hizmet, anladığı (yani doğru protokolü konuşan) bir sonda alır almaz, Nmap'e yanıt verecek ve bu da hizmetin türünü onaylayacaktır.
+- Prob: Bu, Nmap'in tanımlanacak hizmetten bir tepki almak için göndereceği paketin tanımıdır. Bunu kör bir girişim gibi düşünün _"Hello? Guten Tag? Merhaba mı? Um... Buenos Dias belki?"_ Hedeflenen hizmet, anladığı (yani doğru protokolü konuşan) bir sonda alır almaz, Nmap'e yanıt verecek ve bu da hizmetin türünü onaylayacaktır.
 
 
 
@@ -1749,7 +1749,7 @@ Sondaların neye benzeyebileceğini anlamanıza yardımcı olmak için, bu dosya
 
 
 
-nmap tarafından kullanılan ve `/usr/share/nmap/nmap-service-probes`._ dosyasında bulunan birkaç Prob örneği
+nmap tarafından kullanılan ve `/usr/share/nmap/nmap-service-probes` dosyasında bulunan birkaç Prob örneği
 
 
 
@@ -1858,7 +1858,7 @@ Teknolojiyi ve sürümü tespit etmek için hangi _Probes_ kullanıldığını (
 
 
 
-probes `rarity` yönergesi `/usr/share/nmap/nmap-service-probes`._ dosyasında
+probes `rarity` yönergesi `/usr/share/nmap/nmap-service-probes` dosyasında
 
 
 
@@ -1912,7 +1912,7 @@ Bu konuyu bitirmek için, işte _Probe_ 9 ve 8'in bir örneği:
 
 
 
-`/usr/share/nmap/nmap-service-probes`._ dosyasındaki 8 ve 9 nadirlikteki Prob örnekleri
+`/usr/share/nmap/nmap-service-probes` dosyasındaki 8 ve 9 nadirlikteki Prob örnekleri
 
 
 
@@ -2109,7 +2109,7 @@ nmap -sC -p- 10.10.10.152
 
 
 
-nmap._ aracılığıyla bir ana bilgisayarda yapılan güvenlik açığı taramasının sonuçlarına örnek
+**nmap** aracılığıyla bir ana bilgisayarda yapılan güvenlik açığı taramasının sonuçlarına örnek
 
 
 
@@ -2264,7 +2264,7 @@ Teknik olarak, bir komut dosyasının ait olduğu kategoriler doğrudan kodunda 
 
 
 
-nSE komut dosyası kategorileri `ftp-anon`._
+nSE komut dosyası kategorileri `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Nmap'in NSE komut dosyaları varsayılan olarak `/usr/share/nmap/scripts/' dizin
 
 
 
-nSE komut dosyalarını içeren `/usr/share/nmap/scripts/` dizininin içeriğini çıkarır._
+nSE komut dosyalarını içeren `/usr/share/nmap/scripts/` dizininin içeriğini çıkarır.
 
 
 
@@ -2296,7 +2296,7 @@ Bu dizinde 5.000'den fazla NSE komut dosyası bulunmaktadır. Çoğu durumda, be
 
 
 
-ftp-`._ ile başlayan adlara sahip NSE Nmap komut dosyalarının listesi
+**ftp-** ile başlayan adlara sahip NSE Nmap komut dosyalarının listesi
 
 
 
@@ -2441,7 +2441,7 @@ O zaman çok kesin bir sonuç elde ederiz:
 
 
 
-nmap aracılığıyla bir FTP bağlantı noktasında NSE `ftp-anon` komut dosyasını kullanmanın sonucu._
+nmap aracılığıyla bir FTP bağlantı noktasında NSE `ftp-anon` komut dosyasını kullanmanın sonucu.
 
 
 
@@ -2468,7 +2468,7 @@ Bir NSE betiğinin ne yaptığına dair kısa bir açıklama için yukarıda bah
 
 
 
-help NSE betiği `sshv1`._ için sonuç görüntüleme
+help NSE betiği `sshv1` için sonuç görüntüleme
 
 
 
@@ -2500,7 +2500,7 @@ Bu betik, bağlamımıza uyacak şekilde özelleştirebileceğimiz "varsayılan"
 
 
 
-nSE `ssh-brute` betiği için yardımın nmap.org._ bağlantısıyla görüntülenmesinin sonucu
+nSE `ssh-brute` betiği için yardımın **nmap.org** bağlantısıyla görüntülenmesinin sonucu
 
 
 
@@ -2543,7 +2543,7 @@ Bu son komutta görebileceğiniz gibi, `--scripts-args key=value,key=value` seç
 
 
 
-nmap._ aracılığıyla SSH bruteforce yürütmesinin sonucu
+nmap aracılığıyla SSH bruteforce yürütmesinin sonucu
 
 
 
@@ -2637,7 +2637,7 @@ Bu format, `grep` gibi araçlar tarafından işlenmesini kolaylaştıracak şeki
 
 
 
-nmap ağ taraması ve "greppable" formatında çıktı._
+nmap ağ taraması ve "greppable" formatında çıktı.
 
 
 
@@ -2700,7 +2700,7 @@ Bu format çeşitli amaçlar için kullanılabilir ve özellikle hızlı kodlama
 
 
 
-not: `-oG` greppable formatı Nmap 7.90'dan beri resmi olarak kullanımdan kaldırılmıştır. Uyumluluk için hala kullanılabilir. Uyumluluk amacıyla hala kullanılabilir, ancak herhangi bir geliştirme veya otomatik ayrıştırma için XML veya normal biçimi kullanmanız önerilir._
+**Not:** `-oG` greppable formatı Nmap 7.90'dan beri resmi olarak kullanımdan kaldırılmıştır. Uyumluluk için hala kullanılabilir. Uyumluluk amacıyla hala kullanılabilir, ancak herhangi bir geliştirme veya otomatik ayrıştırma için XML veya normal biçimi kullanmanız önerilir.
 
 
 
@@ -2838,7 +2838,7 @@ Sonuç olarak, tüm taramamız güzel bir şekilde yapılandırılmış olacak, 
 
 
 
-xsltproc._ tarafından oluşturulan HTML biçimindeki bir Nmap tarama raporundan alıntı
+xsltproc tarafından oluşturulan HTML biçimindeki bir Nmap tarama raporundan alıntı
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_), XML verilerinin bir web
 
 
 
-kaynak: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+kaynak: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Bahsetmemiz gereken ilk seçenek, Nmap'in ayrıntı düzeyini artıran `-v` seç
 
 
 
-v`._ seçeneğini kullanarak nmap'in ayrıntılı çıktısı
+**v** seçeneğini kullanarak nmap'in ayrıntılı çıktısı
 
 
 
@@ -2900,7 +2900,7 @@ Nmap'in tarama sırasındaki etkinliğini daha fazla izlemek için `--packet-tra
 
 
 
-nmap etkinliğinin `--packet-trace`._ aracılığıyla ayrıntılı izlenmesi
+nmap etkinliğinin `--packet-trace` aracılığıyla ayrıntılı izlenmesi
 
 
 
@@ -3022,7 +3022,7 @@ msf6 > workspace -a SI_siege
 ```
 # Retrieve the database status
 msf6 > db_status
-[*] Connected to msf. Connection type: postgresql.
+**Connected to msf. Connection type: postgresql.**
 ```
 
 
@@ -3120,7 +3120,7 @@ Aquatone normalde web hizmetlerini bulmak için ana bilgisayarlarda bağlantı n
 
 
 
-nmap sonuçlarını XML formatında `aquatone`._ ile kullanmak
+nmap sonuçlarını XML formatında **aquatone** ile kullanmak
 
 
 
@@ -3197,7 +3197,7 @@ Her durumda, bakacağımız parametrelerin varsayılan değerlerini ve kullanaca
 
 
 
-nmap'in `-d` seçeneği aracılığıyla Zamanlama seçeneklerini görüntüleyin._
+nmap'in `-d` seçeneği aracılığıyla Zamanlama seçeneklerini görüntüleyin.
 
 
 
@@ -3263,7 +3263,7 @@ Nmap taramalarının hızını optimize etmek (veya daha fazla doğruluk sağlam
 
 
 
-Timeouts_ için bu, Nmap'in bir yanıt beklemeyi bırakacağı ve hizmeti veya ana bilgisayarı ulaşılamaz olarak kabul edeceği **yanıt yok zaman aşımıdır**. _retry_ için bu, Nmap'in devam etmeden önce gerçekleştireceği **bir işlemdeki ardışık deneme sayısıdır**.
+**Timeouts** için bu, Nmap'in bir yanıt beklemeyi bırakacağı ve hizmeti veya ana bilgisayarı ulaşılamaz olarak kabul edeceği **yanıt yok zaman aşımıdır**. **Retry** için bu, Nmap'in devam etmeden önce gerçekleştireceği **bir işlemdeki ardışık deneme sayısıdır**.
 
 
 
@@ -3465,7 +3465,7 @@ Nmap'i `root` olarak bir oturum aracılığıyla değil, ayrıcalıklı bir kull
 
 
 
-nmap ayrıcalıklarının `sudo`._ aracılığıyla yükseltilmesi
+nmap ayrıcalıklarının `sudo` aracılığıyla yükseltilmesi
 
 
 
@@ -3509,7 +3509,7 @@ Fark etmiş olabileceğiniz gibi, Nmap TCP taramaları için çeşitli seçenekl
 
 
 
-nmap'te mevcut tarama teknikleri._
+nmap'te mevcut tarama teknikleri.
 
 
 
@@ -3598,7 +3598,7 @@ Belirtildiği gibi, Nmap'i ayrıcalıklı bir terminalden çalıştırırken, TC
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Her iki durumda da TCP FIN bir yanıt beklemeyeceğinden, hedef ana bilgisayar i
 
 
 
-nmap tarafından yapılan bir TCP FIN taramasının sonuçları._
+nmap tarafından yapılan bir TCP FIN taramasının sonuçları.
 
 
 
@@ -3892,7 +3892,7 @@ TCP XMAS taramasının, TCP SYN veya Connect gibi diğer bazı tarama türlerini
 
 
 
-not: Windows'un son sürümlerinde XMAS/FIN/NULL taramaları için destek sınırlıdır ve bu tür hedeflerde sonuçlar tutarsız olabilir. (Güncelleme 2025)_
+not: Windows'un son sürümlerinde XMAS/FIN/NULL taramaları için destek sınırlıdır ve bu tür hedeflerde sonuçlar tutarsız olabilir. (Güncelleme 2025)
 
 
 
@@ -3983,7 +3983,7 @@ Bu tür bir tarama gerçekleştirmek için Nmap'in `-sA' seçeneğini kullanaca�
 
 
 
-tCP ACK Taraması sırasında nmap ekranı._
+**TCP ACK Taraması** sırasında nmap ekranı.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-not: `-sP` seçeneği birkaç yıldır kullanılmamaktadır ve `-sn` ile değiştirilmelidir. (Güncelleme 2025)_
+**not: `-sP` seçeneği birkaç yıldır kullanılmamaktadır ve `-sn` ile değiştirilmelidir. (Güncelleme 2025)**
 
 
 

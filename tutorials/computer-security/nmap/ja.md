@@ -366,7 +366,7 @@ nmap --version
 
 
 
-Nmap._の現在のバージョンを表示した結果。
+Nmap の現在のバージョンを表示した結果。
 
 
 
@@ -451,7 +451,7 @@ nmap --version
 
 
 
-Nmap._の現在のバージョンを表示した結果。
+Nmap の現在のバージョンを表示した結果。
 
 
 
@@ -611,7 +611,7 @@ nmap 192.168.1.18
 
 
 
-Nmap._で実行した単純なTCPスキャンの結果。
+Nmap で実行した単純なTCPスキャンの結果。
 
 
 
@@ -857,7 +857,7 @@ nmap -sU 192.168.1.19
 
 
 
-Nmap._で実行した単純なUDPスキャンの結果。
+Nmap で実行した単純なUDPスキャンの結果。
 
 
 
@@ -909,7 +909,7 @@ Nmapスキャン中のuDPパケット送信とICMP受信（ポート到達不能
 
 
 
-RFC1122._より抜粋
+**RFC1122**より抜粋
 
 
 
@@ -921,7 +921,7 @@ RFC1122._より抜粋
 
 
 
-Nmap._で異なるポートをUDPスキャンした際のネットワーク・キャプチャ。
+Nmap で異なるポートをUDPスキャンした際のネットワーク・キャプチャ。
 
 
 
@@ -956,7 +956,7 @@ Nmap._で異なるポートをUDPスキャンした際のネットワーク・�
 
 
 
-Nmap._経由で実行されたUDPスキャンの可能な結果
+**Nmap経由で実行されたUDPスキャンの可能な結果**
 
 
 
@@ -988,7 +988,7 @@ Nmap._経由で実行されたUDPスキャンの可能な結果
 
 
 
-ファイル"/usr/shares/nmap/nmap-services"._から抽出した。
+ファイル"/usr/shares/nmap/nmap-services"から抽出した。
 
 
 
@@ -1706,7 +1706,7 @@ FTPサービスによってTCPコネクションが確立されると、すぐ�
 
 
 
-- Probe`：これはNmapが識別されるべきサービスからの反応を引き起こすために送信するパケットの定義である。これは、_Hello?Guten Tag?こんにちは？ブエノス・ディアスかな？対象となるサービスが、自分が理解できる（つまり正しいプロトコルを話す）プローブを受信するとすぐに、Nmapに応答する。
+- Probe`：これはNmapが識別されるべきサービスからの反応を引き起こすために送信するパケットの定義である。これは、_Hello?Guten Tag?こんにちは？ブエノス・ディアスかな？_対象となるサービスが、自分が理解できる（つまり正しいプロトコルを話す）プローブを受信するとすぐに、Nmapに応答する。
 
 
 
@@ -1749,7 +1749,7 @@ ports` 行は、Nmap にプローブを送信するポートを指定する。�
 
 
 
-Nmapが使用し、ファイル `/usr/share/nmap/nmap-service-probes`._ に格納されているプローブの例。
+Nmapが使用し、ファイル `/usr/share/nmap/nmap-service-probes` に格納されているプローブの例。
 
 
 
@@ -1858,7 +1858,7 @@ Service scan hard match (Probe GetRequest matched with GetRequest line 10510): 1
 
 
 
-proces `rarity` ディレクティブを `/usr/share/nmap/nmap-service-probes`._ ファイルに記述する。
+proces `rarity` ディレクティブを `/usr/share/nmap/nmap-service-probes` ファイルに記述する。
 
 
 
@@ -1912,7 +1912,7 @@ nmap 192.168.1.0/24 -sV --version-intensity 9
 
 
 
-ファイル `/usr/share/nmap/nmap-service-probes`._ にあるレアリティ8と9のプローブの例。
+ファイル `/usr/share/nmap/nmap-service-probes` にあるレアリティ8と9のプローブの例。
 
 
 
@@ -2008,7 +2008,7 @@ Nmapネットワークスキャナーを使って、情報システムのサー�
 
 
 
-これを実現するために、NmapはNSE（_Nmap Scripting Engine）スクリプトに依存している。NSEスクリプトは、テストへのきめ細かなアプローチを可能にするモジュールとみなすことができる。
+これを実現するために、NmapはNSE（_Nmap Scripting Engine_）スクリプトに依存している。NSEスクリプトは、テストへのきめ細かなアプローチを可能にするモジュールとみなすことができる。
 
 
 
@@ -2109,7 +2109,7 @@ NSEスクリプトを使用したNmapスキャンの結果である：
 
 
 
-Nmap._によるホストの脆弱性スキャンの結果の例。
+**Nmap**によるホストの脆弱性スキャンの結果の例。
 
 
 
@@ -2218,7 +2218,7 @@ nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0
 
 
 
-このセクションでは、NSE（_Nmap Scripting Engine）スクリプトについて詳しく見ていく。特に、スクリプトがこのツールの大きな長所の1つである理由、スクリプトの動作方法、既存のスクリプトの閲覧と使用方法について説明する。
+このセクションでは、NSE（_Nmap Scripting Engine_）スクリプトについて詳しく見ていく。特に、スクリプトがこのツールの大きな長所の1つである理由、スクリプトの動作方法、既存のスクリプトの閲覧と使用方法について説明する。
 
 
 
@@ -2264,7 +2264,7 @@ NmapのNSEスクリプトを使えば、非常に柔軟な方法で機能を拡�
 
 
 
-nSE スクリプトのカテゴリー `ftp-anon`._
+nSE スクリプトのカテゴリー `ftp-anon`.
 
 
 
@@ -2441,7 +2441,7 @@ nmap --script ftp-anon -p 21 10.10.10.152
 
 
 
-Nmap._経由でFTPポートにNSEの`ftp-anon`スクリプトを使用した結果。
+Nmap経由でFTPポートにNSEの`ftp-anon`スクリプトを使用した結果。
 
 
 
@@ -2468,7 +2468,7 @@ NSEスクリプトが何をするのかを簡単に説明するには、前述�
 
 
 
-NSE スクリプト `sshv1`._ の結果を表示します。
+NSE スクリプト `sshv1` の結果を表示します。
 
 
 
@@ -2500,7 +2500,7 @@ Nmapを使用していると、正しく機能するために入力引数を必�
 
 
 
-NSE `ssh-brute` スクリプトのヘルプを nmap.org._ へのリンクとともに表示した結果。
+NSE `ssh-brute` スクリプトのヘルプを nmap.org へのリンクとともに表示した結果。
 
 
 
@@ -2543,7 +2543,7 @@ nmap --script ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist 
 
 
 
-Nmap._によるSSHブルートフォース実行結果
+**Nmap**によるSSHブルートフォース実行結果
 
 
 
@@ -2838,7 +2838,7 @@ firefox "Nmap – rapport web 05-2024.html"
 
 
 
-xsltproc._によって生成されたHTML形式のNmapスキャンレポートからの抜粋。
+xsltproc によって生成されたHTML形式のNmapスキャンレポートからの抜粋。
 
 
 
@@ -2860,7 +2860,7 @@ XSLT（_Extensible Stylesheet Language Transformations_）はXSLのサブセッ�
 
 
 
-ソースを参照してください：[helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+ソースを参照してください：[helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ XSLT（_Extensible Stylesheet Language Transformations_）はXSLのサブセッ�
 
 
 
-v`._ オプションを使った nmap の冗長出力
+**-v** オプションを使った nmap の冗長出力
 
 
 
@@ -3509,7 +3509,7 @@ sudo`によるNmap権限の昇格。
 
 
 
-Nmap._で利用可能なスキャン技術
+**Nmap**で利用可能なスキャン技術
 
 
 
@@ -3598,7 +3598,7 @@ WiresharkでパケットのTCPフラグを見る（ここではTCP SYN）
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3645,7 +3645,7 @@ TCP SYNスキャン`は、速度の理由から最も一般的に使用される
 
 
 
-TCPスキャンの2つ目のタイプは`TCPコネクトスキャン`であり、_フルオープンスキャン としても知られている。このスキャンはTCP SYNスキャンと同じように動作するが、今回はサーバーからの肯定的な応答(SYN/ACK)の後に`TCP ACK`を返す。これが「フルオープン」と呼ばれる理由であり、スキャン中にオープンされたすべてのポートで接続が完全にオープンされ、開始されるため、TCPの_Three Way Handshake_が尊重されるからである：
+TCPスキャンの2つ目のタイプは`TCPコネクトスキャン`であり、**フルオープンスキャン**としても知られている。このスキャンはTCP SYNスキャンと同じように動作するが、今回はサーバーからの肯定的な応答(SYN/ACK)の後に`TCP ACK`を返す。これが「フルオープン」と呼ばれる理由であり、スキャン中にオープンされたすべてのポートで接続が完全にオープンされ、開始されるため、TCPの**Three Way Handshake**が尊重されるからである：
 
 
 
@@ -3787,7 +3787,7 @@ TCP FINスキャンはWindowsホストでは動作しません。なぜなら、
 
 
 
-Nmap._によるTCP FINスキャンの結果。
+Nmap による TCP FIN スキャンの結果。
 
 
 
@@ -3892,7 +3892,7 @@ TCP SYNやコネクトのような他のタイプのスキャンとは異なり�
 
 
 
-注：Windowsの最近のバージョンにおけるXMAS/FIN/NULLスキャンのサポートはまだ限定的であり、この種のターゲットでは結果に一貫性がない可能性がある。(2025年更新)_。
+注：Windowsの最近のバージョンにおけるXMAS/FIN/NULLスキャンのサポートはまだ限定的であり、この種のターゲットでは結果に一貫性がない可能性がある。(2025年更新)
 
 
 
@@ -3983,7 +3983,7 @@ Nmapの`-sA`オプションを使用して、このタイプのスキャンを�
 
 
 
-TCP ACKスキャン中のnmapの表示._.
+TCP ACKスキャン中のnmapの表示。
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-note: `-sP` オプションは数年前から廃止されており、`sn` に置き換える必要があります。(2025年更新)_。
+note: `-sP` オプションは数年前から廃止されており、`sn` に置き換える必要があります。(2025年更新)。
 
 
 

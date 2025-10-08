@@ -346,7 +346,7 @@ Wallet جدید فقط قابل مشاهده است، بنابراین در ای
 
 
 
-از Wallet airgap، اکنون منوی _Tools_ را انتخاب کنید، سپس _Load transaction_ و در ادامه From file_ را انتخاب کنید.
+از Wallet airgap، اکنون منوی _Tools_ را انتخاب کنید، سپس _Load transaction_ و در ادامه _From file_ را انتخاب کنید.
 
 
 

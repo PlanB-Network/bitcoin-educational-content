@@ -28,25 +28,25 @@ Speed ​​ifise ibintu vyinshi vyo gupfuka ivy’amahera y’ubucuruzi bwawe. 
 
 
 
-- Uburyo bwo kwishura kuri internet**: Ushobora kwakira amahera y’abaguzi bawe aho bari hose, ushimira urubuga rwawe.
+- **Uburyo bwo kwishura kuri internet**: Ushobora kwakira amahera y'abaguzi bawe aho bari hose, ushimira urubuga rwawe.
 
 
 
 
 
-- Ukwishura ku kibanza**: Ni vyiza ku maduka n’ubucuruzi bukorakoranya amahera mu maduka.
+- **Ukwishura ku kibanza**: Ni vyiza ku maduka n'ubucuruzi bukorakoranya amahera mu maduka.
 
 
 
 
 
-- Ivyo gukura**: Kura itunga ryawe neza kandi ukoreshe ama bitcoins yawe kugira ngo wishure abakiriya bawe n’imishahara yawe.
+- **Ivyo gukura**: Kura itunga ryawe neza kandi ukoreshe ama bitcoins yawe kugira ngo wishure abakiriya bawe n'imishahara yawe.
 
 
 
 
 
-- Guhuza n’izindi nzira**: Woba ukoresha ibikoresho vyo hanze kugira ngo ushobore gucunga ivyo wishura? Speed ​​iraguha ubushobozi bwo kubifatanya n’urubuga rwayo, ku bijanye n’ibidukikije vyose muri kimwe vyerekana ubucuruzi bwawe.
+- **Guhuza n'izindi nzira**: Woba ukoresha ibikoresho vyo hanze kugira ngo ushobore gucunga ivyo wishura? Speed ​​iraguha ubushobozi bwo kubifatanya n'urubuga rwayo, ku bijanye n'ibidukikije vyose muri kimwe vyerekana ubucuruzi bwawe.
 
 
 
@@ -265,7 +265,7 @@ Mu **Send Payments**, uzosangamwo uburyo bwose bwo kohereza amahera umuvuduko us
 
 
 
-- Ivyishyurwa ubwo nyene**: Ukoresheje uburyo bwo kohereza ubwo nyene, wohereze bitcoins ubwo nyene ukoresheje konti yawe y’umucuruzi.
+- **Ivyishyurwa ubwo nyene**: Ukoresheje uburyo bwo kohereza ubwo nyene, wohereze bitcoins ubwo nyene ukoresheje konti yawe y'umucuruzi.
 
 
 
@@ -289,7 +289,7 @@ Mu **Withdrawal Links**, rema ihuriro rishasha ryo gukura, hanyuma uritunganye m
 
 
 
-- Ivyishyurwa**: Mu rutonde rw'Ivyishyurwa, tangura gukura amahera mu bucuruzi bwawe bwihuta ku Wallet yawe bwite.
+- **Ivyishyurwa**: Mu rutonde rw'Ivyishyurwa, tangura gukura amahera mu bucuruzi bwawe bwihuta ku Wallet yawe bwite.
 
 
 
@@ -299,7 +299,7 @@ Mu **Withdrawal Links**, rema ihuriro rishasha ryo gukura, hanyuma uritunganye m
 
 
 
-- Ivyimburwa**: Remesha abakiriya bawe bahoraho mu gushinga uburyo bwo gusubiza inyuma kugira ngo uronke ivyiza.
+- **Ivyimburwa**: Remesha abakiriya bawe bahoraho mu gushinga uburyo bwo gusubiza inyuma kugira ngo uronke ivyiza.
 
 
 

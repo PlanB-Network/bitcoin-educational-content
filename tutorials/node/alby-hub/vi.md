@@ -19,7 +19,7 @@ Alby Hub là một công cụ có khả năng thích ứng cao. Nó có thể đ
 Tùy thuộc vào nhu cầu của bạn, Alby Hub có 4 cấu hình:
 
 
-- Alby Hub Đám mây :**
+- **Alby Hub Đám mây:**
 
 Lý tưởng cho người mới bắt đầu, tùy chọn đầu tiên này là tùy chọn đám mây Alby. Nó cho phép bạn triển khai Hub trực tiếp trên máy chủ do Alby quản lý, có thể truy cập thông qua Alby Hub Interface của bạn. Mặc dù Alby quản lý máy chủ, nhưng bạn vẫn giữ được quyền tối cao đối với tiền của mình vì khóa của bạn được mã hóa bằng mật khẩu chỉ bạn biết. Tuy nhiên, khóa của bạn phải được giải mã trong RAM để nút hoạt động, về mặt lý thuyết, điều này sẽ khiến chúng gặp rủi ro nếu ai đó truy cập vật lý vào máy chủ. Đây là một sự thỏa hiệp thú vị cho người mới bắt đầu, nhưng điều quan trọng là phải nhận thức được những rủi ro.
 

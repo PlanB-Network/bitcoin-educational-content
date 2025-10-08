@@ -36,10 +36,10 @@ Alias Vault töötab pilves arendaja serverites või isehostituna oma infrastruk
 
 
 
-- Tasuta ja avatud lähtekoodiga**
-- Password Manager**, et salvestada kõik keerulised paroolid. Brauseri laiendust kasutades täidab paroolihaldur veebisaitidele sisselogimise
-- 2FA**, et toetada kahefaktorilist autentimist
-- Pseudonimede haldur koos sisseehitatud e-posti serveriga**: Pigem loob see tegelikke alter-egosid koos eesnime, perekonnanime, soo, kasutajanime, parooli ja sünnipäevaga (kui see teave on nõutav).
+- **Tasuta ja avatud lähtekoodiga**
+- **Password Manager**, et salvestada kõik keerulised paroolid. Brauseri laiendust kasutades täidab paroolihaldur veebisaitidele sisselogimise
+- **2FA**, et toetada kahefaktorilist autentimist
+- **Pseudonimede haldur koos sisseehitatud e-posti serveriga**: Pigem loob see tegelikke alter-egosid koos eesnime, perekonnanime, soo, kasutajanime, parooli ja sünnipäevaga (kui see teave on nõutav).
 
 
 

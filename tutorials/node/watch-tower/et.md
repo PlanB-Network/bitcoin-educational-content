@@ -33,7 +33,7 @@ Selles õpetuses vaatleme 3 võimalust, kuidas kasutada **Watchtower** :
 
 
 
-*See õpetus on võetud [ametlikust LND dokumentatsioonist](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Originaalversioonis võib olla tehtud mõningaid muudatusi
+*See õpetus on võetud [ametlikust LND dokumentatsioonist](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Originaalversioonis võib olla tehtud mõningaid muudatusi*
 
 
 
@@ -53,7 +53,7 @@ Pange tähele, et me oleme otsustanud kasutada selles versioonis piiratud hulka 
 
 
 
-märkus: esialgu salvestavad vaatetornid ainult tühistatud kohustuste väljundid `to_local` ja `to_remote`; HTLC väljundite salvestamine võetakse kasutusele tulevases versioonis, kuna protokolli saab laiendada, et lisada krüpteeritud blobs'ile täiendavaid allkirjaandmeid._
+märkus: esialgu salvestavad vaatetornid ainult tühistatud kohustuste väljundid `to_local` ja `to_remote`; HTLC väljundite salvestamine võetakse kasutusele tulevases versioonis, kuna protokolli saab laiendada, et lisada krüpteeritud blobs'ile täiendavaid allkirjaandmeid.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-märkus: Watchtower avalik võti erineb LND sõlme avalikust võtmest. Hetkel toimib see "Soft valgeloendina", kuna kliendid peavad teadma Watchtower avalikku võtit, et kasutada seda varukoopiana, kuni täiustatud valgeloendimehhanismide valmimiseni. Me EI soovita seda avalikku võtit avalikult avaldada, välja arvatud juhul, kui olete valmis oma Watchtower kogu internetile avalikustama._
+märkus: Watchtower avalik võti erineb LND sõlme avalikust võtmest. Hetkel toimib see "Soft valgeloendina", kuna kliendid peavad teadma Watchtower avalikku võtit, et kasutada seda varukoopiana, kuni täiustatud valgeloendimehhanismide valmimiseni. Me **EI** soovita seda avalikku võtit avalikult avaldada, välja arvatud juhul, kui olete valmis oma Watchtower kogu internetile avalikustama.
 
 
 
@@ -337,13 +337,13 @@ Satoshi silm ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) on Watchtow
 
 
 
-- teos**: sisaldab käsurea Interface (CLI) ja Watchtower olulisi serverifunktsioone. Selle _crate_ kompileerimisel saadakse kaks binaarkoodi - **teosd** ja **teos-CLI**.
+- **teos**: sisaldab käsurea Interface (CLI) ja Watchtower olulisi serverifunktsioone. Selle _crate_ kompileerimisel saadakse kaks binaarkoodi - **teosd** ja **teos-CLI**.
 
 
 
 
 
-- teos-common**: sisaldab jagatud serveripoolset ja kliendipoolset funktsionaalsust (kasulik kliendi loomiseks).
+- **teos-common**: sisaldab jagatud serveripoolset ja kliendipoolset funktsionaalsust (kasulik kliendi loomiseks).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: RPC taotluste puhul
+- **server**: RPC taotluste puhul
 
 
 
 
 
-- rpcuser** ja **rpcpassword**: RPC klientide autentimine serverile
+- **rpcuser** ja **rpcpassword**: RPC klientide autentimine serverile
 
 
 
 
 
-- regtest**: ei ole vajalik, kuid kasulik, kui plaanite arendustegevust.
+- **regtest**: ei ole vajalik, kuid kasulik, kui plaanite arendustegevust.
 
 
 
@@ -489,13 +489,13 @@ Menüüs "**Watchtower**" on saadaval kaks valikut:
 
 
 
-- Watchtower teenus**: see valik võimaldab teil kasutada Watchtower, st teenust, mis jälgib teiste sõlmede kanaleid, et avastada pettusekatsed. Rikkumise korral avaldab teie Watchtower tehingu Blockchain-s, võimaldades kasutajatel oma lukustatud raha tagasi saada. Pärast aktiveerimist ilmub teie Watchtower URI ja seda saab edastada teistele sõlmedele, et nad saaksid selle lisada oma Watchtower kliendile;
+- **Watchtower teenus**: see valik võimaldab teil kasutada Watchtower, st teenust, mis jälgib teiste sõlmede kanaleid, et avastada pettusekatsed. Rikkumise korral avaldab teie Watchtower tehingu Blockchain-s, võimaldades kasutajatel oma lukustatud raha tagasi saada. Pärast aktiveerimist ilmub teie Watchtower URI ja seda saab edastada teistele sõlmedele, et nad saaksid selle lisada oma Watchtower kliendile;
 
 
 
 
 
-- Watchtower Client**: see valik võimaldab teil ühendada väliseid vaatetorne, et kaitsta oma kanaleid. Kui see on aktiveeritud, saate lisada Watchtower teenuseid, millele teie sõlmpunkt edastab vajalikku teavet oma kanalite kohta. Need vaatetornid jälgivad seejärel nende seisundit ja sekkuvad pettusekatse korral.
+- **Watchtower Client**: see valik võimaldab teil ühendada väliseid vaatetorne, et kaitsta oma kanaleid. Kui see on aktiveeritud, saate lisada Watchtower teenuseid, millele teie sõlmpunkt edastab vajalikku teavet oma kanalite kohta. Need vaatetornid jälgivad seejärel nende seisundit ja sekkuvad pettusekatse korral.
 
 
 

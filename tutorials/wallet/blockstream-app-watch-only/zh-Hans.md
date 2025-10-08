@@ -27,7 +27,7 @@ description: 如何在 Blockstream App 上配置 Watch-only wallet？
 
 
 
-- 初学者**：希望通过直观的移动应用程序监控 Bitcoin 投资组合（通常与 Hardware Wallet 相关联）的用户。
+- **初学者**：希望通过直观的移动应用程序监控 Bitcoin 投资组合（通常与 Hardware Wallet 相关联）的用户。
 - 中级用户：希望使用 Tor 或 SPV 等隐私选项管理只读投资组合的用户。
 - Hardware Wallet 用户：无需连接设备即可查看余额和 generate 地址。
 - **企业和商店**：
@@ -57,7 +57,7 @@ description: 如何在 Blockstream App 上配置 Watch-only wallet？
 
 
 - **安全性**：是监控由**Hardware Wallet**保护的投资组合的理想选择，同时不会暴露连接设备上的私人密钥。
-- 方便**：无需连接 Hardware Wallet，即可查看余额和 generate 新收件人地址。
+- 方便**：无需连接 Hardware Wallet，即可查看余额和 generate 新收件人地址。**
 - 保密性：与**Tor**或**SPV**等选项兼容，以限制对第三方服务器的依赖。
 - 使用案例：追踪移动中的资金、生成收款地址或验证交易，而无需冒私钥风险。
 
@@ -154,7 +154,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - 功能 **Replace-by-fee (RBF)** 可加快未确认交易的速度。
 - **兼容性**：集成硬件钱包，如 **Blockstream Jade**。
 - **Interface**：为初学者提供直观操作，为专家提供高级选项。
-- 注意**：本指南重点介绍 Onchain 的使用。附录中的其他教程涉及 Onchain、Watch-Only 和桌面版。
+- **注意**：本指南重点介绍 Onchain 的使用。附录中的其他教程涉及 Onchain、Watch-Only 和桌面版。
 
 
 
@@ -289,7 +289,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 注意**：在没有摄像头或旁观者的私密环境中设置您的投资组合。
+- **注意**：在没有摄像头或旁观者的私密环境中设置您的投资组合。
 - 在主屏幕上点击 "设置新的投资组合"，然后点击 "开始"：
 
 
@@ -385,7 +385,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 注意**：请务必检查收款 Address 和交易详情，以免出错。发送到错误的 Address 的资金无法收回。
+- **注意**：请务必检查收款 Address 和交易详情，以免出错。发送到错误的 Address 的资金无法收回。
 
 
 

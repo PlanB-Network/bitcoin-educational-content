@@ -160,7 +160,7 @@ Ubacite USB ključ sa mogućnošću pokretanja u isključen računar (onaj na ko
 
 
 
-Na ekranu se pojavljuje početni ekran Ubuntu-a. Izaberite "Try or Install Ubuntu*".
+Na ekranu se pojavljuje početni ekran Ubuntu-a. Izaberite "Try or Install Ubuntu".
 
 
 
@@ -1426,7 +1426,7 @@ Da biste pristupili svom pregledaču sa bilo kog računara na bilo kojoj mreži 
 
 
 
-⚠️ **Molimo vas da ovaj Address zadržite strogo poverljivim
+⚠️ **Molimo vas da ovaj Address zadržite strogo poverljivim**
 
 
 

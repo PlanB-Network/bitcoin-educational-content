@@ -64,25 +64,25 @@ Enne kui ma näitan teile samm-sammult, kuidas laenata Debifis, on mõned punkti
 
 
 
-- Laenu väljastamise tasu** on ühekordne tasu, mida võetakse laenu andmise ajal ja mis arvutatakse protsendina laenusummast. Need tasud katavad haldus-, tegevus- ja juhtimiskulud.
+- **Laenu väljastamise tasu** on ühekordne tasu, mida võetakse laenu andmise ajal ja mis arvutatakse protsendina laenusummast. Need tasud katavad haldus-, tegevus- ja juhtimiskulud.
 
 
 
 
 
-- Tagatis** on vara, mille te hoiustate laenu tagamiseks. Debifi puhul on tagatiseks Bitcoin (BTC), mille laenuvõtja hoiustab Multisig 3/4 Escrow'sse.
+- **Tagatis** on vara, mille te hoiustate laenu tagamiseks. Debifi puhul on tagatiseks Bitcoin (BTC), mille laenuvõtja hoiustab Multisig 3/4 Escrow'sse.
 
 
 
 
 
-- Multisig Escrow (3/4)** süsteem on turvaline hoiustamismehhanism, mille puhul laenuvõtja bitcoinid paigutatakse mitme allkirjaga Address-süsteemi. Konkreetselt on neljal (4) osapoolel (laenuvõtja, laenuandja, Debifi, sõltumatu kolmas osapool) igaühel oma võti. Raha liikumiseks on vaja vähemalt 3 allkirja neljast.
+- **Multisig Escrow (3/4)** süsteem on turvaline hoiustamismehhanism, mille puhul laenuvõtja bitcoinid paigutatakse mitme allkirjaga Address-süsteemi. Konkreetselt on neljal (4) osapoolel (laenuvõtja, laenuandja, Debifi, sõltumatu kolmas osapool) igaühel oma võti. Raha liikumiseks on vaja vähemalt 3 allkirja neljast.
 
 
 
 
 
-- Stabiilne münt** on krüptoraha, mille väärtus on seotud stabiilse varaga (nt USA dollar), mis väldib Bitcoin volatiilsust. Näiteks 1 USDC on alati ~1 dollari väärtuses, kuna seda toetavad fiatreservid.
+- **Stabiilne münt** on krüptoraha, mille väärtus on seotud stabiilse varaga (nt USA dollar), mis väldib Bitcoin volatiilsust. Näiteks 1 USDC on alati ~1 dollari väärtuses, kuna seda toetavad fiatreservid.
 
 
 

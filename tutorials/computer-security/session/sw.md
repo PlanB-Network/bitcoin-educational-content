@@ -191,7 +191,7 @@ Hatimaye, nenda kwenye menyu ya "*Muonekano*" ili kurekebisha Interface kulingan
 
 
 
-Ili kuwasiliana na watu wengine, bofya kitufe cha "**" kwenye ukurasa wa nyumbani.
+Ili kuwasiliana na watu wengine, bofya kitufe cha "**Wasiliana**" kwenye ukurasa wa nyumbani.
 
 
 

@@ -20,7 +20,7 @@ ThunderHub 是 Lightning 節點 (LND)** 的**開放源碼管理器，提供可�
 
 
 - **監控**：結餘、通路、交易、路由統計的全球檢視
-- 管理**：開啟/關閉通路、收款/付款、通路平衡
+- **管理**：開啟/關閉通路、收款/付款、通路平衡
 
 The line appears to have an unbalanced ** marker. Here's the corrected version:
 
@@ -724,7 +724,7 @@ ThunderHub 中的**Transactions**部分對應您節點的**Lightning**交易歷�
 
 
 
-- 最近轉寄的**表：每個條目對應已經透過您的節點**轉寄**的付款。對於每筆轉帳，我們通常會看到 ：
+- 最近轉寄的**表：每個條目對應已經透過您的節點轉寄的付款。對於每筆轉帳，我們通常會看到**：
 
 
 

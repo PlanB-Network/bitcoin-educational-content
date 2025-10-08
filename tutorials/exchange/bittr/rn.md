@@ -26,9 +26,9 @@ Reka tugendere mu kuntu vyoroshe gutangura guteranya Sats na Bittr.
 
 
 
- - Nta Konti:** Ntubwirizwa gukora konti kugira ngo ugure Bitcoin.
- - Nta nzira ya KYC:** Ntubwirizwa guca muri KYC (gushika kuri 999CHF ku misi 30)
- - Gutangura direct:** Uca utangura ubwo nyene kandi ushobora kwakira Sats yawe mu minota mikeyi
+- **Nta Konti:** Ntubwirizwa gukora konti kugira ngo ugure Bitcoin.
+- **Nta nzira ya KYC:** Ntubwirizwa guca muri KYC (gushika kuri 999CHF ku misi 30)
+- **Gutangura direct:** Uca utangura ubwo nyene kandi ushobora kwakira Sats yawe mu minota mikeyi
 
 
 ![image1](assets/en/01.webp)
@@ -39,7 +39,7 @@ Reka tugendere mu kuntu vyoroshe gutangura guteranya Sats na Bittr.
 
 
 
- - SEPA gusa:** Bittr ikora gusa mu Buraya
+- **SEPA gusa:** Bittr ikora gusa mu Buraya
 
 
 ![image2](assets/en/02.webp)

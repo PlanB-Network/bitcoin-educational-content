@@ -326,7 +326,7 @@ Kubera imvo z'umutekano, Umbrel yawe ishobora gushikwako gusa ku rubuga rwawe rw
 
 
 
-- Ushobora gushikako biciye kuri Tor:** Umbrel ihita itunganya **Serivisi ya Tor (.onion)** ku rubuga rwayo rwa Interface n'ibikorwa vyayo. Ivyo bisigura ko ushobora gushika kuri Interface Umbrel (harimwo *noStrudel* canke *Snort*) uri aho hose, ukoresheje umucukumbuzi wa Tor, utagaragaje IP yawe ya bose. *Tor ikoreshwa mu gushika ku bikorwa vyawe vya Umbrel uri hanze y'urubuga rwawe rwo mu karere, utashize igikoresho cawe kuri Internet ([Gushiraho Tor kuri sisitemu yawe - Inyobora - Umbrel Umuryango](https://umuryango.umbrel.com/t/gushiraho-ku-sisitemu-yawe/7509#:~:text=Urubuga%3A%20https%3A%2F%2Fwww)).* Kugira ngo ukoreshe iyi nzira, genda kuri Umbred settings maze utore kode yawe ya QRonion'. Ku mucukumbuzi wa Tor, genda kuri iyi .onion Address: uzoronka Interface imwe n'iyo mu karere. Ushobora rero gukoresha ama apps yawe ya Nostr nk’uko biri i muhira.
+- Ushobora gushikako biciye kuri Tor: Umbrel ihita itunganya **Serivisi ya Tor (.onion)** ku rubuga rwayo rwa Interface n'ibikorwa vyayo. Ivyo bisigura ko ushobora gushika kuri Interface Umbrel (harimwo *noStrudel* canke *Snort*) uri aho hose, ukoresheje umucukumbuzi wa Tor, utagaragaje IP yawe ya bose. *Tor ikoreshwa mu gushika ku bikorwa vyawe vya Umbrel uri hanze y'urubuga rwawe rwo mu karere, utashize igikoresho cawe kuri Internet* ([Gushiraho Tor kuri sisitemu yawe - Inyobora - Umbrel Umuryango](https://umuryango.umbrel.com/t/gushiraho-ku-sisitemu-yawe/7509#:~:text=Urubuga%3A%20https%3A%2F%2Fwww)). Kugira ngo ukoreshe iyi nzira, genda kuri Umbred settings maze utore kode yawe ya
 
 
 **Nostr relay via Tor:** Niba wipfuza ko relay yawe ya Nostr ishobora gushikirwa biciye kuri Tor n'abaguzi bawe (canke abagenzi bemerewe), ivyo birashoboka. Umbrel ntitanga .onion Address ya relay ataco ihinduye, ariko kuko ikoresha ku port 4848, ushobora :
@@ -384,19 +384,19 @@ Niba ukira urugendo rwa Nostr kuri Umbrel, cane cane mu gihe giteye imbere, urab
 
 
 
-- Ivyagezwe n'ugucungera:** Gumana umutaka wawe na _Nostr Relay_ app bishasha. Ivyavuguruwe bishobora kubamwo ivyiza (nk'ugukoresha neza ubutumwa butari bwo) n'ugukosora umutekano. Ku Mutaka, genda urabe muri App Store ubudasiba kugira ngo ubone ivyahinduwe kuri _Nostr Relay_, hanyuma ubikoreshe uko bikenewe.
+- **Ivyagezwe n'ugucungera:** Gumana umutaka wawe na _Nostr Relay_ app bishasha. Ivyavuguruwe bishobora kubamwo ivyiza (nk'ugukoresha neza ubutumwa butari bwo) n'ugukosora umutekano. Ku Mutaka, genda urabe muri App Store ubudasiba kugira ngo ubone ivyahinduwe kuri _Nostr Relay_, hanyuma ubikoreshe uko bikenewe.
 
 
 
 
 
-- Gukurikirana n’imipaka:** Gumana ijisho ku kuntu relay yawe ikoreshwa. Iyo uyifunguriye abandi, urabe neza umuzigo (CPU/RAM storage) uri kuri Umbrel yawe, kuko relay ishobora kwirundanira ningoga amakuru menshi. nostr-rs-relay itanga **imipaka n'ububiko** bishobora guhindurwa (`imipaka` mu config, nk'umubare w'ibintu ku segonda, ubunini bw'ibintu, gukuraho ibintu vya kera...). Ku bijanye n'ikoreshwa ry'ibanga, kumbure ntuzokenera gukora kuri ivyo, ariko menya neza ko ivyo bipimo biriho nimba ubikeneye ([nostr-rs-relay/config.toml ku mukuru - scsibug/nostr-rs-relay - GitHub](https://github.com.
+- **Gukurikirana n'imipaka:** Gumana ijisho ku kuntu relay yawe ikoreshwa. Iyo uyifunguriye abandi, urabe neza umuzigo (CPU/RAM storage) uri kuri Umbrel yawe, kuko relay ishobora kwirundanira ningoga amakuru menshi. nostr-rs-relay itanga **imipaka n'ububiko** bishobora guhindurwa (`imipaka` mu config, nk'umubare w'ibintu ku segonda, ubunini bw'ibintu, gukuraho ibintu vya kera...). Ku bijanye n'ikoreshwa ry'ibanga, kumbure ntuzokenera gukora kuri ivyo, ariko menya neza ko ivyo bipimo biriho nimba ubikeneye ([nostr-rs-relay/config.toml ku mukuru - scsibug/nostr-rs-relay - GitHub](https://github.com.
 
 
 
 
 
-- Gukingira imfunguruzo za Nostr:** Iyi ngingo yaramaze kuvugwa, ariko ni ngirakamaro cane: ntukigere winjiza imfunguruzo zawe z’ibanga za Nostr muri Interface utizigira bimwe bishitse. Ahubwo, koresha ivyungura umucukumbuzi canke ibikoresho vyo hanze (nk’ivya Nostr *signers* ku matelefone atandukanye) kugira ngo ushire umukono ku bikorwa bihambaye. Kuri Umbrel, abaguzi bawe b'urubuga nka *Snort* na *noStrudel* barashobora gukora batazi urufunguzo rwawe rw'ibanga, biciye kuri NIP-07. Nukoreshe aka karyo kugira ngo uhuze ihumure n’umutekano.
+- Gukingira imfunguruzo za Nostr: Iyi ngingo yaramaze kuvugwa, ariko ni ngirakamaro cane: ntukigere winjiza imfunguruzo zawe z'ibanga za Nostr muri Interface utizigira bimwe bishitse. Ahubwo, koresha ivyungura umucukumbuzi canke ibikoresho vyo hanze (nk'ivya Nostr *signers* ku matelefone atandukanye) kugira ngo ushire umukono ku bikorwa bihambaye. Kuri Umbrel, abaguzi bawe b'urubuga nka *Snort* na *noStrudel* barashobora gukora batazi urufunguzo rwawe rw'ibanga, biciye kuri NIP-07. Nukoreshe aka karyo kugira ngo uhuze ihumure n'umutekano.
 
 
 

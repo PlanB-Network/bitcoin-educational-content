@@ -51,15 +51,15 @@ Graylog는 머신과 네트워크 장치의 로그를 실시간으로 중앙 집
 
 
 
-스택 그레이로그**는 설치 및 구성해야 하는 **여러 구성 요소**를 기반으로 합니다. 여기서는 모든 구성 요소를 동일한 서버에 설치하지만 여러 노드를 기반으로 클러스터를 생성하고 여러 서버에 역할을 분산할 수 있습니다. 이 튜토리얼에서는 현재 가장 최신 버전인 **Graylog 6.1**을 설치하겠습니다.
+스택 **그레이로그**는 설치 및 구성해야 하는 **여러 구성 요소**를 기반으로 합니다. 여기서는 모든 구성 요소를 동일한 서버에 설치하지만 여러 노드를 기반으로 클러스터를 생성하고 여러 서버에 역할을 분산할 수 있습니다. 이 튜토리얼에서는 현재 가장 최신 버전인 **Graylog 6.1**을 설치하겠습니다.
 
 
 
 
 
-- 현재 그레이로그에 권장되는 버전인 MongoDB 7**(최소 5.0.7, 최대 7.x)
-- Amazon에서 만든 Elasticsearch의 오픈 소스 Fork인 OpenSearch**(최소 1.1.x, 최대 2.15.x)
-- OpenJDK 17**
+- 현재 그레이로그에 권장되는 버전인 **MongoDB 7**(최소 5.0.7, 최대 7.x)
+- Amazon에서 만든 Elasticsearch의 오픈 소스 Fork인 **OpenSearch**(최소 1.1.x, 최대 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**참고: **그레이로그 데이터 노드**를 대신 사용하는 경우 OpenSearch 설치는 선택 사항입니다.
+**참고:** 그레이로그 데이터 노드를 대신 사용하는 경우 OpenSearch 설치는 선택 사항입니다.
 
 
 
@@ -156,7 +156,7 @@ E: Impossible de corriger les problèmes, des paquets défectueux sont en mode �
 
 
 
-Wget** 명령으로 "**libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb**"(최신 버전)라는 DEB 패키지를 다운로드한 다음 **dpkg** 명령으로 설치합니다. 그러면 다음 두 개의 명령이 생성됩니다:
+**Wget** 명령으로 "**libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb**"(최신 버전)라는 DEB 패키지를 다운로드한 다음 **dpkg** 명령으로 설치합니다. 그러면 다음 두 개의 명령이 생성됩니다:
 
 
 
@@ -285,8 +285,8 @@ plugins.security.disabled: true
 - path.logs: /var/log/opensearch: 이 경로는 OpenSearch 로그 파일이 저장되는 위치(여기서는 "**/var/log/opensearch**"에)를 정의합니다.
 - discovery.type: single-node: 이 매개변수는 단일 노드에서 작동하도록 OpenSearch를 구성하므로 "**단일 노드**" 옵션을 선택해야 합니다.
 - network.host: 127.0.0.1: 이 구성은 OpenSearch가 Interface 로컬 루프에서만 수신 대기하도록 하며, 이는 Graylog와 동일한 서버에 있기 때문에 충분합니다.
-- action.auto_create_index: false**: 자동 색인 생성을 비활성화하면 기존 색인 없이 문서를 전송할 때 OpenSearch가 자동으로 색인을 생성하지 않습니다.
-- plugins.security.disabled: true**: 이 옵션은 OpenSearch 보안 플러그인을 비활성화하므로 인증, 액세스 관리 또는 통신 암호화를 사용하지 않습니다. 이 설정은 그레이로그를 설정할 때 시간을 절약할 수 있지만 프로덕션 환경에서는 사용하지 않는 것이 좋습니다([이 페이지](https://opensearch.org/docs/1.0/security-plugin/index/) 참조).
+- **action.auto_create_index: false**: 자동 색인 생성을 비활성화하면 기존 색인 없이 문서를 전송할 때 OpenSearch가 자동으로 색인을 생성하지 않습니다.
+- **plugins.security.disabled: true**: 이 옵션은 OpenSearch 보안 플러그인을 비활성화하므로 인증, 액세스 관리 또는 통신 암호화를 사용하지 않습니다. 이 설정은 그레이로그를 설정할 때 시간을 절약할 수 있지만 프로덕션 환경에서는 사용하지 않는 것이 좋습니다([이 페이지](https://opensearch.org/docs/1.0/security-plugin/index/) 참조).
 
 
 
@@ -431,8 +431,8 @@ sudo apt-get install graylog-server
 
 
 
-- password_secret**: 이 매개변수는 그레이로그가 사용자 비밀번호의 저장을 보호하기 위해 사용하는 키를 정의하는 데 사용됩니다(솔팅 키의 개념으로). 이 키는 **유니크** 및 **랜덤**이어야 합니다.
-- root_password_sha2**: 이 매개변수는 그레이로그의 기본 관리자 비밀번호에 해당합니다. Hash SHA-256으로 저장됩니다.
+- **password_secret**: 이 매개변수는 그레이로그가 사용자 비밀번호의 저장을 보호하기 위해 사용하는 키를 정의하는 데 사용됩니다(솔팅 키의 개념으로). 이 키는 **유니크** 및 **랜덤**이어야 합니다.
+- **root_password_sha2**: 이 매개변수는 그레이로그의 기본 관리자 비밀번호에 해당합니다. Hash SHA-256으로 저장됩니다.
 
 
 
@@ -494,7 +494,7 @@ sudo nano /etc/graylog/server/server.conf
 
 
 
-Root_password_sha2** 옵션에 다음과 같이 값을 붙여넣습니다:
+**Root_password_sha2** 옵션에 다음과 같이 값을 붙여넣습니다:
 
 
 
@@ -510,7 +510,7 @@ Root_password_sha2** 옵션에 다음과 같이 값을 붙여넣습니다:
 
 
 
-그런 다음 "**elasticsearch_hosts**" 옵션을 `http://127.0.0.1:9200`로 설정하여 로컬 OpenSearch 인스턴스를 선언합니다. 그레이로그 데이터 노드**를 사용하지 않기 때문에 이 옵션은 필수입니다. 이 옵션이 없으면 더 이상 진행할 수 없습니다...
+그런 다음 "**elasticsearch_hosts**" 옵션을 `http://127.0.0.1:9200`로 설정하여 로컬 OpenSearch 인스턴스를 선언합니다. **그레이로그 데이터 노드**를 사용하지 않기 때문에 이 옵션은 필수입니다. 이 옵션이 없으면 더 이상 진행할 수 없습니다...
 
 
 
@@ -548,7 +548,7 @@ sudo systemctl enable --now graylog-server
 
 
 
-그레이로그 서버의 명령줄로 돌아가서 로그를 확인해야 했습니다. 그런 다음 **첫 번째 연결의 경우** 로그에 명시된 **임시 비밀번호를 사용해야 한다는 것을 확인할 수 있었습니다.
+그레이로그 서버의 명령줄로 돌아가서 로그를 확인해야 했습니다. 그런 다음 **첫 번째 연결의 경우** 로그에 명시된 **임시 비밀번호를 사용해야 한다는 것을 확인할 수 있었습니다.**
 
 
 
@@ -574,7 +574,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**그레이로그의 Interface에 오신 것을 환영합니다!
+**그레이로그의 Interface에 오신 것을 환영합니다!**
 
 
 

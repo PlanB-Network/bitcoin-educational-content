@@ -98,12 +98,12 @@ Telefon numaranız ve iki boş alan dahil olmak üzere hesabınızın tüm hassa
 
 **Her birinin üzerine tıklayarak içini kendi seçimlerinizle doldurabilirsiniz**.
 
-Kullanıcı Adı_'nı ayarlarken, Telegram tutamacın mevcut olup olmadığı konusunda sizi uyarır.
+Kullanıcı Adı'nı ayarlarken, Telegram tutamacın mevcut olup olmadığı konusunda sizi uyarır.
 
 (Bu ekran görüntüsü de kullanıcı adı önceden ayarlanmış bir telefondan alınmıştır).
 
 
-Kullanıcı Adı Ayarla_ seçeneğine tıklayın (az önce bahsedilen nedenden dolayı burada _Kullanıcı Adı Değiştir_ seçeneğine tıklayın)
+Kullanıcı Adı Ayarla seçeneğine tıklayın (az önce bahsedilen nedenden dolayı burada _Kullanıcı Adı Değiştir_ seçeneğine tıklayın)
 
 
 ![image](assets/en/13.webp)

@@ -43,16 +43,16 @@ Vamos mergulhar nas funcionalidades e explorar o que o Cashu.me tem para oferece
 
 
 
-- Chaumian ecash no Lightning**: Utiliza assinaturas cegas para que as casas da moeda não consigam rastrear os saldos dos utilizadores ou os históricos de transacções
-- Auto-custódia de fichas**: Controla os tokens ecash localmente com a sua frase seed
-- Backups de frases seed**: frase de recuperação de 12 palavras para restauração do Wallet
-- Independência das casas da moeda**: Funciona com várias casas da moeda independentes - não está preso a um único fornecedor
-- Transacções instantâneas e gratuitas**: Dentro da mesma casa da moeda, os pagamentos são finalizados em segundos com zero taxas
-- Arquitetura de preservação da privacidade**: As casas da moeda não podem ver quem transacciona com quem
-- Ecash offline**: Enviar/receber fichas através de um protocolo de transmissão local, como NFC, código QR, Bluetooth, etc., sem ligação à Internet
-- Descubra as casas da moeda ecash através do Nostr**: Encontre e verifique as casas da moeda de confiança através do protocolo Nostr
-- Troque ecash entre casas da moeda**: Todas as casas da moeda falam Lightning, o que significa que pode transferir valor entre elas.
-- Controle remotamente o seu Wallet com o Nostr Wallet Connect (NWC)**: Conecte-se a outros aplicativos como o Nostr Client e comece a fazer zapping via NWC
+- **Chaumian ecash no Lightning**: Utiliza assinaturas cegas para que as casas da moeda não consigam rastrear os saldos dos utilizadores ou os históricos de transacções
+- **Auto-custódia de fichas**: Controla os tokens ecash localmente com a sua frase seed
+- **Backups de frases seed**: frase de recuperação de 12 palavras para restauração do Wallet
+- **Independência das casas da moeda**: Funciona com várias casas da moeda independentes - não está preso a um único fornecedor
+- **Transacções instantâneas e gratuitas**: Dentro da mesma casa da moeda, os pagamentos são finalizados em segundos com zero taxas
+- **Arquitetura de preservação da privacidade**: As casas da moeda não podem ver quem transacciona com quem
+- **Ecash offline**: Enviar/receber fichas através de um protocolo de transmissão local, como NFC, código QR, Bluetooth, etc., sem ligação à Internet
+- **Descubra as casas da moeda ecash através do Nostr**: Encontre e verifique as casas da moeda de confiança através do protocolo Nostr
+- **Troque ecash entre casas da moeda**: Todas as casas da moeda falam Lightning, o que significa que pode transferir valor entre elas.
+- **Controle remotamente o seu Wallet com o Nostr Wallet Connect (NWC)**: Conecte-se a outros aplicativos como o Nostr Client e comece a fazer zapping via NWC
 
 
 A troca crítica é `confiança`: enquanto você controla os tokens em si, você deve confiar nas casas da moeda para custodiar as reservas subjacentes de Bitcoin. Como diz a documentação da Cashu:

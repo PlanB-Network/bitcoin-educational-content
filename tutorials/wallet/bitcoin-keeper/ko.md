@@ -18,4 +18,4 @@ description: Bitcoin 키퍼 앱 - 장기적인 저축을 위해 Hot 지갑과 Co
 키퍼를 다운로드하려면 [여기](bitcoinkeeper.app)를 참조하세요
 
 
-**참고: 이 튜토리얼은 영어로만 작성된 초안일 뿐이며, 이 주제에 대한 광범위한 가이드를 작성할 사람이 필요합니다. 그런 분이라면 [텔레그램](https://t.me/PlanBNetwork_ContentBuilder/325) 또는 [깃허브](https://github.com/PlanB-Network/Bitcoin-educational-content)로 연락해 주세요
+**참고: 이 튜토리얼은 영어로만 작성된 초안일 뿐이며, 이 주제에 대한 광범위한 가이드를 작성할 사람이 필요합니다. 그런 분이라면 [텔레그램](https://t.me/PlanBNetwork_ContentBuilder/325) 또는 [깃허브](https://github.com/PlanB-Network/Bitcoin-educational-content)로 연락해 주세요.**

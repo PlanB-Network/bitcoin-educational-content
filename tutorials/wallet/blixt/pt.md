@@ -555,7 +555,7 @@ Há uma necessidade de mais servidores neutrino na região LATAM, para uma melho
 ### CASO 2 - NUNCA TERMINAR A SINCRONIZAÇÃO
 
 
-"_O meu Blixt tem uma boa ligação com o servidor neutrino, mas a sincronização está bloqueada
+**O meu Blixt tem uma boa ligação com o servidor neutrino, mas a sincronização está bloqueada**
 
 
 #### Servidor de tempo

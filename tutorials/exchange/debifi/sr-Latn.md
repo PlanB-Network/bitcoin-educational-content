@@ -64,25 +64,25 @@ Pre nego što vam pokažem korak po korak kako da pozajmite na Debifi, postoji n
 
 
 
-- Naknade za odobravanje** su jednokratne naknade koje se naplaćuju prilikom odobravanja zajma i izračunavaju se kao procenat iznosa pozajmice. Ove naknade pokrivaju administrativne, operativne i troškove upravljanja.
+- **Naknade za odobravanje** su jednokratne naknade koje se naplaćuju prilikom odobravanja zajma i izračunavaju se kao procenat iznosa pozajmice. Ove naknade pokrivaju administrativne, operativne i troškove upravljanja.
 
 
 
 
 
-- Kolateral** je imovina koju deponujete da biste osigurali zajam. U slučaju Debifi-ja, kolateral je Bitcoin (BTC), koji zajmoprimac deponuje u Multisig 3/4 eskrou.
+- **Kolateral** je imovina koju deponujete da biste osigurali zajam. U slučaju Debifi-ja, kolateral je Bitcoin (BTC), koji zajmoprimac deponuje u Multisig 3/4 eskrou.
 
 
 
 
 
-- Sistem Multisig escrow (3/4)** je siguran mehanizam depozita gde se bitkoini zajmoprimca smeštaju u multi-potpis Address. Konkretno, četiri (4) strane poseduju ključ (zajmoprimac, zajmodavac, Debifi, nezavisna treća strana). Za premeštanje sredstava, potrebna su najmanje 3 od 4 potpisa.
+- **Sistem Multisig escrow (3/4)** je siguran mehanizam depozita gde se bitkoini zajmoprimca smeštaju u multi-potpis Address. Konkretno, četiri (4) strane poseduju ključ (zajmoprimac, zajmodavac, Debifi, nezavisna treća strana). Za premeštanje sredstava, potrebna su najmanje 3 od 4 potpisa.
 
 
 
 
 
-- Stablecoin** je kriptovaluta čija je vrednost vezana za stabilnu imovinu (npr. američki dolar), što izbegava volatilnost Bitcoin. Na primer, 1 USDC uvek vredi ~$1, jer je podržan fiat rezervama.
+- **Stablecoin** je kriptovaluta čija je vrednost vezana za stabilnu imovinu (npr. američki dolar), što izbegava volatilnost Bitcoin. Na primer, 1 USDC uvek vredi ~$1, jer je podržan fiat rezervama.
 
 
 

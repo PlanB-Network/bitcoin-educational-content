@@ -25,10 +25,10 @@ description: 제어권을 유지하면서 다른 Bitcoin 레이어 간을 전환
 
 
 
-- on chain**: 평균 10분마다 거래가 확인되는 Bitcoin의 메인 체인에서는 거래 수수료가 높은 경우가 많아 사용자의 요구를 반드시 충족시키지 못합니다;
-- Lightning Network**: 저렴한 수수료로 즉시 결제가 가능한 Bitcoin 오버레이로, 일일 결제에 Bitcoin를 사용할 수 있습니다;
-- Liquid Network**: 블록스트림에서 만든 Bitcoin용 오버레이로, 빠른 Confidential Transactions 및 기타 Bitcoin 기반 금융상품을 사용할 수 있습니다;
-- 루트스톡**: Bitcoin 프로토콜을 기반으로 스마트 컨트랙트를 개발하기 위한 솔루션입니다.
+- **on chain**: 평균 10분마다 거래가 확인되는 Bitcoin의 메인 체인에서는 거래 수수료가 높은 경우가 많아 사용자의 요구를 반드시 충족시키지 못합니다;
+- **Lightning Network**: 저렴한 수수료로 즉시 결제가 가능한 Bitcoin 오버레이로, 일일 결제에 Bitcoin를 사용할 수 있습니다;
+- **Liquid Network**: 블록스트림에서 만든 Bitcoin용 오버레이로, 빠른 Confidential Transactions 및 기타 Bitcoin 기반 금융상품을 사용할 수 있습니다;
+- **루트스톡**: Bitcoin 프로토콜을 기반으로 스마트 컨트랙트를 개발하기 위한 솔루션입니다.
 
 
 
@@ -128,7 +128,7 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-설정** 아이콘에서 백업 키를 다운로드하고 파일을 적절히 저장합니다.
+**설정** 아이콘에서 백업 키를 다운로드하고 파일을 적절히 저장합니다.
 
 
 
@@ -160,7 +160,7 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 
 
-환불** 메뉴에서 원자 Exchange 내역을 찾아 환불을 받고자 하는 Exchange을 확인합니다. 예를 들어, 다른 기기에서 교환한 내역은 해당 교환과 연결된 백업 키 파일을 사용하여 가져올 수도 있습니다.
+**환불** 메뉴에서 원자 Exchange 내역을 찾아 환불을 받고자 하는 Exchange을 확인합니다. 예를 들어, 다른 기기에서 교환한 내역은 해당 교환과 연결된 백업 키 파일을 사용하여 가져올 수도 있습니다.
 
 
 
@@ -168,7 +168,7 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 
 
-히스토리** 메뉴에서 **백업** 버튼을 클릭하면 구조 키와 연결된 거래 내역에 대한 자세한 내역을 다운로드할 수 있습니다.
+**히스토리** 메뉴에서 **백업** 버튼을 클릭하면 구조 키와 연결된 거래 내역에 대한 자세한 내역을 다운로드할 수 있습니다.
 
 
 

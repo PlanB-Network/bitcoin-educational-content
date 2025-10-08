@@ -156,7 +156,7 @@ Při prvním spuštění vás Orion provede několika kroky:
 
 
 
-- Import dat**: Snadný přenos oblíbených položek a hesel ze Safari, Chrome nebo Firefoxu
+- **Import dat**: Snadný přenos oblíbených položek a hesel ze Safari, Chrome nebo Firefoxu
 - **Synchronizace přes ICloud**: Aktivujte, abyste našli své oblíbené položky a karty na všech svých zařízeních Apple
 
 

@@ -20,7 +20,7 @@ Du finner instruksjoner for nedlasting og installasjon av avbildningen på et mi
 Bruk Raspberry Pi Imager eller balenaEtcher.
 
 
-**Symbolet `$` brukes som en ledetekst og gjør det mulig for brukeren å skrive inn kommandoer på datamaskinen, og kommandoene tolkes av bash i Linux. Symbolet `#` i begynnelsen av en linje indikerer at den følgende teksten er en kommentar.
+**Symbolet `$` brukes som en ledetekst og gjør det mulig for brukeren å skrive inn kommandoer på datamaskinen, og kommandoene tolkes av bash i Linux. Symbolet `#` i begynnelsen av en linje indikerer at den følgende teksten er en kommentar.**
 
 
 ### 3. Aktiver SSH

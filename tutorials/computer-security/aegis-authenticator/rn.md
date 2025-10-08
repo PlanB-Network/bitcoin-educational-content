@@ -196,13 +196,13 @@ Ivyo bikoresho vya Aegis bikoranya ibice bihambaye:
 
 
 
-- Uko usa**: Guhindura insanganyamatsiko (umuco, umwijima, AMOLED), ururimi n'ibindi bigaragara
-- Inyifato**: Gutunganya inyifato y'ikoreshwa igihe ukorana n'urutonde rw'ibintu vyinjijwe
-- Ivyuma vy'ibishushanyo**: gucunga no kwinjiza mu gihugu ibishushanyo vy'ibishushanyo kugira ngo uhindure uko konti yawe isa n'uko yumva
-- Umutekano**: Amagenamiterere y'ugushiramwo amakuru, gufungura biometric, gufunga ubwavyo n'ibindi bipimo vy'umutekano
-- Ivy'ububiko**: Gutunganya ivy'ububiko bwite ku kibanza uhisemwo
-- Import & Export**: Injira mu bindi bikoresho vy'ukwemeza maze ushire hanze n'amaboko ububiko bwawe bwa Aegis
-- Igitabo c'igenzura**: Igitabo c'ido n'ido c'ibintu vyose bihambaye vyabaye mu gikorwa
+- **Uko usa**: Guhindura insanganyamatsiko (umuco, umwijima, AMOLED), ururimi n'ibindi bigaragara
+- **Inyifato**: Gutunganya inyifato y'ikoreshwa igihe ukorana n'urutonde rw'ibintu vyinjijwe
+- **Ivyuma vy'ibishushanyo**: gucunga no kwinjiza mu gihugu ibishushanyo vy'ibishushanyo kugira ngo uhindure uko konti yawe isa n'uko yumva
+- **Umutekano**: Amagenamiterere y'ugushiramwo amakuru, gufungura biometric, gufunga ubwavyo n'ibindi bipimo vy'umutekano
+- **Ivy'ububiko**: Gutunganya ivy'ububiko bwite ku kibanza uhisemwo
+- **Import & Export**: Injira mu bindi bikoresho vy'ukwemeza maze ushire hanze n'amaboko ububiko bwawe bwa Aegis
+- **Igitabo c'igenzura**: Igitabo c'ido n'ido c'ibintu vyose bihambaye vyabaye mu gikorwa
 
 
 
@@ -228,9 +228,9 @@ Kuva kuri Aegis Interface nyamukuru, kanda kuri buto ya **+** iri hasi iburyo ku
 
 
 
-- Scan QR code**: Scan kode ya QR yerekanwa na serivisi y'urubuga
-- Scan ishusho**: Scan kode ya QR ivuye ku ishusho yabitswe ku gikoresho cawe
-- Injira n'amaboko**: Injira amakuru ya konti ya 2FA n'amaboko
+- **Scan QR code**: Scan kode ya QR yerekanwa na serivisi y'urubuga
+- **Scan ishusho**: Scan kode ya QR ivuye ku ishusho yabitswe ku gikoresho cawe
+- **Injira n'amaboko**: Injira amakuru ya konti ya 2FA n'amaboko
 
 
 
@@ -252,8 +252,8 @@ Reka dufate akarorero nyako k’ugukora kwa 2FA kuri Bitwarden kugira ngo tugara
 
 
 
-- Kwinjira no gushika ku mategeko**: Injira muri konti yawe ya Bitwarden maze ugere ku mategeko, "Umutekano" tab
-- Igice c'abatanga**: Genda ku gice ca "Abatanga" hanyuma ukande kuri "Gucungera" mu gice ca "Iporogarama y'ukwemeza"
+- **Kwinjira no gushika ku mategeko**: Injira muri konti yawe ya Bitwarden maze ugere ku mategeko, "Umutekano" tab
+- **Igice c'abatanga**: Genda ku gice ca "Abatanga" hanyuma ukande kuri "Gucungera" mu gice ca "Iporogarama y'ukwemeza"
 
 
 
@@ -267,10 +267,10 @@ Reka dufate akarorero nyako k’ugukora kwa 2FA kuri Bitwarden kugira ngo tugara
 
 
 
-- Scan QR code**: Idirisha rifunguka rifise kode ya QR n'urufunguzo rw'ibanga
+- **Scan QR code**: Idirisha rifunguka rifise kode ya QR n'urufunguzo rw'ibanga
 - Mu **Aegis**: Koresha "Scan QR code" kugira ngo ufate amakuru ubwawe
-- Igenzura**: Injira kode y'imibare 6 yakozwe na Aegis mu kibanza ca "Kode y'igenzura"
-- Gukoresha**: Fyonda kuri "Gufungura" kugira ngo uheze gukoresha
+- **Igenzura**: Injira kode y'imibare 6 yakozwe na Aegis mu kibanza ca "Kode y'igenzura"
+- **Gukoresha**: Fyonda kuri "Gufungura" kugira ngo uheze gukoresha
 
 
 
@@ -292,12 +292,12 @@ Niba ushaka canke udashobora gucapura kode ya QR, koresha uburyo bwo "Injira n'a
 
 
 
-- Izina**: Izina rya serivisi (nk'akarorero Bitwarden, GitHub...)
-- Uwutanga**: Uwutanga (kenshi asa n’izina)
-- Itsinda**: Ni ubusabe, gutunganya konti zawe hakurikijwe ivyiciro
-- Iciyumviro**: Ivyiyumviro vy'umuntu ku giti ciwe kuri iyi konti
-- Ibanga**: Urufunguzo rw'ibanga rutangwa na serivisi (rupfutse ku buryo busanzwe)
-- Iterambere**: Iterambere ry'imirongo (algorithme, igihe, umubare w'imibare)
+- **Izina**: Izina rya serivisi (nk'akarorero Bitwarden, GitHub...)
+- **Uwutanga**: Uwutanga (kenshi asa n'izina)
+- **Itsinda**: Ni ubusabe, gutunganya konti zawe hakurikijwe ivyiciro
+- **Iciyumviro**: Ivyiyumviro vy'umuntu ku giti ciwe kuri iyi konti
+- **Ibanga**: Urufunguzo rw'ibanga rutangwa na serivisi (rupfutse ku buryo busanzwe)
+- **Iterambere**: Iterambere ry'imirongo (algorithme, igihe, umubare w'imibare)
 
 
 
@@ -323,10 +323,10 @@ Umaze kwongerako amakonti menshi, uzoshima ibikoresho vya Aegis vyo gutunganya:
 
 
 
-- Gutoranya:** Ku mburabuzi, amakonti ari ku rutonde rw'inyuguti, ariko ushobora guhindura urutonde n'amaboko
-- Amatsinda n’ivyiciro:** Rema amatsinda yo gutandukanya amakonti yawe bwite n’ay’ubucuruzi, canke uyashire mu matsinda hakurikijwe ubwoko bw’ibikorwa (banki, e-mail, imihora y’ubudandaji, n’ibindi)
-- Ibishushanyo vy'abantu:** Aegis igerageza gutanga ikimenyetso kibereye iyo kiriho, ahandi ho ushobora guhitamwo mu bishushanyo vyinshi rusangi canke ukazana ishusho
-- Gushakisha vyihuse:** Umurongo w'ishakisha uri hejuru uragufasha kwandika inyuguti nkeyi kugira ngo ucungurure ubwo nyene ivyinjijwe bihuye
+- **Gutoranya:** Ku mburabuzi, amakonti ari ku rutonde rw'inyuguti, ariko ushobora guhindura urutonde n'amaboko
+- **Amatsinda n'ivyiciro:** Rema amatsinda yo gutandukanya amakonti yawe bwite n'ay'ubucuruzi, canke uyashire mu matsinda hakurikijwe ubwoko bw'ibikorwa (banki, e-mail, imihora y'ubudandaji, n'ibindi)
+- **Ibishushanyo vy'abantu:** Aegis igerageza gutanga ikimenyetso kibereye iyo kiriho, ahandi ho ushobora guhitamwo mu bishushanyo vyinshi rusangi canke ukazana ishusho
+- **Gushakisha vyihuse:** Umurongo w'ishakisha uri hejuru uragufasha kwandika inyuguti nkeyi kugira ngo ucungurure ubwo nyene ivyinjijwe bihuye
 
 
 
@@ -427,11 +427,11 @@ Aegis itanga ingamba nyinshi zo gusubiza inyuma kugira ngo zijane n’umutekano 
 - Ubudasiba **gerageza** ama backups yawe mu kugerageza gusubizaho
 - Bika amakode yawe yo gusubizaho **bitandukanye**
 - **Ijambobanga ryawe ry'ingenzi** riracari ngombwa mbere n'aho woba ufise ububiko bwo mu gicu
-- Gukingira ijambobanga ryawe ry'ingenzi**: koresha ijambobanga ry'umwihariko, rikomeye ribitswe mu mucungerezi w'ijambobanga
+- **Gukingira ijambobanga ryawe ry'ingenzi**: koresha ijambobanga ry'umwihariko, rikomeye ribitswe mu mucungerezi w'ijambobanga
 - Gumana ubusabe bwawe **bugezweho** n'ibice vy'umutekano bishasha
 - Gukoresha **auto-lock** mu mitunganyirize kugira ngo ushobore gushika kuri porogaramu
 - Guhagarika **amafoto** (uburyo mburabuzi) kugira ngo amakode yawe ntafatwe
-- Koresha biometrics bike**: guhitamwo amajambo banga ku nzira zihambaye
+- **Koresha biometrics bike**: guhitamwo amajambo banga ku nzira zihambaye
 
 
 
@@ -534,9 +534,9 @@ Umutekano w’amakonti yawe yo kuri internet ntubwirizwa kuva ku buntu bwiza bw�
 
 
 
-- Urubuga rwemewe**: [getaegis.app](https://getaegis.app/) - Gushikiriza ubusabe no gukuraho
-- Kode y'inkomoko**: [github.com/iterambere ry'umuyaga/Aegis) - Ububiko buzwi bwa GitHub
-- F-Droid**: Gushiramwo biciye ku bubiko bw'ubuntu
+- **Urubuga rwemewe**: [getaegis.app](https://getaegis.app/) - Gushikiriza ubusabe no gukuraho
+- **Kode y'inkomoko**: [github.com/iterambere ry'umuyaga/Aegis] - Ububiko buzwi bwa GitHub
+- **F-Droid**: Gushiramwo biciye ku bubiko bw'ubuntu
 
 
 
@@ -545,6 +545,6 @@ Umutekano w’amakonti yawe yo kuri internet ntubwirizwa kuva ku buntu bwiza bw�
 
 
 
-- Ivyandiko vy'ububiko**: [Igishushanyo c'ububiko](https://github.com/beemdevelopment/Aegis/blob/master/docs/ububiko.md) - Insobanuro y'ubuhinga y'ububiko n'ubwubatsi butekanye
-- Ibibazo vyemewe**: Inyishu ku bibazo bikunda kubazwa
-- Umugambi wiki**: [github.com/iterambere ry'ibikoko/Aegis/wiki) - Inyandiko z'abakoresha zose
+- **Ivyandiko vy'ububiko**: [Igishushanyo c'ububiko](https://github.com/beemdevelopment/Aegis/blob/master/docs/ububiko.md) - Insobanuro y'ubuhinga y'ububiko n'ubwubatsi butekanye
+- **Ibibazo vyemewe**: Inyishu ku bibazo bikunda kubazwa
+- **Umugambi wiki**: [github.com/iterambere ry'ibikoko/Aegis/wiki) - Inyandiko z'abakoresha zose

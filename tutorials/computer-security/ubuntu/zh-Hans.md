@@ -13,9 +13,9 @@ description: 安装和使用 Ubuntu 作为 Windows 替代方案的完整指南
 
 - **增强的安全性**：Linux 发行版以其安全性和稳健性而闻名
 - **零成本**：Ubuntu 和大多数 Linux 发行版都是免费的
-- 大型社区**：用户社区随时准备通过论坛和教程提供帮助
+- **大型社区**：用户社区随时准备通过论坛和教程提供帮助
 - 尊重隐私：开源系统，提高透明度
-- 简单**：用户界面友好，易于使用
+- **简单**：用户界面友好，易于使用
 
 The line appears to have an unbalanced ** marker. Here's the corrected version:
 

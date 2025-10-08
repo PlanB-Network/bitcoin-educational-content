@@ -32,7 +32,7 @@ passphrase ikorana n’ijambo Mnemonic, ihindura seed aho imfunguruzo zikomoka. 
 passphrase ni ubusa kandi ishobora kuba ihuriro ryose ry’inyuguti zitowe n’uwukoresha. Gukoresha passphrase rero biratanga ivyiza vyinshi. Ica mbere, bigabanya ingorane zose zijanye n’ugusenyuka kw’ijambo Mnemonic mu gusaba ikintu ca kabiri kugira ngo umuntu ashobore kuronka ayo mahera (ubusuma, kuronka inzu yawe, n’ibindi).
 
 
-Igikurikira, gishobora gukoreshwa mu buryo bw'ubuhinga bwo guhingura umutego Wallet, kugira ngo ushobore guhangana n'ingorane zo ku mubiri kugira ngo wibe amahera yawe nk'igitero c'urufunguzo rw'amadolari 5*. Muri iki gihe, iciyumviro ni ukugira Wallet ata passphrase irimwo gusa amafaranga makeyi, ahagije kugira ngo umuntu ashobora gutera, mu gihe afise Wallet yihishije. Iyi ya nyuma ikoresha iryo jambo nyene Mnemonic ariko ikaba icungiwe n'iyindi passphrase.
+Igikurikira, gishobora gukoreshwa mu buryo bw'ubuhinga bwo guhingura umutego Wallet, kugira ngo ushobore guhangana n'ingorane zo ku mubiri kugira ngo wibe amahera yawe nk'igitero c'urufunguzo rw'amadolari **5**. Muri iki gihe, iciyumviro ni ukugira Wallet ata passphrase irimwo gusa amafaranga makeyi, ahagije kugira ngo umuntu ashobora gutera, mu gihe afise Wallet yihishije. Iyi ya nyuma ikoresha iryo jambo nyene Mnemonic ariko ikaba icungiwe n'iyindi passphrase.
 
 
 Ubwa nyuma, gukoresha passphrase biraryoshe iyo umuntu yipfuza kugenzura uburyo butari bwo bw’uruvyaro rwa HD Wallet rwa seed.

@@ -145,7 +145,7 @@ Kwemerera gusangira urufunguzo rwa bose rwagutse ruvuye ku gikoresho. Uhe urufun
 ![Configurer clé principale](assets/fr/08.webp)
 
 
-Inyuma y'aho, ushireho igihe co kwishura, ni ukuvuga igihe amahera ashobora gukoreshwa n'urufunguzo rw'iragi*. Ukwo gucererwa gusobanurwa mu buryo bw’ibice, igice cose kikaba gitandukanijwe n’iminota 10. Bishobora kuva ku minota 10 (ibarabara 1) gushika ku mezi nka 15 (ibarabara 65.535). Ico kigero co hejuru ni ikigereranyo c’umurongo wa Bitcoin, kuko igihe co gufunga gishizwe ku bice 16.
+Inyuma y'aho, ushireho igihe co kwishura, ni ukuvuga igihe amahera ashobora gukoreshwa n'urufunguzo rw'iragi. Ukwo gucererwa gusobanurwa mu buryo bw'ibice, igice cose kikaba gitandukanijwe n'iminota 10. Bishobora kuva ku minota 10 (ibarabara 1) gushika ku mezi nka 15 (ibarabara 65.535). Ico kigero co hejuru ni ikigereranyo c'umurongo wa Bitcoin, kuko igihe co gufunga gishizwe ku bice 16.
 
 
 Uretse ibintu bidasanzwe, uhitemwo igihe kirekire kuruta ibindi vyose: amezi 15 canke amabarabara 65.535. Ivyo bizokuzigamira amahera. Ariko rero, turagusavye ko wokora uburyo bwo guhindura (buvugwa mu gice ca "Guhindura Wallet") rimwe mu mwaka, wama mu gihe kimwe c'umwaka, kugira ngo "mugire umugenzo" uwo mugenzo kandi ntimwibagire.

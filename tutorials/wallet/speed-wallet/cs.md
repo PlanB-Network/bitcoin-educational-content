@@ -143,7 +143,7 @@ Na domovské stránce **Wallet** najdete :
 
 
 
-- Přijímání plateb na rychlost Wallet :**
+- Přijímání plateb na rychlost Wallet:
 
 
 

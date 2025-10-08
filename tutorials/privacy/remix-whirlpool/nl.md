@@ -8,10 +8,10 @@ description: Hoeveel remixen moeten er op Whirlpool?
 ***WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, is de Whirlpool Stats Tool niet langer beschikbaar voor download, omdat het gehost werd op Samourai's Gitlab. Zelfs als je deze tool eerder lokaal op je machine had gedownload, of het was geïnstalleerd op je RoninDojo node, zal WST op dit moment niet werken. Het vertrouwde op gegevens van OXT.me voor zijn werking, en deze site is niet langer toegankelijk. Op dit moment is WST niet bijzonder nuttig omdat het Whirlpool protocol inactief is. Het blijft echter mogelijk dat deze software in de komende weken weer in gebruik wordt genomen. Bovendien blijft het theoretische deel van dit artikel relevant voor het begrijpen van de principes en doelen van coinjoins in het algemeen (niet alleen Whirlpool), en voor het begrijpen van de effectiviteit van het Whirlpool model. Je kunt ook leren hoe je de privacy van CoinJoin cycli kunt kwantificeren.*
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
+we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is.
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
+deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied.
 
 
 ---

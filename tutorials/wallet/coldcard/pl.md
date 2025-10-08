@@ -96,7 +96,7 @@ passphrase > Dodaj słowa (zalecane) > Zastosuj. Urządzenie wyświetli XFP nowo
 
 
 - [Tutaj](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) znajduje się pierwszy z nich autorstwa _Trezor_;
-- [Tutaj](https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/) można znaleźć drugi z nich autorstwa_Coinkite_;
+- [Tutaj](https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/) można znaleźć drugi z nich autorstwa _Coinkite_;
 - A [tutaj](https://armantheparman.com/passphrase/) znajdziesz ostatni autorstwa _armantheparman_.
 
 

@@ -104,8 +104,8 @@ Breez는 세 가지 옵션을 제공합니다:
 
 
 - 라이트닝 또는 **ID** Invoice로 받습니다: generate을 Invoice로 바꾸고 돈을 받습니다.
-- Bitcoin Address**를 통해 수신합니다: Bitcoin 메인 네트워크에서 트랜잭션으로 비트코인을 받습니다.
-- Bitcoin** 구매하기: 브리즈에는 법정화폐로 직접 Bitcoin을 획득하는 방법이 통합되어 있습니다.
+- **Bitcoin Address**를 통해 수신합니다: Bitcoin 메인 네트워크에서 트랜잭션으로 비트코인을 받습니다.
+- **Bitcoin 구매하기**: 브리즈에는 법정화폐로 직접 Bitcoin을 획득하는 방법이 통합되어 있습니다.
 
 
 
@@ -139,8 +139,8 @@ Breez는 비트코인을 전송할 수 있는 세 가지 옵션을 제공합니�
 
 
 
-- Invoice 또는 사용자 ID**를 붙여넣습니다: 라이트닝 Invoice를 결제합니다.
-- 결제에 연결**: 세션을 생성하고 수신자를 세션에 초대하여 비트코인을 전송합니다.
+- **Invoice 또는 사용자 ID를 붙여넣습니다**: 라이트닝 Invoice를 결제합니다.
+- **결제에 연결**: 세션을 생성하고 수신자를 세션에 초대하여 비트코인을 전송합니다.
 - BTC Address으로 전송합니다: Bitcoin 메인 네트워크에서 트랜잭션.
 
 
@@ -169,7 +169,7 @@ Breez는 비트코인을 전송할 수 있는 세 가지 옵션을 제공합니�
 
 
 
-- 팟캐스트 듣기**: Breez는 팟캐스트 2.0 플레이어로, Bitcoin 기부로 좋아하는 크리에이터를 후원할 수 있습니다.
+- **팟캐스트 듣기**: Breez는 팟캐스트 2.0 플레이어로, Bitcoin 기부로 좋아하는 크리에이터를 후원할 수 있습니다.
 
 
 메뉴에서 **팟캐스트**를 선택한 다음 좋아하는 콘텐츠 크리에이터를 찾아서 찾아서 듣습니다.
@@ -186,17 +186,17 @@ Breez는 비트코인을 전송할 수 있는 세 가지 옵션을 제공합니�
 
 
 
-- POS**: Breez는 비즈니스에 완벽하게 적응하여 애플리케이션 내에서 POS를 운영할 수 있습니다. 매장의 재고를 관리하고, 고객으로부터 결제를 받고, 모든 구매에 대해 generate 인쇄 가능한 인보이스를 받을 수 있습니다. 또한 Breez에서 지원하는 다양한 통화로 현지 통화를 찾을 수 있습니다.
+- **POS**: Breez는 비즈니스에 완벽하게 적응하여 애플리케이션 내에서 POS를 운영할 수 있습니다. 매장의 재고를 관리하고, 고객으로부터 결제를 받고, 모든 구매에 대해 generate 인쇄 가능한 인보이스를 받을 수 있습니다. 또한 Breez에서 지원하는 다양한 통화로 현지 통화를 찾을 수 있습니다.
 
 
 
-환경설정 > 법정통화** 메뉴에서 통화를 사용자 지정할 수 있습니다.
+환경설정 > **법정통화** 메뉴에서 통화를 사용자 지정할 수 있습니다.
 
 
 ![custom-fiat](assets/fr/13.webp)
 
 
-POS(Point of Sale)** 메뉴에서 스토어에서 판매하는 품목을 구성할 수 있습니다.
+**POS(Point of Sale)** 메뉴에서 스토어에서 판매하는 품목을 구성할 수 있습니다.
 
 
 ![products](assets/fr/14.webp)
@@ -210,7 +210,7 @@ POS(Point of Sale)** 메뉴에서 스토어에서 판매하는 품목을 구성�
 
 
 
-- 타사 서비스 액세스**: Breez는 Wallet을 벗어나지 않고도 더 많은 작업을 수행할 수 있는 타사 서비스를 통합합니다. 여기에는 Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL이 포함됩니다.
+- **타사 서비스 액세스**: Breez는 Wallet을 벗어나지 않고도 더 많은 작업을 수행할 수 있는 타사 서비스를 통합합니다. 여기에는 Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL이 포함됩니다.
 
 
 ![apps](assets/fr/16.webp)

@@ -178,7 +178,7 @@ når du åpner en kanal med Olympus LSP ved hjelp av de innpakkede LN-fakturaene
 
 eksempel: du setter inn 400 000 Sats for å åpne en LSP-kanal, så åpner LSP-en en kanal med kapasitet på 500 000 Sats mot Zeus-noden din og skyver de 400 000 Sats du setter inn mot din side
 
-_"Innkommende likviditet" = mer "plass" i kanalen din til å ta imot
+_"Innkommende likviditet"_ = mer "plass" i kanalen din til å ta imot
 
 
 I fremtiden håper vi at vi kan ha mange andre LSP-er som kan integreres i Zeus og bruke hver enkelt av dem alternativt. Det er bare et spørsmål om tid før nye LSP-er vil ta i bruk en åpen standard for denne typen 0conf-kanaler.

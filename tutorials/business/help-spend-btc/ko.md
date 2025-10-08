@@ -30,7 +30,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 ## 제안서
 
 
-고객이 Bitcoin로 결제하도록 유도할 수 있는 몇 가지 가능성을 살펴봅시다. 고정 할인 정책**, **상시 최고가 정책**, **추가 혜택 정책** 등 세 가지를 간략하게 설명하겠습니다.
+고객이 Bitcoin로 결제하도록 유도할 수 있는 몇 가지 가능성을 살펴봅시다. **고정 할인 정책**, **상시 최고가 정책**, **추가 혜택 정책** 등 세 가지를 간략하게 설명하겠습니다.
 
 
 ### 고정 할인 정책
@@ -127,7 +127,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 - 소셜 미디어 알림, 뉴스레터, 웹사이트 공지사항
 - 가능한 경우 고객과 직접 대화
 
-*타겟 고객과 동일한 언어를 사용하는 Bitcoin 인플루언서의 광고****
+**타겟 고객과 동일한 언어를 사용하는 Bitcoin 인플루언서의 광고**
 
 
 ### BTC 지도

@@ -158,7 +158,7 @@ Kui olete ühendatud, saate noStrudeli abil oma märkmeid Nostri kaudu jagada. I
 
 
 
-**Tipp:** _noStrudel_is saate seadistada _timeline-filtreid_ või testida erinevaid _NIPs (Nostr Implementation Possibilities)_. Näiteks kontrollige NIP-05 (detsentraliseeritud identifikaatorid) või uuemate funktsioonide toetust. See teeb _noStrudel_ suurepäraseks tööriistaks katsetamiseks kontrollitud keskkonnas.
+**Tipp:** _noStrudel_ saate seadistada _timeline-filtreid_ või testida erinevaid _NIPs (Nostr Implementation Possibilities)_. Näiteks kontrollige NIP-05 (detsentraliseeritud identifikaatorid) või uuemate funktsioonide toetust. See teeb _noStrudeli_ suurepäraseks tööriistaks katsetamiseks kontrollitud keskkonnas.
 
 
 
@@ -350,7 +350,7 @@ Turvalisuse huvides on teie Umbrel vaikimisi kättesaadav ainult teie kohalikus 
 - Juurdepääs Tailscale'i kaudu: **[Tailscale](https://tailscale.com/) on võrgusilma VPN-lahendus, mis loob virtuaalse privaatvõrgu teie seadmete ja Umbreli vahel. Eelis: see töötab nagu oleksite LAN-is, kuid üle interneti, krüpteeritult ja ilma keerulise seadistamiseta.** Tailscale määrab teie Umbrelile kindla IP- ja privaatse domeeninime, sõltumata selle võrgu asukohast **([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. Praktikas, kui olete paigaldanud Tailscale'i Umbrelile (Umbrel App Store'ist, kategooria *Networking*) **ja** oma seadmetes (mobiil, arvuti...), saate Umbrelile ligi Address kaudu nagu `100.x.y.z
 
 
-nostr_ puhul on Tailscale äärmiselt kasulik: teie mobiil, kui sellel on Tailscale aktiivne, saab ühendust `ws://umbrel:4848` (tänu MagicDNSile) või otse Tailscale'i IP ja port 4848, et kasutada releed. Kliendid nagu Damus või Amethyst näevad teie Umbrel'i nii, nagu oleks see samas kohalikus võrgus. **Nipp:** Võta Tailscale'is kasutusele valik **MagicDNS**, et kasutada hostinime `umbrel`, selle asemel, et IP-d meelde jätta. See tagab sujuva ühenduse teie releega isegi siis, kui olete liikvel ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
+nostr puhul on Tailscale äärmiselt kasulik: teie mobiil, kui sellel on Tailscale aktiivne, saab ühendust `ws://umbrel:4848` (tänu MagicDNSile) või otse Tailscale'i IP ja port 4848, et kasutada releed. Kliendid nagu Damus või Amethyst näevad teie Umbrel'i nii, nagu oleks see samas kohalikus võrgus. **Nipp:** Võta Tailscale'is kasutusele valik **MagicDNS**, et kasutada hostinime `umbrel`, selle asemel, et IP-d meelde jätta. See tagab sujuva ühenduse teie releega isegi siis, kui olete liikvel ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
 
 
 Lisaks võimaldab Tailscale juurdepääsu Interface Umbrelile (ja seega ka _noStrudel/Snort_ veebiklientidele) lihtsa brauseri kaudu, kasutades privaatset IP-d või määratud domeeninime. Tor brauserit ei ole vaja ja andmeedastuskiirused on üldiselt paremad kui Tor-võrgu kaudu.

@@ -160,7 +160,7 @@ Cắm ổ USB có thể khởi động vào máy tính đã tắt (máy tính b�
 
 
 
-Màn hình chính của Ubuntu xuất hiện. Chọn "Dùng thử hoặc Cài đặt Ubuntu*".
+Màn hình chính của Ubuntu xuất hiện. Chọn "Dùng thử hoặc Cài đặt Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Vui lòng giữ bí mật tuyệt đối thông tin Address này
+⚠️ **Vui lòng giữ bí mật tuyệt đối thông tin Address này**
 
 
 
@@ -1426,7 +1426,7 @@ Nếu bạn đã kết nối với DMT, bạn cũng có thể tìm thấy Addres
 
 
 
-⚠️ **Vui lòng giữ bí mật tuyệt đối thông tin Address này
+⚠️ **Vui lòng giữ bí mật tuyệt đối thông tin Address này**
 
 
 

@@ -37,7 +37,7 @@ Bu nedenle bu makalenin geri kalanı, özellikle Ubuntu ve Pop!OS gibi Debian uy
 
 
 - Minimum 6GB veri depolama alanı (pruned düğümü) - 1TB veri depolama alanı (Full node)
-- İlk Blok İndirme* (IBD) işleminin en az 24 saat sürmesini bekleyin. Bu işlem bir pruned düğümü için bile zorunludur.
+- **İlk Blok İndirme** (IBD) işleminin en az 24 saat sürmesini bekleyin. Bu işlem bir pruned düğümü için bile zorunludur.
 - Bir pruned düğümü için bile IBD için ~600GB bant genişliğine izin verin.
 
 
@@ -156,7 +156,7 @@ sudo systemctl restart tor
 ```
 
 
-Daha sonra, `Bitcoin-qt` komutuyla Bitcoin core grafiksel Interface'ı başlatalım. Ardından, bağlantılarımızı bir Tor proxy üzerinden yönlendirmek için yazılımın otomatik özelliğini etkinleştirin: ayarlar > Ağ_ ve buradan _SOCKS5 proxy (varsayılan proxy)_ üzerinden bağlan ve _Tor onion hizmetleri üzerinden eşlere ulaşmak için ayrı bir SOCKS5 proxy kullan_ seçeneklerini işaretleyin.
+Daha sonra, `Bitcoin-qt` komutuyla Bitcoin core grafiksel Interface'ı başlatalım. Ardından, bağlantılarımızı bir Tor proxy üzerinden yönlendirmek için yazılımın otomatik özelliğini etkinleştirin: ayarlar > **Ağ** ve buradan **SOCKS5 proxy (varsayılan proxy)** üzerinden bağlan ve **Tor onion hizmetleri üzerinden eşlere ulaşmak için ayrı bir SOCKS5 proxy kullan** seçeneklerini işaretleyin.
 
 
 ![option](assets/fr/04.webp)

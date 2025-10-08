@@ -224,7 +224,7 @@ Bunlardan birinin üzerine fare ile tıklamanız ve ardından _Seçileni Gönder
 
 
 
-Birden fazla da seçebilirsiniz. Listede bitişik olmayan UTXO'ları seçmek için_CTRL_ tuşu ile kendinize yardımcı olun.
+Birden fazla da seçebilirsiniz. Listede bitişik olmayan UTXO'ları seçmek için **CTRL** tuşu ile kendinize yardımcı olun.
 
 
 
@@ -328,7 +328,7 @@ Bundan sonra hedef Address'u girebilir ve miktarı ve ücretleri ayarlayabilirsi
 
 
 
-Bütünlük adına, Nunchuk özellikleri arasında bir (veya daha fazla) UTXO'yu ayırmaya da izin verir ve bunu iki farklı şekilde yapar. Paraları görüntüle_ menüsüne erişin ve paralar listesinden manuel olarak seçim yapın. Ardından sağ alttaki _More_ menüsüne tıklayın: _Lock coins_ seçeneğini seçebileceğiniz bir seçenekler listesi görünecektir.
+Bütünlük adına, Nunchuk özellikleri arasında bir (veya daha fazla) UTXO'yu ayırmaya da izin verir ve bunu iki farklı şekilde yapar. **Paraları görüntüle** menüsüne erişin ve paralar listesinden manuel olarak seçim yapın. Ardından sağ alttaki **More** menüsüne tıklayın: **Lock coins** seçeneğini seçebileceğiniz bir seçenekler listesi görünecektir.
 
 
 
@@ -508,7 +508,7 @@ UTXO'ları mobil Nunchuk ile de ayırabilirsiniz. Özel jeton listesi penceresin
 
 
 
-Sikke ayrıntıları_ için ayrılmış alanı göreceksiniz, burada _Bu sikkeyi kilitle_ seçeneğini seçebilirsiniz.
+Sikke ayrıntıları için ayrılmış alanı göreceksiniz, burada **Bu sikkeyi kilitle** seçeneğini seçebilirsiniz.
 
 
 

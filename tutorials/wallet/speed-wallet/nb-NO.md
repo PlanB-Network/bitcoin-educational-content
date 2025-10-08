@@ -143,7 +143,7 @@ På hjemmesiden til **Wallet** finner du :
 
 
 
-- Motta betalinger på Speed Wallet :**
+- Motta betalinger på Speed Wallet:
 
 
 

@@ -244,7 +244,7 @@ Na het handmatig selecteren van UTXO, kun je beginnen met het bouwen van de tran
 
 
 
-Geldmiddelen scheiden betekent ze "vergrendelen" binnen Wallet, zodat ze niet kunnen worden gebruikt als invoer voor een transactie. Sparrow staat deze functionaliteit toe, die altijd toegankelijk is vanuit het menu _UTXOs_: je plaatst de muis boven de UTXO die moet worden "vergrendeld" en klikt op de rechtermuisknop. Onder de functies van deze procedure verschijnt _ UTXO bevriezen_. Dit is hoe je Coins kunt scheiden met Sparrow wallets.
+Geldmiddelen scheiden betekent ze "vergrendelen" binnen Wallet, zodat ze niet kunnen worden gebruikt als invoer voor een transactie. Sparrow staat deze functionaliteit toe, die altijd toegankelijk is vanuit het menu _UTXOs_: je plaatst de muis boven de UTXO die moet worden "vergrendeld" en klikt op de rechtermuisknop. Onder de functies van deze procedure verschijnt _UTXO bevriezen_. Dit is hoe je Coins kunt scheiden met Sparrow wallets.
 
 
 

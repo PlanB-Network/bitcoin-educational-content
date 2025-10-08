@@ -96,7 +96,7 @@ cargo install --locked --debug --path .
 
 
 
-- bitcoind`** 노드
+- **bitcoind** 노드
 
 
 각 RLN 인스턴스는 On-Chain 트랜잭션을 브로드캐스트하고 모니터링하기 위해 `bitcoind`과 통신해야 합니다. 인증(로그인/비밀번호) 및 URL(호스트/포트)을 daemon에 제공해야 합니다.
@@ -104,7 +104,7 @@ cargo install --locked --debug --path .
 
 
 
-- 인덱서**(일렉트럼 또는 에스플로라)
+- 인덱서**(일렉트럼 또는 에스플로라)**
 
 
 특히 자산이 앵커링된 UTXO을 찾으려면 daemon이 On-Chain 트랜잭션을 나열하고 탐색할 수 있어야 합니다. 일렉트럼 서버 또는 Esplora의 URL을 지정해야 합니다.
@@ -112,7 +112,7 @@ cargo install --locked --debug --path .
 
 
 
-- RGB** 프록시
+- **RGB** 프록시
 
 
 프록시 서버는 Lightning 피어 간 Exchange의 RGB *위탁*을 간소화하기 위한 구성 요소(선택 사항이지만 적극 권장)입니다. 다시 한 번 URL을 지정해야 합니다.

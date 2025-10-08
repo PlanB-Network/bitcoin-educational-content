@@ -8,13 +8,13 @@ description: Hoe voer je een PayJoin transactie uit op Samourai Wallet?
 **Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, werken Payjoins Stowaway op Samourai Wallet alleen nog door handmatig PSBT uit te wisselen tussen de betrokken partijen, op voorwaarde dat beide gebruikers verbonden zijn met hun eigen Dojo. Wat Sparrow betreft, werken Payjoins via BIP78 nog steeds. Het is echter mogelijk dat deze tools in de komende weken opnieuw worden gelanceerd. In de tussentijd kun je nog steeds dit artikel lezen om de theoretische werking van Stowaway te begrijpen.**
 
 
-als u van plan bent om een Stowaway handmatig uit te voeren, is de procedure zeer vergelijkbaar met die beschreven in deze handleiding. Het belangrijkste verschil zit in de keuze van het type verstekverrichting: in plaats van `Online` te selecteren, klikt u op `In Person / Manual`. Vervolgens moet u handmatig Exchange de PSBTs om de Stowaway transactie te construeren. Als u fysiek dicht bij uw medewerker bent, kunt u de QR-codes achtereenvolgens scannen. Als u op afstand bent, kunnen JSON-bestanden worden uitgewisseld via een beveiligd communicatiekanaal. De rest van de tutorial blijft ongewijzigd._
+als u van plan bent om een Stowaway handmatig uit te voeren, is de procedure zeer vergelijkbaar met die beschreven in deze handleiding. Het belangrijkste verschil zit in de keuze van het type verstekverrichting: in plaats van `Online` te selecteren, klikt u op `In Person / Manual`. Vervolgens moet u handmatig Exchange de PSBTs om de Stowaway transactie te construeren. Als u fysiek dicht bij uw medewerker bent, kunt u de QR-codes achtereenvolgens scannen. Als u op afstand bent, kunnen JSON-bestanden worden uitgewisseld via een beveiligd communicatiekanaal. De rest van de tutorial blijft ongewijzigd.
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
+we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is.
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
+deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied.
 
 
 ---

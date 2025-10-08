@@ -39,8 +39,8 @@ Hariho ibikorwa bibiri nyamukuru bitangwa na platform:
 
 
 
-- FlashX**: Exchange amafaranga y’ibiceri n’amahera y’amatelefone ngendanwa.
-- FlashPayment**: Koresha Bitcoin ku bikorwa vya misi yose.
+- **FlashX**: Exchange amafaranga y'ibiceri n'amahera y'amatelefone ngendanwa.
+- **FlashPayment**: Koresha Bitcoin ku bikorwa vya misi yose.
 
 
 
@@ -73,9 +73,9 @@ Flash ikora ibikorwa vyayo ikoresheje amahera yo mu karere ka Mobile Money. Biva
 
 
 
-- Benin**: MTN Benin, Moov Benin, Abacelte.
-- Togo**: Moov Togo.
-- Burkina-Faso**: Ibara ry’umuhondo.
+- **Benin**: MTN Benin, Moov Benin, Abacelte.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Ibara ry'umuhondo.
 
 
 
@@ -157,8 +157,8 @@ Uretse kugura no kugurisha bitcoins, Flash itanga ubuhinga bwayo bwo gukoresha B
 
 
 
-- Ivyiyumviro vya GSM**;
-- Amapaki ya Internet**;
+- Ivyiyumviro vya **GSM**;
+- **Amapaki ya Internet**;
 - Guhamagara **amapaki**;
 - Ihuriro ry’uguhamagara n’ugukoresha Internet.
 

@@ -277,10 +277,10 @@ Elke swap heeft een unieke identificatie met realtime tracering. Volledige voort
 
 
 
-- Eenvoud**: Wisselen in een paar klikken vs. handmatige kanaalmanipulatie
-- Non-custodial**: geen KYC, geen rekening, geld nooit toevertrouwd aan een derde partij
-- Transparantie**: kosten expliciet weergegeven vóór validatie (0,1% tot 0,5% + minage afhankelijk van gebruikerstests - controleer huidige kosten bij elke swap)
-- Mobiele integratie**: native ervaring in Zeus Wallet
+- **Eenvoud**: Wisselen in een paar klikken vs. handmatige kanaalmanipulatie
+- **Non-custodial**: geen KYC, geen rekening, geld nooit toevertrouwd aan een derde partij
+- **Transparantie**: kosten expliciet weergegeven vóór validatie (0,1% tot 0,5% + minage afhankelijk van gebruikerstests - controleer huidige kosten bij elke swap)
+- **Mobiele integratie**: native ervaring in Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Elke swap heeft een unieke identificatie met realtime tracering. Volledige voort
 
 
 
-- Vervaltermijnen**: 24-48 uur maximaal, mislukking als Bitcoin niet op tijd bevestigd is
-- Bedraglimieten**: minimum 25.000 Sats, Zeus LSP liquiditeit variabel volgens voorwaarden
-- Traceert On-Chain**: HTLC scripts mogelijk identificeerbaar door Blockchain analyse
-- Bevestiging vereist**: minimaal 10 minuten voor Bitcoin validatie
+- **Vervaltermijnen**: 24-48 uur maximaal, mislukking als Bitcoin niet op tijd bevestigd is
+- **Bedraglimieten**: minimum 25.000 Sats, Zeus LSP liquiditeit variabel volgens voorwaarden
+- **Traceert On-Chain**: HTLC scripts mogelijk identificeerbaar door Blockchain analyse
+- **Bevestiging vereist**: minimaal 10 minuten voor Bitcoin validatie
 
 
 
@@ -320,7 +320,7 @@ Elke swap heeft een unieke identificatie met realtime tracering. Volledige voort
 
 
 - Controleer de Bitcoin adressen zorgvuldig (kopiëren-plakken aanbevolen)
-- Maak een back-up van de Zeus Swaps herstelsleutel**: download de herstelsleutel en bewaar deze op een veilige plaats
+- Maak een back-up van de Zeus Swaps herstelsleutel: download de herstelsleutel en bewaar deze op een veilige plaats
 - Document: Contract ID, restitutie Address, vervaldatum
 - Gebruik de juiste Mining vergoedingen voor tijdige bevestiging
 
@@ -354,11 +354,11 @@ Zeus Swap gebruikt de backend-technologie van Boltz, maar brengt enkele cruciale
 
 
 
-- Interface verenigd**: native integratie in Zeus Wallet vs Interface webtechniek Boltz
-- WebSocket API**: realtime updates vs. handmatig pollen
-- Geautomatiseerd beheer**: automatische facturering en Address beheer
-- Mobiele ondersteuning**: alleen optimalisatie voor smartphone vs. desktop
-- Swagger-documentatie**: complete REST API voor ontwikkelaars
+- **Interface verenigd**: native integratie in Zeus Wallet vs Interface webtechniek Boltz
+- **WebSocket API**: realtime updates vs. handmatig pollen
+- **Geautomatiseerd beheer**: automatische facturering en Address beheer
+- **Mobiele ondersteuning**: alleen optimalisatie voor smartphone vs. desktop
+- **Swagger-documentatie**: complete REST API voor ontwikkelaars
 
 
 

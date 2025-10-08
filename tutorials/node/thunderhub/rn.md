@@ -19,10 +19,10 @@ ThunderHub ni **umuyobozi w’inkomoko yuguruye w’ibice vy’umuravyo (LND)**,
 
 
 
-- Gukurikirana**: Imbonerahamwe y'isi yose y'imibare, imirongo, amafaranga, imibare y'inzira
-- Ubuyobozi**: Gufungura/funga imihora, kwishura/gusohoka, guhuza imihora
-- Inyungu**: LNURL infashanyo, guhindura biciye kuri Boltz, Amboss ububiko
-- Interface yishuye**: Ihuye n'ibikoresho vy'amatelefone ngendanwa, ibikoresho vy'amaboko n'ibikoresho vy'ibiro bifise insasanuro z'umwiza/umuco
+- **Gukurikirana**: Imbonerahamwe y'isi yose y'imibare, imirongo, amafaranga, imibare y'inzira
+- **Ubuyobozi**: Gufungura/funga imihora, kwishura/gusohoka, guhuza imihora
+- **Inyungu**: LNURL infashanyo, guhindura biciye kuri Boltz, Amboss ububiko
+- **Interface yishuye**: Ihuye n'ibikoresho vy'amatelefone ngendanwa, ibikoresho vy'amaboko n'ibikoresho vy'ibiro bifise insasanuro z'umwiza/umuco
 
 
 
@@ -58,8 +58,8 @@ Umbrel ishiramwo ThunderHub mu **App Store** yayo, bituma gushiramwo vyoroha can
 
 
 
-- Gufungura urupapuro rwa Umbrel**: Huza n'urubuga rwa Interface rw'uruzitiro rwawe rwa Umbrel (nk'akarorero `http://umbrel.local` ku rubuga rwawe rwo mu karere, canke biciye kuri `.onion` Address nimba uriko urakoresha Tor).
-- Ushobora gushika ku iduka ry'amaporogarama**: Mu rutonde rwa Umbrel, fyonda ku "Iduka ry'amaporogarama" (canke "Iporogarama"). Rondera **ThunderHub** mu rutonde rw'ibikoresho biriho.
+- **Gufungura urupapuro rwa Umbrel**: Huza n'urubuga rwa Interface rw'uruzitiro rwawe rwa Umbrel (nk'akarorero `http://umbrel.local` ku rubuga rwawe rwo mu karere, canke biciye kuri `.onion` Address nimba uriko urakoresha Tor).
+- Ushobora gushika ku iduka ry'amaporogarama: Mu rutonde rwa Umbrel, fyonda ku "Iduka ry'amaporogarama" (canke "Iporogarama"). Rondera **ThunderHub** mu rutonde rw'ibikoresho biriho.
 
 
 
@@ -69,13 +69,13 @@ Umbrel ishiramwo ThunderHub mu **App Store** yayo, bituma gushiramwo vyoroha can
 
 
 
-- Gushiramwo ThunderHub**: Fyonda kuri porogarama ya ThunderHub, hanyuma ukande kuri buto yo gushiramwo. Wemeze nimba ari ngombwa. Umbrel izokwikurako maze ikoreshe ThunderHub ku nzira yawe.
+- **Gushiramwo ThunderHub**: Fyonda kuri porogarama ya ThunderHub, hanyuma ukande kuri buto yo gushiramwo. Wemeze nimba ari ngombwa. Umbrel izokwikurako maze ikoreshe ThunderHub ku nzira yawe.
 
 
 
 
 
-- Gutanguza porogaramu**: Iyo gushiramwo birangiye (amasegonda mirongo make), ThunderHub iraboneka kuri paji yawe y’intango. Fyonda kuri iyo kimenyetso kugira ngo uyifungure. ThunderHub itanguye mu mucukumbuzi wawe.
+- **Gutanguza porogaramu**: Iyo gushiramwo birangiye (amasegonda mirongo make), ThunderHub iraboneka kuri paji yawe y'intango. Fyonda kuri iyo kimenyetso kugira ngo uyifungure. ThunderHub itanguye mu mucukumbuzi wawe.
 
 
 
@@ -88,7 +88,7 @@ Umbrel ishiramwo ThunderHub mu **App Store** yayo, bituma gushiramwo vyoroha can
 
 
 
-- Bika iri jambobanga ubwo nyene** mu mucungerezi w'ijambobanga ryawe
+- Bika iri jambobanga ubwo nyene mu mucungerezi w'ijambobanga ryawe
 - Kopa **kugira ngo ukoreshe mu ntambwe ikurikira**
 - Suzuma "Ntusubire kwerekana ibi" ijambobanga rimaze kubikwa
 
@@ -127,8 +127,8 @@ Ku bakoresha hanze ya Umbrel (nk'akarorero kuri server y'umuntu ku giti ciwe, Ra
 
 
 
-- Node.js** verisiyo 18 canke hejuru
-- npm** yashizweho
+- **Node.js** verisiyo 18 canke hejuru
+- **npm** yashizweho
 - Ugushika ku madosiye y'ukwemeza LND :
   - LND Icemezo ca TLS (`tls.icemezo`)
   - LND ubuyobozi bw'imakaroni (`ubuyobozi.imakaroni`)
@@ -304,8 +304,8 @@ Paje yo kwinjira muri ThunderHub iraboneka. Hitamwo konti yatunganijwe maze winj
 
 
 
-- Gushiramwo:** [inyandiko.inkuba.io/ishirwaho](https://inyandiko.inkuba.io/ishirwaho)
-- Itunganywa:** [inyandiko.inkuba.io/gutegura](https://inyandiko.inkuba.io/gutegura)
+- **Gushiramwo:** [inyandiko.inkuba.io/ishirwaho](https://inyandiko.inkuba.io/ishirwaho)
+- **Itunganywa:** [inyandiko.inkuba.io/gutegura](https://inyandiko.inkuba.io/gutegura)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub itunganijwe ikikuje urutonde nyamukuru (akenshi rwerekanwa 
 
 
 
-- Ingoro** - Ingoro tab ifise dashboard rusangi (insiguro y'uruzitiro rwawe n'ibikorwa vyihuta).
-- Dashboard** - Dashboard ishobora guhindurwa n'ibikoresho n'ibipimo biteye imbere.
-- Peers** - Uburongozi bw'abagenzi bw'umuravyo (uguhuza n'izindi nzira).
-- Imirongo** - Uburongozi burambuye bw'imirongo y'umuravyo.
-- Rebalance** - Igikoresho co gupima imirongo (ukwishyura kw’uruziga).
-- Ibikorwa** - Amateka y’ukwishura kw’umuravyo (ibikorwa vya LN).
-- Imbere** - Imibare y'inzira (amahera ashikirizwa n'uruzitiro rwawe).
-- Uruzitiro** - Igitigiri ca Node-22 Wallet (Igitigiri ca 22 BTC: UTXOs, ibikorwa).
-- Amboss** - Ukwifatanya na Amboss (ugukurikirana node, gusubiza inyuma, n'ibindi).
-- Ibikoresho** - Ibikoresho bitandukanye (ibisubizo, ubutumwa bushizweko umukono, amakaroni, raporo, n’ibindi).
-- Guhindura** - On-Chain/Imiravyo guhindura ibikorwa biciye ku Boltz.
-- Stats** - Imibare iteye imbere n'ibipimo vy'imikorere y'imirongo.
+- **Ingoro** - Ingoro tab ifise dashboard rusangi (insiguro y'uruzitiro rwawe n'ibikorwa vyihuta).
+- **Dashboard** - Dashboard ishobora guhindurwa n'ibikoresho n'ibipimo biteye imbere.
+- **Peers** - Uburongozi bw'abagenzi bw'umuravyo (uguhuza n'izindi nzira).
+- **Imirongo** - Uburongozi burambuye bw'imirongo y'umuravyo.
+- **Rebalance** - Igikoresho co gupima imirongo (ukwishyura kw'uruziga).
+- **Ibikorwa** - Amateka y'ukwishura kw'umuravyo (ibikorwa vya LN).
+- **Imbere** - Imibare y'inzira (amahera ashikirizwa n'uruzitiro rwawe).
+- **Uruzitiro** - Igitigiri ca Node-22 Wallet (Igitigiri ca 22 BTC: UTXOs, ibikorwa).
+- **Amboss** - Ukwifatanya na Amboss (ugukurikirana node, gusubiza inyuma, n'ibindi).
+- **Ibikoresho** - Ibikoresho bitandukanye (ibisubizo, ubutumwa bushizweko umukono, amakaroni, raporo, n'ibindi).
+- **Guhindura** - On-Chain/Imiravyo guhindura ibikorwa biciye ku Boltz.
+- **Stats** - Imibare iteye imbere n'ibipimo vy'imikorere y'imirongo.
 
 
 
@@ -360,32 +360,32 @@ ThunderHub's **Home** tab ni paji y'intango iboneka umaze kwinjira.Irimwo **Gene
 
 
 
-- Imibare n'ubushobozi:** Hejuru kuri paji, ThunderHub yerekana imibare yawe iriho. Aha uzobona mu bisanzwe umubare wa On-Chain (Bitcoin On-Chain muri Wallet y’urudodo, ugereranywa n’umuravyo Anchor ⚓) n’umubare w’umuravyo (ubushobozi bw’imirongo yawe, ugereranywa n’umuravyo Bolt ⚡). Ivyo biguha iciyumviro c’amahera ufise muri On-Chain na Lightning. Niba ufise amakonti canke imihora myinshi, urabe neza ko uri ku nzira nziza (nk’akarorero Mainnet vs Testnet).
+- **Imibare n'ubushobozi:** Hejuru kuri paji, ThunderHub yerekana imibare yawe iriho. Aha uzobona mu bisanzwe umubare wa On-Chain (Bitcoin On-Chain muri Wallet y'urudodo, ugereranywa n'umuravyo Anchor ⚓) n'umubare w'umuravyo (ubushobozi bw'imirongo yawe, ugereranywa n'umuravyo Bolt ⚡). Ivyo biguha iciyumviro c'amahera ufise muri On-Chain na Lightning. Niba ufise amakonti canke imihora myinshi, urabe neza ko uri ku nzira nziza (nk'akarorero Mainnet vs Testnet).
 
 
 
 
 
-- Imibare nyamukuru:** Dashboard ishobora kwerekana ibipimo bimwebimwe vyo kw'isi yose ku bijanye n'uruzitiro rwawe - nk'akarorero, umubare w'imirongo yuguruye, umubare w'abagenzi bahuye, amafaranga y'inzira yaronkejwe (niba ari ngombwa), n'ibindi.
+- **Imibare nyamukuru:** Dashboard ishobora kwerekana ibipimo bimwebimwe vyo kw'isi yose ku bijanye n'uruzitiro rwawe - nk'akarorero, umubare w'imirongo yuguruye, umubare w'abagenzi bahuye, amafaranga y'inzira yaronkejwe (niba ari ngombwa), n'ibindi.
 
 
 
 
 
-- Ibikorwa vyihuta:** Ku rubuga rw’ibikoresho rufise amabuto yo gukora vyihuse ibikorwa bikunze gukorwa cane, ataco ukeneye guca mu bimenyetso. Ivyo bikorwa vyihuta birimwo:
+- **Ibikorwa vyihuta:** Ku rubuga rw'ibikoresho rufise amabuto yo gukora vyihuse ibikorwa bikunze gukorwa cane, ataco ukeneye guca mu bimenyetso. Ivyo bikorwa vyihuta birimwo:
 
 
 
 
 
-- Ghost**: Gushinga umuravyo Address usanzwe biciye kuri Amboss.
-- Donate**: Gutanga intererano biciye ku Muravyo.
-- Injira/Genda kuri**: Huza kuri konti yawe ya Amboss (Ihuza vuba) hanyuma ugende ubwo nyene kuri Amboss.space kugira ngo ubone amakuru y’urudodo rwawe.
-- Address**: Injira umuravyo Address kugira ngo ukore amahera.
-- Gufungura**: Gufungura umurongo mushasha w'umuravyo. Gukanda bifungura urupapuro rwo kwinjiza URI y’uruzitiro rwa kure rwo gufungurirako umurongo, umubare n’amahera, nimba bishoboka, amahera menshi cane ya On-Chain azokoreshwa.
-- Decode**: Gusobanura umuravyo Invoice canke LNURL kugira ngo ubone ido n’ido imbere y’uko uriha.
-- LNURL**: Gukora LNURLs ku kwishura canke gukura amahera y'umuravyo.
-- Injira muri LnMarkets**: Injira muri LnMarkets kugira ngo ukore ubucuruzi.
+- **Ghost**: Gushinga umuravyo Address usanzwe biciye kuri Amboss.
+- **Donate**: Gutanga intererano biciye ku Muravyo.
+- **Injira/Genda kuri**: Huza kuri konti yawe ya Amboss (Ihuza vuba) hanyuma ugende ubwo nyene kuri Amboss.space kugira ngo ubone amakuru y'urudodo rwawe.
+- **Address**: Injira umuravyo Address kugira ngo ukore amahera.
+- **Gufungura**: Gufungura umurongo mushasha w'umuravyo. Gukanda bifungura urupapuro rwo kwinjiza URI y'uruzitiro rwa kure rwo gufungurirako umurongo, umubare n'amahera, nimba bishoboka, amahera menshi cane ya On-Chain azokoreshwa.
+- **Decode**: Gusobanura umuravyo Invoice canke LNURL kugira ngo ubone ido n'ido imbere y'uko uriha.
+- **LNURL**: Gukora LNURLs ku kwishura canke gukura amahera y'umuravyo.
+- **Injira muri LnMarkets**: Injira muri LnMarkets kugira ngo ukore ubucuruzi.
 
 
 
@@ -407,7 +407,7 @@ Igice ca **Dashboard** gitandukanye n'igice c'Ingoro kandi gitanga urupapuro rwo
 
 
 
-- Ibikoresho bishobora guhindurwa:** Bitandukanye n’urupapuro rw’Imbere, rufise uburyo buhoraho, Dashboard iragufasha guhitamwo neza neza Elements uzogaragaza n’ingene uzoyitunganya.
+- **Ibikoresho bishobora guhindurwa:** Bitandukanye n'urupapuro rw'Imbere, rufise uburyo buhoraho, Dashboard iragufasha guhitamwo neza neza Elements uzogaragaza n'ingene uzoyitunganya.
 
 
 
@@ -445,19 +445,19 @@ Iyo umaze gutunganya, urupapuro rwawe rushobora kwerekana ibishushanyo n’ibipi
 
 
 
-- Ivyiyumviro biteye imbere:** Ushobora gushika ku biharuro vyinshi ku mikorere y'uruzitiro rwawe, n'ibishushanyo n'amakuru y'igihe nyaco.
+- **Ivyiyumviro biteye imbere:** Ushobora gushika ku biharuro vyinshi ku mikorere y'uruzitiro rwawe, n'ibishushanyo n'amakuru y'igihe nyaco.
 
 
 
 
 
-- Incamake ishobora guhindurwa:** Guhindura ikigaragaza kugira ngo kijane n'uko uri umukoresha asanzwe canke umukoresha w'umwuga arongoye imirongo myinshi y'inzira.
+- **Incamake ishobora guhindurwa:** Guhindura ikigaragaza kugira ngo kijane n'uko uri umukoresha asanzwe canke umukoresha w'umwuga arongoye imirongo myinshi y'inzira.
 
 
 
 
 
-- Modular Interface:** Wongere canke ukureho ibikoresho nk'uko bisabwa: ibiharuro vy'imbere, ibipimo vy'amahera, imburi z'ubuzima bw'imirongo, n'ibindi.
+- **Modular Interface:** Wongere canke ukureho ibikoresho nk'uko bisabwa: ibiharuro vy'imbere, ibipimo vy'amahera, imburi z'ubuzima bw'imirongo, n'ibindi.
 
 
 
@@ -483,7 +483,7 @@ Mu rutonde rw'urunganwe, uzobona :
 
 
 
-- Inkingi z’amakuru:** Interface yerekana amakuru y’ingirakamaro nk’imiterere y’uguhuza, ubwoko bw’ihuriro (clearnet canke Tor), ping, satoshis yakiriwe/yoherejwe n’ingero y’amakuru yahinduwe.
+- **Inkingi z'amakuru:** Interface yerekana amakuru y'ingirakamaro nk'imiterere y'uguhuza, ubwoko bw'ihuriro (clearnet canke Tor), ping, satoshis yakiriwe/yoherejwe n'ingero y'amakuru yahinduwe.
 - Yongerako umugenzi: ThunderHub ishobora kugufasha kwifatanya n'umugenzi mushasha biciye ku buto **"Ongera"** buri hejuru iburyo. Uzokenera kwinjiza URI y'urudodo (uburyo `<urufunguzo_rwa bose>@<urufunguzo>`). Igihe yemejwe, ThunderHub yohereza itegeko `lncli guhuza` rihuye. Nimba iyo node iri kuri interineti kandi ishobora gushikwako, izokwongerwa ku rutonde rw’urunganwe rwawe.
 
 
@@ -506,31 +506,31 @@ Ehe ivyo uzosanga kuri paji y'Imirongo:
 
 
 
-- Urutonde rw’imirongo:** Umurongo wose wuguruye (canke wuguruye/wufunga) urarurwa ku rutonde, akenshi ufise izina ry’uruzitiro rwo kure, ubushobozi bwose bw’umurongo, n’umurongo w’ibara werekana ugusangira kw’amahera yo mu karere n’ayo kure. ThunderHub ikoresha kode y’ibara (kenshi ubururu/Green) canke ijana kugira ngo yerekane uburinganire bw’imirongo: nk’akarorero, ubururu ku mugabane wawe wo mu karere, Green ku mugabane wo kure. Iyo umurongo uringaniye neza (50/50), umurongo uzoba igice c’ibara rimwe rimwe. Ivyo bituma ubona mu kanya nk’ako gukubita imirongo idahuye (ubururu bwose = hafi bwose bwo mu karere, Green yose = hafi yose yo kure).
+- **Urutonde rw'imirongo:** Umurongo wose wuguruye (canke wuguruye/wufunga) urarurwa ku rutonde, akenshi ufise izina ry'uruzitiro rwo kure, ubushobozi bwose bw'umurongo, n'umurongo w'ibara werekana ugusangira kw'amahera yo mu karere n'ayo kure. ThunderHub ikoresha kode y'ibara (kenshi ubururu/Green) canke ijana kugira ngo yerekane uburinganire bw'imirongo: nk'akarorero, ubururu ku mugabane wawe wo mu karere, Green ku mugabane wo kure. Iyo umurongo uringaniye neza (50/50), umurongo uzoba igice c'ibara rimwe rimwe. Ivyo bituma ubona mu kanya nk'ako gukubita imirongo idahuye (ubururu bwose = hafi bwose bwo mu karere, Green yose = hafi yose yo kure).
 
 
 
 
 
-- Inkingi z’amakuru:** Interface yerekana inkingi z’ido n’ido harimwo Ivyiyumviro, Ibikorwa Biriho, Amakuru y’Abagenzi, Indangamuntu y’Umurongo, Ubushobozi, Ibikorwa, Amahera n’Imibare n’Ikigaragaza Ivy’Itunga.
+- **Inkingi z'amakuru:** Interface yerekana inkingi z'ido n'ido harimwo Ivyiyumviro, Ibikorwa Biriho, Amakuru y'Abagenzi, Indangamuntu y'Umurongo, Ubushobozi, Ibikorwa, Amahera n'Imibare n'Ikigaragaza Ivy'Itunga.
 
 
 
 
 
-- Ivyerekanywe:** Igikoresho co mu mfuruka yo hejuru iburyo kigufasha guhindura ivyerekanwa vy'umurongo kugira ngo bihure n'ivyo ukunda.
+- **Ivyerekanywe:** Igikoresho co mu mfuruka yo hejuru iburyo kigufasha guhindura ivyerekanwa vy'umurongo kugira ngo bihure n'ivyo ukunda.
 
 
 
 
 
-- Status:** Uzobona kandi ibimenyetso vy'imimerere - nk'akarorero. `Ikora` (umurongo ufunguye kandi urakora), `Offline` (umugenzi uracitse, rero umurongo ntukoreshwa mu gihe gito), `Urindiriye` (ku gufungura canke gufunga birindiriye kwemezwa na On-Chain).
+- **Status:** Uzobona kandi ibimenyetso vy'imimerere - nk'akarorero. `Ikora` (umurongo ufunguye kandi urakora), `Offline` (umugenzi uracitse, rero umurongo ntukoreshwa mu gihe gito), `Urindiriye` (ku gufungura canke gufunga birindiriye kwemezwa na On-Chain).
 
 
 
 
 
-- Ibikorwa ku muhora:** Ku muhora wose, ThunderHub itanga amabuto y'ibikorwa (kenshi mu buryo bw'ibishushanyo):
+- **Ibikorwa ku muhora:** Ku muhora wose, ThunderHub itanga amabuto y'ibikorwa (kenshi mu buryo bw'ibishushanyo):
 
 
 
@@ -540,9 +540,9 @@ Ehe ivyo uzosanga kuri paji y'Imirongo:
 
 
 
-- Guhindura amafaranga:** Interface "Itegeko ry'umurongo" rigufasha guhindura imirongo yose: Amafaranga y'ishimikiro, Igiciro c'amafaranga (mu ppm), CLTV Delta, Max HTLC na Min HTLC. Ivyo bigufasha guhindura amategeko yawe y’amahera ku giti cawe ku muhora, n’intumbero yo gukwegera (canke guca intege) uruja n’uruza rw’inzira. *(Iciyumviro: ThunderHub ntabwo isubirira igikoresho co gucunga amafaranga, ariko ku guhindura amafaranga n'amaboko birakora cane)*
+- **Guhindura amafaranga:** Interface "Itegeko ry'umurongo" rigufasha guhindura imirongo yose: Amafaranga y'ishimikiro, Igiciro c'amafaranga (mu ppm), CLTV Delta, Max HTLC na Min HTLC. Ivyo bigufasha guhindura amategeko yawe y'amahera ku giti cawe ku muhora, n'intumbero yo gukwegera (canke guca intege) uruja n'uruza rw'inzira. *(Iciyumviro: ThunderHub ntabwo isubirira igikoresho co gucunga amafaranga, ariko ku guhindura amafaranga n'amaboko birakora cane)*
 - Gufunga Umurongo (**Gufunga**): Interface "Ugufunga Umurongo" iguha amahitamwo hagati ya **gufunga kw'ubufatanye** (ivya kera) canke **gufunga ku nguvu** (**Gufunga ku nguvu**) mu gusobanura ibirego (mu Sats/vByte). **Igihambaye:** wama uhitamwo gufunga amakoperative iyo bishoboka, kugira wirinde ugucererwa kw’amahera ya On-Chain n’amahera menshi. ThunderHub izokubwira nimba uwo mugenzi ari kuri internet (ugukorana birashoboka) canke atarivyo. Mu gihe co gufunga inguvu, menya neza ko wemeza kuko ivyo bidashobora gusubirwamwo kandi bizotuma haba ugucuruza gukomeye n’igihe (muri rusangi amabarabara 144 canke umusi umwe kuri Bitcoin Mainnet).
-- Gufungura umurongo mushasha:** Kugira ngo ufungure umurongo mushasha, fyonda ku nzira iri hejuru iburyo kuri paji y'imirongo, hanyuma uhitemwo "Gufungura". Ushobora rero gutanguza umurongo ku mugenzi mushasha canke asanzweho. Ivyiza vyo gukoresha iyi paji ni uko ufise urutonde rw’imirongo yawe isanzwe imbere yawe, ivyo bishobora kugufasha guhitamwo aho wofungura imirongo mishasha.
+- **Gufungura umurongo mushasha:** Kugira ngo ufungure umurongo mushasha, fyonda ku nzira iri hejuru iburyo kuri paji y'imirongo, hanyuma uhitemwo "Gufungura". Ushobora rero gutanguza umurongo ku mugenzi mushasha canke asanzweho. Ivyiza vyo gukoresha iyi paji ni uko ufise urutonde rw'imirongo yawe isanzwe imbere yawe, ivyo bishobora kugufasha guhitamwo aho wofungura imirongo mishasha.
 
 
 
@@ -568,23 +568,23 @@ ThunderHub yorohereza cane iyo nzira, iyo itaba ari iyo gukora, ivyo bikaba vyar
 
 
 
-- Imbonerahamwe y’imirongo y’intango:** Iyo winjiye muri Rebalance, ThunderHub yerekana urutonde rw’imirongo yawe, n’ikimenyetso c’uburinganire kuri buri imwe (bisa n’ivyo kuri paji y’imirongo). Ushobora guca ubona imirongo idafise uburinganire. ThunderHub ishobora gutoranya imirongo mu buryo bwo kwongerekana kw’uburinganire, kugira ngo imirongo idafise uburinganire cane igaragare hejuru y’urutonde (0.0 bisobanura ko ari iyo mu karere canke iyo kure).
+- **Imbonerahamwe y'imirongo y'intango:** Iyo winjiye muri Rebalance, ThunderHub yerekana urutonde rw'imirongo yawe, n'ikimenyetso c'uburinganire kuri buri imwe (bisa n'ivyo kuri paji y'imirongo). Ushobora guca ubona imirongo idafise uburinganire. ThunderHub ishobora gutoranya imirongo mu buryo bwo kwongerekana kw'uburinganire, kugira ngo imirongo idafise uburinganire cane igaragare hejuru y'urutonde (0.0 bisobanura ko ari iyo mu karere canke iyo kure).
 
 
 
 
 
-- Guhitamwo bagenzi:** Interface ituma vyoroha guhitamwo bagenzi basohoka n’abaza kugira ngo basubire gufatanya.
+- **Guhitamwo bagenzi:** Interface ituma vyoroha guhitamwo bagenzi basohoka n'abaza kugira ngo basubire gufatanya.
 
 
 
 
 
-- Amaparametere:** Ushobora gushinga :
+- **Amaparametere:** Ushobora gushinga :
   - **Igiciro kinini cane** (mu Sats na ppm) wifuza kwishura
   - **Igiciro co gusubira gupima** n'amahitamwo "Idahinduka" canke "Iciyumviro"
-- Nodes zo kwirinda** igihe ukoresha inzira
-- Igihe co kugerageza** co kurondera inzira
+- Nodes zo kwirinda igihe ukoresha inzira
+- **Igihe co kugerageza co kurondera inzira**
 
 
 
@@ -602,7 +602,7 @@ ThunderHub yorohereza cane iyo nzira, iyo itaba ari iyo gukora, ivyo bikaba vyar
 
 
 
-- Gushinga amafaranga n'ukwihanganira:** Urupapuro ruguha uburenganzira bwo kwinjira :
+- **Gushinga amafaranga n'ukwihanganira:** Urupapuro ruguha uburenganzira bwo kwinjira :
 
 
 
@@ -615,19 +615,19 @@ ThunderHub yorohereza cane iyo nzira, iyo itaba ari iyo gukora, ivyo bikaba vyar
 
 
 
-- Rondera Inzira:** Fyonda kuri buto kugira uronke inzira. ThunderHub ibaza LND kugira ngo ibaze inzira iva ku muhora wawe w’inkomoko uciye ku rubuga uja ku muhora wawe bwite w’intumbero. Iyo ibonye inzira ishoboka ihuye n’ingingo zawe z’amahera, irayerekana n’ibintu vy’ido n’ido vy’ibihembo n’igiciro c’amahera. Nk’akarorero, vyoshobora kwerekana ko yaronse inzira y’amaguru 3 ifise umubare wose w’amashanyarazi 2 Sats.
+- **Rondera Inzira:** Fyonda kuri buto kugira uronke inzira. ThunderHub ibaza LND kugira ngo ibaze inzira iva ku muhora wawe w'inkomoko uciye ku rubuga uja ku muhora wawe bwite w'intumbero. Iyo ibonye inzira ishoboka ihuye n'ingingo zawe z'amahera, irayerekana n'ibintu vy'ido n'ido vy'ibihembo n'igiciro c'amahera. Nk'akarorero, vyoshobora kwerekana ko yaronse inzira y'amaguru 3 ifise umubare wose w'amashanyarazi 2 Sats.
 
 
 
 
 
-- Tangira gusubiramwo:** Niba unezerewe n'inzira yashikirijwe, fyonda ku **Umurongo w'Umubano**. ThunderHub izoca itangura kwishura biciye kuri LND. Iyo kwishura bishitse, uzobona itangazo ry’uko bishitse, kandi imirongo A na B izogira amafaranga ahinduwe mu gihe nyaco. ThunderHub izohindura ikimenyetso c’uburinganire bw’izo nzira (mu vyiza izoba ari icatsi kibisi kuruta uko yari imbere, yerekana uburinganire bwiza).
+- **Tangira gusubiramwo:** Niba unezerewe n'inzira yashikirijwe, fyonda ku **Umurongo w'Umubano**. ThunderHub izoca itangura kwishura biciye kuri LND. Iyo kwishura bishitse, uzobona itangazo ry'uko bishitse, kandi imirongo A na B izogira amafaranga ahinduwe mu gihe nyaco. ThunderHub izohindura ikimenyetso c'uburinganire bw'izo nzira (mu vyiza izoba ari icatsi kibisi kuruta uko yari imbere, yerekana uburinganire bwiza).
 
 
 
 
 
-- Guhindura n'ugusubiramwo:** Niba ata nzira ibonetse ku kugerageza kwa mbere (canke iyo izimvye cane), ushobora guhindura amaparametere:
+- **Guhindura n'ugusubiramwo:** Niba ata nzira ibonetse ku kugerageza kwa mbere (canke iyo izimvye cane), ushobora guhindura amaparametere:
 
 
 
@@ -666,7 +666,7 @@ Muri iyi tab uzosanga :
 
 
 
-- Invoice graph:** Mu mfuruka yo hejuru iburyo, graph yerekana iterambere ry’amafagitire yaronse uko igihe kigenda kirarenga, bikagufasha kubona mu ciyumviro igikorwa c’urudodo rwawe.
+- **Invoice graph:** Mu mfuruka yo hejuru iburyo, graph yerekana iterambere ry'amafagitire yaronse uko igihe kigenda kirarenga, bikagufasha kubona mu ciyumviro igikorwa c'urudodo rwawe.
 
 
 
@@ -686,7 +686,7 @@ Muri iyi tab uzosanga :
 
 
 
-Muri make, igice c'Imigenderanire gikora nk'igitabo cawe c'ibikorwa vya LN**. Ni ngirakamaro cane mu kugenzura ko amahera yaciyemwo, amafaranga angahe yatwaye, canke gukurikirana amateka y’amahera yawe ya Lightning. Mu gufatanya n’igice c’Imbere (ikidondaguwe gikurikira), uzobona neza amahera yaciye mu nzira yawe.
+Muri make, igice c'Imigenderanire gikora nk'igitabo cawe c'ibikorwa vya **LN**. Ni ngirakamaro cane mu kugenzura ko amahera yaciyemwo, amafaranga angahe yatwaye, canke gukurikirana amateka y'amahera yawe ya Lightning. Mu gufatanya n'igice c'Imbere (ikidondaguwe gikurikira), uzobona neza amahera yaciye mu nzira yawe.
 
 
 
@@ -708,19 +708,19 @@ Mu vyo imbere, ThunderHub itanga :
 
 
 
-- Amayunguruzo n'amahitamwo y'iyerekanwa:** Hejuru iburyo, amayunguruzo aragufasha gutoranya amakuru ku musi/indwi/ukwezi/umwaka, maze ugahitamwo hagati y'iyerekanwa ry'ibishushanyo canke ry'imbonerahamwe.
+- **Amayunguruzo n'amahitamwo y'iyerekanwa:** Hejuru iburyo, amayunguruzo aragufasha gutoranya amakuru ku musi/indwi/ukwezi/umwaka, maze ugahitamwo hagati y'iyerekanwa ry'ibishushanyo canke ry'imbonerahamwe.
 
 
 
 
 
-- Ubutumwa bw'igikorwa:** Nimba ata nzira yakozwe mu kiringo catowe, Interface yerekana "Nta nzira y'imbere muri iki kiringo", nk'uko vyerekanwa muri aka karorero.
+- **Ubutumwa bw'igikorwa:** Nimba ata nzira yakozwe mu kiringo catowe, Interface yerekana "Nta nzira y'imbere muri iki kiringo", nk'uko vyerekanwa muri aka karorero.
 
 
 
 
 
-- **Imbonerahamwe y'ivyo biherutse gushikirizwa**: ikintu cose cinjijwe gihuye n'ukwishyura kwashikirijwe **biciye ku nzira yawe. Ku mukinyi wese w'imbere, muri rusangi tubona :
+- **Imbonerahamwe y'ivyo biherutse gushikirizwa**: ikintu cose cinjijwe gihuye n'ukwishyura kwashikirijwe **biciye ku nzira yawe**. Ku mukinyi wese w'imbere, muri rusangi tubona :
 
 
 
@@ -736,7 +736,7 @@ Mu vyo imbere, ThunderHub itanga :
 
 
 
-- Imibare yose hamwe**: ThunderHub ibara kandi igaragaza hejuru kuri paji imibare yose hamwe n'imibare mu kiringo kinaka (nk'amasaha 24 aheze, canke imisi 7, n'ibindi, rimwe na rimwe bishobora guhindurwa).
+- **Imibare yose hamwe**: ThunderHub ibara kandi igaragaza hejuru kuri paji imibare yose hamwe n'imibare mu kiringo kinaka (nk'amasaha 24 aheze, canke imisi 7, n'ibindi, rimwe na rimwe bishobora guhindurwa).
 
 
 
@@ -762,19 +762,19 @@ Mu ruzitiro, uzosanga :
 
 
 
-- Igiharuro On-Chain:** Kigaragaza igiharuro cose ca BTC kiri muri Wallet LND.
+- **Igiharuro On-Chain:** Kigaragaza igiharuro cose ca BTC kiri muri Wallet LND.
 
 
 
 
 
-- Urutonde rwa UTXO:** Raba ibisohoka vyose bitakoreshejwe (UTXO) n’umubare, ivyemezo, Address n’imiterere y’ibisohoka vyose.
+- **Urutonde rwa UTXO:** Raba ibisohoka vyose bitakoreshejwe (UTXO) n'umubare, ivyemezo, Address n'imiterere y'ibisohoka vyose.
 
 
 
 
 
-- Amateka y'ibikorwa:** Imbonerahamwe y'ibikorwa vyose vya Bitcoin n'ubwoko (binjira/bisohoka), itariki, umubare, amafaranga, ivyemezo, igice co gushiramwo, amaderesi na txid.
+- **Amateka y'ibikorwa:** Imbonerahamwe y'ibikorwa vyose vya Bitcoin n'ubwoko (binjira/bisohoka), itariki, umubare, amafaranga, ivyemezo, igice co gushiramwo, amaderesi na txid.
 
 
 
@@ -796,7 +796,7 @@ Muri ThunderHub, igice ca Amboss kiguha uburenganzira bwo **guhuza** urudodo rwa
 
 
 
-- Ghost Address:** Shiraho **Umuravyo Address** w’umuntu ku giti ciwe ku bijanye n’uruzitiro rwawe, ushobore kworohereza amahera yinjira.
+- **Ghost Address:** Shiraho **Umuravyo Address** w'umuntu ku giti ciwe ku bijanye n'uruzitiro rwawe, ushobore kworohereza amahera yinjira.
 
 
 
@@ -808,13 +808,13 @@ Muri ThunderHub, igice ca Amboss kiguha uburenganzira bwo **guhuza** urudodo rwa
 
 
 
-- Ivyiyumviro vy'ubuzima:** Gukoresha **Ivyiyumviro vy'ubuzima vya Amboss = Ego** kugira ngo node yawe yohereze ama pings adasanzwe kuri Amboss. Uzoronka imburi iyo urudodo rwawe rusa n'urutari ku murongo.
+- **Ivyiyumviro vy'ubuzima:** Gukoresha **Ivyiyumviro vy'ubuzima vya Amboss = Ego** kugira ngo node yawe yohereze ama pings adasanzwe kuri Amboss. Uzoronka imburi iyo urudodo rwawe rusa n'urutari ku murongo.
 
 
 
 
 
-- Ibindi biranga:** Gusunika uburinganire bwite, **Ugushiramwo Magma/Hydro** (isoko ry’amahera), no kuronka imibare y’ibikorwa vy’ido n’ido.
+- **Ibindi biranga:** Gusunika uburinganire bwite, **Ugushiramwo Magma/Hydro** (isoko ry'amahera), no kuronka imibare y'ibikorwa vy'ido n'ido.
 
 
 
@@ -836,16 +836,16 @@ Igice ca **Ibikoresho** gikoranya ibikoresho bitandukanye vy'ubuhinga bwo gucung
 
 
 
-- Ivyiyumviro:** Gucungera n'amaboko ivy'imirongo yawe (SCB). ThunderHub iragufasha **gukuraho dosiye yuzuye y'ububiko** y'imirongo yawe (uburyo "Gukuraho imirongo yose -> Gukuraho"). Bika iyi dosiye `channel-all.bak` ahantu heza - ni ngombwa kugira ngo ubone amahera yawe iyo habaye impanuka. Ushobora kandi **kwinjiza** dosiye y'ububiko igihe usubiye gukoresha urudodo.
+- **Ivyiyumviro:** Gucungera n'amaboko ivy'imirongo yawe (SCB). ThunderHub iragufasha **gukuraho dosiye yuzuye y'ububiko** y'imirongo yawe (uburyo "Gukuraho imirongo yose -> Gukuraho"). Bika iyi dosiye `channel-all.bak` ahantu heza - ni ngombwa kugira ngo ubone amahera yawe iyo habaye impanuka. Ushobora kandi **kwinjiza** dosiye y'ububiko igihe usubiye gukoresha urudodo.
 
 
 
 
 
-- Ivy’Ibarabara:** Igikoresho co kwohereza hanze raporo z’ivy’imari harimwo amafaranga yaronse/yishuwe n’ibiharuro vyarungitswe mu kiringo kinaka.
-- Ubutumwa bwashizweko umukono:** Sinya canke usuzume ubutumwa n'urudodo rwawe kugira ngo werekane Ownership y'urudodo rwawe rwa Lightning biciye ku mukono w'ibanga.
+- **Ivy'Ibarabara:** Igikoresho co kwohereza hanze raporo z'ivy'imari harimwo amafaranga yaronse/yishuwe n'ibiharuro vyarungitswe mu kiringo kinaka.
+- **Ubutumwa bwashizweko umukono:** Sinya canke usuzume ubutumwa n'urudodo rwawe kugira ngo werekane Ownership y'urudodo rwawe rwa Lightning biciye ku mukono w'ibanga.
 - Macaroons (Igice c'Imikate):** Gucungera LND** macaroons kugira ngo ureme uburyo bwo kuronka. Interface "Bakery" ishobora kugufasha guhitamwo neza uruhusha rwose: "Kwongerako canke gukuraho Abagenzi", "Rema Aderesi z'Uruhererekane", "Rema Amafagitire", "Rema Macaroons", "Gukura Imfunguruzo", "Kuronka Imfunguruzo zo Kwinjiramwo", "Kuronka Amafagitire y'Uruhererekane", "Get Get", "Get Invoice". Abagenzi", "Ishura amafagitire", "Gukuraho Ids z'Ukwinjira", "Kohereza ku Maderesi y'Uruzitiro", "Gushirako umukono ku bytes", "Gushirako umukono ku butumwa", "Hagarika daemon", "Gusuzuma umukono wa bytes", "Gusuzuma ubutumwa", n'ibindi. Uruhusha rwose rushobora gukoreshwa ku giti cawe n'ubuto "Ego/Oya" kugira ngo ureme macaroon igenewe umuntu.
-- Amakuru ya sisitemu:** Kwerekana verisiyo ya Wallet na RPCs zakoreshejwe.
+- **Amakuru ya sisitemu:** Kwerekana verisiyo ya Wallet na RPCs zakoreshejwe.
 
 
 
@@ -871,9 +871,9 @@ Inzira ni yoroshe:
 
 
 
-- Amafaranga**: Sigura amafaranga azohindurwa
-- Address**: Injira Bitcoin kwakira Address
-- Ishirwa mu ngiro**: ThunderHub ivugana na Boltz kugira ngo ikore Exchange
+- **Amafaranga**: Sigura amafaranga azohindurwa
+- **Address**: Injira Bitcoin kwakira Address
+- **Ishirwa mu ngiro**: ThunderHub ivugana na Boltz kugira ngo ikore Exchange
 
 
 
@@ -940,6 +940,6 @@ ThunderHub ikoresha demokarasi mu bijanye n’uburongozi bw’imirongo y’umura
 
 
 
-- Urubuga rwemewe:** [inkuba.io](https://inkuba.io)
-- Inyandiko:** [inyandiko.inkuba.io](https://inyandiko.inkuba.io)
-- Kode y'inkomoko ya GitHub:**
+- **Urubuga rwemewe:** [inkuba.io](https://inkuba.io)
+- **Inyandiko:** [inyandiko.inkuba.io](https://inyandiko.inkuba.io)
+- **Kode y'inkomoko ya GitHub:**

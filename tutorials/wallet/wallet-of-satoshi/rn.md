@@ -79,8 +79,8 @@ Wallet ya Satoshi yarungitse ubutumwa ku gasandugu k’imeli kagaragajwe.
 Mu gasandugu k’ubutumwa, tuzosanga amajambo abiri, dukeneye kwinjiramwo, tukayasubiramwo, mu kibanza catanzwe na app.
 
 
-- ntukoreshe umuhinduzi: amajambo ari kandi ategerezwa kuguma mu congereza**
-- wongere wandike ayo majambo abiri witaho inyuguti nini/nto**
+- ntukoreshe umuhinduzi: amajambo ari kandi ategerezwa kuguma mu congereza
+- wongere wandike ayo majambo abiri witaho inyuguti nini/nto
 
 
 ![image](assets/it/10.webp)

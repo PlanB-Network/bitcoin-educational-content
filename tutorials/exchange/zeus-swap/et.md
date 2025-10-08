@@ -277,10 +277,10 @@ Igal vahetusel on unikaalne identifikaator, mida saab jälgida reaalajas. Täiel
 
 
 
-- Lihtsus**: Vahetamine paari klikiga vs. manuaalne kanaliga manipuleerimine
-- Mittekaitstav**: puudub KYC, puudub konto, vahendeid ei ole kunagi usaldatud kolmandale isikule
-- Läbipaistvus**: tasud kuvatakse enne valideerimist selgelt (0,1% kuni 0,5% + miinimumtasu sõltuvalt kasutaja testidest - kontrollige kehtivaid tasusid iga vahetuse puhul)
-- Mobiilne integratsioon**: Zeus Wallet emakeelne kogemus
+- **Lihtsus**: Vahetamine paari klikiga vs. manuaalne kanaliga manipuleerimine
+- **Mittekaitstav**: puudub KYC, puudub konto, vahendeid ei ole kunagi usaldatud kolmandale isikule
+- **Läbipaistvus**: tasud kuvatakse enne valideerimist selgelt (0,1% kuni 0,5% + miinimumtasu sõltuvalt kasutaja testidest - kontrollige kehtivaid tasusid iga vahetuse puhul)
+- **Mobiilne integratsioon**: Zeus Wallet emakeelne kogemus
 
 
 
@@ -290,10 +290,10 @@ Igal vahetusel on unikaalne identifikaator, mida saab jälgida reaalajas. Täiel
 
 
 
-- Kehtivusaeg**: 24-48h maksimaalselt, ebaõnnestumine, kui Bitcoin ei ole õigeaegselt kinnitatud
-- Summapiirangud**: vähemalt 25 000 Sats, Zeus LSP likviidsus sõltub tingimustest
-- Jäljed On-Chain**: HTLC skriptid, mis on potentsiaalselt tuvastatavad Blockchain analüüsi abil
-- Nõutav kinnitus**: vähemalt 10 minutit Bitcoin kinnitamiseks
+- **Kehtivusaeg**: 24-48h maksimaalselt, ebaõnnestumine, kui Bitcoin ei ole õigeaegselt kinnitatud
+- **Summapiirangud**: vähemalt 25 000 Sats, Zeus LSP likviidsus sõltub tingimustest
+- **Jäljed On-Chain**: HTLC skriptid, mis on potentsiaalselt tuvastatavad Blockchain analüüsi abil
+- **Nõutav kinnitus**: vähemalt 10 minutit Bitcoin kinnitamiseks
 
 
 
@@ -320,7 +320,7 @@ Igal vahetusel on unikaalne identifikaator, mida saab jälgida reaalajas. Täiel
 
 
 - Kontrollige hoolikalt Bitcoin-aadressid (soovitatav copy-paste)
-- Varundage Zeus Swaps Rescue Key**: laadige alla ja säilitage taastamisvõti turvalises kohas
+- **Varundage Zeus Swaps Rescue Key**: laadige alla ja säilitage taastamisvõti turvalises kohas
 - Dokument: Contract ID, toetus Address, kehtivusaeg
 - Kasutage õigeaegse kinnituse saamiseks asjakohaseid Mining tasusid
 
@@ -354,11 +354,11 @@ Zeus Swap kasutab Boltzi backend-tehnoloogiat, kuid teeb mõned olulised parandu
 
 
 
-- Interface ühtlustatud**: loomulik integratsioon Zeusesse Wallet vs Interface veebitehnika Boltz
-- WebSocket API**: reaalajas uuendused vs. käsitsi küsitlemine
-- Automaatne haldamine**: automaatne arveldamine ja Address haldamine
-- Mobiiltelefoni tugi**: ainult nutitelefoni vs. lauaarvuti optimeerimine
-- Swaggeri dokumentatsioon**: täielik REST API arendajatele
+- **Interface ühtlustatud**: loomulik integratsioon Zeusesse Wallet vs Interface veebitehnika Boltz
+- **WebSocket API**: reaalajas uuendused vs. käsitsi küsitlemine
+- **Automaatne haldamine**: automaatne arveldamine ja Address haldamine
+- **Mobiiltelefoni tugi**: ainult nutitelefoni vs. lauaarvuti optimeerimine
+- **Swaggeri dokumentatsioon**: täielik REST API arendajatele
 
 
 

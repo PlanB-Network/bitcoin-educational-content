@@ -81,7 +81,7 @@ Evo detalja koje treba uneti za svako polje:
 
 
 - **`name`**: Naznačite ime vašeg podkasta.
-- `host`**: Navedite imena ili pseudonime govornika ili voditelja podkasta. Svako ime treba biti odvojeno zarezom.
+- **`host`**: Navedite imena ili pseudonime govornika ili voditelja podkasta. Svako ime treba biti odvojeno zarezom.
 - `language`: Označite kod jezika koji se govori u vašem podcastu. Na primer, za engleski, navedite `en`, za italijanski `it`...
 
 
@@ -93,7 +93,7 @@ Evo detalja koje treba uneti za svako polje:
 
 
 
-- `description`**: Dodajte kratak pasus koji opisuje vaš podkast. Opis mora biti na istom jeziku kao što je navedeno u polju `language:`.
+- **`description`**: Dodajte kratak pasus koji opisuje vaš podkast. Opis mora biti na istom jeziku kao što je navedeno u polju `language:`.
 
 
 
@@ -105,7 +105,7 @@ Evo detalja koje treba uneti za svako polje:
 
 
 
-- `contributors`**: Navedite svoj ID saradnika ako ga imate.
+- **`contributors`**: Navedite svoj ID saradnika ako ga imate.
 
 
 Na primer, vaš YAML fajl može izgledati ovako:

@@ -130,10 +130,10 @@ Uburyo bwo gutoragura amahera busa n’ubwo mu gihe c’ugucuruza:
 
 
 
-- Injiza amafaranga**: Ku rubuga rwo kwishura, shiramwo amafaranga mu mafaranga y’aho hantu (CHF canke EUR). Akarorero: ku kafe ku 4.50 CHF, winjize 4.50
-- Invoice generation** : Porogarama ica ihindura ubwo nyene ayo mahera mu satoshis ku rugero ruriho ubu, maze igatanga Lightning Invoice mu buryo bwa kode ya QR .
-- Ukwishura kw'umukiriya** : Umukiriya aracapura kode ya QR akoresheje Wallet Lightning yiwe maze akavyemeza ko yishuye .
-- Kwemeza** : Ukwishura kwemezwa mu masegonda make, n'iyerekanwa ry'amashusho ry'ukuroranirwa
+- **Injiza amafaranga**: Ku rubuga rwo kwishura, shiramwo amafaranga mu mafaranga y'aho hantu (CHF canke EUR). Akarorero: ku kafe ku 4.50 CHF, winjize 4.50
+- **Invoice generation**: Porogarama ica ihindura ubwo nyene ayo mahera mu satoshis ku rugero ruriho ubu, maze igatanga Lightning Invoice mu buryo bwa kode ya QR.
+- **Ukwishura kw'umukiriya**: Umukiriya aracapura kode ya QR akoresheje Wallet Lightning yiwe maze akavyemeza ko yishuye.
+- **Kwemeza**: Ukwishura kwemezwa mu masegonda make, n'iyerekanwa ry'amashusho ry'ukuroranirwa
 
 
 
@@ -207,11 +207,11 @@ Uburyo bwo gutoragura amahera busa n’ubwo mu gihe c’ugucuruza:
 
 
 
-- Ivyo kurya**: Amabarabara, amaresitora, ama cafés azokwemera ivyongeweko muri Bitcoin n’uburongozi bw’amahera
-- Gucuruza**: Amaduka y’ibifungurwa, amaduka y’imikate yo kwagura uburyo bwo kwishura ataco umuntu asaba
-- Abacuruzi b'abanyamahanga**: amakamyo y'ibifungurwa, amasoko, ibirori bifise telefone ngendanwa gusa
-- Ivyabaye** : Ivyahagaze vy'igihe gito bifise inyishu ziteguye gukoreshwa
-- Ibikorwa**: Abajanama, abahinga mu vy’ubuhinga bwo gutanga amafaranga rimwe gusa muri Bitcoin
+- **Ivyo kurya**: Amabarabara, amaresitora, ama cafés azokwemera ivyongeweko muri Bitcoin n'uburongozi bw'amahera
+- **Gucuruza**: Amaduka y'ibifungurwa, amaduka y'imikate yo kwagura uburyo bwo kwishura ataco umuntu asaba
+- **Abacuruzi b'abanyamahanga**: amakamyo y'ibifungurwa, amasoko, ibirori bifise telefone ngendanwa gusa
+- **Ivyabaye**: Ivyahagaze vy'igihe gito bifise inyishu ziteguye gukoreshwa
+- **Ibikorwa**: Abajanama, abahinga mu vy'ubuhinga bwo gutanga amafaranga rimwe gusa muri Bitcoin
 
 
 

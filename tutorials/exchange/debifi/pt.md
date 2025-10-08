@@ -64,25 +64,25 @@ Antes de lhe mostrar passo a passo como contrair um empréstimo no Debifi, há a
 
 
 
-- As comissões de abertura** são encargos únicos cobrados aquando da concessão de um empréstimo e calculados como uma percentagem do montante emprestado. Estas comissões cobrem os custos administrativos, operacionais e de gestão.
+- As **comissões de abertura** são encargos únicos cobrados aquando da concessão de um empréstimo e calculados como uma percentagem do montante emprestado. Estas comissões cobrem os custos administrativos, operacionais e de gestão.
 
 
 
 
 
-- A garantia** é um ativo que se deposita para assegurar um empréstimo. No caso da Debifi, a garantia é Bitcoin (BTC), que o mutuário deposita no depósito de garantia Multisig 3/4.
+- A **garantia** é um ativo que se deposita para assegurar um empréstimo. No caso da Debifi, a garantia é Bitcoin (BTC), que o mutuário deposita no depósito de garantia Multisig 3/4.
 
 
 
 
 
-- O sistema Multisig escrow (3/4)** é um mecanismo de depósito seguro em que os bitcoins de um mutuário são colocados num Address com várias assinaturas. Especificamente, quatro (4) partes detêm uma chave cada (mutuário, mutuante, Debifi, terceiro independente). Para movimentar fundos, são necessárias pelo menos 3 das 4 assinaturas.
+- O sistema **Multisig escrow (3/4)** é um mecanismo de depósito seguro em que os bitcoins de um mutuário são colocados num Address com várias assinaturas. Especificamente, quatro (4) partes detêm uma chave cada (mutuário, mutuante, Debifi, terceiro independente). Para movimentar fundos, são necessárias pelo menos 3 das 4 assinaturas.
 
 
 
 
 
-- Uma stablecoin** é uma criptomoeda cujo valor está indexado a um ativo estável (por exemplo, o dólar americano), o que evita a volatilidade da Bitcoin. Por exemplo, 1 USDC vale sempre ~$1, uma vez que é apoiado por reservas fiduciárias.
+- Uma **stablecoin** é uma criptomoeda cujo valor está indexado a um ativo estável (por exemplo, o dólar americano), o que evita a volatilidade da Bitcoin. Por exemplo, 1 USDC vale sempre ~$1, uma vez que é apoiado por reservas fiduciárias.
 
 
 

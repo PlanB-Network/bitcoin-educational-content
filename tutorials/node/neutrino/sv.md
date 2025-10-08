@@ -20,7 +20,7 @@ Instruktioner för att ladda ner och installera bilden på ett micro SD-kort i W
 Använd Raspberry Pi Imager eller balenaEtcher.
 
 
-**Symbolen `$` används som en prompt och gör det möjligt för användaren att skriva in kommandon i datorn, kommandona tolkas av bash i Linux. Symbolen `#` i början av en rad anger att den följande texten är en kommentar.
+**Symbolen `$` används som en prompt och gör det möjligt för användaren att skriva in kommandon i datorn, kommandona tolkas av bash i Linux. Symbolen `#` i början av en rad anger att den följande texten är en kommentar.**
 
 
 ### 3. Aktivera SSH

@@ -4,7 +4,7 @@ description: A Telegram bot to purchase Bitcoin in confidentiality
 ---
 ![image](assets/cover.webp)
 
-_This tutorial was written by_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_This tutorial was written by_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 ## Introduction
 

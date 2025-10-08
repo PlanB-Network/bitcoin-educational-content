@@ -130,10 +130,10 @@ Il processo di raccolta è simile a quello di una transazione convenzionale:
 
 
 
-- Inserire l'importo**: Nella schermata di pagamento, inserire l'importo in valuta locale (CHF o EUR). Esempio: per un caffè a 4,50 CHF, inserire 4,50
-- Generazione di Invoice** : L'applicazione converte istantaneamente l'importo in satoshi al tasso corrente e genera un Invoice Lightning sotto forma di codice QR
-- Pagamento del cliente** : Il cliente scansiona il codice QR con il suo Wallet Lightning e convalida il pagamento
-- Conferma** : Il pagamento viene confermato in pochi secondi, con visualizzazione del successo
+- **Inserire l'importo**: Nella schermata di pagamento, inserire l'importo in valuta locale (CHF o EUR). Esempio: per un caffè a 4,50 CHF, inserire 4,50
+- **Generazione di Invoice**: L'applicazione converte istantaneamente l'importo in satoshi al tasso corrente e genera un Invoice Lightning sotto forma di codice QR
+- **Pagamento del cliente**: Il cliente scansiona il codice QR con il suo Wallet Lightning e convalida il pagamento
+- **Conferma**: Il pagamento viene confermato in pochi secondi, con visualizzazione del successo
 
 
 
@@ -207,11 +207,11 @@ Il processo di raccolta è simile a quello di una transazione convenzionale:
 
 
 
-- Ristorazione**: Bar, ristoranti, caffè accettano aggiunte in Bitcoin con gestione delle mance
-- Commercio al dettaglio**: Negozi di alimentari, panetterie per l'espansione dei metodi di pagamento senza spese fisse
-- Venditori nomadi**: food truck, mercati, festival con il solo smartphone
-- Eventi** : Stand temporanei con soluzioni pronte all'uso
-- Servizi**: Consulenti, artigiani per la fatturazione una tantum in Bitcoin
+- **Ristorazione**: Bar, ristoranti, caffè accettano aggiunte in Bitcoin con gestione delle mance
+- **Commercio al dettaglio**: Negozi di alimentari, panetterie per l'espansione dei metodi di pagamento senza spese fisse
+- **Venditori nomadi**: food truck, mercati, festival con il solo smartphone
+- **Eventi**: Stand temporanei con soluzioni pronte all'uso
+- **Servizi**: Consulenti, artigiani per la fatturazione una tantum in Bitcoin
 
 
 

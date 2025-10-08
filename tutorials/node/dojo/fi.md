@@ -160,7 +160,7 @@ Aseta käynnistettävä USB-levy tietokoneeseen, joka on sammutettu (siihen, jos
 
 
 
-Ubuntun aloitusnäyttö tulee näkyviin. Valitse "Kokeile tai asenna Ubuntu*".
+Ubuntun aloitusnäyttö tulee näkyviin. Valitse "Kokeile tai asenna Ubuntu".
 
 
 
@@ -756,7 +756,7 @@ MYSQL_PASSWORD=your-password-here
 
 
 
-⚠️ ***Korvaa `tunnuksesi-täällä` ja `salasanasi-täällä` omilla tunnuksillasi (vahvoilla, uniikeilla salasanoilla).*** ***
+⚠️ **Korvaa `tunnuksesi-täällä` ja `salasanasi-täällä` omilla tunnuksillasi (vahvoilla, uniikeilla salasanoilla).**
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Pitäkää tämä Address ehdottoman luottamuksellisena
+⚠️ **Pitäkää tämä Address ehdottoman luottamuksellisena**
 
 
 
@@ -1426,7 +1426,7 @@ Jos haluat käyttää selainta mistä tahansa koneesta missä tahansa verkossa (
 
 
 
-⚠️ **Pitäkää tämä Address ehdottoman luottamuksellisena
+⚠️ **Pitäkää tämä Address ehdottoman luottamuksellisena**
 
 
 

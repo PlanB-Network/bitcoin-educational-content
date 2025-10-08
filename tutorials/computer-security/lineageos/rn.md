@@ -149,8 +149,8 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-- Igikoresho ca Android Flash**: Koresha igikoresho cemewe ca Google kugira ngo usubize mu buryo bworoshe igikoresho cawe ca Pixel kugira ngo ukoreshe Android ukoresheje umucukumbuzi wawe w'urubuga (Chrome/Edge irakenewe)
-- Ubundi**: Amashusho y'uruganda n'amaboko avuye kuri [abahinguzi.google.com/android/amashusho](https://abahinguzi.google.com/android/amashusho)
+- **Igikoresho ca Android Flash**: Koresha igikoresho cemewe ca Google kugira ngo usubize mu buryo bworoshe igikoresho cawe ca Pixel kugira ngo ukoreshe Android ukoresheje umucukumbuzi wawe w'urubuga (Chrome/Edge irakenewe)
+- **Ubundi**: Amashusho y'uruganda n'amaboko avuye kuri [abahinguzi.google.com/android/amashusho](https://abahinguzi.google.com/android/amashusho)
 
 
 
@@ -159,10 +159,10 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-- Gufungura igikoresho cawe nibura rimwe** ukoresheje uburyo bw'umwimerere
-- Gerageza ibiranga vyose**: SMS, guhamagara, Wi-Fi, amakuru ya telefone ngendanwa
-- Ivy’ingenzi**: Suzuma ko ushobora kohereza/kwakira SMS no guhamagara/kwakira amatelefone (harimwo no gukoresha WiFi na 4G/5G). Iyo idakora kuri stock system, ntizokora no kuri LineageOS!
-- Ivyuma biherutse gukoreshwa**: Bimwe bisaba ko VoLTE/VoWiFi ikoreshwa n’imiburiburi rimwe kuri sisitemu y’ububiko kugira ngo IMS
+- Gufungura igikoresho cawe nibura rimwe ukoresheje uburyo bw'umwimerere
+- **Gerageza ibiranga vyose**: SMS, guhamagara, Wi-Fi, amakuru ya telefone ngendanwa
+- **Ivy'ingenzi**: Suzuma ko ushobora kohereza/kwakira SMS no guhamagara/kwakira amatelefone (harimwo no gukoresha WiFi na 4G/5G). Iyo idakora kuri stock system, ntizokora no kuri LineageOS!
+- **Ivyuma biherutse gukoreshwa**: Bimwe bisaba ko VoLTE/VoWiFi ikoreshwa n'imiburiburi rimwe kuri sisitemu y'ububiko kugira ngo IMS
 
 
 
@@ -171,8 +171,8 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-- Kuraho konti zose za Google** kuri gikoresho cawe kugira ngo wirinde gusubiramwo uruganda, bishobora kubuza gukoresha
-- Full backup** : Ivyo bizokuraho telefone yawe yose. Gusubiza inyuma amafoto, abo mubonana, amaporogarama n'amadosiye ahambaye
+- Kuraho konti zose za Google kuri gikoresho cawe kugira ngo wirinde gusubiramwo uruganda, bishobora kubuza gukoresha
+- **Full backup**: Ivyo bizokuraho telefone yawe yose. Gusubiza inyuma amafoto, abo mubonana, amaporogarama n'amadosiye ahambaye
 
 
 
@@ -216,7 +216,7 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-⚠️ **Aya mabwirizwa ni ay'umwihariko kuri LineageOS 22.2. Kurikiza neza intambwe yose. Ntugende imbere iyo hari ikintu kinaniwe!
+⚠️ **Aya mabwirizwa ni ay'umwihariko kuri LineageOS 22.2. Kurikiza neza intambwe yose. Ntugende imbere iyo hari ikintu kinaniwe!**
 
 
 
@@ -249,8 +249,8 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-- Build LineageOS**: [gukuraho.umurongo.org/ibikoresho/urubeya/yubaka](https://gukuraho.umurongo.org/ibikoresho/urubeya/yubaka)
-- Dosiye zikenewe**: Kura amadosiye 3 asabwa kuri iyi paji (azokoreshwa mu ntambwe zikurikira):
+- **Build LineageOS**: [gukuraho.umurongo.org/ibikoresho/urubeya/yubaka](https://gukuraho.umurongo.org/ibikoresho/urubeya/yubaka)
+- **Dosiye zikenewe**: Kura amadosiye 3 asabwa kuri iyi paji (azokoreshwa mu ntambwe zikurikira):
   - `umuryango-22.2-YYYYMMDD-ijoro-imbeya-yashizweko umukono.zip` (ROM nyamukuru)
   - dtbo.img` (igiti c'igikoresho co gucapura)
   - `gutangura.img` (gusubizaho umurongoOS)
@@ -269,13 +269,13 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-⚠️ **Iyi ntambwe irafuta amakuru yawe yose!
+⚠️ **Iyi ntambwe irafuta amakuru yawe yose!**
 
 
 
 
 
-- Gerageza ubufatanye bwa ADB**: Huza igikoresho cawe biciye kuri USB hanyuma ugerageze n'itegeko `adb devices` kuva ku nzira ya mudasobwa yawe
+- **Gerageza ubufatanye bwa ADB**: Huza igikoresho cawe biciye kuri USB hanyuma ugerageze n'itegeko `adb devices` kuva ku nzira ya mudasobwa yawe
 
 
 
@@ -289,7 +289,7 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-- Kwemerera guhuza** kuri telefone yawe
+- **Kwemerera guhuza** kuri telefone yawe
 
 
 
@@ -303,7 +303,7 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-- Gufungura mu buryo bwo gufungura** :
+- **Gufungura mu buryo bwo gufungura** :
 
 
 ```
@@ -317,7 +317,7 @@ Canke ufate **Ijwi Hasi + Inguvu** igikoresho kizimye
 
 
 
-- Suzuma ubufatanye bwa fastboot**:
+- **Suzuma ubufatanye bwa fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Gufungura umukoresho wo gufungura** :
+- **Gufungura umukoresho wo gufungura** :
 
 
 ```
@@ -370,7 +370,7 @@ Ku gikoresho, koresha amafunguro y'Ijwi kugira ngo ugende maze ukande buto ya **
 
 
 
-- Inyuma yo gusubira gutangura**, subira gukoresha USB gukosora mu mahitamwo y'umuhinguzi
+- Inyuma yo gusubira gutangura, subira gukoresha USB gukosora mu mahitamwo y'umuhinguzi
 
 
 
@@ -385,8 +385,8 @@ Ku gikoresho, koresha amafunguro y'Ijwi kugira ngo ugende maze ukande buto ya **
 
 
 
-- Gusubira gufungura bootloader**: Ijwi rigabanuka + Inguvu
-- Flash** (subiriza `/inzira/ku/` na dosiye aho wakuye dosiye) :
+- **Gusubira gufungura bootloader**: Ijwi rigabanuka + Inguvu
+- **Flash** (subiriza `/inzira/ku/` na dosiye aho wakuye dosiye) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Gusubirana kw'umuriro** (subiriza `/inzira/ku/` n'ububiko aho wakuye dosiye) :
+- **Gusubirana kw'umuriro** (subiriza `/inzira/ku/` n'ububiko aho wakuye dosiye) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Gusubira gutangura mu gukira** kugira ngo usuzume
+- **Gusubira gutangura mu gukira** kugira ngo usuzume
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Gusubira gutangura mu gukira**: Ijwi ry'Ijwi + Inguvu → Uburyo bwo Gukira
+- **Gusubira gutangura mu gukira**: Ijwi ry'Ijwi + Inguvu → Uburyo bwo Gukira
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Gusubiramwo uruganda** : Ubwoko "Gusubiramwo uruganda" → "Igishushanyo c'amakuru / gusubiramwo uruganda"
+- **Gusubiramwo uruganda** : Ubwoko "Gusubiramwo uruganda" → "Igishushanyo c'amakuru / gusubiramwo uruganda"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Subira kuri menyu nyamukuru**
-- Uruvyaro rw'inyumaOS** :
+- Subira kuri menyu nyamukuru
+- **Uruvyaro rw'inyumaOS** :
    - Ku gikoresho: "Shiraho Ivugurura" → "Shiraho kuva kuri ADB".
    - Ku PC: `adb -d gushirwa ku ruhande / inzira / ku / imiryango.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reboot**: "Subira gufungura sisitemu ubu"
-- Igikoresho ca mbere**: Bishobora gutwara iminota 15
+- **Reboot**: "Subira gufungura sisitemu ubu"
+- **Igikoresho ca mbere**: Bishobora gutwara iminota 15
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Uguhuza kwa porogaramu nkuru**: Raba neza ko usuzuma verisiyo ya porogaramu nkuru isabwa kuri paji yo gukuraho porogaramu yawe
-- Ntukigere usubira gufunga** umurongo w'ivyuma umaze gushiramwo LineageOS
-- Kurikiza amabwirizwa yihariye** y'igikoresho cawe
+- **Uguhuza kwa porogaramu nkuru**: Raba neza ko usuzuma verisiyo ya porogaramu nkuru isabwa kuri paji yo gukuraho porogaramu yawe
+- Ntukigere usubira gufunga umurongo w'ivyuma umaze gushiramwo **LineageOS**
+- Kurikiza amabwirizwa yihariye **y'igikoresho cawe**
 
 
 
@@ -559,11 +559,11 @@ Interface yatunganijwe neza, hafi y’iyi Android, ata Google. Gutunganya vyoros
 
 
 
-- Kugenda**: Ikarata y'ibinyabuzima (ikarita zitari ku murongo zishingiye kuri OpenStreetMap)
-- Imenyekanisha**: Ikimenyetso (ubutumwa bushizwe mu mfuruka kuva ku mpera kugeza ku mpera), K-9 Mail (umukiriya wa email ku buntu)
-- Itangazamakuru**: NewPipe (itatangaza, YouTube idakurikirana), VLC (itangazamakuru ry'isi yose)
-- Umusaruro**: Nextcloud (igicu ciyakira), Ikirangamisi coroshe (uguhuza CalDAV)
-- Umutekano**: Bitwarden (umucungerezi w'ijambobanga), Umugenzuzi wa Aegis (amakode ya 2FA)
+- **Kugenda**: Ikarata y'ibinyabuzima (ikarita zitari ku murongo zishingiye kuri OpenStreetMap)
+- **Imenyekanisha**: Ikimenyetso (ubutumwa bushizwe mu mfuruka kuva ku mpera kugeza ku mpera), K-9 Mail (umukiriya wa email ku buntu)
+- **Itangazamakuru**: NewPipe (itatangaza, YouTube idakurikirana), VLC (itangazamakuru ry'isi yose)
+- **Umusaruro**: Nextcloud (igicu ciyakira), Ikirangamisi coroshe (uguhuza CalDAV)
+- **Umutekano**: Bitwarden (umucungerezi w'ijambobanga), Umugenzuzi wa Aegis (amakode ya 2FA)
 
 
 

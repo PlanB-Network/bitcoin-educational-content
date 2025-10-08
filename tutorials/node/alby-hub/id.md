@@ -27,7 +27,7 @@ Keuntungan utama dari opsi ini adalah Anda mendapatkan node Lightning yang aktif
 
 Alby Cloud adalah layanan berbayar [Periksa harga mereka](https://albyhub.com/#pricing) untuk lebih jelasnya. Biaya akan secara otomatis dikurangkan dari dompet Anda melalui faktur Lightning yang dikeluarkan oleh Alby. Ini dilakukan melalui koneksi NWC yang mengonfigurasi node Anda untuk membayar faktur Alby terkait langganan Anda secara otomatis.
 
-- Alby Hub dengan simpul yang sudah ada :**
+- Alby Hub dengan simpul yang sudah ada:
 
 Jika Anda sudah memiliki node yang dihosting, misalnya pada Umbrel atau Start9, Alby Hub dapat digunakan sebagai antarmuka manajemen tingkat lanjut, dengan cara yang sama seperti ThunderHub atau RTL.
 
@@ -37,7 +37,7 @@ Jika Anda sudah memiliki node yang dihosting, misalnya pada Umbrel atau Start9, 
 Juga memungkinkan untuk menginstal Alby Hub langsung di PC Anda, meskipun opsi ini kurang praktis, karena PC Anda harus tetap aktif setiap saat untuk mengakses node Lightning dari jarak jauh. Namun, alternatif ini mungkin cocok untuk kebutuhan spesifik Anda.
 
 
-- Alby Hub di server pribadi :**
+- Alby Hub di server pribadi:
 
 Untuk pengguna tingkat lanjut, Alby Hub dapat digunakan pada server pribadi dengan perintah sederhana. Opsi ini tidak tercakup dalam tutorial ini, tetapi Anda dapat menemukan instruksi khusus [di GitHub Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 

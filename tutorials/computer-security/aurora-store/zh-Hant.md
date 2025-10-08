@@ -18,7 +18,7 @@ description: 下載 Android 應用程式的 Play Store 免費替代方案
 
 
 
-Aurora Store 是 *Aurora Open Source Software* 的產品，Aurora Open Source Software* 是一個由開發人員和隱私權愛好者組成的集體，專注於建立免費的開放原始碼工具，以尊重您的數位生活和自由。
+Aurora Store 是 *Aurora Open Source Software* 的產品，*Aurora Open Source Software* 是一個由開發人員和隱私權愛好者組成的集體，專注於建立免費的開放原始碼工具，以尊重您的數位生活和自由。
 
 
 Aurora Store 是 Android 平台上最受歡迎的 Google Play 商店替代應用程式商店之一，原因如下：
@@ -26,9 +26,9 @@ Aurora Store 是 Android 平台上最受歡迎的 Google Play 商店替代應用
 
 
 
-- 流線型的 Interface**：Interface 絲毫不會讓您相形見拙，因此很容易就能找到自己的方位。
-- 存取數百萬個應用程式**：Aurora Store 是通往各種行動應用程式的入口。如果您要找的應用程式在 Google Play 商店，您就可以在 Aurora 商店找到。
-- 無需 Google Play 服務**：拜 MicroG 技術所賜，Android 應用程式無需 Google Play 服務即可在手機上執行。
+- 流線型的 **Interface**：Interface 絲毫不會讓您相形見拙，因此很容易就能找到自己的方位。
+- 存取數百萬個應用程式：Aurora Store 是通往各種行動應用程式的入口。如果您要找的應用程式在 Google Play 商店，您就可以在 Aurora 商店找到。
+- **無需 Google Play 服務**：拜 MicroG 技術所賜，Android 應用程式無需 Google Play 服務即可在手機上執行。
 
 
 
@@ -98,7 +98,7 @@ Aurora Store 不僅是 Google Play 商店的鏡像，它還包含了一些功能
 
 
 
-- 獨立於 Google：**
+- 獨立於 Google：
 
 
 
@@ -112,7 +112,7 @@ Aurora Store 不僅是 Google Play 商店的鏡像，它還包含了一些功能
 
 
 
-- 下載控制：**
+- 下載控制：
 
 
 
@@ -126,7 +126,7 @@ Aurora Store 可讓您透過指定要安裝的版本代碼，手動下載行動�
 
 
 
-- 授權：**
+- 授權：
 
 
 在您希望安裝的應用程式的描述中，取得安裝後將授予此應用程式的授權的完整清單。
@@ -139,7 +139,7 @@ Aurora Store 可讓您透過指定要安裝的版本代碼，手動下載行動�
 
 
 
-- 資料保護分析：**
+- 資料保護分析：
 
 
 

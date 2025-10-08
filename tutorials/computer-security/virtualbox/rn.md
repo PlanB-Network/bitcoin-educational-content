@@ -73,9 +73,9 @@ Iyi installation irashobora guhindurwa, ariko ndagusavye gushiramwo ibiranga vyo
 
 
 
-- Ubufasha bwa USB bwa VirtualBox** kugira ngo VirtualBox ishobore gufasha ibikoresho vya USB
-- VirtualBox Bridged Network** kugira ngo ushiremwo ubufasha bw'urubuga mu buryo bwa "Ikiraro" (imashini y'urubuga ishobora kwifatanya n'urubuga rwawe rwo mu karere)
-- VirtualBox Host-Only Network** kugira ngo ushiremwo ubufasha bw'urubuga mu buryo bwa "Host-Only" (imashini ishobora gusa kuvugana n'umushitsi wawe wa Windows 11 n'izindi mashini zisanzwe muri ubu buryo)
+- **Ubufasha bwa USB bwa VirtualBox** kugira ngo VirtualBox ishobore gufasha ibikoresho vya USB
+- **VirtualBox Bridged Network** kugira ngo ushiremwo ubufasha bw'urubuga mu buryo bwa "Ikiraro" (imashini y'urubuga ishobora kwifatanya n'urubuga rwawe rwo mu karere)
+- **VirtualBox Host-Only Network** kugira ngo ushiremwo ubufasha bw'urubuga mu buryo bwa "Host-Only" (imashini ishobora gusa kuvugana n'umushitsi wawe wa Windows 11 n'izindi mashini zisanzwe muri ubu buryo)
 
 
 
@@ -165,10 +165,10 @@ Kugira ngo ureme imashini nshasha kuri VirtualBox, ushobora gufyonda kuri buto y
 
 
 
-- Amagenamiterere**: imiterere rusangi ya VirtualBox (ububiko bwa VM, ubuyobozi bwo guhindura, ururimi, imihora ya NAT, ivyungura, n'ibindi)
-- Import**: kwinjiza igikoresho c'ukuri mu buryo bwa OVF
-- Gusohora**: kwohereza hanze imashini y'ukuri iriho mu buryo bwa OVF kugira ngo ureme igikoresho c'ukuri
-- Yongera**: yongera imashini isanzwe ku rutonde rwawe rwa VirtualBox, mu buryo busanzwe bwa VirtualBox (.vbox) canke uburyo bwa XML
+- **Amagenamiterere**: imiterere rusangi ya VirtualBox (ububiko bwa VM, ubuyobozi bwo guhindura, ururimi, imihora ya NAT, ivyungura, n'ibindi)
+- **Import**: kwinjiza igikoresho c'ukuri mu buryo bwa OVF
+- **Gusohora**: kwohereza hanze imashini y'ukuri iriho mu buryo bwa OVF kugira ngo ureme igikoresho c'ukuri
+- **Yongera**: yongera imashini isanzwe ku rutonde rwawe rwa VirtualBox, mu buryo busanzwe bwa VirtualBox (.vbox) canke uburyo bwa XML
 
 
 
@@ -190,10 +190,10 @@ Ibubamfu, igice ca "**Ibikoresho**" gitanga uburenganzira bwo gukoresha **ibikor
 
 
 
-- Izina**: izina ry'imashini y'ukuri (iri ni ryo zina rizogaragara muri VirtualBox)
-- Dosiye y'imashini**: aho wobika imashini y'ukuri, uzi ko dosiye ntoyi iriko izina rya VM izoremwa aha hantu
-- Ubwoko**: ubwoko bwa sisitemu ikoresha, bivanye n'ivyo ushaka gushiramwo
-- Verisiyo**: verisiyo ya sisitemu wipfuza gushiramwo, muri iki gihe Windows 11, rero "**Idirisha11_64**"
+- **Izina**: izina ry'imashini y'ukuri (iri ni ryo zina rizogaragara muri VirtualBox)
+- **Dosiye y'imashini**: aho wobika imashini y'ukuri, uzi ko dosiye ntoyi iriko izina rya VM izoremwa aha hantu
+- **Ubwoko**: ubwoko bwa sisitemu ikoresha, bivanye n'ivyo ushaka gushiramwo
+- **Verisiyo**: verisiyo ya sisitemu wipfuza gushiramwo, muri iki gihe Windows 11, rero "**Idirisha11_64**"
 
 
 
@@ -231,9 +231,9 @@ VirtualBox ishigikira uburyo butatu butandukanye bw’ama disk Hard, ivyo bikaba
 
 
 
-- VDI**, uburyo buzwi bw'agasanduku k'ibintu
-- VHD**, ari yo nzira yemewe ya Hyper-V, naho nyene uburyo bushasha bwa VHDX bukoreshwa cane muri iyi misi .
-- VMDX** ni uburyo buzwi bwa VMware ku bikoresho vyose vya VMware na VMware ESXi
+- **VDI**, uburyo buzwi bw'agasanduku k'ibintu
+- **VHD**, ari yo nzira yemewe ya Hyper-V, naho nyene uburyo bushasha bwa **VHDX** bukoreshwa cane muri iyi misi.
+- **VMDX** ni uburyo buzwi bwa VMware ku bikoresho vyose vya VMware na VMware ESXi
 
 
 

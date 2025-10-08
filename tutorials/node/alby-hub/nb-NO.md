@@ -39,7 +39,7 @@ Hvis du allerede har en node hosted, for eksempel på Umbrel eller Start9, kan A
 Det er også mulig å installere Alby Hub direkte på PC-en din, selv om dette alternativet er mindre praktisk, siden PC-en din må være aktiv hele tiden for å få fjernadgang til Lightning-noden. Imidlertid kan dette alternativet være egnet for dine spesifikke behov.
 
 
-- Alby Hub på en personlig server :**
+- Alby Hub på en personlig server:
 
 For avanserte brukere kan Alby Hub distribueres på en personlig server med en enkel kommando. Dette alternativet er ikke dekket i denne veiledningen, men du kan finne dedikerte instruksjoner [på Albys GitHub] (https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 

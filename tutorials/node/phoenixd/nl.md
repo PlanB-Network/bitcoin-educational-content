@@ -31,7 +31,7 @@ Phoenixd is een minimale, gespecialiseerde Lightning-node ontwikkeld door ACINQ.
 
 
 
-**Fenixd is een minimaal Lightning-knooppunt dat ACINQ gebruikt als LSP (Lightning Service Provider) voor automatische liquiditeit. Wanneer je Lightning-betalingen ontvangt, opent het automatisch kanalen met ACINQ-knooppunten om de benodigde inkomende capaciteit toe te wijzen. Deze "on-the-fly" liquiditeit is onmiddellijk, maar wordt in rekening gebracht tegen exact **1% + Mining vergoedingen** van het ontvangen bedrag.
+**Fenixd is een minimaal Lightning-knooppunt dat ACINQ gebruikt als LSP (Lightning Service Provider) voor automatische liquiditeit. Wanneer je Lightning-betalingen ontvangt, opent het automatisch kanalen met ACINQ-knooppunten om de benodigde inkomende capaciteit toe te wijzen. Deze "on-the-fly" liquiditeit is onmiddellijk, maar wordt in rekening gebracht tegen exact 1% + Mining vergoedingen van het ontvangen bedrag.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd is een minimale, gespecialiseerde Lightning-node ontwikkeld door ACINQ.
 
 
 
-- Lightning** kanalen: Naar behoefte automatisch openen, sluiten en beheren
-- Inkomende/uitgaande liquiditeit**: Automatische bevoorrading via splicing en kanaalopening
-- Tariefkrediet** : Kleine betalingen die onvoldoende zijn om een kanaal te rechtvaardigen, worden opgeslagen als voorziening voor toekomstige kosten
+- **Lightning** kanalen: Naar behoefte automatisch openen, sluiten en beheren
+- **Inkomende/uitgaande liquiditeit**: Automatische bevoorrading via splicing en kanaalopening
+- **Tariefkrediet**: Kleine betalingen die onvoldoende zijn om een kanaal te rechtvaardigen, worden opgeslagen als voorziening voor toekomstige kosten
 
 
 
@@ -50,7 +50,7 @@ Phoenixd is een minimale, gespecialiseerde Lightning-node ontwikkeld door ACINQ.
 
 
 
-**Je beheert je privésleutels (12-woord seed) en fondsen. Phoenixd genereert je Wallet lokaal zonder ooit je sleutels te delen.
+**Je beheert je privésleutels (12-woord seed) en fondsen. Phoenixd genereert je Wallet lokaal zonder ooit je sleutels te delen.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd vereist een Linux-omgeving (Ubuntu/Debian aanbevolen), met wat basis co
 
 
 
-- Linux server**: VPS of lokale machine met stabiele verbinding
-- OpenJDK 21** : Java runtime-omgeving
-- Stabiele internetverbinding**: Voor synchronisatie met de Lightning Network
-- Domeinnaam** (optioneel) : Voor beveiligde HTTPS-toegang tot de API
+- **Linux server**: VPS of lokale machine met stabiele verbinding
+- **OpenJDK 21**: Java runtime-omgeving
+- **Stabiele internetverbinding**: Voor synchronisatie met de Lightning Network
+- **Domeinnaam** (optioneel) : Voor beveiligde HTTPS-toegang tot de API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Eerste opstart
+**2. Eerste opstart**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- De identiteit van je server bewijzen** (voorkomt man-in-the-middle-aanvallen)
-- Maakt HTTPS**-encryptie mogelijk: alle gegevens, inclusief je API-wachtwoorden, worden tijdens het transport versleuteld
-- Gratis** uitgegeven door Let's Encrypt via de certbot-tool
+- **De identiteit van je server bewijzen** (voorkomt man-in-the-middle-aanvallen)
+- Maakt **HTTPS-encryptie** mogelijk: alle gegevens, inclusief je API-wachtwoorden, worden tijdens het transport versleuteld
+- **Gratis** uitgegeven door Let's Encrypt via de certbot-tool
 
 
 
@@ -297,10 +297,10 @@ Met deze configuratie kun je :
 
 
 
-- Beveiligde toegang tot de API vanaf het internet**
-- Versleutel je API**-wachtwoorden tijdens het transport (om te voorkomen dat ze in onbewerkte tekst worden verzonden)
-- Phoenixd** integreren in externe toepassingen die HTTPS vereisen
-- Voldoen aan beveiligingsstandaarden** voor financiële API's
+- **Beveiligde toegang tot de API vanaf het internet**
+- Versleutel je **API-wachtwoorden** tijdens het transport (om te voorkomen dat ze in onbewerkte tekst worden verzonden)
+- **Phoenixd** integreren in externe toepassingen die HTTPS vereisen
+- **Voldoen aan beveiligingsstandaarden** voor financiële API's
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Servicekosten**: 1% van kanaalcapaciteit (2.115.000 Sats) = 21.150 Sats
-- Mining vergoedingen**: ~3.289 Sats (voor On-Chain transactie)
-- Totaal**: 24.439 Sats automatisch afgetrokken
+- **Servicekosten**: 1% van kanaalcapaciteit (2.115.000 Sats) = 21.150 Sats
+- **Mining vergoedingen**: ~3.289 Sats (voor On-Chain transactie)
+- **Totaal**: 24.439 Sats automatisch afgetrokken
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Ontvangst**: 1% + Mining kosten voor automatische liquiditeit
-- Verzending**: 0.4% routeringskosten op de Lightning Network
+- **Ontvangst**: 1% + Mining kosten voor automatische liquiditeit
+- **Verzending**: 0.4% routeringskosten op de Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Je online winkel ontvangt automatisch een melding wanneer een klant voor een bestelling betaalt, zodat de transactie direct kan worden gevalideerd.
+**Je online winkel ontvangt automatisch een melding wanneer een klant voor een bestelling betaalt, zodat de transactie direct kan worden gevalideerd.**
 
 
 
@@ -684,7 +684,7 @@ Dankzij de uitgebreide REST API kun je :
 
 
 
-*~/.phoenix directory:** Maak regelmatig een back-up van deze map (nadat Phoenixd is afgesloten) om de kanaalstatus te behouden en het herstel te versnellen.
+**~/.phoenix directory:** Maak regelmatig een back-up van deze map (nadat Phoenixd is afgesloten) om de kanaalstatus te behouden en het herstel te versnellen.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Beide gebruiken ACINQ als hun LSP voor automatische liquiditeit.
+**Beide gebruiken ACINQ als hun LSP voor automatische liquiditeit.**
 
 
 
@@ -866,9 +866,9 @@ Met Phoenixd bouw je je eigen Lightning-infrastructuur met een moderne REST API 
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Broncode en releases
-- Phoenix Server** site: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Volledige documentatie
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Veelgestelde vragen
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Broncode en releases
+- **Phoenix Server** site: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Volledige documentatie
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Veelgestelde vragen
 
 
 
@@ -877,5 +877,5 @@ Met Phoenixd bouw je je eigen Lightning-infrastructuur met een moderne REST API 
 
 
 
-- GitHub Issues** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technische ondersteuning
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Nieuws en aankondigingen
+- **GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technische ondersteuning
+- Twitter **ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Nieuws en aankondigingen

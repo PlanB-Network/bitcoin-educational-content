@@ -346,7 +346,7 @@ Chapa midia kwa faili `.PSBT` na uiunganishe na kompyuta nje ya mtandao.
 
 
 
-Kutoka kwa Wallet airgap, sasa chagua menyu ya _Tools_, kisha _Pakia muamala_ na ufuate Kutoka faili_.
+Kutoka kwa Wallet airgap, sasa chagua menyu ya **Tools**, kisha **Pakia muamala** na ufuate **Kutoka faili**.
 
 
 

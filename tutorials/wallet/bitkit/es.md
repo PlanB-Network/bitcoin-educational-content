@@ -16,7 +16,7 @@ Bitkit es una Wallet móvil autocustodiada que le permite tomar verdadera Owners
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-el video tutorial de arriba es una guía completa de 20' sobre Bitkit Wallet_
+el video tutorial de arriba es una guía completa de 20' sobre **Bitkit Wallet**
 
 
 ## Guía

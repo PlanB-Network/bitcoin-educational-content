@@ -4,7 +4,7 @@ description: Den enkleste Wallet for å komme i gang
 ---
 ![cover](assets/cover.webp)
 
-_Denne opplæringen ble skrevet av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Denne opplæringen ble skrevet av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Nedlasting, konfigurering og bruk av Wallet i Satoshi

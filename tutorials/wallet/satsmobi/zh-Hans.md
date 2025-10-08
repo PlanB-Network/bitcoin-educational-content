@@ -35,7 +35,7 @@ SatsMobi 是在 Telegram 上运行的 Wallet，具有 Lightning Network（托管
 ![image](assets/it/02.webp)
 
 
-要探索 Wallet，可以选择左下角的_菜单。
+要探索 Wallet，可以选择左下角的**菜单**。
 
 
 ![image](assets/it/03.webp)

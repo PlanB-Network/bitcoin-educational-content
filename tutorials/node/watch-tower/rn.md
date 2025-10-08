@@ -33,7 +33,7 @@ Muri iyi nyigisho, turaza kuraba uburyo 3 bwo gukoresha **Watchtower** :
 
 
 
-*Iyi nyigisho yakuwe muri [inyandiko zizwi za LND] Hari ivyo bishobora kuba vyahinduwe kuri verisiyo y'intango .
+**Iyi nyigisho yakuwe muri [inyandiko zizwi za LND]** Hari ivyo bishobora kuba vyahinduwe kuri verisiyo y'intango.
 
 
 
@@ -45,7 +45,7 @@ Udakunze _umunara w’impera_, usaba umugabane w’amahera y’umurongo mu gusub
 
 
 
-Ikindi, `LND` ubu irashobora gutunganirizwa gukora nk'umukiriya w'umunara w'abacungera_, igakiza amafaranga yo gutorera umuti ibibazo (ivyo bita "amafaranga y'ubutungane") avuye mu yindi minara y'abacungezi y'ubugwaneza. Watchtower ibika amabara apfutse afise ubunini butahinduka kandi ishobora gusa gufungura no gutangaza ivy’ubutungane inyuma y’aho uwukoze icaha amaze gutangaza igihugu ca Commitment cakuweho. Umukiriya ↔ Ivyiyumviro vya Watchtower birashirwa mu nzira kandi bikemezwa hakoreshejwe urufunguzo rw’igihe gito, ivyo bikaba bigabanya ubushobozi bwa Watchtower bwo gukurikirana abakiriya bayo biciye ku bimenyetso vy’igihe kirekire.
+Ikindi, `LND` ubu irashobora gutunganirizwa gukora nk'umukiriya w'umunara w'abacungera, igakiza amafaranga yo gutorera umuti ibibazo (ivyo bita "amafaranga y'ubutungane") avuye mu yindi minara y'abacungezi y'ubugwaneza. Watchtower ibika amabara apfutse afise ubunini butahinduka kandi ishobora gusa gufungura no gutangaza ivy'ubutungane inyuma y'aho uwukoze icaha amaze gutangaza igihugu ca Commitment cakuweho. Umukiriya ↔ Ivyiyumviro vya Watchtower birashirwa mu nzira kandi bikemezwa hakoreshejwe urufunguzo rw'igihe gito, ivyo bikaba bigabanya ubushobozi bwa Watchtower bwo gukurikirana abakiriya bayo biciye ku bimenyetso vy'igihe kirekire.
 
 
 
@@ -53,7 +53,7 @@ Zirikana ko twahisemwo gukoresha muri iki gisohoka ibintu bikeyi bimaze gutanga 
 
 
 
-iciyumviro: ubu, iminara y'abagenzuzi ibika gusa `to_local` na `to_remote` umusohoka w'amasezerano yasubiwemwo; kubika HTLC igisohoka kizokoreshwa muri verisiyo izoza, nk'uko porotokole ishobora kwaguka kugira ngo ishiremwo amakuru y'inyongera y'umukono mu bice vy'ibanga._
+iciyumviro: ubu, iminara y'abagenzuzi ibika gusa `to_local` na `to_remote` umusohoka w'amasezerano yasubiwemwo; kubika HTLC igisohoka kizokoreshwa muri verisiyo izoza, nk'uko porotokole ishobora kwaguka kugira ngo ishiremwo amakuru y'inyongera y'umukono mu bice by'ibanga.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-iciyumviro: urufunguzo rwa bose rwa Watchtower rutandukanye n'urufunguzo rwa bose rw'uruzitiro rwa `LND`. Kugeza ubu, ikora nk'"urutonde rwera rwa Soft", kuko abakiriya bakeneye kumenya urufunguzo rwa bose rwa Watchtower kugira ngo bayikoreshe nk'ububiko, barindiriye uburyo bwo gushiramwo urutonde rwera buteye imbere. Turagusavye KUTAmenyesha urufunguzo rwa bose ku mugaragaro, kiretse witeguriye gushikiriza Watchtower yawe kuri Internet yose._
+iciyumviro: urufunguzo rwa bose rwa Watchtower rutandukanye n'urufunguzo rwa bose rw'uruzitiro rwa `LND`. Kugeza ubu, ikora nk'**urutonde rwera rwa Soft**, kuko abakiriya bakeneye kumenya urufunguzo rwa bose rwa Watchtower kugira ngo bayikoreshe nk'ububiko, barindiriye uburyo bwo gushiramwo urutonde rwera buteye imbere. Turagusavye **KUTAmenyesha** urufunguzo rwa bose ku mugaragaro, kiretse witeguriye gushikiriza Watchtower yawe kuri Internet yose.
 
 
 
@@ -337,13 +337,13 @@ Ijisho rya Satoshi ([Rust-TEOS]) ni umuravyo Watchtower udafise ububiko, uhuye n
 
 
 
-- teos**: harimwo umurongo w'amabwirizwa Interface (CLI) n'ibiranga umukozi w'ingenzi wa Watchtower. Ivyiyumviro bibiri - **teosd** na **teos-CLI** - birasohoka iyo iyi _sandugu_ ikozwe hamwe.
+- **teos**: harimwo umurongo w'amabwirizwa Interface (CLI) n'ibiranga umukozi w'ingenzi wa Watchtower. Ivyiyumviro bibiri - **teosd** na **teos-CLI** - birasohoka iyo iyi _sandugu_ ikozwe hamwe.
 
 
 
 
 
-- teos-common**: irimwo imikorere y'uruhande rwa server n'iy'umukiriya (ifasha mu kurema umukiriya).
+- **teos-common**: irimwo imikorere y'uruhande rwa server n'iy'umukiriya (ifasha mu kurema umukiriya).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- umukozi**: ku bisabwa vya RPC
+- **umukozi**: ku bisabwa vya RPC
 
 
 
 
 
-- rpcuser** na **ijambobanga rpc**: kwemeza abaguzi ba RPC kuri server
+- **rpcuser** na **ijambobanga rpc**: kwemeza abaguzi ba RPC kuri server
 
 
 
 
 
-- regtest**: ntibisabwa, ariko ni ngirakamaro nimba uriko urategura iterambere.
+- **regtest**: ntibisabwa, ariko ni ngirakamaro nimba uriko urategura iterambere.
 
 
 
@@ -489,13 +489,13 @@ Mu "**Watchtower**", hariho uburyo bubiri:
 
 
 
-- Watchtower Service**: iyi nzira ishobora kugufasha gukoresha Watchtower, ni ukuvuga igikorwa kigenzura imirongo y’izindi nzira kugira ngo umenye ubuhendanyi bwose bugeragejwe. Iyo habaye ukurenga, Watchtower yawe iratangaza ivy’ugucuruza kuri Blockchain, bikaba bishoboza abakoresha gusubirana amahera yabo yafunzwe. Iyo imaze gukoreshwa, URI ya Watchtower yawe iraboneka kandi ishobora kumenyeshwa izindi node kugira ngo zishobore kuyishira ku mukiriya wabo wa Watchtower;
+- **Watchtower Service**: iyi nzira ishobora kugufasha gukoresha Watchtower, ni ukuvuga igikorwa kigenzura imirongo y'izindi nzira kugira ngo umenye ubuhendanyi bwose bugeragejwe. Iyo habaye ukurenga, Watchtower yawe iratangaza ivy'ugucuruza kuri Blockchain, bikaba bishoboza abakoresha gusubirana amahera yabo yafunzwe. Iyo imaze gukoreshwa, URI ya Watchtower yawe iraboneka kandi ishobora kumenyeshwa izindi node kugira ngo zishobore kuyishira ku mukiriya wabo wa Watchtower;
 
 
 
 
 
-- Watchtower Client**: iyi nzira ishobora kugufasha kwifatanya n’iminara y’inyuma kugira ngo ukinge imirongo yawe bwite. Iyo imaze gukoreshwa, urashobora kwongerako ibikorwa vya Watchtower aho node yawe izorungika amakuru akenewe yerekeye imirongo yayo. Ivyo bibanza vy’abacungera umutekano bizoca bikurikirana uko bimeze, bifashe ingingo iyo habayeho ubuhendanyi.
+- **Watchtower Client**: iyi nzira ishobora kugufasha kwifatanya n'iminara y'inyuma kugira ngo ukinge imirongo yawe bwite. Iyo imaze gukoreshwa, urashobora kwongerako ibikorwa vya Watchtower aho node yawe izorungika amakuru akenewe yerekeye imirongo yayo. Ivyo bibanza vy'abacungera umutekano bizoca bikurikirana uko bimeze, bifashe ingingo iyo habayeho ubuhendanyi.
 
 
 

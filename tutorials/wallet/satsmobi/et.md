@@ -7,7 +7,7 @@ description: Telegrammiga juurdepääsetav eestkostetav Wallet
 ![cover](assets/cover.webp)
 
 
-_Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Sats.Mobi

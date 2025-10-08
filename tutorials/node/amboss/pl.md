@@ -145,9 +145,9 @@ W sekcji **Kanały** zobaczysz listę otwartych kanałów i połączeń węzła 
 
 
 
-- Współczynnik przychodzący**: Kwota, jaką węzeł pobierze za każdy milion Satoshi, które otrzyma, w zależności od wybranego kanału.
+- **Współczynnik przychodzący**: Kwota, jaką węzeł pobierze za każdy milion Satoshi, które otrzyma, w zależności od wybranego kanału.
 - Współczynnik (części na milion)** : który reprezentuje liczbę Satoshi na milion jednostek, które węzeł naliczy, gdy zdecydujesz się dokonać płatności za pośrednictwem jednego z jego kanałów. Powiedzmy, że zdecydujesz się dokonać płatności w wysokości `10_000 Sats` za pośrednictwem kanału, którego współczynnik ppm wynosi `500 Sats`, będziesz musiał zapłacić węzłowi `10_000 * 500 / 1_000_000` satoshi, co odpowiada `5 Sats`.
-- Maksymalna wartość [HTLC](https://planb.network/resources/glossary/HTLC)** : Maksymalna kwota, jaką ten węzeł pozwala przesyłać za pośrednictwem jednego z tych kanałów.
+- Maksymalna wartość **[HTLC](https://planb.network/resources/glossary/HTLC)**: Maksymalna kwota, jaką ten węzeł pozwala przesyłać za pośrednictwem jednego z tych kanałów.
 
 
 
@@ -172,7 +172,7 @@ Sekcja **Zamknięte kanały** grupuje wszystkie poprzednie kanały węzła zgodn
 
 
 
-- Wzajemne zamknięcie**: reprezentuje porozumienie obu stron, które używają swojego klucza prywatnego do podpisania transakcji oznaczającej zamknięcie kanału i dystrybucję sald w jego ramach
+- **Wzajemne zamknięcie**: reprezentuje porozumienie obu stron, które używają swojego klucza prywatnego do podpisania transakcji oznaczającej zamknięcie kanału i dystrybucję sald w jego ramach
 - **Wymuszone zamknięcie**: reprezentuje nagłe, jednostronne zamknięcie jednej części kanału. Ten rodzaj zamknięcia nie jest zalecany, ponieważ Lightning Network jest protokołem opartym na karach: gdy próbujesz wyłudzić saldo kanału, ryzykujesz utratę całego dostępnego salda w tym kanale.
 
 

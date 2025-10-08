@@ -6,10 +6,10 @@ description: Hoe PayNyms werken
 ***WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, kan de applicatie niet langer gebruikt worden door gebruikers die geen eigen Dojo hebben. BIP47 blijft bruikbaar op Sparrow wallet voor alle gebruikers en **op Samourai Wallet alleen voor gebruikers die een Dojo** hebben.*
 
 
-we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
+we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is.
 
 
-deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied._
+deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. We keuren het gebruik van deze tools voor criminele doeleinden niet goed en moedigen dit ook niet aan. Het is de verantwoordelijkheid van elke gebruiker om te voldoen aan de wetten in hun rechtsgebied.
 
 
 ---
@@ -306,9 +306,9 @@ Dit zijn de verschillende onderdelen van een 80-byte betaalcode:
 - _Byte 0_: De versie. Als de eerste versie van BIP47 wordt gebruikt, is deze byte gelijk aan 0x01.
 - _Byte 1_: Het bitveld. Deze ruimte is gereserveerd voor aanvullende aanduidingen bij specifiek gebruik. Als je gewoon PayNym gebruikt, is deze byte gelijk aan 0x00.
 - _Byte 2_: De y-pariteit. Deze byte geeft 0x02 of 0x03 aan, afhankelijk van de pariteit (even of oneven getal) van de waarde van de y-coördinaat van onze publieke sleutel. Lees voor meer informatie hierover stap 1 van de "Address afleiding" sectie van dit artikel.
-- van byte 3 tot byte 34_: De x-waarde. Deze bytes geven de x-coördinaat van onze openbare sleutel aan. De aaneenschakeling van x en de y pariteit geeft ons onze gecomprimeerde publieke sleutel.
-- van byte 35 tot byte 66_: De chain code. Deze ruimte is gereserveerd voor de chain code die hoort bij de eerder genoemde openbare sleutel.
-- van byte 67 tot byte 79_: Padding. Deze ruimte is gereserveerd voor mogelijke toekomstige ontwikkelingen. Voor versie 1 vullen we het eenvoudigweg met nullen om 80 bytes te bereiken, wat de grootte is van de gegevens voor een OP_RETURN uitgang.
+- van byte 3 tot byte 34: De x-waarde. Deze bytes geven de x-coördinaat van onze openbare sleutel aan. De aaneenschakeling van x en de y pariteit geeft ons onze gecomprimeerde publieke sleutel.
+- van byte 35 tot byte 66: De chain code. Deze ruimte is gereserveerd voor de chain code die hoort bij de eerder genoemde openbare sleutel.
+- van byte 67 tot byte 79: Padding. Deze ruimte is gereserveerd voor mogelijke toekomstige ontwikkelingen. Voor versie 1 vullen we het eenvoudigweg met nullen om 80 bytes te bereiken, wat de grootte is van de gegevens voor een OP_RETURN uitgang.
 
 
 Hier is de hexadecimale weergave van mijn herbruikbare betalingscode, gepresenteerd in de vorige sectie, met kleuren die overeenkomen met de bytes die hierboven zijn gepresenteerd:

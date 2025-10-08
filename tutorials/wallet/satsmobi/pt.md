@@ -7,7 +7,7 @@ description: Um Wallet de custódia acessível por telegrama
 ![cover](assets/cover.webp)
 
 
-_Este tutorial foi escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Este tutorial foi escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Sats.Mobi

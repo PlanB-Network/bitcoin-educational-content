@@ -65,7 +65,7 @@ V závislosti na používaném modelu Lightning Wallet najdete následující mo
 
 
 
-- Alby Hub** pro peněženky Alby Go, rozšíření Alby pro váš prohlížeč.
+- **Alby Hub** pro peněženky Alby Go, rozšíření Alby pro váš prohlížeč.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** pro připojení webového zařízení Bitcoin CoinOS Wallet.
-- Flash Wallet** pro připojení k zařízení Flash Wallet.
-- Odkaz na LN**
+- **Coinos** pro připojení webového zařízení Bitcoin CoinOS Wallet.
+- **Flash Wallet** pro připojení k zařízení Flash Wallet.
+- Odkaz na LN
 
 
 

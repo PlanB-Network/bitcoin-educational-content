@@ -202,7 +202,7 @@ Snortにはいくつかの接続方法があります。あらかじめインス
 
 
 
-Snort_のInterfaceは：
+**Snort**のInterfaceは：
 
 
 

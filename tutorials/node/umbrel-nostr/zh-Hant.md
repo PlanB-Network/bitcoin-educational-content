@@ -350,7 +350,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 - 透過 Tailscale 存取：**[Tailscale](https://tailscale.com/) 是網狀 VPN 解決方案，可在您的裝置與 Umbrel 之間建立虛擬私人網路。其優點是：它的工作方式就像您在區域網路上一樣，不過是透過網際網路，經過加密且不需要複雜的設定。Tailscale 會為您的 Umbrel 指定固定 IP 和私人網域名稱，不論其網路位置為何** ([Tailscale|Umbrel應用程式商店](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))。實際上，一旦您在 Umbrel 上安裝了 Tailscale (從 Umbrel App Store，類別 *Networking*) **和**您的裝置 (行動裝置、電腦...)，您就可以透過 Address 如`100.x.
 
 
-對 Nostr_來說，Tailscale 是非常有用的：您的手機如果有啟動 Tailscale，就可以連接到 `ws://umbrel:4848` (感謝 MagicDNS) 或直接連接到 Tailscale IP 和連接埠 4848 來使用中繼。像 Damus 或 Amethyst 之類的用戶端將會看到你的 Umbrel，就像它在同一個本地網路中一樣。 **祕訣：** 在 Tailscale 啟用 **MagicDNS** 選項，以使用主機名稱 `umbrel` 代替記憶 IP。這可確保即使您在移動中，也能順暢地連線到您的中繼站([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past))。
+對 **Nostr** 來說，Tailscale 是非常有用的：您的手機如果有啟動 Tailscale，就可以連接到 `ws://umbrel:4848` (感謝 MagicDNS) 或直接連接到 Tailscale IP 和連接埠 4848 來使用中繼。像 Damus 或 Amethyst 之類的用戶端將會看到你的 Umbrel，就像它在同一個本地網路中一樣。 **祕訣：** 在 Tailscale 啟用 **MagicDNS** 選項，以使用主機名稱 `umbrel` 代替記憶 IP。這可確保即使您在移動中，也能順暢地連線到您的中繼站([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past))。
 
 
 更重要的是，Tailscale 可以讓您透過簡單的瀏覽器，使用私人 IP 或指定的網域名稱，存取 Interface Umbrel (也就是 _noStrudel/Snort_ 網路用戶端)。不需要 Tor 瀏覽器，而且資料傳輸速度通常比透過 Tor 網路更好。

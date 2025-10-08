@@ -15,7 +15,7 @@ description: Oppdag Co-Sign-funksjonen og bruk den på COLDCARD
 
 
 
-**Hvorfor ColdCard Co-Sign?
+**Hvorfor ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Utgiftsbetingelser kan for eksempel være:
 
 
 
-- Begrensninger på størrelsesorden**: Sett et tak på hvor mange bitcoins du kan bruke i én enkelt transaksjon.
-- Hastighetsgrenser:** bestemmer hvor mange transaksjoner du kan utføre per tidsenhet (per time, dag, uke osv.), og krever et minimum antall blokker mellom dem.
-- Forhåndsgodkjente adresser:** Tillat kun at bitcoins sendes til forhåndsgodkjente adresser.
-- Tofaktorautentisering:** Krever bekreftelse fra en tredjeparts 2FA-mobilapplikasjon (TOTP [RFC 6238] (https://www.rfc-editor.org/rfc/rfc6238)) på en NFC-aktivert smarttelefon/nettbrett med internettilgang.
+- **Begrensninger på størrelsesorden**: Sett et tak på hvor mange bitcoins du kan bruke i én enkelt transaksjon.
+- **Hastighetsgrenser:** bestemmer hvor mange transaksjoner du kan utføre per tidsenhet (per time, dag, uke osv.), og krever et minimum antall blokker mellom dem.
+- **Forhåndsgodkjente adresser:** Tillat kun at bitcoins sendes til forhåndsgodkjente adresser.
+- **Tofaktorautentisering:** Krever bekreftelse fra en tredjeparts 2FA-mobilapplikasjon (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) på en NFC-aktivert smarttelefon/nettbrett med internettilgang.
 
 
 
-**Hvordan det fungerer
+**Hvordan det fungerer**
 
 
 
@@ -61,7 +61,7 @@ Hvis du ønsker å fravike disse utgiftsvilkårene, kan du gjøre det:
 
 
 - ved å signere med en av reservetastene og seed-hånden, eller 2 reservetaster avhengig av størrelsen på Multisig.
-- ved å angi "Utgiftspolitikknøkkelen" eller "C-nøkkelen" i menyen "Co-Sign". **Sistnevnte kan ikke brukes direkte på enheten, ellers kan hvem som helst avbryte de innstilte utgiftsbetingelsene
+- ved å angi "Utgiftspolitikknøkkelen" eller "C-nøkkelen" i menyen "Co-Sign". **Sistnevnte kan ikke brukes direkte på enheten, ellers kan hvem som helst avbryte de innstilte utgiftsbetingelsene.**
 
 
 
@@ -619,7 +619,7 @@ Kontoen vår og satoshiene som tidligere ble satt inn via Sparrow wallet, er til
 
 
 
-La oss nå prøve å foreta en transaksjon som bryter med de to utgiftsvilkårene vi har satt. **Vi prøver å bruke mer enn 21212 Sats til en Address som ikke har blitt godkjent, og vi prøver å sende 22 222 Sats til en tilfeldig Address.
+La oss nå prøve å foreta en transaksjon som bryter med de to utgiftsvilkårene vi har satt. **Vi prøver å bruke mer enn 21212 Sats til en Address som ikke har blitt godkjent, og vi prøver å sende 22 222 Sats til en tilfeldig Address.**
 
 
 
@@ -647,7 +647,7 @@ ColdcardQ viser deretter en advarsel som, når du blar til bunnen av skjermen, t
 
 
 
-**Merk at enheten ikke forteller oss hvilke utgiftsbetingelser som er involvert, for å forhindre at en potensiell angriper prøver å omgå restriksjonene
+**Merk at enheten ikke forteller oss hvilke utgiftsbetingelser som er involvert, for å forhindre at en potensiell angriper prøver å omgå restriksjonene**
 
 
 

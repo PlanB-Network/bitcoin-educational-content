@@ -814,7 +814,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-- .*`：LinuxマシンからのすべてのSyslogログをGraylogに送ることを意味する。
+- `*.*`：LinuxマシンからのすべてのSyslogログをGraylogに送ることを意味する。
 - `@`: トランスポートがUDPで行われることを示す。TCPに切り替えるには "**@@**"を指定する必要がある。
 - 192.168.10.220:12514`：GraylogサーバーのAddressと、ログを送信するポート（Inputに対応）を示す。
 - RSYSLOG_SyslogProtocol23Format`：Graylogに送信するメッセージのフォーマットに対応する。

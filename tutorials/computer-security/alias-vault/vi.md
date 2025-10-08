@@ -36,10 +36,10 @@ Trong một Interface Alias Vault có:
 
 
 
-- Miễn phí và mã nguồn mở**
-- Trình quản lý mật khẩu**, để lưu trữ tất cả mật khẩu phức tạp. Sử dụng tiện ích mở rộng của trình duyệt, trình quản lý mật khẩu sẽ hoàn tất việc đăng nhập vào các trang web
-- 2FA**, để hỗ trợ xác thực hai yếu tố
-- Trình quản lý bí danh với máy chủ email nhúng**: Alias Vault không tạo bí danh chuyển tiếp email đến hộp thư của người dùng; thay vào đó, nó tạo ra những cái tên thay thế thực sự, bao gồm tên, họ, giới tính, tên người dùng, mật khẩu và ngày sinh (nếu cần thông tin này).
+- **Miễn phí và mã nguồn mở**
+- **Trình quản lý mật khẩu**, để lưu trữ tất cả mật khẩu phức tạp. Sử dụng tiện ích mở rộng của trình duyệt, trình quản lý mật khẩu sẽ hoàn tất việc đăng nhập vào các trang web
+- **2FA**, để hỗ trợ xác thực hai yếu tố
+- **Trình quản lý bí danh với máy chủ email nhúng**: Alias Vault không tạo bí danh chuyển tiếp email đến hộp thư của người dùng; thay vào đó, nó tạo ra những cái tên thay thế thực sự, bao gồm tên, họ, giới tính, tên người dùng, mật khẩu và ngày sinh (nếu cần thông tin này).
 
 
 

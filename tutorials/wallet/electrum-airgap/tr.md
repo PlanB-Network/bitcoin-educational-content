@@ -84,7 +84,7 @@ Electrum'u başlatmak için çift tıklayın: bu Wallet'yi kullanacağınız bil
 
 
 
-Standart cüzdanı_ seçin.
+Standart cüzdanı seçin.
 
 
 
@@ -160,7 +160,7 @@ Bu verileri bağlı olmayan bir bilgisayardan aldığınızı unutmayın, bu ned
 
 
 
-Dosya_ menüsünden _Yeni/Geri_ öğesini seçin.
+**Dosya** menüsünden **Yeni/Geri** öğesini seçin.
 
 
 
@@ -346,7 +346,7 @@ Electrum'un dosyaya transaction ID'ün ilk rakamlarını taşıyan bir isim verd
 
 
 
-Şimdi Wallet hava boşluğundan _Araçlar_ menüsünü seçin, ardından _İşlemi yükle_ ve Dosyadan_ seçeneğini izleyin.
+Şimdi Wallet hava boşluğundan _Araçlar_ menüsünü seçin, ardından _İşlemi yükle_ ve _Dosyadan_ seçeneğini izleyin.
 
 
 
@@ -441,7 +441,7 @@ Sadece iki şeye çok dikkat etmeniz gerekecek:
 
 
 
-yukarıdaki resimden de görebileceğiniz gibi, çevrimdışı Wallet kendi Address geçmişini bilmiyor. Bu açıdan tamamen kördür. **Sizin için yapabileceği tek görev çevrimdışı anahtarlarınızı saklamak ve işlemlerinizi imzalamaktır**_.
+yukarıdaki resimden de görebileceğiniz gibi, çevrimdışı Wallet kendi Address geçmişini bilmiyor. Bu açıdan tamamen kördür. **Sizin için yapabileceği tek görev çevrimdışı anahtarlarınızı saklamak ve işlemlerinizi imzalamaktır**.
 
 
 

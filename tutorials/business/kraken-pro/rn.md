@@ -87,8 +87,8 @@ Konti yawe imaze kugenzurwa, uzokwinjira kuri platform aho uzohabwa interfaces z
 
 
 
-- Kraken**: Interface yoroshe itanga ibikorwa vy’ingenzi.
-- Kraken Pro**: Interface iteye imbere ifise ibindi bikoresho, cane cane ivyo gucuruza.
+- **Kraken**: Interface yoroshe itanga ibikorwa vy'ingenzi.
+- **Kraken Pro**: Interface iteye imbere ifise ibindi bikoresho, cane cane ivyo gucuruza.
 
 
 Nimba intumbero yawe ari ugugura no kugurisha Bitcoin gusa, hitamwo Interface yoroshe. Uzokwama ufise uburenganzira bwo guhindukira ukaja kuri Interface iteye imbere mu nyuma nimba bikenewe.
@@ -233,9 +233,9 @@ Ku bijanye n'ivyo bikorwa, ushobora guhitamwo hagati y'ubwoko butandukanye bw'am
 
 
 
-- Isoko**: Riremera kugura ubwo nyene kugiciro c’isoko kiriho ubu;
-- Limit**: Iguha uburenganzira bwo kugaragaza igiciro co kugura, kandi itegeko rizoshirwa mu ngiro gusa iyo igiciro c'isoko kigeze kuri uwo mubare;
-- Stop-Loss**: Igurisha ubwo nyene iyo igiciro kigeze ku rugero runaka.
+- **Isoko**: Riremera kugura ubwo nyene kugiciro c'isoko kiriho ubu;
+- **Limit**: Iguha uburenganzira bwo kugaragaza igiciro co kugura, kandi itegeko rizoshirwa mu ngiro gusa iyo igiciro c'isoko kigeze kuri uwo mubare;
+- **Stop-Loss**: Igurisha ubwo nyene iyo igiciro kigeze ku rugero runaka.
 
 
 ## 7 - Uburongozi bw'ibikorwa n'ibara ry'amafaranga

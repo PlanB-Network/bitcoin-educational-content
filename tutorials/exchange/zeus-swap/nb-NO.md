@@ -277,10 +277,10 @@ Hvert bytte har en unik identifikator med sporing i sanntid. Full fremdriftsvisn
 
 
 
-- Enkelhet**: Bytt med noen få klikk kontra manuell kanalmanipulering
-- Ikke-frihetsberøvende**: ingen KYC, ingen konto, midler blir aldri overlatt til en tredjepart
-- Åpenhet**: gebyrene vises eksplisitt før validering (0,1 % til 0,5 % + minimumsbeløp avhengig av brukertester - sjekk gjeldende gebyrer ved hver byttehandel)
-- Mobilintegrasjon**: opprinnelig opplevelse i Zeus Wallet
+- **Enkelhet**: Bytt med noen få klikk kontra manuell kanalmanipulering
+- **Ikke-frihetsberøvende**: ingen KYC, ingen konto, midler blir aldri overlatt til en tredjepart
+- **Åpenhet**: gebyrene vises eksplisitt før validering (0,1 % til 0,5 % + minimumsbeløp avhengig av brukertester - sjekk gjeldende gebyrer ved hver byttehandel)
+- **Mobilintegrasjon**: opprinnelig opplevelse i Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Hvert bytte har en unik identifikator med sporing i sanntid. Full fremdriftsvisn
 
 
 
-- Utløpstider**: maksimalt 24-48 timer, mislykkes hvis Bitcoin ikke bekreftes i tide
-- Beløpsgrenser**: minimum 25 000 Sats, Zeus LSP-likviditet variabel i henhold til betingelser
-- Sporer On-Chain**: HTLC-skript som potensielt kan identifiseres ved hjelp av Blockchain-analyse
-- Bekreftelse kreves**: minimum 10 minutter for Bitcoin-validering
+- **Utløpstider**: maksimalt 24-48 timer, mislykkes hvis Bitcoin ikke bekreftes i tide
+- **Beløpsgrenser**: minimum 25 000 Sats, Zeus LSP-likviditet variabel i henhold til betingelser
+- **Sporer On-Chain**: HTLC-skript som potensielt kan identifiseres ved hjelp av Blockchain-analyse
+- **Bekreftelse kreves**: minimum 10 minutter for Bitcoin-validering
 
 
 
@@ -320,7 +320,7 @@ Hvert bytte har en unik identifikator med sporing i sanntid. Full fremdriftsvisn
 
 
 - Sjekk Bitcoin-adressene nøye (anbefales å kopiere og lime inn)
-- Sikkerhetskopier Zeus Swaps Rescue Key**: Last ned og oppbevar gjenopprettingsnøkkelen på et trygt sted
+- **Sikkerhetskopier Zeus Swaps Rescue Key**: Last ned og oppbevar gjenopprettingsnøkkelen på et trygt sted
 - Dokument: Contract ID, refusjon Address, utløpsdato
 - Bruk passende Mining-avgifter for rettidig bekreftelse
 
@@ -354,11 +354,11 @@ Zeus Swap bruker Boltz' backend-teknologi, men gjør noen avgjørende forbedring
 
 
 
-- Interface unified**: innebygd integrering i Zeus Wallet vs Interface webteknikk Boltz
-- WebSocket API**: oppdateringer i sanntid vs. manuell polling
-- Automatisert administrasjon**: automatisk fakturering og Address-administrasjon
-- Mobilstøtte**: Optimalisering kun for smarttelefoner vs. datamaskiner
-- Swagger-dokumentasjon**: komplett REST API for utviklere
+- **Interface unified**: innebygd integrering i Zeus Wallet vs Interface webteknikk Boltz
+- **WebSocket API**: oppdateringer i sanntid vs. manuell polling
+- **Automatisert administrasjon**: automatisk fakturering og Address-administrasjon
+- **Mobilstøtte**: Optimalisering kun for smarttelefoner vs. datamaskiner
+- **Swagger-dokumentasjon**: komplett REST API for utviklere
 
 
 

@@ -130,10 +130,10 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-- Weka kiasi**: Kwenye skrini ya malipo, weka kiasi katika sarafu ya ndani (CHF au EUR). Mfano: kwa kahawa katika 4.50 CHF, ingiza 4.50
-- Kizazi cha Invoice** : Programu hubadilisha kiasi hicho kuwa satoshi kwa kiwango cha sasa, na kuzalisha umeme wa Invoice katika mfumo wa msimbo wa QR.
-- Malipo ya mteja** : Mteja huchanganua msimbo wa QR kwa kutumia umeme wake wa Wallet na kuthibitisha malipo
-- Uthibitishaji** : Malipo yanathibitishwa ndani ya sekunde chache, na maonyesho ya kuonekana ya mafanikio
+- **Weka kiasi**: Kwenye skrini ya malipo, weka kiasi katika sarafu ya ndani (CHF au EUR). Mfano: kwa kahawa katika 4.50 CHF, ingiza 4.50
+- **Kizazi cha Invoice**: Programu hubadilisha kiasi hicho kuwa satoshi kwa kiwango cha sasa, na kuzalisha umeme wa Invoice katika mfumo wa msimbo wa QR.
+- **Malipo ya mteja**: Mteja huchanganua msimbo wa QR kwa kutumia umeme wake wa Wallet na kuthibitisha malipo
+- **Uthibitishaji**: Malipo yanathibitishwa ndani ya sekunde chache, na maonyesho ya kuonekana ya mafanikio
 
 
 
@@ -207,11 +207,11 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-- Upishi**: Baa, mikahawa, mikahawa ya kukubali nyongeza katika Bitcoin na usimamizi wa vidokezo
-- Rejareja**: Maduka ya vyakula, mikate kwa ajili ya kupanua mbinu za malipo bila malipo mahususi
-- Wachuuzi wa kuhamahama**: malori ya chakula, soko, sherehe kwa kutumia simu mahiri pekee
-- Matukio** : Viwanja vya muda vilivyo na suluhu zilizo tayari kutumika
-- Huduma**: Washauri, mafundi kwa bili ya mara moja katika Bitcoin
+- **Upishi**: Baa, mikahawa, mikahawa ya kukubali nyongeza katika Bitcoin na usimamizi wa vidokezo
+- **Rejareja**: Maduka ya vyakula, mikate kwa ajili ya kupanua mbinu za malipo bila malipo mahususi
+- **Wachuuzi wa kuhamahama**: malori ya chakula, soko, sherehe kwa kutumia simu mahiri pekee
+- **Matukio**: Viwanja vya muda vilivyo na suluhu zilizo tayari kutumika
+- **Huduma**: Washauri, mafundi kwa bili ya mara moja katika Bitcoin
 
 
 

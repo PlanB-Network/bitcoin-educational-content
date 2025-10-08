@@ -163,7 +163,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*Interface Zeus Swap：金額選擇 (Sats 50,000 → Sats 49,648 費用後)，透明顯示網路費用 (Sats 302) 和 Zeus 服務 (Sats 50)。
+**Interface Zeus Swap：金額選擇 (Sats 50,000 → Sats 49,648 費用後)，透明顯示網路費用 (Sats 302) 和 Zeus 服務 (Sats 50)。**
 
 
 
@@ -247,7 +247,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*Interface 反向交換建立：50,000 Sats Lightning → 49,220 Sats On-Chain，清楚顯示網路費用 (530 Sats) 和服務 (250 Sats)。使用者可以手動輸入一個 Bitcoin 接收 Address，或透過「generate On-Chain Address」按鈕自動從 Wallet Zeus 輸入一個 generate。
+**Interface 反向交換建立：50,000 Sats Lightning → 49,220 Sats On-Chain，清楚顯示網路費用 (530 Sats) 和服務 (250 Sats)。使用者可以手動輸入一個 Bitcoin 接收 Address，或透過「generate On-Chain Address」按鈕自動從 Wallet Zeus 輸入一個 generate。**
 
 
 
@@ -278,9 +278,13 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 - 簡單**：只需點擊幾下就可對換，無需手動操作通道
-- 非保管**：無需 KYC、無帳戶、資金從未託付給第三方
-- 透明度**：在驗證前明確顯示費用（0.1% 到 0.5% + minage 取決於使用者測試 - 在每次交換時查看當前費用）
-- 行動整合**：Zeus Wallet 中的原生體驗
+
+Looking at this line, I can see there's an unbalanced bold marker. The word "簡單" has `**` after it but no opening `**` before it. To fix this, I need to add the opening `**` before "簡單":
+
+- **簡單**：只需點擊幾下就可對換，無需手動操作通道
+- **非保管**：無需 KYC、無帳戶、資金從未託付給第三方
+- **透明度**：在驗證前明確顯示費用（0.1% 到 0.5% + minage 取決於使用者測試 - 在每次交換時查看當前費用）
+- **行動整合**：Zeus Wallet 中的原生體驗
 
 
 
@@ -290,10 +294,10 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- 失效時間**：最長 24-48 小時，若 Bitcoin 未及時確認則失效
-- 金額限制**：最低 25,000 Sats，Zeus LSP 流動性依條件不定
-- 追蹤 On-Chain**：透過 Blockchain 分析可能識別的 HTLC 指令碼
-- 需要確認**：Bitcoin 驗證需時至少 10 分鐘
+- 失效時間：最長 24-48 小時，若 Bitcoin 未及時確認則失效
+- **金額限制**：最低 25,000 Sats，Zeus LSP 流動性依條件不定
+- 追蹤 **On-Chain**：透過 Blockchain 分析可能識別的 HTLC 指令碼
+- 需要確認**：Bitcoin 驗證需時至少 10 分鐘**
 
 
 
@@ -320,7 +324,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 - 仔細檢查 Bitcoin 位址（建議複製貼上）
-- 備份 Zeus Swaps 救援金鑰**：下載救援金鑰並將其儲存於安全的地方
+- 備份 Zeus Swaps 救援金鑰：下載救援金鑰並將其儲存於安全的地方
 - 文件：Contract ID、退款 Address、有效日期
 - 使用適當的 Mining 費用進行及時確認
 
@@ -354,11 +358,11 @@ Zeus Swap 使用 Boltz 的後端技術，但做了一些重要的改進：
 
 
 
-- Interface 統一**：Zeus 中的本機整合 Wallet vs Interface 網路技術 Boltz
-- WebSocket API**：即時更新 vs. 手動輪詢
-- 自動管理**：自動帳單和 Address 管理
-- 行動支援**：僅針對智慧型手機與桌上型電腦進行最佳化
-- Swagger 文件**：供開發人員使用的完整 REST API
+- Interface 統一：**Zeus 中的本機整合 Wallet vs Interface 網路技術 Boltz**
+- **WebSocket API**：即時更新 vs. 手動輪詢
+- **自動管理**：自動帳單和 Address 管理
+- **行動支援**：僅針對智慧型手機與桌上型電腦進行最佳化
+- **Swagger 文件**：供開發人員使用的完整 REST API
 
 
 

@@ -324,7 +324,7 @@ Nunchuk vam pokazuje niz mogućnosti koje se uglavnom odnose na usluge koje komp
 
 
 
-U ovom vodiču ćemo kreirati _Hot Wallet i _Custom wallet_ detaljno opisujući detalje.
+U ovom vodiču ćemo kreirati _Hot Wallet_ i _Custom wallet_ detaljno opisujući detalje.
 
 
 Hajde da počnemo sa _Prilagođeni novčanik_.

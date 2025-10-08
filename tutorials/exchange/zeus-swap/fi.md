@@ -277,10 +277,10 @@ Jokaisella swapilla on yksilöllinen tunniste, jota voidaan seurata reaaliaikais
 
 
 
-- Yksinkertaisuus**: Vaihtaminen muutamalla klikkauksella verrattuna manuaaliseen kanavan manipulointiin
-- Ei-huoltajuus**: ei KYC:tä, ei tiliä, varoja ei koskaan luovuteta kolmannelle osapuolelle
-- Läpinäkyvyys**: maksut näkyvät selkeästi ennen validointia (0,1-0,5 % + minimimaksu käyttäjätestien mukaan - tarkista kulloinkin voimassa olevat maksut jokaisessa swapissa)
-- Mobiiliintegraatio**: natiivikokemus Zeus Wallet:ssä
+- **Yksinkertaisuus**: Vaihtaminen muutamalla klikkauksella verrattuna manuaaliseen kanavan manipulointiin
+- **Ei-huoltajuus**: ei KYC:tä, ei tiliä, varoja ei koskaan luovuteta kolmannelle osapuolelle
+- **Läpinäkyvyys**: maksut näkyvät selkeästi ennen validointia (0,1-0,5 % + minimimaksu käyttäjätestien mukaan - tarkista kulloinkin voimassa olevat maksut jokaisessa swapissa)
+- **Mobiiliintegraatio**: natiivikokemus Zeus Wallet:ssä
 
 
 
@@ -290,10 +290,10 @@ Jokaisella swapilla on yksilöllinen tunniste, jota voidaan seurata reaaliaikais
 
 
 
-- Viimeiset voimassaoloajat**: 24-48h, epäonnistuminen, jos Bitcoin ei vahvisteta ajoissa
-- Määrärajat**: vähintään 25 000 Sats, Zeus LSP -likviditeetti vaihtelee ehtojen mukaan
-- Jäljet On-Chain**: HTLC-skriptit, jotka voidaan mahdollisesti tunnistaa Blockchain-analyysin avulla
-- Vahvistus vaaditaan**: vähintään 10 minuuttia Bitcoin:n validointia varten
+- **Viimeiset voimassaoloajat**: 24-48h, epäonnistuminen, jos Bitcoin ei vahvisteta ajoissa
+- **Määrärajat**: vähintään 25 000 Sats, Zeus LSP -likviditeetti vaihtelee ehtojen mukaan
+- **Jäljet On-Chain**: HTLC-skriptit, jotka voidaan mahdollisesti tunnistaa Blockchain-analyysin avulla
+- **Vahvistus vaaditaan**: vähintään 10 minuuttia Bitcoin:n validointia varten
 
 
 
@@ -320,7 +320,7 @@ Jokaisella swapilla on yksilöllinen tunniste, jota voidaan seurata reaaliaikais
 
 
 - Tarkista Bitcoin-osoitteet huolellisesti (suositellaan copy-paste)
-- Varmuuskopioi Zeus Swaps Rescue Key**: lataa ja säilytä palautusavain turvallisessa paikassa
+- **Varmuuskopioi Zeus Swaps Rescue Key**: lataa ja säilytä palautusavain turvallisessa paikassa
 - Asiakirja: Contract ID, tuki Address, viimeinen voimassaolopäivä
 - Käytä asianmukaisia Mining-maksuja oikea-aikaisen vahvistuksen saamiseksi
 
@@ -354,11 +354,11 @@ Zeus Swap käyttää Boltzin backend-teknologiaa, mutta siinä on joitakin ratka
 
 
 
-- Interface yhtenäistetty**: natiivi integrointi Zeukseen Wallet vs. Interface web-tekniikka Boltz
-- WebSocket API**: reaaliaikaiset päivitykset verrattuna manuaaliseen kyselyyn
-- Automaattinen hallinta**: automaattinen laskutus ja Address-hallinta
-- Mobiilituki**: vain optimointi älypuhelimille vs. työpöydälle
-- Swagger-dokumentaatio**: täydellinen REST API kehittäjille
+- **Interface yhtenäistetty**: natiivi integrointi Zeukseen Wallet vs. Interface web-tekniikka Boltz
+- **WebSocket API**: reaaliaikaiset päivitykset verrattuna manuaaliseen kyselyyn
+- **Automaattinen hallinta**: automaattinen laskutus ja Address-hallinta
+- **Mobiilituki**: vain optimointi älypuhelimille vs. työpöydälle
+- **Swagger-dokumentaatio**: täydellinen REST API kehittäjille
 
 
 

@@ -221,7 +221,7 @@ Raspberry Github'da yayınlananla eşleşmesi gereken Hash'u alacaksınız.
 
 
 
-Her şey ayarlandığında, Görüntüleyici size özel ayarları kullanmak isteyip istemediğinizi soracaktır. İstediğinizi seçin veya varsayılan seçeneklerle devam etmek için _Hayır'a tıklayın.
+Her şey ayarlandığında, Görüntüleyici size özel ayarları kullanmak isteyip istemediğinizi soracaktır. İstediğinizi seçin veya varsayılan seçeneklerle devam etmek için _Hayır_'a tıklayın.
 
 
 
@@ -284,7 +284,7 @@ Raspi OS'nin ilk açılışı normalden biraz daha yavaştır çünkü bir dizi 
 
 
 
-Sonraki_ üzerine tıkladığınızda kullanıcınızı oluşturmanız, kimlik bilgilerinizi not etmeniz ve iyi saklamanız istenecektir.
+Sonraki üzerine tıkladığınızda kullanıcınızı oluşturmanız, kimlik bilgilerinizi not etmeniz ve iyi saklamanız istenecektir.
 
 
 

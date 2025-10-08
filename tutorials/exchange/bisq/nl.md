@@ -15,7 +15,7 @@ Website: https://bisq.network/
 info: https://bisq.network/getting-started/
 
 
-pas op dat je niets lukraak doet, Bisq is een geavanceerde oplossing. Eenmaal ingesteld is het erg krachtig, maar als je een complete beginner bent, is het misschien niet geschikt voor jou._
+pas op dat je niets lukraak doet, Bisq is een geavanceerde oplossing. Eenmaal ingesteld is het erg krachtig, maar als je een complete beginner bent, is het misschien niet geschikt voor jou.
 
 
 ## instructievideo

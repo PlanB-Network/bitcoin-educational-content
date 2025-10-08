@@ -19,9 +19,9 @@ Aurora Store is a product of *Aurora Open Source Software*, a collective of deve
 Aurora Store is one of the most popular alternative app stores to Google Play Store on the Android platform for the following reasons:
 
 
-- A streamlined Interface**: the Interface doesn't phase you in the slightest, so it's easy to find your bearings.
-- Access to millions of applications**: Aurora Store acts as a portal to a wide range of mobile applications. If the application you're looking for is on Google Play Store, you'll find it on Aurora Store.
-- No Google Play service required**: Thanks to MicroG technology, Android applications can run on your phone without Google Play services.
+- **A streamlined Interface**: the Interface doesn't phase you in the slightest, so it's easy to find your bearings.
+- **Access to millions of applications**: Aurora Store acts as a portal to a wide range of mobile applications. If the application you're looking for is on Google Play Store, you'll find it on Aurora Store.
+- **No Google Play service required**: Thanks to MicroG technology, Android applications can run on your phone without Google Play services.
 
 
 You can download Aurora Store from the [official site](https://auroraoss.com/aurora-store) by clicking on the "Release" button in the build types. Select the Vanilla option if you're using a brand of phone other than Huawei. Recent Huawei phone models have their own version of Aurora Store due to their restrictions to Google services as a result of US sanctions.
@@ -74,7 +74,7 @@ Aurora Store not only mirrors Google Play Store, it also includes features that 
 
 
 
-- Independence from Google:**
+- **Independence from Google:**
 
 
 In a context where you decide to disable Google Play services to protect your data, or you use a phone that no longer supports Google services, Aurora Store, thanks to MicroG, an open source project, allows you to install and use mobile applications available on Google Play Store. This feature is particularly useful if you're in a country under US sanctions.
@@ -84,7 +84,7 @@ In a context where you decide to disable Google Play services to protect your da
 
 
 
-- Download control:**
+- **Download control:**
 
 
 Aurora Store lets you manually download mobile applications by specifying the code of the version you want to install. Download control is an advantage when your application updates require more data than they need: you have control over your data.
@@ -94,7 +94,7 @@ Aurora Store lets you manually download mobile applications by specifying the co
 
 
 
-- Authorizations:**
+- **Authorizations:**
 
 In the description of the application you wish to install, obtain a complete list of the authorizations you will grant to this application after installation.
 
@@ -103,7 +103,7 @@ In the description of the application you wish to install, obtain a complete lis
 
 
 
-- Data protection analysis:**
+- **Data protection analysis:**
 
 
 Aurora Store integrates Exodus, a solution that analyzes and detects trackers used by your Android applications. A tracker is a small piece of software that collects data about you or what you're doing. By displaying Exodus analysis data, Aurora Store lets you really know what kind of data is being collected by the application you want to install.

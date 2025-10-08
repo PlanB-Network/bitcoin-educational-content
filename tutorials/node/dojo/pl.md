@@ -160,7 +160,7 @@ Włóż bootowalny klucz USB do wyłączonego komputera (tego, na którym chcesz
 
 
 
-Pojawi się ekran główny Ubuntu. Wybierz "Wypróbuj lub zainstaluj Ubuntu*".
+Pojawi się ekran główny Ubuntu. Wybierz "Wypróbuj lub zainstaluj Ubuntu".
 
 
 
@@ -756,7 +756,7 @@ MYSQL_PASSWORD=your-password-here
 
 
 
-⚠️ ***Zastąp `your-ID-here` i `your-password-here` własnymi loginami (z silnymi, unikalnymi hasłami)
+⚠️ **Zastąp `your-ID-here` i `your-password-here` własnymi loginami (z silnymi, unikalnymi hasłami)**
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Prosimy o zachowanie tego Address w ścisłej tajemnicy
+⚠️ **Prosimy o zachowanie tego Address w ścisłej tajemnicy**
 
 
 
@@ -1426,7 +1426,7 @@ Aby uzyskać dostęp do przeglądarki z dowolnego komputera w dowolnej sieci (na
 
 
 
-⚠️ **Prosimy o zachowanie tego Address w ścisłej tajemnicy
+⚠️ **Prosimy o zachowanie tego Address w ścisłej tajemnicy**
 
 
 

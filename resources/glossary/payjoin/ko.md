@@ -11,4 +11,4 @@ PayJoin 트랜잭션은 두 가지 목적을 달성합니다. 첫째, 공통 입
 ![](../../dictionnaire/assets/14.webp)
 
 
-> gW-11은 "P2EP(Pay-to-End-Point)", "밀항" 또는 "스테가노그래피 트랜잭션"*이라고도 합니다
+> gW-11은 "P2EP(Pay-to-End-Point)", "밀항" 또는 "스테가노그래피 트랜잭션"이라고도 합니다

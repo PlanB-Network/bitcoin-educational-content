@@ -152,7 +152,7 @@ Ushobora gukuraho umwe canke bose mu gufyonda kuri **Kuraho uwuronka** na **Kura
 
 
 
-- Inflate fees**: Woba warakoze igikorwa gifata igihe kirekire kugira ngo cemezwe? Mu gutuma amafaranga atera imbere urashobora kwongerako amafaranga y’ibikorwa ku giciro cawe kirindiriye kugira ngo wihutishe kwemezwa kwaco.
+- **Inflate fees**: Woba warakoze igikorwa gifata igihe kirekire kugira ngo cemezwe? Mu gutuma amafaranga atera imbere urashobora kwongerako amafaranga y'ibikorwa ku giciro cawe kirindiriye kugira ngo wihutishe kwemezwa kwaco.
 
 
 
@@ -274,7 +274,7 @@ Uwugira kabiri ashize umukono kuri Wallet, nimba na we nyene ari umukoresha, ara
 
 
 
-- Genda kure n'ibitabu vy'ibitabu vy'imikono myinshi**:
+- Genda kure n'ibitabu vy'ibitabu vy'imikono myinshi:
 
 
 

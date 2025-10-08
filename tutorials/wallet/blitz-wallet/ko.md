@@ -92,19 +92,19 @@ Blitz Wallet의 특별한 기능 중 하나는 Bitcoin 생태계와는 다른 �
 
 
 
-- Lightning Network**: 즉시 소액 결제를 수행할 수 있는 Bitcoin 오버레이 중 하나입니다.
+- **Lightning Network**: 즉시 소액 결제를 수행할 수 있는 Bitcoin 오버레이 중 하나입니다.
 
 
 
 
 
-- Bitcoin Mainnet**: Bitcoin 프로토콜의 메인 체인으로, 고액 거래에 적합합니다.
+- **Bitcoin Mainnet**: Bitcoin 프로토콜의 메인 체인으로, 고액 거래에 적합합니다.
 
 
 
 
 
-- Liquid Network**: 블록스트림이 개발한 Bitcoin Mainnet의 병렬 체인으로, Liquid 비트코인을 사용하여 빠른 Confidential Transactions를 수행합니다.
+- **Liquid Network**: 블록스트림이 개발한 Bitcoin Mainnet의 병렬 체인으로, Liquid 비트코인을 사용하여 빠른 Confidential Transactions를 수행합니다.
 
 
 
@@ -126,7 +126,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-연락처** 메뉴에서 가장 많이 상호작용하는 Blitz 사용자 아이디 또는 Lightning URL을 등록할 수 있습니다.
+**연락처** 메뉴에서 가장 많이 상호작용하는 Blitz 사용자 아이디 또는 Lightning URL을 등록할 수 있습니다.
 
 
 
@@ -146,7 +146,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-38** 메뉴에서 "위쪽 화살표" 버튼을 클릭하고 비트코인 송금 방법을 선택한 다음 송금할 금액을 입력하고 확인을 진행합니다.
+**38** 메뉴에서 "위쪽 화살표" 버튼을 클릭하고 비트코인 송금 방법을 선택한 다음 송금할 금액을 입력하고 확인을 진행합니다.
 
 
 
@@ -168,7 +168,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-- AI 서비스**에 액세스하세요: 다음과 같은 생성형 인공 지능 모델을 사용합니다: 클로드 3-5 소네트, GPT-4O, GPT-4O-미니 제미니 플래시-1.5를 이용하고 비트코인으로 직접 결제하세요.
+- **AI 서비스에 액세스하세요**: 다음과 같은 생성형 인공 지능 모델을 사용합니다: 클로드 3-5 소네트, GPT-4O, GPT-4O-미니 제미니 플래시-1.5를 이용하고 비트코인으로 직접 결제하세요.
 
 
 
@@ -178,7 +178,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-- 전 세계 어디서나 문자 메시지 보내기**: 블리츠 스토어에서는 전 세계 어디서나 익명으로 문자 메시지를 보낼 수 있는 GSM 서비스를 이용할 수 있으며, Bitcoin으로 직접 청구할 수 있습니다.
+- **전 세계 어디서나 문자 메시지 보내기**: 블리츠 스토어에서는 전 세계 어디서나 익명으로 문자 메시지를 보낼 수 있는 GSM 서비스를 이용할 수 있으며, Bitcoin으로 직접 청구할 수 있습니다.
 
 
 
@@ -188,7 +188,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-- 완전한 기밀을 유지하며 서핑하세요**: 비트코인을 사용하여 Wallet Blitz 스토어에서 WireGuard VPN(가상 사설망) 구독을 결제하세요.
+- **완전한 기밀을 유지하며 서핑하세요**: 비트코인을 사용하여 Wallet Blitz 스토어에서 WireGuard VPN(가상 사설망) 구독을 결제하세요.
 
 
 
@@ -222,7 +222,7 @@ Blitz Wallet의 간편한 작동 이면에는 풍부한 기능과 커스터마�
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-설정>잔액 정보** 메뉴에서 잔액 내역을 확인할 수 있습니다.
+**설정>잔액 정보** 메뉴에서 잔액 내역을 확인할 수 있습니다.
 
 
 
@@ -248,7 +248,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-- 상점에서 Bitcoin를 수락하세요**:
+- **상점에서 Bitcoin를 수락하세요**:
 
 
 
@@ -256,7 +256,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-설정>판매 시점** 메뉴에서 스토어와 연결된 고유 식별자 및 결제를 받을 현지 법정 화폐를 설정할 수 있습니다.
+설정>**판매 시점** 메뉴에서 스토어와 연결된 고유 식별자 및 결제를 받을 현지 법정 화폐를 설정할 수 있습니다.
 
 
 

@@ -160,7 +160,7 @@ Andando nel menu _Home_ compare la possibilità di creare il wallet. Clicca _Cre
 
 Nunchuk ti mostra una serie di possibilità che hanno a che fare, per la maggior parte, con i servizi che la società offre e che non sono oggetto di questo tutorial.
 
-In questa guida creeremo un _Hot wallet e un _Custom wallet_ dettagliandone i particolari.
+In questa guida creeremo un _Hot wallet_ e un _Custom wallet_ dettagliandone i particolari.
 Iniziamo con _Custom wallet_.
 
 ![image](assets/en/32.webp)

@@ -11,7 +11,7 @@ Muri iki gihe, birahambaye cane gushinga ubuhinga bwo kumenya ko amadosiye yawe 
 Kugira ngo ivyo bibazo ntibibeho, ndaguhanura ko woguma ukora backup nyinshi z’amadosiye yawe ku bimenyeshamakuru bitandukanye. Ingamba zikoreshwa cane mu gukoresha ubuhinga bwa mudasobwa ni ingamba zo gucungera "3-2-1", zituma amadosiye yawe akingirwa:
 
 
-- 3** kopi z’amadosiye yawe;
+- **3** kopi z'amadosiye yawe;
 - Yabitswe nibura ku **2** ubwoko butandukanye bw’ibinyamakuru;
 - Nibura **1** kopi ibitswe hanze y’aho hantu.
 

@@ -101,11 +101,11 @@ Zeus Swap menawarkan dua tipe Exchange:
 
 
 
-*web *Interface** (swaps.zeuslsp.com): pengalaman yang disederhanakan tanpa registrasi, proses yang dipandu dengan tampilan biaya dan status secara real-time.
+**Web Interface** (swaps.zeuslsp.com): pengalaman yang disederhanakan tanpa registrasi, proses yang dipandu dengan tampilan biaya dan status secara real-time.
 
 
 
-*integrasi *Zeus Wallet**: pertukaran langsung dari aplikasi, manajemen otomatis faktur dan alamat, menghilangkan kesalahan penanganan.
+**integrasi Zeus Wallet**: pertukaran langsung dari aplikasi, manajemen otomatis faktur dan alamat, menghilangkan kesalahan penanganan.
 
 
 
@@ -137,7 +137,7 @@ Zeus Swap secara otomatis menyesuaikan waktu kedaluwarsa dan biaya Mining sesuai
 
 
 
-*web *Interface** (swaps.zeuslsp.com): solusi universal yang kompatibel dengan semua dompet, tidak perlu instalasi, ideal untuk penggunaan sesekali.
+**Web Interface** (swaps.zeuslsp.com): solusi universal yang kompatibel dengan semua dompet, tidak perlu instalasi, ideal untuk penggunaan sesekali.
 
 
 
@@ -277,10 +277,10 @@ Setiap swap memiliki pengenal unik dengan pelacakan waktu nyata. Tampilan progre
 
 
 
-- Kesederhanaan**: Tukar dalam beberapa klik vs. manipulasi saluran manual
-- Non-kustodian**: tidak ada KYC, tidak ada akun, dana tidak pernah dipercayakan kepada pihak ketiga
-- Transparansi**: biaya ditampilkan secara eksplisit sebelum validasi (0,1% hingga 0,5% + minage tergantung pada pengujian pengguna - periksa biaya saat ini di setiap swap)
-- Integrasi seluler**: pengalaman asli di Zeus Wallet
+- **Kesederhanaan**: Tukar dalam beberapa klik vs. manipulasi saluran manual
+- **Non-kustodian**: tidak ada KYC, tidak ada akun, dana tidak pernah dipercayakan kepada pihak ketiga
+- **Transparansi**: biaya ditampilkan secara eksplisit sebelum validasi (0,1% hingga 0,5% + minage tergantung pada pengujian pengguna - periksa biaya saat ini di setiap swap)
+- **Integrasi seluler**: pengalaman asli di Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Setiap swap memiliki pengenal unik dengan pelacakan waktu nyata. Tampilan progre
 
 
 
-- Waktu kedaluwarsa **: maksimum 24-48 jam, gagal jika Bitcoin tidak dikonfirmasi tepat waktu
-- Batas jumlah**: minimum 25.000 Sats, variabel likuiditas Zeus LSP sesuai dengan kondisi
-- Melacak On-Chain**: Skrip HTLC yang berpotensi dapat diidentifikasi oleh analisis Blockchain
-- Diperlukan konfirmasi**: minimal 10 menit untuk validasi Bitcoin
+- Waktu kedaluwarsa: maksimum 24-48 jam, gagal jika Bitcoin tidak dikonfirmasi tepat waktu
+- **Batas jumlah**: minimum 25.000 Sats, variabel likuiditas Zeus LSP sesuai dengan kondisi
+- **Melacak On-Chain**: Skrip HTLC yang berpotensi dapat diidentifikasi oleh analisis Blockchain
+- Diperlukan konfirmasi: minimal 10 menit untuk validasi Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Setiap swap memiliki pengenal unik dengan pelacakan waktu nyata. Tampilan progre
 
 
 - Periksa alamat Bitcoin dengan hati-hati (disarankan untuk menyalin-tempel)
-- Cadangkan Kunci Penyelamatan Zeus Swaps**: unduh dan simpan kunci pemulihan di tempat yang aman
+- **Cadangkan Kunci Penyelamatan Zeus Swaps**: unduh dan simpan kunci pemulihan di tempat yang aman
 - Dokumen: ID Contract, pengembalian dana Address, tanggal kedaluwarsa
 - Gunakan biaya Mining yang sesuai untuk konfirmasi tepat waktu
 
@@ -349,16 +349,16 @@ Zeus Swap menggunakan teknologi backend Boltz, tetapi membuat beberapa perbaikan
 
 
 
-*manfaat *Zeus Swap**:
+**Manfaat Zeus Swap**:
 
 
 
 
-- Interface unified **: integrasi asli dalam teknik web Zeus Wallet vs Interface Boltz
-- WebSocket API**: pembaruan waktu nyata vs. jajak pendapat manual
-- Manajemen otomatis**: penagihan otomatis dan manajemen Address
-- Dukungan seluler**: hanya untuk pengoptimalan ponsel cerdas vs desktop
-- Dokumentasi Swagger**: API REST lengkap untuk pengembang
+- **Interface unified**: integrasi asli dalam teknik web Zeus Wallet vs Interface Boltz
+- **WebSocket API**: pembaruan waktu nyata vs. jajak pendapat manual
+- **Manajemen otomatis**: penagihan otomatis dan manajemen Address
+- **Dukungan seluler**: hanya untuk pengoptimalan ponsel cerdas vs desktop
+- **Dokumentasi Swagger**: API REST lengkap untuk pengembang
 
 
 

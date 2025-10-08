@@ -70,12 +70,12 @@ tags:
 Akira ibisobanuro vyo kwuzuza kuri buri kibanza:
 
 
-- `umwanditsi`**: Erekana izina ry'umwanditsi w'igitabu.
-- `urugero`**: Erekana urugero rukenewe kugira ngo ushobore gusoma no gutahura neza igitabu. Hitamwo urugero muri ibi bikurikira:
+- **`umwanditsi`**: Erekana izina ry'umwanditsi w'igitabu.
+- **`urugero`**: Erekana urugero rukenewe kugira ngo ushobore gusoma no gutahura neza igitabu. Hitamwo urugero muri ibi bikurikira:
  - 'umutanguzi`
  - `hagati`
 - `abateye imbere` - `umuhinga`
-- `tags`**: Wongereko ama tags abiri canke atatu ajanye n'igitabu cawe. Nk'akarorero:
+- **tags**: Wongereko ama tags abiri canke atatu ajanye n'igitabu cawe. Nk'akarorero:
     - 'Bitcoin'
     - `amateka`
     - 'ubuhinga`
@@ -247,11 +247,11 @@ contributors:
 Akira ibisobanuro vyo kwuzuza kuri buri kibanza:
 
 
-- `title`**: Erekana izina ry'igitabu mu bimenyetso bivugwa.
-- `umwaka_wasohotse`**: Erekana umwaka igitabu casohotsemwo.
-- `cover`**: Erekana izina rya dosiye rihuye n'ishusho y'igipfukisho, bihuye n'ururimi rwa dosiye ya YAML uriko urahindura. Nk'akarorero, nimba uriko urahindura dosiye `en.yml` kandi warabanje kwongerako ishusho y'igipfukisho c'icongereza yitwa `cover_en.webp`, werekane gusa `cover_en.webp` muri iki kibanza.
-- `insobanuro`**: Wongereko paragarafu ngufi idondora igitabu. Insobanuro itegerezwa kuba mu rurimi rumwe n'urwo rwerekanwa mu mutwe wa dosiye ya YAML.
-- `abaterankunga`**: Wongereko ID yawe y'umuterankunga nimba ufise.
+- **`title`**: Erekana izina ry'igitabu mu bimenyetso bivugwa.
+- **`umwaka_wasohotse`**: Erekana umwaka igitabu casohotsemwo.
+- **`cover`**: Erekana izina rya dosiye rihuye n'ishusho y'igipfukisho, bihuye n'ururimi rwa dosiye ya YAML uriko urahindura. Nk'akarorero, nimba uriko urahindura dosiye `en.yml` kandi warabanje kwongerako ishusho y'igipfukisho c'icongereza yitwa `cover_en.webp`, werekane gusa `cover_en.webp` muri iki kibanza.
+- **`insobanuro`**: Wongereko paragarafu ngufi idondora igitabu. Insobanuro itegerezwa kuba mu rurimi rumwe n'urwo rwerekanwa mu mutwe wa dosiye ya YAML.
+- **`abaterankunga`**: Wongereko ID yawe y'umuterankunga nimba ufise.
 
 
 Akarorero, dosiye yawe ya YAML yoshobora gusa n'iyi:

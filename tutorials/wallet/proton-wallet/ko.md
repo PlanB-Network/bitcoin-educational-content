@@ -102,7 +102,7 @@ Mnemonic 문구를 저장하고 관리하는 올바른 방법에 대한 자세�
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-물론 이 튜토리얼에서 설명하는 것과는 달리 이 단어들을 사진으로 찍어서는 안 됩니다**_
+물론 이 튜토리얼에서 설명하는 것과는 달리 이 단어들을 사진으로 찍어서는 안 됩니다.
 
 
 문구를 저장한 후 "*완료*" 버튼을 클릭합니다.

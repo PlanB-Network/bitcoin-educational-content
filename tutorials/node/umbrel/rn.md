@@ -23,10 +23,10 @@ Node ya Bitcoin ni mudasobwa igira uruhara mu rubuga rwa Bitcoin ikoresheje poro
 
 
 
-- Ububiko bwa Blockchain**: Bubungabunga kopi yuzuye kandi igezweho y’igitabu ca Blockchain Bitcoin.
-- Igenzura ry'ibikorwa**: ryemeza ibikorwa vyose n'ububiko hakurikijwe amategeko y'amasezerano
-- Gukwiragiza amakuru**: Gusangira amafaranga mashasha n'amabuye n'izindi nzira
-- Ukwubaka amasezerano**: Gufasha mu gushitsa amategeko y'urubuga
+- **Ububiko bwa Blockchain**: Bubungabunga kopi yuzuye kandi igezweho y'igitabu ca Blockchain Bitcoin.
+- **Igenzura ry'ibikorwa**: ryemeza ibikorwa vyose n'ububiko hakurikijwe amategeko y'amasezerano
+- **Gukwiragiza amakuru**: Gusangira amafaranga mashasha n'amabuye n'izindi nzira
+- **Ukwubaka amasezerano**: Gufasha mu gushitsa amategeko y'urubuga
 
 
 
@@ -36,11 +36,11 @@ Gukoresha node yawe bwite ya Bitcoin ni intambwe ihambaye cane mu bijanye n’ub
 
 
 
-- Ibanga**: Gusangira amafaranga yawe utamenyesheje abandi
-- Uguhangana n’ugucengera**: Nta n’umwe ashobora kukubuza gukoresha Bitcoin.
-- Igenzura ryigenga**: Ntibikenewe kwizigira ama node y'abandi kugira ngo ugenzure amafaranga yawe
-- Ukwubaka amasezerano**: Gutanga umusanzu mu gushitsa amategeko y'urubuga rwa Bitcoin
-- Infashanyo y'urubuga**: Ba umunyamuryango w'umunyamwete mu gukwiragiza urubuga no kwegereza ubutegetsi
+- **Ibanga**: Gusangira amafaranga yawe utamenyesheje abandi
+- **Uguhangana n'ugucengera**: Nta n'umwe ashobora kukubuza gukoresha Bitcoin.
+- **Igenzura ryigenga**: Ntibikenewe kwizigira ama node y'abandi kugira ngo ugenzure amafaranga yawe
+- **Ukwubaka amasezerano**: Gutanga umusanzu mu gushitsa amategeko y'urubuga rwa Bitcoin
+- **Infashanyo y'urubuga**: Ba umunyamuryango w'umunyamwete mu gukwiragiza urubuga no kwegereza ubutegetsi
 
 
 

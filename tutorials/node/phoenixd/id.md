@@ -31,7 +31,7 @@ Phoenixd adalah simpul Lightning khusus minimal yang dikembangkan oleh ACINQ. In
 
 
 
-**Phoenixd adalah node Lightning minimal yang menggunakan ACINQ sebagai LSP (Lightning Service Provider) untuk likuiditas otomatis. Ketika Anda menerima pembayaran Lightning, secara otomatis membuka saluran dengan node ACINQ untuk mengalokasikan kapasitas masuk yang diperlukan. Likuiditas "on-the-fly" ini bersifat instan, tetapi dibebankan tepat pada **1% + biaya Mining** dari jumlah yang diterima.
+**Phoenixd adalah node Lightning minimal yang menggunakan ACINQ sebagai LSP (Lightning Service Provider) untuk likuiditas otomatis. Ketika Anda menerima pembayaran Lightning, secara otomatis membuka saluran dengan node ACINQ untuk mengalokasikan kapasitas masuk yang diperlukan. Likuiditas "on-the-fly" ini bersifat instan, tetapi dibebankan tepat pada** **1% + biaya Mining** **dari jumlah yang diterima.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd adalah simpul Lightning khusus minimal yang dikembangkan oleh ACINQ. In
 
 
 
-- Saluran petir**: Buka, tutup, dan kelola secara otomatis sesuai kebutuhan
-- Likuiditas masuk/keluar**: Penyediaan otomatis melalui penyambungan dan pembukaan saluran
-- Kredit biaya** : Pembayaran kecil yang tidak mencukupi untuk membenarkan suatu saluran disimpan sebagai cadangan untuk biaya di masa mendatang
+- **Saluran petir**: Buka, tutup, dan kelola secara otomatis sesuai kebutuhan
+- **Likuiditas masuk/keluar**: Penyediaan otomatis melalui penyambungan dan pembukaan saluran
+- **Kredit biaya**: Pembayaran kecil yang tidak mencukupi untuk membenarkan suatu saluran disimpan sebagai cadangan untuk biaya di masa mendatang
 
 
 
@@ -50,7 +50,7 @@ Phoenixd adalah simpul Lightning khusus minimal yang dikembangkan oleh ACINQ. In
 
 
 
-**Anda mengontrol kunci pribadi Anda (12 kata seed) dan dana. Phoenixd menghasilkan Wallet Anda secara lokal tanpa pernah membagikan kunci Anda.
+**Anda mengontrol kunci pribadi Anda (12 kata seed) dan dana. Phoenixd menghasilkan Wallet Anda secara lokal tanpa pernah membagikan kunci Anda.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd membutuhkan lingkungan Linux (disarankan Ubuntu/Debian), dengan beberap
 
 
 
-- Server Linux**: VPS atau mesin lokal dengan koneksi stabil
-- OpenJDK 21** : Lingkungan runtime Java
-- Koneksi Internet yang stabil**: Untuk sinkronisasi dengan Lightning Network
-- Nama domain** (opsional) : Untuk akses HTTPS yang aman ke API
+- **Server Linux**: VPS atau mesin lokal dengan koneksi stabil
+- **OpenJDK 21**: Lingkungan runtime Java
+- **Koneksi Internet yang stabil**: Untuk sinkronisasi dengan Lightning Network
+- **Nama domain** (opsional) : Untuk akses HTTPS yang aman ke API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Start-up pertama
+**2. Start-up pertama**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Buktikan identitas server Anda** (mencegah serangan man-in-the-middle)
-- Mengaktifkan enkripsi HTTPS**: semua data, termasuk kata sandi API Anda, dienkripsi selama pengiriman
-- Dikeluarkan secara gratis** oleh Let's Encrypt melalui alat certbot
+- **Buktikan identitas server Anda** (mencegah serangan man-in-the-middle)
+- **Mengaktifkan enkripsi HTTPS**: semua data, termasuk kata sandi API Anda, dienkripsi selama pengiriman
+- **Dikeluarkan secara gratis** oleh Let's Encrypt melalui alat certbot
 
 
 
@@ -297,10 +297,10 @@ Konfigurasi ini memungkinkan Anda untuk :
 
 
 
-- Akses aman ke API dari Internet**
-- Enkripsi kata sandi API** Anda selama pengiriman (untuk mencegahnya dikirimkan dalam bentuk teks yang jelas)
-- Mengintegrasikan Phoenixd** ke dalam aplikasi eksternal yang membutuhkan HTTPS
-- Kepatuhan terhadap standar keamanan** untuk API keuangan
+- **Akses aman ke API dari Internet**
+- **Enkripsi kata sandi API** Anda selama pengiriman (untuk mencegahnya dikirimkan dalam bentuk teks yang jelas)
+- Mengintegrasikan **Phoenixd** ke dalam aplikasi eksternal yang membutuhkan HTTPS
+- **Kepatuhan terhadap standar keamanan** untuk API keuangan
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Biaya layanan**: 1% dari kapasitas saluran (2.115.000 Sats) = 21.150 Sats
-- Biaya Mining**: ~3.289 Sats (untuk transaksi On-Chain)
-- Total**: 24.439 Sats dipotong secara otomatis
+- **Biaya layanan**: 1% dari kapasitas saluran (2.115.000 Sats) = 21.150 Sats
+- **Biaya Mining**: ~3.289 Sats (untuk transaksi On-Chain)
+- **Total**: 24.439 Sats dipotong secara otomatis
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Tanda terima**: 1% + biaya Mining untuk likuiditas otomatis
-- Pengiriman**: 0.biaya perutean 4% untuk Lightning Network
+- **Tanda terima**: 1% + biaya Mining untuk likuiditas otomatis
+- **Pengiriman**: 0.biaya perutean 4% untuk Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Toko online Anda secara otomatis menerima notifikasi ketika pelanggan membayar pesanan, sehingga memungkinkan validasi transaksi secara instan.
+**Toko online Anda secara otomatis menerima notifikasi ketika pelanggan membayar pesanan, sehingga memungkinkan validasi transaksi secara instan.**
 
 
 
@@ -680,11 +680,11 @@ Berkat API REST-nya yang komprehensif, Anda dapat mengembangkan file :
 
 
 
-*pemulihan *seed:** Simpan 12 kata Anda di tempat yang aman, di luar server. Ini adalah satu-satunya jaminan pemulihan Anda.
+**pemulihan seed:** Simpan 12 kata Anda di tempat yang aman, di luar server. Ini adalah satu-satunya jaminan pemulihan Anda.
 
 
 
-*direktori ~/.phoenix:** Cadangkan folder ini secara teratur (setelah Phoenixd dimatikan) untuk mempertahankan status saluran dan mempercepat pemulihan.
+**direktori ~/.phoenix:** Cadangkan folder ini secara teratur (setelah Phoenixd dimatikan) untuk mempertahankan status saluran dan mempercepat pemulihan.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Keduanya menggunakan ACINQ sebagai LSP untuk likuiditas otomatis.
+**Keduanya menggunakan ACINQ sebagai LSP untuk likuiditas otomatis.**
 
 
 
@@ -785,7 +785,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-*kesalahan "*Autentikasi gagal":**
+**kesalahan "Autentikasi gagal":**
 
 
 1. Periksa kata sandi di file `~/.phoenix/phoenix.conf`
@@ -866,9 +866,9 @@ Dengan Phoenixd, Anda membangun infrastruktur Lightning pribadi Anda sendiri den
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kode sumber dan rilis
-- Situs Phoenix Server**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Dokumentasi lengkap
-- Pertanyaan Umum Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Pertanyaan yang sering diajukan
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kode sumber dan rilis
+- **Situs Phoenix Server**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Dokumentasi lengkap
+- **Pertanyaan Umum Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Pertanyaan yang sering diajukan
 
 
 
@@ -877,5 +877,5 @@ Dengan Phoenixd, Anda membangun infrastruktur Lightning pribadi Anda sendiri den
 
 
 
-- Masalah GitHub** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Dukungan teknis
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Berita dan pengumuman
+- **Masalah GitHub**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Dukungan teknis
+- Twitter **ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Berita dan pengumuman

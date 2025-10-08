@@ -15,7 +15,7 @@ description: Avastage kaasallkirja funktsioon ja kasutage seda oma COLDCARDi puh
 
 
 
-**Miks ColdCard Co-Sign?
+**Miks ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Kulutustingimused võivad olla näiteks:
 
 
 
-- Suuruse piirangud**: piirab bitcoinide summa, mida saad ühe tehingu jooksul kulutada.
-- Kiiruse piirangud:** otsustage, kui palju tehinguid saate teha ajaühikus (tunnis, päevas, nädalas jne), nõudes nende vahel minimaalset arvu plokke.
-- Eelnevalt heakskiidetud aadressid:** Luba ainult bitcoinide saatmist eelnevalt heakskiidetud aadressidele.
-- Kahefaktoriline autentimine:** Nõuab kinnitust kolmanda osapoole 2FA mobiilirakendusest (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) NFC-toega nutitelefonis/tahvelarvutis, millel on internetiühendus.
+- **Suuruse piirangud**: piirab bitcoinide summa, mida saad ühe tehingu jooksul kulutada.
+- **Kiiruse piirangud:** otsustage, kui palju tehinguid saate teha ajaühikus (tunnis, päevas, nädalas jne), nõudes nende vahel minimaalset arvu plokke.
+- **Eelnevalt heakskiidetud aadressid:** Luba ainult bitcoinide saatmist eelnevalt heakskiidetud aadressidele.
+- **Kahefaktoriline autentimine:** Nõuab kinnitust kolmanda osapoole 2FA mobiilirakendusest (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) NFC-toega nutitelefonis/tahvelarvutis, millel on internetiühendus.
 
 
 
-**Kuidas see toimib
+**Kuidas see toimib**
 
 
 

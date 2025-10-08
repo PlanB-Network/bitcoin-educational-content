@@ -276,7 +276,7 @@ Tutaj znajdziesz dwie opcje tworzenia kopii zapasowych danych:
 
 
 
-"Threema Safe* zapisuje na serwerach Threema wszystkie informacje o koncie użytkownika, z wyjątkiem rozmów. Dane te są szyfrowane hasłem wybranym podczas tworzenia konta, dzięki czemu Threema nie ma do nich dostępu. Kopie zapasowe są tworzone automatycznie i regularnie.
+"**Threema Safe** zapisuje na serwerach Threema wszystkie informacje o koncie użytkownika, z wyjątkiem rozmów. Dane te są szyfrowane hasłem wybranym podczas tworzenia konta, dzięki czemu Threema nie ma do nich dostępu. Kopie zapasowe są tworzone automatycznie i regularnie.
 
 
 

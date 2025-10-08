@@ -439,7 +439,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ![Image](assets/fr/65.webp)
 
-查看*"选项卡提供自定义选项和一些有用的命令，如 "*刷新 Wallet*"，可刷新您投资组合的交易搜索。
+查看**"选项"**卡提供自定义选项和一些有用的命令，如**"刷新 Wallet"**，可刷新您投资组合的交易搜索。
 
 ![Image](assets/fr/66.webp)
 

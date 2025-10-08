@@ -25,7 +25,7 @@ In this tutorial, we'll look at 3 ways of using a **Watchtower** :
 ## 1 - Configuring a Watchtower or a client via LND
 
 
-*This tutorial is taken from [the official LND documentation](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Some changes may have been made to the original version
+**This tutorial is taken from [the official LND documentation](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Some changes may have been made to the original version**
 
 
 Since v0.7.0, `LND` supports the execution of a private altruistic Watchtower as a fully integrated subsystem of `LND`. Watchtowers provide a second line of defense against malicious or accidental breach scenarios when the customer node is offline or unable to respond at the time of breach, offering an increased degree of security for channel funds.
@@ -40,7 +40,7 @@ In addition, `LND` can now be configured to function as a _watchtower client_, s
 Note that we have chosen to deploy in this release a limited set of features already providing significant security for `LND` users. Many other watchtower-related features are either close to completion or well advanced; we will continue to deliver them as we test them, and as soon as they are deemed safe.
 
 
-note: for the time being, watchtowers only save the `to_local` and `to_remote` output of revoked commitments; saving HTLC output will be deployed in a future version, as the protocol can be extended to include additional signature data in encrypted blobs._
+note: for the time being, watchtowers only save the `to_local` and `to_remote` output of revoked commitments; saving HTLC output will be deployed in a future version, as the protocol can be extended to include additional signature data in encrypted blobs.
 
 
 ### Configuring a Watchtower
@@ -144,7 +144,7 @@ $  lncli tower info
 ```
 
 
-note: the Watchtower public key is distinct from the public key of the `LND` node. For the time being, it acts as a "soft whitelist", as customers need to know the Watchtower's public key to use it as a backup, pending more advanced whitelisting mechanisms. We recommend NOT disclosing this public key openly, unless you're prepared to expose your Watchtower to the entire Internet._
+note: the Watchtower public key is distinct from the public key of the `LND` node. For the time being, it acts as a "soft whitelist", as customers need to know the Watchtower's public key to use it as a backup, pending more advanced whitelisting mechanisms. We recommend NOT disclosing this public key openly, unless you're prepared to expose your Watchtower to the entire Internet.
 
 
 #### Watchtower database directory
@@ -273,11 +273,11 @@ The Eye of Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) is a 
 
 
 
-- teos**: includes a command-line Interface (CLI) and the essential server features of Watchtower. Two binaries - **teosd** and **teos-CLI** - are produced when this _crate_ is compiled.
+- **teos**: includes a command-line Interface (CLI) and the essential server features of Watchtower. Two binaries - **teosd** and **teos-CLI** - are produced when this **crate** is compiled.
 
 
 
-- teos-common**: includes shared server-side and client-side functionality (useful for creating a client).
+- **teos-common**: includes shared server-side and client-side functionality (useful for creating a client).
 
 
 To run Watchtower correctly, you need to run **bitcoind** before launching Watchtower with the **teosd** command. Before running these two commands, you need to configure your **Bitcoin.conf** file. Here's how to do it:
@@ -303,15 +303,15 @@ regtest=1
 
 
 
-- server**: for RPC requests
+- **server**: for RPC requests
 
 
 
-- rpcuser** and **rpcpassword**: authenticate RPC clients to the server
+- **rpcuser** and **rpcpassword**: authenticate RPC clients to the server
 
 
 
-- regtest**: not required, but useful if you're planning development.
+- **regtest**: not required, but useful if you're planning development.
 
 
 The values for **rpcuser** and **rpcpassword** are to be chosen by you. They must be written without quotation marks. For example:
@@ -388,11 +388,11 @@ In the "**Watchtower**" menu, two options are available:
 
 
 
-- Watchtower Service**: this option lets you operate a Watchtower, i.e. a service that monitors the channels of other nodes to detect any attempted fraud. In the event of a breach, your Watchtower publishes a transaction on the Blockchain, enabling users to recover their locked funds. Once activated, your Watchtower's URI appears and can be communicated to other nodes so that they can add it to their Watchtower client;
+- **Watchtower Service**: this option lets you operate a Watchtower, i.e. a service that monitors the channels of other nodes to detect any attempted fraud. In the event of a breach, your Watchtower publishes a transaction on the Blockchain, enabling users to recover their locked funds. Once activated, your Watchtower's URI appears and can be communicated to other nodes so that they can add it to their Watchtower client;
 
 
 
-- Watchtower Client**: this option lets you connect to external watchtowers to protect your own channels. Once activated, you can add Watchtower services to which your node will transmit the necessary information about its channels. These watchtowers will then monitor their status and intervene in the event of attempted fraud.
+- **Watchtower Client**: this option lets you connect to external watchtowers to protect your own channels. Once activated, you can add Watchtower services to which your node will transmit the necessary information about its channels. These watchtowers will then monitor their status and intervene in the event of attempted fraud.
 
 
 The priority for you is of course to activate the *Watchtower Client* to protect your node, but I also recommend that you activate the *Watchtower Service* to contribute to the security of other users in return.

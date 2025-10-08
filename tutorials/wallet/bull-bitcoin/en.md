@@ -416,7 +416,7 @@ Then you can adjust the parameters:
 
 
 - **Fees**: You can choose :
-  - Either the execution speed** of your transaction, and the associated fees will be estimated
+- Either the execution speed **of your transaction, and the associated fees will be estimated**
 - Either the fees, in **Absolute fees** (total fees in satoshis) or **Relative fees** (fees per byte) mode, and the speed of your transaction will be estimated
 
 

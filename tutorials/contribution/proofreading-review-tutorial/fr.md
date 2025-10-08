@@ -83,6 +83,7 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 ## 4. Commit les modifications
 
 * Vous pouvez commencer à relire le contenu et le corriger si besoin.
+
 *Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée. C'est un peu comme si vous sauvegardiez vos modifications sur GitHub.*
 * Cliquez sur le bouton "Commit Changes...".
 

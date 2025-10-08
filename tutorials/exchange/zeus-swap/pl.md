@@ -105,7 +105,7 @@ Zeus Swap oferuje dwa rodzaje Exchange:
 
 
 
-*integracja *Zeus Wallet**: bezpośrednia zamiana z poziomu aplikacji, automatyczne zarządzanie fakturami i adresami, eliminacja błędów obsługi.
+**integracja Zeus Wallet**: bezpośrednia zamiana z poziomu aplikacji, automatyczne zarządzanie fakturami i adresami, eliminacja błędów obsługi.
 
 
 
@@ -247,7 +247,7 @@ Po potwierdzeniu zamiana zostanie zakończona automatycznie:
 
 
 
-*Utworzenie odwrotnej zamiany Interface: 50,000 Sats Lightning → 49,220 Sats On-Chain, z wyraźnie wyświetlanymi opłatami sieciowymi (530 Sats) i usługowymi (250 Sats). Użytkownicy mogą ręcznie wprowadzić Bitcoin odbierający Address lub generate automatycznie z Wallet Zeus za pomocą przycisku "generate On-Chain Address"
+*Utworzenie odwrotnej zamiany Interface: 50,000 Sats Lightning → 49,220 Sats On-Chain, z wyraźnie wyświetlanymi opłatami sieciowymi (530 Sats) i usługowymi (250 Sats). Użytkownicy mogą ręcznie wprowadzić Bitcoin odbierający Address lub generate automatycznie z Wallet Zeus za pomocą przycisku "generate On-Chain Address"*
 
 
 
@@ -277,10 +277,10 @@ Każdy swap posiada unikalny identyfikator z możliwością śledzenia w czasie 
 
 
 
-- Prostota**: Zamiana za pomocą kilku kliknięć w porównaniu z ręczną manipulacją kanałami
-- Non-custodial**: brak KYC, brak konta, środki nigdy nie powierzone stronie trzeciej
-- Przejrzystość**: opłaty wyraźnie wyświetlane przed walidacją (od 0,1% do 0,5% + min. w zależności od testów użytkowników - sprawdź aktualne opłaty przy każdym swapie)
-- Integracja mobilna**: natywne doświadczenie w Zeus Wallet
+- **Prostota**: Zamiana za pomocą kilku kliknięć w porównaniu z ręczną manipulacją kanałami
+- **Non-custodial**: brak KYC, brak konta, środki nigdy nie powierzone stronie trzeciej
+- **Przejrzystość**: opłaty wyraźnie wyświetlane przed walidacją (od 0,1% do 0,5% + min. w zależności od testów użytkowników - sprawdź aktualne opłaty przy każdym swapie)
+- **Integracja mobilna**: natywne doświadczenie w Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Każdy swap posiada unikalny identyfikator z możliwością śledzenia w czasie 
 
 
 
-- Czas ważności**: maksymalnie 24-48 godzin, awaria, jeśli Bitcoin nie zostanie potwierdzony na czas
-- Limity kwotowe**: minimum 25 000 Sats, płynność Zeus LSP zmienna w zależności od warunków
-- Ślady On-Chain**: Skrypty HTLC potencjalnie identyfikowalne przez analizę Blockchain
-- Wymagane potwierdzenie**: minimum 10 minut na zatwierdzenie Bitcoin
+- **Czas ważności**: maksymalnie 24-48 godzin, awaria, jeśli Bitcoin nie zostanie potwierdzony na czas
+- **Limity kwotowe**: minimum 25 000 Sats, płynność Zeus LSP zmienna w zależności od warunków
+- **Ślady On-Chain**: Skrypty HTLC potencjalnie identyfikowalne przez analizę Blockchain
+- **Wymagane potwierdzenie**: minimum 10 minut na zatwierdzenie Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Każdy swap posiada unikalny identyfikator z możliwością śledzenia w czasie 
 
 
 - Sprawdź dokładnie adresy Bitcoin (zalecane kopiuj-wklej)
-- Utwórz kopię zapasową klucza ratunkowego Zeus Swaps**: pobierz i przechowuj klucz ratunkowy w bezpiecznym miejscu
+- Utwórz kopię zapasową klucza ratunkowego Zeus Swaps: pobierz i przechowuj klucz ratunkowy w bezpiecznym miejscu
 - Dokument: Contract ID, zwrot Address, data ważności
 - Użyj odpowiednich opłat Mining w celu terminowego potwierdzenia
 
@@ -354,11 +354,11 @@ Zeus Swap wykorzystuje technologię backendową Boltz, ale wprowadza kilka klucz
 
 
 
-- Interface unified**: natywna integracja w Zeus Wallet vs Interface web technique Boltz
-- WebSocket API**: aktualizacje w czasie rzeczywistym vs. ręczne odpytywanie
-- Zautomatyzowane zarządzanie**: automatyczne rozliczanie i zarządzanie Address
-- Wsparcie mobilne**: tylko optymalizacja pod kątem smartfonów i komputerów stacjonarnych
-- Dokumentacja Swagger**: kompletny interfejs API REST dla deweloperów
+- **Interface unified**: natywna integracja w Zeus Wallet vs Interface web technique Boltz
+- **WebSocket API**: aktualizacje w czasie rzeczywistym vs. ręczne odpytywanie
+- **Zautomatyzowane zarządzanie**: automatyczne rozliczanie i zarządzanie Address
+- **Wsparcie mobilne**: tylko optymalizacja pod kątem smartfonów i komputerów stacjonarnych
+- **Dokumentacja Swagger**: kompletny interfejs API REST dla deweloperów
 
 
 

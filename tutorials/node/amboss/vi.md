@@ -145,9 +145,9 @@ Trong phần **Kênh**, bạn sẽ thấy danh sách các kênh đang mở và k
 
 
 
-- Tỷ lệ đầu vào**: Số tiền mà nút sẽ tính phí cho bạn cho mỗi triệu Satoshi mà nó nhận được, tùy thuộc vào kênh được chọn.
+- **Tỷ lệ đầu vào**: Số tiền mà nút sẽ tính phí cho bạn cho mỗi triệu Satoshi mà nó nhận được, tùy thuộc vào kênh được chọn.
 - Tỷ lệ (phần triệu)**: biểu thị số Satoshi trên một triệu đơn vị mà nút sẽ tính phí khi bạn quyết định thanh toán qua một trong các kênh của nó. Giả sử bạn quyết định thanh toán `10_000 Sats` qua một kênh có tỷ lệ ppm là `500 Sats`, bạn sẽ phải trả cho nút `10_000 * 500 / 1_000_000` satoshi, tương đương với `5 Sats`.
-- [HTLC](https://planb.network/resources/glossary/HTLC) tối đa**: Số lượng tối đa mà nút này cho phép bạn chuyển qua một trong các kênh này.
+- **[HTLC](https://planb.network/resources/glossary/HTLC) tối đa**: Số lượng tối đa mà nút này cho phép bạn chuyển qua một trong các kênh này.
 
 
 
@@ -172,7 +172,7 @@ Phần **Kênh đóng** nhóm tất cả các kênh trước đây của nút th
 
 
 
-- Đóng chung**: thể hiện sự đồng ý của cả hai bên, những bên sử dụng khóa riêng của mình để ký giao dịch đánh dấu việc đóng kênh và phân phối số dư trong đó
+- **Đóng chung**: thể hiện sự đồng ý của cả hai bên, những bên sử dụng khóa riêng của mình để ký giao dịch đánh dấu việc đóng kênh và phân phối số dư trong đó
 - **Đóng cửa bắt buộc**: là việc đóng đột ngột, đơn phương một phần của kênh. Kiểu đóng cửa này không được khuyến khích, vì Lightning Network là một giao thức dựa trên hình phạt: khi bạn cố gắng gian lận số dư của một kênh, bạn có nguy cơ mất toàn bộ số dư khả dụng trong kênh đó.
 
 

@@ -277,10 +277,10 @@ Buri swap ifise ikimenyetso kidasanzwe gifise ukurikirana kw’igihe nyaco. Iyer
 
 
 
-- Ukworohereza**: Guhindura mu gukanda bike n'ugukoresha umurongo w'amaboko
-- Ntaco bimaze**: nta KYC, nta konti, amahera ntiyigeze ashikirizwa uwundi muntu
-- Uguseruka**: amafaranga yerekanwa neza imbere y’uko yemezwa (0.1% gushika kuri 0.5% + minage bivanye n’ibipimo vy’abakoresha - suzuma amafaranga ariho ubu ku guhinduranya kwose)
-- Ugushiramwo telefone ngendanwa**: ubumenyi bw'imvukira muri Zeus Wallet
+- **Ukworohereza**: Guhindura mu gukanda bike n'ugukoresha umurongo w'amaboko
+- **Ntaco bimaze**: nta KYC, nta konti, amahera ntiyigeze ashikirizwa uwundi muntu
+- **Uguseruka**: amafaranga yerekanwa neza imbere y'uko yemezwa (0.1% gushika kuri 0.5% + minage bivanye n'ibipimo vy'abakoresha - suzuma amafaranga ariho ubu ku guhinduranya kwose)
+- **Ugushiramwo telefone ngendanwa**: ubumenyi bw'imvukira muri Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Buri swap ifise ikimenyetso kidasanzwe gifise ukurikirana kw’igihe nyaco. Iyer
 
 
 
-- Igihe co guhera**: 24-48h n'ibindi, kunanirwa iyo Bitcoin itaremejwe ku gihe
-- Igitigiri c'amafaranga**: 25.000 Sats, Zeus LSP amafaranga ahinduka hakurikijwe ivyangombwa
-- Ivyiyumviro vya On-Chain**: Inyandiko za HTLC zishobora kumenyekana biciye ku gusesangura kwa Blockchain
-- Kwemeza birakenewe**: iminota 10 kugira ngo Bitcoin yemezwe
+- **Igihe co guhera**: 24-48h n'ibindi, kunanirwa iyo Bitcoin itaremejwe ku gihe
+- **Igitigiri c'amafaranga**: 25.000 Sats, Zeus LSP amafaranga ahinduka hakurikijwe ivyangombwa
+- **Ivyiyumviro vya On-Chain**: Inyandiko za HTLC zishobora kumenyekana biciye ku gusesangura kwa Blockchain
+- **Kwemeza birakenewe**: iminota 10 kugira ngo Bitcoin yemezwe
 
 
 
@@ -320,7 +320,7 @@ Buri swap ifise ikimenyetso kidasanzwe gifise ukurikirana kw’igihe nyaco. Iyer
 
 
 - Suzuma neza aderesi za Bitcoin (ni vyiza gukopa no gushiramwo)
-- Gusubiza inyuma urufunguzo rwo gukiza Zeus Swaps**: gukuraho no kubika urufunguzo rwo gukiza ahantu hatagira inkomanzi
+- Gusubiza inyuma urufunguzo rwo gukiza **Zeus Swaps**: gukuraho no kubika urufunguzo rwo gukiza ahantu hatagira inkomanzi
 - Inyandiko: Indangamuntu ya Contract, gusubizwa amahera Address, itariki y'iherezo
 - Koresha amafaranga akwiriye Mining kugira ngo wemeze ku gihe
 
@@ -354,11 +354,11 @@ Zeus Swap ikoresha ubuhinga bwa Boltz, ariko iragira ivyo ihinduye bihambaye:
 
 
 
-- Interface yunze ubumwe**: ubufatanye bw'imvukira muri Zewu Wallet n'ubuhinga bw'urubuga rwa Interface Boltz
-- WebSocket API**: ivugurura ry'igihe nyaco n'itora ry'amaboko
-- Ubuyobozi bwikora**: gutanga amafaranga bwikora n'ubuyobozi bwa Address
-- Gufasha telefone ngendanwa**: telefone ngendanwa n'ugutuma mudasobwa igenda neza gusa
-- Inyandiko za Swagger**: yuzuye REST API ku bategura
+- **Interface yunze ubumwe**: ubufatanye bw'imvukira muri Zewu Wallet n'ubuhinga bw'urubuga rwa Interface Boltz
+- **WebSocket API**: ivugurura ry'igihe nyaco n'itora ry'amaboko
+- **Ubuyobozi bwikora**: gutanga amafaranga bwikora n'ubuyobozi bwa Address
+- **Gufasha telefone ngendanwa**: telefone ngendanwa n'ugutuma mudasobwa igenda neza gusa
+- **Inyandiko za Swagger**: yuzuye REST API ku bategura
 
 
 

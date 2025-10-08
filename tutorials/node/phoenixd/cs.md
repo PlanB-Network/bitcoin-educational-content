@@ -31,7 +31,7 @@ Phoenixd je minimální specializovaný uzel Lightning vyvinutý společností A
 
 
 
-**Phoenixd je minimální uzel Lightning, který používá ACINQ jako svého poskytovatele služeb Lightning (LSP) pro automatickou likviditu. Při přijímání plateb Lightning automaticky otevírá kanály s uzly ACINQ, aby přidělil potřebnou příchozí kapacitu. Tato likvidita "on-the-fly" je okamžitá, ale zpoplatněná přesně **1 % + poplatky Mining** z přijaté částky.
+**Phoenixd je minimální uzel Lightning, který používá ACINQ jako svého poskytovatele služeb Lightning (LSP) pro automatickou likviditu. Při přijímání plateb Lightning automaticky otevírá kanály s uzly ACINQ, aby přidělil potřebnou příchozí kapacitu. Tato likvidita "on-the-fly" je okamžitá, ale zpoplatněná přesně 1 % + poplatky Mining z přijaté částky.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd je minimální specializovaný uzel Lightning vyvinutý společností A
 
 
 
-- Kanály Lightning**: Otevírejte, zavírejte a spravujte automaticky podle potřeby
-- Příchozí/odchozí likvidita**: Automatické poskytování prostřednictvím spojování a otevírání kanálů
-- Poplatek za kredit** : Drobné platby, které nestačí k ospravedlnění kanálu, se ukládají jako rezerva na budoucí poplatky
+- **Kanály Lightning**: Otevírejte, zavírejte a spravujte automaticky podle potřeby
+- **Příchozí/odchozí likvidita**: Automatické poskytování prostřednictvím spojování a otevírání kanálů
+- **Poplatek za kredit**: Drobné platby, které nestačí k ospravedlnění kanálu, se ukládají jako rezerva na budoucí poplatky
 
 
 
@@ -50,7 +50,7 @@ Phoenixd je minimální specializovaný uzel Lightning vyvinutý společností A
 
 
 
-**Vy máte pod kontrolou své soukromé klíče (12 slov seed) a finanční prostředky. Phoenixd generuje vaše klíče Wallet lokálně, aniž by je kdy sdílel.
+**Vy máte pod kontrolou své soukromé klíče (12 slov seed) a finanční prostředky. Phoenixd generuje vaše klíče Wallet lokálně, aniž by je kdy sdílel.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd vyžaduje prostředí Linux (doporučujeme Ubuntu/Debian) se základní
 
 
 
-- Server Linux**: VPS nebo místní počítač se stabilním připojením
-- OpenJDK 21** : Běhové prostředí Javy
-- Stabilní připojení k internetu**: Pro synchronizaci s Lightning Network
-- Název domény** (nepovinné) : Pro zabezpečený přístup HTTPS k rozhraní API
+- **Server Linux**: VPS nebo místní počítač se stabilním připojením
+- **OpenJDK 21**: Běhové prostředí Javy
+- **Stabilní připojení k internetu**: Pro synchronizaci s Lightning Network
+- **Název domény** (nepovinné) : Pro zabezpečený přístup HTTPS k rozhraní API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. První spuštění
+**2. První spuštění**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Prokázání identity serveru** (zabrání útokům typu man-in-the-middle)
-- Povoluje šifrování HTTPS**: všechna data, včetně hesel API, jsou během přenosu šifrována
-- Vydává zdarma** společnost Let's Encrypt prostřednictvím nástroje certbot
+- **Prokázání identity serveru** (zabrání útokům typu man-in-the-middle)
+- **Povoluje šifrování HTTPS**: všechna data, včetně hesel API, jsou během přenosu šifrována
+- Vydává zdarma společnost **Let's Encrypt** prostřednictvím nástroje certbot
 
 
 
@@ -297,10 +297,10 @@ Tato konfigurace umožňuje :
 
 
 
-- Zabezpečený přístup k rozhraní API z internetu**
-- Šifrování hesel API** během přenosu (aby se zabránilo jejich přenosu v otevřeném textu)
-- Integrace Phoenixd** do externích aplikací vyžadujících HTTPS
-- Dodržování bezpečnostních standardů** pro finanční rozhraní API
+- **Zabezpečený přístup k rozhraní API z internetu**
+- **Šifrování hesel API** během přenosu (aby se zabránilo jejich přenosu v otevřeném textu)
+- Integrace **Phoenixd** do externích aplikací vyžadujících HTTPS
+- **Dodržování bezpečnostních standardů** pro finanční rozhraní API
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Poplatek za služby**: 1 % kapacity kanálu (2 115 000 Sats) = 21 150 Sats
-- Poplatky Mining**: (pro transakci On-Chain): ~3 289 Sats (pro transakci On-Chain)
-- Celkem**: 24 439 Sats automaticky odečteno
+- **Poplatek za služby**: 1 % kapacity kanálu (2 115 000 Sats) = 21 150 Sats
+- **Poplatky Mining**: (pro transakci On-Chain): ~3 289 Sats (pro transakci On-Chain)
+- **Celkem**: 24 439 Sats automaticky odečteno
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Příjem**: 1 % + poplatek Mining za automatickou likviditu
-- Přeprava**: 0.4% poplatek za směrování u Lightning Network
+- **Příjem**: 1 % + poplatek Mining za automatickou likviditu
+- **Přeprava**: 0.4% poplatek za směrování u Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Váš internetový obchod automaticky obdrží oznámení, když zákazník zaplatí za objednávku, což umožňuje okamžité ověření transakce.
+**Váš internetový obchod automaticky obdrží oznámení, když zákazník zaplatí za objednávku, což umožňuje okamžité ověření transakce.**
 
 
 
@@ -620,7 +620,7 @@ LNbits může podle své [oficiální dokumentace](https://docs.lnbits.org/guide
 
 
 
-*konfigurace *LNbits:**
+**konfigurace LNbits:**
 
 
 ```bash
@@ -684,7 +684,7 @@ Díky komplexnímu rozhraní REST API můžete vyvíjet :
 
 
 
-*adresář ~/.phoenix:** Tuto složku pravidelně zálohujte (po vypnutí Phoenixd), abyste zachovali stav kanálu a urychlili obnovu.
+**adresář ~/.phoenix:** Tuto složku pravidelně zálohujte (po vypnutí Phoenixd), abyste zachovali stav kanálu a urychlili obnovu.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Obě používají jako LSP pro automatickou likviditu ACINQ.
+**Obě používají jako LSP pro automatickou likviditu ACINQ.**
 
 
 
@@ -866,9 +866,9 @@ S Phoenixd si můžete vytvořit vlastní soukromou infrastrukturu Lightning s m
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Zdrojové kódy a verze
-- Stránka serveru Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Úplná dokumentace
-- Často kladené dotazy Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Často kladené otázky
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Zdrojové kódy a verze
+- **Stránka serveru Phoenix**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Úplná dokumentace
+- Často kladené dotazy **Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Často kladené otázky
 
 
 
@@ -877,5 +877,5 @@ S Phoenixd si můžete vytvořit vlastní soukromou infrastrukturu Lightning s m
 
 
 
-- Problémy na GitHubu** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technická podpora
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Novinky a oznámení
+- **Problémy na GitHubu**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technická podpora
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Novinky a oznámení

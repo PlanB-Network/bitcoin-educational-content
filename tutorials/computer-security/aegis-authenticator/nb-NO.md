@@ -268,7 +268,7 @@ La oss ta et konkret eksempel på aktivering av 2FA på Bitwarden for å illustr
 
 
 - **Skann QR-koden**: Et popup-vindu åpnes med QR-koden og den hemmelige nøkkelen
-- I Aegis**: Bruk "Skann QR-kode" for å fange opp informasjon automatisk
+- **Aegis**: Bruk "Skann QR-kode" for å fange opp informasjon automatisk
 - **Bekreftelse**: Skriv inn den sekssifrede koden som genereres av Aegis i feltet "Verifiseringskode"
 - **Aktivering**: Klikk på "Slå på" for å fullføre aktiveringen
 

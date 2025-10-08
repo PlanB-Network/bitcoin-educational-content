@@ -40,9 +40,9 @@ Phoenixd je minimalan, specijalizovan Lightning čvor razvijen od strane ACINQ-a
 
 
 
-- Lightning** kanali: Otvaraj, zatvaraj i upravljaj automatski po potrebi
-- Dolazna/odlazna likvidnost**: Automatsko obezbeđivanje putem spajanja i otvaranja kanala
-- Kredit za naknadu** : Mala plaćanja koja nisu dovoljna da opravdaju kanal čuvaju se kao rezerva za buduće troškove
+- **Lightning** kanali: Otvaraj, zatvaraj i upravljaj automatski po potrebi
+- **Dolazna/odlazna likvidnost**: Automatsko obezbeđivanje putem spajanja i otvaranja kanala
+- **Kredit za naknadu**: Mala plaćanja koja nisu dovoljna da opravdaju kanal čuvaju se kao rezerva za buduće troškove
 
 
 
@@ -50,7 +50,7 @@ Phoenixd je minimalan, specijalizovan Lightning čvor razvijen od strane ACINQ-a
 
 
 
-**Vi kontrolišete svoje privatne ključeve (12-reči seed) i sredstva. Phoenixd generiše vaš Wallet lokalno bez ikakvog deljenja vaših ključeva.
+**Vi kontrolišete svoje privatne ključeve (12-reči seed) i sredstva. Phoenixd generiše vaš Wallet lokalno bez ikakvog deljenja vaših ključeva.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd zahteva Linux okruženje (preporučuje se Ubuntu/Debian), sa osnovnim v
 
 
 
-- Linux server**: VPS ili lokalna mašina sa stabilnom vezom
-- OpenJDK 21** : Java runtime okruženje
-- Stabilna internet konekcija**: Za sinhronizaciju sa Lightning Network
-- Naziv domena** (opciono) : Za siguran HTTPS pristup API-ju
+- **Linux server**: VPS ili lokalna mašina sa stabilnom vezom
+- **OpenJDK 21**: Java runtime okruženje
+- **Stabilna internet konekcija**: Za sinhronizaciju sa Lightning Network
+- **Naziv domena** (opciono) : Za siguran HTTPS pristup API-ju
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Prvo pokretanje
+**2. Prvo pokretanje**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Dokaži identitet svog servera** (sprečava napade posrednika)
-- Omogućava HTTPS** enkripciju: svi podaci, uključujući vaše API lozinke, su šifrovani tokom prenosa
-- Izdato besplatno** od strane Let's Encrypt putem alata certbot
+- **Dokaži identitet svog servera** (sprečava napade posrednika)
+- Omogućava **HTTPS** enkripciju: svi podaci, uključujući vaše API lozinke, su šifrovani tokom prenosa
+- **Izdato besplatno** od strane Let's Encrypt putem alata certbot
 
 
 
@@ -297,10 +297,10 @@ Ova konfiguracija vam omogućava da :
 
 
 
-- Osigurajte pristup API-ju sa Interneta**
-- Šifrujte svoje API** lozinke tokom prenosa (da biste sprečili njihovo prenošenje u čistom tekstu)
-- Integrisati Phoenixd** u eksterne aplikacije koje zahtevaju HTTPS
-- Usklađenost sa sigurnosnim standardima** za finansijske API-je
+- **Osigurajte pristup API-ju sa Interneta**
+- **Šifrujte svoje API lozinke tokom prenosa** (da biste sprečili njihovo prenošenje u čistom tekstu)
+- Integrisati **Phoenixd** u eksterne aplikacije koje zahtevaju HTTPS
+- **Usklađenost sa sigurnosnim standardima** za finansijske API-je
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Naknada za uslugu**: 1% kapaciteta kanala (2,115,000 Sats) = 21,150 Sats
-- Mining naknade**: ~3,289 Sats (za On-Chain transakciju)
-- Ukupno**: 24,439 Sats automatski odbijeno
+- **Naknada za uslugu**: 1% kapaciteta kanala (2,115,000 Sats) = 21,150 Sats
+- **Mining naknade**: ~3,289 Sats (za On-Chain transakciju)
+- **Ukupno**: 24,439 Sats automatski odbijeno
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Račun**: 1% + Mining naknada za automatsku likvidnost
-- Dostava**: 0,4% naknada za usmeravanje na Lightning Network
+- **Račun**: 1% + Mining naknada za automatsku likvidnost
+- **Dostava**: 0,4% naknada za usmeravanje na Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Vaša online prodavnica automatski prima obaveštenje kada kupac plati porudžbinu, omogućavajući trenutnu validaciju transakcije.
+**Vaša online prodavnica automatski prima obaveštenje kada kupac plati porudžbinu, omogućavajući trenutnu validaciju transakcije.**
 
 
 
@@ -684,7 +684,7 @@ Zahvaljujući svom sveobuhvatnom REST API-ju, možete razviti :
 
 
 
-*~/.phoenix direktorijum:** Redovno pravite rezervne kopije ove fascikle (nakon što je Phoenixd isključen) kako biste sačuvali status kanala i ubrzali obnavljanje.
+**~/.phoenix direktorijum:** Redovno pravite rezervne kopije ove fascikle (nakon što je Phoenixd isključen) kako biste sačuvali status kanala i ubrzali obnavljanje.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Oboje koriste ACINQ kao svoj LSP za automatsku likvidnost.
+**Oboje koriste ACINQ kao svoj LSP za automatsku likvidnost.**
 
 
 
@@ -866,9 +866,9 @@ Sa Phoenixd-om, izgradite sopstvenu privatnu Lightning infrastrukturu sa moderni
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Izvorni kod i izdanja
-- Phoenix Server** sajt: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Kompletna dokumentacija
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Često postavljana pitanja
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Izvorni kod i izdanja
+- **Phoenix Server** sajt: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Kompletna dokumentacija
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Često postavljana pitanja
 
 
 
@@ -877,5 +877,5 @@ Sa Phoenixd-om, izgradite sopstvenu privatnu Lightning infrastrukturu sa moderni
 
 
 
-- GitHub Issues** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Tehnička podrška
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Vesti i najave
+- **GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Tehnička podrška
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Vesti i najave

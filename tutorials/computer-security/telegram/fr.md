@@ -156,7 +156,7 @@ Vous y trouverez toute une série de paramètres importants à ajuster en foncti
 Veillez à paramétrer :
 
 
-- numéro de téléphone_ à "Personne"
+- numéro de téléphone à "Personne"
 - appels à "Mes contacts"
 - invitations à "Personne"
 

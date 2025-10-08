@@ -146,7 +146,7 @@ Tout d'abord, nous devons installer le service Tor (The Onion Router), un résea
 Pour installer Tor, ouvrez un terminal et entrez `sudo apt -y install tor`. Une fois l'installation terminée, le service sera normalement lancé automatiquement en arrière-plan. Vérifiez qu'il fonctionne correctement avec la commande `sudo systemctl status tor`. La réponse devrait être `Active : active (exited)`. Appuyez sur `Ctrl+C` pour quitter cette fonction.
 
 
-**Dans tous les cas, vous pouvez utiliser les commandes suivantes dans le terminal pour démarrer, arrêter ou redémarrer Tor :
+**Dans tous les cas, vous pouvez utiliser les commandes suivantes dans le terminal pour démarrer, arrêter ou redémarrer Tor :**
 
 
 ```shell

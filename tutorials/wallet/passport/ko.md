@@ -11,7 +11,7 @@ description: 수동 모드에서 Passport Hardware Wallet 구성 및 사용하�
 이 튜토리얼에서 소개하는 패스포트 "*배치 2*"는 "*파운더스 에디션*"의 후속 제품입니다. 프리미엄 디자인, 고화질 컬러 화면, 인체공학적 물리적 키보드가 돋보이는 제품입니다. "*에어 갭*" 모드로 작동하여 Wallet의 개인 키가 완전히 격리된 상태로 유지되며, MicroSD 카드 또는 QR 코드를 통해 통신할 수 있습니다. 이 디바이스에는 1200mAh 용량의 탈착식 충전식 Nokia BL-5C 배터리가 장착되어 있습니다. 이 비독점 배터리는 BL-5C 모델이 시중에서 널리 판매되므로 쉽게 교체할 수 있습니다.
 
 
-업데이트:** 2025년 3월부터 이 Hardware Wallet의 이름은 더 이상 "Passport" 또는 "Passport V2"가 아닌 "Passport Core"로 변경됩니다.
+**업데이트:** 2025년 3월부터 이 Hardware Wallet의 이름은 더 이상 "Passport" 또는 "Passport V2"가 아닌 "Passport Core"로 변경됩니다.
 
 
 연결성과 관련하여 Passport에는 MicroSD 포트, 충전용 USB-C 포트, QR 코드 스캔을 위한 후면 카메라가 장착되어 있습니다.

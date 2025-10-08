@@ -406,7 +406,7 @@ Kubikora:
 
 
 - Inyishu **0**, ihuye n'ihitamwo ''**Imirongo**'';
-- Hanyuma wishure **1**, bihuye n'''Izina ry'ukoresha**''.
+- Hanyuma wishure **1**, bihuye n'**Izina ry'ukoresha**.
 
 
 

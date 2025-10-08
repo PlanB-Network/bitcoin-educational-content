@@ -191,7 +191,7 @@ Amahitamwo ya **Gugura** na **Guhindura** araguha Exchange bitcoins ku yandi maf
 
 
 
-- Gura Bitcoin n’ikarita yawe y’inguzanyo**: Speed ​​Wallet ituma vyoroha kuronka Bitcoin mu mafaranga ya fiat ukoresha buri musi. Irimwo igikoresho co kwishura kigufasha kwishura bitcoins ukoresheje ikarita yawe y’inguzanyo.
+- **Gura Bitcoin n'ikarita yawe y'inguzanyo**: Speed ​​Wallet ituma vyoroha kuronka Bitcoin mu mafaranga ya fiat ukoresha buri musi. Irimwo igikoresho co kwishura kigufasha kwishura bitcoins ukoresheje ikarita yawe y'inguzanyo.
 
 
 
@@ -201,7 +201,7 @@ Amahitamwo ya **Gugura** na **Guhindura** araguha Exchange bitcoins ku yandi maf
 
 
 
-- Gura Bitcoin mu yandi mafaranga y’amahera**: Ushobora Exchange USDT yawe, USDC ku bitcoins muri Wallet yawe n’ibihushanye n’ivyo. Biciye muri iyo nzira, Speed ​​Wallet yorosha uburyo bwo kugura no kugurisha Bitcoin ataco yerekeza ku bikoresho vyo hanze vya Exchange. Ushobora rero gucuruza amahera makeyi nk’amasatoshi 20.000, nk’amadolari 20 ku giciro c’ubu, utasigaye mu modoka yawe yitwa Speed ​​Wallet.
+- Gura Bitcoin mu yandi mafaranga y'amahera: Ushobora Exchange USDT yawe, USDC ku bitcoins muri Wallet yawe n'ibihushanye n'ivyo. Biciye muri iyo nzira, Speed ​​Wallet yorosha uburyo bwo kugura no kugurisha Bitcoin ataco yerekeza ku bikoresho vyo hanze vya Exchange. Ushobora rero gucuruza amahera makeyi nk'amasatoshi 20.000, nk'amadolari 20 ku giciro c'ubu, utasigaye mu modoka yawe yitwa Speed ​​Wallet.
 
 
 
@@ -375,25 +375,25 @@ Mu vy’ukuri wibanda ku kwishura, uzosanga amahitamwo akurikira:
 
 
 
-- Ukwishura kuri Internet**: Ukoresheje ubu buryo, urashobora kwemera Bitcoin nk’uburyo bwo kwishura ibintu vyawe vy’ubuhinga bwa none, biciye ku mahuza yo kwishura, gutanga invoice no kwiyandikisha.
+- **Ukwishura kuri Internet**: Ukoresheje ubu buryo, urashobora kwemera Bitcoin nk'uburyo bwo kwishura ibintu vyawe vy'ubuhinga bwa none, biciye ku mahuza yo kwishura, gutanga invoice no kwiyandikisha.
 
 
 
 
 
-- Ivyishyurwa ku kibanza**: Kugira ngo utore ivyo wishyura mu iduka ryawe.
+- **Ivyishyurwa ku kibanza**: Kugira ngo utore ivyo wishyura mu iduka ryawe.
 
 
 
 
 
-- Ivyishyurwa vuba**: Uburyo bushobora kugufasha gucungera ivyo kwishura, gukura amahera, amafaranga ukoresha n’ibipapuro vy’amahera y’abakozi bivuye kuri Speed ​​Business Interface.
+- **Ivyishyurwa vuba**: Uburyo bushobora kugufasha gucungera ivyo kwishura, gukura amahera, amafaranga ukoresha n'ibipapuro vy'amahera y'abakozi bivuye kuri Speed ​​Business Interface.
 
 
 
 
 
-- Ivyishyurwa ku mbuga**: Huza konti yawe ya Speed ​​Business n’ibikoresho vyo hanze ukoresha kugira ngo ukoreshe amahera no kwishura kuri izo mbuga.
+- **Ivyishyurwa ku mbuga**: Huza konti yawe ya Speed ​​Business n'ibikoresho vyo hanze ukoresha kugira ngo ukoreshe amahera no kwishura kuri izo mbuga.
 
 
 

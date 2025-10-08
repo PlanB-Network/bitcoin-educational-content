@@ -27,4 +27,4 @@ Merkle Tree는 암호화 누적기입니다. 더 큰 집합 내에서 특정 정
 머클 트리는 트랜잭션이 아닌 블록 헤더만 보관하는 라이트 노드("SPV"라고 함)에 특히 많이 사용됩니다. 이 구조는 UTXO 노드 집합을 압축할 수 있는 프로토콜인 유트렉소 프로토콜과 MAST Taproot에서도 볼 수 있습니다.
 
 
-> gW-12는 1979년 이 구조를 설계한 암호학자 랄프 머클의 이름을 따서 명명되었습니다. Merkle Tree는 "Hash 트리"라고도 불립니다. 프랑스어로는 "Arbre de Merkle" 또는 "arbre de hachage"*라고 합니다
+> gW-12는 1979년 이 구조를 설계한 암호학자 랄프 머클의 이름을 따서 명명되었습니다. Merkle Tree는 "Hash 트리"라고도 불립니다. 프랑스어로는 "Arbre de Merkle" 또는 "arbre de hachage"라고 합니다

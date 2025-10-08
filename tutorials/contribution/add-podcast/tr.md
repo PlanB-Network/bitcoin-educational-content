@@ -81,8 +81,8 @@ contributors:
 
 
 - **`name`**: Podcast'inizin adını belirtin.
-- `host`**: Konuşmacıların veya podcast sunucusunun adlarını veya takma adlarını listeleyin. Her isim virgülle ayrılmalıdır.
-- `language`**: Podcast'inizde konuşulan dilin dil kodunu belirtin. Örneğin, İngilizce için `en`, İtalyanca için `it`...
+- **`host`**: Konuşmacıların veya podcast sunucusunun adlarını veya takma adlarını listeleyin. Her isim virgülle ayrılmalıdır.
+- **`language`**: Podcast'inizde konuşulan dilin dil kodunu belirtin. Örneğin, İngilizce için `en`, İtalyanca için `it`...
 
 
 

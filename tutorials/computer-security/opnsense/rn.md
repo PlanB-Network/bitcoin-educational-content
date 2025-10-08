@@ -56,55 +56,55 @@ Aha niho hari bimwe mu bintu nyamukuru vya OPNsense:
 
 
 
-- Firewall na NAT**: OPNsense itanga ubuhinga buteye imbere bwo gukingira umuriro n’ugucungera, hamwe n’ubushobozi bwo guhindura urubuga rwa Address (NAT).
+- **Firewall na NAT**: OPNsense itanga ubuhinga buteye imbere bwo gukingira umuriro n'ugucungera, hamwe n'ubushobozi bwo guhindura urubuga rwa Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense ishobora gutunganirizwa gucunga ibikorwa vya DNS na DHCP ku rubuga. Ishobora gukora nk’umukozi wa DHCP, ariko kandi ishobora gukoreshwa nk’umukozi wa DNS ku mashini ziri ku rubuga rw’aho hantu. Dnsmasq nayo nyene irashizwemwo ku buryo busanzwe.
+- **DNS/DHCP**: OPNsense ishobora gutunganirizwa gucunga ibikorwa vya DNS na DHCP ku rubuga. Ishobora gukora nk'umukozi wa DHCP, ariko kandi ishobora gukoreshwa nk'umukozi wa DNS ku mashini ziri ku rubuga rw'aho hantu. Dnsmasq nayo nyene irashizwemwo ku buryo busanzwe.
 
 
 
 
 
-- VPN**: OPNsense ishigikira amategeko menshi ya VPN, harimwo IPsec, OpenVPN na WireGuard, bishoboza gukorana n’abantu mu buryo butekanye kugira ngo umuntu ashobore gushika kure ku bibanza vy’akazi vy’amatelefone ngendanwa canke gukorana n’ibindi bikoresho.
+- **VPN**: OPNsense ishigikira amategeko menshi ya VPN, harimwo IPsec, OpenVPN na WireGuard, bishoboza gukorana n'abantu mu buryo butekanye kugira ngo umuntu ashobore gushika kure ku bibanza vy'akazi vy'amatelefone ngendanwa canke gukorana n'ibindi bikoresho.
 
 
 
 
 
-- Urubuga rwa interineti**: OPNsense irimwo urubuga rwo kugenzura no kuyungurura uburyo bwo gukoresha Internet. Ishobora kandi gukoreshwa mu gucungera ibirimwo no gucunga uburyo bwo gushika ku rubuga.
+- **Urubuga rwa interineti**: OPNsense irimwo urubuga rwo kugenzura no kuyungurura uburyo bwo gukoresha Internet. Ishobora kandi gukoreshwa mu gucungera ibirimwo no gucunga uburyo bwo gushika ku rubuga.
 
 
 
 
 
-- Uburongozi bw’uburebure bw’uruja n’uruza (QoS)**: OPNsense itanga uburyo bwo gucunga uburyo bwo gukoresha (QoS) kugira ngo ushire imbere uruja n’uruza rw’uruja n’uruza rw’urubuga no gucunga neza uburebure bw’uruja n’uruza rw’uruja n’uruza.
+- **Uburongozi bw'uburebure bw'uruja n'uruza (QoS)**: OPNsense itanga uburyo bwo gucunga uburyo bwo gukoresha (QoS) kugira ngo ushire imbere uruja n'uruza rw'uruja n'uruza rw'urubuga no gucunga neza uburebure bw'uruja n'uruza rw'uruja n'uruza.
 
 
 
 
 
-- Captive portal**: iki gikoresho kigufasha gucunga uburyo abakoresha bashobora gushika ku rubuga biciye kuri paji y’ukwemeza (ishingiro ryo mu karere, amafaranga, n’ibindi). Ni ikintu gisanzwe gikoreshwa ku nzira za Wi-Fi za bose.
+- **Captive portal**: iki gikoresho kigufasha gucunga uburyo abakoresha bashobora gushika ku rubuga biciye kuri paji y'ukwemeza (ishingiro ryo mu karere, amafaranga, n'ibindi). Ni ikintu gisanzwe gikoreshwa ku nzira za Wi-Fi za bose.
 
 
 
 
 
-- IDS/IPS**: OPNsense ihuriza hamwe Suricata kugira ngo itange ibikorwa vyo kumenya no kwirinda (IDS/IPS) kugira ngo ikingire urubuga ibitero.
+- **IDS/IPS**: OPNsense ihuriza hamwe Suricata kugira ngo itange ibikorwa vyo kumenya no kwirinda (IDS/IPS) kugira ngo ikingire urubuga ibitero.
 
 
 
 
 
-- Ugushikira cane (CARP)**: OPNsense ishigikira CARP (*Itegeko ry’Igihugu ry’Igihugu*) ku kuronka cane hagati y’ibihome vyinshi vya OPNsense, bigatuma igikorwa kiguma gikora mbere n’igihe ibikoresho bishobora gusenyuka.
+- **Ugushikira cane (CARP)**: OPNsense ishigikira CARP (*Itegeko ry'Igihugu ry'Igihugu*) ku kuronka cane hagati y'ibihome vyinshi vya OPNsense, bigatuma igikorwa kiguma gikora mbere n'igihe ibikoresho bishobora gusenyuka.
 
 
 
 
 
-- Gutanga raporo no kugenzura**: OPNsense itanga ibikoresho vyo gutanga raporo no kugenzura mu gihe nyaco kugira ngo ukurikirane ibikorwa vy’urubuga (na NetFlow) no kumenya ingorane zishobora kubaho, bivuye ku kurema ibitabo. Ivyo birimwo n’ibishushanyo. Igikoresho ca Monit kiri muri OPNsense kandi gishobora kugenzura uruhome rw’umuriro ubwarwo.
+- Gutanga raporo no kugenzura: OPNsense itanga ibikoresho vyo gutanga raporo no kugenzura mu gihe nyaco kugira ngo ukurikirane ibikorwa vy'urubuga (na NetFlow) no kumenya ingorane zishobora kubaho, bivuye ku kurema ibitabo. Ivyo birimwo n'ibishushanyo. Igikoresho ca Monit kiri muri OPNsense kandi gishobora kugenzura uruhome rw'umuriro ubwarwo.
 
 
 
@@ -153,7 +153,7 @@ Ukeneye kwitwararika ibikoresho bisabwa kugira ngo ukoreshe OPNsense. Ivyo birad
 | Mémoire vive (RAM) | 2 Go | 8 Go |
 | Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
 
-Ubwa nyuma, **ivyo usaba ku bijanye n'ibikoresho vyawe bivana cane cane n'umubare w'amahuza azocungirwa**, rero n'ivyo usaba ku bijanye n'uburebure bw'uruja n'uruza**. Ikindi, ukeneye **kuguma mu muzirikanyi ibikorwa bizokora kandi bikoreshwe** (proxy, gutahura intrusion, etc...) kuko bishobora kuba bikeneye CPU na/canke RAM.
+Ubwa nyuma, **ivyo usaba ku bijanye n'ibikoresho vyawe bivana cane cane n'umubare w'amahuza azocungirwa**, rero n'ivyo usaba ku bijanye n'uburebure bw'uruja n'uruza. Ikindi, ukeneye **kuguma mu muzirikanyi ibikorwa bizokora kandi bikoreshwe** (proxy, gutahura intrusion, etc...) kuko bishobora kuba bikeneye CPU na/canke RAM.
 
 
 

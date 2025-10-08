@@ -16,9 +16,9 @@ _Iki canditswe kiva ku rubuga rw'inyandiko rwa Breez: https://doc.breez.ubuhinga
 
 
 
-- Lightning** ni urubuga rwo kwishura rwa Bitcoin rugabanya igihe co gukoresha kuva ku minota gushika ku milisegonda n’amahera yo gukoresha kuva ku madolari menshi gushika ku masenti makeyi canke hasi. Umuravyo uhindura Bitcoin kuva mu nzahabu ya digitale ikaja mu mafaranga ya digitale mu gihe uzigama inyungu zose zituma Bitcoin iba nini.
-- Non-custodial** bisigura ko Breez itafata amahera y’abakoresha. Amaporogarama menshi ya Lightning arafata amahera y’abakoresha bayo. Mu vy’ukuri ni amabanki ya Bitcoin. Kubera app idafise ububiko nka Breez, abayikoresha bose ni amabanki yabo.
-- Full-service** bisigura ko Breez yitwararika hafi ibikorwa vyose vy’ubuhinga ubwayo kandi mu nyuma. Ibintu nk'uguhingura umurongo, amafaranga yinjira, n'inzira biguma munsi y'igipfukisho. (Ariko Breez nayo ni open source, rero abashaka gukora igenzura ry’ubuhinga barahawe ikaze!)
+- **Lightning** ni urubuga rwo kwishura rwa Bitcoin rugabanya igihe co gukoresha kuva ku minota gushika ku milisegonda n'amahera yo gukoresha kuva ku madolari menshi gushika ku masenti makeyi canke hasi. Umuravyo uhindura Bitcoin kuva mu nzahabu ya digitale ikaja mu mafaranga ya digitale mu gihe uzigama inyungu zose zituma Bitcoin iba nini.
+- **Non-custodial** bisigura ko Breez itafata amahera y'abakoresha. Amaporogarama menshi ya Lightning arafata amahera y'abakoresha bayo. Mu vy'ukuri ni amabanki ya Bitcoin. Kubera app idafise ububiko nka Breez, abayikoresha bose ni amabanki yabo.
+- **Full-service** bisigura ko Breez yitwararika hafi ibikorwa vyose vy'ubuhinga ubwayo kandi mu nyuma. Ibintu nk'uguhingura umurongo, amafaranga yinjira, n'inzira biguma munsi y'igipfukisho. (Ariko Breez nayo ni open source, rero abashaka gukora igenzura ry'ubuhinga barahawe ikaze!)
 
 
 **Breez POS** ni insiguro ngufi y'uburyo bwacu bwo kugurisha. Mu yandi majambo, Breez ikora nk'igikoresho co gufata amafaranga y'ubuhinga bwa none ku bucuruzi n'abadandaza bashaka kwemera kwishura Lightning (ukwongerako uburyo bwayo "busanzwe", ari bwo bumeze nk'uburyo bwa digitale bw'urukoba Wallet ku Bitcoin, n'umukinyi wa podcast w'uruvyaro rukurikira). None rero reka turabe ingene woshiraho Breez nk’igikoresho co gushiramwo amahera y’umuravyo ku bucuruzi bwawe.

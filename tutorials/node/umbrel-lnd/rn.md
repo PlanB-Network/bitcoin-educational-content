@@ -496,7 +496,7 @@ Umutaka wawe w'umuravyo usaba ubwoko bubiri bw'ububiko:
 
 - Birimwo amakuru y'umurongo w'umuravyo
 - Bishoboza gufunga umurongo ku nguvu iyo habaye impanuka
-- Ivy'ingenzi:** Ntukigere ubika dosiye `channel.db` n'amaboko (ingorane z'ibihano)
+- **Ivy'ingenzi:** Ntukigere ubika dosiye `channel.db` n'amaboko (ingorane z'ibihano)
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Ivyagezwe vya porogaramu:** Gumana Umbrel na LND bigezweho (ivy'umutekano)
-- Uburinzi bw'ibikoresho:** Koresha uburyo buhamye (Raspberry Pi ifise SSD, mini-PC) na UPS
-- Umutekano w'urubuga:** Gumana imiterere ya Tor, hindura ijambobanga ry'umuyobozi wa Umbrel (imbere: "moneyprintergobrrr")
-- Ububiko:** Gushoboza ububiko bwa disiki niba bishoboka
+- **Ivyagezwe vya porogaramu:** Gumana Umbrel na LND bigezweho (ivy'umutekano)
+- **Uburinzi bw'ibikoresho:** Koresha uburyo buhamye (Raspberry Pi ifise SSD, mini-PC) na UPS
+- **Umutekano w'urubuga:** Gumana imiterere ya Tor, hindura ijambobanga ry'umuyobozi wa Umbrel (imbere: "moneyprintergobrrr")
+- **Ububiko:** Gushoboza ububiko bwa disiki niba bishoboka
 
 
 
@@ -691,10 +691,10 @@ RTL ni "icumu ry'ingabo z'Ubusuwisi" ryuzuye ryo gukoresha urudodo rw'umuravyo r
 
 
 
-- Umuravyo Shell**: Umurongo w'itegeko (lncli) biciye ku mucukumbuzi
-- BTC RPC Umugenzuzi & Mempool**: Gukurikirana Blockchain
-- LNmetrics & Torq**: Isesengura ry'imikorere y'inzira
-- Amboss & 1ML**: "Uburongozi bw'imibano" bw'uruzitiro rwawe (amazina y'ibanga, abo mubonana, isesengura ry'urubuga)
+- **Umuravyo Shell**: Umurongo w'itegeko (lncli) biciye ku mucukumbuzi
+- **BTC RPC Umugenzuzi & Mempool**: Gukurikirana Blockchain
+- **LNmetrics & Torq**: Isesengura ry'imikorere y'inzira
+- **Amboss & 1ML**: "Uburongozi bw'imibano" bw'uruzitiro rwawe (amazina y'ibanga, abo mubonana, isesengura ry'urubuga)
 
 
 

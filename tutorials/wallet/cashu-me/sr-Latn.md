@@ -43,16 +43,16 @@ Hajde da zaronimo u funkcije i istražimo šta Cashu.me nudi:
 
 
 
-- Chaumian ecash na Lightning**: Koristi slepe potpise tako da kovnice ne mogu pratiti korisničke bilanse ili istorije transakcija
-- Samostalno čuvanje tokena**: Kontrolišete ecash tokene lokalno sa vašom seed frazom
-- seed rezervne fraze**: 12-rečenička fraza za oporavak Wallet
-- Mint independence**: Radi sa više nezavisnih kovnica—niste vezani za jednog provajdera
-- Instantne, besplatne transakcije**: Unutar iste kovnice, plaćanja se završavaju za nekoliko sekundi bez naknada
-- Arhitektura koja čuva privatnost**: Mints ne mogu videti ko sa kim obavlja transakcije
-- Offline ecash**: Šaljite/primajte tokene putem lokalnog protokola prenosa, kao što su NFC, QR kod, Bluetooth, itd. bez internet konekcije
-- Otkrijte ecash mints putem Nostr**: Pronađite i verifikujte pouzdane mints kroz Nostr protokol
-- Razmenite ecash između mintova**: Svi mintovi koriste Lightning, što znači da možete prenositi vrednost između njih.
-- Daljinski upravljajte svojim Wallet pomoću Nostr Wallet Connect (NWC)**: Povežite se sa drugim aplikacijama kao što je Nostr Client i započnite zapping putem NWC
+- **Chaumian ecash na Lightning**: Koristi slepe potpise tako da kovnice ne mogu pratiti korisničke bilanse ili istorije transakcija
+- **Samostalno čuvanje tokena**: Kontrolišete ecash tokene lokalno sa vašom seed frazom
+- **seed rezervne fraze**: 12-rečenička fraza za oporavak Wallet
+- **Mint independence**: Radi sa više nezavisnih kovnica—niste vezani za jednog provajdera
+- **Instantne, besplatne transakcije**: Unutar iste kovnice, plaćanja se završavaju za nekoliko sekundi bez naknada
+- **Arhitektura koja čuva privatnost**: Mints ne mogu videti ko sa kim obavlja transakcije
+- **Offline ecash**: Šaljite/primajte tokene putem lokalnog protokola prenosa, kao što su NFC, QR kod, Bluetooth, itd. bez internet konekcije
+- **Otkrijte ecash mints putem Nostr**: Pronađite i verifikujte pouzdane mints kroz Nostr protokol
+- **Razmenite ecash između mintova**: Svi mintovi koriste Lightning, što znači da možete prenositi vrednost između njih.
+- **Daljinski upravljajte svojim Wallet pomoću Nostr Wallet Connect (NWC)**: Povežite se sa drugim aplikacijama kao što je Nostr Client i započnite zapping putem NWC
 
 
 Ključna kompromisna tačka je `povjerenje`: dok vi kontrolišete same tokene, morate vjerovati kovnicama da čuvaju osnovne Bitcoin rezerve. Kao što navodi Cashuova dokumentacija:

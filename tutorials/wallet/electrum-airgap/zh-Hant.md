@@ -326,7 +326,7 @@ Wallet 建立完成後，請設定複雜的密碼 (`Strong`)，以加密 airgap 
 
 
 
-之後，選擇 _ 儲存到檔案_。
+之後，選擇 **儲存到檔案**。
 
 
 
@@ -346,7 +346,7 @@ Wallet 建立完成後，請設定複雜的密碼 (`Strong`)，以加密 airgap 
 
 
 
-從 Wallet airgap，現在選擇 _Tools_ 功能表，然後選擇 _Load transaction_，接著選擇 From file_。
+從 Wallet airgap，現在選擇 _Tools_ 功能表，然後選擇 _Load transaction_，接著選擇 _From file_。
 
 
 

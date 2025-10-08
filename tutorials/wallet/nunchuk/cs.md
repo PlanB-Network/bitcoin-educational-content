@@ -324,7 +324,7 @@ Nunchuk vám ukáže řadu možností, které z velké části souvisejí se slu
 
 
 
-V tomto průvodci si vytvoříme _Hot Wallet a _Vlastní peněženku_ s podrobným popisem.
+V tomto průvodci si vytvoříme _Hot Wallet_ a _Vlastní peněženku_ s podrobným popisem.
 
 
 Začněme s _Custom wallet_.

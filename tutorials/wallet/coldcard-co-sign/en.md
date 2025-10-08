@@ -12,7 +12,7 @@ description: Discover the Co-Sign feature and use it on your COLDCARD
 
 
 
-**Why ColdCard Co-Sign?
+**Why ColdCard Co-Sign?**
 
 
 This feature lets you add **spending conditions** to your ColdCard (Q or Mk4) device in the manner of a Hardware Security Module (HSM), to protect your funds while retaining considerable flexibility and control over them.
@@ -22,13 +22,13 @@ Spending conditions can be, for example:
 
 
 
-- Limits on magnitude**: cap the amount of bitcoins you can spend in a single transaction.
-- Velocity limits:** decide how many transactions you can carry out per unit of time (per hour, day, week, etc.), requiring a minimum number of blocks between them.
-- Pre-approved addresses:** Only allow bitcoins to be sent to pre-approved addresses.
-- Two-factor authentication:** Requires confirmation from a third-party 2FA mobile application (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) on an NFC-enabled smartphone/tablet with internet access.
+- **Limits on magnitude**: cap the amount of bitcoins you can spend in a single transaction.
+- **Velocity limits:** decide how many transactions you can carry out per unit of time (per hour, day, week, etc.), requiring a minimum number of blocks between them.
+- **Pre-approved addresses:** Only allow bitcoins to be sent to pre-approved addresses.
+- **Two-factor authentication:** Requires confirmation from a third-party 2FA mobile application (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) on an NFC-enabled smartphone/tablet with internet access.
 
 
-**How it works
+**How it works**
 
 
 By adding a second seed to your ColdCard Mk4 or Q device, called the "Spending Policy Key", which we'll refer to throughout this tutorial as the "C Key".

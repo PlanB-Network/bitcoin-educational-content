@@ -15,7 +15,7 @@ description: Objevte funkci Co-Sign a použijte ji na své kartě COLDCARD
 
 
 
-**Proč ColdCard Co-Sign?
+**Proč ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Výdajové podmínky mohou být například:
 
 
 
-- Omezení velikosti**: omezení množství bitcoinů, které můžete utratit v rámci jedné transakce.
-- Omezení rychlosti:** rozhodněte, kolik transakcí můžete provést za jednotku času (za hodinu, den, týden atd.), přičemž mezi nimi musíte mít minimální počet bloků.
-- Předem schválené adresy:** Bitcoiny lze posílat pouze na předem schválené adresy.
-- Dvoufaktorové ověřování:** Vyžaduje potvrzení mobilní aplikací 2FA třetí strany (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) na chytrém telefonu/tabletu s přístupem k internetu a podporou NFC.
+- **Omezení velikosti**: omezení množství bitcoinů, které můžete utratit v rámci jedné transakce.
+- **Omezení rychlosti:** rozhodněte, kolik transakcí můžete provést za jednotku času (za hodinu, den, týden atd.), přičemž mezi nimi musíte mít minimální počet bloků.
+- **Předem schválené adresy:** Bitcoiny lze posílat pouze na předem schválené adresy.
+- **Dvoufaktorové ověřování:** Vyžaduje potvrzení mobilní aplikací 2FA třetí strany (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) na chytrém telefonu/tabletu s přístupem k internetu a podporou NFC.
 
 
 
-**Jak to funguje
+**Jak to funguje**
 
 
 

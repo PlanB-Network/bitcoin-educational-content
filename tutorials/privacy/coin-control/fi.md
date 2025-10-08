@@ -224,7 +224,7 @@ Napsauta vain hiirellä jotakin niistä ja valitse sitten _Send Selected_. Sparr
 
 
 
-Voit myös valita useamman kuin yhden. Auta itseäsi_CTRL_-näppäimellä, jotta voit valita luettelosta muita kuin vierekkäisiä UTXO:ita.
+Voit myös valita useamman kuin yhden. Auta itseäsi **CTRL**-näppäimellä, jotta voit valita luettelosta muita kuin vierekkäisiä UTXO:ita.
 
 
 
@@ -264,7 +264,7 @@ Jos Wallet-työpöytäsi on Electrum, sinun pitäisi tietää, että voit valita
 
 
 
-Tälläkin ohjelmistolla voit valita useamman kuin yhden UTXO:n, mikä auttaa näppäimistön_CTRL_-näppäimellä, jos ne eivät ole vierekkäin.
+Tälläkin ohjelmistolla voit valita useamman kuin yhden UTXO:n, mikä auttaa näppäimistön **CTRL**-näppäimellä, jos ne eivät ole vierekkäin.
 
 
 
@@ -484,7 +484,7 @@ Kunkin UTXO:n vieressä näkyy valintatoiminto. Kuten työpöytäversiossa, Nunc
 
 
 
-Nyt voit suorittaa maksutapahtuman valitsemalla summan ja napsauttamalla Jatka_.
+Nyt voit suorittaa maksutapahtuman valitsemalla summan ja napsauttamalla **Jatka**.
 
 
 

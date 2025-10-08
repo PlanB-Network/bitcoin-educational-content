@@ -64,25 +64,25 @@ Kabla sijakuonyesha hatua kwa hatua jinsi ya kukopa kwenye Debifi, kuna vidokezo
 
 
 
-- Ada za asili** ni ada za mara moja zinazotozwa wakati mkopo unatolewa, na kukokotolewa kama asilimia ya kiasi kilichokopwa. Ada hizi hulipa gharama za utawala, uendeshaji na usimamizi.
+- **Ada za asili** ni ada za mara moja zinazotozwa wakati mkopo unatolewa, na kukokotolewa kama asilimia ya kiasi kilichokopwa. Ada hizi hulipa gharama za utawala, uendeshaji na usimamizi.
 
 
 
 
 
-- Dhamana** ni mali unayoweka ili kupata mkopo. Kwa upande wa Debifi, dhamana ni Bitcoin (BTC), ambayo mkopaji huweka amana kwenye Multisig 3/4 escrow.
+- **Dhamana** ni mali unayoweka ili kupata mkopo. Kwa upande wa Debifi, dhamana ni Bitcoin (BTC), ambayo mkopaji huweka amana kwenye Multisig 3/4 escrow.
 
 
 
 
 
-- Mfumo wa Multisig escrow (3/4)** ni utaratibu salama wa kuhifadhi ambapo bitcoins za mkopaji huwekwa kwenye Address ya saini nyingi. Hasa, pande nne (4) kila moja ina ufunguo (azimaye, mkopeshaji, Debifi, mtu wa tatu huru). Ili kuhamisha pesa, angalau sahihi 3 kati ya 4 zinahitajika.
+- **Mfumo wa Multisig escrow (3/4)** ni utaratibu salama wa kuhifadhi ambawo bitcoins za mkopaji huwekwa kwenye Address ya saini nyingi. Hasa, pande nne (4) kila moja ina ufunguo (azimaye, mkopeshaji, Debifi, mtu wa tatu huru). Ili kuhamisha pesa, angalau sahihi 3 kati ya 4 zinahitajika.
 
 
 
 
 
-- stablecoin** ni sarafu ya crypto ambayo thamani yake imeainishwa kwenye mali dhabiti (k.m. dola ya Marekani), ambayo huepuka kubadilikabadilika kwa Bitcoin. Kwa mfano, 1 USDC ina thamani ya ~$1 kila wakati, kwani inaungwa mkono na akiba ya fiat.
+- **stablecoin** ni sarafu ya crypto ambayo thamani yake imeainishwa kwenye mali dhabiti (k.m. dola ya Marekani), ambayo huepuka kubadilikabadilika kwa Bitcoin. Kwa mfano, 1 USDC ina thamani ya ~$1 kila wakati, kwani inaungwa mkono na akiba ya fiat.
 
 
 

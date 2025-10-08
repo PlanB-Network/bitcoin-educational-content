@@ -160,7 +160,7 @@ Inserte la llave USB de arranque en el ordenador apagado (aquel en el que desea 
 
 
 
-Aparecerá la pantalla de inicio de Ubuntu. Seleccione "Probar o instalar Ubuntu*".
+Aparecerá la pantalla de inicio de Ubuntu. Seleccione **"Probar o instalar Ubuntu"**.
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Por favor, mantenga esta Address estrictamente confidencial
+⚠️ **Por favor, mantenga esta Address estrictamente confidencial**
 
 
 
@@ -1426,7 +1426,7 @@ Para acceder a su navegador desde cualquier máquina en cualquier red (incluso r
 
 
 
-⚠️ **Por favor, mantenga este Address estrictamente confidencial
+⚠️ **Por favor, mantenga este Address estrictamente confidencial**
 
 
 

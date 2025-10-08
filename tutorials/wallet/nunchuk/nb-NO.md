@@ -324,7 +324,7 @@ Nunchuk viser deg en rekke muligheter som for det meste har å gjøre med tjenes
 
 
 
-I denne veiledningen vil vi opprette en _Hot Wallet og en _Custom wallet_ ved å beskrive detaljene.
+I denne veiledningen vil vi opprette en _Hot Wallet_ og en _Custom wallet_ ved å beskrive detaljene.
 
 
 La oss begynne med _Custom wallet_.
@@ -402,7 +402,7 @@ Du befinner deg i _Home_, der du ser den nyopprettede Wallet som rapporterer sal
 
 
 
-Utmerkelser _Mottar__
+Utmerkelser **Mottar**
 
 
 

@@ -9,7 +9,7 @@ description: Guida di Cashu.me all'utilizzo di ecash
 ![video](https://www.youtube.com/watch?v=LIPw1c74LBU)
 
 
-*Ecco un video tutorial di BTC Sessions, una video guida che vi spiega come configurare e utilizzare Cashu.me Bitcoin Wallet, che vi dà accesso a transazioni Bitcoin semplici, economiche e private - senza bisogno di un app store!
+**Ecco un video tutorial di BTC Sessions, una video guida che vi spiega come configurare e utilizzare Cashu.me Bitcoin Wallet, che vi dà accesso a transazioni Bitcoin semplici, economiche e private - senza bisogno di un app store!**
 
 
 In questo tutorial esploreremo Cashu.me, un Wallet basato su browser per pagamenti privati in Bitcoin utilizzando Chaumian ecash. Prima di tuffarci, facciamo una breve introduzione all'ecash e al suo funzionamento.
@@ -43,16 +43,16 @@ Scopriamo le caratteristiche ed esploriamo ciò che Cashu.me ha da offrire:
 
 
 
-- Chaumian ecash su Lightning**: Utilizza firme cieche in modo che le zecche non possano tracciare i saldi degli utenti o la cronologia delle transazioni
-- Autocustodia dei gettoni**: Il controllo dei gettoni ecash avviene localmente con la propria frase seed
-- Backup della frase seed**: frase di recupero di 12 parole per il ripristino del Wallet
-- Indipendenza dalle zecche**: Funziona con più zecche indipendenti: non siete vincolati a un unico fornitore
-- Transazioni istantanee e gratuite**: All'interno della stessa menta, i pagamenti vengono finalizzati in pochi secondi con zero commissioni
-- Architettura a tutela della privacy**: Le zecche non possono vedere chi compie transazioni con chi
-- Ecash offline**: Inviare/ricevere gettoni attraverso un protocollo di trasmissione locale, come NFC, codice QR, Bluetooth, ecc. senza connessione a Internet
-- Scoprire le zecche di ecash tramite Nostr**: Trovare e verificare zecche affidabili attraverso il protocollo Nostr
-- Scambio di ecash tra zecche**: Tutte le zecche parlano Lightning, il che significa che è possibile trasferire il valore tra di esse.
-- Controllate a distanza il vostro Wallet con Nostr Wallet Connect (NWC)**: Connettersi ad altre applicazioni come Nostr Client e iniziare a fare zapping tramite NWC
+- **Chaumian ecash su Lightning**: Utilizza firme cieche in modo che le zecche non possano tracciare i saldi degli utenti o la cronologia delle transazioni
+- **Autocustodia dei gettoni**: Il controllo dei gettoni ecash avviene localmente con la propria frase seed
+- **Backup della frase seed**: frase di recupero di 12 parole per il ripristino del Wallet
+- **Indipendenza dalle zecche**: Funziona con più zecche indipendenti: non siete vincolati a un unico fornitore
+- **Transazioni istantanee e gratuite**: All'interno della stessa menta, i pagamenti vengono finalizzati in pochi secondi con zero commissioni
+- **Architettura a tutela della privacy**: Le zecche non possono vedere chi compie transazioni con chi
+- **Ecash offline**: Inviare/ricevere gettoni attraverso un protocollo di trasmissione locale, come NFC, codice QR, Bluetooth, ecc. senza connessione a Internet
+- **Scoprire le zecche di ecash tramite Nostr**: Trovare e verificare zecche affidabili attraverso il protocollo Nostr
+- **Scambio di ecash tra zecche**: Tutte le zecche parlano Lightning, il che significa che è possibile trasferire il valore tra di esse.
+- **Controllate a distanza il vostro Wallet con Nostr Wallet Connect (NWC)**: Connettersi ad altre applicazioni come Nostr Client e iniziare a fare zapping tramite NWC
 
 
 Il compromesso critico è la "fiducia": mentre si controllano i gettoni stessi, bisogna fidarsi delle zecche per custodire le riserve di Bitcoin sottostanti. Come afferma la documentazione di Cashu:

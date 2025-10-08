@@ -225,7 +225,7 @@ Wallet singlesig durumunda bile, önce anahtarı ve ardından Wallet'yi yaratır
 
 
 
-Anahtar Ekle_'ye tıklayın
+**Anahtar Ekle**'ye tıklayın
 
 
 
@@ -304,7 +304,7 @@ Anahtar nihayet oluşturulur ve menüde size gösterilir:
 
 
 
-Tuşlar_ menüsünde ilk tuşunuzun göründüğünü göreceksiniz.
+Tuşlar menüsünde ilk tuşunuzun göründüğünü göreceksiniz.
 
 
 
@@ -312,7 +312,7 @@ Tuşlar_ menüsünde ilk tuşunuzun göründüğünü göreceksiniz.
 
 
 
-Ana Sayfa_ menüsüne giderek, Wallet oluşturma seçeneği görünür. _Create new wallet_ seçeneğine tıklayın.
+Ana Sayfa menüsüne giderek, Wallet oluşturma seçeneği görünür. **Create new wallet** seçeneğine tıklayın.
 
 
 
@@ -324,10 +324,10 @@ Nunchuk size, çoğunlukla şirketin sunduğu ve bu eğitimin konusu olmayan hiz
 
 
 
-Bu kılavuzda detayları detaylandırarak bir _Hot Wallet ve bir _Custom wallet_ oluşturacağız.
+Bu kılavuzda detayları detaylandırarak bir _Hot Wallet_ ve bir _Custom wallet_ oluşturacağız.
 
 
-Özel cüzdan_ ile başlayalım.
+Özel cüzdan ile başlayalım.
 
 
 
@@ -351,7 +351,7 @@ Wallet'in yapılandırması, bu Wallet'in fonlarının hangi anahtarla açılaca
 
 
 
-Bir singlesig oluşturduğumuz için `1`i bırakıyoruz ve_Continue_ butonuna tıklıyoruz.
+Bir singlesig oluşturduğumuz için `1`i bırakıyoruz ve **Continue** butonuna tıklıyoruz.
 
 
 
@@ -494,7 +494,7 @@ Nunchuk bu UTXO'u harcamak için otomatik olarak _Yeni işlem_ penceresini açar
 
 
 
-Create transaction_ seçeneğini seçmek, otomatik ücret ve işlem yönetimini uygulamaya devreder. Daha fazla kontrol için _Custom transaction_ seçeneğini seçmenizi öneririm.
+**Create transaction** seçeneğini seçmek, otomatik ücret ve işlem yönetimini uygulamaya devreder. Daha fazla kontrol için **Custom transaction** seçeneğini seçmenizi öneririm.
 
 
 
@@ -524,7 +524,7 @@ Bir sonraki ekran işlemin tam özetidir. Her şey tamamsa, _Confirm and create 
 
 
 
-Bekleyen imzalar_ ile Nunchuk, işlemin harcamayı onaylamak için sizin imzanızı beklediğini bildirir ve siz de _İmzala_ düğmesine tıklayarak bu imzayı eklersiniz.
+Bekleyen imzalar ile Nunchuk, işlemin harcamayı onaylamak için sizin imzanızı beklediğini bildirir ve siz de **İmzala** düğmesine tıklayarak bu imzayı eklersiniz.
 
 
 

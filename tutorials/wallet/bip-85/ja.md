@@ -197,7 +197,7 @@ Coldcard の電源を入れ、PIN コードを入力します。
 
 
 
-- 1.メインのseedにpassphraseを装着した場合：***。
+- 1.メインのseedにpassphraseを装着した場合：**。**
  - ホーム画面から`passphrase`に進む。
     - Add Word`を選択し、パスワードを入力する。
     - Apply`を押す。

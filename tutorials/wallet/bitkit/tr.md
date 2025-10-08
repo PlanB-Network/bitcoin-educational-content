@@ -16,7 +16,7 @@ Bitkit, Bitcoin'inizin gerçek Ownership'ünü almanızı ve böylece kendi şar
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-yukarıdaki eğitim videosu Bitkit Wallet için 20' kapsamlı bir rehberdir_
+yukarıdaki eğitim videosu Bitkit Wallet için 20' kapsamlı bir rehberdir.
 
 
 ## Kılavuz

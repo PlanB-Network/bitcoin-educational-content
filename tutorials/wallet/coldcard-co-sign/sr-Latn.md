@@ -15,7 +15,7 @@ description: Otkrijte funkciju Co-Sign i koristite je na vašem COLDCARD-u
 
 
 
-**Zašto ColdCard Ko-Potpis?
+**Zašto ColdCard Ko-Potpis?**
 
 
 
@@ -29,14 +29,14 @@ Uslovi trošenja mogu biti, na primer:
 
 
 
-- Ograničenja na veličinu**: ograničite količinu bitkoina koju možete potrošiti u jednoj transakciji.
-- Ograničenja brzine:** odlučite koliko transakcija možete obaviti po jedinici vremena (po satu, danu, nedelji, itd.), zahtevajući minimalan broj blokova između njih.
-- Unapred odobrene adrese:** Dozvolite slanje bitkoina samo na unapred odobrene adrese.
-- Dvofaktorska autentifikacija:** Zahteva potvrdu iz aplikacije za mobilne uređaje treće strane za 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) na pametnom telefonu/tabletu sa NFC-om i pristupom internetu.
+- **Ograničenja na veličinu**: ograničite količinu bitkoina koju možete potrošiti u jednoj transakciji.
+- **Ograničenja brzine:** odlučite koliko transakcija možete obaviti po jedinici vremena (po satu, danu, nedelji, itd.), zahtevajući minimalan broj blokova između njih.
+- **Unapred odobrene adrese:** Dozvolite slanje bitkoina samo na unapred odobrene adrese.
+- **Dvofaktorska autentifikacija:** Zahteva potvrdu iz aplikacije za mobilne uređaje treće strane za 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) na pametnom telefonu/tabletu sa NFC-om i pristupom internetu.
 
 
 
-**Kako funkcioniše
+**Kako funkcioniše**
 
 
 

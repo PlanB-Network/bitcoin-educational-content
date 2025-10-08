@@ -58,7 +58,7 @@ Eerlijke actoren, zij die volgens de regels mijnen, concurreren allemaal met elk
 
 > In het begin zouden de meeste gebruikers netwerkknooppunten draaien, maar als het netwerk voorbij een bepaald punt groeide, zou het meer en meer worden overgelaten aan specialisten met serverfarms van gespecialiseerde hardware. Een serverfarm hoeft maar één node op het netwerk te draaien en de rest van het LAN maakt verbinding met die ene node.
 
-zoals Satoshi Nakamoto verklaarde op 2 november 2008_
+zoals Satoshi Nakamoto verklaarde op 2 november 2008
 
 
 Bepaalde entiteiten hebben een aanzienlijk percentage van de totale Hashrate in grote Mining boerderijen. We kunnen de recente Cold golf in de Verenigde Staten waarnemen, waar een aanzienlijk deel van de Hashrate offline werd gehaald om energie om te leiden naar huishoudens met een uitzonderlijke behoefte aan elektriciteit. Gedurende enkele dagen werden mijnwerkers economisch gestimuleerd om hun boerderijen uit te schakelen, en dus kunnen we dit uitzonderlijke weer zien op de Bitcoin Hashrate curve.
@@ -713,4 +713,3 @@ Het eindresultaat is een hoger Hash tarief per watt elektriciteit, wat grotere w
 
 
 Deze gids is gemaakt door DecouvreBitcoin, meer info op MIN201 - credit Jim en Ajelex
-

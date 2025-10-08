@@ -321,10 +321,10 @@ Inyuma y’aho, Lynis azotanga urutonde rw’ingingo zihuye n’ivyo vyose yasuz
 
 
 
-- Umutuku** ku Elements ihambaye canke ibikorwa vyiza bitubahirijwe (akarorero, umuzigo ubuze), ni ukuvuga ko umukozi wawe atayubaha iyi ngingo
-- Umuhondo** ku vyiyumviro canke kwubahiriza igice c'impanuro (reka tuvuge ko ari ugushirwako kwubahiriza ingingo yerekanwa n'iri bara (itari imbere))
-- Green** ku ntumbero aho imiterere ya server yawe ihuye
-- Umweru**, iyo utagira aho ubogamiye
+- **Umutuku** ku Elements ihambaye canke ibikorwa vyiza bitubahirijwe (akarorero, umuzigo ubuze), ni ukuvuga ko umukozi wawe atayubaha iyi ngingo
+- **Umuhondo** ku vyiyumviro canke kwubahiriza igice c'impanuro (reka tuvuge ko ari ugushirwako kwubahiriza ingingo yerekanwa n'iri bara (itari imbere))
+- **Green** ku ntumbero aho imiterere ya server yawe ihuye
+- **Umweru**, iyo utagira aho ubogamiye
 
 
 
@@ -604,10 +604,10 @@ Amakuru amwe amwe yerekeye amapaki yashizweho:
 
 
 
-- Clamav** ni umuti urwanya umugera.
-- unattend-upgrades** izogufasha gucunga ivyahinduwe ubwawe mbere no gusubira gufungura imashini canke gusukura ubwawe amapaki ya kera, birashobora guhindurwa bimwe bishitse.
-- rkhunter** ni ikintu kirwanya imizi gicapura sisitemu ya dosiye yawe.
-- Fail2ban** izoshingira ku madosiye yawe y'inyandiko bivanye n'ivyo uyiha ngo isome kandi izokorana na **iptables**, nk'akarorero kubuza ama IP addresses agerageza "brute force" server yawe muri SSH.
+- **Clamav** ni umuti urwanya umugera.
+- **unattend-upgrades** izogufasha gucunga ivyahinduwe ubwawe mbere no gusubira gufungura imashini canke gusukura ubwawe amapaki ya kera, birashobora guhindurwa bimwe bishitse.
+- **rkhunter** ni ikintu kirwanya imizi gicapura sisitemu ya dosiye yawe.
+- **Fail2ban** izoshingira ku madosiye yawe y'inyandiko bivanye n'ivyo uyiha ngo isome kandi izokorana na **iptables**, nk'akarorero kubuza ama IP addresses agerageza "brute force" server yawe muri SSH.
 
 
 

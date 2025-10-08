@@ -10,7 +10,7 @@ description: Bika seed yawe ukoresheje uburyo bwa SAFU Ninja
 
 
 
-Uburyo bwa **Ninja SAFU** ni umuti w’**DIY (Do It Yourself)** ushobora kugufasha gukora **ububiko buramba, butekanye kandi buteye ubwoba** bw’ijambo ryawe **seed** (ijambo 12 canke 24 Mnemonic risobanurwa n’itegeko rya **BIP-39). Iri jambo ni nkenerwa mu kugarura Bitcoin Wallet canke uwundi Wallet wose uhuye.
+Uburyo bwa **Ninja SAFU** ni umuti w'**DIY (Do It Yourself)** ushobora kugufasha gukora **ububiko buramba, butekanye kandi buteye ubwoba** bw'ijambo ryawe **seed** (ijambo 12 canke 24 Mnemonic risobanurwa n'itegeko rya **BIP-39**). Iri jambo ni nkenerwa mu kugarura Bitcoin Wallet canke uwundi Wallet wose uhuye.
 
 
 
@@ -24,19 +24,19 @@ Uburyo bwa Ninja SAFU buratanga ivyiza vyinshi:
 
 
 
-- Ibanga**: Nturiko uragura igicuruzwa kimenyekanye ko kigenewe gukoreshwa mu gucungera amafaranga y’ibanga. Ivyo bihimba ni ibisanzwe (ibikoresho vyo gusukura, amabouti, isandugu y’ivyuma), biboneka mu maduka y’ibikoresho, ivyo bikaba bigabanya ingorane zo gutera umuntu iyo amakuru asohotse avuye ku mucuruzi yihariye.
+- **Ibanga**: Nturiko uragura igicuruzwa kimenyekanye ko kigenewe gukoreshwa mu gucungera amafaranga y'ibanga. Ivyo bihimba ni ibisanzwe (ibikoresho vyo gusukura, amabouti, isandugu y'ivyuma), biboneka mu maduka y'ibikoresho, ivyo bikaba bigabanya ingorane zo gutera umuntu iyo amakuru asohotse avuye ku mucuruzi yihariye.
 
 
 
 
 
-- Ugushobora kuronka**: Uyu muti ugura hagati ya **15 na 140 EUR**, bivanye n’ibikoresho usanzwe ufise.
+- **Ugushobora kuronka**: Uyu muti ugura hagati ya **15 na 140 EUR**, bivanye n'ibikoresho usanzwe ufise.
 
 
 
 
 
-- Ukwizigirwa**: Ubu buryo bwageragejwe kuva mu 2020, bwageragejwe kandi burageragezwa n’abahinga mu vy’umutekano nka [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-ububiko-bw’ibisubirwamwo/ibisubirwamwo/safu-ninja/), bakabugerageza cane.
+- **Ukwizigirwa**: Ubu buryo bwageragejwe kuva mu 2020, bwageragejwe kandi burageragezwa n'abahinga mu vy'umutekano nka [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-ububiko-bw'ibisubirwamwo/ibisubirwamwo/safu-ninja/), bakabugerageza cane.
 
 
 
@@ -59,17 +59,17 @@ Kugira ngo ukore backup ya Ninja SAFU, uzokenera ibi bice bikurikira, vyose bibo
 
 
 
-- Ivyuma bimesa (M8 ni vyiza)**:
-- Ibikoresho**: Ivyuma bitagira ibara (nk'akarorero 304 canke V4A kugira ngo bishobore guhangana n'ubumara)
-- Ingano**: M8 (umurongo w’imbere 8 mm, umurongo w’inyuma ~24 mm). Ama washers ya M6 ni mato cane kandi aragoye gucapura.
-- Igitigiri**: 12 canke 24 vy’amawashi ku nteruro isanzwe ya seed, wongereko amawashi y’ubuhinga (raba igice ca 3.4) n’icumi canke nk’ivyo ku bigeragezo canke amakosa.
+- **Ivyuma bimesa (M8 ni vyiza)**:
+- **Ibikoresho**: Ivyuma bitagira ibara (nk'akarorero 304 canke V4A kugira ngo bishobore guhangana n'ubumara)
+- **Ingano**: M8 (umurongo w'imbere 8 mm, umurongo w'inyuma ~24 mm). Ama washers ya M6 ni mato cane kandi aragoye gucapura.
+- **Igitigiri**: 12 canke 24 vy'amawashi ku nteruro isanzwe ya seed, wongereko amawashi y'ubuhinga (raba igice ca 3.4) n'icumi canke nk'ivyo ku bigeragezo canke amakosa.
 
 
 
 
 
-- Icuma kitagira ibara Bolt n'umugozi (M8)**:
-- Ivyerekeye**: Bolt uburebure bwa cm 2,5 gushika kuri 5, bivanye n’umubare n’uburemere bw’ibikoresho vyo gusukura, umurongo 8mm. Igipfunsi c’amababa kiratuma umuntu ashobora gufungura ata gikoresho, mugabo n’igipfukisho coroshe kirashobora gukoreshwa.
+- Icuma kitagira ibara Bolt n'umugozi **(M8)**:
+- **Ivyerekeye**: Bolt uburebure bwa cm 2,5 gushika kuri 5, bivanye n'umubare n'uburemere bw'ibikoresho vyo gusukura, umurongo 8mm. Igipfunsi c'amababa kiratuma umuntu ashobora gufungura ata gikoresho, mugabo n'igipfukisho coroshe kirashobora gukoreshwa.
 
 
 
@@ -79,8 +79,8 @@ Kugira ngo ukore backup ya Ninja SAFU, uzokenera ibi bice bikurikira, vyose bibo
 
 
 
-- Inyuguti n'umubare (3 mm canke 6 mm)**:
-- Ivyerekeye**: Inyuguti zifise uburebure bwa milimetero 6 zituma umuntu ashobora gusoma neza kandi zishobora gukundwa iyo igice c’inyuguti cakozwe nabi. Hitamwo ikintu gikomeye co gukoresha incuro nyinshi.
+- **Inyuguti n'umubare (3 mm canke 6 mm)**:
+- **Ivyerekeye**: Inyuguti zifise uburebure bwa milimetero 6 zituma umuntu ashobora gusoma neza kandi zishobora gukundwa iyo igice c'inyuguti cakozwe nabi. Hitamwo ikintu gikomeye co gukoresha incuro nyinshi.
 
 
 
@@ -90,14 +90,14 @@ Kugira ngo ukore backup ya Ninja SAFU, uzokenera ibi bice bikurikira, vyose bibo
 
 
 
-- Inyundo canke inyundo y'urusenga**:
+- **Inyundo canke inyundo y'urusenga**:
     - Inyundo y'urusenga irakundwa kubera inguvu zihagije kandi zitomoye zo gutera
 
 
 
 
 
-- Anvil canke ahantu hakomeye**:
+- **Anvil canke ahantu hakomeye**:
  - Igipande gikomeye, Hard (nk’akarorero, igiti c’ikiro 1 canke ibuye ry’amabuye ry’amasentimetero 10) kugira ngo nshobore gufata ibintu bikubita.
 
 
@@ -112,7 +112,7 @@ Niba udashaka gushiramwo amahera mu mugwi w’ibipfunsi, urashobora kandi gucapu
 
 
 
-- Igikoresho co gutera ikidodo**: Gifata igikoresho co gumesa kandi kikayobora igikoresho co gutera ikidodo, kigatuma umuntu ashobora gutera ikidodo neza, ataco akora, akamenya neza aho amadome ari hagati
+- **Igikoresho co gutera ikidodo**: Gifata igikoresho co gumesa kandi kikayobora igikoresho co gutera ikidodo, kigatuma umuntu ashobora gutera ikidodo neza, ataco akora, akamenya neza aho amadome ari hagati
 
 
 
@@ -122,7 +122,7 @@ Niba udashaka gushiramwo amahera mu mugwi w’ibipfunsi, urashobora kandi gucapu
 
 
 
-- Ibikoresho vyo gukingira**: Igikapu gikingira canke umugozi wo gukingira
+- **Ibikoresho vyo gukingira**: Igikapu gikingira canke umugozi wo gukingira
 
 
 
@@ -132,7 +132,7 @@ Niba udashaka gushiramwo amahera mu mugwi w’ibipfunsi, urashobora kandi gucapu
 
 
 
-- Igikoresho gipfutse neza**: Co kubikamwo ibikoresho vyo gumesa
+- **Igikoresho gipfutse neza**: Co kubikamwo ibikoresho vyo gumesa
 
 
 
@@ -145,8 +145,8 @@ Niba udashaka gushiramwo amahera mu mugwi w’ibipfunsi, urashobora kandi gucapu
 
 
 
-- Amaganzu** n’**Ibirahuri vy’umutekano** nivyo vyiza.
-- Pipe wrench** iyo uzoshiramwo igipfunsi, kugira ngo ufate igipfunsi n’igipfukisho c’imiyoboro aho gufata n’intoke.
+- **Amaganzu n'Ibirahuri vy'umutekano** nivyo vyiza.
+- **Pipe wrench** iyo uzoshiramwo igipfunsi, kugira ngo ufate igipfunsi n'igipfukisho c'imiyoboro aho gufata n'intoke.
 
 
 
@@ -156,13 +156,13 @@ Niba udashaka gushiramwo amahera mu mugwi w’ibipfunsi, urashobora kandi gucapu
 
 
 
-- Igitigiri c’amajambo 24 yo gusubiza inyuma**: amawasha 24 (atari make), 1 Bolt, 1 y’amababa, 1 y’ibipfunsi, 1 inyundo/massette, 1 anvil/igishigikira.
+- **Igitigiri c'amajambo 24 yo gusubiza inyuma**: amawasha 24 (atari make), 1 Bolt, 1 y'amababa, 1 y'ibipfunsi, 1 inyundo/massette, 1 anvil/igishigikira.
 
 
 
 
 
-- Igiciro cose**:
+- **Igiciro cose**:
  - Amashashi n'amabuye: ~ 15 EUR
  - Ivyuma vy'ibipfunsi: ~ 45 EUR
  - Ikibazo co kwikingira: ~ 55 EUR
@@ -254,7 +254,7 @@ Niba udashaka gushiramwo amahera mu mugwi w’ibipfunsi, urashobora kandi gucapu
 
 
     - Kuva ku bubiko bwawe bushasha, gerageza gusubiza ibitabo vyawe
-- Gukingira ububiko** (ntibikenewe kandi biraremeshwa):
+- **Gukingira ububiko** (ntibikenewe kandi biraremeshwa):
  - Mu gukingira imirongo, canke mu mifuko ipfutse.
  - Nimba ukoresha umufuko, nushireko inomero yawo yihariye, kugira ngo ushobore kumenya nimba ari umufuko ubereye atari umutego usubirira uwa mbere.
 
@@ -379,21 +379,21 @@ Nk’uko Jameson Lopp abivuga:
 
 
 
-- Abamesa** ku
+- **Abamesa** ku
  - [Titan](ibicuruzwa/amadisiki-ya-seed-y'inyongera-titan-Wallet)
-- Ivyo gumesa + umugozi + igisandugu co gukingira** (ku bikoresho vyo gumesa)
+- **Ivyo gumesa + umugozi + igisandugu co gukingira** (ku bikoresho vyo gumesa)
  - [Titan](uburyo bwo gukora/ibicuruzwa/titan-Wallet-vy'agaciro-vy'icuma-Wallet-ivy'inyuma? umuhinduzi=50022696419664)
  - [Ivyuma](https://pleb.uburyo/fr-fr/ibicuruzwa/ivyuma-Wallet-uburyo-bwo-acier-ububiko)
 - Gutera ibipfunsi
  - [Umuco wa Pleb](https://uburyo bwa Pleb/fr/ibicuruzwa/Igikoresho c'Ikigereranyo-a-z-0-9-3mm)
-- Ishingiro ryo kwandika**
+- **Ishingiro ryo kwandika**
  - [Umuco wa Pleb](https: Uburyo bwa bose/ibicuruzwa/uburyo bwa bose-10cm-x-10cm-x-1-5cm)
-- Igikoresho co gukorako** (uburongozi)
+- **Igikoresho co gukorako** (uburongozi)
  - [Ivyuma vy'Ivu](Ivyuma vy'Igihugu/Ivyuma vy'Igihugu?
 - Igikoresho co gukingira
  - [Igikapu gikingijwe](https://pleb.style/fr/ibicuruzwa/zubehor-5x-uburyo-buteye igomwe-bushobora-guhindurwa-bugaragara)
  - [Ibipande vyo gukingira](https://pleb.style/fr/ibicuruzwa/zubehor-5x-siegel-ubwoya-bw'ibara-seed-ububiko)
-- Ibikoresho vyuzuye**
+- **Ibikoresho vyuzuye**
  - [Titan](b r_prod_strat=e5_ibisobanuro&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=imwe)
  - [Ivyuma vy'Ivu](https://pleb.style/fr-fr/ibicuruzwa/Ivyuma-vy'Ivu-Wallet-Igikoresho co Gutangura)
 

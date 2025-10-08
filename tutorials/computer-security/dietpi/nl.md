@@ -28,9 +28,9 @@ Dit is niet het "gebruikelijke duplicaat" van Debian voor kleine Raspberry-achti
 
 
 
-- Geoptimaliseerd voor snelheid en lichtheid**: een [vergelijking met andere Debian distributies voor SBC](https://dietpi.com/blog/?p=888), DietPi is lichter in alles. Het DietPi ISO image weegt minder dan 1 GB, veruit het kleinste onder de distributies die gewijd zijn aan oudere modellen van Raspberry of Orange PI (bijvoorbeeld). De vraag naar RAM- en CPU-bronnen is erg laag, zodat het altijd het beste uit boards haalt, zelfs oudere.
-- Ingebouwde automatiseringen en installateurs**: Een reeks speciale commando's helpt gebruikers systeembronnen te controleren en taken te automatiseren om programma's te installeren en te starten, versies bij te werken, back-ups te maken en alle logs te controleren.
-- Een sterke, experimenteer-georiënteerde gemeenschap**: [tutorials](https://dietpi.com/forum/c/community-tutorials/8) en projecten van de DietPi community, zijn ideaal om inspiratie op te doen voor software die je met één klik kunt installeren, dankzij DietPi.
+- **Geoptimaliseerd voor snelheid en lichtheid**: een [vergelijking met andere Debian distributies voor SBC](https://dietpi.com/blog/?p=888), DietPi is lichter in alles. Het DietPi ISO image weegt minder dan 1 GB, veruit het kleinste onder de distributies die gewijd zijn aan oudere modellen van Raspberry of Orange PI (bijvoorbeeld). De vraag naar RAM- en CPU-bronnen is erg laag, zodat het altijd het beste uit boards haalt, zelfs oudere.
+- **Ingebouwde automatiseringen en installateurs**: Een reeks speciale commando's helpt gebruikers systeembronnen te controleren en taken te automatiseren om programma's te installeren en te starten, versies bij te werken, back-ups te maken en alle logs te controleren.
+- **Een sterke, experimenteer-georiënteerde gemeenschap**: [tutorials](https://dietpi.com/forum/c/community-tutorials/8) en projecten van de DietPi community, zijn ideaal om inspiratie op te doen voor software die je met één klik kunt installeren, dankzij DietPi.
 
 
 
@@ -145,7 +145,7 @@ Tijdens deze stap wordt u ook gevraagd om te kiezen welke webbrowser u standaard
 
 
 
-Tegen het einde kan het installatieprogramma je vragen of je al programma's wilt installeren, maar hier **raad ik je aan om niets vooraf te laden**. Je moet weten dat na deze stap om veiligheidsredenen wordt gevraagd om de standaard wachtwoorden van de twee gebruikers te wijzigen. Het belangrijkste is dat je het `Global Software Password (GSP)`** moet instellen, waarmee je op een gecontroleerde manier toegang krijgt tot de verschillende software. **Als je software downloadt tijdens de installatie van het OS, zonder het `GSP` in te stellen, zullen ze vrijwel ontoegankelijk blijven**. Je zult ze moeten verwijderen en opnieuw installeren nadat je het `Global Software Password` hebt ingesteld: dus **zet er niets in om dubbel werk te voorkomen**. (Het ongemak is waarschijnlijk, niet 100% zeker).
+Tegen het einde kan het installatieprogramma je vragen of je al programma's wilt installeren, maar hier **raad ik je aan om niets vooraf te laden**. Je moet weten dat na deze stap om veiligheidsredenen wordt gevraagd om de standaard wachtwoorden van de twee gebruikers te wijzigen. Het belangrijkste is dat je het **Global Software Password (GSP)** moet instellen, waarmee je op een gecontroleerde manier toegang krijgt tot de verschillende software. **Als je software downloadt tijdens de installatie van het OS, zonder het GSP in te stellen, zullen ze vrijwel ontoegankelijk blijven**. Je zult ze moeten verwijderen en opnieuw installeren nadat je het **Global Software Password** hebt ingesteld: dus **zet er niets in om dubbel werk te voorkomen**. (Het ongemak is waarschijnlijk, niet 100% zeker).
 
 
 

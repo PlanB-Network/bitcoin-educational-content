@@ -28,9 +28,9 @@ Tämä ei ole Debianin "tavallinen kopio" pienille Raspberry-tyyppisille piirile
 
 
 
-- Optimoitu nopeuteen ja keveyteen**: [vertailu muihin Debian-jakeluihin SBC:tä varten](https://dietpi.com/blog/?p=888), DietPi on kevyempi kaikessa. DietPi-ISO-kuva painaa alle 1 Gt, mikä on ylivoimaisesti pienin vanhemmille Raspberry- tai Orange PI -malleille (esimerkiksi) omistetuista. RAM- ja CPU-resurssien kysyntä on hyvin vähäistä, joten se saa aina parhaan mahdollisen hyödyn irti myös vanhemmista piirilevyistä.
-- Sisäänrakennetut automaatiot ja asentajat**: Erilliset komennot auttavat käyttäjiä valvomaan järjestelmän resursseja sekä automatisoimaan tehtäviä ohjelmien asentamiseksi ja käynnistämiseksi, versioiden päivittämiseksi, varmuuskopioiden tekemiseksi ja kaikkien lokien tarkistamiseksi.
-- Vahva, kokeilunhaluinen yhteisö**: [tutorials](https://dietpi.com/forum/c/community-tutorials/8) ja DietPi-yhteisön projektit ovat ihanteellisia, kun haluat inspiroitua ohjelmistoista, jotka voit asentaa yhdellä klikkauksella DietPin ansiosta.
+- **Optimoitu nopeuteen ja keveyteen**: [vertailu muihin Debian-jakeluihin SBC:tä varten](https://dietpi.com/blog/?p=888), DietPi on kevyempi kaikessa. DietPi-ISO-kuva painaa alle 1 Gt, mikä on ylivoimaisesti pienin vanhemmille Raspberry- tai Orange PI -malleille (esimerkiksi) omistetuista. RAM- ja CPU-resurssien kysyntä on hyvin vähäistä, joten se saa aina parhaan mahdollisen hyödyn irti myös vanhemmista piirilevyistä.
+- **Sisäänrakennetut automaatiot ja asentajat**: Erilliset komennot auttavat käyttäjiä valvomaan järjestelmän resursseja sekä automatisoimaan tehtäviä ohjelmien asentamiseksi ja käynnistämiseksi, versioiden päivittämiseksi, varmuuskopioiden tekemiseksi ja kaikkien lokien tarkistamiseksi.
+- **Vahva, kokeilunhaluinen yhteisö**: [tutorials](https://dietpi.com/forum/c/community-tutorials/8) ja DietPi-yhteisön projektit ovat ihanteellisia, kun haluat inspiroitua ohjelmistoista, jotka voit asentaa yhdellä klikkauksella DietPin ansiosta.
 
 
 

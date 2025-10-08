@@ -24,21 +24,21 @@ Phoenixd is a minimal, specialized Lightning node developed by ACINQ. It's a sol
 ### Operating principle
 
 
-**Phoenixd is a minimal Lightning node that uses ACINQ as its LSP (Lightning Service Provider) for automatic liquidity. When you receive Lightning payments, it automatically opens channels with ACINQ nodes to allocate the necessary incoming capacity. This "on-the-fly" liquidity is instantaneous, but charged at exactly **1% + mining fees** of the amount received.
+**Phoenixd is a minimal Lightning node that uses ACINQ as its LSP (Lightning Service Provider) for automatic liquidity. When you receive Lightning payments, it automatically opens channels with ACINQ nodes to allocate the necessary incoming capacity. This "on-the-fly" liquidity is instantaneous, but charged at exactly 1% + mining fees of the amount received.**
 
 
 **Automated management:** The system manages three key elements:
 
 
-- Lightning** channels: Open, close and manage automatically as needed
-- Incoming/outgoing liquidity**: Automatic provisioning via splicing and channel opening
-- Fee credit** : Small payments insufficient to justify a channel are stored as a provision for future charges
+- **Lightning** channels: Open, close and manage automatically as needed
+- **Incoming/outgoing liquidity**: Automatic provisioning via splicing and channel opening
+- **Fee credit**: Small payments insufficient to justify a channel are stored as a provision for future charges
 
 
 ### Phoenixd benefits
 
 
-**You control your private keys (12-word seed) and funds. Phoenixd generates your wallet locally without ever sharing your keys.
+**You control your private keys (12-word seed) and funds. Phoenixd generates your wallet locally without ever sharing your keys.**
 
 
 **Personal infrastructure:** Phoenixd runs on your server, giving you access to detailed logs, configuration and API control. You are no longer dependent on a third-party service for access to your funds.
@@ -63,10 +63,10 @@ Phoenixd requires a Linux environment (Ubuntu/Debian recommended), with some bas
 
 
 
-- Linux server**: VPS or local machine with stable connection
-- OpenJDK 21** : Java runtime environment
-- Stable Internet connection**: For synchronization with the Lightning network
-- Domain name** (optional) : For secure HTTPS access to the API
+- **Linux server**: VPS or local machine with stable connection
+- **OpenJDK 21**: Java runtime environment
+- **Stable Internet connection**: For synchronization with the Lightning network
+- **Domain name** (optional): For secure HTTPS access to the API
 
 
 ### Download and installation
@@ -87,7 +87,7 @@ chmod +x phoenixd phoenix-cli
 ```
 
 
-**2. First start-up
+**2. First start-up**
 
 
 Start Phoenixd for initialization:
@@ -227,18 +227,18 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 **The SSL/TLS** certificate is a digital file that :
 
 
-- Prove your server's identity** (prevents man-in-the-middle attacks)
-- Enables HTTPS** encryption: all data, including your API passwords, is encrypted during transport
-- Issued free of charge** by Let's Encrypt via the certbot tool
+- **Prove your server's identity** (prevents man-in-the-middle attacks)
+- Enables **HTTPS encryption**: all data, including your API passwords, is encrypted during transport
+- **Issued free of charge** by Let's Encrypt via the certbot tool
 
 
 This configuration allows you to :
 
 
-- Secure access to the API from the Internet**
-- Encrypt your API** passwords during transport (to prevent them being transmitted in clear text)
-- Integrate Phoenixd** into external applications requiring HTTPS
-- Compliance with security standards** for financial APIs
+- **Secure access to the API from the Internet**
+- Encrypt your **API passwords** during transport (to prevent them being transmitted in clear text)
+- Integrate **Phoenixd** into external applications requiring HTTPS
+- **Compliance with security standards** for financial APIs
 
 
 Configure this HTTPS reverse proxy with nginx :
@@ -348,9 +348,9 @@ curl -X POST http://localhost:9740/createinvoice \
 **Fee calculation:**
 
 
-- Service charge**: 1% of channel capacity (2,115,000 Sats) = 21,150 Sats
-- Mining fees**: ~3,289 Sats (for On-Chain transaction)
-- Total**: 24,439 Sats automatically deducted
+- **Service charge**: 1% of channel capacity (2,115,000 Sats) = 21,150 Sats
+- **Mining fees**: ~3,289 Sats (for On-Chain transaction)
+- **Total**: 24,439 Sats automatically deducted
 
 
 **Verification with CLI commands:**
@@ -435,14 +435,14 @@ curl http://localhost:9740/getbalance \
 **Important on costs:**
 
 
-- Receipt**: 1% + mining fee for automatic liquidity
-- Shipping**: 0.4% routing fee on the Lightning network
+- **Receipt**: 1% + mining fee for automatic liquidity
+- **Shipping**: 0.4% routing fee on the Lightning network
 
 
 **Webhooks:** Webhooks enable Phoenixd to **automatically notify** your applications when an event occurs (payment received, invoice paid, channel opened, etc.). Instead of constantly asking Phoenixd for updates, your application receives an instant HTTP notification.
 
 
-**Your online store automatically receives a notification when a customer pays for an order, enabling instant validation of the transaction.
+**Your online store automatically receives a notification when a customer pays for an order, enabling instant validation of the transaction.**
 
 
 Configuration in `phoenix.conf` :
@@ -544,7 +544,7 @@ Thanks to its comprehensive REST API, you can develop :
 **seed recovery:** Save your 12 words in a safe place, off the server. This is your only guarantee of recovery.
 
 
-*~/.phoenix directory:** Back up this folder regularly (after Phoenixd has been shut down) to preserve channel status and speed up restoration.
+**~/.phoenix directory:** Back up this folder regularly (after Phoenixd has been shut down) to preserve channel status and speed up restoration.
 
 
 **Service recovery codes:** Also keep backup codes for all services where you activate 2FA with your Phoenix.
@@ -590,7 +590,7 @@ journalctl -u phoenixd -f  # Real-time logs
 - ❌ Server maintenance required
 
 
-**Both use ACINQ as their LSP for automatic liquidity.
+**Both use ACINQ as their LSP for automatic liquidity.**
 
 
 ### Phoenixd vs LND/Core Lightning
@@ -679,13 +679,13 @@ With Phoenixd, you build your own private Lightning infrastructure with a modern
 ### Official documentation
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Source code and releases
-- Phoenix Server** site: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Full documentation
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Frequently asked questions
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Source code and releases
+- **Phoenix Server** site: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Full documentation
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Frequently asked questions
 
 
 ### Community support
 
 
-- GitHub Issues** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technical support
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - News and announcements
+- **GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technical support
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - News and announcements

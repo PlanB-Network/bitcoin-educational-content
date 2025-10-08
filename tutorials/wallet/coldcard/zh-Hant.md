@@ -7,7 +7,7 @@ description: 使用 Coldcard 裝置和 Bitcoin Core 建立、備份和使用 Bit
 ![cover](assets/cover.webp)
 
 
-使用 Coldcard 裝置和 Bitcoin Core 建立、備份和使用 Bitcoin 私密金鑰_
+使用 Coldcard 裝置和 Bitcoin Core 建立、備份和使用 Bitcoin 私密金鑰
 
 
 ## 使用 Coldcard 生成私钥并通过 Bitcoin Core 节点的 Interface 使用该私钥的完整指南！

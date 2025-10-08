@@ -366,7 +366,7 @@ Hapa kuna matokeo yanayotarajiwa:
 
 
 
-matokeo ya kuonyesha toleo la sasa la Nmap._
+matokeo ya kuonyesha toleo la sasa la Nmap.
 
 
 
@@ -451,7 +451,7 @@ Hapa kuna matokeo yanayotarajiwa:
 
 
 
-matokeo ya kuonyesha toleo la sasa la Nmap._
+matokeo ya kuonyesha toleo la sasa la Nmap.
 
 
 
@@ -475,7 +475,7 @@ Katika hali yake ya kimsingi, yaani, bila kwenda mbali sana katika kutumia chagu
 
 
 
-ujumbe wa makosa chini ya Linux wakati chaguzi za Nmap zinahitaji haki za mizizi._
+ujumbe wa makosa chini ya Linux wakati chaguzi za Nmap zinahitaji haki za mizizi.
 
 
 
@@ -611,7 +611,7 @@ Hapa kuna matokeo yanayowezekana. Tunaona kurudi kwa Nmap ya kawaida na habari n
 
 
 
-matokeo ya uchunguzi rahisi wa TCP uliofanywa na Nmap._
+matokeo ya uchunguzi rahisi wa TCP uliofanywa na Nmap.
 
 
 
@@ -723,7 +723,7 @@ Ukiangalia faili ya "/etc/services" kwenye mfumo wa Linux, utapata kiungo cha "p
 
 
 
-hutoa yaliyomo kwenye faili ya "/etc/services" chini ya Linux._
+hutoa yaliyomo kwenye faili ya "/etc/services" chini ya Linux.
 
 
 
@@ -857,7 +857,7 @@ Hapa, urejeshaji uliopatikana una umbizo sawa na la uchanganuzi wa TCP, lakini h
 
 
 
-matokeo ya uchanganuzi rahisi wa UDP uliofanywa na Nmap._
+matokeo ya uchanganuzi rahisi wa UDP uliofanywa na Nmap.
 
 
 
@@ -869,7 +869,7 @@ Kwa njia, labda utagundua kuwa Nmap inahitaji haki za "mizizi" kwa uchanganuzi w
 
 
 
-kumbuka: Kwa kuwa matoleo ya hivi punde zaidi ya Nmap, inashauriwa kila wakati kuendesha skana za UDP kwa upendeleo wa msimamizi ili kuhakikisha matokeo ya kuaminika, kwani baadhi ya vipengele vinahitaji ufikiaji ghafi wa soketi za mtandao._
+kumbuka: Kwa kuwa matoleo ya hivi punde zaidi ya Nmap, inashauriwa kila wakati kuendesha skana za UDP kwa upendeleo wa msimamizi ili kuhakikisha matokeo ya kuaminika, kwani baadhi ya vipengele vinahitaji ufikiaji ghafi wa soketi za mtandao.
 
 
 
@@ -909,7 +909,7 @@ Tunaweza kuona kwenye picha ya skrini iliyo hapo juu kwamba Nmap itatuma idadi k
 
 
 
-dondoo kutoka RFC 1122._
+dondoo kutoka RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Wacha tuangalie kwa karibu kunasa huku kwa Wireshark, ambayo inaonyesha ** hali 
 
 
 
-kunasa mtandao wakati wa kuchanganua UDP kwenye bandari tofauti na Nmap._
+kunasa mtandao wakati wa kuchanganua UDP kwenye bandari tofauti na **Nmap**.
 
 
 
@@ -956,7 +956,7 @@ Hapa kuna matokeo yaliyoonyeshwa na Nmap kufuatia kesi hizi tatu:
 
 
 
-matokeo ya uwezekano wa uchunguzi wa UDP uliofanywa kupitia Nmap._
+matokeo ya uwezekano wa uchunguzi wa UDP uliofanywa kupitia Nmap.
 
 
 
@@ -988,7 +988,7 @@ Lango 1000 zilizochanganuliwa katika hali chaguo-msingi huchaguliwa kulingana na
 
 
 
-imetolewa kutoka kwa faili "/usr/shares/nmap/nmap-services"._
+imetolewa kutoka kwa faili "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Ili kukusaidia kuelewa jinsi Probes zinaweza kuonekana, hii hapa ni orodha ya ba
 
 
 
-mfano wa Uchunguzi kadhaa unaotumiwa na Nmap na uliopo kwenye faili `/usr/share/nmap/nmap-service-probes`._
+mfano wa Uchunguzi kadhaa unaotumiwa na Nmap na uliopo kwenye faili `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Sasa tutarudi kwenye maagizo katika faili ya `/usr/share/nmap/nmap-service-probe
 
 
 
-inachunguza maelekezo ya `rarity` katika faili ya `/usr/share/nmap/nmap-service-probes`._
+inachunguza maelekezo ya `rarity` katika faili ya `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ Ili kumaliza kuhusu somo hili, hapa kuna mfano wa _Probe_ 9 na 8:
 
 
 
-mifano ya Uchunguzi kwa nadra 8 na 9 katika faili `/usr/share/nmap/nmap-service-probes`._
+mifano ya Uchunguzi kwa nadra 8 na 9 katika faili `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Hapa kuna matokeo ya skanisho ya Nmap kwa kutumia hati za NSE:
 
 
 
-mfano wa matokeo ya uchanganuzi wa uwezekano wa kuathirika kwa mwenyeji kupitia Nmap._
+mfano wa matokeo ya uchanganuzi wa uwezekano wa kuathirika kwa mwenyeji kupitia **Nmap**.
 
 
 
@@ -2264,7 +2264,7 @@ Kitaalam, kategoria ambazo hati ni mali zinaonyeshwa moja kwa moja kwenye msimbo
 
 
 
-Kategoria za hati za nSE `ftp-anon`._
+Kategoria za hati za nSE `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Kwa chaguo-msingi, hati za NSE za Nmap ziko katika saraka ya `/usr/share/nmap/sc
 
 
 
-hutoa yaliyomo kwenye saraka ya `/usr/share/nmap/scripts/` iliyo na hati za NSE._
+hutoa yaliyomo kwenye saraka ya `/usr/share/nmap/scripts/` iliyo na hati za **NSE**.
 
 
 
@@ -2296,7 +2296,7 @@ Saraka hii ina zaidi ya hati 5,000 za NSE. Mara nyingi, sehemu ya kwanza ya jina
 
 
 
-orodha ya hati za NSE za Nmap zilizo na majina yanayoanza na `ftp-`._
+orodha ya hati za NSE za Nmap zilizo na majina yanayoanza na `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Kisha tunapata matokeo sahihi sana:
 
 
 
-matokeo ya kutumia hati ya NSE `ftp-anon` kwenye mlango wa FTP kupitia Nmap._
+matokeo ya kutumia hati ya NSE `ftp-anon` kwenye mlango wa FTP kupitia Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Kwa maelezo mafupi ya kile hati ya NSE hufanya, unaweza kutumia chaguo la `--scr
 
 
 
-msaada wa kuonyesha matokeo ya hati ya NSE `sshv1`._
+msaada wa kuonyesha matokeo ya hati ya NSE `sshv1`.
 
 
 
@@ -2500,7 +2500,7 @@ Hati hii ina chaguo "chaguo-msingi", ambazo tunaweza kubinafsisha ili kuendana n
 
 
 
-matokeo ya kuonyesha usaidizi wa hati ya NSE `ssh-brute` iliyo na kiunga cha nmap.org._
+matokeo ya kuonyesha usaidizi wa hati ya NSE `ssh-brute` iliyo na kiunga cha nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Kama unavyoona katika amri hii ya mwisho, tunaweza kubainisha hoja zinazohitajik
 
 
 
-matokeo ya utekelezaji wa SSH bruteforce kupitia Nmap._
+matokeo ya utekelezaji wa SSH bruteforce kupitia Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Umbizo hili liliundwa ili kutoa mwonekano "uliofupishwa" wa matokeo ya Nmap, yal
 
 
 
-kuchanganua mtandao wa nmap na kutoa katika umbizo la "greppable"._
+kuchanganua mtandao wa nmap na kutoa katika umbizo la "greppable".
 
 
 
@@ -2700,7 +2700,7 @@ Umbizo hili linaweza kutumika kwa madhumuni mbalimbali na ni muhimu hasa kwa uan
 
 
 
-kumbuka: umbizo la `-oG` greppable limeacha kutumika rasmi tangu Nmap 7.90. Bado inaweza kutumika kwa utangamano. Bado inaweza kutumika kwa madhumuni ya uoanifu, lakini inashauriwa utumie XML au umbizo la kawaida kwa usanidi wowote au uchanganuzi wa kiotomatiki._
+kumbuka: umbizo la `-oG` greppable limeacha kutumika rasmi tangu Nmap 7.90. Bado inaweza kutumika kwa utangamano. Bado inaweza kutumika kwa madhumuni ya uoanifu, lakini inashauriwa utumie XML au umbizo la kawaida kwa usanidi wowote au uchanganuzi wa kiotomatiki.
 
 
 
@@ -2838,7 +2838,7 @@ Kwa hivyo, tutakuwa na muundo wetu mzima wa kuchanganua, na hata rangi chache na
 
 
 
-dondoo kutoka kwa ripoti ya skanisho ya Nmap katika umbizo la HTML iliyotolewa na xsltproc._
+dondoo kutoka kwa ripoti ya skanisho ya Nmap katika umbizo la HTML iliyotolewa na xsltproc.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) ni kikundi kidogo cha XS
 
 
 
-chanzo: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+chanzo: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Chaguo la kwanza tunalopaswa kutaja ni chaguo la `-v`, ambalo huongeza kitenzi c
 
 
 
-pato la kitenzi cha nmap kwa kutumia chaguo la `-v`._
+pato la kitenzi cha nmap kwa kutumia chaguo la `-v`.
 
 
 
@@ -2900,7 +2900,7 @@ Ili kufuatilia zaidi shughuli za Nmap wakati wa kuchanganua, unaweza kutumia cha
 
 
 
-ufuatiliaji wa kina wa shughuli za Nmap kupitia `--packet-trace`._
+ufuatiliaji wa kina wa shughuli za Nmap kupitia `--packet-trace`.
 
 
 
@@ -3120,7 +3120,7 @@ Ambapo Aquatone kwa kawaida hufanya ugunduzi wa bandari kwa wapangishaji kupata 
 
 
 
-kutumia matokeo ya Nmap katika umbizo la XML na `aquatone`._
+kutumia matokeo ya Nmap katika umbizo la XML na `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ Kwa hali yoyote, unaweza kuangalia maadili chaguo-msingi ya vigezo tutakavyoanga
 
 
 
-tazama chaguzi za Muda kupitia chaguo la Nmap `-d`._
+tazama chaguzi za Muda kupitia chaguo la Nmap `-d`.
 
 
 
@@ -3465,7 +3465,7 @@ Ikiwa umechagua kutumia Nmap si kupitia kipindi kama `root`, lakini kwa kutoa ha
 
 
 
-mwinuko wa marupurupu ya Nmap kupitia `sudo`._
+mwinuko wa marupurupu ya Nmap kupitia `sudo`.
 
 
 
@@ -3509,7 +3509,7 @@ Kama unaweza kuwa umegundua, Nmap inatoa chaguzi kadhaa kwa skana za TCP:
 
 
 
-mbinu za kuchanganua zinazopatikana katika Nmap._
+mbinu za kuchanganua zinazopatikana katika **Nmap**.
 
 
 
@@ -3598,7 +3598,7 @@ Kama ilivyotajwa, wakati wa kuendesha Nmap kutoka kwa terminal iliyobahatika, TC
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Hapa kuna mfano wa matokeo ya skanisho ya TCP FIN ya Nmap:
 
 
 
-matokeo ya uchunguzi wa TCP FIN na Nmap._
+matokeo ya uchunguzi wa TCP FIN na Nmap.
 
 
 
@@ -3892,7 +3892,7 @@ Ni muhimu kutambua kuwa kichanganuzi cha TCP XMAS hakiwezi kutambua ngome ambazo
 
 
 
-kumbuka: usaidizi wa uchanganuzi wa XMAS/FIN/NULL kwenye matoleo ya hivi majuzi ya Windows unasalia kuwa mdogo, na matokeo yanaweza kutofautiana kwenye aina hii ya lengo. (Sasisho 2025)_
+kumbuka: usaidizi wa uchanganuzi wa XMAS/FIN/NULL kwenye matoleo ya hivi majuzi ya Windows unasalia kuwa mdogo, na matokeo yanaweza kutofautiana kwenye aina hii ya lengo. _(Sasisho 2025)_
 
 
 
@@ -3983,7 +3983,7 @@ Tutatumia chaguo la `-sA` la Nmap kutekeleza aina hii ya uchanganuzi. Haya ndiyo
 
 
 
-onyesho la nmap wakati TCP ACK Scan._
+onyesho la nmap wakati **TCP ACK Scan**.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-kumbuka: Chaguo la `-sP` limepitwa na wakati kwa miaka kadhaa na linapaswa kubadilishwa na `-sn`. (Sasisho 2025)_
+kumbuka: Chaguo la `-sP` limepitwa na wakati kwa miaka kadhaa na linapaswa kubadilishwa na `-sn`. (Sasisho 2025)
 
 
 

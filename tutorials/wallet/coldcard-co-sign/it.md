@@ -15,7 +15,7 @@ description: Scoprite la funzione Co-Sign e utilizzatela sulla vostra COLDCARD
 
 
 
-**Perché ColdCard Co-Sign?
+**Perché ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ Le condizioni di spesa possono essere, ad esempio:
 
 
 
-- Limiti di grandezza**: limitano la quantità di bitcoin che si possono spendere in una singola transazione.
-- Limiti di velocità:** decidono quante transazioni si possono effettuare per unità di tempo (per ora, giorno, settimana, ecc.), richiedendo un numero minimo di blocchi tra di esse.
-- Indirizzi pre-approvati:** Consente l'invio di bitcoin solo a indirizzi pre-approvati.
-- Autenticazione a due fattori:** Richiede la conferma da parte di un'applicazione mobile 2FA di terze parti (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) su uno smartphone/tablet abilitato NFC con accesso a Internet.
+- **Limiti di grandezza**: limitano la quantità di bitcoin che si possono spendere in una singola transazione.
+- **Limiti di velocità:** decidono quante transazioni si possono effettuare per unità di tempo (per ora, giorno, settimana, ecc.), richiedendo un numero minimo di blocchi tra di esse.
+- **Indirizzi pre-approvati:** Consente l'invio di bitcoin solo a indirizzi pre-approvati.
+- **Autenticazione a due fattori:** Richiede la conferma da parte di un'applicazione mobile 2FA di terze parti (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) su uno smartphone/tablet abilitato NFC con accesso a Internet.
 
 
 
-**Come funziona
+**Come funziona**
 
 
 
@@ -61,7 +61,7 @@ Se si desidera rinunciare a queste condizioni di spesa, è possibile farlo:
 
 
 - firmando con una delle chiavi di riserva e la mano del seed, oppure con 2 chiavi di riserva a seconda delle dimensioni del vostro Multisig.
-- inserendo la "Chiave della politica di spesa" o la "Chiave C" nel menu "Co-Firma". **Quest'ultimo non può essere consultato direttamente sul dispositivo, altrimenti chiunque potrebbe annullare le condizioni di spesa configurate
+- inserendo la "Chiave della politica di spesa" o la "Chiave C" nel menu "Co-Firma". **Quest'ultimo non può essere consultato direttamente sul dispositivo, altrimenti chiunque potrebbe annullare le condizioni di spesa configurate.**
 
 
 
@@ -647,7 +647,7 @@ La ColdcardQ visualizza quindi un avviso che, scorrendo verso il fondo dello sch
 
 
 
-**Si noti che il dispositivo non ci dice quali sono le condizioni di spesa, per evitare che un potenziale aggressore cerchi di aggirare le restrizioni
+**Si noti che il dispositivo non ci dice quali sono le condizioni di spesa, per evitare che un potenziale aggressore cerchi di aggirare le restrizioni**
 
 
 

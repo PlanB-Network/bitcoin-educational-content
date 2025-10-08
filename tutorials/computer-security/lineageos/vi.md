@@ -149,8 +149,8 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-- Công cụ Android Flash**: Sử dụng công cụ chính thức của Google [flash.android.com](https://flash.android.com) để dễ dàng khôi phục thiết bị Pixel của bạn về Android gốc từ trình duyệt web (yêu cầu Chrome/Edge)
-- Giải pháp thay thế**: Tải hình ảnh gốc theo cách thủ công từ [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Công cụ Android Flash**: Sử dụng công cụ chính thức của Google [flash.android.com](https://flash.android.com) để dễ dàng khôi phục thiết bị Pixel của bạn về Android gốc từ trình duyệt web (yêu cầu Chrome/Edge)
+- **Giải pháp thay thế**: Tải hình ảnh gốc theo cách thủ công từ [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-- Khởi động thiết bị của bạn ít nhất một lần** với hệ thống gốc
-- Kiểm tra tất cả các tính năng**: SMS, cuộc gọi, Wi-Fi, dữ liệu di động
-- Quan trọng**: Kiểm tra xem bạn có thể gửi/nhận tin nhắn SMS và thực hiện/nhận cuộc gọi (bao gồm cả qua WiFi và 4G/5G) hay không. Nếu tính năng này không hoạt động trên hệ thống gốc, thì cũng sẽ không hoạt động trên LineageOS!
-- Các thiết bị gần đây**: Một số yêu cầu phải sử dụng VoLTE/VoWiFi ít nhất một lần trên hệ thống gốc để cung cấp IMS
+- Khởi động thiết bị của bạn ít nhất một lần với hệ thống gốc
+- **Kiểm tra tất cả các tính năng**: SMS, cuộc gọi, Wi-Fi, dữ liệu di động
+- **Quan trọng**: Kiểm tra xem bạn có thể gửi/nhận tin nhắn SMS và thực hiện/nhận cuộc gọi (bao gồm cả qua WiFi và 4G/5G) hay không. Nếu tính năng này không hoạt động trên hệ thống gốc, thì cũng sẽ không hoạt động trên LineageOS!
+- **Các thiết bị gần đây**: Một số yêu cầu phải sử dụng VoLTE/VoWiFi ít nhất một lần trên hệ thống gốc để cung cấp IMS
 
 
 
@@ -171,8 +171,8 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-- Xóa tất cả tài khoản Google** khỏi thiết bị của bạn để tránh Bảo vệ khôi phục cài đặt gốc, có thể chặn kích hoạt
-- Sao lưu toàn bộ**: Quá trình này sẽ xóa hoàn toàn điện thoại của bạn. Sao lưu ảnh, danh bạ, ứng dụng và các tệp quan trọng
+- Xóa tất cả **tài khoản Google** khỏi thiết bị của bạn để tránh Bảo vệ khôi phục cài đặt gốc, có thể chặn kích hoạt
+- **Sao lưu toàn bộ**: Quá trình này sẽ xóa hoàn toàn điện thoại của bạn. Sao lưu ảnh, danh bạ, ứng dụng và các tệp quan trọng
 
 
 
@@ -216,7 +216,7 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-⚠️ **Hướng dẫn này dành riêng cho LineageOS 22.2. Hãy làm theo từng bước một cách chính xác. Đừng bỏ qua nếu có lỗi xảy ra!
+⚠️ **Hướng dẫn này dành riêng cho LineageOS 22.2. Hãy làm theo từng bước một cách chính xác. Đừng bỏ qua nếu có lỗi xảy ra!**
 
 
 
@@ -249,8 +249,8 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-- Xây dựng LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Các tệp bắt buộc**: Tải xuống 3 tệp bắt buộc từ trang này (chúng sẽ được sử dụng trong các bước sau):
+- **Xây dựng LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Các tệp bắt buộc**: Tải xuống 3 tệp bắt buộc từ trang này (chúng sẽ được sử dụng trong các bước sau):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (ROM chính)
   - dtbo.img` (blob cây thiết bị phân vùng)
   - `boot.img` (phục hồi LineageOS)
@@ -269,13 +269,13 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-⚠️ **Bước này sẽ xóa toàn bộ dữ liệu của bạn!
+⚠️ **Bước này sẽ xóa toàn bộ dữ liệu của bạn!**
 
 
 
 
 
-- Kiểm tra kết nối ADB**: Kết nối thiết bị của bạn qua USB và kiểm tra bằng lệnh `adb devices` từ thiết bị đầu cuối máy tính của bạn
+- **Kiểm tra kết nối ADB**: Kết nối thiết bị của bạn qua USB và kiểm tra bằng lệnh `adb devices` từ thiết bị đầu cuối máy tính của bạn
 
 
 
@@ -289,7 +289,7 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-- Cho phép kết nối** trên điện thoại của bạn
+- Cho phép **kết nối** trên điện thoại của bạn
 
 
 
@@ -303,7 +303,7 @@ Theo số liệu thống kê chính thức, các mẫu máy được sử dụng
 
 
 
-- Khởi động vào chế độ bootloader** :
+- **Khởi động vào chế độ bootloader**:
 
 
 ```
@@ -317,7 +317,7 @@ Hoặc giữ **Giảm âm lượng + Nguồn** thiết bị tắt
 
 
 
-- Kiểm tra kết nối fastboot**:
+- Kiểm tra kết nối **fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Mở khóa bộ nạp khởi động**:
+- **Mở khóa bộ nạp khởi động**:
 
 
 ```
@@ -370,7 +370,7 @@ Trên thiết bị, sử dụng các phím Âm lượng để điều hướng v
 
 
 
-- Sau khi khởi động lại tự động**, hãy bật lại gỡ lỗi USB trong tùy chọn nhà phát triển
+- Sau khi khởi động lại tự động, hãy bật lại gỡ lỗi USB trong tùy chọn nhà phát triển
 
 
 
@@ -385,8 +385,8 @@ Trên thiết bị, sử dụng các phím Âm lượng để điều hướng v
 
 
 
-- Khởi động lại bộ nạp khởi động**: Giảm âm lượng + Nguồn
-- Flash** (thay thế `/path/to/` bằng thư mục mà bạn đã tải xuống tệp):
+- **Khởi động lại bộ nạp khởi động**: Giảm âm lượng + Nguồn
+- **Flash** (thay thế `/path/to/` bằng thư mục mà bạn đã tải xuống tệp):
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Phục hồi Flash** (thay thế `/path/to/` bằng thư mục mà bạn đã tải xuống tệp):
+- **Phục hồi Flash** (thay thế `/path/to/` bằng thư mục mà bạn đã tải xuống tệp):
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Khởi động lại trong chế độ phục hồi** để kiểm tra
+- **Khởi động lại trong chế độ phục hồi** để kiểm tra
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Khởi động lại trong chế độ phục hồi**: Giảm âm lượng + Nguồn → Chế độ phục hồi
+- **Khởi động lại trong chế độ phục hồi**: Giảm âm lượng + Nguồn → Chế độ phục hồi
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Khôi phục cài đặt gốc**: Nhập "Khôi phục cài đặt gốc" → "Định dạng dữ liệu / khôi phục cài đặt gốc"
+- **Khôi phục cài đặt gốc**: Nhập "Khôi phục cài đặt gốc" → "Định dạng dữ liệu / khôi phục cài đặt gốc"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Trở về menu chính**
-- Tải LineageOS**:
+- **Trở về menu chính**
+- Tải **LineageOS**:
    - Trên thiết bị: "Áp dụng Cập nhật" → "Áp dụng từ ADB"
    - Trên PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Khởi động lại**: "Khởi động lại hệ thống ngay"
-- Khởi động lần đầu**: Có thể mất tới 15 phút
+- **Khởi động lại**: "Khởi động lại hệ thống ngay"
+- **Khởi động lần đầu**: Có thể mất tới 15 phút
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Khả năng tương thích phần mềm**: Hãy đảm bảo kiểm tra phiên bản phần mềm cần thiết trên trang tải xuống của mẫu máy của bạn
-- Không bao giờ khóa lại** bộ nạp khởi động sau khi cài đặt LineageOS
-- Làm theo hướng dẫn cụ thể** cho thiết bị của bạn
+- **Khả năng tương thích phần mềm**: Hãy đảm bảo kiểm tra phiên bản phần mềm cần thiết trên trang tải xuống của mẫu máy của bạn
+- **Không bao giờ khóa lại** bộ nạp khởi động sau khi cài đặt LineageOS
+- Làm theo hướng dẫn cụ thể **cho thiết bị của bạn**
 
 
 
@@ -559,11 +559,11 @@ Interface được tinh giản, gần giống Android gốc, không cần Google
 
 
 
-- Điều hướng**: Bản đồ hữu cơ (bản đồ ngoại tuyến dựa trên OpenStreetMap)
-- Truyền thông**: Signal (tin nhắn được mã hóa đầu cuối), K-9 Mail (ứng dụng email miễn phí)
-- Phương tiện truyền thông**: NewPipe (YouTube không có quảng cáo, không theo dõi), VLC (trình phát đa phương tiện)
-- Năng suất**: Nextcloud (đám mây tự lưu trữ), Simple Calendar (đồng bộ hóa CalDAV)
-- Bảo mật**: Bitwarden (trình quản lý mật khẩu), Aegis Authenticator (mã 2FA)
+- **Điều hướng**: Bản đồ hữu cơ (bản đồ ngoại tuyến dựa trên OpenStreetMap)
+- **Truyền thông**: Signal (tin nhắn được mã hóa đầu cuối), K-9 Mail (ứng dụng email miễn phí)
+- **Phương tiện truyền thông**: NewPipe (YouTube không có quảng cáo, không theo dõi), VLC (trình phát đa phương tiện)
+- **Năng suất**: Nextcloud (đám mây tự lưu trữ), Simple Calendar (đồng bộ hóa CalDAV)
+- **Bảo mật**: Bitwarden (trình quản lý mật khẩu), Aegis Authenticator (mã 2FA)
 
 
 

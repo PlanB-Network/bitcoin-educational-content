@@ -125,19 +125,19 @@ Bitcoin core은 전 세계 Bitcoin 노드의 약 99%가 작동할 수 있도록 
 
 
 
-- CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
-- Core+antispam**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
-- OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
-- DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
+- **CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
+- **Core+antispam**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
+- **OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
+- **DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
 
 
 다음으로 사용자 필드에 소유하고 있는 Bitcoin Address을 입력합니다. 호환되는 Address 유형 목록은 다음과 같습니다:
 
 
-- P2PKH** (오리지널 Address 타입. "1"로 시작)
-- P2SH** (다중 서명 또는 P2SH-SegWit. "3"으로 시작)
-- Bech32**(SegWit. "bc"로 시작)
-- Bech32m**(Taproot. "bc"로 시작. Bech32보다 길다.)
+- **P2PKH** (오리지널 Address 타입. "1"로 시작)
+- **P2SH** (다중 서명 또는 P2SH-SegWit. "3"으로 시작)
+- **Bech32** (SegWit. "bc"로 시작)
+- **Bech32m**(Taproot. "bc"로 시작. Bech32보다 길다.)
 
 
 채굴자가 여러 명인 경우, 모든 채굴자에 대해 동일한 Address를 입력하면 Hash 요금이 합산되어 하나의 Miner로 표시됩니다. 또한 각각에 고유한 이름을 추가하여 구분할 수도 있습니다. 이렇게 하려면 Bitcoin Address 뒤에 '.workername'을 추가하기만 하면 됩니다.
@@ -148,13 +148,13 @@ Bitcoin core은 전 세계 Bitcoin 노드의 약 99%가 작동할 수 있도록 
 
 **예시:**
 
-OCEAN** 템플릿을 선택한 경우 Bitcoin Address의 이름은 `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`이고, Miner의 이름을 "Brrrr"로 지정하려면 Miner의 Interface에 다음 정보를 입력해야 합니다:
+**OCEAN** 템플릿을 선택한 경우 Bitcoin Address의 이름은 `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`이고, Miner의 이름을 "Brrrr"로 지정하려면 Miner의 Interface에 다음 정보를 입력해야 합니다:
 
 
 
-- URL**: `stratum+tcp://mine.ocean.xyz:3334`
-- USER**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- 비밀번호**: `x`
+- **URL**: `stratum+tcp://mine.ocean.xyz:3334`
+- **USER**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **비밀번호**: `x`
 
 
 Mining를 시작한 지 몇 분 후, Address을 검색하여 Ocean 사이트에서 데이터를 확인할 수 있습니다.
@@ -163,9 +163,9 @@ Mining를 시작한 지 몇 분 후, Address을 검색하여 Ocean 사이트에�
 ### 대시보드 개요
 
 
-- 보상 창**의 공유: 이 데이터는 풀에서 채굴한 마지막 8개 블록의 기간 동안 풀에 전송한 작업량인 공유 수를 나타냅니다.
+- **보상 창의 공유**: 이 데이터는 풀에서 채굴한 마지막 8개 블록의 기간 동안 풀에 전송한 작업량인 공유 수를 나타냅니다.
 - Windows**에서 예상 보상**: 이미 완료한 작업으로 얻을 수 있는 Sats의 추정치입니다. 거래 수수료는 고려하지 않고 네트워크에서 발행한 새로운 비트코인인 코인베이스만 고려합니다.
-- 다음 블록 예상 수익**: 현재 블록을 채굴할 경우 얻을 수 있는 Sats의 추정치입니다. 이 값이 1,048,576 Sats보다 작으면 Sats을 Address으로 직접 받지 못한다는 점을 기억하세요. 수익이 이 임계값을 초과할 때까지 오션의 Address으로 전송됩니다.
+- **다음 블록 예상 수익**: 현재 블록을 채굴할 경우 얻을 수 있는 Sats의 추정치입니다. 이 값이 1,048,576 Sats보다 작으면 Sats을 Address으로 직접 받지 못한다는 점을 기억하세요. 수익이 이 임계값을 초과할 때까지 오션의 Address으로 전송됩니다.
 
 
 아래에는 최대 6개월까지의 Hashrate 이력이 표시된 그래프가 있습니다.
@@ -180,7 +180,7 @@ Mining를 시작한 지 몇 분 후, Address을 검색하여 Ocean 사이트에�
 ![signup](assets/5.webp)
 
 
-CSV 다운로드** 버튼을 사용하여 이 기록의 CSV 파일을 내보낼 수 있습니다.
+**CSV 다운로드** 버튼을 사용하여 이 기록의 CSV 파일을 내보낼 수 있습니다.
 
 
 ![signup](assets/6.webp)
@@ -237,16 +237,16 @@ Miner의 **닉네임**을 클릭하면 됩니다. 그러면 방금 본 모든 �
 ![signup](assets/10.webp)
 
 
-받기**를 클릭합니다.
+**받기**를 클릭합니다.
 
 
-오퍼**에 체크한 다음 이전에 복사한 텍스트를 **설명** 필드에 붙여넣고 **금액** 필드는 비워둡니다.
+오퍼에 체크한 다음 이전에 복사한 텍스트를 **설명** 필드에 붙여넣고 **금액** 필드는 비워둡니다.
 
 
 ![signup](assets/11.webp)
 
 
-generate 혜택**을 클릭합니다.
+generate 혜택**을 클릭합니다.**
 
 
 ![signup](assets/12.webp)
@@ -288,14 +288,14 @@ Ocean에서 계정 시스템을 사용하지 않고 이 결제 링크가 실제�
 이 창에는 세 개의 필드가 있습니다: **Address**, **서명**, **메시지**.
 
 
-Address** 필드에 Bitcoin Address를 입력합니다. 예제로 돌아가서 Address를 입력하면 `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`가 됩니다.
+**Address** 필드에 Bitcoin Address를 입력합니다. 예제로 돌아가서 Address를 입력하면 `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`가 됩니다.
 
 
-서명** 필드를 비워둡니다.
+**서명** 필드를 비워둡니다.
 
 그리고 생성된 메시지를 오션 페이지의 **메시지** 필드에 붙여넣습니다: `{"height":845900,"lightning_bolt12":"lno1pg7y7s69g98zq5rp09hh2arnypnx7u3qvf3nzufjv4jrs7ncwyuxu6n3wdaxu6msxank5wp5dcc8samv89j8qv3jx36kscfjvempvggz84uzkn26vyzq8y2mr2s8fv0j76wesq43dz72kqrk33nl2tk9j45s"}`
 
-서명**을 클릭합니다.
+**서명**을 클릭합니다.
 
 
 이렇게 하면 Address `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`의 소유자임을 증명하는 암호화 서명이 generate가 되며, 이 서명은 BOLT12 결제 링크에서 생성된 Ocean에서 제공하는 메시지 덕분에 고유합니다.

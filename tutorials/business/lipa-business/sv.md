@@ -130,10 +130,10 @@ Inkassoprocessen liknar den som gäller för en konventionell transaktion:
 
 
 
-- Ange belopp**: På betalningsskärmen anger du beloppet i lokal valuta (CHF eller EUR). Exempel: för en kaffe till 4,50 CHF, ange 4,50
-- Invoice-generering** : Applikationen omvandlar omedelbart beloppet till satoshis till aktuell kurs och genererar en Lightning Invoice i form av en QR-kod
-- Betalning från kund** : Kunden skannar QR-koden med sin Wallet Lightning och validerar betalningen
-- Bekräftelse** : Betalningen bekräftas inom några sekunder, med visuell visning av framgång
+- **Ange belopp**: På betalningsskärmen anger du beloppet i lokal valuta (CHF eller EUR). Exempel: för en kaffe till 4,50 CHF, ange 4,50
+- **Invoice-generering**: Applikationen omvandlar omedelbart beloppet till satoshis till aktuell kurs och genererar en Lightning Invoice i form av en QR-kod
+- **Betalning från kund**: Kunden skannar QR-koden med sin Wallet Lightning och validerar betalningen
+- **Bekräftelse**: Betalningen bekräftas inom några sekunder, med visuell visning av framgång
 
 
 
@@ -207,11 +207,11 @@ Inkassoprocessen liknar den som gäller för en konventionell transaktion:
 
 
 
-- Catering**: Barer, restauranger, kaféer ska acceptera tillägg i Bitcoin med drickshantering
-- Detaljhandel**: Livsmedelsbutiker, bagerier för utökade betalningsmetoder utan fasta avgifter
-- Nomadiska försäljare**: food trucks, marknader, festivaler med bara en smartphone
-- Evenemang** : Tillfälliga montrar med lösningar som är färdiga att använda
-- Tjänster**: Konsulter, hantverkare för engångsfakturering i Bitcoin
+- **Catering**: Barer, restauranger, kaféer ska acceptera tillägg i Bitcoin med drickshantering
+- **Detaljhandel**: Livsmedelsbutiker, bagerier för utökade betalningsmetoder utan fasta avgifter
+- **Nomadiska försäljare**: food trucks, marknader, festivaler med bara en smartphone
+- **Evenemang**: Tillfälliga montrar med lösningar som är färdiga att använda
+- **Tjänster**: Konsulter, hantverkare för engångsfakturering i Bitcoin
 
 
 

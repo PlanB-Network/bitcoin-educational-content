@@ -36,10 +36,10 @@ Dalam satu Interface Alias Vault ini:
 
 
 
-- Gratis dan sumber terbuka**
-- Pengelola Kata Sandi**, untuk menyimpan semua kata sandi yang rumit. Dengan menggunakan ekstensi peramban, pengelola kata sandi menyelesaikan proses masuk ke situs web
-- 2FA**, untuk mendukung autentikasi dua faktor
-- Pengelola alias dengan server email yang disematkan**: Alias Vault tidak membuat alias yang meneruskan email ke kotak surat pengguna; namun, ia membuat alias yang sebenarnya, lengkap dengan nama depan, nama belakang, jenis kelamin, nama pengguna, kata sandi, dan tanggal lahir (jika informasi ini diperlukan).
+- **Gratis dan sumber terbuka**
+- **Pengelola Kata Sandi**, untuk menyimpan semua kata sandi yang rumit. Dengan menggunakan ekstensi peramban, pengelola kata sandi menyelesaikan proses masuk ke situs web
+- **2FA**, untuk mendukung autentikasi dua faktor
+- **Pengelola alias dengan server email yang disematkan**: Alias Vault tidak membuat alias yang meneruskan email ke kotak surat pengguna; namun, ia membuat alias yang sebenarnya, lengkap dengan nama depan, nama belakang, jenis kelamin, nama pengguna, kata sandi, dan tanggal lahir (jika informasi ini diperlukan).
 
 
 
@@ -71,7 +71,7 @@ Yang sangat mengejutkan Anda, Anda akan menemukan bahwa Alias Vault tidak memint
 
 
 
-Tetapkan **`kata sandi utama`` sekarang, yang merupakan informasi paling penting dalam keseluruhan sistem baru Anda. Dengan kata sandi yang satu ini, sebenarnya, Anda akan menjadi satu-satunya orang yang dapat mengakses/memulihkan akun, karena kata sandi ini akan menjaga `barang besi` Anda tetap terenkripsi di server yang akan menampung informasi Anda.
+Tetapkan **kata sandi utama** sekarang, yang merupakan informasi paling penting dalam keseluruhan sistem baru Anda. Dengan kata sandi yang satu ini, sebenarnya, Anda akan menjadi satu-satunya orang yang dapat mengakses/memulihkan akun, karena kata sandi ini akan menjaga `barang besi` Anda tetap terenkripsi di server yang akan menampung informasi Anda.
 
 
 

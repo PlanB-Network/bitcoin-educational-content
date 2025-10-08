@@ -65,7 +65,7 @@ Beroende på vilken Lightning Wallet du använder finns följande alternativ:
 
 
 
-- Alby Hub** för Alby Go plånböcker, Alby-tillägget för din webbläsare.
+- **Alby Hub** för Alby Go plånböcker, Alby-tillägget för din webbläsare.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** för att ansluta Bitcoin web CoinOS Wallet.
-- Flash Wallet** för anslutning till Flash Wallet.
-- LN länk**
+- **Coinos** för att ansluta Bitcoin web CoinOS Wallet.
+- **Flash Wallet** för anslutning till Flash Wallet.
+- LN länk
 
 
 

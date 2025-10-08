@@ -33,7 +33,7 @@ Watchtower는 채널이 침해되었는지 어떻게 확인할 수 있나요? �
 
 
 
-*이 튜토리얼은 [LND 공식 문서](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)에서 발췌한 것입니다. 원본 버전과 일부 내용이 변경되었을 수 있습니다
+*이 튜토리얼은 [LND 공식 문서](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)에서 발췌한 것입니다. 원본 버전과 일부 내용이 변경되었을 수 있습니다.*
 
 
 
@@ -53,7 +53,7 @@ V0.7.0부터 `LND`는 `LND`의 완전히 통합된 하위 시스템으로 프라
 
 
 
-참고: 당분간 워치타워는 해지된 커밋의 `to_local` 및 `to_remote` 출력만 저장합니다. 프로토콜이 암호화된 블롭에 추가 서명 데이터를 포함하도록 확장될 수 있으므로 HTLC 출력 저장 기능은 향후 버전에 배포될 예정입니다._
+참고: 당분간 워치타워는 해지된 커밋의 `to_local` 및 `to_remote` 출력만 저장합니다. 프로토콜이 암호화된 블롭에 추가 서명 데이터를 포함하도록 확장될 수 있으므로 HTLC 출력 저장 기능은 향후 버전에 배포될 예정입니다.
 
 
 
@@ -337,13 +337,13 @@ Satoshi의 눈([Rust-TEOS](https://github.com/talaia-labs/Rust-teos))은 [Bolt 1
 
 
 
-- teos**: 명령줄 Interface(CLI)과 Watchtower의 필수 서버 기능을 포함합니다. 이 _crate_가 컴파일되면 **teosd**와 **teos-CLI**의 두 개의 바이너리가 생성됩니다.
+- **teos**: 명령줄 Interface(CLI)과 Watchtower의 필수 서버 기능을 포함합니다. 이 _crate_가 컴파일되면 **teosd**와 **teos-CLI**의 두 개의 바이너리가 생성됩니다.
 
 
 
 
 
-- teos-common**: 공유 서버 측 및 클라이언트 측 기능을 포함합니다(클라이언트 생성에 유용).
+- **teos-common**: 공유 서버 측 및 클라이언트 측 기능을 포함합니다(클라이언트 생성에 유용).
 
 
 
@@ -377,23 +377,23 @@ regtest=1
 
 
 
-- server**: RPC 요청의 경우
+- **server**: RPC 요청의 경우
 
 
 
 
 
-- rpcuser** 및 **rpcpassword**: RPC 클라이언트를 서버에 인증합니다
+- **rpcuser** 및 **rpcpassword**: RPC 클라이언트를 서버에 인증합니다
 
 
 
 
 
-- regtest**: 필수는 아니지만 개발을 계획하는 경우 유용합니다.
+- **regtest**: 필수는 아니지만 개발을 계획하는 경우 유용합니다.
 
 
 
-Rpcuser** 및 **rpcpassword**의 값은 사용자가 직접 선택해야 합니다. 따옴표 없이 입력해야 합니다. 예를 들어
+**Rpcuser** 및 **rpcpassword**의 값은 사용자가 직접 선택해야 합니다. 따옴표 없이 입력해야 합니다. 예를 들어
 
 
 
@@ -440,7 +440,7 @@ btc_rpc_password = "strongpassword"
 
 
 
-이 작업이 완료되면 Watchtower을 시작할 준비가 된 것입니다. Regtest**에서 실행 중이므로, Watchtower이 처음 연결되었을 때 Bitcoin 테스트 네트워크에서 블록이 채굴되지 않았을 가능성이 높습니다(채굴되었다면 뭔가 잘못되었다는 뜻입니다). Watchtower은 **bitcoind**의 마지막 100개 블록의 내부 캐시를 구축하므로 처음 시작할 때 다음과 같은 오류가 발생할 수 있습니다:
+이 작업이 완료되면 Watchtower을 시작할 준비가 된 것입니다. **Regtest**에서 실행 중이므로, Watchtower이 처음 연결되었을 때 Bitcoin 테스트 네트워크에서 블록이 채굴되지 않았을 가능성이 높습니다(채굴되었다면 뭔가 잘못되었다는 뜻입니다). Watchtower은 **bitcoind**의 마지막 100개 블록의 내부 캐시를 구축하므로 처음 시작할 때 다음과 같은 오류가 발생할 수 있습니다:
 
 
 
@@ -450,7 +450,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-Regtest**를 사용하기 때문에 다른 네트워크(예: Mainnet 또는 Testnet)에서 볼 수 있는 평균 10분 지연을 기다릴 필요 없이 RPC 명령을 실행하여 Miner 블록을 수행할 수 있습니다. Miner 차단 방법에 대한 자세한 내용은 **bitcoin-cli** 도움말을 참조하세요.
+**Regtest**를 사용하기 때문에 다른 네트워크(예: Mainnet 또는 Testnet)에서 볼 수 있는 평균 10분 지연을 기다릴 필요 없이 RPC 명령을 실행하여 Miner 블록을 수행할 수 있습니다. Miner 차단 방법에 대한 자세한 내용은 **bitcoin-cli** 도움말을 참조하세요.
 
 
 
@@ -489,13 +489,13 @@ Interface의 오른쪽 상단에 있는 작은 점 3개를 클릭한 다음 '**�
 
 
 
-- Watchtower 서비스**: 이 옵션을 사용하면 다른 노드의 채널을 모니터링하여 사기 시도를 감지하는 서비스, 즉 Watchtower를 운영할 수 있습니다. 침해가 발생하면 Watchtower가 Blockchain에 트랜잭션을 게시하여 사용자가 잠긴 자금을 복구할 수 있도록 합니다. 활성화되면 Watchtower의 URI가 나타나고 다른 노드에 전달되어 다른 노드가 이를 Watchtower 클라이언트에 추가할 수 있습니다;
+- **Watchtower 서비스**: 이 옵션을 사용하면 다른 노드의 채널을 모니터링하여 사기 시도를 감지하는 서비스, 즉 Watchtower를 운영할 수 있습니다. 침해가 발생하면 Watchtower가 Blockchain에 트랜잭션을 게시하여 사용자가 잠긴 자금을 복구할 수 있도록 합니다. 활성화되면 Watchtower의 URI가 나타나고 다른 노드에 전달되어 다른 노드가 이를 Watchtower 클라이언트에 추가할 수 있습니다;
 
 
 
 
 
-- Watchtower 클라이언트**: 이 옵션을 사용하면 외부 워치타워에 연결하여 자체 채널을 보호할 수 있습니다. 활성화하면 노드가 채널에 대한 필요한 정보를 전송할 Watchtower 서비스를 추가할 수 있습니다. 그러면 이러한 감시 타워가 노드의 상태를 모니터링하고 사기 시도가 있을 경우 개입합니다.
+- **Watchtower 클라이언트**: 이 옵션을 사용하면 외부 워치타워에 연결하여 자체 채널을 보호할 수 있습니다. 활성화하면 노드가 채널에 대한 필요한 정보를 전송할 Watchtower 서비스를 추가할 수 있습니다. 그러면 이러한 감시 타워가 노드의 상태를 모니터링하고 사기 시도가 있을 경우 개입합니다.
 
 
 

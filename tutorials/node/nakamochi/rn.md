@@ -74,7 +74,7 @@ _Scan QR Code na Porogaramu yo Gucungera Node_
 _Kugira ngo ubone umutekano wongereweko, shiraho kode ya PIN_
 
 
-**Iciyumviro:** _Reka node yawe ya Nakamochi ikorane na Blockchain. Ivyo bishobora gutwara umwanya bivanye n'uko ukoresha interineti.
+**Iciyumviro:** Reka node yawe ya Nakamochi ikorane na Blockchain. Ivyo bishobora gutwara umwanya bivanye n'uko ukoresha interineti.
 
 
 

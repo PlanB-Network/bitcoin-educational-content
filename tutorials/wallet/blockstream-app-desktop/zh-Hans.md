@@ -62,7 +62,7 @@ description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware
     - 功能 **Replace-by-fee (RBF)** 可加快未确认交易的速度。
 - **兼容性**：集成硬件钱包，如 **Blockstream Jade**。
 - **Interface**：为初学者提供直观操作，为专家提供高级选项。
-- 注意**：本指南侧重于在桌面版 Hardware Wallet 上使用 onchain。作为附录提供的其他教程涵盖了在移动应用程序上使用 onchain、Liquid 和仅观看功能。
+- **注意**：本指南侧重于在桌面版 Hardware Wallet 上使用 onchain。作为附录提供的其他教程涵盖了在移动应用程序上使用 onchain、Liquid 和仅观看功能。
 
 
 
@@ -205,7 +205,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- 注意**：请确保您的 Ledger 已用 PIN 码解锁，并且连接时 Bitcoin 传统应用程序处于激活状态。
+- **注意**：请确保您的 Ledger 已用 PIN 码解锁，并且连接时 Bitcoin 传统应用程序处于激活状态。
 
 
 
@@ -395,7 +395,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 验证**：仔细检查共享 Address，避免错误或攻击（如恶意软件修改剪贴板）。
+- **验证**：仔细检查共享 Address，避免错误或攻击（如恶意软件修改剪贴板）。
 - 交易在网络上广播后，将出现在您的 Wallet 中。等待 1 到 6 次确认后，交易将不可更改。
 
 

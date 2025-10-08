@@ -33,7 +33,7 @@ Fedi Wallet ni Bitcoin Wallet izana n’uburyo bushasha bwo kubika amajambo yawe
 
 
 
-- Abacungera**: Ufata ingingo yo kwizigira ikigo co hanze, uwukora Wallet, azokuzigama amajambo yo gusubizaho Wallet yawe. Nta n'ubushobozi ufise bwo kuronka canke ngo wohereze hanze Bitcoin Wallet yawe.
+- **Abacungera**: Ufata ingingo yo kwizigira ikigo co hanze, uwukora Wallet, azokuzigama amajambo yo gusubizaho Wallet yawe. Nta n'ubushobozi ufise bwo kuronka canke ngo wohereze hanze Bitcoin Wallet yawe.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Ukwizigama**: Porogaramu iraguha uburenganzira bwo kuronka amajambo yo gusubirana ukimara gukora Wallet yawe. Ushobora rero gutanga ama bitcoins yawe mu mwidegemvyo kuri Wallet igubereye cane.
+- **Ukwizigama**: Porogaramu iraguha uburenganzira bwo kuronka amajambo yo gusubirana ukimara gukora Wallet yawe. Ushobora rero gutanga ama bitcoins yawe mu mwidegemvyo kuri Wallet igubereye cane.
 
 
 
@@ -113,7 +113,7 @@ Mu **Ishirahamwe**, genda hasi ku ishirahamwe, hanyuma ukande kuri **Ibisobanuro
 
 
 
-- Wohereze ama bitcoins**: Kuri paji y’intango, fyonda ku buto **Kohereza** kugira ngo wohereze ama bitcoins ku Address ya Lightning, kugira ngo wishyure Invoice canke wishyure utari mu nzira.
+- Wohereza ama bitcoins: Kuri paji y'intango, fyonda ku buto **Kohereza** kugira ngo wohereze ama bitcoins ku Address ya Lightning, kugira ngo wishyure Invoice canke wishyure utari mu nzira.
 
 
 

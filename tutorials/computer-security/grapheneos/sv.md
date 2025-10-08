@@ -128,10 +128,10 @@ GrapheneOS startskärm
 
 
 
-_Efter den första uppstarten och installationen är det bra att inaktivera OEM-upplåsning från Inställningar > System > Utvecklaralternativ
+**Efter den första uppstarten och installationen är det bra att inaktivera OEM-upplåsning från Inställningar > System > Utvecklaralternativ**
 
 
-du kanske också vill ta det extra, valfria men rekommenderade steget att verifiera installationen via Auditor-appen. Du behöver en separat Android-telefon med appen installerad för att slutföra detta steg. Instruktioner för detta finns [här](https://attestation.app/tutorial)._
+du kanske också vill ta det extra, valfria men rekommenderade steget att verifiera installationen via Auditor-appen. Du behöver en separat Android-telefon med appen installerad för att slutföra detta steg. Instruktioner för detta finns [här](https://attestation.app/tutorial).
 
 
 

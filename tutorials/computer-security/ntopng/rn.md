@@ -160,9 +160,9 @@ Aha, mbona imirongo 3:
 
 
 
-- Lo**: iyi ni yo nzira y’inyuma Interface; ni Interface y'ukuri "izunguruka" hejuru y'ibikoresho. Mu bisanzwe, iyo Interface, Address yayo ni 127.0.0.1 (naho Address iyo ari yo yose iri muri 127.0.0.0/8 izokora, kuko iyo nzira igenewe iyo ntumbero) ikoreshwa mu gukorana n’ibikoresho ubwavyo. Niba warashizeho urubuga ku kibanza cawe co gukoreramwo (ukoresheje WAMPP, nk'akarorero), birashoboka ko warakoresheje "*localhost*" Address igihe kimwe canke ikindi kugira ngo ugaragaze urubuga rwakiriwe ku mashine yawe bwite. Iri zina ry'umushitsi rifitaniye isano na Address 127.0.0.1 rero n'ivy'inyuma vya Interface.
-- ens33**: iyi ni Interface yanje ya mbere, yaronse Address hano ivuye kuri DHCP yanje
-- ens36**: Interface yanje ya kabiri.
+- **Loopback**: iyi ni yo nzira y'inyuma Interface; ni Interface y'ukuri "izunguruka" hejuru y'ibikoresho. Mu bisanzwe, iyo Interface, Address yayo ni 127.0.0.1 (naho Address iyo ari yo yose iri muri 127.0.0.0/8 izokora, kuko iyo nzira igenewe iyo ntumbero) ikoreshwa mu gukorana n'ibikoresho ubwavyo. Niba warashizeho urubuga ku kibanza cawe co gukoreramwo (ukoresheje WAMPP, nk'akarorero), birashoboka ko warakoresheje "**localhost**" Address igihe kimwe canke ikindi kugira ngo ugaragaze urubuga rwakiriwe ku mashine yawe bwite. Iri zina ry'umushitsi rifitaniye isano na Address 127.0.0.1 rero n'ivy'inyuma vya Interface.
+- **ens33**: iyi ni Interface yanje ya mbere, yaronse Address hano ivuye kuri DHCP yanje
+- **ens36**: Interface yanje ya kabiri.
 
 
 
@@ -239,10 +239,10 @@ Aha na ho nyene, insobanuro nkeyi:
 
 
 
-- iface br0 inet idahinduka**: aha nasobanuye ikiraro canje ca Interface (*br0*) n'ikiraro kidahinduka Address.
-- Address, igipfukisho c'urubuga, irembo**: amakuru yerekeye aderesi y'urubaho
-- bridge_ports**: ibigaragara bizoshirwa mu kiraro
-- bridge_stp**: Igiti c'Igiti gikoreshwa igihe gihuza ama switch kugira ngo umenye amahuza atari ngombwa no kwirinda inzira. Kubera ko ikiraro gishobora kwinjizwa hagati y’inzira zibiri z’uruja n’uruza, gishobora kuba isoko y’uruzitiro, ni co gituma bishoboka ko iyo porotokole ishoboka. Sinkeneye hano, rero ndiko ndayizibira.
+- iface br0 inet **idahinduka**: aha nasobanuye ikiraro canje ca Interface (**br0**) n'ikiraro kidahinduka Address.
+- **Address, igipfukisho c'urubuga, irembo**: amakuru yerekeye aderesi y'urubaho
+- **bridge_ports**: ibigaragara bizoshirwa mu kiraro
+- **bridge_stp**: Igiti c'Igiti gikoreshwa igihe gihuza ama switch kugira ngo umenye amahuza atari ngombwa no kwirinda inzira. Kubera ko ikiraro gishobora kwinjizwa hagati y'inzira zibiri z'uruja n'uruza, gishobora kuba isoko y'uruzitiro, ni co gituma bishoboka ko iyo porotokole ishoboka. Sinkeneye hano, rero ndiko ndayizibira.
 
 
 
@@ -281,8 +281,8 @@ Ku mburabuzi, inkomoko z'amapaki zirimwo gusa amapaki yubahiriza DFSG (*Ingingo 
 
 
 
-- contrib**: amapaki arimwo porogaramu yubahiriza DFSG, ariko ikoresha ibishingiyeko bitari mu ishami **rikuru**
-- ntabwo ari ubuntu**: irimwo amapaki adakurikiza DFSG
+- **contrib**: amapaki arimwo porogaramu yubahiriza DFSG, ariko ikoresha ibishingiyeko bitari mu ishami **rikuru**
+- **ntabwo ari ubuntu**: irimwo amapaki adakurikiza DFSG
 
 
 

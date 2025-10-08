@@ -223,7 +223,7 @@ description: Firefoxでプライバシーを守るには？
 
 
 
-- DuckDuckGo**、**Startpage**、*Qwant**または**Brave Search**に切り替える（設定 → 検索）。
+- **DuckDuckGo**、**Startpage**、**Qwant**または**Brave Search**に切り替える（設定 → 検索）。
 
 
 

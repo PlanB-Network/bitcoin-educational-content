@@ -182,10 +182,10 @@ Biciye muri BitSpenda, [Bitcoin Dua] igamije gushinga urutonde rwiza rwo kwemera
 
 
 
-- Ibanga**: Ntukeneye gukora konti kuri platform, ntukeneye kugenzura akaranga kawe, kandi ntukeneye gutanga amakuru y’ibanga.
-- Umwidegemvyo**: Ushobora gukoresha BitSpenda uvuye mu gihugu ico ari co cose kugira ngo ukore amafaranga muri Ghana, Nijeriya na Kenya.
-- Ivyihuta**: Kwizigira amahera y’umuravyo vyatumye BitSpenda igabanya igihe co gukora no gutuma amafaranga akoreshwa mu kanya nk’ako gukubita.
-- Uguseruka**: Ibikorwa vyose wakoze kuri BitSpenda bifitaniye isano n’ibimenyetso bidasanzwe bigufasha gukurikirana no gukurikirana ingene ivyo bikorwa bigenda. Ushobora kandi gukoresha ivyo bimenyetso kugira ngo ushikire [ubufasha bw'ibikorwa kuri X](https://x.com/bitspenda).
+- **Ibanga**: Ntukeneye gukora konti kuri platform, ntukeneye kugenzura akaranga kawe, kandi ntukeneye gutanga amakuru y'ibanga.
+- **Umwidegemvyo**: Ushobora gukoresha BitSpenda uvuye mu gihugu ico ari co cose kugira ngo ukore amafaranga muri Ghana, Nijeriya na Kenya.
+- **Ivyihuta**: Kwizigira amahera y'umuravyo vyatumye BitSpenda igabanya igihe co gukora no gutuma amafaranga akoreshwa mu kanya nk'ako gukubita.
+- **Uguseruka**: Ibikorwa vyose wakoze kuri BitSpenda bifitaniye isano n'ibimenyetso bidasanzwe bigufasha gukurikirana no gukurikirana ingene ivyo bikorwa bigenda. Ushobora kandi gukoresha ivyo bimenyetso kugira ngo ushikire [ubufasha bw'ibikorwa kuri X](https://x.com/bitspenda).
 
 
 

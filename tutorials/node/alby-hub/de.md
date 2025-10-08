@@ -39,7 +39,7 @@ Wenn Sie bereits einen Knoten haben, der z.B. auf Umbrel oder Start9 gehostet wi
 Es ist auch möglich, Alby Hub direkt auf Ihrem PC zu installieren, obwohl diese Option weniger praktisch ist, da Ihr PC jederzeit aktiv bleiben muss, um aus der Ferne auf den Lightning-Knoten zuzugreifen. Diese Alternative könnte jedoch für Ihre spezifischen Bedürfnisse geeignet sein.
 
 
-- Alby Hub auf einem persönlichen Server :**
+- Alby Hub auf einem persönlichen Server:
 
 Für fortgeschrittene Benutzer kann Alby Hub mit einem einfachen Befehl auf einem persönlichen Server installiert werden. Diese Option wird in diesem Lernprogramm nicht behandelt, aber Sie können eine spezielle Anleitung [auf Alby's GitHub finden](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 

@@ -205,7 +205,7 @@ Relativamente ao Simple Login, esta ferramenta tem as seguintes caraterísticas
 
 - aplicação móvel (também da F-Droid) e extensão do navegador, para gerir pseudónimos em qualquer situação;
 - autenticação de dois factores para cada novo pseudónimo, o que aumenta o grau de independência em relação ao próprio serviço;
-- Suporte PGP (para utilizadores _Premium);
+- Suporte PGP (para utilizadores _Premium_);
 - criação simples de todos os tipos de alias (personalizado, aleatório e UUID);
 - entre os planos gratuitos do sector, a possibilidade de utilizar pseudónimos com mais caixas de correio eletrónico "oficiais". Outros concorrentes limitam a apenas uma.
 

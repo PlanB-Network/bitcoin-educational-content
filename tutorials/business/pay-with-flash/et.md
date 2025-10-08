@@ -65,7 +65,7 @@ Sõltuvalt kasutatavast Lightning Wallet-st leiate järgmised valikud:
 
 
 
-- Alby Hub** Alby Go rahakoti jaoks, Alby laiendus teie brauserile.
+- **Alby Hub** Alby Go rahakoti jaoks, Alby laiendus teie brauserile.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos**, et ühendada Bitcoin veebi CoinOS Wallet.
-- Flash Wallet** ühendamiseks Flash Wallet-ga.
-- LN link**
+- **Coinos**, et ühendada Bitcoin veebi CoinOS Wallet.
+- **Flash Wallet** ühendamiseks Flash Wallet-ga.
+- **LN link**
 
 
 

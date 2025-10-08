@@ -33,7 +33,7 @@ Watchtower 如何确定通道是否已被入侵？它从客户（通道的其中
 
 
 
-*本教程摘自 [LND 官方文档](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)。原始版本可能有一些改动
+*本教程摘自 [LND 官方文档](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)。原始版本可能有一些改动*
 
 
 
@@ -337,13 +337,13 @@ Satoshi 之眼（[Rust-TEOS](https://github.com/talaia-labs/Rust-teos)）是一�
 
 
 
-- teos**：包括命令行 Interface（CLI）和 Watchtower 的基本服务器功能。编译该_crate_时会产生两个二进制文件--**teosd**和**teos-CLI**。
+- **teos**：包括命令行 Interface（CLI）和 Watchtower 的基本服务器功能。编译该 _crate_ 时会产生两个二进制文件--**teosd** 和 **teos-CLI**。
 
 
 
 
 
-- teos-common**：包括共享的服务器端和客户端功能（对创建客户端很有用）。
+- **teos-common**：包括共享的服务器端和客户端功能（对创建客户端很有用）。
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- 服务器**：用于 RPC 请求
+- **服务器**：用于 RPC 请求
 
 
 
 
 
-- rpcuser** 和 **rpcpassword**：验证 RPC 客户端到服务器的身份
+- **rpcuser** 和 **rpcpassword**：验证 RPC 客户端到服务器的身份
 
 
 
 
 
-- regtest**：不是必填项，但在计划开发时很有用。
+- **regtest**：不是必填项，但在计划开发时很有用。
 
 
 
@@ -489,13 +489,13 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-- Watchtower 服务**：该选项可让您运行 Watchtower，即监控其他节点通道以侦测任何欺诈企图的服务。如果出现漏洞，您的 Watchtower 会在 Blockchain 上发布交易信息，使用户能够找回被锁定的资金。一旦激活，您的 Watchtower 的 URI 就会出现，并可传达给其他节点，以便它们将其添加到自己的 Watchtower 客户端；
+- **Watchtower 服务**：该选项可让您运行 Watchtower，即监控其他节点通道以侦测任何欺诈企图的服务。如果出现漏洞，您的 Watchtower 会在 Blockchain 上发布交易信息，使用户能够找回被锁定的资金。一旦激活，您的 Watchtower 的 URI 就会出现，并可传达给其他节点，以便它们将其添加到自己的 Watchtower 客户端；
 
 
 
 
 
-- Watchtower 客户端**：该选项可让您连接外部瞭望塔，保护自己的频道。激活后，您可以添加 Watchtower 服务，您的节点将向其传输有关其频道的必要信息。这些监控塔将监控它们的状态，并在出现欺诈企图时进行干预。
+- **Watchtower 客户端**：该选项可让您连接外部瞭望塔，保护自己的频道。激活后，您可以添加 Watchtower 服务，您的节点将向其传输有关其频道的必要信息。这些监控塔将监控它们的状态，并在出现欺诈企图时进行干预。
 
 
 

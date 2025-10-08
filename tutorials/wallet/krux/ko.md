@@ -25,4 +25,4 @@ description: krux DIY Bitcoin 하드웨어 서명 장치를 설정하고, 펌웨
 이 동영상이 끝날 때쯤이면 Krux를 안전한 자가 관리 대안으로 사용할 수 있는 모든 준비가 완료됩니다.
 
 
-**참고: 이 튜토리얼은 영어로만 작성된 초안일 뿐이며, 이 주제에 대한 광범위한 가이드를 작성할 사람이 필요합니다. 그런 분이라면 [텔레그램](https://t.me/PlanBNetwork_ContentBuilder/325) 또는 [깃허브](https://github.com/PlanB-Network/Bitcoin-educational-content)로 연락해 주세요
+**참고: 이 튜토리얼은 영어로만 작성된 초안일 뿐이며, 이 주제에 대한 광범위한 가이드를 작성할 사람이 필요합니다. 그런 분이라면 [텔레그램](https://t.me/PlanBNetwork_ContentBuilder/325) 또는 [깃허브](https://github.com/PlanB-Network/Bitcoin-educational-content)로 연락해 주세요.**

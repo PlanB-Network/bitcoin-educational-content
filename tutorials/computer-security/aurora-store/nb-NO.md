@@ -26,9 +26,9 @@ Aurora Store er en av de mest populære alternative appbutikkene til Google Play
 
 
 
-- En strømlinjeformet Interface**: Interface gjør deg ikke det minste urolig, så det er lett å orientere seg.
-- Tilgang til millioner av applikasjoner**: Aurora Store fungerer som en portal til et bredt spekter av mobilapplikasjoner. Hvis applikasjonen du leter etter finnes i Google Play Store, finner du den i Aurora Store.
-- Ingen Google Play-tjeneste kreves**: Takket være MicroG-teknologien kan Android-applikasjoner kjøres på telefonen din uten Google Play-tjenester.
+- En strømlinjeformet **Interface**: Interface gjør deg ikke det minste urolig, så det er lett å orientere seg.
+- **Tilgang til millioner av applikasjoner**: Aurora Store fungerer som en portal til et bredt spekter av mobilapplikasjoner. Hvis applikasjonen du leter etter finnes i Google Play Store, finner du den i Aurora Store.
+- **Ingen Google Play-tjeneste kreves**: Takket være MicroG-teknologien kan Android-applikasjoner kjøres på telefonen din uten Google Play-tjenester.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store speiler ikke bare Google Play Store, den inneholder også funksjone
 
 
 
-- Uavhengighet fra Google:**
+- **Uavhengighet fra Google:**
 
 
 
@@ -112,7 +112,7 @@ I en kontekst der du bestemmer deg for å deaktivere Google Play-tjenester for �
 
 
 
-- Last ned kontroll:**
+- Last ned kontroll:
 
 
 
@@ -126,7 +126,7 @@ Med Aurora Store kan du laste ned mobilapplikasjoner manuelt ved å angi koden t
 
 
 
-- Autorisasjoner:**
+- **Autorisasjoner:**
 
 
 I beskrivelsen av applikasjonen du ønsker å installere, finner du en fullstendig liste over autorisasjonene du vil gi til denne applikasjonen etter installasjonen.
@@ -139,7 +139,7 @@ I beskrivelsen av applikasjonen du ønsker å installere, finner du en fullstend
 
 
 
-- Analyse av databeskyttelse:**
+- Analyse av databeskyttelse:
 
 
 

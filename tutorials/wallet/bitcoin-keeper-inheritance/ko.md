@@ -26,4 +26,4 @@ https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-
 - 탭시그너 [동영상](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**참고: 이 튜토리얼은 영어로만 작성된 초안일 뿐이며, 이 주제에 대한 광범위한 가이드를 작성할 사람이 필요합니다. 그런 분이라면 [텔레그램](https://t.me/PlanBNetwork_ContentBuilder/325) 또는 [깃허브](https://github.com/PlanB-Network/Bitcoin-educational-content)로 연락해 주세요
+**참고: 이 튜토리얼은 영어로만 작성된 초안일 뿐이며, 이 주제에 대한 광범위한 가이드를 작성할 사람이 필요합니다. 그런 분이라면 [텔레그램](https://t.me/PlanBNetwork_ContentBuilder/325) 또는 [깃허브](https://github.com/PlanB-Network/Bitcoin-educational-content)로 연락해 주세요.**

@@ -51,10 +51,10 @@ Ubu, Jami iraboneka ku bikoresho vyinshi. Ni izwi cane kubera ubushobozi bwayo, 
 
 
 - Ni **open-source kandi ni ubuntu bwose**, rero urashobora kuyikoresha ataco urishe.
-- Yuzuye n’ibintu vy’ingirakamaro**: iyi porogarama igufasha kwungukira ku mahitamwo menshi, bivuye ku bushobozi bwo kwongerako plugins mu buryo bworoshe uhereye mu iduka. Birashoboka mbere ko wikorera ivyungura vyawe kugira ngo ubone ibintu bihuye n'ivyo ukeneye.
-- Biroroshe gukoresha kandi Interface intuitive**: naho Jami afise ibintu vyinshi, biracari vyoroshe cane gufata.
-- Umutekano ukomeye**: Jami ishiramwo ubuhinga buteye imbere bwo gukingira umutekano w’amakuru yawe mu gihe wubaha ubuzima bwite bwawe.
-- Ishobora gushikirwa cane kandi yihuta**: itanga ubutumwa bworoshe n’igihe bandwidth ari nke, kugira ngo umuntu ashobore gukoresha neza.
+- **Yuzuye n'ibintu vy'ingirakamaro**: iyi porogarama igufasha kwungukira ku mahitamwo menshi, bivuye ku bushobozi bwo kwongerako plugins mu buryo bworoshe uhereye mu iduka. Birashoboka mbere ko wikorera ivyungura vyawe kugira ngo ubone ibintu bihuye n'ivyo ukeneye.
+- **Biroroshe gukoresha kandi Interface intuitive**: naho Jami afise ibintu vyinshi, biracari vyoroshe cane gufata.
+- **Umutekano ukomeye**: Jami ishiramwo ubuhinga buteye imbere bwo gukingira umutekano w'amakuru yawe mu gihe wubaha ubuzima bwite bwawe.
+- Ishobora gushikirwa cane kandi yihuta: itanga ubutumwa bworoshe n'igihe bandwidth ari nke, kugira ngo umuntu ashobore gukoresha neza.
 
 
 
@@ -338,9 +338,9 @@ Jami kandi itanga **ibintu biteye imbere** ku bakoresha bipfuza kuja kure mu gut
 
 
 
-- Rema ahantu ho guhurira**: Iki gikoresho kigufasha kurema **ahantu ho guhurira** ku bijanye n’ivy’itumanaho ryawe, bifise akamaro mu gutunganya ibiganiro bitekanye canke guhanahana amakuru hagati y’abakoresha benshi.
-- Guhuza na server ya Jami**: Ushobora guhuza Jami na **server ya Jami**, bishobora gutuma ivy’itumanaho bikora neza canke bikaboneka, cane cane mu bibanza vy’umwuga.
-- Gushinga konti ya SIP**: Ushobora gushinga **konti ya SIP** (Protocole y’Itanguriro ry’Ikiganiro), bikagufasha gushiramwo Jami n’imirongo ya telefone isanzweho canke guhamagara kuri telefone.
+- **Rema ahantu ho guhurira**: Iki gikoresho kigufasha kurema **ahantu ho guhurira** ku bijanye n'ivy'itumanaho ryawe, bifise akamaro mu gutunganya ibiganiro bitekanye canke guhanahana amakuru hagati y'abakoresha benshi.
+- Guhuza na server ya Jami: Ushobora guhuza Jami na **server ya Jami**, bishobora gutuma ivy'itumanaho bikora neza canke bikaboneka, cane cane mu bibanza vy'umwuga.
+- **Gushinga konti ya SIP**: Ushobora gushinga **konti ya SIP** (Protocole y'Itanguriro ry'Ikiganiro), bikagufasha gushiramwo Jami n'imirongo ya telefone isanzweho canke guhamagara kuri telefone.
 
 
 

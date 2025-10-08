@@ -36,7 +36,7 @@ Bazı şirketler, radyatör/sunucular aracılığıyla bilgi işlem gücü ve ı
 > Evinizi ısıtmanız gerekiyorsa bilgisayarınızdan gelen ısı boşa gitmez. Yaşadığınız yerde elektrikli ısıtma kullanıyorsanız, bilgisayarınızdan gelen ısı boşa gitmez. Bu ısıyı bilgisayarınızla generate yaparsanız maliyeti aynıdır. Elektrikten daha ucuz bir ısıtma sisteminiz varsa, israf sadece maliyet farkındadır. Eğer yaz mevsimindeyseniz ve klima kullanıyorsanız, o zaman iki katına çıkar.
 > Bitcoin Mining daha ucuz olduğu yerde yer almalıdır. Belki de iklimin Cold olduğu ve ısıtmanın elektrikli olduğu yerlerde Mining ücretsiz hale gelecektir.
 
-gW-14 Nakamoto'nun 8 Ağustos 2010 tarihinde söylediği gibi._
+gW-14 Nakamoto'nun 8 Ağustos 2010 tarihinde söylediği gibi.
 
 
 Bitcoin ve onun Proof of Work'i, tüm ağ tarafından yapılan hesaplama miktarına bağlı olarak Mining zorluğunu otomatik olarak ayarladıkları için öne çıkmaktadır, bu miktar Hashrate olarak adlandırılır ve saniyede hash olarak ifade edilir. Bugün saniyede 280 Exahash ya da saniyede 280 milyar milyar hash olduğu tahmin edilmektedir. Bu Hashrate işi ve dolayısıyla harcanan enerji miktarını temsil eder. Hashrate ne kadar yüksek olursa zorluk da o kadar artar ve bunun tersi de geçerlidir. Bu nedenle, bir Bitcoin Miner, hizmetlerini sunmak için sabit kalması gereken radyatör / sunucuların aksine, ağ üzerinde herhangi bir etkisi olmadan herhangi bir zamanda etkinleştirilebilir veya devre dışı bırakılabilir. Miner, bu katılım ne kadar küçük olursa olsun, diğerlerinin çalışmalarına göre yapılan iş için ödüllendirilir.
@@ -58,7 +58,7 @@ Kurallara uygun madencilik yapan dürüst aktörler, yeni bloklar üretmenin öd
 
 > İlk başta, çoğu kullanıcı ağ düğümlerini çalıştıracaktı, ancak ağ belirli bir noktadan sonra büyüdükçe, özel donanımlardan oluşan sunucu çiftlikleriyle uzmanlara daha fazla bırakılacaktı. Bir sunucu çiftliğinin ağ üzerinde yalnızca bir düğüm çalıştırması gerekir ve LAN'ın geri kalanı bu tek düğüme bağlanır.
 
-gW-26 Nakamoto'nun 2 Kasım 2008 tarihinde belirttiği gibi_
+gW-26 Nakamoto'nun 2 Kasım 2008 tarihinde belirttiği gibi
 
 
 Bazı kuruluşlar toplam Hashrate'nin önemli bir yüzdesini büyük Mining çiftliklerinde tutmaktadır. Amerika Birleşik Devletleri'ndeki son Cold dalgasında, Hashrate'nin önemli bir kısmının, enerjiyi olağanüstü elektrik ihtiyacı olan hanelere yönlendirmek için devre dışı bırakıldığını gözlemleyebiliriz. Birkaç gün boyunca madenciler ekonomik olarak çiftliklerini kapatmaya teşvik edildi ve bu nedenle bu istisnai hava durumunu Bitcoin Hashrate eğrisinde görebiliriz.

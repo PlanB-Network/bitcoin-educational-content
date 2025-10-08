@@ -36,7 +36,7 @@ Mu ncamake, kugira ngo ubone Multisig Wallet, utegerezwa :
 
 
 
-Ubwo burongozi bw’ibiharuro vya Multisig Wallet bufashwa n’ibisobanuro vy’inyandiko z’isohoka*, bikoranya amakuru yose ya bose asabwa kugira ngo umuntu ashobore kuronka ayo mahera. Ariko rero, iyo nzira ntirashirwa mu ngiro muri porogarama zose zo gucunga Wallet.
+Ubwo burongozi bw'ibiharuro vya Multisig Wallet bufashwa n'ibisobanuro vy'inyandiko z'isohoka, bikoranya amakuru yose ya bose asabwa kugira ngo umuntu ashobore kuronka ayo mahera. Ariko rero, iyo nzira ntirashirwa mu ngiro muri porogarama zose zo gucunga Wallet.
 
 
 

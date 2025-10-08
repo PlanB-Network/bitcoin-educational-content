@@ -16,7 +16,7 @@ Bitkit is een mobiele Wallet die u in staat stelt om uw Bitcoin echt Ownership t
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-de bovenstaande video-tutorial is een 20' uitgebreide gids voor Bitkit Wallet_
+de bovenstaande video-tutorial is een 20' uitgebreide gids voor Bitkit Wallet
 
 
 ## Gids

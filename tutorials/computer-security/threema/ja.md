@@ -86,7 +86,7 @@ Androidでは、[APK経由でインストール](https://shop.threema.ch/en/down
 
 
 
-[Threema Shop*」（https://shop.threema.ch/）にアクセスし、「*Threema for Android*を購入する」ボタンをクリックしてください。
+[Threema Shop](https://shop.threema.ch/)にアクセスし、「**Threema for Android**を購入する」ボタンをクリックしてください。
 
 
 
@@ -238,7 +238,7 @@ ThreemaIDと電話番号をリンクさせることができます。これに�
 
 
 
-Security*"タブでは、アプリケーションへのアクセスを保護するために "*Locking mechanism*"オプションを有効にすることをお勧めします。また、ローカルバックアップを保護するためにpassphraseを有効にすることをお勧めします。
+"Security"タブでは、アプリケーションへのアクセスを保護するために "Locking mechanism"オプションを有効にすることをお勧めします。また、ローカルバックアップを保護するためにpassphraseを有効にすることをお勧めします。
 
 
 

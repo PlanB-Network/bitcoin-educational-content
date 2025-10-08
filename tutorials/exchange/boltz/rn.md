@@ -25,10 +25,10 @@ Ariko rero, hari ingorane ikomeye yasigaye hagati y’ibice vy’amasezerano ya 
 
 
 
-- on chain**: Uruhererekane rwa Bitcoin aho amafaranga yemezwa buri minota 10 ku rugero rwa mwayeni, amafaranga y’amafaranga akenshi aba ari menshi, ivyo bikaba bidashobora gushitsa ivyo abakoresha bakeneye ;
-- Lightning Network**: Igipfukisho ca Bitcoin co kwishura ubwo nyene ku mahera make, kigatuma Bitcoin ikoreshwa mu kwishura ku musi ku musi;
-- Liquid Network**: igipfukisho ca Bitcoin cakozwe na Blockstream, gishoboza kwihuta, Confidential Transactions n’ugukoresha ibindi bikoresho vy’ivy’ubutunzi bishingiye kuri Bitcoin;
-- RootStock**: Umuti wo gutegura amasezerano y’ubwenge ashingiye ku masezerano ya Bitcoin.
+- **on chain**: Uruhererekane rwa Bitcoin aho amafaranga yemezwa buri minota 10 ku rugero rwa mwayeni, amafaranga y'amafaranga akenshi aba ari menshi, ivyo bikaba bidashobora gushitsa ivyo abakoresha bakeneye ;
+- **Lightning Network**: Igipfukisho ca Bitcoin co kwishura ubwo nyene ku mahera make, kigatuma Bitcoin ikoreshwa mu kwishura ku musi ku musi;
+- **Liquid Network**: igipfukisho ca Bitcoin cakozwe na Blockstream, gishoboza kwihuta, Confidential Transactions n'ugukoresha ibindi bikoresho vy'ivy'ubutunzi bishingiye kuri Bitcoin;
+- **RootStock**: Umuti wo gutegura amasezerano y'ubwenge ashingiye ku masezerano ya Bitcoin.
 
 
 

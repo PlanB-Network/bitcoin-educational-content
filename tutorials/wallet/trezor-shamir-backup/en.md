@@ -26,7 +26,7 @@ This system solves the problem of the single point of failure of the mnemonic ph
 Users who have created a wallet with *Single-share Backup* can switch to *Multi-share Backup* at any time without having to migrate their wallet. Receiving addresses and accounts will remain identical. The *Multi-share* system only affects the backup, while the rest of the wallet remains unchanged.
 
 
-Multi-share Backup* is available on the Trezor Model T, Safe 3 and Safe 5. This feature is not supported by the Trezor Model One.
+**Multi-share Backup** is available on the Trezor Model T, Safe 3 and Safe 5. This feature is not supported by the Trezor Model One.
 
 
 **Important note:** Trezor's *Multi-share* system is cryptographically secure, as it uses the *Shamir's Secret Sharing* scheme for distribution. We strongly advise against applying a similar system manually, by dividing a classic mnemonic phrase yourself. It's a bad practice that significantly increases the risk of theft and loss of your bitcoins, so don't do it. A classic mnemonic phrase is stored in its entirety.

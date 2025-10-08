@@ -346,7 +346,7 @@ Extraia o suporte de dados com o ficheiro `.PSBT` e ligue-o ao computador offlin
 
 
 
-A partir do Wallet, selecionar o menu _Ferramentas_, depois _Carregar transacção_ e a seguir De ficheiro_.
+A partir do Wallet, selecionar o menu _Ferramentas_, depois _Carregar transacção_ e a seguir _De ficheiro_.
 
 
 
@@ -441,7 +441,7 @@ As únicas coisas a que terá de prestar muita atenção são duas:
 
 
 
-como se pode ver na imagem acima, o Wallet offline não conhece a sua própria história do Address. É totalmente cego a este respeito. **A única tarefa que pode fazer por si é armazenar as suas chaves offline e assinar as suas transacções**_.
+como se pode ver na imagem acima, o Wallet offline não conhece a sua própria história do Address. É totalmente cego a este respeito. **A única tarefa que pode fazer por si é armazenar as suas chaves offline e assinar as suas transacções**.
 
 
 

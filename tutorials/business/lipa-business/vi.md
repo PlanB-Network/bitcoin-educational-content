@@ -130,10 +130,10 @@ Quá trình thu thập tương tự như quá trình giao dịch thông thườn
 
 
 
-- Nhập số tiền**: Trên màn hình thanh toán, nhập số tiền bằng nội tệ (CHF hoặc EUR). Ví dụ: cho một cốc cà phê 4,50 CHF, hãy nhập 4,50
-- Tạo Invoice**: Ứng dụng ngay lập tức chuyển đổi số tiền thành satoshi theo tỷ giá hiện tại và tạo ra Lightning Invoice dưới dạng mã QR
-- Thanh toán của khách hàng**: Khách hàng quét mã QR bằng Wallet Lightning và xác nhận thanh toán
-- Xác nhận**: Thanh toán được xác nhận trong vòng vài giây, với màn hình hiển thị thành công
+- **Nhập số tiền**: Trên màn hình thanh toán, nhập số tiền bằng nội tệ (CHF hoặc EUR). Ví dụ: cho một cốc cà phê 4,50 CHF, hãy nhập 4,50
+- **Tạo Invoice**: Ứng dụng ngay lập tức chuyển đổi số tiền thành satoshi theo tỷ giá hiện tại và tạo ra Lightning Invoice dưới dạng mã QR
+- **Thanh toán của khách hàng**: Khách hàng quét mã QR bằng Wallet Lightning và xác nhận thanh toán
+- **Xác nhận**: Thanh toán được xác nhận trong vòng vài giây, với màn hình hiển thị thành công
 
 
 
@@ -207,11 +207,11 @@ Quá trình thu thập tương tự như quá trình giao dịch thông thườn
 
 
 
-- Dịch vụ ăn uống**: Các quán bar, nhà hàng, quán cà phê sẽ được phép mở thêm nhân viên tại Bitcoin kèm theo quản lý tiền boa
-- Bán lẻ**: Các cửa hàng tạp hóa, tiệm bánh mở rộng phương thức thanh toán mà không tính phí cố định
-- Những người bán hàng rong**: xe tải bán đồ ăn, chợ, lễ hội chỉ với một chiếc điện thoại thông minh
-- Sự kiện**: Gian hàng tạm thời với các giải pháp sẵn sàng sử dụng
-- Dịch vụ**: Tư vấn, thợ thủ công cho thanh toán một lần tại Bitcoin
+- **Dịch vụ ăn uống**: Các quán bar, nhà hàng, quán cà phê sẽ được phép mở thêm nhân viên tại Bitcoin kèm theo quản lý tiền boa
+- **Bán lẻ**: Các cửa hàng tạp hóa, tiệm bánh mở rộng phương thức thanh toán mà không tính phí cố định
+- **Những người bán hàng rong**: xe tải bán đồ ăn, chợ, lễ hội chỉ với một chiếc điện thoại thông minh
+- **Sự kiện**: Gian hàng tạm thời với các giải pháp sẵn sàng sử dụng
+- **Dịch vụ**: Tư vấn, thợ thủ công cho thanh toán một lần tại Bitcoin
 
 
 

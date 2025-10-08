@@ -25,7 +25,7 @@ description: コントロールを維持したまま、異なるBitcoinレイヤ
 
 
 
-- on chain**：Bitcoinのメイン・チェーンでは、平均10分ごとに取引が確認されるため、取引手数料が高くなりがちで、必ずしもユーザーのニーズを満たしていない；
+- **on chain**：Bitcoinのメイン・チェーンでは、平均10分ごとに取引が確認されるため、取引手数料が高くなりがちで、必ずしもユーザーのニーズを満たしていない；
 - **Lightning Network**：Bitcoinのオーバーレイを使用することで、低手数料で即時決済が可能となり、Bitcoinを日々の決済に使用することができる；
 - **Liquid Network**：ブロックストリームが作成したBitcoinのオーバーレイで、高速のConfidential Transactionsと他のBitcoinベースの金融商品の使用を可能にする；
 - **RootStock**：Bitcoinプロトコルに基づくスマートコントラクトを開発するためのソリューション。

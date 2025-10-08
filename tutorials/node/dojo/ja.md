@@ -74,7 +74,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-*最低スペック：***。
+**最低スペック：**。
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-**推奨機材
+**推奨機材**
 
 
 
@@ -160,7 +160,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-Ubuntuのホーム画面が表示されます。Ubuntu*を試すかインストールする」を選択します。
+Ubuntuのホーム画面が表示されます。**Ubuntuを試すかインストールする**を選択します。
 
 
 
@@ -176,7 +176,7 @@ Ubuntuのホーム画面が表示されます。Ubuntu*を試すかインスト�
 - 言語を選択します。
 - キーボードの種類を選択します。
 - RJ45ケーブルで接続している場合は、Wi-Fiの設定は不要です。
-- Ubuntu*のインストール」をクリックし、サードパーティ製ソフトウェア（Wi-Fiドライバ、マルチメディアコーデックなど）をインストールするオプションにチェックを入れる。
+- **Ubuntu**のインストール」をクリックし、サードパーティ製ソフトウェア（Wi-Fiドライバ、マルチメディアコーデックなど）をインストールするオプションにチェックを入れる。
 - ウィザードがインストールの種類を尋ねたら、「*Erase disk and install Ubuntu*」を選択します。 **警告**: この操作はディスクの内容を完全に消去します。選択したディスクがDojo用のNVMe SSDに対応していることをよく確認してください。
 - 簡単なユーザー名を作成する（例："*loic*"）。
 - マシンに名前を付ける（例："*dojo-node*"）。
@@ -273,7 +273,7 @@ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent softwa
 
 
 
-インストール中、システムから確認を求められることがあります。y*」キーを押し、「*Enter*」を押してください。
+インストール中、システムから確認を求められることがあります。**y**キーを押し、**Enter**を押してください。
 
 
 
@@ -650,7 +650,7 @@ Dojo はバックエンドサーバーで、ポートフォリオと対話し、
 - mysql_password`。
 - nODE_API_KEY`
 - node_admin_key`。
-- ノード_jwt_secret`。
+- ノード`jwt_secret`。
 
 
 
@@ -705,7 +705,7 @@ BITCOIND_RPC_PASSWORD=your-password-here
 
 
 
-⚠️ ***`your-ID-here`と`your-password-here`を自分のログイン名（強力なパスワード付き）に置き換えてください。
+⚠️ **`your-ID-here`と`your-password-here`を自分のログイン名（強力なパスワード付き）に置き換えてください。**
 
 
 
@@ -756,7 +756,7 @@ MYSQL_PASSWORD=your-password-here
 
 
 
-⚠️ ***「your-ID-here`」と「your-password-here`」を自分のログイン名（強力でユニークなパスワード）に置き換える。
+⚠️ **「your-ID-here」と「your-password-here」を自分のログイン名（強力でユニークなパスワード）に置き換える。**
 
 
 
@@ -863,7 +863,7 @@ NODE_JWT_SECRET=your-password-here
 
 
 
-⚠️ ***your-password-here` をあなた自身の認証情報（強力でユニークなパスワード）に置き換えてください。
+⚠️ **`your-password-here` をあなた自身の認証情報（強力でユニークなパスワード）に置き換えてください。**
 
 
 
@@ -1044,7 +1044,7 @@ Ctrl + C
 
 
 
-起動時に Bitcoin core は 2009 年以降の Blockchain をすべてダウンロードし、検証する必要がある。このステップは***Initial Block Download* (IBD)***と呼ばれます。これは、Dojoノードが各Bitcoinブロックとトランザクションを独立して検証できるようにするために不可欠です。
+起動時に Bitcoin core は 2009 年以降の Blockchain をすべてダウンロードし、検証する必要がある。このステップは***Initial Block Download (IBD)***と呼ばれます。これは、Dojoノードが各Bitcoinブロックとトランザクションを独立して検証できるようにするために不可欠です。
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **このAddressの秘密は厳守してください。
+⚠️ **このAddressの秘密は厳守してください。**
 
 
 
@@ -1358,7 +1358,7 @@ Bitcoinノットが最も多いProof of Workでワープヘッドと同期し、
 
 
 
-足軽アプリでは、Walletを作成または復元した後に初めて起動すると、「*道場サーバーの設定*」のページにリダイレクトされます。QRスキャン*」を押し、DMTに表示されているQRコードを読み取ってください。
+足軽アプリでは、Walletを作成または復元した後に初めて起動すると、「**道場サーバーの設定**」のページにリダイレクトされます。「**QRスキャン**」を押し、DMTに表示されているQRコードを読み取ってください。
 
 
 
@@ -1426,7 +1426,7 @@ Block Explorer =
 
 
 
-⚠️ **このAddressの秘密は厳守してください。
+⚠️ **このAddressの秘密は厳守してください。**
 
 
 

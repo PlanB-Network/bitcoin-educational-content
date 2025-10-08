@@ -51,19 +51,19 @@ Before I show you step-by-step how to borrow on Debifi, there are a few points I
 
 
 
-- Origination fees** are one-off charges levied at the time a loan is granted, and calculated as a percentage of the amount borrowed. These fees cover administrative, operational and management costs.
+- **Origination fees** are one-off charges levied at the time a loan is granted, and calculated as a percentage of the amount borrowed. These fees cover administrative, operational and management costs.
 
 
 
-- Collateral** is an asset you deposit to secure a loan. In Debifi's case, the collateral is Bitcoin (BTC), which the borrower deposits in the Multisig 3/4 escrow.
+- **Collateral** is an asset you deposit to secure a loan. In Debifi's case, the collateral is Bitcoin (BTC), which the borrower deposits in the Multisig 3/4 escrow.
 
 
 
-- The Multisig escrow (3/4)** system is a secure deposit mechanism where a borrower's bitcoins are placed in a multi-signature address. Specifically, four (4) parties each hold a key (borrower, lender, Debifi, independent third party). To move funds, at least 3 out of 4 signatures are required.
+- The **Multisig escrow (3/4)** system is a secure deposit mechanism where a borrower's bitcoins are placed in a multi-signature address. Specifically, four (4) parties each hold a key (borrower, lender, Debifi, independent third party). To move funds, at least 3 out of 4 signatures are required.
 
 
 
-- A stablecoin** is a cryptocurrency whose value is pegged to a stable asset (e.g. US dollar), which avoids the volatility of Bitcoin. For example, 1 USDC is always worth ~$1, as it is backed by fiat reserves.
+- A **stablecoin** is a cryptocurrency whose value is pegged to a stable asset (e.g. US dollar), which avoids the volatility of Bitcoin. For example, 1 USDC is always worth ~$1, as it is backed by fiat reserves.
 
 
 

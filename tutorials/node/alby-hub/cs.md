@@ -33,7 +33,7 @@ Alby Cloud je placená služba [Podívejte se na jejich ceny](https://albyhub.co
 Pokud již máte uzel umístěný například na platformě Umbrel nebo Start9, lze Alby Hub použít jako rozhraní pro pokročilou správu stejně jako ThunderHub nebo RTL.
 
 
-- Místní centrum Alby Hub :**
+- Místní centrum Alby Hub:
 
 Je také možné nainstalovat Alby Hub přímo na váš počítač, i když tato možnost je méně praktická, protože váš počítač musí zůstat neustále aktivní, aby bylo možné vzdáleně přistupovat k Lightning uzlu. Tato alternativa však může být vhodná pro vaše specifické potřeby.
 

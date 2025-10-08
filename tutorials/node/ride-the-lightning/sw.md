@@ -684,10 +684,10 @@ Ili kujua zaidi:
 
 - Tovuti rasmi ya RTL: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Majadiliano ya kiufundi, matangazo ya mradi, maoni na rasilimali za elimu
-- Jukwaa la Jumuiya ya Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Jukwaa rasmi lenye sehemu maalum ya Bitcoin/Lightning, miongozo na masuluhisho ya matatizo ya kawaida
-- Wasanidi wa Lightning Network**: [github.com/lightning](https://github.com/lightning) - Hazina Rasmi ya GitHub kwa kufuata usanidi na kuchangia msimbo wa chanzo
-- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Maswali na Majibu ya Kiufundi pamoja na wasanidi programu na watumiaji wa hali ya juu
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Majadiliano ya kiufundi, matangazo ya mradi, maoni na rasilimali za elimu
+- **Jukwaa la Jumuiya ya Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Jukwaa rasmi lenye sehemu maalum ya Bitcoin/Lightning, miongozo na masuluhisho ya matatizo ya kawaida
+- **Wasanidi wa Lightning Network**: [github.com/lightning](https://github.com/lightning) - Hazina Rasmi ya GitHub kwa kufuata usanidi na kuchangia msimbo wa chanzo
+- **Stack Exchange Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Maswali na Majibu ya Kiufundi pamoja na wasanidi programu na watumiaji wa hali ya juu
 
 
 

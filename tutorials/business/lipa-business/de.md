@@ -130,10 +130,10 @@ Das Inkassoverfahren ist ähnlich wie bei einer herkömmlichen Transaktion:
 
 
 
-- Betrag eingeben**: Geben Sie auf dem Zahlungsbildschirm den Betrag in der Landeswährung (CHF oder EUR) ein. Beispiel: für einen Kaffee zu 4,50 CHF geben Sie 4,50 ein
-- Invoice-Generierung** : Die Anwendung rechnet den Betrag sofort in Satoshis zum aktuellen Kurs um und generiert einen Lightning Invoice in Form eines QR-Codes
-- Kundenzahlung** : Der Kunde scannt den QR-Code mit seinem Wallet Lightning und validiert die Zahlung
-- Bestätigung** : Die Zahlung wird innerhalb von Sekunden bestätigt, mit visueller Anzeige des Erfolgs
+- **Betrag eingeben**: Geben Sie auf dem Zahlungsbildschirm den Betrag in der Landeswährung (CHF oder EUR) ein. Beispiel: für einen Kaffee zu 4,50 CHF geben Sie 4,50 ein
+- **Invoice-Generierung**: Die Anwendung rechnet den Betrag sofort in Satoshis zum aktuellen Kurs um und generiert einen Lightning Invoice in Form eines QR-Codes
+- **Kundenzahlung**: Der Kunde scannt den QR-Code mit seinem Wallet Lightning und validiert die Zahlung
+- **Bestätigung**: Die Zahlung wird innerhalb von Sekunden bestätigt, mit visueller Anzeige des Erfolgs
 
 
 
@@ -207,11 +207,11 @@ Das Inkassoverfahren ist ähnlich wie bei einer herkömmlichen Transaktion:
 
 
 
-- Gastronomie**: Bars, Restaurants, Cafés, die Aufschläge in Bitcoin mit Trinkgeldmanagement akzeptieren
-- Einzelhandel**: Lebensmittelgeschäfte, Bäckereien zur Ausweitung der Zahlungsmöglichkeiten ohne feste Gebühren
-- Nomadische Verkäufer**: Imbisswagen, Märkte, Festivals mit nur einem Smartphone
-- Veranstaltungen** : Temporäre Stände mit gebrauchsfertigen Lösungen
-- Dienstleistungen**: Berater, Handwerker für einmalige Abrechnung in Bitcoin
+- **Gastronomie**: Bars, Restaurants, Cafés, die Aufschläge in Bitcoin mit Trinkgeldmanagement akzeptieren
+- **Einzelhandel**: Lebensmittelgeschäfte, Bäckereien zur Ausweitung der Zahlungsmöglichkeiten ohne feste Gebühren
+- **Nomadische Verkäufer**: Imbisswagen, Märkte, Festivals mit nur einem Smartphone
+- **Veranstaltungen**: Temporäre Stände mit gebrauchsfertigen Lösungen
+- **Dienstleistungen**: Berater, Handwerker für einmalige Abrechnung in Bitcoin
 
 
 

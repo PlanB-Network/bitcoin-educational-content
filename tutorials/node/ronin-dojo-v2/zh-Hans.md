@@ -4,7 +4,7 @@ description: 在树莓派上安装您的RoninDojo v2比特币节点
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-**警告：** 继Samourai Wallet创始人于4月24日被捕，其服务器被查封之后，RoninDojo的某些功能，如Whirlpool，已不再可用。然而，这些工具有可能在未来几周内重新启用或以不同方式重新推出。此外，由于RoninDojo的代码托管在同样被查封的Samourai的GitLab上，目前无法远程下载代码。RoninDojo团队很可能正在努力重新发布代码。*
+**警告：** 继Samourai Wallet创始人于4月24日被捕，其服务器被查封之后，RoninDojo的某些功能，如Whirlpool，已不再可用。然而，这些工具有可能在未来几周内重新启用或以不同方式重新推出。此外，由于RoninDojo的代码托管在同样被查封的Samourai的GitLab上，目前无法远程下载代码。RoninDojo团队很可能正在努力重新发布代码。
 
 _我们正在密切关注此案件的发展以及与之相关工具的发展情况。请放心，一旦有新信息，我们将更新本教程。_
 
@@ -242,7 +242,7 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 
 **如果您正在从旧的RoninDojo v1节点**迁移到这个新版本，并且保持使用相同的SSD，那么您的节点应该会自动检测并重用磁盘上现有的数据，免去了再次执行IBD的必要。在这种情况下，您只需等待节点与最新的区块重新同步。
 
-### 第8步："veth* 修复"
+### 第8步："veth 修复"
 如果您在Raspberry Pi上遇到RoninDojo v2的一个bug，即在无故障安装后，您的节点突然通过SSH变得无法访问，但在简单重启后恢复，那么您需要执行第8步。这个常见的bug可以通过社区开发的解决方案轻松修复：即"_veth修复_"。这个小修正可以永久解决突然断线的问题。以下是如何应用它。
 
 在您的个人电脑上打开一个新的终端，并使用以下命令与您的节点建立SSH连接：
@@ -252,7 +252,7 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 `SSH ronindojo@192.168.1.40`
 
 系统会提示您输入用户密码。输入密码并按`enter`键确认。然后您将进入RoninCLI界面。使用键盘的箭头键导航到`Exit RoninDojo`选项，并按`enter`键选择它。
-此时，您正处于节点的终端上，命令提示符类似于：`ronindojo@RoninDojo:~ $`。要应用veth*修复，请输入以下命令并按`enter`键：`sudo nano /etc/dhcpcd.conf`
+此时，您正处于节点的终端上，命令提示符类似于：`ronindojo@RoninDojo:~ $`。要应用veth修复，请输入以下命令并按`enter`键：`sudo nano /etc/dhcpcd.conf`
 
 再次确认您的密码并按`enter`键。
 
@@ -499,4 +499,3 @@ $$ED = 1.054 \text{ 比特}$$
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/介绍boltzmann-85930984a159](https://medium.com/@laurentmt/介绍boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
-

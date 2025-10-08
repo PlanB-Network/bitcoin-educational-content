@@ -71,7 +71,7 @@ Nmap 的优势很多：
 
 
 
-Nmap 是少数几个在公众中享有一定知名度的安全工具之一。它曾出现在电影《黑客帝国重装上阵》（Matrix Reloaded_）中，崔妮蒂使用它入侵系统的场景极具代表性：
+Nmap 是少数几个在公众中享有一定知名度的安全工具之一。它曾出现在电影《黑客帝国重装上阵》（Matrix Reloaded）中，崔妮蒂使用它入侵系统的场景极具代表性：
 
 
 
@@ -366,7 +366,7 @@ nmap --version
 
 
 
-显示当前 Nmap._ 版本的结果。
+显示当前 Nmap 版本的结果。
 
 
 
@@ -451,7 +451,7 @@ nmap --version
 
 
 
-显示当前 Nmap._ 版本的结果。
+显示当前 Nmap 版本的结果。
 
 
 
@@ -611,7 +611,7 @@ nmap 192.168.1.18
 
 
 
-使用 Nmap._ 进行简单 TCP 扫描的结果
+使用 Nmap 进行简单 TCP 扫描的结果
 
 
 
@@ -857,7 +857,7 @@ nmap -sU 192.168.1.19
 
 
 
-使用 Nmap._ 进行简单 UDP 扫描的结果。
+使用 Nmap 进行简单 UDP 扫描的结果。
 
 
 
@@ -909,7 +909,7 @@ UDP 的第二个难点是**服务并不总是响应传入的数据包**，原因
 
 
 
-摘自 RFC 1122._
+摘自 RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ UDP 的第二个难点是**服务并不总是响应传入的数据包**，原因
 
 
 
-使用 Nmap._ 对不同端口进行 UDP 扫描时的网络捕获。
+使用 Nmap 对不同端口进行 UDP 扫描时的网络捕获。
 
 
 
@@ -956,7 +956,7 @@ UDP 的第二个难点是**服务并不总是响应传入的数据包**，原因
 
 
 
-通过 Nmap._ 进行 UDP 扫描的可能结果
+通过 **Nmap** 进行 UDP 扫描的可能结果
 
 
 
@@ -1706,7 +1706,7 @@ nmap 192.168.0.0/24 --exclude 192.168.0.4 -p-
 
 
 
-- Probe"：这是 Nmap 将发送的数据包的定义，目的是引起要识别的服务作出反应。把它想象成类似 _Hello?Guten Tag?你好？嗯......也许是 Buenos Dias？一旦目标服务收到它能理解的探测（即使用正确的协议），它就会响应 Nmap，Nmap 就能确认它是哪种服务。
+- Probe"：这是 Nmap 将发送的数据包的定义，目的是引起要识别的服务作出反应。把它想象成类似 _Hello?Guten Tag?你好？嗯......也许是 Buenos Dias？_ 一旦目标服务收到它能理解的探测（即使用正确的协议），它就会响应 Nmap，Nmap 就能确认它是哪种服务。
 
 
 
@@ -1749,7 +1749,7 @@ Nmap的"/usr/share/nmap/nmap-service-probes "文件中的探测示例
 
 
 
-Nmap 使用的几个探针的示例，这些探针存在于文件 `/usr/share/nmap/nmap-service-probes`._ 中。
+Nmap 使用的几个探针的示例，这些探针存在于文件 `/usr/share/nmap/nmap-service-probes` 中。
 
 
 
@@ -1912,7 +1912,7 @@ nmap 192.168.1.0/24 -sV --version-intensity 9
 
 
 
-文件 `/usr/share/nmap/nmap-service-probes`._ 中稀有度为 8 和 9 的探针示例
+文件 `/usr/share/nmap/nmap-service-probes` 中稀有度为 8 和 9 的探针示例
 
 
 
@@ -2109,7 +2109,7 @@ nmap -sC -p- 10.10.10.152
 
 
 
-通过 Nmap._ 对主机进行漏洞扫描的结果示例
+通过 Nmap 对主机进行漏洞扫描的结果示例
 
 
 
@@ -2264,7 +2264,7 @@ Nmap 的 NSE 脚本允许您以高度灵活的方式扩展其功能。它们是�
 
 
 
-nSE 脚本类别 `ftp-anon`._
+nSE 脚本类别 `ftp-anon`.
 
 
 
@@ -2296,7 +2296,7 @@ nSE 脚本类别 `ftp-anon`._
 
 
 
-名称以 `ftp-`._ 开头的 NSE Nmap 脚本列表
+名称以 `ftp-` 开头的 NSE Nmap 脚本列表
 
 
 
@@ -2441,7 +2441,7 @@ nmap --script ftp-anon -p 21 10.10.10.152
 
 
 
-通过 Nmap._ 在 FTP 端口上使用 NSE `ftp-anon` 脚本的结果
+通过 Nmap 在 FTP 端口上使用 NSE `ftp-anon` 脚本的结果
 
 
 
@@ -2468,7 +2468,7 @@ nmap --script ftp-anon 10.10.10.152
 
 
 
-帮助显示 NSE 脚本 `sshv1`._ 的结果
+帮助显示 NSE 脚本 `sshv1` 的结果
 
 
 
@@ -2500,7 +2500,7 @@ nmap --script ftp-anon 10.10.10.152
 
 
 
-显示 NSE `ssh-brute` 脚本帮助并链接到 nmap.org._ 的结果
+显示 NSE `ssh-brute` 脚本帮助并链接到 nmap.org 的结果
 
 
 
@@ -2543,7 +2543,7 @@ nmap --script ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist 
 
 
 
-通过 Nmap._ 强制执行 SSH 的结果
+通过 **Nmap** 强制执行 SSH 的结果
 
 
 
@@ -2838,7 +2838,7 @@ firefox "Nmap – rapport web 05-2024.html"
 
 
 
-从 xsltproc._ 生成的 HTML 格式 Nmap 扫描报告中提取内容
+从 **xsltproc** 生成的 HTML 格式 Nmap 扫描报告中提取内容
 
 
 
@@ -2860,7 +2860,7 @@ XSLT（可扩展样式表语言转换）是 XSL 的一个子集，可将 XML 数
 
 
 
-来源：[helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+来源：[helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ XSLT（可扩展样式表语言转换）是 XSL 的一个子集，可将 XML 数
 
 
 
-使用 `-v`._选项查看 nmap 的冗余输出
+使用 `-v` 选项查看 nmap 的冗余输出
 
 
 
@@ -2900,7 +2900,7 @@ XSLT（可扩展样式表语言转换）是 XSL 的一个子集，可将 XML 数
 
 
 
-通过`--packet-trace`._详细监控 Nmap 活动。
+通过`--packet-trace`**详细监控 Nmap 活动。**
 
 
 
@@ -3120,7 +3120,7 @@ Aquatone 通常在主机上执行端口发现以查找网络服务，而在这�
 
 
 
-使用 XML 格式的 Nmap 结果与 `aquatone`._
+使用 XML 格式的 Nmap 结果与 `aquatone`。
 
 
 
@@ -3465,7 +3465,7 @@ Nmap 生成的结果可被视为敏感信息，尤其是当这些结果包含信
 
 
 
-通过 `sudo`._ 提升 Nmap 权限
+通过 `sudo` 提升 Nmap 权限
 
 
 
@@ -3509,7 +3509,7 @@ Nmap 生成的结果可被视为敏感信息，尤其是当这些结果包含信
 
 
 
-Nmap._ 中提供的扫描技术。
+Nmap 中提供的扫描技术。
 
 
 
@@ -3598,7 +3598,7 @@ Nmap._ 中提供的扫描技术。
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ TCP FIN 扫描无法在 Windows 主机上运行，因为当 TCP FIN 数据包发
 
 
 
-Nmap._ 进行 TCP FIN 扫描的结果。
+**Nmap** 进行 TCP FIN 扫描的结果。
 
 
 
@@ -3892,7 +3892,7 @@ nmap -sX 192.168.1.15
 
 
 
-注意：最近版本的 Windows 对 XMAS/FIN/NULL 扫描的支持仍然有限，对此类目标的扫描结果可能不一致。(2025年更新)_
+注意：最近版本的 Windows 对 XMAS/FIN/NULL 扫描的支持仍然有限，对此类目标的扫描结果可能不一致。(2025年更新)
 
 
 
@@ -3983,7 +3983,7 @@ TCP ACK 扫描用于检测目标主机上或目标与扫描源之间是否存在
 
 
 
-在 TCP ACK 扫描期间显示 nmap._
+在 TCP ACK 扫描期间显示 **nmap**。
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-注意："-sP "选项已过时多年，应改为"-sn"。(2025年更新)_
+注意："-sP "选项已过时多年，应改为"-sn"。(2025年更新)
 
 
 

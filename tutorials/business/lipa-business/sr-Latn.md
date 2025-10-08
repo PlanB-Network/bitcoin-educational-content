@@ -130,10 +130,10 @@ Proces prikupljanja je sličan onom kod konvencionalne transakcije:
 
 
 
-- Unesite iznos**: Na ekranu za plaćanje unesite iznos u lokalnoj valuti (CHF ili EUR). Primer: za kafu od 4.50 CHF, unesite 4.50
-- Invoice generacija** : Aplikacija trenutno konvertuje iznos u satoshije po trenutnom kursu i generiše Lightning Invoice u obliku QR koda
-- Plaćanje kupca** : Kupac skenira QR kod svojim Wallet Lightning i potvrđuje plaćanje
-- Potvrda** : Plaćanje je potvrđeno u roku od nekoliko sekundi, uz vizuelni prikaz uspeha
+- **Unesite iznos**: Na ekranu za plaćanje unesite iznos u lokalnoj valuti (CHF ili EUR). Primer: za kafu od 4.50 CHF, unesite 4.50
+- **Invoice generacija**: Aplikacija trenutno konvertuje iznos u satoshije po trenutnom kursu i generiše Lightning Invoice u obliku QR koda
+- **Plaćanje kupca**: Kupac skenira QR kod svojim Wallet Lightning i potvrđuje plaćanje
+- **Potvrda**: Plaćanje je potvrđeno u roku od nekoliko sekundi, uz vizuelni prikaz uspeha
 
 
 
@@ -207,11 +207,11 @@ Proces prikupljanja je sličan onom kod konvencionalne transakcije:
 
 
 
-- Catering**: Barovi, restorani, kafići će prihvatiti dodatke u Bitcoin sa upravljanjem napojnicama
-- Maloprodaja**: Prodavnice prehrambenih proizvoda, pekare za proširenje metoda plaćanja bez fiksnih troškova
-- Nomadski prodavci**: kamioni sa hranom, pijace, festivali sa samo pametnim telefonom
-- Događaji** : Privremeni štandovi sa gotovim rešenjima
-- Services**: Konsultanti, zanatlije za jednokratno fakturisanje u Bitcoin
+- **Catering**: Barovi, restorani, kafići će prihvatiti dodatke u Bitcoin sa upravljanjem napojnicama
+- **Maloprodaja**: Prodavnice prehrambenih proizvoda, pekare za proširenje metoda plaćanja bez fiksnih troškova
+- **Nomadski prodavci**: kamioni sa hranom, pijace, festivali sa samo pametnim telefonom
+- **Događaji**: Privremeni štandovi sa gotovim rešenjima
+- **Services**: Konsultanti, zanatlije za jednokratno fakturisanje u Bitcoin
 
 
 

@@ -318,8 +318,8 @@ Akenshi, ugukorana hagati y'abaje mu nama muri Contract (nk'akarorero Alice na B
 
 
 
-- Alice** (uwatanze iyo Invoice) ;
-- Bob** (ni we yakira kandi agashitsa Invoice).
+- **Alice** (uwatanze iyo Invoice) ;
+- **Bob** (ni we yakira kandi agashitsa Invoice).
 
 
 Mu buryo butandukanye n’ibindi bidukikije, RGB Invoice ntigarukira ku ciyumviro co kwishura gusa. Ishobora gushiramwo igisabwa cose gifitaniye isano na Contract: gukuraho urufunguzo, gutora, gukora igicapo (*igicapo*) kuri NFT, n'ibindi. Ivyo bishobora gusobanurwa muri Contract Interface.

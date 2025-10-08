@@ -346,7 +346,7 @@ Extrae el soporte con el archivo `.PSBT` y conéctalo al ordenador sin conexión
 
 
 
-Desde el entrehierro Wallet, elija ahora el menú _Herramientas_, luego _Cargar transacción_ y a continuación Desde fichero_.
+Desde el entrehierro Wallet, elija ahora el menú _Herramientas_, luego _Cargar transacción_ y a continuación _Desde fichero_.
 
 
 
@@ -441,7 +441,7 @@ Las únicas cosas a las que tendrás que prestar mucha atención son dos:
 
 
 
-como se puede ver en la imagen de arriba, el Wallet desconectado no conoce su propia historia Address. Es totalmente ciega en este aspecto. **La única tarea que puede hacer por ti es almacenar tus claves offline y firmar tus transacciones**_.
+como se puede ver en la imagen de arriba, el Wallet desconectado no conoce su propia historia Address. Es totalmente ciega en este aspecto. **La única tarea que puede hacer por ti es almacenar tus claves offline y firmar tus transacciones**.
 
 
 

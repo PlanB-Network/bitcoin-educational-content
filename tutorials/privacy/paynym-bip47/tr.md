@@ -304,8 +304,8 @@ Bu makalenin ikinci bölümünde açıklandığı üzere, yeniden kullanılabili
 
 
 - _Bayt 0_: Sürüm. BIP47'nin ilk sürümü kullanılıyorsa, bu bayt 0x01'e eşit olacaktır.
-- bayt 1_: Bit alanı. Bu alan, özel kullanım durumunda ek göstergeler sağlamak için ayrılmıştır. Sadece PayNym kullanılıyorsa, bu bayt 0x00'a eşit olacaktır.
-- bayt 2_: Y paritesi. Bu bayt, açık anahtarımızın y-koordinatının değerinin paritesine (çift veya tek sayı) bağlı olarak 0x02 veya 0x03'ü gösterir. Bu uygulama hakkında daha fazla bilgi için lütfen bu makalenin "Address türetme" bölümünün 1. adımını okuyun.
+- **bayt 1**: Bit alanı. Bu alan, özel kullanım durumunda ek göstergeler sağlamak için ayrılmıştır. Sadece PayNym kullanılıyorsa, bu bayt 0x00'a eşit olacaktır.
+- bayt 2: Y paritesi. Bu bayt, açık anahtarımızın y-koordinatının değerinin paritesine (çift veya tek sayı) bağlı olarak 0x02 veya 0x03'ü gösterir. Bu uygulama hakkında daha fazla bilgi için lütfen bu makalenin "Address türetme" bölümünün 1. adımını okuyun.
 - _3. bayttan 34. bayta kadar_: X değeri. Bu baytlar açık anahtarımızın x koordinatını gösterir. X ve y paritesinin birleştirilmesi bize sıkıştırılmış açık anahtarımızı verir.
 - _35. bayttan 66. bayta kadar_: chain code. Bu alan, yukarıda belirtilen açık anahtarla ilişkili chain code için ayrılmıştır.
 - _67. bayttan 79. bayta kadar_: Dolgu. Bu alan gelecekteki olası gelişmeler için ayrılmıştır. Sürüm 1 için, bir OP_RETURN çıktısı için veri boyutu olan 80 bayta ulaşmak için burayı sıfırlarla dolduruyoruz.

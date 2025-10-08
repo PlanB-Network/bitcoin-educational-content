@@ -47,15 +47,15 @@ Depending on the Lightning wallet you are using, you will find the following opt
 
 
 
-- Alby Hub** for Alby Go wallets, the Alby extension for your browser.
+- **Alby Hub** for Alby Go wallets, the Alby extension for your browser.
 
 
 https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-465c3bde9903
 
 
-- Coinos** to connect the Bitcoin web CoinOS wallet.
-- Flash Wallet** for connection to the Flash wallet.
-- LN link**
+- **Coinos** to connect the Bitcoin web CoinOS wallet.
+- **Flash Wallet** for connection to the Flash wallet.
+- **LN link**
 
 
 ![connection_type](assets/fr/04.webp)

@@ -7,7 +7,7 @@ description: Một dịch vụ giám hộ có thể truy cập Telegram Wallet
 ![cover](assets/cover.webp)
 
 
-_Hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Sats.Mobi

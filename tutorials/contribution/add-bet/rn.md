@@ -79,7 +79,7 @@ Akira ibisobanuro vyo kwuzuza kuri buri kibanza:
 
 
 
-- `umugambi`**: Erekana ikimenyetso c'ishirahamwe ryawe ku rubuga rwa PlanB. Niba utaragira ikimenyetso c'"umugambi" w'ishirahamwe ryawe, urashobora kugikora ukurikije iyi nyigisho.
+- **`umugambi`**: Erekana ikimenyetso c'ishirahamwe ryawe ku rubuga rwa PlanB. Niba utaragira ikimenyetso c'"umugambi" w'ishirahamwe ryawe, urashobora kugikora ukurikije iyi nyigisho.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ Nimba udafise, urashobora gusa gukoresha izina ryawe, izina ryawe ry’uruyeri c
 
 
 
-- `ubwoko`**: Hitamwo uburyo bw'ibirimwo muri ibi bibiri bikurikira:
+- **`ubwoko`**: Hitamwo uburyo bw'ibirimwo muri ibi bibiri bikurikira:
  - `Ibirimwo vy'inyigisho` ku birimwo vy'inyigisho.
  - `Ibirimwo bigaragara` ku bindi birimwo bitandukanye.
 
 
 
-- `amahuza`**: Tanga amahuza ku birimwo. Ufise uburyo bubiri:
+- **`amahuza`**: Tanga amahuza ku birimwo. Ufise uburyo bubiri:
  - Niwahitamwo kwakira ibirimwo vyawe ku GitHub ya PlanB, uzokenera kwongerako amahuza kuri iyi dosiye mu ntambwe zikurikira.
  - Niba ibirimwo vyacu bishizwe ahandi, nk'uko biri ku rubuga rwawe bwite, werekane amahuza ahuye hano:
      - `download`: Ihuza ryo gukuraho ibirimwo.
@@ -102,7 +102,7 @@ Nimba udafise, urashobora gusa gukoresha izina ryawe, izina ryawe ry’uruyeri c
 
 
 
-- `tags`**: Wongereko ama tags abiri afitaniye isano n'ibirimwo. Ingero:
+- **`tags`**: Wongereko ama tags abiri afitaniye isano n'ibirimwo. Ingero:
  - Bitcoin.
  - ubuhinga
  - ubutunzi
@@ -111,7 +111,7 @@ Nimba udafise, urashobora gusa gukoresha izina ryawe, izina ryawe ry’uruyeri c
 
 
 
-- `abaterankunga`**: Vuga ikimenyetso c'umuterankunga wawe nimba ufise.
+- **`abaterankunga`**: Vuga ikimenyetso c'umuterankunga wawe nimba ufise.
 
 
 Akarorero, dosiye yawe ya YAML yoshobora gusa n'iyi:

@@ -137,7 +137,7 @@ Relativamente a Simple Login, questo strumento ha:
 
 - app per mobile (anche da F-Droid) ed estensione del browser, per gestire gli alias in ogni situazione;
 - autenticazione a due fattori per ogni nuovo pseudonimo, che aumenta il grado di indipendenza dal servizio stesso;
-- supporto PGP (per gli utenti _Premium)
+- supporto PGP (per gli utenti _Premium_)
 - creazione semplice di ogni tipo di alias (custom, casuale e UUID);
 - tra i piani free del settore, la possibilità di usare gli alias con più caselle email "ufficiali". Altri competitor si limitano ad una sola.
 

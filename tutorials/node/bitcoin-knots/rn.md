@@ -31,8 +31,8 @@ Hari impamvu zibiri nyamukuru zo gukoresha uwundi mukiriya nka Knots aho gukores
 
 
 
-- Ivy’ubuhinga**: Abo bakiriya kenshi batanga uburyo butandukanye kuri Core, cane cane mu bijanye n’uburongozi bwa Mempool, mu kumenya amafaranga yemerwa kandi atangazwa n’uruzitiro rwawe.
-- Policy**: Abantu bamwe bamwe barakunda gukoresha ubundi bakiriya nka Knots kubera imvo zitari izo mu vy’ubuhinga, cane cane kugira ngo bashigikire ubundi buryo bwo gukoresha Core gutyo bagabanye ububasha bwayo bwo gukoresha. Iyo Core izokwigera ihungabana, vyoba vyiza atari gusa kugira abaguzi bakomeye kandi batunganijwe neza, ariko kandi kumenya uko yobakoresha. Abandi bakoresha Knots mu ntumbero zo kwiyamiriza, kuko batakaje icizigiro mu bategura Core canke ntibemera uburongozi bw’abaguzi benshi.
+- **Ivy'ubuhinga**: Abo bakiriya kenshi batanga uburyo butandukanye kuri Core, cane cane mu bijanye n'uburongozi bwa Mempool, mu kumenya amafaranga yemerwa kandi atangazwa n'uruzitiro rwawe.
+- **Policy**: Abantu bamwe bamwe barakunda gukoresha ubundi bakiriya nka Knots kubera imvo zitari izo mu vy'ubuhinga, cane cane kugira ngo bashigikire ubundi buryo bwo gukoresha Core gutyo bagabanye ububasha bwayo bwo gukoresha. Iyo Core izokwigera ihungabana, vyoba vyiza atari gusa kugira abaguzi bakomeye kandi batunganijwe neza, ariko kandi kumenya uko yobakoresha. Abandi bakoresha Knots mu ntumbero zo kwiyamiriza, kuko batakaje icizigiro mu bategura Core canke ntibemera uburongozi bw'abaguzi benshi.
 
 
 ## None noshiramwo gute Bitcoin Knots?

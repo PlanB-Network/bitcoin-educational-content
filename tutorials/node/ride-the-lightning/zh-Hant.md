@@ -271,7 +271,7 @@ sudo systemctl status RTL
 
 
 - **Ride The Lightning** (for LND)：與 Umbrel 的預設 Lightning 節點 (LND) 搭配使用。
-- Ride The Lightning (Core Lightning)**：僅當您已在 Umbrel 上安裝 *Core Lightning* 應用程式，並希望使用 RTL 管理此節點時才使用。
+- Ride The Lightning (Core Lightning)：僅當您已在 Umbrel 上安裝 *Core Lightning* 應用程式，並希望使用 RTL 管理此節點時才使用。
 
 
 

@@ -324,7 +324,7 @@ Nunchuk laat je een aantal mogelijkheden zien die voor het grootste deel te make
 
 
 
-In deze gids zullen we een _Hot Wallet en een _Custom wallet_ maken door de details in detail te beschrijven.
+In deze gids zullen we een _Hot Wallet_ en een _Custom wallet_ maken door de details in detail te beschrijven.
 
 
 Laten we beginnen met _Custom wallet_.
@@ -503,7 +503,7 @@ In dit nieuwe scherm is het belangrijk om
 
 
 
-- trek de vergoeding af van het te verzenden bedrag_, om te voorkomen dat een andere UTXO in Wallet de vergoeding betaalt, deze uitgeeft en een restbedrag genereert (wat een vermijdbaar verlies van privacy is);
+- trek de vergoeding af van het te verzenden bedrag, om te voorkomen dat een andere UTXO in Wallet de vergoeding betaalt, deze uitgeeft en een restbedrag genereert (wat een vermijdbaar verlies van privacy is);
 - en stel dan de vergoedingen handmatig in na controle op de verkenner.
 
 

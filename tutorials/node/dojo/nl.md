@@ -160,7 +160,7 @@ Steek de opstartbare USB-stick in de uitgeschakelde computer (de computer waarop
 
 
 
-Het startscherm van Ubuntu verschijnt. Selecteer "Ubuntu proberen of installeren*".
+Het startscherm van Ubuntu verschijnt. Selecteer "Ubuntu proberen of installeren".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Gelieve deze Address strikt vertrouwelijk te behandelen
+⚠️ **Gelieve deze Address strikt vertrouwelijk te behandelen**
 
 
 
@@ -1426,7 +1426,7 @@ Om toegang te krijgen tot je browser vanaf elke machine op elk netwerk (zelfs op
 
 
 
-⚠️ **Bewaar deze Address strikt vertrouwelijk
+⚠️ **Bewaar deze Address strikt vertrouwelijk**
 
 
 

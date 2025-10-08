@@ -145,9 +145,9 @@ V části **Kanály** se zobrazí seznam otevřených kanálů a připojení uzl
 
 
 
-- Příchozí poměr**: V závislosti na zvoleném kanálu vám uzel naúčtuje poplatek za každý milion přijatých Satoshi.
+- **Příchozí poměr**: V závislosti na zvoleném kanálu vám uzel naúčtuje poplatek za každý milion přijatých Satoshi.
 - Poměr (parts per million)** : který představuje počet Satoshi na milion jednotek, které vám uzel naúčtuje, když se rozhodnete provést platbu prostřednictvím některého z jeho kanálů. Řekněme, že se rozhodnete provést platbu ve výši `10_000 Sats` prostřednictvím kanálu, jehož poměr ppm je `500 Sats`, budete muset uzlu zaplatit `10_000 * 500 / 1_000_000` satošů, což odpovídá `5 Sats`.
-- Maximální hodnota [HTLC](https://planb.network/resources/glossary/HTLC)** : Maximální částka, kterou tento uzel umožňuje tranzit jedním z těchto kanálů.
+- Maximální hodnota [HTLC](https://planb.network/resources/glossary/HTLC): Maximální částka, kterou tento uzel umožňuje tranzit jedním z těchto kanálů.
 
 
 
@@ -172,7 +172,7 @@ Sekce **Uzavřené kanály** seskupuje všechny bývalé kanály uzlu podle typu
 
 
 
-- Vzájemné uzavření**: představuje dohodu obou stran, které pomocí svých soukromých klíčů podepíší transakci označující uzavření kanálu a rozdělení zůstatků v něm
+- **Vzájemné uzavření**: představuje dohodu obou stran, které pomocí svých soukromých klíčů podepíší transakci označující uzavření kanálu a rozdělení zůstatků v něm
 - **vynucený uzávěr**: představuje náhlé, jednostranné uzavření jedné části kanálu. Tento typ uzavření se nedoporučuje, protože protokol Lightning Network je založen na trestech: při pokusu o zpronevěru zůstatku kanálu riskujete ztrátu veškerého dostupného zůstatku v daném kanálu.
 
 

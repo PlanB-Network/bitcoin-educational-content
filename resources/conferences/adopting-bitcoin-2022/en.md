@@ -620,7 +620,7 @@ Speaker: Chris Hunter
 
 Speaker: Michael Atwood
 
-## PlebLab_ an accelerator for the Bitcoin Era
+## PlebLab: an accelerator for the Bitcoin Era
 
 ![video](https://youtu.be/dRUUMBuj_cM?si=pDrdD9XFDbYC8LjR)
 

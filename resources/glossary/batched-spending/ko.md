@@ -8,4 +8,4 @@ term: 일괄 지출
 ![](../../dictionnaire/assets/8.webp)
 
 
-> 프랑스어에서 "일괄 지출"은 "dépense groupée"*로 번역할 수 있습니다
+> 프랑스어에서 "일괄 지출"은 "dépense groupée"로 번역할 수 있습니다

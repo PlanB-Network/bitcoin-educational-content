@@ -28,9 +28,9 @@ Hii sio "rudufu ya kawaida" ya Debian kwa bodi ndogo za aina ya Raspberry. DietP
 
 
 
-- Imeboreshwa kwa kasi na wepesi**: [ulinganisho na usambazaji mwingine wa Debian kwa SBC](https://dietpi.com/blog/?p=888), DietPi ni nyepesi katika kila kitu. Picha ya DietPi ISO ina uzani wa chini ya GB 1, kwa ndogo zaidi kati ya zile zinazotolewa kwa mifano ya zamani ya Raspberry au Orange PI (kwa mfano). Mahitaji ya rasilimali za RAM na CPU ni ya chini sana, ili daima hupata bora kutoka kwa bodi, hata za zamani.
-- Mitambo otomatiki na visakinishi vilivyojengewa ndani**: Mkusanyiko wa amri maalum husaidia watumiaji kufuatilia rasilimali za mfumo na vile vile kufanyia kazi kiotomatiki kusakinisha na kuzindua programu, kusasisha matoleo, kuweka nakala rudufu na kuangalia kumbukumbu zote.
-- Jumuiya imara, yenye mwelekeo wa majaribio**: [mafunzo](https://dietpi.com/forum/c/community-tutorials/8) na miradi kutoka kwa jumuiya ya DietPi, ni bora kwa kupata msukumo wa programu unayoweza kusakinisha kwa mbofyo mmoja, shukrani kwa DietPi.
+- **Imeboreshwa kwa kasi na wepesi**: [ulinganisho na usambazaji mwingine wa Debian kwa SBC](https://dietpi.com/blog/?p=888), DietPi ni nyepesi katika kila kitu. Picha ya DietPi ISO ina uzani wa chini ya GB 1, kwa ndogo zaidi kati ya zile zinazotolewa kwa mifano ya zamani ya Raspberry au Orange PI (kwa mfano). Mahitaji ya rasilimali za RAM na CPU ni ya chini sana, ili daima hupata bora kutoka kwa bodi, hata za zamani.
+- **Mitambo otomatiki na visakinishi vilivyojengewa ndani**: Mkusanyiko wa amri maalum husaidia watumiaji kufuatilia rasilimali za mfumo na vile vile kufanyia kazi kiotomatiki kusakinisha na kuzindua programu, kusasisha matoleo, kuweka nakala rudufu na kuangalia kumbukumbu zote.
+- **Jumuiya imara, yenye mwelekeo wa majaribio**: [mafunzo](https://dietpi.com/forum/c/community-tutorials/8) na miradi kutoka kwa jumuiya ya DietPi, ni bora kwa kupata msukumo wa programu unayoweza kusakinisha kwa mbofyo mmoja, shukrani kwa DietPi.
 
 
 

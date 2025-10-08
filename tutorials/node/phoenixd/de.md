@@ -31,7 +31,7 @@ Phoenixd ist ein minimaler, spezialisierter Lightning-Knoten, der von ACINQ entw
 
 
 
-**Phönixd ist ein minimaler Lightning-Knoten, der ACINQ als LSP (Lightning Service Provider) für automatische Liquidität nutzt. Wenn Sie Lightning-Zahlungen erhalten, öffnet er automatisch Kanäle mit ACINQ-Knoten, um die erforderliche eingehende Kapazität zuzuweisen. Diese "on-the-fly"-Liquidität ist sofort verfügbar, wird aber mit genau **1% + Mining-Gebühren** des empfangenen Betrags berechnet.
+**Phönixd ist ein minimaler Lightning-Knoten, der ACINQ als LSP (Lightning Service Provider) für automatische Liquidität nutzt. Wenn Sie Lightning-Zahlungen erhalten, öffnet er automatisch Kanäle mit ACINQ-Knoten, um die erforderliche eingehende Kapazität zuzuweisen. Diese "on-the-fly"-Liquidität ist sofort verfügbar, wird aber mit genau** **1% + Mining-Gebühren** **des empfangenen Betrags berechnet.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd ist ein minimaler, spezialisierter Lightning-Knoten, der von ACINQ entw
 
 
 
-- Lightning**-Kanäle: Öffnen, schließen und verwalten Sie automatisch nach Bedarf
-- Eingehende/ausgehende Liquidität**: Automatische Bereitstellung über Spleißen und Kanalöffnung
-- Gebührenguthaben** : Kleine Zahlungen, die nicht ausreichen, um einen Kanal zu rechtfertigen, werden als Rückstellung für zukünftige Gebühren gespeichert
+- **Lightning-Kanäle**: Öffnen, schließen und verwalten Sie automatisch nach Bedarf
+- **Eingehende/ausgehende Liquidität**: Automatische Bereitstellung über Spleißen und Kanalöffnung
+- **Gebührenguthaben**: Kleine Zahlungen, die nicht ausreichen, um einen Kanal zu rechtfertigen, werden als Rückstellung für zukünftige Gebühren gespeichert
 
 
 
@@ -50,7 +50,7 @@ Phoenixd ist ein minimaler, spezialisierter Lightning-Knoten, der von ACINQ entw
 
 
 
-**Sie kontrollieren Ihre privaten Schlüssel (12-Wort-seed) und Ihr Guthaben. Phoenixd generiert Ihre Wallet lokal, ohne jemals Ihre Schlüssel zu teilen.
+**Sie kontrollieren Ihre privaten Schlüssel (12-Wort-seed) und Ihr Guthaben. Phoenixd generiert Ihre Wallet lokal, ohne jemals Ihre Schlüssel zu teilen.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd erfordert eine Linux-Umgebung (Ubuntu/Debian empfohlen), mit einigen gr
 
 
 
-- Linux-Server**: VPS oder lokaler Rechner mit stabiler Verbindung
-- OpenJDK 21** : Java-Laufzeitumgebung
-- Stabile Internetverbindung**: Für die Synchronisierung mit dem Lightning Network
-- Domänenname** (optional) : Für sicheren HTTPS-Zugang zur API
+- **Linux-Server**: VPS oder lokaler Rechner mit stabiler Verbindung
+- **OpenJDK 21**: Java-Laufzeitumgebung
+- **Stabile Internetverbindung**: Für die Synchronisierung mit dem Lightning Network
+- **Domänenname** (optional): Für sicheren HTTPS-Zugang zur API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Erste Inbetriebnahme
+**2. Erste Inbetriebnahme**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Beweisen Sie die Identität Ihres Servers** (verhindert Man-in-the-Middle-Angriffe)
-- Aktiviert HTTPS**-Verschlüsselung: Alle Daten, einschließlich Ihrer API-Kennwörter, werden während der Übertragung verschlüsselt
-- Kostenlos** von Let's Encrypt über das Tool certbot ausgestellt
+- **Beweisen Sie die Identität Ihres Servers** (verhindert Man-in-the-Middle-Angriffe)
+- Aktiviert **HTTPS-Verschlüsselung**: Alle Daten, einschließlich Ihrer API-Kennwörter, werden während der Übertragung verschlüsselt
+- **Kostenlos** von Let's Encrypt über das Tool certbot ausgestellt
 
 
 
@@ -297,10 +297,10 @@ Diese Konfiguration ermöglicht es Ihnen, :
 
 
 
-- Sicherer Zugriff auf die API über das Internet**
-- Verschlüsseln Sie Ihre API**-Passwörter während des Transports (um zu verhindern, dass sie im Klartext übertragen werden)
-- Integrieren Sie Phoenixd** in externe Anwendungen, die HTTPS erfordern
-- Einhaltung von Sicherheitsstandards** für Finanz-APIs
+- **Sicherer Zugriff auf die API über das Internet**
+- Verschlüsseln Sie Ihre **API-Passwörter** während des Transports (um zu verhindern, dass sie im Klartext übertragen werden)
+- Integrieren Sie **Phoenixd** in externe Anwendungen, die HTTPS erfordern
+- **Einhaltung von Sicherheitsstandards** für Finanz-APIs
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Dienstleistungsgebühr**: 1% der Kanalkapazität (2.115.000 Sats) = 21.150 Sats
-- Mining Gebühren**: ~3.289 Sats (für On-Chain Transaktion)
-- Gesamt**: 24.439 Sats automatisch abgezogen
+- **Dienstleistungsgebühr**: 1% der Kanalkapazität (2.115.000 Sats) = 21.150 Sats
+- **Mining Gebühren**: ~3.289 Sats (für On-Chain Transaktion)
+- **Gesamt**: 24.439 Sats automatisch abgezogen
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Quittung**: 1% + Mining Gebühr für automatische Liquidität
-- Versand**: 0.4% Routinggebühr für den Lightning Network
+- **Quittung**: 1% + Mining Gebühr für automatische Liquidität
+- **Versand**: 0.4% Routinggebühr für den Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Ihr Online-Shop erhält automatisch eine Benachrichtigung, wenn ein Kunde eine Bestellung bezahlt, so dass die Transaktion sofort validiert werden kann.
+**Ihr Online-Shop erhält automatisch eine Benachrichtigung, wenn ein Kunde eine Bestellung bezahlt, so dass die Transaktion sofort validiert werden kann.**
 
 
 
@@ -684,7 +684,7 @@ Dank der umfassenden REST-API können Sie die :
 
 
 
-*~/.phoenix Verzeichnis:** Sichern Sie diesen Ordner regelmäßig (nachdem Phoenixd heruntergefahren wurde), um den Kanalstatus zu erhalten und die Wiederherstellung zu beschleunigen.
+**~/.phoenix Verzeichnis:** Sichern Sie diesen Ordner regelmäßig (nachdem Phoenixd heruntergefahren wurde), um den Kanalstatus zu erhalten und die Wiederherstellung zu beschleunigen.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Beide verwenden ACINQ als LSP für automatische Liquidität.
+**Beide verwenden ACINQ als LSP für automatische Liquidität.**
 
 
 
@@ -764,7 +764,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Phoenixd :*
+**Phoenixd**
 
 
 
@@ -785,7 +785,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-*fehler "*Authentifizierung fehlgeschlagen":**
+**Fehler "Authentifizierung fehlgeschlagen":**
 
 
 1. Überprüfen Sie das Passwort in der Datei `~/.phoenix/phoenix.conf`
@@ -866,9 +866,9 @@ Mit Phoenixd bauen Sie Ihre eigene private Lightning-Infrastruktur mit einer mod
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Quellcode und Veröffentlichungen
-- Phoenix Server** Website: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Vollständige Dokumentation
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Häufig gestellte Fragen
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Quellcode und Veröffentlichungen
+- **Phoenix Server** Website: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Vollständige Dokumentation
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Häufig gestellte Fragen
 
 
 
@@ -877,5 +877,5 @@ Mit Phoenixd bauen Sie Ihre eigene private Lightning-Infrastruktur mit einer mod
 
 
 
-- GitHub Issues** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technische Unterstützung
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Nachrichten und Ankündigungen
+- **GitHub Issues**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Technische Unterstützung
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Nachrichten und Ankündigungen

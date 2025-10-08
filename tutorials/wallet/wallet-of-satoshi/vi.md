@@ -4,7 +4,7 @@ description: Wallet bảo vệ đơn giản nhất để bắt đầu
 ---
 ![cover](assets/cover.webp)
 
-_Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Tải xuống, Thiết lập và Sử dụng Wallet của Satoshi

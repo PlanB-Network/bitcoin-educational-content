@@ -247,7 +247,7 @@ Baada ya kuthibitishwa, ubadilishanaji unakamilishwa kiatomati:
 
 
 
-*Uundaji wa ubadilishaji wa Interface: 50,000 Sats Umeme → 49,220 Sats On-Chain, na gharama za mtandao (530 Sats) na huduma (250 Sats) zinaonyeshwa kwa uwazi. Watumiaji wanaweza kuingiza wenyewe Bitcoin inayopokea Address, au generate moja kiotomatiki kutoka kwa Wallet Zeus kupitia kitufe cha "generate On-Chain Address".
+**Uundaji wa ubadilishaji wa Interface:** 50,000 Sats Umeme → 49,220 Sats On-Chain, na gharama za mtandao (530 Sats) na huduma (250 Sats) zinaonyeshwa kwa uwazi. Watumiaji wanaweza kuingiza wenyewe Bitcoin inayopokea Address, au generate moja kiotomatiki kutoka kwa Wallet Zeus kupitia kitufe cha "generate On-Chain Address".
 
 
 
@@ -277,10 +277,10 @@ Kila ubadilishaji una kitambulisho cha kipekee chenye ufuatiliaji wa wakati hali
 
 
 
-- Urahisi**: Badilisha katika mibofyo michache dhidi ya uchezaji wa kituo mwenyewe
-- Isiyo na dhamana**: hakuna KYC, hakuna akaunti, pesa ambazo hazijawahi kukabidhiwa mtu wa tatu
-- Uwazi**: ada zinazoonyeshwa kwa uwazi kabla ya uthibitishaji (0.1% hadi 0.5% + minage kulingana na majaribio ya watumiaji - angalia ada za sasa kwa kila ubadilishaji)
-- Ujumuishaji wa rununu**: uzoefu asilia katika Zeus Wallet
+- **Urahisi**: Badilisha katika mibofyo michache dhidi ya uchezaji wa kituo mwenyewe
+- **Isiyo na dhamana**: hakuna KYC, hakuna akaunti, pesa ambazo hazijawahi kukabidhiwa mtu wa tatu
+- **Uwazi**: ada zinazoonyeshwa kwa uwazi kabla ya uthibitishaji (0.1% hadi 0.5% + minage kulingana na majaribio ya watumiaji - angalia ada za sasa kwa kila ubadilishaji)
+- **Ujumuishaji wa rununu**: uzoefu asilia katika Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Kila ubadilishaji una kitambulisho cha kipekee chenye ufuatiliaji wa wakati hali
 
 
 
-- Muda wa mwisho wa matumizi**: 24-48h upeo, kushindwa ikiwa Bitcoin haijathibitishwa kwa wakati
-- Vikomo vya kiasi**: kima cha chini cha 25,000 Sats, kutofautisha kwa ukwasi wa Zeus LSP kulingana na masharti
-- Inafuatilia On-Chain**: Hati za HTLC zinazoweza kutambulika kwa uchanganuzi wa Blockchain
-- Uthibitishaji unahitajika**: angalau dakika 10 kwa uthibitishaji wa Bitcoin
+- **Muda wa mwisho wa matumizi**: 24-48h upeo, kushindwa ikiwa Bitcoin haijathibitishwa kwa wakati
+- **Vikomo vya kiasi**: kima cha chini cha 25,000 Sats, kutofautisha kwa ukwasi wa Zeus LSP kulingana na masharti
+- **Inafuatilia On-Chain**: Hati za HTLC zinazoweza kutambulika kwa uchanganuzi wa Blockchain
+- **Uthibitishaji unahitajika**: angalau dakika 10 kwa uthibitishaji wa Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Kila ubadilishaji una kitambulisho cha kipekee chenye ufuatiliaji wa wakati hali
 
 
 - Angalia anwani za Bitcoin kwa uangalifu (nakala-kubandika inapendekezwa)
-- Hifadhi nakala ya Ufunguo wa Uokoaji wa Hubadilishana Zeus**: pakua na uhifadhi kitufe cha uokoaji mahali salama
+- **Hifadhi nakala ya Ufunguo wa Uokoaji wa Hubadilishana Zeus**: pakua na uhifadhi kitufe cha uokoaji mahali salama
 - Hati: Kitambulisho cha Contract, kurejesha pesa kwa Address, tarehe ya mwisho wa matumizi
 - Tumia ada zinazofaa za Mining kwa uthibitisho kwa wakati unaofaa
 
@@ -354,11 +354,11 @@ Zeus Swap hutumia teknolojia ya nyuma ya Boltz, lakini hufanya maboresho muhimu:
 
 
 
-- Interface iliyounganishwa**: muunganisho wa asili katika Zeus Wallet dhidi ya mbinu ya wavuti ya Interface Boltz
-- WebSocket API**: masasisho ya wakati halisi dhidi ya upigaji kura wenyewe
-- Usimamizi wa kiotomatiki**: malipo ya kiotomatiki na usimamizi wa Address
-- Usaidizi wa rununu**: uboreshaji wa simu mahiri dhidi ya eneo-kazi pekee
-- Hati za Swagger**: kamilisha REST API kwa wasanidi programu
+- **Interface iliyounganishwa**: muunganisho wa asili katika Zeus Wallet dhidi ya mbinu ya wavuti ya Interface Boltz
+- **WebSocket API**: masasisho ya wakati halisi dhidi ya upigaji kura wenyewe
+- **Usimamizi wa kiotomatiki**: malipo ya kiotomatiki na usimamizi wa Address
+- **Usaidizi wa rununu**: uboreshaji wa simu mahiri dhidi ya eneo-kazi pekee
+- **Hati za Swagger**: kamilisha REST API kwa wasanidi programu
 
 
 

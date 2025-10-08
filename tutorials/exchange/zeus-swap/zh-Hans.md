@@ -163,7 +163,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*Interface Zeus 交换：选择金额（Sats 50,000 → Sats 49,648 （扣除费用）），透明显示网络费用 (Sats 302) 和 Zeus 服务 (Sats 50)。
+*Interface Zeus 交换：选择金额（Sats 50,000 → Sats 49,648 （扣除费用）），透明显示网络费用 (Sats 302) 和 Zeus 服务 (Sats 50)。*
 
 
 
@@ -247,7 +247,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*Interface 反向交换创建：50,000 Sats Lightning → 49,220 Sats On-Chain，网络费用（530 Sats）和服务（250 Sats）清晰显示。用户可以通过 "generate On-Chain Address "按钮从 Wallet Zeus 手动输入接收 Bitcoin 的 Address，或自动输入接收 generate 的 generate。
+**Interface 反向交换创建：50,000 Sats Lightning → 49,220 Sats On-Chain，网络费用（530 Sats）和服务（250 Sats）清晰显示。用户可以通过 "generate On-Chain Address" 按钮从 Wallet Zeus 手动输入接收 Bitcoin 的 Address，或自动输入接收 generate 的 generate。**
 
 
 
@@ -277,10 +277,10 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- 简单**：只需点击几下即可进行交换，无需手动操作通道
-- 非托管**：无 KYC、无账户、资金从未委托给第三方
-- 透明度**：在验证前明确显示费用（0.1% 至 0.5% + 最低费用，具体取决于用户测试--在每次交换时查看当前费用）
-- 移动集成**：Zeus Wallet 中的本地体验
+- **简单**：只需点击几下即可进行交换，无需手动操作通道
+- **非托管**：无 KYC、无账户、资金从未委托给第三方
+- **透明度**：在验证前明确显示费用（0.1% 至 0.5% + 最低费用，具体取决于用户测试--在每次交换时查看当前费用）
+- 移动集成：Zeus Wallet 中的本地体验
 
 
 
@@ -290,10 +290,10 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- 过期时间**：最长 24-48 小时，如果 Bitcoin 未及时确认则失效
-- 金额限制**：最低 25,000 Sats，Zeus LSP 流动性根据条件而变化
-- 跟踪 On-Chain**：可通过 Blockchain 分析识别的 HTLC 脚本
-- 需要确认**：Bitcoin 验证至少需要 10 分钟
+- 过期时间：最长 24-48 小时，如果 Bitcoin 未及时确认则失效
+- **金额限制**：最低 25,000 Sats，Zeus LSP 流动性根据条件而变化
+- 跟踪 **On-Chain**：可通过 Blockchain 分析识别的 HTLC 脚本
+- 需要确认**：Bitcoin 验证至少需要 10 分钟**
 
 
 
@@ -320,7 +320,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 - 仔细检查 Bitcoin 地址（建议复制粘贴）
-- 备份 Zeus Swaps 救援密钥**：下载并将救援密钥存储在安全的地方
+- 备份 Zeus Swaps 救援密钥：下载并将救援密钥存储在安全的地方
 - 文件：Contract ID、退款 Address、有效期
 - 使用适当的 Mining 费用进行及时确认
 
@@ -354,11 +354,11 @@ Zeus Swap 使用 Boltz 的后台技术，但做了一些重要改进：
 
 
 
-- Interface 统一**：Zeus 中的本地集成 Wallet vs Interface 网络技术 Boltz
-- WebSocket API**：实时更新与手动轮询
-- 自动管理**：自动计费和 Address 管理
-- 移动支持**：仅对智能手机和台式机进行优化
-- Swagger 文档**：面向开发人员的完整 REST API
+- Interface 统一：Zeus 中的本地集成 Wallet vs Interface 网络技术 Boltz
+- **WebSocket API**：实时更新与手动轮询
+- 自动管理**：自动计费和 Address 管理**
+- **移动支持**：仅对智能手机和台式机进行优化
+- **Swagger 文档**：面向开发人员的完整 REST API
 
 
 

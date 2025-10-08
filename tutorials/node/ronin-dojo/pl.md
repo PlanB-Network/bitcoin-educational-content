@@ -12,7 +12,7 @@ uważnie śledzimy rozwój tej sprawy, a także rozwój związany z powiązanymi
 ten samouczek służy wyłącznie celom edukacyjnym i informacyjnym. Nie popieramy ani nie zachęcamy do korzystania z tych narzędzi w celach przestępczych. Każdy użytkownik jest odpowiedzialny za przestrzeganie prawa obowiązującego w jego jurysdykcji
 
 
-ten samouczek jest poświęcony instalacji RoninDojo v1. Aby skorzystać z najnowszych ulepszeń i funkcji, zdecydowanie zalecamy zapoznanie się z naszym samouczkiem poświęconym bezpośredniej instalacji RoninDojo v2 na Raspberry Pi:_
+ten samouczek jest poświęcony instalacji RoninDojo v1. Aby skorzystać z najnowszych ulepszeń i funkcji, zdecydowanie zalecamy zapoznanie się z naszym samouczkiem poświęconym bezpośredniej instalacji RoninDojo v2 na Raspberry Pi:
 
 https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 

@@ -65,7 +65,7 @@ Kulingana na Umeme Wallet unayotumia, utapata chaguzi zifuatazo:
 
 
 
-- Alby Hub** kwa pochi za Alby Go, kiendelezi cha Alby kwa kivinjari chako.
+- **Alby Hub** kwa pochi za Alby Go, kiendelezi cha Alby kwa kivinjari chako.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** kuunganisha mtandao wa Bitcoin CoinOS Wallet.
-- Flash Wallet** kwa ajili ya kuunganisha kwa Flash Wallet.
-- Kiungo cha LN**
+- **Coinos** kuunganisha mtandao wa Bitcoin CoinOS Wallet.
+- **Flash Wallet** kwa ajili ya kuunganisha kwa Flash Wallet.
+- Kiungo cha **LN**
 
 
 

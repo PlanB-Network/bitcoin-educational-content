@@ -129,7 +129,7 @@ Bitcoin 네트워크에서 전체 Address 재사용률의 변화를 보여주는
 
 ![image](assets/2.webp)
 
-크레딧: OXT_
+크레딧: **OXT**
 
 
 이러한 재사용의 대부분은 거래소에서 발생하는데, 거래소는 효율성과 편의성을 이유로 동일한 Address를 여러 번 재사용합니다. 현재로서는 BIP47이 거래소에서 이러한 현상을 막을 수 있는 가장 좋은 솔루션이 될 것입니다. 이렇게 하면 이러한 주체들과 큰 마찰을 일으키지 않으면서도 전체 Address 재사용률을 낮출 수 있습니다.
@@ -303,12 +303,12 @@ BIP47의 메커니즘을 연구하려면 계층적 결정론(HD) Wallet의 구�
 
 
 
-- 바이트 0_: 버전입니다. BIP47의 첫 번째 버전을 사용하는 경우 이 바이트는 0x01과 같습니다.
-- 바이트 1_: 비트 필드입니다. 이 공간은 특정 용도의 경우 추가 표시를 제공하기 위해 예약되어 있습니다. 단순히 PayNym을 사용하는 경우 이 바이트는 0x00이 됩니다.
-- 바이트 2_: Y 패리티. 이 바이트는 공개 키의 y 좌표 값의 패리티(짝수 또는 홀수)에 따라 0x02 또는 0x03을 나타냅니다. 이 방법에 대한 자세한 내용은 이 문서의 "Address 도출" 섹션의 1단계를 참조하세요.
-- 바이트 3에서 바이트 34까지_: X 값입니다. 이 바이트는 공개 키의 x 좌표를 나타냅니다. X와 y 패리티를 연결하면 압축된 공개키를 얻을 수 있습니다.
-- 바이트 35에서 바이트 66까지_: chain code. 이 공간은 앞서 언급한 공개 키와 연결된 chain code을 위해 예약되어 있습니다.
-- 바이트 67에서 바이트 79까지_: 패딩. 이 공간은 향후 개발 가능성을 위해 예약된 공간입니다. 버전 1의 경우 0으로 채우기만 하면 OP_RETURN 출력의 데이터 크기인 80바이트에 도달합니다.
+- 바이트 0: 버전입니다. BIP47의 첫 번째 버전을 사용하는 경우 이 바이트는 0x01과 같습니다.
+- 바이트 1: 비트 필드입니다. 이 공간은 특정 용도의 경우 추가 표시를 제공하기 위해 예약되어 있습니다. 단순히 PayNym을 사용하는 경우 이 바이트는 0x00이 됩니다.
+- 바이트 2: Y 패리티. 이 바이트는 공개 키의 y 좌표 값의 패리티(짝수 또는 홀수)에 따라 0x02 또는 0x03을 나타냅니다. 이 방법에 대한 자세한 내용은 이 문서의 "Address 도출" 섹션의 1단계를 참조하세요.
+- 바이트 3에서 바이트 34까지: X 값입니다. 이 바이트는 공개 키의 x 좌표를 나타냅니다. X와 y 패리티를 연결하면 압축된 공개키를 얻을 수 있습니다.
+- 바이트 35에서 바이트 66까지: chain code. 이 공간은 앞서 언급한 공개 키와 연결된 chain code을 위해 예약되어 있습니다.
+- 바이트 67에서 바이트 79까지: 패딩. 이 공간은 향후 개발 가능성을 위해 예약된 공간입니다. 버전 1의 경우 0으로 채우기만 하면 OP_RETURN 출력의 데이터 크기인 80바이트에 도달합니다.
 
 
 다음은 이전 섹션에서 제시한 재사용 가능한 결제 코드의 16진수 표현이며, 위에 제시된 바이트에 해당하는 색상을 사용합니다:
@@ -328,7 +328,7 @@ BIP47의 메커니즘을 연구하려면 계층적 결정론(HD) Wallet의 구�
 결제 코드가 준비되었으니 이제 Base 58로 변환하기만 하면 됩니다:
 
 
-**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5****
+**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5**
 
 
 보시다시피, 이 구조는 "xpub" 유형의 확장 공개 키 구조와 매우 유사합니다.
@@ -815,7 +815,7 @@ txid: **0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e**
 이 거래에 사용된 결제 코드는 다음과 같습니다:
 
 
-베이스 58에서: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU****
+베이스 58에서: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU**
 
 
 베이스 16(HEX): **4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db**

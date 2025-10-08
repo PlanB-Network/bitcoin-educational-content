@@ -205,7 +205,7 @@ Jeśli chodzi o Simple Login, narzędzie to posiada następujące funkcje:
 
 - aplikacja mobilna (również od F-Droid) i rozszerzenie przeglądarki, do zarządzania aliasami w każdej sytuacji;
 - uwierzytelnianie dwuskładnikowe dla każdego nowego pseudonimu, co zwiększa stopień niezależności od samej usługi;
-- Obsługa PGP (dla użytkowników _Premium);
+- Obsługa PGP (dla użytkowników _Premium_);
 - proste tworzenie każdego typu aliasu (niestandardowego, losowego i UUID);
 - wśród darmowych planów w tym sektorze, możliwość korzystania z aliasów z większą liczbą "oficjalnych" skrzynek e-mail. Inni konkurenci ograniczają się do jednej.
 

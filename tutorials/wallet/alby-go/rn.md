@@ -16,11 +16,11 @@ description: Inyobora ya porogaramu ya Alby Go kuri telefone ngendanwa
 
 
 
-- [Ikigo ca Alby](ubutumwa bw'ikigo ca Alby/)** *(vyiza)*
-- Umutaka**, **Itanguriro9**, **Igitero** (biciye kuri **Ikibanza ca Alby**)
-- Ibiceri** *(ntivyageragejwe)*
-- Ivya mbere** *(ntivyageragejwe)*
-- Uduce dutoduto** *(ntitageragejwe)*
+- [Ikigo ca Alby](ubutumwa bw'ikigo ca Alby/) **(vyiza)**
+- **Umutaka**, **Itanguriro9**, **Igitero** (biciye kuri **Ikibanza ca Alby**)
+- **Ibiceri** *(ntivyageragejwe)*
+- **Ivya mbere** *(ntivyageragejwe)*
+- **Uduce dutoduto** *(ntitageragejwe)*
 
 
 Ibikorwa vyinshi bikoreshwa na NWC bikwiye gukora. Niba uriko uragerageza uwundi mushasha, menyesha abarundi ibisubizo vyawe!
@@ -33,9 +33,9 @@ Biboneka ku mbuga zikomeye:
 
 
 
-- iOS:** [Uyikure mu iduka ry'amaporogarama]
-- Android:** [Kuvana kuri Google Play](ububiko/amaporogarama/ibisobanuro?id=com.getalby.mobile)
-- Zap Ububiko**
+- **iOS:** [Uyikure mu iduka ry'amaporogarama]
+- **Android:** [Kuvana kuri Google Play](ububiko/amaporogarama/ibisobanuro?id=com.getalby.mobile)
+- **Zap Ububiko**
 
 
 

@@ -7,7 +7,7 @@ description: Een Bitcoin private sleutel aanmaken, back-uppen en gebruiken met e
 ![cover](assets/cover.webp)
 
 
-een Bitcoin private sleutel maken, back-uppen en gebruiken met een Coldcard apparaat en Bitcoin Core_
+een Bitcoin private sleutel maken, back-uppen en gebruiken met een Coldcard apparaat en Bitcoin Core
 
 
 ## Complete handleiding voor het genereren van een private sleutel met een Coldcard en het gebruik ervan via de Interface van je Bitcoin core knooppunt!
@@ -43,7 +43,7 @@ We beginnen het proces van het maken van een private key vanaf nul, uitgaande va
 
 **Note🚨:** Volg deze stappen om de privésleutel van een reeds geconfigureerde Coldcard opnieuw in te stellen:
 
-geavanceerd/Gereedschappen > Gevarenzone > seed functies > seed vernietigen > ✓_
+geavanceerd/Gereedschappen > Gevarenzone > seed functies > seed vernietigen > ✓
 
 
 **Let op:** uw Coldcard zal na deze stappen de private key vergeten. Zorg ervoor dat u een goede back-up hebt gemaakt van uw Mnemonic zinsdeel als u het later wilt kunnen herstellen.

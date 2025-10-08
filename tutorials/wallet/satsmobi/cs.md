@@ -7,7 +7,7 @@ description: A Telegram-accessible custodial Wallet
 ![cover](assets/cover.webp)
 
 
-_Tento návod napsal_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Tento návod napsal_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Sats.Mobi

@@ -15,7 +15,7 @@ description: Khám phá tính năng Đồng ký và sử dụng trên COLDCARD c
 
 
 
-**Tại sao nên ký chung với ColdCard?
+**Tại sao nên ký chung với ColdCard?**
 
 
 
@@ -29,14 +29,14 @@ Tính năng này cho phép bạn thêm **điều kiện chi tiêu** vào thiết
 
 
 
-- Giới hạn về quy mô**: giới hạn số lượng bitcoin bạn có thể chi tiêu trong một giao dịch duy nhất.
-- Giới hạn tốc độ:** quyết định số lượng giao dịch bạn có thể thực hiện trên một đơn vị thời gian (mỗi giờ, mỗi ngày, mỗi tuần, v.v.), yêu cầu số khối tối thiểu giữa các giao dịch.
-- Địa chỉ được chấp thuận trước:** Chỉ cho phép gửi bitcoin đến các địa chỉ được chấp thuận trước.
-- Xác thực hai yếu tố:** Yêu cầu xác nhận từ ứng dụng di động 2FA của bên thứ ba (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) trên điện thoại thông minh/máy tính bảng hỗ trợ NFC và có kết nối internet.
+- **Giới hạn về quy mô**: giới hạn số lượng bitcoin bạn có thể chi tiêu trong một giao dịch duy nhất.
+- **Giới hạn tốc độ:** quyết định số lượng giao dịch bạn có thể thực hiện trên một đơn vị thời gian (mỗi giờ, mỗi ngày, mỗi tuần, v.v.), yêu cầu số khối tối thiểu giữa các giao dịch.
+- **Địa chỉ được chấp thuận trước:** Chỉ cho phép gửi bitcoin đến các địa chỉ được chấp thuận trước.
+- **Xác thực hai yếu tố:** Yêu cầu xác nhận từ ứng dụng di động 2FA của bên thứ ba (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) trên điện thoại thông minh/máy tính bảng hỗ trợ NFC và có kết nối internet.
 
 
 
-**Cách thức hoạt động
+**Cách thức hoạt động**
 
 
 

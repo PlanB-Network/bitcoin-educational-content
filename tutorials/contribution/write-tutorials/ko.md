@@ -119,19 +119,19 @@ Plan ₿ Network에 기여하려면 GitHub 사용 경험 수준에 따라 3가�
 
 
 
-- 숙련된 사용자**: 평소 사용하던 방법을 계속 사용하고 아래의 짧은 튜토리얼을 참조하여 Plan ₿ Network 리포지토리 파일 구조, 특정 요구 사항 및 작업 방법을 요약하세요:
+- **숙련된 사용자**: 평소 사용하던 방법을 계속 사용하고 아래의 짧은 튜토리얼을 참조하여 Plan ₿ Network 리포지토리 파일 구조, 특정 요구 사항 및 작업 방법을 요약하세요:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- 중급(GitHub 데스크톱)**: Git 사용에 익숙하지 않은 경우, 첫 번째 옵션은 Plan ₿ Network에 기여할 수 있는 로컬 환경을 쉽게 설정하는 것입니다. 이 방법은 전체 튜토리얼 작성과 같이 중요한 기여를 할 때 권장됩니다. 이렇게 하려면 아래의 단계별 튜토리얼을 따르세요:
+- **중급(GitHub 데스크톱)**: Git 사용에 익숙하지 않은 경우, 첫 번째 옵션은 Plan ₿ Network에 기여할 수 있는 로컬 환경을 쉽게 설정하는 것입니다. 이 방법은 전체 튜토리얼 작성과 같이 중요한 기여를 할 때 권장됩니다. 이렇게 하려면 아래의 단계별 튜토리얼을 따르세요:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- 초보자(웹 Interface)**: 완전한 로컬 환경을 설정할 필요 없이 GitHub의 웹 Interface을 직접 사용할 수도 있습니다. 이 방법은 사소한 기여의 경우 고려할 수 있습니다. 그러나 완전한 새 튜토리얼을 추가하는 등 중요한 기여의 경우 이 옵션은 로컬 환경을 설정하는 것보다 더 복잡할 수 있습니다. 이 튜토리얼에서 이 방법을 설명하겠습니다:
+- **초보자(웹 Interface)**: 완전한 로컬 환경을 설정할 필요 없이 GitHub의 웹 Interface을 직접 사용할 수도 있습니다. 이 방법은 사소한 기여의 경우 고려할 수 있습니다. 그러나 완전한 새 튜토리얼을 추가하는 등 중요한 기여의 경우 이 옵션은 로컬 환경을 설정하는 것보다 더 복잡할 수 있습니다. 이 튜토리얼에서 이 방법을 설명하겠습니다:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

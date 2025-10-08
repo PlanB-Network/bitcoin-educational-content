@@ -26,9 +26,9 @@ Aurora Store je jedna od najpopularnijih alternativnih prodavnica aplikacija za 
 
 
 
-- Pojednostavljeni Interface**: Interface vas nimalo ne zbunjuje, tako da je lako pronaći svoj pravac.
-- Pristup milionima aplikacija**: Aurora Store deluje kao portal ka širokom spektru mobilnih aplikacija. Ako je aplikacija koju tražite na Google Play Store-u, pronaći ćete je na Aurora Store-u.
-- Nije potrebna Google Play usluga**: Zahvaljujući MicroG tehnologiji, Android aplikacije mogu raditi na vašem telefonu bez Google Play usluga.
+- **Pojednostavljeni Interface**: Interface vas nimalo ne zbunjuje, tako da je lako pronaći svoj pravac.
+- **Pristup milionima aplikacija**: Aurora Store deluje kao portal ka širokom spektru mobilnih aplikacija. Ako je aplikacija koju tražite na Google Play Store-u, pronaći ćete je na Aurora Store-u.
+- **Nije potrebna Google Play usluga**: Zahvaljujući MicroG tehnologiji, Android aplikacije mogu raditi na vašem telefonu bez Google Play usluga.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store ne samo da preslikava Google Play Store, već uključuje i funkcije
 
 
 
-- Nezavisnost od Google-a:**
+- **Nezavisnost od Google-a:**
 
 
 
@@ -112,7 +112,7 @@ U kontekstu gde odlučite da onemogućite Google Play usluge kako biste zaštiti
 
 
 
-- Preuzimanje kontrole:**
+- **Preuzimanje kontrole:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Store vam omogućava ručno preuzimanje mobilnih aplikacija tako što nav
 
 
 
-- Autorizacije:**
+- **Autorizacije:**
 
 
 U opisu aplikacije koju želite instalirati, pribavite kompletan spisak ovlašćenja koja ćete dodeliti ovoj aplikaciji nakon instalacije.
@@ -139,7 +139,7 @@ U opisu aplikacije koju želite instalirati, pribavite kompletan spisak ovlašć
 
 
 
-- Analiza zaštite podataka:**
+- **Analiza zaštite podataka:**
 
 
 

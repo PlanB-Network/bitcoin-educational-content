@@ -25,19 +25,19 @@ description: Koresha Gutwara Umuravyo (RTL) kugira ngo ucungere urudodo rwawe rw
 
 
 
-- Uburongozi bw'imirongo y'umuravyo** - Gufungura/funga imirongo n'ugukanda bike. RTL ishobora kugufasha kwifatanya n’umugenzi wawe no gufungura umurongo ata tegeko. Ushobora guhindura amafaranga y’urugendo, kuraba igiharuro c’uburinganire, canke gutangura gusubiramwo uburinganire bw’uruziga kugira ngo wongere uburinganire bw’amahera hagati y’imirongo.
+- **Uburongozi bw'imirongo y'umuravyo** - Gufungura/funga imirongo n'ugukanda bike. RTL ishobora kugufasha kwifatanya n'umugenzi wawe no gufungura umurongo ata tegeko. Ushobora guhindura amafaranga y'urugendo, kuraba igiharuro c'uburinganire, canke gutangura gusubiramwo uburinganire bw'uruziga kugira ngo wongere uburinganire bw'amahera hagati y'imirongo.
 
 
 
 
 
-- Gukurikirana no kwishura** - RTL icungera ibikorwa vya Lightning: kohereza amahera biciye ku mafagitire, amafagitire ya generate yo kwakira, gukurikirana ibikorwa (amahera, inzira) n’amateka arambuye. Interface nayo isesangura inzira kugira ngo ibone amahera ariko araca muri node yawe.
+- **Gukurikirana no kwishura** - RTL icungera ibikorwa vya Lightning: kohereza amahera biciye ku mafagitire, amafagitire ya generate yo kwakira, gukurikirana ibikorwa (amahera, inzira) n'amateka arambuye. Interface nayo isesangura inzira kugira ngo ibone amahera ariko araca muri node yawe.
 
 
 
 
 
-- Wallet On-Chain uburongozi n'ububiko** - Urupapuro rwa On-Chain rugufasha gukoresha amaderesi ya generate no kohereza amafaranga. RTL ituma vyoroha kubika imirongo mu gutuma hanze dosiye ya SCB ya LND, n’uguhindura kwihuta ku guhindura imirongo yose.
+- **Wallet On-Chain uburongozi n'ububiko** - Urupapuro rwa On-Chain rugufasha gukoresha amaderesi ya generate no kohereza amafaranga. RTL ituma vyoroha kubika imirongo mu gutuma hanze dosiye ya SCB ya LND, n'uguhindura kwihuta ku guhindura imirongo yose.
 
 
 
@@ -142,9 +142,9 @@ Iri tegeko rishiramwo amapaki ya NPM akenewe (kwirengagiza ivy'iterambere). Ihit
 
 
 
-- Ijambobanga rya UI**: uhitemwo ijambobanga ry'umutekano maze urishire muri `multiPass` (aho gushiramwo `"ijambobanga"`).
-- Icibutso**: mburabuzi `3000`. Ushobora kuyihindura nimba iyo port imaze gufatwa ku mashine yawe.
-- Urudodo**: mu gice ca `urudodo[0]`, hindura amaparametere y'urudodo rwawe:
+- **Ijambobanga rya UI**: uhitemwo ijambobanga ry'umutekano maze urishire muri `multiPass` (aho gushiramwo `"ijambobanga"`).
+- **Icibutso**: mburabuzi `3000`. Ushobora kuyihindura nimba iyo port imaze gufatwa ku mashine yawe.
+- **Urudodo**: mu gice ca `urudodo[0]`, hindura amaparametere y'urudodo rwawe:
      - `lnNode`: izina ridondora urudodo rwawe (nk'akarorero `"Inzu y'urudodo LND"`).
      - lnIshirwa mu ngiro: `"LND"` (canke `"CLN"`/`"ECL"` nk'uko bikwiye).
      - Munsi ya `kwemeza`:
@@ -270,8 +270,8 @@ Niwakoresha [Umutaka](https://getumbrel.com), gushiramwo RTL biroroshe cane:
 
 
 
-- Gutwara Umuravyo** (ku LND): kugira ngo ukoreshe n'urudodo rw'Umuravyo rwa Umbrel (LND).
-- Ride The Lightning (Umuco w'Ishingiro)**: ukoreshe gusa iyo washizeho porogarama ya *Core Lightning* kuri Umbrel kandi wipfuza gucunga iyi node ukoresheje RTL.
+- **Gutwara Umuravyo** (ku LND): kugira ngo ukoreshe n'urudodo rw'Umuravyo rwa Umbrel (LND).
+- **Ride The Lightning (Umuco w'Ishingiro)**: ukoreshe gusa iyo washizeho porogarama ya *Core Lightning* kuri Umbrel kandi wipfuza gucunga iyi node ukoresheje RTL.
 
 
 
@@ -639,8 +639,8 @@ Ntukigere ugaragaza RTL ataco uhinduye kuri Internet. Guhitamwo :
 
 
 
-- VPN** (nk'akarorero Tailscale) ku kwinjira mu bwiherero, mu buryo bupfutse
-- Tor** kugira ngo umuntu ashobore gushika ku mutekano, ata mazina
+- **VPN** (nk'akarorero Tailscale) ku kwinjira mu bwiherero, mu buryo bupfutse
+- **Tor** kugira ngo umuntu ashobore gushika ku mutekano, ata mazina
 - Guhindura umugenzuzi **HTTPS** (Nginx/Caddy) gusa iyo uzi uko wobitunganya
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Rinda uburenganzira bwawe**: ntukigere usangira admin.macaroon canke ijambobanga ryawe rya RTL. Guhagarika uruhusha ku madosiye y'agaciro.
-- Ivyiyumviro bihoraho**: sohereza hanze dosiye y'ivy'imirongo (SCB) inyuma y'uguhindura kwose maze uyibike hanze y'uruzitiro.
-- Ivyashizwe ku rubuga**: ushire RTL, node yawe na Umbrel ku gihe n'ivyo gukosora umutekano bishasha.
-- Ibanga**: gukingira amakuru n’amafoto imbere y’uko ubisangiza abandi. Ntukigere usangira amahera yawe canke urutonde rw’urunganwe rwawe ku mugaragaro.
-- Ukwinjira kumwe**: RTL si ugukoresha benshi. Ntusangire uburenganzira bw'ubuyobozi. Kugira ngo ushobore gusoma gusa, koresha amakaroni yihariye nimba bikenewe.
+- **Rinda uburenganzira bwawe**: ntukigere usangira admin.macaroon canke ijambobanga ryawe rya RTL. Guhagarika uruhusha ku madosiye y'agaciro.
+- **Ivyiyumviro bihoraho**: sohereza hanze dosiye y'ivy'imirongo (SCB) inyuma y'uguhindura kwose maze uyibike hanze y'uruzitiro.
+- **Ivyashizwe ku rubuga**: ushire RTL, node yawe na Umbrel ku gihe n'ivyo gukosora umutekano bishasha.
+- **Ibanga**: gukingira amakuru n'amafoto imbere y'uko ubisangiza abandi. Ntukigere usangira amahera yawe canke urutonde rw'urunganwe rwawe ku mugaragaro.
+- **Ukwinjira kumwe**: RTL si ugukoresha benshi. Ntusangire uburenganzira bw'ubuyobozi. Kugira ngo ushobore gusoma gusa, koresha amakaroni yihariye nimba bikenewe.
 
 
 
@@ -684,9 +684,9 @@ Kugira ngo umenye vyinshi :
 
 - Urubuga rwemewe rwa RTL: https://www.amakuru y'umuravyo/
 - GitHub RTL: gutwara-umuravyo/RTL
-- Reddit r/umuravyo**: [r/umuravyo](https://www.reddit.com/r/umuravyo) - Ibiganiro vy'ubuhinga, amatangazo y'umugambi, inyishu n'ibikoresho vy'inyigisho
-- Ihuriro ry'abanyagihugu ry'Umutaka**: [abanyagihugu.
-- Lightning Network Abahinguzi**: [github.com/umuravyo](https://github.com/umuravyo) - Ububiko buzwi bwa GitHub bwo gukurikirana iterambere no gutanga kode y'inkomoko
+- **Reddit r/umuravyo**: [r/umuravyo](https://www.reddit.com/r/umuravyo) - Ibiganiro vy'ubuhinga, amatangazo y'umugambi, inyishu n'ibikoresho vy'inyigisho
+- **Ihuriro ry'abanyagihugu ry'Umutaka**: [abanyagihugu.
+- **Lightning Network Abahinguzi**: [github.com/umuravyo](https://github.com/umuravyo) - Ububiko buzwi bwa GitHub bwo gukurikirana iterambere no gutanga kode y'inkomoko
 - - Ibibazo n'inyishu vy'ubuhinga n'abahinguzi n'abakoresha bateye imbere
 
 

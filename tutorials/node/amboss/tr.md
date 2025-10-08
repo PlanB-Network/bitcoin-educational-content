@@ -139,15 +139,15 @@ Bu Interface size bu düğüm için bağlantı Address'ini söyler: `pubkey@ip:p
 
 
 
-Kanallar** bölümünde, açık kanalların listesini ve düğümün ağdaki diğer düğümlerle olan bağlantılarını göreceksiniz. Bu Interface'de, bu düğümün ihtiyaçlarımıza karşılık geldiğini veya güvenilir olduğunu doğrulamak için birkaç bilgi hayati önem taşır:
+**Kanallar** bölümünde, açık kanalların listesini ve düğümün ağdaki diğer düğümlerle olan bağlantılarını göreceksiniz. Bu Interface'de, bu düğümün ihtiyaçlarımıza karşılık geldiğini veya güvenilir olduğunu doğrulamak için birkaç bilgi hayati önem taşır:
 
 
 
 
 
-- Gelen oran**: Seçilen kanala bağlı olarak düğümün aldığı her bir milyon Satoshi için sizden talep edeceği miktar.
+- **Gelen oran**: Seçilen kanala bağlı olarak düğümün aldığı her bir milyon Satoshi için sizden talep edeceği miktar.
 - Oran (milyon başına parça)** : kanallarından biri aracılığıyla bir ödeme yapmaya karar verdiğinizde düğümün sizden alacağı milyon birim başına Satoshi sayısını temsil eder. Diyelim ki ppm oranı `500 Sats` olan bir kanal üzerinden `10_000 Sats`lik bir ödeme yapmaya karar verdiniz, düğüme `10_000 * 500 / 1_000_000` satoshis, yani `5 Sats` ödemeniz gerekecek.
-- HTLC](https://planb.network/resources/glossary/HTLC) maksimum** : Bu düğümün bu kanallardan biri üzerinden geçiş yapmanıza izin verdiği maksimum miktar.
+- **HTLC maksimum**: Bu düğümün bu kanallardan biri üzerinden geçiş yapmanıza izin verdiği maksimum miktar.
 
 
 
@@ -159,7 +159,7 @@ Bu Interface'deki tabloya başvurarak, eşleştirildiği düğümle ilgili tüm 
 
 
 
-Kanal haritaları** bölümünde, bu düğüm üzerindeki çeşitli kanalların dağılımını ve kapasitesini görebilirsiniz. Sağdaki açılır listedeki seçeneklerden birini seçerek görüntülenen dağıtım kriterlerini değiştirebilirsiniz.
+**Kanal haritaları** bölümünde, bu düğüm üzerindeki çeşitli kanalların dağılımını ve kapasitesini görebilirsiniz. Sağdaki açılır listedeki seçeneklerden birini seçerek görüntülenen dağıtım kriterlerini değiştirebilirsiniz.
 
 
 
@@ -167,12 +167,12 @@ Kanal haritaları** bölümünde, bu düğüm üzerindeki çeşitli kanalların 
 
 
 
-Kapanan kanallar** bölümü, düğümün tüm eski kanallarını kapanma türüne göre gruplandırır:
+**Kapanan kanallar** bölümü, düğümün tüm eski kanallarını kapanma türüne göre gruplandırır:
 
 
 
 
-- Karşılıklı kapanış**: kanalın kapanışını ve içindeki bakiyelerin dağıtımını işaret eden işlemi imzalamak için özel anahtarlarını kullanan her iki tarafın anlaşmasını temsil eder
+- **Karşılıklı kapanış**: kanalın kapanışını ve içindeki bakiyelerin dağıtımını işaret eden işlemi imzalamak için özel anahtarlarını kullanan her iki tarafın anlaşmasını temsil eder
 - Bir **zorla kapatma**: kanalın bir bölümünün aniden, tek taraflı olarak kapatılmasını temsil eder. Lightning Network cezaya dayalı bir protokol olduğu için bu tür bir kapatma tavsiye edilmez: bir kanalın bakiyesini dolandırmaya çalıştığınızda, o kanaldaki mevcut tüm bakiyenizi kaybetme riskiyle karşı karşıya kalırsınız.
 
 
@@ -197,7 +197,7 @@ Amboss sadece ağ üyesi bilgilerine değil, aynı zamanda ağın kendi durumuna
 
 
 
-İstatistikler** bölümünde, sol taraftaki "Simülasyonlar" menüsünün altında, ödeme tutarının bir fonksiyonu olarak başarılı bir ödeme olasılığını gösteren bir grafik bulacaksınız.
+**İstatistikler** bölümünde, sol taraftaki "Simülasyonlar" menüsünün altında, ödeme tutarının bir fonksiyonu olarak başarılı bir ödeme olasılığını gösteren bir grafik bulacaksınız.
 
 
 
@@ -209,7 +209,7 @@ Aslında, eğrinin azaldığını fark edeceksiniz, çünkü ödemenizin miktar�
 
 
 
-Ağ istatistikleri** menüsü, . için istatistikleri grafiksel olarak görüntülemenizi sağlar:
+**Ağ istatistikleri** menüsü, . için istatistikleri grafiksel olarak görüntülemenizi sağlar:
 
 
 
@@ -226,7 +226,7 @@ Ağ istatistikleri** menüsü, . için istatistikleri grafiksel olarak görünt�
 
 
 
-Piyasa istatistikleri** menüsündeki **Sipariş ayrıntıları** seçeneği, Lightning Network üzerindeki likidite talebini görüntülemenizi sağlar. Bu grafik aynı zamanda hangi kanalların en çok talep gördüğünü ve/veya hangilerinin önemli kapasiteye sahip olduğunu gösterebilir.
+**Piyasa istatistikleri** menüsündeki **Sipariş ayrıntıları** seçeneği, Lightning Network üzerindeki likidite talebini görüntülemenizi sağlar. Bu grafik aynı zamanda hangi kanalların en çok talep gördüğünü ve/veya hangilerinin önemli kapasiteye sahip olduğunu gösterebilir.
 
 
 

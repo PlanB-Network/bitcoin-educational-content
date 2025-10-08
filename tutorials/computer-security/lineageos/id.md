@@ -149,8 +149,8 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-- Alat Flash Android**: Gunakan alat resmi Google [flash.android.com](https://flash.android.com) untuk memulihkan perangkat Pixel Anda ke Android stok dengan mudah dari peramban web Anda (perlu Chrome/Edge)
-- Alternatif**: Gambar pabrik secara manual dari [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Alat Flash Android**: Gunakan alat resmi Google [flash.android.com](https://flash.android.com) untuk memulihkan perangkat Pixel Anda ke Android stok dengan mudah dari peramban web Anda (perlu Chrome/Edge)
+- **Alternatif**: Gambar pabrik secara manual dari [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-- Boot perangkat Anda setidaknya satu kali** dengan sistem stok asli
-- Menguji semua fitur**: SMS, panggilan, Wi-Fi, data seluler
-- Penting**: Pastikan Anda dapat mengirim/menerima SMS dan melakukan/penerimaan panggilan (termasuk melalui WiFi dan 4G/5G). Jika tidak berfungsi pada sistem stok, maka tidak akan berfungsi pada LineageOS juga!
-- Perangkat terbaru**: Beberapa perangkat memerlukan VoLTE/VoWiFi untuk digunakan setidaknya satu kali pada sistem stok untuk menyediakan IMS
+- Boot perangkat Anda setidaknya satu kali **dengan sistem stok asli**
+- **Menguji semua fitur**: SMS, panggilan, Wi-Fi, data seluler
+- **Penting**: Pastikan Anda dapat mengirim/menerima SMS dan melakukan/penerimaan panggilan (termasuk melalui WiFi dan 4G/5G). Jika tidak berfungsi pada sistem stok, maka tidak akan berfungsi pada LineageOS juga!
+- **Perangkat terbaru**: Beberapa perangkat memerlukan VoLTE/VoWiFi untuk digunakan setidaknya satu kali pada sistem stok untuk menyediakan IMS
 
 
 
@@ -171,8 +171,8 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-- Hapus semua akun Google** dari perangkat Anda untuk menghindari Perlindungan Pengaturan Ulang Pabrik, yang dapat memblokir aktivasi
-- Pencadangan penuh** : Proses ini akan menghapus ponsel Anda sepenuhnya. Mencadangkan foto, kontak, aplikasi, dan file penting
+- Hapus semua akun Google dari perangkat Anda untuk menghindari Perlindungan Pengaturan Ulang Pabrik, yang dapat memblokir aktivasi
+- **Pencadangan penuh**: Proses ini akan menghapus ponsel Anda sepenuhnya. Mencadangkan foto, kontak, aplikasi, dan file penting
 
 
 
@@ -216,7 +216,7 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-⚠️ **Petunjuk ini khusus untuk LineageOS 22.2. Ikuti setiap langkah dengan tepat. Jangan lanjutkan jika ada yang gagal!
+⚠️ **Petunjuk ini khusus untuk LineageOS 22.2. Ikuti setiap langkah dengan tepat. Jangan lanjutkan jika ada yang gagal!**
 
 
 
@@ -249,8 +249,8 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-- Membangun LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- File yang diperlukan**: Unduh 3 file yang diperlukan dari halaman ini (file-file tersebut akan digunakan dalam langkah-langkah berikut):
+- **Membangun LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **File yang diperlukan**: Unduh 3 file yang diperlukan dari halaman ini (file-file tersebut akan digunakan dalam langkah-langkah berikut):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (ROM utama)
   - dtbo.img` (gumpalan pohon perangkat partisi)
   - `boot.img` (pemulihan LineageOS)
@@ -269,13 +269,13 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-⚠️ **Langkah ini akan menghapus semua data Anda!
+⚠️ **Langkah ini akan menghapus semua data Anda!**
 
 
 
 
 
-- Menguji koneksi ADB**: Hubungkan perangkat Anda melalui USB dan uji dengan perintah `adb devices` dari terminal komputer Anda
+- **Menguji koneksi ADB**: Hubungkan perangkat Anda melalui USB dan uji dengan perintah `adb devices` dari terminal komputer Anda
 
 
 
@@ -289,7 +289,7 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-- Otorisasi koneksi** pada ponsel Anda
+- **Otorisasi koneksi** pada ponsel Anda
 
 
 
@@ -303,7 +303,7 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-- Boot ke mode bootloader** :
+- **Boot ke mode bootloader** :
 
 
 ```
@@ -317,7 +317,7 @@ Atau tahan **Volume Turun + Daya** perangkat
 
 
 
-- Periksa koneksi fastboot**:
+- Periksa koneksi **fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Membuka kunci bootloader** :
+- **Membuka kunci bootloader** :
 
 
 ```
@@ -370,7 +370,7 @@ Pada perangkat, gunakan tombol Volume untuk menavigasi dan tekan tombol **Daya**
 
 
 
-- Setelah restart otomatis**, aktifkan kembali USB debugging di opsi pengembang
+- Setelah restart otomatis, aktifkan kembali USB debugging di opsi pengembang
 
 
 
@@ -385,8 +385,8 @@ Pada perangkat, gunakan tombol Volume untuk menavigasi dan tekan tombol **Daya**
 
 
 
-- Mulai ulang bootloader**: Volume Turun + Daya
-- Flash** (ganti `/path/to/` dengan folder tempat Anda mengunduh file) :
+- **Mulai ulang bootloader**: Volume Turun + Daya
+- **Flash** (ganti `/path/to/` dengan folder tempat Anda mengunduh file) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Pemulihan flash** (ganti `/path/to/` dengan folder tempat Anda mengunduh file) :
+- **Pemulihan flash** (ganti `/path/to/` dengan folder tempat Anda mengunduh file) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Mulai ulang dalam pemulihan** untuk memeriksa
+- **Mulai ulang dalam pemulihan** untuk memeriksa
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Mulai ulang dalam pemulihan**: Volume Turun + Daya → Mode Pemulihan
+- **Mulai ulang dalam pemulihan**: Volume Turun + Daya → Mode Pemulihan
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Pengaturan Ulang Pabrik** : Ketik "Reset Pabrik" → "Format data / reset pabrik"
+- **Pengaturan Ulang Pabrik**: Ketik "Reset Pabrik" → "Format data / reset pabrik"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Kembali ke menu utama**
-- Sideload LineageOS**:
+- **Kembali ke menu utama**
+- **Sideload LineageOS**:
    - Pada perangkat: "Terapkan Pembaruan" → "Terapkan dari ADB"
    - Di PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Mulai ulang**: "Mulai ulang sistem sekarang"
-- Boot pertama**: Dapat memakan waktu hingga 15 menit
+- **Mulai ulang**: "Mulai ulang sistem sekarang"
+- **Boot pertama**: Dapat memakan waktu hingga 15 menit
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Kompatibilitas firmware**: Pastikan untuk memeriksa versi firmware yang diperlukan pada halaman pengunduhan model Anda
-- Jangan pernah mengunci ulang** bootloader setelah menginstal LineageOS
-- Ikuti petunjuk khusus** untuk perangkat Anda
+- **Kompatibilitas firmware**: Pastikan untuk memeriksa versi firmware yang diperlukan pada halaman pengunduhan model Anda
+- Jangan pernah mengunci ulang **bootloader** setelah menginstal LineageOS
+- Ikuti **petunjuk khusus** untuk perangkat Anda
 
 
 
@@ -559,11 +559,11 @@ Interface yang ramping, mendekati stok Android, tanpa Google. Konfigurasi sederh
 
 
 
-- Navigasi**: Peta Organik (peta offline berdasarkan OpenStreetMap)
-- Komunikasi**: Signal (pesan terenkripsi ujung ke ujung), K-9 Mail (klien email gratis)
-- Media**: NewPipe (YouTube bebas iklan, bebas pelacakan), VLC (pemutar media universal)
-- Produktivitas**: Nextcloud (cloud hosting mandiri), Kalender Sederhana (sinkronisasi CalDAV)
-- Keamanan**: Bitwarden (pengelola kata sandi), Aegis Authenticator (kode 2FA)
+- **Navigasi**: Peta Organik (peta offline berdasarkan OpenStreetMap)
+- **Komunikasi**: Signal (pesan terenkripsi ujung ke ujung), K-9 Mail (klien email gratis)
+- **Media**: NewPipe (YouTube bebas iklan, bebas pelacakan), VLC (pemutar media universal)
+- **Produktivitas**: Nextcloud (cloud hosting mandiri), Kalender Sederhana (sinkronisasi CalDAV)
+- **Keamanan**: Bitwarden (pengelola kata sandi), Aegis Authenticator (kode 2FA)
 
 
 

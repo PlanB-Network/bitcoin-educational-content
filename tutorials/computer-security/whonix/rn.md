@@ -7,7 +7,7 @@ description: Zigama ubuzima bwite bwawe n’ibanga ryawe.
 
 
 
-**Whonix** ni umurongo wa Linux ushingiye kuri **Debian**, wagenewe gutanga ibidukikije bihuza **umutekano**, **ukutamenyekana** na **ubuzima bwite**. Biroroshe kwiga, kandi bihuye n’ibikoresho bitandukanye (amamashini y’ivy’impwemu, Qubes OS, uburyo bwo kubaho), birimwo n’inzira y’uruja n’uruza rw’urubuga biciye ku **Tor**, **uruhome rw’umuriro rubiri** (uruhome rw’umuriro rumwe ku Muryango n’urundi ku Kibanza c’Akazi), **uburinzi bushitse ku bijanye n’ugusohoka kwa IP/DNS** serly harimwo n’ubuhinga bwawe bwo gukingira IP/DNS** n’ibikoresho vyawe. Ibirenze gusa ubuhinga butazwi, **Whonix** ni ikibanza c’iterambere gitekanye.
+**Whonix** ni umurongo wa Linux ushingiye kuri **Debian**, wagenewe gutanga ibidukikije bihuza **umutekano**, **ukutamenyekana** na **ubuzima bwite**. Biroroshe kwiga, kandi bihuye n'ibikoresho bitandukanye (amamashini y'ivy'impwemu, Qubes OS, uburyo bwo kubaho), birimwo n'inzira y'uruja n'uruza rw'urubuga biciye ku **Tor**, **uruhome rw'umuriro rubiri** (uruhome rw'umuriro rumwe ku Muryango n'urundi ku Kibanza c'Akazi), **uburinzi bushitse ku bijanye n'ugusohoka kwa IP/DNS** hamwe n'ubuhinga bwawe bwo gukingira **IP/DNS** n'ibikoresho vyawe. Ibirenze gusa ubuhinga butazwi, **Whonix** ni ikibanza c'iterambere gitekanye.
 
 
 
@@ -17,12 +17,12 @@ description: Zigama ubuzima bwite bwawe n’ibanga ryawe.
 
 
 
-- Ku buntu**: Cokimwe n’ibindi bikoresho vyinshi vya Linux, Whonix ni ubuhinga bufunguye bufise uruhusha rwo gukora ku buntu. Iteguwe mu buryo bufunguye, ifise umuryango ukora kandi uboneye.
-- Ubuzima bwite, umutekano n’ukutamenyekana**: Intumbero ihambaye ya Whonix ni ugutanga ikibanza gifise umutekano mwinshi cane, aho amakuru yawe yose akinzwe kandi n’ivy’itumanaho ryawe bikaba bishizwe mu nzira y’ubuhinga bwa Tor.
-- Biroroshe gukoresha**: Whonix itanga igishushanyo Interface gisanzwe, gisanzwe, kibereye mbere n’abakoresha bashasha. Ntibikenewe kuba umuhinga kugira ngo wungukire ku kurindwa guteye imbere.
-- Ibidukikije vyiza vyo guteza imbere mu mutekano**: Whonix iragufasha gutegura, kugerageza, gusuzuma canke gukoresha porogarama utarigeze uhishura IP yawe nyayo Address canke ngo ugaragaze ingeso zawe zo gusura canke guhanahana amakuru ku rubuga.
-- Ivyigwa bikoreshwa rimwe gusa n’uburyo bwo gukora**: Whonix ishobora gutangura mu buryo bw’ubuzima canke biciye ku mashini zikoreshwa rimwe (nk’akarorero biciye ku **Qubes OS**), bikaba bishoboza ibikorwa bihambaye gukorwa ata n’ibimenyetso bihoraho bisigaye iyo igihe kirangiye.
-- Gushiramwo biroroshe cane**: Amashusho yiteguye gukoreshwa aratangwa kugira ngo ashirwemwo vyihuse mu mashini zitaboneka (VirtualBox, KVM, Qubes). Ubuhinga burandikwa kandi bugahora buvugururwa.
+- **Ku buntu**: Cokimwe n'ibindi bikoresho vyinshi vya Linux, Whonix ni ubuhinga bufunguye bufise uruhusha rwo gukora ku buntu. Iteguwe mu buryo bufunguye, ifise umuryango ukora kandi uboneye.
+- **Ubuzima bwite, umutekano n'ukutamenyekana**: Intumbero ihambaye ya Whonix ni ugutanga ikibanza gifise umutekano mwinshi cane, aho amakuru yawe yose akinzwe kandi n'ivy'itumanaho ryawe bikaba bishizwe mu nzira y'ubuhinga bwa Tor.
+- **Biroroshe gukoresha**: Whonix itanga igishushanyo Interface gisanzwe, gisanzwe, kibereye mbere n'abakoresha bashasha. Ntibikenewe kuba umuhinga kugira ngo wungukire ku kurindwa guteye imbere.
+- **Ibidukikije vyiza vyo guteza imbere mu mutekano**: Whonix iragufasha gutegura, kugerageza, gusuzuma canke gukoresha porogarama utarigeze uhishura IP yawe nyayo Address canke ngo ugaragaze ingeso zawe zo gusura canke guhanahana amakuru ku rubuga.
+- Ivyigwa bikoreshwa rimwe gusa n'uburyo bwo gukora: Whonix ishobora gutangura mu buryo bw'ubuzima canke biciye ku mashini zikoreshwa rimwe (nk'akarorero biciye ku **Qubes OS**), bikaba bishoboza ibikorwa bihambaye gukorwa ata n'ibimenyetso bihoraho bisigaye iyo igihe kirangiye.
+- **Gushiramwo biroroshe cane**: Amashusho yiteguye gukoreshwa aratangwa kugira ngo ashirwemwo vyihuse mu mashini zitaboneka (VirtualBox, KVM, Qubes). Ubuhinga burandikwa kandi bugahora buvugururwa.
 
 
 
@@ -56,9 +56,9 @@ Aha niho hari ivyiza vyerekeye ubumenyi bubereye kandi bushikamye na Whonix:
 
 
 
-- Ubuhinga bwo kwibuka (RAM)**: ni **8 GB** nivyo bikenewe cane. Uko ugira RAM nyinshi niko ushobora gutanga amafaranga menshi ku mashini zikora (Gateway na Workstation), bigatuma ukora neza.
+- **Ubuhinga bwo kwibuka (RAM)**: ni **8 GB** nivyo bikenewe cane. Uko ugira RAM nyinshi niko ushobora gutanga amafaranga menshi ku mashini zikora (Gateway na Workstation), bigatuma ukora neza.
 - Imyanya iriho kuri disiki**: usabwe kwemera nibura 30 GB y'umwanya kuri disiki y'ubuntu**. Ivyo birimwo umwanya usabwa ku mashini zibiri zisanzwe, amadosiye ya sisitemu n’amakuru yose canke amafoto.
-- Processeur**: processeur ifise nibura **4 physique cores** (8 logical threads) ni ngirakamaro, cane cane iyo ushaka gukoresha izindi serivisi canke ibikoresho bihuye.
+- **Processeur**: processeur ifise nibura **4 physique cores** (8 logical threads) ni ngirakamaro, cane cane iyo ushaka gukoresha izindi serivisi canke ibikoresho bihuye.
 
 
 
@@ -205,7 +205,7 @@ sudo apt full-upgrade
 
 
 
-**Whonix** ni ubuhinga bugenewe gutanga **umutekano**, **utamenyekana** n’ibanga** ry’ubuhinga bwa none, ryiza cane mu gukoresha Internet ataco bihungabanya ku bijanye n’akaranga kawe canke amakuru yawe. Kugira ngo ivyo bishoboke, izana n’ibikoresho vyinshi vy’ingirakamaro vya misi yose vyagenewe gukomeza umutekano wawe wo kuri interineti kuva mu ntango.
+**Whonix** ni ubuhinga bugenewe gutanga **umutekano**, **utamenyekana** n'**ibanga** ry'ubuhinga bwa none, ryiza cane mu gukoresha Internet ataco bihungabanya ku bijanye n'akaranga kawe canke amakuru yawe. Kugira ngo ivyo bishoboke, izana n'ibikoresho vyinshi vy'ingirakamaro vya misi yose vyagenewe gukomeza umutekano wawe wo kuri interineti kuva mu ntango.
 
 
 ### Gukomeza XC
@@ -236,7 +236,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
-Whonix ni ikintu kirenze ubuhinga bwo gukoresha gusa: ni **ikibanza c’ukuri gitekanye** gigenewe kurinda ubutamenyekana bwawe, ubuzima bwite bwawe n’ibikorwa vyawe vy’agaciro. Kubera ubuhinga bwayo bushingiye kuri Tor, ugucapura kw’ubwenge hagati ya Gateway na Workstation, n’ibikoresho vyashizweho mbere nka Tor Browser, KeePassXC na Electrum, itanga umuti w’urufunguzo ku muntu wese yipfuza **gusoma ata wuzi**, **gukora mu mutekano** canke **gufata con.fi
+Whonix ni ikintu kirenze ubuhinga bwo gukoresha gusa: ni **ikibanza c'ukuri gitekanye** gigenewe kurinda ubutamenyekana bwawe, ubuzima bwite bwawe n'ibikorwa vyawe vy'agaciro. Kubera ubuhinga bwayo bushingiye kuri Tor, ugucapura kw'ubwenge hagati ya Gateway na Workstation, n'ibikoresho vyashizweho mbere nka Tor Browser, KeePassXC na Electrum, itanga umuti w'urufunguzo ku muntu wese yipfuza **gusoma ata wuzi**, **gukora mu mutekano** canke **gufata con.fi**
 
 
 

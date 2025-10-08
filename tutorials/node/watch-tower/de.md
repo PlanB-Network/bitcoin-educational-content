@@ -33,7 +33,7 @@ In diesem Tutorial werden wir uns 3 Möglichkeiten ansehen, einen **Watchtower**
 
 
 
-*Diese Anleitung stammt aus [der offiziellen LND-Dokumentation] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). An der Originalversion wurden möglicherweise einige Änderungen vorgenommen
+*Diese Anleitung stammt aus [der offiziellen LND-Dokumentation](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). An der Originalversion wurden möglicherweise einige Änderungen vorgenommen.*
 
 
 
@@ -337,13 +337,13 @@ Das Auge von Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) ist
 
 
 
-- teos**: enthält einen Befehlszeilen-Interface (CLI) und die wesentlichen Serverfunktionen von Watchtower. Zwei Binärdateien - **teosd** und **teos-CLI** - werden erzeugt, wenn dieser _Krate_ kompiliert wird.
+- **teos**: enthält einen Befehlszeilen-Interface (CLI) und die wesentlichen Serverfunktionen von Watchtower. Zwei Binärdateien - **teosd** und **teos-CLI** - werden erzeugt, wenn dieser _Krate_ kompiliert wird.
 
 
 
 
 
-- teos-common**: enthält gemeinsame server- und clientseitige Funktionen (nützlich für die Erstellung eines Clients).
+- **teos-common**: enthält gemeinsame server- und clientseitige Funktionen (nützlich für die Erstellung eines Clients).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: für RPC-Anfragen
+- **server**: für RPC-Anfragen
 
 
 
 
 
-- rpcuser** und **rpcpassword**: Authentifizierung von RPC-Clients gegenüber dem Server
+- **rpcuser** und **rpcpassword**: Authentifizierung von RPC-Clients gegenüber dem Server
 
 
 
 
 
-- regtest**: nicht erforderlich, aber nützlich, wenn Sie eine Entwicklung planen.
+- **regtest**: nicht erforderlich, aber nützlich, wenn Sie eine Entwicklung planen.
 
 
 
@@ -489,13 +489,13 @@ Im Menü "**Watchtower**" sind zwei Optionen verfügbar:
 
 
 
-- Watchtower Service**: Mit dieser Option können Sie einen Watchtower betreiben, d. h. einen Dienst, der die Kanäle anderer Knotenpunkte überwacht, um Betrugsversuche zu erkennen. Im Falle eines Verstoßes veröffentlicht Ihr Watchtower eine Transaktion auf dem Blockchain, so dass die Nutzer ihre gesperrten Gelder zurückerhalten können. Nach der Aktivierung erscheint der URI Ihres Watchtower und kann anderen Knoten mitgeteilt werden, damit diese ihn zu ihrem Watchtower-Client hinzufügen können;
+- **Watchtower Service**: Mit dieser Option können Sie einen Watchtower betreiben, d. h. einen Dienst, der die Kanäle anderer Knotenpunkte überwacht, um Betrugsversuche zu erkennen. Im Falle eines Verstoßes veröffentlicht Ihr Watchtower eine Transaktion auf dem Blockchain, so dass die Nutzer ihre gesperrten Gelder zurückerhalten können. Nach der Aktivierung erscheint der URI Ihres Watchtower und kann anderen Knoten mitgeteilt werden, damit diese ihn zu ihrem Watchtower-Client hinzufügen können;
 
 
 
 
 
-- Watchtower Client**: Mit dieser Option können Sie sich mit externen Wachtürmen verbinden, um Ihre eigenen Kanäle zu schützen. Sobald sie aktiviert ist, können Sie Watchtower-Dienste hinzufügen, an die Ihr Knoten die notwendigen Informationen über seine Kanäle übermittelt. Diese Wachtürme überwachen dann deren Status und greifen im Falle eines Betrugsversuchs ein.
+- **Watchtower Client**: Mit dieser Option können Sie sich mit externen Wachtürmen verbinden, um Ihre eigenen Kanäle zu schützen. Sobald sie aktiviert ist, können Sie Watchtower-Dienste hinzufügen, an die Ihr Knoten die notwendigen Informationen über seine Kanäle übermittelt. Diese Wachtürme überwachen dann deren Status und greifen im Falle eines Betrugsversuchs ein.
 
 
 

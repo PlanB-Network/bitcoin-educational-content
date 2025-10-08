@@ -130,10 +130,10 @@ Proces inkasa je podobný jako u běžné transakce:
 
 
 
-- Zadejte částku**: Na obrazovce platby zadejte částku v místní měně (CHF nebo EUR). Příklad: pro kávu za 4,50 CHF zadejte 4,50
-- Generace Invoice** : Aplikace okamžitě převede částku na satoši podle aktuálního kurzu a vygeneruje bleskový Invoice ve formě QR kódu
-- Platba zákazníka** : Zákazník naskenuje QR kód pomocí Wallet Lightning a potvrdí platbu
-- Potvrzení** : Platba je potvrzena během několika vteřin s vizuálním zobrazením úspěchu
+- **Zadejte částku**: Na obrazovce platby zadejte částku v místní měně (CHF nebo EUR). Příklad: pro kávu za 4,50 CHF zadejte 4,50
+- **Generace Invoice**: Aplikace okamžitě převede částku na satoši podle aktuálního kurzu a vygeneruje bleskový Invoice ve formě QR kódu
+- **Platba zákazníka**: Zákazník naskenuje QR kód pomocí Wallet Lightning a potvrdí platbu
+- **Potvrzení**: Platba je potvrzena během několika vteřin s vizuálním zobrazením úspěchu
 
 
 
@@ -207,11 +207,11 @@ Proces inkasa je podobný jako u běžné transakce:
 
 
 
-- Stravování**: Bary, restaurace, kavárny přijímají příplatky v Bitcoin se správou spropitného
-- Maloobchodní prodej**: Prodejny potravin, pekárny pro rozšíření platebních metod bez fixních poplatků
-- Nomádští prodejci**: food trucky, trhy, festivaly jen s chytrým telefonem
-- Události** : Dočasné stánky s řešeními připravenými k použití
-- Služby**: Poradci, řemeslníci pro jednorázové vyúčtování v Bitcoin
+- **Stravování**: Bary, restaurace, kavárny přijímají příplatky v Bitcoin se správou spropitného
+- **Maloobchodní prodej**: Prodejny potravin, pekárny pro rozšíření platebních metod bez fixních poplatků
+- **Nomádští prodejci**: food trucky, trhy, festivaly jen s chytrým telefonem
+- **Události**: Dočasné stánky s řešeními připravenými k použití
+- **Služby**: Poradci, řemeslníci pro jednorázové vyúčtování v Bitcoin
 
 
 

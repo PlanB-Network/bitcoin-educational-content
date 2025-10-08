@@ -159,7 +159,7 @@ PINコードはジェイドのロックを解除し、不正な物理的アク�
 
 https://jadefw.blockstream.com/pinqr/index.html
 
-QR Unlock*をクリックしてください。
+**QR Unlock**をクリックしてください。
 
 ![Image](assets/fr/31.webp)
 
@@ -344,7 +344,7 @@ Sparrow Walletを開いたら、"*File*"タブをクリックし、"*New Wallet*
 
 ![Image](assets/fr/52.webp)
 
-Airgapped Hardware Wallet*」を選択します。
+**Airgapped Hardware Wallet**」を選択します。
 
 ![Image](assets/fr/53.webp)
 

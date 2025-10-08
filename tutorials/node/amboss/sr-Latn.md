@@ -145,9 +145,9 @@ U odeljku **Channels** videćete listu otvorenih kanala i veze čvora sa drugim 
 
 
 
-- Dolazni odnos**: Iznos koji će vam čvor naplatiti za svaki milion Satoshi koji primi, u zavisnosti od izabranog kanala.
+- **Dolazni odnos**: Iznos koji će vam čvor naplatiti za svaki milion Satoshi koji primi, u zavisnosti od izabranog kanala.
 - Odnos (delovi na milion)** : koji predstavlja broj Satoshi po milion jedinica koje će vam čvor naplatiti kada odlučite da izvršite uplatu putem jednog od njegovih kanala. Recimo da odlučite da izvršite uplatu od `10_000 Sats` putem kanala čiji je ppm odnos `500 Sats`, moraćete da platite čvoru `10_000 * 500 / 1_000_000` satoshija, što je ekvivalentno `5 Sats`.
-- Maksimum [HTLC](https://planb.network/resources/glossary/HTLC)** : Maksimalna količina koju ovaj čvor dozvoljava da prenesete putem jednog od ovih kanala.
+- Maksimum **[HTLC](https://planb.network/resources/glossary/HTLC)**: Maksimalna količina koju ovaj čvor dozvoljava da prenesete putem jednog od ovih kanala.
 
 
 
@@ -172,7 +172,7 @@ Deo **Zatvoreni kanali** grupišu se svi bivši kanali čvora prema tipu zatvara
 
 
 
-- Međusobno zatvaranje**: predstavlja sporazum obe strane, koje koriste svoj privatni ključ da potpišu transakciju koja označava zatvaranje kanala i raspodelu stanja unutar njega
+- **Međusobno zatvaranje**: predstavlja sporazum obe strane, koje koriste svoj privatni ključ da potpišu transakciju koja označava zatvaranje kanala i raspodelu stanja unutar njega
 - **Prinudno zatvaranje**: predstavlja naglo, jednostrano zatvaranje jednog dela kanala. Ova vrsta zatvaranja se ne preporučuje, jer je Lightning Network protokol zasnovan na kaznama: kada pokušate da prevarite saldo kanala, rizikujete da izgubite sav raspoloživi saldo u tom kanalu.
 
 

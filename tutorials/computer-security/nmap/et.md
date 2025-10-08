@@ -366,7 +366,7 @@ Siin on oodatav tulemus:
 
 
 
-nmap._ praeguse versiooni kuvamise tulemus
+nmap **praeguse versiooni kuvamise tulemus**
 
 
 
@@ -451,7 +451,7 @@ Siin on oodatav tulemus:
 
 
 
-nmap._ praeguse versiooni kuvamise tulemus
+nmap **praeguse versiooni kuvamise tulemus**
 
 
 
@@ -475,7 +475,7 @@ Väga lihtsal kujul, s.t. ilma selle valikute kasutamisel väga kaugele minemata
 
 
 
-veateade Linuxi all, kui Nmapi valikud nõuavad root-õigusi._
+veateade Linuxi all, kui Nmapi valikud nõuavad root-õigusi.
 
 
 
@@ -611,7 +611,7 @@ Siin on võimalik tulemus. Me näeme klassikalist Nmapi tagastust, mis sisaldab 
 
 
 
-nmapiga tehtud lihtsa TCP-skaneerimise tulemused._
+nmapiga tehtud lihtsa TCP-skaneerimise tulemused.
 
 
 
@@ -723,7 +723,7 @@ Kui te vaatate Linuxi süsteemis faili "/etc/services", leiate sealt lingi "port
 
 
 
-väljavõtte faili "/etc/services" sisust Linuxi all._
+väljavõtte faili "/etc/services" sisust Linuxi all.
 
 
 
@@ -857,7 +857,7 @@ Siin on saadud tagastus sama formaat nagu TCP-skaneerimisel, kuid aktiivsed teen
 
 
 
-nmapiga tehtud lihtsa UDP-skaneerimise tulemus._
+nmapiga tehtud lihtsa UDP-skaneerimise tulemus.
 
 
 
@@ -869,7 +869,7 @@ Muuseas, te ilmselt märkate, et Nmap nõuab UDP-skaneerimiseks "root"-õigusi, 
 
 
 
-märkus: Alates Nmap'i viimastest versioonidest on usaldusväärsete tulemuste tagamiseks alati soovitatav käivitada UDP-skaneerimine administraatori õigustega, kuna mõned funktsioonid nõuavad toorest juurdepääsu võrgupesadele._
+märkus: Alates Nmap'i viimastest versioonidest on usaldusväärsete tulemuste tagamiseks alati soovitatav käivitada UDP-skaneerimine administraatori õigustega, kuna mõned funktsioonid nõuavad toorest juurdepääsu võrgupesadele.
 
 
 
@@ -909,7 +909,7 @@ uDP pakettide edastamine ja ICMP vastuvõtt (port kättesaamatu) Nmap skaneerimi
 
 
 
-väljavõte RFC 1122._
+väljavõte RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Vaatame lähemalt seda Wiresharki kaadrit, mis näitab **kolme võimalikku stsen
 
 
 
-võrgu kaaperdamine UDP-skaneerimise ajal erinevatel sadamatel Nmap._ abil
+võrgu kaaperdamine UDP-skaneerimise ajal erinevatel sadamatel **Nmap** abil
 
 
 
@@ -956,7 +956,7 @@ Siin on Nmap'i poolt kuvatud tulemus nende kolme juhtumi järel:
 
 
 
-nmap._ kaudu teostatud UDP-skaneerimise võimalikud tulemused
+**nmap** kaudu teostatud UDP-skaneerimise võimalikud tulemused
 
 
 
@@ -988,7 +988,7 @@ Vaikimisi režiimis skaneeritavad 1000 porti valitakse vastavalt nende esinemiss
 
 
 
-ekstraheeritud failist "/usr/shares/nmap/nmap-services"._
+ekstraheeritud failist "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Et aidata teil mõista, kuidas Probes võib välja näha, on siin nimekiri mõne
 
 
 
-näide mitmest Nmap'i poolt kasutatavast sondist, mis asuvad failis `/usr/share/nmap/nmap/nmap-service-probes`._
+näide mitmest Nmap'i poolt kasutatavast sondist, mis asuvad failis `/usr/share/nmap/nmap/nmap-service-probes`.
 
 
 
@@ -1858,11 +1858,11 @@ Nüüd pöördume tagasi failis `/usr/share/nmap/nmap-service-probes` oleva dire
 
 
 
-probes `rarity` direktiiv failis `/usr/share/nmap/nmap-service-probes`._
+probes `rarity` direktiiv failis `/usr/share/nmap/nmap-service-probes`.
 
 
 
-Seda direktiivi kasutatakse _Probe_ga seotud harulduse (st prioriteedi/tõenäosuse) märkimiseks. See märkus 1 kuni 9 võimaldab teil kontrollida Nmap'i poolt _Probes_ saatmisel teostatava analüüsi täielikkust. Nmap'i "notatsioonisüsteemis" annab haruldus 1 teavet enamikul juhtudest, samas kui haruldus 8 või 9 tähistab väga erilist juhtumit, mis on seotud harva esineva konfiguratsiooni või teenusega.
+Seda direktiivi kasutatakse _Probe_'ga seotud harulduse (st prioriteedi/tõenäosuse) märkimiseks. See märkus 1 kuni 9 võimaldab teil kontrollida Nmap'i poolt _Probe_'de saatmisel teostatava analüüsi täielikkust. Nmap'i "notatsioonisüsteemis" annab haruldus 1 teavet enamikul juhtudest, samas kui haruldus 8 või 9 tähistab väga erilist juhtumit, mis on seotud harva esineva konfiguratsiooni või teenusega.
 
 
 
@@ -1912,7 +1912,7 @@ Selle teema lõpetuseks on siin näide _Probe_ 9 ja 8 kohta:
 
 
 
-näited Probe'i kohta harulduse 8 ja 9 juures failis `/usr/share/nmap/nmap-service-probes`._
+näited Probe'i kohta harulduse 8 ja 9 juures failis `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Siin on Nmap skaneerimise tulemus, kasutades NSE skripte:
 
 
 
-näide Nmap._ kaudu tehtud haavatavuse skaneerimise tulemustest hostil
+näide Nmap kaudu tehtud haavatavuse skaneerimise tulemustest hostil
 
 
 
@@ -2264,7 +2264,7 @@ Tehniliselt on kategooriad, millesse skript kuulub, märgitud otse selle koodis.
 
 
 
-nSE skriptide kategooriad `ftp-anon`._
+nSE skriptide kategooriad `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Vaikimisi asuvad Nmap'i NSE skriptid kataloogis `/usr/share/nmap/scripts/`, mill
 
 
 
-ekstraheerib kataloogi `/usr/share/nmap/scripts/` sisu, mis sisaldab NSE skripte._
+ekstraheerib kataloogi `/usr/share/nmap/scripts/` sisu, mis sisaldab NSE skripte.
 
 
 
@@ -2296,7 +2296,7 @@ See kataloog sisaldab üle 5000 NSE skripti. Enamasti sisaldab skripti nime esim
 
 
 
-nimekiri NSE Nmap skriptidest, mille nimed algavad `ftp-`._
+nimekiri NSE Nmap skriptidest, mille nimed algavad `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Siis saame väga täpse tulemuse:
 
 
 
-nSE `ftp-anon` skripti kasutamise tulemus Nmap._ kaudu FTP-portil
+nSE `ftp-anon` skripti kasutamise tulemus **Nmap** kaudu FTP-portil
 
 
 
@@ -2468,7 +2468,7 @@ Lühikirjelduse selle kohta, mida NSE skript teeb, saate kasutada eespool mainit
 
 
 
-abi NSE skripti `sshv1` tulemuse kuvamine._
+abi NSE skripti `sshv1` tulemuse kuvamine.
 
 
 
@@ -2500,7 +2500,7 @@ Sellel skriptil on "vaikimisi" valikud, mida võiksime kohandada vastavalt meie 
 
 
 
-nSE `ssh-brute` skripti abi kuvamise tulemus koos lingiga nmap.org._ juurde
+nSE `ssh-brute` skripti abi kuvamise tulemus koos lingiga **nmap.org** juurde
 
 
 
@@ -2543,7 +2543,7 @@ Nagu viimasest käsust näha, saame Nmap skriptile vajalikud argumendid määrat
 
 
 
-sSH bruteforce täitmise tulemus Nmap._ kaudu
+sSH bruteforce täitmise tulemus **Nmap** kaudu
 
 
 
@@ -2637,7 +2637,7 @@ See vorming loodi selleks, et anda Nmapi väljundist "kokkuvõtlik" vaade, mis o
 
 
 
-nmap võrgu skaneerimine ja väljund "greppable" formaadis._
+nmap võrgu skaneerimine ja väljund "greppable" formaadis.
 
 
 
@@ -2700,7 +2700,7 @@ Seda formaati saab kasutada mitmel eesmärgil ja see on eriti kasulik kiireks sk
 
 
 
-märkus: alates Nmap 7.90 on greppable formaat `-oG` ametlikult kaotanud kehtivuse. Seda võib endiselt kasutada ühilduvuse tagamiseks. Seda võib endiselt kasutada ühilduvuse eesmärgil, kuid on soovitatav kasutada XML- või tavalist formaati igasuguse arenduse või automatiseeritud parsimise jaoks._
+märkus: alates Nmap 7.90 on greppable formaat `-oG` ametlikult kaotanud kehtivuse. Seda võib endiselt kasutada ühilduvuse tagamiseks. Seda võib endiselt kasutada ühilduvuse eesmärgil, kuid on soovitatav kasutada XML- või tavalist formaati igasuguse arenduse või automatiseeritud parsimise jaoks.
 
 
 
@@ -2838,7 +2838,7 @@ Selle tulemusel on kogu meie skaneering kenasti struktureeritud, isegi mõned v�
 
 
 
-väljavõte Nmap skaneerimisaruandest HTML-formaadis, mille on genereerinud xsltproc._
+väljavõte Nmap skaneerimisaruandest HTML-formaadis, mille on genereerinud **xsltproc**.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) on XSL-i alamhulk, mis v
 
 
 
-allikas: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+allikas: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Esimene valik, mida me peaksime mainima, on valik `-v`, mis suurendab Nmap'i ver
 
 
 
-nmap'i üksikasjalik väljund, kasutades `-v`._ valikut
+nmap'i üksikasjalik väljund, kasutades `-v` valikut
 
 
 
@@ -2900,7 +2900,7 @@ Nmap'i tegevuse jälgimiseks skaneerimise ajal saate kasutada valikut `--packet-
 
 
 
-nmapi tegevuse üksikasjalik jälgimine `--packet-trace` kaudu._
+nmapi tegevuse üksikasjalik jälgimine `--packet-trace` kaudu.
 
 
 
@@ -3120,7 +3120,7 @@ Kui tavaliselt teostab Aquatone veebiteenuste leidmiseks hostide pordiotsingu, s
 
 
 
-kasutades Nmapi tulemusi XML formaadis `aquatone`._
+kasutades Nmapi tulemusi XML formaadis `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ Igal juhul saate Nmap debug'i abil (eelmises peatükis nähtud valik `-d`) kontr
 
 
 
-vaadata ajastusvalikuid Nmapi valiku `-d` kaudu._
+vaadata ajastusvalikuid Nmapi valiku `-d` kaudu.
 
 
 
@@ -3465,7 +3465,7 @@ Kui olete otsustanud kasutada Nmapi mitte sessiooni kaudu `root'ina, vaid andes 
 
 
 
-nmapi õiguste tõstmine `sudo` kaudu._
+nmapi õiguste tõstmine `sudo` kaudu.
 
 
 
@@ -3509,7 +3509,7 @@ Nagu olete ehk märganud, pakub Nmap TCP-skaneerimiseks mitmeid võimalusi:
 
 
 
-nmap._ saadaval olevad skaneerimistehnikad
+**nmap** saadaval olevad skaneerimistehnikad
 
 
 
@@ -3598,7 +3598,7 @@ Nagu mainitud, on Nmapi käivitamisel privilegeeritud terminalist vaikimisi rež
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3645,7 +3645,7 @@ Erinevus suletud ja filtreeritud pordi vahel on järgmine: filtreeritud port on 
 
 
 
-Teine TCP-skaneerimise tüüp on `TCP Connect scan`, mida tuntakse ka kui _Full Open Scan`. See töötab samamoodi nagu TCP SYN skaneerimine, kuid seekord tagastab `TCP ACK` pärast positiivset vastust serverilt (SYN/ACK). Seepärast nimetatakse seda `Full Open`, kuna ühendus avatakse täielikult ja algatatakse igas skaneerimise käigus avatud pordis, järgides seega TCP _Three Way Handshake_:
+Teine TCP-skaneerimise tüüp on `TCP Connect scan`, mida tuntakse ka kui **Full Open Scan**. See töötab samamoodi nagu TCP SYN skaneerimine, kuid seekord tagastab `TCP ACK` pärast positiivset vastust serverilt (SYN/ACK). Seepärast nimetatakse seda `Full Open`, kuna ühendus avatakse täielikult ja algatatakse igas skaneerimise käigus avatud pordis, järgides seega TCP **Three Way Handshake**:
 
 
 
@@ -3787,7 +3787,7 @@ Siin on näide Nmap'i TCP FIN skaneerimise tulemusest:
 
 
 
-tCP FIN skaneerimise tulemused Nmap._
+**TCP FIN skaneerimise tulemused Nmap.**
 
 
 
@@ -3892,7 +3892,7 @@ Oluline on märkida, et TCP XMAS skaneerimine ei suuda tuvastada tulemüüre, mi
 
 
 
-märkus: XMAS/FIN/NULL-skaneerimise tugi Windowsi viimaste versioonide puhul on endiselt piiratud ja tulemused võivad seda tüüpi sihtmärgi puhul olla ebaühtlased. (Uuendus 2025)_
+märkus: XMAS/FIN/NULL-skaneerimise tugi Windowsi viimaste versioonide puhul on endiselt piiratud ja tulemused võivad seda tüüpi sihtmärgi puhul olla ebaühtlased. _(Uuendus 2025)_
 
 
 
@@ -3983,7 +3983,7 @@ Kasutame Nmap'i valikut `-sA`, et seda tüüpi skaneerimist teostada. Siin on TC
 
 
 
-nmap kuvab TCP ACK Scan._ ajal
+nmap kuvab **TCP ACK Scan** ajal
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-märkus: valik `-sP` on juba mitu aastat vananenud ja tuleks asendada valikuga `-sn`. (Uuendus 2025)_
+märkus: valik `-sP` on juba mitu aastat vananenud ja tuleks asendada valikuga `-sn`. _(Uuendus 2025)_
 
 
 

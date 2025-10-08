@@ -322,7 +322,7 @@ description: 如何配置火狐浏览器以保护您的隐私？
 
 
 
-- Firefox Android + uBlock Origin**：类似的移动保护。
+- **Firefox Android + uBlock Origin**：类似的移动保护。
 
 
 
@@ -544,7 +544,7 @@ user_pref("network.http.referer.trimOnCrossOrigin", true);
 
 - 更新：火狐浏览器和扩展程序已更新。
 - 延期**：合理可靠；注意 "可疑 "赎回。
-- 下载**：小心；在 VirusTotal 上测试敏感文件。
+- **下载**：小心；在 VirusTotal 上测试敏感文件。
 - 密码：**专用管理器**（Bitwarden、KeePassXC）；启用**2FA**；避免在浏览器中存储。
 - 卫生**：将 Google/Facebook 限制在容器中；定期关闭/打开以 "重置 "上下文。
 

@@ -9,7 +9,7 @@ description: Panduan Cashu.me untuk menggunakan ecash
 ![video](https://www.youtube.com/watch?v=LIPw1c74LBU)
 
 
-*Berikut ini adalah video tutorial dari BTC Sessions, sebuah panduan video yang memandu Anda tentang cara mengatur dan menggunakan Cashu.me Bitcoin Wallet, yang memberikan Anda akses ke transaksi Bitcoin yang sederhana, murah, dan privat - tanpa memerlukan toko aplikasi!
+*Berikut ini adalah video tutorial dari BTC Sessions, sebuah panduan video yang memandu Anda tentang cara mengatur dan menggunakan Cashu.me Bitcoin Wallet, yang memberikan Anda akses ke transaksi Bitcoin yang sederhana, murah, dan privat - tanpa memerlukan toko aplikasi!*
 
 
 Dalam tutorial ini kita akan menjelajahi Cashu.me, sebuah Wallet berbasis browser untuk pembayaran Bitcoin pribadi menggunakan ecash Chaumian. Sebelum kita membahasnya, mari kita lihat pengenalan singkat tentang ecash dan cara kerjanya.
@@ -43,16 +43,16 @@ Mari selami fitur-fiturnya dan jelajahi apa yang ditawarkan Cashu.me:
 
 
 
-- Ecash Chaumian di Lightning**: Menggunakan tanda tangan buta sehingga mint tidak dapat melacak saldo pengguna atau riwayat transaksi
-- Penyimpanan token secara mandiri**: Anda mengontrol token ecash secara lokal dengan frasa seed Anda
-- Cadangan frasa seed**: frasa pemulihan 12 kata untuk pemulihan Wallet
-- Kemandirian mint**: Dapat digunakan dengan beberapa mint independen-Anda tidak terkunci pada satu penyedia saja
-- Transaksi instan dan gratis**: Dalam mint yang sama, pembayaran diselesaikan dalam hitungan detik tanpa biaya
-- Arsitektur yang menjaga privasi**: Mint tidak dapat melihat siapa yang bertransaksi dengan siapa
-- Pembayaran non-tunai secara offline**: Mengirim/menerima token melalui protokol transmisi lokal, seperti NFC, kode QR, Bluetooth, dll. tanpa koneksi internet
-- Temukan mint ecash melalui Nostr**: Temukan dan verifikasi mint tepercaya melalui protokol Nostr
-- Tukar uang elektronik antar mint**: Semua uang logam menggunakan Lightning yang berarti Anda bisa mentransfer nilai di antara keduanya.
-- Kendalikan Wallet Anda dari jarak jauh dengan Nostr Wallet Connect (NWC)**: Hubungkan ke aplikasi lain seperti Nostr Client dan mulai melakukan zapping melalui NWC
+- **Ecash Chaumian di Lightning**: Menggunakan tanda tangan buta sehingga mint tidak dapat melacak saldo pengguna atau riwayat transaksi
+- **Penyimpanan token secara mandiri**: Anda mengontrol token ecash secara lokal dengan frasa seed Anda
+- **Cadangan frasa seed**: frasa pemulihan 12 kata untuk pemulihan Wallet
+- **Kemandirian mint**: Dapat digunakan dengan beberapa mint independen-Anda tidak terkunci pada satu penyedia saja
+- **Transaksi instan dan gratis**: Dalam mint yang sama, pembayaran diselesaikan dalam hitungan detik tanpa biaya
+- **Arsitektur yang menjaga privasi**: Mint tidak dapat melihat siapa yang bertransaksi dengan siapa
+- **Pembayaran non-tunai secara offline**: Mengirim/menerima token melalui protokol transmisi lokal, seperti NFC, kode QR, Bluetooth, dll. tanpa koneksi internet
+- **Temukan mint ecash melalui Nostr**: Temukan dan verifikasi mint tepercaya melalui protokol Nostr
+- **Tukar uang elektronik antar mint**: Semua uang logam menggunakan Lightning yang berarti Anda bisa mentransfer nilai di antara keduanya.
+- **Kendalikan Wallet Anda dari jarak jauh dengan Nostr Wallet Connect (NWC)**: Hubungkan ke aplikasi lain seperti Nostr Client dan mulai melakukan zapping melalui NWC
 
 
 Pengorbanan yang sangat penting adalah `kepercayaan`: meskipun Anda mengontrol token itu sendiri, Anda harus mempercayai mint untuk menyimpan cadangan Bitcoin yang mendasarinya. Seperti yang dinyatakan dalam dokumentasi Cashu:

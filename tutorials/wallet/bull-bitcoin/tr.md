@@ -347,7 +347,7 @@ Ana ekranda şunları yapabilirsiniz:
 
 
 
-"Al "** ekranına geldiğinizde, bir Liquid Address kopyalayın:
+"Al" ekranına geldiğinizde, bir Liquid Address kopyalayın:
 
 
 
@@ -1110,7 +1110,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Blok Kaşifleri :**
+- Blok Kaşifleri:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blok Akış Bilgisi](https://blockstream.info/Liquid)**
  - Yıldırım: **[1ML (Lightning Network)](https://1ml.com/)**

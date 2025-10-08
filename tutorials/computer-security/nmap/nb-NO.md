@@ -759,7 +759,7 @@ Nmap starter med å finne ut om målverten er aktiv i det lokale nettverket ved 
 
 
 
-_ARP-forespørsel utstedt av Nmap for å finne ut om en målvert er til stede i det lokale nettverket._ _ARP request issued by Nmap to determine whether a target host is present on the local network
+**ARP-forespørsel utstedt av Nmap for å finne ut om en målvert er til stede i det lokale nettverket.** *ARP request issued by Nmap to determine whether a target host is present on the local network.*
 
 
 
@@ -988,7 +988,7 @@ De 1000 portene som skannes i standardmodus, er valgt ut i henhold til hvor ofte
 
 
 
-hentet fra filen "/usr/shares/nmap/nmap/nmap-services"._
+hentet fra filen "/usr/shares/nmap/nmap/nmap-services".
 
 
 
@@ -1706,7 +1706,7 @@ Denne filen består av en rekke oppføringer, som alle er organisert rundt to ho
 
 
 
-- `Probe`: Dette er definisjonen av pakken som Nmap vil sende i et forsøk på å fremprovosere en reaksjon fra tjenesten som skal identifiseres. Tenk på det som et blindt forsøk som _Hello? Guten Tag? Hallo? Um... Buenos Dias kanskje? Så snart den aktuelle tjenesten mottar en probe som den forstår (dvs. som snakker riktig protokoll), vil den svare Nmap, som da vil få bekreftet hvilken type tjeneste det dreier seg om.
+- `Probe`: Dette er definisjonen av pakken som Nmap vil sende i et forsøk på å fremprovosere en reaksjon fra tjenesten som skal identifiseres. Tenk på det som et blindt forsøk som _"Hello? Guten Tag? Hallo? Um... Buenos Dias kanskje?"_ Så snart den aktuelle tjenesten mottar en probe som den forstår (dvs. som snakker riktig protokoll), vil den svare Nmap, som da vil få bekreftet hvilken type tjeneste det dreier seg om.
 
 
 
@@ -1749,7 +1749,7 @@ For å hjelpe deg med å forstå hvordan prober kan se ut, følger her en liste 
 
 
 
-eksempel på flere prober som brukes av Nmap og som finnes i filen `/usr/share/nmap/nmap/nmap-service-probes`._
+eksempel på flere prober som brukes av Nmap og som finnes i filen `/usr/share/nmap/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Vi skal nå gå tilbake til et direktiv i filen `/usr/share/nmap/nmap/nmap-servi
 
 
 
-probes `rarity`-direktivet i filen `/usr/share/nmap/nmap/nmap-service-probes`._
+probes `rarity`-direktivet i filen `/usr/share/nmap/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ For å avslutte med dette emnet, her er et eksempel på _Probe_ 9 og 8:
 
 
 
-eksempler på Probe ved sjeldenhet 8 og 9 i filen `/usr/share/nmap/nmap/nmap-service-probes`._
+eksempler på Probe ved sjeldenhet 8 og 9 i filen `/usr/share/nmap/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Her er resultatet av en Nmap-skanning ved hjelp av NSE-skript:
 
 
 
-eksempel på resultatene av en sårbarhetsskanning på en vert via Nmap._
+eksempel på resultatene av en sårbarhetsskanning på en vert via Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Teknisk sett er kategoriene som et skript tilhører, angitt direkte i koden.
 
 
 
-nSE-skriptkategorier `ftp-anon`._
+nSE-skriptkategorier `ftp-anon`.
 
 
 
@@ -2296,7 +2296,7 @@ Denne katalogen inneholder over 5000 NSE-skript. I de fleste tilfeller inneholde
 
 
 
-liste over NSE Nmap-skript med navn som begynner med `ftp-`._
+liste over NSE Nmap-skript med navn som begynner med `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Da har vi et veldig presist resultat:
 
 
 
-resultat av å bruke NSE `ftp-anon`-skriptet på en FTP-port via Nmap._
+resultat av å bruke NSE `ftp-anon`-skriptet på en FTP-port via Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Hvis du vil ha en kort beskrivelse av hva et NSE-skript gjør, kan du bruke `--s
 
 
 
-hjelp til å vise resultat for NSE-skriptet `sshv1`._
+hjelp til å vise resultat for NSE-skriptet `sshv1`.
 
 
 
@@ -2838,7 +2838,7 @@ Resultatet er at hele skanningen blir strukturert på en fin måte, med til og m
 
 
 
-utdrag fra en Nmap-skannerapport i HTML-format generert av xsltproc._
+utdrag fra en Nmap-skannerapport i HTML-format generert av xsltproc.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) er en delmengde av XSL s
 
 
 
-kilde: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_ _ [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+kilde: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html) [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Det første alternativet vi bør nevne er `-v`, som øker Nmaps ordrikhet. Her e
 
 
 
-nmapps verbose-utdata ved hjelp av `-v`._-alternativet
+nmapps verbose-utdata ved hjelp av `-v`-alternativet
 
 
 
@@ -2900,7 +2900,7 @@ For å følge Nmaps aktivitet under skanningen ytterligere, kan du bruke alterna
 
 
 
-detaljert overvåking av Nmap-aktivitet via `--packet-trace`._
+detaljert overvåking av Nmap-aktivitet via `--packet-trace`.
 
 
 
@@ -3120,7 +3120,7 @@ Der Aquatone normalt utfører portoppdagelse på verter for å finne nettjeneste
 
 
 
-bruker Nmap-resultater i XML-format med `aquatone`._
+bruker Nmap-resultater i XML-format med `aquatone`.
 
 
 
@@ -3465,7 +3465,7 @@ Hvis du har valgt å bruke Nmap ikke via en økt som `root`, men ved å gi spesi
 
 
 
-heving av Nmap-rettigheter via `sudo`._
+having av Nmap-rettigheter via `sudo`.
 
 
 
@@ -3598,7 +3598,7 @@ Som nevnt er TCP SYN Scan standardmodus når Nmap kjøres fra en privilegert ter
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3728,7 +3728,7 @@ tCP FIN-skanningsdiagram for åpne og lukkede porter
 
 
 
-Jeg tok igjen bilder av nettverket under et _Stealth-skann, og dette er hva du ser når den skannede porten er åpen:
+Jeg tok igjen bilder av nettverket under et **Stealth-skann**, og dette er hva du ser når den skannede porten er åpen:
 
 
 

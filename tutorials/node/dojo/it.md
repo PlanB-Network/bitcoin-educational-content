@@ -160,7 +160,7 @@ Inserire la chiave USB avviabile nel computer spento (quello su cui si vuole ese
 
 
 
-Appare la schermata iniziale di Ubuntu. Selezionate "Prova o installa Ubuntu*".
+Appare la schermata iniziale di Ubuntu. Selezionate "Prova o installa Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Si prega di mantenere questo Address strettamente confidenziale
+⚠️ **Si prega di mantenere questo Address strettamente confidenziale**
 
 
 
@@ -1426,7 +1426,7 @@ Per accedere al browser da qualsiasi macchina su qualsiasi rete (anche da remoto
 
 
 
-⚠️ **Si prega di mantenere strettamente riservato questo Address
+⚠️ **Si prega di mantenere strettamente riservato questo Address**
 
 
 

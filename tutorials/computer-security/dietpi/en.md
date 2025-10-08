@@ -21,9 +21,9 @@ These are computers produced in a wide variety of models. They preferably host L
 This is not the "usual duplicate" of Debian for small Raspberry-type boards. DietPi is:
 
 
-- Optimized for speed and lightness**: a [comparison with other Debian distributions for SBC](https://dietpi.com/blog/?p=888), DietPi is lighter in everything. The DietPi ISO image weighs less than 1 GB, by far the smallest among those dedicated to older models of Raspberry or Orange PI (for example). The demand for RAM and CPU resources is very low, so that it always gets the best out of boards, even older ones.
-- Built-in automations and installers**: A suite of dedicated commands helps users monitor system resources as well as automate tasks to install and launch programs, update versions, make backups, and check all logs.
-- A strong, experimentation-oriented community**: [tutorials](https://dietpi.com/forum/c/community-tutorials/8) and projects from the DietPi community, are ideal for getting inspired by software you can install with one click, thanks to DietPi.
+- **Optimized for speed and lightness**: a [comparison with other Debian distributions for SBC](https://dietpi.com/blog/?p=888), DietPi is lighter in everything. The DietPi ISO image weighs less than 1 GB, by far the smallest among those dedicated to older models of Raspberry or Orange PI (for example). The demand for RAM and CPU resources is very low, so that it always gets the best out of boards, even older ones.
+- **Built-in automations and installers**: A suite of dedicated commands helps users monitor system resources as well as automate tasks to install and launch programs, update versions, make backups, and check all logs.
+- **A strong, experimentation-oriented community**: [tutorials](https://dietpi.com/forum/c/community-tutorials/8) and projects from the DietPi community, are ideal for getting inspired by software you can install with one click, thanks to DietPi.
 
 
 **Squeezing every bit out of your SBC has never been easier**.

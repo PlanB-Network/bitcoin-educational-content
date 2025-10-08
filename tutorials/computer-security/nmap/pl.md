@@ -366,7 +366,7 @@ Oto oczekiwany wynik:
 
 
 
-wynik wyświetlenia aktualnej wersji Nmap._
+wynik wyświetlenia aktualnej wersji Nmap.
 
 
 
@@ -451,7 +451,7 @@ Oto oczekiwany wynik:
 
 
 
-wynik wyświetlenia aktualnej wersji Nmap._
+wynik wyświetlenia aktualnej wersji Nmap.
 
 
 
@@ -611,7 +611,7 @@ Oto możliwy wynik. Widzimy klasyczny Nmap z dużą ilością informacji:
 
 
 
-wyniki prostego skanowania TCP wykonanego za pomocą Nmap._
+wyniki prostego skanowania TCP wykonanego za pomocą Nmap.
 
 
 
@@ -857,7 +857,7 @@ Tutaj otrzymany wynik ma taki sam format jak w przypadku skanowania TCP, ale wy�
 
 
 
-wynik prostego skanowania UDP wykonanego za pomocą Nmap._
+wynik prostego skanowania UDP wykonanego za pomocą Nmap.
 
 
 
@@ -909,7 +909,7 @@ Na powyższym zrzucie ekranu widzimy, że Nmap wysyła dużą liczbę pakietów 
 
 
 
-wyciąg z RFC 1122._
+wyciąg z RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Przyjrzyjmy się bliżej temu przechwyceniu Wireshark, które pokazuje **trzy mo
 
 
 
-przechwytywanie sieci podczas skanowania UDP na różnych portach za pomocą Nmap._
+przechwytywanie sieci podczas skanowania UDP na różnych portach za pomocą Nmap.
 
 
 
@@ -956,7 +956,7 @@ Oto wynik wyświetlony przez Nmap po tych trzech przypadkach:
 
 
 
-możliwe wyniki skanowania UDP wykonanego przez Nmap._
+możliwe wyniki skanowania UDP wykonanego przez Nmap.
 
 
 
@@ -988,7 +988,7 @@ Jak widzieliśmy, Nmap sam wybiera numer i porty do skanowania, jeśli nie okre�
 
 
 
-wyodrębniony z pliku "/usr/shares/nmap/nmap-services"._
+wyodrębniony z pliku "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1706,7 +1706,7 @@ Plik ten składa się z wielu wpisów zorganizowanych wokół dwóch głównych 
 
 
 
-- The `Probe`: jest to definicja pakietu, który Nmap wyśle w celu sprowokowania reakcji ze strony usługi, która ma zostać zidentyfikowana. Potraktuj to jako ślepą próbę w stylu _Hello? Guten Tag? Halo? Um... Może Buenos Dias? Gdy tylko docelowa usługa otrzyma sondę, którą rozumie (tj. mówi poprawnym protokołem), odpowie Nmapowi, który następnie potwierdzi typ usługi.
+- The `Probe`: jest to definicja pakietu, który Nmap wyśle w celu sprowokowania reakcji ze strony usługi, która ma zostać zidentyfikowana. Potraktuj to jako ślepą próbę w stylu _Hello? Guten Tag? Halo? Um... Może Buenos Dias?_ Gdy tylko docelowa usługa otrzyma sondę, którą rozumie (tj. mówi poprawnym protokołem), odpowie Nmapowi, który następnie potwierdzi typ usługi.
 
 
 
@@ -1749,7 +1749,7 @@ Aby pomóc ci zrozumieć, jak mogą wyglądać sondy, oto lista niektórych z ni
 
 
 
-przykład kilku sond używanych przez Nmap i obecnych w pliku `/usr/share/nmap/nmap-service-probes`._
+przykład kilku sond używanych przez Nmap i obecnych w pliku `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Wrócimy teraz do dyrektywy w pliku `/usr/share/nmap/nmap-service-probes`, któr
 
 
 
-dyrektywa `rarity` probes w pliku `/usr/share/nmap/nmap-service-probes`._
+dyrektywa `rarity` probes w pliku `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ Aby zakończyć ten temat, oto przykład _Probe_ 9 i 8:
 
 
 
-przykłady sondy o rzadkości 8 i 9 w pliku `/usr/share/nmap/nmap-service-probes`._
+przykłady sondy o rzadkości 8 i 9 w pliku `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Oto wynik skanowania Nmap przy użyciu skryptów NSE:
 
 
 
-przykład wyników skanowania podatności hosta za pomocą Nmap._
+przykład wyników skanowania podatności hosta za pomocą Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Technicznie rzecz biorąc, kategorie, do których należy skrypt, są wskazane b
 
 
 
-kategorie skryptów nSE `ftp-anon`._
+kategorie skryptów nSE **ftp-anon**.
 
 
 
@@ -2296,7 +2296,7 @@ Ten katalog zawiera ponad 5000 skryptów NSE. W większości przypadków pierwsz
 
 
 
-lista skryptów NSE Nmap z nazwami zaczynającymi się od `ftp-`._
+lista skryptów NSE Nmap z nazwami zaczynającymi się od `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Otrzymujemy wtedy bardzo precyzyjny wynik:
 
 
 
-wynik użycia skryptu NSE `ftp-anon` na porcie FTP przez Nmap._
+wynik użycia skryptu NSE `ftp-anon` na porcie FTP przez Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Aby uzyskać krótki opis działania skryptu NSE, można użyć wspomnianej powy
 
 
 
-pomoc w wyświetleniu wyniku dla skryptu NSE `sshv1`._
+pomoc w wyświetleniu wyniku dla skryptu NSE `sshv1`.
 
 
 
@@ -2500,7 +2500,7 @@ Ten skrypt ma "domyślne" opcje, które możemy dostosować do naszego kontekstu
 
 
 
-wynik wyświetlenia pomocy dla skryptu NSE `ssh-brute` z linkiem do nmap.org._
+wynik wyświetlenia pomocy dla skryptu NSE `ssh-brute` z linkiem do nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Jak widać w tym ostatnim poleceniu, możemy określić niezbędne argumenty do 
 
 
 
-wynik wykonania SSH bruteforce przez Nmap._
+wynik wykonania SSH bruteforce przez Nmap.
 
 
 
@@ -2838,7 +2838,7 @@ W rezultacie cały nasz skan będzie ładnie ustrukturyzowany, z kilkoma koloram
 
 
 
-wyciąg z raportu skanowania Nmap w formacie HTML wygenerowany przez xsltproc._
+wyciąg z raportu skanowania Nmap w formacie HTML wygenerowany przez **xsltproc**.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) to podzbiór XSL, który
 
 
 
-źródło: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+źródło: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Pierwszą opcją, o której powinniśmy wspomnieć, jest opcja `-v`, która zwi�
 
 
 
-szczegółowe dane wyjściowe nmapa przy użyciu opcji `-v`._
+szczegółowe dane wyjściowe nmapa przy użyciu opcji `-v`.
 
 
 
@@ -3120,7 +3120,7 @@ Podczas gdy Aquatone normalnie wykonuje wykrywanie portów na hostach w celu zna
 
 
 
-przy użyciu Nmap wyniki w formacie XML z `aquatone`._
+przy użyciu Nmap wyniki w formacie XML z `aquatone`.
 
 
 
@@ -3465,7 +3465,7 @@ Jeśli zdecydowałeś się używać Nmapa nie poprzez sesję jako `root`, ale po
 
 
 
-podniesienie uprawnień Nmap poprzez `sudo`._
+podniesienie uprawnień Nmap poprzez `sudo`.
 
 
 
@@ -3509,7 +3509,7 @@ Jak zapewne zauważyłeś, Nmap oferuje kilka opcji skanowania TCP:
 
 
 
-techniki skanowania dostępne w Nmap._
+techniki skanowania dostępne w Nmap.
 
 
 
@@ -3598,7 +3598,7 @@ Jak wspomniano, podczas uruchamiania Nmapa z uprzywilejowanego terminala, skanow
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Oto przykład wyniku skanowania TCP FIN przez Nmap:
 
 
 
-wyniki skanowania TCP FIN przez Nmap._
+wyniki skanowania TCP FIN przez Nmap.
 
 
 
@@ -3892,7 +3892,7 @@ Ważne jest, aby pamiętać, że skanowanie TCP XMAS nie jest w stanie wykryć z
 
 
 
-uwaga: obsługa skanowania XMAS/FIN/NULL w najnowszych wersjach systemu Windows pozostaje ograniczona, a wyniki mogą być niespójne w przypadku tego typu celu. (Aktualizacja 2025)_
+uwaga: obsługa skanowania XMAS/FIN/NULL w najnowszych wersjach systemu Windows pozostaje ograniczona, a wyniki mogą być niespójne w przypadku tego typu celu. (Aktualizacja 2025)
 
 
 
@@ -3983,7 +3983,7 @@ Do wykonania tego typu skanowania użyjemy opcji `-sA` Nmapa. Oto wynik skanowan
 
 
 
-wyświetlanie nmap podczas TCP ACK Scan._
+wyświetlanie nmap podczas TCP ACK Scan.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-uwaga: Opcja `-sP` jest przestarzała od kilku lat i powinna zostać zastąpiona przez `-sn`. (Aktualizacja 2025)_
+uwaga: Opcja `-sP` jest przestarzała od kilku lat i powinna zostać zastąpiona przez `-sn`. (Aktualizacja 2025)
 
 
 

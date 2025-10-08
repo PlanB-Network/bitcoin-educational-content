@@ -1932,7 +1932,7 @@ L’hôte scanné renvoie un `TCP RST/ACK` en réponse à mon `TCP SYN` lorsque 
 Comme indiqué, lorsque vous exécutez Nmap depuis un terminal privilégié, le TCP SYN Scan est le mode par défaut, il peut être forcé via l’option `-sS` (`scan SYN`) :
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -2342,5 +2342,4 @@ J’espère que ces différentes commandes vous seront utiles. N’oubliez pas d
 Le tutoriel sur Nmap est maintenant terminé. Vous disposez des bases nécessaires pour utiliser cet outil complet et puissant. Il est fortement conseillé de s’exercer sur des environnements contrôlés (Hack The Box, VulnHub, machines virtuelles) avant une utilisation en production.
 
 Il reste beaucoup à explorer sur le fonctionnement interne de l’outil et ses fonctionnalités avancées. Toutefois, la maîtrise des commandes et concepts présentés ici vous permettra d’utiliser Nmap avec assurance et pertinence.
-
 

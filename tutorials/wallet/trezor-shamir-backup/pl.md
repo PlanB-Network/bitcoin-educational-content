@@ -34,7 +34,7 @@ Użytkownicy, którzy utworzyli portfolio za pomocą *Single-share Backup*, mog�
 
 
 
-Funkcja Multi-share Backup* jest dostępna w urządzeniach Trezor Model T, Safe 3 i Safe 5. Funkcja ta nie jest obsługiwana przez Trezor Model One.
+Funkcja **Multi-share Backup** jest dostępna w urządzeniach Trezor Model T, Safe 3 i Safe 5. Funkcja ta nie jest obsługiwana przez Trezor Model One.
 
 
 

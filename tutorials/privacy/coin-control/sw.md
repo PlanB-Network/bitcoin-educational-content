@@ -288,7 +288,7 @@ Mara tu ukichagua pato, au matokeo, unaweza kuunda muamala wako kama kawaida kut
 
 
 
-Electrum hutoa utendakazi huu kwa kwenda kwenye menyu ya _Coins_, ambapo utaenda kuchagua UTXO fulani na kisha kuchagua _Freeze_ kwa kubofya kulia. Unaweza "kufungia" Address hata bila pesa kutoka kwa menyu ya _Addresses, au "Coin" ili usiitumie.
+Electrum hutoa utendakazi huu kwa kwenda kwenye menyu ya _Coins_, ambapo utaenda kuchagua UTXO fulani na kisha kuchagua _Freeze_ kwa kubofya kulia. Unaweza "kufungia" Address hata bila pesa kutoka kwa menyu ya _Addresses_, au "Coin" ili usiitumie.
 
 
 
@@ -340,7 +340,7 @@ Kwa ajili ya ukamilifu, Nunchuk pia inaruhusu kati ya vipengele vyake, kutengani
 
 
 
-Unaweza pia kubofya katika nafasi iliyohifadhiwa kwa ajili ya UTXO, ili kufikia kidirisha cha _Coin details. Hapa amri ya kufunga/kufungua UTXO inayohusika inaonekana kwenye kona ya juu kulia.
+Unaweza pia kubofya katika nafasi iliyohifadhiwa kwa ajili ya UTXO, ili kufikia kidirisha cha _Coin details_. Hapa amri ya kufunga/kufungua UTXO inayohusika inaonekana kwenye kona ya juu kulia.
 
 
 

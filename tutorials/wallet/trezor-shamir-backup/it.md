@@ -34,7 +34,7 @@ Gli utenti che hanno creato un portafoglio con *Single-share Backup* possono pas
 
 
 
-Il backup multi-comparto* è disponibile su Trezor Model T, Safe 3 e Safe 5. Questa funzione non è supportata dal Trezor Model One.
+Il backup multi-comparto è disponibile su Trezor Model T, Safe 3 e Safe 5. Questa funzione non è supportata dal Trezor Model One.
 
 
 

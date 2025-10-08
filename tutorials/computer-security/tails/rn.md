@@ -117,8 +117,8 @@ Kugira ngo ugenzure dosiye, koresha ubuto "Hitamwo ivyo ushobora gukuraho..." bu
 
 
 
-- Linux:**
-- macOS:** https://imirizo.boum.org/shiramwo/urutonde
+- **Linux:**
+- **macOS:** https://imirizo.boum.org/shiramwo/urutonde
 
 
 Iyi ntambwe yo gushiramwo Tails ku rufunguzo rwawe rwa USB ni yo igoye cane muri iyo nzira yose, cane cane iyo utigeze uyikora. Iciyumviro gihambaye cane ni uguhitamwo uburyo bubereye mu gice cemewe c’umurongo wawe: Linux canke macOS.

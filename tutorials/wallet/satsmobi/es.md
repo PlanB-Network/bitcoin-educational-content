@@ -7,7 +7,7 @@ description: Una custodia accesible por telegrama Wallet
 ![cover](assets/cover.webp)
 
 
-_Este tutorial ha sido escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Este tutorial ha sido escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Sats.Mobi

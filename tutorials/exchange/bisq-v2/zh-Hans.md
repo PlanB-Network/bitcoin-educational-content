@@ -353,7 +353,7 @@ Bisq 2 上的出售流程与购买流程类似，主要步骤相同，但顺序�
 - **BSQ Swaps**：BSQ 和 BTC 之间的即时原子交换。
 - **Liquid Swaps**：通过原子互换在 Liquid 网络（USDT、BTC-L）上交换资产。
 - 莫奈罗交换：比特币与 Monero 之间的原子交换。
-- Liquid MuSig**：使用 L-BTC 的 multisig 协议版本，成本更低，保密性更强。
+- **Liquid MuSig**：使用 L-BTC 的 multisig 协议版本，成本更低，保密性更强。
 - **海底交换**：闪电网络上的比特币与链上比特币之间的交换。
 - **稳定币交换**：比特币与美元稳定币之间的原子交换。
 - **Multisig 期权**：创建 P2P 认沽和认购期权，并在链上多位数交易中使用 BTC Blocking。

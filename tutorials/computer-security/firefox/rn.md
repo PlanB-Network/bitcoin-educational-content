@@ -36,10 +36,10 @@ Ariko guhitamwo Firefox ni intambwe ya mbere gusa. Ku mburabuzi, mbere na Firefo
 
 
 
-- Ubuntu kandi yuguruye** (moteri ya Gecko): kode ishobora gusuzumwa, igaragara
-- Ishirahamwe ridaharanira inyungu**: Ishirahamwe rya Mozilla, intumbero y'inyungu rusangi
-- Uburinzi bw’imvukira bushizwemwo**: Uburinzi bwo gukurikirana (ETP), Uburinzi bwose bw’amakuru (TCP), Ugucapura kwa Leta, uburyo bwa HTTPS gusa, DNS kuri HTTPS (DoH)
-- Guhindura neza**: bitandukanye na Chrome, Firefox iragufasha guhindura inyifato yayo mu buryo bwimbitse
+- **Ubuntu kandi yuguruye** (moteri ya Gecko): kode ishobora gusuzumwa, igaragara
+- **Ishirahamwe ridaharanira inyungu**: Ishirahamwe rya Mozilla, intumbero y'inyungu rusangi
+- **Uburinzi bw'imvukira bushizwemwo**: Uburinzi bwo gukurikirana (ETP), Uburinzi bwose bw'amakuru (TCP), Ugucapura kwa Leta, uburyo bwa HTTPS gusa, DNS kuri HTTPS (DoH)
+- **Guhindura neza**: bitandukanye na Chrome, Firefox iragufasha guhindura inyifato yayo mu buryo bwimbitse
 
 
 
@@ -49,9 +49,9 @@ Ariko guhitamwo Firefox ni intambwe ya mbere gusa. Ku mburabuzi, mbere na Firefo
 
 
 
-- Nta nzira y’ugutegura ivy’isi yose**: uko urushiriza guhindura niko urushiriza gutera ingorane zo guhagarara (ugufata urutoke). Intumbero ni ugukingirwa neza ata gutandukana n’abandi.
-- Intambwe ku yindi**: Hindura ivyagezwe, ugerageze imbuga zawe zisanzwe, hanyuma ubandanye. Ntaco bimaze guhindura vyose icarimwe.
-- Uburinganire bw’umuntu ku giti ciwe**: Rondera ivyiyumviro VYAWE hagati y’ubuzima bwite n’ukworohereza gukoresha.
+- **Nta nzira y'ugutegura ivy'isi yose**: uko urushiriza guhindura niko urushiriza gutera ingorane zo guhagarara (ugufata urutoke). Intumbero ni ugukingirwa neza ata gutandukana n'abandi.
+- **Intambwe ku yindi**: Hindura ivyagezwe, ugerageze imbuga zawe zisanzwe, hanyuma ubandanye. Ntaco bimaze guhindura vyose icarimwe.
+- **Uburinganire bw'umuntu ku giti ciwe**: Rondera ivyiyumviro VYAWE hagati y'ubuzima bwite n'ukworohereza gukoresha.
 
 
 
@@ -69,9 +69,9 @@ Ariko guhitamwo Firefox ni intambwe ya mbere gusa. Ku mburabuzi, mbere na Firefo
 
 
 
-- Windows**: gukuraho `.exe`, ukande kabiri hanyuma ukurikire umufasha wo gushiramwo
-- macOS**: gukuraho dosiye `.dmg`, uyifungure maze ukure Firefox muri dosiye y'ibikorwa
-- Linux**: amahitamwo menshi araboneka - umuzigo `.deb`/`.rpm`, umuzigo (Flathub), Snap, canke biciye ku mucungerezi w'umuziki (apt, dnf, pacman). Guhitamwo inkomoko za Mozilla zizwi.
+- **Windows**: gukuraho `.exe`, ukande kabiri hanyuma ukurikire umufasha wo gushiramwo
+- **macOS**: gukuraho dosiye `.dmg`, uyifungure maze ukure Firefox muri dosiye y'ibikorwa
+- **Linux**: amahitamwo menshi araboneka - umuzigo `.deb`/`.rpm`, umuzigo (Flathub), Snap, canke biciye ku mucungerezi w'umuziki (apt, dnf, pacman). Guhitamwo inkomoko za Mozilla zizwi.
 
 
 
@@ -106,9 +106,9 @@ Ariko guhitamwo Firefox ni intambwe ya mbere gusa. Ku mburabuzi, mbere na Firefo
 
 
 
-- Kwitandukanya n’abandi (Fission)**: mu gutera imbere. Ico gikoresho gikoresha urubuga rumwe rumwe mu buryo butandukanye kugira ngo urubuga rumwe rudashobora gushika ku makuru y’urundi. Suzuma uko bimeze biciye ku `ivyerekeye:ugushigikira` (rondera "Ibisaduka"). Niba bitashobojwe, ushobora kubikoresha n'amaboko muri `ibijanye: config` na `fission.autostart = ukuri`.
-- Uburinzi bwose bw'amakuru (TCP)**: burakora ku buryo busanzwe. Ama cookies n'ibindi bikoresho vyo kubika bigarukira ku rubuga rw'umuntu wa mbere ("igikombe" kimwe ku rubuga), ivyo bikaba bigabanya ugukurikirana kw'urubuga rwose. Ivyiyumviro vy’igihe gito bikorwa biciye ku Bubiko bw’Ukwinjira API iyo bikenewe (amabuto yo kwinjira yunze ubumwe).
-- Uburinzi bw’Ikurikirana ry’Ibisubizo/Ibisubirwamwo**: Firefox ihita imenya kandi igasukura amakuru yasigajwe n’imbuga zisubirwamwo (amahuza akurungika biciye ku gikurikirana imbere y’aho uja), bikagabanya uwo muhora wo gukurikirana ataco ukora.
+- **Kwitandukanya n'abandi (Fission)**: mu gutera imbere. Ico gikoresho gikoresha urubuga rumwe rumwe mu buryo butandukanye kugira ngo urubuga rumwe rudashobora gushika ku makuru y'urundi. Suzuma uko bimeze biciye ku `ivyerekeye:ugushigikira` (rondera "Ibisaduka"). Niba bitashobojwe, ushobora kubikoresha n'amaboko muri `ibijanye: config` na `fission.autostart = ukuri`.
+- **Uburinzi bwose bw'amakuru (TCP)**: burakora ku buryo busanzwe. Ama cookies n'ibindi bikoresho vyo kubika bigarukira ku rubuga rw'umuntu wa mbere ("igikombe" kimwe ku rubuga), ivyo bikaba bigabanya ugukurikirana kw'urubuga rwose. Ivyiyumviro vy'igihe gito bikorwa biciye ku Bubiko bw'Ukwinjira API iyo bikenewe (amabuto yo kwinjira yunze ubumwe).
+- **Uburinzi bw'Ikurikirana ry'Ibisubizo/Ibisubirwamwo**: Firefox ihita imenya kandi igasukura amakuru yasigajwe n'imbuga zisubirwamwo (amahuza akurungika biciye ku gikurikirana imbere y'aho uja), bikagabanya uwo muhora wo gukurikirana ataco ukora.
 
 
 
@@ -146,13 +146,13 @@ Aha niho hari ingero zitandukanye z'umutekano wa ETP:
 
 
 
-- Ivyagezwe** (biringaniye, bihuye cane)
+- **Ivyagezwe** (biringaniye, bihuye cane)
   - Amabuye: abakurikirana ivy’imibano, amakuru y’urubuga (amadirisho yose), abakurikirana ibirimwo mu gushakisha mu buryo bwihariye, abacukuzi b’amahera y’ibanga, abamenya ibimenyetso vy’intoke.
   - Harimwo **Ukurinda amakuru yose** (TCP): igikombe kimwe ku rubuga.
-- Bikomeye** (vyifuzwa kubera ibanga)
+- **Bikomeye** (vyifuzwa kubera ibanga)
   - Kandi ibuza gukurikirana ibirimwo mu madirisha yose + bizwi kandi bikekwa ko bifata urutoke.
   - Bishobora guca imbuga zimwe zimwe; koresha ingabo 🛡️ ku bijanye n’ikintu kidasanzwe co mu karere.
-- Umugenzo** (uwuteye imbere)
+- **Umugenzo** (uwuteye imbere)
   - Gutunganya neza: ama cookies, gukurikirana ibirimwo, abana bato, gucapura urutoke (bizwi/bikekwa).
 
 
@@ -176,9 +176,9 @@ Aha niho hari ingero zitandukanye z'umutekano wa ETP:
 
 
 - Guhagarika **ukwizuza** (Indangamuntu, aderesi, amakarita). Koresha umucungerezi w'ijambobanga aho.
-- Gushakisha**: guhagarika **"Kwerekana ivyiyumviro vy'ugushakisha"**.
-- Address bar**: kata **"Ivyiyumviro vyatewe inkunga"** na **"Ivyiyumviro bishingiye ku vyo umuntu avuga"**.
-- Inzu**: guhagarika **Mufuko** na **ibirimwo vyatewe inkunga**.
+- **Gushakisha**: guhagarika **"Kwerekana ivyiyumviro vy'ugushakisha"**.
+- **Address bar**: kata **"Ivyiyumviro vyatewe inkunga"** na **"Ivyiyumviro bishingiye ku vyo umuntu avuga"**.
+- **Inzu**: guhagarika **Mufuko** na **ibirimwo vyatewe inkunga**.
 
 
 
@@ -205,7 +205,7 @@ Aha niho hari ingero zitandukanye z'umutekano wa ETP:
 
 - Mu "Ikusanya amakuru na Firefox", **kuraho vyose**.
 - Guhagarika **"Ingingo zo kwamamaza zijanye n'ubuzima bwite"** (PPA).
-- Gushakisha ata nkomanzi**: ugume ubifunguye (ni vyiza). Firefox igenzura imbuga ku rutonde rw'iterabwoba biciye ku bibazo vy'ivya hashed n'igenzura ry'aho hantu, irinda ubuhendanyi n'ubuhinga bubi butagira ingaruka mbi ku buzima bwite.
+- **Gushakisha ata nkomanzi**: ugume ubifunguye (ni vyiza). Firefox igenzura imbuga ku rutonde rw'iterabwoba biciye ku bibazo vy'ivya hashed n'igenzura ry'aho hantu, irinda ubuhendanyi n'ubuhinga bubi butagira ingaruka mbi ku buzima bwite.
 
 
 
@@ -245,10 +245,10 @@ Aha niho hari ingero zitandukanye z'umutekano wa ETP:
 
 
 
-- uBlock Inkomoko**: ibuza amatangazo n’ugukurikirana ubu, iraremereye.
-- Ibanga Badger**: yiga guhagarika ivyo bigukurikira; yohereza Ntukurikirane / GPC.
-- Gukuraho URLs** (Ihitamwo): Firefox (ETP Ikomeye) na uBO biramaze gusukura vyinshi; uyigumye nimba ukibona ama URL "ahumanye" (utm, fbclid).
-- Ibikoresho vya Firefox vy'amakonti menshi**: **bitandukanya amakuru/ibiganiro n'ububiko ku gikoresho; amakonti menshi ahuye; n’ugukurikirana kw’imbuga nke**. Ukwaguka kwemewe: `https://inyongera.mozilla.org/fr/firefox/inyongera/ibikoresho-vy'amakonti menshi/`.
+- **uBlock Inkomoko**: ibuza amatangazo n'ugukurikirana ubu, iraremereye.
+- **Ibanga Badger**: yiga guhagarika ivyo bigukurikira; yohereza Ntukurikirane / GPC.
+- **Gukuraho URLs** (Ihitamwo): Firefox (ETP Ikomeye) na uBO biramaze gusukura vyinshi; uyigumye nimba ukibona ama URL "ahumanye" (utm, fbclid).
+- **Ibikoresho vya Firefox vy'amakonti menshi: bitandukanya amakuru/ibiganiro n'ububiko ku gikoresho; amakonti menshi ahuye; n'ugukurikirana kw'imbuga nke**. Ukwaguka kwemewe: `https://inyongera.mozilla.org/fr/firefox/inyongera/ibikoresho-vy'amakonti menshi/`.
 
 
 
@@ -278,11 +278,11 @@ Intumbero: gucapura ibikorwa no kugabanya ukuvuza kw’urubuga.
 
 
 
-- Igihugu ca mbere**: Bikora ubwavyo mu turere tumwetumwe (Amerika, Kanada, Uburusiya, Ukraine). Ahandi, gukoresha amaboko birakenewe.
-- Itunganywa**: Ivyagezwe → Rusangiye → Ivyagezwe vy'urubuga → **Gushoboza DoH** → **Cloudflare** canke **Quad9** → **Uburinzi burengeye**.
+- **Igihugu ca mbere**: Bikora ubwavyo mu turere tumwetumwe (Amerika, Kanada, Uburusiya, Ukraine). Ahandi, gukoresha amaboko birakenewe.
+- **Itunganywa**: Ivyagezwe → Rusangiye → Ivyagezwe vy'urubuga → **Gushoboza DoH** → **Cloudflare** canke **Quad9** → **Uburinzi burengeye**.
 - Uburinzi burengeye = **TRR-gusa** (nta gusubira inyuma kuri DNS ya sisitemu). Iyo urubuga rw'ishirahamwe/hoteli ruzibiye, subira kuri **Standard** canke uzimye DoH.
-- Redundancy**: Niba usanzwe ukoresha VPN yizigiwe ifise DNS yayo bwite itekanye, DoH ishobora kuba redundancy.
-- Igerageza ryo kugenzura**: `https://www.dnsleaktest.com/` rikwiye kwerekana gusa umutanga DoH yatowe.
+- **Redundancy**: Niba usanzwe ukoresha VPN yizigiwe ifise DNS yayo bwite itekanye, DoH ishobora kuba redundancy.
+- **Igerageza ryo kugenzura**: `https://www.dnsleaktest.com/` rikwiye kwerekana gusa umutanga DoH yatowe.
 
 
 
@@ -295,15 +295,15 @@ Intumbero: gucapura ibikorwa no kugabanya ukuvuza kw’urubuga.
 
 
 
-- Ivyuma vy’amakonti menshi**: guhingura ibibanza (ivy’umuntu ku giti ciwe, ivy’akazi, ivy’amahera, ivy’imigenderanire, ivy’ugugura, ivy’ugukoresha rimwe). Gutunganya **"Igihe cose ufungure muri iki gikoresho"** ku mbuga zawe zisubiramwo. Ukwaguka kwemewe: `https://inyongera.mozilla.org/fr/firefox/inyongera/ibikoresho-vy'amakonti menshi/`.
+- **Ivyuma vy'amakonti menshi**: guhingura ibibanza (ivy'umuntu ku giti ciwe, ivy'akazi, ivy'amahera, ivy'imigenderanire, ivy'ugugura, ivy'ugukoresha rimwe). Gutunganya **"Igihe cose ufungure muri iki gikoresho"** ku mbuga zawe zisubiramwo. Ukwaguka kwemewe: `https://inyongera.mozilla.org/fr/firefox/inyongera/ibikoresho-vy'amakonti menshi/`.
 - Ni kubera iki twobikoresha?
-- Ukwitandukanya gukomeye** kw'ibifungurwa/ibiganiro/ububiko ku kibanza.
-- Gukurikirana urubuga rwabo bike**: gufunga ibihangange (Facebook, Google).
-- Ivyuma vyinshi bikoreshwa icarimwe** kuri serivisi imwe.
+- **Ukwitandukanya gukomeye** kw'ibifungurwa/ibiganiro/ububiko ku kibanza.
+- **Gukurikirana urubuga rwabo bike**: gufunga ibihangange (Facebook, Google).
+- Ivyuma vyinshi bikoreshwa icarimwe kuri serivisi imwe.
 - Ivyago bike vya CSRF/XSS hagati y’ibimenyetso vy’ibice.
   - Impanuro: n’imiburiburi, ibikoresho vy’Imihora y’Imigenderanire/Google, Akazi, Ivy’Imari.
-- Igikoresho ca Facebook** (ntibikenewe): ni verisiyo yoroshe yagenewe FB/Instagram.
-- Itandukaniro ry'imirongo**: biciye ku `ivyerekeye:imirongo` (imirongo nyamukuru, imirongo mikeyi "itekanye cane", imirongo y'igerageza). Amakuru yose hamwe n’ugucapura kw’ibice.
+- **Igikoresho ca Facebook** (ntibikenewe): ni verisiyo yoroshe yagenewe FB/Instagram.
+- **Itandukaniro ry'imirongo**: biciye ku `ivyerekeye:imirongo` (imirongo nyamukuru, imirongo mikeyi "itekanye cane", imirongo y'igerageza). Amakuru yose hamwe n'ugucapura kw'ibice.
 
 
 
@@ -312,8 +312,8 @@ Intumbero: gucapura ibikorwa no kugabanya ukuvuza kw’urubuga.
 
 
 
-- Cookie AutoDelete**: ifuta amakuru y'urubuga igihe nyene uruzitiro rupfutse (ni ngirakamaro iyo Firefox yuguruye igihe kirekire).
-- LocalCDN**: ikoresha amasomero y'ubu mu karere (igabanya guhamagara kuri Google/Microsoft). Uguhuza kw’igice.
+- **Cookie AutoDelete**: ifuta amakuru y'urubuga igihe nyene uruzitiro rupfutse (ni ngirakamaro iyo Firefox yuguruye igihe kirekire).
+- **LocalCDN**: ikoresha amasomero y'ubu mu karere (igabanya guhamagara kuri Google/Microsoft). Uguhuza kw'igice.
 
 
 
@@ -322,7 +322,7 @@ Intumbero: gucapura ibikorwa no kugabanya ukuvuza kw’urubuga.
 
 
 
-- Firefox Android + uBlock Inkomoko**: uburinzi busa n’ubwo iyo uriko uragenda.
+- Firefox Android + uBlock Inkomoko: uburinzi busa n'ubwo iyo uriko uragenda.
 
 
 
@@ -542,11 +542,11 @@ Ibikorwa vyiza
 
 
 
-- Ivyashizwe ku rubuga**: Firefox n'ibindi bishizwe ku gihe.
-- Ivyungura**: bihuje n’ubwenge kandi vyizigirwa; mwirinde incungu "zikekeranya".
-- Ivyo gukuraho**: kwirinda; kugerageza amadosiye y'agaciro kuri VirusTotal.
-- Amajambo banga**: **umuyobozi yiyemeje** (Bitwarden, KeePassXC); **2FA** vyashobojwe; kwirinda kubika mu mucukumbuzi.
-- Isuku**: gufunga Google/Facebook mu bikoresho; gufunga/gufungura ubudasiba kugira ngo "usubiremwo" ikibanza.
+- **Ivyashizwe ku rubuga**: Firefox n'ibindi bishizwe ku gihe.
+- **Ivyungura**: bihuje n'ubwenge kandi vyizigirwa; mwirinde incungu "zikekeranya".
+- **Ivyo gukuraho**: kwirinda; kugerageza amadosiye y'agaciro kuri VirusTotal.
+- **Amajambo banga**: **umuyobozi yiyemeje** (Bitwarden, KeePassXC); **2FA** vyashobojwe; kwirinda kubika mu mucukumbuzi.
+- **Isuku**: gufunga Google/Facebook mu bikoresho; gufunga/gufungura ubudasiba kugira ngo "usubiremwo" ikibanza.
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Ivyigwa vy'ubuzima bwite - Ivyuma vy'ibanga](https://www.ivy'ubuzima bwite.org/ru/ivy'ibiro/): Impanuro z'ivy'umucukumbuzi n'ibigereranyo
-- Reddit**: r/firefox, r/ubuzima bwite ku vyiyumviro n'ugushigikira
-- Ihuriro ry'uburongozi bw'ubuzima bwite**: ibiganiro vy'ubuhinga vyimbitse
+- **Reddit**: r/firefox, r/ubuzima bwite ku vyiyumviro n'ugushigikira
+- **Ihuriro ry'uburongozi bw'ubuzima bwite**: ibiganiro vy'ubuhinga vyimbitse
 
 
 

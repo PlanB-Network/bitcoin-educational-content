@@ -64,25 +64,25 @@ Prima di mostrarvi passo dopo passo come ottenere un prestito su Debifi, ci sono
 
 
 
-- Le commissioni di accensione** sono spese una tantum applicate al momento della concessione del prestito e calcolate come percentuale dell'importo preso in prestito. Queste commissioni coprono i costi amministrativi, operativi e di gestione.
+- Le **commissioni di accensione** sono spese una tantum applicate al momento della concessione del prestito e calcolate come percentuale dell'importo preso in prestito. Queste commissioni coprono i costi amministrativi, operativi e di gestione.
 
 
 
 
 
-- La garanzia** è un bene che si deposita per garantire un prestito. Nel caso di Debifi, la garanzia è il Bitcoin (BTC), che il mutuatario deposita nel Multisig 3/4 escrow.
+- La **garanzia** è un bene che si deposita per garantire un prestito. Nel caso di Debifi, la garanzia è il Bitcoin (BTC), che il mutuatario deposita nel Multisig 3/4 escrow.
 
 
 
 
 
-- Il sistema Multisig escrow (3/4)** è un meccanismo di deposito sicuro in cui i bitcoin del mutuatario sono inseriti in un Address a firma multipla. Nello specifico, quattro (4) parti detengono ciascuna una chiave (mutuatario, prestatore, Debifi, terza parte indipendente). Per spostare i fondi, sono necessarie almeno 3 delle 4 firme.
+- Il sistema **Multisig escrow (3/4)** è un meccanismo di deposito sicuro in cui i bitcoin del mutuatario sono inseriti in un Address a firma multipla. Nello specifico, quattro (4) parti detengono ciascuna una chiave (mutuatario, prestatore, Debifi, terza parte indipendente). Per spostare i fondi, sono necessarie almeno 3 delle 4 firme.
 
 
 
 
 
-- Una stablecoin** è una criptovaluta il cui valore è ancorato a un asset stabile (ad esempio, il dollaro USA), evitando così la volatilità del Bitcoin. Ad esempio, 1 USDC vale sempre ~1$, in quanto sostenuto da riserve fiat.
+- Una **stablecoin** è una criptovaluta il cui valore è ancorato a un asset stabile (ad esempio, il dollaro USA), evitando così la volatilità del Bitcoin. Ad esempio, 1 USDC vale sempre ~1$, in quanto sostenuto da riserve fiat.
 
 
 

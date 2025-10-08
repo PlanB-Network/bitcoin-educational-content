@@ -91,9 +91,9 @@ BIP-85 iragufasha gukora ibitabo vyinshi vya Bitcoin ukoresheje ijambo rimwe ry�
 
 
 
-- Ivyabaye**: Ukoresha "Hot Wallet" Wallet (ishizwe ku gikoresho gifatanye na Internet), ku bikorwa vya misi yose.
-- Umuti BIP-85**: Urema ijambo rya kabiri rya seed ryerekeye iyi nkuru.
-- Inyungu kuri BIP-32**: Ntukeneye kwinjiza ijambo ry’intango rya seed kuri telefone yawe, bikagabanya ingorane zo gufatwa n’abantu. Ijambo rya kabiri rya seed ryonyene ni ryo rihungabanywa, rikakingira izindi nkweto zawe. Na BIP-32, ukeneye gukoresha ijambo nyamukuru rya seed n’inzira yo guca mu nzira, ugashira ahabona amahera yawe yose.
+- **Ivyabaye**: Ukoresha "Hot Wallet" Wallet (ishizwe ku gikoresho gifatanye na Internet), ku bikorwa vya misi yose.
+- **Umuti BIP-85**: Urema ijambo rya kabiri rya seed ryerekeye iyi nkuru.
+- **Inyungu kuri BIP-32**: Ntukeneye kwinjiza ijambo ry'intango rya seed kuri telefone yawe, bikagabanya ingorane zo gufatwa n'abantu. Ijambo rya kabiri rya seed ryonyene ni ryo rihungabanywa, rikakingira izindi nkweto zawe. Na BIP-32, ukeneye gukoresha ijambo nyamukuru rya seed n'inzira yo guca mu nzira, ugashira ahabona amahera yawe yose.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 iragufasha gukora ibitabo vyinshi vya Bitcoin ukoresheje ijambo rimwe ry�
 
 
 
-- Ivyabaye**: Ushizeho Bitcoin Wallet ku muntu uri hafi (nk’akarorero mama wawe), mu gihe ushobora kuyigarura iyo ayitakaje.
-- Umuti BIP-85**: Urema interuro ya kabiri yihariye seed maze ugasangira iyi gusa.
-- Inyungu kuri BIP-32**: Na BIP-32, gukora konti y’umuntu ukunda bisaba gusangira ijambo ryawe ry’ingenzi rya seed, ugashira mu kaga amahera yawe yose no kugora uburongozi bw’uwo ukunda (gucungera inzira z’amashami), canke gukora ijambo rishasha rya seed kugira ngo uzigame ijambo ryawe ry’ingenzi.
+- **Ivyabaye**: Ushizeho Bitcoin Wallet ku muntu uri hafi (nk'akarorero mama wawe), mu gihe ushobora kuyigarura iyo ayitakaje.
+- **Umuti BIP-85**: Urema interuro ya kabiri yihariye seed maze ugasangira iyi gusa.
+- Inyungu kuri **BIP-32**: Na BIP-32, gukora konti y'umuntu ukunda bisaba gusangira ijambo ryawe ry'ingenzi rya seed, ugashira mu kaga amahera yawe yose no kugora uburongozi bw'uwo ukunda (gucungera inzira z'amashami), canke gukora ijambo rishasha rya seed kugira ngo uzigame ijambo ryawe ry'ingenzi.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 iragufasha gukora ibitabo vyinshi vya Bitcoin ukoresheje ijambo rimwe ry�
 
 
 
-- Ivyabaye**: Utandukanya amafaranga yawe y’ama bitcoins kubera intumbero zitandukanye (nk’amahera yo kuzigama igihe kirekire, amafaranga atari aya KYC).
-- Umuti BIP-85**: Urema amajambo ya kabiri seed yerekeye intumbero imwe imwe.
-- Inyungu kuri BIP-32**: Na BIP-32, amakonti yose asangira ijambo rimwe rya seed, ivyo bikaba bigora uburongozi mu bitabo vy'abandi mu gusaba inzira z'ugukura nk'`m/44'/0'/0'` kugira ngo zicungwe. Ikindi, ntibishoboka gutanga konti itandukanye ku gikoresho cose (nk'akarorero "ukuzigama kuri Coldcard", "ku musi kuri telefone ngendanwa", "ibiruhuko kuri Trezor"). BIP-85 itanga ijambo ry’inyuma ry’umwihariko rya seed ku ntumbero, ryoroshe kumenya no kwinjiza bitandukanye ku gikoresho cose.
+- **Ivyabaye**: Utandukanya amafaranga yawe y'ama bitcoins kubera intumbero zitandukanye (nk'amahera yo kuzigama igihe kirekire, amafaranga atari aya KYC).
+- **Umuti BIP-85**: Urema amajambo ya kabiri seed yerekeye intumbero imwe imwe.
+- Inyungu kuri BIP-32: Na BIP-32, amakonti yose asangira ijambo rimwe rya seed, ivyo bikaba bigora uburongozi mu bitabo vy'abandi mu gusaba inzira z'ugukura nk'`m/44'/0'/0'` kugira ngo zicungwe. Ikindi, ntibishoboka gutanga konti itandukanye ku gikoresho cose (nk'akarorero "ukuzigama kuri Coldcard", "ku musi kuri telefone ngendanwa", "ibiruhuko kuri Trezor"). BIP-85 itanga ijambo ry'inyuma ry'umwihariko rya seed ku ntumbero, ryoroshe kumenya no kwinjiza bitandukanye ku gikoresho cose.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 iragufasha gukora ibitabo vyinshi vya Bitcoin ukoresheje ijambo rimwe ry�
 
 
 
-- Ivyabaye**: Ukeneye igitabu c’igihe gito co gukoresha rimwe canke kugira ngo uzigame ibanga (nk’akarorero: kuvanga amafaranga, gukorana na Exchange KYC, n’ibindi).
-- Umuti BIP-85**: Urema interuro ya kabiri ya seed, ukayikoresha mu bijanye n’ugucuruza, hanyuma ukayisambura iyo bikenewe, uzi ko ishobora gusubirwamwo.
-- Inyungu kuri BIP-32**: Na BIP-32, konti y’igihe gito ivana n’interuro nyamukuru ya seed, igaragaza amahera yawe yose iyo ashobora guhungabanywa.
+- **Ivyabaye**: Ukeneye igitabu c'igihe gito co gukoresha rimwe canke kugira ngo uzigame ibanga (nk'akarorero: kuvanga amafaranga, gukorana na Exchange KYC, n'ibindi).
+- **Umuti BIP-85**: Urema interuro ya kabiri ya seed, ukayikoresha mu bijanye n'ugucuruza, hanyuma ukayisambura iyo bikenewe, uzi ko ishobora gusubirwamwo.
+- **Inyungu kuri BIP-32**: Na BIP-32, konti y'igihe gito ivana n'interuro nyamukuru ya seed, igaragaza amahera yawe yose iyo ashobora guhungabanywa.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 iragufasha gukora ibitabo vyinshi vya Bitcoin ukoresheje ijambo rimwe ry�
 
 
 
-- Ibikoresho** (ntibikenewe)
+- **Ibikoresho** (ntibikenewe)
  - Ikarata y’ubukonje Mk4 canke Q1.
  - Ikarata MicroSD
 
@@ -158,7 +158,7 @@ BIP-85 iragufasha gukora ibitabo vyinshi vya Bitcoin ukoresheje ijambo rimwe ry�
 
 
 
-- Porogaramu ihuye**
+- Porogaramu ihuye
  - Sparrow wallet (mudasobwa, yo kuraba gusa canke uburongozi buteye imbere)
  - Nunchuck (igendagenda, ku mikono myinshi)
  - Igikapu c'ubururu (igendagenda)

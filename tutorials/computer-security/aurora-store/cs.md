@@ -26,9 +26,9 @@ Obchod Aurora je jedním z nejoblíbenějších alternativních obchodů s aplik
 
 
 
-- Zjednodušený Interface**: Interface vás ani v nejmenším neohromí, takže se v něm snadno zorientujete.
-- Přístup k milionům aplikací**: Aurora Store slouží jako portál pro širokou škálu mobilních aplikací. Pokud je hledaná aplikace v obchodě Google Play, najdete ji v obchodě Aurora Store.
-- Služba Google Play není vyžadována**: Díky technologii MicroG mohou aplikace pro Android běžet na vašem telefonu bez služeb Google Play.
+- **Zjednodušený Interface**: Interface vás ani v nejmenším neohromí, takže se v něm snadno zorientujete.
+- **Přístup k milionům aplikací**: Aurora Store slouží jako portál pro širokou škálu mobilních aplikací. Pokud je hledaná aplikace v obchodě Google Play, najdete ji v obchodě Aurora Store.
+- **Služba Google Play není vyžadována**: Díky technologii MicroG mohou aplikace pro Android běžet na vašem telefonu bez služeb Google Play.
 
 
 
@@ -98,7 +98,7 @@ Obchod Aurora nejenže zrcadlí obchod Google Play, ale obsahuje také funkce, k
 
 
 
-- Nezávislost na společnosti Google:**
+- **Nezávislost na společnosti Google:**
 
 
 
@@ -112,7 +112,7 @@ Pokud se rozhodnete zakázat služby Google Play, abyste ochránili svá data, n
 
 
 
-- Ovládání stahování:**
+- **Ovládání stahování:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Store umožňuje ruční stahování mobilních aplikací zadáním kódu
 
 
 
-- Oprávnění:**
+- **Oprávnění:**
 
 
 V popisu aplikace, kterou chcete nainstalovat, získáte úplný seznam oprávnění, která této aplikaci po instalaci udělíte.
@@ -139,7 +139,7 @@ V popisu aplikace, kterou chcete nainstalovat, získáte úplný seznam oprávn�
 
 
 
-- Analýza ochrany údajů:**
+- **Analýza ochrany údajů:**
 
 
 

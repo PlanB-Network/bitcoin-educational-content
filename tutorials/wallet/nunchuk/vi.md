@@ -324,7 +324,7 @@ Nunchuk cho bạn thấy một số khả năng chủ yếu liên quan đến c�
 
 
 
-Trong hướng dẫn này, chúng tôi sẽ tạo _Hot Wallet và _Ví tùy chỉnh_ bằng cách trình bày chi tiết.
+Trong hướng dẫn này, chúng tôi sẽ tạo _Hot Wallet_ và _Ví tùy chỉnh_ bằng cách trình bày chi tiết.
 
 
 Hãy bắt đầu với _Ví tùy chỉnh_.

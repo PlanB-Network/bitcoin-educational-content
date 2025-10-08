@@ -97,7 +97,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 - 왼쪽 패널에서는 브랜치(참조: \**A\**) 및 파일(참조: \**B\**)을 탐색할 수 있습니다.
 
-*연필 아이콘을 클릭하여 검토를 시작합니다(**C** 참조)
+*연필 아이콘을 클릭하여 검토를 시작합니다* (**C** 참조)
 
 
 ![REVIEW](assets/fr/04.webp)
@@ -208,7 +208,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 참여해주셔서 대단히 감사합니다! 승인 후 Plan ₿ Network 팀원이 리워드를 보내드리기 위해 연락드릴 것입니다. \**지급은 Lightning Network를 통해서만 이루어집니다.
+- 참여해주셔서 대단히 감사합니다! 승인 후 Plan ₿ Network 팀원이 리워드를 보내드리기 위해 연락드릴 것입니다. **지급은 Lightning Network를 통해서만 이루어집니다.**
 - 다시 시작하려면 2단계로 돌아가서 텔레그램 그룹에서 새 메시지를 보내어 다른 콘텐츠에 계속 기여하세요. 새 작업 브랜치를 만들기 전에 Fork을 동기화해야 합니다. 이렇게 하려면, Fork의 홈페이지로 이동하여 'dev'라는 메인 브랜치를 선택한 후 (참조: \**A\**), "Fork 동기화" 버튼을 클릭합니다 (참조: \**B\**). Fork에 업데이트가 가능한 경우 "업데이트 브랜치" 버튼이 나타납니다. 이 버튼을 클릭하여 업데이트를 수행하세요.
 
 

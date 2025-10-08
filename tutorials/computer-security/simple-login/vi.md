@@ -205,7 +205,7 @@ Về Simple Login, công cụ này có các tính năng sau:
 
 - ứng dụng di động (cũng từ F-Droid) và tiện ích mở rộng của trình duyệt, để quản lý bí danh trong mọi tình huống;
 - xác thực hai yếu tố cho mỗi bút danh mới, giúp tăng mức độ độc lập so với chính dịch vụ;
-- Hỗ trợ PGP (dành cho người dùng _Premium);
+- Hỗ trợ PGP (dành cho người dùng _Premium_);
 - tạo đơn giản mọi loại bí danh (tùy chỉnh, ngẫu nhiên và UUID);
 - trong số các gói miễn phí trong ngành, khả năng sử dụng bí danh với hộp thư email "chính thức" hơn. Các đối thủ cạnh tranh khác chỉ giới hạn ở một.
 

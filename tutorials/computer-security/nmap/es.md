@@ -366,7 +366,7 @@ Este es el resultado esperado:
 
 
 
-resultado de mostrar la versión actual de Nmap._
+resultado de mostrar la versión actual de Nmap.
 
 
 
@@ -451,7 +451,7 @@ Este es el resultado esperado:
 
 
 
-resultado de mostrar la versión actual de Nmap._
+resultado de mostrar la versión actual de Nmap.
 
 
 
@@ -475,7 +475,7 @@ En su forma más básica, es decir, sin ir muy lejos en el uso de sus opciones, 
 
 
 
-mensaje de error en Linux cuando las opciones de Nmap requieren derechos de root._
+mensaje de error en Linux cuando las opciones de Nmap requieren derechos de root.
 
 
 
@@ -611,7 +611,7 @@ He aquí un posible resultado. Vemos un retorno clásico de Nmap con mucha infor
 
 
 
-resultados de un simple escaneo TCP realizado con Nmap._
+resultados de un simple escaneo TCP realizado con Nmap.
 
 
 
@@ -723,7 +723,7 @@ Si echa un vistazo al archivo "/etc/services" de un sistema Linux, encontrará u
 
 
 
-extrae el contenido del archivo "/etc/services" en Linux._
+extrae el contenido del archivo "/etc/services" en Linux.
 
 
 
@@ -857,7 +857,7 @@ Aquí, el retorno obtenido tiene el mismo formato que para un escaneo TCP, pero 
 
 
 
-resultado de un simple escaneo UDP realizado con Nmap._
+resultado de un simple escaneo UDP realizado con Nmap.
 
 
 
@@ -869,7 +869,7 @@ Por cierto, probablemente notará que Nmap requiere derechos de "root" para los 
 
 
 
-nota: Desde las últimas versiones de Nmap, siempre se recomienda ejecutar escaneos UDP con privilegios de administrador para garantizar resultados fiables, ya que algunas funciones requieren acceso sin procesar a los sockets de red._
+**Nota:** Desde las últimas versiones de Nmap, siempre se recomienda ejecutar escaneos UDP con privilegios de administrador para garantizar resultados fiables, ya que algunas funciones requieren acceso sin procesar a los sockets de red.
 
 
 
@@ -909,7 +909,7 @@ Podemos ver en la captura de pantalla anterior que Nmap enviará un gran número
 
 
 
-extracto de RFC 1122._
+extracto de **RFC 1122**.
 
 
 
@@ -921,7 +921,7 @@ Echemos un vistazo más de cerca a esta captura de Wireshark, que muestra **los 
 
 
 
-captura de red durante un escaneo UDP en diferentes puertos con Nmap._
+captura de red durante un escaneo UDP en diferentes puertos con Nmap.
 
 
 
@@ -956,7 +956,7 @@ Aquí está el resultado mostrado por Nmap siguiendo estos tres casos:
 
 
 
-posibles resultados de un escaneo UDP realizado a través de Nmap._
+posibles resultados de un escaneo UDP realizado a través de Nmap.
 
 
 
@@ -988,7 +988,7 @@ Los 1000 puertos analizados en el modo por omisión se eligen según su frecuenc
 
 
 
-extraído del archivo "/usr/shares/nmap/nmap-services"._
+extraído del archivo "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Para ayudarte a entender qué aspecto pueden tener las Sondas, aquí tienes una 
 
 
 
-ejemplo de varias Sondas utilizadas por Nmap y presentes en el fichero `/usr/share/nmap/nmap-service-probes`._
+ejemplo de varias Sondas utilizadas por Nmap y presentes en el fichero `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Ahora vamos a volver a una directiva en el archivo `/usr/share/nmap/nmap-service
 
 
 
-directiva `rarity` de sondas en el archivo `/usr/share/nmap/nmap-service-probes`._
+directiva `rarity` de sondas en el archivo `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ Para terminar con este tema, he aquí un ejemplo de _Probe_ 9 y 8:
 
 
 
-ejemplos de Sonda en rareza 8 y 9 en el archivo `/usr/share/nmap/nmap-service-probes`._
+ejemplos de Sonda en rareza 8 y 9 en el archivo `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Aquí está el resultado de un escaneo Nmap usando scripts NSE:
 
 
 
-ejemplo de los resultados de un escaneo de vulnerabilidades en un host a través de Nmap._
+ejemplo de los resultados de un escaneo de vulnerabilidades en un host a través de Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Técnicamente, las categorías a las que pertenece un script se indican directam
 
 
 
-categorías de scripts nSE `ftp-anon`._
+categorías de scripts nSE **ftp-anon**.
 
 
 
@@ -2284,7 +2284,7 @@ Por omisión, los scripts de Nmap para NSE se encuentran en el directorio `/usr/
 
 
 
-extrae el contenido del directorio `/usr/share/nmap/scripts/` que contiene los scripts de NSE._
+extrae el contenido del directorio `/usr/share/nmap/scripts/` que contiene los scripts de NSE.
 
 
 
@@ -2296,7 +2296,7 @@ Este directorio contiene más de 5.000 scripts de NSE. En la mayoría de los cas
 
 
 
-lista de scripts NSE Nmap con nombres que empiezan por `ftp-`._
+lista de scripts NSE Nmap con nombres que empiezan por `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Entonces tenemos un resultado muy preciso:
 
 
 
-resultado de utilizar el script `ftp-anon` de NSE en un puerto FTP a través de Nmap._
+resultado de utilizar el script `ftp-anon` de NSE en un puerto FTP a través de Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Para obtener una breve descripción de lo que hace un script de NSE, puede utili
 
 
 
-ayuda mostrar resultado para script NSE `sshv1`._
+ayuda mostrar resultado para script NSE **sshv1**.
 
 
 
@@ -2500,7 +2500,7 @@ Este script tiene opciones "por defecto", que podríamos personalizar para adapt
 
 
 
-resultado de mostrar la ayuda para el script `ssh-brute` de NSE con un enlace a nmap.org._
+resultado de mostrar la ayuda para el script `ssh-brute` de NSE con un enlace a nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Como puede ver en esta última orden, podemos especificar los argumentos necesar
 
 
 
-resultado de la ejecución de fuerza bruta SSH a través de Nmap._
+resultado de la ejecución de fuerza bruta SSH a través de Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Este formato fue creado para proporcionar una vista "condensada" de la salida de
 
 
 
-nmap escaneo de red y salida en formato "greppable"._
+nmap escaneo de red y salida en formato "greppable".
 
 
 
@@ -2838,7 +2838,7 @@ Como resultado, tendremos toda nuestra exploración bien estructurada, ¡incluso
 
 
 
-extracto de un informe de escaneo Nmap en formato HTML generado por xsltproc._
+extracto de un informe de escaneo Nmap en formato HTML generado por xsltproc.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) es un subconjunto de XSL
 
 
 
-fuente: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+fuente: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ La primera opción que debemos mencionar es la opción `-v`, que incrementa la v
 
 
 
-la salida detallada de nmap utilizando la opción `-v`._
+la salida detallada de nmap utilizando la opción `-v`.
 
 
 
@@ -2900,7 +2900,7 @@ Para seguir la actividad de Nmap durante su sondeo, puede utilizar la opción `-
 
 
 
-monitorización detallada de la actividad de Nmap mediante `--packet-trace`._
+monitorización detallada de la actividad de Nmap mediante `--packet-trace`.
 
 
 
@@ -3120,7 +3120,7 @@ Mientras que Aquatone normalmente realiza el descubrimiento de puertos en los ho
 
 
 
-utilizando los resultados de Nmap en formato XML con `aquatone`._
+utilizando los resultados de Nmap en formato XML con `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ En cualquier caso, puedes comprobar los valores por defecto de los parámetros q
 
 
 
-ver las opciones de Temporización a través de la opción `-d` de Nmap._
+ver las opciones de Temporización a través de la opción `-d` de Nmap.
 
 
 
@@ -3465,7 +3465,7 @@ Si ha optado por utilizar Nmap no a través de una sesión como `root`, sino oto
 
 
 
-elevación de privilegios de Nmap a través de `sudo`._
+elevación de privilegios de Nmap a través de `sudo`.
 
 
 
@@ -3509,7 +3509,7 @@ Como habrá notado, Nmap ofrece varias opciones para escaneos TCP:
 
 
 
-técnicas de escaneo disponibles en Nmap._
+técnicas de escaneo disponibles en Nmap.
 
 
 
@@ -3598,7 +3598,7 @@ Como se ha mencionado, cuando se ejecuta Nmap desde un terminal privilegiado, TC
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Este es un ejemplo del resultado del escaneo TCP FIN de Nmap:
 
 
 
-resultados de un escaneo TCP FIN por Nmap._
+resultados de un escaneo TCP FIN por Nmap.
 
 
 
@@ -3892,7 +3892,7 @@ Es importante tener en cuenta que el escaneo TCP XMAS no es capaz de detectar co
 
 
 
-nota: el soporte para escaneos XMAS/FIN/NULL en versiones recientes de Windows sigue siendo limitado, y los resultados pueden ser inconsistentes en este tipo de objetivos. (Actualización 2025)_
+nota: el soporte para escaneos XMAS/FIN/NULL en versiones recientes de Windows sigue siendo limitado, y los resultados pueden ser inconsistentes en este tipo de objetivos. (Actualización 2025)
 
 
 
@@ -3983,7 +3983,7 @@ Utilizaremos la opción `-sA` de Nmap para realizar este tipo de sondeo. Este es
 
 
 
-nmap pantalla durante TCP ACK Scan._
+nmap pantalla durante **TCP ACK Scan**.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-nota: La opción `-sP` está obsoleta desde hace varios años y debería sustituirse por `-sn`. (Actualización 2025)_
+nota: La opción `-sP` está obsoleta desde hace varios años y debería sustituirse por `-sn`. _(Actualización 2025)_
 
 
 

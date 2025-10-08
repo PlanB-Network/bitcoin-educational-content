@@ -28,9 +28,9 @@ Ivyo si "ibisanzwe" vya Debian ku bipande bitobito vy'ubwoko bwa Raspberry. Ivyo
 
 
 
-- Itunganijwe neza kubera umuvuduko n’umuco**: a [kugereranya n’ibindi bikoresho vya Debian vya SBC](https://dietpi.com/blog/?p=888), DietPi iraremereye muri vyose. Ishusho ya DietPi ISO ipima munsi ya 1 GB, ni yo ntoyi cane mu zigenewe ibigereranyo vya kera vya Raspberry canke Orange PI (nk’akarorero). Ivyo bisabwa ku bikoresho vya RAM na CPU ni bike cane, ku buryo yama ironka ivyiza kuruta ibindi vyose mu bipande, mbere n’ivya kera.
-- Ivyuma vyubatswemwo n’ababishiramwo**: Amabwirizwa yihariye afasha abakoresha kugenzura ibikoresho vya sisitemu hamwe n’ibikorwa vy’ubuhinga bwo gushiramwo no gutanguza porogarama, guhindura verisiyo, gukora amakopi, no kugenzura amakuru yose.
-- Umuryango ukomeye, wibanda ku kugerageza**: [inyigisho](https://dietpi.com/forum/c/community-tutorials/8) n’imigambi iva mu muryango wa DietPi, ni vyiza cane kugira ngo ushobore guhumekerwa na porogarama ushobora gushiramwo ukoresheje gukanda rimwe, ushimira DietPi.
+- **Itunganijwe neza kubera umuvuduko n'umuco**: a [kugereranya n'ibindi bikoresho vya Debian vya SBC](https://dietpi.com/blog/?p=888), DietPi iraremereye muri vyose. Ishusho ya DietPi ISO ipima munsi ya 1 GB, ni yo ntoyi cane mu zigenewe ibigereranyo vya kera vya Raspberry canke Orange PI (nk'akarorero). Ivyo bisabwa ku bikoresho vya RAM na CPU ni bike cane, ku buryo yama ironka ivyiza kuruta ibindi vyose mu bipande, mbere n'ivya kera.
+- **Ivyuma vyubatswemwo n'ababishiramwo**: Amabwirizwa yihariye afasha abakoresha kugenzura ibikoresho vya sisitemu hamwe n'ibikorwa vy'ubuhinga bwo gushiramwo no gutanguza porogarama, guhindura verisiyo, gukora amakopi, no kugenzura amakuru yose.
+- Umuryango ukomeye, wibanda ku kugerageza: **[inyigisho](https://dietpi.com/forum/c/community-tutorials/8) n'imigambi iva mu muryango wa DietPi**, ni vyiza cane kugira ngo ushobore guhumekerwa na porogarama ushobora gushiramwo ukoresheje gukanda rimwe, ushimira DietPi.
 
 
 

@@ -34,12 +34,12 @@ Alby Cloud é um serviço pago [Verifique os preços](https://albyhub.com/#prici
 Se já tiver um nó alojado, por exemplo, na Umbrel ou na Start9, o Alby Hub pode ser utilizado como interface de gestão avançada, tal como o ThunderHub ou o RTL.
 
 
-- Alby Hub local :**
+- **Alby Hub local:**
 
 Também é possível instalar o Alby Hub diretamente no seu PC, embora essa opção seja menos prática, pois o seu PC precisa permanecer ativo o tempo todo para acessar o nó Lightning remotamente. No entanto, essa alternativa pode ser adequada para suas necessidades específicas.
 
 
-- Alby Hub num servidor pessoal :**
+- Alby Hub num servidor pessoal:
 
 Para utilizadores avançados, o Alby Hub pode ser implementado num servidor pessoal com um simples comando. Esta opção não é abordada neste tutorial, mas pode encontrar instruções dedicadas [no GitHub do Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 

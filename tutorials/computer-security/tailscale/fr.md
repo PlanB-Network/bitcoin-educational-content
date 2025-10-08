@@ -287,7 +287,7 @@ Tailscale s'impose comme un outil essentiel de l'auto-hébergement par sa simpli
 
 ### Documentation officielle
 
-* **Centre de documentation Tailscale** : [docs.tailscale.com](https://docs.tailscale.com) - Documentation complète en anglais, guides d'installation, tutoriels et références techniques.
+**Centre de documentation Tailscale** : [docs.tailscale.com](https://docs.tailscale.com) - Documentation complète en anglais, guides d'installation, tutoriels et références techniques.
 **Comment fonctionne Tailscale** : [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Article détaillé expliquant les mécanismes internes de Tailscale.
 **Changelog** : [tailscale.com/changelog](https://tailscale.com/changelog) - Suivi des mises à jour et nouvelles fonctionnalités.
 

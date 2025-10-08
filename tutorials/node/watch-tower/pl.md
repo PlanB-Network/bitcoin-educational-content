@@ -33,7 +33,7 @@ W tym poradniku przyjrzymy się 3 sposobom korzystania z **Watchtower** :
 
 
 
-*Ten samouczek pochodzi z [oficjalnej dokumentacji LND] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Niektóre zmiany mogły zostać wprowadzone do oryginalnej wersji
+*Ten samouczek pochodzi z [oficjalnej dokumentacji LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Niektóre zmiany mogły zostać wprowadzone do oryginalnej wersji*
 
 
 
@@ -337,13 +337,13 @@ Oko Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) jest nie-dep
 
 
 
-- teos**: zawiera wiersz poleceń Interface (CLI) i podstawowe funkcje serwera Watchtower. Podczas kompilacji tego _crate_ tworzone są dwa pliki binarne - **teosd** i **teos-CLI**.
+- **teos**: zawiera wiersz poleceń Interface (CLI) i podstawowe funkcje serwera Watchtower. Podczas kompilacji tego _crate_ tworzone są dwa pliki binarne - **teosd** i **teos-CLI**.
 
 
 
 
 
-- teos-common**: zawiera współdzielone funkcje po stronie serwera i klienta (przydatne przy tworzeniu klienta).
+- **teos-common**: zawiera współdzielone funkcje po stronie serwera i klienta (przydatne przy tworzeniu klienta).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- serwer**: dla żądań RPC
+- **serwer**: dla żądań RPC
 
 
 
 
 
-- rpcuser** i **rpcpassword**: uwierzytelniają klientów RPC na serwerze
+- **rpcuser** i **rpcpassword**: uwierzytelniają klientów RPC na serwerze
 
 
 
 
 
-- regtest**: nie jest wymagany, ale przydatny, jeśli planujesz rozwój.
+- **regtest**: nie jest wymagany, ale przydatny, jeśli planujesz rozwój.
 
 
 
@@ -489,13 +489,13 @@ W menu "**Watchtower**" dostępne są dwie opcje:
 
 
 
-- Usługa Watchtower**: ta opcja umożliwia obsługę Watchtower, tj. usługi, która monitoruje kanały innych węzłów w celu wykrycia wszelkich prób oszustwa. W przypadku naruszenia Watchtower publikuje transakcję na Blockchain, umożliwiając użytkownikom odzyskanie zablokowanych środków. Po aktywacji pojawia się identyfikator URI Watchtower i można go przekazać innym węzłom, aby mogły dodać go do swojego klienta Watchtower;
+- **Usługa Watchtower**: ta opcja umożliwia obsługę Watchtower, tj. usługi, która monitoruje kanały innych węzłów w celu wykrycia wszelkich prób oszustwa. W przypadku naruszenia Watchtower publikuje transakcję na Blockchain, umożliwiając użytkownikom odzyskanie zablokowanych środków. Po aktywacji pojawia się identyfikator URI Watchtower i można go przekazać innym węzłom, aby mogły dodać go do swojego klienta Watchtower;
 
 
 
 
 
-- Klient Watchtower**: ta opcja umożliwia łączenie się z zewnętrznymi wieżami strażniczymi w celu ochrony własnych kanałów. Po aktywacji można dodać usługi Watchtower, do których węzeł będzie przekazywał niezbędne informacje o swoich kanałach. Te wieże strażnicze będą następnie monitorować ich status i interweniować w przypadku próby oszustwa.
+- **Klient Watchtower**: ta opcja umożliwia łączenie się z zewnętrznymi wieżami strażniczymi w celu ochrony własnych kanałów. Po aktywacji można dodać usługi Watchtower, do których węzeł będzie przekazywał niezbędne informacje o swoich kanałach. Te wieże strażnicze będą następnie monitorować ich status i interweniować w przypadku próby oszustwa.
 
 
 

@@ -163,7 +163,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Privacy*」メニューでは、様々な機能を有効または無効にすることができます（IP Addressを公開するものもありますのでご注意ください）。また、アプリケーションへのアクセスに認証が必要な "*Lock App*"オプションを有効にすることをお勧めします。
+Privacy」メニューでは、様々な機能を有効または無効にすることができます（IP Addressを公開するものもありますのでご注意ください）。また、アプリケーションへのアクセスに認証が必要な「**Lock App**」オプションを有効にすることをお勧めします。
 
 
 

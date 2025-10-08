@@ -208,8 +208,8 @@ igizwe na :
 
 
 
-- Iyo uja Address**: Igikoresho gikora Bitcoin Address. Ici, `bc1q879cv4p5q6s9537umutuku3zss33d3turzad8`. Ivyo bishobora kuba Address yawe bwite, nimba wipfuza kwisubiza amahera wimuriwe;
-- Amafaranga yimuriwe**: amafaranga y’ugucuruza, hano `0.00001` BTC. **Iciyumviro**: kuko igice gikoreshwa muri Electrum ari BTC, amafaranga yerekanwa mu nyandiko y’ugucuruza na yo nyene ategerezwa kugaragazwa muri BTC, atari muri Sats ;
+- **Iyo uja Address**: Igikoresho gikora Bitcoin Address. Ici, `bc1q879cv4p5q6s9537umutuku3zss33d3turzad8`. Ivyo bishobora kuba Address yawe bwite, nimba wipfuza kwisubiza amahera wimuriwe;
+- **Amafaranga yimuriwe**: amafaranga y'ugucuruza, hano `0.00001` BTC. **Iciyumviro**: kuko igice gikoreshwa muri Electrum ari BTC, amafaranga yerekanwa mu nyandiko y'ugucuruza na yo nyene ategerezwa kugaragazwa muri BTC, atari muri Sats ;
 - Inyandiko **OP_RETURN**: Ubutumwa bwahinduwe mu nkuru cumi n'itandatu bubanjirijwe n'inyandiko(`OP_RETURN <ubutumwa>), 0`. Aha, `5468616e6b73205361746f736869` ku butumwa buri mu bice cumi na bitandatu.
 
 

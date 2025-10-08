@@ -36,10 +36,10 @@ En una Interface Alias Vault es:
 
 
 
-- Gratuito y de código abierto**
-- Gestor de contraseñas**, para almacenar todas las contraseñas complejas. Mediante la extensión del navegador, el gestor de contraseñas completa los inicios de sesión en sitios web
-- 2FA**, para admitir la autenticación de dos factores
-- Gestor de alias con servidor de correo electrónico integrado**: Alias Vault no crea alias que reenvíen el correo electrónico al buzón de un usuario, sino que crea alter-egos reales, completos con nombre, apellidos, sexo, nombre de usuario, contraseña y cumpleaños (si se requiere esta información).
+- **Gratuito y de código abierto**
+- **Gestor de contraseñas**, para almacenar todas las contraseñas complejas. Mediante la extensión del navegador, el gestor de contraseñas completa los inicios de sesión en sitios web
+- **2FA**, para admitir la autenticación de dos factores
+- **Gestor de alias con servidor de correo electrónico integrado**: Alias Vault no crea alias que reenvíen el correo electrónico al buzón de un usuario, sino que crea alter-egos reales, completos con nombre, apellidos, sexo, nombre de usuario, contraseña y cumpleaños (si se requiere esta información).
 
 
 

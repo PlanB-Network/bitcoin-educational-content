@@ -47,7 +47,7 @@ Rero... Mama wa Darth yaciye afata ingingo yo gutangura gukoresha LN na Blixt. H
 Darth abwira nyina wiwe:
 
 
-"*Mama, niwatangura gukoresha Blixt LN Node, uzokenera mbere kumenya ico ari co Lightning Network n'ingene ikora, n'imiburiburi ku rugero rw'ishimikiro. [Aha ndashize hamwe urutonde rworoshe rw'ibikoresho vyerekeye Lightning Network]
+**Mama, niwatangura gukoresha Blixt LN Node, uzokenera mbere kumenya ico ari co Lightning Network n'ingene ikora, n'imiburiburi ku rugero rw'ishimikiro. [Aha ndashize hamwe urutonde rworoshe rw'ibikoresho vyerekeye Lightning Network]**
 
 
 Darth’s Mom yarasomye ivyo bikoresho maze akora intambwe yiwe ya mbere: ashira Blixt ku gikoresho ciwe gishasha ca Android. Blixt iraboneka kandi kuri iOS na macOS (ku biro). Ariko ivyo si ivya Darth’s Mom... Naho biri ukwo, birakenewe ko ukoresha verisiyo nshasha ya Android, nibura 9 canke 10 kugira ngo ushobore gukorana neza n’ubumenyi. Gukoresha node yuzuye ya LN ku gikoresho gikoreshwa n’amaboko si igikorwa coroshe kandi coshobora gutwara umwanya (min 600MB) n’ubuhinga bwo kwibuka.

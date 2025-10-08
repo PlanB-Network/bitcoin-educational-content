@@ -33,7 +33,7 @@ En este tutorial, veremos 3 formas de utilizar un **Watchtower** :
 
 
 
-*Este tutorial está tomado de [la documentación oficial de LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Es posible que se hayan realizado algunos cambios en la versión original
+**Este tutorial está tomado de [la documentación oficial de LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Es posible que se hayan realizado algunos cambios en la versión original**
 
 
 
@@ -53,7 +53,7 @@ Tenga en cuenta que hemos optado por desplegar en esta versión un conjunto limi
 
 
 
-nota: por el momento, las torres de vigilancia sólo guardan la salida `to_local` y `to_remote` de los compromisos revocados; guardar la salida HTLC se implementará en una versión futura, ya que el protocolo puede ampliarse para incluir datos de firma adicionales en blobs cifrados._
+nota: por el momento, las torres de vigilancia sólo guardan la salida `to_local` y `to_remote` de los compromisos revocados; guardar la salida HTLC se implementará en una versión futura, ya que el protocolo puede ampliarse para incluir datos de firma adicionales en blobs cifrados.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-nota: la clave pública de Watchtower es distinta de la clave pública del nodo `LND`. Por el momento, actúa como una "lista blanca de Soft", ya que los clientes necesitan conocer la clave pública de Watchtower para utilizarla como copia de seguridad, a la espera de mecanismos de lista blanca más avanzados. Recomendamos NO revelar esta clave pública abiertamente, a menos que esté preparado para exponer su Watchtower a todo Internet._
+nota: la clave pública de Watchtower es distinta de la clave pública del nodo `LND`. Por el momento, actúa como una "lista blanca de Soft", ya que los clientes necesitan conocer la clave pública de Watchtower para utilizarla como copia de seguridad, a la espera de mecanismos de lista blanca más avanzados. Recomendamos NO revelar esta clave pública abiertamente, a menos que esté preparado para exponer su Watchtower a todo Internet.
 
 
 
@@ -337,13 +337,13 @@ El Ojo de Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) es un 
 
 
 
-- teos**: incluye un Interface de línea de comandos (CLI) y las características esenciales de servidor de Watchtower. Se producen dos binarios - **teosd** y **teos-CLI** - cuando se compila este _crate_.
+- **teos**: incluye un Interface de línea de comandos (CLI) y las características esenciales de servidor de Watchtower. Se producen dos binarios - **teosd** y **teos-CLI** - cuando se compila este _crate_.
 
 
 
 
 
-- teos-common**: incluye funcionalidad compartida del lado del servidor y del lado del cliente (útil para crear un cliente).
+- **teos-common**: incluye funcionalidad compartida del lado del servidor y del lado del cliente (útil para crear un cliente).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- servidor**: para solicitudes RPC
+- **servidor**: para solicitudes RPC
 
 
 
 
 
-- rpcuser** y **rpcpassword**: autenticar clientes RPC en el servidor
+- **rpcuser** y **rpcpassword**: autenticar clientes RPC en el servidor
 
 
 
 
 
-- regtest**: no es necesario, pero es útil si está planeando el desarrollo.
+- **regtest**: no es necesario, pero es útil si está planeando el desarrollo.
 
 
 
@@ -489,13 +489,13 @@ En el menú "**Watchtower**" hay dos opciones disponibles:
 
 
 
-- Servicio Watchtower**: esta opción te permite operar un Watchtower, es decir, un servicio que monitoriza los canales de otros nodos para detectar cualquier intento de fraude. En caso de infracción, su Watchtower publica una transacción en el Blockchain, lo que permite a los usuarios recuperar sus fondos bloqueados. Una vez activado, aparece el URI de su Watchtower y puede comunicarse a otros nodos para que lo añadan a su cliente Watchtower;
+- **Servicio Watchtower**: esta opción te permite operar un Watchtower, es decir, un servicio que monitoriza los canales de otros nodos para detectar cualquier intento de fraude. En caso de infracción, su Watchtower publica una transacción en el Blockchain, lo que permite a los usuarios recuperar sus fondos bloqueados. Una vez activado, aparece el URI de su Watchtower y puede comunicarse a otros nodos para que lo añadan a su cliente Watchtower;
 
 
 
 
 
-- Cliente Watchtower**: esta opción le permite conectarse a torres de vigilancia externas para proteger sus propios canales. Una vez activada, podrá añadir servicios Watchtower a los que su nodo transmitirá la información necesaria sobre sus canales. Estas torres de vigilancia controlarán entonces su estado e intervendrán en caso de intento de fraude.
+- **Cliente Watchtower**: esta opción le permite conectarse a torres de vigilancia externas para proteger sus propios canales. Una vez activada, podrá añadir servicios Watchtower a los que su nodo transmitirá la información necesaria sobre sus canales. Estas torres de vigilancia controlarán entonces su estado e intervendrán en caso de intento de fraude.
 
 
 

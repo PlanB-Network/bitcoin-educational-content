@@ -472,11 +472,11 @@ Kugira ngo ushire izina ryawe ryiza kuri Bisq nk’umuguzi, kora ibikorwa vy’u
 
 
 
-- Ubuzima bwite**: Nta KYC, gukoresha Tor
-- Kwegereza ubutegetsi**: Nta serveri nkuru
-- Umutekano**: Inkomoko yuguruye, kode idakoreshwa
-- Interface**: yoroshe kuruta Bisq 1
-- Guhinduranya**: Amasezerano menshi ya Exchange
+- **Ubuzima bwite**: Nta KYC, gukoresha Tor
+- **Kwegereza ubutegetsi**: Nta serveri nkuru
+- **Umutekano**: Inkomoko yuguruye, kode idakoreshwa
+- **Interface**: yoroshe kuruta Bisq 1
+- **Guhinduranya**: Amasezerano menshi ya Exchange
 
 
 ### Intambamyi za Bisq 2
@@ -484,12 +484,12 @@ Kugira ngo ushire izina ryawe ryiza kuri Bisq nk’umuguzi, kora ibikorwa vy’u
 
 
 
-- Amafaranga make** (ubu) :
+- **Amafaranga make** (ubu) :
  - Amasezerano mashasha mu gice co gutangura
  - Ivyo kugurisha bike biraboneka
  - Igihe kirekire co kurindira kugira uronke umuguzi
-- Igitigiri c'ubudandaji**: Amadolari 600 y'Amerika ku gucuruza (na Bisq yoroshe)
-- Mudasobwa gusa**: Nta porogaramu yo kuri telefone ngendanwa
+- **Igitigiri c'ubudandaji**: Amadolari 600 y'Amerika ku gucuruza (na Bisq yoroshe)
+- **Mudasobwa gusa**: Nta porogaramu yo kuri telefone ngendanwa
 
 
 ## Amasezerano ya kazoza
@@ -500,16 +500,16 @@ Naho Bisq Easy ariyo protocole yonyene iriho ubu, hari izindi protocoles nyinshi
 
 
 
-- Bisq Lightning**: Itegeko rya Exchange rishingiye ku buryo bwo gukingira hakoreshejwe ubuhinga bwo guharura bw'imigwi myinshi kuri Lightning Network.
-- Bisq MuSig**: Kwimura porotokole nyamukuru kuva kuri Bisq 1 gushika kuri Bisq 2, hakoreshejwe Multisig 2-ku-2 ifise amafaranga y’umutekano.
-- BSQ Swaps**: Guhinduranya atome hagati ya BSQ na BTC.
-- Ivy’uguhinduranya amafaranga y’amafaranga**: Amafaranga y’amafaranga y’amafaranga y’amafaranga 44 y’umutungo uri ku giciro c’amafaranga y’amafaranga (USDT, BTC-L) biciye mu guhindura amafaranga y’amafaranga y’amafaranga.
-- Ivy’uguhinduranya amafaranga**: Ivy’uguhinduranya atome hagati ya Bitcoin na Monero.
-- Liquid MuSig**: Verisiyo y’amasezerano ya Multisig ikoresha L-BTC kugira ngo igiciro gito kandi umuntu agire ubuzima bwiwe bwite.
-- Guhinduranya ubwato bwo mu mazi**: Guhinduranya hagati ya Bitcoin kuri Lightning Network na Bitcoin On-Chain.
-- Ivy’uguhindura amafaranga**: Ivy’uguhindura amafaranga y’atome hagati ya Bitcoin n’amafaranga y’amadolari y’Amerika.
-- Amahitamwo ya Multisig**: Guhingura amahitamwo yo gushiramwo no guhamagara P2P n’uguhagarika BTC mu gucuruza On-Chain Multisig.
-- Multisig Amasezerano Yuguruye**: Bishoboza gukora amasezerano y’ivyangombwa akoresheje uburyo bwa 2-ku-3 bwa Multisig bufise ubukemurampaka.
+- **Bisq Lightning**: Itegeko rya Exchange rishingiye ku buryo bwo gukingira hakoreshejwe ubuhinga bwo guharura bw'imigwi myinshi kuri Lightning Network.
+- **Bisq MuSig**: Kwimura porotokole nyamukuru kuva kuri Bisq 1 gushika kuri Bisq 2, hakoreshejwe Multisig 2-ku-2 ifise amafaranga y'umutekano.
+- **BSQ Swaps**: Guhinduranya atome hagati ya BSQ na BTC.
+- **Ivy'uguhinduranya amafaranga y'amafaranga**: Amafaranga y'amafaranga y'amafaranga y'amafaranga 44 y'umutungo uri ku giciro c'amafaranga y'amafaranga (USDT, BTC-L) biciye mu guhindura amafaranga y'amafaranga y'amafaranga.
+- **Ivy'uguhinduranya amafaranga**: Ivy'uguhinduranya atome hagati ya Bitcoin na Monero.
+- **Liquid MuSig**: Verisiyo y'amasezerano ya Multisig ikoresha L-BTC kugira ngo igiciro gito kandi umuntu agire ubuzima bwiwe bwite.
+- **Guhinduranya ubwato bwo mu mazi**: Guhinduranya hagati ya Bitcoin kuri Lightning Network na Bitcoin On-Chain.
+- **Ivy'uguhindura amafaranga**: Ivy'uguhindura amafaranga y'atome hagati ya Bitcoin n'amafaranga y'amadolari y'Amerika.
+- **Amahitamwo ya Multisig**: Guhingura amahitamwo yo gushiramwo no guhamagara P2P n'uguhagarika BTC mu gucuruza On-Chain Multisig.
+- **Multisig Amasezerano Yuguruye**: Bishoboza gukora amasezerano y'ivyangombwa akoresheje uburyo bwa 2-ku-3 bwa Multisig bufise ubukemurampaka.
 
 
 Izo porotokole ubu ziriko zirategurwa kandi zizogenda zishirwa muri Bisq 2, zihe abakoresha uburenganzira bwo guhindura ibintu bivanye n’ivyo bakeneye.

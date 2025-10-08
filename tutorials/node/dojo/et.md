@@ -160,7 +160,7 @@ Sisestage käivitatav USB-mälu väljalülitatud arvutisse (see, millel soovite 
 
 
 
-Ilmub Ubuntu avakuva. Valige "Proovige või installige Ubuntu*".
+Ilmub Ubuntu avakuva. Valige "Proovige või installige Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Palume hoida see Address rangelt konfidentsiaalsena
+⚠️ **Palume hoida see Address rangelt konfidentsiaalsena**
 
 
 
@@ -1426,7 +1426,7 @@ Selleks, et pääseda oma brauserile ligi mis tahes masinast mis tahes võrgus (
 
 
 
-⚠️ **Palume hoida seda Address rangelt konfidentsiaalsena
+⚠️ **Palume hoida seda Address rangelt konfidentsiaalsena**
 
 
 

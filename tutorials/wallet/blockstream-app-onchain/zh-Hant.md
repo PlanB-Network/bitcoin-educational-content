@@ -30,7 +30,7 @@ description: 在手機上設定 Blockstream App 並管理onchain 交易
 
 
 
-- 初學者**：希望使用直覺式行動應用程式管理比特幣的使用者。
+- **初學者**：希望使用直覺式行動應用程式管理比特幣的使用者。
 - 中級使用者：尋求瞭解 onchain 功能和隱私權選項（如 Tor 或 SPV）的人。
 
 
@@ -76,7 +76,7 @@ description: 在手機上設定 Blockstream App 並管理onchain 交易
     - 功能 **Replace-by-fee (RBF)** 加速未確認的交易。
 - **相容性**：整合硬體錢包，例如 **Blockstream Jade**。
 - **Interface**：初學者可直覺操作，專家可使用進階選項。
-- 注意**：本指南著重於 onchain 使用。附錄中的其他教程涵蓋 Liquid、Watch-Only 和桌面版。
+- **注意**：本指南著重於 onchain 使用。附錄中的其他教程涵蓋 Liquid、Watch-Only 和桌面版。
 
 
 
@@ -182,7 +182,7 @@ description: 在手機上設定 Blockstream App 並管理onchain 交易
 
 
 
-- 注意**：在沒有攝影機或觀察者的私人環境中設定您的投資組合。
+- **注意**：在沒有攝影機或觀察者的私人環境中設定您的投資組合。
 - 從主畫面，按一下「開始」 ：
 
 
@@ -376,7 +376,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 - 點選「**分享**」、複製文字或掃描 QR code，即可分享 Address/URI。
-- 驗證**：盡可能檢查與收件者共用的 Address，以避免錯誤或攻擊（例如惡意軟體修改剪貼板）。
+- **驗證**：盡可能檢查與收件者共用的 Address，以避免錯誤或攻擊（例如惡意軟體修改剪貼板）。
 
 
 

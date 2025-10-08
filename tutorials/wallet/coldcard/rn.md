@@ -110,8 +110,8 @@ Raba uburongozi bwacu bwo gushiramwo no gutunganya Bitcoin core:
 
 
 
-- Gukoresha urudodo rwawe bwite na Bitcoin core:**
-- Gutunganya Tor ku nzira ya Bitcoin core:**
+- Gukoresha urudodo rwawe bwite na **Bitcoin core:**
+- **Gutunganya Tor ku nzira ya Bitcoin core:**
 
 
 Ubwa mbere, shiramwo ikarita ya micro SD muri Coldcard, hanyuma urungike Wallet ku Bitcoin core ukurikije izi ntambwe: Ivyiza/Ibikoresho > Urungike Wallet > Bitcoin core. Ku ikarita ya micro SD hazokwandikwa amadosiye abiri: Bitcoin-core.sig & Bitcoin-core.txt. Injira ikarata micro SD muri mudasobwa aho Bitcoin core iri, hanyuma ufungure dosiye .txt. Uzobona umurongo "Kuri Wallet n'urutoke rw'urufunguzo rwa mbere." Genzura ko XFP y'inyuguti umunani ihuye n'iyo wabonye igihe wakora urufunguzo rwawe rw'ibanga.'

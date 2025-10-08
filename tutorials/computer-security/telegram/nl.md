@@ -156,8 +156,8 @@ Hier vind je een hele reeks belangrijke parameters die je kunt aanpassen aan hoe
 Zorg ervoor dat je instelt:
 
 
-- telefoonnummer_ naar "Niemand"
-- oproepen_ naar "Mijn contactpersonen
+- **telefoonnummer** naar "Niemand"
+- **oproepen** naar "Mijn contactpersonen"
 - uitnodigingen voor "Niemand
 
 Dit zijn maatregelen die voorkomen dat je telefoonnummer bekend wordt, zodat je geen ongewenste oproepen ontvangt of onbewust wordt toegevoegd aan groepen van dubieuze herkomst. Later kun je alle andere parameters naar wens aanpassen.

@@ -4,7 +4,7 @@ description: 在保密情况下购买 Bitcoin 的 Telegram 机器人
 ---
 ![image](assets/cover.webp)
 
-_本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 编写
+_本教程由_ [Bitcoin Campus](https://linktr.ee/bitcoincampus) _编写_
 
 ## 介绍
 
@@ -57,11 +57,11 @@ BitcoinVoucherBot:](https://t.me/BitcoinVoucherBot) 服务来了，这是一个 
 
 ### 订单准备
 
-点击命令菜单中的 _/购买
+点击命令菜单中的 _/购买_
 
 ![image](assets/it/03.webp)
 
-出现了许多机会，但我们选择了_BTC 代金券_____________________________。
+出现了许多机会，但我们选择了_BTC 代金券_。
 
 ![image](assets/it/04.webp)
 

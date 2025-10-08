@@ -145,9 +145,9 @@ Tämä Interface kertoo tämän solmun Address-yhteyden: se on muotoa `pubkey@ip
 
 
 
-- Saapuva suhdeluku**: Määrä, jonka solmu veloittaa sinua jokaisesta vastaanottamastaan miljoonasta Satoshi:sta valitusta kanavasta riippuen.
+- **Saapuva suhdeluku**: Määrä, jonka solmu veloittaa sinua jokaisesta vastaanottamastaan miljoonasta Satoshi:sta valitusta kanavasta riippuen.
 - Suhdeluku (miljoonasosaa)** : joka kuvaa Satoshi:n määrää miljoonaa yksikköä kohti, jonka solmu veloittaa sinulta, kun päätät suorittaa maksun jonkin sen kanavan kautta. Oletetaan, että päätät maksaa `10_000 Sats`:n suuruisen maksun kanavan kautta, jonka ppm-suhde on `500 Sats`, sinun on maksettava solmulle `10_000 * 500 / 1_000_000` satosheja, mikä vastaa `5 Sats`.
-- [HTLC] (https://planb.network/resources/glossary/HTLC) enimmäismäärä** : Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
+- **[HTLC](https://planb.network/resources/glossary/HTLC) enimmäismäärä**: Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
 
 
 
@@ -172,7 +172,7 @@ Osio **Suljetut kanavat** ryhmittelee kaikki solmun entiset kanavat suljetun tyy
 
 
 
-- Molemminpuolinen sulkeminen**: edustaa molempien osapuolten suostumusta, jotka allekirjoittavat yksityisellä avaimellaan tapahtuman, joka merkitsee kanavan sulkemista ja saldojen jakamista sen sisällä
+- **Molemminpuolinen sulkeminen**: edustaa molempien osapuolten suostumusta, jotka allekirjoittavat yksityisellä avaimellaan tapahtuman, joka merkitsee kanavan sulkemista ja saldojen jakamista sen sisällä
 - **Pakkosulkeminen**: tarkoittaa kanavan yhden osan äkillistä, yksipuolista sulkemista. Tällaista sulkemista ei suositella, koska Lightning Network on rangaistukseen perustuva protokolla: kun yrität huijata kanavan saldoa, vaarana on, että menetät koko käytettävissä olevan saldosi kyseisessä kanavassa.
 
 

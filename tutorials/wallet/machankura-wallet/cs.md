@@ -254,7 +254,7 @@ Postup je jednoduchý:
 
 
 - Zakoupíte si poukaz na pevně stanovenou částku;
-- 16místný** kód obdržíte e-mailem nebo na malém štítku Invoice.
+- 16místný **kód** obdržíte e-mailem nebo na malém štítku Invoice.
 
 
 
@@ -414,7 +414,7 @@ Jak na to:
 
 
 
-Poté vám bot zašle šestimístný** kód, který musíte zadat, a poté si zvolte své uživatelské jméno. Po aktualizaci uživatelského jména se vraťte do nabídky a využijte možnosti posílat a přijímat bitcoiny prostřednictvím Machankura.
+Poté vám bot zašle **šestimístný kód**, který musíte zadat, a poté si zvolte své uživatelské jméno. Po aktualizaci uživatelského jména se vraťte do nabídky a využijte možnosti posílat a přijímat bitcoiny prostřednictvím Machankura.
 
 
 

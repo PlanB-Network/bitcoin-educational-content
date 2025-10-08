@@ -116,11 +116,11 @@ Uhejeje kwinjira, uzobona umurongo wo kugenderamwo hejuru ya Interface ufise: "*
 
 
 
-- Ubucuruzi**: "*classic*" isoko aho ushobora gushiramwo amategeko yo kugura no kugurisha amafaranga y'amahera (harimwo Bitcoin);
-- OTC**: Over-The-Counter Serivisi yo gucuruza ibitabu vyinshi ataco uhinduye n’uwundi mukinyi, hanze y’ibitabu vy’amategeko ya bose;
-- Infashanyo**: Akarere kagenewe gutanga inguzanyo n’amahera y’inyuma;
-- Ivyimburwa**: Igice c’ivy’ivy’imbere (ivy’imbere, n’ibindi), bigenewe abacuruzi bazi utuntu n’utundi;
-- P2P**: Iguha uburenganzira bwo kugura canke kugurisha ama cryptos ku bandi bakoresha ku buryo bw’urunganwe.
+- **Ubucuruzi**: "*classic*" isoko aho ushobora gushiramwo amategeko yo kugura no kugurisha amafaranga y'amahera (harimwo Bitcoin);
+- **OTC**: Over-The-Counter Serivisi yo gucuruza ibitabu vyinshi ataco uhinduye n'uwundi mukinyi, hanze y'ibitabu vy'amategeko ya bose;
+- **Infashanyo**: Akarere kagenewe gutanga inguzanyo n'amahera y'inyuma;
+- **Ivyimburwa**: Igice c'ivy'ivy'imbere (ivy'imbere, n'ibindi), bigenewe abacuruzi bazi utuntu n'utundi;
+- **P2P**: Iguha uburenganzira bwo kugura canke kugurisha ama cryptos ku bandi bakoresha ku buryo bw'urunganwe.
 
 
 Ku gukoresha bisanzwe (kugura/kugurisha bitcoins, gushiramwo/gukura n'ugucungera amahera), uzokoresha cane cane urupapuro rwa "*Gucuruza*", hamwe n'ibice "*Wallet*", "*Gushiramwo*" na "*Gukura*".

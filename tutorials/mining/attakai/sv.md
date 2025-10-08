@@ -36,7 +36,7 @@ Vissa företag har kommit på idén att samla behovet av datorkraft och uppvärm
 > Värmen från din dator är inte bortkastad om du behöver värma upp ditt hem. Om du använder elvärme där du bor, är värmen från din dator inte bortkastad. Det kostar samma sak om du generate denna värme med din dator. Om du har ett billigare värmesystem än elvärme är det bara kostnadsskillnaden som är slöseri. Om det är sommar och du använder luftkonditionering är det dubbelt så mycket.
 > Bitcoin Mining bör ske där det är billigare. Kanske blir det där klimatet är Cold och där uppvärmningen är elektrisk, som Mining blir gratis.
 
-_Som Satoshi Nakamoto sa den 8 augusti 2010
+**Som Satoshi Nakamoto sa den 8 augusti 2010**
 
 
 Bitcoin och dess Proof of Work sticker ut eftersom de automatiskt justerar Mining-svårigheten baserat på mängden databehandling som utförs av hela nätverket, denna mängd kallas Hashrate och uttrycks i hashes per sekund. Idag uppskattas den till 280 Exahashes per sekund, eller 280 miljarder miljarder hashes per sekund. Denna Hashrate representerar arbete och därmed en mängd förbrukad energi. Ju högre Hashrate, desto högre blir svårighetsgraden och vice versa. En Bitcoin Miner kan således aktiveras eller avaktiveras när som helst utan att nätverket påverkas, till skillnad från radiatorer/servrar som måste vara stabila för att kunna erbjuda sina tjänster. Miner belönas för det arbete som utförs i förhållande till andras arbete, oavsett hur litet detta deltagande kan vara.

@@ -324,7 +324,7 @@ Nunchuk zeigt Ihnen eine Reihe von Möglichkeiten, die größtenteils mit den Di
 
 
 
-In diesem Leitfaden werden wir eine _Hot Wallet und eine _Benutzerdefinierte Brieftasche_ erstellen, indem wir die Details erläutern.
+In diesem Leitfaden werden wir eine _Hot Wallet_ und eine _Benutzerdefinierte Brieftasche_ erstellen, indem wir die Details erläutern.
 
 
 Beginnen wir mit _Custom wallet_.

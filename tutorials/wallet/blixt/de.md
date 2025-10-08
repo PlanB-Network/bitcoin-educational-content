@@ -481,7 +481,7 @@ Ich würde für diesen Abschnitt Folgendes empfehlen:
 ### FALL 1 - SYNCHRONISIERUNGSPROBLEME
 
 
-"Mein Blixt wird nicht synchronisiert... Mein Blixt zeigt den Kontostand nicht an... Mein Blixt kann keine Kanäle öffnen... Ich habe versucht, es auf einem anderen Gerät wiederherzustellen... etc_"
+"Mein Blixt wird nicht synchronisiert... Mein Blixt zeigt den Kontostand nicht an... Mein Blixt kann keine Kanäle öffnen... Ich habe versucht, es auf einem anderen Gerät wiederherzustellen... etc."
 
 
 All diese Probleme beginnen damit, dass IHR GERÄT NICHT RICHTIG SYNCHRONISIERT. Bitte verstehen Sie diesen wichtigen Aspekt: Blixt ist ein mobiler LND-Knoten, der Neutrino zum Synchronisieren/Lesen der Blöcke verwendet.
@@ -555,7 +555,7 @@ Es besteht ein Bedarf an mehr Neutrino-Servern in der LATAM-Region, um eine bess
 ### FALL 2 - SYNCHRONISIERUNG NIE BEENDEN
 
 
-"_Mein Blixt hat eine gute Verbindung mit dem Neutrino-Server, aber die Synchronisierung bleibt stecken."
+"_Mein Blixt hat eine gute Verbindung mit dem Neutrino-Server, aber die Synchronisierung bleibt stecken._"
 
 
 #### Zeit-Server

@@ -84,7 +84,7 @@ Picocrypt **iraremereye cane**, ipima **3 MB** gusa, kandi ntikeneye gushirwako:
 
 
 
-- XChaCha20** ubuhinga bwo gushikiriza amakuru
+- **XChaCha20** ubuhinga bwo gushikiriza amakuru
 - Urufunguzo rwo guca mu nzira **Argon2**
 
 
@@ -159,11 +159,11 @@ Imbere y'uko tuvuga ivyerekeye gusobanura amakuru, ng'aya amakuru yerekeye bimwe
 
 
 
-- Uburyo bwa Paranoid**: ukoreshe urugero rwo hejuru rw’umutekano rutangwa na Picocrypt. Ico gikoresho kizokoresha ubuhinga bwinshi bwo gupfuka amakuru (XChaCha20 na Serpent) na HMAC-SHA3 aho gukoresha BLAKE2b kugira ngo amakuru yemezwe.
-- Reed-Solomon**: gushiramwo *Reed-Solomon* amakode yo gukosora amakosa kugira ngo bishobore gukosora amakosa ku makuru yononekaye. Ivyo bigufasha gushigikira urugero rw’ibiturire ruri hafi 3% rwa dosiye yawe.
-- Gabanya ibice** canke **bigabanye ibice vyinshi**: nimba uriko urapfuka dosiye nini, ushobora gusaba Picocrypt kuyigabanya mu bice vyinshi. Ivyo bishobora gutuma iyo dosiye yoroha kuyirungika.
-- Gufatanya amadosiye** canke **Gufata amadosiye**: gufatanya amadosiye kugira ngo ugabanye ubunini bw'amadosiye yashizwemwo amakuru.
-- Dosiye zasimbujwe** canke **Fichiers supprimés**: gukuraho dosiye z'inkomoko kugira ngo ugume ufise verisiyo yashizwemwo gusa
+- **Uburyo bwa Paranoid**: ukoreshe urugero rwo hejuru rw'umutekano rutangwa na Picocrypt. Ico gikoresho kizokoresha ubuhinga bwinshi bwo gupfuka amakuru (XChaCha20 na Serpent) na HMAC-SHA3 aho gukoresha BLAKE2b kugira ngo amakuru yemezwe.
+- **Reed-Solomon**: gushiramwo *Reed-Solomon* amakode yo gukosora amakosa kugira ngo bishobore gukosora amakosa ku makuru yononekaye. Ivyo bigufasha gushigikira urugero rw'ibiturire ruri hafi 3% rwa dosiye yawe.
+- **Gabanya ibice** canke **bigabanye ibice vyinshi**: nimba uriko urapfuka dosiye nini, ushobora gusaba Picocrypt kuyigabanya mu bice vyinshi. Ivyo bishobora gutuma iyo dosiye yoroha kuyirungika.
+- **Gufatanya amadosiye** canke **Gufata amadosiye**: gufatanya amadosiye kugira ngo ugabanye ubunini bw'amadosiye yashizwemwo amakuru.
+- **Dosiye zasimbujwe** canke **Fichiers supprimés**: gukuraho dosiye z'inkomoko kugira ngo ugume ufise verisiyo yashizwemwo gusa
 
 
 

@@ -33,7 +33,7 @@ U ovom vodiču ćemo pogledati 3 načina korišćenja **Watchtower** :
 
 
 
-*Ovaj vodič je preuzet iz [zvanične LND dokumentacije](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Moguće je da su napravljene neke izmene u originalnoj verziji.
+*Ovaj vodič je preuzet iz [zvanične LND dokumentacije](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Moguće je da su napravljene neke izmene u originalnoj verziji.*
 
 
 
@@ -53,7 +53,7 @@ Imajte na umu da smo odlučili da u ovom izdanju implementiramo ograničen skup 
 
 
 
-napomena: za sada, osmatračnice čuvaju samo `to_local` i `to_remote` izlaze opozvanih obaveza; čuvanje HTLC izlaza će biti implementirano u budućoj verziji, jer se protokol može proširiti da uključi dodatne podatke o potpisu u šifrovane blokove._
+napomena: za sada, osmatračnice čuvaju samo `to_local` i `to_remote` izlaze opozvanih obaveza; čuvanje HTLC izlaza će biti implementirano u budućoj verziji, jer se protokol može proširiti da uključi dodatne podatke o potpisu u šifrovane blokove.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-napomena: javni ključ Watchtower razlikuje se od javnog ključa čvora `LND`. Za sada, on deluje kao "Soft lista dozvoljenih", jer korisnici moraju znati javni ključ Watchtower da bi ga koristili kao rezervnu opciju, dok se ne razviju napredniji mehanizmi za liste dozvoljenih. Preporučujemo da NE otkrivate ovaj javni ključ javno, osim ako niste spremni da izložite svoj Watchtower celom Internetu._
+napomena: javni ključ Watchtower razlikuje se od javnog ključa čvora `LND`. Za sada, on deluje kao "Soft lista dozvoljenih", jer korisnici moraju znati javni ključ Watchtower da bi ga koristili kao rezervnu opciju, dok se ne razviju napredniji mehanizmi za liste dozvoljenih. Preporučujemo da **NE** otkrivate ovaj javni ključ javno, osim ako niste spremni da izložite svoj Watchtower celom Internetu.
 
 
 
@@ -337,13 +337,13 @@ The Eye of Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) je ne
 
 
 
-- teos**: uključuje komandnu liniju Interface (CLI) i osnovne serverske funkcije Watchtower. Dve binarne datoteke - **teosd** i **teos-CLI** - se proizvode kada se ovaj _crate_ kompajlira.
+- **teos**: uključuje komandnu liniju Interface (CLI) i osnovne serverske funkcije Watchtower. Dve binarne datoteke - **teosd** i **teos-CLI** - se proizvode kada se ovaj _crate_ kompajlira.
 
 
 
 
 
-- teos-common**: uključuje zajedničku funkcionalnost za server i klijenta (korisno za kreiranje klijenta).
+- **teos-common**: uključuje zajedničku funkcionalnost za server i klijenta (korisno za kreiranje klijenta).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: za RPC zahteve
+- **server**: za RPC zahteve
 
 
 
 
 
-- rpcuser** i **rpcpassword**: autentifikacija RPC klijenata na server
+- **rpcuser** i **rpcpassword**: autentifikacija RPC klijenata na server
 
 
 
 
 
-- regtest**: nije obavezno, ali korisno ako planirate razvoj.
+- **regtest**: nije obavezno, ali korisno ako planirate razvoj.
 
 
 
@@ -489,13 +489,13 @@ U meniju "**Watchtower**" dostupne su dve opcije:
 
 
 
-- Watchtower Service**: ova opcija vam omogućava da upravljate Watchtower, tj. servisom koji nadgleda kanale drugih čvorova kako bi otkrio bilo kakav pokušaj prevare. U slučaju proboja, vaš Watchtower objavljuje transakciju na Blockchain, omogućavajući korisnicima da povrate svoja zaključana sredstva. Kada se aktivira, URI vašeg Watchtower se pojavljuje i može se preneti drugim čvorovima kako bi ga mogli dodati svom Watchtower klijentu;
+- **Watchtower Service**: ova opcija vam omogućava da upravljate Watchtower, tj. servisom koji nadgleda kanale drugih čvorova kako bi otkrio bilo kakav pokušaj prevare. U slučaju proboja, vaš Watchtower objavljuje transakciju na Blockchain, omogućavajući korisnicima da povrate svoja zaključana sredstva. Kada se aktivira, URI vašeg Watchtower se pojavljuje i može se preneti drugim čvorovima kako bi ga mogli dodati svom Watchtower klijentu;
 
 
 
 
 
-- Watchtower Klijent**: ova opcija vam omogućava povezivanje sa spoljnim osmatračnicama kako biste zaštitili svoje kanale. Kada se aktivira, možete dodati Watchtower usluge kojima će vaš čvor prenositi neophodne informacije o svojim kanalima. Ove osmatračnice će zatim pratiti njihov status i intervenisati u slučaju pokušaja prevare.
+- **Watchtower Klijent**: ova opcija vam omogućava povezivanje sa spoljnim osmatračnicama kako biste zaštitili svoje kanale. Kada se aktivira, možete dodati Watchtower usluge kojima će vaš čvor prenositi neophodne informacije o svojim kanalima. Ove osmatračnice će zatim pratiti njihov status i intervenisati u slučaju pokušaja prevare.
 
 
 

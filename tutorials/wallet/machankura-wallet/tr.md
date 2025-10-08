@@ -37,7 +37,7 @@ Genellikle logonun altında görünen **8333.mobi** ince bir selamdır. Gerçekt
 
 
 
-.mobi** alanı, USSD aracılığıyla temel telefonlarda çalışan mobil hizmetler için tasarlanmıştır. Bu nedenle **8333.mobi** Machankura çözümünün özel özelliklerini özetlemektedir.
+**.mobi** alanı, USSD aracılığıyla temel telefonlarda çalışan mobil hizmetler için tasarlanmıştır. Bu nedenle **8333.mobi** Machankura çözümünün özel özelliklerini özetlemektedir.
 
 
 
@@ -239,7 +239,7 @@ Başka bir Lightning Wallet'den bitcoin almanın yanı sıra, Machankura Wallet'
 
 
 
-**Azteco** ve **Flash Group**, Bitcoin **kuponları**, yani bir Exchange platformundan geçmeden Bitcoin elde etmek için çevrimiçi olarak veya satıcılardan satın alabileceğiniz ön ödemeli kupon hizmetleri sunan iki şirkettir. Bu kuponlar **hediye kartları** gibi çalışır. On-Chain** ve **Lightning** kuponları vardır.
+**Azteco** ve **Flash Group**, Bitcoin **kuponları**, yani bir Exchange platformundan geçmeden Bitcoin elde etmek için çevrimiçi olarak veya satıcılardan satın alabileceğiniz ön ödemeli kupon hizmetleri sunan iki şirkettir. Bu kuponlar **hediye kartları** gibi çalışır. **On-Chain** ve **Lightning** kuponları vardır.
 
 
 

@@ -76,10 +76,10 @@ Iryo koraniro rero rigaragaza ibikorwa vyaryo nyamukuru biciye ku rutonde rw’i
 
 
 
-- Ikete ry’ukwishura ritagira umurongo**: Abakoresha barashobora kwakira amahera y’i Bitcoin n’igihe porogarama ifunze, bikaba vyemeza ko ari ukwizigirwa kandi ko bimeze neza.
-- Amaderesi ya Lightning atagira ububiko**: Lipa ubu irashigikira aderesi za Lightning zitagira ububiko, igatuma ubuzima bwite n’umutekano bikomera mu guha abakoresha ububasha bwose ku bitcoins zabo.
-- Gucungera amakuru y’isesengura**: Kubera ko uguseruka n’ibanga ari vyo bihambaye cane, abakoresha barashobora kubona ubwoko bw’amakuru yashizwe hamwe no guhitamwo ivyo bakunda gusangira.
-- Wohereze biciye ku nimero ya telefone**: Nta maderesi akenewe - uhitemwo gusa umuntu wo guhamagara, winjize amahera, hanyuma wohereze ama bitcoins ku nimero yabo ya telefone.
+- **Ikete ry'ukwishura ritagira umurongo**: Abakoresha barashobora kwakira amahera y'i Bitcoin n'igihe porogarama ifunze, bikaba vyemeza ko ari ukwizigirwa kandi ko bimeze neza.
+- **Amaderesi ya Lightning atagira ububiko**: Lipa ubu irashigikira aderesi za Lightning zitagira ububiko, igatuma ubuzima bwite n'umutekano bikomera mu guha abakoresha ububasha bwose ku bitcoins zabo.
+- **Gucungera amakuru y'isesengura**: Kubera ko uguseruka n'ibanga ari vyo bihambaye cane, abakoresha barashobora kubona ubwoko bw'amakuru yashizwe hamwe no guhitamwo ivyo bakunda gusangira.
+- **Wohereze biciye ku nimero ya telefone**: Nta maderesi akenewe - uhitemwo gusa umuntu wo guhamagara, winjize amahera, hanyuma wohereze ama bitcoins ku nimero yabo ya telefone.
 
 
 Iryo koraniro kandi ryungukira ku gutera imbere gukomeza mu bijanye n’ugushikama, umutekano n’ukwizigirwa, kugira ngo umuntu ashobore gukoresha neza.
@@ -96,10 +96,10 @@ Interface ya Lipa itunganijwe hirya no hino y’ibice 4 bihambaye bishobora gush
 
 
 
-- Inzu**: Igaragaza uburinganire bwawe n'amateka y'ibikorwa vyawe
-- Scanner**: Igufasha gucapura amakode ya QR kugira ngo wishyure
-- Ikarata**: Igaragaza ikarata y'ubucuruzi bwemeza Bitcoin mu karere kawe
-- Amagenamiterere**: Ushobora gushika ku mategeko y'ikoreshwa, ububiko n'ivyo ukunda
+- **Inzu**: Igaragaza uburinganire bwawe n'amateka y'ibikorwa vyawe
+- **Scanner**: Igufasha gucapura amakode ya QR kugira ngo wishyure
+- **Ikarata**: Igaragaza ikarata y'ubucuruzi bwemeza Bitcoin mu karere kawe
+- **Amagenamiterere**: Ushobora gushika ku mategeko y'ikoreshwa, ububiko n'ivyo ukunda
 
 
 Iyindi menyu ishobora gushikwako mu gukura hasi igicapo c'intango:

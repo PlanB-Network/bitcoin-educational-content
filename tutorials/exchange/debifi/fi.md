@@ -64,25 +64,25 @@ Ennen kuin näytän sinulle vaiheittain, miten lainaaminen Debifillä onnistuu, 
 
 
 
-- Lainanmyöntämispalkkiot** ovat kertaluonteisia kuluja, jotka peritään lainan myöntämisen yhteydessä ja jotka lasketaan prosentteina lainamäärästä. Näillä maksuilla katetaan hallinto-, toiminta- ja johtamiskustannukset.
+- **Lainanmyöntämispalkkiot** ovat kertaluonteisia kuluja, jotka peritään lainan myöntämisen yhteydessä ja jotka lasketaan prosentteina lainamäärästä. Näillä maksuilla katetaan hallinto-, toiminta- ja johtamiskustannukset.
 
 
 
 
 
-- Vakuus** on omaisuus, jonka talletat lainan vakuudeksi. Debifin tapauksessa vakuus on Bitcoin (BTC), jonka lainanottaja tallettaa Multisig 3/4:ään.
+- **Vakuus** on omaisuus, jonka talletat lainan vakuudeksi. Debifin tapauksessa vakuus on Bitcoin (BTC), jonka lainanottaja tallettaa Multisig 3/4:ään.
 
 
 
 
 
-- Multisig escrow (3/4)** -järjestelmä on suojattu talletusmekanismi, jossa lainanottajan bitcoinit sijoitetaan usean allekirjoituksen Address-järjestelmään. Neljällä (4) osapuolella on kullakin oma avain (lainanottaja, lainanantaja, Debifi, riippumaton kolmas osapuoli). Varojen siirtämiseen tarvitaan vähintään 3 allekirjoitusta neljästä.
+- **Multisig escrow (3/4)** -järjestelmä on suojattu talletusmekanismi, jossa lainanottajan bitcoinit sijoitetaan usean allekirjoituksen Address-järjestelmään. Neljällä (4) osapuolella on kullakin oma avain (lainanottaja, lainanantaja, Debifi, riippumaton kolmas osapuoli). Varojen siirtämiseen tarvitaan vähintään 3 allekirjoitusta neljästä.
 
 
 
 
 
-- Stabiili kolikko** on kryptovaluutta, jonka arvo on sidottu vakaaseen omaisuuserään (esim. Yhdysvaltain dollariin), jolloin vältytään Bitcoin:n aiheuttamalta volatiliteetilta. Esimerkiksi 1 USDC on aina ~1 dollarin arvoinen, koska sen takana on fiat-varantoja.
+- **Stabiili kolikko** on kryptovaluutta, jonka arvo on sidottu vakaaseen omaisuuserään (esim. Yhdysvaltain dollariin), jolloin vältytään Bitcoin:n aiheuttamalta volatiliteetilta. Esimerkiksi 1 USDC on aina ~1 dollarin arvoinen, koska sen takana on fiat-varantoja.
 
 
 

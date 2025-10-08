@@ -160,7 +160,7 @@ Bu bilgisayara en az 8 GB'lık bir USB anahtarı takın, ardından [Balena Etche
 
 
 
-Ubuntu ana ekranı görünür. "Ubuntu'yu Dene veya Kur*" öğesini seçin.
+Ubuntu ana ekranı görünür. **"Ubuntu'yu Dene veya Kur"** öğesini seçin.
 
 
 
@@ -1040,7 +1040,7 @@ Endişelenmeyin: günlük ekranını durdurmak hizmetleri durdurmaz. Docker arka
 
 
 
-### 6.5. İlk Blok İndirmeyi* (IBD) Anlama
+### 6.5. İlk Blok İndirmeyi (IBD) Anlama
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Lütfen bu Address'i kesinlikle gizli tutun
+⚠️ **Lütfen bu Address'i kesinlikle gizli tutun**
 
 
 
@@ -1426,7 +1426,7 @@ Herhangi bir ağdaki herhangi bir makineden (uzaktan bile) tarayıcınıza eriş
 
 
 
-⚠️ **Lütfen bu Address'i kesinlikle gizli tutun
+⚠️ **Lütfen bu Address'i kesinlikle gizli tutun**
 
 
 

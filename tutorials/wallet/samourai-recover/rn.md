@@ -48,7 +48,7 @@ Ku bijanye n’ibikoresho vy’umuntu ku giti ciwe, vyose birakora mu buryo busa
 
 Ivyiyumviro vyavuzwe kuri Twitter vyerekanye ko ubuzima bwite butangwa n’ugucuruza kwa Stonewall ubu bushobora kugabanywa. Agaciro kongerewe k’isoko rya Stonewall riri mu kuba ridashobora gutandukanywa n’isoko rya Stonewall x2 mu bijanye n’imiterere. Iyo umusesanguzi ahuye n’ico kigereranyo kidasanzwe, ntashobora kumenya nimba ari Stonewall isanzwe ifise umukoresha umwe canke Stonewall x2 ikoresha abakoresha babiri. Ariko nk’uko tuzobibona mu ngingo zikurikira, gukora ibikorwa vya Stonewall x2 vyaciye bigorana cane kubera Soroban itaboneka. Bamwe rero biyumvira ko umuhinga mu vy’ugusesangura yoshobora ubu kwiyumvira yuko igikorwa cose co gukorana n’ico gice ari uruhome rw’amabuye rusanzwe. Ku bwanje, ivyo vyiyumviro ntabisangiye. Naho amafaranga y’ubudandaji ya Stonewall x2 ashobora kuba ari make (kandi nibwira ko yari asanzwe ariho imbere y’iki kintu), kuba agishoboka birashobora gutuma isesengura ryose rishingiye ku ciyumviro c’uko atari ryo ritagira akamaro.
 
-**[-> Menya vyinshi ku bijanye n'amafaranga y'uruhome rw'amabuye.]
+**[-> Menya vyinshi ku bijanye n'amafaranga y'uruhome rw'amabuye.]**
 
 Ku bijanye na Ricochet, sinari nshoboye kumenya nimba iyo serivisi ikiriko irakora, kubera ko ntagira Dojo kuri Testnet, kandi ndahitamwo kutagira ingorane zo gukoresha `100 000 Sats` ku Wallet yoshobora kugenzurwa n’ubutegetsi. Niba wararonse akaryo ko kugerageza iki gikoresho vuba, ndagutumiye ngo unyandikire kugira ngo dushobore guhindura iyi nkuru.
 
@@ -78,7 +78,7 @@ Inyuma y’ibipimo vyinshi, bisa n’uko Soroban atagikora. Kugira ngo ivyo biko
 **[-> Menya vyinshi ku bijanye n'ibikorwa vya Stonewall x2.]**
 
 
-**[-> Menya vyinshi ku bijanye n'ibikorwa vya Stowaway.]
+**[-> Menya vyinshi ku bijanye n'ibikorwa vya Stowaway.]**
 
 
 Naho Whirlpool, iyo protocole isa n’itagikora, mbere no ku bakoresha bafise Dojo yabo. Nariko ndakurikirana RoninDojo yanje muri iyi misi iheze kandi ngerageza gukora ibintu bimwe bimwe vy’ishimikiro, ariko Whirlpool CLI ntiyashoboye kwifatanya kuva server ihagarara.

@@ -36,10 +36,10 @@ I en Interface är Alias Vault:
 
 
 
-- Fri och öppen källkod**
-- Password Manager**, för att lagra alla komplexa lösenord. Med hjälp av webbläsartillägget slutför lösenordshanteraren inloggningar på webbplatser
-- 2FA**, för att stödja tvåfaktorsautentisering
-- Aliashanterare med inbäddad e-postserver**: Alias Vault skapar inte alias som vidarebefordrar e-post till en användares brevlåda, utan skapar faktiska alter-egon, kompletta med förnamn, efternamn, kön, användarnamn, lösenord och födelsedag (om denna information krävs).
+- **Fri och öppen källkod**
+- **Password Manager**, för att lagra alla komplexa lösenord. Med hjälp av webbläsartillägget slutför lösenordshanteraren inloggningar på webbplatser
+- **2FA**, för att stödja tvåfaktorsautentisering
+- **Aliashanterare med inbäddad e-postserver**: Alias Vault skapar inte alias som vidarebefordrar e-post till en användares brevlåda, utan skapar faktiska alter-egon, kompletta med förnamn, efternamn, kön, användarnamn, lösenord och födelsedag (om denna information krävs).
 
 
 

@@ -22,7 +22,7 @@ Kaksitekijätodennuksen mahdollistavan U2F:n lisäksi Trezorit tukevat myös FID
 
 
 
-Salasanattoman* toiminnallisuuden lisäksi FIDO2 mahdollistaa myös kaksitekijätodennuksen samalla tavalla kuin U2F.
+Salasanattoman toiminnallisuuden lisäksi FIDO2 mahdollistaa myös kaksitekijätodennuksen samalla tavalla kuin U2F.
 
 
 

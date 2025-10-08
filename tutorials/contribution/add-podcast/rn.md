@@ -80,24 +80,24 @@ Akira ibisobanuro vyo kwuzuza kuri buri kibanza:
 
 
 
-- `izina`**: Erekana izina rya podcast yawe.
-- `host`**: Nimushire ku rutonde amazina canke amazina y'uruyeri y'abavuga canke umurongozi w'ivyo biganiro. Izina ryose rikwiye gutandukanywa n’agacamuzingi.
-- `ururimi`**: Erekana kode y'ururimi rw'ururimi ruvugwa muri podcast yawe. Akarorero, ku congereza, menya `en`, ku gitaliyano `it`...
+- **`izina`**: Erekana izina rya podcast yawe.
+- **host**: Nimushire ku rutonde amazina canke amazina y'uruyeri y'abavuga canke umurongozi w'ivyo biganiro. Izina ryose rikwiye gutandukanywa n'agacamuzingi.
+- **`ururimi`**: Erekana kode y'ururimi rw'ururimi ruvugwa muri podcast yawe. Akarorero, ku congereza, menya `en`, ku gitaliyano `it`...
 
 
 
-- `amahuza`**: Tanga amahuza ku birimwo. Ufise uburyo bubiri:
+- **`amahuza`**: Tanga amahuza ku birimwo. Ufise uburyo bubiri:
  - `ikiganiro`: ihuriro ry'ikiganiro cawe,
  - `twitter`: urubuga rwo kuri Twitter rw'ivyo biganiro canke ishirahamwe ribikora,
  - `urubuga`: uruja n'uruza rw'urubuga rwa podcast canke ishirahamwe riyikora.
 
 
 
-- `insobanuro`**: Wongereko paragarafu ngufi idondora podcast yawe. Insobanuro itegerezwa kuba mu rurimi rumwe n'urwo rwerekanwa mu `ururimi:` umwanya.
+- **`insobanuro`**: Wongereko paragarafu ngufi idondora podcast yawe. Insobanuro itegerezwa kuba mu rurimi rumwe n'urwo rwerekanwa mu `ururimi:` umwanya.
 
 
 
-- `tags`**: Wongereko ama tags abiri ajanye na podcast yawe. Ingero:
+- **`tags`**: Wongereko ama tags abiri ajanye na podcast yawe. Ingero:
     - 'Bitcoin'
     - 'ubuhinga`
     - `ubutunzi`
@@ -105,7 +105,7 @@ Akira ibisobanuro vyo kwuzuza kuri buri kibanza:
 
 
 
-- `abaterankunga`**: Vuga ID yawe y'umuterankunga nimba ufise.
+- **`abaterankunga`**: Vuga ID yawe y'umuterankunga nimba ufise.
 
 
 Akarorero, dosiye yawe ya YAML yoshobora gusa n'iyi:

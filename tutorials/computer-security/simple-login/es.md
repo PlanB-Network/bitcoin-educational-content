@@ -205,7 +205,7 @@ En cuanto a Simple Login, esta herramienta tiene las siguientes características
 
 - Aplicación móvil (también de F-Droid) y extensión de navegador, para gestionar alias en cualquier situación;
 - Autenticación de dos factores para cada nuevo seudónimo, lo que aumenta el grado de independencia del propio servicio;
-- Compatibilidad con PGP (para usuarios _Premium);
+- Compatibilidad con PGP (para usuarios _Premium_);
 - Creación sencilla de todo tipo de alias (personalizados, aleatorios y UUID);
 - Entre los planes gratuitos del sector, la posibilidad de utilizar alias con más buzones "oficiales". Otros competidores limitan a uno solo.
 

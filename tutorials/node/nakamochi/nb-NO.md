@@ -92,7 +92,7 @@ Når Nakamochi er satt opp og koblet til en nodeadministrasjonsapp, kan du begyn
 
 ![image](assets/en/06.webp)
 
-_ZEUS Skjermbilde_ _ZEUS
+**ZEUS Skjermbilde ZEUS**
 
 For mer informasjon: [Kanaler | Zeus-dokumentasjon](https://docs.zeusln.app/)
 
@@ -110,7 +110,7 @@ For mer informasjon: [Kanaler | Zeus-dokumentasjon](https://docs.zeusln.app/)
 
 ![image](assets/en/07.webp)
 
-_Bitbanana Skjermbilde
+**Bitbanana Skjermbilde**
 
 For mer informasjon: [BitBanana](https://bitbanana.com)
 

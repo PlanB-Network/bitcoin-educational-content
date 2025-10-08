@@ -381,8 +381,8 @@ Il punto esclamativo all'inizio indica che si tratta di un'immagine. Il testo al
 Se desideri creare delle immagini personalizzate, assicurati che abbiano lo stesso formato grafico di Plan ₿ Network per garantire una coerenza visiva:
 
 
-- Font**: Utilizza [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Colori**:
+- **Font**: Utilizza [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Colori**:
  - Arancione: #FF5C00
  - Nero: #000000
  - Bianco: #FFFFFF
@@ -446,4 +446,3 @@ Se desideri apportare modifiche al tuo tutorial dopo aver già presentato la PR,
 - Se la tua PR è già stata unita al branch principale, devi ricominciare il processo creando un nuovo branch e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di Plan ₿ Network prima di procedere.
 
 Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che sostengono il progetto Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
-

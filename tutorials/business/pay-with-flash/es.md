@@ -65,7 +65,7 @@ Dependiendo del Lightning Wallet que estés utilizando, encontrarás las siguien
 
 
 
-- Alby Hub** para monederos Alby Go, la extensión de Alby para tu navegador.
+- **Alby Hub** para monederos Alby Go, la extensión de Alby para tu navegador.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** para conectar la Bitcoin web CoinOS Wallet.
-- Flash Wallet** para la conexión al Flash Wallet.
-- Enlace LN**
+- **Coinos** para conectar la Bitcoin web CoinOS Wallet.
+- **Flash Wallet** para la conexión al Flash Wallet.
+- Enlace LN
 
 
 

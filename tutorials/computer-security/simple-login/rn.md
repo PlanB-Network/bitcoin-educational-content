@@ -205,7 +205,7 @@ Ku bijanye n’ukwinjira mu buryo bworoshe, iki gikoresho gifise ibi bikurikira:
 
 - mobile app (na yo nyene iva kuri F-Droid) n’ivyagutse vy’umucukumbuzi, kugira ngo ushobore gucunga amazina y’ibanga mu buryo bwose;
 - ivyemezo bibiri vy’izina ry’uruyeri rishasha ryose, ivyo bikaba bituma umuntu agira ubwigenge ku bijanye n’igikorwa ubwaco;
-- Infashanyo ya PGP (ku bakoresha _Premium);
+- Infashanyo ya PGP (ku bakoresha _Premium_);
 - irema ryoroshe ry'ubwoko bwose bw'izina ry'ibanga (iry'akamenyero, ry'imburakimazi, na UUID);
 - mu migambi y'ubuntu muri urwo rwego, ubushobozi bwo gukoresha amazina y'ibanga afise amasandugu y'iposita "yemewe" menshi. Abandi bariko barahiganwa bashika kuri umwe gusa.
 

@@ -43,7 +43,7 @@ Alby Cloud is een betaalde dienst [Controleer hun prijzen] (https://albyhub.com/
 
 
 
-- Alby Hub met een bestaand knooppunt :**
+- Alby Hub met een bestaand knooppunt:
 
 
 Als je al een node hebt gehost, bijvoorbeeld op Umbrel of Start9, kan Alby Hub worden gebruikt als een geavanceerde beheer-Interface, op dezelfde manier als ThunderHub of RTL.
@@ -51,7 +51,7 @@ Als je al een node hebt gehost, bijvoorbeeld op Umbrel of Start9, kan Alby Hub w
 
 
 
-- Alby Hub plaatselijke :**
+- Alby Hub plaatselijke:
 
 
 Het is ook mogelijk om Alby Hub rechtstreeks op uw pc te installeren, hoewel deze optie minder praktisch is, omdat uw pc altijd actief moet blijven om op afstand toegang te krijgen tot het Lightning knooppunt. Dit alternatief kan echter geschikt zijn voor uw specifieke behoeften.

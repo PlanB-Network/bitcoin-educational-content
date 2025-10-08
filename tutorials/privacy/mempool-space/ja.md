@@ -286,9 +286,9 @@ Mempoolは、Bitcoinのネットワークインフラ（メインチェーン）
 
 
 
-Lightning**セクションでは、Lightningノード間の既存の接続をすべて表示できます。
+**Lightning**セクションでは、Lightningノード間の既存の接続をすべて表示できます。
 
-The line appears to be correctly formatted already. The ** marker is used to indicate bold text in Markdown, and it appears to be intentionally placed after "Lightning" to bold the word "セクション" (section). However, if the intention was to bold "Lightning" instead, it should be:
+I notice you haven't provided a specific line to fix. Could you please share the Markdown line that needs formatting correction? I'll then apply the rules to balance the markers and return only the corrected version.
 
 **Lightning**セクションでは、Lightningノード間の既存の接続をすべて表示できます。
 

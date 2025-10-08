@@ -130,10 +130,10 @@ Proses penagihannya mirip dengan transaksi konvensional:
 
 
 
-- Masukkan jumlah**: Pada layar pembayaran, masukkan jumlah dalam mata uang lokal (CHF atau EUR). Contoh: untuk kopi seharga 4,50 CHF, masukkan 4,50
-- Generasi Invoice **: Aplikasi ini secara instan mengubah jumlah tersebut menjadi satoshi pada kurs saat ini, dan menghasilkan Lightning Invoice dalam bentuk kode QR
-- Pembayaran pelanggan**: Pelanggan memindai kode QR dengan Wallet Lightning miliknya dan memvalidasi pembayaran
-- Konfirmasi** : Pembayaran dikonfirmasi dalam hitungan detik, dengan tampilan visual keberhasilan
+- **Masukkan jumlah**: Pada layar pembayaran, masukkan jumlah dalam mata uang lokal (CHF atau EUR). Contoh: untuk kopi seharga 4,50 CHF, masukkan 4,50
+- **Generasi Invoice**: Aplikasi ini secara instan mengubah jumlah tersebut menjadi satoshi pada kurs saat ini, dan menghasilkan Lightning Invoice dalam bentuk kode QR
+- **Pembayaran pelanggan**: Pelanggan memindai kode QR dengan Wallet Lightning miliknya dan memvalidasi pembayaran
+- **Konfirmasi**: Pembayaran dikonfirmasi dalam hitungan detik, dengan tampilan visual keberhasilan
 
 
 
@@ -207,11 +207,11 @@ Proses penagihannya mirip dengan transaksi konvensional:
 
 
 
-- Katering**: Bar, restoran, kafe dapat menerima tambahan di Bitcoin dengan manajemen tip
-- Eceran**: Toko kelontong, toko roti untuk memperluas metode pembayaran tanpa biaya tetap
-- Vendor nomaden**: truk makanan, pasar, festival hanya dengan smartphone
-- Acara** : Stand sementara dengan solusi siap pakai
-- Layanan**: Konsultan, pengrajin untuk penagihan satu kali di Bitcoin
+- **Katering**: Bar, restoran, kafe dapat menerima tambahan di Bitcoin dengan manajemen tip
+- **Eceran**: Toko kelontong, toko roti untuk memperluas metode pembayaran tanpa biaya tetap
+- **Vendor nomaden**: truk makanan, pasar, festival hanya dengan smartphone
+- **Acara** : Stand sementara dengan solusi siap pakai
+- **Layanan**: Konsultan, pengrajin untuk penagihan satu kali di Bitcoin
 
 
 

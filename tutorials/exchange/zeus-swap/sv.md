@@ -277,10 +277,10 @@ Varje swap har en unik identifierare med spårning i realtid. Fullständig förl
 
 
 
-- Enkelhet**: Byte med några klick jämfört med manuell kanalmanipulation
-- Icke frihetsberövande**: ingen kundkännedom, inget konto, medel aldrig anförtrodda till en tredje part
-- Transparens**: avgifterna visas tydligt före validering (0,1% till 0,5% + minimiavgift beroende på användartester - kontrollera aktuella avgifter vid varje swap)
-- Mobilintegration**: inbyggd upplevelse i Zeus Wallet
+- **Enkelhet**: Byte med några klick jämfört med manuell kanalmanipulation
+- **Icke frihetsberövande**: ingen kundkännedom, inget konto, medel aldrig anförtrodda till en tredje part
+- **Transparens**: avgifterna visas tydligt före validering (0,1% till 0,5% + minimiavgift beroende på användartester - kontrollera aktuella avgifter vid varje swap)
+- **Mobilintegration**: inbyggd upplevelse i Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Varje swap har en unik identifierare med spårning i realtid. Fullständig förl
 
 
 
-- Utgångstider**: högst 24-48 timmar, misslyckande om Bitcoin inte bekräftas i tid
-- Beloppsgränser**: minst 25 000 Sats, Zeus LSP likviditet varierande beroende på villkor
-- Spårar On-Chain**: HTLC-skript som potentiellt kan identifieras genom Blockchain-analys
-- Bekräftelse krävs**: minst 10 minuter för validering av Bitcoin
+- **Utgångstider**: högst 24-48 timmar, misslyckande om Bitcoin inte bekräftas i tid
+- **Beloppsgränser**: minst 25 000 Sats, Zeus LSP likviditet varierande beroende på villkor
+- **Spårar On-Chain**: HTLC-skript som potentiellt kan identifieras genom Blockchain-analys
+- **Bekräftelse krävs**: minst 10 minuter för validering av Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Varje swap har en unik identifierare med spårning i realtid. Fullständig förl
 
 
 - Kontrollera Bitcoin-adresserna noggrant (kopiera och klistra in rekommenderas)
-- Säkerhetskopiera Zeus Swaps Rescue Key**: ladda ner och förvara återställningsnyckeln på en säker plats
+- **Säkerhetskopiera Zeus Swaps Rescue Key**: ladda ner och förvara återställningsnyckeln på en säker plats
 - Dokument: Contract ID, återbetalning Address, utgångsdatum
 - Använd lämpliga Mining-avgifter för snabb bekräftelse
 
@@ -354,11 +354,11 @@ Zeus Swap använder Boltz backend-teknik, men gör några viktiga förbättringa
 
 
 
-- Interface unified**: inbyggd integration i Zeus Wallet vs Interface webbteknik Boltz
-- WebSocket API**: uppdateringar i realtid jämfört med manuell polling
-- Automatiserad hantering**: automatisk fakturering och Address-hantering
-- Mobilsupport**: endast optimering för smartphones jämfört med datorer
-- Swagger-dokumentation**: komplett REST API för utvecklare
+- **Interface unified**: inbyggd integration i Zeus Wallet vs Interface webbteknik Boltz
+- **WebSocket API**: uppdateringar i realtid jämfört med manuell polling
+- **Automatiserad hantering**: automatisk fakturering och Address-hantering
+- **Mobilsupport**: endast optimering för smartphones jämfört med datorer
+- **Swagger-dokumentation**: komplett REST API för utvecklare
 
 
 

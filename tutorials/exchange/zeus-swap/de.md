@@ -247,7 +247,7 @@ Nach der Bestätigung wird der Tausch automatisch abgeschlossen:
 
 
 
-*Erstellung eines Interface Reverse Swap: 50.000 Sats Lightning → 49.220 Sats On-Chain, wobei Netzgebühren (530 Sats) und Service (250 Sats) deutlich angezeigt werden. Benutzer können entweder manuell einen Bitcoin eingeben, der Address empfängt, oder einen generate automatisch vom Wallet Zeus über die Schaltfläche "generate On-Chain Address"
+*Erstellung eines Interface Reverse Swap: 50.000 Sats Lightning → 49.220 Sats On-Chain, wobei Netzgebühren (530 Sats) und Service (250 Sats) deutlich angezeigt werden. Benutzer können entweder manuell einen Bitcoin eingeben, der Address empfängt, oder einen generate automatisch vom Wallet Zeus über die Schaltfläche "generate On-Chain Address"*
 
 
 
@@ -277,10 +277,10 @@ Jeder Swap hat eine eindeutige Kennung mit Echtzeit-Verfolgung. Vollständige Fo
 
 
 
-- Einfachheit**: Austausch mit ein paar Klicks im Vergleich zur manuellen Kanalmanipulation
-- Non-custodial**: keine KYC, kein Konto, Gelder werden nie einer dritten Partei anvertraut
-- Transparenz**: Gebühren werden vor der Validierung explizit angezeigt (0,1 % bis 0,5 % + Mindestbetrag je nach Nutzertests - aktuelle Gebühren bei jedem Swap überprüfen)
-- Mobile Integration**: native Erfahrung in Zeus Wallet
+- **Einfachheit**: Austausch mit ein paar Klicks im Vergleich zur manuellen Kanalmanipulation
+- **Non-custodial**: keine KYC, kein Konto, Gelder werden nie einer dritten Partei anvertraut
+- **Transparenz**: Gebühren werden vor der Validierung explizit angezeigt (0,1 % bis 0,5 % + Mindestbetrag je nach Nutzertests - aktuelle Gebühren bei jedem Swap überprüfen)
+- **Mobile Integration**: native Erfahrung in Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Jeder Swap hat eine eindeutige Kennung mit Echtzeit-Verfolgung. Vollständige Fo
 
 
 
-- Verfallszeiten**: maximal 24-48h, Ausfall, wenn Bitcoin nicht rechtzeitig bestätigt wird
-- Betragsgrenzen**: mindestens 25.000 Sats, Zeus LSP Liquidität variabel je nach Konditionen
-- Verfolgt On-Chain**: HTLC-Skripte, die möglicherweise durch die Blockchain-Analyse identifiziert werden können
-- Bestätigung erforderlich**: mindestens 10 Minuten für Bitcoin-Validierung
+- **Verfallszeiten**: maximal 24-48h, Ausfall, wenn Bitcoin nicht rechtzeitig bestätigt wird
+- **Betragsgrenzen**: mindestens 25.000 Sats, Zeus LSP Liquidität variabel je nach Konditionen
+- **Verfolgt On-Chain**: HTLC-Skripte, die möglicherweise durch die Blockchain-Analyse identifiziert werden können
+- **Bestätigung erforderlich**: mindestens 10 Minuten für Bitcoin-Validierung
 
 
 
@@ -320,7 +320,7 @@ Jeder Swap hat eine eindeutige Kennung mit Echtzeit-Verfolgung. Vollständige Fo
 
 
 - Prüfen Sie die Bitcoin-Adressen sorgfältig (Kopieren und Einfügen empfohlen)
-- Sichern Sie den Zeus Swaps Rescue Key**: Laden Sie den Wiederherstellungsschlüssel herunter und bewahren Sie ihn an einem sicheren Ort auf
+- **Sichern Sie den Zeus Swaps Rescue Key**: Laden Sie den Wiederherstellungsschlüssel herunter und bewahren Sie ihn an einem sicheren Ort auf
 - Dokument: Contract ID, Erstattung Address, Verfallsdatum
 - Verwenden Sie die entsprechenden Mining-Gebühren für die rechtzeitige Bestätigung
 
@@ -354,11 +354,11 @@ Zeus Swap nutzt die Backend-Technologie von Boltz, bietet aber einige entscheide
 
 
 
-- Interface unified**: native Integration in Zeus Wallet vs Interface Webtechnik Boltz
-- WebSocket API**: Aktualisierungen in Echtzeit gegenüber manueller Abfrage
-- Automatisierte Verwaltung**: automatische Rechnungsstellung und Address-Verwaltung
-- Mobile Unterstützung**: Optimierung nur für Smartphones vs. Desktop
-- Swagger-Dokumentation**: vollständige REST-API für Entwickler
+- **Interface unified**: native Integration in Zeus Wallet vs Interface Webtechnik Boltz
+- **WebSocket API**: Aktualisierungen in Echtzeit gegenüber manueller Abfrage
+- **Automatisierte Verwaltung**: automatische Rechnungsstellung und Address-Verwaltung
+- **Mobile Unterstützung**: Optimierung nur für Smartphones vs. Desktop
+- **Swagger-Dokumentation**: vollständige REST-API für Entwickler
 
 
 

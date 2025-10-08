@@ -27,14 +27,14 @@ description: Ni gute notunganya Watch-only wallet kuri App ya Blockstream?
 
 
 
-- Abatangura**: Abakoresha bipfuza gukurikirana igitabu ca Bitcoin (kenshi gifitaniye isano n’igitabu ca Hardware Wallet) biciye ku buhinga bwo gukoresha telefone ngendanwa busanzwe.
-- Abakoresha bo hagati**: Abantu barondera gucunga ibitabo vy’ugusoma gusa mu gihe bakoresha uburyo bwo gucungera ubuzima bwite nka Tor canke SPV.
-- Abafise Hardware Wallet**: Kugira ngo basuzume amafaranga yabo n’amaderesi yabo ya generate batahuje igikoresho cabo.
-- Ubucuruzi n'amaduka**:
+- **Abatangura**: Abakoresha bipfuza gukurikirana igitabu ca Bitcoin (kenshi gifitaniye isano n'igitabu ca Hardware Wallet) biciye ku buhinga bwo gukoresha telefone ngendanwa busanzwe.
+- **Abakoresha bo hagati**: Abantu barondera gucunga ibitabo vy'ugusoma gusa mu gihe bakoresha uburyo bwo gucungera ubuzima bwite nka Tor canke SPV.
+- **Abafise Hardware Wallet**: Kugira ngo basuzume amafaranga yabo n'amaderesi yabo ya generate batahuje igikoresho cabo.
+- **Ubucuruzi n'amaduka**:
  - Gukurikirana amafaranga yawe kubera intumbero z’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga.
  - Gusuzuma amafaranga yaronse ata kwinjiza imfunguruzo zayo z’ibanga mu buryo bwo kwishura kuri Internet.
  - Gushoboza abakozi gukoresha amaderesi mashasha y’ukwakira generate ata mfunguruzo z’ibanga bafise.
-- Amashirahamwe n’ugufasha abantu benshi**: Kwerekana umubare w’amahera mu buryo buboneka ku batererano ataco wemera ko umuntu ashobora kuronka amahera.
+- **Amashirahamwe n'ugufasha abantu benshi**: Kwerekana umubare w'amahera mu buryo buboneka ku batererano ataco wemera ko umuntu ashobora kuronka amahera.
 
 
 
@@ -56,10 +56,10 @@ description: Ni gute notunganya Watch-only wallet kuri App ya Blockstream?
 
 
 
-- Umutekano**: Ni vyiza cane mu kugenzura igitabo gikinzwe na **Hardware Wallet** ata mfunguruzo z’ibanga zigaragazwa ku gikoresho gihuye.
-- Ivyiza**: Bigufasha kugenzura umubare n'amaderesi mashasha y'abaronka generate utahuje Hardware Wallet.
-- Ibanga**: Rihuye n'amahitamwo nka **Tor** canke **SPV** kugira ngo ugabanye kwisunga abakozi b'abandi.
-- Use cases**: Gukurikirana amafaranga ariko aragenda, gutanga amaderesi yo kwakira amahera, canke kugenzura amafaranga ataco akora ku mfunguruzo z’ibanga.
+- **Umutekano**: Ni vyiza cane mu kugenzura igitabo gikinzwe na **Hardware Wallet** ata mfunguruzo z'ibanga zigaragazwa ku gikoresho gihuye.
+- **Ivyiza**: Bigufasha kugenzura umubare n'amaderesi mashasha y'abaronka generate utahuje Hardware Wallet.
+- **Ibanga**: Rihuye n'amahitamwo nka **Tor** canke **SPV** kugira ngo ugabanye kwisunga abakozi b'abandi.
+- **Use cases**: Gukurikirana amafaranga ariko aragenda, gutanga amaderesi yo kwakira amahera, canke kugenzura amafaranga ataco akora ku mfunguruzo z'ibanga.
 
 
 
@@ -77,7 +77,7 @@ description: Ni gute notunganya Watch-only wallet kuri App ya Blockstream?
 
 
 
-- Uko bikora**: Urufunguzo rwa bose rwagutse ruvuye mu majambo seed biciye mu nzira y’ugushinga intahe (BIP-32). Irema igiti c'uburongozi bw'imfunguruzo za bose z'abana, imwe yose muri zo ishobora guhindurwa mu kwakira Address. Ukoresheje inzira imwe y'ugukura (nk'akarorero `m/44'/0'/0'`) nk'uko Wallet yariko irabonwa, Watch-only wallet itanga amaderesi amwe, bikaba bishoboza amafaranga gukurikirana no guhingura amaderesi mashasha yo kwakira.
+- **Uko bikora**: Urufunguzo rwa bose rwagutse ruvuye mu majambo seed biciye mu nzira y'ugushinga intahe (BIP-32). Irema igiti c'uburongozi bw'imfunguruzo za bose z'abana, imwe yose muri zo ishobora guhindurwa mu kwakira Address. Ukoresheje inzira imwe y'ugukura (nk'akarorero `m/44'/0'/0'`) nk'uko Wallet yariko irabonwa, Watch-only wallet itanga amaderesi amwe, bikaba bishoboza amafaranga gukurikirana no guhingura amaderesi mashasha yo kwakira.
 
 
 
@@ -88,22 +88,22 @@ description: Ni gute notunganya Watch-only wallet kuri App ya Blockstream?
 
 
 - Ubwoko bw'urufunguzo rwa bose rwagutse
-- xpub**: Ikoreshwa ku bitabo vy'Iragi (amaderesi atangura na "1", BIP-44) n'ibitabo vya Taproot (amaderesi atangura na "bc1p", BIP-86).
-- ypub**: Yagenewe amasakoshi y'amahera y'i SegWit (amaderesi atangura na "3", BIP-49).
-- zpub**: Ifatanye n'ibitabo vy'ivya kera vya SegWit (amaderesi atangura na "bc1q", BIP-84).
+- **xpub**: Ikoreshwa ku bitabo vy'Iragi (amaderesi atangura na "1", BIP-44) n'ibitabo vya Taproot (amaderesi atangura na "bc1p", BIP-86).
+- **ypub**: Yagenewe amasakoshi y'amahera y'i SegWit (amaderesi atangura na "3", BIP-49).
+- **zpub**: Ifatanye n'ibitabo vy'ivya kera vya SegWit (amaderesi atangura na "bc1q", BIP-84).
 - Ibindi (tpub, upub, vpub, n’ibindi): Bikoreshwa ku nzira zindi (nka Testnet) canke ingingo ngenderwako zidasanzwe. Nk'akarorero, **tpub** ni iy'urubuga rwa Testnet.
 
 
 
 
 
-- Itandukaniro**: Guhitamwo hagati ya xpub, ypub, canke zpub bivana n'ubwoko bwa Address (iragi, SegWit, Taproot canke SegWit) n'urugero rwa BIP rukoreshwa na Wallet. Suzuma uburyo busabwa n’inyandiko yawe y’inkomoko kugira ngo umenye neza ko ihuye na Blockstream App.
+- **Itandukaniro**: Guhitamwo hagati ya xpub, ypub, canke zpub bivana n'ubwoko bwa Address (iragi, SegWit, Taproot canke SegWit) n'urugero rwa BIP rukoreshwa na Wallet. Suzuma uburyo busabwa n'inyandiko yawe y'inkomoko kugira ngo umenye neza ko ihuye na Blockstream App.
 
 
 
 
 
-- Umutekano n’ibanga**: Urufunguzo rwa bose rwagutse ntirufise akamaro mu bijanye n’umutekano, kuko ntirwemera ko amahera akoreshwa (nta n’umwe ashobora gushika ku rufunguzo rw’ibanga). Ariko rero, irafise akamaro kanini mu bijanye n’ibanga, kuko ihishura aderesi zose za bose be n’amateka y’ibikorwa bijanye navyo.
+- **Umutekano n'ibanga**: Urufunguzo rwa bose rwagutse ntirufise akamaro mu bijanye n'umutekano, kuko ntirwemera ko amahera akoreshwa (nta n'umwe ashobora gushika ku rufunguzo rw'ibanga). Ariko rero, irafise akamaro kanini mu bijanye n'ibanga, kuko ihishura aderesi zose za bose be n'amateka y'ibikorwa bijanye navyo.
 
 
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet telefone ngendanwa**, **Software Wallet**: amazina yose y’iporogarama ishizwe kuri telefone ngendanwa, kuri mudasobwa canke ku gikoresho cose gifatanye na Internet, bituma imfunguruzo z’ibanga zivuye kuri Bitcoin Wallet zishobora gucungirwa no gukingirwa.
+- **Hot Wallet**, **Software Wallet**, **Wallet telefone ngendanwa**, **Software Wallet**: amazina yose y'iporogarama ishizwe kuri telefone ngendanwa, kuri mudasobwa canke ku gikoresho cose gifatanye na Internet, bituma imfunguruzo z'ibanga zivuye kuri Bitcoin Wallet zishobora gucungirwa no gukingirwa.
 - Udakunze **amasakoshi y’ibikoresho**, azwi kandi nka **amasakoshi ya Cold**, atandukanya imfunguruzo zitari ku murongo, amasakoshi y’amaporogarama akora mu bidukikije bihuye, bikaba bituma ashobora guterwa n’ibitero vyo kuri internet.
 
 
 
 
 
-- Ikoreshwa ryiza**:
+- **Ikoreshwa ryiza**:
     - Ni vyiza cane mu gucunga amafaranga aringaniye ya Bitcoin, cane cane ku bikorwa vya misi yose.
     - Ibereye abatangura canke abakoresha bafise ubutunzi buke, abo Hardware Wallet yoshobora gusa n’iyidakenewe.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ivyo bishobora gushika**: Bidatekanye cane mu kubika amahera menshi canke amahera uzigamye igihe kirekire. Muri ivyo, uhitemwo Hardware Wallet.
+- **Ivyo bishobora gushika**: Bidatekanye cane mu kubika amahera menshi canke amahera uzigamye igihe kirekire. Muri ivyo, uhitemwo Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** ni porogaramu yo kuri telefone ngendanwa (iOS, Android) no ku biro yo gucunga ibiharuro vya Bitcoin n’itunga kuri Liquid Network. Yaronswe na [Blockstream] mu mwaka w’2016, mbere yari yitwa *Green Address* hanyuma yitwa *Blockstream Green*.
-- Ibirango vy'ingenzi**:
-- Ku ruzitiro** ubucuruzi kuri Blockchain Bitcoin.
+- **Blockstream App** ni porogaramu yo kuri telefone ngendanwa (iOS, Android) no ku biro yo gucunga ibiharuro vya Bitcoin n'itunga kuri Liquid Network. Yaronswe na [Blockstream] mu mwaka w'2016, mbere yari yitwa **Green Address** hanyuma yitwa **Blockstream Green**.
+- **Ibirango vy'ingenzi**:
+- Ku ruzitiro **ubucuruzi** kuri Blockchain Bitcoin.
     - Ivy’ugucuruza ku rubuga rwa **Liquid** (Sidechain ku bijanye n’uguhanahana amakuru vyihuta kandi vy’ibanga).
-- Watch-only** ibitabo vyo kugenzura amafaranga ata mfunguruzo zishobora gushikako.
+- **Watch-only** ibitabo vyo kugenzura amafaranga ata mfunguruzo zishobora gushikako.
     - Amahitamwo y'ubuzima bwite: gufatanya biciye ku **Tor**, gufatanya na **node y'umuntu ku giti ciwe** biciye kuri Electrum, canke **SPV** kugenzura kugira ngo ugabanye kwizigira node z'uwundi muntu.
     - Imirimo **Replace-by-fee (RBF)** yo kwihutisha amafaranga ataremejwe.
-- Uguhuza**: Gushiramwo amasakoshi y'ibikoresho nka **Blockstream Jade**.
-- Interface**: Ishobora gutahurwa ku batangura, n’uburyo buteye imbere ku bahinga.
-- Iciyumviro**: Iyi nkuru yibanda ku gukoresha onchain. Ibindi vyigwa biri mu Migereka bivuga kuri Onchain, Watch-Only na verisiyo yo kuri biro.
+- **Uguhuza**: Gushiramwo amasakoshi y'ibikoresho nka **Blockstream Jade**.
+- **Interface**: Ishobora gutahurwa ku batangura, n'uburyo buteye imbere ku bahinga.
+- **Iciyumviro**: Iyi nkuru yibanda ku gukoresha onchain. Ibindi vyigwa biri mu Migereka bivuga kuri Onchain, Watch-Only na verisiyo yo kuri biro.
 
 
 
@@ -174,7 +174,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream]
 - Ku **iOS**:
     - Gukuraho [Iporogarama y’Igikorwa co Guhagarika] (Iporogarama y’Iporogarama.
-- Iciyumviro**: Urabe ko ushobora gukura amakuru mu bibanza vyemewe kugira ngo wirinde amaporogarama y’ubuhendanyi.
+- **Iciyumviro**: Urabe ko ushobora gukura amakuru mu bibanza vyemewe kugira ngo wirinde amaporogarama y'ubuhendanyi.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Igishushanyo c'imbere**: Iyo kifunguwe ubwa mbere, porogaramu yerekana igishushanyo kitagira Wallet yatunganijwe. Ivyashizweho canke vyazanywe bizoboneka hano mu nyuma.
+- **Igishushanyo c'imbere**: Iyo kifunguwe ubwa mbere, porogaramu yerekana igishushanyo kitagira Wallet yatunganijwe. Ivyashizweho canke vyazanywe bizoboneka hano mu nyuma.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Customize settings**: Fyonda kuri "Ivyagezwe vy'iporogarama", uhindure amahitamwo ari musi, ukande kuri "Bika", wongere utangure porogaramu maze ureme igitabu cawe.
+- **Customize settings**: Fyonda kuri "Ivyagezwe vy'iporogarama", uhindure amahitamwo ari musi, ukande kuri "Bika", wongere utangure porogaramu maze ureme igitabu cawe.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ibikorwa**: Bizibira amafoto, bihisha ivyerekanwa vy’ibikorwa mu mucungerezi w’ibikorwa, kandi bifunga uburenganzira bwo kwinjira iyo telefone ipfungiwe.
-- Kubera iki?**: Irinda amakuru yawe ku muntu ata wemerewe kuyaronka canke ku bijanye n’ubuhinga butari bwo bwo gufata amakuru yawe.
+- **Ibikorwa**: Bizibira amafoto, bihisha ivyerekanwa vy'ibikorwa mu mucungerezi w'ibikorwa, kandi bifunga uburenganzira bwo kwinjira iyo telefone ipfungiwe.
+- **Kubera iki?**: Irinda amakuru yawe ku muntu ata wemerewe kuyaronka canke ku bijanye n'ubuhinga butari bwo bwo gufata amakuru yawe.
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Umurimo**: Inzira y'uruja n'uruza rw'urubuga biciye kuri **Tor**, urubuga rutazwi rupfuka amahuza yawe.
-- Kubera iki?**: Hisha IP yawe Address kandi ukinge ubuzima bwite bwawe, ni vyiza cane iyo utizigira urubuga rwawe (Wi-Fi ya bose, nk’akarorero).
-- Intambamyi**: Bishobora gutuma porogaramu igenda buhoro kubera gupfuka.
-- Impanuro**: Gukoresha Tor nimba ibanga ari ryo ry’imbere, ariko ugerageze umuvuduko wo guhuza.
+- **Umurimo**: Inzira y'uruja n'uruza rw'urubuga biciye kuri **Tor**, urubuga rutazwi rupfuka amahuza yawe.
+- **Kubera iki?**: Hisha IP yawe Address kandi ukinge ubuzima bwite bwawe, ni vyiza cane iyo utizigira urubuga rwawe (Wi-Fi ya bose, nk'akarorero).
+- **Intambamyi**: Bishobora gutuma porogaramu igenda buhoro kubera gupfuka.
+- **Impanuro**: Gukoresha Tor nimba ibanga ari ryo ry'imbere, ariko ugerageze umuvuduko wo guhuza.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Igikorwa**: Ihuza porogaramu n'ivyawe bwite **node ya Bitcoin yuzuye** biciye ku **server ya Electrum**.
-- Kubera iki?**: Itanga ububasha bwose ku makuru ya Blockchain, ikuraho kwizigira abakozi ba Blockstream.
-- Ibisabwa**: Igikoresho ca Bitcoin gitunganijwe.
-- Impanuro**: Abakoresha bateye imbere bashaka ubusegaba burengeye ubundi bwose.
+- **Igikorwa**: Ihuza porogaramu n'ivyawe bwite **node ya Bitcoin yuzuye** biciye ku **server ya Electrum**.
+- **Kubera iki?**: Itanga ububasha bwose ku makuru ya Blockchain, ikuraho kwizigira abakozi ba Blockstream.
+- **Ibisabwa**: Igikoresho ca Bitcoin gitunganijwe.
+- **Impanuro**: Abakoresha bateye imbere bashaka ubusegaba burengeye ubundi bwose.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Igikorwa**: Ikoresha **Igenzura ry'Ukwishura ryoroshe (SPV)** kugira ngo igenzure ataco ihinduye amakuru amwamwe ya Blockchain ata gukuraho uruhererekane rwose.
-- Kubera iki?**: Bigabanya kwizigira ku nzira ya Blockstream, mu gihe iguma ari yoroshe ku bikoresho vy'amaboko.
-- Intambamyi**: Ntiyitekanye cane nk’iya Full node, kuko yizigira amakuru y’abandi kugira ngo ibone amakuru amwamwe.
-- Impanuro**: Gukoresha SPV nimba udashobora gukoresha node y’umuntu ku giti ciwe, ariko ugahitamwo Full node kugira ngo ubone umutekano mwiza.
+- **Igikorwa**: Ikoresha **Igenzura ry'Ukwishura ryoroshe (SPV)** kugira ngo igenzure ataco ihinduye amakuru amwamwe ya Blockchain ata gukuraho uruhererekane rwose.
+- **Kubera iki?**: Bigabanya kwizigira ku nzira ya Blockstream, mu gihe iguma ari yoroshe ku bikoresho vy'amaboko.
+- **Intambamyi**: Ntiyitekanye cane nk'iya Full node, kuko yizigira amakuru y'abandi kugira ngo ibone amakuru amwamye.
+- **Impanuro**: Gukoresha SPV nimba udashobora gukoresha node y'umuntu ku giti ciwe, ariko ugahitamwo Full node kugira ngo ubone umutekano mwiza.
 
 
 
@@ -289,7 +289,7 @@ Kugira ngo ushireho Watch-only wallet, utegerezwa kubanza kuronka urufunguzo rwa
 
 
 
-- Iciyumviro**: Shira igitabu cawe mu kibanza c’ibanga, ata kamera canke abarorerezi.
+- **Iciyumviro**: Shira igitabu cawe mu kibanza c'ibanga, ata kamera canke abarorerezi.
 - Kuva ku mugaragaro w'intango, kanda kuri "Gushiraho igitabo gishasha" hanyuma ukande kuri "Gutangura" :
 
 
@@ -348,7 +348,7 @@ Iyo Watch-only wallet imaze kwinjizwa, yerekana umubare wose w’amahera n’ama
 
 
 
-- Raba umubare n'amateka**: kuva ku mugaragaro w'intango, raba umubare wose n'amateka y'ibikorwa:
+- **Raba umubare n'amateka**: kuva ku mugaragaro w'intango, raba umubare wose n'amateka y'ibikorwa:
 
 
 
@@ -358,7 +358,7 @@ Iyo Watch-only wallet imaze kwinjizwa, yerekana umubare wose w’amahera n’ama
 
 
 
-- generate a Address**: Fyonda kuri "Gukoresha", hanyuma "Kwakira", kugira ngo ureme Address nshasha. Ubisangize abandi biciye ku kode ya QR canke ukope kugira uronke amahera:
+- generate a **Address**: Fyonda kuri "Gukoresha", hanyuma "Kwakira", kugira ngo ureme Address nshasha. Ubisangize abandi biciye ku kode ya QR canke ukope kugira uronke amahera:
 
 
 
@@ -368,7 +368,7 @@ Iyo Watch-only wallet imaze kwinjizwa, yerekana umubare wose w’amahera n’ama
 
 
 
-- Wohereze amafaranga**: Fyonda kuri **"Gukoresha"**, hanyuma **"Ohereze"**. Ushobora kwinjira:
+- **Wohereze amafaranga**: Fyonda kuri **"Gukoresha"**, hanyuma **"Ohereze"**. Ushobora kwinjira:
  - Address y’uwuyironka.
  - Igitigiri c’ivyo bagurisha.
  - Amafaranga y’ugucuruza.
@@ -385,7 +385,7 @@ Ariko rero, kubera ko Watch-only wallet idafise imfunguruzo z’ibanga, ntushobo
 
 
 
-- Iciyumviro**: Wame usuzuma Address yakira n’amakuru y’ibikorwa kugira ngo wirinde amakosa. Amahera yoherejwe kuri Address idakwiriye ntashobora gusubirwamwo.
+- **Iciyumviro**: Wame usuzuma Address yakira n'amakuru y'ibikorwa kugira ngo wirinde amakosa. Amahera yoherejwe kuri Address idakwiriye ntashobora gusubirwamwo.
 
 
 
@@ -450,7 +450,7 @@ Kugira ngo ukoreshe **Blockstream App** mu buryo butekanye kandi bubereye, ukuri
 
 
 
-- Gukingira ijambo ryawe ryo gukira**:
+- Gukingira ijambo ryawe ryo **gukira**:
  - Inyigisho: Kubika amajambo yawe Mnemonic
 
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Rinda ubuzima bwite bwawe**:
+- **Rinda ubuzima bwite bwawe**:
  - generate Address nshasha kuri buri onchain canke Liquid kwakira kugira ngo ugabanye gukurikirana kuri Blockchain.
  - Gukoresha "Ubuzima bwite bwongerewe", "Tor" na "SPV" ibikorwa.
  - Kugira ngo ubone ibanga ryinshi, huza Wallet yawe n’uruzitiro rwawe bwite rwa Bitcoin biciye kuri server ya Electrum aho gukoresha uruzitiro rwa bose .
@@ -480,22 +480,22 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Hitamwo urubuga rubereye ivyo ukeneye:
-- Onchain**: Ihitamwo ku bijanye n’ugucungera igihe kirekire canke ibikorwa vy’agaciro kanini (amahera ntaco amaze ugereranije n’amahera).
-- Liquid**: Ikoreshwa mu gutanga amakuru yihuta kandi ataco atwara kandi afise ibanga ryinshi.
-- Umuravyo**: Hitamwo gutanga amafaranga ako kanya, ataco atwara ku mahera make.
+- **Onchain**: Ihitamwo ku bijanye n'ugucungera igihe kirekire canke ibikorwa vy'agaciro kanini (amahera ntaco amaze ugereranije n'amahera).
+- **Liquid**: Ikoreshwa mu gutanga amakuru yihuta kandi ataco atwara kandi afise ibanga ryinshi.
+- **Umuravyo**: Hitamwo gutanga amafaranga ako kanya, ataco atwara ku mahera make.
 
 
 
 
 
-- Igihe cose usuzume aderesi zo koherezako**:
+- Igihe cose usuzume aderesi zo koherezako:
  - Imbere yo kohereza amahera, nusuzume neza urupapuro rwa Address. Amahera yoherezwa kuri Address itari yo arazimangana ubuziraherezo. Koresha gukopa/gushiramwo canke gucapura kode ya QR, ntukigere ukopa/uhindura Address n’ukuboko.
 
 
 
 
 
-- Gutuma ibiciro bigenda neza**:
+- **Gutuma ibiciro bigenda neza**:
  - Ku bijanye n’ugucuruza kuri onchain, hitamwo amafaranga akwiriye (agenda buhoro, ari hagati, yihuta) bivanye n’ukwihuta n’uguhagarara kw’urubuga.
  - Koresha Liquid, canke Umuravyo ku bice bikeyi.
 
@@ -514,7 +514,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Amahuza yemewe:**
+- **Amahuza yemewe:**
 - [Urubuga rwemewe](https://ububiko.com/)
 - [Ishigikira porogaramu yo kuri telefone ngendanwa](https://imfashanyo.
 - [GitHub](imbuga z'ububiko/ibara ry'icatsi kibisi)
@@ -523,10 +523,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Abagenzuzi b'Ibarabara:**
+- **Abagenzuzi b'Ibarabara:**
  - Ku murongo: **[Mempool.ikibanza](Mempool.ikibanza/)**
  - Liquid : **[Amakuru y'uruzi](amakuru y'uruzi/Liquid)**
- - Umuravyo: ** [1ML (Lightning Network)]
+- Umuravyo: **[1ML (Lightning Network)]**
 
 
 
@@ -544,7 +544,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 - [Insobanuro y'amajambo](https://umugambi.urubuga/fr/ibikoresho/insobanuro y'amajambo/Liquid-urubuga)
 
 
@@ -555,7 +555,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network**:
+- **Lightning Network**:
 - [Insobanuro](https://planb.urubuga/fr/ibikoresho/insobanuro/urubuga-rw'umuravyo)
 
 

@@ -26,9 +26,9 @@ Aurora Store on yksi suosituimmista vaihtoehtoisista sovelluskaupoista Google Pl
 
 
 
-- Virtaviivaistettu Interface**: Interface ei häiritse sinua millään tavalla, joten on helppo löytää suunnan.
-- Pääsy miljooniin sovelluksiin**: Aurora Store toimii portaalina laajaan valikoimaan mobiilisovelluksia. Jos etsimäsi sovellus on Google Play Storessa, löydät sen Aurora Storesta.
-- Google Play -palvelua ei tarvita**: MicroG-tekniikan ansiosta Android-sovelluksia voi käyttää puhelimessasi ilman Google Play -palveluja.
+- **Virtaviivaistettu Interface**: Interface ei häiritse sinua millään tavalla, joten on helppo löytää suunnan.
+- **Pääsy miljooniin sovelluksiin**: Aurora Store toimii portaalina laajaan valikoimaan mobiilisovelluksia. Jos etsimäsi sovellus on Google Play Storessa, löydät sen Aurora Storesta.
+- **Google Play -palvelua ei tarvita**: MicroG-tekniikan ansiosta Android-sovelluksia voi käyttää puhelimessasi ilman Google Play -palveluja.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store ei ainoastaan peilaa Google Play Storea, vaan se sisältää myös 
 
 
 
-- Riippumattomuus Googlesta:**
+- **Riippumattomuus Googlesta:**
 
 
 
@@ -112,7 +112,7 @@ Jos päätät poistaa Google Play -palvelut käytöstä suojellaksesi tietojasi 
 
 
 
-- Latausohjaus:**
+- **Latausohjaus:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Storesta voit ladata mobiilisovelluksia manuaalisesti määrittämällä 
 
 
 
-- Luvat:**
+- **Luvat:**
 
 
 Hanki asennettavan sovelluksen kuvauksesta täydellinen luettelo valtuutuksista, jotka myönnät tälle sovellukselle asennuksen jälkeen.
@@ -139,7 +139,7 @@ Hanki asennettavan sovelluksen kuvauksesta täydellinen luettelo valtuutuksista,
 
 
 
-- Tietosuoja-analyysi:**
+- **Tietosuoja-analyysi:**
 
 
 

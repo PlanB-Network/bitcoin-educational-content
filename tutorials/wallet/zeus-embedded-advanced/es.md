@@ -172,9 +172,9 @@ El LSP ayuda a conectar a los usuarios con la red Lightning abriendo canales de 
 En esta sección, por defecto es el LSP de Olympus (https://0conf.lnolymp.us), pero próximamente también se podrá configurar otro LSP 0conf que soporte este protocolo.
 
 
-ten en cuenta:_
+ten en cuenta:
 
-cuando abres un canal con Olympus LSP utilizando las facturas LN envueltas, ¡también obtienes una liquidez de entrada de 100k! Esta es una muy buena opción en caso de que necesite recibir inmediatamente más Sats._
+cuando abres un canal con Olympus LSP utilizando las facturas LN envueltas, ¡también obtienes una liquidez de entrada de 100k! Esta es una muy buena opción en caso de que necesite recibir inmediatamente más Sats.
 
 ejemplo: depositas 400k Sats para abrir un canal LSP, entonces el LSP está abriendo un canal de 500k Sats de capacidad hacia tu nodo Zeus y empuja los 400k Sats que depositas hacia tu lado
 
@@ -332,9 +332,9 @@ En esta sección encontraremos algunas herramientas básicas para gestionar el n
 
 
 
-- disaster Recovery_ - Copias de seguridad automatizadas y manuales para los canales LN. Por favor, lea más cómo utilizar esta función en la página Zeus Docs.
-- express Graph Sync_ - Zeus app descargará el gráfico de datos de cotilleo LN desde un servidor dedicado, para una sincronización más rápida y mejor, ofreciendo las mejores rutas de pago. Usted puede elegir también para borrar los datos de gráficos anteriores en el arranque.
-- peers_ - sección para gestionar los neutrino peers y 0-conf peers. Si tiene problemas con la sincronización inicial, los canales no vienen en línea, es porque su dispositivo tiene alta latencia con el neutrino peer configurado. Intenta cambiar la lista de pares preferidos o añade un par específico que sepas que tiene mejor latencia para la sincronización. Los servidores neutrino más conocidos son:
+- **Disaster Recovery** - Copias de seguridad automatizadas y manuales para los canales LN. Por favor, lea más cómo utilizar esta función en la página Zeus Docs.
+- express Graph Sync - Zeus app descargará el gráfico de datos de cotilleo LN desde un servidor dedicado, para una sincronización más rápida y mejor, ofreciendo las mejores rutas de pago. Usted puede elegir también para borrar los datos de gráficos anteriores en el arranque.
+- **peers** - sección para gestionar los neutrino peers y 0-conf peers. Si tiene problemas con la sincronización inicial, los canales no vienen en línea, es porque su dispositivo tiene alta latencia con el neutrino peer configurado. Intenta cambiar la lista de pares preferidos o añade un par específico que sepas que tiene mejor latencia para la sincronización. Los servidores neutrino más conocidos son:
 
 
 
@@ -427,8 +427,8 @@ Aquí tenemos varias subsecciones con más herramientas:
 
 
 
-- cuentas_ - aquí puedes importar cuentas externas / monederos, monederos Cold, monederos Hot, para controlar o utilizar como fuente de financiación externa para tus canales de nodos Zeus. Esta característica es todavía experimental.
-- acelerar la transacción_ - Esta función podría ser útil cuando se tiene un tx atascado en Mempool y desea aumentar la tasa. Tendrás que proporcionar la salida del tx desde los detalles del tx y seleccionar la nueva tarifa que deseas utilizar. Debe ser más alta que la anterior y requiere que tengas más fondos disponibles en tu Wallet onchain.
+- **cuentas** - aquí puedes importar cuentas externas / monederos, monederos Cold, monederos Hot, para controlar o utilizar como fuente de financiación externa para tus canales de nodos Zeus. Esta característica es todavía experimental.
+- **acelerar la transacción** - Esta función podría ser útil cuando se tiene un tx atascado en Mempool y desea aumentar la tasa. Tendrás que proporcionar la salida del tx desde los detalles del tx y seleccionar la nueva tarifa que deseas utilizar. Debe ser más alta que la anterior y requiere que tengas más fondos disponibles en tu Wallet onchain.
 
 
 ![Image](assets/en/05.webp)
@@ -442,7 +442,7 @@ Siempre es mejor mantener un UTXO con un máximo de 100k Sats en su Zeus onchain
 
 
 - _Firmar o verificar_ - Con esta función puede firmar un mensaje específico con sus claves Wallet. También se puede utilizar para verificar un mensaje para demostrar que proviene de un específico Wallet claves.
-- conversor de divisas_ - una herramienta sencilla para calcular la conversión de tasas entre BTC y otras monedas fiduciarias.
+- **conversor de divisas** - una herramienta sencilla para calcular la conversión de tasas entre BTC y otras monedas fiduciarias.
 
 
 **J - Mercancía y Apoyo**

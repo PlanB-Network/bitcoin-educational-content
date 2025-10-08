@@ -261,13 +261,13 @@ Ubuyobozi bw'urubuga buragufasha kuraba no gucunga ibikoresho vyawe vyose bihuye
 
 
 
-- Urubuga rwa Interface (Igikoresho c'Umuyobozi)**: ushobora kuronka kuri [https://injira.tailscale.com](https://injira.tailscale.com), iyi konsole y'urubuga ni yo nzira nyamukuru y'urubuga rwawe rwa Tailscale. Iratanga urutonde rw’ibikoresho vyose (*Imashini*), uko biri kuri interineti/ku rubuga rwa interineti, aderesi zavyo za IP za Tailscale, n’ibindi. Aha ushobora **gucunga ibikoresho** (guhindura izina, guhera kw'imfunguruzo, kwemerera inzira, guhagarika urudodo), **gucunga abakoresha** (mu bijanye n'imiteguro), no gusobanura amategeko y'umutekano (ACLs). Aha niho kandi utunganya amahitamwo y'isi yose nka MagicDNS, ama tags, canke imfunguruzo z'ukwemeza (imfunguruzo z'ukwemeza imbere ya generate ku kwongerako ibikoresho vy'ubuhinga). Interface web ni ngirakamaro cane mu kuronka icegeranyo no gukoresha amahinduka azokwiragizwa biciye kuri server y'uguhuza ku nzira zose. *Akarorero:* Gukoresha **inzira y'uruja n'uruza** canke **uruzitiro rwo gusohoka** bikorwa n'ugukanda rimwe muri console, iyo uruzitiro ruvugwa rumaze kwimenyekanisha ko ari rwo.
+- **Urubuga rwa Interface (Igikoresho c'Umuyobozi)**: ushobora kuronka kuri [https://injira.tailscale.com](https://injira.tailscale.com), iyi konsole y'urubuga ni yo nzira nyamukuru y'urubuga rwawe rwa Tailscale. Iratanga urutonde rw'ibikoresho vyose (**Imashini**), uko biri kuri interineti/ku rubuga rwa interineti, aderesi zavyo za IP za Tailscale, n'ibindi. Aha ushobora **gucunga ibikoresho** (guhindura izina, guhera kw'imfunguruzo, kwemerera inzira, guhagarika urudodo), **gucunga abakoresha** (mu bijanye n'imiteguro), no gusobanura amategeko y'umutekano (ACLs). Aha niho kandi utunganya amahitamwo y'isi yose nka MagicDNS, ama tags, canke imfunguruzo z'ukwemeza (imfunguruzo z
 
 
 
 
 
-- Umurongo w'itegeko rya Interface (CLI):** Itegeko rya `umurizo` riboneka muri CLI ku gikoresho cose aho Umurizo ushizwe. Iyi CLI iraguha uburenganzira bwo gukora vyose mu karere: gufatanya (`tailscale up`), gusuzuma uko ibintu vyifashe (`tailscale status` kugira ngo ubone abo mu runganwe rwawe bahuye), gukosora (`tailscale ping <ip>`), n'ibindi. Hari mbere n'ibiranga **vy'umwihariko kuri CLI** canke biteye imbere kuruta, nk'akarorero:
+- **Umurongo w'itegeko rya Interface (CLI):** Itegeko rya `umurizo` riboneka muri CLI ku gikoresho cose aho Umurizo ushizwe. Iyi CLI iraguha uburenganzira bwo gukora vyose mu karere: gufatanya (`tailscale up`), gusuzuma uko ibintu vyifashe (`tailscale status` kugira ngo ubone abo mu runganwe rwawe bahuye), gukosora (`tailscale ping <ip>`), n'ibindi. Hari mbere n'ibiranga **vy'umwihariko kuri CLI** canke biteye imbere kuruta, nk'akarorero:
 
 
 
@@ -305,7 +305,7 @@ Gukoresha Umbrel na Tailscale hamwe ni ikintu gishimishije cane, kuko Umbrel iko
 
 
 
-- Gushiramwo Tailscale ku Mutaka:** Umutaka ufise porogaramu yemewe y’umurizo muri App Store yayo. Gushiramwo ntivyoba vyoroshe:
+- **Gushiramwo Tailscale ku Mutaka:** Umutaka ufise porogaramu yemewe y'umurizo muri App Store yayo. Gushiramwo ntivyoba vyoroshe:
 
 
 
@@ -379,11 +379,11 @@ Ugushikira biroroshe cane: aho gukoresha `umbrel.local` (ikora gusa ku rubuga rw
 
 
 
-- Interface umutaka mukuru**: Shika ku rubuga rwawe rw'umutaka wanditse `http://100.x.y.z` mu mucukumbuzi wawe
-- Bitcoin node**: Gucungera node yawe ya Bitcoin ata guhagarara, reba guhuza n'imibare
-- Igikoresho c'umuravyo**: Koresha ThunderHub, RTL canke ibindi bikoresho vyo gucunga umuravyo bifise inyishu ihita
-- Mempool**: Raba ibikorwa vya Bitcoin na Mempool ata gucererwa kwa Tor
-- noStrudel**: Shika ku bikorwa vyawe vya Nostr vyakiriwe ku Mutaka
+- **Interface umutaka mukuru**: Shika ku rubuga rwawe rw'umutaka wanditse `http://100.x.y.z` mu mucukumbuzi wawe
+- **Bitcoin node**: Gucungera node yawe ya Bitcoin ata guhagarara, reba guhuza n'imibare
+- **Igikoresho c'umuravyo**: Koresha ThunderHub, RTL canke ibindi bikoresho vyo gucunga umuravyo bifise inyishu ihita
+- **Mempool**: Raba ibikorwa vya Bitcoin na Mempool ata gucererwa kwa Tor
+- **noStrudel**: Shika ku bikorwa vyawe vya Nostr vyakiriwe ku Mutaka
 
 
 
@@ -397,7 +397,7 @@ Tailscale kandi ishobora gutuma amasakoshi yawe ya Bitcoin na Lightning ashizwe 
 
 
 
-- Sparrow wallet (Bitcoin)**: Iyi Wallet Bitcoin yo hanze ishobora kwifatanya na server yawe y'umuyagankuba ukoresheje IP Address:
+- **Sparrow wallet (Bitcoin)**: Iyi Wallet Bitcoin yo hanze ishobora kwifatanya na server yawe y'umuyagankuba ukoresheje IP Address:
 
 
 
@@ -424,7 +424,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (Umuravyo)**: Uyu Muravyo ugendagenda Wallet ushobora gufatanya n’urudodo rwawe rw’Umuravyo kuri Umbrel. Aho gutunganya iherezo nk'`.onion', gusa ushireho IP y'umurizo w'umutaka wawe n'icuma ca Lightning API. Iryo huriro rizoba ry’aho nyene ugereranyije na Tor.
+- **Zeus (Umuravyo)**: Uyu Muravyo ugendagenda Wallet ushobora gufatanya n'urudodo rwawe rw'Umuravyo kuri Umbrel. Aho gutunganya iherezo nk'`.onion`, gusa ushireho IP y'umurizo w'umutaka wawe n'icuma ca Lightning API. Iryo huriro rizoba ry'aho nyene ugereranyije na Tor.
 
 
 
@@ -557,8 +557,8 @@ Mu gusozera, Tailscale yishize ahantu nk’umuti w’iki gihe, woroshe, ubereye 
 
 
 
-- Ukworoha n'ubushobozi** - Gushiramwo vyihuse ku mbuga zose ata n'imiterere y'urubuga igoye. Ivy’ugutwara abantu bikurikira inzira igororotse cane hagati y’amamashini yawe (P2P mesh), n’ubushobozi bw’umurongo wa WireGuard kandi nta server yo hagati yo guhagarika ubushobozi bwo gukora.
-- Umutekano n’uguhinduranya** - Gushiramwo amakuru kuva ku mpera kugeza ku mpera, kugabanya uburebure bw’igitero, n’ibintu biteye imbere (ACL, SSO/MFA authentication). Ikora mbere inyuma ya NATs canke uriko uragenda, n’ama subnet routers n’ama exit nodes kugira ngo uhuze n’ivyo ukeneye.
+- **Ukworoha n'ubushobozi** - Gushiramwo vyihuse ku mbuga zose ata n'imiterere y'urubuga igoye. Ivy'ugutwara abantu bikurikira inzira igororotse cane hagati y'amamashini yawe (P2P mesh), n'ubushobozi bw'umurongo wa WireGuard kandi nta server yo hagati yo guhagarika ubushobozi bwo gukora.
+- **Umutekano n'uguhinduranya** - Gushiramwo amakuru kuva ku mpera kugeza ku mpera, kugabanya uburebure bw'igitero, n'ibintu biteye imbere (ACL, SSO/MFA authentication). Ikora mbere inyuma ya NATs canke uriko uragenda, n'ama subnet routers n'ama exit nodes kugira ngo uhuze n'ivyo ukeneye.
 
 
 
@@ -568,8 +568,8 @@ Mu gusozera, Tailscale yishize ahantu nk’umuti w’iki gihe, woroshe, ubereye 
 
 
 
-- Ivyerekeye hanze** - Mu buryo bwayo busanzwe, iyo serivisi yizigira ibikorwa remezo vya Tailscale Inc. Ivyo bishobora gukurwaho biciye ku Headscale (uburyo bwo kwiyakira).
-- Ibindi bigoranye** - Kode y’inkomoko yugaye igice, imipaka ya verisiyo y’ubuntu ku mikoreshereze imwe imwe iteye imbere, nta gushigikira Layer 2 (gutangaza/gutangaza vyinshi), n’ugukenera gukoresha Internet kugira ngo umuntu ashobore gukorana n’abandi.
+- **Ivyerekeye hanze** - Mu buryo bwayo busanzwe, iyo serivisi yizigira ibikorwa remezo vya Tailscale Inc. Ivyo bishobora gukurwaho biciye ku Headscale (uburyo bwo kwiyakira).
+- **Ibindi bigoranye** - Kode y'inkomoko yugaye igice, imipaka ya verisiyo y'ubuntu ku mikoreshereze imwe imwe iteye imbere, nta gushigikira Layer 2 (gutangaza/gutangaza vyinshi), n'ugukenera gukoresha Internet kugira ngo umuntu ashobore gukorana n'abandi.
 
 
 
@@ -595,9 +595,9 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Ikigo c'inyandiko z'umurizo**: [docs.tailscale.com](https://docs.tailscale.com) - Inyandiko z'icongereza zishitse, ubuyobozi bwo gushiramwo, inyigisho n'ibimenyetso vy'ubuhinga.
-- Uko Umurizo ukora**: [Uko Umurizo ukora](https://tailscale.com/blog/ingene-umurizo-ukora) - Ingingo idondora neza ingene Umurizo ukora imbere.
-- Impinduka**: [umurizo.com/impinduka](https://imirizo.com/impinduka) - Gukurikirana ivyagezwe n'ibintu bishasha.
+- **Ikigo c'inyandiko z'umurizo**: [docs.tailscale.com](https://docs.tailscale.com) - Inyandiko z'icongereza zishitse, ubuyobozi bwo gushiramwo, inyigisho n'ibimenyetso vy'ubuhinga.
+- **Uko Umurizo ukora**: [Uko Umurizo ukora](https://tailscale.com/blog/ingene-umurizo-ukora) - Ingingo idondora neza ingene Umurizo ukora imbere.
+- **Impinduka**: [umurizo.com/impinduka](https://imirizo.com/impinduka) - Gukurikirana ivyagezwe n'ibintu bishasha.
 
 
 
@@ -607,8 +607,8 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Ivyigwa vya Homelab**: [Ivyigwa vyo mu nzu] - Ivyigwa vyihariye vyo kwiyakira.
-- Gutegura Igikoresho co Gusohoka**: [Igikoresho co Gusohoka](https://Igikoresho co Gusohoka) - Inyobora ido n'ido yo gutunganya Igikoresho co Gusohoka.
+- **Ivyigwa vya Homelab**: [Ivyigwa vyo mu nzu] - Ivyigwa vyihariye vyo kwiyakira.
+- **Gutegura Igikoresho co Gusohoka**: [Igikoresho co Gusohoka](https://Igikoresho co Gusohoka) - Inyobora ido n'ido yo gutunganya Igikoresho co Gusohoka.
 - Koresha **Taildrop**: [umurizo.com/kb/1106/umurizo](https://umurizo.com/kb/1106/umurizo) - Kwimurira amadosiye hagati y'ibikoresho vya Tailscale.
 
 
@@ -619,7 +619,7 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Umurizo n’ibindi bisubizo**: [umurizo.com/gereranya](https://umurizo.com/gereranya) - Igereranyo ry’ido n’ido n’ibindi bisubizo vya VPN n’ivy’urubuga (ZeroTier, OpenVPN, n’ibindi).
+- **Umurizo n'ibindi bisubizo**: [umurizo.com/gereranya](https://umurizo.com/gereranya) - Igereranyo ry'ido n'ido n'ibindi bisubizo vya VPN n'ivy'urubuga (ZeroTier, OpenVPN, n'ibindi).
 
 
 
@@ -629,9 +629,9 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Reddit**: [r/Ikigereranyo c'Umurizo](https://www.reddit.com/r/Ikigereranyo c'Umurizo/) - Ibiganiro, ibibazo n'ibisubizo.
-- GitHub**: [github.com/umurizo/umurizo](https://github.com/umurizo/umurizo) - Kode y'inkomoko y'umukiriya, aho wokurikirana iterambere no gutanga raporo y'ingorane.
-- Discord**: [amatati.gg/umurongo w'umurizo](https://amatati.gg/umurongo w'umurongo) - Umuryango w'abakoresha n'abategura.
+- **Reddit**: [r/Ikigereranyo c'Umurizo](https://www.reddit.com/r/Ikigereranyo c'Umurizo/) - Ibiganiro, ibibazo n'ibisubizo.
+- **GitHub**: [github.com/umurizo/umurizo](https://github.com/umurizo/umurizo) - Kode y'inkomoko y'umukiriya, aho wokurikirana iterambere no gutanga raporo y'ingorane.
+- **Discord**: [amatati.gg/umurongo w'umurizo](https://amatati.gg/umurongo w'umurongo) - Umuryango w'abakoresha n'abategura.
 
 
 

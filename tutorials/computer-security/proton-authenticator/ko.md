@@ -38,31 +38,31 @@ description: 프로톤 인증기를 사용하여 2FA로 계정을 보호하려�
 
 
 
-- 암호화된 클라우드 백업** 옵션: 애플리케이션을 Proton 계정에 연결하여 종단 간 암호화를 통해 코드를 백업하고 동기화할 수 있습니다. 기기를 분실한 경우 새 기기를 다시 연결하기만 하면 모든 코드를 복원할 수 있습니다.
+- **암호화된 클라우드 백업** 옵션: 애플리케이션을 Proton 계정에 연결하여 종단 간 암호화를 통해 코드를 백업하고 동기화할 수 있습니다. 기기를 분실한 경우 새 기기를 다시 연결하기만 하면 모든 코드를 복원할 수 있습니다.
 
 
 
 
 
-- 다중 디바이스 동기화**: 앱에서 Proton에 로그인하면 종단 간 암호화를 통해 2FA 코드가 여러 디바이스 간에 자동으로 동기화됩니다. IOS에서는 iCloud를 통한 동기화도 가능합니다.
+- **다중 디바이스 동기화**: 앱에서 Proton에 로그인하면 종단 간 암호화를 통해 2FA 코드가 여러 디바이스 간에 자동으로 동기화됩니다. IOS에서는 iCloud를 통한 동기화도 가능합니다.
 
 
 
 
 
-- 비밀번호 또는 생체인식**을 통한 로컬 잠금: 이 애플리케이션은 PIN 및/또는 지문/얼굴 ID 잠금을 제공합니다. 따라서 누군가가 잠금 해제된 휴대폰에 물리적으로 접근하더라도 Proton Authenticator를 열 수 없습니다.
+- 비밀번호 또는 **생체인식을 통한 로컬 잠금**: 이 애플리케이션은 PIN 및/또는 지문/얼굴 ID 잠금을 제공합니다. 따라서 누군가가 잠금 해제된 휴대폰에 물리적으로 접근하더라도 Proton Authenticator를 열 수 없습니다.
 
 
 
 
 
-- 데이터 수집 또는 추적기 없음**: 프로톤은 애플리케이션을 통해 어떠한 개인 데이터도 수집하지 않습니다. 숨겨진 광고나 행동 분석이 없습니다.
+- **데이터 수집 또는 추적기 없음**: 프로톤은 애플리케이션을 통해 어떠한 개인 데이터도 수집하지 않습니다. 숨겨진 광고나 행동 분석이 없습니다.
 
 
 
 
 
-- 간편한 가져오기/내보내기**: 프로톤 인증기의 강점 중 하나는 기존 계정을 위한 가져오기 마법사로, 다른 애플리케이션(Google 인증기, Authy, Aegis 등)과 호환된다는 점입니다. 필요한 경우 코드를 파일로 내보낼 수도 있습니다.
+- **간편한 가져오기/내보내기**: 프로톤 인증기의 강점 중 하나는 기존 계정을 위한 가져오기 마법사로, 다른 애플리케이션(Google 인증기, Authy, Aegis 등)과 호환된다는 점입니다. 필요한 경우 코드를 파일로 내보낼 수도 있습니다.
 
 
 
@@ -240,7 +240,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 
-*2단계 인증 정보를 수동으로 입력합니다: 키, 간격(30) 및 숫자(6)**
+**2단계 인증 정보를 수동으로 입력합니다: 키, 간격(30) 및 숫자(6)**
 
 
 
@@ -560,10 +560,10 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- 공식 웹사이트**: [proton.me/authenticator](https://proton.me/authenticator) - 제품 소개 및 다운로드
-- 다운로드 페이지**: [proton.me/ko/authenticator/download](https://proton.me/fr/authenticator/download) - 모든 OS용 링크
-- 프로톤 지원**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - 공식 2FA 활성화 가이드
-- 프로톤 블로그**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - 공지사항 및 세부 기능 안내
+- **공식 웹사이트**: [proton.me/authenticator](https://proton.me/authenticator) - 제품 소개 및 다운로드
+- **다운로드 페이지**: [proton.me/ko/authenticator/download](https://proton.me/fr/authenticator/download) - 모든 OS용 링크
+- **프로톤 지원**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - 공식 2FA 활성화 가이드
+- **프로톤 블로그**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - 공지사항 및 세부 기능 안내
 
 
 
@@ -572,8 +572,8 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- 깃허브 양성자 인증기**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - 오픈 소스 코드
-- 보안 감사**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - 독립 감사 보고서
+- **깃허브 양성자 인증기**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - 오픈 소스 코드
+- **보안 감사**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - 독립 감사 보고서
 
 
 
@@ -596,8 +596,8 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 - 레딧 r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - 공식 양성자 커뮤니티
-- 개인정보 보호 가이드 포럼**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - 개인정보 보호 문제에 대한 기술적 논의
-- 레딧 r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - 일반적인 개인정보 보호 팁
+- **개인정보 보호 가이드 포럼**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - 개인정보 보호 문제에 대한 기술적 논의
+- 레딧 **r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - 일반적인 개인정보 보호 팁
 
 
 

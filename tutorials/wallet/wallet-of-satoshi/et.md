@@ -4,7 +4,7 @@ description: Lihtsaim hooldusvahendi Wallet alustamiseks
 ---
 ![cover](assets/cover.webp)
 
-_Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus)
 
 
 ## Satoshi Wallet allalaadimine, seadistamine ja kasutamine

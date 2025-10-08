@@ -247,7 +247,7 @@ contributors:
 Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
-- `titel`**: Geef de naam van het boek aan tussen aanhalingstekens.
+- **`titel`**: Geef de naam van het boek aan tussen aanhalingstekens.
 - `publicatie_jaar`: **Geef het jaar aan waarin het boek is gepubliceerd.**
 - `cover`: Geef de naam op van het bestand dat overeenkomt met de coverafbeelding, in overeenstemming met de taal van het YAML-bestand dat u momenteel bewerkt. Als je bijvoorbeeld het `en.yml` bestand aan het bewerken bent en je hebt eerder de Engelse cover image toegevoegd met de titel `cover_en.webp`, geef dan simpelweg `cover_en.webp` aan in dit veld.
 - `description`: **Voeg een korte paragraaf toe die het boek beschrijft. De beschrijving moet in dezelfde taal zijn als aangegeven in de titel van het YAML-bestand.**

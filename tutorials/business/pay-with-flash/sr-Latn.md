@@ -65,7 +65,7 @@ U zavisnosti od Lightning Wallet koji koristite, pronaći ćete sledeće opcije:
 
 
 
-- Alby Hub** za Alby Go novčanike, Alby ekstenzija za vaš pregledač.
+- **Alby Hub** za Alby Go novčanike, Alby ekstenzija za vaš pregledač.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** da poveže Bitcoin web CoinOS Wallet.
-- Fleš Wallet** za povezivanje sa Fleš Wallet.
-- LN veza**
+- **Coinos** da poveže Bitcoin web CoinOS Wallet.
+- **Fleš Wallet** za povezivanje sa Fleš Wallet.
+- **LN veza**
 
 
 

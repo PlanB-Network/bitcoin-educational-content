@@ -305,7 +305,7 @@ Machankura是一個托管的Lightning Wallet，所以您的比特幣是通過Mac
 
 
 
-*影片來自 Vladimir FOMENE，Bitcoin 開發人員 :**
+**影片來自 Vladimir FOMENE，Bitcoin 開發人員：**
 
 
 

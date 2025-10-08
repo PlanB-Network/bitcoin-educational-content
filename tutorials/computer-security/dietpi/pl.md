@@ -28,9 +28,9 @@ To nie jest "zwykły duplikat" Debiana dla małych płyt typu Raspberry. Jest ni
 
 
 
-- Zoptymalizowany pod kątem szybkości i lekkości**: [porównanie z innymi dystrybucjami Debiana dla SBC](https://dietpi.com/blog/?p=888), DietPi jest lżejszy we wszystkim. Obraz ISO DietPi waży mniej niż 1 GB, zdecydowanie najmniej wśród tych dedykowanych starszym modelom Raspberry lub Orange PI (na przykład). Zapotrzebowanie na pamięć RAM i zasoby procesora jest bardzo niskie, dzięki czemu zawsze wydobywa to, co najlepsze z płyt, nawet tych starszych.
-- Wbudowane automatyzacje i instalatory**: Zestaw dedykowanych poleceń pomaga użytkownikom monitorować zasoby systemowe, a także automatyzować zadania w celu instalowania i uruchamiania programów, aktualizowania wersji, tworzenia kopii zapasowych i sprawdzania wszystkich dzienników.
-- Silna, zorientowana na eksperymenty społeczność**: [tutoriale](https://dietpi.com/forum/c/community-tutorials/8) i projekty społeczności DietPi, są idealne do czerpania inspiracji z oprogramowania, które można zainstalować jednym kliknięciem, dzięki DietPi.
+- **Zoptymalizowany pod kątem szybkości i lekkości**: [porównanie z innymi dystrybucjami Debiana dla SBC](https://dietpi.com/blog/?p=888), DietPi jest lżejszy we wszystkim. Obraz ISO DietPi waży mniej niż 1 GB, zdecydowanie najmniej wśród tych dedykowanych starszym modelom Raspberry lub Orange PI (na przykład). Zapotrzebowanie na pamięć RAM i zasoby procesora jest bardzo niskie, dzięki czemu zawsze wydobywa to, co najlepsze z płyt, nawet tych starszych.
+- **Wbudowane automatyzacje i instalatory**: Zestaw dedykowanych poleceń pomaga użytkownikom monitorować zasoby systemowe, a także automatyzować zadania w celu instalowania i uruchamiania programów, aktualizowania wersji, tworzenia kopii zapasowych i sprawdzania wszystkich dzienników.
+- **Silna, zorientowana na eksperymenty społeczność**: [tutoriale](https://dietpi.com/forum/c/community-tutorials/8) i projekty społeczności DietPi, są idealne do czerpania inspiracji z oprogramowania, które można zainstalować jednym kliknięciem, dzięki DietPi.
 
 
 

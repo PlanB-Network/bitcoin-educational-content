@@ -64,25 +64,25 @@ Voordat ik je stap voor stap laat zien hoe je kunt lenen op Debifi, zijn er een 
 
 
 
-- Originatiekosten** zijn eenmalige kosten die worden geheven op het moment dat een lening wordt verstrekt en worden berekend als een percentage van het geleende bedrag. Deze vergoedingen dekken administratieve, operationele en beheerskosten.
+- **Originatiekosten** zijn eenmalige kosten die worden geheven op het moment dat een lening wordt verstrekt en worden berekend als een percentage van het geleende bedrag. Deze vergoedingen dekken administratieve, operationele en beheerskosten.
 
 
 
 
 
-- Een onderpand** is een goed dat je deponeert om een lening te garanderen. In het geval van Debifi is het onderpand Bitcoin (BTC), dat de lener deponeert in de Multisig 3/4 escrow.
+- Een **onderpand** is een goed dat je deponeert om een lening te garanderen. In het geval van Debifi is het onderpand Bitcoin (BTC), dat de lener deponeert in de Multisig 3/4 escrow.
 
 
 
 
 
-- Het Multisig escrow (3/4)** systeem is een veilig depositomechanisme waarbij de bitcoins van een lener in een Address met meerdere handtekeningen worden geplaatst. Concreet houden vier (4) partijen elk een sleutel (lener, geldschieter, Debifi, onafhankelijke derde partij). Om geld te verplaatsen zijn minstens 3 van de 4 handtekeningen nodig.
+- Het **Multisig escrow (3/4)** systeem is een veilig depositomechanisme waarbij de bitcoins van een lener in een Address met meerdere handtekeningen worden geplaatst. Concreet houden vier (4) partijen elk een sleutel (lener, geldschieter, Debifi, onafhankelijke derde partij). Om geld te verplaatsen zijn minstens 3 van de 4 handtekeningen nodig.
 
 
 
 
 
-- Een stablecoin** is een cryptocurrency waarvan de waarde is gekoppeld aan een stabiel activum (bijv. US dollar), wat de volatiliteit van Bitcoin vermijdt. 1 USDC is bijvoorbeeld altijd ~$1 waard, omdat het wordt ondersteund door fiatreserves.
+- Een **stablecoin** is een cryptocurrency waarvan de waarde is gekoppeld aan een stabiel activum (bijv. US dollar), wat de volatiliteit van Bitcoin vermijdt. 1 USDC is bijvoorbeeld altijd ~$1 waard, omdat het wordt ondersteund door fiatreserves.
 
 
 

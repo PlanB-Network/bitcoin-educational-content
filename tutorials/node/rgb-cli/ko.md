@@ -318,8 +318,8 @@ rgb dump
 
 
 
-- Alice** (Invoice 발행자) ;
-- Bob**(Invoice을 수신하고 실행하는 사람).
+- **Alice** (Invoice 발행자) ;
+- **Bob**(Invoice을 수신하고 실행하는 사람).
 
 
 다른 생태계와 달리 RGB Invoice는 결제의 개념에만 국한되지 않습니다. Contract에 연결된 모든 요청(키 취소, 투표, NFT에 각인(*각인*) 생성 등)을 포함할 수 있습니다. 해당 작업은 Contract Interface에 설명되어 있습니다. 해당 작업은 Contract Interface에 설명되어 있습니다.

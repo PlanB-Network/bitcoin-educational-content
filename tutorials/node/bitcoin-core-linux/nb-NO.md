@@ -79,7 +79,7 @@ Resten av denne artikkelen er derfor en veiledning i hvordan du installerer Bitc
 Hver gyldig signatur vil vise en linje som begynner med : `gpg: God signatur` og en annen linje som slutter med: `Primært nøkkelfingeravtrykk: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320` (eksempel på Pieter Wuille's PGP-nøkkelfingeravtrykk).
 
 
-**Det er ikke nødvendig at alle signeringsnøkler returnerer et "OK". Faktisk kan bare én være nødvendig. Det er opp til brukeren å bestemme sin egen valideringsterskel for PGP-verifisering.
+**Det er ikke nødvendig at alle signeringsnøkler returnerer et "OK". Faktisk kan bare én være nødvendig. Det er opp til brukeren å bestemme sin egen valideringsterskel for PGP-verifisering.**
 
 
 Du kan ignorere advarslene:
@@ -134,7 +134,7 @@ Det er imidlertid lurt å kjøre og synkronisere noden med jevne mellomrom, selv
 ## Konfigurere Tor for en Bitcoin core-node
 
 
-**Denne veiledningen er utviklet for Bitcoin core 24.0.1 på Ubuntu/Debian-kompatible Linux-distribusjoner.
+**Denne veiledningen er utviklet for Bitcoin core 24.0.1 på Ubuntu/Debian-kompatible Linux-distribusjoner.**
 
 
 ### Installere og konfigurere Tor for Bitcoin core
@@ -146,7 +146,7 @@ Først må vi installere Tor-tjenesten (The Onion Router), et nettverk som bruke
 For å installere Tor åpner du en terminal og skriver inn `sudo apt -y install tor`. Når installasjonen er fullført, vil tjenesten normalt starte automatisk i bakgrunnen. Sjekk at den kjører som den skal med kommandoen `sudo systemctl status tor`. Svaret bør vise `Active: active (exited)`. Trykk `Ctrl+C` for å avslutte denne funksjonen.
 
 
-**Du kan uansett bruke følgende kommandoer i terminalen for å starte, stoppe eller starte Tor på nytt:
+**Du kan uansett bruke følgende kommandoer i terminalen for å starte, stoppe eller starte Tor på nytt:**
 
 
 ```shell
@@ -213,7 +213,7 @@ Alternativt, for å forbli utelukkende på Tor-nettverket og redusere risikoen f
 Hvis du vil se loggene til Bitcoin-noden din spesifikt relatert til samspillet med Tor, legger du til `debug=tor` i filen `Bitcoin.conf`. Du vil nå ha relevant Tor-informasjon i feilsøkingsloggen, som du kan se i _Information_-vinduet med _Debug File_-knappen. Det er også mulig å vise disse loggene direkte i terminalen med kommandoen `bitcoind -debug=tor`.
 
 
-**Tips: Her er noen interessante lenker:
+**Tips: Her er noen interessante lenker:**
 
 
 - [Wiki-side som forklarer Tor og forholdet til Bitcoin] (https://en.Bitcoin.it/wiki/Tor)

@@ -149,30 +149,30 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-- Ferramenta Android Flash**: Utilize a ferramenta oficial da Google [flash.android.com] (https://flash.android.com) para restaurar facilmente o seu dispositivo Pixel para o Android original a partir do seu navegador Web (é necessário o Chrome/Edge)
-- Alternativa**: Imagens de fábrica manualmente a partir de [developers.google.com/android/images] (https://developers.google.com/android/images)
+- **Ferramenta Android Flash**: Utilize a ferramenta oficial da Google [flash.android.com](https://flash.android.com) para restaurar facilmente o seu dispositivo Pixel para o Android original a partir do seu navegador Web (é necessário o Chrome/Edge)
+- **Alternativa**: Imagens de fábrica manualmente a partir de [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
-**Testes de pré-requisitos obrigatórios
-
-
-
-
-- Arranque o seu dispositivo pelo menos uma vez** com o sistema de stock original
-- Teste todas as funcionalidades**: SMS, chamadas, Wi-Fi, dados móveis
-- Importante**: Verifica se consegues enviar/receber SMS e fazer/receber chamadas (incluindo via WiFi e 4G/5G). Se não funcionar no sistema stock, também não funcionará no LineageOS!
-- Dispositivos recentes**: Alguns exigem que o VoLTE/VoWiFi seja utilizado pelo menos uma vez no sistema de stock para aprovisionar o IMS
-
-
-
-**Preparação do sistema
+**Testes de pré-requisitos obrigatórios**
 
 
 
 
-- Remova todas as contas Google** do seu dispositivo para evitar a proteção contra reposição de fábrica, que pode bloquear a ativação
-- Cópia de segurança completa** : O processo irá apagar completamente o seu telemóvel. Cópia de segurança de fotografias, contactos, aplicações e ficheiros importantes
+- Arranque o seu dispositivo pelo menos uma vez com o sistema de stock original
+- **Teste todas as funcionalidades**: SMS, chamadas, Wi-Fi, dados móveis
+- **Importante**: Verifica se consegues enviar/receber SMS e fazer/receber chamadas (incluindo via WiFi e 4G/5G). Se não funcionar no sistema stock, também não funcionará no LineageOS!
+- **Dispositivos recentes**: Alguns exigem que o VoLTE/VoWiFi seja utilizado pelo menos uma vez no sistema de stock para aprovisionar o IMS
+
+
+
+**Preparação do sistema**
+
+
+
+
+- Remova todas as contas **Google** do seu dispositivo para evitar a proteção contra reposição de fábrica, que pode bloquear a ativação
+- **Cópia de segurança completa**: O processo irá apagar completamente o seu telemóvel. Cópia de segurança de fotografias, contactos, aplicações e ficheiros importantes
 
 
 
@@ -216,7 +216,7 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-⚠️ **Estas instruções são específicas do LineageOS 22.2. Siga cada passo com precisão. Não avance se algo falhar!
+⚠️ **Estas instruções são específicas do LineageOS 22.2. Siga cada passo com precisão. Não avance se algo falhar!**
 
 
 
@@ -249,8 +249,8 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-- Compilar o LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Ficheiros necessários**: Descarregue os 3 ficheiros necessários a partir desta página (serão utilizados nos passos seguintes):
+- **Compilar o LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Ficheiros necessários**: Descarregue os 3 ficheiros necessários a partir desta página (serão utilizados nos passos seguintes):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (ROM principal)
   - dtbo.img` (bolha da árvore de dispositivos de partição)
   - `boot.img` (recuperação do LineageOS)
@@ -269,13 +269,13 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-⚠️ **Este passo elimina todos os seus dados!
+⚠️ **Este passo elimina todos os seus dados!**
 
 
 
 
 
-- Testar a ligação ADB**: Ligue o seu dispositivo através de USB e teste-o com o comando `adb devices` a partir do terminal do seu computador
+- **Testar a ligação ADB**: Ligue o seu dispositivo através de USB e teste-o com o comando `adb devices` a partir do terminal do seu computador
 
 
 
@@ -289,7 +289,7 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-- Autorizar a ligação** no seu telemóvel
+- **Autorizar a ligação** no seu telemóvel
 
 
 
@@ -303,7 +303,7 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-- Arrancar no modo de carregador de arranque** :
+- **Arrancar no modo de carregador de arranque**:
 
 
 ```
@@ -317,7 +317,7 @@ Ou mantenha premido **Volume Down + Power** para desligar o dispositivo
 
 
 
-- Verificar a ligação fastboot**:
+- **Verificar a ligação fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Desbloquear o carregador de arranque** :
+- **Desbloquear o carregador de arranque**:
 
 
 ```
@@ -370,7 +370,7 @@ No dispositivo, utilize as teclas de volume para navegar e prima o botão **Powe
 
 
 
-- Após o reinício automático**, reativar a depuração USB nas opções do programador
+- Após o reinício automático, reativar a depuração USB nas opções do programador
 
 
 
@@ -385,8 +385,8 @@ No dispositivo, utilize as teclas de volume para navegar e prima o botão **Powe
 
 
 
-- Reiniciar o carregador de arranque**: Diminuir volume + Ligar
-- Flash** (substitua `/path/to/` pela pasta onde descarregou o ficheiro) :
+- **Reiniciar o carregador de arranque**: Diminuir volume + Ligar
+- **Flash** (substitua `/path/to/` pela pasta onde descarregou o ficheiro) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Recuperação flash** (substitua `/path/to/` pela pasta onde descarregou o ficheiro) :
+- **Recuperação flash** (substitua `/path/to/` pela pasta onde descarregou o ficheiro) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reiniciar em recuperação** para verificar
+- **Reiniciar em recuperação** para verificar
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reiniciar em recuperação**: Diminuir volume + Ligar → Modo de recuperação
+- **Reiniciar em recuperação**: Diminuir volume + Ligar → Modo de recuperação
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reposição de fábrica** : Digitar "Reposição de fábrica" → "Formatar dados / reposição de fábrica"
+- **Reposição de fábrica**: Digitar "Reposição de fábrica" → "Formatar dados / reposição de fábrica"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Regressar ao menu principal**
-- Carregamento lateral do LineageOS** :
+- **Regressar ao menu principal**
+- **Carregamento lateral do LineageOS**:
    - No dispositivo: "Aplicar atualização" → "Aplicar a partir de ADB"
    - No PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reiniciar**: "Reiniciar o sistema agora"
-- Primeira inicialização**: Pode demorar até 15 minutos
+- **Reiniciar**: "Reiniciar o sistema agora"
+- **Primeira inicialização**: Pode demorar até 15 minutos
 
 
 
@@ -515,14 +515,14 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-**Controlos críticos
+**Controlos críticos**
 
 
 
 
-- Compatibilidade de firmware**: Certifique-se de que verifica a versão de firmware necessária na página de transferência do seu modelo
-- Nunca voltar a bloquear** o carregador de arranque depois de instalar o LineageOS
-- Siga as instruções específicas** para o seu dispositivo
+- **Compatibilidade de firmware**: Certifique-se de que verifica a versão de firmware necessária na página de transferência do seu modelo
+- Nunca voltar a bloquear o carregador de arranque depois de instalar o LineageOS
+- Siga as **instruções específicas** para o seu dispositivo
 
 
 
@@ -553,17 +553,17 @@ Interface simplificado, próximo do Android stock, sem Google. Configuração si
 
 
 
-**Aplicações alternativas essenciais
+**Aplicações alternativas essenciais**
 
 
 
 
 
-- Navegação**: Mapas orgânicos (mapas offline baseados no OpenStreetMap)
-- Comunicação**: Signal (mensagens encriptadas de ponta a ponta), K-9 Mail (cliente de correio eletrónico gratuito)
-- Media**: NewPipe (YouTube sem anúncios e sem rastreio), VLC (leitor multimédia universal)
-- Produtividade**: Nextcloud (nuvem auto-hospedada), Simple Calendar (sincronização CalDAV)
-- Segurança**: Bitwarden (gestor de palavras-passe), Aegis Authenticator (códigos 2FA)
+- **Navegação**: Mapas orgânicos (mapas offline baseados no OpenStreetMap)
+- **Comunicação**: Signal (mensagens encriptadas de ponta a ponta), K-9 Mail (cliente de correio eletrónico gratuito)
+- **Media**: NewPipe (YouTube sem anúncios e sem rastreio), VLC (leitor multimédia universal)
+- **Produtividade**: Nextcloud (nuvem auto-hospedada), Simple Calendar (sincronização CalDAV)
+- **Segurança**: Bitwarden (gestor de palavras-passe), Aegis Authenticator (códigos 2FA)
 
 
 
@@ -661,7 +661,7 @@ Estas actualizações regulares são um trunfo importante, especialmente para os
 
 
 
-*o *GrapheneOS** centra-se exclusivamente na segurança máxima e funciona apenas nos Google Pixels para explorar os seus chips de segurança dedicados. O sistema incorpora numerosas atenuações avançadas contra exploits e reforça consideravelmente a proteção das aplicações.
+**O GrapheneOS** centra-se exclusivamente na segurança máxima e funciona apenas nos Google Pixels para explorar os seus chips de segurança dedicados. O sistema incorpora numerosas atenuações avançadas contra exploits e reforça consideravelmente a proteção das aplicações.
 
 
 

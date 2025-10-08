@@ -114,7 +114,7 @@ Wemeze amafaranga yawe ukanda kuri buto ya **Troc** kugira ugure ama bitcoins mu
 
 
 
-- Kuva ku Satoshi gushika ku mafranga ya CFA**
+- Kuva ku Satoshi gushika ku mafranga ya **CFA**
 
 
 

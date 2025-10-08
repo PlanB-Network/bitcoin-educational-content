@@ -26,9 +26,9 @@ Aurora Store is om de volgende redenen een van de populairste alternatieve app s
 
 
 
-- Een gestroomlijnde Interface**: de Interface faseert je niet in het minst, dus het is makkelijk om je draai te vinden.
-- Toegang tot miljoenen applicaties**: Aurora Store fungeert als een portaal naar een breed scala aan mobiele applicaties. Als de applicatie die je zoekt in de Google Play Store staat, vind je deze in de Aurora Store.
-- Geen Google Play-service vereist**: Dankzij de MicroG-technologie kunnen Android-toepassingen op je telefoon draaien zonder Google Play-services.
+- **Een gestroomlijnde Interface**: de Interface faseert je niet in het minst, dus het is makkelijk om je draai te vinden.
+- **Toegang tot miljoenen applicaties**: Aurora Store fungeert als een portaal naar een breed scala aan mobiele applicaties. Als de applicatie die je zoekt in de Google Play Store staat, vind je deze in de Aurora Store.
+- **Geen Google Play-service vereist**: Dankzij de MicroG-technologie kunnen Android-toepassingen op je telefoon draaien zonder Google Play-services.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store is niet alleen een afspiegeling van Google Play Store, het bevat oo
 
 
 
-- Onafhankelijkheid van Google:**
+- **Onafhankelijkheid van Google:**
 
 
 
@@ -112,7 +112,7 @@ In een context waarin je besluit om Google Play services uit te schakelen om je 
 
 
 
-- Downloadbesturing:**
+- **Downloadbesturing:**
 
 
 
@@ -126,7 +126,7 @@ Met Aurora Store kun je handmatig mobiele applicaties downloaden door de code op
 
 
 
-- Machtigingen:**
+- **Machtigingen:**
 
 
 In de beschrijving van de toepassing die u wilt installeren, moet u een volledige lijst opvragen van de machtigingen die u na de installatie aan deze toepassing wilt toekennen.
@@ -139,7 +139,7 @@ In de beschrijving van de toepassing die u wilt installeren, moet u een volledig
 
 
 
-- Gegevensbeschermingsanalyse:**
+- **Gegevensbeschermingsanalyse:**
 
 
 

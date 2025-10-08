@@ -277,10 +277,10 @@ Her takasın gerçek zamanlı izleme ile benzersiz bir tanımlayıcısı vardır
 
 
 
-- Basitlik**: Manuel kanal manipülasyonuna kıyasla birkaç tıklamayla değiştirme
-- Gözetim dışı**: KYC yok, hesap yok, fonlar asla üçüncü bir tarafa emanet edilmiyor
-- Şeffaflık**: ücretler doğrulamadan önce açıkça gösterilir (kullanıcı testlerine bağlı olarak %0,1 ila %0,5 + minage - her takasta mevcut ücretleri kontrol edin)
-- Mobil entegrasyon**: Zeus Wallet'de yerel deneyim
+- **Basitlik**: Manuel kanal manipülasyonuna kıyasla birkaç tıklamayla değiştirme
+- **Gözetim dışı**: KYC yok, hesap yok, fonlar asla üçüncü bir tarafa emanet edilmiyor
+- **Şeffaflık**: ücretler doğrulamadan önce açıkça gösterilir (kullanıcı testlerine bağlı olarak %0,1 ila %0,5 + minage - her takasta mevcut ücretleri kontrol edin)
+- **Mobil entegrasyon**: Zeus Wallet'de yerel deneyim
 
 
 
@@ -290,10 +290,10 @@ Her takasın gerçek zamanlı izleme ile benzersiz bir tanımlayıcısı vardır
 
 
 
-- Geçerlilik süreleri**: maksimum 24-48 saat, Bitcoin zamanında onaylanmazsa başarısızlık
-- Tutar limitleri**: minimum 25.000 Sats, Zeus LSP likiditesi koşullara göre değişken
-- On-Chain**'i izler: Blockchain analizi ile potansiyel olarak tanımlanabilen HTLC komut dosyaları
-- Onay gerekli**: Bitcoin doğrulaması için en az 10 dakika
+- **Geçerlilik süreleri**: maksimum 24-48 saat, Bitcoin zamanında onaylanmazsa başarısızlık
+- **Tutar limitleri**: minimum 25.000 Sats, Zeus LSP likiditesi koşullara göre değişken
+- **On-Chain** izler: Blockchain analizi ile potansiyel olarak tanımlanabilen HTLC komut dosyaları
+- **Onay gerekli**: Bitcoin doğrulaması için en az 10 dakika
 
 
 
@@ -320,7 +320,7 @@ Her takasın gerçek zamanlı izleme ile benzersiz bir tanımlayıcısı vardır
 
 
 - Bitcoin adreslerini dikkatlice kontrol edin (kopyala-yapıştır önerilir)
-- Zeus Swaps Kurtarma Anahtarını yedekleyin**: kurtarma anahtarını indirin ve güvenli bir yerde saklayın
+- **Zeus Swaps Kurtarma Anahtarını yedekleyin**: kurtarma anahtarını indirin ve güvenli bir yerde saklayın
 - Belge: Contract ID, iade Address, son kullanma tarihi
 - Zamanında onay için uygun Mining ücretlerini kullanın
 
@@ -354,15 +354,15 @@ Zeus Swap, Boltz'un arka uç teknolojisini kullanıyor, ancak bazı önemli iyil
 
 
 
-- Interface birleşik**: Zeus'ta yerel entegrasyon Wallet vs Interface web tekniği Boltz
-- WebSocket API**: manuel yoklamaya karşı gerçek zamanlı güncellemeler
-- Otomatik yönetim**: otomatik faturalandırma ve Address yönetimi
-- Mobil destek**: yalnızca akıllı telefon ve masaüstü optimizasyonu
-- Swagger belgeleri**: geliştiriciler için eksiksiz REST API
+- **Interface birleşik**: Zeus'ta yerel entegrasyon Wallet vs Interface web tekniği Boltz
+- **WebSocket API**: manuel yoklamaya karşı gerçek zamanlı güncellemeler
+- **Otomatik yönetim**: otomatik faturalandırma ve Address yönetimi
+- **Mobil destek**: yalnızca akıllı telefon ve masaüstü optimizasyonu
+- **Swagger belgeleri**: geliştiriciler için eksiksiz REST API
 
 
 
-*tam bağımsızlık ve herhangi bir Bitcoin/Lightning kurulumuyla kullanım için *Boltz avantajlı olmaya devam etmektedir**.
+**tam bağımsızlık ve herhangi bir Bitcoin/Lightning kurulumuyla kullanım için Boltz avantajlı olmaya devam etmektedir**.
 
 
 

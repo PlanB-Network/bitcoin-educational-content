@@ -130,10 +130,10 @@ O processo de cobrança é semelhante ao de uma transação convencional:
 
 
 
-- Introduzir o montante**: No ecrã de pagamento, introduzir o montante na moeda local (CHF ou EUR). Exemplo: para um café a 4,50 CHF, introduza 4,50
-- Geração de Invoice** : A aplicação converte instantaneamente o montante em satoshis à taxa atual e gera um Lightning Invoice sob a forma de um código QR
-- Pagamento do cliente** : O cliente lê o código QR com o seu Wallet Lightning e valida o pagamento
-- Confirmação** : O pagamento é confirmado em segundos, com indicação visual de sucesso
+- **Introduzir o montante**: No ecrã de pagamento, introduzir o montante na moeda local (CHF ou EUR). Exemplo: para um café a 4,50 CHF, introduza 4,50
+- **Geração de Invoice**: A aplicação converte instantaneamente o montante em satoshis à taxa atual e gera um Lightning Invoice sob a forma de um código QR
+- **Pagamento do cliente**: O cliente lê o código QR com o seu Wallet Lightning e valida o pagamento
+- **Confirmação**: O pagamento é confirmado em segundos, com indicação visual de sucesso
 
 
 
@@ -207,11 +207,11 @@ O processo de cobrança é semelhante ao de uma transação convencional:
 
 
 
-- Restauração**: Bares, restaurantes, cafés para aceitarem acréscimos em Bitcoin com gestão de gorjetas
-- Retalho**: Mercearias, padarias para expandir os métodos de pagamento sem encargos fixos
-- Vendedores nómadas**: camiões de comida, mercados, festivais com apenas um smartphone
-- Eventos** : Stands temporários com soluções prontas a utilizar
-- Serviços**: Consultores, artesãos para faturação pontual em Bitcoin
+- **Restauração**: Bares, restaurantes, cafés para aceitarem acréscimos em Bitcoin com gestão de gorjetas
+- **Retalho**: Mercearias, padarias para expandir os métodos de pagamento sem encargos fixos
+- **Vendedores nómadas**: camiões de comida, mercados, festivais com apenas um smartphone
+- **Eventos**: Stands temporários com soluções prontas a utilizar
+- **Serviços**: Consultores, artesãos para faturação pontual em Bitcoin
 
 
 

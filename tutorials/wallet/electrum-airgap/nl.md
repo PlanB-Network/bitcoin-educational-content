@@ -346,7 +346,7 @@ Pak de media uit met het `.PSBT` bestand en sluit het offline aan op de computer
 
 
 
-Kies nu vanuit de Wallet luchtspleet het menu _Tools_, dan _Load transaction_ en volg From file_.
+Kies nu vanuit de Wallet luchtspleet het menu **Tools**, dan **Load transaction** en volg **From file**.
 
 
 
@@ -441,7 +441,7 @@ De enige twee dingen waar je goed op moet letten:
 
 
 
-zoals je in de afbeelding hierboven kunt zien, kent de offline Wallet zijn eigen Address geschiedenis niet. Het is volledig blind in dit opzicht. **De enige taak die het voor jou kan doen, is je offline sleutels opslaan en je transacties ondertekenen**_.
+zoals je in de afbeelding hierboven kunt zien, kent de offline Wallet zijn eigen Address geschiedenis niet. Het is volledig blind in dit opzicht. **De enige taak die het voor jou kan doen, is je offline sleutels opslaan en je transacties ondertekenen**.
 
 
 

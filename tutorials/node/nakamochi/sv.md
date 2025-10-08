@@ -123,7 +123,7 @@ När din Nakamochi är konfigurerad och ansluten till en app för nodhantering k
 
 ![image](assets/en/06.webp)
 
-_ZEUS skärmdump_ _ZEUS skärmdump
+**ZEUS skärmdump** **ZEUS skärmdump**
 
 
 För mer information: [Kanaler | Zeus-dokumentation](https://docs.zeusln.app/)
@@ -145,7 +145,7 @@ För mer information: [Kanaler | Zeus-dokumentation](https://docs.zeusln.app/)
 
 ![image](assets/en/07.webp)
 
-_Bitbanana skärmdump_ _Bitbanana skärmdump
+**Bitbanana skärmdump** _Bitbanana skärmdump_
 
 
 För mer information: [BitBanana](https://bitbanana.com)

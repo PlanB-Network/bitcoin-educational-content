@@ -65,7 +65,7 @@ Bivanye n’umuravyo Wallet uriko urakoresha, uzosanga hariho amahitamwo akuriki
 
 
 
-- Alby Hub** ku bikoresho vya Alby Go, ivyungura Alby ku mucukumbuzi wawe.
+- **Alby Hub** ku bikoresho vya Alby Go, ivyungura Alby ku mucukumbuzi wawe.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Ibiciro** kugira ngo uhuze urubuga rwa Bitcoin Ibiciro Wallet.
-- Itara Wallet** kugira ngo uhuze n'Itara Wallet.
-- Ihuza rya LN**
+- **Ibiciro** kugira ngo uhuze urubuga rwa Bitcoin Ibiciro Wallet.
+- **Itara Wallet** kugira ngo uhuze n'Itara Wallet.
+- Ihuza rya LN
 
 
 

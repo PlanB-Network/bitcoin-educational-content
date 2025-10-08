@@ -26,9 +26,9 @@ Aurora Store adalah salah satu toko aplikasi alternatif yang paling populer untu
 
 
 
-- Interface yang ramping**: Interface tidak membuat Anda sedikit pun mengalami kesulitan, sehingga mudah untuk menemukan posisi Anda.
-- Akses ke jutaan aplikasi**: Aurora Store bertindak sebagai portal ke berbagai macam aplikasi seluler. Jika aplikasi yang Anda cari ada di Google Play Store, Anda akan menemukannya di Aurora Store.
-- Tidak memerlukan layanan Google Play**: Berkat teknologi MicroG, aplikasi Android dapat berjalan di ponsel Anda tanpa layanan Google Play.
+- **Interface yang ramping**: Interface tidak membuat Anda sedikit pun mengalami kesulitan, sehingga mudah untuk menemukan posisi Anda.
+- **Akses ke jutaan aplikasi**: Aurora Store bertindak sebagai portal ke berbagai macam aplikasi seluler. Jika aplikasi yang Anda cari ada di Google Play Store, Anda akan menemukannya di Aurora Store.
+- **Tidak memerlukan layanan Google Play**: Berkat teknologi MicroG, aplikasi Android dapat berjalan di ponsel Anda tanpa layanan Google Play.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store tidak hanya meniru Google Play Store, tetapi juga menyertakan fitur
 
 
 
-- Kemandirian dari Google:**
+- **Kemandirian dari Google:**
 
 
 
@@ -112,7 +112,7 @@ Dalam konteks di mana Anda memutuskan untuk menonaktifkan layanan Google Play un
 
 
 
-- Kontrol unduhan:** Kontrol unduhan
+- **Kontrol unduhan:** Kontrol unduhan
 
 
 
@@ -126,7 +126,7 @@ Aurora Store memungkinkan Anda mengunduh aplikasi seluler secara manual dengan m
 
 
 
-- Otorisasi:** Otorisasi
+- **Otorisasi:** Otorisasi
 
 
 Dalam deskripsi aplikasi yang ingin Anda instal, dapatkan daftar lengkap otorisasi yang akan Anda berikan kepada aplikasi ini setelah instalasi.
@@ -139,7 +139,7 @@ Dalam deskripsi aplikasi yang ingin Anda instal, dapatkan daftar lengkap otorisa
 
 
 
-- Analisis perlindungan data:** Analisis perlindungan data
+- **Analisis perlindungan data:** Analisis perlindungan data
 
 
 

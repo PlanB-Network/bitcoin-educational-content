@@ -130,10 +130,10 @@ Kogumisprotsess sarnaneb tavapärase tehingu omaga:
 
 
 
-- Sisestage summa**: Makseekraanil sisestage summa kohalikus vääringus (CHF või EUR). Näide: 4,50 CHF maksva kohvi puhul sisestage 4,50
-- Invoice põlvkond** : Rakendus konverteerib summa koheselt praeguse kursiga satoshi ja genereerib välk Invoice QR-koodi kujul
-- Kliendi makse** : Klient skaneerib QR-koodi oma Wallet Lightningiga ja kinnitab makse
-- Kinnitus** : Makse kinnitatakse sekundite jooksul, visuaalse ekraaniga õnnestumise kohta
+- **Sisestage summa**: Makseekraanil sisestage summa kohalikus vääringus (CHF või EUR). Näide: 4,50 CHF maksva kohvi puhul sisestage 4,50
+- **Invoice põlvkond**: Rakendus konverteerib summa koheselt praeguse kursiga satoshi ja genereerib välk Invoice QR-koodi kujul
+- **Kliendi makse**: Klient skaneerib QR-koodi oma Wallet Lightningiga ja kinnitab makse
+- **Kinnitus**: Makse kinnitatakse sekundite jooksul, visuaalse ekraaniga õnnestumise kohta
 
 
 
@@ -207,11 +207,11 @@ Kogumisprotsess sarnaneb tavapärase tehingu omaga:
 
 
 
-- Toitlustamine**: Baarid, restoranid, kohvikud, et võtta vastu lisandeid Bitcoin-s koos jootraha haldamisega
-- Jaemüük**: Toidukauplused, pagariärid, et laiendada makseviise ilma fikseeritud tasudeta
-- Nomadilised müüjad**: toiduautod, turud, festivalid ainult nutitelefoniga
-- Sündmused** : Ajutised stendid koos kasutusvalmis lahendustega
-- Teenused**: Konsultandid, käsitöölised Bitcoin ühekordseks arveldamiseks
+- **Toitlustamine**: Baarid, restoranid, kohvikud, et võtta vastu lisandeid Bitcoin-s koos jootraha haldamisega
+- **Jaemüük**: Toidukauplused, pagariärid, et laiendada makseviise ilma fikseeritud tasudeta
+- **Nomadilised müüjad**: toiduautod, turud, festivalid ainult nutitelefoniga
+- **Sündmused**: Ajutised stendid koos kasutusvalmis lahendustega
+- **Teenused**: Konsultandid, käsitöölised Bitcoin ühekordseks arveldamiseks
 
 
 

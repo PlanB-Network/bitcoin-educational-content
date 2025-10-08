@@ -346,7 +346,7 @@ Kura ibinyamakuru bifise dosiye `.PSBT` hanyuma ubihuze na mudasobwa itari ku mu
 
 
 
-Kuva mu gice c'umuyaga ca Wallet, ubu uhitemwo _Ibikoresho_, hanyuma _Ushiremwo ibikorwa_ hanyuma ukurikize Kuva kuri dosiye_.
+Kuva mu gice c'umuyaga ca Wallet, ubu uhitemwo _Ibikoresho_, hanyuma _Ushiremwo ibikorwa_ hanyuma ukurikize _Kuva kuri dosiye_.
 
 
 

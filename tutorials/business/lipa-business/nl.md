@@ -130,10 +130,10 @@ Het inningsproces is vergelijkbaar met dat van een conventionele transactie:
 
 
 
-- Voer bedrag** in: Voer op het betalingsscherm het bedrag in de lokale valuta (CHF of EUR) in. Voorbeeld: voor een koffie van 4,50 CHF voer je 4,50 in
-- Invoice genereren** : De applicatie rekent het bedrag onmiddellijk om in satoshis tegen de huidige koers en genereert een Lightning Invoice in de vorm van een QR-code
-- Betaling door de klant** : De klant scant de QR-code met zijn Wallet Lightning en valideert de betaling
-- Bevestiging** : De betaling wordt binnen enkele seconden bevestigd, met visuele weergave van het succes
+- **Voer bedrag in**: Voer op het betalingsscherm het bedrag in de lokale valuta (CHF of EUR) in. Voorbeeld: voor een koffie van 4,50 CHF voer je 4,50 in
+- **Invoice genereren**: De applicatie rekent het bedrag onmiddellijk om in satoshis tegen de huidige koers en genereert een Lightning Invoice in de vorm van een QR-code
+- **Betaling door de klant**: De klant scant de QR-code met zijn Wallet Lightning en valideert de betaling
+- **Bevestiging**: De betaling wordt binnen enkele seconden bevestigd, met visuele weergave van het succes
 
 
 
@@ -207,11 +207,11 @@ Het inningsproces is vergelijkbaar met dat van een conventionele transactie:
 
 
 
-- Catering**: Bars, restaurants, cafés om toevoegingen te accepteren in Bitcoin met fooienbeheer
-- Detailhandel**: Kruidenierswinkels, bakkerijen voor uitbreiding van betaalmethoden zonder vaste kosten
-- Nomadische verkopers**: foodtrucks, markten, festivals met alleen een smartphone
-- Evenementen** : Tijdelijke stands met kant-en-klare oplossingen
-- Diensten**: Adviseurs, vakmensen voor eenmalige facturering in Bitcoin
+- **Catering**: Bars, restaurants, cafés om toevoegingen te accepteren in Bitcoin met fooienbeheer
+- **Detailhandel**: Kruidenierswinkels, bakkerijen voor uitbreiding van betaalmethoden zonder vaste kosten
+- **Nomadische verkopers**: foodtrucks, markten, festivals met alleen een smartphone
+- **Evenementen**: Tijdelijke stands met kant-en-klare oplossingen
+- **Diensten**: Adviseurs, vakmensen voor eenmalige facturering in Bitcoin
 
 
 

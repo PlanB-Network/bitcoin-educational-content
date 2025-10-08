@@ -481,7 +481,7 @@ Zalecałbym w tej sekcji następujące elementy:
 ### PRZYPADEK 1 - PROBLEMY Z SYNCHRONIZACJĄ
 
 
-"_Mój Blixt nie synchronizuje się... Mój Blixt nie pokazuje salda... Mój Blixt nie może otwierać kanałów... Próbowałem przywrócić go na innym urządzeniu... itd."
+"_Mój Blixt nie synchronizuje się... Mój Blixt nie pokazuje salda... Mój Blixt nie może otwierać kanałów... Próbowałem przywrócić go na innym urządzeniu... itd._"
 
 
 Wszystkie te problemy zaczynają się, ponieważ URZĄDZENIE NIE JEST WŁAŚCIWIE SYNCHRONIZOWANE. Prosimy o zrozumienie tego ważnego aspektu: Blixt jest mobilnym węzłem LND, który używa Neutrino do synchronizacji / odczytu bloków.
@@ -555,7 +555,7 @@ Potrzeba więcej serwerów neutrino w regionie LATAM, dla lepszej i szybszej syn
 ### PRZYPADEK 2 - SYNCHRONIZACJA NIGDY SIĘ NIE KOŃCZY
 
 
-"_Mój Blixt ma dobre połączenie z serwerem neutrino, ale nie synchronizuje się."
+"_Mój Blixt ma dobre połączenie z serwerem neutrino, ale nie synchronizuje się._"
 
 
 #### Serwer czasu

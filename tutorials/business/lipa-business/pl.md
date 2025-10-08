@@ -130,10 +130,10 @@ Proces windykacji jest podobny do konwencjonalnej transakcji:
 
 
 
-- Wprowadź kwotę**: Na ekranie płatności wprowadź kwotę w lokalnej walucie (CHF lub EUR). Przykład: za kawę w cenie 4,50 CHF, wprowadź 4,50
-- Generowanie Invoice** : Aplikacja natychmiast przelicza kwotę na satoshi po aktualnym kursie i generuje błyskawiczny Invoice w formie kodu QR
-- Płatność klienta** : Klient skanuje kod QR za pomocą Wallet Lightning i zatwierdza płatność
-- Potwierdzenie** : Płatność jest potwierdzana w ciągu kilku sekund, z wizualnym wyświetleniem sukcesu
+- **Wprowadź kwotę**: Na ekranie płatności wprowadź kwotę w lokalnej walucie (CHF lub EUR). Przykład: za kawę w cenie 4,50 CHF, wprowadź 4,50
+- **Generowanie Invoice**: Aplikacja natychmiast przelicza kwotę na satoshi po aktualnym kursie i generuje błyskawiczny Invoice w formie kodu QR
+- **Płatność klienta**: Klient skanuje kod QR za pomocą Wallet Lightning i zatwierdza płatność
+- **Potwierdzenie**: Płatność jest potwierdzana w ciągu kilku sekund, z wizualnym wyświetleniem sukcesu
 
 
 
@@ -173,7 +173,7 @@ Proces windykacji jest podobny do konwencjonalnej transakcji:
 
 
 
-**Jak to działa? Otrzymana kwota jest natychmiast sprzedawana po kursie rynkowym i przelewana na konto bankowe. Przelew następuje zgodnie ze standardowymi terminami banku.
+**Jak to działa?** Otrzymana kwota jest natychmiast sprzedawana po kursie rynkowym i przelewana na konto bankowe. Przelew następuje zgodnie ze standardowymi terminami banku.
 
 
 
@@ -207,11 +207,11 @@ Proces windykacji jest podobny do konwencjonalnej transakcji:
 
 
 
-- Gastronomia**: Bary, restauracje, kawiarnie do przyjmowania dodatków w Bitcoin z zarządzaniem napiwkami
-- Handel detaliczny**: Sklepy spożywcze, piekarnie w celu rozszerzenia metod płatności bez stałych opłat
-- Nomadyczni sprzedawcy**: food trucki, targi, festiwale za pomocą smartfona
-- Wydarzenia** : Tymczasowe stoiska z gotowymi do użycia rozwiązaniami
-- Usługi**: Konsultanci, rzemieślnicy do jednorazowego rozliczenia w Bitcoin
+- **Gastronomia**: Bary, restauracje, kawiarnie do przyjmowania dodatków w Bitcoin z zarządzaniem napiwkami
+- **Handel detaliczny**: Sklepy spożywcze, piekarnie w celu rozszerzenia metod płatności bez stałych opłat
+- **Nomadyczni sprzedawcy**: food trucki, targi, festiwale za pomocą smartfona
+- **Wydarzenia**: Tymczasowe stoiska z gotowymi do użycia rozwiązaniami
+- **Usługi**: Konsultanci, rzemieślnicy do jednorazowego rozliczenia w Bitcoin
 
 
 

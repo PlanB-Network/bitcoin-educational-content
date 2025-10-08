@@ -132,7 +132,7 @@ StashPay ayarlarında, Wallet kullanımınızı kişiselleştirmek için yapıla
 
 
 
-StashPay, seçtiğiniz yerel para birimine göre Exchange satoshis yapmanızı sağlar. Para birimleri** seçeneğine tıklayın, ardından StashPay tarafından sunulan +113 para birimi listesinde para biriminizi arayın.
+StashPay, seçtiğiniz yerel para birimine göre Exchange satoshis yapmanızı sağlar. **Para birimleri** seçeneğine tıklayın, ardından StashPay tarafından sunulan +113 para birimi listesinde para biriminizi arayın.
 
 
 
@@ -140,7 +140,7 @@ StashPay, seçtiğiniz yerel para birimine göre Exchange satoshis yapmanızı s
 
 
 
-Alma seçenekleri** menüsünde, StashPay ile bitcoin almak için tüm ayarları bulacaksınız. Örneğin, **Choose Lightning or Onchain** seçeneğini seçerek, Wallet'ünüzün ana zincirden bitcoin almasını etkinleştirin.
+**Alma seçenekleri** menüsünde, StashPay ile bitcoin almak için tüm ayarları bulacaksınız. Örneğin, **Choose Lightning or Onchain** seçeneğini seçerek, Wallet'ünüzün ana zincirden bitcoin almasını etkinleştirin.
 
 
 
@@ -148,7 +148,7 @@ Alma seçenekleri** menüsünde, StashPay ile bitcoin almak için tüm ayarları
 
 
 
-OnChain adreslerini tara** seçeneği, çeşitli adreslerinize bağlı tüm UTXO'ları (henüz harcamadığınız bitcoinler) kontrol ederek Wallet'ünüzün bakiyesini yenilemenizi sağlar.
+**OnChain adreslerini tara** seçeneği, çeşitli adreslerinize bağlı tüm UTXO'ları (henüz harcamadığınız bitcoinler) kontrol ederek Wallet'ünüzün bakiyesini yenilemenizi sağlar.
 
 
 
@@ -156,7 +156,7 @@ OnChain adreslerini tara** seçeneği, çeşitli adreslerinize bağlı tüm UTXO
 
 
 
-Günlüğü dışa aktar** menüsü, çeşitli Bitcoin protokol zincirleri arasındaki işlemleriniz ve atomik alışverişlerinizle ilgili tüm Breez ve Boltz altyapı eylemlerini listeler.
+**Günlüğü dışa aktar** menüsü, çeşitli Bitcoin protokol zincirleri arasındaki işlemleriniz ve atomik alışverişlerinizle ilgili tüm Breez ve Boltz altyapı eylemlerini listeler.
 
 
 

@@ -172,7 +172,7 @@ LSP pomaga użytkownikom połączyć się z siecią Lightning, otwierając kana�
 W tej sekcji domyślnie ustawiony jest Olympus LSP (https://0conf.lnolymp.us), ale wkrótce będzie można również ustawić inny 0conf LSP, który obsługuje ten protokół.
 
 
-należy pamiętać:_
+należy pamiętać:
 
 po otwarciu kanału z Olympus LSP przy użyciu zapakowanych faktur LN otrzymujesz również 100k płynności przychodzącej! Jest to naprawdę dobra opcja w przypadku konieczności natychmiastowego otrzymania większej ilości Sats
 

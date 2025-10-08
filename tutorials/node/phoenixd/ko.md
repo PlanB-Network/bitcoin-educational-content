@@ -31,7 +31,7 @@ Phoenixd는 ACINQ에서 개발한 최소한의 전문화된 라이트닝 노드�
 
 
 
-**Phoenixd는 자동 유동성을 위해 ACINQ를 LSP(라이트닝 서비스 제공자)로 사용하는 최소한의 라이트닝 노드입니다. 라이트닝 결제를 받으면 자동으로 ACINQ 노드와 채널을 열어 필요한 수신 용량을 할당합니다. 이 "즉각적인" 유동성은 즉각적으로 제공되지만, 수신 금액의 정확히 **1% + Mining 수수료**가 부과됩니다.
+**Phoenixd는 자동 유동성을 위해 ACINQ를 LSP(라이트닝 서비스 제공자)로 사용하는 최소한의 라이트닝 노드입니다. 라이트닝 결제를 받으면 자동으로 ACINQ 노드와 채널을 열어 필요한 수신 용량을 할당합니다. 이 "즉각적인" 유동성은 즉각적으로 제공되지만, 수신 금액의 정확히 1% + Mining 수수료가 부과됩니다.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd는 ACINQ에서 개발한 최소한의 전문화된 라이트닝 노드�
 
 
 
-- 라이트닝** 채널: 필요에 따라 자동으로 열고, 닫고, 관리
-- 수신/발신 유동성**: 스플라이싱 및 채널 개방을 통한 자동 프로비저닝
-- 수수료 크레딧** : 채널을 정당화하기에 부족한 소액 결제 금액은 향후 청구에 대비한 충당금으로 저장됩니다
+- **라이트닝** 채널: 필요에 따라 자동으로 열고, 닫고, 관리
+- **수신/발신 유동성**: 스플라이싱 및 채널 개방을 통한 자동 프로비저닝
+- **수수료 크레딧** : 채널을 정당화하기에 부족한 소액 결제 금액은 향후 청구에 대비한 충당금으로 저장됩니다
 
 
 
@@ -50,7 +50,7 @@ Phoenixd는 ACINQ에서 개발한 최소한의 전문화된 라이트닝 노드�
 
 
 
-**개인 키(12단어 seed)와 자금은 사용자가 관리합니다. Phoenixd는 키를 공유하지 않고 로컬에서 Wallet를 생성합니다.
+**개인 키(12단어 seed)와 자금은 사용자가 관리합니다. Phoenixd는 키를 공유하지 않고 로컬에서 Wallet를 생성합니다.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd를 사용하려면 몇 가지 기본 명령줄 기술을 갖춘 Linux �
 
 
 
-- Linux 서버**: 안정적인 연결이 가능한 VPS 또는 로컬 머신
-- OpenJDK 21** : 자바 런타임 환경
-- 안정적인 인터넷 연결**: Lightning Network과의 동기화용
-- 도메인 이름** (선택 사항) : API에 대한 안전한 HTTPS 액세스용
+- **Linux 서버**: 안정적인 연결이 가능한 VPS 또는 로컬 머신
+- **OpenJDK 21** : 자바 런타임 환경
+- **안정적인 인터넷 연결**: Lightning Network과의 동기화용
+- **도메인 이름** (선택 사항) : API에 대한 안전한 HTTPS 액세스용
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. 첫 시작
+**2. 첫 시작**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- 서버의 신원 증명**(중간자 공격 방지)
-- HTTPS** 암호화 사용: API 비밀번호를 포함한 모든 데이터는 전송 중에 암호화됩니다
-- 렛츠 인크립트에서 인증봇 도구를 통해 무료로 발급**합니다
+- 서버의 신원 증명**(중간자 공격 방지)**
+- **HTTPS 암호화 사용**: API 비밀번호를 포함한 모든 데이터는 전송 중에 암호화됩니다
+- 렛츠 인크립트에서 인증봇 도구를 통해 무료로 **발급합니다**
 
 
 
@@ -297,10 +297,10 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- 인터넷에서 API에 대한 안전한 액세스**
-- 전송 중 API** 비밀번호 암호화(일반 텍스트로 전송되는 것을 방지하기 위해)
-- Phoenixd**를 HTTPS가 필요한 외부 애플리케이션에 통합하세요
-- 금융 API에 대한 보안 표준** 준수
+- 인터넷에서 API에 대한 **안전한 액세스**
+- 전송 중 **API 비밀번호 암호화**(일반 텍스트로 전송되는 것을 방지하기 위해)
+- **Phoenixd**를 HTTPS가 필요한 외부 애플리케이션에 통합하세요
+- **금융 API에 대한 보안 표준** 준수
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- 서비스 요금**: 채널 용량의 1%(2,115,000Sats) = 21,150Sats
-- Mining 수수료**: ~3,289 Sats(On-Chain 거래의 경우)
-- 합계**: 24,439 Sats 자동 공제됨
+- **서비스 요금**: 채널 용량의 1%(2,115,000Sats) = 21,150Sats
+- **Mining 수수료**: ~3,289 Sats(On-Chain 거래의 경우)
+- **합계**: 24,439 Sats 자동 공제됨
 
 
 
@@ -543,16 +543,16 @@ curl http://localhost:9740/getbalance \
 
 
 
-- 영수증**: 1% + 자동 유동성 수수료 Mining
-- 배송**: 0.gW-27의 경우 4%의 라우팅 수수료
+- **영수증**: 1% + 자동 유동성 수수료 Mining
+- **배송**: 0.gW-27의 경우 4%의 라우팅 수수료
 
 
 
-**웹훅: 웹훅을 사용하면 이벤트(결제 수신, Invoice 결제, 채널 오픈 등)가 발생하면 Phoenixd가 애플리케이션에 **자동으로 알림**을 보낼 수 있습니다. 애플리케이션은 Phoenixd에 지속적으로 업데이트를 요청하는 대신 즉각적인 HTTP 알림을 받습니다.
+**웹훅**: 웹훅을 사용하면 이벤트(결제 수신, Invoice 결제, 채널 오픈 등)가 발생하면 Phoenixd가 애플리케이션에 **자동으로 알림**을 보낼 수 있습니다. 애플리케이션은 Phoenixd에 지속적으로 업데이트를 요청하는 대신 즉각적인 HTTP 알림을 받습니다.
 
 
 
-**고객이 주문 금액을 결제하면 온라인 스토어에서 자동으로 알림을 수신하여 거래를 즉시 확인할 수 있습니다.
+**고객이 주문 금액을 결제하면 온라인 스토어에서 자동으로 알림을 수신하여 거래를 즉시 확인할 수 있습니다.**
 
 
 
@@ -684,7 +684,7 @@ PHOENIXD_API_PASSWORD=your_password_phoenixd
 
 
 
-*~/.phoenix 디렉토리:** 채널 상태를 유지하고 복원 속도를 높이려면 이 폴더를 정기적으로 백업하세요(Phoenixd가 종료된 후).
+**~/.phoenix 디렉토리:** 채널 상태를 유지하고 복원 속도를 높이려면 이 폴더를 정기적으로 백업하세요(Phoenixd가 종료된 후).
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**두 회사 모두 자동 유동성을 위해 ACINQ를 LSP로 사용합니다.
+**두 회사 모두 자동 유동성을 위해 ACINQ를 LSP로 사용합니다.**
 
 
 
@@ -866,9 +866,9 @@ Phoenixd를 사용하면 최신 REST API와 기술적 측면의 자동 관리 �
 
 
 
-- 깃허브 Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - 소스 코드 및 릴리즈
-- 피닉스 서버** 사이트: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - 문서 전문
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - 자주 묻는 질문
+- 깃허브 **Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - 소스 코드 및 릴리즈
+- **피닉스 서버** 사이트: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - 문서 전문
+- **FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - 자주 묻는 질문
 
 
 
@@ -877,5 +877,5 @@ Phoenixd를 사용하면 최신 REST API와 기술적 측면의 자동 관리 �
 
 
 
-- 깃허브 이슈** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - 기술 지원
-- 트위터 ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - 뉴스 및 공지사항
+- **깃허브 이슈** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - 기술 지원
+- 트위터 **ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - 뉴스 및 공지사항

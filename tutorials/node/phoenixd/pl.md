@@ -31,7 +31,7 @@ Phoenixd to minimalny, wyspecjalizowany węzeł Lightning opracowany przez ACINQ
 
 
 
-**Phoenixd to minimalny węzeł Lightning, który wykorzystuje ACINQ jako dostawcę usług LSP (Lightning Service Provider) w celu zapewnienia automatycznej płynności. Po otrzymaniu płatności Lightning automatycznie otwiera kanały z węzłami ACINQ, aby przydzielić niezbędną przepustowość przychodzącą. Ta płynność "w locie" jest natychmiastowa, ale naliczana w wysokości dokładnie **1% + opłaty Mining** otrzymanej kwoty.
+**Phoenixd to minimalny węzeł Lightning, który wykorzystuje ACINQ jako dostawcę usług LSP (Lightning Service Provider) w celu zapewnienia automatycznej płynności. Po otrzymaniu płatności Lightning automatycznie otwiera kanały z węzłami ACINQ, aby przydzielić niezbędną przepustowość przychodzącą. Ta płynność "w locie" jest natychmiastowa, ale naliczana w wysokości dokładnie 1% + opłaty Mining otrzymanej kwoty.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd to minimalny, wyspecjalizowany węzeł Lightning opracowany przez ACINQ
 
 
 
-- Kanały Lightning**: Otwieraj, zamykaj i zarządzaj automatycznie zgodnie z potrzebami
-- Płynność przychodząca/wychodząca**: Automatyczne dostarczanie poprzez łączenie i otwieranie kanałów
-- Kredyt na opłaty** : Małe płatności niewystarczające do uzasadnienia kanału są przechowywane jako rezerwa na przyszłe opłaty
+- **Kanały Lightning**: Otwieraj, zamykaj i zarządzaj automatycznie zgodnie z potrzebami
+- **Płynność przychodząca/wychodząca**: Automatyczne dostarczanie poprzez łączenie i otwieranie kanałów
+- **Kredyt na opłaty**: Małe płatności niewystarczające do uzasadnienia kanału są przechowywane jako rezerwa na przyszłe opłaty
 
 
 
@@ -50,7 +50,7 @@ Phoenixd to minimalny, wyspecjalizowany węzeł Lightning opracowany przez ACINQ
 
 
 
-**Użytkownik kontroluje swoje klucze prywatne (12-wyrazowe seed) i fundusze. Phoenixd generuje lokalnie Wallet bez udostępniania kluczy.
+**Użytkownik kontroluje swoje klucze prywatne (12-wyrazowe seed) i fundusze. Phoenixd generuje lokalnie Wallet bez udostępniania kluczy.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd wymaga środowiska Linux (zalecane Ubuntu/Debian), z podstawowymi umiej
 
 
 
-- Serwer Linux**: VPS lub lokalna maszyna ze stabilnym połączeniem
-- OpenJDK 21** : Środowisko uruchomieniowe Java
-- Stabilne połączenie internetowe**: Do synchronizacji z Lightning Network
-- Nazwa domeny** (opcjonalnie) : Dla bezpiecznego dostępu HTTPS do API
+- **Serwer Linux**: VPS lub lokalna maszyna ze stabilnym połączeniem
+- **OpenJDK 21**: Środowisko uruchomieniowe Java
+- **Stabilne połączenie internetowe**: Do synchronizacji z Lightning Network
+- **Nazwa domeny** (opcjonalnie): Dla bezpiecznego dostępu HTTPS do API
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Pierwsze uruchomienie
+**2. Pierwsze uruchomienie**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Potwierdzenie tożsamości serwera** (zapobiega atakom typu man-in-the-middle)
-- Włącza szyfrowanie HTTPS**: wszystkie dane, w tym hasła API, są szyfrowane podczas transportu
-- Wydawane bezpłatnie** przez Let's Encrypt za pośrednictwem narzędzia certbot
+- **Potwierdzenie tożsamości serwera** (zapobiega atakom typu man-in-the-middle)
+- **Włącza szyfrowanie HTTPS**: wszystkie dane, w tym hasła API, są szyfrowane podczas transportu
+- **Wydawane bezpłatnie** przez Let's Encrypt za pośrednictwem narzędzia certbot
 
 
 
@@ -297,10 +297,10 @@ Ta konfiguracja umożliwia :
 
 
 
-- Bezpieczny dostęp do API z Internetu**
-- Szyfrowanie haseł API** podczas transportu (aby zapobiec przesyłaniu ich w postaci zwykłego tekstu)
-- Integracja Phoenixd** z zewnętrznymi aplikacjami wymagającymi HTTPS
-- Zgodność ze standardami bezpieczeństwa** dla finansowych interfejsów API
+- **Bezpieczny dostęp do API z Internetu**
+- **Szyfrowanie haseł API** podczas transportu (aby zapobiec przesyłaniu ich w postaci zwykłego tekstu)
+- Integracja **Phoenixd** z zewnętrznymi aplikacjami wymagającymi HTTPS
+- **Zgodność ze standardami bezpieczeństwa** dla finansowych interfejsów API
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Opłata za usługę**: 1% przepustowości kanału (2 115 000 Sats) = 21 150 Sats
-- Opłaty Mining**: ~3,289 Sats (za transakcję On-Chain)
-- Razem**: 24 439 Sats odliczone automatycznie
+- **Opłata za usługę**: 1% przepustowości kanału (2 115 000 Sats) = 21 150 Sats
+- **Opłaty Mining**: ~3,289 Sats (za transakcję On-Chain)
+- **Razem**: 24 439 Sats odliczone automatycznie
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Odbiór**: 1% + opłata Mining za automatyczną płynność
-- Wysyłka**: 0.4% opłaty trasowej na Lightning Network
+- **Odbiór**: 1% + opłata Mining za automatyczną płynność
+- **Wysyłka**: 0.4% opłaty trasowej na Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Twój sklep internetowy automatycznie otrzymuje powiadomienie, gdy klient płaci za zamówienie, umożliwiając natychmiastowe zatwierdzenie transakcji.
+**Twój sklep internetowy automatycznie otrzymuje powiadomienie, gdy klient płaci za zamówienie, umożliwiając natychmiastowe zatwierdzenie transakcji.**
 
 
 
@@ -620,7 +620,7 @@ LNbits może korzystać z Phoenixd jako źródła finansowania zgodnie z [oficja
 
 
 
-*konfiguracja *LNbits:**
+**konfiguracja LNbits:**
 
 
 ```bash
@@ -684,7 +684,7 @@ Dzięki wszechstronnemu interfejsowi API REST można tworzyć aplikacje :
 
 
 
-*katalog ~/.phoenix:** Regularnie twórz kopie zapasowe tego folderu (po zamknięciu Phoenixd), aby zachować stan kanału i przyspieszyć przywracanie.
+**katalog ~/.phoenix:** Regularnie twórz kopie zapasowe tego folderu (po zamknięciu Phoenixd), aby zachować stan kanału i przyspieszyć przywracanie.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Oba używają ACINQ jako LSP dla automatycznej płynności.
+**Oba używają ACINQ jako LSP dla automatycznej płynności.**
 
 
 
@@ -866,9 +866,9 @@ Dzięki Phoenixd możesz zbudować własną prywatną infrastrukturę Lightning 
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kod źródłowy i wydania
-- Strona Phoenix Server**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Pełna dokumentacja
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Często zadawane pytania
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kod źródłowy i wydania
+- **Strona Phoenix Server**: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Pełna dokumentacja
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Często zadawane pytania
 
 
 
@@ -877,5 +877,5 @@ Dzięki Phoenixd możesz zbudować własną prywatną infrastrukturę Lightning 
 
 
 
-- Problemy GitHub** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Wsparcie techniczne
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Wiadomości i ogłoszenia
+- **Problemy GitHub**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Wsparcie techniczne
+- Twitter **ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Wiadomości i ogłoszenia

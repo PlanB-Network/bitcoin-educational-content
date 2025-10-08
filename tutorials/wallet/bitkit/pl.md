@@ -16,7 +16,7 @@ Bitkit to mobilny Wallet z funkcją samokontroli, który umożliwia Ci przejęci
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-powyższy samouczek wideo to kompleksowy przewodnik po Bitkit Wallet_
+powyższy samouczek wideo to kompleksowy przewodnik po Bitkit Wallet
 
 
 ## Przewodnik

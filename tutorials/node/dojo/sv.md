@@ -160,7 +160,7 @@ Sätt i det startbara USB-minnet i den avstängda datorn (den som du vill köra 
 
 
 
-Startskärmen för Ubuntu visas. Välj "Prova eller installera Ubuntu*".
+Startskärmen för Ubuntu visas. Välj "Prova eller installera Ubuntu".
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **Var vänlig håll denna Address strikt konfidentiell
+⚠️ **Var vänlig håll denna Address strikt konfidentiell**
 
 
 
@@ -1269,7 +1269,7 @@ fulcrum | The database has been corrupted etc...
 
 
 
-**Denna typ av fel bör rättas till i den kommande versionen av Fulcrum 2.0.
+**Denna typ av fel bör rättas till i den kommande versionen av Fulcrum 2.0.**
 
 
 
@@ -1426,7 +1426,7 @@ För att komma åt din webbläsare från vilken maskin som helst i vilket nätve
 
 
 
-⚠️ **Var vänlig håll denna Address strikt konfidentiell
+⚠️ **Var vänlig håll denna Address strikt konfidentiell**
 
 
 

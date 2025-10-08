@@ -276,7 +276,7 @@ Zde najdete dvě možnosti zálohování dat:
 
 
 
-"Threema Safe* ukládá všechny informace o vašem účtu, kromě konverzací, na serverech společnosti Threema. Tyto údaje jsou zašifrovány heslem, které jste si zvolili při vytváření účtu, čímž je zajištěno, že k nim společnost Threema nemá přístup. Zálohování se provádí automaticky a pravidelně.
+"**Threema Safe** ukládá všechny informace o vašem účtu, kromě konverzací, na serverech společnosti Threema. Tyto údaje jsou zašifrovány heslem, které jste si zvolili při vytváření účtu, čímž je zajištěno, že k nim společnost Threema nemá přístup. Zálohování se provádí automaticky a pravidelně.
 
 
 

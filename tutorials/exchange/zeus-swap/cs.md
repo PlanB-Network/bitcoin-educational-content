@@ -277,10 +277,10 @@ Každá výměna má jedinečný identifikátor se sledováním v reálném čas
 
 
 
-- Jednoduchost**: Výměna na několik kliknutí oproti ruční manipulaci s kanály
-- Bez úschovy**: žádné KYC, žádný účet, finanční prostředky nikdy nesvěřené třetí straně
-- Transparentnost**: poplatky se explicitně zobrazují před validací (0,1 % až 0,5 % + minima v závislosti na uživatelských testech - aktuální poplatky si ověřte při každé výměně)
-- Integrace mobilních zařízení**: nativní prostředí v Zeus Wallet
+- **Jednoduchost**: Výměna na několik kliknutí oproti ruční manipulaci s kanály
+- **Bez úschovy**: žádné KYC, žádný účet, finanční prostředky nikdy nesvěřené třetí straně
+- **Transparentnost**: poplatky se explicitně zobrazují před validací (0,1 % až 0,5 % + minima v závislosti na uživatelských testech - aktuální poplatky si ověřte při každé výměně)
+- **Integrace mobilních zařízení**: nativní prostředí v Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Každá výměna má jedinečný identifikátor se sledováním v reálném čas
 
 
 
-- Doba platnosti**: pokud Bitcoin není potvrzen včas, je možné jej zrušit
-- Limity částek**: minimálně 25 000 Sats, likvidita Zeus LSP se mění podle podmínek
-- Stopy On-Chain**: Skripty HTLC potenciálně identifikovatelné analýzou Blockchain
-- Požadované potvrzení**: minimálně 10 minut pro ověření platnosti Bitcoin
+- **Doba platnosti**: pokud Bitcoin není potvrzen včas, je možné jej zrušit
+- **Limity částek**: minimálně 25 000 Sats, likvidita Zeus LSP se mění podle podmínek
+- **Stopy On-Chain**: Skripty HTLC potenciálně identifikovatelné analýzou Blockchain
+- **Požadované potvrzení**: minimálně 10 minut pro ověření platnosti Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Každá výměna má jedinečný identifikátor se sledováním v reálném čas
 
 
 - Pečlivě zkontrolujte adresy Bitcoin (doporučujeme kopírovat a vkládat)
-- Zálohování záchranného klíče Zeus Swaps**: stáhněte a uložte klíč k obnovení na bezpečném místě
+- **Zálohování záchranného klíče Zeus Swaps**: stáhněte a uložte klíč k obnovení na bezpečném místě
 - Dokument: Contract ID, náhrada Address, datum ukončení platnosti
 - Pro včasné potvrzení použijte příslušné poplatky Mining
 
@@ -354,11 +354,11 @@ Zeus Swap využívá technologii Boltzova backendu, ale přináší několik zá
 
 
 
-- Interface unified**: nativní integrace v systému Zeus Wallet vs Interface webová technika Boltz
-- WebSocket API**: aktualizace v reálném čase vs. ruční dotazování
-- Automatizovaná správa**: automatická fakturace a správa Address
-- Podpora mobilních zařízení**: optimalizace pouze pro chytré telefony a stolní počítače
-- Dokumentace Swagger**: kompletní rozhraní REST API pro vývojáře
+- **Interface unified**: nativní integrace v systému Zeus Wallet vs Interface webová technika Boltz
+- **WebSocket API**: aktualizace v reálném čase vs. ruční dotazování
+- **Automatizovaná správa**: automatická fakturace a správa Address
+- **Podpora mobilních zařízení**: optimalizace pouze pro chytré telefony a stolní počítače
+- **Dokumentace Swagger**: kompletní rozhraní REST API pro vývojáře
 
 
 

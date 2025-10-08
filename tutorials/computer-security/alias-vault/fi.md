@@ -36,10 +36,10 @@ Yhdessä Interface Alias Holvi on:
 
 
 
-- Ilmainen ja avoin lähdekoodi**
-- Salasanahallinta**, joka tallentaa kaikki monimutkaiset salasanat. Selainlaajennuksen avulla salasanahallinta täydentää kirjautumiset verkkosivuille
-- 2FA**, tukemaan kaksitekijätodennusta
-- Alias manager, jossa on upotettu sähköpostipalvelin**: Pikemminkin se luo varsinaiset alter-egot, jotka sisältävät etunimen, sukunimen, sukupuolen, käyttäjätunnuksen, salasanan ja syntymäpäivän (jos nämä tiedot vaaditaan).
+- **Ilmainen ja avoin lähdekoodi**
+- **Salasanahallinta**, joka tallentaa kaikki monimutkaiset salasanat. Selainlaajennuksen avulla salasanahallinta täydentää kirjautumiset verkkosivuille
+- **2FA**, tukemaan kaksitekijätodennusta
+- **Alias manager, jossa on upotettu sähköpostipalvelin**: Pikemminkin se luo varsinaiset alter-egot, jotka sisältävät etunimen, sukunimen, sukupuolen, käyttäjätunnuksen, salasanan ja syntymäpäivän (jos nämä tiedot vaaditaan).
 
 
 

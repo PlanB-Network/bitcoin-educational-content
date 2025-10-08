@@ -14,7 +14,7 @@ Bobin julkaisema staattinen osoite koostuu nyt seuraavista osista: $B_{\text{sca
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
-Aloitamme vain etiketistä $1$, koska etiketti $0$ on varattu muutosta varten. Alice, joka haluaa lähettää bitcoineja Bobin antamaan staattiseen osoitteeseen, johtaa yksilöllisen maksuosoitteen $P_0$ käyttämällä uutta $B_1$:a $B_{\text{spend}}$:n sijaan:
+Aloitamme vain etiketistä **1**, koska etiketti **0** on varattu muutosta varten. Alice, joka haluaa lähettää bitcoineja Bobin antamaan staattiseen osoitteeseen, johtaa yksilöllisen maksuosoitteen **P_0** käyttämällä uutta **B_1**:a **B_spend**:n sijaan:
 
 $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G$ $$
 

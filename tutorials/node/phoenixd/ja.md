@@ -31,7 +31,7 @@ Phoenixdは、ACINQが開発した最小限のLightning専用ノードです。F
 
 
 
-**Phoenixdは、ACINQをLSP（Lightning Service Provider）として使用し、自動的に流動性を確保する最小限のLightningノードです。Lightningの支払いを受けると、自動的にACINQノードとチャネルを開き、必要な受信容量を割り当てます。この「オンザフライ」リクイディティは瞬時に行われますが、受信金額の**1% + Mining手数料**が課金されます。
+**Phoenixdは、ACINQをLSP（Lightning Service Provider）として使用し、自動的に流動性を確保する最小限のLightningノードです。Lightningの支払いを受けると、自動的にACINQノードとチャネルを開き、必要な受信容量を割り当てます。この「オンザフライ」リクイディティは瞬時に行われますが、受信金額の1% + Mining手数料が課金されます。**
 
 
 
@@ -40,9 +40,9 @@ Phoenixdは、ACINQが開発した最小限のLightning専用ノードです。F
 
 
 
-- ライトニング**チャンネル：必要に応じて自動的に開設、閉鎖、管理
-- 入出力流動性**：スプライシングとチャネル・オープニングによる自動プロビジョニング
-- 料金クレジット** ：チャネルを正当化するには不十分な少額の支払いは、将来の料金のための引当金として保存されます。
+- **ライトニングチャンネル**：必要に応じて自動的に開設、閉鎖、管理
+- **入出力流動性**：スプライシングとチャネル・オープニングによる自動プロビジョニング
+- **料金クレジット**：チャネルを正当化するには不十分な少額の支払いは、将来の料金のための引当金として保存されます。
 
 
 
@@ -50,7 +50,7 @@ Phoenixdは、ACINQが開発した最小限のLightning専用ノードです。F
 
 
 
-**秘密鍵（12ワードのseed）と資金を管理します。Phoenixdは、あなたの鍵を共有することなく、あなたのWalletをローカルに生成します。
+**秘密鍵（12ワードのseed）と資金を管理します。Phoenixdは、あなたの鍵を共有することなく、あなたのWalletをローカルに生成します。**
 
 
 
@@ -62,7 +62,7 @@ Phoenixdは、ACINQが開発した最小限のLightning専用ノードです。F
 
 
 
-**簡単なREST APIにより、PhoenixdはLightning決済を必要とするあらゆるアプリケーションやサービスに統合することができます。
+**簡単なREST APIにより、PhoenixdはLightning決済を必要とするあらゆるアプリケーションやサービスに統合することができます。**
 
 
 
@@ -84,10 +84,10 @@ Phoenixdを使用するには、Linux環境（Ubuntu/Debian推奨）と基本的
 
 
 
-- Linuxサーバー**：VPSまたは安定した接続のあるローカルマシン
-- OpenJDK 21** ：Java実行環境
-- 安定したインターネット接続**：Lightning Networkとの同期用
-- ドメイン名**（オプション）：APIへの安全なHTTPSアクセス用
+- Linuxサーバー：VPSまたは安定した接続のあるローカルマシン
+- **OpenJDK 21** ：Java実行環境
+- 安定したインターネット接続：Lightning Networkとの同期用
+- ドメイン名**（オプション）**：APIへの安全なHTTPSアクセス用
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2.最初のスタートアップ
+**2.最初のスタートアップ**
 
 
 
@@ -131,7 +131,7 @@ Phoenixdを起動して初期化を行う：
 
 
 
-**メッセージ1 バックアップ
+**メッセージ1 バックアップ**
 
 
 ```
@@ -146,7 +146,7 @@ Do not share the same seed with other phoenix instances (mobile or server), it w
 
 
 
-*メッセージ2 - 自動流動性：***。
+**メッセージ2 - 自動流動性：**
 
 
 ```
@@ -249,7 +249,7 @@ http-password-limited-access=limited_password
 
 
 
-**主なパラメーター
+**主なパラメーター**
 
 
 
@@ -268,7 +268,7 @@ http-password-limited-access=limited_password
 
 
 
-**逆プロキシの原則
+**逆プロキシの原則**
 
 
 ```
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- サーバーの身元を証明する**（中間者攻撃を防ぐ）
-- HTTPS**暗号化を有効にする：APIパスワードを含むすべてのデータは、転送中に暗号化されます。
-- Let's Encryptがcertbotツールで無料発行**。
+- サーバーの身元を証明する**（中間者攻撃を防ぐ）**
+- **HTTPS暗号化を有効にする**：APIパスワードを含むすべてのデータは、転送中に暗号化されます。
+- Let's Encryptがcertbotツールで無料発行。
 
 
 
@@ -297,10 +297,10 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- インターネットからAPIへのセキュアなアクセス**。
-- 転送時にAPI**パスワードを暗号化する（平文で転送されるのを防ぐ）。
-- HTTPS を必要とする外部アプリケーションに Phoenixd** を組み込む
-- 金融APIのセキュリティ標準**への準拠
+- インターネットからAPIへのセキュアなアクセス。
+- 転送時に**APIパスワードを暗号化する**（平文で転送されるのを防ぐ）。
+- HTTPS を必要とする外部アプリケーションに **Phoenixd** を組み込む
+- 金融APIのセキュリティ標準への準拠
 
 
 
@@ -407,7 +407,7 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-**基本原則:** ライトニング決済を受け取る際、Phoenixdは新しいチャネルを開設しなければならないことがあります。このチャネル開設には手数料がかかり、この手数料は受け取った金額から**自動的に差し引かれます。
+**基本原則:** ライトニング決済を受け取る際、Phoenixdは新しいチャネルを開設しなければならないことがあります。このチャネル開設には手数料がかかり、この手数料は受け取った金額から**自動的に差し引かれます**。
 
 
 
@@ -437,13 +437,13 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- サービス料**：チャンネル容量の1％（211万5000Sats）＝2万1150Sats
-- Miningの手数料**：~3,289 Sats（On-Chainの取引の場合）
-- 合計**：24,439 Satsが自動的に差し引かれる
+- サービス料：チャンネル容量の1％（211万5000Sats）＝2万1150Sats
+- **Miningの手数料**：~3,289 Sats（On-Chainの取引の場合）
+- **合計**：24,439 Satsが自動的に差し引かれる
 
 
 
-*CLIコマンドによる検証：***。
+**CLIコマンドによる検証：**
 
 
 ```bash
@@ -510,7 +510,7 @@ Phoenixdは9740番ポートでREST APIを公開しており、.NET Frameworkの�
 
 
 
-**基本業務
+**基本業務**
 
 
 ```bash
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- レシート**：自動流動性の場合、1% + Mining手数料
-- 送料**： 0.Lightning Networkに4％の配送料がかかります。
+- レシート：自動流動性の場合、**1% + Mining手数料**
+- 送料**：** Lightning Networkに4％の配送料がかかります。
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**顧客が注文の代金を支払うと、オンラインストアは自動的に通知を受信し、トランザクションの即時検証を可能にします。
+**顧客が注文の代金を支払うと、オンラインストアは自動的に通知を受信し、トランザクションの即時検証を可能にします。**
 
 
 
@@ -620,7 +620,7 @@ LNbitsは、その[公式文書](https://docs.lnbits.org/guide/wallets.html)に�
 
 
 
-**LNbitsのコンフィギュレーション
+**LNbitsのコンフィギュレーション**
 
 
 ```bash
@@ -684,11 +684,11 @@ PHOENIXD_API_PASSWORD=your_password_phoenixd
 
 
 
-*~/.phoenix ディレクトリ:** このフォルダを定期的にバックアップすることで、(Phoenixd がシャットダウンされた後でも) チャネルの状態を保持し、復元を高速化します。
+**~/.phoenix ディレクトリ:** このフォルダを定期的にバックアップすることで、(Phoenixd がシャットダウンされた後でも) チャネルの状態を保持し、復元を高速化します。
 
 
 
-**また、Phoenixで2FAを有効にしたすべてのサービスのバックアップコードも保管してください。
+**また、Phoenixで2FAを有効にしたすべてのサービスのバックアップコードも保管してください。**
 
 
 
@@ -696,7 +696,7 @@ PHOENIXD_API_PASSWORD=your_password_phoenixd
 
 
 
-*モニタリング・ログ：***。
+**モニタリング・ログ：**。
 
 
 ```bash
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**どちらも自動流動性のためにACINQをLSPとして使用している。
+**どちらも自動流動性のためにACINQをLSPとして使用している。**
 
 
 
@@ -764,7 +764,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**フェニックス
+**フェニックス**
 
 
 
@@ -785,7 +785,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**認証に失敗しました。
+**認証に失敗しました。**
 
 
 1.ファイル `~/.phoenix/phoenix.conf` のパスワードをチェックする。
@@ -798,7 +798,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**接続タイムアウト
+**接続タイムアウト**
 
 
 
@@ -813,7 +813,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**支払いが届かない。
+**支払いが届かない。**
 
 
 1.金額が最低基準額（～3万Sats）を超えていることを確認する。
@@ -866,9 +866,9 @@ Phoenixdを使用すると、最新のREST APIと技術的側面の自動管理�
 
 
 
-- GitHub Phoenixd** ：[github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - ソースコードとリリース
-- Phoenix Server**のサイト：[phoenix.acinq.co/server](https://phoenix.acinq.co/server) - ドキュメント全文
-- FAQ Phoenixd** ：[phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - よくある質問
+- **GitHub Phoenixd**：[github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - ソースコードとリリース
+- **Phoenix Server**のサイト：[phoenix.acinq.co/server](https://phoenix.acinq.co/server) - ドキュメント全文
+- **FAQ Phoenixd**：[phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - よくある質問
 
 
 
@@ -877,5 +877,5 @@ Phoenixdを使用すると、最新のREST APIと技術的側面の自動管理�
 
 
 
-- GitHub Issues** ：[github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - 技術サポート
-- ツイッター ACINQ** ：[@ACINQ_co](https://twitter.com/ACINQ_co) - ニュースとお知らせ
+- **GitHub Issues**：[github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - 技術サポート
+- ツイッター **ACINQ** ：[@ACINQ_co](https://twitter.com/ACINQ_co) - ニュースとお知らせ

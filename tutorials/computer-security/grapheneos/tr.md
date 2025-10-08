@@ -128,7 +128,7 @@ GrapheneOS başlangıç ekranı
 
 
 
-i̇lk önyükleme ve kurulumdan sonra, Ayarlar > Sistem > Geliştirici Seçenekleri'nden OEM kilidini devre dışı bırakmak iyi bir uygulamadır._
+İlk önyükleme ve kurulumdan sonra, Ayarlar > Sistem > Geliştirici Seçenekleri'nden OEM kilidini devre dışı bırakmak iyi bir uygulamadır.
 
 
 _Ayrıca Auditor uygulaması aracılığıyla yüklemeyi doğrulamak için ekstra, isteğe bağlı ancak önerilen adımı atmak isteyebilirsiniz. Bu adımı tamamlamak için uygulamanın yüklü olduğu ayrı bir Android telefona ihtiyacınız olacaktır. Bununla ilgili talimatları [burada] (https://attestation.app/tutorial) bulabilirsiniz._

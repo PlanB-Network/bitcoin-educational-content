@@ -346,7 +346,7 @@ Wyodrębnij nośnik z plikiem `.PSBT` i podłącz go do komputera w trybie offli
 
 
 
-W oknie Wallet airgap wybierz menu _Tools_, a następnie _Load transaction_ i wybierz opcję From file_.
+W oknie Wallet airgap wybierz menu _Tools_, a następnie _Load transaction_ i wybierz opcję _From file_.
 
 
 
@@ -441,7 +441,7 @@ Jedyne rzeczy, na które należy zwrócić szczególną uwagę, to dwie kwestie:
 
 
 
-jak widać na powyższym obrazku, Wallet offline nie zna własnej historii Address. Pod tym względem jest całkowicie ślepy. **Jego jedynym zadaniem jest przechowywanie kluczy offline i podpisywanie transakcji**_.
+jak widać na powyższym obrazku, Wallet offline nie zna własnej historii Address. Pod tym względem jest całkowicie ślepy. **Jego jedynym zadaniem jest przechowywanie kluczy offline i podpisywanie transakcji**.
 
 
 

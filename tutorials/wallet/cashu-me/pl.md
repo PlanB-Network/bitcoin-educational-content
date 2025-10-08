@@ -9,7 +9,7 @@ description: Przewodnik Cashu.me dotyczący korzystania z ecash
 ![video](https://www.youtube.com/watch?v=LIPw1c74LBU)
 
 
-*Oto samouczek wideo od BTC Sessions, który przeprowadzi Cię przez proces konfiguracji i korzystania z Cashu.me Bitcoin Wallet, który zapewnia dostęp do prostych, tanich i prywatnych transakcji Bitcoin - bez potrzeby korzystania ze sklepu z aplikacjami!
+*Oto samouczek wideo od BTC Sessions, który przeprowadzi Cię przez proces konfiguracji i korzystania z Cashu.me Bitcoin Wallet, który zapewnia dostęp do prostych, tanich i prywatnych transakcji Bitcoin - bez potrzeby korzystania ze sklepu z aplikacjami!*
 
 
 W tym samouczku poznamy Cashu.me, oparty na przeglądarce Wallet do prywatnych płatności Bitcoin przy użyciu Chaumian ecash. Zanim zagłębimy się w temat, zróbmy krótkie wprowadzenie do ecash i jego działania.
@@ -43,16 +43,16 @@ Zapoznajmy się z funkcjami i odkryjmy, co Cashu.me ma do zaoferowania:
 
 
 
-- Chaumian ecash na Lightning**: Używa ślepych podpisów, więc mennice nie mogą śledzić sald użytkowników ani historii transakcji
-- Samodzielna kontrola tokenów**: Kontrolujesz tokeny ecash lokalnie za pomocą frazy seed
-- Kopie zapasowe frazy seed**: 12-wyrazowa fraza odzyskiwania dla przywracania Wallet
-- Niezależność od mennicy**: Współpracuje z wieloma niezależnymi mennicami - nie jesteś uzależniony od jednego dostawcy
-- Natychmiastowe, bezpłatne transakcje**: W tej samej mennicy płatności są finalizowane w ciągu kilku sekund bez żadnych opłat
-- Architektura chroniąca prywatność**: Mennice nie widzą, kto z kim dokonuje transakcji
-- Offline ecash**: Wysyłanie/odbieranie tokenów za pośrednictwem lokalnego protokołu transmisji, takiego jak NFC, kod QR, Bluetooth itp. bez połączenia z Internetem
-- Odkryj mennice ecash za pośrednictwem Nostr**: Znajdź i zweryfikuj zaufane mennice za pomocą protokołu Nostr
-- Wymieniaj ecash między mennicami**: Wszystkie mennice posługują się technologią Lightning, co oznacza, że można przesyłać wartość między nimi.
-- Zdalne sterowanie Wallet za pomocą Nostr Wallet Connect (NWC)**: Połącz się z innymi aplikacjami, takimi jak Nostr Client i rozpocznij zapping za pomocą NWC
+- **Chaumian ecash na Lightning**: Używa ślepych podpisów, więc mennice nie mogą śledzić sald użytkowników ani historii transakcji
+- **Samodzielna kontrola tokenów**: Kontrolujesz tokeny ecash lokalnie za pomocą frazy seed
+- Kopie zapasowe frazy seed: **12-wyrazowa fraza odzyskiwania dla przywracania Wallet**
+- **Niezależność od mennicy**: Współpracuje z wieloma niezależnymi mennicami - nie jesteś uzależniony od jednego dostawcy
+- **Natychmiastowe, bezpłatne transakcje**: W tej samej mennicy płatności są finalizowane w ciągu kilku sekund bez żadnych opłat
+- **Architektura chroniąca prywatność**: Mennice nie widzą, kto z kim dokonuje transakcji
+- **Offline ecash**: Wysyłanie/odbieranie tokenów za pośrednictwem lokalnego protokołu transmisji, takiego jak NFC, kod QR, Bluetooth itp. bez połączenia z Internetem
+- Odkryj mennice ecash za pośrednictwem Nostr: Znajdź i zweryfikuj zaufane mennice za pomocą protokołu Nostr
+- **Wymieniaj ecash między mennicami**: Wszystkie mennice posługują się technologią Lightning, co oznacza, że można przesyłać wartość między nimi.
+- **Zdalne sterowanie Wallet za pomocą Nostr Wallet Connect (NWC)**: Połącz się z innymi aplikacjami, takimi jak Nostr Client i rozpocznij zapping za pomocą NWC
 
 
 Krytycznym kompromisem jest "zaufanie": podczas gdy kontrolujesz same tokeny, musisz zaufać mennicom, że będą przechowywać podstawowe rezerwy Bitcoin. Jak stwierdza dokumentacja Cashu:

@@ -346,7 +346,7 @@ Pakk ut mediet med filen `.PSBT` og koble det til datamaskinen uten nett.
 
 
 
-Fra Wallet airgap velger du nå menyen _Verktøy_, deretter _Last inn transaksjon_ og deretter Fra fil_.
+Fra Wallet airgap velger du nå menyen _Verktøy_, deretter _Last inn transaksjon_ og deretter _Fra fil_.
 
 
 

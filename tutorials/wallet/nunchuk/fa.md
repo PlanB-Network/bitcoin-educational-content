@@ -324,7 +324,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-در این راهنما، ما یک _Hot Wallet و یک _Custom wallet_ را با جزئیات ایجاد خواهیم کرد.
+در این راهنما، ما یک _Hot Wallet_ و یک _Custom wallet_ را با جزئیات ایجاد خواهیم کرد.
 
 
 بیایید با _کیف پول سفارشی_ شروع کنیم.

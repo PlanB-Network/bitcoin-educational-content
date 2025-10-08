@@ -26,9 +26,9 @@ Duka la Aurora ni moja wapo ya duka la programu mbadala maarufu kwenye Duka la G
 
 
 
-- Interface** iliyoratibiwa: Interface haikuwekei hatua hata kidogo, kwa hivyo ni rahisi kupata fani zako.
-- Ufikiaji wa mamilioni ya programu**: Duka la Aurora hufanya kazi kama lango la anuwai ya programu za rununu. Ikiwa programu unayotafuta iko kwenye Google Play Store, utaipata kwenye Aurora Store.
-- Hakuna huduma ya Google Play inayohitajika**: Shukrani kwa teknolojia ya MicroG, programu za Android zinaweza kufanya kazi kwenye simu yako bila huduma za Google Play.
+- **Interface iliyoratibiwa**: Interface haikuwekei hatua hata kidogo, kwa hivyo ni rahisi kupata fani zako.
+- **Ufikiaji wa mamilioni ya programu**: Duka la Aurora hufanya kazi kama lango la anuwai ya programu za rununu. Ikiwa programu unayotafuta iko kwenye Google Play Store, utaipata kwenye Aurora Store.
+- **Hakuna huduma ya Google Play inayohitajika**: Shukrani kwa teknolojia ya MicroG, programu za Android zinaweza kufanya kazi kwenye simu yako bila huduma za Google Play.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store haiashirii tu Google Play Store, pia inajumuisha vipengele vinavyok
 
 
 
-- Kujitegemea kutoka kwa Google:**
+- Kujitegemea kutoka kwa Google:
 
 
 
@@ -112,7 +112,7 @@ Katika muktadha unapoamua kuzima huduma za Google Play ili kulinda data yako, au
 
 
 
-- Udhibiti wa upakuaji:**
+- **Udhibiti wa upakuaji:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Store hukuwezesha kupakua mwenyewe programu za simu kwa kubainisha msimbo
 
 
 
-- Uidhinishaji:**
+- **Uidhinishaji:**
 
 
 Katika maelezo ya programu unayotaka kusakinisha, pata orodha kamili ya idhini utakazotoa kwa programu hii baada ya usakinishaji.
@@ -139,7 +139,7 @@ Katika maelezo ya programu unayotaka kusakinisha, pata orodha kamili ya idhini u
 
 
 
-- Uchambuzi wa ulinzi wa data:**
+- **Uchambuzi wa ulinzi wa data:**
 
 
 

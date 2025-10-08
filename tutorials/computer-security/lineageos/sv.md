@@ -149,8 +149,8 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-- Android Flash-verktyg**: Använd det officiella Google-verktyget [flash.android.com] (https://flash.android.com) för att enkelt återställa din Pixel-enhet till standard-Android från din webbläsare (Chrome/Edge krävs)
-- Alternativ**: Fabriksbilder manuellt från [developers.google.com/android/images] (https://developers.google.com/android/images)
+- **Android Flash-verktyg**: Använd det officiella Google-verktyget [flash.android.com](https://flash.android.com) för att enkelt återställa din Pixel-enhet till standard-Android från din webbläsare (Chrome/Edge krävs)
+- **Alternativ**: Fabriksbilder manuellt från [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-- Starta din enhet minst en gång** med det ursprungliga lagersystemet
-- Testa alla funktioner**: SMS, samtal, Wi-Fi, mobildata
-- Viktigt**: Kontrollera att du kan skicka/ta emot SMS och ringa/ta emot samtal (inklusive via WiFi och 4G/5G). Om det inte fungerar på standardsystemet kommer det inte att fungera på LineageOS heller!
-- Nyare enheter**: Vissa kräver att VoLTE/VoWiFi används minst en gång på standardsystemet för att IMS ska kunna tillhandahållas
+- Starta din enhet minst en gång med det ursprungliga lagersystemet
+- **Testa alla funktioner**: SMS, samtal, Wi-Fi, mobildata
+- **Viktigt**: Kontrollera att du kan skicka/ta emot SMS och ringa/ta emot samtal (inklusive via WiFi och 4G/5G). Om det inte fungerar på standardsystemet kommer det inte att fungera på LineageOS heller!
+- **Nyare enheter**: Vissa kräver att VoLTE/VoWiFi används minst en gång på standardsystemet för att IMS ska kunna tillhandahållas
 
 
 
@@ -171,8 +171,8 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-- Ta bort alla Google**-konton från din enhet för att undvika fabriksåterställningsskydd, som kan blockera aktivering
-- Fullständig säkerhetskopiering** : Processen kommer att radera din telefon helt och hållet. Säkerhetskopiera foton, kontakter, applikationer och viktiga filer
+- Ta bort alla **Google-konton** från din enhet för att undvika fabriksåterställningsskydd, som kan blockera aktivering
+- **Fullständig säkerhetskopiering**: Processen kommer att radera din telefon helt och hållet. Säkerhetskopiera foton, kontakter, applikationer och viktiga filer
 
 
 
@@ -216,7 +216,7 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-⚠️ **Dessa instruktioner är specifika för LineageOS 22.2. Följ varje steg exakt. Gå inte vidare om något misslyckas!
+⚠️ **Dessa instruktioner är specifika för LineageOS 22.2. Följ varje steg exakt. Gå inte vidare om något misslyckas!**
 
 
 
@@ -249,8 +249,8 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-- Bygga LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Obligatoriska filer**: Ladda ner de 3 nödvändiga filerna från den här sidan (de kommer att användas i följande steg):
+- **Bygga LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Obligatoriska filer**: Ladda ner de 3 nödvändiga filerna från den här sidan (de kommer att användas i följande steg):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (huvud-ROM)
   - dtbo.img` (partition enhet träd blob)
   - `boot.img` (återställning LineageOS)
@@ -269,13 +269,13 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-⚠️ **I detta steg raderas alla dina data!
+⚠️ **I detta steg raderas alla dina data!**
 
 
 
 
 
-- Testa ADB-anslutningen**: Anslut din enhet via USB och testa med kommandot `adb devices` från din datorterminal
+- **Testa ADB-anslutningen**: Anslut din enhet via USB och testa med kommandot `adb devices` från din datorterminal
 
 
 
@@ -289,7 +289,7 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-- Godkänn anslutning** på din telefon
+- **Godkänn anslutning** på din telefon
 
 
 
@@ -303,7 +303,7 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-- Starta i bootloader-läge** :
+- **Starta i bootloader-läge**:
 
 
 ```
@@ -317,7 +317,7 @@ Eller håll **Volym ned + Power** enheten avstängd
 
 
 
-- Kontrollera anslutningen till fastboot**:
+- Kontrollera anslutningen till **fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Lås upp bootloader** :
+- **Lås upp bootloader** :
 
 
 ```
@@ -370,7 +370,7 @@ På enheten, använd volymknapparna för att navigera och tryck på **Power**-kn
 
 
 
-- Efter automatisk omstart**, återaktivera USB-felsökning i utvecklaralternativen
+- Efter automatisk omstart, återaktivera USB-felsökning i utvecklaralternativen
 
 
 
@@ -385,8 +385,8 @@ På enheten, använd volymknapparna för att navigera och tryck på **Power**-kn
 
 
 
-- Starta om bootloader**: Volym ned + ström
-- Flash** (ersätt `/path/to/` med den mapp där du hämtade filen) :
+- **Starta om bootloader**: Volym ned + ström
+- **Flash** (ersätt `/path/to/` med den mapp där du hämtade filen) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (ersätt `/path/to/` med den mapp där du hämtade filen) :
+- **Flash recovery** (ersätt `/path/to/` med den mapp där du hämtade filen) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Starta om i återställning** för att kontrollera
+- **Starta om i återställning** för att kontrollera
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Starta om i återställningsläge**: Volym ned + Power → Återställningsläge
+- **Starta om i återställningsläge**: Volym ned + Power → Återställningsläge
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Fabriksåterställning** : Skriv "Fabriksåterställning" → "Formatera data / fabriksåterställning"
+- **Fabriksåterställning**: Skriv "Fabriksåterställning" → "Formatera data / fabriksåterställning"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Återgå till huvudmenyn**
-- Sideload LineageOS** :
+- **Återgå till huvudmenyn**
+- **Sideload LineageOS**:
    - På enheten: "Tillämpa uppdatering" → "Tillämpa från ADB"
    - På datorn: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Starta om**: "Starta om systemet nu"
-- Första uppstarten**: Kan ta upp till 15 minuter
+- **Starta om**: "Starta om systemet nu"
+- **Första uppstarten**: Kan ta upp till 15 minuter
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Kompatibilitet med fast programvara**: Kontrollera vilken version av den inbyggda programvaran som krävs på nedladdningssidan för din modell
-- Lås aldrig bootloader** igen efter installation av LineageOS
-- Följ de specifika anvisningarna** för din enhet
+- **Kompatibilitet med fast programvara**: Kontrollera vilken version av den inbyggda programvaran som krävs på nedladdningssidan för din modell
+- Lås aldrig **bootloader** igen efter installation av LineageOS
+- Följ de specifika anvisningarna för din enhet
 
 
 
@@ -559,11 +559,11 @@ Strömlinjeformad Interface, nära lager Android, utan Google. Enkel konfigurati
 
 
 
-- Navigering**: Organic Maps (offline-kartor baserade på OpenStreetMap)
-- Kommunikation**: Signal (krypterade meddelanden från början till slut), K-9 Mail (gratis e-postklient)
-- Media**: NewPipe (reklamfritt, spårningsfritt YouTube), VLC (universell mediaspelare)
-- Produktivitet**: Nextcloud (självhostande moln), Simple Calendar (CalDAV-synkronisering)
-- Säkerhet**: Bitwarden (lösenordshanterare), Aegis Authenticator (2FA-koder)
+- **Navigering**: Organic Maps (offline-kartor baserade på OpenStreetMap)
+- **Kommunikation**: Signal (krypterade meddelanden från början till slut), K-9 Mail (gratis e-postklient)
+- **Media**: NewPipe (reklamfritt, spårningsfritt YouTube), VLC (universell mediaspelare)
+- **Produktivitet**: Nextcloud (självhostande moln), Simple Calendar (CalDAV-synkronisering)
+- **Säkerhet**: Bitwarden (lösenordshanterare), Aegis Authenticator (2FA-koder)
 
 
 

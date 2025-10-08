@@ -64,25 +64,25 @@ Innan jag visar dig steg för steg hur du lånar på Debifi är det några saker
 
 
 
-- Uppläggningsavgifter** är engångsavgifter som tas ut i samband med att ett lån beviljas och beräknas som en procentsats av det lånade beloppet. Dessa avgifter täcker administrativa kostnader, driftskostnader och förvaltningskostnader.
+- **Uppläggningsavgifter** är engångsavgifter som tas ut i samband med att ett lån beviljas och beräknas som en procentsats av det lånade beloppet. Dessa avgifter täcker administrativa kostnader, driftskostnader och förvaltningskostnader.
 
 
 
 
 
-- Säkerhet** är en tillgång som du deponerar för att säkra ett lån. I Debifis fall är säkerheten Bitcoin (BTC), som låntagaren deponerar i Multisig 3/4 escrow.
+- **Säkerhet** är en tillgång som du deponerar för att säkra ett lån. I Debifis fall är säkerheten Bitcoin (BTC), som låntagaren deponerar i Multisig 3/4 escrow.
 
 
 
 
 
-- Multisig escrow (3/4)**-systemet är en säker insättningsmekanism där en låntagares bitcoins placeras i en Address med flera signaturer. Specifikt har fyra (4) parter vardera en nyckel (låntagare, långivare, Debifi, oberoende tredje part). För att flytta medel krävs minst 3 av 4 signaturer.
+- Multisig escrow (3/4)**-systemet** är en säker insättningsmekanism där en låntagares bitcoins placeras i en Address med flera signaturer. Specifikt har fyra (4) parter vardera en nyckel (låntagare, långivare, Debifi, oberoende tredje part). För att flytta medel krävs minst 3 av 4 signaturer.
 
 
 
 
 
-- En stablecoin** är en kryptovaluta vars värde är kopplat till en stabil tillgång (t.ex. US-dollar), vilket undviker volatiliteten i Bitcoin. Till exempel är 1 USDC alltid värd ~ $ 1, eftersom den backas upp av fiatreserver.
+- En **stablecoin** är en kryptovaluta vars värde är kopplat till en stabil tillgång (t.ex. US-dollar), vilket undviker volatiliteten i Bitcoin. Till exempel är 1 USDC alltid värd ~ $ 1, eftersom den backas upp av fiatreserver.
 
 
 

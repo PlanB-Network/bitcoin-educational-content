@@ -130,10 +130,10 @@ El proceso de cobro es similar al de una transacción convencional:
 
 
 
-- Introduzca el importe**: En la pantalla de pago, introduzca el importe en moneda local (CHF o EUR). Ejemplo: para un café a 4,50 CHF, introduzca 4,50
-- Generación de Invoice** : La aplicación convierte instantáneamente el importe en satoshis al cambio actual, y genera un Invoice Relámpago en forma de código QR
-- Pago del cliente** : El cliente escanea el código QR con su Wallet Lightning y valida el pago
-- Confirmación** : El pago se confirma en cuestión de segundos, con indicación visual de éxito
+- **Introduzca el importe**: En la pantalla de pago, introduzca el importe en moneda local (CHF o EUR). Ejemplo: para un café a 4,50 CHF, introduzca 4,50
+- **Generación de Invoice**: La aplicación convierte instantáneamente el importe en satoshis al cambio actual, y genera un Invoice Relámpago en forma de código QR
+- **Pago del cliente**: El cliente escanea el código QR con su Wallet Lightning y valida el pago
+- **Confirmación**: El pago se confirma en cuestión de segundos, con indicación visual de éxito
 
 
 
@@ -207,11 +207,11 @@ El proceso de cobro es similar al de una transacción convencional:
 
 
 
-- Hostelería**: Bares, restaurantes, cafeterías aceptarán adiciones en Bitcoin con gestión de propinas
-- Comercio**: Tiendas de comestibles, panaderías para ampliar los métodos de pago sin gastos fijos
-- Vendedores nómadas**: camiones de comida, mercados, festivales con sólo un smartphone
-- Eventos** : Stands temporales con soluciones listas para usar
-- Servicios**: Consultores, artesanos para facturaciones puntuales en Bitcoin
+- **Hostelería**: Bares, restaurantes, cafeterías aceptarán adiciones en Bitcoin con gestión de propinas
+- **Comercio**: Tiendas de comestibles, panaderías para ampliar los métodos de pago sin gastos fijos
+- **Vendedores nómadas**: camiones de comida, mercados, festivales con sólo un smartphone
+- **Eventos**: Stands temporales con soluciones listas para usar
+- **Servicios**: Consultores, artesanos para facturaciones puntuales en Bitcoin
 
 
 

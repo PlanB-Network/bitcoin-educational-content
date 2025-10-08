@@ -33,7 +33,7 @@ Oleh karena itu, sisa artikel ini adalah panduan untuk menginstal Bitcoin core -
 ## Panduan Instalasi Bitcoin core untuk Debian/Ubuntu
 
 
-*prasyarat** *Persyaratan
+**Prasyarat** *Persyaratan*
 
 
 - Penyimpanan data minimum 6GB (node pruned) - Penyimpanan data 1TB (Full node)

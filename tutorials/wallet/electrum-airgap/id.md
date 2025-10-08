@@ -346,7 +346,7 @@ Ekstrak media dengan file `.PSBT` dan hubungkan ke komputer secara offline.
 
 
 
-Dari airgap Wallet, sekarang pilih menu _Tools_, lalu _Load transaction_ dan ikuti From file_.
+Dari airgap Wallet, sekarang pilih menu **Tools**, lalu **Load transaction** dan ikuti **From file**.
 
 
 
@@ -441,7 +441,7 @@ Satu-satunya hal yang harus Anda perhatikan adalah dua hal:
 
 
 
-seperti yang dapat Anda lihat dari gambar di atas, Wallet offline tidak mengetahui sejarah Address-nya sendiri. Ia benar-benar buta dalam hal ini. **Satu-satunya tugas yang dapat dilakukannya untuk Anda adalah menyimpan kunci offline Anda dan menandatangani transaksi Anda**_.
+seperti yang dapat Anda lihat dari gambar di atas, Wallet offline tidak mengetahui sejarah Address-nya sendiri. Ia benar-benar buta dalam hal ini. **Satu-satunya tugas yang dapat dilakukannya untuk Anda adalah menyimpan kunci offline Anda dan menandatangani transaksi Anda**.
 
 
 

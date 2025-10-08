@@ -93,17 +93,17 @@ Porogaramu ya Peach itunganijwe hirya no hino y'ibimenyetso bine bikomeye bishob
 
 
 
-- Home**: Igikoresho nyamukuru co kugura no kugurisha ama bitcoins. Aha niho ushobora gukora amafaranga mashasha no kuronka amashimwe ariho.
-- Wallet**: Bitcoin Wallet yawe yunze ubumwe igufasha :
+- **Home**: Igikoresho nyamukuru co kugura no kugurisha ama bitcoins. Aha niho ushobora gukora amafaranga mashasha no kuronka amashimwe ariho.
+- **Wallet**: Bitcoin Wallet yawe yunze ubumwe igufasha :
  - Suzuma uburinganire bwawe
  - Kwakira ama bitcoins
  - Wohereze ama bitcoins
  - Reba amateka y'ibikorwa vyawe
-- Ubucuruzi**: Ikigo cawe co gucunga ubucuruzi aho uzosanga:
+- **Ubucuruzi**: Ikigo cawe co gucunga ubucuruzi aho uzosanga:
  - Amafaranga yawe y'ubu
  - Amateka yuzuye y'ivyo mwahanahana
  - Uko buri gucuruza bimeze
-- Amagenamiterere**: Igikoresho ca konti yawe:
+- **Amagenamiterere**: Igikoresho ca konti yawe:
  - Gucungera uburyo bwo kwishura
  - Gutunganya ububiko bwawe
  - Guhindura ivyo ukunda
@@ -378,10 +378,10 @@ Kugira ngo ubone umutekano mwiza, turagusavye gukora ubwo bwoko bwompi bwo gucun
 
 
 
-- Nta KYC isabwa**: Izigama ubuzima bwite bw'abakoresha.
-- Nta n’umwe ashobora kuronka amakuru ya banki**: Peach nta n’umwe ashobora kuronka amakuru ya banki yawe canke akaranga kawe.
-- Interface**: Biroroshe gukoresha ku bakoresha bo hagati.
-- Open Source**: Kode y’inkomoko ni iya bose kandi ishobora kugenzurwa n’abanyagihugu.
+- **Nta KYC isabwa**: Izigama ubuzima bwite bw'abakoresha.
+- Nta n'umwe ashobora kuronka amakuru ya banki: Peach nta n'umwe ashobora kuronka amakuru ya banki yawe canke akaranga kawe.
+- **Interface**: Biroroshe gukoresha ku bakoresha bo hagati.
+- **Open Source**: Kode y'inkomoko ni iya bose kandi ishobora kugenzurwa n'abanyagihugu.
 
 
 ### Inyungu za peach
@@ -389,8 +389,8 @@ Kugira ngo ubone umutekano mwiza, turagusavye gukora ubwo bwoko bwompi bwo gucun
 
 
 
-- Ivy’ubutunzi bifise aho bigarukira**: Igitigiri c’ubudandaji gitoyi kuruta ama platforms menshi yashinzwe.
-- Ivyago vy’amategeko**: Iryo koraniro rirongowe n’ishirahamwe ry’Ubusuwisi. Ni co gituma bishingiye ku mategeko y’Ubusuwisi, yoshobora guhinduka kandi agashobora no gucengera iyo nzira.
+- **Ivy'ubutunzi bifise aho bigarukira**: Igitigiri c'ubudandaji gitoyi kuruta ama platforms menshi yashinzwe.
+- **Ivyago vy'amategeko**: Iryo koraniro rirongowe n'ishirahamwe ry'Ubusuwisi. Ni co gituma bishingiye ku mategeko y'Ubusuwisi, yoshobora guhinduka kandi agashobora no gucengera iyo nzira.
 
 
 ## Ibikoresho vy'ingirakamaro

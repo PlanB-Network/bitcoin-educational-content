@@ -65,7 +65,7 @@ Käytössäsi olevasta Lightning Wallet:stä riippuen löydät seuraavat vaihtoe
 
 
 
-- Alby Hub** Alby Go -lompakoille, Alby-laajennus selaimeesi.
+- **Alby Hub** Alby Go -lompakoille, Alby-laajennus selaimeesi.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** yhdistää Bitcoin web CoinOS Wallet.
-- Flash Wallet** liitäntää varten Flash Wallet:aan.
-- LN linkki**
+- **Coinos** yhdistää Bitcoin web CoinOS Wallet.
+- **Flash Wallet** liitäntää varten Flash Wallet:aan.
+- LN linkki
 
 
 

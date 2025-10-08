@@ -317,7 +317,7 @@ Sparrow Walletを開いたら、ソフトウェアがBitcoinノードに接続�
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-File*"タブをクリックし、"*New Wallet*"をクリックする。
+**File**タブをクリックし、**New Wallet**をクリックする。
 
 
 

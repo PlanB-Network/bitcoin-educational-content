@@ -91,7 +91,7 @@ ububiko bwawe bw'amakuru. (Ububiko_bw'amakuru y'ikoreshwa)
 Kugira ngo ucuruze Bitcoin kuri Bisq, ubwirizwa gushinga uburyo bwo kohereza canke kwakira ayandi mahera. Bisq ikora gusa uruhande rwa Bitcoin rw’ubudandaji—urundi ruhande rukora biciye ku bikorwa vyo kwishura fiat (amabanki, amahera yo gutanga, amahera) canke amasakoshi ya Altcoin.
 
 
-Ntuzi neza ubwoko bwa konti yo kwishura woshiraho? Hari urutonde rw'uburyo bwo kwishura kuri wiki (https://bisq.wiki/Uburyo_ bwo kwishura). Niba uzoba uriko uracuruza fiat, ndagusavye urabe neza ko ubona amasanamu y'imipaka ya konti canke usome iyi nkuru kuri wiki.(https://bisq.wiki/Imipaka_ya konti)
+Ntuzi neza ubwoko bwa konti yo kwishura woshiraho? Hari urutonde rw'uburyo bwo kwishura kuri wiki (https://bisq.wiki/Uburyo_bwo_kwishura). Niba uzoba uriko uracuruza fiat, ndagusavye urabe neza ko ubona amasanamu y'imipaka ya konti canke usome iyi nkuru kuri wiki (https://bisq.wiki/Imipaka_ya_konti).
 
 
 Hariho altcoins nyinshi zishobora gucuruzwa kuri Bisq. Akira inama zimwe zimwe ku masoko yo hejuru:

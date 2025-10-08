@@ -7,7 +7,7 @@ description: 隱私權與自主性的開放原始碼 Bitcoin 節點
 
 
 
-*本教學是根據 [Ashigaru 官方說明文件](https://ashigaru.rs/docs/)，由我接手並加以擴充。我重新編寫了所有章節，以提高清晰度、增加更詳細的說明，以及為初學者提供插圖，使安裝和使用更容易理解。
+*本教學是根據 [Ashigaru 官方說明文件](https://ashigaru.rs/docs/)，由我接手並加以擴充。我重新編寫了所有章節，以提高清晰度、增加更詳細的說明，以及為初學者提供插圖，使安裝和使用更容易理解。*
 
 
 
@@ -160,7 +160,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-出現 Ubuntu 首頁畫面。選擇「嘗試或安裝 Ubuntu*」。
+出現 Ubuntu 首頁畫面。選擇「嘗試或安裝 Ubuntu」。
 
 
 
@@ -1147,7 +1147,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-⚠️ **請嚴格保密此 Address
+⚠️ **請嚴格保密此 Address**
 
 
 
@@ -1426,7 +1426,7 @@ Block Explorer =
 
 
 
-⚠️ **請嚴格保密此 Address
+⚠️ **請嚴格保密此 Address**
 
 
 

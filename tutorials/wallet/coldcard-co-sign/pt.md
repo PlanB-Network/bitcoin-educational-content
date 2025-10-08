@@ -15,7 +15,7 @@ description: Descubra a funcionalidade Co-Sign e utilize-a no seu COLDCARD
 
 
 
-**Porquê o ColdCard Co-Sign?
+**Porquê o ColdCard Co-Sign?**
 
 
 
@@ -29,14 +29,14 @@ As condições de despesa podem ser, por exemplo:
 
 
 
-- Limites de magnitude**: limitar o montante de bitcoins que pode gastar numa única transação.
-- Limites de velocidade:** decidir quantas transacções pode efetuar por unidade de tempo (por hora, dia, semana, etc.), exigindo um número mínimo de blocos entre elas.
-- Endereços pré-aprovados:** Permitir apenas o envio de bitcoins para endereços pré-aprovados.
-- Autenticação de dois factores:** Requer a confirmação de uma aplicação móvel 2FA de terceiros (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) num smartphone/tablet com NFC e acesso à Internet.
+- **Limites de magnitude**: limitar o montante de bitcoins que pode gastar numa única transação.
+- **Limites de velocidade:** decidir quantas transacções pode efetuar por unidade de tempo (por hora, dia, semana, etc.), exigindo um número mínimo de blocos entre elas.
+- **Endereços pré-aprovados:** Permitir apenas o envio de bitcoins para endereços pré-aprovados.
+- **Autenticação de dois factores:** Requer a confirmação de uma aplicação móvel 2FA de terceiros (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) num smartphone/tablet com NFC e acesso à Internet.
 
 
 
-**Como funciona
+**Como funciona**
 
 
 
@@ -61,7 +61,7 @@ Se o utilizador desejar renunciar a estas condições de despesa, pode fazê-lo:
 
 
 - assinando com uma das chaves de reserva e a mão seed, ou 2 chaves de reserva dependendo do tamanho do seu Multisig.
-- introduzindo a "Chave de política de despesas" ou a "Chave C" no menu "Co-assinatura". **Esta última não pode ser consultada diretamente no dispositivo, caso contrário qualquer pessoa poderia anular as condições de despesa configuradas
+- introduzindo a "Chave de política de despesas" ou a "Chave C" no menu "Co-assinatura". **Esta última não pode ser consultada diretamente no dispositivo, caso contrário qualquer pessoa poderia anular as condições de despesa configuradas.**
 
 
 
@@ -647,7 +647,7 @@ O ColdcardQ apresenta então um aviso que, à medida que se desloca para o fundo
 
 
 
-**Note-se que o dispositivo não nos diz quais são as condições de despesa envolvidas, para evitar que um potencial atacante tente contornar as restrições
+**Note-se que o dispositivo não nos diz quais são as condições de despesa envolvidas, para evitar que um potencial atacante tente contornar as restrições**
 
 
 

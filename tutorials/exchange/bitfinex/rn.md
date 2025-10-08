@@ -77,10 +77,10 @@ Bitfinex ikoresha uburyo bwo kugenzura (KYC) bujanye n’amategeko ariho ubu. Mu
 
 
 
-- Basic** ni uburyo bwo kwerekana gusa, bugufasha kuraba urubuga ataco ukora;
-- Basic Plus** itanga uburyo bwo gushika ku bikorwa vy’ingenzi, harimwo n’ugucuruza kw’isoko ry’ibintu n’uburyo bwo gushiramwo no gukura amahera bwatowe;
-- Intermediate** ifungura ibikorwa biteye imbere nk’ubudandaji bw’amahera, inguzanyo, P2P n’ubudandaji bwa OTC, kandi itanga igihe co gushiramwo amahera kigabanutse;
-- Full** iraguha uburenganzira bwo gukoresha amafaranga yo mu mabanki mpuzamakungu n’ibintu vyose biri kuri iyo platform.
+- **Basic** ni uburyo bwo kwerekana gusa, bugufasha kuraba urubuga ataco ukora;
+- **Basic Plus** itanga uburyo bwo gushika ku bikorwa vy'ingenzi, harimwo n'ugucuruza kw'isoko ry'ibintu n'uburyo bwo gushiramwo no gukura amahera bwatowe;
+- **Intermediate** ifungura ibikorwa biteye imbere nk'ubudandaji bw'amahera, inguzanyo, P2P n'ubudandaji bwa OTC, kandi itanga igihe co gushiramwo amahera kigabanutse;
+- **Full iraguha uburenganzira bwo gukoresha amafaranga yo mu mabanki mpuzamakungu n'ibintu vyose biri kuri iyo platform.**
 
 
 Ku rwego rwose, hakenewe izindi nyandiko kugira ngo umuntu asuzume. Ku bakoresha benshi, *Basic Plus* canke *Intermediate* muri rusangi birahagije.
@@ -115,11 +115,11 @@ Uhejeje kwinjira, uzobona umurongo wo kugenderamwo hejuru ya Interface ufise: "*
 
 
 
-- Ubucuruzi**: "*classic*" isoko aho ushobora gushiramwo amategeko yo kugura no kugurisha amafaranga y'amahera (harimwo Bitcoin) ;
-- OTC**: Over-The-Counter Serivisi yo gucuruza ibitabu vyinshi ataco uhinduye n’uwundi mukinyi, hanze y’ibitabu vy’amategeko ya bose;
-- Infashanyo**: Akarere kagenewe gutanga inguzanyo n’amahera y’inyuma;
-- Ivyimburwa**: Igice c’ivy’ivy’imbere (ivy’imbere, n’ibindi), bigenewe abacuruzi bazi utuntu n’utundi;
-- P2P**: Iguha uburenganzira bwo kugura canke kugurisha ama cryptos ku bandi bakoresha ku buryo bw’urunganwe.
+- **Ubucuruzi**: "*classic*" isoko aho ushobora gushiramwo amategeko yo kugura no kugurisha amafaranga y'amahera (harimwo Bitcoin) ;
+- **OTC**: Over-The-Counter Serivisi yo gucuruza ibitabu vyinshi ataco uhinduye n'uwundi mukinyi, hanze y'ibitabu vy'amategeko ya bose;
+- **Infashanyo**: Akarere kagenewe gutanga inguzanyo n'amahera y'inyuma;
+- **Ivyimburwa**: Igice c'ivy'ivy'imbere (ivy'imbere, n'ibindi), bigenewe abacuruzi bazi utuntu n'utundi;
+- **P2P**: Iguha uburenganzira bwo kugura canke kugurisha ama cryptos ku bandi bakoresha ku buryo bw'urunganwe.
 
 
 Ku bijanye n'ugukoresha mu buryo busanzwe (kugura/kugurisha bitcoins n'ugushiramwo/gukuraho), uzokoresha cane cane urupapuro rwa "*Gucuruza*", hamwe n'ibice "*Wallet*", "*Ibiziga*" na "*Gukura*".

@@ -252,7 +252,7 @@ Nyt voit tehdä kaksi eri tarkistusta. Yritä ensin poistaa nämä kaksi lompakk
 
 
 
-Wallet:n ilmavälin osalta sinun on kuitenkin valittava `keystore`-näytössä _I already have a seed_ (Minulla on jo siemen_) ja syötettävä sanat kopioimalla ne paperivarmistuskopiostasi.
+Wallet:n ilmavälin osalta sinun on kuitenkin valittava `keystore`-näytössä _I already have a seed_ (Minulla on jo siemen) ja syötettävä sanat kopioimalla ne paperivarmistuskopiostasi.
 
 
 
@@ -346,7 +346,7 @@ Pura mediatiedosto `.PSBT`-tiedostolla ja liitä se tietokoneeseen offline-tilas
 
 
 
-Valitse nyt Wallet:n ilmarajasta _Tools_-valikko, sitten _Load transaction_ ja sen jälkeen From file_.
+Valitse nyt Wallet:n ilmarajasta _Tools_-valikko, sitten _Load transaction_ ja sen jälkeen _From file_.
 
 
 
@@ -441,7 +441,7 @@ Ainoat asiat, joihin sinun on kiinnitettävä erityistä huomiota, ovat kaksi:
 
 
 
-kuten yllä olevasta kuvasta näkyy, offline Wallet ei tunne omaa Address-historiaansa. Se on tältä osin täysin sokea. **Ainut tehtävä, jonka se voi tehdä puolestasi, on tallentaa offline-avaimesi ja allekirjoittaa transaktiosi**_.
+kuten yllä olevasta kuvasta näkyy, offline Wallet ei tunne omaa Address-historiaansa. Se on tältä osin täysin sokea. **Ainut tehtävä, jonka se voi tehdä puolestasi, on tallentaa offline-avaimesi ja allekirjoittaa transaktiosi**.
 
 
 

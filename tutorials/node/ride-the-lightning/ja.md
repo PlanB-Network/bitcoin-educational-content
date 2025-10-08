@@ -359,7 +359,7 @@ RTLが稼動した今、そのInterfaceウェブと主な機能を探ってみ�
 
 On-Chain**タブでは、メインチェーン上でビットコインを直接管理することができます：
 
-The line appears to be correctly formatted already. The ** markers are balanced and properly placed for bold formatting of "タブ" (tab).
+I don't see a line to fix in your message. Could you please provide the specific line with formatting issues that you'd like me to correct?
 
 
 

@@ -163,7 +163,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*Interface ゼウス・スワップ：ネットワーク料金（Sats 302）とゼウス・サービス（Sats 50）の透過表示による金額選択（Sats 50,000 → Sats 49,648手数料後）※。
+**Interface ゼウス・スワップ：ネットワーク料金（Sats 302）とゼウス・サービス（Sats 50）の透過表示による金額選択（Sats 50,000 → Sats 49,648手数料後）※。**
 
 
 
@@ -239,7 +239,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*ゼウスのメイン画面にライトニング（69,851Sats）とOn-Chain（38,018Sats）の残高が表示され、サイドメニューからスワップにアクセスできる※。
+**ゼウスのメイン画面にライトニング（69,851Sats）とOn-Chain（38,018Sats）の残高が表示され、サイドメニューからスワップにアクセスできる**※。
 
 
 
@@ -247,7 +247,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*Interface逆スワップ作成：50,000 Sats Lightning → 49,220 Sats On-Chain、ネットワークチャージ（530 Sats）とサービス（250 Sats）が明確に表示される。generate On-Chain Address」ボタンで、Wallet ZeusからAddressを受信するBitcoinを手動入力するか、generateを自動入力することができる※。
+**Interface逆スワップ作成：50,000 Sats Lightning → 49,220 Sats On-Chain、ネットワークチャージ（530 Sats）とサービス（250 Sats）が明確に表示される。generate On-Chain Address**ボタンで、Wallet ZeusからAddressを受信するBitcoinを手動入力するか、generateを自動入力することができる※。
 
 
 
@@ -277,10 +277,10 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- シンプルさ**：手作業によるチャンネル操作に比べ、数回のクリックでスワップが可能
-- 非保護**：KYCなし、口座なし、資金を第三者に預けない
-- 透明性**：検証前に手数料を明示（0.1%～0.5% + ユーザーテストによる最低手数料 - 各スワップで現在の手数料を確認）
-- モバイル統合**：ゼウスWalletでのネイティブ体験
+- **シンプルさ**：手作業によるチャンネル操作に比べ、数回のクリックでスワップが可能
+- **非保護**：KYCなし、口座なし、資金を第三者に預けない
+- **透明性**：検証前に手数料を明示（0.1%～0.5% + ユーザーテストによる最低手数料 - 各スワップで現在の手数料を確認）
+- モバイル統合：ゼウスWalletでのネイティブ体験
 
 
 
@@ -291,9 +291,9 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 - 有効期限最大24-48時間、Bitcoinが期限内に確認できない場合は不成立。
-- 限度額**：最低25,000Sats、ゼウスLSPの流動性は条件により変動する。
-- On-Chain**をトレース：Blockchainの分析で特定できる可能性のあるHTLCスクリプト
-- 要確認**：Bitcoinの検証には最低10分かかる。
+- 限度額：最低25,000Sats、ゼウスLSPの流動性は条件により変動する。
+- **On-Chain**をトレース：Blockchainの分析で特定できる可能性のあるHTLCスクリプト
+- 要確認**：Bitcoinの検証には最低10分かかる。**
 
 
 
@@ -320,7 +320,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 - Bitcoinのアドレスをよく確認する（コピーペースト推奨）
-- Zeus Swaps レスキューキーのバックアップ**: リカバリーキーをダウンロードし、安全な場所に保存します。
+- **Zeus Swaps レスキューキーのバックアップ**: リカバリーキーをダウンロードし、安全な場所に保存します。
 - 書類Contract ID、払戻金 Address、有効期限
 - タイムリーな確認のために適切なMining料金を使用する。
 
@@ -354,11 +354,11 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- Interface ユニファイド**：ゼウスのネイティブ統合 Wallet vs Interface ウェブテクニック ボルツ
-- WebSocket API**: リアルタイム更新 vs 手動ポーリング
-- 自動管理**：自動課金とAddress管理
-- モバイル対応**：スマートフォン対デスクトップの最適化のみ
-- Swaggerドキュメント**: 開発者のための完全なREST API
+- Interface ユニファイド**：ゼウスのネイティブ統合 Wallet vs Interface ウェブテクニック ボルツ**
+- **WebSocket API**: リアルタイム更新 vs 手動ポーリング
+- 自動管理**：自動課金とAddress管理**
+- **モバイル対応**：スマートフォン対デスクトップの最適化のみ
+- **Swaggerドキュメント**: 開発者のための完全なREST API
 
 
 

@@ -174,7 +174,7 @@ Noterai che Electrum da al file un nome che riporta le prime cifre del transacti
 
 Estrai il supporto con il file `.psbt` e collegalo al computer offline.
 
-Dal wallet airgap, scegli ora il menu _Tools_, poi _Load transaction_ e di seguito From file_.
+Dal wallet airgap, scegli ora il menu **Tools**, poi **Load transaction** e di seguito **From file**.
 
 ![image](assets/en/25.webp)
 

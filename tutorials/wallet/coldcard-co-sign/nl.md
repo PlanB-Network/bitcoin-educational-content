@@ -15,7 +15,7 @@ description: Ontdek de Co-Sign-functie en gebruik deze op je COLDCARD
 
 
 
-**Waarom ColdCard medeondertekenen?
+**Waarom ColdCard medeondertekenen?**
 
 
 
@@ -29,14 +29,14 @@ Bestedingsvoorwaarden kunnen bijvoorbeeld zijn:
 
 
 
-- Limieten op grootte**: beperk de hoeveelheid bitcoins die je kunt uitgeven in een enkele transactie.
-- Snelheidslimieten:** bepaal hoeveel transacties je kunt uitvoeren per tijdseenheid (per uur, dag, week, etc.), waarbij je een minimum aantal blokken ertussen nodig hebt.
-- Vooraf goedgekeurde adressen:** Sta alleen toe dat bitcoins worden verzonden naar vooraf goedgekeurde adressen.
-- Authenticatie met twee factoren:** Vereist bevestiging van een mobiele 2FA-toepassing van derden (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) op een smartphone/tablet met internettoegang die NFC ondersteunt.
+- **Limieten op grootte**: beperk de hoeveelheid bitcoins die je kunt uitgeven in een enkele transactie.
+- **Snelheidslimieten:** bepaal hoeveel transacties je kunt uitvoeren per tijdseenheid (per uur, dag, week, etc.), waarbij je een minimum aantal blokken ertussen nodig hebt.
+- **Vooraf goedgekeurde adressen:** Sta alleen toe dat bitcoins worden verzonden naar vooraf goedgekeurde adressen.
+- **Authenticatie met twee factoren:** Vereist bevestiging van een mobiele 2FA-toepassing van derden (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) op een smartphone/tablet met internettoegang die NFC ondersteunt.
 
 
 
-**Hoe het werkt
+**Hoe het werkt**
 
 
 

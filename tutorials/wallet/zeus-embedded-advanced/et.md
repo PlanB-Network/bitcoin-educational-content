@@ -172,7 +172,7 @@ LSP aitab kasutajatel ühendada Lightning-võrguga, avades maksekanaleid nende s
 Selles jaotises on vaikimisi Olympus LSP (https://0conf.lnolymp.us), kuid varsti saate määrata ka teise 0conf LSP, mis toetab seda protokolli.
 
 
-pidage meeles:_
+pidage meeles:
 
 _Kui avate kanali Olympus LSP-ga, kasutades pakendatud LN arveid, saate ka 100k sissetuleva likviidsuse ! See on tõesti hea võimalus juhul, kui teil on vaja saada kohe rohkem Sats._
 

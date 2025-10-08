@@ -26,9 +26,9 @@ Aurora Store, aşağıdaki nedenlerden dolayı Android platformunda Google Play 
 
 
 
-- Aerodinamik bir Interface**: Interface sizi en ufak bir şekilde etkilemez, bu nedenle yönünüzü bulmak kolaydır.
-- Milyonlarca uygulamaya erişim**: Aurora Store, çok çeşitli mobil uygulamalar için bir portal görevi görür. Aradığınız uygulama Google Play Store'da bulunuyorsa, Aurora Store'da da bulabilirsiniz.
-- Google Play hizmeti gerekmez**: MicroG teknolojisi sayesinde, Android uygulamaları Google Play hizmetleri olmadan telefonunuzda çalışabilir.
+- **Aerodinamik bir Interface**: Interface sizi en ufak bir şekilde etkilemez, bu nedenle yönünüzü bulmak kolaydır.
+- **Milyonlarca uygulamaya erişim**: Aurora Store, çok çeşitli mobil uygulamalar için bir portal görevi görür. Aradığınız uygulama Google Play Store'da bulunuyorsa, Aurora Store'da da bulabilirsiniz.
+- **Google Play hizmeti gerekmez**: MicroG teknolojisi sayesinde, Android uygulamaları Google Play hizmetleri olmadan telefonunuzda çalışabilir.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store sadece Google Play Store'u yansıtmakla kalmaz, aynı zamanda yükl
 
 
 
-- Google'dan bağımsızlık:**
+- **Google'dan bağımsızlık:**
 
 
 
@@ -112,7 +112,7 @@ Verilerinizi korumak için Google Play hizmetlerini devre dışı bırakmaya kar
 
 
 
-- İndirme kontrolü:**
+- **İndirme kontrolü:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Store, yüklemek istediğiniz sürümün kodunu belirterek mobil uygulama
 
 
 
-- Yetkiler:**
+- **Yetkiler:**
 
 
 Yüklemek istediğiniz uygulamanın açıklamasında, kurulumdan sonra bu uygulamaya vereceğiniz yetkilerin tam bir listesini edinin.
@@ -139,7 +139,7 @@ Yüklemek istediğiniz uygulamanın açıklamasında, kurulumdan sonra bu uygula
 
 
 
-- Veri koruma analizi:**
+- **Veri koruma analizi:**
 
 
 

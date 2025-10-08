@@ -21,7 +21,7 @@ Ku **Dashboard** ya **Public Pool**, uracari n'imibare nk'iya pool **Total Hashr
 ![signup](assets/2.webp)
 
 
-Mu mirongo mikeyi ya mbere, turashobora kubona **Bitaxe** ifise **Bitaxe** 1323 zihujwe ku rugero rwose hamwe rwa 649TH/s. **Bitaxe** ni umugambi w'inkomoko yuguruye** ushobora gusubira gukoresha mu buryo bworoshe igice c'umubiri kivuye kuri **ASIC** nka **Antminer S19** ku **inkomoko yuguruye** kugira ngo ukore aka Miner gatoyi ka 0.5TH/s ku 15W. Iyi ni Miner tuzokoresha nk’akarorero muri iyi nyigisho.
+Mu mirongo mikeyi ya mbere, turashobora kubona **Bitaxe** ifise **Bitaxe** 1323 zihujwe ku rugero rwose hamwe rwa 649TH/s. **Bitaxe** ni umugambi w'inkomoko yuguruye ushobora gusubira gukoresha mu buryo bworoshe igice c'umubiri kivuye kuri **ASIC** nka **Antminer S19** ku **inkomoko yuguruye** kugira ngo ukore aka Miner gatoyi ka 0.5TH/s ku 15W. Iyi ni Miner tuzokoresha nk'akarorero muri iyi nyigisho.
 
 
 ## Kwongera **Umukozi** 👷‍♂️
@@ -46,17 +46,17 @@ Akarorero: Nimba **Bitcoin** Address yawe ari **‘bc1q2ed8zxq8njqsznkp7gj84n0xw
 
 
 
-- URL**: umurongo+cp://ikidengeri-ca bose.io:21496
-- UMUKORESHA**: **‘bc1q2ed8zxq8njqsznkp7gj84n0wl9dp224uha2fv.Brrrr’**
-- Ijambobanga**: **‘x’**
+- **URL**: umurongo+cp://ikidengeri-ca bose.io:21496
+- **UMUKORESHA**: **'bc1q2ed8zxq8njqsznkp7gj84n0wl9dp224uha2fv.Brrrr'**
+- **Ijambobanga**: **'x'**
 
 Niba Miner yawe ari **Bitaxe**, ivyicaro biratandukanye gato, ariko amakuru aguma ari amwe:
 
 
-- URL**: public-pool.io (aha, ukeneye gukuraho igice kiri mu ntango **‘stratum+tcp://’** n’igice kiri ku mpera **‘:21496’** kizomenyeshwa mu kibanza c’icuma)
-- Icibutso**: 21496
-- Ukoresha**: **‘bc1q2ed8zxq8njqsznkp7gj84n0wl9dp224uha2fv.Brrrr’**
-- Ijambobanga**: **‘x’**
+- **URL**: public-pool.io (aha, ukeneye gukuraho igice kiri mu ntango **'stratum+tcp://'** n'igice kiri ku mpera **':21496'** kizomenyeshwa mu kibanza c'icuma)
+- **Icibutso**: 21496
+- **Ukoresha**: **'bc1q2ed8zxq8njqsznkp7gj84n0wl9dp224uha2fv.Brrrr'**
+- **Ijambobanga**: **'x'**
 
 
 ![signup](assets/3.webp)

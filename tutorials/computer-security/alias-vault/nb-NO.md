@@ -36,10 +36,10 @@ I en Interface Alias Vault er:
 
 
 
-- Gratis og åpen kildekode**
-- Password Manager**, for å lagre alle komplekse passord. Ved hjelp av nettleserutvidelsen fullfører passordbehandleren pålogginger til nettsteder
-- 2FA**, for å støtte tofaktorautentisering
-- Alias-manager med innebygd e-postserver**: Alias Vault oppretter ikke aliaser som videresender e-post til en brukers postkasse, men oppretter faktiske alter-egoer med fornavn, etternavn, kjønn, brukernavn, passord og bursdag (hvis denne informasjonen er påkrevd).
+- **Gratis og åpen kildekode**
+- **Password Manager**, for å lagre alle komplekse passord. Ved hjelp av nettleserutvidelsen fullfører passordbehandleren pålogginger til nettsteder
+- **2FA**, for å støtte tofaktorautentisering
+- **Alias-manager med innebygd e-postserver**: Alias Vault oppretter ikke aliaser som videresender e-post til en brukers postkasse, men oppretter faktiske alter-egoer med fornavn, etternavn, kjønn, brukernavn, passord og bursdag (hvis denne informasjonen er påkrevd).
 
 
 

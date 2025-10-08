@@ -149,8 +149,8 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-- Android Flash Tool**: Tumia zana rasmi ya Google [flash.android.com](https://flash.android.com) ili kurejesha kwa urahisi kifaa chako cha Pixel kwenye hifadhi ya Android kutoka kivinjari chako cha wavuti (Chrome/Edge inahitajika)
-- Mbadala**: Picha za kiwanda mwenyewe kutoka kwa [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Android Flash Tool**: Tumia zana rasmi ya Google [flash.android.com](https://flash.android.com) ili kurejesha kwa urahisi kifaa chako cha Pixel kwenye hifadhi ya Android kutoka kivinjari chako cha wavuti (Chrome/Edge inahitajika)
+- **Mbadala**: Picha za kiwanda mwenyewe kutoka kwa [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-- Washa kifaa chako angalau mara moja** ukitumia mfumo asili wa hisa
-- Jaribu vipengele vyote**: SMS, simu, Wi-Fi, data ya mtandao wa simu
-- Muhimu**: Hakikisha kuwa unaweza kutuma/kupokea SMS na kupiga/kupokea simu (ikiwa ni pamoja na kupitia WiFi na 4G/5G). Ikiwa haifanyi kazi kwenye mfumo wa hisa, haitafanya kazi kwenye LineageOS pia!
-- Vifaa vya hivi majuzi**: Baadhi zinahitaji VoLTE/VoWiFi itumike angalau mara moja kwenye mfumo wa hisa ili kutoa IMS
+- **Washa kifaa chako angalau mara moja** ukitumia mfumo asili wa hisa
+- Jaribu vipengele vyote: SMS, simu, Wi-Fi, data ya mtandao wa simu
+- **Muhimu**: Hakikisha kuwa unaweza kutuma/kupokea SMS na kupiga/kupokea simu (ikiwa ni pamoja na kupitia WiFi na 4G/5G). Ikiwa haifanyi kazi kwenye mfumo wa hisa, haitafanya kazi kwenye LineageOS pia!
+- **Vifaa vya hivi majuzi**: Baadhi zinahitaji VoLTE/VoWiFi itumike angalau mara moja kwenye mfumo wa hisa ili kutoa IMS
 
 
 
@@ -171,8 +171,8 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-- Ondoa akaunti zote za Google** kwenye kifaa chako ili kuepuka Ulinzi wa Kuweka Upya Kiwandani, jambo ambalo linaweza kuzuia kuwezesha
-- Hifadhi nakala kamili** : Mchakato utafuta kabisa simu yako. Hifadhi nakala za picha, anwani, programu na faili muhimu
+- Ondoa akaunti zote za Google kwenye kifaa chako ili kuepuka **Ulinzi wa Kuweka Upya Kiwandani**, jambo ambalo linaweza kuzuia kuwezesha
+- **Hifadhi nakala kamili**: Mchakato utafuta kabisa simu yako. Hifadhi nakala za picha, anwani, programu na faili muhimu
 
 
 
@@ -216,7 +216,7 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-⚠️ **Maelekezo haya ni mahususi kwa LineageOS 22.2. Fuata kila hatua kwa usahihi. Usiendelee ikiwa kitu kitashindwa!
+⚠️ **Maelekezo haya ni mahususi kwa LineageOS 22.2. Fuata kila hatua kwa usahihi. Usiendelee ikiwa kitu kitashindwa!**
 
 
 
@@ -249,8 +249,8 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-- Unda LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Faili zinazohitajika**: Pakua faili 3 zinazohitajika kutoka kwa ukurasa huu (zitatumika katika hatua zifuatazo):
+- **Unda LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Faili zinazohitajika**: Pakua faili 3 zinazohitajika kutoka kwa ukurasa huu (zitatumika katika hatua zifuatazo):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (ROM kuu)
   - dtbo.img` (blob ya mti ya kifaa cha kugawa)
   - `boot.img` (LineageOS ya uokoaji)
@@ -269,13 +269,13 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-⚠️ **Hatua hii itafuta data yako yote!
+⚠️ **Hatua hii itafuta data yako yote!**
 
 
 
 
 
-- Jaribu muunganisho wa ADB**: Unganisha kifaa chako kupitia USB na ujaribu kwa amri `vifaa vya adb` kutoka kwa terminal ya kompyuta yako.
+- Jaribu muunganisho wa **ADB**: Unganisha kifaa chako kupitia USB na ujaribu kwa amri `vifaa vya adb` kutoka kwa terminal ya kompyuta yako.
 
 
 
@@ -289,7 +289,7 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-- Idhinisha muunganisho** kwenye simu yako
+- **Idhinisha muunganisho** kwenye simu yako
 
 
 
@@ -303,7 +303,7 @@ Kulingana na takwimu rasmi, miundo inayotumika zaidi ni pamoja na vifaa mbalimba
 
 
 
-- Anzisha kwenye modi ya bootloader** :
+- **Anzisha kwenye modi ya bootloader** :
 
 
 ```
@@ -317,7 +317,7 @@ Au shikilia kifaa cha **Volume Down + Power**
 
 
 
-- Angalia muunganisho wa fastboot**:
+- Angalia muunganisho wa **fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Fungua bootloader** :
+- **Fungua bootloader** :
 
 
 ```
@@ -370,7 +370,7 @@ Kwenye kifaa, tumia vitufe vya Sauti kusogeza na ubonyeze kitufe cha **Nguvu** i
 
 
 
-- Baada ya kuanzisha upya kiotomatiki**, wezesha upya utatuzi wa USB katika chaguo za msanidi
+- Baada ya kuanzisha upya kiotomatiki, **wezesha upya utatuzi wa USB katika chaguo za msanidi**
 
 
 
@@ -385,8 +385,8 @@ Kwenye kifaa, tumia vitufe vya Sauti kusogeza na ubonyeze kitufe cha **Nguvu** i
 
 
 
-- Anzisha upya kipakiaji**: Kiwango Chini + Nguvu
-- Flash** (badilisha `/path/to/` na folda ambapo ulipakua faili) :
+- **Anzisha upya kipakiaji**: Kiwango Chini + Nguvu
+- **Flash** (badilisha `/path/to/` na folda ambapo ulipakua faili) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (badilisha `/path/to/` na folda ambapo ulipakua faili) :
+- **Flash recovery** (badilisha `/path/to/` na folda ambapo ulipakua faili) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Anzisha tena katika urejeshi** ili kuangalia
+- **Anzisha tena katika urejeshi** ili kuangalia
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Anzisha tena katika urejeshi**: Kiwango Chini + Nishati → Hali ya Urejeshaji
+- **Anzisha tena katika urejeshi**: Kiwango Chini + Nishati → Hali ya Urejeshaji
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Rudisha Kiwanda** : Chapa "Rudisha Kiwanda" → "Fomati ya data / kuweka upya kiwanda"
+- **Rudisha Kiwanda**: Chapa "Rudisha Kiwanda" → "Fomati ya data / kuweka upya kiwanda"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Rudi kwenye menyu kuu**
-- Sideload LineageOS** :
+- Rudi kwenye menyu kuu
+- **Sideload LineageOS**:
    - Kwenye kifaa: "Weka Usasishaji" → "Tuma maombi kutoka kwa ADB"
    - Kwenye Kompyuta: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Anzisha upya**: "Washa upya mfumo sasa"
-- Boot ya kwanza**: Inaweza kuchukua hadi dakika 15
+- **Anzisha upya**: "Washa upya mfumo sasa"
+- **Boot ya kwanza**: Inaweza kuchukua hadi dakika 15
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Utangamano wa programu dhibiti**: Hakikisha umeangalia toleo la programu dhibiti linalohitajika kwenye ukurasa wa upakuaji wa modeli yako
-- Kamwe usifunge tena** kipakiaji upya baada ya kusakinisha LineageOS
-- Fuata maagizo mahususi** ya kifaa chako
+- **Utangamano wa programu dhibiti**: Hakikisha umeangalia toleo la programu dhibiti linalohitajika kwenye ukurasa wa upakuaji wa modeli yako
+- Kamwe usifunge tena kipakiaji upya baada ya kusakinisha LineageOS
+- Fuata maagizo mahususi **ya kifaa chako**
 
 
 
@@ -559,11 +559,11 @@ Interface iliyosasishwa, karibu na hisa ya Android, bila Google. Usanidi rahisi:
 
 
 
-- Urambazaji**: Ramani za Kikaboni (ramani za nje ya mtandao kulingana na OpenStreetMap)
-- Mawasiliano**: Mawimbi (ujumbe uliosimbwa kutoka mwisho hadi mwisho), K-9 Mail (kiteja cha barua pepe bila malipo)
-- Media**: NewPipe (YouTube isiyo na matangazo, isiyo na ufuatiliaji), VLC (kicheza media kote)
-- Tija**: Nextcloud (wingu la kujipangisha), Kalenda Rahisi (usawazishaji wa CalDAV)
-- Usalama**: Bitwarden (kidhibiti nenosiri), Kithibitishaji cha Aegis (misimbo ya 2FA)
+- **Urambazaji**: Ramani za Kikaboni (ramani za nje ya mtandao kulingana na OpenStreetMap)
+- **Mawasiliano**: Mawimbi (ujumbe uliosimbwa kutoka mwisho hadi mwisho), K-9 Mail (kiteja cha barua pepe bila malipo)
+- **Media**: NewPipe (YouTube isiyo na matangazo, isiyo na ufuatiliaji), VLC (kicheza media kote)
+- **Tija**: Nextcloud (wingu la kujipangisha), Kalenda Rahisi (usawazishaji wa CalDAV)
+- **Usalama**: Bitwarden (kidhibiti nenosiri), Kithibitishaji cha Aegis (misimbo ya 2FA)
 
 
 

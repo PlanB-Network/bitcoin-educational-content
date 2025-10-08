@@ -28,9 +28,9 @@ See ei ole Debian'i "tavaline duplikaat" väikestele Raspberry-tüüpi plaatidel
 
 
 
-- Optimeeritud kiirusele ja kergusele**: [võrdlus teiste SBC-distributsioonide Debianiga](https://dietpi.com/blog/?p=888), DietPi on kõiges kergem. DietPi ISO image kaalub vähem kui 1 GB, mis on kaugelt kõige väiksem vanematele Raspberry või Orange PI mudelitele (näiteks) pühendatud versioonide seas. Nõudlus RAM ja CPU ressursside järele on väga väike, nii et see saab alati parima tulemuse ka vanematest tahvlitest.
-- Sisseehitatud automaatika ja paigaldusprogrammid**: Spetsiaalsete käskude komplekt aitab kasutajatel jälgida süsteemi ressursse ning automatiseerida ülesandeid programmide installimiseks ja käivitamiseks, versioonide uuendamiseks, varukoopiate tegemiseks ja kõigi logide kontrollimiseks.
-- Tugev, eksperimenteerimisele orienteeritud kogukond**: [õpetused](https://dietpi.com/forum/c/community-tutorials/8) ja DietPi kogukonna projektid on ideaalsed selleks, et saada inspiratsiooni tarkvarast, mida saate tänu DietPile ühe klõpsuga paigaldada.
+- **Optimeeritud kiirusele ja kergusele**: [võrdlus teiste SBC-distributsioonide Debianiga](https://dietpi.com/blog/?p=888), DietPi on kõiges kergem. DietPi ISO image kaalub vähem kui 1 GB, mis on kaugelt kõige väiksem vanematele Raspberry või Orange PI mudelitele (näiteks) pühendatud versioonide seas. Nõudlus RAM ja CPU ressursside järele on väga väike, nii et see saab alati parima tulemuse ka vanematest tahvlitest.
+- **Sisseehitatud automaatika ja paigaldusprogrammid**: Spetsiaalsete käskude komplekt aitab kasutajatel jälgida süsteemi ressursse ning automatiseerida ülesandeid programmide installimiseks ja käivitamiseks, versioonide uuendamiseks, varukoopiate tegemiseks ja kõigi logode kontrollimiseks.
+- **Tugev, eksperimenteerimisele orienteeritud kogukond**: [õpetused](https://dietpi.com/forum/c/community-tutorials/8) ja DietPi kogukonna projektid on ideaalsed selleks, et saada inspiratsiooni tarkvarast, mida saate tänu DietPile ühe klõpsuga paigaldada.
 
 
 

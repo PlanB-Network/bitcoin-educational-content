@@ -346,7 +346,7 @@ Extrahera media med filen `.PSBT` och anslut den till datorn offline.
 
 
 
-Från Wallet airgap väljer du nu menyn _Tools_, sedan _Load transaction_ och därefter From file_.
+Från Wallet airgap väljer du nu menyn _Tools_, sedan _Load transaction_ och därefter _From file_.
 
 
 

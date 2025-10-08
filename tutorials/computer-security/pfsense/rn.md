@@ -309,8 +309,8 @@ Igishushanyo co kwinjira kiraboneka. Ivyemezo mburabuzi ni:
 
 
 
-- Izina ry'ukoresha:** `umuyobozi`
-- Ijambobanga:** `pfsense`
+- **Izina ry'ukoresha:** `umuyobozi`
+- **Ijambobanga:** `pfsense`
 
 
 
@@ -429,9 +429,9 @@ Kugira ngo uheze igikorwa cawe n’amahoro yo mu mutima:
 
 
 
-- Guhindura amategeko y'uruhome rw'umuriro**: ku buryo busanzwe, pfSense yemera uruja n'uruza rwose rusohoka kuri LAN kandi igahagarika uruja n'uruza rwinjira kuri WAN. Uhindure ayo mategeko nk’uko bisabwa.
+- **Guhindura amategeko y'uruhome rw'umuriro**: ku buryo busanzwe, pfSense yemera uruja n'uruza rwose rusohoka kuri LAN kandi igahagarika uruja n'uruza rwinjira kuri WAN. Uhindure ayo mategeko nk'uko bisabwa.
 - Gutegura uburyo bwo gushika ku rubuga rwa Interface ukoresheje WAN gusa biciye kuri VPN canke n’amategeko ya IP.
-- Gushoboza amatangazo**: gutegura umukozi wa SMTP kugira ngo yakire imburi (ibinanirwa, ivyagezwe, amakosa).
+- **Gushoboza amatangazo**: gutegura umukozi wa SMTP kugira ngo yakire imburi (ibinanirwa, ivyagezwe, amakosa).
 - Shiraho **ivyagutse** vy’ingirakamaro: nk’akarorero, IDS/IPS (Ivyuma, Suricata), ivy’ugucungera DNS (pfBlockerNG).
 
 

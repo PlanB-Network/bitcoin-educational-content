@@ -111,7 +111,7 @@ Ako nemate jedan, možete jednostavno koristiti svoje ime, svoj pseudonim ili im
 
 
 
-- `contributors`**: Navedite svoj identifikator saradnika ako ga imate.
+- **`contributors`**: Navedite svoj identifikator saradnika ako ga imate.
 
 
 Na primer, vaša YAML datoteka može izgledati ovako:

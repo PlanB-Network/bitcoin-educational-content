@@ -33,7 +33,7 @@ I denna handledning tittar vi på 3 sätt att använda en **Watchtower** :
 
 
 
-*Denna handledning är hämtad från [den officiella LND-dokumentationen] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Vissa ändringar kan ha gjorts i den ursprungliga versionen
+*Denna handledning är hämtad från [den officiella LND-dokumentationen](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Vissa ändringar kan ha gjorts i den ursprungliga versionen.*
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-notera: Watchtower:s publika nyckel skiljer sig från den publika nyckeln för noden `LND`. För närvarande fungerar den som en "Soft-vitlista", eftersom kunder behöver känna till Watchtower:s publika nyckel för att använda den som en säkerhetskopia i väntan på mer avancerade vitlistningsmekanismer. Vi rekommenderar att du INTE avslöjar denna publika nyckel öppet, såvida du inte är beredd att exponera din Watchtower för hela Internet._
+**notera: Watchtower:s publika nyckel skiljer sig från den publika nyckeln för noden `LND`. För närvarande fungerar den som en "Soft-vitlista", eftersom kunder behöver känna till Watchtower:s publika nyckel för att använda den som en säkerhetskopia i väntan på mer avancerade vitlistningsmekanismer. Vi rekommenderar att du INTE avslöjar denna publika nyckel öppet, såvida du inte är beredd att exponera din Watchtower för hela Internet.**
 
 
 
@@ -337,13 +337,13 @@ Satoshi:s öga ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) är en Wa
 
 
 
-- teos**: innehåller en Interface (CLI) för kommandoraden och de viktigaste serverfunktionerna i Watchtower. Två binärfiler - **teosd** och **teos-CLI** - produceras när denna _crate_ kompileras.
+- **teos**: innehåller en Interface (CLI) för kommandoraden och de viktigaste serverfunktionerna i Watchtower. Två binärfiler - **teosd** och **teos-CLI** - produceras när denna _crate_ kompileras.
 
 
 
 
 
-- teos-common**: innehåller delad funktionalitet på server- och klientsidan (användbart för att skapa en klient).
+- **teos-common**: innehåller delad funktionalitet på server- och klientsidan (användbart för att skapa en klient).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: för RPC-förfrågningar
+- **server**: för RPC-förfrågningar
 
 
 
 
 
-- rpcuser** och **rpcpassword**: autentiserar RPC-klienter till servern
+- **rpcuser** och **rpcpassword**: autentiserar RPC-klienter till servern
 
 
 
 
 
-- regtest**: krävs inte, men är användbart om du planerar utveckling.
+- **regtest**: krävs inte, men är användbart om du planerar utveckling.
 
 
 
@@ -489,13 +489,13 @@ I menyn "**Watchtower**" finns två alternativ tillgängliga:
 
 
 
-- Watchtower Service**: Med det här alternativet kan du driva en Watchtower, dvs. en tjänst som övervakar andra noders kanaler för att upptäcka bedrägeriförsök. I händelse av ett intrång publicerar din Watchtower en transaktion på Blockchain, vilket gör det möjligt för användare att återfå sina låsta medel. När den har aktiverats visas din Watchtower:s URI och kan kommuniceras till andra noder så att de kan lägga till den i sin Watchtower-klient;
+- **Watchtower Service**: Med det här alternativet kan du driva en Watchtower, dvs. en tjänst som övervakar andra noders kanaler för att upptäcka bedrägeriförsök. I händelse av ett intrång publicerar din Watchtower en transaktion på Blockchain, vilket gör det möjligt för användare att återfå sina låsta medel. När den har aktiverats visas din Watchtowers URI och kan kommuniceras till andra noder så att de kan lägga till den i sin Watchtower-klient;
 
 
 
 
 
-- Watchtower Client**: med det här alternativet kan du ansluta till externa vakttorn för att skydda dina egna kanaler. När det är aktiverat kan du lägga till Watchtower-tjänster till vilka din nod kommer att överföra nödvändig information om sina kanaler. Dessa vakttorn kommer sedan att övervaka deras status och ingripa i händelse av bedrägeriförsök.
+- **Watchtower Client**: med det här alternativet kan du ansluta till externa vakttorn för att skydda dina egna kanaler. När det är aktiverat kan du lägga till Watchtower-tjänster till vilka din nod kommer att överföra nödvändig information om sina kanaler. Dessa vakttorn kommer sedan att övervaka deras status och ingripa i händelse av bedrägeriförsök.
 
 
 

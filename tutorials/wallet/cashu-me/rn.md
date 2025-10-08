@@ -43,16 +43,16 @@ Reka twinjire mu biranga maze turabe ivyo Cashu.me ifise:
 
 
 
-- Chaumian ecash ku Muravyo**: Ikoresha imikono y'impumyi kugira ngo amahinguriro ntashobore gukurikirana amafaranga y'abakoresha canke amateka y'ibikorwa
-- Ukwirinda ibimenyetso**: Ugenzura ibimenyetso vya ecash mu karere ukoresheje ijambo ryawe seed
-- seed amajambo y'ububiko**: amajambo 12 yo gusubizaho amajambo yo gusubizaho Wallet
-- Ukwigenga kwa Mint**: Gukorana n'ama mint menshi yigenga—ntufunzwe mu mutanga umwe
-- Ibikorwa vy'ubuntu, vy'ubuntu**: Mu gihe kimwe, ukwishyura biraheza mu masegonda make ata mafaranga
-- Ubwubatsi buzigama ubuzima bwite**: Amahinguriro y'amahera ntashobora kubona uwukorana n'uwundi
-- Offline ecash**: Wohereza/kwakira ibimenyetso biciye ku nzira yo gutanga amakuru yo mu karere, nka NFC, kode ya QR, Bluetooth, n'ibindi ata nzira ya interineti
-- Vumbura amafaranga y'amahera biciye kuri Nostr**: Rondera no kugenzura amafaranga yizigirwa biciye ku masezerano ya Nostr
-- Swap ecash hagati y'ama mints**: Ama mints yose avuga umuravyo ivyo, bisigura ko ushobora guhindura agaciro hagati yayo.
-- Igenzura rya kure Wallet yawe ukoresheje Nostr Wallet Ihuza (NWC)**: Huza n'izindi porogarama nka Nostr Client maze utangure gukora zapping biciye kuri NWC
+- **Chaumian ecash ku Muravyo**: Ikoresha imikono y'impumyi kugira ngo amahinguriro ntashobore gukurikirana amafaranga y'abakoresha canke amateka y'ibikorwa
+- **Ukwirinda ibimenyetso**: Ugenzura ibimenyetso vya ecash mu karere ukoresheje ijambo ryawe seed
+- **seed amajambo y'ububiko**: amajambo 12 yo gusubizaho amajambo yo gusubizaho Wallet
+- **Ukwigenga kwa Mint**: Gukorana n'ama mint menshi yigenga—ntufunzwe mu mutanga umwe
+- **Ibikorwa vy'ubuntu, vy'ubuntu**: Mu gihe kimwe, ukwishyura biraheza mu masegonda make ata mafaranga
+- **Ubwubatsi buzigama ubuzima bwite**: Amahinguriro y'amahera ntashobora kubona uwukorana n'uwundi
+- **Offline ecash**: Wohereza/kwakira ibimenyetso biciye ku nzira yo gutanga amakuru yo mu karere, nka NFC, kode ya QR, Bluetooth, n'ibindi ata nzira ya interineti
+- **Vumbura amafaranga y'amahera biciye kuri Nostr**: Rondera no kugenzura amafaranga yizigirwa biciye ku masezerano ya Nostr
+- **Swap ecash hagati y'ama mints**: Ama mints yose avuga umuravyo ivyo, bisigura ko ushobora guhindura agaciro hagati yayo.
+- **Igenzura rya kure Wallet yawe ukoresheje Nostr Wallet Ihuza (NWC)**: Huza n'izindi porogaramu nka Nostr Client maze utangure gukora zapping biciye kuri NWC
 
 
 Ico nyene ni `ukwizigira`: mu gihe ugenzura ibimenyetso ubwavyo, utegerezwa kwizigira ama mints kugira ngo azigame amafaranga y’inyuma ya Bitcoin. Nk’uko inyandiko za Cashu zibivuga:

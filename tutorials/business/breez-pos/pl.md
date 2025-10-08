@@ -6,7 +6,7 @@ description: Przewodnik po rozpoczęciu akceptacji Bitcoin przy użyciu Breez PO
 
 ![cover](assets/cover.webp)
 
-ten tekst pochodzi ze strony internetowej z dokumentacją Breez: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
+ten tekst pochodzi ze strony internetowej z dokumentacją Breez: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html
 
 
 ## Czym jest Breez POS?

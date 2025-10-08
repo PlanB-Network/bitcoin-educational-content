@@ -28,7 +28,7 @@ Bivanye n'ivyo ukeneye, Alby Hub iboneka mu mice 4:
 
 
 
-- Igicu ca Alby :**
+- Igicu ca Alby:
 
 
 Ivyiza ku bashasha, iyi nzira ya mbere ni uburyo bw’igicu ca Alby. Ishobora kugufasha gukoresha Hub ku serveri irongowe na Alby, ushobora kuyironka biciye ku Alby Hub Interface yawe. Naho Alby ari we acungera server, wewe uraguma ufise ubusegaba ku mahera yawe, kuko imfunguruzo zawe zishirwa mu nzira hakoreshejwe ijambobanga uzi wewe wenyene. Ariko rero, imfunguruzo zawe zitegerezwa kuguma zipfutse muri RAM kugira ngo iyo node ikore, ivyo bikaba bituma zishobora gushikirwa n’ingorane iyo umuntu yinjiye kuri server. Ni ugusenyera ku mugozi umwe gushimishije ku batangura, ariko birahambaye kumenya ingorane zishobora guterwa n’ivyo.
@@ -43,7 +43,7 @@ Alby Cloud ni igikorwa cishurwa [Suzuma igiciro cabo](https://albyhub.com/#igici
 
 
 
-- Alby Hub afise urudodo ruriho :**
+- Alby Hub afise urudodo ruriho:
 
 
 Niba usanzwe ufise node yakira, nk’akarorero kuri Umbrel canke Start9, Alby Hub ishobora gukoreshwa nk’uburongozi buteye imbere Interface, mu buryo bumwe na ThunderHub canke RTL.
@@ -51,7 +51,7 @@ Niba usanzwe ufise node yakira, nk’akarorero kuri Umbrel canke Start9, Alby Hu
 
 
 
-- Alby Hub yo mu karere :**
+- Alby Hub yo mu karere:
 
 
 Birashoboka kandi gushiramwo Alby Hub kuri PC yawe, naho iyo nzira idakora cane, kuko PC yawe itegerezwa kuguma ikora ibihe vyose kugira ngo ushobore gushika kure kuri node ya Lightning. Ariko rero, iyo nzira yoshobora kuba ibereye ivyo ukeneye vyihariye.

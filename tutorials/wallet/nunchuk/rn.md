@@ -324,7 +324,7 @@ Nunchuk akwereka uburyo butari buke bushobora gukora, ahanini, n’ibikorwa iyo 
 
 
 
-Muri iyi nkuru tuzokora _Hot Wallet na _Custom wallet_ mu gusobanura ido n'ido.
+Muri iyi nkuru tuzokora _Hot Wallet_ na _Custom wallet_ mu gusobanura ido n'ido.
 
 
 Reka dutangure na _Igikapu c'amahera_.
@@ -343,7 +343,7 @@ Mu buryo bworoshe, iyo porogarama izogusaba kwita izina ry’iyi Wallet nshasha 
 
 
 
-Ivyo Wallet ikora birabandanya bigusaba gushinga urufunguzo amahera y’iyi Wallet azofungurwako. Nimba hariho imfunguruzo nyinshi, uzokwerekwa urutonde wohitamwo. Twebwe ubu twaremye imwe gusa, rero duhitamwo gushiramwo ikimenyetso kuri iyo. Mu mfuruka yo hasi iburyo urashobora kubona ingene Nunchuk azogusaba gushinga imikono myinshi ya Wallet yawe yo muri kazoza, wongere umubare w'imfunguruzo zikenewe_.
+Ivyo Wallet ikora birabandanya bigusaba gushinga urufunguzo amahera y'iyi Wallet azofungurwako. Nimba hariho imfunguruzo nyinshi, uzokwerekwa urutonde wohitamwo. Twebwe ubu twaremye imwe gusa, rero duhitamwo gushiramwo ikimenyetso kuri iyo. Mu mfuruka yo hasi iburyo urashobora kubona ingene Nunchuk azogusaba gushinga imikono myinshi ya Wallet yawe yo muri kazoza, wongere umubare w'imfunguruzo **zikenewe**.
 
 
 

@@ -26,9 +26,9 @@ Aurora Store là một trong những cửa hàng ứng dụng thay thế phổ b
 
 
 
-- Interface** được thiết kế hợp lý: Interface không hề làm bạn bối rối chút nào, do đó bạn có thể dễ dàng xác định phương hướng.
-- Truy cập hàng triệu ứng dụng**: Aurora Store hoạt động như một cổng thông tin đến vô số ứng dụng di động. Nếu ứng dụng bạn đang tìm kiếm có trên Google Play Store, bạn sẽ tìm thấy nó trên Aurora Store.
-- Không cần dịch vụ Google Play**: Nhờ công nghệ MicroG, các ứng dụng Android có thể chạy trên điện thoại của bạn mà không cần dịch vụ Google Play.
+- **Interface** được thiết kế hợp lý: Interface không hề làm bạn bối rối chút nào, do đó bạn có thể dễ dàng xác định phương hướng.
+- **Truy cập hàng triệu ứng dụng**: Aurora Store hoạt động như một cổng thông tin đến vô số ứng dụng di động. Nếu ứng dụng bạn đang tìm kiếm có trên Google Play Store, bạn sẽ tìm thấy nó trên Aurora Store.
+- **Không cần dịch vụ Google Play**: Nhờ công nghệ MicroG, các ứng dụng Android có thể chạy trên điện thoại của bạn mà không cần dịch vụ Google Play.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store không chỉ mô phỏng Google Play Store mà còn bao gồm các 
 
 
 
-- Độc lập với Google:**
+- **Độc lập với Google:**
 
 
 
@@ -112,7 +112,7 @@ Trong trường hợp bạn quyết định tắt dịch vụ Google Play để 
 
 
 
-- Tải xuống điều khiển:**
+- Tải xuống điều khiển:
 
 
 
@@ -126,7 +126,7 @@ Aurora Store cho phép bạn tải xuống thủ công các ứng dụng di đ�
 
 
 
-- Quyền hạn:**
+- **Quyền hạn:**
 
 
 Trong phần mô tả ứng dụng bạn muốn cài đặt, hãy lấy danh sách đầy đủ các quyền mà bạn sẽ cấp cho ứng dụng này sau khi cài đặt.
@@ -139,7 +139,7 @@ Trong phần mô tả ứng dụng bạn muốn cài đặt, hãy lấy danh sá
 
 
 
-- Phân tích bảo vệ dữ liệu:**
+- **Phân tích bảo vệ dữ liệu:**
 
 
 

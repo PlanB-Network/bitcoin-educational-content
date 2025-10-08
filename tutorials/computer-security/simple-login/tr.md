@@ -9,7 +9,7 @@ description: Takma adlarla korunan kimlik
 
 Dijital dünyada, erişmek istenilen her platform için bir hesap sahibi olmak standart bir uygulama haline gelmiştir.
 
-Bu hizmetlerin her biri, genellikle _kullanıcı_adı_ ve _parola_ çifti ile ilişkilendirilen bir oturum açma gerektirir. Kullanıcı adı genellikle kullanıcının kişisel e-postasıdır.
+Bu hizmetlerin her biri, genellikle _kullanıcı adı_ ve _parola_ çifti ile ilişkilendirilen bir oturum açma gerektirir. Kullanıcı adı genellikle kullanıcının kişisel e-postasıdır.
 
 
 Her oturum açma için kişinin kişisel e-posta Address'ı kullanıldığında, ilk sonucu hayal etmek kolaydır: gizlilik kaybı, Address _name.surname@serviceemail.com_ adresinden oluşuyorsa bu büyük bir sorun haline gelir.
@@ -143,7 +143,7 @@ Birden fazla alan adı seçilebilir: herkese açık olanlar ücretsiz planla kul
 ![image](assets/it/15.webp)
 
 
-Rastgele sonek ve alan adı seçildikten sonra, bu yeni (ve tuhaf) Address'ün kişisel e-posta kutularından sadece biri için mi yoksa hepsi için mi takma ad olarak kullanılacağını ayarlayabilirsiniz. Oluştur_'a tıkladıktan sonra takma ad hazır ve etkin hale gelir
+Rastgele sonek ve alan adı seçildikten sonra, bu yeni (ve tuhaf) Address'ün kişisel e-posta kutularından sadece biri için mi yoksa hepsi için mi takma ad olarak kullanılacağını ayarlayabilirsiniz. **Oluştur**'a tıkladıktan sonra takma ad hazır ve etkin hale gelir
 
 
 ![image](assets/it/16.webp)
@@ -205,7 +205,7 @@ Basit Giriş ile ilgili olarak, bu araç aşağıdaki özelliklere sahiptir:
 
 - mobil uygulaması (ayrıca F-Droid'den) ve tarayıcı uzantısı, her durumda takma adları yönetmek için;
 - her yeni takma ad için iki faktörlü kimlik doğrulama, bu da hizmetin kendisinden bağımsızlık derecesini artırır;
-- PGP desteği (_Premium kullanıcıları için);
+- PGP desteği (**Premium kullanıcıları için**);
 - her tür takma adın (özel, rastgele ve UUID) basit bir şekilde oluşturulması;
 - sektördeki ücretsiz planlar arasında, daha fazla "resmi" e-posta kutusu ile takma ad kullanma yeteneği. Diğer rakipler sadece bir taneyle sınırlıdır.
 

@@ -366,7 +366,7 @@ Evo očekivanog rezultata:
 
 
 
-rezultat prikazivanja trenutne verzije Nmap._
+rezultat prikazivanja trenutne verzije **Nmap**.
 
 
 
@@ -451,7 +451,7 @@ Evo očekivanog rezultata:
 
 
 
-rezultat prikazivanja trenutne verzije Nmap._
+rezultat prikazivanja trenutne verzije **Nmap**.
 
 
 
@@ -475,7 +475,7 @@ U svom vrlo osnovnom obliku, tj. bez preteranog korišćenja njegovih opcija, Nm
 
 
 
-poruka o grešci pod Linuxom kada Nmap opcije zahtevaju root prava._
+poruka o grešci pod Linuxom kada Nmap opcije zahtevaju root prava.
 
 
 
@@ -611,7 +611,7 @@ Evo mogućeg rezultata. Vidimo klasičan Nmap povratak sa puno informacija:
 
 
 
-rezultati jednostavnog TCP skeniranja izvedenog pomoću Nmap._
+rezultati jednostavnog TCP skeniranja izvedenog pomoću Nmap.
 
 
 
@@ -723,7 +723,7 @@ Ako pogledate datoteku "/etc/services" na Linux sistemu, pronaći ćete vezu "po
 
 
 
-izvlači sadržaj datoteke "/etc/services" pod Linuxom._
+izvlači sadržaj datoteke "/etc/services" pod Linuxom.
 
 
 
@@ -857,7 +857,7 @@ Ovde, povratna vrednost ima isti format kao za TCP skeniranje, ali aktivne uslug
 
 
 
-rezultat jednostavnog UDP skeniranja izvedenog pomoću Nmap._
+rezultat jednostavnog UDP skeniranja izvedenog pomoću Nmap.
 
 
 
@@ -869,7 +869,7 @@ Usput, verovatno ćete primetiti da Nmap zahteva "root" prava za UDP skeniranja,
 
 
 
-napomena: Od najnovijih verzija Nmap-a, uvek se preporučuje pokretanje UDP skeniranja sa administratorskim privilegijama kako bi se osigurali pouzdani rezultati, jer neke funkcije zahtevaju sirovi pristup mrežnim soketima._
+napomena: Od najnovijih verzija Nmap-a, uvek se preporučuje pokretanje UDP skeniranja sa administratorskim privilegijama kako bi se osigurali pouzdani rezultati, jer neke funkcije zahtevaju sirovi pristup mrežnim soketima.
 
 
 
@@ -909,7 +909,7 @@ Možemo videti na gornjem snimku ekrana da će Nmap poslati veliki broj UDP pake
 
 
 
-izvod iz RFC 1122._
+izvod iz RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Hajde da detaljnije pogledamo ovaj Wireshark snimak, koji prikazuje **tri moguć
 
 
 
-snimanje mreže tokom UDP skeniranja na različitim portovima pomoću Nmap._
+snimanje mreže tokom UDP skeniranja na različitim portovima pomoću Nmap.
 
 
 
@@ -956,7 +956,7 @@ Evo rezultata prikazanog od strane Nmap-a nakon ova tri slučaja:
 
 
 
-mogući rezultati UDP skeniranja izvedenog putem Nmap._
+mogući rezultati UDP skeniranja izvedenog putem Nmap.
 
 
 
@@ -988,7 +988,7 @@ Kao što smo videli, Nmap sam bira broj i portove za skeniranje ako ne navedete 
 
 
 
-izvučeno iz datoteke "/usr/shares/nmap/nmap-services"._
+izvučeno iz datoteke "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Da bismo vam pomogli da razumete kako Probes mogu izgledati, evo liste nekih od 
 
 
 
-primer nekoliko Probes koje koristi Nmap i koje se nalaze u datoteci `/usr/share/nmap/nmap-service-probes`._
+primer nekoliko Probes koje koristi Nmap i koje se nalaze u datoteci `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Sada ćemo se vratiti na direktivu u datoteci `/usr/share/nmap/nmap-service-prob
 
 
 
-ispituje direktivu `rarity` u datoteci `/usr/share/nmap/nmap-service-probes`._
+ispituje direktivu `rarity` u datoteci `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ Da završimo ovu temu, evo primera _Probe_ 9 i 8:
 
 
 
-primeri Probe na retkosti 8 i 9 u datoteci `/usr/share/nmap/nmap-service-probes`._
+primeri Probe na retkosti 8 i 9 u datoteci `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Evo rezultata Nmap skeniranja korišćenjem NSE skripti:
 
 
 
-primer rezultata skeniranja ranjivosti na hostu putem Nmap-a._
+primer rezultata skeniranja ranjivosti na hostu putem Nmap-a.
 
 
 
@@ -2264,7 +2264,7 @@ Tehnički, kategorije kojima skripta pripada su direktno naznačene u njenom kod
 
 
 
-kategorije skripti nSE `ftp-anon`._
+kategorije skripti nSE **ftp-anon**.
 
 
 
@@ -2284,7 +2284,7 @@ Podrazumevano, NSE skripte za Nmap nalaze se u direktorijumu `/usr/share/nmap/sc
 
 
 
-izvlači sadržaj direktorijuma `/usr/share/nmap/scripts/` koji sadrži NSE skripte._
+izvlači sadržaj direktorijuma `/usr/share/nmap/scripts/` koji sadrži NSE skripte.
 
 
 
@@ -2441,7 +2441,7 @@ Zatim imamo veoma precizan rezultat:
 
 
 
-rezultat korišćenja NSE skripte `ftp-anon` na FTP portu putem Nmap._
+rezultat korišćenja NSE skripte `ftp-anon` na FTP portu putem Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Za kratak opis onoga što NSE skripta radi, možete koristiti opciju `--script-h
 
 
 
-pomozi prikaz rezultata za NSE skriptu `sshv1`._
+pomozi prikaz rezultata za NSE skriptu `sshv1`.
 
 
 
@@ -2543,7 +2543,7 @@ Kao što možete videti u ovoj poslednjoj komandi, možemo navesti potrebne argu
 
 
 
-rezultat izvršenja SSH bruteforce napada putem Nmap._
+rezultat izvršenja SSH bruteforce napada putem Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Ovaj format je kreiran da pruži "sažeti" prikaz izlaza Nmap-a, strukturisan na
 
 
 
-nmap mreža skeniranje i izlaz u "greppable" formatu._
+nmap mreža skeniranje i izlaz u **greppable** formatu.
 
 
 
@@ -2700,7 +2700,7 @@ Ovaj format se može koristiti za različite svrhe i posebno je koristan za brzo
 
 
 
-napomena: `-oG` format pogodan za pretragu je zvanično zastareo od Nmap verzije 7.90. I dalje se može koristiti radi kompatibilnosti. I dalje se može koristiti za potrebe kompatibilnosti, ali se preporučuje korišćenje XML ili normalnog formata za bilo koji razvoj ili automatizovano parsiranje._
+napomena: `-oG` format pogodan za pretragu je zvanično zastareo od Nmap verzije 7.90. I dalje se može koristiti radi kompatibilnosti. I dalje se može koristiti za potrebe kompatibilnosti, ali se preporučuje korišćenje XML ili normalnog formata za bilo koji razvoj ili automatizovano parsiranje.
 
 
 
@@ -2867,7 +2867,7 @@ Kao rezultat, imaćemo celu našu skeniranu verziju lepo strukturiranu, čak i s
 
 
 
-izvod iz Nmap izveštaja skeniranja u HTML formatu generisanog pomoću xsltproc._
+izvod iz Nmap izveštaja skeniranja u HTML formatu generisanog pomoću **xsltproc**.
 
 
 
@@ -2889,7 +2889,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) je podskup XSL-a koji om
 
 
 
-izvor: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+izvor: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2913,7 +2913,7 @@ Prva opcija koju treba da pomenemo je opcija `-v`, koja povećava obimnost infor
 
 
 
-nmap-ov detaljan izlaz koristeći opciju `-v`._
+nmap-ov detaljan izlaz koristeći opciju `-v`.
 
 
 
@@ -2929,7 +2929,7 @@ Da biste dodatno pratili aktivnost Nmap-a tokom skeniranja, možete koristiti op
 
 
 
-detaljno praćenje aktivnosti Nmap-a putem `--packet-trace`._
+detaljno praćenje aktivnosti Nmap-a putem `--packet-trace`.
 
 
 
@@ -3149,7 +3149,7 @@ Gde Aquatone obično izvodi otkrivanje portova na hostovima kako bi pronašao we
 
 
 
-korišćenje Nmap rezultata u XML formatu sa `aquatone`._
+korišćenje Nmap rezultata u XML formatu sa `aquatone`.
 
 
 
@@ -3226,7 +3226,7 @@ U svakom slučaju, možete proveriti podrazumevane vrednosti parametara koje će
 
 
 
-pregledajte opcije vremenskog određivanja putem Nmap-ove opcije `-d`._
+pregledajte opcije vremenskog određivanja putem Nmap-ove opcije `-d`.
 
 
 
@@ -3494,7 +3494,7 @@ Ako ste odlučili da koristite Nmap ne putem sesije kao `root`, već dodeljivanj
 
 
 
-povišenje privilegija Nmap putem `sudo`._
+povišenje privilegija Nmap putem `sudo`.
 
 
 
@@ -3538,7 +3538,7 @@ Kao što ste možda primetili, Nmap nudi nekoliko opcija za TCP skeniranje:
 
 
 
-tehnike skeniranja dostupne u Nmap._
+tehnike skeniranja dostupne u Nmap.
 
 
 
@@ -3627,7 +3627,7 @@ Kao što je pomenuto, kada pokrećete Nmap iz privilegovanog terminala, TCP SYN 
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3816,7 +3816,7 @@ Evo primera TCP FIN skeniranja rezultata Nmap-a:
 
 
 
-rezultati TCP FIN skeniranja pomoću Nmap._
+rezultati TCP FIN skeniranja pomoću Nmap.
 
 
 
@@ -3921,7 +3921,7 @@ Važno je napomenuti da TCP XMAS skeniranje nije u stanju da detektuje vatrozide
 
 
 
-napomena: podrška za XMAS/FIN/NULL skeniranja na novijim verzijama Windows-a ostaje ograničena, i rezultati mogu biti nedosledni na ovoj vrsti cilja. (Ažuriranje 2025)_
+napomena: podrška za XMAS/FIN/NULL skeniranja na novijim verzijama Windows-a ostaje ograničena, i rezultati mogu biti nedosledni na ovoj vrsti cilja. (Ažuriranje 2025)
 
 
 
@@ -4012,7 +4012,7 @@ Koristićemo Nmap opciju `-sA` da izvršimo ovu vrstu skeniranja. Evo rezultata 
 
 
 
-prikaz nmap tokom TCP ACK skeniranja._
+prikaz nmap tokom TCP ACK skeniranja.
 
 
 
@@ -4130,7 +4130,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-napomena: Opcija `-sP` je zastarela već nekoliko godina i treba je zameniti sa `-sn`. (Ažuriranje 2025)_
+napomena: Opcija `-sP` je zastarela već nekoliko godina i treba je zameniti sa `-sn`. (Ažuriranje 2025)
 
 
 

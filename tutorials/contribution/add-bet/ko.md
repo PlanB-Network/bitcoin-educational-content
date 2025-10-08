@@ -79,7 +79,7 @@ contributors:
 
 
 
-- 프로젝트`**: PlanB 네트워크에서 조직의 식별자를 표시합니다. 아직 회사의 '프로젝트' 식별자가 없는 경우 이 튜토리얼을 따라 생성할 수 있습니다.
+- **프로젝트**: PlanB 네트워크에서 조직의 식별자를 표시합니다. 아직 회사의 '프로젝트' 식별자가 없는 경우 이 튜토리얼을 따라 생성할 수 있습니다.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -94,7 +94,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- 링크`**: 콘텐츠에 대한 링크를 제공합니다. 두 가지 옵션이 있습니다:
+- **링크**: 콘텐츠에 대한 링크를 제공합니다. 두 가지 옵션이 있습니다:
  - PlanB의 GitHub에서 콘텐츠를 직접 호스팅하기로 선택한 경우 다음 단계에서 이 파일에 대한 링크를 추가해야 합니다.
  - 콘텐츠가 개인 웹사이트 등 다른 곳에서 호스팅되는 경우 여기에 해당 링크를 표시하세요:
      - 다운로드`: 콘텐츠를 다운로드할 수 있는 링크입니다.
@@ -102,7 +102,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- 태그`**: 콘텐츠와 관련된 두 개의 태그를 추가합니다. 예시:
+- **태그**: 콘텐츠와 관련된 두 개의 태그를 추가합니다. 예시:
  - Bitcoin
  - 기술
  - 경제
@@ -111,7 +111,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- 기여자`**: 기여자 식별자가 있는 경우 이를 언급하세요.
+- **기여자**: 기여자 식별자가 있는 경우 이를 언급하세요.
 
 
 예를 들어 YAML 파일은 다음과 같이 보일 수 있습니다:

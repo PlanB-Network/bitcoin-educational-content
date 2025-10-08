@@ -33,7 +33,7 @@ Tässä ohjeessa tarkastelemme 3 tapaa käyttää **Watchtower** :
 
 
 
-*Tämä ohje on otettu [virallisesta LND-dokumentaatiosta](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Alkuperäiseen versioon on saatettu tehdä joitakin muutoksia
+*Tämä ohje on otettu [virallisesta LND-dokumentaatiosta](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Alkuperäiseen versioon on saatettu tehdä joitakin muutoksia.*
 
 
 
@@ -53,7 +53,7 @@ Huomaa, että olemme päättäneet ottaa tässä versiossa käyttöön rajoitetu
 
 
 
-huom: toistaiseksi vartiotornit tallentavat vain peruttujen sitoumusten `to_local`- ja `to_remote`-tulosteet; HTLC-tulosteen tallentaminen otetaan käyttöön tulevassa versiossa, kun protokollaa voidaan laajentaa lisäämään allekirjoitustietoja salattuihin blobseihin._
+huom: toistaiseksi vartiotornit tallentavat vain peruttujen sitoumusten `to_local`- ja `to_remote`-tulosteet; HTLC-tulosteen tallentaminen otetaan käyttöön tulevassa versiossa, kun protokollaa voidaan laajentaa lisäämään allekirjoitustietoja salattuihin blobseihin.
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-huomautus: Watchtower:n julkinen avain eroaa LND-solmun julkisesta avaimesta. Toistaiseksi se toimii "Soft:n valkoluettelona", sillä asiakkaiden on tiedettävä Watchtower:n julkinen avain, jotta he voivat käyttää sitä varmuuskopiona, kunnes kehittyneemmät valkoluettelomekanismit tulevat käyttöön. Suosittelemme, ettet paljasta tätä julkista avainta avoimesti, ellet ole valmis paljastamaan Watchtower:ääsi koko Internetille._
+huomautus: Watchtower:n julkinen avain eroaa LND-solmun julkisesta avaimesta. Toistaiseksi se toimii "Soft:n valkoluettelona", sillä asiakkaiden on tiedettävä Watchtower:n julkinen avain, jotta he voivat käyttää sitä varmuuskopiona, kunnes kehittyneemmät valkoluettelomekanismit tulevat käyttöön. Suosittelemme, ettet paljasta tätä julkista avainta avoimesti, ellet ole valmis paljastamaan Watchtower:ääsi koko Internetille.
 
 
 
@@ -337,13 +337,13 @@ Satoshi:n silmä ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) on [Bol
 
 
 
-- teos**: sisältää komentorivin Interface (CLI) ja Watchtower:n keskeiset palvelinominaisuudet. Kaksi binääritiedostoa - **teosd** ja **teos-CLI** - tuotetaan, kun tämä _crate_ käännetään.
+- **teos**: sisältää komentorivin Interface (CLI) ja Watchtower:n keskeiset palvelinominaisuudet. Kaksi binääritiedostoa - **teosd** ja **teos-CLI** - tuotetaan, kun tämä _crate_ käännetään.
 
 
 
 
 
-- teos-common**: sisältää jaetun palvelin- ja asiakaspuolen toiminnallisuuden (hyödyllinen asiakkaan luomisessa).
+- **teos-common**: sisältää jaetun palvelin- ja asiakaspuolen toiminnallisuuden (hyödyllinen asiakkaan luomisessa).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- palvelin**: RPC-pyyntöjä varten
+- **palvelin**: RPC-pyyntöjä varten
 
 
 
 
 
-- rpcuser** ja **rpcpassword**: RPC-asiakkaiden todennus palvelimelle
+- **rpcuser** ja **rpcpassword**: RPC-asiakkaiden todennus palvelimelle
 
 
 
 
 
-- regtest**: ei pakollinen, mutta hyödyllinen, jos suunnittelet kehitystä.
+- **regtest**: ei pakollinen, mutta hyödyllinen, jos suunnittelet kehitystä.
 
 
 
@@ -416,7 +416,7 @@ Jos nyt suoritat **bitcoind**, solmun pitäisi käynnistyä.
 
 
 
-- Kun olet onnistuneesti asentanut **teos**:n järjestelmääsi ja suorittanut testit, voit siirtyä viimeiseen vaiheeseen: **teos.toml**-tiedoston määrittämiseen teos-käyttäjähakemistoon. Tiedosto on sijoitettava kansioon nimeltä **.teos** (huomaa piste) kotihakemistosi alle. Esimerkiksi **/home//.teos** Linuxissa. Kun sijainti on löydetty, luo **teos.toml**-tiedosto ja aseta nämä asetukset **bitcoind**:ssä** tehtyjen muutosten mukaisesti:
+- Kun olet onnistuneesti asentanut **teos**:n järjestelmääsi ja suorittanut testit, voit siirtyä viimeiseen vaiheeseen: **teos.toml**-tiedoston määrittämiseen teos-käyttäjähakemistoon. Tiedosto on sijoitettava kansioon nimeltä **.teos** (huomaa piste) kotihakemistosi alle. Esimerkiksi **/home//.teos** Linuxissa. Kun sijainti on löydetty, luo **teos.toml**-tiedosto ja aseta nämä asetukset **bitcoind**:ssä tehtyjen muutosten mukaisesti:
 
 
 
@@ -489,13 +489,13 @@ Valikossa "**Watchtower**" on kaksi vaihtoehtoa:
 
 
 
-- Watchtower-palvelu**: Tämän vaihtoehdon avulla voit käyttää Watchtower:tä eli palvelua, joka valvoo muiden solmujen kanavia havaitakseen mahdolliset petosyritykset. Jos petos tapahtuu, Watchtower julkaisee tapahtuman Blockchain:ssä, jolloin käyttäjät voivat saada lukitut varansa takaisin. Aktivoinnin jälkeen Watchtower:n URI ilmestyy näkyviin, ja se voidaan välittää muille solmuille, jotta ne voivat lisätä sen Watchtower-asiakkaaseen;
+- **Watchtower-palvelu**: Tämän vaihtoehdon avulla voit käyttää Watchtower:tä eli palvelua, joka valvoo muiden solmujen kanavia havaitakseen mahdolliset petosyritykset. Jos petos tapahtuu, Watchtower julkaisee tapahtuman Blockchain:ssä, jolloin käyttäjät voivat saada lukitut varansa takaisin. Aktivoinnin jälkeen Watchtower:n URI ilmestyy näkyviin, ja se voidaan välittää muille solmuille, jotta ne voivat lisätä sen Watchtower-asiakkaaseen;
 
 
 
 
 
-- Watchtower Client**: Tämän vaihtoehdon avulla voit muodostaa yhteyden ulkoisiin vahtitorniin omien kanavien suojaamiseksi. Kun olet aktivoinut sen, voit lisätä Watchtower-palveluja, joihin solmusi lähettää tarvittavat tiedot kanavistaan. Nämä vartiotornit valvovat sitten niiden tilaa ja puuttuvat asiaan, jos kanavia yritetään huijata.
+- **Watchtower Client**: Tämän vaihtoehdon avulla voit muodostaa yhteyden ulkoisiin vahtitorniin omien kanavien suojaamiseksi. Kun olet aktivoinut sen, voit lisätä Watchtower-palveluja, joihin solmusi lähettää tarvittavat tiedot kanavistaan. Nämä vartiotornit valvovat sitten niiden tilaa ja puuttuvat asiaan, jos kanavia yritetään huijata.
 
 
 

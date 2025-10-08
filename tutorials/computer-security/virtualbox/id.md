@@ -97,7 +97,7 @@ Di sebelah kiri, bagian "**Tools**" memberikan akses ke **fungsi-fungsi lanjutan
 
 ### A. Proses pembuatan VM
 
-**Sebagai pengingat, VirtualBox mendukung banyak sistem operasi, termasuk Windows, Linux, dan BSD. Dalam contoh ini, saya akan membuat mesin virtual untuk Windows 11. Beberapa bidang perlu diisi:
+**Sebagai pengingat, VirtualBox mendukung banyak sistem operasi, termasuk Windows, Linux, dan BSD. Dalam contoh ini, saya akan membuat mesin virtual untuk Windows 11. Beberapa bidang perlu diisi:**
 
 Sebagai pengingat, VirtualBox mendukung berbagai sistem operasi, termasuk Windows, Linux, dan BSD. Dalam contoh ini, saya akan membuat VM untuk Windows 11. Beberapa kolom perlu diisi:
 

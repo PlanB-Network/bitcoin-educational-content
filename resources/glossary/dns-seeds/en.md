@@ -12,7 +12,7 @@ Initial connection points for new Bitcoin nodes joining the network. These seeds
 * seed.bitcoin.sprovoost.nl: Sjors Provoost;
 * dnsseed.emzy.de: Stephan Oeste;
 * seed.bitcoin.wiz.biz: Jason Maurice;
-* seed.mainnet.achownodes.xyz: Ava Chow.
+**seed.mainnet.achownodes.xyz**: Ava Chow.
 
 DNS seeds are the second method, in order of priority, for a Bitcoin node to establish connections. The first method involves using the peers.dat file that the node itself has created. This file is naturally empty in the case of a new node, unless the user has manually modified it.
 

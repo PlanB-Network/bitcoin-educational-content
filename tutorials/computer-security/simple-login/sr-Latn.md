@@ -205,7 +205,7 @@ Jedinstveni pseudonim, korišćen za svaku prijavu, **odmah nam omogućava da sh
 
 - mobilna aplikacija (takođe sa F-Droid) i ekstenzija za pregledač, za upravljanje aliasima u bilo kojoj situaciji;
 - dvofaktorska autentifikacija za svaki novi pseudonim, što povećava stepen nezavisnosti od same usluge;
-- PGP podrška (za _Premium korisnike);
+- PGP podrška (za _Premium korisnike_);
 - jednostavno kreiranje svake vrste aliasa (prilagođeni, nasumični i UUID);
 - među besplatnim planovima u sektoru, mogućnost korišćenja aliasa sa više "zvaničnih" email sandučića. Drugi konkurenti ograničavaju na samo jedan.
 

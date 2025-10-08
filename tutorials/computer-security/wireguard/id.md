@@ -427,7 +427,7 @@ Oleh :
 AllowedIPs = 0.0.0.0/0
 ```
 
-Anda dapat melihat bahwa ini juga mengaktifkan opsi "**Kill switch*".
+Anda dapat melihat bahwa ini juga mengaktifkan opsi "**Kill switch**".
 
 ![Image](assets/fr/040.webp)
 

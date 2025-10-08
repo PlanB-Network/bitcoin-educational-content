@@ -33,7 +33,7 @@ Dalam tutorial ini, kita akan mencermati 3 cara menggunakan **Watchtower**:
 
 
 
-*Tutorial ini diambil dari [dokumentasi resmi LND] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Beberapa perubahan mungkin telah dilakukan pada versi aslinya
+*Tutorial ini diambil dari [dokumentasi resmi LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Beberapa perubahan mungkin telah dilakukan pada versi aslinya*
 
 
 
@@ -180,7 +180,7 @@ $  lncli tower info
 
 
 
-catatan: kunci publik Watchtower berbeda dengan kunci publik node `LND`. Untuk saat ini, ini bertindak sebagai "daftar putih Soft", karena pelanggan perlu mengetahui kunci publik Watchtower untuk menggunakannya sebagai cadangan, sambil menunggu mekanisme daftar putih yang lebih canggih. Kami menyarankan untuk TIDAK mengungkapkan kunci publik ini secara terbuka, kecuali jika Anda siap untuk mengekspos Watchtower Anda ke seluruh Internet._
+catatan: kunci publik Watchtower berbeda dengan kunci publik node `LND`. Untuk saat ini, ini bertindak sebagai "daftar putih Soft", karena pelanggan perlu mengetahui kunci publik Watchtower untuk menggunakannya sebagai cadangan, sambil menunggu mekanisme daftar putih yang lebih canggih. Kami menyarankan untuk TIDAK mengungkapkan kunci publik ini secara terbuka, kecuali jika Anda siap untuk mengekspos Watchtower Anda ke seluruh Internet.
 
 
 
@@ -337,13 +337,13 @@ Eye of Satoshi ([Rust-TEOS] (https://github.com/talaia-labs/Rust-teos)) adalah W
 
 
 
-- teos**: termasuk baris perintah Interface (CLI) dan fitur-fitur server penting dari Watchtower. Dua binari - **teosd** dan **teos-CLI** - dihasilkan ketika _crate_ ini dikompilasi.
+- **teos**: termasuk baris perintah Interface (CLI) dan fitur-fitur server penting dari Watchtower. Dua binari - **teosd** dan **teos-CLI** - dihasilkan ketika _crate_ ini dikompilasi.
 
 
 
 
 
-- teos-common**: mencakup fungsionalitas sisi server dan sisi klien yang digunakan bersama (berguna untuk membuat klien).
+- **teos-common**: mencakup fungsionalitas sisi server dan sisi klien yang digunakan bersama (berguna untuk membuat klien).
 
 
 
@@ -377,19 +377,19 @@ regtest=1
 
 
 
-- server**: untuk permintaan RPC
+- **server**: untuk permintaan RPC
 
 
 
 
 
-- rpcuser** dan **rpcpassword**: mengautentikasi klien RPC ke server
+- **rpcuser** dan **rpcpassword**: mengautentikasi klien RPC ke server
 
 
 
 
 
-- regtest**: tidak diperlukan, tetapi berguna jika Anda merencanakan pengembangan.
+- **regtest**: tidak diperlukan, tetapi berguna jika Anda merencanakan pengembangan.
 
 
 
@@ -489,13 +489,13 @@ Pada menu "**Watchtower**", tersedia dua opsi:
 
 
 
-- Layanan Watchtower**: opsi ini memungkinkan Anda mengoperasikan Watchtower, yaitu layanan yang memonitor saluran node lain untuk mendeteksi upaya penipuan. Jika terjadi pelanggaran, Watchtower Anda akan menerbitkan transaksi pada Blockchain, sehingga pengguna dapat memulihkan dana mereka yang terkunci. Setelah diaktifkan, URI Watchtower Anda akan muncul dan dapat dikomunikasikan ke node lain sehingga mereka dapat menambahkannya ke klien Watchtower mereka;
+- **Layanan Watchtower**: opsi ini memungkinkan Anda mengoperasikan Watchtower, yaitu layanan yang memonitor saluran node lain untuk mendeteksi upaya penipuan. Jika terjadi pelanggaran, Watchtower Anda akan menerbitkan transaksi pada Blockchain, sehingga pengguna dapat memulihkan dana mereka yang terkunci. Setelah diaktifkan, URI Watchtower Anda akan muncul dan dapat dikomunikasikan ke node lain sehingga mereka dapat menambahkannya ke klien Watchtower mereka;
 
 
 
 
 
-- Watchtower Client**: opsi ini memungkinkan Anda terhubung ke menara pengawas eksternal untuk melindungi saluran Anda sendiri. Setelah diaktifkan, Anda dapat menambahkan layanan Watchtower ke mana node Anda akan mengirimkan informasi yang diperlukan tentang salurannya. Menara pengawas ini kemudian akan memantau status mereka dan melakukan intervensi jika terjadi percobaan penipuan.
+- **Watchtower Client**: opsi ini memungkinkan Anda terhubung ke menara pengawas eksternal untuk melindungi saluran Anda sendiri. Setelah diaktifkan, Anda dapat menambahkan layanan Watchtower ke mana node Anda akan mengirimkan informasi yang diperlukan tentang salurannya. Menara pengawas ini kemudian akan memantau status mereka dan melakukan intervensi jika terjadi percobaan penipuan.
 
 
 

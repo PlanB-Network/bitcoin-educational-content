@@ -145,9 +145,9 @@ Katika sehemu ya **Vituo**, utaona orodha ya njia zilizo wazi na miunganisho ya 
 
 
 
-- Uwiano unaoingia**: Kiasi ambacho nodi itakutoza kwa kila milioni Satoshi itapokea, kulingana na kituo kilichochaguliwa.
+- **Uwiano unaoingia**: Kiasi ambacho nodi itakutoza kwa kila milioni Satoshi itapokea, kulingana na kituo kilichochaguliwa.
 - Uwiano (sehemu kwa milioni)** : ambayo inawakilisha idadi ya Satoshi kwa kila milioni ambayo nodi itakutoza unapoamua kufanya malipo kupitia mojawapo ya chaneli zake. Tuseme umeamua kufanya malipo ya `10_000 Sats` kupitia chaneli ambayo uwiano wake wa ppm ni `500 Sats`, itabidi ulipe nodi `10_000 * 500 / 1_000_000` satoshis, sawa na `5 Sats`.
-- Kiwango cha juu zaidi cha [HTLC](https://planb.network/resources/glossary/HTLC)** : Kiasi cha juu zaidi cha nodi hii hukuruhusu kupita kupitia mojawapo ya vituo hivi.
+- Kiwango cha juu zaidi cha [HTLC](https://planb.network/resources/glossary/HTLC): Kiasi cha juu zaidi cha nodi hii hukuruhusu kupita kupitia mojawapo ya vituo hivi.
 
 
 
@@ -172,7 +172,7 @@ Sehemu ya **Vituo vilivyofungwa** hupanga chaneli zote za zamani za nodi kulinga
 
 
 
-- Kufunga kwa pande zote**: kunawakilisha makubaliano ya pande zote mbili, ambao hutumia ufunguo wao wa kibinafsi kutia saini muamala unaoashiria kufungwa kwa chaneli na usambazaji wa salio ndani yake.
+- **Kufunga kwa pande zote**: kunawakilisha makubaliano ya pande zote mbili, ambao hutumia ufunguo wao wa kibinafsi kutia saini muamala unaoashiria kufungwa kwa chaneli na usambazaji wa salio ndani yake.
 - **Kufungwa kwa lazima**: kunawakilisha kufungwa kwa ghafla, kwa upande mmoja kwa sehemu moja ya kituo. Aina hii ya kufungwa haipendekezwi, kwa kuwa Lightning Network ni itifaki inayozingatia adhabu: unapojaribu kulaghai salio la kituo, una hatari ya kupoteza salio lako lote linalopatikana katika kituo hicho.
 
 

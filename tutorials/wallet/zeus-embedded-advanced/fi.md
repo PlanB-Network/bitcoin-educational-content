@@ -176,7 +176,7 @@ _Keep in mind:_
 
 _Kun avaat kanavan Olympus LSP:n kanssa käyttämällä käärittyjä LN-laskuja, saat myös 100k saapuvaa likviditeettiä ! Tämä on todella hyvä vaihtoehto, jos tarvitset heti lisää Sats:ta. _
 
-esimerkki: talletat 400k Sats avataksesi LSP-kanavan, jolloin LSP avaa 500k Sats kapasiteettikanavan Zeus-solmuun ja työntää tallettamasi 400k Sats omalle puolellesi._
+esimerkki: talletat 400k Sats avataksesi LSP-kanavan, jolloin LSP avaa 500k Sats kapasiteettikanavan Zeus-solmuun ja työntää tallettamasi 400k Sats omalle puolellesi.
 
 _"Sisäänpäin suuntautuva likviditeetti" = enemmän "tilaa" kanavassasi vastaanottaa._
 

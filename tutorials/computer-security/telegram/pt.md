@@ -157,7 +157,7 @@ Não se esqueça de definir:
 
 
 - _Número de telefone_ para "Ninguém"
-- chamadas_ para "Os meus contactos"
+- chamadas para **"Os meus contactos"**
 - _Convida_ a "Ninguém"
 
 Estas são medidas que impedem a exposição do seu número de telefone, para que não receba chamadas indesejadas nem seja adicionado inadvertidamente a grupos de origem duvidosa. Mais tarde, pode ajustar todos os outros parâmetros como desejar.

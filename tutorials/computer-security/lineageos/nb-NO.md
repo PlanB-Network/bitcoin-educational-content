@@ -149,8 +149,8 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-- Android Flash-verktøy**: Bruk det offisielle Google-verktøyet [flash.android.com] (https://flash.android.com) for å enkelt gjenopprette Pixel-enheten din til standard Android fra nettleseren din (Chrome/Edge kreves)
-- Alternativ**: Fabrikkbilder manuelt fra [developers.google.com/android/images] (https://developers.google.com/android/images)
+- **Android Flash-verktøy**: Bruk det offisielle Google-verktøyet [flash.android.com](https://flash.android.com) for å enkelt gjenopprette Pixel-enheten din til standard Android fra nettleseren din (Chrome/Edge kreves)
+- **Alternativ**: Fabrikkbilder manuelt fra [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-- Start enheten minst én gang** med det opprinnelige standardsystemet
-- Test alle funksjoner**: SMS, samtaler, Wi-Fi, mobildata
-- Viktig**: Sjekk at du kan sende/motta SMS og ringe/motta samtaler (inkludert via WiFi og 4G/5G). Hvis det ikke fungerer på standardsystemet, vil det heller ikke fungere på LineageOS!
-- Nyere enheter**: Noen krever at VoLTE/VoWiFi brukes minst én gang på standardsystemet for å klargjøre IMS
+- Start enheten minst én gang med det opprinnelige standardsystemet
+- **Test alle funksjoner**: SMS, samtaler, Wi-Fi, mobildata
+- **Viktig**: Sjekk at du kan sende/motta SMS og ringe/motta samtaler (inkludert via WiFi og 4G/5G). Hvis det ikke fungerer på standardsystemet, vil det heller ikke fungere på LineageOS!
+- **Nyere enheter**: Noen krever at VoLTE/VoWiFi brukes minst én gang på standardsystemet for å klargjøre IMS
 
 
 
@@ -171,8 +171,8 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-- Fjern alle Google**-kontoer fra enheten for å unngå beskyttelse mot tilbakestilling til fabrikkinnstilling, som kan blokkere aktivering
-- Full sikkerhetskopiering** : Prosessen vil slette telefonen din fullstendig. Sikkerhetskopier bilder, kontakter, applikasjoner og viktige filer
+- Fjern alle **Google-kontoer** fra enheten for å unngå beskyttelse mot tilbakestilling til fabrikkinnstilling, som kan blokkere aktivering
+- **Full sikkerhetskopiering**: Prosessen vil slette telefonen din fullstendig. Sikkerhetskopier bilder, kontakter, applikasjoner og viktige filer
 
 
 
@@ -216,7 +216,7 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-⚠️ **Disse instruksjonene er spesifikke for LineageOS 22.2. Følg hvert trinn nøyaktig. Ikke gå videre hvis noe mislykkes!
+⚠️ **Disse instruksjonene er spesifikke for LineageOS 22.2. Følg hvert trinn nøyaktig. Ikke gå videre hvis noe mislykkes!**
 
 
 
@@ -249,8 +249,8 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-- Bygg LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Nødvendige filer**: Last ned de tre nødvendige filene fra denne siden (de vil bli brukt i de følgende trinnene):
+- **Bygg LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Nødvendige filer**: Last ned de tre nødvendige filene fra denne siden (de vil bli brukt i de følgende trinnene):
   - `lineage-22.2-YYYYYYMMDD-nightly-flame-signed.zip` (hoved-ROM)
   - dtbo.img` (partition device tree blob)
   - `boot.img` (gjenoppretting LineageOS)
@@ -269,13 +269,13 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-⚠️ **Dette trinnet sletter alle dataene dine!
+⚠️ **Dette trinnet sletter alle dataene dine!**
 
 
 
 
 
-- Test ADB-tilkoblingen**: Koble til enheten via USB og test med kommandoen `adb devices` fra terminalen på datamaskinen
+- **Test ADB-tilkoblingen**: Koble til enheten via USB og test med kommandoen `adb devices` fra terminalen på datamaskinen
 
 
 
@@ -289,7 +289,7 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-- Godkjenn tilkobling** på telefonen din
+- **Godkjenn tilkobling** på telefonen din
 
 
 
@@ -303,7 +303,7 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-- Start opp i bootloader-modus** :
+- Start opp i **bootloader-modus**:
 
 
 ```
@@ -317,7 +317,7 @@ Eller hold **Volume ned + Power** enheten av
 
 
 
-- Kontroller fastboot**-tilkoblingen:
+- Kontroller **fastboot-tilkoblingen**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Lås opp bootloaderen** :
+- **Lås opp bootloaderen**:
 
 
 ```
@@ -370,7 +370,7 @@ På enheten bruker du volumtastene til å navigere og trykker på **Power**-knap
 
 
 
-- Etter automatisk omstart** aktiverer du USB-feilsøking på nytt i utvikleralternativene
+- Etter automatisk omstart aktiverer du USB-feilsøking på nytt i utvikleralternativene
 
 
 
@@ -385,8 +385,8 @@ På enheten bruker du volumtastene til å navigere og trykker på **Power**-knap
 
 
 
-- Start bootloaderen på nytt**: Volum ned + Power
-- Flash** (erstatt `/path/to/` med mappen der du lastet ned filen) :
+- **Start bootloaderen på nytt**: Volum ned + Power
+- **Flash** (erstatt `/path/to/` med mappen der du lastet ned filen) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (erstatt `/path/to/` med mappen der du lastet ned filen) :
+- **Flash recovery** (erstatt `/path/to/` med mappen der du lastet ned filen) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Start på nytt i gjenoppretting** for å sjekke
+- Start på nytt i **gjenoppretting** for å sjekke
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Start på nytt i gjenopprettingsmodus**: Volum ned + Power → Gjenopprettingsmodus
+- **Start på nytt i gjenopprettingsmodus**: Volum ned + Power → Gjenopprettingsmodus
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Fabrikkinnstilling** : Skriv inn "Fabrikkinnstilling" → "Formater data / fabrikkinnstilling"
+- **Fabrikkinnstilling**: Skriv inn "Fabrikkinnstilling" → "Formater data / fabrikkinnstilling"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Gå tilbake til hovedmenyen**
-- Sideload LineageOS** :
+- Gå tilbake til hovedmenyen
+- **Sideload LineageOS** :
    - På enheten: "Bruk oppdatering" → "Bruk fra ADB"
    - På PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,12 +498,12 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Start på nytt**: "Start systemet på nytt nå"
-- Første oppstart**: Kan ta opptil 15 minutter
+- **Start på nytt**: "Start systemet på nytt nå"
+- **Første oppstart**: Kan ta opptil 15 minutter
 
 
 
-🎉 **Installasjonen er fullført!** **
+🎉 **Installasjonen er fullført!**
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Fastvarekompatibilitet**: Sørg for å sjekke hvilken fastvareversjon som kreves på nedlastingssiden for din modell
-- Aldri lås** bootloaderen på nytt etter installasjon av LineageOS
-- Følg de spesifikke instruksjonene** for enheten din
+- **Fastvarekompatibilitet**: Sørg for å sjekke hvilken fastvareversjon som kreves på nedlastingssiden for din modell
+- Aldri lås **bootloaderen** på nytt etter installasjon av LineageOS
+- Følg de **spesifikke instruksjonene** for enheten din
 
 
 
@@ -559,11 +559,11 @@ Strømlinjeformet Interface, nær lager Android, uten Google. Enkel konfigurasjo
 
 
 
-- Navigasjon**: Organic Maps (offline-kart basert på OpenStreetMap)
-- Kommunikasjon**: Signal (ende-til-ende-krypterte meldinger), K-9 Mail (gratis e-postklient)
-- Medier**: NewPipe (reklamefri, sporingsfri YouTube), VLC (universell mediespiller)
-- Produktivitet**: Nextcloud (selvbetjent sky), Simple Calendar (CalDAV-synkronisering)
-- Sikkerhet**: Bitwarden (passordbehandling), Aegis Authenticator (2FA-koder)
+- **Navigasjon**: Organic Maps (offline-kart basert på OpenStreetMap)
+- **Kommunikasjon**: Signal (ende-til-ende-krypterte meldinger), K-9 Mail (gratis e-postklient)
+- **Medier**: NewPipe (reklamefri, sporingsfri YouTube), VLC (universell mediespiller)
+- **Produktivitet**: Nextcloud (selvbetjent sky), Simple Calendar (CalDAV-synkronisering)
+- **Sikkerhet**: Bitwarden (passordbehandling), Aegis Authenticator (2FA-koder)
 
 
 

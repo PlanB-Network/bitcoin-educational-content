@@ -163,7 +163,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*Interface 제우스 스왑: 네트워크 수수료(Sats 302)와 제우스 서비스(Sats 50)를 투명하게 표시하여 금액 선택(Sats 50,000 → 수수료 후 Sats 49,648)*.*
+*Interface 제우스 스왑: 네트워크 수수료(Sats 302)와 제우스 서비스(Sats 50)를 투명하게 표시하여 금액 선택(Sats 50,000 → 수수료 후 Sats 49,648).*
 
 
 
@@ -223,7 +223,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-*성공 확인: 네트워크 및 서비스 요금* 공제 후 라이트닝에서 49,648 Sats 수신*
+**성공 확인: 네트워크 및 서비스 요금 공제 후 라이트닝에서 49,648 Sats 수신**
 
 
 
@@ -277,10 +277,10 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- 단순성**: 몇 번의 클릭만으로 채널 교체 대 수동 채널 조작
-- 비수탁**: KYC, 계정 없음, 자금이 제3자에게 위탁되지 않음
-- 투명성**: 검증 전에 수수료가 명시적으로 표시됨(사용자 테스트에 따라 0.1%~0.5% + 마이너스 - 각 스왑에서 현재 수수료 확인)
-- 모바일 통합**: Zeus Wallet의 기본 경험
+- **단순성**: 몇 번의 클릭만으로 채널 교체 대 수동 채널 조작
+- **비수탁**: KYC, 계정 없음, 자금이 제3자에게 위탁되지 않음
+- **투명성**: 검증 전에 수수료가 명시적으로 표시됨(사용자 테스트에 따라 0.1%~0.5% + 마이너스 - 각 스왑에서 현재 수수료 확인)
+- **모바일 통합**: Zeus Wallet의 기본 경험
 
 
 
@@ -290,10 +290,10 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- 만료 시간**: 최대 24-48시간, Bitcoin이 제시간에 확인되지 않으면 실패합니다
-- 금액 한도**: 최소 25,000 Sats, 조건에 따라 가변적인 Zeus LSP 유동성
-- On-Chain 추적**: HTLC 분석으로 잠재적으로 식별 가능한 Blockchain 스크립트
-- 확인 필요**: Bitcoin 유효성 검사에 최소 10분 소요됨
+- **만료 시간**: 최대 24-48시간, Bitcoin이 제시간에 확인되지 않으면 실패합니다
+- **금액 한도**: 최소 25,000 Sats, 조건에 따라 가변적인 Zeus LSP 유동성
+- **On-Chain 추적**: HTLC 분석으로 잠재적으로 식별 가능한 Blockchain 스크립트
+- **확인 필요**: Bitcoin 유효성 검사에 최소 10분 소요됨
 
 
 
@@ -320,7 +320,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 - Bitcoin 주소를 주의 깊게 확인하세요(복사-붙여넣기 권장)
-- 제우스 스왑 복구 키 백업**: 복구 키를 다운로드하여 안전한 곳에 보관하세요
+- **제우스 스왑 복구 키 백업**: 복구 키를 다운로드하여 안전한 곳에 보관하세요
 - 문서: Contract ID, 환불 Address, 만료일
 - 적시 확인을 위해 적절한 Mining 수수료 사용
 
@@ -354,11 +354,11 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-- Interface 통합**: 제우스 Wallet과 Interface 웹 기술 볼츠의 네이티브 통합
-- 웹소켓 API**: 실시간 업데이트와 수동 폴링 비교
-- 자동 관리**: 자동 청구 및 Address 관리
-- 모바일 지원**: 스마트폰 대 데스크톱 최적화 전용
-- Swagger 문서**: 개발자를 위한 완벽한 REST API
+- **Interface 통합**: 제우스 Wallet과 Interface 웹 기술 볼츠의 네이티브 통합
+- **웹소켓 API**: 실시간 업데이트와 수동 폴링 비교
+- **자동 관리**: 자동 청구 및 Address 관리
+- **모바일 지원**: 스마트폰 대 데스크톱 최적화 전용
+- **Swagger 문서**: 개발자를 위한 완벽한 REST API
 
 
 

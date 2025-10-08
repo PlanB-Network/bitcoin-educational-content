@@ -305,7 +305,7 @@ Machankura 是一个托管闪电 Wallet，因此您的比特币通过 Machankura
 
 
 
-*来自 Bitcoin 开发人员 Vladimir FOMENE 的视频：* *
+**来自 Bitcoin 开发人员 Vladimir FOMENE 的视频：**
 
 
 

@@ -24,7 +24,7 @@ $$s_A' \cdot G = N_A + H(N_A + T \sambamba P_A \sambamba m_A) \cdot P_A$$
 
 
 
-- Uthibitishaji huu unampa Bob uhakikisho kutoka kwa Alice, ili aweze kuendelea na mchakato wa kubadilishana atomiki kwa amani ya akili. Kisha ataunda muamala wake mwenyewe $m_B$ kutuma BTC 1 kwa Alice na saini yake ya adapta $s_B'$, ambayo itaunganishwa na siri ile ile $t$ ambayo Alice pekee anajua kwa sasa (Bob hajui thamani hii $t$, lakini tu pointi yake sambamba $T$ ambayo Alice amempa): $$s_B' = n_B +B + H (Nparalle P_ m_B) \cdot p_B$$
+- Uthibitishaji huu unampa Bob uhakikisho kutoka kwa Alice, ili aweze kuendelea na mchakato wa kubadilishana atomiki kwa amani ya akili. Kisha ataunda muamala wake mwenyewe $m_B$ kutuma BTC 1 kwa Alice na saini yake ya adapta $s_B'$, ambayo itaunganishwa na siri ile ile $t$ ambayo Alice pekee anajua kwa sasa (Bob hajui thamani hii $t$, lakini tu pointi yake sambamba $T$ ambayo Alice amempa): $$s_B' = n_B + t + H(T_{parallel} P_{m_B}) \cdot p_B$$
 
 
 

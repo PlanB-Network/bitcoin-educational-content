@@ -29,9 +29,9 @@ Wallet yishura ku ngorane ikomeye: Amafaranga y’urubuga rwa Bitcoin ntabereye 
 
 
 
-- Bitcoin network (onchain)**: Ni vyiza ku kubika UTXOs n’ibikorwa vy’agaciro kanini, aho amafaranga ari make cane.
-- Liquid Network**: Igenewe kwihuta (~2 iminota), ibanga cane (amahera yihishije), amafaranga make, ibereye kwirundanira amahera make canke kurinda ubuzima bwite bwawe.
-- Lightning Network**: Itunganijwe neza kugira ngo umuntu ashobore kwishura ubwo nyene, ku giciro gito, ibereye ku bikorwa vy’ubudandaji vy’agaciro gatoyi canke buringaniye ku musi ku musi.
+- **Bitcoin network (onchain)**: Ni vyiza ku kubika UTXOs n'ibikorwa vy'agaciro kanini, aho amafaranga ari make cane.
+- **Liquid Network**: Igenewe kwihuta (~2 iminota), ibanga cane (amahera yihishije), amafaranga make, ibereye kwirundanira amahera make canke kurinda ubuzima bwite bwawe.
+- **Lightning Network**: Itunganijwe neza kugira ngo umuntu ashobore kwishura ubwo nyene, ku giciro gito, ibereye ku bikorwa vy'ubudandaji vy'agaciro gatoyi canke buringaniye ku musi ku musi.
 
 
 
@@ -70,10 +70,10 @@ Imbere yo gutangura gukoresha **Bull Bitcoin Mobile**, urabe neza ko ufise ibi b
 
 
 
-- Telefone ngendanwa ihuye**: **iOS** (iPhone canke iPad) canke **Igikoresho ca Android**
+- Telefone ngendanwa ihuye: **iOS** (iPhone canke iPad) canke **Igikoresho ca Android**
 - Ukwihuza kuri interineti
-- Secure backup media**: Andika **ijambo ryawe ryo gusubizaho** (amajambo 12) ku mpapuro canke ku cuma maze ubike ahantu heza.
-- Ubumenyi bw’ishimikiro**: Gutahura bikeyi ivyiyumviro vya Bitcoin (amaderesi, amafaranga, amafaranga) ni ngirakamaro, naho iyi nyigisho isigura intambwe yose ku batangura.
+- **Secure backup media**: Andika **ijambo ryawe ryo gusubizaho** (amajambo 12) ku mpapuro canke ku cuma maze ubike ahantu heza.
+- **Ubumenyi bw'ishimikiro**: Gutahura bikeyi ivyiyumviro vya Bitcoin (amaderesi, amafaranga, amafaranga) ni ngirakamaro, naho iyi nyigisho isigura intambwe yose ku batangura.
 
 
 
@@ -113,8 +113,8 @@ Porogaramu ikoresha amajambo yihariye y'amajambo 12 yo gusubizaho ku bipimo vyos
 
 
 
-- Bitcoin Wallet**: Ku bikorwa ku rubuga rwa Bitcoin (ku ruzitiro)
-- Ivyishyurwa bihita' Wallet**: Ku bikorwa bihita ku nzira za Liquid na Lightning
+- **Bitcoin Wallet**: Ku bikorwa ku rubuga rwa Bitcoin (ku ruzitiro)
+- **Ivyishyurwa bihita' Wallet**: Ku bikorwa bihita ku nzira za Liquid na Lightning
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Ikoreshwa**: Kopa URI kugira ngo uyisangire n’uwayirungikiye, canke umureke akoreshe kode ya QR.
+- **Ikoreshwa**: Kopa URI kugira ngo uyisangire n'uwayirungikiye, canke umureke akoreshe kode ya QR.
 
 
 
@@ -297,7 +297,7 @@ Naho woba wanditse amahera canke agapapuro, ntibizoshirwa muri kode ya QR canke 
 
 
 
-- Ikoreshwa**: Kopa Address kugira ngo uyisangire n’uwayirungikiye, canke umureke akoreshe kode ya QR.
+- **Ikoreshwa**: Kopa Address kugira ngo uyisangire n'uwayirungikiye, canke umureke akoreshe kode ya QR.
 
 
 
@@ -412,29 +412,29 @@ Ku mugaragaro w'intango, ushobora :
 
 
 
-- Uburyo**: Bull Bitcoin Wallet ni Wallet ishobora gutuma amahera ashobora kwishurwa no kwakirwa biciye ku Muravyo. Amafaranga abonetse biciye ku Lightning abikwa ku rubuga rwa **Liquid** (mu vyo kwishura vuba vya Wallet) biciye ku guhinduranya amafaranga biciye ku **Boltz**. Ivyo biguha ubushobozi bwo gukorana na Lightning utabwirizwa gucunga imihora y’amahera, mu gihe uguma mu kwicungera.
+- **Uburyo**: Bull Bitcoin Wallet ni Wallet ishobora gutuma amahera ashobora kwishurwa no kwakirwa biciye ku Muravyo. Amafaranga abonetse biciye ku Lightning abikwa ku rubuga rwa **Liquid** (mu vyo kwishura vuba vya Wallet) biciye ku guhinduranya amafaranga biciye ku **Boltz**. Ivyo biguha ubushobozi bwo gukorana na Lightning utabwirizwa gucunga imihora y'amahera, mu gihe uguma mu kwicungera.
 
 
 
 
 
-- Imipaka:**
-- Igitigiri gitoyi c'amasatoshi 100** (kuva ku wa 19/07/2025) igihe ukoresha generate ku Invoice.
+- **Imipaka:**
+- Igitigiri gitoyi c'amasatoshi **100** (kuva ku wa 19/07/2025) igihe ukoresha generate ku Invoice.
 - Urishura amafaranga, azokurwa ku mafaranga yoherejwe n’uwarungitse, bitandukanye n’ukwakira na Wallet Lightning native, aho uwurungitse wenyene ari we ariha amafaranga yo kwimurira uretse amafaranga yoherejwe. Kuva ku wa 19/07/2025, 47 Sats zikurwa ku mahera yoherejwe.
 
 
 
 
 
-- Inyungu**:
-- Ukwizigama**: Amahera yawe aguma ari munsi y’ububasha bwawe, abitswe kuri Liquid Network.
-- Nta mafaranga menshi yo kuri onchain**: Ububiko kuri Liquid burinda amafaranga menshi yo gushiramwo kugira ngo ufungure umurongo wawe wa Lightning canke wongereko amahera. Ivyo bikorwa bishobora gukorwa mu nyuma, igihe amahera yirundanijwe kuri Liquid azoba afise imvo n’imvano y’amahera.
+- **Inyungu**:
+- **Ukwizigama**: Amahera yawe aguma ari munsi y'ububasha bwawe, abitswe kuri Liquid Network.
+- **Nta mafaranga menshi yo kuri onchain**: Ububiko kuri Liquid burinda amafaranga menshi yo gushiramwo kugira ngo ufungure umurongo wawe wa Lightning canke wongereko amahera. Ivyo bikorwa bishobora gukorwa mu nyuma, igihe amahera yirundanijwe kuri Liquid azoba afise imvo n'imvano y'amahera.
 
 
 
 
 
-- Impanuro:** Nimba uwurungitse afise Wallet Bull Bitcoin, koresha Liquid Network ataco uhinduye kugira ngo wirinde amahera yo guhindura
+- **Impanuro:** Nimba uwurungitse afise Wallet Bull Bitcoin, koresha Liquid Network ataco uhinduye kugira ngo wirinde amahera yo guhindura
 
 
 
@@ -456,13 +456,13 @@ Ku mugaragaro w'intango, ushobora :
 
 
 
-- Invoice ikora:** Umuravyo Invoice ukora **amasaha 12**. Inyuma y’ico gihe, irahera, ntishobora gusubira kwishurwa. Invoice nshasha itegerezwa guterwa.
+- Invoice ikora: Umuravyo Invoice ukora **amasaha 12**. Inyuma y'ico gihe, irahera, ntishobora gusubira kwishurwa. Invoice nshasha itegerezwa guterwa.
 
 
 
 
 
-- Ikoreshwa**: Kopa Invoice kugira ngo uyisangire n’uwayirungikiye, canke umureke akoreshe kode ya QR.
+- **Ikoreshwa**: Kopa Invoice kugira ngo uyisangire n'uwayirungikiye, canke umureke akoreshe kode ya QR.
 
 
 
@@ -563,27 +563,27 @@ Hanyuma ushobora guhindura ibigenderwako:
 
 
 
-- Amafaranga**: Ushobora guhitamwo :
-  - Canke umuvuduko wo gukora** w'ibikorwa vyawe, n'amahera ajanye navyo azogereranywa
+- **Amafaranga**: Ushobora guhitamwo :
+- Canke umuvuduko wo gukora **w'ibikorwa vyawe, n'amahera ajanye navyo azogereranywa**
 - Yaba amafaranga, mu buryo bwa **Amahera yose** (amafaranga yose mu satoshis) canke **Amahera ajanye** (amafaranga kuri byte), kandi umuvuduko w’ugucuruza kwawe uzogereranywa
 
 
 
 
 
-- Amagenamiterere ateye imbere**:
+- **Amagenamiterere ateye imbere**:
 
 
 
 
 
-- Replace-by-fee (RBF)**: Iyo ikoreshwa ku buryo busanzwe, iyo nzira yihutisha ugucuruza mu kwishura amahera menshi (raba Umugereka wa 4 kugira ngo umenye vyinshi).
+- **Replace-by-fee (RBF)**: Iyo ikoreshwa ku buryo busanzwe, iyo nzira yihutisha ugucuruza mu kwishura amahera menshi (raba Umugereka wa 4 kugira ngo umenye vyinshi).
 
 
 
 
 
-- Guhitamwo UTXO** n’amaboko: Nimba amahera yawe abitswe ku maderesi menshi atandukanye ya Wallet, urashobora guhitamwo amaderesi uzorungikirako ayo mahera. Ni kubera iki ivyo ukwiye kubigira? Kubera ko abantu barushiriza kwemera Bitcoin, amahera yo kwimurira abantu mu bindi bihugu ariko araduga. Kurungika ukoresheje amaderesi menshi ukoresheje amahera makeyi birazimvye kuruta kwohereza ukoresheje Address imwe, mugabo kubikora ubu biratuma utazobwirizwa kubikora mu nyuma, igihe amahera azoba mbere ari menshi. Ivyo vyitwa **ugushiramwo UTXO**.
+- Guhitamwo **UTXO** n'amaboko: Nimba amahera yawe abitswe ku maderesi menshi atandukanye ya Wallet, urashobora guhitamwo amaderesi uzorungikirako ayo mahera. Ni kubera iki ivyo ukwiye kubigira? Kubera ko abantu barushiriza kwemera Bitcoin, amahera yo kwimurira abantu mu bindi bihugu ariko araduga. Kurungika ukoresheje amaderesi menshi ukoresheje amahera makeyi birazimvye kuruta kwohereza ukoresheje Address imwe, mugabo kubikora ubu biratuma utazobwirizwa kubikora mu nyuma, igihe amahera azoba mbere ari menshi. Ivyo vyitwa **ugushiramwo UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Hanyuma ushobora guhindura ibigenderwako:
 
 
 
-- Kurungika na PayJoin**: Niba igikorwa cakoreshejwe n'uwakira yatanze URI, nk'akarorero. :
+- **Kurungika na PayJoin**: Niba igikorwa cakoreshejwe n'uwakira yatanze URI, nk'akarorero. :
 
 
 
@@ -679,7 +679,7 @@ Fata umwanya wo gusuzuma ibipimo vyose, cane cane umubare n'aho uja Address.
 
 
 
-- Amafaranga**: Bihuye n’uburemere bw’ugucuruza, muri rusangi ku rugero rwa 0.1 sat/vB, ni ukuvuga 20-40 satoshis ku gucuruza kworoshe (33 Sats ku wa 22/07/2025).
+- **Amafaranga**: Bihuye n'uburemere bw'ugucuruza, muri rusangi ku rugero rwa 0.1 sat/vB, ni ukuvuga 20-40 satoshis ku gucuruza kworoshe (33 Sats ku wa 22/07/2025).
 
 
 
@@ -750,29 +750,29 @@ Iciyumviro: amafaranga ategerezwa kuba arenga 21 Sats ku wa 23/07/2025
 
 
 
-- Uburyo**: Amahera akurwa mu **Ivyishyurwa vy’Ubwo nyene Wallet** (Liquid) agahindurwa biciye mu guhinduranya **Liquid → Umuravyo** na **Boltz**.
+- **Uburyo**: Amahera akurwa mu **Ivyishyurwa vy'Ubwo nyene Wallet** (Liquid) agahindurwa biciye mu guhinduranya **Liquid → Umuravyo** na **Boltz**.
 
 
 
 
 
-- Imipaka:**
+- **Imipaka:**
 - Igitigiri gitoyi **kirengeye umuravyo wa Wallet** (raba hejuru)
-- Amafaranga** yongeweko Liquid → Guhindura umuravyo biciye ku Boltz
+- **Amafaranga yongeweko Liquid** → Guhindura umuravyo biciye ku Boltz
 
 
 
 
 
-- Inyungu**:
-- Ukwizigama**: Amahera yawe aguma ari munsi y’ububasha bwawe, abikwa kuri Liquid Network, kandi ashobora kwimurirwa biciye ku Lightning iyo bikenewe
-- Nta mafaranga menshi yo kuri onchain**: Kubika kuri Liquid vyagukijije amafaranga menshi yo gushiramwo kugira ngo ufungure umurongo wawe wa Lightning canke wongereko amahera. Ivyo bikorwa bishobora gukorwa mu nyuma, igihe amahera yirundanijwe kuri Liquid azoba afise imvo n’imvano y’amahera.
+- **Inyungu**:
+- **Ukwizigama**: Amahera yawe aguma ari munsi y'ububasha bwawe, abikwa kuri Liquid Network, kandi ashobora kwimurirwa biciye ku Lightning iyo bikenewe
+- **Nta mafaranga menshi yo kuri onchain**: Kubika kuri Liquid vyagukijije amafaranga menshi yo gushiramwo kugira ngo ufungure umurongo wawe wa Lightning canke wongereko amahera. Ivyo bikorwa bishobora gukorwa mu nyuma, igihe amahera yirundanijwe kuri Liquid azoba afise imvo n'imvano y'amahera.
 
 
 
 
 
-- Impanuro:** Nimba uwuronka afise Wallet Bull Bitcoin, ukoreshe Liquid Network ataco uhinduye kugira ngo wirinde amahera yo guhindura
+- **Impanuro:** Nimba uwuronka afise Wallet Bull Bitcoin, ukoreshe Liquid Network ataco uhinduye kugira ngo wirinde amahera yo guhindura
 
 
 
@@ -864,57 +864,57 @@ Paje ya "Imiterere" ishobora gushikwako ataco ihinduye kuri paji y'intango y'iko
 
 
 
-- Wallet Backup**: Igaragaza ijambo ryo gusubizaho ry'ibitabo kugira ngo bibeho mu buryo butekanye. Raba igice ca 3. ku bijanye no kurema ibitabo ku buryo bwiza bwo gucunga no kubika ijambo ry’ugusubirana.
+- **Wallet Backup**: Igaragaza ijambo ryo gusubizaho ry'ibitabo kugira ngo bibeho mu buryo butekanye. Raba igice ca 3. ku bijanye no kurema ibitabo ku buryo bwiza bwo gucunga no kubika ijambo ry'ugusubirana.
 
 
 
 
 
-- Wallet Ibisobanuro**:
-- Pubkey**: Urufunguzo rwa bose rufitaniye isano na Wallet, rukoreshwa ku maderesi y’ukwakira generate Bitcoin.
-- Inzira y'Ikumoka**: Inzira y'Ikumoka ikoreshwa ku ma aderesi ya generate Wallet kuva ku rufunguzo rw'ibanga.
+- **Wallet Ibisobanuro**:
+- **Pubkey**: Urufunguzo rwa bose rufitaniye isano na Wallet, rukoreshwa ku maderesi y'ukwakira generate Bitcoin.
+- **Inzira y'Ikumoka**: Inzira y'Ikumoka ikoreshwa ku ma aderesi ya generate Wallet kuva ku rufunguzo rw'ibanga.
 
 
 
 
 
-- Serveri ya Electrum (Igikoresho ca Bitcoin)**: Gushinga uruja n'uruza ku nzira ya Bitcoin ku bijanye n'ibikorwa vy'uruhererekane.
+- **Serveri ya Electrum (Igikoresho ca Bitcoin)**: Gushinga uruja n'uruza ku nzira ya Bitcoin ku bijanye n'ibikorwa vy'uruhererekane.
 
 
 
 
 
-- PIN Code**: Gukoresha no/canke guhindura kode y’umutekano kugira ngo ukinge uburenganzira bwo gukoresha porogarama n’ibikorwa vya Wallet.
+- **PIN Code**: Gukoresha no/canke guhindura kode y'umutekano kugira ngo ukinge uburenganzira bwo gukoresha porogarama n'ibikorwa vya Wallet.
 
 
 
 
 
-- Amafaranga**: Hitamwo nimba uzogaragaza amafaranga muri BTC canke Sats, n’amafaranga y’imbere (idolari, euro, n’ibindi).
+- **Amafaranga**: Hitamwo nimba uzogaragaza amafaranga muri BTC canke Sats, n'amafaranga y'imbere (idolari, euro, n'ibindi).
 
 
 
 
 
-- Ivyagezwe vy'Ihindura ry'Ivyiyumviro**: Igikorwa kijanye n'Ihindurwa ry'Ivyiyumviro bigufasha guhindura BTC yawe kuva ku **Ivyishyurwa vy'Igihugu Wallet (Liquid)** gushika ku **Bitcoin On-Chain** Wallet yawe, igihe nyene amahera ashitse ku rugero rwo hejuru rwo guhindura.
+- **Ivyagezwe vy'Ihindura ry'Ivyiyumviro**: Igikorwa kijanye n'Ihindurwa ry'Ivyiyumviro bigufasha guhindura BTC yawe kuva ku **Ivyishyurwa vy'Igihugu Wallet (Liquid)** gushika ku **Bitcoin On-Chain** Wallet yawe, igihe nyene amahera ashitse ku rugero rwo hejuru rwo guhindura.
 
 
 
 
 
-- Ivyanditswe**: Ivyanditswe vy'ibikorwa bishobora kuboneka, bishobora gusangizwa n'ubufasha bw'ubuhinga kugira ngo bishobore gutorera umuti ingorane.
+- **Ivyanditswe**: Ivyanditswe vy'ibikorwa bishobora kuboneka, bishobora gusangizwa n'ubufasha bw'ubuhinga kugira ngo bishobore gutorera umuti ingorane.
 
 
 
 
 
-- Ugushika kuri Telegram kugira ngo ufashwe**: Uguhuza n’umuhora wemewe wa Telegram kugira ngo ufashwe n’abakoresha.
+- **Ugushika kuri Telegram kugira ngo ufashwe**: Uguhuza n'umuhora wemewe wa Telegram kugira ngo ufashwe n'abakoresha.
 
 
 
 
 
-- Ukwinjira kuri Github**: Huza [ububiko bwa Github](https://github.com/SatoshiPortal) kugira ngo ubone kode y'inkomoko yuguruye canke utanga raporo y'ingorane.
+- **Ukwinjira kuri Github**: Huza [ububiko bwa Github](https://github.com/SatoshiPortal) kugira ngo ubone kode y'inkomoko yuguruye canke utanga raporo y'ingorane.
 
 
 
@@ -956,8 +956,8 @@ Paje ya "Imiterere" ishobora gushikwako ataco ihinduye kuri paji y'intango y'iko
 
 
 
-- Kwakira** (Address Supply): PayJoin irakoreshwa ku buryo busanzwe.
-- Send**: Wallet ihita imenya URI ya PayJoin maze igatunganya ibikorwa bihuye n'ivyo, nk'akarorero:
+- **Kwakira** (Address Supply): PayJoin irakoreshwa ku buryo busanzwe.
+- **Send**: Wallet ihita imenya URI ya PayJoin maze igatunganya ibikorwa bihuye n'ivyo, nk'akarorero:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Ibanga ryongerekanye**: PayJoin irakuraho iciyumviro c’uko ibintu vyose vyinjiye mu gucuruza ari ivy’ikigo kimwe. Na PayJoin, ivyinjizwa biva ku wubirungika n’uwubikira, bikaba bica ivyo vyiyumviro.
-- Amount masking**: Amahera nyayo yahinduwe ntaboneka mu buryo butaziguye mu bisohoka. Iharurwa nk’itandukaniro hagati y’ivyo umuntu yakira UTXO yinjira n’isohoka, ivyo bikaba bituma isesengura rizimiza.
+- **Ibanga ryongerekanye**: PayJoin irakuraho iciyumviro c'uko ibintu vyose vyinjiye mu gucuruza ari ivy'ikigo kimwe. Na PayJoin, ivyinjizwa biva ku wubirungika n'uwubikira, bikaba bica ivyo vyiyumviro.
+- **Amount masking**: Amahera nyayo yahinduwe ntaboneka mu buryo butaziguye mu bisohoka. Iharurwa nk'itandukaniro hagati y'ivyo umuntu yakira UTXO yinjira n'isohoka, ivyo bikaba bituma isesengura rizimiza.
 
 
 
@@ -1038,7 +1038,7 @@ Kugira ngo ukoreshe **Bull Bitcoin Mobile** mu buryo butekanye kandi bubereye, u
 
 
 
-- Gukingira ijambo ryawe ryo gukira**:
+- Gukingira ijambo ryawe ryo **gukira**:
  - Inyigisho: [Bika ijambo ryawe rya Mnemonic](https://itegeko
  - Amashure.
 
@@ -1054,7 +1054,7 @@ Kugira ngo ukoreshe **Bull Bitcoin Mobile** mu buryo butekanye kandi bubereye, u
 
 
 
-- Rinda ubuzima bwite bwawe**:
+- **Rinda ubuzima bwite bwawe**:
  - generate Address nshasha kuri buri onchain canke Liquid kwakira kugira ngo ugabanye gukurikirana kuri Blockchain.
  - Koresha PayJoin iyo iriho kugira ngo wongere ibanga ku bijanye n’amahera yoherejwe kuri chain
  - Kugira ngo ubone ibanga ryinshi, huza Wallet yawe n’uruzitiro rwawe bwite rwa Bitcoin biciye kuri server ya Electrum aho gukoresha uruzitiro rwa bose .
@@ -1063,23 +1063,23 @@ Kugira ngo ukoreshe **Bull Bitcoin Mobile** mu buryo butekanye kandi bubereye, u
 
 
 
-- Hitamwo urubuga rubereye ivyo ukeneye**:
-- Onchain**: Ihitamwo ku bijanye n’ugucungera igihe kirekire canke ibikorwa vy’agaciro kanini (amahera ntaco amaze ugereranije n’amahera).
-- Liquid**: Ikoreshwa mu gutanga amakuru yihuta kandi ataco atwara kandi afise ibanga ryinshi.
-- Umuravyo**: Hitamwo gutanga amafaranga ako kanya, ku giciro gitoyi ku mahera make. Nimba muri abakoresha babiri ba Wallet Bull Bitcoin, hitamwo Liquid kugira ngo wirinde amafaranga yo guhindura umuravyo <> Liquid biciye kuri Boltz.
+- **Hitamwo urubuga rubereye ivyo ukeneye**:
+- **Onchain**: Ihitamwo ku bijanye n'ugucungera igihe kirekire canke ibikorwa vy'agaciro kanini (amahera ntaco amaze ugereranije n'amahera).
+- **Liquid**: Ikoreshwa mu gutanga amakuru yihuta kandi ataco atwara kandi afise ibanga ryinshi.
+- **Umuravyo**: Hitamwo gutanga amafaranga ako kanya, ku giciro gitoyi ku mahera make. Nimba muri abakoresha babiri ba Wallet Bull Bitcoin, hitamwo Liquid kugira ngo wirinde amafaranga yo guhindura umuravyo <> Liquid biciye kuri Boltz.
 
 
 
 
 
-- Igihe cose usuzume aderesi zo koherezako**:
+- Igihe cose usuzume aderesi zo koherezako:
  - Imbere yo kohereza amahera, nusuzume neza urupapuro rwa Address. Amahera yoherezwa kuri Address idakwiriye arazimangana ubuziraherezo. Koresha gukopa/gushiramwo canke gucapura kode ya QR, ntukigere ukopa/uhindura Address n’ukuboko.
 
 
 
 
 
-- Gutuma ibiciro bigenda neza**:
+- **Gutuma ibiciro bigenda neza**:
  - Ku bijanye n’ugucuruza kuri onchain, hitamwo amafaranga akwiriye (agenda buhoro, ari hagati, yihuta) bivanye n’ukwihuta n’uguhagarara kw’urubuga.
  - Koresha Liquid, canke Umuravyo ku bice bikeyi.
  - Gukoresha Replace-by-fee (RBF) (raba Umugereka wa 4) ku bijanye n’ivyoherezwa ku ruzitiro nimba witega ko bikenewe kwihutisha kwemeza.
@@ -1099,18 +1099,18 @@ Kugira ngo ukoreshe **Bull Bitcoin Mobile** mu buryo butekanye kandi bubereye, u
 
 
 
-- Amahuza yemewe n'infashanyo:**
+- Amahuza yemewe n'infashanyo:
 - [abakozi@infashanyo.com](ubutumwa kuri:abakozi@infashanyo.com), **infashanyo@bullbitcoin.com** : imeyili y'infashanyo
 - [Urubuga rwemewe rwa Bull Bitcoin](https://bullbitcoin.com/): **Amakuru ku bikorwa vya Bull Bitcoin, gukora konti, gushika ku rubuga**
 - **Raba kode, iterambere n'ikarata y'inzira, ushiremwo umusanzu mu guteza imbere...**
 - [Konti X - Twitter Inka Bitcoin] (IkimasaBitcoin_)
-- Telegram** itsinda rya Wallet telefone ngendanwa: ikiganiro c'itsinda n'abafasha, raba "Imiterere" urupapuro.
+- **Telegram** itsinda rya Wallet telefone ngendanwa: ikiganiro c'itsinda n'abafasha, raba "Imiterere" urupapuro.
 
 
 
 
 
-- Abagenzuzi b'Ibarabara:**
+- **Abagenzuzi b'Ibarabara:**
  - on chain : **[Ikibanza-212.ikibanza/)**
  - Liquid : **[Amakuru y'uruzi](amakuru y'uruzi/Liquid)**
  - Umuravyo: **[1ML (Lightning Network)]**
@@ -1133,7 +1133,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
+- **Liquid Network** :
 - [Insobanuro](https://umugambib.urubuga/ibikoresho/insobanuro/Liquid-urubuga)
 
 
@@ -1145,7 +1145,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network**:
+- **Lightning Network**:
 - [Insobanuro](https://planb.urubuga/ibikoresho/insobanuro/urubuga-rw'umuravyo)
 
 
@@ -1184,31 +1184,31 @@ Bull Bitcoin igaragara kubera ingingo ngenderwako zayo zijanye n’ingingo ngend
 
 
 
-- Ivyiyumviro vyihariye kuri Bitcoin**: Ico kibanza ni ukuri ku ciyumviro c’amahera yegerejwe, adashobora gucengera.
+- **Ivyiyumviro vyihariye kuri Bitcoin**: Ico kibanza ni ukuri ku ciyumviro c'amahera yegerejwe, adashobora gucengera.
 
 
 
 
 
-- Non-custodian**: Abakoresha baguma bafise ububasha bwose ku ma Bitcoins yabo mu kohereza amahera mu bitabo vyabo bwite.
+- **Non-custodian**: Abakoresha baguma bafise ububasha bwose ku ma Bitcoins yabo mu kohereza amahera mu bitabo vyabo bwite.
 
 
 
 
 
-- Ibanga**: Gukusanya amakuru y’umuntu ku giti ciwe, n’uburyo bwo kugura ata KYC ku bikorwa biri munsi y’amadolari 999. Amakuru arakingirwa hakurikijwe amategeko (FINTRAC muri Canada, AMF mu Bufaransa).
+- **Ibanga**: Gukusanya amakuru y'umuntu ku giti ciwe, n'uburyo bwo kugura ata KYC ku bikorwa biri munsi y'amadolari 999. Amakuru arakingirwa hakurikijwe amategeko (FINTRAC muri Canada, AMF mu Bufaransa).
 
 
 
 
 
-- Guseruka**: Nta mafaranga yihishije, amafaranga ashirwa mu gukwiragiza (itandukaniro hagati y’ibiciro vyo kugura n’ivyo kugurisha).
+- **Guseruka**: Nta mafaranga yihishije, amafaranga ashirwa mu gukwiragiza (itandukaniro hagati y'ibiciro vyo kugura n'ivyo kugurisha).
 
 
 
 
 
-- Ubusegaba bw’ivy’ubutunzi**: Bull Bitcoin itera imbere ukwigenga ku mice ya kera y’amabanki n’inzego zishingiye ku rwego rwo hejuru.
+- **Ubusegaba bw'ivy'ubutunzi**: Bull Bitcoin itera imbere ukwigenga ku mice ya kera y'amabanki n'inzego zishingiye ku rwego rwo hejuru.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin igaragara kubera ingingo ngenderwako zayo zijanye n’ingingo ngend
 
 
 
-- Fiat deposit**: Abakoresha barashobora gutanga amahera kuri konti yabo ya Bull Bitcoin bakoresheje amahera ya fiat (CAD, EUR, n’ibindi) biciye mu gutanga amahera muri banki canke ikarita y’amahera/debit ku biro vy’iposita vyatoranijwe vyo muri Canada.
+- **Fiat deposit**: Abakoresha barashobora gutanga amahera kuri konti yabo ya Bull Bitcoin bakoresheje amahera ya fiat (CAD, EUR, n'ibindi) biciye mu gutanga amahera muri banki canke ikarita y'amahera/debit ku biro vy'iposita vyatoranijwe vyo muri Canada.
 
 
 
 
 
-- Gugura Bitcoin**: Abakoresha barashobora kugura Bitcoin yoherezwa mu buryo butaziguye mu vyo bashiramwo, bikaba bituma bashobora kugenzura neza amahera yabo.
+- **Gugura Bitcoin**: Abakoresha barashobora kugura Bitcoin yoherezwa mu buryo butaziguye mu vyo bashiramwo, bikaba bituma bashobora kugenzura neza amahera yabo.
 
 
 
 
 
-- Gugura Bitcoin bitegekanijwe**: Bull Bitcoin itanga ubuhinga bwo kugura busubira inyuma (DCA - Dollar Cost Averaging) mu bihe bitandukanye, ukoresheje amahera ufise, ukoresheje uguhindura Bitcoins ataco uhinduye kuri Wallet igenzurwa n’ukoresha, bikagabanya ingaruka z’uguhinduka kw’igiciro.
+- **Gugura Bitcoin bitegekanijwe**: Bull Bitcoin itanga ubuhinga bwo kugura busubira inyuma (DCA - Dollar Cost Averaging) mu bihe bitandukanye, ukoresheje amahera ufise, ukoresheje uguhindura Bitcoins ataco uhinduye kuri Wallet igenzurwa n'ukoresha, bikagabanya ingaruka z'uguhinduka kw'igiciro.
 
 
 
@@ -1241,37 +1241,37 @@ Zirikana ko uburyo bwitwa "AutoBuy" bugufasha guhindura ama fiats yawe akimara g
 
 
 
-- Gura Bitcoin kugiciro gitegekanijwe 'Limit Order'**: Iguha uburenganzira bwo kugura Bitcoin kugiciro categekanijwe imbere y'igihe n'uwuyikoresha, kikaba gica gishirwa mu ngiro iyo igiciro c'index ya Bull Bitcoin kigeze canke kiguye munsi y'igiciro gitegekanijwe.
+- **Gura Bitcoin kugiciro gitegekanijwe 'Limit Order'**: Iguha uburenganzira bwo kugura Bitcoin kugiciro categekanijwe imbere y'igihe n'uwuyikoresha, kikaba gica gishirwa mu ngiro iyo igiciro c'index ya Bull Bitcoin kigeze canke kiguye munsi y'igiciro gitegekanijwe.
 
 
 
 
 
-- Gugurisha Bitcoin**: Abakoresha barashobora kugurisha Bitcoins zabo bagaca baronka ayo mahera mu mafaranga ya fiat ataco baciye kuri konti yabo ya banki biciye ku nzira ya banki canke SEPA.
+- **Gugurisha Bitcoin**: Abakoresha barashobora kugurisha Bitcoins zabo bagaca baronka ayo mahera mu mafaranga ya fiat ataco baciye kuri konti yabo ya banki biciye ku nzira ya banki canke SEPA.
 
 
 
 
 
-- Ivyishyurwa vy’uwundi muntu**: Bull Bitcoin ishoboza abakoresha kohereza amahera ya fiat ku makonti ya banki bakoresheje Bitcoins zabo, mu buryo buboneka ku wuyakira.
+- **Ivyishyurwa vy'uwundi muntu**: Bull Bitcoin ishoboza abakoresha kohereza amahera ya fiat ku makonti ya banki bakoresheje Bitcoins zabo, mu buryo buboneka ku wuyakira.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime ni igikorwa c’agaciro ku bakiriya b’ubutunzi bwinshi n’ab’amashirahamwe, gitanga inyishu zihuye n’ivyo umuntu ashaka n’ugufasha kw’agaciro. Ivyo birimwo no kuronka amahera agabanutse, umucungerezi wa konti yiyeguriye, n’ibikorwa vy’ishirahamwe bihuye n’ivyo umuntu akeneye. Iyi serivisi igenewe ibigo, abacuruzi b’umwuga n’abaguzi b’amashirahamwe barondera ubuhinga bwimbitse n’ubuvuzi bwa mbere.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime ni igikorwa c'agaciro ku bakiriya b'ubutunzi bwinshi n'ab'amashirahamwe, gitanga inyishu zihuye n'ivyo umuntu ashaka n'ugufasha kw'agaciro. Ivyo birimwo no kuronka amahera agabanutse, umucungerezi wa konti yiyeguriye, n'ibikorwa vy'ishirahamwe bihuye n'ivyo umuntu akeneye. Iyi serivisi igenewe ibigo, abacuruzi b'umwuga n'abaguzi b'amashirahamwe barondera ubuhinga bwimbitse n'ubuvuzi bwa mbere.
 
 
 
 
 
-- Wallet**: Bull Bitcoin itanga telefone ngendanwa yuguruye, yikingira, iboneka kuri Android na iOS, ifasha mu gukoresha ubuhinga bwa onchain, Liquid na Lightning Network.
+- **Wallet**: Bull Bitcoin itanga telefone ngendanwa yuguruye, yikingira, iboneka kuri Android na iOS, ifasha mu gukoresha ubuhinga bwa onchain, Liquid na Lightning Network.
 
 
 
 
 
-- Infashanyo y’inyigisho**: Uburongozi bw’ubuntu n’ubumenyi bugenewe umuntu ku giti ciwe kugira ngo afashe abakoresha kurema, gucungera no gucunga ibitabo vyabo vya Bitcoin, bikomeze ubwigenge bw’amahera.
+- **Infashanyo y'inyigisho**: Uburongozi bw'ubuntu n'ubumenyi bugenewe umuntu ku giti ciwe kugira ngo afashe abakoresha kurema, gucungera no gucunga ibitabo vyabo vya Bitcoin, bikomeze ubwigenge bw'amahera.
 
 
 
@@ -1281,10 +1281,10 @@ Zirikana ko uburyo bwitwa "AutoBuy" bugufasha guhindura ama fiats yawe akimara g
 
 
 
-- Ivyagezwe**: Yandikishijwe muri FINTRAC (Canada) na AMF (Ubufaransa), Bull Bitcoin yubahiriza ibisabwa na KYC/AML.
+- **Ivyagezwe**: Yandikishijwe muri FINTRAC (Canada) na AMF (Ubufaransa), Bull Bitcoin yubahiriza ibisabwa na KYC/AML.
 
 
 
 
 
-- Umutekano**: Gukoresha ibitabo vy’umutekano n’impanuro zo kubika ibintu bitari ku muhora. Amakuru y’umuntu ku giti ciwe ashirwa ku bikorwa remezo vya Bull Bitcoin, ivyo bikaba ari 100% vy’umuntu ku giti ciwe kandi ntivyizigira uwundi muntu.
+- **Umutekano**: Gukoresha ibitabo vy'umutekano n'impanuro zo kubika ibintu bitari ku muhora. Amakuru y'umuntu ku giti ciwe ashirwa ku bikorwa remezo vya Bull Bitcoin, ivyo bikaba ari 100% vy'umuntu ku giti ciwe kandi ntivyizigira uwundi muntu.

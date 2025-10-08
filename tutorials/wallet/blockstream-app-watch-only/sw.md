@@ -523,7 +523,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zuia Wachunguzi :**
+- Zuia Wachunguzi:
  - Onchain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Maelezo ya Blockstream](https://blockstream.info/Liquid)**
  - Umeme: **[1ML (Lightning Network)](https://1ml.com/)**

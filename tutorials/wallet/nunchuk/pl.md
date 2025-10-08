@@ -324,7 +324,7 @@ Nunchuk pokazuje szereg możliwości, które w większości mają związek z us�
 
 
 
-W tym przewodniku utworzymy _Hot Wallet i _Custom wallet_, szczegółowo opisując szczegóły.
+W tym przewodniku utworzymy _Hot Wallet_ i _Custom wallet_, szczegółowo opisując szczegóły.
 
 
 Zacznijmy od _Custom wallet_.

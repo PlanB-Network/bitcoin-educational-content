@@ -43,16 +43,16 @@ Cashu.me是一個 "Progressive Web App (PWA)"，它實現了Cashu協定--專為B
 
 
 
-- Lightning 上的 Chaumian ecash**：使用盲簽名，因此造幣廠無法追蹤使用者餘額或交易記錄
-- 自行保管代幣**：您使用 seed 短語在本機控制 ecash 代幣
-- seed 詞組備份**：用於 Wallet 恢復的 12 個字元恢復詞組
-- Mint 獨立性**：可與多個獨立的造幣廠合作，您不會被鎖定在一個供應商身上
-- 即時、免費交易**：在同一個造幣廠內，付款在數秒內完成，零費用
-- 隱私保護架構**：鑄幣商看不到誰與誰交易
-- 離線 ecash**：透過本地傳輸通訊協定 (如 NFC、QR code、藍牙等) 傳送/接收代幣，無需網際網路連線
-- 透過 Nostr 發現 ecash 鑄幣商**：透過 Nostr 通訊協定尋找並驗證可信鑄幣商
-- 在造幣廠之間交換ecash**：所有鑄幣廠都會說 Lightning，這表示您可以在它們之間轉移價值。
-- 使用 Nostr Wallet Connect (NWC)** 遙控您的 Wallet：連線至其他應用程式，例如 Nostr Client，並透過 NWC 開始 Zapping
+- Lightning 上的 Chaumian ecash：使用盲簽名，因此造幣廠無法追蹤使用者餘額或交易記錄
+- 自行保管代幣：您使用 seed 短語在本機控制 ecash 代幣
+- **seed 詞組備份**：用於 Wallet 恢復的 12 個字元恢復詞組
+- **Mint 獨立性**：可與多個獨立的造幣廠合作，您不會被鎖定在一個供應商身上
+- **即時、免費交易**：在同一個造幣廠內，付款在數秒內完成，零費用
+- **隱私保護架構**：鑄幣商看不到誰與誰交易
+- 離線 **ecash**：透過本地傳輸通訊協定 (如 NFC、QR code、藍牙等) 傳送/接收代幣，無需網際網路連線
+- 透過 Nostr 發現 ecash 鑄幣商：透過 Nostr 通訊協定尋找並驗證可信鑄幣商
+- 在造幣廠之間交換ecash：所有鑄幣廠都會說 Lightning，這表示您可以在它們之間轉移價值。
+- 使用 **Nostr Wallet Connect (NWC)** 遙控您的 Wallet：連線至其他應用程式，例如 Nostr Client，並透過 NWC 開始 Zapping
 
 
 關鍵的權衡是 「信任」：當您控制代幣本身時，您必須信任造幣廠來保管基礎 Bitcoin 儲備。正如 Cashu 的文件所述：

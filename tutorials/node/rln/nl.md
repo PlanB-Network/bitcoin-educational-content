@@ -96,7 +96,7 @@ Om te kunnen functioneren, heeft de `RGB-lightning-node` daemon de aanwezigheid 
 
 
 
-- Een `bitcoind`** knooppunt
+- Een **`bitcoind`** knooppunt
 
 
 Elke RLN instantie moet communiceren met `bitcoind` om zijn On-Chain transacties uit te zenden en te monitoren. Authenticatie (login/wachtwoord) en URL (host/poort) moeten aan de daemon worden verstrekt.
@@ -104,7 +104,7 @@ Elke RLN instantie moet communiceren met `bitcoind` om zijn On-Chain transacties
 
 
 
-- Een indexer** (Electrum of Esplora)
+- Een **indexer** (Electrum of Esplora)
 
 
 De daemon moet On-Chain transacties kunnen weergeven en onderzoeken, in het bijzonder om de UTXO te vinden waarop een activum is verankerd. Je moet de URL van je Electrum server of Esplora specificeren.
@@ -112,7 +112,7 @@ De daemon moet On-Chain transacties kunnen weergeven en onderzoeken, in het bijz
 
 
 
-- Een RGB** proxy
+- Een **RGB** proxy
 
 
 De proxyserver is een component (optioneel, maar ten zeerste aanbevolen) om de Exchange van RGB *opdrachten* tussen Lightning peers te vereenvoudigen. Ook hier moet een URL worden opgegeven.

@@ -149,8 +149,8 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-- Android Flash Tool**: Kasutage Google'i ametlikku tööriista [flash.android.com](https://flash.android.com), et hõlpsasti taastada oma Pixel-seadme varu-Android veebibrauserist (Chrome/Edge on vajalik)
-- Alternatiiv**: Tehase pildid käsitsi [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Android Flash Tool**: Kasutage Google'i ametlikku tööriista [flash.android.com](https://flash.android.com), et hõlpsasti taastada oma Pixel-seadme varu-Android veebibrauserist (Chrome/Edge on vajalik)
+- **Alternatiiv**: Tehase pildid käsitsi [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,10 +159,10 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-- Käivitage oma seade vähemalt üks kord** algse varusüsteemiga
-- Testige kõiki funktsioone**: SMS, kõned, Wi-Fi, mobiilne andmeside
-- Oluline**: Kontrollige, et saate saata/vastuvõtta SMS-i ja teha/vastuvõtta kõnesid (sh WiFi ja 4G/5G kaudu). Kui see ei tööta stock-süsteemis, siis ei tööta ka LineageOSis!
-- Hiljutised seadmed**: Mõni nõuab IMS-i võimaldamiseks vähemalt korra VoLTE/VoWiFi kasutamist varusüsteemis
+- Käivitage oma seade vähemalt üks kord **algse varusüsteemiga**
+- **Testige kõiki funktsioone**: SMS, kõned, Wi-Fi, mobiilne andmeside
+- **Oluline**: Kontrollige, et saate saata/vastuvõtta SMS-i ja teha/vastuvõtta kõnesid (sh WiFi ja 4G/5G kaudu). Kui see ei tööta stock-süsteemis, siis ei tööta ka LineageOSis!
+- **Hiljutised seadmed**: Mõni nõuab IMS-i võimaldamiseks vähemalt korra VoLTE/VoWiFi kasutamist varusüsteemis
 
 
 
@@ -171,8 +171,8 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-- Eemaldage oma seadmest kõik Google** kontod, et vältida tehasepuhastuse kaitset, mis võib aktiveerimise blokeerida
-- Täielik varundamine** : Protsess kustutab teie telefoni täielikult. Varundage fotod, kontaktid, rakendused ja olulised failid
+- Eemaldage oma seadmest kõik **Google** kontod, et vältida tehasepuhastuse kaitset, mis võib aktiveerimise blokeerida
+- **Täielik varundamine**: Protsess kustutab teie telefoni täielikult. Varundage fotod, kontaktid, rakendused ja olulised failid
 
 
 
@@ -216,7 +216,7 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-⚠️ **Need juhised on spetsiifilised LineageOS 22.2 jaoks. Järgige iga sammu täpselt. Ära liigu edasi, kui midagi ei õnnestu!
+⚠️ **Need juhised on spetsiifilised LineageOS 22.2 jaoks. Järgige iga sammu täpselt. Ära liigu edasi, kui midagi ei õnnestu!**
 
 
 
@@ -249,8 +249,8 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-- Ehita LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- Vajalikud failid**: Lae alla 3 vajalikku faili sellelt leheküljelt (neid kasutatakse järgmistes etappides):
+- **Ehita LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **Vajalikud failid**: Lae alla 3 vajalikku faili sellelt leheküljelt (neid kasutatakse järgmistes etappides):
   - `lineage-22.2-YYYYMMDD-nightly-flame-signed.zip` (peamine ROM)
   - dtbo.img` (partitsiooni seadmepuu blob)
   - `boot.img` (taastamine LineageOS)
@@ -269,13 +269,13 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-⚠️ **See samm kustutab kõik teie andmed!
+⚠️ **See samm kustutab kõik teie andmed!**
 
 
 
 
 
-- Testige ADB-ühendust**: Ühendage seade USB kaudu ja testige seda käsuga `adb devices` arvuti terminalist
+- **Testige ADB-ühendust**: Ühendage seade USB kaudu ja testige seda käsuga `adb devices` arvuti terminalist
 
 
 
@@ -289,7 +289,7 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-- Lubage ühendus** oma telefonis
+- **Lubage ühendus** oma telefonis
 
 
 
@@ -303,7 +303,7 @@ Ametliku statistika kohaselt kuuluvad enimkasutatavate mudelite hulka mitmesugus
 
 
 
-- Käivituslaadimisrežiimi käivitamine** :
+- **Käivituslaadimisrežiimi käivitamine**:
 
 
 ```
@@ -317,7 +317,7 @@ Või hoidke **Volume Down + Power** seadme väljalülitamist all
 
 
 
-- Kontrollige fastboot** ühendust:
+- Kontrollige **fastboot** ühendust:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Ava bootloader** :
+- **Ava bootloader**:
 
 
 ```
@@ -370,7 +370,7 @@ Kasutage seadmes navigeerimiseks helitugevusklahve ja vajutage nuppu **Power**, 
 
 
 
-- Pärast automaatset taaskäivitust**, lülitage USB-väljavõttelahenduse kasutamine uuesti sisse arendaja valikutes
+- Pärast automaatset taaskäivitust lülitage USB-väljavõttelahenduse kasutamine uuesti sisse arendaja valikutes
 
 
 
@@ -385,8 +385,8 @@ Kasutage seadmes navigeerimiseks helitugevusklahve ja vajutage nuppu **Power**, 
 
 
 
-- Taaskäivitage alglaadur**: Helitugevus alla + toide
-- Flash** (asendage `/path/to/` kaustaga, kuhu olete faili alla laadinud) :
+- **Taaskäivitage alglaadur**: Helitugevus alla + toide
+- **Flash** (asendage `/path/to/` kaustaga, kuhu olete faili alla laadinud) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (asendage `/path/to/` kaustaga, kuhu olete faili alla laadinud) :
+- **Flash recovery** (asendage `/path/to/` kaustaga, kuhu olete faili alla laadinud) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Taaskäivitage taastamise** kontrollimiseks
+- Taaskäivitage taastamise kontrollimiseks
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Taaskäivitus taastumisel**: Helitugevus alla + toide → taastamisrežiim
+- **Taaskäivitus taastumisel**: Helitugevus alla + toide → taastamisrežiim
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Tehase lähtestamine** : Sisestage "Factory Reset" → "Format data / factory reset"
+- **Tehase lähtestamine**: Sisestage "Factory Reset" → "Format data / factory reset"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Tagasi peamenüüsse**
-- Sideload LineageOS** :
+- **Tagasi peamenüüsse**
+- **Sideload LineageOS**:
    - Seadmes: "Rakenda värskendust" → "Rakenda ADB-st"
    - Arvutil: `adb -d sideload /path/to/lineageos.zip`
 
@@ -498,8 +498,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Taaskäivitus**: "Reboot system now"
-- Esimene saak**: Võib võtta kuni 15 minutit
+- **Taaskäivitus**: "Reboot system now"
+- **Esimene saak**: Võib võtta kuni 15 minutit
 
 
 
@@ -520,9 +520,9 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Firmware ühilduvus**: Kontrollige kindlasti oma mudeli allalaadimislehel nõutavat püsivara versiooni
-- Ärge kunagi lukustage** bootloaderit pärast LineageOS-i paigaldamist uuesti
-- Järgige oma seadme konkreetseid juhiseid**
+- **Firmware ühilduvus**: Kontrollige kindlasti oma mudeli allalaadimislehel nõutavat püsivara versiooni
+- Ärge kunagi lukustage **bootloaderit** pärast LineageOS-i paigaldamist uuesti
+- Järgige oma seadme konkreetseid juhiseid
 
 
 
@@ -559,11 +559,11 @@ Streamlined Interface, mis on lähedane Stock Androidile, ilma Google'ita. Lihtn
 
 
 
-- Navigatsioon**: Organic Maps (OpenStreetMapil põhinevad offline-kaardid)
-- Kommunikatsioon**: Signal (lõpuni krüpteeritud sõnumid), K-9 Mail (tasuta e-posti klient)
-- Meedia**: NewPipe (reklaamivaba, jälgimisvaba YouTube), VLC (universaalne meediamängija)
-- Tootlikkus**: Nextcloud (isehostitav pilv), Simple Calendar (CalDAV sünkroniseerimine)
-- Turvalisus**: Bitwarden (paroolihaldur), Aegis Authenticator (2FA-koodid)
+- **Navigatsioon**: Organic Maps (OpenStreetMapil põhinevad offline-kaardid)
+- **Kommunikatsioon**: Signal (lõpuni krüpteeritud sõnumid), K-9 Mail (tasuta e-posti klient)
+- **Meedia**: NewPipe (reklaamivaba, jälgimisvaba YouTube), VLC (universaalne meediamängija)
+- **Tootlikkus**: Nextcloud (isehostitav pilv), Simple Calendar (CalDAV sünkroniseerimine)
+- **Turvalisus**: Bitwarden (paroolihaldur), Aegis Authenticator (2FA-koodid)
 
 
 

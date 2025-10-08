@@ -205,7 +205,7 @@ Aha musi urashobora kubona ingero nkeyi z’ibibazo vy’imiterere y’ibintu vy
 
 
 
-- Witwararike ibimenyetso vy'akarongo bitangaje nka `\*\*\`, canke ``**`` bishobora guserura uguhindura nabi kw'ikimenyetso gikomeye. Mu ishusho iri musi, urashobora kubona ko inyenyeri ziri iburyo gusa bw’ijambo, ivyo bikaba bisa n’ibitangaje.
+- Witwararike ibimenyetso vy'akarongo bitangaje nka `**`, canke `**` bishobora guserura uguhindura nabi kw'ikimenyetso gikomeye. Mu ishusho iri musi, urashobora kubona ko inyenyeri ziri iburyo gusa bw'ijambo, ivyo bikaba bisa n'ibitangaje.
 
 
 

@@ -505,7 +505,7 @@ Bisq 2 上的出售過程與購買過程的邏輯相似，主要步驟相同，�
 - **BSQ Swaps**：BSQ 與 BTC 之間的即時原子交換。
 - **Liquid 掉期**：Exchange 的資產在 Liquid Network (USDT, BTC-L) 上透過原子交換。
 - Monero 交換：Bitcoin 和 Monero 之間的原子交換。
-- Liquid MuSig**：使用 L-BTC 的 Multisig 通訊協定版本，可降低成本並提高機密性。
+- **Liquid MuSig**：使用 L-BTC 的 Multisig 通訊協定版本，可降低成本並提高機密性。
 - 海底交換：Lightning Network 上的 Bitcoin 與 Bitcoin On-Chain 之間的交換。
 - 穩定幣交換：Bitcoin 和美元穩定幣之間的原子交換。
 - **Multisig 期權**：在 On-Chain Multisig 交易中建立 BTC 封鎖的 P2P 看跌和看漲期權。

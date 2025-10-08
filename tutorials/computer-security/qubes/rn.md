@@ -118,7 +118,7 @@ Imbere yo gushiramwo Qubes OS, ni ngombwa ko ubona neza ko ibikoresho vyawe bihu
 
 - **Igikoresho**: Igikoresho c’ibice 64 gihuye n’uguhindura ibikoresho (Intel VT-x canke AMD-V).
 - RAM: n’imiburiburi 8 GB irakenewe, ariko turahimiriza RAM ya 16 GB canke irenga kugira ngo ukoreshe qubes nyinshi icarimwe.
-- Ububiko**: nibura 36 GB, vyiza ni 128 GB kuri SSD kugira ngo ukore neza.
+- **Ububiko**: nibura 36 GB, vyiza ni 128 GB kuri SSD kugira ngo ukore neza.
 
 
 

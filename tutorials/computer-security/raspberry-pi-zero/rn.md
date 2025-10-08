@@ -46,8 +46,8 @@ Nzobabwira n’ibindi: soma inzira yose. Umuti ushikirijwe ni uwuhenda, ariko si
 
 
 
-- Igiciro**: nk’isaha cumi n’itanu igihe twandika iyi nyigisho (Myandagaro 2025).
-- Gukomeza gukora**: Raspberry itanga icemeza ko izokora gushika muri Mukakaro 2030.
+- **Igiciro**: nk'isaha cumi n'itanu igihe twandika iyi nyigisho (Myandagaro 2025).
+- **Gukomeza gukora**: Raspberry itanga icemeza ko izokora gushika muri Mukakaro 2030.
 
 
 
@@ -76,7 +76,7 @@ Igihe nafata ingingo yo kubandanya, nasanze [iki . 1NAFFVHG3IFBU&sprefix=raspber
 
 
 
-- Igiciro**: 19,99 amayero.
+- **Igiciro**: 19,99 amayero.
 
 
 

@@ -43,16 +43,16 @@ Hãy cùng tìm hiểu sâu hơn về các tính năng và khám phá những g�
 
 
 
-- Chaumian ecash trên Lightning**: Sử dụng chữ ký ẩn danh để các đơn vị đúc tiền không thể theo dõi số dư của người dùng hoặc lịch sử giao dịch
-- Tự quản lý mã thông báo**: Bạn kiểm soát mã thông báo ecash cục bộ bằng cụm từ seed của mình
-- Sao lưu cụm từ seed**: Cụm từ phục hồi 12 từ để phục hồi Wallet
-- Độc lập với xưởng đúc tiền**: Hoạt động với nhiều xưởng đúc tiền độc lập—bạn không bị giới hạn bởi một nhà cung cấp
-- Giao dịch tức thì, miễn phí**: Trong cùng một máy đúc, thanh toán được hoàn tất trong vài giây mà không mất phí
-- Kiến trúc bảo vệ quyền riêng tư**: Mint không thể biết ai giao dịch với ai
-- Ecash ngoại tuyến**: Gửi/nhận mã thông báo thông qua giao thức truyền cục bộ, như NFC, mã QR, Bluetooth, v.v. mà không cần kết nối internet
-- Khám phá các xưởng đúc tiền điện tử ecash thông qua Nostr**: Tìm và xác minh các xưởng đúc tiền đáng tin cậy thông qua giao thức Nostr
-- Đổi tiền điện tử giữa các xưởng đúc tiền**: Tất cả các xưởng đúc tiền đều sử dụng Lightning, nghĩa là bạn có thể chuyển giá trị giữa các xưởng đúc tiền.
-- Điều khiển Wallet từ xa bằng Nostr Wallet Connect (NWC)**: Kết nối với các ứng dụng khác như Nostr Client và bắt đầu điều khiển qua NWC
+- **Chaumian ecash trên Lightning**: Sử dụng chữ ký ẩn danh để các đơn vị đúc tiền không thể theo dõi số dư của người dùng hoặc lịch sử giao dịch
+- **Tự quản lý mã thông báo**: Bạn kiểm soát mã thông báo ecash cục bộ bằng cụm từ seed của mình
+- **Sao lưu cụm từ seed**: Cụm từ phục hồi 12 từ để phục hồi Wallet
+- **Độc lập với xưởng đúc tiền**: Hoạt động với nhiều xưởng đúc tiền độc lập—bạn không bị giới hạn bởi một nhà cung cấp
+- **Giao dịch tức thì, miễn phí**: Trong cùng một máy đúc, thanh toán được hoàn tất trong vài giây mà không mất phí
+- **Kiến trúc bảo vệ quyền riêng tư**: Mint không thể biết ai giao dịch với ai
+- **Ecash ngoại tuyến**: Gửi/nhận mã thông báo thông qua giao thức truyền cục bộ, như NFC, mã QR, Bluetooth, v.v. mà không cần kết nối internet
+- Khám phá các xưởng đúc tiền điện tử ecash thông qua Nostr: Tìm và xác minh các xưởng đúc tiền đáng tin cậy thông qua giao thức Nostr
+- **Đổi tiền điện tử giữa các xưởng đúc tiền**: Tất cả các xưởng đúc tiền đều sử dụng Lightning, nghĩa là bạn có thể chuyển giá trị giữa các xưởng đúc tiền.
+- **Điều khiển Wallet từ xa bằng Nostr Wallet Connect (NWC)**: Kết nối với các ứng dụng khác như Nostr Client và bắt đầu điều khiển qua NWC
 
 
 Sự đánh đổi quan trọng nhất là `niềm tin`: trong khi bạn kiểm soát chính các token, bạn phải tin tưởng các xưởng đúc tiền sẽ lưu giữ lượng dự trữ Bitcoin cơ bản. Như tài liệu của Cashu đã nêu:

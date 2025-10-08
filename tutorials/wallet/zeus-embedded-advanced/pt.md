@@ -162,7 +162,7 @@ Aqui são apresentados dois serviços LSP:
 
 
 
-- canais just in time_ - quando não tem nenhum canal aberto ou liquidez de entrada disponível, se o serviço estiver ativado, abrirá um canal instantaneamente para si. Esta opção pode ser desactivada se não pretender abrir mais canais deste tipo.
+- **canais just in time** - quando não tem nenhum canal aberto ou liquidez de entrada disponível, se o serviço estiver ativado, abrirá um canal instantaneamente para si. Esta opção pode ser desactivada se não pretender abrir mais canais deste tipo.
 - _Solicitar canais com antecedência_ - pode comprar canais de entrada ao LSP da Olympus diretamente na aplicação, com várias opções e montantes (para entrada e saída).
 
 
@@ -174,11 +174,11 @@ Nesta secção, por defeito é o Olympus LSP (https://0conf.lnolymp.us), mas em 
 
 não esquecer
 
-_quando abre um canal com o Olympus LSP utilizando as facturas LN embrulhadas, obtém também uma liquidez de entrada de 100k! Esta é uma boa opção no caso de precisar de receber imediatamente mais facturas Sats
+_quando abre um canal com o Olympus LSP utilizando as facturas LN embrulhadas, obtém também uma liquidez de entrada de 100k! Esta é uma boa opção no caso de precisar de receber imediatamente mais facturas Sats_
 
-_Exemplo: deposita 400k Sats para abrir um canal LSP, então o LSP está a abrir um canal de 500k Sats de capacidade em direção ao seu nó Zeus e empurra os 400k Sats que depositou para o seu lado
+_Exemplo: deposita 400k Sats para abrir um canal LSP, então o LSP está a abrir um canal de 500k Sats de capacidade em direção ao seu nó Zeus e empurra os 400k Sats que depositou para o seu lado_
 
-_"Liquidez de entrada" = mais "espaço" no seu canal para receber
+_"Liquidez de entrada"_ = mais "espaço" no seu canal para receber
 
 
 No futuro, esperamos poder ter muitos outros LSPs que possam ser integrados no Zeus e usar alternativamente cada um deles. É apenas uma questão de tempo até que novos LSPs adoptem um padrão aberto para este tipo de canais 0conf.
@@ -356,7 +356,7 @@ Nesta secção, encontraremos algumas ferramentas básicas para gerir o nó inte
 
 
 
- - modo de procura de caminhos_ - bimodal ou apriori, formas de encontrar um melhor caminho para os pagamentos do LN e também de repor a informação anterior sobre o caminho. Por favor, leia estes guias muito bons sobre pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - por Docs Lightning Engineering e [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - por Voltage
+- modo de procura de caminhos - bimodal ou apriori, formas de encontrar um melhor caminho para os pagamentos do LN e também de repor a informação anterior sobre o caminho. Por favor, leia estes guias muito bons sobre pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - por Docs Lightning Engineering e [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - por Voltage
  - _Persistent LND_ - active este modo se quiser que o serviço LND funcione continuamente em segundo plano e mantenha o seu nó online 24/7. Isto é muito útil se usar o Zeus como um PoS numa pequena loja ou se estiver a receber muitas dicas do LN através do LN Address.
  - _Rescan wallet_ - esta opção irá ativar no reinício uma verificação completa de todos os txs onchain do teu Wallet. Active-a apenas no caso de faltarem algumas txs no seu Wallet. A tarefa de rescan levará algum tempo, vários minutos, por isso tem paciência e verifica sempre os logs para veres mais detalhes sobre o progresso.
  - _Compact Database_ - esta opção é muito útil se a sua aplicação Zeus estiver a ocupar muito espaço no dispositivo (consulte os detalhes da aplicação nas definições do dispositivo). Se tiver muita atividade a utilizar o Zeus, recomendo que faça esta compactação com mais frequência. Quando vir que tem mais de 1-1,5 GB de dados para a aplicação Zeus, faça a compactação. O processo será reiniciado e demorará algum tempo, por isso, seja paciente.
@@ -428,7 +428,7 @@ Aqui temos várias subsecções com mais ferramentas:
 
 
 - _Accounts_ - aqui pode importar contas/carteiras externas, carteiras Cold, carteiras Hot, para controlar ou utilizar como fonte de financiamento externo para os seus canais de nós Zeus. Esta funcionalidade ainda é experimental.
-- acelerar a transacção_ - Esta funcionalidade pode ser útil quando se tem um tx preso no Mempool e se pretende aumentar a taxa. Terá de fornecer a saída da tx a partir dos detalhes da tx e selecionar a nova taxa que pretende utilizar. Tem de ser mais elevada do que a anterior e requer que tenha mais fundos disponíveis no seu Wallet onchain.
+- **acelerar a transacção** - Esta funcionalidade pode ser útil quando se tem um tx preso no Mempool e se pretende aumentar a taxa. Terá de fornecer a saída da tx a partir dos detalhes da tx e selecionar a nova taxa que pretende utilizar. Tem de ser mais elevada do que a anterior e requer que tenha mais fundos disponíveis no seu Wallet onchain.
 
 
 ![Image](assets/en/05.webp)

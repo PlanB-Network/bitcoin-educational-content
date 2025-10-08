@@ -28,9 +28,9 @@ Bu, küçük Raspberry tipi kartlar için Debian'ın "olağan kopyası" değildi
 
 
 
-- Hız ve hafiflik için optimize edilmiştir**: [SBC için diğer Debian dağıtımları ile karşılaştırma](https://dietpi.com/blog/?p=888), DietPi her şeyde daha hafiftir. DietPi ISO görüntüsü 1 GB'den daha hafiftir, Raspberry veya Orange PI'nin eski modellerine (örneğin) adanmış olanlar arasında açık ara en küçüğüdür. RAM ve CPU kaynaklarına olan talep çok düşüktür, böylece eski olanlar da dahil olmak üzere kartlardan her zaman en iyi şekilde yararlanır.
-- Yerleşik otomasyonlar ve yükleyiciler**: Özel komutlardan oluşan bir paket, kullanıcıların sistem kaynaklarını izlemelerinin yanı sıra programları yüklemek ve başlatmak, sürümleri güncellemek, yedekleme yapmak ve tüm günlükleri kontrol etmek için görevleri otomatikleştirmelerine yardımcı olur.
-- Güçlü, deney odaklı bir topluluk**: dietPi topluluğundan [tutorials](https://dietpi.com/forum/c/community-tutorials/8) ve projeler, DietPi sayesinde tek tıkla yükleyebileceğiniz yazılımlardan ilham almak için idealdir.
+- **Hız ve hafiflik için optimize edilmiştir**: [SBC için diğer Debian dağıtımları ile karşılaştırma](https://dietpi.com/blog/?p=888), DietPi her şeyde daha hafiftir. DietPi ISO görüntüsü 1 GB'den daha hafiftir, Raspberry veya Orange PI'nin eski modellerine (örneğin) adanmış olanlar arasında açık ara en küçüğüdür. RAM ve CPU kaynaklarına olan talep çok düşüktür, böylece eski olanlar da dahil olmak üzere kartlardan her zaman en iyi şekilde yararlanır.
+- **Yerleşik otomasyonlar ve yükleyiciler**: Özel komutlardan oluşan bir paket, kullanıcıların sistem kaynaklarını izlemelerinin yanı sıra programları yüklemek ve başlatmak, sürümleri güncellemek, yedekleme yapmak ve tüm günlükleri kontrol etmek için görevleri otomatikleştirmelerine yardımcı olur.
+- **Güçlü, deney odaklı bir topluluk**: dietPi topluluğundan [tutorials](https://dietpi.com/forum/c/community-tutorials/8) ve projeler, DietPi sayesinde tek tıkla yükleyebileceğiniz yazılımlardan ilham almak için idealdir.
 
 
 
@@ -220,7 +220,7 @@ Hedef sürücüyü bağlamak ve bu işlev için kullanmak üzere `dietpi-Drive_M
 
 
 
-Kendi kendini barındırma, ister meraklı ister hevesli olsun herkes için tavsiye edilen bir deneyimdir. Ancak, bir sunucuyu kurmak ve yapılandırmak hiç de azımsanmayacak bazı teknolojik zorluklar içerir. DietPi'nin** basitliği burada devreye giriyor ve birkaç basit adımda ihtiyaçlarınıza uygun bir sistem yapılandırmanıza olanak tanıyor.
+Kendi kendini barındırma, ister meraklı ister hevesli olsun herkes için tavsiye edilen bir deneyimdir. Ancak, bir sunucuyu kurmak ve yapılandırmak hiç de azımsanmayacak bazı teknolojik zorluklar içerir. **DietPi'nin** basitliği burada devreye giriyor ve birkaç basit adımda ihtiyaçlarınıza uygun bir sistem yapılandırmanıza olanak tanıyor.
 
 
 

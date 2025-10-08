@@ -146,7 +146,7 @@ Per prima cosa, è necessario installare il servizio Tor (The Onion Router), una
 Per installare Tor, aprire un terminale e inserire `sudo apt -y install tor`. Una volta completata l'installazione, il servizio verrà normalmente lanciato automaticamente in background. Verificare che sia in esecuzione correttamente con il comando `sudo systemctl status tor`. La risposta dovrebbe mostrare `Active: active (exited)`. Premere `Ctrl+C` per uscire da questa funzione.
 
 
-**In ogni caso, è possibile utilizzare i seguenti comandi nel terminale per avviare, arrestare o riavviare Tor:
+**In ogni caso, è possibile utilizzare i seguenti comandi nel terminale per avviare, arrestare o riavviare Tor:**
 
 
 ```shell

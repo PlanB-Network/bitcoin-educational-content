@@ -9,7 +9,7 @@ description: Cashu.me gids voor het gebruik van ecash
 ![video](https://www.youtube.com/watch?v=LIPw1c74LBU)
 
 
-*Hier is een video tutorial van BTC Sessions, een video gids die je begeleidt bij het opzetten en gebruiken van de Cashu.me Bitcoin Wallet, die je toegang geeft tot eenvoudige, goedkope en private Bitcoin transacties - zonder dat je een app store nodig hebt!
+*Hier is een video tutorial van BTC Sessions, een video gids die je begeleidt bij het opzetten en gebruiken van de Cashu.me Bitcoin Wallet, die je toegang geeft tot eenvoudige, goedkope en private Bitcoin transacties - zonder dat je een app store nodig hebt!*
 
 
 In deze tutorial verkennen we Cashu.me, een browsergebaseerde Wallet voor private Bitcoin betalingen met Chaumian ecash. Voordat we beginnen, eerst een korte introductie van ecash en hoe het werkt.
@@ -43,16 +43,16 @@ Laten we eens duiken in de functies en ontdekken wat Cashu.me te bieden heeft:
 
 
 
-- Chaumian ecash op Lightning**: Gebruikt blinde handtekeningen zodat munten gebruikerssaldi of transactiegeschiedenis niet kunnen achterhalen
-- Zelfbeheer van tokens**: Je beheert ecash tokens lokaal met je seed zin
-- seed zin back-ups**: 12-woord herstelzin voor Wallet herstel
-- Onafhankelijkheid van muntsystemen**: Werkt met meerdere onafhankelijke muntsoorten-je bent niet gebonden aan één aanbieder
-- Directe, gratis transacties**: Binnen dezelfde munt worden betalingen binnen enkele seconden afgerond zonder kosten
-- Privacybehoudende architectuur**: Munten kunnen niet zien wie transacties doet met wie
-- Offline ecash**: Munten verzenden/ontvangen via een lokaal transmissieprotocol, zoals NFC, QR-code, Bluetooth, enz. zonder internetverbinding
-- Ontdek ecash-munten via Nostr**: Vind en verifieer betrouwbare munten via het Nostr-protocol
-- Wissel ecash tussen munten**: Alle munten spreken Lightning, wat betekent dat je waarde tussen hen kunt overdragen.
-- Bedien je Wallet op afstand met Nostr Wallet Connect (NWC)**: Maak verbinding met andere apps zoals Nostr Client en begin te zappen via NWC
+- **Chaumian ecash op Lightning**: Gebruikt blinde handtekeningen zodat munten gebruikerssaldi of transactiegeschiedenis niet kunnen achterhalen
+- **Zelfbeheer van tokens**: Je beheert ecash tokens lokaal met je seed zin
+- **seed zin back-ups**: 12-woord herstelzin voor Wallet herstel
+- **Onafhankelijkheid van muntsystemen**: Werkt met meerdere onafhankelijke muntsoorten-je bent niet gebonden aan één aanbieder
+- **Directe, gratis transacties**: Binnen dezelfde munt worden betalingen binnen enkele seconden afgerond zonder kosten
+- **Privacybehoudende architectuur**: Munten kunnen niet zien wie transacties doet met wie
+- **Offline ecash**: Munten verzenden/ontvangen via een lokaal transmissieprotocol, zoals NFC, QR-code, Bluetooth, enz. zonder internetverbinding
+- **Ontdek ecash-munten via Nostr**: Vind en verifieer betrouwbare munten via het Nostr-protocol
+- **Wissel ecash tussen munten**: Alle munten spreken Lightning, wat betekent dat je waarde tussen hen kunt overdragen.
+- **Bedien je Wallet op afstand met Nostr Wallet Connect (NWC)**: Maak verbinding met andere apps zoals Nostr Client en begin te zappen via NWC
 
 
 De kritieke afweging is `trust`: terwijl je de controle hebt over de tokens zelf, moet je munten vertrouwen om de onderliggende Bitcoin reserves te bewaren. Zoals de documentatie van Cashu stelt:

@@ -162,8 +162,8 @@ Qui vengono presentati due servizi LSP:
 
 
 
-- canali just in time_ - quando non avete nessun canale aperto o liquidità in entrata disponibile, se il servizio è attivato aprirà un canale al volo per voi. Questa opzione può essere disattivata se non si desidera aprire altri canali di questo tipo.
-- richiedere i canali in anticipo_ - è possibile acquistare i canali inbound dall'LSP Olympus direttamente nell'app con diverse opzioni e importi (per l'inbound e l'outbound).
+- **canali just in time** - quando non avete nessun canale aperto o liquidità in entrata disponibile, se il servizio è attivato aprirà un canale al volo per voi. Questa opzione può essere disattivata se non si desidera aprire altri canali di questo tipo.
+- richiedere i canali in anticipo - è possibile acquistare i canali inbound dall'LSP Olympus direttamente nell'app con diverse opzioni e importi (per l'inbound e l'outbound).
 
 
 L’LSP aiuta a connettere gli utenti alla rete Lightning aprendo canali di pagamento verso i loro nodi. [Leggi di più sugli LSP qui](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ha un nuovo LSP integrato chiamato [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), disponibile per tutti gli utenti che utilizzano il nuovo nodo integrato.
@@ -427,8 +427,8 @@ Qui ci sono varie sottosezioni con altri strumenti:
 
 
 
-- conti_ - qui è possibile importare conti esterni / portafogli, portafogli Cold, portafogli Hot, da controllare o utilizzare come fonte di finanziamento esterna per i canali del nodo Zeus. Questa funzione è ancora sperimentale.
-- velocizzare la transazione_ - Questa funzione potrebbe essere utile quando si ha una transazione bloccata nel Mempool e si vuole aumentare la tariffa. Dovrete fornire l'output del tx dai dettagli del tx e selezionare la nuova tariffa desiderata. Deve essere più alta di quella precedente e richiede di avere più fondi disponibili nella propria catena Wallet.
+- **conti** - qui è possibile importare conti esterni / portafogli, portafogli Cold, portafogli Hot, da controllare o utilizzare come fonte di finanziamento esterna per i canali del nodo Zeus. Questa funzione è ancora sperimentale.
+- **velocizzare la transazione** - Questa funzione potrebbe essere utile quando si ha una transazione bloccata nel Mempool e si vuole aumentare la tariffa. Dovrete fornire l'output del tx dai dettagli del tx e selezionare la nuova tariffa desiderata. Deve essere più alta di quella precedente e richiede di avere più fondi disponibili nella propria catena Wallet.
 
 
 ![Image](assets/en/05.webp)
@@ -441,8 +441,8 @@ Qui ci sono varie sottosezioni con altri strumenti:
 
 
 
-- firma o verifica_ - Questa funzione consente di firmare un messaggio specifico con le chiavi Wallet. Può anche essere utilizzata per verificare un messaggio per provare che proviene da una specifica chiave Wallet.
-- convertitore di valuta_ - un semplice strumento per calcolare il tasso di conversione tra BTC e altre valute fiat.
+- **firma o verifica** - Questa funzione consente di firmare un messaggio specifico con le chiavi Wallet. Può anche essere utilizzata per verificare un messaggio per provare che proviene da una specifica chiave Wallet.
+- **convertitore di valuta** - un semplice strumento per calcolare il tasso di conversione tra BTC e altre valute fiat.
 
 
 **J - Merchandising e supporto**

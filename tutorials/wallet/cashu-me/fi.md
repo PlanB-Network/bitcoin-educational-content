@@ -43,16 +43,16 @@ Tutustutaan ominaisuuksiin ja tutkitaan, mitä Cashu.me tarjoaa:
 
 
 
-- Chaumian ecash on Lightning**: Käyttää sokeaa allekirjoitusta, joten rahapajat eivät voi jäljittää käyttäjien saldoja tai tapahtumahistoriaa
-- Polettien oma säilytys**: Hallitset ecash-merkkivaluuttoja paikallisesti seed-lauseellasi
-- seed-lauseen varmuuskopiot**: 12-sanainen palautuslause Wallet:n palauttamista varten
-- Mintun itsenäisyys**: Toimii useiden itsenäisten rahapajojen kanssa - et ole sidottu yhteen palveluntarjoajaan
-- Välittömät, ilmaiset maksutapahtumat**: Samassa rahapajassa maksut hoituvat sekunneissa ilman maksuja
-- Yksityisyyden suojaava arkkitehtuuri**: Rahapajat eivät näe, kuka tekee liiketoimia kenenkin kanssa
-- Offline ecash**: Lähetä/vastaanota poletteja paikallisen siirtoprotokollan, kuten NFC:n, QR-koodin, Bluetoothin jne. kautta ilman Internet-yhteyttä
-- Tutustu ecash-minttukortteihin Nostr**:n kautta: Löydä ja tarkista luotettavat rahapajat Nostr-protokollan kautta
-- Vaihda ecashia minttujen välillä**: Kaikki rahapajat puhuvat Lightningia, mikä tarkoittaa, että voit siirtää arvoa niiden välillä.
-- Kauko-ohjaa Wallet:ää Nostr Wallet Connect (NWC)** -ohjelmalla: Yhdistä muihin sovelluksiin, kuten Nostr Clientiin, ja aloita zappaus NWC:n kautta
+- **Chaumian ecash on Lightning**: Käyttää sokeaa allekirjoitusta, joten rahapajat eivät voi jäljittää käyttäjien saldoja tai tapahtumahistoriaa
+- **Polettien oma säilytys**: Hallitset ecash-merkkivaluuttoja paikallisesti seed-lauseellasi
+- **seed-lauseen varmuuskopiot**: 12-sanainen palautuslause Wallet:n palauttamista varten
+- **Mintun itsenäisyys**: Toimii useiden itsenäisten rahapajojen kanssa - et ole sidottu yhteen palveluntarjoajaan
+- **Välittömät, ilmaiset maksutapahtumat**: Samassa rahapajassa maksut hoituvat sekunneissa ilman maksuja
+- **Yksityisyyden suojaava arkkitehtuuri**: Rahapajat eivät näe, kuka tekee liiketoimia kenenkin kanssa
+- **Offline ecash**: Lähetä/vastaanota poletteja paikallisen siirtoprotokollan, kuten NFC:n, QR-koodin, Bluetoothin jne. kautta ilman Internet-yhteyttä
+- Tutustu ecash-minttukortteihin **Nostr**:n kautta: Löydä ja tarkista luotettavat rahapajat Nostr-protokollan kautta
+- **Vaihda ecashia minttujen välillä**: Kaikki rahapajat puhuvat Lightningia, mikä tarkoittaa, että voit siirtää arvoa niiden välillä.
+- Kauko-ohjaa Wallet:ää **Nostr Wallet Connect (NWC)** -ohjelmalla: Yhdistä muihin sovelluksiin, kuten Nostr Clientiin, ja aloita zappaus NWC:n kautta
 
 
 Kriittinen kompromissi on "luottamus": vaikka hallitset itse rahakkeita, sinun on luotettava siihen, että rahapajat huolehtivat taustalla olevien Bitcoin -varantojen säilytyksestä. Kuten Cashun dokumentaatiossa todetaan:

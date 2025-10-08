@@ -366,7 +366,7 @@ Sau đây là kết quả mong đợi:
 
 
 
-kết quả hiển thị phiên bản hiện tại của Nmap._
+kết quả hiển thị phiên bản hiện tại của Nmap.
 
 
 
@@ -451,7 +451,7 @@ Sau đây là kết quả mong đợi:
 
 
 
-kết quả hiển thị phiên bản hiện tại của Nmap._
+kết quả hiển thị phiên bản hiện tại của Nmap.
 
 
 
@@ -475,7 +475,7 @@ Nhưng nhân tiện, khi sử dụng Nmap, **có cần phải có quyền cục 
 
 
 
-thông báo lỗi trên Linux khi tùy chọn Nmap yêu cầu quyền root._
+thông báo lỗi trên Linux khi tùy chọn Nmap yêu cầu quyền root.
 
 
 
@@ -611,7 +611,7 @@ nmap 192.168.1.18
 
 
 
-kết quả của một lần quét TCP đơn giản được thực hiện với Nmap._
+kết quả của một lần quét TCP đơn giản được thực hiện với Nmap.
 
 
 
@@ -723,7 +723,7 @@ Nếu bạn xem tệp "/etc/services" trên hệ thống Linux, bạn sẽ thấ
 
 
 
-trích xuất nội dung của tệp "/etc/services" trên Linux._
+trích xuất nội dung của tệp "/etc/services" trên Linux.
 
 
 
@@ -857,7 +857,7 @@ nmap -sU 192.168.1.19
 
 
 
-kết quả của một lần quét UDP đơn giản được thực hiện với Nmap._
+kết quả của một lần quét UDP đơn giản được thực hiện với Nmap.
 
 
 
@@ -869,7 +869,7 @@ Nhân tiện, bạn có thể nhận thấy rằng Nmap yêu cầu quyền "root
 
 
 
-lưu ý: Kể từ phiên bản Nmap mới nhất, bạn nên chạy quét UDP với quyền quản trị viên để đảm bảo kết quả đáng tin cậy vì một số tính năng yêu cầu quyền truy cập thô vào ổ cắm mạng._
+lưu ý: Kể từ phiên bản Nmap mới nhất, bạn nên chạy quét UDP với quyền quản trị viên để đảm bảo kết quả đáng tin cậy vì một số tính năng yêu cầu quyền truy cập thô vào ổ cắm mạng.
 
 
 
@@ -909,7 +909,7 @@ Chúng ta có thể thấy trên ảnh chụp màn hình ở trên rằng Nmap s
 
 
 
-trích từ RFC 1122._
+trích từ RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Chúng ta hãy xem xét kỹ hơn bản ghi Wireshark này, bản ghi này cho t
 
 
 
-chụp mạng trong quá trình quét UDP trên các cổng khác nhau bằng Nmap._
+chụp mạng trong quá trình quét UDP trên các cổng khác nhau bằng Nmap.
 
 
 
@@ -956,7 +956,7 @@ Sau đây là kết quả được Nmap hiển thị sau ba trường hợp sau:
 
 
 
-kết quả có thể có của quá trình quét UDP được thực hiện thông qua Nmap._
+kết quả có thể có của quá trình quét UDP được thực hiện thông qua Nmap.
 
 
 
@@ -988,7 +988,7 @@ Như chúng ta đã thấy, Nmap tự động chọn số lượng và cổng đ
 
 
 
-được trích xuất từ tệp "/usr/shares/nmap/nmap-services"._
+được trích xuất từ tệp "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Cuối cùng, chúng ta có hai ví dụ về `match`. Ví dụ đầu tiên s�
 
 
 
-ví dụ về một số Probe được Nmap sử dụng và có trong tệp `/usr/share/nmap/nmap-service-probes`._
+ví dụ về một số Probe được Nmap sử dụng và có trong tệp `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Bây giờ chúng ta sẽ quay lại chỉ thị trong tệp `/usr/share/nmap/nm
 
 
 
-chỉ thị `rarity` thăm dò trong tệp `/usr/share/nmap/nmap-service-probes`._
+chỉ thị `rarity` thăm dò trong tệp `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ nmap 192.168.1.0/24 -sV --version-intensity 9
 
 
 
-ví dụ về Probe ở độ hiếm 8 và 9 trong tệp `/usr/share/nmap/nmap-service-probes`._
+ví dụ về Probe ở độ hiếm 8 và 9 trong tệp `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Sau đây là kết quả quét Nmap bằng tập lệnh NSE:
 
 
 
-ví dụ về kết quả quét lỗ hổng trên máy chủ thông qua Nmap._
+ví dụ về kết quả quét lỗ hổng trên máy chủ thông qua Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Về mặt kỹ thuật, các danh mục mà một tập lệnh thuộc về đ�
 
 
 
-Các danh mục tập lệnh nSE `ftp-anon`._
+Các danh mục tập lệnh nSE `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Theo mặc định, các tập lệnh NSE của Nmap nằm trong thư mục `/us
 
 
 
-trích xuất nội dung của thư mục `/usr/share/nmap/scripts/` chứa các tập lệnh NSE._
+trích xuất nội dung của thư mục `/usr/share/nmap/scripts/` chứa các tập lệnh NSE.
 
 
 
@@ -2296,7 +2296,7 @@ Thư mục này chứa hơn 5.000 tập lệnh NSE. Trong hầu hết các trư�
 
 
 
-danh sách các tập lệnh NSE Nmap có tên bắt đầu bằng `ftp-`._
+danh sách các tập lệnh NSE Nmap có tên bắt đầu bằng `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Sau đó chúng ta có một kết quả rất chính xác:
 
 
 
-kết quả của việc sử dụng tập lệnh NSE `ftp-anon` trên cổng FTP thông qua Nmap._
+kết quả của việc sử dụng tập lệnh NSE `ftp-anon` trên cổng FTP thông qua Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Do đó, Nmap cũng sẽ thực hiện thử nghiệm kết nối ẩn danh này
 
 
 
-giúp hiển thị kết quả cho tập lệnh NSE `sshv1`._
+giúp hiển thị kết quả cho tập lệnh NSE `sshv1`.
 
 
 
@@ -2500,7 +2500,7 @@ Tập lệnh này có các tùy chọn "mặc định", chúng ta có thể tùy
 
 
 
-kết quả hiển thị trợ giúp cho tập lệnh `ssh-brute` của NSE với liên kết đến nmap.org._
+kết quả hiển thị trợ giúp cho tập lệnh `ssh-brute` của NSE với liên kết đến nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Như bạn có thể thấy trong lệnh cuối cùng này, chúng ta có thể 
 
 
 
-kết quả của việc thực thi SSH bruteforce thông qua Nmap._
+kết quả của việc thực thi SSH bruteforce thông qua Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Ngoài ra còn có một định dạng đầu ra thứ hai theo kiểu "văn b�
 
 
 
-quét mạng nmap và xuất ra định dạng "greppable"._
+quét mạng nmap và xuất ra định dạng "greppable".
 
 
 
@@ -2838,7 +2838,7 @@ Kết quả là, toàn bộ bản quét của chúng ta sẽ được cấu trú
 
 
 
-trích xuất từ báo cáo quét Nmap ở định dạng HTML được tạo bởi xsltproc._
+trích xuất từ báo cáo quét Nmap ở định dạng HTML được tạo bởi xsltproc.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Chuyển đổi ngôn ngữ bảng định kiểu mở rộng_) là một
 
 
 
-nguồn: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+nguồn: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Tùy chọn đầu tiên chúng ta nên đề cập là tùy chọn `-v`, giúp 
 
 
 
-đầu ra chi tiết của nmap sử dụng tùy chọn `-v`._
+đầu ra chi tiết của nmap sử dụng tùy chọn `-v`.
 
 
 
@@ -2900,7 +2900,7 @@ Khi quét nhắm mục tiêu đến nhiều máy chủ và cổng, đầu ra c�
 
 
 
-giám sát chi tiết hoạt động của Nmap thông qua `--packet-trace`._
+giám sát chi tiết hoạt động của Nmap thông qua `--packet-trace`.
 
 
 
@@ -3120,7 +3120,7 @@ Trong khi Aquatone thường thực hiện khám phá cổng trên máy chủ đ
 
 
 
-sử dụng kết quả Nmap ở định dạng XML với `aquatone`._
+sử dụng kết quả Nmap ở định dạng XML với `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ Trong mọi trường hợp, bạn có thể kiểm tra các giá trị mặc đ
 
 
 
-xem các tùy chọn Thời gian thông qua tùy chọn `-d` của Nmap._
+xem các tùy chọn Thời gian thông qua tùy chọn `-d` của Nmap.
 
 
 
@@ -3465,7 +3465,7 @@ Nếu bạn đã chọn sử dụng Nmap không thông qua phiên làm việc v�
 
 
 
-nâng cao đặc quyền Nmap thông qua `sudo`._
+nâng cao đặc quyền Nmap thông qua `sudo`.
 
 
 
@@ -3509,7 +3509,7 @@ Như bạn có thể nhận thấy, Nmap cung cấp một số tùy chọn để
 
 
 
-các kỹ thuật quét có sẵn trong Nmap._
+các kỹ thuật quét có sẵn trong Nmap.
 
 
 
@@ -3598,7 +3598,7 @@ Như đã đề cập, khi chạy Nmap từ một thiết bị đầu cuối đ�
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Sau đây là ví dụ về kết quả quét TCP FIN của Nmap:
 
 
 
-kết quả quét TCP FIN của Nmap._
+kết quả quét TCP FIN của Nmap.
 
 
 
@@ -3892,7 +3892,7 @@ nmap -sX 192.168.1.15
 
 
 
-lưu ý: hỗ trợ quét XMAS/FIN/NULL trên các phiên bản Windows gần đây vẫn còn hạn chế và kết quả có thể không nhất quán trên loại mục tiêu này. (Cập nhật 2025)_
+lưu ý: hỗ trợ quét XMAS/FIN/NULL trên các phiên bản Windows gần đây vẫn còn hạn chế và kết quả có thể không nhất quán trên loại mục tiêu này. (Cập nhật 2025)
 
 
 
@@ -3983,7 +3983,7 @@ Chúng tôi sẽ sử dụng tùy chọn `-sA` của Nmap để thực hiện ki
 
 
 
-Hiển thị nmap trong quá trình quét TCP ACK._
+Hiển thị nmap trong quá trình quét TCP ACK.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-lưu ý: Tùy chọn `-sP` đã lỗi thời trong nhiều năm và nên được thay thế bằng `-sn`. (Cập nhật 2025)_
+lưu ý: Tùy chọn `-sP` đã lỗi thời trong nhiều năm và nên được thay thế bằng `-sn`. (Cập nhật 2025)
 
 
 

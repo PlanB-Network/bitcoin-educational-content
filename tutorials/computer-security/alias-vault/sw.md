@@ -36,10 +36,10 @@ Katika Vault moja ya Interface Alias ​​ni:
 
 
 
-- Chanzo huria na wazi**
-- Kidhibiti Nenosiri**, ili kuhifadhi manenosiri yote changamano. Kwa kutumia kiendelezi cha kivinjari, msimamizi wa nenosiri hukamilisha kuingia kwenye tovuti
-- 2FA**, ili kusaidia uthibitishaji wa vipengele viwili
-- Msimamizi wa lakabu aliye na seva iliyopachikwa ya barua pepe**: Vault ya Lakabu haiundi lakabu zinazosambaza barua pepe kwa kisanduku cha barua cha mtumiaji; badala yake, inaunda mabadiliko halisi, kamili na jina la kwanza, jina la mwisho, jinsia, jina la mtumiaji, nenosiri, na siku ya kuzaliwa (ikiwa taarifa hii inahitajika).
+- **Chanzo huria na wazi**
+- **Kidhibiti Nenosiri**, ili kuhifadhi manenosiri yote changamano. Kwa kutumia kiendelezi cha kivinjari, msimamizi wa nenosiri hukamilisha kuingia kwenye tovuti
+- **2FA**, ili kusaidia uthibitishaji wa vipengele viwili
+- **Msimamizi wa lakabu aliye na seva iliyopachikwa ya barua pepe**: Vault ya Lakabu haiundi lakabu zinazosambaza barua pepe kwa kisanduku cha barua cha mtumiaji; badala yake, inaunda mabadiliko halisi, kamili na jina la kwanza, jina la mwisho, jinsia, jina la mtumiaji, nenosiri, na siku ya kuzaliwa (ikiwa taarifa hii inahitajika).
 
 
 

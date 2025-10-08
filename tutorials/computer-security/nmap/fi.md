@@ -366,7 +366,7 @@ Tässä on odotettu tulos:
 
 
 
-nmapin nykyisen version näyttämisen tulos._
+nmapin nykyisen version näyttämisen tulos.
 
 
 
@@ -451,7 +451,7 @@ Tässä on odotettu tulos:
 
 
 
-nmapin nykyisen version näyttämisen tulos._
+nmapin nykyisen version näyttämisen tulos.
 
 
 
@@ -475,7 +475,7 @@ Perusmuodossaan, toisin sanoen ilman, että Nmapin vaihtoehtoja käytetään kov
 
 
 
-virheilmoitus Linuxissa, kun Nmapin asetukset vaativat pääkäyttäjän oikeuksia._
+virheilmoitus Linuxissa, kun Nmapin asetukset vaativat pääkäyttäjän oikeuksia.
 
 
 
@@ -611,7 +611,7 @@ Tässä on mahdollinen tulos. Näemme klassisen Nmap-palautteen, jossa on paljon
 
 
 
-nmapilla suoritetun yksinkertaisen TCP-skannauksen tulokset._
+nmapilla suoritetun yksinkertaisen TCP-skannauksen tulokset.
 
 
 
@@ -723,7 +723,7 @@ Jos katsot Linux-järjestelmän tiedostoa "/etc/services", löydät "port/protoc
 
 
 
-poimii tiedoston "/etc/services" sisällön Linuxissa._
+**poimii tiedoston "/etc/services" sisällön Linuxissa.**
 
 
 
@@ -857,7 +857,7 @@ Tässä tapauksessa saatu palautus on samassa muodossa kuin TCP-skannauksessa, m
 
 
 
-nmapilla suoritetun yksinkertaisen UDP-skannauksen tulos._
+nmapilla suoritetun yksinkertaisen UDP-skannauksen tulos.
 
 
 
@@ -869,7 +869,7 @@ Muuten, huomaat varmaan, että Nmap vaatii "pääkäyttäjän" oikeudet UDP-skan
 
 
 
-huomautus: Nmapin uusimmista versioista lähtien on aina suositeltavaa suorittaa UDP-skannaukset järjestelmänvalvojan oikeuksin luotettavien tulosten varmistamiseksi, koska jotkin ominaisuudet vaativat raakaa pääsyä verkkopistorasioihin._
+huomautus: Nmapin uusimmista versioista lähtien on aina suositeltavaa suorittaa UDP-skannaukset järjestelmänvalvojan oikeuksin luotettavien tulosten varmistamiseksi, koska jotkin ominaisuudet vaativat raakaa pääsyä verkkopistorasioihin.
 
 
 
@@ -909,7 +909,7 @@ Yllä olevasta kuvakaappauksesta näemme, että Nmap lähettää suuren määrä
 
 
 
-ote RFC 1122._
+**Note RFC 1122.**
 
 
 
@@ -921,7 +921,7 @@ Katsotaanpa tarkemmin tätä Wireshark-kaappausta, joka näyttää **kolme mahdo
 
 
 
-verkkokaappaus UDP-skannauksen aikana eri porteissa Nmapilla._
+verkkokaappaus UDP-skannauksen aikana eri porteissa Nmapilla.
 
 
 
@@ -956,7 +956,7 @@ Tässä on Nmapin näyttämä tulos näiden kolmen tapauksen jälkeen:
 
 
 
-nmapin kautta suoritetun UDP-skannauksen mahdolliset tulokset._
+nmapin kautta suoritetun UDP-skannauksen mahdolliset tulokset.
 
 
 
@@ -988,7 +988,7 @@ Oletustilassa skannatut 1000 porttia valitaan niiden esiintymistiheyden mukaan. 
 
 
 
-purettu tiedostosta "/usr/shares/nmap/nmap-services"._
+purettu tiedostosta "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ Jotta ymmärtäisit paremmin, miltä koettimet voivat näyttää, tässä on lue
 
 
 
-esimerkki useista Nmapin käyttämistä koettimista, jotka ovat tiedostossa `/usr/share/nmap/nmap/nmap-service-probes`._
+esimerkki useista Nmapin käyttämistä koettimista, jotka ovat tiedostossa `/usr/share/nmap/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Palataan nyt tiedostoon `/usr/share/nmap/nmap-service-probes`, jota emme tarkast
 
 
 
-probes `rarity`-direktiivi tiedostossa `/usr/share/nmap/nmap-service-probes`._
+probes `rarity`-direktiivi tiedostossa `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ Lopuksi tässä on esimerkki _Probe_ 9:stä ja 8:sta:
 
 
 
-esimerkkejä Probe-luotaimista harvinaisuuksilla 8 ja 9 tiedostossa `/usr/share/nmap/nmap-service-probes`._
+esimerkkejä Probe-luotaimista harvinaisuuksilla 8 ja 9 tiedostossa `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Tässä on Nmap-skannauksen tulos NSE-skriptien avulla:
 
 
 
-esimerkki Nmapin kautta tehdyn haavoittuvuustarkastuksen tuloksista isäntäasemalla._
+esimerkki Nmapin kautta tehdyn haavoittuvuustarkastuksen tuloksista isäntäasemalla.
 
 
 
@@ -2264,7 +2264,7 @@ Teknisesti ottaen luokat, joihin skripti kuuluu, ilmoitetaan suoraan sen koodiss
 
 
 
-nSE-skriptiluokat `ftp-anon`._
+nSE-skriptiluokat `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Oletusarvoisesti Nmapin NSE-skriptit sijaitsevat hakemistossa `/usr/share/nmap/s
 
 
 
-poimii NSE-skriptejä sisältävän hakemiston `/usr/share/nmap/scripts/` sisällön._
+poimii NSE-skriptejä sisältävän hakemiston `/usr/share/nmap/scripts/` sisällön.
 
 
 
@@ -2296,7 +2296,7 @@ Tämä hakemisto sisältää yli 5 000 NSE-skriptiä. Useimmissa tapauksissa kom
 
 
 
-luettelo NSE Nmap-skripteistä, joiden nimet alkavat `ftp-`._
+luettelo NSE Nmap-skripteistä, joiden nimet alkavat `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Saamme siis erittäin tarkan tuloksen:
 
 
 
-tulos NSE:n `ftp-anon`-skriptin käytöstä FTP-porttiin Nmapin kautta._
+tulos NSE:n `ftp-anon`-skriptin käytöstä FTP-porttiin Nmapin kautta.
 
 
 
@@ -2468,7 +2468,7 @@ Lyhyen kuvauksen siitä, mitä NSE-skripti tekee, saat edellä mainitulla `--scr
 
 
 
-ohje näyttää NSE-skriptin `sshv1`._ tulokset
+ohje näyttää NSE-skriptin `sshv1` _tulokset_
 
 
 
@@ -2500,7 +2500,7 @@ Tässä komentosarjassa on "oletusasetukset", joita voimme muokata omaan asiayht
 
 
 
-nSE `ssh-brute`-skriptin ohjeen näyttämisen tulos, jossa on linkki osoitteeseen nmap.org._
+nSE `ssh-brute`-skriptin ohjeen näyttämisen tulos, jossa on linkki osoitteeseen nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Kuten näet tässä viimeisessä komennossa, voimme määrittää Nmap-skriptill
 
 
 
-nmap._ kautta suoritetun SSH bruteforce -toteutuksen tulos
+nmap kautta suoritetun **SSH bruteforce** -toteutuksen tulos
 
 
 
@@ -2637,7 +2637,7 @@ Tämä muoto luotiin tarjoamaan "tiivistetty" näkymä Nmapin tulosteesta, joka 
 
 
 
-nmap-verkkoskannaus ja tulostus "greppable"-muodossa._
+nmap-verkkoskannaus ja tulostus "greppable"-muodossa.
 
 
 
@@ -2838,7 +2838,7 @@ Tuloksena meillä on koko skannaus hienosti jäsenneltynä, jopa muutamalla vär
 
 
 
-ote Nmapin skannausraportista HTML-muodossa, jonka on luonut xsltproc._
+**Huomautus:** Nmap-skannausraportista HTML-muodossa, jonka on luonut xsltproc.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) on XSL:n osajoukko, jonk
 
 
 
-lähde: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+lähde: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Ensimmäinen vaihtoehto, joka on syytä mainita, on `-v`-optio, joka lisää Nma
 
 
 
-nmapin sanallinen tuloste käyttämällä `-v`._ -vaihtoehtoa
+nmapin sanallinen tuloste käyttämällä `-v` -vaihtoehtoa
 
 
 
@@ -2900,7 +2900,7 @@ Voit seurata Nmapin toimintaa tarkemmin skannauksen aikana käyttämällä `--pa
 
 
 
-nmapin toiminnan yksityiskohtainen seuranta `--packet-trace`:n avulla._
+nmapin toiminnan yksityiskohtainen seuranta `--packet-trace`:n avulla.
 
 
 
@@ -3120,7 +3120,7 @@ Kun Aquatone tavallisesti etsii isäntäasemien portteja verkkopalvelujen löyt�
 
 
 
-nmapin tulosten käyttäminen XML-muodossa `aquatone`._ avulla
+nmapin tulosten käyttäminen XML-muodossa `aquatone` avulla
 
 
 
@@ -3197,7 +3197,7 @@ Voit joka tapauksessa tarkistaa tarkasteltavien parametrien oletusarvot sekä se
 
 
 
-tarkastella ajoitusvaihtoehtoja Nmapin `-d`-vaihtoehdon avulla._
+tarkastella ajoitusvaihtoehtoja Nmapin `-d`-vaihtoehdon avulla.
 
 
 
@@ -3465,7 +3465,7 @@ Jos olet päättänyt käyttää Nmapia ei istunnon kautta `root`-käyttäjänä
 
 
 
-nmap-oikeuksien lisääminen `sudo`:n kautta._
+nmap-oikeuksien lisääminen `sudo`:n kautta.
 
 
 
@@ -3509,7 +3509,7 @@ Kuten olet ehkä huomannut, Nmap tarjoaa useita vaihtoehtoja TCP-skannauksia var
 
 
 
-nmap._:n käytettävissä olevat skannaustekniikat
+**nmap**:n käytettävissä olevat skannaustekniikat
 
 
 
@@ -3598,7 +3598,7 @@ Kuten mainittu, kun Nmapia käytetään etuoikeutetusta päätelaitteesta, TCP S
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Tässä on esimerkki Nmapin TCP FIN -skannaustuloksesta:
 
 
 
-nmapin tekemän TCP FIN-skannauksen tulokset._
+nmapin tekemän TCP FIN-skannauksen tulokset.
 
 
 
@@ -3892,7 +3892,7 @@ On tärkeää huomata, että TCP XMAS -skannaus ei pysty havaitsemaan palomuurej
 
 
 
-huomautus: tuki XMAS/FIN/NULL-skannauksille uusimmissa Windows-versioissa on edelleen rajallinen, ja tulokset voivat olla epäjohdonmukaisia tämäntyyppisissä kohteissa. (Päivitys 2025)_
+huomautus: tuki XMAS/FIN/NULL-skannauksille uusimmissa Windows-versioissa on edelleen rajallinen, ja tulokset voivat olla epäjohdonmukaisia tämäntyyppisissä kohteissa. _(Päivitys 2025)_
 
 
 
@@ -3983,7 +3983,7 @@ Käytämme Nmapin `-sA`-vaihtoehtoa tämän tyyppisen skannauksen suorittamiseen
 
 
 
-nmap-näyttö TCP ACK Scan._ aikana
+nmap-näyttö **TCP ACK Scan** aikana
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-huomautus: `-sP`-vaihtoehto on ollut vanhentunut jo useita vuosia, ja se tulisi korvata `-sn`-vaihtoehdolla. (Päivitys 2025)_
+huomautus: `-sP`-vaihtoehto on ollut vanhentunut jo useita vuosia, ja se tulisi korvata `-sn`-vaihtoehdolla. _(Päivitys 2025)_
 
 
 

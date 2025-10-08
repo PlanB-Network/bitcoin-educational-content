@@ -276,7 +276,7 @@ Níže popsané kroky se mohou na první pohled zdát složité. Nenechte se tí
 
 
 
-Pro příjem finančních prostředků musíte nutně použít displej Wallet umístěný v počítači připojeném k internetu. V nabídce `Přijmout` klikněte na `Vytvořit žádost_, aby Electrum generate první dostupný Address a pomocí něj nám poslal několik sátů.
+Pro příjem finančních prostředků musíte nutně použít displej Wallet umístěný v počítači připojeném k internetu. V nabídce `Přijmout` klikněte na `Vytvořit žádost`, aby Electrum generate první dostupný Address a pomocí něj nám poslal několik sátů.
 
 
 
@@ -346,7 +346,7 @@ Rozbalte médium se souborem `.PSBT` a připojte jej k počítači v režimu off
 
 
 
-V okně Wallet airgap nyní zvolte nabídku _Tools_, poté _Load transaction_ a následující From file_.
+V okně Wallet airgap nyní zvolte nabídku _Tools_, poté _Load transaction_ a následující _From file_.
 
 
 

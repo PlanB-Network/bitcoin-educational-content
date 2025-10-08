@@ -40,7 +40,7 @@ Mu bikoresho vyinshi vya Linux biriho, Fedora iratandukanye cane cane kubera:
 
 
 
-- Modularity**: Ihuye n’imiterere itandukanye y’ibikoresho, Fedora ishobora gushirwa kuri mudasobwa nyinshi, mbere n’izikoresha ubushobozi buke, igahuye neza n’ivyo ukeneye.
+- **Modularity**: Ihuye n'imiterere itandukanye y'ibikoresho, Fedora ishobora gushirwa kuri mudasobwa nyinshi, mbere n'izikoresha ubushobozi buke, igahuye neza n'ivyo ukeneye.
 
 
 
@@ -52,13 +52,13 @@ Mu bikoresho vyinshi vya Linux biriho, Fedora iratandukanye cane cane kubera:
 
 
 
-- Kernel stability**: Ishingiye kuri Red Hat, Fedora izwi cane kubera ukwizigirwa kw’ivyo ihindura, cane cane ivyo ihindura, ivyo bikaba bikorwa ata bibazo bikomeye bivuye ku ntererano z’ubuntu zivuye mu muryango munini.
+- **Kernel stability**: Ishingiye kuri Red Hat, Fedora izwi cane kubera ukwizigirwa kw'ivyo ihindura, cane cane ivyo ihindura, ivyo bikaba bikorwa ata bibazo bikomeye bivuye ku ntererano z'ubuntu zivuye mu muryango munini.
 
 
 
 
 
-- Gushiramwo vyihuta, vyoroshe**: n’ubunini bw’ishusho bwa 3 GB gusa, gushiramwo biranyaruka kandi biroroshe, mbere no ku mashini zifise uburyo buke.
+- **Gushiramwo vyihuta, vyoroshe**: n'ubunini bw'ishusho bwa 3 GB gusa, gushiramwo biranyaruka kandi biroroshe, mbere no ku mashini zifise uburyo buke.
 
 
 
@@ -72,19 +72,19 @@ Bivanye n’ivyo ukora n’ingene ukoresha, Fedora itanga ibitabu bihuye n’ivy
 
 
 
-- Fedora Workstation**: Ni nziza cane ku mudasobwa zawe bwite no/canke mu kazi, iyi nteguro ishizwemwo ibikoresho rusangi nk’ibikoresho vyo gucukura, ibiro (abahindura inyandiko), n’ibikoresho vyo gusubiramwo amakuru.
+- **Fedora Workstation**: Ni nziza cane ku mudasobwa zawe bwite no/canke mu kazi, iyi nteguro ishizwemwo ibikoresho rusangi nk'ibikoresho vyo gucukura, ibiro (abahindura inyandiko), n'ibikoresho vyo gusubiramwo amakuru.
 
 
 
 
 
-- Fedora Server**: Iyi nteguro ni iyo gucunga server. Fedora Server irimwo ibikoresho bitandukanye bigufasha gukoresha no gucunga ama server ku rugero rwawe bwite.
+- **Fedora Server**: Iyi nteguro ni iyo gucunga server. Fedora Server irimwo ibikoresho bitandukanye bigufasha gukoresha no gucunga ama server ku rugero rwawe bwite.
 
 
 
 
 
-- Fedora CoreOS**: Ushaka gukoresha no gukoresha mu buryo bworoshe ibikorwa vyo mu gicu? Fedora CoreOS ni igitabu kiguha ibikoresho vyo kurema no gucunga amashusho ukoresheje Docker na Kubernets, nk’akarorero.
+- **Fedora CoreOS**: Ushaka gukoresha no gukoresha mu buryo bworoshe ibikorwa vyo mu gicu? Fedora CoreOS ni igitabu kiguha ibikoresho vyo kurema no gucunga amashusho ukoresheje Docker na Kubernets, nk'akarorero.
 
 
 
@@ -103,7 +103,7 @@ Gushiramwo Fedora Workstation bisaba gutunganya ibikoresho bikurikira:
 
 - Urufunguzo rwa USB rwo nibura **8 GB** kugira ngo ufungure ubuhinga bwo gukoresha.
 - Nibura **40 GB y'umwanya w'ubuntu** kuri disk Hard ya mudasobwa yawe.
-- 4 GB RAM** kugira ngo ukore neza.
+- **4 GB RAM** kugira ngo ukore neza.
 
 
 
@@ -169,7 +169,7 @@ Kuri iyi ntambwe, ufise amahitamwo akurikira:
 
 
 
-- Test media**: Iyi nzira ishobora kugufasha kugenzura ubutungane bw’inkoni ya USB no kumenya neza ko ibintu vyose bisabwa kugira ngo ushiremwo neza biriho. Iyi ni intambwe y’ubusa, ariko iraremeshwa nimba ufise amakenga ku bijanye n’inkoni ya USB.
+- **Test media**: Iyi nzira ishobora kugufasha kugenzura ubutungane bw'inkoni ya USB no kumenya neza ko ibintu vyose bisabwa kugira ngo ushiremwo neza biriho. Iyi ni intambwe y'ubusa, ariko iraremeshwa nimba ufise amakenga ku bijanye n'inkoni ya USB.
 
 
 
@@ -183,7 +183,7 @@ Kuri iyi ntambwe, ufise amahitamwo akurikira:
 
 
 
-- Gutangura Fedora**: Ivyo bica bitanguza Fedora mu buryo "ubuzima", ata gushiramwo.
+- **Gutangura Fedora**: Ivyo bica bitanguza Fedora mu buryo "ubuzima", ata gushiramwo.
 
 
 
@@ -368,9 +368,9 @@ Fedora irimwo **LibreOffice** ibiro vy'ibiro ku buryo busanzwe, bitanga ibikores
 
 
 
-- Umwanditsi** wo gutunganya amajambo.
-- Calc** ku mpapuro z'ibarabara.
-- Impress** kugira ngo ureme ibiganiro.
+- **Umwanditsi** wo gutunganya amajambo.
+- **Calc** ku mpapuro z'ibarabara.
+- **Impress** kugira ngo ureme ibiganiro.
 
 
 ## Gushiramwo porogaramu

@@ -65,7 +65,7 @@ description: پرداخت‌های Bitcoin را مستقیماً از طریق �
 
 
 
-- Alby Hub** برای کیف‌پول‌های Alby Go، افزونه Alby برای مرورگر شما.
+- **Alby Hub** برای کیف‌پول‌های Alby Go، افزونه Alby برای مرورگر شما.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** برای اتصال Bitcoin وب CoinOS Wallet.
-- فلش Wallet** برای اتصال به فلش Wallet.
-- لینک LN**
+- **Coinos** برای اتصال Bitcoin وب CoinOS Wallet.
+- **فلش Wallet** برای اتصال به فلش Wallet.
+- لینک **LN**
 
 
 

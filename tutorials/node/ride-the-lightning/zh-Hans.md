@@ -657,7 +657,7 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 - 定期备份：每次修改后导出通道备份文件 (SCB) 并将其存储在节点外。
 - **更新**：通过最新的安全修复，使 RTL、您的节点和 Umbrel 保持更新。
 - **保密性**：在共享日志和截图之前先进行匿名处理。切勿公开共享您的余额或同行列表。
-- 单一访问**：RTL 不是多用户。不要共享管理员访问权限。对于只读访问，必要时使用专用的 Macaroon。
+- **单一访问**：RTL 不是多用户。不要共享管理员访问权限。对于只读访问，必要时使用专用的 Macaroon。
 
 
 

@@ -31,7 +31,7 @@ Phoenixd er en minimal, spesialisert Lightning-node utviklet av ACINQ. Det er en
 
 
 
-**Phoenixd er en minimal Lightning-node som bruker ACINQ som LSP (Lightning Service Provider) for automatisk likviditet. Når du mottar Lightning-betalinger, åpner den automatisk kanaler med ACINQ-noder for å tildele nødvendig innkommende kapasitet. Denne "on-the-fly"-likviditeten er øyeblikkelig, men belastes med nøyaktig **1 % + Mining-gebyr** av det mottatte beløpet.
+**Phoenixd er en minimal Lightning-node som bruker ACINQ som LSP (Lightning Service Provider) for automatisk likviditet. Når du mottar Lightning-betalinger, åpner den automatisk kanaler med ACINQ-noder for å tildele nødvendig innkommende kapasitet. Denne "on-the-fly"-likviditeten er øyeblikkelig, men belastes med nøyaktig 1 % + Mining-gebyr av det mottatte beløpet.**
 
 
 
@@ -40,9 +40,9 @@ Phoenixd er en minimal, spesialisert Lightning-node utviklet av ACINQ. Det er en
 
 
 
-- Lightning**-kanaler: Åpne, lukk og administrer automatisk etter behov
-- Innkommende/utgående likviditet**: Automatisk tilførsel via spleising og kanalåpning
-- Avgiftskreditt** : Små betalinger som ikke er tilstrekkelige til å rettferdiggjøre en kanal, lagres som en avsetning for fremtidige gebyrer
+- **Lightning-kanaler**: Åpne, lukk og administrer automatisk etter behov
+- **Innkommende/utgående likviditet**: Automatisk tilførsel via spleising og kanalåpning
+- **Avgiftskreditt**: Små betalinger som ikke er tilstrekkelige til å rettferdiggjøre en kanal, lagres som en avsetning for fremtidige gebyrer
 
 
 
@@ -50,7 +50,7 @@ Phoenixd er en minimal, spesialisert Lightning-node utviklet av ACINQ. Det er en
 
 
 
-**Du kontrollerer dine private nøkler (12-ord seed) og midler. Phoenixd genererer Wallet lokalt uten å dele nøklene dine.
+**Du kontrollerer dine private nøkler (12-ord seed) og midler. Phoenixd genererer Wallet lokalt uten å dele nøklene dine.**
 
 
 
@@ -84,10 +84,10 @@ Phoenixd krever et Linux-miljø (Ubuntu/Debian anbefales), med noen grunnleggend
 
 
 
-- Linux-server**: VPS eller lokal maskin med stabil tilkobling
-- OpenJDK 21** : Java-kjøretidsmiljø
-- Stabil Internett-tilkobling**: For synkronisering med Lightning Network
-- Domenenavn** (valgfritt) : For sikker HTTPS-tilgang til API-et
+- **Linux-server**: VPS eller lokal maskin med stabil tilkobling
+- **OpenJDK 21**: Java-kjøretidsmiljø
+- **Stabil Internett-tilkobling**: For synkronisering med Lightning Network
+- **Domenenavn** (valgfritt): For sikker HTTPS-tilgang til API-et
 
 
 
@@ -113,7 +113,7 @@ chmod +x phoenixd phoenix-cli
 
 
 
-**2. Første oppstart
+**2. Første oppstart**
 
 
 
@@ -286,9 +286,9 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Bevis serverens identitet** (forhindrer "man-in-the-middle"-angrep)
-- Aktiverer HTTPS**-kryptering: alle data, inkludert API-passordene dine, krypteres under transport
-- Utstedt gratis** av Let's Encrypt via certbot-verktøyet
+- **Bevis serverens identitet** (forhindrer "man-in-the-middle"-angrep)
+- Aktiverer **HTTPS-kryptering**: alle data, inkludert API-passordene dine, krypteres under transport
+- **Utstedt gratis** av Let's Encrypt via certbot-verktøyet
 
 
 
@@ -297,10 +297,10 @@ Denne konfigurasjonen lar deg :
 
 
 
-- Sikker tilgang til API-et fra Internett**
-- Krypter API**-passordene dine under transport (for å hindre at de overføres i klartekst)
-- Integrer Phoenixd** i eksterne applikasjoner som krever HTTPS
-- Overholdelse av sikkerhetsstandarder** for finansielle API-er
+- **Sikker tilgang til API-et fra Internett**
+- Krypter **API-passordene** dine under transport (for å hindre at de overføres i klartekst)
+- Integrer **Phoenixd** i eksterne applikasjoner som krever HTTPS
+- **Overholdelse av sikkerhetsstandarder** for finansielle API-er
 
 
 
@@ -437,9 +437,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-- Serviceavgift**: 1 % av kanalkapasiteten (2 115 000 Sats) = 21 150 Sats
-- Mining-avgifter**: ~3 289 Sats (for On-Chain-transaksjon)
-- Totalt**: 24 439 Sats trekkes automatisk fra
+- **Serviceavgift**: 1 % av kanalkapasiteten (2 115 000 Sats) = 21 150 Sats
+- **Mining-avgifter**: ~3 289 Sats (for On-Chain-transaksjon)
+- **Totalt**: 24 439 Sats trekkes automatisk fra
 
 
 
@@ -543,8 +543,8 @@ curl http://localhost:9740/getbalance \
 
 
 
-- Kvittering**: 1 % + Mining-gebyr for automatisk likviditet
-- Frakt**: 0.4 % rutinggebyr på Lightning Network
+- **Kvittering**: 1 % + Mining-gebyr for automatisk likviditet
+- **Frakt**: 0.4 % rutinggebyr på Lightning Network
 
 
 
@@ -552,7 +552,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Nettbutikken din mottar automatisk et varsel når en kunde betaler for en bestilling, slik at transaksjonen kan valideres umiddelbart.
+**Nettbutikken din mottar automatisk et varsel når en kunde betaler for en bestilling, slik at transaksjonen kan valideres umiddelbart.**
 
 
 
@@ -652,7 +652,7 @@ Takket være det omfattende REST API-et kan du utvikle :
 **Bots for sosiale nettverk:** Telegram/Discord-bots med tipsfunksjoner
 
 
-**Premium-innhold tilgjengelig mot en Lightning-avgift
+**Premium-innhold tilgjengelig mot en Lightning-avgift**
 
 
 
@@ -684,7 +684,7 @@ Takket være det omfattende REST API-et kan du utvikle :
 
 
 
-*~/.phoenix-katalogen:** Sikkerhetskopier denne mappen regelmessig (etter at Phoenixd har blitt stengt ned) for å bevare kanalstatusen og gjøre gjenopprettingen raskere.
+**~/.phoenix-katalogen:** Sikkerhetskopier denne mappen regelmessig (etter at Phoenixd har blitt stengt ned) for å bevare kanalstatusen og gjøre gjenopprettingen raskere.
 
 
 
@@ -744,7 +744,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Begge bruker ACINQ som LSP for automatisk likviditet.
+**Begge bruker ACINQ som LSP for automatisk likviditet.**
 
 
 
@@ -785,7 +785,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-*feilen "*Autentifisering mislyktes":**
+**feilen "Autentifisering mislyktes":**
 
 
 1. Sjekk passordet i filen `~/.phoenix/phoenix.conf`
@@ -866,9 +866,9 @@ Med Phoenixd bygger du din egen private Lightning-infrastruktur med et moderne R
 
 
 
-- GitHub Phoenixd** : [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kildekode og utgivelser
-- Phoenix Server**-nettstedet: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Fullstendig dokumentasjon
-- FAQ Phoenixd** : [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Ofte stilte spørsmål
+- **GitHub Phoenixd**: [github.com/ACINQ/phoenixd](https://github.com/ACINQ/phoenixd) - Kildekode og utgivelser
+- **Phoenix Server**-nettstedet: [phoenix.acinq.co/server](https://phoenix.acinq.co/server) - Fullstendig dokumentasjon
+- **FAQ Phoenixd**: [phoenix.acinq.co/server/faq](https://phoenix.acinq.co/server/faq) - Ofte stilte spørsmål
 
 
 
@@ -877,5 +877,5 @@ Med Phoenixd bygger du din egen private Lightning-infrastruktur med et moderne R
 
 
 
-- GitHub-problemer** : [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Teknisk støtte
-- Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Nyheter og kunngjøringer
+- **GitHub-problemer**: [github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues) - Teknisk støtte
+- **Twitter ACINQ**: [@ACINQ_co](https://twitter.com/ACINQ_co) - Nyheter og kunngjøringer

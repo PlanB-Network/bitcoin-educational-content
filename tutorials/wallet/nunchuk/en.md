@@ -242,7 +242,7 @@ By going to the _Home_ menu, the option to create Wallet appears. Click _Create 
 Nunchuk shows you a number of possibilities that have to do, for the most part, with services the company offers that are not the subject of this tutorial.
 
 
-In this guide we will create a _Hot Wallet and a _Custom wallet_ by detailing the details.
+In this guide we will create a **Hot Wallet** and a **Custom wallet** by detailing the details.
 
 Let's start with _Custom wallet_.
 

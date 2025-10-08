@@ -156,7 +156,7 @@ BTC 거래를 시작하려면 먼저 BTC Address을 제공해야 합니다. 이�
 이 가이드는 Lend at HODL HODL 플랫폼의 첫걸음을 내딛는 데 도움이 될 것입니다.
 
 
-**출처: https://medium.com/HODL-HODL/quick-guide-to-lend-or-borrow-on-lend-at-HODL-HODL-5a535d526217
+**출처: https://medium.com/HODL-HODL/quick-guide-to-lend-or-borrow-on-lend-at-HODL-HODL-5a535d526217**
 
 
 ![image](assets/1.webp)
@@ -222,7 +222,7 @@ APR(연간 이자율) 섹션에서는 다른 금융 서비스와의 비교를 �
 제안이 적절하다고 판단되어 수락하기로 결정하면 보류 중인 필드를 완료하고 '수락 및 생성' 버튼으로 확인합니다.
 
 
-**위 이미지의 왼쪽 부분과 관련하여 다음 사항에 유의하세요
+**위 이미지의 왼쪽 부분과 관련하여 다음 사항에 유의하세요**
 
 
 

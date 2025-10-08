@@ -406,7 +406,7 @@ o be-BOP também oferece integração total com **Stripe**, uma das plataformas 
 
 
 
-*o *be-BOP** oferece uma gestão avançada da moeda e está adaptado a ambientes com várias moedas e a requisitos contabilísticos específicos. Para garantir a coerência das operações financeiras e dos relatórios, é essencial configurar corretamente as diferentes moedas utilizadas no sistema. Eis os passos a seguir para esta configuração:
+**O be-BOP** oferece uma gestão avançada da moeda e está adaptado a ambientes com várias moedas e a requisitos contabilísticos específicos. Para garantir a coerência das operações financeiras e dos relatórios, é essencial configurar corretamente as diferentes moedas utilizadas no sistema. Eis os passos a seguir para esta configuração:
 
 
 
@@ -455,7 +455,7 @@ O software oferece uma capacidade multilingue para se adaptar a um público inte
 
 
 
-*o *be-BOP** fornece aos designers todas as ferramentas de que necessitam para conceber um sítio Web. O primeiro passo é abrir a secção `Admin > Merch > Layout` nas configurações. Comece por configurar a **Barra de Topo**, a **Barra de Navegação** e o **Rodapé**.
+**O be-BOP** fornece aos designers todas as ferramentas de que necessitam para conceber um sítio Web. O primeiro passo é abrir a secção `Admin > Merch > Layout` nas configurações. Comece por configurar a **Barra de Topo**, a **Barra de Navegação** e o **Rodapé**.
 
 
 

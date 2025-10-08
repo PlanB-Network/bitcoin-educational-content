@@ -156,7 +156,7 @@ sudo systemctl restart tor
 ```
 
 
-接下来，让我们使用 "Bitcoin-qt "命令启动 Bitcoin core 图形化 Interface。然后，启用软件的自动功能，通过 Tor 代理路由我们的连接：设置 > 网络_，然后勾选_通过 SOCKS5 代理（默认代理）连接_和_使用单独的 SOCKS5 代理通过 Tor 洋葱服务连接对等网络_。
+接下来，让我们使用 "Bitcoin-qt" 命令启动 Bitcoin core 图形化 Interface。然后，启用软件的自动功能，通过 Tor 代理路由我们的连接：设置 > 网络，然后勾选**通过 SOCKS5 代理（默认代理）连接**和**使用单独的 SOCKS5 代理通过 Tor 洋葱服务连接对等网络**。
 
 
 ![option](assets/fr/04.webp)

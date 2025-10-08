@@ -15,7 +15,7 @@ Bir işletmenin Bitcoin'ü kolayca benimseyebilmesi için ödeme çözümünün 
 
 
 
-*i̇şletmeler için *Lipa** bu ihtiyaçlara mükemmel bir cevaptır. Lightning Payment Services AG tarafından geliştirilen ve tüccarların Bitcoin Lightning ödemelerini basit ve verimli bir şekilde kabul etmelerini sağlamak için tasarlanmış bir İsviçre çözümüdür.
+**İşletmeler için Lipa** bu ihtiyaçlara mükemmel bir cevaptır. Lightning Payment Services AG tarafından geliştirilen ve tüccarların Bitcoin Lightning ödemelerini basit ve verimli bir şekilde kabul etmelerini sağlamak için tasarlanmış bir İsviçre çözümüdür.
 
 
 
@@ -130,10 +130,10 @@ Tahsilat süreci geleneksel bir işlemle benzerlik göstermektedir:
 
 
 
-- Tutar girin**: Ödeme ekranında tutarı yerel para birimi (CHF veya EUR) cinsinden girin. Örnek: 4,50 CHF'lik bir kahve için 4,50 girin
-- Invoice oluşturma** : Uygulama, tutarı anında geçerli kur üzerinden satoshiye dönüştürür ve QR kodu şeklinde bir Yıldırım Invoice oluşturur
-- Müşteri ödemesi** : Müşteri QR kodunu Wallet Lightning ile tarar ve ödemeyi onaylar
-- Onay** : Ödeme, başarının görsel olarak gösterilmesiyle saniyeler içinde onaylanır
+- **Tutar girin**: Ödeme ekranında tutarı yerel para birimi (CHF veya EUR) cinsinden girin. Örnek: 4,50 CHF'lik bir kahve için 4,50 girin
+- **Invoice oluşturma**: Uygulama, tutarı anında geçerli kur üzerinden satoshiye dönüştürür ve QR kodu şeklinde bir Yıldırım Invoice oluşturur
+- **Müşteri ödemesi**: Müşteri QR kodunu Wallet Lightning ile tarar ve ödemeyi onaylar
+- **Onay**: Ödeme, başarının görsel olarak gösterilmesiyle saniyeler içinde onaylanır
 
 
 
@@ -207,11 +207,11 @@ Tahsilat süreci geleneksel bir işlemle benzerlik göstermektedir:
 
 
 
-- Catering**: Barlar, restoranlar, kafeler bahşiş yönetimi ile Bitcoin'de ilaveleri kabul edecek
-- Perakende**: Sabit ücret olmadan ödeme yöntemlerini genişletmek için marketler, fırınlar
-- Göçebe satıcılar**: sadece bir akıllı telefon ile gıda kamyonları, pazarlar, festivaller
-- Etkinlikler** : Kullanıma hazır çözümlerle geçici stantlar
-- Hizmetler**: Bitcoin'de tek seferlik faturalandırma için danışmanlar, zanaatkarlar
+- **Catering**: Barlar, restoranlar, kafeler bahşiş yönetimi ile Bitcoin'de ilaveleri kabul edecek
+- **Perakende**: Sabit ücret olmadan ödeme yöntemlerini genişletmek için marketler, fırınlar
+- **Göçebe satıcılar**: sadece bir akıllı telefon ile gıda kamyonları, pazarlar, festivaller
+- **Etkinlikler**: Kullanıma hazır çözümlerle geçici stantlar
+- **Hizmetler**: Bitcoin'de tek seferlik faturalandırma için danışmanlar, zanaatkarlar
 
 
 

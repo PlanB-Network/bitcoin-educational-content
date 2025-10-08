@@ -17,13 +17,13 @@ Thunderbird ni porogaramu yo gukoresha ubutumwa kuri e-mail izwi cane kubera ubu
 
 
 
-- Ubuntu kandi bufunguye**: bitandukanye n’ibikoresho vyinshi vyo gutanga ubutumwa, Thunderbird ni ubuntu rwose. Ariko rero, urashobora gushigikira umuryango w’abahinguzi mu kubarungikira intererano.
-- Intuitive Interface kandi yoroshe kwiga**: Ivyo Thunderbird ikora, ahanini, biragororotse, rero ntubwirizwa kubihagarika umutima.
+- **Ubuntu kandi bufunguye**: bitandukanye n'ibikoresho vyinshi vyo gutanga ubutumwa, Thunderbird ni ubuntu rwose. Ariko rero, urashobora gushigikira umuryango w'abahinguzi mu kubarungikira intererano.
+- **Intuitive Interface kandi yoroshe kwiga**: Ivyo Thunderbird ikora, ahanini, biragororotse, rero ntubwirizwa kubihagarika umutima.
 - Ibereye ubwoko bwinshi bwa **e-mail**: yaba Gmail, Yahoo, Outlook canke mbere e-mail z’ubudandaji zijanye n’izina ry’indangarubuga, iyi sandugu y’ubutumwa irashobora gukoreshwa mu buryo bwinshi.
-- Multi-account**: Thunderbird ishobora kugufasha kwifatanya na konti nyinshi z’ubutumwa bwa e-mail icarimwe, bikaba bigufasha kuronka ubutumwa bwawe bwose.
-- Ibintu bikora neza cane n’ubushobozi bwo guhindura**: ku buryo busanzwe, Thunderbird itanga ibintu vyinshi vyo gucunga amakonti yawe ya e-mail n’ikirangamisi c’ibintu. Ariko kandi, biragufasha kwongerako ibindi bihitamwo kubera ama extensions menshi ariho.
-- Ivyuma vyinshi**: Thunderbird iboneka ku bikoresho bitandukanye (Android, Windows, Linux, macOS), biguha uburenganzira bwo gukoresha ubutumwa bwawe bwo kuri interineti.
-- Umutekano**: Thunderbird ni porogaramu itekanye cane, ishobora kugufasha kwungukira ku gukingira amakuru kuva ku mpera kugeza ku mpera bishingiye kuri RSA canke ECC (Elliptic Curve) kugira ngo ushobore kumenya ibanga ry’amakuru yawe.
+- **Multi-account**: Thunderbird ishobora kugufasha kwifatanya na konti nyinshi z'ubutumwa bwa e-mail icarimwe, bikaba bigufasha kuronka ubutumwa bwawe bwose.
+- **Ibintu bikora neza cane n'ubushobozi bwo guhindura**: ku buryo busanzwe, Thunderbird itanga ibintu vyinshi vyo gucunga amakonti yawe ya e-mail n'ikirangamisi c'ibintu. Ariko kandi, biragufasha kwongerako ibindi bihitamwo kubera ama extensions menshi ariho.
+- **Ivyuma vyinshi**: Thunderbird iboneka ku bikoresho bitandukanye (Android, Windows, Linux, macOS), biguha uburenganzira bwo gukoresha ubutumwa bwawe bwo kuri interineti.
+- **Umutekano**: Thunderbird ni porogaramu itekanye cane, ishobora kugufasha kwungukira ku gukingira amakuru kuva ku mpera kugeza ku mpera bishingiye kuri RSA canke ECC (Elliptic Curve) kugira ngo ushobore kumenya ibanga ry'amakuru yawe.
 
 
 
@@ -59,8 +59,8 @@ Kuri Windows, ukoreshe executable yavanwe kugira ngo utangure gushiramwo. Fyonda
 
 
 
-- Standard**: yemera gushiramwo ataco uhinduye.
-- Custom**: ishobora kugufasha guhitamwo dosiye yo gushiramwo n'uko wokora canke utakora inzira ngufi zo ku biro.
+- **Standard**: yemera gushiramwo ataco uhinduye.
+- **Custom**: ishobora kugufasha guhitamwo dosiye yo gushiramwo n'uko wokora canke utakora inzira ngufi zo ku biro.
 
 
 

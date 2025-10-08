@@ -205,7 +205,7 @@ Kuhusu Kuingia Rahisi, chombo hiki kina sifa zifuatazo:
 
 - programu ya simu (pia kutoka kwa F-Droid) na ugani wa kivinjari, ili kudhibiti majina ya bandia katika hali yoyote;
 - uthibitishaji wa sababu mbili kwa kila jina jipya, ambalo huongeza kiwango cha uhuru kutoka kwa huduma yenyewe;
-- Usaidizi wa PGP (kwa watumiaji wa _Premium);
+- Usaidizi wa PGP (kwa watumiaji wa _Premium_);
 - uundaji rahisi wa kila aina ya pak (desturi, nasibu, na UUID);
 - kati ya mipango ya bure katika sekta, uwezo wa kutumia aliases na masanduku ya barua pepe zaidi "rasmi". Washindani wengine huweka kikomo kwa mmoja tu.
 

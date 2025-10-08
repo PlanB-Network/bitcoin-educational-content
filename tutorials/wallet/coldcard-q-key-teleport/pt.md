@@ -130,7 +130,7 @@ A partir do dispositivo de envio, clique no botão **"QR "** para digitalizar o 
 
 
 - importámos os dados encriptados através da leitura do código QR no dispositivo recetor.
-- depois desencriptámo-los com a palavra-passe de 8 dígitos que nos foi transmitida por um canal secundário*.
+- depois desencriptámo-los com a palavra-passe de 8 dígitos que nos foi transmitida por um canal secundário.
 - estamos, portanto, na posse da chave pública (Ka) gerada inicialmente pelo recetor
 - De seguida, criamos um novo par de chaves efémeras (Kb/kb, com Kb=G.kb) no dispositivo de envio, que utilizamos para aplicar a ECDH a Ka. Efectuamos, portanto, a operação kb.Ka=Ks , em que Ks é designada por **"chave de sessão"**.
 

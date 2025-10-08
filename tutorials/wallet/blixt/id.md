@@ -481,7 +481,7 @@ Saya akan merekomendasikan untuk bagian ini yang berikut ini:
 ### KASUS 1 - MASALAH SINKRONISASI
 
 
-"_Blixt saya tidak tersinkronisasi... Blixt saya tidak menunjukkan saldo... Blixt saya tidak dapat membuka saluran... Saya mencoba memulihkannya di perangkat lain... dll."
+"_Blixt saya tidak tersinkronisasi... Blixt saya tidak menunjukkan saldo... Blixt saya tidak dapat membuka saluran... Saya mencoba memulihkannya di perangkat lain... dll._"
 
 
 Semua masalah ini dimulai karena PERANGKAT ANDA TIDAK TERSINKRONISASI DENGAN BENAR. Harap pahami aspek penting ini: Blixt adalah node LND seluler, yang menggunakan Neutrino untuk menyinkronkan/membaca blok.

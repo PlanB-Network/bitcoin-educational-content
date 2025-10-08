@@ -921,7 +921,7 @@ Låt oss ta en närmare titt på denna Wireshark-fångst, som visar **de tre mö
 
 
 
-nätverksinspelning under en UDP-sökning på olika portar med Nmap._
+nätverksinspelning under en UDP-sökning på olika portar med Nmap.
 
 
 
@@ -956,7 +956,7 @@ Här är resultatet som visas av Nmap efter dessa tre fall:
 
 
 
-möjliga resultat av en UDP-sökning utförd via Nmap._
+möjliga resultat av en UDP-sökning utförd via Nmap.
 
 
 
@@ -988,7 +988,7 @@ De 1000 portar som skannas i standardläget väljs utifrån hur ofta de förekom
 
 
 
-extraherad från filen "/usr/shares/nmap/nmap-services"._
+extraherad från filen "/usr/shares/nmap/nmap-services".
 
 
 
@@ -1749,7 +1749,7 @@ För att hjälpa dig att förstå hur Probes kan se ut följer här en lista öv
 
 
 
-exempel på flera prober som används av Nmap och som finns i filen `/usr/share/nmap/nmap-service-probes`._
+exempel på flera prober som används av Nmap och som finns i filen `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1858,7 +1858,7 @@ Vi ska nu gå tillbaka till ett direktiv i filen `/usr/share/nmap/nmap-service-p
 
 
 
-probes `rarity`-direktiv i filen `/usr/share/nmap/nmap-service-probes`._
+probes `rarity`-direktiv i filen `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1912,7 +1912,7 @@ Som avslutning på detta ämne, här är ett exempel på _Probe_ 9 och 8:
 
 
 
-exempel på Probe vid raritet 8 och 9 i filen `/usr/share/nmap/nmap-service-probes`._
+exempel på Probe vid raritet 8 och 9 i filen `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -2109,7 +2109,7 @@ Här är resultatet av en Nmap-sökning med hjälp av NSE-skript:
 
 
 
-exempel på resultatet av en sårbarhetssökning på en värd via Nmap._
+exempel på resultatet av en sårbarhetssökning på en värd via Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Tekniskt sett anges de kategorier som ett manus tillhör direkt i dess kod.
 
 
 
-nSE-skriptkategorier `ftp-anon`._
+nSE-skriptkategorier `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Som standard finns Nmaps NSE-skript i katalogen `/usr/share/nmap/scripts/`, utan
 
 
 
-extraherar innehållet i katalogen `/usr/share/nmap/scripts/` som innehåller NSE-skript._
+extraherar innehållet i katalogen `/usr/share/nmap/scripts/` som innehåller NSE-skript.
 
 
 
@@ -2296,7 +2296,7 @@ Den här katalogen innehåller över 5 000 NSE-skript. I de flesta fall innehål
 
 
 
-lista över NSE Nmap-skript med namn som börjar med `ftp-`._
+lista över NSE Nmap-skript med namn som börjar med `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Vi får då ett mycket exakt resultat:
 
 
 
-resultatet av att använda NSE-skriptet `ftp-anon` på en FTP-port via Nmap._
+resultatet av att använda NSE-skriptet `ftp-anon` på en FTP-port via Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Om du vill ha en kort beskrivning av vad ett NSE-skript gör kan du använda alt
 
 
 
-hjälp visa resultat för NSE-skript `sshv1`._
+hjälp visa resultat för NSE-skript `sshv1`.
 
 
 
@@ -2543,7 +2543,7 @@ Som du kan se i det sista kommandot kan vi ange de nödvändiga argumenten till 
 
 
 
-resultatet av SSH-bruteforce-körning via Nmap._
+resultatet av SSH-bruteforce-körning via Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Detta format skapades för att ge en "kondenserad" bild av Nmap-utdata, struktur
 
 
 
-nmap nätverkssökning och utdata i "greppbart" format._
+nmap nätverkssökning och utdata i "greppbart" format.
 
 
 
@@ -2838,7 +2838,7 @@ Som ett resultat kommer vi att ha hela vår skanning snyggt strukturerad, med ti
 
 
 
-utdrag från en Nmap-scanningsrapport i HTML-format som genererats av xsltproc._
+utdrag från en Nmap-scanningsrapport i HTML-format som genererats av xsltproc.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Extensible Stylesheet Language Transformations_) är en delmängd av XSL 
 
 
 
-källa: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+källa: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Det första alternativet vi bör nämna är alternativet `-v`, som ökar Nmaps o
 
 
 
-nmapps verbala utdata med hjälp av alternativet `-v`._
+nmapps verbala utdata med hjälp av alternativet `-v`.
 
 
 
@@ -2900,7 +2900,7 @@ För att ytterligare spåra Nmaps aktivitet under dess skanning kan du använda 
 
 
 
-detaljerad övervakning av Nmap-aktivitet via `--packet-trace`._
+detaljerad övervakning av Nmap-aktivitet via `--packet-trace`.
 
 
 
@@ -3120,7 +3120,7 @@ Aquatone utför normalt portdiscovery på värdar för att hitta webbtjänster, 
 
 
 
-använda Nmap-resultat i XML-format med `aquatone`._
+använda Nmap-resultat i XML-format med `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ I vilket fall som helst kan du kontrollera standardvärdena för de parametrar v
 
 
 
-visa alternativ för tidsinställning via Nmaps alternativ `-d`._
+visa alternativ för tidsinställning via Nmaps alternativ `-d`.
 
 
 
@@ -3465,7 +3465,7 @@ Om du har valt att använda Nmap inte via en session som `root`, utan genom att 
 
 
 
-höjning av Nmap-privilegier via `sudo`._
+höjning av Nmap-privilegier via `sudo`.
 
 
 
@@ -3598,7 +3598,7 @@ Som nämnts är TCP SYN Scan standardläget när Nmap körs från en privilegier
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3983,7 +3983,7 @@ Vi använder Nmaps `-sA`-alternativ för att utföra den här typen av skanning.
 
 
 
-nmap-visning under TCP ACK Scan._
+nmap-visning under **TCP ACK Scan**.
 
 
 

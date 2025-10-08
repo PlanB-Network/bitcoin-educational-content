@@ -26,9 +26,9 @@ Aurora Store è uno dei più popolari negozi di app alternativi a Google Play St
 
 
 
-- Un Interface** semplificato: il Interface non vi disturba minimamente, quindi è facile orientarsi.
-- Accesso a milioni di applicazioni**: Aurora Store funge da portale per una vasta gamma di applicazioni mobili. Se l'applicazione che state cercando è presente su Google Play Store, la troverete su Aurora Store.
-- Non è necessario il servizio Google Play**: Grazie alla tecnologia MicroG, le applicazioni Android possono essere eseguite sul telefono senza i servizi Google Play.
+- Un **Interface semplificato**: il Interface non vi disturba minimamente, quindi è facile orientarsi.
+- **Accesso a milioni di applicazioni**: Aurora Store funge da portale per una vasta gamma di applicazioni mobili. Se l'applicazione che state cercando è presente su Google Play Store, la troverete su Aurora Store.
+- **Non è necessario il servizio Google Play**: Grazie alla tecnologia MicroG, le applicazioni Android possono essere eseguite sul telefono senza i servizi Google Play.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store non solo rispecchia Google Play Store, ma include anche funzioni ch
 
 
 
-- Indipendenza da Google:**
+- **Indipendenza da Google:**
 
 
 
@@ -112,7 +112,7 @@ In un contesto in cui si decide di disabilitare i servizi di Google Play per pro
 
 
 
-- Controllo del download:**
+- **Controllo del download:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Store consente di scaricare manualmente le applicazioni mobili specifican
 
 
 
-- Autorizzazioni:**
+- **Autorizzazioni:**
 
 
 Nella descrizione dell'applicazione che si desidera installare, ottenere un elenco completo delle autorizzazioni che verranno concesse a questa applicazione dopo l'installazione.
@@ -139,7 +139,7 @@ Nella descrizione dell'applicazione che si desidera installare, ottenere un elen
 
 
 
-- Analisi della protezione dei dati:**
+- **Analisi della protezione dei dati:**
 
 
 

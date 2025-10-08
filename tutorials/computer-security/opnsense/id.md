@@ -115,7 +115,7 @@ Kemudian Anda akan sampai pada Interface yang mirip dengan yang di bawah ini. Ma
 
 ![Image](assets/fr/026.webp)
 
-Wizard baru muncul di layar. Langkah pertama adalah memilih tata letak keyboard yang sesuai dengan konfigurasi Anda. Untuk keyboard AZERTY, pilih opsi "**Prancis (tombol aksen)**" dari daftar, lalu klik dua kali**.
+Wizard baru muncul di layar. Langkah pertama adalah memilih tata letak keyboard yang sesuai dengan konfigurasi Anda. Untuk keyboard AZERTY, pilih opsi **"Prancis (tombol aksen)"** dari daftar, lalu klik dua kali.
 
 ![Image](assets/fr/027.webp)
 

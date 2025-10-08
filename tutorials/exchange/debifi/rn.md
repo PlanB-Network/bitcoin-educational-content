@@ -64,25 +64,25 @@ Imbere y’uko ndakwereka intambwe ku yindi ingene woguriza kuri Debifi, hariho 
 
 
 
-- Amafaranga y’intango** ni amafaranga afatwa rimwe gusa igihe inguzanyo itangwa, kandi akabarwa nk’ijanisha ry’amahera yaguzwe. Aya mafaranga yishura amafaranga y’ubutegetsi, ibikorwa n’uburongozi.
+- **Amafaranga y'intango** ni amafaranga afatwa rimwe gusa igihe inguzanyo itangwa, kandi akabarwa nk'ijanisha ry'amahera yaguzwe. Aya mafaranga yishura amafaranga y'ubutegetsi, ibikorwa n'uburongozi.
 
 
 
 
 
-- Ingwati** ni umutungo ubika kugira ngo ubone inguzanyo. Ku bijanye na Debifi, ingwati ni Bitcoin (BTC), iyo uwugurizwa abika mu giciro c’ingwati ca Multisig 3/4.
+- **Ingwati** ni umutungo ubika kugira ngo ubone inguzanyo. Ku bijanye na Debifi, ingwati ni Bitcoin (BTC), iyo uwugurizwa abika mu giciro c'ingwati ca Multisig 3/4.
 
 
 
 
 
-- Uburyo bwa Multisig escrow (3/4)** ni uburyo bwo kubika amafaranga aho amafaranga y'umuguzi ashirwa mu Address ifise imikono myinshi. Mu buryo bwihariye, abantu bane (4) umwe wese afise urufunguruzo (uwugurisha, uwugurisha, Debifi, uwugira gatatu yigenga). Kugira ngo umuntu yimure amahera, bisaba nibura amasinyatire 3 kuri 4.
+- **Uburyo bwa Multisig escrow (3/4)** ni uburyo bwo kubika amafaranga aho amafaranga y'umuguzi ashirwa mu Address ifise imikono myinshi. Mu buryo bwihariye, abantu bane (4) umwe wese afise urufunguruzo (uwugurisha, uwugurisha, Debifi, uwugira gatatu yigenga). Kugira ngo umuntu yimure amahera, bisaba nibura amasinyatire 3 kuri 4.
 
 
 
 
 
-- Stablecoin** ni amafaranga y’ibanga afise agaciro gashingiye ku mutungo udahinduka (nk’idolari ry’Amerika), ivyo bikaba birinda guhinduka kwa Bitcoin. Nk’akarorero, 1 USDC yama ifise agaciro ka ~$1, kuko ishigikiwe n’amafaranga y’ububiko.
+- **Stablecoin** ni amafaranga y'ibanga afise agaciro gashingiye ku mutungo udahinduka (nk'idolari ry'Amerika), ivyo bikaba birinda guhinduka kwa Bitcoin. Nk'akarorero, 1 USDC yama ifise agaciro ka ~$1, kuko ishigikiwe n'amafaranga y'ububiko.
 
 
 

@@ -1110,7 +1110,7 @@ Aby bezpiecznie i wydajnie korzystać z **Bull Bitcoin Mobile**, należy przestr
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Błyskawica: **[1ML (Lightning Network)](https://1ml.com/)**

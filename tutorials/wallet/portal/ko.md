@@ -68,7 +68,7 @@ description: 22개 디바이스 Hardware Wallet 포털 구성 및 사용
 ![Image](assets/fr/07.webp)
 
 
-새 Wallet를 만들려면 "*포털에서 *generate seed*"를 선택한 다음 "*계속*"을 클릭합니다.
+새 Wallet를 만들려면 "**포털에서 *generate seed***"를 선택한 다음 "**계속**"을 클릭합니다.
 
 
 ![Image](assets/fr/08.webp)
@@ -100,7 +100,7 @@ Mnemonic 문구를 저장하고 관리하는 올바른 방법에 대한 자세�
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-물론 이 튜토리얼에서처럼 인터넷에서 이 단어를 절대 공유해서는 안 됩니다. 이 샘플 Wallet는 Testnet에서만 사용되며 튜토리얼이 끝나면 삭제됩니다**_
+물론 이 튜토리얼에서처럼 인터넷에서 이 단어를 절대 공유해서는 안 됩니다. 이 샘플 Wallet는 Testnet에서만 사용되며 튜토리얼이 끝나면 삭제됩니다.
 
 
 포털의 버튼을 꾹 눌러 다음 단어로 넘어갑니다. 상호작용이 제대로 감지되도록 손가락 전체를 버튼에 대고 몇 초 동안 누르고 있어야 합니다.

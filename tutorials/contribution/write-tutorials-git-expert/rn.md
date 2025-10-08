@@ -209,23 +209,23 @@ Akira ahantu hakenewe:
 
 
 
-- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet](https://www. Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
+- **id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet](https://www. Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n'iyindi UUID iri kuri platform;
 
 
 
-- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urakora inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Network ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
+- **project_id**: UUID y'ishirahamwe canke ishirahamwe riri inyuma y'igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw'imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy'inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urakora inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y'inyigisho yawe kubera ko Plan ₿ Network ibungabunga urutonde rw'amashirahamwe yose n'imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati
 
 
 
-- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Network]
+- **tags**: amajambo 2 canke 3 y'ingenzi ajanye n'ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw'amajambo ya Plan ₿ Network]
 
 
 
-- category**: Urutonde ruto rujanye n’ibirimwo inyigisho, hakurikijwe imiterere y’urubuga rwa Plan ₿ Network (nk’akarorero, ku bikoresho: `ibikoresho`, `ibikoresho`, `bikoresho`, `ibikoresho`);
+- **category**: Urutonde ruto rujanye n'ibirimwo inyigisho, hakurikijwe imiterere y'urubuga rwa Plan ₿ Network (nk'akarorero, ku bikoresho: `ibikoresho`, `ibikoresho`, `bikoresho`, `ibikoresho`);
 
 
 
-- urugero**: Urugero rw'ingorane z'inyigisho, rwatowe muri:
+- **urugero**: Urugero rw'ingorane z'inyigisho, rwatowe muri:
     - 'umutanguzi`
     - `hagati`
     - `biteye imbere`
@@ -233,20 +233,20 @@ Akira ahantu hakenewe:
 
 
 
-- professor_id**: `id_y'umwigisha` (UUID) yawe nk'uko yerekanwa kuri [umwirondoro wawe w'umwigisha](https://github.com/Ikigo-C'Umugambi/Bitcoin-ibirimwo-ivy'inyigisho/igiti/dev/abaporofeseri);
+- **professor_id**: `id_y'umwigisha` (UUID) yawe nk'uko yerekanwa kuri [umwirondoro wawe w'umwigisha](https://github.com/Ikigo-C'Umugambi/Bitcoin-ibirimwo-ivy'inyigisho/igiti/dev/abaporofeseri);
 
 
 
-- ururimi_rw'umwimerere**: Ururimi rw'umwimerere rw'inyigisho (nk'akarorero, `fr`, `en`, n'ibindi);
+- **ururimi_rw'umwimerere**: Ururimi rw'umwimerere rw'inyigisho (nk'akarorero, `fr`, `en`, n'ibindi);
 
 
 
-- gukosora**: Amakuru yerekeye ingene umuntu akora ivyo gukosora. Uzuza igice ca mbere, nk'uko gukosora inyigisho yawe bwite biharurwa nk'ukwemeza kwa mbere:
-    - ururimi**: Ururimi rwo gukosora (nk'akarorero, `fr`, `en`, n'ibindi).
-    - itariki_yanyuma_y'intererano**: Itariki y'umusi.
-    - vyihutirwa**: 1
-    - amazina_y'abaterankunga**: Indangamuntu yawe ya GitHub.
-    - impembo**: 0
+- **gukosora**: Amakuru yerekeye ingene umuntu akora ivyo gukosora. Uzuza igice ca mbere, nk'uko gukosora inyigisho yawe bwite biharurwa nk'ukwemeza kwa mbere:
+- **ururimi**: Ururimi rwo gukosora (nk'akarorero, `fr`, `en`, n'ibindi).
+- **itariki_yanyuma_y'intererano**: Itariki y'umusi.
+- **vyihutirwa**: 1
+- **amazina_y'abaterankunga**: Indangamuntu yawe ya GitHub.
+- **impembo**: 0
 
 
 Ku bindi bisobanuro ku bijanye n'ikarata yawe y'umwigisha, urashobora kuraba inyigisho ihuye:
@@ -361,7 +361,7 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Imiterere ishigikiwe ku rubuga**:
+- Imiterere ishigikiwe ku rubuga:
     - Markdown ya kera: urutonde, amahuza, amashusho, amajambo asubiwemwo, amajambo akomeye, amajambo ateye igomwe, n'ibindi.
     - LaTeX (ibara gusa, atari mu murongo): igabanywa na `$$`.
     - Kode y’umurongo: Inyuguti zifise akamenyetso kamwe k’inyuma.
@@ -374,13 +374,13 @@ print("Hello, Bitcoin!")
 
 
 
-- Ivyerekanwa n'ibishushanyo**:
+- **Ivyerekanwa n'ibishushanyo**:
     - Amashusho yose ategerezwa kuba ari mu buryo bwa WebP. Koresha iki gikoresho c’ubuntu kugira ngo ubihindure iyo bisabwe: [Igihinduzi c’Amashusho](https://github.com/LoicPandul/Igihinduzi c’Amashusho).
     - Izina ry'ibishushanyo rifise imibare 2 canke 3 (nk'akarorero `001.urubuga`, `002.urubuga`).
     - Ku nyigisho zo kuri telefone ngendanwa canke za Hardware Wallet, koresha ibigereranyo.
     - Koresha gusa amashusho wiremye canke ataco utanga.
     - Raba neza ko zifise akamaro kandi zifise akamaro kanini.
-- Igitabo c'Igishushanyo**:
+- **Igitabo c'Igishushanyo**:
     - Imyandikire: [IBM Plex Sans] (IBM+Plex+Sans).
     - Amabara Plan ₿ Network:
         - Umutuku: `#FF5C00`

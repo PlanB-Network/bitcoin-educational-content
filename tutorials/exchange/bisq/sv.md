@@ -33,7 +33,7 @@ Fullständig handledning av BTC Session:
 Originalguide från bisq-teamet: https://bisq.network/getting-started/
 
 
-_Om du känner till en mer uppdaterad guide med bild och mer nybörjarorientering får du gärna dela den med oss!
+_Om du känner till en mer uppdaterad guide med bild och mer nybörjarorientering får du gärna dela den med oss!_
 
 
 1. Ladda ner och installera Bisq

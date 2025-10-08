@@ -212,7 +212,7 @@ Here you will find two options for backing up your data:
 - "*Data Backup*".
 
 
-"Threema Safe* saves all your account information, except your conversations, on Threema's servers. This data is encrypted with the password you chose when you created your account, ensuring that Threema has no access to it. Backups are made automatically and regularly.
+"Threema Safe saves all your account information, except your conversations, on Threema's servers. This data is encrypted with the password you chose when you created your account, ensuring that Threema has no access to it. Backups are made automatically and regularly.
 
 
 With "*Threema Safe*", to recover your account on a new device, all you need to do is enter your "*Threema ID*" and your password. If either of these two pieces of information is missing, it will be impossible to restore your account.

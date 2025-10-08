@@ -98,10 +98,10 @@ The collection process is similar to that of a conventional transaction:
 
 
 
-- Enter amount**: On the payment screen, enter the amount in local currency (CHF or EUR). Example: for a coffee at 4.50 CHF, enter 4.50
-- Invoice generation** : The application instantly converts the amount into satoshis at the current rate, and generates a Lightning invoice in the form of a QR code
-- Customer payment** : The customer scans the QR code with his Wallet Lightning and validates the payment
-- Confirmation** : Payment is confirmed within seconds, with visual display of success
+- **Enter amount**: On the payment screen, enter the amount in local currency (CHF or EUR). Example: for a coffee at 4.50 CHF, enter 4.50
+- **Invoice generation**: The application instantly converts the amount into satoshis at the current rate, and generates a Lightning invoice in the form of a QR code
+- **Customer payment**: The customer scans the QR code with his Wallet Lightning and validates the payment
+- **Confirmation**: Payment is confirmed within seconds, with visual display of success
 
 
 ## Professional tools
@@ -156,11 +156,11 @@ The collection process is similar to that of a conventional transaction:
 
 
 
-- Catering**: Bars, restaurants, cafés to accept additions in Bitcoin with tip management
-- Retail**: Grocery stores, bakeries for expanding payment methods without fixed charges
-- Nomadic vendors**: food trucks, markets, festivals with just a smartphone
-- Events** : Temporary stands with ready-to-use solutions
-- Services**: Consultants, craftsmen for one-off billing in Bitcoin
+- **Catering**: Bars, restaurants, cafés to accept additions in Bitcoin with tip management
+- **Retail**: Grocery stores, bakeries for expanding payment methods without fixed charges
+- **Nomadic vendors**: food trucks, markets, festivals with just a smartphone
+- **Events**: Temporary stands with ready-to-use solutions
+- **Services**: Consultants, craftsmen for one-off billing in Bitcoin
 
 
 ## Advantages and limitations

@@ -9,7 +9,7 @@ description: Cashu.me ecash kullanım kılavuzu
 ![video](https://www.youtube.com/watch?v=LIPw1c74LBU)
 
 
-*İşte BTC Sessions'tan, uygulama mağazasına ihtiyaç duymadan basit, ucuz ve özel Bitcoin işlemlerine erişmenizi sağlayan Cashu.me Bitcoin Wallet'in nasıl kurulacağı ve kullanılacağı konusunda size yol gösteren bir video rehberi!
+*İşte BTC Sessions'tan, uygulama mağazasına ihtiyaç duymadan basit, ucuz ve özel Bitcoin işlemlerine erişmenizi sağlayan Cashu.me Bitcoin Wallet'in nasıl kurulacağı ve kullanılacağı konusunda size yol gösteren bir video rehberi!*
 
 
 Bu eğitimde Chaumian ecash kullanarak özel Wallet ödemeleri için tarayıcı tabanlı bir Bitcoin olan Cashu.me'yi keşfedeceğiz. Başlamadan önce, ecash ve nasıl çalıştığına dair kısa bir giriş yapalım.
@@ -43,16 +43,16 @@ Cashu.me, Bitcoin için tasarlanmış Chaumian ecash'in özel bir uygulaması ol
 
 
 
-- Lightning** üzerinde Chaumian ecash: Kör imzalar kullanır, böylece darphaneler kullanıcı bakiyelerini veya işlem geçmişlerini izleyemez
-- Jetonların kendi kendine muhafazası**: seed ifadenizle ecash jetonlarını yerel olarak kontrol edersiniz
-- seed ifade yedekleri**: gW-15 restorasyonu için 12 kelimelik kurtarma cümlesi
-- Darphane bağımsızlığı**: Birden fazla bağımsız darphane ile çalışır - tek bir sağlayıcıya bağlı kalmazsınız
-- Anında, ücretsiz işlemler**: Aynı darphane içinde, ödemeler sıfır ücretle saniyeler içinde sonuçlanır
-- Gizliliği koruyan mimari**: Darphaneler kimin kiminle işlem yaptığını göremez
-- Çevrimdışı ecash**: İnternet bağlantısı olmadan NFC, QR kodu, Bluetooth vb. gibi yerel bir iletim protokolü aracılığıyla jeton gönderin/alın
-- Nostr** aracılığıyla ecash darphanelerini keşfedin: Nostr protokolü aracılığıyla güvenilir darphaneleri bulun ve doğrulayın
-- Darphaneler arasında ecash takas edin**: Tüm darphaneler Lightning konuşur, bu da aralarında değer aktarabileceğiniz anlamına gelir.
-- Nostr Wallet Connect (NWC)** ile Wallet'nizi uzaktan kontrol edin: Nostr Client gibi diğer uygulamalara bağlanın ve NWC aracılığıyla zaplamaya başlayın
+- **Lightning üzerinde Chaumian ecash**: Kör imzalar kullanır, böylece darphaneler kullanıcı bakiyelerini veya işlem geçmişlerini izleyemez
+- **Jetonların kendi kendine muhafazası**: seed ifadenizle ecash jetonlarını yerel olarak kontrol edersiniz
+- **seed ifade yedekleri**: gW-15 restorasyonu için 12 kelimelik kurtarma cümlesi
+- **Darphane bağımsızlığı**: Birden fazla bağımsız darphane ile çalışır - tek bir sağlayıcıya bağlı kalmazsınız
+- **Anında, ücretsiz işlemler**: Aynı darphane içinde, ödemeler sıfır ücretle saniyeler içinde sonuçlanır
+- **Gizliliği koruyan mimari**: Darphaneler kimin kiminle işlem yaptığını göremez
+- **Çevrimdışı ecash**: İnternet bağlantısı olmadan NFC, QR kodu, Bluetooth vb. gibi yerel bir iletim protokolü aracılığıyla jeton gönderin/alın
+- **Nostr** aracılığıyla ecash darphanelerini keşfedin: Nostr protokolü aracılığıyla güvenilir darphaneleri bulun ve doğrulayın
+- **Darphaneler arasında ecash takas edin**: Tüm darphaneler Lightning konuşur, bu da aralarında değer aktarabileceğiniz anlamına gelir.
+- **Nostr Wallet Connect (NWC)** ile Wallet'nizi uzaktan kontrol edin: Nostr Client gibi diğer uygulamalara bağlanın ve NWC aracılığıyla zaplamaya başlayın
 
 
 Kritik değiş tokuş "güven "dir: tokenların kendilerini kontrol ederken, altta yatan Bitcoin rezervlerini saklamak için darphanelere güvenmelisiniz. Cashu'nun belgelerinde belirtildiği gibi:

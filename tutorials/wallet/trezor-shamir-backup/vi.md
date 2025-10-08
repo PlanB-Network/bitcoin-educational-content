@@ -34,7 +34,7 @@ Người dùng đã tạo danh mục đầu tư với *Single-share Backup* có 
 
 
 
-Tính năng Sao lưu nhiều chia sẻ* khả dụng trên Trezor Model T, Safe 3 và Safe 5. Tính năng này không được Trezor Model One hỗ trợ.
+Tính năng Sao lưu nhiều chia sẻ khả dụng trên Trezor Model T, Safe 3 và Safe 5. Tính năng này không được Trezor Model One hỗ trợ.
 
 
 

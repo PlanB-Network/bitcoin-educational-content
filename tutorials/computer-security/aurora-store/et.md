@@ -26,9 +26,9 @@ Aurora Store on üks populaarsemaid alternatiivseid rakenduste poode Google Play
 
 
 
-- Voolujooneline Interface**: Interface ei paista sulle kuidagi silma, seega on lihtne orienteeruda.
-- Juurdepääs miljonitele rakendustele**: Aurora Store toimib portaalina paljudele mobiilirakendustele. Kui otsitav rakendus on Google Play Store'is, leiate selle ka Aurora Store'ist.
-- Google Play teenust ei ole vaja**: Tänu MicroG-tehnoloogiale saavad Android-rakendused teie telefonis töötada ilma Google Play teenuseta.
+- **Voolujooneline Interface**: Interface ei paista sulle kuidagi silma, seega on lihtne orienteeruda.
+- **Juurdepääs miljonitele rakendustele**: Aurora Store toimib portaalina paljudele mobiilirakendustele. Kui otsitav rakendus on Google Play Store'is, leiate selle ka Aurora Store'ist.
+- **Google Play teenust ei ole vaja**: Tänu MicroG-tehnoloogiale saavad Android-rakendused teie telefonis töötada ilma Google Play teenuseta.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store ei peegelda mitte ainult Google Play Store'i, vaid sisaldab ka funk
 
 
 
-- Sõltumatus Google'ist:**
+- **Sõltumatus Google'ist:**
 
 
 
@@ -112,7 +112,7 @@ Kui otsustate oma andmete kaitsmiseks Google Play teenused keelata või kasutate
 
 
 
-- Kontrolli allalaadimine:**
+- **Kontrolli allalaadimine:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Store võimaldab teil käsitsi alla laadida mobiilirakendusi, määrates 
 
 
 
-- Load:**
+- **Load:**
 
 
 Hankige paigaldatava rakenduse kirjelduses täielik loetelu volitustest, mida annate sellele rakendusele pärast paigaldamist.
@@ -139,7 +139,7 @@ Hankige paigaldatava rakenduse kirjelduses täielik loetelu volitustest, mida an
 
 
 
-- Andmekaitse analüüs:**
+- **Andmekaitse analüüs:**
 
 
 

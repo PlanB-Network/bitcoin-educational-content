@@ -163,7 +163,7 @@ Deux services de FSL sont présentés ici :
 
 
 - canaux juste à temps - lorsque vous n'avez pas de canal ouvert ou de liquidité entrante disponible, si le service est activé, il ouvrira un canal à la volée pour vous. Cette option peut être désactivée si vous ne souhaitez pas ouvrir d'autres canaux de ce type.
-- demande de canaux à l'avance_ - vous pouvez acheter des canaux entrants auprès du FSL Olympus directement dans l'application avec plusieurs options et montants (pour les canaux entrants et sortants).
+- demande de canaux à l'avance - vous pouvez acheter des canaux entrants auprès du FSL Olympus directement dans l'application avec plusieurs options et montants (pour les canaux entrants et sortants).
 
 
 Le LSP aide les utilisateurs à se connecter au réseau Lightning en ouvrant des canaux de paiement vers leurs nœuds. [Lisez-en plus sur les LSP ici](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS a intégré un nouveau LSP appelé [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), disponible pour tous les utilisateurs qui utilisent le nouveau nœud intégré.
@@ -333,8 +333,8 @@ Dans cette section, nous trouverons quelques outils de base pour gérer le nœud
 
 
 - reprise après sinistre - Sauvegardes automatisées et manuelles pour les canaux LN. Pour en savoir plus sur l'utilisation de cette fonction, consultez la page Zeus Docs.
-- express Graph Sync_ - L'application Zeus téléchargera le graphique des potins LN à partir d'un serveur dédié, pour une synchronisation plus rapide et de meilleure qualité, offrant les meilleurs chemins de paiement. Vous pouvez également choisir d'effacer les données du graphique précédent au démarrage.
-- peers_ - section pour gérer les peers neutrino et les peers 0-conf. Si vous avez des problèmes avec la synchronisation initiale, les canaux ne se mettent pas en ligne, c'est parce que votre appareil a une latence élevée avec le pair neutrino configuré. Essayez de changer la liste des pairs préférés ou ajoutez votre pair spécifique dont vous savez qu'il a une meilleure latence pour la synchronisation. Les serveurs neutrino les plus connus sont :
+- **express Graph Sync** - L'application Zeus téléchargera le graphique des potins LN à partir d'un serveur dédié, pour une synchronisation plus rapide et de meilleure qualité, offrant les meilleurs chemins de paiement. Vous pouvez également choisir d'effacer les données du graphique précédent au démarrage.
+- **peers** - section pour gérer les peers neutrino et les peers 0-conf. Si vous avez des problèmes avec la synchronisation initiale, les canaux ne se mettent pas en ligne, c'est parce que votre appareil a une latence élevée avec le pair neutrino configuré. Essayez de changer la liste des pairs préférés ou ajoutez votre pair spécifique dont vous savez qu'il a une meilleure latence pour la synchronisation. Les serveurs neutrino les plus connus sont :
 
 
 
@@ -358,7 +358,7 @@ Dans cette section, nous trouverons quelques outils de base pour gérer le nœud
 
  - mode de recherche de chemin - bimodal ou apriori, moyens de trouver un meilleur itinéraire pour vos paiements LN et de réinitialiser les informations de routage précédentes. Veuillez lire ces très bons guides sur la recherche d'itinéraires : [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - par Docs Lightning Engineering et [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - par Voltage
  - _Persistent LND_ - activez ce mode si vous voulez que le service LND fonctionne continuellement en arrière-plan et que votre nœud reste en ligne 24 heures sur 24 et 7 jours sur 7. Ceci est très utile si vous utilisez Zeus comme point de vente dans une petite boutique ou si vous recevez de nombreux tuyaux LN par l'intermédiaire du LN Address.
- - rescan wallet_ - cette option déclenchera au redémarrage un scan complet de tous les txs onchain de votre Wallet. Activez-la uniquement dans le cas où il vous manque des txs dans votre Wallet. La tâche de rescan prendra du temps, plusieurs minutes, donc soyez patient et vérifiez toujours les logs pour voir plus de détails sur la progression.
+- **rescan wallet** - cette option déclenchera au redémarrage un scan complet de tous les txs onchain de votre Wallet. Activez-la uniquement dans le cas où il vous manque des txs dans votre Wallet. La tâche de rescan prendra du temps, plusieurs minutes, donc soyez patient et vérifiez toujours les logs pour voir plus de détails sur la progression.
  - compacter la base de données - cette option est très utile si votre application Zeus occupe beaucoup d'espace sur votre appareil (voir les détails de l'application dans les paramètres de votre appareil). Si vous avez beaucoup d'activités avec Zeus, je vous recommande d'effectuer ce compactage plus souvent. Une fois que vous voyez que vous avez plus de 1 à 1,5 Go de données pour l'application Zeus, procédez au compactage. Cela va redémarrer et prendre un certain temps, alors soyez patient.
  - supprimer les fichiers Neutrino_ - cette option de suppression des fichiers Neutrino (avec un redémarrage) réduira considérablement l'utilisation du stockage de données. La réduction de l'utilisation des données a également un impact important sur l'utilisation de la batterie, surtout si vous utilisez Zeus en mode persistant.
 
@@ -427,8 +427,8 @@ Ici, nous avons plusieurs sous-sections avec plus d'outils :
 
 
 
-- comptes_ - ici, vous pouvez importer des comptes / portefeuilles externes, des portefeuilles Cold, des portefeuilles Hot, pour les contrôler ou les utiliser comme source de financement externe pour vos canaux de nœuds Zeus. Cette fonctionnalité est encore expérimentale.
-- accélérer la transaction_ - Cette fonction peut être utile lorsque vous avez un tx bloqué dans Mempool et que vous souhaitez augmenter les frais. Vous devrez fournir la sortie du tx à partir des détails du tx et sélectionner le nouveau tarif que vous souhaitez utiliser. Il doit être plus élevé que le précédent et nécessite que vous ayez plus de fonds disponibles dans votre onchain Wallet.
+- **comptes** - ici, vous pouvez importer des comptes / portefeuilles externes, des portefeuilles Cold, des portefeuilles Hot, pour les contrôler ou les utiliser comme source de financement externe pour vos canaux de nœuds Zeus. Cette fonctionnalité est encore expérimentale.
+- **accélérer la transaction** - Cette fonction peut être utile lorsque vous avez un tx bloqué dans Mempool et que vous souhaitez augmenter les frais. Vous devrez fournir la sortie du tx à partir des détails du tx et sélectionner le nouveau tarif que vous souhaitez utiliser. Il doit être plus élevé que le précédent et nécessite que vous ayez plus de fonds disponibles dans votre onchain Wallet.
 
 
 ![Image](assets/en/05.webp)
@@ -441,7 +441,7 @@ Il est toujours préférable de garder un UTXO avec un maximum de 100k Sats dans
 
 
 
-- signer ou vérifier_ - Avec cette fonction, vous pouvez signer un message spécifique avec vos clés Wallet. Elle peut également être utilisée pour vérifier un message afin de prouver qu'il provient d'une clé Wallet spécifique.
+- **signer ou vérifier** - Avec cette fonction, vous pouvez signer un message spécifique avec vos clés Wallet. Elle peut également être utilisée pour vérifier un message afin de prouver qu'il provient d'une clé Wallet spécifique.
 - convertisseur de devises - un outil simple pour calculer le taux de conversion entre BTC et d'autres devises fiduciaires.
 
 

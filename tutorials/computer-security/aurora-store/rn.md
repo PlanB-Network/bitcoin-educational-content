@@ -26,9 +26,9 @@ Aurora Store ni imwe mu maduka azwi cane y’ibindi bikoresho bishobora gukoresh
 
 
 
-- Interface** itunganye: Interface ntigutera phase n’agatotsi, rero biroroshe kuronka ama bearings yawe.
-- Ushobora gushika ku maporogarama amamiliyoni**: Aurora Store ikora nk’urugi rwo gushika ku maporogarama menshi yo kuri telefone ngendanwa. Nimba iyo porogaramu uriko urarondera iri ku iduka rya Google Play, uzoyisanga ku iduka rya Aurora.
-- Nta serivisi ya Google Play ikenewe**: Kubera ubuhinga bwa MicroG, porogarama za Android zirashobora gukoreshwa kuri telefone yawe ata serivisi ya Google Play.
+- **Interface** itunganye: Interface ntigutera phase n'agatotsi, rero biroroshe kuronka ama bearings yawe.
+- **Ushobora gushika ku maporogarama amamiliyoni**: Aurora Store ikora nk'urugi rwo gushika ku maporogarama menshi yo kuri telefone ngendanwa. Nimba iyo porogaramu uriko urarondera iri ku iduka rya Google Play, uzoyisanga ku iduka rya Aurora.
+- **Nta serivisi ya Google Play ikenewe**: Kubera ubuhinga bwa MicroG, porogarama za Android zirashobora gukoreshwa kuri telefone yawe ata serivisi ya Google Play.
 
 
 
@@ -98,7 +98,7 @@ Aurora Store ntiyishushanya gusa Google Play Store, irafise n’ibintu biguha am
 
 
 
-- Ukwikukira kuri Google:**
+- Ukwikukira kuri **Google:**
 
 
 
@@ -112,7 +112,7 @@ Mu gihe ufata ingingo yo guhagarika ibikorwa vya Google Play kugira ngo ukinge a
 
 
 
-- Gukuraho ubugenzuzi:**
+- Gukuraho ubugenzuzi:
 
 
 
@@ -126,7 +126,7 @@ Aurora Store iragufasha gukuraho porogarama zo kuri telefone ngendanwa n’amabo
 
 
 
-- Uruhusha:**
+- **Uruhusha:**
 
 
 Mu ndondoro y’iporogarama wipfuza gushiramwo, rondera urutonde rw’uburenganzira uzoha iyo porogarama umaze kuyishiramwo.
@@ -139,7 +139,7 @@ Mu ndondoro y’iporogarama wipfuza gushiramwo, rondera urutonde rw’uburenganz
 
 
 
-- Isesengura ryo gukingira amakuru:**
+- Isesengura ryo gukingira amakuru:
 
 
 

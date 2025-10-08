@@ -34,7 +34,7 @@ $$s_B = s_B' + t$$
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$
 
 
-*그런 다음 Alice은 약속한 BTC Bob를 청구하기 위해 서명된 트랜잭션 $m_B$를 Bitcoin Blockchain에 브로드캐스트합니다. 이 트랜잭션이 게시되면 Bob는 Blockchain에서 이를 관찰할 수 있습니다. 따라서 그는 $s_B = s_B' + t$ 서명을 추출할 수 있습니다. 이 정보로부터 Bob는 그가 필요로 하는 유명한 비밀 $t$를 분리할 수 있습니다
+*그런 다음 Alice은 약속한 BTC Bob를 청구하기 위해 서명된 트랜잭션 $m_B$를 Bitcoin Blockchain에 브로드캐스트합니다. 이 트랜잭션이 게시되면 Bob는 Blockchain에서 이를 관찰할 수 있습니다. 따라서 그는 $s_B = s_B' + t$ 서명을 추출할 수 있습니다. 이 정보로부터 Bob는 그가 필요로 하는 유명한 비밀 $t$를 분리할 수 있습니다.*
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
 

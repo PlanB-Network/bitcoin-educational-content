@@ -14,7 +14,7 @@ No entanto, a escolha da aplicação de autenticação correta não é trivial. 
 
 
 
-*o *Ente Auth** destaca-se como uma alternativa moderna e segura. Esta aplicação gratuita, de código aberto e multiplataforma, desenvolvida pela equipa responsável pelo [Ente Photos] (https://ente.io), oferece cópias de segurança encriptadas de ponta a ponta na nuvem e uma sincronização perfeita entre todos os seus dispositivos. Ao contrário das soluções proprietárias, o Ente Auth dá-lhe controlo total sobre os seus códigos de autenticação sem comprometer a sua privacidade.
+**O Ente Auth** destaca-se como uma alternativa moderna e segura. Esta aplicação gratuita, de código aberto e multiplataforma, desenvolvida pela equipa responsável pelo [Ente Photos] (https://ente.io), oferece cópias de segurança encriptadas de ponta a ponta na nuvem e uma sincronização perfeita entre todos os seus dispositivos. Ao contrário das soluções proprietárias, o Ente Auth dá-lhe controlo total sobre os seus códigos de autenticação sem comprometer a sua privacidade.
 
 
 

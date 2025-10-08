@@ -277,10 +277,10 @@ Mỗi lần hoán đổi đều có mã định danh duy nhất với tính năn
 
 
 
-- Đơn giản**: Chuyển đổi chỉ bằng vài cú nhấp chuột so với thao tác kênh thủ công
-- Không lưu ký**: không KYC, không tài khoản, tiền không bao giờ được ủy thác cho bên thứ ba
-- Minh bạch**: phí được hiển thị rõ ràng trước khi xác thực (0,1% đến 0,5% + mức tối thiểu tùy thuộc vào thử nghiệm của người dùng - kiểm tra phí hiện tại tại mỗi lần hoán đổi)
-- Tích hợp di động**: trải nghiệm gốc trong Zeus Wallet
+- **Đơn giản**: Chuyển đổi chỉ bằng vài cú nhấp chuột so với thao tác kênh thủ công
+- **Không lưu ký**: không KYC, không tài khoản, tiền không bao giờ được ủy thác cho bên thứ ba
+- **Minh bạch**: phí được hiển thị rõ ràng trước khi xác thực (0,1% đến 0,5% + mức tối thiểu tùy thuộc vào thử nghiệm của người dùng - kiểm tra phí hiện tại tại mỗi lần hoán đổi)
+- **Tích hợp di động**: trải nghiệm gốc trong Zeus Wallet
 
 
 
@@ -290,10 +290,10 @@ Mỗi lần hoán đổi đều có mã định danh duy nhất với tính năn
 
 
 
-- Thời gian hết hạn**: tối đa 24-48 giờ, lỗi nếu Bitcoin không được xác nhận kịp thời
-- Giới hạn số tiền**: tối thiểu 25.000 Sats, thanh khoản Zeus LSP có thể thay đổi tùy theo điều kiện
-- Dấu vết On-Chain**: Các tập lệnh HTLC có khả năng được xác định bằng phân tích Blockchain
-- Cần xác nhận**: tối thiểu 10 phút để xác thực Bitcoin
+- **Thời gian hết hạn**: tối đa 24-48 giờ, lỗi nếu Bitcoin không được xác nhận kịp thời
+- **Giới hạn số tiền**: tối thiểu 25.000 Sats, thanh khoản Zeus LSP có thể thay đổi tùy theo điều kiện
+- **Dấu vết On-Chain**: Các tập lệnh HTLC có khả năng được xác định bằng phân tích Blockchain
+- **Cần xác nhận**: tối thiểu 10 phút để xác thực Bitcoin
 
 
 
@@ -320,7 +320,7 @@ Mỗi lần hoán đổi đều có mã định danh duy nhất với tính năn
 
 
 - Kiểm tra địa chỉ Bitcoin cẩn thận (khuyến nghị sao chép-dán)
-- Sao lưu Khóa cứu hộ Zeus Swaps**: tải xuống và lưu trữ khóa khôi phục ở nơi an toàn
+- **Sao lưu Khóa cứu hộ Zeus Swaps**: tải xuống và lưu trữ khóa khôi phục ở nơi an toàn
 - Tài liệu: Contract ID, hoàn tiền Address, ngày hết hạn
 - Sử dụng phí Mining phù hợp để xác nhận kịp thời
 
@@ -354,11 +354,11 @@ Zeus Swap sử dụng công nghệ nền tảng của Boltz nhưng có một s�
 
 
 
-- Interface hợp nhất**: tích hợp gốc trong kỹ thuật web Zeus Wallet so với Interface Boltz
-- API WebSocket**: cập nhật theo thời gian thực so với thăm dò thủ công
-- Quản lý tự động**: thanh toán tự động và quản lý Address
-- Hỗ trợ di động**: chỉ tối ưu hóa điện thoại thông minh so với máy tính để bàn
-- Tài liệu Swagger**: API REST hoàn chỉnh dành cho nhà phát triển
+- **Interface hợp nhất**: tích hợp gốc trong kỹ thuật web Zeus Wallet so với Interface Boltz
+- **API WebSocket**: cập nhật theo thời gian thực so với thăm dò thủ công
+- **Quản lý tự động**: thanh toán tự động và quản lý Address
+- **Hỗ trợ di động**: chỉ tối ưu hóa điện thoại thông minh so với máy tính để bàn
+- **Tài liệu Swagger**: API REST hoàn chỉnh dành cho nhà phát triển
 
 
 

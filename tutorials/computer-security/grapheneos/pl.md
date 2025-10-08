@@ -131,7 +131,7 @@ Ekran startowy GrapheneOS
 po pierwszym uruchomieniu i konfiguracji dobrą praktyką jest wyłączenie odblokowywania OEM w Ustawieniach > System > Opcje programisty
 
 
-możesz także wykonać dodatkowy, opcjonalny, ale zalecany krok weryfikacji instalacji za pośrednictwem aplikacji Auditor. Do wykonania tego kroku potrzebny będzie oddzielny telefon z systemem Android z zainstalowaną aplikacją. Instrukcje na ten temat można znaleźć [tutaj](https://attestation.app/tutorial)._
+możesz także wykonać dodatkowy, opcjonalny, ale zalecany krok weryfikacji instalacji za pośrednictwem aplikacji Auditor. Do wykonania tego kroku potrzebny będzie oddzielny telefon z systemem Android z zainstalowaną aplikacją. Instrukcje na ten temat można znaleźć [tutaj](https://attestation.app/tutorial).
 
 
 

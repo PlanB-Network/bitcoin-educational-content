@@ -65,7 +65,7 @@ Flash - это платформа, которая позволяет вам, к�
 
 
 
-- Alby Hub** для кошельков Alby Go, расширение Alby для вашего браузера.
+- **Alby Hub** для кошельков Alby Go, расширение Alby для вашего браузера.
 
 
 
@@ -73,9 +73,9 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** для подключения Bitcoin к сети CoinOS Wallet.
-- Flash Wallet** для подключения к Flash Wallet.
-- Ссылка на LN**
+- **Coinos** для подключения Bitcoin к сети CoinOS Wallet.
+- **Flash Wallet** для подключения к Flash Wallet.
+- Ссылка на LN
 
 
 

@@ -74,7 +74,7 @@ seedsigner_pubkey.gpg
 ## Eğitici video
 
 
-cole tarafından oluşturulan Southerbitcoiner'dan alınan rehber_
+cole tarafından oluşturulan Southerbitcoiner'dan alınan **rehber**
 
 
 ### SeedSigner'ı kapsayan bir video kılavuz koleksiyonu: açık kaynaklı, DIY Hardware Wallet/İmzalama cihazı

@@ -212,7 +212,7 @@ ots verify certificate.txt.ots
 
 1. GPG 서명은 **"Plan ₿ Network의 양호한 서명"**으로 보고됩니다
 
-2. 오픈타임스탬프 검증은 특정 Bitcoin 블록 Timestamp을 표시하고 **"성공!"을 보고합니다 Bitcoin 블록 [블록 높이]는 [Timestamp] 기준으로 데이터가 존재했음을 증명합니다."** **
+2. 오픈타임스탬프 검증은 특정 Bitcoin 블록 Timestamp을 표시하고 **"성공!"을 보고합니다 Bitcoin 블록 [블록 높이]는 [Timestamp] 기준으로 데이터가 존재했음을 증명합니다."**
 
 
 이제 Plan ₿ Network이 모든 ₿-CERT 인증서 및 디플로마에 대해 검증 가능한 증명을 발급하는 방법을 알았으니, 그 무결성을 쉽게 확인할 수 있습니다.

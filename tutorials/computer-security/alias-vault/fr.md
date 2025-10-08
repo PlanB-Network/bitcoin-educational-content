@@ -36,10 +36,10 @@ Dans une Interface Alias Vault est :
 
 
 
-- Libre et gratuit**
-- Password Manager**, pour stocker tous les mots de passe complexes. En utilisant l'extension du navigateur, le gestionnaire de mots de passe complète les connexions aux sites web
-- 2FA**, pour prendre en charge l'authentification à deux facteurs
-- Gestionnaire d'alias avec serveur de messagerie intégré** : Alias Vault ne crée pas d'alias qui transfèrent les courriels vers la boîte aux lettres d'un utilisateur ; il crée plutôt de véritables alter-egos, avec prénom, nom, sexe, nom d'utilisateur, mot de passe et date d'anniversaire (si ces informations sont requises).
+- **Libre et gratuit**
+- **Password Manager**, pour stocker tous les mots de passe complexes. En utilisant l'extension du navigateur, le gestionnaire de mots de passe complète les connexions aux sites web
+- **2FA**, pour prendre en charge l'authentification à deux facteurs
+- **Gestionnaire d'alias avec serveur de messagerie intégré** : Alias Vault ne crée pas d'alias qui transfèrent les courriels vers la boîte aux lettres d'un utilisateur ; il crée plutôt de véritables alter-egos, avec prénom, nom, sexe, nom d'utilisateur, mot de passe et date d'anniversaire (si ces informations sont requises).
 
 
 

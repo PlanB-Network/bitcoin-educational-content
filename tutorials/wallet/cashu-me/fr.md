@@ -43,16 +43,16 @@ Nous allons nous plonger dans les fonctionnalités et explorer ce que Cashu.me a
 
 
 
-- La monnaie électronique chaumienne sur Lightning** : Utilise des signatures aveugles afin que les monnaies ne puissent pas suivre les soldes des utilisateurs ou l'historique des transactions
-- Autocontrôle des jetons** : Vous contrôlez les jetons ecash localement avec votre phrase seed
-- Sauvegarde de la phrase seed** : phrase de récupération de 12 mots pour la restauration Wallet
-- Indépendance de la monnaie** : Fonctionne avec plusieurs monnaies indépendantes - vous n'êtes pas lié à un seul fournisseur
-- Des transactions instantanées et gratuites** : Les paiements sont finalisés en quelques secondes, sans frais, au sein de la même Monnaie
-- Architecture préservant la vie privée** : Les monnaies ne peuvent pas voir qui effectue des transactions avec qui
-- Ecash hors ligne** : Envoyer/recevoir des jetons par le biais d'un protocole de transmission local, tel que NFC, QR code, Bluetooth, etc. sans connexion Internet
-- Découvrez les monnaies ecash via Nostr** : Trouver et vérifier des monnaies de confiance grâce au protocole Nostr
-- Échanger des ecashs entre les monnaies** : Toutes les monnaies parlent le langage Lightning, ce qui signifie que vous pouvez transférer de la valeur entre elles.
-- Contrôlez votre Wallet à distance avec Nostr Wallet Connect (NWC)** : Se connecter à d'autres applications comme Nostr Client et commencer à zapper via NWC
+- La monnaie électronique chaumienne sur Lightning : Utilise des signatures aveugles afin que les monnaies ne puissent pas suivre les soldes des utilisateurs ou l'historique des transactions
+- **Autocontrôle des jetons** : Vous contrôlez les jetons ecash localement avec votre phrase seed
+- Sauvegarde de la **phrase seed** : phrase de récupération de 12 mots pour la restauration Wallet
+- **Indépendance de la monnaie** : Fonctionne avec plusieurs monnaies indépendantes - vous n'êtes pas lié à un seul fournisseur
+- **Des transactions instantanées et gratuites** : Les paiements sont finalisés en quelques secondes, sans frais, au sein de la même Monnaie
+- **Architecture préservant la vie privée** : Les monnaies ne peuvent pas voir qui effectue des transactions avec qui
+- **Ecash hors ligne** : Envoyer/recevoir des jetons par le biais d'un protocole de transmission local, tel que NFC, QR code, Bluetooth, etc. sans connexion Internet
+- Découvrez les monnaies ecash via Nostr : Trouver et vérifier des monnaies de confiance grâce au protocole Nostr
+- Échanger des ecashs entre les monnaies : Toutes les monnaies parlent le langage Lightning, ce qui signifie que vous pouvez transférer de la valeur entre elles.
+- **Contrôlez votre Wallet à distance avec Nostr Wallet Connect (NWC)** : Se connecter à d'autres applications comme Nostr Client et commencer à zapper via NWC
 
 
 Le compromis essentiel est la "confiance" : alors que vous contrôlez les jetons eux-mêmes, vous devez faire confiance aux monnayeurs pour conserver les réserves Bitcoin sous-jacentes. Comme l'indique la documentation de Cashu :

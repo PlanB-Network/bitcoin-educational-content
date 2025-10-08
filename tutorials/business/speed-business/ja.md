@@ -367,7 +367,7 @@ Speed Walletのように、**Swap**メニューで、Speed Businessは、Sats 20
 
 
 
-Developers**メニューで、Speed Wallet APIメソッドを使用するためのパブリックキーとプライベートキーを作成します。
+Developers**メニューで、**Speed Wallet APIメソッドを使用するためのパブリックキーとプライベートキーを作成します。
 
 
 

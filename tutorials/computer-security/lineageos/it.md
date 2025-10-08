@@ -149,8 +149,8 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-- Strumento Android Flash**: Utilizzare lo strumento ufficiale di Google [flash.android.com] (https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
-- Alternativa**: Immagini di fabbrica manualmente da [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Strumento Android Flash**: Utilizzare lo strumento ufficiale di Google [flash.android.com](https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
+- **Alternativa**: Immagini di fabbrica manualmente da [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -159,20 +159,20 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-- Avviare il dispositivo almeno una volta** con il sistema stock originale
-- Test di tutte le funzioni**: SMS, chiamate, Wi-Fi, dati mobili
-- Importante**: Verificare che sia possibile inviare/ricevere SMS ed effettuare/ricevere chiamate (anche via WiFi e 4G/5G). Se non funziona con il sistema stock, non funzionerà nemmeno con LineageOS!
-- Dispositivi recenti**: Alcuni richiedono l'utilizzo di VoLTE/VoWiFi almeno una volta sul sistema stock per fornire IMS
+- Avviare il dispositivo almeno una volta con il sistema stock originale
+- **Test di tutte le funzioni**: SMS, chiamate, Wi-Fi, dati mobili
+- **Importante**: Verificare che sia possibile inviare/ricevere SMS ed effettuare/ricevere chiamate (anche via WiFi e 4G/5G). Se non funziona con il sistema stock, non funzionerà nemmeno con LineageOS!
+- **Dispositivi recenti**: Alcuni richiedono l'utilizzo di VoLTE/VoWiFi almeno una volta sul sistema stock per fornire IMS
 
 
 
-**Preparazione del sistema
+**Preparazione del sistema**
 
 
 
 
-- Rimuovere tutti gli account Google** dal dispositivo per evitare la protezione del ripristino di fabbrica, che potrebbe bloccare l'attivazione
-- Backup completo** : Il processo cancella completamente il telefono. Backup di foto, contatti, applicazioni e file importanti
+- Rimuovere tutti gli account Google dal dispositivo per evitare la protezione del ripristino di fabbrica, che potrebbe bloccare l'attivazione
+- **Backup completo**: Il processo cancella completamente il telefono. Backup di foto, contatti, applicazioni e file importanti
 
 
 
@@ -180,7 +180,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-**Configurazione del telefono
+**Configurazione del telefono**
 
 
 
@@ -216,7 +216,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-⚠️ **Queste istruzioni sono specifiche per LineageOS 22.2. Seguire con precisione ogni passo. Non andare avanti se qualcosa non funziona!
+⚠️ **Queste istruzioni sono specifiche per LineageOS 22.2. Seguire con precisione ogni passo. Non andare avanti se qualcosa non funziona!**
 
 
 
@@ -244,13 +244,13 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-**Download specifici di Pixel 4
+**Download specifici di Pixel 4**
 
 
 
 
-- Costruire LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- File richiesti**: Scaricate i 3 file necessari da questa pagina (verranno utilizzati nei passaggi successivi):
+- **Costruire LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **File richiesti**: Scaricate i 3 file necessari da questa pagina (verranno utilizzati nei passaggi successivi):
   - `lineage-22.2-YYYMMDD-nightly-flame-signed.zip` (ROM principale)
   - dtbo.img` (blob della struttura dei dispositivi di partizione)
   - `boot.img` (LineageOS di ripristino)
@@ -269,13 +269,13 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-⚠️ **Questo passaggio cancella tutti i dati!
+⚠️ **Questo passaggio cancella tutti i dati!**
 
 
 
 
 
-- Testare la connessione ADB**: Collegare il dispositivo via USB e testare con il comando `adb devices` dal terminale del computer
+- **Testare la connessione ADB**: Collegare il dispositivo via USB e testare con il comando `adb devices` dal terminale del computer
 
 
 
@@ -289,7 +289,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-- Autorizzare la connessione** sul telefono
+- **Autorizzare la connessione** sul telefono
 
 
 
@@ -303,7 +303,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-- Avvio in modalità bootloader** :
+- **Avvio in modalità bootloader**:
 
 
 ```
@@ -317,7 +317,7 @@ Oppure tenere premuto **Volume giù + Accensione** per spegnere il dispositivo
 
 
 
-- Controllare la connessione fastboot**:
+- Controllare la connessione **fastboot**:
 
 
 ```
@@ -344,7 +344,7 @@ fastboot devices
 
 
 
-- Sbloccare il bootloader** :
+- **Sbloccare il bootloader**:
 
 
 ```
@@ -370,7 +370,7 @@ Sul dispositivo, utilizzare i tasti del volume per navigare e premere il tasto *
 
 
 
-- Dopo il riavvio automatico**, riabilitare il debug USB nelle opzioni sviluppatore
+- Dopo il riavvio automatico, riabilitare il debug USB nelle opzioni sviluppatore
 
 
 
@@ -385,8 +385,8 @@ Sul dispositivo, utilizzare i tasti del volume per navigare e premere il tasto *
 
 
 
-- Riavviare il bootloader**: Volume giù + alimentazione
-- Flash** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file) :
+- **Riavviare il bootloader**: Volume giù + alimentazione
+- **Flash** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file) :
 
 
 ```
@@ -409,7 +409,7 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 
 
-- Flash recovery** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file) :
+- **Flash recovery** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file) :
 
 
 ```
@@ -419,7 +419,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Riavviare in recovery** per verificare
+- Riavviare in **recovery** per verificare
 
 
 
@@ -429,7 +429,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Riavviare in recovery**: Volume giù + accensione → modalità di recupero
+- **Riavviare in recovery**: Volume giù + accensione → modalità di recupero
 
 
 
@@ -443,7 +443,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Reset di fabbrica** : Digitare "Reset di fabbrica" → "Formattazione dati / reset di fabbrica"
+- **Reset di fabbrica**: Digitare "Reset di fabbrica" → "Formattazione dati / reset di fabbrica"
 
 
 
@@ -457,8 +457,8 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Ritorno al menu principale**
-- Caricamento automatico di LineageOS** :
+- **Ritorno al menu principale**
+- **Caricamento automatico di LineageOS**:
    - Sul dispositivo: "Applica aggiornamento" → "Applica da ADB"
    - Sul PC: `adb -d sideload /path/to/lineageos.zip`
 
@@ -484,7 +484,7 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-*Comando Sideload nel terminale con l'avanzamento dell'installazione
+**Comando Sideload nel terminale con l'avanzamento dell'installazione**
 
 
 
@@ -498,12 +498,12 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-- Riavvio**: "Riavvia subito il sistema"
-- Primo avvio**: Può richiedere fino a 15 minuti
+- **Riavvio**: "Riavvia subito il sistema"
+- **Primo avvio**: Può richiedere fino a 15 minuti
 
 
 
-🎉 **Installazione completata!
+🎉 **Installazione completata!**
 
 
 
@@ -515,14 +515,14 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-**Controlli critici
+**Controlli critici**
 
 
 
 
-- Compatibilità del firmware**: Assicurarsi di verificare la versione del firmware richiesta nella pagina di download del proprio modello
-- Mai ribloccare** il bootloader dopo l'installazione di LineageOS
-- Seguire le istruzioni specifiche** per il dispositivo in uso
+- **Compatibilità del firmware**: Assicurarsi di verificare la versione del firmware richiesta nella pagina di download del proprio modello
+- **Mai ribloccare** il bootloader dopo l'installazione di LineageOS
+- Seguire le istruzioni specifiche **per il dispositivo in uso**
 
 
 
@@ -553,17 +553,17 @@ Interface semplificato, vicino ad Android stock, senza Google. Configurazione se
 
 
 
-**Applicazioni alternative essenziali
+**Applicazioni alternative essenziali**
 
 
 
 
 
-- Navigazione**: Organic Maps (mappe offline basate su OpenStreetMap)
-- Comunicazione**: Signal (messaggi crittografati end-to-end), K-9 Mail (client di posta elettronica gratuito)
-- Media**: NewPipe (YouTube senza pubblicità e senza tracciamento), VLC (lettore multimediale universale)
-- Produttività**: Nextcloud (cloud self-hosting), Simple Calendar (sincronizzazione CalDAV)
-- Sicurezza**: Bitwarden (gestore di password), Aegis Authenticator (codici 2FA)
+- **Navigazione**: Organic Maps (mappe offline basate su OpenStreetMap)
+- **Comunicazione**: Signal (messaggi crittografati end-to-end), K-9 Mail (client di posta elettronica gratuito)
+- **Media**: NewPipe (YouTube senza pubblicità e senza tracciamento), VLC (lettore multimediale universale)
+- **Produttività**: Nextcloud (cloud self-hosting), Simple Calendar (sincronizzazione CalDAV)
+- **Sicurezza**: Bitwarden (gestore di password), Aegis Authenticator (codici 2FA)
 
 
 
@@ -614,7 +614,7 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 
 
-**Manutenzione preventiva
+**Manutenzione preventiva**
 
 
 

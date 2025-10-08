@@ -174,7 +174,7 @@ In dit gedeelte staat standaard het Olympus LSP (https://0conf.lnolymp.us), maar
 
 onthoud:_
 
-wanneer u een kanaal opent met Olympus LSP met behulp van de verpakte LN facturen, krijgt u ook een 100k inkomende liquiditeit! Dit is echt een goede optie voor het geval u direct meer Sats wilt ontvangen._
+wanneer u een kanaal opent met Olympus LSP met behulp van de verpakte LN facturen, krijgt u ook een 100k inkomende liquiditeit! Dit is echt een goede optie voor het geval u direct meer Sats wilt ontvangen.
 
 voorbeeld: je stort 400k Sats om een LSP-kanaal te openen, dan opent het LSP een kanaal met een capaciteit van 500k Sats naar je Zeus-knooppunt en duwt de 400k Sats die je stort naar jouw kant
 
@@ -333,7 +333,7 @@ In deze sectie vinden we enkele basistools om het geïntegreerde knooppunt te be
 
 
 - _Disaster Recovery_ - Geautomatiseerde en handmatige back-ups voor de LN kanalen. Lees meer over het gebruik van deze functie op de Zeus Docs pagina.
-- express Graph Sync_ - Zeus app downloadt de LN roddelgegevens grafiek van een speciale server, voor snellere en betere synchronisatie. Je kunt er ook voor kiezen om vorige grafiekgegevens te wissen bij het opstarten.
+- **Express Graph Sync** - Zeus app downloadt de LN rodelgegevens grafiek van een speciale server, voor snellere en betere synchronisatie. Je kunt er ook voor kiezen om vorige grafiekgegevens te wissen bij het opstarten.
 - _Peers_ - sectie om de neutrino peers en 0-conf peers te beheren. Als je problemen hebt met de initiële synchronisatie, kanalen die niet online komen, komt dat omdat je apparaat een hoge latentie heeft met de geconfigureerde neutrino peer. Probeer de lijst met voorkeurspeers te wijzigen of voeg een specifieke peer toe waarvan je weet dat deze een betere latentie heeft voor synchronisatie. Bekende neutrino servers zijn:
 
 
@@ -356,7 +356,7 @@ In deze sectie vinden we enkele basistools om het geïntegreerde knooppunt te be
 
 
 
- - padzoekmodus_ - bimodaal of apriori, manieren om een betere route te vinden voor uw LN betalingen en ook het resetten van de vorige route-informatie. Lees deze zeer goede gidsen over pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - door Docs Lightning Engineering en [LN Betaling Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - door Voltage
+- **padzoekmodus** - bimodaal of apriori, manieren om een betere route te vinden voor uw LN betalingen en ook het resetten van de vorige route-informatie. Lees deze zeer goede gidsen over pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - door Docs Lightning Engineering en [LN Betaling Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - door Voltage
  - _Persistent LND_ - activeer deze modus als je wilt dat de LND service continu op de achtergrond draait en je node 24/7 online blijft. Dit is erg handig als je Zeus gebruikt als PoS in een kleine winkel of als je veel LN tips ontvangt over de LN Address.
  - _Rescan wallet_ - deze optie zal bij het herstarten een volledige scan van alle onchain txen van je Wallet activeren. Activeer deze optie alleen als u enkele txs in uw Wallet mist. De rescan taak zal tijd in beslag nemen, enkele minuten, dus wees geduldig en controleer altijd de logs om meer details over de voortgang te zien.
  - _Compact Database_ - deze optie is erg handig als je Zeus app veel apparaatruimte inneemt (zie app details in je apparaatinstellingen). Als je veel activiteit hebt met Zeus, zou ik aanraden om deze compactie vaker uit te voeren. Zodra je ziet dat je meer dan 1-1,5GB gegevens hebt voor de Zeus app, voer dan de verdichting uit. Het zal opnieuw opstarten en enige tijd duren, dus wees geduldig.
@@ -428,7 +428,7 @@ Hier hebben we verschillende subsecties met meer hulpmiddelen:
 
 
 - _Accounts_ - hier kun je externe accounts / wallets importeren, Cold wallets, Hot wallets, om te controleren of te gebruiken als externe financieringsbron voor je Zeus node kanalen. Deze functie is nog experimenteel.
-- transactie versnellen_ - Deze functie kan handig zijn als je een vastgelopen tx in Mempool hebt en de vergoeding wilt verhogen. Je moet de tx output opgeven van tx details en de gewenste nieuwe fee selecteren die je wilt gebruiken. Moet hoger zijn dan de vorige en vereist dat je meer geld beschikbaar hebt in je Wallet.
+- **transactie versnellen** - Deze functie kan handig zijn als je een vastgelopen tx in Mempool hebt en de vergoeding wilt verhogen. Je moet de tx output opgeven van tx details en de gewenste nieuwe fee selecteren die je wilt gebruiken. Moet hoger zijn dan de vorige en vereist dat je meer geld beschikbaar hebt in je Wallet.
 
 
 ![Image](assets/en/05.webp)
@@ -442,7 +442,7 @@ Het is altijd beter om een UTXO met maximaal 100k Sats in je Zeus onchain Wallet
 
 
 - _Tekenen of Verifiëren_ - Met deze functie kunt u een specifiek bericht ondertekenen met uw Wallet sleutels. Het kan ook gebruikt worden om een bericht te verifiëren om te bewijzen dat het van een specifieke Wallet sleutel komt.
-- valuta omzetter_ - een eenvoudig hulpmiddel om de koers te berekenen tussen BTC en andere fiatvaluta's.
+- **valuta omzetter** - een eenvoudig hulpmiddel om de koers te berekenen tussen BTC en andere fiatvaluta's.
 
 
 **J - Merch en ondersteuning**

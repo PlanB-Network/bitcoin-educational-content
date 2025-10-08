@@ -61,9 +61,9 @@ Inkomezi za Nmap ni nyinshi:
 
 
 
-- Ikomeye kandi ishobora guhinduka**: Nmap ishobora gupima imihora minini kandi ikoresha ubuhinga bwo kumenya buteye imbere. Ishigikira UDP, TCP, ICMP, IPv4 na IPv6, kandi ishobora gukora ugutahura verisiyo, gupima ubugoyagoye canke gukorana n’amasezerano. Ubwubatsi bwayo ni ubw’ibice, cane cane kubera inyandiko za NSE (Nmap Scripting Engine), tuzozirabira mu nyuma muri iyi nyigisho.
-- Ukworohereza gukoresha**: inyandiko zizwi ni nyinshi kandi ziri ku rugero rwo hejuru. Hariho kandi ibikoresho vyinshi vyo mu kibano bishobora kugufasha gutangura.
-- Ugukundwa n'ubuzima buramba**: Nmap yabaye igikoresho co gukoresha mu gisata cayo kuva mu 1998. Verisiyo iriho ubu, mu gihe c'iyi nkuru nshasha, ni 7.95. Naho hariho ibindi bikoresho vy’ibikorwa vyihariye, Nmap iguma ari ikintu gikenewe mu gukora ikarita y’urubuga no gusesangura.
+- **Ikomeye kandi ishobora guhinduka**: Nmap ishobora gupima imihora minini kandi ikoresha ubuhinga bwo kumenya buteye imbere. Ishigikira UDP, TCP, ICMP, IPv4 na IPv6, kandi ishobora gukora ugutahura verisiyo, gupima ubugoyagoye canke gukorana n'amasezerano. Ubwubatsi bwayo ni ubw'ibice, cane cane kubera inyandiko za NSE (Nmap Scripting Engine), tuzozirabira mu nyuma muri iyi nyigisho.
+- **Ukworohereza gukoresha**: inyandiko zizwi ni nyinshi kandi ziri ku rugero rwo hejuru. Hariho kandi ibikoresho vyinshi vyo mu kibano bishobora kugufasha gutangura.
+- **Ugukundwa n'ubuzima buramba**: Nmap yabaye igikoresho co gukoresha mu gisata cayo kuva mu 1998. Verisiyo iriho ubu, mu gihe c'iyi nkuru nshasha, ni 7.95. Naho hariho ibindi bikoresho vy'ibikorwa vyihariye, Nmap iguma ari ikintu gikenewe mu gukora ikarita y'urubuga no gusesangura.
 
 
 
@@ -91,7 +91,7 @@ Araboneka kandi mu bindi bikorwa vy’amasanamu.
 
 
 
-Nk’umuyobozi wa sisitemu hanyuma nkaba umugenzuzi w’umutekano wo kuri internet n’umugenzuzi w’ivy’umutekano wo kuri internet, **ndakoresha Nmap hafi ku musi ku musi** kandi **ndayisaba** ubudasiba** abarongozi ba sisitemu bipfuza gukomeza ububasha bwabo ku mihora no kwongereza ubushobozi bwabo bwo gupima indwara.
+Nk'umuyobozi wa sisitemu hanyuma nkaba umugenzuzi w'umutekano wo kuri internet n'umugenzuzi w'ivy'umutekano wo kuri internet, **ndakoresha Nmap hafi ku musi ku musi** kandi **ndayisaba** **ubudasiba** **abarongozi ba sisitemu bipfuza gukomeza ububasha bwabo ku mihora no kwongereza ubushobozi bwabo bwo gupima indwara**.
 
 
 
@@ -195,7 +195,7 @@ Rero, gukoresha Nmap birarenga "ikigeragezo ca ping" kizwi cane mu gihe c'ibihe 
 
 
 
-Nk'Umuhinguzi w'Ikarita y'Urusobe_, ikarita y'urusobe ni yo ntumbero nyamukuru y'iki gikoresho. Ishobora gukoreshwa mu rubuga rw'aho hantu, canke mu rubuga rwinshi, subnets na VLANs, kugira ngo ushire urutonde rw'abashitsi bose n'ibikorwa vyose bishobora gushikwako. Nmap ituma iki gikorwa cihuta cane kandi kikaba ciza kurusha uburyo bwose bwo gukoresha amaboko.
+Nk'Umuhinguzi w'Ikarita y'Urusobe, ikarita y'urusobe ni yo ntumbero nyamukuru y'iki gikoresho. Ishobora gukoreshwa mu rubuga rw'aho hantu, canke mu rubuga rwinshi, subnets na VLANs, kugira ngo ushire urutonde rw'abashitsi bose n'ibikorwa vyose bishobora gushikwako. Nmap ituma iki gikorwa cihuta cane kandi kikaba ciza kurusha uburyo bwose bwo gukoresha amaboko.
 
 
 
@@ -366,7 +366,7 @@ Ehe igisubizo citezwe:
 
 
 
-igisubizo co kwerekana verisiyo ya Nmap iriho ubu._
+igisubizo co kwerekana verisiyo ya Nmap iriho ubu.
 
 
 
@@ -451,7 +451,7 @@ Ehe igisubizo citezwe:
 
 
 
-igisubizo co kwerekana verisiyo ya Nmap iriho ubu._
+igisubizo co kwerekana verisiyo ya Nmap iriho ubu.
 
 
 
@@ -475,7 +475,7 @@ Mu buryo bwayo bw'ishimikiro, ni ukuvuga ata kuja kure cane mu gukoresha amahita
 
 
 
-ubutumwa bw'ikosa munsi ya Linux igihe amahitamwo ya Nmap asaba uburenganzira bw'umuzi._
+ubutumwa bw'ikosa munsi ya Linux igihe amahitamwo ya Nmap asaba uburenganzira bw'umuzi.
 
 
 
@@ -485,25 +485,25 @@ Yaba kuri Linux canke kuri Windows, hariho ibintu vyinshi aho Nmap izogusaba ubu
 
 
 
-- Kubaka amapakete y'urubuga "raw"**: Nmap ishobora gukoresha uburyo bwinshi bwo gupima, harimwo no gukoresha amapakete n'ubwubatsi buteye imbere. Ivyo ni ko bigenda, nk’akarorero, iyo dushaka gukora TCP SYN scans, zidatera iteka *Three-way handshake* ya kera y’uguhanahana TCP. Kugira ngo ivyo bishoboke, Nmap ikeneye gukoresha ibindi bikorwa bitari ivyo bikomoka ku mirongo y'ibikorwa, bizi gusa kwubahiriza imigenzo myiza mu guhanahana amakuru ku rubuga (ihamagara amasomero ya "Npcap" na "libcap" twabonye haruguru). Ni kubera ko Nmap idakora ibintu mu buryo "busanzwe" ko ishobora gukura amakuru amwamwe yerekeye OSes, services n'ubugoyagoye bumwe bumwe.
+- Kubaka amapakete y'urubuga "raw": Nmap ishobora gukoresha uburyo bwinshi bwo gupima, harimwo no gukoresha amapakete n'ubwubatsi buteye imbere. Ivyo ni ko bigenda, nk'akarorero, iyo dushaka gukora TCP SYN scans, zidatera iteka *Three-way handshake* ya kera y'uguhanahana TCP. Kugira ngo ivyo bishoboke, Nmap ikeneye gukoresha ibindi bikorwa bitari ivyo bikomoka ku mirongo y'ibikorwa, bizi gusa kwubahiriza imigenzo myiza mu guhanahana amakuru ku rubuga (ihamagara amasomero ya "Npcap" na "libcap" twabonye haruguru). Ni kubera ko Nmap idakora ibintu mu buryo "busanzwe" ko ishobora gukura amakuru amwamwe yerekeye OSes, services n'ubugoyagoye bumwe bumwe.
 
 
 
 
 
-- Umviriza uruja n’uruza rw’urubuga**: bimwe mu mahitamwo ya Nmap asaba ko yumviriza urubuga kugira ngo ibone amakuru amwamwe. Ico gikorwa kibonwa ko ari ikintu gihambaye kuri sisitemu zikoreshwa, kuko kigufasha no kwumviriza amakuru y’ibindi bikoresho biri kuri iyo sisitemu. Nka kumwe kwa Wireshark, Nmap irakeneye uburenganzira bwihariye kugira ngo ikore ivyo, ivyo bikaba vyoroshe kuronka mu kuba mu gihe c’uburenganzira.
+- **Umviriza uruja n'uruza rw'urubuga**: bimwe mu mahitamwo ya Nmap asaba ko yumviriza urubuga kugira ngo ibone amakuru amwamwe. Ico gikorwa kibonwa ko ari ikintu gihambaye kuri sisitemu zikoreshwa, kuko kigufasha no kwumviriza amakuru y'ibindi bikoresho biri kuri iyo sisitemu. Nka kumwe kwa Wireshark, Nmap irakeneye uburenganzira bwihariye kugira ngo ikore ivyo, ivyo bikaba vyoroshe kuronka mu kuba mu gihe c'uburenganzira.
 
 
 
 
 
-- Gutega yompi ku bikoresho vy’agaciro**: ku bikoresho vy’ubuhinga, ibikoresho kuva kuri 0 gushika kuri 1024 (TCP hamwe na UDP) bivugwa ko ari ivy’agaciro, ni ukuvuga ko mu buryo bumwe canke bundi bigenewe gukoreshwa mu buryo bwihariye cane kandi rero bikaba birindwa. Naho iyo ari imvo imwe imwe idakoreshwa muri iki gihe, biracari ngombwa ko umuntu agira uburenganzira bumwe bumwe bwo kwumviriza kuri ivyo bivuko, ivyo Nmap ishobora gukora bivanye n’ingene izokoreshwa.
+- **Gutega yompi ku bikoresho vy'agaciro**: ku bikoresho vy'ubuhinga, ibikoresho kuva kuri 0 gushika kuri 1024 (TCP hamwe na UDP) bivugwa ko ari ivy'agaciro, ni ukuvuga ko mu buryo bumwe canke bundi bigenewe gukoreshwa mu buryo bwihariye cane kandi rero bikaba birindwa. Naho iyo ari imvo imwe imwe idakoreshwa muri iki gihe, biracari ngombwa ko umuntu agira uburenganzira bumwe bumwe bwo kwumviriza kuri ivyo bivuko, ivyo Nmap ishobora gukora bivanye n'ingene izokoreshwa.
 
 
 
 
 
-- Kurungika amapakete ya UDP:** Na vyo nyene, kwumviriza porogarama y’urubuga ku bibanza vya UDP (protocole itagira igihugu) bisaba uburenganzira bw’agaciro ku mirongo y’ibikorwa. Igihe rero c’agaciro kizokenerwa nimba wipfuza gukora igipimo ca UDP, ico Nmap izobwirizwa kwumviriza inyishu kugira ngo isesengure inyishu z’ibipimo vyayo.
+- Kurungika amapakete ya UDP: Na vyo nyene, kwumviriza porogarama y'urubuga ku bibanza vya UDP (protocole itagira igihugu) bisaba uburenganzira bw'agaciro ku mirongo y'ibikorwa. Igihe rero c'agaciro kizokenerwa nimba wipfuza gukora igipimo ca UDP, ico Nmap izobwirizwa kwumviriza inyishu kugira ngo isesengure inyishu z'ibipimo vyayo.
 
 
 
@@ -611,7 +611,7 @@ Ehe rero igisubizo gishoboka. Turabona Nmap ya kera igaruka ifise amakuru menshi
 
 
 
-ibisubizo vy'isuzuma ryoroshe rya TCP ryakozwe na Nmap._
+ibisubizo vy'isuzuma ryoroshe rya TCP ryakozwe na Nmap.
 
 
 
@@ -723,7 +723,7 @@ Niwaraba dosiye "/etc/services" kuri sisitemu ya Linux, uzosanga "icuma/umurongo
 
 
 
-gukuraho ibirimwo muri dosiye "/n'ibindi/ibikorwa" biri munsi ya Linux._
+gukuraho ibirimwo muri dosiye "/n'ibindi/ibikorwa" biri munsi ya Linux.
 
 
 
@@ -857,7 +857,7 @@ Aha, igisubizo kironswa gifise uburyo bumwe n'ubwo bwo gupima TCP, ariko ibikorw
 
 
 
-igisubizo c'isuzuma ryoroshe rya UDP ryakozwe na Nmap._
+igisubizo c'isuzuma ryoroshe rya UDP ryakozwe na Nmap.
 
 
 
@@ -869,7 +869,7 @@ Mu nzira, uzobona ko Nmap isaba uburenganzira bwa "root" ku bipimo vya UDP, nk'u
 
 
 
-iciyumviro: Kuva mu verisiyo za nyuma za Nmap, vyama ari vyiza gukoresha UDP scans n'uburenganzira bw'umuyobozi kugira ngo ubone ibisubizo vyizewe, kuko bimwe bimwe bisaba gushika ku nzira y'urubuga._
+iciyumviro: Kuva mu verisiyo za nyuma za Nmap, vyama ari vyiza gukoresha UDP scans n'uburenganzira bw'umuyobozi kugira ngo ubone ibisubizo vyizewe, kuko bimwe bimwe bisaba gushika ku nzira y'urubuga.
 
 
 
@@ -909,7 +909,7 @@ Turashobora kubona ku gicapo kiri hejuru ko Nmap izorungika amapakete menshi ya 
 
 
 
-gukura muri RFC 1122._
+gukura muri RFC 1122.
 
 
 
@@ -921,7 +921,7 @@ Reka twihweze neza iyi nkuru ya Wireshark, yerekana **ibintu bitatu bishoboka** 
 
 
 
-urubuga rwo gufata mu gihe c'ugupima UDP ku bibanza bitandukanye bikoresheje Nmap._
+urubuga rwo gufata mu gihe c'ugupima UDP ku bibanza bitandukanye bikoresheje **Nmap**.
 
 
 
@@ -956,7 +956,7 @@ Ehe igisubizo kigaragazwa na Nmap ikurikije ibi bihe bitatu:
 
 
 
-ibisubizo bishoboka vy'isuzuma rya UDP ryakozwe biciye kuri Nmap._
+ibisubizo bishoboka vy'isuzuma rya UDP ryakozwe biciye kuri Nmap.
 
 
 
@@ -988,7 +988,7 @@ Ivyo bibanza 1000 bicapuwe mu buryo busanzwe bitorwa hakurikijwe incuro bishika.
 
 
 
-vyakuwe muri dosiye "/usr/imigabane/nmap/nmap-ibikorwa"._
+vyakuwe muri dosiye "/usr/imigabane/nmap/nmap-ibikorwa".
 
 
 
@@ -1186,7 +1186,7 @@ Mu nyuma mu nyigisho, tuzobona ingene twotuma umuvuduko w’ibipimo vya Nmap big
 
 
 
-Muri iki gice, twamaze kuronka imyimenyerezo y'amaboko, rero ubu turazi **ingene dukoresha Nmap mu buryo bw'ishimikiro kugira ngo dusuzume ivyuho vya TCP na UDP vy'umushitsi**. Twaravye kandi mu buryo burambuye ibiriko biraba ku rugero rw'urubuga n'ingene Nmap imenya nimba icuma ca TCP canke UDP gikora canke kitakora**. Ubwa nyuma, turazi ingene twohitamwo neza ivyuho dushaka gucapura n'ivyo **ivyo amahitamwo ya Nmap akora mu vy'ukuri**. Mu bikurikira, tuzosubira gukoresha ubwo bumenyi maze tubukoreshe mu gupima urubuga rwose, harimwo no gukora ikarita y’isi yose no kuvumbura urubuga.
+Muri iki gice, twamaze kuronka imyimenyerezo y'amaboko, rero ubu turazi **ingene dukoresha Nmap mu buryo bw'ishimikiro kugira ngo dusuzume ivyuho vya TCP na UDP vy'umushitsi**. Twaravye kandi mu buryo burambuye ibiriko biraba ku rugero rw'urubuga n'ingene Nmap imenya nimba icuma ca TCP canke UDP gikora canke kitakora. Ubwa nyuma, turazi ingene twohitamwo neza ivyuho dushaka gucapura n'ivyo **amahitamwo ya Nmap akora mu vy'ukuri**. Mu bikurikira, tuzosubira gukoresha ubwo bumenyi maze tubukoreshe mu gupima urubuga rwose, harimwo no gukora ikarita y'isi yose no kuvumbura urubuga.
 
 
 
@@ -1749,7 +1749,7 @@ Kugira ngo ushobore gutahura uko ama Probes ashobora gusa, ng’uru urutonde rw�
 
 
 
-akarorero k'Ibipimo vyinshi bikoreshwa na Nmap kandi biri muri dosiye `/usr/share/nmap/nmap-service-ibipimo`._
+akarorero k'Ibipimo vyinshi bikoreshwa na Nmap kandi biri muri dosiye `/usr/share/nmap/nmap-service-ibipimo`.
 
 
 
@@ -1858,7 +1858,7 @@ Ubu tugiye gusubira ku mabwirizwa ari muri dosiye `/usr/share/nmap/nmap-service-
 
 
 
-amabwirizwa y'amatohoza `ubuke' muri `/usr/gusangira/nmap/nmap-service-amatohoza`._ dosiye
+amabwirizwa y'amatohoza `ubuke` muri `/usr/gusangira/nmap/nmap-service-amatohoza` dosiye
 
 
 
@@ -1912,7 +1912,7 @@ Kugira ngo duheze kuri iyi nkuru, ng'aka karorero ka _Probe_ 9 na 8:
 
 
 
-ingero z'Itohoza ku gake 8 na 9 muri dosiye `/usr/gusangira/nmap/nmap-service-itohoza`._
+**ingero z'Itohoza ku gake 8 na 9 muri dosiye `/usr/gusangira/nmap/nmap-service-itohoza`.**
 
 
 
@@ -2109,7 +2109,7 @@ Ehe igisubizo c'isuzuma rya Nmap hakoreshejwe inyandiko za NSE:
 
 
 
-akarorero k'ibisubizo vy'ugupima ubugoyagoye ku mushitsi biciye kuri Nmap._
+akarorero k'ibisubizo vy'ugupima ubugoyagoye ku mushitsi biciye kuri **Nmap**.
 
 
 
@@ -2165,31 +2165,31 @@ Reka tuvyisobanure neza: Nmap ntishobora gukora ikigeragezo c’ukwinjira mu bur
 
 
 
-- Igikoresho gifise aho kigarukira**: naho inyandiko za NSE za Nmap zifise ububasha, igikoresho cazo co kugerageza gishobora kuba gito ugereranyije n’ibindi bikoresho vyihariye vyo kuvumbura ubugoyagoye. Hariho ingorane zishobora kutavugwa n’inyandiko za NSE zihari, nk’ingorane za Active Directory, gushikiriza amakuru y’agaciro canke ibintu biteye imbere cane vy’ibikorwa vy’urubuga bishobora guhungabana.
+- **Igikoresho gifise aho kigarukira**: naho inyandiko za NSE za Nmap zifise ububasha, igikoresho cazo co kugerageza gishobora kuba gito ugereranyije n'ibindi bikoresho vyihariye vyo kuvumbura ubugoyagoye. Hariho ingorane zishobora kutavugwa n'inyandiko za NSE zihari, nk'ingorane za Active Directory, gushikiriza amakuru y'agaciro canke ibintu biteye imbere cane vy'ibikorwa vy'urubuga bishobora guhungabana.
 
 
 
 
 
-- Ubugoyagoye bw’ubugoyagoye**: ubwoko bumwe bumwe bw’ubugoyagoye bushobora kugora kumenya hakoreshejwe inyandiko za NSE kubera ubugoyagoye bwabwo. Nk’akarorero, ubugoyagoye busaba gukorana n’igikorwa co kure bushobora kutamenyekana neza na Nmap (nk’uko bigenda ku ruhusha rwinshi mu gusangira dosiye canke akaga ko kugenzura uruhusha mu gukoresha urubuga).
+- **Ubugoyagoye bw'ubugoyagoye**: ubwoko bumwe bumwe bw'ubugoyagoye bushobora kugora kumenya hakoreshejwe inyandiko za NSE kubera ubugoyagoye bwabwo. Nk'akarorero, ubugoyagoye busaba gukorana n'igikorwa co kure bushobora kutamenyekana neza na Nmap (nk'uko bigenda ku ruhusha rwinshi mu gusangira dosiye canke akaga ko kugenzura uruhusha mu gukoresha urubuga).
 
 
 
 
 
-- Passive detection**: Nmap yibanda canecane ku bipimo bikora kugira ngo imenye aho ishobora guhungabana, ivyo bisigura ko ishobora kutamenya neza aho ishobora guhungabana ata gushinga ubucuti bukorana n’abayikira. Ivyiyumviro bitagaragara mu gihe c’ugupima bishobora rero gutakara (nk’uko bigenda iyo umuntu ateye kode mu gikorwa co ku rubuga).
+- **Passive detection**: Nmap yibanda canecane ku bipimo bikora kugira ngo imenye aho ishobora guhungabana, ivyo bisigura ko ishobora kutamenya neza aho ishobora guhungabana ata gushinga ubucuti bukorana n'abayikira. Ivyiyumviro bitagaragara mu gihe c'ugupima bishobora rero gutakara (nk'uko bigenda iyo umuntu ateye kode mu gikorwa co ku rubuga).
 
 
 
 
 
-- Ivyiyumviro bishasha**: [urutonde rw’amakuru] rwa Nmap rw’inyandiko za NSE ruguma rutera imbere, ariko hashobora kubaho ugucererwa hagati yo kuvumbura ubugoyagoye bushasha bujanye n’inyandiko ya Np. Ivyo bishobora gutuma Nmap idashobora kwama iri ku rugero rwo hejuru n’ibintu bishasha bishobora gutuma umuntu agira ingorane.
+- **Ivyiyumviro bishasha**: [urutonde rw'amakuru] rwa Nmap rw'inyandiko za NSE ruguma rutera imbere, ariko hashobora kubaho ugucererwa hagati yo kuvumbura ubugoyagoye bushasha bujanye n'inyandiko ya Np. Ivyo bishobora gutuma Nmap idashobora kwama iri ku rugero rwo hejuru n'ibintu bishasha bishobora gutuma umuntu agira ingorane.
 
 
 
 
 
-- Ivyiza vy’ibinyoma n’ibibi vy’ibinyoma**: nk’uko bigenda ku gikoresho cose c’umutekano, inyandiko za NSE za Nmap zirashobora gutanga ivyiza vy’ibinyoma (imburi z’ibinyoma z’ubugoyagoye) canke ivyiza vy’ibinyoma (ubugoyagoye nyabwo butabonetse). Ivyo ni ikintu co kwibuka igihe usesangura ibisubizo vya Nmap.
+- Ivyiza vy'ibinyoma n'ibibi vy'ibinyoma: nk'uko bigenda ku gikoresho cose c'umutekano, inyandiko za NSE za Nmap zirashobora gutanga ivyiza vy'ibinyoma (imburi z'ibinyoma z'ubugoyagoye) canke ivyiza vy'ibinyoma (ubugoyagoye nyabwo butabonetse). Ivyo ni ikintu co kwibuka igihe usesangura ibisubizo vya Nmap.
 
 
 
@@ -2264,7 +2264,7 @@ Mu buryo bw’ubuhinga, ivyiciro inyandiko irimwo vyerekanywe ata guca ku ruhand
 
 
 
-Ivyiciro vy'inyandiko za nSE `ftp-anon`._
+Ivyiciro vy'inyandiko za nSE `ftp-anon`.
 
 
 
@@ -2284,7 +2284,7 @@ Ku mburabuzi, inyandiko za NSE za Nmap ziri mu bubiko bwa `/usr/share/nmap/scrip
 
 
 
-gukuraho ibirimwo `/usr/share/nmap/inyandiko/` ububiko burimwo inyandiko za NSE._
+gukuraho ibirimwo `/usr/share/nmap/inyandiko/` ububiko burimwo inyandiko za NSE.
 
 
 
@@ -2296,7 +2296,7 @@ Ubu bubiko burimwo inyandiko zirenga 5.000 za NSE. Akenshi, igice ca mbere c'izi
 
 
 
-urutonde rw'inyandiko za NSE Nmap zifise amazina atangura na `ftp-`._
+urutonde rw'inyandiko za NSE Nmap zifise amazina atangura na `ftp-`.
 
 
 
@@ -2441,7 +2441,7 @@ Turaheza tukagira igisubizo nyaco cane:
 
 
 
-igisubizo co gukoresha inyandiko ya NSE `ftp-anon` ku cambu ca FTP biciye kuri Nmap._
+igisubizo co gukoresha inyandiko ya NSE `ftp-anon` ku cambu ca FTP biciye kuri Nmap.
 
 
 
@@ -2468,7 +2468,7 @@ Kugira ngo ubone insobanuro ngufi y'ico inyandiko ya NSE ikora, ushobora gukores
 
 
 
-gufasha kugaragaza igisubizo c'inyandiko ya NSE `sshv1`._
+gufasha kugaragaza igisubizo c'inyandiko ya NSE **sshv1**.
 
 
 
@@ -2500,7 +2500,7 @@ Iyi nyandiko ifise amahitamwo "ya mbere", twoshobora guhindura kugira ngo ihure 
 
 
 
-igisubizo co kwerekana imfashanyo y'inyandiko ya NSE `ssh-brute` n'ihuriro kuri nmap.org._
+igisubizo co kwerekana imfashanyo y'inyandiko ya NSE `ssh-brute` n'ihuriro kuri nmap.org.
 
 
 
@@ -2543,7 +2543,7 @@ Nk'uko ushobora kubibona muri iri tegeko rya nyuma, turashobora gusobanura imvo 
 
 
 
-igisubizo c'ugushirwa mu ngiro kwa SSH biciye kuri Nmap._
+igisubizo c'ugushirwa mu ngiro kwa SSH biciye kuri Nmap.
 
 
 
@@ -2637,7 +2637,7 @@ Iyi nzira yaremewe gutanga "ibonezo" y'igisohoka ca Nmap, itunganijwe mu buryo b
 
 
 
-nmap urubuga rwa scan n'isohoka mu buryo "bushobora gufatwa"._
+nmap urubuga rwa scan n'isohoka mu buryo "bushobora gufatwa".
 
 
 
@@ -2700,7 +2700,7 @@ Iyi nzira ishobora gukoreshwa mu bintu bitandukanye kandi ni ngirakamaro cane ca
 
 
 
-iciyumviro: uburyo bwa `-oG` bwaciwe kuva kuri Nmap 7.90. Irashobora gukoreshwa kugira ngo ihuze. Ishobora gukoreshwa ku ntumbero z'uguhuza, ariko ni vyiza ko ukoresha XML canke uburyo busanzwe ku bijanye n'iterambere ryose canke gusesangura kwikora._
+iciyumviro: uburyo bwa `-oG` bwaciwe kuva kuri Nmap 7.90. Irashobora gukoreshwa kugira ngo ihuze. Ishobora gukoreshwa ku ntumbero z'uguhuza, ariko ni vyiza ko ukoresha XML canke uburyo busanzwe ku bijanye n'iterambere ryose canke gusesangura kwikora.
 
 
 
@@ -2838,7 +2838,7 @@ Ivyo bizotuma igicapo cacu cose gitunganijwe neza, mbere n’amabara makeyi be n
 
 
 
-gukura muri raporo y'ibara rya Nmap mu buryo bwa HTML yakozwe na xsltproc._
+gukura muri raporo y'ibara rya Nmap mu buryo bwa HTML yakozwe na **xsltproc**.
 
 
 
@@ -2860,7 +2860,7 @@ XSLT (_Impinduka z'ururimi rw'imirongo y'imirongo_) ni igice ca XSL gishobora gu
 
 
 
-inkomoko: [ubufasha.adobe.com/](ubufasha.adobe.com/fr/umuhinguzi w'indoto/ukoresha/xml-xslt.html)_
+inkomoko: [ubufasha.adobe.com/](ubufasha.adobe.com/fr/umuhinguzi w'indoto/ukoresha/xml-xslt.html)
 
 
 
@@ -2884,7 +2884,7 @@ Ihitamwo rya mbere dukwiye kuvuga ni ihitamwo rya `-v`, ryongera amajambo ya Nma
 
 
 
-Igisohoka ca nmap gikoresheje amahitamwo ya `-v`._
+Igisohoka ca nmap gikoresheje amahitamwo ya `-v`.
 
 
 
@@ -2900,7 +2900,7 @@ Kugira ngo ukomeze gukurikirana igikorwa ca Nmap mu gihe co gupima, ushobora guk
 
 
 
-gukurikirana mu buryo burambuye ibikorwa vya Nmap biciye ku `--packet-trace`._
+gukurikirana mu buryo burambuye ibikorwa vya Nmap biciye ku `--packet-trace`.
 
 
 
@@ -3120,7 +3120,7 @@ Aho Aquatone mu bisanzwe ikora port discovery ku bashitsi kugira ironke ibikorwa
 
 
 
-gukoresha ibisubizo vya Nmap mu buryo bwa XML na `aquatone`._
+gukoresha ibisubizo vya Nmap mu buryo bwa XML na `aquatone`.
 
 
 
@@ -3197,7 +3197,7 @@ Uko biri kwose, ushobora kugenzura agaciro ka mbere k'ibipimo tugiye kuraba, ham
 
 
 
-reba amahitamwo y'igihe biciye ku mahitamwo ya Nmap `-d`._
+reba amahitamwo y'igihe biciye ku mahitamwo ya Nmap `-d`.
 
 
 
@@ -3465,7 +3465,7 @@ Niba wahisemwo gukoresha Nmap atari biciye mu gihe nk'umuzi`, ariko mu guha ubur
 
 
 
-gushirwa hejuru kw'uburenganzira bwa Nmap biciye kuri `sudo`._
+gushirwa hejuru kw'uburenganzira bwa Nmap biciye kuri `sudo`.
 
 
 
@@ -3509,7 +3509,7 @@ Nk'uko mushobora kuba mwabibonye, ​​Nmap itanga uburyo bwinshi bwo gupima TC
 
 
 
-ubuhinga bwo gupima buboneka muri Nmap._
+ubuhinga bwo gupima buboneka muri **Nmap**.
 
 
 
@@ -3598,7 +3598,7 @@ Nk'uko vyavuzwe, iyo ukoresheje Nmap uvuye ku nzira y'uburenganzira, TCP SYN Sca
 
 
 ```
-# Execution of a TCP Syn Scan_
+# Execution of a TCP Syn Scan
 nmap -sS 192.168.1.15
 ```
 
@@ -3787,7 +3787,7 @@ Aha ni akarorero k'igisubizo ca TCP FIN ca Nmap:
 
 
 
-ibisubizo vy'isuzuma rya TCP FIN ryakozwe na Nmap._
+ibisubizo vy'isuzuma rya TCP FIN ryakozwe na Nmap.
 
 
 
@@ -3892,7 +3892,7 @@ Ni vyiza kumenya ko TCP XMAS scan idashobora kumenya ibihome vy’umuriro bishob
 
 
 
-iciyumviro: ugushigikira XMAS/FIN/NULL scans ku verisiyo za Windows ziherutse gusohoka biracari bike, kandi ibisubizo bishobora kuba bidahuye kuri ubwo bwoko bw'intumbero. (Ivugurura 2025)_
+iciyumviro: ugushigikira XMAS/FIN/NULL scans ku verisiyo za Windows ziherutse gusohoka biracari bike, kandi ibisubizo bishobora kuba bidahuye kuri ubwo bwoko bw'intumbero. _(Ivugurura 2025)_
 
 
 
@@ -3983,7 +3983,7 @@ Tuzokoresha uburyo bwa Nmap `-sA` kugira ngo dukore ubwo bwoko bw'ugupima. Ehe i
 
 
 
-nmap yerekana mu gihe c'Isuzuma rya TCP ACK._
+nmap yerekana mu gihe c'Isuzuma rya TCP ACK.
 
 
 
@@ -4101,7 +4101,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-iciyumviro: Ihitamwo rya `-sP` ryamaze imyaka myinshi ritagikoreshwa kandi rikwiye gusubirizwa na `-sn`. (Ivugurura 2025)_
+iciyumviro: Ihitamwo rya `-sP` ryamaze imyaka myinshi ritagikoreshwa kandi rikwiye gusubirizwa na `-sn`. _(Ivugurura 2025)_
 
 
 

@@ -821,37 +821,37 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System.*。https:
 
 
 
-在软件方面，运行 Bitcoin 节点有两种主要方式：
+在软件方面，运行比特币节点有两种主要方式：
 
 
 
 
-- 直接安装协议实现，如 Bitcoin core（推荐）或 Bitcoin Knots、
-- 或者使用 "交钥匙 "发行版（通常被称为"_node-in-a-box_"），该发行版以同样的方式集成了 Bitcoin 实现，但也包括 Interface 管理系统、应用程序商店和随时可用的工具（闪电、浏览器、索引服务器，甚至 Bitcoin 外部的自托管应用程序......）。
+- 直接安装协议实现，如 Bitcoin Core（推荐）或 Bitcoin Knots、
+- 或者使用 "交钥匙" 发行版（通常被称为"_node-in-a-box_"），该发行版以同样的方式集成了比特币实现，但也包括页面管理系统、应用程序商店和随时可用的工具（闪电网络、浏览器、索引服务器，甚至比特币外部的自托管应用程序......）。
 
 
 
-这两种方法的目标相同：拥有自己的节点，但在 Interface 的安装和使用、维护、可扩展性和成本方面有所不同。这就是我们将在本章探讨的内容。
+这两种方法的目标相同：拥有自己的节点，但在页面的安装和使用、维护、可扩展性和成本方面有所不同。这就是我们将在本章探讨的内容。
 
 
 
-### 原始 Bitcoin 节点实施情况
+### 原始比特币节点实现
 
 
 
-安装原始实施方案意味着直接使用 Bitcoin 协议实施方案（如 Core）的软件，而无需任何附加软件 Layer。您可以根据自己的需要自行管理配置、更新和相关服务（索引、API、闪电、备份等）。
+安装原始实施方案意味着直接使用比特币协议实施方案（如 Core）的软件，而无需任何附加软件层面。您可以根据自己的需要自行管理配置、更新和相关服务（索引、API、闪电、备份等）。
 
 
 
-这是最主要也是最灵活的方法：你可以清楚地知道正在运行什么、数据在哪里以及一切是如何工作的。另一方面，一旦你想超越 Bitcoin 节点的简单操作，它就会变得更加复杂。如果您的目的仅仅是拥有一个节点，那么其复杂程度与盒装节点相当，甚至更低，因为只需安装软件即可。
+这是最主要也是最灵活的方法：您可以清楚地了解正在运行什么、数据在哪里以及一切是如何工作的。另一方面，一旦你想超越比特币节点的简单操作，它就会变得更加复杂。如果您的目的仅仅是拥有一个节点，那么其复杂程度与盒装节点相当，甚至更低，因为只需安装软件即可。
 
 
 
-#### Bitcoin core （极端多数客户）
+#### Bitcoin Core（极端多数客户）
 
 
 
-[Bitcoin core是网络的超多数客户端](https://bitcoincore.org/)。它能下载、验证和维护 Blockchain，提供 RPC/REST API，并能集成 Wallet。如果你更喜欢标准工具，并愿意自己添加服务（如 Electrum 服务器、资源管理器和 LND），最好还是使用 Core。
+[Bitcoin Core是网络的超多数客户端](https://bitcoincore.org/)。它能下载、验证和维护区块链，提供 RPC/REST API，并能集成到钱包中。如果您更喜欢标准工具，并愿意自己添加服务（如 Electrum 服务器、资源管理器和 LND），最好还是使用 Core。
 
 
 
@@ -859,7 +859,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System.*。https:
 
 
 
-**缺点：** 你必须手动构建堆栈的其他部分，以创建一个完整的应用环境，而不仅仅是一个 Bitcoin 节点。
+**缺点：** 您必须手动构建堆栈的其他部分，以创建一个完整的应用环境，而不仅仅是一个比特币节点。
 
 
 
@@ -871,17 +871,17 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-[Bitcoin Knots是Bitcoin core的Fork](https://bitcoinknots.org/)，由Luke Dashjr维护。它是执行Bitcoin协议的核心客户端的主要替代客户端。它与网络的其他部分完全兼容（与 Bitcoin Cash 类似，它绝不是 Hard Fork），但它提供了更多的功能，包括 Core 中没有的中继策略选项，或在默认情况下更严格地限制某些人认为的垃圾邮件。
+[Bitcoin Knots 是 Bitcoin Core 的分叉](https://bitcoinknots.org/)，由 Luke Dashjr 维护。它是执行比特币协议的 Core 客户端的主要替代客户端。它与网络的其他部分完全兼容（与 Bitcoin Cash 类似，它绝不是硬分叉），但它提供了更多的功能，包括 Core 中没有的中继策略选项，或在默认情况下更严格地限制某些人认为的垃圾交易。
 
 
 
-选择 "结 "而不是 "芯 "可能有两个原因：
+选择 Knots 而不是选 Core 可能有两个原因：
 
 
 
 
-- 技术**：与 Core 不同的选项，特别是在中继管理方面，通过决定节点接受和广播哪些交易。
-- 政策**：有些人出于非技术原因喜欢使用 Knots 等替代客户端，主要是为了支持 Core 的替代方案，从而减少 Core 的垄断。如果 Core 遭到破坏，那么不仅要有可靠、维护良好的替代客户端，还要知道如何有效利用它们。还有一些人使用 Knots 是出于抗议目的，因为他们对 Core 开发人员失去了信心，或者不赞成客户端的大多数管理人员。
+- **技术**：与 Core 不同的选项，特别是在中继管理方面，通过决定节点接受和广播哪些交易。
+- **政策**：有些人出于非技术原因喜欢使用 Knots 等替代客户端，主要是为了支持 Core 的替代方案，从而减少 Core 的垄断。如果 Core 遭到破坏，那么不仅要有可靠、维护良好的替代客户端，还要知道如何有效利用它们。还有一些人使用 Knots 是出于抗议目的，因为他们对 Core 开发人员失去了信心，或者不赞成客户端的大多数管理人员。
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -890,19 +890,19 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 
 
-### 箱中节点分布
+### Node-in-a-box （盒中节点）分布
 
 
 
-盒中节点 "将 Bitcoin core（或 Knots）与预配置操作系统、Interface Web 和自托管服务应用程序商店（Lightning、explorers、Electrum 服务器、Mempool、BTCPay 服务器、Nextcloud 等）结合在一起。只需点击一下，您就可以安装、更新和互联这些不同的模块。
+Node-in-a-box 将 Bitcoin Core（或 Knots）与预配置操作系统、页面网站和自托管服务应用程序商店（闪电网络、浏览器、Electrum 服务器、Mempool、BTCPay Server、Nextcloud 等）结合在一起。只需点击一下，您就可以安装、更新和互联这些不同的模块。
 
 
 
-对于日常启动和管理众多辅助应用程序来说，这是一个简单得多的解决方案。缺点是，当出现问题时（例如，Docker 映像冲突、错误更新、数据库损坏），调试可能会变得非常复杂，因为你需要依赖发行版自身的集成。此外，社区或官方支持通常也很复杂。
+对于日常启动和管理众多辅助应用程序来说，这是一个简单得多的解决方案。缺点是，当出现问题时（例如，Docker 映像冲突、错误更新、数据库损坏），调试可能会变得非常复杂，因为您需要依赖发行版自身的集成。此外，社区或官方支持通常也很复杂。
 
 
 
-因此，只要一切运行正常，"盒中节点 "就非常容易使用，但如果出现错误，你就必须准备好进行长时间的搜索、等待帮助并弄脏自己的手。
+因此，只要一切运行正常，"盒中节点" 就非常容易使用，但如果出现错误，您就必须准备好进行长时间的搜索、等待帮助并弄脏自己的手。
 
 
 
@@ -911,8 +911,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 
 
-- 预装机：已安装操作系统的完整计算机。这些 "即用即付 "的计算机只需插上电源并连接互联网即可运行。如果你的预算允许，这种选择的优点是安装非常简单，通常提供优先支持，并有助于为开发提供资金，因为这些公司的商业模式通常是以销售硬件为基础的。
-- DIY：在自己的机器（旧 PC、NUC、Raspberry Pi、家庭服务器......）上安装发行版操作系统。这是最经济的解决方案，因为你可以回收旧机器，或选择与你的需求和预算完全匹配的硬件。这也是最灵活的方案，配置起来也最令人满意。我们将在课程的实践部分探讨这种方法。
+- 预装机：已安装操作系统的完整计算机。这些 "即用即付" 的计算机只需插上电源并连接互联网即可运行。如果您的预算允许，这种选择的优点是安装非常简单，通常提供优先支持，并有助于为开发提供资金，因为这些公司的商业模式通常是以销售硬件为基础的。
+- 自我动手：在自己的机器（旧 PC、NUC、Raspberry Pi、家庭服务器......）上安装发行版操作系统。这是最经济的解决方案，因为您可以回收旧机器，或选择与您的需求和预算完全匹配的硬件。这也是最灵活的方案，配置起来也最令人满意。我们将在课程的实践部分探讨这种方法。
 
 
 
@@ -920,11 +920,11 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 
 
-### Umbrel （umbrelOS 和 Umbrel Home）
+### Umbrel（umbrelOS 和 Umbrel Home）
 
 
 
-[如今，Umbrel 已成为 "盒中节点 "解决方案 (https://umbrel.com/) 的领导者。它的成功主要归功于其简单的安装方式（当时是在一个简单的 Raspberry Pi 上推出的）、优雅直观的 Interface 以及迅速发展并现已极为广泛的应用生态系统。
+[如今，Umbrel 已成为 "盒中节点" 解决方案 (https://umbrel.com/) 的领导者。它的成功主要归功于其简单的安装方式（当时是在一个简单的 Raspberry Pi 上推出的）、优雅直观的页面以及迅速发展并现已极为广泛的应用生态系统。
 
 
 
@@ -936,21 +936,21 @@ Umbrel 于 2020 年推出，当时只是一个简单的 Bitcoin 节点和一些�
 
 
 
-关于它的工作原理和具体功能，我在这里就不再赘述了，因为我们将在下一部分的第一章中进行更深入的探讨。事实上，为了本 BTC 202 课程的目的，我选择了使用 UmbrelOS，我认为它是目前最适合初级和中级用户的节点开箱即用解决方案。
+关于它的工作原理和具体功能，我在这里就不再赘述了，因为我们将在下一部分的第一章中进行更深入的探讨。事实上，为了达到本 BTC 202 课程的目的，我选择了使用 UmbrelOS，我认为它是目前最适合初级和中级用户的节点开箱即用解决方案。
 
 
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-### 启动9（StartOS）
+### Start9（StartOS）
 
 
 
-[Start9提供StartOS（https://start9.com/），这是一个专为 "主权计算 "设计的系统：其目的是让每个人都能拥有和管理自己的私人服务器，并通过自托管应用程序市场来增强其功能。你可以购买 Start9 服务器（Server One 售价 619 美元，Server Pure 售价 899 美元），也可以在自己的机器上以 DIY 模式组装自己的服务器。
+[Start9 提供 StartOS（https://start9.com/），这是一个专为 "主权计算 "设计的系统：其目的是让每个人都能拥有和管理自己的私人服务器，并通过自托管应用程序市场来增强其功能。您可以购买 Start9 服务器（Server One 售价 619 美元，Server Pure 售价 899 美元），也可以在自己的机器上以 DIY 模式组装自己的服务器。
 
 
 
-在 Bitcoin 方面，StartOS 可以让您安装 Full node、Lightning 节点、BTCPay 服务器、Electrs 和许多其他服务。然而，Start9 的魅力远不止于此：它提供了以统一方式发现、配置和公开各种软件（文件云、消息传递、监控）的可能性，并具有完全的控制权。因此，该项目的目标用户是那些想要一个强大的自托管平台，而不仅仅是一个简单的 Bitcoin 节点的用户。它可能是继 Umbrel 之后最完整的生态系统。
+在比特币方面，StartOS 可以让您安装全节点、Lightning 节点、BTCPay Server、Electrs 和许多其他服务。然而，Start9 的魅力远不止于此：它提供了以统一方式发现、配置和公开各种软件（文件云、消息传递、监控）的可能性，并具有完全的控制权。因此，该项目的目标用户是那些想要一个强大的自托管平台，而不仅仅是一个简单的比特币节点的用户。它可能是继 Umbrel 之后最完整的生态系统。
 
 
 
@@ -958,21 +958,21 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-与 Umbrel 的主要区别在于 Interface。Umbrel 依靠的是高度完善的用户体验，而 Start9 提供的 Interface 则更为粗糙、功能更强。Start9 的应用程序生态系统不如 Umbrel 丰富，但它在技术上具有多项优势：访问高级应用程序设置的过程非常简单，而如果 Interface 没有提供所需的选项，Umbrel 很快就会受到限制。Start9 在备份管理方面也很出色：除了 Umbrel 为 LND 提供的高效解决方案外，Start9 没有统一的机制。此外，它还提供了更易于使用的监控工具和加密远程连接（"https"），而本地访问 Umbrel 只能通过 "http"。
+与 Umbrel 的主要区别在于页面。Umbrel 依靠的是高度完善的用户体验，而 Start9 提供的页面则更为粗糙、功能更强。Start9 的应用程序生态系统不如 Umbrel 丰富，但它在技术上具有多项优势：访问高级应用程序设置的过程非常简单，而如果页面没有提供所需的选项，Umbrel 很快就会受到限制。Start9 在备份管理方面也很出色：除了 Umbrel 为 LND 提供的高效解决方案外，Start9 没有统一的机制。此外，它还提供了更易于使用的监控工具和加密远程连接（"https"），而本地访问 Umbrel 只能通过 "http"。
 
 
 
-简而言之，如果您只需要 Bitcoin 的基本应用程序，对 Umbrel 非常丰富的生态系统没有特别兴趣，而且 Interface 用户不是优先考虑的对象，那么 Start9 是更好的选择。否则，Umbrel 是更好的选择。
+简而言之，如果您只需要比特币的基本应用程序，对 Umbrel 非常丰富的生态系统没有特别兴趣，而且页面用户不是优先考虑的因素，那么 Start9 是更好的选择。否则，Umbrel 是更好的选择。
 
 
 
 https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
-### 我的节点
+### MyNode
 
 
 
-[MyNode是专门针对Bitcoin和Lightning的发行版](https://mynodebtc.com/)，提供网络Interface、应用市场和一键升级。你既可以购买即用型硬件（*型号2*售价549美元），也可以在自己的机器上免费安装MyNode。该项目还提供*高级*版软件（94 美元），其中包括优先支持和高级功能。
+[MyNode 是专门针对 Bitcoin 和 闪电网络的发行版](https://mynodebtc.com/)，提供网络页面、应用市场和一键升级。您既可以购买即用型硬件（*型号2*售价549美元），也可以在自己的机器上免费安装MyNode。该项目还提供*高级*版软件（94 美元），其中包括优先支持和高级功能。
 
 
 
@@ -980,7 +980,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-实际上，MyNode 集合了运行 Full node 所需的所有基本构件，以及 Bitcoin 用户所必需的应用程序。因此，如果您不需要 Bitcoin 生态系统之外的应用程序（如 Start9 和 Umbrel 系统中的自托管应用程序），它就是一个合适的解决方案。
+实际上，MyNode 集合了运行全节点所需的所有基本构件，以及比特币用户所必需的应用程序。因此，如果您不需要比特币生态系统之外的应用程序（如 Start9 和 Umbrel 系统中的自托管应用程序），它就是一个合适的解决方案。
 
 
 
@@ -990,7 +990,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz 是一个 100% 开源项目](https://docs.raspiblitz.org/) （MIT 许可），用于在 Raspberry Pi 上安装 Bitcoin 节点和 Lightning 节点。只需下载镜像、启动，然后按照向导操作，就能在 Raspberry Pi 上安装一个正常工作的节点。第三方也提供预装套件，通常在 300 美元到 400 美元之间，视硬件而定。RaspiBlitz 还提供一系列易于安装的附加应用程序。
+[RaspiBlitz 是一个 100% 开源项目](https://docs.raspiblitz.org/) （带有MIT 许可），用于在 Raspberry Pi 上安装比特币节点和闪电节点。只需下载镜像、启动，然后按照向导操作，就能在 Raspberry Pi 上安装一个正常工作的节点。第三方也提供预装套件，通常在 300 美元到 400 美元之间，视硬件而定。RaspiBlitz 还提供一系列易于安装的附加应用程序。
 
 
 
@@ -998,7 +998,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-如果你拥有 Raspberry Pi，这是一个极好的选择，因为像 Umbrel 这样的完整系统对于这种类型的微型电脑来说越来越沉重。
+如果您拥有 Raspberry Pi，这是一个极好的选择，因为像 Umbrel 这样的完整系统对于这种类型的微型电脑来说越来越沉重。
 
 
 
@@ -1008,11 +1008,11 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo是一个注重隐私的 "盒中节点"](https://wiki.ronindojo.io/en/home)，可自动部署Samurai Dojo和Whirlpool，并配有专门的Interface和专为Samurai生态系统设计的插件。
+[RoninDojo 是一个注重隐私的 "盒中节点"](https://wiki.ronindojo.io/en/home)，可自动部署Samurai Dojo和Whirlpool，并配有专门的页面和专为 Samurai 生态系统设计的插件。
 
 
 
-原理很简单：如果您使用 Ashigaru Wallet（Samurai Wallet 的 Fork 继任者，根据其开发人员的要求），或者如果您想从高级隐私工具中获益，RoninDojo 就是您的理想选择。
+原理很简单：如果您使用 Ashigaru Wallet（Samurai Wallet 的分叉继任者，根据其开发人员的要求），或者如果您想从高级隐私工具中获益，RoninDojo 就是您的理想选择。
 
 
 
@@ -1020,7 +1020,7 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-该项目以前曾提供过一种名为 Tanto 的预配置机器，但目前已无法使用。它可能会在晚些时候回归。在此期间，可以在 Rock5B+ 或 Rockpro64 上轻松安装 RoninDojo，甚至可以间接安装在 Raspberry Pi 上。
+该项目以前曾提供过一种名为 Tanto 的预配置机器，但目前已无法使用。它可能之后会回归。在此期间，可以在 Rock5B+ 或 Rockpro64 上轻松安装 RoninDojo，甚至可以间接安装在 Raspberry Pi 上。
 
 
 
@@ -1030,11 +1030,11 @@ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 
 
 
-另一个[节点盒装解决方案]是 Nodl](https://www.nodl.eu/)。与之前的项目一样，您可以购买预配置硬件（599 欧元至 799 欧元不等，视型号而定），也可以 DIY 模式自行安装。
+另一个[盒中节点解决方案]是 Nodl](https://www.nodl.eu/)。与之前的项目一样，您可以购买预配置硬件（599 欧元至 799 欧元不等，视型号而定），也可以通过自我手动模式自行安装。
 
 
 
-在软件方面，Nodl 集成了 Bitcoin core、LND、BTCPay Server、Electrs、Dojo、Whirlpool、Lightning Terminal、RTL 以及 BTC RPC Explorer，所有这些软件都具有集成的更新链和 MIT 许可下的开源代码。
+在软件方面，Nodl 集成了 Bitcoin Core、LND、BTCPay Server、Electrs、Dojo、Whirlpool、Lightning Terminal、RTL 以及 BTC RPC Explorer，所有这些软件都具有集成的更新链和 MIT 许可下的开源代码。
 
 
 
@@ -1042,7 +1042,7 @@ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 
 
 
-在了解了各种软件解决方案后，现在就该选择承载节点的机器了！
+了解了各种软件解决方案后，现在就该选择承载节点的机器了！
 
 
 

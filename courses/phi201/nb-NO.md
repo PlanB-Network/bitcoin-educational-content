@@ -61,11 +61,11 @@ Hvorfor gi dette kurset tittelen: en historie om frihet? Fordi vi trenger å for
 
 > Når fortiden ikke lenger opplyser fremtiden, vandrer ånden i mørket (Alexis de Tocqueville - _Demokrati i Amerika_.)
 
-![image](assets/1/img-028.webp)
+![image](assets/fr/001.webp)
 
 Samtidig sa Auguste Comte: "Man kjenner ikke fullt ut en vitenskap før man kjenner dens historie." Denne sannheten kan anvendes på ideen om frihet.
 Faktisk er ikke frihet en ny idé. Det er en arv som er overlevert gjennom generasjoner. Hele sivilisasjonens historie vitner om en ustoppelig kamp for frihet.
-![image](assets/1/img-022.webp)
+![image](assets/fr/002.webp)
 
 Målet med dette kurset er imidlertid ikke bare å kaste lys over frihetens historie, men også, og viktigere, å utvikle kritisk dømmekraft. Faktisk er historie alene ikke nok til å dømme nåtiden og fremtiden. Det må ledsages av kritisk refleksjon og en dom over fortidens feil. Dette er filosofiens bidrag. Derfor har jeg gitt dette kurset tittelen: en filosofisk historie om frihet. Det handler faktisk om å utforske hvordan filosofer har oppfattet frihet gjennom tidene.
 
@@ -75,7 +75,7 @@ Fra sine opprinnelser har den et dobbelt formål:
 
 - For det første er det å gi mening til vage og forvirrede konsepter. Hva er godt, sant, rettferdig, vakkert? Akkurat som historiens funksjon er å opplyse fortiden, så er filosofi kunsten å korrekt definere konsepter. Derfor må vi starte dette kurset med å forstå hva frihet er.
 
-![image](assets/1/img-027.webp)
+![image](assets/fr/003.webp)
 Frihet er et konsept som dekker en mengde varianter, som er like mange mulige deklinasjoner av samme virkelighet: politisk frihet, økonomisk frihet, samvittighetsfrihet, ytringsfrihet, religionsfrihet, foreningsfrihet, osv. Hvilken virkelighet snakker vi om?
 Frihet kan enkelt defineres som valgets makt, med det som tilhører en selv. Det er en iboende egenskap hos mennesket. Det er en virkelighet som er essensielt individuell. Kun individet kan tenke og handle, det vil si, gjøre valg. Dette betyr ikke at individet er alene, at han ikke skylder noe til andre. Tvert imot, han lever i samfunnet og må samarbeide med andre for sitt eget gode. Men alle forblir frie til å samarbeide eller ikke, og må ta ansvar for sine valg.
 
@@ -87,7 +87,7 @@ Begrepet ansvarlighet er korollar til frihet fordi hvert valg har konsekvenser. 
 
 Fra dette perspektivet finnes det bare to typer politiske filosofier: frihetens filosofi og maktens filosofi.
 
-![bilde](assets/1/img-016.webp)
+![bilde](assets/fr/004.webp)
 
 - Frihetens filosofi er basert på den naturlige retten til eiendom og hevder at lovens eneste formål er å beskytte privat eiendom og kontrakter. Alle bør kunne gjøre som de ønsker med det som tilhører dem, forutsatt at de ikke skader noen. Det er en filosofi som forsvarer lik frihet for alle til å disponere over seg selv og sin eiendom under ansvarlighetens betingelse. Det er det frie markedets filosofi.
 - Maktens filosofi rettferdiggjør autoriteten til visse kollektive enheter som Staten eller samfunnet for å bestemme grensene som skal settes på markedet og eiendom, og derfor på frihet. I dette rammeverket er det opp til loven å organisere økonomien, helse, bolig, kultur, utdanning... Denne konstruktivistiske filosofien har alltid hatt sine forsvarere, i navnet til kollektiv interesse, likhet, beskyttelse og velvære.
@@ -98,11 +98,11 @@ De som forsvarer den første filosofien i Frankrike er fysiokratene, med Franço
 
 > Det er ikke fordi det finnes lover at det finnes eiendommer, men fordi det finnes eiendommer at det finnes lover. (_Eiendom og Lov_).
 
-![bilde](assets/1/img-018.webp)
+![bilde](assets/fr/005.webp)
 For Turgot og Say, disipler av Quesnay, eksisterer det en naturlig lov, uavhengig av lovgivernes innfall, som er gyldig for alle mennesker og som går forut for ethvert samfunn. Denne filosofien kommer direkte fra middelaldersk skolastikk, stoikerne, Aristoteles og Sofokles. De uskrevne lovene er både før og overlegne de skrevne lovene fordi de stammer fra menneskets natur og fornuft.
-![bilde](assets/1/img-014.webp)
+![bilde](assets/fr/006.webp)
 Den andre filosofien finnes blant forfattere som Rousseau, Robespierre eller Kant, som representerer den republikanske tradisjonen hvor folkets generelle vilje er den sanne kilden til loven. En samtidig av Quesnay, Rousseau er en anti-fysiokrat. For ham må lovgiveren organisere samfunnet, som en mekaniker som oppfinner en maskin fra inert materie.
-![bilde](assets/1/img-026.webp)
+![bilde](assets/fr/007.webp)
 
 > "Den som våger å påta seg etableringen av et folk," sier Rousseau, "må føle seg i stand til å endre, så å si, menneskets natur, til å transformere hver enkelt som, av seg selv, er et perfekt og ensomt hele, til en del av en større helhet fra hvilken denne enkeltpersonen mottar, på en måte, sitt liv og vesen." (_Samfunnskontrakten_)
 
@@ -127,7 +127,7 @@ Historien er dermed en kamp mellom to prinsipper: frihet og undertrykkelse:
 
 ### Hva er undertrykkelse?
 
-![bilde](assets/1/img-025.webp)
+![bilde](assets/fr/008.webp)
 
 Med ett ord, det er plyndring. Bastiat skisserer de viktigste typene plyndring som kommer fra de herskende elitene: krig, slaveri, teokrati og monopol. Faktisk, ifølge ham: "Det er bare to måter å skaffe nødvendighetene for bevaring, forskjønnelse og forbedring av livet: PRODUKSJON og PLUNDER." ([_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
@@ -147,7 +147,7 @@ Den sanne og rettferdige loven for mennesker er: Fritt debattert utveksling av t
 
 ### Historien om Plyndring
 
-![bilde](assets/1/img-020.webp)
+![bilde](assets/fr/009.webp)
 
 Historisk sett har herskende eliter alltid levd av plyndring. Bastiat bemerker:
 
@@ -169,7 +169,7 @@ Noen dager før sin død i Roma i 1850, betrodde Bastiat til sin venn Prosper Pa
 
 Det er kjent, historien skrives av seierherrene. Oppmerksomheten er ofte fokusert på erobringen av makt, på livene til ledere i makt, og på konfliktene som motsetter dem til de som ønsker å ta deres plass.
 
-![bilde](assets/1/img-023.webp)
+![bilde](assets/fr/010.webp)
 
 Dette er spesielt sant for lærebøker beregnet for offentlige skoler og skrevet av professorer ansatt av Staten.
 Dette er ikke tilfellet for et verk i to bind skrevet av en historiker fra Cambridge på 1800-tallet, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Hans fulle navn er John Emerich Edward Dalberg, Baron av Acton (1834-1902). Han er forfatteren av _Historien om Frihet i Antikken og Kristendommen_. Hans arbeid anses som et av de viktigste om emnet, og han viet en stor del av sin karriere til det. Hans arbeid, selv om det er ufullført, er en kraftig advarsel mot farene ved maktmisbruk, og hans forsvar for frihet og individuelt ansvar er fortsatt relevant i dag.
@@ -180,7 +180,7 @@ Denne forfatteren er best kjent for sitt maksime: "Makt har en tendens til å ko
 
 ### Actons Teser
 
-![bilde](assets/1/img-029.webp)
+![bilde](assets/fr/011.webp)
 
 For Acton er konflikten mellom frihet og makt det sentrale temaet i menneskets historie, og frihet er drivkraften for fremgang og samfunnenes utvikling. Acton søkte å forstå faktorene som bidro til frihetens fremvekst i Vesten. Hans mål var å identifisere de nødvendige betingelsene for dens bevaring og utvikling. Han studerte filosofiske ideer, sosiale strukturer og politiske kontekster som favoriserte dens fremkomst over tid.
 
@@ -198,7 +198,7 @@ Men ideen om at friheten i Europa ble født fra interne kamper blant ulike maktk
 
 Således tilskriver Voltaire, i hans [_Filosofiske brev_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), engelsk frihet til konflikter mellom konger og adelen som forhindret enhver overdreven konsentrasjon av makt. Og han bemerker:
 Hvis det bare var én religion i England, ville dens despotisme være å frykte; hvis det bare var to, ville de skjære hverandres hals over; men det er tretti, og de lever i fred og lykke. ([Om presbyterianerne](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
-![bilde](assets/1/img-105.webp)
+![bilde](assets/fr/012.webp)
 
 Condorcet, i hans [_Skisse til et historisk bilde av menneskets ånds fremgang_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), tilskriver den desentraliserte maktstrukturen i Italia til rivaliseringen mellom paven og keiseren, som tillot mange uavhengige bystater å overleve.
 
@@ -208,7 +208,7 @@ Denne tesen finnes også i et monumentalt verk fra 1983: _Lov og revolusjon: Dan
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
 En annen perspektiv på historien eksisterer imidlertid også. Det har vært ganske vellykket og lenge nytt støtte fra vestlige intellektuelle og representanter fra den globale sør. Dette er det sosialistiske og marxistiske synet på historien.
-![bilde](assets/1/img-024.webp)
+![bilde](assets/fr/013.webp)
 
 Det forklarer Europas ekstraordinære vekst primært gjennom teknologisk fremgang kombinert med "primitiv akkumulasjon" av kapital, som stammer fra imperialisme, slaveri, trekantshandelen, ekspropriasjonen av småbønder og utnyttelsen av arbeiderklassen. Konklusjonen er klar. Denne eksepsjonelle europeiske veksten ble oppnådd på bekostning av millioner og atter millioner av slaver og undertrykte individer.
 
@@ -226,7 +226,7 @@ Denne analysen reflekterer en misforståelse av merverdi og det kooperative og d
 ### Den industrielle revolusjonen i spørsmål
 
 Faktisk forvrenger den marxistiske analysen den historiske virkeligheten av den industrielle revolusjonen. Ludwig von Mises klargjorde dette problemet i sitt økonomiske verk [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (se spesielt kapittelet med tittelen [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) samt i en serie forelesninger publisert under tittelen: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Verdt å lese er også The Anti-Capitalistic Mentality [her](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) og [her](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
-![bilde](assets/1/img-030.webp)
+![bilde](assets/fr/014.webp)
 
 Mises forklarer at jobber i fabrikker, selv om de var elendige etter våre standarder, representerte den beste mulige muligheten for arbeidere på den tiden.
 
@@ -240,7 +240,7 @@ Mises legger til at forbedringen av menneskets tilstand dermed ble muliggjort av
 > Når det gjelder marxistisk historiografi, kan vi også henvise til Friedrich Hayek i _Capitalism and the Historians_ (University of Chicago Press, 1954) og hans kapittel med tittelen "History and Politics". Ifølge Hayek var det ikke industrialiseringen som gjorde arbeiderne elendige, som den mørke legenden om kapitalismen spredt av marxismen hevder. Han bemerker:
 > Den virkelige historien om forbindelsen mellom kapitalismen og oppkomsten av proletariatet er nesten det motsatte av det disse teoriene om ekspropriasjonen av massene antyder.
 > Før den industrielle revolusjonen levde de fleste mennesker i rurale samfunn og var avhengige av landbruk for sin overlevelse. De hadde lite å selge på markedet, noe som begrenset deres muligheter og deres levestandard. Alle forventet å leve i absolutt fattigdom og så for seg en lignende skjebne for sine etterkommere. Ingen ble opprørt over en situasjon som syntes å være uunngåelig.
-> ![image](assets/1/img-106.webp)
+> ![image](assets/fr/015.webp)
 
 Med industrialiseringens inntog dukket nye muligheter opp, noe som skapte en voksende etterspørsel etter arbeidskraft. For første gang kunne mennesker uten land eller betydelige ressurser selge sin arbeidskraft til fabrikker og produsenter i bytte mot en lønn, noe som sikret sikkerhet for fremtiden.
 
@@ -258,7 +258,7 @@ Etterfølgende tillater en mer nyansert historisk analyse enn den til Marx oss �
 
 Som Jean Baechler, et medlem av Akademiet for Moralske og Politiske Vitenskaper, sier i _Kapitalismens opprinnelse_ (1971):
 
-![image](assets/1/img-021.webp)
+![image](assets/fr/016.webp)
 
 > Den første betingelsen for maksimering av økonomisk effektivitet er frigjøringen av sivilsamfunnet fra staten (...) Kapitalismens ekspansjon skylder sin opprinnelse og raison d'être til politisk anarki.
 
@@ -271,7 +271,7 @@ Det er dette radikalt desentraliserte Europa som produserte parlamenter, dietter
 
 I det siste kapittelet av _Anatomy of the State_ (oversatt til fransk som _L’anatomie de l’Etat_, av Résurgence editions), foreslår Murray Rothbard en teori om historie. Dette veldig korte kapittelet har tittelen: Historie, et kappløp mellom statsmakt og sosial makt. Ifølge Rothbard kan historien forstås som en evig konflikt mellom to grunnleggende prinsipper:
 
-![bilde](assets/1/img-013.webp)
+![bilde](assets/fr/017.webp)
 
 - Fredelig samarbeid og produksjon, som representerer frivillig utveksling og skapelsen av velstand gjennom arbeid og innovasjon.
 - Tvangsmessig utnyttelse og rovdrift, beliggende ved statens dominans, som tilegner seg fruktene av individers arbeid med makt.
@@ -294,7 +294,7 @@ En skriftlig konstitusjon har definitivt mange fordeler, men det er en alvorlig 
 
 ### Det 20. århundre: Et århundre med tilbaketrekning
 
-![bilde](assets/1/img-012.webp)
+![bilde](assets/fr/018.webp)
 
 Ifølge Rothbard er historien ikke en lineær prosess, men snarere en svingning mellom fremgangen av sosial makt og gjenoppblomstringen av kontroll av Staten:
 
@@ -305,7 +305,7 @@ Fra det 17. århundre til det 19. århundre, i mange vestlige land, var det peri
 
 > I løpet av dette århundret står menneskeheten igjen overfor det virulente herredømmet til Staten; Staten nå bevæpnet med menneskets kreative kraft, konfiskert og pervertert for sine egne formål.
 > Hva er tross alt et fritt samfunn? Det er et samfunn uten monopol. I sitt arbeid med politisk filosofi, _Ethics of Liberty_ (1982), svarer Rothbard: "et samfunn der det ikke finnes noen juridisk mulighet for tvangsmessig aggresjon mot en persons person eller eiendom." Dette er grunnen til at han, ifølge ham, politisk filosofi, som må definere prinsippene for et rettferdig samfunn, koker ned til ett enkelt spørsmål: "Hvem eier legitimt hva?"
-> ![bilde](assets/1/img-029.webp)
+> ![bilde](assets/fr/019.webp)
 
 For Rothbard kan sosial orden seire hvis den er produktet av generaliseringen av kontraktsprosedyrer for fri utveksling av eiendomsrettigheter, ved å privatisere alle økonomiske aktiviteter og til og med suverene funksjoner (sentralbank, domstoler) og ved å ty til konkurranse blant beskyttelsesbyråer.
 
@@ -323,14 +323,14 @@ Og han legger til:
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 Opplevelsen av athensk demokrati har etterlatt et varig merke på historien om politisk tenkning og fortsetter å inspirere idealer om demokrati og borgerdeltakelse i dagens verden.
-![image](assets/2/img-107.webp)
+![image](assets/fr/020.webp)
 
 Det athenske demokratiet var kjennetegnet ved livlig offentlig debatt om bysaker, som hovedsakelig fant sted på agoraen, markedsplassen. Denne driftsmåten, basert på fornuft og kritisk diskusjon, stod i skarp kontrast til tidligere praksiser der lover og skikker ble ansett som hellige og uforanderlige, overlevert av forfedre og beskyttet av gudene.
 
 ### Politikkens fødsel med byen
 
 Det athenske demokratiet representerer et stort brudd med tidligere tradisjoner. Faktisk kunne det i tidligere samfunn ikke være "politikk" i betydningen en diskusjon om sosiale regler, siden disse ble pålagt på en transcendent måte av myte.
-![image](assets/2/img-109.webp)
+![image](assets/fr/021.webp)
 
 Historikeren Jean-Pierre Vernant skriver:
 
@@ -338,7 +338,7 @@ Historikeren Jean-Pierre Vernant skriver:
 >
 > (Jean Pierre Vernant, _The Origins of Greek Thought_, Paris, P.U.F, 1962)
 
-![image](assets/2/img-001.webp)
+![image](assets/fr/022.webp)
 
 Det greske ordet "polis", som gir "politikk" på fransk, betyr bystaten. Når Aristoteles skriver at "mennesket av natur er et politisk dyr," betyr det ikke at han er skapt for makt. Med politikk refererer han til evnen mennesker har til å deliberere på torget for å bestemme hva som er rettferdig og urettferdig.
 
@@ -356,7 +356,7 @@ Denne nyheten er basert på den grunnleggende distinksjonen mellom to termer i d
 
 Sosial harmoni produseres ikke av gudenes tilsiktede handling, men av alle borgeres lydighet mot den samme upersonlige loven. Makt er ikke lenger presteskapets affære, den har blitt alles affære. Slik oppstår forestillingen om likhet for loven: "_isonomia_," men også retorikk. Mestring av tale var essensielt for å overbevise sine medborgere i forsamlinger og domstoler.
 
-![bilde](assets/2/img-110.webp)
+![bilde](assets/fr/023.webp)
 
 For Aristoteles er tyranni lydighet til en mann, og frihet er lydighet til loven. Han er kreditert med dette sitatet:
 
@@ -367,7 +367,7 @@ Ifølge ham garanterer lover, ved å være upersonlige og permanente, rettferdig
 Cicero, den berømte romerske oratoren og filosofen fra det 1. århundre f.Kr., tok opp denne ideen: "Vi er slaver av lovene slik at vi kan være frie" (_De Republica_, Bok III, kapittel 13). I dette avsnittet utvikler Cicero et argument til fordel for en republikk styrt av lover, snarere enn av en mann eller en liten gruppe menn.
 Ideen om republikken er en som kommer fra gresk filosofi. Den har ofte blitt kontrastert med demokrati, ansett som for risikabelt. Platon ga sin hovedverk av politisk filosofi tittelen _Republikken_, og han dømmer demokratiet svært hardt. Når folket styrer, er det en sterk risiko for å pålegge loven om deres ønsker og forveksle det gode med det behagelige. Derav den tragiske døden til Sokrates, dømt til døden av en populær jury, manipulert av sofistene. Platon lærte alle leksjonene fra dette.
 
-![bilde](assets/2/img-111.webp)
+![bilde](assets/fr/024.webp)
 
 Aristoteles ville bruke begrepet republikk for å betegne den rettferdige konstitusjonen, den som sikter mot felles interesse og behandler borgere som frie menn. Et ekte frihetsregime er der hvor loven er generell, lik for alle, anonym og ikke en personlig kommando.
 
@@ -383,7 +383,7 @@ Ifølge Jacqueline de Romilly:
 Grekerne selv ser ut til å ha målt denne originaliteten og ble bevisst på den i begynnelsen av det 5. århundret, i sjokket som motsatte dem til de persiske inntrengerne. Og det første faktum som slo dem, var at det var en politisk forskjell mellom dem og deres motstandere, som styrte alt annet. Perserne adlød en absolutt suveren, som var deres herre, som de fryktet, og foran hvem de kastet seg ned: disse praksisene var ikke vanlige i Hellas. Det er en forbløffende dialog i Herodot, som motsier Xerxes til en tidligere konge av Sparta. Denne kongen kunngjør til Xerxes at grekerne ikke vil gi etter fordi Hellas alltid kjemper mot trelldom til en herre. Det vil kjempe, uansett antall av sine motstandere. For, hvis grekerne er frie, "er de ikke frie i alt: de har en herre, loven, som de frykter enda mer enn dine undersåtter frykter deg."
 (_Det gamle Hellas ved oppdagelsen av frihet, Paris, Editions de Fallois, 1989_)
 
-![bilde](assets/2/img-108.webp)
+![bilde](assets/fr/025.webp)
 
 Herodot er overbevist om at et folk av frie menn er et folk som adlyder en lov og ikke en herre, som i det persiske imperiet hvor bare én mann er fri og alle de andre er slaver. Dette er sant for Athen, et demokrati, men det er også sant for Sparta. Kongen skaper ikke loven, han pålegger ikke sin vilje. Han sikrer respekten for loven, han er i dens tjeneste og han dør, om nødvendig, for å forsvare den.
 
@@ -391,14 +391,14 @@ Herodot er overbevist om at et folk av frie menn er et folk som adlyder en lov o
 
 Ved å bevege seg bort fra mytologisk tankegang, var Thales, Anaximander, Anaximenes, og senere Demokrit og Empedokles, de første som søkte å forstå phusis (naturen) gjennom fornuft og ikke gjennom overnaturlige enheter.
 
-![bilde](assets/2/img-009.webp)
+![bilde](assets/fr/026.webp)
 
 Det grunnleggende prinsippet som disse tidlige før-sokratiske filosofene stilte, er at elementene i kosmos (universet) holder seg på plass fordi de alle er like underlagt den samme "naturloven" (phusis) som kan uttrykkes på en universell og nødvendig måte. Universet er rasjonelt, det utgjør en strukturert helhet, som mennesket kan oppdage med sin fornuft (logos i motsetning til mutos, myten).
 
 Ifølge Karl Popper skylder vi til filosofene i det gamle Hellas, spesielt de før-sokratiske, oppfinnelsen av kritisk rasjonalisme, det vil si den vestlige tradisjonen for kritisk diskusjon, kilden til vitenskapelig tankegang og pluralisme. Han forklarer dette i et kapittel av _Gjetninger og tilbakevisninger_ med tittelen "Tilbake til de før-sokratiske":
 Når det gjelder de første tegnene på eksistensen av en kritisk holdning, av en ny tankefrihet, dukker de opp i Anaximanders kritikk av Thales. Dette er et ganske enestående fenomen, tenkeren som Anaximander kritiserer er hans mester, hans landsmann, en av de syv vise, den som grunnla den joniske skolen. Ifølge tradisjonen var Anaximander bare fjorten år yngre enn Thales, og han formulerte sannsynligvis sine kritikker og presenterte sine nye konsepter mens hans mester var i live (de døde, det ser ut, noen år fra hverandre). Imidlertid finnes det ingen bevis for uenighet, krangel eller skisma i kildene.
 
-![bilde](assets/2/img-008.webp)
+![bilde](assets/fr/027.webp)
 Disse elementene indikerer, ifølge ham, at det var Thales som opprinnelig startet denne nye tradisjonen med frihet, basert på et originalt forhold mellom mester og disippel. Thales kunne tolerere kritikk og, dessuten, etablerte han tradisjonen med å anerkjenne den. Popper identifiserer her et brudd fra den dogmatiske tradisjonen, som kun tillater en enkelt skoledoktrine, for å erstatte den med pluralisme og fallibilisme.
 
 > Våre forsøk på å gripe og oppdage sannheten er ikke endelige, men er i stand til forbedring, vår kunnskap, vårt doktrinelegeme er konjekturalt i sin natur, de er laget av antagelser, hypoteser, og ikke av sikre og endelige sannheter.
@@ -418,7 +418,7 @@ Det romerske imperiet var en stor kosmopolitisk enhet. På sitt høydepunkt, run
 - Mot sør grenset det til Middelhavet, inkludert Italia, Hellas, Balkan, Lilleasia (dagens Tyrkia), Syria, Libanon, Palestina, Egypt og Kyrenaika (del av dagens Libya).
 - Østover strakte det seg til Mesopotamia (dagens Irak) og Armenia.
 
-![bilde](assets/2/img-007.webp)
+![bilde](assets/fr/028.webp)
 
 Fra da av førte romerne utviklingen av loven langt utover grekerne, som levde i små, etnisk homogene bystater. Under den romerske republikken var det allerede juridisk beskyttelse av eiendom og individuelle rettigheter.
 
@@ -428,7 +428,7 @@ Privat eiendom tok på seg en ny dimensjon i romersk sivilisasjon som den ikke h
 
 Romersk lov ville bli grunnlaget for alle moderne vestlige lover i middelalderen og frem til vår tid.
 
-![bilde](assets/2/img-012.webp)
+![bilde](assets/fr/029.webp)
 
 ### Beskyttelsen av individuelle rettigheter
 
@@ -437,7 +437,7 @@ Til slutt la romersk lov stor vekt på rettighetene og frihetene til individer, 
 Denne loven svarer forbausende til de grunnleggende naturlige rettighetene som teoretisert av John Locke to tusen år senere. Den tillater beskyttelse av individuelle rettigheter mot vilkårlighet og maktmisbruk.
 
 Sikkert, kvinner, slaver og utlendinger var fortsatt ekskludert fra full beskyttelse av loven. Likevel representerte loven om de tolv tavlene et betydelig fremskritt og en basis for videre utvikling av individuelle rettigheter utvidet til alle.
-![bilde](assets/2/img-006.webp)
+![bilde](assets/fr/030.webp)
 Loven om de tolv tavlene legger spesielt vekt på eiendomsrettigheter:
 
 - Den definerer de forskjellige typene eiendom (land, bevegelig osv.)
@@ -460,7 +460,7 @@ Et balansens forbilde i tanke er Seneca, en romersk stoisk filosof som skrev om 
 
 Avhandlingen om det lykkelige liv (_De Vita Beata_) er et forsvar for stoisk moral. Lykke, sier Seneca, "er en fri sjel \[...\] utilgjengelig for frykt \[...\] for hvem det eneste ondet er moralsk uverdighet." En disippel av Sokrates, den stoiske vismann frykter ikke fysisk ondt, død eller selv å lide urettferdighet. For ham er det eneste ondet moralsk ondt. Derfor ligger det høyeste gode i dyd.
 
-![bilde](assets/2/img-011.webp)
+![bilde](assets/fr/031.webp)
 
 Men nytelse er ikke uforenlig med dyd:
 
@@ -471,23 +471,30 @@ Derfor avviser den vise mannen ikke lykkens gaver:
 > Han elsker ikke rikdom, han foretrekker dem; han ønsker dem ikke velkommen i sitt hjerte, men i sitt hus; han avviser ikke det han eier, han dominerer dem og ønsker at de skal gi hans dyd rikelig materiale.
 
 Seneca går enda lenger. For den vise mannen er rikdom anledningen og middelet til å utøve dyd:
+
 I fattigdom [...] finnes det bare én type dyd: ikke å vakle eller la seg deprimere; midt i rikdom har måtehold, generøsitet, skjønnsomhet, økonomi og prakt fritt spillerom.
 
 ### Konseptet om en høyere lov
 
 Begrepet "menneskerettigheter", som mange jurister samler seg om, abonnerer implisitt på ideen om en høyere lov fordi det målretter rettigheter knyttet til menneskeheten selv før noen positiv lovgivning. Uten denne overlegne moralske normen, ville det ikke lenger være en kritisk autoritet i stand til å tolke og stille spørsmål ved den juridiske orden.
+
 Denne ideen minner oss om at Prinsen (akkurat som politiske ledere) ikke besitter rettferdighet i seg selv, men er selv underlagt en lov som overgår ham og må regulere hans dømmekraft.
+
 Dette er hva filosofer fra antikken, spesielt romerne som Cicero eller stoikerne, kalte naturretten. Dens opprinnelse kan finnes i gresk tankegang, med Sofokles og Aristoteles.
 
 Aristoteles skiller mellom naturlig rettferdighet og juridisk rettferdighet. Naturlig rettferdighet er det som er universelt gyldig, på ethvert sted og til alle tider. Det er en uskrevet lov, kjent gjennom fornuft. Juridisk rettferdighet er det som i seg selv er likegyldig, men blir obligatorisk for alle som et resultat av et konvensjonelt valg og er skrevet i en juridisk tekst. Med andre ord, det gjøres et skille mellom naturrett og positiv rett.
 
 Dramatikeren Sofokles, i sitt skuespill _Antigone_, iscenesetter en konflikt mellom guddommelig lov og menneskelig lov. Antigone nekter å adlyde kong Kreons dekret som forbyr begravelsen av broren hennes, og argumenterer med at guddommelige lover, uforanderlige og overlegne, går foran menneskelige lover.
 
+![image](assets/fr/032.webp)
+
 Når Antigone ulyder Kreon, motsier hun positiv rett for å adlyde sin moralske og religiøse samvittighet. Hvis det bare finnes positiv rett, sier Aristoteles, har Kreon alltid rett, selv når han tar feil. Men hvis vi opprettholder den regulerende ideen om en naturlig eller guddommelig lov, kan Antigone stå opp når tiden kommer og påberope seg mot en urettferdig lov, den overlegne retten til den uskrevne loven.
 
 ### Cicero og Naturretten
 
 Cicero levde på det 1. århundre f.Kr. og anses som den største taleren i det latinske språket under Romerriket. Han er også en moralsk og politisk filosof nær stoikerne. Hans essays har blitt lest av utdannede europeere i mange århundrer.
+
+![image](assets/fr/033.webp)
 
 I sitt avhandling _Om Lovene_ (_De Legibus_), reflekterer han over lovens grunnlag. Ifølge ham kan ikke positiv rett, settet av konvensjoner eller skrevne lover vedtatt av et samfunn, etablere rettferdighet verdig navnet. Det finnes en naturlig rettferdighet, innskrevet i menneskelig fornuft: "loven har et grunnlag i naturen selv." Å si at rett og galt er resultatet av en konvensjon er å si at sannhet er dekret. Imidlertid kan ikke sannhet dekretes, selv ikke av flertallet, den veileder våre dommer.
 Cicero avviser også nytte som grunnlag for lov. Faktisk skriver han:
@@ -507,11 +514,11 @@ Ved å hevde at loven ikke kan reduseres til bare de statuttene som er vedtatt a
 
 Hvorfor gikk Roma i nedgang og til slutt falt? Mange liker å tenke at Romerriket kollapset plutselig, under påvirkning av barbariske invasjoner. Imidlertid er årsakene til Romerrikets kollaps å finne mye tidligere, i imperialisme og økonomisk og monetær dirigisme.
 
-![bilde](assets/2/img-013.webp)
+
 
 I 1734 utviklet Montesquieu en original og enhetlig avhandling for å forklare oppgangen og fallet til romersk makt: friheten vunnet under Republikken og deretter tapt under Imperiet. Fra det øyeblikket romersk dominans utvidet seg, gikk friheten tapt, og dekadanse satte inn.
 
-![bilde](assets/2/img-003.webp)
+![bilde](assets/fr/034.webp)
 
 Romerriket var et parasittisk militærregime, som bare kunne overleve gjennom en konstant tilstrømning av plyndret rikdom utenfra, fanger redusert til slaveri og stjålne land.
 
@@ -535,7 +542,7 @@ Deretter ble politisk ustabilitet lagt til den økonomiske ustabiliteten, med me
 
 Et klassisk eksempel på intervensjonisme dukket opp i Roma da keiser Diokletian ønsket å sette en øvre grense for priser. Intervensjonisme defineres som handlingen til en makt som går utover sin rolle med å opprettholde orden og beskytte borgere. Det er et forsøk på å kontrollere markedet, med mål om å endre priser, lønninger, renter og profitter.
 
-![bilde](assets/2/img-005.webp)
+![bilde](assets/fr/035.webp)
 
 De gjentatte pengeutstedelsene av etterfølgende keisere for å takle økningen i militærutgifter hadde forårsaket en prisøkning. I 301 proklamerte Diokletian Ediktet om Maksimum i et forsøk på å sette en øvre grense for dem. Det var en fiasko.
 
@@ -547,7 +554,7 @@ Den romerske keiseren Diokletian er velkjent for å ha vært den siste romerske 
 
 I fotsporene til Montesquieu demonstrerer Philippe Fabry at Roma opplevde en bane fra liberalisme til sosialisme. Philippe Fabry er en historiker av lov, institusjoner og politiske ideer. Han har undervist ved Universitetet i Toulouse 1 Capitole og er forfatter av flere bøker, inkludert _Roma, fra Liberalisme til Sosialisme_, 2014.
 
-![bilde](assets/2/img-010.webp)
+![bilde](assets/fr/036.webp)
 
 Var Roma den største liberale makten i den antikke verden? Falt den deretter inn i en form for sosialisme? La oss først definere begrepene:
 
@@ -578,7 +585,7 @@ Og han legger til:
 
 Den kristne ideen om frihet utviklet seg i middelalderens teologi fra Sankt Augustin på 300-tallet, til Sankt Thomas Aquinas på 1200-tallet. Hva er denne ideen?
 
-![bilde](assets/3/img-036.webp)
+![bilde](assets/fr/037.webp)
 
 ### Frihet er implisert i ideen om synd
 
@@ -599,7 +606,7 @@ Sammendraget er at frihet er en god ting fordi den lar en ordne seg selv mot det
 ### Gud gjør ikke det gode i vårt sted
 
 I middelalderens teologi er ikke forsynet en konstant intervensjon av Gud i menneskenes liv, som om Gud handlet i vårt sted og uten vårt samtykke. Tvert imot gir Gud til hver skapning, i henhold til dens natur, evner som lar den sørge for seg selv og dermed nå sin fulle utvikling. Gud gjør ikke det gode for skapningen i dens sted.
-![bilde](assets/3/img-039.webp)
+![bilde](assets/fr/038.webp)
 
 Og jo høyere vi går i veseners skala, fra mineral til menneske, desto mer delegerer Gud til sin skapning kraften til å handle på egen hånd. Han betror mennesket med friheten til å styre seg selv og å styre verden med sin fornuft, i henhold til dyden av klokskap.
 
@@ -607,7 +614,7 @@ Således skriver Saint Thomas (_Summa contra Gentiles_, III, 69 og 122):
 
 > Å ta bort fra skapningenes perfeksjon er å trekke fra perfeksjonen av guddommelig kraft (...) Gud blir fornærmet av oss bare fordi vi handler mot vårt eget gode.
 
-![bilde](assets/3/img-037.webp)
+![bilde](assets/fr/039.webp)
 
 Forsynet gir oss derfor midlene til å være vår egen forsyn. Og han legger til:
 
@@ -628,7 +635,7 @@ Ifølge Thomas Aquinas:
 
 I middelalderen konkurrerer fornuft og tro om tilgangen til sannheten. Etter Abélard og Albertus Magnus, valgte Thomas Aquinas, på 1200-tallet, å forsvare fornuftens rettigheter og dens autonomi i forhold til troen.
 
-![bilde](assets/3/img-048.webp)
+![bilde](assets/fr/040.webp)
 
 Han låner fra Aristoteles' tanke ideen om en autonom naturlig orden, uavhengig av den himmelske orden. Denne naturlige ordenen er riktignok transcenderet av den overnaturlige ordenen, men den eksisterer separat og er prior til den. Derfor, for ham, er det to måter å få tilgang til sannheten om verden og spesielt om Gud på:
 
@@ -651,7 +658,8 @@ Dette er den midterste posisjonen, som søker å forlike tro og fornuft. Ekte ra
 
 Den kristne middelalderen var preget, ved begynnelsen av det 13. århundre, av fødselen og mangfoldigheten av universiteter i Vesten. Et universitet er et fellesskap av studenter og mestere fra samme by under kontroll av Kirken og omfatter i prinsippet fire fakulteter: kunst, teologi, jus, medisin. Teologi er oppfattet som en vitenskap, etter modell av gresk vitenskap.
 
-![bilde](assets/3/img-041.webp)
+![bilde](assets/fr/041.webp)
+
 I 1200 etablerte Philippe-Auguste Universitetet i Paris, som raskt ble det mest anerkjente universitetet i Europa. I 1257 grunnla Robert de Sorbon et teologisk kollegium ved Universitetet i Paris, som senere skulle bli kalt Sorbonne. En ny metode for undervisning og forskning kjent som skolastikk (fra schola, skole) oppstod innen disse universitetene. Den involverte "disputatio," en slags motsigelsesfull debatt foran et publikum. En tese ble foreslått, fulgt av innvendinger som det måtte gis et svar på. Når alle argumenter var uttømt, ville mesteren løse debatten med en begrunnet løsning.
 
 Blant de store aristoteliske mesterne som preget denne æraen, kan vi nevne Albert den Store (1200-1280) og Thomas Aquinas (1224-1274). Sistnevnte, ved å etablere fornuften i sine rettigheter, fremhevet spesifisiteten og autonomien til filosofisk visdom i forhold til teologi. Akkurat som nåde forutsetter natur og fullfører den, forutsetter tro og perfeksjonerer fornuft.
@@ -663,13 +671,16 @@ Fra da av ville religiøs rasjonalisme definitivt seire over mystisismen.
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 I middelalderen arvet Kirken og de kristne monarkiene en politisk modell fra Romerriket, som historikere kaller det teologisk-politiske systemet, noe som betyr et system der makten er hellig, dvs., der den politiske lederen også er en religiøs leder.
+
 Dette er grunnen til at middelaldersamfunn er kjennetegnet av politisk-religiøs enstemmighet. Politisk makt baserer sin legitimitet, autoritet og enhet på den kristne (eller muslimske) troen. Den anser seg selv som vokter av kulturell og religiøs ortodoksi og behandler som pariaer de som avviker fra denne enstemmigheten. I denne konteksten, selv om en viss toleranse kunne innrømmes til de som løsriver seg fra den felles kulturelle visjonen (som jøder), kunne ingen rett til pluralisme anerkjennes for dem. Det var ikke før ved slutten av middelalderen, med erobringen av Amerika, at problemet med sivile friheter ble avgjørende for Kirken og så fremveksten av en første filosofi om lov som bekreftet og beskyttet individuelle friheter, legitimerte pluralisme og fordømte statlig tvang.
 
 ### Saint Augustine og den teokratiske fristelsen
 
 Spørsmålet om forholdet mellom politikk og religion tok form med Saint Augustines verk _Civitas Dei_ (_Guds by_). I det forklarer han at to sfærer eksisterer:
+
 To kjærligheter har dermed laget to byer: kjærligheten til seg selv til forakt for Gud, den jordiske byen; kjærligheten til Gud, til forakt for seg selv, den himmelske byen.
-![bilde](assets/3/img-043.webp)
+
+![bilde](assets/fr/042.webp)
 
 Vi har derfor:
 
@@ -678,7 +689,7 @@ Vi har derfor:
 
 Men for Augustin er denne jordiske byen nødvendig. Den er nødvendig fordi den garanterer fred. Således må sameksistensen med det religiøse håndteres godt, og den bør reguleres av en overvekt av åndelig makt over tidsbestemt makt. Men det bør ikke være en radikal separasjon eller åpen konflikt, og begge enheter bør arbeide sammen. Historikere har kalt denne doktrinen for politisk augustinianisme.
 
-![bilde](assets/3/img-033.webp)
+![bilde](assets/fr/043.webp)
 
 ### Rivaliseringen mellom tidsbestemt makt og åndelig makt
 
@@ -697,7 +708,9 @@ Kirkens teokratiske fristelse kolliderer også med teorien om "guddommelig rett.
 ## Bibelsk etikk: Det hellige verdien av individet
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
 Antikkens tankegang underordnet mennesket et guddommelig kosmos, det vil si, til et perfekt univers hvor han bare var en del. Monoteismen, derimot, hevder menneskets uendelig overlegne verdi over naturen, ettersom mennesket er skapt i Guds bilde. Dette avgjørende punktet er ved opprinnelsen til en sann etisk revolusjon. Bibelen bekrefter det hellige og uendelige verdien av hvert menneske.
+
 Dette er grunnen til at bibelsk etikk endrer vårt forhold til ondskap. Den bringer en skarp og enestående følsomhet til menneskelig lidelse. Den oppmuntrer oss derfor til å betrakte som unormalt og uutholdelig ondskap som menneskeheten inntil da hadde funnet helt tålelig, spesielt det onde gjort mot andre, mot de svake, mot de uskyldige.
 
 ### Overgangen fra en symmetrisk etikk til en asymmetrisk etikk
@@ -707,18 +720,24 @@ Symmetrisk etikk handler om å etablere streng likhet i menneskelige relasjoner 
 Bibelsk etikk er asymmetrisk, noe som betyr at man må gi mer enn det som skyldes. Alle føler seg ansvarlige for ondskap, selv for det de ikke har begått. Etikk for å gi, etikk for tilgivelse, etikk for medfølelse. Man kan ikke forbli likegyldig til andres lidelse og må ikke tolerere unødvendig lidelse, selv når den ikke kommer fra oss. Den stoiske vismannens ro som aksepterer skjebnen blir umulig. Dette er meningen med lignelsen om den barmhjertige samaritan. Ingenting forplikter ham til å stoppe og ta seg av en mann såret av banditter. Fra den etiske revolusjonen brakt av Bibelen, blir hele menneskeheten en slags barmhjertig samaritan. Den er invitert til ikke å tolerere det onde gjort mot andre og å kjempe mot det.
 Dessuten, siden Gud er skaperen, ser vi fremveksten av et nytt konsept, det om likhet: for Gud er alle menn like. Det finnes ingen privilegerte individer i møte med Guds transcendentale uendelighet, og alle menn er like.
 
+
 ### Indianernes rettigheter
 
 Den mest kjente inkarnasjonen av denne fremvoksende doktrinen er Skolen i Salamanca, i Spania på 1500-tallet. Francisco de Vitoria, en av dens representanter, hevder at hvis hvert menneske er skapt i Guds bilde, kan ingen mann erklæres som underlegen en annen, ikke jøden, ikke den svarte slaven, ikke indianeren.
 
-![bilde](assets/3/img-042.webp)
+![bilde](assets/fr/044.webp)
 
 Oppdagelsen av Amerika utgjorde et reelt kultursjokk, en første brudd i den politisk-religiøse enstemmigheten arvet fra antikken. Den berømte kontroversen over indianernes rettigheter delte faktisk teologene i to motsatte og uforenlige leirer.
 
 I den ene leiren var det tilhengere av kulturell monolitisme og prinsippet om tvang. For dem levde indianerne utenfor det bibelske budskapet. Dette kunne bety at Gud ikke ønsket å åpenbare seg for dem. Hvorfor? To hypoteser er da tenkelige: 1° De er store syndere (kannibalisme) 2° De er tilbakestående og nærmere dyret enn mennesket. Derfor har de rett til å behandle dem som slaver og ta deres land med makt, på grunnlag av at de er både vantro og barbarer.
+
 I den andre leiren var det forkjemperne for pluralisme og sivile friheter: disse er teologene fra Salamanca-skolen, disipler av St. Thomas. Ifølge Francisco de Vitoria og Bartolomeo de Las Casas, må rettigheter anerkjennes for indianerne som mennesker og ikke fordi de har tilsluttet seg den katolske troen eller ikke. Ikke bare bør de ikke konverteres med makt, men deres eiendeler bør ikke tas, og de bør heller ikke utsettes for noen form for slaveri. Deres argumentasjon er basert på den Thomistiske oppfatningen av naturlig lov, forskjellig fra guddommelig lov.
+
 I _Summa Theologica_ stiller St. Thomas følgende spørsmål: bør man adlyde en utro prins, som ikke tror på Gud? Og han svarer ja, fordi legitim autoritet er ved naturlig rett, og prinsens utroskap eller ateisme er ikke en grunn til opprør. Den politiske orden er først og fremst en naturlig orden. Han spør videre: bør krig føres mot de vantro og troen påtvinges dem? Han svarer nei: en krig er bare rettferdig hvis den er forsvarlig. Til slutt kan troen kun være en fri handling.
+
 Lærde fra Salamanca anvendte denne resonnementet på saken med de innfødte folkene: eiendom er en naturlig rett. Derfor er det å ta land fra de innfødte folkene å begå tyveri, akkurat som om de var kristne. Det er heller ikke tillatt å føre krig mot dem siden det ikke er noen aggresjon fra deres side, men heller fra vår.
+
+![image](assets/fr/045.webp)
 
 Saken med de innfødte folkene var den første sprekken i det politisk-religiøse monolitt. Det viste at enheten i det politiske samfunnet kunne hvile på et annet grunnlag enn den religiøse enheten til innbyggerne i samme territorium, på grunnlag av en felles tilhørighet til menneskenaturen.
 
@@ -737,7 +756,10 @@ La oss fokusere på det første punktet. Det andre punktet vil bli adressert i f
 ### Oppblomstringen av italienske byer
 
 Henri Pirenne, en belgisk historiker fra tidlig 20. århundre, viet en del av sitt arbeid til analysen av fremveksten av kapitalismen i Europa. I sin bok _History of Europe_, uttaler han:
-Alle de essensielle trekkene ved kapitalismen — individuelt foretak, kredittens fremgang, kommersielle profitter, spekulasjon, osv. — eksisterte allerede fra det 12. århundre i de italienske bystatene, Venezia, Genova eller Firenze.
+
+> Alle de essensielle trekkene ved kapitalismen — individuelt foretak, kredittens fremgang, kommersielle profitter, spekulasjon, osv. — eksisterte allerede fra det 12. århundre i de italienske bystatene, Venezia, Genova eller Firenze.
+
+![image](assets/fr/046.webp)
 
 Ifølge Pirenne hadde disse handelsbyene, takket være deres kommersielle dynamikk og strategiske posisjon på maritime ruter, utviklet økonomiske praksiser karakteristiske for fremvoksende kapitalisme. Han fremhever spesielt:
 
@@ -752,16 +774,20 @@ Pirenne observerer at disse praksisene, selv om de var til stede i andre regione
 
 Skriftene fordømmer rentebærende lån, kalt rente, og anser at å låne ut penger mot rente var å utnytte sårbare låntakere. Imidlertid, i praksis, lukket Kirken et øye til problemet.
 
+![image](assets/fr/047.webp)
+
 Jacques Le Goff er en fransk historiker som spesialiserer seg på kulturen og mentalitetene i middelalderen. I tråd med Pirenne, anerkjenner han tilstedeværelsen av kapitalismens frø så tidlig som i middelalderen, spesielt i italienske byer, hvor praksiser som individuelt foretak, jakten på profitt, og bruken av kredittinstrumenter allerede var til stede.
+
 Eller Le Goff fremhever i _L'usure au Moyen Âge_ (1967, gjenutgitt i 1986 under tittelen: _La bourse et la vie; économie et religion au moyen-age_) at så tidlig som på 1200-tallet hadde Saint Albert den Store teoretisert begrepet "legitim rente" som ble videreutviklet av Saint Thomas Aquinas etter ham. Til tross for religiøse forbud, eksisterte praksisen med å låne ut penger og møtte reelle økonomiske behov. Langt før Adam Smith, forsto de at renter på lån ikke var rente, men en måte å tillate for belønning av risiko for utlåneren og investering for låntakeren, som er ved fundamentet av kapitalismen.
-![bilde](assets/3/img-047.webp)
+
+![bilde](assets/fr/048.webp)
 
 Men ifølge den franske historikeren, må oppgangen av kapitalismen plasseres i en bredere kontekst av økonomiske, sosiale og kulturelle transformasjoner som utfoldet seg over flere århundrer. Le Goff legger spesielt vekt på viktigheten av den kommersielle revolusjonen på 1400- og 1500-tallet, preget av utvidelsen av maritim handel og oppdagelsen av nye handelsruter, som stimulerte akkumuleringen av kapital og dominansen av markedslogikken.
 
 ### En kritikk av monetære manipulasjoner
 
 Den systematiske studien av økonomiske lover begynner i høymiddelalderen. De første økonomene er de skolastiske teologene ved Skolen i Paris. Den første blant dem som skrev en vitenskapelig avhandling helt viet til et økonomisk emne, er Nicolas Oresme (1325-1382). Rundt 1360 komponerte han sin _Avhandling om Opprinnelsen, Naturen, Loven, og Endringene av Penger_ som oppsummerer og utvikler ideene til skolastikerne i hans tid.
-![image](assets/3/img-031.webp)
+![image](assets/fr/049.webp)
 
 I hjertet av hans monetære analyse ligger problemet med "mutasjoner" av penger, det vil si endringer i den metalliske innholdet av mynter og deres valør. Disse endringene har forekommet siden tidenes morgen og er godt dokumentert for antikken og middelalderen. Deres mest synlige effekt er å endre kjøpekraften til den monetære enheten, spesielt for å redusere den. Dette er en primitiv form for inflasjon som Oresme tydelig fordømmer som et onde.
 
@@ -786,7 +812,7 @@ Dessuten, hvis to forskjellige valutaer nyter godt av lovlig betalingsmiddel, vi
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 Fra renessansen ble Europa herjet av religionskriger. Toleranse ble derfor en av de store kampene i opplysningstiden.
-![image](assets/4/img-112.webp)
+![image](assets/fr/050.webp)
 
 For noen ville den vitenskapelige metoden forene mennesker utover fordommer med et felles syn på verden. Er ikke universell tiltrekning det samme for en katolikk, en protestant, en jøde eller en ateist? Dermed representerer Encyclopédie av Diderot og d’Alembert et forsøk på å fremme universell kunnskap, i stand til å forene mennesker.
 
@@ -798,7 +824,7 @@ For Voltaire er det først og fremst menneskets feilbarlighet som utgjør grunnl
 
 > Toleranse er den nødvendige konsekvensen av vår bevissthet om å være feilbarlige. Å feile er menneskelig, og vi gjør alle stadig feil. La oss tilgi hverandre våre tåpeligheter; dette er naturens første lov.
 
-![image](assets/4/img-078.webp)
+![image](assets/fr/051.webp)
 
 Men i sine _Philosophical Letters_ (1734), tilbyr Voltaire et annet synspunkt. Han observerer at i England fremmer handel religiøs toleranse, som er en essensiell komponent av sivil fred og dermed lykke. Han skriver disse brevene for å kritisere de religiøse krigene i Frankrike, drevet av en absolutt og påtrengende politisk makt. Dette representerer den første radikale kritikken av Ancien Régime.
 
@@ -824,7 +850,7 @@ I _Tenth Letter_, "Om Handel", beskriver Voltaire det franske tankesettet som f�
 
 Likevel manglet ikke Frankrike store sinn. Det er lite kjent, men Anne Robert Jacques Turgot, Baron de Laulne var først og fremst en ledende tenker før han ble Controller General of Finances under Louis XVI. Han var forfatteren av et mesterlig avhandling om politisk økonomi, _Reflections on the Formation and Distribution of Wealth_ (1766), som kom før _The Wealth of Nations_ av Adam Smith (1776).
 
-![bilde](assets/4/img-074.webp)
+![bilde](assets/fr/052.webp)
 Hans tidlige skrifter reflekterer hans forpliktelse til opplysningstidens filosofi. I 1754 publiserte han sine _Letters on Civil Tolerance_ og i 1757, flere artikler skrevet for _The Encyclopédie_ av Diderot og d'Alembert.
 I sine brev presenterer Turgot en definisjon av toleranse. Å tolerere betyr å nekte å bruke vold mot feil. Med andre ord, toleranse er ikke aksept av feil. Man kan kjempe mot det, men med overbevisningens og fornuftens våpen, ikke med vold.
 
@@ -839,7 +865,7 @@ Med andre ord, å være tolerant betyr ikke å være fiendtlig innstilt til reli
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 Økonomisk liberalisme er ofte assosiert med en anglo-saksisk tradisjon som stammer fra Adam Smith, i kontrast til "politisk liberalisme," som sies å stamme fra opplysningstiden på kontinentet, spesielt i Frankrike. Dette synet er feil.
 
-![bilde](assets/4/img-069.webp)
+![bilde](assets/fr/053.webp)
 
 Det var i reaksjon til merkantilismen og, mer bredt, til ideene fra Ancien Régime at økonomisk vitenskap ble født i Frankrike. Med opplysningstiden kom en periode der filosofer begynte å kalle seg "økonomer," disse var fysiokratene.
 
@@ -857,10 +883,15 @@ Fra dette punktet begynte to veldig forskjellige oppfatninger å dukke opp innen
 ### Mot Colbertisme
 
 Dette uttrykket dukket opp da Jean-Baptiste Colbert, hovedrådgiveren til Ludvig XIV, en dag spurte handelsmenn: "Hva kan jeg gjøre for dere?" En av dem, ved navn François Legendre, svarte: "La oss gjøre!"
+
+![image](assets/fr/054.webp)
+
 Frasen ble adoptert av fysiokratene, François Quesnay, markien d'Argenson, og deretter av Vincent de Gournay: "Laissez-faire, laissez passer." Det ble deres motto.
 
 Med henvisning til naturretten (begrepet kommer fra _phusis_, natur, og _cratos_, makt eller regel), trodde fysiokratene at det finnes økonomiske lover, som ikke avhenger av politisk eller religiøs makt, men på selve menneskets og samfunnenes natur. Den økonomiske ordenen er samfunnenes naturlige orden. Politisk makt må underordne seg den.
+
 Fysiokratene satte seg fore å demonstrere at merkantilisme, den økonomiske politikken i Frankrike så vel som i England, ikke bare var ineffektiv, men også umoralsk. Colbert var en av de første moderne statsmennene. Han var overbevist om at statlig regulering kunne generere nasjonal velstand. Staten fungerte som bank, handelsmann og leverandør. Den kontrollerte valutaen, dirigerte handelen og omfordelte rikdom.
+
 Ifølge Colbert var målet å søke "en økning i rikdom ved å oppmuntre til industri." Og han la også til: "Frankrike kan bare berike seg på bekostning av England og Holland."
 
 Tvert imot, for fysiokratene, var frihandel den eneste gode økonomiske politikken fordi det var et positivt-sum spill og økonomien ble styrt av naturlige lover som ikke burde forstyrres av vilkårlige lover.
@@ -869,9 +900,13 @@ Tvert imot, for fysiokratene, var frihandel den eneste gode økonomiske politikk
 
 Inntil den franske revolusjonen levde samfunnet i en aristokratisk økonomi basert på gave og privilegium. Viljårlige handlinger og plager gjorde markedsadgang vanskelig for vanlige borgere.
 
+![image](assets/fr/055.webp)
+
 Imidlertid, siden middelalderen, som vi har sett, utviklet markedsøkonomien seg. Handelsmenn ble rikere og fikk mer og mer økonomisk frihet.
 
 Markedet handler om frivillig utveksling til en forhandlet pris. Markedet forbedrer den materielle, intellektuelle og politiske tilstanden til alle fordi det tillater ervervelsen av autonomi og initiativrom.
+
+![image](assets/fr/056.webp)
 
 Faktisk ønsker mennesker naturlig å forbedre sin egen tilstand og tilstanden til sine kjære, gjennom utveksling av varer og tjenester. Derav ønsket til disse nye filosofene, "økonomene," å muliggjøre for folket å skaffe seg en tilstrekkelig inntekt og dermed oppnå det Kant kaller i sitt pamflett _Hva er opplysning?_ deres "majoritet," deres autonomi av beslutning og handling.
 
@@ -898,7 +933,10 @@ Kort sagt, hvis alle fritt kan forfølge sin private interesse i respekt for nat
 I løpet av sin korte periode som finansminister (Controller General), fra august 1774 til mai 1776, forsøkte Ann-Robert Jacques Turgot store reformer for å sette en stopper for overdådig pengebruk, tallrike lokale monopoler, og for å vende tilbake til frihandel. Han gikk så langt som å formane kong Louis XVI i disse ordene:
 
 > Du må, Sire, bevæpne deg mot din godhet, med din godhet selv, ved å vurdere hvor pengene som du kan distribuere til dine hoffmenn kommer fra.
-> I 1774 publiserte han sine seks edikter for å avskaffe laugene og mesterskapene (korporasjoner som hadde blitt monopoler og barrierer for inngang i arbeidsmarkedet), avskaffe interne tollavgifter på kornhandel, avskaffe tvangsarbeid (corvée), og etablere toleranse mot protestanter.
+
+![image](assets/fr/057.webp)
+
+I 1774 publiserte han sine seks edikter for å avskaffe laugene og mesterskapene (korporasjoner som hadde blitt monopoler og barrierer for inngang i arbeidsmarkedet), avskaffe interne tollavgifter på kornhandel, avskaffe tvangsarbeid (corvée), og etablere toleranse mot protestanter.
 
 Dessverre kastet de stigende hveteprisene, etter en dårlig høst, tvil om hans reformer. Turgot skrev i sitt forsvar:
 
@@ -917,7 +955,7 @@ Ved å vie et kapittel til "Turgots glans", understreker Murray Rothbard i sin �
 
 I 1776 publiserte filosofen Étienne Bonnot de Condillac _Handel og Regjering_, uten tvil et av de mest praktfulle forsvar for frihandel og individuell frihet fra den æraen.
 
-![bilde](assets/4/img-053.webp)
+![bilde](assets/fr/058.webp)
 
 _Handel og Regjering_ inneholder det som senere ville bli kalt en teori om verdienes subjektivitet, som skaffet ham all ros fra de østerrikske økonomene, startende med Menger. Etterfølgende Turgot, men med større klarhet, hevder Condillac at verdi ikke ligger i arbeidet, men i det faktum at alle finner en interesse i utvekslingen:
 
@@ -930,7 +968,7 @@ Det er også en avhandling om filosofi i den forstand at den demonstrerer hvorda
 
 I 1776 publiserte en engelskmann ved navn Thomas Paine i Amerika et brennende pamflett som kritiserte det engelske monarkiet og talsmann for uavhengigheten til de amerikanske kolonistene: _Common Sense_.
 
-![bilde](assets/4/img-065.webp)
+![bilde](assets/fr/059.webp)
 
 Paine argumenterer for at:
 
@@ -952,9 +990,9 @@ Thomas Paine, gjennom sitt pamflett, spilte en avgjørende rolle i den amerikans
 
 Den 4. juli 1776, i Philadelphia, hvor de er samlet i kongress (på engelsk, "Convention"), vedtar representantene for de tretten engelske koloniene i Nord-Amerika en resolusjon som fastslår at "De forente stater er, og med rette bør være, frie og uavhengige stater". Resolusjonen støttes av John Adams, (en av inspiratorene til Teselskapet) og Benjamin Franklin, delegater fra Massachusetts. Uavhengighetserklæringen vil bli utarbeidet av Thomas Jefferson, delegat fra Virginia.
 
-![bilde](assets/4/img-066.webp)
+![bilde](assets/fr/060.webp)
 I årene som fulgte, kjempet franskmennene La Fayette, Rochambeau, admiral de Grasse, grev d'Estaing, general Duportail, marki de la Rouerie, kommandør Pierre L'Enfant, forfatter Beaumarchais, og mange andre sammen med opprørerne for å frigjøre dem fra åket til Englands konge.
-![bilde](assets/4/img-081.webp)
+![bilde](assets/fr/061.webp)
 
 141 år senere, den 4. juli 1917, midt i verdenskrigen, ble en seremoni organisert for de første soldatene fra AEF som ankom i Paris ved Picpus-kirkegården på graven til La Fayette, "helten fra to verdener." Ved denne anledningen holdt kaptein Charles E. Stanton fra general Pershings stab en berømt tale:
 Jeg beklager at jeg ikke kan henvende meg til den franske befolkningen på det vakre språket til deres trofaste land. Det kan ikke glemmes at deres nasjon var vår venn da Amerika kjempet for sin eksistens, da en håndfull modige og patriotiske menn var fast bestemt på å forsvare rettighetene deres Skaper hadde gitt dem -- at Frankrike, i personen Lafayette, kom til vår hjelp i ord og handlinger. Det ville være utakknemlig å ikke huske dette, og Amerika vil ikke svikte sine forpliktelser...
@@ -969,7 +1007,7 @@ I 1789 var det igjen La Fayette, med Jefferson, som la de første grunnlagene fo
 
 Adam Smith publiserte i 1776 _En undersøkelse av naturen og årsakene til nasjonenes velstand_. Et omfattende verk som ofte kategoriserer ham som en økonom selv om han underviste i moralfilosofi ved Universitetet i Glasgow. På en karikert måte huskes han som moderne økonomis far.
 
-![bilde](assets/4/img-070.webp)
+![bilde](assets/fr/062.webp)
 
 I virkeligheten skyldte Smith mye til økonomene Quesnay og Turgot som han møtte under en reise på mer enn et år i Frankrike. I denne boken beskriver han spesielt et "enkelt system av naturlig frihet" der individer, ved å forfølge sine egne interesser, blir ledet "av en usynlig hånd" til å fremme samfunnets velvære som helhet.
 
@@ -997,7 +1035,7 @@ Frem til det 18. århundre er det viktigste politiske problemet for disse filoso
 ### Folkesuverenitet
 
 Ideen ble inspirert av Locke på 17-tallet og deretter tatt opp av Rousseau. Suveren makt må ikke bare komme fra folkets frie vilje, men også bo i det. Dette er Rousseaus teori om folkeviljens suverenitet, det vi i dag kaller demokrati.
-![image](assets/4/img-071.webp)
+![image](assets/fr/063.webp)
 
 Rousseau oppfatter folket som et autonomt individ i stand til å underlegge seg lovene de etablerer. Folkets frie vilje utgjør det eneste rettferdige grunnlaget for suverenitet. Rousseau ville utvikle dette juridiske humanismen, karakteristisk for moderniteten, til sine ytterste konsekvenser ved å oppfatte folket som et individ i stand til fritt å selvbestemme eller som en generell vilje. Slik involverer kontrakten underkastelse til lover som mennesket som den generelle vilje gir til seg selv som en spesiell vilje. Teorien om den generelle vilje eller om folkets suverenitet tillater dermed forsoning av frihet og underkastelse. Selv-institusjonen av loven eller politisk autonomi har faktisk vært en essensiell komponent av demokratiet siden Rousseau.
 
@@ -1007,7 +1045,7 @@ Men spørsmålet om suverenitetens opprinnelse er ikke det eneste. Refleksjonen 
 
 En av opplysningstidens filosofer hvis innflytelse var veldig sterk i Frankrike og Amerika er John Locke. Han var inspirasjonen bak USAs grunnleggere, men også av Menneskerettighetserklæringen i 1789
 
-![image](assets/4/img-063.webp)
+![image](assets/fr/064.webp)
 
 Alle tidligere systemer hadde ansett at friheter kun er privilegier gitt av makt i kraft av en autorisasjon som kan tilbakekalles når som helst. For Locke er et menneskes liv hans eget i kraft av en naturlig rettighet (betydning: i kraft av et moralsk prinsipp iboende i menneskets natur) og at det eneste moralske formålet med en regjering er beskyttelsen av individuelle rettigheter.
 
@@ -1018,7 +1056,7 @@ Locke tildeler staten oppdraget med å forsvare individuell eiendom, som betyr "
 Thomas Jefferson inngraverte Lockes teori om uavhendelige rettigheter i Uavhengighetserklæringen:
 Vi holder disse sannhetene for å være selvinnlysende, at alle menn er skapt like, at de er utstyrt av sin Skaper med visse uavhendelige rettigheter, blant disse, liv, frihet og streben etter lykke.
 
-![image](assets/4/img-058.webp)
+![image](assets/fr/065.webp)
 
 Videre henter Artikkel 2 i den franske Menneskerettighetserklæringen fra 1789 også inspirasjon fra denne Lockeske tradisjonen av naturrett:
 
@@ -1029,7 +1067,7 @@ Videre henter Artikkel 2 i den franske Menneskerettighetserklæringen fra 1789 o
 Den amerikanske revolusjonen ble ledet av menn som snakket om grunnleggende uavhendelige rettigheter. Den førte til dannelsen av en desentralisert stat med begrenset styringsmakt. På den andre siden av Atlanteren fant et annet politisk eksperiment sted: den franske revolusjonen, som begynte som et modig opprør fra folket, endte i en rekke massakrer, blodige interne konflikter, og banet vei for det militære diktaturet til Napoleon Bonaparte. Hvorfor en slik forskjell?
 På 1800-tallet forsøkte Alexis de Tocqueville, en fransk politisk filosof, å peke på disse forskjellene mellom de to søsterrevolusjonene. Han tilskriver suksessen til den amerikanske revolusjonen flere faktorer.
 
-![bilde](assets/4/img-076.webp)
+![bilde](assets/fr/066.webp)
 
 For det første, i måten å definere republikken på. Den franske republikken er én og udelelig. Den amerikanske republikken består av suverene stater, hver med sin egen jurisdiksjon og lokale interesser. Føderalisme anses som forræderi i Frankrike. I Amerika ville forræderi bestå i å ønske å pålegge enhet. I det minste til den amerikanske borgerkrigen, var unionen i statenes mangfold styrken til føderasjonen.
 
@@ -1044,7 +1082,7 @@ Denne formuleringen beskytter eksplisitt mot flertallets tyranni. Imidlertid var
 
 Abbé Sieyès (1748-1836) anses som faren til den franske revolusjonen. Han er forfatteren av _Hva er det tredje ståndet?_, i januar 1789
 
-![bilde](assets/4/img-073.webp)
+![bilde](assets/fr/067.webp)
 
 Det tredje ståndet omfattet alle de som ikke tilhørte kleresiet eller adelen. Fra de aller første linjene i hans berømte pamflett, lovpriste Abbé Sieyès individuelle friheter og fri konkurranse:
 
@@ -1056,11 +1094,11 @@ I Frankrike, mot slutten av 1791, forverret sulten den populære uroen. Opptøye
 Konfiskasjonen av kirkens eiendommer hadde som mål å avverge den finansielle krisen; den var ment å tjene som sikkerhet for Assignatene, noe som betydde en massiv utstedelse av papirpenger.
 
 Videre, som Dupont de Nemours hadde forutsett, førte utstedelsen av falsk valuta bare til å forverre krisen, noe som forårsaket utbredt inflasjon og et kraftig fall i verdien av Assignatene. I august 1792 førte hungersnødopptøyene igjen til opprøret i Paris, henrettelsen av Louis XVI i januar 1793, og deretter Skrekkveldet.
-![bilde](assets/4/img-080.webp)
+![bilde](assets/fr/068.webp)
 
 I 1795, fem år etter den første utstedelsen, hadde papirpengene mistet 99% av sin verdi. Den franske revolusjonen fortsatte under Direktoratet til 1799, da Napoleon grep makten gjennom et statskupp. Han ble den første konsulen i den franske republikken før han ble kronet til keiser i 1804. Dette var en av de første åpenbare motsetningene med Menneskerettighetserklæringen, som proklamerte at privat eiendom var ukrenkelig.
 
-![bilde](assets/4/img-050.webp)
+![bilde](assets/fr/069.webp)
 
 I Amerika var det ingen økonomisk dirigisme, ei heller en monetær konkurs som den med Assignatene. Og fremfor alt, var det ingen proscripsjoner, ingen masseemigrasjoner, ingen giljotin, ingen massakrer, og intet Skrekkveldet. Umiddelbart kan man se forskjellen i handlingsmidlene som skiller den amerikanske revolusjonen fra den franske revolusjonen.
 
@@ -1080,13 +1118,13 @@ Dette er for øvrig meningen med bemerkningen av Friedrich Hayek i hans bok _The
 
 Ifølge Benjamin Constant kan frihet, i våre moderne samfunn, ikke lenger forstås på måten som i antikkens samfunn som direkte deltakelse i byens anliggender.
 
-![bilde](assets/5/img-103.webp)
+![bilde](assets/fr/070.webp)
 
 ### Frihet i Privatlivet
 
 I antikken var individet suverent i offentlige saker, men slavet i alle sine private relasjoner. Ofret av individuell frihet ble kompensert av bruken av politiske rettigheter: retten til direkte å utøve ulike deler av suvereniteten, å deliberere på torget, å stemme på lover, å uttale dommer, å evaluere og dømme magistrater. Det er en politisk og kollektiv frihet:
 Friheten til de gamle besto av aktiv og konstant deltakelse i kollektiv makt. Vår frihet, derimot, må bestå av den fredelige nytelsen av privat uavhengighet; det følger at vi må være mye mer knyttet til vår individuelle uavhengighet enn de gamle. (_Om friheten til de gamle sammenlignet med den til de moderne_ (1819))
-![bilde](assets/5/img-084.webp)
+![bilde](assets/fr/071.webp)
 
 Moderne frihet er sivil frihet, som inkluderer økonomisk frihet og er basert på retten til privatliv. Det er retten til ikke å bli utsatt for vilkårlighet, retten til ytring, forsamling, bevegelse, tilbedelse og industri. Det finnes ingen frihet uten muligheten til å velge sin egen livsstil og verdier, dermed ingen frihet uten muligheten til å trekke seg tilbake fra samfunnet og følgelig ingen frihet uten en begrensning av Staten for å tillate eksistensen av dette private rommet. Det er en frihet som tilsvarer det amerikanerne kaller borgerrettigheter.
 
@@ -1094,9 +1132,12 @@ Denne definisjonen av frihet finnes hos John Stuart Mill:
 
 > Den eneste friheten som fortjener navnet, er den å forfølge vårt eget gode på vår egen måte, så lenge vi ikke forsøker å frata andre deres eller hindre deres anstrengelser for å oppnå det. (...) Menneskeheten tjener mer på å la hver person leve som de ser passende enn ved å tvinge dem til å leve som det synes godt for andre. (_Om frihet_, 1859)
 
-![bilde](assets/5/img-097.webp)
+![bilde](assets/fr/072.webp)
 
 Mill skisserer grensene for statens suverenitet: den stopper der individets suverenitet begynner. Hvis en individuell handling ikke har skadelige konsekvenser for andre, da er individet helt fritt til å utføre den. Staten må regulere mellommenneskelige relasjoner, men den kan ikke gå videre, ved å blande seg inn i individers private liv. Hvis individet skader seg selv, kan Staten ikke gjøre annet enn å "protestere" eller forsøke å "resonnere" eller "overtale" dem: den kan ikke tvinge eller straffe. For Mill legger til: "Den eneste legitime grunnen til at en stat kan bruke makt mot et av sine medlemmer, mot deres vilje, er for å forhindre skade på andre."
+
+![image](assets/fr/073.webp)
+
 Den politiske makten som tilsvarer friheten til de moderne er derfor en begrenset makt: "La autoriteten begrense seg til å være rettferdig, vi vil ta vare på vår lykke," proklamerer Benjamin Constant. Det er ikke opp til Staten å fortelle oss hvordan vi skal være lykkelige.
 
 ### Rousseauistisk forvirring
@@ -1125,14 +1166,14 @@ Med andre ord, i et fritt samfunn, er det nødvendig å etablere en streng grens
 
 Alexis de Tocqueville var en skarp observatør av demokratiet og en kritiker av demokratisk individualisme.
 
-![bilde](assets/5/img-095.webp)
+![bilde](assets/fr/074.webp)
 
 Tocquevilles analyse av demokratiet utvider i hovedsak distinksjonen som Constant gjør mellom friheten til de gamle og den til de moderne. Den første er definert som "Nytelsen av et privilegium," og Tocqueville nevner eksemplet med den romerske borgeren som ikke får sin frihet fra naturen, men fra sin tilhørighet til Roma.
 Det andre konseptet, som er "den korrekte oppfatningen av frihet," består i en "like og uavhendelig rett til å leve uavhengig av sine likemenn." Denne moderne oppfatningen av frihet er altså ikke som den første en politisk oppfatning; den er basert på naturlig lov og den er "korrekt" fordi den strekker seg likt til enhver mann. Det er skrevet:
 I følge den moderne oppfatningen, den demokratiske oppfatningen, og jeg tør si den korrekte oppfatningen av frihet, antas hver mann, som antas å ha mottatt fra naturen den nødvendige opplysningen for å styre seg selv, å bringe ved fødselen en lik og uavhendelig rett til å leve uavhengig av sine likemenn, i alt som kun angår ham selv, og å regulere som han finner passende sin egen skjebne.
 Tocqueville er nøye med å identifisere alle de politiske og kulturelle effektene av denne nye måten å være på, typisk moderne. Som en beundrer av Pascal, sikter han til å skildre demokratiets storhet og elendighet.
 
-![bilde](assets/5/img-085.webp)
+![bilde](assets/fr/075.webp)
 
 I 1841 i _Demokrati i Amerika_, analyserer han dette demokratiske prinsippet som hevder seg selv i utjevningen av forhold mot klassenes hierarki og tradisjonenes autoritet. Og han observerer at denne prosessen logisk følger oppløsningen av sosiale påvirkninger, avhengighetsbånd, og atomiserer det sosiale båndet, og truer dermed selve utøvelsen av frihet og politisk ansvar hos borgeren. Videre fører tapet av store gamle idealer (dyd, det felles gode) til en forarmelse av livets mening, "til små og vulgære gleder," til kjedsomhet og uro.
 
@@ -1166,7 +1207,7 @@ Hva tenkte Frédéric Bastiat om demokrati? Han svarte så tidlig som i 1846:
 
 > Jeg er for demokrati, hvis med dette ordet du mener: Til hver hans arbeids eiendom, frihet for alle, likhet for alle, rettferdighet for alle, og fred blant alle. (_Frihandel_).
 
-![bilde](assets/5/img-088.webp)
+![bilde](assets/fr/076.webp)
 
 Men i 1848, etter februarrevolusjonen, ble Bastiat valgt til deputert for Landes i en forsamling hvor sosialistene gjorde et triumferende inntog. Disse sistnevnte krevde kun én ting: at loven skulle innvie prinsippet om brorskap. Med andre ord, å vedta lover for å skaffe arbeid, utdanning og helsehjelp for alle.
 
@@ -1178,7 +1219,7 @@ Staten blir da, ifølge Bastiats ord,
 
 > den store fiksjonen gjennom hvilken alle streber etter å leve på bekostning av alle andre. ([_Staten_](http://bastiat.org/fr/l_etat.html))
 > Bastiat utvikler også ideen om at konflikter oppstår når loven avviker fra sin rettmessige rolle. I sitt berømte pamflett [_The Law_](http://bastiat.org/fr/la_loi.html), demonstrerer han hvorfor og hvordan loven har blitt "alle grådigheters slagmark," noe som betyr en kilde til privilegier, situasjonsbestemte leier og vilkårlig beskatning. Så snart det er innrømmet i prinsippet at loven kan avvikes fra sitt sanne oppdrag, at den kan bryte med eiendommer i stedet for å garantere dem, følger en klassekamp nødvendigvis, enten for å forsvare seg mot plyndring eller for å organisere den til ens egen fordel.
-> ![image](assets/5/img-098.webp)
+> ![image](assets/fr/077.webp)
 
 I tilfeller der loven kun håndhever hver enkelt individs rettigheter og garanterer _"den kollektive organiseringen av den individuelle retten til legitimt forsvar,"_ er ingen i en posisjon til å utnytte den til sin egen fordel på bekostning av alle, til et slikt omfang at selve regjeringsformen blir et sekundært spørsmål.
 
@@ -1197,9 +1238,11 @@ Ta en titt på kloden. Hvilke er de lykkeligste, mest moralske og mest fredelige
 
 Det var i løpet av det 19. århundret at kritikken av kapitalismen, og spesielt den marxistiske kritikken, dukket opp.
 
-![image](assets/5/img-089.webp)
+![image](assets/fr/078.webp)
+
 Hva nytter det å ha rett til å tale, skrive og stemme, utbrøt Marx, hvis dagliglivet er en kamp for overlevelse? Utover en viss terskel, tilsvarer fattigdom trelldom. Den sosiale ordenen gagner derfor alle kun hvis prinsippet om en rettferdig fordeling av goder blir anvendt. Det var denne kritikken av liberalismen som førte Marx til å vurdere nødvendigheten av en rasjonell og planlagt kontroll av den sosiale ordenen. Heretter må den minimale staten til liberalistene etterfølges av en sterk stat som er i stand til å etablere reell likhet, som, ifølge Marx, går så langt som til avskaffelsen av privat eiendom og dens kollektivisering. I en mildere versjon, "sosialdemokrati", blir staten bedt om å garantere ikke bare menneskets abstrakte rettigheter, men menneskets konkrete rettigheter. Nye rettigheter blir skapt, sosiale og økonomiske rettigheter, garantert av staten: retten til arbeid, retten til bolig, retten til helse (gratis), retten til utdanning (gratis).
-![bilde](assets/5/img-091.webp)
+
+![bilde](assets/fr/079.webp)
 
 ### Myten om den Upartiske Staten
 
@@ -1215,6 +1258,8 @@ Denne politiske illusjonen av liberalismen er den sekulære siden av den religi�
 
 Faktisk, for Marx og i samsvar med historisk materialisme, er det økonomisk fremmedgjøring som ligger til grunn for politisk fremmedgjøring så vel som religiøs fremmedgjøring. I økonomisk fremmedgjøring, et resultat av kapitalismen (definert som privat eierskap til produksjonsmidlene), er arbeideren tvunget til å selge sin arbeidskraft som en vare. Videre er han fratatt produktet av sitt arbeid, som eies av arbeidsgiveren. Han er dermed fremmedgjort, noe som betyr at han er separert fra seg selv fordi hans arbeid blir noe fremmed for ham som han utfører med tvang, for å overleve. Likevel, arbeid, for Marx, er den essensielt menneskelige handlingen, den gjennom hvilken selve essensen av mennesket, nemlig frihet, realiseres. Dette er grunnen til at frigjøringen av arbeid også betyr å gjenopprette mennesket til sin verdighet og menneskelighet.
 
+![image](assets/fr/080.webp)
+
 Politisk revolusjon er derfor en illusjon, ifølge ham, så lenge den ikke er ledsaget av en økonomisk og sosial revolusjon som er i stand til å frigjøre mennesket fra kapitalistisk trelldom og dermed oppnå enhet mellom arbeideren og borgeren, mellom samfunnet og staten, det private sfæren og det offentlige sfæren. Den formelle friheten og likheten til borgeren vil dermed bli virkelig, i et klasseløst samfunn.
 
 ## Den Østerrikske Kritikken av Marxismen
@@ -1222,6 +1267,8 @@ Politisk revolusjon er derfor en illusjon, ifølge ham, så lenge den ikke er le
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 Den Østerrikske Skolen for Økonomi, grunnlagt av Carl Menger på slutten av det 19. århundre, motsatte seg Karl Marx' teorier fra starten.
+
+![image](assets/fr/081.webp)
 
 ### Klassenkampen
 
@@ -1234,6 +1281,8 @@ Den Østerrikske Skolen for Økonomi, grunnlagt av Carl Menger på slutten av de
 For eksempel, en arbeidsgiver ansetter en arbeider fordi han trenger hans ferdigheter for å produsere en vare eller tjeneste som forbrukerne ønsker. Arbeideren, på sin side, aksepterer jobben fordi han trenger en inntekt for å møte sine behov. Dette forholdet er gjensidig fordelaktig, og ikke konfliktfylt.
 Ludwig von Mises påpeker at Marx mislyktes i å skille mellom det som tilhører borgerlig ideologi i menneskerettigheter og hva de betyr i praksis, de omveltningene de medfører i sosialt liv. Mange kritiske tenkere om menneskerettigheter har gjort den samme feilen. Dette var også tilfellet for kontrarevolusjonære, som Joseph de Maistre eller Louis de Bonald.
 
+![image](assets/fr/082.webp)
+
 I _The Ethics of Liberty_ og _Anatomy of the State_, forklarte Murray Rothbard at utnyttelse kun gir mening som en aggresjon mot privat eiendom og at det kun er Staten som oppnår sine inntekter gjennom aggresjon, det vil si gjennom skattlegging, gjeld, å trykke penger, og dermed gjennom inflasjon. I virkeligheten er det statlig intervensjon, og ikke klassenkamp, som er kilden til vold og konflikter i samfunnet. Staten, ved å tilegne seg ressurser og regulere økonomien, skaper forvrengninger og urettferdigheter som fører til konflikter og undertrykkelse. Å avslutte utnyttelse krever dermed å redusere makten til den rovdyraktige kasten: Staten.
 På dette punktet, se også: _Marxist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Høst 1990. [Oversettelse av François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Inkludert som Kapittel 4 i _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
 
@@ -1243,7 +1292,7 @@ Konseptet med klassekamp kan også føre til ideen om at alt er tillatt. Marx ar
 
 Mises myntet begrepet "polylogisme" for å forklare denne sofismen. "Poly" betyr mange og "logisme" refererer til rasjonell diskurs og logikk. Ifølge Marx ville det være flere inkompatible logikker, den proletariske og den borgerlige.
 
-![bilde](assets/5/img-096.webp)
+![bilde](assets/fr/083.webp)
 
 Likevel, frem til midten av det 19. århundre, våget ingen å bestride det faktum at den logiske strukturen i sinnet var identisk og felles for alle mennesker. Alle menneskelige relasjoner er basert på antagelsen om en uniform logisk struktur. Folk kan engasjere seg i diskusjon fordi de kan appellere til noe felles for alle, nemlig den logiske strukturen til fornuften.
 
@@ -1258,7 +1307,7 @@ Det er derfor Georges Sorel, importøren av marxismen til Frankrike, ville si at
 
 Østerrikerne hevder at Marx' arbeidsteori om verdi, ifølge hvilken verdien av en vare er bestemt av mengden arbeid nødvendig for dens produksjon, er feilaktig. De argumenterer for at verdi er subjektiv og bestemt av forbrukerpreferanser, ikke av produksjonskostnader.
 
-![bilde](assets/5/img-087.webp)
+![bilde](assets/fr/084.webp)
 Eugen von Böhm-Bawerk, en av de tidlige østerrikske økonomene, kritiserte Marx' arbeidsteori om verdi i sitt verk _Wert, Kapital und Zins_ (1886). Böhm-Bawerk argumenterte for at Marx' teori var basert på en grunnleggende feil, nemlig at alle arbeidsenheter er identiske. I virkeligheten, hevdet han, er noe arbeid mer anstrengende eller mer produktivt enn andre, og dette er det som bestemmer verdien av en vare. Når det gjelder teorien om profitt, argumenterte Marx for at profitt er en form for tyveri. Det er konseptet om utnyttelse, ifølge hvilket kapitalister trekker ut en urettferdig merverdi fra arbeidernes arbeid. Østerrikerne avviser denne ideen ved å argumentere for at lønninger bestemmes av verdien som arbeidere bringer til selskaper, og at profitter er belønningen for entreprenører som tar risiko og investerer effektivt. Profitt er dermed en belønning for entreprenøren som tar risiko og investerer i nye produkter og prosesser.
 Friedrich Hayek utviklet en teori om profitt basert på konseptet om usikkerhet, som er tydelig rotfestet i Jean-Baptiste Says arbeid. Ifølge Hayek tjener entreprenører en profitt fordi de er i stand til å bedre forutsi fremtidige behov hos forbrukere enn andre økonomiske aktører.
 
@@ -1266,7 +1315,7 @@ Friedrich Hayek utviklet en teori om profitt basert på konseptet om usikkerhet,
 
 Marxister tror at sosialisme, et økonomisk system der produksjonsmidlene eies og kontrolleres av arbeiderne, er uunngåelig overlegen kapitalismen. Østerrikerne, derimot, hevder at sosialisme er umulig å oppnå i praksis, da det ville kreve en urealistisk grad av sentral planlegging.
 
-![bilde](assets/5/img-090.webp)
+![bilde](assets/fr/085.webp)
 
 Allerede i 1922, i sin bok _Socialism,_ demonstrerte Ludwig von Mises at sosialisme ville føre til utbredte mangler, ettersom sentralplanleggere ikke ville være i stand til å gjøre nøyaktige økonomiske beregninger uten prissystemet som markedet tilbyr.
 
@@ -1276,7 +1325,7 @@ Allerede i 1922, i sin bok _Socialism,_ demonstrerte Ludwig von Mises at sosiali
 
 Alarmert av økningen i statlig intervensjonisme i økonomiene til vestlige demokratier, skrev Hayek _Veien til Trelldom_ som en filosofisk kritikk av kollektivisme, enten fra høyre eller venstre. Publisert i flere millioner eksemplarer, takket være _Reader’s Digest_, har denne boken i stor grad bidratt til Hayeks berømmelse i USA.
 
-![bilde](assets/5/img-100.webp)
+![bilde](assets/fr/086.webp)
 
 ### Kollektivismens Tiltrekningskraft
 
@@ -1295,7 +1344,7 @@ På den annen side er planleggingen av økonomien og samfunnet generelt, essense
 
 Fra de første sidene etablerer Hayek en parallell mellom triumfen av sosialistiske idealer i Vesten og den samtidige suksessen til totalitære utopier.
 
-![bilde](assets/5/img-093.webp)
+![bilde](assets/fr/087.webp)
 
 > Få mennesker, advarer han i forordet, er villige til å anerkjenne at fremveksten av fascisme og nazisme ikke var en reaksjon mot trendene (...) fra den foregående perioden, men et uunngåelig resultat av disse trendene. Dette er noe som de fleste har nektet å se, selv i det øyeblikket de innser likheten som tilbys av visse negative trekk ved de innenlandske regimene i kommunistiske Russland og Nazi-Tyskland. Resultatet er at mange mennesker som anser seg selv som langt over nazismens avvik og som oppriktig hater alle dens manifestasjoner, samtidig arbeider for idealer hvis realisering ville lede direkte til denne forhatte tyranniet.
 > Ifølge Hayek deler sosialismen og nazismen en rekke grunnleggende fellesnevnere, spesielt avvisningen av individualisme og det spontane markedets orden. Begge ideologiene prioriterer gruppens velvære over individets rettigheter og friheter og søker å skape et homogent samfunn forent av felles verdier og mål. Verken sosialister eller nazister nøler med å bruke makt og tvang for å oppnå sine mål. De er villige til å undertrykke individuelle friheter og undertrykke dissens i navnet på samfunnets større gode.
@@ -1317,17 +1366,17 @@ Til slutt oppfordrer Hayek sine samtidige til å vende ryggen til "galskapen" og
 
 Kapitalismen blir ofte anklaget for å være kilden til påbudet: "vi må alltid produsere mer," eller formelen: "forbruk er bra for vekst." Imidlertid stammer ikke disse ideene fra tradisjonell kapitalisme, men fra keynesianismen, som har dominert feltet for økonomisk vitenskap og den politiske klassen siden 1930-tallet.
 
-![bilde](assets/6/img-011.webp)
+![bilde](assets/fr/088.webp)
 
 ### Analysen av Krisen i 1929
 
 Publisert i 1936, boken av John Maynard Keynes: _The General Theory of Employment, Interest, and Money_, feide alt på sin vei. Ved å stille spørsmål ved årsakene til den store depresjonen og midlene for å komme ut av den, beskriver han et nytt økonomisk paradigme, som ville konvertere generasjoner av økonomer og politikere.
 
-![bilde](assets/6/img-005.webp)
+![bilde](assets/fr/089.webp)
 
 For å oppsummere bredt, produserer offentlige utgifter vekst og for å støtte budsjettunderskuddet, må en pengepolitikk med lave renter implementeres. Således ville opprinnelig den skjønnsmessige økningen i offentlige utgifter ha en multiplikatoreffekt på økonomisk aktivitet, i stand til å begrense resesjonen og akselerere gjenopprettingen. Deretter, i en andre fase, ville penger bli ansett som et instrument for økonomisk politikk som skal brukes av offentlige myndigheter med formål om makroøkonomisk stabilisering.
 
-![bilde](assets/6/img-001.webp)
+![bilde](assets/fr/090.webp)
 
 Keynesianismen er derfor kravet om å gi midlene for sterk vekst og full sysselsetting gjennom offentlige utgifter og forbruk. Og denne vekstplanen er basert på kontroll av penger.
 
@@ -1341,15 +1390,15 @@ Med Keynes ble det 20. århundre århundret for tillit til eksperter og planlegg
 
 For Keynes er statlig intervensjon nødvendig for å stimulere etterspørsel og starte den økonomiske motoren på nytt. Denne doktrinen har triumfert på universiteter og i lærebøker. Likevel har statlig intervensjon sine feil og kan forverre kriser på lang sikt i stedet for å løse dem.
 
-![bilde](assets/6/img-010.webp)
+![bilde](assets/fr/091.webp)
 
 Dette er grunnen til at noen økonomer, i mindretall, kritiserer Keynes for hans kortsiktighet og talsmann for en retur til markeds mekanismer som et bedre alternativ til statlig intervensjon.
 Således forklarte Friedrich Hayek at den kontinuerlige reduksjonen av renter av sentralbankene og den kunstige ekspansjonen av kreditt bare kunne villede økonomiske aktører, og få dem til å investere som om mange sparte ressurser eksisterte (siden renter naturligvis avtar som respons på en økning i sparing). Denne feilallokeringen av ressurser fører da til en kunstig økning i vekst, en boble, som følges av en brutal resesjon. Det er dette bidraget til syklusteori som tjente Hayek Nobelprisen i økonomi i 1974.
 Sammen med andre, fremhevet han også faren ved å sentralisere og manipulere valuta. Dette er spesielt tilfellet med franskmannen Jacques Rueff, også en disippel og venn av Ludwig von Mises.
 
-![bilde](assets/6/img-012.webp)
+![bilde](assets/fr/092.webp)
 Etter å ha fullført sin utdannelse ved École Polytechnique i 1919, hadde Rueff en karriere som en høytstående offentlig tjenestemann og var økonomisk rådgiver for flere regjeringer på 1920- og 30-tallet. Hans viktigste verk ble publisert i 1945: _L’ordre social_ (Den sosiale orden), hvor han utvikler et kraftfullt argument til fordel for det frie markedet, fra økonomiske, filosofiske og moralske synsvinkler.
-![image](assets/6/img-013.webp)
+![image](assets/fr/093.webp)
 
 Denne boken inkluderer et nøkkelkapittel med tittelen: "Sunne penger eller totalitær stat". I dette kapittelet utvikler han to proposisjoner. Den første: "Falske penger fører til sosial uorden". Den andre proposisjonen følger av den første: "Sosial uorden fører til sosialt slaveri". Falske penger er papirvaluta, frakoblet fra enhver fysisk realitet og manipulert av den herskende makten. Sosial uorden er inflasjonen og konsumerismen som følger av dette. Sosialt slaveri er samfunnets avhengighet av staten, tapet av all finansiell, moralsk og politisk autonomi.
 
@@ -1357,7 +1406,7 @@ I 1947, fem år etter den franske oversettelsen av _The General Theory_, publise
 Det er sannsynlig at den neste depresjonsperioden vil føre til en utbredt anvendelse av politikken foreslått av Lord Keynes over hele verden. Jeg er ikke redd for å ta feil når jeg sier at denne politikken kun vil redusere arbeidsledigheten i liten grad, men den vil ha dype konsekvenser på utviklingen av landene der den vil bli anvendt. (...) På grunn av Lord Keynes vil den neste syklusen være en mulighet for dype politiske endringer, som noen håper på, mens andre frykter. Uansett, basert på en falsk teori, vil de tiltakene som vil bli implementert ha dypt forskjellige konsekvenser fra de de var ment å fremme. Deres ineffektivitet vil, for en stor del av offentlig opinion, være en ny grunn til å kreve erstatning av et regime som, ved å nekte seg selv, vil ha ødelagt seg selv.
 Fra 1958 vil en politikk for å rette opp den franske økonomien, inspirert av Jacques Rueff, bli gjennomført under myndighet av General de Gaulle. Det vil lede til de berømte "Trente Glorieuses" (Tretti strålende år).
 
-![image](assets/6/img-014.webp)
+![image](assets/fr/094.webp)
 
 I _Vestens monetære synd_, i 1971, skriver Rueff:
 
@@ -1365,7 +1414,7 @@ I _Vestens monetære synd_, i 1971, skriver Rueff:
 
 Han legger til: "Inflasjon er å subsidiere utgifter som ikke gir noe med penger som ikke eksisterer." Ifølge ham: "Man skulle tro, ved å observere utviklingen av det internasjonale monetære systemet, at Vesten anvender Lenins råd, ifølge hvilket: For å ødelegge det borgerlige regime, er det nok å korruptere dets valuta.
 
-![image](assets/6/img-004.webp)
+![image](assets/fr/095.webp)
 
 I 1976 angriper han keynesianismen en siste gang i en artikkel for avisen _Le Monde_.
 Ingen religion har spredt seg over verden så raskt som arbeidets religion. Drevet av minnet om arbeidsløshetstragediene som herjet England og Tyskland på 1920-tallet, har den blitt det fremste prinsippet, enten uttrykt eller underforstått, for økonomisk politikk i nesten hvert land i verden. Ved å skjule sitt formål under den smarte og tilsynelatende forkledningen av "generell teori", opphøyet av entusiastiske og blinde disipler til statusen som en regjeringshandlingsbibel, har den maskert det sanne ansiktet til inflasjonspolitikkene den dekket over. Gjennom denne omveien har den gitt en god samvittighet til regjeringer som, etter å ha uttømt sine muligheter for skatter og låneopptak, tydde til de bedragerske gledene ved pengekreasjon. (_Slutten på den keynesianske æraen eller: Når det lange løp løp ut_, Euromoney, april 1976, s.70-7.)
@@ -1380,7 +1429,7 @@ Penger er et verktøy som har tillatt mennesker å bevege seg bort fra byttehand
 
 Og det viser seg at en bestemt form for penger gradvis skilte seg ut fra andre for å bli over århundrene den globale referansestandarden, som er gull.
 
-![image](assets/6/img-002.webp)
+![image](assets/fr/096.webp)
 
 Faktisk er gull en hard valuta, vanskelig å produsere, kostbar å forfalske. Markedet har valgt gull som den mest pålitelige, mest holdbare og minst manipulerbare valutaen. Historien viser at når individer kan velge valutaen de bruker, har de en tendens til å velge gull.
 
@@ -1396,20 +1445,22 @@ Dette er grunnen til at Ludwig von Mises skriver i _Human Action_:
 
 Bretton Woods-systemet, designet i 1944 og fullt implementert i 1959, var basert på både gull og dollaren, den eneste valutaen som kunne konverteres til gull. Derfor var det nødvendig å akkumulere dollar for å kunne oppnå gull.
 
-![image](assets/6/img-007.webp)
+![image](assets/fr/097.webp)
 På den tiden, spesielt under Vietnamkrigen, førte økningen i USAs regjeringsunderskudd til at mange utenlandske land, inkludert Frankrike, ønsket å konvertere sine dollar til gull hos FED. Den 15. august 1971 bestemte president Nixon seg for å kansellere løftet om dollar-konvertibilitet til gull, og skapte dermed den første helt papirbaserte valutaen i USAs historie. Fra denne dagen kan man datere øyeblikket da penger fullstendig kom under kontroll av sentralbankene. I et intervju skal Richard Nixon ha uttalt:
 
 > Vi er alle keynesianere i dag.
 
 Faktisk, for mange keynesianske økonomer, ga oppgivelsen av gullstandarden regjeringene den fleksibiliteten som var nødvendig for å svare på eller forhindre økonomiske kriser.
 
-![bilde](assets/6/img-009.webp)
+![bilde](assets/fr/098.webp)
 
 Ifølge Alan Greenspan, tidligere formann for FED, den amerikanske sentralbanken, er gullstandarden uforenlig med statsgjeld og finansiering av velferdsstaten:
 
 > Jeg har alltid hatt en nostalgi for prisstabiliteten som er iboende i gullstandarden; et stabilt valuta var dens primære mål. Men jeg har lenge siden innrømmet at gullstandarden ikke lett tilpasser seg den rådende oppfatningen av en regjerings funksjon, spesielt plikten til å sikre et sosialt sikkerhetssystem. \[…\] De fleste amerikanere har tolerert inflasjon som prisen å betale for å ha en moderne velferdsstat. Det er ikke lenger noen forkjempere for gullstandarden, og jeg ser lite mulighet for dens retur. (_The Age of Turbulence_).
-> Tvert imot, for folk som Jacques Rueff, er å forlate edelmetall en feil som bare kan føre til en kontinuerlig nedgang i kjøpekraft, ledsaget av en nedgang i levestandarder, en økning i inntektsulikhet, og voksende økonomisk ustabilitet.
-> ![bilde](assets/6/img-008.webp)
+
+Tvert imot, for folk som Jacques Rueff, er å forlate edelmetall en feil som bare kan føre til en kontinuerlig nedgang i kjøpekraft, ledsaget av en nedgang i levestandarder, en økning i inntektsulikhet, og voksende økonomisk ustabilitet.
+
+![bilde](assets/fr/099.webp)
 
 I februar 1965, under en TV-sendt pressekonferanse, hadde General de Gaulle, direkte inspirert av Rueff, foreslått en retur til gullstandarden. Han uttalte:
 
@@ -1419,7 +1470,7 @@ I februar 1965, under en TV-sendt pressekonferanse, hadde General de Gaulle, dir
 
 I 1976 foreslo Hayek et alternativ til statens monopol på valutaskapelse: konkurranse mellom valutaer. I sin bok, _Pour une vraie concurrence des monnaies_ (_The Denationalization of Money_), forestilte han seg et penge marked uten statlig monopol der flere private valutaer ville eksistere. Skapelsen og forvaltningen av forskjellige valutaer av private enheter ville tillate individer å velge den mest stabile og pålitelige valutaen, og dermed oppmuntre til konkurranse og disiplin blant utstedere.
 
-![bilde](assets/6/img-003.webp)
+![bilde](assets/fr/100.webp)
 
 Han skriver:
 
@@ -1427,7 +1478,7 @@ Han skriver:
 
 For Hayek, kommer den tidligere ustabiliteten i markedsøkonomien fra det faktum at den viktigste regulatoren av markedsmekanismene, nemlig penger, ikke selv kunne være produktet av en markedsprosess.
 
-![bilde](assets/6/img-006.webp)
+![bilde](assets/fr/101.webp)
 Hayek trodde at et fritt marked av private valutaer ville føre til større monetær stabilitet. Nesten 50 år senere, representerer en kryptovaluta som Bitcoin Hayeks konkurransepregete visjon ved å tilby et desentralisert alternativ til det monopolistiske systemet til sentralbankene. Bitcoin, med sin emisjonsgrense på 21 millioner enheter, er en garanti mot inflasjon og regulatorisk vilkårlighet.
 
 
@@ -1436,7 +1487,7 @@ Hayek trodde at et fritt marked av private valutaer ville føre til større mone
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
 Krisen vi går gjennom er en sivilisasjonskrise, det vil si en intellektuell krise med moralske, politiske og økonomiske konsekvenser.
 
-![bilde](assets/6/img-000.webp)
+![bilde](assets/fr/102.webp)
 
 Det snakkes mye om politikkens krise, nedgangen i parlamentarisk demokrati, representativt styresett, og dermed frihet. Denne krisen tilskrives ganske enkelt kapitalismen og "markedenes diktatur."
 

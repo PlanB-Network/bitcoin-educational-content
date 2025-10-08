@@ -91,7 +91,7 @@ Ni kuki iki cigwa citwa: Amateka y’Umwidegemvyo? Kubera ko dukeneye gutahura i
 
 > Iyo kahise katagimurikira kazoza, impwemu igenda mu mwijima (Alexis de Tocqueville - _Demokarasi muri Amerika_).
 
-![image](assets/1/img-028.webp)
+![image](assets/fr/001.webp)
 
 
 Muri ico gihe nyene, Auguste Comte yavuze ati: «Umuntu ntamenya neza ubuhinga gushika amenye amateka yabwo». Ukwo kuri kwoshobora gukoreshwa ku ciyumviro c’umwidegemvyo.
@@ -99,7 +99,7 @@ Muri ico gihe nyene, Auguste Comte yavuze ati: «Umuntu ntamenya neza ubuhinga g
 Nkako, umwidegemvyo si iciyumviro gishasha. Ni iragi ry’abantu bava mu mayaruka. Amateka yose y’ubutetsi arashingira intahe urugamba rudahera rwo kurondera umwidegemvyo.
 
 
-![image](assets/1/img-022.webp)
+![image](assets/fr/002.webp)
 
 
 Ariko rero, intumbero y’iyi nyigisho si iyo gutanga umuco ku mateka y’umwidegemvyo gusa, ariko kandi—kandi ikiruta vyose—ni iyo gutera imbere mu vyiyumviro bikomeye. Nkako, amateka yonyene ntahagije kugira ngo umuntu acire urubanza ivy’ubu n’ivy’imbere. Bikeneye kujana n’uguzirikana neza no guca urubanza ku makosa ya kera. Ivyo ni vyo filozofiya itanga. Ni co gituma iyi nyigisho nayise 'Amateka ya Filozofiya y'Umwidegemvyo.' Ni ukuvuga vy’ukuri gutohoza ingene abanyabwenge bafashe umwidegemvyo mu bihe vyose.
@@ -115,7 +115,7 @@ Kuva mu ntango zayo, zari zifise intumbero zibiri:
 - Ica mbere, ni uguha insobanuro ivyiyumviro bitamenyekana kandi bitera urujijo. Ni igiki ciza, c’ukuri, c’ubutungane, ciza? Nk’uko nyene igikorwa ca kahise ari ugumurikira kahise, ni ko filozofiya ari ubuhinga bwo gusobanura neza ivyiyumviro. Ni co gituma dukwiye gutangura iyo nyigisho mu gutahura ico ari co umwidegemvyo.
 
 
-![image](assets/1/img-027.webp)
+![image](assets/fr/003.webp)
 
 
 Umwidegemvyo ni iciyumviro gikubiyemwo ibintu vyinshi bitandukanye, ari vyo bishobora gutuma umuntu agira ingorane nyinshi z’ukuri kumwe: umwidegemvyo wa politike, umwidegemvyo wo mu vy’ubutunzi, umwidegemvyo wo mu mutimanama, umwidegemvyo wo kuvuga, umwidegemvyo wo mu vy’idini, umwidegemvyo wo kwifatanya n’abandi, n’ibindi. None ni ukuri nyabaki turiko turavuga?
@@ -136,7 +136,7 @@ Ica kabiri, filozofiya ni iyo gushingira intahe, mu gihe amateka ari iyo kudondo
 Uvuye muri iyo nzira, hari ubwoko bubiri gusa bw’ubuhinga bwa politike: ubuhinga bw’umwidegemvyo n’ubuhinga bw’ububasha.
 
 
-![image](assets/1/img-016.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -152,17 +152,17 @@ Ababuranira filozofiya ya mbere mu Bufaransa ni aba Fiziyokarate, François Ques
 
 > Si kubera ko hari amategeko hariho ivy’ubutunzi, ahubwo ni kubera ko hariho ivy’ubutunzi hariho amategeko. (_Itunga n’Itegeko_).
 
-![image](assets/1/img-018.webp)
+![image](assets/fr/005.webp)
 
 
 Ku bwa Turgot na Say, abigishwa ba Quesnay, hariho itegeko ry’akameremere, ryigenga ku vyipfuzo vy’abashingamateka, rifise akamaro ku bantu bose kandi rikaba ribanza ikibano ico ari co cose. Iyo filozofiya iva ata guca ku ruhande ku buhinga bwo mu vy’ubuhinga bwo mu kinjana ca mbere, ari bo Basitoyika, Aristote na Sophocle. Amategeko atanditswe aza imbere y’amategeko yanditswe kandi arayasumba kuko akomoka kuri kamere n’ubwenge bw’umuntu.
 
 
-![image](assets/1/img-014.webp)
+![image](assets/fr/006.webp)
 
 Filozofiya ya kabiri iboneka mu banditsi nka Rousseau, Robespierre canke Kant, bafise umugenzo wa repubulika, aho ubusegaba bw’ubushake rusangi bufatwa nk’isoko nyakuri y’amategeko. Rousseau yabayeho mu gihe ca Quesnay, kandi ni umuntu arwanya ivy’ubuhinga bw’umubiri. Kuri we, umushingamateka ategerezwa gutunganya ikibano, nk’umumekanishije ahingura imashini akoresheje ibintu bitagira ico bikora.
 
-![image](assets/1/img-026.webp)
+![image](assets/fr/007.webp)
 
 
 > Rousseau avuga ati: «Uwushobora gushinga igihugu, ategerezwa kwumva ashoboye guhindura, mu mvugo y’ikigereranyo, kamere y’umuntu, guhindura umuntu wese, we ubwiwe, ari ikintu cose gitunganye kandi kiri wenyene, akagira igice c’ikintu kinini kuruta ico uwo muntu aronkamwo, mu buryo bumwe, ubuzima bwiwe n’ukubaho kwiwe.» (_Isezerano ry'imibano_)
@@ -200,7 +200,7 @@ Amateka rero ni urugamba hagati y’ingingo ngenderwako zibiri: umwidegemvyo n�
 ### None agahahazo ni iki?
 
 
-![image](assets/1/img-025.webp)
+![image](assets/fr/008.webp)
 
 
 Mu ijambo rimwe, ni ugusahura. Bastiat aradondora uburyo nyamukuru bwo gusahura buva ku bakuru b’igihugu: intambara, ubuja, ubutegetsi bwa gitewokarasi be n’ubutegetsi bw’umuntu umwe. Nkako, nk'uko abivuga: «Hari uburyo bubiri gusa bwo kuronka ivya nkenerwa vyo kuzigama, gushaza no guteza imbere ubuzima: UGUSHIRAHO n'UGUSAHURA». ([_Ivy'umubiri w'abantu basahura_](http://bastiat.org/fr/ivy'umubiri_w'ugusahura_html))
@@ -229,7 +229,7 @@ Mu gitabu ciwe [_Ivyerekeye umubiri w’umuntu asahuye_](http://bastiat.org/fr/i
 ### Amateka y'ugusahura
 
 
-![image](assets/1/img-020.webp)
+![image](assets/fr/009.webp)
 
 
 Mu mateka, abategetsi b’abanyacubahiro bama babaho ku gusahura. Ivyiyumviro vya Bastiat:
@@ -259,7 +259,7 @@ Imisi mikeyi imbere y’uko apfa i Roma mu 1850, Bastiat yarabwiye umugenzi wiwe
 Birazwi ko abatsinze ari bo bandika amateka. Akenshi umuntu yibanda ku kwigarurira ubutegetsi, ku buzima bw’abarongozi bari ku butegetsi, no ku ntambara zibarwanya n’abashaka gufata ikibanza cabo.
 
 
-![image](assets/1/img-023.webp)
+![image](assets/fr/010.webp)
 
 
 Ivyo ni ko biri canecane ku bitabu vy’inyigisho vyerekeye amashure ya Leta kandi vyanditswe n’abaporofeseri bakoreshwa na Leta.
@@ -275,7 +275,7 @@ Uwo mwanditsi azwi cane kubera amajambo yiwe agira ati: "Ububasha burakunda kwon
 ### Inyigisho ya Acton
 
 
-![image](assets/1/img-029.webp)
+![image](assets/fr/011.webp)
 
 
 Ku bwa Acton, intambara iri hagati y’umwidegemvyo n’ububasha ni yo nsiguro nyamukuru mu mateka y’abantu, kandi umwidegemvyo ni wo utuma abantu batera imbere kandi bagatera imbere mu mibano. Acton yararondeye gutahura ibintu vyatumye umwidegemvyo utera imbere mu Burengero. Intumbero yiwe yari iyo kumenya ibintu bikenewe kugira ngo izigame kandi itere imbere. Yarize ivyiyumviro vya filozofiya, imiterere y’imibano be n’ivya politike vyatuma bivyuka uko igihe kigenda kirarenga.
@@ -302,7 +302,7 @@ Gutyo, Voltaire, mu gitabu ciwe [_Amakete ya filozofiya_](https://fr.wikisource.
 
 > Iyo mu Bwongereza haba idini rimwe gusa, ubutegetsi bwaryo bw’agahomerabunwa bwobaye ubwo gutinya; iyo baba babiri gusa, baraca imihogo; ariko hari mirongo itatu, kandi babana amahoro n’agahimbare. ([Ku vyerekeye Abapresbiteriyani](Ikete_ry'ubuhinga bwa filozofiya/Ikete_6))
 
-![image](assets/1/img-105.webp)
+![image](assets/fr/012.webp)
 
 
 Condorcet, mu gitabu ciwe [_Igishushanyo c'Ishusho y'Amateka y'Iterambere ry'Ubwenge bw'Umuntu_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99ku_mbonerahamwe_y'amateka_y'iterambere%C3%A8s_de_l%E2%80%99, yashize ahabona ububasha_bw'abantu mu9 Ubutaliyano gushika ku ntambara yari hagati ya papa n’umwami w’abami, ivyo bikaba vyatumye ibisagara vyinshi vyigenga bitera imbere.
@@ -318,7 +318,7 @@ Iyi nyigisho iraboneka kandi mu gitabu gikomeye co mu 1983: _Itegeko n’Impindu
 
 Ariko rero, hariho ubundi buryo bwo kubona amateka. Yarateye imbere cane kandi imaze igihe kirekire ishigikiwe n’abanyabwenge bo mu Burengero be n’abaserukira igihugu co mu Bumanuko bw’Isi. Ivyo ni vyo abasosiyalisiti n’abamarxiste babona amateka.
 
-![image](assets/1/img-024.webp)
+![image](assets/fr/013.webp)
 
 
 Bisigura iterambere ridasanzwe ry'Uburaya ahanini biciye mu gutera imbere kw'ubuhinga bufatanijwe n'"ukwirundanira kw'intango" kw'ubutunzi, buva ku butegetsi bw'abami, ubuja, ubudandaji bw'inkomoko zitatu, ukwigarurira abarimyi batobato, no gukoresha nabi umugwi w'abakozi. Insozero iratomoye. Ukwo kwiyongera kudasanzwe kw’i Buraya kwashitsweko kubera amamiliyoni n’amamiliyoni y’abaja n’abantu bahahazwa.
@@ -346,7 +346,7 @@ Iryo sesangura ryerekana ukutamenya neza agaciro k’inyongera n’ubufatanye n�
 
 Nkako, isesengura ry’aba Marxiste rigoranya ukuri kw’amateka y’Impinduka y’Inganda. Ludwig von Mises yaratomoye neza ico kibazo mu gitabu ciwe c’ubutunzi [_Ibikorwa vy’umuntu_](raba canecane igice citwa [Isobanuro ry’abantu benshi ry’ivy’inganda . Impinduka](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) hamwe n’uruhererekane rw’inyigisho zasohowe zifise umutwe uvuga ngo: [_Itegeko ry’ubutunzi: Ivyiyumviro vy’uyu musi n’ejo_](http://herve.dequengo.free/DMPEht.Mises/). (Ivyo birabereye gusoma, Ivyiyumviro birwanya ubucapitaliste [hano] (aha] (aha] n’igitabu [hano]
 
-![image](assets/1/img-030.webp)
+![image](assets/fr/014.webp)
 
 
 Mises asigura yuko akazi ko mu mahinga, naho kari gateye agahinda ku rugero rwacu, kari akaryo keza kuruta ayandi yose ku bakozi bo muri ico gihe.
@@ -367,7 +367,7 @@ Mises yongerako yuko rero ugutera imbere kw’imibereho y’abantu kwashobotse b
 Imbere y’Impinduka y’Inganda, abantu benshi baba mu mibano yo mu misozi kandi bava ku buhinzi kugira ngo babeho. Bari bafise bikeyi vyo kugurisha mw’isoko, ivyo bikaba vyatuma batagira uturyo n’ubuzima bwabo. Umuntu wese yari yiteze kubaho mu bukene burengeye urugero kandi yari yiyumvira ko abakomoka kuri bo bazoshikirwa n’ivyo nyene. Nta n’umwe yashavujwe n’ikintu cari kimeze nk’ikitari co.
 
 
-![image](assets/1/img-106.webp)
+![image](assets/fr/015.webp)
 
 
 Igihe inganda zaza, harabonetse uturyo tushasha, ivyo bica bituma abantu barushiriza gushaka abakozi. Ku ncuro ya mbere, abantu batagira ubutaka canke ubutunzi buhambaye barashobora kugurisha ibikorwa vyabo ku mahinga n’abahinguzi bo muri Exchange kugira ngo baronke umushahara, gutyo bagashobora kuronka umutekano wo muri kazoza.
@@ -394,7 +394,7 @@ Hanyuma, isesengura ry’amateka ry’agaciro kuruta irya Marx rituma dushobora 
 Nk’uko Jean Baechler, umwe mu bagize ishure ry’ubuhinga bw’inyifato runtu n’ivya politike, abivuga mu gitabu ciwe _Inkomoko ya kapitalizimu_ (1971):
 
 
-![image](assets/1/img-021.webp)
+![image](assets/fr/016.webp)
 
 
 > Ivyangombwa vya mbere vyo gutuma ubutunzi bugira akamaro kanini ni ukubohora sosiyete civil kuri Leta (...) Ukwaguka kw’ubu kapitalizimu gukomoka ku ntambara ya politike.
@@ -416,7 +416,7 @@ Mu gusozera iki gice, ugutera imbere kw’ubutunzi n’umuco kw’Uburaya ntikwa
 Mu kigabane ca nyuma c’igitabu _Ivy’Igihugu_ (cahinduwe mu gifaransa ngo _L’anatomie de l’Etat_, n’ibinyamakuru vya Résurgence), Murray Rothbard aratanga iciyumviro c’amateka. Iki gice kigufi cane citwa 'Amateka: Ihiganwa hagati y'ububasha bwa Leta n'ububasha bw'imibano.' Nk’uko Rothbard abivuga, amateka arashobora gutahurwa nk’indyane zidahera hagati y’ingingo ngenderwako zibiri z’ishimikiro:
 
 
-![image](assets/1/img-013.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -454,7 +454,7 @@ Itegeko nshinga ryanditse nta gukeka ko rifise ivyiza vyinshi, ariko ni ikosa ri
 ### Ikinyejana ca 20: Ikinyejana co gusubira inyuma
 
 
-![image](assets/1/img-012.webp)
+![image](assets/fr/018.webp)
 
 
 Nk’uko Rothbard abivuga, amateka si inzira y’umurongo, ahubwo ni uguhungabana hagati y’iterambere ry’ububasha bw’imibano n’ugusubira kugenzura na Leta:
@@ -469,9 +469,10 @@ Hagati y’ikinjana ca 17 n’ica 19, mu bihugu vyinshi vyo mu Burengero, haraba
 
 
 > Muri iki kinjana, umuryango w’abantu urahanganye, kandi, n’ingoma y’ubukazi ya Leta; Leta ubu ifise ibirwanisho vy’ububasha bwo kurema bw’umuntu, ikaba ifashwe kandi igoramye kubera intumbero zayo.
-> None igihugu cidegemvya ni iki? Ni igihugu kitagira uwugikoresha. Mu gitabu ciwe c'ubuhinga bwa politike, _Ethics of Liberty_ (1982), Rothbard arishura ati: "ikibano aho ata bushobozi bushingiye ku mategeko bwo gutera umuntu canke itunga ry'umuntu uwo ari we wese ku nguvu." Ni co gituma, nk’uko abivuga, filozofiya ya politike, itegerezwa gusobanura ingingo ngenderwako z’ikibano c’ubutungane, igarukira ku kibazo kimwe gusa: «Ni nde afise iki mu buryo bubereye?»
 
-> ![ishusho](itunga/1/ishusho-029.urubuga)
+None igihugu cidegemvya ni iki? Ni igihugu kitagira uwugikoresha. Mu gitabu ciwe c'ubuhinga bwa politike, _Ethics of Liberty_ (1982), Rothbard arishura ati: "ikibano aho ata bushobozi bushingiye ku mategeko bwo gutera umuntu canke itunga ry'umuntu uwo ari we wese ku nguvu." Ni co gituma, nk’uko abivuga, filozofiya ya politike, itegerezwa gusobanura ingingo ngenderwako z’ikibano c’ubutungane, igarukira ku kibazo kimwe gusa: «Ni nde afise iki mu buryo bubereye?»
+
+![image](assets/fr/019.webp)
 
 Ku bwa Rothbard, urutonde rw’imibano rurashobora gutsinda iyo ari umusaruro w’ugushiramwo rusangi uburyo bwo gukora amasezerano ku buntu Exchange y’uburenganzira bw’itunga, bishikwako mu guhindura ibikorwa vyose vy’ubutunzi mbere n’ibikorwa vy’ubutegetsi (nk’amabanki nkuru n’inkiko), no mu gukoresha uguhiganwa hagati y’ibigo vy’uburinzi.
 
@@ -499,7 +500,7 @@ Kandi yongerako ati:
 Ivyo demokarasi y’i Atene yaciyemwo vyasize ikimenyetso kiramvye muri kahise k’ivyiyumviro vya politike kandi birabandanya gutuma habaho ivyiyumviro vya demokarasi n’uruhara rw’abanyagihugu mw’isi y’ubu.
 
 
-![image](assets/2/img-107.webp)
+![image](assets/fr/020.webp)
 
 
 Demokarasi y’i Atene yarangwa n’impaka zikomeye zari zibera mu ruhame ku bijanye n’ivy’igisagara, izo mpari zikaba ahanini zibera mu kibanza citwa agora, ni ukuvuga isoko ry’ico gisagara. Ubwo buryo bwo gukora, bushingiye ku vyiyumviro no ku biganiro bikomeye, bwari butandukanye cane n’imigenzo ya kera aho amategeko n’imigenzo vyabonwa ko ari vyeranda kandi bidahinduka, vyarashikirijwe na ba sogokuruza kandi bikarindwa n’imana.
@@ -510,7 +511,7 @@ Demokarasi y’i Atene yarangwa n’impaka zikomeye zari zibera mu ruhame ku bij
 
 Demokarasi y’i Atene igereranya ugutandukana gukomeye n’imigenzo. Nkako, mu mibano ya kera, ntivyari gushobora kubaho "politike" mu buryo bw'ikiganiro ku mategeko y'imibano, kuko ayo mategeko yashirwaho mu buryo burengeye ubw'abandi n'imigani.
 
-![image](assets/2/img-109.webp)
+![image](assets/fr/021.webp)
 
 
 Umuhinga mu vya kahise yitwa Jean-Pierre Vernant yanditse ati:
@@ -521,7 +522,7 @@ Umuhinga mu vya kahise yitwa Jean-Pierre Vernant yanditse ati:
 
 > (Jean Pierre Vernant, _Inkomoko y’Ivyiyumviro vy’Abagiriki_, i Paris, P.U.F., 1962)
 
-![image](assets/2/img-001.webp)
+![image](assets/fr/022.webp)
 
 
 Ijambo ry'ikigiriki "polis", rituma habaho ijambo ry'icongereza "politics", ryerekeza ku gisagara-gihugu. Iyo Aristote yanditse ngo «umuntu ni igikoko ca politike mu kameremere kavyo», ntibisigura ko yaremewe ubukuru. Mu kuvuga politike, yerekeza ku bushobozi abantu bafise bwo guca irya n’ino mu kibanza ca bose kugira ngo bamenye ikigororotse n’ikitari co.
@@ -550,7 +551,7 @@ Kandi Jean-Pierre Vernant yongerako ati:
 Ico imana zikora zigamije ntikizana ubumwe mu kibano, ahubwo kiva ku kwumvira kw’abanyagihugu bose itegeko rimwe ritagira umuntu. Ububasha ntibukiri ivy’abaherezi. Cacitse ivy’abantu bose. Gutyo haca hasohoka iciyumviro c'uburinganire imbere y'amategeko: "_isonomia_," ariko kandi n'amajambo y'uruyeri. Kumenya neza imvugo vyari bihambaye kugira ngo umuntu yemeze bagenziwe mu makoraniro no mu masentare.
 
 
-![image](assets/2/img-110.webp)
+![image](assets/fr/023.webp)
 
 
 Kuri Aristote, ububisha ni ukugamburuka umuntu, umwidegemvyo na wo ni ukugamburuka itegeko. Ni we yitirirwa aya majambo:
@@ -566,7 +567,7 @@ Cicero, umuvugizi w’Umuroma azwi cane akaba n’umunyabwenge wo mu kinjana ca 
 Iciyumviro ca repubulika kiva muri filozofiya y’Abagiriki. Akenshi vyaratandukanye na demokarasi, bibonwa ko ari akaga cane. Platon yaciye yita igitabu ciwe nyamukuru c’ubuhinga bwa politike: _Repubulika_, kandi acira urubanza demokarasi bikomeye cane. Iyo abantu batwara, hariho ingorane ikomeye yo gutegeka itegeko ry’ivyipfuzo vyabo no gutera urujijo ivyiza n’ivyiza. Ni co gituma urupfu rubabaje rwa Socrate, rwaciriwe urubanza rwo gupfa n’abacamanza bazwi cane, rwakoreshejwe nabi n’abanyabwenge b’ivy’ubuhinga bwa none. Platon yarakuye ivyigwa vyose muri ivyo.
 
 
-![image](assets/2/img-111.webp)
+![image](assets/fr/024.webp)
 
 
 Aristote yokoresha ijambo "repubulika" kugira ngo yerekane itegeko nshinga ry'ubutungane, rigamije inyungu rusangi kandi rifata abanyagihugu nk'abantu bidegemvya. Intwaro y’ukuri y’umwidegemvyo ni iyo itegeko ari rusangi, ringana kuri bose, ritamenyekana, atari itegeko ry’umuntu ku giti ciwe.
@@ -592,7 +593,7 @@ Abagiriki ubwabo baragereranije iyo nkuru y’intango maze barayimenya mu ntango
 (_Ubugiriki bwa kera mu gihe c’ukuvumbura umwidegemvyo, Paris, Integuro y’ikinyamakuru ca Fallois, 1989_)
 
 
-![image](assets/2/img-108.webp)
+![image](assets/fr/025.webp)
 
 
 Herodote arajijutse yuko abantu b’abantu bidegemvya ari abantu bumvira itegeko atari shebuja, nk’uko vyari vyifashe mu bwami bw’Ubuperesi, aho umuntu umwe gusa ari we yidegemvya abandi bose bakaba abaja. Ivyo ni ko biri kuri Atene, demokarasi, ariko ni ko biri no kuri Siparita. Umwami si we arema ivyagezwe. Ntategeka ivyo agomba. Arazi neza ko itegeko ryubahirizwa, ari mu gikorwa caryo, kandi apfa, iyo bikenewe, kugira ngo arirwanire.
@@ -604,7 +605,7 @@ Herodote arajijutse yuko abantu b’abantu bidegemvya ari abantu bumvira itegeko
 Kuva ku vyiyumviro vy’imigani, Thales, Anaximander, Anaximenes, mu nyuma na Democrite na Empedocles ni bo babanje kurondera gutahura phusis (kamere) biciye ku vyiyumviro, aho gukoresha ibintu bidasanzwe.
 
 
-![image](assets/2/img-009.webp)
+![image](assets/fr/026.webp)
 
 
 Ingingo ngenderwako y’ishimikiro yashizweho n’abo ba filozofe ba mbere b’imbere ya Socrate ni uko Elements ya kosmos (isi n’ijuru) iguma mu kibanza cayo kuko yose ijana n’“itegeko ry’ibidukikije” (phusis) rimwe rishobora kuvugwa kw’isi yose kandi ari ngombwa. Isanzure ry’ikirere rirafise ivyiyumviro; igize ikintu cose gitunganijwe, umuntu ashobora kuvumbura n'ubwenge bwiwe ("logos" bitandukanye n'"mutos", inkuru y'imigani).
@@ -615,7 +616,7 @@ Nk’uko Karl Popper abivuga, dufise umwenda wo guhingura ubuhinga bwo guca irya
 Ku bijanye n’ibimenyetso vya mbere vy’ukubaho kw’agatima ko kunegura, k’umwidegemvyo mushasha wo kwiyumvira, biraboneka mu vyo Anaximandre yaneguye Thales. Ivyo ni ikintu kidasanzwe cane; umunyabwenge Anaximandre anegura ni shebuja, umunyagihugu wiwe, umwe mu Banyabwenge indwi, ni we yashinze Ishure ry’Iyoniya. Dukurikije imigenzo, Anaximander yari afise imyaka cumi n’ine gusa ari muto kuri Thales, kandi birashoboka ko ari we yateguye ivyo yanegura yongera ashikiriza ivyiyumviro vyiwe bishasha mu gihe shebuja yari akiriho, kuko vyapfuye, bisa n’uko vyari bitandukanye imyaka mikeyi. Ariko rero, nta kimenyamenya c’uko hariho ukutumvikana, ugutongana canke uguca ibice kiboneka mu masoko.
 
 
-![image](assets/2/img-008.webp)
+![image](assets/fr/027.webp)
 
 
 Ivyo bitabu Elements, nk’uko abivuga, vyerekana ko Thales ari we yatanguje uwo mugenzo mushasha w’umwidegemvyo, ushingiye ku bucuti bw’intango hagati ya shebuja n’umwigishwa. Thales yarashoboye kwihanganira ukunegurwa, kandi yarashizeho umugenzo wo kuvyemera. Popper yerekana aha ko hariho ugutandukana n’umugenzo w’inyigisho z’idini, wemera inyigisho imwe gusa y’ishure, maze akayisubirira n’ubunywanyi n’ugukosa.
@@ -644,7 +645,7 @@ Ubwami bw’Uburoma bwari igihugu kinini cane, gifise abantu benshi. Igihe cari 
 - Mu buseruko, ryari rishika muri Mezopotamiya (ubu ni Iraki) no muri Arménie.
 
 
-![image](assets/2/img-007.webp)
+![image](assets/fr/028.webp)
 
 
 Kuva ico gihe, Abaroma barateje imbere cane uguteza imbere amategeko kuruta Abagiriki, bakaba baba mu bisagara bitobito bifise ubwoko bumwe. Mu gihe ca Repubulika y’Uburoma, hariho uburinzi bw’amategeko n’uburenganzira bw’umuntu ku giti ciwe.
@@ -659,7 +660,7 @@ Ivy’abantu ku giti cabo vyaciye bifata urugero rushasha mu buhinga bw’Abarom
 Amategeko y’Abaroma yobaye umushinge w’amategeko yose yo muri iki gihe yo mu Burengero kuva mu kinjana ca mbere gushika n’ubu.
 
 
-![image](assets/2/img-012.webp)
+![image](assets/fr/029.webp)
 
 
 ### Ugukingira uburenganzira bw'umuntu ku giti ciwe
@@ -674,7 +675,7 @@ Iri tegeko rihuye bitangaje n’uburenganzira bw’ishimikiro bw’abantu nk’u
 Nta gukeka ko abagore, abaja n’abanyamahanga bari bakiri kure y’uko itegeko rikingirwa bimwe bishitse. Naho ari ukwo, Itegeko ry’Imeza Cumi n’Ibiri ryari rigereranya iterambere rikomeye kandi ryashizeho umushinge w’iterambere ry’uburenganzira bw’umuntu ku giti ciwe, ubwo burenganzira bwaciye bushikirizwa bose.
 
 
-![image](assets/2/img-006.webp)
+![image](assets/fr/030.webp)
 
 
 Itegeko ry’Imeza Cumi n’Ibiri rishira ahabona cane cane uburenganzira bw’umutungo:
@@ -710,7 +711,7 @@ Icitegererezo c’uburimbane mu vyiyumviro ni Sénèque, umunyabwenge w’Umurom
 Igitabo kivuga ku buzima buteye umunezero (_De Vita Beata_) ni ugusaba inyifato runtu y’Abasitoyika. Seneca avuga ko umunezero ari umutima widegemvya \[...\] udashobora gushikwako n'ubwoba \[...\] uwo ikibi conyene ari ukudatera iteka mu vy'inyifato runtu." Uwo munyabwenge w’Umusitoyika yari umwigishwa wa Socrate, ntatinya ikibi co ku mubiri, urupfu, canke mbere no gushikirwa n’akarenganyo. Kuri we, ikibi conyene ni ikibi co mu vy’inyifato runtu. Ivyiza rero bisumba vyose biri mu ngeso nziza.
 
 
-![image](assets/2/img-011.webp)
+![image](assets/fr/031.webp)
 
 
 Ariko rero, umunezero ntuhuye n’ingeso nziza:
@@ -746,7 +747,7 @@ Aristote atandukanya ubutungane busanzwe n’ubutungane bushingiye ku mategeko. 
 Umwanditsi w’ibikino Sophocles, mu gikino ciwe _Antigone_, ashiraho amakimbirane hagati y’itegeko ry’Imana n’itegeko ry’abantu. Antigone yanse kwumvira itegeko ry’Umwami Kreyoni, ryabuza guhamba mwenewabo, avuga ko amategeko y’Imana, kubera ko adahinduka kandi aruta amategeko y’abantu.
 
 
-![image](assets/2/img-002.webp)
+![image](assets/fr/032.webp)
 
 
 Igihe Antigone atumvira Kreyoni, arwanya itegeko ryiza kugira ngo yumvire ijwi ryiwe ryo mu mutima ry’inyifato runtu n’iry’idini. Aristote avuga ko iyo hariho itegeko ryiza gusa, Creon yama ari ukuri, mbere n’igihe yoba ari mu makosa. Ariko nitwagumya iciyumviro co gutegeka c’itegeko ry’akameremere canke ry’Imana, Antigone arashobora guhaguruka igihe kigeze, agasaba ngo arwanye itegeko ritagira ubutungane, uburenganzira burengeye ubw’itegeko ritanditswe.
@@ -758,7 +759,7 @@ Igihe Antigone atumvira Kreyoni, arwanya itegeko ryiza kugira ngo yumvire ijwi r
 Cicero yabaye mu kinjana ca mbere imbere ya Kristu, kandi afatwa nk’umwe mu bavuga cane ururimi rw’ikilatini mu gihe c’Ubwami bw’Uburoma. Ni umunyabwenge kandi mu vy’inyifato runtu no mu vya politike afise ubucuti bwa hafi n’Abasitoyika. Abanyaburaya bize baramaze ibinjana vyinshi basoma inkuru ziwe.
 
 
-![image](assets/2/img-004.webp)
+![image](assets/fr/033.webp)
 
 Mu gitabu ciwe _Ku mategeko_ (_De Legibus_), arazirikana ku mushinge w’amategeko. Nk’uko yabivuze, itegeko ryiza, ni ukuvuga urutonde rw’amasezerano canke amategeko yanditse yemejwe n’ikibano, ntirishobora gushinga ubutungane bukwiye iryo zina. Hariho ubutungane busanzwe, bwanditswe mu vyiyumviro vy'umuntu: « itegeko rifise umushinge mu kamere ubwayo ». Kuvuga ko abatagira ubutungane ari ingaruka y’ikoraniro ni ukuvuga ko ukuri kwategetswe. Ariko rero, ukuri ntigushobora gutegekwa, mbere n’abantu benshi; ni ryo riyobora imanza zacu.
 
@@ -789,13 +790,13 @@ Mu kwemeza yuko itegeko ridashobora kugabanywa ngo ribe gusa amategeko ashirwaho
 Ni kuki Roma yacitse intege maze amaherezo ikagwa? Benshi barakunda kwiyumvira yuko Ubwami bw’Uburoma bwasenyutse bukwi na bukwi, kubera ingaruka z’ibitero vy’abanyamahanga. Ariko rero, imvo z’ugusenyuka kw’Ubwami bw’Uburoma zizoboneka imbere cane, mu butegetsi bw’abami n’ubutegetsi bw’ubutunzi n’amahera.
 
 
-![image](assets/2/img-013.webp)
+
 
 
 Mu mwaka w’1734, mu gitabu ciwe _Ivyiyumviro ku mpamvu z’ubukuru bw’Abaroma n’ugusenyuka kwabo_, Montesquieu yarateguye inyigisho y’intango kandi yunze ubumwe kugira ngo asigure ukuntu ubutegetsi bw’Abaroma bwadutse n’ukuntu bwatemba: umwidegemvyo waronswe mu gihe ca Repubulika, hanyuma ukabura mu gihe c’Ubwami. Kuva aho ubutegetsi bw'Abaroma bwagutse, umwidegemvyo warazimiye, maze ugusenyuka kuratangura.
 
 
-![image](assets/2/img-003.webp)
+![image](assets/fr/034.webp)
 
 
 Ubwami bw’Uburoma bwari intwaro y’igisirikare y’ibikoko, ikaba yari gushobora gusa kurokoka biciye ku butunzi bwahora buza buva hanze, imbohe zigacika abaja, n’ibihugu vyibwa.
@@ -832,7 +833,7 @@ Hanyuma, ukudatekana kwa politike kwarongerewe ku kudatekana kw’ubutunzi, aho 
 Akarorero ka kera k’ugushiramwo ibintu mu bikorwa vyabonetse i Roma igihe Umwami w’abami Dioclétien yashaka guhagarika ibiciro. Ukwinjira mu gihugu bisobanurwa nk’igikorwa c’ububasha burenze uruhara rwabwo mu kubungabunga urutonde no kurinda abanyagihugu. Ni ukugerageza gucungera isoko, ugamije guhindura ibiciro, umushahara, inyungu n’inyungu.
 
 
-![image](assets/2/img-005.webp)
+![image](assets/fr/035.webp)
 
 
 Ivyo abami b’abami bakurikiranye basubiramwo kugira ngo bashobore guhangana n’ukwiyongera kw’amahera yakoreshwa mu gisirikare, vyari vyatumye ibiciro vy’ibintu vyiyongera. Mu mwaka wa 301, Dioclétien yaratangaje Itegeko ry’Umukuru w’Igihugu kugira ngo agerageze kubafunga. Vyari ukunanirwa.
@@ -851,7 +852,7 @@ Umwami w’abami w’Uburoma Dioclétien arazwi cane ko ari we mwami wa nyuma w�
 Philippe Fabry akurikije inzira ya Montesquieu, yerekana ko Roma yaciye mu nzira iva ku butegetsi bw’ubwigenge ikaja ku butegetsi bw’ubumwe bw’abantu. Philippe Fabry ni umuhinga mu vya kahise k’amategeko, inzego n’ivyiyumviro vya politike. Yarize muri kaminuza ya Toulouse 1 Capitole kandi ni umwanditsi w’ibitabu vyinshi, harimwo _Roma, kuva ku butegetsi bw’uburenganzira gushika ku butegetsi bw’ubumwe_(2014).
 
 
-![image](assets/2/img-010.webp)
+![image](assets/fr/036.webp)
 
 
 None Roma yoba yari ububasha buhambaye kuruta ubundi bwose bwo kwidegemvya mw’isi ya kera? None rero ryaguye mu buryo bumwe bw’ubusosiyalisimu? Reka tubanze dusobanure amajambo:
@@ -899,7 +900,7 @@ Kandi yongerako ati:
 Iciyumviro ca gikirisu c'umwidegemvyo carateye imbere mu vy'idini ryo mu kinjana ca mbere, kuva kuri Augustin mweranda mu kinjana ca 4 gushika kuri Thomas d'Aquin mweranda mu kinjana ca 13. Ico ciyumviro ni ikihe?
 
 
-![image](assets/3/img-036.webp)
+![image](assets/fr/037.webp)
 
 
 ### Umwidegemvyo uri mu ciyumviro c'icaha .
@@ -931,7 +932,7 @@ Mu ncamake, umwidegemvyo ni iciza kuko utuma umuntu yitegeka ku ciza no ku Mana,
 
 Mu vy’idini vyo mu kinjana ca mbere, ubutungane ntibutahurwa nk’uguhora Imana yinjira mu buzima bw’abantu, nk’aho Imana yakoze mu izina ryacu kandi tutavyemeye. Ahubwo riho, Imana iha ikiremwa cose, bivanye n’akameremere kaco, ubushobozi butuma kironka ivyo kikeneye, gutyo kigashika ku gukura kwaco kwuzuye. Imana ntikorera neza ikiremwa mu kibanza caco.
 
-![image](assets/3/img-039.webp)
+![image](assets/fr/038.webp)
 
 
 Kandi uko tugenda tuja hejuru mu rugero rw’ibiremwa, kuva ku mabuye y’agaciro gushika ku muntu, ni ko Imana irushiriza guha ikiremwa cayo ububasha bwo gukora ubwaco. Azeza umuntu umwidegemvyo wo kwitegeka no gutegeka isi n’ubwenge bwiwe, akurikije ingeso nziza y’ukwiyubara.
@@ -942,7 +943,7 @@ Gutyo, Tomasi mweranda yandika (_Iciyumviro c’abanyamahanga_, III, 69 na 122):
 
 > Gukura ku butungane bw’ibiremwa ni ugukura ku butungane bw’ububasha bw’Imana (...) Imana iratubabaza gusa kubera dukora ibihushanye n’ivyiza vyacu.
 
-![image](assets/3/img-037.webp)
+![image](assets/fr/039.webp)
 
 
 Ubutungane rero buraduha uburyo bwo kuba ubutungane bwacu bwite. Kandi yongerako ati:
@@ -974,7 +975,7 @@ Nk’uko Tomasi mweranda abivuga:
 Mu kinjana ca mbere, ubwenge n’ukwizera vyari bihiganwa kugira ngo umuntu aronke ukuri. Thomas d’Aquin akurikiye Abélard na Albert Mukuru, mu kinjana ca 13, yahisemwo kurwanira ubwigenge bw’ubwenge mu bijanye n’ukwizera.
 
 
-![image](assets/3/img-048.webp)
+![image](assets/fr/040.webp)
 
 
 Afata mu ciyumviro ca Aristote iciyumviro c’urutonde rw’ibidukikije rwigenga, rudashingiye ku rutonde rw’ijuru. Urutonde rudasanzwe rurarengeye vy’ukuri urutonde rw’ibisanzwe, ariko rurabaho rwitandukanye kandi rurarubanziriza. Kuri we rero, hari uburyo bubiri bwo gushika ku kuri kw’isi na cane cane kw’Imana:
@@ -1013,7 +1014,7 @@ Ico ni co kibanza co hagati, kirondera guhuza ukwizera n’ugutahura. Ugutahura 
 Igihe ca gikirisu co hagati cararanzwe, mu ntango z’ikinjana ca 13, n’ivuka n’ukwiyongera kwa kaminuza zo mu Burengero. Kaminuza ni umuryango w’abanyeshure n’abahinga bo mu gisagara kimwe bagenzurwa na Ekleziya kandi mu ngingo ngenderwako igizwe n’amashure ane: ubuhinga, tewolojiya, amategeko n’ubuvuzi. Tewolojiya ifatwa nk’ubuhinga, bushingiye ku buhinga bw’Abagiriki.
 
 
-![image](assets/3/img-041.webp)
+![image](assets/fr/041.webp)
 
 Mu mwaka w’1200, Philippe-Auguste yarashinze kaminuza y’i Paris, iyo kaminuza ikaba yaciye ihinduka kaminuza izwi cane kuruta izindi zose mu Buraya. Mu mwaka w’1257, Robert de Sorbon yarashinze ishure ryisumbuye ry’ivy’idini muri Kaminuza y’i Paris, iryo shure rizohava ryitwa Sorbonne. Uburyo bushasha bwo kwigisha no gukora ubushakashatsi, buzwi nka scholasticism (buva mu kilatini schola, bisobanura "ishure"), bwaradutse muri izo kaminuza. Yari irimwo "disputatio", ubwoko bw'impaka aho abayigize bashira ahabona ivyiyumviro binyuranye ku bariko baratega yompi. Haciye hashirwaho igitabu c’inyigisho, hanyuma hakurikiraho ivyo kwanka bisaba inyishu. Iyo imvo zose ziheze, shebuja yaratorera umuti iyo mpari akoresheje umuti ushingiye ku vyiyumviro.
 
@@ -1043,7 +1044,7 @@ Ikibazo c'isano hagati ya politike n'idini carafashe igitabu ca Augustin mwerand
 
 Urukundo rubiri rero rwagize ibisagara bibiri: urukundo rw’ukwikunda ku gusuzugura Imana, igisagara co kw’isi; urukundo rw’Imana, ku kwisuzugura, igisagara co mw’ijuru.
 
-![image](assets/3/img-043.webp)
+![image](assets/fr/042.webp)
 
 
 Turafise rero:
@@ -1057,7 +1058,7 @@ Turafise rero:
 Ariko rero, kuri Augustin, ico gisagara co kw’isi ni ngombwa. Ni ngombwa cane kuko ari vyo bituma haba amahoro. Gutyo, kubana n’abanyadini bitegerezwa gutunganirizwa neza, kandi ububasha bwo mu vy’impwemu burengeye ububasha bw’igihe ni bwo bukwiye kubitunganya. Ariko rero, ntihakwiye kubaho ugutandukana gukomeye canke amakimbirane agaragara; ahubwo izo nzego zompi zikwiye gukorana. Abahinga mu vya kahise bavuze ko iyo nyigisho ari inyigisho ya politike ya Augustin.
 
 
-![image](assets/3/img-033.webp)
+![image](assets/fr/043.webp)
 
 
 ### Uguhangana hagati y’ububasha bw’igihe n’ububasha bw’impwemu .
@@ -1109,7 +1110,7 @@ Vyongeye, ko Imana ari yo yaremye, turabona havutse iciyumviro gishasha: ukungan
 Inyigisho izwi cane y’iyo nyigisho iriko irakura ni Ishure ry’i Salamanca, ryari muri Esupanye mu kinjana ca 16. Francisco de Vitoria, umwe mu baserukira iyo nkuru, yemeza yuko iyo umuntu wese yaremwe mw’ishusho y’Imana, ata muntu ashobora kuvugwa ko ari munsi y’uwundi, atari umuyuda, canke umushumba w’umwirabura, canke umuhindi.
 
 
-![image](assets/3/img-042.webp)
+![image](assets/fr/044.webp)
 
 
 Kuvumbura Amerika kwatumye habaho uguhungabana kw’imico kama nyakuri, ni ukurenga ku bumwe bwa politike n’idini bwarazwe mu bihe vya kera. Intambara izwi cane yerekeye uburenganzira bw’Abanyamerika, vy’ukuri yatumye abanyatewolojiya bacikamwo imigwi ibiri irwanya kandi idashobora gusubiza hamwe.
@@ -1125,7 +1126,7 @@ Mu gitabu _Summa Theologica_, Tomasi mweranda arabaza iki kibazo: Mbega umuntu a
 
 Intiti zo muri Salamanca zakoresheje iyo nzira y’uguzirikana ku bijanye n’Abasangwabutaka, zivuga yuko umutungo ari uburenganzira busanzwe. Rero, gufata amatongo ku Basangwabutaka ni ubusuma, nk’aho boba ari abakirisu. Ntivyemewe kandi kubatera intambara, kubera ko ata bugizi bwa nabi buri ku ruhande rwabo, ahubwo buva ku ruhande rwacu.
 
-![image](assets/3/img-035.webp)
+![image](assets/fr/045.webp)
 
 
 Ikibazo c’Abasangwabutaka ni co ca mbere catumye haba ugusaduka kw’idini n’ivya politike. Yarerekanye ko ubumwe bw’abanyapolitike bushobora gushingira ku kindi kintu kitari ubumwe bw’idini bw’ababa mu karere kamwe, bushingiye ku nzira rusangi y’ubucuti bwashinze imizi muri kamere y’umuntu.
@@ -1154,12 +1155,11 @@ Reka twibande ku ciyumviro ca mbere. Ingingo ya kabiri izokwihwezwa mu kigabane 
 
 Henri Pirenne, umuhinga mu vya kahise w’Umubiligi wo mu ntango z’ikinjana ca 20, yarakoresheje igice c’igikorwa ciwe mu gusuzuma ukuntu ubu kapitalizimu bwadutse mu Buraya. Mu gitabu ciwe _Amateka y'Uburayi_, avuga ati:
 
-
-![image](assets/3/img-034.webp)
-
-
 > Ibintu vyose vy’ingenzi vy’ubu kapitalizimu — ubudandaji bw’umuntu ku giti ciwe, ugutera imbere kw’inguzanyo, inyungu z’ubudandaji, ugutekereza ku bintu, n’ibindi — vyari vyaramaze kubaho kuva mu kinjana ca 12 mu bisagara-bihugu vy’Ubutaliyano, Venise, Genova canke Firenze.
-> Nk’uko Pirenne abivuga, ivyo bisagara vy’ubudandaji, kubera ubucuruzi bwavyo bukomeye be n’aho vyari bifise ingamba nziza ku nzira z’ikiyaga, vyari vyarateye imbere mu migenzo y’ubutunzi iranga ubu kapitalizimu bwari bukiri bushasha. Arashimika canecane ku:
+
+![image](assets/fr/046.webp)
+
+Nk’uko Pirenne abivuga, ivyo bisagara vy’ubudandaji, kubera ubucuruzi bwavyo bukomeye be n’aho vyari bifise ingamba nziza ku nzira z’ikiyaga, vyari vyarateye imbere mu migenzo y’ubutunzi iranga ubu kapitalizimu bwari bukiri bushasha. Arashimika canecane ku:
 
 
 - **Iterambere ry'ubudandaji bw'umuntu ku giti ciwe:** Abacuruzi b'Abataliyano, akenshi bava mu miryango y'abatunzi, barashira amahera yabo mu ngendo z'ubudandaji zo kure, gutyo bakitwararika ingorane kandi bakitega inyungu nyinshi.
@@ -1176,12 +1176,13 @@ Pirenne abona ko iyo migenzo, naho yariho mu bindi bice vyo mu Buraya, yateye im
 
 Ivyanditswe biracira urubanza inguzanyo zitanga inyungu, zizwi ko ari inyungu, zibona ko kuguriza amahera ku nyungu ari ugukoresha nabi abaguzi bashobora gushikirwa n’ingorane. Ariko mu bikorwa, Ekleziya yarapfutse amaso ku kibazo.
 
+![image](assets/fr/047.webp)
 
 Jacques Le Goff ni umuhinga mu vya kahise w’Umufaransa yize cane umuco n’imitekerereze y’abantu bo mu kinjana ca mbere. Akurikije Pirenne, aremera ko hariho imbuto z’ubu kapitalizimu kuva mu kinjana ca mbere, cane cane mu bisagara vy’Ubutaliyano, aho imigenzo nk’ugukorana n’abantu ku giti cabo, gukurikirana inyungu, no gukoresha ibikoresho vy’inguzanyo vyari vyaramaze kubaho.
 
 Canke Le Goff ashimika ku gitabu ciwe citwa _L'usure au Moyen Âge_ (1967, casubiwemwo mu 1986 mu mutwe uvuga ngo: _Ubucuruzi n'ubuzima; ubutunzi n'idini mu myaka yacu_) ko kuva mu kinjana ca 13, mweranda Thomas Mukuru yari yarashizeho iciyumviro c'uko " Akinasi akurikiye. Naho idini ryari ribujije, umugenzo wo kuguriza wariho kandi wari ushitsa ivyo umuntu akeneye vy’ukuri mu vy’ubutunzi. Kera cane imbere ya Adamu Smith, baratahuye ko inyungu ku ngurane atari inyungu ahubwo ko ari uburyo bwo gusubiza uwugurisha ingorane n’uwugurisha ishoramari, ivyo bikaba ari vyo bishingiyeko ubu kapitalizimu.
 
-![image](assets/3/img-047.webp)
+![image](assets/fr/048.webp)
 
 
 Ariko rero, nk’uko uwo muhinga mu vya kahise w’Umufaransa abivuga, ukuza kw’ubu kapitalizimu gutegerezwa gushirwa mu rwego rwagutse rw’ihinduka ry’ubutunzi, ry’imibano n’imico kama ryabaye mu binjana vyinshi. Le Goff ashimika cane ku kamaro k’Impinduka y’Ubucuruzi yo mu kinjana ca 15 n’ica 16, irangwa n’ukwaguka kw’ubudandaji bwo mu kiyaga be n’ukuvumbura inzira nshasha z’ubudandaji, ivyo bikaba vyatumye habaho ukwirundanira kw’amahera n’ugushira imbere ivyiyumviro vy’isoko.
@@ -1193,7 +1194,7 @@ Ariko rero, nk’uko uwo muhinga mu vya kahise w’Umufaransa abivuga, ukuza kw�
 Ivyigwa vy’amategeko y’ubutunzi mu buryo butunganye vyatanguye mu kinjana ca mbere. Abahinga mu vy’ubutunzi ba mbere ni abahinga mu vy’idini bo mw’ishure ry’i Paris. Uwa mbere muri bo yanditse igitabu c’ubuhinga kijanye n’ubutunzi gusa ni Nicolas Oresme (1325-1382). Nko mu mwaka w’1360, yaranditse igitabu ciwe _Traité sur l’origine, la nature, la loi et les altérations de l’argent_, kikaba gica irya n’ino kandi kigatera imbere ivyiyumviro vy’abanyabwenge bo mu gihe ciwe.
 
 
-![image](assets/3/img-031.webp)
+![image](assets/fr/049.webp)
 
 
 Mu mutima w'isesengura ryiwe ry'amahera hari ingorane y'"uguhinduka" kw'amahera, ni ukuvuga uguhinduka kw'ivyuma biri mu biceri n'agaciro kavyo. Ivyo bihinduka vyabaye kuva mu ntango z’ibihe kandi vyanditswe neza mu bihe vya kera no mu kinjana ca mbere. Ingaruka zavyo ziboneka cane ni uguhindura ubushobozi bwo kugura bw’igice c’amahera, cane cane kubugabanya. Ubu ni uburyo bwa kera bwo gutera imbere Oresme acira urubanza mu buryo butomoye ko ari ikibi.
@@ -1231,7 +1232,7 @@ Vyongeye, iyo amafaranga abiri atandukanye yungukiye ku mafaranga yemewe n’ama
 
 Kuva mu gihe c’Ivugurura, Uburaya bwari buzosamburwa n’intambara z’idini. Ukwihangana rero kwacitse imwe mu ntambara zikomeye z’Igihe c’Umuco.
 
-![image](assets/4/img-112.webp)
+![image](assets/fr/050.webp)
 
 
 Ku bamwebamwe, ubwo buryo bwa siyansi bwotuma abantu barenga urugero rw’ukwiyumvira nabi, bakagira iciyumviro kimwe ku bijanye n’isi. Mbega ugukwegwakwegwa n’abantu bose si co kimwe ku Mugatolika, ku Muporotisanti, ku Muyuda canke ku mutemera Imana? Gutyo, igitabu Encyclopédie canditswe na Diderot na d’Alembert kigereranya ukugerageza guteza imbere ubumenyi bwo kw’isi yose, bushobora gutuma abantu bunga ubumwe.
@@ -1248,7 +1249,7 @@ Ku bwa Voltaire, ni ukuntu umuntu ashobora gukosa mbere na mbere ari vyo bishing
 
 > Ukwihangana ni ingaruka ikenewe y’ukumenya kwacu ko dushobora gukosa. Gukosa ni umuntu, kandi twese turakora amakosa ubudasiba. Reka tubabaririrane ubupfu bwacu; iryo ni ryo tegeko rya mbere ry’ibiremwa.
 
-![image](assets/4/img-078.webp)
+![image](assets/fr/051.webp)
 
 
 Ariko mu _Makete yiwe ya filozofiya_ (1734), Voltaire aratanga ikindi ciyumviro. Yarabonye yuko mu Bwongereza, ubudandaji butuma abantu bihanganira idini, ivyo bikaba ari ikintu nyamukuru gituma abantu bagira amahoro, bigatuma haba umunezero. Yandika ayo makete kugira ngo anegure intambara z’idini zo mu Bufaransa, ziterwa n’ububasha bwa politike butagira aho bugarukira kandi butera ubwoba. Ivyo bigereranya ukunegura kwa mbere gukomeye kwa Ancien Régime.
@@ -1289,7 +1290,7 @@ Mu _Ikete rya cumi_, "Ku vyerekeye ubudandaji", Voltaire adondora ivyiyumviro vy
 Yamara rero Ubufaransa ntibwari bubuze ubwenge bukomeye. Ntibizwi cane ariko Anne Robert Jacques Turgot, Baron de Laulne, yari umunyavyiyumviro w’imbere imbere y’uko aba umugenzuzi mukuru w’ivy’amahera ku ngoma ya Ludoviko XVI. Yari umwanditsi w’igitabu c’ubuhinga kivuga ku bukungu bwa politike, _Ivyiyumviro ku guhingura no gusangira ubutunzi_ (1766), kikaba cabanjirije igitabu ca Adamu Smith citwa _Ubutunzi bw’amahanga_ (1776).
 
 
-![image](assets/4/img-074.webp)
+![image](assets/fr/052.webp)
 
 Ivyanditswe vyiwe vya mbere vyerekana Commitment yiwe ku vyerekeye filozofiya y’Umuco. Mu mwaka w’1754, yarasohoye igitabu ciwe citwa _Amakete yerekeye ukwihanganirana kw’abanyagihugu_, mu mwaka w’1757 na we, ingingo nyinshi yandikiye _Inkoranyabumenyi_ na Diderot na d’Alembert.
 
@@ -1316,7 +1317,7 @@ Mu yandi majambo, kwihangana ntibisigura kuba umwansi w’idini. Bisigura kwiyum
 Ukwidegemvya mu vy’ubutunzi akenshi gufatanya n’umugenzo w’Abongereza, ukomoka kuri Adamu Smith. Bitandukanye n'"uburenganzira bwa politike", buvugwa ko bwakomotse mu gihe c'Umuco w'Igihugu, cane cane mu Bufaransa. Ivyo vyiyumviro ntivyiza.
 
 
-![image](assets/4/img-069.webp)
+![image](assets/fr/053.webp)
 
 
 Ni mu kwishura ku bucuruzi, no mu buryo bwagutse, ku vyiyumviro vya Ancien Régime, ni ho ubuhinga bw’ubutunzi bwaserutse mu Bufaransa. Igihe c'Umuco haje igihe abanyabwenge batangura kwita "abahinga mu vy'ubutunzi." Abo ni bo bari abafiziyokarate.
@@ -1345,7 +1346,7 @@ Ku rundi ruhande, bamwe bemera ko ubutegetsi bushobora gushikwako biciye ku nyun
 Iryo jambo ryabonetse igihe Jean-Baptiste Colbert, umujanama mukuru wa Louis XIV, umusi umwe yabaza abacuruzi ati: «None nobakorera iki?» Umwe muri bo, yitwa François Legendre, aramwishura ati: «Tugire!»
 
 
-![image](assets/4/img-051.webp)
+![image](assets/fr/054.webp)
 
 
 Iryo jambo ryaremewe n'abanyabwenge b'umubiri, François Quesnay, Marquis d'Argenson, hanyuma na Vincent de Gournay: "Ukwidegemvya, kwidegemvya." Ni co cacitse icivugo cabo.
@@ -1370,7 +1371,7 @@ Gushika mu gihe c’Impinduka y’Abafaransa, igihugu cari kirangwa n’ubutunzi
 Ariko rero, kuva mu kinjana ca mbere, nk’uko twabibonye, ​​ubutunzi bw’isoko bwarateye imbere. Abacuruzi bararushirije kuba abatunzi kandi bararonka umwidegemvyo mu vy’ubutunzi.
 
 
-![image](assets/4/img-068.webp)
+![image](assets/fr/055.webp)
 
 
 Isoko ni nk’ivy’ubushake bwa Exchange ku giciro c’ugusezerana. Isoko rituma umuntu wese agira ubuzima bwiza mu vy’ubutunzi, mu bwenge no mu vya politike mu gutuma umuntu ashobora kuronka ibibanza vyo kwigenga no gufata ingingo.
@@ -1379,7 +1380,7 @@ Isoko ni nk’ivy’ubushake bwa Exchange ku giciro c’ugusezerana. Isoko ritum
 Nkako, abantu mu bisanzwe barashaka gutera imbere mu vy’ubuzima bwabo bwite n’ubw’ababo biciye ku Exchange y’ibintu n’ibikorwa. Ni co gituma icipfuzo c'abo bafilozofe bashasha, "abahinga mu vy'ubutunzi", co gutuma abantu bironkera amahera ahagije, gutyo bagashika ku co Kant yita mu gatabu kiwe _Umuco ni iki?_ "ubwinshi" bwabo, ubwigenge bwabo bwo gufata ingingo no gukora.
 
 
-![image](assets/4/img-060.webp)
+![image](assets/fr/056.webp)
 
 
 Ku ba Fiziyokarate, umwidegemvyo ntuca ibice. Kurwanya uburenganzira bwa politike no kurwanya ubukode bw’ubutunzi ni kimwe. Igishasha gikomeye c’abahinga mu vy’ubutunzi bo muri iki gihe mu ntango z’ikinjana ca 18 ni uko bibanda ku muntu wese kugira ngo asubire kugira ubushobozi bwo gukora mu gihe bariko barimbura ingene bofata ivyipfuzo n’inyungu biciye ku isoko ry’uburenganzira.
@@ -1419,7 +1420,10 @@ Mu kiringo gitoyi yari Minisitiri w’Ivy’Imari (Umugenzuzi Mukuru), kuva muri
 
 
 > Utegerezwa, Mushingantahe, kwitwaza ibirwanisho vyo kurwanya ubuntu bwawe, n’ubuntu bwawe ubwabwo, uzirikana aho amahera ushobora guha abakozi bawe bo mu ngoro ava.
-> Mu mwaka w’1774, yarasohoye amategeko yiwe atandatu yo gukuraho amashirahamwe n’amashirahamwe (amashirahamwe yari yaracitse amashirahamwe y’ubudandaji n’intambamyi zo kwinjira mw’isoko ry’akazi), gukuraho amaduwani yo mu mutima ku bucuruzi bw’intete, gukuraho ibikorwa vy’agahato (corvée), no gushinga ukwihanganira aba Pro.
+
+![image](assets/fr/057.webp)
+
+Mu mwaka w’1774, yarasohoye amategeko yiwe atandatu yo gukuraho amashirahamwe n’amashirahamwe (amashirahamwe yari yaracitse amashirahamwe y’ubudandaji n’intambamyi zo kwinjira mw’isoko ry’akazi), gukuraho amaduwani yo mu mutima ku bucuruzi bw’intete, gukuraho ibikorwa vy’agahato (corvée), no gushinga ukwihanganira aba Pro.
 
 Ikibabaje ni uko ibiciro vy’ingano vyariko biraduga cane, bivuye ku mwimbu mubi, vyatumye habaho amakenga ku vyo yahinduye. Turgot yanditse mu kwiregura ati:
 
@@ -1449,7 +1453,7 @@ Murray Rothbard, mu mateka yiwe y'ubutunzi akoresheje ubuhinga bwa Otirishiya, a
 Mu mwaka w’1776, umunyabwenge Étienne Bonnot de Condillac yarasohoye igitabu _Ubucuruzi na Leta_, kikaba ari kimwe mu bitabu vyiza cane vy’ugusaba abantu muri ico gihe, bishigikira ubudandaji bwigenga n’umwidegemvyo w’umuntu ku giti ciwe.
 
 
-![image](assets/4/img-053.webp)
+![image](assets/fr/058.webp)
 
 
 _Ubucuruzi na Leta_ harimwo ivyo bazokwita mu nyuma inyigisho y’agaciro k’umuntu, ivyo bikaba vyatumye ashimagizwa vyose n’abahinga mu vy’ubutunzi bo muri Otirishiya, guhera kuri Menger. Akurikije Turgot, ariko mu buryo butomoye cane, Condillac yemeza ko agaciro katari mu gikorwa ahubwo kari mu kuba umuntu wese abona inyungu muri Exchange:
@@ -1468,7 +1472,7 @@ Ni igitabu kandi kivuga ku buhinga bwa filozofiya kuko kigaragaza ingene Exchang
 Mu mwaka w’1776, umwongereza yitwa Thomas Paine yarasohoye agatabu k’ubukazi muri Amerika, anegura ubwami bw’Abongereza, avugira ubwigenge bw’abakoloni b’Abanyamerika, afise umutwe uvuga ngo _Common Sense_.
 
 
-![image](assets/4/img-065.webp)
+![image](assets/fr/059.webp)
 
 
 Paine avuga ko:
@@ -1499,11 +1503,11 @@ Thomas Paine, biciye mu gatabu kiwe, yarafise uruhara runini mu guhindura ibintu
 Ku wa 4 Nyakanga 1776, i Philadelphia, aho bakoraniye muri Kongire (mu congereza, "Ikoraniro"), abaserukira ibihugu cumi na bitatu vy'Abongereza vyari vyarigaruriye Amerika y'Uburaruko bafata ingingo ivuga ko "Leta Zunze Ubumwe za Amerika ari, kandi zikwiye kuba, Leta zifise uburenganzira kandi zigenga." Iryo cemezo rishigikiwe na John Adams, umwe mu bateye intege umusi mukuru w’icayi, na Benjamin Franklin, intumwa yavuye muri Massachusetts. Thomas Jefferson, intumwa yavuye muri Virginia, ni we azotegura Itangazo ry’Ukwikukira.
 
 
-![image](assets/4/img-066.webp)
+![image](assets/fr/060.webp)
 
 Mu myaka yakurikiye, Abafaransa La Fayette, Rochambeau, Admiral de Grasse, Conte d’Estaing, Jenerali Duportail, Marquis de la Rouerie, Komanda Pierre L’Enfant, umwanditsi Beaumarchais n’abandi benshi barwana kumwe n’Abagarariji kugira ngo babakure ku ngǒgo y’Umwami w’Ubwongereza.
 
-![image](assets/4/img-081.webp)
+![image](assets/fr/061.webp)
 
 
 Haciye imyaka 141, ku wa 4 Nyakanga 1917, hagati mu Ntambara ya mbere y’isi yose, ku mva ya Picpus i Paris, harabaye umusi mukuru wo gushimira abasoda ba mbere bo muri AEF bari bashitse muri ico gisagara. Ivyo birori vyabereye hafi y'imva ya La Fayette, "intwari y'isi zibiri." Kuri uwo musi, Kapiteni Charles E. Stanton wo mu ngabo za Jenerali Pershing yarashikirije ijambo rizwi cane ati:
@@ -1526,7 +1530,7 @@ Mu 1789, ni La Fayette, ari kumwe na Jefferson, ni bo bashizeho imishinge ya mbe
 Adamu Smith yasohoye mu mwaka w’1776 _Itohoza ku kamere n’impamvu z’ubutunzi bw’amahanga_. Igitabo gikomeye cane gikunda kumushira mu rutonde rw’abahinga mu vy’ubutunzi naho yigisha ubuhinga bwo kwiyumvira ivy’inyifato runtu muri Kaminuza ya Glasgow. Mu buryo bw’ibishushanyo, yibukwa ko ari we se w’ubutunzi bwo muri iki gihe.
 
 
-![image](assets/4/img-070.webp)
+![image](assets/fr/062.webp)
 
 
 Mu vy’ukuri, Smith yari afise umwenda munini ku bahinga b’ubutunzi Quesnay na Turgot, abo yahuye na bo mu rugendo rwamaze hafi umwaka wose mu Bufaransa. Muri iki gitabu, adondora cane cane "urutonde rworoshe rw'umwidegemvyo w'ibinyabuzima" aho abantu, bakurikirana inyungu zabo, bayoborwa "n'ukuboko kutaboneka" kugira ngo bateze imbere ineza y'ikibano muri rusangi.
@@ -1572,7 +1576,7 @@ Gushika mu kinjana ca 18, ikintu nyamukuru abo bafilozofe bari bafise mu vy’ub
 
 Ico ciyumviro cahumekewe na Locke mu kinjana ca 17, hanyuma gifatwa na Rousseau. Ububasha bw’ubusegaba ntibutegerezwa kuva gusa mu kwihitiramwo kw’abantu, ariko kandi butegerezwa kuba muri bwo. Ivyo ni vyo vyiyumviro vya Rousseau vyerekeye ubusegaba bw’ubushake rusangi, ivyo twita demokarasi muri iki gihe.
 
-![image](assets/4/img-071.webp)
+![image](assets/fr/063.webp)
 
 
 Rousseau abona ko abantu ari abantu bigenga bashobora kwiyorosha ku mategeko bashinga. Umwidegemvyo w’abantu wo kwihitiramwo ni wo mushinge wonyene w’ubutungane w’ubusegaba. Rousseau yari guteza imbere ubwo bumuntu bushingiye ku mategeko, buranga ubuhinga bwa none, gushika ku ngaruka zabwo z’iherezo mu kwiyumvira abantu nk’umuntu ku giti ciwe ashobora kwiyemeza mu mwidegemvyo canke nk’ikintu rusangi, nk’ubushake rusangi. Gutyo, Contract irimwo ukuyoboka amategeko umuntu, nk’ubushake rusangi, yiha nk’ubushake bwihariye. Ivyiyumviro vy’ubushake rusangi canke ubusegaba bw’abantu rero biratuma haba ugusubiza hamwe kw’umwidegemvyo n’ukuyoboka. Ukwishingira itegeko canke ubwigenge bwa politike, vy’ukuri ni co kintu nyamukuru ca demokarasi kuva kuri Rousseau.
@@ -1587,7 +1591,7 @@ Ariko ikibazo c’inkomoko y’ubusegaba si co conyene. Guzirikana birashobora g
 Umwe mu bafilozofe b’umuco yari afise akosho gakomeye cane mu Bufaransa no muri Amerika ni John Locke. Ni we yatumye habaho abavyeyi bashinze Leta Zunze Ubumwe za Amerika, ariko kandi ni we yatumye habaho Itangazo ry’Uburenganzira bw’Umuntu n’Umunyagihugu mu 1789 .
 
 
-![image](assets/4/img-063.webp)
+![image](assets/fr/064.webp)
 
 
 Ubutegetsi bwose bwa kera bwari bwabonye ko umwidegemvyo ari uburenganzira gusa buhabwa n’ububasha, buhabwa umuntu afise uruhusha rushobora gukurwaho igihe cose. Ku bwa Locke, ubuzima bw’umuntu ni ubwiwe bwite mu gihe c’uburenganzira busanzwe (bisobanura: mu gihe c’ingingo ngenderwako y’inyifato runtu ikomoka muri kamere y’umuntu) kandi ko intumbero imwe rudende y’inyifato runtu y’intwaro ari ukurinda uburenganzira bw’umuntu ku giti ciwe.
@@ -1603,7 +1607,7 @@ Thomas Jefferson yanditse inyigisho ya Locke y’uburenganzira butagira aho buga
 Twifata ko ivyo kuri ari ibintu vyibonekeza, ko abantu bose baremwe bangana, ko bahawe n’Umuremyi wabo uburenganzira bumwebumwe butagira uko bungana, muri ivyo harimwo ubuzima, umwidegemvyo n’ugukurikirana umunezero.
 
 
-![image](assets/4/img-058.webp)
+![image](assets/fr/065.webp)
 
 
 Ikindi kandi, ingingo ya 2 y’Itangazo ry’Uburenganzira bw’Ubufaransa ryo mu 1789 na yo nyene ikomoka kuri uwo mugenzo wa Locke w’amategeko kavukire:
@@ -1620,7 +1624,7 @@ Impinduka y’Abanyamerika yarongowe n’abantu bavuga uburenganzira bw’ishimi
 Mu kinjana ca 19, Alexis de Tocqueville, umunyabwenge w’ivya politike w’Umufaransa, yaragerageje kugaragaza neza izo ntandukaniro hagati y’izo mpinduka zibiri z’abavukanyi. Avuga ko ukuroranirwa kw’Impinduka y’Abanyamerika kwavuye ku bintu bitari bike.
 
 
-![image](assets/4/img-076.webp)
+![image](assets/fr/066.webp)
 
 
 Ica mbere, mu gusobanura repubulika. Repubulika y’Ubufaransa ni imwe kandi ntishobora kugabanywa. Repubulika ya Amerika igizwe n’ibihugu vyigenga, kimwe cose kikaba gifise ububasha bwaco n’inyungu zaco zo mu karere. Ubutegetsi bwa Leta Zunze Ubumwe za Amerika bufatwa nk’ubuhemu mu Bufaransa. Muri Amerika, ubuhemu bwoba ari ugushaka gutegeka ubumwe. Gushika mu ntambara y’abanyagihugu muri Amerika, n’imiburiburi, Ubumwe, n’ubudasa bwabwo bw’Ibihugu, ni bwo bwari inkomezi z’Ishirahamwe.
@@ -1643,7 +1647,7 @@ Iryo tegeko rikingira mu buryo butomoye ububisha bw’abantu benshi. Ariko rero,
 Abbé Sieyès (1748-1836) ni we akenshi abonwa ko ari we se w’Impinduka y’Abafaransa. Ni we yanditse igitabu _Igihugu ca gatatu ni iki?_, casohowe muri Mukakaro 1789 .
 
 
-![image](assets/4/img-073.webp)
+![image](assets/fr/067.webp)
 
 
 Ishengero rya gatatu ryari rigizwe n’abantu bose batari mu bakuru b’idini canke mu banyacubahiro. Kuva ku mirongo ya mbere nyene y’agatabu kiwe kazwi cane, Abbé Sieyès yarashimagije umwidegemvyo w’umuntu ku giti ciwe n’uguhiganwa ataco yishisha:
@@ -1661,13 +1665,13 @@ Ivyo gufata ivy’Ekleziya vyari bigamije gukingira ingorane z’amahera; yari i
 
 Ikindi kandi, nk’uko Dupont de Nemours yari yarabivuze, ugusohora amafaranga y’ibinyoma vyatumye gusa iyo ngorane irushiriza kuba mbi, bituma haba ugutera imbere kw’ibiciro ahantu hose, n’agaciro k’ama Assignats karagabanuka cane. Muri Myandagaro 1792, iyo migumuko y’inzara yatumye haba umugumuko w’i Paris, Louis wa XVI yicwa muri Mukakaro 1793, amaherezo haba Intwaro y’Iterabwoba.
 
-![image](assets/4/img-080.webp)
+![image](assets/fr/068.webp)
 
 
 Mu mwaka w’1795, haciye imyaka itanu amahera y’impapuro asohotse ubwa mbere, yari yatakaje 99% vy’agaciro kayo. Impinduka y’Abafaransa yarabandanije munsi y’Uburongozi gushika mu 1799, aho Napoléon yafata ubutegetsi biciye mu gutera igihugu. Yaciye aba Konsili wa mbere wa Repubulika y’Ubufaransa imbere y’uko yimikwa ngo abe Umwami w’abami mu 1804. Ivyo vyari bimwe mu bintu vya mbere vyahushanye cane n’Itangazo ry’Uburenganzira bwa Muntu, ryatangaza yuko umutungo w’umuntu ku giti ciwe udashobora guhungabanywa.
 
 
-![image](assets/4/img-050.webp)
+![image](assets/fr/069.webp)
 
 
 Muri Amerika, nta dirigisme y’ubutunzi yariho, canke n’ugusenyuka kw’amahera nk’ukw’aba Assignats. Kandi ikiruta vyose, nta n’ivyo guhagarika abantu, nta kwimuka kw’abantu benshi, nta gillotine, nta kwica abantu, nta Ntwaro y’Iterabwoba. Ubwo nyene, umuntu arashobora kubona itandukaniro riri hagati y’uburyo bwo gukora butandukanya Impinduka y’Abanyamerika n’Impinduka y’Abafaransa.
@@ -1696,7 +1700,7 @@ Ivyo ni vyo, ikindi, bisobanura amajambo ya Friedrich Hayek mu gitabu ciwe _Iteg
 Nk’uko Benjamin Constant abivuga, umwidegemvyo mu mibano ya none ntushobora gutahurwa mu buryo bw’imico kama ya kera, nk’ukugira uruhara ata guca ku ruhande mu bikorwa vy’igisagara.
 
 
-![image](assets/5/img-103.webp)
+![image](assets/fr/070.webp)
 
 
 ### Umwidegemvyo mu buzima bwite
@@ -1707,7 +1711,7 @@ Mu bihe vya kera, abantu bari bafise ubusegaba mu bikorwa vya bose mugabo bakaba
 
 > Umwidegemvyo w’Aba kera wari ugizwe n’ukugira uruhara n’umwete kandi ubudasiba mu butegetsi rusangi. Ku rundi ruhande, umwidegemvyo wacu utegerezwa kuba ugizwe n’ukwinovora amahoro mu kwigenga kw’umuntu ku giti ciwe; birakurikira ko dutegerezwa kwifatanya cane n’ukwikukira kwacu kuruta aba kera. (_Ku mwidegemvyo w’aba kera ugereranijwe n’uw’aba none_ (1819))
 
-![image](assets/5/img-084.webp)
+![image](assets/fr/071.webp)
 
 
 Umwidegemvyo wo muri iki gihe ushiramwo umwidegemvyo w’abanyagihugu, ukaba urimwo umwidegemvyo w’ubutunzi kandi ushingiye ku burenganzira bwo kwirinda. Ni uburenganzira bwo kudashikirwa n’ububisha ubwo ari bwo bwose, uburenganzira bwo kuvuga, gukoranira hamwe, kwiruka, gusenga no gukora inganda. Nta mwidegemvyo ubaho ata bushobozi bwo guhitamwo ubuzima bwiwe n’agaciro afise; rero, nta mwidegemvyo uhari ata bushobozi bwo kwikura mu kibano, kandi kubera ivyo, nta mwidegemvyo utagira umupaka wa Leta wo kwemera ko ico kibanza c’ibanga kibaho. Ni umwidegemvyo uhuye n’ico Abanyamerika bita uburenganzira bwa muntu.
@@ -1718,10 +1722,12 @@ Iyi nsobanuro y'umwidegemvyo iboneka muri John Stuart Mill:
 
 > Umwidegemvyo umwe rudende ukwiriye iryo zina ni uwo gukurikirana ivyiza vyacu mu nzira yacu, igihe cose tutagerageza kwima abandi ivyabo canke ngo tubabuze utwigoro twabo two kubironka. (...) Umuntu aronka vyinshi mu kureka umuntu wese akabaho uko abona ko bikwiye kuruta kumuhatira kubaho uko abandi babona ko ari vyiza. (_Ku mwidegemvyo_, 1859)
 
-![image](assets/5/img-097.webp)
+![image](assets/fr/072.webp)
 
 
 Mill aradondora imipaka y’ubusegaba bwa Leta: ihagarara aho ubusegaba bw’umuntu ku giti ciwe butangura. Iyo igikorwa c’umuntu ku giti ciwe ata ngaruka mbi gifise ku bandi, uwo muntu rero arafise umwidegemvyo wose wo kugikora. Leta itegerezwa gutunganya imigenderanire hagati y’abantu, ariko ntishobora kuja kure mu kwivanga mu buzima bwite bw’abantu. Iyo uwo muntu yigiriye nabi, Leta nta kindi ishobora gukora atari "kumuhana" canke kugerageza "kumufasha" canke "kumukwemeza": ntishobora kumuhatira canke kumuhana. For Mill yongerako ati: “Imvo imwe rudende ibereye Leta ishobora gukoresha inguvu kuri umwe mu bagize iyo ntara, ataco bashaka, ni ukugira ngo ntibagire nabi abandi.”
+
+![image](assets/fr/073.webp)
 
 Ububasha bwa politike buhuye n’umwidegemvyo w’Abanyagihugu rero burafise aho bugarukira: «Reka ubutegetsi bugaruke ku kuba ubutungane, tuzokwitwararika umunezero wacu», ni ko Benjamin Constant atangaza. Si Leta ishobora kutubwira ingene twogira umunezero.
 
@@ -1766,7 +1772,7 @@ Mu yandi majambo, mu kibano cidegemvya, birakenewe ko hashirwaho urubibi rukomey
 Alexis de Tocqueville yari umuntu yihweza cane demokarasi kandi yari umuntu anegura cane demokarasi y’umuntu ku giti ciwe.
 
 
-![image](assets/5/img-095.webp)
+![image](assets/fr/074.webp)
 
 
 Isesengura rya Tocqueville ku vyerekeye demokarasi mu vy’ukuri riragwiza itandukaniro Constant yashizeho hagati y’umwidegemvyo w’Aba kera n’uw’Abanyabu. Mu kiganiro co mu 1836 (_Igihugu c’Ubufaransa c’Imibano n’Ivya Politike Imbere n’Ukuva mu 1789_), Tocqueville agereranya mu buryo bubereye umwidegemvyo w’abanyacubahiro n’umwidegemvyo wa demokarasi. Irya mbere risobanurwa ngo «Ukwinovora agateka», Tocqueville na we atanga akarorero k’umwenegihugu w’Umuroma atari ukuronka umwidegemvyo wiwe ku kamere ahubwo akuronka ku kuba ari uwa Roma.
@@ -1779,7 +1785,7 @@ Iciyumviro ca kabiri, kizwi nk'"iciyumviro kibereye c'umwidegemvyo," kirimwo "ub
 Tocqueville aritonda kugira ngo amenye ingaruka zose za politike n’imico kama z’ubwo buryo bushasha bwo kubaho, cane cane mu gihe ca none. Umuntu ashima cane Pascal, afise intumbero yo kwerekana ubukuru n’imibabaro ya demokarasi.
 
 
-![image](assets/5/img-085.webp)
+![image](assets/fr/075.webp)
 
 
 Mu mwaka w’1841, mu gitabu ciwe _Demokarasi muri Amerika_, arasesangura ingingo ngenderwako y’ubudemokrasi yishingira intahe mu kuringaniza ibintu n’ubukuru bw’imigwi n’ubukuru bw’imigenzo. Kandi abona ko iyo nzira ijana mu buryo bubereye n’ugusenyuka kw’ibintu bitera ingorane mu kibano, amabohero y’ukwisunga, no gusenyura ubucuti bw’abantu, gutyo bikaba bitera ubwoba ugukoresha umwidegemvyo n’inshingano za politike vy’umwenegihugu. Ikindi kandi, gutakaza ivyiyumviro bikomeye vya kera (ingeso nziza, ineza rusangi) bituma umuntu agira ubukene bw’insobanuro y’ubuzima, « mu bintu bitobito kandi vy’agaterasoni », akagira ububabare n’ukudatekana.
@@ -1830,7 +1836,7 @@ None Frédéric Bastiat yiyumvira iki ku bijanye na demokarasi? Yarishuye kuva m
 
 > Ndi ku ruhande rwa demokarasi, nimba muri iri jambo ushaka kuvuga ngo: Kuri umwe wese umutungo w’ibikorwa vyiwe, umwidegemvyo kuri bose, ukungana kuri bose, ubutungane kuri bose, n’amahoro kuri bose. (_Ubucuruzi bw’Ubuntu_).
 
-![image](assets/5/img-088.webp)
+![image](assets/fr/076.webp)
 
 
 Ariko rero, mu 1848, inyuma y’Impinduka yo muri Ruhuhuma, Bastiat yatowe kuba umudepite w’Igihugu mw’ikoraniro aho abasosiyalisiti binjiye mu ntsinzi. Abo ba nyuma basaba ikintu kimwe gusa: ko itegeko rishinga ingingo ngenderwako y’ubuvukanyi. Mu yandi majambo, gushinga amategeko yo guha abantu bose akazi, uburezi n’ubuvuzi.
@@ -1847,7 +1853,7 @@ Leta rero iba, nk’uko amajambo ya Bastiat abivuga, .
 > inkuru z’ibinyoma zikomeye umuntu wese yihatira kubaho biciye mu gutakaza abandi bose. ([_Leta_](ku rubuga rwa Leta))
 > Bastiat kandi aratera imbere iciyumviro c’uko amakimbirane avuka iyo itegeko rihevye uruhara rwaryo rikwiye. Mu gatabo kiwe kazwi cane [_Itegeko_](http://bastiat.org/fr/la_loi.html), yerekana igituma n’ingene itegeko ryacitse “ikibanza c’intambara c’ukunzi kw’inda kwose,” bisobanura isoko y’uduteka, ubukode bushingiye ku mimerere, n’imisoro idasanzwe. Igihe nyene vyemewe mu ngingo ngenderwako ko itegeko rishobora gukevya rikava ku ntumbero yaryo nyakuri, ko rishobora guhungabanya imitungo aho kuyishingira intahe, haca hakurikira ata kabuza urugamba rw’imigwi, haba rwo kwikingira ubusuma canke rwo kuritunganya kugira ngo umuntu agire inyungu.
 
-![image](assets/5/img-098.webp)
+![image](assets/fr/077.webp)
 
 
 Mu bihe aho itegeko rishitsa gusa uburenganzira bw'umuntu wese kandi rikemeza _"imitunganirize rusangi y'uburenganzira bw'umuntu ku giti ciwe bwo kwikingira mu buryo bubereye,"_ nta n'umwe ashobora kubukoresha ku nyungu yiwe ku giciro ca bose, ku rugero rw'uko uburyo bw'intwaro ubwabwo buca buba ikibazo ca kabiri.
@@ -1875,13 +1881,13 @@ Raba umubumbe w’isi. Ni abahe bantu bahimbawe kuruta abandi bose, bafise inyif
 Mu kinjana ca 19 ni ho havutse ukunegura ubu kapitalizimu, cane cane ukunegura kw’aba Marxiste.
 
 
-![image](assets/5/img-089.webp)
+![image](assets/fr/078.webp)
 
 
 Marx yavuze ati: “Uburenganzira bwo kuvuga, kwandika no gutora bufise akamaro akahe nimba ubuzima bwa misi yose ari urugamba rwo kurokoka? Iyo umuntu arengeye urugero runaka, ubukene bungana n’ubuja. Urutonde rw’imibano rero rugirira akamaro umuntu wese iyo gusa hakurikijwe ingingo ngenderwako y’ugusangira ibintu mu buryo bubereye. Ukwo kunegura uburenganzira bw’abantu ni kwo kwatumye Marx abona ko bikenewe ko habaho ukugenzura urutonde rw’imibano mu buryo bubereye kandi butegekanijwe. Kuva ubu, Leta ntoyi y’abanyagihugu b’abanyagihugu itegerezwa gukurikirwa n’Igihugu gikomeye gishobora gushinga uburinganire nyakuri, ivyo, nk’uko Marx abivuga, bishika no ku gukuraho umutungo w’abantu ku giti cabo no kuwugira umuryango w’abantu bose. Mu nsiguro yoroshe cane, "demokarasi y'imibano", Leta isabwa gushingira intahe uburenganzira bw'umuntu butaboneka gusa, ariko n'uburenganzira nyabwo bw'umuntu. Hararemwa uburenganzira bushasha, uburenganzira bwo mu mibano n’ubutunzi, bushingiye kuri Leta: uburenganzira bwo gukora, uburenganzira bwo kuba mu nzu, uburenganzira bwo kuronka amagara (ku buntu), uburenganzira bwo kwiga (ku buntu).
 
 
-![image](assets/5/img-091.webp)
+![image](assets/fr/079.webp)
 
 
 ### Inkuru z'imigani z'Igihugu kitagira nkunzi
@@ -1904,7 +1910,7 @@ Ukwo kwihenda kwa politike kw’ukwidegemvya ni uruhande rw’isi rw’ukwihenda
 
 Nkako, nk’uko Marx n’abakunda amaronko bo mu mateka babivuga, ukutavuga rumwe mu vy’ubutunzi ni kwo gutuma habaho ukutavuga rumwe mu vya politike no mu vy’idini. Mu kwitandukanya n’abandi mu vy’ubutunzi, bikaba ari ingaruka y’ubu kapitalizimu (busobanurwa nk’ubuhinga bwo gukora Ownership bwite), umukozi agoberwa n’ugurisha ububasha bwiwe bw’akazi nk’igicuruzwa. Vyongeye, arabuzwa umusaruro w’ibikorwa vyiwe, uwo mukoresha akaba afise. Gutyo aratandukana, bisobanura ko yitandukanije na we nyene, kuko igikorwa ciwe kiba ikintu c’amahanga kuri we akora kubera ko ari ngombwa kugira ngo ashobore kubaho. Yamara, igikorwa, kuri Marx, ni co gikorwa c’agaciro k’umuntu, ni co gicamwo ikintu nyamukuru c’umuntu, ni ukuvuga umwidegemvyo. Ni co gituma kwidegemvya kw’abakozi na kwo nyene bisigura gusubiza ubumuntu ku muntu.
 
-![image](assets/5/img-104.webp)
+![image](assets/fr/080.webp)
 
 
 Impinduka ya politike rero ni ukwihenda, nk’uko abivuga, igihe cose itajana n’impinduka mu vy’ubutunzi no mu mibano ishobora gukura umuntu mu buja bwa kapitalisimu, gutyo igatuma habaho ubumwe hagati y’umukozi n’umwenegihugu, hagati y’ikibano na Leta, hagati y’abanyagihugu n’abanyagihugu. Umwidegemvyo n’uburinganire bw’abanyagihugu bizoca rero biba ukuri mu kibano kitagira umugwi.
@@ -1919,7 +1925,7 @@ Impinduka ya politike rero ni ukwihenda, nk’uko abivuga, igihe cose itajana n�
 Ishure ry’ubutunzi ryo muri Otirishiya, ryashinzwe na Carl Menger mu mpera z’ikinjana ca 19, ryarwanya ivyiyumviro vya Karl Marx kuva mu ntango.
 
 
-![image](assets/5/img-083.webp)
+![image](assets/fr/081.webp)
 
 
 ### Urugamba rw'Ishure
@@ -1938,7 +1944,7 @@ Nk’akarorero, umukoresha afata umukozi kubera ko akeneye ubuhinga afise kugira
 
 Ludwig von Mises ashimika ku vy’uko Marx yananiwe gutandukanya ivyo bijanye n’ingengabitekerezo y’abanyagihugu mu burenganzira bwa muntu n’ico isobanura mu bikorwa, ni ukuvuga imivurungano izana mu buzima bw’abantu. Abantu benshi banegura uburenganzira bwa muntu barakoze iryo kosa nyene. Ivyo ni ko vyari vyifashe no ku bantu barwanya amahinduka, nka Joseph de Maistre canke Louis de Bonald.
 
-![image](assets/5/img-092.webp)
+![image](assets/fr/082.webp)
 
 
 Mu gitabu _The Ethics of Liberty_ na _Anatomy of the State_, Murray Rothbard yasiguye ko gukoresha nabi ibintu bifise insiguro gusa nk’ugutera umutungo w’abantu ku giti cabo kandi ko Leta yonyene ari yo ironka inyungu zayo biciye mu gutera, ni ukuvuga biciye mu misoro, mu myenda, mu gucapura amahera, gutyo rero biciye mu gutera imbere kw’ibiciro. Mu vy’ukuri, ni ukugira uruhara kwa Leta, atari urugamba rw’imigwi, ari rwo rutera ubukazi n’amatati mu kibano. Leta, mu kwigarurira ubutunzi no gutunganya ubutunzi, iratuma habaho ugugoramya n’akarenganyo bituma haba amakimbirane n’uguhahaza. Guhagarika rero ubusuma bisaba kugabanya ububasha bw’umuryango w’abanyagihugu: Leta.
@@ -1956,7 +1962,7 @@ Iciyumviro c’urugamba rw’imigwi gishobora kandi gutuma umuntu yiyumvira ko i
 Mises niwe yahinguye ijambo "polylogisme" kugira ngo asigure iyo sophiste. "Poly" bisigura vyinshi, "logism" na yo ikaba yerekeza ku nsiguro n'ubwenge bishingiye ku vyiyumviro. Nk’uko Marx abivuga, hoba hariho ivyiyumviro bitari bike bidahuye, ivy’abanyagihugu n’ivy’abanyagihugu.
 
 
-![image](assets/5/img-096.webp)
+![image](assets/fr/083.webp)
 
 
 Yamara gushika hagati mu kinjana ca 19, nta n’umwe yari afise ubwoba bwo guhakana ko imiterere y’ubwenge ibereye ari imwe kandi ihurikiyeko abantu bose. Imigenderanire yose y’abantu ishingiye ku ciyumviro c’imiterere imwe y’ubwenge. Abantu barashobora kwifatanya n’abandi mu biganiro kubera ko bashobora gutuma umuntu agira ico akora ku kintu bose bahuriyeko, ni ukuvuga ingene ivyiyumviro vyifashe mu buryo bubereye.
@@ -1979,7 +1985,7 @@ Ni co gituma Georges Sorel, uwazanye ubumarxiste mu Bufaransa, yovuga ko ubukazi
 Abanya Otirishiya bavuga ko inyigisho ya Marx yerekeye agaciro k’igikorwa, ivuga ko agaciro k’ikintu kagenwa n’ingero y’igikorwa gikenewe kugira ngo gikorwe, ari amakosa. Bavuga ko agaciro kagenwa n’ivyo abaguzi bakunda, atari ku giciro c’ivyo bakora.
 
 
-![image](assets/5/img-087.webp)
+![image](assets/fr/084.webp)
 
 
 Eugen von Böhm-Bawerk, umwe mu bahinga b’ubutunzi bo muri Otirishiya ba mbere, yaraneguye inyigisho ya Marx yerekeye agaciro k’akazi mu gitabu ciwe _Wert, Capital und Zins_ (1886). Böhm-Bawerk yavuze ko inyigisho ya Marx ishingiye ku makosa y’ishimikiro, ni ukuvuga ko ibice vyose vy’akazi bisa. Yavuze ko mu vy’ukuri, hari igikorwa kigoye cane canke kizana umwimbu kuruta ibindi, kandi ivyo ni vyo bigena agaciro k’ikintu.
@@ -1995,7 +2001,7 @@ Friedrich Hayek yarateye imbere inyigisho y’inyungu ishingiye ku ciyumviro c�
 Abamarxiste bemera ko ubusosiyalisimu, uburyo bw’ubutunzi aho uburyo bwo guhingura bufise kandi bugenzurwa n’abakozi, ata kabuza buruta ubu kapitalizimu. Ku rundi ruhande, Abanyaotrishe bemeza ko ubusosiyalisimu budashoboka mu bikorwa, kuko vyosaba urugero rudashoboka rw’itegurwa ry’imbere mu gihugu.
 
 
-![image](assets/5/img-090.webp)
+![image](assets/fr/085.webp)
 
 
 Kera mu mwaka w’1922, mu gitabu ciwe _Socialisme,_ Ludwig von Mises yerekanye ko ubusosiyalisimu bwotuma haba ubukene bwinshi, kuko abategura imigambi yo hagati batazoshobora gukora imibare y’ubutunzi itagiramwo uburyarya ata nzira y’ibiciro itangwa n’isoko.
@@ -2010,7 +2016,7 @@ Kera mu mwaka w’1922, mu gitabu ciwe _Socialisme,_ Ludwig von Mises yerekanye 
 Hayek yateye ubwoba n’ugutera imbere kw’ubutegetsi bwo kwivanga mu bukungu bw’ibihugu vya demokarasi vyo mu Burengero, yanditse igitabu _Inzira y’ubuja_ nk’igitabu ca filozofiya co kunegura ubumwe bw’abantu bose, bwaba buva iburyo canke ibubamfu. Ico gitabu casohowe mu ma miliyoni menshi, kubera ikinyamakuru _Reader’s Digest_, carafashije cane Hayek kumenyekana muri Leta Zunze Ubumwe za Amerika.
 
 
-![image](assets/5/img-100.webp)
+![image](assets/fr/086.webp)
 
 
 ### Ivyiza vy'ugukorana
@@ -2040,7 +2046,7 @@ Ku rundi ruhande, igenamigambi ry’ubutunzi n’imibano muri rusangi, ari ryo s
 Kuva ku mapaji ya mbere, Hayek ashiraho isano hagati y’intsinzi y’ivyiyumviro vy’abasosiyalisiti mu Burengero n’ukuroranirwa kw’ibitekerezo vy’ubutegetsi bw’agahomerabunwa vyari bihuye.
 
 
-![image](assets/5/img-093.webp)
+![image](assets/fr/087.webp)
 
 
 > Abantu bakeyi, aragabisha mu ntangamarara yiwe, biteguriye kwemera ko ukuza kw’ubufashisi n’ubunazi atari ugusubiza inyuma imigenderanire (...) y’igihe c’imbere, ahubwo ko ari ingaruka zitazokwirindwa z’izo migenderanire. Ico ni ikintu abantu benshi banse kubona, mbere no mu gihe batahura ukuntu kamere mbi zimwezimwe z’intwaro zo mu gihugu z’Uburusiya bw’Abakomunisita n’Ubudage bw’Abanazi zisa. Ico bivamwo ni uko abantu benshi bibona ko bari hejuru cane y’ibinyoma vy’ubunazi kandi banka ata buryarya ibimenyetso vyabwo vyose, muri ico gihe nyene bariko barakorera ivyiyumviro vyoshikana ata guca ku ruhande kuri ubwo bubisha buteye isoni.
@@ -2071,7 +2077,7 @@ Mu gusozera, Hayek asaba abo mu gihe ciwe gutera umugongo "ubusazi" n'"ubujuju b
 Ubu kapitalizimu akenshi buregwa ko ari bwo butera itegeko rigira riti: "dutegerezwa kwama dukora vyinshi," canke ry'itegeko rigira riti: "gufungura ni vyiza ku gukura." Ariko ivyo vyiyumviro ntibiva ku bu kapitalizimu bwa kera ahubwo biva ku bu Keynes, bwari buganje mu vy’ubutunzi no mu rwego rwa politike kuva mu myaka ya 1930.
 
 
-![image](assets/6/img-011.webp)
+![image](assets/fr/088.webp)
 
 
 ### Isesengura ry'Ikibazo co mu 1929
@@ -2080,13 +2086,13 @@ Ubu kapitalizimu akenshi buregwa ko ari bwo butera itegeko rigira riti: "duteger
 Igitabo ca John Maynard Keynes, _Iciyumviro rusangi c’akazi, inyungu n’amahera_, casohowe mu mwaka w’1936, carakuye vyose vyari mu nzira yaco. Mu kwibaza imvo z’Ikigoyi Kinini n’uburyo bwo kugikuramwo, adondora akarorero gashasha k’ubutunzi, ko guhindura amayaruka y’abahinga mu vy’ubutunzi n’abanyapolitike.
 
 
-![image](assets/6/img-005.webp)
+![image](assets/fr/089.webp)
 
 
 Mu kuvuga mu ncamake, amafaranga Leta ikoresha aratuma haba iterambere, kandi kugira ngo hashigikirwe ikinyuranyo c’ingengo y’imari, hategerezwa gushirwa mu ngiro politike y’amahera y’inyungu ntoyi. Gutyo, mu ntango, ukwongerekana kw’amahera ya Leta mu buryo bubereye kwogira ingaruka zigwiza ku bikorwa vy’ubutunzi, bishobora kugabanya ugusubira inyuma kw’ubutunzi no kwihutisha ugusubirana. Hanyuma, mu ciciro ca kabiri, amahera yofatwa nk’igikoresho ca politike y’amahera kizokoreshwa n’inzego za Leta kugira ngo ubutunzi bube bwiza.
 
 
-![image](assets/6/img-001.webp)
+![image](assets/fr/090.webp)
 
 
 Ubu Keynes rero ni ubwo kwivugira ko butanga uburyo bwo gukura gukomeye no kuronka akazi kuzuye biciye mu gukoresha amahera ya Leta no mu gukoresha. Uwo mugambi wo gukura ushingiye ku kugenzura amahera.
@@ -2107,7 +2113,7 @@ Kubera Keynes, ikinyejana ca 20 carabaye ikinyejana co kwizigira abahinga no gut
 Ku bwa Keynes, ni ngombwa ko Leta igira ico ikoze kugira ngo ivyipfuzo vy’ubutunzi bisubire gutangura. Iyo nyigisho yaratsinze muri kaminuza no mu bitabu vy’inyigisho. Yamara, ukuntu Leta igira ico ikoze birafise utunenge kandi birashobora gutuma ingorane zirushiriza gukomera mu gihe kirekire, aho kuzitorera umuti.
 
 
-![image](assets/6/img-010.webp)
+![image](assets/fr/091.webp)
 
 
 Ni co gituma abahinga mu vy’ubutunzi bamwebamwe, mu rugero rutoyi, banegura Keynes kubera ko akora igihe gito, bagasaba ko hosubira ku buryo bwo gukoresha isoko nk’uburyo bwiza bwo gutorera umuti Leta.
@@ -2117,13 +2123,13 @@ Gutyo, Friedrich Hayek yasiguye yuko ugukomeza kugabanya inyungu n’amabanki ak
 Yari kumwe n’abandi, kandi yarashize ahabona akaga ko gushiramwo amafaranga hamwe no kuyakoresha nabi. Ivyo ni ko biri canecane ku Mufaransa yitwa Jacques Rueff, na we nyene yari umwigishwa akaba n’umugenzi wa Ludwig von Mises.
 
 
-![image](assets/6/img-012.webp)
+![image](assets/fr/092.webp)
 
 
 Rueff yarangije amashure yisumbuye muri École Polytechnique mu 1919, yari afise akazi keza cane ko kuba umukozi mukuru wa leta, akaba yari umujanama w’ubutunzi ku ntwaro nyinshi mu myaka ya 1920 na 1930. Igitabo ciwe gihambaye, _L’ordre social_ (Itegeko ry’imibano), casohowe mu 1945, aho yashizeho imvo ikomeye yo gushigikira isoko ry’uburenganzira akoresheje ubutunzi, filozofiya n’inyifato runtu.
 
 
-![image](assets/6/img-013.webp)
+![image](assets/fr/093.webp)
 
 
 Iki gitabu kirimwo igice nyamukuru citwa "Amahera meza canke Leta y'ubutegetsi bw'agahomerabunwa." Muri iki gice, aratanga ivyiyumviro bibiri. Irya mbere ni iri: «Amahera y'ikinyoma atera umuvurungano mu kibano.» Iciyumviro ca kabiri gikurikira ica mbere: «Imivurungano yo mu kibano ivyara ubuja mu kibano». Amahera y’ikinyoma ni amahera y’impapuro, atandukanye n’ukuri kwose kw’umubiri kandi akoreshwa n’ubutegetsi butwara. Umuvurungano wo mu kibano ni ugutera imbere kw’ibiciro n’ugukoresha ibintu biva kuri wo. Ubuja bw’abantu ni ukuntu abantu bisunga Leta, bagatakaza ubwigenge bwose bwabo mu vy’amahera, mu vy’inyifato runtu no mu vya politike.
@@ -2136,7 +2142,7 @@ Igihe gikurikira c’uguhagarika umutima gishobora gutuma abantu benshi kw’isi
 Kuva mu mwaka w’1958, politike yo gukosora ubutunzi bw’Ubufaransa, yahumekewe na Jacques Rueff, yararongowe na Jenerali de Gaulle. Bizojana mu myaka izwi cane yitwa «Trente Glorieuses» (Imyaka mirongo itatu y’ubuninahazwa).
 
 
-![image](assets/6/img-014.webp)
+![image](assets/fr/094.webp)
 
 
 Mu gitabu _Icaha c’amahera c’Uburengero_, mu mwaka w’1971, Rueff yanditse ati:
@@ -2147,7 +2153,7 @@ Mu gitabu _Icaha c’amahera c’Uburengero_, mu mwaka w’1971, Rueff yanditse 
 Yongerako ati: “Iterambere ry’ibiciro ni ugufasha amafaranga ataco atanga n’amahera atahari.” Nk’uko yabivuze: «Umuntu yokwiyumvira, yihweje ingene ubuhinga bw’amahera mpuzamakungu buriko buratera imbere, ko Uburengero buriko burashira mu ngiro impanuro za Lenin, zivuga ngo: Kugira ngo umuntu asenye intwaro y’abanyagihugu, bihagije kwonona amahera yayo.
 
 
-![image](assets/6/img-004.webp)
+![image](assets/fr/095.webp)
 
 
 Mu mwaka w’1976, yarateye ubu Keynes ubwa nyuma mu kiganiro yanditse mu kinyamakuru _Le Monde_.
@@ -2170,7 +2176,7 @@ Amahera ni igikoresho catumye abantu bashobora kurenga uguhinduranya, kuzigama n
 Kandi birashika aho uburyo bumwe bumwe bw’amahera buhorobuhoro bwitandukanije n’ubundi kugira ngo, mu binjana n’ibindi, bube urugero rw’isi yose rwo gukoresha, ari rwo nzahabu.
 
 
-![image](assets/6/img-002.webp)
+![image](assets/fr/096.webp)
 
 
 Nkako, inzahabu ni amahera y’agaciro ka Hard, agoye guhingura, azimvye guhingura. Isoko ryahisemwo inzahabu nk'ifaranga ry'ukwizigirwa kuruta ayandi yose, rikomeye cane kandi ridashobora gukoreshwa nabi. Ivyemezo vyo muri kahise vyerekana yuko iyo abantu bafise uburenganzira bwo guhitamwo amahera yabo, bakunda guhitamwo inzahabu.
@@ -2191,7 +2197,7 @@ Ni co gituma, mu gitabu _Igikorwa c’Umuntu_, Ludwig von Mises yandika ati:
 Ubuhinga bwa Bretton Woods, bwateguwe mu 1944, bugashirwa mu ngiro bimwe bishitse mu 1959, bwari bushingiye ku nzahabu no ku dolari, ari yo mafaranga yonyene yashobora guhindurwa inzahabu. Ni co gituma vyari ngombwa ko umuntu yirundanira amadolari kugira ngo aronke inzahabu.
 
 
-![image](assets/6/img-007.webp)
+![image](assets/fr/097.webp)
 
 
 Iciyo gihe, cane cane mu ntambara ya Vietnam, ukwiyongera kw’amahera ya Leta ya U.S. kwatumye ibihugu vyinshi vyo hanze, harimwo n’Ubufaransa, bishaka guhindura amadolari yavyo ngo abe inzahabu muri FED. Ku wa 15 Myandagaro 1971, Perezida Nixon yaciye afata ingingo yo gukuraho umuhango wo guhindura amadolari ngo abe inzahabu, gutyo haciye haba amahera ya mbere yose y’impapuro mu mateka ya Leta Zunze Ubumwe za Amerika. Kuva kuri uwo musi dushobora gushingira intahe igihe amahera yaje gucungerwa n’amabanki akomeye. Mu kiganiro Richard Nixon yagiranye n’abanyamakuru, ngo yavuze ati:
@@ -2202,15 +2208,17 @@ Iciyo gihe, cane cane mu ntambara ya Vietnam, ukwiyongera kw’amahera ya Leta y
 Nkako, ku bahinga benshi mu vy’ubutunzi b’aba Keynes, guheba ingingo ngenderwako y’inzahabu vyatumye intwaro zigira uburenganzira bwo guhindura ibintu kugira ngo zishobore kwishura canke gukingira ingorane z’ubutunzi.
 
 
-![image](assets/6/img-009.webp)
+![image](assets/fr/098.webp)
 
 
 Nk’uko Alan Greenspan, uwahoze ari umukuru w’ikigo ca Federal Reserve, ari co banki nkuru ya Amerika, abivuga, ingingo ngenderwako y’inzahabu ntihuye n’imyenda ya Leta be n’amahera Leta y’imibereho myiza itanga:
 
 
 > Nahora ngira icipfuzo c’ugushikama kw’igiciro gisanzwe kiri mu rugero rw’inzahabu; amafaranga ahamye ni yo yari intumbero nyamukuru yayo. Ariko rero, naramaze igihe kirekire nemera ko ingingo ngenderwako y’inzahabu idashobora guhura n’ivyiyumviro vy’abantu benshi ku bijanye n’igikorwa ca Leta, cane cane inshingano yayo yo gutuma habaho uburyo bwo kwishingira abantu. \[...\] Benshi mu banyamerika barihanganiye ugutera imbere kw’ibiciro nk’igiciro co kwishura kugira ngo umuntu agire Leta y’imibereho myiza y’iki gihe. Nta n’umwe agishigikira ingingo ngenderwako y’inzahabu, kandi mbona ko ata n’umwe yoshobora kugaruka. (_Igihe c’Imivurungano_).
-> Ahubwo, ku bantu nka Jacques Rueff, guheba ivyuma vy’agaciro ni ikosa rishobora gusa gutuma ubushobozi bwo kugura buguma bugabanuka, biherekejwe n’ukugabanya ubuzima, ukwiyongera kw’ubusumbane mu vy’amahera umuntu aronka, n’ugutera imbere kw’ukudatekana kw’ubutunzi.
-> ![ishusho](itunga/6/ishusho-008.urubuga)
+
+Ahubwo, ku bantu nka Jacques Rueff, guheba ivyuma vy’agaciro ni ikosa rishobora gusa gutuma ubushobozi bwo kugura buguma bugabanuka, biherekejwe n’ukugabanya ubuzima, ukwiyongera kw’ubusumbane mu vy’amahera umuntu aronka, n’ugutera imbere kw’ukudatekana kw’ubutunzi.
+
+![image](assets/fr/099.webp)
 
 Muri Ruhuhuma 1965, mu kiganiro c’abanyamakuru co kuri televiziyo, Jenerali de Gaulle, ahumekewe ata guca ku ruhande na Rueff, yasavye ko bosubira ku rugero rw’inzahabu. Yavuze ati:
 
@@ -2223,7 +2231,7 @@ Muri Ruhuhuma 1965, mu kiganiro c’abanyamakuru co kuri televiziyo, Jenerali de
 Mu mwaka w’1976, Hayek yaratanze uburyo bundi bwo gusubirira ubutegetsi bwa Leta bwo kurema amafaranga: uguhiganwa hagati y’amafaranga. Mu gitabu ciwe, _Pour une vraie concurrence des monnaies_ (_Ugukuraho amahera_), yariyumviriye isoko ry’amahera ritagira ububasha bwa Leta aho amahera menshi y’abikorera ku giti cabo yoba ari kumwe. Guhingura no gucunga amafaranga atandukanye n’ibigo vyigenga vyotuma abantu bashobora guhitamwo amafaranga ahamye kandi yizigirwa kuruta ayandi yose, gutyo bikaba bituma abatanga amafaranga bagira uguhiganwa n’indero.
 
 
-![image](assets/6/img-003.webp)
+![image](assets/fr/100.webp)
 
 
 Yandika ati:
@@ -2234,7 +2242,7 @@ Yandika ati:
 Ku bwa Hayek, ukudashikama kw’ubutunzi bw’isoko kwa kera kuva ku kuba ikintu gihambaye kuruta ibindi vyose kigenzura uburyo bw’isoko, ni ukuvuga amahera, ubwaco kidashobora kuba igiterwa n’ingendo y’isoko.
 
 
-![image](assets/6/img-006.webp)
+![image](assets/fr/101.webp)
 
 
 Hayek yarizera yuko isoko ry’amahera y’abantu ku giti cabo ryotuma amahera aguma ahagaze neza. Haciye nk’imyaka 50, amafaranga y’ibanga nka Bitcoin arashiramwo iciyumviro ca Hayek co guhiganwa mu gutanga uburyo bundi bwo gutorera umuti ubutegetsi bw’amabanki akomeye. Bitcoin, n’igipimo cayo c’ibidukikije kidahinduka c’ibice miliyoni 21, ikora nk’uburinzi ku bijanye n’ugutera imbere kw’ibiciro n’ububisha bw’abajejwe gucungera amategeko.
@@ -2249,7 +2257,7 @@ Hayek yarizera yuko isoko ry’amahera y’abantu ku giti cabo ryotuma amahera a
 Ico kibazo turiko turacamwo ni ikibazo c’ubutekerezi, ni ukuvuga ikibazo c’ubwenge gifise ingaruka mu vy’inyifato runtu, mu vya politike no mu vy’ubutunzi.
 
 
-![image](assets/6/img-000.webp)
+![image](assets/fr/102.webp)
 
 
 Hariho ibiganiro vyinshi ku bijanye n’ingorane za politike, ugusenyuka kwa demokarasi y’abashingamateka, ubutegetsi buserukira abantu, rero, umwidegemvyo. Ivyo bishobora guterwa n'ubu kapitalizimu n'"ubutegetsi bw'igitugu bw'amasoko."

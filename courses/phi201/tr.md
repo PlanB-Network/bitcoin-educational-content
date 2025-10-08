@@ -91,7 +91,7 @@ Neden bu dersin başlığı: Özgürlüğün Tarihi? Çünkü çağımızı daha
 
 > Geçmiş artık geleceği aydınlatmadığında, ruh karanlıkta yürür (Alexis de Tocqueville - _Democracy in America_).
 
-![image](assets/1/img-028.webp)
+![image](assets/fr/001.webp)
 
 
 Aynı zamanda Auguste Comte, "Bir bilim, tarihini bilmeden tam olarak bilinemez" demiştir Bu gerçek özgürlük fikrine de uygulanabilir.
@@ -99,7 +99,7 @@ Aynı zamanda Auguste Comte, "Bir bilim, tarihini bilmeden tam olarak bilinemez"
 Aslında özgürlük yeni bir fikir değildir. Nesiller boyunca aktarılan bir mirastır. Tüm uygarlık tarihi, özgürlük için verilen amansız bir mücadeleye tanıklık etmektedir.
 
 
-![image](assets/1/img-022.webp)
+![image](assets/fr/002.webp)
 
 
 Ancak bu dersin amacı sadece özgürlük tarihine ışık tutmak değil, aynı zamanda ve daha da önemlisi eleştirel düşünceyi geliştirmektir. Gerçekten de tarih, bugünü ve geleceği yargılamak için tek başına yeterli değildir. Ona eleştirel düşünme ve geçmişteki hatalar üzerine bir yargı eşlik etmelidir. Felsefenin katkısı budur. Bu nedenle bu dersin başlığını 'Özgürlüğün Felsefi Tarihi' olarak belirledim Bu gerçekten de filozofların çağlar boyunca özgürlüğü nasıl kavradıklarını keşfetmekle ilgilidir.
@@ -115,7 +115,7 @@ Başlangıcından bu yana ikili bir amaca sahip olmuştur:
 - İlk olarak, muğlak ve karışık kavramlara anlam kazandırmaktır. İyi, doğru, adil, güzel nedir? Tarihin işlevi nasıl geçmişi aydınlatmaksa, felsefe de kavramları doğru tanımlama sanatıdır. Bu nedenle bu derse özgürlüğün ne olduğunu anlayarak başlamamız gerekiyor.
 
 
-![image](assets/1/img-027.webp)
+![image](assets/fr/003.webp)
 
 
 Özgürlük, aynı gerçekliğin çok sayıdaki farklı varyasyonunu kapsayan bir kavramdır: siyasi özgürlük, ekonomik özgürlük, vicdan özgürlüğü, ifade özgürlüğü, din özgürlüğü, örgütlenme özgürlüğü, vb. Hangi gerçeklikten bahsediyoruz?
@@ -136,7 +136,7 @@ Sorumluluk kavramı özgürlüğün tamamlayıcısıdır çünkü her seçimin s
 Bu açıdan bakıldığında sadece iki tür siyaset felsefesi vardır: özgürlük felsefesi ve iktidar felsefesi.
 
 
-![image](assets/1/img-016.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -152,17 +152,17 @@ Fransa'da ilk felsefeyi savunanlar, başlarında François Quesnay'in bulunduğu
 
 > Yasalar olduğu için mülkler yoktur, mülkler olduğu için yasalar vardır. (_Mülkiyet ve Hukuk_).
 
-![image](assets/1/img-018.webp)
+![image](assets/fr/005.webp)
 
 
 Quesnay'in öğrencileri Turgot ve Say'e göre, yasa koyucuların kaprislerinden bağımsız, tüm insanlar için geçerli olan ve her toplumdan önce gelen bir doğal hukuk vardır. Bu felsefe doğrudan Ortaçağ skolastiğinden, Stoacılardan, Aristoteles'ten ve Sofokles'ten gelmektedir. Yazılı olmayan yasalar yazılı yasalardan önce gelir ve insan doğasından ve aklından kaynaklandığı için onlardan üstündür.
 
 
-![image](assets/1/img-014.webp)
+![image](assets/fr/006.webp)
 
 İkinci felsefe, Rousseau, Robespierre veya Kant gibi, genel iradenin egemenliğinin hukukun gerçek kaynağı olarak kabul edildiği cumhuriyetçi geleneği temsil eden yazarlar arasında bulunur. Quesnay'in çağdaşı olan Rousseau bir anti-fizyokrattır. Ona göre yasa koyucu, atıl maddeden bir makine icat eden bir tamirci gibi toplumu düzenlemelidir.
 
-![image](assets/1/img-026.webp)
+![image](assets/fr/007.webp)
 
 
 > "Bir halkın kuruluşunu üstlenmeye cesaret eden kişi," der Rousseau, "deyim yerindeyse insan doğasını değiştirmeye, kendi başına mükemmel ve yalnız bir bütün olan her bireyi, bu bireyin bir şekilde yaşamını ve varlığını aldığı daha büyük bir bütünün parçası haline getirmeye muktedir olduğunu hissetmelidir." (_Toplumsal Sözleşme_)
@@ -200,7 +200,7 @@ Dolayısıyla tarih iki ilke arasındaki bir mücadeledir: özgürlük ve baskı
 ### Baskı nedir?
 
 
-![image](assets/1/img-025.webp)
+![image](assets/fr/008.webp)
 
 
 Tek kelimeyle, yağmadır. Bastiat, yönetici elitlerden kaynaklanan başlıca yağma biçimlerini ana hatlarıyla belirtir: savaş, kölelik, teokrasi ve tekelcilik. Gerçekten de, ona göre: "Yaşamın korunması, süslenmesi ve iyileştirilmesi için gerekli olan şeyleri elde etmenin yalnızca iki yolu vardır: ÜRETİM ve YAĞMA." ([_Yağmanın Fizyolojisi_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
@@ -229,7 +229,7 @@ The Physiology of Plunder_] (http://bastiat.org/fr/physiologie_de_la_spoliation.
 ### Yağmanın Tarihi
 
 
-![image](assets/1/img-020.webp)
+![image](assets/fr/009.webp)
 
 
 Tarihsel olarak, yönetici elitler her zaman yağma ile yaşamışlardır. Bastiat şöyle diyor:
@@ -259,7 +259,7 @@ Bastiat, 1850 yılında Roma'da ölmeden birkaç gün önce arkadaşı Prosper P
 Tarihi galiplerin yazdığı bilinmektedir. Dikkatler genellikle iktidarın fethine, iktidardaki liderlerin yaşamlarına ve onların yerini almak isteyenlere karşı çıkan çatışmalara odaklanır.
 
 
-![image](assets/1/img-023.webp)
+![image](assets/fr/010.webp)
 
 
 Bu durum özellikle devlet okulları için hazırlanan ve devlet tarafından istihdam edilen profesörler tarafından yazılan ders kitapları için geçerlidir.
@@ -275,7 +275,7 @@ Bu yazar en çok şu özdeyişiyle tanınır: "Güç yozlaştırma eğilimindedi
 ### Acton'ın Tezi
 
 
-![image](assets/1/img-029.webp)
+![image](assets/fr/011.webp)
 
 
 Acton'a göre özgürlük ve güç arasındaki çatışma insanlık tarihinin ana temasıdır ve özgürlük ilerlemenin ve toplumların evriminin itici gücüdür. Acton, Batı'da özgürlüğün yükselişine katkıda bulunan faktörleri anlamaya çalışmıştır. Amacı, özgürlüğün korunması ve geliştirilmesi için gerekli koşulları belirlemekti. Zaman içinde ortaya çıkmalarını destekleyen felsefi fikirleri, sosyal yapıları ve siyasi bağlamları inceledi.
@@ -302,7 +302,7 @@ Bu nedenle Voltaire, [_Philosophical Letters_] (https://fr.wikisource.org/wiki/L
 
 > İngiltere'de tek bir din olsaydı, despotluğundan korkulurdu; iki din olsaydı, birbirlerinin boğazını keserlerdi; ama otuz tane var ve barış ve mutluluk içinde yaşıyorlar. ([Presbiteryenler Üzerine](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
-![image](assets/1/img-105.webp)
+![image](assets/fr/012.webp)
 
 
 Condorcet, [_Sketch for a Historical Picture of the Progress of the Human Mind_] (https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain) adlı eserinde, İtalya'daki merkezi olmayan iktidar yapısını, birçok bağımsız şehir devletinin gelişmesine izin veren papa ve imparator arasındaki rekabete bağlar.
@@ -318,7 +318,7 @@ Bu tez 1983 tarihli anıtsal bir eserde de yer almaktadır: _Hukuk ve Devrim: Th
 
 Ancak tarihe başka bir bakış açısı da mevcuttur. Bu bakış açısı oldukça başarılı olmuş ve uzun zamandır Batılı entelektüellerin ve Küresel Güney'den temsilcilerin desteğini almıştır. Bu, sosyalist ve Marksist tarih görüşüdür.
 
-![image](assets/1/img-024.webp)
+![image](assets/fr/013.webp)
 
 
 Avrupa'nın olağanüstü büyümesini, emperyalizm, kölelik, üçgen ticaret, küçük köylülerin mülksüzleştirilmesi ve işçi sınıfının sömürülmesinden kaynaklanan "ilkel sermaye birikimi" ile birlikte teknolojinin ilerlemesiyle açıklamaktadır. Sonuç açıktır. Avrupa'nın bu istisnai büyümesi, milyonlarca ve milyonlarca köle ve ezilen birey pahasına elde edilmiştir.
@@ -346,7 +346,7 @@ Bu analiz, artı değerin ve ekonomik hayatın işbirliğine dayalı ve dinamik 
 
 Aslında Marksist analiz Sanayi Devrimi'nin tarihsel gerçekliğini çarpıtmaktadır. Ludwig von Mises bu konuya [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) adlı ekonomi incelemesinde (özellikle [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) başlıklı bölüme bakınız) ve [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) başlığı altında yayınlanan bir dizi derste açıklık getirmiştir. (Ayrıca okumaya değer, The Anti-Capitalistic Mentality [burada](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) ve [burada](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
-![image](assets/1/img-030.webp)
+![image](assets/fr/014.webp)
 
 
 Mises, fabrikalardaki işlerin, bizim standartlarımıza göre sefil olsa da, o zamanın işçileri için mümkün olan en iyi fırsatı temsil ettiğini açıklıyor.
@@ -367,7 +367,7 @@ Mises, insanlığın durumunun iyileştirilmesinin sermaye birikimi sayesinde m�
 Sanayi Devrimi'nden önce çoğu insan kırsal toplumlarda yaşıyordu ve hayatta kalmak için tarıma bağımlıydı. Pazarda satacak çok az şeyleri vardı, bu da fırsatlarını ve yaşam standartlarını sınırlıyordu. Herkes mutlak yoksulluk içinde yaşamayı bekliyor ve kendi torunları için de benzer bir kaderi öngörüyordu. Kaçınılmaz gibi görünen bu durum kimseyi öfkelendirmedi.
 
 
-![image](assets/1/img-106.webp)
+![image](assets/fr/015.webp)
 
 
 Sanayileşmenin gelişiyle birlikte yeni fırsatlar ortaya çıkmış ve bu da işgücüne olan talebin artmasına yol açmıştır. İlk kez, toprağı veya önemli kaynakları olmayan insanlar emeklerini Exchange'teki fabrikalara ve imalatçılara bir ücret karşılığında satabiliyor ve böylece gelecek güvencesi sağlayabiliyordu.
@@ -394,7 +394,7 @@ Daha sonra, Marx'ınkinden daha incelikli bir tarihsel analiz, başarısını ya
 Ahlaki ve Siyasi Bilimler Akademisi üyesi Jean Baechler'in _The Origins of Capitalism_ (1971) adlı kitabında dediği gibi:
 
 
-![image](assets/1/img-021.webp)
+![image](assets/fr/016.webp)
 
 
 > Ekonomik verimliliğin maksimize edilmesinin ilk koşulu, sivil toplumun devletten özgürleştirilmesidir (...) Kapitalizmin genişlemesi, kökenini ve varlık nedenini siyasi anarşiye borçludur.
@@ -416,7 +416,7 @@ Bu bölümün sonunda, Avrupa'nın ekonomik ve kültürel yükselişi dünyanın
 Murray Rothbard, _Anatomy of the State_ (Résurgence editions tarafından Fransızca'ya _L'anatomie de l'Etat_ olarak çevrilmiştir) kitabının son bölümünde bir tarih teorisi önermektedir. Bu çok kısa bölümün başlığı 'Tarih: Devlet Gücü ile Toplumsal Güç Arasında Bir Yarış' başlığını taşımaktadır Rothbard'a göre tarih, iki temel ilke arasındaki sürekli bir çatışma olarak anlaşılabilir:
 
 
-![image](assets/1/img-013.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -454,7 +454,7 @@ Yazılı bir anayasanın elbette birçok avantajı vardır, ancak bunun yeterli 
 ### 20. Yüzyıl: Bir Geri Çekilme Yüzyılı
 
 
-![image](assets/1/img-012.webp)
+![image](assets/fr/018.webp)
 
 
 Rothbard'a göre tarih doğrusal bir süreç değil, daha ziyade toplumsal gücün ilerlemesi ile Devletin kontrolünün yeniden canlanması arasında bir salınımdır:
@@ -471,7 +471,7 @@ Rothbard'a göre tarih doğrusal bir süreç değil, daha ziyade toplumsal güc�
 > Bu yüzyılda, insan ırkı bir kez daha Devletin öldürücü saltanatıyla karşı karşıyadır; Devlet artık insanın yaratıcı gücüyle silahlanmış, el koymuş ve kendi amaçları doğrultusunda saptırmıştır.
 > Sonuçta özgür bir toplum nedir? Tekelin olmadığı bir toplumdur. Rothbard, _Ethics of Liberty_ (1982) adlı siyaset felsefesi eserinde bu soruyu şöyle yanıtlıyor: "Herhangi bir bireyin şahsına veya mülküne karşı zorlayıcı bir saldırının yasal olarak mümkün olmadığı bir toplumdur." Bu nedenle, ona göre, adil bir toplumun ilkelerini tanımlaması gereken siyaset felsefesi tek bir soruya indirgenir: "Kim meşru olarak neye sahiptir?"
 
-> ![image](assets/1/img-029.webp)
+> ![image](assets/fr/019.webp)
 
 Rothbard'a göre, sosyal düzen, tüm ekonomik faaliyetlerin ve hatta egemenlik işlevlerinin (merkez bankaları ve mahkemeler gibi) özelleştirilmesi ve koruma kurumları arasında rekabete başvurulması yoluyla elde edilen mülkiyet haklarının serbestçe Exchange'sı için sözleşmeye dayalı prosedürlerin genelleştirilmesinin ürünü olduğu takdirde hakim olabilir.
 
@@ -499,7 +499,7 @@ Ve ekliyor:
 Atina demokrasisi deneyimi, siyasi düşünce tarihinde kalıcı bir iz bırakmıştır ve günümüz dünyasında demokrasi ve vatandaş katılımı ideallerine ilham vermeye devam etmektedir.
 
 
-![image](assets/2/img-107.webp)
+![image](assets/fr/020.webp)
 
 
 Atina demokrasisi, öncelikle şehrin pazar yeri olan agorada gerçekleşen, şehir meselelerine ilişkin canlı kamu tartışmalarıyla karakterize edilirdi. Akla ve eleştirel tartışmaya dayanan bu işleyiş tarzı, kanunların ve geleneklerin kutsal ve değişmez kabul edildiği, atalar tarafından aktarıldığı ve tanrılar tarafından korunduğu önceki uygulamalarla keskin bir tezat oluşturuyordu.
@@ -510,7 +510,7 @@ Atina demokrasisi, öncelikle şehrin pazar yeri olan agorada gerçekleşen, şe
 
 Atina demokrasisi gelenekten önemli bir ayrılışı temsil eder. Gerçekten de, daha önceki toplumlarda, toplumsal kurallar hakkında bir tartışma anlamında "siyaset" olamazdı, çünkü bunlar aşkın bir şekilde mit tarafından dayatılıyordu.
 
-![image](assets/2/img-109.webp)
+![image](assets/fr/021.webp)
 
 
 Tarihçi Jean-Pierre Vernant şöyle yazıyor:
@@ -521,7 +521,7 @@ Tarihçi Jean-Pierre Vernant şöyle yazıyor:
 
 > (Jean Pierre Vernant, _The Origins of Greek Thought_, Paris, P.U.F, 1962)
 
-![image](assets/2/img-001.webp)
+![image](assets/fr/022.webp)
 
 
 İngilizce "politics" kelimesinin ortaya çıkmasına neden olan Yunanca "polis" kelimesi bir şehir devletini ifade eder. Aristoteles "insan doğası gereği siyasi bir hayvandır" diye yazdığında, bu onun iktidar için yaratıldığı anlamına gelmez. Siyaset derken, insanların neyin adil neyin adaletsiz olduğunu belirlemek için kamusal alanda müzakere etme yetisine atıfta bulunmaktadır.
@@ -550,7 +550,7 @@ Ve Jean-Pierre Vernant ekliyor:
 Tanrıların kasıtlı eylemleri toplumsal uyumu değil, tüm yurttaşların aynı gayri şahsi yasaya itaat etmesini sağlar. İktidar artık rahiplerin meselesi değildir. Herkesin meselesi haline gelmiştir. Böylece yasa önünde eşitlik kavramı ortaya çıkar: "_isonomia_," ama aynı zamanda retorik. Meclislerde ve mahkemelerde yurttaşları ikna etmek için konuşma ustalığı şarttı.
 
 
-![image](assets/2/img-110.webp)
+![image](assets/fr/023.webp)
 
 
 Aristoteles'e göre tiranlık bir adama itaat etmek, özgürlük ise yasaya itaat etmektir. Bu söz ona atfedilir:
@@ -566,7 +566,7 @@ MÖ 1. yüzyılın ünlü Romalı hatibi ve filozofu Cicero bu fikri benimsemiş
 Cumhuriyet kavramı Yunan felsefesinden kaynaklanmaktadır. Sıklıkla çok riskli olduğu düşünülen demokrasi ile karşılaştırılmıştır. Platon siyaset felsefesinin ana eserine bu adı vermiştir: cumhuriyet_ ve demokrasiyi çok sert bir şekilde yargılar. Halk yönettiğinde, kendi arzularının yasasını dayatma ve iyi ile hoş olanı birbirine karıştırma riski çok yüksektir. Bu nedenle, halktan oluşan bir jüri tarafından ölüme mahkûm edilen Sokrates'in trajik ölümü sofistler tarafından manipüle edilmiştir. Platon bundan tüm dersleri çıkarmıştır.
 
 
-![image](assets/2/img-111.webp)
+![image](assets/fr/024.webp)
 
 
 Aristoteles "cumhuriyet" terimini, ortak çıkarı amaçlayan ve yurttaşlara özgür insanlar olarak davranan adil bir anayasayı tanımlamak için kullanacaktır. Gerçek bir özgürlük rejimi, yasanın genel, herkes için eşit, anonim olduğu ve kişisel bir emir olmadığı bir rejimdir.
@@ -592,7 +592,7 @@ Yunanlıların kendileri de bu özgünlüğü ölçmüş ve 5. yüzyılın baş�
 (_Ancient Greece at the Discovery of Freedom, Paris, Editions de Fallois, 1989_)
 
 
-![image](assets/2/img-108.webp)
+![image](assets/fr/025.webp)
 
 
 Herodot, özgür insanlardan oluşan bir halkın, Pers imparatorluğunda olduğu gibi, sadece bir kişinin özgür olduğu ve diğerlerinin köle olduğu bir efendiye değil, bir yasaya itaat eden bir halk olduğuna ikna olmuştur. Bu bir demokrasi olan Atina için doğrudur ama Sparta için de doğrudur. Kral yasayı yaratmaz. Kendi iradesini dayatmaz. Yasaya saygı duyulmasını sağlar, onun hizmetindedir ve gerekirse onu savunmak için ölür.
@@ -604,7 +604,7 @@ Herodot, özgür insanlardan oluşan bir halkın, Pers imparatorluğunda olduğu
 Mitolojik düşünceden uzaklaşan Thales, Anaksimandros, Anaksimenes ve daha sonra Demokritos ve Empedokles, phusis'i (doğayı) doğaüstü varlıklar yerine akıl yoluyla anlamaya çalışan ilk kişilerdir.
 
 
-![image](assets/2/img-009.webp)
+![image](assets/fr/026.webp)
 
 
 Bu ilk Sokrates öncesi filozoflar tarafından ortaya atılan temel ilke, kosmosun (evren) Elements'sinin yerinde durduğudur çünkü hepsi evrensel ve zorunlu olarak ifade edilebilen aynı "doğa yasasına" (phusis) eşit derecede tabidir. Evren rasyoneldir; insanın aklıyla keşfedebileceği yapılandırılmış bir bütün oluşturur ("mutos "a karşıt olarak "logos", mit).
@@ -615,7 +615,7 @@ Karl Popper'a göre, eleştirel rasyonalizmin icadını, Batı'nın eleştirel t
 Eleştirel bir tutumun, yeni bir düşünce özgürlüğünün varlığının ilk işaretlerine gelince, bunlar Anaksimandros'un Thales'i eleştirisinde ortaya çıkar. Bu oldukça tekil bir olgudur; Anaksimandros'un eleştirdiği düşünür ustası, yurttaşı, Yedi Bilge'den biri, İyonya Okulu'nu kuran kişidir. Geleneğe göre, Anaksimandros Thales'ten sadece on dört yaş küçüktü ve muhtemelen eleştirilerini formüle etti ve yeni kavramlarını ustasının yaşamı sırasında sundu, çünkü öyle görünüyor ki birkaç yıl arayla öldüler. Bununla birlikte, kaynaklarda herhangi bir anlaşmazlık, kavga ya da bölünme kanıtı bulunmaz.
 
 
-![image](assets/2/img-008.webp)
+![image](assets/fr/027.webp)
 
 
 Ona göre bu Elements, Thales'in usta ve öğrenci arasındaki özgün bir ilişkiye dayanan bu yeni özgürlük geleneğini yarattığını göstermektedir. Thales eleştiriye tahammül edebilmiş ve eleştiriyi kabul etme geleneğini kurmuştur. Popper burada sadece tek bir okul doktrinine izin veren dogmatik gelenekten bir kopuş tespit eder ve bunun yerine çoğulculuğu ve yanlışlanabilirliği koyar.
@@ -644,7 +644,7 @@ Roma İmparatorluğu geniş, kozmopolit bir yapıydı. MS 117 civarında zirveye
 - Doğuda Mezopotamya'ya (bugünkü Irak) ve Ermenistan'a kadar uzanıyordu.
 
 
-![image](assets/2/img-007.webp)
+![image](assets/fr/028.webp)
 
 
 O andan itibaren Romalılar hukukun gelişimini küçük, etnik olarak homojen şehir devletlerinde yaşayan Yunanlıların çok ötesine taşıdılar. Roma Cumhuriyeti döneminde, mülkiyet ve bireysel hakların yasal olarak korunması zaten mevcuttu.
@@ -659,7 +659,7 @@ Gerçekten de hukukun işlevi, "benim" ve "senin" sınırlarını çizerek insan
 Roma hukuku, Orta Çağ'dan günümüze kadar tüm modern Batı hukukunun temeli haline gelecektir.
 
 
-![image](assets/2/img-012.webp)
+![image](assets/fr/029.webp)
 
 
 ### Bireysel hakların korunması
@@ -674,7 +674,7 @@ Bu yasa, iki bin yıl sonra John Locke tarafından teorize edilen temel doğal h
 Kuşkusuz, kadınlar, köleler ve yabancılar hâlâ yasanın tam korumasından mahrumdu. Bununla birlikte, On İki Levha Kanunu önemli bir ilerlemeyi temsil ediyor ve daha sonra herkesi kapsayacak şekilde genişletilen bireysel hakların daha da geliştirilmesi için zemin hazırlıyordu.
 
 
-![image](assets/2/img-006.webp)
+![image](assets/fr/030.webp)
 
 
 On İki Levha Kanunu özellikle mülkiyet haklarına özel bir önem vermektedir:
@@ -710,7 +710,7 @@ Düşüncede dengenin bir modeli de erdem, akıl ve özdenetimin önemi hakkınd
 Mutlu Yaşam Üzerine İnceleme (_De Vita Beata_) Stoacı ahlak için bir savunmadır. Mutluluk, der Seneca, "korkunun erişemediği özgür bir ruhtur \[...\] onun için tek kötülük ahlaki aşağılanmadır." Sokrates'in öğrencisi olan Stoacı bilge, fiziksel kötülükten, ölümden ve hatta haksızlığa uğramaktan korkmaz. Onun için tek kötülük ahlaki kötülüktür. Bu nedenle, en yüce iyilik erdemde yatar.
 
 
-![image](assets/2/img-011.webp)
+![image](assets/fr/031.webp)
 
 
 Bununla birlikte, haz erdemle bağdaşmaz değildir:
@@ -746,7 +746,7 @@ Aristoteles doğal adalet ile yasal adaleti birbirinden ayırır. Doğal adalet,
 Oyun yazarı Sophokles, _Antigone_ adlı oyununda ilahi yasa ile beşeri yasa arasındaki bir çatışmayı sahneye koyar. Antigone, Kral Kreon'un kardeşinin gömülmesini yasaklayan fermanına uymayı reddederek, değişmez ve üstün olan ilahi yasaların beşeri yasalardan öncelikli olduğunu savunur.
 
 
-![image](assets/2/img-002.webp)
+![image](assets/fr/032.webp)
 
 
 Antigone Kreon'a itaatsizlik ettiğinde, ahlaki ve dini vicdanına itaat etmek için pozitif yasaya karşı çıkar. Eğer sadece pozitif hukuk varsa, der Aristoteles, Kreon haksız olsa bile her zaman haklıdır. Ancak doğal ya da ilahi bir yasanın düzenleyici fikrini sürdürürsek, Antigone zamanı geldiğinde ayağa kalkabilir ve adaletsiz bir yasaya karşı, yazılı olmayan yasanın üstün hakkına başvurabilir.
@@ -758,7 +758,7 @@ Antigone Kreon'a itaatsizlik ettiğinde, ahlaki ve dini vicdanına itaat etmek i
 Cicero MÖ 1. yüzyılda yaşamıştır ve Roma İmparatorluğu döneminde Latince dilinin en büyük hatiplerinden biri olarak kabul edilir. Aynı zamanda Stoacılarla yakın ilişki içinde olan bir ahlak ve siyaset filozofudur. Eğitimli Avrupalılar yüzyıllar boyunca onun denemelerini okumuşlardır.
 
 
-![image](assets/2/img-004.webp)
+![image](assets/fr/033.webp)
 
 Kanunlar Üzerine_ (_De Legibus_) adlı risalesinde hukukun temeli üzerine düşünür. Ona göre, pozitif hukuk, bir toplum tarafından kabul edilen sözleşmeler veya yazılı yasalar bütünü, adına yakışır bir adalet tesis edemez. İnsan aklına kazınmış doğal bir adalet vardır: "hukukun temeli doğanın kendisindedir." Adaletsizliğin bir teamülün sonucu olduğunu söylemek, hakikatin hükme bağlandığını söylemektir. Ancak hakikat, çoğunluk tarafından bile kararlaştırılamaz; o bizim yargılarımıza rehberlik eder.
 
@@ -789,13 +789,13 @@ Hukukun yalnızca yasama organı tarafından çıkarılan tüzüklere indirgenem
 Roma neden geriledi ve nihayetinde yıkıldı? Birçok kişi Roma İmparatorluğu'nun barbar istilalarının etkisiyle aniden çöktüğünü düşünmekten hoşlanır. Ancak Roma İmparatorluğu'nun çöküşünün nedenleri çok daha eskilere, emperyalizme ve ekonomik ve parasal dirijizme dayanmaktadır.
 
 
-![image](assets/2/img-013.webp)
+
 
 
 Montesquieu, 1734'te _Considerations on the Causes of the Greatness of the Romans and of Their Decline_ adlı eserinde Roma gücünün yükselişini ve düşüşünü açıklamak için özgün ve birleşik bir tez geliştirdi: Cumhuriyet döneminde kazanılan ve İmparatorluk döneminde kaybedilen özgürlük. Roma egemenliği genişlediği andan itibaren özgürlük kaybedilmiş ve çöküş başlamıştır.
 
 
-![image](assets/2/img-003.webp)
+![image](assets/fr/034.webp)
 
 
 Roma İmparatorluğu, ancak dışarıdan yağmalanan servet, köleleştirilen mahkumlar ve çalınan topraklar sayesinde ayakta kalabilen parazit bir askeri rejimdi.
@@ -832,7 +832,7 @@ Ardından ekonomik istikrarsızlığa siyasi istikrarsızlık da eklendi ve 50 y
 Müdahaleciliğin klasik bir örneği Roma'da İmparator Diocletianus'un fiyatları sınırlamak istemesiyle ortaya çıkmıştır. Müdahalecilik, bir gücün düzeni sağlama ve vatandaşları koruma rolünü aşan eylemleri olarak tanımlanır. Fiyatları, ücretleri, faiz oranlarını ve karları değiştirmeyi amaçlayan, piyasayı kontrol etmeye yönelik bir girişimdir.
 
 
-![image](assets/2/img-005.webp)
+![image](assets/fr/035.webp)
 
 
 Askeri harcamalardaki artışla başa çıkmak için birbirini takip eden imparatorlar tarafından tekrarlanan parasal emisyonlar fiyatlarda bir artışa neden olmuştu. Diocletianus 301 yılında fiyatları kontrol altına almak amacıyla Maksimum Fermanı'nı ilan etti. Bu bir başarısızlıktı.
@@ -851,7 +851,7 @@ Roma İmparatoru Diocletianus, Hıristiyanlara zulmeden son Roma imparatoru olma
 Montesquieu'nün izinden giden Philippe Fabry, Roma'nın liberalizmden sosyalizme doğru bir yörünge izlediğini gösteriyor. Philippe Fabry hukuk, kurumlar ve siyasi fikirler tarihçisidir. Toulouse 1 Capitole Üniversitesi'nde ders vermiştir ve aralarında _Rome, from Liberalism to Socialism_ (2014) kitabının da bulunduğu çeşitli kitapların yazarıdır.
 
 
-![image](assets/2/img-010.webp)
+![image](assets/fr/036.webp)
 
 
 Roma antik dünyanın en büyük liberal gücü müydü? Daha sonra bir tür sosyalizme mi düştü? Önce terimleri tanımlayalım:
@@ -899,7 +899,7 @@ Ve ekliyor:
 Hıristiyan özgürlük kavramı, 4. yüzyılda Aziz Augustine'den 13. yüzyılda Aziz Thomas Aquinas'a kadar Ortaçağ teolojisinde gelişmiştir. Nedir bu fikir?
 
 
-![image](assets/3/img-036.webp)
+![image](assets/fr/037.webp)
 
 
 ### Özgürlük günah fikriyle iç içedir
@@ -931,7 +931,7 @@ Ancak ahlaki kötülüğün gerçekleşmesi, insanın iyiyi seçmesini isteyen T
 
 Ortaçağ teolojisinde takdir, sanki Tanrı bizim adımıza ve bizim rızamız olmadan hareket ediyormuş gibi, Tanrı'nın insanların yaşamlarına sürekli müdahalesi olarak anlaşılmaz. Aksine, Tanrı her yaratığa doğasına uygun olarak, kendi geçimini sağlamasına ve böylece tam gelişimine ulaşmasına olanak tanıyan yetiler verir. Tanrı yaratık için onun yerine iyilik yapmaz.
 
-![image](assets/3/img-039.webp)
+![image](assets/fr/038.webp)
 
 
 Varlıklar skalasında mineralden insana doğru yükseldikçe, Tanrı yarattıklarına kendi başlarına hareket etme gücünü daha fazla verir. İnsana kendini yönetme ve dünyayı sağduyu erdemine göre aklıyla yönetme özgürlüğünü emanet eder.
@@ -942,7 +942,7 @@ Bu nedenle, Aziz Thomas şöyle yazar (_Summa contra Gentiles_, III, 69 ve 122):
 
 > Yaratılmışların mükemmelliğinden uzaklaşmak, ilahi gücün mükemmelliğinden uzaklaşmaktır (...) Tanrı sadece bizim iyiliğimize aykırı davrandığımız için bizden rahatsız olur.
 
-![image](assets/3/img-037.webp)
+![image](assets/fr/039.webp)
 
 
 Bu nedenle takdiri ilahi bize kendi takdirimiz olmamız için gerekli araçları verir. Ve ekliyor:
@@ -974,7 +974,7 @@ Aziz Thomas'a göre:
 Ortaçağ'da akıl ve inanç hakikate erişim için rekabet halindeydi. Abélard ve Büyük Albert'in ardından 13. yüzyılda Thomas Aquinas, inanç karşısında aklın özerkliğini savunmayı seçmiştir.
 
 
-![image](assets/3/img-048.webp)
+![image](assets/fr/040.webp)
 
 
 Aristoteles'in düşüncesinden, göksel düzenden bağımsız, özerk bir doğal düzen fikrini ödünç alır. Doğaüstü düzen gerçekten de doğal düzenin üstündedir, ancak ondan ayrı olarak ve ondan önce var olur. Dolayısıyla, ona göre, dünya ve özellikle de Tanrı hakkındaki hakikate erişmenin iki yolu vardır:
@@ -1013,7 +1013,7 @@ Bu, inanç ve aklı uzlaştırmaya çalışan orta pozisyondur. Gerçek rasyonal
 Hıristiyan Ortaçağı, 13. yüzyılın başlarında Batı'da üniversitelerin doğuşu ve çoğalmasıyla damgasını vurmuştur. Üniversite, Kilise'nin kontrolü altında aynı şehirden öğrenci ve hocalardan oluşan ve prensipte dört fakülteden oluşan bir topluluktur: sanat, teoloji, hukuk ve tıp. Teoloji, Yunan bilimi örnek alınarak bir bilim olarak düşünülmüştür.
 
 
-![image](assets/3/img-041.webp)
+![image](assets/fr/041.webp)
 
 Philippe-Auguste 1200 yılında, kısa sürede Avrupa'nın en tanınmış üniversitesi haline gelen Paris Üniversitesi'ni kurdu. 1257 yılında Robert de Sorbon, Paris Üniversitesi'nde daha sonra Sorbonne adını alacak olan bir ilahiyat fakültesi kurdu. Bu üniversitelerde skolastisizm (Latince schola, "okul" anlamına gelir) olarak bilinen yeni bir öğretim ve araştırma yöntemi ortaya çıktı. Bu yöntem, katılımcıların karşıt görüşleri bir dinleyici kitlesine sunduğu bir tartışma türü olan "disputatio "yu içeriyordu. Bir tez öne sürülür, ardından yanıt gerektiren itirazlar gelirdi. Tüm argümanlar tükendiğinde, hoca tartışmayı gerekçeli bir çözümle çözerdi.
 
@@ -1043,7 +1043,7 @@ Siyaset ve din arasındaki ilişki sorusu Aziz Augustine'in _Civitas Dei_ (_Tanr
 
 Böylece iki sevgi iki şehir yaratmıştır: Tanrı'yı hor gören benlik sevgisi, dünyasal şehir; benliği hor gören Tanrı sevgisi, göksel şehir.
 
-![image](assets/3/img-043.webp)
+![image](assets/fr/042.webp)
 
 
 Bu nedenle:
@@ -1057,7 +1057,7 @@ Bu nedenle:
 Ancak Augustinus'a göre bu dünyevi şehir gereklidir. Bu gereklidir çünkü barışı garanti eder. Bu nedenle, dindarlarla bir arada yaşama iyi yönetilmeli ve ruhani gücün zamansal güce üstünlüğü bunu düzenlemelidir. Bununla birlikte, radikal bir ayrılık ya da açık bir çatışma olmamalıdır; bunun yerine, her iki varlık birlikte çalışmalıdır. Tarihçiler bu doktrini siyasi Augustinusçuluk olarak adlandırmışlardır.
 
 
-![image](assets/3/img-033.webp)
+![image](assets/fr/043.webp)
 
 
 ### Geçici güç ile ruhani güç arasındaki rekabet
@@ -1109,7 +1109,7 @@ Dahası, Tanrı yaratıcı olduğu için, yeni bir kavramın ortaya çıktığı
 Ortaya çıkan bu doktrinin en iyi bilinen örneği, 16. yüzyılda İspanya'da bulunan Salamanca Okulu'dur. Bu okulun temsilcilerinden biri olan Francisco de Vitoria, her insan Tanrı'nın suretinde yaratılmışsa, ne Yahudi, ne siyah köle, ne de Kızılderili olmak üzere hiçbir insanın diğerinden aşağı görülemeyeceğini ileri sürer.
 
 
-![image](assets/3/img-042.webp)
+![image](assets/fr/044.webp)
 
 
 Amerika'nın keşfi gerçek bir kültürel şok, Antik Çağ'dan miras kalan politik-dinsel oybirliğinde bir ilk kırılma oluşturdu. Kızılderililerin hakları konusundaki ünlü tartışma gerçekten de teologları iki karşıt ve uzlaşmaz kampa böldü.
@@ -1125,7 +1125,7 @@ Aziz Thomas, _Summa Theologica_ adlı eserinde şu soruyu sorar: Tanrı'ya inanm
 
 Salamanca'daki akademisyenler bu mantığı Yerli halkların durumuna uygulayarak mülkiyetin doğal bir hak olduğunu savunmuşlardır. Dolayısıyla Yerli halkların topraklarını almak, tıpkı Hıristiyanlar gibi hırsızlık yapmak anlamına gelmektedir. Ayrıca, onların değil bizim saldırganlığımız söz konusu olduğu için onlara savaş açmak da caiz değildir.
 
-![image](assets/3/img-035.webp)
+![image](assets/fr/045.webp)
 
 
 Yerli halklar meselesi, siyasi-dini monolitteki ilk çatlaktı. Siyasi toplumun birliğinin, aynı topraklarda yaşayanların dini birliğinden başka bir temele, insan doğasına dayanan ortak bir bağa dayanabileceğini gösterdi.
@@ -1155,11 +1155,15 @@ Cevabın bir kısmı, kapitalizmin Protestan Reformu'ndan çok önce dini bir ba
 20'nci yüzyılın başlarında yaşamış Belçikalı tarihçi Henri Pirenne, çalışmalarının bir bölümünü Avrupa'da kapitalizmin ortaya çıkışını analiz etmeye ayırmıştır. Avrupa Tarihi_ adlı kitabında şöyle der:
 
 
-![image](assets/3/img-034.webp)
+
 
 
 > Kapitalizmin tüm temel özellikleri - bireysel girişim, kredinin gelişimi, ticari kârlar, spekülasyon, vb - 12. yüzyıldan itibaren İtalyan şehir devletlerinde, Venedik, Cenova veya Floransa'da zaten mevcuttu.
-> Pirenne'e göre bu ticaret şehirleri, ticari dinamizmleri ve deniz yolları üzerindeki stratejik konumları sayesinde, yeni gelişmekte olan kapitalizmin karakteristik ekonomik uygulamalarını geliştirmişlerdir. Pirenne özellikle şunların altını çizmektedir:
+
+
+![image](assets/fr/046.webp)
+
+Pirenne'e göre bu ticaret şehirleri, ticari dinamizmleri ve deniz yolları üzerindeki stratejik konumları sayesinde, yeni gelişmekte olan kapitalizmin karakteristik ekonomik uygulamalarını geliştirmişlerdir. Pirenne özellikle şunların altını çizmektedir:
 
 
 - **Bireysel girişimin yükselişi:** Genellikle varlıklı ailelerden gelen İtalyan tüccarlar, fonlarını uzak ticari seferlere yatırıyor, böylece riskleri üstleniyor ve önemli karlar bekliyorlardı.
@@ -1176,12 +1180,13 @@ Pirenne, bu uygulamaların Avrupa'nın diğer bölgelerinde de mevcut olmasına 
 
 Kutsal Yazılar, faizle borç vermenin savunmasız borçluları sömürmek anlamına geldiği düşüncesiyle tefecilik olarak bilinen faizli kredileri kınamaktadır. Ancak uygulamada Kilise bu konuyu görmezden gelmiştir.
 
+![image](assets/fr/047.webp)
 
 Jacques Le Goff, Orta Çağ kültürü ve zihniyetleri konusunda uzmanlaşmış bir Fransız tarihçidir. Pirenne'i izleyerek, kapitalizmin tohumlarının Ortaçağ'ın başlarında, özellikle de bireysel girişim, kâr peşinde koşma ve kredi araçlarının kullanımı gibi uygulamaların zaten mevcut olduğu İtalyan şehirlerinde var olduğunu kabul eder.
 
 Veya Le Goff, _L'usure au Moyen Âge_ (1967, 1986'da _La bourse et la vie; économie et religion au moyen-age_ başlığı altında yeniden yayımlanmıştır) adlı eserinde, 13. yüzyılın başlarında Aziz Albert'in "meşru faiz" kavramını teorileştirdiğini vurgulamaktadır: la bourse et la vie; économie et religion au moyen-age_) 13. yüzyılın başlarında Büyük Aziz Albert'in "meşru faiz" kavramını teorileştirdiğini ve bu kavramın kendisinden sonra Aziz Thomas Aquinas tarafından daha da geliştirildiğini belirtmektedir. Dini yasaklara rağmen, borç verme uygulaması vardı ve gerçek ekonomik ihtiyaçları karşılıyordu. Adam Smith'ten çok önce, borç faizinin tefecilik değil, kapitalizmin temelinde yatan risk için borç verene, yatırım için de borç alana tazminat ödemenin bir yolu olduğunu anlamışlardı.
 
-![image](assets/3/img-047.webp)
+![image](assets/fr/048.webp)
 
 
 Ancak Fransız tarihçiye göre kapitalizmin yükselişi, birkaç yüzyıl boyunca ortaya çıkan ekonomik, sosyal ve kültürel dönüşümlerin daha geniş bir bağlamına yerleştirilmelidir. Le Goff, özellikle 15. ve 16. yüzyıllarda deniz ticaretinin genişlemesi ve yeni ticaret yollarının keşfedilmesiyle karakterize edilen, sermaye birikimini ve piyasa mantığının hakimiyetini teşvik eden Ticari Devrim'in önemini vurgulamaktadır.
@@ -1193,7 +1198,7 @@ Ancak Fransız tarihçiye göre kapitalizmin yükselişi, birkaç yüzyıl boyun
 Ekonomik yasaların sistematik olarak incelenmesi Yüksek Orta Çağ'da başlamıştır. İlk ekonomistler Paris Okulu'nun skolastik teologlarıdır. Bunlar arasında tamamen ekonomik bir konuya adanmış bilimsel bir inceleme yazan ilk kişi Nicolas Oresme'dir (1325-1382). Yaklaşık 1360 yılında, kendi dönemindeki skolastiklerin fikirlerini özetleyen ve geliştiren _Paranın Kökeni, Doğası, Yasası ve Değişimleri Üzerine İnceleme_ adlı eserini kaleme almıştır.
 
 
-![image](assets/3/img-031.webp)
+![image](assets/fr/049.webp)
 
 
 Parasal analizinin merkezinde paranın "mutasyonları", yani sikkelerin metalik içeriğindeki ve değerindeki değişiklikler sorunu yatmaktadır. Bu değişiklikler zamanın başlangıcından beri meydana gelmiştir ve Antik Çağ ve Orta Çağ için iyi belgelenmiştir. Bunların en görünür etkisi, para biriminin satın alma gücünü değiştirmek, özellikle de azaltmaktır. Bu, Oresme'nin açıkça bir kötülük olarak kınadığı ilkel bir enflasyon biçimidir.
@@ -1231,7 +1236,7 @@ Dahası, iki farklı para birimi yasal ihaleden faydalanırsa, aracılar daha de
 
 Avrupa, Rönesans'tan itibaren din savaşlarıyla çalkalanacaktı. Bu nedenle hoşgörü, Aydınlanma'nın en büyük savaşlarından biri haline geldi.
 
-![image](assets/4/img-112.webp)
+![image](assets/fr/050.webp)
 
 
 Bazıları için bilimsel yöntem insanları önyargıların ötesinde ortak bir dünya görüşünde birleştirecektir. Evrensel cazibe bir Katolik, bir Protestan, bir Yahudi ya da bir ateist için aynı değil midir? Dolayısıyla, Diderot ve d'Alembert'in Encyclopédie'si, insanları birleştirebilecek evrensel bilgiyi teşvik etme girişimini temsil eder.
@@ -1248,7 +1253,7 @@ Voltaire'e göre, hoşgörü ve siyasi özgürlük doktrininin temelini oluştur
 
 > Hoşgörü, hata yapabileceğimizin farkında olmamızın zorunlu bir sonucudur. Hata yapmak insana özgüdür ve hepimiz sürekli hata yaparız. Birbirimizin hatalarını affedelim; bu doğanın ilk kanunudur.
 
-![image](assets/4/img-078.webp)
+![image](assets/fr/051.webp)
 
 
 Ancak Voltaire _Philosophical Letters_ (1734) adlı eserinde başka bir bakış açısı sunar. İngiltere'de ticaretin, sivil barışın ve dolayısıyla mutluluğun temel bir bileşeni olan dini hoşgörüyü teşvik ettiğini gözlemler. Bu mektupları, Fransa'da mutlak ve müdahaleci bir siyasi iktidar tarafından körüklenen din savaşlarını eleştirmek için yazar. Bu, Ancien Régime'in ilk radikal eleştirisini temsil eder.
@@ -1289,7 +1294,7 @@ Voltaire, "Ticaret Üzerine" başlıklı Onuncu Mektup'ta Fransız zihniyetini �
 Yine de Fransa büyük beyinlerden yoksun değildi. Çok az bilinir ama Baron de Laulne Anne Robert Jacques Turgot, 16. Louis döneminde Maliye Genel Kontrolörü olmadan önce önde gelen bir düşünürdü. Adam Smith'in _The Wealth of Nations_ (1776) adlı eserinden önce yazılmış olan _Reflections on the Formation and Distribution of Wealth_ (1766) adlı politik ekonomi üzerine ustaca bir incelemenin yazarıydı.
 
 
-![image](assets/4/img-074.webp)
+![image](assets/fr/052.webp)
 
 İlk yazıları onun Aydınlanma felsefesine olan Commitment bağlılığını yansıtmaktadır. 1754'te _Medenî Hoşgörü Üzerine Mektuplar_ ve 1757'de Diderot ve d'Alembert'in _The Encyclopédie_ için yazdığı birkaç makaleyi yayınladı.
 
@@ -1316,7 +1321,7 @@ Başka bir deyişle, hoşgörülü olmak dine düşman olmak anlamına gelmez. D
 Ekonomik liberalizm genellikle Adam Smith'ten kaynaklanan Anglo-Sakson geleneği ile ilişkilendirilir. Kıta Aydınlanmasından, özellikle de Fransa'dan kaynaklandığı söylenen "siyasi liberalizm" ile karşılaştırılır. Bu görüş yanlıştır.
 
 
-![image](assets/4/img-069.webp)
+![image](assets/fr/053.webp)
 
 
 Fransa'da ekonomi bilimi merkantilizme ve daha geniş anlamda Ancien Régime'in fikirlerine tepki olarak ortaya çıkmıştır. Aydınlanma ile birlikte filozofların kendilerini "ekonomist" olarak adlandırmaya başladığı bir dönem geldi Bunlar fizyokratlardı.
@@ -1345,7 +1350,7 @@ Bu noktadan itibaren Aydınlanma içinde birbirinden çok farklı iki anlayış 
 Bu deyim, 14. Louis'nin baş danışmanı Jean-Baptiste Colbert'in bir gün tüccarlara sorduğu bir soru üzerine ortaya çıkmıştır: "Sizin için ne yapabilirim?" İçlerinden François Legendre adında biri, "Bırakın biz yapalım!" diye cevap vermiş
 
 
-![image](assets/4/img-051.webp)
+![image](assets/fr/054.webp)
 
 
 Bu ifade Fizyokratlar, François Quesnay, Marquis d'Argenson ve ardından Vincent de Gournay tarafından benimsendi: "Laissez-faire, laissez passer." Bu onların sloganı haline geldi.
@@ -1370,7 +1375,7 @@ Fransız Devrimi'ne kadar toplum, hediye ve ayrıcalığa dayalı aristokratik b
 Ancak Orta Çağ'dan bu yana, gördüğümüz gibi, piyasa ekonomisi gelişmiştir. Tüccarlar zenginleşti ve artan bir ekonomik özgürlük kazandı.
 
 
-![image](assets/4/img-068.webp)
+![image](assets/fr/055.webp)
 
 
 Piyasa, müzakere edilmiş bir fiyat üzerinden gönüllü Exchange ile ilgilidir. Piyasa, özerklik ve inisiyatif alanlarının edinilmesini sağlayarak herkesin maddi, entelektüel ve siyasi koşullarını iyileştirir.
@@ -1379,7 +1384,7 @@ Piyasa, müzakere edilmiş bir fiyat üzerinden gönüllü Exchange ile ilgilidi
 Gerçekten de insanlar doğal olarak kendilerinin ve sevdiklerinin durumlarını mal ve hizmetlerin Exchange'si yoluyla iyileştirmek isterler. Dolayısıyla bu yeni filozofların, "ekonomistlerin" arzusu, insanların kendilerine yeterli bir gelir elde etmelerini sağlamak ve böylece Kant'ın "Aydınlanma Nedir?" adlı broşüründe "çoğunlukları", karar ve eylem özerklikleri olarak adlandırdığı şeyi elde etmektir.
 
 
-![image](assets/4/img-060.webp)
+![image](assets/fr/056.webp)
 
 
 Fizyokratlar için özgürlük bölünmez. Siyasi ayrıcalıklarla savaşmak ve ekonomik rantlarla mücadele etmek bir ve aynı şeydir. Modern iktisatçıların 18. yüzyılın şafağındaki en büyük yeniliği, serbest piyasa aracılığıyla tutku ve çıkarların nasıl kontrol altına alınacağını düşünürken, her bir bireye odaklanarak onların eylem kapasitelerini yeniden kazandırmaktı.
@@ -1419,7 +1424,10 @@ Ann-Robert Jacques Turgot, Ağustos 1774'ten Mayıs 1776'ya kadar Maliye Bakanı
 
 
 > Efendimiz, saray mensuplarınıza dağıtabileceğiniz paranın nereden geldiğini düşünerek, nezaketinize karşı kendinizi nezaketinizle silahlandırmalısınız.
-> 1774'te loncaları ve ustalıkları (tekel haline gelen ve işgücü piyasasına girişin önünde engel oluşturan şirketler) kaldırmak, tahıl ticaretinde iç gümrük vergilerini kaldırmak, zorla çalıştırmayı (corvée) kaldırmak ve Protestanlara karşı hoşgörüyü tesis etmek için Altı Fermanını yayınladı.
+
+![image](assets/fr/057.webp)
+
+1774'te loncaları ve ustalıkları (tekel haline gelen ve işgücü piyasasına girişin önünde engel oluşturan şirketler) kaldırmak, tahıl ticaretinde iç gümrük vergilerini kaldırmak, zorla çalıştırmayı (corvée) kaldırmak ve Protestanlara karşı hoşgörüyü tesis etmek için Altı Fermanını yayınladı.
 
 Ne yazık ki, kötü bir hasadın ardından yükselen buğday fiyatları onun reformlarına şüpheyle yaklaşılmasına neden oldu. Turgot onu savunmak için şöyle yazdı:
 
@@ -1449,7 +1457,7 @@ Burada Turgot, Mises ve Hayek'in sosyalist bir ekonomik sistemde herhangi bir ek
 1776 yılında filozof Étienne Bonnot de Condillac, serbest ticaret ve bireysel özgürlük lehine o dönemin tartışmasız en görkemli savunmalarından biri olan _Commerce and Government_ kitabını yayınladı.
 
 
-![image](assets/4/img-053.webp)
+![image](assets/fr/058.webp)
 
 
 _Commerce and Government_ daha sonra değerin öznelliği teorisi olarak adlandırılacak ve Menger'den başlayarak Avusturyalı iktisatçıların övgüsünü kazanacak olan teoriyi içerir. Turgot'yu izleyerek, ancak daha açık bir şekilde, Condillac değerin emekte değil, herkesin Exchange'te bir çıkar bulması gerçeğinde yattığını ileri sürer:
@@ -1468,7 +1476,7 @@ Aynı zamanda özgür ve gönüllü Exchange'nın eşitlikçi ve anti-hiyerarşi
 1776 yılında Thomas Paine adlı bir İngiliz, Amerika'da İngiliz monarşisini eleştiren ve Amerikan kolonicilerinin bağımsızlığını savunan _COPYommon Sense_ adlı sert bir broşür yayınladı.
 
 
-![image](assets/4/img-065.webp)
+![image](assets/fr/059.webp)
 
 
 Paine şunu savunuyor:
@@ -1499,11 +1507,11 @@ Thomas Paine, broşürü aracılığıyla Amerikan Devrimi'nde ve özgürlük ve
 4 Temmuz 1776'da Philadelphia'da toplanan Kongre'de (İngilizcede "Convention") Kuzey Amerika'daki On Üç İngiliz Kolonisinin temsilcileri "Birleşik Devletler'in özgür ve bağımsız devletler olduğunu ve olması gerektiğini" belirten bir karar kabul eder Karar, Çay Partisi'nin ilham kaynaklarından biri olan John Adams ve Massachusetts delegesi Benjamin Franklin tarafından desteklenir. Virginia'dan bir delege olan Thomas Jefferson Bağımsızlık Bildirgesi'nin taslağını hazırlayacaktır.
 
 
-![image](assets/4/img-066.webp)
+![image](assets/fr/060.webp)
 
 Takip eden yıllar boyunca Fransız La Fayette, Rochambeau, Amiral de Grasse, Kont d'Estaing, General Duportail, Marquis de la Rouerie, Komutan Pierre L'Enfant, yazar Beaumarchais ve daha pek çok kişi İsyancılarla birlikte onları İngiltere Kralının boyunduruğundan kurtarmak için savaştı.
 
-![image](assets/4/img-081.webp)
+![image](assets/fr/061.webp)
 
 
 141 yıl sonra, 4 Temmuz 1917'de, Birinci Dünya Savaşı'nın ortasında, Paris'teki Picpus Mezarlığı'nda AEF'nin şehre gelen ilk askerleri için bir tören düzenlendi. Tören, "iki dünyanın kahramanı" La Fayette'in mezarının yanında gerçekleştirildi Bu vesileyle General Pershing'in kurmaylarından Yüzbaşı Charles E. Stanton ünlü bir konuşma yaptı:
@@ -1526,7 +1534,7 @@ Takip eden yıllar boyunca Fransız La Fayette, Rochambeau, Amiral de Grasse, Ko
 Adam Smith 1776 yılında _Ulusların Zenginliğinin Doğası ve Nedenleri Üzerine Bir İnceleme_ adlı eserini yayınladı. Glasgow Üniversitesi'nde ahlak felsefesi dersleri vermesine rağmen onu genellikle bir ekonomist olarak kategorize eden üretken bir çalışmadır. Karikatürize edilmiş bir şekilde, modern ekonominin babası olarak hatırlanmaktadır.
 
 
-![image](assets/4/img-070.webp)
+![image](assets/fr/062.webp)
 
 
 Gerçekte Smith, yaklaşık bir yıl süren Fransa seyahati sırasında tanıştığı ekonomistler Quesnay ve Turgot'ya çok şey borçluydu. Bu kitapta, bireylerin kendi çıkarları peşinde koşarak "görünmez bir el tarafından" toplumun genel refahını artırmak için yönlendirildiği "basit bir doğal özgürlük sistemi" tanımlamaktadır.
@@ -1572,7 +1580,7 @@ Ekonomistlerden ve onların serbest piyasayı savunmalarından bahsettik. Ancak 
 
 Bu fikir 17. yüzyılda Locke'tan ilham almış ve daha sonra Rousseau tarafından benimsenmiştir. Egemen güç yalnızca halkın özgür iradesinden kaynaklanmamalı, aynı zamanda halkın içinde de bulunmalıdır. Bu, bugün demokrasi olarak adlandırdığımız genel iradenin egemenliğine ilişkin Rousseau'cu teoridir.
 
-![image](assets/4/img-071.webp)
+![image](assets/fr/063.webp)
 
 
 Rousseau halkı, kendi koydukları yasalara kendilerini tabi kılabilen özerk bireyler olarak görür. Halkın özgür iradesi egemenliğin tek adil temelini oluşturur. Rousseau, Modernitenin karakteristiği olan bu hukuki hümanizmi, halkı özgürce kendi kaderini tayin edebilen bir birey ya da genel irade gibi kolektif bir varlık olarak tasavvur ederek nihai sonuçlarına kadar geliştirecektir. Dolayısıyla, Contract, genel irade olarak insanın kendisine özel bir irade olarak verdiği yasalara boyun eğmeyi içerir. Genel irade ya da halk egemenliği teorisi böylece özgürlük ve boyun eğmenin uzlaştırılmasına olanak tanır. Yasanın kendi kendini oluşturması ya da siyasi özerklik, Rousseau'dan bu yana demokrasinin temel bir bileşeni olmuştur.
@@ -1587,7 +1595,7 @@ Ancak egemenliğin kökeni sorunu tek sorun değildir. Düşünce yeni bir yöne
 Fransa ve Amerika'da etkisi çok güçlü olan Aydınlanma filozoflarından biri de John Locke'tur. Kendisi Amerika Birleşik Devletleri'nin Kurucu Atalarının ve aynı zamanda 1789 tarihli İnsan ve Yurttaş Hakları Bildirgesi'nin ilham kaynağıdır
 
 
-![image](assets/4/img-063.webp)
+![image](assets/fr/064.webp)
 
 
 Önceki tüm sistemler, özgürlüklerin yalnızca iktidar tarafından verilen ve her an geri alınabilecek bir yetkiyle tanınan ayrıcalıklar olduğunu düşünmekteydi. Locke'a göre, bir insanın hayatı doğal bir hak (yani insan doğasında var olan ahlaki bir ilke) kapsamında kendisine aittir ve bir hükümetin tek ahlaki amacı bireysel hakların korunmasıdır.
@@ -1603,7 +1611,7 @@ Thomas Jefferson, Locke'un devredilemez haklar teorisini Bağımsızlık Bildirg
 Bu gerçeklerin apaçık olduğuna, tüm insanların eşit yaratıldığına, Yaratıcıları tarafından bazı devredilemez haklarla donatıldıklarına, bunların arasında yaşam, özgürlük ve mutluluk arayışının da bulunduğuna inanıyoruz.
 
 
-![image](assets/4/img-058.webp)
+![image](assets/fr/065.webp)
 
 
 Ayrıca, 1789 tarihli Fransız Haklar Bildirgesi'nin 2. Maddesi de Locke'un bu doğal hukuk geleneğinden ilham almaktadır:
@@ -1620,7 +1628,7 @@ Amerikan Devrimi, devredilemez temel haklardan bahseden kişiler tarafından yö
 19. yüzyılda Fransız siyaset felsefecisi Alexis de Tocqueville, iki kardeş devrim arasındaki bu farklılıkları saptamaya çalışmıştır. Amerikan Devrimi'nin başarısını birkaç faktöre bağlamaktadır.
 
 
-![image](assets/4/img-076.webp)
+![image](assets/fr/066.webp)
 
 
 İlk olarak, cumhuriyeti tanımlarken. Fransız Cumhuriyeti tek ve bölünmezdir. Amerikan Cumhuriyeti ise her biri kendi yargı yetkisine ve yerel çıkarlarına sahip egemen devletlerden oluşur. Federalizm Fransa'da vatana ihanet olarak kabul edilir. Amerika'da ise vatana ihanet, birliği dayatmak istemekten ibarettir. En azından Amerikan İç Savaşına kadar, Birlik, Eyaletlerin çeşitliliğiyle Federasyonun gücüydü.
@@ -1643,7 +1651,7 @@ Bu formülasyon açıkça çoğunluğun tiranlığına karşı koruma sağlamakt
 Abbé Sieyès (1748-1836) genellikle Fransız Devrimi'nin babası olarak kabul edilir. Ocak 1789'da yayınlanan _What is the Third Estate?_ adlı kitabın yazarıdır
 
 
-![image](assets/4/img-073.webp)
+![image](assets/fr/067.webp)
 
 
 Üçüncü Sınıf, ruhban sınıfına ya da soylulara mensup olmayan herkesi kapsıyordu. Abbé Sieyès, ünlü broşürünün ilk satırlarından itibaren bireysel özgürlükleri ve serbest rekabeti övmüştür:
@@ -1661,13 +1669,13 @@ Kilise mülklerine el konulması mali krizi önlemeyi amaçlıyordu; Assignats i
 
 Dahası, Dupont de Nemours'un öngördüğü gibi, sahte para basımı krizi daha da kötüleştirerek yaygın enflasyona ve Assignats'ın değerinde keskin bir düşüşe neden oldu. Ağustos 1792'de açlık isyanları Paris'te ayaklanmaya, Ocak 1793'te Louis XVI'nın idamına ve nihayetinde Terör Saltanatına yol açtı.
 
-![image](assets/4/img-080.webp)
+![image](assets/fr/068.webp)
 
 
 İlk basımdan beş yıl sonra, 1795'te kağıt para değerinin %99'unu kaybetmişti. Fransız Devrimi, Napolyon'un bir darbe ile iktidarı ele geçirdiği 1799 yılına kadar Yönetim altında devam etti. Napolyon, 1804 yılında İmparator olarak taç giymeden önce Fransız Cumhuriyeti'nin Birinci Konsülü oldu. Bu, özel mülkiyetin dokunulmaz olduğunu ilan eden İnsan Hakları Beyannamesi ile ilk göze çarpan çelişkilerden biriydi.
 
 
-![image](assets/4/img-050.webp)
+![image](assets/fr/069.webp)
 
 
 Amerika'da ne ekonomik dirigisme ne de Assignats'ınki gibi bir parasal iflas vardı. Ve hepsinden önemlisi, yasaklar, kitlesel göçler, giyotin, katliamlar ve Terör Saltanatı yoktu. Amerikan Devrimi'ni Fransız Devrimi'nden ayıran eylem araçlarındaki fark hemen görülebilir.
@@ -1696,7 +1704,7 @@ Dahası, Friedrich Hayek'in _Özgürlüğün Anayasası_ adlı kitabında söyle
 Benjamin Constant'a göre, modern toplumlarda özgürlük artık antik kültürlerdeki gibi, kentin işlerine doğrudan katılım olarak anlaşılamaz.
 
 
-![image](assets/5/img-103.webp)
+![image](assets/fr/070.webp)
 
 
 ### Özel Yaşamda Özgürlük
@@ -1707,7 +1715,7 @@ Eski zamanlarda bireyler kamusal işlerde egemen, ancak tüm özel ilişkilerind
 
 > Eskilerin özgürlüğü kolektif güce aktif ve sürekli katılımdan ibaretti. Öte yandan bizim özgürlüğümüz, özel bağımsızlığın barışçıl bir şekilde kullanılmasından ibaret olmalıdır; bundan da bağımsızlığımıza eskilerden çok daha fazla bağlı olmamız gerektiği sonucu çıkar. (_On the Liberty of the Ancients Compared with that of the Moderns_ (1819))
 
-![image](assets/5/img-084.webp)
+![image](assets/fr/071.webp)
 
 
 Modern özgürlük, ekonomik özgürlüğü de içeren ve özel hayatın gizliliği hakkına dayanan sivil özgürlükleri kapsar. Herhangi bir keyfiliğe maruz kalmama hakkı, ifade, toplanma, hareket, ibadet ve endüstri hakkıdır. Kişinin yaşam tarzını ve değerlerini seçme imkanı olmaksızın özgürlük yoktur; dolayısıyla, topluluktan çekilme imkanı olmaksızın özgürlük yoktur ve sonuç olarak, Devletin bu özel alanın varlığına izin verecek şekilde sınırlandırılması olmaksızın özgürlük yoktur. Bu, Amerikalıların medeni haklar olarak adlandırdıkları şeye karşılık gelen bir özgürlüktür.
@@ -1718,10 +1726,12 @@ Modern özgürlük, ekonomik özgürlüğü de içeren ve özel hayatın gizlili
 
 > Bu adı hak eden tek özgürlük, başkalarını kendilerininkinden mahrum bırakmaya çalışmadığımız ya da onların iyiyi elde etme çabalarını engellemediğimiz sürece, kendi iyimizin peşinden kendi yolumuzla gitmektir. (...) İnsanlık, başkalarının iyi bulduğu şekilde yaşamaya zorlamaktansa, herkesin uygun gördüğü şekilde yaşamasına izin vererek daha fazla kazanım elde eder. (_On Liberty_, 1859)
 
-![image](assets/5/img-097.webp)
+![image](assets/fr/072.webp)
 
 
 Mill devlet egemenliğinin sınırlarını çizmektedir: devlet egemenliği bireyin egemenliğinin başladığı yerde biter. Bireysel bir eylemin başkaları için zararlı sonuçları yoksa, birey bu eylemi gerçekleştirmekte tamamen özgürdür. Devlet bireyler arası ilişkileri düzenlemelidir, ancak bireylerin özel yaşamlarına müdahale ederek daha ileri gidemez. Eğer birey kendine zarar veriyorsa, Devlet "nasihat etmekten" ya da "ikna etmeye" çalışmaktan başka bir şey yapamaz: zorlayamaz ya da cezalandıramaz. Mill'e göre: "Bir devletin kendi üyelerinden birine karşı, kendi iradesi dışında güç kullanmasının tek meşru nedeni, başkalarına zarar verilmesini önlemektir."
+
+![image](assets/fr/073.webp)
 
 Modernlerin özgürlüğüne tekabül eden siyasi güç bu nedenle sınırlıdır: benjamin Constant, "Otorite kendini adil olmakla sınırlasın, biz mutluluğumuza bakarız" der. Bize nasıl mutlu olacağımızı söylemek Devlet'e düşmez.
 
@@ -1766,7 +1776,7 @@ Başka bir deyişle, özgür bir toplumda kamusal alan ile özel alan arasında 
 Alexis de Tocqueville, demokrasinin keskin bir gözlemcisi ve demokratik bireyciliğin bir eleştirmeniydi.
 
 
-![image](assets/5/img-095.webp)
+![image](assets/fr/074.webp)
 
 
 Tocqueville'in demokrasi analizi esasen Constant tarafından Eskilerin özgürlüğü ile Modernlerin özgürlüğü arasında yapılan ayrımı genişletir. Tocqueville 1836 tarihli bir makalesinde (_Social and Political State of France Before and Since 1789_) aristokratik özgürlük ile demokratik özgürlüğü metodik olarak karşılaştırır. Birincisi "bir ayrıcalıktan yararlanma" olarak tanımlanır ve Tocqueville özgürlüğünü doğadan değil Roma'ya ait olmasından alan Roma vatandaşını örnek gösterir.
@@ -1779,7 +1789,7 @@ Tocqueville'in demokrasi analizi esasen Constant tarafından Eskilerin özgürl�
 Tocqueville, tipik olarak modern olan bu yeni varoluş biçiminin tüm siyasi ve kültürel etkilerini tanımlamaya özen gösterir. Bir Pascal hayranı olarak, demokrasinin ihtişamını ve sefaletini tasvir etmeyi amaçlar.
 
 
-![image](assets/5/img-085.webp)
+![image](assets/fr/075.webp)
 
 
 1841'de _Democracy in America_ adlı kitabında, sınıflar hiyerarşisine ve geleneğin otoritesine karşı koşulların eşitlenmesinde kendini gösteren demokratik ilkeyi analiz eder. Ve bu sürecin mantıksal olarak toplumsal etkilerin, bağımlılık bağlarının çözülmesine eşlik ettiğini ve toplumsal bağı atomize ettiğini, böylece yurttaşın özgürlüğünü ve siyasi sorumluluğunu tehdit ettiğini gözlemler. Dahası, büyük kadim ideallerin (erdem, ortak iyi) kaybı, hayatın anlamının fakirleşmesine, "küçük ve bayağı zevklere", can sıkıntısına ve huzursuzluğa yol açar.
@@ -1830,7 +1840,7 @@ Frédéric Bastiat demokrasi hakkında ne düşünüyordu? Cevabı 1846 gibi erk
 
 > Ben demokrasiden yanayım, eğer bu kelimeyle şunu kastediyorsanız: Herkese emeğinin karşılığı, herkes için özgürlük, herkes için eşitlik, herkes için adalet ve herkes için barış. (_Serbest Ticaret_).
 
-![image](assets/5/img-088.webp)
+![image](assets/fr/076.webp)
 
 
 Ancak 1848'de, Şubat Devrimi'nin ardından Bastiat, sosyalistlerin muzaffer bir giriş yaptığı bir mecliste Landes milletvekili seçildi. Bu sonuncular tek bir şey talep ediyordu: yasaların kardeşlik ilkesini benimsemesi. Başka bir deyişle, herkese iş, eğitim ve sağlık hizmeti sağlamak için yasalar çıkarmak.
@@ -1847,7 +1857,7 @@ Bastiat'nın sözlerine göre, o zaman Devlet
 > herkesin bir diğerinin zararına yaşamaya çalıştığı büyük kurgu. ([_Devlet_](http://bastiat.org/fr/l_etat.html))
 > Bastiat aynı zamanda hukukun hak ettiği rolden saptığında çatışmanın ortaya çıktığı fikrini de geliştirir. Ünlü broşüründe [_The Law_] (http://bastiat.org/fr/la_loi.html), hukukun neden ve nasıl "tüm açgözlülüklerin savaş alanı" haline geldiğini, yani ayrıcalıkların, durumsal rantların ve keyfi vergilendirmenin kaynağı olduğunu gösterir. Yasanın gerçek misyonundan saptırılabileceği, mülkleri güvence altına almak yerine ihlal edebileceği ilkesel olarak kabul edilir edilmez, ya yağmaya karşı savunmak ya da bunu kendi yararına düzenlemek için zorunlu olarak bir sınıf mücadelesi başlar.
 
-![image](assets/5/img-098.webp)
+![image](assets/fr/077.webp)
 
 
 Yasanın yalnızca her bireyin haklarını uyguladığı ve _"bireysel meşru savunma hakkının kolektif örgütlenmesini"_ güvence altına aldığı durumlarda, hiç kimse bunu herkesin zararına kendi çıkarları için kullanacak konumda değildir, öyle ki hükümetin biçimi ikincil bir sorun haline gelir.
@@ -1875,13 +1885,13 @@ Dünyaya bir göz atın. En mutlu, en ahlaklı ve en huzurlu insanlar hangileri?
 Kapitalizm eleştirisi, özellikle de Marksist eleştiri 19. yüzyılda ortaya çıkmıştır.
 
 
-![image](assets/5/img-089.webp)
+![image](assets/fr/078.webp)
 
 
 Marx'a göre, günlük yaşam bir hayatta kalma mücadelesi ise, konuşma, yazma ve oy kullanma hakkı neye yarar? Belli bir eşiğin ötesinde, yoksulluk bir kölelik durumuna eşittir. Dolayısıyla toplumsal düzen, ancak malların adil dağılımı ilkesi uygulandığında herkese fayda sağlar. Marx'ı toplumsal düzenin rasyonel ve planlı bir şekilde kontrol edilmesinin gerekliliğini düşünmeye iten şey liberalizme yönelttiği bu eleştiriydi. Bundan böyle liberallerin minimal devletinin yerini, Marx'a göre özel mülkiyetin kaldırılmasına ve kolektifleştirilmesine kadar giden gerçek eşitliği tesis edebilecek güçlü bir devlet almalıdır. Daha yumuĢatılmıĢ bir versiyon olan "sosyal demokrasi "de ise devletten sadece soyut insan haklarını değil, somut insan haklarını da güvence altına alması istenir. Yeni haklar yaratılır, devlet tarafından garanti altına alınan sosyal ve ekonomik haklar: çalışma hakkı, barınma hakkı, sağlık hakkı (ücretsiz), eğitim hakkı (ücretsiz).
 
 
-![image](assets/5/img-091.webp)
+![image](assets/fr/079.webp)
 
 
 ### Tarafsız Devlet Efsanesi
@@ -1904,7 +1914,7 @@ Marx, liberalizmin bu siyasi yanılsamasının, dini yanılsamanın seküler tar
 
 Aslında Marx'a ve tarihsel materyalizme göre, hem siyasi hem de dini yabancılaşmanın kökeninde ekonomik yabancılaşma yatmaktadır. Üretim araçlarının özel mülkiyete geçmesi olarak tanımlanan kapitalizmin bir sonucu olan ekonomik yabancılaşmada işçi, emek gücünü bir meta olarak satmak zorunda bırakılır. Dahası, işverenin sahip olduğu emeğinin ürününden mahrum bırakılır. Böylece yabancılaşmış, yani kendinden ayrılmış olur, çünkü işi ona yabancı, hayatta kalmak için zorunluluktan yaptığı bir şey haline gelir. Oysa Marx'a göre çalışma, özünde insani bir eylemdir, insanın özünün, yani özgürlüğün gerçekleştiği eylemdir. Bu nedenle emeğin özgürleşmesi aynı zamanda insana insanlığını geri kazandırmak anlamına gelir.
 
-![image](assets/5/img-104.webp)
+![image](assets/fr/080.webp)
 
 
 Dolayısıyla ona göre, insanı kapitalist kölelikten kurtaracak ve böylece işçi ile yurttaş, toplum ile devlet, özel alan ile kamusal alan arasında birliği sağlayacak bir ekonomik ve toplumsal devrim eşlik etmediği sürece, siyasi devrim bir yanılsamadır. Yurttaşların biçimsel özgürlüğü ve eşitliği böylece sınıfsız bir toplumda gerçek olacaktır.
@@ -1919,7 +1929,7 @@ Dolayısıyla ona göre, insanı kapitalist kölelikten kurtaracak ve böylece i
 Carl Menger tarafından 19. yüzyılın sonunda kurulan Avusturya Ekonomi Okulu, Karl Marx'ın teorilerine başından beri karşı çıkmıştır.
 
 
-![image](assets/5/img-083.webp)
+![image](assets/fr/081.webp)
 
 
 ### Sınıf Mücadelesi
@@ -1938,7 +1948,7 @@ Avusturyalılar toplumun iki karşıt sınıfa bölünmediğini, aksine farklı 
 
 Ludwig von Mises, Marx'ın insan haklarının burjuva ideolojisine ilişkin olanları ile pratikte ne anlama geldiklerini, toplumsal yaşamda yol açtıkları altüst oluşları ayırt edemediğini vurgular. Birçok eleştirel insan hakları düşünürü de aynı hatayı yapmıştır. Joseph de Maistre ya da Louis de Bonald gibi karşı-devrimciler için de durum böyleydi.
 
-![image](assets/5/img-092.webp)
+![image](assets/fr/082.webp)
 
 
 Murray Rothbard, _The Ethics of Liberty_ ve _Anatomy of the State_ adlı eserlerinde sömürünün yalnızca özel mülkiyete karşı bir saldırı olarak anlamlı olduğunu ve yalnızca Devletin gelirlerini saldırganlık yoluyla, yani vergilendirme, borçlanma, para basma ve dolayısıyla enflasyon yoluyla elde ettiğini açıklamıştır. Gerçekte, toplumdaki şiddet ve çatışmaların kaynağı sınıf mücadelesi değil, devlet müdahalesidir. Devlet, kaynaklara el koyarak ve ekonomiyi düzenleyerek, çatışmalara ve baskıya yol açan çarpıklıklar ve adaletsizlikler yaratır. Dolayısıyla sömürüyü sona erdirmek, yağmacı kastın, yani Devletin gücünü azaltmayı gerektirir.
@@ -1956,7 +1966,7 @@ Sınıf mücadelesi kavramı, her şeyin mübah olduğu fikrine de yol açabilir
 Mises bu safsatayı açıklamak için "polilojizm" terimini icat etmiştir. "Poly" birçok anlamına gelir ve "logism" rasyonel söylem ve mantık anlamına gelir. Marx'a göre, proleterlerin ve burjuvazinin olmak üzere birbiriyle bağdaşmayan birkaç mantık olacaktır.
 
 
-![image](assets/5/img-096.webp)
+![image](assets/fr/083.webp)
 
 
 Yine de 19. yüzyılın ortalarına kadar hiç kimse zihnin mantıksal yapısının özdeş ve tüm insanlar için ortak olduğu gerçeğine karşı çıkmaya cesaret edememiştir. Tüm insan ilişkileri tek tip bir mantıksal yapı varsayımına dayanmaktadır. İnsanlar tartışmaya girebilirler çünkü herkes için ortak olan bir şeye, yani aklın mantıksal yapısına başvurabilirler.
@@ -1979,7 +1989,7 @@ Bu nedenle Marksizmi Fransa'ya ithal eden Georges Sorel, "proleter" olması koş
 Avusturyalılar, Marx'ın bir metanın değerinin üretimi için gereken emek miktarı tarafından belirlendiğini öne süren emek değer teorisinin hatalı olduğunu savunurlar. Değerin öznel olduğunu ve üretim maliyetleri tarafından değil tüketici tercihleri tarafından belirlendiğini savunurlar.
 
 
-![image](assets/5/img-087.webp)
+![image](assets/fr/084.webp)
 
 
 İlk Avusturyalı iktisatçılardan biri olan Eugen von Böhm-Bawerk, _Wert, Kapital und Zins_ (1886) adlı eserinde Marx'ın emek değer teorisini eleştirmiştir. Böhm-Bawerk, Marx'ın teorisinin temel bir hataya, yani tüm emek birimlerinin özdeş olduğu varsayımına dayandığını savunmuştur. Gerçekte, bazı emeklerin diğerlerinden daha zahmetli ya da daha üretken olduğunu ve bir metanın değerini belirleyen şeyin de bu olduğunu ileri sürdü.
@@ -1995,7 +2005,7 @@ Friedrich Hayek, özellikle Jean-Baptiste Say'in çalışmalarına dayanan belir
 Marksistler, üretim araçlarının işçiler tarafından sahiplenildiği ve kontrol edildiği bir ekonomik sistem olan sosyalizmin kaçınılmaz olarak kapitalizmden üstün olduğuna inanmaktadır. Öte yandan Avusturyalılar, gerçekçi olmayan bir merkezi planlama gerektireceği için sosyalizmin pratikte başarılmasının imkansız olduğunu ileri sürmektedir.
 
 
-![image](assets/5/img-090.webp)
+![image](assets/fr/085.webp)
 
 
 Ludwig von Mises, 1922 gibi erken bir tarihte _Sosyalizm _ adlı kitabında, merkezi planlamacılar piyasanın sağladığı fiyat sistemi olmadan doğru ekonomik hesaplamalar yapamayacağından, sosyalizmin yaygın kıtlıklara yol açacağını göstermiştir.
@@ -2010,7 +2020,7 @@ Ludwig von Mises, 1922 gibi erken bir tarihte _Sosyalizm _ adlı kitabında, mer
 Batı demokrasilerinin ekonomilerinde devlet müdahaleciliğinin yükselişinden endişe duyan Hayek, ister sağdan ister soldan gelsin, kolektivizmin felsefi bir eleştirisi olarak _The Road to Serfdom_ kitabını yazdı. Reader's Digest_ sayesinde birkaç milyon adet basılan bu kitap, Hayek'in Amerika Birleşik Devletleri'ndeki ününe büyük katkıda bulunmuştur.
 
 
-![image](assets/5/img-100.webp)
+![image](assets/fr/086.webp)
 
 
 ### Kolektivizmin Cazibesi
@@ -2040,7 +2050,7 @@ Tersine, sosyalizmin özü olan ekonominin ve genel olarak toplumun planlanması
 Hayek daha ilk sayfalardan itibaren Batı'da sosyalist ideallerin zaferi ile totaliter ütopyaların eşzamanlı başarısı arasında bir paralellik kuruyor.
 
 
-![image](assets/5/img-093.webp)
+![image](assets/fr/087.webp)
 
 
 > Önsözünde uyardığı üzere, çok az insan faşizmin ve Nazizmin yükselişinin bir önceki dönemin eğilimlerine (...) karşı bir tepki değil, bu eğilimlerin kaçınılmaz bir sonucu olduğunu kabul etmeye isteklidir. Bu, Komünist Rusya ve Nazi Almanyası'nın yerel rejimlerinin bazı olumsuz özelliklerinin sunduğu benzerliği fark ettikleri anda bile çoğu insanın görmeyi reddettiği bir şeydir. Sonuç olarak, kendilerini Nazizmin sapkınlıklarının çok üzerinde gören ve onun tüm tezahürlerinden içtenlikle nefret eden pek çok insan, aynı zamanda, gerçekleşmesi doğrudan bu nefret edilen tiranlığa yol açacak idealler için çalışmaktadır.
@@ -2071,7 +2081,7 @@ Sonuç olarak Hayek, çağdaşlarını, insanlığı "yakın geçmişte hayatım
 Kapitalizm sık sık "her zaman daha fazla üretmeliyiz "Her zaman daha fazla üretmeliyiz" ya da şu formülün kaynağı olmakla suçlanır: "Tüketmek büyüme için iyidir." Ancak bu fikirler geleneksel kapitalizmden değil, 1930'lardan bu yana ekonomi bilimi alanına ve siyasi sınıfa hakim olan Keynesçilikten kaynaklanmaktadır.
 
 
-![image](assets/6/img-011.webp)
+![image](assets/fr/088.webp)
 
 
 ### 1929 Krizinin Analizi
@@ -2080,13 +2090,13 @@ Kapitalizm sık sık "her zaman daha fazla üretmeliyiz "Her zaman daha fazla ü
 John Maynard Keynes'in 1936 yılında yayınlanan kitabı _İstihdam, Faiz ve Paranın Genel Teorisi_ önüne çıkan her şeyi silip süpürdü. Büyük Buhran'ın nedenlerini ve bundan çıkış yollarını sorgulayan Keynes, nesiller boyu ekonomistleri ve politikacıları dönüştürecek yeni bir ekonomik paradigma tanımladı.
 
 
-![image](assets/6/img-005.webp)
+![image](assets/fr/089.webp)
 
 
 Genel olarak özetlemek gerekirse, kamu harcamaları büyüme üretir ve bütçe açığını desteklemek için düşük faizli bir para politikası uygulanmalıdır. Böylece, başlangıçta, kamu harcamalarındaki isteğe bağlı artış ekonomik faaliyet üzerinde bir çarpan etkisi yaratarak durgunluğu sınırlandırabilir ve toparlanmayı hızlandırabilir. Daha sonra, ikinci aşamada para, kamu otoriteleri tarafından makroekonomik istikrar için kullanılacak bir para politikası aracı olarak değerlendirilecektir.
 
 
-![image](assets/6/img-001.webp)
+![image](assets/fr/090.webp)
 
 
 Dolayısıyla Keynesçilik, kamu harcamaları ve tüketim yoluyla güçlü büyüme ve tam istihdam için gerekli araçları sağlama iddiasıdır. Bu büyüme planı paranın kontrol edilmesine dayanmaktadır.
@@ -2107,7 +2117,7 @@ Keynes ile birlikte 20. yüzyıl uzmanlara ve planlamaya güvenin yüzyılı hal
 Keynes'e göre, talebi canlandırmak ve ekonomik motoru yeniden çalıştırmak için devlet müdahalesi gereklidir. Bu doktrin üniversitelerde ve ders kitaplarında zafer kazanmıştır. Ancak devlet müdahalesinin kusurları vardır ve krizleri çözmek yerine uzun vadede daha da kötüleştirebilir.
 
 
-![image](assets/6/img-010.webp)
+![image](assets/fr/091.webp)
 
 
 Bu nedenle azınlıktaki bazı ekonomistler Keynes'i kısa vadeciliği nedeniyle eleştirmekte ve devlet müdahalesine daha etkili bir alternatif olarak piyasa mekanizmalarına geri dönüşü savunmaktadır.
@@ -2117,13 +2127,13 @@ Bu nedenle Friedrich Hayek, merkez bankaları tarafından faiz oranlarının sü
 Diğerleriyle birlikte o da para biriminin merkezileştirilmesi ve manipüle edilmesi tehlikesinin altını çizmiştir. Ludwig von Mises'in öğrencisi ve arkadaşı olan Fransız Jacques Rueff'in durumu da özellikle böyledir.
 
 
-![image](assets/6/img-012.webp)
+![image](assets/fr/092.webp)
 
 
 École Polytechnique'ten 1919'da mezun olan Rueff, üst düzey bir devlet memuru olarak seçkin bir kariyere sahip olmuş, 1920'lerde ve 1930'larda çok sayıda hükümete ekonomi danışmanlığı yapmıştır. Ekonomik, felsefi ve ahlaki perspektiflerden serbest piyasa lehine güçlü bir argüman geliştirdiği başlıca eseri _L'ordre social_ (Toplumsal Düzen) 1945'te yayımlandı.
 
 
-![image](assets/6/img-013.webp)
+![image](assets/fr/093.webp)
 
 
 Bu kitap "Sağlam Para ya da Totaliter Devlet" başlıklı önemli bir bölüm içermektedir Bu bölümde iki önerme geliştirmektedir. İlki şudur: "Sahte para sosyal düzensizliği doğurur." İkinci önerme ise birincisinden yola çıkar: "Sosyal düzensizlik sosyal köleliği doğurur". Sahte para, herhangi bir fiziksel gerçeklikten koparılmış ve iktidar tarafından manipüle edilen kağıt paradır. Toplumsal düzensizlik enflasyon ve bunun sonucu olan tüketimciliktir. Toplumsal kölelik ise toplumun devlete bağımlı hale gelmesi, tüm mali, ahlaki ve siyasi özerkliğini kaybetmesidir.
@@ -2136,7 +2146,7 @@ Bu kitap "Sağlam Para ya da Totaliter Devlet" başlıklı önemli bir bölüm i
 1958'den itibaren, Jacques Rueff'ten esinlenen ve General de Gaulle'ün otoritesi altında Fransız ekonomisini düzeltmeye yönelik bir politika yürütülür. Bu politika ünlü "Trente Glorieuses" (Otuz Şanlı Yıl) dönemine yol açacaktır.
 
 
-![image](assets/6/img-014.webp)
+![image](assets/fr/094.webp)
 
 
 Rueff, 1971 tarihli _The Monetary Sin of the West_ (Batı'nın Parasal Günahı) adlı kitabında şöyle yazmaktadır:
@@ -2147,7 +2157,7 @@ Rueff, 1971 tarihli _The Monetary Sin of the West_ (Batı'nın Parasal Günahı)
 Ve ekliyor: "Enflasyon, hiçbir getirisi olmayan harcamaları olmayan parayla sübvanse etmektir." Ona göre: "Uluslararası para sisteminin gelişimini gözlemleyen biri, Batı'nın Lenin'in şu tavsiyesini uyguladığını düşünebilir: Burjuva rejimini yok etmek için onun para birimini yozlaştırmak yeterlidir.
 
 
-![image](assets/6/img-004.webp)
+![image](assets/fr/095.webp)
 
 
 1976 yılında _Le Monde_ gazetesi için yazdığı bir makalede Keynesçiliğe son bir kez daha saldırdı.
@@ -2170,7 +2180,7 @@ Para, insanların takasın ötesine geçmesini, tasarruf etmesini ve piyasa arac
 Ve belirli bir para biçiminin, yüzyıllar boyunca küresel referans standardı haline gelmek için kendisini diğerlerinden kademeli olarak ayırdığı ortaya çıktı, ki bu altındır.
 
 
-![image](assets/6/img-002.webp)
+![image](assets/fr/096.webp)
 
 
 Gerçekten de altın, üretimi zor, taklit edilmesi maliyetli bir Hard para birimidir. Piyasa altını en güvenilir, en dayanıklı ve en az manipüle edilebilir para birimi olarak seçmiştir. Tarihsel kanıtlar, bireylerin para birimlerini seçme seçeneğine sahip olduklarında, altını tercih etme eğiliminde olduklarını göstermektedir.
@@ -2191,7 +2201,7 @@ Bu nedenle Ludwig von Mises _Human Action_ kitabında şöyle yazar:
 1944'te tasarlanan ve 1959'da tam olarak uygulanan Bretton Woods sistemi hem altına hem de altına çevrilebilen tek para birimi olan dolara dayanıyordu. Dolayısıyla altın elde etmek için dolar biriktirmek gerekiyordu.
 
 
-![image](assets/6/img-007.webp)
+![image](assets/fr/097.webp)
 
 
 O dönemde, özellikle Vietnam Savaşı ile birlikte, ABD hükümetinin açıklarındaki artış, Fransa da dahil olmak üzere birçok yabancı ülkenin dolarlarını FED'de altına çevirmek istemesine yol açtı. 15 Ağustos 1971'de Başkan Nixon, doların altına çevrilebilirliği vaadini iptal etmeye karar verdi ve böylece Birleşik Devletler tarihindeki ilk tamamen kağıt para birimi yaratılmış oldu. Bu tarihten itibaren para tamamen merkez bankalarının kontrolüne geçti. Richard Nixon'ın bir röportajında şöyle dediği söylenir:
@@ -2202,15 +2212,17 @@ O dönemde, özellikle Vietnam Savaşı ile birlikte, ABD hükümetinin açıkla
 Gerçekten de birçok Keynesyen ekonomist için altın standardının terk edilmesi hükümetlere ekonomik krizlere yanıt vermek ya da krizleri önlemek için gereken esnekliği sağlamıştır.
 
 
-![image](assets/6/img-009.webp)
+![image](assets/fr/098.webp)
 
 
 Amerikan merkez bankası Federal Reserve'ün eski başkanı Alan Greenspan'e göre altın standardı devlet borçlanması ve refah devletinin finansmanı ile bağdaşmamaktadır:
 
 
 > Altın standardının doğasında var olan fiyat istikrarına her zaman nostalji duymuşumdur; istikrarlı bir para birimi bu standardın temel hedefiydi. Bununla birlikte, altın standardının hükümetin işlevine, özellikle de sosyal güvenlik sistemini sağlama görevine ilişkin hakim görüşe kolayca uyum sağlamadığını uzun zamandır kabul ediyorum. \Amerikalıların çoğu, modern bir refah devletine sahip olmanın bedeli olarak enflasyonu tolere etmiştir. Artık altın standardını savunan kimse yok ve bunun geri dönme olasılığını da çok az görüyorum. (_Türbülans Çağı_).
-> Aksine, Jacques Rueff gibi insanlar için değerli metalden vazgeçmek, yalnızca satın alma gücünde sürekli bir düşüşe, yaşam standartlarında bir azalmaya, gelir eşitsizliğinde bir artışa ve büyüyen ekonomik istikrarsızlığa yol açabilecek bir hatadır.
-> ![image](assets/6/img-008.webp)
+
+Aksine, Jacques Rueff gibi insanlar için değerli metalden vazgeçmek, yalnızca satın alma gücünde sürekli bir düşüşe, yaşam standartlarında bir azalmaya, gelir eşitsizliğinde bir artışa ve büyüyen ekonomik istikrarsızlığa yol açabilecek bir hatadır.
+
+![image](assets/fr/099.webp)
 
 Şubat 1965'te televizyonda yayınlanan bir basın toplantısında General de Gaulle, doğrudan Rueff'ten esinlenerek altın standardına geri dönülmesini önerdi. Şöyle demiştir:
 
@@ -2223,7 +2235,7 @@ Amerikan merkez bankası Federal Reserve'ün eski başkanı Alan Greenspan'e gö
 1976'da Hayek, Devletin para yaratma tekeline bir alternatif önerdi: para birimleri arasında rekabet. Hayek, _Pour une vraie concurrence des monnaies_ (_Paranın Denasyonalizasyonu_) adlı kitabında, Devlet tekelinin olmadığı, çeşitli özel para birimlerinin bir arada var olacağı bir para piyasası öngörmüştür. Farklı para birimlerinin özel kuruluşlar tarafından oluşturulması ve yönetilmesi, bireylerin en istikrarlı ve güvenilir para birimini seçmelerine olanak tanıyacak ve böylece para basanlar arasında rekabet ve disiplini teşvik edecektir.
 
 
-![image](assets/6/img-003.webp)
+![image](assets/fr/100.webp)
 
 
 Şöyle yazıyor:
@@ -2234,7 +2246,7 @@ Amerikan merkez bankası Federal Reserve'ün eski başkanı Alan Greenspan'e gö
 Hayek'e göre piyasa ekonomisinin geçmişteki istikrarsızlığı, piyasa mekanizmalarının en önemli düzenleyicisi olan paranın kendisinin bir piyasa sürecinin ürünü olamayacağı gerçeğinden kaynaklanmaktadır.
 
 
-![image](assets/6/img-006.webp)
+![image](assets/fr/101.webp)
 
 
 Hayek, özel para birimlerinden oluşan serbest bir piyasanın daha fazla parasal istikrara yol açacağına inanıyordu. Yaklaşık 50 yıl sonra, Bitcoin gibi bir kripto para birimi, merkez bankalarının tekelci sistemine merkezi olmayan bir alternatif sunarak Hayek'in rekabetçi vizyonunu somutlaştırıyor. Bitcoin, 21 milyon birimlik sabit emisyon limiti ile enflasyona ve düzenleyicilerin keyfiliğine karşı bir koruma görevi görüyor.
@@ -2249,7 +2261,7 @@ Hayek, özel para birimlerinden oluşan serbest bir piyasanın daha fazla parasa
 Yaşadığımız kriz bir medeniyet krizidir, yani ahlaki, siyasi ve ekonomik sonuçları olan entelektüel bir krizdir.
 
 
-![image](assets/6/img-000.webp)
+![image](assets/fr/102.webp)
 
 
 Siyasetin krizi, parlamenter demokrasinin, temsili hükümetin ve dolayısıyla özgürlüğün düşüşü hakkında çok fazla tartışma var. Bu kriz kolaylıkla kapitalizme ve "piyasaların diktatörlüğüne" bağlanmaktadır

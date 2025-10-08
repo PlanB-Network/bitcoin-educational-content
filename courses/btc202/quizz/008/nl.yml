@@ -1,9 +1,9 @@
-question: Wat is de belangrijkste functie van een Bitcoin Wallet?
+question: Wat is de belangrijkste functie van een Bitcoin wallet?
 answer: Privé sleutels opslaan en beheren
 wrong_answers:
   - De volledige Blockchain opslaan en beheren
   - Controleer de geldigheid van het blok
-  - Relay-netwerktransacties
+  - Netwerktransacties doorsturen
 explanation: |
-  Een Bitcoin Wallet beheert de private sleutels waarmee bitcoins kunnen worden uitgegeven, maar voert niet de functies van een knooppunt uit.
+  Een Bitcoin wallet beheert de private sleutels waarmee bitcoins kunnen worden uitgegeven, maar voert niet de functies van een node uit.
 reviewed: true

@@ -255,7 +255,7 @@ De derde rol van de node is het beheren van gemijnde blokken. Wanneer een miner 
 
 
 
-## Wat is het verschil tussen een boog en een Wallet?
+## Wat is het verschil tussen een node en een wallet?
 
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
@@ -289,22 +289,22 @@ In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software
 
 
 
-## Wat is het verschil tussen een node en een Miner?
+## Wat is het verschil tussen een node en een miner?
 
 
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
 
 
 
-De begrippen node en Miner worden vaak met elkaar verward. Toch vervullen deze twee Elements radicaal verschillende functies binnen het systeem.
+De begrippen node en miner worden vaak met elkaar verward. Toch vervullen deze twee elementen radicaal verschillende functies binnen het systeem.
 
 
 
-Aanvankelijk, toen Bitcoin in 2009 door Satoshi Nakamoto werd gelanceerd, werd van elke gebruiker verwacht dat hij deelnam aan het netwerk als geheel. De oorspronkelijke Bitcoin software combineerde dus meerdere functies tegelijk: het fungeerde als een Wallet, een node, en ook als een Miner, in staat om nieuwe blokken te genereren. In die tijd was de moeilijkheidsgraad van Mining erg laag. Je hoefde alleen maar de Bitcoin software op je computer te draaien om blokken te vinden en bitcoins als beloning te ontvangen.
+Aanvankelijk, toen Bitcoin in 2009 door Satoshi Nakamoto werd gelanceerd, werd van elke gebruiker verwacht dat hij deelnam aan het netwerk als geheel. De oorspronkelijke Bitcoin software combineerde dus meerdere functies tegelijk: het fungeerde als een wallet, een node, en ook als een miner, in staat om nieuwe blokken te genereren. In die tijd was de moeilijkheidsgraad van mining erg laag. Je hoefde alleen maar de Bitcoin software op je computer te draaien om blokken te vinden en bitcoins als beloning te ontvangen.
 
 
 
-Maar met de geleidelijke popularisering van Bitcoin en de toename van het aantal mijnwerkers, heeft het concurrentielandschap in Mining een radicale verandering ondergaan. Vandaag de dag is Mining een extreem competitieve activiteit geworden, gedomineerd door industriële spelers met gespecialiseerde infrastructuren. De kracht die nodig is om een nieuw blok te delven is nu zo groot dat het vrijwel onmogelijk is voor een individuele gebruiker om dit te bereiken met alleen een conventionele computer. Als gevolg hiervan wordt Mining nu voornamelijk uitgevoerd met behulp van gespecialiseerde machines die ASIC's (*Application-Specific Integrated Circuits*) worden genoemd. Deze chips zijn uitsluitend geoptimaliseerd om dubbele SHA-256 uit te voeren, het algoritme dat gebruikt wordt voor Mining op Bitcoin.
+Maar met de geleidelijke popularisering van Bitcoin en de toename van het aantal miners, heeft het mining concurrentielandschap een radicale verandering ondergaan. Vandaag de dag is mining een extreem competitieve activiteit geworden, gedomineerd door industriële spelers met gespecialiseerde infrastructuren. De kracht die nodig is om een nieuw blok te minen is nu zo groot dat het vrijwel onmogelijk is voor een individuele gebruiker om dit te bereiken met alleen een conventionele computer. Als gevolg hiervan wordt mining nu voornamelijk uitgevoerd met behulp van gespecialiseerde machines die ASIC's (*Application-Specific Integrated Circuits*) worden genoemd. Deze chips zijn uitsluitend geoptimaliseerd om dubbele SHA-256 uit te voeren, het algoritme dat gebruikt wordt voor Bitcoin mining.
 
 
 
@@ -312,7 +312,7 @@ Maar met de geleidelijke popularisering van Bitcoin en de toename van het aantal
 
 
 
-Door deze evolutie zijn de rollen van het Bitcoin node en het Miner node duidelijk gescheiden. Zoals hierboven getoond, is de rol van een Bitcoin node puur informatief en gebaseerd op validatie. De rol van het Miner node is anders:
+Door deze evolutie zijn de rollen van de Bitcoin node en de miner node duidelijk gescheiden. Zoals hierboven getoond, is de rol van een Bitcoin node puur informatief en gebaseerd op validatie. De rol van het miner node is anders:
 
 
 
@@ -324,11 +324,11 @@ Door deze evolutie zijn de rollen van het Bitcoin node en het Miner node duideli
 
 
 
-Een Miner heeft een Bitcoin node nodig voor interactie met het netwerk.
+Een miner heeft een Bitcoin node nodig voor interactie met het netwerk.
 
 
 
-De rol van de Miner wordt soms ook onderscheiden van die van de hakker. Een hakker is een machine wiens taak het is om Hash sjabloonblokken aan te leveren door de server van een pool, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het Mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
+De rol van de miner wordt soms ook onderscheiden van die van de hakker. Een hakker is een machine wiens taak het is om door de pool server aangeleverde sjabloonblokken te hashen, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
 
 
 
@@ -336,7 +336,7 @@ De rol van de Miner wordt soms ook onderscheiden van die van de hakker. Een hakk
 
 
 
-Tenslotte is er een belangrijk verschil in economische stimulans tussen de Miner en de node. Het runnen van een Bitcoin node levert geen direct geldelijk voordeel op. Aan de andere kant levert deelname aan Mining beloningen op (subsidies en transactiekosten) voor elk gevonden blok.
+Tenslotte is er een belangrijk verschil in economische stimulans tussen de miner en de node. Het runnen van een Bitcoin node levert geen direct geldelijk voordeel op. Aan de andere kant levert deelname aan mining beloningen op (subsidies en transactiekosten) voor elk gevonden blok.
 
 
 

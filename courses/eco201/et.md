@@ -66,7 +66,7 @@ Kui finantsasutusel on pangalitsents, tähendab see sisuliselt, et "klientide ho
 
 Maja ostes juhendate oma pankurit kandma raha müüja kontole. Kui müüja konto on teises pangas, teavitab teie pankur vastavat pankurit teises asutuses, et tagada müüja konto vastav krediteerimine, samal ajal debiteerides teie kontot vastava summaga.
 
-![image](assets/en/01.webp)
+![image](assets/et/001.webp)
 
 Joonis 1: Raha Loomine Raamatupidamiskannetena
 
@@ -83,7 +83,7 @@ See dilemma viis kaasaegsete keskpankade tekkeni. 19. sajandil Inglismaal korduv
 
 Lisaks finantsstabiilsuse säilitamisele vastutavad keskpangad oluliste poliitiliste määrade kehtestamise eest. Need määrad määravad kindlaks kulud, mille eest litsentseeritud pangad saavad laenata vahendeid keskpangalt, määratledes sisuliselt likviidsuse maksumuse finantsasutustele, mis mängivad olulist rolli meie majanduste laenamisel. Seetõttu toimivad need määrad kogu finantssüsteemi võrdlusbaasina. Üksikisikuna, intressimäärad, mida maksate oma hüpoteegi eest, saab jagada poliitiliseks määraks ja panga marginaaliks.
 
-![image](assets/en/02.webp)
+![image](assets/et/002.webp)
 
 Joonis2: Lehman Brothers’i Pankrot (15/09/2008)
 
@@ -91,7 +91,7 @@ Joonis2: Lehman Brothers’i Pankrot (15/09/2008)
 
 Kuigi need meetmed hoidsid ära pankrottide ahelreaktsiooni, ei suutnud need leevendada järgnevat majanduslikku aeglustumist. Miljonid kaotasid oma töö ja kodud, tarbimine langes järsult, ettevõtted läksid pankrotti ja pangad kandsid suuri kaotusi. Hoolimata ajalooliselt madalatest intressimääradest, olid vähesed valmis laenama, põhjustades nõiaringi, kus esialgne kulutuste ja investeeringute vähenemine tugevdas ennast. Selle tulemusena astusid keskpankurid edasisi samme, rakendades kvantitatiivse lõdvendamise (QE) programme. Need programmid hõlmasid keskpankade valitsuse võlakirjade ja hüpoteekidega tagatud väärtpaberite ostmist kommertspankadelt keskpanga reservidega.
 
-![image]((assets/en/03.webp)
+![image]((assets/et/003.webp)
 
 Joonis3: Intressimäärad Peamistes Majandustes / Allikas: ECB
 
@@ -100,7 +100,7 @@ Vastupidiselt paljude ootustele ei elavdanud QE programmid oluliselt majanduskas
 ### Cantilloni Efekt
 
 Sellest episoodist võib siiski tuletada olulise majanduspõhimõtte: kui luuakse uut raha, saavad esialgu kasu need, kes on raha allikale lähemal, teiste kulul, kes on kaugemal. See majanduslik taip pärineb 18. sajandist, mil Richard Cantillon seda oma teoses "Essee Üldisest Kaubanduse Olemusest" kirjeldas. Nüüdseks on see tuntud kui "Cantilloni Efekt".
-![image](assets/en/04.webp)
+![image](assets/et/004.webp)
 
 Joonis 4: Cantilloni Efekt Lühidalt / Allikas: River Financial
 
@@ -108,7 +108,7 @@ Sel juhul said pangad, pangajuhtkonnad, aktsiate ja võlakirjade omanikud, kinni
 
 Sisuliselt on süsteem kallutatud. Pangad on oma olemuselt ebastabiilsed, kuid nende ebaõnnestumine võib ohustada kogu majandust. See moraalne oht innustab pangajuhte võtma liigseid riske, et maksimeerida oma panga tulusid, teades, et keskpank tuleb neile lõpuks appi, nihutades kulud maksumaksjatele. Sellistes stsenaariumides loovad keskpankurid tingimused tohutuks ostujõu ülekandmiseks töökatest inimestest ja säästjatest varade omanikele ja neile, kes on finantssüsteemiga seotud, seeläbi eraldades varade loomise protsessi varade kogunemisest.
 
-![image](assets/en/05.webp)
+![image](assets/et/005.webp)
 
 Joonis 5: Varade Jaotus Hiinas + Euroopas + USA-s / Allikas: OECD
 
@@ -118,7 +118,7 @@ Pikendatud perioodidel, mil rakendatakse Nullintressimäära Poliitikaid (ZIRP),
 
 Teine ZIRP-i tahtmatu tagajärg on see, et see julgustab valitsusi ulatuslikult kulutama. Kuna valitsustel pole laenamiskulusid ja nad saavad toetuda keskpankadele, kes ostavad nende võlakirju läbi QE programmide, on neil loomulik motivatsioon kulutada nii palju kui võimalik, eriti demokraatlikes kontekstides, kus kulutamine võib tuua hääli. See kalduvus tihti eirab sellise fiskaalse kergemeelsuse pikaajalisi tagajärgi, viies märkimisväärse avaliku võla taseme tõusuni arenenud majandustes alates Globaalsest Finantskriisist (GFC).
 
-![image](assets/en/06.webp)
+![image](assets/et/006.webp)
 
 Joonis 6: Avalik & Eravõlg SKP-st % (Maailm, kaalutud riigi SKP järgi) / Allikas IMF
 
@@ -154,7 +154,7 @@ Sellised küsimused on hõivanud majandusteadlasi ja filosoofe paljude sajandite
 
 Pärast füsiokraatide maa väärtuse teooriat, mis väitis, et kogu väärtus tuleb maast, ja mida lükkasid ümber klassikalised majandusteadlased tööjõu väärtuse teooriaga, väites, et kauba väärtus tuleneb sellesse investeeritud tööjõust, oli marginaalse väärtuse teooria kord asendada viimast. 1870. aastatel, pärast Marxi, viimast klassikalist majandusteadlast, tekkis peaaegu samaaegselt kolm uut majandusmõtte koolkonda marginaalse väärtuse teooria ümber: Lausanne'i kool Léon Walrasega, modernne ehk uusklassikaline kool William Stanley Jevonsiga ja Austria kool Carl Mengeriga. See väärtusteooria revolutsioon kujutas endast olulist uuendust majandusmõttes.
 
-![image](assets/en/07.webp)
+![image](assets/et/007.webp)
 
 Vasakult paremale: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -163,7 +163,7 @@ On tavaline esitada nende kolme koolkonna marginalismi sarnasena. Tõepoolest, W
 
 ### Subjektiivne Väärtus
 
-![image](assets/en/08.webp)
+![image](assets/et/008.webp)
 
 Austria majandusteadlane lükkab ümber Adam Smithi järglaste kontseptsiooni ja loobub ideest, et kauba väärtus tuleneb selle tootmiseks kasutatud töö hulgast, eelistades arusaama, et selle väärtuse määrab üksikisik, kes igas kontekstis teeb vaimse hindamisakti konkreetse kauba või teenuse koguse suhtes. See Mengeri tehtud intellektuaalne hüpe seab kahtluse alla väärtuse objektiivsuse: tema jaoks ei ole väärtus kaupade objektiivne omadus; see on lihtsalt üksikisiku suhte tulemus selle asjaga: "väärtus ei eksisteeri väljaspool inimteadvust."
 
@@ -185,7 +185,7 @@ See subjektiivne väärtuse kontseptsioon, mõistetuna kui psühholoogiline suhe
 
 ### Tööjaotus
 
-![image](assets/en/09.webp)
+![image](assets/et/009.webp)
 
 Külastades naelavabrikut, Léonard Defrance (18. sajand)
 
@@ -247,7 +247,7 @@ See mäng illustreerib probleemi, millega sageli reaalses elus kokku puututakse:
 
 ### Raha Koordineerimisprobleemide Lahendamiseks
 
-![image](assets/en/10.webp)
+![image](assets/et/010.webp)
 
 See probleem mõjutab vähem väikeseid kogukondi (nt perekond, sõpruskonnad), sest sellistel juhtudel tunnevad kõik üksteist otse, mis võimaldab meenutada teineteise panuseid. Eeldades, et kogukonnast lahkumine (deserteerumine) toob kaasa kulu, on individuaalsete agentide mälu põhinev mainesüsteem tavaliselt piisav, et vältida vangi dilemma poolt esitatud lõkse.
 
@@ -266,7 +266,7 @@ Tsivilisatsioonieelsetel aegadel neid tehnoloogiaid ei eksisteerinud. Seega pidi
 
 ### Kahekordne Soovide Kokkulangemine ja Müüdavus
 
-![image](assets/en/11.webp)
+![image](assets/et/011.webp)
 
 Raha võib vaadelda kui lahendust, mille meie esivanemad avastasid, et lahendada majandusteadlaste nimetatud "kahekordse soovide kokkulangemise" probleemi. Sellel probleemil on kolm mõõdet: ruumiline, ajaline ja isikutevaheline.
 
@@ -310,7 +310,7 @@ Tulevaste kaupade subjektiivset väärtustamist võrreldes praeguste kaupadega n
 
 See tulevaste kaupade suhtelise väärtustamise kontseptsioon praeguste kaupade suhtes on intressinähtuse juur. Tõepoolest, majanduses, kus kapitaliturgusid ei manipuleerita, määratakse viiteintressimäärad (peetakse vaikimisi riskivabaks) kapitali pakkumise ja nõudluse ristumiskohas. Seega esindavad need määrad kogu majanduse ajapreferentse: intressimäära tõus tuleneb kapitali nõudluse suhtelisest suurenemisest võrreldes pakkumisega, näidates kõrgemaid ajapreferentse. Vastupidi, intressimäärade langus toimub tänu säästude suurenemisele, mis on kapitali pakkumise suurenemine, näidates ajapreferentside vähenemist.
 
-![image](assets/en/12.webp)
+![image](assets/et/012.webp)
 
 Majanduses, kus keskpank ei manipuleeri intressimääradega, kipume täheldama tõusva tootluskõverat: mida pikem on võla tähtaeg, seda kõrgem on intressimäär. Vastupidine olukord ei saa juhtuda, kuna see tähendaks, et tulevik on kindlam kui olevik, mis on loogiline võimatus.
 
@@ -318,7 +318,7 @@ Ajapreferentsi kontseptsioon ja kuidas me väljendame oma ajapreferentsi tarbimi
 
 ### Kapitaliteooria
 
-![image](assets/en/13.webp)
+![image](assets/et/013.webp)
 
 Selle kursuse alguses nägime, et Carl Mengeri jaoks peetakse kaupu majanduskaupadeks (väärtustatuks) ainult seetõttu, et need teenivad vahendeid indiviidide poolt valitud ja hinnatud eesmärkide saavutamiseks. Sellest vaatenurgast lähtuvalt keerleb kogu majandusanalüüs tarbimise ümber, kuna see on lõppkokkuvõttes kõigi majandustegevuste motiveeriv eesmärk. Seega Mengeri jaoks on majandusanalüüsi lähtepunktiks tarbekaupad ehk lõpptooted, kuna need esindavad majandustegevuse lõppeesmärki. Kõik teised majanduses olevad kaubad, mida võime nimetada "vahetoodeteks", omavad väärtust ainult seetõttu, et need võimaldavad indiviididel neid tarbekaupu saada: need on kaubad, mida kasutatakse teiste kaupade tootmiseks.
 
@@ -332,13 +332,13 @@ Inimtegevuse järjestikulise olemuse tõttu on neil ajavahelistel valikutel alat
 
 Selle punkti illustreerimiseks vaatame üle näite, mille tõi Böhm-Bawerk oma teoses "Kapital ja Intress":
 
-![image](assets/en/14.webp)
+![image](assets/et/014.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe ja Tootmisümbersõit:
 
-![image](assets/en/15.webp)
+![image](assets/et/015.webp)
 
 Robinson Crusoe maabumas varusid laevahukust, John Alexander Gilfillan (1793-1864)
 
@@ -360,7 +360,7 @@ Nagu esimeses peatükis vihjatud, on intressimäärasid manipuleerinud aastaküm
 
 Seda illustreerib suurepäraselt allpool olev graafik: pikad intressimäärad on lühematest madalamad. Esiteks, see ei tee absoluutselt mingit mõtet, sest see tähendaks, et tulevik on kindlam kui olevik. Teiseks, see nõuab uurimist kapitali jaotamise tagajärgede üle: kui kõiki innustatakse käituma, nagu oleks sääste külluses, samas kui säästjaid ei ole kuskil leida, sest neid ei premeerita säästmise eest, millised tagajärjed võiks see majandusele kaasa tuua?
 
-![image](assets/en/16.webp)
+![image](assets/et/016.webp)
 
 Seda uurime järgmises peatükis, mis on pühendatud Austria äritsükli teooriale!
 
@@ -388,13 +388,13 @@ Selle ajalise koordineerimatuse nähtuse ja selle tagajärgede võimalikult selg
 
 Meie selgituse hõlbustamiseks pöördume tagasi Mengeri kaupade klassifikatsiooni juurde ja esitame tootmisstruktuuri diagrammil, mis koosneb suvalisest arvust etappidest:
 
-![image](assets/en/17.webp)
+![image](assets/et/017.webp)
 
 Ülaltoodud diagrammil läbivad algmaterjalid mitmesuguseid tootmisetappe, läbides muundumisi, mis viivad need lähemale lõpptarbekaupade seisundile (koostoimes algsete tootmisteguritega: aeg, maa, tööjõud). Parema külje kõrgus skeemiliselt esindab SKP-d, kuna see tähistab kõigi perioodi jooksul müüdud tarbekaupade summat. Iga riba vaheline lõhe vastab protsessi igas etapis genereeritud lisandväärtusele (rahalises mõttes). See erinevus võib samuti olla nähtav kui iga etapi seotud tulu (tulud - kulud).
 
 Kui majandusagentide kogutasandil suurendatakse sääste, väheneb lõpptoodete tarbimine - kõik muu võrdne olles tähendab säästmine paratamatult osa oma tarbimise edasilükkamist hilisemaks ajaks. Selle tulemusena intressimäärad langevad - kuna kapitali pakkumine suureneb, võimaldades ettevõtjatel kasutada seda kapitali sissevoolu, et luua uusi investeerimiskaupu ja seega pikendada tootmisstruktuuri.
 Siis saavutame laiendatud tootmisstruktuuri, muutuse, mida saab kvalitatiivselt esindada järgneva diagrammiga:
-![image](assets/en/18.webp)
+![image](assets/et/018.webp)
 
 Siin on nõutud tarbekaupade rahaline väärtus vähenenud, vabastades ressursid täiendava tootmisetapi loomiseks. Sellises stsenaariumis, kus intressimäärade langus on tarbimise vähenemise tagajärg, st suurenenud säästude tagajärg, jääb raharingluses oleva raha hulka esindava kolmnurga pindala muutumatuks. Tootmisstruktuuri muutus (pikenemine) tuleneb lihtsalt ostujõu ülekandest struktuuri ühest osast teise.
 
@@ -410,7 +410,7 @@ Madalamate intressimäärade korral saavad ettevõtjad laenata rohkem ressursse 
 
 Märkige, et see on krediidi laienemise täiesti loogiline tagajärg. Kuna pangad toodavad usaldusmeediat laenude andmisega, peaks üldine ostujõud loomulikult suurenema.
 
-![image](assets/en/19.webp)
+![image](assets/et/019.webp)
 
 Kuna krediit siseneb majandusse laenude kaudu ettevõtjatele, peaksime täheldama kasumi suurenemist tootmissektorites, mis on tarbimisest kaugemal, ja suhtelise kasumi vähenemist sektorites, mis on tarbimisele lähemal. See suurem kasumlikkus toetab seejärel kapitali ümberjaotamist nende uute, kapitalimahukamate etappide poole (laevaehitus, autotööstus, ehitus, kõrgtehnoloogia jne) ja investeeringute vähenemist tarbimisele lähemal olevates sektorites.
 Nüüd, ettevõtjad, kes on seotud nende kõrgemate tootmisetappidega, teenivad suuremaid rahatulusid ja kuna ajapreferents on jäänud samaks, peaksime nägema ka tarbekaupade nõudluse suurenemist. Kuid selle buumi ajal, kui investeeritud kapitali suhteline kasumlikkus on olnud kõrgem tarbimisest kaugemates sektorites, on toimunud ressursside ümberjaotamine tarbimisele lähedastest tegevustest kaugematele tegevustele. Selle tagajärjel puuduvad madalamate tootmisetappide ettevõtjatel ressursid suurenenud nõudluse rahuldamiseks. See loob pinge nende kahe tootmisstruktuuri osa vahel: igaüks üritab teise arvelt kapitali saada ja kuna tarbimise nõudlus esindab pakilisemaid vajadusi, jäävad lõpuks kaugemate tegevustega tegelevad ettevõtjad ilma vajalikest ressurssidest oma investeeringute lõpuleviimiseks. Selle tulemusena hakkab nendes sektorites kasumimäär langema, ettevõtted lähevad pankrotti ja tarbijahindade suhteline tõus motiveerib kapitali kiiret ümberjaotamist madalama järgu kaupade tootmise suunas. Kui see äkiline ressursside ümberjaotamine ilmneb, siseneb majandus langusse: varade hinnad langevad, reaalpalgad vähenevad, tarbijahinnad langevad ja laovarud kuhjuvad.
@@ -424,7 +424,7 @@ Sellist kohandust võib vaadelda kui perioodi, mille jooksul sunnitakse alatarbi
 
 Kahjuks katkestatakse see depressiivne mehhanism sageli poliitilise võimu ja keskpankade poolt, kes püüavad majandust "elavdada" läbi defitsiidi kulutuste ja lihtsa rahapoliitika.
 
-![image](assets/en/20.webp)
+![image](assets/et/020.webp)
 
 Nii monetaristide kui ka Keynesianide jaoks on depressiooni põhjuseks ebapiisav kogunõudlus, seega ei pööra kumbki tähelepanu suhteliste hindade arengule, mis, nagu oleme näinud, on probleemi tuum. Seega usuvad nad, et krediidilaiendamise soodustamine (intressimäärade alandamine) ja riigi defitsiidivõime kasutamine nõudluse suurendamiseks käivitab taastumise. Lühiajaliselt võivad sellised meetmed tunduda soovitud mõjusid andvat: defitsiit toetab kulutusi, samal ajal kui intressimäärade vähendamine viib kõrgemate varahindadeni, mis omakorda julgustab varahoidjaid oma kulutusi suurendama. Siiski selline tõuge lõpuks vaibub, samal ajal kui struktuurne probleem püsib või isegi süveneb, kuna kapitali vale jaotus jätkub tänu kunstlikult madalatele intressimääradele.
 Kaasaegsel ajastul on keskpangad ja valitsused olnud nii innukad takistamaks selle kohandumisprotsessi ilmnemist, et oleme lõpuks jõudnud massilise struktuurse töötuse ja pideva võla kuhjumiseni. Selles osas on Jaapan näiteks. Pärast varade mulli lõhkemist 1989-90 kasutas Jaapani Pank (BoJ) ja erinevad ametis olevad valitsused kõiki siin kirjeldatud meetodeid, et proovida "taaskäivitada Jaapani majandust." Peale lühiajalisi tõuse, mis järgnesid kulutuste programmidele ja intressimäärade kärpimistele, on Jaapan jäänud 30 aastaks neurasteenilise kasvu ja ülevõlgnemise seisundisse.
@@ -461,7 +461,7 @@ Oma artikliga tõi Mises debatti uue mõõtme. Jättes kõrvale utoopilised arus
 
 ### Majandusarvestuse Võimatuse Selgitamine
 
-![image](assets/en/21.webp)
+![image](assets/et/021.webp)
 
 Enamik arusaamatusi Misesi argumentide ümber tekib kapitalistliku majanduse juhtiv- ja ettevõtjaklasside rollide valesti mõistmisest. Mises ei eitanud kunagi juhtide võimet välja töötada oma operatsioonide jaoks tõhusaid tootmisplaane. Selle asemel rõhutas ta ettevõtjate ja aktsionäride tähtsust, kes kui tootmisvahendite omanikud, jaotavad kapitali erinevate tööstusharude vahel, moodustades seeläbi hinnad, mis toimivad sisenditena juhtide majandusarvestuses.
 
@@ -478,7 +478,7 @@ See protsess on oluline, kuna see kinnitab või lükkab ümber erinevate tegevus
 
 Sellest vaatenurgast lähtudes kogeb keskselt planeeritud majandus paratamatult kapitali valejaotust. Lühikeses kuni keskpikas perspektiivis võivad sellised valejaotused märkamata jääda, kuna puuduvad turuhinnad või pankrotid, mis neid paljastaksid. Siiski, tagasiside (hinnad) ja ümberjaotamismehhanismide (pankrotid) puudumise tõttu kuhjuvad vead, kuni raiskamine muutub märgatavaks elutingimuste olulise languse kaudu.
 
-![image](assets/en/22.webp)
+![image](assets/et/022.webp)
 
 ### Austria perspektiiv ja teiste majanduskoolkondade ebaõnnestumised
 
@@ -488,7 +488,7 @@ Hoolimata sellest muljetavaldavast ennustamisest ja arvukatest empiirilistest t�
 
 ### Austria äritsükli teooria kui sotsialismi alusel majandusarvutuste võimatuse konkreetne juhtum
 
-![image](assets/en/23.webp)
+![image](assets/et/023.webp)
 Eelmises peatükis selgitasime üleinvesteeringute ja kapitali vale jaotamise dünaamikat, mis tuleneb keskpankade intressimäärade manipuleerimisest. Põhimõtteliselt võib seda, mida selgitasime, vaadelda kui konkreetset näidet majandusarvestuse võimatusest sotsialismi tingimustes, rakendatuna rahaturgude valdkonnale. Kui hinnad on fikseeritud väljaspool nende turuväärtusi, motiveeritakse ettevõtjaid ja kapitali paigutajaid tegema investeeringuid, mida ei saa pikas perspektiivis jätkusuutlikult ülal pidada säästude puudumise tõttu. Hinnasüsteemi sekkumisega loovad keskplaneerijad (antud juhul keskpangad) koordineerimatuse majandusagentide vahel. Sel juhul tähendab ajaline koordineerimatus üleinvesteeringut kõrgema järjekorra investeerimiskaupadesse ja alainvesteeringut madalama järjekorra investeerimiskaupadesse, mis kujutab endast konkreetset kapitali vale jaotuse ilmingut erinevates tööstusharudes.
 
 Sellise vale jaotuse tagajärjed hõlmavad finants- ja majanduskriise, majandustegevuse vähenemist ning võla deflatsiooni. Need makromajanduslikud mõjud tulenevad säästude ja investeeringute tasakaalustamatusest, mis on krediidilaienemise tulemus. NSV Liidus ja teistes kommunistlikes režiimides viis hinnakontroll sarnase koordineerimatuse tekkeni, põhjustades mõnede kaupade nappust ja teiste ületootmist. Mõlemal juhul ei peegelda hinnad tarbijate tegelikke eelistusi, olgu need siis ajalised eelistused või tarbimiseelistused, mis viib ettevõtjate või ressursside jaotamise eest vastutavate keskplaneerijateni investeerima kapitali "valedesse tööstusharudesse".

@@ -66,7 +66,7 @@ Když finanční instituce drží bankovní licenci, v podstatě to znamená, ž
 
 Při koupi domu instruujete svého bankéře, aby peníze převedl na účet prodávajícího. Pokud má prodávající účet u jiné banky, váš bankéř informuje odpovídajícího bankéře v druhé instituci, aby zajistil, že účet prodávajícího bude odpovídajícím způsobem připsán, zatímco váš účet bude odpovídající částkou zadlužen.
 
-![obrázek](assets/en/01.webp)
+![obrázek](assets/cs/001.webp)
 
 Obrázek 1: Vytváření peněz jako účetní záznamy
 
@@ -83,7 +83,7 @@ Tento problém vedl k vzniku moderních centrálních bank. V 19. století v Ang
 
 Kromě udržování finanční stability jsou centrální banky zodpovědné za stanovení klíčových úrokových sazeb. Tyto sazby určují náklady, za které mohou licencované banky půjčovat prostředky od centrální banky, a v podstatě definují náklady na likviditu pro finanční instituce, které hrají klíčovou roli v poskytování úvěrů v našich ekonomikách. Tyto sazby tedy slouží jako referenční bod pro celý finanční systém. Jako jednotlivec se úrokové sazby, které platíte za svou hypotéku, skládají z úrokové sazby politiky a marže banky.
 
-![image](assets/en/02.webp)
+![image](assets/cs/002.webp)
 
 Obrázek2: Bankrot Lehman Brothers (15/09/2008)
 
@@ -91,7 +91,7 @@ Během velké finanční krize v roce 2008 vyhlásila Lehman Brothers, velká in
 
 Ačkoli tyto opatření zabránily kaskádě bankrotů, málo pomohla zmírnit následné ekonomické zpomalení. Miliony lidí přišly o práci a domovy, spotřeba klesla, podniky zkrachovaly a banky utrpěly značné ztráty. Přes historicky nízké úrokové sazby bylo málo ochotných si půjčovat, což vedlo k zlomovému cyklu, kde počáteční pokles výdajů a investic se posílil. V důsledku toho centrální bankéři podnikli další kroky implementací programů kvantitativního uvolňování (QE). Tyto programy zahrnovaly nákup vládních dluhopisů a cenných papírů zajištěných hypotékami od komerčních bank s bankovními rezervami centrální banky.
 
-![image](assets/en/03.webp)
+![image](assets/cs/003.webp)
 
 Obrázek3: Úrokové sazby v hlavních ekonomikách / Zdroj: ECB
 
@@ -100,7 +100,7 @@ Na rozdíl od mnoha očekávání programy QE významně neobnovily ekonomický 
 ### Cantillonův efekt
 
 Přesto lze z této epizody vyvodit zásadní ekonomický princip: když je vytvořeno nové peníze, nejprve z toho těží ti, kteří jsou nejblíže k zdroji peněz, na úkor těch, kteří jsou dále. Tento ekonomický vhled sahá až do 18. století, kdy ho Richard Cantillon popsal ve svém díle "Esej o povaze obchodu obecně". Nyní je tento jev běžně označován jako "Cantillonův efekt".
-![image](assets/en/04.webp)
+![image](assets/cs/004.webp)
 
 Obrázek 4: Cantillonův efekt stručně / Zdroj: River Financial
 
@@ -108,7 +108,7 @@ V tomto případě bankéři, výkonní ředitelé bank, majitelé akcií a dluh
 
 Ve své podstatě je systém zkreslený. Banky jsou inherentně nestabilní, přesto jejich selhání může ohrozit celou ekonomiku. Tento morální hazard motivuje výkonné ředitele bank, aby podstupovali nadměrná rizika za účelem maximalizace příjmů jejich bank, vědomi si, že je nakonec centrální banka zachrání, přičemž náklady přesune na daňové poplatníky. V takových scénářích centrální bankéři vytvářejí podmínky pro masivní přesun kupní síly od tvrdě pracujících jedinců a spořitelů k majitelům aktiv a těm, kteří jsou spojeni s finančním systémem, čímž odpojují proces tvorby bohatství od akumulace bohatství.
 
-![image](assets/en/05.webp)
+![image](assets/cs/005.webp)
 
 Obrázek 5: Rozdělení bohatství v Číně + Evropě + USA / Zdroj: OECD
 
@@ -118,7 +118,7 @@ Během prodloužených období politik nulových úrokových sazeb (ZIRP) mají 
 
 Dalším nezamýšleným důsledkem ZIRP je, že to vlády podněcuje k rozsáhlým výdajům. Vzhledem k tomu, že vlády čelí nulovým nákladům na půjčky a mohou se spolehnout na centrální banky, že nakoupí jejich dluhopisy prostřednictvím programů kvantitativního uvolňování (QE), mají přirozenou motivaci utrácet co nejvíce, zejména v demokratických kontextech, kde výdaje mohou získat hlasy. Tato tendence často přehlíží dlouhodobé důsledky takové fiskální nerozvážnosti, což vede k významnému nárůstu úrovní veřejného dluhu v rozvinutých ekonomikách od globální finanční krize (GFC).
 
-![image](assets/en/06.webp)
+![image](assets/cs/006.webp)
 
 Obrázek 6: Veřejný & soukromý dluh jako % HDP (svět, váženo podle HDP na zemi) / Zdroj: MMF
 
@@ -154,7 +154,7 @@ Takové otázky zaměstnávaly ekonomy a filozofy po mnoho století a obdržely 
 
 Po teorii hodnoty půdy physiokratů, která tvrdila, že veškerá hodnota pochází z půdy, a byla vyvrácena klasickými ekonomy s teorií hodnoty práce, tvrdící, že hodnota zboží pramení z množství práce vložené do jeho výroby, přišla na řadu marginální teorie hodnoty, která nahradila poslední. V 1870s, po Marxovi, posledním z klasických ekonomů, se téměř současně objevily tři nové školy ekonomického myšlení kolem marginální teorie hodnoty: Lausannská škola s Léonem Walrasem, moderní nebo neoklasická škola s Williamem Stanleyem Jevonsem a Rakouská škola s Carlem Mengerem. Tato revoluce v teorii hodnoty představovala významnou obnovu ekonomického myšlení.
 
-![image](assets/en/07.webp)
+![image](assets/cs/007.webp)
 
 Zleva doprava: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -163,7 +163,7 @@ Je běžné prezentovat marginalismus těchto tří škol jako podobný. Skuteč
 
 ### Subjektivní Hodnota
 
-![obrázek](assets/en/08.webp)
+![obrázek](assets/cs/008.webp)
 
 Rakouský ekonom odmítá koncepci následovníků Adama Smithe a opouští myšlenku, že hodnota zboží pochází z množství práce použité při jeho výrobě, ve prospěch názoru, že jeho hodnota je určena jednotlivcem, který v každém kontextu provádí mentální akt hodnocení týkající se konkrétního množství zboží nebo služby. Tento intelektuální skok, který Menger učinil, vyzývá k zpochybnění objektivity hodnoty: pro něj hodnota není objektivní vlastností zboží; je pouze výsledkem vztahu, který jednotlivec má s danou věcí: "hodnota neexistuje mimo lidské vědomí."
 
@@ -185,7 +185,7 @@ Tato subjektivní koncepce hodnoty, chápaná jako psychologický vztah, který 
 
 ### Dělení práce
 
-![obrázek](assets/en/09.webp)
+![obrázek](assets/cs/009.webp)
 
 Návštěva hřebíkárny, Léonard Defrance (18. století)
 
@@ -247,7 +247,7 @@ Tato hra ilustruje problém, který se často setkává v reálném životě: v 
 
 ### Peníze k řešení koordinačních problémů
 
-![obrázek](assets/en/10.webp)
+![obrázek](assets/cs/010.webp)
 
 Tento problém má menší dopad v malých komunitách (např. rodina, kruh přátel), protože v takových případech se každý zná přímo, což umožňuje vzpomínat si na příspěvky ostatních. Za předpokladu, že opuštění komunity (dezertace) přináší náklady, je systém reputace založený na paměti jednotlivých agentů obvykle dostatečný k vyhnutí se pastem, které představuje vězňovo dilema.
 
@@ -265,7 +265,7 @@ V dobách před civilizací tyto technologie neexistovaly. Naši předkové prot
 
 ### Dvojí shoda potřeb a prodejnost
 
-![obrázek](assets/en/11.webp)
+![obrázek](assets/cs/011.webp)
 
 Peníze lze považovat za řešení, které naši předkové objevili pro řešení problému, který ekonomové nazývají "problém dvojí shody potřeb". Tento problém má tři rozměry: prostorový, časový a mezilidský.
 
@@ -309,7 +309,7 @@ Tato subjektivní hodnocení hodnoty budoucích statků ve srovnání se součas
 
 Tento koncept relativního hodnocení budoucích statků oproti současným statkům je základem jevu úroku. Skutečně, v ekonomice s nemanipulovanými kapitálovými trhy jsou referenční úrokové sazby (považované za bezrizikové z hlediska nesplácení) určeny na křižovatce nabídky a poptávky po kapitálu. Tyto sazby tedy reprezentují stav časových preferencí pro celou ekonomiku: zvýšení úrokové sazby je výsledkem relativního zvýšení poptávky po kapitálu ve srovnání s nabídkou, což ukazuje vyšší časové preference. Naopak, pokles úrokových sazeb nastává kvůli zvýšení úspor, což je zvýšení nabídky kapitálu, což ukazuje snížení časových preferencí.
 
-![image](assets/en/12.webp)
+![image](assets/cs/012.webp)
 
 V ekonomice, kde úrokové sazby nejsou manipulovány centrální bankou, obvykle pozorujeme vzestupnou křivku výnosů: čím delší je doba splatnosti dluhu, tím vyšší je úroková sazba. Opačná situace nemůže nastat, protože by to znamenalo, že budoucnost je jistější než současnost, což je logická nemožnost.
 
@@ -317,7 +317,7 @@ Koncept časové preference a jak vyjadřujeme naši vlastní časovou preferenc
 
 ### Teorie kapitálu
 
-![image](assets/en/13.webp)
+![image](assets/cs/013.webp)
 
 Na začátku tohoto kurzu jsme viděli, že pro Carla Mengera jsou statky považovány za ekonomické statky (hodnocené) pouze proto, že slouží jako prostředky k dosažení cílů vybraných a hodnocených jednotlivci. Podle tohoto pohledu se veškerá ekonomická analýza točí kolem spotřeby, protože je to konečný motivující cíl za veškerou ekonomickou aktivitou. Proto pro Mengera je výchozím bodem ekonomické analýzy spotřební zboží, nebo konečné zboží, jelikož představují konečný účel ekonomické aktivity. Všechna ostatní zboží v ekonomice, která můžeme nazvat "meziprodukty", mají hodnotu pouze proto, že umožňují jednotlivcům získat tato spotřební zboží: jsou to zboží používaná při výrobě jiného zboží.
 
@@ -331,13 +331,13 @@ Díky sekvenční povaze lidské akce mají tyto mezidobové volby vždy důsled
 
 Abychom ilustrovali tento bod, vraťme se k příkladu, který dal Böhm-Bawerk ve svém díle "Kapitál a úrok":
 
-![obrázek](assets/en/14.webp)
+![obrázek](assets/cs/014.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe a Výrobní Objížďka:
 
-![obrázek](assets/en/15.webp)
+![obrázek](assets/cs/015.webp)
 
 Robinson Crusoe vykládá zásoby z vraku, John Alexander Gilfillan (1793-1864)
 
@@ -359,7 +359,7 @@ Nyní, jak bylo naznačeno v první kapitole, úrokové sazby byly desetiletí m
 
 To dokonale ilustruje níže uvedený graf: dlouhodobé sazby jsou nižší než krátkodobé sazby. Zaprvé, to dává naprosto žádný smysl, protože by to znamenalo, že budoucnost je jistější než přítomnost. Zadruhé, vyvolává to otázky ohledně důsledků pro alokaci kapitálu: pokud každý má být motivován jednat, jako by úspory byly hojné, zatímco spořitelé nejsou k nalezení, protože nejsou odměňováni za spoření, jaké důsledky by to mohlo mít pro ekonomiku?
 
-![obrázek](assets/en/16.webp)
+![obrázek](assets/cs/016.webp)
 
 To zjistíme v další kapitole věnované Rakouské teorii hospodářského cyklu!
 
@@ -387,13 +387,13 @@ Abychom co nejjasněji popsal tento fenomén časové nesourodosti a jeho důsle
 
 Abychom usnadnili naše vysvětlení, vrátíme se k Mengerově klasifikaci zboží a reprezentujeme výrobní strukturu na diagramu sestávajícím z libovolného počtu fází:
 
-![image](assets/en/17.webp)
+![image](assets/cs/017.webp)
 
 Na výše uvedeném diagramu počáteční zdroje procházejí různými fázemi výroby, podléhají transformacím, které je přibližují ke stavu konečného spotřebního zboží (prostřednictvím interakce s původními faktory výroby: čas, půda, práce). Výška pravé strany trojúhelníku schématicky reprezentuje HDP, protože označuje součet všech spotřebních zboží prodaných v období. Rozdíl mezi každou tyčí odpovídá přidané hodnotě (v peněžních termínech) generované v každé fázi procesu. Tento rozdíl lze také vidět jako příjem spojený s každou fází (příjmy - náklady).
 
 Pokud na agregátní úrovni ekonomičtí subjekti zvýší své úspory, množství konečného zboží spotřebovaného se sníží - za všech ostatních stejných podmínek, úspory nutně zahrnují odložení části spotřeby na pozdější datum. V důsledku toho úrokové sazby klesnou - protože nabídka kapitálu se zvyšuje, což umožňuje podnikatelům využít tento příliv kapitálu k vytvoření nových investičních zboží a tím prodloužit výrobní strukturu.
 Poté získáme rozšířenou strukturu výroby, změnu, kterou lze kvalitativně reprezentovat následujícím diagramem:
-![image](assets/en/18.webp)
+![image](assets/cs/018.webp)
 
 Zde se peněžní hodnota požadovaných spotřebních zboží snížila, čímž se uvolnily zdroje pro vytvoření dalšího stupně výroby. V tomto scénáři, kde je pokles úrokových sazeb důsledkem snížené spotřeby, tj. zvýšených úspor, zůstává plocha trojúhelníku, reprezentující množství peněz v oběhu, nezměněna. Transformace výrobní struktury (prodloužení) jednoduše výsledkem přesunu kupní síly z jedné části struktury do druhé.
 
@@ -411,7 +411,7 @@ S nižšími úrokovými sazbami mohou podnikatelé půjčit více zdrojů a tí
 
 Je třeba poznamenat, že to je zcela logický důsledek expanze úvěrů. Jelikož banky vytvářejí fiduciární média poskytováním půjček, mělo by se přirozeně očekávat celkové zvýšení kupní síly.
 
-![image](assets/en/19.webp)
+![image](assets/cs/019.webp)
 
 Jak úvěr vstupuje do ekonomiky prostřednictvím půjček podnikatelům, měli bychom pozorovat zvýšení zisků ve výrobních sektorech vzdálených od spotřeby a pokles relativních zisků v sektorech blíže spotřebě. Tato vyšší ziskovost pak podporuje přerozdělení kapitálu směrem k těmto novým, více kapitálově náročným stupňům (lodní stavba, automobilový průmysl, stavebnictví, pokročilé technologie atd.) a pokles investic do sektorů blíže spotřebě.
 Nyní podnikatelé zapojení do těchto vyšších stupňů výroby vydělávají vyšší peněžní příjmy a jelikož se časová preference nezměnila, měli bychom také vidět zvýšenou poptávku po spotřebních produktech. Ale jelikož během tohoto boomu byla relativní ziskovost investovaného kapitálu vyšší v sektorech vzdálených od spotřeby, došlo k přesunu zdrojů z činností blízkých spotřebě do vzdálenějších činností. V důsledku toho podnikatelé v nižších stupních výroby nemají dostatek zdrojů, aby uspokojili zvýšenou poptávku. To vytváří napětí mezi těmito dvěma částmi výrobní struktury: každá se snaží získat kapitál na úkor druhé, a jelikož poptávka po spotřebě představuje naléhavější potřeby, v určitém okamžiku podnikatelé zapojení do činností vzdálených od spotřeby přijdou o zdroje potřebné k dokončení svých investic. Zisková marže v těchto sektorech poté začne klesat, podniky krachují a relativní nárůst cen spotřebních produktů motivuje rychlou realokaci kapitálu směrem k výrobě zboží nižšího řádu. Když se tato náhlá realokace zdrojů projeví, ekonomika vstupuje do recese: ceny aktiv klesají, reálné mzdy klesají, ceny spotřebních produktů klesají a zásoby se hromadí.
@@ -425,7 +425,7 @@ Takové přizpůsobení lze vidět jako období, během kterého je vynucena ned
 
 Bohužel, tento depresivní mechanismus je často přerušován politickou mocí a centrálními bankami, které se snaží „podpořit“ ekonomiku prostřednictvím deficitního výdajování a snadné měnové politiky.
 
-![obrázek](assets/en/20.webp)
+![obrázek](assets/cs/020.webp)
 
 Pro monetaristy i keynesiány je příčinou deprese nedostatečná agregátní poptávka, takže ani jeden nevěnuje pozornost vývoji relativních cen, které, jak jsme viděli, jsou jádrem problému. Takže věří, že poskytnutí pobídky pro expanzi úvěru (snížení úrokových sazeb) a využití schopnosti státu generovat deficit k podpoře poptávky spustí oživení. V krátkodobém horizontu se mohou tyto opatření jevit, že produkují požadované účinky: deficit podporuje výdaje, zatímco snížení úrokových sazeb vede k vyšším cenám aktiv, což zase motivuje majitele aktiv k zvýšení jejich výdajů. Avšak taková podpora nakonec vyprchá, zatímco strukturální problém zůstává, nebo se dokonce zhoršuje, protože špatné rozdělení kapitálu pokračuje díky uměle nízkým úrokovým sazbám.
 V moderní éře byly centrální banky a vlády tak horlivé v zabránění projevu tohoto přizpůsobovacího procesu, že skončíme s masovou strukturální nezaměstnaností a neustálým hromaděním dluhu. Japonsko slouží jako příklad v tomto ohledu. Po prasknutí bubliny aktiv v letech 1989-90 použila Banka Japonska (BoJ) a různé vlády ve funkci všechny zde popsané metody, aby se pokusily "znovu nastartovat japonskou ekonomiku." Kromě krátkých vzestupů po výdajových programech a sníženích úrokových sazeb zůstalo Japonsko 30 let ve stavu neurastenického růstu a předluženosti.
@@ -462,7 +462,7 @@ Svým článkem Mises představil nový rozměr debaty. Odkládaje stranou utopi
 
 ### Vysvětlení nemožnosti ekonomického výpočtu
 
-![obrázek](assets/en/21.webp)
+![obrázek](assets/cs/021.webp)
 
 Většina nedorozumění ohledně Misesových argumentů vychází z nepochopení rolí, které v kapitalistické ekonomice hrají manažerské a podnikatelské třídy. Mises nikdy nezpochybňoval schopnost manažerů vymýšlet efektivní výrobní plány v rámci jejich vlastních operací. Místo toho zdůraznil význam podnikatelů a akcionářů, kteří jako vlastníci výrobních prostředků alokují kapitál mezi různé průmyslové odvětví, čímž formují ceny, které slouží jako vstupy v ekonomických výpočtech manažerů.
 
@@ -479,6 +479,8 @@ Tento proces je klíčový, protože potvrzuje nebo vyvrací efektivitu různýc
 
 Z této perspektivy bude centrálně plánovaná ekonomika nevyhnutelně zažívat špatnou alokaci kapitálu. V krátkodobém až střednědobém horizontu mohou tyto špatné alokace zůstat nepovšimnuty, protože neexistují tržní ceny ani bankroty, které by je odhalily. Avšak kvůli absenci zpětné vazby (cen) a mechanismům přerozdělení (bankroty) se chyby budou hromadit, dokud se plýtvání nestane zjevným prostřednictvím významného poklesu životních podmínek.
 
+![image](assets/cs/022.webp)
+
 ### Rakouská perspektiva a selhání jiných ekonomických škol
 
 Dalo by se tvrdit, že malovat takový panoramatický pohled zpětně je snadné. Koneckonců, všichni jsme si vědomi prázdných polic v SSSR, těžkostí ve Venezuele a humanitární katastrofy v Kambodži. Ale Mises předpověděl tyto události již v roce 1920. Přesto až do pádu SSSR v roce 1989 mnoho ekonomů, včetně několika nositelů Nobelovy ceny, chválilo sovětský ekonomický zázrak a předpovídalo, že sovětská ekonomika brzy předčí ekonomiku USA.
@@ -486,6 +488,8 @@ Dalo by se tvrdit, že malovat takový panoramatický pohled zpětně je snadné
 Navzdory tomuto působivému předpovídání a mnoha empirickým důkazům o nemožnosti ekonomického výpočtu pod socialismem jsou političtí lídři po celém světě více než kdy jindy ochotni stanovovat ceny, nacionalizovat celá odvětví a navrhovat pětileté plány, často s aplausem ekonomicky neinformovaných populací. Důsledky takového intervencionismu jsou akutně cítěny lidmi ve dříve prosperujících západních zemích, kteří pomalu sledují pokles svých životních standardů.
 
 ### Rakouská teorie obchodního cyklu jako konkrétní případ nemožnosti ekonomického výpočtu pod socialismem
+
+![image](assets/cs/023.webp)
 
 V předchozí kapitole jsme objasnili dynamiku nadměrných investic a špatného rozdělení kapitálu, které jsou důsledkem manipulace úrokových sazeb centrálními bankami. V podstatě to, co jsme vysvětlili, lze považovat za konkrétní případ nemožnosti ekonomického výpočtu v socialismu, aplikovaný na oblast peněžních trhů. Když jsou ceny stanoveny mimo jejich tržní hodnoty, podnikatelé a alokátoři kapitálu jsou motivováni k angažování se v investicích, které nemohou být dlouhodobě udržitelné kvůli nedostatku úspor. Zasahováním do cenového systému centrální plánovači (v tomto případě centrální bankéři) vytvářejí nesoulad mezi ekonomickými subjekty. V tomto případě mezičasový nesoulad zahrnuje nadměrné investice do investičních statků vyššího řádu a nedostatečné investice do investičních statků nižšího řádu, což představuje konkrétní projev špatného rozdělení kapitálu napříč odvětvími.
 Důsledky takového špatného rozdělení zahrnují finanční a ekonomické krize, sníženou ekonomickou aktivitu a deflaci dluhu. Tyto makroekonomické efekty pramení z nerovnováhy mezi úsporami a investicemi v důsledku expanze úvěrů. V SSSR a dalších komunistických režimech vedlo stanovení cen k podobnému nesouladu, což mělo za následek nedostatek některých zboží a nadprodukci jiných. V obou případech ceny neodrážejí skutečné preference spotřebitelů, ať už jde o časové preference nebo preference spotřeby, což vede podnikatele nebo centrální plánovače zodpovědné za alokaci zdrojů k investování kapitálu do "špatných odvětví".

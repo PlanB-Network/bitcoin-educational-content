@@ -193,23 +193,23 @@ Uburyo bwo kwishura ni uburyo n’ibikorwa remezo bishoboza gutanga amahera haga
 ### Ubwoko busanzwe bw'uburyo bwo kwishura
 
 
-1. **Amahera:** Amafaranga y’umubiri ahindurwa ataco akora hagati y’abantu babiri.
+1. **Amahera :** Amafaranga agaragara ahana hanwa hagati yimpande zibiri( uwuronka nuwurungika ).
 
-2. **Isheki:** Inyandiko z’impapuro zitegeka banki kwishura amahera yihariye avuye kuri konti y’uwuyitanga ku wuyitanga.
+2. **Isheki:** Inyandiko z’impapuro zitanga uruhusha kuri banki ngo itange  amahera  avuye kuri konti y’uwutanga uruhusha ngo bayahe   uwo ashaka bayaha .
 
-3. **Ugutanga amafaranga biciye ku nzira y’ubuhinga bwa none:** Gutanga amafaranga biciye ku buhinga bwa none hagati y’amabanki, akenshi bikoreshwa mu kwishura amafaranga menshi no kwishura amafaranga ajabuka imipaka.
+3. **Ugutanga amafaranga biciye mu nzira y’ubuhinga bwa none:** Gutanga amafaranga biciye mu buhinga bwa none hagati y’amabanki, akenshi bikoreshwa mu kwishura amafaranga menshi no kwishura amafaranga ajabuka imipaka.
 
-4. **Ikarata zo kwishura (Credit/Debit):** Ikarata y’ipulasitike canke y’ubuhinga bwa none ifatanye n’urubuga rw’amakarata, atuma amahera ashobora gukurwa kuri konti ya banki y’uwufise ikarita (canke umurongo w’inguzanyo) akaja ku mudandaza.
+4. **Ikarata zo kwishura (Credit/Debit):** Ikarata y’ipurasitike canke y’ubuhinga bwa none ifatanye n’urubuga rw’amakarata, atuma amafaranga ashobora gukurwa kuri konti ya banki y’uwufise ikarita (canke umurongo w’inguzanyo) akaja kwi konti yu mudandaza.
 
-5. **Ibipapuro vy’amahera n’ukwishura kuri telefone ngendanwa:** Ibikoresho canke ibikoresho bibika amakuru y’ukwishura (nk’akarorero, Apple Pay, WeChatPay, AliPay,PayPal), bishobora gutuma umuntu ashobora gutanga amahera vyihuta kandi kenshi ataco akora.
+5. **Ingodo yubuhinga bwa none  n’ukwishura kuri telefone ngendanwa:** Ibikoreshwa canke ibikoresho bibika amakuru y’ukwishura (nk’akarorero, Apple Pay, WeChatPay, AliPay,PayPal), bishobora gutuma umuntu ashobora gutanga amahera vyihuta kandi kenshi atakubonana kwabayahana .
 
 
-**Ikoreshwa muri B2C na B2B:**
+**Ikoreshwa mu bisata vya  B2C na B2B:**
 
 
 
 - **B2C (Ubucuruzi-ku-Muguzi):**
-    - Abaguzi barakunda gukoresha amahera, amakarata be n’ibipapuro vy’amahera vy’ubuhinga bwa none kugira ngo bagure ibintu vya misi yose—nk’ibifungurwa, kugura kuri Internet canke gukora ibikorwa nk’ugutwara abantu n’ibintu.
+    - Abaguzi barakunda gukoresha amahera agaragara , amakarata be n’ingodo vy’amahera vy’ubuhinga bwa none kugira ngo bagure ibintu vya misi yose—nk’ibifungurwa, kugura kuri Internet canke gukora ibikorwa nk’ugutwara abantu n’ibintu.
     - Ukwihuta, ukuryoherwa, n’amahera make (ku baguzi) ni vyo akenshi bihambaye cane.
     - Ukwishura ata n’umwe akoresheje telefone ngendanwa n’ugukoresha telefone ngendanwa biragenda birakundwa cane muri iki kibanza kubera ko vyoroshe gukoresha.
 

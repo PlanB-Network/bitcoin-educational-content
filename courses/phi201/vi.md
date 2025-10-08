@@ -61,11 +61,11 @@ Tại sao khoá học này được đặt tên là lịch sử của tự do? B
 
 > Khi quá khứ không còn soi sáng cho tương lai, tâm trí bước đi trong bóng tối (Alexis de Tocqueville - _Nền dân trị Mỹ_.)
 
-![image](assets/fr/001.webp)
+![image](assets/vi/001.webp)
 
 Cùng thời điểm đó, Auguste Comte nói: "Người ta không thực sự hiểu một khoa học cho đến khi biết lịch sử của nó." Sự thật này có thể được áp dụng cho ý tưởng về tự do.
 Thực vậy, tự do không phải là một ý tưởng mới. Đó là một di sản được truyền lại qua các thế hệ. Toàn bộ lịch sử của nền văn minh nhân loại chứng minh cho một cuộc đấu tranh không ngừng vì tự do.
-![image](assets/fr/002.webp)
+![image](assets/vi/002.webp)
 
 Tuy nhiên, mục tiêu của khóa học này không chỉ là làm sáng tỏ lịch sử của tự do mà còn, và quan trọng hơn, là phát triển tư duy phản biện. Thực vậy, lịch sử một mình không đủ để đánh giá hiện tại và tương lai. Nó cần đi kèm với sự phản biện và đánh giá về những sai lầm của quá khứ. Đây là đóng góp của triết học. Đó là lý do tại sao tôi đã đặt tên cho khóa học này là: Lịch sử triết học về tự do. Thực vậy, khoá học này khám phá cách mà các triết gia đã hình dung về tự do qua các thời đại.
 
@@ -75,7 +75,7 @@ Từ nguồn gốc của nó, triết học có hai mục đích:
 
 - Thứ nhất, triết học mang lại ý nghĩa cho những khái niệm mơ hồ và lẫn lộn. Cái gì là tốt, đúng, công bằng, đẹp? Giống như chức năng của lịch sử là làm sáng tỏ quá khứ, vậy triết học là nghệ thuật định nghĩa chính xác các khái niệm. Đó là lý do tại sao chúng ta cần bắt đầu khóa học này bằng việc hiểu tự do là gì.
 
-![image](assets/fr/003.webp)
+![image](assets/vi/003.webp)
 
 Tự do là một khái niệm bao gồm nhiều biến thể, mỗi biến thể là một khả năng diễn giải khác nhau cho cùng một thực tế: tự do chính trị, tự do kinh tế, tự do tư tưởng, tự do ngôn luận, tự do tôn giáo, tự do hội họp, v.v. Chúng ta đang nói về thực tế nào?
 
@@ -89,7 +89,7 @@ Khái niệm trách nhiệm là hệ quả của tự do bởi vì mỗi lựa c
 
 Từ góc độ này, chỉ có hai loại triết học chính trị: triết học về tự do và triết học về quyền lực.
 
-![image](assets/fr/004.webp)
+![image](assets/vi/004.webp)
 
 - Triết học về tự do dựa trên quyền tự nhiên về sở hữu và khẳng định rằng mục đích duy nhất của luật pháp là bảo vệ quyền sở hữu và các hợp đồng cá nhân. Mỗi người nên được tự do làm những gì họ muốn với những gì thuộc về họ, miễn là họ không làm hại ai. Đây là một triết học bảo vệ tự do bình đẳng cho tất cả mọi người trong việc sử dụng bản thân và quyền sở hữu của mình dưới điều kiện có trách nhiệm. Đó là triết lý của thị trường tự do.
 - Triết học về quyền lực biện minh cho quyền lực của một số thực thể tập thể như Nhà nước hoặc xã hội để quyết định giới hạn được đặt ra cho thị trường và quyền sở hữu, và do đó là tự do. Trong khuôn khổ này, luật pháp có nhiệm vụ tổ chức kinh tế, sức khỏe, nhà ở, văn hóa, giáo dục... Triết học kiến tạo này luôn có những người bảo vệ, với danh nghĩa lợi ích tập thể, bình đẳng, bảo vệ và phúc lợi.
@@ -100,15 +100,15 @@ Những người bảo vệ triết lý tự do ở Pháp là các nhà triết 
 
 > Không phải vì có luật pháp mà có quyền sở hữu, mà vì có quyền sở hữu mà có luật pháp. (_Propriété et Loi - Quyền sở hữu và Luật pháp_).
 
-![image](assets/fr/005.webp)
+![image](assets/vi/005.webp)
 
 Đối với Turgot và Say, những người theo học Quesnay, tồn tại một luật tự nhiên, thứ độc lập với những thay đổi tùy hứng của các nhà lập pháp, có giá trị cho tất cả mọi người và tồn tại trước bất kỳ xã hội nào. Triết lý này trực tiếp đến từ học thuyết Trung Cổ, các triết gia khắc kỷ, Aristotle và Sophocles. Các luật không viết là những luật vừa có trước vừa vượt trội hơn các luật viết vì chúng bắt nguồn từ bản chất con người và lý trí.
 
-![image](assets/fr/006.webp)
+![image](assets/vi/006.webp)
 
 Triết lý thứ hai được tìm thấy ở các tác giả như Rousseau, Robespierre, hoặc Kant, những người đại diện cho truyền thống cộng hòa mà trong đó chủ quyền của ý chí chung là nguồn gốc thực sự của pháp luật. Cùng thời với Quesnay, Rousseau là một người chống trường phái trọng nông. Đối với ông, nhà lập pháp phải tổ chức xã hội, giống như một thợ máy phát minh ra một máy móc từ vật chất vô tri.
 
-![image](assets/fr/007.webp)
+![image](assets/vi/007.webp)
 
 > "Người nào dám đảm nhận công việc thành lập một dân tộc," Rousseau nói, "phải cảm thấy mình có khả năng thay đổi, có thể nói, bản chất con người, biến mỗi cá nhân, người mà bản thân là một toàn thể hoàn hảo và cô độc, thành một phần của một toàn thể lớn hơn mà từ đó cá nhân này nhận được cuộc sống và sự tồn tại của mình." (_Khế ước xã hội - Contrat social_)
 
@@ -135,7 +135,7 @@ Lịch sử do đó là cuộc đấu tranh giữa hai nguyên tắc: tự do v�
 
 ### Áp bức là gì?
 
-![image](assets/fr/008.webp)
+![image](assets/vi/008.webp)
 
 Nói một cách ngắn gọn, đó là sự cướp đoạt. Bastiat đã chỉ ra các loại hình cướp đoạt chính đến từ tầng lớp cai trị: chiến tranh, nô lệ, thần quyền, và độc quyền. Thực vậy, theo ông: "Chỉ có hai cách để thu được những thứ cần thiết cho việc bảo tồn, làm đẹp, và cải thiện cuộc sống: SẢN XUẤT và CƯỚP ĐOẠT." ([_Triết học về Cướp đoạt - Physiologie de la Spoliation_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
@@ -155,7 +155,7 @@ Trong [_Triết học về Cướp đoạt - Physiologie de la Spoliation__](htt
 
 ### Lịch sử của cướp đoạt
 
-![image](assets/fr/009.webp)
+![image](assets/vi/009.webp)
 
 Lịch sử cho thấy, các tầng lớp cai trị luôn sống nhờ vào cướp đoạt. Bastiat nhận xét:
 
@@ -179,7 +179,7 @@ Vài ngày trước khi qua đời ở Rome vào năm 1850, Bastiat đã tâm s�
 
 Như đã biết, lịch sử được viết bởi những người chiến thắng. Sự chú ý thường tập trung vào việc chinh phục quyền lực, cuộc sống của các nhà lãnh đạo cầm quyền, và những xung đột giữa họ với những người muốn chiếm lấy vị trí của họ.
 
-![image](assets/fr/010.webp)
+![image](assets/vi/010.webp)
 
 Điều này đặc biệt đúng với các sách giáo khoa dành cho trường công lập và được viết bởi các giáo sư do Nhà nước tuyển dụng.
 Tuy nhiên, không phải lúc nào cũng vậy, và hai tập của một nhà sử học đến từ Cambridge trong thế kỷ 19, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt) thể hiện điều đó. Tên đầy đủ của ông là John Emerich Edward Dalberg, Baron of Acton (1834-1902). Ông là tác giả của _Lịch sử Tự do trong thời Cổ đại và Cơ đốc giáo - History of Liberty in Antiquity and Christianity_. Công trình của ông được coi là một trong những tác phẩm quan trọng nhất về chủ đề này, và ông đã công hiến phần lớn sự nghiệp của mình cho nó. Công trình của ông, mặc dù còn dang dở, là một lời cảnh báo mạnh mẽ về nguy cơ lạm dụng quyền lực, và lời kêu gọi của ông về bảo vệ tự do cùng với trách nhiệm cá nhân vẫn còn nguyên giá trị cho đến ngày nay.
@@ -192,7 +192,7 @@ Câu nói này liên tưởng đến quan điểm của Montesquieu trong [_Tinh
 
 ### Luận điểm của Acton
 
-![image](assets/fr/011.webp)
+![image](assets/vi/011.webp)
 
 Đối với Acton, xung đột giữa tự do và quyền lực là sợi chỉ đỏ xuyên suốt lịch sử nhân loại, trong đó tự do là động lực của sự tiến bộ và sự phát triển của các xã hội. Acton đã tìm hiểu những yếu tố góp phần vào sự nổi lên của tự do ở phương Tây. Mục tiêu của ông là xác định những điều kiện cần thiết cho sự bảo tồn và phát triển của nó. Ông đã nghiên cứu các ý tưởng triết học, cấu trúc xã hội, và bối cảnh chính trị đã tạo điều kiện cho sự nảy nở của tự do theo thời gian.
 
@@ -210,7 +210,7 @@ Nhưng ý tưởng cho rằng tự do ở Châu Âu nảy nở từ những cu�
 
 Vì vậy, Voltaire, trong [_Những bức thư triết học - Philosophical Letters_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6) của mình, đã cho rằng tự do của Anh nảy sinh từ những xung đột giữa vua và quý tộc, thứ đã ngăn chặn bất kỳ sự tập trung quyền lực quá mức nào. Và ông lưu ý:
 > Nếu chỉ có một tôn giáo ở Anh, sự độc tài của nó sẽ rất đáng sợ; nếu chỉ có hai, họ sẽ chém giết lẫn nhau; nhưng có tới ba mươi tôn giáo, nên họ sống trong hòa bình và hạnh phúc. ([Về những người theo trường phái Trưởng lão - On the Presbyterians](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
-![image](assets/fr/012.webp)
+![image](assets/vi/012.webp)
 
 Condorcet, trong tác phẩm [_Bản phác thảo một bức tranh lịch sử về sự tiến bộ của tinh thần con người - Sketch for a Historical Picture of the Progress of the Human Mind_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain) của mình, đã cho rằng cấu trúc quyền lực phân tán ở Ý là do sự cạnh tranh giữa giáo hoàng và hoàng đế, điều này đã cho phép nhiều thành bang độc lập cùng tồn tại.
 
@@ -221,7 +221,7 @@ Luận điểm này cũng được tìm thấy trong một công trình quan tr�
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
 
 Tuy nhiên, vẫn có một góc nhìn khác về lịch sử. Nó đã khá thành công và lâu nay nhận được sự ủng hộ của các học giả phương Tây và đại diện từ phía Nam toàn cầu. Đó là quan điểm lịch sử theo xã hội chủ nghĩa và Mác-xít.
-![image](assets/fr/013.webp)
+![image](assets/vi/013.webp)
 
 Quan điểm này giải thích sự tăng trưởng phi thường của châu Âu chủ yếu là nhờ sự tiến bộ của công nghệ kết hợp với "sự tích lũy nguyên thuỷ" của vốn, bắt nguồn từ chủ nghĩa đế quốc, chế độ nô lệ, thương mại tam giác, sự tước đoạt đất đai của nông dân và sự bóc lột tầng lớp lao động. Kết luận rõ ràng: Sự tăng trưởng phi thường của châu Âu đã được đạt được nhờ vào cái giá phải trả của hàng triệu và hàng triệu nô lệ và người dân bị áp bức.
 
@@ -239,7 +239,7 @@ Phân tích này phản ánh một sự hiểu lầm về giá trị thặng dư
 ### Cuộc Cách mạng Công nghiệp dưới lăng kính khác
 
 Thực tế, phân tích của Mác đã bóp méo thực tế lịch sử của cuộc Cách mạng Công nghiệp. Ludwig von Mises đã làm rõ vấn đề này trong tác phẩm kinh tế học của mình [_Hành động của con người - Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (đặc biệt là chương có tiêu đề [Diễn giải phổ biến về Cách mạng Công nghiệp - Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) cũng như trong một loạt bài giảng được xuất bản dưới tiêu đề: [_Chính sách kinh tế: Những suy ngẫm cho hôm nay và ngày mai - Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Và cũng đáng đọc là tác phẩm _Tâm lý chống Chủ nghĩa Tư bản - The Anti-Capitalistic Mentality_ [ở đây](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) và [ở đây](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
-![hình ảnh](assets/fr/014.webp)
+![hình ảnh](assets/vi/014.webp)
 
 Mises giải thích rằng công việc trong các nhà máy, mặc dù khốn khổ theo tiêu chuẩn của chúng ta, nhưng lại là cơ hội tốt nhất có thể cho người lao động thời bấy giờ.
 
@@ -255,7 +255,7 @@ Về lịch sử học Mác-xit, chúng ta cũng có thể tham khảo Friedrich
 > Lịch sử thực sự của mối liên hệ giữa Chủ nghĩa Tư bản và sự nổi lên của giai cấp vô sản gần như hoàn toàn trái ngược lại với những gì được đề xuất trong các lý thuyết về sự tước đoạt quần chúng.
 
 Trước Cách mạng Công nghiệp, hầu hết mọi người sống trong các xã hội nông thôn và phụ thuộc vào nông nghiệp để sinh tồn. Họ có rất ít thứ để bán trên thị trường, điều này hạn chế cơ hội và mức sống của họ. Mọi người đều kỳ vọng sẽ sống trong cảnh nghèo đói tuyệt đối và hình dung một số phận tương tự cho con cháu của mình. Không ai phẫn nộ trước một tình huống dường như là không thể tránh khỏi.
-> ![image](assets/fr/015.webp)
+> ![image](assets/vi/015.webp)
 
 Với sự xuất hiện của công nghiệp hóa, những cơ hội mới đã xuất hiện, tạo ra nhu cầu lớn đối với lao động. Lần đầu tiên, những người không có đất đai hoặc nguồn lực đáng kể có thể bán sức lao động của mình cho các nhà máy và xưởng sản xuất để đổi lấy tiền lương, đảm bảo sự an toàn cho tương lai.
 
@@ -273,7 +273,7 @@ Sau đó, một phân tích lịch sử tinh tế hơn so với Mác cho phép c
 
 Như Jean Baechler, một thành viên của Viện hàn lâm Khoa học Đạo đức và Chính trị, nói trong _Nguồn gốc của Chủ nghĩa Tư bản - Les Origines du capitalisme_ (1971):
 
-![image](assets/fr/016.webp)
+![image](assets/vi/016.webp)
 
 > Điều kiện đầu tiên để tối đa hóa hiệu quả kinh tế là sự giải phóng xã hội dân sự khỏi Nhà nước (...) Sự phát triển của Chủ nghĩa Tư bản có nguồn gốc và lý do tồn tại của nó nhờ vào tình trạng vô chính phủ.
 
@@ -287,7 +287,7 @@ Kết luận của chương này, sự bùng nổ kinh tế và văn hóa của 
 
 Trong chương cuối cùng của _Anatomy of the State - Giải phẫu Nhà nước_, Murray Rothbard đề xuất một lý thuyết về lịch sử. Chương rất ngắn này có tiêu đề: Lịch sử, một cuộc đua giữa quyền lực nhà nước và quyền lực xã hội. Theo Rothbard, lịch sử có thể được hiểu là một cuộc xung đột vĩnh viễn giữa hai nguyên tắc cơ bản:
 
-![image](assets/fr/017.webp)
+![image](assets/vi/017.webp)
 
 - **Sự hợp tác và sản xuất hòa bình**, đại diện cho sự trao đổi tự nguyện và sự tạo ra của cải thông qua lao động và đổi mới.
 - **Sự bóc lột và trấn lột cưỡng bức**, được thể hiện qua sự thống trị của Nhà nước, chiếm đoạt thành quả lao động của các cá nhân bằng vũ lực.
@@ -311,7 +311,7 @@ Một hiến pháp thành văn chắc chắn có nhiều ưu điểm, nhưng s�
 
 ### Thế kỷ 20: Một thế kỷ đi thụt lùi
 
-![image](assets/fr/018.webp)
+![image](assets/vi/018.webp)
 
 Theo Rothbard, lịch sử không phải là một quá trình tiến triển tuyến tính, mà là sự dao động giữa sự tiến bộ của quyền lực xã hội và sự trỗi dậy của quyền lực Nhà nước:
 
@@ -323,7 +323,7 @@ Từ thế kỷ 17 đến thế kỷ 19, ở nhiều quốc gia phương Tây, �
 > Trong thế kỷ này, loài người đối mặt, một lần nữa, với sự cai trị ác liệt của Nhà nước; quyền lực sáng tạo của con người giờ đây đã bị Nhà nước tịch thu và bóp méo cho mục đích của chính nó.
 
 Sau tất cả, như thế nào là một xã hội tự do? Đó là một xã hội không có độc quyền. Trong công trình triết học chính trị của mình, _Đạo đức của Tự do - Ethics of Liberty_ (1982), Rothbard trả lời: "một xã hội mà không có sự khả thi nào về mặt pháp lý để xâm phạm cưỡng ép đối với cá nhân hoặc quyền sở hữu của một người." Đó là lý do tại sao, theo ông, triết học chính trị, phải định rõ nguyên tắc của một xã hội công bằng, được thu hẹp thành chỉ còn một câu hỏi duy nhất: "Ai là chủ sở hữu hợp pháp của cái gì?"
-> ![image](assets/fr/019.webp)
+> ![image](assets/vi/019.webp)
 
 Đối với Rothbard, trật tự xã hội có thể tồn tại nếu nó là sản phẩm của sự phổ biến các quy trình hợp đồng cho việc tự do trao đổi quyền sở hữu, bằng cách tư nhân hóa tất cả các hoạt động kinh tế và thậm chí các chức năng mang tính chủ quyền quốc gia (như ngân hàng trung ương, tòa án) và bằng cách thúc đẩy sự cạnh tranh giữa các cơ quan bảo vệ.
 
@@ -341,14 +341,14 @@ Và ông thêm vào:
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 Trải nghiệm của nền dân chủ Athens đã để lại dấu ấn lâu dài trong lịch sử tư tưởng chính trị và tiếp tục truyền cảm hứng cho các lý tưởng về dân chủ và sự tham gia của công dân trong thế giới ngày nay.
-![image](assets/fr/020.webp)
+![image](assets/vi/020.webp)
 
 Nền dân chủ Athens được đặc trưng bởi cuộc tranh luận công khai sôi nổi về các vấn đề của thành phố, chủ yếu diễn ra tại agora, khu chợ. Phương thức hoạt động này, dựa trên lý trí và tranh luận phê phán, tương phản mạnh mẽ với các phong tục trước đó, nơi mà luật lệ và tục lệ được coi là thiêng liêng và bất biến, được truyền lại bởi tổ tiên và được bảo vệ bởi các vị thần.
 
 ### Sự ra đời của chính trị với thành bang
 
 Nền dân chủ Athens đại diện cho một bước ngoặt lớn so với các truyền thống trước đó. Thực sự, trong các xã hội trước đó, không thể có "chính trị" theo nghĩa của một cuộc thảo luận về các quy tắc xã hội, vì những quy tắc này được áp đặt một cách siêu việt thông qua thần thoại.
-![image](assets/fr/021.webp)
+![image](assets/vi/021.webp)
 
 Nhà sử học Jean-Pierre Vernant viết:
 
@@ -356,7 +356,7 @@ Nhà sử học Jean-Pierre Vernant viết:
 >
 > (Jean Pierre Vernant, _Nguồn gốc của tư tưởng Hy Lạp - Les origines de la pensée grecque_, Paris, P.U.F, 1962)
 
-![image](assets/fr/022.webp)
+![image](assets/vi/022.webp)
 
 Từ "polis" trong tiếng Hy Lạp, nguồn gốc của từ "chính trị - politics" trong tiếng Anh, có nghĩa là thành bang. Khi Aristotle viết rằng "về bản chất, con người là một sinh vật chính trị," điều đó không có nghĩa là anh ta được sinh ra để nắm quyền lực. Bằng cách dùng từ chính trị, ông ám chỉ đến khả năng mà con người có thể thảo luận tại quảng trường công cộng để xác định cái gì là công bằng và cái gì là bất công.
 
@@ -374,7 +374,7 @@ Và Jean-Pierre Vernant đã bổ sung:
 
 Sự hòa hợp xã hội không được tạo ra bởi hành động có chủ ý của các vị thần, mà bởi sự tuân thủ của tất cả công dân đối với cùng một luật pháp vô danh chung. Quyền lực không còn là việc của các giáo sĩ, nó đã trở thành việc của tất cả mọi người. Như vậy, khái niệm về sự bình đẳng trước pháp luật xuất hiện: "_isonomia_," như một lối tu từ. Thành thạo trong việc sử dụng lời nói là cần thiết để thuyết phục các công dân của mình trong các cuộc họp và tòa án.
 
-![image](assets/fr/023.webp)
+![image](assets/vi/023.webp)
 
 Đối với Aristotle, chế độ độc tài là sự tuân theo một người, và tự do là sự tuân theo luật pháp. Ông được cho là đã nói câu này:
 
@@ -386,7 +386,7 @@ Cicero, nhà hùng biện và triết học nổi tiếng người La Mã của 
 
 Ý tưởng về cộng hòa là một ý tưởng đến từ triết học Hy Lạp. Nó thường được đặt đối lập với dân chủ, được coi là quá mạo hiểm. Plato đã đặt tên cho tác phẩm chính của mình về triết học chính trị: _Cộng Hòa - The Republic_, và ông đã rất nghiêm khắc với dân chủ. Khi nhân dân cai trị, có một rủi ro lớn là họ sẽ áp đặt luật lệ dựa trên ham muốn của họ và nhầm lẫn giữa cái tốt với cái dễ chịu. Do đó, cái chết bi thảm của Socrates, bị kết án tử hình bởi một bồi thẩm đoàn nhân dân bị thao túng bởi các nhà nguỵ biện. Plato đã rút ra được tất cả các bài học từ sự kiện này.
 
-![image](assets/fr/024.webp)
+![image](assets/vi/024.webp)
 
 Aristotle sẽ sử dụng thuật ngữ cộng hòa để chỉ hiến pháp công bằng, cái hướng tới lợi ích chung và đối xử với công dân như những người tự do. Một chế độ tự do thực sự là nơi mà luật pháp là chung, bình đẳng cho tất cả, vô danh, và không phải là mệnh lệnh cá nhân.
 
@@ -403,7 +403,7 @@ Theo Jacqueline de Romilly:
 
 (_Hy Lạp cổ đại và sự khám phá về tự do - La Grèce Antique à la découverte de la liberté, Paris, Editions de Fallois, 1989_)
 
-![image](assets/fr/025.webp)
+![image](assets/vi/025.webp)
 
 Herodotus tin rằng một dân tộc của những người tự do là một dân tộc tuân theo luật pháp chứ không phải tuân theo một chủ nhân, như trong đế chế Ba Tư nơi chỉ có một người là tự do và tất cả những người khác là nô lệ. Điều này đúng với Athens, một nền dân chủ, nhưng cũng đúng với Sparta. Vua không tạo ra luật pháp, ông không áp đặt ý muốn của mình. Ông đảm bảo sự tôn trọng của luật pháp, ông phục vụ cho nó và ông sẵn sàng chết để bảo vệ nó nếu cần thiết.
 
@@ -411,14 +411,14 @@ Herodotus tin rằng một dân tộc của những người tự do là một d
 
 Thoát khỏi tư tưởng thần thoại, Thales, Anaximander, Anaximenes, và sau này là Democritus và Empedocles, là những người đầu tiên tìm cách hiểu phusis (tự nhiên) bằng lý trí chứ không phải thông qua các thực thể siêu nhiên.
 
-![image](assets/fr/026.webp)
+![image](assets/vi/026.webp)
 
 Nguyên tắc cơ bản được những triết gia trước Socratic đặt ra là các yếu tố của kosmos (vũ trụ) được tồn tại vì chúng đều tuân theo cùng một "luật tự nhiên" (phusis) có thể được phát biểu một cách phổ quát và cần thiết. Vũ trụ là hợp lý, nó tạo thành một tổng thể có cấu trúc, thứ mà con người có thể khám phá bằng lý trí của mình (cái "logos" (lý trí, logic) đối lập với "mutos" (thần thoại)).
 
 Theo Karl Popper, các triết gia của Hy Lạp cổ đại, đặc biệt là các Pre-Socratics, đã phát minh ra chủ nghĩa duy lý phê phán, tức là truyền thống phương Tây về thảo luận phê phán, nguồn gốc của tư duy khoa học và chủ nghĩa đa nguyên. Ông giải thích điều này trong một chương của _Giả thuyết và Bác bỏ - Conjectures and Refutations_ có tiêu đề "Quay trở lại với các triết gia tiền Socratics":
 > Những dấu hiệu đầu tiên về sự tồn tại của một thái độ phê phán, của một dạng tự do tư tưởng mới, xuất hiện trong lời phê bình của Anaximander đối với Thales. Đây là một hiện tượng độc đáo, người mà Anaximander chỉ trích là chính thầy của mình, đồng hương của mình, một trong Bảy nhà hiền triết (Seven Sages), người đã sáng lập ra trường phái Ionian. Theo truyền thống, Anaximander chỉ nhỏ hơn Thales mười bốn tuổi, và có lẽ ông đã đưa ra những lời phản biện và trình bày những khái niệm mới của mình trong thời gian người thầy của mình còn sống (dường như họ qua đời chỉ cách nhau vài năm). Tuy nhiên, không có bằng chứng nào về sự bất đồng, tranh cãi, hoặc chia rẽ được tìm thấy trong các nguồn tài liệu.
 
-![image](assets/fr/027.webp)
+![image](assets/vi/027.webp)
 Những yếu tố này cho thấy, theo ông, rằng chính Thales đã khởi xướng truyền thống tự do mới này, dựa trên mối quan hệ giữa thầy và trò. Thales có thể chấp nhận sự phản biện và hơn nữa, ông đã thiết lập truyền thống chấp nhận sự phản biện. Popper ở đây nhận diện một sự đứt gãy với truyền thống giáo điều, chỉ cho phép một học thuyết duy nhất, để thay thế nó bằng chủ nghĩa đa nguyên và chủ nghĩa có thể sai lầm.
 
 > Nỗ lực của chúng ta trong việc nắm bắt và khám phá sự thật không có tính chất cuối cùng nhưng có khả năng được cải thiện, kiến thức của chúng ta, các học thuyết của chúng ta là mang tính chất phỏng đoán, chúng được tạo thành từ các giả định, giả thuyết, và không phải là những chân lý chắc chắn và cuối cùng.
@@ -438,7 +438,7 @@ Cách duy nhất để chúng ta có để tiếp cận sự thật là phản b
 - Ở phía nam, nó giáp với Địa Trung Hải, bao gồm Ý, Hy Lạp, bán đảo Balkan, Tiểu Á (nước Thổ Nhĩ Kỳ ngày nay), Syria, Li-băng, Palestine, Ai Cập, và Cyrenaica (một phần của Libya ngày nay).
 - Ở phía đông, nó mở rộng đến Mesopotamia (Iraq ngày nay) và Armenia.
 
-![image](assets/fr/028.webp)
+![image](assets/vi/028.webp)
 
 Từ đó, người La Mã đã tiến xa trong việc phát triển luật pháp hơn hẳn người Hy Lạp, những người sống trong các thành bang nhỏ, đồng nhất về dân tộc. Dưới thời Cộng hòa La Mã, đã có sự bảo vệ pháp lý đối với quyền sở hữu và quyền cá nhân.
 
@@ -448,7 +448,7 @@ Quyền tư hữu đã có một ý nghĩa mới trong nền văn minh La Mã m�
 
 Luật La Mã sau này sẽ trở thành nền tảng của tất cả các luật pháp phương Tây hiện đại trong thời Trung Cổ và cho đến ngày nay.
 
-![image](assets/fr/029.webp)
+![image](assets/vi/029.webp)
 
 ### Sự bảo vệ quyền cá nhân
 
@@ -457,7 +457,7 @@ Luật La Mã đặc biệt chú trọng đến quyền và tự do của cá nh
 Luật này tương ứng một cách đáng ngạc nhiên với các quyền tự nhiên cơ bản mà John Locke đã lý thuyết hóa hai nghìn năm sau đó. Nó cho phép bảo vệ quyền cá nhân chống lại sự tùy tiện và lạm dụng quyền lực.
 
 Tất nhiên, phụ nữ, nô lệ, và người nước ngoài vẫn bị loại trừ khỏi sự bảo vệ đầy đủ của luật pháp. Tuy nhiên, Luật Mười hai Bảng đã đánh dấu một bước tiến đáng kể và là một cơ sở cho sự phát triển tiếp theo của quyền cá nhân được mở rộng cho tất cả.
-![image](assets/fr/030.webp)
+![image](assets/vi/030.webp)
 Luật Mười hai Bảng đặc biệt nhấn mạnh tầm quan trọng của quyền sở hữu:
 
 - Nó định nghĩa các loại tài sản khác nhau (đất đai, động sản, v.v.)
@@ -480,7 +480,7 @@ Một hình mẫu của sự cân bằng trong tư tưởng là Seneca, một tr
 
 Tác phẩm _Bàn về cuộc sống hạnh phúc - De Vita Beata_ là một bản luận văn ủng hộ đạo đức khắc kỷ. Hạnh phúc, theo Seneca, "là một tâm hồn tự do \[...\] không bị nỗi sợ xâm chiếm \[...\] đối với người mà điều ác duy nhất là sự ô nhục về mặt đạo đức." Một môn đồ của Socrates, nhà hiền triết khắc kỷ không sợ hãi về thể xác, cái chết, hoặc thậm chí là chịu đựng bất công. Đối với ông, điều ác duy nhất là cái ác về mặt đạo đức. Do đó, điều thiện tối cao nằm ở đức hạnh.
 
-![image](assets/fr/031.webp)
+![image](assets/vi/031.webp)
 
 Tuy nhiên, niềm vui không mâu thuẫn với đức hạnh:
 
@@ -504,7 +504,7 @@ Aristotle phân biệt giữa công lý tự nhiên và công lý pháp lý. Cô
 
 Nhà soạn kịch Sophocles, trong vở kịch _Antigone_ của mình, đã dàn dựng một cuộc xung đột giữa luật thiêng liêng và luật nhân loại. Antigone từ chối tuân theo sắc lệnh cấm chôn cất người anh trai của cô từ Vua Creon, cô đã lập luận rằng luật thiêng liêng là bất biến và tối cao, vượt lên trên luật nhân loại.
 
-![image](assets/fr/032.webp)
+![image](assets/vi/032.webp)
 
 Khi Antigone không tuân lệnh Creon, cô đã đối đầu với luật thực định để tuân theo lương tâm đạo đức và tôn giáo của mình. Aristotle nói, nếu chỉ có luật thực định, Creon luôn đúng, ngay cả khi ông ta sai. Nhưng nếu chúng ta gìn giữ ý tưởng về một luật tự nhiên hoặc thiêng liêng, Antigone có thể đứng lên khi cần và sử dụng quyền tối cao của luật bất thành văn để kêu gọi chống lại một luật bất công.
 
@@ -512,7 +512,7 @@ Khi Antigone không tuân lệnh Creon, cô đã đối đầu với luật th�
 
 Cicero sống vào thế kỷ thứ 1 TCN và được coi là nhà hùng biện vĩ đại nhất của ngôn ngữ Latinh dưới Đế chế La Mã. Ông cũng là một triết gia về đạo đức và chính trị gần gũi với trường phái khắc kỷ. Các tiểu luận của ông đã được các trí thức châu Âu đọc trong nhiều thế kỷ.
 
-![image](assets/fr/033.webp)
+![image](assets/vi/033.webp)
 
 Trong luận án _Về Luật - De Legibus_, ông suy ngẫm về nền tảng của luật pháp. Theo ông, luật thực định - bộ quy tắc hoặc luật lệ thành văn được một xã hội chấp nhận - không thể là cơ sở duy nhất để thiết lập nên công lý. Tồn tại một công lý tự nhiên, được khắc ghi trong lý trí con người: "luật pháp có nền tảng trong chính bản thân tự nhiên." Cho rằng công bằng và bất công chỉ là kết quả của một quy tắc đồng nghĩa với nói rằng sự thật có thể được quyết định theo ý chí. Tuy nhiên, sự thật không thể bị định đoạt, ngay cả bởi đa số, nó dẫn đường cho các phán xét của chúng ta.
 
@@ -540,7 +540,7 @@ Tại sao La Mã lại suy tàn và cuối cùng đã sụp đổ? Nhiều ngư�
 
 Vào năm 1734, trong tác phẩm _Suy ngẫm về nguyên nhân của sự vĩ đại và sự suy tàn của người La Mã - Considérations sur les causes de la grandeur des Romains et de leur décadence_, Montesquieu đã phát triển một luận điểm độc đáo và thống nhất để giải thích sự thăng trầm của quyền lực La Mã: tự do giành được dưới thời Cộng hòa và sau đó mất đi dưới thời Đế quốc. Từ khi sự thống trị của La Mã mở rộng, tự do bị mất đi, và sự suy tàn bắt đầu.
 
-![image](assets/fr/034.webp)
+![image](assets/vi/034.webp)
 
 Đế chế La Mã là một chế độ quân sự ký sinh, chỉ có thể tồn tại thông qua một dòng chảy của cải bị cướp bóc liên tục từ bên ngoài, tù nhân bị biến thành nô lệ, và đất đai bị chiếm đoạt.
 
@@ -565,7 +565,7 @@ Sau đó, sự bất ổn về chính trị lại càng làm tăng thêm sự b�
 
 Một ví dụ điển hình về chủ nghĩa can thiệp xuất hiện ở La Mã là khi Hoàng đế Diocletian muốn đặt mức trần giá. Chủ nghĩa can thiệp được định nghĩa là hành động của một chính quyền vượt ra ngoài vai trò duy trì trật tự và bảo vệ công dân. Đó là nỗ lực kiểm soát thị trường, nhằm thay đổi giá cả, tiền lương, lãi suất và lợi nhuận.
 
-![image](assets/fr/035.webp)
+![image](assets/vi/035.webp)
 
 Việc phát hành tiền tệ liên tục bởi các hoàng đế kế tiếp để đối phó với việc gia tăng chi tiêu quân sự đã gây ra sự tăng vọt của giá cả. Năm 301, Diocletian tuyên bố Sắc lệnh Tối đa trong một nỗ lực để kiểm soát giá cả. Đó là một thất bại.
 
@@ -577,7 +577,7 @@ Ludwig von Mises mô tả sự kiện này, minh họa rõ ràng những tác đ
 
 Tiếp bước của Montesquieu, Philippe Fabry chứng minh rằng La Mã đã trải qua một quỹ đạo từ Chủ nghĩa Tự do đến Chủ nghĩa Xã hội. Philippe Fabry là một nhà sử học về luật pháp, thể chế, và tư tưởng chính trị. Ông đã giảng dạy tại Đại học Toulouse 1 Capitole và là tác giả của nhiều cuốn sách, bao gồm _La Mã, từ Chủ nghĩa Tự do đến Chủ nghĩa Xã hội - Rome, du libéralisme au socialisme_, 2014.
 
-![image](assets/fr/036.webp)
+![image](assets/vi/036.webp)
 
 Liệu La Mã có phải là cường quốc tự do vĩ đại nhất của thế giới cổ đại không? Sau đó, liệu có phải là nó đã rơi vào một hình thức của Chủ nghĩa Xã hội không? Trước tiên, hãy định nghĩa các khái niệm này:
 
@@ -608,7 +608,7 @@ Và ông thêm rằng:
 
 Ý tưởng về tự do trong Kitô giáo đã được phát triển trong thần học thời Trung Cổ, từ Thánh Augustine vào thế kỷ thứ 4, đến Thánh Thomas Aquinas vào thế kỷ thứ 13. Vậy, ý tưởng này là gì?
 
-![image](assets/fr/037.webp)
+![image](assets/vi/037.webp)
 
 ### Tự do liên quan đến ý tưởng về tội lỗi
 
@@ -629,7 +629,7 @@ Tóm lại, tự do là một điều tốt bởi vì nó cho phép người ta 
 ### Thiên Chúa không làm điều thiện thay chúng ta
 
 Trong thần học thời Trung Cổ, sự quan phòng không phải là sự can thiệp liên tục của Chúa vào cuộc sống của con người, như thể Chúa hành động thay chúng ta và không cần sự đồng ý của chúng ta. Ngược lại, Chúa ban cho mỗi sinh vật, tùy theo bản chất của nó, những khả năng cho phép nó tự cung cấp cho mình và do đó đạt được sự phát triển đầy đủ. Chúa không làm điều thiện thay cho sinh vật.
-![image](assets/fr/038.webp)
+![image](assets/vi/038.webp)
 
 Và càng lên cao trong thang bậc của các sinh vật, từ khoáng vật đến con người, Thiên Chúa càng ủy thác cho sinh vật của mình nhiều quyền hành động độc lập. Ngài trao cho con người tự do để họ tự cai quản bản thân và thế giới bằng lý trí của mình, theo đức tính khôn ngoan.
 
@@ -637,7 +637,7 @@ Thánh Thomas viết (_Summa contra Gentiles_, III, 69 và 122):
 
 > Tước đi từ sự hoàn hảo của các sinh vật sẽ làm giảm sự hoàn hảo của quyền năng thần thánh (...) Thiên Chúa chỉ bị chúng ta xúc phạm bởi vì chúng ta hành động chống lại lợi ích tốt của chính mình.
 
-![image](assets/fr/039.webp)
+![image](assets/vi/039.webp)
 
 Vì vậy, sự quan phòng cho chúng ta phương tiện để tự mình quan phòng cho chính mình. Và người ta thêm vào:
 
@@ -658,7 +658,7 @@ Theo Thánh Thomas:
 
 Trong thời Trung Cổ, lý trí và đức tin cạnh tranh với nhau trong việc tiếp cận chân lý. Vào thế kỷ XIII, theo sau Abélard và Albert the Great, Thomas Aquinas đã chọn bảo vệ quyền của lý trí và sự tự chủ của nó so với đức tin.
 
-![image](assets/fr/040.webp)
+![image](assets/vi/040.webp)
 
 Ông mượn từ tư tưởng của Aristotle ý tưởng về một trật tự tự nhiên tự chủ, độc lập với trật tự thiêng liêng. Trật tự tự nhiên này thực sự bị vượt qua bởi trật tự siêu nhiên, nhưng nó tồn tại riêng biệt và trước nó. Do đó, đối với ông, có hai cách để tiếp cận sự thật về thế giới và đặc biệt là về Thiên Chúa:
 
@@ -682,7 +682,7 @@ Vì vậy, theo Thomas Aquinas, "Đức tin là sự đồng ý của lý trí �
 
 Thời Trung Cổ Kitô giáo được đánh dấu, vào đầu thế kỷ XIII, bởi sự ra đời và phát triển của nhiều trường đại học ở phương Tây. Một trường đại học là một cộng đồng của sinh viên và giáo sư từ cùng một thành phố dưới sự kiểm soát của Giáo hội và thường có bốn khoa: nghệ thuật, thần học, luật, y học. Thần học được coi là một khoa học, theo mô hình của khoa học Hy Lạp.
 
-![hình ảnh](assets/fr/041.webp)
+![hình ảnh](assets/vi/041.webp)
 Năm 1200, Philippe-Auguste thành lập Đại học Paris, nơi nhanh chóng trở thành trường đại học nổi tiếng nhất ở châu Âu. Năm 1257, Robert de Sorbon đã thành lập một trường cao đẳng thần học tại Đại học Paris, sau này được gọi là Sorbonne. Một phương pháp giảng dạy và nghiên cứu mới được biết đến với tên gọi "scholasticism - chủ nghĩa kinh viện" (từ "schola" nghĩa là trường học) đã xuất hiện trong các trường đại học này. Nó bao gồm "disputatio," một loại tranh luận đối lập trước công chúng. Một luận đề được đề xuất, tiếp theo là các phản đối mà người đưa ra đề xuất phải phản hồi. Khi tất cả các lập luận được trình bày, giáo sư sẽ giải quyết cuộc tranh luận với một giải pháp có lập luận chặt chẽ.
 
 Trong số những bậc thầy theo trường phái Aristotle vĩ đại đã đánh dấu kỷ nguyên này, chúng ta có thể nhắc đến Albert the Great (1200-1280) và Thomas Aquinas (1224-1274). Thomas Aquinas, bằng cách thiết lập quyền của lý trí, đã làm nổi bật sự đặc biệt và tự trị của trí tuệ triết học so với thần học. Giống như hồng ân của Thiên Chúa bao hàm tự nhiên và hoàn thiện nó, đức tin bao hàm và hoàn thiện lý trí.
@@ -700,7 +700,7 @@ Trong thời Trung Cổ, Giáo hội và các quốc vương Kitô giáo đã k�
 
 Câu hỏi về mối quan hệ giữa chính trị và tôn giáo được định hình qua tác phẩm _Thành phố của Thiên Chúa - Civitas Hei_ của Thánh Augustine. Trong đó, ông giải thích rằng có hai lĩnh vực tồn tại đồng thời:
 Hai tình yêu đã tạo nên hai thành phố: tình yêu bản thân đến mức khinh thường Thiên Chúa, thành phố trần tục; tình yêu Thiên Chúa, đến mức khinh thường bản thân, thành phố thiên đàng.
-![image](assets/fr/042.webp)
+![image](assets/vi/042.webp)
 
 Do đó, chúng ta có:
 
@@ -709,7 +709,7 @@ Do đó, chúng ta có:
 
 Tuy nhiên, đối với Augustine, thành phố trần tục này là cần thiết. Nó cần thiết vì nó đảm bảo hòa bình. Do đó, nó cần phải có sự cộng sinh với tôn giáo, sự cộng sinh này nên được điều chỉnh bằng sự ưu thế của quyền lực tinh thần so với quyền lực trần tục. Nhưng không nên có sự tách biệt triệt để hay xung đột mở, và cả hai thực thể nên làm việc cùng nhau. Các nhà sử học đã gọi học thuyết này là chủ nghĩa chính trị Augustinian.
 
-![image](assets/fr/043.webp)
+![image](assets/vi/043.webp)
 
 ### Sự cạnh tranh giữa quyền lực trần tục và quyền lực tinh thần
 
@@ -744,7 +744,7 @@ Hơn nữa, vì Thiên Chúa là Đấng Tạo Hóa, chúng ta thấy sự xuấ
 
 Biểu hiện nổi tiếng nhất của học thuyết mới nổi này là trường phái Salamanca, ở Tây Ban Nha vào thế kỷ XVI. Francisco de Vitoria, một trong những đại diện của trường phái này, khẳng định rằng nếu mỗi con người được tạo ra theo hình ảnh của Thiên Chúa, không có con người nào có thể bị tuyên bố là thấp kém hơn người khác, không phải người Do Thái, không phải nô lệ da đen, và không phải người da đỏ.
 
-![image](assets/fr/044.webp)
+![image](assets/vi/044.webp)
 
 Việc khám phá ra châu Mỹ đã tạo ra một cú sốc văn hóa thực sự, một vết nứt đầu tiên trong sự đồng nhất chính trị-tôn giáo được thừa hưởng từ thời Cổ đại. Cuộc tranh luận nổi tiếng về quyền của người da đỏ thực sự đã chia rẽ các nhà thần học thành hai phe đối lập và không thể hòa giải.
 
@@ -755,7 +755,7 @@ Trong _Thần học Summa - Summa Theologica_, Thánh Thomas đặt ra câu hỏ
 
 Các học giả của theo trường phái Salamanca áp dụng lý lẽ này cho trường hợp của người dân bản địa: tài sản là một quyền tự nhiên. Do đó, việc lấy đất từ người dân bản địa là phạm tội trộm cắp, cho dù họ có phải là người Kitô giáo hay không. Chúng ta cũng không được phép tiến hành chiến tranh với họ vì không có sự xâm lược từ phía họ, mà thực sự là từ phía chúng ta.
 
-![image](assets/fr/045.webp)
+![image](assets/vi/045.webp)
 
 Vấn đề của người dân bản địa là vết nứt đầu tiên của khối thống nhất chính trị-tôn giáo. Nó cho thấy rằng sự thống nhất của xã hội chính trị có thể dựa trên một cơ sở khác ngoài sự thống nhất về tôn giáo của những người cư trú trên cùng một lãnh thổ, trên cơ sở thuộc về bản chất chung của con người
 
@@ -777,7 +777,7 @@ Henri Pirenne, một nhà sử học người Bỉ của thế kỷ 20, đã dà
 
 > Tất cả các đặc điểm cơ bản của Chủ nghĩa Tư bản — doanh nghiệp cá nhân, sự tiến bộ của tín dụng, lợi nhuận thương mại, đầu cơ, v.v. — đã tồn tại từ thế kỷ 12 ở các thành phố Ý, như Venice, Genoa, hoặc Florence.
 
-![image](assets/fr/046.webp)
+![image](assets/vi/046.webp)
 
 Theo Pirenne, những thành phố thương mại này, nhờ vào sự năng động trong thương mại và vị trí chiến lược trên các tuyến đường biển, đã phát triển các hoạt động kinh tế đặc trưng của Chủ nghĩa Tư bản sơ khai. Ông đặc biệt nhấn mạnh:
 
@@ -792,13 +792,13 @@ Pirenne quan sát thấy rằng, mặc dù những hoạt động này có mặt
 
 Kinh Thánh lên án các khoản vay có tính lãi, được gọi là tín dụng, cho rằng việc cho vay lấy lãi là bóc lột những người đi vay dễ bị tổn thương. Tuy nhiên, trên thực tế, Giáo hội đã làm ngơ trước vấn đề này.
 
-![image](assets/fr/047.webp)
+![image](assets/vi/047.webp)
 
 Jacques Le Goff là một nhà sử học Pháp chuyên về văn hóa và tư tưởng thời Trung Cổ. Tiếp bước Pirenne, ông nhận ra sự hiện diện của những hạt giống của Chủ nghĩa Tư bản ngay từ thời Trung Cổ, đặc biệt là ở các thành phố Ý, nơi các hoạt động như doanh nghiệp cá nhân, sự theo đuổi lợi nhuận, và việc sử dụng các công cụ tín dụng đã tồn tại. 
 
 Trong _Cho vay nặng lãi thời Trung Cổ - L'usure au Moyen Âge_ (1967, tái bản năm 1986 dưới tiêu đề: _La bourse et la vie; économie et religion au moyen-age_), ông lưu ý rằng ngay từ thế kỷ XIII, Thánh Albert the Great đã lý thuyết hoá khái niệm "lãi suất hợp pháp", sau này được Thánh Thomas Aquinas phát triển thêm. Mặc dù có các lệnh cấm tôn giáo, hoạt động cho vay đã tồn tại và đáp ứng nhu cầu kinh tế thực sự. Từ rất lâu trước Adam Smith, họ đã hiểu rằng lãi suất cho vay không phải là tín dụng mà là một cách để bù đắp cho rủi ro của người cho vay và đầu tư cho người vay, đây là nền tảng của Chủ nghĩa Tư bản.
 
-![image](assets/fr/048.webp)
+![image](assets/vi/048.webp)
 
 Tuy nhiên, theo nhà sử học Pháp, sự nổi lên của Chủ nghĩa Tư bản phải được đặt trong một bối cảnh rộng lớn hơn của các biến đổi kinh tế, xã hội và văn hóa diễn ra qua nhiều thế kỷ. Le Goff đặc biệt nhấn mạnh tầm quan trọng của Cuộc cách mạng Thương mại vào thế kỷ 15 và 16, được đánh dấu bởi sự mở rộng của thương mại đường biển và việc khám phá ra các tuyến đường thương mại mới, đã kích thích sự tích lũy về vốn và củng cố logic thương mại.
 
@@ -806,7 +806,7 @@ Tuy nhiên, theo nhà sử học Pháp, sự nổi lên của Chủ nghĩa Tư b
 
 Việc nghiên cứu có hệ thống về các quy luật kinh tế bắt đầu từ thời Trung Cổ. Những nhà kinh tế học đầu tiên là các nhà thần học kinh viện tại Trường Paris. Người đầu tiên trong số họ đã viết một luận án khoa học hoàn toàn dành riêng cho một đề tài kinh tế là Nicolas Oresme (1325-1382). Vào khoảng năm 1360, ông đã soạn _Chuyên luận về nguồn gốc, bản chất, luật lệ và sự biến đổi của tiền tệ - Treatise on the Origin, Nature, Law, and Alterations of Money_ nhằm tổng kết và phát triển các ý tưởng của các học giả kinh viện thời bấy giờ.
 
-![image](assets/fr/049.webp)
+![image](assets/vi/049.webp)
 
 Trọng tâm trong phân tích về tiền tệ của ông là vấn đề về "sự biến đổi" của tiền tệ, tức là sự thay đổi về hàm lượng kim loại của đồng tiền và mệnh giá của chúng. Những thay đổi này đã xảy ra từ thời sơ khai và được ghi chép rõ ràng từ thời Cổ đại và Trung Cổ. Tác động rõ ràng nhất của chúng là thay đổi sức mua của đơn vị tiền tệ, đặc biệt là làm giảm sức mua. Đây là một hình thức lạm phát sơ khai mà Oresme đã thẳng thắn lên án như một điều xấu.
 
@@ -832,7 +832,7 @@ Hơn nữa, nếu có hai loại tiền tệ khác nhau được công nhận h�
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
 Từ thời kỳ Phục Hưng, châu Âu đã bị tàn phá bởi các cuộc chiến tranh tôn giáo. Do đó, lòng khoan dung trở thành một trong những trận chiến lớn của thời kỳ Khai Sáng.
-![image](assets/fr/050.webp)
+![image](assets/vi/050.webp)
 
 Đối với một số người, phương pháp khoa học sẽ đoàn kết mọi người vượt lên những định kiến với một quan điểm chung về thế giới. Chẳng phải luật hấp dẫn là phổ quát đối với một người Công giáo, một người Tin lành, một người Do Thái, hay một người vô thần đó sao? Do đó, _Bách khoa toàn thư - Encyclopédie_ của Diderot và d’Alembert thể hiện một nỗ lực nhằm thúc đẩy tri thức phổ quát, có khả năng đoàn kết mọi người.
 
@@ -844,7 +844,7 @@ Voltaire cũng có suy nghĩ tương tự về thương mại. Ông cho rằng c
 
 > Lòng khoan dung là kết quả tất yếu của việc chúng ta nhận thức được rằng mình có thể mắc sai lầm. Mắc lỗi là bản chất của con người, và chúng ta luôn mắc lỗi. Hãy tha thứ cho nhau những điều ngớ ngẩn; đây là luật đầu tiên của tự nhiên.
 
-![image](assets/fr/051.webp)
+![image](assets/vi/051.webp)
 
 Nhưng trong _Thư Triết học - Philosophical Letters_ (1734) của mình, Voltaire lại đưa ra một quan điểm khác. Ông quan sát thấy ở Anh, thương mại thúc đẩy lòng khoan dung tôn giáo, đây là một thành phần thiết yếu của hòa bình dân sự và do đó là hạnh phúc. Ông viết những bức thư này để chỉ trích các cuộc chiến tranh tôn giáo ở Pháp, do quyền lực chính trị tuyệt đối kích động. Đây là sự phê phán đầu tiên đối với chế độ cũ.
 
@@ -870,7 +870,7 @@ Trong _Bức thư thứ Mười_, "Về Thương mại", Voltaire mô tả tâm 
 
 Tuy nhiên, nước Pháp không thiếu những tâm hồn vĩ đại. Ít ai biết rằng Anne Robert Jacques Turgot, Nam tước de Laulne trước khi trở thành Tổng kiểm soát Tài chính dưới thời Louis XVI, là một nhà tư tưởng hàng đầu. Ông là tác giả của một luận án xuất sắc về kinh tế chính trị, _Suy ngẫm về sự hình thành và phân phối của cải - Réflexions la formation et la distribution des richesses_ (1766), xuất bản trước _Sự giàu có của các Quốc gia - The Wealth of Nations_ của Adam Smith (1776).
 
-![image](assets/fr/052.webp)
+![image](assets/vi/052.webp)
 Những tác phẩm đầu tiên của ông cho thấy sự cam kết của ông với triết lý của Thời kỳ Khai sáng. Năm 1754, ông xuất bản _Những bức thư về sự khoan dung dân sự - Lettres sur la tolérance civile_ và vào năm 1757, một số bài viết được viết cho _Bách khoa toàn thư - Encyclopédie_ của Diderot và d'Alembert.
 Trong các bức thư của mình, Turgot trình bày một định nghĩa về lòng khoan dung. Khoan dung có nghĩa là từ chối sử dụng bạo lực chống lại sai lầm. Nói cách khác, lòng khoan dung không có nghĩa là sự chấp nhận sai lầm. Nhưng để chống lại nó người ta sử dụng vũ khí của sự thuyết phục và lý lẽ, không phải bằng bạo lực.
 
@@ -887,7 +887,7 @@ Nói cách khác, khoan dung không có nghĩa là thù địch với tôn giáo
 
 Chủ nghĩa Tự do kinh tế thường được liên kết với truyền thống Anglo-Saxon bắt nguồn từ Adam Smith, đối lập với "Chủ nghĩa Tự do chính trị," được cho là bắt nguồn từ thời kỳ Khai sáng của châu Âu lục địa, đặc biệt là ở Pháp. Quan điểm này không chính xác.
 
-![image](assets/fr/053.webp)
+![image](assets/vi/053.webp)
 
 Chính trong phản ứng với chủ nghĩa bảo hộ và rộng hơn là với các tư tưởng của _Chế độ cũ - Ancien Régime_ mà khoa học kinh tế đã ra đời ở Pháp. Vào thời kỳ Khai sáng, các triết gia bắt đầu tự gọi mình là "nhà kinh tế học," họ thuộc trường phái Trọng Nông.
 
@@ -905,7 +905,7 @@ Từ điểm này, hai quan niệm rất khác nhau bắt đầu xuất hiện t
 ### Chống lại chủ nghĩa Colbert
 
 Cụm từ "chống lại chủ nghĩa Colbert" này xuất hiện khi Jean-Baptiste Colbert, cố vấn chính của Louis XIV, vào một ngày đã hỏi các thương nhân: "Tôi có thể làm gì cho các bạn?" Một trong số họ, tên là François Legendre, trả lời: "Hãy để chúng tôi tự làm!" (Laissez-nous faire!)
-![image](assets/fr/054.webp)
+![image](assets/vi/054.webp)
 Cụm từ này được những người theo chủ nghĩa Trọng Nông như François Quesnay, Marquis d'Argenson, và sau đó là Vincent de Gournay chấp nhận: "Laissez-faire, laissez passer." Có thể dịch là: "Hãy để chúng tôi tự do hành động và lưu thông". Đây đã trở thành khẩu hiệu của họ.
 
 Dựa trên luật tự nhiên (thuật ngữ này bắt nguồn từ _phusis_, tự nhiên, và _cratos_, quyền lực hoặc luật lệ), những người theo chủ nghĩa Trọng Nông tin rằng có những luật lệ kinh tế không phụ thuộc vào quyền lực chính trị hay tôn giáo mà xuất phát từ bản chất thực sự của con người và xã hội. Trật tự kinh tế là trật tự tự nhiên của xã hội. Quyền lực chính trị phải tuân theo nó.
@@ -920,13 +920,13 @@ Trước cuộc Cách mạng Pháp, xã hội sống trong một nền kinh tế
 
 Tuy nhiên, kể từ thời Trung Cổ, như chúng ta đã thấy, nền kinh tế thị trường bắt đầu phát triển. Các thương nhân trở nên giàu có hơn và có nhiều tự do kinh tế hơn.
 
-![image](assets/fr/055.webp)
+![image](assets/vi/055.webp)
 
 Nói về thị trường tức là nói về việc trao đổi tự nguyện với một giá cả được thương lượng. Thị trường cải thiện đời sống vật chất, trí tuệ, và chính trị của mọi người bởi vì nó giúp mọi người có được không gian để tự chủ và sáng kiến.
 
 Thực vậy, con người tự nhiên muốn cải thiện điều kiện của bản thân và người thân của mình thông qua việc trao đổi hàng hóa và dịch vụ. Vì vậy, những triết gia mới này, các nhà "kinh tế học", mong muốn người dân có khả năng tự mình kiếm được thu nhập đủ để đạt được cái mà Kant gọi trong cuốn sách của mình _Khai Sáng là gì? - What is Enlightenment?_ là "đa số," tự chủ về quyết định và hành động của họ.
 
-![image](assets/fr/056.webp)
+![image](assets/vi/056.webp)
 
 Đối với những người theo chủ nghĩa Trọng Nông, tự do không gây chia rẽ. Chống lại đặc quyền chính trị và chống lại hoạt động thu tô kinh tế là một. Điểm mới lại lớn của các nhà kinh tế học hiện đại, vào bình minh của thế kỷ 18, là họ tập trung vào từng cá nhân với ý định khôi phục lại khả năng hành động của họ trong khi suy nghĩ về cách kiềm chế đam mê và lợi ích thông qua thị trường tự do.
 
@@ -952,7 +952,7 @@ Trong thời gian ngắn giữ chức Bộ trưởng Tài chính (Tổng kiểm 
 
 > Thưa Đức Vua, Ngài phải chống lại lòng tốt của mình bằng chính lòng tốt ấy, để xem xét lại nguồn gốc của số tiền mà Ngài phân phát cho các cận thần của mình.
 
-![image](assets/fr/057.webp)
+![image](assets/vi/057.webp)
 
 Vào năm 1774, ông đã công bố Sáu Sắc lệnh nhằm bãi bỏ các hội nghề và chức nghiệp (các tổ chức đã trở thành độc quyền và rào cản đối với người muốn tham gia vào thị trường lao động), bãi bỏ các thuế quan nội địa đối với hoạt động buôn bán lúa mì, bãi bỏ lao động cưỡng bức, và thiết lập sự khoan dung đối với người Tin lành.
 
@@ -975,7 +975,7 @@ Murray Rothbard trong tác phẩm về lịch sử kinh tế từ góc nhìn c�
 
 Năm 1776, triết gia Étienne Bonnot de Condillac đã xuất bản _Thương mại và Chính phủ - Le Commerce et le Gouvernement_, tác phẩm được cọi là một trong những lời biện hộ tuyệt vời nhất của thời đại đó ủng hộ thương mại tự do và tự do cá nhân.
 
-![image](assets/fr/058.webp)
+![image](assets/vi/058.webp)
 
 _Thương mại và Chính phủ_ chứa đựng những gì sau này sẽ được gọi là lý thuyết về tính chủ quan của giá trị, điều này đã mang lại cho ông tất cả những lời khen ngợi từ các nhà kinh tế học theo trường phái Áo, bắt đầu với Menger. Tiếp bước Turgot, nhưng với sự rõ ràng hơn, Condillac khẳng định rằng giá trị không nằm trong lao động mà nằm trong lợi ích thực tế mà mỗi người tìm thấy khi tham gia trao đổi:
 
@@ -988,7 +988,7 @@ CĐây cũng là một luận văn triết học khi nó chứng minh rằng tra
 
 Năm 1776, một người Anh tên là Thomas Paine đã xuất bản ở Mỹ một cuốn sách nhỏ với lời chỉ trích gay gắt về chế độ quân chủ Anh và ủng hộ sự độc lập của các thuộc địa Mỹ, cuốn sách có tên là _Lẽ thường - Common Sense_.
 
-![image](assets/fr/059.webp)
+![image](assets/vi/059.webp)
 
 Paine lập luận rằng:
 
@@ -1010,9 +1010,9 @@ Thomas Paine, qua cuốn sách nhỏ của mình, đã đóng một vai trò qua
 
 Vào ngày 4 tháng 7 năm 1776, tại Philadelphia, các đại biểu của 13 Thuộc địa Anh ở Bắc Mỹ cùng tụ họp trong một hội nghị và thông qua một nghị quyết tuyên bố rằng "Hợp chúng quốc Hoa Kỳ là, và cần phải là các Quốc gia tự do và độc lập". Nghị quyết được John Adams, (một trong những người khởi xướng phong trào Tea Party) và Benjamin Franklin, đại biểu từ Massachusetts ủng hộ. Sau đó, Tuyên ngôn Độc lập được được soạn thảo bởi Thomas Jefferson, đại biểu từ Virginia.
 
-![image](assets/fr/060.webp)
+![image](assets/vi/060.webp)
 Trong những năm tiếp theo, những người Pháp như La Fayette, Rochambeau, Đô đốc de Grasse, Bá tước d'Estaing, Tướng Duportail, Marquis de la Rouerie, Chỉ huy Pierre L'Enfant, nhà văn Beaumarchais, và nhiều người khác đã chiến đấu bên cạnh những người thuộc phe Nổi dậy để giải phóng họ khỏi ách cai trị của Vua Anh.
-![image](assets/fr/061.webp)
+![image](assets/vi/061.webp)
 
 141 năm sau, vào ngày 4 tháng 7 năm 1917, trong bối cảnh của Thế chiến thứ nhất, một lễ kỷ niệm được tổ chức cho những người lính đầu tiên của Quân đội Viễn chinh Mỹ (AEF) đến Paris tại nghĩa trang Picpus trên mộ của La Fayette, "anh hùng của hai thế giới." Trong dịp này, Đại úy Charles E. Stanton từ ban tham mưu của Tướng Pershing đã phát biểu một bài diễn văn nổi tiếng:
 > Tôi rất tiếc vì không thể phát biểu trước người dân Pháp bằng ngôn ngữ tuyệt vời của đất nước trung thành này. Không thể quên rằng quốc gia của các bạn đã là bạn của chúng tôi khi Mỹ đấu tranh cho sự tồn tại của mình, khi một nhóm nhỏ những người đàn ông dũng cảm và yêu nước quyết tâm bảo vệ quyền lợi mà Tạo Hóa đã ban cho họ -- khi đó, nước Pháp, thông qua Lafayette, đã đến giúp đỡ chúng tôi bằng cả lời nói và hành động. Sẽ là vô ơn nếu không nhớ đến điều này, và nước Mỹ sẽ không quên nghĩa vụ của mình...
@@ -1027,7 +1027,7 @@ Vào năm 1789, lại là La Fayette, cùng với Jefferson, đã đặt nền m
 
 Vào năm 1776, Adam Smith đã xuất bản tác phẩm _Nghiên cứu về bản chất và nguyên nhân sự giàu có của các Quốc gia - An Inquiry into the Nature and Causes of the Wealth of Nations_. Một công trình đồ sộ thường khiến ông được coi như là như một nhà kinh tế học mặc dù ông giảng dạy triết học đạo đức tại Đại học Glasgow. Một cách biếm họa, ông thường được nhớ đến như cha đẻ của kinh tế học hiện đại.
 
-![image](assets/fr/062.webp)
+![image](assets/vi/062.webp)
 
 Trên thực tế, Smith chịu ảnh hưởng nhiều từ các nhà kinh tế học Quesnay và Turgot, những người mà ông đã gặp trong chuyến đi hơn một năm đến Pháp. Trong cuốn sách này, ông đặc biệt mô tả một "hệ thống tự do tự nhiên đơn giản" trong đó các cá nhân, theo đuổi lợi ích của riêng mình, được dẫn dắt "bởi một bàn tay vô hình" để thúc đẩy sự phồn thịnh của toàn xã hội.
 
@@ -1055,7 +1055,7 @@ Do đó, đến thế kỷ 18, vấn đề chính trị chính đối với nh�
 ### Chủ quyền nhân dân
 
 Ý tưởng này được đề xuất bởi Locke vào thế kỷ 17 và sau đó được Rousseau tiếp nối. Quyền lực tối cao không chỉ đến từ ý chí tự do của nhân dân mà còn phải nằm trong tay họ. Đây là lý thuyết về chủ quyền của ý chí chung do Rousseau phát triển, điều mà ngày nay chúng ta gọi là dân chủ.
-![image](assets/fr/063.webp)
+![image](assets/vi/063.webp)
 
 Rousseau xem nhân dân như một cá nhân tự chủ có khả năng tự áp đặt cho mình những luật lệ mà họ tự thiết lập. Ý chí tự do của nhân dân tạo thành nền tảng công lý duy nhất của chủ quyền. Rousseau đã phát triển chủ nghĩa nhân văn pháp lý này, đặc trưng của Thời đại Hiện đại, đến những hậu quả cuối cùng của nó, bằng cách xem con người như một cá nhân có khả năng tự quyết định một cách tự do hoặc như một ý chí chung. Như vậy, hợp đồng bao hàm sự tuân thủ các luật lệ mà con người, theo ý chí chung, tự ban cho mình như một ý chí riêng biệt. Do đó, lý thuyết về ý chí chung hoặc về chủ quyền của nhân dân hòa giải được tự do và sự tuân thủ. Tự thiết lập ra luật pháp hay quyền tự chủ chính trị thực sự đã là một thành phần thiết yếu của dân chủ kể từ thời Rousseau.
 
@@ -1065,7 +1065,7 @@ Nhưng câu hỏi về nguồn gốc của chủ quyền không phải là vấn
 
 Một trong những triết gia của thời kỳ Khai Sáng có ảnh hưởng mạnh mẽ ở Pháp và Mỹ là John Locke. Ông là nguồn cảm hứng cho các nhà lập quốc của Hoa Kỳ và cũng ảnh hưởng tới Tuyên ngôn Nhân Quyền và Dân Quyền vào năm 1789.
 
-![image](assets/fr/064.webp)
+![image](assets/vi/064.webp)
 
 Tất cả các hệ thống trước đó đã coi rằng tự do chỉ là những đặc quyền được nhà cầm quyền ban tặng theo dạng ủy quyền và có thể bị thu hồi bất cứ lúc nào. Đối với Locke, cuộc sống của một người là của riêng họ theo quyền tự nhiên (nghĩa là: theo một nguyên tắc đạo đức tự nhiên trong bản chất con người) và mục đích đạo đức duy nhất của một chính phủ là bảo vệ quyền cá nhân.
 
@@ -1076,7 +1076,7 @@ Locke giao cho nhà nước nhiệm vụ bảo vệ quyền sở hữu cá nhân
 Thomas Jefferson đã ghi lại lý thuyết về quyền bất khả xâm phạm của Locke trong Tuyên ngôn Độc lập:
 > Chúng tôi coi những sự thật này là hiển nhiên, rằng tất cả mọi người đều được sinh ra bình đẳng, rằng họ được Đấng Tạo Hoá ban cho một số quyền bất khả xâm phạm, trong đó có quyền sống, quyền tự do và quyền mưu cầu hạnh phúc.
 
-![image](assets/fr/065.webp)
+![image](assets/vi/065.webp)
 
 Hơn nữa, Điều 2 của Tuyên ngôn Nhân Quyền và Dân Quyền của năm 1789 cũng lấy cảm hứng từ truyền thống quyền tự nhiên của Locke:
 
@@ -1088,7 +1088,7 @@ Cuộc Cách mạng Mỹ được lãnh đạo bởi những người nói về 
 
 Trong thế kỷ 19, Alexis de Tocqueville, một triết gia chính trị người Pháp, đã cố gắng phân tích những khác biệt giữa hai cuộc cách mạng này. Ông cho rằng thành công của cuộc Cách mạng Mỹ đến từ một số yếu tố.
 
-![image](assets/fr/066.webp)
+![image](assets/vi/066.webp)
 
 Đầu tiên là cách định nghĩa về nền cộng hòa. Cộng hòa Pháp là một và không thể chia cắt. Cộng hòa Mỹ được cấu thành từ các bang có chủ quyền, mỗi bang đều có phạm vi quyền lực và lợi ích địa phương của riêng mình. Chủ nghĩa liên bang được coi là phản quốc ở Pháp. Ở Mỹ, tội phản quốc bao gồm ý muốn áp đặt sự thống nhất. Ít nhất là cho đến khi Nội chiến Mỹ diễn ra, liên minh trong sự đa dạng của các bang là sức mạnh của Liên bang.
 
@@ -1103,7 +1103,7 @@ Cách diễn đạt này thể hiện rõ ràng việc bảo vệ chống lại 
 
 Abbé Sieyès (1748-1836) được coi là cha đẻ của Cách mạng Pháp. Ông là tác giả của _Tầng lớp thứ ba là gì? - Qu'est-ce que le tiers état?_, vào tháng 1 năm 1789
 
-![image](assets/fr/067.webp)
+![image](assets/vi/067.webp)
 
 Tầng lớp thứ ba bao gồm tất cả những người không thuộc về giới giáo sĩ hoặc quý tộc. Ngay từ những dòng đầu tiên trong cuốn sách nổi tiếng của mình, Abbé Sieyès đã ca ngợi tự do cá nhân và tự do cạnh tranh:
 
@@ -1116,11 +1116,11 @@ Việc tịch thu tài sản của Giáo hội nhằm mục đích đối phó v
 
 Hơn nữa, như Dupont de Nemours đã tiên đoán, việc phát hành tiền giả (ở đây là tiền giấy) chỉ làm trầm trọng thêm khủng hoảng, gây ra lạm phát trên diện rộng và sự sụp đổ giá trị của Assignats. Vào tháng 8 năm 1792, các cuộc bạo loạn vì nạn đói đã dẫn đến cuộc nổi dậy ở Paris, việc hành quyết Louis XVI vào tháng 1 năm 1793, và sau đó là thời kỳ Khủng bố.
 
-![image](assets/fr/068.webp)
+![image](assets/vi/068.webp)
 
 Vào năm 1795, năm năm sau lần phát hành đầu tiên, tiền giấy đã mất 99% giá trị của nó. Cách mạng Pháp tiếp tục dưới thời chế độ Đốc chính cho đến năm 1799, khi Napoleon giành quyền lực thông qua một cuộc đảo chính. Ông trở thành Đệ nhất Tổng tài của Cộng hòa Pháp trước khi được phong làm Hoàng đế vào năm 1804. Đây là một trong những mâu thuẫn rõ ràng đầu tiên với Tuyên ngôn Quyền con người, tuyên bố rằng quyền tư hữu là bất khả xâm phạm.
 
-![image](assets/fr/069.webp)
+![image](assets/vi/069.webp)
 
 Ở Mỹ, không có sự can thiệp kinh tế, cũng không có sự phá sản tiền tệ như Assignats. Và quan trọng hơn, không có sự trục xuất, không có di cư hàng loạt, không có máy chém, không có thảm sát, và không có thời kỳ Khủng bố. Ngay lập tức, người ta có thể thấy sự khác biệt giữa Cách mạng Mỹ với Cách mạng Pháp.
 
@@ -1140,13 +1140,13 @@ Với Rousseau và Robespierre, người Pháp muốn tin rằng Quốc gia ho�
 
 Theo Benjamin Constant, tự do, trong xã hội hiện đại của chúng ta, không thể được hiểu theo cách của các xã hội cổ đại như là sự tham gia trực tiếp vào các công việc của thành phố.
 
-![image](assets/fr/070.webp)
+![image](assets/vi/070.webp)
 
 ### Tự do trong đời sống riêng tư
 
 Trong thời cổ đại, cá nhân có quyền lực tối cao trong các vấn đề công cộng, nhưng lại là nô lệ trong tất cả mọi mối quan hệ riêng tư. Việc hy sinh tự do cá nhân được bù đắp bằng quyền tham gia chính trị: quyền trực tiếp thực hiện một phần của chủ quyền, quyền thảo luận tại quảng trường công cộng, quyền bỏ phiếu về luật pháp, quyền tuyên bố phán quyết, quyền đánh giá và xét xử các quan chức. Đó là tự do chính trị và nó mang tính tập thể:
 > Tự do của người cổ đại bao gồm sự tham gia tích cực và liên tục vào quyền lực tập thể. Ngược lại, tự do của chúng ta phải bao gồm việc thưởng thức sự độc lập của cá nhân một cách yên bình; do đó, chúng ta phải gắn bó nhiều hơn với sự độc lập cá nhân so với người cổ đại. (_Về Tự do của người cổ đại so với người hiện đại - On the Liberty of the Ancients Compared with that of the Moderns_ (1819))
-![image](assets/fr/071.webp)
+![image](assets/vi/071.webp)
 
 Tự do hiện đại là tự do dân sự, bao gồm tự do kinh tế và dựa trên quyền riêng tư. Đó là quyền không phải chịu sự chuyên quyền tuỳ tiện, quyền tự do ngôn luận, quyền tự do hội họp, quyền tự do di chuyển, quyền tự do tôn giáo, và quyền tự do kinh doanh. Không có tự do nếu không có khả năng lựa chọn lối sống và giá trị của bản thân, do đó không có tự do nếu không có khả năng tách khỏi cộng đồng và do đó không có tự do nếu không có sự giới hạn quyền lực của Nhà nước để đảm bảo sự tồn tại của không gian riêng tư này. Đó là loại tự do mà người Mỹ gọi là quyền dân sự.
 
@@ -1154,11 +1154,11 @@ Tự do hiện đại là tự do dân sự, bao gồm tự do kinh tế và d�
 
 > Tự do duy nhất xứng đáng với cái tên đó, là tự do theo đuổi điều tốt lành của chính mình theo cách của mình, miễn là chúng ta không cố gắng tước đoạt của người khác hoặc cản trở nỗ lực của họ để đạt được nó. (...) Nhân loại thu được nhiều lợi ích hơn bằng cách để mỗi người sống theo cách mà họ cảm thấy phù hợp hơn là ép buộc họ phải sống theo cách mà người khác cho là tốt. (_Bàn về Tự do - On Liberty_, 1859)
 
-![image](assets/fr/072.webp)
+![image](assets/vi/072.webp)
 
 Mill đã vạch ra giới hạn của chủ quyền nhà nước: nó dừng lại ở nơi chủ quyền cá nhân bắt đầu. Nếu một hành động cá nhân không gây hậu quả xấu cho người khác, thì cá nhân đó hoàn toàn tự do thực hiện hành động đó. Nhà nước phải điều chỉnh mối quan hệ giữa các cá nhân, nhưng không thể can thiệp sâu hơn vào đời sống riêng tư của mỗi cá nhân. Nếu cá nhân tự gây hại cho bản thân, Nhà nước chỉ có thể "khuyên nhủ" hoặc cố gắng "lý luận" hoặc "thuyết phục" họ: không thể ép buộc hoặc trừng phạt. Vì Mill thêm vào: "Lý do hợp pháp duy nhất mà một nhà nước có thể sử dụng vũ lực để chống lại một thành viên của mình, trái với ý muốn của họ, là nhằm ngăn chặn sự gây hại đến người khác."
 
-![image](assets/fr/073.webp)
+![image](assets/vi/073.webp)
 
 Do đó, quyền lực chính trị tương ứng với tự do hiện đại là một quyền lực có giới hạn: "Hãy để nhà cầm quyền giới hạn bản thân trong việc bảo vệ công lý, chúng tôi sẽ tự lo cho hạnh phúc của mình," Benjamin Constant tuyên bố. Nhà nước không có nhiệm vụ quyết định chúng ta nên hạnh phúc như thế nào.
 
@@ -1188,7 +1188,7 @@ Nói cách khác, trong một xã hội tự do, cần thiết phải xác đị
 
 Alexis de Tocqueville là một người quan sát sắc sảo về dân chủ và là một nhà phê bình của chủ nghĩa cá nhân trong nền dân chủ.
 
-![image](assets/fr/074.webp)
+![image](assets/vi/074.webp)
 
 Phân tích của Tocqueville về dân chủ cơ bản mở rộng sự phân biệt giữa tự do của người cổ đại và tự do của người hiện đại mà Constant đã thực hiện. Trong một bài báo viết vào năm 1836 (_Tình trạng xã hội và chính trị của Pháp trước và sau 1789 - État social et politique de la France avant et depuis 1789_), Tocqueville đã so sánh tự do quý tộc với tự do dân chủ một cách có hệ thống. Tự do quý tộc được định nghĩa là "sự thụ hưởng một đặc quyền," và Tocqueville đã dẫn ví dụ về công dân La Mã, những người có tự do không phải từ tự nhiên mà từ việc họ thuộc về Rome.
 Khái niệm thứ hai, được coi là "khái niệm đúng về tự do," bao gồm "quyền bình đẳng và bất khả xâm phạm để sống độc lập so với những người khác." Khái niệm hiện đại về tự do này không giống như khái niệm đầu tiên là một khái niệm chính trị, mà nó dựa trên luật tự nhiên và nó là "đúng đắn" bởi vì nó mở rộng đồng đều cho tất cả mọi người. Ông viết:
@@ -1196,7 +1196,7 @@ Khái niệm thứ hai, được coi là "khái niệm đúng về tự do," bao
 
 Tocqueville cẩn thận chỉ ra tất cả các ảnh hưởng về chính trị và văn hóa của cách sống mới này, cách sống điển hình của thời đại hiện đại. Là một người ngưỡng mộ Pascal, ông muốn mô tả sự vĩ đại và nỗi khốn khổ của nền dân chủ.
 
-![image](assets/fr/075.webp)
+![image](assets/vi/075.webp)
 
 Vào năm 1841 trong _Nền dân chủ ở Mỹ - La Démocratie en Amérique_, ông phân tích nguyên tắc dân chủ này, nguyên tắc này khẳng định bản thân qua sự bình đẳng hóa về điều kiện, trái với hệ thống giai cấp và quyền lực của truyền thống. Và ông quan sát thấy quá trình này đi kèm với sự tan rã của ảnh hưởng xã hội, các mối quan hệ phụ thuộc, và làm cho các mối liên kết xã hội trở nên chia nhỏ, do đó đe dọa đến chính sự tự do và trách nhiệm chính trị của công dân. Hơn nữa, sự mất mát của những lý tưởng cao cả thời Cổ đại (đức hạnh, lợi ích chung) dẫn đến sự nghèo nàn về ý nghĩa của cuộc sống, với "những thú vui nhỏ bé và tầm thường," sự chán chường và bất an.
 
@@ -1230,7 +1230,7 @@ Frédéric Bastiat nghĩ gì về dân chủ? Ông đã trả lời ngay từ n�
 
 > Tôi ủng hộ dân chủ, nếu ý của bạn là: Mỗi người sở hữu thành quả lao động của mình, tự do cho tất cả, bình đẳng cho tất cả, công lý cho tất cả, và hòa bình giữa mọi người. (_Tự do Thương mại - Libre-échange_).
 
-![image](assets/fr/076.webp)
+![image](assets/vi/076.webp)
 
 Nhưng vào năm 1848, sau cuộc cách mạng tháng Hai, Bastiat được bầu làm Nghị sĩ đại diện cho vùng Landes trong một hội đồng nơi những người xã hội chủ nghĩa đã có một chiến thắng vang dội. Những người này chỉ đòi một điều: rằng luật pháp phải khẳng định nguyên tắc tình anh em. Nói cách khác, thông qua các luật cung cấp việc làm, giáo dục, và chăm sóc sức khỏe cho tất cả mọi người.
 
@@ -1244,7 +1244,7 @@ Nhà nước sau đó trở thành, theo lời của Bastiat:
 
 Bastiat cũng phát triển ý tưởng rằng xung đột nảy sinh khi luật pháp lệch khỏi vai trò đúng đắn của nó. Trong cuốn sách nổi tiếng của mình [_Luật pháp - The Law_](http://bastiat.org/fr/la_loi.html), ông đã chứng minh nguyên nhân và cách thức mà luật pháp đã trở thành "chiến trường của mọi lòng tham," nghĩa là nguồn gốc của đặc quyền, đặc ân và thuế khóa bất hợp lý. Ngay khi người ta chấp nhận về mặt nguyên tắc rằng luật pháp có thể được sử dụng cho mục đích khác với sứ mệnh thực sự của nó, rằng nó có thể vi phạm quyền sở hữu thay vì bảo đảm chúng, một cuộc đấu tranh giai cấp tất yếu sẽ xảy ra, hoặc là để phòng vệ chống lại sự cướp đoạt hoặc là để tổ chức cướp đoạt để trục lợi cho bản thân.
 
-![image](assets/fr/077.webp)
+![image](assets/vi/077.webp)
 
 Trong trường hợp luật pháp chỉ đơn giản là bảo vệ quyền của cá nhân và đảm bảo _"tổ chức tập thể quyền tự vệ hợp pháp của cá nhân,"_ sẽ không ai có thể lợi dụng nó cho lợi ích cá nhân của mình mà gây thiệt hại cho tất cả những người khác, đến mức mà hình thức của chính phủ trở thành một câu hỏi thứ yếu.
 
@@ -1263,11 +1263,11 @@ Kết luận của Bastiat:
 
 Vào thế kỷ 19, phê phán về Chủ nghĩa Tư bản đã nổi lên, đặc biệt là phê phán từ Mác.
 
-![image](assets/fr/078.webp)
+![image](assets/vi/078.webp)
 
 Mác đã thốt lên, quyền được nói, viết và bầu cử có ích gì, nếu cuộc sống hàng ngày là một cuộc đấu tranh cho sinh tồn? Vượt qua một ngưỡng nhất định, nghèo đói tương đương với sự nô dịch. Do đó, trật tự xã hội chỉ mang lại lợi ích cho mọi người nếu nguyên tắc phân phối công bằng tài sản được áp dụng. Chính sự phê phán này về Chủ nghĩa Tự do đã dẫn Mác đến việc xem xét sự cần thiết của việc kiểm soát hợp lý và có kế hoạch đối với trật tự xã hội. Theo đó, nhà nước tối thiểu của các nhà tự do phải nhường chỗ cho một nhà nước mạnh mẽ có khả năng thiết lập sự bình đẳng thực sự, mà theo Mác, đi xa đến mức bãi bỏ quyền tư hữu và tập thể hóa nó. Trong một phiên bản mềm mỏng hơn, "dân chủ xã hội," nhà nước không chỉ đảm bảo các quyền trừu tượng mà còn các quyền cụ thể của con người. Các quyền mới được tạo ra, bao gồm quyền xã hội và kinh tế, được nhà nước bảo đảm: quyền có việc làm, quyền có nhà ở, quyền được chăm sóc sức khỏe (miễn phí), quyền giáo dục (miễn phí).
 
-![image](assets/fr/079.webp)
+![image](assets/vi/079.webp)
 
 ### Huyền thoại về nhà nước công bằng
 
@@ -1283,7 +1283,7 @@ Sự giải phóng của công dân, theo Mác, không đồng nghĩa với sự
 
 Trên thực tế, đối với Mác và theo chủ nghĩa duy vật lịch sử, sự tha hóa kinh tế chính là nguồn gốc của sự tha hóa chính trị cũng như sự tha hóa tôn giáo. Trong sự tha hóa kinh tế, là kết quả của Chủ nghĩa Tư bản (được định nghĩa là sở hữu tư nhân đối với tư liệu sản xuất), người công nhân buộc phải bán sức lao động của mình như một hàng hóa. Hơn nữa, anh ta bị tước đoạt sản phẩm có được từ công sức lao động mình, sản phẩm đó thuộc về người sử dụng lao động. Do đó, anh ta do đó bị tha hóa, nghĩa là bị tách biệt khỏi chính mình vì công việc của anh ta trở thành thứ gì đó xa lạ mà anh ta phải làm vì bắt buộc, để tồn tại. Tuy nhiên, đối với Mác, lao động là hành động cốt lõi của con người, thông qua đó họ thực hiện chính bản chất thực sự của mình, tức là tự do. Đó là lý do tại sao giải phóng lao động cũng có nghĩa là khôi phục phẩm giá và nhân tính cho con người.
 
-![image](assets/fr/080.webp)
+![image](assets/vi/080.webp)
 
 Theo Mác, cách mạng chính trị là một ảo tưởng, miễn là nó không đi kèm với một cuộc cách mạng kinh tế và xã hội có khả năng giải phóng con người khỏi ách nô dịch của Chủ nghĩa Tư bản và do đó đạt được sự thống nhất giữa người công nhân và công dân, giữa xã hội và nhà nước, giữa lĩnh vực tư và lĩnh vực công. Do đó, tự do và bình đẳng hình thức của công dân sẽ trở thành hiện thực, trong một xã hội không có giai cấp.
 
@@ -1293,7 +1293,7 @@ Theo Mác, cách mạng chính trị là một ảo tưởng, miễn là nó kh�
 
 Trường phái kinh tế học Áo, được Carl Menger sáng lập vào cuối thế kỷ 19, đã phản đối các lý thuyết của Karl Mác ngay từ đầu.
 
-![image](assets/fr/081.webp)
+![image](assets/vi/081.webp)
 
 ### Đấu tranh giai cấp
 
@@ -1307,7 +1307,7 @@ Ví dụ, một nhà tuyển dụng thuê một người lao động vì anh ta 
 
 Ludwig von Mises nhấn mạnh rằng, khi phê phán quyền con người, Mác đã không phân biệt được giữa những gì thuộc về ý thức hệ tư bản và những ý nghĩa thực tiễn của chúng, cũng như những biến động mà chúng gây ra trong đời sống xã hội. Nhiều nhà tư tưởng phê phán quyền con người cũng đã mắc phải sai lầm tương tự. Điều này cũng đúng với những nhà phản cách mạng, như Joseph de Maistre hay Louis de Bonald.
 
-![image](assets/fr/082.webp)
+![image](assets/vi/082.webp)
 
 Trong _Đạo đức của Tự do - The Ethics of Liberty_ và _Giải phẫu của Nhà nước - Anatomy of the State_, Murray Rothbard giải thích rằng khái niệm bóc lột chỉ có ý nghĩa như một hành động xâm phạm quyền tư hữu và chỉ có Nhà nước mới kiếm được thu nhập thông qua sự xâm phạm, tức là thông qua thuế, nợ, in tiền, và do đó thông qua lạm phát. Trên thực tế, chính sự can thiệp của Nhà nước, chứ không phải các cuộc đấu tranh giai cấp, là nguồn gốc của bạo lực và xung đột trong xã hội. Nhà nước, bằng cách chiếm đoạt tài nguyên và quản lý nền kinh tế, đã tạo ra những méo mó và bất công dẫn đến xung đột và áp bức. Do đó, muốn chấm dứt sự bóc lột thì đòi hỏi phải giảm bớt quyền lực của tầng lớp trấn lột: Nhà nước.
 
@@ -1319,7 +1319,7 @@ Khái niệm về cuộc đấu tranh giai cấp cũng có thể dẫn đến ý
 
 Mises đã đặt ra thuật ngữ "polylogism" để giải thích cho sự nguỵ biện này. "Poly" có nghĩa là nhiều và "logism" ám chỉ lý luận và logic hợp lý. Theo Mác, sẽ có nhiều logic không tương thích, logic của giai cấp vô sản và logic của giai cấp tư sản.
 
-![image](assets/fr/083.webp)
+![image](assets/vi/083.webp)
 
 Tuy nhiên, cho đến giữa thế kỷ 19, không ai dám phủ nhận thực tế rằng cấu trúc logic của tư duy là giống nhau và phổ quát đối với tất cả mọi người. Tất cả các mối quan hệ giữa con người đều dựa trên giả định về một cấu trúc logic đồng nhất. Con người có thể tham gia thảo luận vì họ có thể dựa vào một thứ chung cho tất cả, đó là cấu trúc logic của lý trí.
 
@@ -1334,7 +1334,7 @@ Trong mắt các nhà Mác-xít, thì Ricardo, Freud, Bergson, và Einstein đ�
 
 Các nhà kinh tế học Áo khẳng định rằng lý thuyết giá trị lao động của Mác, rằng giá trị của một hàng hóa được xác định bởi lượng lao động cần thiết để sản xuất ra nó, là sai lầm. Họ cho rằng giá trị mang tính chủ quan và được xác định bởi thị hiếu của người tiêu dùng, không phải bởi chi phí sản xuất.
 
-![image](assets/fr/084.webp)
+![image](assets/vi/084.webp)
 Eugen von Böhm-Bawerk, một trong những nhà kinh tế học Áo thời sơ khai, đã chỉ trích lý thuyết giá trị lao động của Mác trong công trình của mình _Giá trị, Tư bản và Lãi suất - Wert, Kapital und Zins_ (1886). Böhm-Bawerk cho rằng lý thuyết của Mác dựa trên một sai lầm cơ bản, đó là Mác cho rằng tất cả các đơn vị lao động đều giống nhau. Trên thực tế, ông lập luận, một số công việc khó khăn hoặc hiệu quả hơn những công việc khác, và đây chính là điều quyết định giá trị của một hàng hóa. Về lý thuyết lợi nhuận, Mác cho rằng lợi nhuận là một hình thức cướp đoạt. Đó là khái niệm về sự bóc lột, theo đó các nhà tư bản chiếm đoạt một giá trị thặng dư một cách không công bằng từ lao động của người công nhân. Các nhà kinh tế học Áo bác bỏ quan điểm này, họ lập luận rằng tiền lương được xác định bởi giá trị mà người lao động mang lại cho các công ty, và lợi nhuận là phần thưởng cho các doanh nhân đã chấp nhận rủi ro và đầu tư hiệu quả. Do đó, lợi nhuận là phần thưởng cho doanh nhân đã chấp nhận rủi ro để đầu tư vào sản phẩm và quy trình mới.
 
 Friedrich Hayek đã phát triển một lý thuyết về lợi nhuận dựa trên khái niệm về sự không chắc chắn, lý thuyết này có sự kế thừa công trình của Jean-Baptiste Say. Theo Hayek, các doanh nhân kiếm được lợi nhuận vì họ có khả năng dự đoán tốt hơn nhu cầu tương lai của người tiêu dùng so với các thực thể kinh tế khác.
@@ -1343,7 +1343,7 @@ Friedrich Hayek đã phát triển một lý thuyết về lợi nhuận dựa t
 
 Các nhà Mác-xít tin rằng Chủ nghĩa Xã hội, một hệ thống kinh tế mà tư liệu sản xuất được sở hữu và kiểm soát bởi giai cấp công nhân, là tất yếu ưu việt hơn Chủ nghĩa Tư bản. Ngược lại, các nhà kinh tế học trường phái Áo khẳng định rằng Chủ nghĩa Xã hội là không khả thi trong thực tế, vì nó đòi hỏi một mức độ kế hoạch hóa tập trung không thực tế.
 
-![image](assets/fr/085.webp)
+![image](assets/vi/085.webp)
 
 Ngay từ năm 1922, trong cuốn sách _Chủ nghĩa Xã hội - Socialism,_ Ludwig von Mises đã chứng minh rằng Chủ nghĩa Xã hội sẽ dẫn đến tình trạng khan hiếm hàng hoá trên diện rộng, vì các nhà hoạch định trung ương sẽ không thể thực hiện các tính toán kinh tế chính xác nếu không có hệ thống giá cả do thị trường cung cấp.
 
@@ -1353,7 +1353,7 @@ Ngay từ năm 1922, trong cuốn sách _Chủ nghĩa Xã hội - Socialism,_ Lu
 
 Lo lắng trước sự gia tăng can thiệp của chính phủ vào nền kinh tế ở các nền dân chủ phương Tây, Hayek đã viết _Con đường dẫn đến chế độ nô lệ - The Road to Serfdom_ như một phê bình triết học về chủ nghĩa tập thể, dù là từ cánh hữu hay cánh tả. Với hàng triệu bản được bán nhờ vào sự quảng bá của _Reader’s Digest_, cuốn sách này đã tạo nên danh tiếng của Hayek tại Hoa Kỳ.
 
-![image](assets/fr/086.webp)
+![image](assets/vi/086.webp)
 
 ### Sức hút của chủ nghĩa tập thể
 
@@ -1372,7 +1372,7 @@ Ngược lại, việc lập kế hoạch cho kinh tế và xã hội nói chung
 
 Ngay từ những trang đầu, Hayek thiết lập một sự đồng hành giữa sự thắng lợi của các lý tưởng Chủ nghĩa Xã hội ở phương Tây và sự thành công đồng thời của các ảo tưởng toàn trị.
 
-![image](assets/fr/087.webp)
+![image](assets/vi/087.webp)
 
 > Rất ít người, ông cảnh báo trong lời tựa, sẵn lòng nhận ra rằng sự nổi lên của Chủ nghĩa Phát xít và Chủ nghĩa Quốc xã không phải là phản ứng chống lại các xu hướng (...) của thời kỳ trước đó, mà là kết quả không thể tránh khỏi của những xu hướng đó. Điều này là một thứ mà hầu hết mọi người đã từ chối nhìn nhận, ngay cả khi họ nhận ra sự tương đồng của một số đặc điểm tiêu cực ở các chế độ Nga Cộng sản và Đức Quốc xã. Kết quả là nhiều người tự xem mình cao quý hơn những lệch lạc của Chủ nghĩa Quốc xã và thực sự ghét bỏ mọi biểu hiện của nó, nhưng đồng thời lại làm việc vì những lý tưởng mà việc thực hiện chúng sẽ trực tiếp dẫn đến sự chuyên chế mà chính họ ghê tởm.
 Theo Hayek, Chủ nghĩa Xã hội và Chủ nghĩa Quốc xã có cùng một số điểm chung cơ bản, đặc biệt là sự chối bỏ chủ nghĩa cá nhân và trật tự tự phát của thị trường. Cả hai hệ tư tưởng đều ưu tiên lợi ích của tập thể hơn quyền lợi và tự do của cá nhân và tìm cách tạo ra một xã hội đồng nhất được thống nhất bởi các giá trị và mục tiêu chung. Cả Chủ nghĩa Xã hội lẫn Chủ nghĩa Quốc xã đều không ngần ngại sử dụng vũ lực và cưỡng chế để đạt được mục tiêu của mình. Họ sẵn lòng đàn áp tự do cá nhân và đàn áp sự bất đồng chính kiến nhân danh lợi ích của xã hội.
@@ -1394,17 +1394,17 @@ Các lãnh đạo Phát xít chỉ đơn giản là kế thừa các diễn ngô
 
 Chủ nghĩa Tư bản thường bị cáo buộc là nguồn gốc của những mệnh lệnh như: "chúng ta phải luôn sản xuất ngày càng nhiều hơn," hoặc của công thức: "tiêu dùng tốt cho tăng trưởng." Tuy nhiên, những ý tưởng này không phát sinh từ Chủ nghĩa Tư bản truyền thống mà từ Chủ nghĩa Keynes, một học thuyết đã thống trị lĩnh vực khoa học kinh tế và giới chính trị kể từ những năm 1930.
 
-![image](assets/fr/088.webp)
+![image](assets/vi/088.webp)
 
 ### Phân tích cuộc Đại suy thoái năm 1929
 
 Xuất bản vào năm 1936, cuốn sách của John Maynard Keynes: _Lý thuyết chung về việc làm, lãi suất và tiền tệ - The General Theory of Employment, Interest, and Money_, đã tạo nên một cuộc cách mạng. Tìm hiểu về nguyên nhân của Đại suy thoái và cách để thoát khỏi nó, ông mô tả một mô hình kinh tế mới, thứ đã thu hút sự ủng hộ của nhiều nhà kinh tế học và chính trị gia.
 
-![image](assets/fr/089.webp)
+![image](assets/vi/089.webp)
 
 Tóm tắt ngắn gọn, chi tiêu công thúc đẩy tăng trưởng và để tài trợ cho thâm hụt ngân sách, cần phải triển khai một chính sách tiền tệ với lãi suất thấp. Đầu tiên, việc tăng chi tiêu công sẽ có tác động nhân lên đối với hoạt động kinh tế, giúp hạn chế suy thoái và tăng tốc độ phục hồi. Sau đó, ở giai đoạn thứ hai, tiền tệ sẽ được coi là một công cụ chính sách để nhà nước sử dụng nhằm mục đích ổn định vĩ mô.
 
-![image](assets/fr/090.webp)
+![image](assets/vi/090.webp)
 
 Chủ nghĩa Keynes vì thế là tuyên bố rằng chi tiêu công và tiêu dùng cung cấp phương tiện cho tăng trưởng mạnh mẽ và việc làm đầy đủ. Kế hoạch tăng trưởng này dựa trên việc kiểm soát tiền tệ.
 
@@ -1418,15 +1418,15 @@ Với Keynes, thế kỷ 20 trở thành thế kỷ của niềm tin vào các c
 
 Đối với Keynes, sự can thiệp của nhà nước là cần thiết để kích thích nhu cầu và khôi phục nền kinh tế. Học thuyết này đã giành được chiến thắng trong các trường đại học và sách giáo khoa. Tuy nhiên, sự can thiệp của nhà nước có những khuyết điểm và có thể làm trầm trọng thêm các cuộc khủng hoảng trong dài hạn thay vì giải quyết chúng.
 
-![image](assets/fr/091.webp)
+![image](assets/vi/091.webp)
 
 Đó là lý do tại sao một số nhà kinh tế, chỉ là số ít, chỉ trích Keynes vì tư duy ngắn hạn của ông và ủng hộ việc quay trở lại với cơ chế thị trường như một giải pháp thay thế tốt hơn cho sự can thiệp của nhà nước.
 Friedrich Hayek đã giải thích rằng việc giảm lãi suất liên tục bởi các ngân hàng trung ương và sự mở rộng tín dụng nhân tạo chỉ có thể dẫn các thực thể kinh tế vào con đường sai lầm, khiến họ đầu tư như thể có nhiều nguồn lực tiết kiệm hơn thực tế (vì theo lẽ tự nhiên lãi suất giảm xuống khi tiết kiệm tăng). Sự phân bổ nguồn lực sai lầm này sẽ thúc đẩy một sự tăng trưởng nhân tạo, một bong bóng, kéo theo một cuộc suy thoái nghiêm trọng. Đóng góp này vào lý thuyết chu kỳ đã giúp Hayek được nhận giải Nobel Kinh tế vào năm 1974.
 Cùng với những người khác, ông cũng nhấn mạnh sự nguy hiểm của việc tập trung hoá và thao túng tiền tệ. Đặc biệt là trường hợp của nhà kinh tế học người Pháp, Jacques Rueff, một môn đồ và là bạn của Ludwig von Mises.
 
-![image](assets/fr/092.webp)
+![image](assets/vi/092.webp)
 Tốt nghiệp từ École Polytechnique vào năm 1919, Rueff đã có một sự nghiệp làm quan chức cấp cao và là cố vấn kinh tế cho nhiều chính phủ trong những năm 1920 và 1930. Công trình quan trọng nhất của ông xuất bản vào năm 1945: _Trật tự xã hội - L’ordre social_, trong đó ông phát triển một luận điểm mạnh mẽ ủng hộ thị trường tự do, từ quan điểm kinh tế, triết học và đạo đức.
-![image](assets/fr/093.webp)
+![image](assets/vi/093.webp)
 
 Cuốn sách này có một chương quan trọng có tiêu đề: "_Đồng tiền vững chắc hay Nhà nước toàn trị - Monnaie saine ou État totalitaire_". Trong chương này, ông phát triển hai luận điểm. 
 - Luận điểm đầu tiên: "Đồng tiền yếu kém tạo ra rối loạn xã hội".
@@ -1436,7 +1436,7 @@ Vào năm 1947, năm năm sau khi bản dịch tiếng Pháp của _Lý thuyết
 > Có khả năng là cuộc suy thoái tiếp theo sẽ dẫn đến việc chính sách do Lord Keynes đề xuất được áp dụng rộng rãi trên toàn thế giới. Tôi không sợ mình sẽ nhầm khi nói rằng chính sách này chỉ giảm thất nghiệp một cách không đáng kể, nhưng nó sẽ có những hậu quả sâu rộng đối với sự phát triển của các quốc gia áp dụng nó. (...) Bởi Lord Keynes, cuộc khủng hoảng tiếp theo sẽ là cơ hội cho những thay đổi chính trị sâu rộng, điều mà một số người hy vọng, trong khi những người khác lo sợ. Dù sao đi nữa, do dựa trên một lý thuyết sai lầm, nên những biện pháp được áp dụng sẽ mang lại những hậu quả hoàn toàn khác biệt so với những gì người ta mong đợi khi áp dụng chúng. Sự không hiệu quả của chúng sẽ là một lý do để nhiều người yêu cầu thay thế bằng một hệ thống mới, mà bằng cách phủ định chính nó sẽ tự huỷ chính nó.
 Bắt đầu từ năm 1958, một chính sách nhằm tái cấu trúc nền kinh tế Pháp, lấy cảm hứng từ Jacques Rueff, sẽ được thực hiện dưới quyền lực của Tướng de Gaulle. Nó đã dẫn đến thời kỳ được gọi là "_Ba mươi năm Huy hoàng - Trente Glorieuses_".
 
-![image](assets/fr/094.webp)
+![image](assets/vi/094.webp)
 
 Trong _Tội lỗi về tiền tệ của phương Tây - Le péché monétaire de l’Occident_, vào năm 1971, Rueff viết:
 
@@ -1444,7 +1444,7 @@ Trong _Tội lỗi về tiền tệ của phương Tây - Le péché monétaire 
 
 Ông nói thêm: "Lạm phát là việc tài trợ cho những khoản chi tiêu không mang lại lợi ích gì bằng những đồng tiền không hề tồn tại." Theo ông: "Khi quan sát sự phát triển của hệ thống tiền tệ quốc tế, người ta sẽ nghĩ rằng Phương Tây đang áp dụng lời khuyên của Lê-nin: Để phá hủy chế độ tư bản, chỉ cần phá hoạt đồng tiền của nó."
 
-![image](assets/fr/095.webp)
+![image](assets/vi/095.webp)
 
 Vào năm 1976, ông một lần nữa tấn công Chủ nghĩa Keynes trong một bài viết cho tờ báo _Le Monde_.
 > Không có tôn giáo nào lan truyền khắp thế giới nhanh như tôn giáo của việc làm. Được thúc đẩy bởi ký ức về những thảm họa thất nghiệp đã tàn phá Anh và Đức trong những năm 1920, dù là rõ rang hay ngầm hiểu, nó đã trở thành nguyên tắc hàng đầu của chính sách kinh tế ở hầu hết mọi quốc gia trên thế giới. Che giấu mục đích của mình dưới vỏ bọc khéo léo và giả dối của "lý thuyết chung," được những môn đồ nhiệt thành và mù quáng nâng lên thành kinh thánh cho hành động chính phủ, nó đã che giấu bộ mặt thực sự của các chính sách lạm phát mà nó tạo ra. Bằng con đường này, nó đã làm an lòng các chính phủ, những chính phủ đã cạn kiệt khả năng thu thuế và vay mượn, đã tìm thấy niềm vui lừa dối của việc tạo ra tiền tệ. (_Sự kết thúc của kỷ nguyên Keynes - La fin de l'ère keynésienne._, Tháng 4 năm 1976, tr.70-7.)
@@ -1459,7 +1459,7 @@ Tiền tệ là công cụ đã giúp loài người vượt lên trên hệ th�
 
 Có một hình thức tiền tệ đã dần dần tự phân biệt nó với những hình thức khác để trở thành chuẩn mực toàn cầu qua các thế kỷ, đó là vàng.
 
-![image](assets/fr/096.webp)
+![image](assets/vi/096.webp)
 
 Thực vậy, vàng là một đồng tiền "cứng", khó sản xuất và rất tốn kém để làm giả. Thị trường đã chọn vàng là đồng tiền đáng tin cậy, bền vững và ít bị thao túng nhất. Lịch sử cho thấy khi mọi người có thể tự do lựa chọn đồng tiền để sử dụng, họ thường chọn vàng.
 
@@ -1475,14 +1475,14 @@ Nhưng chế độ bản vị vàng đã buộc các chính phủ phải hạn c
 
 Hệ thống Bretton Woods, được thiết lập vào năm 1944 và triển khai đầy đủ vào năm 1959, dựa trên cả vàng và đô-la Mỹ, đồng tiền duy nhất có thể chuyển đổi thành vàng. Do đó, cần phải tích lũy đô-la để có thể đổi lấy vàng.
 
-![image](assets/fr/097.webp)
+![image](assets/vi/097.webp)
 Vào thời điểm đó, cụ thể là trong Chiến tranh Việt Nam, sự gia tăng thâm hụt ngân sách của chính phủ Mỹ đã khiến nhiều quốc gia nước ngoài, bao gồm cả Pháp, muốn chuyển đổi đô-la của họ thành vàng tại FED. Vào ngày 15 tháng 8 năm 1971, Tổng thống Nixon đã quyết định hủy bỏ lời hứa chuyển đổi đô-la thành vàng, từ đó tạo ra đồng tiền giấy hoàn toàn đầu tiên trong lịch sử của Hoa Kỳ. Ngày này được đánh dấu là thời điểm tiền tệ hoàn toàn nằm dưới sự kiểm soát của các ngân hàng trung ương. Trong một cuộc phỏng vấn, Richard Nixon được cho là đã nói:
 
 > Ngày nay, tất cả chúng ta là người theo Chủ nghĩa Keynes.
 
 Thực vậy, đối với nhiều nhà kinh tế học Keynes, việc từ bỏ chế độ bản vị vàng đã cho phép chính phủ có sự linh hoạt cần thiết để phản ứng hoặc ngăn chặn các cuộc khủng hoảng kinh tế.
 
-![image](assets/fr/098.webp)
+![image](assets/vi/098.webp)
 
 Theo Alan Greenspan, cựu chủ tịch FED, ngân hàng trung ương Mỹ, chế độ bản vị vàng không tương thích với nợ công và việc tài trợ cho nhà nước phúc lợi:
 
@@ -1490,7 +1490,7 @@ Theo Alan Greenspan, cựu chủ tịch FED, ngân hàng trung ương Mỹ, ch�
 
 Ngược lại, đối với những người như Jacques Rueff, việc từ bỏ kim loại quý là một sai lầm chỉ có thể dẫn đến sự sụt giảm liên tục trong sức mua, đi kèm với sự sụt giảm trong mức sống, gia tăng bất bình đẳng về thu nhập và sự bất ổn kinh tế ngày càng tăng.
 
-![image](assets/fr/099.webp)
+![image](assets/vi/099.webp)
 
 Vào tháng 2 năm 1965, trong một cuộc họp báo trên truyền hình, Tướng de Gaulle, được truyền cảm hứng từ Rueff, đã đề xuất quay trở lại chế độ bản vị vàng. Ông tuyên bố:
 
@@ -1500,7 +1500,7 @@ Vào tháng 2 năm 1965, trong một cuộc họp báo trên truyền hình, Tư
 
 Vào năm 1976, Hayek đã đề xuất một giải pháp thay thế cho độc quyền của Nhà nước trong việc tạo ra tiền tệ: sự cạnh tranh giữa các loại tiền tệ. Trong cuốn sách của mình, _Sự phi quốc gia hoá của tiền tệ - The Denationalization of Money_, ông đã tưởng tượng về một thị trường tiền tệ không có độc quyền của Nhà nước, nơi mà nhiều đồng tiền tư nhân tồn tại. Việc tạo ra và quản lý các loại tiền tệ khác nhau bởi các thực thể tư nhân sẽ cho phép các cá nhân lựa chọn đồng tiền ổn định và đáng tin cậy nhất, từ đó khuyến khích sự cạnh tranh và kỷ luật giữa các nhà phát hành.
 
-![image](assets/fr/100.webp)
+![image](assets/vi/100.webp)
 
 Ông viết:
 
@@ -1508,7 +1508,7 @@ Vào năm 1976, Hayek đã đề xuất một giải pháp thay thế cho độc
 
 Theo Hayek, sự bất ổn trước đây của nền kinh tế thị trường là do yếu tố quan trọng nhất để điều tiết các cơ chế thị trường, tiền tệ, chưa thể là kết quả của một quá trình thị trường tự do.
 
-![image](assets/fr/101.webp)
+![image](assets/vi/101.webp)
 Hayek tin rằng một thị trường tự do của các đồng tiền tư nhân sẽ dẫn đến sự ổn định tiền tệ lớn hơn. Gần 50 năm sau, một loại tiền điện tử như Bitcoin đã hiện thực hoá tầm nhìn cạnh tranh của Hayek bằng cách mang lại một giải pháp phi tập trung thay thế cho hệ thống độc quyền của các ngân hàng trung ương. Bitcoin, với giới hạn phát hành ở mức 21 triệu đơn vị, là một biện pháp để chống lại lạm phát và sự tùy tiện của các nhà quản lý.
 
 
@@ -1520,7 +1520,7 @@ Hayek tin rằng một thị trường tự do của các đồng tiền tư nh�
 
 Cuộc khủng hoảng mà chúng ta đang trải qua là một cuộc khủng hoảng về văn minh, tức là, một cuộc khủng hoảng trí tuệ với những hậu quả về mặt đạo đức, chính trị và kinh tế.
 
-![image](assets/fr/102.webp)
+![image](assets/vi/102.webp)
 
 Có rất nhiều cuộc thảo luận về cuộc khủng hoảng chính trị, sự suy thoái của dân chủ nghị viện, chính phủ đại diện, và do đó là tự do. Người ta dễ dàng đổ lỗi cho Chủ nghĩa Tư bản và "sự thống trị của thị trường" vì đã gây ra cuộc khủng hoảng này.
 

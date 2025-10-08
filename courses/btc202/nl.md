@@ -355,7 +355,7 @@ Het Bitcoin protocol is geen software: het is een verzameling stilzwijgende rege
 
 
 
-Een implementatie is daarom nodesoftware: een programma dat in staat is om te communiceren met andere machines op het Bitcoin netwerk, blokken en transacties te downloaden, te verifiëren, op te slaan en te propageren, en lokaal consensus en relay regels af te dwingen. Elke implementatie is een concrete interpretatie van het protocol, geschreven in een bepaalde programmeertaal, met zijn eigen architectuur, prestaties en ergonomie. Elke implementatie heeft ook zijn eigen ontwikkelingsorganisatie, met zijn eigen verdeling van verantwoordelijkheden.
+Een implementatie is daarom nodesoftware: een programma dat in staat is om te communiceren met andere machines op het Bitcoin netwerk, blokken en transacties te downloaden, te verifiëren, op te slaan en te verspreiden, en lokaal consensus en relay regels af te dwingen. Elke implementatie is een concrete interpretatie van het protocol, geschreven in een bepaalde programmeertaal, met zijn eigen architectuur, prestaties en ergonomie. Elke implementatie heeft ook zijn eigen ontwikkelingsorganisatie, met zijn eigen verdeling van verantwoordelijkheden.
 
 
 
@@ -371,11 +371,11 @@ Van deze implementaties domineert er één veruit: **Bitcoin core**.
 
 
 
-Bitcoin core is de referentiesoftware voor het Bitcoin protocol. Het is afgeleid van de originele code geschreven door Satoshi Nakamoto in 2008-2009, en is er een directe voortzetting van. Aanvankelijk bekend als "*Bitcoin*", daarna "*Bitcoin QT*" (vanwege de toevoeging van een grafische Interface via de Qt bibliotheek), werd het in 2014 hernoemd naar "*Bitcoin core*" om de software duidelijk te onderscheiden van het netwerk. Sinds versie 0.5 wordt het gedistribueerd met twee componenten: `Bitcoin-qt` (de grafische Interface) en `bitcoind` (de opdrachtregel Interface).
+Bitcoin core is de referentiesoftware voor het Bitcoin protocol. Het is afgeleid van de originele code geschreven door Satoshi Nakamoto in 2008-2009, en is er een directe voortzetting van. Aanvankelijk bekend als "*Bitcoin*", daarna "*Bitcoin QT*" (vanwege de toevoeging van een grafische interface via de Qt library), werd het in 2014 hernoemd naar "*Bitcoin core*" om de software duidelijk te onderscheiden van het netwerk. Sinds versie 0.5 wordt het gedistribueerd met twee componenten: `Bitcoin-qt` (de grafische interface) en `bitcoind` (de command line interface).
 
 
 
-In theorie vertegenwoordigt Bitcoin core niet het Bitcoin protocol, maar is het slechts één implementatie onder vele. Het onderscheidt zich echter door zijn massale adoptie, zijn leeftijd, de robuustheid van zijn code en de nauwgezetheid van zijn ontwikkelingsproces. Bijgevolg zijn in de praktijk de regels toegepast door Bitcoin core de facto die van het Bitcoin protocol: gebruikers, ontwikkelaars, mijnwerkers en ecosysteemdiensten verwijzen er bijna uitsluitend naar.
+In theorie vertegenwoordigt Bitcoin core niet het Bitcoin protocol; het is slechts één implementatie onder vele. Het onderscheidt zich echter door zijn massale adoptie, zijn leeftijd, de robuustheid van zijn code en de nauwgezetheid van zijn ontwikkelingsproces. Bijgevolg zijn in de praktijk de regels toegepast door Bitcoin core de facto die van het Bitcoin protocol: gebruikers, ontwikkelaars, miners en ecosysteemdiensten verwijzen er bijna uitsluitend naar.
 
 
 
@@ -410,12 +410,12 @@ Met andere woorden, ongeveer 9 van de 10 publieke nodes draaien Bitcoin core. De
 
 
 
-Bitcoin core is geschreven in C++. Het is ook een open source project dat wordt onderhouden door een gemeenschap van ontwikkelaars die vrijwillig werken of worden betaald door verschillende entiteiten (vaak door bedrijven in het ecosysteem die een gevestigd belang hebben in de ontwikkeling van Core). [De code wordt gehost op GitHub](https://github.com/Bitcoin/Bitcoin), en de ontwikkeling volgt een rigoureus:
+Bitcoin core is geschreven in C++. Het is ook een open source project dat wordt onderhouden door een gemeenschap van ontwikkelaars die vrijwillig werken of worden betaald door verschillende entiteiten (vaak door bedrijven in het ecosysteem die een gevestigd belang hebben in de ontwikkeling van Core). [De code wordt gehost op GitHub](https://github.com/Bitcoin/Bitcoin), en de ontwikkeling volgt een rigoureus process:
 
 
 
 
-- Contributors** dienen voorstellen in in de vorm van _pull requests_ (PR). In principe kan iedereen een verandering voorstellen, maar het moet getest en gedocumenteerd worden en door een peer review proces gaan.
+- **Bijdragers** dienen voorstellen in in de vorm van _pull requests_ (PR). In principe kan iedereen een verandering voorstellen, maar het moet getest en gedocumenteerd worden en door een peer review proces gaan.
 - De **beheerders** hebben het recht om PR's goed te keuren en samen te voegen. Zij zijn degenen die de samenhang en stabiliteit van het project garanderen. In juli 2025 zijn er vijf van hen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao en Ryan Ofsky.
 - Sinds februari 2023 is er geen **hoofdbeheerder** meer geweest. Deze rol werd aanvankelijk vervuld door Satoshi Nakamoto bij de lancering van Bitcoin, daarna door Gavin Andresen na het vertrek van Nakamoto begin 2011, en ten slotte door Wladimir J. Van Der Laan van 2014 tot 2023.
 
@@ -433,7 +433,7 @@ De ontwikkeling van Bitcoin core volgt een meritocratische logica: nieuwe bijdra
 
 
 
-Hoewel het aantal gebruikers marginaal is, bestaan er andere clients. De belangrijkste is Bitcoin Knots, ontwikkeld door Luke Dashjr, een Fork van Bitcoin core met extra opties en een conservatievere benadering van ontwikkeling. Deze omvatten strengere beperkingen voor transactieformaten.
+Hoewel het aantal gebruikers marginaal is, bestaan er andere clients. De belangrijkste is Bitcoin Knots, ontwikkeld door Luke Dashjr, een fork van Bitcoin core met extra opties en een conservatievere benadering op het vlak van ontwikkeling. Deze omvatten strengere beperkingen voor transactieformaten.
 
 
 
@@ -446,9 +446,9 @@ We kunnen ook vermelden:
 
 
 
-- Libbitcoin**: een modulaire C++ bibliotheek ontwikkeld door Amir Taaki en onderhouden door Eric Voskuil;
-- Bcoin**: een JavaScript-implementatie, niet langer actief onderhouden;
-- BTCD/btcsuit**e: een implementatie in Go.
+- **Libbitcoin**: een modulaire C++ bibliotheek ontwikkeld door Amir Taaki en onderhouden door Eric Voskuil;
+- **Bcoin**: een JavaScript-implementatie, niet langer actief onderhouden;
+- **BTCD/btcsuite**: een implementatie in Go.
 
 
 
@@ -464,11 +464,11 @@ Je zou kunnen denken dat Bitcoin core ontwikkelaars directe controle hebben over
 
 
 
-Dit betekent dat als er geen consensus is over een verandering in Bitcoin core, deze genegeerd kan worden door de nodes, door Bitcoin core niet bij te werken of door simpelweg de implementatie te veranderen. Omgekeerd, als een door gebruikers gewenste functie geblokkeerd wordt in het ontwikkelproces van Core, is het altijd mogelijk om over te stappen op een andere implementatie of Fork het project te verlaten.
+Dit betekent dat als er geen consensus is over een verandering in Bitcoin core, deze genegeerd kan worden door de nodes, door Bitcoin core niet bij te werken of door simpelweg de implementatie te veranderen. Omgekeerd, als een door gebruikers gewenste functie geblokkeerd wordt in het ontwikkelproces van Core, is het altijd mogelijk om over te stappen op een andere implementatie of het project te forken.
 
 
 
-Zoals we later in deze cursus zullen bespreken, zijn het de nodes, op basis van hun economisch gewicht (de handelaren), die een versie van het protocol (en dus de bijbehorende valuta) nut geven door eenheden te accepteren die de regels respecteren. De echte bestuurlijke macht over Bitcoin ligt daarom bij deze handelaren, niet bij de ontwikkelaars.
+Zoals we later in deze cursus zullen bespreken, zijn het de nodes, op basis van hun economisch gewicht (i.e. de handelaren), die een versie van het protocol (en dus de bijbehorende munt) nut geven door eenheden te accepteren die de regels respecteren. De echte bestuurlijke macht over Bitcoin ligt daarom bij deze handelaren, niet bij de ontwikkelaars.
 
 
 

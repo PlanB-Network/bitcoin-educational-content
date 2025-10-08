@@ -1351,130 +1351,85 @@ Tipp: Genau wie bei Videos solltest du eine lokale Sicherungskopie aller Podcast
 
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
 
-Bei Ihren Treffen und Veranstaltungen können Sie einen kleinen Anreiz einführen: Veranstaltungsabzeichen. Die Idee ist, **ein Abzeichen zu erstellen, das man nur bei dieser bestimmten Veranstaltung erhalten kann**. Dieses Konzept existiert auf anderen Blockchains unter dem Namen "POAP" ("Proof Of Attendance Protocol"). Allerdings gibt es derzeit keine freie Möglichkeit, dies auf Bitcoin zu implementieren.
+Bei deinen Treffen und Veranstaltungen kannst du einen kleinen Anreiz einführen: Veranstaltungsabzeichen. Die Idee ist, **ein Abzeichen zu erstellen, das man nur bei dieser bestimmten Veranstaltung erhalten kann**. Dieses Konzept existiert auf anderen Blockchains unter dem Namen "POAP" ("Proof Of Attendance Protocol"). Allerdings gibt es derzeit keine freie Möglichkeit, dies auf Bitcoin zu implementieren.
 
-
-Ein solches System könnte auch dazu verwendet werden, die aktivsten Mitglieder Ihrer Gemeinschaft zu belohnen. Sie könnten zum Beispiel eine jährliche Tombola veranstalten, bei der jedes gesammelte Abzeichen einem Los entspricht. Ein Mitglied, das an allen 12 Treffen in einem Jahr teilnimmt, hätte 12 Lose für die Verlosung.
-
+Ein solches System könnte auch dazu verwendet werden, die aktivsten Mitglieder Ihrer Gemeinschaft zu belohnen. Du könntest zum Beispiel eine jährliche Tombola veranstalten, bei der jedes gesammelte Abzeichen einem Los entspricht. Ein Mitglied, das an allen 12 Treffen in einem Jahr teilnimmt, hätte 12 Lose für die Verlosung.
 
 Ein anderer, traditionellerer Ansatz wäre, die Teilnehmer bei jeder Veranstaltung zu bitten, ihren Vornamen oder Spitznamen und den Grund ihrer Teilnahme auf ein Schild zu schreiben.
-
 Dies ist zwar etwas förmlich, aber es kann den Mitgliedern helfen, gemeinsame Interessen und Gesprächsthemen zu finden, und es macht es auch für Neulinge einfacher, die Organisatoren (oder offizielle Mitglieder der Gemeinschaft/Vereinigung) zu erkennen.
 
-
-Mehrere vom Verein Bitcoin Lille verwendete Abzeichenvorlagen sind [als Open-Source auf Canva verfügbar] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-
+Mehrere vom Verein Bitcoin Lille verwendete Abzeichenvorlagen sind [als Open-Source auf Canva verfügbar](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 ![image](assets/fr/052.webp)
 
-
-
 ## Planung der Übergabe im Todesfall
-
 
 <chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
 
+Zu einem ganz anderen Thema: Das Ableben eines Mitglieds deiner Bitcoin Gemeinschaft.
 
-
-Zu einem ganz anderen Thema: Address ein heikles Thema: das Ableben eines Mitglieds Ihrer Bitcoin Gemeinschaft.
-
-
-Vielleicht werden Sie eines Tages von der Familie eines ehemaligen Mitglieds kontaktiert, um Sie über dessen Tod zu informieren. Sie könnten Ihnen erklären, dass der Verstorbene Anweisungen hinterlassen hat, unter anderem, dass Sie sich mit Ihrer Gemeinschaft, Ihrem Treffen oder Ihrem Verband in Verbindung setzen sollen.
-
+Vielleicht wirst du eines Tages von der Familie eines ehemaligen Mitglieds kontaktiert, um dich über dessen Tod zu informieren. Du könntest Ihnen erklären, dass der Verstorbene Anweisungen hinterlassen hat, unter anderem, dass sie sich mit deiner Gemeinschaft, deinem Treffen oder deinem Verband in Verbindung setzen sollen.
 
 In einigen Fällen kann die Familie auch Hilfe bei der Rückforderung von Geldern als Begünstigte des Erbes suchen.
 
+Es ist ratsam, mit deiner Gemeinschaft zusammenzuarbeiten, um im Voraus ein klares Verfahren für solche Situationen festzulegen und sicherzustellen, dass:
 
-Es ist ratsam, mit Ihrer Gemeinschaft zusammenzuarbeiten, um im Voraus ein klares Verfahren für solche Situationen festzulegen und sicherzustellen, dass:
-
-
-- Der Verstorbene hat seiner Familie bereits geraten, **niemals private Schlüssel auszutauschen oder physische Geldbörsen zu einem Treffen mitzubringen**.
-- Der Familie ist klar, dass ihr Besuch einen erzieherischen Zweck hat: Sie soll lernen, wie Bitcoin funktioniert, damit sie später die Kontrolle über die Fonds übernehmen kann.
+- Der Verstorbene hat seiner Familie bereits geraten, **niemals private Schlüssel auszutauschen oder physische Wallets zu einem Treffen mitzubringen**.
+- Der Familie ist klar, dass ihr Besuch einen lehrenden Zweck hat: Sie soll lernen, wie Bitcoin funktioniert, damit sie später die Kontrolle über die Gelder übernehmen kann.
 - Die Familie kennt die in ihrem Land geltenden Gesetze über Schenkungen, Erbschaften und die Umwandlung von Bitcoin in Fiat.
-
 
 Ein Standardprotokoll verhindert auch, dass jemand, ob Mitglied oder Gast, die Situation ausnutzt, um Geld zu stehlen.
 
-Sie könnten eine spezielle Arbeitsgruppe bilden, um diesen Prozess zu definieren. Der Verein Bitcoin Lille arbeitet bereits an einem solchen [Dokument] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), das in den kommenden Monaten als Open-Source veröffentlicht werden soll.
-
-
+Du könntest eine spezielle Arbeitsgruppe bilden, um diesen Prozess zu definieren. Der Verein Bitcoin Lille arbeitet bereits an einem solchen [Dokument](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), das in den kommenden Monaten als Open-Source veröffentlicht werden soll.
 
 ## Vorträge an Schulen und Universitäten halten
 
-
 <chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
 
-
-
-Die Liste der oben beschriebenen Projekte ist natürlich nicht erschöpfend. Im Allgemeinen handelt es sich dabei eher um interne Projekte für die Gemeinschaft oder für Treffen, die im Laufe ihrer Entwicklung relativ einfach umgesetzt werden können.
-
+Die Liste der oben beschriebenen Projekte ist natürlich nicht erschöpfend. Im Allgemeinen handelt es sich dabei eher um interne Projekte für die Gemeinschaft oder für Treffen, die im Laufe deiner Entwicklung relativ einfach umgesetzt werden können.
 
 Wenden wir uns nun dem Onboarding zu.
 
+Wie du weißt, ist eine der besten Möglichkeiten **ein großes Publikum auf einmal zu erreichen, eine kostenlose Vorlesung** zu halten. Dies kann an Hochschulen und Universitäten geschehen, um sowohl junge Menschen (als auch nicht mehr ganz so junge) mit Bitcoin vertraut zu machen, unabhängig davon, ob sie ganz neu dabei sind oder ihr Verständnis vertiefen wollen.
 
-Wie Sie wissen, ist eine der besten Möglichkeiten **ein großes Publikum auf einmal zu erreichen, eine kostenlose Vorlesung** zu halten. Dies kann an Hochschulen und Universitäten geschehen, um sowohl junge Menschen (als auch nicht mehr ganz so junge) mit Bitcoin vertraut zu machen, unabhängig davon, ob sie ganz neu dabei sind oder ihr Verständnis vertiefen wollen.
-
-
-Einen Vortrag vor Dutzenden oder gar Hunderten von Zuhörern zu halten, erfordert mehr als nur technisches Know-how. Sie werden es brauchen:
-
+Einen Vortrag vor Dutzenden oder gar Hunderten von Zuhörern zu halten, erfordert mehr als nur technisches Know-how. Du wirst brauchen:
 
 - Sicheres Auftreten in der Öffentlichkeit
 - Gute Stressbewältigung
 - Deutliche Artikulation
 - Gutes Zeitmanagement
-- Eine gut recherchierte, qualitativ hochwertige Präsentation oder ein Workshop, der auf das Qualifikationsniveau Ihres Publikums zugeschnitten ist
+- Eine gut recherchierte, qualitativ hochwertige Präsentation oder ein Workshop, der auf das Qualifikationsniveau deines Publikums zugeschnitten ist
 
+Ebenso wichtig ist es, **offen zu bleiben und zu wissen, wann man Konzepte vereinfachen sollte**, insbesondere während der Fragerunde oder einer Podiumsdiskussion. Es geht nicht darum, seine Prinzipien aufzugeben, sondern anzuerkennen, dass andere die Dinge anders sehen könnten. Manchmal ist es am besten, später zu antworten oder es sein zu lassen, damit die Diskussion weitergehen kann. Wenn deine Argumente stichhaltig und gut belegt sind, werden die Teilnehmer dies erkennen.
 
-Ebenso wichtig ist es, **offen zu bleiben und zu wissen, wann man Konzepte vereinfachen sollte**, insbesondere während der Fragerunde oder einer Podiumsdiskussion. Es geht nicht darum, seine Prinzipien aufzugeben, sondern anzuerkennen, dass andere die Dinge anders sehen könnten. Manchmal ist es am besten, später zu antworten oder es sein zu lassen, damit die Diskussion weitergehen kann. Wenn Ihre Argumente stichhaltig und gut belegt sind, werden die Teilnehmer dies erkennen.
-
-
-Wenn Sie sich bereit fühlen, dann tun Sie es! Die Welt braucht dringend eine bessere Aufklärung über Bitcoin.
-
+Wenn du dich bereit fühlst, dann tue es! Die Welt braucht dringend eine bessere Aufklärung über Bitcoin.
 Dies ist jedoch kein leichtes Unterfangen: Es erfordert Motivation, Anstrengung und die richtigen Verbindungen.
-
-
 
 ![image](assets/fr/053.webp)
 
-
-
 Die Organisation eines Vortrags oder Workshops in einer Schule oder Universität beginnt damit, den richtigen Ansprechpartner zu finden. Das könnte sein:
 
-
 - Eine persönliche Bekanntschaft
-- Ein Studentenwerk
+- Ein Studentennetzwerk
 - Eine Studentenvereinigung, die Vortragsreihen oder Veranstaltungen organisiert
-- Ehemalige Professoren Ihrer Ingenieurschule oder Universität
-- Der Studiengangskoordinator, wenn er sich direkt an Sie wendet
+- Ehemalige Professoren Ihrer Ingenieursschule oder Universität
+- Der Studiengangskoordinator, wenn er direkt Kontakt aufnimmt
 
-
-Der erste Schritt besteht in der Regel darin, Ihre Initiative oder Ihren Verein vorzustellen und um ein Treffen zu bitten. Im besten Fall führt dies ein paar Wochen später zu einer Präsentation über Bitcoin vor Studenten.
-
+Der erste Schritt besteht in der Regel darin, deine Initiative oder deinen Verein vorzustellen und um ein Treffen zu bitten. Im besten Fall führt dies ein paar Wochen später zu einer Präsentation über Bitcoin vor Studenten.
 
 Leider wird Bitcoin von einem Großteil der Medien und vielen Politikern immer noch verteufelt, was einige zu der Ansicht veranlasst, dass es keinen Platz in den Klassenzimmern hat. Ablehnungen sind üblich, insbesondere in akademischen Kreisen, wo Themen wie Proof of Work und Energieverbrauch nach wie vor umstritten sind.
 
-
-Dennoch ist es einen Versuch wert, vor allem bei Studentenvereinigungen und -verbänden. Und wer weiß? Selbst wenn Ihr erster Versuch mit einem "Nein" quittiert wird, könnte es sein, dass Sie beim nächsten Ansturm eine E-Mail in Ihrem Posteingang finden, in der Sie eingeladen werden, mit, sagen wir, 280 Studenten zu sprechen!
-
-
+Dennoch ist es einen Versuch wert, vor allem bei Studentenvereinigungen und -verbänden. Und wer weiß? Selbst wenn dein erster Versuch mit einem "Nein" quittiert wird, könnte es sein, dass du beim nächsten Bullenmarkt eine E-Mail in Ihrem Posteingang findest, in der du eingeladen wirst, mit, sagen wir, 280 Studenten zu sprechen!
 
 ![image](assets/fr/054.webp)
 
-
-
 ## Ansprechen von Unternehmen
-
 
 <chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
 
-
-
 Ein Unternehmen dazu zu bringen, Bitcoin zu akzeptieren, ist für viele Bitcoiner ein bisschen wie das Freischalten einer seltenen Errungenschaft in Ihrem Pokédex.
 
-
 Jeder Händler ist anders, und das Onboarding bringt seine eigenen Herausforderungen mit sich:
-
 
 - Sie brauchen immer noch Fiat-Währung, um ihre Lieferanten zu bezahlen.
 - Sie benötigen klare, buchhaltungsreife Finanzberichte.
@@ -1483,478 +1438,309 @@ Jeder Händler ist anders, und das Onboarding bringt seine eigenen Herausforderu
 - Die Suche nach einer einwandfreien Softwarelösung kann schwierig sein.
 - Dem Händler verständlich machen, warum es sich lohnt, Bitcoin als Zahlung zu akzeptieren.
 
-
-
 ![image](assets/fr/055.webp)
 
+Die Einbindung lokaler Unternehmen ist eine der besten Möglichkeiten, das Bitcoin-Ökosystem deiner Stadt auszubauen. Der Schlüssel ist, Schritt für Schritt vorzugehen:
 
+1) **Bitte zahle bei jedem Einkauf in Bitcoin:** Meistens wirst du ein "Nein" und vielleicht einen verwunderten oder sogar leicht abschätzigen Blick ernten, aber allein die Frage zeigt, dass Bitcoin etwas ist, das "normale Leute" benutzen können, und dass es als Zahlungsmittel immer beliebter wird. Du könntest dich sogar mit ein paar Freunden zusammentun und an verschiedenen Tagen im selben Geschäft vorbeischauen und jedes Mal darum bitten, mit Bitcoin zu bezahlen. Früher oder später wird der Besitzer neugierig werden.
 
-Die Einbindung lokaler Unternehmen ist eine der besten Möglichkeiten, das Bitcoin-Ökosystem Ihrer Stadt auszubauen. Der Schlüssel ist, Schritt für Schritt vorzugehen:
-
-
-1/ **Bitte zahlen Sie bei jedem Einkauf in Bitcoin**
-
-Meistens werden Sie ein "Nein" und vielleicht einen verwunderten oder sogar leicht abschätzigen Blick ernten, aber allein die Frage zeigt, dass Bitcoin etwas ist, das "normale Leute" benutzen können, und dass es als Zahlungsmittel immer beliebter wird. Sie können sich sogar mit ein paar Freunden zusammentun und an verschiedenen Tagen im selben Geschäft vorbeischauen und jedes Mal darum bitten, mit Bitcoin zu bezahlen. Früher oder später wird der Besitzer neugierig werden.
-
-
-2/ **Eine einfache, klare Erklärung anbieten**
-
-Wenn sie fragen, was Bitcoin ist, fassen Sie sich kurz und ohne Jargon. Zum Beispiel:
-
+2) **Eine einfache, klare Erklärung anbieten:** Wenn sie fragen, was Bitcoin ist, fasse dich kurz und ohne Jargon. Zum Beispiel:
 *"Bitcoin ist Geld, das nicht von Banken kontrolliert wird, ohne Vermittler funktioniert, nicht zensiert werden kann, nicht der Inflation unterworfen ist und niedrigere Gebühren als das traditionelle Bankwesen hat"*
+Gebe ihnen dann einen Flyer wie "21 Gründe für den Einsatz von Bitcoin" oder "10 Gründe für die Übernahme von Bitcoin in Ihrem Unternehmen" mit deinen Kontaktinformationen oder den Angaben zu deinem Treffen. Auf diese Weise wissen sie, wo sie dich finden können, wenn sie für eine Demo bereit sind.
 
-Geben Sie ihnen dann einen Flyer wie "21 Gründe für den Einsatz von Bitcoin" oder "10 Gründe für die Übernahme von Bitcoin in Ihrem Unternehmen" mit Ihren Kontaktinformationen oder den Angaben zu Ihrem Treffen. Auf diese Weise wissen sie, wo sie Sie finden können, wenn sie für eine Demo bereit sind.
-
-
-3/ **Veranstalten Sie eine Vorführung**
-
-Wenn sie Interesse bekunden, vereinbaren Sie einen Termin, um ihnen eine Zahlungslösung vorzustellen.
-
+3) **Veranstalten Sie eine Vorführung:** Wenn sie Interesse bekunden, vereinbare einen Termin, um ihnen eine Zahlungslösung vorzustellen.
 Eine gute Option ist **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**, weil es:
 
+  - Ermöglicht Händlern, täglich automatisch BTC in Fiat umzuwandeln, damit sie ihre Lieferanten bezahlen können.
+  - Sie können einen bestimmten Prozentsatz in BTC behalten, wenn sie dies wünschen.
+  - Generiert exportierbare Buchhaltungsberichte für ihre Buchhalter.
+  - Verfügt über ein einfaches Dashboard für Manager.
+  - Gibt den Mitarbeitern ein intuitives Interface, um Zahlungen anzunehmen, ohne die Kasse zu berühren.
+  - Die Kosten sind geringer als die 2-3%igen Gebühren, die von traditionellen Zahlungsnetzen erhoben werden.
 
-    - Ermöglicht Händlern, täglich automatisch BTC in Fiat umzuwandeln, damit sie ihre Lieferanten bezahlen können.
-    - Sie können einen bestimmten Prozentsatz in BTC behalten, wenn sie dies wünschen.
-    - Generiert exportierbare Buchhaltungsberichte für ihre Buchhalter.
-    - Verfügt über ein einfaches Dashboard für Manager.
-    - Gibt den Mitarbeitern ein intuitives Interface, um Zahlungen anzunehmen, ohne die Kasse zu berühren.
-    - Die Kosten sind geringer als die 2-3%igen Gebühren, die von traditionellen Zahlungsnetzen erhoben werden.
+4) **Unterstütze sie, sobald sie anfangen, Bitcoin zu akzeptieren:** Nachdem sie an Bord sind:
 
-
-4/ **Unterstützen Sie sie, sobald sie anfangen, Bitcoin zu akzeptieren**
-
-Nachdem sie an Bord sind:
-
-
-    - Besuchen Sie regelmäßig und kaufen Sie ein.
-    - Sehen Sie nach, ob alles reibungslos läuft.
-    - Geben Sie Ihre Kontaktdaten bei Bedarf erneut bekannt.
-    - Laden Sie sie zu Ihren Treffen ein.
-    - Fügen Sie sie zur [btcmap.org map](https://btcmap.org/) hinzu und informieren Sie [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) auf Twitter, um die Sichtbarkeit zu erhöhen.
-    - Erwägen Sie, Workshops oder Treffen an ihrem Standort zu veranstalten.
-
-
+  - Besuche sie regelmäßig und kaufe ein.
+  - Siehe nach, ob alles reibungslos läuft.
+  - Gebe deine Kontaktdaten bei Bedarf erneut bekannt.
+  - Lade sie zu Treffen ein.
+  - Füge sie zur [btcmap.org map](https://btcmap.org/) hinzu und informiere [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) auf Twitter, um die Sichtbarkeit zu erhöhen.
+  - Erwäge, Workshops oder Treffen an ihrem Standort zu veranstalten.
 
 ![image](assets/fr/056.webp)
 
+5) **Kontakt zu lokalen Händlern:** Sobald du einige Bitcoin-freundliche Unternehmen hast, schlage vor, eine Telegram-Gruppe nur für Händler zu gründen. Dies kann:
 
-
-5/ **Kontakt zu lokalen Händlern**
-
-Sobald Sie einige Bitcoin-freundliche Unternehmen haben, schlagen Sie vor, eine Telegram-Gruppe nur für Händler zu gründen. Dies kann:
-
-
-- Lassen Sie sie Erfahrungen austauschen und neue Unternehmen an Bord holen.
-- Dienen Sie als schneller Kanal für den technischen Support.
+- Lasse sie Erfahrungen austauschen und neue Unternehmen an Bord holen.
+- Diene als schneller Kanal für den technischen Support.
 - Stärkung des lokalen Bitcoin-Netzes.
 
-
-Akquise ist ein langfristiges Unterfangen. Sie erfordert Geduld, Ausdauer und Strategie. Aber wenn Ihre Gemeinde bereit ist, könnten Sie damit beginnen, den Grundstein für eine echte Bitcoin-Kreislaufwirtschaft zu legen, genau wie [Arnheim in den Niederlanden](https://www.arnhembitcoinstad.nl/) in den Niederlanden.
-
-
+Akquise ist ein langfristiges Unterfangen. Sie erfordert Geduld, Ausdauer und Strategie. Aber wenn deine Gemeinschaft bereit ist, könntest du damit beginnen, den Grundstein für eine echte Bitcoin-Kreislaufwirtschaft zu legen, genau wie [Arnheim in den Niederlanden](https://www.arnhembitcoinstad.nl/) in den Niederlanden.
 
 ## Kontaktieren Sie die lokale Presse und das Radio
 
-
 <chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
-
-
 
 Bitcoiner konzentrieren sich oft auf die sozialen Medien und Online-Plattformen, um auf sich aufmerksam zu machen, aber das ist nur ein Teil des Bildes. Lokale Presse und Radio können mächtige Verbündete sein.
 
+Einige Gemeinschaften, wie [Breizh Bitcoin](https://breizhbitcoin.com/) in Frankreich, wenden sich **regelmäßig an ihre lokalen Medien** um:
 
-Einige Gemeinschaften, wie [Breizh Bitcoin] (https://breizhbitcoin.com/) in Frankreich, wenden sich **regelmäßig an ihre lokalen Medien**:
-
-
-- Ankündigung anstehender Veranstaltungen (Treffen, Präsentationen, Workshops, Halving-Partys usw.).
-- Laden Sie Journalisten ein, Bitcoin-freundliche Unternehmen zu besuchen und über sie zu schreiben.
-- Teilen Sie Veranstaltungstermine und -orte mit, um sie in lokale Listen aufzunehmen.
-
+- Anstehender Veranstaltungen anzukündigen (Treffen, Präsentationen, Workshops, Halving-Partys usw.).
+- Journalisten einzuladen, Bitcoin-freundliche Unternehmen zu besuchen und über sie zu schreiben.
+- Veranstaltungstermine und -orte mitzuteilen, um sie in lokale Listen aufzunehmen.
 
 In vielen Zeitungen gibt es immer noch eine Rubrik "Aktuelles", oft versteckt auf den letzten Seiten, in der anstehende lokale Veranstaltungen aufgeführt werden. Breizh Bitcoin hat festgestellt, dass dieser Ansatz funktioniert: Neulinge sind zu Treffen gekommen, nur weil sie den Eintrag in der Zeitung gesehen haben.
 
+Diese Strategie mag in bestimmten Gebieten besser funktionieren als in anderen, aber es ist einen Versuch wert. Du könnest damit beginnen, dich an regionale Nachrichtensender zu wenden um ein Interview oder einen Podcast-Auftritt vorzuschlagen. Frankreich hat Beispiele wie:
 
-Diese Strategie mag in bestimmten Gebieten besser funktionieren als in anderen, aber es ist einen Versuch wert. Sie können damit beginnen, sich an regionale Nachrichtensender zu wenden, Frankreich hat Beispiele wie:
+- [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale)
+- [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale)
 
-
-- [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
-- [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale).
-
-und durch Kontaktaufnahme mit lokalen Radiosendern, um ein Interview oder einen Podcast-Auftritt vorzuschlagen.
-
-
-Seien Sie sich bewusst, dass Medieninterviews heikel sein können. Worte können aus dem Zusammenhang gerissen oder falsch wiedergegeben werden. Vorbereitung ist wichtig.
-
-
+Sei dir bewusst, dass Medieninterviews heikel sein können. Worte können aus dem Zusammenhang gerissen oder falsch wiedergegeben werden. Vorbereitung ist wichtig.
 
 ![image](assets/fr/057.webp)
 
+Neben den in diesem Abschnitt vorgeschlagenen Projekten können natürlich **viele weitere Projekte durchgeführt werden**. Alles hängt von deiner Zeit und deiner Motivation ab, aber auch von der Schwierigkeit des jeweiligen Projekts.
 
+Abschließende Tipps für jedes Öffentlichkeits-Projekt:
 
-Neben den in diesem Abschnitt vorgeschlagenen Projekten können natürlich **viele weitere Projekte durchgeführt werden**. Alles hängt von Ihrer Zeit und Ihrer Motivation ab, aber auch von der Schwierigkeit des jeweiligen Projekts.
+1) **Plane im Voraus**: Definiere deine Ziele, die erforderlichen Schritte und wer was tun wird.
 
+2) **Schritt für Schritt**: Vermeide ein Ausbrennen, indem du deine Anstrengungen einteilst.
 
-Abschließende Tipps für jedes aufsuchende Projekt:
+3) **Bitte um Hilfe**: Bitte deine Mitglieder und benachbarte Gemeinschaften um Unterstützung.
 
-1) **Planen Sie im Voraus**: Definieren Sie Ihre Ziele, die erforderlichen Schritte und wer was tun wird.
-
-2) **Schritt für Schritt**: Vermeiden Sie ein Ausbrennen, indem Sie Ihre Anstrengungen einteilen.
-
-3) **Bitten Sie um Hilfe**: Bitten Sie Ihre Mitglieder und benachbarte Gemeinschaften um Unterstützung.
-
-
-Denken Sie daran: Jede Bitcoin-Gemeinschaft war schon einmal dort, wo Sie jetzt sind. Zögern Sie nicht, von ihren Erfahrungen und Ratschlägen zu lernen.
-
-
+Denke daran: Jede Bitcoin-Gemeinschaft war schon einmal dort, wo du jetzt bist. Zögere nicht, von deinen Erfahrungen und Ratschlägen zu lernen.
 
 # Die Zukunft vorwegnehmen
 
-
 <partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
-
-
 
 ## Planung für einen Anstieg der Teilnehmerzahl
 
-
 <chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
-
-
 
 Als Bitcoin bei Block 840.000 in seine vierte Ära eintrat, begannen immer mehr Menschen zu erkennen, dass es sich um eine technologische, finanzielle und soziale Revolution handelt.
 
-
 Wie der Aufstieg des Internets wird auch diese Revolution Zeit brauchen, was eigentlich ein Vorteil ist. Das gibt den Menschen die Möglichkeit, **die Grundlagen von Bitcoin zu erlernen**, zu verstehen, wie man es nutzt, und ermöglicht es Entwicklern und Unternehmen, **die Protokolle und Anwendungen** zu entwickeln, die sein volles Potenzial erschließen werden.
 
+Niemand kann die Zukunft vorhersagen, aber wir können **einen starken Anstieg der Bitcoin-Adaption** erwarten. Das bedeutet, **auf alle Szenarien** vorbereitet zu sein, auch auf extreme, wie einen Zusammenbruch des traditionellen Finanzsystems oder ein völliges Verbot von Bitcoin.
 
-Niemand kann die Zukunft vorhersagen, aber wir können **einen starken Anstieg der Bitcoin-Annahme** erwarten. Das bedeutet, **auf alle Szenarien** vorbereitet zu sein, auch auf extreme, wie einen Zusammenbruch des traditionellen Finanzsystems oder ein völliges Verbot von Bitcoin.
+In diesem siebten und vorletzten Teil des Kurses geht es um die wichtigsten Punkte, die du beachten solltest, wenn deine Community und dein Treffen wachsen.
 
+Die erste und am leichtesten zu erwartende Entwicklung ist die Zunahme der Zahl der Mitglieder deiner Gemeinschaft. Dies wird sich in zweierlei Hinsicht auf Sie auswirken:
 
-In diesem siebten und vorletzten Teil des Kurses geht es um die wichtigsten Punkte, die Sie beachten sollten, wenn Ihre Community und Ihre Treffen wachsen.
+1) **Ihre Kommunikationskanäle (Telegram, Signal, Matrix usw.) werden mit der Zeit überfüllt**, wodurch es schwieriger wird, bei Gesprächen auf dem Laufenden zu bleiben. Es gibt zwei Dinge, die du im Auge behalten solltest.
 
+- Erstens: Wenn 500 Personen in einem einzigen Chat über alle möglichen Themen diskutieren, wird die schiere Menge an Nachrichten und Benachrichtigungen unweigerlich dazu führen, dass viele Mitglieder abschalten. Das ist ein guter Zeitpunkt, um deine Einrichtung zu überdenken, z. B. indem du zu Telegram-Supergruppen oder einem Discord-Server wechselst, die es beide einfach machen, Diskussionen nach Themen zu organisieren.
 
-Die erste und am leichtesten zu erwartende Entwicklung ist die Zunahme der Zahl der Mitglieder Ihrer Gemeinschaft. Dies wird sich in zweierlei Hinsicht auf Sie auswirken:
-
-
-1/ **Ihre Kommunikationskanäle (Telegram, Signal, Matrix usw.) werden mit der Zeit überfüllt**, wodurch es schwieriger wird, bei Gesprächen auf dem Laufenden zu bleiben. Es gibt zwei Dinge, die Sie im Auge behalten sollten.
-
-
-Erstens: Wenn 500 Personen in einem einzigen Chat über alle möglichen Themen diskutieren, wird die schiere Menge an Nachrichten und Benachrichtigungen unweigerlich dazu führen, dass viele Mitglieder abschalten. Das ist ein guter Zeitpunkt, um Ihre Einrichtung zu überdenken, z. B. indem Sie zu Telegram-Supergruppen oder einem Discord-Server wechseln, die es beide einfach machen, Diskussionen nach Themen zu organisieren.
-
-
-Zweitens: Mehr Menschen in Ihren Kanälen bedeuten mehr Bots, mehr Betrug und damit mehr Moderationsaufwand. Bereiten Sie sich darauf vor, indem Sie ein klares Regelwerk erstellen, auf das Sie sich bei der Moderation von Nachrichten beziehen können. Unserer Erfahrung nach lassen sich so Konflikte vermeiden, insbesondere wenn die Regeln in Ihren Kanälen leicht zugänglich sind.
-
-Ein gutes Beispiel ist das **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/)**, das vor ein paar Jahren für die Telegram-Gruppe und den Discord-Server geschrieben wurde. Es basiert auf einfachen, allgemeingültigen Prinzipien, und Sie können sogar [eine anpassbare Version des Designs hier](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) herunterladen.
-
-
+- Zweitens: Mehr Menschen in deinen Kanälen bedeuten mehr Bots, mehr Betrug und damit mehr Moderationsaufwand. Bereite dich darauf vor, indem du ein klares Regelwerk erstellst, auf das du dich bei der Moderation von Nachrichten beziehen kannst. Unserer Erfahrung nach lassen sich so Konflikte vermeiden, insbesondere wenn die Regeln in deinen Kanälen leicht zugänglich sind.
+Ein gutes Beispiel ist das **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/)**, das vor ein paar Jahren für die Telegram-Gruppe und den Discord-Server geschrieben wurde. Es basiert auf einfachen, allgemeingültigen Prinzipien, und du kannst sogar [eine anpassbare Version des Designs hier](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) herunterladen.
 
 ![image](assets/fr/058.webp)
 
-
-
-2/ **Ihre Treffen und Veranstaltungen werden gut besucht sein, mit vielen neuen Gesichtern, die Kontakte knüpfen wollen**.
-
+2) **Deine Treffen und Veranstaltungen werden gut besucht sein, mit vielen neuen Gesichtern, die Kontakte knüpfen wollen**.
 Mit diesem Anstieg der Besucherzahlen:
 
 
-    - es könnte sich lohnen, **einen größeren Ort für Ihre Treffen und Veranstaltungen zu finden**, vor allem, wenn Sie in der Vergangenheit nur etwa zwanzig Personen aufnehmen konnten.
-    - wenn du feststellst, dass die Teilnehmerzahl zu groß wird, kannst du für künftige Treffen entweder **eine Anmeldung der Teilnehmer verlangen** (über die Meetup-App oder ein einfaches Formular) oder **mehrere Treffen pro Monat** veranstalten (z. B. ein Treffen für Anfänger, ein Treffen für Fortgeschrittene und ein Treffen für Profis).
-    - Gleichzeitig ist mit vielen Neueinsteigern in das Ökosystem zu rechnen, deren Hauptziel oft darin besteht, Geld zu verdienen. Um **die Gespräche bei diesen schnell wachsenden Treffen auf Bitcoin** zu konzentrieren, ist es eine gute Idee,:
+  - Könnte  es sich lohnen, **einen größeren Ort für deine Treffen und Veranstaltungen zu finden**, vor allem, wenn du in der Vergangenheit nur etwa zwanzig Personen aufnehmen konntest.
+  - Wenn du feststellst, dass die Teilnehmerzahl zu groß wird, kannst du für künftige Treffen entweder **eine Anmeldung der Teilnehmer verlangen** (über die Meetup-App oder ein einfaches Formular) oder **mehrere Treffen pro Monat** veranstalten (z. B. ein Treffen für Anfänger, ein Treffen für Fortgeschrittene und ein Treffen für Profis).
+  - Gleichzeitig ist mit vielen Neueinsteigern in das Ökosystem zu rechnen, deren Hauptziel oft darin besteht, Geld zu verdienen. Um **die Gespräche bei diesen schnell wachsenden Treffen auf Bitcoin** zu konzentrieren, ist es eine gute Idee:
 
 a) Eine **Bitcoin-Präsentation** während dieser Veranstaltungen einbauen, da dies natürlich einen Großteil der Gespräche auf dieses Thema lenken wird (und weg von dem neuesten, angeblich "revolutionären" Shitcoin-Projekt);
 
-b) **Vermeiden Sie es, sich nur mit anderen Bitcoinern** zu treffen. Gehen Sie stattdessen auf **Neulinge** zu, auch wenn das bedeutet, dass Sie sich zur Begrüßung in den hinteren Teil des Raumes stellen. Von dort aus können Sie darüber sprechen, warum sie gekommen sind, wonach sie suchen, die Ziele (oder sogar die Grundprinzipien) Ihrer Gemeinschaft und so weiter.
+b) **Vermeide es, sich nur mit anderen Bitcoinern** zu treffen. Gehe stattdessen auf **Neulinge** zu, auch wenn das bedeutet, dass du dich zur Begrüßung in den hinteren Teil des Raumes stellst. Von dort aus könnest du darüber sprechen, warum sie gekommen sind, wonach sie suchst, die Ziele (oder sogar die Grundprinzipien) deiner Gemeinschaft und so weiter.
 
-
-Und schließlich, auch wenn es bedauerlich ist, dies sagen zu müssen, können Betrüger bei Treffen auftauchen. Ihr Ziel könnte es sein, endlos über ihr Schneeballsystem, MLM oder eine "Blockchain Revolution powered by AI" zu reden Es ist auch durchaus möglich, dass eines Tages jemand mit schlechten Absichten teilnimmt, um Geld zu waschen oder zu versuchen, BTC mit gefälschten Scheinen zu kaufen.
-
+Und schließlich, auch wenn es bedauerlich ist, dies sagen zu müssen, können Betrüger bei Treffen auftauchen. Dein Ziel könnte es sein, endlos über dein Schneeballsystem, MLM oder eine "Blockchain Revolution powered by AI" zu reden Es ist auch durchaus möglich, dass eines Tages jemand mit schlechten Absichten teilnimmt, um Geld zu waschen oder zu versuchen, BTC mit gefälschten Scheinen zu kaufen.
 
 In heiklen Situationen wie diesen ist es am einfachsten, höflich zu erklären, dass das Treffen nicht der richtige Ort dafür ist, und dies mit beliebigen Argumenten zu untermauern (zum Beispiel mit dem Hinweis, dass die Polizei in Zivil anwesend sein könnte).
 
-
-Wenn sie sich leider weigern zu gehen oder sich respektvoll zu verhalten (ja, das ist schon vorgekommen), können Sie die Gruppe direkt während des Treffens mit Address informieren, dass eine Person oder mehrere Personen versuchen, bösartige Aktivitäten durchzuführen.
-
+Wenn sie sich leider weigern zu gehen oder sich respektvoll zu verhalten (ja, das ist schon vorgekommen), kannst du die Gruppe direkt während des Treffens informieren, dass eine Person oder mehrere Personen versuchen, bösartige Aktivitäten durchzuführen.
 
 Zum Glück sind solche Situationen selten und oft eher absurd als bedrohlich, aber man sollte trotzdem vorbereitet sein.
 
+Für den Seelenfrieden: Solange du nicht persönlich gegen das Gesetz verstößst oder direkt illegale Transaktionen ermöglichst, bist du rechtlich nicht für die Handlungen anderer bei deiner Veranstaltung verantwortlich (zumindest nach französischem Recht).
 
-Für den Seelenfrieden: Solange Sie nicht persönlich gegen das Gesetz verstoßen oder direkt illegale Transaktionen ermöglichen, sind Sie rechtlich nicht für die Handlungen anderer bei Ihrer Veranstaltung verantwortlich (zumindest nach französischem Recht).
-
-
-In einer idealen Welt hätten Sie einen **Raum, der groß genug ist, um mehrere Dutzend Leute** aufzunehmen, während Ihre Gemeinschaft wächst, und Sie würden auch **starke Beziehungen zwischen Bitcoinern** und zukünftigen Bitcoinern während der Baisse aufbauen, damit Sie, wenn die Hausse kommt, so viele Leute wie möglich haben, die bereit sind, andere zu orangen.
-
-
+In einer idealen Welt hättest du einen **Raum, der groß genug ist, um mehrere Dutzend Leute** aufzunehmen, während deine Gemeinschaft wächst, und du würdest auch **starke Beziehungen zwischen Bitcoinern** und zukünftigen Bitcoinern während der Baisse aufbauen, damit du, wenn die Hausse kommt, so viele Leute wie möglich hast, die bereit sind, andere zu Orange Pillen.
 
 ## Dezentralisierung der Gemeindeorganisation
 
-
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
 
+Stelle dir Folgendes vor: Du leitest seit Jahren dein Bitcoin-Treffen, und eines Tages beschließst, deinen Job aufzugeben, um vielleicht Lamas in Peru zu züchten oder in El Salvador den perfekten Wellen nachzujagen. Was passiert mit deiner Gemeinschaft, wenn du gehst?
 
+Bitte plane die Übertragung deiner Gemeinschaft im Voraus:
 
-Stellen Sie sich Folgendes vor: Sie leiten seit Jahren Ihr Bitcoin-Treffen, und eines Tages beschließen Sie, Ihren Job aufzugeben, um vielleicht Lamas in Peru zu züchten oder in El Salvador den perfekten Wellen nachzujagen. Was passiert mit Ihrer Gemeinschaft, wenn Sie gehen?
+1) **Vergebe Admin- (oder Ownership-) Rechte** für deine Kommunikationskanäle an vertrauenswürdige Mitglieder. Die Rollen können später jederzeit gewechselt werden.
 
-
-Bitte planen Sie die Übertragung Ihrer Gemeinschaft im Voraus:
-
-1) **Vergeben Sie Admin- (oder Ownership-) Rechte** für Ihre Kommunikationskanäle an vertrauenswürdige Mitglieder. Die Rollen können später jederzeit gewechselt werden.
-
-2) **Teilen Sie die Kontodaten** (Benutzernamen, Passwörter, zugehörige E-Mails) für Ihre sozialen Medien und Sichtbarkeitskanäle mit mindestens einer vertrauenswürdigen Person.
-
+2) **Teile die Kontodaten** (Benutzernamen, Passwörter, zugehörige E-Mails) für deine sozialen Medien und Sichtbarkeitskanäle mit mindestens einer vertrauenswürdigen Person.
 
 Ohne diesen Zugang ist es für andere fast unmöglich, die Arbeit effektiv zu übernehmen. Bei Null anzufangen, indem man "abgezweigte" Gruppen erstellt und das Netzwerk neu aufbaut, ist langsam, anstrengend und oft demoralisierend.
 
-
-Wenn Sie keinen vertrauenswürdigen Kontakt innerhalb Ihres Treffens haben, können Sie sich jederzeit an @ProfEduStream, @copinmalin oder @gabtribe auf Telegram wenden. Sie können dabei helfen, einen motivierten Nachfolger zu finden und die Übertragung von Konten und Administratorrechten zu koordinieren.
-
+Wenn du keinen vertrauenswürdigen Kontakt innerhalb deines Treffens hast, könnest du sich jederzeit an @ProfEduStream, @copinmalin oder @gabtribe auf Telegram wenden. Sie können dabei helfen, einen motivierten Nachfolger zu finden und die Übertragung von Konten und Administratorrechten zu koordinieren.
 
 **Warum Dezentralisierung wichtig ist?**
 
-
-Wenn Sie der einzige Beteiligte sind und die ganze Kontrolle haben, was passiert, wenn Sie verschwinden? Die Antwort ist einfach: Ihre Gemeinschaft wird ebenfalls verschwinden.
-
+Wenn du der einzige Beteiligte bist und die ganze Kontrolle hast, was passiert, wenn du verschwindest? Die Antwort ist einfach: Deine Gemeinschaft wird ebenfalls verschwinden.
 
 Die Lösung: Aufgaben, Rollen und Zugriff dezentralisieren, damit die Gruppe auch dann weiterarbeiten kann, wenn ein Organisator ausfällt, sei es aus Zeitgründen oder, in einem düsteren Szenario, weil er wegen Besitzes von Bitcoin ohne KYC verhaftet wird.
 
-
 **Wie kann man die Dezentralisierung weiter vorantreiben?**
 
-Führen Sie **freie und quelloffene Software** wie [die framasoft suite] (https://framasoft.org/fr/) ein, um die Abhängigkeit von zentralisierten Plattformen zu verringern und die Widerstandsfähigkeit gegen mögliche staatliche Zensur oder Bitcoin-Verbote zu erhöhen.
-
-Verwenden Sie **verschlüsselte oder anonyme Kommunikationsmittel**, um die Privatsphäre Ihrer Mitglieder und die Aktivitäten Ihrer Gemeinschaft zu schützen.
-
-
+Führe **freie und quelloffene Software** wie [die framasoft suite](https://framasoft.org/fr/) ein, um die Abhängigkeit von zentralisierten Plattformen zu verringern und die Widerstandsfähigkeit gegen mögliche staatliche Zensur oder Bitcoin-Verbote zu erhöhen.
+Verwende **verschlüsselte oder anonyme Kommunikationsmittel**, um die Privatsphäre deiner Mitglieder und die Aktivitäten deiner Gemeinschaft zu schützen.
 
 ## Was wäre, wenn Bitcoin zum Staatsfeind Nr. 1 würde?
 
-
 <chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
-
-
 
 Am 5. April 1933 unterzeichnete Franklin Roosevelt, der 32. Präsident der Vereinigten Staaten von Amerika, die **Executive Order 6102**, die den Besitz von Goldmünzen, Goldbarren oder Goldzertifikaten durch Privatpersonen im ganzen Land illegal machte.
 
-
 ![image](assets/fr/059.webp)
 
-
-
-Natürlich ist die Große Depression (Börsenkrach von 1929) nicht unsere heutige Realität. Aber könnte eine Regierung eines Tages dasselbe mit Bitcoin tun: **private Ownership vollständig verbieten?**
-
+Natürlich ist die Große Depression (Börsencrash von 1929) nicht unsere heutige Realität. Aber könnte eine Regierung eines Tages dasselbe mit Bitcoin tun: **privates Halten vollständig verbieten?**
 
 Die Wahrheit ist, dass eine solche orwellsche Maßnahme niemanden daran hindern würde, BTC wirklich zu besitzen, denn kein Gesetz kann jemanden daran hindern, sich eine Wortfolge zu merken.
 
-
 Doch was wäre, wenn die Staats- und Regierungschefs der Welt endlich das Potenzial von Bitcoin erkennen würden, die globale Ordnung umzugestalten, sogar auf staatlicher Ebene? Würde man es dann als "Staatsfeind Nr. 1" bezeichnen?
-
 
 Wir müssen nicht in Verschwörungsdenken verfallen. Aber nichts hindert uns daran, vorausschauend zu handeln, zu dezentralisieren und aufzuklären, und zwar ab sofort.
 
-
-
 ![image](assets/fr/060.webp)
 
-
-
 # Bitcoiner zusammenbringen
-
-
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
-
-
-## Ein schneller Aktionsplan zum Aufbau Ihrer Bitcoin-Gemeinschaft
-
+## Ein schneller Aktionsplan zum Aufbau deiner Bitcoin-Gemeinschaft
 
 <chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
 
-
-
 Satoshi Nakamoto hat ein revolutionäres Werkzeug geschaffen, das unsere Welt bereits verändert. Aber es liegt an uns, den Bitcoinern, zu entscheiden, wie wir die Zukunft gestalten.
-
 
 Bitcoin ist ein riesiges Kaninchenloch, das Geschichte, Wirtschaft, Literatur, Mathematik, Informatik und Kryptographie berührt. Niemand kann sie alle erforschen, und das ist Teil ihrer Schönheit.
 
+Da unsere Zeit begrenzt ist, liegt der Schlüssel darin, bescheiden zu bleiben, weiter zu lernen und Wissen mit anderen zu teilen. Auf diese Weise kann jeder von uns die Ebene des Verständnisses erreichen, die wir anstreben.
 
-Da unsere Zeit begrenzt ist, liegt der Schlüssel darin, bescheiden zu bleiben, weiter zu lernen und Exchange Wissen mit anderen zu teilen. Auf diese Weise kann jeder von uns die Ebene des Verständnisses erreichen, die wir anstreben.
-
-
-**Globale Bitcoin-Gemeinschaften spielen daher eine grundlegende Rolle beim Aufbau der Welt von morgen**: Räume, in denen Bitcoiner **Exchange, bauen und teilen** können. **Zusammen**.
-
-
+**Globale Bitcoin-Gemeinschaften spielen daher eine grundlegende Rolle beim Aufbau der Welt von morgen**: Räume, in denen Bitcoiner sich **austauschen, bauen und teilen** können. **Zusammen**.
 
 ![image](assets/fr/061.webp)
 
+Wie du in diesem Kurs gesehen hast, erfordert der **Aufbau einer Bitcoin-Community und die Organisation von Treffen** sowohl Planung als auch Motivation. Je nach deinen Zielen und der Zeit, die du aufbringen kannst, kannst du ehrgeizigere Projekte in Angriff nehmen oder die Dinge einfach halten.
 
+Wie auch immer, das Ziel ist das gleiche: **Interesse zu wecken und Bitcoin zu helfen, in deiner Stadt zu wachsen**.
 
+Zum Abschluss der vielen Kapitel und Unterkapitel, die wir behandelt haben, hier ein **Kurzer "Aktionsplan "** für den Aufbau deiner Bitcoin-Gemeinschaft:
 
-Wie Sie in diesem Kurs gesehen haben, erfordert der **Aufbau einer Bitcoin-Community und die Organisation von Treffen** sowohl Planung als auch Motivation. Je nach Ihren Zielen und der Zeit, die Sie aufbringen können, können Sie ehrgeizigere Projekte in Angriff nehmen oder die Dinge einfach halten.
+1) Entscheide im Voraus, warum du eine Bitcoin-Gemeinschaft gründen willst, welche Ziele du verfolgst und in welcher Stadt oder an welchem Ort du tätig sein wirst.
 
+2) Nehme Kontakt zu den bestehenden Gemeinschaften in deiner Nähe auf, und zögere nicht, sie um Rat zu fragen, wenn du ihn brauchst.
 
-Wie auch immer, das Ziel ist das gleiche: **Interesse zu wecken und Bitcoin zu helfen, in Ihrer Stadt zu wachsen**.
+3) Schaffe eine klare Identität für deine Gemeinschaft, die deine Gemeinschaft und deinen Standort widerspiegelt (Logo, Poster, Banner, Flyer usw.)
 
+4) Erstelle Kommunikationskanäle und soziale Netzwerke wie Telegram, Twitter, NOSTR, Discord oder Simplex. Ziehe auch dezentralisierte und/oder zensurresistente Kanäle in Betracht.
 
-Zum Abschluss der vielen Kapitel und Unterkapitel, die wir behandelt haben, hier ein **Kurzer "Aktionsplan "** für den Aufbau Ihrer Bitcoin-Gemeinschaft:
+5) Verfolge andere lokale Treffen und Gemeinschaften online und lasse deine Gruppe auf verschiedenen Karten und Plattformen eintragen, um die Sichtbarkeit zu erhöhen.
 
-1) Entscheiden Sie im Voraus, warum Sie eine Bitcoin-Gemeinschaft gründen wollen, welche Ziele Sie verfolgen und in welcher Stadt oder an welchem Ort Sie tätig sein werden.
+Sobald die Kommunikationskanäle deiner Gemeinschaft aktiv sind:
 
-2) Nehmen Sie Kontakt zu den bestehenden Gemeinschaften in Ihrer Nähe auf, und zögern Sie nicht, sie um Rat zu fragen, wenn Sie ihn brauchen;
+6) Starte eine Umfrage, um dein erstes Treffen vorzuschlagen, sobald du merkst, dass genügend Interesse vorhanden ist.
 
-3) Schaffen Sie eine klare Identität für Ihre Gemeinschaft, die Ihre Gemeinschaft und Ihren Standort widerspiegelt (Logo, Poster, Banner, Flyer usw.)
+7) Lege die Ziele fest, die du mit dieser persönlichen Veranstaltung erreichen willst.
 
-4) Erstellen Sie Kommunikationskanäle und soziale Netzwerke wie Telegram, Twitter, NOSTR, Discord oder Simplex. Ziehen Sie auch dezentralisierte und/oder zensurresistente Kanäle in Betracht.
+8) Wähle einen gut gelegenen, einladenden Veranstaltungsort, der zu deinen Zielen passt, und reserviere einen Tisch oder Raum.
 
-5) Verfolgen Sie andere lokale Treffen und Gemeinschaften online und lassen Sie Ihre Gruppe auf verschiedenen Karten und Plattformen eintragen, um die Sichtbarkeit zu erhöhen.
+9) Bewerbe die Veranstaltung auf deinen Kanälen eine Woche vorher und dann noch einmal zwei bis drei Tage vor dem Termin.
 
+10) Veröffentliche deine Veranstaltung auf einschlägigen Websites und Plattformen.
 
-Sobald die Kommunikationskanäle Ihrer Gemeinschaft aktiv sind:
-
-6) Starten Sie eine Umfrage, um Ihr erstes Treffen vorzuschlagen, sobald Sie merken, dass genügend Interesse vorhanden ist.
-
-7) Legen Sie die Ziele fest, die Sie mit dieser persönlichen Veranstaltung erreichen wollen.
-
-8) Wählen Sie einen gut gelegenen, einladenden Veranstaltungsort, der zu Ihren Zielen passt, und reservieren Sie einen Tisch oder Raum.
-
-9) Bewerben Sie die Veranstaltung auf Ihren Kanälen eine Woche vorher und dann noch einmal zwei bis drei Tage vor dem Termin.
-
-10) Veröffentlichen Sie Ihre Veranstaltung auf einschlägigen Websites und Plattformen.
-
-11) Lassen Sie die Veranstaltung natürlich ablaufen und gehen Sie auf die Teilnehmer ein, indem Sie die Diskussionen bei Bedarf sanft lenken.
-
+11) Lasse die Veranstaltung natürlich ablaufen und gehe auf die Teilnehmer ein, indem du die Diskussionen bei Bedarf sanft lenkst.
 
 Nachher:
 
-12) Konzentrieren Sie sich auf die Bindung und Einbeziehung der Teilnehmer, damit sie wiederkommen.
+12) Konzentriere dich auf die Bindung und Einbeziehung der Teilnehmer, damit sie wiederkommen.
 
-13) Schlagen Sie einfache Projekte oder Initiativen vor und starten Sie solche, die Ihnen persönlich am Herzen liegen. Wenn jemand anderes ein anderes Projekt leiten möchte, unterstützen Sie ihn, wo Sie können.
-
+13) Schlage einfache Projekte oder Initiativen vor und starte solche, die dir persönlich am Herzen liegen. Wenn jemand anderes ein anderes Projekt leiten möchte, unterstütze ihn, wo du kannst.
 
 Endlich:
 
-14) Nehmen Sie die Zukunft vorweg, indem Sie über einen größeren Veranstaltungsort für Treffen, Regeln für Kommunikationskanäle, eine Website usw. nachdenken;
+14) Nimm die Zukunft vorweg, indem du über einen größeren Veranstaltungsort für Treffen, Regeln für Kommunikationskanäle, eine Website usw. nachdenkst;
 
-15) Ermutigen Sie örtliche Geschäfte, Bitcoin zu akzeptieren, auch wenn Sie bei jedem Einkauf einfach danach fragen.
+15) Ermutige örtliche Geschäfte, Bitcoin zu akzeptieren, auch wenn du bei jedem Einkauf einfach danach fragst.
 
-16) Delegieren Sie Aufgaben und Kanal-/Netzwerkverwaltungsrechte an vertrauenswürdige Mitglieder.
+16) Delegiere Aufgaben und Kanal-/Netzwerkverwaltungsrechte an vertrauenswürdige Mitglieder.
 
-17) Bewerben Sie Ihre Gemeinschaft auf breiter Basis, damit mehr Menschen beitreten, und beziehen Sie diejenigen ein, die Interesse zeigen.
+17) Bewerbe deine Gemeinschaft auf breiter Basis, damit mehr Menschen beitreten, und beziehe diejenigen ein, die Interesse zeigen.
 
-18) Gehen Sie noch weiter mit Projekten, die Ihnen Spaß machen und die Ihnen wichtig sind.
-
+18) Gehe noch weiter mit Projekten, die dir Spaß machen und die dir wichtig sind.
 
 Für einen schnelleren Überblick fasst dieses 21-minütige Video diese Schritte zusammen:
 
-
-
 :::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
-
-
-Denken Sie daran: **Sie sind nicht allein, die bestehenden Gemeinschaften sind da, um Sie zu unterstützen**.
-
-
+Denke daran: **Du bist nicht allein, die bestehenden Gemeinschaften sind da, um dich zu unterstützen**.
 
 ## Auf sich selbst aufpassen
 
-
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-
 
 Wenn man in den Bitcoin-Kaninchenbau fällt, verändert sich die Perspektive auf das Leben.
 
-Tief in Ihrem Inneren spüren Sie den Drang, weiter zu gehen und andere zu treffen, die dieselbe geistige Reise durchmachen.
+Tief in deinem Inneren spürst du den Drang, weiter zu gehen und andere zu treffen, die dieselbe geistige Reise durchmachen.
 
-
-Diese Energie treibt Sie an, Ihren Teil zum Puzzle beizutragen, indem Sie Ihre Entdeckung teilen: Bitcoin. Sie regt Sie auch dazu an, über die Welt von morgen nachzudenken, die Welt, die Sie mitgestalten wollen, und die Gemeinschaften, die darauf hinarbeiten.
-
+Diese Energie treibt dich an, deinen Teil zum Puzzle beizutragen, indem du deine Entdeckung teilst: **Bitcoin**. Sie regt dich auch dazu an, über die Welt von morgen nachzudenken, die Welt, die du mitgestalten willst, und die Gemeinschaften, die darauf hinarbeiten.
 
 Der Aufbau einer Gemeinschaft ist ein langer Weg, der Motivation, Strategie, Hingabe und Zeit erfordert. Es kann eine undankbare Aufgabe sein, daher ist es wichtig, die Dinge Schritt für Schritt anzugehen, um nicht auszubrennen.
 
+**Denke an dich selbst, an Ihre Grenzen**. Und auch wenn Bitcoin dich Tag und Nacht antreibt, **versuche nicht, alles allein zu machen, sonst brennst du aus**.
 
-**Denken Sie an sich selbst, an Ihre Grenzen**. Und auch wenn Bitcoin Sie Tag und Nacht antreibt, **versuchen Sie nicht, alles allein zu machen, sonst brennen Sie aus**.
+Suche stattdessen **Hilfe von Bitcoinern, die bereits denselben Weg gegangen sind, dieselben Pfade erforscht und dieselben Werkzeuge gebaut haben**. Das wird dir eine Menge Zeit ersparen.
 
-
-Suchen Sie stattdessen **Hilfe von Bitcoinern, die bereits denselben Weg gegangen sind, dieselben Pfade erforscht und dieselben Werkzeuge gebaut haben**. Das wird Ihnen eine Menge Zeit ersparen.
-
-
-**Bitten Sie diejenigen, die Ihnen bei diesem Abenteuer folgen, um Hilfe**, auch wenn das Delegieren bestimmter Aufgaben mehr Zeit in Anspruch nimmt. Auf lange Sicht wird Ihre Gemeinschaft stärker und widerstandsfähiger sein.
-
-
+**Bitte diejenigen, die dir bei diesem Abenteuer folgen, um Hilfe**, auch wenn das Delegieren bestimmter Aufgaben mehr Zeit in Anspruch nimmt. Auf lange Sicht wird deine Gemeinschaft stärker und widerstandsfähiger sein.
 
 ![image](assets/fr/062.webp)
 
+Alleine kannst du schnell einen der vielen Tunnel im Bitcoin Kaninchenbau erkunden. Aber denke daran, dass es unzählige andere Richtungen zu erkunden gibt.
 
-
-Alleine können Sie schnell einen der vielen Tunnel im Bitcoin Kaninchenbau erkunden. Aber denken Sie daran, dass es unzählige andere Richtungen zu erkunden gibt.
-
-
-**Indem Sie eine Gemeinschaft von Bitcoinern gründen und/oder ihr beitreten und sich regelmäßig mit ihnen austauschen, bewegen Sie sich gleichzeitig in alle Richtungen des Kaninchenbaus.**
-
-
+**Indem du eine Gemeinschaft von Bitcoinern gründest und dich regelmäßig mit ihnen austauschst, bewegst du dich gleichzeitig in alle Richtungen des Kaninchenbaus.**
 
 ## BTC302, Was kommt als Nächstes?
 
-
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
-
-
 
 In diesem BTC302-Kurs haben wir uns eingehend damit beschäftigt, wie man eine Community oder ein Treffen einrichtet und wie man eine Reihe von Projekten startet.
 
-
-Wenn Ihre Gemeinschaft bereit ist, den nächsten Schritt zu tun, **können Sie eine formelle Vereinigung** gründen.
+Wenn deine Gemeinschaft bereit ist, den nächsten Schritt zu tun, **könnest du eine formelle Vereinigung** gründen.
 
 In Frankreich zum Beispiel haben von den rund sechzig Gemeinschaften und Treffpunkten fast ein Dutzend den Status eines Vereins.
 
-
 Die Vorteile sind zweifach:
 
+- **Offizielle Anerkennung**: Du kannst ein Verbandskonto eröffnen, Presse- und Medienaufmerksamkeit erhalten und sogar Zuschüsse beantragen.
+- **Strukturierte Organisation**: Du kannst klare Rollen definieren, was die Verwaltung deiner Gemeinschaft und die Durchführung von Projekten erleichtert.
 
-- **Offizielle Anerkennung**: Sie können ein Verbandskonto eröffnen, Presse- und Medienaufmerksamkeit erhalten und sogar Zuschüsse beantragen.
-- **Strukturierte Organisation**: Sie können klare Rollen definieren, was die Verwaltung Ihrer Gemeinschaft und die Durchführung von Projekten erleichtert.
+Damit deine Gemeinschaft weiter wachsen kann, wird vielleicht in den kommenden Monaten **ein Folgekurs zum Kurs COMMU302** auf [planb.network](https://planb.network/) veröffentlicht werden.
 
+Dieser nächste Kurs könnte sich mit fortgeschrittenen Themen befassen, wie z. B.:
 
-Damit Ihre Gemeinschaft weiter wachsen kann, **ein Folgekurs zum Kurs COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
-
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
-
-kann in den kommenden Monaten auf [planb.network](https://planb.network/) veröffentlicht werden.
-
-
-Die nächste Sitzung könnte sich mit fortgeschrittenen Themen befassen, wie z. B.:
-
-
-- Gestaltung von Präsentationen oder Workshops für Ihre Meetings und Festlegung klarer Ziele.
+- Gestaltung von Präsentationen oder Workshops für deine Meetings und Festlegung klarer Ziele.
 - Organisation einer groß angelegten Veranstaltung mit rund 100 Teilnehmern.
 
 Dabei werden wir uns auf die Erfahrungen von Gemeinschaften stützen, die bereits eigene Veranstaltungen und Präsentationen entwickelt haben.
 
-
-
 ![image](assets/fr/063.webp)
-
-
 
 # Letzter Abschnitt
 
-
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
-
-
 
 ## Rezensionen und Bewertungen
 
-
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Schlussfolgerung
 
-
 <chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

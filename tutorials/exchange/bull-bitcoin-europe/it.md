@@ -4,45 +4,44 @@ description: Comprare e vendere bitcoin su Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
-Bull Bitcoin è una piattaforma di scambio di soli Bitcoin fondata nel 2013 in Canada da Francis Pouliot, una figura iconica dell'ecosistema Bitcoin. La filosofia di Bull Bitcoin è quella di offrire agli utenti strumenti per la sovranità e l'emancipazione finanziaria. La piattaforma di scambio non è depositaria, il che significa che l'utente rimane sempre sovrano sui propri Bitcoin.
+Bull Bitcoin è una piattaforma di scambio esclusivamente Bitcoin fondata nel 2013 in Canada da Francis Pouliot, una figura iconica dell’ecosistema Bitcoin. La filosofia di Bull Bitcoin è offrire agli utenti strumenti per la sovranità e l’emancipazione finanziaria. La piattaforma di scambio è non-custodial, il che significa che rimani sempre sovrano dei tuoi Bitcoin.
 
-Inizialmente disponibile solo in Canada, la piattaforma è ora disponibile in Europa e in molti altri paesi, con un'interfaccia completamente nuova e ottimizzata. Questa nuova versione di Bull Bitcoin consente di acquistare e vendere bitcoin in modo semplice e rapido grazie all'utilizzo di Lightning e dei bonifici SEPA istantanei. Integra anche il pagamento delle fatture in bitcoin. In futuro, la piattaforma integrerà anche opzioni di DCA, acquisti automatici e ordini limite.
+Inizialmente disponibile solo in Canada, la piattaforma è ora accessibile in Europa e in molti altri paesi, con una nuova interfaccia ottimizzata. Questa nuova versione di Bull Bitcoin consente di acquistare e vendere bitcoin in modo semplice e rapido, grazie all’utilizzo di Lightning e dei bonifici SEPA istantanei. Integra inoltre il pagamento delle bollette in bitcoin. In futuro, la piattaforma includerà anche opzioni DCA, acquisti automatici e ordini limite.
 
-Bull Bitcoin si impegna a fornire un servizio trasparente senza costi nascosti. Si noti che, come la maggior parte delle piattaforme di scambio, l'utilizzo di Bull Bitcoin richiede l'esecuzione di una procedura KYC (Conosci il tuo cliente).
+Bull Bitcoin si impegna a offrire un servizio trasparente, senza costi nascosti. È importante notare che, come la maggior parte delle piattaforme di scambio, l’utilizzo di Bull Bitcoin richiede il completamento di una procedura KYC (Know Your Customer).
 
 ## Registrati su Bull Bitcoin
 
-Andare alla [pagina di registrazione] di Bull Bitcoin (https://accounts.bullbitcoin.com/en/registration) per creare un nuovo conto. Inserite il vostro indirizzo e-mail e scegliete una password forte. Quindi premere "*Iscriviti*".
+Vai alla pagina [pagina di registrazione] di Bull Bitcoin (https://accounts.bullbitcoin.com/en/registration) per creare un nuovo account. Inserisci il tuo indirizzo e-mail e scegli una password sicura. Poi premi “*Sign up*”("*Iscriviti*").
 
 ![BULL](assets/fr/01.webp)
 
-Un codice di conferma di 6 cifre vi sarà inviato via e-mail.
+Un codice di conferma a 6 cifre ti verrà inviato via e-mail.
 
 ![BULL](assets/fr/02.webp)
 
-Inserite questo codice sul sito web di Bull Bitcoin e premete "*Continua*".
+Inserisci questo codice sul sito di Bull Bitcoin e premi “*Continue*”("*Continua*").
 
 ![BULL](assets/fr/03.webp)
 
-Il vostro account è ora attivo e potete accedere alla piattaforma.
+Il tuo account è ora attivo e puoi accedere alla piattaforma.
 
 ![BULL](assets/fr/04.webp)
 
 ## Impostazione dell'account
 
-Ora mettiamo in sicurezza il vostro account. Cliccate su "*Il mio account*".
+Ora mettiamo in sicurezza il tuo account. Clicca su “My Account”("*Il mio account*").
 
 ![BULL](assets/fr/05.webp)
 
-Accedere alla scheda "*Impostazioni di sicurezza*" e selezionare "*Impostazioni di accesso*".
+Vai alla scheda “*Security Settings*”("*Impostazioni di sicurezza*") e seleziona “*Access Settings*”("*Impostazioni di accesso*").
 
 ![BULL](assets/fr/06.webp)
 
-Scegliete "*Aggiungi autenticazione a due fattori*" per aggiungere un ulteriore livello di sicurezza al vostro account.
-
+Scegli “*Add two-factor authentication*”("*Aggiungi autenticazione a due fattori*") per aggiungere un ulteriore livello di sicurezza al tuo account.
 ![BULL](assets/fr/07.webp)
 
-Scansionate il codice QR con la vostra applicazione di autenticazione, inserite il codice a 6 cifre e cliccate su "*Attiva 2FA*".
+Scansiona il codice QR con la tua applicazione di autenticazione, inserisci il codice a 6 cifre e clicca su “*Activate 2FA*”("*Attiva 2FA*").
 
 ![BULL](assets/fr/08.webp)
 

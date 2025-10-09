@@ -849,7 +849,7 @@ pruned नोड, Genesis ब्लॉक से लेकर सबसे ज�
 
 
 
-#### Bitcoin core (अति-बहुमत ग्राहक)
+#### Bitcoin Core (प्रमुख क्लाइंट)
 
 
 

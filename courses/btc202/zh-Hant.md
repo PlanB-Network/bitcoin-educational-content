@@ -849,7 +849,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-#### Bitcoin core (超大多數客戶)
+#### Bitcoin Core（佔絕對多數的客戶端）
 
 
 

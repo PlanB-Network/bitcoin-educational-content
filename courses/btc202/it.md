@@ -849,7 +849,7 @@ Questo è l'approccio più sovrano e flessibile: si sa esattamente cosa sta funz
 
 
 
-#### Bitcoin core (cliente a maggioranza assoluta)
+#### Bitcoin Core (client ultra-maggioritario)
 
 
 

@@ -636,7 +636,7 @@ Installing a raw implementation means directly using the software of a Bitcoin p
 This is the most sovereign and flexible approach: you know exactly what's running, where the data is, and how everything works. On the other hand, it becomes more complex as soon as you want to go beyond the simple operation of a Bitcoin node. If your aim is just to have a node, the complexity is comparable to that of a node-in-a-box, or even less, since it's simply a matter of installing software.
 
 
-#### Bitcoin Core (ultra-majority customer)
+#### Bitcoin Core (dominant client)
 
 
 [Bitcoin Core is the network's ultra-majority client](https://bitcoincore.org/). It downloads, validates, and maintains the Blockchain, provides RPC/REST APIs, and can integrate a wallet. If you prefer standard tools and feel comfortable adding services yourself (such as Electrum server, explorer, and LND), you're better off using Core as is.

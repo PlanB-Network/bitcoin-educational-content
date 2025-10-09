@@ -849,7 +849,7 @@ Full nodeは、Bitcoinの使用において完全に独立し、後にインデ�
 
 
 
-#### Bitcoin core（超大口顧客）
+#### Bitcoin Core（圧倒的多数のクライアント）
 
 
 

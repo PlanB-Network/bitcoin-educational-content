@@ -849,7 +849,7 @@ Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa 
 
 
 
-#### Bitcoin core (pelanggan ultra-mayoritas)
+#### Bitcoin Core (klien mayoritas mutlak)
 
 
 

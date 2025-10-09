@@ -849,7 +849,7 @@ Jest to najbardziej suwerenne i elastyczne podejście: wiesz dokładnie, co jest
 
 
 
-#### Bitcoin core (klient ultra-większościowy)
+#### Bitcoin Core (klient zdecydowanej większości)
 
 
 

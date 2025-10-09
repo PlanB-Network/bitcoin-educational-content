@@ -849,7 +849,7 @@ Bu en egemen ve esnek yaklaşımdır: tam olarak neyin çalıştığını, veril
 
 
 
-#### Bitcoin core (ultra çoğunluklu müşteri)
+#### Bitcoin Core (ağırlıklı istemci)
 
 
 

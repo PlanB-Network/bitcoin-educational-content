@@ -849,7 +849,7 @@ See on kõige suveräänsem ja paindlikum lähenemisviis: te teate täpselt, mis
 
 
 
-#### Bitcoin core (ülimalt suurklient)
+#### Bitcoin Core (valdav klient)
 
 
 

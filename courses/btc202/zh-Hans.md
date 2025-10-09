@@ -849,7 +849,7 @@ Nakamoto, S. (2008). *Bitcoin：点对点电子现金系统*。https://Bitcoin.o
 
 
 
-#### Bitcoin core （极端多数客户）
+#### Bitcoin Core（占绝对多数的客户端）
 
 
 

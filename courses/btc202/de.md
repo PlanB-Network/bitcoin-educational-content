@@ -849,7 +849,7 @@ Das ist der souveränste und flexibelste Ansatz: Sie wissen genau, was läuft, w
 
 
 
-#### Bitcoin core (Ultra-Mehrheitskunde)
+#### Bitcoin Core (überwiegender Client)
 
 
 

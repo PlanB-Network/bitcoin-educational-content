@@ -849,7 +849,7 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-#### Bitcoin core (kunde med ultramajoritet)
+#### Bitcoin Core (dominerende klient)
 
 
 

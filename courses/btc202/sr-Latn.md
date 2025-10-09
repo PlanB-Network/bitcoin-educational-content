@@ -849,7 +849,7 @@ Ovo je najviše suvereni i fleksibilni pristup: tačno znate šta se pokreće, g
 
 
 
-#### Bitcoin core (ultra-većinska mušterija)
+#### Bitcoin Core (dominantni klijent)
 
 
 

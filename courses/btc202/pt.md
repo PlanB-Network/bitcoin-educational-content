@@ -849,7 +849,7 @@ Esta é a abordagem mais soberana e flexível: sabe-se exatamente o que está a 
 
 
 
-#### Bitcoin core (cliente ultra-majoritário)
+#### Bitcoin Core (cliente ultramajoritário)
 
 
 

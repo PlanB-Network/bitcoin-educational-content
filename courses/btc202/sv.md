@@ -849,7 +849,7 @@ Det här är det mest suveräna och flexibla tillvägagångssättet: du vet exak
 
 
 
-#### Bitcoin core (ultramajoritetskund)
+#### Bitcoin Core (dominerande klient)
 
 
 

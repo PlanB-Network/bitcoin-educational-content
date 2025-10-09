@@ -849,7 +849,7 @@ Cài đặt một triển khai thô nghĩa là sử dụng trực tiếp phần 
 
 
 
-#### Bitcoin core (khách hàng cực kỳ đa số)
+#### Bitcoin Core (khách hàng chiếm đa số tuyệt đối)
 
 
 

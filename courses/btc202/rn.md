@@ -849,7 +849,7 @@ Ubu ni bwo buryo bufise ubusegaba kandi bushobora guhinduka: urazi neza ibiriko 
 
 
 
-#### Bitcoin core (umukiriya mwinshi cane)
+#### Bitcoin Core (umukiriya ukomeye cyane)
 
 
 

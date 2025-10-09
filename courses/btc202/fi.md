@@ -849,7 +849,7 @@ Tämä on kaikkein suvereenein ja joustavin lähestymistapa: tiedät tarkalleen,
 
 
 
-#### Bitcoin core (erittäin suuri enemmistöasiakas)
+#### Bitcoin Core (ylivoimaisesti hallitseva asiakasohjelma)
 
 
 

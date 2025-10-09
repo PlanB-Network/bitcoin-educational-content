@@ -849,7 +849,7 @@ Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea
 
 
 
-#### Bitcoin core (mteja aliye wengi zaidi)
+#### Bitcoin Core (mteja mkuu kabisa)
 
 
 

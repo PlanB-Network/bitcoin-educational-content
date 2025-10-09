@@ -849,7 +849,7 @@ Es el enfoque más soberano y flexible: sabes exactamente qué se está ejecutan
 
 
 
-#### Bitcoin core (cliente ultramayoritario)
+#### Bitcoin Core (cliente ultramayoritario)
 
 
 

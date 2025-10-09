@@ -849,7 +849,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-#### Bitcoin core (klant met ultrameerderheid)
+#### Bitcoin Core (overheersende client)
 
 
 

@@ -849,7 +849,7 @@ Jedná se o nejsugestivnější a nejpružnější přístup: přesně víte, co
 
 
 
-#### Bitcoin core (zákazník s nadpoloviční většinou)
+#### Bitcoin Core (převládající klient)
 
 
 

@@ -21,7 +21,7 @@ Provavelmente conhece o ditado "Nem as suas chaves, nem as suas moedas", que inc
 
 
 
-O BTC 202 é um curso acessível concebido para o ensinar a fiar o seu próprio nó Bitcoin, mesmo que não seja um especialista técnico. Começaremos por definir o que é um nó Bitcoin, para que serve e porque é que é absolutamente essencial fazer um. Depois vou guiá-lo passo a passo na escolha do seu hardware, na instalação do software necessário, na ligação do seu Wallet e nas primeiras optimizações possíveis para o levar mais longe.
+BTC 202 é uma formação acessível criada para ensinar você a executar seu próprio nó Bitcoin, mesmo que não seja um especialista técnico. Começaremos definindo o que é um nó Bitcoin, para que serve e por que é absolutamente essencial operar um por conta própria. Em seguida, guiarei você passo a passo na escolha do hardware, na instalação dos softwares necessários, na conexão do software da carteira e nas primeiras otimizações possíveis para avançar mais.
 
 
 
@@ -481,7 +481,7 @@ Como discutiremos mais adiante neste curso, são os nós, de acordo com o seu pe
 
 
 
-## Porquê torcer o seu próprio nó?
+## Por que executar seu próprio nó?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Existe uma crença generalizada de que operar um nó Bitcoin é um ato puramente
 
 
 
-Com efeito, tal como salientámos nos capítulos anteriores, não há qualquer ganho financeiro direto em fiar um nó. Por conseguinte, poder-se-ia pensar que não há interesse pessoal em fazê-lo. No entanto, gerir o seu próprio nó traz muitas vantagens individuais. Para o convencer disso, vou apresentar neste capítulo todas as razões, tanto técnicas como estratégicas, pelas quais deve instalar e utilizar o seu próprio nó Bitcoin.
+Como destacamos nos capítulos anteriores, executar um nó não gera ganho financeiro direto. Poder-se-ia, portanto, pensar que não há nenhum interesse pessoal em fazê-lo. No entanto, operar o seu próprio nó traz inúmeras vantagens individuais. Para o convencer disso, apresentarei neste capítulo todas as razões, tanto técnicas como estratégicas, que devem levá-lo a instalar e utilizar o seu próprio nó Bitcoin.
 
 
 
@@ -576,7 +576,7 @@ A instalação de um Full node não é uma operação trivial. Implica a instala
 
 
 
-A aquisição destes conhecimentos reforça a sua confiança na ferramenta e pode reduzir o risco de erro ou de exposição a fraudes. Fazer o seu próprio nó é também uma forma de aprendizagem.
+Adquirir esse conhecimento fortalece sua confiança na ferramenta e pode reduzir o risco de erros ou de exposição a fraudes. Executar seu próprio nó também é uma forma de aprendizado.
 
 
 
@@ -692,7 +692,7 @@ Assim, não é o número de nós que importa, mas a importância da atividade ec
 
 
 
-> Nem o vosso nó, nem as vossas regras.
+> Não é o seu nó, não são as suas regras.
 
 
 ## Os diferentes tipos de nós Bitcoin
@@ -730,7 +730,7 @@ Dependendo das suas necessidades, pode adicionar um indexador ao seu Full node. 
 
 
 
-### O nó pruned
+### O nó podado
 
 
 
@@ -754,7 +754,7 @@ Em suma, o rastreamento do Wallet funciona sem problemas num nó pruned se criar
 
 
 
-### O nó de luz / SPV
+### O nó leve / SPV
 
 
 
@@ -849,7 +849,7 @@ Esta é a abordagem mais soberana e flexível: sabe-se exatamente o que está a 
 
 
 
-#### Bitcoin core (cliente ultra-majoritário)
+#### Bitcoin Core (cliente ultramajoritário)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (principal cliente alternativo)
+#### Bitcoin Knots (cliente alternativo principal)
 
 
 
@@ -2590,7 +2590,7 @@ Os clientes Nostr ***noStrudel*** ou ***Snort*** também estão disponíveis no 
 
 
 
-Finalmente, existe a aplicação ***Nostr Wallet Connect*** na Umbrel, que permite pagamentos Lightning nativos no Nostr. Em termos concretos, pode ligar o seu futuro nó Lightning aos seus clientes Nostr para enviar micro-pagamentos, chamados "*zaps*", para recompensar conteúdos ou interagir de forma monetizada, sem necessidade de passar por um serviço de terceiros. Estes pagamentos são enviados diretamente do seu nó pessoal através dos seus canais.
+Por fim, há o aplicativo ***Nostr Wallet Connect*** no Umbrel, que permite fazer pagamentos Lightning nativos dentro do Nostr. Concretamente, você pode conectar seu futuro nó Lightning aos seus clientes Nostr para enviar micropagamentos, chamados "*zaps*", a fim de recompensar conteúdo ou interagir de forma monetizada, sem passar por um serviço de terceiros. Esses pagamentos partem diretamente do seu nó pessoal através dos seus canais.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Manutenção do seu nó de guarda-chuva
+## Manter o seu nó Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>

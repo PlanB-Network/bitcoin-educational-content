@@ -481,7 +481,7 @@ Zoals we later in deze cursus zullen bespreken, zijn het de nodes, op basis van 
 
 
 
-## Waarom je eigen knoop doorhakken?
+## Waarom je eigen node draaien?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Er heerst een wijdverspreid geloof dat het runnen van een Bitcoin node een zuive
 
 
 
-Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voordeel verbonden aan het leggen van een knoop. Je zou daarom kunnen denken dat er geen persoonlijk belang bij is. Toch brengt het runnen van je eigen knoop veel individuele voordelen met zich mee. Om je hiervan te overtuigen, ga ik in dit hoofdstuk alle redenen presenteren, zowel technische als strategische, waarom je je eigen Bitcoin node zou moeten installeren en gebruiken.
+Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voordeel verbonden aan het draaien van een node. Je zou daarom kunnen denken dat er geen persoonlijk belang bij is. Toch brengt het runnen van je eigen node veel individuele voordelen met zich mee. Om je hiervan te overtuigen, ga ik in dit hoofdstuk alle redenen presenteren, zowel technische als strategische, waarom je je eigen Bitcoin node zou moeten installeren en gebruiken.
 
 
 
@@ -500,11 +500,11 @@ Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voo
 
 
 
-Wanneer Wallet software verbinding maakt met een extern node, stuurt het zijn transacties door naar een infrastructuur die niet onder jouw controle staat. Dit brengt voor de hand liggende risico's van toezicht met zich mee: de operator van het externe node kan de details van jouw transacties analyseren, inclusief bedragen en frequenties, en door het kruislings controleren van bepaalde metadata (zoals IP-adressen, tijden en locaties), deze mogelijk in verband brengen met jouw identiteit.
+Wanneer wallet software verbinding maakt met een externe node, stuurt het zijn transacties door naar een infrastructuur die niet onder jouw controle staat. Dit brengt voor de hand liggende risico's van toezicht met zich mee: de operator van het externe node kan de details van jouw transacties analyseren, inclusief bedragen en frequenties, en door het kruislings controleren van bepaalde metadata (zoals IP-adressen, tijden en locaties), deze mogelijk in verband brengen met jouw identiteit.
 
 
 
-Zoals we in een vorig hoofdstuk al aangaven, communiceren wallets niet zomaar met het Bitcoin netwerk; ze moeten verbinding maken met een node om balansen te raadplegen of transacties uit te zenden. Als je nooit je eigen node hebt opgezet, betekent dit dat je Wallet afhankelijk is van de infrastructuur van een derde partij (meestal het bedrijf achter de software). Deze derde partij, vooral als het een bedrijf is, kan deze gegevens observeren, exploiteren of zelfs openbaar maken: om commerciële redenen, onder wettelijke dwang of als gevolg van piraterij.
+Zoals we in een vorig hoofdstuk al aangaven, communiceren wallets niet zomaar met het Bitcoin netwerk; ze moeten verbinding maken met een node om balansen te raadplegen of transacties uit te zenden. Als je nooit je eigen node hebt opgezet, betekent dit dat je wallet afhankelijk is van de infrastructuur van een derde partij (meestal het bedrijf achter de software). Deze derde partij, vooral als het een bedrijf is, kan deze gegevens observeren, exploiteren of zelfs openbaar maken: om commerciële redenen, onder wettelijke dwang of als gevolg van piraterij.
 
 
 
@@ -512,7 +512,7 @@ Zoals we in een vorig hoofdstuk al aangaven, communiceren wallets niet zomaar me
 
 
 
-Door je eigen node te gebruiken, verstuur je je transacties rechtstreeks naar het netwerk, zonder tussenpersonen. Op voorwaarde dat je je node goed beveiligt (wat we later zullen bespreken) of aan bepaalde standaarden voldoet, wordt er geen informatie blootgesteld: noch je IP Address, noch de details van je transacties gaan door een entiteit waar jij geen controle over hebt. Dit is een basisvoorwaarde om je vertrouwelijkheid op Bitcoin te bewaren.
+Door je eigen node te gebruiken, verstuur je je transacties rechtstreeks naar het netwerk, zonder tussenpersonen. Op voorwaarde dat je je node goed beveiligt (wat we later zullen bespreken) of aan bepaalde standaarden voldoet, wordt er geen informatie blootgesteld: noch je IP Address, noch de details van je transacties passeren via een entiteit waar jij geen controle over hebt. Dit is een basisvoorwaarde om je vertrouwelijkheid op Bitcoin te bewaren.
 
 
 
@@ -522,11 +522,11 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Om dezelfde redenen die hierboven genoemd zijn, is Wallet software gebaseerd op een node van een derde partij kwetsbaar voor censuurrisico's: de operator van de node op afstand kan om verschillende redenen weigeren om bepaalde transacties door te geven. Hij kan ze verdacht vinden of in strijd met zijn beleid. De transactie kan ook worden geblokkeerd als deze niet voldoet aan de doorgeefregels van de node. Tot slot kan de operator zich specifiek richten op jouw IP Address om de uitzending van jouw transacties te blokkeren.
+Om dezelfde redenen die hierboven genoemd zijn, is wallet software gebaseerd op een node van een derde partij kwetsbaar voor censuurrisico's: de operator van de node op afstand kan om verschillende redenen weigeren om bepaalde transacties door te geven. Hij kan ze verdacht vinden of in strijd met zijn beleid. De transactie kan ook worden geblokkeerd als deze niet voldoet aan de doorgeefregels van de node. Tot slot kan de operator zich specifiek richten op jouw IP Address om de uitzending van jouw transacties te blokkeren.
 
 
 
-Omgekeerd, door je eigen node te gebruiken, zorg je voor de verspreiding van je transacties binnen het peer-to-peer netwerk. Dit betekent dat je volledige controle behoudt over de verspreiding van je transacties, zonder afhankelijkheid van een tussenpersoon. Zolang de transactie voldoet aan de consensus- en relayregels van de nodes die met het jouwe verbonden zijn, zal ze worden uitgezonden op het netwerk en vervolgens, op voorwaarde dat er voldoende vergoedingen zijn, door een Miner in een blok worden geïntegreerd. Een eigen node garandeert een neutrale, toestemmingsvrije bevestiging van je transacties.
+Omgekeerd, door je eigen node te gebruiken, zorg je voor de verspreiding van je transacties binnen het peer-to-peer netwerk. Dit betekent dat je volledige controle behoudt over de verspreiding van je transacties, zonder afhankelijkheid van een tussenpersoon. Zolang de transactie voldoet aan de consensus- en relayregels van de nodes die met het jouwe verbonden zijn, zal ze worden uitgezonden op het netwerk en vervolgens, op voorwaarde dat er voldoende vergoedingen zijn, door een miner in een blok worden geïntegreerd. Een eigen node garandeert een neutrale, toestemmingsvrije bevestiging van je transacties.
 
 
 
@@ -534,7 +534,7 @@ Omgekeerd, door je eigen node te gebruiken, zorg je voor de verspreiding van je 
 
 
 
-Zonder een persoonlijk node blijft u afhankelijk van een derde partij voor toegang tot informatie, zoals uw Address saldo, transactiebevestigingsstatus en blokgeldigheid. Dit impliceert een impliciet vertrouwen in de nauwkeurigheid en integriteit van het externe node.
+Zonder een persoonlijke node blijf je afhankelijk van een derde partij voor toegang tot informatie, zoals je adres saldo, transactiebevestigingsstatus en blokgeldigheid. Dit impliceert een impliciet vertrouwen in de nauwkeurigheid en integriteit van het externe node.
 
 
 
@@ -542,7 +542,7 @@ Zonder een persoonlijk node blijft u afhankelijk van een derde partij voor toega
 
 
 
-Met een Full node kun je alle protocolregels zelf controleren, voor elke transactie en elk blok. Het resultaat is dat het saldo dat je Wallet weergeeft geen gegevens zijn die je ontvangt van een externe server, maar een resultaat dat lokaal berekend is uit een complete kopie van de Blockchain, die blok voor blok gevalideerd is. Deze benadering geeft de volledige betekenis aan de stelregel van bitcoiners:
+Met een full node kun je alle protocolregels zelf controleren, voor elke transactie en elk blok. Het resultaat is dat het saldo dat je wallet weergeeft geen gegevens zijn die je ontvangt van een externe server, maar een resultaat dat lokaal berekend is uit een complete kopie van de Blockchain, die blok voor blok gevalideerd is. Deze benadering geeft de volledige betekenis aan de stelregel van bitcoiners:
 
 
 
@@ -552,11 +552,11 @@ Met een Full node kun je alle protocolregels zelf controleren, voor elke transac
 
 
 
-Elk node dat zich bij het netwerk aansluit, versterkt de redundantie en veerkracht van Bitcoin. Het vergemakkelijkt de verspreiding van informatie en stelt nieuwe peers in staat om zich met elkaar te verbinden. Zonder de nodes zou het systeem simpelweg onbruikbaar zijn.
+Elke node dat zich bij het netwerk aansluit, versterkt de redundantie en veerkracht van Bitcoin. Het vergemakkelijkt de verspreiding van informatie en stelt nieuwe peers in staat om zich met elkaar te verbinden. Zonder de nodes zou het systeem simpelweg onbruikbaar zijn.
 
 
 
-Zoals we hebben gezien is de veiligheid van Bitcoin niet gebaseerd op decentralisatie, Mining of cryptografie: zoals bij elk systeem is het afhankelijk van individuen. Om precies te zijn, het hangt af van het vermogen van nodebeheerders om dwang te weerstaan.
+Zoals we hebben gezien is de veiligheid van Bitcoin niet gebaseerd op decentralisatie, mining of cryptografie: zoals bij elk systeem is het afhankelijk van individuen. Om precies te zijn, het hangt af van het vermogen van nodebeheerders om aan dwang te weerstaan.
 
 
 
@@ -564,19 +564,19 @@ Wat gedecentraliseerde systemen zoals Bitcoin onderscheidt, is de verdeling van 
 
 
 
-Het is dus geen direct persoonlijk voordeel: een node runnen maakt je medeverantwoordelijk voor de veiligheid van het netwerk. Het is vooral een collectief voordeel, omdat jouw betrokkenheid helpt om het risico te spreiden. Op uw beurt vergroot u uw eigen vermogen om Bitcoin betrouwbaar te gebruiken.
+Het is dus geen direct persoonlijk voordeel: een node runnen maakt je medeverantwoordelijk voor de veiligheid van het netwerk. Het is vooral een collectief voordeel, omdat jouw betrokkenheid helpt om het risico te spreiden. Op jouw beurt vergroot je je eigen vermogen om Bitcoin betrouwbaar te gebruiken.
 
 
 
-### Verdiep uw begrip van het systeem
+### Verdiep je begrip van het systeem
 
 
 
-Het installeren van een Full node is geen sinecure. Het omvat het installeren van software, het begrijpen van de basiswerking, het controleren van synchronisatie, het onderzoeken van logboeken in geval van problemen en zelfs het gebruik van de terminal. Dit leidt noodzakelijkerwijs tot een beter begrip van het protocol. Dit is een indirect, maar niet onbelangrijk voordeel.
+Het installeren van een full node is geen sinecure. Het omvat het installeren van software, het begrijpen van de basiswerking, het controleren van synchronisatie, het onderzoeken van logboeken in geval van problemen en zelfs het gebruik van de terminal. Dit leidt noodzakelijkerwijs tot een beter begrip van het protocol. Dit is een indirect, maar niet onbelangrijk voordeel.
 
 
 
-Het verwerven van deze kennis versterkt je vertrouwen in het gereedschap en kan het risico op fouten of blootstelling aan oplichterij verminderen. Je eigen knoop leggen is ook een vorm van leren.
+Het verwerven van deze kennis versterkt je vertrouwen in de tool en kan het risico op fouten of blootstelling aan oplichterij verminderen. Je eigen node runnen is ook een vorm van leren.
 
 
 
@@ -584,13 +584,13 @@ Het verwerven van deze kennis versterkt je vertrouwen in het gereedschap en kan 
 
 
 
-Een belangrijk aspect, dat vaak verkeerd begrepen wordt, is dat je met een node kunt kiezen welke regels je lokaal toepast. Er zijn twee hoofdtypen regels:
+Een belangrijk aspect, dat vaak verkeerd begrepen wordt, is dat je met een node kunt kiezen welke regels je lokaal toepast. Er zijn hoofdzakelijk twee types van regels:
 
 
 
 
 
-- Consensusregels**:
+- **Consensusregels**:
 
 
 
@@ -598,25 +598,25 @@ Dit zijn de fundamentele regels van het Bitcoin protocol, die de integriteit van
 
 
 
-Het veranderen van deze regels staat gelijk aan het veranderen van het protocol en dus de valuta (Hard Fork). Maar zelfs zonder te proberen om ze te wijzigen, geeft het simpele feit van het strikt toepassen van de bestaande regels een zekere macht: als een blok de regels overtreedt, wijst de node het onmiddellijk af.
+Het veranderen van deze regels staat gelijk aan het veranderen van het protocol en dus de munt (Hard Fork). Maar zelfs zonder te proberen om ze te wijzigen, geeft het simpele feit van het strikt toepassen van de bestaande regels een zekere macht: als een blok de regels overtreedt, wijst de node het onmiddellijk af.
 
 
 
 
 
-- Estafette-regels**:
+- **Relaisregels**:
 
 
 
-Dit zijn regels die specifiek zijn voor elk Bitcoin node en die toegevoegd worden aan de consensusregels om de structuur van onbevestigde transacties te definiëren die geaccepteerd worden in de Mempool en doorgegeven worden aan peers. Elk node configureert en past deze regels lokaal toe, wat verklaart waarom ze van node tot node kunnen verschillen. Ze zijn alleen van toepassing op onbevestigde transacties: een transactie die door een node als "niet-standaard" wordt beschouwd, wordt alleen geaccepteerd als deze al in een geldig blok voorkomt. Het veranderen van deze regels sluit de node niet uit van het Bitcoin systeem.
+Dit zijn regels die specifiek zijn voor elke Bitcoin node en die toegevoegd worden aan de consensusregels om de structuur van onbevestigde transacties te definiëren die geaccepteerd worden in de Mempool en doorgegeven worden aan peers. Elke node configureert en past deze regels lokaal toe, wat verklaart waarom ze van node tot node kunnen verschillen. Ze zijn alleen van toepassing op onbevestigde transacties: een transactie die door een node als "niet-standaard" wordt beschouwd, wordt alleen geaccepteerd als deze al in een geldig blok voorkomt. Het veranderen van deze regels sluit de node niet uit van het Bitcoin systeem.
 
 
 
-Bijvoorbeeld, een transactie zonder kosten is, volgens de consensusregels, volkomen geldig, maar wordt standaard afgewezen volgens het Bitcoin core relaybeleid, omdat de `minRelayTxFee` parameter is ingesteld op `0.00001` (in BTC/kB). Het is echter mogelijk, op uw eigen node, om deze drempel te verlagen om transacties met lagere vergoedingen door te geven, of, omgekeerd, om de limiet te verhogen, bijvoorbeeld tot 2 Sats/vB, om het doorgeven van transacties met lage vergoedingen te vermijden.
+Bijvoorbeeld, een transactie zonder vergoedingen is, volgens de consensusregels, volkomen geldig, maar wordt standaard afgewezen volgens het Bitcoin core relaybeleid, omdat de `minRelayTxFee` parameter is ingesteld op `0.00001` (in BTC/kB). Het is echter mogelijk, op je eigen node, om deze drempel te verlagen om transacties met lagere vergoedingen door te geven, of, omgekeerd, om de limiet te verhogen, bijvoorbeeld tot 2 Sats/vB, om het doorgeven van transacties met lage vergoedingen te vermijden.
 
 
 
-Je eigen knoop doorhakken betekent dat je beweert: "Ik valideer wat ik verkies te valideren, volgens de regels die ik zelf heb aangenomen"*. Je wordt zo een actor in het beheer van het systeem, in staat om een evolutie die je onaanvaardbaar lijkt af te wijzen of om een update goed te keuren volgens je eigen criteria.
+Je eigen node draaien betekent dat je beweert: "Ik valideer wat ik verkies te valideren, volgens de regels die ik zelf heb aangenomen"*. Je wordt zo een actor in het beheer van het systeem, in staat om een evolutie die je onaanvaardbaar lijkt af te wijzen of om een update goed te keuren volgens je eigen criteria.
 
 
 
@@ -632,11 +632,11 @@ Wat de regels voor het doorgeven van transacties betreft, is het belangrijkste g
 
 
 
-Als je bijvoorbeeld van mening bent dat transacties met vergoedingen van minder dan 1 sat/vB geaccepteerd moeten worden op Bitcoin, dan kun je deze regel op je node aanpassen zodat het deze transacties uitzendt en zo hun verspreiding op het netwerk vergemakkelijkt totdat een Miner ze uiteindelijk opneemt in een geldig blok. In wezen is het dus een kwestie van macht over de verspreiding van transacties: elk node heeft beslissingsbevoegdheid, omdat ermee instemmen om een type transactie door te geven gelijk staat aan het bevorderen van de acceptatie ervan op het Bitcoin netwerk. Als je meerdere nodes beheert, heb je dus meer invloed op het doorgeefbeleid, omdat elk node zijn eigen verbindingen en invloedssferen op het netwerk heeft.
+Als je bijvoorbeeld van mening bent dat transacties met vergoedingen van minder dan 1 sat/vB geaccepteerd moeten worden op Bitcoin, dan kun je deze regel op je node aanpassen zodat het deze transacties uitzendt en zo hun verspreiding op het netwerk vergemakkelijkt totdat een miner ze uiteindelijk opneemt in een geldig blok. In wezen is het dus een kwestie van macht over de verspreiding van transacties: elk node heeft beslissingsbevoegdheid, omdat ermee instemmen om een type transactie door te geven gelijk staat aan het bevorderen van de acceptatie ervan op het Bitcoin netwerk. Als je meerdere nodes beheert, heb je dus meer invloed op het doorgeefbeleid, omdat elk node zijn eigen verbindingen en invloedssferen op het netwerk heeft.
 
 
 
-Het hebben van een of meer nodes die geconfigureerd zijn met specifieke relaisregels betekent dat bepaald wordt welk deel van het netwerk een bepaald type transactie accepteert om te verspreiden. Het verspreiden van een bericht in een peer-to-peer grafiek, zoals het geval is voor Bitcoin transacties, volgt de logica van de percolatietheorie. Stel je elk node voor als een site die actief (`p` = het doorgeeft) of inactief (`1-p`) kan zijn. Zodra het aandeel `p` een kritieke drempel overschrijdt (`p_c`), ontstaat er een gigantische component: de transactie slaagt erin het netwerk te doorkruisen en heeft alle kans om een Miner te bereiken. In een netwerk zoals Bitcoin, waar elk node gemiddeld 8 uitgaande verbindingen onderhoudt, wordt de `p_c` drempel over het algemeen ingesteld op slechts enkele procenten, zelfs lager als sommige nodes een zeer groot aantal verbindingen hebben.
+Het hebben van een of meer nodes die geconfigureerd zijn met specifieke relaisregels betekent dat bepaald wordt welk deel van het netwerk een bepaald type transactie accepteert om te verspreiden. Het verspreiden van een bericht in een peer-to-peer grafiek, zoals het geval is voor Bitcoin transacties, volgt de logica van de percolatietheorie. Stel je elk node voor als een site die actief (`p` = het doorgeeft) of inactief (`1-p`) kan zijn. Zodra het aandeel `p` een kritieke drempel overschrijdt (`p_c`), ontstaat er een gigantische component: de transactie slaagt erin het netwerk te doorkruisen en heeft alle kans om een miner te bereiken. In een netwerk zoals Bitcoin, waar elk node gemiddeld 8 uitgaande verbindingen onderhoudt, wordt de `p_c` drempel over het algemeen ingesteld op slechts enkele procenten, zelfs lager als sommige nodes een zeer groot aantal verbindingen hebben.
 
 
 
@@ -644,7 +644,7 @@ Het hebben van een of meer nodes die geconfigureerd zijn met specifieke relaisre
 
 
 
-Zolang `p` onder `p_c` blijft, blijft een transactie beperkt tot geïsoleerde pockets en bereikt geen Miner. Zodra deze drempel wordt overschreden, verspreidt het zich vrijwel onmiddellijk door het hele netwerk. Zodra deze drempel wordt overschreden, verspreidt de transactie zich vrijwel onmiddellijk over het hele netwerk.
+Zolang `p` onder `p_c` blijft, blijft een transactie beperkt tot geïsoleerde pockets en bereikt geen miner. Zodra deze drempel wordt overschreden, verspreidt het zich vrijwel onmiddellijk door het hele netwerk. 
 
 
 
@@ -652,7 +652,7 @@ Uiteindelijk zijn het altijd de miners die beslissen of een transactie al dan ni
 
 
 
-Het toevoegen van een paar extra nodes zal daarom slechts een marginale impact hebben als het netwerk zich al in de percolatiefase bevindt voor een bepaald type transactie, maar het kan doorslaggevend zijn als de percolatiedrempel nadert. Het bezitten of beïnvloeden van meerdere nodes, vooral als ze goed verbonden zijn, kan de waarde van `p` verhogen of verlagen en dus indirect de relay regels sturen die bepalen welke transacties worden gezien en uiteindelijk geaccepteerd door miners.
+Het toevoegen van een paar extra nodes zal daarom slechts een marginale impact hebben als het netwerk zich al in de percolatiefase bevindt voor een bepaald type transactie, maar het kan doorslaggevend zijn als de percolatiedrempel nadert. Het bezitten of beïnvloeden van meerdere nodes, vooral als ze goed verbonden zijn, kan de waarde van `p` verhogen of verlagen en dus indirect de relaisregels sturen die bepalen welke transacties worden gezien en uiteindelijk geaccepteerd door miners.
 
 
 
@@ -660,15 +660,15 @@ Het toevoegen van een paar extra nodes zal daarom slechts een marginale impact h
 
 
 
-Als het gaat om de invloed van jouw node op de consensusregels, is vooral het economische gewicht doorslaggevend. Dit is een cruciaal concept: de waarde van een valuta is direct gerelateerd aan het vermogen om Exchange te faciliteren. Inderdaad, als een voorwerp door niemand in Exchange geaccepteerd wordt voor goederen of diensten, heeft het theoretisch geen monetair nut. Als bijvoorbeeld geen enkele handelaar kiezelstenen accepteert als betaalmiddel, hebben ze geen nut als geld. Natuurlijk blijft nut een subjectief begrip op individuele schaal, maar hoe groter het aantal handelaren in een bepaald gebied dat een voorwerp accepteert als betaalmiddel in Exchange, hoe waarschijnlijker het is dat dit voorwerp een monetair nut heeft voor de mensen die in dit gebied wonen.
+Als het gaat om de invloed van jouw node op de consensusregels, is vooral het economische gewicht doorslaggevend. Dit is een cruciaal concept: de waarde van een munt is direct gerelateerd aan het vermogen om uitwisseling te faciliteren. Inderdaad, als een voorwerp door niemand in ruil geaccepteerd wordt voor goederen of diensten, heeft het theoretisch geen monetair nut. Als bijvoorbeeld geen enkele handelaar kiezelstenen accepteert als betaalmiddel, hebben ze geen nut als geld. Natuurlijk blijft nut een subjectief begrip op individuele schaal, maar hoe groter het aantal handelaren in een bepaald gebied dat een voorwerp accepteert als betaalmiddel in ruil, hoe waarschijnlijker het is dat dit voorwerp een monetair nut heeft voor de mensen die in dit gebied wonen.
 
 
 
-Laten we het voorbeeld nemen van een dorp waar veel kooplieden goud in Exchange accepteren voor goederen: de kans is groot dat goud een monetair nut heeft voor de dorpelingen. Dit geeft aan dat het nut van een valuta direct afhangt van de beslissingen van handelaren om het te accepteren of af te wijzen.
+Laten we het voorbeeld nemen van een dorp waar veel kooplieden goud in ruil accepteren voor goederen: de kans is groot dat goud een monetair nut heeft voor de dorpelingen. Dit geeft aan dat het nut van een munt direct afhangt van de beslissingen van handelaren om het te accepteren of af te wijzen.
 
 
 
-Dit concept is cruciaal voor het begrijpen van de machtsdynamiek die speelt in het Bitcoin systeem. Satoshi maakt het duidelijk: Bitcoin is een elektronisch geldsysteem; met andere woorden, het levert een dienst die een vorm van valuta biedt, Bitcoin (of BTC). Wanneer de protocolregels gewijzigd worden op een manier die niet achterwaarts compatibel is (Hard Fork), komt dit neer op het creëren van een nieuw systeem en dus een nieuwe valuta. Het succes of falen van deze Fork hangt dan af van de omvang van de economie, die op zijn beurt wordt bepaald door het aantal handelaren dat deze nieuwe vorm van valuta accepteert.
+Dit concept is cruciaal voor het begrijpen van de machtsdynamiek die speelt in het Bitcoin systeem. Satoshi maakt het duidelijk: Bitcoin is een elektronisch geldsysteem; met andere woorden, het levert een dienst die een vorm van valuta biedt, Bitcoin (of BTC). Wanneer de protocolregels gewijzigd worden op een manier die niet achterwaarts compatibel is (Hard Fork), komt dit neer op het creëren van een nieuw systeem en dus een nieuwe munt. Het succes of falen van deze fork hangt dan af van de omvang van de economie, die op zijn beurt wordt bepaald door het aantal handelaren dat deze nieuwe vorm van valuta accepteert.
 
 
 
@@ -676,23 +676,23 @@ Dit concept is cruciaal voor het begrijpen van de machtsdynamiek die speelt in h
 
 
 
-Laten we een voorbeeld nemen: stel dat Bitcoin lijdt onder Hard Fork. Er zouden dan 2 verschillende vormen van valuta zijn: BTC-1 (de originele, ongewijzigde versie) en BTC-2 (de nieuwe munt met andere consensusregels). Als alle handelaars die BTC-1 aanvaardden dit blijven doen, maar BTC-2 verwerpen, dan zal deze laatste in theorie een zeer beperkt monetair nut hebben. Als gebruiker zou ik er geen belang bij hebben om BTC-2 te houden en te gebruiken, wetende dat geen enkele handelaar het zou willen in Exchange voor goederen of diensten. Omgekeerd, als 50% van de handelaars ervoor kiest om enkel BTC-2 te aanvaarden en de overige 50% enkel BTC-1, dan zal het nut van BTC-1 in theorie gehalveerd zijn. Ik gebruik de term "in theorie" omdat het nut subjectief blijft op individueel niveau en afhangt van een veelheid aan factoren (zoals territorium en consumptiegewoonten) die moeilijk van geval tot geval te begrijpen zijn.
+Laten we een voorbeeld nemen: stel dat Bitcoin lijdt onder Hard Fork. Er zouden dan 2 verschillende vormen van valuta zijn: BTC-1 (de originele, ongewijzigde versie) en BTC-2 (de nieuwe munt met andere consensusregels). Als alle handelaars die BTC-1 aanvaardden dit blijven doen, maar BTC-2 verwerpen, dan zal deze laatste in theorie een zeer beperkt monetair nut hebben. Als gebruiker zou ik er geen belang bij hebben om BTC-2 te houden en te gebruiken, wetende dat geen enkele handelaar het zou willen in ruil voor goederen of diensten. Omgekeerd, als 50% van de handelaars ervoor kiest om enkel BTC-2 te aanvaarden en de overige 50% enkel BTC-1, dan zal het nut van BTC-1 in theorie gehalveerd zijn. Ik gebruik de term "in theorie" omdat het nut subjectief blijft op individueel niveau en afhangt van een veelheid aan factoren (zoals territorium en consumptiegewoonten) die moeilijk van geval tot geval te begrijpen zijn.
 
 
 
-Op Bitcoin omvat de rol van "handelaar", opgevat als elke entiteit met een bepaald economisch gewicht, natuurlijk bedrijven (fysieke winkels, online verkoopsites, dienstverleners, etc.), maar ook Exchange platforms, omdat ze Bitcoin accepteren in Exchange voor andere valuta, en miners, omdat ze Bitcoin accepteren via vergoedingen in Exchange voor de dienst van het opnemen van een transactie in een blok.
+Op Bitcoin wordt de rol van "handelaar" opgevat als elke entiteit met een bepaald economisch gewicht. Dit omvat natuurlijk bedrijven (fysieke winkels, online verkoopsites, dienstverleners, etc.), maar ook exchange platformen, omdat ze Bitcoin accepteren in ruil voor andere valuta, en miners, omdat ze Bitcoin accepteren via vergoedingen in ruil voor de dienst van het opnemen van een transactie in een blok.
 
 
 
-Wat de consensusregels betreft, kun je met je node je economische activiteit richten op de ene of de andere valuta. Als je bijvoorbeeld 10 volle nodes thuis hebt, maar geen significante economische activiteit, zal je invloed tijdens een Fork bijna nihil zijn. Omgekeerd geeft één enkel node, dat gebruikt wordt om een keten van 200 winkels te beheren die Bitcoin accepteren, een aanzienlijk economisch gewicht.
+Wat de consensusregels betreft, kun je met je node je economische activiteit richten op de ene of de andere valuta. Als je bijvoorbeeld 10 volle nodes thuis hebt, maar geen significante economische activiteit, zal je invloed tijdens een fork bijna nihil zijn. Omgekeerd geeft één enkele node, die gebruikt wordt om een keten van 200 winkels te beheren die Bitcoin accepteren, een aanzienlijk economisch gewicht.
 
 
 
-Het gaat dus niet om het aantal nodes, maar om het belang van de economische activiteit die ze ondersteunen. Bovendien, als je economische activiteit afhangt van een node waar je geen controle over hebt, zal de eigenaar ervan beslissen welke valuta je gebruikt, zolang je verbonden blijft met dat node. Daarom is het runnen en gebruiken van je eigen node bijzonder belangrijk in de context van systeembeheer:
+Het gaat dus niet om het aantal nodes, maar om het belang van de economische activiteit die ze ondersteunen. Bovendien, als je economische activiteit afhangt van een node waar je geen controle over hebt, zal de eigenaar ervan beslissen welke valuta je gebruikt, zolang je verbonden blijft met deze node. Daarom is het runnen en gebruiken van je eigen node bijzonder belangrijk in de context van systeembeheer:
 
 
 
-> Niet jouw knoop, niet jouw regels.
+> Niet jouw node, niet jouw regels.
 
 
 ## De verschillende typen Bitcoin nodes

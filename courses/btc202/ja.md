@@ -481,7 +481,7 @@ Bitcoin coreの開発者はBitcoinを直接コントロールできると思っ�
 
 
 
-## なぜ自分で結び目をひねるのか？
+## なぜ自分のノードを運用するのか？
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

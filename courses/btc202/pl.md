@@ -481,7 +481,7 @@ Jak omówimy w dalszej części tego kursu, to węzły, zgodnie z ich wagą ekon
 
 
 
-## Po co skręcać własny węzeł?
+## Dlaczego uruchamiać własny węzeł?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

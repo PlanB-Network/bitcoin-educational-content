@@ -481,7 +481,7 @@ Como discutiremos mais adiante neste curso, são os nós, de acordo com o seu pe
 
 
 
-## Porquê torcer o seu próprio nó?
+## Por que executar seu próprio nó?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

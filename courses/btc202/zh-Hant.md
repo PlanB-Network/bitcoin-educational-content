@@ -481,7 +481,7 @@ Bitcoin core 的開發遵循任人唯才的邏輯：鼓勵新的貢獻者在自�
 
 
 
-## 為什麼要自己打結？
+## 為什麼要運行自己的節點？
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

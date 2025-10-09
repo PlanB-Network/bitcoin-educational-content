@@ -481,7 +481,7 @@ Kama tutakavyojadili baadaye katika kozi hii, ni nodi, kulingana na uzito wao wa
 
 
 
-## Kwa nini uzungushe fundo lako mwenyewe?
+## Kwa nini kuendesha nodi yako mwenyewe?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

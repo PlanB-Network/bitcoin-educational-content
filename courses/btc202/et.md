@@ -481,7 +481,7 @@ Nagu me arutame hiljem selles kursuses, on sõlmed, vastavalt nende majandusliku
 
 
 
-## Miks oma sõlme keerata?
+## Miks käitada oma sõlme?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

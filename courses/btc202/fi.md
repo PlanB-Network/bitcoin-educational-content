@@ -481,7 +481,7 @@ Kuten keskustelemme myöhemmin tällä kurssilla, solmut (eli kauppiaat) antavat
 
 
 
-## Miksi vääntää omaa solmua?
+## Miksi ajaa omaa solmua?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

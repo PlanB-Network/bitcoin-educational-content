@@ -481,7 +481,7 @@ Bitcoin core 개발자가 Bitcoin를 직접 제어할 수 있다고 생각할 �
 
 
 
-## 왜 스스로 매듭을 꼬나요?
+## 왜 자신의 노드를 운영해야 할까요?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

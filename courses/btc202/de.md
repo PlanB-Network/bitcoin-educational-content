@@ -481,7 +481,7 @@ Wie wir später in diesem Kurs erörtern werden, sind es die Knotenpunkte (d. h.
 
 
 
-## Warum den eigenen Knoten verdrehen?
+## Warum sollte man seinen eigenen Knoten betreiben?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

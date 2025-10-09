@@ -481,7 +481,7 @@ Som vi kommer att diskutera senare i den här kursen är det noderna, enligt der
 
 
 
-## Varför slå knut på sig själv?
+## Varför köra sin egen nod?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

@@ -481,7 +481,7 @@ Como veremos más adelante, son los nodos, en función de su peso económico (es
 
 
 
-## ¿Por qué retorcer tu propio nudo?
+## ¿Por qué ejecutar tu propio nodo?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

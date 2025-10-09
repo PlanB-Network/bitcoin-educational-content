@@ -481,7 +481,7 @@ Seperti yang akan kita bahas nanti dalam kursus ini, node-node, menurut bobot ek
 
 
 
-## Mengapa memelintir simpul Anda sendiri?
+## Mengapa menjalankan node sendiri?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

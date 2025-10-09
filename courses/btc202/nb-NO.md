@@ -481,7 +481,7 @@ Som vi skal diskutere senere i dette kurset, er det nodene, i henhold til deres 
 
 
 
-## Hvorfor vri din egen knute?
+## Hvorfor kjøre din egen node?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

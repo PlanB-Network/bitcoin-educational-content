@@ -481,7 +481,7 @@ Jak si řekneme později v tomto kurzu, jsou to uzly, které podle své ekonomic
 
 
 
-## Proč si zamotávat vlastní uzel?
+## Proč provozovat vlastní uzel?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

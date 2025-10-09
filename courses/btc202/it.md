@@ -481,7 +481,7 @@ Come discuteremo più avanti in questo corso, sono i nodi, in base al loro peso 
 
 
 
-## Perché fare il proprio nodo?
+## Perché gestire il proprio nodo?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

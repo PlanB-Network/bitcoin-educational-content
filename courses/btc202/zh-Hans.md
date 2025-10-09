@@ -481,7 +481,7 @@ Bitcoin core 的开发遵循 "任人唯贤 "的逻辑：我们鼓励新的贡献
 
 
 
-## 为什么要自寻烦恼？
+## 为什么要运行自己的节点？
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

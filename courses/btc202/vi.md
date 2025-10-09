@@ -481,7 +481,7 @@ Như chúng ta sẽ thảo luận sau trong khóa học này, chính các nút, 
 
 
 
-## Tại sao phải tự vặn nút thắt của mình?
+## Tại sao nên vận hành nút của riêng bạn?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>

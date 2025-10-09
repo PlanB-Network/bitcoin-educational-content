@@ -754,7 +754,7 @@ Krótko mówiąc, śledzenie Wallet działa bezproblemowo na węźle pruned, je�
 
 
 
-### Węzeł świetlny / SPV
+### Lekki węzeł / SPV
 
 
 

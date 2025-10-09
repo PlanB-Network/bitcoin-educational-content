@@ -754,7 +754,7 @@ In breve, il tracciamento Wallet funziona senza problemi su un nodo pruned se si
 
 
 
-### Il nodo luce / SPV
+### Il nodo leggero / SPV
 
 
 

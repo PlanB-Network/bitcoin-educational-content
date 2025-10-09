@@ -567,7 +567,7 @@ In practical terms, you can use a pruned node to connect wallet management softw
 In short, Wallet tracking works without a hitch on a pruned node if you create a new wallet while your software is already connected to that node. On the other hand, you may encounter difficulties if you restore an old wallet, as past transactions that are no longer retained by the node will obviously not be retrievable.
 
 
-### The light knot / SPV
+### The light node / SPV
 
 
 An SPV (*Simplified Payment Verification*) node, or lightweight node, retains only block headers, not transaction details, and relies on other full nodes to obtain proof that a transaction is in a block (Merkle proofs via trees) for which it has the header. The concept of simplified payment verification is not new, having been proposed by Satoshi Nakamoto himself in part 8 of the White Paper.

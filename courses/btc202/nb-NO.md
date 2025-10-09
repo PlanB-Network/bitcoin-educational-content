@@ -754,7 +754,7 @@ Kort sagt fungerer Wallet-sporing problemfritt på en pruned-node hvis du oppret
 
 
 
-### Den lette knuten / SPV
+### Den lette noden / SPV
 
 
 

@@ -754,7 +754,7 @@ Lyhyesti sanottuna Wallet-seuranta toimii ongelmitta pruned-solmussa, jos luot u
 
 
 
-### Valosolmu / SPV
+### Kevyt solmu / SPV
 
 
 

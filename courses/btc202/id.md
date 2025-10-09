@@ -754,7 +754,7 @@ Singkatnya, pelacakan Wallet bekerja tanpa hambatan pada node pruned jika Anda m
 
 
 
-### Simpul ringan / SPV
+### Node ringan / SPV
 
 
 

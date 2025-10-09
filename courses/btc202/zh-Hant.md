@@ -754,7 +754,7 @@ pruned 節點會以 Full node 的方式驗證所有東西，從 Genesis 區塊�
 
 
 
-### 光結 / SPV
+### 輕節點 / SPV
 
 
 

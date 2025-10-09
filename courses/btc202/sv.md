@@ -754,7 +754,7 @@ Kort sagt fungerar Wallet-spårning utan problem på en pruned-nod om du skapar 
 
 
 
-### Den lätta knuten / SPV
+### Den lätta noden / SPV
 
 
 

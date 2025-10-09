@@ -754,7 +754,7 @@ Kwa kifupi, ufuatiliaji wa Wallet hufanya kazi bila hitch kwenye nodi ya pruned 
 
 
 
-### Fundo nyepesi / SPV
+### Nodi nyepesi / SPV
 
 
 

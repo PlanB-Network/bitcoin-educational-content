@@ -754,7 +754,7 @@ Muri make, gukurikirana Wallet birakora ataco bigutera ku nzira ya pruned iyo ur
 
 
 
-### Ipfundo ry'umuco / SPV
+### Node yoroshye / SPV
 
 
 

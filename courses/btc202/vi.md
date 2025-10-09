@@ -754,7 +754,7 @@ Tóm lại, việc theo dõi Wallet hoạt động trơn tru trên một nút pr
 
 
 
-### Nút thắt nhẹ / SPV
+### Nút nhẹ / SPV
 
 
 

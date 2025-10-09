@@ -754,7 +754,7 @@ Kortom, Wallet traceren werkt probleemloos op een pruned knooppunt als je een ni
 
 
 
-### De lichte knoop / SPV
+### De lichte node / SPV
 
 
 

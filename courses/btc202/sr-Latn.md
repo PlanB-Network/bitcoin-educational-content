@@ -754,7 +754,7 @@ Ukratko, praćenje Wallet funkcioniše bez problema na pruned čvoru ako kreirat
 
 
 
-### The light knot / SPV
+### Laki čvor / SPV
 
 
 

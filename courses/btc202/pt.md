@@ -754,7 +754,7 @@ Em suma, o rastreamento do Wallet funciona sem problemas num nó pruned se criar
 
 
 
-### O nó de luz / SPV
+### O nó leve / SPV
 
 
 

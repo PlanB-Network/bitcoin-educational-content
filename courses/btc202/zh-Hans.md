@@ -754,7 +754,7 @@ pruned 节点会像 Full node 一样验证从 Genesis 区块到工作最多的�
 
 
 
-### 光结/SPV
+### 轻节点 / SPV
 
 
 

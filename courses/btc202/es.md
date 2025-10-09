@@ -754,7 +754,7 @@ En resumen, el seguimiento de Wallet funciona sin problemas en un nodo pruned si
 
 
 
-### El nudo ligero / SPV
+### El nodo ligero / SPV
 
 
 

@@ -21,7 +21,7 @@ Tunnet luultavasti sanonnan "Not your keys, not your coins", joka kannustaa säi
 
 
 
-BTC 202 on helppokäyttöinen kurssi, joka on suunniteltu opettamaan sinulle, miten kehräät oman Bitcoin-solmusi, vaikka et olisikaan tekninen asiantuntija. Aloitamme määrittelemällä, mikä Bitcoin-solmu on, mihin sitä käytetään ja miksi on ehdottoman tärkeää kehrätä sellainen itse. Sen jälkeen opastan sinua askel askeleelta laitteiston valinnassa, tarvittavan ohjelmiston asentamisessa, Wallet-solmun kytkemisessä ja ensimmäisten mahdollisten optimointien tekemisessä, jotta voit viedä sitä pidemmälle.
+BTC 202 on helposti saavutettava koulutus, joka on suunniteltu opettamaan sinulle, kuinka voit ajaa omaa Bitcoin-solmua, vaikka et olisikaan tekninen asiantuntija. Aloitamme määrittelemällä, mikä on Bitcoin-solmu, mihin sitä käytetään ja miksi on ehdottoman tärkeää ajaa omaa solmua. Sen jälkeen opastan sinua askel askeleelta laitteiston valinnassa, tarvittavan ohjelmiston asentamisessa, lompakko-ohjelmiston yhdistämisessä ja ensimmäisissä mahdollisissa optimoinneissa edetäksesi pidemmälle.
 
 
 
@@ -481,7 +481,7 @@ Kuten keskustelemme myöhemmin tällä kurssilla, solmut (eli kauppiaat) antavat
 
 
 
-## Miksi vääntää omaa solmua?
+## Miksi ajaa omaa solmua?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Yleisesti uskotaan, että Bitcoin-solmun käyttäminen on puhtaasti epäitsekäs
 
 
 
-Kuten edellisissä luvuissa todettiin, solmun kehräämisestä ei ole suoraa taloudellista hyötyä. Sen vuoksi voisi ajatella, että siihen ei ole mitään henkilökohtaista etua. Oman solmun pyörittäminen tuo kuitenkin monia yksilöllisiä etuja. Voidakseni vakuuttaa sinut tästä, esittelen tässä luvussa kaikki syyt, sekä tekniset että strategiset, miksi sinun pitäisi asentaa ja käyttää omaa Bitcoin-solmua.
+Kuten olemme aiemmissa luvuissa korostaneet, solmun ajaminen ei tuota suoraa taloudellista hyötyä. Voisi siis ajatella, ettei sen tekemisessä ole henkilökohtaista hyötyä. Kuitenkin oman solmun käyttäminen tuo monia yksilöllisiä etuja. Vakuuttaakseni sinut tästä esittelen tässä luvussa kaikki tekniset ja strategiset syyt, jotka tulisi kannustaa sinua asentamaan ja käyttämään omaa Bitcoin-solmuasi.
 
 
 
@@ -576,7 +576,7 @@ Full node:n asentaminen ei ole mikään yksinkertainen toimenpide. Siihen kuuluu
 
 
 
-Tämän tiedon hankkiminen vahvistaa luottamusta työkaluun ja voi vähentää virheriskiä tai huijauksille altistumista. Oman solmun kehrääminen on myös yksi oppimisen muoto.
+Tämän tiedon hankkiminen vahvistaa luottamustasi työkaluun ja voi vähentää virheiden tai huijausten riskiä. Oman solmun ajaminen tarkoittaa myös oppimista.
 
 
 
@@ -692,7 +692,7 @@ Ratkaisevaa ei siis ole solmujen määrä vaan niiden tukeman taloudellisen toim
 
 
 
-> Ei sinun solmusi, ei sinun sääntösi.
+> Ei sinun solmusi, ei sinun sääntöjäsi.
 
 
 ## Bitcoin-solmujen eri tyypit
@@ -706,7 +706,7 @@ Bitcoin-solmu on siis kone, jossa on Bitcoin-protokollan toteutus. Tämän solmu
 
 
 
-### Täydellinen solmu
+### Täysi solmu
 
 
 
@@ -730,7 +730,7 @@ Tarpeidesi mukaan voit lisätä Full node:ään indeksoijan. Bitcoin core tarjoa
 
 
 
-### pruned-solmu
+### Karsittu solmu
 
 
 
@@ -754,7 +754,7 @@ Lyhyesti sanottuna Wallet-seuranta toimii ongelmitta pruned-solmussa, jos luot u
 
 
 
-### Valosolmu / SPV
+### Kevyt solmu / SPV
 
 
 
@@ -849,7 +849,7 @@ Tämä on kaikkein suvereenein ja joustavin lähestymistapa: tiedät tarkalleen,
 
 
 
-#### Bitcoin core (erittäin suuri enemmistöasiakas)
+#### Bitcoin Core (ylivoimaisesti hallitseva asiakasohjelma)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (tärkein vaihtoehtoinen asiakas)
+#### Bitcoin Knots (pääasiallinen vaihtoehtoinen asiakasohjelma)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr-asiakkaat ***noStrudel*** tai ***Snort*** ovat myös saatavilla Umbrelissa
 
 
 
-Lisäksi Umbrelissa on ***Nostr Wallet Connect*** -sovellus, joka mahdollistaa natiivit Lightning-maksut Nostrissa. Konkreettisesti sanottuna voit yhdistää tulevan Lightning-solmun Nostr-asiakkaisiisi lähettääksesi mikromaksuja, joita kutsutaan nimellä "*zaps*", palkita sisältöä tai olla vuorovaikutuksessa rahanarvoisella tavalla ilman, että sinun tarvitsee mennä kolmannen osapuolen palvelun kautta. Nämä maksut lähetetään suoraan henkilökohtaisesta solmusta kanaviesi kautta.
+Lopuksi Umbrelissa on sovellus ***Nostr Wallet Connect***, joka mahdollistaa alkuperäiset Lightning-maksut Nostrissa. Käytännössä voit yhdistää tulevan Lightning-solmusi Nostr-asiakkaisiisi lähettääksesi mikromaksuja, joita kutsutaan nimellä "*zaps*", palkitaksesi sisältöä tai ollaksesi vuorovaikutuksessa rahallisesti ilman kolmannen osapuolen palvelua. Nämä maksut lähtevät suoraan henkilökohtaisesta solmustasi kanaviesi kautta.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Sateenvarjosolmun ylläpito
+## Oman Umbrel-solmun ylläpito
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Jos solmusi kuuntelee avointa porttia (oletusarvoisesti 8333), se hyväksyy saap
 
 
 
-## Bitcoin-solmun anatomia
+## Bitcoin-solmusi anatomia
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

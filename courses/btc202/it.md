@@ -21,7 +21,7 @@ Probabilmente conoscete l'adagio "Not your keys, not your coins", che incoraggia
 
 
 
-Il BTC 202 è un corso accessibile progettato per insegnarvi a filare il vostro nodo Bitcoin, anche se non siete esperti di tecnica. Inizieremo definendo che cos'è un nodo Bitcoin, a che cosa serve e perché è assolutamente indispensabile farne uno da soli. Poi vi guiderò passo dopo passo nella scelta dell'hardware, nell'installazione del software necessario, nel collegamento del Wallet e nelle prime ottimizzazioni possibili per andare oltre.
+BTC 202 è una formazione accessibile pensata per insegnarti a gestire il tuo nodo Bitcoin, anche se non sei un esperto tecnico. Inizieremo definendo cos’è un nodo Bitcoin, a cosa serve e perché è assolutamente essenziale gestirne uno autonomamente. Ti guiderò poi passo dopo passo nella scelta dell’hardware, nell’installazione dei software necessari, nel collegamento del tuo portafoglio e nelle prime ottimizzazioni possibili per progredire ulteriormente.
 
 
 
@@ -481,7 +481,7 @@ Come discuteremo più avanti in questo corso, sono i nodi, in base al loro peso 
 
 
 
-## Perché fare il proprio nodo?
+## Perché gestire il proprio nodo?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Come discuteremo più avanti in questo corso, sono i nodi, in base al loro peso 
 
 
 
-Infatti, come abbiamo sottolineato nei capitoli precedenti, non c'è alcun guadagno economico diretto nel filare un nodo. Si potrebbe quindi pensare che non ci sia alcun interesse personale nel farlo. Eppure, gestire il proprio nodo porta molti vantaggi individuali. Per convincervi di ciò, in questo capitolo vi presenterò tutte le ragioni, sia tecniche che strategiche, per cui dovreste installare e utilizzare il vostro nodo Bitcoin.
+Come abbiamo sottolineato nei capitoli precedenti, gestire un nodo non genera un guadagno finanziario diretto. Si potrebbe quindi pensare che non vi sia alcun interesse personale nel farlo. Tuttavia, gestire il proprio nodo offre numerosi vantaggi individuali. Per convincervi, in questo capitolo presenterò tutte le ragioni, sia tecniche che strategiche, che dovrebbero spingervi a installare e utilizzare il vostro nodo Bitcoin personale.
 
 
 
@@ -576,7 +576,7 @@ L'installazione di un Full node non è un'operazione banale. Comporta l'installa
 
 
 
-L'acquisizione di queste conoscenze rafforza la fiducia nello strumento e può ridurre il rischio di errori o di esposizione a truffe. Anche fare il proprio nodo è una forma di apprendimento.
+Acquisire questa conoscenza rafforza la fiducia nello strumento e può ridurre il rischio di errori o di esposizione a truffe. Gestire il proprio nodo significa anche imparare.
 
 
 
@@ -692,7 +692,7 @@ Non è quindi il numero di nodi che conta, ma l'importanza dell'attività econom
 
 
 
-> Non il vostro nodo, non le vostre regole.
+> Non è il tuo nodo, non sono le tue regole.
 
 
 ## I diversi tipi di nodi Bitcoin
@@ -730,7 +730,7 @@ A seconda delle esigenze, è possibile aggiungere un indicizzatore al Full node.
 
 
 
-### Il nodo pruned
+### Il nodo potato
 
 
 
@@ -754,7 +754,7 @@ In breve, il tracciamento Wallet funziona senza problemi su un nodo pruned se si
 
 
 
-### Il nodo luce / SPV
+### Il nodo leggero / SPV
 
 
 
@@ -849,7 +849,7 @@ Questo è l'approccio più sovrano e flessibile: si sa esattamente cosa sta funz
 
 
 
-#### Bitcoin core (cliente a maggioranza assoluta)
+#### Bitcoin Core (client ultra-maggioritario)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (cliente alternativo principale)
+#### Bitcoin Knots (client alternativo principale)
 
 
 
@@ -2590,7 +2590,7 @@ I client Nostr ***noStrudel*** o ***Snort*** sono disponibili anche su Umbrel. G
 
 
 
-Infine, c'è l'app ***Nostr Wallet Connect*** su Umbrel, che abilita i pagamenti Lightning nativi in Nostr. In concreto, potete collegare il vostro futuro nodo Lightning ai vostri clienti Nostr per inviare micropagamenti, chiamati "*zaps*", per premiare contenuti o interagire in modo monetizzato, senza dover passare attraverso un servizio di terze parti. Questi pagamenti vengono inviati direttamente dal vostro nodo personale attraverso i vostri canali.
+Infine, c'è l'applicazione ***Nostr Wallet Connect*** su Umbrel, che consente di effettuare pagamenti Lightning nativi all'interno di Nostr. In pratica, puoi collegare il tuo futuro nodo Lightning ai tuoi client Nostr per inviare micropagamenti, chiamati "*zaps*", per premiare un contenuto o interagire in modo monetizzato, senza passare per un servizio di terze parti. Questi pagamenti partono direttamente dal tuo nodo personale tramite i tuoi canali.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Manutenzione del nodo a ombrello
+## Mantenere il proprio nodo Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Se il nodo è in ascolto su una porta aperta (per impostazione predefinita, 8333
 
 
 
-## Anatomia del nodo Bitcoin
+## Anatomia del tuo nodo Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

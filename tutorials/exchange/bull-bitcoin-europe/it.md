@@ -45,47 +45,46 @@ Scansiona il codice QR con la tua applicazione di autenticazione, inserisci il c
 
 ![BULL](assets/fr/08.webp)
 
-Se non avete familiarità con l'uso di applicazioni di autenticazione per il 2FA, vi consiglio di dare un'occhiata a questo tutorial sull'applicazione Authy:
+Se non sei pratico nell’uso delle applicazioni di autenticazione per il 2FA, ti consiglio di dare un’occhiata a questo tutorial sull’applicazione Authy:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Immettere la password per confermare.
+Inserisci la tua password per confermare.
 
 ![BULL](assets/fr/09.webp)
 
-La configurazione della doppia autenticazione è ora completa.
+La configurazione dell’autenticazione a due fattori è ora completata.
 
 ![BULL](assets/fr/10.webp)
 
-Si consiglia di salvare i codici di ripristino. Per generarli, cliccate su "*Gestione dei codici di backup 2FA*".
+Ti consiglio di salvare i codici di recupero. Per generarli, clicca su “*Manage 2FA backup codes*”("*Gestione dei codici di backup 2FA*").
 
 ![BULL](assets/fr/11.webp)
 
-Selezionare "*Generare nuovi codici di ripristino del backup*" e conservare questi codici in un luogo sicuro.
+Seleziona “*Generate new backup recovery codes*”("*Generare nuovi codici di ripristino del backup*") e conservare questi codici in un luogo sicuro.
 
 ![BULL](assets/fr/12.webp)
 
-Per personalizzare ulteriormente la vostra interfaccia, andate alla scheda "*Impostazioni dell'applicazione*", dove potete scegliere la lingua e la valuta fiat di vostra scelta.
+Per personalizzare ulteriormente la tua interfaccia, vai alla scheda “*App Settings*”("*Impostazioni dell'applicazione*"), dove puoi scegliere la lingua e la valuta fiat di tua preferenza.
 
 ![BULL](assets/fr/13.webp)
 
 ## KYC
 
-Per accedere a tutte le funzionalità di Bull Bitcoin, che è una piattaforma regolamentata, è necessario effettuare la verifica dell'identità (KYC). Cliccare su "*Continua la verifica*".
+Per accedere a tutte le funzionalità di Bull Bitcoin, piattaforma regolamentata, è necessario completare la verifica dell’identità (KYC). Clicca su “*Continue Verification*”("*Continua la verifica*").
 
 ![BULL](assets/fr/14.webp)
 
-Selezionare "*Conto personale*".
+Seleziona "*Personal Account*"("*Conto personale*").
 
 ![BULL](assets/fr/15.webp)
 
-Inserite i vostri dati personali e seguite le fasi del processo di verifica. Vi verrà chiesto :
+Compila le tue informazioni personali e segui i passaggi del processo di verifica. Ti verrà richiesto:
 
-
-- Nome e cognome ;
-- Il vostro numero di telefono ;
-- Il vostro indirizzo postale ;
-- La vostra data di nascita, la vostra professione e le vostre intenzioni sulla piattaforma (investire, vendere, pagare, ecc.);
+- Nome e cognome;
+- Il tuo numero di telefono;
+- Il tuo indirizzo postale;
+- La tua data di nascita, la tua professione e le tue intenzioni sulla piattaforma (investire, vendere, pagare, ecc.);
 - Documento d'identità e un selfie;
 
 ![BULL](assets/fr/16.webp)
@@ -94,17 +93,17 @@ La verifica dovrebbe essere confermata a breve. Una volta convalidata, avrete ac
 
 ## Deposito di denaro fiat
 
-Prima di iniziare a comprare e vendere bitcoin su Bull, è importante capire che la piattaforma non memorizza mai i vostri sats. Ciò significa che per acquistare bitcoin è necessario trasferire immediatamente i fondi a un portafoglio di autodeposito. Allo stesso modo, per vendere, è necessario inviare i bitcoin da un portafoglio di autodeposito a Bull. Al momento della ricezione, i bitcoin saranno convertiti in valuta fiat. Non è possibile depositare i bitcoin direttamente sulla piattaforma. Tuttavia, è possibile mantenere un saldo in euro.
+Prima di iniziare a comprare e vendere bitcoin su Bull Bitcoin, è importante capire che la piattaforma non memorizza mai i vostri sats. Ciò significa che per acquistare bitcoin è necessario trasferire immediatamente i fondi a un portafoglio di autodeposito. Allo stesso modo, per vendere, è necessario inviare i bitcoin da un portafoglio di autodeposito a Bull Bitcoin. Al momento della ricezione, i bitcoin saranno convertiti in valuta fiat. Non è possibile depositare i bitcoin direttamente sulla piattaforma. Tuttavia, è possibile mantenere un saldo in euro.
 
-Per iniziare, è probabile che vogliate depositare alcuni euro presso Bull per acquistare i primi satelliti. Cliccate su "*Deposito di fondi*".
+Per iniziare, probabilmente vorrai depositare alcuni euro su Bull Bitcoin per acquistare i tuoi primi sats. Clicca su “*Deposit funds*”("*Deposito di fondi*").
 
 ![BULL](assets/fr/17.webp)
 
-Selezionate "*Trasferimento SIPA*".
+Seleziona "*SEPA transfer*"("*Trasferimento SIPA*").
 
 ![BULL](assets/fr/18.webp)
 
-Verranno visualizzate le coordinate bancarie della piattaforma. Effettuate un bonifico SEPA istantaneo al beneficiario indicato, da un conto bancario a vostro nome (lo stesso utilizzato per il KYC sulla piattaforma). Assicuratevi di includere il codice del bonifico indicato in questa pagina nella descrizione del bonifico.
+Verranno visualizzate le coordinate bancarie della piattaforma. Effettuate un bonifico SEPA istantaneo al beneficiario indicato, da un conto bancario intestato a tuo nome (lo stesso utilizzato per il KYC sulla piattaforma). Assicurati di includere il codice di trasferimento mostrato in questa pagina nella descrizione del bonifico.
 
 ![BULL](assets/fr/19.webp)
 
@@ -114,54 +113,54 @@ Non appena riceveremo il bonifico, il saldo in euro verrà aggiornato.
 
 ## Acquistare bitcoin
 
-Ora che avete accreditato il vostro conto in euro, è il momento di acquistare i primi sats. Cliccate su "Acquista Bitcoin".
+Ora che hai accreditato il tuo account con gli euro, è il momento di acquistare i tuoi primi sats. Clicca su “*Buy Bitcoin*”("*Acquista Bitcoin*").
 
 ![BULL](assets/fr/21.webp)
 
-Inserire l'importo che si desidera acquistare. Dovrete anche scegliere la modalità di prelievo dei sats. Per i piccoli importi, consiglio l'opzione Lightning, ma sono disponibili anche i prelievi on-chain o Liquid. In quest'ultimo caso, dovrete fornire l'indirizzo a cui inviare i fondi. Una volta inseriti i dati, cliccate su "*Continua*".
+Inserisci l’importo che desideri acquistare. Dovrai anche scegliere come ritirare i tuoi sats. Per importi piccoli, consiglio l’opzione Lightning, ma sono disponibili anche i prelievi on-chain o su Liquid. In quest’ultimo caso, dovrai fornire l’indirizzo a cui inviare i fondi. Una volta inseriti i dati, clicca su “*Continue*”("*Continua*").
 
 ![BULL](assets/fr/22.webp)
 
-Se non avete familiarità con l'uso dei portafogli Bitcoin, Lightning o Liquid, vi suggerisco di seguire il nostro corso di formazione dedicato:
+Se non hai familiarità con l'uso dei portafogli Bitcoin, Lightning o Liquid, ti suggerisco di seguire il nostro corso di formazione dedicato:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Potete anche esplorare [i nostri tutorial dettagliati sui migliori portafogli Bitcoin](https://planb.network/tutorials/wallet).
+Puoi anche esplorare [i nostri tutorial dettagliati sui migliori portafogli Bitcoin](https://planb.network/tutorials/wallet).
 
-Quindi confermare l'acquisto facendo clic su "*Conferma acquisto*".
+Quindi conferma l'acquisto facendo clic su "*Confirm Buy*"("*Conferma acquisto*").
 
 ![BULL](assets/fr/23.webp)
 
 Da parte mia, avendo optato per un prelievo tramite Lightning, ho tre opzioni per recuperare la mia saturazione:
 
 
-- LNURL mediante la scansione di un codice QR ;
-- Fornendo il mio indirizzo Lightning ;
+- LNURL mediante la scansione di un codice QR;
+- Fornendo il mio indirizzo Lightning;
 - Fornendo una fattura per l'importo dell'acquisto.
 
 Il metodo LNURL è il più semplice. È disponibile nella maggior parte dei portafogli Lightning, come Phoenix, dove è sufficiente selezionare "*Receive*" e poi "*Scan*".
 
 ![BULL](assets/fr/24.webp)
 
-I vostri bitcoin sono ora al sicuro nel vostro portafoglio.
+I tuoi bitcoin sono ora al sicuro nel tuo portafoglio.
 
 ![BULL](assets/fr/25.webp)
 
 ## Vendere bitcoin
 
-Per vendere bitcoin, la procedura è molto semplice. Cliccare su "*Vendere Bitcoin*".
+Per vendere bitcoin, la procedura è molto semplice. Clicca su "*Sell Bitcoin*"("*Vendere Bitcoin*").
 
 ![BULL](assets/fr/26.webp)
 
-Inserire l'importo che si desidera vendere e selezionare il metodo per trasferire i sats a Bull Bitcoin. Per i piccoli importi, consiglio l'opzione Lightning. Quindi fare clic su "*Continua*".
+Inserire l'importo che si desidera vendere e selezionare il metodo per trasferire i sats a Bull Bitcoin. Per i piccoli importi, consiglio l'opzione Lightning. Quindi fare clic su “*Continue*”("*Continua*").
 
 ![BULL](assets/fr/27.webp)
 
-Scegliete il conto su cui volete ricevere gli euro della vendita. Potete selezionare il vostro conto sulla piattaforma o un conto bancario esterno. Cliccate su "*Continua*".
+Scegli il conto sul quale desideri ricevere gli euro derivanti dalla vendita. Puoi selezionare il tuo conto sulla piattaforma o un conto bancario esterno. Clicca su “*Continue*”("*Continua*").
 
 ![BULL](assets/fr/28.webp)
 
-Vengono quindi visualizzate le istruzioni per eseguire la transazione. Nel mio esempio di Lightning, pagherò una fattura.
+Vengono quindi visualizzate le istruzioni per completare la transazione. Nel mio esempio di Lightning, pagherò una fattura.
 
 ![BULL](assets/fr/29.webp)
 
@@ -171,32 +170,32 @@ Una volta confermato il pagamento, il saldo verrà aggiornato.
 
 ## Prelievo di valuta fiat
 
-Se si dispone di euro su Bull Bitcoin e si desidera trasferirli su un conto bancario esterno, cliccare su "*Ritiro fondi*".
+Se hai euro su Bull Bitcoin e desideri trasferirli su un conto bancario esterno, clicca su “*Withdraw funds*”("*Ritiro fondi*").
 
 ![BULL](assets/fr/31.webp)
 
-Immettere l'importo da trasferire, quindi fare clic su "*Continua*".
+Immetti l'importo da trasferire, quindi fai clic su "*Continue*"("*Continua*").
 
 ![BULL](assets/fr/32.webp)
 
-Scegliete il metodo di pagamento.
+Scegli il metodo di pagamento.
 
 ![BULL](assets/fr/33.webp)
 
-Aggiungere un nuovo conto beneficiario o selezionarne uno tra quelli già registrati.
+Aggiungi un nuovo conto beneficiario oppure seleziona uno tra quelli già registrati.
 
 ![BULL](assets/fr/34.webp)
 
-Confermare quindi il prelievo.
+Conferma quindi il prelievo.
 
 ![BULL](assets/fr/35.webp)
 
-Per tenere traccia di tutte le transazioni, è possibile consultare lo storico nel menu "*ultime transazioni*".
+Per tenere traccia di tutte le transazioni, è possibile consultare lo storico nel menu "*Latest transactions*"("*ultime transazioni*").
 
 ![BULL](assets/fr/36.webp)
 
-Ora sapete come comprare e vendere bitcoin facilmente con Bull Bitcoin. Se hai trovato utile questo tutorial, ti sarei molto grato se mettessi un pollice verde qui sotto. Sentitevi liberi di condividere questo articolo sui vostri social network. Grazie mille!
+Ora sai come comprare e vendere bitcoin facilmente con Bull Bitcoin. Se hai trovato utile questo tutorial, ti sarei molto grato se mettessi un pollice verde qui sotto. Sentiti libero di condividere questo articolo sui tuoi social network. Grazie mille!
 
-Vi consiglio anche di dare un'occhiata a quest'altra guida completa per imparare a gestire la vostra frase mnemonica nel modo giusto:
+Ti consiglio inoltre di dare un’occhiata a questo altro tutorial completo per imparare a gestire correttamente la tua frase mnemonica:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

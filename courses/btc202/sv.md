@@ -706,7 +706,7 @@ En Bitcoin-nod är därför en maskin som kör en implementering av Bitcoin-prot
 
 
 
-### Den kompletta knuten
+### Den fullständiga noden
 
 
 

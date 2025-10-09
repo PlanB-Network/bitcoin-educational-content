@@ -706,7 +706,7 @@ Een Bitcoin knooppunt is dus een machine waarop een implementatie van het Bitcoi
 
 
 
-### De volledige knoop
+### De volledige node
 
 
 

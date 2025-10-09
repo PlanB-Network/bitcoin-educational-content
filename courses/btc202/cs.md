@@ -706,7 +706,7 @@ Uzel Bitcoin je tedy počítač s implementací protokolu Bitcoin. Za touto spol
 
 
 
-### Kompletní uzel
+### Úplný uzel
 
 
 

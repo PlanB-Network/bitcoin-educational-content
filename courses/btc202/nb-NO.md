@@ -706,7 +706,7 @@ En Bitcoin-node er derfor en maskin som kjører en implementering av Bitcoin-pro
 
 
 
-### Den komplette knuten
+### Den fullstendige noden
 
 
 

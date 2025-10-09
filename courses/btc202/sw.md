@@ -706,7 +706,7 @@ Kwa hivyo, nodi ya Bitcoin ni mashine inayoendesha utekelezaji wa itifaki ya Bit
 
 
 
-### Fundo kamili
+### Nodi kamili
 
 
 

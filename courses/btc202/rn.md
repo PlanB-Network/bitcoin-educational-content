@@ -706,7 +706,7 @@ Igikoresho ca Bitcoin ni rero imashini ikoresha ugushirwa mu ngiro kw’itegeko 
 
 
 
-### Ipfundo ryose
+### Node yuzuye
 
 
 

@@ -706,7 +706,7 @@ Oleh karena itu, sebuah node Bitcoin adalah sebuah mesin yang menjalankan implem
 
 
 
-### Simpul yang lengkap
+### Node lengkap
 
 
 

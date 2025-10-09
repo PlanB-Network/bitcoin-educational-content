@@ -706,7 +706,7 @@ Un nodo Bitcoin es, por tanto, una máquina que ejecuta una implementación del 
 
 
 
-### El nudo completo
+### El nodo completo
 
 
 

@@ -706,7 +706,7 @@ Dakle, nije važan broj čvorova, već važnost ekonomske aktivnosti koju podrž
 
 
 
-### Kompletan čvor
+### Potpuni čvor
 
 
 

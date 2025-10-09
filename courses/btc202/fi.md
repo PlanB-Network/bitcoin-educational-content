@@ -706,7 +706,7 @@ Bitcoin-solmu on siis kone, jossa on Bitcoin-protokollan toteutus. Tämän solmu
 
 
 
-### Täydellinen solmu
+### Täysi solmu
 
 
 

@@ -706,7 +706,7 @@ Węzeł Bitcoin jest zatem maszyną z uruchomioną implementacją protokołu Bit
 
 
 
-### Kompletny węzeł
+### Pełny węzeł
 
 
 

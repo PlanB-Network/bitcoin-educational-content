@@ -531,7 +531,7 @@ So it's not the number of nodes that matters, but the importance of the economic
 A Bitcoin node is, therefore, a machine running an implementation of the Bitcoin protocol. Behind this common definition of nodes, several possible configurations exist, not all of which offer the same level of autonomy, resource consumption, and usefulness for the network. In this chapter, we'll attempt to understand these differences to help you choose a node architecture that suits your use and hardware constraints.
 
 
-### The complete knot
+### The full node
 
 
 A full node is simply a Bitcoin node that downloads the entire Blockchain from the Genesis block, validates each block independently, and stores the history of all that Blockchain locally. This is the "normal" form of a Bitcoin node, as imagined by Satoshi Nakamoto.

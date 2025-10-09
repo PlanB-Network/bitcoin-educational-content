@@ -706,7 +706,7 @@ Do đó, một nút Bitcoin là một máy chạy một phiên bản triển kha
 
 
 
-### Nút thắt hoàn chỉnh
+### Nút đầy đủ
 
 
 

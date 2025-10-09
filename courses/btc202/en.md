@@ -17,7 +17,7 @@ objectives:
 You're probably familiar with the adage "Not your keys, not your coins", which encourages self-custody of your bitcoins. Holding your own keys is indeed an essential first step, but it's not enough. To achieve true monetary sovereignty, you also need to install and use your own Bitcoin node. This course is designed to guide you through this fundamental step in your Bitcoin journey!
 
 
-BTC 202 is an accessible course designed to teach you how to spin your own Bitcoin knot, even if you're not a technical expert. We'll start by defining what a Bitcoin knot is, what it's for, and why it's absolutely essential to spin one yourself. I'll then guide you step-by-step through choosing your hardware, installing the necessary software, connecting your wallet, and making the first possible optimizations to take it further.
+BTC 202 is an accessible course designed to teach you how to run your own Bitcoin node, even if you’re not a technical expert. We’ll start by defining what a Bitcoin node is, what it does, and why it’s absolutely essential to run one yourself. I’ll then guide you step by step through choosing your hardware, installing the necessary software, connecting your wallet software, and performing the first possible optimizations to go further.
 
 
 Running a Bitcoin node is not just an option for experts; it's a necessity. It's a resilience tool that every user needs to understand and implement. This course is your starting point to becoming a sovereign bitcoiner!

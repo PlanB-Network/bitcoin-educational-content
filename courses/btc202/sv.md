@@ -21,7 +21,7 @@ Du är förmodligen bekant med ordspråket "Inte dina nycklar, inte dina mynt", 
 
 
 
-BTC 202 är en lättillgänglig kurs som är utformad för att lära dig att spinna din egen Bitcoin-knut, även om du inte är en teknisk expert. Vi börjar med att definiera vad en Bitcoin-knut är, vad den är till för och varför det är absolut nödvändigt att snurra en själv. Sedan guidar jag dig steg för steg genom att välja maskinvara, installera nödvändig programvara, ansluta din Wallet och göra de första möjliga optimeringarna för att ta den vidare.
+BTC 202 är en lättillgänglig utbildning utformad för att lära dig hur du kör din egen Bitcoin-nod, även om du inte är en teknisk expert. Vi börjar med att definiera vad en Bitcoin-nod är, vad den används till och varför det är absolut nödvändigt att driva en själv. Därefter guidar jag dig steg för steg genom att välja din hårdvara, installera nödvändig programvara, ansluta din plånboksprogramvara och genomföra de första möjliga optimeringarna för att gå vidare.
 
 
 

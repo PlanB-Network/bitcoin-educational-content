@@ -21,7 +21,7 @@ Bitcoinlerinizi kendinizin muhafaza etmesini teşvik eden "Anahtarlarınız yoks
 
 
 
-BTC 202, teknik bir uzman olmasanız bile size kendi Bitcoin düğümünüzü nasıl atacağınızı öğretmek için tasarlanmış erişilebilir bir kurstur. Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve kendi düğümünüzü atmanın neden kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Daha sonra donanımınızı seçme, gerekli yazılımı yükleme, Wallet'unuzu bağlama ve daha ileri götürmek için ilk olası optimizasyonları yapma konusunda size adım adım rehberlik edeceğim.
+BTC 202, teknik bir uzman olmasanız bile kendi Bitcoin düğümünüzü çalıştırmayı öğrenmeniz için tasarlanmış erişilebilir bir eğitimdir. Öncelikle bir Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve neden kendi başınıza bir tane çalıştırmanın kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Ardından, donanımınızı seçme, gerekli yazılımları yükleme, cüzdan yazılımınızı bağlama ve daha ileri gitmek için ilk olası optimizasyonları yapma konusunda sizi adım adım yönlendireceğim.
 
 
 

@@ -21,7 +21,7 @@ Pravděpodobně znáte pořekadlo "Ne vaše klíče, ne vaše mince", které nab
 
 
 
-BTC 202 je přístupný kurz, který vás naučí spřádat vlastní uzel Bitcoin, i když nejste technický expert. Začneme tím, že si definujeme, co je to uzel Bitcoin, k čemu slouží a proč je naprosto nezbytné, abyste si ho sami upředli. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením uzlu Wallet a provedením prvních možných optimalizací, které vás posunou dále.
+BTC 202 je přístupné školení navržené tak, aby vás naučilo, jak provozovat vlastní uzel Bitcoin, i když nejste technický expert. Začneme definováním, co je uzel Bitcoin, k čemu slouží a proč je naprosto zásadní provozovat ho sám. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením vašeho peněženkového softwaru a prvními možnými optimalizacemi pro další pokrok.
 
 
 

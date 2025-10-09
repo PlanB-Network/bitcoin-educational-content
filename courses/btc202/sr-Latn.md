@@ -21,7 +21,7 @@ Verovatno ste upoznati sa izrekom "Nisu tvoji ključevi, nisu tvoji novčići", 
 
 
 
-BTC 202 je pristupačan kurs osmišljen da vas nauči kako da sami ispletete svoj Bitcoin čvor, čak i ako niste tehnički stručnjak. Počećemo definisanjem šta je Bitcoin čvor, čemu služi i zašto je apsolutno neophodno da ga sami ispletete. Zatim ću vas korak po korak voditi kroz izbor hardvera, instalaciju potrebnog softvera, povezivanje vašeg Wallet i pravljenje prvih mogućih optimizacija kako biste ga unapredili.
+BTC 202 je pristupačna obuka osmišljena da vas nauči kako da pokrenete sopstveni Bitcoin čvor, čak i ako niste tehnički stručnjak. Počećemo definisanjem šta je Bitcoin čvor, čemu služi i zašto je apsolutno neophodno da ga sami pokrenete. Zatim ću vas korak po korak voditi kroz izbor hardvera, instalaciju potrebnog softvera, povezivanje vašeg wallet softvera i prve moguće optimizacije za dalji napredak.
 
 
 

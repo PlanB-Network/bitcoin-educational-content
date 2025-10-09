@@ -21,7 +21,7 @@ Có lẽ bạn đã quen thuộc với câu châm ngôn "Not your key, not your 
 
 
 
-BTC 202 là một khóa học dễ tiếp cận, được thiết kế để hướng dẫn bạn cách tự làm nút thắt Bitcoin, ngay cả khi bạn không phải là chuyên gia kỹ thuật. Chúng ta sẽ bắt đầu bằng cách định nghĩa nút thắt Bitcoin là gì, công dụng của nó, và tại sao việc tự làm một nút thắt Bitcoin lại vô cùng cần thiết. Sau đó, tôi sẽ hướng dẫn bạn từng bước lựa chọn phần cứng, cài đặt phần mềm cần thiết, kết nối Wallet và thực hiện những tối ưu hóa đầu tiên để nâng cao hơn nữa.
+BTC 202 là một khóa học dễ tiếp cận được thiết kế để dạy bạn cách vận hành nút Bitcoin của riêng mình, ngay cả khi bạn không phải là chuyên gia kỹ thuật. Chúng ta sẽ bắt đầu bằng cách định nghĩa nút Bitcoin là gì, nó có chức năng gì và tại sao việc tự mình vận hành nó lại vô cùng quan trọng. Sau đó, tôi sẽ hướng dẫn bạn từng bước trong việc chọn phần cứng, cài đặt phần mềm cần thiết, kết nối phần mềm ví và thực hiện những tối ưu hóa ban đầu để tiến xa hơn.
 
 
 

@@ -21,7 +21,7 @@ Ilmselt olete tuttav ütlusega "Not your keys, not your coins", mis julgustab om
 
 
 
-BTC 202 on kättesaadav kursus, mille eesmärk on õpetada teile, kuidas oma Bitcoin sõlme keerata, isegi kui te ei ole tehniline ekspert. Alustame sellega, et defineerime, mis on Bitcoin sõlme, milleks see on mõeldud ja miks on hädavajalik seda ise keerata. Seejärel juhatan teid samm-sammult läbi riistvara valimise, vajaliku tarkvara paigaldamise, Wallet ühendamise ja esimeste võimalike optimeerimiste tegemise, et seda edasi viia.
+BTC 202 on hõlpsasti juurdepääsetav koolitus, mis on loodud selleks, et õpetada teile, kuidas oma Bitcoin'i sõlme käivitada, isegi kui te ei ole tehnikaekspert. Alustame sellega, et määratleme, mis on Bitcoin'i sõlm, milleks see on mõeldud ja miks on hädavajalik seda ise käitada. Seejärel juhendan teid samm-sammult teie riistvara valimisel, vajaliku tarkvara installimisel, rahakotitarkvara ühendamisel ja esimestel võimalikest optimeerimistest edasiliikumiseks.
 
 
 

@@ -21,7 +21,7 @@ Je bent waarschijnlijk bekend met het adagium "Niet je sleutels, niet je munten"
 
 
 
-BTC 202 is een toegankelijke cursus die is ontworpen om je te leren je eigen Bitcoin knoop te spinnen, zelfs als je geen technisch expert bent. We beginnen met te definiëren wat een Bitcoin knoop is, waar hij voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Daarna begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het aansluiten van je Wallet en het maken van de eerste mogelijke optimalisaties om verder te komen.
+BTC 202 is een toegankelijke opleiding die is ontworpen om je te leren je eigen Bitcoin-node te draaien, zelfs als je geen technische expert bent. We beginnen met te definiëren wat een Bitcoin-node is, waar het voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Vervolgens begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het verbinden van je walletsoftware en de eerste mogelijke optimalisaties om verder te gaan.
 
 
 

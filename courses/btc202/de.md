@@ -21,7 +21,7 @@ Sie kennen wahrscheinlich das Sprichwort "Nicht Ihre Schlüssel, nicht Ihre Mün
 
 
 
-BTC 202 ist ein zugänglicher Kurs, der Ihnen beibringen soll, wie Sie Ihren eigenen Bitcoin-Knoten spinnen können, auch wenn Sie kein technischer Experte sind. Wir beginnen damit, zu definieren, was ein Bitcoin-Knoten ist, wozu er dient und warum es absolut notwendig ist, selbst einen zu spinnen. Dann führe ich Sie Schritt für Schritt durch die Auswahl Ihrer Hardware, die Installation der notwendigen Software, den Anschluss Ihres Wallet und die ersten möglichen Optimierungen, um ihn weiterzuentwickeln.
+BTC 202 ist eine leicht zugängliche Schulung, die Ihnen beibringt, wie Sie Ihren eigenen Bitcoin-Knoten betreiben, auch wenn Sie kein technischer Experte sind. Wir beginnen damit, zu definieren, was ein Bitcoin-Knoten ist, wozu er dient und warum es absolut wesentlich ist, einen selbst zu betreiben. Anschließend führe ich Sie Schritt für Schritt durch die Auswahl Ihrer Hardware, die Installation der erforderlichen Software, die Verbindung Ihrer Wallet-Software und die ersten möglichen Optimierungen, um weiterzugehen.
 
 
 

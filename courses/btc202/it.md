@@ -21,7 +21,7 @@ Probabilmente conoscete l'adagio "Not your keys, not your coins", che incoraggia
 
 
 
-Il BTC 202 è un corso accessibile progettato per insegnarvi a filare il vostro nodo Bitcoin, anche se non siete esperti di tecnica. Inizieremo definendo che cos'è un nodo Bitcoin, a che cosa serve e perché è assolutamente indispensabile farne uno da soli. Poi vi guiderò passo dopo passo nella scelta dell'hardware, nell'installazione del software necessario, nel collegamento del Wallet e nelle prime ottimizzazioni possibili per andare oltre.
+BTC 202 è una formazione accessibile pensata per insegnarti a gestire il tuo nodo Bitcoin, anche se non sei un esperto tecnico. Inizieremo definendo cos’è un nodo Bitcoin, a cosa serve e perché è assolutamente essenziale gestirne uno autonomamente. Ti guiderò poi passo dopo passo nella scelta dell’hardware, nell’installazione dei software necessari, nel collegamento del tuo portafoglio e nelle prime ottimizzazioni possibili per progredire ulteriormente.
 
 
 

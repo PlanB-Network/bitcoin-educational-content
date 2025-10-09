@@ -21,7 +21,7 @@ Tunnet luultavasti sanonnan "Not your keys, not your coins", joka kannustaa säi
 
 
 
-BTC 202 on helppokäyttöinen kurssi, joka on suunniteltu opettamaan sinulle, miten kehräät oman Bitcoin-solmusi, vaikka et olisikaan tekninen asiantuntija. Aloitamme määrittelemällä, mikä Bitcoin-solmu on, mihin sitä käytetään ja miksi on ehdottoman tärkeää kehrätä sellainen itse. Sen jälkeen opastan sinua askel askeleelta laitteiston valinnassa, tarvittavan ohjelmiston asentamisessa, Wallet-solmun kytkemisessä ja ensimmäisten mahdollisten optimointien tekemisessä, jotta voit viedä sitä pidemmälle.
+BTC 202 on helposti saavutettava koulutus, joka on suunniteltu opettamaan sinulle, kuinka voit ajaa omaa Bitcoin-solmua, vaikka et olisikaan tekninen asiantuntija. Aloitamme määrittelemällä, mikä on Bitcoin-solmu, mihin sitä käytetään ja miksi on ehdottoman tärkeää ajaa omaa solmua. Sen jälkeen opastan sinua askel askeleelta laitteiston valinnassa, tarvittavan ohjelmiston asentamisessa, lompakko-ohjelmiston yhdistämisessä ja ensimmäisissä mahdollisissa optimoinneissa edetäksesi pidemmälle.
 
 
 

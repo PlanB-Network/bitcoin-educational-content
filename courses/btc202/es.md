@@ -21,7 +21,7 @@ Probablemente estés familiarizado con el adagio "Ni tus llaves, ni tus monedas"
 
 
 
-BTC 202 es un curso accesible diseñado para enseñarte a hacer tu propio nudo Bitcoin, incluso si no eres un experto técnico. Empezaremos definiendo qué es un nudo Bitcoin, para qué sirve y por qué es absolutamente esencial que hagas uno tú mismo. Luego te guiaré paso a paso en la elección de tu hardware, la instalación del software necesario, la conexión de tu Wallet y las primeras optimizaciones posibles para llevarlo más lejos.
+BTC 202 es una formación accesible diseñada para enseñarte a ejecutar tu propio nodo de Bitcoin, incluso si no eres un experto técnico. Comenzaremos definiendo qué es un nodo de Bitcoin, para qué sirve y por qué es absolutamente esencial ejecutar uno por tu cuenta. Luego te guiaré paso a paso en la elección de tu hardware, la instalación del software necesario, la conexión de tu monedero y las primeras optimizaciones posibles para avanzar más.
 
 
 

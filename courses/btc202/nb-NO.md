@@ -21,7 +21,7 @@ Du er sikkert kjent med ordtaket "Ikke dine nøkler, ikke dine mynter", som oppf
 
 
 
-BTC 202 er et lett tilgjengelig kurs som er utviklet for å lære deg å spinne din egen Bitcoin-knute, selv om du ikke er en teknisk ekspert. Vi begynner med å definere hva en Bitcoin-knute er, hva den brukes til, og hvorfor det er helt avgjørende å spinne en selv. Deretter guider jeg deg trinn for trinn gjennom valg av maskinvare, installering av nødvendig programvare, tilkobling av Wallet og de første mulige optimaliseringene for å ta den videre.
+BTC 202 er et lett tilgjengelig kurs laget for å lære deg å kjøre din egen Bitcoin-node, selv om du ikke er en teknisk ekspert. Vi starter med å definere hva en Bitcoin-node er, hva den brukes til, og hvorfor det er helt essensielt å kjøre en selv. Deretter vil jeg veilede deg steg for steg i valg av maskinvare, installasjon av nødvendig programvare, tilkobling av lommebokprogramvaren og de første mulige optimaliseringene for å gå videre.
 
 
 

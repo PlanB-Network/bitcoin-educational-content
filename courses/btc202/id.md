@@ -21,7 +21,7 @@ Anda mungkin sudah tidak asing lagi dengan pepatah "Bukan kunci Anda, bukan koin
 
 
 
-BTC 202 adalah kursus yang dirancang untuk mengajarkan Anda cara memintal simpul Bitcoin Anda sendiri, bahkan jika Anda bukan ahli teknis. Kita akan mulai dengan mendefinisikan apa itu simpul Bitcoin, untuk apa simpul itu, dan mengapa sangat penting untuk memintal simpul itu sendiri. Kemudian saya akan memandu Anda langkah demi langkah dalam memilih perangkat keras, menginstal perangkat lunak yang diperlukan, menghubungkan Wallet Anda, dan melakukan pengoptimalan pertama yang memungkinkan untuk membawanya lebih jauh.
+BTC 202 adalah pelatihan yang mudah diakses yang dirancang untuk mengajarkan Anda cara menjalankan node Bitcoin Anda sendiri, bahkan jika Anda bukan ahli teknis. Kami akan mulai dengan mendefinisikan apa itu node Bitcoin, untuk apa fungsinya, dan mengapa sangat penting untuk menjalankannya sendiri. Saya kemudian akan memandu Anda langkah demi langkah dalam memilih perangkat keras Anda, menginstal perangkat lunak yang diperlukan, menghubungkan perangkat lunak dompet Anda, dan melakukan optimalisasi awal yang mungkin untuk melangkah lebih jauh.
 
 
 

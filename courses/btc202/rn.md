@@ -21,7 +21,7 @@ Kumbure urazi neza imvugo ngo "Si imfunguruzo zawe, si ibiceri vyawe", iremesha 
 
 
 
-BTC 202 ni inyigisho ishoboka yagenewe kukwigisha ingene wozunguruka urudodo rwawe rwa Bitcoin, naho woba utari umuhinga mu vy’ubuhinga. Tuzotangura dusobanura ico urudodo rwa Bitcoin ari co, ico rukoreshwa, n’igituma ari ngombwa cane ko wizunguruka. Nzoca ndakuyobora intambwe ku yindi mu guhitamwo ibikoresho vyawe, gushiramwo porogarama zikenewe, gufatanya Wallet yawe, no gukora ivyiza vya mbere bishoboka kugira ngo uyishire kure.
+BTC 202 ni inyigisho iboneka neza yagenewe kukwigisha uburyo bwo gutangiza node yawe ya Bitcoin, n’iyo utaba umutekinisiye w’inzobere. Tuzatangira dusobanura icyo node ya Bitcoin ari cyo, icyo ikora, n’icyo ari cyo kugira ngo uyikoreshe wenyine. Hanyuma nzagufasha intambwe ku yindi mu guhitamo ibikoresho byawe, kwishyiriraho software zikenewe, guhuza software ya wallet yawe no gukora amwe mu mavugurura ya mbere ashoboka kugira ngo ugere kure.
 
 
 

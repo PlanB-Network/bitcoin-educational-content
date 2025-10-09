@@ -21,7 +21,7 @@ Prawdopodobnie znasz powiedzenie "Nie twoje klucze, nie twoje monety", które za
 
 
 
-BTC 202 to przystępny kurs zaprojektowany, aby nauczyć Cię, jak wykonać własny węzeł Bitcoin, nawet jeśli nie jesteś ekspertem technicznym. Zaczniemy od zdefiniowania, czym jest węzeł Bitcoin, do czego służy i dlaczego absolutnie konieczne jest samodzielne wykonanie takiego węzła. Następnie poprowadzę cię krok po kroku przez wybór sprzętu, instalację niezbędnego oprogramowania, podłączenie Wallet i dokonanie pierwszych możliwych optymalizacji, aby pójść dalej.
+BTC 202 to przystępne szkolenie zaprojektowane, aby nauczyć Cię, jak uruchomić własny węzeł Bitcoin, nawet jeśli nie jesteś ekspertem technicznym. Zaczniemy od zdefiniowania, czym jest węzeł Bitcoin, do czego służy i dlaczego absolutnie niezbędne jest uruchamianie go samodzielnie. Następnie poprowadzę Cię krok po kroku przez wybór sprzętu, instalację niezbędnego oprogramowania, połączenie oprogramowania portfela i pierwsze możliwe optymalizacje, aby pójść dalej.
 
 
 

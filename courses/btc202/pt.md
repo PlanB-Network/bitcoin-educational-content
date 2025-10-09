@@ -21,7 +21,7 @@ Provavelmente conhece o ditado "Nem as suas chaves, nem as suas moedas", que inc
 
 
 
-O BTC 202 é um curso acessível concebido para o ensinar a fiar o seu próprio nó Bitcoin, mesmo que não seja um especialista técnico. Começaremos por definir o que é um nó Bitcoin, para que serve e porque é que é absolutamente essencial fazer um. Depois vou guiá-lo passo a passo na escolha do seu hardware, na instalação do software necessário, na ligação do seu Wallet e nas primeiras optimizações possíveis para o levar mais longe.
+BTC 202 é uma formação acessível criada para ensinar você a executar seu próprio nó Bitcoin, mesmo que não seja um especialista técnico. Começaremos definindo o que é um nó Bitcoin, para que serve e por que é absolutamente essencial operar um por conta própria. Em seguida, guiarei você passo a passo na escolha do hardware, na instalação dos softwares necessários, na conexão do software da carteira e nas primeiras otimizações possíveis para avançar mais.
 
 
 

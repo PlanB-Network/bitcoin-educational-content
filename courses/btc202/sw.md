@@ -21,7 +21,7 @@ Labda unajua msemo "Sio funguo zako, sio sarafu zako", ambayo inahimiza uhifadhi
 
 
 
-BTC 202 ni kozi inayoweza kufikiwa iliyoundwa ili kukufundisha jinsi ya kusokota fundo lako mwenyewe la Bitcoin, hata kama wewe si mtaalamu wa kiufundi. Tutaanza kwa kufafanua fundo la Bitcoin ni nini, ni la nini, na kwa nini ni muhimu kabisa kusokota moja mwenyewe. Kisha nitakuongoza hatua kwa hatua kupitia kuchagua maunzi yako, kusakinisha programu muhimu, kuunganisha Wallet yako, na kufanya uboreshaji wa kwanza unaowezekana ili kuipeleka zaidi.
+BTC 202 ni mafunzo rahisi yaliyoundwa kukufundisha jinsi ya kuendesha nodi yako ya Bitcoin, hata kama wewe si mtaalamu wa kiufundi. Tutaanza kwa kufafanua nodi ya Bitcoin ni nini, inafanya kazi gani, na kwa nini ni muhimu sana kuiendesha wewe mwenyewe. Kisha nitakuongoza hatua kwa hatua katika kuchagua vifaa vyako, kusakinisha programu muhimu, kuunganisha programu ya pochi yako, na kufanya uboreshaji wa awali ili kuendelea mbele.
 
 
 

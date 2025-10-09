@@ -11,7 +11,7 @@ objectives:
 
 Ce cours explore les liens profonds entre la philosophie révolutionnaire de Baruch de Spinoza (1632-1677) et Bitcoin, deux outils de liberté séparés par les siècles mais unis par une même quête : l'émancipation humaine face aux servitudes.
 
-Nous découvrirons comment Spinoza, père de la philosophie rationnelle des Lumières, a développé une éthique pratique pour nous libérer des illusions qui nous enferment - le libre arbitre, le finalisme et les superstitions théologiques. Sa méthode géométrique et sa théorie des affects nous montrent comment comprendre notre place dans le monde et orienter notre existence vers ce qui accroît notre puissance d'agir.
+Nous découvrirons comment Spinoza, père de la philosophie rationnelle des Lumières, a développé une éthique pratique pour nous libérer des illusions qui nous enferment, le libre arbitre, le finalisme et les superstitions théologiques. Sa méthode géométrique et sa théorie des affects nous montrent comment comprendre notre place dans le monde et orienter notre existence vers ce qui accroît notre puissance d'agir.
 
 Le cours établit ensuite les parallèles fascinants entre cette révolution copernicienne des idées et Bitcoin : deux systèmes qui ne requièrent ni foi aveugle ni autorité centrale, mais simplement l'exercice de la raison. Comme le spinozisme a libéré la pensée des dogmes religieux, Bitcoin libère la monnaie du contrôle étatique, offrant une nouvelle forme de liberté économique ancrée dans les mathématiques et la cryptographie.
 

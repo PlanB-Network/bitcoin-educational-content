@@ -695,7 +695,7 @@ Het gaat dus niet om het aantal nodes, maar om het belang van de economische act
 > Niet jouw node, niet jouw regels.
 
 
-## De verschillende typen Bitcoin nodes
+## De verschillende soorten Bitcoin nodes
 
 
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
@@ -706,11 +706,11 @@ Een Bitcoin node is dus een machine waarop een implementatie van het Bitcoin pro
 
 
 
-### De volledige knoop
+### De volledige node
 
 
 
-Een Full node is simpelweg een Bitcoin node dat het volledige Blockchain van het Genesis blok downloadt, elk blok onafhankelijk valideert en de geschiedenis van al dat Blockchain lokaal opslaat. Dit is de "normale" vorm van een Bitcoin node, zoals voorgesteld door Satoshi Nakamoto.
+Een full node is simpelweg een Bitcoin node dat de volledige Blockchain vanaf het Genesis blok downloadt, elk blok onafhankelijk valideert en de geschiedenis van al deze Blockchain lokaal opslaat. Dit is de "normale" vorm van een Bitcoin node, zoals voorgesteld door Satoshi Nakamoto.
 
 
 
@@ -718,23 +718,23 @@ Een Full node is simpelweg een Bitcoin node dat het volledige Blockchain van het
 
 
 
-De Full node hoeft niemand te vertrouwen omdat hij alle informatie in het systeem valideert en kent. Het is het type node dat je de meeste garanties geeft: je weet, zonder afhankelijk te zijn van een derde partij, of een betaling geldig is, of een blok geldig is, of een reorganisatie legitiem is, enzovoort.
+De full node hoeft niemand te vertrouwen omdat hij alle informatie in het systeem valideert en kent. Het is het type node dat je de meeste garanties geeft: je weet, zonder afhankelijk te zijn van een derde partij, of een betaling geldig is, of een blok geldig is, of een reorganisatie legitiem is, enzovoort.
 
 
 
-In de praktijk vereist een Full node niet-triviale middelen, waaronder enkele honderden gigabytes voor blokbestanden, een processor die scripts kan valideren, RAM voor de Mempool en caches, en een stabiele bandbreedte. De eerste synchronisatie (*IBD*) leest en verifieert de complete geschiedenis: het is intensief, maar gebeurt maar één keer. Een Full node neemt actief deel aan het netwerk, geeft blokken en transacties door en kan binnenkomende verbindingen accepteren om andere peers te helpen.
+In de praktijk vereist een full node niet-triviale middelen, waaronder enkele honderden gigabytes voor blokbestanden, een processor die scripts kan valideren, RAM voor de Mempool en caches, en een stabiele bandbreedte. De eerste synchronisatie (*IBD*) leest en verifieert de complete geschiedenis: het is intensief, maar gebeurt maar één keer. Een full node neemt actief deel aan het netwerk, geeft blokken en transacties door en kan binnenkomende verbindingen accepteren om andere peers te helpen.
 
 
 
-Afhankelijk van je behoeften kun je een indexer toevoegen aan je Full node. Bitcoin core biedt transactie-indexering als een optionele functie (standaard uitgeschakeld), die nuttig kan zijn voor specifieke doeleinden. Het bevat echter geen Address indexer, wat vaak de meest gewilde functie is voor individuele gebruikers. Om dit te verhelpen kun je speciale software op je node installeren, zoals Electrs of Fulcrum, om Address balansverificatie queries van geassocieerde UTXO's te versnellen. We zullen in een apart hoofdstuk dieper ingaan op de rol van de indexeerder.
+Afhankelijk van je behoeften kun je een indexer toevoegen aan je full node. Bitcoin core biedt transactie-indexering als een optionele functie (standaard uitgeschakeld), die nuttig kan zijn voor specifieke doeleinden. Het bevat echter geen adres indexer, wat vaak de meest gewilde functie is voor individuele gebruikers. Om dit te verhelpen kun je speciale software op je node installeren, zoals Electrs of Fulcrum, om adres balansverificatie queries van geassocieerde UTXO's te versnellen. We zullen in een apart hoofdstuk dieper ingaan op de rol van de indexeerder.
 
 
 
-### De pruned knoop
+### De pruned noded
 
 
 
-Het pruned node valideert alles als een Full node, van het Genesis blok tot de kop van de keten met het meeste werk, maar **behoudt alleen het meest recente deel van de blokbestanden**. Zodra de oude blokken gecontroleerd zijn, worden ze geleidelijk verwijderd om onder een ruimtelimiet te blijven die je kunt instellen. Deze configuratie is ideaal als u beperkte schijfruimte hebt: u behoudt de onafhankelijkheid van de blokvalidatie, zonder het complete Blockchain geschiedenisarchief op te slaan. Deze optie is vooral handig als u de Bitcoin core op uw pc wilt installeren, zonder een speciale machine te gebruiken.
+De pruned (gesnoeiede) node valideert alles zoals een full node, vanaf het Genesis blok tot de kop van de keten met het meeste werk, maar **behoudt alleen het meest recente deel van de blokbestanden**. Zodra de oude blokken gecontroleerd zijn, worden ze geleidelijk verwijderd om onder een ruimtelimiet te blijven die je kunt instellen. Deze configuratie is ideaal als je beperkte schijfruimte hebt: je behoudt de onafhankelijkheid van de blokvalidatie, zonder het complete Blockchain geschiedenisarchief op te slaan. Deze optie is vooral handig als je de Bitcoin core op je pc wilt installeren, zonder een speciale machine te gebruiken.
 
 
 
@@ -742,23 +742,23 @@ Het pruned node valideert alles als een Full node, van het Genesis blok tot de k
 
 
 
-De technische implicaties van deze optie zijn vrij eenvoudig: het pruned node is perfect in staat om uw transacties uit te zenden, deel te nemen aan de relay, blokken en transacties te verifiëren en de keten te volgen. Aan de andere kant kan het niet dienen als een bron van historische gegevens buiten zijn grenzen voor andere toepassingen (bv. volledige verkenners, indexeerders, wallets). Functies die het archief (of een globale index) nodig hebben, zullen daarom niet beschikbaar zijn.
+De technische implicaties van deze optie zijn vrij eenvoudig: de pruned node is perfect in staat om je transacties uit te zenden, deel te nemen aan de relay, blokken en transacties te verifiëren en de keten te volgen. Aan de andere kant kan het niet dienen als een bron van historische gegevens buiten zijn grenzen voor andere toepassingen (bv. volledige verkenners, indexeerders, wallets). Functies die het archief (of een globale index) nodig hebben, zullen daarom niet beschikbaar zijn.
 
 
 
-Praktisch gezien kunt u een pruned node gebruiken om Wallet beheersoftware zoals Sparrow wallet aan te sluiten. Je zult echter geen transacties op je Wallet kunnen scannen die van voor de snoeilimiet dateren. Als je bijvoorbeeld een transactie geregistreerd hebt in blok 901 458, maar je node bewaart alleen blokken vanaf 905 402 (omdat de oudste pruned zijn), dan kun je deze transactie niet scannen. Aan de andere kant, als je het al had gescand toen je node deze blokhoogte nog had, dan zal je Wallet beheersoftware de informatie opslaan en het saldo van de corresponderende UTXO's correct weergeven.
+Praktisch gezien kun je een pruned node gebruiken om wallet beheersoftware zoals Sparrow wallet aan te sluiten. Je zult echter geen transacties op je wallet kunnen scannen die van voor de pruning limiet dateren. Als je bijvoorbeeld een transactie geregistreerd hebt in blok 901 458, maar je node bewaart alleen blokken vanaf 905 402 (omdat de oudste pruned zijn), dan kun je deze transactie niet scannen. Aan de andere kant, als je het al had gescand toen je node deze blokhoogte nog had, dan zal je wallet beheersoftware de informatie opslaan en het saldo van de corresponderende UTXO's correct weergeven.
 
 
 
-Kortom, Wallet traceren werkt probleemloos op een pruned node als je een nieuwe Wallet aanmaakt terwijl je software al verbonden is met dat node. Aan de andere kant kunt u problemen ondervinden als u een oude Wallet herstelt, omdat transacties uit het verleden die niet meer door de node worden bewaard, natuurlijk niet meer terug te vinden zijn.
+Kortom, wallet traceren werkt probleemloos op een pruned node als je een nieuwe wallet aanmaakt terwijl je software al verbonden is met dat node. Aan de andere kant kun je problemen ondervinden als je een oude wallet herstelt, omdat transacties uit het verleden die niet meer door de node worden bewaard, natuurlijk niet meer terug te vinden zijn.
 
 
 
-### De lichte knoop / SPV
+### De lichte node / SPV
 
 
 
-Een SPV (*Simplified Payment Verification*) node, of lichtgewicht node, bewaart alleen blokkoppen, geen transactiedetails, en vertrouwt op andere volledige nodes om bewijs te verkrijgen dat een transactie in een blok zit (Merkle bewijzen via bomen) waarvoor het de kop heeft. Het concept van vereenvoudigde betalingsverificatie is niet nieuw, het werd voorgesteld door Satoshi Nakamoto zelf in deel 8 van het Witboek.
+Een SPV (*Simplified Payment Verification*) node, of lichtgewicht node, bewaart alleen blokkoppen, geen transactiedetails, en vertrouwt op andere volledige nodes om bewijs te verkrijgen dat een transactie in een blok zit (Merkle bewijzen via boomstructuren) waarvoor het de kop heeft. Het concept van vereenvoudigde betalingsverificatie is niet nieuw, het werd voorgesteld door Satoshi Nakamoto zelf in deel 8 van het Witboek.
 
 
 
@@ -770,11 +770,11 @@ Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https
 
 
 
-Dit type node is duidelijk veel lichter in termen van opslag en CPU-gebruik dan een Full node of zelfs een pruned node. De SPV node is daarom zeer geschikt voor kleinere apparaten en intermitterende verbindingen. In feite wordt het vaak direct geïntegreerd in de Wallet, vooral mobiele software zoals de Blockstream App.
+Dit type node is duidelijk veel lichter in termen van opslag en CPU-gebruik dan een full node of zelfs een pruned node. De SPV node is daarom zeer geschikt voor kleinere apparaten en onregelmatige verbindingen. In feite wordt het vaak direct geïntegreerd in de wallet, vooral mobiele software zoals de Blockstream App.
 
 
 
-De afweging is vertrouwen en vertrouwelijkheid: een SPV client controleert zelf geen scripts of validatiebeleid; hij gaat ervan uit dat de keten met het meeste werk geldig is en is afhankelijk van een of meer volledige nodes voor antwoorden. Het gebruik van dit type node is daarom een betere optie dan verbinding maken met een node van een derde partij; het is echter nog steeds minder voordelig dan een Full node of zelfs een pruned node.
+De afweging is vertrouwen en vertrouwelijkheid: een SPV client controleert zelf geen scripts of validatiebeleid; hij gaat ervan uit dat de keten met het meeste werk geldig is en is afhankelijk van een of meer volledige nodes voor antwoorden. Het gebruik van dit type node is daarom een betere optie dan verbinding maken met een node van een derde partij; het is echter nog steeds minder voordelig dan een full node of zelfs een pruned node.
 
 
 
@@ -792,7 +792,7 @@ De afweging is vertrouwen en vertrouwelijkheid: een SPV client controleert zelf 
 
 
 
-Voor een beginnende gebruiker met alleen een Wallet op een mobiele app, is het gebruik van een SPV node zeker de beste manier om aan de slag te gaan. De installatie is snel, vereist weinig middelen en de ervaring is eenvoudig en vloeiend. Dit betekent dat je bepaalde informatie zelf kunt verifiëren en dus minder afhankelijk bent van nodes van derden, terwijl je tegelijkertijd onafhankelijker bent als het gaat om het uitzenden van transacties.
+Voor een beginnende gebruiker met alleen een wallet op een mobiele app, is het gebruik van een SPV node zeker de beste manier om aan de slag te gaan. De installatie is snel, vereist weinig middelen en de ervaring is eenvoudig en vloeiend. Dit betekent dat je bepaalde informatie zelf kunt verifiëren en dus minder afhankelijk bent van nodes van derden, terwijl je tegelijkertijd onafhankelijker bent als het gaat om het uitzenden van transacties.
 
 
 
@@ -802,7 +802,7 @@ Voor een beginnende gebruiker met alleen een Wallet op een mobiele app, is het g
 
 
 
-Een gemiddelde gebruiker met een PC kan een pruned node installeren om te profiteren van bijna alle voordelen van een Full node, zonder zijn machine dagelijks te overbelasten: volledige validatie, matig schijfgebruik en eenvoudig onderhoud. Het is een ideale oplossing om je desktop wallets aan te sluiten en onafhankelijk te blijven in de distributie van je transacties, zonder te investeren in een speciale machine of je schijfruimte te overbelasten.
+Een gemiddelde gebruiker met een PC kan een pruned node installeren om te profiteren van bijna alle voordelen van een full node, zonder zijn machine dagelijks te overbelasten: volledige validatie, matig schijfgebruik en eenvoudig onderhoud. Het is een ideale oplossing om je desktop wallets aan te sluiten en onafhankelijk te blijven in de distributie van je transacties, zonder te investeren in een speciale machine of je schijfruimte te overbelasten.
 
 
 
@@ -812,7 +812,7 @@ Een gemiddelde gebruiker met een PC kan een pruned node installeren om te profit
 
 
 
-Een Full node blijft de beste oplossing als je volledig onafhankelijk wilt zijn in het gebruik van Bitcoin en jezelf later niet wilt beperken tot geavanceerd gebruik zoals een indexer, een Lightning node of zelfs een Block explorer. Dat is precies wat we in deze cursus gaan onderzoeken!
+Een full node blijft de beste oplossing als je volledig onafhankelijk wilt zijn in het gebruik van Bitcoin en je jezelf later niet wilt beperken voor geavanceerd gebruik zoals een indexer, een Lightning node of zelfs een blok explorer. Dat is precies wat we in deze cursus gaan onderzoeken!
 
 
 

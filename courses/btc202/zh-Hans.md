@@ -692,7 +692,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-> 不是你的结，不是你的规则。
+> 不是你的节点，就不是你的规则。
 
 
 ## 不同类型的 Bitcoin 节点

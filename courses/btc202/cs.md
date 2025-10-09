@@ -692,7 +692,7 @@ Nezáleží tedy na počtu uzlů, ale na významu hospodářské činnosti, kter
 
 
 
-> Ne váš uzel, ne vaše pravidla.
+> Není to tvůj uzel, nejsou to tvoje pravidla.
 
 
 ## Různé typy uzlů Bitcoin

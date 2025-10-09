@@ -692,7 +692,7 @@ Det er altså ikke antallet noder som betyr noe, men betydningen av den økonomi
 
 
 
-> Ikke din knute, ikke dine regler.
+> Ikke din node, ikke dine regler.
 
 
 ## De ulike typene Bitcoin-noder

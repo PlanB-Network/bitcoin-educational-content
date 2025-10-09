@@ -692,7 +692,7 @@ Rero si umubare w’ibihimba vy’umubiri bihambaye, ahubwo ni akamaro k’igiko
 
 
 
-> Si ipfundo ryawe, si amategeko yawe.
+> Si node atari iyawe, amategeko si ayawe.
 
 
 ## Ubwoko butandukanye bw'ibihimba vya Bitcoin

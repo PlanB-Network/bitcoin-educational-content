@@ -692,7 +692,7 @@ Dolayısıyla önemli olan düğüm sayısı değil, destekledikleri ekonomik fa
 
 
 
-> Senin düğümün değil, senin kuralların değil.
+> Senin düğümün değilse, senin kuralların da değildir.
 
 
 ## Farklı Bitcoin düğüm tipleri

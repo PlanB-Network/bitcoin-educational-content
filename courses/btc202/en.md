@@ -520,7 +520,7 @@ As far as consensus rules are concerned, your node allows you to direct your eco
 So it's not the number of nodes that matters, but the importance of the economic activity they support. What's more, if your economic activity depends on a node you don't control, its owner will decide what currency you use, as long as you remain connected to that node. This is why running and using your own node is particularly important in the context of system governance:
 
 
-> Not your knot, not your rules.
+> Not your node, not your rules.
 
 
 ## The different types of Bitcoin nodes

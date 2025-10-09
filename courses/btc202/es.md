@@ -692,7 +692,7 @@ Así que lo importante no es el número de nodos, sino la importancia de la acti
 
 
 
-> Ni tu nudo, ni tus reglas.
+> No es tu nodo, no son tus reglas.
 
 
 ## Los distintos tipos de nodos Bitcoin

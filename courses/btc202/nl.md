@@ -692,7 +692,7 @@ Het gaat dus niet om het aantal knooppunten, maar om het belang van de economisc
 
 
 
-> Niet jouw knoop, niet jouw regels.
+> Niet jouw node, niet jouw regels.
 
 
 ## De verschillende typen Bitcoin knooppunten

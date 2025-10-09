@@ -692,7 +692,7 @@ Vậy nên, điều quan trọng không phải là số lượng nút, mà là t
 
 
 
-> Không phải nút thắt của bạn, không phải quy tắc của bạn.
+> Không phải nút của bạn, không phải quy tắc của bạn.
 
 
 ## Các loại nút Bitcoin khác nhau

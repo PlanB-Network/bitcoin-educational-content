@@ -692,7 +692,7 @@ Det är alltså inte antalet noder som spelar roll, utan vikten av den ekonomisk
 
 
 
-> Inte din knut, inte dina regler.
+> Inte din nod, inte dina regler.
 
 
 ## De olika typerna av Bitcoin-noder

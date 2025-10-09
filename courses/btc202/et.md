@@ -692,7 +692,7 @@ Seega ei ole oluline mitte sõlmede arv, vaid nende poolt toetatava majandustege
 
 
 
-> Mitte sinu sõlme, mitte sinu reegleid.
+> Pole sinu sõlm, pole sinu reeglid.
 
 
 ## Bitcoin sõlmede eri tüübid

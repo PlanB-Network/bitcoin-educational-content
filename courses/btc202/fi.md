@@ -692,7 +692,7 @@ Ratkaisevaa ei siis ole solmujen määrä vaan niiden tukeman taloudellisen toim
 
 
 
-> Ei sinun solmusi, ei sinun sääntösi.
+> Ei sinun solmusi, ei sinun sääntöjäsi.
 
 
 ## Bitcoin-solmujen eri tyypit

@@ -692,7 +692,7 @@ Kwa hivyo sio idadi ya nodi muhimu, lakini umuhimu wa shughuli za kiuchumi wanaz
 
 
 
-> Sio fundo lako, sio sheria zako.
+> Sio nodi yako, sio sheria zako.
 
 
 ## Aina tofauti za nodi za Bitcoin

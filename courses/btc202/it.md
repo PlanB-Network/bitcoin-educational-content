@@ -692,7 +692,7 @@ Non è quindi il numero di nodi che conta, ma l'importanza dell'attività econom
 
 
 
-> Non il vostro nodo, non le vostre regole.
+> Non è il tuo nodo, non sono le tue regole.
 
 
 ## I diversi tipi di nodi Bitcoin

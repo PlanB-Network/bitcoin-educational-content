@@ -692,7 +692,7 @@ Assim, não é o número de nós que importa, mas a importância da atividade ec
 
 
 
-> Nem o vosso nó, nem as vossas regras.
+> Não é o seu nó, não são as suas regras.
 
 
 ## Os diferentes tipos de nós Bitcoin

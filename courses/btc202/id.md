@@ -692,7 +692,7 @@ Jadi, yang penting bukanlah jumlah node, tetapi pentingnya aktivitas ekonomi yan
 
 
 
-> Bukan simpul Anda, bukan aturan Anda.
+> Bukan node-mu, bukan aturannya kamu.
 
 
 ## Berbagai jenis node Bitcoin yang berbeda

@@ -344,14 +344,14 @@ Et le progrès, grâce auquel vont apparaître les premières révolutions techn
 Et il est ici utile de se rappeler la définition que fait Sigmund Freud (1856-1939) de l’illusion. Selon le père de la psychanalyse qui a toujours reconnu l’influence de Spinoza sur son travail, une illusion est précisément « une croyance motivée par la réalisation d’un désir en ne tenant pas compte, de ce fait, de la réalité ».
 
 
-Pour finir, il faut préciser que si le courant libertarien que  nous allons bientôt évoquer se réfère directement à cette nouvelle philosophie libérale, certains soulignent que des figures comme Ayn Rand (1905-1982), auteure de « La Grève » ou de « La Source vive » soutiennent l’existence du libre arbitre en considérant que les hommes ont la capacité de faire des choix libres. 
+Pour finir, il faut préciser que si le courant libertarien que nous allons bientôt évoquer se réfère directement à cette nouvelle philosophie libérale, certains soulignent que des figures comme Ayn Rand (1905-1982), auteure de « La Grève » ou de « La Source vive » soutiennent l’existence du libre arbitre en considérant que les hommes ont la capacité de faire des choix libres. 
 
 ![image](./assets/fr/3.2.5.webp)
 ![image](./assets/fr/3.2.6.webp)
 
 Mais la réalité est tout autre, et la confusion vient plutôt d’un problème sémantique car en reconnaissant aux hommes la capacité d’agir, et de faire des choix, tout en reconnaissant le déterminisme logique dont ils sont l’objet, les premiers libertariens sont, en réalité, eux aussi des héritiers de Spinoza. Ils ont avec lui le point commun de considérer que l’homme n’est pas au-dessus de la nature. Qu’il est bel et bien le résultat d’une évolution qui l’inscrit dans un déterminisme, dans une histoire qui le dépasse et qui fait, en grande partie, ce qu’il est et ce qu’il fait.
 
-Enfin, si la croyance au libre arbitre est  une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans le prochain chapitre.
+Enfin, si la croyance au libre arbitre est une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans le prochain chapitre.
 
 ## L’illusion des causes finales
 <chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>

@@ -652,7 +652,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (main alternative customer)
+#### Bitcoin Knots (main alternative client)
 
 
 [Bitcoin Knots is a Fork of Bitcoin Core](https://bitcoinknots.org/), maintained by Luke Dashjr. It is the main alternative client to Core for implementing the Bitcoin protocol. Fully compatible with the rest of the network (it is by no means a Hard Fork like Bitcoin Cash), it nevertheless offers additional features, including relay policy options that are absent from Core, or applied more strictly by default to limit what some consider spam.

@@ -26,8 +26,7 @@ In questo tutorial daremo un'occhiata a Flash, una soluzione beninese che consen
 Flash è una piattaforma Exchange sviluppata da [BlockSolut](https://bitcoinflash.xyz) che opera in diversi Paesi dell'Africa occidentale. La missione principale di Flash è facilitare l'acquisizione, il Exchange e l'uso del Bitcoin nella vita quotidiana.
 
 
-Flash si affida al Lightning Network, un overlay Bitcoin, per effettuare transazioni Bitcoin in modo sicuro e senza intoppi, mostrando alla sua comunità la potenza del Bitcoin nella vita quotidiana.
-
+Flash si basa sulla Lightning Network, un livello sovrapposto a Bitcoin, per eseguire transazioni in bitcoin in modo sicuro e fluido, dimostrando alla sua comunità il potere di Bitcoin nella vita quotidiana.
 
 
 ![welcome](assets/fr/01.webp)
@@ -39,16 +38,16 @@ La piattaforma offre due servizi principali:
 
 
 
-- **FlashX**: Exchange bitcoin con Mobile Money.
-- **FlashPayment**: Utilizzate il Bitcoin per i servizi quotidiani.
+- **FlashX**: Scambia bitcoin con Mobile Money.
+- **FlashPayment**: Utilizzate Bitcoin per i servizi di tutti i giorni.
 
 
 
-Con questi due servizi, Flash mira a democratizzare l'uso del Bitcoin, a cambiare la visione di coloro che vedono il Bitcoin solo come un rifugio sicuro e a dimostrare che il Bitcoin è un mezzo del Exchange compatibile con le realtà africane.
+Con questi due servizi, Flash punta a democratizzare l’uso di Bitcoin, a cambiare la percezione di chi vede Bitcoin solo come un rifugio sicuro e a dimostrare che Bitcoin è un mezzo di scambio compatibile con le realtà africane.
 
 
 
-Il Bitcoin contribuisce a ridurre le disuguaglianze economiche e geografiche fornendo un accesso aperto a un sistema finanziario globale, indipendentemente dall'origine o dalla posizione delle persone.
+Bitcoin aiuta a ridurre le disuguaglianze economiche e geografiche, offrendo accesso aperto a un sistema finanziario globale, indipendentemente dall’origine o dalla posizione delle persone.
 
 
 
@@ -75,7 +74,7 @@ Flash effettua le sue transazioni utilizzando la moneta mobile locale. A seconda
 
 - **Benin**: MTN Benin, Moov Benin, Celtiis.
 - **Togo**: Moov Togo.
-- **Burkina-Faso**: Arancione.
+- **Burkina-Faso**: Orange.
 
 
 
@@ -83,7 +82,7 @@ L'acquisto di bitcoin su Flash prevede tre fasi.
 
 
 
-Fare clic sull'opzione Acquista nella sezione Bitcoin Exchange, selezionare il paese e la rete mobile da cui si desidera effettuare l'acquisto.
+Clicca sull’opzione "**Acheter**"(“**Acquista**”) nella sezione di scambio di bitcoin, quindi seleziona il tuo paese e la rete mobile da cui desideri effettuare l’acquisto.
 
 
 
@@ -91,23 +90,20 @@ Fare clic sull'opzione Acquista nella sezione Bitcoin Exchange, selezionare il p
 
 
 
-Inserite i vostri dati e l'importo della transazione che desiderate effettuare.
+Inserisci i tuoi dati e l’importo della transazione che desideri effettuare.
 
 
 ![donnés](assets/fr/03.webp)
 
 
 
-Procedere al pagamento, quindi inserire il Lightning Address per convalidare il Exchange. In pochi minuti, riceverete automaticamente l'equivalente Bitcoin della vostra transazione.
-
-
+Procedi al pagamento e poi inserisci il tuo indirizzo Lightning per convalidare lo scambio. Nei minuti successivi riceverai automaticamente l’equivalente dei bitcoin corrispondenti alla tua transazione.
 
 ![confirm](assets/fr/04.webp)
 
 
 
-⚠️ **IMPORTANTE**: Flash funziona con gli indirizzi Lightning, quindi assicuratevi di avere un Wallet che supporti gli indirizzi Lightning.
-
+⚠️ **IMPORTANTE**: Flash funziona con indirizzi Lightning, assicurati di avere un portafoglio che supporti gli indirizzi Lightning.
 
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
@@ -123,16 +119,13 @@ Vendere bitcoin su Flash è altrettanto intuitivo che acquistarli.
 
 
 
-Nella sezione Bitcoin Exchange, fare clic sul pulsante **Vendita**, selezionare il paese e la rete mobile su cui si desidera ricevere l'equivalente in franchi CFA.
-
-
+Nella sezione di scambio di bitcoin, clicca sul pulsante "**Vendre**"(“**Vendi**”), quindi seleziona il tuo paese e la rete mobile su cui desideri ricevere i franchi CFA equivalenti.
 
 ![process-sell](assets/fr/06.webp)
 
 
 
-Inserite i vostri dati e pagate il Invoice per convalidare la vostra richiesta.
-
+Inserisci i tuoi dati e effettua il pagamento della fattura per convalidare la tua richiesta.
 
 
 ![pay-sell](assets/fr/07.webp)
@@ -151,23 +144,17 @@ Dopo un massimo di dieci (10) minuti, si entra in possesso del denaro mobile.
 
 
 
-Oltre all'acquisto e alla vendita di bitcoin, Flash offre alla sua comunità un uso contestuale del Bitcoin. Attraverso FlashPayment, è possibile utilizzare i bitcoin per acquistare sulle reti mobili disponibili:
+Oltre all’acquisto e alla vendita di bitcoin, Flash offre alla sua comunità un uso contestuale del bitcoin. Attraverso FlashPayment, puoi usare i tuoi bitcoin per acquistare sui network mobili disponibili:
 
 
-
-
-
-- Unità **GSM**;
+- **Unità GSM**;
 - **Pacchetti Internet**;
-- Pacchetti di chiamata;
-- Una combinazione di chiamate e pacchetto **Internet**.
+- **Pacchetti di chiamata**;
+- **Una combinazione di chiamate e pacchetto Internet**.
 
 
 
-Nella sezione di accesso al servizio giornaliero, selezionare l'opzione **Acquista unità**.
-
-
-Selezionate quindi il Paese, la rete mobile e il tipo di servizio digitale che desiderate pagare.
+Nella sezione di accesso al servizio giornaliero, seleziona l'opzione **Achat unité**(**Acquista unità**). Seleziona quindi il Paese, la rete mobile e il tipo di servizio digitale che desiderate pagare.
 
 
 
@@ -175,7 +162,7 @@ Selezionate quindi il Paese, la rete mobile e il tipo di servizio digitale che d
 
 
 
-Inserite i vostri dati e procedete al pagamento del Invoice generato.
+Inserisci le tue informazioni e poi procedi al pagamento della fattura generata.
 
 
 
@@ -183,22 +170,18 @@ Inserite i vostri dati e procedete al pagamento del Invoice generato.
 
 
 
-Oltre ai servizi digitali, Flash fornisce un elenco di attività commerciali che accettano il Bitcoin e consente di pagare beni e servizi direttamente con il Bitcoin.
-
-
-In questo modo è possibile pagare l'hardware o uscire a cena con amici e familiari, ad esempio, e pagare tutto con la Lightning Wallet.
+Oltre ai servizi digitali, Flash mette a tua disposizione un elenco di commercianti che accettano bitcoin e ti permette di pagare beni e servizi direttamente con bitcoin. In questo modo, puoi acquistare materiale informatico o andare a cena al ristorante con i tuoi cari, pagando tutti gli acquisti tramite il tuo portafoglio Lightning.
 
 
 
-Nella sezione accesso ai servizi quotidiani, selezionare l'opzione **Altri** e scoprire i negozi in cui è possibile utilizzare il Bitcoin come mezzo per il Exchange.
-
+Nella sezione di accesso ai servizi quotidiani, seleziona l’opzione "**Autres**"(“**Altri**”) e scopri i commerci in cui potrai usare bitcoin come mezzo di scambio.
 
 
 ![goods-services](assets/fr/11.webp)
 
 
 
-Se questo tutorial vi è stato utile per familiarizzare con Flash, vi preghiamo di darci un pollice Green - lo apprezzeremmo molto. Ora vi invitiamo a scoprire il nostro tutorial su Bitrefill, una piattaforma che vi dà accesso a una moltitudine di servizi digitali che accettano Bitcoin come mezzo di pagamento.
+Se questo tutorial ti è stato utile per prendere confidenza con Flash, lascia un like: lo apprezzeremmo molto. Ti invitiamo anche a scoprire il nostro tutorial su Bitrefill, una piattaforma che ti dà accesso a una moltitudine di servizi digitali che accettano bitcoin come mezzo di pagamento.
 
 
 

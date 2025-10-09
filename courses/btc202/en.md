@@ -1984,7 +1984,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 <partId>fc77a62a-8d9f-4144-9080-3057b04db2c6</partId>
 
 
-## Maintaining your Umbrel knot
+## Maintaining your Umbrel node
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
 

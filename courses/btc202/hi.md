@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## अपनी अम्ब्रेल गाँठ को बनाए रखना
+## अपने Umbrel नोड का रखरखाव
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>

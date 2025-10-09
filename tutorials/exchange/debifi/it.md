@@ -1,6 +1,6 @@
 ---
 name: Debifi
-description: Ottenere dollari per il vostro Bitcoin senza vendere o rinunciare al controllo
+description: Ottieni dollari per i tuoi Bitcoin senza venderli o rinunciare al controllo.
 ---
 
 ![cover](assets/cover.webp)
@@ -9,11 +9,10 @@ description: Ottenere dollari per il vostro Bitcoin senza vendere o rinunciare a
 ## Introduzione
 
 
-In questo video tutorial passo dopo passo, vedrete come utilizzare Debifi per sbloccare il valore dei vostri BTC attraverso un prestito garantito da Bitcoin. Imparerete a creare un account, a proteggerlo con 2FA, a consultare le offerte e persino a utilizzare una Coldcard Q in una configurazione Multisig per garantire che il vostro Bitcoin non possa essere ri-prestato.
+In questo tutorial video passo-passo scoprirai come usare Debifi per sbloccare il valore dei tuoi BTC tramite un prestito garantito da Bitcoin. Imparerai a creare un account e a proteggerlo con la 2FA, a consultare le offerte e persino a usare una Coldcard Q in una configurazione multisig, così da assicurarti che i tuoi Bitcoin non possano essere rilendati.
 
 
-Che stiate finanziando un'opportunità commerciale, affrontando un'emergenza o semplicemente desiderando liquidità a breve termine senza innescare un evento imponibile, questa guida vi fornisce gli strumenti per farlo nel modo giusto.
-
+Che tu stia finanziando un’opportunità commerciale, affrontando un’emergenza o semplicemente voglia ottenere liquidità a breve termine senza generare un evento tassabile, questa guida ti fornisce gli strumenti per farlo nel modo giusto.
 
 ![video](https://youtu.be/02gzg-en8n0)
 

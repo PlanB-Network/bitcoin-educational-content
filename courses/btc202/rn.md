@@ -730,7 +730,7 @@ Bivanye n'ivyo ukeneye, urashobora kwongerako indexer kuri Full node yawe. Bitco
 
 
 
-### Ipfundo rya pruned
+### Node yagabanyijwe
 
 
 

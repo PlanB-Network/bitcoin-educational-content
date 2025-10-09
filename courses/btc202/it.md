@@ -730,7 +730,7 @@ A seconda delle esigenze, è possibile aggiungere un indicizzatore al Full node.
 
 
 
-### Il nodo pruned
+### Il nodo potato
 
 
 

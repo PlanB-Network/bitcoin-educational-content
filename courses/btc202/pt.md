@@ -730,7 +730,7 @@ Dependendo das suas necessidades, pode adicionar um indexador ao seu Full node. 
 
 
 
-### O nó pruned
+### O nó podado
 
 
 

@@ -730,7 +730,7 @@ Tarpeidesi mukaan voit lisätä Full node:ään indeksoijan. Bitcoin core tarjoa
 
 
 
-### pruned-solmu
+### Karsittu solmu
 
 
 

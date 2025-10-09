@@ -730,7 +730,7 @@ Pratikte, bir Full node, blok dosyaları için birkaç yüz gigabayt, komut dosy
 
 
 
-### pruned düğümü
+### Budanmış düğüm
 
 
 

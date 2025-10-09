@@ -730,7 +730,7 @@ U zavisnosti od vaših potreba, možete dodati indeksator na vaš Full node. Bit
 
 
 
-### pruned čvor
+### Orezani čvor
 
 
 

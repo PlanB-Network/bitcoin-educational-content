@@ -730,7 +730,7 @@ Kulingana na mahitaji yako, unaweza kuongeza kiashiria kwenye Full node yako. Bi
 
 
 
-### Sehemu ya pruned
+### Nodi iliyopunguzwa
 
 
 

@@ -730,7 +730,7 @@ Je nach Bedarf können Sie einen Indexer zu Ihrem Full node hinzufügen. Der Bit
 
 
 
-### Der pruned-Knoten
+### Der beschnittene Knoten
 
 
 

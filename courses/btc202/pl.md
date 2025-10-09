@@ -730,7 +730,7 @@ W zależności od potrzeb można dodać indeksator do Full node. Bitcoin core of
 
 
 
-### Węzeł pruned
+### Przycięty węzeł
 
 
 

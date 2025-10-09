@@ -730,7 +730,7 @@ En función de sus necesidades, puede añadir un indexador a su Full node. Bitco
 
 
 
-### El nudo pruned
+### El nodo podado
 
 
 

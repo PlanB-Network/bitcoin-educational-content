@@ -730,7 +730,7 @@ Avhengig av behovene dine kan du legge til en indekserer i Full node. Bitcoin co
 
 
 
-### pruned-knuten
+### Den beskårne noden
 
 
 

@@ -730,7 +730,7 @@ Beroende på dina behov kan du lägga till en indexerare till din Full node. Bit
 
 
 
-### pruned-knuten
+### Den beskurna noden
 
 
 

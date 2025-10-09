@@ -730,7 +730,7 @@ Sõltuvalt teie vajadustest võite lisada oma Full node-le indekseerija. Bitcoin
 
 
 
-### pruned sõlme
+### Kärbitud sõlm
 
 
 

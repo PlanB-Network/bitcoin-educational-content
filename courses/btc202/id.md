@@ -730,7 +730,7 @@ Tergantung pada kebutuhan Anda, Anda dapat menambahkan pengindeks ke Full node A
 
 
 
-### Simpul pruned
+### Node yang dipangkas
 
 
 

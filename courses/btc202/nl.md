@@ -730,7 +730,7 @@ Afhankelijk van je behoeften kun je een indexer toevoegen aan je Full node. Bitc
 
 
 
-### De pruned knoop
+### De afgeslankte node
 
 
 

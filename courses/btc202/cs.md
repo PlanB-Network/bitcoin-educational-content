@@ -730,7 +730,7 @@ V závislosti na svých potřebách můžete do systému Full node přidat index
 
 
 
-### Uzel pruned
+### Ořezaný uzel
 
 
 

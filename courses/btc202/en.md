@@ -549,7 +549,7 @@ In practice, a full node requires non-trivial resources, including several hundr
 Depending on your needs, you can add an indexer to your full node. Bitcoin Core offers transaction indexing as an optional feature (deactivated by default), which can be useful for specific purposes. However, it doesn't include an address indexer, which is often the most sought-after feature for individual users. To remedy this, you can install dedicated software on your node, such as Electrs or Fulcrum, to speed up address balance verification queries from associated UTXOs. We'll come back to the role of the indexer in more detail in a separate chapter.
 
 
-### The pruned knot
+### The pruned node
 
 
 The pruned node validates everything as a full node, from the Genesis block to the head of the chain with the most work, but **only keeps the most recent part of the block files**. Once the old blocks have been checked, it gradually deletes them to stay below a space limit you can set. This configuration is ideal if you have disk space constraints: you retain the independence of block validation, without storing the complete Blockchain history archive. This option is particularly useful if you simply want to install Bitcoin Core on your personal computer, without using a dedicated machine.

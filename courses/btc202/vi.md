@@ -730,7 +730,7 @@ Tùy thuộc vào nhu cầu, bạn có thể thêm một bộ lập chỉ mục 
 
 
 
-### Nút thắt pruned
+### Nút được cắt tỉa
 
 
 

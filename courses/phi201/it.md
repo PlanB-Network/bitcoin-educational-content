@@ -96,8 +96,6 @@ L'antagonismo tra queste due filosofie esiste in tutte le epoche. Ma possiamo il
 
 Coloro che difendono la prima filosofia in Francia sono i Fisiocratici, con François Quesnay alla loro testa. Si chiamano fisiocratici (il nome deriva dal greco Physis, che significa natura, e Kratos, che significa regola) perché sviluppano un pensiero economico e sociale basato sui diritti naturali dell'uomo. Per loro, la società, le persone e le proprietà esistono prima delle leggi. In questo sistema, Bastiat spiega,
 
-![image](assets/it/005.webp)
-
 > Non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi. (_Proprietà e Legge_).
 
 ![image](assets/it/005.webp)

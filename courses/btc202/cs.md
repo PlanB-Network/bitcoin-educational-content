@@ -2590,7 +2590,7 @@ Klienti Nostr ***noStrudel*** nebo ***Snort*** jsou také k dispozici na Umbrel.
 
 
 
-A konečně je tu aplikace ***Nostr Wallet Connect*** na platformě Umbrel, která umožňuje nativní platby Lightning v aplikaci Nostr. Konkrétně můžete propojit svůj budoucí uzel Lightning se zákazníky Nostr a posílat mikroplatby, tzv *zaps*, za odměnu za obsah nebo monetizovanou interakci, aniž byste museli procházet službou třetí strany. Tyto platby jsou odesílány přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
+Nakonec je zde aplikace ***Nostr Wallet Connect*** na Umbrelu, která umožňuje provádět nativní Lightning platby v rámci Nostr. Konkrétně můžete propojit svůj budoucí Lightning uzel s klienty Nostr, abyste mohli odesílat mikropožadavky zvané „*zaps*“ za účelem odměňování obsahu nebo interakce způsobem s finančním zázemím, aniž byste museli používat službu třetí strany. Tyto platby odcházejí přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
 
 
 

@@ -2590,7 +2590,7 @@ Nostr-asiakkaat ***noStrudel*** tai ***Snort*** ovat myös saatavilla Umbrelissa
 
 
 
-Lisäksi Umbrelissa on ***Nostr Wallet Connect*** -sovellus, joka mahdollistaa natiivit Lightning-maksut Nostrissa. Konkreettisesti sanottuna voit yhdistää tulevan Lightning-solmun Nostr-asiakkaisiisi lähettääksesi mikromaksuja, joita kutsutaan nimellä "*zaps*", palkita sisältöä tai olla vuorovaikutuksessa rahanarvoisella tavalla ilman, että sinun tarvitsee mennä kolmannen osapuolen palvelun kautta. Nämä maksut lähetetään suoraan henkilökohtaisesta solmusta kanaviesi kautta.
+Lopuksi Umbrelissa on sovellus ***Nostr Wallet Connect***, joka mahdollistaa alkuperäiset Lightning-maksut Nostrissa. Käytännössä voit yhdistää tulevan Lightning-solmusi Nostr-asiakkaisiisi lähettääksesi mikromaksuja, joita kutsutaan nimellä "*zaps*", palkitaksesi sisältöä tai ollaksesi vuorovaikutuksessa rahallisesti ilman kolmannen osapuolen palvelua. Nämä maksut lähtevät suoraan henkilökohtaisesta solmustasi kanaviesi kautta.
 
 
 

@@ -2590,7 +2590,7 @@ Abaguzi ba Nostr ***noStrudel*** canke ***Snort*** na bo nyene baraboneka ku Mut
 
 
 
-Ubwa nyuma, hariho ***Nostr Wallet Connect*** app kuri Umbrel, ishobora gutuma umuntu ashobora kwishura amahera y’umuravyo mu rurimi rwa Nostr. Mu majambo nyayo, urashobora guhuza urudodo rwawe rwa Lightning rwo muri kazoza n'abaguzi bawe ba Nostr kugira ngo wohereze amafaranga make, yitwa "*zaps*", kugira ngo uhe impera ibirimwo canke ukorane mu buryo bufise amahera, udakeneye guca mu nzira y'uwundi muntu. Ivyo vyishyurwa birungikwa bivuye ku nzira yawe bwite biciye ku mihora yawe.
+Mu mpera, hari porogaramu yitwa ***Nostr Wallet Connect*** kuri Umbrel, igufasha gukora ubwishyu bwa Lightning muri Nostr. Mu buryo bweruye, ushobora guhuza node yawe ya Lightning n’abakiriya ba Nostr kugira ngo wohereze ubwishyu buto buto buzwi nka "*zaps*" mu rwego rwo guhemba ibikubiyeho cyangwa kugirana imikoranire ishingiye ku mafaranga, utanyuze muri serivisi z’abandi. Aya mafaranga ava muri node yawe bwite anyura mu mikoranire yawe.
 
 
 

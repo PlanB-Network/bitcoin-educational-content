@@ -1937,7 +1937,7 @@ With your Umbrel, you can optimize your use of Nostr. By installing the ***Nostr
 Nostr clients ***noStrudel*** or ***Snort*** are also available on Umbrel. Thanks to these applications, you can publish, read, search for profiles, and interact with the Nostr ecosystem directly from the Interface web on your Umbrel.
 
 
-Finally, there's the ***Nostr Wallet Connect*** app on Umbrel, which enables native Lightning payments in Nostr. In concrete terms, you can link your future Lightning node to your Nostr customers to send micro-payments, called "*zaps*", to reward content or interact in a monetized way, without needing to go through a third-party service. These payments are sent directly from your personal node via your channels.
+Finally, there is the ***Nostr Wallet Connect*** application on Umbrel, which allows native Lightning payments within Nostr. Specifically, you can link your future Lightning node to your Nostr clients to send micro-payments, called "*zaps*", to reward content or interact in a monetized way, without going through a third-party service. These payments are sent directly from your personal node via your channels.
 
 
 To find out how to use all these applications, I recommend you take a look at this complete tutorial:

@@ -2590,7 +2590,7 @@ I client Nostr ***noStrudel*** o ***Snort*** sono disponibili anche su Umbrel. G
 
 
 
-Infine, c'è l'app ***Nostr Wallet Connect*** su Umbrel, che abilita i pagamenti Lightning nativi in Nostr. In concreto, potete collegare il vostro futuro nodo Lightning ai vostri clienti Nostr per inviare micropagamenti, chiamati "*zaps*", per premiare contenuti o interagire in modo monetizzato, senza dover passare attraverso un servizio di terze parti. Questi pagamenti vengono inviati direttamente dal vostro nodo personale attraverso i vostri canali.
+Infine, c'è l'applicazione ***Nostr Wallet Connect*** su Umbrel, che consente di effettuare pagamenti Lightning nativi all'interno di Nostr. In pratica, puoi collegare il tuo futuro nodo Lightning ai tuoi client Nostr per inviare micropagamenti, chiamati "*zaps*", per premiare un contenuto o interagire in modo monetizzato, senza passare per un servizio di terze parti. Questi pagamenti partono direttamente dal tuo nodo personale tramite i tuoi canali.
 
 
 

@@ -2590,7 +2590,7 @@ Nostr-klientene ***noStrudel*** eller ***Snort*** er også tilgjengelige på Umb
 
 
 
-Til slutt er det ***Nostr Wallet Connect***-appen på Umbrel, som muliggjør innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til Nostr-kundene dine for å sende mikrobetalinger, kalt "*zaps*", for å belønne innhold eller samhandle på en inntektsgivende måte, uten å måtte gå gjennom en tredjeparts tjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
+Til slutt finnes applikasjonen ***Nostr Wallet Connect*** på Umbrel, som gjør det mulig å foreta innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til dine Nostr-klienter for å sende mikrobetaIinger, kalt "*zaps*", for å belønne innhold eller samhandle på en monetarisert måte, uten å bruke en tredjepartstjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
 
 
 

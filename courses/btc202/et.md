@@ -2590,7 +2590,7 @@ Nostr kliendid ***noStrudel*** või ***Snort*** on saadaval ka Umbrelil. Tänu n
 
 
 
-Lõpuks on Umbrelil olemas ***Nostr Wallet Connect*** rakendus, mis võimaldab Nostris kasutada Lightning-makseid. Konkreetselt öeldes saate oma tulevase Lightning-sõlme siduda oma Nostri klientidega, et saata mikromakseid, mida nimetatakse "*zaps*", et tasustada sisu või suhelda rahaliselt, ilma et oleks vaja minna läbi kolmanda osapoole teenuse. Need maksed saadetakse otse teie isiklikust sõlmest teie kanalite kaudu.
+Lõpuks on Umbrelis rakendus ***Nostr Wallet Connect***, mis võimaldab teha Nostris kohalikke Lightning-makseid. Täpsemalt saate ühendada oma tulevase Lightning-sõlme Nostr-klientidega, et saata mikromakseid, mida nimetatakse "*zaps*", sisu premeerimiseks või rahastatud suhtlemiseks ilma kolmanda osapoolte teenust kasutamata. Need maksed väljastatakse otse teie isiklikust sõlmest teie kanalite kaudu.
 
 
 

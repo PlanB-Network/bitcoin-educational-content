@@ -2590,7 +2590,7 @@ Die Nostr-Clients ***noStrudel*** oder ***Snort*** sind ebenfalls auf Umbrel ver
 
 
 
-Schließlich gibt es noch die ***Nostr Wallet Connect*** App auf Umbrel, die native Lightning-Zahlungen in Nostr ermöglicht. Konkret können Sie Ihren zukünftigen Lightning-Knoten mit Ihren Nostr-Kunden verknüpfen, um Mikrozahlungen, genannt "*zaps*", zu senden, um Inhalte zu belohnen oder auf monetäre Weise zu interagieren, ohne dass Sie einen Drittanbieter-Service in Anspruch nehmen müssen. Diese Zahlungen werden direkt von Ihrem persönlichen Knotenpunkt über Ihre Kanäle gesendet.
+Schließlich gibt es die Anwendung ***Nostr Wallet Connect*** auf Umbrel, die native Lightning-Zahlungen innerhalb von Nostr ermöglicht. Konkret können Sie Ihren zukünftigen Lightning-Knoten mit Ihren Nostr-Clients verbinden, um Mikrozahlungen, sogenannte „*Zaps*“, zu senden, um Inhalte zu belohnen oder auf monetarisierte Weise zu interagieren, ohne einen Drittanbieterdienst zu nutzen. Diese Zahlungen werden direkt von Ihrem persönlichen Knoten über Ihre Kanäle gesendet.
 
 
 

@@ -2590,7 +2590,7 @@ Wateja wa Nostr ***noStrudel*** au ***Snort*** wanapatikana pia kwenye Umbrel. S
 
 
 
-Hatimaye, kuna programu ya ***Nostr Wallet Connect*** kwenye Umbrel, ambayo huwezesha malipo asilia ya Umeme katika Nostr. Kwa maneno madhubuti, unaweza kuunganisha nodi yako ya baadaye ya Umeme kwa wateja wako wa Nostr ili kutuma malipo madogo, yanayoitwa "*zaps*", ili kutuza maudhui au kuingiliana kwa njia ya uchumaji, bila kuhitaji kupitia huduma ya mtu mwingine. Malipo haya yanatumwa moja kwa moja kutoka kwa nodi yako ya kibinafsi kupitia chaneli zako.
+Mwishowe, kuna programu ***Nostr Wallet Connect*** kwenye Umbrel, ambayo inaruhusu malipo ya asili ya Lightning ndani ya Nostr. Kimsingi, unaweza kuunganisha nodi yako ya Lightning ya baadaye kwa wateja wako wa Nostr ili kutuma malipo madogo, yanayoitwa "*zaps*", ili kulipa kwa maudhui au kushirikiana kwa njia ya kifedha bila kutumia huduma ya mtu wa tatu. Malipo haya hutoka moja kwa moja kutoka kwa nodi yako binafsi kupitia njia zako.
 
 
 

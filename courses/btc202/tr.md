@@ -2590,7 +2590,7 @@ Nostr istemcileri ***noStrudel*** veya ***Snort*** da Umbrel'de mevcuttur. Bu uy
 
 
 
-Son olarak, Umbrel'de Nostr'da yerel Lightning ödemelerini mümkün kılan ***Nostr Wallet Connect*** uygulaması var. Somut olarak, üçüncü taraf bir hizmetten geçmeye gerek kalmadan, içeriği ödüllendirmek veya paraya dönüştürülmüş bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler göndermek üzere gelecekteki Lightning düğümünüzü Nostr müşterilerinize bağlayabilirsiniz. Bu ödemeler, kanallarınız aracılığıyla doğrudan kişisel düğümünüzden gönderilir.
+Son olarak, Umbrel'de yer alan ***Nostr Wallet Connect*** uygulaması, Nostr içinde yerel Lightning ödemeleri yapılmasına olanak tanır. Somut olarak, gelecekteki Lightning düğümünüzü Nostr istemcilerinize bağlayarak, içerikleri ödüllendirmek veya para kazanılan bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler gönderebilirsiniz. Bu ödemeler, üçüncü taraf bir hizmetten geçmeden, doğrudan kişisel düğümünüzden kanallarınız aracılığıyla gönderilir.
 
 
 

@@ -2590,7 +2590,7 @@ Klien Nostr ***noStrudel*** atau ***Snort*** juga tersedia di Umbrel. Berkat apl
 
 
 
-Terakhir, ada aplikasi ***Nostr Wallet Connect*** di Umbrel, yang memungkinkan pembayaran Lightning asli di Nostr. Secara konkret, Anda dapat menautkan node Lightning Anda di masa depan ke pelanggan Nostr Anda untuk mengirim pembayaran mikro, yang disebut "*zaps*", untuk memberi hadiah pada konten atau berinteraksi dengan cara yang dimonetisasi, tanpa perlu melalui layanan pihak ketiga. Pembayaran ini dikirim langsung dari node pribadi Anda melalui saluran Anda.
+Akhirnya, ada aplikasi ***Nostr Wallet Connect*** di Umbrel, yang memungkinkan pembayaran Lightning asli di dalam Nostr. Secara konkret, Anda dapat menghubungkan node Lightning Anda di masa depan ke klien Nostr Anda untuk mengirimkan mikro-pembayaran, disebut "*zaps*", guna memberi penghargaan pada konten atau berinteraksi secara termonetisasi tanpa melalui layanan pihak ketiga. Pembayaran ini dikirim langsung dari node pribadi Anda melalui saluran Anda.
 
 
 

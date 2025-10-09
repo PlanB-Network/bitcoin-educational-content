@@ -2590,7 +2590,7 @@ Các ứng dụng khách Nostr ***noStrudel*** hoặc ***Snort*** cũng có sẵ
 
 
 
-Cuối cùng, còn có ứng dụng ***Nostr Wallet Connect*** trên Umbrel, cho phép thanh toán Lightning gốc trong Nostr. Cụ thể, bạn có thể liên kết nút Lightning tương lai của mình với khách hàng Nostr để gửi các khoản thanh toán nhỏ, được gọi là "*zaps*", để thưởng cho nội dung hoặc tương tác theo hình thức kiếm tiền, mà không cần thông qua dịch vụ của bên thứ ba. Các khoản thanh toán này được gửi trực tiếp từ nút cá nhân của bạn thông qua các kênh của bạn.
+Cuối cùng, có ứng dụng ***Nostr Wallet Connect*** trên Umbrel, cho phép thực hiện các khoản thanh toán Lightning gốc trong Nostr. Cụ thể, bạn có thể liên kết nút Lightning trong tương lai của mình với các ứng dụng khách Nostr để gửi các khoản thanh toán nhỏ, gọi là “*zaps*”, nhằm thưởng cho nội dung hoặc tương tác theo cách kiếm tiền, mà không cần qua dịch vụ bên thứ ba. Các khoản thanh toán này được gửi trực tiếp từ nút cá nhân của bạn qua các kênh của bạn.
 
 
 

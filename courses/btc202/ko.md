@@ -2929,7 +2929,7 @@ assumeutxo`는 또 다른 기존 매개변수이지만 `assumevalid`와 달리 �
 
 
 
-## Bitcoin 매듭의 해부학
+## 당신의 비트코인 노드의 구조
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

@@ -2929,7 +2929,7 @@ Wenn Ihr Knoten an einem offenen Port lauscht (standardmäßig 8333), nimmt er e
 
 
 
-## Anatomie Ihres Bitcoin-Knotens
+## Anatomie deines Bitcoin-Knotens
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

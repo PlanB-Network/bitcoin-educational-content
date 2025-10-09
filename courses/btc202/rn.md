@@ -2929,7 +2929,7 @@ Niba node yawe iriko iratega yompi ku port yuguruye (ku mburabuzi, 8333), yemera
 
 
 
-## Ubuhinga bw'umubiri w'urudodo rwawe rwa Bitcoin
+## Imiterere ya node yawe ya Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

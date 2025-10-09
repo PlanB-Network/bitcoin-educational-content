@@ -2929,7 +2929,7 @@ assumeutxo "是另一个现有参数，但与 "assumevalid "不同，它不是�
 
 
 
-## 剖析您的 Bitcoin 结
+## 您的比特币节点结构
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

@@ -2929,7 +2929,7 @@ Om din nod lyssnar på en öppen port (som standard 8333) accepterar den inkomma
 
 
 
-## Anatomin hos din Bitcoin-knut
+## Anatomin av din Bitcoin-nod
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

@@ -2929,7 +2929,7 @@ assumevalid」參數是基於過去的參考區塊，其 Hash 已整合到每個
 
 
 
-## 剖析您的 Bitcoin 結
+## 您的比特幣節點結構
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

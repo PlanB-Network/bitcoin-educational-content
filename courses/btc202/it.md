@@ -2929,7 +2929,7 @@ Se il nodo è in ascolto su una porta aperta (per impostazione predefinita, 8333
 
 
 
-## Anatomia del nodo Bitcoin
+## Anatomia del tuo nodo Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

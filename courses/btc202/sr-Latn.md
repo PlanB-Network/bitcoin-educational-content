@@ -2929,7 +2929,7 @@ Ako vaš čvor sluša na otvorenom portu (po defaultu, 8333), prihvata dolazne v
 
 
 
-## Anatomija vašeg Bitcoin čvora
+## Anatomija tvog Bitcoin čvora
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

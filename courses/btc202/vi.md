@@ -2929,7 +2929,7 @@ Nếu nút của bạn đang lắng nghe trên một cổng mở (mặc định 
 
 
 
-## Cấu tạo nút thắt Bitcoin của bạn
+## Cấu trúc của nút Bitcoin của bạn
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

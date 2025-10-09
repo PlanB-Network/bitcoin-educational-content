@@ -2193,7 +2193,7 @@ If your node is listening on an open port (by default, 8333), it accepts incomin
 
 
 
-## Anatomy of your Bitcoin knot
+## Anatomy of your Bitcoin node
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 

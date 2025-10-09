@@ -2929,7 +2929,7 @@ Jeśli węzeł nasłuchuje na otwartym porcie (domyślnie 8333), akceptuje poł�
 
 
 
-## Anatomia węzła Bitcoin
+## Anatomia twojego węzła Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

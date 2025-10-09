@@ -2929,7 +2929,7 @@ Kui teie võrgusõlm kuulab avatud porti (vaikimisi 8333), võtab see vastu siss
 
 
 
-## Teie Bitcoin sõlme anatoomia
+## Teie Bitcoini sõlme anatoomia
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

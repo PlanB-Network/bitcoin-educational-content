@@ -2929,7 +2929,7 @@ Jos solmusi kuuntelee avointa porttia (oletusarvoisesti 8333), se hyväksyy saap
 
 
 
-## Bitcoin-solmun anatomia
+## Bitcoin-solmusi anatomia
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

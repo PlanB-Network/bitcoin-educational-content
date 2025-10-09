@@ -2929,7 +2929,7 @@ Jika node Anda mendengarkan pada port terbuka (secara default, 8333), maka node 
 
 
 
-## Anatomi simpul Bitcoin Anda
+## Anatomi node Bitcoin Anda
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

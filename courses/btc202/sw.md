@@ -2929,7 +2929,7 @@ Ikiwa nodi yako inasikiza kwenye mlango wazi (kwa chaguo-msingi, 8333), inakubal
 
 
 
-## Anatomia ya fundo lako la Bitcoin
+## Maumbile ya nodi yako ya Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

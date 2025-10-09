@@ -2929,7 +2929,7 @@ Als je knooppunt luistert op een open poort (standaard 8333), dan accepteert het
 
 
 
-## Anatomie van uw Bitcoin knoop
+## Anatomie van je Bitcoin-node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

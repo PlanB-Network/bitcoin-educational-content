@@ -2929,7 +2929,7 @@ Si tu nodo está escuchando en un puerto abierto (por defecto, 8333), acepta con
 
 
 
-## Anatomía de su nudo Bitcoin
+## Anatomía de tu nodo Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

@@ -2929,7 +2929,7 @@ Pokud váš uzel naslouchá na otevřeném portu (ve výchozím nastavení 8333)
 
 
 
-## Anatomie uzlu Bitcoin
+## Anatomie vašeho Bitcoinového uzlu
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

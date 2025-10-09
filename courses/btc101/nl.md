@@ -105,13 +105,16 @@ Iconische figuren zoals Julian Assange, Wei Dai, Tim May en David Chaum speelden
 De Cypherpunk beweging, diep geworteld in digitaal activisme en cryptografie, baseerde zich op verschillende fundamentele teksten om haar principes en toekomstvisie te verwoorden. Drie van deze geschriften springen er in het bijzonder uit:
 
 - "A Cypherpunk's Manifesto (Een Cypherpunk Manifest)":
-  geschreven door Eric Hughes in 1993, stelt dat privacy een grondrecht is. De auteur stelt dat de mogelijkheid om vrij en vertrouwelijk te communiceren essentieel is voor een vrije samenleving. Het manifest stelt: "We kunnen niet verwachten dat overheden, bedrijven of andere grote, gezichtsloze organisaties ons privacy verlenen [...]. We moeten onze eigen privacy verdedigen als we die willen hebben".
+
+geschreven door Eric Hughes in 1993, stelt dat privacy een grondrecht is. De auteur stelt dat de mogelijkheid om vrij en vertrouwelijk te communiceren essentieel is voor een vrije samenleving. Het manifest stelt: "We kunnen niet verwachten dat overheden, bedrijven of andere grote, gezichtsloze organisaties ons privacy verlenen [...]. We moeten onze eigen privacy verdedigen als we die willen hebben".
 
 - "The Crypto Anarchist Manifesto (Het Crypto-Anarchistisch Manifest)":
-  geschreven door Timothy C. May in 1992, dit document legt uit hoe het gebruik van cryptografie zou kunnen leiden tot een tijdperk van cryptografische anarchie waarin overheden machteloos zouden zijn om zich te mengen in de privézaken van burgers. May zag een toekomst voor zich waarin mensen anoniem informatie en geld uitwisselen zonder tussenkomst van een derde partij.
+
+geschreven door Timothy C. May in 1992, dit document legt uit hoe het gebruik van cryptografie zou kunnen leiden tot een tijdperk van cryptografische anarchie waarin overheden machteloos zouden zijn om zich te mengen in de privézaken van burgers. May zag een toekomst voor zich waarin mensen anoniem informatie en geld uitwisselen zonder tussenkomst van een derde partij.
 
 - "A Declaration of the Independence of Cyberspace (Een Verklaring Van De Onafhankelijkheid Van Cyberspace)":
-  hoewel het niet uitsluitend Cypherpunk is, weerspiegelt deze tekst de gevoelens van veel deelnemers aan de beweging. De verklaring werd in 1996 geschreven door John Perry Barlow en is een reactie op de toenemende regulering van het internet door overheden. De verklaring stelt dat cyberspace een ander domein is dan de fysieke sfeer en niet onderworpen zou moeten zijn aan dezelfde wetten. Er staat: "We hebben geen gekozen regering en het is ook niet waarschijnlijk dat we er een zullen krijgen".
+
+hoewel het niet uitsluitend Cypherpunk is, weerspiegelt deze tekst de gevoelens van veel deelnemers aan de beweging. De verklaring werd in 1996 geschreven door John Perry Barlow en is een reactie op de toenemende regulering van het internet door overheden. De verklaring stelt dat cyberspace een ander domein is dan de fysieke sfeer en niet onderworpen zou moeten zijn aan dezelfde wetten. Er staat: "We hebben geen gekozen regering en het is ook niet waarschijnlijk dat we er een zullen krijgen".
 
 ### De voorgangers van Bitcoin
 

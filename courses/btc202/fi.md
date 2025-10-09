@@ -576,7 +576,7 @@ Full node:n asentaminen ei ole mikään yksinkertainen toimenpide. Siihen kuuluu
 
 
 
-Tämän tiedon hankkiminen vahvistaa luottamusta työkaluun ja voi vähentää virheriskiä tai huijauksille altistumista. Oman solmun kehrääminen on myös yksi oppimisen muoto.
+Tämän tiedon hankkiminen vahvistaa luottamustasi työkaluun ja voi vähentää virheiden tai huijausten riskiä. Oman solmun ajaminen tarkoittaa myös oppimista.
 
 
 

@@ -576,7 +576,7 @@ Instalace zařízení Full node není triviální. Zahrnuje instalaci softwaru, 
 
 
 
-Získání těchto znalostí posílí vaši důvěru v nástroj a může snížit riziko chyby nebo vystavení podvodům. Spřádání vlastního uzlu je také formou učení.
+Získání těchto znalostí posiluje vaši důvěru v nástroj a může snížit riziko chyb nebo vystavení podvodům. Provozovat vlastní uzel znamená také učit se.
 
 
 

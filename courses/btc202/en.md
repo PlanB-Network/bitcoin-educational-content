@@ -434,7 +434,7 @@ So it's not a direct personal benefit: running a node makes you partly responsib
 Installing a full node is no trivial operation. It involves installing software, understanding basic operation, monitoring synchronization, examining logs in the event of problems, and even using the terminal. This will necessarily lead you to deepen your understanding of the protocol. This is an indirect, but not insignificant advantage.
 
 
-Acquiring this knowledge strengthens your confidence in the tool and can reduce the risk of error or exposure to scams. Spinning your own knot is also a form of learning.
+Acquiring this knowledge strengthens your confidence in the tool and can reduce the risk of errors or exposure to scams. Running your own node also means learning.
 
 
 ### Choosing which rules to apply

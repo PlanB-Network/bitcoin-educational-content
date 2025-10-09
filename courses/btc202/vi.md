@@ -576,7 +576,7 @@ Việc cài đặt Full node không phải là một thao tác đơn giản. Nó
 
 
 
-Việc có được kiến thức này sẽ củng cố niềm tin của bạn vào công cụ và có thể giảm thiểu nguy cơ mắc lỗi hoặc bị lừa đảo. Tự mình thắt nút cũng là một hình thức học tập.
+Việc có được kiến thức này giúp củng cố niềm tin của bạn vào công cụ và có thể giảm nguy cơ mắc lỗi hoặc bị lừa đảo. Vận hành nút của riêng mình cũng là một quá trình học hỏi.
 
 
 

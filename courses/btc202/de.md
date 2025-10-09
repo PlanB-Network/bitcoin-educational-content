@@ -576,7 +576,7 @@ Die Installation eines Full node ist kein trivialer Vorgang. Sie umfasst die Ins
 
 
 
-Die Aneignung dieses Wissens stärkt Ihr Vertrauen in das Werkzeug und kann das Risiko von Fehlern oder Betrug verringern. Auch das Spinnen eines eigenen Knotens ist eine Form des Lernens.
+Das Erwerben dieses Wissens stärkt Ihr Vertrauen in das Werkzeug und kann das Risiko von Fehlern oder Betrug verringern. Einen eigenen Knoten zu betreiben bedeutet auch, zu lernen.
 
 
 

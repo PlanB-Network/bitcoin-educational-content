@@ -576,7 +576,7 @@ Het installeren van een Full node is geen sinecure. Het omvat het installeren va
 
 
 
-Het verwerven van deze kennis versterkt je vertrouwen in het gereedschap en kan het risico op fouten of blootstelling aan oplichterij verminderen. Je eigen knoop leggen is ook een vorm van leren.
+Het verwerven van deze kennis versterkt je vertrouwen in het hulpmiddel en kan het risico op fouten of blootstelling aan oplichting verminderen. Je eigen node draaien betekent ook leren.
 
 
 

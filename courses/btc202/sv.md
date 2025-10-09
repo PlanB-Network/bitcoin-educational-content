@@ -576,7 +576,7 @@ Att installera en Full node är ingen trivial operation. Det handlar om att inst
 
 
 
-Att skaffa sig denna kunskap stärker ditt förtroende för verktyget och kan minska risken för fel eller att du utsätts för bedrägerier. Att snurra sin egen knut är också en form av lärande.
+Att skaffa denna kunskap stärker ditt förtroende för verktyget och kan minska risken för fel eller bedrägerier. Att köra sin egen nod innebär också att man lär sig.
 
 
 

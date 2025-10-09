@@ -576,7 +576,7 @@ A instalação de um Full node não é uma operação trivial. Implica a instala
 
 
 
-A aquisição destes conhecimentos reforça a sua confiança na ferramenta e pode reduzir o risco de erro ou de exposição a fraudes. Fazer o seu próprio nó é também uma forma de aprendizagem.
+Adquirir esse conhecimento fortalece sua confiança na ferramenta e pode reduzir o risco de erros ou de exposição a fraudes. Executar seu próprio nó também é uma forma de aprendizado.
 
 
 

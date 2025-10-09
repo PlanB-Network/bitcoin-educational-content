@@ -576,7 +576,7 @@ Full node'nin kurulumu önemsiz bir işlem değildir. Yazılım yüklemeyi, teme
 
 
 
-Bu bilgiyi edinmek alete olan güveninizi güçlendirir ve hata yapma veya dolandırıcılığa maruz kalma riskini azaltabilir. Kendi düğümünüzü atmak da bir öğrenme biçimidir.
+Bu bilgiyi edinmek, araca olan güveninizi güçlendirir ve hatalar veya dolandırıcılıklara maruz kalma riskini azaltabilir. Kendi düğümünüzü çalıştırmak aynı zamanda öğrenmektir.
 
 
 

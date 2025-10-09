@@ -576,7 +576,7 @@ Gushiramwo Full node si igikorwa c’ubusa. Birimwo gushiramwo porogarama, gutah
 
 
 
-Kuronka ubwo bumenyi biratuma urushiriza kwizigira ico gikoresho kandi birashobora kugabanya ingorane zo gukora amakosa canke gushikirwa n’ibinyoma. Guzunguruka urudodo rwawe bwite na vyo nyene ni uburyo bwo kwiga.
+Kumenya ibi biguha icyizere mu gikoresho kandi bishobora kugabanya ibyago byo gukora amakosa cyangwa guhura n’uburiganya. Gutangiza node yawe bwite nabyo ni ukwiga.
 
 
 

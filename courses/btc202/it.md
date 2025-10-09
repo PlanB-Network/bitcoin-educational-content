@@ -576,7 +576,7 @@ L'installazione di un Full node non è un'operazione banale. Comporta l'installa
 
 
 
-L'acquisizione di queste conoscenze rafforza la fiducia nello strumento e può ridurre il rischio di errori o di esposizione a truffe. Anche fare il proprio nodo è una forma di apprendimento.
+Acquisire questa conoscenza rafforza la fiducia nello strumento e può ridurre il rischio di errori o di esposizione a truffe. Gestire il proprio nodo significa anche imparare.
 
 
 

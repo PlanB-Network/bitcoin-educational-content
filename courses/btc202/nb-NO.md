@@ -576,7 +576,7 @@ Installasjon av en Full node er ingen triviell operasjon. Det innebærer å inst
 
 
 
-Å tilegne seg denne kunnskapen styrker tilliten til verktøyet og kan redusere risikoen for å gjøre feil eller bli utsatt for svindel. Å spinne sin egen knute er også en form for læring.
+Å tilegne seg denne kunnskapen styrker tilliten din til verktøyet og kan redusere risikoen for feil eller svindel. Å kjøre sin egen node er også en læringsprosess.
 
 
 

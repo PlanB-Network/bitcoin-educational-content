@@ -576,7 +576,7 @@ Kufunga Full node sio operesheni ndogo. Inajumuisha kufunga programu, kuelewa ue
 
 
 
-Kupata maarifa haya huimarisha imani yako katika zana na kunaweza kupunguza hatari ya makosa au kufichuliwa kwa ulaghai. Kusokota fundo lako mwenyewe pia ni njia ya kujifunza.
+Kupata maarifa haya huongeza imani yako katika chombo na inaweza kupunguza hatari ya makosa au kudanganywa. Kuendesha nodi yako mwenyewe pia ni kujifunza.
 
 
 

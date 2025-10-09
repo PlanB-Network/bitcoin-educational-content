@@ -576,7 +576,7 @@ Instalar una Full node no es una operación trivial. Implica instalar el softwar
 
 
 
-Adquirir estos conocimientos refuerza su confianza en la herramienta y puede reducir el riesgo de error o de exposición a estafas. Hacer tu propio nudo también es una forma de aprendizaje.
+Adquirir este conocimiento refuerza tu confianza en la herramienta y puede reducir el riesgo de errores o de exposición a estafas. Ejecutar tu propio nodo también es una forma de aprender.
 
 
 

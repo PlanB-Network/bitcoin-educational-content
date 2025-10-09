@@ -576,7 +576,7 @@ Full node paigaldamine ei ole triviaalne toiming. See hõlmab tarkvara paigaldam
 
 
 
-Nende teadmiste omandamine tugevdab teie usaldust tööriista vastu ja võib vähendada vigade või pettuste ohtu. Oma sõlme keeramine on samuti üks õppimise vorm.
+Selle teadmise omandamine tugevdab teie usaldust tööriista vastu ja võib vähendada vigade või pettuste ohtu. Oma sõlme käitamine tähendab ka õppimist.
 
 
 

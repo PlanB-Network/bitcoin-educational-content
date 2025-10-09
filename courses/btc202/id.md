@@ -576,7 +576,7 @@ Menginstalasi Full node bukanlah operasi yang sepele. Ini melibatkan penginstala
 
 
 
-Memperoleh pengetahuan ini akan memperkuat kepercayaan diri Anda terhadap alat tersebut dan dapat mengurangi risiko kesalahan atau terpapar penipuan. Memintal simpul Anda sendiri juga merupakan suatu bentuk pembelajaran.
+Memperoleh pengetahuan ini memperkuat kepercayaan Anda terhadap alat dan dapat mengurangi risiko kesalahan atau paparan terhadap penipuan. Menjalankan node sendiri juga berarti belajar.
 
 
 

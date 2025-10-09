@@ -576,7 +576,7 @@ Instalacija Full node nije trivijalan zadatak. Uključuje instalaciju softvera, 
 
 
 
-Sticanje ovog znanja jača vaše poverenje u alat i može smanjiti rizik od greške ili izloženosti prevarama. Pravljenje sopstvenog čvora je takođe oblik učenja.
+Sticanje ovog znanja jača vaše poverenje u alat i može smanjiti rizik od grešaka ili izloženosti prevarama. Pokretanje sopstvenog čvora znači i učenje.
 
 
 

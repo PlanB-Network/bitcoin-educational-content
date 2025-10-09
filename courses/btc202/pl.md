@@ -576,7 +576,7 @@ Instalacja Full node nie jest trywialną operacją. Obejmuje instalację oprogra
 
 
 
-Zdobycie tej wiedzy wzmacnia zaufanie do narzędzia i może zmniejszyć ryzyko błędu lub narażenia na oszustwa. Tworzenie własnego węzła jest również formą nauki.
+Zdobycie tej wiedzy wzmacnia twoje zaufanie do narzędzia i może zmniejszyć ryzyko błędów lub narażenia na oszustwa. Uruchamianie własnego węzła to także nauka.
 
 
 

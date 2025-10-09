@@ -492,7 +492,7 @@ Hariho ivyiyumviro vyinshi vy'uko gukoresha uruzitiro rwa Bitcoin ari igikorwa c
 
 
 
-Nkako, nk’uko twabibonye mu bigabane vyabanje, nta nyungu y’amahera itaziguye iboneka mu gutera urudodo. Umuntu yoshobora rero kwiyumvira yuko ata nyungu y’umuntu ku giti ciwe iri mu kubigira. Yamara rero gukoresha node yawe bwite birazana inyungu nyinshi ku muntu ku giti ciwe. Kugira ngo ivyo ndavyemeze, ngiye kubashikiriza muri iki gice imvo zose, zo mu vy’ubuhinga no mu buryo bw’ingene wozikora, zituma ukwiye gushiramwo no gukoresha node yawe bwite ya Bitcoin.
+Nk’uko twabigarutseho mu masomo ashize, gutangiza node ntibitanga inyungu y’amafaranga ako kanya. Bityo ushobora gutekereza ko nta nyungu bwite ibirimo. Ariko rero, gukoresha node yawe bwite bitanga inyungu nyinshi ku giti cyawe. Kugira ngo ubifate nk’ibikwiye, muri iki gice nderekana impamvu zose, haba iza tekiniki n’iz’ingamba, zigomba kugushishikariza kwishyiriraho no gukoresha node yawe ya Bitcoin.
 
 
 

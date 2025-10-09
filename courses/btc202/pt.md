@@ -492,7 +492,7 @@ Existe uma crença generalizada de que operar um nó Bitcoin é um ato puramente
 
 
 
-Com efeito, tal como salientámos nos capítulos anteriores, não há qualquer ganho financeiro direto em fiar um nó. Por conseguinte, poder-se-ia pensar que não há interesse pessoal em fazê-lo. No entanto, gerir o seu próprio nó traz muitas vantagens individuais. Para o convencer disso, vou apresentar neste capítulo todas as razões, tanto técnicas como estratégicas, pelas quais deve instalar e utilizar o seu próprio nó Bitcoin.
+Como destacamos nos capítulos anteriores, executar um nó não gera ganho financeiro direto. Poder-se-ia, portanto, pensar que não há nenhum interesse pessoal em fazê-lo. No entanto, operar o seu próprio nó traz inúmeras vantagens individuais. Para o convencer disso, apresentarei neste capítulo todas as razões, tanto técnicas como estratégicas, que devem levá-lo a instalar e utilizar o seu próprio nó Bitcoin.
 
 
 

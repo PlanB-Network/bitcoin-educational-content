@@ -492,7 +492,7 @@ Yleisesti uskotaan, että Bitcoin-solmun käyttäminen on puhtaasti epäitsekäs
 
 
 
-Kuten edellisissä luvuissa todettiin, solmun kehräämisestä ei ole suoraa taloudellista hyötyä. Sen vuoksi voisi ajatella, että siihen ei ole mitään henkilökohtaista etua. Oman solmun pyörittäminen tuo kuitenkin monia yksilöllisiä etuja. Voidakseni vakuuttaa sinut tästä, esittelen tässä luvussa kaikki syyt, sekä tekniset että strategiset, miksi sinun pitäisi asentaa ja käyttää omaa Bitcoin-solmua.
+Kuten olemme aiemmissa luvuissa korostaneet, solmun ajaminen ei tuota suoraa taloudellista hyötyä. Voisi siis ajatella, ettei sen tekemisessä ole henkilökohtaista hyötyä. Kuitenkin oman solmun käyttäminen tuo monia yksilöllisiä etuja. Vakuuttaakseni sinut tästä esittelen tässä luvussa kaikki tekniset ja strategiset syyt, jotka tulisi kannustaa sinua asentamaan ja käyttämään omaa Bitcoin-solmuasi.
 
 
 

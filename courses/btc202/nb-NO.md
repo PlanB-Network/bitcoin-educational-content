@@ -492,7 +492,7 @@ Det er en utbredt oppfatning at det å drive en Bitcoin-node er en rent altruist
 
 
 
-Som vi har påpekt i de foregående kapitlene, er det ingen direkte økonomisk gevinst ved å spinne en knute. Man skulle derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel er det mange personlige fordeler ved å drive sin egen knute. For å overbevise deg om dette skal jeg i dette kapittelet presentere alle grunnene, både tekniske og strategiske, til hvorfor du bør installere og bruke din egen Bitcoin-node.
+Som vi har påpekt i de foregående kapitlene, gir det ingen direkte økonomisk gevinst å kjøre en node. Man kunne derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel gir det å drive sin egen node mange individuelle fordeler. For å overbevise deg om dette, vil jeg i dette kapittelet presentere alle de tekniske og strategiske grunnene som bør motivere deg til å installere og bruke din egen Bitcoin-node.
 
 
 

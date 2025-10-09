@@ -492,7 +492,7 @@ On levinud arvamus, et Bitcoin-sõlme käitamine on puhtalt altruistlik tegu, il
 
 
 
-Tõepoolest, nagu me eelmistes peatükkides märkisime, ei ole sõlme ketramisest otsest rahalist kasu. Seetõttu võiks arvata, et see ei ole isiklik huvi. Ometi toob oma sõlme pidamine palju individuaalset kasu. Et teid selles veenda, esitan selles peatükis kõik põhjused, nii tehnilised kui ka strateegilised, miks te peaksite oma Bitcoin sõlme paigaldama ja kasutama.
+Nagu oleme eelnevates peatükkides rõhutanud, ei too sõlme käitamine otsest rahalist kasu. Seetõttu võiks arvata, et sellel pole isiklikku huvi. Ometi toob oma sõlme kasutamine palju individuaalseid eeliseid. Selle tõestamiseks esitan selles peatükis kõik tehnilised ja strateegilised põhjused, mis peaksid teid julgustama omaenda Bitcoini sõlme paigaldama ja kasutama.
 
 
 

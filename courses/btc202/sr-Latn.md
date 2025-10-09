@@ -492,7 +492,7 @@ Postoji široko rasprostranjeno verovanje da je upravljanje Bitcoin čvorom iskl
 
 
 
-Zaista, kao što smo istakli u prethodnim poglavljima, nema direktne finansijske dobiti u pletenju čvora. Stoga bi se moglo pomisliti da ne postoji lični interes za to. Ipak, vođenje sopstvenog čvora donosi mnoge individualne koristi. Da bih vas ubedio u to, u ovom poglavlju ću predstaviti sve razloge, kako tehničke tako i strateške, zašto bi trebalo da instalirate i koristite sopstveni Bitcoin čvor.
+Kao što smo istakli u prethodnim poglavljima, pokretanje čvora ne donosi direktnu finansijsku dobit. Moglo bi se, dakle, pomisliti da nema lične koristi u tome. Ipak, korišćenje sopstvenog čvora donosi brojne individualne prednosti. Da bih vas uverio u to, u ovom poglavlju ću predstaviti sve razloge, tehničke i strateške, koji bi trebalo da vas podstaknu da instalirate i koristite sopstveni Bitcoin čvor.
 
 
 

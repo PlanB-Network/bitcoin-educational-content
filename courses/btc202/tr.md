@@ -492,7 +492,7 @@ Bir Bitcoin düğümünü işletmenin, kişisel kazanç olmaksızın, yalnızca 
 
 
 
-Gerçekten de, önceki bölümlerde de belirttiğimiz gibi, düğüm atmanın doğrudan maddi bir getirisi yoktur. Bu nedenle bunu yapmakta kişisel bir çıkar olmadığı düşünülebilir. Yine de kendi düğümünüzü işletmek birçok bireysel fayda sağlar. Sizi bu konuda ikna etmek için bu bölümde neden kendi Bitcoin düğümünüzü kurmanız ve kullanmanız gerektiğine dair hem teknik hem de stratejik tüm nedenleri sunacağım.
+Önceki bölümlerde vurguladığımız gibi, bir düğüm çalıştırmak doğrudan finansal bir kazanç sağlamaz. Bu nedenle, bunu yapmanın kişisel bir çıkarı olmadığı düşünülebilir. Ancak, kendi düğümünüzü işletmek birçok bireysel avantaj sağlar. Bunu size göstermek için, bu bölümde hem teknik hem de stratejik tüm nedenleri açıklayacağım; bunlar, kendi Bitcoin düğümünüzü kurup kullanmanız için sizi teşvik etmelidir.
 
 
 

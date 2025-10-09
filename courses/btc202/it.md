@@ -492,7 +492,7 @@ Come discuteremo più avanti in questo corso, sono i nodi, in base al loro peso 
 
 
 
-Infatti, come abbiamo sottolineato nei capitoli precedenti, non c'è alcun guadagno economico diretto nel filare un nodo. Si potrebbe quindi pensare che non ci sia alcun interesse personale nel farlo. Eppure, gestire il proprio nodo porta molti vantaggi individuali. Per convincervi di ciò, in questo capitolo vi presenterò tutte le ragioni, sia tecniche che strategiche, per cui dovreste installare e utilizzare il vostro nodo Bitcoin.
+Come abbiamo sottolineato nei capitoli precedenti, gestire un nodo non genera un guadagno finanziario diretto. Si potrebbe quindi pensare che non vi sia alcun interesse personale nel farlo. Tuttavia, gestire il proprio nodo offre numerosi vantaggi individuali. Per convincervi, in questo capitolo presenterò tutte le ragioni, sia tecniche che strategiche, che dovrebbero spingervi a installare e utilizzare il vostro nodo Bitcoin personale.
 
 
 

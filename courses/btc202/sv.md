@@ -492,7 +492,7 @@ Det finns en utbredd uppfattning om att driften av en Bitcoin-nod är en rent al
 
 
 
-Som vi påpekade i de föregående kapitlen finns det ingen direkt ekonomisk vinning i att slå en knut. Man kan därför tycka att det inte finns något personligt intresse av att göra det. Ändå ger det många individuella fördelar att driva en egen nod. För att övertyga dig om detta kommer jag i det här kapitlet att presentera alla skäl, både tekniska och strategiska, till varför du bör installera och använda din egen Bitcoin-nod.
+Som vi har betonat i tidigare kapitel ger det ingen direkt ekonomisk vinst att köra en nod. Man kan därför tro att det inte finns något personligt intresse av att göra det. Ändå ger det många individuella fördelar att driva sin egen nod. För att övertyga dig om detta kommer jag i detta kapitel att presentera alla tekniska och strategiska skäl som bör uppmuntra dig att installera och använda din egen Bitcoin-nod.
 
 
 

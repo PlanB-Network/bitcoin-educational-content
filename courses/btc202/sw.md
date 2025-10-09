@@ -492,7 +492,7 @@ Kuna imani iliyoenea kwamba kuendesha nodi ya Bitcoin ni tendo la kujitolea, bil
 
 
 
-Hakika, kama tulivyoonyesha katika sura zilizopita, hakuna faida ya moja kwa moja ya kifedha katika kusokota fundo. Kwa hiyo mtu anaweza kufikiri kwamba hakuna maslahi ya kibinafsi katika kufanya hivyo. Bado kuendesha nodi yako mwenyewe huleta faida nyingi za mtu binafsi. Ili kukushawishi kwa hili, nitawasilisha katika sura hii sababu zote, za kiufundi na za kimkakati, kwa nini unapaswa kusakinisha na kutumia nodi yako ya Bitcoin.
+Kama tulivyoangazia katika sura zilizopita, kuendesha nodi hakuletei faida ya moja kwa moja ya kifedha. Kwa hivyo mtu anaweza kufikiri kuwa hakuna faida binafsi ya kufanya hivyo. Hata hivyo, kuendesha nodi yako mwenyewe kunaleta manufaa mengi binafsi. Ili kukushawishi, katika sura hii nitawasilisha sababu zote, za kiufundi na za kimkakati, ambazo zinapaswa kukutia moyo kusakinisha na kutumia nodi yako ya Bitcoin.
 
 
 

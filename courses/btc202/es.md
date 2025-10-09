@@ -492,7 +492,7 @@ Existe la creencia generalizada de que operar un nodo de Bitcoin es un acto pura
 
 
 
-De hecho, como hemos señalado en los capítulos anteriores, no hay ningún beneficio económico directo en hacer un nudo. Por tanto, se podría pensar que no hay ningún interés personal en hacerlo. Sin embargo, dirigir su propio nodo aporta muchos beneficios individuales. Para convencerte de ello, voy a presentarte en este capítulo todas las razones, tanto técnicas como estratégicas, por las que deberías instalar y utilizar tu propio nodo Bitcoin.
+Como hemos señalado en los capítulos anteriores, ejecutar un nodo no genera una ganancia financiera directa. Por lo tanto, podría pensarse que no hay ningún interés personal en hacerlo. Sin embargo, operar tu propio nodo ofrece numerosas ventajas individuales. Para convencerte de ello, presentaré en este capítulo todas las razones, tanto técnicas como estratégicas, que deberían motivarte a instalar y utilizar tu propio nodo de Bitcoin.
 
 
 

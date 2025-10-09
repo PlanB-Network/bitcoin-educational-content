@@ -492,7 +492,7 @@ Ada kepercayaan yang dipegang secara luas bahwa mengoperasikan node Bitcoin adal
 
 
 
-Memang, seperti yang telah kami tunjukkan di bab-bab sebelumnya, tidak ada keuntungan finansial secara langsung dalam memintal simpul. Oleh karena itu, orang mungkin berpikir bahwa tidak ada kepentingan pribadi untuk melakukannya. Namun, menjalankan simpul Anda sendiri membawa banyak manfaat tersendiri. Untuk meyakinkan Anda tentang hal ini, saya akan menyajikan dalam bab ini semua alasan, baik teknis maupun strategis, mengapa Anda harus memasang dan menggunakan node Bitcoin Anda sendiri.
+Seperti yang telah kami tekankan dalam bab-bab sebelumnya, menjalankan node tidak memberikan keuntungan finansial langsung. Oleh karena itu, seseorang mungkin berpikir tidak ada manfaat pribadi untuk melakukannya. Namun, mengoperasikan node sendiri membawa banyak keuntungan individu. Untuk meyakinkan Anda, saya akan memaparkan dalam bab ini semua alasan, baik teknis maupun strategis, yang seharusnya mendorong Anda untuk menginstal dan menggunakan node Bitcoin Anda sendiri.
 
 
 

@@ -492,7 +492,7 @@ Es gibt eine weit verbreitete Überzeugung, dass der Betrieb eines Bitcoin-Knote
 
 
 
-Wie wir in den vorangegangenen Kapiteln dargelegt haben, bringt das Spinnen eines Knotens in der Tat keinen direkten finanziellen Gewinn. Man könnte also meinen, dass es kein persönliches Interesse daran gibt. Dennoch bringt der Betrieb eines eigenen Knotens viele individuelle Vorteile mit sich. Um Sie davon zu überzeugen, werde ich in diesem Kapitel alle technischen und strategischen Gründe darlegen, warum Sie Ihren eigenen Bitcoin-Knoten installieren und nutzen sollten.
+Wie wir in den vorherigen Kapiteln hervorgehoben haben, bringt der Betrieb eines Knotens keinen direkten finanziellen Gewinn. Man könnte daher denken, dass es keinen persönlichen Nutzen hat, dies zu tun. Dennoch bietet der Betrieb eines eigenen Knotens viele individuelle Vorteile. Um Sie davon zu überzeugen, werde ich in diesem Kapitel alle technischen und strategischen Gründe vorstellen, die Sie dazu bewegen sollten, Ihren eigenen Bitcoin-Knoten zu installieren und zu nutzen.
 
 
 

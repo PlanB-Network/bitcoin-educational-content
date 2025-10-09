@@ -370,7 +370,7 @@ As we'll discuss later in this course, it's the nodes, according to their econom
 There's a widely held belief that operating a Bitcoin node is a purely altruistic act, with no personal gain, solely in the service of network decentralization. Some consider it a form of duty for bitcoiners to support the system and show their gratitude to Bitcoin.
 
 
-Indeed, as we pointed out in the previous chapters, there is no direct financial gain in spinning a knot. One might therefore think that there is no personal interest in doing so. Yet running your own node brings many individual benefits. To convince you of this, I'm going to present in this chapter all the reasons, both technical and strategic, why you should install and use your own Bitcoin node.
+As we have emphasized in previous chapters, running a node does not provide any direct financial gain. One might therefore think there is no personal benefit in doing so. However, operating your own node brings many individual advantages. To convince you of this, I will present in this chapter all the reasons—both technical and strategic—that should encourage you to install and use your own Bitcoin node.
 
 
 ### More confidential dissemination of transactions

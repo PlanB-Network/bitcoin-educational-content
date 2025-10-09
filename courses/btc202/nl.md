@@ -492,7 +492,7 @@ Er heerst een wijdverspreid geloof dat het runnen van een Bitcoin node een zuive
 
 
 
-Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voordeel verbonden aan het leggen van een knoop. Je zou daarom kunnen denken dat er geen persoonlijk belang bij is. Toch brengt het runnen van je eigen knoop veel individuele voordelen met zich mee. Om je hiervan te overtuigen, ga ik in dit hoofdstuk alle redenen presenteren, zowel technische als strategische, waarom je je eigen Bitcoin node zou moeten installeren en gebruiken.
+Zoals we in de voorgaande hoofdstukken hebben benadrukt, levert het draaien van een node geen directe financiële winst op. Men zou dus kunnen denken dat er geen persoonlijk voordeel aan verbonden is. Toch biedt het draaien van een eigen node veel individuele voordelen. Om je hiervan te overtuigen, zal ik in dit hoofdstuk alle technische en strategische redenen uiteenzetten die je zouden moeten aanmoedigen om je eigen Bitcoin-node te installeren en te gebruiken.
 
 
 

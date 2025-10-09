@@ -492,7 +492,7 @@ Istnieje powszechne przekonanie, że obsługa węzła Bitcoin jest działaniem c
 
 
 
-Rzeczywiście, jak wskazaliśmy w poprzednich rozdziałach, nie ma bezpośrednich korzyści finansowych ze splatania węzła. Można by zatem pomyśleć, że nie ma w tym żadnego osobistego interesu. Jednak prowadzenie własnego węzła przynosi wiele indywidualnych korzyści. Aby cię o tym przekonać, przedstawię w tym rozdziale wszystkie powody, zarówno techniczne, jak i strategiczne, dla których powinieneś zainstalować i używać własnego węzła Bitcoin.
+Jak podkreślaliśmy w poprzednich rozdziałach, uruchomienie węzła nie przynosi bezpośrednich korzyści finansowych. Można więc pomyśleć, że nie ma w tym żadnego osobistego interesu. Jednak uruchomienie własnego węzła daje wiele indywidualnych korzyści. Aby cię o tym przekonać, przedstawię w tym rozdziale wszystkie powody, zarówno techniczne, jak i strategiczne, które powinny cię skłonić do zainstalowania i korzystania z własnego węzła Bitcoin.
 
 
 

@@ -492,7 +492,7 @@ Có một niềm tin rộng rãi rằng việc vận hành một nút Bitcoin l�
 
 
 
-Thật vậy, như chúng tôi đã chỉ ra trong các chương trước, việc dệt nút không mang lại lợi ích tài chính trực tiếp nào. Do đó, người ta có thể nghĩ rằng việc này không liên quan gì đến lợi ích cá nhân. Tuy nhiên, việc vận hành nút riêng mang lại nhiều lợi ích cá nhân. Để thuyết phục bạn về điều này, trong chương này, tôi sẽ trình bày tất cả các lý do, cả về mặt kỹ thuật lẫn chiến lược, tại sao bạn nên cài đặt và sử dụng nút Bitcoin của riêng mình.
+Như chúng ta đã nhấn mạnh trong các chương trước, việc vận hành một nút không mang lại lợi ích tài chính trực tiếp. Do đó, có thể nghĩ rằng không có lợi ích cá nhân nào khi làm như vậy. Tuy nhiên, việc vận hành nút của riêng mình mang lại nhiều lợi ích cá nhân. Để thuyết phục bạn, trong chương này tôi sẽ trình bày tất cả các lý do, cả kỹ thuật lẫn chiến lược, nên khuyến khích bạn cài đặt và sử dụng nút Bitcoin của riêng mình.
 
 
 

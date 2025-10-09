@@ -492,7 +492,7 @@ Všeobecně panuje přesvědčení, že provozování uzlu Bitcoin je čistě al
 
 
 
-Jak jsme zdůraznili v předchozích kapitolách, spřádání uzlu nepřináší žádný přímý finanční zisk. Mohlo by se tedy zdát, že na tom není žádný osobní zájem. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, uvedu v této kapitole všechny důvody, jak technické, tak strategické, proč byste si měli nainstalovat a používat vlastní uzel Bitcoin.
+Jak jsme již zdůraznili v předchozích kapitolách, provozování uzlu nepřináší přímý finanční zisk. Mohlo by se tedy zdát, že nemá smysl to dělat. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, představím v této kapitole všechny důvody, technické i strategické, které by vás měly motivovat k instalaci a používání vlastního Bitcoin uzlu.
 
 
 

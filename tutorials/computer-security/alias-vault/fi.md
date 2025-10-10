@@ -1,5 +1,5 @@
 ---
-name: Alias Holvi
+name: Alias Vault
 description: Tehokas työkalu salasanojen, kaksitekijätodennuksen ja peitenimien hallintaan (sisäänrakennetulla sähköpostipalvelimella) - Myös itse isännöitynä!
 ---
 

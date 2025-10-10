@@ -1036,7 +1036,7 @@ Today, Bitcoin continues to survive and grow even more by being integrated more 
 
 Bitcoin can be seen as the tool to create a parallel economy to fiat currencies, because it is possible to sell goods or services and be paid in bitcoin. Transactions can be made directly in Bitcoin, without the need to go through an exchange platform, but simply going from a Bitcoin wallet to another.
 
-The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Found. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
+The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Fund. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
 
 Nonetheless, in El Salvador and in other parts of the world, there are more and more individuals, businesses, and organizations that accept Bitcoin as a means of payment for their products or services.
 

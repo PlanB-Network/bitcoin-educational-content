@@ -106,12 +106,6 @@ objectives:
 
 <isCourseReview>true</isCourseReview>
 
-## 期末考试
-
-
-<chapterId>fb0afb14-6ba5-11f0-8b44-4f0935e15322</chapterId>
-
-<isCourseExam>true</isCourseExam>
 
 ## 结论
 

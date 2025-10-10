@@ -3253,7 +3253,7 @@ Para activarlo, dependerá del modelo de tu placa base, pero en general necesita
 
 - Reinicie el ordenador
 - Inmediatamente después del encendido, pulse rápidamente la tecla de acceso BIOS/UEFI específica de su máquina (`Del`, `F2`, `F10`, `Esc`...)
-- En el Interface que aparece, busque las opciones de contraseña de seguridad o de administrador
+- En la interfaz que aparece, busque las opciones de contraseña de seguridad o de administrador
 - Establece una contraseña larga, única y aleatoria, y guárdala
 - Guarde los cambios y reinicie el ordenador
 
@@ -3287,7 +3287,7 @@ Uno de los riesgos más comunes (pero subestimados) es dejar un ordenador desate
 
 
 
-En la misma línea, desaconsejo el uso de accesorios o periféricos externos que no controle. Evita insertar en tu ordenador memorias USB, unidades externas Hard, cargadores o dongles si no se conoce el origen de estos objetos (nuevos o propiedad de una persona de confianza). Algunos accesorios aparentemente inocuos pueden contener circuitos capaces de ejecutar comandos maliciosos nada más enchufarlos. A la inversa, no preste sus propios accesorios ni los deje desatendidos en lugares accesibles: podrían cambiarse por versiones comprometidas.
+En la misma línea, desaconsejo el uso de accesorios o periféricos externos que no controle. Evita insertar en tu ordenador memorias USB, discos duros externos , cargadores o dongles si no se conoce el origen de estos objetos (nuevos o propiedad de una persona de confianza). Algunos accesorios aparentemente inocuos pueden contener circuitos capaces de ejecutar comandos maliciosos nada más enchufarlos. A la inversa, no preste sus propios accesorios ni los deje desatendidos en lugares accesibles: podrían cambiarse por versiones comprometidas.
 
 
 
@@ -3393,7 +3393,7 @@ En Linux, esta separación puede reforzarse mediante mecanismos como AppArmor o 
 
 
 
-Es importante señalar que la multisesión no sustituye al uso de una cuenta de no administrador, ni a la aplicación del principio del menor privilegio. Lo complementa añadiendo un Layer de aislamiento lógico, fácil de configurar y especialmente eficaz para un uso híbrido familiar o profesional.
+Es importante señalar que la multisesión no sustituye al uso de una cuenta de no administrador, ni a la aplicación del principio del menor privilegio. Lo complementa añadiendo una capa de aislamiento lógico, fácil de configurar y especialmente eficaz para un uso híbrido familiar o profesional.
 
 
 

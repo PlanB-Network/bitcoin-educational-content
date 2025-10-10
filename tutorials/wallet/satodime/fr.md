@@ -1,5 +1,5 @@
 ---
-name: Satodime Mobile App
+name: Satodime
 description: Découvrez comment utiliser Satodime avec l'application mobile
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Avant de commencer avec **Satodime**, assurez-vous de disposer des éléments su
 
 - **Installez et lancez l’application** : Activez le NFC sur votre téléphone si nécessaire.
 
-![image](assets/no-text/01.webp)
+![image](assets/fr/01.webp)
 
 ## 3. Configuration initiale
 
@@ -53,7 +53,8 @@ Ouvrez l’app et suivez l’assistant. Apposez la carte Satodime sur le lecteur
 - Si le NFC ne fonctionne pas, vérifiez les paramètres de votre téléphone.
 - Un toast confirme la réussite : "Lecture réussie".
 
-![image](assets/no-text/02.webp)
+![image](assets/fr/02.webp)
+
 De façon générale, **toutes les opérations suivantes demanderont une confirmation via le scan de la carte Satodime.**
 
 ### 3.2 Prendre possession de la carte (Ownership)
@@ -65,7 +66,7 @@ Pour la première utilisation, devenez propriétaire de la carte pour la sécuri
 - Scannez à nouveau la carte pour appliquer les changements.
 - **Avertissement** : Cette étape est irréversible. Référez-vous à [l’article sur l’ownership](https://satochip.io/satodime-ownership-explained/).
 
-![image](assets/no-text/03.webp)
+![image](assets/fr/03.webp)
 
 
 ## 4. Créer un coffre-fort
@@ -78,8 +79,10 @@ Satodime supporte jusqu’à 3 coffres-forts. Créez-en un pour stocker du Bitco
 - Scannez la carte pour générer et sceller la clé privée (inconnue jusqu’au descellement).
 - **Félicitations** : Votre coffre-fort est scellé et prêt à recevoir des fonds.
 
-![image](assets/no-text/04.webp)
-![image](assets/no-text/05.webp)
+![image](assets/fr/04.webp)
+
+![image](assets/fr/05.webp)
+
 ## 5. Ajouter des fonds
 
 Une fois scellé, chargez le coffre-fort avec des bitcoins :
@@ -91,7 +94,7 @@ Une fois scellé, chargez le coffre-fort avec des bitcoins :
 - Vérifiez le solde après confirmation sur la blockchain.
 - Option d’achat : Cliquez sur "Acheter" pour acheter directement via Paybis (Visa, Mastercard, etc.). Frais applicables.
 
-![image](assets/no-text/06.webp)
+![image](assets/fr/06.webp)
 
 ## 6. Descellez un coffre-fort
 
@@ -104,7 +107,7 @@ Pour accéder à la clé privée et transférer les fonds ailleurs, descellez le
 - Le coffre-fort passe en état "Unsealed" ; la clé privée est maintenant affichable / exportable.
 - **Avertissement** : Une fois descellée, la clé privée est accessible. Si quelqu'un prend possession de votre smartphone, il peut avoir accès à cette clef, et donc récupérer les fonds présents sur votre coffre (irréversible).
 
-![image](assets/no-text/07.webp)
+![image](assets/fr/07.webp)
 
 ## 7. Récupérer la clé privée
 
@@ -117,7 +120,7 @@ Après descellement, exportez la clé pour l’utiliser dans un autre wallet :
 - **Sécurité** : Ne partagez jamais la clé privée. Stockez-la hors ligne.
 - Importez-la dans un logiciel/wallet compatible pour gérer les fonds.
  
-![image](assets/no-text/08.webp)
+![image](assets/fr/08.webp)
 
 
 
@@ -125,7 +128,8 @@ Après descellement, exportez la clé pour l’utiliser dans un autre wallet :
 
 La ré-initialisation du coffre supprime irréversiblement la clef privée associée. Autrement dit, si vous n'avez pas sécurisé une copie de votre clef privée, ou si vous ne l'avez pas importée dans un autre wallet, la ré-initialisation du coffres provoquera la pertes irréversiblement des fonds qui s'y trouvent.
 
-![image](assets/no-text/09.webp)
+![image](assets/fr/09.webp)
+
 La réinitialisation du coffre rend le slot vide et prêt pour un nouveau coffre.
 
 ## 9. Transférer la propriété
@@ -137,7 +141,7 @@ Pour - par exemple - offrir des bitcoins grâce à Satodime, vous devez :
 - Transférer la propriété de la carte : le prochain à scanner la carte deviendra propriétaire,
 - Donner la carte Satodime à la personne de votre choix, et l'inviter à télécharger l'application puis à scanner la carte pour en prendre la propriété - et donc l'accès aux bitcoins qui y sont 'stockés'.
 
-![image](assets/no-text/10.webp)
+![image](assets/fr/10.webp)
 
 
 ## ANNEXES
@@ -178,5 +182,3 @@ https://planb.network/fr/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9
 - Telegram : 
 
 **Satochip**, une entreprise belge, développe des solutions matérielles et logicielles pour la gestion et la conservation de Bitcoin et de cryptomonnaies. Son produit phare, le portefeuille matériel Satochip, est une carte NFC équipée d’un élément sécurisé certifié EAL6+. Complété par le Seedkeeper, un gestionnaire de phrases mnémoniques, et le Satodime, un portefeuille froid cadeau, Satochip offre une gamme complète adaptée aux besoins des utilisateurs. Ses appareils, alimentés par des logiciels open source, visent à démocratiser la sécurité sur Bitcoin.
-
-

@@ -9,9 +9,9 @@ objectives:
 
 # Un viaggio attraverso la storia filosofica della libertà
 
-Questo corso intitolato "una storia filosofica della libertà" esplora la libertà attraverso la storia. Damien Theillier esamina due filosofie politiche: la libertà e il potere. Analizza pensatori come Frédéric Bastiat, Lord Acton, Karl Marx e Murray Rothbard, mettendo in luce le loro visioni sulla produzione, il saccheggio, la lotta di classe e lo Stato.
+Questo corso intitolato "una storia filosofica della libertà" esplora il concetto di libertà attraverso la storia. Damien Theillier esamina due filosofie politiche: la libertà e il potere. Analizza il pensiero di studiosi come Frédéric Bastiat, Lord Acton, Karl Marx e Murray Rothbard, mettendo in luce le loro visioni sulla produzione, il saccheggio dei beni del singolo, la lotta di classe e lo Stato.
 
-Il corso risale alle origini della libertà nell'Antichità, con i Greci e i Romani, attraverso il Medioevo, dove la libertà umana viene discussa in contesti religiosi e politici. Mostra come le idee di libertà si siano evolute con la nascita delle università e le prime forme di capitalismo nelle città italiane.
+Il corso risale alle origini del concetto di libertà come visto nell'Antichità, con i greci e i romani, attraverso il Medioevo, dove la libertà umana viene discussa in contesti religiosi e politici. Mostra come le idee di libertà si siano evolute con la nascita delle università e le prime forme di capitalismo nelle città italiane.
 
 Dal Rinascimento all'Illuminismo, il corso esamina l'ascesa della libertà, segnata dalla tolleranza religiosa e dalla libertà economica, culminando nel 1776 con eventi maggiori come il Congresso di Filadelfia. I secoli XIX e XX assistono al picco e al declino della libertà, affrontando critiche al capitalismo e i pericoli del collettivismo, mettendo in prospettiva le sfide contemporanee per la libertà.
 

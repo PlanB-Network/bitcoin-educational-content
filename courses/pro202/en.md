@@ -67,3 +67,9 @@ Enjoy your discovery!
 <chapterId>f551b514-6ba5-11f0-833e-b33af48c067b</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Conclusion
+
+
+<chapterId>7fdf0d2c-6c7c-11f0-9a86-d308a341f341</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>

@@ -217,8 +217,8 @@ Uburyo bwo kwishura ni uburyo n’ibikorwa remezo bishoboza gutanga amahera haga
 
 - **B2B (Ubucuruzi-ku-Bucuruzi):**
     - Ubucuruzi busanzwe bwizigira amahera yoherezwa ku mbuga ngurukanabumenyi, amasheki be n’uburyo bwo gutanga amafagitire kugira ngo umuntu ashobore kwishura abaguzi, kwishura amafaranga menshi canke gukorana n’amahera asubiramwo.
-    - Akenshi ikintu nyamukuru ni ugukurikirana, inyandiko, n’ubushobozi bwo gukorana n’agaciro kanini k’ibikorwa.
-    - Ikoreshwa ry’ikarita ririho ariko rikunda kuba rito cane kubera amafaranga menshi n’imipaka y’ugucuruza. Inyishu z’ubuhinga bwa none nk’ibibanza vyo kwishura zihuriweko ziriko ziraseruka kugira ngo zitunganye kandi zikoreshe ubuhinga bwo kwishura.
+    - Akenshi ikintu nyamukuru ni ugukurikirana, kubishira mu vyegeranyo , n’ubushobozi bwo gukorera kuma rungika ni rungikwa ryamahera meshi.
+    - Ikoreshwa ry’ikarita ririho ariko rikunda gukoreshwaa  cane kubera amafaranga menshi bakata hamwe nama hera utarenza iyo ari meshi  . Inyishu z’ubuhinga bwa none nk’imbuga  zo kwishura zihuriweko ziriko ziraseruka kugira ngo zitunganye kandi zikoreshe ubuhinga bwo kwishura.
 
 
 ![BIZ101](assets/rn/001.webp)
@@ -227,22 +227,22 @@ Uburyo bwo kwishura ni uburyo n’ibikorwa remezo bishoboza gutanga amahera haga
 
 
 
-### Ibintu bigoye inyuma y'ukwishura kw'ikarita yoroshe
+###  ibintu vyishi mw'irungika risazwe ry'ukwishura ukoresheje i karata yubu hinga bwa none 
 
 
-Iyo umukiriya akoresheje ikarata y’inguzanyo mw’iduka, iyo karata isomwa n’ikigo ca POS, kikaba kirungika amakuru y’ivyo akoresheje ata nkomanzi muri banki y’umucuruzi. Uwuronka ayo makuru arungika ayo makuru ku rubuga rw’ikarata rujanye n’ivyo (nk’akarorero, Visa canke Mastercard), rwo ruca rurungika iyo nkuru ku wutanga ikarita, ni ukuvuga banki yatanze ikarita y’umukiriya. Uwutanga amafaranga arasuzuma konti y’umukiriya canke umurongo w’inguzanyo maze akagarukana uruhusha biciye ku rubuga n’uwumuronka, ivyo bikaba bituma uwo mudandaza yemera kwishura.
+Iyo umukiriya akoresheje ikarata y’inguzanyo mw’iduka, iyo karata isomwa n’igikoresho ca POS, kikaca kirungika amakuru y’ivyo akoresheje ata nkomanzi muri banki y’umucuruzi. Uwuronka ayo makuru arungika ayo makuru ku rubuga rw’ikarata bihuriranye nayo (nk’akarorero, Visa canke Mastercard), rwo ruca rurungika iyo nkuru ku wutanga ikarita, ni ukuvuga banki yatanze ikarita y’umukiriya. Uwutanga amafaranga arasuzuma konti y’umukiriya canke umurongo w’inguzanyo maze agasubira ka rungika    uruhusha biciye ku rubuga rwuwo murongo, ivyo bikaba bituma uwo mudandaza yemeza iryo rihwa .
 
 
 ![BIZ101](assets/rn/002.webp)
 
 
-Ivyo bikorwa bisa n’ibisanzwe mu vy’ukuri bisaba intambwe zirenga 15, abahuza 7, kandi bifata amasaha ari hagati ya 48 n’imisi 5 kugira ngo uwo mudandaza aronke ayo mahera. Mu misi ikurikira, haca haba igikorwa co gukuraho no gutorera umuti. Iryo shirahamwe ry’amakarata rikoranya amafaranga y’uwo musi kandi rikahuza uguhana amafaranga hagati y’uwuronka n’uwutanga. Banki nkuru iratuma ivyo bihembo hagati y’amabanki biba ukuri kandi bishikamye. Amaherezo, konti ya banki y’umudandaza iraronka amahera yose (akuweko amahera) yashizwe ku wuyigura, gutyo igaheza ubuzima bw’ugucuruza.
+Ivyo bikorwa vyukuriha bisa n’ibisanzwe mu vy’ukuri bisaba intambwe zirenga 15, abahuza 7, kandi bifata amasaha ari hagati ya 48 n’imisi 5 kugira ngo uwo mudandaza aronke ayo mahera. Muriyo misi ikurikira, haca haba igikorwa cogutororokanya amahera yaciye kuri uwo muhora hama haca haba irungika nyakuri kuri konti yuwo yucuruzi. Iryo shirahamwe ry’amakarata rikoranya amafaranga y’uwo musi kandi riga tunganya amafaranga  yahanahamywe  hagati y’uwuronka n’uwutanga. Banki nkuru iratuma ivyo bihembo hagati y’amabanki biba mu muco kandi bikomeye bitajegajega . ubwanyuma na nyuma , konti ya banki y’umudandaza iraronka amahera yose (akuweko amahera) yashizweko na banki akoresha, gutyo uruherekerane rwihanahana ryama faranga rukagenda uko .
 
 
-Muri rusangi, iyo nzira iragoye, itwara umwanya, kandi iratwara amahera menshi ku co gikwiye kuba igikorwa coroshe co gukura agaciro ku ruhande rumwe ukaja ku rundi.
+Muri rusangi, iyo nzira ica mubintu vyishi , itwara umwanya, kandi iratwara amahera menshi kuvyari bikwiye   kuba igikorwa vyoroshe vyo gukura ubutunzi ku ruhande rumwe bukaja ku rundi.
 
 
-### Kugereranya uburyo bwo kwishura
+### Kugereranya uburyo bwo kuriha 
 
 
 | Payment Method                 | Authorization Needed?           | Transaction Approval Time (Merchant View) | Settlement Speed (Funds Fully Settled)         | Finality (Ease of Reversal)              | Number of Intermediaries       | Typical Fees (to Payee)            |

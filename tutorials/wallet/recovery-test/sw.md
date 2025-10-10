@@ -1,5 +1,5 @@
 ---
-name: Mtihani wa Urejeshaji
+name: Recovery-test
 description: Jinsi ya kujaribu nakala zako ili kuhakikisha kuwa haupotezi bitcoins zako?
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Jinsi ya kujaribu nakala zako ili kuhakikisha kuwa haupotezi bitcoi
 Wakati wa kuunda Bitcoin Wallet, unaombwa kuandika maneno ya Mnemonic, ambayo kawaida huwa na maneno 12 au 24. Kifungu hiki cha maneno hukuruhusu kurejesha ufikiaji wa bitcoins zako endapo itapotea, uharibifu au wizi wa kifaa kinachopangisha Wallet yako. Kabla ya kuanza kutumia Bitcoin Wallet yako mpya, ni muhimu sana kuthibitisha uhalali wa maneno haya ya Mnemonic. Njia bora ya kufanya hivyo ni kwa kufanya mtihani wa kupona kwa kavu.
 
 
-Jaribio hili linahusisha kuiga urejeshaji wa Wallet kabla ya kuweka bitcoins yoyote ndani yake. Mradi Wallet ni tupu, tunaiga hali ambapo kifaa kinachohifadhi funguo zetu kinapotea, na tulichobaki ni maneno yetu ya Mnemonic ili kujaribu kurejesha bitcoins zetu.
+Jaribio hili linahusisha kuiga urejeshaji wa Wallet kabla ya kuweka bitcoins yoyote ndani yake. Mradi Wallet ni tupu, tunaiga hali ambapo kifaa kinachohifadhi funguo zetu kinapotea, na tulichobaki ni maneno yetu ya mnemonic ili kujaribu kurejesha bitcoins zetu.
 
 
 ![RECOVERY TEST](assets/notext/01.webp)
@@ -17,13 +17,13 @@ Jaribio hili linahusisha kuiga urejeshaji wa Wallet kabla ya kuweka bitcoins yoy
 ## Kusudi ni nini?
 
 
-Mchakato huu wa majaribio hukuruhusu kuthibitisha kuwa nakala rudufu ya maneno yako ya Mnemonic, iwe kwenye karatasi au chuma, inafanya kazi. Kutofaulu wakati wa jaribio hili la urejeshaji huashiria hitilafu katika uhifadhi wa maneno, na hivyo kuweka bitcoins zako hatarini. Kwa upande mwingine, ikiwa mtihani umefanikiwa, inathibitisha kwamba maneno yako ya Mnemonic yanafanya kazi kikamilifu, na unaweza kisha kupata bitcoins kwa amani ya akili kwa kutumia Wallet hii.
+Mchakato huu wa majaribio hukuruhusu kuthibitisha kuwa nakala rudufu ya maneno yako ya mnemonic, iwe kwenye karatasi au chuma, inafanya kazi. Kutofaulu wakati wa jaribio hili la urejeshaji huashiria hitilafu katika uhifadhi wa maneno, na hivyo kuweka bitcoins zako hatarini. Kwa upande mwingine, ikiwa mtihani umefanikiwa, inathibitisha kwamba maneno yako ya mnemonic yanafanya kazi kikamilifu, na unaweza kisha kupata bitcoins kwa amani ya akili kwa kutumia Wallet hii.
 
 
 Kufanya mtihani wa urejeshaji wa kavu kuna faida mbili. Sio tu inakuwezesha kuangalia usahihi wa maneno yako ya Mnemonic, lakini pia inakupa fursa ya kujitambulisha na mchakato wa kurejesha Wallet. Kwa njia hii, utagundua matatizo yanayoweza kutokea kabla hali halisi haijajidhihirisha kwako. Siku ambayo unahitaji kurejesha Wallet yako, utakuwa na mkazo mdogo, kwani utakuwa tayari unajua mchakato, kupunguza hatari ya makosa. Ndiyo maana ni muhimu kutopuuza hatua hii ya kupima na kuchukua muda unaohitajika kuifanya kwa usahihi.
 
 
-## Mtihani wa kupona ni nini?
+## Recovery-test ni nini?
 
 
 Mchakato wa mtihani ni rahisi sana:
@@ -79,7 +79,7 @@ Passphrase: YfaicGzXH9t5C#g&47Kzbc$JL
 Sasa nitaandika kwenye rasimu kipande cha habari cha shahidi kutoka kwa Wallet yangu. Unaweza kuchagua vipande tofauti vya maelezo, kama vile Address ya kwanza inayopokea, xpub, au alama ya kidole ya ufunguo mkuu. Kwa kibinafsi, napendekeza kuchagua kwanza kupokea Address. Hii hukuruhusu kuthibitisha kuwa unaweza kupata njia kamili ya kwanza ya utokaji inayoongoza kwa Address hii.
 
 
-Kwenye Sparrow, bofya kichupo cha "*Anwani*".
+Kwenye Sparrow, bofya kichupo cha "*address*".
 
 
 ![RECOVERY TEST](assets/notext/03.webp)
@@ -105,7 +105,7 @@ Ikiwa Wallet yako ni tupu, thibitisha kufutwa kwa Wallet yako.
 ![RECOVERY TEST](assets/notext/05.webp)
 
 
-Sasa unahitaji kurudia mchakato wa uundaji wa Wallet, lakini kwa kutumia nakala zetu za karatasi. Bofya kwenye menyu ya "*Faili*" kisha kwenye "*Mpya Wallet*".
+Sasa unahitaji kurudia mchakato wa uundaji wa Wallet, lakini kwa kutumia nakala zetu za karatasi. Bofya kwenye menyu ya "*Faili*" kisha kwenye "* Wallet Mpya*".
 
 
 ![RECOVERY TEST](assets/notext/06.webp)
@@ -135,7 +135,7 @@ Chagua nambari sahihi ya maneno kwa seed yako.
 ![RECOVERY TEST](assets/notext/10.webp)
 
 
-Ingiza maneno yako ya Mnemonic kwenye programu. Ikiwa ujumbe wa "*Cheki Batili*" utatokea, hii inaonyesha kuwa hifadhi rudufu ya maneno yako ya Mnemonic si sahihi. Kisha itabidi uanze kuunda Wallet yako kutoka mwanzo, kwa kuwa jaribio lako la urejeshaji halijafaulu.
+Ingiza maneno yako ya mnemonic kwenye programu. Ikiwa ujumbe wa "Cheki Batili" utatokea, hii inaonyesha kuwa hifadhi rudufu ya maneno yako ya mnemonic si sahihi. Kisha itabidi uanze kuunda Wallet yako kutoka mwanzo, kwa kuwa jaribio lako la urejeshaji halijafaulu.
 
 
 ![RECOVERY TEST](assets/notext/11.webp)
@@ -171,6 +171,6 @@ Hatimaye, thibitisha kwamba upokeaji wa kwanza wa Address unalingana na uliokuwa
 ![RECOVERY TEST](assets/notext/16.webp)
 
 
-Ikiwa anwani za kupokea zinalingana, jaribio lako la urejeshi limefaulu, na unaweza kutumia Bitcoin Wallet yako mpya. Ikiwa hazilingani, hii inaweza kuonyesha ama hitilafu katika uchaguzi wa aina ya hati, ambayo inafanya njia ya utokezi kuwa isiyo sahihi, au tatizo la kuhifadhi nakala ya maneno yako ya Mnemonic au passphrase yako. Katika hali zote mbili, ninapendekeza sana kuanzia mwanzo na kuunda mpya Bitcoin Wallet tangu mwanzo ili kuepuka hatari yoyote. Wakati huu, jihadharini kumbuka kifungu cha Mnemonic bila makosa.
+Ikiwa address za kupokea zinalingana, jaribio lako la urejeshi limefaulu, na unaweza kutumia Bitcoin Wallet yako mpya. Ikiwa hazilingani, hii inaweza kuonyesha ama hitilafu katika uchaguzi wa aina ya hati, ambayo inafanya njia ya utokezi kuwa isiyo sahihi, au tatizo la kuhifadhi nakala ya maneno yako ya Mnemonic au passphrase yako. Katika hali zote mbili, ninapendekeza sana kuanzia mwanzo na kuunda mpya Bitcoin Wallet tangu mwanzo ili kuepuka hatari yoyote. Wakati huu, jihadharini kumbuka kifungu cha Mnemonic bila makosa.
 
 Hongera, sasa uko katika kasi ya kufanya mtihani wa kurejesha uwezo wa kufikia matokeo! Ninakushauri kujumlisha mchakato huu kwa uundaji wa pochi zako zote za Bitcoin. Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa unaweza kuacha dole gumba hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!

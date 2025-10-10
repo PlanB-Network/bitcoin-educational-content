@@ -19,28 +19,28 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.45
+    reward: 17.43
   - language: en
     last_contribution_date: 2024-11-28
     urgency: 1
     contributor_names:
       - Bitpreto
-    reward: 8.72
+    reward: 8.71
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.45
+    reward: 17.43
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: fr
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -53,106 +53,106 @@ proofreading:
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 8.72
+    reward: 8.71
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 34.8
+    reward: 34.76
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.45
+    reward: 17.43
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 11.62
+    reward: 11.6
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 34.8
+    reward: 34.76
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.01
+    reward: 28.98
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.01
+    reward: 28.98
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: sr-Latn
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - sanja993
-    reward: 11.62
+    reward: 11.6
   - language: hi
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - amolutxo
-    reward: 20.29
+    reward: 20.27
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 11.62
+    reward: 11.6
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.01
+    reward: 28.98
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.45
+    reward: 17.43
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.01
+    reward: 28.98
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.23
+    reward: 23.21
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 34.8
+    reward: 34.76
 tags:
   - finance
   - historical

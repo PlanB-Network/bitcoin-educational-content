@@ -1,5 +1,5 @@
 ---
-name: Vault ya jina la utani
+name: Alias Vault
 description: Chombo chenye nguvu cha kudhibiti manenosiri, uthibitishaji wa sababu mbili na lakabu (pamoja na seva ya barua pepe iliyojengewa ndani) - Pia imejipangisha mwenyewe!
 ---
 

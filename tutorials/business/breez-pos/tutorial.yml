@@ -15,12 +15,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.25
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
@@ -37,28 +37,28 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.25
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.25
   - language: ja
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 2.21
+    reward: 2.2
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.25
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -73,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: id
     last_contribution_date:
     urgency: 1
@@ -88,7 +88,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -98,7 +98,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
@@ -118,7 +118,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -128,7 +128,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: tr
     last_contribution_date:
     urgency: 1

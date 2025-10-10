@@ -1011,6 +1011,13 @@ Et pourquoi cette proposition de prime monétaire peut être qualifiée d'unific
 
 Par contre, c'est certain qu'**au niveau de l'émergence, selon le théorème de régression de Mises, on peut proposer que cet usage-là crée une demande à l'origine et initie cette le processus qui devient monnaie.** Tandis qu'au sujet, au niveau de la monnaie dette, c'est plus une imposition d'une autorité, donc la source, l'initiation de l'émergence et des concepts complètement différents. **Mais je pense qu'au niveau de la valeur, comment expliquer la valeur de la monnaie, avec la prime monétaire, on peut autant expliquer pourquoi la monnaie fiat a cette valeur qu'on lui attribue et pourquoi la monnaie marchandise a cette valeur** qu'on lui attribue. Pour moi, c'est le même processus et ça s'appelle la prime monétaire.
 
+#### La prime monétaire
+
+Voilà. La valeur de la monnaie peut s’expliquer par la prime monétaire découlant de sa demande monétaire, que ce soit sous la forme de tablettes d’argile, de pièces en métaux précieux, de billets de banque ou de Bitcoin.
+La prime monétaire repose simplement sur la confiance qu’une personne échangera cet argent plus tard pour un prix comparable.
+
+![image](./assets/fr/prime_monetaire.webp)
+
 # Les différentes définitions de la monnaie
 <partId>77b7918a-8c3b-11f0-b688-6b2ab22378c9</partId>
 
@@ -1047,6 +1054,13 @@ Souvent, les gens qui n'ont pas creusé ces problèmes de sémantique, dans la t
 
 ![](assets/12.webp)
 ![](assets/13.webp)
+
+#### Qu'est ce que la monnaie ? 
+
+La monnaie est simplement quelque chose que vous possédez ou acquérez non pas pour être utilisé ou consommé pour ses propres caractéristiques, mais pour être échangé plus tard contre d'autres biens ou services dont vous pourriez avoir besoin. (Saifedean)
+La monnaie acquiert une prime monétaire lorsqu’une demande monétaire existe pour le bien, pour jouer un ou des rôles de la monnaie.
+Le bien monétaire doit être assez rare pour que la prime monétaire puisse subsister (pour prévenir l’ajustement de l’offre face à la demande monétaire).
+
 
 ### La prime monétaire
 
@@ -1190,6 +1204,8 @@ Cette théorie ne s’applique qu’à une poignée de pays (voir tweet de Steph
 
 Et qu’est-ce qu’une vraie souveraineté monétaire? C'est qu'on peut lever sa dette dans sa propre monnaie. Il faut être en mesure d'avoir un surplus commercial pour avoir assez de réserves de monnaie, de devises étrangères pour ne pas être obligé de lever des fonds dans les devises étrangères pour pouvoir importer des denrées. Ça concerne une poignée de pays.  
 J'ai un tweet ici de, justement, Stéphanie Kelton, qui est une espèce de poster woman de ce mouvement, qui a écrit un livre qui s'appelle "The Deficit Myth", qui mentionne dans un de ses tweets que différents pays comme les États-Unis, le Japon, le Canada, l'Australie, le Royaume-Uni, ne peuvent pas manquer de monnaie.
+
+![image](./assets/fr/no_debt_crisis.webp)
 
 Étrangement, elle ne liste que six pays ? Pourquoi ? Parce qu'ils ont une vraie souveraineté monétaire. Mais il y a environ 200 pays sur la Terre et ils n'ont pas tous une souveraineté monétaire. Donc, ce que je reproche à cette théorie, en plus d'être un peu étrange et non fonctionnelle, c'est qu'elle ne fonctionne que pour quelques pays qui jouissent d'une vraie souveraineté monétaire, ceux qui peuvent émettre des bons du trésor dans leur propre monnaie. Et ça se fait un peu au détriment du reste du monde. C'est comme si, en créant cette monnaie, ils exportaient leur inflation ailleurs, comme les États-Unis font avec leur privilège exorbitant depuis des décennies. C'est presque une espèce de forme de colonialisme monétaire où les pays qui jouissent d'une confiance à l'échelle mondiale et d’une demande pour leur monnaie pour acheter des biens qu'ils produisent, peuvent imprimer de la monnaie autant qu'ils veulent sans trop causer l'inflation parce qu'en général, ils l'exportent. 
 
@@ -1979,6 +1995,8 @@ Je vous remercie pour votre attention.
 Avec la création des banques centrales au XVIIIᵉ siècle, une vraie révolution a vu le jour : l’argent magique sous forme de billets. L’exemple le plus marquant en France reste John Law. Cet Écossais exilé à Paris proposa au régent, le duc d’Orléans, de résoudre la faillite des finances royales en créant une banque d’État et une compagnie commerciale coloniale : la fameuse **Banque Royale** et la **Compagnie du Mississippi**.
 
 Par ce système, Law lia monnaie papier et actions de sa compagnie. Plus de billets circulaient, plus les actions grimpaient, plus la banque semblait solide… jusqu’à ce que la spéculation dépasse de loin la réalité. La bulle éclata brutalement en 1720, ruinant nobles, bourgeois, et une bonne partie de l’Europe venue spéculer rue Quincampoix. Résultat : méfiance durable envers la monnaie papier en France, et première leçon européenne de bulle spéculative.
+
+![image](./assets/fr/paper_illustration.webp)
 
 ### Quand le foncier devient « garantie »
 

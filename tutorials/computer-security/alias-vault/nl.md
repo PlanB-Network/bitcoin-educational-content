@@ -1,5 +1,5 @@
 ---
-name: Alias Kluis
+name: Alias Vault
 description: Krachtige tool voor het beheren van wachtwoorden, twee-factor authenticatie en aliassen (met ingebouwde e-mailserver) - Ook zelf te hosten!
 ---
 

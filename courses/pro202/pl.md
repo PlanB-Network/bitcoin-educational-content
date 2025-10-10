@@ -106,12 +106,6 @@ Miłego odkrywania!
 
 <isCourseReview>true</isCourseReview>
 
-## Egzamin końcowy
-
-
-<chapterId>fb0afb14-6ba5-11f0-8b44-4f0935e15322</chapterId>
-
-<isCourseExam>true</isCourseExam>
 
 ## Wnioski
 

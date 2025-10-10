@@ -21,7 +21,7 @@ Pravděpodobně znáte pořekadlo "Ne vaše klíče, ne vaše mince", které nab
 
 
 
-BTC 202 je přístupný kurz, který vás naučí spřádat vlastní uzel Bitcoin, i když nejste technický expert. Začneme tím, že si definujeme, co je to uzel Bitcoin, k čemu slouží a proč je naprosto nezbytné, abyste si ho sami upředli. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením uzlu Wallet a provedením prvních možných optimalizací, které vás posunou dále.
+BTC 202 je přístupné školení navržené tak, aby vás naučilo, jak provozovat vlastní uzel Bitcoin, i když nejste technický expert. Začneme definováním, co je uzel Bitcoin, k čemu slouží a proč je naprosto zásadní provozovat ho sám. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením vašeho peněženkového softwaru a prvními možnými optimalizacemi pro další pokrok.
 
 
 
@@ -481,7 +481,7 @@ Jak si řekneme později v tomto kurzu, jsou to uzly, které podle své ekonomic
 
 
 
-## Proč si zamotávat vlastní uzel?
+## Proč provozovat vlastní uzel?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Všeobecně panuje přesvědčení, že provozování uzlu Bitcoin je čistě al
 
 
 
-Jak jsme zdůraznili v předchozích kapitolách, spřádání uzlu nepřináší žádný přímý finanční zisk. Mohlo by se tedy zdát, že na tom není žádný osobní zájem. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, uvedu v této kapitole všechny důvody, jak technické, tak strategické, proč byste si měli nainstalovat a používat vlastní uzel Bitcoin.
+Jak jsme již zdůraznili v předchozích kapitolách, provozování uzlu nepřináší přímý finanční zisk. Mohlo by se tedy zdát, že nemá smysl to dělat. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, představím v této kapitole všechny důvody, technické i strategické, které by vás měly motivovat k instalaci a používání vlastního Bitcoin uzlu.
 
 
 
@@ -576,7 +576,7 @@ Instalace zařízení Full node není triviální. Zahrnuje instalaci softwaru, 
 
 
 
-Získání těchto znalostí posílí vaši důvěru v nástroj a může snížit riziko chyby nebo vystavení podvodům. Spřádání vlastního uzlu je také formou učení.
+Získání těchto znalostí posiluje vaši důvěru v nástroj a může snížit riziko chyb nebo vystavení podvodům. Provozovat vlastní uzel znamená také učit se.
 
 
 
@@ -692,7 +692,7 @@ Nezáleží tedy na počtu uzlů, ale na významu hospodářské činnosti, kter
 
 
 
-> Ne váš uzel, ne vaše pravidla.
+> Není to tvůj uzel, nejsou to tvoje pravidla.
 
 
 ## Různé typy uzlů Bitcoin
@@ -706,7 +706,7 @@ Uzel Bitcoin je tedy počítač s implementací protokolu Bitcoin. Za touto spol
 
 
 
-### Kompletní uzel
+### Úplný uzel
 
 
 
@@ -730,7 +730,7 @@ V závislosti na svých potřebách můžete do systému Full node přidat index
 
 
 
-### Uzel pruned
+### Ořezaný uzel
 
 
 
@@ -849,7 +849,7 @@ Jedná se o nejsugestivnější a nejpružnější přístup: přesně víte, co
 
 
 
-#### Bitcoin core (zákazník s nadpoloviční většinou)
+#### Bitcoin Core (převládající klient)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (hlavní alternativní zákazník)
+#### Bitcoin Knots (hlavní alternativní klient)
 
 
 
@@ -2590,7 +2590,7 @@ Klienti Nostr ***noStrudel*** nebo ***Snort*** jsou také k dispozici na Umbrel.
 
 
 
-A konečně je tu aplikace ***Nostr Wallet Connect*** na platformě Umbrel, která umožňuje nativní platby Lightning v aplikaci Nostr. Konkrétně můžete propojit svůj budoucí uzel Lightning se zákazníky Nostr a posílat mikroplatby, tzv *zaps*, za odměnu za obsah nebo monetizovanou interakci, aniž byste museli procházet službou třetí strany. Tyto platby jsou odesílány přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
+Nakonec je zde aplikace ***Nostr Wallet Connect*** na Umbrelu, která umožňuje provádět nativní Lightning platby v rámci Nostr. Konkrétně můžete propojit svůj budoucí Lightning uzel s klienty Nostr, abyste mohli odesílat mikropožadavky zvané „*zaps*“ za účelem odměňování obsahu nebo interakce způsobem s finančním zázemím, aniž byste museli používat službu třetí strany. Tyto platby odcházejí přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Údržba deštníkového uzlu
+## Údržba svého uzlu Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Pokud váš uzel naslouchá na otevřeném portu (ve výchozím nastavení 8333)
 
 
 
-## Anatomie uzlu Bitcoin
+## Anatomie vašeho Bitcoinového uzlu
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

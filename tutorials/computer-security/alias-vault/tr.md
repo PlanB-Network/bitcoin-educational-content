@@ -1,5 +1,5 @@
 ---
-name: Takma Ad Kasası
+name: Alias Vault
 description: Parolaları, iki faktörlü kimlik doğrulamayı ve takma adları yönetmek için güçlü bir araç (yerleşik e-posta sunucusu ile) - Ayrıca kendi kendine barındırılır!
 ---
 

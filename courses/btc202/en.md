@@ -17,7 +17,7 @@ objectives:
 You're probably familiar with the adage "Not your keys, not your coins", which encourages self-custody of your bitcoins. Holding your own keys is indeed an essential first step, but it's not enough. To achieve true monetary sovereignty, you also need to install and use your own Bitcoin node. This course is designed to guide you through this fundamental step in your Bitcoin journey!
 
 
-BTC 202 is an accessible course designed to teach you how to spin your own Bitcoin knot, even if you're not a technical expert. We'll start by defining what a Bitcoin knot is, what it's for, and why it's absolutely essential to spin one yourself. I'll then guide you step-by-step through choosing your hardware, installing the necessary software, connecting your wallet, and making the first possible optimizations to take it further.
+BTC 202 is an accessible course designed to teach you how to run your own Bitcoin node, even if you’re not a technical expert. We’ll start by defining what a Bitcoin node is, what it does, and why it’s absolutely essential to run one yourself. I’ll then guide you step by step through choosing your hardware, installing the necessary software, connecting your wallet software, and performing the first possible optimizations to go further.
 
 
 Running a Bitcoin node is not just an option for experts; it's a necessity. It's a resilience tool that every user needs to understand and implement. This course is your starting point to becoming a sovereign bitcoiner!
@@ -362,7 +362,7 @@ As we'll discuss later in this course, it's the nodes, according to their econom
 
 
 
-## Why twist your own knot?
+## Why run your own node?
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
 
@@ -370,7 +370,7 @@ As we'll discuss later in this course, it's the nodes, according to their econom
 There's a widely held belief that operating a Bitcoin node is a purely altruistic act, with no personal gain, solely in the service of network decentralization. Some consider it a form of duty for bitcoiners to support the system and show their gratitude to Bitcoin.
 
 
-Indeed, as we pointed out in the previous chapters, there is no direct financial gain in spinning a knot. One might therefore think that there is no personal interest in doing so. Yet running your own node brings many individual benefits. To convince you of this, I'm going to present in this chapter all the reasons, both technical and strategic, why you should install and use your own Bitcoin node.
+As we have emphasized in previous chapters, running a node does not provide any direct financial gain. One might therefore think there is no personal benefit in doing so. However, operating your own node brings many individual advantages. To convince you of this, I will present in this chapter all the reasons—both technical and strategic—that should encourage you to install and use your own Bitcoin node.
 
 
 ### More confidential dissemination of transactions
@@ -434,7 +434,7 @@ So it's not a direct personal benefit: running a node makes you partly responsib
 Installing a full node is no trivial operation. It involves installing software, understanding basic operation, monitoring synchronization, examining logs in the event of problems, and even using the terminal. This will necessarily lead you to deepen your understanding of the protocol. This is an indirect, but not insignificant advantage.
 
 
-Acquiring this knowledge strengthens your confidence in the tool and can reduce the risk of error or exposure to scams. Spinning your own knot is also a form of learning.
+Acquiring this knowledge strengthens your confidence in the tool and can reduce the risk of errors or exposure to scams. Running your own node also means learning.
 
 
 ### Choosing which rules to apply
@@ -520,7 +520,7 @@ As far as consensus rules are concerned, your node allows you to direct your eco
 So it's not the number of nodes that matters, but the importance of the economic activity they support. What's more, if your economic activity depends on a node you don't control, its owner will decide what currency you use, as long as you remain connected to that node. This is why running and using your own node is particularly important in the context of system governance:
 
 
-> Not your knot, not your rules.
+> Not your node, not your rules.
 
 
 ## The different types of Bitcoin nodes
@@ -531,7 +531,7 @@ So it's not the number of nodes that matters, but the importance of the economic
 A Bitcoin node is, therefore, a machine running an implementation of the Bitcoin protocol. Behind this common definition of nodes, several possible configurations exist, not all of which offer the same level of autonomy, resource consumption, and usefulness for the network. In this chapter, we'll attempt to understand these differences to help you choose a node architecture that suits your use and hardware constraints.
 
 
-### The complete knot
+### The full node
 
 
 A full node is simply a Bitcoin node that downloads the entire Blockchain from the Genesis block, validates each block independently, and stores the history of all that Blockchain locally. This is the "normal" form of a Bitcoin node, as imagined by Satoshi Nakamoto.
@@ -549,7 +549,7 @@ In practice, a full node requires non-trivial resources, including several hundr
 Depending on your needs, you can add an indexer to your full node. Bitcoin Core offers transaction indexing as an optional feature (deactivated by default), which can be useful for specific purposes. However, it doesn't include an address indexer, which is often the most sought-after feature for individual users. To remedy this, you can install dedicated software on your node, such as Electrs or Fulcrum, to speed up address balance verification queries from associated UTXOs. We'll come back to the role of the indexer in more detail in a separate chapter.
 
 
-### The pruned knot
+### The pruned node
 
 
 The pruned node validates everything as a full node, from the Genesis block to the head of the chain with the most work, but **only keeps the most recent part of the block files**. Once the old blocks have been checked, it gradually deletes them to stay below a space limit you can set. This configuration is ideal if you have disk space constraints: you retain the independence of block validation, without storing the complete Blockchain history archive. This option is particularly useful if you simply want to install Bitcoin Core on your personal computer, without using a dedicated machine.
@@ -567,7 +567,7 @@ In practical terms, you can use a pruned node to connect wallet management softw
 In short, Wallet tracking works without a hitch on a pruned node if you create a new wallet while your software is already connected to that node. On the other hand, you may encounter difficulties if you restore an old wallet, as past transactions that are no longer retained by the node will obviously not be retrievable.
 
 
-### The light knot / SPV
+### The light node / SPV
 
 
 An SPV (*Simplified Payment Verification*) node, or lightweight node, retains only block headers, not transaction details, and relies on other full nodes to obtain proof that a transaction is in a block (Merkle proofs via trees) for which it has the header. The concept of simplified payment verification is not new, having been proposed by Satoshi Nakamoto himself in part 8 of the White Paper.
@@ -636,7 +636,7 @@ Installing a raw implementation means directly using the software of a Bitcoin p
 This is the most sovereign and flexible approach: you know exactly what's running, where the data is, and how everything works. On the other hand, it becomes more complex as soon as you want to go beyond the simple operation of a Bitcoin node. If your aim is just to have a node, the complexity is comparable to that of a node-in-a-box, or even less, since it's simply a matter of installing software.
 
 
-#### Bitcoin Core (ultra-majority customer)
+#### Bitcoin Core (dominant client)
 
 
 [Bitcoin Core is the network's ultra-majority client](https://bitcoincore.org/). It downloads, validates, and maintains the Blockchain, provides RPC/REST APIs, and can integrate a wallet. If you prefer standard tools and feel comfortable adding services yourself (such as Electrum server, explorer, and LND), you're better off using Core as is.
@@ -652,7 +652,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (main alternative customer)
+#### Bitcoin Knots (main alternative client)
 
 
 [Bitcoin Knots is a Fork of Bitcoin Core](https://bitcoinknots.org/), maintained by Luke Dashjr. It is the main alternative client to Core for implementing the Bitcoin protocol. Fully compatible with the rest of the network (it is by no means a Hard Fork like Bitcoin Cash), it nevertheless offers additional features, including relay policy options that are absent from Core, or applied more strictly by default to limit what some consider spam.
@@ -1937,7 +1937,7 @@ With your Umbrel, you can optimize your use of Nostr. By installing the ***Nostr
 Nostr clients ***noStrudel*** or ***Snort*** are also available on Umbrel. Thanks to these applications, you can publish, read, search for profiles, and interact with the Nostr ecosystem directly from the Interface web on your Umbrel.
 
 
-Finally, there's the ***Nostr Wallet Connect*** app on Umbrel, which enables native Lightning payments in Nostr. In concrete terms, you can link your future Lightning node to your Nostr customers to send micro-payments, called "*zaps*", to reward content or interact in a monetized way, without needing to go through a third-party service. These payments are sent directly from your personal node via your channels.
+Finally, there is the ***Nostr Wallet Connect*** application on Umbrel, which allows native Lightning payments within Nostr. Specifically, you can link your future Lightning node to your Nostr clients to send micro-payments, called "*zaps*", to reward content or interact in a monetized way, without going through a third-party service. These payments are sent directly from your personal node via your channels.
 
 
 To find out how to use all these applications, I recommend you take a look at this complete tutorial:
@@ -1984,7 +1984,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 <partId>fc77a62a-8d9f-4144-9080-3057b04db2c6</partId>
 
 
-## Maintaining your Umbrel knot
+## Maintaining your Umbrel node
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
 
@@ -2193,7 +2193,7 @@ If your node is listening on an open port (by default, 8333), it accepts incomin
 
 
 
-## Anatomy of your Bitcoin knot
+## Anatomy of your Bitcoin node
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 

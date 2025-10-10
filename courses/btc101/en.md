@@ -105,13 +105,16 @@ Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum played 
 The cypherpunk movement, deeply rooted in digital activism and cryptography, drew upon several foundational texts to articulate its principles and vision for the future. Among these writings, three stand out in particular:
 
 - "A Cypherpunk's Manifesto":
-  written by Eric Hughes in 1993, asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
+
+written by Eric Hughes in 1993, asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
 
 - "The Crypto Anarchist Manifesto":
-  written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
+
+written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
 
 - "A Declaration of the Independence of Cyberspace":
-  although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
+
+although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
 
 ### The predecessors of Bitcoin
 
@@ -1033,7 +1036,7 @@ Today, Bitcoin continues to survive and grow even more by being integrated more 
 
 Bitcoin can be seen as the tool to create a parallel economy to fiat currencies, because it is possible to sell goods or services and be paid in bitcoin. Transactions can be made directly in Bitcoin, without the need to go through an exchange platform, but simply going from a Bitcoin wallet to another.
 
-The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Found. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
+The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Fund. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
 
 Nonetheless, in El Salvador and in other parts of the world, there are more and more individuals, businesses, and organizations that accept Bitcoin as a means of payment for their products or services.
 

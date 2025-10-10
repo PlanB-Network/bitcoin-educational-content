@@ -1,5 +1,5 @@
 ---
-name: Izina ry'ububiko
+name: Alias Vault
 description: Igikoresho gikomeye co gucunga amajambo banga, kwemeza ibintu bibiri n'amazina y'ibanga (afise umukozi w'imeli yubatswemwo) - Kandi self hosted!
 ---
 

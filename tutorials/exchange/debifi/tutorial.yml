@@ -11,7 +11,7 @@ tags:
 
 level: beginner
 
-professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81 
+professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81
 
 # Proofreading metadata
 
@@ -23,6 +23,128 @@ proofreading:
     contributor_names:
       - marshal-opsource
     reward: 0
-
-
-
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.07
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.36
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.22
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.22
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.36
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.22
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.36
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.36

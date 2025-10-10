@@ -67,7 +67,7 @@ Lorsqu'une institution financière détient une licence bancaire, cela signifie 
 
 Lors de l'achat de la maison, vous demandez à votre banquier de transférer de l'argent sur le compte du vendeur. Si le compte du vendeur est dans une autre banque, votre banquier informe le banquier correspondant de l'autre institution pour s'assurer que le compte du vendeur est crédité du montant correspondant, tout en débitant votre compte du montant correspondant.
 
-![image](assets/en/01.webp)
+![image](assets/fr/001.webp)
 
 Figure 1 : Création d'argent sous forme d'entrées comptables
 
@@ -85,7 +85,7 @@ Ce dilemme a donné naissance aux banques centrales modernes. Au XIXe siècle en
 
 En plus de maintenir la stabilité financière, les banques centrales sont responsables de la fixation des taux d'intérêt clés. Ces taux déterminent le coût auquel les banques agréées peuvent emprunter des fonds auprès de la banque centrale, définissant essentiellement le coût de la liquidité pour les institutions financières qui jouent un rôle crucial dans les prêts dans nos économies. Par conséquent, ces taux servent de référence pour l'ensemble du système financier. En tant qu'individu, les taux d'intérêt que vous payez sur votre prêt hypothécaire peuvent être décomposés en taux de politique monétaire et marge de la banque.
 
-![image](assets/en/02.webp)
+![image](assets/fr/002.webp)
 
 Figure2: Faillite de Lehman Brothers (15/09/2008)
 
@@ -93,7 +93,7 @@ Lors de la crise financière majeure de 2008, Lehman Brothers, une grande banque
 
 Bien que ces mesures aient empêché une vague de faillites en cascade, elles n'ont guère atténué le ralentissement économique qui a suivi. Des millions de personnes ont perdu leur emploi et leur logement, les dépenses des consommateurs ont chuté, les entreprises ont fait faillite et les banques ont subi d'importantes pertes. Malgré des taux d'intérêt historiquement bas, peu de personnes étaient disposées à emprunter, ce qui a entraîné un cercle vicieux où la diminution initiale des dépenses et des investissements se renforçait. Par conséquent, les banquiers centraux ont pris des mesures supplémentaires en mettant en œuvre des programmes d'assouplissement quantitatif (QE). Ces programmes impliquaient que les banques centrales achètent des obligations gouvernementales et des titres adossés à des créances hypothécaires auprès des banques commerciales avec des réserves de banque centrale.
 
-![image](assets/en/03.webp)
+![image](assets/fr/003.webp)
 
 Figure3: Taux d'intérêt dans les principales économies / Source: BCE
 
@@ -103,14 +103,14 @@ Contrairement à de nombreuses attentes, les programmes d'assouplissement quanti
 
 Néanmoins, un principe économique essentiel peut être tiré de cet épisode : lorsque de l'argent neuf est créé, il profite initialement à ceux qui sont les plus proches de la source de l'argent, au détriment de ceux qui en sont plus éloignés. Cette notion économique remonte au XVIIIe siècle, lorsque Richard Cantillon l'a exposée dans son "Essai sur la nature du commerce en général". On l'appelle maintenant familièrement l'"effet Cantillon".
 
-![image](assets/en/04.webp)
+![image](assets/fr/004.webp)
 
 Figure4: L'effet Cantillon en un coup d'œil / Source: River Financial
 
 Dans ce cas, les banquiers, les dirigeants de banque, les propriétaires d'actions et d'obligations, les promoteurs immobiliers, les prêteurs immobiliers et toute personne détenant des actifs financiers ou immobiliers ont reçu une manne financière, tandis que le fardeau est tombé sur tout le monde. Cette situation a perduré pendant des années et explique en grande partie l'accroissement des inégalités de richesse, le sentiment de marginalisation chez les travailleurs acharnés et la hausse apparemment inexorable des prix des actifs malgré une croissance économique anémique.
 En essence, le système est biaisé. Les banques sont intrinsèquement instables, mais leur faillite peut mettre en péril l'ensemble de l'économie. Ce risque moral incite les dirigeants de banque à prendre des risques excessifs pour maximiser les revenus de leur banque, sachant que la banque centrale les renflouera ultimement, transférant ainsi le coût aux contribuables. Dans de tels scénarios, les banquiers centraux créent les conditions d'un transfert massif du pouvoir d'achat des travailleurs acharnés et des épargnants vers les propriétaires d'actifs et ceux qui sont liés au système financier, dissociant ainsi le processus de création de richesse de l'accumulation de richesse.
 
-![image](assets/en/05.webp)
+![image](assets/fr/005.webp)
 
 Figure 5 : Répartition de la richesse en Chine + Europe + États-Unis / Source : OCDE
 
@@ -120,7 +120,7 @@ Pendant de longues périodes de politiques de taux d'intérêt nuls (ZIRP), les 
 
 Une autre conséquence involontaire de la ZIRP est qu'elle encourage les gouvernements à engager des dépenses importantes. Étant donné que les gouvernements ne supportent aucun coût d'emprunt et peuvent compter sur les banques centrales pour acheter leurs obligations par le biais de programmes d'assouplissement quantitatif, ils ont une incitation naturelle à dépenser autant que possible, en particulier dans les contextes démocratiques où les dépenses peuvent rapporter des votes. Cette tendance néglige souvent les conséquences à long terme d'une telle prodigalité budgétaire, ce qui entraîne une augmentation significative du niveau de la dette publique dans les économies développées depuis la crise financière mondiale (GFC).
 
-![image](assets/en/06.webp)
+![image](assets/fr/006.webp)
 
 Figure 6 : Dette publique et privée en % du PIB (monde, pondéré par le PIB par pays) / Source : FMI
 
@@ -160,7 +160,7 @@ Ces questions ont occupé les économistes et les philosophes pendant de nombreu
 
 Après que la théorie de la valeur foncière des physiocrates, postulant que toute valeur provient de la terre, ait été réfutée par la théorie de la valeur du travail des économistes classiques, postulant que la valeur d'un bien découle de la quantité de travail nécessaire à sa production, c'était au tour de la théorie marginale de la valeur de supplanter cette dernière. Dans les années 1870, à la suite de Marx, le dernier des économistes classiques, trois nouvelles écoles de pensée économique ont émergé presque simultanément autour d'une théorie marginale de la valeur : l'école de Lausanne avec Léon Walras, l'école moderne ou néoclassique avec William Stanley Jevons, et l'école autrichienne avec Carl Menger. Cette révolution dans la théorie de la valeur a constitué un renouvellement significatif de la pensée économique.
 
-![image](assets/en/07.webp)
+![image](assets/fr/007.webp)
 
 De gauche à droite : William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -170,7 +170,7 @@ Il est courant de présenter le marginalisme de ces trois écoles comme similair
 
 ### Valeur subjective
 
-![image](assets/en/08.webp)
+![image](assets/fr/008.webp)
 
 L'économiste autrichien réfute la conception des successeurs d'Adam Smith et abandonne l'idée que la valeur d'un bien provient de la quantité de travail utilisée dans sa production, au profit de l'idée que sa valeur est déterminée par l'individu, qui, dans chaque contexte, effectue un acte mental d'évaluation concernant une quantité spécifique d'un bien ou d'un service. Ce saut intellectuel fait par Menger remet en question l'objectivité de la valeur : pour lui, la valeur n'est pas une propriété objective des biens ; elle est simplement le résultat de la relation que l'individu entretient avec cette chose : "la valeur n'existe pas en dehors de la conscience humaine".
 
@@ -194,7 +194,7 @@ Cette conception subjective de la valeur, comprise comme une relation psychologi
 
 ### La division du travail
 
-![image](assets/en/09.webp)
+![image](assets/fr/009.webp)
 
 Visite d'une fabrique de clous, Léonard Defrance (XVIIIe siècle)
 Chacun est unique et a une situation personnelle particulière. Par conséquent, chacun possède une capacité supérieure à accomplir certaines tâches par rapport à ses pairs (avantage absolu) ou une capacité supérieure à accomplir certaines tâches par rapport à d'autres (avantage comparatif). Il ne peut en être autrement ; nier ce fait élémentaire reviendrait à prétendre que tous les êtres humains sont égaux dans tous les aspects.
@@ -259,7 +259,7 @@ Ce jeu illustre un problème fréquemment rencontré dans la vie réelle : en l'
 
 ### L'argent pour résoudre les problèmes de coordination
 
-![image](assets/en/10.webp)
+![image](assets/fr/010.webp)
 
 Ce problème a moins d'impact dans les petites communautés (par exemple, la famille, les cercles d'amis) car, dans ces cas, tout le monde se connaît directement, ce qui permet de se souvenir des contributions de chacun. En supposant que quitter la communauté (la désertion) entraîne un coût, un système de réputation basé sur la mémoire des agents individuels est généralement suffisant pour éviter les pièges posés par le dilemme du prisonnier.
 
@@ -267,7 +267,7 @@ Cependant, lorsqu'il s'agit de communautés plus importantes qui bénéficient c
 
 Premièrement, les humains sont limités par leurs capacités cognitives. Il est impossible pour une personne de maintenir et de se souvenir de relations sociales stables avec plus de 150 individus, rendant un système de réputation insuffisant pour surmonter le dilemme du prisonnier à grande échelle.
 
-Deuxièmement, la mesure socialement acceptée de la valeur des contributions en échange (commensurabilité) est un problème non trivial. Par exemple, si un individu fournit de la viande de chasse et demande des matériaux pour un abri en retour, comment évaluer la quantité de viande offerte en termes équivalents aux matériaux demandés ? Il en va de même pour la qualité - la viande de cerf vaut-elle plus ou moins que le bois ?
+Deuxièmement, la mesure socialement acceptée de la valeur des contributions en échange (commensurabilité) est un problème non trivial. Par exemple, si un individu fournit de la viande de chasse et demande des matériaux pour un abri en retour, comment évaluer la quantité de viande offerte en termes équivalents aux matériaux demandés ? Il en va de même pour la qualité, la viande de cerf vaut-elle plus ou moins que le bois ?
 
 Même s'il était possible d'établir un taux d'échange satisfaisant pour chaque paire de biens, il devient rapidement impraticable de maintenir cette information. Dans un système d'échange direct impliquant N biens, il y a N(N-1)/2 taux d'échange à se souvenir. Pour une économie de 50 biens, cela signifie se souvenir de 50\*49/2, soit 1225 taux d'échange, par opposition à seulement 50 dans les échanges indirects. Pour une économie de 100 biens, ce nombre augmente à 4950. Une telle relation quadratique limite encore davantage la scalabilité de l'échange direct (le troc).
 
@@ -279,7 +279,7 @@ Aujourd'hui, malgré l'impraticabilité d'un tel système, nous pourrions utilis
 
 ### La double coïncidence des désirs et la monétisation
 
-![image](assets/en/11.webp)
+![image](assets/fr/011.webp)
 
 L'argent peut être considéré comme la solution découverte par nos ancêtres pour résoudre ce que les économistes appellent le problème de "double coïncidence des désirs". Ce problème a trois dimensions : spatiale, temporelle et interpersonnelle.
 
@@ -325,7 +325,7 @@ Cette évaluation subjective de la valeur des biens futurs par rapport aux biens
 
 Ce concept de valorisation relative des biens futurs par rapport aux biens présents est à la base du phénomène de l'intérêt. En effet, dans une économie avec des marchés du capital non manipulés, les taux d'intérêt de référence (considérés comme sans risque de défaut) sont déterminés à l'intersection de l'offre et de la demande de capital. Par conséquent, ces taux représentent l'état des préférences temporelles pour l'ensemble de l'économie : une augmentation du taux d'intérêt résulte d'une augmentation relative de la demande de capital par rapport à l'offre, indiquant des préférences temporelles plus élevées. À l'inverse, une baisse des taux d'intérêt se produit en raison d'une augmentation de l'épargne, c'est-à-dire une augmentation de l'offre de capital, indiquant une réduction des préférences temporelles.
 
-![image](assets/en/12.webp)
+![image](assets/fr/012.webp)
 
 Dans une économie où les taux d'intérêt ne sont pas manipulés par la banque centrale, nous avons tendance à observer une courbe des rendements croissante : plus la maturité de la dette est longue, plus le taux d'intérêt est élevé. La situation inverse ne peut pas se produire car cela impliquerait que l'avenir est plus certain que le présent, ce qui est une impossibilité logique.
 
@@ -333,7 +333,7 @@ Le concept de préférence temporelle et la façon dont nous exprimons notre pro
 
 ### Théorie du Capital
 
-![image](assets/en/13.webp)
+![image](assets/fr/013.webp)
 
 Au début de ce cours, nous avons vu que, pour Carl Menger, les biens ne sont considérés comme des biens économiques (valorisés) que parce qu'ils servent de moyens aux fins choisies et valorisées par les individus. Selon cette vision, toute analyse économique tourne autour de la consommation car c'est finalement l'objectif motivant derrière toute activité économique. Par conséquent, pour Menger, le point de départ de l'analyse économique est les biens de consommation, ou biens finaux, car ils représentent le but ultime de l'activité économique. Tous les autres biens de l'économie, que nous pouvons appeler "biens intermédiaires", n'ont de valeur que parce qu'ils permettent aux individus d'obtenir ces biens de consommation : ce sont des biens utilisés dans la production d'autres biens.
 
@@ -349,19 +349,19 @@ En raison de la nature séquentielle de l'action humaine, ces choix intertempore
 
 Pour illustrer ce point, revenons à l'exemple donné par Böhm-Bawerk, dans son ouvrage "Capital and Interest":
 
-![image](assets/en/14.webp)
+![image](assets/fr/014.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe et le détour de production :
 
-![image](assets/en/15.webp)
+![image](assets/fr/015.webp)
 
 Robinson Crusoe débarquant des provisions du naufrage, John Alexander Gilfillan (1793-1864)
 
 Dans son livre, l'économiste autrichien nous invite à considérer les compromis intertemporels inhérents aux détours de production à travers une expérience de pensée basée sur Robinson Crusoé seul sur son île.
 
-Robinson, tel un être humain primitif, dépend de la cueillette et de la chasse pour se nourrir. Imaginons que Robinson puisse récolter suffisamment de baies pour se nourrir pendant toute une journée en huit heures. Dans de telles conditions, il a peu de temps pour d'autres activités. Cependant, Robinson croit que en fabriquant un bâton en bois, il pourrait facilement faire tomber les baies et obtenir sa nourriture quotidienne en seulement quatre heures de travail. De plus, il estime qu'il lui faudra cinq jours, en travaillant deux heures chaque jour, pour fabriquer le bâton. Par conséquent, il conclut qu'il doit économiser 1/5ème de sa production de baies pendant cinq jours, ou bien passer deux heures supplémentaires par jour à la cueillette pendant cinq jours, pour économiser suffisamment de baies pour se sustenter pendant le temps qu'il passe à fabriquer le bâton.
+Robinson, tel un être humain primitif, dépend de la cueillette et de la chasse pour se nourrir. Imaginons que Robinson puisse récolter suffisamment de baies pour se nourrir pendant toute une journée en huit heures. Dans de telles conditions, il a peu de temps pour d'autres activités. Cependant, Robinson croit qu'en fabriquant un bâton en bois, il pourrait facilement faire tomber les baies et obtenir sa nourriture quotidienne en seulement quatre heures de travail. De plus, il estime qu'il lui faudra cinq jours, en travaillant deux heures chaque jour, pour fabriquer le bâton. Par conséquent, il conclut qu'il doit économiser 1/5ème de sa production de baies pendant cinq jours, ou bien passer deux heures supplémentaires par jour à la cueillette pendant cinq jours, pour économiser suffisamment de baies pour se sustenter pendant le temps qu'il passe à fabriquer le bâton.
 
 S'il ne fait pas cette économie préalable, Robinson sera incapable de terminer son bâton et pourrait mourir entre-temps.
 
@@ -377,7 +377,7 @@ C'est un concept tentant, bien que simple : toute extension de la structure de p
 
 Maintenant, comme mentionné dans le premier chapitre, les taux d'intérêt ont été manipulés pendant des décennies par les banques centrales, tandis que les banques commerciales accordaient des crédits sans réserves préalables, ce qui signifie que les taux d'intérêt ne représentent pas notre préférence temporelle et donnent une illusion d'épargne abondante.
 Cela est parfaitement illustré par le graphique ci-dessous : les taux longs sont inférieurs aux taux courts. Tout d'abord, cela n'a absolument aucun sens, car cela impliquerait que l'avenir est plus certain que le présent. Deuxièmement, cela suscite une interrogation sur les conséquences pour l'allocation des capitaux : si tout le monde est incité à agir comme si l'épargne était abondante, alors que les épargnants sont introuvables car ils ne sont pas récompensés pour leur épargne, quelles conséquences cela pourrait-il avoir sur l'économie ?
-![image](assets/en/16.webp)
+![image](assets/fr/016.webp)
 
 C'est ce que nous découvrirons dans le prochain chapitre consacré à la théorie autrichienne du cycle économique !
 
@@ -409,15 +409,15 @@ Pour décrire ce phénomène de désynchronisation temporelle et ses conséquenc
 
 Pour faciliter notre explication, nous reviendrons à la classification des biens de Menger et représenterons la structure productive sur un diagramme composé d'un nombre arbitraire d'étapes:
 
-![image](assets/en/17.webp)
+![image](assets/fr/017.webp)
 
 Dans le diagramme ci-dessus, les ressources initiales passent par différentes étapes de production, subissant des transformations qui les rapprochent de l'état des biens de consommation finaux (par le biais de l'interaction avec les facteurs de production d'origine : le temps, la terre, le travail). La hauteur du côté droit du triangle représente schématiquement le PIB, car elle indique la somme de tous les biens de consommation vendus sur une période. L'écart entre chaque barre correspond à la valeur ajoutée (en termes monétaires) générée par chaque étape du processus. Cette différence peut également être considérée comme le revenu associé à chaque étape (revenus - coûts).
 
-Si, au niveau agrégé, les agents économiques augmentent leur épargne, la quantité de biens finaux consommés diminuera - toutes choses étant égales par ailleurs, l'épargne implique nécessairement de reporter une partie de sa consommation à une date ultérieure. Par conséquent, les taux d'intérêt baisseront - car l'offre de capital augmente, permettant aux entrepreneurs d'utiliser cet afflux de capital pour créer de nouveaux biens d'investissement et ainsi allonger la structure de production.
+Si, au niveau agrégé, les agents économiques augmentent leur épargne, la quantité de biens finaux consommés diminuera , toutes choses étant égales par ailleurs, l'épargne implique nécessairement de reporter une partie de sa consommation à une date ultérieure. Par conséquent, les taux d'intérêt baisseront, car l'offre de capital augmente, permettant aux entrepreneurs d'utiliser cet afflux de capital pour créer de nouveaux biens d'investissement et ainsi allonger la structure de production.
 
 Nous obtiendrons alors une structure de production étendue, un changement qui peut être représenté qualitativement par le diagramme suivant:
 
-![image](assets/en/18.webp)
+![image](assets/fr/018.webp)
 
 Ici, la valeur monétaire des biens de consommation demandés a diminué, libérant des ressources pour la création d'une étape supplémentaire de production. Dans ce scénario où la baisse des taux d'intérêt est une conséquence de la diminution de la consommation, c'est-à-dire de l'augmentation de l'épargne, la surface du triangle, représentant la quantité d'argent en circulation, reste inchangée. La transformation de la structure de production (allongement) résulte simplement d'un transfert du pouvoir d'achat d'une partie de la structure à une autre.
 
@@ -432,7 +432,7 @@ Avec des taux d'intérêt plus bas, les entrepreneurs peuvent emprunter davantag
 
 Notez que c'est une conséquence logique de l'expansion du crédit. Dans la mesure où les banques produisent des médias fiduciaires en accordant des prêts, on peut naturellement s'attendre à ce que le pouvoir d'achat global augmente.
 
-![image](assets/en/19.webp)
+![image](assets/fr/019.webp)
 
 Lorsque le crédit pénètre dans l'économie par le biais de prêts aux entrepreneurs, nous devrions observer une augmentation des profits dans les secteurs de production éloignés de la consommation, et une diminution des profits relatifs dans les secteurs plus proches de la consommation. Cette rentabilité accrue soutient alors une réaffectation du capital vers ces nouvelles étapes plus intensives en capital (construction navale, automobile, construction, technologies avancées, etc.) et une diminution des investissements dans les secteurs plus proches de la consommation.
 
@@ -448,7 +448,7 @@ Un tel ajustement peut être considéré comme une période pendant laquelle la 
 
 Malheureusement, ce mécanisme dépressif est souvent interrompu par le pouvoir politique et les banques centrales qui cherchent à "stimuler" l'économie par des dépenses déficitaires et une politique monétaire accommodante.
 
-![image](assets/en/20.webp)
+![image](assets/fr/020.webp)
 
 Pour les monétaristes et les keynésiens, la cause de la dépression est un manque de demande globale, ils ne prêtent donc pas attention à l'évolution des prix relatifs, qui est pourtant au cœur du problème. Ainsi, ils croient que stimuler l'expansion du crédit (en abaissant les taux d'intérêt) et utiliser la capacité de déficit de l'État pour stimuler la demande relancera l'économie. À court terme, de telles mesures peuvent sembler produire les effets souhaités : le déficit soutient les dépenses, tandis que la baisse des taux d'intérêt entraîne une hausse des prix des actifs, ce qui encourage à son tour les détenteurs d'actifs à augmenter leurs dépenses. Cependant, cet effet de stimulation finit par s'estomper, tandis que le problème structurel persiste, voire s'aggrave, car l'attribution erronée des capitaux se poursuit grâce à des taux d'intérêt artificiellement bas.
 
@@ -489,7 +489,7 @@ Avec son article, Mises a introduit une nouvelle dimension dans le débat. En me
 
 ### Explication de l'Impossibilité du Calcul Économique
 
-![image](assets/en/21.webp)
+![image](assets/fr/021.webp)
 
 La plupart des malentendus sur les arguments de Mises découlent d'une mauvaise compréhension des rôles joués par les classes dirigeantes et entrepreneuriales dans une économie capitaliste. Mises n'a jamais rejeté la capacité des gestionnaires à concevoir des plans de production efficaces au sein de leurs propres opérations. Au contraire, il a souligné l'importance des entrepreneurs et des actionnaires, qui, en tant que propriétaires des moyens de production, allouent des capitaux à différents secteurs, formant ainsi des prix qui servent d'inputs dans les calculs économiques des gestionnaires.
 
@@ -501,11 +501,11 @@ En substance, Mises soutient que les droits de propriété, qui placent les prop
 
 Les chapitres précédents ont expliqué que les valeurs sont subjectives, que les actions économiques révèlent des coûts d'opportunité et que les prix des consommateurs expriment une hiérarchie ordinale des désirs des consommateurs. Les entrepreneurs se disputent les facteurs de production pour construire des structures de production qui maximisent les revenus par rapport aux coûts, satisfaisant ainsi les désirs des consommateurs de manière plus efficace que les autres options. Par conséquent, les prix des facteurs de production sont dérivés des prix des consommateurs : si un facteur de production peut générer un revenu monétaire plus élevé (satisfaisant mieux les désirs des consommateurs) dans une autre industrie ou selon un plan différent, les entrepreneurs surenchériront son propriétaire actuel, augmentant ainsi son prix à sa productivité marginale. Cette concurrence entre les entrepreneurs pour les facteurs de production, déterminant leur rendement marginal le plus élevé, est un processus qui génère des informations pertinentes sur l'allocation des ressources.
 
-Ce processus est crucial car il valide ou invalide l'efficacité de diverses activités, en veillant à ce que les facteurs de production soient alloués à leurs utilisations les plus productives. Le marché remplit cette fonction en tant que processus continu. Dans un monde en constante évolution - où les préférences des consommateurs, les conditions de production, la technologie, la réglementation, la démographie, etc. sont en flux constant - les prix des facteurs de production intermédiaires changent continuellement grâce aux actions des entrepreneurs et des capitalistes qui s'adaptent aux conditions changeantes. Étant donné que ces changements sont localisés, les informations doivent être diffusées aux agents économiques qui ne peuvent pas posséder une connaissance complète du monde entier. C'est le rôle du marché : il permet aux entrepreneurs d'agir sur des informations localisées, souvent qualitatives et complexes, en proposant des structures de production économique qui sont ensuite validées ou invalidées par le marché. De cette manière, les informations pertinentes générées par ce processus ascendant sont condensées et distribuées dans toute l'économie via le système de prix. Ce processus de production et de distribution d'informations est essentiel pour l'allocation des ressources car il permet aux agents économiques, qui ont une connaissance limitée du monde, de faire des calculs économiques et de concevoir des plans économiques cohérents en se basant sur les prix.
+Ce processus est crucial car il valide ou invalide l'efficacité de diverses activités, en veillant à ce que les facteurs de production soient alloués à leurs utilisations les plus productives. Le marché remplit cette fonction en tant que processus continu. Dans un monde en constante évolution, où les préférences des consommateurs, les conditions de production, la technologie, la réglementation, la démographie, etc. sont en flux constant, les prix des facteurs de production intermédiaires changent continuellement grâce aux actions des entrepreneurs et des capitalistes qui s'adaptent aux conditions changeantes. Étant donné que ces changements sont localisés, les informations doivent être diffusées aux agents économiques qui ne peuvent pas posséder une connaissance complète du monde entier. C'est le rôle du marché : il permet aux entrepreneurs d'agir sur des informations localisées, souvent qualitatives et complexes, en proposant des structures de production économique qui sont ensuite validées ou invalidées par le marché. De cette manière, les informations pertinentes générées par ce processus ascendant sont condensées et distribuées dans toute l'économie via le système de prix. Ce processus de production et de distribution d'informations est essentiel pour l'allocation des ressources car il permet aux agents économiques, qui ont une connaissance limitée du monde, de faire des calculs économiques et de concevoir des plans économiques cohérents en se basant sur les prix.
 
 De ce point de vue, une économie planifiée de manière centralisée connaîtra inévitablement une mauvaise allocation des capitaux. À court et moyen terme, de telles mauvaises allocations peuvent passer inaperçues car il n'y a pas de prix du marché ni de faillites pour les révéler. Cependant, en raison de l'absence de rétroaction (prix) et de mécanismes de réaffectation (faillites), les erreurs s'accumuleront jusqu'à ce que le gaspillage devienne apparent par une baisse significative des conditions de vie.
 
-![image](assets/en/22.webp)
+![image](assets/fr/022.webp)
 
 ### La perspective autrichienne et les échecs des autres écoles d'économie
 
@@ -515,13 +515,13 @@ Malgré cette impressionnante prévision et de nombreuses démonstrations empiri
 
 ### La Théorie autrichienne du cycle économique en tant que cas spécifique de l'impossibilité du calcul économique sous le socialisme
 
-![image](assets/en/23.webp)
+![image](assets/fr/023.webp)
 
-Dans un chapitre précédent, nous avons élucidé la dynamique de la surinvestissement et de la mauvaise allocation des capitaux résultant de la manipulation des taux d'intérêt par les banques centrales. Fondamentalement, ce que nous avons expliqué peut être considéré comme un cas spécifique de l'impossibilité du calcul économique sous le socialisme, appliqué au domaine des marchés monétaires. Lorsque les prix sont fixés en dehors de leurs valeurs marchandes, les entrepreneurs et les allocataires de capitaux sont incités à s'engager dans des investissements qui ne peuvent pas être soutenus à long terme en raison d'un manque d'épargne. En interférant avec le système des prix, les planificateurs centraux (dans ce cas, les banquiers centraux) créent une mauvaise coordination entre les agents économiques. Dans ce cas, la mauvaise coordination intertemporelle entraîne une surinvestissement dans les biens d'investissement de plus haut niveau et une sous-investissement dans les biens d'investissement de plus bas niveau, ce qui représente une manifestation spécifique de la mauvaise allocation des capitaux entre les industries.
+Dans un chapitre précédent, nous avons élucidé la dynamique de la surinvestissement et de la mauvaise allocation des capitaux résultant de la manipulation des taux d'intérêt par les banques centrales. Fondamentalement, ce que nous avons expliqué peut être considéré comme un cas spécifique de l'impossibilité du calcul économique sous le socialisme, appliqué au domaine des marchés monétaires. Lorsque les prix sont fixés en dehors de leurs valeurs marchandes, les entrepreneurs et les allocataires de capitaux sont incités à s'engager dans des investissements qui ne peuvent pas être soutenus à long terme en raison d'un manque d'épargne. En interférant avec le système des prix, les planificateurs centraux (dans ce cas, les banquiers centraux) créent une mauvaise coordination entre les agents économiques. Dans ce cas, la mauvaise coordination intertemporelle entraîne un surinvestissement dans les biens d'investissement de plus haut niveau et un sous-investissement dans les biens d'investissement de plus bas niveau, ce qui représente une manifestation spécifique de la mauvaise allocation des capitaux entre les industries.
 
 Les conséquences d'une telle mauvaise allocation comprennent des crises financières et économiques, une activité économique réduite et une déflation de la dette. Ces effets macroéconomiques découlent d'un déséquilibre entre l'épargne et les investissements résultant de l'expansion du crédit. En URSS et dans d'autres régimes communistes, la fixation des prix a conduit à une mauvaise coordination similaire, entraînant des pénuries de certains biens et une surproduction d'autres. Dans les deux cas, les prix ne reflètent pas les véritables préférences des consommateurs, que ce soit en termes de préférences temporelles ou de préférences de consommation, ce qui amène les entrepreneurs ou les planificateurs centraux responsables de l'allocation des ressources à investir des capitaux dans les "mauvaises industries".
 
-Aujourd'hui, le débat sur le calcul économique refait surface principalement dans les discussions sur l'énergie, où les mauvais investissements motivés par un programme écologique deviennent de plus en plus évidents. Il se pose également dans les discussions sur les marchés monétaires, les économistes autrichiens soulignant que la crise de 2008, que les économistes mainstream n'ont pas réussi à prévoir, était un cycle classique de boom et de buste caractérisé par une surinvestissement dans le marché immobilier en raison de périodes prolongées de taux d'intérêt bas. De plus, les néo-marxistes et autres factions socialistes propagent l'idée que l'émergence de l'IA pourrait résoudre le problème du calcul économique. Cependant, cette perspective découle d'une compréhension erronée de la question ; le problème du calcul économique n'est pas une question de puissance de calcul, mais plutôt une question de génération et de distribution d'informations liées à la production et à l'allocation des ressources. Ces informations ne peuvent être générées localement que par des agents ayant des connaissances spécialisées et un intérêt direct dans le résultat. L'IA ne peut pas remplacer ce processus ascendant et, par conséquent, ne peut pas aider les planificateurs centraux à résoudre le problème de l'allocation des ressources. Malheureusement, en raison d'un siècle de malentendus, nous anticipons une prolifération d'affirmations selon lesquelles l'IA inaugurera une nouvelle ère de prospérité économique dirigée par des planificateurs centraux éclairés qui, avec l'aide de l'IA, pourront corriger les échecs des marchés libres.
+Aujourd'hui, le débat sur le calcul économique refait surface principalement dans les discussions sur l'énergie, où les mauvais investissements motivés par un programme écologique deviennent de plus en plus évidents. Il se pose également dans les discussions sur les marchés monétaires, les économistes autrichiens soulignant que la crise de 2008, que les économistes mainstream n'ont pas réussi à prévoir, était un cycle classique de boom et de buste caractérisé par un surinvestissement dans le marché immobilier en raison de périodes prolongées de taux d'intérêt bas. De plus, les néo-marxistes et autres factions socialistes propagent l'idée que l'émergence de l'IA pourrait résoudre le problème du calcul économique. Cependant, cette perspective découle d'une compréhension erronée de la question ; le problème du calcul économique n'est pas une question de puissance de calcul, mais plutôt une question de génération et de distribution d'informations liées à la production et à l'allocation des ressources. Ces informations ne peuvent être générées localement que par des agents ayant des connaissances spécialisées et un intérêt direct dans le résultat. L'IA ne peut pas remplacer ce processus ascendant et, par conséquent, ne peut pas aider les planificateurs centraux à résoudre le problème de l'allocation des ressources. Malheureusement, en raison d'un siècle de malentendus, nous anticipons une prolifération d'affirmations selon lesquelles l'IA inaugurera une nouvelle ère de prospérité économique dirigée par des planificateurs centraux éclairés qui, avec l'aide de l'IA, pourront corriger les échecs des marchés libres.
 
 Pour une application concrète du problème du calcul économique à une situation contemporaine, vous pouvez vous référer à cet article abordant le problème de l'allocation des ressources en Chine moderne.
 

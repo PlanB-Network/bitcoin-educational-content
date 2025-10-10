@@ -1,0 +1,9 @@
+question: Wessen Motto ist "Selber denken"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  selber denken" (sapere aude) ist das Motto von Immanuel Kant und die Losung der Aufklärung. Es geht um den Mut, sich seines eigenen Verstandes zu bedienen, ohne sich von anderen bevormunden zu lassen.
+reviewed: false

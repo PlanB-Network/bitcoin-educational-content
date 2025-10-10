@@ -1,0 +1,9 @@
+question: Bir ev ağında VLAN tabanlı ağ segmentasyonunun ana kullanımı nedir?
+answer: Farklı cihaz veya kullanım türlerini izole edin
+wrong_answers:
+  - Cihazlar için Wi-Fi menzilini artırın
+  - Ağ bağlantılarını her cihaz için ayrı ayrı şifreleyin
+  - WPA3'ü otomatik olarak etkinleştir
+explanation: |
+  VLAN'lar cihazları bölümlere ayırmak için kullanılabilir ve bir saldırının segmentler arasında yayılmasını sınırlandırır.
+reviewed: false

@@ -1,9 +1,12 @@
-question: Qual é uma possível implicação do avanço das tecnologias de IA?
-answer: As tecnologias de IA levarão ao desaparecimento de mais de 80% dos empregos atuais.
+question: Qual é um dos principais benefícios do Bitcoin para pessoas sem conta bancária?
+answer: O Bitcoin permite igualdade nas transações, independentemente do seu status social ou posição política.
 wrong_answers:
-  - As tecnologias de IA destruirão todos os computadores.
-  - As tecnologias de IA levarão a uma diminuição da inteligência humana.
-  - As tecnologias de IA causarão um colapso econômico global.
-explanation: >-
-  O texto menciona que uma possível implicação do avanço das tecnologias de IA é que mais de 80% dos empregos desaparecerão devido à IA e automação.
+  - O Bitcoin permite desigualdade nas transações, recompensando os usuários mais ricos.
+  - O Bitcoin beneficia apenas pessoas com conta bancária e uma posição política de esquerda.
+  - O Bitcoin beneficia apenas pessoas com alto status social.
+explanation: |
+  O texto menciona que existem 2,4 bilhões de pessoas no
+  mundo sem conta bancária, e o Bitcoin permite
+  igualdade nas transações, independentemente do seu status
+  social ou posição política.
 reviewed: true

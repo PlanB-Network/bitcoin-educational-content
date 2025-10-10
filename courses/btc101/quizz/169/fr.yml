@@ -1,12 +1,10 @@
-question: Comment le protocole Bitcoin récompense-t-il le mineur qui trouve un hash valide pour le bloc suivant ?
-answer: Avec une récompense définie par les règles de consensus, et avec les frais de toutes les transactions incluses dans le bloc valide.
+question: Quelle est une caractéristique unique du protocole Bitcoin ?
+answer: Il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7.
 wrong_answers:
-  - Avec une quantité fixe de bitcoins non définie par les règles de consensus.
-  - Avec un pourcentage du total de l'offre de Bitcoin et les frais de toutes les transactions incluses dans les blocs précédents.
-  - Avec les frais de toutes les transactions incluses dans le bloc valide.
-explanation: |
-  Le protocole Bitcoin récompense le mineur qui trouve un hash
-  valide pour le bloc suivant avec une récompense dont le montant est
-  défini par les règles de consensus, en plus des frais de
-  toutes les transactions incluses dans le bloc valide.
+  - Il fonctionne uniquement pendant les heures de bureau.
+  - Il est contrôlé par une autorité centrale.
+  - Il peut être facilement piraté.
+explanation: >-
+  Le protocole Bitcoin est unique en ce qu'il fonctionne à l'échelle mondiale,
+  24 heures sur 24, 7 jours sur 7, rendant la régulation difficile pour les autorités financières.
 reviewed: true

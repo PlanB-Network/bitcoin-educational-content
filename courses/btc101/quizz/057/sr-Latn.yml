@@ -1,9 +1,9 @@
-question: Koliko je iznosila inflacija u Zimbabveu u novembru 2008?
-answer: 79,600,000,000%
+question: Koja je komanda za proveru količine bitkoina u opticaju na Bitkoin čvoru?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79.600.000.000.000.000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  U novembru 2008. godine, mesečna stopa inflacije zimbabveanske valute dostigla je vrhunac od 79.600.000.000%, što je srozalo vrednost zimbabveanskog dolara na 0.
+  Komanda za proveru količine bitkoina u opticaju na Bitkoin čvoru je bitcoin-cli gettxoutsetinfo. Ova komanda pruža transparentnost i proverljivost, jačajući poverenje u Bitkoin sistem.
 reviewed: true

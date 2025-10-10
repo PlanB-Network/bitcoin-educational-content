@@ -1,0 +1,9 @@
+question: Mitä taloudellista eroa on solmun ja Miner:n välillä?
+answer: Miner saa palkkioita, solmulla ei ole suoraa hyötyä
+wrong_answers:
+  - Solmu saa maksun, Miner saa ryhmäavustuksen
+  - Solmu saa palkkioita, Miner:lla ei ole suoraa hyötyä
+  - Molemmat saavat samat palkinnot
+explanation: |
+  Louhijat saavat palkkioita (tukia ja maksuja), kun taas solmu ei tuota suoraa taloudellista hyötyä käyttäjälleen.
+reviewed: true

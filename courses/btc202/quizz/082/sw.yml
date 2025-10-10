@@ -1,0 +1,9 @@
+question: Ni thamani gani chaguomsingi ya minrelaytxfee katika Bitcoin core?
+answer: 0.00001 BTC/kvB (1 sat/vB)
+wrong_answers:
+  - 0.0001 BTC/kvB (10 sat/vB)
+  - 0.000001 BTC/kvB (0.1 sat/vB)
+  - 0.00002 BTC/kvB (2 sat/vB)
+explanation: |
+  minrelaytxfee chaguomsingi hadi 0.00001 BTC/kvB, au 1 sat/vB, ambayo chini yake shughuli za malipo hazijatumwa.
+reviewed: true

@@ -1,8 +1,13 @@
-question: Wat is OpenNode?
-answer: Een eenvoudige online oplossing voor bedrijven om Bitcoin te accepteren.
+question: Wat is Dollar Cost Average?
+answer: Regelmatig kleine hoeveelheden Bitcoin kopen.
 wrong_answers:
-  - Een type Bitcoin knooppunt dat gelijktijdig door veel gebruikers wordt gebruikt.
-  - Een Bitcoin Mining software die open-source is.
-  - Een Bitcoin Exchange platform.
-explanation: >-
+  - Een grote hoeveelheid Bitcoin in één keer kopen.
+  - Bitcoin koop ik alleen als de prijs daalt.
+  - Bitcoin alleen kopen als de prijs stijgt.
+explanation: |
+  De cursustekst legt uit dat de Dollar Cost Average
+  techniek bestaat uit het kopen van kleine hoeveelheden Bitcoin met
+  regelmatige intervallen. Deze methode egaliseert de prijs
+  schommelingen in de tijd uit en zorgt voor een continue groei van de
+  hoeveelheid Bitcoin in bezit.
 reviewed: true

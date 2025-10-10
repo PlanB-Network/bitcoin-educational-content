@@ -234,8 +234,6 @@ Se till att kontrollera originalspråksfilen (ofta EN eller FR) för att se var 
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Korrekturläsning av frågesporter
 
 
@@ -245,20 +243,57 @@ Visste du att du även kan korrekturläsa quizfrågorna i varje kurs? Om du till
 Återigen, se till att du är i en särskild filial som du öppnar specifikt för detta ändamål, och informera alltid samordnaren.
 
 
-När du har granskat frågan ska du se till att ändra statusen "granskad" från "falsk" till "sann", som visas i bilden nedan.
-
+En viktig sak att tänka på när man korrekturläser den här typen av _yml_-filer är att undvika att lägga till kolon ``:`` inuti texten. Faktum är att kolon **endast** används för att separera nyckelvärdepar som "wrong_answers" från resten. Du kan se ett exempel i bilden nedan:
 
 
 ![REVIEW](assets/en/12.webp)
 
 
+När du har granskat frågan ska du se till att ändra statusen "granskad" från "falsk" till "sann", som visas i bilden nedan. Se till att hålla dessa statusord på engelska, oavsett vilket språk du arbetar med!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Om statusraden "reviewed:true" saknas, se till att **lägga till den i slutet av frågesporten**.
+
+
 ## Korrekturläsning av ordlista
 
 
-Precis som med frågesporterna kan du också korrekturläsa ordlistan. Den ursprungliga ordlistan skrevs på franska, så du hittar meningar som: "På franska kan detta uttryck översättas till..."
+Precis som med frågesporterna kan du också korrekturläsa ordlistan. Den ursprungliga ordlistan var skriven på franska, så du hittar meningar som: "På franska kan det här uttrycket översättas till..."
 
 
-I sådana här fall ber vi dig att anpassa meningen till ditt målspråk eller till engelska.
+I sådana här fall ska du anpassa meningen till målspråket eller till engelska. Du kan t.ex. skriva "På engelska används uttrycket...".
+
+Om rubriken är på engelska kan du anpassa meningen till ditt språk: "På swahili är det här uttrycket..."
+
+
+Se också till att skriva titlar med STORA BOKSTÄVER.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Titel och beskrivning av din PR
+
+
+När du skickar din PR skulle det vara fantastiskt om du namngav den i det här formatet: [KORREKTURLÄSNING] INNEHÅLLETS NAMN - SPRÅK:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Dessutom kan du i **kommentaravsnittet i PR** skriva "stängs" + numret på den utgåva som samordnaren skickade till dig när du påbörjade korrekturläsningsuppgiften, föregånget av ``#``.
+
+Om du till exempel just skickat en PR med korrekturläsning av cyp201 + frågesporter kan du skriva "stänger [#2934] (https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+På så sätt kopplas PR-meddelandet och frågan samman, och den som läser det offentliga Github-arkivet kan enkelt hitta information.
+
 
 
 ## Andra bästa metoder
@@ -269,11 +304,11 @@ I sådana här fall ber vi dig att anpassa meningen till ditt målspråk eller t
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-När du använder funktionen "ersätt alla" är det viktigt att dubbelkolla resultatet för att se till att inte även länkar har ändrats. Om du till exempel vill ändra ordet "Bitcoin" till "Bitkoin" (vilket kan vara nödvändigt på vissa språk) kan du använda funktionen "ersätt alla" för att effektivt uppdatera alla förekomster i texten. Tänk dock på att detta verktyg också kommer att ändra alla länkar som innehåller ordet, vilket kan leda till omdirigeringsproblem.
+När du använder funktionen "ersätt alla" är det viktigt att dubbelkolla resultatet för att se till att inte även länkar har ändrats. Om du till exempel vill ändra ordet "Bitcoin" till "Bitkoin" (vilket kan vara nödvändigt på vissa språk) kan du använda funktionen "ersätt alla" för att effektivt uppdatera alla förekomster i texten. Tänk dock på att det här verktyget också ändrar alla länkar som innehåller det ordet, vilket kan leda till omdirigeringsproblem.
 
 
 I exemplet nedan har korrekturläsaren använt ovanstående funktion för att ersätta "Satoshi" med "Satoshi(Sats)" och även ändrat länken till en handledning som innehåller själva ordet. Som en följd av detta blev länken ogiltig.
@@ -283,23 +318,35 @@ Dubbelkolla alltid alla hyperlänkar i texten för att se till att de är korrek
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Om författaren lägger in en länk som hänvisar till en Plan ₿ Network-kurs eller handledning (** inte ** inom parentes), kommer webbplatsen automatiskt att skapa ett "kort" som visar den relaterade miniatyrbilden. Se därför alltid till att du **har ett mellanslag mellan texten och själva länken**, annars kan du få följande felmeddelande på webbplatsen.
+- Om författaren lägger in en länk som hänvisar till en Plan ₿ Network-kurs eller handledning (**inte** inom parentes), kommer webbplatsen automatiskt att skapa ett "kort" som visar den relaterade miniatyrbilden. Se därför till att du alltid **lägger till en ny rad mellan texten och själva länken**, annars kan du få följande felmeddelande på webbplatsen.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Samma sak händer med "bildkoder" som den här ``[IMAGE](asset/fr/001.webp)``: se till att du alltid lägger till en ny rad mellan bildkoden och texten. Ett exempel nedan:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Slutligen, en annan bästa praxis att tillämpa när du är klar med din korrekturläsning och skickar PR är att gå tillbaka till det ursprungliga ärendet som öppnades av koordinatorn och kommentera med "Korrekturläsning klar". **Se till att även infoga din PR-länk där också**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Slutsats
@@ -309,6 +356,9 @@ Sammanfattningsvis kan du verkligen förbättra dina färdigheter när du kontro
 
 
 Tänk alltid på att en nybörjare kan läsa dessa kurser och handledningar, så det är vårt ansvar att se till att de förstår fullt ut. Som korrekturläsare är du en utbildare!
+
+
+Nu är du redo att börja korrekturläsa kurser, handledningar, frågesporter och ordlistor. Håll ögonen öppna för att även börja kontrollera bilder och videotranskriptioner ;)
 
 
 Tack för att du läste igenom den här handledningen och trevlig resa med korrekturläsning!

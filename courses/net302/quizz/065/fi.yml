@@ -1,0 +1,9 @@
+question: Mikä protokolla määrittää dynaamisesti käyttöiät automaattisesti jaetuille IPv6-osoitteille?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 hallinnoi käyttöaikoja nimenomaisesti vuokrasopimuksella, kun taas NDP ilmoittaa niistä reitittimen konfigurointiviesteissä.
+reviewed: false

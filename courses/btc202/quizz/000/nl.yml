@@ -1,0 +1,9 @@
+question: Wat is de titel van het witboek van Satoshi Nakamoto dat in 2008 werd gepubliceerd?
+answer: Bitcoin Een Peer-to-Peer elektronisch geldsysteem
+wrong_answers:
+  - Bitcoin Een gedecentraliseerd digitaal goudsysteem
+  - Bitcoin De toekomst van geld
+  - Bitcoin Een op Blockchain gebaseerd betalingsnetwerk
+explanation: |
+  Satoshi Het witboek van Nakamoto, Bitcoin A Peer-to-Peer Electronic Cash System, werd gepubliceerd in 2008.
+reviewed: true

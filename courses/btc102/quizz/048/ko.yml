@@ -1,0 +1,9 @@
+question: 스태커는 주로 어떤 투자 전략을 사용하나요?
+answer: 달러 비용 평균화
+wrong_answers:
+  - 일일 거래
+  - 차익 거래
+  - 일시불
+explanation: |
+  DCA는 시장 변동성이 포트폴리오에 미치는 영향을 줄이기 위해 일정 금액을 정기적으로 투자하는 것입니다.
+reviewed: false

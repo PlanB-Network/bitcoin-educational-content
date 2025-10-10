@@ -1,0 +1,9 @@
+question: 特殊 IPv4 符號 0.0.0.0 的目的是什麼？
+answer: 若要指定所有介面或未指定的 Address
+wrong_answers:
+  - 若要將訊息傳送至所有網路
+  - 若要測試裝置的本機連線
+  - 指示本機路由器的位址或連線錯誤
+explanation: |
+  本地使用 0.0.0.0 表示沒有指定的 Address 或在所有介面上進行監聽。
+reviewed: false

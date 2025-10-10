@@ -15,4 +15,4 @@ Označuje blok bez potomků: platný blok, který je však vyloučen z hlavního
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► V angličtině se označuje jako "Stale Block". Ve francouzštině se může také nazývat "bloc périmé" nebo "bloc abandonné". Ačkoli s tímto použitím nesouhlasím, někteří bitcoináři používají termín "bloc orphelin" pro označení toho, co je ve skutečnosti zastaralý blok.*
+> ► V angličtině se označuje jako "Stale Block". Ve francouzštině se může také nazývat "bloc périmé" nebo "bloc abandonné". Ačkoli s tímto použitím nesouhlasím, někteří bitcoináři používají termín "bloc orphelin" pro označení toho, co je ve skutečnosti zastaralý blok.

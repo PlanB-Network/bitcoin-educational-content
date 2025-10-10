@@ -1,0 +1,13 @@
+question: Ni ingaruka izihe zishobora gushika mu nyuma iyo inyungu zigabanutse bitewe n’ukwiyongera kw’inguzanyo hakurikijwe inyigisho y’Ubucuruzi y’Ubudagi?
+answer: Ubutunzi bwinjira mu gihe c’ugusubira inyuma; ibiciro vy’itunga biragabanuka, umushahara nyawo uragabanuka, ibiciro vy’abaguzi biragabanuka, n’ibintu vy’ububiko birarundanywa.
+wrong_answers:
+  - Ubutunzi bwinjira mu nzira y’iterambere; ibiciro vy’itunga biraduga, umushahara nyawo uraduga, ibiciro vy’abaguzi biraduga, n’ibintu biri mu bubiko biragabanuka.
+  - Ubutunzi bwinjira mu guhagarara; ibiciro vy’itunga biguma ari uko biri, umushahara nyawo uguma ari umwe, ibiciro vy’abaguzi biguma ari uko biri, n’ibintu biri mu bubiko biguma ari uko biri.
+  - Ubutunzi bwinjira mu gihe c’ugutakaza agaciro; ibiciro vy’itunga biragabanuka, umushahara nyawo uragwira, ibiciro vy’abaguzi biragabanuka, n’ibintu biri mu nzu biraduga.
+explanation: |
+  Dukurikije inyigisho y’i Otirishiya yerekeye uruzitiro rw’ubudandaji, iyo hari .
+  iyo inyungu zigabanutse bivuye ku kwiyongera kw’inguzanyo, ubutunzi bwinjira mu
+  ugusubira inyuma kw’ubutunzi; Ibiciro vy'itunga biragabanuka, umushahara nyawo uragabanuka, ibiciro vy'abaguzi biragabanuka, n'ububiko
+  birundanya. Ivyo ni kubera ko iyo inyungu zigabanutse bituma habaho ugutanga nabi .
+  y’itunga, ivyo bikaba bituma amaherezo haba ugusubira inyuma kw’ubutunzi.
+reviewed: true

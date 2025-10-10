@@ -1,10 +1,9 @@
-question: ¿Cómo validan las transacciones los mineros y las incluyen en un bloque?
-answer: A través del proceso de Prueba de trabajo (Proof of work).
+question: ¿Cuál es el tamaño actual de la blockchain de Bitcoin?
+answer: Aproximadamente 500GB.
 wrong_answers:
-  - A través del proceso de Prueba de participación (Proof of stake).
-  - A través del proceso de Prueba de autoridad (Proof of authority).
-  - A través del proceso de Prueba de quema (Proof of burn).
-explanation: >-
-  Los mineros validan las transacciones y las incluyen en un bloque a través de un proceso
-  llamado prueba de trabajo (proof of work). Esto implica resolver un rompecabezas criptográfico.
+  - Aproximadamente 100GB.
+  - Aproximadamente 1TB.
+  - Aproximadamente 2TB.
+explanation: |
+  La blockchain de Bitcoin tiene un tamaño de aproximadamente 500GB a partir de 2023.
 reviewed: true

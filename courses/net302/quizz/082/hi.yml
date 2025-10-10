@@ -1,0 +1,9 @@
+question: हाल के लिनक्स वितरणों पर arp की जगह कौन सा आधुनिक उपकरण लेता है?
+answer: आईपी ​​नेई
+wrong_answers:
+  - ifconfig
+  - ट्रेसरूट
+  - मार्ग
+explanation: |
+  iproute2 सुइट से ip neigh, आधुनिक लिनक्स पर IP/MAC एसोसिएशनों के प्रबंधन के लिए arp का स्थान लेता है।
+reviewed: false

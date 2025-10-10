@@ -6,4 +6,4 @@ wrong_answers:
   - Envoyer des fonds sans confirmation du destinataire
 explanation: |
   LNURL-withdraw permet aux utilisateurs de retirer des fonds d'un service en scannant un QR code, simplifiant ainsi le processus de retrait.
-reviewed: false
+reviewed: true 

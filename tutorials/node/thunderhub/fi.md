@@ -19,10 +19,10 @@ ThunderHub on **avoimen lähdekoodin Lightning-solmujen (LND)** hallintaohjelma,
 
 
 
-- Seuranta**: Maailmanlaajuinen näkymä saldoista, kanavista, tapahtumista ja reititystilastoista
-- Johto**: Kanavien avaaminen/sulkeminen, saapuvat/ulostulevat maksut, kanavien tasapainottaminen
-- Integraatiot**: Ambossin varmuuskopiointi: LNURL-tuki, vaihdot Boltzin kautta
-- Interface reagoi**: Yhteensopiva mobiili-, tablet- ja työpöytälaitteiden kanssa tummilla/vaaleilla teemoilla
+- **Seuranta**: Maailmanlaajuinen näkymä saldoista, kanavista, tapahtumista ja reititystilastoista
+- **Johto**: Kanavien avaaminen/sulkeminen, saapuvat/ulostulevat maksut, kanavien tasapainottaminen
+- **Integraatiot**: Ambossin varmuuskopiointi: LNURL-tuki, vaihdot Boltzin kautta
+- **Interface reagoi**: Yhteensopiva mobiili-, tablet- ja työpöytälaitteiden kanssa tummilla/vaaleilla teemoilla
 
 
 
@@ -30,7 +30,7 @@ ThunderHub integroituu helposti **Umbrel**, **Voltage**, **RaspiBlitz** ja **MyN
 
 
 
-**ThunderHub soveltuu erityisesti operaattoreille, jotka etsivät ergonomista Interface:tä kanaviensa hallintaan, likviditeetin valvontaan (uudelleentasapainottaminen), transaktioiden seurantaan ja kolmansien osapuolten palvelujen, kuten Ambossin, integrointiin. Turvallisuus varmistetaan paikallisen tai Tor-yhteyden avulla.
+**ThunderHub soveltuu erityisesti operaattoreille, jotka etsivät ergonomista Interface:tä kanaviensa hallintaan, likviditeetin valvontaan (uudelleentasapainottaminen), transaktioiden seurantaan ja kolmansien osapuolten palvelujen, kuten Ambossin, integrointiin. Turvallisuus varmistetaan paikallisen tai Tor-yhteyden avulla.**
 
 
 
@@ -58,8 +58,8 @@ Umbrel integroi ThunderHubin omaan **App Storeen**, mikä tekee asennuksesta eri
 
 
 
-- Avaa Umbrel-kojelauta**: Muodosta yhteys Umbrel-solmusi Interface-verkkoon (esim. `http://umbrel.local` lähiverkossasi tai sen `.onion` Address:n kautta, jos käytät Toria).
-- Pääset App Storeen**: Napsauta Umbrelin päävalikossa "App Store" (tai "App"). Etsi **ThunderHub** käytettävissä olevien sovellusten luettelosta.
+- **Avaa Umbrel-kojelauta**: Muodosta yhteys Umbrel-solmusi Interface-verkkoon (esim. `http://umbrel.local` lähiverkossasi tai sen `.onion` Address:n kautta, jos käytät Toria).
+- Pääset App Storeen: Napsauta Umbrelin päävalikossa "App Store" (tai "App"). Etsi **ThunderHub** käytettävissä olevien sovellusten luettelosta.
 
 
 
@@ -69,13 +69,13 @@ Umbrel integroi ThunderHubin omaan **App Storeen**, mikä tekee asennuksesta eri
 
 
 
-- Asenna ThunderHub**: Napsauta ThunderHub-sovellusta ja sitten asennuspainiketta. Vahvista tarvittaessa. Umbrel lataa ja ottaa ThunderHubin automaattisesti käyttöön solmussasi.
+- **Asenna ThunderHub**: Napsauta ThunderHub-sovellusta ja sitten asennuspainiketta. Vahvista tarvittaessa. Umbrel lataa ja ottaa ThunderHubin automaattisesti käyttöön solmussasi.
 
 
 
 
 
-- Käynnistä sovellus**: Kun asennus on valmis (muutama kymmenen sekuntia), ThunderHub ilmestyy etusivullesi. Avaa se napsauttamalla kuvaketta. ThunderHub käynnistyy selaimessasi.
+- **Käynnistä sovellus**: Kun asennus on valmis (muutama kymmenen sekuntia), ThunderHub ilmestyy etusivullesi. Avaa se napsauttamalla kuvaketta. ThunderHub käynnistyy selaimessasi.
 
 
 
@@ -88,8 +88,8 @@ Umbrel integroi ThunderHubin omaan **App Storeen**, mikä tekee asennuksesta eri
 
 
 
-- Tallenna tämä salasana välittömästi** salasanahallintaasi
-- Kopioi se** käytettäväksi seuraavassa vaiheessa
+- Tallenna tämä salasana välittömästi **salasanahallintaasi**
+- Kopioi se käytettäväksi seuraavassa vaiheessa
 - Tarkista "Älä näytä tätä uudelleen", kun salasana on tallennettu
 
 
@@ -127,8 +127,8 @@ Umbrelin ulkopuolisille käyttäjille (esim. henkilökohtaisella palvelimella, R
 
 
 
-- Node.js** versio 18 tai uudempi versio
-- npm** asennettu
+- **Node.js** versio 18 tai uudempi versio
+- **npm** asennettu
 - Pääsy LND-todennustiedostoihin :
   - LND TLS-sertifikaatti (`tls.cert`)
   - LND hallintamakrooni (`admin.macaroon`)
@@ -304,8 +304,8 @@ ThunderHubin kirjautumissivu tulee näkyviin. Valitse määritetty tili ja anna 
 
 
 
-- Asennus:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Konfigurointi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Asennus:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Konfigurointi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub on rakennettu päävalikon ympärille (joka näkyy yleensä
 
 
 
-- Home** - Home-välilehti, jossa on yleinen kojelauta (yleiskuva solmusta ja pikatoiminnot).
-- Kojelauta** - Mukautettava kojelauta, jossa on widgettejä ja kehittyneitä mittareita.
-- Peers** - Lightning peer management (yhteydet muihin solmuihin).
-- Kanavat** - Salamakanavien yksityiskohtainen hallinta.
-- Rebalance** - Kanavien tasapainottamisväline (kiertomaksut).
-- Tapahtumat** - Salamamaksuhistoria (LN-tapahtumat).
-- Forwards** - Reititystilasto (solmun välittämät maksut).
-- Ketju** - Noden On-Chain-salkku (On-Chain BTC: UTXOs, transaktiot).
-- Amboss** - Integrointi Ambossin kanssa (solmujen seuranta, varmuuskopiot jne.).
-- Työkalut** - Erilaiset työkalut (varmuuskopiot, allekirjoitetut viestit, makaronit, raportit jne.).
-- Vaihto** - On-Chain/Lightning-vaihtotoiminnot Boltzin kautta.
-- Stats** - Laajennetut tilastot ja solmujen suorituskykymittarit.
+- **Home** - Home-välilehti, jossa on yleinen kojelauta (yleiskuva solmusta ja pikatoiminnot).
+- **Kojelauta** - Mukautettava kojelauta, jossa on widgettejä ja kehittyneitä mittareita.
+- **Peers** - Lightning peer management (yhteydet muihin solmuihin).
+- **Kanavat** - Salamakanavien yksityiskohtainen hallinta.
+- **Rebalance** - Kanavien tasapainottamisväline (kiertomaksut).
+- **Tapahtumat** - Salamamaksuhistoria (LN-tapahtumat).
+- **Forwards** - Reititystilasto (solmun välittämät maksut).
+- **Ketju** - Noden On-Chain-salkku (On-Chain BTC: UTXOs, transaktiot).
+- **Amboss** - Integrointi Ambossin kanssa (solmujen seuranta, varmuuskopiot jne.).
+- **Työkalut** - Erilaiset työkalut (varmuuskopiot, allekirjoitetut viestit, makaronit, raportit jne.).
+- **Vaihto** - On-Chain/Lightning-vaihtotoiminnot Boltzin kautta.
+- **Stats** - Laajennetut tilastot ja solmujen suorituskykymittarit.
 
 
 
@@ -360,32 +360,32 @@ ThunderHubin **Koti**-välilehti on etusivu, joka tulee näkyviin kirjautumisen 
 
 
 
-- Saldot ja kapasiteetti:** Sivun yläosassa ThunderHub näyttää käytettävissä olevat saldosi. Täällä näet tyypillisesti On-Chain-saldon (Bitcoin On-Chain solmun Wallet:ssä, jota symboloi Anchor ⚓) ja Salama-saldon (kanaviesi kapasiteetit, jota symboloi salama Bolt ⚡). Näin saat välittömän käsityksen varoistasi, joita sinulla on On-Chain:ssä ja Salamassa. Jos sinulla on useita tilejä tai kanavia, varmista, että olet oikeassa kanavassa (esim. Mainnet vs. Testnet).
+- **Saldot ja kapasiteetti:** Sivun yläosassa ThunderHub näyttää käytettävissä olevat saldosi. Täällä näet tyypillisesti On-Chain-saldon (Bitcoin On-Chain solmun Wallet:ssä, jota symboloi Anchor ⚓) ja Salama-saldon (kanaviesi kapasiteetit, jota symboloi salama Bolt ⚡). Näin saat välittömän käsityksen varoistasi, joita sinulla on On-Chain:ssä ja Salamassa. Jos sinulla on useita tilejä tai kanavia, varmista, että olet oikeassa kanavassa (esim. Mainnet vs. Testnet).
 
 
 
 
 
-- Keskeiset tilastot:** Kojelauta voi näyttää joitakin solmun yleisiä mittareita - esimerkiksi avoimien kanavien määrän, yhdistettyjen vertaisverkon käyttäjien määrän, ansaitut reititysmaksut (jos mahdollista) jne. Se on yhteenveto solmun viimeaikaisesta toiminnasta ja kunnosta.
+- **Keskeiset tilastot:** Kojelauta voi näyttää joitakin solmun yleisiä mittareita - esimerkiksi avoimien kanavien määrän, yhdistettyjen vertaisverkon käyttäjien määrän, ansaitut reititysmaksut (jos mahdollista) jne. Se on yhteenveto solmun viimeaikaisesta toiminnasta ja kunnosta.
 
 
 
 
 
-- Pikatoiminnot:** Kojelaudassa on painikkeita, joiden avulla voit suorittaa yleisimmät tehtävät nopeasti ilman, että sinun tarvitsee selata valikoita. Näitä pikatoimintoja ovat mm:
+- **Pikatoiminnot:** Kojelaudassa on painikkeita, joiden avulla voit suorittaa yleisimmät tehtävät nopeasti ilman, että sinun tarvitsee selata valikoita. Näitä pikatoimintoja ovat mm:
 
 
 
 
 
-  - Aave**: Aseta mukautettu Lightning Address Ambossin kautta.
-  - Lahjoittaa**: Tee lahjoitus Lightningin kautta.
-  - Kirjaudu sisään / mene osoitteeseen**: Yhdistä Amboss-tiliisi (Quick Connect) ja siirry suoraan Amboss.space-sivustolle katsomaan solmusi tietoja.
-  - Address** : Kirjoita Lightning Address maksun suorittamista varten.
-  - Avaa**: Avaa uusi Lightning-kanava. Napsauttamalla avautuu lomake, johon syötetään sen etäsolmun URI, johon kanava avataan, sekä käytettävä summa ja tarvittaessa On-Chain:n enimmäismaksu.
-  - Dekoodaa**: Salama Invoice tai LNURL:n dekoodaaminen nähdäksesi yksityiskohdat ennen maksua.
-  - LNURL**: Käsittele LNURL:t Lightning-maksuja tai -nostoja varten.
-  - LnMarkets Login**: Kirjaudu sisään LnMarketsiin kaupankäyntiä varten.
+- **Aave**: Aseta mukautettu Lightning Address Ambossin kautta.
+- **Lahjoittaa**: Tee lahjoitus Lightningin kautta.
+- Kirjaudu sisään / mene osoitteeseen: Yhdistä Amboss-tiliisi (Quick Connect) ja siirry suoraan **Amboss.space**-sivustolle katsomaan solmusi tietoja.
+- **Address**: Kirjoita Lightning Address maksun suorittamista varten.
+- **Avaa**: Avaa uusi Lightning-kanava. Napsauttamalla avautuu lomake, johon syötetään sen etäsolmun URI, johon kanava avataan, sekä käytettävä summa ja tarvittaessa On-Chain:n enimmäismaksu.
+- **Dekoodaa**: Salama Invoice tai LNURL:n dekoodaaminen nähdäksesi yksityiskohdat ennen maksua.
+- **LNURL**: Käsittele LNURL:t Lightning-maksuja tai -nostoja varten.
+- **LnMarkets Login**: Kirjaudu sisään LnMarketsiin kaupankäyntiä varten.
 
 
 
@@ -407,7 +407,7 @@ Lyhyesti sanottuna ThunderHubin kojelauta antaa sinulle **nopean katsauksen** so
 
 
 
-- Mukautettavat widgetit:** Toisin kuin etusivulla, jolla on kiinteä ulkoasu, Dashboardissa voit valita tarkalleen, mitkä Elements näytetään ja miten ne järjestetään.
+- **Mukautettavat widgetit:** Toisin kuin etusivulla, jolla on kiinteä ulkoasu, Dashboardissa voit valita tarkalleen, mitkä Elements näytetään ja miten ne järjestetään.
 
 
 
@@ -445,19 +445,19 @@ Kun kojelauta on määritetty, se voi näyttää erilaisia kaavioita ja mittarei
 
 
 
-- Tarkemmat mittarit:** Pääset käyttämään yksityiskohtaisempia tilastoja solmun suorituskyvystä graafien ja reaaliaikaisten tietojen avulla.
+- **Tarkemmat mittarit:** Pääset käyttämään yksityiskohtaisempia tilastoja solmun suorituskyvystä graafien ja reaaliaikaisten tietojen avulla.
 
 
 
 
 
-- Muokattava yleiskuva:** Räätälöi näyttö sopivaksi, olitpa satunnainen käyttäjä tai useita reitityskanavia hallinnoiva ammattilainen.
+- **Muokattava yleiskuva:** Räätälöi näyttö sopivaksi, olitpa satunnainen käyttäjä tai useita reitityskanavia hallinnoiva ammattilainen.
 
 
 
 
 
-- Modulaarinen Interface:** Lisää tai poista widgetejä tarpeen mukaan: etenemiskaaviot, likviditeettimittarit, solmujen terveyshälytykset jne.
+- **Modulaarinen Interface:** Lisää tai poista widgetejä tarpeen mukaan: etenemiskaaviot, likviditeettimittarit, solmujen terveyshälytykset jne.
 
 
 
@@ -483,8 +483,8 @@ Vertaiset-välilehdellä näet :
 
 
 
-- Tietosarakkeet:** Interface näyttää hyödyllisiä tietoja, kuten synkronointitilan, yhteyden tyypin (clearnet tai Tor), pingin, vastaanotetut/lähetetyt satoshit ja vaihdettujen tietojen määrän.
-- Vertaisverkon lisääminen:** ThunderHubin avulla voit muodostaa manuaalisesti yhteyden uuteen vertaisverkkoon oikeassa yläkulmassa olevan **"Lisää "**-painikkeen avulla. Sinun täytyy syöttää solmun URI (muodossa `<julkinen_avain>@<socket>`). Kun se on vahvistettu, ThunderHub lähettää vastaavan `lncli connect`-komennon. Jos solmu on verkossa ja tavoitettavissa, se lisätään vertaisvertaisverkostojen luetteloon.
+- **Tietosarakkeet:** Interface näyttää hyödyllisiä tietoja, kuten synkronointitilan, yhteyden tyypin (clearnet tai Tor), pingin, vastaanotetut/lähetetyt satoshit ja vaihdettujen tietojen määrän.
+- **Vertaisverkon lisääminen:** ThunderHubin avulla voit muodostaa manuaalisesti yhteyden uuteen vertaisverkkoon oikeassa yläkulmassa olevan **"Lisää"**-painikkeen avulla. Sinun täytyy syöttää solmun URI (muodossa `<julkinen_avain>@<socket>`). Kun se on vahvistettu, ThunderHub lähettää vastaavan `lncli connect`-komennon. Jos solmu on verkossa ja tavoitettavissa, se lisätään vertaisvertaisverkostojen luetteloon.
 
 
 
@@ -506,31 +506,31 @@ Kanavat-sivulla on seuraavat tiedot:
 
 
 
-- Kanavaluettelonäkymä:** Kukin avoin (tai avautuva/sulkeutuva) kanava on lueteltu, ja siinä on yleensä etäsolmun alias, kanavan kokonaiskapasiteetti ja värillinen palkki, joka havainnollistaa paikallisen ja etäluettavan likviditeetin jakautumista. ThunderHub käyttää värikoodia (usein sininen/Green) tai prosenttilukua kanavan tasapainon osoittamiseen: esimerkiksi sininen tarkoittaa paikallista osuutta, Green etäosuutta. Jos kanava on täysin tasapainossa (50/50), palkki on puolet kummastakin väristä. Näin voit tunnistaa yhdellä silmäyksellä, mitkä kanavat ovat epätasapainossa (kaikki sininen = lähes kaikki paikalliset, kaikki Green = lähes kaikki kauko-osuudet).
+- **Kanavaluettelonäkymä:** Kukin avoin (tai avautuva/sulkeutuva) kanava on lueteltu, ja siinä on yleensä etäsolmun alias, kanavan kokonaiskapasiteetti ja värillinen palkki, joka havainnollistaa paikallisen ja etäluettavan likviditeetin jakautumista. ThunderHub käyttää värikoodia (usein sininen/Green) tai prosenttilukua kanavan tasapainon osoittamiseen: esimerkiksi sininen tarkoittaa paikallista osuutta, Green etäosuutta. Jos kanava on täysin tasapainossa (50/50), palkki on puolet kummastakin väristä. Näin voit tunnistaa yhdellä silmäyksellä, mitkä kanavat ovat epätasapainossa (kaikki sininen = lähes kaikki paikalliset, kaikki Green = lähes kaikki kauko-osuudet).
 
 
 
 
 
-- Tietosarakkeet:** Interface näyttää yksityiskohtaiset sarakkeet, mukaan lukien tila, käytettävissä olevat toimet, vertaistiedot, kanavatunnus, kapasiteetti, toiminta, maksut ja saldo graafisella likviditeettinäytöllä.
+- **Tietosarakkeet:** Interface näyttää yksityiskohtaiset sarakkeet, mukaan lukien tila, käytettävissä olevat toimet, vertaistiedot, kanavatunnus, kapasiteetti, toiminta, maksut ja saldo graafisella likviditeettinäytöllä.
 
 
 
 
 
-- Näytön konfigurointi:** Oikeassa yläkulmassa olevan hammaspyörän avulla voit mukauttaa kanavanäytön mieltymyksiisi sopivaksi.
+- **Näytön konfigurointi:** Oikeassa yläkulmassa olevan hammaspyörän avulla voit mukauttaa kanavanäytön mieltymyksiisi sopivaksi.
 
 
 
 
 
-- Tila:** Näet myös tilamerkinnät - esim. "Aktiivinen" (kanava on avoinna ja toiminnassa), "Pois päältä" (vertaisverkon yhteys on katkaistu, joten kanava on hetkellisesti käyttökelvoton), "Vireillä" (avaukset tai sulkemiset odottavat On-Chain:n vahvistusta).
+- **Tila:** Näet myös tilamerkinnät - esim. "Aktiivinen" (kanava on avoinna ja toiminnassa), "Pois päältä" (vertaisverkon yhteys on katkaistu, joten kanava on hetkellisesti käyttökelvoton), "Vireillä" (avaukset tai sulkemiset odottavat On-Chain:n vahvistusta).
 
 
 
 
 
-- Toiminnot kanavalla:** ThunderHub tarjoaa kullekin kanavalle toimintopainikkeet (usein kuvakkeiden muodossa):
+- **Toiminnot kanavalla:** ThunderHub tarjoaa kullekin kanavalle toimintopainikkeet (usein kuvakkeiden muodossa):
 
 
 
@@ -540,9 +540,9 @@ Kanavat-sivulla on seuraavat tiedot:
 
 
 
-  - Muokkaa maksuja:** Interface:n "Päivitä kanavakäytäntö" -valinnalla voit säätää kaikkia kanavaparametreja: Maksuasetukset: Perusmaksu, maksuprosentti (ppm:nä), CLTV-delta, Max HTLC ja Min HTLC. Näin voit säätää maksukäytäntöjä erikseen kanavakohtaisesti tavoitteena houkutella (tai estää) reititysliikennettä. *(Huomautus: ThunderHub ei korvaa automaattista maksujenhallintatyökalua, mutta manuaaliseen säätöön se on erittäin tehokas)*
-  - Sulje kanava (*Sulje*)**: Interface:n "Suljinkanava" antaa sinulle mahdollisuuden valita joko **yhteistyösuljin** (oletus) tai **pakotettu sulku** (*Pakkosuljin*) määrittelemällä maksut (Sats/vByte). **Tärkeää:** suosi aina yhteistyöhön perustuvaa sulkemista, kun se on mahdollista, jotta vältät On-Chain-tilityksen viivästykset ja korkeammat maksut. ThunderHub kertoo, onko vertaisosaaminen online (yhteistyö mahdollista) vai ei. Jos kyseessä on force close, varmista, että vahvistat sen, sillä se on peruuttamaton ja käynnistää pyyhkäisevän transaktion aikalukolla (yleensä 144 lohkoa tai ~1 päivä Bitcoin Mainnet:ssä).
-  - Uuden kanavan avaaminen:** Voit avata uuden kanavan napsauttamalla Kanavat-sivun oikeassa yläkulmassa olevaa hammaspyörää ja valitsemalla sitten "Avaa". Tämän jälkeen voit aloittaa kanavan uudelle tai olemassa olevalle vertaiskumppanille. Tämän sivun käytön etuna on, että sinulla on edessäsi luettelo olemassa olevista kanavistasi, mikä voi auttaa sinua päättämään, mihin haluat avata uuden kanavan.
+- Muokkaa maksuja: **Interface:n "Päivitä kanavakäytäntö" -valinnalla voit säätää kaikkia kanavaparametreja: Maksuasetukset: Perusmaksu, maksuprosentti (ppm:nä), CLTV-delta, Max HTLC ja Min HTLC. Näin voit säätää maksukäytäntöjä erikseen kanavakohtaisesti tavoitteena houkutella (tai estää) reititysliikennettä.** *(Huomautus: ThunderHub ei korvaa automaattista maksujenhallintatyökalua, mutta manuaaliseen säätöön se on erittäin tehokas)*
+- Sulje kanava (**Sulje**): Interface:n "Suljinkanava" antaa sinulle mahdollisuuden valita joko **yhteistyösuljin** (oletus) tai **pakotettu sulku** (**Pakkosuljin**) määrittelemällä maksut (Sats/vByte). **Tärkeää:** suosi aina yhteistyöhön perustuvaa sulkemista, kun se on mahdollista, jotta vältät On-Chain-tilityksen viivästykset ja korkeammat maksut. ThunderHub kertoo, onko vertaisosaaminen online (yhteistyö mahdollista) vai ei. Jos kyseessä on force close, varmista, että vahvistat sen, sillä se on peruuttamaton ja käynnistää pyyhkäisevän transaktion aikalukolla (yleensä 144 lohkoa tai ~1 päivä Bitcoin Mainnet:ssä).
+- **Uuden kanavan avaaminen:** Voit avata uuden kanavan napsauttamalla Kanavat-sivun oikeassa yläkulmassa olevaa hammaspyörää ja valitsemalla sitten "Avaa". Tämän jälkeen voit aloittaa kanavan uudelle tai olemassa olevalle vertaiskumppanille. Tämän sivun käytön etuna on, että sinulla on edessäsi luettelo olemassa olevista kanavistasi, mikä voi auttaa sinua päättämään, mihin haluat avata uuden kanavan.
 
 
 
@@ -568,41 +568,41 @@ ThunderHub helpottaa huomattavasti tätä toimintoa, joka muuten olisi työläst
 
 
 
-- Alkuperäinen kanavanäkymä:** Kun ThunderHub siirtyy uudelleentasapainotukseen, se näyttää luettelon kanavistasi ja kunkin kanavan saldomittarin (samanlaisen kuin Kanavat-sivulla). Näet heti, mitkä kanavat ovat epätasapainossa. ThunderHub voi lajitella kanavat tasapainon lisääntymisjärjestykseen niin, että kaikkein epätasapainoisimmat kanavat erottuvat luettelon kärjessä (0.0 tarkoittaa täysin paikallisia tai kauko-ohjattavia kanavia).
+- **Alkuperäinen kanavanäkymä:** Kun ThunderHub siirtyy uudelleentasapainotukseen, se näyttää luettelon kanavistasi ja kunkin kanavan saldomittarin (samanlaisen kuin Kanavat-sivulla). Näet heti, mitkä kanavat ovat epätasapainossa. ThunderHub voi lajitella kanavat tasapainon lisääntymisjärjestykseen niin, että kaikkein epätasapainoisimmat kanavat erottuvat luettelon kärjessä (0.0 tarkoittaa täysin paikallisia tai kauko-ohjattavia kanavia).
 
 
 
 
 
-- Vertaisverkon valinta:** Interface:n avulla on helppo valita lähtevät ja saapuvat vertaisverkot uudelleentasapainotusta varten.
+- **Vertaisverkon valinta:** Interface:n avulla on helppo valita lähtevät ja saapuvat vertaisverkot uudelleentasapainotusta varten.
 
 
 
 
 
-- Parametriasetukset:** Voit asettaa :
+- **Parametriasetukset:** Voit asettaa :
   - **maksimi** (Sats ja ppm), jonka olet valmis maksamaan
   - **Tasapainotettava määrä** "Kiinteä" tai "Tavoite"-vaihtoehdolla
-  - Reitityksessä vältettävät solmut**
-  - Reitinhakuun käytettävä enimmäiskokeiluaika**
+- **Reitityksessä vältettävät solmut**
+- **Reitinhakuun käytettävä enimmäiskokeiluaika**
 
 
 
 
 
-- Valitse **lähde**** kanava: Valitse ensin **lähtevä (lähde)** kanava, eli kanava, josta sinulla on liikaa paikallista likviditeettiä siirrettäväksi. Käytännössä tämä on kanava, jossa paikallinen osuutesi on suuri (> 50 %). Kuvitellaan A-kanava, jossa on 1 000 000 Satssia, joista 900 000 on paikallisia - hyvä ehdokas Satssin lähettämiseen muualle. Klikkaamalla tätä A-kanavaa "lähteväksi" ThunderHub merkitsee sen lähteeksi.
+- Valitse **lähde kanava**: Valitse ensin **lähtevä (lähde)** kanava, eli kanava, josta sinulla on liikaa paikallista likviditeettiä siirrettäväksi. Käytännössä tämä on kanava, jossa paikallinen osuutesi on suuri (> 50 %). Kuvitellaan A-kanava, jossa on 1 000 000 Satssia, joista 900 000 on paikallisia - hyvä ehdokas Satssin lähettämiseen muualle. Klikkaamalla tätä A-kanavaa "lähteväksi" ThunderHub merkitsee sen lähteeksi.
 
 
 
 
 
-- Valitse **kohdekanava****: Valitse seuraavaksi **tuleva (kohde)** kanava, jonka on saatava likviditeettiä. Tyypillisesti tämä on kanava, jossa tilanne on päinvastainen - suurin osa rahastoista on kaukana (esim. vain 100 000 paikallista Satss 1 000 000:sta). Kun lähdekanava on valittu, ThunderHub lajittelee muut kanavat käänteisessä järjestyksessä (vähenevä saldo) auttaakseen tunnistamaan parhaiten täydentävät kanavat. Valitse B-kanava, jolla on tilaa paikallisella puolella. ThunderHub näyttää tällöin selvästi, mitkä kaksi kanavaa on valittu (lähde A ja kohde B).
+- Valitse **kohdekanava**: Valitse seuraavaksi **tuleva (kohde)** kanava, jonka on saatava likviditeettiä. Tyypillisesti tämä on kanava, jossa tilanne on päinvastainen - suurin osa rahastoista on kaukana (esim. vain 100 000 paikallista Satss 1 000 000:sta). Kun lähdekanava on valittu, ThunderHub lajittelee muut kanavat käänteisessä järjestyksessä (vähenevä saldo) auttaakseen tunnistamaan parhaiten täydentävät kanavat. Valitse B-kanava, jolla on tilaa paikallisella puolella. ThunderHub näyttää tällöin selvästi, mitkä kaksi kanavaa on valittu (lähde A ja kohde B).
 
 
 
 
 
-- Aseta maksun määrä ja toleranssi:** Lomakkeella voit syöttää :
+- **Aseta maksun määrä ja toleranssi:** Lomakkeella voit syöttää :
 
 
 
@@ -615,19 +615,19 @@ ThunderHub helpottaa huomattavasti tätä toimintoa, joka muuten olisi työläst
 
 
 
-- Etsi reitti:** Etsi reitti napsauttamalla painiketta. ThunderHub kysyy LND:lta laskeakseen reitin lähdekanavalta verkon kautta omaan kohdekanavaan. Jos se löytää mahdollisen reitin, joka täyttää maksukriteerisi, se näyttää sen ja ilmoittaa yksityiskohtaiset tiedot siirtymisistä ja maksukustannuksista. Se voi esimerkiksi ilmoittaa, että se on löytänyt kolmen hypyn reitin, jossa on yhteensä 2 Sats:n maksua.
+- Etsi reitti: Etsi reitti napsauttamalla painiketta. ThunderHub kysyy LND:lta laskeakseen reitin lähdekanavalta verkon kautta omaan kohdekanavaan. Jos se löytää mahdollisen reitin, joka täyttää maksukriteerisi, se näyttää sen ja ilmoittaa yksityiskohtaiset tiedot siirtymisistä ja maksukustannuksista. Se voi esimerkiksi ilmoittaa, että se on löytänyt kolmen hypyn reitin, jossa on yhteensä 2 Sats:n maksua.
 
 
 
 
 
-- Aloita tasapainotus:** Jos olet tyytyväinen ehdotettuun reittiin, napsauta **Tasapainotuskanava**. ThunderHub käynnistää sitten kiertomaksun LND:n kautta. Jos maksu onnistuu, näet ilmoituksen onnistumisesta, ja kanavien A ja B saldot muuttuvat reaaliaikaisesti. ThunderHub päivittää näiden kanavien saldoindikaattorin (mieluiten se on vihreämpi kuin ennen, mikä osoittaa parempaa saldoa).
+- Aloita tasapainotus: Jos olet tyytyväinen ehdotettuun reittiin, napsauta **Tasapainotuskanava**. ThunderHub käynnistää sitten kiertomaksun LND:n kautta. Jos maksu onnistuu, näet ilmoituksen onnistumisesta, ja kanavien A ja B saldot muuttuvat reaaliaikaisesti. ThunderHub päivittää näiden kanavien saldoindikaattorin (mieluiten se on vihreämpi kuin ennen, mikä osoittaa parempaa saldoa).
 
 
 
 
 
-- Säädöt ja iteraatiot:** Jos reittiä ei löydy ensimmäisellä yrittämällä (tai jos se on liian kallis), voit säätää parametreja :
+- **Säädöt ja iteraatiot:** Jos reittiä ei löydy ensimmäisellä yrittämällä (tai jos se on liian kallis), voit säätää parametreja:
 
 
 
@@ -666,7 +666,7 @@ Tästä välilehdestä löydät :
 
 
 
-- Invoice-kuvaaja:** Oikeassa yläkulmassa oleva kuvaaja näyttää vastaanotettujen laskujen kehityksen ajan myötä, jolloin voit havainnollistaa solmun toimintaa.
+- **Invoice-kuvaaja:** Oikeassa yläkulmassa oleva kuvaaja näyttää vastaanotettujen laskujen kehityksen ajan myötä, jolloin voit havainnollistaa solmun toimintaa.
 
 
 
@@ -682,7 +682,7 @@ Tästä välilehdestä löydät :
   - Sats:n määrä.
   - Päivämäärä/aika.
   - Maksun tunniste (Hash tai RHash-esikuva) tai kommentti (jos lisäsit muistion Invoice:ään).
-  - Tilanne: **(esim. maksu odottaa ratkaisua, mutta yleensä LND käsittelee tämän nopeasti, joten "vireillä" on vain vähän On-Chain:n tapahtumiin verrattuna).
+- Tilanne: **(esim. maksu odottaa ratkaisua, mutta yleensä LND käsittelee tämän nopeasti, joten "vireillä" on vain vähän On-Chain:n tapahtumiin verrattuna).**
 
 
 
@@ -708,13 +708,13 @@ Eteenpäin, ThunderHub esittelee :
 
 
 
-- Suodattimet ja näyttövaihtoehdot:** Oikealla ylhäällä olevilla suodattimilla voit lajitella tiedot päivän/viikon/kuukauden/vuoden mukaan ja valita graafisen tai taulukkomuodon.
+- **Suodattimet ja näyttövaihtoehdot:** Oikealla ylhäällä olevilla suodattimilla voit lajitella tiedot päivän/viikon/kuukauden/vuoden mukaan ja valita graafisen tai taulukkomuodon.
 
 
 
 
 
-- Toimintaviesti:** Jos reititystä ei ole suoritettu valitun ajanjakson aikana, Interface näyttää "Ei eteenpäinlähetyksiä tälle ajanjaksolle", kuten tässä esimerkissä näkyy.
+- **Toimintaviesti:** Jos reititystä ei ole suoritettu valitun ajanjakson aikana, Interface näyttää "Ei eteenpäinlähetyksiä tälle ajanjaksolle", kuten tässä esimerkissä näkyy.
 
 
 
@@ -736,7 +736,7 @@ Eteenpäin, ThunderHub esittelee :
 
 
 
-- Yhteenlasketut tilastot**: ThunderHub laskee ja näyttää sivun yläreunassa tietyn ajanjakson (esim. viimeiset 24 tuntia tai 7 päivää jne., joskus määritettävissä) yhteenlasketut summat ja tilastot.
+- **Yhteenlasketut tilastot**: ThunderHub laskee ja näyttää sivun yläreunassa tietyn ajanjakson (esim. viimeiset 24 tuntia tai 7 päivää jne., joskus määritettävissä) yhteenlasketut summat ja tilastot.
 
 
 
@@ -762,19 +762,19 @@ Ketjusta löydät :
 
 
 
-- Saldo On-Chain :** Näyttää Wallet LND:ssä käytettävissä olevan BTC:n kokonaissaldon.
+- Saldo On-Chain: **Näyttää Wallet LND:ssä käytettävissä olevan BTC:n kokonaissaldon.**
 
 
 
 
 
-- Luettelo UTXO:** Näytä kaikki käyttämättömät tuotot (UTXO) sekä kunkin tuoton määrä, vahvistukset, Address ja muoto.
+- **Luettelo UTXO:** Näytä kaikki käyttämättömät tuotot (UTXO) sekä kunkin tuoton määrä, vahvistukset, Address ja muoto.
 
 
 
 
 
-- Tapahtumahistoria:** Yksityiskohtainen taulukko kaikista Bitcoin-tapahtumista, jossa on tyyppi (sisään/ulos), päivämäärä, summa, maksut, vahvistukset, sisällyttämislohko, osoitteet ja txid.
+- **Tapahtumahistoria:** Yksityiskohtainen taulukko kaikista Bitcoin-tapahtumista, jossa on tyyppi (sisään/ulos), päivämäärä, summa, maksut, vahvistukset, sisällyttämislohko, osoitteet ja txid.
 
 
 
@@ -796,7 +796,7 @@ ThunderHubin Amboss-osiossa voit **linkittää** solmun Amboss-tilillesi:
 
 
 
-- Ghost Address:** Aseta solmullesi **yksilöllinen Lightning Address**, joka helpottaa saapuvia maksuja.
+- **Ghost Address:** Aseta solmullesi **yksilöllinen Lightning Address**, joka helpottaa saapuvia maksuja.
 
 
 
@@ -808,13 +808,13 @@ ThunderHubin Amboss-osiossa voit **linkittää** solmun Amboss-tilillesi:
 
 
 
-- Terveystarkistukset:** Aktivoi **Amboss Healthcheck = Kyllä**, jotta solmusi lähettää säännöllisesti pingejä Ambossille. Saat hälytyksiä, jos solmusi näyttää olevan offline-tilassa.
+- **Terveystarkistukset:** Aktivoi **Amboss Healthcheck = Kyllä**, jotta solmusi lähettää säännöllisesti pingejä Ambossille. Saat hälytyksiä, jos solmusi näyttää olevan offline-tilassa.
 
 
 
 
 
-- Muita ominaisuuksia:** Automaattinen saldon siirto, **Magma/Hydro**-integraatio (likviditeettimarkkinapaikka) ja pääsy yksityiskohtaisiin suorituskykytilastoihin.
+- Muita ominaisuuksia: Automaattinen saldon siirto, **Magma/Hydro**-integraatio (likviditeettimarkkinapaikka) ja pääsy yksityiskohtaisiin suorituskykytilastoihin.
 
 
 
@@ -836,16 +836,16 @@ Amboss-integraatio lisää olennaisen tärkeän **turvallisuuden Layer** automaa
 
 
 
-- Varmuuskopiot:** Hallitse manuaalisesti kanavan varmuuskopioita (SCB). ThunderHubin avulla voit **ladata kanaviesi täydellisen varmuuskopiotiedoston** (vaihtoehto "Varmuuskopioi kaikki kanavat -> Lataa"). Säilytä tämä `channel-all.bak`-tiedosto turvallisessa paikassa - se on välttämätön, jotta voit palauttaa varasi kaatumisen sattuessa. Voit myös **tuoda** varmuuskopiotiedoston, kun otat solmun uudelleen käyttöön.
+- **Varmuuskopiot:** Hallitse manuaalisesti kanavan varmuuskopioita (SCB). ThunderHubin avulla voit **ladata kanaviesi täydellisen varmuuskopiotiedoston** (vaihtoehto "Varmuuskopioi kaikki kanavat -> Lataa"). Säilytä tämä `channel-all.bak`-tiedosto turvallisessa paikassa - se on välttämätön, jotta voit palauttaa varasi kaatumisen sattuessa. Voit myös **tuoda** varmuuskopiotiedoston, kun otat solmun uudelleen käyttöön.
 
 
 
 
 
-- Kirjanpito:** Vientityökalu talousraportteja varten, mukaan lukien ansaitut/maksetut palkkiot ja tietyn ajanjakson aikana reititetyt määrät.
-- Allekirjoitetut viestit:** ** Allekirjoita tai vahvista viestit** solmun kanssa todistaaksesi Lightning-solmun Ownership kryptografisen allekirjoituksen avulla.
+- **Kirjanpito:** Vientityökalu talousraportteja varten, mukaan lukien ansaitut/maksetut palkkiot ja tietyn ajanjakson aikana reititetyt määrät.
+- **Allekirjoitetut viestit:** Allekirjoita tai vahvista viestit solmun kanssa todistaaksesi Lightning-solmun omistajuus kryptografisen allekirjoituksen avulla.
 - Makaroonit (leipomo-osasto):** Hallitse LND** makarooneja räätälöidyn pääsyn luomiseksi. Interface "Leipomo" -osiossa voit valita tarkasti jokaisen käyttöoikeuden: "Lisää tai poista vertaisia", "Luo ketjuosoitteita", "Luo laskuja", "Luo makaroneja", "Johdanna avaimia", "Hae käyttöoikeusavaimia", "Hae ketjutapahtumia", "Hae laskuja", "Hae Wallet tietoja", "Get Payments", "Get Peers", "Pay Invoices", "Revoke Access Ids", "Send to Chain Addresses", "Sign bytes", "Sign Messages", "Stop daemon", "Verify bytes signature", "Verify messages", ja niin edelleen. Jokainen lupa voidaan aktivoida erikseen "Kyllä/Ei"-painikkeilla, jolloin voidaan luoda räätälöity makaroni.
-- Järjestelmätiedot:** Wallet-version ja aktivoitujen RPC:iden näyttö.
+- **Järjestelmätiedot:** Wallet-version ja aktivoitujen RPC:iden näyttö.
 
 
 
@@ -871,9 +871,9 @@ Prosessi on yksinkertainen:
 
 
 
-- Määrä**: Määritä vaihdettava määrä
-- Address** : Syötä Bitcoin vastaanotto Address
-- Toteutus**: ThunderHub kommunikoi Boltzin kanssa käsitelläkseen Exchange:n automaattisesti
+- **Määrä**: Määritä vaihdettava määrä
+- **Address**: Syötä Bitcoin vastaanotto Address
+- **Toteutus**: ThunderHub kommunikoi Boltzin kanssa käsitelläkseen Exchange:n automaattisesti
 
 
 
@@ -940,6 +940,6 @@ ThunderHub demokratisoi kehittyneen Lightning-solmujen hallinnan ja mahdollistaa
 
 
 
-- Virallinen verkkosivusto:** [thunderhub.io](https://thunderhub.io)
-- Dokumentaatio:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- GitHub-lähdekoodi:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Virallinen verkkosivusto:** [thunderhub.io](https://thunderhub.io)
+- **Dokumentaatio:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **GitHub-lähdekoodi:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

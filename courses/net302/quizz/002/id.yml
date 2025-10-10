@@ -1,0 +1,9 @@
+question: Apa kelemahan utama dari jaringan cincin?
+answer: Kegagalan satu perangkat dapat mengganggu seluruh jaringan
+wrong_answers:
+  - Dibutuhkan banyak kabel untuk menghubungkan setiap peralatan
+  - Sulit untuk diperpanjang
+  - Pengelolaannya rumit
+explanation: |
+  Dalam topologi ring, kegagalan satu perangkat akan memutus loop dan mencegah data beredar.
+reviewed: false

@@ -25,7 +25,7 @@ Fedi Wallet is a Bitcoin wallet that comes with a new approach to saving your ke
 
 
 
-- Custodials**: You decide to place your trust in an external entity, the wallet developer, who will keep the recovery words for your wallet for you. You have neither access nor the ability to export your Bitcoin wallet.
+- **Custodials**: You decide to place your trust in an external entity, the wallet developer, who will keep the recovery words for your wallet for you. You have neither access nor the ability to export your Bitcoin wallet.
 
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
@@ -33,7 +33,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
-- Self-custodials** : The application gives you access to recovery words as soon as you create your wallet. So you can freely export your bitcoins to the wallet that suits you best.
+- **Self-custodial**: The application gives you access to recovery words as soon as you create your wallet. So you can freely export your bitcoins to the wallet that suits you best.
 
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
@@ -79,14 +79,14 @@ In the **Federations** menu, scroll down to a federation, then click on **Federa
 
 
 
-- Receive bitcoins on Fedi**: On the home page, select the federation you wish to use to receive bitcoins, then click on the **Receive** button to create a Lightning invoice with an amount to receive.
+- Receive bitcoins on **Fedi**: On the home page, select the federation you wish to use to receive bitcoins, then click on the **Receive** button to create a Lightning invoice with an amount to receive.
 
 
 ![receive](assets/fr/05.webp)
 
 
 
-- Send bitcoins**: On the home page, click on the **Send** button to send bitcoins to a Lightning address, to pay an invoice or make an offline payment.
+- **Send bitcoins**: On the home page, click on the **Send** button to send bitcoins to a Lightning address, to pay an invoice or make an offline payment.
 
 
 One of the special features of the Fedi wallet is that it can be sent offline. You no longer need Wi-Fi or a good internet connection, you can spend bitcoins anytime, anywhere.
@@ -175,4 +175,3 @@ You've just taken the Fedi Wallet tour, you're now in a position to harness the 
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

@@ -126,7 +126,7 @@ Tapahtumasi on nyt vahvistettu.
 
 ### DCA:n perustaminen
 
-Dollarikustannusten keskiarvoistaminen* (DCA) on houkutteleva sijoitusstrategia bitcoinin keräämiseen ja samalla sen volatiliteettiin liittyvien riskien vähentämiseen. Ostamalla säännöllisesti kiinteän määrän hinnasta riippumatta voit tasoittaa hankintakustannuksia ja välttää impulsiivista päätöksentekoa. DCA auttaa vähentämään käyttäytymiseen liittyviä ennakkoluuloja, kuten pelkoa tilaisuuden menettämisestä tai paniikkia hinnan laskiessa, ja mahdollistaa näin ollen bitcoin-säästöjesi hallinnan seesteisellä ja kurinalaisella tavalla.
+Dollarikustannusten keskiarvoistaminen (DCA) on houkutteleva sijoitusstrategia bitcoinin keräämiseen ja samalla sen volatiliteettiin liittyvien riskien vähentämiseen. Ostamalla säännöllisesti kiinteän määrän hinnasta riippumatta voit tasoittaa hankintakustannuksia ja välttää impulsiivista päätöksentekoa. DCA auttaa vähentämään käyttäytymiseen liittyviä ennakkoluuloja, kuten pelkoa tilaisuuden menettämisestä tai paniikkia hinnan laskiessa, ja mahdollistaa näin ollen bitcoin-säästöjesi hallinnan seesteisellä ja kurinalaisella tavalla.
 
 Jos haluat määrittää toistuvan oston (DCA) Bitstackissa, siirry etusivun "*Säästöt*"-osioon ja valitse "*Kertaostot*". Paina sitten "*Jatka*".
 

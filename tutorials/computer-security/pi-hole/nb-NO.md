@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian Duchemin publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian Duchemin publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -54,7 +54,7 @@ Så hver gang du skriver inn navnet på et nettsted i nettleseren eller klikker 
 
 
 
-**Pi-Hole vil deretter inspisere disse forespørslene (det er hundrevis av dem hver dag!) og automatisk blokkere de som er kjent for å være vert for reklame eller til og med ondsinnede filer
+**Pi-Hole vil deretter inspisere disse forespørslene (det er hundrevis av dem hver dag!) og automatisk blokkere de som er kjent for å være vert for reklame eller til og med ondsinnede filer**
 
 
 
@@ -62,7 +62,7 @@ Så hver gang du skriver inn navnet på et nettsted i nettleseren eller klikker 
 
 
 
-Med et navn som Pi-Hole kan du med rette anta at du trenger en Raspberry-Pi... Men det er ikke helt sant. **Pi-Hole kan installeres på en hvilken som helst Linux-maskin (Debian, Fedora, Rocky, Ubuntu osv.)
+Med et navn som Pi-Hole kan du med rette anta at du trenger en Raspberry-Pi... Men det er ikke helt sant. **Pi-Hole kan installeres på en hvilken som helst Linux-maskin (Debian, Fedora, Rocky, Ubuntu osv.)**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Merk: På minimale versjoner av Debian 11 er Curl ikke installert, så du må installere det manuelt med kommandoen **apt-get install curl** før du skriver inn kommandoen ovenfor.
+> **Merk: På minimale versjoner av Debian 11 er Curl ikke installert, så du må installere det manuelt med kommandoen** `apt-get install curl` **før du skriver inn kommandoen ovenfor.**
 
 Når skriptet er kjørt, utføres en rekke tester, og selve installasjonen går av seg selv:
 
@@ -124,7 +124,7 @@ Valg av DNS - Pi-Hole
 
 
 
-> **Merk: Hvis du jobber i en bedrift, er det stor sannsynlighet for at din nåværende DNS-server er Active Directory-domenekontrolleren. Men ikke vær redd, du kan senere angi en betinget omdirigering for et domene etter eget valg. Vanligvis vil du kunne omdirigere alle forespørsler som gjelder ditt lokale domene, til DNS-serveren din.
+> **Merk:** Hvis du jobber i en bedrift, er det stor sannsynlighet for at din nåværende DNS-server er Active Directory-domenekontrolleren. Men ikke vær redd, du kan senere angi en betinget omdirigering for et domene etter eget valg. Vanligvis vil du kunne omdirigere alle forespørsler som gjelder ditt lokale domene, til DNS-serveren din.
 
 Du vil legge merke til at noen valg inkluderer et DNSSEC-alternativ. I utgangspunktet er ikke DNS-protokollen sikker (den ble ikke designet med dette i tankene på den tiden). DNSSEC løser dette problemet ved å legge til en Layer av sikkerhet gjennom kryptering og signering av utvekslinger, som forklart i den tilsvarende artikkelen: [DNS-sikkerhet] (https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
@@ -218,7 +218,7 @@ Når dette er gjort, vil eventuelle enheter som har vært slått på tidligere, 
 
 
 
-På Windows-arbeidsstasjoner, med en ledetekst :
+På Windows-arbeidsstasjoner, med en ledetekst:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-På en Linux-arbeidsstasjon :
+På en Linux-arbeidsstasjon:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-I DNS-feltet skal du ha Address til Pi-Hole, i mitt tilfelle 192.168.1.42 :
+I DNS-feltet skal du ha Address til Pi-Hole, i mitt tilfelle 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ I DNS-feltet skal du ha Address til Pi-Hole, i mitt tilfelle 192.168.1.42 :
 
 
 
-For å forenkle administrasjonen har **Pi-Hole** en veldesignet Interface web Interface. Den er brukervennlig og tilgjengelig, og lar deg :
+For å forenkle administrasjonen har **Pi-Hole** en veldesignet Interface web Interface. Den er brukervennlig og tilgjengelig, og lar deg:
 
 
 
@@ -286,7 +286,7 @@ For å legge den til, må du først koble deg til Interface-administratoren: **h
 
 
 
-Administratorpassordet er allerede generert (se skjermbildet ved slutten av installasjonen), så alt du trenger å gjøre er å skrive det inn for å få tilgang til Interface :
+Administratorpassordet er allerede generert (se skjermbildet ved slutten av installasjonen), så alt du trenger å gjøre er å skrive det inn for å få tilgang til Interface:
 
 
 
@@ -322,7 +322,7 @@ Legge til en liste i Pi-Hole
 
 
 
-Alt som gjenstår er å klikke på "**Add**" for å legge den til. For å aktivere det, må vi utføre et ekstra trinn for å "advare" Pi-Hole om å ta over denne listen. For å gjøre dette :
+Alt som gjenstår er å klikke på "**Add**" for å legge den til. For å aktivere det, må vi utføre et ekstra trinn for å "advare" Pi-Hole om å ta over denne listen. For å gjøre dette:
 
 
 

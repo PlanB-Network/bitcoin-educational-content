@@ -1,0 +1,9 @@
+question: Lightning Network üzerindeki düğümleri işleten katılımcılar arasında nasıl bir eğilim gözleniyor?
+answer: Profesyonel düğüm operatörleri giderek daha fazla likidite sağlarken, bireysel kullanıcılar "uç" düğümlere odaklanarak ağın yapısını değiştiriyor.
+wrong_answers:
+  - Bireysel hobiciler, profesyonel operatörlerin yerini tamamen almış durumda.
+  - Büyük bankalar artık tüm Lightning düğümlerini merkezi olarak işletiyor.
+  - Ağ, yalnızca büyük şirketlere izin vermek için kişisel düğümleri kapattı.
+explanation: |
+  Profesyonel kuruluşlar tarafından sağlanan daha fazla likidite ve istikrara doğru bir yönelim varken, günlük kullanıcılar basitleştirilmiş veya barındırılan çözümlere güvenerek ağı daha sağlam ve erişilebilir hale getiriyor.
+reviewed: false

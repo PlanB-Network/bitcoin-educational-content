@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari ikatan jaringan?
+answer: Mengagregasi beberapa antarmuka jaringan fisik
+wrong_answers:
+  - Menambahkan alamat IP virtual ke jaringan lokal
+  - Membuat jembatan Wi-Fi
+  - Mengurangi ukuran paket pada kabel RJ45
+explanation: |
+  Ikatan jaringan menggabungkan beberapa antarmuka fisik menjadi satu antarmuka logis, memberikan redundansi atau peningkatan bandwidth.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 共识规则和中继规则有什么区别？
+answer: 共识定义有效性，传递交易传播
+wrong_answers:
+  - 共识确定费用，中继确定地址
+  - 共识管理 Blockchain，中继管理私钥
+  - 共识选择矿工，中继选择商家
+explanation: |
+  共识规则决定什么在 Bitcoin 中有效，而中继规则则管理节点之间的交易。
+reviewed: true

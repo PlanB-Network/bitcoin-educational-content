@@ -1,12 +1,9 @@
-question: Tần suất điều chỉnh độ khó là bao nhiêu?
-answer: Mỗi 2016 khối.
+question: Bitcoin được lưu trữ ở đâu?
+answer: Trong blockchain của Bitcoin.
 wrong_answers:
-  - Mỗi 1048 khối.
-  - Mỗi 512 khối.
-  - Mỗi 4032 khối.
-explanation: |
-  Điều chỉnh độ khó là một cơ chế diễn ra
-  mỗi 2016 khối, hoặc khoảng hai tuần, để đảm bảo rằng một
-  khối mới được thêm vào blockchain mỗi mười phút trung bình,
-  bất kể tổng hashrate toàn cầu.
+  - Trong ví Bitcoin.
+  - Trên thiết bị mà ví được cài đặt.
+  - Trong két sắt của Cục Dự trữ Liên bang.
+explanation:
+  Mặc dù khóa riêng của bạn được lưu trữ trong ví của bạn, nhưng chính bitcoin thì thực sự được lưu trữ trong blockchain của Bitcoin, đó là sổ cái phân tán công khai trong mạng ngang hàng của Bitcoin.
 reviewed: true

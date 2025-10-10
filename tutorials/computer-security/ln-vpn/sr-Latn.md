@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Podesi svoj VPN
+description: Podesite LN VPN sa Lightning-om za anoniman i prilagođen VPN
 ---
 
 ![image](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Hangi RGB Contract Operation bir Seal'i kapatmadan yeni bir durum oluşturur?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency Aktivasyonu
+explanation: |
+  State Extension, Seal hemen kapatılmadan yeni bir durum veya hak (Valencies) oluşturmanıza olanak tanır.
+reviewed: false

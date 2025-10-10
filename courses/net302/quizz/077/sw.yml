@@ -1,0 +1,9 @@
+question: Ni njia gani ya azimio inayohitaji kubadilisha kila tarakimu ya heksadesimali ya IPv6 Address kwa ukanda wa kinyume?
+answer: Azimio la kurudi nyuma
+wrong_answers:
+  - Azimio la kinyume
+  - Azimio la msingi
+  - Azimio la pili
+explanation: |
+  Kwa azimio la kinyume, kila nukta ya IPv6 Address kamili inabadilishwa na kutenganishwa na vitone kabla ya kupachikwa na ip6.arpa.
+reviewed: false

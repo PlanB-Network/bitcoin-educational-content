@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F og FIDO2
+name: "Trezor U2F & FIDO2"
 description: Styrk sikkerheten på nettet med Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ I tillegg til U2F, som muliggjør tofaktorautentisering, støtter Trezors også 
 
 
 
-I tillegg til "passordløs*"-funksjonalitet muliggjør FIDO2 også tofaktorautentisering på samme måte som U2F.
+I tillegg til "passordløs"-funksjonalitet muliggjør FIDO2 også tofaktorautentisering på samme måte som U2F.
 
 
 
@@ -34,7 +34,7 @@ I denne veiledningen lærer du hvordan du aktiverer U2F eller FIDO2 for tofaktor
 
 
 
-**U2F er kompatibel med alle Trezor-modeller, men FIDO2 støttes bare på Safe 3, Safe 5 og Model T, ikke Model One.
+**U2F er kompatibel med alle Trezor-modeller, men FIDO2 støttes bare på Safe 3, Safe 5 og Model T, ikke Model One.**
 
 
 
@@ -134,7 +134,7 @@ Jeg anbefaler at du oppbevarer denne koden på et annet sted enn der du lagrer h
 
 
 
-Denne tilnærmingen gir deg to nivåer av sikkerhetskopiering i tilfelle du mister Trezor for 2FA-autentisering: en første sikkerhetskopi som bruker Mnemonic-frasen for alle kontoene dine, og en annen spesifikk sikkerhetskopi for hver konto med nødkodene. Det er imidlertid viktig **ikke å forveksle Mnemonic-frasen med nødkoden** :
+Denne tilnærmingen gir deg to nivåer av sikkerhetskopiering i tilfelle du mister Trezor for 2FA-autentisering: en første sikkerhetskopi som bruker Mnemonic-frasen for alle kontoene dine, og en annen spesifikk sikkerhetskopi for hver konto med nødkodene. Det er imidlertid viktig **ikke å forveksle Mnemonic-frasen med nødkoden**:
 
 
 
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Bare erstatt `<CREDENTIAL_ID>` med en av identifikatorene dine. I mitt tilfelle vil dette for eksempel gi :
+Bare erstatt `<CREDENTIAL_ID>` med en av identifikatorene dine. I mitt tilfelle vil dette for eksempel gi:
 
 
 

@@ -1,0 +1,9 @@
+question: Mit welcher Umbrel-Anwendung können Sie Ihren Lightning-Knoten mit einem erweiterten Interface verwalten?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay-Blitz
+  - Nostr-Relais
+  - Bitfeed
+explanation: |
+  Ride The Lightning und ThunderHub bieten ein komplettes webbasiertes Interface für die Verwaltung eines Lightning-Knotens.
+reviewed: true

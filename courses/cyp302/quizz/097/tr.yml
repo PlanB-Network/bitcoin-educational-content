@@ -1,0 +1,9 @@
+question: Gizlilik, güvenli iletişimi sağlamak için neden tek başına yeterli değildir?
+answer: Çünkü bir saldırgan mesajın içeriğini anlamadan mesajı ele geçirebilir ve değiştirebilir.
+wrong_answers:
+  - Çünkü gizliliği sağlamak çok zordur.
+  - Çünkü özel anahtarlar kolayca tahmin edilebilir.
+  - Çünkü mesajlar dijital imza olmadan doğrulanamaz.
+explanation: |
+  Gizlilik mesajların içeriğini korur, ancak bir MAC olmadan, bir saldırgan hala bir mesajı anlamadan kesebilir ve değiştirebilir, böylece iletişimin bütünlüğünü tehlikeye atabilir.
+reviewed: false

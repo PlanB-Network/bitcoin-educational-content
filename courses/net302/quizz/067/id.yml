@@ -1,0 +1,9 @@
+question: Apa motivasi utama untuk menggunakan pengenal Interface acak daripada MAC Address di IPv6?
+answer: Menjaga privasi
+wrong_answers:
+  - Mengurangi ukuran paket
+  - Mempercepat resolusi DNS
+  - Meningkatkan kompatibilitas ARP
+explanation: |
+  Menggunakan pengidentifikasi Interface acak membantu melindungi dari pelacakan perangkat berdasarkan MAC Address.
+reviewed: false

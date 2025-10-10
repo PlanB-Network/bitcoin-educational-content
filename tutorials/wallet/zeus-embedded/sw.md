@@ -1,5 +1,5 @@
 ---
-name: Zeus Iliyopachikwa
+name: Zeus Embedded
 description: Jinsi ya kutumia Zeus ya Umeme Iliyopachikwa Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,7 +13,7 @@ Lakini programu pia ina "nodi Iliyopachikwa".
 
 
 
-**Ni kipengele hiki cha matumizi ambacho tutakuwa tukichunguza katika mafunzo haya. Hii inaruhusu mtu yeyote kuwa na nodi yake ya umeme kwenye rununu, bila hitaji la seva iliyojitolea, kwa njia sawa na ACINQ inavyotoa umeme wake wa ajabu wa Wallet Phoenix.
+**Ni kipengele hiki cha matumizi ambacho tutakuwa tukichunguza katika mafunzo haya.** Hii inaruhusu mtu yeyote kuwa na nodi yake ya umeme kwenye rununu, bila hitaji la seva iliyojitolea, kwa njia sawa na ACINQ inavyotoa umeme wake wa ajabu wa Wallet Phoenix.
 
 
 
@@ -248,7 +248,7 @@ Kwenye skrini inayofuata, unaombwa kufungua kituo kwa ushirikiano na **"Olympus 
 Kwa mafunzo haya, tutachagua chaguo hili kwa ajili ya unyenyekevu, lakini inawezekana kabisa kufungua vituo na nodi yoyote kwenye mtandao.
 
 
-Inawezekana hata kufungua chaneli kadhaa katika muamala mmoja kwa kuchagua "FUNGUA CHANNEL YA ZIADA". *Lakini tutaangalia hili katika toleo la "juu" la mafunzo ya **Zeus Embedded****.
+Inawezekana hata kufungua chaneli kadhaa katika muamala mmoja kwa kuchagua "FUNGUA CHANNEL YA ZIADA". *Lakini tutaangalia hili katika toleo la "juu" la mafunzo ya* **Zeus Embedded**.
 
 
 

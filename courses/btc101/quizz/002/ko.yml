@@ -1,0 +1,11 @@
+question: Bitcoin의 두 가지 주요 특징은 무엇인가요?
+answer: Bitcoin은 컴퓨터 프로토콜이자 화폐 단위입니다.
+wrong_answers:
+  - Bitcoin는 실물 화폐이자 디지털 Wallet입니다.
+  - Bitcoin는 주식의 일종이자 채권의 일종입니다.
+  - Bitcoin는 중앙화된 통화이자 탈중앙화된 통화입니다.
+explanation: |
+  Bitcoin은 암호화와 Blockchain과 같은 기술을 사용하는 컴퓨터 프로토콜이자
+  암호화 및 Blockchain와 같은 기술을 사용하는 컴퓨터 프로토콜인 동시에
+  거래에 사용되는 단위이기도 합니다.
+reviewed: true

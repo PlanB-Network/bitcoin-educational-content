@@ -71,7 +71,7 @@ git push -u origin add-professor-loic-morel
 ### 3 - Utwórz swój profil nauczyciela
 
 
-Przejdź do folderu `scripts/tutorial-related/data-creator/` na swoim lokalnym klonie. Upewnij się, że zainstalowałeś wszystkie zależności wymagane dla oprogramowania, najpierw instalując Python :
+Przejdź do folderu `scripts/tutorial-related/data-creator/` na swoim lokalnym klonie. Upewnij się, że zainstalowałeś wszystkie zależności wymagane dla oprogramowania, najpierw instalując Python:
 
 
 ```bash
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ```
 
 
-Następnie uruchom oprogramowanie za pomocą polecenia :
+Następnie uruchom oprogramowanie za pomocą polecenia:
 
 
 ```bash
@@ -153,7 +153,7 @@ Po scaleniu PR można usunąć gałąź roboczą.
 Jeśli opanowałeś już korzystanie z Git, zmodyfikuj swój profil nauczyciela, tworząc nową gałąź i edytując odpowiedni plik bezpośrednio w istniejącym folderze. Zmiany można wprowadzić w pliku `professor.yml` lub w pliku markdown, w zależności od informacji, które należy poprawić. Po wprowadzeniu zmian lokalnie, prześlij je do Fork i prześlij PR.
 
 
-Początkującym polecam dokonanie modyfikacji bezpośrednio przez Interface w sieci GitHub. Upewnij się, że masz konto GitHub. Jeśli nie wiesz, jak je utworzyć, postępuj zgodnie z tym samouczkiem :
+Początkującym polecam dokonanie modyfikacji bezpośrednio przez Interface w sieci GitHub. Upewnij się, że masz konto GitHub. Jeśli nie wiesz, jak je utworzyć, postępuj zgodnie z tym samouczkiem:
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c

@@ -64,7 +64,7 @@ In "*Tipo di account*", selezionare "*Azienda*". Nel mio caso, sto passando a "*
 
 ![BITFINEX](assets/fr/09.webp)
 
-Completare i passaggi fornendo :
+Completare i passaggi fornendo:
 
 
 - Informazioni sull'azienda (nome dell'azienda, dati di contatto, settore di attività, ecc;
@@ -77,14 +77,14 @@ Una volta completata e inviata la domanda, la piattaforma potrebbe impiegare alc
 
 ## 3 - Rapida introduzione all'interfaccia di Bitfinex
 
-Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui :
+Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui:
 
 
-- Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);
-- OTC**: Servizio Over-The-Counter per la negoziazione di grandi volumi direttamente con un altro operatore, al di fuori dei libri degli ordini pubblici;
-- Finanziamenti**: Area dedicata ai prestiti e al finanziamento dei margini;
-- Derivati**: Sezione per i derivati (futures, ecc.), destinata ai trader esperti;
-- P2P**: Permette di acquistare o vendere criptovalute da altri utenti su base peer-to-peer.
+- **Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);
+- **OTC**: Servizio Over-The-Counter per la negoziazione di grandi volumi direttamente con un altro operatore, al di fuori dei libri degli ordini pubblici;
+- **Finanziamenti**: Area dedicata ai prestiti e al finanziamento dei margini;
+- **Derivati**: Sezione per i derivati (futures, ecc.), destinata ai trader esperti;
+- **P2P**: Permette di acquistare o vendere criptovalute da altri utenti su base peer-to-peer.
 
 Per l'uso standard (acquisto/vendita di bitcoin, depositi/prelievi e gestione del contante), si utilizzerà principalmente la scheda "*Trading*", nonché le sezioni "*Wallet*", "*Deposit*" e "*Withdraw*".
 
@@ -216,7 +216,7 @@ A seconda degli obiettivi e della struttura della vostra azienda, l'uso di Bitfi
 
 ### Acquistare bitcoin in cambio di contanti
 
-**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.
+**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.**
 
 **Passi da seguire:**
 

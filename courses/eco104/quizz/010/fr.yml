@@ -2,7 +2,7 @@ question: Quel est le but des nœuds dans le réseau Bitcoin ?
 answer: Maintenir et sécuriser la blockchain
 wrong_answers:
   - Traiter les transactions
-  - Proposer et implémenter des modifications dans le codebase de Bitcoin
+  - Proposer et implémenter des modifications dans le code source de Bitcoin
   - Concurrencer avec d'autres mineurs
 explanation: |
   Les nœuds sont essentiels à l'intégrité et à la sécurité du réseau Bitcoin.

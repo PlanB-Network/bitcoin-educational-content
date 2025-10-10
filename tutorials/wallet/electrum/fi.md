@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Kattava Electrum-opas alusta sankariksi
+description: Täydellinen Electrum-opas, alkeista asiantuntijaksi
 ---
 
 ![kansi](assets/cover.webp)
 
-Kuvaus Electrumista
+Alta löydät muutamia Electrumin kuvauslähteitä:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Minun täytyy sanoa, että kun törmäsin tähän oppaaseen, olin järkyttynyt. Onnittelut Arman the Parmanille tästä. Olisi ollut sääli, jos tätä ei olisi isännöity täällä ja käännetty mahdollisimman monelle kielelle. Rehellisesti, kippis sille kaverille." Rogzy
 

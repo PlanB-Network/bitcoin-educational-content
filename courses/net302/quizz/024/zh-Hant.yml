@@ -1,0 +1,9 @@
+question: TCP 通訊協定在 TCP/IP 模型中的主要角色是什麼？
+answer: 確保可靠有序的資料傳輸
+wrong_answers:
+  - 加密網路通訊
+  - 為機器指定 IP 位址
+  - 在實體層級分割資料報
+explanation: |
+  TCP 透過驗證完整性、維持秩序，以及在遺失時處理復原，確保可靠的資料傳輸。
+reviewed: false

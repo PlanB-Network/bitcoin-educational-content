@@ -1,0 +1,9 @@
+question: Milleks kasutatakse TCP/IP-mudelis reserveeritud porte?
+answer: Konkreetseid teenuseid puudutavate taotluste kuulamine
+wrong_answers:
+  - generate automaatse andmeside kapseldamise jaoks
+  - Füüsiliselt võrgukaadrite marsruutimiseks
+  - UDP pakettide killustatuse kontrollimiseks
+explanation: |
+  Pordid on loogilised kuulamispunktid, mis võimaldavad võrgurakendustel eristada erinevaid teenuseid, mis jooksevad samal hostil.
+reviewed: false

@@ -1,12 +1,8 @@
-question: Jakie znaczenie ma geograficzne rozmieszczenie węzłów Bitcoin?
-answer: Praktycznie uniemożliwia to zniszczenie wszystkich kopii Blockchain.
+question: Jaka jest przybliżona liczba węzłów rozmieszczonych na całym świecie we wrześniu 2023 r.?
+answer: 45 000 węzłów.
 wrong_answers:
-  - Określa cenę Bitcoin w różnych regionach.
-  - Wpływa to na szybkość transakcji Bitcoin.
-  - Określa on liczbę bitcoinów, które można wydobyć w danym regionie.
-explanation: |
-  Rozmieszczenie geograficzne węzłów Bitcoin sprawia, że
-  praktycznie niemożliwe do zniszczenia wszystkich kopii
-  Blockchain. Ponieważ węzły są rozproszone, trudno jest
-  fizycznie przejąć je wszystkie.
+  - 10 000 węzłów.
+  - 100 000 węzłów.
+  - 500 000 węzłów.
+explanation: >-
 reviewed: true

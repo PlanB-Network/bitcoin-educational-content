@@ -1,5 +1,5 @@
 ---
-name: Sininen Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikaalisti yksinkertainen ja tehokas portfolio
 ---
@@ -152,7 +152,7 @@ Voit poistaa yhden tai kaikki vastaanottajat napsauttamalla **Poista vastaanotta
 
 
 
-- Paisuta maksuja**: Oletko tehnyt tapahtuman, jonka vahvistaminen kestää kauan? Ottamalla maksujen inflaation käyttöön voit lisätä ylimääräisiä maksutapahtumamaksuja vireillä olevaan tapahtumaan nopeuttaaksesi sen vahvistamista.
+- **Paisuta maksuja**: Oletko tehnyt tapahtuman, jonka vahvistaminen kestää kauan? Ottamalla maksujen inflaation käyttöön voit lisätä ylimääräisiä maksutapahtumamaksuja vireillä olevaan tapahtumaan nopeuttaaksesi sen vahvistamista.
 
 
 
@@ -248,7 +248,7 @@ Bitcoinien vastaanottaminen monisignatuurisessa Wallet:ssa on sama prosessi kuin
 
 
 
-- Lähetä bitcoineja** :
+- **Lähetä bitcoineja**:
 
 
 
@@ -274,7 +274,7 @@ Jos toinen Wallet:n allekirjoittaja on myös käyttäjä, hän voi allekirjoitta
 
 
 
-- Mene pidemmälle Multi signature** -salkun avulla:
+- Mene pidemmälle **Multi signature** -salkun avulla:
 
 
 

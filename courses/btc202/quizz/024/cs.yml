@@ -1,0 +1,9 @@
+question: Jaké je riziko, pokud je systém Wallet závislý na uzlu třetí strany?
+answer: Riziko dohledu a cenzury
+wrong_answers:
+  - Riziko automatického Double-spending
+  - Riziko ztráty soukromých klíčů
+  - Riziko ztráty a monitorování
+explanation: |
+  Uzel třetí strany může analyzovat nebo blokovat vaše transakce, nebo dokonce spojit vaše data s vaší identitou.
+reviewed: true

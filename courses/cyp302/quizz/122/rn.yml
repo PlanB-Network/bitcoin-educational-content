@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru co gutanga?
+answer: Ingorane yo gutanga imfunguruzo ata nkomanzi ata Exchange y’umubiri.
+wrong_answers:
+  - Ivya ngombwa kugira generate urufunguzo rwinshi ku mukiriya
+  - Ingorane zo kuronka ububiko bw'imfunguruzo
+  - Inshingano yo guhindura imfunguruzo igihe cose uvugana
+explanation: |
+  Ikibazo co gukwiragiza urufunguruzo kijanye n’ingorane yo gutanga urufunguruzo mu buryo butekanye, ikintu gikenewe cane mu bijanye n’itumanaho ry’ubuhinga bwa none aho Exchange y’umubiri idashoboka.
+reviewed: false

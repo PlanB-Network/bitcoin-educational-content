@@ -1,0 +1,9 @@
+question: Basis data apa yang disimpan oleh node Bitcoin secara lokal untuk melacak output yang tidak terpakai?
+answer: Set UTXO
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Sejarah Wallet
+explanation: |
+  Node menyimpan set UTXO, yang merupakan set output yang tidak terpakai yang tersedia untuk transaksi di masa depan.
+reviewed: true

@@ -1,0 +1,9 @@
+question: IANA 一般分配給每個區域網際網路註冊管理中心 (RIR) 的 IPv6 區塊大小是多少？
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  自 2006 年起，每個 RIR 通常會收到一個 /12 的 IPv6 區塊，為區域分配提供了非常大的儲備。
+reviewed: false

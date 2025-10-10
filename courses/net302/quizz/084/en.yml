@@ -5,5 +5,5 @@ wrong_answers:
   - nslookup
   - ping
 explanation: |
-  The arp command lets you view or modify the ARP cache, which stores IP/MAC matches locally.
+  The arp command lets you view or modify the ARP cache, which stores IP/MAC mappings locally.
 reviewed: false

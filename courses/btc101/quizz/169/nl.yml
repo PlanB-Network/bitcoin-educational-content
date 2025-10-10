@@ -1,12 +1,8 @@
-question: Hoe beloont het Bitcoin protocol de Miner die een geldige Hash vindt voor het volgende blok?
-answer: Met een beloning die wordt bepaald door consensusregels en met de vergoedingen van alle transacties die zijn opgenomen in het geldige blok.
+question: Wat is een uniek kenmerk van het Bitcoin protocol?
+answer: Het is wereldwijd actief, 24 uur per dag, 7 dagen per week.
 wrong_answers:
-  - Met een vaste hoeveelheid bitcoins die niet wordt bepaald door consensusregels.
-  - Met een percentage van het totaal Bitcoin Supply en de vergoedingen van alle transacties uit de vorige blokken.
-  - Met de vergoedingen van alle transacties inbegrepen in het geldige blok.
-explanation: |
-  Het Bitcoin protocol beloont de Miner die een geldige
-  Hash vindt voor het volgende blok met een beloning waarvan het bedrag wordt
-  bepaald door de consensusregels, samen met de vergoedingen van
-  alle transacties in het geldige blok.
+  - Het werkt alleen tijdens kantooruren.
+  - Het wordt gecontroleerd door een centrale autoriteit.
+  - Het kan gemakkelijk worden gehackt.
+explanation: >-
 reviewed: true

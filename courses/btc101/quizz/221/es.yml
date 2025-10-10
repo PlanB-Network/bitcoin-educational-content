@@ -1,11 +1,10 @@
-question: ¿Qué es la Lightning Network?
-answer: Una red de pagos que utiliza el protocolo de Bitcoin para habilitar transacciones a la velocidad del rayo.
+question: ¿Las comisiones por transacciones en la Red Lightning son extremadamente bajas, a menudo menos del...?
+answer: 0.5%.
 wrong_answers:
-  - Un nuevo tipo de criptomoneda.
-  - Una nueva tecnología de blockchain que reemplazará a Bitcoin en el futuro.
-  - Un método para minar Bitcoin.
-explanation: |
-  La Lightning Network es una red de pagos que utiliza el
-  protocolo de Bitcoin para habilitar transacciones rápidas. No es
-  una criptomoneda separada, ni un método para minar Bitcoin.
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+  Las comisiones por transacciones en la Red Lightning son extremadamente bajas, a menudo
+  menos del 0.5%.
 reviewed: true

@@ -1,11 +1,10 @@
-question: ¿Qué es el trilema de la blockchain?
-answer: Un protocolo basado en una blockchain solo puede satisfacer dos de los criterios de descentralización, seguridad y escalabilidad.
+question: ¿Qué hace posible la Red Lightning?
+answer: Realizar transacciones entre individuos que no tienen una conexión directa de canal.
 wrong_answers:
-  - Un protocolo basado en una blockchain solo puede satisfacer uno de los criterios de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una blockchain puede satisfacer todos los criterios de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una blockchain no puede satisfacer ninguno de los criterios de descentralización, seguridad y escalabilidad.
+  - Crear conexiones de canal directas solo con intercambios centralizados.
+  - Crear conexiones de canal que requieren múltiples confirmaciones para cualquier transacción.
+  - Establecer conexiones de canal directas que están limitadas solo a transacciones grandes.
 explanation: |
-  El trilema de la blockchain se refiere al desafío de que
-  un protocolo basado en una blockchain solo puede satisfacer dos criterios de
-  descentralización, seguridad y escalabilidad.
+  La Red Lightning hace posible realizar transacciones entre
+  individuos que no tienen una conexión directa de canal.
 reviewed: true

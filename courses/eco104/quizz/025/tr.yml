@@ -1,0 +1,13 @@
+question: Bitcoin'ın hiçbir şeyle desteklenmediği için değersiz olduğu argümanı neden hatalı?
+answer: Değer özneldir ve insanların inanç ve deneyimlerine dayanır.
+wrong_answers:
+  - Bitcoin altın ile desteklenmektedir, bu da ona doğal bir değer kazandırmaktadır.
+  - Bitcoin'nin değeri, az bulunurluğu ve güvenlik özelliklerine göre belirlenir.
+  - Bitcoin'ün değeri, hükümetler ve bankalar tarafından kabul edilmesine dayanmaktadır.
+explanation: |
+  Değer özneldir ve bakanın gözündedir. Bitcoin değerlidir
+  çünkü insanlar öyle olduğuna inanıyor, tıpkı sanatın buna rağmen değerli olabilmesi gibi
+  tuval ve boyadan yapılmış olması. Para biriminin aşağıdakilerle desteklenmesi gerektiği argümanı
+  gibi fiat para birimlerinin değeri yanlış olduğundan, değerle ilgili bir şey
+  dolar da güven ve inanç üzerine kuruludur.
+reviewed: true

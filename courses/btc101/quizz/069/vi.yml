@@ -1,13 +1,10 @@
-question: Số lượng bitcoin ước tính lưu hành sau đợt giảm phân nửa đầu tiên là bao nhiêu?
-
-answer: 10,500,000 BTC.
-
+question: Vai trò của khóa công khai trong ví Bitcoin là gì?
+answer: Nó được sử dụng để tạo địa chỉ Bitcoin và do đó có thể nhận tiền.
 wrong_answers:
-  - 5,250,000 BTC.
-  - 15,750,000 BTC.
-  - 21,000,000 BTC.
-
-explanation:
-  Sau đợt giảm phân nửa đầu tiên, xảy ra ở độ cao khối 210,000, số lượng bitcoin ước tính lưu hành là 10,500,000 BTC, tương đương một nửa tổng số bitcoin sẽ lưu hành.
-
+  - Nó được sử dụng để mã hóa giao dịch Bitcoin.
+  - Nó được sử dụng để truy cập vào ví Bitcoin.
+  - Nó được sử dụng để sao lưu ví Bitcoin.
+explanation: |
+  Khóa công khai được tạo ra từ khóa riêng và được sử dụng
+  để tạo địa chỉ Bitcoin nhằm mục đích nhận tiền.
 reviewed: true

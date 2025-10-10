@@ -1,0 +1,9 @@
+question: Informasi mendasar apa yang harus dicatat oleh gateway NAT untuk setiap aliran jaringan?
+answer: Pemetaan antara IP internal dan IP publik
+wrong_answers:
+  - Jenis kabel jaringan yang digunakan
+  - Pemetaan antara IP Address dan server DNS
+  - Jenis protokol jaringan yang digunakan
+explanation: |
+  NAT bergantung pada tabel terjemahan untuk menjaga korespondensi yang melacak pemetaan antara alamat internal dan publik untuk memastikan paket dirutekan dengan benar.
+reviewed: false

@@ -1,6 +1,6 @@
 ---
-name: Celah Udara Electrum
-description: Langkah pertama menuju keselamatan, Cold Wallet dengan Electrum
+name: Electrum Airgap
+description: Langkah pertama menuju keamanan, cold wallet dengan Electrum
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Untuk mengunduh Electrum, saya sarankan Anda mengikuti langkah pertama dalam tut
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Setelah mengunduh, selalu verifikasi rilis sebelum menginstalnya, kemudian lanjutkan ke konfigurasi "One Server", seperti yang akan Anda temukan di bagian bantuan, di bawah `Mulai dengan Dummy Wallet`.
 

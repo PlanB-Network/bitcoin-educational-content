@@ -1,13 +1,13 @@
-question: Jaka jest główna zaleta złota jako waluty?
-answer: Jest niezwykle wytrzymały.
+question: Jakie są konsekwencje dodruku pieniądza?
+answer: Prowadzi to do inflacji, stopniowo zubożając ludność.
 wrong_answers:
-  - Można go łatwo podzielić lub transportować na duże odległości.
-  - Można to łatwo zweryfikować.
-  - Nie jest on regulowany przez rząd.
+  - Prowadzi to do deflacji, stopniowo wzbogacając populację.
+  - Prowadzi to do stabilnej gospodarki bez inflacji lub deflacji.
+  - Prowadzi to do spadku wartości pieniądza Supply.
 explanation: |
-  Chociaż nie można go łatwo podzielić ani przetransportować na duże odległości
-  na duże odległości, złoto jest bardzo trwałym materiałem, co
-  co czyni go dobrym środkiem przechowywania wartości. Złote monety były używane jako
-  waluta w przeszłości, ale nie służyłyby temu samemu celowi w dzisiejszej erze cyfrowej
-  w dzisiejszej erze cyfrowej.
+  Drukowanie pieniądza lub tworzenie nowych pieniędzy przez banki centralne prowadzi do inflacji
+  banki centralne, prowadzi do inflacji. Dzieje się tak, ponieważ wzrost
+  gW-1 zmniejsza siłę nabywczą pieniądza,
+  prowadząc do wyższych cen i spadku wartości oszczędności
+  oszczędności.
 reviewed: true

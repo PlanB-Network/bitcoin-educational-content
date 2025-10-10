@@ -1,0 +1,9 @@
+question: Bitcoin'da çifte harcama nasıl engelleniyor?
+answer: Tüm sistem işlemlerinin kamuya açık yayınlanması yoluyla.
+wrong_answers:
+  - Her işlemden önce kullanıcıların kimliğini doğrulayarak.
+  - İşlemlerin denetçiler tarafından periyodik olarak gözden geçirilmesi.
+  - Kullanıcı başına işlem sayısını sınırlandırarak.
+explanation: |
+  Bir işlemin olmadığını teyit etmek ve böylece çifte harcamayı önlemek için, her kullanıcının tüm geçmiş işlemlerden haberdar olması gerekir.
+reviewed: false

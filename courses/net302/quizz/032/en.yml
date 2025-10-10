@@ -1,4 +1,4 @@
-question: What is the length, in bits, of a typical IPv4 address?
+question: What is the length, in bits, of a standard IPv4 address?
 answer: 32-bit
 wrong_answers:
   - 8 bits

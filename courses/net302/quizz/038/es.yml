@@ -1,0 +1,9 @@
+question: ¿Qué rango CIDR típico representa el tamaño de un bloque IPv4 asignado por IANA a un RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA divide el espacio IPv4 en bloques de tamaño /8, cada uno de los cuales contiene 2^24 direcciones.
+reviewed: false

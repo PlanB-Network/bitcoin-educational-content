@@ -127,7 +127,7 @@ Kliknij przycisk "*Kontynuuj*", aby wyświetlić nową frazę odzyskiwania.
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
 
-Jade Plus wyświetla 12-wyrazową frazę Mnemonic. **Mnemonic daje ci pełny, nieograniczony dostęp do wszystkich twoich bitcoinów. Każdy, kto posiada tę frazę, może ukraść środki, nawet bez fizycznego dostępu do Jade Plus. 12-wyrazowa fraza przywraca dostęp do bitcoinów w przypadku utraty, kradzieży lub uszkodzenia Jadeitów. Dlatego bardzo ważne jest, aby zachować ją ostrożnie i przechowywać w bezpiecznym miejscu.
+Jade Plus wyświetla 12-wyrazową frazę Mnemonic. **Mnemonic daje ci pełny, nieograniczony dostęp do wszystkich twoich bitcoinów. Każdy, kto posiada tę frazę, może ukraść środki, nawet bez fizycznego dostępu do Jade Plus. 12-wyrazowa fraza przywraca dostęp do bitcoinów w przypadku utraty, kradzieży lub uszkodzenia Jadeitów. Dlatego bardzo ważne jest, aby zachować ją ostrożnie i przechowywać w bezpiecznym miejscu.**
 
 
 Napis można umieścić na kartonie dołączonym do pudełka lub, dla większego bezpieczeństwa, zalecam wygrawerowanie go na podstawie ze stali nierdzewnej, aby chronić go przed pożarem, powodzią lub upadkiem.
@@ -141,7 +141,7 @@ Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zar
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty pod koniec samouczka
+**Oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty pod koniec samouczka**
 
 
 Kliknij strzałkę po prawej stronie ekranu, aby wyświetlić następujące słowa.
@@ -420,3 +420,4 @@ Aby pójść o krok dalej, polecam ten samouczek dotyczący Jade Plus, w którym
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

@@ -1,0 +1,9 @@
+question: To whom is the concept of "machine animals" attributed?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  The concept of machine animals is attributed to Descartes. According to this theory, animals are complex automatons with no soul or consciousness, operating solely on mechanical principles.
+reviewed: false

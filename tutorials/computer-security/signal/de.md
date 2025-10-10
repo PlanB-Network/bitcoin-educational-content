@@ -269,7 +269,7 @@ Herzlichen Glückwunsch, Sie sind jetzt auf dem neuesten Stand bei der Verwendun
 
 
 
-Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail :
+Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail:
 
 
 

@@ -1,0 +1,9 @@
+question: Który dokument służy jako techniczne odniesienie dla specyfikacji protokołu TCP/IP?
+answer: RFC
+wrong_answers:
+  - Biała księga
+  - ISO
+  - IIP
+explanation: |
+  RFC (Request For Comments) to dokumenty referencyjne, które definiują specyfikacje protokołów TCP/IP.
+reviewed: false

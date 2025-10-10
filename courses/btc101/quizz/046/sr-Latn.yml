@@ -1,9 +1,9 @@
-question: Kakav je potencijalni uticaj trenutnog finansijskog sistema na političke aktere?
-answer: Nisu motivisani da naprave radikalne promene, dopuštajući sistemu da nastavi svojim tokom do moguće implozije.
+question: Postoji istorijski slučaj dnevne stope inflacije ekvivalentne 100%; gde i kada se to dogodilo?
+answer: U Zimbabveu, 2007.
 wrong_answers:
-  - Oni su podstaknuti da naprave radikalne promene kako bi sprečili moguću imploziju.
-  - Nisu motivisani da održavaju status kvo kako bi osigurali sopstveno bogatstvo.
-  - Oni su podstaknuti da razmišljaju dugoročno.
+  - U Mađarskoj, 1945.
+  - U Kini, 1940.
+  - Ovo je zapravo nerealan slučaj koji se ne može dogoditi.
 explanation: |
-  Kako politički akteri imaju koristi od trenutnog finansijskog sistema, nisu motivisani da naprave radikalne promene. Ovo omogućava sistemu da nastavi svojim tokom sve do moguće implozije, jer je sistem regulisan i ograničen kako bi se izbegao sopstveni kolaps.
+  Stopa inflacije od 100% dnevno je realističan scenario koji se desio u Zimbabveu 2007. godine, gde se vrednost novca otprilike udvostručavala svakih 24 sata.
 reviewed: true

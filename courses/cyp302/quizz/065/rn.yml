@@ -1,0 +1,9 @@
+question: Ni ibihe bintu bitatu bihambaye vyo mu mugambi wo gushiramwo amakuru mu buryo buhuye?
+answer: Ubuhinga bwo gukora urufunguzo, ubuhinga bwo gupfuka, n'ubuhinga bwo gufungura
+wrong_answers:
+  - Ubuhinga bwo gukora hashing, urufunguzo rwa bose, n'ubuhinga bwo kugenzura
+  - Urufunguzo rwa bose, urufunguzo rw'ibanga, n'ubuhinga bwo gusobanura
+  - Ubuhinga bwo gupfuka, urufunguzo rwa bose, n'urufunguzo rw'ibanga
+explanation: |
+  Igishushanyo co gushiramwo amakuru gihuye gifise Elements zitatu: ubuhinga bwo guhingura urufunguzo, ubuhinga bwo gushiramwo amakuru, n’ubuhinga bwo gukuraho amakuru. Bose bakoresha urufunguruzo rumwe.
+reviewed: false

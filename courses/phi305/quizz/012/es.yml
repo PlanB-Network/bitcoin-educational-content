@@ -1,0 +1,9 @@
+question: ¿Qué es la moral para Gilles Deleuze?
+answer: Un sistema de juicio entre lo bueno y lo moral.
+wrong_answers:
+  - Una iniciativa religiosa.
+  - El resultado de la ley.
+  - Un principio duradero.
+explanation: |
+  Para Gilles Deleuze, la moral es un sistema de juicio que clasifica las acciones en buenas y malas según valores trascendentes. Lo contrapone a la ética spinozista, que evalúa los modos de existencia según su poder de acción.
+reviewed: false

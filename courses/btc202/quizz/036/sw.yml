@@ -1,0 +1,9 @@
+question: Je, ni faida gani ya kompyuta ya mkononi iliyojitolea zaidi ya kompyuta ndogo?
+answer: Betri yake hufanya kama inverter
+wrong_answers:
+  - Ni kimya zaidi
+  - Inadumu zaidi
+  - Inatumia nishati kidogo
+explanation: |
+  Betri ya kompyuta ya mkononi hufanya kazi kama UPS asilia, hivyo basi kuzuia kusimama kwa ghafla katika tukio la kukatika kwa umeme.
+reviewed: true

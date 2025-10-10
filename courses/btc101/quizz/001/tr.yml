@@ -1,0 +1,9 @@
+question: Bitcoin'da neden ücret ödüyoruz?
+answer: İşlemleri bloklara dahil etmek için serbest bir piyasa oluşturmak.
+wrong_answers:
+  - Bitcoin madenciliğinin nasıl yapıldığını tanıtmak için.
+  - Zenginlerin daha fazla ödemesine izin vermek için.
+  - Hükümetleri ağdan dışlamak için.
+explanation: |
+  Ücretler, bloklara işlem eklemek için serbest bir piyasa yaratmak için gereklidir. Aslında, bir bloğun boyutu 1 MB'dir (SegWit güncellemesinden sonra 4 MB'ye genişletilmiştir), bu nedenle bir bloğa "eklenebilecek" işlem sayısı blok başına birkaç bin işlemle sınırlıdır.
+reviewed: true

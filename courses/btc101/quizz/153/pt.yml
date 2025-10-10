@@ -1,13 +1,13 @@
-question: Qual é o propósito do ajuste de dificuldade na mineração de Bitcoin?
-answer: Ele reequilibra o jogo global de mineração com base no número de participantes.
+question: O que acontece em um ataque de 51% na rede Bitcoin?
+answer: Um agente possui mais da metade do hashrate e pode tentar modificar o blockchain.
 wrong_answers:
-  - Aumenta a recompensa pela mineração.
-  - Diminui o número de bitcoins em circulação.
-  - Aumenta a segurança da rede Bitcoin.
-explanation: >-
-  O ajuste de dificuldade na mineração de Bitcoin é projetado para garantir que
-  o tempo necessário para minerar um bloco permaneça aproximadamente constante, independentemente
-  do poder computacional total da rede. Ele ajusta a dificuldade do problema matemático
-  que os mineradores devem resolver, com base no número de mineradores participando na
-  rede.
+  - Um agente ganha controle sobre mais da metade dos bitcoins em circulação.
+  - Um agente ganha controle sobre mais da metade dos nós na rede Bitcoin.
+  - Um agente ganha controle sobre mais da metade das pools de mineração na rede Bitcoin.
+explanation: |
+  Em um ataque de 51%, um agente com mais da metade do
+  hashrate da rede poderia potencialmente manipular o
+  blockchain criando uma cadeia alternativa de blocos.
+  No entanto, tal ataque seria extremamente custoso e
+  improvável de ser lucrativo, tornando-o um cenário improvável.
 reviewed: true

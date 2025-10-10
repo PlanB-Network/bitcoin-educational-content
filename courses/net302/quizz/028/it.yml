@@ -1,0 +1,9 @@
+question: Qual è l'unità di dati che passa attraverso il Transport Layer per il TCP?
+answer: Segmento
+wrong_answers:
+  - Datagramma
+  - Telaio
+  - Flusso
+explanation: |
+  Nel Transport Layer con TCP, l'unità di dati è chiamata segmento, mentre UDP usa il termine pacchetto.
+reviewed: false

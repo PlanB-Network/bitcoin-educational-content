@@ -1,11 +1,12 @@
-question: Jaka była stopa inflacji na Węgrzech w lipcu 1946 r.?
-answer: 41,900,000,000,000,000%
+question: Jaka jest koncepcja matematyczna, która opiera się na ludzkiej racjonalności i jest używana w Bitcoin?
+answer: Teoria gier.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Teoria prawdopodobieństwa.
+  - Teoria liczb.
+  - Teoria zbiorów.
 explanation: |
-  Miesiącem o najwyższej inflacji na Węgrzech był lipiec
-  1946, z rekordową inflacją cen wynoszącą
-  41,900,000,000,000,000%.
+  Teoria gier to koncepcja matematyczna oparta na ludzkiej racjonalności
+  ludzkiej racjonalności. W Bitcoin zmiany protokołu są
+  wymuszane przez użytkowników, co sprawia, że każda modyfikacja protokołu Bitcoin
+  jest bardzo złożona.
 reviewed: true

@@ -1,0 +1,20 @@
+id: 5ad02561-72c5-4915-9591-5be53f0ca18f
+name: bitcoind.me
+category: education
+
+links:
+  website: https://bitcoind.me/
+  Github: https://github.com/bitcoind-me/bitcoind-me
+
+tags:
+  - easy-explain
+  - adoption
+
+original_language: fa
+proofreading:
+  - language: fa
+    last_contribution_date: 2025-09-08
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

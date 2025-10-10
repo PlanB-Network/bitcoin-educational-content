@@ -16,13 +16,13 @@ System operacyjny (OS) to główne oprogramowanie, które zarządza wszystkimi z
 
 
 
-- Zwiększone bezpieczeństwo** : Dystrybucje Linuksa są znane ze swojego bezpieczeństwa i solidności
-- Zero kosztów**: Ubuntu i większość dystrybucji Linuksa są bezpłatne
-- Duża społeczność**: Społeczność użytkowników gotowych do pomocy za pośrednictwem forów i samouczków
-- Poszanowanie prywatności**: System open source zapewniający większą przejrzystość
-- Prostota**: Przyjazny dla użytkownika Interface i łatwość użytkowania
-- Bogaty ekosystem** : Obszerny katalog oprogramowania open source
-- Regularne wsparcie**: Bezpieczne aktualizacje od Canonical
+- **Zwiększone bezpieczeństwo**: Dystrybucje Linuksa są znane ze swojego bezpieczeństwa i solidności
+- **Zero kosztów**: Ubuntu i większość dystrybucji Linuksa są bezpłatne
+- **Duża społeczność**: Społeczność użytkowników gotowych do pomocy za pośrednictwem forów i samouczków
+- **Poszanowanie prywatności**: System open source zapewniający większą przejrzystość
+- **Prostota**: Przyjazny dla użytkownika Interface i łatwość użytkowania
+- **Bogaty ekosystem**: Obszerny katalog oprogramowania open source
+- **Regularne wsparcie**: Bezpieczne aktualizacje od Canonical
 
 
 ## Instalacja i konfiguracja
@@ -59,7 +59,7 @@ System operacyjny (OS) to główne oprogramowanie, które zarządza wszystkimi z
 ### 3. Utwórz bootowalny klucz USB
 
 
-Możesz użyć kilku narzędzi, takich jak Balena Etcher :
+Możesz użyć kilku narzędzi, takich jak Balena Etcher:
 
 
 
@@ -110,7 +110,7 @@ Podczas uruchamiania z klucza USB zobaczysz ten ekran, który umożliwia uruchom
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
 
-**Wybór języka
+**Wybór języka**
 
 
 Wybierz preferowany język instalacji i systemu.
@@ -119,7 +119,7 @@ Wybierz preferowany język instalacji i systemu.
 ![Sélection de la langue](assets/fr/07.webp)
 
 
-**Opcje dostępności
+**Opcje dostępności**
 
 
 W razie potrzeby skonfiguruj opcje dostępności (czytnik ekranu, wysoki kontrast itp.).
@@ -128,7 +128,7 @@ W razie potrzeby skonfiguruj opcje dostępności (czytnik ekranu, wysoki kontras
 ![Options d'accessibilité](assets/fr/08.webp)
 
 
-**Konfiguracja klawiatury
+**Konfiguracja klawiatury**
 
 
 Wybierz układ klawiatury. Dostępne jest pole testowe umożliwiające sprawdzenie, czy klawisze odpowiadają konfiguracji użytkownika.
@@ -146,7 +146,7 @@ Połącz się z siecią Wi-Fi lub przewodową, aby pobrać aktualizacje podczas 
 ![Configuration réseau](assets/fr/10.webp)
 
 
-**Typ instalacji
+**Typ instalacji**
 
 
 Wybierz pomiędzy "Wypróbuj Ubuntu" (aby przetestować bez instalacji) lub "Zainstaluj Ubuntu".
@@ -155,7 +155,7 @@ Wybierz pomiędzy "Wypróbuj Ubuntu" (aby przetestować bez instalacji) lub "Zai
 ![Choix du type d'installation](assets/fr/11.webp)
 
 
-**Metoda instalacji
+**Metoda instalacji**
 
 
 Wybierz instalację interaktywną.
@@ -164,7 +164,7 @@ Wybierz instalację interaktywną.
 ![Mode d'installation](assets/fr/12.webp)
 
 
-**Wybór aplikacji
+**Wybór aplikacji**
 
 
 Wybierz pomiędzy domyślną instalacją lub rozszerzonym wyborem aplikacji.
@@ -173,7 +173,7 @@ Wybierz pomiędzy domyślną instalacją lub rozszerzonym wyborem aplikacji.
 ![Sélection des applications](assets/fr/13.webp)
 
 
-**Aplikacje innych firm
+**Aplikacje innych firm**
 
 
 Zdecyduj, czy chcesz zainstalować dodatkowe sterowniki i zastrzeżone oprogramowanie.
@@ -182,7 +182,7 @@ Zdecyduj, czy chcesz zainstalować dodatkowe sterowniki i zastrzeżone oprogramo
 ![Installation applications tierces](assets/fr/14.webp)
 
 
-**Typ podziału
+**Typ podziału**
 
 
 Dostępne są dwie główne opcje:
@@ -197,7 +197,7 @@ Dostępne są dwie główne opcje:
 ![Choix du partitionnement](assets/fr/15.webp)
 
 
-**Tworzenie konta użytkownika
+**Tworzenie konta użytkownika**
 
 
 Ustaw nazwę użytkownika i hasło do konta Ubuntu.
@@ -206,7 +206,7 @@ Ustaw nazwę użytkownika i hasło do konta Ubuntu.
 ![Création du compte](assets/fr/16.webp)
 
 
-**Strefa czasowa
+**Strefa czasowa**
 
 
 Wybierz obszar geograficzny, aby ustawić czas systemowy.
@@ -240,7 +240,7 @@ Aktualizacja systemu jest ważnym krokiem po nowej instalacji. Dostępne są dwi
 - Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby zainstalować aktualizacje
 
 
-**Opcja 2: Przez terminal
+**Opcja 2: Przez terminal**
 
 
 
@@ -257,7 +257,7 @@ sudo apt update
 
 
 - Po wyświetleniu monitu wprowadź hasło
-- Aby zainstalować aktualizacje, wpisz :
+- Aby zainstalować aktualizacje, wpisz:
 
 
 ```bash
@@ -273,7 +273,7 @@ sudo apt upgrade
 ### 5. Odkrywanie podstawowych zadań
 
 
-**5.1 Przeglądanie Internetu
+**5.1 Przeglądanie Internetu**
 
 
 Domyślnie Firefox często znajduje się na pasku uruchamiania.
@@ -285,7 +285,7 @@ Uruchom przeglądarkę Firefox i rozpocznij przeglądanie.
 Inne przeglądarki (Chrome, Brave itp.) można zainstalować za pomocą Menedżera oprogramowania lub pakietów .deb.
 
 
-**5.2 Przetwarzanie tekstu
+**5.2 Przetwarzanie tekstu**
 
 
 Ubuntu jest dostarczane z pakietem LibreOffice (Writer do edycji tekstu).
@@ -297,13 +297,13 @@ Aby go otworzyć: Działania > Wyszukaj "LibreOffice Writer" lub kliknij ikonę,
 Możesz tworzyć, edytować i zapisywać dokumenty w różnych formatach (w tym .docx).
 
 
-**5.3 Instalowanie aplikacji
+**5.3 Instalowanie aplikacji**
 
 
 Menedżer oprogramowania (nazywany "Ubuntu Software"): graficzny Interface do wyszukiwania i instalowania aplikacji.
 
 
-W terminalu użyj polecenia :
+W terminalu użyj polecenia:
 
 
 ```bash

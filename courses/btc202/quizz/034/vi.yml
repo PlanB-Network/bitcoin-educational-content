@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa triển khai thô và node-in-a-box là gì?
+answer: Sự hiện diện của Interface và các ứng dụng tích hợp
+wrong_answers:
+  - Khả năng tương thích mạng
+  - Kích thước Blockchain được lưu trữ trên đĩa
+  - Giao thức và tiền tệ được sử dụng
+explanation: |
+  Bản triển khai thô chỉ cài đặt phần mềm nút, trong khi bản triển khai nút trong hộp sẽ thêm Interface, App Store và các dịch vụ tích hợp.
+reviewed: true

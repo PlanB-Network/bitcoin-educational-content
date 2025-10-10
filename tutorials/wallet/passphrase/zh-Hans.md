@@ -1,5 +1,5 @@
 ---
-name: BIP39 密语
+name: BIP-39 Passphrase
 description: 理解密语是如何工作的
 ---
 ![封面](assets/cover.webp)

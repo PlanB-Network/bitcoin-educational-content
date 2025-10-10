@@ -63,7 +63,7 @@ Mwishowe, inafaa kukumbuka kuwa pfSense inahitaji angalau miingiliano miwili ya 
 
 
 
-Toleo la hivi punde thabiti la pfSense, wakati wa kuandika mafunzo haya, ni 2.8 (lililotolewa Juni 2025). Unaweza kupakua picha ya ISO au faili ya usakinishaji iliyorekebishwa kwa mazingira ya maunzi yako moja kwa moja kutoka kwa tovuti rasmi :
+Toleo la hivi punde thabiti la pfSense, wakati wa kuandika mafunzo haya, ni 2.8 (lililotolewa Juni 2025). Unaweza kupakua picha ya ISO au faili ya usakinishaji iliyorekebishwa kwa mazingira ya maunzi yako moja kwa moja kutoka kwa tovuti rasmi:
 
 
 
@@ -73,7 +73,7 @@ Toleo la hivi punde thabiti la pfSense, wakati wa kuandika mafunzo haya, ni 2.8 
 
 
 
-Lango la upakuaji hukuruhusu kuchagua :
+Lango la upakuaji hukuruhusu kuchagua:
 
 
 
@@ -111,9 +111,9 @@ Kwa usambazaji wa kawaida, tunapendekeza:
 
 
 
-- 1 GB RAM** kiwango cha chini (GB 2 au zaidi inapendekezwa ili kuwezesha vifurushi vya ziada au usaidizi wa ZFS).
-- Nafasi ya diski ya GB 8** (GB 20 au zaidi inapendekezwa kwa usanidi wa hali ya juu zaidi, haswa ikiwa unasakinisha akiba ya seva mbadala, IDS/IPS au kumbukumbu za kina).
-- Angalau miingiliano miwili ya mtandao pepe** (moja ya WAN, moja ya LAN). Katika VirtualBox, waongeze kwenye mipangilio ya VM kabla ya kuanza.
+- 1 GB RAM** kiwango cha chini (**2 GB au zaidi inapendekezwa ili kuwezesha vifurushi vya ziada au usaidizi wa ZFS).
+- Nafasi ya diski ya **GB 8** (GB 20 au zaidi inapendekezwa kwa usanidi wa hali ya juu zaidi, haswa ikiwa unasakinisha akiba ya seva mbadala, IDS/IPS au kumbukumbu za kina).
+- Angalau miingiliano miwili ya mtandao pepe (moja ya WAN, moja ya LAN). Katika VirtualBox, waongeze kwenye mipangilio ya VM kabla ya kuanza.
 
 
 
@@ -309,8 +309,8 @@ Skrini ya kuingia inaonekana. Vitambulisho chaguo-msingi ni:
 
 
 
-- Jina la mtumiaji:** `admin`
-- Nenosiri:** `pfsense`
+- Jina la mtumiaji: **admin**
+- **Nenosiri:** `pfsense`
 
 
 
@@ -352,7 +352,7 @@ Onyesha saa za eneo la tovuti yako ili kumbukumbu na ratiba zilingane (k.m. `Ula
 
 
 
-Sanidi muunganisho wa WAN :
+Sanidi muunganisho wa WAN:
 
 
 
@@ -429,10 +429,10 @@ Kumaliza utumaji wako kwa amani ya akili:
 
 
 
-- Rekebisha sheria za ngome**: kwa chaguo-msingi, pfSense inaruhusu trafiki yote inayotoka kwenye LAN na kuzuia trafiki inayoingia kwenye WAN. Rekebisha sheria hizi kama inavyotakiwa.
-- Sanidi ufikiaji salama wa mbali**: ikihitajika, wezesha ufikiaji wa mtandao wa Interface kutoka kwa WAN kupitia VPN pekee au kwa vizuizi vya IP.
-- Washa arifa**: sanidi seva ya SMTP ili kupokea arifa (kushindwa, masasisho, hitilafu).
-- Sakinisha viendelezi muhimu**: kwa mfano, IDS/IPS (Snort, Suricata), proksi (Squid), uchujaji wa DNS (pfBlockerNG).
+- **Rekebisha sheria za ngome**: kwa chaguo-msingi, pfSense inaruhusu trafiki yote inayotoka kwenye LAN na kuzuia trafiki inayoingia kwenye WAN. Rekebisha sheria hizi kama inavyotakiwa.
+- **Sanidi ufikiaji salama wa mbali**: ikihitajika, wezesha ufikiaji wa mtandao wa Interface kutoka kwa WAN kupitia VPN pekee au kwa vizuizi vya IP.
+- **Washa arifa**: sanidi seva ya SMTP ili kupokea arifa (kushindwa, masasisho, hitilafu).
+- **Sakinisha viendelezi muhimu**: kwa mfano, IDS/IPS (Snort, Suricata), proksi (Squid), uchujaji wa DNS (pfBlockerNG).
 
 
 

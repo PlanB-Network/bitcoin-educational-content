@@ -1,0 +1,9 @@
+question: Unix'in iki ana yaratıcısı kimdi?
+answer: Ken Thompson ve Dennis Ritchie
+wrong_answers:
+  - Richard Stallman ve Linus Torvalds
+  - Andrew S. Tanenbaum ve Larry Ewing
+  - Steve Jobs ve Bill Gates
+explanation: |
+  Unix, 1960'ların sonu ve 1970'lerin başında AT&T Bell Laboratuvarlarında Ken Thompson ve Dennis Ritchie tarafından geliştirilmiştir.
+reviewed: false

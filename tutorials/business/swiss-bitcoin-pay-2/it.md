@@ -74,7 +74,7 @@ Per questo tutorial, sceglierò di ricevere i miei pagamenti tramite Lightning. 
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 Dovrai quindi pagare 1 sat per verificare il tuo indirizzo Lightning. Nel caso di un indirizzo bitcoin, dovrai fornire una firma con la chiave privata corrispondente a quell'indirizzo.
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
-Infine, hai l'opzione di aggiungere un codice di riferimento. Se desideri sostenerci, puoi usare il codice "*DiscoverBitcoin*" in modo che una parte delle tue commissioni sia condivisa con noi. Grazie! :) ![SWISS BITCOIN PAY](assets/notext/12.webp)
+Infine, hai l'opzione di aggiungere un codice di riferimento. Se desideri sostenerci, puoi usare il codice "*DiscoverBitcoin*" in modo che una parte delle tue commissioni sia condivisa con noi. Grazie!:) ![SWISS BITCOIN PAY](assets/notext/12.webp)
 Una volta inserite tutte le informazioni, clicca sul pulsante "*Invia*".
 ![SWISS BITCOIN PAY](assets/notext/13.webp)
 Ed ecco fatto! Il tuo account Swiss Bitcoin Pay è ora pronto. Ora puoi iniziare a ricevere pagamenti in Bitcoin per la tua attività!

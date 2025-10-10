@@ -1,0 +1,9 @@
+question: Bir grup On-Chain faaliyetini bir tür gerçek kimliğe bağlayan bilgi için kullanılan terim nedir?
+answer: Bir giriş noktası.
+wrong_answers:
+  - Bir bağlantı anahtarı.
+  - Bir parmak izi bağlantısı.
+  - Bir analiz işaretleyicisi.
+explanation: |
+  Gerçek bir kimliği On-Chain faaliyetine bağlayabilecek davranışlar ve bilgiler giriş noktaları olarak adlandırılır.
+reviewed: false

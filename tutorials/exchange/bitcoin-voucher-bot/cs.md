@@ -4,9 +4,9 @@ description: Bot Telegramu pro nákup Bitcoin v důvěrnosti
 ---
 ![image](assets/cover.webp)
 
-_Tento návod napsal_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Tento návod byl napsán od_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Úvod
+## Úvod
 
 BitcoinVoucherBot je nástroj, s jehož pomocí lze nakupovat bitcoiny v Exchange za eura.
 
@@ -32,7 +32,7 @@ V chatu Telegramu připravíme objednávku, bankovním převodem ji zaplatíme a
 
 Aktivace je jednoduchá jednorázová operace. Na Telegramu vyhledejte _@BitcoinVoucherBot_ a jakmile se dostanete do chatu Bota, vynikne dole velké tlačítko _Start/Start_. Operace vyvolá reakci Bota, který představí nabídku hlavních příkazů, které má k dispozici. Objeví se také první uvítací zprávy, u kterých doporučujeme pečlivé čtení.
 
-**Upozornění**: existuje několik podvodníků, kteří se vydávají za původní VoucherBot. Pokud si nejste jisti vyhledáváním přes Telegram, přistupte prosím na odkaz BitcoinVoucherBot z [oficiální webové stránky](https://www.bitcoinvoucherbot.com/)
+**Pozor**: existuje několik podvodníků, kteří se vydávají za originální VoucherBot. Pokud si nejste jisti vyhledáváním přes Telegram, přejděte na odkaz BitcoinVoucherBot z [oficiálních stránek](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Mezi hlavní operace patří:
 - _/fees_: příkaz pro kontrolu síťových poplatků. Pro jejich vyhodnocení je vždy nejlepší spoléhat se na Mempool.space.
 - _/support_: v případě potřeby zobrazí kontakty pro nahlášení problémů týmu podpory.
 
-# Postup nákupu Bitcoin
+## Postup nákupu Bitcoinu
 
-## Příprava objednávky
+### Příprava objednávky
 
 V příkazovém menu klikněte na _/purchase_
 
@@ -97,7 +97,7 @@ Pokud je vše v pořádku, pokračujte kliknutím na tlačítko _Pokračovat_.
 
 ![image](assets/it/10.webp)
 
-## Platba
+### Platba
 
 Po několika okamžicích, které jsou nutné ke zpracování údajů, VoucherBot odpoví zprávou obsahující všechny údaje potřebné k dokončení objednávky. V závislosti na tom, co vaše banka vyžaduje, jsou příslušné informace následující:
 
@@ -124,7 +124,7 @@ Upozornění:
 - pro všechny potřeby, Bitcoin VoucherBot má vynikající [podpora](https://t.me/BitcoinVoucherGroup) služby na Telegramu.
 
 ---
-## Vykoupení
+### Vykoupení
 
 Jakmile je platba úspěšná, odešle Bitcoin VoucherBot poukaz přímo do chatu. Bleskový voucher má podobu QR kódu vytištěného na oranžovém pozadí.
 
@@ -139,7 +139,7 @@ K dispozici jsou všechna data potřebná k jeho zpeněžení:
 
 Voucher můžete uplatnit zarámováním QR kódu pomocí skenovací funkce kompatibilního zařízení Wallet Lightning Network nebo prostřednictvím služby LNURL, která je rovněž uvedena pod QR kódem.
 
-Pro tento návod jsme použili Wallet Z Satoshi, pomocí funkce skenování aktivované klávesou _Odeslat_
+Pro tento tutoriál jsme použili Wallet Of Satoshi, s využitím funkce skenování aktivované tlačítkem _Send_.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Při aktivovaném fotoaparátu mobilního telefonu zarámujte kód QR v chatu a 
 
 ![image](assets/it/34.webp)
 
-Před pokračováním, Wallet Z Satoshi z ověřovací obrazovky, která obsahuje částku, která přesně odpovídá částce vyjádřené na poukazu a jako popis, BitcoinVoucherBot. Chcete-li poukázku proplatit, stačí kliknout na _Přijmout_
+Před pokračováním zobrazí Wallet Of Satoshi ověřovací obrazovku, která obsahuje částku, jež přesně odpovídá té uvedené na voucheru, a jako popis BitcoinVoucherBot. Pro uplatnění voucheru stačí kliknout na _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet Z Satoshi zpracovává několik okamžiků
+Wallet Of Satoshi zpracovává po dobu několika okamžiků.
 
 ![image](assets/it/36.webp)
 
 a nakonec je sbírka vykázána a okamžitě k dispozici v zůstatku Wallet.
 
-**Wallet z Satoshi je opatrovnická aplikace: ihned po proplacení poukázky je vhodné přesunout Sats na Wallet, která není opatrovnická.**
+**Wallet of Satoshi je úschovná aplikace: ihned po uplatnění voucheru se doporučuje přesunout sats do neúschovné peněženky.**
 
 ![image](assets/it/37.webp)
 

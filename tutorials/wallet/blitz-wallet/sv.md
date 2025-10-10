@@ -1,5 +1,5 @@
 ---
-name: Blixt Wallet
+name: Blitz Wallet
 
 description: Den enklaste Bitcoin Wallet.
 ---
@@ -92,19 +92,19 @@ En av de speciella egenskaperna hos Blitz Wallet är att den stöder olika nätv
 
 
 
-- Lightning Network** : En av Bitcoin-överlagringarna som låter dig utföra mikrotransaktioner direkt.
+- **Lightning Network**: En av Bitcoin-överlagringarna som låter dig utföra mikrotransaktioner direkt.
 
 
 
 
 
-- Bitcoin Mainnet** : Huvudkedjan i Bitcoin-protokollet, lämplig för transaktioner med stora värden.
+- **Bitcoin Mainnet**: Huvudkedjan i Bitcoin-protokollet, lämplig för transaktioner med stora värden.
 
 
 
 
 
-- Liquid Network**: En parallell kedja till Bitcoin Mainnet utvecklad av BlockStream som använder Liquid Bitcoins för att utföra snabba, Confidential Transactions.
+- **Liquid Network**: En parallell kedja till Bitcoin Mainnet utvecklad av BlockStream som använder Liquid Bitcoins för att utföra snabba, Confidential Transactions.
 
 
 
@@ -168,7 +168,7 @@ Förutom Bitcoin-överföringsoperationer erbjuder Blitz Wallet dig en butik dä
 
 
 
-- Få tillgång till AI-tjänster**: Använd generativa modeller för artificiell intelligens som t.ex: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 och betala direkt i bitcoins.
+- **Få tillgång till AI-tjänster**: Använd generativa modeller för artificiell intelligens som t.ex: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 och betala direkt i bitcoins.
 
 
 
@@ -178,7 +178,7 @@ Förutom Bitcoin-överföringsoperationer erbjuder Blitz Wallet dig en butik dä
 
 
 
-- Skicka textmeddelanden var som helst i världen**: I Blitz-butiken har du tillgång till en GSM-tjänst som låter dig skicka textmeddelanden anonymt överallt i världen, med direktfakturering i Bitcoin.
+- **Skicka textmeddelanden var som helst i världen**: I Blitz-butiken har du tillgång till en GSM-tjänst som låter dig skicka textmeddelanden anonymt överallt i världen, med direktfakturering i Bitcoin.
 
 
 
@@ -188,7 +188,7 @@ Förutom Bitcoin-överföringsoperationer erbjuder Blitz Wallet dig en butik dä
 
 
 
-- Surfa i total sekretess**: Betala för en WireGuard VPN-prenumeration (Virtual Private Network) i Wallet Blitz-butiken med dina bitcoins.
+- **Surfa i total sekretess**: Betala för en WireGuard VPN-prenumeration (Virtual Private Network) i Wallet Blitz-butiken med dina bitcoins.
 
 
 
@@ -248,7 +248,7 @@ Genom att aktivera Lightning mode, när huvudvillkoret har uppfyllts (saldo på 
 
 
 
-- Acceptera Bitcoin i din butik** :
+- **Acceptera Bitcoin i din butik**:
 
 
 

@@ -1,0 +1,13 @@
+question: Mining 네트워크에서 약 4년마다 지급되는 Bitcoin 보상은 어떻게 되나요?
+answer: Halving
+wrong_answers:
+  - 두 배로 증가
+  - 세 배 증가
+  - 동일하게 유지됩니다
+explanation: |
+  Bitcoin 네트워크의 Mining 보상은 다음과 같이 변경됩니다
+  210,000 블록마다, 약 4년마다
+  년마다. 이 보상은 다음과 같은 강력한 인센티브로 작용합니다
+  채굴자들이 Mining 프로세스에 참여하도록 장려하는 강력한 인센티브 역할을 합니다
+  에너지 비용에도 불구하고 말이죠.
+reviewed: true

@@ -59,8 +59,8 @@ Una volta completate tutte le sezioni e inviati i documenti necessari, cliccare 
 Una volta verificato il vostro conto, accederete alla piattaforma dove vi verranno proposte due interfacce:
 
 
-- Kraken**: Un'interfaccia semplificata che offre funzionalità essenziali.
-- Kraken Pro**: Un'interfaccia avanzata con funzioni aggiuntive, soprattutto per il trading.
+- **Kraken**: Un'interfaccia semplificata che offre funzionalità essenziali.
+- **Kraken Pro**: Un'interfaccia avanzata con funzioni aggiuntive, soprattutto per il trading.
 
 Se il vostro obiettivo è esclusivamente quello di acquistare e vendere bitcoin, optate per l'interfaccia semplificata. Avrete sempre la possibilità di passare all'interfaccia avanzata in un secondo momento, se necessario.
 
@@ -158,9 +158,9 @@ Selezionare l'importo, scegliere la criptovaluta che si desidera ottenere e conf
 Per queste transazioni è possibile scegliere tra diversi tipi di ordine: *Mercato*, *Limite* o *Stop-Loss*:
 
 
-- Mercato* : Consente l'acquisto immediato al prezzo di mercato corrente;
-- Limite*: Consente di specificare un prezzo di acquisto e l'ordine verrà eseguito solo se il prezzo di mercato raggiunge tale importo;
-- Stop-Loss* : Vende automaticamente quando il prezzo raggiunge una certa soglia.
+- **Mercato**: Consente l'acquisto immediato al prezzo di mercato corrente;
+- **Limite**: Consente di specificare un prezzo di acquisto e l'ordine verrà eseguito solo se il prezzo di mercato raggiunge tale importo;
+- **Stop-Loss**: Vende automaticamente quando il prezzo raggiunge una certa soglia.
 
 ## 7 - Gestione delle transazioni e contabilità
 
@@ -194,7 +194,7 @@ A seconda degli obiettivi e della struttura dell'azienda, l'uso di Kraken può v
 
 ### Acquistare bitcoin in cambio di contanti
 
-**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.
+**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.**
 
 **Passi da seguire:**
 

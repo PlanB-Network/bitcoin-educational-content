@@ -1,5 +1,5 @@
 ---
-name: Breskva
+name: Peach
 description: Kompletan vodič za korišćenje Peach-a i razmenu bitkoina P2P
 ---
 ![cover](assets/cover.webp)
@@ -25,7 +25,7 @@ Breskva je P2P Exchange platforma koja omogućava korisnicima kupovinu i prodaju
 ### 2. Privatnost i Prikupljanje Podataka
 
 
-**Koje informacije Peach prikuplja?
+**Koje informacije Peach prikuplja?**
 
 
 Breskva nastoji da čuva apsolutni minimum podataka o svojim korisnicima. Ovde je pregled podataka koji se čuvaju na njenim serverima:
@@ -49,7 +49,7 @@ Kao podsetnik, Hash je podatak učinjen neprepoznatljivim, slično enkripciji. I
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Ko može videti moje podatke o plaćanju?
+**Ko može videti moje podatke o plaćanju?**
 
 
 
@@ -93,17 +93,17 @@ Aplikacija Peach je organizovana oko četiri glavna ekrana dostupna iz donje nav
 
 
 
-- Početna** : Glavni ekran za kupovinu i prodaju bitkoina. Ovde možete kreirati nove transakcije i pristupiti dostupnim ponudama.
-- Wallet**: Vaš integrisani Bitcoin Wallet koji vam omogućava da:
+- **Početna**: Glavni ekran za kupovinu i prodaju bitkoina. Ovde možete kreirati nove transakcije i pristupiti dostupnim ponudama.
+- **Wallet**: Vaš integrisani Bitcoin Wallet koji vam omogućava da:
  - Proveri svoj saldo
  - Primite bitkoine
  - Pošalji bitkoine
  - Pregledajte istoriju transakcija
-- Trades** : Vaš centar za upravljanje trgovinom gde ćete pronaći :
+- **Trades**: Vaš centar za upravljanje trgovinom gde ćete pronaći :
  - Vaše trenutne transakcije
  - Kompletna istorija vaših razmena
  - Status svake transakcije
-- Postavke** : Vaš čvorište za konfiguraciju naloga za :
+- **Postavke**: Vaš čvorište za konfiguraciju naloga za:
  - Upravljajte svojim metodama plaćanja
  - Konfigurišite svoje rezervne kopije
  - Prilagodite svoje preference
@@ -119,7 +119,7 @@ Aplikacija Peach je organizovana oko četiri glavna ekrana dostupna iz donje nav
 Pristupite metodama plaćanja putem kartice Podešavanja (slika 8)
 
 
-**Online plaćanja
+**Online plaćanja**
 
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
@@ -205,7 +205,7 @@ Sistemi plaćanja specifični za zemlju :
 ### 4. Kako osigurati svoj Wallet
 
 
-**Razumevanje vašeg Peach naloga
+**Razumevanje vašeg Peach naloga**
 
 
 Peach nalog nije tradicionalni nalog sa korisničkim imenom i lozinkom. To je fajl koji se čuva lokalno na vašem telefonu, što znači da Peach ne mora da čuva vaše podatke ili zna vaš identitet: vi imate kontrolu. Ovaj fajl sadrži sve vaše podatke, od vaših Bitcoin Wallet ključeva do vaših podataka o plaćanju.
@@ -378,10 +378,10 @@ Za optimalnu sigurnost, preporučujemo da izvršite obe vrste bekapa.
 
 
 
-- Nije potreban KYC**: Čuva poverljivost korisnika.
-- Nema pristupa bankovnim podacima**: Peach nema pristup vašim bankovnim podacima ili vašem identitetu.
-- Intuitivni Interface**: Lako za korišćenje za korisnike srednjeg nivoa.
-- Otvoreni kod** : Izvorni kod je javan i proverljiv od strane zajednice.
+- **Nije potreban KYC**: Čuva poverljivost korisnika.
+- **Nema pristupa bankovnim podacima**: Peach nema pristup vašim bankovnim podacima ili vašem identitetu.
+- **Intuitivni Interface**: Lako za korišćenje za korisnike srednjeg nivoa.
+- **Otvoreni kod**: Izvorni kod je javan i proverljiv od strane zajednice.
 
 
 ### Nedostaci breskve
@@ -389,8 +389,8 @@ Za optimalnu sigurnost, preporučujemo da izvršite obe vrste bekapa.
 
 
 
-- Ograničena likvidnost**: Manji obim trgovanja u poređenju sa etabliranijim platformama.
-- Regulatory risk** : Aplikacija je upravljana od strane švajcarske kompanije. Stoga podleže švajcarskim propisima, koji bi mogli evoluirati i potencijalno cenzurisati aplikaciju.
+- **Ograničena likvidnost**: Manji obim trgovanja u poređenju sa etabliranijim platformama.
+- **Regulatory risk**: Aplikacija je upravljana od strane švajcarske kompanije. Stoga podleže švajcarskim propisima, koji bi mogli evoluirati i potencijalno cenzurisati aplikaciju.
 
 
 ## Korisni resursi

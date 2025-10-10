@@ -1,8 +1,12 @@
-question: Ni ipi mojawapo ya sababu kwa nini unapaswa kuunganisha UTXO zako kwenye pochi mara kwa mara?
-answer: Ili kuepuka ada zisizohitajika wakati wa shughuli.
+question: Je, kozi hii inaelezeaje Bitcoin?
+answer: Somo la fani nyingi.
 wrong_answers:
-  - Ili kuongeza thamani ya bitcoins zako.
-  - Ili kuzuia bitcoins zako zisiibiwe.
-  - Ili kuhakikisha bitcoins zako zinapatikana kila wakati.
-explanation: >-
+  - Somo rahisi.
+  - Somo la kimwili.
+  - Somo la nidhamu moja.
+explanation: |
+  Bitcoin inaelezewa kama somo la fani nyingi kwa sababu
+  inazua maswali kuhusiana na nyanja mbalimbali, ikiwa ni pamoja na
+  kriptografia, nadharia ya mchezo, uchumi na sera ya fedha,
+  sayansi ya kompyuta, falsafa, nishati, sheria, na kanuni.
 reviewed: true

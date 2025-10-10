@@ -15,7 +15,7 @@ Die Lösung ist einfach, leicht und eigenständig. Sie ermöglicht die Einrichtu
 
 
 
-In diesem Tutorial werden wir Sie Schritt für Schritt durch :
+In diesem Tutorial werden wir Sie Schritt für Schritt durch:
 
 
 
@@ -44,7 +44,7 @@ Bevor Sie mit der Installation von be-BOP beginnen, stellen Sie sicher, dass Sie
 
 
 
-be-BOP verwendet ein Speichersystem, um Dateien (z. B. Produktbilder) zu verwalten. Dies erfordert den Zugang zu einem S3-Dienst, wie z. B. :
+be-BOP verwendet ein Speichersystem, um Dateien (z. B. Produktbilder) zu verwalten. Dies erfordert den Zugang zu einem S3-Dienst, wie z. B.:
 
 
 
@@ -62,10 +62,10 @@ Sie müssen einen Bucket konfigurieren und die folgenden Informationen angeben:
 
 
 
-- S3_BUCKET**: Name des Eimers
-- S3_ENDPOINT_URL**: Zugangslink zu Ihrem S3-Dienst
-- S3_KEY_ID** und S3_KEY_SECRET: Ihre Zugangscodes
-- S3_REGION**: die Region Ihres S3-Dienstes
+- **S3_BUCKET**: Name des Eimers
+- **S3_ENDPOINT_URL**: Zugangslink zu Ihrem S3-Dienst
+- **S3_KEY_ID** und **S3_KEY_SECRET**: Ihre Zugangscodes
+- **S3_REGION**: die Region Ihres S3-Dienstes
 
 
 
@@ -94,8 +94,8 @@ Sie benötigen die folgenden Variablen:
 
 
 
-- MONGODB_URL**: Datenbankverbindung Address
-- MONGODB_DB**: Name der Datenbank
+- **MONGODB_URL**: Datenbankverbindung Address
+- **MONGODB_DB**: Name der Datenbank
 
 
 
@@ -278,7 +278,7 @@ be-BOP kann dank Lightning Network auch Bitcoin-Sofortzahlungen akzeptieren. Der
 
 
 
-**Phoenixd*
+**Phoenixd**
 
 
 
@@ -302,7 +302,7 @@ Wenn Sie einen Lightning-Knoten nicht selbst verwalten möchten, ist **Swiss Bit
 
 
 
-Konfigurationsschritte :
+Konfigurationsschritte:
 
 
 
@@ -330,7 +330,7 @@ Neben Bitcoin können Sie mit be-BOP auch Barzahlungen über PayPal akzeptieren,
 
 
 
-Konfigurationsschritte :
+Konfigurationsschritte:
 
 
 
@@ -467,15 +467,15 @@ Mit der Konfiguration **Top Bar** können Sie die visuelle Identität Ihrer Soft
 
 
 
-#### Konfigurationsschritte :
+#### Konfigurationsschritte:
 
 
 
 
 
 - Geben Sie in das Feld "Markenname" den Namen Ihres Unternehmens, Ihrer Organisation oder Ihres Produkts ein. Dieser Name wird oben auf dem Interface erscheinen und stellt Ihre wichtigste visuelle Identität dar.
-- Geben Sie den Titel der Website an**: Der gewählte Titel sollte den Zweck der Plattform zusammenfassen. Dieser Titel kann in der Kopfzeile oder in der Registerkarte des Browsers erscheinen.
-- Beschreibung der Website hinzufügen**: Hier können Sie eine kurze Beschreibung Ihrer Initiative eingeben. Diese Beschreibung hilft den Nutzern, das Tool in den richtigen Kontext zu setzen, und kann auch für SEO-Zwecke verwendet werden.
+- **Geben Sie den Titel der Website an**: Der gewählte Titel sollte den Zweck der Plattform zusammenfassen. Dieser Titel kann in der Kopfzeile oder in der Registerkarte des Browsers erscheinen.
+- **Beschreibung der Website hinzufügen**: Hier können Sie eine kurze Beschreibung Ihrer Initiative eingeben. Diese Beschreibung hilft den Nutzern, das Tool in den richtigen Kontext zu setzen, und kann auch für SEO-Zwecke verwendet werden.
 
 
 
@@ -491,16 +491,16 @@ Mit dem Abschnitt "Links" in der Top-Leiste können Sie Verknüpfungen zu wichti
 
 
 
-#### Konfigurationsschritte :
+#### Konfigurationsschritte:
 
 
 
 
 
-- Name des Links eingeben (Text)**: Geben Sie in das Feld "Text" den Namen oder die Bezeichnung des Links ein, wie er erscheinen soll (z. B. Home, Kontakt, Hilfe usw.).
-- Link Address (Url)** angeben: Geben Sie in das Feld "URL" die vollständige Address der Zielseite (intern oder extern) ein.
-- Fügen Sie bei Bedarf weitere Links hinzu**: In jeder Konfigurationszeile können Sie über die Felder `Text` und `Url` einen zusätzlichen Link hinzufügen.
-- Links speichern**: Wenn Sie alle Links eingegeben haben, klicken Sie auf die Schaltfläche "Link zur oberen Leiste hinzufügen", um sie zu speichern.
+- **Name des Links eingeben (Text)**: Geben Sie in das Feld "Text" den Namen oder die Bezeichnung des Links ein, wie er erscheinen soll (z. B. Home, Kontakt, Hilfe usw.).
+- **Link Address (Url) angeben**: Geben Sie in das Feld "URL" die vollständige Address der Zielseite (intern oder extern) ein.
+- **Fügen Sie bei Bedarf weitere Links hinzu**: In jeder Konfigurationszeile können Sie über die Felder `Text` und `Url` einen zusätzlichen Link hinzufügen.
+- **Links speichern**: Wenn Sie alle Links eingegeben haben, klicken Sie auf die Schaltfläche "Link zur oberen Leiste hinzufügen", um sie zu speichern.
 
 
 
@@ -522,10 +522,10 @@ Im Abschnitt **Navbar** können Sie das Hauptnavigationsmenü Ihres be-BOP konfi
 
 
 
-- Geben Sie den Namen des Links (`Text`)** ein: Füllen Sie in der Konfigurationszeile zunächst das Feld `Text` aus. Dies entspricht dem Namen des Links, der in der Navigationsleiste angezeigt wird (Beispiele: *Dashboard*, *Benutzer*, *Einstellungen*...).
-- Geben Sie den Link Address (`Url`)** ein: Neben dem Feld `Text` befindet sich das Feld `Url`. Geben Sie in dieses Feld die Address der Seite ein, zu der der Link weiterleiten soll. Dies kann eine interne Route oder ein Link zu einer externen Seite sein.
-- Fügen Sie bei Bedarf mehrere Links hinzu**: Unter der ersten Zeile stehen neue Felder `Text` und `Url` zur Verfügung, in die Sie beliebig viele Links einfügen können. Jede Zeile steht für einen zusätzlichen Navigationslink.
-- Links speichern**: Wenn Sie alle Elements eingegeben haben, klicken Sie auf die Schaltfläche "Link zur Navigationsleiste hinzufügen", um die Ergebnisse zu speichern und in der Navigationsleiste anzuzeigen.
+- Geben Sie den Namen des Links (`Text`) ein: Füllen Sie in der Konfigurationszeile zunächst das Feld `Text` aus. Dies entspricht dem Namen des Links, der in der Navigationsleiste angezeigt wird (Beispiele: *Dashboard*, *Benutzer*, *Einstellungen*...).
+- Geben Sie den Link Address (`Url`) ein: Neben dem Feld `Text` befindet sich das Feld `Url`. Geben Sie in dieses Feld die Address der Seite ein, zu der der Link weiterleiten soll. Dies kann eine interne Route oder ein Link zu einer externen Seite sein.
+- **Fügen Sie bei Bedarf mehrere Links hinzu**: Unter der ersten Zeile stehen neue Felder `Text` und `Url` zur Verfügung, in die Sie beliebig viele Links einfügen können. Jede Zeile steht für einen zusätzlichen Navigationslink.
+- **Links speichern**: Wenn Sie alle Elements eingegeben haben, klicken Sie auf die Schaltfläche "Link zur Navigationsleiste hinzufügen", um die Ergebnisse zu speichern und in der Navigationsleiste anzuzeigen.
 
 
 
@@ -547,11 +547,11 @@ Im Abschnitt **Fußzeile** können Sie die Fußzeile Ihrer Software anpassen und
 
 
 
-- Aktivieren Sie die Anzeige des Labels "Powered by be-BOP "**: Aktivieren Sie die Schaltfläche "Powered by be-BOP anzeigen", um dieses Label in der Fußzeile anzuzeigen.
-- Geben Sie den Namen des Links ein (`Text`)**: Füllen Sie das Feld `Text` aus, das dem Wortlaut des Links in der Fußzeile entspricht (Beispiele: *Terms*, *Privacy*, *Contact*...).
-- Link Address angeben (`Url`)**: Geben Sie in das Feld `Url` die Address der Zielseite (intern oder extern) ein.
-- Fügen Sie bei Bedarf weitere Links hinzu**: Verwenden Sie die zusätzlichen Zeilen, um so viele Links zu erstellen, wie Sie möchten.
-- Links speichern**: Klicken Sie auf die Schaltfläche "Fußzeilenlink hinzufügen", um Links zu speichern.
+- Aktivieren Sie die Anzeige des Labels **"Powered by be-BOP"**: Aktivieren Sie die Schaltfläche "Powered by be-BOP anzeigen", um dieses Label in der Fußzeile anzuzeigen.
+- Geben Sie den Namen des Links ein (`Text`): Füllen Sie das Feld `Text` aus, das dem Wortlaut des Links in der Fußzeile entspricht (Beispiele: *Terms*, *Privacy*, *Contact*...).
+- **Link Address angeben (`Url`)**: Geben Sie in das Feld `Url` die Address der Zielseite (intern oder extern) ein.
+- **Fügen Sie bei Bedarf weitere Links hinzu**: Verwenden Sie die zusätzlichen Zeilen, um so viele Links zu erstellen, wie Sie möchten.
+- **Links speichern**: Klicken Sie auf die Schaltfläche "Fußzeilenlink hinzufügen", um Links zu speichern.
 
 
 
@@ -641,8 +641,8 @@ In diesem Bereich, der über `Admin > Identität` (oder `Einstellungen > Identit
 
 
 
-- Firmenname**: offizieller Firmenname.
-- Unternehmens-ID**: gesetzliche Kennung oder Registrierungsnummer (RCCM, SIRET...).
+- **Firmenname**: offizieller Firmenname.
+- **Unternehmens-ID**: gesetzliche Kennung oder Registrierungsnummer (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ In diesem Bereich, der über `Admin > Identität` (oder `Einstellungen > Identit
 
 
 
-- Straße**: postalische Address (Straße, Nummer...).
-- Land**: Land.
-- Staat**: Provinz oder Region.
-- Stadt**: Stadt.
-- Postleitzahl**: Postleitzahl.
+- **Straße**: postalische Address (Straße, Nummer...).
+- **Land**: Land.
+- **Staat**: Provinz oder Region.
+- **Stadt**: Stadt.
+- **Postleitzahl**: Postleitzahl.
 
 
 
@@ -666,8 +666,8 @@ In diesem Bereich, der über `Admin > Identität` (oder `Einstellungen > Identit
 
 
 
-- E-Mail**: Professionelle E-Mail Address.
-- Telefon**: Telefonnummer des Unternehmens.
+- **E-Mail**: Professionelle E-Mail Address.
+- **Telefon**: Telefonnummer des Unternehmens.
 
 
 
@@ -677,10 +677,10 @@ In diesem Bereich, der über `Admin > Identität` (oder `Einstellungen > Identit
 
 
 
-- Name des Kontoinhabers**: Name des Kontoinhabers.
-- Kontoinhaber Address**: Address des Inhabers.
-- IBAN**: Internationale Bankkontonummer.
-- BIC**: SWIFT/BIC-Code.
+- **Name des Kontoinhabers**: Name des Kontoinhabers.
+- **Kontoinhaber Address**: Address des Inhabers.
+- **IBAN**: Internationale Bankkontonummer.
+- **BIC**: SWIFT/BIC-Code.
 
 
 
@@ -695,7 +695,7 @@ In diesem Bereich, der über `Admin > Identität` (oder `Einstellungen > Identit
 
 
 - Klicken Sie auf "Mit Hauptgeschäftsinformationen ausfüllen", um die Daten vorauszufüllen.
-- Sehr-rechts-Ausstellerinformationen**: Feld für rechtliche/steuerliche Informationen, die auf Rechnungen sichtbar sind.
+- **Sehr-rechts-Ausstellerinformationen**: Feld für rechtliche/steuerliche Informationen, die auf Rechnungen sichtbar sind.
 - Klicken Sie auf "Aktualisieren", um die Änderungen zu speichern.
 
 
@@ -742,9 +742,9 @@ Gehen Sie zu `Admin > Merch > Produkte`, um ein Produkt hinzuzufügen oder zu ä
 
 
 
-- Produktname**: Name des Produkts (z. B. *BOP-T-Shirt limitierte Auflage*).
-- Slug**: URL-Bezeichner ohne Leerzeichen (z. B. `tshirt-bop-edition-limitee`).
-- Alias** *(optional)*: Nützlich für das schnelle Hinzufügen zum Warenkorb über ein eigenes Feld.
+- **Produktname**: Name des Produkts (z. B. *BOP-T-Shirt limitierte Auflage*).
+- **Slug**: URL-Bezeichner ohne Leerzeichen (z. B. `tshirt-bop-edition-limitee`).
+- **Alias** *(optional)*: Nützlich für das schnelle Hinzufügen zum Warenkorb über ein eigenes Feld.
 
 
 
@@ -758,9 +758,9 @@ Gehen Sie zu `Admin > Merch > Produkte`, um ein Produkt hinzuzufügen oder zu ä
 
 
 
-- Preisbetrag**: Produktpreis (z. B. "25,00").
-- Preiswährung**: Währung (EUR, USD, BTC, usw.).
-- Besondere Produkte** :
+- **Preisbetrag**: Produktpreis (z. B. "25,00").
+- **Preiswährung**: Währung (EUR, USD, BTC, usw.).
+- **Besondere Produkte**:
   - dies ist ein kostenloses Produkt.
   - dies ist ein "Pay-what-you-want"-Produkt.
 
@@ -772,14 +772,14 @@ Gehen Sie zu `Admin > Merch > Produkte`, um ein Produkt hinzuzufügen oder zu ä
 
 
 
-- Einzelprodukt (`standalone`)**: nur ein Zusatz pro Bestellung möglich (z.B. Spende, Eintrittskarte).
-- Produkt mit Variationen** :
+- **Einzelprodukt (`standalone`)**: nur ein Zusatz pro Bestellung möglich (z.B. Spende, Eintrittskarte).
+- **Produkt mit Variationen**:
   - Kontrollieren Sie nicht `Standalone`.
   - Prüfen Sie "Das Produkt hat leichte Abweichungen (kein Bestandsunterschied)".
   - Hinzufügen:
-    - Name** (z.B. *Größe*),
-    - Werte** (z. B.: S, M, L, XL),
-    - Ggf. Preisunterschiede** (z. B.: "+2 USD" für XL).
+- **Name** (z.B. *Größe*),
+- **Werte** (z. B.: S, M, L, XL),
+- Ggf. **Preisunterschiede** (z. B.: "+2 USD" für XL).
 
 
 
@@ -803,14 +803,14 @@ Wenn Ihr Produkt nicht in unbegrenzten Mengen verfügbar ist, markieren Sie "Das
 
 
 
-Das System verwaltet :
+Das System verwaltet:
 
 
 
 
 
-- Reservierte Bestände** → Produkte in noch nicht bezahlten Warenkörben
-- Verkaufte Lagerbestände** → bereits gekaufte Produkte
+- **Reservierte Bestände** → Produkte in noch nicht bezahlten Warenkörben
+- **Verkaufte Lagerbestände** → bereits gekaufte Produkte
 
 
 
@@ -832,8 +832,8 @@ Markieren Sie "Das Produkt hat eine physische Komponente, die an den Address des
 
 
 
-- Ticket**: ankreuzen, wenn das Produkt ein Ticket für eine Veranstaltung ist
-- Buchung**: prüfen Sie, ob es sich um eine Reservierung handelt (z. B.: Sitzung, Termin)
+- **Ticket**: ankreuzen, wenn das Produkt ein Ticket für eine Veranstaltung ist
+- **Buchung**: prüfen Sie, ob es sich um eine Reservierung handelt (z. B.: Sitzung, Termin)
 
 
 
@@ -872,7 +872,7 @@ Gehen Sie zu `Admin > Merch > CMS`. Sie sehen eine Liste der vorhandenen Seiten 
 
 
 
-CMS-Seiten sind wichtig für :
+CMS-Seiten sind wichtig für:
 
 
 
@@ -898,7 +898,7 @@ Sie können bei Bedarf weitere Seiten hinzufügen:
 
 
 
-**Tipp: Klicken Sie auf jeden Link oder jedes Symbol, um den **Inhalt**, den **Titel** oder die **Sichtbarkeit** der jeweiligen Seite zu ändern.
+**Tipp: Klicken Sie auf jeden Link oder jedes Symbol, um den Inhalt, den Titel oder die Sichtbarkeit der jeweiligen Seite zu ändern.**
 
 
 
@@ -956,7 +956,7 @@ Gehe zu: `Admin > Merch > Bilder`
 
 
 
-Sie können :
+Sie können:
 
 
 
@@ -983,7 +983,7 @@ Ebenfalls unter "Bilder" änderbar, können Sie je nach Thema eine **Zusammenfas
 
 
 
-Widgets** bereichern Ihre CMS-Seiten mit dynamischen oder visuellen Elements.
+**Widgets** bereichern Ihre CMS-Seiten mit dynamischen oder visuellen Elements.
 
 
 
@@ -1001,14 +1001,14 @@ Beispiele für verfügbare Widgets:
 
 
 
-- Herausforderungen**: Herausforderungen oder Missionen
-- Tags**: Kategorien oder Schlüsselwörter
-- Schieberegler**: Bildkarussells
-- Spezifikationen** : Tabellen mit Spezifikationen
-- Formulare**: Formulare (Kontakt, Feedback, usw.)
-- Countdowns**: Zeitschaltuhren
-- Galerien**: Bildergalerien
-- Bestenlisten**: Benutzer-Ranglisten
+- **Herausforderungen**: Herausforderungen oder Missionen
+- **Tags**: Kategorien oder Schlüsselwörter
+- **Schieberegler**: Bildkarussells
+- **Spezifikationen**: Tabellen mit Spezifikationen
+- **Formulare**: Formulare (Kontakt, Feedback, usw.)
+- **Countdowns**: Zeitschaltuhren
+- **Galerien**: Bildergalerien
+- **Bestenlisten**: Benutzer-Ranglisten
 
 
 
@@ -1033,7 +1033,7 @@ Verwenden Sie **Shortcodes** im Inhalt Ihrer CMS-Seiten:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Aktuelle Parameter** :
+**Aktuelle Parameter**:
 
 
 
@@ -1046,7 +1046,7 @@ Verwenden Sie **Shortcodes** im Inhalt Ihrer CMS-Seiten:
 
 
 
-**Vorteile** :
+**Vorteile**:
 
 
 
@@ -1103,7 +1103,7 @@ Diese Filter erleichtern die schnelle Suche und die gezielte Verwaltung.
 
 
 
-Wenn Sie auf eine Bestellung klicken, können Sie eine vollständige Datei mit :
+Wenn Sie auf eine Bestellung klicken, können Sie eine vollständige Datei mit:
 
 
 
@@ -1120,7 +1120,7 @@ Wenn Sie auf eine Bestellung klicken, können Sie eine vollständige Datei mit :
 
 
 
-Sie können :
+Sie können:
 
 
 
@@ -1141,7 +1141,7 @@ Sie können :
 
 
 
-Zugriff auf Verkaufs- und Zahlungsstatistiken :
+Zugriff auf Verkaufs- und Zahlungsstatistiken:
 
 
 administrator > Einstellungen > Berichte
@@ -1166,9 +1166,9 @@ Die Berichte sind in Abschnitte unterteilt:
 
 
 
-- Auftragsdetails**: Anzahl der Aufträge, Status (bestätigt, storniert, ausstehend), Entwicklung
-- Produktdetail**: verkaufte Produkte, Mengen, beliebte Produkte
-- Zahlungsdetails**: eingezogene Beträge, Aufschlüsselung nach Zahlungsmethode
+- **Auftragsdetails**: Anzahl der Aufträge, Status (bestätigt, storniert, ausstehend), Entwicklung
+- **Produktdetail**: verkaufte Produkte, Mengen, beliebte Produkte
+- **Zahlungsdetails**: eingezogene Beträge, Aufschlüsselung nach Zahlungsmethode
 
 
 
@@ -1176,7 +1176,7 @@ Die Berichte sind in Abschnitte unterteilt:
 
 
 
-Jeder Abschnitt enthält eine Schaltfläche **Export CSV**, mit der Sie :
+Jeder Abschnitt enthält eine Schaltfläche **Export CSV**, mit der Sie:
 
 
 
@@ -1217,7 +1217,7 @@ Die Plattform unterstützt das **Nostr**-Protokoll für bestimmte erweiterte Fun
 
 
 
-Gehen Sie zu :
+Gehen Sie zu:
 
 
 verwaltung > Knotenverwaltung > Nostr
@@ -1304,15 +1304,15 @@ Hier finden Sie alle Optionen zum **Erstellen** und **Konfigurieren** eines benu
 
 
 
-Wenn Sie ein Thema erstellen oder ändern, können Sie :
+Wenn Sie ein Thema erstellen oder ändern, können Sie:
 
 
 
 
 
-- Farben**: für Schaltflächen, Hintergründe, Text, Links, usw.
-- Schriftarten**: Auswahl an Schriftarten für Titel, Absätze, Menüs
-- Grafikstile**: Rahmen, Ränder, Abstände, Blockformen
+- **Farben**: für Schaltflächen, Hintergründe, Text, Links, usw.
+- **Schriftarten**: Auswahl an Schriftarten für Titel, Absätze, Menüs
+- **Grafikstile**: Rahmen, Ränder, Abstände, Blockformen
 
 
 
@@ -1326,9 +1326,9 @@ Jeder Teil der Website kann unabhängig eingestellt werden:
 
 
 
-- Kopfzeile**: obere Navigationsleiste
-- Körper**: Hauptinhalt
-- Fußzeile** : unten auf der Seite
+- **Kopfzeile**: obere Navigationsleiste
+- **Körper**: Hauptinhalt
+- **Fußzeile**: unten auf der Seite
 
 
 
@@ -1371,14 +1371,14 @@ Mit der Plattform können Sie die E-Mails, die automatisch an die Benutzer gesen
 
 
 
-Jede E-Mail (Bestellungsbestätigung, vergessenes Passwort, etc.) hat :
+Jede E-Mail (Bestellungsbestätigung, vergessenes Passwort, etc.) hat:
 
 
 
 
 
-- Betreff**: der Betreff der E-Mail (z. B. "Ihre Bestellung wurde bestätigt")
-- HTML-Textkörper**: HTML-Inhalt, der in der E-Mail angezeigt wird
+- **Betreff**: der Betreff der E-Mail (z. B. "Ihre Bestellung wurde bestätigt")
+- **HTML-Textkörper**: HTML-Inhalt, der in der E-Mail angezeigt wird
 
 
 
@@ -1390,14 +1390,14 @@ Jede E-Mail (Bestellungsbestätigung, vergessenes Passwort, etc.) hat :
 
 
 
-Um E-Mails dynamisch zu gestalten, fügen Sie Variablen wie :
+Um E-Mails dynamisch zu gestalten, fügen Sie Variablen wie:
 
 
 
 
 
-- `{Bestellnummer}}` : ersetzt durch die aktuelle Bestellnummer
-- `{invoiceLink}}` : Link zum Invoice
+- `{Bestellnummer}}`: ersetzt durch die aktuelle Bestellnummer
+- `{invoiceLink}}`: Link zum Invoice
 - `{websiteLink}}`: URL Ihrer Website
 
 
@@ -1444,9 +1444,9 @@ Füllen Sie die folgenden Felder aus:
 
 
 
-- Tag-Name**: angezeigter Tag-Name
-- Slug**: eindeutiger Bezeichner (keine Leerzeichen oder Akzente)
-- Tag-Familie**: gruppiert Tags nach Kategorie
+- **Tag-Name**: angezeigter Tag-Name
+- **Slug**: eindeutiger Bezeichner (keine Leerzeichen oder Akzente)
+- **Tag-Familie**: gruppiert Tags nach Kategorie
 
 
 
@@ -1454,7 +1454,7 @@ Füllen Sie die folgenden Felder aus:
 
 
 
-#### Verfügbare Familien :
+#### Verfügbare Familien:
 
 
 
@@ -1479,9 +1479,9 @@ Diese Felder können verwendet werden, um ein Tag so anzureichern, als wäre es 
 
 - Titel
 - Untertitel
-- Kurzer** Inhalt
-- Vollständiger Inhalt** (auf Französisch)
-- CTAs** (Aktionsschaltflächen)
+- **Kurzer** Inhalt
+- **Vollständiger Inhalt** (auf Französisch)
+- **CTAs** (Aktionsschaltflächen)
 
 
 
@@ -1515,13 +1515,13 @@ Um Ihren Kunden Dokumente zum Herunterladen anzubieten: `Admin > Merch > Files`
 1. Klicken Sie auf **Neue Datei**
 
 
-2. Informieren :
+2. Informieren:
 
 
 
 
-   - Dateiname** (z. B. *Installationsanleitung*)
-   - Hochzuladende Datei** (PDF, Bild, Word...)
+- **Dateiname** (z. B. *Installationsanleitung*)
+- **Hochzuladende Datei** (PDF, Bild, Word...)
 
 
 
@@ -1533,13 +1533,13 @@ Um Ihren Kunden Dokumente zum Herunterladen anzubieten: `Admin > Merch > Files`
 
 
 
-Dieser Link kann dann in :
+Dieser Link kann dann in:
 
 
 
 
 
-- CMS**-Seite (als Textlink oder Schaltfläche)
+- **CMS-Seite** (als Textlink oder Schaltfläche)
 - Ein **E-Mail-Client** (über eine Vorlage)
 - Ein **Produktblatt** (z. B. Download der Bedienungsanleitung)
 
@@ -1583,7 +1583,7 @@ Gehen Sie zu: Knoten Management > Nostr
 
 
 - Aktivieren Sie eine automatische Nachricht bei der **ersten Benutzerinteraktion**
-- Ideal für :
+- Ideal für:
   - Präsentation Ihrer Dienstleistung
   - Senden Sie einen nützlichen Link (z.B. FAQ, Kontakt, Bestellung)
 
@@ -1629,19 +1629,19 @@ Gehen Sie dazu zu: "Einstellungen > Sprache"
 
 
 
-Die Übersetzungsdateien sind in JSON. Sie können :
+Die Übersetzungsdateien sind in JSON. Sie können:
 
 
 
 
 
-- Download** Sprachdateien
-- Ändern** bestehender Texte
-- Hinzufügen** Ihrer eigenen Übersetzungen
+- **Download** Sprachdateien
+- **Ändern** bestehender Texte
+- **Hinzufügen** Ihrer eigenen Übersetzungen
 
 
 
-Link zu den Originaldateien :
+Link zu den Originaldateien:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,15 +1672,15 @@ Klicken Sie auf **Rolle erstellen**, um eine Rolle zu erstellen (z.B. `Super Adm
 
 
 
-Jede Rolle enthält :
+Jede Rolle enthält:
 
 
 
 
 
-- schreibzugriff**: Schreibzugriff
-- lesezugriff**: Lesezugriff
-- verbotener Zugang**: Abschnitte interdites
+- **schreibzugriff**: Schreibzugriff
+- **Lesezugriff**: Lesezugriff
+- **verbotener Zugang**: Abschnitte interdites
 
 
 
@@ -1688,7 +1688,7 @@ Jede Rolle enthält :
 
 
 
-Fügen Sie im gleichen Menü `Admin > Einstellungen > ARM` einen Benutzer mit :
+Fügen Sie im gleichen Menü `Admin > Einstellungen > ARM` einen Benutzer mit:
 
 
 
@@ -1709,7 +1709,7 @@ Eine zuvor definierte Rolle zuweisen.
 
 
 
-Benutzer mit Lesezugriff** sehen die Menüs in *kursiv* und können den Inhalt nicht ändern.
+Benutzer mit **Lesezugriff** sehen die Menüs in *kursiv* und können den Inhalt nicht ändern.
 
 
 
@@ -1760,7 +1760,7 @@ In `/cart` können Sie über ein Feld ein Produkt hinzufügen:
 
 
 
-POS unterstützt :
+POS unterstützt:
 
 
 
@@ -1779,8 +1779,8 @@ Es stehen zwei erweiterte Optionen zur Verfügung:
 
 
 
-- MwSt.-Befreiung** : gilt für Begründungen (NGOs, Ausländer...)
-- Geschenkrabatt**: außergewöhnlicher Rabatt mit obligatorischem Kommentar
+- **MwSt.-Befreiung**: gilt für Begründungen (NGOs, Ausländer...)
+- **Geschenkrabatt**: außergewöhnlicher Rabatt mit obligatorischem Kommentar
 
 
 

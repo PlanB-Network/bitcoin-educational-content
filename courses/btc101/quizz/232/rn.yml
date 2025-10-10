@@ -1,0 +1,15 @@
+question: Ni ikihe muri ibi bikurikira kitari ikintu nyamukuru kiranga amafaranga makeyi kuri Lightning Network?
+answer: Igihe kirekire co kwishura.
+wrong_answers:
+  - Amafaranga make.
+  - Ivyishyurwa vyihuse.
+  - Ugushobora gukwiragizwa.
+explanation: |
+  Hakoreshejwe amafaranga make ya Lightning Network, abakoresha barashobora
+  bafise amahera make yo gukoresha, bikaba bituma biba vyiza kohereza
+  n’ibintu bike cane vy’i Bitcoin. Bashobora kandi kugira instant
+  kwishura, bikaba vyemeza ko umuntu ashobora gukora amafaranga mu gihe nyaco. Amaherezo bara
+  birashobora kuronka scalability, bikaba bishoboza gufata igikoresho kinini
+  umubare w’ibikorwa vy’ubudandaji icarimwe. Gutyo, ikibi .
+  inyishu ni igihe kirekire co kwishura.
+reviewed: true

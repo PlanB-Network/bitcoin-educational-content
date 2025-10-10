@@ -4,6 +4,8 @@ category: bitcoin
 
 level: advanced
 
+professor_id: 2e1b5182-567e-453a-af29-36009340ff02
+
 # Proofreading metadata
 project_id: 1c05cbf7-679c-4c8c-8adc-fb91397f950d
 original_language: en
@@ -25,10 +27,11 @@ proofreading:
       - Asi0Flammeus
     reward: 0.1
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - Salgraphics
+    reward: 0.1
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -100,10 +103,11 @@ proofreading:
     contributor_names:
     reward: 0.24
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.24
+      - monyangi10
+    reward: 0.12
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -114,6 +118,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.24
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.28
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.31
 tags:
   - node
   - guides

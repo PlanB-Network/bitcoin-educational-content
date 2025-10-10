@@ -59,13 +59,13 @@ Je, uko tayari kuanza safari hii ya kipekee ya kifalsafa katika harakati za kuta
 Kwa nini jina la kozi hii: historia ya uhuru? Kwa sababu tunahitaji kuelewa uhusiano kati ya mawazo na matukio, ili kuhukumu vyema zama zetu na kutenda kwa utambuzi. Ni katika siku za nyuma ambapo tunapata Elements kwa ufahamu bora wa uhuru ni nini na sababu kwa nini ni lazima tuuthamini.
 
 > Wakati wakati uliopita hauangazii tena siku zijazo, roho hutembea gizani (Alexis de Tocqueville - _Democracy in America_.)
-![image](assets/1/img-028.webp)
+![image](assets/sw/001.webp)
 
 Wakati huo huo, Auguste Comte alisema: "Mtu hajui sayansi kikamilifu mpaka ajue historia yake." Ukweli huu unaweza kutumika kwa wazo la uhuru.
 
 Kwa kweli, uhuru sio wazo geni. Ni urithi unaopitishwa kwa vizazi. Historia nzima ya ustaarabu inashuhudia mapambano yasiyokoma ya uhuru.
 
-![image](assets/1/img-022.webp)
+![image](assets/sw/002.webp)
 
 Hata hivyo, lengo la kozi hii si tu kutoa mwanga juu ya historia ya uhuru lakini pia, na muhimu zaidi, kuendeleza hukumu muhimu. Hakika, historia pekee haitoshi kuhukumu sasa na siku zijazo. Inahitaji kuambatana na tafakari ya kina na hukumu juu ya makosa ya zamani. Huu ni mchango wa falsafa. Ndiyo maana nimeipa jina kozi hii: historia ya kifalsafa ya uhuru. Kwa kweli ni juu ya kuchunguza jinsi wanafalsafa wameunda uhuru katika enzi zote.
 
@@ -76,7 +76,7 @@ Kutoka kwa asili yake, ina madhumuni mawili:
 
 -Kwanza,ni kutoa maana kwa dhana zisizoeleweka au zilizochanganyikiwa.Nini ni chema, cha kweli, cha haki, au kizuri? Kama vile kazi ya historia ni kuangazia zamani, vivyo hivyo falsafa ni sanaa ya kufafanua dhana kwa usahihi. Ndio maana tunahitaji kuanza katika kozi hii kwa kuelewa uhuru ni nini.
 
-![image](assets/1/img-027.webp)
+![image](assets/sw/003.webp)
 
 Uhuru ni dhana ambayo inashughulikia anuwai nyingi, ambazo ni tofauti nyingi iwezekanavyo za ukweli sawa: uhuru wa kisiasa, uhuru wa kiuchumi, uhuru wa dhamiri, wa kusema, uhuru wa kidini, uhuru wa kujumuika, n.k. Je, tunazungumzia ukweli gani?
 
@@ -91,7 +91,7 @@ Dhana ya uwajibikaji inaambatana na uhuru kwa sababu kila chaguo lina matokeo. M
 
 Kwa mtazamo huu, kuna aina mbili tu za falsafa za kisiasa: falsafa ya uhuru na falsafa ya mamlaka.
 
-![image](assets/1/img-016.webp)
+![image](assets/sw/004.webp)
 
 
 - Falsafa ya uhuru inategemea haki ya asili ya kumiliki mali na inadai kwamba madhumuni ya sheria ni kulinda mali na mikataba ya kibinafsi. Kila mtu awe na uwezo wa kufanya apendavyo kwa kile kilicho chake, mradi tu hawamdhuru mtu yeyote. Ni falsafa inayotetea uhuru sawa kwa wote kujichubua na mali zao chini ya sharti la kuwajibika. Ni falsafa ya soko huria.
@@ -102,15 +102,15 @@ Upinzani kati ya falsafa hizi mbili upo katika zama zote. Lakini tunaweza kuifaf
 Wanaotetea falsafa ya kwanza nchini Ufaransa ni Wanafiziokrati, huku François Quesnay akiwa kichwani. Wanajiita physiocrats (jina linatokana na Fizikia ya Kigiriki, ambayo ina maana ya asili, na Kratos, ambayo ina maana ya utawala) kwa sababu wanakuza mawazo ya kiuchumi na kijamii kulingana na haki za asili za mwanadamu. Kwao, jamii, watu, na mali zipo kabla ya sheria. Katika mfumo huu, Bastiat anaeleza,
 
 > Sio kwa sababu kuna sheria kwamba kuna mali, lakini kwa sababu kuna mali ambayo kuna sheria. (_Mali na Sheria_).
-![image](assets/1/img-018.webp)
+![image](assets/sw/005.webp)
 
 Kwa Turgot na Sema, wanafunzi wa Quesnay, kuna sheria ya asili, isiyotegemea matakwa ya wabunge, ambayo ni halali kwa watu wote na iliyotangulia jamii yoyote. Falsafa hii inakuja moja kwa moja kutoka kwa masomo ya enzi za kati, Wastoa, Aristotle, na Sophocles. Sheria zisizoandikwa ziko kabla na bora kuliko sheria zilizoandikwa kwa sababu zinatokana na asili ya mwanadamu na akili.
 
-![image](assets/1/img-014.webp)
+![image](assets/sw/006.webp)
 
 Falsafa ya pili inapatikana miongoni mwa waandishi kama Rousseau, Robespierre, au Kant, ambao wanajumuisha utamaduni wa jamhuri ambao mamlaka ya utashi mkuu ndio chanzo cha kweli cha sheria. Rousseau aliyeishi wakati wa Quesnay, ni mpiganaji wa fizikia. Kwake yeye, mbunge lazima aandae jamii, kama fundi anayevumbua mashine kutoka kwa jambo lisilo na hewa.
 
-![image](assets/1/img-026.webp)
+![image](assets/sw/007.webp)
 
 > "Yeyote anayethubutu kuanzisha watu," asema Rousseau, "lazima ajisikie kuwa na uwezo wa kubadilisha, kwa kusema, asili ya kibinadamu, ya kubadilisha kila mtu ambaye, peke yake, ni mkamilifu na wa upweke, kuwa sehemu ya jumla kubwa zaidi ambayo mtu huyu anapokea, kwa namna fulani, maisha yake na kuwa." (_Mkataba wa Kijamii_)
 Kwa mtazamo huu, dhamira ya mbunge ni kupanga, kurekebisha, hata kufuta mali ikiwa ataona ni nzuri. Kwa Rousseau, mali si ya asili lakini ya kawaida, kama jamii yenyewe. Kwa upande wake, Robespierre anaweka kanuni kwamba "Mali ni haki ya kila raia kufurahia na kutoa sehemu ya bidhaa alizohakikishiwa na sheria." Hakuna haki ya asili ya kumiliki mali; kuna idadi isiyojulikana tu ya mipangilio inayowezekana na ya hatari.
@@ -135,7 +135,7 @@ Kwa hivyo historia ni mapambano kati ya kanuni mbili: uhuru na ukandamizaji:
 > Uhuru! Hiyo ni, mwishowe, kanuni ya usawa. Ukandamizaji! Hiyo ndiyo kanuni isiyokubalika; mapambano ya mamlaka hizi mbili hujaza kumbukumbu za wanadamu. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), hitimisho la toleo asili).
 ### Ukandamizaji ni nini?
 
-![image](assets/1/img-025.webp)
+![image](assets/sw/008.webp)
 
 Kwa neno moja, ni wizi. Bastiat anachora aina kuu za uporaji zinazotoka kwa wasomi watawala: vita, utumwa, theokrasia, na ukiritimba. Kwa hakika, kulingana na yeye: "Kuna njia mbili tu za kupata mahitaji kwa ajili ya kuhifadhi, pambo, na kuboresha maisha: UZALISHAJI na NYARA." ([_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
@@ -154,7 +154,7 @@ Katika [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spo
 > Sheria ya kweli na ya usawa ya wanaume ni: Mbadala wa huduma kwa huduma unaojadiliwa kwa uhuru. Uporaji unajumuisha  marufuku kwa nguvu au kwa udanganyifu uhuru wa mijadala ili kupokea huduma bila kutoa. Uporaji kwa nguvu unatekelezwa kama ifuatavyo: Mtu hungoja mtu atoe kitu, kisha akamnyang'anya, silaha mkononi. Imelaaniwa rasmi na Maagizo: Usiibe. Inapotokea kutoka kwa mtu binafsi hadi kwa mtu binafsi, inaitwa wizi na inaongoza jela; inapotoka taifa hadi taifa, inaitwa ushindi na inaongoza kwenye utukufu.
 ### Historia ya Uporaji
 
-![image](assets/1/img-020.webp)
+![image](assets/sw/009.webp)
 
 Kihistoria, wasomi watawala wamekuwa wakiishi kwa kupora. Maelezo ya Bastiat:
 
@@ -176,7 +176,7 @@ Siku chache kabla ya kifo chake huko Roma mnamo 1850, Bastiat alimwambia rafiki 
 
 Inajulikana, historia imeandikwa na washindi. Tahadhari mara nyingi huelekezwa kwenye ushindi wa madaraka, maisha ya viongozi walio madarakani, na migogoro inayowapinga kwa wale wanaotaka kuchukua nafasi zao.
 
-![image](assets/1/img-023.webp)
+![image](assets/sw/010.webp)
 
 Hii ni kweli hasa kwa vitabu vya kiada vilivyokusudiwa kwa shule za umma na vilivyoandikwa na maprofesa walioajiriwa na Serikali.
 
@@ -187,7 +187,7 @@ Mwandishi huyu anajulikana zaidi kwa msemo wake: "Mamlaka huelekea kuharibu, na 
 > Ni uzoefu wa milele kwamba kila mtu aliye na uwezo anajaribiwa kuutumia vibaya.
 ### Nadharia ya Acton
 
-![image](assets/1/img-029.webp)
+![image](assets/sw/011.webp)
 
 Kwa Acton, mzozo kati ya uhuru na mamlaka ndio mada kuu ya historia ya mwanadamu, na uhuru ndio msukumo wa maendeleo na mageuzi ya jamii. Acton alitaka kuelewa mambo yaliyochangia kuongezeka kwa uhuru katika nchi za Magharibi. Kusudi lake lilikuwa kutambua hali muhimu kwa uhifadhi na maendeleo yake. Alisoma mawazo ya kifalsafa, miundo ya kijamii, na miktadha ya kisiasa ambayo ilipendelea kuibuka kwake kwa wakati.
 
@@ -206,7 +206,7 @@ Lakini wazo kwamba uhuru katika Ulaya ulizaliwa kutokana na mapambano ya ndani k
 Kwa hivyo, Voltaire, katika [_Philosophical Letters_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), anahusisha uhuru wa Kiingereza na migogoro kati ya wafalme na wakuu ambayo ilizuia mkusanyiko wowote wa mamlaka kupita kiasi. Na anabainisha:
 
 > Iwapo kungekuwa na dini moja tu Uingereza, udhalimu wake ungekuwa wa kuogopwa; lau wangelikuwa wawili tu, wangekatana koo; lakini kuna thelathini, na wanaishi kwa amani na furaha. ([Kwenye Wapresbiteri](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
-![image](assets/1/img-105.webp)
+![image](assets/sw/012.webp)
 
 Condorcet, katika [_Mchoro wa Taswira ya Kihistoria ya Maendeleo ya Akili ya Binadamu_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99) ilitoa mamlaka kwa Italia kwa utu wa kibinadamu. papa na maliki, jambo ambalo liliruhusu majimbo mengi ya majiji-huru kuishi.
 
@@ -218,7 +218,7 @@ Tasnifu hii pia inapatikana katika kazi kubwa iliyoanzishwa mwaka wa 1983: _Law 
 
 Mtazamo mwingine juu ya historia upo, hata hivyo. Imekuwa na mafanikio makubwa na kwa muda mrefu ilifurahia uungwaji mkono wa wasomi wa Magharibi na wawakilishi kutoka Global South. Huu ni mtazamo wa kisoshalisti na umaksi wa historia.
 
-![image](assets/1/img-024.webp)
+![image](assets/sw/013.webp)
 
 Inaelezea ukuaji wa ajabu wa Ulaya hasa kupitia maendeleo ya teknolojia pamoja na "mlundikano wa awali" wa mtaji, unaotokana na ubeberu, utumwa, biashara ya pembetatu, kunyang'anywa kwa wakulima wadogo, na unyonyaji wa tabaka la wafanyakazi. Hitimisho liko wazi. Ukuaji huu wa kipekee wa Ulaya ulipatikana kwa gharama ya mamilioni na mamilioni ya watumwa na watu binafsi waliokandamizwa.
 
@@ -238,7 +238,7 @@ Uchambuzi huu unaonyesha kutokuelewana kwa thamani ya ziada na hali ya ushirika 
 
 Kwa hakika, uchambuzi wa Umaksi unapotosha ukweli wa kihistoria wa Mapinduzi ya Viwanda. Ludwig von Mises alifafanua suala hili katika mkataba wake wa uchumi [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (tazama hasa sura yenye kichwa [Tafsiri Maarufu ya Mapinduzi ya Viwanda](http://herve.dequengo.free.fr/Mises/AH/AH21.htm kama ilivyochapishwa katika mfululizo wa hotuba) [_Sera ya Kiuchumi: Mawazo ya Leo na Kesho_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Inafaa pia kusoma, The Anti-Capitalistic Mentality [hapa](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) na [hapa](http://herve.dequengo.free.fr/Mises/MACm)
 
-![image](assets/1/img-030.webp)
+![image](assets/sw/014.webp)
 
 Mises anaeleza kuwa kazi katika viwanda, ingawa zilikuwa duni kwa viwango vyetu, ziliwakilisha fursa bora zaidi kwa wafanyakazi wa wakati huo.
 
@@ -252,7 +252,7 @@ Mises anaongeza kuwa uboreshaji wa hali ya binadamu uliwezekana kwa ulimbikizaji
 > Historia halisi ya uhusiano kati ya ubepari na kuongezeka kwa proletariat ni karibu kinyume na kile nadharia hizi za kunyang'anywa kwa raia zinapendekeza.
 Kabla ya Mapinduzi ya Viwandani, watu wengi waliishi katika jamii za vijijini na walitegemea kilimo ili kuishi. Walikuwa na kidogo cha kuuza sokoni, jambo ambalo lilipunguza fursa zao na kiwango chao cha maisha. Kila mtu alitarajia kuishi katika umaskini kabisa na alifikiria hatima kama hiyo kwa wazao wao. Hakuna aliyekerwa na hali iliyoonekana kuepukika.
 
-![image](assets/1/img-106.webp)
+![image](assets/sw/015.webp)
 
 Pamoja na ujio wa ukuaji wa viwanda, fursa mpya ziliibuka, na kusababisha kuongezeka kwa mahitaji ya wafanyikazi. Kwa mara ya kwanza, watu wasio na ardhi au rasilimali kubwa wanaweza kuuza kazi zao kwa viwanda na kutengeneza katika Exchange kwa ujira, kuhakikisha usalama kwa siku zijazo.
 
@@ -270,7 +270,7 @@ Baadaye, uchanganuzi wa kina zaidi wa kihistoria kuliko ule wa Marx unaturuhusu 
 
 Kama Jean Baechler, mwanachama wa Chuo cha Sayansi ya Maadili na Siasa, asemavyo katika _The Origins of Capitalism_ (1971):
 
-![image](assets/1/img-021.webp)
+![image](assets/sw/016.webp)
 
 > Sharti la kwanza la kuongeza ufanisi wa kiuchumi ni ukombozi wa jumuiya za kiraia kutoka kwa Serikali (...) Kupanuka kwa ubepari kunatokana na asili yake na raison d'être kwa machafuko ya kisiasa.
 Kwa maneno mengine, "sio tukio" kubwa ambalo lilitawala hatima ya Uropa lilikuwa kutokuwepo kwa ufalme wa kifalme, kama ule uliotawala Uchina.
@@ -285,7 +285,7 @@ Kwa kuhitimisha sura hii, kupaa kwa Ulaya kiuchumi na kiutamaduni hakukutokana n
 
 Katika sura ya mwisho ya _Anatomy of the State_ (iliyotafsiriwa kwa Kifaransa kama _L'anatomie de l'Etat_, na matoleo ya Résurgence), Murray Rothbard anapendekeza nadharia ya historia. Sura hii fupi sana inaitwa: Historia, mbio kati ya nguvu ya serikali na nguvu ya kijamii. Kulingana na Rothbard, historia inaweza kueleweka kama mzozo wa kudumu kati ya kanuni mbili za kimsingi:
 
-![image](assets/1/img-013.webp)
+![image](assets/sw/017.webp)
 
 
 - Ushirikiano wa amani na uzalishaji, ambao unawakilisha Kubadilisha hiari na uundaji wa mali kupitia kazi na uvumbuzi.
@@ -312,7 +312,7 @@ Katiba iliyoandikwa kwa hakika ina faida nyingi, lakini ni kosa kubwa kudhani ku
 
 ### Karne ya 20: Karne ya Mafungo
 
-![image](assets/1/img-012.webp)
+![image](assets/sw/018.webp)
 
 Kulingana na Rothbard, historia sio mchakato wa mstari, lakini badala yake ni mgawanyiko kati ya maendeleo ya nguvu ya kijamii na ufufuo wa udhibiti wa Serikali:
 
@@ -324,7 +324,7 @@ Kuanzia karne ya 17 hadi karne ya 19, katika nchi nyingi za Magharibi, kulikuwa 
 
 > Wakati wa karne hii, jamii ya kibinadamu inakabili, kwa mara nyingine tena, utawala wa kikatili wa Serikali; Serikali ambayo sasa imejizatiti kwa uwezo wa ubunifu wa mwanadamu, iliyonyakuliwa na kupotoshwa kwa malengo yake yenyewe.
 > Je! Jamii huru ni nini?? Ni jamii isiyo na ukiritimba. Katika kazi yake ya falsafa ya kisiasa, _Ethics of Liberty_ (1982), Rothbard anajibu: "jamii ambayo hakuna uwezekano wa kisheria wa uchokozi wa kulazimisha dhidi ya mtu au mali ya mtu binafsi." Hii ndiyo sababu, kulingana na yeye, falsafa ya kisiasa, ambayo lazima ifafanue kanuni za jamii yenye haki, inajikita kwenye swali moja: "Nani anamiliki nini kihalali?"
-> ![image](assets/1/img-029.webp)
+> ![image](assets/sw/019.webp)
 Kwa Rothbard, utaratibu wa kijamii unaweza kutawala ikiwa ni zao la ujanibishaji wa taratibu za kimkataba kwa kubadilishana haki za umiliki wa mali kwa uhuru kwa kubinafsisha shughuli zote za kiuchumi na hata kazi kuu (benki kuu, mahakama) na kwa kutumia ushindani kati ya mashirika ya ulinzi.
 
 Na anaongeza:
@@ -343,7 +343,7 @@ Na anaongeza:
 
 Uzoefu wa demokrasia ya Athene umeacha alama ya kudumu katika historia ya fikra za kisiasa na unaendelea kuhamasisha maadili ya demokrasia na ushiriki wa raia katika ulimwengu wa leo.
 
-![image](assets/2/img-107.webp)
+![image](assets/sw/020.webp)
 
 Demokrasia ya Athene ilikuwa na mijadala hai ya umma juu ya mambo ya jiji, ambayo kimsingi ilifanyika katika agora, sokoni. Njia hii ya uendeshaji, iliyotegemea sababu na mjadala wa kuchambua, ilitofautishwa sana na mazoea ya awali ambapo sheria na desturi zilizingatiwa kuwa takatifu na zisizobadilika, zilizotolewa na mababu na kulindwa na miungu.
 
@@ -351,7 +351,7 @@ Demokrasia ya Athene ilikuwa na mijadala hai ya umma juu ya mambo ya jiji, ambay
 
 Demokrasia ya Athene inawakilisha mapumziko makubwa kutoka kwa mila za zamani. Hakika, katika jamii za awali, hakuwezi kuwa na "siasa" kwa maana ya majadiliano juu ya sheria za kijamii, kwa kuwa hizi ziliwekwa kwa njia ipitayo maumbile na hadithi.
 
-![image](assets/2/img-109.webp)
+![image](assets/sw/021.webp)
 
 Mwanahistoria Jean-Pierre Vernant anaandika:
 
@@ -359,7 +359,7 @@ Mwanahistoria Jean-Pierre Vernant anaandika:
 >
 
 > (Jean Pierre Vernant, _The Origins of Greek Thought_, Paris, P.U.F, 1962)
-![image](assets/2/img-001.webp)
+![image](assets/sw/022.webp)
 
 Neno la Kigiriki "polis," ambalo linatoa "siasa" kwa Kifaransa, linamaanisha jiji-jimbo. Aristotle anapoandika kwamba “mtu kwa asili ni mnyama wa kisiasa,” haimaanishi kwamba ameumbwa kwa ajili ya mamlaka. Kwa siasa, anarejelea wanaume wa kitivo wanapaswa kujadiliana katika uwanja wa umma ili kubaini ni nini kilicho cha haki na kisicho haki.
 
@@ -380,7 +380,7 @@ Na Jean-Pierre Vernant anaongeza:
 
 Maelewano ya kijamii hayatoleshwi na hatua ya makusudi ya miungu, bali kwa utii wa raia wote kwa sheria ile ile isiyo ya utu. Madaraka si mambo ya makuhani tena, yamekuwa mambo ya wote. Hivyo inaibuka dhana ya usawa mbele ya sheria: "_isonomia_," lakini pia rhetoric. Umahiri wa hotuba ulikuwa muhimu ili kuwashawishi raia wenzako katika makusanyiko na mahakama.
 
-![image](assets/2/img-110.webp)
+![image](assets/sw/023.webp)
 
 Kwa Aristotle, udhalimu ni utii kwa mwanadamu, na uhuru ni utii wa sheria. Anasifiwa kwa nukuu hii:
 
@@ -391,7 +391,7 @@ Cicero, msemaji na mwanafalsafa maarufu wa Kirumi wa karne ya 1 KK, alichukua wa
 
 Wazo la jamhuri ni lile linalotokana na falsafa ya Kigiriki. Mara nyingi imekuwa ikilinganishwa na demokrasia, ikichukuliwa kuwa hatari sana. Plato aliipa kazi yake kuu ya falsafa ya kisiasa: _The Republic_, na anahukumu demokrasia kwa ukali sana. Wakati watu wanatawala, kuna hatari kubwa ya kuweka sheria ya matamanio yao na kuchanganya nzuri na ya kupendeza. Kwa hivyo kifo cha kutisha cha Socrates, aliyehukumiwa kifo na jury maarufu, iliyotumiwa na sophists. Plato alijifunza masomo yote kutoka kwa hii.
 
-![image](assets/2/img-111.webp)
+![image](assets/sw/024.webp)
 
 Aristotle angetumia neno jamhuri kuteua katiba ya haki, ile inayolenga maslahi ya pamoja na kuwachukulia raia kama watu huru. Utawala wa kweli wa uhuru ni ule ambapo sheria ni ya jumla, sawa kwa wote, isiyojulikana, na sio amri ya kibinafsi.
 
@@ -409,7 +409,7 @@ Wagiriki wenyewe wanaonekana kuwa walipima uhalisi huu na walifahamu mwanzoni mw
 
 (Ugiriki ya Kale katika Ugunduzi wa Uhuru, Paris, Matoleo ya Fallois, 1989_)
 
-![image](assets/2/img-108.webp)
+![image](assets/sw/025.webp)
 
 Herodotus anasadiki kwamba watu wa watu huru ni watu wanaotii sheria na si bwana, kama katika milki ya Uajemi ambapo mtu mmoja tu ndiye huru na wengine wote ni watumwa. Hii ni kweli kwa Athens, demokrasia, lakini pia ni kweli kwa Sparta. Mfalme haundi sheria, halazimishi mapenzi yake. Anahakikisha heshima ya sheria, yuko kwenye utumishi wake na anakufa, ikiwa ni lazima, ili kuitetea.
 
@@ -417,7 +417,7 @@ Herodotus anasadiki kwamba watu wa watu huru ni watu wanaotii sheria na si bwana
 
 Kuhama kutoka kwa mawazo ya mythological, Thales, Anaximander, Anaximenes, na baadaye Democritus na Empedocles, walikuwa wa kwanza kutafuta kuelewa phusis (asili) kupitia sababu na si kupitia vyombo vya nguvu isiyo ya kawaida.
 
-![image](assets/2/img-009.webp)
+![image](assets/sw/026.webp)
 
 Kanuni ya msingi iliyowekwa na wanafalsafa hawa wa awali wa Pre-Socrates ni kwamba Elements ya kosmos (ulimwengu) inashikilia mahali pake kwa sababu zote ziko chini ya "sheria ya asili" sawa (phusis) ambayo inaweza kutajwa kwa njia ya ulimwengu wote na ya lazima. Ulimwengu ni wa busara, unajumuisha muundo mzima, ambao mwanadamu anaweza kugundua kwa sababu yake ("logos" kinyume na "mutos", hadithi).
 
@@ -425,7 +425,7 @@ Kulingana na Karl Popper, tuna deni kwa wanafalsafa wa Ugiriki ya kale, haswa Pr
 
 Kuhusu dalili za kwanza za kuwepo kwa mtazamo wa kukosoa, wa uhuru mpya wa mawazo, zinaonekana katika ukosoaji wa Anaximander wa Thales. Hili ni jambo la kipekee kabisa, mfikiriaji ambaye Anaximander anamkosoa ni bwana wake, mtani wake, mmoja wa Wahenga Saba, yule aliyeanzisha Shule ya Ionian. Kulingana na utamaduni, Anaximander alikuwa mdogo kwa Thales kwa miaka kumi na minne tu, na inaelekea alitunga ukosoaji wake na kuwasilisha dhana zake mpya wakati wa uhai wa bwana wake (walikufa, inaonekana, miaka michache tofauti). Hata hivyo, hakuna ushahidi wa upinzani, ugomvi, au mgawanyiko unaopatikana katika vyanzo.
 
-![image](assets/2/img-008.webp)
+![image](assets/sw/027.webp)
 
 Elements hizi zinaonyesha, kulingana na yeye, kwamba ni Thales ambaye alianzisha utamaduni huu mpya wa uhuru, kulingana na uhusiano wa asili kati ya bwana na mwanafunzi. Thales aliweza kustahimili ukosoaji na, zaidi ya hayo, alianzisha utamaduni wa kuukubali. Popper anabainisha hapa mapumziko kutoka kwa mila ya kidogma, ambayo inaruhusu fundisho moja tu la shule, kuchukua nafasi yake kwa wingi na udanganyifu.
 
@@ -445,7 +445,7 @@ Milki ya Kirumi ilikuwa shirika kubwa la ulimwengu. Katika kilele chake, karibu 
 - Upande wa kusini, ilipakana na Bahari ya Mediterania, kutia ndani Italia, Ugiriki, Balkan, Asia Ndogo (Uturuki ya leo), Siria, Lebanoni, Palestina, Misri, na Cyrenaica (sehemu ya Libya ya leo).
 - Kwa upande wa mashariki, ilienea hadi Mesopotamia (Iraki ya sasa) na Armenia.
 
-![image](assets/2/img-007.webp)
+![image](assets/sw/028.webp)
 
 Kuanzia wakati huo na kuendelea, Warumi waliendeleza maendeleo ya sheria mbali zaidi ya Wagiriki, ambao waliishi katika majimbo madogo, yenye usawa wa kikabila. Chini ya Jamhuri ya Kirumi, tayari kulikuwa na ulinzi wa kisheria wa mali na haki za mtu binafsi.
 
@@ -455,7 +455,7 @@ Mali ya kibinafsi ilichukua mwelekeo mpya katika ustaarabu wa Kirumi ambao hauku
 
 Sheria ya Kirumi ingekuwa msingi wa sheria zote za kisasa za Magharibi wakati wa Enzi za Kati na hadi nyakati zetu.
 
-![image](assets/2/img-012.webp)
+![image](assets/sw/029.webp)
 
 ### Ulinzi wa haki za mtu binafsi
 
@@ -465,7 +465,7 @@ Sheria hii inalingana kwa kushangaza na haki za asili za kimsingi kama ilivyodha
 
 Kwa hakika, wanawake, watumwa, na wageni bado walikuwa wametengwa na ulinzi kamili wa sheria. Hata hivyo, Sheria ya Majedwali Kumi na Mbili iliwakilisha maendeleo makubwa na msingi wa maendeleo zaidi ya haki za mtu binafsi zilizotolewa kwa wote.
 
-![image](assets/2/img-006.webp)
+![image](assets/sw/030.webp)
 
 Sheria ya Majedwali Kumi na Mbili inaweka umuhimu hasa juu ya haki za kumiliki mali:
 
@@ -490,7 +490,7 @@ Mfano wa usawaziko katika fikra ni Seneca, mwanafalsafa Mroma wa Stoiki aliyeand
 
 Mkataba wa Maisha ya Furaha (_De Vita Beata_) ni ombi la maadili ya Kistoiki. Furaha, asema Seneca, "ni nafsi huru \[...\] isiyoweza kufikiwa na woga \[...\] ambayo ubaya pekee kwao ni ukosefu wa maadili." Mwanafunzi wa Socrates, mwenye hekima wa Stoiki haogopi uovu wa kimwili, kifo, au hata kuteseka dhuluma. Kwa yeye, uovu pekee ni uovu wa maadili. Kwa hiyo, jema kuu liko katika fadhila.
 
-![image](assets/2/img-011.webp)
+![image](assets/sw/031.webp)
 
 Walakini, raha haiendani na wema:
 
@@ -514,7 +514,7 @@ Aristotle anatofautisha kati ya haki ya asili na haki ya kisheria. Haki ya asili
 
 Mtunzi wa tamthilia Sophocles, katika tamthilia yake ya _Antigone_, anaanzisha mgongano kati ya sheria ya Mungu na sheria ya binadamu. Antigone anakataa kutii amri ya Mfalme Creon inayokataza kuzikwa kwa kaka yake, akisema kwamba sheria za kimungu, zisizobadilika na bora zaidi, zinatanguliza juu ya sheria za wanadamu.
 
-![image](assets/2/img-002.webp)
+![image](assets/sw/032.webp)
 
 Antigone anapoasi Creon, anapinga sheria chanya ya kutii dhamiri yake ya kimaadili na kidini. Ikiwa kuna sheria chanya tu, anasema Aristotle, Creon huwa sahihi kila wakati, hata wakati ana makosa. Lakini ikiwa tutadumisha wazo la udhibiti wa sheria ya asili au ya kimungu, Antigone inaweza kusimama wakati wakati unakuja na kuomba dhidi ya sheria isiyo ya haki, haki kuu ya sheria ambayo haijaandikwa.
 
@@ -522,7 +522,7 @@ Antigone anapoasi Creon, anapinga sheria chanya ya kutii dhamiri yake ya kimaadi
 
 Cicero aliishi katika karne ya 1 KK na anachukuliwa kuwa mzungumzaji mkuu wa lugha ya Kilatini chini ya Milki ya Kirumi. Yeye pia ni mwanafalsafa wa maadili na kisiasa aliye karibu na Wastoa. Insha zake zimesomwa na Wazungu waliosoma kwa karne nyingi.
 
-![image](assets/2/img-004.webp)
+![image](assets/sw/033.webp)
 
 Katika risala yake _On the Laws_ (_De Legibus_), anaakisi juu ya msingi wa sheria. Kulingana na yeye, sheria chanya, seti ya mikataba au sheria iliyoandikwa iliyopitishwa na jamii, haiwezi kuanzisha haki inayostahili jina. Kuna haki ya asili, iliyoandikwa kwa sababu ya kibinadamu: "sheria ina msingi katika asili yenyewe." Kusema kwamba haki na dhulma ni matokeo ya makusanyiko ni kusema ukweli umewekwa. Hata hivyo, ukweli hauwezi kuamuliwa, hata na wengi, unaongoza hukumu zetu.
 
@@ -544,11 +544,11 @@ Akidai kuwa sheria haiwezi kupunguzwa kuwa tu sheria zilizotungwa na bunge, Cice
 
 Kwa nini Roma ilishuka na hatimaye kuanguka? Wengi wanapenda kufikiria kwamba Ufalme wa Kirumi ulianguka ghafla, chini ya athari za uvamizi wa washenzi. Hata hivyo, sababu za kuanguka kwa Dola ya Kirumi zinapatikana mapema zaidi, katika ubeberu na dirigisme ya kiuchumi na ya kifedha.
 
-![image](assets/2/img-013.webp)
+
 
 Mnamo mwaka wa 1734, katika kitabu chake _Considerations on the Causes of the Greatness of the Roman and of their Decline_, Montesquieu alitengeneza tasnifu asilia na iliyounganika kueleza kuinuka na kuanguka kwa mamlaka ya Warumi: uhuru uliopatikana chini ya Jamhuri na kisha kupotea chini ya Milki. Tangu utawala wa Warumi ulipopanuka, uhuru ulipotea, na upotovu ukaanza.
 
-![image](assets/2/img-003.webp)
+![image](assets/sw/034.webp)
 
 Milki ya Kirumi ilikuwa utawala wa kijeshi wa vimelea, ambao ungeweza tu kuishi kupitia utitiri wa mara kwa mara wa utajiri ulioporwa kutoka nje, wafungwa waliopunguzwa utumwa, na ardhi zilizoibiwa.
 
@@ -573,7 +573,7 @@ Kisha kukosekana kwa utulivu wa kisiasa kuliongezwa kwenye msukosuko wa kiuchumi
 
 Mfano halisi wa uingiliaji kati uliibuka huko Roma wakati Mfalme Diocletian alipotaka kupunguza bei. Uingiliaji kati unafafanuliwa kama hatua ya mamlaka ambayo huenda zaidi ya jukumu lake la kudumisha utulivu na kulinda raia. Ni jaribio la kudhibiti soko, linalolenga kurekebisha bei, mishahara, viwango vya riba na faida.
 
-![image](assets/2/img-005.webp)
+![image](assets/sw/035.webp)
 
 Utoaji wa fedha unaorudiwa na watawala waliofuata ili kukabiliana na ongezeko la matumizi ya kijeshi ulikuwa umesababisha kupanda kwa bei. Mnamo 301, Diocletian alitangaza Amri ya Upeo katika jaribio la kuwazuia. Ilikuwa ni kushindwa.
 
@@ -587,7 +587,7 @@ Maliki wa Kirumi Diocletian anajulikana sana kwa kuwa mfalme wa mwisho wa Roma k
 
 Akifuata nyayo za Montesquieu, Philippe Fabry anaonyesha kwamba Roma ilipata mapito kutoka kwa uliberali hadi ujamaa. Philippe Fabry ni mwanahistoria wa sheria, taasisi, na mawazo ya kisiasa. Amefundisha katika Chuo Kikuu cha Toulouse 1 Capitole na ndiye mwandishi wa vitabu kadhaa, vikiwemo _Roma, kutoka Uliberali hadi Ujamaa_, 2014.
 
-![image](assets/2/img-010.webp)
+![image](assets/sw/036.webp)
 
 Je, Roma ilikuwa mamlaka huru zaidi ya ulimwengu wa kale? Je, basi iliangukia katika aina ya ujamaa? Hebu kwanza tufafanue masharti:
 
@@ -619,7 +619,7 @@ Na anaongeza:
 
 Wazo la Kikristo la uhuru lilikuzwa katika teolojia ya enzi ya Mtakatifu Augustino katika karne ya 4, hadi kwa Mtakatifu Thomas Aquinas katika karne ya 13. Wazo hili ni nini?
 
-![image](assets/3/img-036.webp)
+![image](assets/sw/037.webp)
 
 ### Uhuru unahusishwa na wazo la dhambi
 
@@ -641,14 +641,14 @@ Kwa mukhtasari, uhuru ni mzuri kwa sababu unamruhusu mtu kujiamuru kwa wema na k
 
 Katika teolojia ya enzi za kati, majaliwa si kuingilia mara kwa mara kwa Mungu katika maisha ya wanadamu, kana kwamba Mungu alitenda badala yetu na bila idhini yetu. Kinyume chake, Mungu humpa kila kiumbe, kulingana na asili yake, uwezo unaoruhusu kujikimu na hivyo kufikia ukuaji wake kamili. Mwenyezi Mungu hafanyi wema kwa viumbe badala yake.
 
-![image](assets/3/img-039.webp)
+![image](assets/sw/038.webp)
 
 Na kadiri tunavyozidi kwenda juu katika mizani ya viumbe, kutoka madini hadi mwanadamu, ndivyo Mungu anavyozidi kukabidhi kwa kiumbe wake uwezo wa kutenda kivyake. Anamkabidhi mwanadamu uhuru wa kujitawala mwenyewe na kutawala ulimwengu kwa akili yake, kulingana na fadhila ya busara.
 
 Hivyo, Mtakatifu Thomas anaandika (_Summa contra Gentiles_, III, 69 na 122):
 
 > Kuondoa ukamilifu wa viumbe ni kuondoa ukamilifu wa uwezo wa kiungu (...) Mungu anachukizwa na sisi kwa sababu tu tunatenda kinyume na manufaa yetu wenyewe.
-![image](assets/3/img-037.webp)
+![image](assets/sw/039.webp)
 
 Kwa hivyo, riziki inatupa njia ya kuwa riziki yetu wenyewe. Na anaongeza:
 
@@ -669,7 +669,7 @@ Kulingana na Mtakatifu Thomas:
 
 Katika Enzi za Kati, akili na imani hushindana kupata ukweli. Kufuatia Abélard na Albert Mkuu, Thomas Aquinas, katika karne ya 13, alichagua kutetea haki za akili na uhuru wake kuhusiana na imani.
 
-![image](assets/3/img-048.webp)
+![image](assets/sw/040.webp)
 
 Anaazima kutoka kwa mawazo ya Aristotle wazo la utaratibu wa asili unaojitegemea, usiotegemea utaratibu wa mbinguni. Utaratibu huu wa asili kwa hakika umepitwa na utaratibu usio wa kawaida, lakini upo kando na uko kabla yake. Kwa hiyo, kwake, kuna njia mbili za kupata ukweli kuhusu ulimwengu na hasa kuhusu Mungu:
 
@@ -697,7 +697,7 @@ Hii ni nafasi ya kati, ambayo inatafuta kupatanisha imani na sababu. Rationalism
 
 Enzi za Kati za Kikristo ziliwekwa alama, mwanzoni mwa karne ya 13, na kuzaliwa na wingi wa vyuo vikuu vya Magharibi. Chuo kikuu ni jumuiya ya wanafunzi na watu kutoka mji mmoja chini ya udhibiti wa Kanisa na inayojumuisha kimsingi vitivo vinne: sanaa, theolojia, sheria, dawa. Theolojia inachukuliwa kama sayansi, kwa mfano wa sayansi ya Kigiriki.
 
-![image](assets/3/img-041.webp)
+![image](assets/sw/041.webp)
 
 Mnamo 1200, Philippe-Auguste alianzisha Chuo Kikuu cha Paris, ambacho haraka kikawa chuo kikuu mashuhuri zaidi barani Ulaya. Mnamo 1257, Robert de Sorbon alianzisha chuo cha theolojia katika Chuo Kikuu cha Paris, ambacho baadaye kingeitwa Sorbonne. Mbinu mpya ya ufundishaji na utafiti inayojulikana kama scholasticism (kutoka schola, shule) iliibuka ndani ya vyuo vikuu hivi. Ilihusisha "disputatio," aina ya mjadala unaopingana mbele ya hadhira. Tasnifu ilipendekezwa, ikifuatiwa na pingamizi ambapo jibu lilipaswa kutolewa. Mara tu mabishano yote yalipokwisha, bwana angesuluhisha mjadala huo kwa suluhisho la sababu.
 
@@ -719,7 +719,7 @@ Swali la uhusiano kati ya siasa na dini lilichukua sura na kazi ya Mtakatifu Aug
 
 Mapenzi mawili hivyo yamefanya miji miwili: kujipenda nafsi kuwa dharau ya Mungu, mji wa duniani; upendo wa Mungu, kwa dharau ya nafsi, mji wa mbinguni.
 
-![image](assets/3/img-043.webp)
+![image](assets/sw/042.webp)
 
 Kwa hivyo tunayo:
 
@@ -729,7 +729,7 @@ Kwa hivyo tunayo:
 
 Hata hivyo, kwa Augustine, jiji hili la kidunia ni la lazima. Inahitajika kwa sababu inahakikisha amani. Kwa hivyo, kuishi pamoja na wanadini lazima kusimamiwe vyema, na kunapaswa kudhibitiwa na utawala wa nguvu za kiroho juu ya nguvu za muda. Lakini kusiwe na utengano mkali au migogoro ya wazi, na vyombo vyote viwili vinapaswa kufanya kazi pamoja. Wanahistoria wameliita fundisho hili kuwa la kisiasa la Augustinian.
 
-![image](assets/3/img-033.webp)
+![image](assets/sw/043.webp)
 
 ### Ushindani kati ya nguvu za muda na nguvu za kiroho
 
@@ -764,7 +764,7 @@ Zaidi ya hayo, kwa kuwa Mungu ndiye muumbaji, tunaona kuibuka kwa dhana mpya, il
 
 Mwili unaojulikana zaidi wa fundisho hili linaloibuka ni Shule ya Salamanca, huko Uhispania katika karne ya 16. Francisco de Vitoria, mmoja wa wawakilishi wake, anasisitiza kwamba ikiwa kila mtu ameumbwa kwa mfano wa Mungu, hakuna mtu anayeweza kutangazwa kuwa duni kuliko mwingine, si Myahudi, wala mtumwa mweusi, wala Mhindi.
 
-![image](assets/3/img-042.webp)
+![image](assets/sw/044.webp)
 
 Ugunduzi wa Amerika ulijumuisha mshtuko halisi wa kitamaduni, ukiukaji wa kwanza katika imani moja ya kisiasa na ya kidini iliyorithiwa kutoka Zamani. Mabishano mashuhuri juu ya haki za Wahindi kwa hakika yaligawanya wanatheolojia katika kambi mbili zinazopingana na zisizopatanishwa.
 
@@ -776,7 +776,7 @@ Katika _Summa Theologica_, Mtakatifu Thomas anauliza swali lifuatalo: je, mtu an
 
 Wanazuoni wa Salamanca walitumia hoja hii kwa kisa cha watu wa kiasili: mali ni haki ya asili. Kwa hiyo, kuchukua ardhi kutoka kwa watu wa kiasili ni kuiba, kana kwamba ni Wakristo. Pia hairuhusiwi kuwapiga vita kutokana na kwamba hakuna uchokozi kwa upande wao, bali kutoka kwetu.
 
-![image](assets/3/img-035.webp)
+![image](assets/sw/045.webp)
 
 Suala la watu wa kiasili lilikuwa ni ufa wa kwanza katika siasa za kidini. Ilionyesha kwamba umoja wa jamii ya kisiasa ungeweza kutulia juu ya msingi mwingine isipokuwa umoja wa kidini wa wakaaji wa eneo lile lile, kwa msingi wa utu wa pamoja wa asili ya mwanadamu.
 
@@ -796,10 +796,13 @@ Hebu tuzingatie jambo la kwanza. Jambo la pili litashughulikiwa katika sehemu in
 
 Henri Pirenne, mwanahistoria wa Ubelgiji wa mwanzoni mwa karne ya 20, alijitolea sehemu ya kazi yake kwa uchambuzi wa kuibuka kwa ubepari huko Uropa. Katika kitabu chake _History of Europe_, anasema:
 
-![image](assets/3/img-034.webp)
+
 
 > Vipengele vyote muhimu vya ubepari - biashara ya mtu binafsi, maendeleo ya mkopo, faida ya kibiashara, uvumi, n.k. - tayari vilikuwepo kutoka karne ya 12 katika majimbo ya miji ya Italia, Venice, Genoa, au Florence.
-> Kulingana na Pirenne, miji hii ya biashara, kwa sababu ya mabadiliko yao ya kibiashara na msimamo wao wa kimkakati juu ya njia za baharini, ilikuwa imeanzisha mazoea ya kiuchumi ambayo ni tabia ya ubepari changa. Anaangazia haswa:
+
+![image](assets/sw/046.webp)
+
+Kulingana na Pirenne, miji hii ya biashara, kwa sababu ya mabadiliko yao ya kibiashara na msimamo wao wa kimkakati juu ya njia za baharini, ilikuwa imeanzisha mazoea ya kiuchumi ambayo ni tabia ya ubepari changa. Anaangazia haswa:
 
 - **Kuongezeka kwa biashara binafsi:** Wafanyabiashara wa Italia, mara nyingi kutoka kwa familia tajiri, waliwekeza fedha zao wenyewe katika safari za mbali za kibiashara, hivyo kuhatarisha hatari na kutarajia faida kubwa.
 - **Upanuzi wa mikopo:** Ukuzaji wa biashara ya kimataifa ulichochea matumizi ya njia mbalimbali za mikopo, kama vile bili za  kubadilishana fedha (Exchange bill) na shughuli za benki, kuruhusu ufadhili wa miamala na kuwezesha harakati za mtaji.
@@ -812,11 +815,13 @@ Pirenne anaona kwamba mazoea haya, ingawa yapo katika maeneo mengine ya Ulaya, y
 
 Maandiko hushutumu mikopo yenye riba, inayoitwa riba, ikizingatiwa kwamba kukopesha pesa kwa riba ni sawa na kuwanyonya wakopaji walio hatarini. Hata hivyo, kiutendaji, Kanisa lililifumbia macho suala hilo.
 
+![image](assets/sw/047.webp)
+
 Jacques Le Goff ni mwanahistoria wa Kifaransa aliyebobea katika utamaduni na mawazo ya Zama za Kati. Kufuatia Pirenne, anatambua uwepo wa mbegu za ubepari mapema katika Zama za Kati, haswa katika miji ya Italia, ambapo mazoea kama vile biashara ya mtu binafsi, kutafuta faida, na utumiaji wa vyombo vya mkopo tayari vilikuwepo.
 
 Au Le Goff inaangazia katika _L'usure au Moyen Âge_ (1967, iliyochapishwa tena mwaka wa 1986 chini ya kichwa: _La bourse et la vie; économie et religion au moyen-age_) ambayo mapema katika karne ya 13, Mtakatifu Albert Mkuu alikuwa ametoa nadharia ya dhana ya "mtakatifu" ambayo iliendelezwa zaidi na Mtakatifu Thomas. Licha ya marufuku ya kidini, desturi ya kukopesha ilikuwepo na ilikidhi mahitaji halisi ya kiuchumi. Muda mrefu kabla ya Adam Smith, walielewa kwamba riba ya mikopo haikuwa riba bali ni njia ya kuruhusu malipo ya hatari kwa mkopeshaji na uwekezaji kwa mkopaji, ambayo ni msingi wa ubepari.
 
-![image](assets/3/img-047.webp)
+![image](assets/sw/048.webp)
 
 Hata hivyo, kwa mujibu wa mwanahistoria wa Kifaransa, kuongezeka kwa ubepari lazima kuwekwa katika muktadha mpana wa mabadiliko ya kiuchumi, kijamii, na kiutamaduni ambayo yalijitokeza kwa karne kadhaa. Le Goff inasisitiza haswa umuhimu wa Mapinduzi ya Kibiashara ya karne ya 15 na 16, yaliyoangaziwa na upanuzi wa biashara ya baharini na ugunduzi wa njia mpya za biashara, ambayo ilichochea mkusanyiko wa mtaji na kutawala kwa mantiki ya soko.
 
@@ -824,7 +829,7 @@ Hata hivyo, kwa mujibu wa mwanahistoria wa Kifaransa, kuongezeka kwa ubepari laz
 
 Utafiti wa utaratibu wa sheria za kiuchumi huanza katika Zama za Kati. Wanauchumi wa kwanza ni wanatheolojia wa shule ya Paris. Wa kwanza kati yao kuandika mkataba wa kisayansi uliotolewa kabisa kwa somo la kiuchumi ni Nicolas Oresme (1325-1382). Karibu 1360, alitunga _Treatise on the Origin, Nature, Law, and Alterations of Money_ yake ambayo inafupisha na kuendeleza mawazo ya wanazuoni wa wakati wake.
 
-![image](assets/3/img-031.webp)
+![image](assets/sw/049.webp)
 
 Kiini cha uchambuzi wake wa kifedha ni shida ya "mabadiliko" ya pesa, ambayo ni, mabadiliko katika yaliyomo kwenye metali ya sarafu na madhehebu yao. Mabadiliko haya yametokea tangu alfajiri ya wakati na yameandikwa vyema kwa Zama za Kale na Zama za Kati. Athari yao inayoonekana zaidi ni kubadilisha uwezo wa ununuzi wa kitengo cha fedha, haswa kupunguza. Hii ni aina ya mfumko wa bei ambayo Oresme inalaani waziwazi kama uovu.
 
@@ -850,7 +855,7 @@ Zaidi ya hayo, ikiwa sarafu mbili tofauti zitanufaika na zabuni halali, mawakala
 
 Tangu Renaissance, Ulaya ingeharibiwa na vita vya kidini. Uvumilivu, kwa hiyo, ukawa mojawapo ya vita vikubwa vya Kutaalamika.
 
-![image](assets/4/img-112.webp)
+![image](assets/sw/050.webp)
 
 Kwa wengine, mbinu ya kisayansi ingeunganisha watu zaidi ya ubaguzi na mtazamo wa kawaida wa ulimwengu. Je, kivutio cha watu wote si sawa kwa Mkatoliki, Mprotestanti, Myahudi, au asiyemwamini Mungu? Kwa hiyo, Encyclopédie ya Diderot na d’Alembert inawakilisha jaribio la kukuza ujuzi wa ulimwengu wote, wenye uwezo wa kuunganisha watu.
 
@@ -861,7 +866,7 @@ Voltaire alifikiria vivyo hivyo kuhusu biashara. Inaweza kuanzisha uvumilivu, bo
 Kwa Voltaire, kimsingi ni udhaifu wa mwanadamu ambao unaunda msingi wa fundisho la uvumilivu na uhuru wa kisiasa. Anaandika katika _Philosophical Dictionary_ (1764) yake:
 
 > Uvumilivu ni matokeo ya lazima ya ufahamu wetu wa kuwa wenye makosa. Kukosea ni binadamu, na sisi sote tunafanya makosa kila mara. Tusameheane maovu yetu; hii ndiyo sheria ya kwanza ya asili.
-![image](assets/4/img-078.webp)
+![image](assets/sw/051.webp)
 
 Lakini katika _Philosophical Letters_ (1734), Voltaire anatoa maoni mengine. Anaona kwamba nchini Uingereza, biashara inakuza uvumilivu wa kidini, ambao ni sehemu muhimu ya amani ya kiraia na hivyo furaha. Anaandika barua hizi kukosoa vita vya kidini nchini Ufaransa, vinavyochochewa na mamlaka kamili ya kisiasa. Hii inawakilisha ukosoaji mkali wa kwanza wa Utawala wa Kale.
 
@@ -890,7 +895,7 @@ Katika _Barua ya Kumi_, "Juu ya Biashara", Voltaire anaelezea mawazo ya Wafarans
 
 Hata hivyo Ufaransa haikupungukiwa na akili kubwa. Inajulikana kidogo lakini Anne Robert Jacques Turgot, Baron de Laulne alikuwa wa kwanza kabisa mwanafikra mkuu kabla ya kuwa Mdhibiti Mkuu wa Fedha chini ya Louis XVI. Alikuwa mwandishi wa risala ya ustadi kuhusu uchumi wa kisiasa, _Reflections on the Formation and Distribution of Wealth_ (1766), iliyotangulia _The Wealth of Nations_ na Adam Smith (1776).
 
-![image](assets/4/img-074.webp)
+![image](assets/sw/052.webp)
 
 Maandishi yake ya awali yanaonyesha Commitment yake kwa falsafa ya Kutaalamika. Mnamo 1754, alichapisha _Letters on Civil Tolerance_ na mnamo 1757, nakala kadhaa zilizoandikwa kwa _The Encyclopédie_ na Diderot na d'Alembert.
 
@@ -910,7 +915,7 @@ Kwa maneno mengine, kuwa mvumilivu haimaanishi kuwa na uadui na dini. Inamaanish
 
 Uliberali wa kiuchumi mara nyingi huhusishwa na mila ya Anglo-Saxon inayotokana na Adam Smith, ikilinganishwa na "liberalism ya kisiasa," ambayo inasemekana inatoka kwa Mwangaza wa bara, haswa nchini Ufaransa. Mtazamo huu sio sahihi.
 
-![image](assets/4/img-069.webp)
+![image](assets/sw/053.webp)
 
 Ilikuwa ni katika kukabiliana na mercantilism na, kwa upana zaidi, kwa mawazo ya Utawala wa Kale kwamba sayansi ya kiuchumi ilizaliwa nchini Ufaransa. Pamoja na Kutaalamika kikaja kipindi ambacho wanafalsafa walianza kujiita "wachumi," hawa walikuwa wanafiziokrati.
 
@@ -929,7 +934,7 @@ Kutokana na hatua hii, dhana mbili tofauti zilianza kujitokeza ndani ya Mwangaza
 
 Maneno haya yalionekana wakati Jean-Baptiste Colbert, mshauri mkuu wa Louis XIV, aliwauliza wafanyabiashara siku moja: "Nifanye nini kwa ajili yako?" Mmoja wao, aitwaye François Legendre, alijibu: "Hebu tufanye!"
 
-![image](assets/4/img-051.webp)
+![image](assets/sw/054.webp)
 
 Maneno hayo yalikubaliwa na Wanafizikia, François Quesnay, Marquis d'Argenson, na kisha na Vincent de Gournay: "Laissez-faire, laissez passer." Ikawa kauli mbiu yao.
 
@@ -947,13 +952,13 @@ Hadi Mapinduzi ya Ufaransa, jamii iliishi katika uchumi wa kiungwana unaotegemea
 
 Walakini, tangu Zama za Kati, kama tulivyoona, uchumi wa soko ulikua. Wafanyabiashara wakawa matajiri na kupata uhuru zaidi wa kiuchumi.
 
-![image](assets/4/img-068.webp)
+![image](assets/sw/055.webp)
 
 Soko ni kuhusu Kubadilishana kwa hiari kwa bei iliyoainishwa. Soko huboresha nyenzo, kiakili, na hali ya kisiasa ya kila mtu kwa sababu inaruhusu upatikanaji wa nafasi za uhuru na mpango.
 
 Kwa hakika, wanadamu wanataka kiasili kuboresha hali yao wenyewe na ya wapendwa wao, kupitia Exchange ya bidhaa na huduma. Hivyo basi hamu ya wanafalsafa hao wapya, "wachumi," kuwawezesha watu kujipatia mapato ya kutosha na hivyo kufikia kile ambacho Kant anakiita katika kijitabu chake _What is Enlightenment?_ "wengi" wao, uhuru wao wa maamuzi na matendo.
 
-![image](assets/4/img-060.webp)
+![image](assets/sw/056.webp)
 
 Kwa Wanafizikia, uhuru haugawanyi. Kupambana na marupurupu ya kisiasa na kupambana na kodi za kiuchumi ni kitu kimoja. Ajabu kubwa ya wanauchumi wa kisasa, mwanzoni mwa karne ya 18, ilikuwa kwamba walizingatia kila mtu kwa nia ya kurejesha uwezo wao wa kuchukua hatua huku wakifikiria jinsi ya kudhibiti tamaa na maslahi kupitia soko huria.
 
@@ -980,7 +985,11 @@ Kwa ufupi, ikiwa kila mtu anaweza kufuata kwa hiari maslahi yake binafsi kwa hes
 Katika kipindi kifupi cha utumishi wake kama Waziri wa Fedha (Mdhibiti Mkuu), kuanzia Agosti 1774 hadi Mei 1776, Ann-Robert Jacques Turgot alijaribu mageuzi makubwa ili kukomesha matumizi makubwa ya fedha, ukiritimba mwingi wa ndani, na kurudi kwenye biashara huria. Alifikia hata kumwonya Mfalme Louis XVI kwa maneno haya:
 
 > Ni lazima, Bwana, ujizatiti dhidi ya wema wako, kwa wema wako wenyewe, ukizingatia zinatoka wapi pesa ambazo unaweza kuwagawia wapambe wako.
-> Mnamo 1774, alichapisha Amri zake Sita za kukomesha vyama na ustadi (mashirika ambayo yamekuwa ukiritimba na vizuizi vya kuingia kwenye soko la ajira), kukomesha ushuru wa forodha wa ndani wa biashara ya nafaka, kukomesha kazi ya kulazimishwa (corvée), na kuanzisha uvumilivu kwa Waprotestanti.
+
+![image](assets/sw/057.webp)
+
+Mnamo 1774, alichapisha Amri zake Sita za kukomesha vyama na ustadi (mashirika ambayo yamekuwa ukiritimba na vizuizi vya kuingia kwenye soko la ajira), kukomesha ushuru wa forodha wa ndani wa biashara ya nafaka, kukomesha kazi ya kulazimishwa (corvée), na kuanzisha uvumilivu kwa Waprotestanti.
+
 Kwa bahati mbaya, kupanda kwa bei ya ngano, kufuatia mavuno duni, kulitia shaka juu ya mageuzi yake. Turgot aliandika katika utetezi wake:
 
 > Wakati katika majimbo bado kungekuwa na njaa, haipaswi kuchukuliwa kama pingamizi dhidi ya uhuru; inapaswa kuhitimishwa tu kwamba uhuru haujaanzishwa kwa muda wa kutosha kuweza kutoa athari zake zote.
@@ -1000,7 +1009,7 @@ Akiweka wakfu sura ya "The Brilliance of Turgot," Murray Rothbard katika histori
 
 Mnamo mwaka wa 1776, mwanafalsafa Étienne Bonnot de Condillac alichapisha _Commerce and Government_, bila shaka kuwa mojawapo ya maombi mazuri sana ya enzi hiyo kwa ajili ya biashara huria na uhuru wa mtu binafsi.
 
-![image](assets/4/img-053.webp)
+![image](assets/sw/058.webp)
 
 _Biashara na Serikali_ ina kile ambacho kingeitwa baadaye nadharia ya ubinafsi wa thamani, ambayo ilimletea sifa zote za wanauchumi wa Austria, kuanzia na Menger. Kufuatia Turgot, lakini kwa uwazi zaidi, Condillac anadai kwamba thamani haiishi katika leba lakini kwa ukweli kwamba kila mtu anavutiwa na ubadilishanaji:
 
@@ -1013,7 +1022,7 @@ Pia ni risala kuhusu falsafa kwa kuwa inaonyesha jinsi Exchange ya bure na ya hi
 
 Mnamo 1776, Mwingereza aitwaye Thomas Paine alichapisha katika Amerika kijitabu kikali kilichokosoa ufalme wa Kiingereza na kutetea uhuru wa wakoloni wa Kiamerika: _Common Sense_.
 
-![image](assets/4/img-065.webp)
+![image](assets/sw/059.webp)
 
 Paine anadai kuwa:
 
@@ -1035,11 +1044,11 @@ Thomas Paine, kupitia kijitabu chake, alichukua jukumu muhimu katika Mapinduzi y
 
 Mnamo Julai 4, 1776, huko Philadelphia, ambapo wamekusanyika katika kongamano (kwa Kiingereza, "Convention"), wawakilishi wa Makoloni Kumi na Tatu ya Kiingereza ya Amerika Kaskazini walipitisha azimio linalosema kwamba "Marekani ni, na ya haki inapaswa kuwa, Mataifa huru na huru". Azimio hilo linaungwa mkono na John Adams, (mmoja wa wahamasishaji wa Chama cha Chai) na Benjamin Franklin, wajumbe kutoka Massachusetts. Azimio la Uhuru litaandaliwa na Thomas Jefferson, mjumbe kutoka Virginia.
 
-![image](assets/4/img-066.webp)
+![image](assets/sw/060.webp)
 
 Kwa miaka iliyofuata, Wafaransa La Fayette, Rochambeau, Admiral de Grasse, Count d'Estaing, Jenerali Duportail, Marquis de la Rouerie, Kamanda Pierre L'Enfant, mwandishi Beaumarchais, na wengine wengi walipigana pamoja na Waasi hao ili kuwaweka huru kutoka kwa nira ya Mfalme wa Uingereza.
 
-![image](assets/4/img-081.webp)
+![image](assets/sw/061.webp)
 
 Miaka 141 baadaye, Julai 4, 1917, katikati ya Vita vya Kidunia, sherehe iliandaliwa kwa askari wa kwanza wa AEF waliofika Paris kwenye Makaburi ya Picpus kwenye kaburi la La Fayette, "shujaa wa ulimwengu mbili." Katika hafla hii, Kapteni Charles E. Stanton kutoka kwa wafanyikazi wa Jenerali Pershing alitoa hotuba maarufu:
 
@@ -1056,7 +1065,7 @@ Mnamo 1789, ilikuwa tena La Fayette, na Jefferson, ambaye aliweka misingi ya kwa
 
 Adam Smith alichapisha mwaka 1776 _An Inquiry into the Nature and Causes of the Wealth of Nations_. Kazi kubwa ambayo mara nyingi humuweka kama mwanauchumi ingawa alifundisha falsafa ya maadili katika Chuo Kikuu cha Glasgow. Kwa njia ya kisanii, anakumbukwa kama baba wa uchumi wa kisasa.
 
-![image](assets/4/img-070.webp)
+![image](assets/sw/062.webp)
 
 Kwa kweli, Smith alikuwa na deni kubwa kwa wanauchumi Quesnay na Turgot ambao alikutana nao wakati wa safari ya zaidi ya mwaka mmoja huko Ufaransa. Katika kitabu hiki, anaelezea kwa uwazi zaidi "mfumo rahisi wa uhuru wa asili" ambapo watu binafsi, wakifuata maslahi yao wenyewe, wanaongozwa "na mkono usioonekana" ili kukuza ustawi wa jamii kwa ujumla.
 
@@ -1088,7 +1097,7 @@ Hadi karne ya 18, tatizo kuu la kisiasa kwa wanafalsafa hao kwa hiyo ni lile la 
 
 Wazo hilo liliongozwa na Locke katika karne ya 17 na kisha kuchukuliwa na Rousseau. Mamlaka kuu ni lazima si tu kutoka kwa hiari ya watu lakini pia kukaa ndani yake. Hii ni nadharia ya Rousseauist ya uhuru wa mapenzi ya jumla, kile tunachokiita leo demokrasia.
 
-![image](assets/4/img-071.webp)
+![image](assets/sw/063.webp)
 
 Rousseau anawachukulia watu kama mtu anayejitegemea na anayeweza kujitiisha kwa sheria wanazoweka. Uhuru wa hiari wa watu ndio msingi pekee wa haki wa enzi kuu. Rousseau angeendeleza ubinadamu huu wa kisheria, tabia ya Usasa, kwa matokeo yake ya mwisho kwa kuwachukua watu kama mtu anayeweza kujiamulia kwa uhuru au kama utashi wa jumla. Kwa hivyo, Mkataba unahusisha utiifu kwa sheria ambazo mwanadamu kama mkuu atakavyojitolea kama wosia fulani. Nadharia ya utashi wa jumla au uhuru wa watu kwa hivyo inaruhusu upatanisho wa uhuru na utii. Kujianzisha kwa sheria au uhuru wa kisiasa kwa kweli imekuwa sehemu muhimu ya demokrasia tangu Rousseau.
 
@@ -1098,7 +1107,7 @@ Lakini swali la asili ya enzi kuu sio pekee. Tafakari inaweza kuchukua mwelekeo 
 
 Mmoja wa wanafalsafa wa Kutaalamika ambaye ushawishi wake ulikuwa mkubwa sana huko Ufaransa na Amerika ni John Locke. Alikuwa msukumo nyuma ya Mababa Waanzilishi wa Merika lakini pia Azimio la Haki za Binadamu na Raia mnamo 1789.
 
-![image](assets/4/img-063.webp)
+![image](assets/sw/064.webp)
 
 Mifumo yote ya awali ilizingatia kwamba uhuru ni haki zinazotolewa na mamlaka kwa mujibu wa idhini ambayo inaweza kubatilishwa wakati wowote. Kwa Locke, maisha ya mtu ni yake mwenyewe kwa mujibu wa haki ya asili (maana yake: kwa mujibu wa kanuni ya maadili iliyo katika asili ya kibinadamu) na kwamba lengo pekee la maadili la serikali ni ulinzi wa haki za mtu binafsi.
 
@@ -1109,7 +1118,7 @@ Thomas Jefferson aliandika nadharia ya Locke ya haki zisizoweza kuondolewa katik
 
 Tunashikilia ukweli huu kuwa dhahiri, kwamba wanadamu wote wameumbwa sawa, kwamba wamepewa na Muumba wao haki fulani zisizoweza kutenganishwa, kati ya hizi, maisha, uhuru, na kutafuta furaha.
 
-![image](assets/4/img-058.webp)
+![image](assets/sw/065.webp)
 
 Zaidi ya hayo, Kifungu cha 2 cha Azimio la Haki za Ufaransa la 1789 pia kinapata msukumo kutoka kwa mapokeo haya ya sheria ya asili ya Lockean:
 
@@ -1120,7 +1129,7 @@ Mapinduzi ya Marekani yaliongozwa na watu waliozungumzia haki za kimsingi zisizo
 
 Katika karne ya 19, Alexis de Tocqueville, mwanafalsafa wa kisiasa Mfaransa, alijaribu kubainisha tofauti hizi kati ya mapinduzi hayo mawili ya kinadada. Anahusisha mafanikio ya Mapinduzi ya Marekani na mambo kadhaa.
 
-![image](assets/4/img-076.webp)
+![image](assets/sw/066.webp)
 
 Kwanza, katika njia ya kufafanua jamhuri. Jamhuri ya Ufaransa ni moja na haigawanyiki. Jamhuri ya Marekani inaundwa na mataifa huru, kila moja ikiwa na mamlaka yake na maslahi ya ndani. Shirikisho linachukuliwa kuwa uhaini nchini Ufaransa. Huko Amerika, uhaini ungejumuisha kutaka kulazimisha umoja. Hadi Vita vya wenyewe kwa wenyewe vya Amerika angalau, Muungano katika anuwai ya Mataifa ulikuwa nguvu ya Shirikisho.
 
@@ -1136,7 +1145,7 @@ Muundo huu unalinda kwa uwazi dhidi ya udhalimu wa walio wengi. Walakini, Mapind
 
 Abbe Sieyès (1748-1836) anachukuliwa kuwa baba wa Mapinduzi ya Ufaransa. Yeye ndiye mwandishi wa _Je! ni Mali gani ya Tatu?_, mnamo Januari 1789
 
-![image](assets/4/img-073.webp)
+![image](assets/sw/067.webp)
 
 Jengo la Tatu lilijumuisha wale wote ambao hawakuwa wa makasisi au wakuu. Kutoka kwa mistari ya kwanza kabisa ya kijitabu chake maarufu, Abbé Sieyès alisifu uhuru wa mtu binafsi na ushindani wa bure:
 
@@ -1149,11 +1158,11 @@ Kunyang'anywa mali za Kanisa kwa lengo la kuepusha mzozo wa kifedha; ilikusudiwa
 
 Zaidi ya hayo, kama Dupont de Nemours alivyokuwa ametabiri, utoaji wa fedha ghushi ulizidisha tu mgogoro, na kusababisha mfumuko wa bei ulioenea na kushuka kwa kasi kwa thamani ya Wateule. Mnamo Agosti 1792, ghasia za njaa zilisababisha uasi wa Paris, kuuawa kwa Louis XVI mnamo Januari 1793, na kisha Utawala wa Ugaidi.
 
-![image](assets/4/img-080.webp)
+![image](assets/sw/068.webp)
 
 Mnamo 1795, miaka mitano baada ya utoaji wa kwanza, pesa za karatasi zilipoteza 99% ya thamani yake. Mapinduzi ya Ufaransa yaliendelea chini ya Orodha hadi 1799, wakati Napoleon aliponyakua mamlaka kupitia mapinduzi ya kijeshi. Akawa Balozi wa Kwanza wa Jamhuri ya Ufaransa kabla ya kutawazwa kuwa Maliki mwaka wa 1804. Hili lilikuwa mojawapo ya mikanganyiko ya kwanza ya wazi ya Azimio la Haki za Binadamu, ambalo lilitangaza kwamba mali ya kibinafsi haiwezi kukiukwa.
 
-![image](assets/4/img-050.webp)
+![image](assets/sw/069.webp)
 
 Huko Amerika, hakukuwa na dirigisme ya kiuchumi, au kufilisika kwa pesa kama ile ya Wateule. Na zaidi ya yote, hakukuwa na marufuku, hakuna uhamiaji wa watu wengi, hakuna mtu wa kupigwa risasi, hakuna mauaji, na hakuna Utawala wa Ugaidi. Mara moja, mtu anaweza kuona tofauti katika njia za utekelezaji zinazotenganisha Mapinduzi ya Marekani na Mapinduzi ya Kifaransa.
 
@@ -1172,23 +1181,26 @@ Zaidi ya hayo, hii ndiyo maana ya matamshi ya Friedrich Hayek katika kitabu chak
 
 Kulingana na Benjamin Constant, uhuru, katika jamii zetu za kisasa, hauwezi tena kueleweka kwa namna ya jamii za Zamani kama ushiriki wa moja kwa moja katika mambo ya jiji.
 
-![image](assets/5/img-103.webp)
+![image](assets/sw/070.webp)
 
 ### Uhuru katika Maisha ya Kibinafsi
 
 Katika nyakati za zamani, mtu huyo alikuwa huru katika mambo ya umma lakini alikuwa mtumwa katika uhusiano wao wote wa kibinafsi. Dhabihu ya uhuru wa mtu binafsi ililipwa na matumizi ya haki za kisiasa: haki ya kutekeleza moja kwa moja sehemu mbalimbali za uhuru, kufanya makusudi katika uwanja wa umma, kupiga kura juu ya sheria, kutangaza hukumu, kutathmini na kuhukumu mahakimu. Ni uhuru wa kisiasa na wa pamoja:
 
 > Uhuru wa Wazee ulijumuisha ushiriki hai na wa mara kwa mara katika nguvu ya pamoja. Uhuru wetu, kwa upande mwingine, lazima uwe na furaha ya amani ya uhuru wa kibinafsi; inafuata kwamba lazima tushikamane zaidi kuliko watu wa zamani kwa uhuru wetu wa kibinafsi. (_Juu ya Uhuru wa Watu wa Kale Ikilinganishwa na ile ya Watu wa Kisasa_ (1819))
-![image](assets/5/img-084.webp)
+![image](assets/sw/071.webp)
 
 Uhuru wa kisasa ni uhuru wa kiraia, unaojumuisha uhuru wa kiuchumi na unategemea haki ya faragha. Ni haki ya kutofanyiwa jeuri yoyote, haki ya kujieleza, kukusanyika, kutembea, kuabudu, na viwanda. Hakuna uhuru bila uwezekano wa kuchagua mtindo wa maisha na maadili, kwa hivyo hakuna uhuru bila uwezekano wa kujiondoa kutoka kwa jamii na kwa hivyo hakuna uhuru bila kizuizi cha Serikali kuruhusu uwepo wa nafasi hii ya kibinafsi. Ni uhuru unaolingana na kile ambacho Wamarekani wanakiita haki za kiraia.
 
 Ufafanuzi huu wa uhuru unapatikana katika John Stuart Mill:
 
 > Uhuru pekee unaostahili jina hilo, ni ule wa kutafuta manufaa yetu wenyewe kwa njia yetu wenyewe, mradi tu tusijaribu kuwanyima wengine vyao au kuzuia jitihada zao za kuupata. (...) Ubinadamu hunufaika zaidi kwa kumwacha kila mtu aishi jinsi anavyoona inafaa kuliko kumshurutisha kuishi kama inavyoonekana kuwa nzuri kwa wengine. (_Kwenye Uhuru_, 1859)
-![image](assets/5/img-097.webp)
+
+![image](assets/sw/072.webp)
 
 Mill inabainisha mipaka ya mamlaka ya serikali: inasimama pale uhuru wa mtu binafsi unapoanzia. Ikiwa hatua ya mtu binafsi haina matokeo mabaya kwa wengine, basi mtu huyo yuko huru kabisa kuifanya. Serikali lazima idhibiti mahusiano kati ya watu binafsi, lakini haiwezi kwenda mbali zaidi, kwa kuingilia maisha ya kibinafsi ya watu binafsi. Iwapo mtu huyo atajidhuru, Serikali haiwezi kufanya lolote ila "kupinga" au kujaribu "kuwasababu" au "kuwashawishi": haiwezi kulazimisha au kuadhibu. Kwa Mill anaongeza: "Sababu pekee halali ambayo serikali inaweza kutumia nguvu dhidi ya mmoja wa wanachama wake, kinyume na matakwa yao, ni kuzuia madhara yasitendeke kwa wengine."
+
+![image](assets/sw/073.webp)
 
 Nguvu ya kisiasa inayolingana na uhuru wa watu wa kisasa kwa hiyo ni mamlaka yenye mipaka: "Wacha mamlaka yajiwekee mipaka ya kuwa ya haki, tutatunza furaha yetu," anatangaza Benjamin Constant. Si juu ya Serikali kutuambia jinsi ya kuwa na furaha.
 
@@ -1218,7 +1230,7 @@ Kwa maneno mengine, katika jamii huru, ni muhimu kuweka mpaka mkali kati ya nyan
 
 Alexis de Tocqueville alikuwa mfuatiliaji makini wa demokrasia na mkosoaji wa ubinafsi wa kidemokrasia.
 
-![image](assets/5/img-095.webp)
+![image](assets/sw/074.webp)
 
 Uchambuzi wa Tocqueville wa demokrasia kimsingi unapanua tofauti iliyotolewa na Constant kati ya uhuru wa watu wa Kale na ule wa kisasa. Katika makala ya 1836 (_Jimbo la Kijamii na Kisiasa la Ufaransa Kabla na Tangu 1789_), Tocqueville kwa mbinu inalinganisha uhuru wa kiungwana na uhuru wa kidemokrasia. Ya kwanza inafafanuliwa kuwa "Kufurahia mapendeleo," na Tocqueville anatoa mfano wa raia wa Kirumi ambaye anapata uhuru wake si kutoka kwa asili bali kutoka kwa mali yake ya Roma.
 
@@ -1227,7 +1239,7 @@ Dhana ya pili, ambayo ni "mawazo sahihi ya uhuru," inajumuisha "haki sawa na isi
 > Kwa mujibu wa dhana ya kisasa, dhana ya kidemokrasia, na nathubutu kusema dhana sahihi ya uhuru, kila mtu, akidhaniwa kuwa amepokea kutoka kwa maumbile ufahamu unaohitajika wa kujiendesha, huleta wakati wa kuzaliwa haki sawa na isiyoweza kuondolewa ya kuishi kwa kujitegemea kutoka kwa wenzake, katika yote yanayohusiana na yeye tu, na kusimamia vile anavyoona inafaa hatima yake mwenyewe.
 Tocqueville iko makini kutambua athari zote za kisiasa na kitamaduni za njia hii mpya ya kuwa, kwa kawaida ya kisasa. Anapenda Pascal, analenga kuonyesha ukuu na taabu za demokrasia.
 
-![image](assets/5/img-085.webp)
+![image](assets/sw/075.webp)
 
 Mnamo mwaka wa 1841 katika _Demokrasia katika Amerika_, anachambua kanuni hii ya kidemokrasia ambayo inajisisitiza yenyewe katika usawazishaji wa masharti dhidi ya uongozi wa tabaka na mamlaka ya mila. Na anaona kwamba mchakato huu kimantiki unaambatana na kufutwa kwa athari za kijamii, uhusiano wa utegemezi, na kuathiri dhamana ya kijamii, na hivyo kutishia utekelezaji wa uhuru na uwajibikaji wa kisiasa wa raia. Zaidi ya hayo, upotevu wa maadili makuu ya kale (adili, wema wa wote) husababisha umaskini wa maana ya maisha, "kwa starehe ndogo na za uchafu," kwa kuchoka na wasiwasi.
 
@@ -1261,7 +1273,7 @@ Katika hotuba hii, Tocqueville analinganisha ujamaa na Utawala wa Kale, ambao " 
 Frédéric Bastiat alifikiria nini kuhusu demokrasia? Alijibu mapema kama 1846:
 
 > Mimi ni wa demokrasia, ikiwa kwa neno hili unamaanisha: Kwa kila mtu mali ya kazi yake, uhuru kwa wote, usawa kwa wote, haki kwa wote, na amani kati ya wote. (_Biashara Huria_).
-![image](assets/5/img-088.webp)
+![image](assets/sw/076.webp)
 
 Lakini mnamo 1848, baada ya mapinduzi ya Februari, Bastiat alichaguliwa kuwa naibu wa Ardhi katika mkutano ambapo wanasoshalisti waliingia kwa ushindi. Hawa wa mwisho walidai jambo moja tu: kwamba sheria iweke kanuni ya udugu. Kwa maneno mengine, kupitisha sheria za kutoa kazi, elimu, na huduma za afya kwa wote.
 
@@ -1272,7 +1284,7 @@ Serikali basi inakuwa, kulingana na maneno ya Bastiat,
 
 > hadithi kuu ambayo kwayo kila mtu hujitahidi kuishi kwa gharama ya kila mtu mwingine. ([_The State_](http://bastiat.org/fr/l_etat.html))
 > Bastiat pia anakuza wazo kwamba mzozo hutokea wakati sheria inapotoka kwenye jukumu lake halali. Katika kijitabu chake maarufu [_The Law_](http://bastiat.org/fr/la_loi.html), anaonyesha kwa nini na jinsi sheria imekuwa "uwanja wa vita wa uchoyo wote," ikimaanisha chanzo cha mapendeleo, kodi ya hali, na ushuru wa kiholela. Mara tu inapokubalika kimsingi kwamba sheria inaweza kugeuzwa kutoka kwa dhamira yake ya kweli, kwamba inaweza kukiuka mali badala ya kuzidhamini, lazima mapambano ya kitabaka yafuate, ama kutetea dhidi ya uharibifu au kupanga kwa faida ya mtu mwenyewe.
-![image](assets/5/img-098.webp)
+![image](assets/sw/077.webp)
 
 Katika hali ambapo sheria inatekeleza tu haki za kila mtu na kudhamini _"shirika la pamoja la haki ya mtu binafsi ya utetezi halali,"_ hakuna mtu aliye katika nafasi ya kuitumia kwa manufaa yake mwenyewe kwa gharama ya wote, kwa kiasi kwamba aina yenyewe ya serikali inakuwa swali la pili.
 
@@ -1291,11 +1303,11 @@ Angalia ulimwengu. Ni watu gani wenye furaha zaidi, wenye maadili mema zaidi na 
 
 Ilikuwa ni wakati wa karne ya 19 ambapo ukosoaji wa ubepari, na haswa ukosoaji wa Kimarx, uliibuka.
 
-![image](assets/5/img-089.webp)
+![image](assets/sw/078.webp)
 
 Je, kuna manufaa gani haki ya kuzungumza, kuandika, na kupiga kura, Marx alishangaa, ikiwa maisha ya kila siku ni mapambano ya kuendelea kuishi? Zaidi ya kizingiti fulani, umaskini ni sawa na utumwa. Kwa hivyo utaratibu wa kijamii unamnufaisha kila mtu ikiwa tu kanuni ya mgawanyo wa haki wa bidhaa itatumika. Ilikuwa ni ukosoaji huu wa uliberali uliompelekea Marx kuzingatia umuhimu wa udhibiti wa kimantiki na uliopangwa wa utaratibu wa kijamii. Kuanzia sasa, hali ndogo ya waliberali lazima ifaulu na serikali yenye nguvu yenye uwezo wa kuweka usawa wa kweli, ambayo, kulingana na Marx, inaenda hadi kukomesha mali ya kibinafsi na ujumuishaji wake. Katika toleo laini zaidi, "demokrasia ya kijamii," serikali inaombwa kudhamini sio tu haki za kufikirika za mwanadamu bali haki madhubuti za mwanadamu. Haki mpya zinaundwa, haki za kijamii na kiuchumi, zilizohakikishwa na serikali: haki ya kufanya kazi, haki ya makazi, haki ya afya (bure), haki ya elimu (bure).
 
-![image](assets/5/img-091.webp)
+![image](assets/sw/079.webp)
 
 ### Hadithi ya Nchi Isiyo na Upendeleo
 
@@ -1311,7 +1323,7 @@ Udanganyifu huu wa kisiasa wa uliberali ni upande wa kidunia wa udanganyifu wa k
 
 Kwa hakika, kwa Marx na kwa mujibu wa uyakinifu wa kihistoria, maendeleo ya jamii yanatokana na mapambano ya matabaka na mabadiliko ya mahusiano ya uzalishaji, ni kujitenga kiuchumi ambako ndiko mzizi wa kutengwa kisiasa na pia kujitenga kwa kidini. Katika kutengwa kwa uchumi, matokeo ya ubepari (unaofafanuliwa kama Ownership ya kibinafsi ya njia za uzalishaji), mfanyakazi analazimika kuuza nguvu zake za kazi kama bidhaa. Zaidi ya hayo, ananyimwa bidhaa ya kazi yake, ambayo inamilikiwa na mwajiri. Kwa hivyo ametengwa, kumaanisha kutengwa na yeye mwenyewe kwa sababu kazi yake inakuwa kitu kigeni kwake ambacho anafanya kwa nguvu, ili aendelee kuishi. Walakini, kazi, kwa Marx, ni tendo la kimsingi la kibinadamu, ambalo kupitia kwake kiini cha mwanadamu, yaani uhuru, hufikiwa. Hii ndiyo sababu ukombozi wa kazi pia unamaanisha kumrejesha mwanadamu katika utu na utu wake.
 
-![image](assets/5/img-104.webp)
+![image](assets/sw/080.webp)
 
 Kwa hiyo mapinduzi ya kisiasa ni udanganyifu, kwa mujibu wake, maadamu hayaambatani na mapinduzi ya kiuchumi na kijamii yenye uwezo wa kumkomboa mwanadamu kutoka katika utumwa wa kibepari na hivyo kufikia umoja kati ya mfanyakazi na mwananchi, kati ya jamii na serikali, nyanja binafsi na nyanja ya umma. Uhuru rasmi na usawa wa raia utakuwa wa kweli, katika jamii isiyo na tabaka.
 
@@ -1321,7 +1333,7 @@ Kwa hiyo mapinduzi ya kisiasa ni udanganyifu, kwa mujibu wake, maadamu hayaambat
 
 Shule ya Uchumi ya Austria, iliyoanzishwa na Carl Menger mwishoni mwa karne ya 19, ilipinga nadharia za Karl Marx tangu mwanzo.
 
-![image](assets/5/img-083.webp)
+![image](assets/sw/081.webp)
 
 ### Mapambano ya Darasa
 
@@ -1335,7 +1347,7 @@ Kwa mfano, mwajiri huajiri mfanyakazi kwa sababu anahitaji ujuzi wake ili kuzali
 
 Ludwig von Mises anaangazia kwamba Marx alishindwa kutofautisha kati ya kile kinachohusiana na itikadi ya ubepari katika haki za binadamu na kile wanachomaanisha kivitendo, misukosuko inayohusisha katika maisha ya kijamii.Wanafikra wengi wanaoikosoa dhana ya haki za binadamu wamefanya makosa yanayofanana katika mitazamo yao. Hivi ndivyo ilivyokuwa kwa wapinga mapinduzi, kama vile Joseph de Maistre au Louis de Bonald.
 
-![image](assets/5/img-092.webp)
+![image](assets/sw/082.webp)
 
 Katika _The Ethics of Liberty_ na _Anatomy of the State_, Murray Rothbard alieleza kuwa unyonyaji unaleta maana kama uchokozi dhidi ya mali ya kibinafsi na kwamba ni Serikali pekee inayopata mapato yake kupitia uchokozi, yaani, kupitia ushuru, deni, uchapishaji wa pesa, na hivyo kupitia mfumuko wa bei. Kiuhalisia, ni uingiliaji kati wa serikali, na sio mapambano ya kitabaka, ndio chanzo cha vurugu na migogoro katika jamii. Serikali, kwa kutumia rasilimali na kudhibiti uchumi, inazua upotoshaji na ukosefu wa haki unaosababisha migogoro na ukandamizaji. Kukomesha unyonyaji kwa hivyo kunahitaji kupunguza mamlaka ya tabaka la uporaji: Serikali.
 
@@ -1347,7 +1359,7 @@ Dhana ya mapambano ya kitabaka pia inaweza kusababisha wazo kwamba chochote kina
 
 Mises aliunda neno 'polylogism' kuelezea ujanja huu wa kifalsafa. Neno 'poly' linamaanisha 'nyingi', ilhali 'logism' linarejelea hoja au mantiki ya kisayansi na mazungumzo ya busara. Kulingana na Marx, kungekuwa na mantiki kadhaa zisizolingana, ile ya proletarians na ile ya ubepari.
 
-![image](assets/5/img-096.webp)
+![image](assets/sw/083.webp)
 
 Bado hadi katikati ya karne ya 19, hakuna mtu aliyethubutu kupinga ukweli kwamba muundo wa kimantiki wa akili ulikuwa sawa na wa kawaida kwa wanadamu wote. Mahusiano yote ya kibinadamu yanategemea dhana ya muundo wa kimantiki unaofanana. Watu wanaweza kushiriki katika majadiliano kwa sababu wanaweza kukata rufaa kwa kitu cha kawaida kwa wote, yaani muundo wa kimantiki wa sababu.
 
@@ -1363,7 +1375,7 @@ Ndio maana Georges Sorel, mwagizaji wa Umaksi nchini Ufaransa, angesema kwamba g
 
 Waaustria wanadai kwamba nadharia ya thamani ya kazi ya Marx, kulingana na ambayo thamani ya bidhaa imedhamiriwa na kiasi cha kazi muhimu kwa uzalishaji wake, ina makosa. Wanasema kuwa thamani ni ya kibinafsi na imedhamiriwa na matakwa ya watumiaji, sio kwa gharama za uzalishaji.
 
-![image](assets/5/img-087.webp)
+![image](assets/sw/084.webp)
 
 Eugen von Böhm-Bawerk, mmoja wa wanauchumi wa mapema wa Austria, alikosoa nadharia ya thamani ya kazi ya Marx katika kazi yake _Wert, Kapital und Zins_ (1886). Böhm-Bawerk alisema kuwa nadharia ya Marx ilitokana na makosa ya kimsingi, yaani kwamba vitengo vyote vya leba vinafanana. Kwa kweli, alisema, kazi fulani ni ngumu zaidi au yenye tija zaidi kuliko zingine, na hii ndiyo huamua thamani ya bidhaa.
 
@@ -1375,7 +1387,7 @@ Friedrich Hayek alianzisha nadharia ya faida kulingana na dhana ya kutokuwa na u
 
 Wana-Marx wanaamini kwamba ujamaa, mfumo wa kiuchumi ambao njia za uzalishaji zinamilikiwa na kudhibitiwa na wafanyikazi, bila shaka ni bora kuliko ubepari. Waaustria, kwa upande mwingine, wanadai kwamba ujamaa hauwezekani kufikiwa kivitendo, kwani ungehitaji kiwango kisichowezekana cha upangaji mkuu.
 
-![image](assets/5/img-090.webp)
+![image](assets/sw/085.webp)
 
 Mapema mwaka 1922, katika kitabu chake _Ujamaa,_ Ludwig von Mises alionyesha kwamba ujamaa ungesababisha uhaba mkubwa, kwani wapangaji wa kati hawataweza kufanya hesabu sahihi za kiuchumi bila mfumo wa bei unaotolewa na soko.
 
@@ -1385,7 +1397,7 @@ Mapema mwaka 1922, katika kitabu chake _Ujamaa,_ Ludwig von Mises alionyesha kwa
 
 Akiwa ameshtushwa na kuongezeka kwa uingiliaji kati wa serikali katika uchumi wa demokrasia ya Magharibi, Hayek aliandika _The Road to Serfdom_ kama uhakiki wa kifalsafa wa umoja, iwe kutoka kulia au kushoto. Kitabu hiki kilichapishwa katika nakala milioni kadhaa, kutokana na _Reader’s Digest_, kimechangia pakubwa umaarufu wa Hayek nchini Marekani.
 
-![image](assets/5/img-100.webp)
+![image](assets/sw/086.webp)
 
 ### Mvuto wa Collectivism
 
@@ -1405,7 +1417,7 @@ Kinyume chake, upangaji wa uchumi na jamii kwa ujumla, kiini cha ujamaa, unaelek
 
 Kutoka kwa kurasa za kwanza, Hayek anaanzisha ulinganifu kati ya ushindi wa maadili ya ujamaa katika nchi za Magharibi na mafanikio ya wakati mmoja ya utopias ya kiimla.
 
-![image](assets/5/img-093.webp)
+![image](assets/sw/087.webp)
 
 > Watu wachache, anaonya katika utangulizi wake, wako tayari kutambua kwamba kuongezeka kwa ufashisti na Nazism haikuwa majibu dhidi ya mwenendo (...) wa kipindi cha awali, lakini matokeo ya kuepukika ya mwelekeo huu. Hili ni jambo ambalo watu wengi wamekataa kuona, hata wakati ambapo waligundua kufanana kunakotolewa na sifa fulani mbaya za tawala za ndani za Urusi ya Kikomunisti na Ujerumani ya Nazi. Matokeo yake ni kwamba watu wengi wanaojiona kuwa juu sana ya upotovu wa Unazi na ambao wanachukia kwa dhati udhihirisho wake wote, wakati huo huo wanafanyia kazi maadili ambayo utambuzi wake ungeongoza moja kwa moja kwenye udhalimu huu unaochukiwa.
 > Kulingana na Hayek, ujamaa na Unazi hushiriki mambo kadhaa ya kimsingi, haswa kukataliwa kwa ubinafsi na mpangilio wa soko wa moja kwa moja. Itikadi zote mbili zinatanguliza ustawi wa kikundi badala ya haki na uhuru wa watu binafsi na kutafuta kuunda jamii yenye usawa iliyounganishwa na maadili na malengo ya kawaida. Si wanajamii wala Wanazi wanaosita kutumia nguvu na mabavu kufikia malengo yao. Wako tayari kukandamiza uhuru wa mtu binafsi na kukandamiza upinzani kwa jina la manufaa makubwa ya jamii.
@@ -1426,17 +1438,17 @@ Kwa kumalizia, Hayek anatoa wito kwa watu wa wakati wake kuupa kisogo "wazimu" n
 
 Ubepari mara nyingi hushutumiwa kuwa chanzo cha amri: "lazima tuzalishe zaidi kila wakati," au ya fomula: "kuteketeza ni nzuri kwa ukuaji." Hata hivyo, mawazo haya hayatokani na ubepari wa kimapokeo bali unatokana na Ukenesia, ambao umetawala nyanja ya sayansi ya uchumi na tabaka la kisiasa tangu miaka ya 1930.
 
-![image](assets/6/img-011.webp)
+![image](assets/sw/088.webp)
 
 ### Uchambuzi wa Mgogoro wa 1929
 
 Kilichochapishwa mwaka wa 1936, kitabu cha John Maynard Keynes: _Nadharia ya Jumla ya Ajira, Maslahi, na Pesa_, kilifagia kila kitu katika njia yake. Akihoji sababu za Unyogovu Mkuu na njia za kutokea kutoka kwake, anaelezea dhana mpya ya kiuchumi, ambayo ingebadilisha vizazi vya wachumi na wanasiasa.
 
-![image](assets/6/img-005.webp)
+![image](assets/sw/089.webp)
 
 Kwa muhtasari wa mapana, matumizi ya umma huleta ukuaji na kusaidia nakisi ya bajeti, sera ya fedha ya viwango vya chini vya riba lazima itekelezwe. Kwa hivyo, mwanzoni, ongezeko la hiari la matumizi ya umma lingekuwa na athari ya kuongezeka kwa shughuli za kiuchumi, yenye uwezo wa kuzuia kushuka kwa uchumi na kuongeza kasi ya kurejesha. Kisha, katika awamu ya pili, fedha zingezingatiwa kama chombo cha sera ya kiuchumi itakayotumiwa na mamlaka za umma kwa madhumuni ya kuleta utulivu wa uchumi mkuu.
 
-![image](assets/6/img-001.webp)
+![image](assets/sw/090.webp)
 
 Kwa hivyo, Kenesia ni madai ya kutoa njia za ukuaji wa nguvu na ajira kamili kupitia matumizi ya umma na matumizi. Na mpango huu wa ukuaji unategemea udhibiti wa pesa.
 
@@ -1450,7 +1462,7 @@ Pamoja na Keynes, karne ya 20 ikawa karne ya uaminifu kwa wataalam na katika kup
 
 Kwa Keynes, uingiliaji kati wa serikali ni muhimu ili kuchochea mahitaji na kuanzisha upya injini ya kiuchumi. Fundisho hili limeshinda katika vyuo vikuu na vitabu vya kiada. Hata hivyo uingiliaji kati wa serikali una dosari zake na unaweza kuzidisha migogoro kwa muda mrefu badala ya kusuluhisha.
 
-![image](assets/6/img-010.webp)
+![image](assets/sw/091.webp)
 
 Hii ndiyo sababu baadhi ya wanauchumi, katika walio wachache, wanamkosoa Keynes kwa muda wake mfupi na kutetea kurejea kwa mifumo ya soko kama njia bora zaidi ya kuingilia kati kwa serikali.
 
@@ -1458,11 +1470,11 @@ Kwa hivyo, Friedrich Hayek alieleza kwamba kuendelea kupunguzwa kwa viwango vya 
 
 Pamoja na wengine, pia aliangazia hatari ya kuweka kati na kudhibiti sarafu. Hivi ndivyo hali ilivyo kwa Mfaransa Jacques Rueff, pia mfuasi na rafiki wa Ludwig von Mises.
 
-![image](assets/6/img-012.webp)
+![image](assets/sw/092.webp)
 
 Alipohitimu kutoka École Polytechnique mnamo 1919, Rueff alikuwa na kazi kama mtumishi mkuu wa serikali na alikuwa mshauri wa kiuchumi kwa serikali nyingi katika miaka ya 1920 na 30. Kazi yake kuu ilionekana mwaka wa 1945: _L'ordre social_ (The Social Order), ambamo anaendeleza hoja yenye nguvu kwa ajili ya soko huria, kutoka mitazamo ya kiuchumi, kifalsafa na maadili.
 
-![image](assets/6/img-013.webp)
+![image](assets/sw/093.webp)
 
 Kitabu hiki kinajumuisha sura muhimu inayoitwa: "Pesa Sauti au Jimbo la Kiimla". Katika sura hii, anaendeleza mapendekezo mawili. Ya kwanza: "Pesa za uwongo huzaa machafuko ya kijamii". Pendekezo la pili linafuata kutoka kwa kwanza: "Machafuko ya kijamii huzaa utumwa wa kijamii". Pesa za uwongo ni sarafu ya karatasi, iliyotenganishwa na ukweli wowote wa kimaumbile na kuendeshwa na mamlaka inayotawala. Shida ya kijamii ni mfumuko wa bei na matumizi yanayotokana nayo. Utumwa wa kijamii ni utegemezi wa jamii kwa serikali, kupoteza uhuru wote wa kifedha, maadili na kisiasa.
 
@@ -1472,14 +1484,14 @@ Kuna uwezekano kwamba kipindi kijacho cha mfadhaiko kitasababisha matumizi makub
 
 Kuanzia 1958, sera ya kurekebisha uchumi wa Ufaransa, iliyoongozwa na Jacques Rueff, itafanywa chini ya mamlaka ya Jenerali de Gaulle. Itasababisha "Trente Glorieuses" maarufu (Miaka Thelathini ya Utukufu).
 
-![image](assets/6/img-014.webp)
+![image](assets/sw/094.webp)
 
 Katika _The Monetary Sin of the West_, mwaka wa 1971, Rueff anaandika:
 
 > Ni kwa ufinyu wa bajeti ambapo wanaume hupoteza uhuru wao.
 Anaongeza: "Mfumuko wa bei ni kutoa ruzuku ya matumizi ambayo hayazai chochote kwa pesa ambazo hazipo." Kulingana na yeye: "Mtu angefikiri, akiangalia mabadiliko ya mfumo wa fedha wa kimataifa, kwamba nchi za Magharibi zinatumia ushauri wa Lenin, kulingana na ambayo: Kuharibu utawala wa mbepari, inatosha kuharibu sarafu yake.
 
-![image](assets/6/img-004.webp)
+![image](assets/sw/095.webp)
 
 Mnamo 1976, alishambulia Ukaini kwa mara ya mwisho katika makala ya gazeti la _Le Monde_.
 
@@ -1495,7 +1507,7 @@ Pesa ni chombo ambacho kimewaruhusu wanadamu kwenda zaidi ya kubadilishana fedha
 
 Na ikawa kwamba aina fulani ya pesa ilijitofautisha polepole kutoka kwa wengine na kuwa zaidi ya karne kiwango cha kimataifa cha kumbukumbu, ambacho ni dhahabu.
 
-![image](assets/6/img-002.webp)
+![image](assets/sw/096.webp)
 
 Hakika, dhahabu ni sarafu ya kudumu (hard money) , vigumu kuzalisha, gharama kubwa kwa bandiab. Soko limechagua dhahabu kama sarafu inayotegemewa zaidi, inayodumu zaidi, na inayoweza kudhibitiwa. Historia inaonyesha kwamba watu wanapoweza kuchagua sarafu wanayotumia, huwa wanachagua dhahabu.
 
@@ -1509,20 +1521,23 @@ Hii ndiyo sababu, katika _Human Action_, Ludwig von Mises anaandika:
 
 Mfumo wa Bretton Woods, ulioundwa mwaka wa 1944 na kutekelezwa kikamilifu mwaka wa 1959, ulitegemea dhahabu na dola, sarafu pekee inayoweza kugeuzwa kuwa dhahabu. Kwa hiyo, ilikuwa ni lazima kukusanya dola ili kuweza kupata dhahabu.
 
-![image](assets/6/img-007.webp)
+![image](assets/sw/097.webp)
 
 Wakati huo, pamoja na Vita vya Vietnam hasa, ongezeko la upungufu wa serikali ya Marekani ulisababisha nchi nyingi za kigeni, ikiwa ni pamoja na Ufaransa, kutaka kubadilisha dola zao kuwa dhahabu katika FED. Mnamo Agosti 15, 1971, Rais Nixon aliamua kufuta ahadi ya ubadilishaji wa dola kuwa dhahabu, na hivyo kuunda sarafu ya karatasi ya kwanza kabisa katika historia ya Marekani. Kuanzia siku hii inaweza kuwa tarehe wakati fedha kabisa alikuja chini ya udhibiti wa benki kuu. Katika mahojiano, Richard Nixon alisema:
 
 > Sisi sote ni Wakenesia leo.
 Kwa hakika,wa wanauchumi wengi wa mtazamo wa Keynesian, kuachwa kwa kiwango cha dhahabu kumezipa serikali unyumbufu zaidi wa sera za fedha na matumizi unaohitajika kujibu au kuzuia migogoro ya kiuchumi.
 
-![image](assets/6/img-009.webp)
+![image](assets/sw/098.webp)
 
 Kulingana na Alan Greenspan, mwenyekiti wa zamani wa FED, benki kuu ya Amerika, kiwango cha dhahabu hakiendani na deni la serikali na ufadhili wa serikali ya ustawi:
 
 > Siku zote nimekuwa nikitamani uthabiti wa bei uliopo katika kiwango cha dhahabu; sarafu imara ilikuwa lengo lake kuu. Lakini nimekubali kwa muda mrefu kwamba kiwango cha dhahabu hakikubaliani kwa urahisi mtazamo uliopo wa kazi ya serikali, haswa jukumu la kuhakikisha mfumo wa hifadhi ya jamii. \[…\] Wamarekani wengi wamevumilia mfumuko wa bei kama bei ya kulipa kwa kuwa na hali ya kisasa ya ustawi. Hakuna tena wafuasi wa kiwango cha dhahabu, na ninaona uwezekano mdogo wa kurudi kwake. (_Enzi ya Machafuko_).
-> Kinyume chake, kwa watu kama Jacques Rueff, kuacha chuma cha thamani ni kosa ambalo linaweza tu kusababisha kupungua kwa mara kwa mara kwa uwezo wa kununua, ikifuatana na kupungua kwa viwango vya maisha, kuongezeka kwa usawa wa mapato, na kuongezeka kwa kuyumba kwa uchumi.
-> ![image](assets/6/img-008.webp)
+
+Kinyume chake, kwa watu kama Jacques Rueff, kuacha chuma cha thamani ni kosa ambalo linaweza tu kusababisha kupungua kwa mara kwa mara kwa uwezo wa kununua, ikifuatana na kupungua kwa viwango vya maisha, kuongezeka kwa usawa wa mapato, na kuongezeka kwa kuyumba kwa uchumi.
+
+![image](assets/sw/099.webp)
+
 Mnamo Februari 1965, wakati wa mkutano wa waandishi wa habari wa televisheni, Jenerali de Gaulle, akiongozwa moja kwa moja na Rueff, alikuwa amependekeza kurudi kwa kiwango cha dhahabu. Alisema:
 
 > Dhahabu, ambayo haibadilishi asili yake, ambayo haina utaifa, ambayo inashikiliwa, milele na ulimwenguni kote, kama thamani isiyoweza kubadilika kulingana na ubora.
@@ -1530,14 +1545,14 @@ Mnamo Februari 1965, wakati wa mkutano wa waandishi wa habari wa televisheni, Je
 
 Mnamo 1976, Hayek alipendekeza njia mbadala ya ukiritimba wa serikali juu ya kuunda sarafu: ushindani kati ya sarafu. Katika kitabu chake, _Pour une vraie concurrence des monnaies_ (_The Denationalization of Money_), alifikiria soko la fedha bila ukiritimba wa Serikali ambapo sarafu kadhaa za kibinafsi zingekuwepo. Uundaji na usimamizi wa sarafu tofauti na mashirika ya kibinafsi kungeruhusu watu binafsi kuchagua sarafu thabiti na inayotegemewa, na hivyo kuhimiza ushindani na nidhamu kati ya watoaji.
 
-![image](assets/6/img-003.webp)
+![image](assets/sw/100.webp)
 
 Anaandika:
 
 > Maadamu hatujarejesha hali ambayo serikali (pamoja na mamlaka zingine za umma) zinajua kwamba ikiwa zitatumia pesa nyingi sana, kama mtu mwingine yeyote, hazitaweza kutimiza majukumu yao, hakutakuwa na pause katika mchakato huu ambao, kwa kubadilisha shughuli za pamoja kwa shughuli za kibinafsi, unatishia kukandamiza mpango wa mtu binafsi. Chini ya demokrasia ya sasa isiyo na kikomo, ambayo serikali ina uwezo wa kutoa faida maalum za nyenzo kwa vikundi fulani, inalazimika kununua msaada wa kutosha wao kuunda wengi. (Ch. XXI, Athari za fedha na matumizi ya umma).
 Kwa Hayek, kuyumba kwa uchumi wa soko huko nyuma kunatokana na ukweli kwamba mdhibiti muhimu zaidi wa mifumo ya soko, yaani pesa, yenyewe haiwezi kuwa bidhaa ya mchakato wa soko.
 
-![image](assets/6/img-006.webp)
+![image](assets/sw/101.webp)
 
 Hayek aliamini kuwa soko huria la sarafu za kibinafsi lingesababisha utulivu mkubwa wa kifedha. Takriban miaka 50 baadaye, sarafu-fiche kama Bitcoin inajumuisha maono ya ushindani ya Hayek kwa kutoa njia mbadala iliyogatuliwa kwa mfumo wa ukiritimba wa benki kuu. Bitcoin, ikiwa na kikomo chake cha utoaji wa vitengo milioni 21, ni dhamana dhidi ya mfumuko wa bei na uholela wa vidhibiti.
 
@@ -1547,7 +1562,7 @@ Hayek aliamini kuwa soko huria la sarafu za kibinafsi lingesababisha utulivu mku
 
 Shida tunayopitia ni shida ya ustaarabu, ambayo ni, shida ya kiakili yenye matokeo ya kiadili, kisiasa na kiuchumi.
 
-![image](assets/6/img-000.webp)
+![image](assets/sw/102.webp)
 
 Kuna mazungumzo mengi kuhusu mgogoro wa siasa, kuzorota kwa demokrasia ya bunge, serikali ya uwakilishi, na hivyo uhuru. Mgogoro huu kwa kiasi fulani unahusishwa kwa urahisi na ubepari na "udikteta wa masoko."
 

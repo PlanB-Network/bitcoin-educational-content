@@ -1,0 +1,13 @@
+question: Hot Wallet이란 무엇인가요?
+answer: 인터넷에 연결된 휴대폰 또는 컴퓨터의 Bitcoin Wallet입니다.
+wrong_answers:
+  - 물리적으로 만지기에는 Hot인 Wallet입니다.
+  - Bitcoin 사용자들에게 인기 있는 Wallet입니다.
+  - 대량의 비트코인을 보관할 때 권장되는 Wallet입니다.
+explanation: |
+  Hot Wallet은 인터넷에 연결된 장치에 저장된 Bitcoin Wallet을 설명하는 데 사용되는 용어입니다
+  을 설명하는 용어입니다
+  전화 또는 컴퓨터. 이렇게 하면 쉽게
+  트랜잭션을 수행하기 쉽다는 의미이기도 하지만, Wallet이
+  온라인 위협에 잠재적으로 취약하다는 의미이기도 합니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mum üreticileri milletvekillerinden ne talep ediyor?
+answer: Güneşin ışık kaynağı olarak kullanılmasının yasaklanması
+wrong_answers:
+  - Mumlar üzerindeki vergileri artırmak için
+  - Yabancı mum fabrikalarını kapatmak
+  - Mum üretimini sübvanse etmek için
+explanation: |
+  Bu hicivde mum üreticileri, bazı korumacı politikaların saçmalığını vurgulamak için güneş ışığının yasaklanmasını talep ediyor.
+reviewed: false

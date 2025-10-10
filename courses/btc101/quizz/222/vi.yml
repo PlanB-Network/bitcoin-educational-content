@@ -1,9 +1,13 @@
-question: Vấn đề mở rộng quy mô của Bitcoin là gì?
-answer: Thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
+question: Các giao dịch trên Mạng Lưới Lightning được bảo mật như thế nào?
+
+answer: Qua mật mã học và gián tiếp qua năng lượng tiêu thụ bởi các thợ đào trên Bitcoin.
+
 wrong_answers:
-  - Khó khăn trong việc khai thác Bitcoin mới với giá trị tăng theo thời gian.
-  - Sự biến động của giá Bitcoin sẽ tăng sau mỗi lần halving.
-  - Sự thiếu quy định cho Bitcoin sẽ khiến các giao dịch trở nên bất hợp pháp.
+  - Qua việc sử dụng khóa riêng tư mà thôi.
+  - Qua việc sử dụng khóa công khai mà thôi.
+  - Qua việc sử dụng cả khóa riêng tư và khóa công khai mà thôi.
+
 explanation: >-
-  Vấn đề mở rộng quy mô đề cập đến thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
+  Các giao dịch trên Mạng Lưới Lightning được bảo mật qua mật mã học và gián tiếp qua năng lượng tiêu thụ bởi các thợ đào trên Bitcoin.
+
 reviewed: true

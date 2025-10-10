@@ -1,11 +1,10 @@
-question: Apa tujuan dari membuat rencana warisan untuk bitcoin Anda?
-answer: Untuk memastikan bahwa bitcoin Anda akan dikelola dengan baik setelah kematian Anda
+question: Apa itu Blockmit dalam konteks keamanan Bitcoin?
+answer: Solusi murah untuk mengukir frasa mnemonik Anda pada baja
 wrong_answers:
-  - Untuk menghindari pajak atas bitcoin Anda
-  - Untuk meningkatkan nilai dari bitcoin Anda
-  - Untuk mencegah bitcoin Anda dari pencurian
+  - Sejenis dompet Bitcoin untuk menandatangani beberapa transaksi sekaligus
+  - Solusi murah untuk menambang bitcoin di rumah
+  - Sejenis dompet Bitcoin yang memerlukan beberapa tanda tangan untuk menghabiskan bitcoin
 explanation: |
-  Rencana warisan memastikan bahwa bitcoin Anda akan dikelola dengan baik
-  setelah kematian Anda. Ini dapat mencakup surat tulisan tangan yang merinci aset Anda, metode
-  akses mereka, dan informasi kontak dari individu terpercaya yang harus dihubungi.
+  Blockmit adalah solusi murah untuk mengukir frasa mnemonik Anda
+  pada material tahan lama seperti baja, dengan demikian mengamankan bitcoin Anda dalam jangka panjang.
 reviewed: true

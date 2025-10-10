@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Mtaalamu
 description: Kwa kutumia chaguo za kina za COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Katika somo lililopita, tulishughulikia usanidi wa awali wa COLDCARD Q na kazi z
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-Mafunzo haya mapya yamejitolea kwa chaguo za kina za COLDCARD Q, iliyoundwa kwa ajili ya watumiaji wa hali ya juu na wabishi. Kwa hakika, COLDCARD zinatofautishwa na pochi zingine za maunzi kwa vipengele vyake vingi vya usalama vya hali ya juu. Bila shaka, si lazima kutumia chaguzi hizi zote. Chagua tu zile zinazolingana na mkakati wako wa usalama.
+Mafunzo haya mapya yamejitolea kwa chaguo za kina za COLDCARD Q, zilizoundwa kwa watumiaji wa hali ya juu na wabobezi. Kwa hakika, COLDCARD inajitofautisha na wallet nyingine za maunzi kupitia vipengele vyake vingi vya usalama wa hali ya juu. Hata hivyo, si lazima kutumia chaguo hizi zote. Tumia tu zile zinazolingana na mkakati wako wa usalama.
 
 
 **Tahadhari**, matumizi yasiyo sahihi ya baadhi ya chaguo hizi za juu yanaweza kusababisha upotevu wa bitcoins zako au uharibifu wa Hardware Wallet yako. Kwa hiyo ninapendekeza sana kwamba usome ushauri na maelezo kwa kila chaguo kwa makini.
@@ -36,10 +36,10 @@ Kumbuka kwamba mara tu unapoweka passphrase kwenye Wallet yako, Mnemonic yako pe
 Kwenye COLDCARD, una chaguo mbili za kudhibiti passphrase yako:
 
 
-1. **Ingizo la kawaida:** Unaingiza passphrase wewe mwenyewe kila wakati unapotumia Hardware Wallet yako, kama vile unavyofanya na pochi zingine za maunzi. COLDCARD Q hurahisisha kazi hii kwa kibodi yake kamili.
+1. **Ingizo la kawaida:** Unaingiza passphrase wewe mwenyewe kila wakati unapotumia Hardware Wallet yako, kama vile unavyofanya na wallet zingine za maunzi. COLDCARD Q hurahisisha kazi hii kwa kibodi yake kamili.
 
 
-2. **Unaweza kuchagua kusimba passphrase yako na kuihifadhi kwenye kadi ya microSD. Katika hali hii, utahitaji kuingiza microSD kwenye COLDCARD Q kila wakati unapoitumia. Kumbuka kuwa microSD hii itafanya kazi kwenye COLDCARD Q yako pekee na sio nakala rudufu. Kwa hivyo ni muhimu sana pia kuweka nakala ya passphrase yako kwenye nyenzo halisi, kama vile karatasi au chuma.
+2. **Unaweza kuchagua kusimba passphrase yako na kuihifadhi kwenye kadi ya microSD. Katika hali hii, utahitaji kuingiza microSD kwenye COLDCARD Q kila wakati unapoitumia. Kumbuka kuwa microSD hii itafanya kazi kwenye COLDCARD Q yako pekee na sio nakala rudufu. Kwa hivyo ni muhimu sana pia kuweka nakala ya passphrase yako kwenye nyenzo halisi, kama vile karatasi au chuma.**
 
 
 Ili kuweka BIP39 passphrase yako, fikia menyu ya "*passphrase*".
@@ -54,7 +54,7 @@ Weka passphrase yako kwa kutumia kibodi. Hakikisha umechagua passphrase yenye ng
 ![CCQ](assets/fr/03.webp)
 
 
-Ukishaweka passphrase yako, COLDCARD Q itakuonyesha alama ya vidole ya ufunguo mkuu wa Wallet mpya inayohusishwa na passphrase hii. Hakikisha umehifadhi alama hii ya vidole. Unapoingiza tena passphrase yako utakapotumia kifaa chako katika siku zijazo, utaweza kuangalia kama alama ya kidole inayoonyeshwa inalingana na uliyohifadhi. Ukaguzi huu unahakikisha kuwa hujafanya makosa wakati wa kuingiza passphrase yako.
+Ukishaweka passphrase yako, COLDCARD Q itaonyesha alama ya vidole ya ufunguo mkuu wa Wallet mpya inayohusishwa na passphrase hiyo. Hakikisha umehifadhi alama hii ya vidole. Unapoingiza tena passphrase yako utakapoitumia tena siku zijazo, utaweza kuthibitisha kama alama ya vidole inayoonyeshwa inalingana na ile uliyohifadhi. Ukaguzi huu unahakikisha kwamba hujafanya kosa wakati wa kuingiza passphrase yako.
 
 
 ![CCQ](assets/fr/04.webp)
@@ -110,7 +110,7 @@ COLDCARD pia hunufaika kutokana na chaguo nyingi za mchakato wa kufungua kifaa. 
 ### PIN za hila
 
 
-PIN ya Ujanja ni PIN ya pili iliyo tofauti na ile iliyofafanuliwa wakati wa usanidi wa awali wa kifaa. Msimbo huu hutumika kuanzisha vitendo maalum vilivyosanidiwa mapema mara tu inapowekwa wakati COLDCARD imewashwa. Unaweza kusanidi PIN nyingi za Ujanja, kila moja ikiunganishwa kwa kitendo tofauti. Vipengele hivi hukuwezesha kubinafsisha COLDCARD yako kulingana na mkakati wako wa usalama wa kibinafsi. Ni muhimu sana katika hali za kulazimishwa kimwili, kama vile wakati wa wizi (unaojulikana sana katika jumuiya ya Bitcoin kama "*$5 wrench attack*").
+PIN ya Ujanja ni PIN ya pili, tofauti na ile iliyowekwa wakati wa usanidi wa awali wa kifaa. Msimbo huu huanzisha vitendo maalum vilivyosanidiwa mapema mara tu unapowekwa wakati COLDCARD imewashwa. Unaweza kusanidi PIN nyingi za Ujanja, kila moja ikiunganishwa na kitendo tofauti. Vipengele hivi hukuwezesha kubinafsisha COLDCARD yako kulingana na mkakati wako binafsi wa usalama. Ni muhimu sana katika hali za kulazimishwa kimwili, kama vile wizi (unaofahamika sana katika jumuiya ya Bitcoin kama $5 wrench attack).
 
 
 Ili kuwezesha PIN ya Ujanja na kuihusisha na kitendo, fikia menyu ya `Mipangilio > Mipangilio ya Kuingia > PIN za Ujanja`.
@@ -136,7 +136,7 @@ Kisha chagua kitendo kitakachofanywa kiotomatiki kila unapoingiza PIN hii ya Uja
 
 
 
-- "*Brick Self*: Kitendo hiki kitaharibu chip zote mbili za COLDCARD Q ikiwa PIN ya Ujanja itawekwa, hivyo basi kufanya kifaa kisitumike kabisa. Kisha haitawezekana kukiuza tena, kukitumia tena au hata kukirejesha kwa Coinkite. Kifaa kitapitwa na wakati kabisa. Kipengele hiki kinaweza kutumika katika tukio la wizi ili kumshawishi mvamizi kuwa na uwezo wa kufikia nakala yako ya mtandaoni bila data yoyote.* **P kumbuka kuwa hatawahi kupata chelezo yako ya bitcoin. ya maneno yako ya Mnemonic na passphrase yoyote, bitcoins zako zitapotea kabisa.
+- **Brick Self**: Kitendo hiki kitaharibu chip zote mbili za COLDCARD Q ikiwa PIN ya Ujanja itawekwa, hivyo basi kufanya kifaa kisitumike kabisa. Kisha haitawezekana kukiuza tena, kukitumia tena au hata kukirejesha kwa Coinkite. Kifaa kitapitwa na wakati kabisa. Kipengele hiki kinaweza kutumika katika tukio la wizi ili kumshawishi mvamizi kuwa na uwezo wa kufikia nakala yako ya mtandaoni bila data yoyote. **Kumbuka kuwa hatawahi kupata chelezo yako ya bitcoin. ya maneno yako ya Mnemonic na passphrase yoyote, bitcoins zako zitapotea kabisa.**
 
 
 ![CCQ](assets/fr/14.webp)
@@ -165,9 +165,9 @@ Kisha chagua kitendo kitakachofanywa kiotomatiki kila unapoingiza PIN hii ya Uja
 
 
 - "*Majira ya Kusalia ya Kuingia*": Menyu hii inaweka pamoja vitendo na hesabu kabla hazijatekelezwa. **Tahadhari**, baadhi yao huenda kuharibu kifaa chako au kusababisha upotevu wa bitcoins zako. Hapa kuna vitendo vidogo vinavyopatikana:
- - "*Futa na Ukadiriaji* : Hufuta seed kutoka kwenye kumbukumbu ya COLDCARD, kisha ianze hesabu ya saa moja. Bila kuhifadhi Mnemonic au passphrase yako, bitcoins zako zitapotea. Chaguo hili limeundwa kumpumbaza mvamizi kufikiri kwamba kifaa kitafungua mwishoni mwa muda uliosalia, wakati mipangilio ya kiwandani itawekwa upya.
+ - "**Wipe & Rating**": Hufuta seed kutoka kwenye kumbukumbu ya COLDCARD, kisha ianze hesabu ya saa moja. Bila kuhifadhi Mnemonic au passphrase yako, bitcoins zako zitapotea. Chaguo hili limeundwa kumpumbaza mvamizi kufikiri kwamba kifaa kitafungua mwishoni mwa muda uliosalia, wakati mipangilio ya kiwandani itawekwa upya.
  - "*Countdown & Brick*": Huanzisha hesabu ya saa moja, ambayo mwisho wake COLDCARD huharibu chip zake mbili zilizo salama, na kuifanya isiweze kutumika kabisa. Bila chelezo, bitcoins zako zitapotea. Kitendo hiki kimeundwa ili kumpumbaza mshambuliaji, ambaye anadhani kuwa anasubiri kufunguliwa, wakati kwa kweli kifaa kitajiharibu.
- - "*Kuhesabu Tu* : Huanzisha hesabu rahisi ya saa moja, baada ya hapo COLDCARD itaanza tena bila hatua yoyote zaidi. seed haijafutwa na kifaa kinasalia kikiwa sawa. Kuwa mwangalifu usichanganye kitendo hiki na chaguo la "*Ingia Siku Zilizosalia*", linalojadiliwa katika sehemu zifuatazo, ambayo huongeza kurudi nyuma kwa PIN kuu ya 47 huku ukitoa ufikiaji halisi wa GW.
+ - "*Countdown Only* : Huanzisha hesabu rahisi ya saa moja, baada ya hapo COLDCARD itaanza tena bila hatua yoyote zaidi. seed haijafutwa na kifaa kinasalia kikiwa sawa. Kuwa mwangalifu usichanganye kitendo hiki na chaguo la "*Ingia Siku Zilizosalia*", linalojadiliwa katika sehemu zifuatazo, ambayo huongeza kurudi nyuma kwa PIN kuu ya 47 huku ukitoa ufikiaji halisi wa GW.
 
 
 ![CCQ](assets/fr/17.webp)
@@ -215,7 +215,7 @@ Kwa kuchagua PIN ya Ujanja iliyopo, unaweza kuangalia kitendo kinachohusika. Una
 ![CCQ](assets/fr/23.webp)
 
 
-Chaguo la "*Ongeza Ikiwa Si Sawa*", linalopatikana katika menyu ya "*Hila PIN*", hukuwezesha kusanidi kitendo mahususi ambacho huanzishwa kiotomatiki baada ya idadi fulani ya majaribio yasiyo sahihi ya kuingiza msimbo mkuu wa PIN. Idadi ya majaribio yanayoruhusiwa inaweza kuwekwa wakati wa usanidi.
+Chaguo la "Ongeza Ikiwa Si Sawa", linalopatikana katika menyu ya "Hila PIN", hukuwezesha kusanidi kitendo maalum ambacho kitasababisha kiotomatiki baada ya idadi fulani ya majaribio yasiyo sahihi ya kuingiza msimbo mkuu wa PIN. Idadi ya majaribio yanayoruhusiwa inaweza kuwekwa wakati wa usanidi.
 
 
 ### Funguo za Kinyang'anyiro
@@ -245,7 +245,7 @@ Kuanzia sasa na kuendelea, unapofungua COLDCARD Q yako, vitufe kwenye vitufe vit
 ### Muda Uliosalia wa Kuingia
 
 
-Chaguo hili hukuwezesha kulazimisha kuhesabu kurudi nyuma kwa utaratibu kila unapojaribu kufungua COLDCARD yako. Inaweza kuunganishwa katika mkakati wako wa usalama kwa kuchelewesha ufikiaji wa kifaa katika tukio la wizi, au kwa kuweka ucheleweshaji kabla ya kusaini muamala, kwa mfano ili kujilinda ikiwa utasitishwa. Hata hivyo, siku hii iliyosalia inatumika kwa matumizi yako yote, ikiwa ni pamoja na wakati unatumia kihalali COLDCARD yako, ambayo pia inakulazimu kuwa mvumilivu. Kuwa mwangalifu usichanganye chaguo hili na kitendo cha "*Tumesalia Chini*", ambayo huwashwa tu wakati PIN mahususi ya Ujanja inatumiwa.
+Chaguo hili hukuwezesha kulazimisha kuhesabu kurudi nyuma kwa utaratibu kila unapojaribu kufungua COLDCARD yako. Inaweza kuunganishwa katika mkakati wako wa usalama kwa kuchelewesha ufikiaji wa kifaa katika tukio la wizi, au kwa kuweka ucheleweshaji kabla ya kusaini muamala, kwa mfano ili kujilinda ikiwa utasitishwa. Hata hivyo, muda huu wa kusubiri unatumika kwa matumizi yako yote, ikiwa ni pamoja na wakati unatumia kihalali COLDCARD yako, jambo ambalo pia linakulazimu kuwa mvumilivu. Kuwa mwangalifu usichanganye chaguo hili na kitendo cha "Tumesalia Chini", ambacho huwashwa tu wakati PIN maalum ya Ujanja inatumiwa.
 
 
 Ili kusanidi chaguo hili, fikia menyu ya `Mipangilio > Mipangilio ya Kuingia > Muda Uliosalia wa Kuingia`.
@@ -299,7 +299,7 @@ Kuanzia sasa, kila wakati kifaa kinapowashwa, calculator ya kufanya kazi na amri
 ![CCQ](assets/fr/34.webp)
 
 
-Kwa mfano, unaweza kuhesabu SHA256 Hash ya "*Mtandao wa Mpango B*".
+Kwa mfano, unaweza kuhesabu SHA256 Hash ya "*Plan B Network*".
 
 
 ![CCQ](assets/fr/35.webp)
@@ -326,10 +326,10 @@ Kisha COLDCARD itaondoka kwenye modi ya kikokotoo na kufungua kama kawaida.
 Ikiwa unapanga kutupa COLDCARD Q yako, kwa mfano kwa sababu sasa unatumia Hardware Wallet nyingine, ni muhimu kuharibu kifaa kwa usahihi. Hii inahakikisha kwamba hakuna taarifa yoyote inayohusiana na Wallet yako inayoweza kurejeshwa na mtu mwingine.
 
 
-Kuna viwango vitatu vya uharibifu wa habari, kulingana na mahitaji yako. Kabla ya kuanza, hakikisha kwamba Wallet yako imeingizwa kwenye Hardware Wallet nyingine, kwamba unaweza kufikia pesa zako zote na, zaidi ya yote, una maneno yako ya Mnemonic na passphrase yoyote, ambayo yote yanafanya kazi. Bila chelezo ya Wallet, uharibifu wa COLDCARD yako utasababisha upotevu wa bitcoins zako.
+Kuna viwango vitatu vya uharibifu wa data, kulingana na mahitaji yako. Kabla ya kuanza, hakikisha kwamba Wallet yako imeingizwa kwenye Hardware Wallet nyingine, kwamba unaweza kufikia pesa zako zote na, zaidi ya yote, una maneno yako ya Mnemonic pamoja na passphrase yoyote, vyote vikiwa vinafanya kazi. Bila chelezo ya Wallet, kuharibu COLDCARD yako kutasababisha upotevu wa bitcoins zako.
 
 
-Ngazi ya kwanza ya uharibifu inajumuisha kufuta tu seed. Chaguo hili litafuta maneno yako ya Mnemonic kutoka kwenye kumbukumbu ya COLDCARD, huku ikiacha kifaa kikifanya kazi. Ni bora ikiwa ungependa kutumia COLDCARD Q tena baadaye. Ili kufuta seed kutoka kwa kumbukumbu, fikia menyu ya `Advanced/Zana > Eneo la Hatari > Kazi za seed > Vunja seed`.
+Ngazi ya kwanza ya uharibifu inahusisha kufuta seed pekee. Hatua hii itafuta maneno yako ya Mnemonic kutoka kwenye kumbukumbu ya COLDCARD Q, huku kifaa kikiendelea kufanya kazi. Njia hii inapendekezwa ikiwa unapanga kutumia tena COLDCARD Q yako baadaye. Ili kufuta seed kutoka kwenye kumbukumbu, fikia menyu ya `Advanced/Zana > Eneo la Hatari > Kazi za seed > Vunja seed`.
 
 
 ![CCQ](assets/fr/38.webp)
@@ -338,7 +338,7 @@ Ngazi ya kwanza ya uharibifu inajumuisha kufuta tu seed. Chaguo hili litafuta ma
 Kiwango cha pili cha uharibifu kinajumuisha kuzima kabisa chipsi mbili salama za COLDCARD kupitia programu. Kitendo hiki kitafanya kifaa kisitumike kabisa. Hutaweza kuiuza tena, kuitumia tena au kuirudisha kwa Coinkite: itaharibiwa kabisa. Ili kuendelea, fuata hatua zilizoelezwa katika sehemu iliyotangulia kuhusu PIN ya "*Brick Me*", kisha uweke PIN hii kwa makusudi unapofungua COLDCARD.
 
 
-Kiwango cha tatu kinahusisha uharibifu halisi wa vipengele salama vya COLDCARD Q yako. Kama hapo awali, hii itafanya kifaa kisiweze kutumika tena. Ili kufanya hivyo, tumia drill kutengeneza shimo kwenye chipsi mbili upande wa juu wa kulia wa kifaa (mara moja ukipinduliwa), karibu na uandishi wa "*SHOT HERE*".
+Kiwango cha tatu kinahusisha uharibifu wa moja kwa moja wa vipengele salama vya COLDCARD Q yako. Kama ilivyokuwa awali, hatua hii itafanya kifaa kisiweze kutumika tena. Ili kutekeleza hili, tumia drill kutoboa shimo kwenye chipsi mbili zilizoko upande wa juu wa kulia wa kifaa (kikiwa kimepinduliwa), karibu na maandishi ya "*SHOT HERE*".
 
 
 **Tahadhari muhimu** :

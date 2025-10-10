@@ -1,0 +1,9 @@
+question: 어떤 배포 제품군에서 RPM 패키지 관리자를 사용하나요?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - 아치
+  - Slackware
+explanation: |
+  RPM 형식은 Red Hat에서 시작했으며 Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux 및 기타 관련 배포판의 기반이 됩니다.
+reviewed: false

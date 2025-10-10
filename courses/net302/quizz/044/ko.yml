@@ -1,0 +1,9 @@
+question: 인터넷 아키텍처에서 DNS의 주요 역할은 무엇인가요?
+answer: 도메인 이름을 IP 주소에 매핑하기
+wrong_answers:
+  - 라우터 간 통신 암호화
+  - 장치에 동적으로 MAC 주소 할당
+  - 웹 서버에 대한 액세스 제어
+explanation: |
+  DNS(도메인 이름 시스템)는 사람이 읽을 수 있는 도메인 이름을 라우팅에 필요한 숫자 IP 주소로 변환합니다.
+reviewed: false

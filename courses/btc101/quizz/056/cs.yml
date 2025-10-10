@@ -1,11 +1,9 @@
-question: Jaká byla míra inflace v Maďarsku v červenci 1946?
-answer: 41 900 000 000 000 000 %
+question: Jaký matematický koncept je založen na lidské racionalitě a používá se u Bitcoinu?
+answer: Teorie her.
 wrong_answers:
-  - 207 %
-  - 50 %
-  - 100 %
+  - Teorie pravděpodobnosti.
+  - Číselná teorie.
+  - Teorie množin.
 explanation: |
-  Měsíc s nejvyšší inflací v Maďarsku byl červenec
-  1946, kdy dosáhla rekordní míry inflace
-  41 900 000 000 000 000 %.
+  Teorie her je matematický koncept, který je založen na lidské racionalitě. U Bitcoinu jsou změny protokolu prosazovány uživateli, což činí jakoukoliv modifikaci Bitcoinového protokolu vysoce složitou.
 reviewed: true

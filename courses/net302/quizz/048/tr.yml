@@ -1,0 +1,9 @@
+question: MAC Address OSI modelinin hangi Layer'ine aittir?
+answer: Veri bağlantısı Layer
+wrong_answers:
+  - Uygulama Layer
+  - Taşıma Layer
+  - Ağ Layer
+explanation: |
+  MAC Address, OSI modelinin "veri bağlantısı Layer" olarak bilinen Layer 2'sinde çalışır ve burada çerçevelerin donanım adreslemesi için kullanılır.
+reviewed: false

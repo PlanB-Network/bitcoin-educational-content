@@ -1,0 +1,9 @@
+question: Mikä termi viittaa MAC Address:n kolmeen ensimmäiseen tavuun?
+answer: OUI (Organisaation yksilöllinen tunniste)
+wrong_answers:
+  - SID (istunnon tunniste)
+  - LUI (Local Unique Identifier)
+  - PAN (fyysinen Address-numero)
+explanation: |
+  OUI:n määrittää IEEE, ja se yksilöi verkkokortin valmistajan MAC Address:ssa.
+reviewed: false

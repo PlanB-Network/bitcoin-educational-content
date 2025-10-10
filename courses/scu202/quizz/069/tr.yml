@@ -1,0 +1,9 @@
+question: Tarayıcınızı güncel tutmanızın önemli olmasının ana nedeni nedir?
+answer: Kritik güvenlik açıklarını düzeltin
+wrong_answers:
+  - Sayfa yükleme hızını artırın
+  - Kimlik avını önleyin
+  - Bellek tüketimini optimize etme
+explanation: |
+  Güncellemeler, bir saldırganın sisteminizi tehlikeye atmasına izin verebilecek güvenlik açıklarına öncelik verir.
+reviewed: false

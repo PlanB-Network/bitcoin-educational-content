@@ -1,0 +1,9 @@
+question: イーサネット・ネットワーク上でIP AddressとMAC Addressを関連付けるために使用されるプロトコルはどれか。
+answer: アープ
+wrong_answers:
+  - リップ
+  - DNS
+  - オープンさいたんパスファースト
+explanation: |
+  Address解決プロトコル（ARP）は、IPアドレスをローカルネットワークのMACアドレスにマッピングする。
+reviewed: false

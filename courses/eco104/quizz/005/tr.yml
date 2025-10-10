@@ -1,0 +1,12 @@
+question: Enflasyon ücretlilerin satın alma gücünü zaman içinde nasıl etkiler?
+answer: Ücretler genellikle gerçek enflasyon oranının gerisinde kaldığı için enflasyon satın alma gücünü aşındırır.
+wrong_answers:
+  - Ücretler fiyatlardan daha hızlı arttığı için enflasyon satın alma gücünü artırır.
+  - Enflasyonun satın alma gücü üzerinde hiçbir etkisi yoktur.
+  - Enflasyon sadece finansal piyasalara yatırım yapanların satın alma gücünü etkiler.
+explanation: |
+  Enflasyon, tüketici fiyatlarında sürekli bir artışa yol açarak satın alma gücünü aşındırır
+  ücretlerinin genellikle gerçek enflasyon oranının gerisinde kalması nedeniyle ücretlilerin tasarruf gücü azalmaktadır.
+  Bu durum, ücretlilerin uzun vadeli tasarruf hedeflerine ulaşmalarını zorlaştırmaktadır
+  ve yaşam standartlarını korumak.
+reviewed: true

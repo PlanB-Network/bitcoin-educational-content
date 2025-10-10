@@ -1,10 +1,8 @@
-question: Wat is een van de dingen die je moet hebben voordat je Bitcoin koopt?
-answer: Een veilige Wallet.
+question: Wat is een van de redenen waarom je je UTXO's af en toe in je portemonnee zou moeten consolideren?
+answer: Om onnodige kosten tijdens transacties te vermijden.
 wrong_answers:
-  - Een fysieke kluis.
-  - Een bankrekening.
-  - Een creditcard.
-explanation: |
-  In de tekst van de cursus staat dat voordat je Bitcoin koopt, je
-  een beveiligde Wallet moet hebben waar je je sleutels in bewaart.
+  - Om de waarde van je bitcoins te verhogen.
+  - Om te voorkomen dat je bitcoins worden gestolen.
+  - Om ervoor te zorgen dat je bitcoins altijd beschikbaar zijn.
+explanation: >-
 reviewed: true

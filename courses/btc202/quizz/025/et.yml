@@ -1,0 +1,9 @@
+question: Millal on pruned-sõlm Wallet jaoks probleemiks?
+answer: Vana Wallet taastamisel
+wrong_answers:
+  - Uue vastuvõtu loomisel Address
+  - Hiljutise tehingu saatmisel
+  - Tasu suuruse valimisel
+explanation: |
+  pruned-sõlm ei säilita vanu plokke, mis võib takistada varasemate tehingute skaneerimist taastamise ajal.
+reviewed: true

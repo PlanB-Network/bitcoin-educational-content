@@ -1,0 +1,9 @@
+question: Ni amri gani inayoweza kutumika kuuliza seva ya DNS kupata IP Address ya kikoa?
+answer: kuangalia
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup ni zana ya uulizaji ya DNS ya kusuluhisha majina ya vikoa kuwa anwani za IP.
+reviewed: false

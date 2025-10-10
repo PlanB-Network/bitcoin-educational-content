@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 公司
+name: The Bitcoin Company
 description: 如何使用 The Bitcoin Company 购买 BTC 中的商品和服务？
 ---
 ![cover](assets/cover.webp)
@@ -279,7 +279,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-最后，如果您想在手机上**本教程中介绍的 LNURL Auth 身份验证方法，则需要通过手机浏览器访问 Bitcoin 公司网站，然后在主屏幕上添加快捷方式。官方应用程序只允许通过电子邮件/密码进行身份验证。
+最后，如果您想在手机上**使用**本教程中介绍的 LNURL Auth 身份验证方法，则需要通过手机浏览器访问 Bitcoin 公司网站，然后在主屏幕上添加快捷方式。官方应用程序只允许通过电子邮件/密码进行身份验证。
 
 
 

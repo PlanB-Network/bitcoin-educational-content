@@ -1,0 +1,9 @@
+question: Bob가 30,000 사토시를 Alice에게 보내면 어떻게 되나요?
+answer: Alice는 Commitment Transaction를 생성하여 채널에서 30,000개의 사토시를 Bob로 전송합니다.
+wrong_answers:
+  - 이 전송을 하려면 Alice가 새 채널을 열어야 합니다.
+  - Bob은 Wallet의 30,000 사토시를 자동으로 받습니다.
+  - Invoice은 Bitcoin에서 On-Chain 거래를 통해 지급됩니다.
+explanation: |
+  Bob가 Invoice을 Alice에게 보낼 때, 자금 분배를 조정하기 위해 새로운 Commitment Transaction를 생성하고 서명하여 채널 내 30,000 사토시를 전송합니다.
+reviewed: true

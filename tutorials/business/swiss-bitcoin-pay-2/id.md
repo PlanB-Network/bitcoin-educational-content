@@ -74,7 +74,7 @@ Untuk tutorial ini, saya akan memilih untuk menerima pembayaran saya melalui Lig
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 Anda kemudian perlu membayar 1 sat untuk memverifikasi alamat Lightning Anda. Dalam kasus alamat bitcoin, Anda perlu menyediakan tanda tangan dengan kunci pribadi yang sesuai dengan alamat tersebut.
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
-Akhirnya, Anda memiliki opsi untuk menambahkan kode referal. Jika Anda ingin mendukung kami, Anda dapat menggunakan kode "*DiscoverBitcoin*" sehingga sebagian dari komisi Anda dibagi dengan kami. Terima kasih! :)
+Akhirnya, Anda memiliki opsi untuk menambahkan kode referal. Jika Anda ingin mendukung kami, Anda dapat menggunakan kode "*DiscoverBitcoin*" sehingga sebagian dari komisi Anda dibagi dengan kami. Terima kasih!:)
 ![SWISS BITCOIN PAY](assets/notext/12.webp)
 Setelah semua informasi diisi, klik tombol "*Kirim*".
 ![SWISS BITCOIN PAY](assets/notext/13.webp)

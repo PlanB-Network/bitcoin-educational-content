@@ -1,5 +1,5 @@
 ---
-name: Лиана
+name: Liana
 description: Настройка и использование кошелька на Liana
 ---
 ![cover](assets/cover.webp)

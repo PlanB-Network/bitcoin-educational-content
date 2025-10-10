@@ -1,4 +1,4 @@
-question: Je, ni matokeo gani ya kawaida ya mfumuko mkubwa wa bei kama inavyoonekana katika kesi za Zimbabwe na Jamhuri ya Weimar?
+question: Je, ni matokeo yapi ya kawaida ya mfumuko mkubwa wa bei kama inavyoonekana katika kesi za Zimbabwe na Jamhuri ya Weimar?
 answer: Thamani ya asili ya noti inaweza kuwa chini kuliko thamani ya karatasi iliyochapishwa.
 wrong_answers:
   - Thamani ya sarafu inaongezeka.
@@ -7,6 +7,6 @@ wrong_answers:
 explanation: |
   Katika hali fulani za kiuchumi, kama vile mfumuko wa bei, asili
   thamani ya noti inaweza kuwa chini kuliko thamani ya karatasi iliyochapishwa.
-  Uchakavu huu mkubwa hubadilisha noti, ambazo kwa kawaida ni alama za thamani na
+  Uchakavu huu mkubwa hubadilisha noti, ambazo kwa kawaida ni alama za thamani na zina
   uwezo wa kununua, kuwa vipande vya karatasi visivyo na thamani.
-reviewed: false
+reviewed: true

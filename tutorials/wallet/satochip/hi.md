@@ -1,5 +1,5 @@
 ---
-name: सतोचिप
+name: Satochip
 description: साटोचिप स्मार्ट कार्ड सेट अप करना और उसका उपयोग करना
 ---
 ![cover](assets/cover.webp)

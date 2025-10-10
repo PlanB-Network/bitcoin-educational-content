@@ -1,0 +1,9 @@
+question: Qual è la principale differenza tra TCP e UDP?
+answer: TCP è orientato alla connessione, UDP no
+wrong_answers:
+  - Il TCP funziona solo sulle reti locali, l'UDP su Internet
+  - Il TCP utilizza sempre la crittografia, mentre l'UDP non la utilizza mai
+  - TCP gestisce la frammentazione IP, UDP la compressione
+explanation: |
+  Il TCP richiede la creazione e il monitoraggio di una connessione, mentre l'UDP invia pacchetti senza impostare o controllare una sessione precedente.
+reviewed: false

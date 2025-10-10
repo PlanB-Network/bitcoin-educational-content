@@ -22,7 +22,7 @@ ___
 
 
 
-**En este tutorial, vamos a aprender cómo realizar una auditoría de seguridad en una máquina Linux usando Lynis Para aquellos que no conozcan **Lynis,** es una pequeña utilidad de línea de comandos que analizará la configuración de tu servidor y hará recomendaciones para **mejorar la seguridad de tu máquina.**
+**En este tutorial, vamos a aprender cómo realizar una auditoría de seguridad en una máquina Linux usando Lynis. Para aquellos que no conozcan** Lynis, **es una pequeña utilidad de línea de comandos que analizará la configuración de tu servidor y hará recomendaciones para** mejorar la seguridad de tu máquina.
 
 
 
@@ -51,7 +51,7 @@ La herramienta es ampliamente utilizada por un amplio abanico de usuarios, inclu
 
 
 
-El proyecto está disponible en este Address en **Github** :
+El proyecto está disponible en este Address en **Github**:
 
 
 
@@ -82,7 +82,7 @@ Este modo de instalación le permite utilizar el comando **lynis** desde cualqui
 
 
 
-Conéctese a su servidor a través de SSH e introduzca los siguientes comandos para instalar Lynis :
+Conéctese a su servidor a través de SSH e introduzca los siguientes comandos para instalar Lynis:
 
 
 
@@ -209,7 +209,7 @@ Para visualizar los comandos disponibles, basta con introducir el siguiente coma
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Esto es lo que obtienes:
 
 
 
-Si desea visualizar todas las opciones, debe introducir :
+Si desea visualizar todas las opciones, debe introducir:
 
 
 
@@ -321,10 +321,10 @@ A continuación, Lynis enumerará un conjunto de puntos correspondientes a todo 
 
 
 
-- Rojo** para Elements crítico o buenas prácticas no respetadas (falta un paquete, por ejemplo), es decir, su servidor no respeta este punto
-- Amarillo** para sugerencias o cumplimiento parcial de la recomendación (digamos que es una ventaja cumplir un punto resaltado con este color (no prioritario))
-- Green** para los puntos en los que la configuración de su servidor es conforme
-- Blanco**, cuando es neutro
+- **Rojo** para elementos críticos o buenas prácticas no respetadas (falta un paquete, por ejemplo), es decir, su servidor no respeta este punto
+- **Amarillo** para sugerencias o cumplimiento parcial de la recomendación (digamos que es una ventaja cumplir un punto resaltado con este color (no prioritario))
+- **Green** para los puntos en los que la configuración de su servidor es conforme
+- **Blanco**, cuando es neutro
 
 
 
@@ -336,7 +336,7 @@ Aquí podemos ver que Lynis recomienda instalar **fail2ban**:
 
 
 
-En la sección "**Boot y servicios**", vemos que la protección de servicios a través de *systemd* podría mejorarse. En el lado positivo, Grub2 está presente y no hay problemas con los permisos en :
+En la sección "**Boot y servicios**", vemos que la protección de servicios a través de *systemd* podría mejorarse. En el lado positivo, Grub2 está presente y no hay problemas con los permisos en:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Información sobre los paquetes instalados :
+Información sobre los paquetes instalados:
 
 
 
 
 
-- Clamav** es un antivirus.
-- unattend-upgrades** le permitirá gestionar sus actualizaciones automáticamente e incluso reiniciar la máquina o purgar automáticamente paquetes antiguos, es totalmente configurable.
-- rkhunter** es un anti-rootkit que escanea tu sistema de archivos.
-- Fail2ban** se basará en tus archivos de registro según lo que le des a leer y funcionará con **iptables**, por ejemplo para banear direcciones IP que intenten "forzar" tu servidor en SSH.
+- **Clamav** es un antivirus.
+- **unattend-upgrades** le permitirá gestionar sus actualizaciones automáticamente e incluso reiniciar la máquina o purgar automáticamente paquetes antiguos, es totalmente configurable.
+- **rkhunter** es un anti-rootkit que escanea tu sistema de archivos.
+- **Fail2ban** se basará en tus archivos de registro según lo que le des a leer y funcionará con **iptables**, por ejemplo para banear direcciones IP que intenten "forzar" tu servidor en SSH.
 
 
 
@@ -623,7 +623,7 @@ Echemos un vistazo a las recomendaciones SSH. Se enumeran a continuación. No te
 
 
 
-Echemos un vistazo a mi configuración actual de **SSH** en :**/etc/ssh/sshd_config**
+Echemos un vistazo a mi configuración actual de **SSH** en:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ La configuración sugerida a continuación aún puede optimizarse, pero le ofrec
 
 
 
-Vamos a :
+Vamos a:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Mantener la autenticación de contraseña :
+- Mantener la autenticación de contraseña:
 
 
 
@@ -804,7 +804,7 @@ Cabe señalar que, en algunas jurisdicciones, el envío de un mensaje antes de l
 
 
 
-En imágenes, esto da :
+En imágenes, esto da:
 
 
 
@@ -820,7 +820,7 @@ Por último, ¡no olvidemos comprobar la **puntuación de auditoría de Lynis**!
 
 
 
-**En otras palabras, ¡cuanto más alta sea la puntuación, mejor! Por tanto, debes trabajar en tu configuración para conseguir la máxima puntuación posible, permitiendo al mismo tiempo que tu máquina y los servicios alojados funcionen con normalidad (lo que significa realizar pruebas funcionales).
+**En otras palabras, ¡cuanto más alta sea la puntuación, mejor! Por tanto, debes trabajar en tu configuración para conseguir la máxima puntuación posible, permitiendo al mismo tiempo que tu máquina y los servicios alojados funcionen con normalidad (lo que significa realizar pruebas funcionales).**
 
 
 
@@ -884,7 +884,7 @@ Probablemente no vas a aplicar la misma configuración para un VPS expuesto a la
 
 
 
-Una vez que tengas una configuración que te convenga en términos de hardening, es aconsejable adoptar una herramienta de automatización para no tener que rehacer las tareas manualmente, ya que esto llevaría mucho tiempo y daría lugar a errores. Por ejemplo, puede utilizar Puppet, Chef, Ansible, etc...**
+Una vez que tengas una configuración que te convenga en términos de hardening, es aconsejable adoptar una herramienta de automatización para no tener que rehacer las tareas manualmente, ya que esto llevaría mucho tiempo y daría lugar a errores. Por ejemplo, puede utilizar Puppet, Chef, Ansible, etc.
 
 
 
@@ -896,4 +896,4 @@ Por último, también puedes comparar **Lynis** con otras herramientas, de las q
 
 
 
-**Este tutorial ha terminado, ¡diviértete con Lynis!
+**Este tutorial ha terminado, ¡diviértete con Lynis!**

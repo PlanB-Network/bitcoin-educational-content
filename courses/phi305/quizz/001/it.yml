@@ -1,0 +1,9 @@
+question: Spinoza è un filosofo?
+answer: Dal XVII secolo.
+wrong_answers:
+  - Dal XVI secolo.
+  - Dal XVIII secolo.
+  - Dall'antichità.
+explanation: |
+  Spinoza visse dal 1632 al 1677, diventando così un filosofo del XVII secolo. Questo periodo, conosciuto come l'Età della ragione, vide l'emergere del razionalismo moderno e di nuovi approcci scientifici alla comprensione del mondo.
+reviewed: false

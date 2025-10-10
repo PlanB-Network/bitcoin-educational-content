@@ -1,0 +1,9 @@
+question: Intumbero y’ukugerageza guhenda abantu ni iyihe?
+answer: Kugira ngo ukuremwo amakuru y’agaciro nk’ivyemezo vyawe n’amajambo y’ibanga yawe.
+wrong_answers:
+  - Kugira ngo nkurungikire ubutumwa butari bwo.
+  - Kugira ngo bagugurishe ibintu canke ibikorwa.
+  - Kugira ngo tubatumire mu birori canke mu mahugurwa yo kuri internet.
+explanation: |
+  Igerageza ry’ubuhendanyi rigamije gukura amakuru y’agaciro nk’ivyemezo vyawe n’amajambo banga yawe. Abanyaruyeri bakoresha ubuhinga butandukanye, nk'ubutumwa bwa email bw'ubuhendanyi, kugira baguhenda ngo bamenyeshe amakuru yawe.
+reviewed: true

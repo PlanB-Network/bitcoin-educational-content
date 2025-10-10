@@ -1,0 +1,9 @@
+question: Miksi kiintolevyä ei suositella Bitcoin-solmuun?
+answer: Koska se hidastaa merkittävästi IBD:tä ja yleistä käyttöä
+wrong_answers:
+  - Koska se ei voi tallentaa Blockchain-tiedostoja
+  - Koska se kuluttaa liian vähän energiaa ja on vaarassa räjähtää
+  - Koska se ei ole yhteensopiva Bitcoin core:n kanssa
+explanation: |
+  Mekaaniset levyt rajoittavat suorituskykyä, pidentävät IBD:tä merkittävästi ja kuluvat nopeasti solmukuormituksessa.
+reviewed: true

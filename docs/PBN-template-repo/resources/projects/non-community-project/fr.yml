@@ -3,7 +3,6 @@
 # description
 # Rédigez une description du projet
 description: |
-   Ceci est utilisé pour décrire le constructeur en quelques phrases.
-   Et cela peut s'étendre sur plusieurs lignes
-   tout comme
-   ceci
+  Ceci est utilisé pour décrire le constructeur en quelques phrases.
+
+  Même pour les nouveaux paragraphes, écrivez simplement comme ceci.

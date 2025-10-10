@@ -5,7 +5,8 @@ timezone: America/New_York
 address_city_country: New Hampshire, USA
 name: MassAdoption
 type: conference
-description: A conference focusing on Bitcoin trends, innovation, and networking.
+description: |
+  A conference focusing on Bitcoin trends, innovation, and networking.
 language:
   - en
 links:

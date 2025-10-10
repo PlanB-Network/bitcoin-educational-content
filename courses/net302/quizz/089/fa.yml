@@ -1,0 +1,9 @@
+question: پروتکل ICMP برای تست اتصال شبکه توسط دستور ping استفاده می‌شود.
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  دستور پینگ از پروتکل ICMP برای ارسال درخواست‌های اکو و اندازه‌گیری تأخیر شبکه استفاده می‌کند.
+reviewed: false

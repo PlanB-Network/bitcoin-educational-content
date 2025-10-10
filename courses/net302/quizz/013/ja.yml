@@ -1,0 +1,9 @@
+question: IPプロトコルのバージョン番号を割り当てる組織はどこか？
+answer: IANA
+wrong_answers:
+  - インターネット技術特別調査委員会
+  - アールエフシー
+  - グーグル
+explanation: |
+  IANA（Internet Assigned Numbers Authority）は、IPプロトコルのバージョン番号のAssignmentとプロトコル範囲の割り当てを管理している。
+reviewed: false

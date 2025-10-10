@@ -8,7 +8,7 @@ description: Telegram bot za kupovinu Bitcoin u poverljivosti
 _Ovaj vodič je napisao_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Uvod
+## Uvod
 
 
 BitcoinVoucherBot je alat pomoću kojeg se Bitcoini mogu kupiti u Exchange za evre.
@@ -47,7 +47,7 @@ U Telegram četu pripremamo narudžbu, bankovnim transferom je plaćamo, i na kr
 Aktivacija je jednostavna jednokratna operacija. Na Telegramu, potražite _@BitcoinVoucherBot_ i čim dođete do četa sa Botom, veliki taster _Start/Start_ se ističe na dnu. Operacija uzrokuje da Bot odgovori, što prikazuje meni sa glavnim komandama koje su mu dostupne. Pojavljuju se i prve poruke dobrodošlice, za koje preporučujemo pažljivo čitanje.
 
 
-**Upozorenje**: postoji nekoliko prevaranata koji se predstavljaju kao originalni VoucherBot. Ako niste sigurni u pretragu putem Telegrama, molimo vas da pristupite BitcoinVoucherBot linku sa [zvanične web stranice](https://www.bitcoinvoucherbot.com/)
+**Pažnja**: postoji nekoliko prevaranata koji se predstavljaju kao originalni VoucherBot. Ako niste sigurni u pretragu preko Telegrama, pristupite linku za BitcoinVoucherBot sa [zvaničnog sajta](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)
@@ -75,10 +75,10 @@ Glavne operacije uključuju:
 - _/support_: u slučaju potrebe, pojavljuju se kontakti za prijavu problema timu za podršku.
 
 
-# Bitcoin procedura nabavke
+## Procedura kupovine Bitcoina
 
 
-## Priprema narudžbine
+### Priprema porudžbine
 
 
 Kliknite _/purchase_ u komandnom meniju
@@ -141,7 +141,7 @@ Ako je sve ispravno, nastavite klikom na _Proceed_.
 ![image](assets/it/10.webp)
 
 
-## Plaćanje
+### Plaćanje
 
 
 Nakon nekoliko trenutaka, potrebnih za obradu podataka, VoucherBot odgovara porukom koja sadrži sve detalje potrebne za završetak narudžbe. U zavisnosti od zahteva vaše banke, relevantne informacije su:
@@ -179,7 +179,7 @@ Molim vas, zabeležite:
 
 
 ---
-## Iskupljenje
+### Otkup
 
 
 Čim uplata bude uspešna, Bitcoin VoucherBot šalje vaučer direktno u čet. Vaučer za brzu transakciju je u obliku QR koda, odštampan na narandžastoj pozadini.
@@ -201,7 +201,7 @@ Tu su svi podaci potrebni za unovčavanje:
 Možete unovčiti vaučer tako što ćete uokviriti QR kod funkcijom skeniranja kompatibilnog Wallet Lightning Network, ili putem LNURL, koji je takođe prikazan ispod QR koda.
 
 
-Za ovaj vodič koristili smo Wallet Od Satoshi, koristeći funkciju skeniranja aktiviranu pomoću _Send_ tastera.
+Za ovaj tutorijal koristili smo Wallet Of Satoshi, koristeći funkciju skeniranja aktiviranu tasterom _Send_.
 
 
 ![image](assets/it/32.webp)
@@ -213,13 +213,13 @@ Sa aktiviranom kamerom mobilnog telefona, uokvirite QR kod u ćaskanju, otvaraju
 ![image](assets/it/34.webp)
 
 
-Pre nego što nastavite, Wallet Od Satoshi sa ekrana za verifikaciju koji uključuje iznos, koji tačno odgovara iznosu navedenom na vaučeru i, kao opis, BitcoinVoucherBot. Da biste unovčili vaučer, jednostavno kliknite na _Receive_
+Pre nego što nastavite, Wallet Of Satoshi prikazuje ekran za verifikaciju koji sadrži iznos, koji tačno odgovara onom navedenom na vaučeru, i kao opis, BitcoinVoucherBot. Da biste unovčili vaučer, dovoljno je kliknuti na _Receive_.
 
 
 ![image](assets/it/35.webp)
 
 
-Wallet Od Satoshi procesa za nekoliko trenutaka
+Wallet Of Satoshi obrađuje nekoliko trenutaka.
 
 
 ![image](assets/it/36.webp)
@@ -228,7 +228,7 @@ Wallet Od Satoshi procesa za nekoliko trenutaka
 i konačno kolekcija je prijavljena i odmah dostupna u Wallet bilansu.
 
 
-**Wallet od Satoshi je skrbnički app: odmah nakon unovčavanja vaučera, preporučljivo je premestiti Sats na Wallet ne-skrbnički.**
+**Wallet of Satoshi je kustodijalna aplikacija: odmah nakon iskorišćavanja vaučera preporučuje se premeštanje sats-a u nekustodijalni novčanik.**
 
 
 ![image](assets/it/37.webp)

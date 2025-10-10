@@ -1,0 +1,9 @@
+question: Stash'ın rolü nedir?
+answer: İstemci tarafındaki tüm verileri yerel olarak saklayın
+wrong_answers:
+  - İşlemleri Blockchain'de otomatik olarak yayınlayın
+  - Oluşturulan tüm faturaları derleyin ve saklayın
+  - Bitcoin özel anahtarlarını yönetme
+explanation: |
+  Stash, bir kullanıcının Client-side Validation'ü gerçekleştirmek amacıyla bir veya daha fazla RGB sözleşmesi için yerel olarak depoladığı istemci tarafı veri kümesidir.
+reviewed: false

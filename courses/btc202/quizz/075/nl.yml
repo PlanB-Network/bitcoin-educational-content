@@ -1,0 +1,9 @@
+question: Waarom neemt de omvang van de UTXO set structureel toe in de loop der tijd?
+answer: Elke betaling creëert over het algemeen twee nieuwe UTXO's
+wrong_answers:
+  - Conventionele betalingen verbruiken geen UTXO aan input
+  - Elke Fork vermenigvuldigt het aantal bestaande UTXO's
+  - Het aantal bitcoins dat kan worden aangemaakt is oneindig
+explanation: |
+  Een betalingstransactie verbruikt één UTXO en creëert er vaak twee (betaling + Exchange), waardoor de totale grootte van de set toeneemt.
+reviewed: true

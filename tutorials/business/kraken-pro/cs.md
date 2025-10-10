@@ -59,8 +59,8 @@ Jakmile vyplníte všechny části a odešlete potřebné dokumenty, klikněte n
 Po ověření účtu se dostanete do platformy, kde se vám nabídnou dvě rozhraní:
 
 
-- Kraken**: Zjednodušené rozhraní nabízející základní funkce.
-- Kraken Pro**: Rozšířené rozhraní s dalšími funkcemi, zejména pro obchodování.
+- **Kraken**: Zjednodušené rozhraní nabízející základní funkce.
+- **Kraken Pro**: Rozšířené rozhraní s dalšími funkcemi, zejména pro obchodování.
 
 Pokud je vaším cílem pouze nákup a prodej bitcoinů, zvolte zjednodušené rozhraní. V případě potřeby budete mít vždy možnost později přejít na pokročilé rozhraní.
 
@@ -76,7 +76,7 @@ V možnostech 2FA můžete jako druhý faktor použít fyzický bezpečnostní k
 
 ![KRAKEN](assets/fr/11.webp)
 
-Další informace o používání tohoto typu zařízení naleznete v našem speciálním návodu :
+Další informace o používání tohoto typu zařízení naleznete v našem speciálním návodu:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -88,14 +88,14 @@ Pro aktivaci této metody naskenujte QR kód pomocí vybrané aplikace ve svém 
 
 ![KRAKEN](assets/fr/13.webp)
 
-Další informace o aplikacích ověřování naleznete také v tomto návodu :
+Další informace o aplikacích ověřování naleznete také v tomto návodu:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pod ním máte také přístup k pokročilým nastavením, včetně možnosti nastavit několik různých 2FA. Kraken nabízí pokročilé delegování zabezpečení prostřednictvím 2FA. Tato funkce umožňuje vytvořit různé úrovně 2FA pro různé akce, jako je přihlášení, ověření příkazu a výběr prostředků. Díky tomu je možné například účetnímu umožnit přístup k určitým funkcím, aniž by mu bylo umožněno vybírat finanční prostředky. Zde jsou možnosti:
 
 
-- Hlavní klíč** slouží jako obnovovací mechanismus, který lze použít, pokud nemáte přístup k obvyklému způsobu přihlašování 2FA;
+- **Hlavní klíč** slouží jako obnovovací mechanismus, který lze použít, pokud nemáte přístup k obvyklému způsobu přihlašování 2FA;
 - **2FA pro financování** vyžaduje dodatečné ověření pro všechny transakce výběru nebo při vytváření vkladové adresy, čímž posiluje bezpečnost vašich prostředků;
 - **2FA pro obchodování** ukládá 2FA pro každou transakci provedenou na účtu.
 
@@ -155,12 +155,12 @@ Své bitcoiny můžete také vyměnit za jiné kryptoměny, například stableco
 
 Vyberte částku, zvolte kryptoměnu, kterou chcete získat, a poté transakci potvrďte.
 
-U těchto transakcí si můžete vybrat mezi různými typy objednávek: *Trh*, *Limit* nebo *Stop-Loss* :
+U těchto transakcí si můžete vybrat mezi různými typy objednávek: *Trh*, *Limit* nebo *Stop-Loss*:
 
 
-- Trh* : Umožňuje okamžitý nákup za aktuální tržní cenu;
-- Limit*: Příkaz bude proveden pouze tehdy, pokud tržní cena dosáhne této částky;
-- Stop-Loss* : Automatický prodej, když cena dosáhne určité prahové hodnoty.
+- **Tržní**: Umožňuje okamžitý nákup za aktuální tržní cenu;
+- **Limit**: Příkaz bude proveden pouze tehdy, pokud tržní cena dosáhne této částky;
+- **Stop-Loss**: Automatický prodej, když cena dosáhne určité prahové hodnoty.
 
 ## 7 - Správa a účtování transakcí
 

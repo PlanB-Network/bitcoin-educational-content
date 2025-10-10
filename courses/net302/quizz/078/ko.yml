@@ -1,0 +1,9 @@
+question: IPv6 역방향 확인을 위해 PTR 레코드는 어느 DNS 영역에 배치되나요?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Ip6.arpa 영역은 IPv6 주소의 역방향 확인을 위한 전용 영역이며, in-addr.arpa는 IPv4에 사용됩니다.
+reviewed: false

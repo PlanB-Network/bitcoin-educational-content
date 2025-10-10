@@ -1,0 +1,9 @@
+question: Bir Bitcoin düğümü için 2025 yılında önerilen minimum SSD kapasitesi nedir?
+answer: 2 için
+wrong_answers:
+  - 512 GB
+  - 10 için
+  - 256 GB
+explanation: |
+  Blockchain'in 700 GB'ı aşması ve ek uygulamalarla birlikte 2 TB makul bir minimum değer haline gelmiştir.
+reviewed: true

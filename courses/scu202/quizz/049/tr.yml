@@ -1,0 +1,9 @@
+question: Bir felaket durumunda verilerinizin dayanıklılığını sağlamak için önerilen yedekleme kuralı nedir?
+answer: 1'i tesis dışında olmak üzere 2 farklı ortamda 3 kopya bulundurun
+wrong_answers:
+  - 3'ü tesis dışında olmak üzere 5 farklı ortamda 10 kopya
+  - 2'si tesis dışında olmak üzere 2 farklı ortamda 2 kopya
+  - 2'si tesis dışında olmak üzere 4 farklı ortamda 4 kopya
+explanation: |
+  3-2-1 kuralı, veri kaybı, çalınması veya bozulmasına karşı koruma sağlamak için verilerinizin üç kopyasını, biri tesis dışında olmak üzere en az iki farklı ortamda tutmayı içerir.
+reviewed: false

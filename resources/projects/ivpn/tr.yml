@@ -1,0 +1,10 @@
+description: |
+  IVPN, kullanıcı etkinliklerini kaydetmeyen ve kayıt sırasında kişisel verileri toplamayan veya saklamayan gizlilik odaklı bir VPN hizmetidir. Ödemeleri nakit, Monero ve Bitcoin olarak kabul ediyoruz. Şeffaflık ve güvenlik konusunda kararlıyız, web sitemiz ve tüm IVPN uygulamalarımız açık kaynaklıdır.
+  
+  E-posta ve canlı sohbet dahil sunucularımız kendimiz tarafından barındırılmakta ve işletilmektedir. Yıllık bağımsız güvenlik denetimleri taahhüt ediyoruz ve incelemeler için ödeme yapmak veya anonimlik vaat etmek gibi yanlış reklamlara girmiyoruz.
+  
+  EFF, Open Rights Group ve Tor projesi gibi kuruluşlara düzenli olarak katkıda bulunuyoruz. İş modelimiz, herhangi bir yan hizmet veya VPN inceleme sitesi olmaksızın yalnızca ücretli aboneliklere dayanmaktadır.
+  
+  Özelliklerimiz arasında WireGuard, OpenVPN veya IPSec protokolleri, reklamları ve izleyicileri engelleyen AntiTracker, Killswitch/Firewall seçeneği, kayıt tutmayan özel DNS sunucuları, çok atlamalı VPN rotaları, port yönlendirme ve sansürü aşmak için Obfsproxy bulunmaktadır.
+  
+  VPN'lerin anonimlik sağlayamayacağını veya Google veya Facebook gibi devler tarafından veri toplanmasını engelleyemeyeceğini açıklığa kavuşturmakla birlikte, bizimki gibi güvenilir bir VPN'in verilerinizi ve DNS isteklerinizi etkili bir şekilde şifreleyebileceğini, güvenilmeyen genel ağlarda güvenliği artırabileceğini, IP Address'ınızı maskeleyebileceğini ve sansürü veya coğrafi engelleri aşabileceğini garanti ediyoruz. Bize İSS'nizden daha fazla güvenmeniz koşuluyla, gizlilik koruma stratejinizin güvenilir bir parçasıyız.

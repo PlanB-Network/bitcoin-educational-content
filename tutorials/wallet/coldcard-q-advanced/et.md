@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - edasijõudnud
+name: COLDCARD Q - Ekspert
 description: COLDCARD Q täiustatud võimaluste kasutamine
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ COLDCARDi puhul on teil kaks võimalust oma salasõna haldamiseks:
 
 1. **Klassikaline sisestamine:** Sisestate salasõna käsitsi iga kord, kui kasutate oma riistvaralist rahakotti, nagu teete seda ka teiste riistvaraliste rahakottide puhul. COLDCARD Q lihtsustab seda ülesannet täieliku klaviatuuri abil.
 
-2. **Võidate valida, kas soovite oma salasõna krüpteerida ja salvestada selle microSD-kaardile. Sellisel juhul peate microSD-kaardi iga kord COLDCARD Q-sse sisestama, kui seda kasutate. Pange tähele, et see microSD-kaart töötab ainult teie COLDCARD Q-s ja ei ole varukoopia. Seetõttu on väga oluline, et te hoiaksite oma salasõna koopiat ka füüsilisel andmekandjal, näiteks paberil või metallist.
+2. **Võidate valida, kas soovite oma salasõna krüpteerida ja salvestada selle microSD-kaardile.** Sellisel juhul peate microSD-kaardi iga kord COLDCARD Q-sse sisestama, kui seda kasutate. Pange tähele, et see microSD-kaart töötab ainult teie COLDCARD Q-s ja ei ole varukoopia. Seetõttu on väga oluline, et te hoiaksite oma salasõna koopiat ka füüsilisel andmekandjal, näiteks paberil või metallist.
 
 BIP39 salasõna määramiseks avage menüü "*Passphrase*".
 

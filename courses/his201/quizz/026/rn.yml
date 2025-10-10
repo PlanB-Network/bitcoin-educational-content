@@ -1,0 +1,9 @@
+question: Ni ikihe kintu cari kibuze mu gishushanyo ca Bitcoin co ku wa 31 Gitugutu 2008?
+answer: Umubare w'ibice
+wrong_answers:
+  - Proof of Work.
+  - Igenzura ry'ukwishyura ryoroshe
+  - Igitabo ca Blockchain.
+explanation: |
+  Itegeko ry’amahera ry’intango ryari rihuye n’ugusohora amafaranga ubudasiba (X BTC/block) nk’uko vyerekanwa n’igitabu ca mbere c’igitabu cera be n’[uguhinduranya] kwa Satoshi.
+reviewed: true

@@ -1,11 +1,13 @@
-question: Cos'è la chiave privata in un wallet Bitcoin?
-answer: Una chiave segreta che permette di firmare le transazioni.
+question: Qual è la probabilità che qualcuno indovini accidentalmente la lista di 12 o 24 parole di un wallet Bitcoin?
+answer: Estremamente bassa.
 wrong_answers:
-  - Una chiave pubblica utilizzata per generare indirizzi Bitcoin.
-  - Una lista segreta di parole per distruggere un wallet in caso di necessità.
-  - Una chiave segreta per criptare le transazioni Bitcoin.
-explanation: >-
-  Quando si inizializza un wallet Bitcoin, viene generata una lista segreta di parole, chiamata frase mnemonica. 
-  Questa lista di parole è molto importante perché rappresenta la proprietà
-  dei Bitcoin e quindi il diritto di disporne.
+  - Alta.
+  - Moderata.
+  - Forte.
+explanation: |
+  Grazie alla crittografia utilizzata per creare il wallet, la
+  probabilità che qualcuno indovini accidentalmente la lista di
+  12 o 24 parole è estremamente bassa. È come trovare
+  il numero giusto tra 1 e $2^256$, che è quasi
+  equivalente a trovare un atomo definito nell'universo.
 reviewed: true

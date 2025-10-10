@@ -17,7 +17,7 @@ L’objectif n’est pas seulement de connaître les bonnes pratiques : il s’a
 
 Au fil des modules, vous découvrirez comment vérifier l’intégrité des logiciels que vous installez, chiffrer efficacement vos données, utiliser votre navigateur et votre téléphone avec un minimum de fuite de données, et renforcer la sécurité de votre réseau domestique.
 
-Ce cours s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "*Don't Trust, Verify*".
+Ce cours s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "Don't Trust, Verify" (FR-*Ne fais pas confiance, vérifie*).
 
 +++
 
@@ -81,7 +81,7 @@ Pour clôturer ce cours, vous pourrez tenter d'avoir votre diplôme en passant l
 
 Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité en ligne ? Allons-y !
 
-*N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour en trouver les définitions.*
+*P.S. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour en trouver les définitions.*
 
 ## Récapitulatif essentiel de SCU 101
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
@@ -194,7 +194,7 @@ Selon les statistiques actuelles, Windows représente toujours la majorité des 
 
 - Enfin, cette hégémonie est également renforcée par l’image perçue des systèmes concurrents : Linux reste souvent considéré comme trop technique pour le grand public (et reste méconnu de la majorité), tandis que macOS, lié exclusivement aux produits Apple, est souvent perçu comme onéreux.
 
-macOS, quant à lui, se situe autour de 16 % de parts de marché et est généralement choisi pour son intégration optimale avec le matériel Apple. Le choix de ce système d’exploitation est d’ailleurs renforcé depuis quelques années par les performances des Mac, grâce à l’introduction des puces Apple Silicon. Ce tournant majeur a marqué l’abandon des processeurs Intel x86 au profit d’une architecture ARM, plus efficace en matière de performance et de consommation énergétique.
+MacOS, quant à lui, se situe autour de 16 % de parts de marché et est généralement choisi pour son intégration optimale avec le matériel Apple. Le choix de ce système d’exploitation est d’ailleurs renforcé depuis quelques années par les performances des Mac, grâce à l’introduction des puces Apple Silicon. Ce tournant majeur a marqué l’abandon des processeurs Intel x86 au profit d’une architecture ARM, plus efficace en matière de performance et de consommation énergétique.
 
 Linux reste minoritaire sur les ordinateurs personnels (environ 4 %), mais domine largement les serveurs (environ 63 %) et les supercalculateurs (100 %), grâce à sa stabilité et à ses performances.
 
@@ -222,15 +222,15 @@ Sur le plan de la sécurité, Windows est une cible privilégiée pour les logic
 
 ![Image](assets/fr/007.webp)
 
-Selon moi, Windows occupe une position centrale peu affirmée : il peut être sécurisé, mais l’est moins que Linux et macOS ; il laisse un certain contrôle, mais bien moins que Linux ; il n’est ni aussi performant que macOS, ni aussi simple que Chrome OS ou certaines distributions Linux destinées aux débutants. Il est moyen en tout, sans être véritablement mauvais dans aucun domaine (sauf la confidentialité, par défaut).
+Selon moi, Windows occupe une position centrale peu affirmée : il peut être sécurisé, mais l’est moins que Linux et macOS ; il laisse un certain contrôle, mais bien moins que Linux ; il n’est ni aussi performant que macOS, ni aussi simple que Chrome OS ou certaines distributions Linux destinées aux débutants. Il est moyen dans tous les domaines, sans être vraiment mauvais dans aucun (sauf en matière de confidentialité, par défaut).
 
 ![Image](assets/fr/006.webp)
 
 Dans une démarche de souveraineté numérique et de maîtrise technique, Windows montre rapidement ses limites. Son modèle repose sur une relation déséquilibrée entre l’utilisateur et l’éditeur, au profit de ce dernier. Pour ceux qui souhaitent comprendre, personnaliser et sécuriser en profondeur leur ordinateur, c'est un système d'exploitation peu adapté. C’est pourquoi nous ne nous attarderons pas davantage sur Windows dans SCU 202.
 
-### macOS : intégration et optimisation
+### MacOS : intégration et optimisation
 
-macOS est le système d’exploitation développé par Apple pour ses ordinateurs Mac. C'est un système héritier d’Unix, via le système NeXTSTEP, qui a été racheté par Apple en 1997. macOS repose sur un noyau appelé "*XNU*", qui combine des éléments de BSD (*Berkeley Software Distribution*) et un micro-noyau Mach.
+MacOS est le système d’exploitation développé par Apple pour ses ordinateurs Mac. C'est un système héritier d’Unix, via le système NeXTSTEP, qui a été racheté par Apple en 1997. MacOS repose sur un noyau appelé "*XNU*", qui combine des éléments de BSD (*Berkeley Software Distribution*) et un micro-noyau Mach.
 
 ![Image](assets/fr/008.webp)
 
@@ -240,13 +240,13 @@ Cette base solide lui donne une bonne stabilité, une gestion efficace des resso
 
 L’un des atouts majeurs de macOS réside dans l’intégration verticale du matériel et du logiciel. Apple contrôle toute la chaîne, de la conception des processeurs aux moindres détails de l’interface. Résultat : un système globalement fiable, avec peu de bugs matériels, et optimisé pour les performances.
 
-Cependant, cette intégration a pour inconvénient un enfermement croissant dans l’écosystème Apple. macOS est un système en partie propriétaire (dont le code source est majoritairement fermé) et qui ne fonctionne que sur les machines fabriquées par Apple. L’utilisateur n’a que peu de contrôle sur les mises à jour, les options de configuration système avancées ou le choix de ses composants matériels. Le matériel est difficilement modifiable ou réparable, souvent verrouillé logiciellement.
+Cependant, cette intégration a pour inconvénient un enfermement croissant dans l’écosystème Apple. MacOS est un système en partie propriétaire (dont le code source est majoritairement fermé) et qui ne fonctionne que sur les machines fabriquées par Apple. L’utilisateur n’a que peu de contrôle sur les mises à jour, les options de configuration système avancées ou le choix de ses composants matériels. Le matériel est difficilement modifiable ou réparable, souvent verrouillé logiciellement.
 
 ![Image](assets/fr/009.webp)
 
 Côté respect de la vie privée, bien que macOS soit moins intrusif que Windows, il reste lié à une logique de collecte de données, de synchronisation cloud, et de dépendance à des services centralisés. La plupart des fonctions avancées du système reposent sur une connexion permanente à l’écosystème Apple (iCloud, App Store, Siri…), ce qui limite l’indépendance de l’utilisateur.
 
-macOS peut convenir aux utilisateurs qui valorisent la performance, la stabilité et le confort d’un système bien intégré, sans avoir à se plonger dans les détails techniques. En revanche, dans une démarche de souveraineté numérique et de contrôle de son environnement informatique, il s’avère trop fermé, trop dépendant d’une entreprise unique, et peu propice à une personnalisation fine. C'est pourquoi nous n'en parlerons pas plus dans ce cours SCU 202.
+MacOS peut convenir aux utilisateurs qui valorisent la performance, la stabilité et le confort d’un système bien intégré, sans avoir à se plonger dans les détails techniques. En revanche, dans une démarche de souveraineté numérique et de contrôle de son environnement informatique, il s’avère trop fermé, trop dépendant d’une entreprise unique, et peu propice à une personnalisation fine. C'est pourquoi nous n'en parlerons pas plus dans ce cours SCU 202.
 
 ### GNU/Linux : liberté, contrôle et sécurité
 
@@ -340,7 +340,7 @@ Très rapidement, ce noyau, initialement baptisé Freax puis renommé Linux (con
 
 À mesure que Linux gagne en popularité dans les années 1990, un débat idéologique émerge autour des termes "logiciel libre" et "open source", notamment à cause de la double signification du terme "*free*" en anglais.
 
-Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
+Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"; en FR:*Libre, comme dans « liberté »*), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
 
 Richard Stallman critique ouvertement l’usage du terme "open source", qu’il juge trop neutre, voire dépolitisé. Il insiste sur le terme "logiciel libre" pour souligner que la question centrale n’est pas technique, mais sociale : celle de la liberté des utilisateurs.
 
@@ -354,7 +354,7 @@ Malgré leurs différences philosophiques, ces deux courants partagent des valeu
 
 ### Impact culturel et social
 
-GNU et Linux ne sont pas seulement une réussite technique : leur impact culturel et social est tout aussi important. Leur diffusion initiale s’est faite majoritairement via Internet, à travers des forums techniques, des mailing lists, puis rapidement à travers des distributions, c’est-à-dire des assemblages préconfigurés de logiciels autour du noyau Linux. Dès 1993, des distributions pionnières comme Slackware et Debian voient le jour, afin de faciliter l’accès au système d'exploitation GNU/Linux à un public plus large.
+GNU et Linux ne sont pas seulement une réussite technique : leur impact culturel et social est tout aussi important. Leur diffusion initiale s’est faite majoritairement via Internet, à travers des forums techniques, des listes de mails, puis rapidement à travers des distributions, c’est-à-dire des assemblages préconfigurés de logiciels autour du noyau Linux. Dès 1993, des distributions pionnières comme Slackware et Debian voient le jour, afin de faciliter l’accès au système d'exploitation GNU/Linux à un public plus large.
 
 Cette approche communautaire, ouverte et collaborative, permet à Linux d’évoluer rapidement, de manière décentralisée et participative. Chaque utilisateur peut contribuer au projet, que ce soit en codant, en documentant ou en testant. Cette dynamique de collaboration massive constitue une innovation sociale majeure dans l’univers de l'informatique.
 
@@ -371,7 +371,7 @@ Une distribution Linux (souvent abrégé "*distro*") est un système d’exploit
 
 Dans chaque distribution Linux, on retrouve :
 - le **noyau Linux**, qui communique avec le matériel et gère les ressources système (CPU, mémoire, disques...) ;
-- un **bootloader**, tel que *GRUB*, qui permet de démarrer le système ;
+- un **chargeur de démarrage**, tel que *GRUB*, qui permet de démarrer le système ;
 - un **système d’initialisation** qui permet de lancer les services à l’amorçage : *systemd*, *OpenRC*, *SysV init*, ou *runit* selon les choix philosophiques de la distribution ;
 - un **système de gestion de paquets**, qui permet d’installer, mettre à jour et supprimer les logiciels. Les plus courants sont *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) ou *APK* (Alpine) ;
 - des **dépôts de logiciels** accessibles en ligne, qui centralisent les versions validées des applications disponibles ;
@@ -574,9 +574,9 @@ Fedora est une distribution soutenue par Red Hat, orientée vers les dernières 
 
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-- **openSUSE** (Tumbleweed ou Leap) :
+- **OpenSUSE** (Tumbleweed ou Leap) :
 
-openSUSE est une distribution disponible en rolling release ou stable. Elle propose l’outil YaST pour la configuration système et permet un usage polyvalent avec plusieurs environnements graphiques. Elle demande un peu plus d’expérience mais reste robuste pour un usage quotidien.
+OpenSUSE est une distribution disponible en rolling release ou stable. Elle propose l’outil YaST pour la configuration système et permet un usage polyvalent avec plusieurs environnements graphiques. Elle demande un peu plus d’expérience mais reste robuste pour un usage quotidien.
 
 ![Image](assets/fr/026.webp)
 
@@ -618,7 +618,7 @@ Parrot OS est également dérivée de Debian. Elle propose un environnement pour
 
 - **Tails** :
 
-Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est un distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
+Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est une distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
 
 https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
@@ -628,7 +628,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 - **Qubes OS** :
 
-Qubes OS repose sur Fedora et utilise le système de virtualisation Xen pour compartimenter les usages. Chaque application tourne dans une machine virtuelle isolée. C'est un architecture très sécurisée, mais exigeante en ressources et assez difficile à prendre en main.
+Qubes OS repose sur Fedora et utilise le système de virtualisation Xen pour compartimenter les usages. Chaque application tourne dans une machine virtuelle isolée. C'est une architecture très sécurisée, mais exigeante en ressources et assez difficile à prendre en main.
 
 ![Image](assets/fr/033.webp)
 
@@ -984,7 +984,7 @@ Chaque dépôt est divisé en sections. Ubuntu active par défaut quatre section
 * **main** : les logiciels libres officiellement maintenus par Canonical. Exemples : Firefox, LibreOffice, bash...
 * **restricted** : les logiciels non libres, mais indispensables pour le bon fonctionnement matériel. Exemples : pilotes NVIDIA, firmware Wi-Fi, codecs propriétaires...
 * **universe** : les logiciels libres maintenus par la communauté. Exemples : GIMP, Inkscape, Audacity…
-* **multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
+**multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
 
 Chaque composant peut ensuite être décliné en plusieurs canaux ou pockets : `release`, `security`, `updates`, `backports`, etc., qui correspondent à la nature des mises à jour.
 
@@ -1496,6 +1496,8 @@ Thunderbird est le client de messagerie open source de référence, développé 
 sudo apt install thunderbird
 ```
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+
 #### Suite bureautique
 
 LibreOffice est la suite bureautique libre la plus complète. Elle propose des alternatives à Word, Excel et PowerPoint, avec une excellente compatibilité avec les formats Microsoft Office (.docx, .xlsx, .pptx).
@@ -1632,7 +1634,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Enfin, changez ce mot de passe régulièrement, environ tous les 3 à 6 mois, surtout si votre machine est utilisée dans des environnements partagés ou mobiles.
 
-#### Sécuriser l’accès au BIOS/UEFI
+#### Sécurisation de l’accès au BIOS/UEFI
 
 La sécurité de votre ordinateur ne commence pas une fois le système d’exploitation lancé, mais dès les premiers instants du démarrage. Avant même que Windows, Linux ou macOS ne s’exécute, un programme intégré à la carte mère que l'on appelle BIOS ou UEFI, selon la génération de votre machine, prend le contrôle de la machine pour initialiser le matériel et lancer le processus de démarrage.
 
@@ -1737,7 +1739,7 @@ https://planb.network/tutorials/computer-security/operating-system/virtualbox-64
 
 En termes de sécurité informatique, un des grands avantages des machines virtuelles est leur capacité de cloisonnement. Une VM ne partage ni ses fichiers, ni ses processus, ni ses accès réseau avec le système hôte, sauf si vous configurez explicitement ces échanges. Donc si une VM est infectée par un malware ou si vous testez un logiciel sensible à l’intérieur, l’impact reste confiné à cette machine virtuelle : votre système principal reste intact, à condition que les paramètres d’isolation soient bien respectés (pas de dossiers partagés, pas de périphériques USB passés à la VM...).
 
-Une VM peut vous permettre de tester des logiciels suspects : si vous téléchargez un programme depuis une source peu fiable ou un site douteux, vous pouvez d’abord l'executer dans une VM pour observer son comportement en toute sécurité. Cela peut aussi être utile pour naviguer sur des sites à risque : vous pouvez dédier une VM à la consultation de contenus web sensibles ou inconnus, ce qui réduit les chances d’attaques par scripts malveillants ou d’exploitation de vulnérabilités du navigateur. En bref : utiliser une VM vous permet d'isoler facilement un usage spécifique du reste de votre système.
+Une VM peut vous permettre de tester des logiciels suspects : si vous téléchargez un programme depuis une source peu fiable ou un site douteux, vous pouvez d’abord l'exécuter dans une VM pour observer son comportement en toute sécurité. Cela peut aussi être utile pour naviguer sur des sites à risque : vous pouvez dédier une VM à la consultation de contenus web sensibles ou inconnus, ce qui réduit les chances d’attaques par scripts malveillants ou d’exploitation de vulnérabilités du navigateur. En bref : utiliser une VM vous permet d'isoler facilement un usage spécifique du reste de votre système.
 
 Enfin, il est important de comprendre que la sécurité apportée par les VM dépend de leur bonne configuration. Par défaut, certains hyperviseurs autorisent les échanges de fichiers entre l’hôte et la VM, ou permettent l’accès aux périphériques USB. Ces fonctions doivent être désactivées pour maximiser l’isolation.
 
@@ -1757,8 +1759,8 @@ Voici quelques solutions concrètes pour faire du sandboxing en fonction de votr
 - Firejail : un outil puissant et léger qui isole les applications à l’aide de profils prédéfinis. Il fonctionne bien avec de nombreux logiciels comme Firefox, VLC ou Telegram ;
 - Flatpak : comme nous avons déjà vu précédemment, ce n'est pas un logiciel de sanboxing en soit, mais un gestionnaire de paquet logiciel qui intègre du sandboxing : chaque application installée via Flatpak est isolée du système hôte par défaut, avec un contrôle fin des permissions (accès au micro, à la caméra, au réseau...).
 
-**macOS** :
-- Sur macOS le sandboxing est une fonctionnalité native intégrée au noyau, mais il n’est activé que si le développeur du logiciel le spécifie. Les applications de l'App Store sont automatiquement sandboxées, mais celles installées depuis le web (ou en ligne de commande) ne le sont pas par défaut.
+**MacOS** :
+- Sur macOS, le sandboxing est une fonctionnalité native intégrée au noyau, mais il n’est activé que si le développeur du logiciel le spécifie. Les applications de l'App Store sont automatiquement sandboxées, mais celles installées depuis le web (ou en ligne de commande) ne le sont pas par défaut.
 
 Enfin, même si le sandboxing offre une couche de protection efficace, il est important de comprendre qu'il ne remplace pas entièrement une VM ou un système bien cloisonné.
 
@@ -2008,7 +2010,7 @@ https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b
 
 #### Sous macOS
 
-macOS est réputé pour sa sécurité, en particulier grâce à ses politiques de signature des applications et à son architecture relativement fermée. Pour un usage personnel, une machine à jour avec les réglages par défaut offre déjà une sécurité correcte. Pour aller plus loin dans la surveillance de votre système, je vous conseille :
+MacOS est réputé pour sa sécurité, en particulier grâce à ses politiques de signature des applications et à son architecture relativement fermée. Pour un usage personnel, une machine à jour avec les réglages par défaut offre déjà une sécurité correcte. Pour aller plus loin dans la surveillance de votre système, je vous conseille :
 
 - **KnockKnock** : scanne tous les éléments configurés pour s’exécuter au démarrage (agents, daemons, modules kernel…) et identifie ceux qui sont potentiellement suspects, non signés ou inconnus. Il permet de repérer rapidement les formes de persistance malveillante sur votre système.
 
@@ -2242,7 +2244,7 @@ Dans ce chapitre, nous allons voir en détail comment sauvegarder et chiffrer vo
 
 #### Pourquoi sauvegarder ses données ?
 
-La sauvegarde régulière de vos données personnelles ou professionnelles est une mesure de sécurité absolument essentielle, souvent négligée jusqu’au jour où il est trop tard. Contrairement à une idée reçue, la sauvegarde n’est pas une tâche facultative ou réservée aux entreprises : elle concerne tout utilisateur d’un ordinateur. Que vous possédiez des documents de travail, des photos familiales, des document personnels, ou tout autre contenu sensible, ces données peuvent disparaître brutalement pour des raisons multiples :
+La sauvegarde régulière de vos données personnelles ou professionnelles est une mesure de sécurité absolument essentielle, souvent négligée jusqu’au jour où il est trop tard. Contrairement à une idée reçue, la sauvegarde n’est pas une tâche facultative ou réservée aux entreprises : elle concerne tout utilisateur d’un ordinateur. Que vous possédiez des documents de travail, des photos familiales, des documents personnels, ou tout autre contenu sensible, ces données peuvent disparaître brutalement pour des raisons multiples :
 
 - Défaillance matérielle : les disques durs HDD et les disques SSD ont une durée de vie limitée. Sans signes avant-coureurs, ils peuvent tomber en panne et rendre les données inaccessibles.
 
@@ -2469,7 +2471,7 @@ Pour en savoir plus sur cette solution, je vous invite à consulter ce tutoriel 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
-- **macOS :**
+- **MacOS :**
 
 Sur macOS, le chiffrement du disque système repose sur *FileVault*, une fonctionnalité native accessible depuis les réglages de sécurité. Si votre Mac est équipé d’une puce Apple Silicon (M1, M2…) ou d’une puce T2, un chiffrement matériel est déjà activé en permanence. Toutefois, l’activation de FileVault vient ajouter une couche de sécurité supplémentaire en chiffrant l’intégralité du volume système.
 
@@ -2732,11 +2734,11 @@ Firefox introduit également plusieurs innovations qui vont influencer durableme
 
 Sa légèreté, sa flexibilité et son respect des standards attirent rapidement les utilisateurs avancés, les développeurs web et tous ceux qui veulent une alternative plus ouverte qu’Internet Explorer. En 2005, Firefox dépasse les 10 % de parts de marché, une performance considérable face à un navigateur préinstallé sur tous les PC Windows.
 
-Pendant ce temps, Apple travaille de son côté à un navigateur maison pour macOS. En janvier 2003, Safari est officiellement lancé. Il repose sur WebKit, un moteur de rendu open source dérivé de KHTML, développé initialement par le projet KDE pour son navigateur Konqueror. WebKit est apprécié pour sa légèreté, sa rapidité et sa simplicité de portage. Apple y apporte de nombreuses optimisations internes, notamment sur le traitement JavaScript, qui devient un enjeu central avec l’essor des applications web interactives.
+Pendant ce temps, Apple développait son propre navigateur natif pour macOS. En janvier 2003, Safari est officiellement lancé. Il repose sur WebKit, un moteur de rendu open source dérivé de KHTML, développé initialement par le projet KDE pour son navigateur Konqueror. WebKit est apprécié pour sa légèreté, sa rapidité et sa simplicité de portage. Apple y apporte de nombreuses optimisations internes, notamment sur le traitement JavaScript, qui devient un enjeu central avec l’essor des applications web interactives.
 
 ![Image](assets/fr/100.webp)
 
-Safari devient le navigateur par défaut sur tous les Mac à partir de Mac OS X Panther (10.3), et vient remplacer progressivement Internet Explorer for Mac, que Microsoft abandonne en 2005. WebKit sera également utilisé plus tard dans de nombreux autres navigateurs.
+Safari devient le navigateur par défaut sur tous les Mac à partir de Mac OS X Panther (10.3), et vient remplacer progressivement Internet Explorer pour Mac, que Microsoft abandonne en 2005. WebKit sera également utilisé plus tard dans de nombreux autres navigateurs.
 
 Ces initiatives relancent la concurrence technologique, affaiblissent progressivement la domination d’Internet Explorer, et ouvrent la voie à une nouvelle génération de navigateurs plus rapides, plus respectueux des normes, et davantage orientés vers la modularité, la sécurité et la performance. Entre 2006 et 2008, Internet Explorer voit sa part de marché chuter lentement, tandis que Firefox s’impose comme la principale alternative sérieuse. Ce contexte prépare l’arrivée d’un nouvel acteur majeur : Google Chrome.
 
@@ -2881,7 +2883,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 #### Brave
 
-[Brave](https://brave.com/) est basé sur Blink (tout comme Chrome), mais se distingue radicalement par son approche centrée sur la privacy. Par défaut, Brave bloque les publicités et trackers, intègre *HTTPS Everywhere*, et propose des protections avancées contre le fingerprinting et les scripts tiers. Son modèle économique repose en partie sur la publicité intégrée respectueuse de la vie privée, mais celle-ci reste optionnelle et facilement désactivable.
+[Brave](https://brave.com/) est basé sur Blink (tout comme Chrome), mais se distingue radicalement par son approche centrée sur la confidentialité. Par défaut, Brave bloque les publicités et trackers, intègre *HTTPS Everywhere*, et propose des protections avancées contre le fingerprinting et les scripts tiers. Son modèle économique repose en partie sur la publicité intégrée respectueuse de la vie privée, mais celle-ci reste optionnelle et facilement désactivable.
 
 Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitHub. Seules quelques parties mineures sont partiellement propriétaires. Globalement, Brave est donc très proche d’un navigateur open source.
 
@@ -2889,7 +2891,7 @@ Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitH
 
 Brave constitue donc une alternative performante à Chrome, qui combine rapidité, sécurité renforcée, meilleure confidentialité par défaut et une interface intuitive. Pour autant, je ne vous le recommanderais pas forcément, tout simplement car il repose sur Chromium. 
 
-Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout en revendiquant une approche orientée privacy, une enquête menée en 2024 a révélé l’intégration, par défaut, d’une API permettant à Google d’accéder à des informations sensibles sur le matériel de l’utilisateur (CPU, GPU, RAM), ainsi qu’à son activité sur les services Google. Cette API, intégrée sous forme d’extension non désactivable dans Chrome, était également présente dans plusieurs navigateurs dérivés comme Edge, Opera… et même Brave.
+Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout en revendiquant une approche axée sur la confidentialité, une enquête menée en 2024 a révélé l’intégration, par défaut, d’une API permettant à Google d’accéder à des informations sensibles sur le matériel de l’utilisateur (CPU, GPU, RAM), ainsi qu’à son activité sur les services Google. Cette API, intégrée sous forme d’extension non désactivable dans Chrome, était également présente dans plusieurs navigateurs dérivés comme Edge, Opera… et même Brave.
 
 Bien que Brave ait depuis désactivé cette API, cette affaire illustre clairement la dépendance structurelle de ces navigateurs à Chromium, qui reste un projet profondément lié à l’écosystème Google. Ainsi, même les variantes de Chromium orientées vers la protection de la vie privée ne peuvent garantir une indépendance totale ni une protection complète des données utilisateur.
 
@@ -2961,6 +2963,8 @@ Firefox est un navigateur open source, distribué sous licence MPL (*Mozilla Pub
 
 Firefox demeure une référence incontournable en matière de sécurité et de protection de la vie privée, malgré un léger retard technique sur certains aspects de performance face aux navigateurs basés sur Blink. Cela peut être un très bon navigateur, à condition de bien le paramétrer.
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+
 #### Tor Browser
 
 [Tor Browser](https://www.torproject.org/download/) est un navigateur basé sur Firefox ESR. Il constitue l’une des solutions les plus solides pour l’anonymat en ligne. Il redirige le trafic à travers le réseau Tor, et empêche donc toute corrélation directe entre l'utilisateur et la destination web.
@@ -3010,7 +3014,7 @@ D’un point de vue sécurité et vie privée, Zen intègre un blocage natif des
 
 Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de votre vie privée.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Navigateurs basés sur WebKit
 
@@ -3035,6 +3039,8 @@ Orion se distingue de Safari par plusieurs éléments techniques :
 - Il intègre des fonctions intéressantes comme le mode *Focus* (navigation sans interface), le mode basse consommation, ou encore la gestion verticale des onglets.
 
 Orion est entièrement développé par l’équipe de Kagi (connue pour son moteur de recherche sans publicité). Son développement est financé uniquement par ses utilisateurs via l’offre *Orion+* qui donne accès à quelques avantages.
+
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 
 ### Navigateurs sans moteur de rendu
 
@@ -3107,11 +3113,11 @@ Pour atténuer ces risques, les éditeurs de navigateurs publient des mises à j
 
 Il est donc impératif :
 * d’activer les mises à jour automatiques de votre navigateur et de vérifier régulièrement à la main qu'aucune mise à jour n'est disponible ;
-* ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l’ensemble du système via votre gestionnaire de paquets.
+*ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l'ensemble du système via votre gestionnaire de paquets.*
 
 Pour vérifier manuellement la version et déclencher une mise à jour :
 * dans Firefox : `Menu > Settings > Firefox Updates` ;
-* en ligne de commande sous Linux (paquets `apt`) :
+**en ligne de commande sous Linux (paquets `apt`) :**
 
 ```bash
 sudo apt update && sudo apt upgrade firefox
@@ -3218,23 +3224,23 @@ Dans la majorité des cas, l’attaque consiste à imiter l’apparence d’un s
 
 Pour éviter ces attaques lors de votre navigation en ligne, il convient de respecter certains principes de base :
 
-* **Analysez l’URL** : les attaquants utilisent souvent des adresses très proches de l’originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l’adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
+**Analysez l'URL** : les attaquants utilisent souvent des adresses très proches de l'originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l'adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
 
-* **Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l’adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d’expansion d’URL pour vérifier sa destination.
+**Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l'adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d'expansion d'URL pour vérifier sa destination.
 
-* **Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu’un colis ne peut être livré est suspect par nature.
+**Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu'un colis ne peut être livré est suspect par nature.
 
-* **Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d’authentification ou un scan de pièce d’identité via un simple e-mail ou SMS.
+**Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d'authentification ou un scan de pièce d'identité via un simple e-mail ou SMS.
 
 Et voici également quelques mesures de prévention à mettre en place directement dans votre navigateur afin de réduire au maximum les risques de phishing :
 
-* **Accédez aux sites critiques via vos favoris** :
+**Accédez aux sites critiques via vos favoris** :
 
 Pour les services importants (banque, impôts, e-mail...), et plus largement pour tous les sites que vous utilisez de manière régulière, enregistrez l’URL officielle dans vos favoris et n’utilisez jamais un moteur de recherche ou un lien externe pour vous y rendre.
 
 Vous avez reçu un e-mail du service des impôts contenant un lien ? Ne cliquez pas dessus. Rendez-vous plutôt directement sur votre espace personnel en utilisant l’URL que vous avez enregistrée dans vos favoris. Aujourd’hui, tous les navigateurs modernes proposent une barre de favoris avec la possibilité d’organiser vos liens dans des dossiers. Prenez le temps de le faire une fois, en vérifiant soigneusement l’URL ainsi que le certificat SSL/TLS, et vous naviguerez ensuite en toute tranquillité.
 
-* **Respectez les bonnes pratiques liées à l'authentification** :
+**Respectez les bonnes pratiques liées à l'authentification** :
 
 Il est également essentiel de suivre les bonnes pratiques liées à l’authentification pour limiter l’impact potentiel d’une attaque par phishing. Les deux règles les plus importantes sont l’usage de mots de passe uniques pour chaque service et l’activation du 2FA.
 
@@ -3242,7 +3248,7 @@ Prenons un exemple : si un attaquant parvient à obtenir le mot de passe de votr
 
 En complément de ces mesures, l’utilisation d’un bon gestionnaire de mots de passe sous forme d’extension de navigateur peut également vous protéger contre les faux sites. En effet, la plupart de ces extensions détecteront une URL suspecte et refuseront d’auto-remplir vos identifiants, voire vous le signalerons, ce qui vous évitera ainsi de divulguer vos accès par inadvertance.
 
-* **Inspectez les certificats SSL/TLS** : 
+**Inspectez les certificats SSL/TLS** :
 
 La présence du cadenas dans la barre d’adresse indique une connexion chiffrée, mais ne garantit pas la légitimité du site. Cliquez dessus pour examiner le certificat (organisation, domaine, autorité de certification). Cela reste utile en cas de doute sur une URL.
 
@@ -3278,7 +3284,7 @@ L’objectif est simple : empêcher qu’un incident sur une activité donnée (
 
 Les navigateurs modernes permettent aux sites de solliciter des accès à des ressources sensibles de votre appareil, comme la caméra, le microphone, la géolocalisation ou encore les notifications système. Ces fonctionnalités sont utiles pour certaines applications (visioconférences, cartes interactives...), mais elles ouvrent aussi la porte à des abus si elles sont mal contrôlées.
 
-Lorsqu’un site vous demande l’accès à l’une de ces ressources, le navigateur affiche une popup que vous devez valider. Cependant, si vous acceptez une fois sans attention, cette autorisation peut rester active de manière persistante pour toutes vos visites futures sur ce site. Cela signifie, par exemple, qu’un site pourrait à nouveau activer votre micro ou votre caméra sans vous le redemander, si vous n’avez pas révoqué manuellement ce droit.
+Lorsqu’un site vous demande l’accès à l’une de ces ressources, le navigateur affiche un pop-up que vous devez valider. Cependant, si vous acceptez une fois sans attention, cette autorisation peut rester active de manière persistante pour toutes vos visites futures sur ce site. Cela signifie, par exemple, qu’un site pourrait à nouveau activer votre micro ou votre caméra sans vous le redemander, si vous n’avez pas révoqué manuellement ce droit.
 
 Pour renforcer votre sécurité :
 - Accordez l’autorisation uniquement au moment précis où elle est requise pour une fonctionnalité légitime ;
@@ -3731,7 +3737,7 @@ Telegram est une messagerie très populaire grâce à son ergonomie et à ses fo
 
 Telegram peut ainsi accéder techniquement aux contenus de la majorité des conversations non protégées explicitement. Même si l'entreprise affiche une position ferme vis-à-vis des autorités gouvernementales, Telegram ne constitue pas une solution optimale pour les échanges confidentiels ou sensibles, sauf à utiliser explicitement ses "échanges secrets", nettement moins pratiques au quotidien.
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -3882,6 +3888,8 @@ K-9 Mail est un client mail open source Android, récemment intégré à l’éc
 Thunderbird Mobile est la version mobile du célèbre client de messagerie open source développé par la Mozilla Foundation. Fidèle à la philosophie du projet, l'application met l'accent sur la confidentialité, la transparence du code et l'absence de télémétrie intrusive. Thunderbird Mobile est basée sur l'application K-9 Mail, dont elle est le successeur officiel sur Android. Elle permet une gestion avancée des comptes IMAP et POP, le chiffrement des courriels (via OpenPGP), et dispose d'une interface sobre et efficace.
 
 ![Image](assets/fr/157.webp)
+
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 - [Tuta](https://tuta.com/)
 
@@ -4074,7 +4082,7 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 - [Proton VPN](https://protonvpn.com/)
 
-Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. LEs clients sont également open source.
+Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. Les clients sont également open source.
 
 ![Image](assets/fr/174.webp)
 
@@ -4094,6 +4102,8 @@ Aegis est une application open source très complète. Elle chiffre votre base d
 
 Ente Auth est une solution moderne, open source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
 Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation par tags, icônes personnalisées pour chaque service, notes, favoris, recherche intégrée, partage sécurisé de codes en équipe...
 
 ![Image](assets/fr/176.webp)
@@ -4103,6 +4113,8 @@ Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation p
 Authy propose la synchronisation 2FA sur plusieurs appareils, ce qui peut être pratique, mais l’application n’est pas open source et nécessite un numéro de téléphone à l’inscription. Elle reste toutefois plus complète que Google Authenticator pour les débutants, notamment grâce à sa fonction de sauvegarde cloud.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
 Si vous souhaitez en savoir plus sur les gestionnaires de mots de passe, l'authentification 2FA et les VPN, je vous conseille de lire les chapitres dédiés dans la formation SCU 101 :
 
@@ -4348,6 +4360,8 @@ Disponible sur F-Droid et entièrement open source, Chrono propose une interface
 
 L'application intègre également un minuteur et un chronomètre, avec enregistrement des tours (laps), statistiques, comparaisons de temps, et une gestion multi-timers. Vous pouvez configurer plusieurs fuseaux horaires, personnaliser le thème (couleurs, styles, animations), et même organiser vos alarmes et minuteurs avec des étiquettes.
 
+Pour approfondir le sujet, je vous recommande de visiter le site [*Awesome Privacy*](https://awesome-privacy.xyz/), qui recense les meilleures alternatives respectueuses de la vie privée aux logiciels que vous utilisez au quotidien.
+
 ___
 
 ⚠️ ***Attention** : bien que les alternatives présentées dans ce chapitre soient majoritairement open source et orientées protection de la vie privée, elles ne sont pas sans limites ou sans risques. Certaines peuvent cesser d’être maintenues, comporter des vulnérabilités non corrigées, devenir propriétaires ou même, potentiellement, être des logiciels malveillants. Certaines peuvent également être illégales selon votre juridiction locale. J’ai rédigé ce chapitre en juin 2025, mais il est possible que la situation de ces applications ait évolué depuis.*
@@ -4528,11 +4542,19 @@ Il est important de privilégier un équipement moderne, maintenu par son fabric
 
 Un routeur compatible Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 vous donnera des débits améliorés et surtout un support natif des technologies de sécurité modernes. À l’inverse, les équipements très anciens, notamment ceux qui ne reçoivent plus de mises à jour logicielles, peuvent comporter des vulnérabilités connues et non corrigées. Ils représentent donc un risque pour l’ensemble de votre réseau, même si vous les configurez correctement. Comparé aux téléphones portables ou aux ordinateurs, le routeur est un équipement que l’on a tendance à conserver pendant de nombreuses années. Pourtant, il peut être pertinent de le remplacer plus régulièrement, afin de bénéficier d’un modèle plus moderne et mieux sécurisé.
 
+**Attention** : En règle générale, les routeurs fournis par les fournisseurs d’accès à Internet peuvent être dépourvus de la fonction essentielle de mise à jour ainsi que des capacités de personnalisation. Dans certains cas, les fournisseurs peuvent également avoir un accès illimité au réseau interne de l’utilisateur final.
+
 Aussi, veillez à appliquer systématiquement les mises à jour du firmware de votre routeur. Ces mises à jour corrigent des failles, ajoutent de nouvelles fonctionnalités et renforcent la stabilité générale du système. Certains fabricants proposent une mise à jour automatique, mais dans certains cas, il faudra effectuer une vérification manuelle via l’interface d’administration du routeur. Tout comme pour votre téléphone, votre ordinateur, votre système d’exploitation ou vos logiciels, il est donc très important de mettre régulièrement à jour votre routeur. Vous pouvez d’ailleurs intégrer cette vérification dans une routine hebdomadaire, par exemple chaque dimanche, en dressant une liste de tous les éléments à contrôler et à maintenir à jour.
 
-Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point de vue matériel, vous pouvez installer un firmware alternatif open source, comme :
+Vous pouvez également activer les mises à jour automatiques ou au moins le balayage automatique des nouvelles mises à jour du firmware si vous préférez agir manuellement. Bien que la fonction de mise à jour automatique puisse toujours représenter une menace pour la sécurité, ne pas mettre régulièrement à jour le firmware du routeur exposera votre réseau local à des vulnérabilités publiquement connues.
+
+**Exemple**: Lors de l'achat de votre propre routeur, il peut être judicieux de rechercher des entreprises établies dans le secteur qui fournissent des routeurs sur le marché depuis longtemps. Par exemple, les routeurs Fritz!Box ont une réputation de longue date en tant qu'appareils plug-and-play, bien adaptés à une utilisation en milieu familial comme en petite entreprise. Leur politique de mises à jour logicielles s'étend généralement sur plusieurs années.
+
+Si votre routeur n'est plus maintenu mais fonctionne toujours correctement du point de vue matériel, vous pourrez peut-être installer un firmware open-source alternatif, tel que:
 - **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
 - **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
+
+**Remarque** : Certains fournisseurs d'accès (ISP) fournissent à leurs clients des routeurs en gros fabriqués par une seule entreprise qui dessert simultanément de nombreux ISP différents dans le monde. Vous pouvez constater que, pour installer l'un des firmwares alternatifs sur le routeur, quelqu'un d'autre a peut‑être déjà découvert comment le faire, même s'il se trouve à l'autre bout du monde.
 
 ![Image](assets/fr/196.webp)
 
@@ -4659,6 +4681,8 @@ Concrètement, ce chiffrement DNS et changement de serveur peut être mis en pla
 
 ![Image](assets/fr/198.webp)
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+
 - Au niveau du système d’exploitation : certains OS intègrent nativement le support de DNS chiffré (DoT ou DoH), ce qui permet de sécuriser l’ensemble des requêtes DNS qui passent par la pile réseau du système. Cela ne sécurise donc pas l’ensemble de l’ordinateur ou du téléphone : les applications peuvent contourner ce paramétrage si elles sont configurées pour utiliser un autre résolveur DNS ou un protocole différent.
 
 - Au niveau du réseau : il est possible d'appliquer le chiffrement DNS à l’échelle de tout le réseau local via la configuration du routeur. Encore une fois, un routeur configuré en DoH/DoT ne voit que le trafic qui lui est effectivement envoyé. Donc un navigateur configuré pour contacter directement un résolveur distant échappe à ce contrôle. Pour réduire ces échappatoires, il faut bloquer le port 53 en clair et restreindre les destinations DoH/DoT non autorisées via le pare-feu du routeur.
@@ -4746,4 +4770,5 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 

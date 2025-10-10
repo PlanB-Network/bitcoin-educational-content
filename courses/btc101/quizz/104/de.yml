@@ -1,12 +1,13 @@
-question: Was ist kein Mnemonischer Ausdruck im Kontext von Bitcoin?
-answer: Ein Passwort für Ihre Bitcoin-Wallet.
+question: Wofür steht KYC?
+answer: Kenne Deinen Kunden.
 wrong_answers:
-  - Eine Liste von 12 Wörtern aus einem spezifischen Wörterbuch.
-  - Eine Liste von 24 Wörtern aus einem spezifischen Wörterbuch.
-  - Das Geheimnis, um auf Ihre Bitcoin-Guthaben zuzugreifen.
+  - Behalte Dein Geld.
+  - Schlüssel Deine Codes.
+  - Freundlich Einhalt Gebieten.
 explanation: |
-  Ein mnemonischer Ausdruck im Kontext von Bitcoin ist eine Liste
-  von 12 oder 24 Wörtern, die es Ihnen ermöglicht, Ihre Wallet in
-  jeder Bitcoin-Wallet-Anwendung wiederherzustellen. Jeder, der Zugang
-  zu dieser Liste hat, kann auch auf Ihre Bitcoins zugreifen.
+  KYC oder Kenne Deinen Kunden bezieht sich auf das Verfahren, das
+  Unternehmen anwenden, um die Identität ihrer Kunden zu verifizieren.
+  Dies wird typischerweise durchgeführt, um die Einhaltung von
+  Vorschriften zu gewährleisten und illegale Aktivitäten wie Geldwäsche
+  oder Betrug zu verhindern.
 reviewed: true

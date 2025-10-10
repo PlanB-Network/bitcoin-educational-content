@@ -118,7 +118,7 @@ To wrap up the course, you'll be able to attempt the final exam to obtain your c
 Are you ready to fully take control of your IT security, strengthen your individual sovereignty and guarantee your online privacy? Let's go!
 
 
-*N.B.: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions
+*N.B.: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions*
 
 
 ## Essential recap of SCU101
@@ -520,7 +520,7 @@ Richard Stallman openly criticizes the use of the term "open source", deeming it
 ![Image](assets/fr/015.webp)
 
 
-*Source: Nathaniel Welch
+**Source: Nathaniel Welch**
 
 
 The distinction between the two terms therefore lies in the underlying motivation: the free software movement primarily promotes a philosophy of individual and collective freedom with regard to software, while open source primarily values technical efficiency, transparency and collaboration as the means to a better product.
@@ -2235,6 +2235,7 @@ sudo apt install thunderbird
 ```
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Office suite
 
 
@@ -2939,11 +2940,11 @@ As we saw in the previous section, Windows has historically been more exposed to
 
 
 - *Sysinternals Suite*: this is a much more advanced set of tools offered by Microsoft for diagnosing, monitoring and troubleshooting Windows. Here are the main tools in this suite:
-    - Process Monitor*: allows you to observe active processes, file accesses, registers, etc. in real time;
-    - Autoruns*: displays all programs launched at startup, helping you to quickly detect persistent malware or applications that shouldn't be running;
-    - Process Explorer*: monitors processes and detects suspicious behavior;
-    - TCPView*: visualizes active network connections (detection of abnormal connections) ;
-    - Sigcheck*: checks digital signatures on files for malicious code.
+- **Process Monitor**: allows you to observe active processes, file accesses, registers, etc. in real time;
+- **Autoruns**: displays all programs launched at startup, helping you to quickly detect persistent malware or applications that shouldn't be running;
+- **Process Explorer**: monitors processes and detects suspicious behavior;
+- **TCPView**: visualizes active network connections (detection of abnormal connections);
+- **Sigcheck**: checks digital signatures on files for malicious code.
 
 
 ![Image](assets/fr/207.webp)
@@ -3627,7 +3628,7 @@ Finally, click on the arrow-shaped button in the top right-hand corner to eject 
 
 
 
-- Windows:**
+- **Windows:**
 
 
 Under Windows, a native solution allows you to encrypt your disk. It's easy to activate: just go to the "*Privacy & Security*" settings, then tick the "*Device encryption*" box in the sub-menu of the same name. The recovery keys will then be automatically saved in your associated Microsoft account.
@@ -3663,7 +3664,7 @@ Once FileVault has been activated, you'll need to choose a recovery method in th
 For external storage media (hard disks, USB sticks, etc.), encryption is performed using the disk utility. You will need to completely reformat the volume:
 
 - Select the device, click on "*Delete*"
-- Select the "GUID* Partition Table" scheme
+- Select the "GUID Partition Table" scheme
 - Then choose an encrypted file system format (*APFS* or *Mac OS extended*)
 - Choose a strong password
 - Click on "*Delete*" then "*OK*" and encryption is complete
@@ -3738,7 +3739,7 @@ This package installs `exiftool`, which you can then use directly from the comma
 
 
 
-- Step 2: Viewing file metadata** (in French)
+- Step 2: **Viewing file metadata** (in French)
 
 
 To view all the metadata contained in a file, use the following command:
@@ -4302,7 +4303,7 @@ Blink-based browsers also include a number of more marginal browsers, often desi
 
 
 
-- Arc** :
+- **Arc**:
 
 
 Developed by The Browser Company, [Arc](https://arc.net/) offers a radically different approach to the user interface. It replaces traditional tabs with a system of "*spaces*", a unified sidebar, and integrates creative tools such as annotatable captures and a simple site editor. The emphasis is on usability, visual customization and fluidity of use, making this a tool favored by some professionals.
@@ -4315,7 +4316,7 @@ From a technical point of view, Arc is based on Chromium, but remains proprietar
 
 
 
-- Polypane** :
+- **Polypane** :
 
 
 [Polypane](https://polypane.app/) is aimed specifically at front-end developers and UX designers. Its main function is to simultaneously display several instances of the same site on different screen resolutions, in order to test the *responsive* behavior of an interface in real time. It also offers accessibility tools, HTML/CSS validators, color-blind simulators and performance metrics.
@@ -4348,6 +4349,7 @@ Firefox is an open source browser, distributed under the MPL (*Mozilla Public Li
 Firefox remains a benchmark for security and privacy, despite lagging slightly behind Blink-based browsers in certain performance areas. It can be a very good browser, as long as it is configured properly.
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Browser
 
 
@@ -4408,7 +4410,7 @@ From a security and privacy point of view, Zen features native blocking of third
 
 Zen Browser is an interesting alternative if you're looking for a Gecko browsing environment that's free, innovative, uncluttered and respectful of your privacy.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-based browsers
 
@@ -4442,6 +4444,7 @@ Orion differs from Safari in several technical respects:
 Orion is entirely developed by the Kagi team (known for its ad-free search engine). Its development is funded solely by its users via the *Orion+* subscription, which gives access to a number of advantages.
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers without rendering engines
 
 
@@ -5294,7 +5297,7 @@ Telegram is a very popular messaging service thanks to its ergonomics and featur
 
 Telegram can therefore technically access the content of the majority of conversations that are not explicitly protected. Even if the company takes a firm stance towards government authorities, Telegram is not an optimal solution for confidential or sensitive exchanges, unless you explicitly use its "secret exchanges", which are far less practical on a day-to-day basis.
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -5447,6 +5450,7 @@ Thunderbird Mobile is the mobile version of the popular open-source e-mail clien
 
 ![Image](assets/fr/157.webp)
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 Tuta (formerly "*Tutanota*") offers a complete end-to-end encrypted email solution, but its mobile client only supports Tuta accounts. It does not work with other providers. interface is modern and uncluttered, and registration requires no personal data.
@@ -5659,6 +5663,7 @@ Aegis is a comprehensive open-source application. It encrypts your 2FA database 
 
 Ente Auth is a modern, open-source, multi-platform solution with end-to-end encrypted backups. It enables you to synchronize your 2FA codes securely on mobile, desktop and web. You can also use it offline, without cloud backup or account creation.
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth offers many additional features: Organization by tags, customized icons for each service, notes, favorites, integrated search, secure team code sharing.
 
 ![Image](assets/fr/176.webp)
@@ -5669,6 +5674,7 @@ Authy offers 2FA synchronization across multiple devices, which can be handy, bu
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 If you'd like to find out more about password managers, 2FA authentication and VPNs, I recommend you read the dedicated chapters in the SCU-101 course:
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
@@ -5913,6 +5919,7 @@ Available on F-Droid and entirely open-source, Chrono offers a modern, unclutter
 
 The application also integrates a timer and stopwatch, with lap recording, statistics, time comparisons and multi-timer management. You can configure multiple time zones, customize the theme (colors, styles, animations), and even organize your alarms and timers with labels.
 
+To explore the topic further, I recommend visiting the website [*Awesome Privacy*](https://awesome-privacy.xyz/), which lists the best privacy-friendly alternatives to the software you use daily.
 ___
 
 ⚠️ ***Caution**: Although the alternatives presented in this chapter are mostly open-source and privacy-oriented, they are not without their limitations or risks. Some may cease to be maintained, have unpatched vulnerabilities, become proprietary or even, potentially, be malware. Some may also be illegal in your local jurisdiction. I have written this chapter in June 2025, but the situation for these applications may have changed since then.*
@@ -6098,12 +6105,20 @@ It's important to choose modern equipment, maintained by its manufacturer, and c
 
 A Wi-Fi 6, Wi-Fi 6E or Wi-Fi 7-compatible router will give you improved speeds and, above all, native support for modern security technologies. Conversely, very old equipment, especially that no longer receives software updates, may contain known, unpatched vulnerabilities. They therefore represent a risk for your entire network, even if you configure them correctly. Compared with cell phones or computers, routers are equipment that we tend to keep for many years. However, it may be a good idea to replace them more regularly, in order to benefit from a more modern, more secure model.
 
+**Attention**: As a general rule of thumb, the routers provided by ISPs may lack the essential update feature, as well as personalization capabilities. In some cases, ISPs may also have unrestricted access to the end user's internal network.
+
 So make sure you systematically update your router's firmware. These updates correct vulnerabilities, add new features and enhance overall system stability. Some manufacturers offer automatic updates, but in some cases you'll need to check manually via your router's interface administration tool. As with your phone, computer, operating system and software, it's important to update your router regularly. You can make this part of your weekly routine - Every Sunday, for example - by drawing up a list of all the items you need to check and keep up to date.
 
-If your router is no longer maintained but still works correctly from a hardware point of view, you can install an alternative open-source firmware, such as:
+Alternatively, you may enable auto-updates or at least auto-scan for new firmware updates if you prefer to act manually. While the auto-update feature may still pose a security threat, failing to update the router's firmware regularly will expose your local network to publicly known vulnerabilities.
+
+**Example**: When purchasing your own router, it may be a good idea to look for established firms in the industry that have been providing routers on the market for a long time. For instance, Fritz!Box routers have a longstanding reputation as plug-and-play devices, well-suited for use in both family settings and small-sized companies. Their software update policy typically extends over several years.
+
+If your router is no longer maintained but still works correctly from a hardware point of view, you may be able to install an alternative open-source firmware, such as:
 
 - OpenWrt, a Linux distribution specializing in routers, offering great flexibility and regular updates
 - pfSense and OPNsense, two FreeBSD-based (Unix-like) systems for x86 firewalls and routers
+
+**Note**: Some ISPs supply their customers with bulk routers made by a single company that simultaneously provides many different ISPs around the world. You may find that in order to install one of the alternative firmwares on the router, someone else may have already discovered how to do it, even if they are on the other side of the world.
 
 ![Image](assets/fr/196.webp)
 
@@ -6114,7 +6129,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 These systems enable finer control of firewall rules, outgoing and incoming connections, network segmentation (VLANs) and DNS management, but are aimed more at advanced users.
 
-**To sum up, I recommend**:
+**To sum up, I recommend to**:
 
 - Choose a recent router
 - Keep your system up to date
@@ -6233,6 +6248,7 @@ In practical terms, DNS encryption and server switching can be implemented at va
 
 ![Image](assets/fr/198.webp)
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - At operating system level: Some OSes natively integrate encrypted DNS support (DoT or DoH), which secures all DNS requests passing through the system's network stack. This does not, however, secure the entire computer or telephone: Applications can bypass this setting if they are configured to use a different DNS resolver or protocol.
 
 - At network level: DNS encryption can be applied to the entire local network via router configuration. Once again, a router configured for DoH/DoT only sees traffic that is actually sent to it. So a browser configured to contact a remote resolver directly escapes this control. To reduce these loopholes, you need to block port 53 in clear text and restrict unauthorized DoH/DoT destinations via the router's firewall.
@@ -6326,4 +6342,5 @@ By following these few steps, you'll build a robust, secure network environment 
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

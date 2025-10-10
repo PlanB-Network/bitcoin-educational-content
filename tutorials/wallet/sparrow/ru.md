@@ -1,5 +1,5 @@
 ---
-name: Воробей Wallet
+name: Sparrow Wallet
 description: Установка, настройка и использование Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

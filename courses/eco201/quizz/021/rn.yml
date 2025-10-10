@@ -1,0 +1,13 @@
+question: Nk’uko Carl Menger abivuga, agaciro ni akahe?
+answer: Agaciro ni ikintu co mu mutwe kiri mu muntu ku giti ciwe.
+wrong_answers:
+  - Agaciro ni umutungo usanzwe w’ibintu.
+  - Agaciro ni ikintu gifise intumbero kandi gishobora gupimwa.
+  - Agaciro kagenwa n’ingero y’abakozi bakoreshwa mu guhingura.
+explanation: |
+  Nk’uko Menger abivuga, agaciro ni ikintu umuntu yiyumvira mu mutwe .
+  ikintu gikomeye kiri mu muntu ku giti ciwe. Ivyo bisigura ko agaciro ari .
+  si umutungo w’ibintu, ahubwo uva ku .
+  iciyumviro c'umuntu ku giti ciwe ku bijanye n'akamaro bashobora kuronka
+  kuva muri ivyo bintu.
+reviewed: true

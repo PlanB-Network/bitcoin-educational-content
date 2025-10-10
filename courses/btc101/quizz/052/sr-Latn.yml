@@ -1,9 +1,9 @@
-question: Kakav je uticaj inflacije od 20% na kupovnu moć tokom 3 godine?
-answer: Gubiš 50% svoje kupovne moći.
+question: Koja od sledećih nije karakteristika Bitkoina?
+answer: Lako se cenzuriše.
 wrong_answers:
-  - Izgubiš 100% svoje kupovne moći.
-  - Izgubiš 60% svoje kupovne moći.
-  - Gubite 30% svoje kupovne moći.
+  - To je trenutno prenosivo.
+  - Ima zanemarljive troškove verifikacije.
+  - Ima fiksnu monetarnu politiku.
 explanation: |
-  Sa inflacijom od 20%, izgubite skoro polovinu svoje kupovne moći za 3 godine.
+  Bitkoin ima sve neophodne karakteristike da bude efikasna i zdrava valuta: deljiva, trenutno prenosiva, necenzurisana, sa zanemarljivim troškovima verifikacije, i sa monetarnom politikom koja je već postavljena za vekove unapred sa 21 milion jedinica.
 reviewed: true

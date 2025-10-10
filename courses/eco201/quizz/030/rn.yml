@@ -1,0 +1,18 @@
+question: Ni igiki gifise insiguro y’urutonde rw’ibikorwa vy’umuntu ku bikorwa vy’uguhingura?
+answer: Ugukevya kwose kw’ibikorwa, ni ukuvuga, ugukura kwose kw’imiterere y’ibikorwa, bisaba kuzigama imbere y’igihe.
+wrong_answers:
+  - Uko ibikorwa vy’umuntu bikurikirana ntaco bihindura ku bikorwa vy’uguhingura.
+  - Uko ibikorwa vy’umuntu bikurikirana bisobanura ko ibikorwa vy’uguhingura bitegerezwa gukorwa mu buryo bumwe.
+  - Uko ibikorwa vy’umuntu bikurikirana bisobanura ko ibikorwa vy’uguhingura bitegerezwa gukorwa icarimwe.
+explanation: |
+  Kubera urutonde rw’ibikorwa vy’umuntu, abantu ku giti cabo
+  ategerezwa guhitamwo ibintu bihuye n’igihe—ingingo zijanye n’uburimbane .
+  ivya nkenerwa vyihuse bifise intumbero zo muri kazoza. Aya mahitamwo aragira ico akoze
+  urutonde rw’ibikorwa umuntu ashobora gukora, nk’ivy’igihe gito
+  ingingo zifatwa zishingiye ku ntumbero z’igihe kirekire. Mu majambo
+  y’uguhingura, ivyo bisigura ko ugukevya kwose mu guhingura
+  inzira, ni ukuvuga kuramba kw'imiterere y'ibikorwa,
+  bisaba ko umuntu azigama imbere y’igihe. Ivy’ubutunzi bitegerezwa gushirwa ku ruhande ubu kugira ngo .
+  gufasha uwo muntu mu kiringo gikenewe kugira ngo .
+  inzira ndende kandi itanga inyungu nyinshi.
+reviewed: true

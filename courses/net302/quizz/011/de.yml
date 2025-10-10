@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund dafür, dass IPv5 nie auf breiter Front eingesetzt wurde?
+answer: Es blieb experimentell
+wrong_answers:
+  - Ihr Einsatz war zu kostspielig
+  - Es war nicht kompatibel mit IPv6
+  - Es hatte große Sicherheitslücken
+explanation: |
+  IPv5 wurde nur versuchsweise eingeführt. Es wurde nie standardisiert oder auf breiter Basis eingeführt und schließlich zugunsten von IPv6 aufgegeben.
+reviewed: false

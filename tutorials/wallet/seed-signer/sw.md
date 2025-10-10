@@ -1,7 +1,7 @@
 ---
-name: seed Signer
+name: SeedSigner
 
-description: Sanidi kiweka sahihi chako cha seed
+description: Sanidi seed Signer yako
 ---
 
 ![cover](assets/cover.webp)
@@ -101,7 +101,7 @@ Katika video hii ninakuonyesha jinsi ya kupakua na kuthibitisha programu ya Seed
 ### Sehemu ya 2: Kujaribu SeedSigner yako
 
 
-Kabla ya kutumia SeedSigner yangu, nilifanya majaribio machache ili kuhakikisha kuwa haikuwa ikifanya chochote kibaya. Nilidhani ningeshiriki hatua hii pia. Hivi ndivyo jinsi ya kuthibitisha kwamba SeedSigner yako inasafirisha Wallet (xpub) sahihi, jinsi ya kuthibitisha hesabu ya kete za SeedSigners, na jinsi ya kuthibitisha mbegu za watoto za SeedSigners bip-85.
+Kabla ya kutumia SeedSigner yangu, nilifanya majaribio machache ili kuhakikisha kuwa haikuwa ikifanya chochote kibaya. Nilidhani ningeshiriki hatua hii pia. Hivi ndivyo jinsi ya kuthibitisha kwamba SeedSigner yako inasafirisha wallet (xpub) sahihi, jinsi ya kuthibitisha hesabu ya kete za SeedSigner, na jinsi ya kuthibitisha mbegu za watoto za SeedSigner BIP-85.
 
 
 ![video](https://youtu.be/34W1IyTyXZE)
@@ -110,7 +110,7 @@ Kabla ya kutumia SeedSigner yangu, nilifanya majaribio machache ili kuhakikisha 
 ### Sehemu ya 3: Jinsi ya kutumia SeedSigner na Sparrow Wallet (desktop)
 
 
-SeedSigner ina uwezo wa kuzalisha mbegu na kujisajili kwenye miamala ya Bitcoin. Lakini yenyewe, haina uwezo wa kujenga shughuli. Unahitaji kutumia "mratibu" wa Wallet na SeedSigner yako. Hivi ndivyo jinsi ya kutumia Sparrow Wallet na SeedSigner yako:
+SeedSigner ina uwezo wa kuzalisha seed na kujisajili kwenye miamala ya Bitcoin. Lakini yenyewe, haina uwezo wa kujenga muamala. Unahitaji kutumia "mratibu" wa Wallet na SeedSigner yako. Hivi ndivyo jinsi ya kutumia Sparrow Wallet na SeedSigner yako:
 
 
 ![video](https://youtu.be/IQb8dh-VTOg)
@@ -119,7 +119,7 @@ SeedSigner ina uwezo wa kuzalisha mbegu na kujisajili kwenye miamala ya Bitcoin.
 Sehemu ya 4: Jinsi ya kutumia SeedSigner na Blue Wallet (simu ya rununu)
 
 
-SeedSigner ina uwezo wa kuzalisha mbegu na kujisajili kwenye miamala ya Bitcoin. Lakini yenyewe, haina uwezo wa kuunda shughuli. Unahitaji kutumia "mratibu" wa Wallet na SeedSigner yako. Hivi ndivyo jinsi ya kutumia Blue Wallet na SeedSigner yako:
+SeedSigner ina uwezo wa kuzalisha seed na kujisajili kwenye miamala ya Bitcoin. Lakini yenyewe, haina uwezo wa kuunda shughuli. Unahitaji kutumia "mratibu" wa Wallet na SeedSigner yako. Hivi ndivyo jinsi ya kutumia Blue Wallet na SeedSigner yako:
 
 
 ![video](https://youtu.be/x0Ee35Ct0r4)

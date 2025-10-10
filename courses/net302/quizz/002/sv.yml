@@ -1,0 +1,9 @@
+question: Vilken är den största svagheten med ett ringnätverk?
+answer: Om en enda enhet går sönder kan hela nätverket slås ut
+wrong_answers:
+  - Det krävs många kablar för att ansluta varje del av utrustningen
+  - Det är svårt att förlänga
+  - Hanteringen är komplex
+explanation: |
+  I en ringtopologi bryter fel på en enhet slingan och förhindrar att data cirkulerar.
+reviewed: false

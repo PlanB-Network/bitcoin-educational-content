@@ -1,0 +1,9 @@
+question: 应用 Layer (TCP/IP) 交换的数据单元名称是什么？
+answer: 留言
+wrong_answers:
+  - 框架
+  - 分段
+  - 数据报
+explanation: |
+  在 TCP/IP 模型中，在应用程序 Layer 上交换的数据被称为消息（或数据流，具体取决于上下文）。
+reviewed: false

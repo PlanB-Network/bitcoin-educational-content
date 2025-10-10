@@ -1,0 +1,9 @@
+question: Ni igice ikihe c’ibidukikije vyo ku biro gikoreshwa mu kugendera mu madosiye n’amadosiye?
+answer: Umuyobozi wa dosiye
+wrong_answers:
+  - Umuyobozi w'ikiganiro
+  - Umucuraranzi X11
+  - Umucungerezi w'amapaki
+explanation: |
+  Umucungerezi wa dosiye (nka Nautilus, Dolphin, Thunar) areka umukoresha acungera dosiye n'amadosiye biciye ku gishushanyo Interface.
+reviewed: false

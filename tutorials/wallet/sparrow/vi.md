@@ -1,5 +1,5 @@
 ---
-name: Chim sẻ Wallet
+name: Sparrow Wallet
 description: Cài đặt, cấu hình và sử dụng Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

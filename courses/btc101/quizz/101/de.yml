@@ -1,12 +1,11 @@
-question: Was ist eine Standardmethode, um Ihr Wallet wiederherzustellen?
-answer: Eingabe Ihrer mnemonischen Phrase in eine beliebige Wallet-Software.
+question: Was ist der Zweck eines Bitcoin-Wallets?
+answer: Um private Schlüssel zu speichern, um Bitcoins zu transferieren.
 wrong_answers:
-  - Speichern Ihrer mnemonischen Phrase in einer digitalen Datei.
-  - Schreiben Ihrer mnemonischen Phrase auf ein Whiteboard.
-  - Teilen Ihrer mnemonischen Phrase mit einem vertrauenswürdigen Freund.
+  - Um Geräteressourcen zum Minen von Bitcoins zu nutzen.
+  - Um Bitcoins über den öffentlichen Schlüssel zu kaufen.
+  - Um Bitcoins auf einem Gerät zu speichern.
 explanation: |
-  Die Standardmethode zum Sichern des privaten Schlüssels in einem
-  Bitcoin-Wallet besteht darin, Ihre mnemonische Phrase in eine
-  beliebige Wallet-Software einzugeben. Dies ermöglicht es Ihnen,
-  Ihr Wallet wiederherzustellen.
-reviewed: false
+  Bitcoin-Wallets sind eine Art von Software, die dazu verwendet wird,
+  die privaten Schlüssel zu speichern, die es Ihnen ermöglichen, Ihre
+  Bitcoins zu transferieren.
+reviewed: true

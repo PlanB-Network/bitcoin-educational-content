@@ -1,0 +1,12 @@
+question: Ni igiki umuntu akwiye gukora igihe winjiza urufunguzo rwa USB muri mudasobwa yawe?
+answer: Ntushiremwo imfunguruzo za USB zitazwi canke zikekwa.
+wrong_answers:
+  - Injira urufunguzo rwa USB urwo ari rwo rwose utasuzumye.
+  - Igihe cose ushire format y’urufunguzo rwa USB imbere yo kwinjiza.
+  - Injira urufunguzo rwa USB hanyuma usuzume ko ata virusi ziriho.
+explanation: |
+  Kwinjiza imfunguruzo za USB zitazwi canke zikekwa birashobora gutuma
+  sisitemu kuri porogaramu mbi zishobora gutangura ubwazo
+  iyo yinjijwe. Gusuzuma urufunguzo rwa USB bizoba ata co bimaze rimwe .
+  ryarashizwemwo.
+reviewed: true

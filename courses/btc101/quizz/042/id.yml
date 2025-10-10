@@ -1,10 +1,9 @@
-question: Apa potensi kerugian dari mata uang digital bank sentral (CBDCs)?
-answer: Mereka dapat menghambat kebebasan finansial individu dan memfasilitasi penyalahgunaan otoriter.
+question: Apa fase pertama dari hiperinflasi?
+answer: Kehilangan Kepercayaan
 wrong_answers:
-  - Mereka dapat menyebabkan penurunan dalam pasokan uang.
-  - Mereka dapat menyebabkan penurunan dalam nilai Bitcoin.
-  - Mereka dapat menyebabkan penurunan dalam nilai emas.
+  - Runtuhnya mata uang & kenaikan harga
+  - Lingkaran setan pencetakan uang
+  - Munculnya mata uang baru
 explanation: |
-  Mata uang digital bank sentral (CBDCs) berpotensi menghambat kebebasan finansial individu dan memfasilitasi penyalahgunaan otoriter. Hal ini karena mereka akan menawarkan ekonomi yang lebih terpusat, dengan bank sentral memiliki lebih banyak kontrol
-  atas pasokan uang.
+  Fase pertama dari hiperinflasi adalah kehilangan kepercayaan terhadap sebuah mata uang.
 reviewed: true

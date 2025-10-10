@@ -276,7 +276,7 @@ Aqui encontra duas opções para fazer cópias de segurança dos seus dados:
 
 
 
-"O Threema Safe* guarda todas as informações da sua conta, exceto as suas conversas, nos servidores do Threema. Estes dados são encriptados com a palavra-passe que escolheu quando criou a sua conta, garantindo que o Threema não tem acesso a eles. Os backups são feitos automaticamente e regularmente.
+"O **Threema Safe** guarda todas as informações da sua conta, exceto as suas conversas, nos servidores do Threema. Estes dados são encriptados com a palavra-passe que escolheu quando criou a sua conta, garantindo que o Threema não tem acesso a eles. Os backups são feitos automaticamente e regularmente.
 
 
 
@@ -436,7 +436,7 @@ Parabéns, agora você está pronto para usar o serviço de mensagens Threema, u
 
 
 
-Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail :
+Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail:
 
 
 

@@ -1,0 +1,9 @@
+question: 在以太网网络中，哪种协议用于将 IP Address 与 MAC Address 关联？
+answer: 地址解析协议
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address 解析协议 (ARP) 将 IP 地址映射到本地网络的 MAC 地址。
+reviewed: false

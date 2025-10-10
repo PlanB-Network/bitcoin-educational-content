@@ -1,0 +1,9 @@
+question: Ni gute ubuhinga bw’Ishirahamwe buhindura ububiko bw’ibintu ubwabwo?
+answer: Biciye mu nzira y'akazi
+wrong_answers:
+  - Ivugurura ry'amaboko
+  - Ivyo gushiramwo ku mpera y'umusi
+  - Raporo zategekanijwe
+explanation: |
+  Urugendo rw'akazi rutera guhindura sisitemu mu gihe nyaco.
+reviewed: false

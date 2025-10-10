@@ -1,0 +1,152 @@
+id: 83dceab4-6615-4b09-b284-05f413fad1ab
+
+# Project
+# Write the project name
+# project_id: uuid_of_the_project_author_of_tutorial
+
+level: intermediate
+
+category: on-chain
+
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
+tags:
+  - cypherpunk
+  - personal-security
+  - onchain
+
+credit_link: https://officinebitcoin.it/lezioni/coinco/
+
+original_language: en
+proofreading:
+  - language: it
+    last_contribution_date: 2025-07-21
+    urgency: 1
+    contributor_names:
+      - f205sats
+    reward: 2.56
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.81
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.47
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.14
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.14
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.47
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.47
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.47
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.14

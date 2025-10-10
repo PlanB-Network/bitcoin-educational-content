@@ -1,0 +1,9 @@
+question: A cosa servono le porte riservate nel modello TCP/IP?
+answer: Per ascoltare le richieste su servizi specifici
+wrong_answers:
+  - Per generate incapsulamento automatico dei datagrammi
+  - Per instradare fisicamente i frame di rete
+  - Per controllare la frammentazione dei pacchetti UDP
+explanation: |
+  Le porte sono punti di ascolto logici che consentono alle applicazioni di rete di distinguere tra i vari servizi in esecuzione sullo stesso host.
+reviewed: false

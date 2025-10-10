@@ -55,7 +55,7 @@ Inflasjon er et konsept som ofte misforstås på grunn av de mange definisjonene
 
 - Definisjon fra Larousse: Inflasjon er et fenomen kjennetegnet ved en generalisert og kontinuerlig prisstigning. Her er ordet "generalisert" avgjørende.
 
-![bilde](assets/chapitre-2.1/4.webp)
+![bilde](assets/fr/001.webp)
 
 I lys av disse definisjonene er det vesentlig å forstå at for Robert handler inflasjon hovedsakelig om økningen i pengemengden. På den andre siden fokuserer Larousse på konsekvensene av denne ekspansjonen, nemlig den generaliserte prisstigningen.
 
@@ -76,7 +76,7 @@ Når vi refererer til det monetære fenomenet, snakker vi om hvordan pengemengde
 2. Reduksjon av metallinnhold:
    En annen metode var å redusere mengden av edelt metall i valutaer basert på metaller som sølv eller gull. Et slående eksempel finnes i Romerriket, hvor denarius, opprinnelig sammensatt nesten helt av sølv, så sitt sølvinnhold drastisk redusert over tid. Dette utgjorde en form for inflasjon, men ikke nødvendigvis hyperinflasjon.
 
-![bilde](assets/chapitre-2.1/1.webp)
+![bilde](assets/fr/002.webp)
 
 Det er avgjørende å understreke at hyperinflasjon hovedsakelig observeres med fiat-valutaer frakoblet fra deres underliggende eiendeler, som edle metaller. Historisk sett, når en valuta var basert på slike eiendeler, var det episoder med inflasjon (f.eks. gjennom devaluering av metallinnholdet), men disse episodene nådde aldri de ekstreme nivåene av hyperinflasjon. I de følgende avsnittene vil vi studere i detalj periodene med monetær devaluering og implikasjonene av disse forskjellige monetære systemene på inflasjon.
 
@@ -87,7 +87,7 @@ Gjennom historien har ulike sivilisasjoner opplevd perioder med monetær devalue
 #### 1. Peloponneserkrigen og den andre punerkrigen:
 
 Peloponneserkrigen, en konflikt mellom Athen og Sparta, og den andre punerkrigen, mellom den romerske republikken og Karthago, er de tidligste eksemplene på valutadevaluering funnet i arkivene. For å finansiere disse krigene, devaluerte disse sivilisasjonene sine valutaer ved å redusere sølvinnholdet og inkorporere andre metaller, samtidig som de økte antallet mynter produsert.
-![bilde](assets/chapitre-2.1/8.webp)
+![bilde](assets/fr/003.webp)
 Gravering som viser massakren av athenerne ved bredden av Assinaros.
 
 #### 2. Det gamle Roma under imperiet:
@@ -96,7 +96,7 @@ Etter perioden med den romerske republikken, under imperiet, opplevde det 3. og 
 
 Selv om disse periodene opplevde betydelig inflasjon, nådde de ikke nivåene av hyperinflasjon som vi kan observere i noen moderne situasjoner. Grunnen til dette er at, selv om valutaen ble devaluert, var den fortsatt basert på edle metaller. Dette solide grunnlaget ga en viss beskyttelse mot ekstreme inflasjonsnivåer. I de følgende avsnittene vil vi utforske mer detaljert naturen og konsekvensene av hyperinflasjon.
 
-![bilde](assets/chapitre-2.1/2.webp)
+![bilde](assets/fr/004.webp)
 
 - Denariusen til Marcus Aurelius (160 e.Kr.):
   En av de mest ikoniske myntene fra det gamle Roma er denarius, en sølvvaluta. Jeg eier en spesifikk mynt fra Marcus Aurelius som dateres tilbake til 160 e.Kr., før den store devalueringen. Selv om kameraet kan slite med å fange de fine detaljene, kan det med det blotte øye ses at det er en vakker sølvmynt, som reflekterer et relativt høyt sølvinnhold.
@@ -105,13 +105,13 @@ Selv om disse periodene opplevde betydelig inflasjon, nådde de ikke nivåene av
   Med monetær devaluering dukket en ny valuta opp, Antoninianus. Denne valutaen skulle være verdt to denarier, men inneholdt mye mindre sølv. Min Antoninianus-mynt viser tydelig at sølvinnholdet har blitt betydelig redusert. Den er prydet med en krone, typisk for romerske mynter fra denne perioden, kalt "radiater". Ved å sammenligne fargen og kvaliteten, kan det ses at Antoninianus er langt fra å være en ren sølvmynt.
   Når man sammenligner de to myntene side ved side, er forskjellen slående. Denariusen fra 160 e.Kr. har et distinkt sølvutseende, mens Antoninianus fra det sene 3. århundre e.Kr. er mye kjedeligere, noe som indikerer en betydelig nedgang i sølvinnhold. Denne visuelle sammenligningen gir en klar illustrasjon av den monetære devalueringen som det gamle Roma gjennomgikk over noen få århundrer.
 
-![bilde](assets/chapitre-2.1/3.webp)
+![bilde](assets/fr/005.webp)
 
 For å fullføre denne demonstrasjonen, ville et diagram som illustrerer devalueringen av disse myntene over tid være ideelt. Selv om det er vanskelig å visualisere gjennom denne plattformen, forestill deg et diagram som viser verdien av denarius, deretter dens nedgang mot slutten av det 2. århundret, erstattet av Antoninianus som skulle være verdt to denarier, men med mye lavere sølvinnhold. Disse artefaktene er stumme vitner til de økonomiske svingningene til tidligere sivilisasjoner.
 
 #### 3. Den spanske Maravedi: Vitne om målrettet devaluering
 
-![bilde](assets/chapitre-2.1/5.webp)
+![bilde](assets/fr/006.webp)
 Maravedien, som en kobbermynt, har en spesiell plass i historien til spansk valuta. Som nevnt tidligere, var den spanske dollaren opprinnelig den internasjonale standarden, en essensiell reservevaluta for Spania. Imidlertid, stilt overfor visse økonomiske utfordringer, måtte Spania ty til smarte pengepolitiske strategier.
 Valutadevaluering er et verktøy ofte brukt av stater for å finansiere sine utgifter eller stimulere økonomien. Men Spania befant seg i en delikat situasjon. Å vanne ut den spanske dollaren ville ha kompromittert dens posisjon i internasjonal handel. For å overkomme dette dilemmaet, vendte Spania seg til Maravedien.
 
@@ -122,7 +122,7 @@ Denne strategien tillot staten å effektivt devaluere en valuta, skape inflasjon
 
 Tilfellet med Maravedien illustrerer hvordan en stat selektivt kan devaluere en lokal valuta for å møte sine interne økonomiske behov, samtidig som den bevarer verdien av en reservevaluta på den globale scenen. Det er et slående eksempel på kompleksiteten og finessen i pengepolitikk i historien.
 
-![bilde](assets/chapitre-2.1/7.webp)
+![bilde](assets/fr/007.webp)
 
 Mer om hva? -> [Lenke](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
@@ -134,7 +134,7 @@ Mellom det 15. og 17. århundre vitnet Europa en bemerkelsesverdig økonomisk fe
 
 I det 18. århundre var fransk økonomisk historie preget av to betydelige hendelser relatert til valuta. Først overbeviste John Law, en skotsk økonom og finansmann, den franske regjeringen om å adoptere et pengevesen basert på papirpenger. Selv om dette opprinnelig ble ansett som en innovativ løsning på landets finansielle problemer, førte dette initiativet raskt til galopperende inflasjon. Deretter, kort tid etter, under uroen av den franske revolusjonen, introduserte regjeringen "assignatene".
 
-![bilde](assets/chapitre-2.1/9.webp)
+![bilde](assets/fr/008.webp)
 
 Assignater fra 1793
 Disse sedlene er et levende vitnesbyrd om den første store perioden med hyperinflasjon i historien. Opprinnelig designet som et svar på påfølgende finanskriser, ble assignater raskt et symbol på monetær ustabilitet. Regjeringen, som stolte for mye på denne papirvalutaen for å finansiere sine utgifter, forårsaket en enestående økonomisk krise og skapte en stor periode med hyperinflasjon i Frankrike etter revolusjonen.
@@ -147,7 +147,7 @@ I USA vitnet tidlig på 1930-tallet en stor endring i pengepolitikken. Her er en
 
 - 1928 $20 seddelen
 
-![bilde](assets/chapitre-2.1/11.webp)
+![bilde](assets/fr/009.webp)
 
 I 1928 uttalte en $20 seddel i USA: "innløselig i gull på forespørsel." Dette betyr at hver seddel bokstavelig talt kunne konverteres til gull. Spesifikt var en $20.67 seddel ekvivalent med en unse gull.
 
@@ -155,17 +155,17 @@ I 1928 uttalte en $20 seddel i USA: "innløselig i gull på forespørsel." Dette
 
 I 1933 skjedde en stor omveltning med utstedelsen av Executive Order 6102. Dette dekretet gjorde det ulovlig for borgere å besitte gull, enten i form av barer, mynter eller sertifikater.
 
-![bilde](assets/chapitre-2.1/14.webp)
+![bilde](assets/fr/010.webp)
 
 Gullsertifikatet er et godt eksempel. Det var merket: "I gullmynt betalbar til innehaveren på forespørsel." Å eie et slikt sertifikat ble ulovlig og forble det til 1964.
 
-![bilde](assets/chapitre-2.1/12.webp)
+![bilde](assets/fr/011.webp)
 
 - Introduksjon av nye sedler
 
 Etter beslagleggelsen av gull i 1934, ble en ny serie sedler satt i omløp.
 
-![bilde](assets/chapitre-2.1/13.webp)
+![bilde](assets/fr/012.webp)
 Merknaden som indikerte deres konverterbarhet til gull har blitt fjernet og erstattet med "Denne seddelen er lovlig betalingsmiddel for all gjeld" (Ce billet est une monnaie légale pour toutes dettes).
 
 - Gullrevaluering
@@ -182,17 +182,17 @@ Tidligere, under renessansen, var den italienske florinen utstedt av Firenze på
 
 I samme ånd opprettholdt Spania og Nederland, som innehavere av verdens reservevaluta på grunn av deres blomstrende internasjonale handel, integriteten til deres valuta for å bevare tilliten og status quo i internasjonale utvekslinger. Nederland var vitne til opprettelsen av den første sentralbanken, en avgjørende milepæl i den globale monetære evolusjonen.
 
-![bilde](assets/chapitre-2.1/15.webp)
+![bilde](assets/fr/013.webp)
 Situasjonen endret seg imidlertid med fremveksten av USA som den dominerende økonomiske makten. De valgte å devaluere sin reservevaluta, og utnyttet dermed inflasjon til sin fordel. Denne beslutningen tilskrives ofte de endrede dynamikkene, der valget av reservevaluta ikke lenger var like fritt som før. Amerikansk hegemoni etablerte dollaren som verdens reservevaluta, noe som tillot manipulasjon av dens verdi. Dette skiftet avslører det potensielle innvirkningen av pengepolitikk på internasjonal handel i en globalisert økonomi, og markerer en betydelig overgang i forvaltningen av globale reservevalutaer.
 
 ### Siste eksempel for veien: den sveitsiske dinaren
 
 Den sveitsiske dinaren illustrerer et annet fascinerende aspekt ved valutadevaluering, denne gangen forankret i den før-Gulfkrigens irakiske kontekst. Navngitt etter den bemerkelsesverdige kvaliteten på sine sedler, ble denne valutaen utstedt av Iraks sentralbank og nøt et rykte for stabilitet i Midtøsten-regionen. Denne tilliten skyldtes hovedsakelig kvaliteten på seddeltrykkingen, som ble gjort i England, noe som antydet en viss robusthet mot devaluering.
-![bilde](assets/chapitre-2.1/16.webp)
+![bilde](assets/fr/014.webp)
 
 Gulfkrigene markerte imidlertid et vendepunkt i historien om den sveitsiske dinaren. Irak, som ikke lenger kunne stole på sin engelske leverandør for seddeltrykking, vendte seg til Kina. Denne overgangen resulterte i en klar forskjell i kvaliteten på sedlene, med den kinesiske versjonen som ble oppfattet som underlegen. Denne oppfatningen var ikke ubegrunnet; de kinesiske sedlene var lettere å forfalske og mer utsatt for overtrykking av regjeringen, noe som truet deres verdi.
 
-![bilde](assets/chapitre-2.1/17.webp)
+![bilde](assets/fr/015.webp)
 
 Et særegent fenomen dukket opp i den post-Gulfkrigs irakiske økonomien: det doble prissystemet. Handelsmenn tilbød forskjellige priser avhengig av hvilken type seddel som ble brukt til betaling, og foretrakk den opprinnelige sveitsiske dinaren over den kinesiske seddelen. Dette systemet reflekterte den opprettholdte tilliten til sedler av høyere kvalitet, som var mindre utsatt for devaluering, selv i en kontekst der verdi primært ble pålagt av staten. Denne episoden demonstrerer viktigheten av valutaens iboende egenskaper og hvordan, selv i et fiat-valutaregime, den oppfattede kvaliteten på en valuta kan påvirke dens relative verdi og, ved forlengelse, økonomiske aktørers tillit.
 
@@ -200,7 +200,7 @@ Et særegent fenomen dukket opp i den post-Gulfkrigs irakiske økonomien: det do
 
 Den vanlige oppfatningen assosierer ofte valuta med statskaping, der utstedelsen og verdien reguleres av staten. Dette konseptet har sine røtter i gamle sivilisasjoner som Roma, der mynter ble standardisert og stemplet av imperiet, og dermed tildelte offisiell verdi til valutaene. Imidlertid avslører en dypere utforskning at valutaens iboende verdi hovedsakelig ble avledet fra innholdet av edelt metall.
 
-![bilde](assets/chapitre-2.1/18.webp)
+![bilde](assets/fr/016.webp)
 Et eksempel illustreres gjennom undersøkelsen av en monetær vekt tilsvarende åtte spanske reales, eller en spansk dollar. Denne vekten, merket med et romertall som indikerer dens verdi, ble brukt av valutavekslere for å evaluere verdien av mynter basert på deres vekt, snarere enn bare deres stempling. Ved å veie myntene kunne vekslerne bestemme om de hadde blitt endret eller skadet, noe som kunne ha redusert deres verdi. Denne praksisen understreker at, selv om den standardiserte stemplingen av staten tildelte en viss nominell verdi til valutaen, lå den sanne verdien i vekten av det edle metallet den inneholdt.
 Denne analysen demonstrerer at tilliten til valuta, og dermed dens verdi, var forankret i dens håndgripelige substans heller enn den rene påstanden fra staten. Den understreker dualiteten mellom den nominelle verdien pålagt av staten og den iboende verdien diktert av innholdet av edelt metall. Således går valutaen utover å være et rent statlig instrument, med sin grunnleggende verdi intrinsisk knyttet til håndgripelige og målbare elementer.
 
@@ -216,7 +216,7 @@ I konklusjonen åpner denne studien om pengeverdidevaluering døren til en dyp f
 
 I denne seksjonen vil vi utforske de forskjellige dimensjonene av inflasjon, et fenomen som ofte er misforstått. Selv om inflasjon ofte oppfattes som et multifaktorielt fenomen i media og daglige diskusjoner, er det viktig å huske på at det grunnleggende er et pengefenomen.
 
-![bilde](assets/chapitre-2.2/0.webp)
+![bilde](assets/fr/017.webp)
 
 Her er en oppdeling av emnet i flere nøkkelpunkter:
 
@@ -268,7 +268,7 @@ Analysen av Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) fremhever og
 
 Et tredje eksempel på hvorfor pengetrykking ikke ville forårsake inflasjon er at forholdet mellom pengetrykking og inflasjon er modulert av hvordan nyopprettede penger blir introdusert i økonomien. Hvis disse pengene forblir på balansene til private banker uten å bli lånt ut til økonomiske aktører, vil det ikke direkte påvirke den reelle økonomien og derfor ikke resultere i inflasjon.
 
-![bilde](assets/chapitre-2.2/5.webp)
+![bilde](assets/fr/021.webp)
 
 Pengetrykking kan sees som et Damoklessverd hengende over økonomien. De skapte pengene kan forbli latente i en viss periode, uten noen synlig inflatorisk effekt, så lenge de ikke blir injisert i økonomien gjennom banklån eller andre mekanismer. Imidlertid, når disse latente pengene endelig settes i omløp, kan inflatoriske effekter da manifestere seg. Dette er hva som har blitt observert på 2020-tallet, hvor tidligere skapte penger har funnet veien inn i økonomien, noe som fører til inflasjon.
 Dette scenariet fremhever viktigheten av pengeoverføringsmekanismer i å bestemme den inflatoriske effekten av pengetrykking. Sentralbankens pengekreasjon er bare ett stykke av puslespillet. Oppførselen til private banker, som bestemmer volumet av lån som skal gis, og oppførselen til låntakere, som bestemmer hvordan de vil bruke de lånte pengene, er også avgjørende elementer i denne dynamikken.
@@ -277,7 +277,7 @@ Dette scenariet fremhever viktigheten av pengeoverføringsmekanismer i å bestem
 
 Eksemplet med Weimarrepublikken illustrerer et annet avgjørende aspekt ved forholdet mellom pengetrykking og inflasjon: rollen til forventninger og oppførselen til økonomiske aktører. Når Sentralbanken i Weimarrepublikken begynte å trykke en stor mengde penger, førte økonomisk usikkerhet til at individer hamstret, dvs. lagret penger i stedet for å bruke dem. Denne reaksjonen forsinket midlertidig de inflatoriske effektene av pengetrykking.
 
-![bilde](assets/chapitre-2.2/6.webp)
+![bilde](assets/fr/022.webp)
 
 Imidlertid, når den økonomiske situasjonen begynte å forbedre seg litt, ble tilliten gradvis gjenopprettet. Individene tok da ut sparepengene sine fra gjemmestedene og begynte å bruke dem massivt i økonomien. Denne plutselige endringen i oppførsel, kombinert med et allerede høyt pengetilbud, førte til en eksplosjon i etterspørselen. Med mer penger i omløp og økt etterspørsel, begynte prisene å stige raskt, noe som førte til merkbar inflasjon.
 
@@ -297,37 +297,37 @@ Dette eksemplet fremhever viktigheten av timing og agentoppførsel i manifestasj
 
 Disse eksemplene kan brukes i diskusjoner for å forklare hvorfor inflasjon ikke alltid er en umiddelbar konsekvens av pengetrykking, og hvordan økonomiske kontekster og agenters oppførsel påvirker inflasjon.
 
-![bilde](assets/chapitre-2.2/0.5.webp)
+![bilde](assets/fr/023.webp)
 
 Fordi, som denne [tråden](https://twitter.com/saifedean/status/1673639779433590786) viser: Inflasjon er alt annet enn sentralbankenes feil.
 
 - Økonomer som skylder på klimaendringer for inflasjon
 
-![bilde](assets/chapitre-2.2/8.webp)
+![bilde](assets/fr/024.webp)
 
 - Eksempel på Sverige som skylder på Beyoncé for inflasjon i en spesifikk måned.
 
-![bilde](assets/chapitre-2.2/0.webp)
+![bilde](assets/fr/017.webp)
 
 - Sentralbanken i Polen som tilskriver inflasjon til russisk aggresjon i Ukraina og pandemien
 
-![bilde](assets/chapitre-2.2/7.webp)
+![bilde](assets/fr/025.webp)
 
 - Brexit skyldes inflasjon i Storbritannia.
 
-![bilde](assets/chapitre-2.2/9.webp)
+![bilde](assets/fr/026.webp)
 
 - Lanseringen av Zelda-spillet assosiert med en inflasjonssjokk.
 
-![bilde](assets/chapitre-2.2/12.webp)
+![bilde](assets/fr/027.webp)
 
 - Taylor Swift angivelig forårsaker inflasjon.
 
-![bilde](assets/chapitre-2.2/15.webp)
+![bilde](assets/fr/028.webp)
 
 Hvordan kunne Beyoncé eller Taylor Swift, fortell meg, forklare en utbredt prisstigning? Du ser, det gir ingen mening. Kort sagt:
 
-![bilde](assets/chapitre-2.2/14.webp)
+![bilde](assets/fr/029.webp)
 
 ### Utforskning av typer inflasjon
 
@@ -339,7 +339,7 @@ Det er avgjørende å forstå forskjellen mellom ulike typer inflasjon, en forst
 
 - Hyperinflasjon: Hyperinflasjon er et ekstremt fenomen der inflasjonsraten overstiger 50% per måned, noe som, på grunn av inflasjonens eksponentielle natur, tilsvarer en årlig inflasjonsrate på over 13 000%. Dette nivået av inflasjon destabiliserer alvorlig økonomien, gjør valutaen nesten verdiløs og forårsaker et tap av tillit til det monetære systemet.
 
-![bilde](assets/chapitre-2.2/17.webp)
+![bilde](assets/fr/030.webp)
 Når man utforsker typer inflasjon, er det vanlig å komme over begreper som "Demand Pull" og "Cost Push" i utdanningsressurser. Disse konseptene, selv om de er gyldige, har en tendens til å forklare prisøkninger snarere enn inflasjon som et monetært fenomen. Her er en mer dyptgående analyse:
 
 - Demand Pull:
@@ -353,7 +353,7 @@ Når man utforsker typer inflasjon, er det vanlig å komme over begreper som "De
 
 Bernholz foreslår en forenklet, men presis klassifisering av inflasjon i tre kategorier, som tillater en bedre forståelse av dette komplekse monetære fenomenet:
 
-![bilde](assets/chapitre-2.2/16.webp)
+![bilde](assets/fr/031.webp)
 
 - Moderat Inflasjon:
   Moderat inflasjon oppstår når nivået av pengemengden er høyere enn normalt, men uten at staten tyer til store underskudd finansiert av pengetrykking. Selv om begrepet "moderat" kan virke ubetydelig, kan denne formen for inflasjon forårsake betydelige problemer, selv om den ikke er klassifisert som høy inflasjon.
@@ -403,7 +403,7 @@ For å illustrere, hvis inflasjonen faller til 40% i juli og ikke stiger over 50
 
 Denne definisjonen har blitt adoptert i Hanke-Krus-tabellen, som dokumenterer 56 episoder med hyperinflasjon. Imidlertid dekker ikke tabellen alle episoder, som den i Venezuela i 2016, noe som bringer totalen til 57.
 
-![bilde](assets/chapitre-3.1/1.webp)
+![bilde](assets/fr/032.webp)
 
 zoom
 Det bør bemerkes at denne definisjonen, selv om den er presis, muligens kan utelukke visse episoder av hyperinflasjon på grunn av strengheten til 50%-terskelen. Det er en mulighet for å utvide denne definisjonen for å inkludere andre episoder som, selv om de ikke strengt oppfyller Cagans kriterier, likevel representerer perioder med ekstremt høy inflasjon. Denne observasjonen åpner døren for en bredere utforskning av hyperinflasjonsfenomener, noe som tillater en mer nyansert forståelse av dens årsaker og effekter. I påfølgende diskusjoner vil vi vurdere å gjenbesøke denne definisjonen og undersøke episoder av hyperinflasjon som ikke er dekket av Cagans strenge kriterier.
@@ -427,13 +427,13 @@ Denne refleksjonen fører oss til å stille spørsmål ved rigiditeten til den t
 ### Definisjonen av Hyperinflasjon Ifølge International Accounting Standards Board (IASB)
 
 Så, hvor mange tilfeller av hyperinflasjon finnes det totalt?
-Vanlige definisjoner av hyperinflasjon, som den som er fremmet av Kagan som sier en månedlig inflasjonsrate på 50%, kan noen ganger være forvirrende eller forenklet. For eksempel kan to land som opplever henholdsvis årlige inflasjonsrater på 1 000% og 3 000%, oppfattes forskjellig avhengig av den månedlige fordelingen av denne inflasjonen. Hvis ingen måned overstiger terskelen på 50%, ifølge Kagans definisjon, ville disse landene ikke være i en tilstand av hyperinflasjon. Denne tilnærmingen kan derfor føre til anomalier i klassifiseringen av hyperinflasjon, spesielt når man sammenligner kumulativ inflasjon over året.
+Vanlige definisjoner av hyperinflasjon, som den som er fremmet av Cagan som sier en månedlig inflasjonsrate på 50%, kan noen ganger være forvirrende eller forenklet. For eksempel kan to land som opplever henholdsvis årlige inflasjonsrater på 1 000% og 3 000%, oppfattes forskjellig avhengig av den månedlige fordelingen av denne inflasjonen. Hvis ingen måned overstiger terskelen på 50%, ifølge Cagans definisjon, ville disse landene ikke være i en tilstand av hyperinflasjon. Denne tilnærmingen kan derfor føre til anomalier i klassifiseringen av hyperinflasjon, spesielt når man sammenligner kumulativ inflasjon over året.
 
-- Kagans arbeid, "Monetary Dynamics of Hyperinflation", som gir en grunnleggende analyse av hyperinflasjon.
-- Bernolds bok, som studerer 30 distinkte perioder med hyperinflasjon, og dermed utvider analyseomfanget.
+- Cagans arbeid, "Monetary Dynamics of Hyperinflation", som gir en grunnleggende analyse av hyperinflasjon.
+- Bernholzs bok, som studerer 30 distinkte perioder med hyperinflasjon, og dermed utvider analyseomfanget.
 - Davids personlige samling av sedler fra 36 perioder med hyperinflasjon, som tillater en håndgripelig og historisk forståelse.
-- Hanky Cross-tabellen (2012-versjonen, oppdatert i 2016 med Venezuela), som lister opp 57 perioder med hyperinflasjon basert på Kagans definisjon.
-  Det bør bemerkes at visse historiske perioder med høy inflasjon ikke er inkludert i de klassiske tabellene over hyperinflasjon, ofte på grunn av strenge klassifiseringskriterier. For eksempel, under den amerikanske uavhengighetskrigen i november 1779, og under den amerikanske borgerkrigen i mars 1864, var de månedlige inflasjonsratene henholdsvis 47,4 % og 40 %. Disse ratene, selv om de er høye, overskrider ikke 50 % terskelen som er fastsatt av Kagan, og dermed ekskluderes disse periodene fra å bli klassifisert som hyperinflasjonstilfeller. Denne utelatelsen illustrerer begrensningene ved stive definisjoner og understreker behovet for en mer nyansert tilnærming til å forstå hyperinflasjon i all sin kompleksitet.
+- Hanky Cross-tabellen (2012-versjonen, oppdatert i 2016 med Venezuela), som lister opp 57 perioder med hyperinflasjon basert på Cagans definisjon.
+  Det bør bemerkes at visse historiske perioder med høy inflasjon ikke er inkludert i de klassiske tabellene over hyperinflasjon, ofte på grunn av strenge klassifiseringskriterier. For eksempel, under den amerikanske uavhengighetskrigen i november 1779, og under den amerikanske borgerkrigen i mars 1864, var de månedlige inflasjonsratene henholdsvis 47,4 % og 40 %. Disse ratene, selv om de er høye, overskrider ikke 50 % terskelen som er fastsatt av Cagan, og dermed ekskluderes disse periodene fra å bli klassifisert som hyperinflasjonstilfeller. Denne utelatelsen illustrerer begrensningene ved stive definisjoner og understreker behovet for en mer nyansert tilnærming til å forstå hyperinflasjon i all sin kompleksitet.
 
 ## Weimar vs Zimbabwe likheter
 
@@ -445,11 +445,12 @@ I dette kapittelet vil vi utforske virkningene av hyperinflasjon, med fokus på 
 
 Flere bøker har vært spesielt informative:
 
-![bilde](assets/chapitre-3.2/0.webp)
+![bilde](assets/fr/039.webp)
 
 - "When Money Dies" av Adam Ferguson, sporer hyperinflasjonen etter første verdenskrig i Tyskland, samt i Østerrike og Ungarn.
 - To bøker om hyperinflasjon i Zimbabwe, "Zimbabwe Warm Heart Ugly Face" og "Hard Boiled Egg Index" av Jérôme Gardner og Kudzai Joseph Gou Min-Yu henholdsvis, tilbyr gripende vitnesbyrd fra en administrerende direktør i en klesbutikkjede og en landbruksbanker om deres opplevelser i løpet av denne tumultfulle perioden.
-  ![bilde](assets/chapitre-3.2/1.webp)
+
+![bilde](assets/fr/040.webp)
 
 Mens jeg konsoliderte notatene mine, la jeg merke til mange likheter mellom opplevelsene av hyperinflasjon i Zimbabwe og Weimarrepublikken, til tross for 90-års gapet mellom dem. Jeg identifiserte rundt 17 likheter, med 13 som illustrerer en slags progresjon mot den økonomiske katastrofen skildret i disse vitnesbyrdene. Disse fascinerende parallellene demonstrerer den gjentakende og ødeleggende naturen til hyperinflasjon gjennom tid og grenser. I dag vil vi undersøke disse likhetene og hvordan de skildrer en bekymringsfull bane under perioder med hyperinflasjon.
 
@@ -457,7 +458,7 @@ Mens jeg konsoliderte notatene mine, la jeg merke til mange likheter mellom oppl
 
 Spillet med 14 forskjeller!
 
-1. Valutamangel
+#### 1. Mangel på penger
 
 Når valutaen avskrives med svimlende fart, kan selv de mest ambisiøse forsøkene på å oversvømme markedet med nye sedler vise seg å være utilstrekkelige. Den ustanselige etterspørselen etter fysisk valuta kan langt overstige sentralbankenes kapasitet til å produsere sedler, og skape enestående likviditetskriser.
 
@@ -465,21 +466,21 @@ Når valutaen avskrives med svimlende fart, kan selv de mest ambisiøse forsøke
 
 > Zimbabwe: "Fra 2002 til januar 2009 var det flere kritiske likviditetsmangler. Det var rett og slett ikke nok sedler trykket eller i omløp for å holde tritt med den skyhøye inflasjonen."
 
-2. "Og det er gjødsel!"
+#### 2. "Og det er gjødsel!"
 
 Farten som valuta kan miste sin verdi i visse økonomiske situasjoner er forbløffende. Astronomiske mengder sedler kan bli utstedt på rekordtid, og øyeblikkelig forvandle en gang betydelige summer til noe så ubetydelig som gjødsel.
 Weimar: "Det nåværende totale utstedelsesbeløpet er på 63 000 milliarder. Om noen dager vil vi derfor kunne utstede to tredjedeler av den totale sirkulasjonen på én dag."
 Zimbabwe: "Den 17. september 2006 erklærte guvernøren i RBZ, Gideon Gono: '10 billioner er fortsatt der ute, og det har blitt til gjødsel.'"
 
-3. Sedler verdt mindre enn papiret de er trykket på
+#### 3. Sedlene er mindre verdt enn papiret de er trykt på
    I visse økonomiske situasjoner kan den iboende verdien av en seddel bli lavere enn verdien av papiret den er trykket på. Denne drastiske verdiforringelsen gjør sedler, som normalt er symboler på verdi og kjøpekraft, til rene verdiløse papirbiter.
    > Weimar: "Hele valører av mark-sedler var nesten verdiløse så snart de kom ut av trykkpressen."
 
 > Zimbabwe: "Sentralbanken sløste bort penger ved å trykke en seddel som ikke var verdt papiret den var trykket på. Med andre ord, dens verdi var lavere enn toalettpapir. Så absurd det enn høres ut, var det billigere å bruke ZWD 100 billioner-seddelen som toalettpapir enn å kjøpe faktisk toalettpapir."
 
-![bilde](assets/chapitre-3.2/PN3.webp)
+![image](assets/fr/041.webp)
 
-4. Pengeregning
+#### 4. Pengeopptelling
 
 Når valuta raskt mister sin verdi, kan selv de enkleste transaksjonene bli arbeidskrevende oppgaver. Å beregne prisen på en vare eller bare å telle sedlene som trengs for betaling kan ta flere minutter, noe som legger et ekstra lag av kompleksitet til daglige interaksjoner.
 
@@ -489,14 +490,18 @@ Når valuta raskt mister sin verdi, kan selv de enkleste transaksjonene bli arbe
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Teknikk for pengeregning fra Usbekistan
+Usbekisk teknikk for å telle penger
 
-5. Sjekkbetalinger
+#### 5. Betalinger med sjekk
 
 I forstyrrede økonomier kan tradisjonelle betalingsmetoder som sjekker raskt miste sin effektivitet. Banker, overveldet av den økende etterspørselen etter valuta på grunn av hyperinflasjon, kan rasjonere eller forsinke innløsningen av sjekker, noe som reduserer deres reelle verdi. Denne ustabiliteten fører ofte til en prioritering av betalingsmetoder, der priser kan variere avhengig av hvordan man velger å betale.
 
 > Weimar: "Prisøkninger intensiverte etterspørselen etter penger, både fra staten og andre arbeidsgivere. Private banker kunne ikke møte etterspørselen i det hele tatt og måtte rasjonere innløsningen av sjekker, så ubehandlede sjekker forble frosset mens deres kjøpekraft minket."
-> Zimbabwe: "Tidsverdien av penger har skapt tre priser for varer og tjenester; nemlig en kontantpris, en realtids bruttooppgjørspris, og en sjekkpris. Til slutt aksepterte ingen sjekker, som tok fem dager å innløse." 6. "Brenner-entreprenørene"
+> Zimbabwe: “Tidverdien av penger skapte tre priser for varer og tjenester; nemlig en kontantpris, en pris ved sanntids bruttooppgjør, og en sjekkpris. Til slutt aksepterte ingen sjekker, som tok fem dager å heve.”
+
+
+
+#### 6. "Burner-preneurs"
 
 Ettersom valutaens verdi forvitrer, dukker det opp nye økonomiske muligheter som utnytter markedets forvrengninger. Disse entreprenørene, ofte gitt oppfinnsomme navn som "Brenner-entreprenørene", kan trives ved å låne devaluert valuta for å investere i håndfaste eiendeler, og deretter tilbakebetale gjelden sin med enda mer devaluert valuta.
 
@@ -504,22 +509,22 @@ Weimar: "Spekulasjon på inflasjon involverte å låne papirmark, konvertere dem
 
 Zimbabwe: "Brenner-entreprenørene"
 
-7. Ærlighet og hardt arbeid mister sin tiltrekningskraft
+#### 7. Ærlighet og hardt arbeid mister sin tiltrekningskraft
    I ustabile økonomiske kontekster kan tradisjonelle verdier som hardt arbeid, sparsommelighet og integritet bli overskygget av lokket fra rask rikdom. Spekulasjon og valutahandel tilbyr ofte mye høyere belønninger enn vanlig arbeid, noe som forårsaker en forstyrrelse i samfunnets prioriteringer.
    Weimar: "Ettersom de gamle dydene sparsommelighet, ærlighet og hardt arbeid mistet sin tiltrekning, søkte alle å bli raskt rike, spesielt siden valuta- eller aksjespekulasjon tilsynelatende kunne gi mye mer enn arbeid."
 
 Zimbabwe: "Disse praksisene, mens de beriket noen få individer, fattiggjorde den urbane arbeiderklassen og den rurale befolkningen. Utdanning mistet sin verdi, ettersom denne handelen ble drevet av folk som ikke trengte utdanning eller hardt arbeid for å rettferdiggjøre den. Alt de trengte var forbindelser og startkapital for å starte sin lette pengevirksomhet."
 
-![bilde](assets/chapitre-3.2/5.webp)
+![bilde](assets/fr/042.webp)
 
-8. "Verdensbankene"
+#### 8. "Verdens banker"
 
 I situasjoner med hyperinflasjon eller monetær krise, har det en tendens til å blomstre parallell og uregulerte markeder for utenlandsk valuta. Disse uformelle "bankene", ofte humoristisk referert til som "verdensbanker" eller ved andre lokale navn, tilbyr en tilflukt for de som søker å beskytte sine eiendeler fra devaluering. Selv om disse markedene kan tilby en nødvendig økonomisk livline, fremhever de ofte utbredt mistillit til offisielle finansinstitusjoner og regjeringspolitikk.
 Weimar: "Transaksjonene deres ble hovedsakelig utført gjennom de såkalte Winkelbankiers, gateoperatørene som hadde dukket opp med inflasjonen og som, ved å trives i en syk økonomi, levde helt og holdent av å utnytte forskjellen mellom kjøps- og salgsprisene på utenlandsk valuta."
 Zimbabwe: "De var også valutavekslere. De opererte ustraffet mellom 2. og 6. avenue og Fort Street i Bulawayo, takket være deres slu forretningsferdigheter som involverte korrupsjon og andre praksiser. Dette området av byen var kjent som 'Verdensbanken'."
 Argentina: "Så jeg gikk dit alle argentinere går: til cuevas, 'hulene', som finnes i Florida-nabolaget i hjertet av Buenos Aires." - TheBigWhale
 
-9. Valutaveksling var ulovlig
+#### 9. Vekslingshandel med utenlandsk valuta var ulovlig
 
 Regjeringer, i et forsøk på å stabilisere sin egen valuta og kontrollere kapitalstrømmen, kan gjøre disse utenlandske valutatransaksjonene ulovlige. Disse undertrykkende tiltakene, selv om de er ment å beskytte den nasjonale økonomien, kan ofte ha motsatt effekt, forsterke offentlig mistillit og oppmuntre til svartemarkedet.
 
@@ -527,14 +532,14 @@ Weimar: "Folk tydde til byttehandel og gradvis vendte seg til utenlandske valuta
 
 Zimbabwe: "Raid mot bedrifter førte til fengsling av flere forretningsmenn fra Bulawayo for helgen og bøter tilsvarende to ganger beløpet av gjenvunnet utenlandsk valuta, denne tapperheten avtok deretter."
 
-10. Kapitalkontroll
+#### 10. Kapital­kontroll
 
 Når et land står overfor en monetær eller økonomisk krise, er et vanlig svar fra regjeringer å utøve streng kontroll over bevegelsen og formene av kapital. Enten gjennom ordrer som tvinger aksept av devaluerte nasjonale valutaer eller gjennom alvorlige sanksjoner mot de som avviser visse betalingsmetoder, har disse tiltakene ofte som mål å inneholde panikk og gjenopprette tillit. Imidlertid varierer deres effektivitet, og noen ganger kan disse tiltakene vise seg å være motproduktive eller frakoblet fra virkeligheten som oppleves av borgerne.
 Weimar: "Handelsmenn hadde nylig blitt tvunget av et nytt dekret til å akseptere statsbanknoter; men siden det også tillot fortsatt bruk av utenlandsk valuta for alle kjøp, fant handelsmenn generelt unnskyldninger for å akseptere nesten ingenting annet."
 Zimbabwe: "Regjeringen innførte SI 175/2008 den 12. desember 2008, angående betaling med sjekker. Det ble uttalt, 'Straffen for å nekte betaling med sjekk/bankkort eller annen bankformidlet elektronisk betalingsmetode skal være en bot på nivå 8 eller en fengselsstraff på seks måneder eller begge deler.' Åpenbart ignorerte vi SI fordi den var fullstendig ute av kontakt med virkeligheten."
-![bilde](assets/chapitre-3.2/4.webp)
+![bilde](assets/fr/043.webp)
 
-11. Tvunget til å holde butikkene åpne
+#### 11. Tvunget til å holde butikkene sine åpne
 
 Når økonomien kollapser og valutaen mister sin verdi, kan regjeringer ty til drastiske tiltak for å opprettholde et skinn av normalitet.
 
@@ -542,13 +547,16 @@ Weimar: "Handelsmenn som fortsatte sin virksomhet var underlagt en ny forordning
 
 Zimbabwe: "Bare tomme stålhyller og kjøleskap, kjølere og frysere gjensto. Tragedien var at butikken fremdeles var åpen fordi de ikke våget å stenge på grunn av politiske spenninger og frykten for at ledere skulle bli arrestert av regjeringens prisreguleringsstyrke. Selv arbeiderne ble ikke sagt opp fordi alle trodde det ville komme en rask løsning."
 
-12. Alle er en kriminell
+#### 12. Alle er kriminelle
 
 I møte med en kollapsende økonomi og gjennomgripende reguleringer, blir linjen mellom overlevelse og kriminalitet utydelig.
 
 Weimar: "Alle forbrytelser mot staten, hver og en av dem, i varierende grad, ble et spørsmål om overlevelse for individene."
 
-Zimbabwe: "Hver innbygger i Zimbabwe var en kriminell. Hardt som det kan høres ut, var det sant. Med mylderet av små lover som styrte alle aspekter av livet, var det uunngåelig at alle ville bryte en lov hver dag. Å eie utenlandsk valuta var ulovlig, ifølge en SI publisert i 2004. Å ha flere bankkontoer for å omgå den daglige uttaksgrensen var ulovlig. Å ikke ha de riktige bilskiltene på bilen din, eller ingen bilradiolisens eller generator tillatelse, var alle lover som noen, et sted, brøt." 13. Kjøper utenlandsk valuta til enhver pris
+> Zimbabwe: "Hver innbygger i Zimbabwe var en kriminell. Så hardt som det kan høres ut, var det sant. Med utallige små lover som regulerte alle aspekter av livet, var det uunngåelig at alle brøt en lov hver dag. Å eie utenlandsk valuta var ulovlig, ifølge en SI publisert i 2004. Å ha flere bankkontoer for å omgå den daglige uttaksgrensen var ulovlig. Å ikke ha riktige bilskilter på bilen, eller bilradiolisens eller generatorlisens, var alle lover som noen, et sted, brøt.”
+
+#### 13. Kjøp utenlandsk valuta for enhver pris
+
 Den frenetiske kjøpingen av utenlandsk valuta har ofte markert et kritisk vendepunkt i valutadevaluering, noe som forverrer fallet i den iboende verdien.
 
 > Weimar: "Mannheimer, på instruks fra sjefen sin, gikk ut i august 1921 og begynte å kjøpe utenlandsk valuta til enhver pris - 'fordi Tyskland hadde en uendelig mengde papirmark, men ingen utenlandske valutaer.' Dette var det første tegnet på det absolutte kollapsen i verdien av marken."
@@ -557,32 +565,53 @@ Den frenetiske kjøpingen av utenlandsk valuta har ofte markert et kritisk vende
 
 ### Sammendrag av prosessen
 
-![bilde](assets/chapitre-3.2/2.webp)
+![bilde](assets/fr/044.webp)
 
 Når man analyserer den økonomiske banen, er det tydelig at når høy inflasjon oppnås, forverres verdien av pengevolumet. Denne devalueringen fører til flere komplikasjoner, inkludert en mangel på sedler. I denne konteksten oppstår arbitrasjemuligheter, spesielt med valutakursfluktuasjoner. Som et resultat vender mange individer seg til denne arbitrasjen, investerer tungt i håndgripelige eiendeler i forventning om fremtidig valutadevaluering som ville tillate dem å tilbakebetale gjelden sin med en svekket valuta. Dette økonomiske miljøet undergraver tiltrekningen av tradisjonelle jobber og, som en konsekvens, eroderer sosial samhørighet.
 Som svar på denne situasjonen innfører regjeringen strenge reguleringer, inkludert kapitalkontroll. Den pålegger også at handelsmenn må akseptere nasjonal valuta og sjekker. Over tid blir nye lover vedtatt, som utvider definisjonen av kriminell oppførsel. Til slutt stiger valutakursen eksponentielt ettersom regjeringen er villig til å bytte sin valuta, trykket til en lavere kostnad, mot sterkere utenlandske valutaer.
 
 ### 4 Likheter i konsekvensene av hyperinflasjon
 
-![bilde](assets/chapitre-3.2/6.webp)
+![bilde](assets/fr/045.webp)
 
-1. Olje og metaller
 
-I Tyskland under Weimar-perioden var tyveri av verdifulle materialer så utbredt at bly fra tak ofte ble stjålet. I Zimbabwe førte desperasjon noen til å avbryte strømnettet for å utvinne olje fra transformatorer og bruke den i kjøretøyene sine.
-I konteksten av en forverrende økonomi og mangel på ressurser, kan regjeringer implementere rasjoneringssystemer for å kontrollere distribusjonen av essensielle varer. Dette inkluderer bruk av kuponger eller verdikuponger for å regulere kjøpet av bensin eller drivstoff.
+#### 1. Olje og metaller
 
-> Weimar: "I Berlin, på grunn av mangel på bensin, ble et kupongsystem implementert for å regulere distribusjonen. Hver borger ble tildelt en spesifikk mengde kuponger som tillot dem å kjøpe en begrenset mengde drivstoff."
+I Tyskland under Weimar-perioden var tyveriet av verdifulle materialer så utbredt at bly fra tak ofte ble stjålet. I Zimbabwe drev desperasjonen noen til å kutte strømnettet for å hente olje fra transformatorer og bruke den i sine kjøretøy.
 
-> Zimbabwe: "Under drivstoffkrisen introduserte regjeringen et kupongsystem for å håndtere distribusjonen av bensin. Hver enkelt ble gitt et bestemt antall kuponger som kunne byttes mot en viss mengde drivstoff."
-> Befolkningene ser etter stabile alternativer for transaksjoner. I Weimar tjente produkter som messing og drivstoff som byttemidler på grunn av deres konstante iboende verdi. I Zimbabwe, med den raske devalueringen av den zimbabwiske dollaren, ble bensinkuponger, som representerte en fast mengde av et essensielt produkt, en de facto valuta. Disse situasjonene fremhever hvordan samfunn tilpasser seg ekstreme økonomiske forhold, og finner innovative løsninger for å holde handel og økonomi i gang.
+Weimar: «De metalliske platene fra nasjonale monumenter måtte fjernes for å settes i sikkerhet. Messingdørskilt ble stjålet fra dørene til den britiske ambassaden i Berlin.»
 
-Weimar: "Byttehandel var allerede en vanlig form for utveksling; men nå ble varer som messing og drivstoff den vanlige valutaen for kjøp og betaling."
+Zimbabwe: «For å gjøre vondt verre, på grunn av mangel på utenlandsk valuta, var det en knapphet på smøreolje til biler, og transformatorene ble et lett mål for tyver som tappet kjøleoljen under strømbrudd.»
 
-Zimbabwe: "Vi brukte nå disse kupongene til å betale husleie til utleiere, kommunale avgifter, telefonregninger, faktisk nesten alt, ettersom alle hadde sluttet å akseptere betalinger i zimbabwiske dollar og sjekker."
+#### 2. Tog
+
+Devaluering av valuta kan presse innbyggerne til en overlevelsesadferd preget av hærverk. Overfor en økonomi i oppløsning kan kostbar offentlig infrastruktur som transportsystemer bli kompromittert, noe som fører til katastrofale sosiale konsekvenser.
+
+> Weimar: «I Berlin sluttet trikkesystemet å fungere på grunn av mangel på midler.»
+
+> Zimbabwe: «Et av de mest urovekkende og triste scenariene var da nesten hele den elektriske kobberlinjen som forbandt Harare med Dabuka (over 280 kilometer) ble stjålet. Da den ble fullført, hadde den vært Zimbabwes stolthet, med raske elektriske passasjer- og godstog som benyttet denne ruten.»
+
+#### 3. “Mealie Meal”
+
+I sammenheng med elendige lønninger og en ustabil økonomi ble bedrifter tvunget til å tilby mat til sine ansatte for å holde dem produktive og i arbeid. Dette initiativet var ikke bare en måte å bøte på mangel og høye matkostnader, men også en strategi for å beholde arbeidskraften i et vanskelig økonomisk miljø.
+
+> Weimar: «I Berlin hadde kontoransatte, som utgjorde en svært viktig klasse i hovedstaden, fullstendig utilstrekkelige lønninger fra 12 000 til 20 000 per måned (tilsvarende mellom 12 og 19 pund per år), som stadig ble redusert; men de fleste kunne fortsatt få lunsj for en symbolsk sum, levert av kontorene deres, slik at kropp og sjel så vidt kunne holdes sammen.»
+
+> Zimbabwe: «På dette tidspunktet ga vi alle våre ansatte en gratis lunsj. Maismelet var avgjørende for vår bedrifts kontinuerlige drift, ettersom det i mange tilfeller var det eneste måltidet våre ansatte fikk hver dag.»
+
+#### 4. Bensinkuponger
+
+Befolkningen søkte stabile alternativer for transaksjoner. I Weimar fungerte produkter som messing og drivstoff som byttemidler på grunn av deres konstante iboende verdi. I Zimbabwe, i møte med den raske devalueringen av den zimbabwiske dollaren, ble bensinkuponger, som representerte en fast mengde av et essensielt produkt, en de facto valuta. Disse situasjonene viser hvordan samfunn tilpasser seg ekstreme økonomiske forhold og finner innovative løsninger for å holde handel og økonomi i gang.
+
+Weimar: «Byttehandel var allerede en vanlig form for utveksling; men nå ble varer som messing og drivstoff den vanlige valutaen for kjøp og betaling.»
+
+Zimbabwe: «Disse kupongene brukte vi nå til å betale husleie til utleiere, kommunale avgifter, telefonregninger – faktisk nesten alt – fordi alle hadde sluttet å akseptere betalinger i zimbabwiske dollar og sjekker.»
 
 #### Konklusjon
 
-Dette avslutter denne videoen om likhetene i opplevelsene under periodene med hyperinflasjon i Zimbabwe og Weimar-republikken. I neste video vil vi diskutere forskjellene og samtidige paralleller. Takk.
+Dette avslutter denne videoen om likhetene mellom erfaringene under hyperinflasjonsperiodene i Zimbabwe og Weimar-republikken. I neste video skal vi snakke om forskjellene og de moderne parallellene. Takk.
+
+
 
 ## Weimar vs Zimbabwe: Forskjeller og Samtidige Paralleller
 
@@ -592,15 +621,15 @@ I dette kapittelet vil vi utforske forskjellene og samtidige paralleller mellom 
 
 ### Forskjeller mellom Weimar-republikken og Zimbabwe
 
-1. Det er dollarens skyld!
+#### 1. Det er dollarens feil!
 
 I Tyskland var det vanlig for befolkningen å tilskrive inflasjonen til stigningen av dollaren heller enn den iboende devalueringen av deres egen valuta. Mange trodde at det observerte fenomenet skyldtes en verdsettelse av dollaren. Denne oppfatningen avviste enhver anerkjennelse av forbindelsen mellom deres økonomiske vanskeligheter og monetær devaluering, hovedsakelig indusert av overdreven pengeproduksjon. Boken "When Money Dies" illustrerer tydelig denne mangelen på forståelse blant den tyske befolkningen. I motsetning, i Zimbabwe, var situasjonen annerledes: innbyggerne var fullt ut bevisste på den underliggende årsaken til hyperinflasjonen de opplevde.
 
-![bilde](assets/chapitre-3.3/3.webp)
+![bilde](assets/fr/046.webp)
 
-2. Nødvendighetsvaluta (Notgeld)
+#### 2. Nødmynt (Notgeld)
    I møte med den monetære og økonomiske krisen, tydde Tyskland til "Notgeld" (nødpenger). Disse sedlene, trykket av byer eller visse selskaper, var designet for å adressere en mangel på vanlig valuta. Interessant nok tydde også Frankrike til Notgeld, spesielt på 1920-tallet. Dette tiltaket var ikke bare en direkte konsekvens av hyperinflasjon, men hadde også røtter i forstyrrelsene forårsaket av første verdenskrig. Krigen destabiliserte ikke bare økonomien, men økte også kostnaden for metaller. Som et resultat oversteg den iboende verdien av metallmynter ofte deres pålydende verdi, noe som fikk folk til å hamstre dem. I fraværet av mynter, trykket noen institusjoner, som Lyon Handelskammer, sine egne Notgeld.
-   ![bilde](assets/chapitre-3.3/0.webp)
+   ![bilde](assets/fr/048.webp)
 
 > "Det som må gjøres, må gjøres." - et lokalt ordtak
 
@@ -608,13 +637,13 @@ Blant Notgeld, skiller en spesiell seddel seg ut. Den har en gripende illustrasj
 
 Kunstneren bak dette Notgeldet ser ut til å gjøre en ironisk kritikk av myndighetene ansvarlige for hyperinflasjonskrisen. Seddelen bærer innskriften "Nødvendighet kjenner ingen lov". Et annet uttrykk spesifikt for Notgeldets opprinnelsessted sier: "Det som må gjøres, må gjøres".
 
-![bilde](assets/chapitre-3.3/1.webp)
+![bilde](assets/fr/047.webp)
 
 > "nødvendighet kjenner ingen lov"
 
 > Den første Shitcoin: Anekdotisk, ved å se på den sentrale illustrasjonen av seddelen, hvor valutaen bokstavelig talt blir devaluert av individets handling, kunne den kalles den første "shitcoin".
 
-3. Obligasjoner og Pantelån
+#### 3. Obligasjoner og pantelån
 
 I Weimar ble noen gjeld omvurdert for å kompensere for inflasjonens innvirkning. Dette tiltaket ble ikke vedtatt i Zimbabwe.
 
@@ -624,11 +653,11 @@ I Weimar ble noen gjeld omvurdert for å kompensere for inflasjonens innvirkning
 
 For å lære mer om håndteringen av den tyske krisen, er denne boken også essensiell.
 
-![bilde](assets/chapitre-3.3/4.webp)
+![bilde](assets/fr/049.webp)
 
 ### Samtidige Paralleller
 
-1. Manipulasjon av pengepolitikk for å kontrollere økonomien.
+#### 1. Manipulering av pengepolitikken for å kontrollere økonomien.
    I historien om Weimarrepublikken er det tydelig at industrielle var motvillige til å se en verdistigning av Marken. Deres evne til å låne og tilbakebetale gjelden sin med en sterkt devaluert valuta ga dem en betydelig fordel. Denne mekanismen lettet byggingen av enorme industrielle komplekser til nesten ingen kostnad. Disse industrielle fryktet en verdistigning av Marken da det hindret deres aktiviteter. Noen så til og med på galopperende inflasjon som en god ting, da de trodde det garanterte sysselsetting for befolkningen. Imidlertid innså de ikke den skadelige innvirkningen av denne inflasjonen på sparing og økonomien generelt. For disse økonomiske aktørene var pengetrykking en velsignelse.
    Weimar: "Dette er grunnen til at en verdsettelse av marken var svært fryktet, og selv de få ukene med 'stabilitet' etter Genova førte til en stagnasjon i næringslivet."
    Weimar: "Industrikretser sto overfor faren for at kontanter ville bli mer verdifulle enn varer, og et kollaps ville inntreffe når alle forsøkte å konvertere sine eiendeler til kontanter."
@@ -637,7 +666,7 @@ En samtidsparallell kan trekkes med uttalelsene fra Christine Lagarde, som antyd
 
 > Christine Lagarde: "Vi burde være gladere for å ha en jobb enn å se våre sparepenger beskyttet."
 
-2. Privat eiendom i konfliktperioder.
+#### 2. Privat eiendom i tider med konflikter
 
 Historien om Weimarrepublikken avslører at i løpet av denne perioden ble eiendeler og kapital holdt i utlandet konfiskert. Dette tiltaket minner om mer nylige hendelser i Russland, spesielt ved begynnelsen av en konflikt. Disse situasjonene fremhever en bekymringsfull realitet: i krisetider kan respekten for privat eiendom bli kompromittert. Dette er en historisk og samtidig parallell som understreker de potensielle konsekvensene av kriser på individuelle rettigheter.
 
@@ -645,31 +674,49 @@ Historien om Weimarrepublikken avslører at i løpet av denne perioden ble eiend
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Omtrent 300 milliarder dollar av russiske reserver holdt i utlandet har faktisk blitt frosset som en del av vestlige sanksjoner, ut av de 640 milliarder dollar i reserver holdt av den russiske sentralbanken."
 
-3. Konseptet med markedspriser.
-   > Weimar: "Zombiebedrifter"
 
-> Samtids: "Zombiebedrifter"
-> Weimar: "Stabilisering satte en stopper for perioden da entreprenører kunne låne så mye de ville på bekostning av alle andre. Et stort antall selskaper, opprettet eller utviklet under den monetære overfloden, ble raskt uproduktive når kapital ble knapp."
-> En zombiebedrift er et selskap som, under normale markedsforhold, ville vært insolvent eller nær konkurs, men fortsetter å operere hovedsakelig gjennom lån med lav kostnad. Disse selskapene tjener akkurat nok penger til å dekke sine gjeld, men er ute av stand til å vokse betydelig.
+#### 3. Begrepet markedspris
 
-Konseptet med zombiebedrifter er ikke nytt. Faktisk var det til stede i Weimarrepublikken. På den tiden syntes mange selskaper å blomstre, og hadde stor nytte av tilgangen til gratis kreditt. De lånte betydelige summer, med utsikten til å betale tilbake senere med en devaluert valuta på grunn av galopperende inflasjon. Men når inflasjonen stoppet og den tyske marken gjenvant sin verdi, ble disse selskapene, som ikke var virkelig levedyktige i operasjonelle og finansielle termer, ulønnsomme og måtte stenge dørene.
+Under Weimar-republikken uttrykte bøndene sin misnøye med "Umlage", som tvang dem til å levere de første to millioner tonnene hvete som ble produsert hvert år. Denne reguleringen hadde som konsekvens at halvparten av den totale brødtilførselen ble satt på markedet til subsidierte priser. Fra august skulle disse bøndene betales etter verdensmarkedsprisen, for selv om de ble tvunget til å avgi hveten sin til reduserte priser, måtte de kjøpe gjødsel til verdenspriser.
 
-![bilde](assets/chapitre-3.3/5.webp)
+Denne situasjonen reiser et sentralt problem knyttet til begrepet markedspris under en hyperinflasjon. I den tyske konteksten på den tiden ble bøndene tvunget til å selge hveten sin til priser under dens verdi, samtidig som de måtte skaffe gjødsel til globale kostnader. En slik økonomisk uoverensstemmelse belyser utfordringene som dagens matvarepriser representerer. Landbruksprodusenter, som står overfor økte kostnader på innsatsvarer på grunn av inflasjon, velter disse kostnadene over på sluttproduktene. Å kritisere dem for denne økningen er å ignorere markedsprisens dynamikk og det økonomiske presset de står overfor. Å selge til kunstig lave priser mens man lider under høye kostnader er uholdbart for enhver virksomhet.
 
-Fenomenet med zombiebedrifter er ikke begrenset til Tysklands etterkrigshistorie. Selv i dag overlever mange store selskaper takket være privilegert tilgang til svært lavrentelån. Hvis de måtte låne til mer konvensjonelle renter, ville mange av dem opphøre å være lønnsomme. Dette er spesielt relevant ettersom vi er i 2023, og etter en lang periode med nesten null renter, har de begynt å stige. Denne nylige utviklingen i det finansielle landskapet vil utvilsomt være en avgjørende test for disse selskapene som en gang ble kalt "zombier".
+> Weimar: "Landbruksinteressene var misfornøyde med 'Umlage', den tvungne leveringen av de første to millioner tonnene hvete som ble produsert hvert år, noe som gjorde det mulig å selge halvparten av den totale brødtilførselen til lave priser. Fra august skulle bøndene betales etter verdensmarkedsprisen, fordi når de ble tvunget til å selge hvete billig, måtte de alltid betale verdensprisen for gjødsel."
 
-5. Bli rik raskt!
-   Gjennom historien har det vært øyeblikk der individer søker å bli rike raskt, som det var tilfellet i Weimar og Zimbabwe gjennom arbitrasje. I dag ser vi en lignende trend med fremveksten av visse kryptovalutaer. Folk fristes av raske gevinster, tar risiko i håp om eksponentiell multiplikasjon av investeringen sin. Denne tilnærmingen kan minne om det som observeres under perioder med hyperinflasjon, der arbitrasje brukes til å oppnå raske gevinster, ofte på bekostning av andre.
-   ![bilde](assets/chapitre-3.3/6.webp)
+#### 4. Benektelsen av sammenhengen mellom pengemengden og inflasjon
 
-6. Sparepenger, botemiddelet mot usikkerhet
+> Weimar: «Han holdt fast ved sitt syn om at pengemengden verken var knyttet til prisnivået eller til valutakursene;»
 
-> den invasive og destruktive innflytelsen av den konstante erosjonen av verdien av kapital og inntekt, samt usikkerheten om fremtiden.
-> Det er interessant å fremheve et sitat som understreker den destruktive effekten av erosjonen av kapitalverdien på sosial samhørighet, samt den usikkerheten det genererer. Det sier: "den invasive og destruktive innflytelsen av den konstante erosjonen av verdien av kapital og inntekt, samt usikkerheten om fremtiden."
+I vår tid vedvarer denne tendensen, som vist i eksempelet i forrige kapittel med en liste over forklaringer fremført av ulike økonomer og økonomiske institutter for å rettferdiggjøre inflasjonen. Disse årsakene varierer, fra kulturelle hendelser og kjendiser som Taylor Swift, Zelda eller Beyoncé, til globale faktorer som krig og pandemi. Alle disse årsakene, selv om de kan bidra til kortsiktige økonomiske svingninger, trekker oppmerksomheten bort fra den egentlige underliggende årsaken, nemlig ekspansjonen av pengemengden.
 
-Forestil deg et scenario der du har en familie eller kjære du vil beskytte. Du jobber hardt, sparer penger, for å forutse fremtidige usikkerheter. Hvis alt var forutsigbart, ville sparing være unødvendig. Men i møte med det uventede, som en bil som bryter sammen, blir sparepenger en livline. Det reduserer usikkerheten i verden. Imidlertid, i en periode med hyperinflasjon, blir sparing en utfordring. Penger mister raskt sin verdi, noe som gjør langsiktig planlegging vanskelig. Denne finansielle ustabiliteten kan forårsake stress og angst.
+#### 5. Zombie-selskaper
 
-I dag, i møte med fallende kjøpekraft, tar investering over. Imidlertid kommer denne tilnærmingen med sine egne risikoer. Sparepenger har alltid vært et botemiddel mot usikkerhet. Å ha finansielle reserver for å håndtere uforutsette situasjoner bidrar til sinnsro og styrker sosial samhørighet. I konklusjonen, å beskytte vår kjøpekraft er essensielt for å opprettholde sosial og individuell stabilitet.
+> Weimar: "Stabiliseringen satte en stopper for perioden da entreprenører kunne låne så mye de ønsket på bekostning av alle andre. Et meget stort antall selskaper, opprettet eller utviklet under pengeoverflod, ble raskt uproduktive da kapitalen ble knapp."
+
+Et zombie-selskap er et selskap som, under normale markedsforhold, ville vært insolvent eller nær konkurs, men som fortsetter å fungere hovedsakelig takket være billige lån. Disse selskapene tjener akkurat nok til å dekke gjelden sin, men klarer ikke å vokse betydelig.
+
+Denne ideen om zombie-selskaper er ikke ny. Den eksisterte faktisk i Weimar-republikken. På den tiden virket mange selskaper blomstrende, idet de i stor grad nøt godt av tilgang til gratis kreditt. De lånte betydelige summer med utsikten til å tilbakebetale senere med en valuta som var devaluert på grunn av hyperinflasjon. Men da inflasjonen stoppet og den tyske marken gjenvant verdi, ble disse selskapene, som egentlig ikke var levedyktige verken operasjonelt eller økonomisk, ulønnsomme og måtte stenge dørene.
+
+![image](assets/fr/050.webp)
+
+Fenomenet zombie-selskaper er ikke begrenset til Tysklands etterkrigshistorie. Selv i dag overlever mange store selskaper takket være privilegert tilgang til kreditter med svært lave renter. Hvis de måtte låne til mer konvensjonelle renter, ville mange av dem slutte å være lønnsomme. Dette er spesielt relevant i 2023, da rentene etter en lang periode nær null har begynt å stige. Denne nylige utviklingen i det finansielle landskapet vil uten tvil være en avgjørende prøve for disse selskapene, som tidligere ble kalt "zombier".
+
+#### 6. Bli rik raskt!
+
+I historien ser man øyeblikk der individer søker å bli rike raskt, slik det var tilfelle i Weimar og Zimbabwe gjennom arbitrasje. I dag ser man en lignende tendens med fremveksten av visse kryptovalutaer. Folk blir fristet av raske gevinster, tar risiko i håp om en eksponentiell vekst i investeringen sin. Denne tilnærmingen kan minne om den som ble observert under hyperinflasjon, der arbitrasje ble brukt for å oppnå raske gevinster, ofte på bekostning av andre.
+
+![image](assets/fr/051.webp)
+
+#### 7. Sparing, motgiften mot usikkerhet
+
+> Den altomfattende og ødeleggende innflytelsen av den konstante erosjonen av kapital- og inntektsverdien samt usikkerheten om fremtiden.
+
+Det er interessant å fremheve et sitat som belyser den ødeleggende effekten av kapitalverdiens erosjon på sosial samhørighet, samt usikkerheten den skaper. Det sier: "den altomfattende og ødeleggende innflytelsen av den konstante erosjonen av kapital- og inntektsverdien samt usikkerheten om fremtiden."
+
+Tenk deg et scenario der du har en familie eller kjære du ønsker å beskytte. Du jobber hardt, sparer, for å forutse fremtidig usikkerhet. Hvis alt var forutsigbart, ville sparing vært unødvendig. Men når det uforutsette skjer, som en bil som bryter sammen, blir sparing en livbøye. Det reduserer verdens usikkerhet. Men i en periode med hyperinflasjon blir det en utfordring å spare. Penger mister raskt sin verdi, noe som gjør langsiktig planlegging vanskelig. Denne økonomiske ustabiliteten kan skape stress og angst.
+
+I dag, i møte med redusert sparekraft, tar investeringer over. Men denne tilnærmingen innebærer egne risikoer. Sparing har alltid vært en motgift mot usikkerhet. Å ha finansielle reserver for å håndtere uforutsette situasjoner bidrar til sinnsro og styrker sosial samhørighet. Avslutningsvis er det avgjørende å beskytte vår sparekraft for å opprettholde sosial og individuell stabilitet.
+
 
 ## Redenominasjoner i Latin-Amerika
 
@@ -681,21 +728,21 @@ Vi vil nå se på ulike perioder med redenominasjon i latinamerikanske land.
 
 På lysbildet, på venstre side, er årene for redenominasjon, navnet på den nye valutaen, og vekslingskursen med den gamle valutaen. Tar eksemplet med Argentina, ble peso moneda nacional konvertert med en kurs på 25 til 1 fra den forrige valutaen, peso real. I denne sammenhengen vil vi undersøke utviklingen av den argentinske valutaen over tid. I tillegg vil vi indikere de opprinnelige og endelige valørene av sedler for hver periode.
 
-![bilde](assets/chapitre-3.4/1.webp)
+![bilde](assets/fr/052.webp)
 
-På høyre side av lysbildet er det en graf over inflasjon. De røde pilene representerer år med hyperinflasjon, definert i henhold til Kagans kriterium som en inflasjonsrate på 50% per måned. Dette kriteriet kan noen ganger føre til tvetydige tolkninger, med år som har høy inflasjonsrate, men ikke møter den strenge definisjonen av hyperinflasjon.
+På høyre side av lysbildet er det en graf over inflasjon. De røde pilene representerer år med hyperinflasjon, definert i henhold til Cagans kriterium som en inflasjonsrate på 50% per måned. Dette kriteriet kan noen ganger føre til tvetydige tolkninger, med år som har høy inflasjonsrate, men ikke møter den strenge definisjonen av hyperinflasjon.
 Det bør bemerkes at redenominasjon, under perioder med inflasjon, er et vanlig tiltak tatt av regjeringer. Dette løser imidlertid ikke det underliggende problemet med inflasjon eller hyperinflasjon. Det er bare en måte å gi nytt navn til valutaen og fjerne nuller, uten å virkelig ta for seg roten til problemet med hyperinflasjon: ekspansjonen av pengemengden. I en senere video vil vi diskutere de virkelige løsningene for å adressere og løse problemet med hyperinflasjon. I denne serien vil vi fremheve konsekvensene av en enkel redenominasjon uten tilstrekkelige reformer: inflasjonen vedvarer.
 Etter Argentina vil vår studie dekke Brasil, Bolivia, Peru, Nicaragua og Venezuela. Vi vil undersøke de redenominasjonene som har funnet sted i disse landene.
 
 ### Argentina
 
-![bilde](assets/chapitre-3.4/1.webp)
+![bilde](assets/fr/052.webp)
 
 Før 1826 brukte Argentina den spanske dollaren. Etter sin uavhengighet i 1816 introduserte landet sin egen valuta basert på den spanske realen, noe som resulterte i opprettelsen av en lignende valuta. Tabellen starter i 1881, året da "peso moneda nacional" ble introdusert med sedler opp til 10 000. Dette ble etterfulgt av "peso ley," som ble vekslet i en rate på 100 til 1 og med sedler opp til en million. Deretter kom "argentinsk peso" med en vekslingsrate på 10 000 til 1 (tilsvarende fjerning av fire nuller), og sedler opp til 10 000. I 1985 ble "australes" introdusert og vekslet til 1 000 til 1, med sedler opp til 500 000. I 1992 ble den nåværende "peso ley" etablert med en rate på 10 000 til 1, nok en gang fjerning av fire nuller. Kun årene 1989 og 1990 opplevde hyperinflasjon.
 
 ### Brasil
 
-![bilde](assets/chapitre-3.4/2.webp)
+![bilde](assets/fr/053.webp)
 
 Brasil er et emblematiske tilfelle av monetær redenominasjon, som illustrert av landets historie med valutaendringer. Før sin uavhengighet brukte Brasil den portugisiske realen. Imidlertid begynte landet allerede i 1747 å bruke sin egen "brasilianske real," lenge før sin uavhengighetserklæring i 1822. Tabellen starter i 1818, som markerer begynnelsen på utstedelsen av brasilianske sedler. Før dette var valutaen hovedsakelig i form av mynter. Disse sedlene nådde verdier opp til en million reals.
 Fra 1942 begynte Brasil en serie med redenominasjoner. I de fleste tilfeller (1942, 1967, 1986, 1989, 1993) var konverteringsraten 1 000 til 1. I 1990 fant et navneskifte sted uten konvertering. Sekvensen av disse valutaene er som følger:
@@ -713,7 +760,7 @@ Den høyeste seddelverdien nådde 500 000, og den siste redenominasjonen i 1994 
 
 ### Bolivia
 
-![bilde](assets/chapitre-3.4/3.webp)
+![bilde](assets/fr/054.webp)
 
 Bolivia er et annet eksempel på et land som har gjennomgått perioder med akutt inflasjon, noe som krever valutaredenominasjoner. Her er en oppsummering av landets pengehistorie:
 Før sin uavhengighet i 1825 brukte Bolivia den spanske dollaren som sin valuta. Etter uavhengigheten introduserte landet den bolivianske Solen mellom 1827 og 1864, som erstattet den spanske dollaren. Det bør imidlertid bemerkes at de første sedlene i Bolivia kun dukket opp i 1864.  
@@ -726,7 +773,7 @@ Det er en oversikt over Bolivias tumultfylte monetære historie, preget av perio
 
 ### Peru
 
-![bilde](assets/chapitre-3.4/4.webp)
+![bilde](assets/fr/055.webp)
 
 Peru presenterer et interessant tilfelle med hensyn til effektene av den vilkårlige 50%-regelen. Starter med sin monetære historie, brukte Peru spansk gull frem til det 19. århundre og erklærte sin uavhengighet i 1821. Den peruanske dollaren var i bruk fra 1822 til 1863. I 1863 ble den peruanske realen erstattet av soldi oro, med en rate på 10 til 1, og nådde en maksimal verdi på 50 000. I 1985 ble valutaen "Inti" introdusert med en konverteringsrate på 1000 til 1, og toppet på 5 millioner. I 1991 ble "SOL" lansert med en vekslingsrate på 1 million til 1, med sedler som varierte fra 10 til 200.  
 Når man undersøker revalueringsperiodene, anses 1988 som et år med hyperinflasjon, spesielt i september. Juli-august 1990 så også en periode med hyperinflasjon. I 1988 var den årlige inflasjonsraten 667%, med en topp på 50% i september. I motsetning opplevde 1989 en inflasjonsrate på 3000% uten at noen måned oversteg 50%, så det ble ikke klassifisert som hyperinflasjon. I 1990 nådde inflasjonen en topp på 7481%. Det er klart at 50%-regelen kan være vilkårlig, ettersom 1988 ble ansett som et år med hyperinflasjon, i motsetning til 1989. Hvis denne regelen ble revurdert, kunne det være klokt å senke terskelen for å inkludere perioder som den Peru opplevde i 1989.
@@ -736,24 +783,24 @@ Når man undersøker revalueringsperiodene, anses 1988 som et år med hyperinfla
 
 ### Nicaragua
 
-![bilde](assets/chapitre-3.4/5.webp)
+![bilde](assets/fr/056.webp)
 Nicaragua, tidligere under spansk styre, brukte opprinnelig den spanske dollaren, som mange andre land kolonisert av Spania. Etter å ha blitt integrert i det spanske imperiet, det meksikanske imperiet, og deretter Den føderale republikken Sentral-Amerika, erklærte Nicaragua sin uavhengighet. Fra 1878 ble pesoen landets offisielle valuta, med verdier som svingte mellom 1 og 100. I 1912 introduserte landet den første Cordobaen, etterfulgt av den andre i 1988 og den tredje i 1991, som fremdeles er i bruk i dag. Den første Cordobaen nådde en verdi på 1 million, og den andre 10 millioner. Omregningen i 1991 fulgte flere år med hyperinflasjon.
 
 ### Venezuela
 
-![bilde](assets/chapitre-3.4/6.webp)
+![bilde](assets/fr/057.webp)
 
 Venezuela er det siste landet nevnt i denne videoen. Landet har gjennomgått fire valutaomregninger over tid. I sine tidlige dager brukte Venezuela den spanske dollaren før det erklærte uavhengighet i 1811. I 1879 introduserte det bolivaren som den offisielle valutaen, som forble i effekt til 1983, da regjeringen valgte en flytende vekslingskurs dollar.
 
 Et bemerkelsesverdig faktum om Venezuela er dets medlemskap i Den latinske monetære union. Denne unionen inkluderte mynter som de 5 pesetas fra Spania, de 5 drakmer fra Hellas, de 5 bolivar fra Venezuela, de 5 lire fra Italia, de 5 belgiske francs, og de 5 franske francs.
 
-![bilde](assets/chapitre-3.4/8.webp)
+![bilde](assets/fr/058.webp)
 
-![bilde](assets/chapitre-3.4/7.webp)
+![bilde](assets/fr/059.webp)
 
-![bilde](assets/chapitre-3.4/9.webp)
+![bilde](assets/fr/060.webp)
 
-![bilde](assets/chapitre-3.4/10.webp)
+![bilde](assets/fr/061.webp)
 
 I løpet av denne perioden hadde 5 bolivar-mynten fra Venezuela samme vekt som de fra unionsmedlemslandene, inkludert Italia, Spania, Belgia og Frankrike. Disse bolivarene var laget av sølv, med en spesifikk mynt fra 1929 som veide 25 gram og hadde en renhet på 900, eller 90% rent sølv. Med dagens sølvpris er denne mynten verdt omtrent 17 til 18 amerikanske dollar.
 
@@ -779,27 +826,27 @@ I konklusjonen er hyperinflasjon bare ett aspekt av økonomiske utfordringer. H�
 
 ### Hvordan avslutte moderat og høy inflasjon
 
-Konklusjonene nevnt er hentet fra boken "Monetary Regime and Inflation" av Bernold. Ifølge Bernold er den eneste metoden for å avslutte inflasjon å gjennomføre en monetær reform og pålegge restriksjoner på regjeringen. Disse restriksjonene innebærer etableringen av en institusjon, som en sentralbank, som opererer uavhengig av regjeringens politiske beslutninger. Høy og hyperinflasjon er ofte resultatet av å finansiere budsjettunderskudd gjennom monetær skapelse. For å adressere moderat inflasjon, er det essensielt å redusere veksten av pengemengden. Bernold foreslår også at denne pengeveksten bør være relativ til nabolandene. Et overraskende punkt er at, under perioder med høy eller hyperinflasjon, kan den totale verdien av pengemengden faktisk avta. Et slående eksempel på denne situasjonen er Zimbabwe.
+Konklusjonene nevnt er hentet fra boken "Monetary Regime and Inflation" av Bernholz. Ifølge Bernholz er den eneste metoden for å avslutte inflasjon å gjennomføre en monetær reform og pålegge restriksjoner på regjeringen. Disse restriksjonene innebærer etableringen av en institusjon, som en sentralbank, som opererer uavhengig av regjeringens politiske beslutninger. Høy og hyperinflasjon er ofte resultatet av å finansiere budsjettunderskudd gjennom monetær skapelse. For å adressere moderat inflasjon, er det essensielt å redusere veksten av pengemengden. Bernholz foreslår også at denne pengeveksten bør være relativ til nabolandene. Et overraskende punkt er at, under perioder med høy eller hyperinflasjon, kan den totale verdien av pengemengden faktisk avta. Et slående eksempel på denne situasjonen er Zimbabwe.
 
 ### Motintuitive løsninger
 
 Når man studerte Zimbabwe, ble det lagt merke til at 10 billioner enheter av pengemengden hadde mistet all sin verdi. I Weimar var det mulig å trykke to tredjedeler av den totale nominelle verdien av 65 milliarder enheter av pengemengden på en enkelt dag. Dette viser hvordan pengemengden kan bli devaluert. For å rette på denne situasjonen, er det nødvendig å øke pengemengden betydelig for å nå et passende nivå. Deretter er en monetær reform uunnværlig. I en situasjon med høy inflasjon er denne reformen uunngåelig, men det må sikres at det er nok penger i omløp. Etter dette steget kan restriksjoner pålegges regjeringen.
-Ifølge Bernolds observasjoner, når det kommer til å løse inflasjonsproblemer, adopterer institusjoner som IMF og Verdensbanken ikke alltid den riktige strategien. I noen tilfeller, når et land trenger å øke sin pengemengde, søker disse institusjonene å redusere den. Nøkkelen er å nå et adekvat monetært nivå og deretter pålegge begrensninger på dets vekst, slik at man unngår å finansiere regjeringsutgifter gjennom pengetrykking.
+Ifølge Bernholzs observasjoner, når det kommer til å løse inflasjonsproblemer, adopterer institusjoner som IMF og Verdensbanken ikke alltid den riktige strategien. I noen tilfeller, når et land trenger å øke sin pengemengde, søker disse institusjonene å redusere den. Nøkkelen er å nå et adekvat monetært nivå og deretter pålegge begrensninger på dets vekst, slik at man unngår å finansiere regjeringsutgifter gjennom pengetrykking.
 
-Et interessant aspekt som Bernold tar opp, er at suksessen til en monetær reform avhenger ikke bare av dens tekniske relevans, men også på tilliten befolkningen har til den. Noen velutformede reformer kan mislykkes fordi offentligheten ikke stoler på dem, mens andre, dårlig utformede, kan lykkes fordi befolkningen stoler på dem. Oppfatning og offentlig tillit er derfor essensielle elementer i suksessen eller fiaskoen til en monetær reform.
+Et interessant aspekt som Bernholz tar opp, er at suksessen til en monetær reform avhenger ikke bare av dens tekniske relevans, men også på tilliten befolkningen har til den. Noen velutformede reformer kan mislykkes fordi offentligheten ikke stoler på dem, mens andre, dårlig utformede, kan lykkes fordi befolkningen stoler på dem. Oppfatning og offentlig tillit er derfor essensielle elementer i suksessen eller fiaskoen til en monetær reform.
 
 - I Zimbabwe var løsningen som ble adoptert for å motvirke inflasjon dollarisering, noe som betyr at de adopterte den amerikanske dollaren eller andre valutaer fra nabolandene. Denne tilnærmingen forhindrer regjeringen i å trykke penger etter eget ønske.
 - I Tyskland var løsningen å skape en ny valuta, Rentenmark. Denne valutaen var støttet av Rikets territorielle eiendeler, og denne strategien viste seg å være effektiv.
 
 ### Tilfellet Zimbabwe
 
-![bilde](assets/chapitre-3.5/1.webp)
+![bilde](assets/fr/062.webp)
 
 Zimbabwe oppnådde uavhengighet i 1980 og introduserte den zimbabwiske dollaren. I utgangspunktet var to zimbabwiske dollar verdt omtrent 1.60 amerikanske dollar. Imidlertid, i 1997, etter sosiale tiltak til fordel for krigsveteraner, devaluerte valutaen med 72% på en dag under Black Friday. Deretter, i begynnelsen av 2000-tallet, lanserte landet et jordomfordelingsprogram, hvor land ble tatt fra hvite eiere og gitt til den lokale befolkningen. Denne beslutningen skadet eksporten fordi de nye eierne ofte manglet den nødvendige ekspertisen for å forvalte storskala gårder. Som et resultat, mens Zimbabwe var en nettoeksportør i 1999, ble det en nettoimportør i 2003.
 
 I 2006 introduserte landet en ny versjon av sin valuta, ZWN, med en vekslingsrate på 1 til 1,000. I 2008 ble en annen denominasjon, ZWR, introdusert med en vekslingsrate på 1 til 10 milliarder. Dette førte til skapelsen av de ikoniske 100 billioners sedlene.
 
-![bilde](assets/chapitre-3.5/2.webp)
+![bilde](assets/fr/063.webp)
 
 #### Dollarisering & Kriseløsning
 
@@ -812,11 +859,11 @@ I 2007 nådde Zimbabwes inflasjonsrate terskelen på 50 % per måned, noe som of
 
 I min bok med tittelen "Alt Om Bitcoin," viet jeg et helt kapittel til hyperinflasjonen i Zimbabwe. Jeg detaljerer de betydelige hendelsene, og gir ulike eksempler som illustrerer hvordan landet til slutt satte en stopper for hyperinflasjonen.
 
-![bilde](assets/chapitre-3.5/3.webp)
+![bilde](assets/fr/064.webp)
 
 For de som er nysgjerrige på den tyske erfaringen etter første verdenskrig, anbefaler jeg på det sterkeste tegneserieboken "The Reich's Banker." Den forteller hvordan Tyskland klarte å overvinne hyperinflasjon, spesielt gjennom opprettelsen av Rentenmark.
 
-![bilde](assets/chapitre-3.5/4.webp)
+![bilde](assets/fr/065.webp)
 
 Hovedpoenget er at det finnes flere strategier for å overvinne hyperinflasjon. Man kan velge dollarisering eller innføre en ny valuta. Disse løsningene vil bare fungere hvis befolkningen har tillit til dem. Det er avgjørende å pålegge strenge begrensninger. En virkelig uavhengig sentralbank er essensiell. Den må ikke øke pengetilbudet for å dekke statens underskudd. I tilfelle av mild inflasjon, bør det holde å begrense veksten i pengetilbudet. Imidlertid, når man står overfor hyperinflasjon, er det avgjørende å først ha et passende pengetilbud for størrelsen på økonomien i spørsmålet. Deretter er det avgjørende å pålegge strenge begrensninger på regjeringen for å stabilisere situasjonen.
 
@@ -824,8 +871,9 @@ Hovedpoenget er at det finnes flere strategier for å overvinne hyperinflasjon. 
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-Lenken til den skannede samlingen er tilgjengelig i Bitcoin Educational Toolkit, tilgjengelig fra Resources-seksjonen på plattformen.
+[Oppdag den skannede samlingen i *Bitcoin Educational Toolkit* (også tilgjengelig fra *Ressurser*-delen på Plan ₿ Network-plattformen.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
+![bilde](assets/fr/072.webp)
 # Hvordan kom vi hit?
 
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
@@ -838,7 +886,7 @@ Transkripsjon:
 
 Fremveksten av det andre laget av penger og de første sentralbankene er et fascinerende emne. Dette temaet diskuteres grundig i boken "Layered Money" av Nick Battia. Jeg anbefaler den sterkt til de som er interessert i utviklingen og kompleksiteten i våre monetære systemer. Målet med denne seksjonen er å forstå opprinnelsen til pengekreasjon og hvordan det kan lede til hyperinflasjon.
 
-![bilde](assets/chapitre-4.1/1.webp)
+![bilde](assets/fr/066.webp)
 
 ### Pyramidepenger og Sentralbanker
 
@@ -846,9 +894,9 @@ Fremveksten av det andre laget av penger og de første sentralbankene er et fasc
 
 Historien om penger strekker seg tilbake til det 13. århundret i Italia, spesifikt til Firenze. På den tiden var florinen og veksler vanlige. Et bemerkelsesverdig eksempel er florinen, prydet med figuren av Johannes Døperen.
 
-![bilde](assets/chapitre-4.1/2.webp)
+![bilde](assets/fr/067.webp)
 
-![bilde](assets/chapitre-4.1/3.webp)
+![bilde](assets/fr/068.webp)
 
 Selv om det å eie en ekte florin er dyrt i dag, er reproduksjoner tilgjengelige. Det finnes også andre valutaer fra den tiden, som soldoen fra de italienske statene på 17-tallet, som har et bilde av Kristus.
 
@@ -865,13 +913,13 @@ Dette konseptet, selv om det er assosiert med Nick Bell gjennom hans Twitter-pse
 
 #### VOC og Amsterdams Aksjemarked (17. århundre)
 
-![bilde](assets/chapitre-4.1/4.webp)
+![bilde](assets/fr/069.webp)
 
 Etter Antwerpens Børs var en viktig milepæl grunnleggelsen av VOC, Det nederlandske østindiske kompani. Dette selskapet, basert i Nederland, utstedte til og med sin egen valuta. Etter opprettelsen av VOC, ble det første aksjemarkedet etablert i Amsterdam, og ble det første aksjemarkedet for dette selskapet. Det som er interessant å merke seg er hvordan nederlenderne klarte å avslutte Antwerpens overherredømme som et internasjonalt økonomisk senter. De blokkerte ganske enkelt tilgangen til elven Schelde. Denne strategien var en del av en større historisk bevegelse, opprøret til tiggerne. En avgjørende hendelse i europeisk historie.
 
 #### Inngripen fra Bank of Amsterdam
 
-![bilde](assets/chapitre-4.1/5.webp)
+![bilde](assets/fr/070.webp)
 Etter opprettelsen av VOC, var et annet betydelig element i pengehistorien introduksjonen av gullmynter av Bank of Amsterdam. Disse myntene, som dateres tilbake til 1722, var laget av sølv. Men det som virkelig revolusjonerte finansene på den tiden, var ikke så mye mynten i seg selv, men kontoene assosiert med denne valutaen ved Bank of Amsterdam. Disse kontoene ble det primære middel for internasjonal utveksling. Transaksjoner ble rett og slett registrert i registre eller hovedbøker. Takket være dette systemet, ble Amsterdam det globale økonomiske sentrum. Over tid bestemte Bank of Amsterdam seg for å pålegge bruken av disse kontoene. Uavhengige pengevekslere ble påkrevd å veksle sine mynter for innskudd i banken hver dag.
 
 #### Opprettelsen av Bank of England for å finansiere krigen
@@ -881,7 +929,7 @@ Opprinnelig var det første laget av valuta representert av gull. Innskudd gjort
 
 #### Panikken i 1796
 
-![bilde](assets/chapitre-4.1/6.webp)
+![bilde](assets/fr/071.webp)
 Bankpanikk ved Seamen's Savings Bank under panikken i 1857.
 
 Etter bankpanikken i 1796, oppsto et fenomen der alle prøvde å bevege seg oppover "pengepyramiden". Folk ønsket å veksle sin tredje-lags valuta for andre-lags valuta, og til slutt for første-lags valuta, gull. Faced med denne massive rushen, ble Bank of England tvunget til å ta grep for å stabilisere situasjonen. For å forhindre en potensiell deflasjon av gullreservene, bestemte den seg for å suspendere konverterbarheten av sine sedler til gull. Denne suspensjonen, opprinnelig ment som en midlertidig tiltak, varte i en periode på to tiår.

@@ -1,0 +1,11 @@
+question: Jakie są dwie główne cechy Bitcoin?
+answer: Bitcoin to zarówno protokół komputerowy, jak i jednostka monetarna.
+wrong_answers:
+  - Bitcoin jest zarówno walutą fizyczną, jak i cyfrową Wallet.
+  - Bitcoin jest zarówno rodzajem akcji, jak i obligacji.
+  - Bitcoin jest zarówno scentralizowaną, jak i zdecentralizowaną walutą.
+explanation: |
+  Bitcoin jest zarówno protokołem komputerowym, który wykorzystuje technologie
+  technologie, takie jak kryptografia i Blockchain, a także jednostka monetarna
+  która jest używana do transakcji.
+reviewed: true

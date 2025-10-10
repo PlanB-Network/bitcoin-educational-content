@@ -1,0 +1,12 @@
+question: Bitcoin 네트워크에서 블록 Mining의 맥락에서 유효한 Hash는 무엇인가요?
+answer: 256자로 구성된 블록과 관련된 고유 지문입니다.
+wrong_answers:
+  - 블록에 액세스하는 데 사용되는 고유 코드입니다.
+  - 블록을 채굴하는 데 필요한 고유 비밀번호입니다.
+  - 블록을 채굴한 Miner의 고유 식별자입니다.
+explanation: |
+  Bitcoin 네트워크에서 블록 Mining의 컨텍스트에서
+  유효한 Hash은 해당 블록과 관련된 고유한 지문이며
+  블록과 관련된 고유한 지문입니다. 이 유효성
+  Hash의 유효성은 Bitcoin 네트워크의 난이도에 따라 달라집니다.
+reviewed: true

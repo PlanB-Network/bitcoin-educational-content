@@ -1,12 +1,13 @@
-question: Varför är Bitcoin inte allmänt accepterat inom handeln idag?
-answer: Eftersom det inte är allmänt antaget av individer.
+question: Vilken är den största fördelen med guld som valuta?
+answer: Den är otroligt tålig.
 wrong_answers:
-  - Eftersom den inte är transportabel.
-  - Eftersom det inte är delbart i små enheter.
-  - För att det inte är Liquid.
+  - Det är lätt att dela upp eller transportera över långa avstånd.
+  - Det är lätt att verifiera.
+  - Det är inte reglerat av regeringen.
 explanation: |
-  Trots dess egenskaper, såsom dess strikt begränsade
-  Supply, är Bitcoin fortfarande inte allmänt accepterad i handeln
-  idag, på grund av bristen på antagande av individer, så
-  handlare uppmuntras inte att acceptera det.
+  Även om det inte är lätt att dela upp eller transportera över långa
+  långa sträckor, är guld ett mycket hållbart material, vilket
+  vilket gör det till en bra värdebevarare. Guldmynt användes som valuta
+  som valuta förr i tiden, men de skulle inte tjäna samma
+  syfte i dagens digitala era.
 reviewed: true

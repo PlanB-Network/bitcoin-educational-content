@@ -1,0 +1,8 @@
+question: Ni igiki kidasanzwe kiranga umurongo wa Bitcoin?
+answer: Ikora ku rugero rw’isi yose, amasaha 24 ku musi, imisi 7 ku ndwi.
+wrong_answers:
+  - Ikora gusa mu masaha y’akazi.
+  - Igenzurwa n’ubutegetsi buhambaye.
+  - Ishobora gufatwa bitagoranye.
+explanation: >-
+reviewed: true

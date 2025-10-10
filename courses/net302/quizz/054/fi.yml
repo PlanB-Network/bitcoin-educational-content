@@ -1,0 +1,9 @@
+question: Millä NAT-muodolla yksityinen IP Address yhdistetään pysyvästi julkiseen IP Address:aan?
+answer: Staattinen käännös
+wrong_answers:
+  - Dynaaminen käännös
+  - PAT (Port Address käännös)
+  - Dynaaminen reititys
+explanation: |
+  Staattinen käännös luo kiinteän yhdistelmän sisäisen IP Address:n ja julkisen IP Address:n välille, mikä on hyödyllistä, kun sisäisiä resursseja voidaan käyttää ulkopuolelta.
+reviewed: false

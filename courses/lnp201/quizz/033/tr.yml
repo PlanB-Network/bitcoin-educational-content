@@ -1,0 +1,9 @@
+question: Lightning Network'da soğan yönlendirme ne anlama gelir?
+answer: Bu, her ara düğümün yalnızca yol üzerindeki yakın komşularını bildiği anlamına gelir.
+wrong_answers:
+  - Nihai alıcıyı bilerek fonları düğümden düğüme doğrudan iletmek
+  - Her bir ara düğüm için ücretleri bağımsız olarak hesaplamak için
+  - Yol üzerindeki tüm düğümlere aynı anda fon göndermek için
+explanation: |
+  Soğan yönlendirme, her ara düğümün yalnızca bir önceki ve bir sonraki düğümü bildiği ve böylece nihai alıcının gizliliğini koruduğu anlamına gelir.
+reviewed: false

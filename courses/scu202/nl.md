@@ -156,7 +156,7 @@ Ben je klaar om je IT-beveiliging volledig onder controle te krijgen, je individ
 
 
 
-*N.B.: Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst] (https://planb.network/resources/glossary) voor definities
+**N.B.:** Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.network/resources/glossary) voor definities
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman bekritiseert openlijk het gebruik van de term "open source", om
 
 
 
-*Bron: Nathaniel Welch
+**Bron: Nathaniel Welch**
 
 
 
@@ -794,7 +794,7 @@ Deze vroege inspanningen markeerden de geboorte van Linux-distributies:
 
 
 
-- Februari 1992: MCC Interim Linux**
+- Februari 1992: **MCC Interim Linux**
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux is ontwikkeld aan de Universiteit van Manchester en wordt besc
 
 
 
-- Mei 1992: Softlanding Linux-systeem (SLS)**
+- Mei 1992: Softlanding Linux-systeem (SLS)
 
 
 
@@ -826,7 +826,7 @@ SLS bestaat niet meer. De laatst bekende versie dateert van eind 1994.
 
 
 
-- Juli 1993: Slackware**
+- Juli 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware wordt vandaag de dag nog steeds onderhouden en is daarmee de oudste Li
 
 
 
-- Augustus 1993: Debian**
+- Augustus 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Debian werd zo een van de technische en ideologische pijlers van de GNU/Linux-we
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ De keuze van een Linux-distributie hangt af van je specifieke behoeften, je tech
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1066,7 +1066,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1086,7 +1086,7 @@ Mint onderscheidt zich door zijn eenvoud, de standaard aanwezigheid van multimed
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ De installatie verloopt soepel, essentiële software is voorgeïnstalleerd en me
 
 
 
-- elementair OS**:
+- **elementair OS**:
 
 Elementary OS, dat in 2011 werd gelanceerd, is een op Ubuntu gebaseerde distributie die zich vooral richt op het ontwerp en de consistentie van Interface. De desktopomgeving Pantheon is geïnspireerd op macOS. De Pantheon desktopomgeving, geïnspireerd door macOS, is minimalistisch, elegant en vloeiend. Het systeem blijft echter minder aanpasbaar dan andere distributies, en sommige geavanceerde gebruikers kunnen zich beperkt voelen door de keuzemogelijkheden van Interface en de opzettelijk gesloten structuur. Het is zeer geschikt voor esthetisch gevoelige gebruikers die op zoek zijn naar een eenvoudig, samenhangend systeem voor dagelijks gebruik.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Pop!OS is ontwikkeld door het Amerikaanse bedrijf System76 en is ook gebaseerd o
 
 
 
-- Fedora** (Workstation of KDE Plasma):
+- **Fedora** (Workstation of KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora is een Red Hat-ondersteunde distributie, gericht op de nieuwste technolog
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed of Leap):
+- **openSUSE** (Tumbleweed of Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE is beschikbaar als een rolling release of stabiele distributie. Het bev
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian bestaat in verschillende takken, waaronder *Stable* (zeer betrouwbare, ma
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro is gebaseerd op Arch en maakt Arch Linux toegankelijk. Deze distributie 
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Gespecialiseerde distributie
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux is een op Debian gebaseerde distributie die is ontworpen voor penetratietesten en beveiligingsaudits. Het bevat honderden pentest tools. Deze distributie is niet echt geschikt als hoofdsysteem voor dagelijks gebruik.
 
@@ -1224,7 +1224,7 @@ Kali Linux is een op Debian gebaseerde distributie die is ontworpen voor penetra
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS is ook afgeleid van Debian. Het biedt een omgeving voor pentesting, of
 
 
 
-- Staarten**:
+- **Staarten**:
 
 
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS is gebaseerd op Fedora en gebruikt het Xen virtualisatiesysteem om het 
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch is een pentest-georiënteerde uitbreiding voor Arch Linux (zoals Kali 
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1302,7 +1302,7 @@ PureOS is een van Debian afgeleide distributie ontwikkeld door Purism, volledig 
 
 https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Raspberry Pi OS**:
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (voorheen Raspbian) is een distributie geoptimaliseerd voor Raspberry Pi microcomputers. Het is gebaseerd op Debian, met pakketten opnieuw gecompileerd voor de ARM-architectuur. Het kan worden gebruikt voor educatieve projecten, elektronisch testen of kleine persoonlijke servers.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (voorheen Raspbian) is een distributie geoptimaliseerd voor Rasp
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1362,55 +1362,55 @@ Een desktopomgeving in een Linux-distributie is niet een enkele toepassing, maar
 
 
 
-- Een vensterbeheerder**: tekent vensterranden, beheert de plaatsing ervan, het wijzigen van de grootte en overgangseffecten... Bijvoorbeeld: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Een vensterbeheerder**: tekent vensterranden, beheert de plaatsing ervan, het wijzigen van de grootte en overgangseffecten... Bijvoorbeeld: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Een bestandsbeheerder**: hiermee kun je door de mappenstructuur navigeren en bestanden visueel kopiëren, verplaatsen of verwijderen. Voorbeelden: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Een bestandsbeheerder**: hiermee kun je door de mappenstructuur navigeren en bestanden visueel kopiëren, verplaatsen of verwijderen. Voorbeelden: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Een configuratiecentrum**: dit is een verzameling hulpmiddelen waarmee de gebruiker systeemparameters kan wijzigen zonder de opdrachtregel te gebruiken: uiterlijk, achtergrond, gebruikersbeheer, netwerk, randapparatuur...
+- **Een configuratiecentrum**: dit is een verzameling hulpmiddelen waarmee de gebruiker systeemparameters kan wijzigen zonder de opdrachtregel te gebruiken: uiterlijk, achtergrond, gebruikersbeheer, netwerk, randapparatuur...
 
 
 
 
 
-- Systeem-applets**: dit zijn de kleine pictogrammen en interactieve modules in de taakbalk (of "paneel"), zoals geluidsregeling, batterijniveau, netwerkverbinding, klok...
+- **Systeem-applets**: dit zijn de kleine pictogrammen en interactieve modules in de taakbalk (of "paneel"), zoals geluidsregeling, batterijniveau, netwerkverbinding, klok...
 
 
 
 
 
-- Een paneel of dashboard**: een zichtbare balk, vaak bovenaan of onderaan het scherm, met het hoofdmenu, systeemapplets, snelkoppelingen, notificatiezone, enz.
+- Een **paneel of dashboard**: een zichtbare balk, vaak bovenaan of onderaan het scherm, met het hoofdmenu, systeemapplets, snelkoppelingen, notificatiezone, enz.
 
 
 
 
 
-- Een sessiemanager**: wordt bij het opstarten uitgevoerd, geeft het inlogscherm weer en start de gekozen grafische sessie. Bijvoorbeeld: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- Een **sessiemanager**: wordt bij het opstarten uitgevoerd, geeft het inlogscherm weer en start de gekozen grafische sessie. Bijvoorbeeld: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Meldingsbeheerder**: beheert de weergave van systeemmeldingen (berichten, waarschuwingen, updates, enz.). Bijvoorbeeld: dunst, Plasma-notifier, xfce4-notifyd.
+- **Meldingsbeheerder**: beheert de weergave van systeemmeldingen (berichten, waarschuwingen, updates, enz.). Bijvoorbeeld: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 compositor (optioneel)**: voegt visuele effecten toe (schaduwen, transparantie, animaties) in omgevingen waar de window manager geen compositing ondersteunt. Bijvoorbeeld: compton, picom.
+- **X11 compositor (optioneel)**: voegt visuele effecten toe (schaduwen, transparantie, animaties) in omgevingen waar de window manager geen compositing ondersteunt. Bijvoorbeeld: compton, picom.
 
 
 
 
 
-- Een displayserver**: dit is de software die de communicatie afhandelt tussen het systeem (via de kernel en grafische stuurprogramma's) en grafische applicaties. Het toont vensters op het scherm en beheert toetsenbord- en muisinvoer. De beeldschermserver is vaak een ander onderdeel van de desktopomgeving, maar steeds meer systemen gebruiken Wayland, een modern protocol waarbij de rol van de beeldschermserver direct overgenomen kan worden door de window manager (bijvoorbeeld Mutter onder GNOME of KWin onder KDE). Dit wordt dan "Wayland compositing" genoemd.
+- Een **displayserver**: dit is de software die de communicatie afhandelt tussen het systeem (via de kernel en grafische stuurprogramma's) en grafische applicaties. Het toont vensters op het scherm en beheert toetsenbord- en muisinvoer. De beeldschermserver is vaak een ander onderdeel van de desktopomgeving, maar steeds meer systemen gebruiken Wayland, een modern protocol waarbij de rol van de beeldschermserver direct overgenomen kan worden door de window manager (bijvoorbeeld Mutter onder GNOME of KWin onder KDE). Dit wordt dan "Wayland compositing" genoemd.
 
 
 
@@ -1877,7 +1877,7 @@ Zodra je Ubuntu hebt opgestart, begeleidt de installatiewizard je stap voor stap
 
 
 
-- Installatie naast Windows (*dual boot*)**
+- Installatie naast Windows (*dual boot*)
 
 
 
@@ -1902,7 +1902,7 @@ Om dit goed te doen, raad ik je aan om eerst een niet-toegewezen partitie aan te
 
 
 
-- Volledige vervanging van ramen**
+- **Volledige vervanging van ramen**
 
 
 
@@ -2020,10 +2020,10 @@ Elk archief is verdeeld in secties. Standaard activeert Ubuntu vier hoofdsecties
 
 
 
-- main**: vrije software die officieel wordt onderhouden door Canonical. Voorbeelden: Firefox, LibreOffice, bash
-- restricted**: niet-vrije software die essentieel is voor de goede werking van de hardware. Voorbeelden: NVIDIA-stuurprogramma's, Wi-Fi-firmware, eigen codecs
-- univers**: vrije software die door de gemeenschap wordt onderhouden. Voorbeelden: GIMP, Inkscape, Audacity
-- multiverse**: software onderhevig aan wettelijke beperkingen (patenten, niet-vrije licenties). Beschikbaarheid kan per land verschillen. Voorbeelden: bepaalde audio/video-codecs, Steam
+- **main**: vrije software die officieel wordt onderhouden door Canonical. Voorbeelden: Firefox, LibreOffice, bash
+- **restricted**: niet-vrije software die essentieel is voor de goede werking van de hardware. Voorbeelden: NVIDIA-stuurprogramma's, Wi-Fi-firmware, eigen codecs
+- **universel**: vrije software die door de gemeenschap wordt onderhouden. Voorbeelden: GIMP, Inkscape, Audacity
+- **multiverse**: software onderhevig aan wettelijke beperkingen (patenten, niet-vrije licenties). Beschikbaarheid kan per land verschillen. Voorbeelden: bepaalde audio/video-codecs, Steam
 
 
 
@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kantoorpakket
 
 
@@ -3617,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- MacOS*-besturingssysteem
+- MacOS-besturingssysteem
 
 
 
@@ -3653,25 +3654,25 @@ Sommige software is gevoeliger dan andere, omdat het direct communiceert met de 
 
 
 
-- Webbrowsers*: deze staan in de frontlinie van aanvallen, omdat ze niet-geverifieerde inhoud in realtime verwerken en een bijzonder groot aanvalsoppervlak hebben. Bovendien spelen ze een centrale rol in de bescherming van uw persoonlijke gegevens. En bovenal vervangen ze veel softwaretoepassingen die voorheen lokaal werden gebruikt (e-mailclients, kantoorpakketten, mediaspelers...). Maar we komen hierop terug in het volgende deel van de SCU202-cursus;
+- **Webbrowsers**: deze staan in de frontlinie van aanvallen, omdat ze niet-geverifieerde inhoud in realtime verwerken en een bijzonder groot aanvalsoppervlak hebben. Bovendien spelen ze een centrale rol in de bescherming van uw persoonlijke gegevens. En bovenal vervangen ze veel softwaretoepassingen die voorheen lokaal werden gebruikt (e-mailclients, kantoorpakketten, mediaspelers...). Maar we komen hierop terug in het volgende deel van de SCU202-cursus;
 
 
 
 
 
-- Mailclients*: ze ontvangen bijlagen of koppelingen van externe bronnen die oncontroleerbaar en dus riskant zijn;
+- **Mailclients**: ze ontvangen bijlagen of koppelingen van externe bronnen die oncontroleerbaar en dus riskant zijn;
 
 
 
 
 
-- Communicatiehulpmiddelen* (TeamViewer, Zoom, Signal, Teams...): vanwege hun interactieve aard zijn ze doelwit van spionageaanvallen of pogingen tot afstandsbediening. Op dezelfde manier als e-mailclients kunnen communicatietools worden gebruikt als vectoren voor phishingpogingen of de distributie van kwaadaardige bijlagen;
+- **Communicatiehulpmiddelen** (TeamViewer, Zoom, Signal, Teams...): vanwege hun interactieve aard zijn ze doelwit van spionageaanvallen of pogingen tot afstandsbediening. Op dezelfde manier als e-mailclients kunnen communicatietools worden gebruikt als vectoren voor phishingpogingen of de distributie van kwaadaardige bijlagen;
 
 
 
 
 
-- Antivirus-, firewall- en andere detectieoplossingen*: deze tools genieten over het algemeen verhoogde privileges omdat ze voortdurend je bestanden, processen en netwerkverbindingen scannen. Een verouderde database met handtekeningen, een slechte configuratie of een kwetsbaarheid in de software zelf kan ervoor zorgen dat malware onopgemerkt blijft of zelfs verhoogde rechten krijgt.
+- **Antivirus-, firewall- en andere detectieoplossingen**: deze tools genieten over het algemeen verhoogde privileges omdat ze voortdurend je bestanden, processen en netwerkverbindingen scannen. Een verouderde database met handtekeningen, een slechte configuratie of een kwetsbaarheid in de software zelf kan ervoor zorgen dat malware onopgemerkt blijft of zelfs verhoogde rechten krijgt.
 
 
 
@@ -3892,7 +3893,7 @@ Zoals we in de vorige sectie hebben gezien, is Windows historisch gezien meer bl
 
 
 
-- Microsoft Defender*: onder Windows is het hebben van een goede antivirus een basisbehoefte. Jarenlang werd Microsoft Defender (voorheen Windows Defender), de ingebouwde antivirus, als onbetrouwbaar beschouwd en werden oplossingen van derden aanbevolen. Maar deze software is in de loop der tijd aanzienlijk verbeterd en is nu, naar mijn mening, voldoende om basisbescherming te bieden voor persoonlijk gebruik. Toch moeten we de rol van antivirussoftware niet overschatten: het zijn vooral je eigen digitale praktijken die je veiligheid garanderen. Een van de voordelen van Defender is de integratie met Windows. Naast realtime bescherming biedt het uitgebreide scans die je wekelijks kunt plannen of handmatig op regelmatige tijdstippen kunt uitvoeren.
+- **Microsoft Defender**: onder Windows is het hebben van een goede antivirus een basisbehoefte. Jarenlang werd Microsoft Defender (voorheen Windows Defender), de ingebouwde antivirus, als onbetrouwbaar beschouwd en werden oplossingen van derden aanbevolen. Maar deze software is in de loop der tijd aanzienlijk verbeterd en is nu, naar mijn mening, voldoende om basisbescherming te bieden voor persoonlijk gebruik. Toch moeten we de rol van antivirussoftware niet overschatten: het zijn vooral je eigen digitale praktijken die je veiligheid garanderen. Een van de voordelen van Defender is de integratie met Windows. Naast realtime bescherming biedt het uitgebreide scans die je wekelijks kunt plannen of handmatig op regelmatige tijdstippen kunt uitvoeren.
 
 
 
@@ -3902,12 +3903,12 @@ Zoals we in de vorige sectie hebben gezien, is Windows historisch gezien meer bl
 
 
 
-- Sysinternals Suite*: dit is een veel geavanceerdere set hulpprogramma's van Microsoft voor het diagnosticeren, bewaken en oplossen van problemen met Windows. Dit zijn de belangrijkste tools in deze suite:
-    - Process Monitor*: hiermee kun je actieve processen, bestandstoegang, registers, enz. in realtime observeren;
-    - Autoruns*: toont alle programma's die bij het opstarten worden gestart, zodat je snel hardnekkige malware of toepassingen die niet zouden moeten draaien, kunt detecteren;
-    - Process Explorer*: bewaakt processen en detecteert verdacht gedrag;
-    - TCPView*: visualiseert actieve netwerkverbindingen (detectie van abnormale verbindingen) ;
-    - Sigcheck*: controleert digitale handtekeningen op bestanden op kwaadaardige code.
+- **Sysinternals Suite**: dit is een veel geavanceerdere set hulpprogramma's van Microsoft voor het diagnosticeren, bewaken en oplossen van problemen met Windows. Dit zijn de belangrijkste tools in deze suite:
+- **Process Monitor**: hiermee kun je actieve processen, bestandstoegang, registers, enz. in realtime observeren;
+- **Autoruns**: toont alle programma's die bij het opstarten worden gestart, zodat je snel hardnekkige malware of toepassingen die niet zouden moeten draaien, kunt detecteren;
+- **Process Explorer**: bewaakt processen en detecteert verdacht gedrag;
+- **TCPView**: visualiseert actieve netwerkverbindingen (detectie van abnormale verbindingen) ;
+- **Sigcheck**: controleert digitale handtekeningen op bestanden op kwaadaardige code.
 
 
 
@@ -3917,7 +3918,7 @@ Zoals we in de vorige sectie hebben gezien, is Windows historisch gezien meer bl
 
 
 
-- GlassWire*: een hulpmiddel voor netwerkbewaking. Het volgt inkomende en uitgaande verbindingen in realtime en waarschuwt je bij ongewone activiteit.
+- **GlassWire**: een hulpmiddel voor netwerkbewaking. Het volgt inkomende en uitgaande verbindingen in realtime en waarschuwt je bij ongewone activiteit.
 
 
 
@@ -3935,7 +3936,7 @@ Op een goed onderhouden Linux machine die voor persoonlijke doeleinden wordt geb
 
 
 
-- Fail2ban*: controleert systeemlogs op mislukte toegangspogingen (zoals brute-force SSH aanmeldpogingen). Wanneer verdacht gedrag wordt gedetecteerd, wordt het overtredende IP Address tijdelijk verbannen via `iptables`;
+- **Fail2ban**: controleert systeemlogs op mislukte toegangspogingen (zoals brute-force SSH aanmeldpogingen). Wanneer verdacht gedrag wordt gedetecteerd, wordt het overtredende IP Address tijdelijk verbannen via `iptables`;
 
 
 
@@ -3945,7 +3946,7 @@ Op een goed onderhouden Linux machine die voor persoonlijke doeleinden wordt geb
 
 
 
-- Lynis*: een uitgebreide tool voor beveiligingsaudits die je systeem analyseert op misconfiguraties, bekende zwakke punten of afwijkingen van best practices. Het genereert een eenvoudig te lezen rapport met een beveiligingsscore en aanbevelingen.
+- **Lynis**: een uitgebreide tool voor beveiligingsaudits die je systeem analyseert op misconfiguraties, bekende zwakke punten of afwijkingen van best practices. Het genereert een eenvoudig te lezen rapport met een beveiligingsscore en aanbevelingen.
 
 
 
@@ -3964,7 +3965,7 @@ macOS staat bekend om zijn beveiliging, vooral dankzij het beleid voor handteken
 
 
 
-- KnockKnock*: scant alle Elements die geconfigureerd zijn om bij het opstarten te draaien (agents, daemons, kernelmodules...) en identificeert degene die potentieel verdacht, niet ondertekend of onbekend zijn. Hiermee kun je snel kwaadaardige persistentie op je systeem identificeren.
+- **KnockKnock**: scant alle Elements die geconfigureerd zijn om bij het opstarten te draaien (agents, daemons, kernelmodules...) en identificeert degene die potentieel verdacht, niet ondertekend of onbekend zijn. Hiermee kun je snel kwaadaardige persistentie op je systeem identificeren.
 
 
 
@@ -4548,7 +4549,7 @@ Volledige encryptie is als een slot: zolang het wachtwoord niet wordt gegeven, b
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4807,7 +4808,7 @@ Klik ten slotte op de pijlvormige knop in de rechterbovenhoek om de sleutel netj
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4853,7 +4854,7 @@ Zodra FileVault is geactiveerd, moet u een herstelmethode kiezen voor het geval 
 Voor externe opslagmedia (Hard schijven, USB-sticks, enz.) wordt de codering uitgevoerd met behulp van het schijfhulpprogramma. U moet het volume volledig opnieuw formatteren:
 
 - Selecteer het apparaat en klik op "*Verwijderen*"
-- Selecteer het "GUID*-partitietabel"-schema
+- Selecteer het **GUID-partitietabel**-schema
 - Kies vervolgens een versleutelde bestandssysteemindeling (*APFS* of *Mac OS extended*)
 - Kies een sterk wachtwoord
 - Klik op "*Delete*", dan op "*OK*" en de codering is voltooid
@@ -4933,7 +4934,7 @@ Dit pakket installeert `exiftool`, dat je vervolgens direct vanaf de commandoreg
 
 
 
-- Stap 2: Metagegevens van bestanden bekijken** (in het Frans)
+- Stap 2: **Metagegevens van bestanden bekijken** (in het Frans)
 
 
 
@@ -5679,7 +5680,7 @@ Blink-gebaseerde browsers omvatten ook een aantal meer marginale browsers, vaak 
 
 
 
-- Boog** :
+- **Boog**:
 
 
 
@@ -5697,7 +5698,7 @@ Technisch gezien is Arc gebaseerd op Chromium, maar het blijft propriëtaire sof
 
 
 
-- Polypaan** :
+- **Polypaan** :
 
 
 
@@ -5741,6 +5742,7 @@ Firefox blijft een benchmark voor beveiliging en privacy, ondanks het feit dat h
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-browser
 
 
@@ -5811,7 +5813,7 @@ Vanuit het oogpunt van beveiliging en privacy beschikt Zen over een ingebouwde b
 
 Zen Browser is een interessant alternatief als je op zoek bent naar een Gecko-browseromgeving die gratis, innovatief, overzichtelijk en privacyvriendelijk is.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-gebaseerde browsers
 
@@ -5853,6 +5855,7 @@ Orion is volledig ontwikkeld door het Kagi-team (bekend van de reclamevrije zoek
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers zonder rendering engines
 
 
@@ -6187,25 +6190,25 @@ Om deze aanvallen tijdens het online surfen te vermijden, is het belangrijk om b
 
 
 
-- Analyseer de URL**: aanvallers gebruiken vaak adressen die erg lijken op het origineel (bijv. `micr0soft-support.com`, `paypal-verif.net`, etc.). Sommigen vervangen ook visueel vergelijkbare karakters en maken gebruik van Unicode karakters. Controleer of de Address precies overeenkomt met de verwachte site, zonder verdachte voor- of achtervoegsels.
+- Analyseer de **URL**: aanvallers gebruiken vaak adressen die erg lijken op het origineel (bijv. `micr0soft-support.com`, `paypal-verif.net`, etc.). Sommigen vervangen ook visueel vergelijkbare karakters en maken gebruik van Unicode karakters. Controleer of de Address precies overeenkomt met de verwachte site, zonder verdachte voor- of achtervoegsels.
 
 
 
 
 
-- Vermijd verkorte links**: diensten zoals `bit.ly` of `t.co` kunnen de uiteindelijke Address maskeren. Als je een verkorte link ontvangt, wees dan achterdochtig of gebruik een URL uitbreidingsservice om de bestemming te controleren.
+- Vermijd **verkorte links**: diensten zoals `bit.ly` of `t.co` kunnen de uiteindelijke Address maskeren. Als je een verkorte link ontvangt, wees dan achterdochtig of gebruik een URL uitbreidingsservice om de bestemming te controleren.
 
 
 
 
 
-- Pas op voor alarmerende berichten**: phishingpogingen maken vaak gebruik van sterke emoties (urgentie, dreiging, beloning, nieuwsgierigheid...). Een e-mail waarin wordt beweerd dat je account op het punt staat geblokkeerd te worden of dat een pakketje niet bezorgd kan worden, is natuurlijk verdacht.
+- Pas op voor **alarmerende berichten**: phishingpogingen maken vaak gebruik van sterke emoties (urgentie, dreiging, beloning, nieuwsgierigheid...). Een e-mail waarin wordt beweerd dat je account op het punt staat geblokkeerd te worden of dat een pakketje niet bezorgd kan worden, is natuurlijk verdacht.
 
 
 
 
 
-- Verstuur nooit gevoelige informatie via een ontvangen link**: Een legitieme instelling zal je nooit om een wachtwoord, verificatiecode of een gescande kopie van je ID vragen via een eenvoudige e-mail of sms.
+- **Verstuur nooit gevoelige informatie via een ontvangen link**: Een legitieme instelling zal je nooit om een wachtwoord, verificatiecode of een gescande kopie van je ID vragen via een eenvoudige e-mail of sms.
 
 
 
@@ -6215,7 +6218,7 @@ En hier zijn een paar preventieve maatregelen die je direct in je browser kunt i
 
 
 
-- Toegang tot belangrijke sites via je bladwijzers**:
+- **Toegang tot belangrijke sites via je bladwijzers**:
 
 
 
@@ -6229,7 +6232,7 @@ Heb je een e-mail ontvangen van de belastingdienst met een link? Klik er dan nie
 
 
 
-- Respecteer goede authenticatiepraktijken** :
+- **Respecteer goede authenticatiepraktijken**:
 
 
 
@@ -6247,7 +6250,7 @@ Naast deze maatregelen kan het gebruik van een goede wachtwoordmanager als brows
 
 
 
-- SSL/TLS**-certificaten inspecteren:
+- **SSL/TLS-certificaten** inspecteren:
 
 
 
@@ -6293,19 +6296,19 @@ Het doel is eenvoudig: voorkomen dat een incident met een specifieke activiteit 
 
 
 
-- Gebruik verschillende browsers**: bijvoorbeeld Firefox voor persoonlijk gebruik, Tor of Mullvad voor gevoelige activiteiten en Chromium voor professionele taken. Elke browser gebruikt zijn eigen opslaginstantie, die cookies, sessies en extensies volledig isoleert. Hierdoor kunt u ook de browserinstellingen aanpassen aan uw specifieke gebruikssituaties.
+- **Gebruik verschillende browsers**: bijvoorbeeld Firefox voor persoonlijk gebruik, Tor of Mullvad voor gevoelige activiteiten en Chromium voor professionele taken. Elke browser gebruikt zijn eigen opslaginstantie, die cookies, sessies en extensies volledig isoleert. Hierdoor kunt u ook de browserinstellingen aanpassen aan uw specifieke gebruikssituaties.
 
 
 
 
 
-- Meerdere profielen aanmaken binnen één browser**: sommige browsers staan je toe om onafhankelijke profielen aan te maken, elk met hun eigen geschiedenis, sessies, extensies en instellingen. Dit is een iets minder beperkende oplossing dan het gebruik van meerdere afzonderlijke browsers, maar is nog steeds minder effectief.
+- **Meerdere profielen aanmaken binnen één browser**: sommige browsers staan je toe om onafhankelijke profielen aan te maken, elk met hun eigen geschiedenis, sessies, extensies en instellingen. Dit is een iets minder beperkende oplossing dan het gebruik van meerdere afzonderlijke browsers, maar is nog steeds minder effectief.
 
 
 
 
 
-- Gebruik ingebouwde containers**: Firefox biedt de extensie [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), waarmee u aparte tabbladen kunt openen, elk met een eigen login en cookies. U kunt ook automatisch bepaalde sites aan een specifieke container toewijzen, zodat ze elke keer dat ze worden geopend apart worden gehouden.
+- **Gebruik ingebouwde containers**: Firefox biedt de extensie [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), waarmee u aparte tabbladen kunt openen, elk met een eigen login en cookies. U kunt ook automatisch bepaalde sites aan een specifieke container toewijzen, zodat ze elke keer dat ze worden geopend apart worden gehouden.
 
 
 
@@ -6315,7 +6318,7 @@ Het doel is eenvoudig: voorkomen dat een incident met een specifieke activiteit 
 
 
 
-- Gebruik een geïsoleerde systeemomgeving**: Voor bijzonder gevoelig gebruik kun je je browser ook draaien in een virtuele machine of Docker-container, om hem volledig gescheiden te houden van je hoofdomgeving.
+- **Gebruik een geïsoleerde systeemomgeving**: Voor bijzonder gevoelig gebruik kun je je browser ook draaien in een virtuele machine of Docker-container, om hem volledig gescheiden te houden van je hoofdomgeving.
 
 
 
@@ -7039,7 +7042,7 @@ Telegram is een zeer populaire berichtendienst dankzij zijn ergonomie en functie
 Telegram kan daarom technisch gezien toegang krijgen tot de inhoud van de meeste gesprekken die niet expliciet beveiligd zijn. Zelfs als het bedrijf een ferme houding aanneemt tegenover overheidsinstanties, is Telegram geen optimale oplossing voor vertrouwelijke of gevoelige uitwisselingen, tenzij je expliciet gebruik maakt van de "geheime uitwisselingen", die veel minder praktisch zijn op een dagelijkse basis.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile is de mobiele versie van de populaire open-source e-mailclien
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis is een uitgebreide open-source applicatie. Het versleutelt je 2FA-database
 Ente Auth is een moderne, open-source, multi-platform oplossing met end-to-end versleutelde back-ups. Het stelt je in staat om je 2FA-codes veilig te synchroniseren op mobiel, desktop en web. Je kunt het ook offline gebruiken, zonder cloudback-up of accountcreatie.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth biedt veel extra functies: Organisatie op tags, aangepaste pictogrammen voor elke dienst, notities, favorieten, geïntegreerd zoeken, veilig delen van teamcode.
 
 
@@ -7606,6 +7611,7 @@ Authy biedt 2FA synchronisatie op meerdere apparaten, wat handig kan zijn, maar 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Als u meer wilt weten over wachtwoordmanagers, 2FA-authenticatie en VPN's, raad ik u aan de hoofdstukken in de SCU-101-cursus te lezen:
 
 
@@ -7999,6 +8005,7 @@ Chrono is beschikbaar op F-Droid en volledig open-source. Het biedt een moderne,
 De applicatie integreert ook een timer en stopwatch, met rondeopname, statistieken, tijdvergelijkingen en beheer van meerdere timers. Je kunt meerdere tijdzones instellen, het thema aanpassen (kleuren, stijlen, animaties) en zelfs je alarmen en timers organiseren met labels.
 
 
+Om dieper op het onderwerp in te gaan, raad ik u aan de website [*Awesome Privacy*](https://awesome-privacy.xyz/) te bezoeken, die de beste privacyvriendelijke alternatieven opsomt voor de software die u dagelijks gebruikt.
 ___
 
 
@@ -8063,8 +8070,8 @@ De internetinfrastructuur is voornamelijk gebaseerd op twee protocollen:
 
 
 
-- IP** (*Internet Protocol*) Identificeert elk aangesloten apparaat en routeert gegevenspakketten.
-- TCP** (*Transmission Control Protocol*) segmenteert de stroom, controleert op fouten en zet de segmenten weer op volgorde.
+- **IP** (*Internet Protocol*) Identificeert elk aangesloten apparaat en routeert gegevenspakketten.
+- **TCP** (*Transmission Control Protocol*) segmenteert de stroom, controleert op fouten en zet de segmenten weer op volgorde.
 
 
 → Voor real-time toepassingen waarbij betrouwbaarheid minder belangrijk is dan latentie (VoIP, DNS, streaming, etc.) wordt vaak een ander transportprotocol gebruikt in plaats van TCP: UDP (*User Datagram Protocol*).
@@ -8098,14 +8105,14 @@ Dit apparaat combineert 2 hoofdfuncties:
 
 
 
-- De modemrol**
+- De modemrol
 
 
 De modem (kort voor "*modulator-demodulator*") is het onderdeel dat je ISP-netwerk met je huis verbindt. Het zet de ontvangen elektrische of optische signalen (via glasvezel, coaxkabel, ADSL of het mobiele netwerk) om in digitale signalen die door je apparaten begrepen kunnen worden. Omgekeerd zet het de gegevens van je apparatuur om in een formaat dat via de infrastructuur van de operator kan worden verzonden. Deze stap is essentieel als je thuisnetwerk moet communiceren met het internet.
 
 
 
-- De routerol**
+- De routerol
 
 
 De router is het hart van je lokale netwerk. Hij verdeelt de internetverbinding over al je apparaten: Computers, smartphones, aangesloten objecten, printers, enz. Hij wijst elk van hen een lokaal IP Address toe (verschillend van je publieke IP die zichtbaar is op het internet). De router organiseert vervolgens het inkomende en uitgaande verkeer en zorgt ervoor dat gegevens bij het juiste apparaat terechtkomen. Hij kan ook een firewall integreren, netwerkpakketten filteren of regels voor poort doorsturen beheren. NAT maskeert je lokale netwerk voor de ogen van het internet en gebruikt één openbaar IP Address om al je apparaten te vertegenwoordigen. Alleen de router weet welk lokaal apparaat welk verzoek heeft geïnitieerd.
@@ -8275,16 +8282,24 @@ Het is belangrijk om moderne apparatuur te kiezen, die wordt onderhouden door de
 Een router die compatibel is met Wi-Fi 6, Wi-Fi 6E of Wi-Fi 7 biedt je verbeterde snelheden en bovenal native ondersteuning voor moderne beveiligingstechnologieën. Daarentegen kan zeer oude apparatuur, vooral apparatuur die geen software-updates meer ontvangt, bekende, ongepatchte kwetsbaarheden bevatten. Ze vormen daarom een risico voor je hele netwerk, zelfs als je ze correct configureert. Vergeleken met mobiele telefoons of computers zijn routers apparatuur die we vaak jarenlang bewaren. Het kan echter een goed idee zijn om ze regelmatiger te vervangen om te profiteren van een moderner, veiliger model.
 
 
+**Let op**: Als vuistregel geldt dat de routers die door internetproviders worden geleverd mogelijk geen essentiële updatefunctie of personalisatiemogelijkheden hebben. In sommige gevallen kunnen providers ook onbeperkte toegang hebben tot het interne netwerk van de eindgebruiker.
+
 Zorg er dus voor dat je de firmware van je router systematisch bijwerkt. Deze updates corrigeren kwetsbaarheden, voegen nieuwe functies toe en verbeteren de algehele stabiliteit van het systeem. Sommige fabrikanten bieden automatische updates, maar in sommige gevallen moet je ze handmatig controleren via de Interface beheertool van je router. Net als bij je telefoon, computer, besturingssysteem en software is het belangrijk om je router regelmatig bij te werken. Je kunt dit onderdeel maken van je wekelijkse routine - bijvoorbeeld elke zondag - door een lijst op te stellen van alle items die je moet controleren en up-to-date houden.
 
 
-Als je router niet langer wordt onderhouden, maar hardwarematig nog steeds correct werkt, kun je een alternatieve open-source firmware installeren, zoals:
+Als alternatief kunt u automatische updates inschakelen of op zijn minst automatisch scannen naar nieuwe firmware-updates als u er de voorkeur aan geeft handmatig te handelen. Hoewel de functie voor automatische updates nog steeds een beveiligingsrisico kan vormen, zal het nalaten om de firmware van de router regelmatig bij te werken uw lokale netwerk blootstellen aan publiekelijk bekende kwetsbaarheden.
+
+**Voorbeeld**: Bij de aankoop van uw eigen router kan het een goed idee zijn om te zoeken naar gevestigde bedrijven in de branche die al lange tijd routers op de markt aanbieden. Fritz!Box-routers hebben bijvoorbeeld een lange reputatie als plug-and-play-apparaten, die zowel voor gebruik in gezinnen als in kleine bedrijven goed geschikt zijn. Hun beleid voor software-updates strekt zich doorgaans over meerdere jaren uit.
+
+Als uw router niet langer wordt onderhouden maar nog steeds hardwarematig correct werkt, kunt u mogelijk alternatieve open-source firmware installeren, zoals:
 
 
 
 - OpenWrt, een Linux-distributie gespecialiseerd in routers, met veel flexibiliteit en regelmatige updates
 - pfSense en OPNsense, twee op FreeBSD gebaseerde (Unix-achtige) systemen voor x86 firewalls en routers
 
+
+**Opmerking**: Sommige ISP's leveren hun klanten bulkrouters die door één bedrijf worden gemaakt dat tegelijk veel verschillende ISP's wereldwijd bedient. Je kunt ontdekken dat om één van de alternatieve firmwares op de router te installeren, iemand anders misschien al heeft uitgevogeld hoe dat moet, zelfs als die persoon aan de andere kant van de wereld zit.
 
 ![Image](assets/fr/196.webp)
 
@@ -8297,7 +8312,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 Deze systemen maken een fijnere controle mogelijk van firewallregels, uitgaande en inkomende verbindingen, netwerksegmentatie (VLAN's) en DNS-beheer, maar zijn meer gericht op gevorderde gebruikers.
 
 
-**Samengevat raad ik** aan:
+**Samengevat raad ik aan**:
 
 
 
@@ -8349,21 +8364,21 @@ Sommige functies moet je vermijden of systematisch uitschakelen:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Met deze functie kunnen de apparaten op je netwerk de router vragen om automatisch poorten te openen. Hoewel dit bepaalde toepassingen vergemakkelijkt (online games, aangesloten camera's, enz.), zet het ook de deur open voor kwaadwillende toepassingen die de netwerkconfiguratie kunnen wijzigen zonder je toestemming. UPnP is een van de belangrijkste oorzaken van onbedoelde blootstelling van interne services aan de buitenwereld.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Dit systeem is oorspronkelijk ontworpen om het verbinden van apparaten met Wi-Fi zonder het invoeren van een wachtwoord te vereenvoudigen, maar is gebaseerd op een pincode die vaak zwak is en gemakkelijk kan worden aangevallen door brute kracht. Ik raad je aan om het uit te schakelen.
 
 
 
-- Toegang op afstand (*Remote Management*)**:
+- Toegang op afstand (**Remote Management**):
 
 
 Sommige routers staan je toe om van buitenaf, via het internet, verbinding te maken met hun Interface administratie. Deze functie vergroot het aanvalsoppervlak van uw router op onredelijke wijze. Schakel deze functie volledig uit, tenzij je een specifieke behoefte hebt aan beheer op afstand. Gebruik zelfs dan altijd een VPN.
@@ -8372,14 +8387,14 @@ Sommige routers staan je toe om van buitenaf, via het internet, verbinding te ma
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Verouderde of onveilige protocollen**:
+- **Verouderde of onveilige protocollen**:
 
 
 Schakel beheerdiensten uit die gebruikmaken van platte-tekstprotocollen zoals Telnet, FTP, onversleutelde HTTP of SMBv1. Deze protocollen garanderen noch vertrouwelijkheid noch integriteit van de uitgewisselde gegevens en zijn vaak het doelwit van malware. Als je lokale of externe toegang nodig hebt, gebruik dan alleen verbindingen via HTTPS (versleuteld Interface), SSH of SFTP, afhankelijk van wat van toepassing is.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Sommige routers reageren standaard op ICMP verzoeken die van buitenaf worden verstuurd (`ping` commando). Hierdoor kan een aanvaller controleren of je netwerk actief en toegankelijk is. Als je dit niet nodig hebt, schakel deze reactie dan uit in de firewall van de router.
@@ -8468,15 +8483,15 @@ Activeer vervolgens een DNS query encryptie protocol om te voorkomen dat DNS que
 
 
 
-- DoH (*DNS over HTTPS*)**: Kapselt DNS-verzoeken in het HTTPS-protocol in, waardoor ze niet te onderscheiden zijn van conventioneel gecodeerd webverkeer
+- DoH (*DNS over HTTPS*): Kapselt DNS-verzoeken in het HTTPS-protocol in, waardoor ze niet te onderscheiden zijn van conventioneel gecodeerd webverkeer
 
 
 
-- DoT (*DNS over TLS*)**: Creëert een specifiek gecodeerd kanaal tussen uw apparaat en de DNS-server
+- DoT (**DNS over TLS**): Creëert een specifiek gecodeerd kanaal tussen uw apparaat en de DNS-server
 
 
 
-- DoQ (*DNS over QUIC*)**: Transporteert DNS-verzoeken via het QUIC-protocol op basis van UDP
+- **DoQ (*DNS over QUIC*)**: Transporteert DNS-verzoeken via het QUIC-protocol op basis van UDP
 
 
 In de praktijk kunnen DNS-codering en serveromschakeling op verschillende niveaus geïmplementeerd worden:
@@ -8490,6 +8505,7 @@ In de praktijk kunnen DNS-codering en serveromschakeling op verschillende niveau
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Op het niveau van het besturingssysteem: Sommige besturingssystemen integreren standaard versleutelde DNS-ondersteuning (DoT of DoH), waardoor alle DNS-verzoeken die door de netwerkstack van het systeem gaan beveiligd worden. Dit beveiligt echter niet de hele computer of telefoon: Toepassingen kunnen deze instelling omzeilen als ze geconfigureerd zijn om een andere DNS-resolver of een ander protocol te gebruiken.
 
 
@@ -8590,3 +8606,4 @@ Door deze paar stappen te volgen, bouw je een robuuste, veilige netwerkomgeving 
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

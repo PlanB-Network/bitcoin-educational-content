@@ -1,0 +1,5 @@
+---
+term: INGORANE ZO GUSANGIRA
+---
+
+Ingorane y’intumbero irengeye iya Bitcoin (ni co gituma idakomeye cane), isobanurwa na Mining pool kugira ngo umuntu ashobore guhabwa Hash y’umugabane no gusuzuma uruhara rwa Miner umwe wese mu kidengeri. Kugira ngo umuntu ashobore gucunga neza umuzigo wo kugenzura no kumenya neza ko Miner yose, ataco ifatiye ku bushobozi bwayo bwo guharura, itanga imigabane ubudasiba, amashirahamwe arahindura ingorane z’imigabane. Ingorane igenewe Miner imwe imwe ni yo igena umubare w’imigabane yirundanira: nk’akarorero, iyo Miner ifise ingorane igenewe 10, igatanga ibimenyamenya 5 vy’ukuri vy’uko ikora kuri iyo ngorane, ironka imigabane 50. Miner ikomeye cane ifise ingorane y’100 itanga ibimenyamenya 7 vy’ukuri vy’akazi azoronka imigabane 700. Ubwo buryo buratuma umuntu ashobora gupima neza igitigiri ca Hashrate ya Miner yose no gutanga impembo hakurikijwe uburyo bwo kubara bwatowe kugira ngo umuntu aronke indishi (PPS, PPLNS, TIDES...).

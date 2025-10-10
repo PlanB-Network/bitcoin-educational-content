@@ -1,0 +1,9 @@
+question: ¿Cuál es la función de un relé Nostr instalado en Umbrel?
+answer: Aloje sus publicaciones localmente
+wrong_answers:
+  - Comprobar transacciones Bitcoin
+  - Crea canales Nostr con tus contactos
+  - Copia de seguridad local de Blockchain Nostr
+explanation: |
+  Un relé Nostr en Umbrel permite alojar los datos localmente, garantizando la disponibilidad y la soberanía.
+reviewed: true

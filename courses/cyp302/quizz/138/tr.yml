@@ -1,0 +1,9 @@
+question: Yazılım doğrulaması sırasında güvenliği sağlamak için bir Hash işlevi hangi özelliğe sahip olmalıdır?
+answer: Çarpışma direnci
+wrong_answers:
+  - Tersinirlik
+  - Asimetrik anahtarlarla çalışabilirlik
+  - Gerçek zamanlı üretilebilirlik
+explanation: |
+  Çarpışma direnci, aynı Hash'i üreten iki farklı girdinin bulunmasının neredeyse imkansız olmasını sağlar; bu da yazılımın kurcalanmadığını doğrulamak için önemlidir.
+reviewed: false

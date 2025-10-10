@@ -1,0 +1,9 @@
+question: Milline lahendamismeetod nõuab IPv6 Address iga kuuekohalise numbri ümberpööramist pöördvööndi jaoks?
+answer: Pööratud resolutsioon
+wrong_answers:
+  - Vastupidine resolutsioon
+  - Esmane resolutsioon
+  - Teisene resolutsioon
+explanation: |
+  Tagurpidi lahendamiseks pööratakse IPv6 Address täisnibble'i iga nibble ümber ja eraldatakse punktidega, enne kui sellele lisatakse lõppliide ip6.arpa.
+reviewed: false

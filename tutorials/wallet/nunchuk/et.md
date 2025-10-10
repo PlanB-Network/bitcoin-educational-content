@@ -91,14 +91,14 @@ Avanevas aknas leiate väljad, mida "täita": valige paremal olev nupp _Browse_ 
 ![image](assets/en/07.webp)
 
 
-**N.B. ekraanipilt on tehtud Windowsi arvutist, sama praktikat saab kasutada mis tahes operatsioonisüsteemiga arvutis, lihtsalt Sparrow wallet peab olema paigaldatud. Ja kontrollitud!
+**N.B.** ekraanipilt on tehtud Windowsi arvutist, sama praktikat saab kasutada mis tahes operatsioonisüsteemiga arvutis, lihtsalt Sparrow wallet peab olema paigaldatud. Ja kontrollitud!
 
 
 
 Leiad Sparrow wallet juhendi, et laadida alla see Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Seejärel saate .apk-faili arvutist telefoni üle kanda
 

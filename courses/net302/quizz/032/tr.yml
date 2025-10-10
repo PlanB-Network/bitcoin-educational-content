@@ -1,0 +1,9 @@
+question: Standart bir IPv4 Address'ın bit cinsinden uzunluğu nedir?
+answer: 32-bit
+wrong_answers:
+  - 8 bit
+  - 128-bit
+  - 16 bit
+explanation: |
+  Bir IPv4 Address, her biri 8 bitlik dört bayta bölünmüş 32 bit üzerinde kodlanır.
+reviewed: false

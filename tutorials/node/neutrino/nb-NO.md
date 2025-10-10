@@ -1,33 +1,46 @@
 ---
 name: Neutrino
-description: LND Neutrino Installasjonsguide
+description: Installasjonsveiledning for LND Neutrino
 ---
+![image](assets/cover.webp)
 
-# Raspberry Pi Konfigurasjon med LND
 
-1. Last ned Raspberry Pi OS Lite
+## Raspberry Pi-konfigurasjon med LND
 
-Last ned Raspberry Pi OS Lite, instruksjonene for nedlasting og installasjon av bildet på et micro SD-kort i Windows, Mac og Linux kan finnes på [denne siden](https://www.raspberrypi.org/software/operating-systems/).
 
-2. Formater SD-kortet
+### 1. Last ned Raspberry Pi OS Lite
 
-Formater SD-kortet ved hjelp av Raspberry Pi Imager eller balenaEtcher.
 
-> MERK: Symbolet `$` brukes som en ledetekst og lar brukeren skrive inn kommandoer i datamaskinen, kommandoene vil bli tolket av bash i Linux. Symbolet `#` i begynnelsen av en linje indikerer at den følgende teksten er en kommentar.
+Du finner instruksjoner for nedlasting og installasjon av avbildningen på et micro SD-kort i Windows, Mac og Linux på [denne siden] (https://www.raspberrypi.org/software/operating-systems/).
 
-3. Aktiver SSH
 
-Før vi starter Raspberry Pi med det formaterte minnet, må vi sette det inn i en datamaskin og opprette to filer som vil tillate oss å koble til eksternt. Ved å bruke `touch`-kommandoen, oppretter vi en tom fil i /boot-partisjonen, som aktiverer SSH-tilkobling ved første oppstart av det nylig formaterte SD-kortet.
+### 2. Formater SD-kortet
+
+
+Bruk Raspberry Pi Imager eller balenaEtcher.
+
+
+**Symbolet `$` brukes som en ledetekst og gjør det mulig for brukeren å skrive inn kommandoer på datamaskinen, og kommandoene tolkes av bash i Linux. Symbolet `#` i begynnelsen av en linje indikerer at den følgende teksten er en kommentar.
+
+
+### 3. Aktiver SSH
+
+
+Før vi starter Raspberry Pi med det formaterte minnet, må vi sette den inn i en datamaskin og opprette to filer som gjør at vi kan koble oss til eksternt. Ved hjelp av kommandoen `touch` oppretter vi en tom fil i /boot-partisjonen, noe som muliggjør SSH-tilkobling ved første oppstart av det nyformaterte SD-kortet.
+
 
 ```
-# MERK: Hvis microSD-kortet har blitt montert på /media/microSD, bør kommandoen
-# være $ sudo touch /media/microSD/boot/ssh
+# NOTE: If the microSD card has been mounted at /media/microSD, the command
+# should be $ sudo touch /media/microSD/boot/ssh
 $ touch /boot/ssh
 ```
 
-4. Ved å bruke nano-kommandoen
 
-oppretter vi wpa_supplicant.conf-filen og begynner direkte å redigere den. I denne filen må vi kopiere wifi-konfigurasjonen, kopiere teksten mellom START og SLUTT, og endre SSID og passord for wifi-nettverket du ønsker å koble til.
+### 4. Opprett fil for Wi-Fi-tilkobling
+
+
+Ved hjelp av nano-kommandoen oppretter vi filen `wpa_supplicant.conf` og begynner å redigere den direkte. I denne filen må vi kopiere wifi-konfigurasjonen, kopiere teksten mellom START og END, og endre SSID og passord for det wifi-nettverket du vil koble til.
+
 
 ```
 $ nano /boot/wpa_supplicant.conf
@@ -38,84 +51,104 @@ update_config=1
 ctrl_interface=/var/run/wpa_supplicant
 
 network={
- ssid="MyNetworkSSID"
- psk="password"
+ssid="MyNetworkSSID"
+psk="password"
 }
------- SLUTT -------
+------ END -------
 ```
 
-5. tilkobling
 
-Deretter setter vi SD-kortet inn i Raspberry Pi og kobler Pi til strømkilden for å starte operativsystemet. Vi trenger å identifisere det på nettverket, og mDNS-protokollen vil sannsynligvis tildele navnet raspberrypi.local til den. La oss prøve å koble til via SSH.
+### 5. Tilkobling
+
+
+Deretter setter vi SD-kortet inn i Raspberry Pi og kobler Pi til strømkilden for å starte operativsystemet. Vi må identifisere den i nettverket, og mDNS-protokollen vil sannsynligvis tildele den navnet raspberrypi.local. La oss prøve å koble til via SSH.
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
 
-Hvis det ikke fungerer, må vi finne ut av nettverket. La oss finne ut IP-adressen vi er koblet til.
+
+Hvis det ikke fungerer, må vi finne ut av nettverket. La oss finne ut hvilken IP Address vi er koblet til.
+
 
 ```
 $ ifconfig
 ```
 
-For eksempel, hvis det er 192.168.0.0, bruk nmap for å finne Pi.
+
+Hvis det for eksempel er 192.168.0.0, bruker du nmap til å finne Pi.
+
 
 ```
 nmap -v 192.168.0.0/24
 ```
 
-Antar vi finner en ny IP på nettverket vårt, la oss gå inn via SSH.
+
+Hvis vi finner en ny IP på nettverket vårt, kan vi gå inn via SSH.
+
 
 ```
 $ ssh pi@192.168.0.30
 password: raspberry
 ```
 
-1. Konfigurer Pi
+
+### 6. Konfigurer Pi
+
 
 ```
 $ sudo raspi-config
 ```
 
+
 - Velg alternativ (1) og endre passordet for brukeren pi.
 - Vi velger alternativ (8) for å oppdatere konfigurasjonsverktøyet til den nyeste versjonen
-- Vi velger alternativ (4) for å velge vår tidssone
+- Vi velger alternativ (4) for å velge tidssone
 - Vi velger alternativ (7) og deretter Utvid filsystem
 - Avslutt
 
-  7.- Vi oppdaterer OS
+
+### 7. Oppdater nå operativsystemet
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim --install-recommends -y
 ```
 
-8.- Vi legger til bitcoin-brukeren
+
+### 8. Legg til Bitcoin-brukeren
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
-9.- Vi sikrer rpi
+
+### 9. Sikre rpi
+
 
 ```
 $ sudo apt install ufw
-```
-```
 $ sudo ufw default deny incoming
 $ sudo ufw default allow outgoing
-$ sudo ufw tillate 22 kommentar 'tillate SSH fra LAN'
-$ sudo ufw tillate 9735 kommentar 'tillate Lightning'
-$ sudo ufw tillate 10009 kommentar 'Lightning gRPC'
-$ sudo ufw aktiver
-$ sudo systemctl aktiver ufw
+$ sudo ufw allow 22 comment 'allow SSH from LAN'
+$ sudo ufw allow 9735 comment 'allow Lightning'
+$ sudo ufw allow 10009 comment 'Lightning gRPC'
+$ sudo ufw enable
+$ sudo systemctl enable ufw
 $ sudo ufw status
 $ sudo apt install fail2ban
 ```
 
-```
-10.- Vi installerer go: hvis du ikke bruker en raspberry pi, last ned go for din arkitektur her (https://golang.org/dl/)
+
+### 10. Installer Go
+
+
+Hvis du ikke bruker en raspberry pi, kan du laste ned go for your architecture [her] (https://golang.org/dl/).
+
 
 ```
 $ wget https://golang.org/dl/go1.15.linux-armv6l.tar.gz
@@ -124,10 +157,12 @@ $ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
 $ echo "export GOPATH=$HOME/go" >> ~/.bashrc
 $ echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 $ source ~/.bashrc
-$ go version # skal vise følgende melding 'go version go1.13.5 linux/arm'
+$ go version # should display the following message 'go version go1.13.5 linux/arm'
 ```
 
-11.- Vi kompilerer og installerer lnd
+
+### 11. Kompilere og installere LND
+
 
 ```
 $ git clone https://github.com/lightningnetwork/lnd.git
@@ -137,10 +172,15 @@ $ make install tags="autopilotrpc chainrpc experimental invoicesrpc routerrpc si
 $ sudo cp $GOPATH/bin/lnd /usr/local/bin/
 $ sudo cp $GOPATH/bin/lncli /usr/local/bin/
 $ lncli --version
-lncli versjon 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f
+lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f
 ```
 
-12.- Vi oppretter lnd konfigurasjonsfilen, dette bør gjøres med 'bitcoin' brukeren
+
+### 12. Opprett LND conf-fil
+
+
+Opprett LND-konfigurasjonsfilen, dette bør gjøres med brukeren 'Bitcoin'
+
 
 ```
 $ sudo su - bitcoin
@@ -148,14 +188,15 @@ $ mkdir .lnd
 $ nano .lnd/lnd.conf
 ```
 
+
 ```
 [Application Options]
-# aktiver spontane betalinger
+# enable spontaneous payments
 accept-keysend=1
 
-# Offentlig navn på noden
-alias=DITT_ALIAS
-# Offentlig farge i heksadesimal
+# Public name of the node
+alias=YOUR_ALIAS
+# Public color in hexadecimal
 color=#000000
 debuglevel=info
 maxpendingchannels=5
@@ -172,13 +213,18 @@ bitcoin.node=neutrino
 neutrino.connect=bb2.breez.technology
 ```
 
-13.- For å få LND til å starte etter rpi boot, må vi opprette .service-filen i systemd.
-Hvis vi er logget inn som en bitcoin-bruker og ønsker å bytte tilbake til pi-brukeren, skriver vi bare 'exit'
+
+### 13. LND-tjenesten autostart
+
+
+For å få LND til å starte etter oppstart av rpi, må vi opprette .service-filen i systemd. Hvis vi er logget inn som Bitcoin-bruker og ønsker å bytte tilbake til pi-brukeren, skriver vi ganske enkelt "exit
+
 
 ```
 $ exit
 $ sudo nano /etc/systemd/system/lnd.service
 ```
+
 
 ```
 [Unit]
@@ -187,13 +233,13 @@ After=network.target
 
 [Service]
 
-# Tjenesteutførelse
+# Service execution
 ###################
 
 ExecStart=/usr/local/bin/lnd
 
 
-# Prosesshåndtering
+# Process management
 ####################
 
 Type=simple
@@ -202,10 +248,10 @@ RestartSec=30
 TimeoutSec=240
 LimitNOFILE=128000
 
-# Oppretting av katalog og tillatelser
+# Directory creation and permissions
 ####################################
 
-# Kjør som bitcoin:bitcoin
+# Run as bitcoin:bitcoin
 User=bitcoin
 Group=bitcoin
 
@@ -213,30 +259,30 @@ Group=bitcoin
 RuntimeDirectory=lightningd
 RuntimeDirectoryMode=0710
 
-# Sikkerhetstiltak
+# Hardening measures
 ####################
 
-# Tilby et privat /tmp og /var/tmp.
-```
-```
+# Provide a private /tmp and /var/tmp.
 PrivateTmp=true
-# Monter /usr, /boot/ og /etc skrivebeskyttet for prosessen.
+
+# Mount /usr, /boot/ and /etc read-only for the process.
 ProtectSystem=full
 
-# Forby prosessen og alle dens barn å oppnå
-# nye privilegier gjennom execve().
+# Disallow the process and all of its children to gain
+# new privileges through execve().
 NoNewPrivileges=true
 
-# Bruk et nytt /dev navnerom kun befolket med API pseudo-enheter
-# som /dev/null, /dev/zero og /dev/random.
+# Use a new /dev namespace only populated with API pseudo devices
+# such as /dev/null, /dev/zero and /dev/random.
 PrivateDevices=true
 
-# Nekt opprettelsen av skrivbare og kjørbare minnekartlegginger.
+# Deny the creation of writable and executable memory mappings.
 MemoryDenyWriteExecute=true
 
 [Install]
 WantedBy=multi-user.target
 ```
+
 
 ```
 $ sudo systemctl enable lnd
@@ -244,95 +290,123 @@ $ sudo systemctl start lnd
 $ systemctl status lnd
 ```
 
+
 Vi kan se loggene ved å kjøre kommandoen journalctl
+
 
 ```
 $ sudo journalctl -f -u lnd
 ```
 
-14. Nå starter vi lnd
+
+### 14. Nå starter vi LND
+
 
 ```
 $ sudo su - bitcoin
 $ lncli create
 ```
 
-15. Legg til midler på vår node
+
+### 15. Legg til midler i noden
+
 
 ```
 $ lncli newaddress p2wkh
 ```
 
-Send btc til adressen returnert av lnd
+Du kan nå sende btc til Address som returneres av LND.
 
-For å sjekke saldoen
+
+med denne kommandoen kan du sjekke saldoen:
+
 
 ```
 $ lncli walletbalance
 {
-    "total_balance": "500000",
-    "confirmed_balance": "0",
-    "unconfirmed_balance": "500000"
+"total_balance": "500000",
+"confirmed_balance": "0",
+"unconfirmed_balance": "500000"
 }
 ```
 
+
 Når transaksjonen er bekreftet, kan vi åpne en kanal. Hvis du ikke vet hvilken node du skal åpne kanalen med, kan du gå til 1ml.com og velge en node.
 
+
 Åpne en tilkobling til en node:
+
 
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
 
-Deretter åpner du en kanal
+
+Deretter åpner du en kanal:
+
 
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
-Sjekk våre midler
+
+Sjekk fondene våre:
+
 
 ```
 $ lncli walletbalance
 $ lncli channelbalance
 ```
 
-Vi kan se de ventende og aktive kanalene
+
+Vi kan se ventende og aktive kanaler:
+
 
 ```
 $ lncli pendingchannels
 $ lncli listchannels
 ```
 
-For å betale en lightning-faktura
+
+For å betale en lyn Invoice:
+
 
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
-For å motta en betaling, opprett en faktura for et spesifikt beløp
+
+For å motta en betaling oppretter du en Invoice for et bestemt beløp:
+
 
 ```
-$ lncli addinvoice --memo 'min første betaling på LN' --amt 100
+$ lncli addinvoice --memo 'my first payment on LN' --amt 100
 ```
 
-For å se informasjon om min node
+
+For å se informasjon om noden min:
+
 
 ```
 $ lncli getinfo
 ```
 
-Den komplette listen over kommandoer kan sees ved å enkelt kjøre lncli
+
+Den fullstendige listen over kommandoer kan du se ved å kjøre kommandoen lncli:
+
 
 ```
 $ lncli
 ```
 
-Til slutt, for å gjøre kall til lnd API
+
+Til slutt, for å gjøre anrop til LND API:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"
 $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localhost:8080/v1/getinfo |jq
 ```
 
-> SLUTT
+
+Slutt på guiden!

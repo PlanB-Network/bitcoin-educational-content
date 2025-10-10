@@ -1,9 +1,9 @@
 question: Was ist die empfohlene Vorgehensweise beim Einstecken eines USB-Sticks in Ihren Computer?
-answer: Stecken Sie keine unbekannten oder verdächtigen USB-Sticks ein.
+answer: Stecke keine unbekannten oder verdächtigen USB-Sticks ein.
 wrong_answers:
-  - Stecken Sie jeden USB-Stick ohne Überprüfung ein.
-  - Formatieren Sie den USB-Stick immer vor dem Einstecken.
-  - Stecken Sie den USB-Stick ein und überprüfen Sie ihn dann auf Viren.
+  - Stecke jeden USB-Stick ohne Überprüfung ein.
+  - Formatiere den USB-Stick immer vor dem Einstecken.
+  - Stecke den USB-Stick ein und überprüfe ihn dann auf Viren.
 explanation: |
   Das Einstecken von unbekannten oder verdächtigen USB-Sticks kann das
   System schädlichen Programmen aussetzen, die sich automatisch beim

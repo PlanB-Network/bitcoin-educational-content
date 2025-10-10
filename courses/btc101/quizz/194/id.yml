@@ -1,8 +1,10 @@
-question: Apa salah satu solusi bagi struktur besar atau penggemar Bitcoin yang bersemangat untuk menerima Bitcoin?
-answer: BTCpay Server
+question: Apa tujuan dari regulasi KYC?
+answer: Untuk memerangi pendanaan terorisme, penghindaran pajak, dan pencucian uang.
 wrong_answers:
-  - Dompet Bitcoin
-  - Bursa Bitcoin
-  - Penambangan Bitcoin
+  - Untuk meningkatkan harga Bitcoin.
+  - Untuk mengontrol suplai Bitcoin.
+  - Untuk mencegah orang membeli Bitcoin.
 explanation: >-
-  BTCpay Server adalah solusi bagi struktur besar atau penggemar Bitcoin yang bersemangat untuk menerima Bitcoin. Solusi lain termasuk OpenNode untuk bisnis online sederhana dan Swiss Bitcoin Pay untuk pedagang amatir.
+  Teks menjelaskan bahwa regulasi Know Your Customer (KYC) mengharuskan pengguna
+  untuk menyediakan identifikasi guna memerangi pendanaan terorisme, penghindaran pajak, dan pencucian
+  uang.

@@ -1,0 +1,9 @@
+question: Bir Bitcoin kaç ondalık basamağa bölünebilir?
+answer: Sekiz
+wrong_answers:
+  - Altı
+  - On iki
+  - Yedi
+explanation: |
+  Bir Bitcoin sekizinci ondalık basamağa kadar bölünebilir ve bir birim Satoshi veya sat olarak adlandırılır.
+reviewed: false

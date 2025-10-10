@@ -1,0 +1,9 @@
+question: Mục đích của các nguyên hàm dịch vụ trong mô hình TCP/IP là gì?
+answer: Quản lý trao đổi giữa các lớp
+wrong_answers:
+  - Tự động mã hóa tin nhắn mạng
+  - Phân phối địa chỉ IP cho các máy chủ từ xa
+  - Kiểm tra tổng chiều dài của các gói IP
+explanation: |
+  Các nguyên mẫu dịch vụ xác định giao tiếp Interface giữa các lớp khác nhau, cho phép thiết lập, duy trì hoặc chấm dứt trao đổi mạng.
+reviewed: false

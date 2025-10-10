@@ -1,0 +1,9 @@
+question: Bitcoin core 노드가 유지하는 기본 발신 연결 수는 몇 개인가요?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core은 기본적으로 10개의 발신 연결(전체 릴레이 8개, 블록 릴레이 전용 2개)을 유지합니다.
+reviewed: true

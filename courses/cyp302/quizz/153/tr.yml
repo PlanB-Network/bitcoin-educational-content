@@ -1,0 +1,9 @@
+question: Basitleştirilmiş RSA kriptosisteminde aynı mesaj birden fazla kez şifrelenirse hangi güvenlik sorunu ortaya çıkar?
+answer: Mesaj her zaman aynı şifrelemeyi üretecektir
+wrong_answers:
+  - Mesaj kaba kuvvet saldırılarına karşı savunmasız olacaktır
+  - Mesaj tersine çevrilecektir
+  - Mesajın şifresini çözmek imkansız hale gelecektir
+explanation: |
+  Basitleştirilmiş bir RSA'da, bir mesajın birden fazla kez şifrelenmesi her zaman aynı sonucu verir ve bu da şifrelemeyi saldırılara karşı savunmasız hale getirir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vems motto är "tänk själv"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  att tänka själv" (sapere aude) är Immanuel Kants motto och upplysningstidens ledord. Det handlar om att ha modet att använda sitt eget förstånd utan att låta sig styras av andra.
+reviewed: false

@@ -169,7 +169,7 @@ Kursseilla tärkeimmät osat esitellään yhdellä Hash-merkillä, kun taas alao
 Varmista, ettet **KOSKAAN poista Hash-merkkejä** ennen otsikkoa, sillä muutoin tekstin rakenteeseen tulee ongelmia.
 
 
-Älä kuitenkaan muuta** chapterID-osaa, joka näkyy yllä olevassa kuvassa, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` tai videoviittauksia kuten ``::::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8b8cc8:::``.
+Älä kuitenkaan muuta **chapterID-osaa**, joka näkyy yllä olevassa kuvassa, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` tai videoviittauksia kuten ``::::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8b8cc8:::``.
 
 
 Kun lisäämme ``#`` ennen otsikkoa, siitä tulee automaattisesti lihavoitu kurssin esikatselussa, joten **välttäkää lihavoimasta otsikoita korjauksen aikana**.
@@ -182,7 +182,7 @@ Sivuhuomautuksena mainittakoon, että kurssien englanninkielisessä versiossa **
 ## Kurssien ensimmäinen osa
 
 
-Minkä tahansa sisällön alussa on seuraavat staattiset pienaakkoset sanat: "nimi", "kuvaus", "tavoitteet". Verkkosivusto käyttää niitä itse sisällön dekoodaamiseen, ja ne jätetään aina muotoon FI**. Tämän vuoksi ÄLÄ käännä niitä, sillä muuten sisältö aiheuttaa synkronointiongelmia. Varmista, että oikoluet vain kaksoispisteen jälkeisen osan, jonka tekoäly kääntää automaattisesti.
+Minkä tahansa sisällön alussa on seuraavat staattiset pienaakkoset sanat: "nimi", "kuvaus", "tavoitteet". Verkkosivusto käyttää niitä itse sisällön dekoodaamiseen, ja ne jätetään aina muotoon **FI**. Tämän vuoksi ÄLÄ käännä niitä, sillä muuten sisältö aiheuttaa synkronointiongelmia. Varmista, että oikoluet vain kaksoispisteen jälkeisen osan, jonka tekoäly kääntää automaattisesti.
 
 
 
@@ -213,7 +213,7 @@ Alla on muutamia esimerkkejä muotoiluun liittyvistä asioista, joihin kannattaa
 
 
 
-Tarkista siis aina alkuperäisestä englanninkielisestä tekstistä, onko lihavoidun tekstin tarkoitus olla siinä. Tässä tapauksessa lisää vain kaksi tähteä sanan alkuun, jotta se näkyy oikein verkkosivustolla. Itse asiassa markdown-kielessä **jotta lihavointi näkyy, sinun on lisättävä kaksi tähteä ``**``` sekä ennen sanaa/lauseen jälkeen että sen jälkeen** (ks. esimerkki alla).
+Tarkista siis aina alkuperäisestä englanninkielisestä tekstistä, onko lihavoidun tekstin tarkoitus olla siinä. Tässä tapauksessa lisää vain kaksi tähteä sanan alkuun, jotta se näkyy oikein verkkosivustolla. Itse asiassa markdown-kielessä **jotta lihavointi näkyy, sinun on lisättävä kaksi tähteä sekä ennen sanaa/lauseen jälkeen että sen jälkeen** (ks. esimerkki alla).
 
 
 
@@ -234,8 +234,6 @@ Tarkista alkuperäisestä kielitiedostosta (usein EN tai FR), missä näiden sym
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Tietokilpailun oikoluku
 
 
@@ -245,11 +243,20 @@ Tiesitkö, että voit myös oikolukea jokaisen kurssin tietokilpailukysymykset? 
 Varmista jälleen kerran, että olet nimenomaan tätä tarkoitusta varten avatussa toimipisteessä, ja ilmoita asiasta aina koordinaattorille.
 
 
-Kun olet tarkistanut kysymyksen, varmista, että muutat "tarkistettu"-tilan "väärästä" "oikeaksi", kuten alla olevassa kuvassa näkyy.
-
+Tärkeä asia, joka kannattaa pitää mielessä, kun oikolukee tämäntyyppisiä _yml_-tiedostoja, on välttää kaksoispisteiden ``:`` lisäämistä tekstin sisälle. Itse asiassa kaksoispistettä käytetään **vain** erottamaan avain-arvoparit, kuten "wrong_answers", muista. Näet esimerkin alla olevasta kuvasta:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Kun olet tarkistanut kysymyksen, varmista, että muutat "tarkistettu"-tilan "väärästä" "oikeaksi", kuten alla olevassa kuvassa näkyy. Varmista, että nämä tilasanat ovat englanninkielisiä riippumatta siitä, millä kielellä työskentelet!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Jos tilarivi "reviewed:true" puuttuu, varmista, että **lisäät sen tietokilpailun loppuun**.
 
 
 ## Sanaston oikoluku
@@ -258,37 +265,42 @@ Kun olet tarkistanut kysymyksen, varmista, että muutat "tarkistettu"-tilan "vä
 Kuten tietokilpailut, voit myös sanaston oikolukea. Alkuperäinen sanasto on kirjoitettu ranskaksi, joten siinä on lauseita kuten: "Ranskaksi tämä ilmaisu voidaan kääntää..."
 
 
-Tällaisissa tapauksissa mukauta tämä lause kohdekielellesi tai englanniksi.
+Tällaisissa tapauksissa mukauta lause kohdekielelle tai englanniksi. Voit esimerkiksi kirjoittaa "Englanniksi tämä ilmaus...".
+
+Jos otsikko jätetään englanniksi, voit mukauttaa lauseen omaan kieleesi: "Swahiliksi tämä ilmaisu..."
+
+
+Muista lisäksi kirjoittaa otsikot isoilla kirjaimilla.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## PR:n otsikko ja kuvaus
+
+
+Kun lähetät PR-toimintasi, olisi hienoa, jos nimeäisit sen tätä muotoa käyttäen: [OIKOLUKU] SISÄLLÖN NIMI - KIELI:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Lisäksi voit kirjoittaa PR:n **kommenttiosioon** "sulkee" + sen ongelman numero, jonka koordinaattori lähetti sinulle, kun aloitit oikolukutehtävän, ja sen eteen tulee ``#``.
+
+Jos esimerkiksi olet juuri lähettänyt PR:n, jossa on cyp201 + tietokilpailujen oikoluku, voit kirjoittaa "sulkee [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Näin PR ja ongelma ovat yhteydessä toisiinsa, ja kuka tahansa, joka lukee julkista Github-arkistoa, voi löytää tiedot helposti.
+
 
 
 ## Muut parhaat käytännöt
 
 
 
-- Jos haluat etsiä tiettyjä sanoja tekstin sisältä, voit napsauttaa ``CTRL+F``, jolloin näkyviin tulee Etsi ja korvaa -osio. Tämä osa on erittäin hyödyllinen, kun haluat siirtyä tiettyyn tekstin osaan tai korvata tiettyjä sanoja tai lauseita erissä ilman koko sisällön selaamista.
-
-
-
-![REVIEW](assets/en/13.webp)
-
-
-
-Kun käytät "korvaa kaikki" -toimintoa, on tärkeää tarkistaa tulokset kahteen kertaan varmistaaksesi, että myös linkkejä ei ole muutettu. Jos esimerkiksi haluat muuttaa sanan "Bitcoin" muotoon "Bitkoin" (mikä voi olla tarpeen joillakin kielillä), "korvaa kaikki" -toiminnolla voit päivittää tehokkaasti kaikki tekstin esiintymät. Huomaa kuitenkin, että tämä työkalu muuttaa myös kaikki kyseistä sanaa sisältävät linkit, mikä voi johtaa uudelleenohjausongelmiin.
-
-
-Alla olevassa esimerkissä oikolukija käytti edellä mainittua toimintoa korvatakseen "Satoshi" sanalla "Satoshi(Sats)" ja muutti myös linkin ohjeeseen, joka sisältää itse sanan. Tämän seurauksena linkistä tuli virheellinen.
-
-
-Tarkista aina uudelleen kaikki tekstissä olevat hyperlinkit, jotta varmistat, että ne ovat oikein.
-
-
-
-![REVIEW](assets/en/14.webp)
-
-
-
-
-- Aiheen jatkoksi, jos kirjoittaja lisää linkin, joka viittaa Plan ₿ Network-kurssiin tai opetusohjelmaan (**ei** suluissa), sivusto luo automaattisesti "kortin", jossa näkyy siihen liittyvä pikkukuva. Varmista siis aina, että **tekstin ja itse linkin** välissä on välilyönti, muuten sivustolla saattaa näkyä seuraava virhe.
+- Jos haluat etsiä tiettyjä sanoja tekstin sisältä, voit napsauttaa ``CTRL+F``, jolloin näkyviin tulee Etsi ja korvaa -osio. Tämä osa on erittäin hyödyllinen, kun haluat siirtyä tiettyyn tekstin osaan tai korvata tiettyjä sanoja tai lauseita eräajona ilman koko sisällön selaamista.
 
 
 
@@ -296,10 +308,45 @@ Tarkista aina uudelleen kaikki tekstissä olevat hyperlinkit, jotta varmistat, e
 
 
 
+Kun käytät "korvaa kaikki" -toimintoa, on tärkeää tarkistaa tulokset kahteen kertaan varmistaaksesi, että myös linkkejä ei ole muutettu. Jos esimerkiksi haluat muuttaa sanan "Bitcoin" muotoon "Bitkoin" (mikä voi olla tarpeen joillakin kielillä), "korvaa kaikki" -toiminnolla voit päivittää tehokkaasti kaikki tekstin esiintymät. Huomaa kuitenkin, että tämä työkalu muuttaa myös kaikki kyseistä sanaa sisältävät linkit, mikä voi johtaa uudelleenohjausongelmiin.
 
 
-- Kun olet saanut oikolukutehtäväsi valmiiksi ja lähettänyt PR-tiedotteen, toinen paras käytäntö on palata koordinaattorin avaamaan alkuperäiseen ongelmaan ja kommentoida sitä sanalla "oikoluku suoritettu". ** Muista lisätä myös PR-linkkisi sinne**.
+Alla olevassa esimerkissä oikolukija käytti edellä mainittua funktiota korvatakseen "Satoshi" sanalla "Satoshi(Sats)" ja muutti myös linkin ohjeeseen, joka sisälsi itse sanan. Tämän seurauksena linkistä tuli virheellinen.
 
+
+Tarkista aina uudelleen kaikki tekstissä olevat hyperlinkit, jotta varmistat, että ne ovat oikein.
+
+
+
+![REVIEW](assets/en/16.webp)
+
+
+
+
+- Aiheen jatkoksi, jos kirjoittaja lisää linkin, joka viittaa Plan ₿ Network-kurssiin tai opetusohjelmaan (**ei** suluissa), sivusto luo automaattisesti "kortin", jossa näkyy siihen liittyvä pikkukuva. Varmista siis aina, että **lisäät uuden rivin tekstin ja itse linkin väliin**, sillä muuten sivustolla saattaa näkyä seuraava virhe.
+
+
+
+![REVIEW](assets/en/17.webp)
+
+
+Sama tapahtuu tämän kaltaisten "kuvakoodien" kanssa ``[IMAGE](asset/fr/001.webp)``: varmista, että lisäät aina uuden rivin kuvakoodin ja tekstin väliin. Esimerkki alla:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Päätelmä
@@ -309,6 +356,9 @@ Yhteenvetona voidaan todeta, että yleisimpien oikolukuvirheiden tunteminen voi 
 
 
 Pidä aina mielessä, että aloittelija voi lukea näitä kursseja ja opetusohjelmia, joten meidän vastuullamme on varmistaa, että hän ymmärtää ne täysin. Oikolukijana olet kouluttaja!
+
+
+Nyt olet valmis aloittamaan kurssien, opetusohjelmien, tietokilpailujen ja sanaston sanojen oikolukemisen. Pysy kuulolla ja aloita myös kuvien ja videoiden transkriptien tarkistaminen ;)
 
 
 Kiitos, että luit tämän ohjeen läpi, ja nauti oikolukumatkastasi!

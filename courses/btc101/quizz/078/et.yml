@@ -1,11 +1,11 @@
-question: Milline neist variantidest on vale, kui kaotate seadme, millel on teie Bitcoin rahakott?
-answer: Saate oma rahakoti taastada ja oma bitcoine kulutada, lähtestades oma parooli
+question: Mis on hot wallet?
+answer: Bitcoin'i rahakott sinu telefonis või arvutis, mis on ühendatud internetti
 wrong_answers:
-  - Kaotate kõik oma Bitcoinid, kui teil pole mnemoonilist fraasi
-  - Saate oma avalike võtmetega kontrollida, et teie bitcoinid ei ole veel liikunud
-  - Saate oma rahakoti taastada ja oma bitcoine kulutada mnemoonilise fraasiga
+  - Rahakott, mis on füüsiliselt kuum puudutada
+  - Rahakott, mis on populaarne Bitcoin'i kasutajate seas
+  - Rahakott, mida soovitatakse suurte Bitcoin'i summade hoidmiseks
 explanation: |
-  Seadme kaotamine, millel on teie rahakott, ei tähenda tingimata
-  teie Bitcoinide kaotust. See, mis võimaldab teil oma rahakoti taastada ja
-  oma bitcoine kulutada, on mnemooniline fraas.
+  Hot wallet on termin, mida kasutatakse Bitcoin'i rahakoti kirjeldamiseks, mis on salvestatud
+  seadmesse, millel on internetiühendus, nagu telefon või arvuti. See teeb tehingute sooritamise lihtsaks,
+  kuid see tähendab ka, et rahakott on potentsiaalselt haavatav online-ohtudele.
 reviewed: true

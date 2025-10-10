@@ -1,0 +1,9 @@
+question: TCP ve UDP arasındaki temel fark nedir?
+answer: TCP bağlantı odaklıdır, UDP değildir
+wrong_answers:
+  - TCP yalnızca yerel ağlarda, UDP ise İnternet'te çalışır
+  - TCP her zaman şifreleme kullanır, UDP asla kullanmaz
+  - TCP IP parçalanmasını yönetir, UDP sıkıştırmayı yönetir
+explanation: |
+  TCP bir bağlantının kurulmasını ve izlenmesini gerektirirken, UDP önceden bir oturum kurmadan veya kontrol etmeden paket gönderir.
+reviewed: false

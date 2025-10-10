@@ -1,0 +1,9 @@
+question: XOR işleminin modulo işlemi ile eşdeğerliği nedir?
+answer: XOR, bitler üzerinde bir modulo 2 işlemine eşdeğerdir
+wrong_answers:
+  - XOR, klasik modulo 3 çıkarma işlemine eşdeğerdir
+  - XOR, bitler üzerinde bir modulo 7 işlemine eşdeğerdir
+  - XOR toplamanın tersidir
+explanation: |
+  XOR işlemi, modulo 2 ile bitlerin toplanması olarak görülebilir ve sonuçları aynı yapar.
+reviewed: false

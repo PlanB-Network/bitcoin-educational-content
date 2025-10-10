@@ -1,12 +1,13 @@
-question: Cosa non è una frase mnemonica nel contesto di Bitcoin?
-answer: Una password del wallet Bitcoin.
+question: Cosa significa KYC?
+answer: Conosci il Tuo Cliente.
 wrong_answers:
-  - Una lista di 12 parole da un dizionario specifico.
-  - Una lista di 24 parole da un dizionario specifico.
-  - Il segreto per accedere ai bitcoin.
+  - Conserva il Tuo Contante.
+  - Codifica le Tue Chiavi.
+  - Cortesemente Concedi Conformità.
 explanation: |
-  Una frase mnemonica nel contesto di Bitcoin è una lista di 12
-  o 24 parole che permette di ripristinare il wallet su qualsiasi
-  applicazione compatibile. Chiunque abbia accesso a questa lista
-  può anche accedere ai bitcoin.
-reviewed: vero
+  KYC o Conosci il Tuo Cliente si riferisce alla procedura che
+  le aziende adottano per verificare l'identità dei loro clienti.
+  Questo viene tipicamente fatto per garantire la conformità con
+  le regolamentazioni e per prevenire attività illegali come il
+  riciclaggio di denaro o la frode.
+reviewed: true

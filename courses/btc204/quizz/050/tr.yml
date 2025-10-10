@@ -1,0 +1,10 @@
+question: Silent Payments'ın BIP47'ye kıyasla temel avantajı nedir?
+answer: Bir bildirim işlemi gerektirmezler.
+wrong_answers:
+  - Tam bir işlem gizliliği sunarlar.
+  - Alıcıdan geri ödeme alınmasına izin verirler.
+  - Tüm cüzdanlarla uyumluluk sağlarlar.
+explanation: |
+  Sessiz Ödemeler bir bildirim işlemi olmadan çalışır, bu da işlem ücretlerinden tasarruf sağlar ve Blockchain'a aşırı yüklenmeyi önler.
+  
+reviewed: false

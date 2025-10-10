@@ -1,0 +1,9 @@
+question: Millä komennolla voidaan kysyä DNS-palvelimelta verkkotunnuksen IP Address?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup on DNS-kyselytyökalu, jolla verkkotunnuksia voidaan muuttaa IP-osoitteiksi.
+reviewed: false

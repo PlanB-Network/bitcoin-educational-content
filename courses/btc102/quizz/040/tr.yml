@@ -1,0 +1,9 @@
+question: Hibrit bir hodler tarafından hangi edinim stratejisi benimsenebilir?
+answer: Dolar Maliyet Ortalaması
+wrong_answers:
+  - Algoritmik ticaret
+  - Arbitraj
+  - Hackleme
+explanation: |
+  Dolar-Maliyet Ortalaması, zaman içinde ortalama satın alma fiyatını oluşturmak için düzenli Bitcoin alımlarını tavsiye eder. Hodler bunu ara sıra yapılan toplu alımlarla birleştirebilir.
+reviewed: false

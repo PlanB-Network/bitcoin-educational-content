@@ -1,0 +1,9 @@
+question: Madhumuni ya nukuu maalum ya IPv4 0.0.0.0 ni nini?
+answer: Ili kuteua violesura vyote au Address ambayo haijakabidhiwa
+wrong_answers:
+  - Kutuma ujumbe kwa mitandao yote
+  - Ili kujaribu muunganisho wa karibu wa kifaa
+  - Ili kuonyesha hitilafu ya anwani au muunganisho kwenye kipanga njia cha ndani
+explanation: |
+  Nukuu ya 0.0.0.0 inatumika ndani ili kuwakilisha kutokuwepo kwa Address iliyokabidhiwa au kusikiliza kwenye violesura vyote.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Mini Miner Braiins
+name: Braiins Mini Miner
 description: Mining einfach von zu Hause aus herstellen.
 ---
 ![cover](assets/cover.webp)

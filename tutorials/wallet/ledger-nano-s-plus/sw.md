@@ -5,7 +5,7 @@ description: Sanidi na utumie Ledger Nano S Plus
 ![cover](assets/cover.webp)
 
 
-Hardware Wallet ni kifaa cha kielektroniki kinachojitolea kudhibiti na kupata funguo za faragha za Bitcoin Wallet. Tofauti na pochi za programu (au pochi za Hot) zilizowekwa kwenye mashine za kusudi la jumla ambazo mara nyingi huunganishwa kwenye Mtandao, pochi za vifaa huruhusu kutengwa kwa funguo za kibinafsi, kupunguza hatari za udukuzi na wizi.
+Hardware Wallet ni kifaa cha kielektroniki kinachojitolea kudhibiti na kupata funguo za faragha za Bitcoin Wallet. Tofauti na wallet za programu (au Hot Wallet) zilizowekwa kwenye mashine za kusudi la jumla ambazo mara nyingi huunganishwa kwenye Mtandao, pochi za vifaa huruhusu kutengwa kwa funguo za kibinafsi, kupunguza hatari za udukuzi na wizi.
 
 
 Lengo kuu la Hardware Wallet ni kupunguza utendaji wa kifaa iwezekanavyo ili kupunguza uso wake wa mashambulizi. Sehemu ndogo ya shambulio pia inamaanisha vibebaji vichache vya kushambulia, yaani, udhaifu mdogo katika mfumo ambao washambuliaji wanaweza kutumia kufikia bitcoins.
@@ -14,10 +14,10 @@ Lengo kuu la Hardware Wallet ni kupunguza utendaji wa kifaa iwezekanavyo ili kup
 Inapendekezwa kutumia Hardware Wallet ili kupata bitcoins zako, hasa ikiwa unashikilia kiasi kikubwa, iwe katika thamani kamili au kama sehemu ya jumla ya mali yako.
 
 
-Pochi za vifaa hutumiwa pamoja na programu ya usimamizi ya Wallet kwenye kompyuta au simu mahiri. Programu hii inasimamia uundaji wa shughuli, lakini saini ya kriptografia muhimu ili kuthibitisha shughuli hizi inafanywa tu ndani ya Hardware Wallet. Hii ina maana kwamba funguo za faragha haziwahi kamwe kwenye mazingira ambayo yanaweza kuwa hatarini.
+Hardware Wallet hutumiwa pamoja na programu ya usimamizi ya Wallet kwenye kompyuta au simu mahiri. Programu hii inasimamia uundaji wa muamala, lakini saini ya kriptografia muhimu ili kuthibitisha shughuli hizi inafanywa tu ndani ya Hardware Wallet. Hii ina maana kwamba funguo za faragha haziwahi kamwe kwenye mazingira ambayo yanaweza kuwa hatarini.
 
 
-Pochi za vifaa hutoa ulinzi wa pande mbili kwa mtumiaji: kwa upande mmoja, hulinda bitcoins zako dhidi ya mashambulizi ya mbali kwa kuweka funguo za faragha nje ya mtandao, na kwa upande mwingine, kwa ujumla hutoa upinzani bora wa kimwili dhidi ya majaribio ya kutoa funguo. Na ni kwa vigezo hivi viwili vya usalama ambapo mtu anaweza kuhukumu na kuorodhesha aina tofauti zinazopatikana kwenye soko.
+Hardware Wallets hutoa ulinzi wa pande mbili kwa mtumiaji: kwa upande mmoja, hulinda bitcoins zako dhidi ya mashambulizi ya mbali kwa kuweka funguo za faragha nje ya mtandao, na kwa upande mwingine, kwa ujumla hutoa upinzani bora wa kimwili dhidi ya majaribio ya kutoa funguo. Na ni kwa vigezo hivi viwili vya usalama ambapo mtu anaweza kuhukumu na kuorodhesha aina tofauti zinazopatikana kwenye soko.
 
 
 Katika somo hili, ninapendekeza kugundua mojawapo ya masuluhisho haya: **Ledger Nano S Plus**.
@@ -43,7 +43,7 @@ Kwa upande wa matumizi, Ledger Nano S Plus hufanya kazi pekee kupitia muunganish
 
 Ledger inatofautiana na washindani wake kwa utumiaji wake wa haraka wa vipengele vipya vya Bitcoin, kama vile Taproot au Miniscript, kwa mfano, ambayo inathaminiwa sana.
 
-Baada ya kuipima, naona kuwa Ledger Nano S Plus ni kiwango bora cha kuingia Hardware Wallet. Inatoa kiwango cha juu cha usalama kwa bei nzuri. Hasara yake kuu ikilinganishwa na vifaa vingine katika anuwai ya bei sawa ni ukweli kwamba msimbo wa firmware sio chanzo wazi. Pia, skrini ya Nano S Plus ni ndogo ikilinganishwa na mifano ya gharama kubwa zaidi, kama vile Ledger Flex au Coldcard Q1. Hata hivyo, Interface yake imeundwa vizuri sana: licha ya vitufe vyake viwili na skrini ndogo, inasalia kuwa rahisi kutumia, ikiwa ni pamoja na vipengele vya juu kama vile BIP39 passphrase. Ledger Nano S Plus haina betri, muunganisho wa Air-pengo, kamera, au mlango mdogo wa SD, lakini hii ni kawaida kabisa kwa anuwai hii ya bei.
+Baada ya kuipima, naona kuwa Ledger Nano S Plus ni kiwango bora cha kuingia Hardware Wallet. Inatoa kiwango cha juu cha usalama kwa bei nzuri. Hasara yake kuu ikilinganishwa na vifaa vingine katika anuwai ya bei sawa ni ukweli kwamba msimbo wa firmware sio chanzo wazi. Pia, skrini ya Nano S Plus ni ndogo ikilinganishwa na mifano ya gharama kubwa zaidi, kama vile Ledger Flex au Coldcard Q1. Hata hivyo, Interface yake imeundwa vizuri sana: licha ya vitufe vyake viwili na skrini ndogo, inasalia kuwa rahisi kutumia, ikiwa ni pamoja na Elements za juu kama vile BIP39 passphrase. Ledger Nano S Plus haina betri, muunganisho wa Air-pengo, kamera, au mlango mdogo wa SD, lakini hii ni kawaida kabisa kwa anuwai hii ya bei.
 
 
 Kwa maoni yangu, Ledger Nano S Plus ni chaguo nzuri kwa kupata Bitcoin Wallet yako, na inafaa kwa Kompyuta na watumiaji wa kati. Walakini, katika anuwai hii ya bei, mimi binafsi napendelea Trezor Safe 3, ambayo inatoa takriban chaguzi sawa. Faida ya Trezor, kwa maoni yangu, ni katika usimamizi wa kipengele chake salama: maneno na funguo za Mnemonic zinasimamiwa pekee na msimbo wa chanzo-wazi, lakini bado hunufaika kutokana na ulinzi wa chip. Ubaya wa Trezor ni kwamba wakati mwingine wao ni polepole sana katika kutekeleza vipengee vipya tofauti na Ledger.
@@ -179,7 +179,7 @@ Ili kufikia mipangilio, shikilia vitufe 2 kwa sekunde chache.
 ![NANO S PLUS LEDGER](assets/notext/16.webp)
 
 
-Bofya kwenye menyu ya "* Mipangilio".
+Bofya kwenye menyu ya "*Mipangilio*".
 
 
 ![NANO S PLUS LEDGER](assets/notext/17.webp)
@@ -222,7 +222,7 @@ Sasa, nenda kwenye sehemu ya mipangilio ya "*Usalama*".
 Kwa sasa, Wallet yako imetolewa kutoka kwa maneno ya Mnemonic yenye maneno 24. Kifungu hiki cha uokoaji ni muhimu sana kwa sababu hukuruhusu kurejesha funguo zote za Wallet yako ikiwa utapoteza. Walakini, inajumuisha hatua moja ya kutofaulu (SPOF). Ikiwa imeathiriwa, bitcoins zako ziko hatarini. Hapa ndipo passphrase inapoingia. Ni nenosiri la hiari, ambalo unaweza kuchagua kiholela, ambalo huongeza kwa maneno ya Mnemonic ili kuimarisha usalama wa Wallet.
 
 
-passphrase haipaswi kuchanganyikiwa na msimbo wa PIN. Inachukua jukumu katika kupatikana kwa funguo zako za kriptografia. Inafanya kazi sanjari na maneno ya Mnemonic, kubadilisha seed ambayo funguo hutolewa. Kwa hivyo, hata kama mtu atapata kifungu chako cha maneno 24, bila passphrase, hawezi kupata pesa zako. Kutumia passphrase kimsingi huunda Wallet mpya na funguo tofauti. Kurekebisha (hata kidogo) passphrase itakuwa generate Wallet tofauti.
+Passphrase haipaswi kuchanganyikiwa na msimbo wa PIN. Inachukua jukumu katika kupatikana kwa funguo zako za kriptografia. Inafanya kazi sanjari na maneno ya "Mnemonic", kubadilisha seed ambayo funguo hutolewa. Kwa hivyo, hata kama mtu atapata kifungu chako cha maneno 24, bila passphrase hawezi kupata pesa zako. Kutumia passphrase kimsingi huunda Wallet mpya na funguo tofauti. Kurekebisha (hata kidogo) passphrase kutazalisha Wallet tofauti.
 
 
 passphrase ni zana yenye nguvu sana ya kuimarisha usalama wa bitcoins zako. Hata hivyo, ni muhimu sana kuelewa jinsi inavyofanya kazi kabla ya kuitekeleza, ili kuepuka kupoteza ufikiaji wa Wallet yako. Hii ndiyo sababu nakushauri kushauriana na mafunzo haya mengine yaliyotolewa ikiwa ungependa kusanidi passphrase kwenye Ledger yako:
@@ -250,7 +250,7 @@ Hatimaye, menyu ya "*Rudisha kifaa*" hukuruhusu kuweka upya Ledger yako. Endelea
 ## Jinsi ya kusakinisha Programu ya Bitcoin?
 
 
-Anza kwa kuzindua programu ya Ledger Live kwenye kompyuta yako, kisha unganisha na ufungue Ledger Nano yako. Katika Ledger Live, nenda kwenye menyu ya "*Ledger* yangu". Utaulizwa kuidhinisha ufikiaji wa Nano yako.
+Anza kwa kuzindua programu ya Ledger Live kwenye kompyuta yako, kisha unganisha na ufungue Ledger Nano yako. Katika Ledger Live, nenda kwenye menyu ya "My Ledger". Utaulizwa kuidhinisha ufikiaji wa Nano yako.
 
 
 ![NANO S PLUS LEDGER](assets/notext/27.webp)
@@ -298,7 +298,7 @@ Fungua Sparrow Wallet na uruke kurasa za utangulizi ili kufikia skrini ya kwanza
 ![NANO S PLUS LEDGER](assets/notext/33.webp)
 
 
-Ninapendekeza sana kutumia nodi yako ya Bitcoin. Katika somo hili, ninatumia nodi ya umma (njano) kwa sababu niko kwenye Testnet, lakini kwa matumizi ya kawaida, ni bora kuchagua Bitcoin Core (Green) ya ndani au seva ya Electrum iliyounganishwa na nodi ya mbali (bluu).
+Ninapendekeza sana kutumia nodi yako ya Bitcoin. Katika somo hili, ninatumia node ya umma (njano) kwa sababu niko kwenye Testnet, lakini kwa matumizi ya kawaida, ni bora kuchagua Bitcoin Core (Green) ya ndani au seva ya Electrum iliyounganishwa na node ya mbali (bluu).
 
 
 Bofya kwenye menyu ya "*Faili*" kisha "*Mpya Wallet*".
@@ -350,7 +350,7 @@ Sasa unaweza kuona maelezo ya Wallet yako, ikijumuisha ufunguo uliopanuliwa wa u
 ![NANO S PLUS LEDGER](assets/notext/41.webp)
 
 
-Chagua nenosiri dhabiti ili kupata ufikiaji wa Sparrow Wallet. Nenosiri hili litahakikisha usalama wa ufikiaji wa data yako ya Wallet kwenye Sparrow, ambayo husaidia kulinda funguo zako za umma, anwani, lebo na historia ya muamala dhidi ya ufikiaji wowote ambao haujaidhinishwa.
+Chagua nenosiri dhabiti ili kupata ufikiaji wa Sparrow Wallet. Nenosiri hili litahakikisha usalama wa ufikiaji wa data yako ya Wallet kwenye Sparrow, ambayo husaidia kulinda funguo zako za umma, address, lebo na historia ya muamala dhidi ya ufikiaji wowote ambao haujaidhinishwa.
 
 
 Ninakushauri uhifadhi nenosiri hili kwenye kidhibiti cha nenosiri ili usilisahau.
@@ -439,7 +439,7 @@ Iwapo unataka kufanya "*udhibiti wa sarafu*," ikimaanisha kuwa uchague UTXOs gan
 ![NANO S PLUS LEDGER](assets/notext/52.webp)
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 ![NANO S PLUS LEDGER](assets/notext/53.webp)

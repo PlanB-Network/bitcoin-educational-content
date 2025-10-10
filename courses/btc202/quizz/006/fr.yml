@@ -1,0 +1,9 @@
+question: Pourquoi un portefeuille seul n’est-il pas considéré comme un participant du réseau Bitcoin ?
+answer: Parce qu’il ne valide ni les transactions ni les blocs
+wrong_answers:
+  - Parce qu’il ne peut pas générer de clés privées
+  - Parce qu’il ne peut pas créer d’adresses Bitcoin
+  - Parce qu’il ne valide ni les soldes ni les adresses
+explanation: |
+  Un portefeuille ne valide pas directement les blocs et les transactions, il se contente de gérer les clés et dépend des nœuds pour le reste.
+reviewed: false

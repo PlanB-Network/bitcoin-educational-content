@@ -1,0 +1,9 @@
+question: Ni kuki ama ciphers y’uruzi rw’ibinyoma akoreshwa cane mu bikorwa kuruta ama pads y’igihe kimwe?
+answer: Bituma hakoreshwa urufunguzo rugufi mu gihe bitanga urufunguzo rurerure
+wrong_answers:
+  - Ntibisaba urufunguzo rw'ibanga .
+  - Bakoresha uruvange rw'ububiko bw'amakuru buringaniye n'ubutaringaniye .
+  - Ntibakeneye ivyiza bishasha .
+explanation: |
+  Ivyuma vy’uruzitiro vy’uruzitiro vy’ibinyoma birakora cane kubera ko bituma urufunguzo rugufi rushobora kwaguka rukaja mu ruzitiro rw’uruzitiro rurerure, bikaba bituma umuntu adakenera kubika urufunguzo igihe kirekire nk’ubutumwa ubwabwo.
+reviewed: false

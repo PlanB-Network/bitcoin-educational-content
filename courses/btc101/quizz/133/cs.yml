@@ -1,9 +1,9 @@
-question: Jak těžaři ověřují transakce a zařazují je do bloku?
-answer: Prostřednictvím procesu Proof of work (Důkaz práce).
+question: Jaká je aktuální velikost Bitcoin blockchainu?
+answer: Přibližně 500GB.
 wrong_answers:
-  - Prostřednictvím procesu Proof of stake (Důkaz vlastnictví).
-  - Prostřednictvím procesu Proof of authority (Důkaz autority).
-  - Prostřednictvím procesu Proof of burn (Důkaz spálením).
-explanation: >-
-  Těžaři ověřují transakce a zařazují je do bloku prostřednictvím procesu nazývaného proof of work (Důkaz práce). To zahrnuje řešení kryptografické hádanky.
+  - Přibližně 100GB.
+  - Přibližně 1TB.
+  - Přibližně 2TB.
+explanation: |
+  Velikost Bitcoin blockchainu je k roku 2023 přibližně 500GB.
 reviewed: true

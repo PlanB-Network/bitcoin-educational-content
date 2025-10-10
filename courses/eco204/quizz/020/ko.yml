@@ -1,0 +1,11 @@
+question: 하이퍼인플레이션에 대한 가장 잘 알려진 정의는 누가 제안했나요?
+answer: 필립 케이건
+wrong_answers:
+  - Bernholz
+  - David
+  - 한케 크러스
+explanation: |
+  하이퍼인플레이션에 대한 가장 잘 알려진 정의는 필립 케이건입니다,
+  그는 1956년 저서 <초인플레이션에 대한 정량적 이해
+  하이퍼인플레이션의 통화 역학.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Alias Tresor
+name: Alias Vault
 description: Leistungsstarkes Tool zur Verwaltung von Passwörtern, Zwei-Faktor-Authentifizierung und Aliasen (mit integriertem E-Mail-Server) - Auch selbst gehostet!
 ---
 

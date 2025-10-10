@@ -21,7 +21,7 @@ Bitcoinlerinizi kendinizin muhafaza etmesini teşvik eden "Anahtarlarınız yoks
 
 
 
-BTC 202, teknik bir uzman olmasanız bile size kendi Bitcoin düğümünüzü nasıl atacağınızı öğretmek için tasarlanmış erişilebilir bir kurstur. Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve kendi düğümünüzü atmanın neden kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Daha sonra donanımınızı seçme, gerekli yazılımı yükleme, Wallet'unuzu bağlama ve daha ileri götürmek için ilk olası optimizasyonları yapma konusunda size adım adım rehberlik edeceğim.
+BTC 202, teknik bir uzman olmasanız bile kendi Bitcoin düğümünüzü çalıştırmayı öğrenmeniz için tasarlanmış erişilebilir bir eğitimdir. Öncelikle bir Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve neden kendi başınıza bir tane çalıştırmanın kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Ardından, donanımınızı seçme, gerekli yazılımları yükleme, cüzdan yazılımınızı bağlama ve daha ileri gitmek için ilk olası optimizasyonları yapma konusunda sizi adım adım yönlendireceğim.
 
 
 
@@ -481,7 +481,7 @@ Bu dersin ilerleyen bölümlerinde tartışacağımız üzere, protokolün kural
 
 
 
-## Neden kendi düğümünü kendin atıyorsun?
+## Neden kendi düğümünüzü çalıştırmalısınız?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Bir Bitcoin düğümünü işletmenin, kişisel kazanç olmaksızın, yalnızca 
 
 
 
-Gerçekten de, önceki bölümlerde de belirttiğimiz gibi, düğüm atmanın doğrudan maddi bir getirisi yoktur. Bu nedenle bunu yapmakta kişisel bir çıkar olmadığı düşünülebilir. Yine de kendi düğümünüzü işletmek birçok bireysel fayda sağlar. Sizi bu konuda ikna etmek için bu bölümde neden kendi Bitcoin düğümünüzü kurmanız ve kullanmanız gerektiğine dair hem teknik hem de stratejik tüm nedenleri sunacağım.
+Önceki bölümlerde vurguladığımız gibi, bir düğüm çalıştırmak doğrudan finansal bir kazanç sağlamaz. Bu nedenle, bunu yapmanın kişisel bir çıkarı olmadığı düşünülebilir. Ancak, kendi düğümünüzü işletmek birçok bireysel avantaj sağlar. Bunu size göstermek için, bu bölümde hem teknik hem de stratejik tüm nedenleri açıklayacağım; bunlar, kendi Bitcoin düğümünüzü kurup kullanmanız için sizi teşvik etmelidir.
 
 
 
@@ -576,7 +576,7 @@ Full node'nin kurulumu önemsiz bir işlem değildir. Yazılım yüklemeyi, teme
 
 
 
-Bu bilgiyi edinmek alete olan güveninizi güçlendirir ve hata yapma veya dolandırıcılığa maruz kalma riskini azaltabilir. Kendi düğümünüzü atmak da bir öğrenme biçimidir.
+Bu bilgiyi edinmek, araca olan güveninizi güçlendirir ve hatalar veya dolandırıcılıklara maruz kalma riskini azaltabilir. Kendi düğümünüzü çalıştırmak aynı zamanda öğrenmektir.
 
 
 
@@ -692,7 +692,7 @@ Dolayısıyla önemli olan düğüm sayısı değil, destekledikleri ekonomik fa
 
 
 
-> Senin düğümün değil, senin kuralların değil.
+> Senin düğümün değilse, senin kuralların da değildir.
 
 
 ## Farklı Bitcoin düğüm tipleri
@@ -730,7 +730,7 @@ Pratikte, bir Full node, blok dosyaları için birkaç yüz gigabayt, komut dosy
 
 
 
-### pruned düğümü
+### Budanmış düğüm
 
 
 
@@ -849,7 +849,7 @@ Bu en egemen ve esnek yaklaşımdır: tam olarak neyin çalıştığını, veril
 
 
 
-#### Bitcoin core (ultra çoğunluklu müşteri)
+#### Bitcoin Core (ağırlıklı istemci)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (ana alternatif müşteri)
+#### Bitcoin Knots (ana alternatif istemci)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr istemcileri ***noStrudel*** veya ***Snort*** da Umbrel'de mevcuttur. Bu uy
 
 
 
-Son olarak, Umbrel'de Nostr'da yerel Lightning ödemelerini mümkün kılan ***Nostr Wallet Connect*** uygulaması var. Somut olarak, üçüncü taraf bir hizmetten geçmeye gerek kalmadan, içeriği ödüllendirmek veya paraya dönüştürülmüş bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler göndermek üzere gelecekteki Lightning düğümünüzü Nostr müşterilerinize bağlayabilirsiniz. Bu ödemeler, kanallarınız aracılığıyla doğrudan kişisel düğümünüzden gönderilir.
+Son olarak, Umbrel'de yer alan ***Nostr Wallet Connect*** uygulaması, Nostr içinde yerel Lightning ödemeleri yapılmasına olanak tanır. Somut olarak, gelecekteki Lightning düğümünüzü Nostr istemcilerinize bağlayarak, içerikleri ödüllendirmek veya para kazanılan bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler gönderebilirsiniz. Bu ödemeler, üçüncü taraf bir hizmetten geçmeden, doğrudan kişisel düğümünüzden kanallarınız aracılığıyla gönderilir.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Şemsiye düğümünüzün bakımı
+## Umbrel düğümünüzü bakımda tutma
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>

@@ -21,7 +21,7 @@ Anda mungkin sudah tidak asing lagi dengan pepatah "Bukan kunci Anda, bukan koin
 
 
 
-BTC 202 adalah kursus yang dirancang untuk mengajarkan Anda cara memintal simpul Bitcoin Anda sendiri, bahkan jika Anda bukan ahli teknis. Kita akan mulai dengan mendefinisikan apa itu simpul Bitcoin, untuk apa simpul itu, dan mengapa sangat penting untuk memintal simpul itu sendiri. Kemudian saya akan memandu Anda langkah demi langkah dalam memilih perangkat keras, menginstal perangkat lunak yang diperlukan, menghubungkan Wallet Anda, dan melakukan pengoptimalan pertama yang memungkinkan untuk membawanya lebih jauh.
+BTC 202 adalah pelatihan yang mudah diakses yang dirancang untuk mengajarkan Anda cara menjalankan node Bitcoin Anda sendiri, bahkan jika Anda bukan ahli teknis. Kami akan mulai dengan mendefinisikan apa itu node Bitcoin, untuk apa fungsinya, dan mengapa sangat penting untuk menjalankannya sendiri. Saya kemudian akan memandu Anda langkah demi langkah dalam memilih perangkat keras Anda, menginstal perangkat lunak yang diperlukan, menghubungkan perangkat lunak dompet Anda, dan melakukan optimalisasi awal yang mungkin untuk melangkah lebih jauh.
 
 
 
@@ -481,7 +481,7 @@ Seperti yang akan kita bahas nanti dalam kursus ini, node-node, menurut bobot ek
 
 
 
-## Mengapa memelintir simpul Anda sendiri?
+## Mengapa menjalankan node sendiri?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Ada kepercayaan yang dipegang secara luas bahwa mengoperasikan node Bitcoin adal
 
 
 
-Memang, seperti yang telah kami tunjukkan di bab-bab sebelumnya, tidak ada keuntungan finansial secara langsung dalam memintal simpul. Oleh karena itu, orang mungkin berpikir bahwa tidak ada kepentingan pribadi untuk melakukannya. Namun, menjalankan simpul Anda sendiri membawa banyak manfaat tersendiri. Untuk meyakinkan Anda tentang hal ini, saya akan menyajikan dalam bab ini semua alasan, baik teknis maupun strategis, mengapa Anda harus memasang dan menggunakan node Bitcoin Anda sendiri.
+Seperti yang telah kami tekankan dalam bab-bab sebelumnya, menjalankan node tidak memberikan keuntungan finansial langsung. Oleh karena itu, seseorang mungkin berpikir tidak ada manfaat pribadi untuk melakukannya. Namun, mengoperasikan node sendiri membawa banyak keuntungan individu. Untuk meyakinkan Anda, saya akan memaparkan dalam bab ini semua alasan, baik teknis maupun strategis, yang seharusnya mendorong Anda untuk menginstal dan menggunakan node Bitcoin Anda sendiri.
 
 
 
@@ -576,7 +576,7 @@ Menginstalasi Full node bukanlah operasi yang sepele. Ini melibatkan penginstala
 
 
 
-Memperoleh pengetahuan ini akan memperkuat kepercayaan diri Anda terhadap alat tersebut dan dapat mengurangi risiko kesalahan atau terpapar penipuan. Memintal simpul Anda sendiri juga merupakan suatu bentuk pembelajaran.
+Memperoleh pengetahuan ini memperkuat kepercayaan Anda terhadap alat dan dapat mengurangi risiko kesalahan atau paparan terhadap penipuan. Menjalankan node sendiri juga berarti belajar.
 
 
 
@@ -692,7 +692,7 @@ Jadi, yang penting bukanlah jumlah node, tetapi pentingnya aktivitas ekonomi yan
 
 
 
-> Bukan simpul Anda, bukan aturan Anda.
+> Bukan node-mu, bukan aturannya kamu.
 
 
 ## Berbagai jenis node Bitcoin yang berbeda
@@ -706,7 +706,7 @@ Oleh karena itu, sebuah node Bitcoin adalah sebuah mesin yang menjalankan implem
 
 
 
-### Simpul yang lengkap
+### Node lengkap
 
 
 
@@ -730,7 +730,7 @@ Tergantung pada kebutuhan Anda, Anda dapat menambahkan pengindeks ke Full node A
 
 
 
-### Simpul pruned
+### Node yang dipangkas
 
 
 
@@ -754,7 +754,7 @@ Singkatnya, pelacakan Wallet bekerja tanpa hambatan pada node pruned jika Anda m
 
 
 
-### Simpul ringan / SPV
+### Node ringan / SPV
 
 
 
@@ -849,7 +849,7 @@ Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa 
 
 
 
-#### Bitcoin core (pelanggan ultra-mayoritas)
+#### Bitcoin Core (klien mayoritas mutlak)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (pelanggan alternatif utama)
+#### Bitcoin Knots (klien alternatif utama)
 
 
 
@@ -2590,7 +2590,7 @@ Klien Nostr ***noStrudel*** atau ***Snort*** juga tersedia di Umbrel. Berkat apl
 
 
 
-Terakhir, ada aplikasi ***Nostr Wallet Connect*** di Umbrel, yang memungkinkan pembayaran Lightning asli di Nostr. Secara konkret, Anda dapat menautkan node Lightning Anda di masa depan ke pelanggan Nostr Anda untuk mengirim pembayaran mikro, yang disebut "*zaps*", untuk memberi hadiah pada konten atau berinteraksi dengan cara yang dimonetisasi, tanpa perlu melalui layanan pihak ketiga. Pembayaran ini dikirim langsung dari node pribadi Anda melalui saluran Anda.
+Akhirnya, ada aplikasi ***Nostr Wallet Connect*** di Umbrel, yang memungkinkan pembayaran Lightning asli di dalam Nostr. Secara konkret, Anda dapat menghubungkan node Lightning Anda di masa depan ke klien Nostr Anda untuk mengirimkan mikro-pembayaran, disebut "*zaps*", guna memberi penghargaan pada konten atau berinteraksi secara termonetisasi tanpa melalui layanan pihak ketiga. Pembayaran ini dikirim langsung dari node pribadi Anda melalui saluran Anda.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Mempertahankan simpul Umbrel Anda
+## Merawat node Umbrel Anda
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Jika node Anda mendengarkan pada port terbuka (secara default, 8333), maka node 
 
 
 
-## Anatomi simpul Bitcoin Anda
+## Anatomi node Bitcoin Anda
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

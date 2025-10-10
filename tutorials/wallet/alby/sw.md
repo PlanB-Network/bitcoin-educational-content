@@ -1,13 +1,14 @@
 ---
 name: Alby
-
-description: Kiendelezi cha kivinjari cha Bitcoin na Mtandao wa Umeme
+description: Kiendelezi cha kivinjari cha Bitcoin na Lightning Network 
 ---
 
 ![cover](assets/cover.webp)
 
 
-Ili kuona mwongozo bora zaidi kwenye alby angalia ukurasa wa hati! https://guides.getalby.com/overall-guide/
+Ili kuona mwongozo bora zaidi kwenye alby angalia ukurasa wa hati!
+
+https://guides.getalby.com/overall-guide/
 
 
 ## video ya mafunzo

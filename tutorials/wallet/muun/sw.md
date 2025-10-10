@@ -1,16 +1,16 @@
 ---
 name: Muun
 
-description: Inaweka Muun Wallet yako
+description: Unaweka Muun Wallet yako
 ---
 
 ![cover](assets/cover.webp)
 
 
-[Muun](https://muun.com/) ni pochi ya kujihifadhi kwa bitcoin na lightning.
+Muun (https://muun.com/) ni Wallet inayojitegemea ya Bitcoin na umeme.
 
 
-## Mafunzo ya video
+## mafunzo ya video
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ description: Inaweka Muun Wallet yako
 ## Muun Wallet - Mwongozo Kamili wa Mtumiaji
 
 
-Mwongozo kamili wa mtumiaji (na picha za skrini) kwa programu ya Muun; pochi ya Bitcoin ya simu rafiki kwa mtumiaji inayokuwezesha kufanya miamala kwenye Mtandao wa Lightning.
+Mwongozo kamili wa mtumiaji (na viwambo) kwa programu ya Muun; simu ya mkononi ya Bitcoin Wallet inayoweza kutumika kwa mtumiaji ambayo inakuruhusu kufanya miamala kwenye Lightning Network.
 
 
 ![image](assets/0.5.webp)
@@ -46,7 +46,7 @@ Muun Wallet kisha inakuuliza uunde nambari ya kitambulisho cha kibinafsi yenye t
 ![image](assets/3.webp)
 
 
-Haya basi, programu imetoa Wallet mpya kabisa ambayo sasa itakuwa ukurasa wa nyumbani. Sasa unahitaji kupata maelezo muhimu ya urejeshaji wa Wallet kabla ya kutuma pesa yoyote kwake, kwani hilo litakuwa jambo hatari.
+Haya basi, programu imetengeneza wallet mpya kabisa ambayo sasa itakuwa ukurasa wa nyumbani. Sasa unahitaji kupata maelezo muhimu ya urejeshaji wa wallet kabla ya kutuma pesa yoyote kwake, kwani kufanya hivyo bila hatua hiyo litakuwa jambo hatari.
 
 
 ![image](assets/4.webp)
@@ -55,13 +55,13 @@ Haya basi, programu imetoa Wallet mpya kabisa ambayo sasa itakuwa ukurasa wa nyu
 ### Chelezo muhimu
 
 
-Bonyeza kisanduku cha "Cheleza Wallet yako", na utaelekezwa kwenye kichupo cha "Usalama". Mchakato wa chelezo wa Muun umegawanywa kwa urahisi katika hatua tatu. Sio lazima kukamilisha hatua zote tatu, lakini mchanganyiko wao hutoa tahadhari ya juu.
+Bonyeza kisanduku cha "Cheleza wallet yako", na utaelekezwa kwenye kichupo cha "Usalama". Mchakato wa chelezo wa Muun umegawanywa kwa urahisi katika hatua tatu. Sio lazima kukamilisha hatua zote tatu, lakini mchanganyiko wao hutoa kiwango cha juu cha tahadhari.
 
 
 ![image](assets/5.webp)
 
 
-Chaguo la kwanza hukuruhusu kuunganisha Wallet yako kwa barua pepe ya Address, pamoja na kuilinda na nenosiri. Chaguo hili ni la hiari na linaweza kuruka bila shida yoyote. Ikiwa unataka kuitumia, bonyeza "1: Hifadhi nakala ya Wallet yako" na kisha "Anza" kwenye skrini inayofuata na uweke barua pepe Address. Skrini inayofuata itakuambia kwamba unahitaji kuthibitisha barua pepe kwa kufikia kisanduku chako cha barua na kubofya kiungo kilichotolewa katika barua pepe ya Muun.
+Chaguo la kwanza hukuruhusu kuunganisha wallet yako na anwani ya barua pepe, pamoja na kuilinda kwa nenosiri. Chaguo hili ni la hiari na unaweza kuliruka bila shida yoyote. Ikiwa unataka kulitumia, bonyeza "1: Hifadhi nakala ya wallet yako" kisha "Anza" kwenye skrini inayofuata na uweke anwani ya barua pepe. Skrini inayofuata itakuarifu kwamba unahitaji kuthibitisha barua pepe kwa kufungua kisanduku chako cha barua na kubofya kiungo kilichotolewa kwenye barua pepe ya Muun.
 
 
 ![image](assets/6.webp)
@@ -125,7 +125,7 @@ Urejeshaji wa Wallet
 ![image](assets/14.webp)
 
 
-Kuna hali nyingi ambapo mtumiaji anaweza kupoteza ufikiaji wa Wallet & fedha zao kwa muda; kupoteza kifaa, programu iliyoondolewa/kukosekana, nambari ya kitambulisho ya kibinafsi iliyosahaulika, kukatwa kwa Wallet, n.k. Kwa hivyo ni muhimu kujua jinsi ya kurejesha ufikiaji huu. Unapopata nafuu kupitia programu ya Muun, bonyeza chaguo la "Tayari Nina Wallet" kwenye skrini inayofungua.
+Kuna hali nyingi ambapo mtumiaji anaweza kupoteza ufikiaji wa wallet na fedha zake kwa muda; kama vile kupoteza kifaa, programu kuondolewa au kukosekana, nambari ya PIN kusahaulika, au kukatwa kwa wallet. Kwa hivyo, ni muhimu kujua jinsi ya kurejesha ufikiaji huu. Unapofanya urejeshaji kupitia programu ya Muun, bonyeza chaguo la "Tayari Nina Wallet" kwenye skrini ya ufunguzi.
 
 
 ![image](assets/15.webp)
@@ -158,7 +158,7 @@ Hatua ya mwisho ni kuunda nambari ya kitambulisho cha kibinafsi, na kisha utarud
 Unaporejesha ufikiaji wa Wallet iliyopo, unaweza kuchagua kutumia msimbo wa uokoaji ("Msimbo wa Urejeshaji" kama ilivyobainishwa na Muun) ambao ulibainisha hapo awali ikiwa ulichagua chaguo #2 la chelezo.
 
 
-Utaratibu huu ni sawa na ule uliofafanuliwa katika sehemu iliyopita; kurejesha kwa barua pepe. Chagua tu kutumia chaguo la "Rejesha Ukitumia Msimbo wa Urejeshaji" na uiweke katika sehemu zinazofaa zinazoonyeshwa kwenye skrini. Ikiwa Wallet yako pia inachelezwa na barua pepe pamoja na msimbo wa urejeshaji, Muun itakuuliza uangalie kisanduku chako cha barua ili kuidhinisha mchakato wa urejeshaji, ambao unaweza kukamilisha mara tu utakaporudi kwa programu baada ya kubofya kiungo kilichotolewa. Kwa mara nyingine tena, lazima uunde nambari ya kitambulisho cha kibinafsi. Hapo ulipo, utakuwa na ufikiaji wa Wallet yako tena.
+Utaratibu huu ni sawa na ule ulioelezwa katika sehemu iliyopita wa kurejesha kwa barua pepe. Chagua tu kutumia chaguo la "Rejesha ukitumia msimbo wa urejeshaji" na uiweke kwenye sehemu zinazofaa zinazoonyeshwa kwenye skrini. Ikiwa wallet yako pia imechelezwa kwa barua pepe pamoja na msimbo wa urejeshaji, Muun itakuomba uangalie kisanduku chako cha barua ili kuidhinisha mchakato wa urejeshaji, ambao unaweza kukamilisha mara tu utakaporudi kwenye programu baada ya kubofya kiungo kilichotolewa. Kisha, utatakiwa kuunda nambari ya PIN mpya. Baada ya hapo, utakuwa na ufikiaji wa wallet yako tena.
 
 
 ### Urejeshaji kwa kutumia Kifaa cha Dharura
@@ -182,19 +182,19 @@ Hapa kuna tafsiri ya maagizo:
 Utaratibu huu wa dharura utakusaidia kurejesha pesa zako ikiwa huwezi kutumia Muun kwenye kifaa chako.
 
 
-- Pata msimbo wako wa urejeshaji
+1. Tafuta nambari yako ya kuthibitisha
 
 
 Uliandika msimbo huu kwenye karatasi kabla ya kuunda kifaa chako cha dharura. Utaihitaji baadaye.
 
 
-- Pakua chombo cha urejeshaji
+2. Pakua chombo cha kurejesha
 
 
 Nenda kwenye ukurasa https://github.com/muun/recovery na upakue zana kwenye kompyuta yako.
 
 
-- Rejesha fedha zako
+3. Rejesha pesa zako
 
 
 Endesha zana ya kurejesha na ufuate hatua. Chombo hiki kitahamisha fedha zako kwa Bitcoin Address ya chaguo lako.
@@ -260,7 +260,7 @@ Chaguzi za ubinafsishaji zinaweza kupatikana chini ya menyu ya "Mipangilio ya In
 ![image](assets/28.webp)
 
 
-## Kutumia kazi ya LNURL
+## Kwa kutumia kitendakazi cha LNURL
 
 
 Muun Wallet inatoa uwezo wa kutumia LNURL kupokea miamala. Kitendaji hiki, ambacho kimeamilishwa kwa kugonga alama ya skanning ya mraba iliyo upande wa juu wa kulia wa ukurasa, ina faida kadhaa, ikiwa ni pamoja na kuepuka hitaji la kushiriki Invoice ili kupokea muamala. Badala yake, unahitaji kuchanganua msimbo wa QR ili kupokea maelezo ya malipo, ambayo unaweza kuyathibitisha ili kuthibitisha mchakato wa ununuzi.
@@ -309,7 +309,7 @@ Baada ya kuthibitisha kiasi cha kutuma, Muun anakuuliza kwenye ukurasa unaofuata
 ![image](assets/36.webp)
 
 
-Uhakiki wa mwisho wa maelezo ya muamala ni muhimu kabla ya kuutangaza hatimaye. Thibitisha Address iliyoingizwa na kiasi, kisha ubadilishe ada za muamala upendavyo kwa kubofya aikoni ya penseli ya bluu iliyo upande wa kulia wa "ada ya mtandao". Kuelewa misingi ya jinsi Bitcoin transaction pool (Mempool) inavyofanya kazi ni uzoefu mzuri wa kielimu ambao unaweza kukuokoa satoshi nyingi kwa wakati!
+Uhakiki wa mwisho wa maelezo ya muamala ni muhimu kabla ya kuutangaza. Hakikisha umethibitisha address iliyoingizwa na kiasi, kisha ubadilishe ada za muamala upendavyo kwa kubofya aikoni ya penseli ya bluu iliyo upande wa kulia wa "ada ya mtandao". Kuelewa misingi ya jinsi Bitcoin transaction pool (mempool) inavyofanya kazi ni uzoefu mzuri wa kielimu ambao unaweza kukuokoa satoshi nyingi kwa wakati!
 
 
 ![image](assets/37.webp)
@@ -320,7 +320,7 @@ Programu ya Muun hutekelezea kwa chaguomsingi algoriti ambayo hukokotoa ada zina
 
 ![image](assets/38.webp)
 
-Kwa kuchagua kuweka kiasi cha ada ya muamala wewe mwenyewe, utapelekwa kwenye ukurasa mpya unaoonyesha kiasi kitakachowekwa katika sat/vbyte (satoshis kwa byte pepe). Muun huonyesha hata makadirio ya muda wa uthibitishaji unaohusishwa na kiasi kilichochaguliwa, pamoja na gharama katika BTC na sarafu ya fiat ya chaguo lako.
+Kwa kuchagua kuweka kiasi cha ada ya muamala wewe mwenyewe, utapelekwa kwenye ukurasa mpya unaoonyesha kiasi kitakachowekwa katika sat/vbyte (satoshis kwa byte pepe). Muun pia huonyesha makadirio ya muda wa uthibitishaji yanayohusiana na kiasi ulichochagua, pamoja na gharama katika BTC na sarafu ya fiat ya chaguo lako.
 
 ![image](assets/39.webp)
 
@@ -331,7 +331,7 @@ Rudi kwenye ukurasa wa muhtasari wa maelezo ya muamala na ubonyeze "Tuma". Kweli
 ![image](assets/40.webp)
 
 
-Bonyeza ingizo ili kuona maelezo ya shughuli mahususi. Muamala wako utathibitishwa wakati Miner itaongeza kizuizi kipya kilicho nayo kwenye msururu. Muun hushiriki transaction ID chini ya skrini, huku kuruhusu kuangalia hali ya muamala wako kwenye Block explorer.
+Bonyeza ingizo ili kuona maelezo ya muamala mahususi. Muamala wako utathibitishwa wakati Miner itaongeza block mpya iliyo nayo kwenye msururu. Muun hushiriki transaction ID chini ya skrini, huku kuruhusu kuangalia hali ya muamala wako kwenye Block explorer.
 
 
 ![image](assets/41.webp)
@@ -340,19 +340,19 @@ Bonyeza ingizo ili kuona maelezo ya shughuli mahususi. Muamala wako utathibitish
 ## Kupitia Lightning Network
 
 
-Sasa hebu tutumie Bolt 11 Invoice (Umeme wa jadi/msingi Invoice) kufanya muamala. Nakili au changanua Umeme Address kwenye ukurasa wa "Tuma". Utaelekezwa kwenye ukurasa mpya unaokuonyesha maelezo ya Invoice ya sasa. Kiasi cha muamala kitaonyeshwa (pamoja na ada za mtandao), pamoja na dokezo au maelezo yaliyoandikwa kwenye Invoice, na kipima muda cha mwisho wa matumizi chini. Kumbuka kuwa ada za ununuzi haziwezi kubadilishwa kwa miamala ya Umeme. Zinaamuliwa na njia ya (vituo) ambavyo watalazimika kutumia ili kumfikia mpokeaji.
+Sasa hebu tutumie Bolt 11 Invoice (Umeme wa jadi/msingi Invoice) kufanya muamala. Nakili au changanua Lightning Address kwenye ukurasa wa "Tuma". Utaelekezwa kwenye ukurasa mpya unaokuonyesha maelezo ya Invoice ya sasa. Kiasi cha muamala kitaonyeshwa (pamoja na ada za mtandao), pamoja na dokezo au maelezo yaliyoandikwa kwenye Invoice, na kipima muda cha mwisho wa matumizi chini. Kumbuka kuwa ada za ununuzi haziwezi kubadilishwa kwa miamala ya Umeme. Zinaamuliwa na njia ya (vituo) ambavyo watalazimika kutumia ili kumfikia mpokeaji.
 
 
 ![image](assets/42.webp)
 
 
-(Hili hapa ni onyo linaloonyeshwa kwenye skrini unapotumia Invoice tupu, kumaanisha kuwa haina kiasi kilichojazwa awali. Baadhi ya pochi huauni aina hii ya Invoice na hukuruhusu kubinafsisha kiasi hicho. Hii sivyo kwa Muun.)
+(Hili hapa ni onyo linaloonyeshwa kwenye skrini unapotumia Invoice tupu, kumaanisha kuwa haina kiasi kilichojazwa awali. Baadhi ya Wallet huauni aina hii ya Invoice na hukuruhusu kubinafsisha kiasi hicho. Hii sivyo kwa Muun.)
 
 
 ![image](assets/43.webp)
 
 
-Kubonyeza ikoni ya jicho hukuonyesha maelezo ya nodi ya Umeme unayoshughulikia katika shughuli hii. Unaweza hata kuwa na chaguo la kutazama kichunguzi cha wavuti kwa habari zaidi. Huu ni mfano mzuri wa muhtasari wa kiufundi uliofikiwa na Muun.
+Kubonyeza ikoni ya jicho hukuonyesha maelezo ya nodi ya Umeme unayoshughulikia katika muamala huu. Unaweza hata kuwa na chaguo la kutazama kichunguzi cha wavuti kwa habari zaidi. Huu ni mfano mzuri wa muhtasari wa kiufundi uliofikiwa na Muun.
 
 
 ![image](assets/44.webp)
@@ -364,7 +364,7 @@ Mara tu unapobonyeza "Tuma", shughuli yako itazinduliwa na, kwa kawaida, itakami
 ![image](assets/45.webp)
 
 
-Kumbuka kuwa katika historia, miamala ya Umeme na Bitcoin inatofautishwa na ishara tofauti. Ili kuona maelezo ya shughuli ya Umeme, gusa kwenye skrini yako ya historia.
+Kumbuka kuwa katika historia, miamala ya Lightning na Bitcoin inatofautishwa na ishara tofauti. Ili kuona maelezo ya miamala ya Lightning, gusa kwenye skrini yako ya historia.
 
 
 ![image](assets/46.webp)
@@ -373,7 +373,7 @@ Kumbuka kuwa katika historia, miamala ya Umeme na Bitcoin inatofautishwa na isha
 ## Mipangilio ya Programu
 
 
-Kichupo cha tatu kwenye ukurasa wa nyumbani, "Mipangilio," ndipo unaweza kupata mipangilio ya programu. Ukurasa huu ni mfupi wa kushangaza, haswa ikilinganishwa na pochi zingine maarufu za rununu. Kwa maoni yangu, hii sio hasara; kinyume chake, naiona kama faida katika suala la urahisi.
+Kichupo cha tatu kwenye ukurasa wa nyumbani, "Mipangilio," ndipo unaweza kupata mipangilio ya programu. Ukurasa huu ni mfupi wa kushangaza, haswa ikilinganishwa na walle zingine maarufu za rununu. Kwa maoni yangu, hii sio hasara; kinyume chake, naiona kama faida katika suala la urahisi.
 
 
 ![image](assets/47.webp)
@@ -385,7 +385,7 @@ Katika kategoria ya jumla, unaweza kuchagua kitengo unachopendelea cha akaunti n
 Kwa kitengo cha akaunti ya programu, chagua kati ya Bitcoin (BTC) au Satoshi (SAT). Kwa taarifa yako tu, Satoshi ni sehemu ndogo zaidi ya Bitcoin, ambayo ni nafasi ya nane ya decimal (1 SAT = 0.00000001 BTC). Kubainisha Wallet katika Satoshis mara nyingi hupendekezwa wakati hasa wa kutumia Lightning Network kwa kiasi kidogo.
 
 
-Muun inatoa aina mbalimbali za sarafu, hivyo kurahisisha kupata ubadilishaji unaohitajika wa BTC kwa ajili ya mahitaji yako ya ununuzi na/au ya kibinafsi.
+Muun inatoa aina mbalimbali za sarafu, hivyo kurahisisha kupata exchange inayohitajika kwa BTC kwa ajili ya mahitaji yako ya ununuzi na/au ya kibinafsi.
 
 
 Ikiwa unaona ni muhimu kubadilisha nenosiri lako la kurejesha akaunti ya Wallet, unaweza kufanya hivyo kwenye ukurasa wa mipangilio. Hakikisha kuwa una nenosiri lako la sasa au msimbo wa uokoaji na ufikiaji wa barua pepe yako.
@@ -402,7 +402,7 @@ Weka nenosiri lako la sasa au uchague kuweka msimbo wako wa kurejesha akaunti il
 ![image](assets/50.webp)
 
 
-Sehemu ya mipangilio ya hali ya juu ina maingizo mawili: Mtandao wa Bitcoin na Lightning Network. Katika Mtandao wa Bitcoin, tumepewa chaguo kuwezesha anwani za kupokea za Taproot (bc1p, aina mpya zaidi ya Address) kwa chaguomsingi.
+Sehemu ya mipangilio ya hali ya juu ina maingizo mawili: Mtandao wa Bitcoin na Lightning Network. Kwenye Mtandao wa Bitcoin, kuna chaguo la kuwezesha anwani za kupokea za Taproot (bc1p, aina mpya zaidi ya address) kama chaguo-msingi.
 
 
 ![image](assets/51.webp)
@@ -412,7 +412,7 @@ Ndani ya Lightning Network, utapata:
 
 
 
-- Kupokea Itifaki: Chagua mtandao wako chaguomsingi wa kupokea unaoonyeshwa kwenye skrini ya Pokea. Kitendaji cha majaribio, Unified, kinapatikana pia. Huu ni msimbo wa QR unaounganisha anwani zote mbili za Bitcoin na Umeme. Hata hivyo, programu chache za Bitcoin kwa sasa zinaauni kipengele hiki.
+-Protocol ya Kupokea : Chagua mtandao wako chaguomsingi wa kupokea unaoonyeshwa kwenye skrini ya Pokea. Kitendaji cha majaribio, Unified, kinapatikana pia. Huu ni msimbo wa QR unaounganisha anwani zote mbili za Bitcoin na Umeme. Hata hivyo, programu chache za Bitcoin kwa sasa zinaauni kipengele hiki.
 
 -
 

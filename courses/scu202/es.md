@@ -1765,7 +1765,7 @@ Este capítulo te habrá permitido comprender mejor qué es un entorno de escrit
 
 Hoy en día, Ubuntu es una de las puertas de entrada más accesibles a GNU/Linux: un entorno GNOME pulido, repositorios extensos, actualizaciones de seguridad receptivas y una gran comunidad. Por eso he elegido presentar esta distribución.
 
-
+ 
 
 Sin embargo, dominar la instalación de tu escritorio requiere una comprensión de los mecanismos fundamentales del sistema: gestión de paquetes, línea de comandos, seguridad básica y buenas prácticas diarias. En este capítulo, te llevaré paso a paso, desde la configuración inicial hasta la instalación de herramientas de productividad y desarrollo, para asegurarte de que tienes un escritorio completo, seguro y eficiente.
 
@@ -1843,7 +1843,7 @@ Conecta una memoria USB de al menos 8 GB (cuidado, su contenido se borrará) y u
 
 
 
-Ahora necesitas arrancar tu ordenador no desde el disco Hard, sino desde la llave USB. Reinicie su ordenador y acceda al menú de arranque o BIOS/UEFI. Esto se suele hacer pulsando una tecla justo después de arrancar el ordenador (a menudo `F2`, `F10`, `F12`, `DEL`, `ESC`). Comprueba cómo acceder a este menú en tu máquina.
+Ahora necesitas arrancar tu ordenador no desde el disco duro, sino desde la llave USB. Reinicie su ordenador y acceda al menú de arranque o BIOS/UEFI. Esto se suele hacer pulsando una tecla justo después de arrancar el ordenador (a menudo `F2`, `F10`, `F12`, `DEL`, `ESC`). Comprueba cómo acceder a este menú en tu ordenador.
 
 
 
@@ -1862,7 +1862,7 @@ El instalador sugerirá:
 
 - elija su idioma y zona horaria
 - conectarse a una red Wi-Fi
-- elija el tipo de instalación (por defecto o ampliada) en función de si desea un sistema mínimo o uno con muchas aplicaciones preinstaladas
+- elija el tipo de instalación (por defecto o avanzada) en función de si desea un sistema mínimo o uno con muchas aplicaciones preinstaladas
 - instalar o no software de terceros (controladores gráficos, códecs, etc.)
 
 
@@ -1892,7 +1892,7 @@ Si su ordenador ya contiene Windows, Ubuntu detectará automáticamente esta ins
 
 
 
-Elija esta opción si desea mantener Windows para determinadas aplicaciones de software (por ejemplo, videojuegos) mientras descubre Linux.
+Elija esta opción si desea mantener Windows para determinadas aplicaciones de software (por ejemplo, videojuegos) mientras descubres Linux.
 
 
 
@@ -1902,7 +1902,7 @@ Para hacer esto correctamente, te recomiendo que primero crees una partición no
 
 
 
-- Sustitución completa de las ventanas**
+- Sustitución completa de Windows**
 
 
 
@@ -1922,7 +1922,7 @@ Elija esta opción sólo si desea cambiar 100% a GNU/Linux. Recuerda hacer una c
 
 
 
-- Instalación en un ordenador en blanco
+- Instalación en un ordenador sin sistema operativo**
 
 
 
@@ -2023,7 +2023,7 @@ Cada repositorio está dividido en secciones. Por defecto, Ubuntu activa cuatro 
 - main**: software libre mantenido oficialmente por Canonical. Ejemplos: Firefox, LibreOffice, bash
 - restringido**: software no libre que es esencial para que el hardware funcione correctamente. Ejemplos: Controladores NVIDIA, firmware Wi-Fi, códecs propietarios
 - universo**: software libre mantenido por la comunidad. Ejemplos: GIMP, Inkscape, Audacity
-- multiverse**: software sujeto a restricciones legales (patentes, licencias no libres). La disponibilidad puede variar según el país. Ejemplos: determinados códecs de audio/vídeo, Steam
+- multiuniversos**: software sujeto a restricciones legales (patentes, licencias no libres). La disponibilidad puede variar según el país. Ejemplos: determinados códecs de audio/vídeo, Steam
 
 
 
@@ -2035,7 +2035,7 @@ Cada componente puede dividirse en varios canales o ramas: `release`, `security`
 
 
 
-El Interface gráfico hace que el uso de Ubuntu sea intuitivo, pero para determinadas tareas de administración, el terminal sigue siendo la herramienta más eficaz y potente. En Ubuntu, la shell por defecto es **Bash** (*Bourne Again SHell*), una shell libre de la tradición Unix.
+El Interface gráfico hace que el uso de Ubuntu sea intuitivo, pero para determinadas tareas de administración, el terminal sigue siendo la herramienta más eficaz y potente. En Ubuntu, el *shell* por defecto es **Bash** (*Bourne Again SHell*), un shell libre de la tradición Unix.
 
 
 
@@ -2142,7 +2142,7 @@ Para crear un nuevo directorio dentro del actual, utilice el comando
 
 
 ```bash
-mkdir name
+mkdir nombre
 ```
 
 
@@ -2166,7 +2166,7 @@ Para copiar un archivo, utilice el comando `cp`, seguido del nombre del archivo 
 
 
 ```bash
-cp file.txt destination
+cp file.txt destino
 ```
 
 
@@ -2182,7 +2182,7 @@ cp file.txt destination
 
 
 ```bash
-mv file.txt /new/directory/
+mv archivo.txt /nuevo/directorio/
 ```
 
 
@@ -2202,7 +2202,7 @@ El comando `mv` le permite mover o renombrar un fichero o directorio. Si especif
 
 
 ```bash
-rm file.txt
+rm archivo.txt
 ```
 
 
@@ -2260,7 +2260,7 @@ clear
 
 
 ```bash
-sudo command
+sudo somando
 ```
 
 
@@ -2269,7 +2269,7 @@ La palabra clave `sudo` (*superuser do*) le permite ejecutar temporalmente un co
 
 
 
-Sugerencia: para cambiar a un shell raíz (sesión de administrador), escriba:
+Sugerencia: para cambiar a un shell *root* (sesión de administrador), escriba:
 
 
 
@@ -2290,7 +2290,7 @@ Esto abre un terminal completo con privilegios de root. Utilícelo con precauci�
 
 
 ```bash
-man command_name
+man nombre_comando
 ```
 
 
@@ -2331,7 +2331,7 @@ En las siguientes secciones, veremos más de cerca cómo utilizar el terminal pa
 
 
 
-En un sistema GNU/Linux como Ubuntu, la instalación, actualización y eliminación de software se centralizan mediante sistemas de gestión de paquetes. A diferencia de Windows, donde se descargan archivos `.exe' o `.msi', Ubuntu utiliza herramientas como APT, Snap o Flatpak para automatizar estas operaciones, garantizando la coherencia del sistema.
+En un sistema GNU/Linux como Ubuntu, la instalación, actualización y eliminación de software se centralizan mediante sistemas de gestión de paquetes. A diferencia de Windows, donde se descargan archivos `.exe` o `.msi`, Ubuntu utiliza herramientas como APT, Snap o Flatpak para automatizar estas operaciones, garantizando la coherencia del sistema.
 
 
 
@@ -2371,7 +2371,7 @@ sudo apt install gimp
 
 
 
-Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de la Interface.
+Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de la interfaz.
 
 
 
@@ -2466,7 +2466,7 @@ sudo snap install spotify
 
 
 
-Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de Interface. O, aún más sencillo: puedes escribir el nombre del programa directamente en el terminal (en este caso, "spotify") para abrirlo.
+Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de la interfaz. O, aún más sencillo: puedes escribir el nombre del programa directamente en el terminal (en este caso, "spotify") para abrirlo.
 
 
 
@@ -2506,7 +2506,7 @@ sudo snap remove spotify
 
 
 
-Flatpak es otro formato de paquete universal, desarrollado por la comunidad (Red Hat, GNOME...). Su objetivo es superar las limitaciones de los formatos tradicionales, al tiempo que ofrece una mejor gestión de permisos que Snap. Cada aplicación funciona en una caja de arena, pero con una granularidad de control más fina.
+Flatpak es otro formato de paquete universal, desarrollado por la comunidad (Red Hat, GNOME...). Su objetivo es superar las limitaciones de los formatos tradicionales, al tiempo que ofrece una mejor gestión de permisos que Snap. Cada aplicación funciona aislada, pero con una granularidad de control más fina.
 
 
 
@@ -2558,7 +2558,7 @@ En pocas palabras:
 
 
 
-Ubuntu incluye una aplicación llamada *App Center*, que sirve como un Interface gráfico para buscar, instalar y desinstalar aplicaciones fácilmente, sin usar líneas de comandos como acabamos de ver. Técnicamente, App Center actúa como una superposición a los gestores de paquetes. Por lo tanto, puede:
+Ubuntu incluye una aplicación llamada *App Center*, que sirve como una interfaz gráfica para buscar, instalar y desinstalar aplicaciones fácilmente, sin usar líneas de comandos como acabamos de ver. Técnicamente, App Center actúa como una superposición a los gestores de paquetes. Por lo tanto, puede:
 
 
 
@@ -2812,11 +2812,11 @@ Esto permite conexiones TCP en el puerto 6881 sólo desde la subred `192.168.1.0
 
 
 
-#### Gráfico Interface: GUFW
+#### Interfaz gráfico: GUFW
 
 
 
-Si se siente menos cómodo con el terminal, existe un Interface gráfico llamado GUFW, que facilita la gestión de las reglas del cortafuegos con botones, listas desplegables y cuadros de diálogo. Para instalarlo:
+Si se siente menos cómodo con el terminal, existe un interfaz gráfico llamado GUFW, que facilita la gestión de las reglas del cortafuegos con botones, listas desplegables y cuadros de diálogo. Para instalarlo:
 
 
 
@@ -2846,11 +2846,11 @@ En Ubuntu, la gestión de la red corre a cargo de *NetworkManager*, un servicio 
 
 
 
-#### Gestión gráfica Interface
+#### Gestión interfaz gráfica
 
 
 
-Para la mayoría de los usuarios, la Interface gráfica integrada en GNOME (Ajustes del sistema → Red/Wi-Fi) es más que suficiente. Le permite:
+Para la mayoría de los usuarios, la interfaz gráfica integrada en GNOME (Ajustes del sistema → Red/Wi-Fi) es más que suficiente. Le permite:
 
 
 

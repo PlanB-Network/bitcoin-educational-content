@@ -35,7 +35,7 @@ Bienvenue dans le cours MIN 202. L'objectif ici sera de permettre à quiconque q
 Dans cette partie nous rappellerons rapidement les notions de bases du fontionnement de bitcoin afin de savoir faire la différence entre un appareil de mining et un noeud bitcoin.
 Ce sera l'occasion pour nous de rappeler le rôle de la preuve de travail au sein du protocole bitcoin, et donc la place des mineurs et des pool de mining dans cet écosystème, leur rôle, leur pouvoir et influence sur le protocole.
 
-#### Rappel sur la preuve de travail
+#### Rappel sur la preuve de travail (fusionner les 3 )
 #### Mineur vs Noeud
 #### Qu'est ce qu'une pool de mining et à quoi ça sert ?
 #### Miner soit-même "à la maison" défis et solutions
@@ -45,7 +45,7 @@ Ce sera l'occasion pour nous de rappeler le rôle de la preuve de travail au sei
 #### Pourquoi faire du Solomining
 #### Pourquoi miner en Pool 
 #### Panorama des solutions hardware
-#### Panorama des solutions software
+#### Panorama des solutions software (profil de genrs, simple, cypherpunk, medium)
 
 
 
@@ -54,6 +54,7 @@ Ce sera l'occasion pour nous de rappeler le rôle de la preuve de travail au sei
 #### Panorama des différentes Pool de mining
 #### Installation d'un Bitaxe et connexion à une "solopool"
 #### Découverte d'AxeOS 
+#### Entretien de la machine 
 
 
 ### Miner via sa propre pool de mining 

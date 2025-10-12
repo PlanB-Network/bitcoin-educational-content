@@ -2,10 +2,10 @@
 name: İşletmeler için Bitcoin
 goal: Şirketinizi Bitcoin'e dahil etmek için ödeme ve hazine temellerini öğrenin
 objectives:
-- Gelişmekte olan bir para birimi ve bir iş aracı olarak Bitcoin
-- Bir işletmenin Bitcoin'ü neden ve nasıl hazinede tutabileceğini veya ödemeler için kullanabileceğini anlamak
-- Uygulamada Bitcoin ödemesinin nasıl kabul edileceğine dair somut bir fikre sahip olun
-- Mali ve muhasebe gereksinimlerini yönetmek için hazırlıklı olun
+- Bitcoin'i gelişmekte olan bir para birimi ve iş aracı olarak keşfedin
+- Bir işletmenin neden ve nasıl hazinede bitcoin tutabileceğini veya ödemeler için kullanabileceğini anlayın
+- Pratikte Bitcoin ödemesini nasıl kabul edeceğiniz konusunda somut bir fikre sahip olun
+- Mali ve muhasebe gerekliliklerini yönetmeye hazır olun
 ---
 # Şirketinizin Bitcoin ağındaki yolculuğunu başlatın
 

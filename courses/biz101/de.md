@@ -2,10 +2,10 @@
 name: Bitcoin für Unternehmen
 goal: Lernen Sie die Grundlagen des Zahlungsverkehrs und der Finanzverwaltung, um Ihr Unternehmen auf Bitcoin umzustellen
 objectives:
-- Bitcoin als aufstrebende Währung und als Geschäftsinstrument
-- Verstehen, warum und wie ein Unternehmen Bitcoin in der Finanzverwaltung halten oder für Zahlungen verwenden kann
-- Eine konkrete Vorstellung davon haben, wie man Bitcoin-Zahlungen in der Praxis akzeptiert
-- Auf die Verwaltung der steuerlichen und buchhalterischen Anforderungen vorbereitet sein
+- Entdecken Sie Bitcoin als aufstrebende Währung und Geschäftsinstrument
+- Verstehen Sie, warum und wie ein Unternehmen Bitcoin in der Kasse halten oder für Zahlungen verwenden kann
+- Haben Sie eine konkrete Vorstellung davon, wie man Bitcoin-Zahlungen in der Praxis akzeptiert
+- Seien Sie auf die Verwaltung steuerlicher und buchhalterischer Anforderungen vorbereitet
 ---
 # Starten Sie die Reise Ihres Unternehmens im Bitcoin-Netzwerk
 

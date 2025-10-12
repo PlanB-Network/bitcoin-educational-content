@@ -2,10 +2,10 @@
 name: Bitcoin para empresas
 goal: Aprenda as noções básicas de pagamento e tesouraria para integrar a bitcoin na sua empresa
 objectives:
-- Bitcoin como moeda emergente e ferramenta de negócio
-- Compreender porquê e como uma empresa pode deter bitcoin na tesouraria ou utilizá-lo para pagamentos
-- Ter uma ideia concreta de como aceitar pagamentos em bitcoin na prática
-- Estar preparado para gerir os requisitos fiscais e contabilísticos
+- Descubra o Bitcoin como uma moeda emergente e uma ferramenta de negócios
+- Entenda por que e como uma empresa pode manter bitcoin em tesouraria ou usá-lo para pagamentos
+- Tenha uma ideia concreta de como aceitar pagamentos em Bitcoin na prática
+- Esteja preparado para gerenciar requisitos fiscais e contábeis
 ---
 # Inicie a jornada da sua empresa na rede Bitcoin
 

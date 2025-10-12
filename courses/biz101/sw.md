@@ -2,10 +2,10 @@
 name: Bitcoin kwa Biashara
 goal: Jifunze malipo na misingi ya hazina ili uingie kwenye kampuni yako kwenye Bitcoin
 objectives:
-- Bitcoin kama sarafu inayoibuka na zana ya biashara
-- Elewa kwa nini na jinsi biashara inaweza kushikilia Bitcoin katika hazina au kuitumia kwa malipo
-- Kuwa na wazo halisi jinsi ya kukubali malipo ya Bitcoin kwa vitendo
-- Kuwa tayari kwa ajili ya kusimamia mahitaji ya fedha na uhasibu
+- Gundua Bitcoin kama sarafu inayochipuka na zana ya biashara
+- Elewa kwa nini na jinsi biashara inaweza kushikilia bitcoin katika hazina au kuitumia kwa malipo
+- Kuwa na wazo halisi la jinsi ya kukubali malipo ya Bitcoin kwa vitendo
+- Kuwa tayari kusimamia mahitaji ya kodi na uhasibu
 ---
 # Anzisha safari ya kampuni yako kwenye mtandao wa Bitcoin
 

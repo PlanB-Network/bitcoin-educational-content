@@ -2,10 +2,10 @@
 name: Bitcoin for bedrifter
 goal: Lær deg det grunnleggende om betaling og finans for å få bedriften din over på bitcoin
 objectives:
-- Bitcoin som en fremvoksende valuta og et forretningsverktøy
-- Forstå hvorfor og hvordan en bedrift kan holde bitcoin på bok eller bruke dem til betalinger
-- Ha en konkret idé om hvordan du kan akseptere bitcoin-betaling i praksis
-- Være forberedt på å håndtere skatte- og regnskapskrav
+- Oppdag Bitcoin som en fremvoksende valuta og et forretningsverktøy
+- Forstå hvorfor og hvordan en bedrift kan holde bitcoin i kassen eller bruke det til betalinger
+- Ha en konkret idé om hvordan man aksepterer Bitcoin-betaling i praksis
+- Vær forberedt på å håndtere skattemessige og regnskapsmessige krav
 ---
 # Start selskapets reise på Bitcoin-nettverket
 

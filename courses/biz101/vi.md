@@ -2,10 +2,10 @@
 name: Bitcoin dành cho doanh nghiệp
 goal: Tìm hiểu những điều cơ bản về thanh toán và quỹ dự phòng công ty để ứng dụng bitcoin trong tài chính doanh nghiệp
 objectives:
-- Bitcoin như một loại tiền tệ mới nổi và một công cụ quản lý tài chính doanh nghiệp
-- Hiểu lý do và cách thức một doanh nghiệp có thể nắm giữ bitcoin trong quỹ dự phòng hoặc sử dụng nó để thanh toán
-- Nắm được ý tưởng cụ thể về cách chấp nhận thanh toán trong thực tế bằng bitcoin
-- Chuẩn bị cho việc quản lý để đảm bảo tuân thủ các yêu cầu về tài chính và kế toán
+- Khám phá Bitcoin như một loại tiền tệ mới nổi và công cụ kinh doanh
+- Hiểu tại sao và làm thế nào một doanh nghiệp có thể giữ bitcoin trong kho bạc hoặc sử dụng nó để thanh toán
+- Có ý tưởng cụ thể về cách chấp nhận thanh toán Bitcoin trong thực tế
+- Chuẩn bị sẵn sàng để quản lý các yêu cầu về thuế và kế toán
 ---
 # Khởi động hành trình của công ty bạn trên mạng lưới Bitcoin
 

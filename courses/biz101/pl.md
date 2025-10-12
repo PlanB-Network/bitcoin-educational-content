@@ -2,10 +2,10 @@
 name: Bitcoin dla firm
 goal: Poznaj podstawy płatności i finansów, aby wdrożyć swoją firmę do Bitcoin
 objectives:
-- Bitcoin jako wschodząca waluta i narzędzie biznesowe
-- Zrozumienie, dlaczego i w jaki sposób firma może przechowywać Bitcoin w skarbcu lub wykorzystywać go do płatności
-- Mieć konkretny pomysł, jak akceptować płatności Bitcoin w praktyce
-- Przygotowanie do zarządzania wymogami fiskalnymi i księgowymi
+- Odkryj Bitcoin jako wschodzącą walutę i narzędzie biznesowe
+- Zrozum, dlaczego i jak firma może przechowywać bitcoin w skarbcu lub używać go do płatności
+- Miej konkretny pomysł, jak przyjmować płatności Bitcoin w praktyce
+- Bądź przygotowany na zarządzanie wymogami podatkowymi i księgowymi
 ---
 # Rozpocznij podróż swojej firmy w sieci Bitcoin
 

@@ -2,7 +2,7 @@
 name: Bitcoin for Businesses
 goal: Learn the payment and treasury basics to onboard your company to Bitcoin
 objectives:
-- Bitcoin as an emerging currency and a business tool
+- Discover Bitcoin as an emerging currency and a business tool
 - Understand why and how a business can hold bitcoin in treasury or use it for payments
 - Have a concrete idea of how to accept Bitcoin payment in practice
 - Be prepared for managing fiscal and accounting requirements

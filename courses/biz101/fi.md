@@ -2,10 +2,10 @@
 name: Bitcoin yrityksille
 goal: Opi maksamisen ja kassanhallinnan perusteet, jotta voit ottaa yrityksesi käyttöön bitcoinin
 objectives:
-- Bitcoin kehittyvänä valuuttana ja liiketoimintavälineenä
-- Ymmärtää, miksi ja miten yritys voi pitää bitcoinia kassassaan tai käyttää sitä maksuihin
-- Sinulla on konkreettinen ajatus siitä, miten bitcoin-maksu voidaan hyväksyä käytännössä
-- Valmistautuminen vero- ja kirjanpitovaatimusten hallintaan
+- Tutustu Bitcoiniin nousevana valuuttana ja liiketoiminnan työkaluna
+- Ymmärrä, miksi ja miten yritys voi pitää bitcoinia kassassaan tai käyttää sitä maksuihin
+- Hanki konkreettinen käsitys siitä, miten Bitcoin-maksuja vastaanotetaan käytännössä
+- Valmistaudu hallitsemaan vero- ja kirjanpitovaatimuksia
 ---
 # Käynnistä yrityksesi matka Bitcoin-verkostossa
 

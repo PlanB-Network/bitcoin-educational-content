@@ -2,10 +2,10 @@
 name: Bitcoin pour les entreprises
 goal: Apprenez les bases du paiement et de la trésorerie pour faire passer votre entreprise au bitcoin
 objectives:
-- Le bitcoin, une monnaie émergente et un outil commercial
-- Comprendre pourquoi et comment une entreprise peut détenir des bitcoins dans sa trésorerie ou les utiliser pour des paiements
-- Avoir une idée concrète de la manière d'accepter les paiements en bitcoins dans la pratique
-- Être prêt à gérer les exigences fiscales et comptables
+- Découvrez Bitcoin comme une monnaie émergente et un outil commercial
+- Comprenez pourquoi et comment une entreprise peut détenir du bitcoin en trésorerie ou l'utiliser pour les paiements
+- Ayez une idée concrète de la façon d'accepter les paiements en Bitcoin dans la pratique
+- Soyez prêt à gérer les exigences fiscales et comptables
 ---
 # Lancez votre entreprise sur Bitcoin
 

@@ -2,10 +2,10 @@
 name: Bitcoin för företag
 goal: Få en praktisk och strategisk förståelse för hur ditt företag kan använda Bitcoin som betalningsmedel och finansiellt verktyg
 objectives:
-- Förståelse för Bitcoin som en växande valuta och ett affärsverktyg
-- Förstå varför och hur ett företag kan hålla Bitcoin som tillgång eller ta emot det som betalning
-- Få en konkret plan för hur du börjar acceptera Bitcoin-betalningar i praktiken
-- Bli förberedd på att hantera skatte- och bokföringskrav
+- Upptäck Bitcoin som en framväxande valuta och ett affärsverktyg
+- Förstå varför och hur ett företag kan hålla bitcoin i kassan eller använda det för betalningar
+- Ha en konkret uppfattning om hur man accepterar Bitcoin-betalningar i praktiken
+- Var förberedd på att hantera skattemässiga och redovisningsmässiga krav
 ---
 # Kickstarta ditt företags resa på Bitcoin-nätverket
 

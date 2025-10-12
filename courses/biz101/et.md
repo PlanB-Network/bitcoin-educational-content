@@ -2,10 +2,10 @@
 name: Bitcoin ettevõtetele
 goal: Õppige makse- ja riigikassa põhitõdesid, et võtta oma ettevõte bitcoini kasutusele
 objectives:
-- Bitcoin kui arenev valuuta ja ärivahend
-- Mõista, miks ja kuidas ettevõte saab bitcoini hoida riigikassas või kasutada seda maksete tegemiseks
-- Kas teil on konkreetne idee, kuidas bitcoini makseid praktikas vastu võtta?
-- Olge valmis eelarve- ja raamatupidamisnõuete haldamiseks
+- Avastage Bitcoin kui tekkiv valuuta ja ärivahend
+- Mõistke, miks ja kuidas saab ettevõte hoida bitcoini kassas või kasutada seda maksete tegemiseks
+- Omage konkreetset ettekujutust, kuidas praktikas Bitcoini makseid vastu võtta
+- Olge valmis haldama maksu- ja raamatupidamisnõudeid
 ---
 # Alusta oma ettevõtte teekonda Bitcoin võrgustikus
 

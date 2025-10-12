@@ -2,9 +2,9 @@
 name: Bitkoin za preduzeća
 goal: Naučite osnove plaćanja i čuvanja vrednosti kako biste integrisali svoju kompaniju sa Bitkoinom
 objectives:
-- Bitkoin kao nova valuta i poslovni alat
-- Razumeti zašto i kako preduzeće može držati Bitkoin u trezoru ili ga koristiti za plaćanja
-- Imati konkretnu ideju kako praktično prihvatiti Bitkoin kao način plaćanja
+- Otkrijte Bitcoin kao valutu u nastajanju i poslovni alat
+- Razumite zašto i kako preduzeće može držati bitcoin u blagajni ili ga koristiti za plaćanja
+- Imajte konkretnu ideju o tome kako prihvatiti Bitcoin plaćanje u praksi
 - Budite spremni za upravljanje fiskalnim i računovodstvenim zahtevima
 ---
 # Pokrenite put vaše kompanije na Bitcoin mreži

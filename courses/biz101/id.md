@@ -2,9 +2,9 @@
 name: Bitcoin untuk Bisnis
 goal: Pelajari dasar-dasar pembayaran dan perbendaharaan untuk membawa perusahaan Anda ke bitcoin
 objectives:
-- Bitcoin sebagai mata uang yang sedang berkembang dan alat bisnis
-- Memahami mengapa dan bagaimana sebuah bisnis dapat menyimpan bitcoin dalam bentuk treasury atau menggunakannya untuk pembayaran
-- Memiliki gambaran konkret tentang cara menerima pembayaran bitcoin dalam praktiknya
+- Temukan Bitcoin sebagai mata uang yang berkembang dan alat bisnis
+- Pahami mengapa dan bagaimana bisnis dapat menyimpan bitcoin di kas atau menggunakannya untuk pembayaran
+- Miliki ide konkret tentang cara menerima pembayaran Bitcoin dalam praktik
 - Bersiaplah untuk mengelola persyaratan fiskal dan akuntansi
 ---
 # Mulai perjalanan perusahaan Anda di jaringan Bitcoin

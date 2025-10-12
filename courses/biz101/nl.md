@@ -2,10 +2,10 @@
 name: Bitcoin Voor Bedrijven
 goal: Leer de basisprincipes van betaling en treasury om je bedrijf te laten starten met Bitcoin
 objectives:
-- Bitcoin als opkomende valuta en zakelijk hulpmiddel
-- Begrijpen waarom en hoe een bedrijf Bitcoin in kas kan houden of kan gebruiken voor betalingen
-- Een concreet beeld krijgen van hoe je Bitcoin-betaling in de praktijk kunt accepteren
-- Voorbereid zijn op het beheren van fiscale en boekhoudkundige vereisten
+- Ontdek Bitcoin als een opkomende valuta en zakelijk instrument
+- Begrijp waarom en hoe een bedrijf bitcoin in de schatkist kan houden of gebruiken voor betalingen
+- Heb een concreet idee van hoe je Bitcoin-betalingen in de praktijk accepteert
+- Wees voorbereid op het beheren van fiscale en boekhoudkundige vereisten
 ---
 # Start de reis van uw bedrijf op het Bitcoin-netwerk
 

@@ -2,10 +2,10 @@
 name: Bitcoin pro firmy
 goal: Naučte se základy plateb a pokladny, abyste mohli svou společnost připojit k bitcoinu
 objectives:
-- Bitcoin jako rozvíjející se měna a obchodní nástroj
-- Pochopit, proč a jak může podnik držet bitcoin v pokladně nebo ho používat k platbám
-- Mít konkrétní představu, jak přijímat platby bitcoinem v praxi
-- Připravte se na správu fiskálních a účetních požadavků
+- Objevte Bitcoin jako vznikající měnu a obchodní nástroj
+- Pochopte, proč a jak může podnik držet bitcoin v pokladně nebo jej používat pro platby
+- Mějte konkrétní představu o tom, jak v praxi přijímat platby v Bitcoinu
+- Buďte připraveni na správu daňových a účetních požadavků
 ---
 # Nastartujte cestu vaší společnosti v síti Bitcoin
 

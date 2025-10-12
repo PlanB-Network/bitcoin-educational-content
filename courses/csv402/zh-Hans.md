@@ -1,13 +1,11 @@
 ---
-name: 从理论到实践的 RGB 协议
+name: RGB编程
 goal: 掌握理解和使用 RGB 所需的技能
-objectives: 
-
-  - 了解 RGB 协议的基本概念
-  - 掌握客户端验证和比特币承诺的原则
-  - 了解如何创建、管理和转移 RGB 合同
-  - 如何操作兼容 RGB 的 Lightning 节点
-
+objectives:
+- 了解 RGB 协议的基本概念
+- 掌握客户端验证和比特币承诺的原则
+- 了解如何创建、管理和转移 RGB 合同
+- 如何操作兼容 RGB 的 Lightning 节点
 ---
 # 发现 RGB 协议
 

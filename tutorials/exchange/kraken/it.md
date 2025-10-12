@@ -44,7 +44,7 @@ Scegli quindi se vuoi creare un account personale o uno per la tua azienda. In q
 
 
 
-Inserite quindi il codice ricevuto tramite l'e-mail Address che avete appena inserito e cliccate su "Conferma l'e-mail".
+Inserisci quindi il codice ricevuto tramite l'e-mail all'indirizzo che hai appena inserito e clicca su "Conferma l'e-mail".
 
 
 
@@ -60,7 +60,7 @@ Poi inizia la procedura di verifica dell'identità richiesta dalle autorità...
 
 
 
-Completare le informazioni personali e fare clic su "Continua".
+Completa le informazioni personali e fai clic su "Continua".
 
 
 
@@ -68,16 +68,14 @@ Completare le informazioni personali e fare clic su "Continua".
 
 
 
-Nella schermata successiva, vi verrà chiesto di inserire nuovi dati personali. Ricordate che siete tutti potenziali criminali ed è essenziale che vi identifichiate. Inserite i dati che vi riguardano, quindi cliccate su "Continue"("Continua").
-
+Nella schermata successiva, ti verrà chiesto di inserire nuovi dati personali. Ricorda che sei un potenziale criminale ed è essenziale che ti identifichi. Inserisci i dati che ti riguardano, quindi clicca su "Continue" ("Continua").
 
 
 ![KRAKEN](assets/fr/06.webp)
 
 
 
-Successivamente, dovrete verificare la vostra identità fornendo le foto di un documento d'identità ufficiale di vostra scelta. Seguite i passaggi per scannerizzare il documento.
-
+Successivamente, dovrai verificare la tua identità fornendo le foto di un documento d'identità ufficiale di tua scelta. Segui i passaggi per scannerizzare il documento.
 
 
 ![KRAKEN](assets/fr/07.webp)
@@ -92,7 +90,7 @@ Successivamente, dovrete verificare la vostra identità fornendo le foto di un d
 
 
 
-Per concludere, vi verrà chiesto di accedere alla webcam del vostro computer, se ne avete una (per scattare una foto del documento d'identità scelto), oppure, come in questo caso, di scansionare il codice QR sullo schermo con un dispositivo mobile dotato di fotocamera per scattare le foto.
+Per concludere, ti verrà chiesto di accedere alla webcam del tuo computer, se ne hai una (per scattare una foto del documento d'identità scelto), oppure, come in questo caso, di scansionare il codice QR sullo schermo con un dispositivo mobile dotato di fotocamera per scattare le foto.
 
 
 
@@ -100,9 +98,7 @@ Per concludere, vi verrà chiesto di accedere alla webcam del vostro computer, s
 
 
 
-Una volta inviate le foto fronte e retro del documento d'identità, l'umiliazione finale è che vi verrà chiesto di fare una foto del vostro viso per confermare che corrisponda a quello del vostro documento d'identità... Finalmente si può iniziare a fare sul serio.
-
-
+Una volta inviate le foto fronte e retro del tuo documento d'identità, l'umiliazione finale è che ti verrà chiesto di fare una foto del tuo viso per confermare che corrisponda a quello del tuo documento d'identità... Finalmente puoi iniziare a fare sul serio.
 
 ![KRAKEN](assets/fr/11.webp)
 
@@ -112,7 +108,7 @@ Una volta inviate le foto fronte e retro del documento d'identità, l'umiliazion
 
 
 
-A questo punto si accede al proprio account. Vi verrà chiesto di scegliere tra due tipi di esperienza. Una semplice a sinistra, chiamata "Kraken", con una Interface ordinata, che permette semplicemente di acquistare e vendere bitcoin. L'altra, a destra, si chiama "Kraken Pro", che offre molte più opzioni, con un Interface molto più affollato e meno leggibile, pensato per i profili "trader".
+A questo punto accedi al tuo account. Ti verrà chiesto di scegliere tra due tipi di esperienza. Una semplice a sinistra, chiamata "Kraken", con un'interfaccia ordinata, che permette semplicemente di acquistare e vendere Bitcoin. L'altra, a destra, si chiama "Kraken Pro", che offre molte più opzioni, con un'interfaccia molto più affollata e meno leggibile, pensata per i profili "trader".
 
 
 
@@ -120,7 +116,7 @@ Va notato che i costi di acquisto sono diversi per entrambi, come vedremo in seg
 
 
 
-Iniziamo scegliendo l'esperienza semplice facendo clic su "Go to Kraken"("Vai a Kraken") nell'angolo in basso a sinistra.
+Inizia scegliendo l'esperienza semplice facendo clic su "Go to Kraken" ("Vai a Kraken") nell'angolo in basso a sinistra.
 
 
 
@@ -131,8 +127,7 @@ Iniziamo scegliendo l'esperienza semplice facendo clic su "Go to Kraken"("Vai a 
 ![KRAKEN](assets/fr/13.webp)
 
 
-
-Il Interface è infatti piuttosto sobrio e colorato. Prima ancora di proteggere il nostro account aggiungendo un metodo di autenticazione a due fattori, facciamo clic in basso a sinistra sul nostro profilo per passare alla modalità notturna ed evitare di danneggiare troppo i nostri occhi con tutto quel bianco.
+L'interfaccia è infatti piuttosto sobria e colorata. Prima ancora di proteggere il tuo account aggiungendo un metodo di autenticazione a due fattori, fai clic in basso a sinistra sul tuo profilo per passare alla modalità notturna ed evitare di danneggiare troppo i tuoi occhi con tutto quel bianco.
 
 
 
@@ -140,7 +135,7 @@ Il Interface è infatti piuttosto sobrio e colorato. Prima ancora di proteggere 
 
 
 
-Ora che i nostri occhi sono al sicuro, facciamo clic di nuovo sul nostro profilo per visualizzare il menu per l'aggiunta di un 2FA (secondo fattore di autenticazione). Scegliere quindi "Security"("Sicurezza").
+Ora che i tuoi occhi sono al sicuro, fai clic di nuovo sul tuo profilo per visualizzare il menu per l'aggiunta di un 2FA (secondo fattore di autenticazione). Scegli quindi "Security"("Sicurezza").
 
 
 
@@ -154,19 +149,17 @@ Vengono quindi proposte due opzioni 2FA: "passkey", che consente di autenticarsi
 
 
 
-- Se si sceglie l'opzione "passkey", seguire le istruzioni sullo schermo. In sintesi, vi verrà chiesto di selezionare il dispositivo necessario per accedere al vostro account. Il PC in uso, uno smartphone o una chiave hardware di identificazione tipo YubiKey.
+- Se scegli l'opzione "passkey", segui le istruzioni sullo schermo. In sintesi, ti verrà chiesto di selezionare il dispositivo necessario per accedere al tuo account. Il PC in uso, uno smartphone o una chiave hardware di identificazione tipo YubiKey.
 
 
 
 
-
-- Se si sceglie di utilizzare un'applicazione di autenticazione sullo smartphone, come ad esempio Google Authenticator o Authy, è possibile trovare un tutorial su questo strumento qui:
-
+- Se scegli di utilizzare un'applicazione di autenticazione sullo smartphone, come ad esempio Google Authenticator o Authy, puoi trovare un tutorial su questo strumento qui:
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Dopo aver scelto il metodo più adatto a voi, siamo finalmente pronti a depositare il denaro per acquistare i nostri primi satoshis.
+Dopo aver scelto il metodo più adatto a te, sei finalmente pronto a depositare il denaro per acquistare i tuoi primi satoshi.
 
 
 

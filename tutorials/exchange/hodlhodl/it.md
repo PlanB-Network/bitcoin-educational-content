@@ -40,7 +40,7 @@ La personalizzazione del tuo profilo dovrebbe includere:
 
 ### Registra il tuo indirizzo BTC'
 
-Per iniziare a fare trading di BTC, dovrai fornire prima il tuo indirizzo BTC. Questo può essere inserito nel menu "Impostazioni di trading". Dopo aver registrato il tuo indirizzo, puoi procedere con "Acquista BTC" o "Vendi BTC" per iniziare il tuo percorso di trading.
+Per iniziare a fare trading di BTC, dovrai fornire prima il tuo indirizzo BTC. Questo può essere inserito nel menu "Impostazioni di trading". Dopo aver registrato il tuo indirizzo, puoi procedere con "Buy BTC"("Acquista BTC") o "Sell BTC"("Vendi BTC") per iniziare il tuo percorso di trading.
 
 ## Passo dopo passo verso il tuo primo scambio
 
@@ -62,7 +62,7 @@ Guida di Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 ![cover](assets/14.webp)
 
-- Una volta soddisfatto, puoi specificare quanto vuoi acquistare, inserire l'indirizzo a cui desideri che venga inviato il bitcoin e confermare il metodo di pagamento pubblicizzato dal venditore. Clicca su "Accetta l'offerta e crea il contratto".
+- Una volta soddisfatto, puoi specificare quanto vuoi acquistare, inserire l'indirizzo a cui desideri che venga inviato il bitcoin e confermare il metodo di pagamento pubblicizzato dal venditore. Clicca su "Accept"("Accetta") l'offerta e crea il contratto".
 
 ![cover](assets/15.webp)
 
@@ -74,11 +74,11 @@ Guida di Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 ![cover](assets/17.webp)
 
-- Una volta che il venditore ha depositato i suoi fondi nell'escrow, vedrai questa schermata che ti avvisa di non inviare i tuoi soldi fino a quando non ci sono un numero sufficiente di conferme sulla blockchain (questo varia a seconda delle condizioni di scambio). Puoi controllare lo stato della transazione di deposito del venditore cliccando sul link blu "ID transazione di deposito".
+- Una volta che il venditore ha depositato i suoi fondi nell'escrow, vedrai questa schermata che ti avvisa di non inviare i tuoi soldi fino a quando non ci sono un numero sufficiente di conferme sulla blockchain (questo varia a seconda delle condizioni di scambio). Puoi controllare lo stato della transazione di deposito del venditore cliccando sul link blu "Deposit Transaction ID"("ID transazione di deposito").
 
 ![cover](assets/18.webp)
 
-- Una volta confermato, riceverai una notifica e potrai inviare i fondi al venditore utilizzando i dettagli che ti fornirà. Una volta fatto ciò, clicca su "Ho inviato il pagamento".
+- Una volta confermato, riceverai una notifica e potrai inviare i fondi al venditore utilizzando i dettagli che ti fornirà. Una volta fatto ciò, clicca su "Ive Sent The Payment"("Ho inviato il pagamento").
 
 ![cover](assets/19.webp)
 
@@ -140,18 +140,18 @@ Una volta inserita l'offerta, vedremo i dettagli come segue:
 
 ![image](assets/4.webp)
 
-Se l'offerta sembra appropriata e decidiamo di accettarla, completiamo i campi pendenti e confermiamo con il pulsante "ACCETTA E CREA".
+Se l'offerta sembra appropriata e decidiamo di accettarla, completiamo i campi pendenti e confermiamo con il pulsante “ACCEPT AND CREATE”("ACCETTA E CREA").
 
 > In questo caso, l'importo offerto va da 100 a 500 USDT sulla rete Liquid, quindi inseriamo l'importo di cui abbiamo bisogno nel campo corrispondente.
 > Il periodo del prestito in questa offerta è fissato a 1 settimana.
-> Nel campo "Indirizzo di pagamento della criptovaluta" inseriamo quello in cui vogliamo ricevere la criptovaluta che stiamo prendendo in prestito.
+> Nel campo “Cryptocurrency payment address”("Indirizzo di pagamento della criptovaluta") inseriamo quello in cui vogliamo ricevere la criptovaluta che stiamo prendendo in prestito.
 
-Nel campo "Indirizzo di rimborso Bitcoin" inseriamo quello in cui desideriamo ricevere i nostri BTC una volta restituito il prestito.
+Nel campo “Bitcoin refund address”("Indirizzo di rimborso Bitcoin") inseriamo quello in cui desideriamo ricevere i nostri BTC una volta restituito il prestito.
 Nel riquadro verde a destra possiamo vedere i dettagli del contratto, inclusa la commissione di origine addebitata dalla piattaforma per fornire gli strumenti tecnici per effettuare il contratto.
 
 Una volta accettato il contratto, viene creato un indirizzo di escrow multi-firma in cui dobbiamo depositare l'importo BTC dovuto per supportare il contratto.
 
-Per generare questo indirizzo nella blockchain di Bitcoin, ci verrà richiesta una "Password di pagamento" (diversa da quella di accesso) che fungerà da chiave privata per recuperare i nostri BTC alla fine del contratto.
+Per generare questo indirizzo nella blockchain di Bitcoin, ci verrà richiesta una “Payment Password”("Password di pagamento") (diversa da quella di accesso) che fungerà da chiave privata per recuperare i nostri BTC alla fine del contratto.
 
 Quando avremo inviato i BTC all'indirizzo di escrow e sarà stato confermato, il mutuatario potrà inviare la criptovaluta richiesta all'indirizzo che abbiamo inserito nel passaggio precedente.
 

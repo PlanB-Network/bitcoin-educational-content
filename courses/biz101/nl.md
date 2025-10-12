@@ -1,23 +1,20 @@
 ---
 name: Bitcoin Voor Bedrijven
 goal: Leer de basisprincipes van betaling en treasury om je bedrijf te laten starten met Bitcoin
-objectives: 
-  - Bitcoin als opkomende valuta en zakelijk hulpmiddel
-  - Begrijpen waarom en hoe een bedrijf Bitcoin in kas kan houden of kan gebruiken voor betalingen
-  - Een concreet beeld krijgen van hoe je Bitcoin-betaling in de praktijk kunt accepteren
-  - Voorbereid zijn op het beheren van fiscale en boekhoudkundige vereisten
+objectives:
+- Bitcoin als opkomende valuta en zakelijk hulpmiddel
+- Begrijpen waarom en hoe een bedrijf Bitcoin in kas kan houden of kan gebruiken voor betalingen
+- Een concreet beeld krijgen van hoe je Bitcoin-betaling in de praktijk kunt accepteren
+- Voorbereid zijn op het beheren van fiscale en boekhoudkundige vereisten
 ---
+# Start de reis van uw bedrijf op het Bitcoin-netwerk
 
-# Kickstart de reis van je bedrijf op het Bitcoin netwerk
+Ontdek de praktische mogelijkheden van het Bitcoin en Lightning Network, en verken hoe ze, net als het internet, uw bedrijfsvoering kunnen transformeren. Van treasury tot snelle, economische en schaalbare betalingen biedt Bitcoin een breed spectrum aan gebruiksmogelijkheden voor bedrijven.
 
-Ontdek de praktische mogelijkheden van Bitcoin en het Lightning Network en ontdek hoe ze, net als het internet, je **bedrijfsvoering kunnen transformeren**. Van digitaal kapitaal tot snelle, economische en schaalbare betalingen, Bitcoin biedt een breed spectrum aan **toepassingen voor bedrijven**.
+Tijdens deze cursus leert u Bitcoin te begrijpen als een wereldwijd, universeel en internet-native monetair netwerk. Met zijn unieke fundamentele kenmerken biedt Bitcoin aanzienlijke verbeteringen ten opzichte van traditionele valuta. U ontdekt waarom en hoe u Bitcoin kunt inzetten voor klassieke financiële toepassingen zoals kapitaalopslag en betalingssystemen. Daarnaast behandelt deze cursus het verwerven en aanhouden van Bitcoin, inclusief de bijbehorende boekhoudkundige en fiscale vereisten, evenals het implementeren van eenvoudige of grootschalige Bitcoin-betalingsoplossingen.
 
-In deze gids leer je hoe je Bitcoin kunt begrijpen als een wereldwijd, universeel en internet-native monetair netwerk. Met zijn unieke kenmerken biedt **Bitcoin aanzienlijke verbeteringen ten opzichte van traditionele valutanetwerken**. Je zult ontdekken waarom en hoe je Bitcoin kunt inzetten voor klassieke financiële toepassingen zoals kapitaalopslag en betalingssystemen. Daarnaast behandelt deze gids het verwerven en bewaren van Bitcoin, inclusief de bijbehorende boekhoudkundige en fiscale vereisten, en het implementeren van eenvoudige of grootschalige Bitcoin betalingsoplossingen.
-
-Of je nu een **klein bedrijf of een grote onderneming** bent, het integreren van Bitcoin in je dagelijkse werkzaamheden kan je bedrijf **robuster, productiever en competitiever** maken. Elk internetbedrijf zal een Bitcoin-georiënteerd bedrijf worden, en deze cursus zorgt ervoor dat je hierop voorbereid bent. In de eerste hoofdstukken worden de grondbeginselen van de werking van Bitcoin uitgelegd, dus zelfs als je een beginner bent, zul je de basiskennis opdoen die nodig is om verder te gaan. Het is altijd een goed idee om voor of na het besturen van BIZ101 ook de grondbeginselen van de uitvinding van Satoshi te leren.
-
+Of u nu een klein bedrijf of een groot concern bent, het integreren van Bitcoin in uw dagelijkse activiteiten kan uw bedrijf veerkrachtiger, productiever en concurrerender maken. Elk internetgebaseerd bedrijf zal een Bitcoin-georiënteerd bedrijf worden, en deze cursus zorgt ervoor dat u voorbereid bent.
 +++
-
 # Inleiding
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>

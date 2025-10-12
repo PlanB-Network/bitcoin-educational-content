@@ -1,12 +1,11 @@
---- 
-name: Utangulizi wa Cryptography rasmi
+---
+name: Misingi ya kriptografia ya kisasa
 goal: Utangulizi wa kina wa sayansi na mazoezi ya kriptografia.
-objectives: 
-  - Gundua misimbo ya Beale na mbinu za kisasa za kriptografia ili kuelewa dhana za kimsingi na za kihistoria za usimbaji fiche.
-  - Chunguza katika nadharia ya nambari, vikundi, na nyuga ili kufahamu dhana muhimu za hisabati msingi wa kriptografia.
-  - Soma msimbo wa mtiririko wa RC4 na AES kwa ufunguo wa 128-bit ili kupata maelezo kuhusu algoriti za kriptografia linganifu.
-  - Chunguza mfumo wa kificho wa RSA, usambazaji wa ufunguo, na vitendaji vya Hash ili kugundua usimbaji fiche usiolinganishwa.
-
+objectives:
+- Gundua misimbo ya Beale na mbinu za kisasa za kriptografia ili kuelewa dhana za kimsingi na za kihistoria za usimbaji fiche.
+- Chunguza katika nadharia ya nambari, vikundi, na nyuga ili kufahamu dhana muhimu za hisabati msingi wa kriptografia.
+- Soma msimbo wa mtiririko wa RC4 na AES kwa ufunguo wa 128-bit ili kupata maelezo kuhusu algoriti za kriptografia linganifu.
+- Chunguza mfumo wa kificho wa RSA, usambazaji wa ufunguo, na vitendaji vya Hash ili kugundua usimbaji fiche usiolinganishwa.
 ---
 # Kuzama kwa kina katika kriptografia
 

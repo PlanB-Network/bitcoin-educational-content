@@ -1,13 +1,11 @@
 ---
-name: Introduzione alla crittografia formale
+name: Basi della crittografia moderna
 goal: Un'introduzione approfondita alla scienza e alla pratica della crittografia.
 objectives:
-
-  - Esplorare i cifrari di Beale e i moderni metodi crittografici per comprendere i concetti fondamentali e storici della crittografia.
-  - Approfondite la teoria dei numeri, i gruppi e i campi per padroneggiare i concetti matematici chiave alla base della crittografia.
-  - Studiare il cifrario a flusso RC4 e AES con chiave a 128 bit per conoscere gli algoritmi crittografici simmetrici.
-  - Analizzare il crittosistema RSA, la distribuzione delle chiavi e le funzioni hash per esplorare la crittografia asimmetrica.
-
+- Esplorare i cifrari di Beale e i moderni metodi crittografici per comprendere i concetti fondamentali e storici della crittografia.
+- Approfondite la teoria dei numeri, i gruppi e i campi per padroneggiare i concetti matematici chiave alla base della crittografia.
+- Studiare il cifrario a flusso RC4 e AES con chiave a 128 bit per conoscere gli algoritmi crittografici simmetrici.
+- Analizzare il crittosistema RSA, la distribuzione delle chiavi e le funzioni hash per esplorare la crittografia asimmetrica.
 ---
 # Un'immersione nella crittografia
 

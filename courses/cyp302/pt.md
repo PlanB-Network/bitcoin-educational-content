@@ -1,13 +1,11 @@
 ---
-name: Introdução à criptografia formal
+name: Bases da criptografia moderna
 goal: Uma introdução aprofundada à ciência e à prática da criptografia.
 objectives:
-
-  - Explorar as cifras de Beale e os métodos criptográficos modernos para compreender os conceitos básicos e históricos da criptografia.
-  - Aprofunde-se na teoria dos números, grupos e campos para dominar os principais conceitos matemáticos subjacentes à criptografia.
-  - Estudar a cifra de fluxo RC4 e o AES com uma chave de 128 bits para aprender sobre algoritmos criptográficos simétricos.
-  - Investigar o criptosistema RSA, a distribuição de chaves e as funções de hash para explorar a criptografia assimétrica.
-
+- Explorar as cifras de Beale e os métodos criptográficos modernos para compreender os conceitos básicos e históricos da criptografia.
+- Aprofunde-se na teoria dos números, grupos e campos para dominar os principais conceitos matemáticos subjacentes à criptografia.
+- Estudar a cifra de fluxo RC4 e o AES com uma chave de 128 bits para aprender sobre algoritmos criptográficos simétricos.
+- Investigar o criptosistema RSA, a distribuição de chaves e as funções de hash para explorar a criptografia assimétrica.
 ---
 # Mergulhar na criptografia
 

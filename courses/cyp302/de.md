@@ -1,13 +1,11 @@
 ---
-name: Einführung in die formale Kryptographie
+name: Grundlagen der modernen Kryptographie
 goal: Eine tiefgehende Einführung in die Wissenschaft und Praxis der Kryptographie.
 objectives:
-
-  - Erforschen Sie Beale-Chiffren und moderne kryptografische Methoden, um grundlegende und historische Konzepte der Kryptografie zu verstehen.
-  - Vertiefen Sie sich in die Zahlentheorie, Gruppen und Felder, um die wichtigsten mathematischen Konzepte der Kryptographie zu beherrschen.
-  - Studieren Sie die RC4-Stromchiffre und AES mit einem 128-Bit-Schlüssel, um mehr über symmetrische kryptografische Algorithmen zu erfahren.
-  - Untersuchen Sie das RSA-Kryptosystem, die Schlüsselverteilung und Hash-Funktionen, um die asymmetrische Kryptographie zu erkunden.
-
+- Erforschen Sie Beale-Chiffren und moderne kryptografische Methoden, um grundlegende und historische Konzepte der Kryptografie zu verstehen.
+- Vertiefen Sie sich in die Zahlentheorie, Gruppen und Felder, um die wichtigsten mathematischen Konzepte der Kryptographie zu beherrschen.
+- Studieren Sie die RC4-Stromchiffre und AES mit einem 128-Bit-Schlüssel, um mehr über symmetrische kryptografische Algorithmen zu erfahren.
+- Untersuchen Sie das RSA-Kryptosystem, die Schlüsselverteilung und Hash-Funktionen, um die asymmetrische Kryptographie zu erkunden.
 ---
 # Tiefes Eintauchen in die Kryptographie
 

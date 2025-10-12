@@ -1,13 +1,11 @@
 ---
-name: Úvod do formální kryptografie
+name: Základy moderní kryptografie
 goal: Hloubkový úvod do vědy a praxe kryptografie.
 objectives:
-
-  - Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
-  - Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
-  - Prostudujte si proudovou šifru RC4 a AES se 128bitovým klíčem a seznamte se se symetrickými kryptografickými algoritmy.
-  - Prozkoumejte kryptosystém RSA, distribuci klíčů a hašovací funkce a prozkoumejte asymetrickou kryptografii.
-
+- Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
+- Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
+- Prostudujte si proudovou šifru RC4 a AES se 128bitovým klíčem a seznamte se se symetrickými kryptografickými algoritmy.
+- Prozkoumejte kryptosystém RSA, distribuci klíčů a hašovací funkce a prozkoumejte asymetrickou kryptografii.
 ---
 # Hluboký ponor do kryptografie
 

@@ -1,14 +1,11 @@
 ---
-name: Intangamarara y'ubuhinga bwo gukingira amakuru
+name: Imishingi y'ikoranabuhanga rya kriptografiya rya none
 goal: Intangamarara y’ivy’ubuhinga n’imigenzo y’ubuhinga bwo gukingira amakuru.
-objectives: 
-
-  - Gutohoza amajambo y’ibanga ya Beale n’uburyo bwo gukora amakuru y’ubuhinga bwa none kugira ngo utahure ivyiyumviro vy’ishimikiro n’ivy’amateka vy’ubuhinga bwo gukora amakuru.
-  - Injira mu vyiyumviro vy’imibare, imigwi, n’ivyigwa kugira ngo umenye neza ivyiyumviro nyamukuru vy’imibare bishingiye ku buhinga bwo gukingira amakuru.
-  - Iga RC4 stream cipher na AES n’urufunguzo rw’ibice 128 kugira ngo umenye ivyerekeye ubuhinga bwo gukingira amakuru buhuye.
-  - Itohoza ry’ubuhinga bwa RSA, ugukwirakwiza urufunguzo, n’ibikorwa vya Hash kugira ngo utohoze ubuhinga bwo gukingira butaringaniye.
-
-
+objectives:
+- Gutohoza amajambo y’ibanga ya Beale n’uburyo bwo gukora amakuru y’ubuhinga bwa none kugira ngo utahure ivyiyumviro vy’ishimikiro n’ivy’amateka vy’ubuhinga bwo gukora amakuru.
+- Injira mu vyiyumviro vy’imibare, imigwi, n’ivyigwa kugira ngo umenye neza ivyiyumviro nyamukuru vy’imibare bishingiye ku buhinga bwo gukingira amakuru.
+- Iga RC4 stream cipher na AES n’urufunguzo rw’ibice 128 kugira ngo umenye ivyerekeye ubuhinga bwo gukingira amakuru buhuye.
+- Itohoza ry’ubuhinga bwa RSA, ugukwirakwiza urufunguzo, n’ibikorwa vya Hash kugira ngo utohoze ubuhinga bwo gukingira butaringaniye.
 ---
 # Kwisuka cane mu vy'ubuhinga bwo gukingira amakuru
 

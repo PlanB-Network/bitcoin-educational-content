@@ -1,14 +1,11 @@
 ---
-name: Wprowadzenie do kryptografii formalnej
+name: Podstawy nowoczesnej kryptografii
 goal: Dogłębne wprowadzenie do nauki i praktyki kryptografii.
-objectives: 
-
-  - Poznaj szyfry Beale'a i nowoczesne metody kryptograficzne, aby zrozumieć podstawowe i historyczne koncepcje kryptografii.
-  - Zagłęb się w teorię liczb, grup i pól, aby opanować kluczowe koncepcje matematyczne leżące u podstaw kryptografii.
-  - Przeanalizuj szyfr strumieniowy RC4 i AES z kluczem 128-bitowym, aby poznać symetryczne algorytmy kryptograficzne.
-  - Zbadanie kryptosystemu RSA, dystrybucji kluczy i funkcji Hash w celu poznania kryptografii asymetrycznej.
-
-
+objectives:
+- Poznaj szyfry Beale'a i nowoczesne metody kryptograficzne, aby zrozumieć podstawowe i historyczne koncepcje kryptografii.
+- Zagłęb się w teorię liczb, grup i pól, aby opanować kluczowe koncepcje matematyczne leżące u podstaw kryptografii.
+- Przeanalizuj szyfr strumieniowy RC4 i AES z kluczem 128-bitowym, aby poznać symetryczne algorytmy kryptograficzne.
+- Zbadanie kryptosystemu RSA, dystrybucji kluczy i funkcji Hash w celu poznania kryptografii asymetrycznej.
 ---
 # Głębokie zagłębienie się w kryptografię
 

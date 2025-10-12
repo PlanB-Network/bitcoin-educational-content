@@ -1,13 +1,11 @@
 ---
-name: Sissejuhatus formaalsesse krüptograafiasse
+name: Kaasaegse krüptograafia alused
 goal: Sügav sissejuhatus krüptograafia teadusesse ja praktikasse.
 objectives:
-
-  - Tutvuda Beale'i šifreeringute ja kaasaegsete krüptograafiliste meetoditega, et mõista krüptograafia põhilisi ja ajaloolisi mõisteid.
-  - Süvenege arvuteooriasse, rühmadesse ja väljadesse, et omandada krüptograafia aluseks olevad põhilised matemaatilised mõisted.
-  - Õppige tundma RC4 voogkrüpteerimist ja AES-i 128-bitise võtmega, et õppida tundma sümmeetrilisi krüptograafilisi algoritme.
-  - Uurige RSA krüptosüsteemi, võtme jaotamist ja hash-funktsioone, et uurida asümmeetrilist krüptograafiat.
-
+- Tutvuda Beale'i šifreeringute ja kaasaegsete krüptograafiliste meetoditega, et mõista krüptograafia põhilisi ja ajaloolisi mõisteid.
+- Süvenege arvuteooriasse, rühmadesse ja väljadesse, et omandada krüptograafia aluseks olevad põhilised matemaatilised mõisted.
+- Õppige tundma RC4 voogkrüpteerimist ja AES-i 128-bitise võtmega, et õppida tundma sümmeetrilisi krüptograafilisi algoritme.
+- Uurige RSA krüptosüsteemi, võtme jaotamist ja hash-funktsioone, et uurida asümmeetrilist krüptograafiat.
 ---
 # Sügav sukeldumine krüptograafiasse
 

@@ -1,14 +1,11 @@
 ---
-name: Inleiding tot formele cryptografie
+name: Grondslagen van moderne cryptografie
 goal: Een diepgaande introductie in de wetenschap en praktijk van cryptografie.
-objectives: 
-
-  - Verken Beale cijfers en moderne cryptografische methoden om de basis en historische concepten van cryptografie te begrijpen.
-  - Verdiep je in getaltheorie, groepen en velden om de belangrijkste wiskundige concepten die ten grondslag liggen aan cryptografie onder de knie te krijgen.
-  - Bestudeer het RC4-stroomcijfer en AES met een 128-bits sleutel om meer te leren over symmetrische cryptografische algoritmen.
-  - Onderzoek het RSA cryptosysteem, sleuteldistributie en Hash functies om asymmetrische cryptografie te verkennen.
-
-
+objectives:
+- Verken Beale cijfers en moderne cryptografische methoden om de basis en historische concepten van cryptografie te begrijpen.
+- Verdiep je in getaltheorie, groepen en velden om de belangrijkste wiskundige concepten die ten grondslag liggen aan cryptografie onder de knie te krijgen.
+- Bestudeer het RC4-stroomcijfer en AES met een 128-bits sleutel om meer te leren over symmetrische cryptografische algoritmen.
+- Onderzoek het RSA cryptosysteem, sleuteldistributie en Hash functies om asymmetrische cryptografie te verkennen.
 ---
 # Diep duik in cryptografie
 

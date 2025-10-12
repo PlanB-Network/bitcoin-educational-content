@@ -1,13 +1,11 @@
 ---
-name: Johdatus muodolliseen kryptografiaan
+name: Modernin kryptografian perusteet
 goal: Syväsukellus kryptografian tieteeseen ja käytäntöön.
 objectives:
-
-  - Tutustutaan Beale-salauksiin ja nykyaikaisiin salausmenetelmiin, jotta ymmärretään salakirjoituksen peruskäsitteitä ja historiallisia käsitteitä.
-  - Syvenny lukuteoriaan, ryhmiin ja kenttiin ja hallitse salakirjoituksen taustalla olevat keskeiset matemaattiset käsitteet.
-  - Tutustu symmetrisiin salausalgoritmeihin tutustumalla RC4-virtasalausmenetelmään ja AES:ään 128-bittisellä avaimella.
-  - Tutustu RSA-kryptosysteemiin, avainten jakamiseen ja hash-funktioihin ja tutustu epäsymmetriseen kryptografiaan.
-
+- Tutustutaan Beale-salauksiin ja nykyaikaisiin salausmenetelmiin, jotta ymmärretään salakirjoituksen peruskäsitteitä ja historiallisia käsitteitä.
+- Syvenny lukuteoriaan, ryhmiin ja kenttiin ja hallitse salakirjoituksen taustalla olevat keskeiset matemaattiset käsitteet.
+- Tutustu symmetrisiin salausalgoritmeihin tutustumalla RC4-virtasalausmenetelmään ja AES:ään 128-bittisellä avaimella.
+- Tutustu RSA-kryptosysteemiin, avainten jakamiseen ja hash-funktioihin ja tutustu epäsymmetriseen kryptografiaan.
 ---
 # Syväsukellus kryptografiaan
 

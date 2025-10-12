@@ -1,13 +1,11 @@
 ---
-name: Introduksjon til formell kryptografi
+name: Grunnleggende moderne kryptografi
 goal: En dypdykk i vitenskapen om og praktiseringen av kryptografi.
 objectives:
-
-  - Utforsk Beale-chiffer og moderne kryptografiske metoder for å forstå grunnleggende og historiske begreper innen kryptografi.
-  - Fordyp deg i tallteori, grupper og felt for å mestre sentrale matematiske begreper som ligger til grunn for kryptografi.
-  - Studer RC4-strømmekryptering og AES med en 128-biters nøkkel for å lære om symmetriske kryptografiske algoritmer.
-  - Undersøk RSA-kryptosystemet, nøkkeldistribusjon og hashfunksjoner for å utforske asymmetrisk kryptografi.
-
+- Utforsk Beale-chiffer og moderne kryptografiske metoder for å forstå grunnleggende og historiske begreper innen kryptografi.
+- Fordyp deg i tallteori, grupper og felt for å mestre sentrale matematiske begreper som ligger til grunn for kryptografi.
+- Studer RC4-strømmekryptering og AES med en 128-biters nøkkel for å lære om symmetriske kryptografiske algoritmer.
+- Undersøk RSA-kryptosystemet, nøkkeldistribusjon og hashfunksjoner for å utforske asymmetrisk kryptografi.
 ---
 # Dypdykk i kryptografi
 

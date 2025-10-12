@@ -1,12 +1,11 @@
 ---
-name: Giới thiệu về mật mã học chính thức
+name: Cơ sở của mật mã học hiện đại
 goal: Giới thiệu sâu sắc về khoa học và thực hành mật mã.
-objectives: 
-  - Khám phá mật mã Beale và các phương pháp mật mã hiện đại để hiểu các khái niệm cơ bản và lịch sử về mật mã.
-  - Đi sâu vào lý thuyết số, nhóm và các lĩnh vực để nắm vững các khái niệm toán học quan trọng làm nền tảng cho mật mã học.
-  - Nghiên cứu mã hóa luồng RC4 và AES với khóa 128 bit để tìm hiểu về các thuật toán mã hóa đối xứng.
-  - Nghiên cứu hệ thống mật mã RSA, phân phối khóa và hàm băm để khám phá mật mã bất đối xứng.
-
+objectives:
+- Khám phá mật mã Beale và các phương pháp mật mã hiện đại để hiểu các khái niệm cơ bản và lịch sử về mật mã.
+- Đi sâu vào lý thuyết số, nhóm và các lĩnh vực để nắm vững các khái niệm toán học quan trọng làm nền tảng cho mật mã học.
+- Nghiên cứu mã hóa luồng RC4 và AES với khóa 128 bit để tìm hiểu về các thuật toán mã hóa đối xứng.
+- Nghiên cứu hệ thống mật mã RSA, phân phối khóa và hàm băm để khám phá mật mã bất đối xứng.
 ---
 # Đi sâu vào mật mã
 

@@ -1,14 +1,11 @@
 ---
-name: Uvod u formalnu kriptografiju
-goal: Detaljan uvod u nauku i praksu kriptografije
-objectives: 
-
-  - Istražite Beale šifre i moderne kriptografske metode kako biste razumeli osnovne i istorijske koncepte kriptografije.
-  - Uronite u teoriju brojeva, grupe i polja kako biste savladali ključne matematičke pojmove koji se nalaze u osnovi kriptografije.
-  - Proučite RC4 stream šifru i AES sa 128-bitnim ključem da biste saznali više o simetričnim kriptografskim algoritmima.
-  - Istražite RSA kriptosistem, distribuciju ključeva i heš funkcije kako biste istražili asimetričnu kriptografiju.
-
-
+name: Osnove moderne kriptografije
+goal: Duboko uranjanje u nauku i praksu kriptografije.
+objectives:
+- Istražite Beale šifre i moderne kriptografske metode kako biste razumeli osnovne i istorijske koncepte kriptografije.
+- Uronite se u teoriju brojeva, grupe i polja kako biste savladali ključne matematičke pojmove koji su osnova kriptografije.
+- Proučite RC4 stream šifru i AES sa 128-bitnim ključem da biste saznali više o simetričnim kriptografskim algoritmima.
+- Istražite RSA kriptosistem, distribuciju ključeva i Hash funkcije kako biste istražili asimetričnu kriptografiju.
 ---
 # Detaljan uvod u kriptografiju
 

@@ -1,14 +1,11 @@
 ---
-name: Biçimsel Kriptografiye Giriş
+name: Modern kriptografinin temelleri
 goal: Kriptografi bilimine ve uygulamasına derinlemesine bir giriş.
-objectives: 
-
-  - Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
-  - Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
-  - Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
-  - Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
-
-
+objectives:
+- Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
+- Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
+- Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
+- Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
 ---
 # Kriptografiye derinlemesine dalış
 

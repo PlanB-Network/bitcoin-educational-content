@@ -1,13 +1,11 @@
 ---
-name: Pengantar Kriptografi formal
+name: Dasar-dasar kriptografi modern
 goal: Pengenalan mendalam tentang ilmu dan praktik kriptografi.
 objectives:
-
-  - Jelajahi sandi Beale dan metode kriptografi modern untuk memahami konsep dasar dan sejarah kriptografi.
-  - Pelajari teori bilangan, grup, dan bidang untuk menguasai konsep matematika utama yang mendasari kriptografi.
-  - Pelajari stream cipher RC4 dan AES dengan kunci 128-bit untuk mempelajari algoritme kriptografi simetris.
-  - Selidiki kriptosistem RSA, distribusi kunci, dan fungsi hash untuk mengeksplorasi kriptografi asimetris.
-
+- Jelajahi sandi Beale dan metode kriptografi modern untuk memahami konsep dasar dan sejarah kriptografi.
+- Pelajari teori bilangan, grup, dan bidang untuk menguasai konsep matematika utama yang mendasari kriptografi.
+- Pelajari stream cipher RC4 dan AES dengan kunci 128-bit untuk mempelajari algoritme kriptografi simetris.
+- Selidiki kriptosistem RSA, distribusi kunci, dan fungsi hash untuk mengeksplorasi kriptografi asimetris.
 ---
 # Mendalami kriptografi secara mendalam
 

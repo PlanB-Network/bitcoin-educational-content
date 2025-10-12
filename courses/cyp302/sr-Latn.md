@@ -7,20 +7,12 @@ objectives:
 - Proučite RC4 stream šifru i AES sa 128-bitnim ključem da biste saznali više o simetričnim kriptografskim algoritmima.
 - Istražite RSA kriptosistem, distribuciju ključeva i Hash funkcije kako biste istražili asimetričnu kriptografiju.
 ---
-# Detaljan uvod u kriptografiju
+# Dubinska analiza moderne kriptografije
 
+U ovom kursu ćemo obraditi osnove moderne kriptografije na jasan i pristupačan način, bez potrebe za solidnim matematičkim znanjem. Kroz poglavlja ćete naučiti ključne koncepte kao što su simetrična i asimetrična enkripcija, heš funkcije, digitalni potpisi, razmena ključeva i protokoli iz stvarnog sveta. Usput ćemo povezati tačke sa praktičnim primenama kao što su sigurno slanje poruka, TLS, čuvanje lozinki i autentifikacija.
 
-Teško je pronaći mnogo materijala koji nude dobru sredinu u obrazovanju o kriptografiji.
-
-
-S jedne strane, postoje dugački, formalni traktati, zaista dostupni samo onima sa jakom pozadinom u matematici, logici ili nekoj drugoj formalnoj disciplini. S druge strane, postoje veoma uvodne prezentacije koje zaista skrivaju previše detalja za svakoga ko je makar malo radoznao.
-
-
-Ovaj uvod u kriptografiju nastoji da zauzme srednji put. Iako bi trebalo da bude relativno izazovan i detaljan za svakoga ko je nov u kriptografiji, nije „zečja rupa“ tipičnog osnovnog traktata.
-
-
+Materijal je dizajniran za učenike svih nivoa i balansira intuiciju sa dovoljno tehničke dubine da zadovolji radoznalost. Očekujte fokusiran i zanimljiv put. Do kraja ćete razumeti kako i zašto moderna kriptografija funkcioniše i kako je odgovorno koristiti.
 +++
-
 # Uvod
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>

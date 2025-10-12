@@ -7,20 +7,12 @@ objectives:
 - Iga RC4 stream cipher na AES n’urufunguzo rw’ibice 128 kugira ngo umenye ivyerekeye ubuhinga bwo gukingira amakuru buhuye.
 - Itohoza ry’ubuhinga bwa RSA, ugukwirakwiza urufunguzo, n’ibikorwa vya Hash kugira ngo utohoze ubuhinga bwo gukingira butaringaniye.
 ---
-# Kwisuka cane mu vy'ubuhinga bwo gukingira amakuru
+# Kwibandanya mu buryo bw'inyuma bwo gushira ibanga
 
+Muri iki gisomo, tuzasuzuma ibintu by'ingenzi by'uburyo bw'inyuma bwo gushira ibanga mu buryo busobanutse kandi bworoshye, nta mahugurwa akomeye y'imibare akenewe. Mu bice byose, uziga ibitekerezo ngenderwako nko gushira ibanga ku buryo bw'urufunguzo rumwe n'urw'abantu, imikorere ya hash, umukono wa digitale, guhanahana urufunguzo, n'amahame y'ukuri. Mu nzira, tuzahuza utudomo ku bikorwa bifatika nko kohereza ubutumwa bwizewe, TLS, kubika ijambo ry'ibanga, no kwemeza umwirondoro.
 
-Biragoye kuronka ibikoresho vyinshi bitanga ikibanza ciza co hagati mu nyigisho y’ubuhinga bwo gukingira amakuru.
-
-
-Ku ruhande rumwe, hariho ibitabu birebire kandi bimenyerewe, mu vy’ukuri bishobora gushikirwa gusa n’abafise ubumenyi bukomeye mu vy’imibare, mu vy’ubwenge canke mu yindi nyigisho izwi. Ku rundi ruhande, hariho intangamarara zo ku rugero rwo hejuru cane zihisha vy’ukuri ibintu vyinshi cane ku muntu wese afise n’imiburiburi ugushaka kumenya.
-
-
-Iyi ntangamarara y’ubuhinga bwo gukingira amakuru irondera gufata ahantu hagati. Naho vyoba bigoye kandi bifise ido n’ido ku muntu wese mushasha mu vy’ubuhinga bwo gupfuka amakuru, si co kinogo c’inkwavu c’igitabu c’ishimikiro gisanzwe.
-
-
+Ibikubiye mu gisomo byateguwe abiga ku rwego rwose kandi biringaniza ubwenge hamwe n'ubujyakuzimu buhagije bwo guhaza amatsiko. Teganya urugendo rwibanze kandi rushimishije. Igihe kirangiye, uzumva uburyo n'impamvu uburyo bw'inyuma bwo gushira ibanga bukora n'uko ubukoresha mu buryo bwizewe.
 +++
-
 # Imenyekanisha
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>

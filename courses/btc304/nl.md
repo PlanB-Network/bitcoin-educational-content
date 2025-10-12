@@ -1,16 +1,12 @@
 ---
-name: Creëer een Bitcoin gemeenschap of meet-up
-goal: Creëer en organiseer eenvoudig een Bitcoin community of meet-up
-objectives: 
-
-
-  - Creëer een Bitcoin gemeenschap en/of meet-up
-  - Bouw een visuele en digitale identiteit voor uw gemeenschap
-  - Stel jaarlijkse doelstellingen op voor je gemeenschap
-  - Start projecten en initiatieven met uw gemeenschap
-  - Het belang begrijpen van anticiperen op de toekomstige ontwikkeling van een gemeenschap
-
-
+name: Creëer een Bitcoin-gemeenschap
+goal: Creëer en organiseer eenvoudig een Bitcoin-community in jouw regio
+objectives:
+- Creëer een Bitcoin gemeenschap en/of meet-up
+- Bouw een visuele en digitale identiteit voor uw gemeenschap
+- Stel jaarlijkse doelstellingen op voor je gemeenschap
+- Start projecten en initiatieven met uw gemeenschap
+- Het belang begrijpen van anticiperen op de toekomstige ontwikkeling van een gemeenschap
 ---
 
 # De eerste stap naar Bitcoin adoptie

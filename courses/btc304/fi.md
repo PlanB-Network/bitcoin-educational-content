@@ -1,16 +1,12 @@
 ---
-name: Luo Bitcoin-yhteisö tai meet-up
-goal: Luo ja organisoi helposti Bitcoin-yhteisö tai tapaaminen
-objectives: 
-
-
-  - Luo Bitcoin-yhteisö ja/tai meet-up
-  - Luo yhteisöllesi visuaalinen ja digitaalinen identiteetti
-  - Aseta yhteisöllesi vuotuiset tavoitteet
-  - Käynnistää hankkeita ja aloitteita yhteisön kanssa
-  - Ymmärtää, että on tärkeää ennakoida yhteisön tulevaa kehitystä
-
-
+name: Luo Bitcoin-yhteisö
+goal: Luo ja järjestä helposti Bitcoin-yhteisö paikallisella alueellasi
+objectives:
+- Luo Bitcoin-yhteisö ja/tai meet-up
+- Luo yhteisöllesi visuaalinen ja digitaalinen identiteetti
+- Aseta yhteisöllesi vuotuiset tavoitteet
+- Käynnistää hankkeita ja aloitteita yhteisön kanssa
+- Ymmärtää, että on tärkeää ennakoida yhteisön tulevaa kehitystä
 ---
 
 # Ensimmäinen askel kohti Bitcoin:n käyttöönottoa

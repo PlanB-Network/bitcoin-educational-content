@@ -1,16 +1,12 @@
 ---
-name: Erstelle eine Bitcoin-Gemeinschaft oder ein Treffen
-goal: Einfaches Erstellen und Organisieren einer Bitcoin-Gemeinschaft oder eines Treffens
-objectives: 
-
-
-  - Schaffung einer Bitcoin-Gemeinschaft und/oder eines Treffens
-  - Aufbau einer visuellen und digitalen Identität für deine Gemeinschaft
-  - Setze jährliche Ziele für deine Gemeinschaft
-  - Starte Projekte und Initiativen mit deiner Gemeinschaft
-  - Verstehe, wie wichtig es ist, die künftige Entwicklung einer Gemeinschaft zu antizipieren
-
-
+name: Eine Bitcoin-Community erstellen
+goal: Erstellen und organisieren Sie ganz einfach eine Bitcoin-Community in Ihrer Region
+objectives:
+- Schaffung einer Bitcoin-Gemeinschaft und/oder eines Treffens
+- Aufbau einer visuellen und digitalen Identität für deine Gemeinschaft
+- Setze jährliche Ziele für deine Gemeinschaft
+- Starte Projekte und Initiativen mit deiner Gemeinschaft
+- Verstehe, wie wichtig es ist, die künftige Entwicklung einer Gemeinschaft zu antizipieren
 ---
 
 # Der erste Schritt zur Einführung von Bitcoin

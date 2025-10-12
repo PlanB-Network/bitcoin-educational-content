@@ -1,16 +1,12 @@
 ---
-name: Bir Bitcoin topluluğu veya buluşması oluşturun
-goal: Kolayca bir Bitcoin topluluğu veya buluşması oluşturun ve organize edin
-objectives: 
-
-
-  - Bir Bitcoin topluluğu ve/veya buluşması oluşturun
-  - Topluluğunuz için görsel ve dijital bir kimlik oluşturun
-  - Topluluğunuz için yıllık hedefler belirleyin
-  - Topluluğunuzla birlikte projeler ve girişimler başlatın
-  - Bir topluluğun gelecekteki gelişimini öngörmenin önemini anlamak
-
-
+name: Bir Bitcoin Topluluğu Oluşturun
+goal: Yerel bölgenizde kolayca bir Bitcoin topluluğu oluşturun ve düzenleyin
+objectives:
+- Bir Bitcoin topluluğu ve/veya buluşması oluşturun
+- Topluluğunuz için görsel ve dijital bir kimlik oluşturun
+- Topluluğunuz için yıllık hedefler belirleyin
+- Topluluğunuzla birlikte projeler ve girişimler başlatın
+- Bir topluluğun gelecekteki gelişimini öngörmenin önemini anlamak
 ---
 
 # Bitcoin'ün benimsenmesine yönelik ilk adım

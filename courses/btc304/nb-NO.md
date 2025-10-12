@@ -1,16 +1,12 @@
 ---
-name: Opprett et Bitcoin-fellesskap eller et møtepunkt
-goal: Opprett og organiser enkelt et Bitcoin-fellesskap eller et møtepunkt
-objectives: 
-
-
-  - Opprett et Bitcoin-fellesskap og/eller et møtepunkt
-  - Bygg en visuell og digital identitet for lokalsamfunnet ditt
-  - Sett årlige mål for lokalsamfunnet ditt
-  - Start prosjekter og initiativer sammen med lokalsamfunnet ditt
-  - Forstå viktigheten av å forutse den fremtidige utviklingen i et samfunn
-
-
+name: Opprett et Bitcoin-fellesskap
+goal: Opprett og organiser enkelt et Bitcoin-fellesskap i ditt lokale område
+objectives:
+- Opprett et Bitcoin-fellesskap og/eller et møtepunkt
+- Bygg en visuell og digital identitet for lokalsamfunnet ditt
+- Sett årlige mål for lokalsamfunnet ditt
+- Start prosjekter og initiativer sammen med lokalsamfunnet ditt
+- Forstå viktigheten av å forutse den fremtidige utviklingen i et samfunn
 ---
 
 # Det første skrittet mot å ta i bruk Bitcoin

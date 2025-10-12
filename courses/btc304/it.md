@@ -1,16 +1,12 @@
 ---
-name: Creare una comunità o un incontro Bitcoin
-goal: Creare e organizzare facilmente una comunità o un meet-up Bitcoin
-objectives: 
-
-
-  - Creare una comunità e/o un incontro Bitcoin
-  - Costruire un'identità visiva e digitale per la vostra comunità
-  - Stabilire obiettivi annuali per la propria comunità
-  - Lanciare progetti e iniziative con la vostra comunità
-  - Comprendere l'importanza di anticipare l'evoluzione futura di una comunità
-
-
+name: Crea una comunità Bitcoin
+goal: Crea e organizza facilmente una comunità Bitcoin nella tua zona
+objectives:
+- Creare una comunità e/o un incontro Bitcoin
+- Costruire un'identità visiva e digitale per la vostra comunità
+- Stabilire obiettivi annuali per la propria comunità
+- Lanciare progetti e iniziative con la vostra comunità
+- Comprendere l'importanza di anticipare l'evoluzione futura di una comunità
 ---
 
 # Il primo passo verso l'adozione del Bitcoin

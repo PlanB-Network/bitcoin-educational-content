@@ -1,16 +1,12 @@
 ---
-name: Skapa ett Bitcoin-community eller en mötesplats
-goal: Skapa och organisera enkelt ett Bitcoin-community eller en mötesplats
-objectives: 
-
-
-  - Skapa en Bitcoin-community och/eller mötesplats
-  - Skapa en visuell och digital identitet för ditt samhälle
-  - Sätt upp årliga mål för ditt samhälle
-  - Starta projekt och initiativ med ditt samhälle
-  - Förstå vikten av att förutse den framtida utvecklingen av ett samhälle
-
-
+name: Skapa en Bitcoin-gemenskap
+goal: Skapa och organisera enkelt en Bitcoin-community i ditt lokala område
+objectives:
+- Skapa en Bitcoin-community och/eller mötesplats
+- Skapa en visuell och digital identitet för ditt samhälle
+- Sätt upp årliga mål för ditt samhälle
+- Starta projekt och initiativ med ditt samhälle
+- Förstå vikten av att förutse den framtida utvecklingen av ett samhälle
 ---
 
 # Det första steget mot Bitcoin-anpassning

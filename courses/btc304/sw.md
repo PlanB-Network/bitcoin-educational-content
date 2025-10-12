@@ -1,16 +1,12 @@
 ---
-name: Unda jumuiya ya Bitcoin au mkutano
-goal: Unda na upange jumuiya ya Bitcoin kwa urahisi au mkutano
-objectives: 
-
-
-  - Unda jumuiya ya Bitcoin na/au kukutana
-  - Jenga kitambulisho cha kuona na kidijitali kwa ajili ya jumuiya yako
-  - Weka malengo ya kila mwaka kwa jumuiya yako
-  - Zindua miradi na mipango na jumuiya yako
-  - Kuelewa umuhimu wa kutarajia mageuzi ya baadaye ya jumuiya
-
-
+name: Unda Jumuiya ya Bitcoin
+goal: Unda na kupanga kwa urahisi jamii ya Bitcoin katika eneo lako la karibu
+objectives:
+- Unda jumuiya ya Bitcoin na/au kukutana
+- Jenga kitambulisho cha kuona na kidijitali kwa ajili ya jumuiya yako
+- Weka malengo ya kila mwaka kwa jumuiya yako
+- Zindua miradi na mipango na jumuiya yako
+- Kuelewa umuhimu wa kutarajia mageuzi ya baadaye ya jumuiya
 ---
 
 # Hatua ya kwanza kuelekea kupitishwa kwa Bitcoin

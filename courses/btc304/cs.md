@@ -1,16 +1,12 @@
 ---
-name: Vytvoření komunity Bitcoin nebo setkání
-goal: Snadné vytvoření a organizace komunity Bitcoin nebo setkání
-objectives: 
-
-
-  - Vytvoření komunity Bitcoin a/nebo setkání
-  - Vytvoření vizuální a digitální identity vaší komunity
-  - Stanovení ročních cílů pro vaši komunitu
-  - Zahájení projektů a iniciativ s vaší komunitou
-  - Pochopit význam předvídání budoucího vývoje komunity
-
-
+name: Vytvořte bitcoinovou komunitu
+goal: Snadno vytvořte a organizujte Bitcoin komunitu ve vaší místní oblasti
+objectives:
+- Vytvoření komunity Bitcoin a/nebo setkání
+- Vytvoření vizuální a digitální identity vaší komunity
+- Stanovení ročních cílů pro vaši komunitu
+- Zahájení projektů a iniciativ s vaší komunitou
+- Pochopit význam předvídání budoucího vývoje komunity
 ---
 
 # První krok k přijetí Bitcoin

@@ -1,16 +1,12 @@
 ---
-name: Tạo cộng đồng hoặc buổi gặp mặt Bitcoin
-goal: Dễ dàng tạo và tổ chức cộng đồng hoặc buổi gặp mặt Bitcoin
-objectives: 
-
-
-  - Tạo cộng đồng Bitcoin và/hoặc buổi gặp mặt
-  - Xây dựng bản sắc trực quan và kỹ thuật số cho cộng đồng của bạn
-  - Đặt mục tiêu hàng năm cho cộng đồng của bạn
-  - Khởi động các dự án và sáng kiến với cộng đồng của bạn
-  - Hiểu được tầm quan trọng của việc dự đoán sự phát triển trong tương lai của một cộng đồng
-
-
+name: Tạo cộng đồng Bitcoin
+goal: Dễ dàng tạo và tổ chức cộng đồng Bitcoin tại khu vực địa phương của bạn
+objectives:
+- Tạo cộng đồng Bitcoin và/hoặc buổi gặp mặt
+- Xây dựng bản sắc trực quan và kỹ thuật số cho cộng đồng của bạn
+- Đặt mục tiêu hàng năm cho cộng đồng của bạn
+- Khởi động các dự án và sáng kiến với cộng đồng của bạn
+- Hiểu được tầm quan trọng của việc dự đoán sự phát triển trong tương lai của một cộng đồng
 ---
 
 # Bước đầu tiên hướng tới việc áp dụng Bitcoin

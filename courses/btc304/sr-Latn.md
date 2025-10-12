@@ -1,16 +1,12 @@
 ---
-name: Kreirajte Bitcoin zajednicu ili okupljanje
-goal: Lako kreirajte i organizujte Bitcoin zajednicu ili okupljanje
-objectives: 
-
-
-  - Kreirajte Bitcoin zajednicu i/ili okupljanje
-  - Izgradite vizuelni i digitalni identitet za svoju zajednicu
-  - Postavite godišnje ciljeve za svoju zajednicu
-  - Pokrenite projekte i inicijative sa svojom zajednicom
-  - Razumeti važnost predviđanja buduće evolucije zajednice
-
-
+name: Napravite Bitcoin zajednicu
+goal: Lako kreirajte i organizujte Bitcoin zajednicu u vašoj lokalnoj oblasti
+objectives:
+- Kreirajte Bitcoin zajednicu i/ili okupljanje
+- Izgradite vizuelni i digitalni identitet za svoju zajednicu
+- Postavite godišnje ciljeve za svoju zajednicu
+- Pokrenite projekte i inicijative sa svojom zajednicom
+- Razumeti važnost predviđanja buduće evolucije zajednice
 ---
 
 # Prvi korak ka usvajanju Bitcoin

@@ -1,16 +1,12 @@
 ---
-name: Utwórz społeczność Bitcoin lub spotkanie
-goal: Łatwe tworzenie i organizowanie społeczności Bitcoin lub spotkań
-objectives: 
-
-
-  - Utworzenie społeczności Bitcoin i/lub spotkania
-  - Zbuduj wizualną i cyfrową tożsamość swojej społeczności
-  - Wyznaczanie rocznych celów dla społeczności
-  - Rozpocznij projekty i inicjatywy ze swoją społecznością
-  - Zrozumienie znaczenia przewidywania przyszłej ewolucji społeczności
-
-
+name: Stwórz społeczność Bitcoin
+goal: Łatwo twórz i organizuj społeczność Bitcoin w swojej okolicy
+objectives:
+- Utworzenie społeczności Bitcoin i/lub spotkania
+- Zbuduj wizualną i cyfrową tożsamość swojej społeczności
+- Wyznaczanie rocznych celów dla społeczności
+- Rozpocznij projekty i inicjatywy ze swoją społecznością
+- Zrozumienie znaczenia przewidywania przyszłej ewolucji społeczności
 ---
 
 # Pierwszy krok w kierunku przyjęcia Bitcoin

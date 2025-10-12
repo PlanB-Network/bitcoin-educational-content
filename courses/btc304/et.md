@@ -1,16 +1,12 @@
 ---
-name: Loo Bitcoin kogukond või kokkusaamine
-goal: Lihtsalt luua ja korraldada Bitcoin kogukond või kokkusaamine
-objectives: 
-
-
-  - Bitcoin kogukonna loomine ja/või kohtumine
-  - Luua oma kogukonna visuaalne ja digitaalne identiteet
-  - Seadke oma kogukonnale iga-aastased eesmärgid
-  - Käivitage koos oma kogukonnaga projekte ja algatusi
-  - Mõista, kui oluline on kogukonna tulevase arengu prognoosimine
-
-
+name: Loo Bitcoin kogukond
+goal: Loo ja korraldage hõlpsalt Bitcoin kogukond oma kohalikus piirkonnas
+objectives:
+- Bitcoin kogukonna loomine ja/või kohtumine
+- Luua oma kogukonna visuaalne ja digitaalne identiteet
+- Seadke oma kogukonnale iga-aastased eesmärgid
+- Käivitage koos oma kogukonnaga projekte ja algatusi
+- Mõista, kui oluline on kogukonna tulevase arengu prognoosimine
 ---
 
 # Esimene samm Bitcoin kasutuselevõtu suunas

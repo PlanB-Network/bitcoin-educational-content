@@ -1,16 +1,12 @@
 ---
-name: Rema umuryango wa Bitcoin canke guhura
-goal: Biroroshe kurema no gutunganya umuryango wa Bitcoin canke ihuriro
-objectives: 
-
-
-  - Rema umuryango wa Bitcoin na/canke guhura
-  - Kubaka akaranga kaboneka n'ak'ubuhinga bwa none ku kibano cawe
-  - Gushinga intego z'umwaka ku kibano cawe
-  - Gutanguza imigambi n'imigambi n'abanyagihugu
-  - Gutahura akamaro ko kwitega imbere y'igihe iterambere ry'umuryango
-
-
+name: Kora umuryango wa Bitcoin
+goal: Kora kandi utegure neza umuryango wa Bitcoin mu gace kawe
+objectives:
+- Rema umuryango wa Bitcoin na/canke guhura
+- Kubaka akaranga kaboneka n'ak'ubuhinga bwa none ku kibano cawe
+- Gushinga intego z'umwaka ku kibano cawe
+- Gutanguza imigambi n'imigambi n'abanyagihugu
+- Gutahura akamaro ko kwitega imbere y'igihe iterambere ry'umuryango
 ---
 
 # Intambwe ya mbere yo kwemera Bitcoin

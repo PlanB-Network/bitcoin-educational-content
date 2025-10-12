@@ -1,16 +1,12 @@
 ---
-name: Membuat komunitas atau pertemuan Bitcoin
-goal: Membuat dan mengatur komunitas atau pertemuan Bitcoin dengan mudah
-objectives: 
-
-
-  - Buat komunitas Bitcoin dan/atau pertemuan
-  - Bangun identitas visual dan digital untuk komunitas Anda
-  - Menetapkan tujuan tahunan untuk komunitas Anda
-  - Meluncurkan proyek dan inisiatif dengan komunitas Anda
-  - Memahami pentingnya mengantisipasi evolusi komunitas di masa depan
-
-
+name: Buat Komunitas Bitcoin
+goal: Buat dan atur komunitas Bitcoin dengan mudah di daerah lokal Anda
+objectives:
+- Buat komunitas Bitcoin dan/atau pertemuan
+- Bangun identitas visual dan digital untuk komunitas Anda
+- Menetapkan tujuan tahunan untuk komunitas Anda
+- Meluncurkan proyek dan inisiatif dengan komunitas Anda
+- Memahami pentingnya mengantisipasi evolusi komunitas di masa depan
 ---
 
 # Langkah pertama menuju adopsi Bitcoin

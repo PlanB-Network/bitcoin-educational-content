@@ -68,7 +68,7 @@ Lightning Network 是建構在 Bitcoin 通訊協定之上的付款通道網路�
 
 付款通道允許雙方（在此為 **Alice**和 **Bob**）透過 Lightning Network 進行 Exchange 資金交易。每個主角都有一個節點，以圓形符號表示，而他們之間的通道則以線段表示。
 
-![LNP201](assets/en/01.webp)
+![LNP201](assets/en/001.webp)
 
 在我們的範例中，Alice 在信道的一端有 100,000 衛星，Bob 有 30,000 衛星，總共 130,000 衛星，這就是 **信道容量**。
 
@@ -80,17 +80,17 @@ Lightning Network 是建構在 Bitcoin 通訊協定之上的付款通道網路�
 
 讓我們回到付款通道。這裡的關鍵概念是「通道的**面**」。每個參與者都有自己通道一邊的資金：Alice 100,000 薩托希，Bob 30,000。正如我們所見，這些資金的總和代表了通道的總容量，這個數字是在通道打開時設定的。
 
-![LNP201](assets/en/02.webp)
+![LNP201](assets/en/002.webp)
 
 讓我們以閃電交易為例。如果 Alice 想發送 40,000 薩托希給 Bob，這是可能的，因為她有足夠的資金（100,000 薩托希）。交易完成後，Alice 擁有 60,000 順位，Bob 則擁有 70,000 順位。
 
-![LNP201](assets/en/03.webp)
+![LNP201](assets/en/003.webp)
 
 通道容量**為 130,000 衛星，保持不變**。改變的是資金的分配。這個系統不允許傳送超過一個人所擁有的資金。舉例來說，如果 Bob 想要傳送 80,000 薩托希給 Alice，他就不能傳送，因為他只有 70,000 薩托希。
 
 另一種瞭解資金分配的方式是想像一個**游標**，它指示資金在通道中的位置。一開始，Alice 擁有 100,000 個 satoshi，Bob 擁有 30,000 個 satoshi，游標較偏向 Bob 的一側，因為 Alice 的資金多。在 40,000 個 satoshi 的交易後，游標會稍微移向 Alice 的一側，她現在擁有 60,000 個 satoshi。
 
-![LNP201](assets/en/04.webp)
+![LNP201](assets/en/004.webp)
 
 此表示法對於想像通道中的資金平衡非常有用。
 
@@ -136,7 +136,7 @@ Bitcoin Address 是一串從**公鑰**衍生出來的字元，而**公鑰**本�
 
 最常見的腳本需要使用與 Address 相關的私密金鑰簽名。當 Alice 用她的私人密碼匙簽署交易時，她就**解鎖了封鎖資金的腳本**，然後資金就可以被轉移。轉移資金涉及為這些資金加入新的腳本，規定這次要花掉這些資金，需要**Bob 的**私鑰簽名。
 
-![LNP201](assets/en/05.webp)
+![LNP201](assets/en/005.webp)
 
 ### UTXOs：未使用的交易輸出
 
@@ -152,17 +152,17 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 - 鮑勃的 UTXO 為 0.0015 BTC，由需要鮑勃私人金鑰簽章的腳本鎖定。
 - 愛麗絲的 UTXO 為 0.0005 BTC，由需要她本人簽名的腳本鎖定。
 
-![LNP201](assets/en/06.webp)
+![LNP201](assets/en/006.webp)
 
 ### 多重簽名地址
 
 除了由單一公開金鑰所產生的簡單位址外，也可以由多個公開金鑰建立**多重簽章位址**。對 Lightning Network 來說，一個特別有趣的案例是 **2/2多重簽章 Address**，由兩個公開金鑰所產生：
 
-![LNP201](assets/en/07.webp)
+![LNP201](assets/en/007.webp)
 
 若要使用此 2/2 多重簽章 Address 鎖定的資金，必須使用與公開金鑰相關的兩個私人金鑰簽章。
 
-![LNP201](assets/en/08.webp)
+![LNP201](assets/en/008.webp)
 
 這種類型的 Address 正是 Bitcoin Blockchain 上支付通道在 Lightning Network 上的表示。
 
@@ -192,7 +192,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 正如我們在第一章中看到的，Lightning 上的**支付通道**可以比作兩個參與者（在我們的例子中是**Alice**和**Bob**）之間交換資金的 「管道」。此通道的容量相當於雙方可用資金的總和。在我們的範例中，Alice 有**100,000 Satoshis**，Bob 有**30,000 Satoshis**，因此**總容量**為**130,000 Satoshis**。
 
-![LNP201](assets/en/09.webp)
+![LNP201](assets/en/009.webp)
 
 ### 資訊層級 Exchange
 
@@ -203,7 +203,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 - 付款通道（閃電協定）：這些是在 Lightning 上交換資金的路徑，我們將以黑色實線表示。
 - Bitcoin 交易 (Bitcoin 協定)：這些是在鏈上進行的交易，我們將用橙色線表示。
 
-![LNP201](assets/en/10.webp)
+![LNP201](assets/en/010.webp)
 
 值得注意的是，Lightning 節點可以透過 P2P 通訊協定進行通訊，而無需開啟通道，但對於 Exchange 資金而言，通道是必要的。
 
@@ -212,32 +212,32 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 - 訊息 **Exchange**：Alice 想要與 Bob 開啟一個通道。她傳送給 Bob 一則訊息，內容包含她想要存入頻道的金額 (130,000 Sats)，以及她的公開金鑰。Bob 藉由分享他自己的公開金鑰來回應。
 
-![LNP201](assets/en/11.webp)
+![LNP201](assets/en/011.webp)
 
 
 - 建立多重簽章 **Address**：有了這兩個公開金鑰，Alice 就建立了一個 **2/2 多重簽章的 Address**，也就是說，稍後存放在這個 **Address** 上的資金需要兩個簽章 (Alice 和 Bob) 才能使用。
 
-![LNP201](assets/en/12.webp)
+![LNP201](assets/en/012.webp)
 
 
 - 存款交易**：Alice 準備一筆 Bitcoin 交易，將資金存入此多重簽章 Address。例如，她可能會決定寄送 **130,000 薩托希** 到這個多重簽章 Address。此交易已在 Blockchain 上**建構，但尚未發佈。
 
-![LNP201](assets/en/13.webp)
+![LNP201](assets/en/013.webp)
 
 
 - 提款交易：在公佈存款交易之前，Alice 會建構一個提款交易，以便在鮑勃出現問題時，她可以取回她的資金。事實上，一旦 Alice 發佈存款交易，她的 Sats 將被鎖定在 2/2 多重簽章 Address 上，需要她和 Bob 的簽章才能解鎖。Alice 藉由建構可讓她取回資金的取款交易來防止此損失風險。
 
-![LNP201](assets/en/14.webp)
+![LNP201](assets/en/014.webp)
 
 
 - **鮑勃的簽名**：Alice 將存款交易傳送給 Bob 作為證明，並請他在提款交易上簽名。一旦取得鮑勃在提款交易上的簽名，愛麗絲就能保證隨時取回她的資金，因為現在只需要她自己的簽名就能解除多重簽章的鎖定。
 
-![LNP201](assets/en/15.webp)
+![LNP201](assets/en/015.webp)
 
 
 - 公佈存款交易：一旦獲得 Bob 的簽章，Alice 就可以在 Bitcoin Blockchain 上公佈存款交易，從而正式打開兩位使用者之間的 Lightning 通道。
 
-![LNP201](assets/en/16.webp)
+![LNP201](assets/en/016.webp)
 
 ### 頻道何時開放？
 
@@ -264,13 +264,13 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 如前所述，Lightning 通道是通過 Bitcoin 交易開啟的。通道可以隨時**關閉**，也是通過 Bitcoin 交易。在這兩個時刻之間，幾乎可以在通道內執行無數個交易，而無需經過 Bitcoin Blockchain。讓我們看看通道中的交易會發生什麼。
 
-![LNP201](assets/en/17.webp)
+![LNP201](assets/en/017.webp)
 
 ### 通道的初始狀態
 
 在開啟通道時，Alice 在通道的多重簽章 Address 上存入了**130,000 Satoshis**。因此，在初始狀態，所有資金都在 Alice 一方。在開啟通道之前，Alice 也讓 Bob 簽署了一份**提款交易**，如果她想關閉通道，就可以取回她的資金。
 
-![LNP201](assets/en/18.webp)
+![LNP201](assets/en/018.webp)
 
 ### 未公開的交易：Commitment 交易
 
@@ -284,7 +284,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 為了驗證這項轉移，Alice 和 Bob 建立一個新的**未公開 Bitcoin 交易**，從多重簽章 Address 傳送**100,000 Satoshis 給 Alice**和**30,000 Satoshis 給 Bob**。雙方獨立建構此交易，但使用相同的資料（金額和地址）。建構完成後，雙方各自簽署交易，並與對方交換簽章。這允許任何一方在必要時隨時公布交易，以恢復他們在主 Bitcoin Blockchain 上的通道份額。
 
-![LNP201](assets/en/19.webp)
+![LNP201](assets/en/019.webp)
 
 ### 轉移過程：Invoice
 
@@ -292,7 +292,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 每個 Commitment Transaction 代表轉帳後通道中新的資金分佈。在這個範例中，交易完成後，Bob 有 30,000 Satoshis，Alice 有 100,000 Satoshis。如果這兩位參與者中的任何一位決定在 Blockchain 上公佈此 Commitment Transaction，就會導致通道關閉，而資金將根據此最後的分配進行分配。
 
-![LNP201](assets/en/20.webp)
+![LNP201](assets/en/020.webp)
 
 ### 第二次交易後的新狀態
 
@@ -302,7 +302,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 - 愛麗絲**現在有** 110,000 薩托希。
 - 鮑勃**有 20,000 薩托希**。
 
-![LNP201](assets/en/21.webp)
+![LNP201](assets/en/021.webp)
 
 同樣地，此交易不會在 Blockchain 上公佈，但在頻道關閉的情況下，可以隨時公佈。
 
@@ -335,7 +335,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 - 愛麗絲 **60,000 薩托希**
 - 鮑勃 **70,000 薩托希**
 
-![LNP201](assets/en/22.webp)
+![LNP201](assets/en/022.webp)
 
 任何時候，雙方都可以發佈**最新簽署的 Commitment Transaction** 來關閉通道並收回資金。
 
@@ -343,11 +343,11 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 如果其中一方決定**騙取**，發布舊的 Commitment Transaction，就會出現潛在的問題。舉例來說，Alice 可以發佈一個舊的 Commitment Transaction，在這個 Commitment Transaction 中，她有**100,000 繫幣**，儘管現實中她只有**60,000 繫幣**。這樣她就可以從 Bob 手中竊取 **40,000 薩托希**。
 
-![LNP201](assets/en/23.webp)
+![LNP201](assets/en/023.webp)
 
 更糟的是，Alice 可能會公開第一筆提款交易，也就是頻道開放前的那筆交易，在那筆交易中，她有**13 萬 Satoshis**，因此竊取了整個頻道的資金。
 
-![LNP201](assets/en/24.webp)
+![LNP201](assets/en/024.webp)
 
 ### 解決方案：撤銷金鑰和時間鎖
 
@@ -359,7 +359,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 由於這兩種機制的結合，鮑勃有時間偵測到愛麗絲企圖作弊，並透過撤銷金鑰取回他的輸出來懲罰她，對鮑勃來說，這意味著取回通道的所有資金。我們新的 Commitment Transaction 現在會變成這樣：
 
-![LNP201](assets/en/25.webp)
+![LNP201](assets/en/025.webp)
 
 讓我們一起詳細說明這個機制的運作。
 
@@ -376,7 +376,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 - 初始狀態：Alice 有 **100,000 薩托希**，Bob 有 **30,000 薩托希**。
 
-![LNP201](assets/en/26.webp)
+![LNP201](assets/en/026.webp)
 
 
 - Bob 希望透過他們的 Lightning 頻道從 Alice 收到 40,000 Satoshis。要做到這一點
@@ -385,12 +385,12 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
    - 最後，Bob 為 Alice 的新 Commitment Transaction 傳送他的簽章。
    - 這些交易所允許 Alice 透過他們的通道在 Lightning 上向 Bob 傳送 **40,000 薩托希**，而新的 Commitment 交易現在反映了這種新的資金分配方式。
 
-![LNP201](assets/en/27.webp)
+![LNP201](assets/en/027.webp)
 
 
 - 如果 Alice 嘗試公開她仍擁有 **100,000 薩托希**的舊 Commitment Transaction，Bob 在取得撤銷金鑰後，可以立即使用此金鑰收回資金，而 Alice 則會被時間鎖阻擋。
 
-![LNP201](assets/en/28.webp)
+![LNP201](assets/en/028.webp)
 
 即使在這種情況下，鮑勃對嘗試作弊沒有任何經濟利益，但如果他還是這樣做，愛麗絲也會從提供相同保證的對稱保護中獲益。
 
@@ -414,7 +414,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 通道的**生命週期**始於透過 Bitcoin 交易進行的**開啟**，然後在其中進行 Lightning 交易，最後，當交易各方希望收回資金時，通道會透過第二次 Bitcoin 交易進行**關閉**。在 Lightning 上進行的中間交易由未公開的 **Commitment 交易**來表示。
 
-![LNP201](assets/en/29.webp)
+![LNP201](assets/en/029.webp)
 
 ### 通道封閉的三種類型
 
@@ -431,7 +431,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 - Alice 擁有 **100,000 薩托希**，Bob 擁有 **30,000 薩托希**。
 - 此分佈反映在 **2 個 Commitment 交易**（每個使用者一個）中，這些交易並未公佈，但在通道關閉時可能會公佈。
 
-![LNP201](assets/en/30.webp)
+![LNP201](assets/en/030.webp)
 
 ### 好處：合作關閉
 
@@ -441,7 +441,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 - Alice 透過 Lightning 通訊協定傳送訊息給 Bob，建議關閉通道。
 - Bob 同意，雙方在通道中不再進行交易。
 
-![LNP201](assets/en/31.webp)
+![LNP201](assets/en/031.webp)
 
 
 - Alice 和 Bob 一起協商**成交交易**的費用。這些費用通常根據成交時的 Bitcoin 費用市場來計算。必須注意的是，**總是由開啟通道的人**（在我們的例子中為 Alice）支付成交費用。
@@ -449,7 +449,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 例如，如果 Alice 擁有**100,000 Satoshis**，Bob 擁有**30,000 Satoshis**，在沒有時間限制的情況下，成交交易會將**100,000 Satoshis**傳送至 Alice 的 Address，並將**30,000 Satoshis**傳送至 Bob 的 Address。一旦雙方簽署此交易，Alice 就會公佈此交易。一旦交易在 Bitcoin Blockchain 上確認，Lightning 通道將正式關閉。
 
-![LNP201](assets/en/32.webp)
+![LNP201](assets/en/032.webp)
 
 **合作關閉**是首選的關閉方式，因為它速度快（無時間鎖定），而且交易費用會根據當前的 Bitcoin 市場情況進行調整。這可避免支付太少，可能導致交易在 mempools 中受阻的風險，或不必要地支付過多，導致參與者不必要的財務損失。
 
@@ -459,11 +459,11 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 在這種情況下，Alice 只需發佈最後一個 Commitment Transaction，它反映了最後一個 Lightning 交易發生時的通道狀態，並有正確的資金分配。
 
-![LNP201](assets/en/33.webp)
+![LNP201](assets/en/033.webp)
 
 此交易包括 Alice 資金的**時間鎖定**，使得結算速度較慢。
 
-![LNP201](assets/en/34.webp)
+![LNP201](assets/en/034.webp)
 
 另外，Commitment Transaction的費用在結算時可能不適合，因為這些費用是在建立交易時設定的，有時是在幾個月前。一般而言，Lightning 客戶會高估費用以避免日後的問題，但這可能會導致過高的費用，反之也可能過低。
 
@@ -473,11 +473,11 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 最後，當其中一方嘗試公布舊的 Commitment Transaction，通常是他們持有的資金比他們應該持有的還要多時，就會發生**作弊**的關閉。例如，Alice 可能會公佈一筆舊的交易，其中她擁有**120,000 薩托希**，但實際上她現在只擁有**100,000**。
 
-![LNP201](assets/en/35.webp)
+![LNP201](assets/en/035.webp)
 
 鮑勃為了防止這種作弊行為，會監控 Bitcoin Blockchain 及其 Mempool，以確保愛麗絲不會發佈舊的交易。如果 Bob 偵測到有作弊的企圖，他可以使用 **revocation key** 來收回 Alice 的資金，並透過拿走通道的全部資金來懲罰她。由於 Alice 的輸出被時間鎖阻擋，Bob 有時間在他這邊沒有時間鎖的情況下，在他擁有的 Address 上花費時間來取回全部的款項。
 
-![LNP201](assets/en/36.webp)
+![LNP201](assets/en/036.webp)
 
 很明顯，如果 Bob 沒有在 Alice 輸出的時間鎖所規定的時間內採取行動，作弊就有可能成功。在這種情況下，Alice 的輸出被解鎖，允許她消耗輸出來建立一個新的輸出到她所控制的 Address。
 
@@ -516,7 +516,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 - **Alice** (橘色) 與 **Suzie** (灰色) 有一個通道，她這邊有 **100,000 聰明**，而 Suzie 這邊有 **30,000 聰明**。
 - **Suzie** 與 **Bob** 有一個頻道，其中她擁有 **250,000 薩托希**，而 Bob 沒有任何薩托希。
 
-![LNP201](assets/en/37.webp)
+![LNP201](assets/en/037.webp)
 
 如果 Alice 想要將資金寄給 Bob 而不直接與他開通管道，她就必須透過 Suzie，而每個管道都需要調整雙方的流動性。 **發送的 Satoshis 會留在各自的通道**內；它們實際上並沒有「跨過」通道，而是透過調整每個通道的內部流動性來進行轉移。
 
@@ -526,7 +526,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 - **Alice** 在他們的共同頻道中向 **Suzie** 傳送 50,000 Satoshis。
 - **Suzie** 複製此轉移，在他們的頻道中傳送 50,000 薩托希給 **Bob**。
 
-![LNP201](assets/en/38.webp)
+![LNP201](assets/en/038.webp)
 
 因此，付款是透過每個通道中的流動資金移動來傳送給 Bob。操作結束時，Alice 最終擁有 50,000 Sats。她確實轉移了 50,000 Sats，因為最初她有 100,000。Bob 這邊則多了 50,000 Sats。對 Suzie (中間節點) 來說，這個操作是中性的：最初，她與 Alice 的通道中有 30,000 Sats，與 Bob 的通道中有 250,000 Sats，總共 280,000 Sats。操作之後，她與 Alice 的頻道中有 80,000 Sats，與 Bob 的頻道中有 200,000 Sats，總數與開始時相同。
 
@@ -541,7 +541,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 - 90,000梭子在**Suzie**一方，200,000梭子在**Carol**一方（粉紅色）。
 - 150,000 薩托希**在Carol一方**，100,000 薩托希**在Bob一方**。
 
-![LNP201](assets/en/39.webp)
+![LNP201](assets/en/039.webp)
 
 在此配置中，Alice 能發送給 Bob 的最大金額為 **90,000薩托希**，因為她受限於從 **Suzie 到 Carol** 的通道中可用的最小流動資金。在相反方向（從鮑勃到愛麗斯），則無法付款，因為在**蘇西與**愛麗斯**的通道中，**蘇西的**端不含任何梭子。因此，在這個方向上沒有可用於轉帳的**路徑。
 
@@ -552,11 +552,11 @@ Alice 透過通道傳送 **40,000 薩托希**給 Bob：
 - Suzie 在他們共用的頻道中轉帳 40,000 Satoshis 給 Carol。
 - Carol 最後轉了 40,000 Satoshis 給 Bob。
 
-![LNP201](assets/en/40.webp)
+![LNP201](assets/en/040.webp)
 
 每個通道中發送的**衛星**會留在通道中，因此 Carol 發送給 Bob 的衛星與 Alice 發送給 Suzie 的衛星並不相同。轉移只會透過調整每個通道內的流動性來進行。此外，通道的總容量維持不變。
 
-![LNP201](assets/en/41.webp)
+![LNP201](assets/en/041.webp)
 
 如同上一個範例，交易完成後，來源節點 (Alice) 少了 40,000 Satoshis。中間節點 (Suzie 和 Carol) 保留相同的總金額，因此對他們來說，這項作業是中性的。最後，目的地節點 (Bob) 收到額外的 40,000 Satoshis。
 
@@ -578,7 +578,7 @@ Alice 透過通道傳送 **40,000 薩托希**給 Bob：
 - **Alice**：基本費用為 1 sat，可變費用為 1 ppm。
 - **Suzie**: 基本費用為 0.5 sat，浮動費用為 10 ppm。
 
-![LNP201](assets/en/42.webp)
+![LNP201](assets/en/042.webp)
 
 為了更了解費用的運作方式，讓我們來研究之前相同的 Lightning Network，但現在的路由費用如下：
 
@@ -587,7 +587,7 @@ Alice 透過通道傳送 **40,000 薩托希**給 Bob：
 - 頻道 **Suzie - Carol**：Suzie 的基本費用為 0 Satoshi 和 200 ppm。
 - Carol - Bob** 通道：基本費用為 1 Satoshi 和 Suzie 的 1 ppm 2.
 
-![LNP201](assets/en/43.webp)
+![LNP201](assets/en/043.webp)
 
 同樣是支付**40,000 薩托希**給鮑勃，愛麗絲必須多寄一點，因為每個中介節點都會扣除其費用：
 
@@ -607,11 +607,11 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 
 因此，在這條路徑上支付的費用總額為 **9.04 薩托希**。因此，愛麗絲必須寄出 **40,009.04 繫幣**，鮑勃才能收到準確的 **40,000 繫幣**。
 
-![LNP201](assets/en/44.webp)
+![LNP201](assets/en/044.webp)
 
 因此更新了流動性：
 
-![LNP201](assets/en/45.webp)
+![LNP201](assets/en/045.webp)
 
 ### 洋蔥路由
 
@@ -648,11 +648,11 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 
 Alice 想要傳送 40,000 Sats 給 Bob，但她與 Bob 沒有直接通道，也不想開啟通道。她尋找一條路徑，並決定經過 Suzie 的節點。
 
-![LNP201](assets/en/46.webp)
+![LNP201](assets/en/046.webp)
 
 如果 Alice 天真地寄 40,000 薩托希給 Suzie，希望 Suzie 將這筆錢轉給 Bob，Suzie 可以將這筆資金據為己有，不傳送任何東西給 Bob。
 
-![LNP201](assets/en/47.webp)
+![LNP201](assets/en/047.webp)
 
 為了避免這種情況，在 Lightning 上，我們使用 HTLCs (Hashed Time-Locked Contracts，散列時間鎖定合約)，它讓中介節點的付款成為有條件的，也就是說 Suzie 必須滿足某些條件，才能存取 Alice 的資金並轉帳給 Bob。
 
@@ -666,7 +666,7 @@ HTLC 是基於兩個原則的特殊 Contract：
 
 以下是在我們的範例中，Alice、Suzie 和 Bob 是如何運作的：
 
-![LNP201](assets/en/48.webp)
+![LNP201](assets/en/048.webp)
 
 **創建秘密**：鮑勃產生一個隨機秘密，記為 _s_（前影像），並使用記為 _h_ 的 Hash 函數計算其 Hash，記為 _r_。我們有
 
@@ -676,11 +676,11 @@ $$
 
 使用 Hash 函式會使得只用 _h(s)_ 就無法找到 _s_，但如果提供 _s_，就很容易驗證它是否對應 _h(s)_。
 
-![LNP201](assets/en/49.webp)
+![LNP201](assets/en/049.webp)
 
 **傳送付款請求**：Bob 傳送一個 **Invoice** 給 Alice 要求付款。此 Invoice 顯然包含 Hash _r_。
 
-![LNP201](assets/en/50.webp)
+![LNP201](assets/en/050.webp)
 
 **寄出有條件的付款**：Alice 寄出 40,000 薩托希的 HTLC 給 Suzie。Suzie 收到這些資金的條件是，她提供 Alice 一個滿足以下等式的秘密 _s'_：
 
@@ -688,7 +688,7 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/51.webp)
+![LNP201](assets/en/051.webp)
 
 ** 將 HTLC 轉移給最終接收者**：Suzie 若要從 Alice 處取得 40,000 薩托希，必須將類似的 40,000 薩托希的 HTLC 轉移給 Bob，而 Bob 也有相同的條件，就是他必須提供 Suzie 一個滿足等式的秘密 _s'_：
 
@@ -696,11 +696,11 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/52.webp)
+![LNP201](assets/en/052.webp)
 
 ** 由秘密 _s_** 驗證：Bob 提供 _s_ 給 Suzie，以獲得 HTLC 承諾的 40,000 薩托希。有了這個秘密，Suzie 就可以解鎖 Alice 的 HTLC，並從 Alice 取得 40,000 薩托希。然後付款就會正確地傳送至 Bob。
 
-![LNP201](assets/en/53.webp)
+![LNP201](assets/en/053.webp)
 
 這個過程可以防止 Suzie 在沒有完成轉帳給 Bob 的情況下保留 Alice 的資金，因為她必須將款項傳送給 Bob 才能取得秘密 _s_，進而解除 Alice 的 HTLC 的鎖定。即使路由包含數個中間節點，操作仍然相同：只需針對每個中間節點重複 Suzie 的步驟即可。每個節點都會受到 HTLC 條件的保護，因為接收者解鎖最後一個 HTLC 會自動觸發串聯中所有其他 HTLC 的解鎖。
 
@@ -708,15 +708,15 @@ $$
 
 如果在付款過程中，其中一個中介節點或收款節點停止回應，尤其是在網路或電力中斷的情況下，那麼付款就無法完成，因為解鎖 HTLC 所需的秘密並未傳送。以 Alice、Suzie 和 Bob 為例，如果 Bob 沒有傳送秘密 _s_ 給 Suzie，這個問題就會發生。在此情況下，路徑上游的所有 HTLC 都會被封鎖，它們所保證的資金也會被封鎖。
 
-![LNP201](assets/en/54.webp)
+![LNP201](assets/en/054.webp)
 
 為了避免這種情況，Lightning 上的 HTLC 有一個到期日，如果交易在某個時間後仍未完成，就可以移除 HTLC。過期遵循特定的順序，因為它首先從最接近收件人的 HTLC 開始，然後逐漸上移到交易的發行者。在我們的範例中，如果 Bob 從未將秘密 _s_ 交給 Suzie，這會首先導致 Suzie 對 Bob 的 HTLC 過期。
 
-![LNP201](assets/en/55.webp)
+![LNP201](assets/en/055.webp)
 
 然後從 Alice 到 Suzie 的 HTLC。
 
-![LNP201](assets/en/56.webp)
+![LNP201](assets/en/056.webp)
 
 如果到期的順序相反，Alice 可以在 Suzie 能夠保護自己免於潛在作弊之前收回她的付款。事實上，如果鮑勃回來領回他的 HTLC，而愛麗絲已經移除她的 HTLC，Suzie 就會處於劣勢。因此，HTLC 到期的連鎖順序可確保沒有中間節點遭受不公平的損失。
 
@@ -724,15 +724,15 @@ $$
 
 Commitment 交易代表 HTLC，在 HTLC 的生命週期中，如果通道強制關閉，它們對 Lightning 施加的條件可以轉移到 Bitcoin。提醒一下，Commitment 交易代表兩個使用者之間通道的當前狀態，並允許在發生問題時單方強制關閉。通道的每個新狀態都會建立兩個 Commitment 交易：每一方一個。讓我們重溫 Alice、Suzie 和 Bob 的範例，但更仔細地看看當 HTLC 建立時，Alice 和 Suzie 之間的通道層級會發生什麼事。
 
-![LNP201](assets/en/57.webp)
+![LNP201](assets/en/057.webp)
 
 在 Alice 和 Bob 之間的 40,000 Sats 支付開始之前，Alice 與 Suzie 的通道中有 100,000 Sats，而 Suzie 持有 30,000。他們的 Commitment 交易如下：
 
-![LNP201](assets/en/58.webp)
+![LNP201](assets/en/058.webp)
 
 Alice 剛收到 Bob 的 Invoice，其中特別包含 _r_，也就是秘密的 Hash。因此，她可以與 Suzie 建立一個 40,000 Satoshis 的 HTLC。這個 HTLC 在最新的 Commitment 交易中表示為 Alice 一方稱為「**_HTLC Out_**」的輸出，因為資金是流出的，而 Suzie 一方稱為「**_HTLC In_**」，因為資金是流入的。
 
-![LNP201](assets/en/59.webp)
+![LNP201](assets/en/059.webp)
 
 這些與 HTLC 相關的輸出具有完全相同的條件，即：
 
@@ -746,7 +746,7 @@ Alice 剛收到 Bob 的 Invoice，其中特別包含 _r_，也就是秘密的 Ha
 
 如果通道沒有關閉，那麼在 Lightning 付款到期或成功之後，就會創建新的 Commitment 交易來反映新的、現在已經穩定的通道狀態，也就是沒有任何 HTLC 的待定狀態。因此，與 HTLC 相關的輸出可以從 Commitment 交易中移除。
 
-![LNP201](assets/en/60.webp)
+![LNP201](assets/en/060.webp)
 
 最後，在 HTLC 活動時合作通道關閉的情況下，Alice 和 Suzie 會停止接受新的付款，並等待正在進行的 HTLC 解決或到期。這讓他們可以發表較輕的關閉交易，而不需要 HTLC 相關的輸出，因此可以減少費用，並避免等待可能的時間鎖定。
 
@@ -773,11 +773,11 @@ HTLC 可使 Lightning 付款通過多個節點進行路由，而無需信任這�
 
 正如我們所見，在 Lightning 中，付款節點必須計算到收款人的完整路由，因為我們使用的是洋蔥路由系統。中介節點既不知道起始點，也不知道最終目的地。它們只知道付款來自哪裡，以及接下來必須傳送到哪個節點。這意味著，發送節點必須維護一個動態的本地網路拓樸，包括現有的 Lightning 節點和每個節點之間的通道，並考慮到開放、關閉和狀態更新。
 
-![LNP201](assets/en/61.webp)
+![LNP201](assets/en/061.webp)
 
 即使 Lightning Network 採用這種拓樸結構，仍有一些傳送節點無法取得的重要路由資訊，也就是通道在任何特定時刻的確切流動資金分佈。事實上，每個通道只顯示其**總容量**，但資金的內部分佈只有兩個參與節點知道。這對有效路由造成挑戰，因為付款成功與否主要取決於其金額是否小於所選路徑的最低流動性。但是，發送節點無法看到所有的流動性。
 
-![LNP201](assets/en/62.webp)
+![LNP201](assets/en/062.webp)
 
 ### 網路地圖更新
 
@@ -795,7 +795,7 @@ Lightning 節點也會監控 Bitcoin Blockchain 以偵測通道關閉交易。�
 
 讓我們以一個有 7 個節點的小型 Lightning Network 為例：Alice、Bob、1、2、3、4 和 5。想像一下，Alice 想要傳送款項給 Bob，但必須經過中間節點。
 
-![LNP201](assets/en/63.webp)
+![LNP201](assets/en/063.webp)
 
 以下是這些管道的實際資金分佈：
 
@@ -809,11 +809,11 @@ Lightning 節點也會監控 Bitcoin Blockchain 以偵測通道關閉交易。�
 - 3 和 Bob 之間的通道：50,000 Sats 位於 3 號側，250,000 位於 Bob 側（總容量為 300,000 Sats）。
 - 5 和 Bob 之間的通道：260,000 Sats 位於 5 號側，100,000 位於 Bob 側（總容量為 360,000 Sats）。
 
-![LNP201](assets/en/64.webp)
+![LNP201](assets/en/064.webp)
 
 要從 Alice 向 Bob 支付 100,000 Sats，路由選擇受限於每個通道的可用流動性。根據已知的流動性分佈，Alice 的最佳路徑可能是序列 `Alice → 1 → 2 → 4 → 5 → Bob`：
 
-![LNP201](assets/en/65.webp)
+![LNP201](assets/en/065.webp)
 
 但由於 Alice 不知道每個通道中資金的確切分佈情況，因此她必須以概率方式估計最佳路徑，並考慮到下列準則：
 
@@ -834,11 +834,11 @@ Lightning 節點也會監控 Bitcoin Blockchain 以偵測通道關閉交易。�
 
 Alice 決定測試她的第一條路線 (`Alice→1→2→5→Bob`)。因此，她向節點 1 傳送 100,000 Sats 的 HTLC。此節點與節點 2 檢查是否有足夠的流動資金，並繼續傳輸。節點 2 接著收到節點 1 的 HTLC，但意識到它與節點 5 的通道中沒有足夠的流動資金來傳送 100,000 Sats 的付款。於是節點 2 將錯誤訊息傳回節點 1，再由節點 1 傳送給 Alice。此路由失敗。
 
-![LNP201](assets/en/66.webp)
+![LNP201](assets/en/066.webp)
 
 然後 Alice 嘗試使用她的第二個路由 (`Alice→1→2→4→5→Bob`)來路由她的付款。她將 100,000 Sats 的 HTLC 傳送給節點 1，節點 1 傳送給節點 2，然後傳送給節點 4、節點 5，最後傳送給 Bob。這一次，流動資金充足，路由也正常運作。每個節點使用鮑勃提供的預先影像 (秘密 _s_)，逐級解鎖其 HTLC，這使得愛麗絲支付給鮑勃的款項得以成功落實。
 
-![LNP201](assets/en/67.webp)
+![LNP201](assets/en/067.webp)
 
 路由的搜尋方式如下：發送節點先找出可能的最佳路由，然後連續嘗試付款，直到找到可運作的路由為止。
 
@@ -865,7 +865,7 @@ Alice 決定測試她的第一條路線 (`Alice→1→2→5→Bob`)。因此，�
 
 在本章中，我們將進一步了解 Lightning **發票**的操作，也就是收款節點發送給發款節點的付款請求。我們的目標是了解如何在Lightning上付款和收款。我們還將討論經典發票的兩個替代方案：LNURL 和 Keysend。
 
-![LNP201](assets/en/68.webp)
+![LNP201](assets/en/068.webp)
 
 ### Lightning 發票的結構
 
@@ -955,7 +955,7 @@ Invoice 的有效負載包括處理付款所需的幾項資訊：
 
 在某些情況下，例如從線上服務提取比特幣，傳統的流程太過繁瑣。在這種情況下，**LNURL**提款解決方案通過顯示一個QR碼來簡化這個過程，收款人的Wallet掃描這個QR碼就可以自動創建Invoice。然後，該服務支付 Invoice，用戶只需看到一個即時提款。
 
-![LNP201](assets/en/69.webp)
+![LNP201](assets/en/069.webp)
 
 LNURL 是一種通訊協定，它指定了一系列功能，旨在簡化 Lightning 節點和用戶端以及第三方應用程式之間的互動。因此，正如我們剛剛看到的，LNURL撤銷只是其他功能中的一個例子。
 
@@ -969,7 +969,7 @@ LNURL 是一種通訊協定，它指定了一系列功能，旨在簡化 Lightni
 
 簡而言之，在此通訊協定中，是由寄件者而非收件者產生 HTLC 中使用的秘密。實際上，這可讓寄件者在付款前不必與收件者互動。
 
-![LNP201](assets/en/70.webp)
+![LNP201](assets/en/070.webp)
 
 **您應該從本章中獲得什麼？**
 
@@ -1001,7 +1001,7 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 
 為了更好地理解，讓我們以一個由三個節點組成的簡單網路為例：買方 (Alice)、路由器 (Suzie) 和賣方 (Bob) 。
 
-![LNP201](assets/en/71.webp)
+![LNP201](assets/en/071.webp)
 
 假設買方想要寄送 30,000 Sats 給賣方，而付款是透過路由器的節點。這時，每一方都必須在付款方向上有最低限度的流動資金：
 
@@ -1010,7 +1010,7 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 - 賣家必須有一個對方有 30,000 Satoshis 的頻道，才有能力接收。
 - 路由器必須在付款方的通道上有 30,000 Satoshis，同時在與賣方的通道上也有 30,000 Satoshis，才能路由付款。
 
-![LNP201](assets/en/72.webp)
+![LNP201](assets/en/072.webp)
 
 ### 流動資金管理策略
 
@@ -1023,12 +1023,12 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 - 流動資金移動：賣方也可以打開一個通道，透過虛構付款給另一個節點，將部分資金轉移到對方，而另一個節點則會以另一種方式歸還資金。我們將在下一部分看到如何進行此操作。
 - 三角開放：有一些平台可以讓希望合作打開通道的節點，讓每個節點都能從即時流入和流出的流動資金中獲益。例如，[LightningNetwork+](https://lightningnetwork.plus/) 提供這項服務。如果 Alice、Bob 和 Suzie 想要以 100,000 Sats 來開通一個通道，他們可以在這個平台上達成協議，讓 Alice 開通一個面向 Bob 的通道，Bob 開通一個面向 Suzie 的通道，Suzie 開通一個面向 Alice 的通道。如此一來，每個人都有 100,000 Sats 的流出流動資金和 100,000 Sats 的流入流動資金，而只鎖定了 100,000 Sats。
 
-![LNP201](assets/en/73.webp)
+![LNP201](assets/en/073.webp)
 
 
 - 購買通道：租賃 Lightning 通道的服務也存在，以獲得流入的流動資金，如 [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) 或 [Lightning Labs Pool](https://lightning.engineering/pool/)。例如，Alice 可以向她的節點購買 100 萬 Satoshis 的通道，以便能夠接收付款。
 
-![LNP201](assets/en/74.webp)
+![LNP201](assets/en/074.webp)
 
 最後，對於路由器而言，其目標是將處理的付款數量和收取的費用最大化，因此他們必須：
 
@@ -1040,7 +1040,7 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 
 由 Lightning Labs 提供的 [Loop Out](https://lightning.engineering/loop/)服務，可以將流動資金移到通道的對面，同時回收 Bitcoin Blockchain 上的資金。例如，Alice 透過 Lightning 將 100 萬 Satoshis 傳送至一個循環節點，該節點再將這些資金以 On-Chain 比特幣歸還給她。這就平衡了她的通道，每邊都有 100 萬 Satoshis，優化了她接收付款的能力。
 
-![LNP201](assets/en/75.webp)
+![LNP201](assets/en/075.webp)
 
 因此，這項服務能夠在回收個人比特幣 On-Chain 的同時，讓流動資金流入，這有助於限制使用 Lightning 接受付款所需的固定現金。
 
@@ -1074,14 +1074,14 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 
 - 通道開啟：通道的建立透過 Bitcoin 交易完成，該交易將資金鎖定在 2/2 多重簽章 Address 中。此存款代表 Blockchain 上的 Lightning 通道。
 
-![LNP201](assets/en/76.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
 
-![LNP201](assets/en/77.webp)
+![LNP201](assets/en/077.webp)
 
 
 - **安全與關閉**：參與者透過交換撤銷金鑰來承諾通道的新狀態，以確保資金安全並防止任何作弊行為。雙方可以透過在 Bitcoin Blockchain 上進行新的交易來合作關閉通道，或作為最後的手段透過強制關閉。後一種方式雖然效率較低，因為時間較長，有時在費用方面的評估也較差，但仍然可以追回資金。在作弊的情況下，受害者可以藉由收回 Blockchain 上通道的所有資金來懲罰作弊者。
 
-![LNP201](assets/en/78.webp)
+![LNP201](assets/en/078.webp)
 
 ### 渠道網路
 
@@ -1090,17 +1090,17 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 
 - 路由：當交易雙方沒有透過通道直接連線時，網路允許透過中介節點進行路由。付款會從一個節點轉移到另一個節點。
 
-![LNP201](assets/en/79.webp)
+![LNP201](assets/en/079.webp)
 
 
 - **HTLCs**：透過中間節點傳輸的付款是以「_哈希時間鎖定合約_」(HTLC) 作為安全保障，它允許在完成端對端付款之前鎖定資金。
 
-![LNP201](assets/en/80.webp)
+![LNP201](assets/en/080.webp)
 
 
 - 洋蔥路由：為了確保付款的機密性，洋蔥路由會將最終目的地遮蔽給中介節點。因此，發送節點必須計算整個路由，但在缺乏有關通道流動性的完整資訊的情況下，它會透過連續的測試來進行路由付款。
 
-![LNP201](assets/en/81.webp)
+![LNP201](assets/en/081.webp)
 
 ### 流動資金管理
 
@@ -1110,17 +1110,17 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 - 吸引通道：透過鼓勵其他節點朝自己開放通道，使用者可以獲得流入的流動資金。
 - 移動流動性：藉由將付款傳送至其他通路，流動資金就會移動到對方。
 
-![LNP201](assets/en/82.webp)
+![LNP201](assets/en/082.webp)
 
 
 - 使用 Loop 和 Pool 等服務：這些服務允許重新平衡或購買對方具有流動性的通道。
 
-![LNP201](assets/en/83.webp)
+![LNP201](assets/en/083.webp)
 
 
 - 合作開倉：也有一些平台可供連接進行三角開盤，並有流入的流動資金。
 
-![LNP201](assets/en/84.webp)
+![LNP201](assets/en/084.webp)
 
 # 總結
 

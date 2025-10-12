@@ -66,7 +66,7 @@ Trước khi khám phá "mạng lưới", điều quan trọng là phải hiểu
 
 Một kênh thanh toán cho phép hai bên, ở đây là **Alice** và **Bob**, trao đổi tiền tệ qua Lightning Network. Mỗi người tham gia có một nút, được biểu diễn bằng một hình tròn, và kênh giữa họ được biểu diễn bằng một đoạn thẳng.
 
-![LNP201](assets/en/01.webp)
+![LNP201](assets/en/001.webp)
 
 Trong ví dụ của chúng tôi, Alice có 100,000 satoshis ở phía của mình trong kênh, và Bob có 30,000, với tổng cộng 130,000 satoshis, tạo thành **khả năng chứa của kênh**.
 
@@ -78,17 +78,17 @@ Trong ví dụ của chúng tôi, Alice có 100,000 satoshis ở phía của mì
 
 Hãy quay lại với kênh thanh toán. Khái niệm chính ở đây là "**phía của kênh**". Mỗi người tham gia có số tiền của họ trên phía kênh của mình: Alice 100,000 satoshis và Bob 30,000. Như chúng ta đã thấy, tổng số tiền này đại diện cho tổng công suất của kênh, một con số được thiết lập khi nó được mở.
 
-![LNP201](assets/en/02.webp)
+![LNP201](assets/en/002.webp)
 
 Hãy lấy một ví dụ về một giao dịch Lightning. Nếu Alice muốn gửi 40,000 satoshis cho Bob, điều này là khả thi bởi vì cô ấy có đủ tiền (100,000 satoshis). Sau giao dịch này, Alice sẽ có 60,000 satoshis ở phía của mình và Bob 70,000.
 
-![LNP201](assets/en/03.webp)
+![LNP201](assets/en/003.webp)
 
 **Công suất kênh**, ở mức 130,000 satoshis, vẫn giữ nguyên. Điều thay đổi là sự phân bổ tiền. Hệ thống này không cho phép gửi nhiều tiền hơn số tiền một người sở hữu. Ví dụ, nếu Bob muốn gửi lại 80,000 satoshis cho Alice, anh ta không thể, bởi vì anh ta chỉ có 70,000.
 
 Một cách khác để hình dung việc phân bổ quỹ là tưởng tượng một **con trỏ** chỉ ra vị trí quỹ nằm trong kênh. Ban đầu, với 100.000 satoshi cho Alice và 30.000 cho Bob, con trỏ nghiêng nhiều hơn về phía Bob vì Alice có nhiều quỹ hơn. Sau giao dịch 40.000 satoshi, con trỏ sẽ dịch nhẹ sang phía Alice, người giờ đây sở hữu 60.000 satoshi.
 
-![LNP201](assets/en/04.webp)
+![LNP201](assets/en/004.webp)
 
 Biểu đồ này có thể hữu ích để tưởng tượng sự cân bằng tiền trong một kênh.
 
@@ -130,7 +130,7 @@ Trên Bitcoin, một giao dịch bao gồm việc gửi tiền từ một địa
 
 Script phổ biến nhất yêu cầu một chữ ký với khóa riêng liên kết với địa chỉ. Khi Alice ký một giao dịch với khóa riêng của mình, cô ấy **mở khóa script** chặn số tiền, và chúng có thể sau đó được chuyển giao. Việc chuyển giao tiền bao gồm việc thêm một script mới vào số tiền này, quy định rằng để chi tiêu chúng lần này, chữ ký của khóa riêng của **Bob** sẽ được yêu cầu.
 
-![LNP201](assets/en/05.webp)
+![LNP201](assets/en/005.webp)
 
 ### UTXOs: Unspent Transaction Outputs
 
@@ -145,17 +145,17 @@ Dưới đây là một ví dụ về một giao dịch với 2 đầu ra:
 - Một UTXO trị giá 0.0015 BTC dành cho Bob, được khóa bởi một script yêu cầu chữ ký khóa riêng của Bob.
 - Một UTXO trị giá 0.0005 BTC dành cho Alice, được khóa bởi một script yêu cầu chữ ký của chính cô ấy.
 
-![LNP201](assets/en/06.webp)
+![LNP201](assets/en/006.webp)
 
 ### Địa Chỉ Đa Chữ Ký
 
 Ngoài việc tạo ra địa chỉ đơn giản từ một khóa công khai duy nhất, cũng có thể tạo ra **địa chỉ đa chữ ký** từ nhiều khóa công khai. Một trường hợp đặc biệt thú vị cho Mạng Lưới Lightning là **địa chỉ đa chữ ký 2/2**, được tạo ra từ hai khóa công khai:
 
-![LNP201](assets/en/07.webp)
+![LNP201](assets/en/007.webp)
 
 Để chi tiêu số tiền được khóa với địa chỉ đa chữ ký 2/2 này, cần phải ký bằng cả hai khóa riêng liên kết với các khóa công khai.
 
-![LNP201](assets/en/08.webp)
+![LNP201](assets/en/008.webp)
 
 Loại địa chỉ này chính xác là biểu diễn trên blockchain Bitcoin của các kênh thanh toán trên Mạng Lưới Lightning.
 
@@ -184,7 +184,7 @@ Trong chương này, chúng ta sẽ xem xét cụ thể hơn cách mở một k�
 
 Như chúng ta đã thấy trong chương đầu tiên, một **kênh thanh toán** trên Lightning có thể được so sánh với một "ống" để trao đổi tiền tệ giữa hai bên tham gia (**Alice** và **Bob** trong ví dụ của chúng ta). Sức chứa của kênh này tương ứng với tổng số tiền có sẵn ở mỗi bên. Trong ví dụ của chúng ta, Alice có **100,000 satoshis** và Bob có **30,000 satoshis**, tạo thành **tổng sức chứa** là **130,000 satoshis**.
 
-![LNP201](assets/en/09.webp)
+![LNP201](assets/en/009.webp)
 
 ### Các Cấp Độ Trao Đổi Thông Tin
 
@@ -194,34 +194,34 @@ Rất quan trọng khi phân biệt rõ ràng các cấp độ trao đổi trên
 - **Kênh thanh toán (giao thức Lightning)**: Đây là các con đường để trao đổi tiền tệ trên Lightning, mà chúng tôi sẽ biểu diễn bằng các đường liền màu đen.
 - **Giao dịch Bitcoin (giao thức Bitcoin)**: Đây là các giao dịch được thực hiện trên chuỗi, mà chúng tôi sẽ biểu diễn bằng các đường màu cam.
 
-![LNP201](assets/en/10.webp)
+![LNP201](assets/en/010.webp)
 Đáng chú ý là một nút Lightning có thể giao tiếp qua giao thức P2P mà không cần mở kênh, nhưng để trao đổi tiền, việc mở một kênh là cần thiết.
 
 ### Các Bước Để Mở Một Kênh Lightning
 
 - **Trao đổi tin nhắn**: Alice muốn mở một kênh với Bob. Cô ấy gửi cho anh ấy một tin nhắn chứa số tiền cô ấy muốn gửi vào kênh (130,000 sats) và khóa công khai của mình. Bob phản hồi bằng cách chia sẻ khóa công khai của mình.
 
-![LNP201](assets/en/11.webp)
+![LNP201](assets/en/011.webp)
 
 - **Tạo địa chỉ đa chữ ký**: Với hai khóa công khai này, Alice tạo một **địa chỉ đa chữ ký 2/2**, nghĩa là số tiền sau này được gửi vào địa chỉ này sẽ yêu cầu cả hai chữ ký (Alice và Bob) để chi tiêu.
 
-![LNP201](assets/en/12.webp)
+![LNP201](assets/en/012.webp)
 
 - **Giao dịch gửi tiền**: Alice chuẩn bị một giao dịch Bitcoin để gửi tiền vào địa chỉ đa chữ ký này. Ví dụ, cô ấy có thể quyết định gửi **130,000 satoshis** vào địa chỉ đa chữ ký này. Giao dịch này được **xây dựng nhưng chưa được công bố** trên blockchain.
 
-![LNP201](assets/en/13.webp)
+![LNP201](assets/en/013.webp)
 
 - **Giao dịch rút tiền**: Trước khi công bố giao dịch gửi tiền, Alice xây dựng một giao dịch rút tiền để cô có thể lấy lại tiền của mình trong trường hợp có vấn đề với Bob. Thực sự, một khi Alice công bố giao dịch gửi tiền, số sats của cô ấy sẽ bị khóa trên một địa chỉ đa chữ ký 2/2, yêu cầu cả hai chữ ký của cô ấy và Bob để mở khóa. Alice bảo vệ khỏi rủi ro mất mát này bằng cách xây dựng giao dịch rút tiền cho phép cô lấy lại tiền của mình.
 
-![LNP201](assets/en/14.webp)
+![LNP201](assets/en/014.webp)
 
 - **Chữ ký của Bob**: Alice gửi giao dịch gửi tiền cho Bob như một bằng chứng và yêu cầu anh ấy ký vào giao dịch rút tiền. Một khi chữ ký của Bob được thu thập trên giao dịch rút tiền, Alice được đảm bảo có thể lấy lại tiền của mình bất cứ lúc nào, vì chỉ cần chữ ký của mình là có thể mở khóa đa chữ ký.
 
-![LNP201](assets/en/15.webp)
+![LNP201](assets/en/015.webp)
 
 - **Công bố giao dịch gửi tiền**: Một khi chữ ký của Bob được thu thập, Alice có thể công bố giao dịch gửi tiền trên blockchain Bitcoin, qua đó chính thức mở kênh Lightning giữa hai người dùng.
 
-![LNP201](assets/en/16.webp)
+![LNP201](assets/en/016.webp)
 
 ### Kênh được mở khi nào?
 
@@ -247,13 +247,13 @@ Trong chương này, chúng ta sẽ khám phá cách thức kỹ thuật của m
 
 Như đã thấy trước đây, một kênh Lightning bắt đầu với việc **mở** thông qua một giao dịch Bitcoin. Kênh có thể được **đóng** bất cứ lúc nào, cũng thông qua một giao dịch Bitcoin. Giữa hai thời điểm này, có thể thực hiện một số lượng gần như vô hạn các giao dịch trong kênh, mà không cần qua blockchain Bitcoin. Hãy xem xét điều gì xảy ra trong một giao dịch trong kênh.
 
-![LNP201](assets/en/17.webp)
+![LNP201](assets/en/017.webp)
 
 ### Trạng thái ban đầu của kênh
 
 Tại thời điểm mở kênh, Alice đã gửi **130,000 satoshis** vào địa chỉ đa chữ ký của kênh. Do đó, trong trạng thái ban đầu, tất cả các quỹ đều ở phía Alice. Trước khi mở kênh, Alice cũng đã yêu cầu Bob ký một **giao dịch rút tiền**, điều này sẽ cho phép cô ấy lấy lại quỹ của mình nếu cô ấy muốn đóng kênh.
 
-![LNP201](assets/en/18.webp)
+![LNP201](assets/en/018.webp)
 
 ### Giao dịch Chưa Công Bố: Các Giao dịch Cam Kết
 
@@ -264,7 +264,7 @@ Hãy lấy một ví dụ với Alice gửi 30,000 satoshis cho Bob:
 - **Ban đầu**: Alice có 130,000 satoshis.
 - **Sau giao dịch**: Alice có 100,000 satoshis, và Bob 30,000 satoshis.
   Để xác nhận việc chuyển giao này, Alice và Bob tạo ra một **giao dịch Bitcoin mới chưa công bố** sẽ gửi **100,000 satoshis cho Alice** và **30,000 satoshis cho Bob** từ địa chỉ đa chữ ký. Cả hai bên đều xây dựng giao dịch này một cách độc lập, nhưng với cùng một dữ liệu (số lượng và địa chỉ). Một khi đã xây dựng, mỗi bên ký vào giao dịch và trao đổi chữ ký của họ với người kia. Điều này cho phép bất kỳ bên nào công bố giao dịch bất cứ lúc nào nếu cần thiết để lấy lại phần của họ trong kênh trên blockchain Bitcoin chính.
-  ![LNP201](assets/en/19.webp)
+  ![LNP201](assets/en/019.webp)
 
 ### Quy Trình Chuyển Giao: Hóa Đơn
 
@@ -272,7 +272,7 @@ Khi Bob muốn nhận quỹ, anh ấy gửi Alice một **_hóa đơn_** cho 30,
 
 Mỗi giao dịch cam kết đại diện cho phân phối quỹ mới trong kênh sau khi chuyển giao. Trong ví dụ này, sau giao dịch, Bob có 30,000 satoshis và Alice có 100,000 satoshis. Nếu một trong hai bên quyết định công bố giao dịch cam kết này trên blockchain, điều đó sẽ dẫn đến việc đóng kênh và quỹ sẽ được phân phối theo phân phối cuối cùng này.
 
-![LNP201](assets/en/20.webp)
+![LNP201](assets/en/020.webp)
 
 ### Trạng Thái Mới Sau Một Giao Dịch Thứ Hai
 
@@ -281,7 +281,7 @@ Hãy lấy một ví dụ khác: sau giao dịch đầu tiên khi Alice gửi 30
 - **Alice** giờ đây có **110,000 satoshis**.
 - **Bob** có **20,000 satoshis**.
 
-![LNP201](assets/en/21.webp)
+![LNP201](assets/en/021.webp)
 
 Một lần nữa, giao dịch này không được công bố trên blockchain nhưng có thể được công bố bất cứ lúc nào trong trường hợp kênh được đóng.
 
@@ -310,7 +310,7 @@ Hãy lấy một ví dụ đơn giản:
   - Alice: **60,000 satoshis**
   - Bob: **70,000 satoshis**
 
-![LNP201](assets/en/22.webp)
+![LNP201](assets/en/022.webp)
 
 Bất cứ lúc nào, cả hai bên đều có thể công bố **giao dịch cam kết mới nhất** đã ký để đóng kênh và thu hồi quỹ của mình.
 
@@ -318,11 +318,11 @@ Bất cứ lúc nào, cả hai bên đều có thể công bố **giao dịch ca
 
 Một vấn đề tiềm ẩn phát sinh nếu một trong hai bên quyết định **gian lận** bằng cách công bố một giao dịch cam kết cũ. Ví dụ, Alice có thể công bố một giao dịch cam kết cũ nơi cô ấy có **100,000 satoshis**, mặc dù thực tế bây giờ cô chỉ còn **60,000**. Điều này sẽ cho phép cô ấy ăn cắp **40,000 satoshis** từ Bob.
 
-![LNP201](assets/en/23.webp)
+![LNP201](assets/en/023.webp)
 
 Còn tồi tệ hơn, Alice có thể công bố giao dịch rút tiền đầu tiên, giao dịch trước khi kênh được mở, nơi cô ấy có **130,000 satoshis**, và do đó ăn cắp toàn bộ quỹ của kênh.
 
-![LNP201](assets/en/24.webp)
+![LNP201](assets/en/024.webp)
 
 ### Giải Pháp: Khóa Huỷ Bỏ và Thời Gian Khóa
 
@@ -331,7 +331,7 @@ Còn tồi tệ hơn, Alice có thể công bố giao dịch rút tiền đầu 
 - **Thời gian khóa**: Mỗi giao dịch cam kết bao gồm một thời gian khóa cho quỹ của Alice. Thời gian khóa là một nguyên tắc hợp đồng thông minh đặt ra một điều kiện thời gian phải được đáp ứng để một giao dịch được thêm vào một khối. Điều này có nghĩa là Alice không thể thu hồi quỹ của mình cho đến khi một số khối nhất định đã trôi qua nếu cô ấy công bố một trong các giao dịch cam kết. Thời gian khóa này bắt đầu áp dụng từ sự xác nhận của giao dịch cam kết. Thời gian của nó thường tỷ lệ với kích thước của kênh, nhưng cũng có thể được cấu hình một cách thủ công.
 - **Khóa Huỷ Bỏ**: Quỹ của Alice cũng có thể được chi tiêu ngay lập tức bởi Bob nếu anh ta sở hữu **khóa huỷ bỏ**. Khóa này bao gồm một bí mật do Alice giữ và một bí mật do Bob giữ. Lưu ý rằng bí mật này khác nhau cho mỗi giao dịch cam kết.
    Nhờ vào sự kết hợp của 2 cơ chế này, Bob có thời gian để phát hiện nỗ lực gian lận của Alice và trừng phạt cô ấy bằng cách thu hồi đầu ra của mình với khóa thu hồi, điều này đối với Bob có nghĩa là thu hồi lại tất cả các quỹ của kênh. Giao dịch cam kết mới của chúng ta giờ đây sẽ trông như thế này:
-   ![LNP201](assets/en/25.webp)
+   ![LNP201](assets/en/025.webp)
 
 Hãy cùng nhau chi tiết về cách thức hoạt động của cơ chế này.
 
@@ -346,7 +346,7 @@ Hãy lấy một ví dụ để hiểu rõ quy trình này:
 
 - **Trạng Thái Ban Đầu**: Alice có **100,000 satoshis**, Bob **30,000 satoshis**.
 
-![LNP201](assets/en/26.webp)
+![LNP201](assets/en/026.webp)
 
 - Bob muốn nhận 40,000 satoshis từ Alice qua kênh Lightning của họ. Để làm điều này:
    - Anh ấy gửi cho cô ấy một hóa đơn cùng với bí mật của mình cho khóa thu hồi của giao dịch cam kết trước đó.
@@ -354,11 +354,11 @@ Hãy lấy một ví dụ để hiểu rõ quy trình này:
    - Cuối cùng, Bob gửi chữ ký của mình cho giao dịch cam kết mới của Alice.
    - Những trao đổi này cho phép Alice gửi **40,000 satoshis** cho Bob trên Lightning qua kênh của họ, và các giao dịch cam kết mới giờ đây phản ánh sự phân phối quỹ mới này.
 
-![LNP201](assets/en/27.webp)
+![LNP201](assets/en/027.webp)
 
 - Nếu Alice cố gắng công bố giao dịch cam kết cũ nơi cô ấy vẫn sở hữu **100,000 satoshis**, Bob, sau khi đã lấy được khóa thu hồi, có thể ngay lập tức thu hồi quỹ sử dụng khóa này, trong khi Alice bị chặn bởi khóa thời gian.
 
-![LNP201](assets/en/28.webp)
+![LNP201](assets/en/028.webp)
 
 Ngay cả trong trường hợp này, Bob không có lợi ích kinh tế nào trong việc cố gắng gian lận, nếu anh ta vẫn làm vậy, Alice cũng được hưởng sự bảo vệ đối xứng, mang lại cho cô ấy những bảo đảm tương tự.
 
@@ -381,7 +381,7 @@ Trong chương này, chúng ta sẽ thảo luận về **việc đóng một kê
 
 **Vòng đời của một kênh** bắt đầu với việc **mở kênh**, thông qua một giao dịch Bitcoin, sau đó các giao dịch Lightning được thực hiện bên trong nó, và cuối cùng, khi các bên muốn thu hồi quỹ của mình, kênh được **đóng** thông qua một giao dịch Bitcoin thứ hai. Các giao dịch trung gian được thực hiện trên Lightning được biểu diễn bởi các **giao dịch cam kết** không được công bố.
 
-![LNP201](assets/en/29.webp)
+![LNP201](assets/en/029.webp)
 
 ### Ba loại đóng kênh
 
@@ -396,7 +396,7 @@ Hãy lấy một ví dụ:
 - Alice sở hữu **100,000 satoshis** và Bob **30,000 satoshis**.
 - Sự phân phối này được phản ánh trong **2 giao dịch cam kết** (một cho mỗi người dùng) không được công bố, nhưng có thể được công bố trong trường hợp đóng kênh.
 
-![LNP201](assets/en/30.webp)
+![LNP201](assets/en/030.webp)
 
 ### Người Tốt: đóng kênh hợp tác
 
@@ -405,13 +405,13 @@ Trong một **đóng kênh hợp tác**, Alice và Bob đồng ý đóng kênh. 
 - Alice gửi một tin nhắn cho Bob qua giao thức giao tiếp Lightning để đề xuất đóng kênh.
 - Bob đồng ý, và hai bên không thực hiện thêm giao dịch nào trong kênh.
 
-![LNP201](assets/en/31.webp)
+![LNP201](assets/en/031.webp)
 
 - Alice và Bob cùng nhau thương lượng về phí của **giao dịch đóng kênh**. Phí này thường được tính dựa trên thị trường phí Bitcoin tại thời điểm đóng kênh. Quan trọng là phải lưu ý rằng **luôn luôn là người mở kênh** (Alice trong ví dụ của chúng ta) phải trả phí đóng kênh.
 - Họ xây dựng một **giao dịch đóng kênh mới**. Giao dịch này giống như một giao dịch cam kết, nhưng không có thời gian chờ hoặc cơ chế thu hồi, vì cả hai bên đang hợp tác và không có rủi ro gian lận. Giao dịch đóng kênh hợp tác này do đó khác với các giao dịch cam kết.
    Ví dụ, nếu Alice sở hữu **100,000 satoshis** và Bob **30,000 satoshis**, giao dịch kết thúc sẽ chuyển **100,000 satoshis** vào địa chỉ của Alice và **30,000 satoshis** vào địa chỉ của Bob, không có ràng buộc thời gian. Khi giao dịch này được cả hai bên ký, Alice sẽ công bố nó. Khi giao dịch được xác nhận trên blockchain Bitcoin, kênh Lightning sẽ chính thức được đóng.
 
-![LNP201](assets/en/32.webp)
+![LNP201](assets/en/032.webp)
 
 **Đóng cửa hợp tác** là phương pháp ưu tiên để đóng cửa vì nó nhanh chóng (không có thời gian chờ) và phí giao dịch được điều chỉnh theo điều kiện thị trường Bitcoin hiện tại. Điều này tránh trả quá ít, có thể gây nguy cơ chặn giao dịch trong mempools, hoặc trả quá nhiều không cần thiết, dẫn đến tổn thất tài chính không cần thiết cho các bên tham gia.
 
@@ -420,11 +420,11 @@ Trong một **đóng kênh hợp tác**, Alice và Bob đồng ý đóng kênh. 
 Khi nút của Alice gửi tin nhắn cho nút của Bob yêu cầu đóng cửa hợp tác, nếu anh ta không phản hồi (ví dụ, do mất kết nối internet hoặc vấn đề kỹ thuật), Alice có thể tiến hành với **đóng cửa bắt buộc** bằng cách công bố **giao dịch cam kết cuối cùng đã ký**.
 Trong trường hợp này, Alice chỉ đơn giản công bố giao dịch cam kết cuối cùng, phản ánh trạng thái của kênh vào thời điểm giao dịch Lightning cuối cùng diễn ra với sự phân phối tiền tệ chính xác.
 
-![LNP201](assets/en/33.webp)
+![LNP201](assets/en/033.webp)
 
 Giao dịch này bao gồm một **thời gian chờ** cho tiền của Alice, làm cho việc đóng cửa trở nên chậm hơn.
 
-![LNP201](assets/en/34.webp)
+![LNP201](assets/en/034.webp)
 
 Ngoài ra, phí của giao dịch cam kết có thể không phù hợp vào thời điểm đóng cửa, vì chúng được thiết lập khi giao dịch được tạo, đôi khi là vài tháng trước. Nói chung, các khách hàng Lightning ước lượng phí cao để tránh vấn đề trong tương lai, nhưng điều này có thể dẫn đến phí quá cao, hoặc ngược lại quá thấp.
 
@@ -434,11 +434,11 @@ Tóm lại, **đóng cửa bắt buộc** là lựa chọn cuối cùng khi đ�
 
 Cuối cùng, một việc đóng cửa với **gian lận** xảy ra khi một trong các bên cố gắng công bố một giao dịch cam kết cũ, thường là nơi họ giữ nhiều tiền hơn họ nên có. Ví dụ, Alice có thể công bố một giao dịch cũ nơi cô ấy sở hữu **120,000 satoshis**, trong khi thực tế cô ấy chỉ sở hữu **100,000** bây giờ.
 
-![LNP201](assets/en/35.webp)
+![LNP201](assets/en/035.webp)
 
 Bob, để ngăn chặn sự gian lận này, giám sát blockchain Bitcoin và mempool của mình để đảm bảo Alice không công bố một giao dịch cũ. Nếu Bob phát hiện ra một nỗ lực gian lận, anh ta có thể sử dụng **khóa thu hồi** để thu hồi tiền của Alice và trừng phạt cô ấy bằng cách lấy toàn bộ tiền trong kênh. Vì Alice bị chặn bởi thời gian chờ trên đầu ra của mình, Bob có thời gian để tiêu nó mà không cần thời gian chờ ở phía mình để thu hồi toàn bộ số tiền vào một địa chỉ mà anh ta sở hữu.
 
-![LNP201](assets/en/36.webp)
+![LNP201](assets/en/036.webp)
 
 Rõ ràng, gian lận có thể thành công nếu Bob không hành động trong thời gian do thời gian chờ trên đầu ra của Alice quy định. Trong trường hợp này, đầu ra của Alice được mở khóa, cho phép cô ấy sử dụng nó để tạo một đầu ra mới đến một địa chỉ cô ấy kiểm soát.
 
@@ -474,7 +474,7 @@ Ví dụ, hãy tưởng tượng rằng:
 - **Alice** (màu cam) có một kênh với **Suzie** (màu xám) với **100,000 satoshis** ở phía mình và **30,000 satoshis** ở phía Suzie.
 - **Suzie** có một kênh với **Bob** trong đó cô ấy sở hữu **250,000 satoshis** và Bob không có satoshis nào.
 
-![LNP201](assets/en/37.webp)
+![LNP201](assets/en/037.webp)
 
 Nếu Alice muốn gửi tiền cho Bob mà không mở một kênh trực tiếp với anh ấy, cô ấy sẽ phải qua Suzie, và mỗi kênh sẽ cần điều chỉnh thanh khoản ở mỗi phía. **Các satoshis được gửi vẫn nằm trong các kênh tương ứng của họ**; chúng thực sự không "vượt qua" các kênh, nhưng việc chuyển giao được thực hiện thông qua việc điều chỉnh thanh khoản nội bộ trong mỗi kênh.
 
@@ -483,7 +483,7 @@ Giả sử Alice muốn gửi **50,000 satoshis** cho Bob:
 - **Alice** gửi 50,000 satoshis cho **Suzie** trong kênh chung của họ.
 - **Suzie** sao chép việc chuyển giao này bằng cách gửi 50,000 satoshis cho **Bob** trong kênh của họ.
 
-![LNP201](assets/en/38.webp)
+![LNP201](assets/en/038.webp)
 Vì vậy, khoản thanh toán được chuyển đến Bob thông qua việc di chuyển tính thanh khoản trong từng kênh. Cuối cùng, Alice còn lại với 50,000 sats. Cô ấy thực sự đã chuyển 50,000 sats vì ban đầu, cô ấy có 100,000. Bob, về phía mình, kết thúc với thêm 50,000 sats. Đối với Suzie (nút trung gian), hoạt động này là trung lập: ban đầu, cô ấy có 30,000 sats trong kênh với Alice và 250,000 sats trong kênh với Bob, tổng cộng 280,000 sats. Sau hoạt động, cô ấy giữ 80,000 sats trong kênh với Alice và 200,000 sats trong kênh với Bob, đó là cùng một tổng số như ở khởi điểm.
 Do đó, việc chuyển giao này bị giới hạn bởi **tính thanh khoản có sẵn** theo hướng của việc chuyển giao.
 
@@ -495,7 +495,7 @@ Hãy lấy một ví dụ lý thuyết về một mạng lưới khác với:
 - **90,000 satoshis** ở phía **Suzie** và **200,000 satoshis** ở phía **Carol** (màu hồng).
 - **150,000 satoshis** ở phía **Carol** và **100,000 satoshis** ở phía **Bob**.
 
-![LNP201](assets/en/39.webp)
+![LNP201](assets/en/039.webp)
 
 Số lượng tối đa Alice có thể gửi đến Bob trong cấu hình này là **90,000 satoshis**, vì cô ấy bị giới hạn bởi lượng tính thanh khoản nhỏ nhất có sẵn trong kênh từ **Suzie đến Carol**. Trong hướng ngược lại (từ Bob đến Alice), không có khoản thanh toán nào có thể thực hiện được vì phía **Suzie** trong kênh với **Alice** không chứa satoshis nào. Do đó, không có **lộ trình** nào có thể sử dụng cho việc chuyển giao theo hướng này.
 Alice gửi **40,000 satoshis** đến Bob qua các kênh:
@@ -504,11 +504,11 @@ Alice gửi **40,000 satoshis** đến Bob qua các kênh:
 - Suzie chuyển 40,000 satoshis đến Carol trong kênh chung của họ.
 - Cuối cùng, Carol chuyển 40,000 satoshis đến Bob.
 
-![LNP201](assets/en/40.webp)
+![LNP201](assets/en/040.webp)
 
 **Satoshis được gửi** trong mỗi kênh **vẫn ở trong kênh**, vì vậy satoshis được Carol gửi đến Bob không giống như những satoshis được Alice gửi đến Suzie. Việc chuyển giao chỉ được thực hiện bằng cách điều chỉnh tính thanh khoản bên trong mỗi kênh. Hơn nữa, tổng khả năng của các kênh vẫn không thay đổi.
 
-![LNP201](assets/en/41.webp)
+![LNP201](assets/en/041.webp)
 
 Như trong ví dụ trước, sau giao dịch, nút nguồn (Alice) mất đi 40,000 satoshis. Các nút trung gian (Suzie và Carol) giữ lại tổng số tiền như cũ, làm cho hoạt động này trung lập đối với họ. Cuối cùng, nút đích (Bob) nhận thêm 40,000 satoshis.
 
@@ -527,14 +527,14 @@ Ví dụ, cho một kênh giữa Alice và Suzie, chúng ta có thể có:
 - **Alice**: phí cơ bản là 1 sat và 1 ppm cho phí biến đổi.
 - **Suzie**: phí cơ bản là 0.5 sat và 10 ppm cho phí biến đổi.
 
-![LNP201](assets/en/42.webp)
+![LNP201](assets/en/042.webp)
 
 Để hiểu rõ hơn cách phí hoạt động, hãy nghiên cứu cùng một Mạng Lưới Lightning như trước, nhưng bây giờ với các phí định tuyến sau:
 
 - Kênh **Alice - Suzie**: phí cơ bản là 1 satoshi và 1 ppm cho Alice.
 - Kênh **Suzie - Carol**: phí cơ bản là 0 satoshi và 200 ppm cho Suzie.
 - Kênh **Carol - Bob**: phí cơ bản là 1 satoshi và 1 ppm cho Suzie 2.
-  ![LNP201](assets/en/43.webp)
+  ![LNP201](assets/en/043.webp)
 
 Đối với cùng một khoản thanh toán **40,000 satoshis** cho Bob, Alice sẽ phải gửi một chút nhiều hơn, vì mỗi nút trung gian sẽ trừ phí của mình:
 
@@ -548,11 +548,11 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 
 Tổng số phí cho khoản thanh toán này trên con đường này do đó là **9.04 satoshis**. Do đó, Alice phải gửi **40,009.04 satoshis** để Bob nhận chính xác **40,000 satoshis**.
 
-![LNP201](assets/en/44.webp)
+![LNP201](assets/en/044.webp)
 
 Dung lượng thanh khoản do đó được cập nhật:
 
-![LNP201](assets/en/45.webp)
+![LNP201](assets/en/045.webp)
 
 ### Định Tuyến Hành Tinh
 
@@ -583,11 +583,11 @@ Vấn đề đặt ra cho việc định tuyến thanh toán do đó là sự ti
 
 Alice muốn gửi 40,000 sats cho Bob nhưng cô ấy không có một kênh trực tiếp với anh ấy và không muốn mở một kênh. Cô ấy tìm kiếm một lộ trình và quyết định đi qua nút của Suzie.
 
-![LNP201](assets/en/46.webp)
+![LNP201](assets/en/046.webp)
 
 Nếu Alice một cách ngây thơ gửi 40,000 satoshis cho Suzie hy vọng rằng Suzie sẽ chuyển số tiền này cho Bob, Suzie có thể giữ số tiền cho mình và không chuyển gì cho Bob.
 
-![LNP201](assets/en/47.webp)
+![LNP201](assets/en/047.webp)
 Để tránh tình huống này, trên Lightning, chúng ta sử dụng HTLCs (Hợp Đồng Thời Gian Khóa Băm), làm cho việc thanh toán cho nút trung gian có điều kiện, nghĩa là Suzie phải đáp ứng một số điều kiện nhất định để truy cập vào tiền của Alice và chuyển chúng cho Bob.
 
 ### Cách HTLCs Hoạt Động
@@ -599,7 +599,7 @@ HTLC là một hợp đồng đặc biệt dựa trên hai nguyên tắc:
 
 Dưới đây là cách quy trình này hoạt động trong ví dụ của chúng ta với Alice, Suzie, và Bob:
 
-![LNP201](assets/en/48.webp)
+![LNP201](assets/en/048.webp)
 **Tạo bí mật**: Bob tạo một bí mật ngẫu nhiên được ký hiệu là _s_ (hình ảnh trước), và tính toán băm của nó được ký hiệu là _r_ với hàm băm được ký hiệu là _h_. Chúng ta có:
 
 $$
@@ -608,11 +608,11 @@ $$
 
 Sử dụng hàm băm làm cho việc tìm _s_ chỉ với _h(s)_ trở nên không thể, nhưng nếu _s_ được cung cấp, việc xác minh nó tương ứng với _h(s)_ trở nên dễ dàng.
 
-![LNP201](assets/en/49.webp)
+![LNP201](assets/en/049.webp)
 
 **Gửi yêu cầu thanh toán**: Bob gửi một **hóa đơn** cho Alice yêu cầu một khoản thanh toán. Hóa đơn này đặc biệt bao gồm băm _r_.
 
-![LNP201](assets/en/50.webp)
+![LNP201](assets/en/050.webp)
 
 **Gửi thanh toán có điều kiện**: Alice gửi một HTLC của 40,000 satoshis cho Suzie. Điều kiện để Suzie nhận được số tiền này là cô ấy cung cấp cho Alice một bí mật _s'_ thỏa mãn phương trình sau:
 
@@ -620,7 +620,7 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/51.webp)
+![LNP201](assets/en/051.webp)
 
 **Chuyển HTLC cho người nhận cuối cùng**: Suzie, để nhận được 40,000 satoshis từ Alice, phải chuyển một HTLC tương tự của 40,000 satoshis cho Bob, người có điều kiện tương tự, tức là anh ta phải cung cấp cho Suzie một bí mật _s'_ thỏa mãn phương trình:
 
@@ -628,41 +628,41 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/52.webp)
+![LNP201](assets/en/052.webp)
 
 **Xác nhận bằng bí mật _s_**: Bob cung cấp _s_ cho Suzie để nhận được 40,000 satoshis hứa hẹn trong HTLC. Với bí mật này, Suzie có thể mở khóa HTLC của Alice và nhận được 40,000 satoshis từ Alice. Khoản thanh toán sau đó được chuyển đúng cho Bob.
 
-![LNP201](assets/en/53.webp)
+![LNP201](assets/en/053.webp)
 Quy trình này ngăn Suzie giữ tiền của Alice mà không hoàn thành việc chuyển tiền cho Bob, vì cô ấy phải gửi thanh toán cho Bob để nhận được bí mật _s_ và do đó mở khóa HTLC của Alice. Hoạt động vẫn giữ nguyên ngay cả khi tuyến đường bao gồm nhiều nút trung gian: chỉ là việc lặp lại các bước của Suzie cho mỗi nút trung gian. Mỗi nút được bảo vệ bởi điều kiện của các HTLC, vì việc mở khóa HTLC cuối cùng bởi người nhận tự động kích hoạt việc mở khóa tất cả các HTLC khác theo cách thác nước.
 
 ### Hết hạn và quản lý HTLC trong trường hợp có vấn đề
 
 Nếu trong quá trình thanh toán, một trong các nút trung gian, hoặc nút nhận, ngừng phản hồi, đặc biệt trong trường hợp mất internet hoặc mất điện, thì việc thanh toán không thể hoàn thành, bởi vì bí mật cần thiết để mở khóa các HTLC không được truyền đi. Lấy ví dụ của chúng ta với Alice, Suzie, và Bob, vấn đề này xảy ra, ví dụ, nếu Bob không truyền bí mật _s_ cho Suzie. Trong trường hợp này, tất cả các HTLC trên dòng đường bị chặn, và số tiền họ bảo đảm cũng vậy.
 
-![LNP201](assets/en/54.webp)
+![LNP201](assets/en/054.webp)
 
 Để tránh điều này, HTLC trên Lightning có một thời hạn hết hạn cho phép loại bỏ HTLC nếu nó không được hoàn thành sau một thời gian nhất định. Thời hạn hết hạn tuân theo một trật tự cụ thể vì nó bắt đầu trước tiên với HTLC gần nhất với người nhận, và sau đó dần dần di chuyển lên đến người phát hành giao dịch. Trong ví dụ của chúng ta, nếu Bob không bao giờ cung cấp bí mật _s_ cho Suzie, điều này sẽ đầu tiên khiến HTLC của Suzie về phía Bob hết hạn.
 
-![LNP201](assets/en/55.webp)
+![LNP201](assets/en/055.webp)
 
 Sau đó là HTLC từ Alice đến Suzie.
 
-![LNP201](assets/en/56.webp)
+![LNP201](assets/en/056.webp)
 
 Nếu thứ tự hết hạn của HTLC được đảo ngược, Alice có thể thu hồi thanh toán của mình trước khi Suzie có thể bảo vệ mình khỏi khả năng bị lừa. Thực sự, nếu Bob quay lại để yêu cầu HTLC của mình trong khi Alice đã loại bỏ HTLC của mình, Suzie sẽ ở vào thế bất lợi. Do đó, thứ tự hết hạn của HTLC theo cấp độ này đảm bảo rằng không có nút trung gian nào phải chịu tổn thất không công bằng.
 
 ### Biểu diễn của HTLCs trong các giao dịch cam kết
 
 Các giao dịch cam kết biểu diễn HTLCs theo cách mà các điều kiện họ áp đặt lên Lightning có thể được chuyển sang Bitcoin trong trường hợp đóng kênh ép buộc trong thời gian sống của một HTLC. Như một lời nhắc nhở, các giao dịch cam kết đại diện cho trạng thái hiện tại của kênh giữa hai người dùng và cho phép đóng kênh một cách ép buộc trong trường hợp có vấn đề. Với mỗi trạng thái mới của kênh, 2 giao dịch cam kết được tạo ra: một cho mỗi bên. Hãy xem xét lại ví dụ của chúng tôi với Alice, Suzie và Bob, nhưng nhìn kỹ hơn vào những gì xảy ra ở cấp độ kênh giữa Alice và Suzie khi HTLC được tạo.
-![LNP201](assets/en/57.webp)
+![LNP201](assets/en/057.webp)
 
 Trước khi bắt đầu thanh toán 40,000 sats giữa Alice và Bob, Alice có 100,000 sats trong kênh của mình với Suzie, trong khi Suzie giữ 30,000. Các giao dịch cam kết của họ như sau:
 
-![LNP201](assets/en/58.webp)
+![LNP201](assets/en/058.webp)
 
 Alice vừa nhận được hóa đơn của Bob, đáng chú ý chứa _r_, băm của bí mật. Do đó, cô ấy có thể tạo một HTLC 40,000 satoshis với Suzie. HTLC này được biểu diễn trong các giao dịch cam kết mới nhất như một đầu ra được gọi là "**_HTLC Out_**" ở phía Alice, vì các quỹ đang đi ra, và "**_HTLC In_**" ở phía Suzie, vì các quỹ đang đi vào.
 
-![LNP201](assets/en/59.webp)
+![LNP201](assets/en/059.webp)
 
 Các đầu ra liên quan đến HTLC chia sẻ chính xác cùng một điều kiện, cụ thể là:
 
@@ -673,7 +673,7 @@ Những điều kiện này chỉ áp dụng nếu kênh được đóng (tức 
 
 Hơn nữa, nếu kênh được đóng trong khi nhiều HTLCs đang chờ xử lý, sẽ có nhiều đầu ra bổ sung tương ứng với số lượng HTLCs đang diễn ra.
 Nếu kênh không được đóng, sau khi thanh toán Lightning hết hạn hoặc thành công, các giao dịch cam kết mới được tạo ra để phản ánh trạng thái mới, ổn định của kênh, tức là không có HTLCs nào đang chờ xử lý. Các đầu ra liên quan đến HTLCs do đó có thể được loại bỏ khỏi các giao dịch cam kết.
-![LNP201](assets/en/60.webp)
+![LNP201](assets/en/060.webp)
 
 Cuối cùng, trong trường hợp đóng kênh hợp tác khi một HTLC đang hoạt động, Alice và Suzie ngừng chấp nhận thanh toán mới và chờ đợi sự giải quyết hoặc hết hạn của các HTLC đang diễn ra. Điều này cho phép họ công bố một giao dịch đóng kênh nhẹ nhàng hơn, không bao gồm các đầu ra liên quan đến HTLCs, từ đó giảm phí và tránh việc chờ đợi một khóa thời gian có thể xảy ra.
 
@@ -699,9 +699,9 @@ Trong các chương trước, chúng ta đã thấy cách sử dụng các kênh
 
 Như chúng ta đã thấy, trong Lightning, đó là nút gửi thanh toán phải tính toán toàn bộ tuyến đường đến người nhận, bởi vì chúng ta sử dụng một hệ thống định tuyến kiểu hành tây. Các nút trung gian không biết điểm xuất phát hoặc điểm đến cuối cùng. Họ chỉ biết nơi thanh toán đến từ đâu và nút nào họ phải chuyển tiếp tiếp theo. Điều này có nghĩa là nút gửi phải duy trì một cấu trúc mạng lưới địa phương động, với các nút Lightning hiện có và các kênh giữa chúng, tính đến việc mở, đóng và cập nhật trạng thái.
 
-![LNP201](assets/en/61.webp)
+![LNP201](assets/en/061.webp)
 Ngay cả với cấu trúc mạng Lightning này, có thông tin thiết yếu cho việc định tuyến vẫn không thể truy cập được bởi nút gửi, đó là phân phối chính xác của thanh khoản trong các kênh tại bất kỳ thời điểm nào. Thực tế, mỗi kênh chỉ hiển thị **tổng công suất** của nó, nhưng phân phối nội bộ của quỹ chỉ được biết đến bởi hai nút tham gia. Điều này đặt ra thách thức cho việc định tuyến hiệu quả, vì sự thành công của khoản thanh toán phụ thuộc đáng kể vào việc số tiền của nó ít hơn thanh khoản thấp nhất trên tuyến đường được chọn. Tuy nhiên, các thanh khoản không phải tất cả đều hiển thị cho nút gửi.
-![LNP201](assets/en/62.webp)
+![LNP201](assets/en/062.webp)
 
 ### Cập Nhật Bản Đồ Mạng
 
@@ -717,7 +717,7 @@ Ngay cả với cấu trúc mạng Lightning này, có thông tin thiết yếu 
 
 Hãy lấy ví dụ về một mạng Lightning nhỏ với 7 nút: Alice, Bob, 1, 2, 3, 4, và 5. Hãy tưởng tượng rằng Alice muốn gửi một khoản thanh toán cho Bob nhưng phải thông qua các nút trung gian.
 
-![LNP201](assets/en/63.webp)
+![LNP201](assets/en/063.webp)
 
 Dưới đây là phân phối thực tế của quỹ trong các kênh này:
 
@@ -730,11 +730,11 @@ Dưới đây là phân phối thực tế của quỹ trong các kênh này:
 - **Kênh giữa 3 và Bob**: 50,000 sats ở phía 3, 250,000 ở phía Bob (tổng dung lượng là 300,000 sats).
 - **Kênh giữa 5 và Bob**: 260,000 sats ở phía 5, 100,000 ở phía Bob (tổng dung lượng là 360,000 sats).
 
-![LNP201](assets/en/64.webp)
+![LNP201](assets/en/064.webp)
 
 Để thực hiện một khoản thanh toán 100,000 sats từ Alice đến Bob, các lựa chọn định tuyến bị giới hạn bởi thanh khoản có sẵn trong mỗi kênh. Lộ trình tối ưu cho Alice, dựa trên phân phối thanh khoản đã biết, có thể là chuỗi `Alice → 1 → 2 → 4 → 5 → Bob`:
 
-![LNP201](assets/en/65.webp)
+![LNP201](assets/en/065.webp)
 
 Nhưng vì Alice không biết chính xác phân phối quỹ trong mỗi kênh, cô ấy phải ước lượng lộ trình tối ưu một cách có xác suất, lưu ý đến các tiêu chí sau:
 
@@ -752,11 +752,11 @@ Nhưng vì Alice không biết chính xác phân phối quỹ trong mỗi kênh,
 
 Alice quyết định thử tuyến đường đầu tiên của mình (`Alice → 1 → 2 → 5 → Bob`). Do đó, cô ấy gửi một HTLC 100,000 sats đến nút 1. Nút này kiểm tra xem nó có đủ thanh khoản với nút 2 không, và tiếp tục truyền dẫn. Nút 2 sau đó nhận HTLC từ nút 1, nhưng nhận ra rằng nó không có đủ thanh khoản trong kênh của mình với nút 5 để chuyển một khoản thanh toán 100,000 sats. Nó sau đó gửi một thông điệp lỗi trở lại cho nút 1, người truyền nó cho Alice. Tuyến đường này đã thất bại.
 
-![LNP201](assets/en/66.webp)
+![LNP201](assets/en/066.webp)
 
 Sau đó, Alice cố gắng chuyển khoản thanh toán của mình sử dụng tuyến đường thứ hai của mình (`Alice → 1 → 2 → 4 → 5 → Bob`). Cô ấy gửi một HTLC 100,000 sats đến nút 1, người truyền nó đến nút 2, sau đó đến nút 4, đến nút 5, và cuối cùng đến Bob. Lần này, thanh khoản đủ, và tuyến đường hoạt động. Mỗi nút mở khóa HTLC của mình theo cách xếp tầng sử dụng preimage được Bob cung cấp (bí mật _s_), điều này cho phép thanh toán của Alice cho Bob được hoàn thành thành công.
 
-![LNP201](assets/en/67.webp)
+![LNP201](assets/en/067.webp)
 
 Việc tìm kiếm một tuyến đường được thực hiện như sau: nút gửi bắt đầu bằng cách xác định các tuyến đường tốt nhất có thể, sau đó thử thanh toán lần lượt cho đến khi tìm được một tuyến đường hoạt động.
 
@@ -779,7 +779,7 @@ Trong chương tiếp theo, chúng ta sẽ cụ thể nghiên cứu về cách h
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 Trong chương này, chúng ta sẽ xem xét kỹ lưỡng hơn về cách thức hoạt động của **hóa đơn** Lightning, tức là yêu cầu thanh toán được gửi bởi nút nhận đến nút gửi. Mục tiêu là hiểu cách thức thanh toán và nhận thanh toán trên Lightning. Chúng ta cũng sẽ thảo luận về 2 phương án thay thế cho hóa đơn truyền thống: LNURL và Keysend.
-![LNP201](assets/en/68.webp)
+![LNP201](assets/en/068.webp)
 
 ### Cấu Trúc của Hóa Đơn Lightning
 
@@ -861,7 +861,7 @@ Các hóa đơn sau đó được mã hóa trong **bech32**, cùng một định
 Trong một giao dịch truyền thống, như mua hàng tại cửa hàng, hóa đơn được tạo ra cho tổng số tiền cần thanh toán. Khi hóa đơn được trình bày (dưới dạng mã QR hoặc chuỗi ký tự), khách hàng có thể quét nó và hoàn tất giao dịch. Sau đó, việc thanh toán tuân theo quy trình truyền thống mà chúng ta đã nghiên cứu trong phần trước. Tuy nhiên, quy trình này đôi khi có thể rất phức tạp đối với trải nghiệm người dùng, vì nó yêu cầu người nhận gửi thông tin cho người gửi qua hóa đơn.
 Đối với một số tình huống, như rút bitcoin từ một dịch vụ trực tuyến, quy trình truyền thống quá phức tạp. Trong những trường hợp như vậy, giải pháp rút tiền **LNURL** đơn giản hóa quy trình này bằng cách hiển thị mã QR mà ví của người nhận quét để tự động tạo hóa đơn. Sau đó, dịch vụ thanh toán hóa đơn, và người dùng chỉ thấy một giao dịch rút tiền tức thì.
 
-![LNP201](assets/en/69.webp)
+![LNP201](assets/en/069.webp)
 
 LNURL là một giao thức truyền thông quy định một tập hợp các chức năng được thiết kế để đơn giản hóa các tương tác giữa các nút Lightning và khách hàng, cũng như các ứng dụng bên thứ ba. Việc rút tiền LNURL, như chúng ta vừa thấy, chỉ là một ví dụ trong số các chức năng khác.
 Giao thức này dựa trên HTTP và cho phép tạo liên kết cho các hoạt động khác nhau, như yêu cầu thanh toán, yêu cầu rút tiền, hoặc các chức năng khác nhằm nâng cao trải nghiệm người dùng. Mỗi LNURL là một URL được mã hóa bech32 với tiền tố lnurl, khi được quét, kích hoạt một loạt các hành động tự động trên ví Lightning.
@@ -873,7 +873,7 @@ Một trường hợp thú vị khác là chuyển tiền mà không cần nhậ
 
 Để đơn giản hóa, trong giao thức này, chính người gửi tạo ra bí mật được sử dụng trong các HTLCs, thay vì người nhận. Thực tế, điều này cho phép người gửi thực hiện một khoản thanh toán mà không cần phải tương tác với người nhận trước đó.
 
-![LNP201](assets/en/70.webp)
+![LNP201](assets/en/070.webp)
 
 **Những điều bạn nên rút ra từ chương này?**
 
@@ -903,7 +903,7 @@ Rõ ràng, những hồ sơ này không cố định; một người dùng có t
 
 Để hiểu rõ hơn, hãy lấy ví dụ về một mạng lưới đơn giản gồm ba nút: người mua (Alice), người điều hướng (Suzie), và người bán (Bob).
 
-![LNP201](assets/en/71.webp)
+![LNP201](assets/en/071.webp)
 
 Hãy tưởng tượng rằng người mua muốn gửi 30,000 sats cho người bán và thanh toán được thực hiện qua nút của người điều hướng. Mỗi bên sau đó phải có một lượng thanh khoản tối thiểu theo hướng của thanh toán:
 
@@ -911,7 +911,7 @@ Hãy tưởng tượng rằng người mua muốn gửi 30,000 sats cho người
 - Người bán phải có một kênh nơi 30,000 satoshi ở phía đối diện để có thể nhận chúng.
 - Người điều hướng phải có 30,000 satoshi ở phía người thanh toán trong kênh của họ, và cũng 30,000 satoshi ở phía của họ trong kênh với người bán, để có thể điều hướng thanh toán.
 
-![LNP201](assets/en/72.webp)
+![LNP201](assets/en/072.webp)
 
 ### Chiến lược Quản lý Thanh khoản
 
@@ -922,11 +922,11 @@ Ngược lại, đối với người bán, nhiệm vụ này phức tạp hơn.
 - **Di chuyển thanh khoản**: Người bán cũng có thể mở một kênh và chuyển một số tiền về phía đối diện bằng cách thực hiện các khoản thanh toán giả mạo cho một nút khác, nút này sau đó sẽ trả lại tiền theo một cách khác. Chúng ta sẽ xem trong phần tiếp theo cách thực hiện thao tác này.
 - **Mở kênh tam giác**: Các nền tảng tồn tại cho các nút muốn mở kênh một cách cộng tác, cho phép mỗi người hưởng lợi từ thanh khoản đến và đi ngay lập tức. Ví dụ, [LightningNetwork+](https://lightningnetwork.plus/) cung cấp dịch vụ này. Nếu Alice, Bob và Suzie muốn mở một kênh với 100,000 sats, họ có thể thỏa thuận trên nền tảng này để Alice mở một kênh về phía Bob, Bob về phía Suzie, và Suzie về phía Alice. Theo cách này, mỗi người có 100,000 sats của thanh khoản đi và 100,000 sats của thanh khoản đến, trong khi chỉ phong tỏa 100,000 sats.
 
-![LNP201](assets/en/73.webp)
+![LNP201](assets/en/073.webp)
 
 - **Mua kênh**: Dịch vụ cho thuê kênh Lightning cũng tồn tại để có được thanh khoản đến, như [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) hoặc [Lightning Labs Pool](https://lightning.engineering/pool/). Ví dụ, Alice có thể mua một kênh một triệu satoshis về phía nút của mình để có thể nhận thanh toán.
 
-![LNP201](assets/en/74.webp)
+![LNP201](assets/en/074.webp)
 
 Cuối cùng, đối với các bộ định tuyến, mục tiêu là tối đa hóa số lượng thanh toán được xử lý và phí thu được, họ phải:
 
@@ -937,7 +937,7 @@ Cuối cùng, đối với các bộ định tuyến, mục tiêu là tối đa 
 
 Dịch vụ [Loop Out](https://lightning.engineering/loop/), được cung cấp bởi Lightning Labs, cho phép di chuyển thanh khoản sang phía đối diện của kênh trong khi thu hồi quỹ trên blockchain Bitcoin. Ví dụ, Alice gửi 1 triệu satoshis qua Lightning đến một nút loop, sau đó nút này trả lại số tiền đó cho cô ấy bằng bitcoin trên chuỗi. Điều này cân bằng kênh của cô ấy với 1 triệu satoshis ở mỗi bên, tối ưu hóa khả năng nhận thanh toán của cô ấy.
 
-![LNP201](assets/en/75.webp)
+![LNP201](assets/en/075.webp)
 
 Do đó, dịch vụ này cho phép tăng thanh khoản đến trong khi thu hồi bitcoin của mình trên chuỗi, giúp giới hạn việc giam cầm tiền mặt cần thiết để chấp nhận thanh toán bằng Lightning.
 
@@ -968,12 +968,12 @@ Trong các chương đầu, chúng ta đã khám phá cách hai bên, bằng cá
 
 - **Mở Kênh**: Việc tạo kênh được thực hiện thông qua một giao dịch Bitcoin khóa số tiền trong một địa chỉ chữ ký đa 2/2. Khoản tiền gửi này đại diện cho kênh Lightning trên blockchain.
 
-![LNP201](assets/en/76.webp) 2. **Giao Dịch Trong Kênh**: Trong kênh này, sau đó có thể thực hiện nhiều giao dịch mà không cần phải công bố chúng trên blockchain. Mỗi giao dịch Lightning tạo ra một trạng thái mới của kênh được phản ánh trong một giao dịch cam kết.
-![LNP201](assets/en/77.webp)
+![LNP201](assets/en/076.webp) 2. **Giao Dịch Trong Kênh**: Trong kênh này, sau đó có thể thực hiện nhiều giao dịch mà không cần phải công bố chúng trên blockchain. Mỗi giao dịch Lightning tạo ra một trạng thái mới của kênh được phản ánh trong một giao dịch cam kết.
+![LNP201](assets/en/077.webp)
 
 - **Bảo Đảm và Đóng Kênh**: Các bên tham gia cam kết với trạng thái mới của kênh bằng cách trao đổi khóa thu hồi để bảo vệ số tiền và ngăn chặn gian lận. Cả hai bên có thể đóng kênh một cách hợp tác bằng cách thực hiện một giao dịch mới trên blockchain Bitcoin, hoặc như một biện pháp cuối cùng thông qua một việc đóng ép buộc. Phương án này, mặc dù kém hiệu quả hơn vì mất nhiều thời gian hơn và đôi khi được đánh giá thấp về phí, vẫn cho phép khôi phục lại số tiền. Trong trường hợp gian lận, nạn nhân có thể trừng phạt kẻ gian lận bằng cách thu hồi tất cả số tiền từ kênh trên blockchain.
 
-![LNP201](assets/en/78.webp)
+![LNP201](assets/en/078.webp)
 
 ### Mạng Lưới Các Kênh
 
@@ -981,15 +981,15 @@ Sau khi nghiên cứu về các kênh độc lập, chúng ta đã mở rộng p
 
 - **Định Tuyến**: Khi hai bên không được kết nối trực tiếp bởi một kênh, mạng lưới cho phép định tuyến qua các nút trung gian. Các khoản thanh toán sau đó chuyển từ một nút này sang nút khác.
 
-![LNP201](assets/en/79.webp)
+![LNP201](assets/en/079.webp)
 
 - **HTLCs**: Các khoản thanh toán chuyển qua các nút trung gian được bảo đảm bởi "_Hợp Đồng Khóa Thời Gian Băm_" (HTLC), cho phép khóa số tiền cho đến khi thanh toán được hoàn thành từ đầu đến cuối.
 
-![LNP201](assets/en/80.webp)
+![LNP201](assets/en/080.webp)
 
 - **Định Tuyến Hành Tinh**: Để đảm bảo tính bảo mật của khoản thanh toán, định tuyến hành tinh che giấu điểm đến cuối cùng khỏi các nút trung gian. Nút gửi do đó phải tính toán toàn bộ lộ trình, nhưng do thiếu thông tin hoàn chỉnh về tính thanh khoản của các kênh, nó tiến hành thông qua các lần thử liên tiếp để định tuyến khoản thanh toán.
 
-![LNP201](assets/en/81.webp)
+![LNP201](assets/en/081.webp)
 
 ### Quản Lý Tính Thanh Khoản
 
@@ -999,13 +999,13 @@ Chúng ta đã thấy rằng quản lý tính thanh khoản là một thách th�
 
 - **Di Chuyển Tính Thanh Khoản**: Bằng cách gửi thanh toán đến các kênh khác, tính thanh khoản di chuyển sang phía đối diện.
 
-![LNP201](assets/en/82.webp)
+![LNP201](assets/en/082.webp)
 
 - **Sử Dụng Các Dịch Vụ như Loop và Pool**: Những dịch vụ này cho phép cân bằng lại hoặc mua các kênh với tính thanh khoản ở phía đối diện.
-  ![LNP201](assets/en/83.webp)
+  ![LNP201](assets/en/083.webp)
 - **Mở Kênh Hợp Tác**: Cũng có các nền tảng có sẵn để kết nối thực hiện các mở kênh tam giác và có tính thanh khoản đến.
 
-![LNP201](assets/en/84.webp)
+![LNP201](assets/en/084.webp)
 
 # Phần cuối
 

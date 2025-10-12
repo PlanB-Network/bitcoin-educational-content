@@ -8,35 +8,12 @@ objectives:
 - Topluluğunuzla birlikte projeler ve girişimler başlatın
 - Bir topluluğun gelecekteki gelişimini öngörmenin önemini anlamak
 ---
+# Bitcoin benimsenmesine doğru ilk adım
 
-# Bitcoin'ün benimsenmesine yönelik ilk adım
+Bugün herkes Bitcoin hakkında çevrimiçi olarak bilgi edinebilir, ancak sıklıkla eksik olan şey buluşma, fikir alışverişi yapma ve birlikte inşa etme fırsatıdır. Bu boşluğu doldurmak için birçok bitcoinci, buluşmaların atölye çalışmaları, sunumlar ve anlamlı tartışmaları ateşlediği yerel topluluklar oluşturur.
 
-
-
-Günümüzde, herkesin Bitcoin ve ekosistemi hakkında bilgi edinmesini sağlayan çok sayıda eğitim içeriği çevrimiçi olarak mevcuttur.
-
-
-Ancak, **bir şey genellikle eksiktir: tanışma, Exchange fikirleri, bilgi paylaşımı** ve hepsinden önemlisi **birlikte inşa etme** fırsatı.
-
-
-
-Bu artan ihtiyacı karşılamak için birçok bitcoin kullanıcısı düzenli olarak **yerel topluluklar oluşturmayı** tercih ediyor.
-
-Yeterli sayıda katılımcı olduğunda, buluşmalar düzenlenir ve bu yinelenen toplantılar genellikle teknik sunumlar, uygulamalı atölye çalışmaları ve daha geniş tartışmalar için verimli bir zemin haline gelir.
-
-
-Bu "**BTC302**" kursunda, **neden bir Bitcoin topluluğu ve/veya buluşması oluşturmanın önemli olduğunu** keşfedecek, ardından topluluğunuzun görsel ve dijital kimliğini geliştirmek için **araç ve yöntemlere** dalacağız.
-
-
-Ayrıca, önceden tasarlanmış çeşitli açık kaynak kaynaklarla desteklenen, özellikle eğitim amaçlı olanlar olmak üzere, başlatılması kolay **projeler ve girişimler** sunacağız.
-
-
-Son olarak, **Bitcoin topluluklarının ulusal düzeyde evrimini** ve **yarının hiperbitcoinleşmiş dünyasını hızlandırma potansiyellerini** tartışacağız.
-
-
-
+BTC304'te, topluluk oluşturmanın neden önemli olduğuna bakacağız, güçlü bir görsel ve dijital kimlik oluşturmak için araçları keşfedeceğiz ve başlatabileceğiniz basit, açık kaynaklı projeleri paylaşacağız. Ayrıca yerel girişimlerin, hiperbitcoinleşmiş bir geleceği yönlendirmeye yardımcı olabilecek ulusal topluluklara nasıl dönüştüğünü de ele alacağız.
 +++
-
 # Giriş
 
 

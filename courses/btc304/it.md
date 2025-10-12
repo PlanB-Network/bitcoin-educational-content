@@ -8,35 +8,12 @@ objectives:
 - Lanciare progetti e iniziative con la vostra comunità
 - Comprendere l'importanza di anticipare l'evoluzione futura di una comunità
 ---
+# Il primo passo verso l'adozione di Bitcoin
 
-# Il primo passo verso l'adozione del Bitcoin
+Oggi, chiunque può imparare su Bitcoin online, ma ciò che spesso manca è l'opportunità di incontrarsi, scambiare idee e costruire insieme. Per colmare questa lacuna, molti bitcoiner formano comunità locali, dove gli incontri danno vita a workshop, presentazioni e discussioni significative.
 
-
-
-Al giorno d'oggi, sono disponibili online numerosi contenuti educativi che permettono a chiunque di conoscere il Bitcoin e il suo ecosistema.
-
-
-Tuttavia, spesso manca una cosa: l'opportunità di incontrarsi, di condividere idee e conoscenze** e, soprattutto, di costruire insieme**.
-
-
-
-Per soddisfare questa crescente esigenza, molti bitcoiners scelgono regolarmente di **creare comunità locali**.
-
-Una volta raggiunto un numero sufficiente di partecipanti, vengono organizzati dei meet-up, che spesso diventano terreno fertile per presentazioni tecniche, workshop pratici e discussioni più ampie.
-
-
-In questo corso "**BTC302**", esploreremo **perché la creazione di una comunità Bitcoin e/o di un meet-up è importante**, quindi ci immergeremo in **strumenti e metodi per sviluppare l'identità visiva e digitale della vostra comunità**.
-
-
-Presenteremo anche **progetti e iniziative** facili da avviare, soprattutto di tipo educativo, supportati da diverse risorse open-source pre-progettate.
-
-
-Infine, discuteremo **l'evoluzione delle comunità Bitcoin a livello nazionale** e **il loro potenziale per accelerare il mondo iperbitcoinizzato di domani**.
-
-
-
+In BTC304, esamineremo perché la costruzione della comunità è importante, esploreremo gli strumenti per creare una forte identità visiva e digitale e condivideremo progetti semplici e open-source che puoi lanciare. Considereremo anche come le iniziative locali si evolvono in comunità nazionali che possono contribuire a guidare un futuro iperbitcoinizzato.
 +++
-
 # Introduzione
 
 

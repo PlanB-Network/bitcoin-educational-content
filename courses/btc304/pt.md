@@ -8,35 +8,12 @@ objectives:
 - Lançar projectos e iniciativas com a sua comunidade
 - Compreender a importância de antecipar a evolução futura de uma comunidade
 ---
+# O primeiro passo rumo à adoção do Bitcoin
 
-# O primeiro passo para a adoção do Bitcoin
+Hoje, qualquer pessoa pode aprender sobre Bitcoin online, mas o que frequentemente falta é a oportunidade de se encontrar, trocar ideias e construir juntos. Para preencher essa lacuna, muitos bitcoiners formam comunidades locais, onde encontros geram workshops, apresentações e discussões significativas.
 
-
-
-Atualmente, está disponível em linha uma grande quantidade de conteúdos educativos que permitem a qualquer pessoa aprender sobre o Bitcoin e o seu ecossistema.
-
-
-No entanto, **faltou muitas vezes uma coisa: a oportunidade de nos encontrarmos, de Exchange ideias, de partilharmos conhecimentos** e, acima de tudo, de **construirmos juntos**.
-
-
-
-Para responder a esta necessidade crescente, muitos utilizadores de bitcoin optam regularmente por **criar comunidades locais**.
-
-Quando há um número suficiente de participantes, são organizados encontros e estas reuniões recorrentes tornam-se frequentemente um terreno fértil para apresentações técnicas, workshops práticos e debates mais alargados.
-
-
-Neste curso "**BTC302**", vamos explorar **por que razão é importante criar uma comunidade e/ou encontro Bitcoin** e, em seguida, mergulhar em **ferramentas e métodos para desenvolver a identidade visual e digital da sua comunidade**.
-
-
-Apresentaremos também **projectos e iniciativas** fáceis de lançar, especialmente os educativos, apoiados por vários recursos pré-concebidos e de código aberto.
-
-
-Finalmente, discutiremos **a evolução das comunidades Bitcoin a nível nacional** e **o seu potencial para acelerar o mundo hiperbitcoinizado de amanhã**.
-
-
-
+No BTC304, veremos por que a construção de comunidades é importante, exploraremos ferramentas para criar uma identidade visual e digital forte, e compartilharemos projetos simples de código aberto que você pode lançar. Também consideraremos como iniciativas locais escalam para comunidades nacionais que podem ajudar a impulsionar um futuro hiperbitcoinizado.
 +++
-
 # Introdução
 
 

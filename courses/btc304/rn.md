@@ -8,35 +8,12 @@ objectives:
 - Gutanguza imigambi n'imigambi n'abanyagihugu
 - Gutahura akamaro ko kwitega imbere y'igihe iterambere ry'umuryango
 ---
+# Intambwe ya mbere yo kwakira Bitcoin
 
-# Intambwe ya mbere yo kwemera Bitcoin
+Uyu munsi, umuntu wese arashobora kwiga kuri Bitcoin kuri interineti ariko ico gikunze kubura ni amahirwe yo guhura, guhanahana ibitekerezo, no kubaka hamwe. Kugira ngo tuzuze ico gikorwa, abenshi mu babitcoineri barema imibereho y'ahantu, aho amahuriro ateza inama, ibiganiro n'impaka z'ingenzi.
 
-
-
-Muri iki gihe, ubutunzi bw’inyigisho buraboneka kuri Internet, bituma umuntu wese ashobora kumenya ivyerekeye Bitcoin n’ibidukikije vyayo.
-
-
-Ariko rero, **ikintu kimwe kirabura kenshi: akaryo ko guhura, ivyiyumviro vya Exchange, gusangira ubumenyi** kandi ikiruta vyose, **kwubaka hamwe**.
-
-
-
-Kugira ngo ivyo bikenewe bishobore gukura, benshi mu bakoresha ama bitcoin bakunda guhitamwo **gushinga imiryango yo mu karere**.
-
-Iyo abantu bamaze gushika bihagije, baratunganya amakoraniro, kandi ayo makoraniro asubiramwo akenshi aca aba ahantu heza ho gutanga inyigisho z’ubuhinga, amahugurwa y’ibikorwa vy’amaboko be n’ibiganiro vyagutse.
-
-
-Muri iri shure "**BTC302**", tuzokwihweza **igituma gushinga umuryango wa Bitcoin n'/canke guhura bihambaye**, hanyuma twinjire mu **ibikoresho n'uburyo bwo guteza imbere akaranga k'umuryango wawe k'amaso n'akaranga k'ubuhinga bwa none**.
-
-
-Tuzoshikiriza kandi **imigambi n’imigambi** yoroshe gutanguza, cane cane iyo kwigisha, ishigikiwe n’ibikoresho vyinshi vyateguwe imbere y’igihe, bifunguye.
-
-
-Ubwa nyuma, tuzoganira ku **iterambere ry'imiryango ya Bitcoin ku rwego rw'igihugu**, n'**ubushobozi bwayo bwo kwihutisha isi y'ejo izoba ifise amahera menshi cane**.
-
-
-
+Muri BTC304, tuzareba impamvu kubaka umuryango ari ingenzi, tukore ubushakashatsi ku bikoresho byo gukora umwirondoro ukomeye w'amashusho na digitale, kandi tugasangire imishinga yoroshye ya open-source ushobora gutangiza. Tuzatekereza kandi uburyo imishinga y'ahantu yaguka mu miryango y'igihugu ishobora gufasha gutera imbere ejo hazaza hya hyperbitcoinized.
 +++
-
 # Imenyekanisha
 
 

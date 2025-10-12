@@ -8,35 +8,12 @@ objectives:
 - Pokrenite projekte i inicijative sa svojom zajednicom
 - Razumeti važnost predviđanja buduće evolucije zajednice
 ---
+# Prvi korak ka usvajanju Bitcoina
 
-# Prvi korak ka usvajanju Bitcoin
+Danas svako može da uči o Bitcoinu na internetu, ali ono što često nedostaje je prilika da se sretnemo, razmenimo ideje i gradimo zajedno. Da bi popunili ovaj prazninu, mnogi bitcoineri formiraju lokalne zajednice, gde sastanci pokreću radionice, prezentacije i smislene diskusije.
 
-
-
-Danas je bogatstvo obrazovnog sadržaja dostupno na mreži, omogućavajući svakome da nauči o Bitcoin i njegovom ekosistemu.
-
-
-Međutim, **često nedostaje jedna stvar: prilika da se sretnemo, Exchange ideje, delimo znanje** i iznad svega, **da gradimo zajedno**.
-
-
-
-Da bi se zadovoljila ova rastuća potreba, mnogi bitkoineri redovno biraju da **kreiraju lokalne zajednice**.
-
-Jednom kada ima dovoljno učesnika, organizuju se okupljanja, a ta redovna okupljanja često postaju plodno tlo za tehničke prezentacije, praktične radionice i šire diskusije.
-
-
-U ovom kursu "**BTC302**", istražićemo **zašto je važno kreirati Bitcoin zajednicu i/ili okupljanje**, a zatim ćemo se upustiti u **alata i metode za razvoj vizuelnog i digitalnog identiteta vaše zajednice**.
-
-
-Predstavićemo i **projekte i inicijative** koje je lako pokrenuti, posebno one obrazovne, podržane od strane nekoliko unapred dizajniranih, open-source resursa.
-
-
-Na kraju, razgovaraćemo o **evoluciji Bitcoin zajednica na nacionalnom nivou** i **njihovom potencijalu da ubrzaju sutrašnji hiperbitkoinizovani svet**.
-
-
-
+U BTC304, razmotrićemo zašto je izgradnja zajednice važna, istražiti alate za kreiranje snažnog vizuelnog i digitalnog identiteta, i podeliti jednostavne projekte otvorenog koda koje možete pokrenuti. Takođe ćemo razmotriti kako lokalne inicijative prerastaju u nacionalne zajednice koje mogu pomoći u pokretanju hiperbitcoinizovane budućnosti.
 +++
-
 # Uvod
 
 

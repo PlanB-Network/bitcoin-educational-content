@@ -8,35 +8,12 @@ objectives:
 - Zahájení projektů a iniciativ s vaší komunitou
 - Pochopit význam předvídání budoucího vývoje komunity
 ---
+# První krok k adopci Bitcoinu
 
-# První krok k přijetí Bitcoin
+Dnes se může kdokoli dozvědět o Bitcoinu online, ale často chybí příležitost se setkat, vyměnit si nápady a společně budovat. K vyplnění této mezery mnoho bitcoinerů vytváří lokální komunity, kde setkání vedou k workshopům, prezentacím a smysluplným diskusím.
 
-
-
-V současné době je na internetu k dispozici nepřeberné množství vzdělávacího obsahu, který umožňuje každému získat informace o Bitcoin a jeho ekosystému.
-
-
-Často však chybí **jedna věc: možnost setkávat se, Exchange nápady, sdílet znalosti** a především **společně budovat**.
-
-
-
-Pro uspokojení této rostoucí potřeby se mnoho bitcoinerů pravidelně rozhoduje **vytvářet místní komunity**.
-
-Jakmile se sejde dostatečný počet účastníků, pořádají se setkání a tato opakovaná setkání se často stávají živnou půdou pro technické prezentace, praktické workshopy a širší diskuse.
-
-
-V tomto kurzu "**BTC302**" prozkoumáme, **proč je vytvoření komunity Bitcoin a/nebo meet-upu důležité**, a poté se ponoříme do **nástrojů a metod pro rozvoj vizuální a digitální identity vaší komunity**.
-
-
-Představíme také **projekty a iniciativy**, které lze snadno spustit, zejména ty vzdělávací, podpořené několika předem připravenými zdroji s otevřeným zdrojovým kódem.
-
-
-Nakonec probereme **vývoj komunit Bitcoin na národní úrovni** a **jejich potenciál urychlit zítřejší hyperbitcoinizovaný svět**.
-
-
-
+V BTC304 se podíváme na to, proč je budování komunity důležité, prozkoumáme nástroje pro vytvoření silné vizuální a digitální identity a podělíme se o jednoduché open-source projekty, které můžete spustit. Budeme také zvažovat, jak se lokální iniciativy rozšiřují do národních komunit, které mohou pomoci řídit hyperbitcoinizovanou budoucnost.
 +++
-
 # Úvod
 
 

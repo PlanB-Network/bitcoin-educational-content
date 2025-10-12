@@ -8,35 +8,12 @@ objectives:
 - Khởi động các dự án và sáng kiến với cộng đồng của bạn
 - Hiểu được tầm quan trọng của việc dự đoán sự phát triển trong tương lai của một cộng đồng
 ---
+# Bước đầu tiên hướng tới việc chấp nhận Bitcoin
 
-# Bước đầu tiên hướng tới việc áp dụng Bitcoin
+Ngày nay, bất kỳ ai cũng có thể tìm hiểu về Bitcoin trực tuyến nhưng điều thường thiếu là cơ hội để gặp gỡ, trao đổi ý tưởng và cùng nhau xây dựng. Để lấp đầy khoảng trống này, nhiều bitcoiner thành lập các cộng đồng địa phương, nơi các cuộc gặp gỡ khơi dậy các hội thảo, bài thuyết trình và các cuộc thảo luận có ý nghĩa.
 
-
-
-Ngày nay, có rất nhiều nội dung giáo dục trực tuyến, cho phép bất kỳ ai cũng có thể tìm hiểu về Bitcoin và hệ sinh thái của nó.
-
-
-Tuy nhiên, **có một điều thường bị thiếu: cơ hội gặp gỡ, chia sẻ ý tưởng Exchange, chia sẻ kiến thức** và trên hết là **cùng nhau xây dựng**.
-
-
-
-Để đáp ứng nhu cầu ngày càng tăng này, nhiều người dùng bitcoin thường xuyên chọn **tạo cộng đồng địa phương**.
-
-Khi đã có đủ người tham gia, các buổi gặp mặt sẽ được tổ chức và những buổi gặp mặt định kỳ này thường trở thành nơi lý tưởng cho các bài thuyết trình kỹ thuật, hội thảo thực hành và các cuộc thảo luận rộng hơn.
-
-
-Trong khóa học "**BTC302**" này, chúng ta sẽ khám phá **lý do tại sao việc tạo cộng đồng Bitcoin và/hoặc buổi gặp mặt lại quan trọng**, sau đó tìm hiểu sâu hơn về **các công cụ và phương pháp để phát triển bản sắc trực quan và kỹ thuật số của cộng đồng**.
-
-
-Chúng tôi cũng sẽ trình bày các **dự án và sáng kiến** dễ triển khai, đặc biệt là các dự án giáo dục, được hỗ trợ bởi một số tài nguyên mã nguồn mở được thiết kế sẵn.
-
-
-Cuối cùng, chúng ta sẽ thảo luận về **sự phát triển của cộng đồng Bitcoin ở cấp quốc gia** và **tiềm năng của họ trong việc thúc đẩy thế giới siêu bitcoin hóa trong tương lai**.
-
-
-
+Trong BTC304, chúng ta sẽ xem xét tại sao việc xây dựng cộng đồng lại quan trọng, khám phá các công cụ để tạo ra bản sắc thị giác và kỹ thuật số mạnh mẽ, và chia sẻ các dự án nguồn mở đơn giản mà bạn có thể khởi động. Chúng ta cũng sẽ xem xét cách các sáng kiến địa phương mở rộng thành các cộng đồng quốc gia có thể giúp thúc đẩy một tương lai siêu Bitcoin hóa.
 +++
-
 # Giới thiệu
 
 

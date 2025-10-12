@@ -8,25 +8,12 @@ objectives:
 - Starte Projekte und Initiativen mit deiner Gemeinschaft
 - Verstehe, wie wichtig es ist, die künftige Entwicklung einer Gemeinschaft zu antizipieren
 ---
+# Der erste Schritt zur Bitcoin-Adoption
 
-# Der erste Schritt zur Einführung von Bitcoin
-Heutzutage gibt es eine Fülle von Bildungsinhalten im Internet, die es jedem ermöglichen, etwas über Bitcoin und sein Ökosystem zu lernen.
-Aber **Eines fehlt oft: die Möglichkeit, sich zu treffen, Ideen auszutauschen, Wissen zu teilen** und vor allem **gemeinsam zu bauen**.
+Heute kann jeder online etwas über Bitcoin lernen, aber was oft fehlt, ist die Möglichkeit, sich zu treffen, Ideen auszutauschen und gemeinsam aufzubauen. Um diese Lücke zu schließen, bilden viele Bitcoiner lokale Gemeinschaften, in denen Treffen Workshops, Präsentationen und bedeutungsvolle Diskussionen anstoßen.
 
-Um diesem wachsenden Bedarf gerecht zu werden, entscheiden sich viele Bitcoiner regelmäßig für die **Gründung lokaler Gemeinschaften**.
-
-Sobald sich genügend Teilnehmer gefunden haben, werden Treffen organisiert, und diese wiederkehrenden Zusammenkünfte sind oft ein fruchtbarer Boden für technische Präsentationen, praktische Workshops und breitere Diskussionen.
-
-In diesem Kurs "**BTC302**" werden wir untersuchen, **warum es wichtig ist, eine Bitcoin-Gemeinschaft und/oder ein Treffen einzurichten**, und uns dann mit **Werkzeugen und Methoden zur Entwicklung der visuellen und digitalen Identität Ihrer Gemeinschaft** beschäftigen.
-
-Wir werden auch **Projekte und Initiativen** vorstellen, die einfach zu starten sind, insbesondere im Bildungsbereich, und die durch verschiedene vorgefertigte Open-Source-Ressourcen unterstützt werden.
-
-Schließlich werden wir **die Entwicklung von Bitcoin-Gemeinschaften auf nationaler Ebene** und **ihr Potenzial zur Beschleunigung der hyperbitcoinisierten Welt von morgen** diskutieren.
-
-
-
+In BTC304 werden wir uns ansehen, warum Community-Building wichtig ist, Werkzeuge zur Schaffung einer starken visuellen und digitalen Identität erkunden und einfache Open-Source-Projekte teilen, die Sie starten können. Wir werden auch betrachten, wie lokale Initiativen zu nationalen Gemeinschaften skalieren, die dazu beitragen können, eine hyperbitcoinisierte Zukunft voranzutreiben.
 +++
-
 # Einführung
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>

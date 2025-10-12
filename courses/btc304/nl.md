@@ -8,35 +8,12 @@ objectives:
 - Start projecten en initiatieven met uw gemeenschap
 - Het belang begrijpen van anticiperen op de toekomstige ontwikkeling van een gemeenschap
 ---
+# De eerste stap naar Bitcoin-adoptie
 
-# De eerste stap naar Bitcoin adoptie
+Tegenwoordig kan iedereen online leren over Bitcoin, maar wat vaak ontbreekt is de kans om elkaar te ontmoeten, ideeën uit te wisselen en samen te bouwen. Om deze kloof te overbruggen, vormen veel bitcoiners lokale gemeenschappen, waar bijeenkomsten workshops, presentaties en betekenisvolle discussies op gang brengen.
 
-
-
-Tegenwoordig is er een schat aan educatieve inhoud online beschikbaar, waardoor iedereen meer kan leren over Bitcoin en zijn ecosysteem.
-
-
-Er ontbreekt echter vaak **één ding: de mogelijkheid om elkaar te ontmoeten, Exchange ideeën uit te wisselen, kennis te delen** en vooral **samen te bouwen**.
-
-
-
-Om aan deze groeiende behoefte te voldoen, kiezen veel bitcoiners er regelmatig voor om lokale **gemeenschappen** te creëren.
-
-Zodra er genoeg deelnemers zijn, worden er meet-ups georganiseerd en deze terugkerende bijeenkomsten worden vaak een vruchtbare bodem voor technische presentaties, praktische workshops en bredere discussies.
-
-
-In deze cursus "**BTC302**" verkennen we **waarom het opzetten van een Bitcoin community en/of meet-up belangrijk is**, en duiken we vervolgens in **tools en methodes om de visuele en digitale identiteit van je community te ontwikkelen**.
-
-
-We zullen ook **projecten en initiatieven** presenteren die gemakkelijk te lanceren zijn, vooral educatieve, ondersteund door verschillende vooraf ontworpen, open-source bronnen.
-
-
-Tot slot bespreken we **de evolutie van Bitcoin gemeenschappen op nationaal niveau**, en **hun potentieel om de hyperbitcoin wereld van morgen** te versnellen.
-
-
-
+In BTC304 kijken we naar waarom gemeenschapsopbouw belangrijk is, verkennen we tools voor het creëren van een sterke visuele en digitale identiteit, en delen we eenvoudige open-source projecten die je kunt starten. We zullen ook overwegen hoe lokale initiatieven opschalen naar nationale gemeenschappen die kunnen helpen een hypergebitcoiniseerde toekomst te realiseren.
 +++
-
 # Inleiding
 
 

@@ -8,35 +8,12 @@ objectives:
 - Starta projekt och initiativ med ditt samhälle
 - Förstå vikten av att förutse den framtida utvecklingen av ett samhälle
 ---
+# Det första steget mot Bitcoin-adoption
 
-# Det första steget mot Bitcoin-anpassning
+Idag kan vem som helst lära sig om Bitcoin online, men det som ofta saknas är möjligheten att träffas, utbyta idéer och bygga tillsammans. För att fylla denna lucka bildar många bitcoiners lokala gemenskaper, där möten ger upphov till workshops, presentationer och meningsfulla diskussioner.
 
-
-
-Numera finns det en mängd pedagogiskt innehåll tillgängligt online, så att vem som helst kan lära sig mer om Bitcoin och dess ekosystem.
-
-
-Men **en sak saknas ofta: möjligheten att träffas, Exchange idéer, dela kunskap** och framför allt **att bygga tillsammans**.
-
-
-
-För att möta detta växande behov väljer många bitcoinare regelbundet att **skapa lokala samhällen**.
-
-När det finns tillräckligt många deltagare anordnas möten, och dessa återkommande sammankomster blir ofta en grogrund för tekniska presentationer, praktiska workshops och bredare diskussioner.
-
-
-I den här kursen "**BTC302**" kommer vi att utforska **varför det är viktigt att skapa en Bitcoin-community och/eller mötesplats**, och sedan dyka in i **verktyg och metoder för att utveckla din communitys visuella och digitala identitet**.
-
-
-Vi kommer också att presentera **projekt och initiativ** som är lätta att starta, särskilt pedagogiska sådana, och som stöds av flera fördesignade resurser med öppen källkod.
-
-
-Slutligen kommer vi att diskutera **utvecklingen av Bitcoin-communities på nationell nivå** och **deras potential att påskynda morgondagens hyperbitcoiniserade värld**.
-
-
-
+I BTC304 kommer vi att titta på varför gemenskapsbyggande är viktigt, utforska verktyg för att skapa en stark visuell och digital identitet, och dela enkla open source-projekt som du kan starta. Vi kommer också att överväga hur lokala initiativ växer till nationella gemenskaper som kan hjälpa till att driva en hyperbitcoiniserad framtid.
 +++
-
 # Inledning
 
 

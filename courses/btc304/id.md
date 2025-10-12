@@ -8,35 +8,12 @@ objectives:
 - Meluncurkan proyek dan inisiatif dengan komunitas Anda
 - Memahami pentingnya mengantisipasi evolusi komunitas di masa depan
 ---
-
 # Langkah pertama menuju adopsi Bitcoin
 
+Saat ini, siapa pun dapat belajar tentang Bitcoin secara online, tetapi yang sering kali hilang adalah kesempatan untuk bertemu, bertukar ide, dan membangun bersama. Untuk mengisi kesenjangan ini, banyak bitcoiner membentuk komunitas lokal, di mana pertemuan memicu lokakarya, presentasi, dan diskusi yang bermakna.
 
-
-Saat ini, banyak konten edukasi yang tersedia secara online, yang memungkinkan siapa saja untuk belajar tentang Bitcoin dan ekosistemnya.
-
-
-Namun, **satu hal yang sering kali hilang: kesempatan untuk bertemu, gagasan Exchange, berbagi pengetahuan** dan yang terpenting, **untuk membangun bersama**.
-
-
-
-Untuk memenuhi kebutuhan yang terus meningkat ini, banyak pengguna bitcoin yang secara teratur memilih untuk **membuat komunitas lokal**.
-
-Setelah jumlah peserta cukup, pertemuan-pertemuan pun diselenggarakan, dan pertemuan-pertemuan berulang ini sering kali menjadi ajang yang subur untuk presentasi teknis, lokakarya, dan diskusi yang lebih luas.
-
-
-Dalam kursus "**BTC302**" ini, kita akan mengeksplorasi **mengapa membuat komunitas Bitcoin dan/atau pertemuan itu penting**, kemudian menyelami **alat dan metode untuk mengembangkan identitas visual dan digital komunitas Anda**.
-
-
-Kami juga akan mempresentasikan **proyek dan inisiatif** yang mudah diluncurkan, terutama yang bersifat edukatif, yang didukung oleh beberapa sumber daya yang telah dirancang sebelumnya dan bersifat open-source.
-
-
-Terakhir, kita akan membahas tentang evolusi komunitas Bitcoin di tingkat nasional, dan potensi mereka untuk mempercepat dunia hiperbitcoin di masa depan.
-
-
-
+Dalam BTC304, kita akan melihat mengapa membangun komunitas itu penting, menjelajahi alat untuk menciptakan identitas visual dan digital yang kuat, dan berbagi proyek open-source sederhana yang dapat Anda luncurkan. Kita juga akan mempertimbangkan bagaimana inisiatif lokal berkembang menjadi komunitas nasional yang dapat membantu mendorong masa depan hyperbitcoinized.
 +++
-
 # Pendahuluan
 
 

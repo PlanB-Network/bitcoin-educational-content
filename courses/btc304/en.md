@@ -8,27 +8,12 @@ objectives:
 - Launch projects and initiatives with your community
 - Understand the importance of anticipating the future evolution of a community
 ---
-
 # The first step towards Bitcoin adoption
 
+Today, anyone can learn about Bitcoin online but what’s often missing is the chance to meet, exchange ideas, and build together. To fill this gap, many bitcoiners form local communities, where meetups spark workshops, presentations, and meaningful discussions.
 
-Nowadays, a wealth of educational content is available online, allowing anyone to learn about Bitcoin and its ecosystem.
-
-However, **one thing is often missing: the opportunity to meet, exchange ideas, share knowledge** and above all, **to build together**.
-
-
-To meet this growing need, many bitcoiners regularly choose to **create local communities**. 
-Once there are enough participants, meet-ups are organized, and these recurring gatherings often become fertile ground for technical presentations, hands-on workshops, and broader discussions.
-
-In this course "**BTC302**", we will explore **why creating a Bitcoin community and/or meet-up matters**, then dive into **tools and methods to develop your community's visual and digital identity**.
-
-We will also present **projects and initiatives** that are easy to launch, especially educational ones, supported by several pre-designed, open-source resources.
-
-Finally, we'll discuss **the evolution of Bitcoin communities at a national level**, and **their potential to accelerate tomorrow's hyperbitcoinized world**.
-
-
+In BTC304, we’ll look at why community building matters, explore tools for creating a strong visual and digital identity, and share simple, open-source projects you can launch. We’ll also consider how local initiatives scale into national communities that can help drive a hyperbitcoinized future.
 +++
-
 # Introduction
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>

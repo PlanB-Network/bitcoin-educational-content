@@ -8,20 +8,12 @@ objectives:
 - Lancer des projets et des initiatives avec sa communauté
 - Comprendre la pertinence d'anticiper l'évolution future d'une communauté
 ---
+# La première étape vers l'adoption de Bitcoin
 
-# La première marche vers l'adoption de Bitcoin
+Aujourd'hui, n'importe qui peut apprendre sur Bitcoin en ligne, mais ce qui manque souvent, c'est l'occasion de se rencontrer, d'échanger des idées et de construire ensemble. Pour combler cette lacune, de nombreux bitcoiners forment des communautés locales, où les rencontres donnent naissance à des ateliers, des présentations et des discussions enrichissantes.
 
-De nos jours, de nombreux contenus pédagogiques sont disponibles sur internet, permettant à tout un chacun de s'éduquer autour de Bitcoin et de son écosystème.
-Toutefois, **une chose manque cruellement à beaucoup d'entre-nous : la possibilité de se rencontrer, d'échanger et de partager nos connaissances**. Mais également, de **construire ensemble**.
-
-Afin de remédier à ce besoin grandissant, de nombreux bitcoiners décident régulièrement de **créer de nouvelles communautés autour de chez eux**. Des rencontres sont alors proposées, lorsque le nombre de participants est suffisant ; et ces dernières, souvent récurrentes, deviennent un terrain fertile pour la réalisation de présentations et d'ateliers, aussi bien techniques que vulgarisateurs.
-
-Dans cette formation intitulée "**BTC302**", nous tâcherons de présenter l'**intérêt de créer une communauté et/ou un meet-up Bitcoin**, puis nous détaillerons et proposerons **différents outils permettant de développer l'identité visuelle et numérique** de sa communauté ou de son meet-up.
-Par la suite, nous présenterons **différents projets et initiatives** pouvant être mis en place facilement, notamment d'un point de vue pédagogique. Plusieurs ressources déjà préconçues seront alors proposées en open source.
-Enfin, une réflexion plus profonde sera menée sur **l'évolution des communautés d'un point de vue national**, mais également, sur **leur rôle dans l'hyperbitcoinisation du monde de demain**.
-
+Dans BTC304, nous examinerons pourquoi la construction de communauté est importante, explorerons les outils pour créer une identité visuelle et numérique forte, et partagerons des projets simples et open-source que vous pouvez lancer. Nous considérerons également comment les initiatives locales évoluent en communautés nationales qui peuvent contribuer à construire un avenir hyperbitcoinisé.
 +++
-
 # Introduction
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 

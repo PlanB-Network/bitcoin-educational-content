@@ -8,35 +8,12 @@ objectives:
 - Zindua miradi na mipango na jumuiya yako
 - Kuelewa umuhimu wa kutarajia mageuzi ya baadaye ya jumuiya
 ---
+# Hatua ya kwanza kuelekea ukubaliano wa Bitcoin
 
-# Hatua ya kwanza kuelekea kupitishwa kwa Bitcoin
+Leo, mtu yeyote anaweza kujifunza kuhusu Bitcoin mtandaoni lakini kile kinachokosekana mara nyingi ni fursa ya kukutana, kubadilishana mawazo, na kujenga pamoja. Ili kujaza pengo hili, wabitcoin wengi huunda jamii za mitaa, ambapo mikutano huchochea warsha, mawasilisho, na majadiliano yenye maana.
 
-
-
-Siku hizi, wingi wa maudhui ya elimu unapatikana mtandaoni, na kuruhusu mtu yeyote kujifunza kuhusu Bitcoin na mfumo wake wa ikolojia.
-
-
-Hata hivyo, ** jambo moja mara nyingi hukosa: fursa ya kukutana, mawazo ya Exchange, kushiriki ujuzi ** na juu ya yote, ** kujenga pamoja **.
-
-
-
-Ili kukidhi hitaji hili linalokua, wateja wengi wa bitcoin mara kwa mara huchagua **kuunda jumuiya za ndani**.
-
-Pindi tu kunapokuwa na washiriki wa kutosha, mikutano hupangwa, na mikusanyiko hii ya mara kwa mara mara nyingi huwa msingi mzuri wa mawasilisho ya kiufundi, warsha za mikono, na majadiliano mapana.
-
-
-Katika kozi hii "**BTC302**", tutachunguza **kwa nini kuunda jumuiya ya Bitcoin na/au mambo ya kukutana**, kisha tuzame **zana na mbinu za kuendeleza utambulisho wa kidijitali wa jumuiya yako**.
-
-
-Pia tutawasilisha **miradi na mipango** ambayo ni rahisi kuzinduliwa, hasa ya kielimu, inayoungwa mkono na rasilimali kadhaa zilizoundwa awali, za chanzo huria.
-
-
-Hatimaye, tutajadili **mabadiliko ya jumuiya za Bitcoin katika ngazi ya kitaifa**, na **uwezo wao wa kuharakisha ulimwengu wa kesho ulio na sarafu nyingi mno**.
-
-
-
+Katika BTC304, tutaangalia kwa nini ujenzi wa jamii ni muhimu, kuchunguza zana za kuunda utambulisho imara wa kuonekana na wa kidijitali, na kushiriki miradi rahisi ya chanzo huria unayoweza kuanzisha. Pia tutazingatia jinsi mipango ya mitaa inavyokua kuwa jamii za kitaifa zinazoweza kusaidia kuendesha mustakabali wa hyperbitcoinized.
 +++
-
 # Utangulizi
 
 

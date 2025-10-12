@@ -8,35 +8,12 @@ objectives:
 - Ponga en marcha proyectos e iniciativas con su comunidad
 - Comprender la importancia de anticipar la evolución futura de una comunidad
 ---
-
 # El primer paso hacia la adopción de Bitcoin
 
+Hoy en día, cualquiera puede aprender sobre Bitcoin en línea, pero lo que a menudo falta es la oportunidad de reunirse, intercambiar ideas y construir juntos. Para llenar este vacío, muchos bitcoiners forman comunidades locales, donde los encuentros generan talleres, presentaciones y discusiones significativas.
 
-
-Hoy en día existe una gran cantidad de contenidos educativos en línea, que permiten a cualquiera aprender sobre el Bitcoin y su ecosistema.
-
-
-Sin embargo, **a menudo falta algo: la oportunidad de reunirse, Exchange ideas, compartir conocimientos** y, sobre todo, **construir juntos**.
-
-
-
-Para satisfacer esta creciente necesidad, muchos bitcoiners optan regularmente por **crear comunidades locales**.
-
-Una vez que hay suficientes participantes, se organizan encuentros, y estas reuniones recurrentes suelen convertirse en terreno fértil para presentaciones técnicas, talleres prácticos y debates más amplios.
-
-
-En este curso "**BTC302**", exploraremos **por qué es importante crear una comunidad y/o meet-up Bitcoin**, y después nos sumergiremos en **herramientas y métodos para desarrollar la identidad visual y digital de tu comunidad**.
-
-
-También presentaremos **proyectos e iniciativas** fáciles de poner en marcha, especialmente educativos, apoyados por varios recursos prediseñados y de código abierto.
-
-
-Por último, hablaremos de **la evolución de las comunidades Bitcoin a nivel nacional**, y de **su potencial para acelerar el mundo hiperbitcoinizado del mañana**.
-
-
-
+En BTC304, veremos por qué es importante la construcción de comunidades, exploraremos herramientas para crear una identidad visual y digital sólida, y compartiremos proyectos simples de código abierto que puedes lanzar. También consideraremos cómo las iniciativas locales escalan hacia comunidades nacionales que pueden ayudar a impulsar un futuro hiperbitcoinizado.
 +++
-
 # Introducción
 
 

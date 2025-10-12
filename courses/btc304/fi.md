@@ -8,35 +8,12 @@ objectives:
 - Käynnistää hankkeita ja aloitteita yhteisön kanssa
 - Ymmärtää, että on tärkeää ennakoida yhteisön tulevaa kehitystä
 ---
+# Ensimmäinen askel kohti Bitcoinin omaksumista
 
-# Ensimmäinen askel kohti Bitcoin:n käyttöönottoa
+Nykyään kuka tahansa voi oppia Bitcoinista verkossa, mutta usein puuttuu mahdollisuus tavata, vaihtaa ajatuksia ja rakentaa yhdessä. Tämän aukon täyttämiseksi monet bitcoinerit muodostavat paikallisia yhteisöjä, joissa tapaamiset synnyttävät työpajoja, esityksiä ja merkityksellisiä keskusteluja.
 
-
-
-Nykyään verkossa on saatavilla runsaasti opetussisältöä, jonka avulla kuka tahansa voi tutustua Bitcoin:ään ja sen ekosysteemiin.
-
-
-Yksi asia kuitenkin usein puuttuu: mahdollisuus tavata, vaihtaa ajatuksia, jakaa tietoa** ja ennen kaikkea rakentaa yhdessä**.
-
-
-
-Vastatakseen tähän kasvavaan tarpeeseen monet bitcoin-käyttäjät päättävät säännöllisesti **luoda paikallisia yhteisöjä**.
-
-Kun osallistujia on tarpeeksi, järjestetään tapaamisia, ja näistä toistuvista kokoontumisista tulee usein hedelmällinen maaperä teknisille esityksille, käytännön työpajoille ja laajemmille keskusteluille.
-
-
-Tällä kurssilla "**BTC302**" tutkimme, **miksi Bitcoin-yhteisön ja/tai tapaamispaikan luominen on tärkeää**, ja sen jälkeen tutustumme **työkaluihin ja menetelmiin yhteisön visuaalisen ja digitaalisen identiteetin kehittämiseksi**.
-
-
-Esittelemme myös **hankkeita ja aloitteita**, jotka on helppo käynnistää, erityisesti opetuksellisia hankkeita, joita tuetaan useilla valmiiksi suunnitelluilla avoimen lähdekoodin resursseilla.
-
-
-Lopuksi keskustelemme **Bitcoin-yhteisöjen kehityksestä kansallisella tasolla** ja **tehtävistä, jotka voivat nopeuttaa tulevaisuuden hyperbitcoin-maailmaa**.
-
-
-
+BTC304:ssä tarkastelemme, miksi yhteisön rakentaminen on tärkeää, tutkimme työkaluja vahvan visuaalisen ja digitaalisen identiteetin luomiseen ja jaamme yksinkertaisia avoimen lähdekoodin projekteja, joita voit käynnistää. Pohdimme myös, kuinka paikalliset aloitteet laajenevat kansallisiksi yhteisöiksi, jotka voivat auttaa ajamaan hyperbitcoinoitua tulevaisuutta.
 +++
-
 # Johdanto
 
 

@@ -8,35 +8,12 @@ objectives:
 - Käivitage koos oma kogukonnaga projekte ja algatusi
 - Mõista, kui oluline on kogukonna tulevase arengu prognoosimine
 ---
+# Esimene samm Bitcoini omaksvõtu suunas
 
-# Esimene samm Bitcoin kasutuselevõtu suunas
+Tänapäeval saab igaüks Bitcoinist internetis õppida, kuid sageli puudub võimalus kohtuda, ideid vahetada ja koos ehitada. Selle lünga täitmiseks moodustavad paljud bitcoinerid kohalikke kogukondi, kus kohtumised käivitavad töötube, ettekandeid ja sisukaid arutelusid.
 
-
-
-Tänapäeval on internetis saadaval hulgaliselt õppematerjali, mis võimaldab igaühel õppida Bitcoin ja selle ökosüsteemi kohta.
-
-
-Siiski **puudub sageli üks asi: võimalus kohtuda, Exchange ideid, jagada teadmisi** ja ennekõike **koostada koos**.
-
-
-
-Selle kasvava vajaduse rahuldamiseks otsustavad paljud bitcoin'i kasutajad regulaarselt **looma kohalikke kogukondi**.
-
-Kui osalejaid on piisavalt palju, korraldatakse kohtumisi ning need korduvad kokkusaamised muutuvad sageli viljakaks pinnaseks tehnilistele ettekannetele, praktilistele töötubadele ja laiematele aruteludele.
-
-
-Sellel kursusel "**BTC302**" uurime, **milleks on oluline luua Bitcoin kogukond ja/või kohtumine**, seejärel sukeldume **tööriistade ja meetodite juurde, et arendada oma kogukonna visuaalset ja digitaalset identiteeti**.
-
-
-Samuti tutvustame **projekte ja algatusi**, mida on lihtne käivitada, eriti hariduslikke, mida toetavad mitmed eelnevalt loodud avatud lähtekoodiga ressursid.
-
-
-Lõpuks arutame ** Bitcoin kogukondade arengut riiklikul tasandil** ja **mõisteid, mis võivad kiirendada homset hüperbitcoiniseeritud maailma**.
-
-
-
+BTC304 kursusel vaatame, miks kogukonna loomine on oluline, uurime tööriistu tugeva visuaalse ja digitaalse identiteedi loomiseks ning jagame lihtsaid avatud lähtekoodiga projekte, mida saate käivitada. Samuti kaalume, kuidas kohalikud algatused laienevad riiklikeks kogukondadeks, mis võivad aidata juhtida hüperbitcoiniseeritud tulevikku.
 +++
-
 # Sissejuhatus
 
 

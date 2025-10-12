@@ -8,35 +8,12 @@ objectives:
 - Rozpocznij projekty i inicjatywy ze swoją społecznością
 - Zrozumienie znaczenia przewidywania przyszłej ewolucji społeczności
 ---
+# Pierwszy krok w kierunku adopcji Bitcoina
 
-# Pierwszy krok w kierunku przyjęcia Bitcoin
+Dziś każdy może uczyć się o Bitcoinie online, ale często brakuje możliwości spotkania się, wymiany pomysłów i wspólnego budowania. Aby wypełnić tę lukę, wielu bitcoinerów tworzy lokalne społeczności, gdzie spotkania prowadzą do warsztatów, prezentacji i wartościowych dyskusji.
 
-
-
-Obecnie w Internecie dostępnych jest wiele treści edukacyjnych, dzięki którym każdy może dowiedzieć się więcej o Bitcoin i jego ekosystemie.
-
-
-Jednak często brakuje jednej rzeczy: możliwości spotkania, **Exchange pomysłów, dzielenia się wiedzą**, a przede wszystkim **wspólnego budowania**.
-
-
-
-Aby zaspokoić tę rosnącą potrzebę, wielu bitcoinerów regularnie decyduje się na **tworzenie lokalnych społeczności**.
-
-Gdy zbierze się wystarczająca liczba uczestników, organizowane są spotkania, które często stają się podatnym gruntem dla prezentacji technicznych, praktycznych warsztatów i szerszych dyskusji.
-
-
-W tym kursie "**BTC302**" zbadamy **dlaczego tworzenie społeczności Bitcoin i/lub spotkań ma znaczenie**, a następnie zanurzymy się w **narzędziach i metodach rozwijania wizualnej i cyfrowej tożsamości społeczności**.
-
-
-Przedstawimy również **projekty i inicjatywy**, które są łatwe do uruchomienia, zwłaszcza te edukacyjne, wspierane przez kilka wstępnie zaprojektowanych zasobów typu open source.
-
-
-Na koniec omówimy **ewolucję społeczności Bitcoin na poziomie krajowym** i **ich potencjał do przyspieszenia jutrzejszego hiperbitcoinowego świata**.
-
-
-
+W BTC304 przyjrzymy się, dlaczego budowanie społeczności ma znaczenie, zbadamy narzędzia do tworzenia silnej wizualnej i cyfrowej tożsamości oraz podzielimy się prostymi projektami open-source, które możesz uruchomić. Rozważymy również, jak lokalne inicjatywy skalują się do społeczności narodowych, które mogą pomóc w budowaniu hyperbitcoinizowanej przyszłości.
 +++
-
 # Wprowadzenie
 
 

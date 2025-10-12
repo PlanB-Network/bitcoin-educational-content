@@ -8,35 +8,12 @@ objectives:
 - Start prosjekter og initiativer sammen med lokalsamfunnet ditt
 - Forstå viktigheten av å forutse den fremtidige utviklingen i et samfunn
 ---
+# Det første steget mot Bitcoin-adopsjon
 
-# Det første skrittet mot å ta i bruk Bitcoin
+I dag kan hvem som helst lære om Bitcoin på nettet, men det som ofte mangler er muligheten til å møtes, utveksle ideer og bygge sammen. For å fylle dette gapet danner mange bitcoinere lokale fellesskap, hvor møter skaper workshops, presentasjoner og meningsfulle diskusjoner.
 
-
-
-I dag finnes det et vell av pedagogisk innhold tilgjengelig på nettet, slik at alle kan lære om Bitcoin og økosystemet.
-
-
-Men det er én ting som ofte mangler: muligheten til å møtes, exchange ideer, dele kunnskap **og fremfor alt å bygge sammen**.
-
-
-
-For å møte dette økende behovet velger mange bitcoinere å **skape lokalsamfunn**.
-
-Når det er mange nok deltakere, organiseres det meet-ups, og disse tilbakevendende samlingene blir ofte grobunn for tekniske presentasjoner, praktiske workshops og bredere diskusjoner.
-
-
-I dette kurset "**BTC302**" utforsker vi **hvorfor det er viktig å opprette et Bitcoin-fellesskap og/eller et møtepunkt**, og deretter dykker vi ned i **verktøy og metoder for å utvikle fellesskapets visuelle og digitale identitet**.
-
-
-Vi vil også presentere **prosjekter og initiativer** som er enkle å sette i gang, spesielt pedagogiske prosjekter, og som støttes av flere forhåndsutformede ressurser med åpen kildekode.
-
-
-Til slutt diskuterer vi **utviklingen av Bitcoin-samfunn på nasjonalt nivå**, og **deres potensial til å akselerere morgendagens hyperbitcoiniserte verden**.
-
-
-
+I BTC304 vil vi se på hvorfor samfunnsbygging er viktig, utforske verktøy for å skape en sterk visuell og digital identitet, og dele enkle open-source-prosjekter du kan starte. Vi vil også vurdere hvordan lokale initiativer skalerer til nasjonale fellesskap som kan bidra til å drive en hyperbitcoinisert fremtid.
 +++
-
 # Innledning
 
 

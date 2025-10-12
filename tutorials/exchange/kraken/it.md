@@ -28,7 +28,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 
 
-Andate su [il sito ufficiale di Kraken](https://www.kraken.com/). Nella pagina iniziale, trovare e fare clic sull'opzione "Iscriviti" nell'angolo in alto a destra per iniziare a creare il proprio account.
+Vai su [il sito ufficiale di Kraken](https://www.kraken.com/). Nella pagina iniziale, trovare e fare clic sull'opzione Sign Up"("Iscriviti") nell'angolo in alto a destra per iniziare a creare il proprio account.
 
 
 
@@ -36,7 +36,7 @@ Andate su [il sito ufficiale di Kraken](https://www.kraken.com/). Nella pagina i
 
 
 
-Scegliete quindi se volete creare un account personale o uno per la vostra azienda. In questo caso sceglieremo **Personale**, ma a parte la procedura di identificazione, che cambierà un po', le funzionalità non cambiano tra un account pro e uno personale. Inserite il vostro indirizzo e-mail Address e la password di accesso, quindi cliccate su "Crea account".
+Scegli quindi se vuoi creare un account personale o uno per la tua azienda. In questo caso sceglieremo **Personale**, ma a parte la procedura di identificazione, che cambierà un po', le funzionalità non cambiano tra un account pro e uno personale. Inserite il vostro indirizzo e-mail Address e la password di accesso, quindi cliccate su "Create account"("Crea account").
 
 
 
@@ -68,7 +68,7 @@ Completare le informazioni personali e fare clic su "Continua".
 
 
 
-Nella schermata successiva, vi verrà chiesto di inserire nuovi dati personali. Ricordate che siete tutti potenziali criminali ed è essenziale che vi identifichiate. Inserite i dati che vi riguardano, quindi cliccate su "Continua".
+Nella schermata successiva, vi verrà chiesto di inserire nuovi dati personali. Ricordate che siete tutti potenziali criminali ed è essenziale che vi identifichiate. Inserite i dati che vi riguardano, quindi cliccate su "Continue"("Continua").
 
 
 
@@ -120,7 +120,7 @@ Va notato che i costi di acquisto sono diversi per entrambi, come vedremo in seg
 
 
 
-Iniziamo scegliendo l'esperienza semplice facendo clic su "Vai a Kraken" nell'angolo in basso a sinistra.
+Iniziamo scegliendo l'esperienza semplice facendo clic su "Go to Kraken"("Vai a Kraken") nell'angolo in basso a sinistra.
 
 
 
@@ -140,7 +140,7 @@ Il Interface è infatti piuttosto sobrio e colorato. Prima ancora di proteggere 
 
 
 
-Ora che i nostri occhi sono al sicuro, facciamo clic di nuovo sul nostro profilo per visualizzare il menu per l'aggiunta di un 2FA (secondo fattore di autenticazione). Scegliere quindi "Sicurezza".
+Ora che i nostri occhi sono al sicuro, facciamo clic di nuovo sul nostro profilo per visualizzare il menu per l'aggiunta di un 2FA (secondo fattore di autenticazione). Scegliere quindi "Security"("Sicurezza").
 
 
 
@@ -189,7 +189,7 @@ Tornate quindi al menu principale facendo clic sulla casetta in alto a sinistra,
 Facciamo un rapido giro del menu principale, prima del nostro primo acquisto.
 
 
-Facendo clic su "Espandi" in basso a sinistra, è possibile allargare un po' la barra dei menu laterali per vedere i menu in modo esplicito.
+Facendo clic su Expand"("Espandi") in basso a sinistra, è possibile allargare un po' la barra dei menu laterali per vedere i menu in modo esplicito.
 
 
 
@@ -202,10 +202,10 @@ Dall'alto verso il basso vediamo la scheda:
 
 
 
-- "Portafoglio", che vi fornirà una panoramica delle vostre partecipazioni in Bitcoin, criptovalute e altre valute fiat (euro, dollari, ecc.), nonché la loro ripartizione percentuale.
-- "Explore", non necessariamente utile per noi bitcoiners, consente di esplorare il mondo delle monete di merda per scoprire la pepita che sicuramente vi renderà poveri.
+- "Portfolio"("Portafoglio), che vi fornirà una panoramica delle vostre partecipazioni in Bitcoin, criptovalute e altre valute fiat (euro, dollari, ecc.), nonché la loro ripartizione percentuale.
+- "Explore"("esploratore"), non necessariamente utile per noi bitcoiners, consente di esplorare il mondo delle monete di merda per scoprire la pepita che sicuramente vi renderà poveri.
 - non parleremo nemmeno di "Earn", perché non incoraggio nessuno a usarlo (shitcoinery) ed è fuori dallo scopo di questo tutorial.
-- come vedremo in dettaglio più avanti, "Trasferimento" consente di finanziare il proprio conto Kraken con satoshi/euro/fiat, o di ritirarli dalla piattaforma.
+- come vedremo in dettaglio più avanti, "Transfer"("Trasferimento") consente di finanziare il proprio conto Kraken con satoshi/euro/fiat, o di ritirarli dalla piattaforma.
 
 
 
@@ -222,7 +222,7 @@ Per acquisire il nostro primo "Sats", dovrete depositare sulla piattaforma una v
 
 
 
-A tal fine, selezionare il menu "Home" in alto a destra, quindi fare clic su "Deposito", come indicato dalle frecce sottostanti.
+A tal fine, selezionare il menu "Home" in alto a destra, quindi fare clic su "Deposit"("Deposito"), come indicato dalle frecce sottostanti.
 
 
 
@@ -240,7 +240,7 @@ Quindi selezionare "Euro".
 Nella schermata successiva vengono proposti diversi modi per depositare gli euro, ma qui ci occuperemo del più comune, ossia il classico bonifico bancario SEPA.
 
 
-A tal fine, selezionare "Bonifico bancario manuale".
+A tal fine, selezionare "Manual Bank Transfer"("Bonifico bancario manuale").
 
 
 

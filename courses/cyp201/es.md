@@ -1,11 +1,11 @@
 ---
-name: El Funcionamiento Interno de las Carteras de Bitcoin
+name: Arquitectura de la billetera Bitcoin
 goal: Sumergirse en los principios criptográficos que impulsan las carteras de Bitcoin.
 objectives:
-  - Definir las nociones teóricas necesarias para entender los algoritmos criptográficos usados en Bitcoin.
-  - Comprender completamente la construcción de una cartera determinista y jerárquica.
-  - Saber cómo identificar y reducir los riesgos asociados con la gestión de una cartera.
-  - Entender los principios de las funciones hash, las claves criptográficas y las firmas digitales.
+- Definir las nociones teóricas necesarias para entender los algoritmos criptográficos usados en Bitcoin.
+- Comprender completamente la construcción de una cartera determinista y jerárquica.
+- Saber cómo identificar y reducir los riesgos asociados con la gestión de una cartera.
+- Entender los principios de las funciones hash, las claves criptográficas y las firmas digitales.
 ---
 
 # Un Viaje al Corazón de las Carteras de Bitcoin

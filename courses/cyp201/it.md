@@ -1,11 +1,11 @@
 ---
-name: Il Funzionamento Interno dei Wallet Bitcoin
+name: Architettura del portafoglio Bitcoin
 goal: Esplorare i principi crittografici che si celano dietro i wallet Bitcoin.
 objectives:
-  - Definire le nozioni teoriche necessarie per comprendere gli algoritmi crittografici utilizzati in Bitcoin.
-  - Comprendere a fondo la costruzione di un wallet gerarchico-deterministico.
-  - Sapere come identificare e ridurre i rischi associati alla gestione di un wallet.
-  - Capire i principi delle funzioni hash, delle chiavi crittografiche e delle firme digitali.
+- Definire le nozioni teoriche necessarie per comprendere gli algoritmi crittografici utilizzati in Bitcoin.
+- Comprendere a fondo la costruzione di un wallet gerarchico-deterministico.
+- Sapere come identificare e ridurre i rischi associati alla gestione di un wallet.
+- Capire i principi delle funzioni hash, delle chiavi crittografiche e delle firme digitali.
 ---
 
 # Un Viaggio nel Cuore dei wallet Bitcoin

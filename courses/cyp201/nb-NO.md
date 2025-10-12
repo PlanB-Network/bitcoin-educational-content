@@ -1,11 +1,11 @@
 ---
-name: Det indre arbeidet til Bitcoin-lommebøker
+name: Arkitektur for Bitcoin-lommebok
 goal: Dykk ned i de kryptografiske prinsippene som driver Bitcoin-lommebøker.
 objectives:
-  - Definere de teoretiske begrepene som er nødvendige for å forstå de kryptografiske algoritmene brukt i Bitcoin.
-  - Fullt ut forstå konstruksjonen av en deterministisk og hierarkisk lommebok.
-  - Vite hvordan man identifiserer og reduserer risikoene forbundet med å håndtere en lommebok.
-  - Forstå prinsippene for hash-funksjoner, kryptografiske nøkler og digitale signaturer.
+- Definere de teoretiske begrepene som er nødvendige for å forstå de kryptografiske algoritmene brukt i Bitcoin.
+- Fullt ut forstå konstruksjonen av en deterministisk og hierarkisk lommebok.
+- Vite hvordan man identifiserer og reduserer risikoene forbundet med å håndtere en lommebok.
+- Forstå prinsippene for hash-funksjoner, kryptografiske nøkler og digitale signaturer.
 ---
 
 # En reise inn i hjertet av Bitcoin-lommebøker

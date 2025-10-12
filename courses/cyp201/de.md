@@ -1,11 +1,11 @@
 ---
-name: Die inneren Mechanismen von Bitcoin-Wallets
+name: Architektur der Bitcoin-Wallet
 goal: Tauchen Sie ein in die kryptografischen Prinzipien, die Bitcoin-Wallets antreiben.
 objectives:
-  - Definieren Sie die theoretischen Konzepte, die für das Verständnis der in Bitcoin verwendeten kryptografischen Algorithmen notwendig sind.
-  - Verstehen Sie vollständig den Aufbau einer deterministischen und hierarchischen Wallet.
-  - Wissen, wie man die mit der Verwaltung einer Wallet verbundenen Risiken identifiziert und reduziert.
-  - Verstehen Sie die Prinzipien von Hash-Funktionen, kryptografischen Schlüsseln und digitalen Signaturen.
+- Definieren Sie die theoretischen Konzepte, die für das Verständnis der in Bitcoin verwendeten kryptografischen Algorithmen notwendig sind.
+- Verstehen Sie vollständig den Aufbau einer deterministischen und hierarchischen Wallet.
+- Wissen, wie man die mit der Verwaltung einer Wallet verbundenen Risiken identifiziert und reduziert.
+- Verstehen Sie die Prinzipien von Hash-Funktionen, kryptografischen Schlüsseln und digitalen Signaturen.
 ---
 
 # Eine Reise ins Herz der Bitcoin-Wallets

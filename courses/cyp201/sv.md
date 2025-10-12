@@ -1,13 +1,11 @@
 ---
-name: Det inre arbetet med Bitcoin-plånböcker
+name: Arkitektur för Bitcoin-plånbok
 goal: Dyk ner i de kryptografiska principer som driver Bitcoin-plånböcker.
-objectives: 
-
-  - Definiera de teoretiska begrepp som är nödvändiga för att förstå de kryptografiska algoritmer som används i Bitcoin.
-  - Fullständig förståelse för konstruktionen av en deterministisk och hierarkisk Wallet.
-  - Kunna identifiera och minska de risker som är förknippade med att hantera en Wallet.
-  - Förstå principerna för Hash-funktioner, kryptografiska nycklar och digitala signaturer.
-
+objectives:
+- Definiera de teoretiska begrepp som är nödvändiga för att förstå de kryptografiska algoritmer som används i Bitcoin.
+- Fullständig förståelse för konstruktionen av en deterministisk och hierarkisk Wallet.
+- Kunna identifiera och minska de risker som är förknippade med att hantera en Wallet.
+- Förstå principerna för Hash-funktioner, kryptografiska nycklar och digitala signaturer.
 ---
 
 # En resa in i hjärtat av Bitcoin-plånböckerna

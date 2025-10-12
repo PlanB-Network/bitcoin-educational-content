@@ -1,13 +1,11 @@
 ---
-name: Unutrašnje funkcionisanje Bitkojn novčanika
+name: Arhitektura Bitcoin novčanika
 goal: Uronite u kriptografske principe koji pokreću Bitkojn novčanike.
-objectives: 
-
-  - Definisanje teorijskih pojmova neophodnih za razumevanje kriptografskih algoritama korišćenih u Bitkojnu
-  - Potpuno razumevanje konstrukcije determinističkog i hijerarhijskog novčanika.
-  - Znati kako identifikovati i smanjiti rizike povezane sa upravljanjem novčanikom.
-  - Razumevanje principa heš funkcija, kriptografskih ključeva i digitalnih potpisa.
-
+objectives:
+- Definisanje teorijskih pojmova neophodnih za razumevanje kriptografskih algoritama korišćenih u Bitkojnu
+- Potpuno razumevanje konstrukcije determinističkog i hijerarhijskog novčanika.
+- Znati kako identifikovati i smanjiti rizike povezane sa upravljanjem novčanikom.
+- Razumevanje principa heš funkcija, kriptografskih ključeva i digitalnih potpisa.
 ---
 
 # Putovanje u središte Bitkojn novčanika

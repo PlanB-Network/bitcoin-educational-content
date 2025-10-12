@@ -1,13 +1,11 @@
 ---
-name: Bitcoin Cüzdanların İç İşleyişi
+name: Bitcoin Cüzdanı Mimarisi
 goal: Bitcoin cüzdanlarına güç veren kriptografik ilkelere dalın.
-objectives: 
-
-  - Bitcoin'de kullanılan kriptografik algoritmaları anlamak için gerekli teorik kavramları tanımlayabilecektir.
-  - Deterministik ve hiyerarşik bir Wallet'ün yapısını tam olarak anlamak.
-  - Bir Wallet'ün yönetimiyle ilişkili risklerin nasıl belirleneceğini ve azaltılacağını bilir.
-  - Hash fonksiyonlarının, kriptografik anahtarların ve dijital imzaların prensiplerini anlamak.
-
+objectives:
+- Bitcoin'de kullanılan kriptografik algoritmaları anlamak için gerekli teorik kavramları tanımlayabilecektir.
+- Deterministik ve hiyerarşik bir Wallet'ün yapısını tam olarak anlamak.
+- Bir Wallet'ün yönetimiyle ilişkili risklerin nasıl belirleneceğini ve azaltılacağını bilir.
+- Hash fonksiyonlarının, kriptografik anahtarların ve dijital imzaların prensiplerini anlamak.
 ---
 
 # Bitcoin Cüzdanlarının Kalbine Bir Yolculuk

@@ -1,11 +1,11 @@
 ---
-name: Bí Mật Đằng Sau Ví Bitcoin
+name: Kiến trúc ví Bitcoin
 goal: Khám phá nguyên tắc mã hóa đằng sau ví Bitcoin.
 objectives:
-  - Định nghĩa các khái niệm lý thuyết cần thiết để hiểu các thuật toán mã hóa được sử dụng trong Bitcoin.
-  - Hiểu rõ cấu trúc của một ví xác định và phân cấp.
-  - Biết cách nhận diện và giảm thiểu rủi ro liên quan đến quản lý ví.
-  - Hiểu nguyên tắc của hàm băm, khóa mã hóa, và chữ ký số.
+- Định nghĩa các khái niệm lý thuyết cần thiết để hiểu các thuật toán mã hóa được sử dụng trong Bitcoin.
+- Hiểu rõ cấu trúc của một ví xác định và phân cấp.
+- Biết cách nhận diện và giảm thiểu rủi ro liên quan đến quản lý ví.
+- Hiểu nguyên tắc của hàm băm, khóa mã hóa, và chữ ký số.
 ---
 
 # Hành Trình Vào Trái Tim Của Ví Bitcoin

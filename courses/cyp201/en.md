@@ -1,11 +1,11 @@
 ---
-name: The Inner Workings of Bitcoin Wallets
+name: Architecture of Bitcoin Wallet
 goal: Dive into the cryptographic principles that power Bitcoin wallets.
 objectives:
-  - Define the theoretical notions necessary for understanding the cryptographic algorithms used in Bitcoin.
-  - Fully understand the construction of a deterministic and hierarchical wallet.
-  - Know how to identify and reduce the risks associated with managing a wallet.
-  - Understand the principles of hash functions, cryptographic keys, and digital signatures.
+- Define the theoretical notions necessary for understanding the cryptographic algorithms used in Bitcoin.
+- Fully understand the construction of a deterministic and hierarchical wallet.
+- Know how to identify and reduce the risks associated with managing a wallet.
+- Understand the principles of hash functions, cryptographic keys, and digital signatures.
 ---
 
 # A Journey into the Heart of Bitcoin Wallets

@@ -1,13 +1,11 @@
 ---
-name: Wewnętrzne działanie portfeli Bitcoin
+name: Architektura portfela Bitcoin
 goal: Zanurz się w zasadach kryptograficznych, które zasilają portfele Bitcoin.
-objectives: 
-
-  - Zdefiniowanie pojęć teoretycznych niezbędnych do zrozumienia algorytmów kryptograficznych używanych w Bitcoin.
-  - Pełne zrozumienie budowy deterministycznego i hierarchicznego Wallet.
-  - Wie, jak zidentyfikować i ograniczyć ryzyko związane z zarządzaniem Wallet.
-  - Zrozumienie zasad działania funkcji Hash, kluczy kryptograficznych i podpisów cyfrowych.
-
+objectives:
+- Zdefiniowanie pojęć teoretycznych niezbędnych do zrozumienia algorytmów kryptograficznych używanych w Bitcoin.
+- Pełne zrozumienie budowy deterministycznego i hierarchicznego Wallet.
+- Wie, jak zidentyfikować i ograniczyć ryzyko związane z zarządzaniem Wallet.
+- Zrozumienie zasad działania funkcji Hash, kluczy kryptograficznych i podpisów cyfrowych.
 ---
 
 # Podróż do serca portfeli Bitcoin

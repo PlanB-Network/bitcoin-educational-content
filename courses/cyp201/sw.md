@@ -1,13 +1,11 @@
 ---
-name: Utendaji wa Ndani wa Pochi za Bitcoin
+name: Usanifu wa Pochi ya Bitcoin
 goal: Ingia kwenye kanuni za kriptografia zinazotumia pochi za Bitcoin.
-objectives: 
-
-  - Bainisha dhana za Kina (depth)dharia zinazohitajika ili kuelewa algoriti za kriptografia zinazotumika katika Bitcoin.
-  - Kuelewa kikamilifu ujenzi wa Wallet ya kuamua na ya daraja.
-  - Jua jinsi ya kutambua na kupunguza hatari zinazohusiana na kusimamia Wallet.
-  - Elewa kanuni za utendaji wa Hash, funguo za kriptografia na sahihi za dijitali.
-
+objectives:
+- Bainisha dhana za Kina (depth)dharia zinazohitajika ili kuelewa algoriti za kriptografia zinazotumika katika Bitcoin.
+- Kuelewa kikamilifu ujenzi wa Wallet ya kuamua na ya daraja.
+- Jua jinsi ya kutambua na kupunguza hatari zinazohusiana na kusimamia Wallet.
+- Elewa kanuni za utendaji wa Hash, funguo za kriptografia na sahihi za dijitali.
 ---
 # Safari ndani ya Moyo wa Pochi za Bitcoin
 

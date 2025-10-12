@@ -1,11 +1,11 @@
 ---
-name: Vnitřní fungování Bitcoinových peněženek
+name: Architektura Bitcoin peněženky
 goal: Ponořte se do kryptografických principů, které stojí za Bitcoinovými peněženkami.
 objectives:
-  - Definovat teoretické pojmy nezbytné pro pochopení kryptografických algoritmů používaných v Bitcoinu.
-  - Plně pochopit konstrukci deterministické a hierarchické peněženky.
-  - Znát způsoby, jak identifikovat a snížit rizika spojená se správou peněženky.
-  - Porozumět principům hašovacích funkcí, kryptografických klíčů a digitálních podpisů.
+- Definovat teoretické pojmy nezbytné pro pochopení kryptografických algoritmů používaných v Bitcoinu.
+- Plně pochopit konstrukci deterministické a hierarchické peněženky.
+- Znát způsoby, jak identifikovat a snížit rizika spojená se správou peněženky.
+- Porozumět principům hašovacích funkcí, kryptografických klíčů a digitálních podpisů.
 ---
 
 # Cesta do srdce Bitcoinových peněženek

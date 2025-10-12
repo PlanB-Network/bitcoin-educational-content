@@ -1,11 +1,11 @@
 ---
-name: Bitcoin-lompakoiden sisäinen toiminta
+name: Bitcoin-lompakon arkkitehtuuri
 goal: Sukella Bitcoin-lompakoiden voimanlähteenä toimivien kryptografisten periaatteiden syövereihin.
 objectives:
-  - Määrittele teoreettiset käsitteet, jotka ovat tarpeen Bitcoinissa käytettyjen kryptografisten algoritmien ymmärtämiseksi.
-  - Ymmärrä täysin deterministisen ja hierarkkisen lompakon rakenne.
-  - Tiedä, kuinka tunnistaa ja vähentää lompakon hallintaan liittyviä riskejä.
-  - Ymmärrä hajautusfunktioiden, kryptografisten avainten ja digitaalisten allekirjoitusten periaatteet.
+- Määrittele teoreettiset käsitteet, jotka ovat tarpeen Bitcoinissa käytettyjen kryptografisten algoritmien ymmärtämiseksi.
+- Ymmärrä täysin deterministisen ja hierarkkisen lompakon rakenne.
+- Tiedä, kuinka tunnistaa ja vähentää lompakon hallintaan liittyviä riskejä.
+- Ymmärrä hajautusfunktioiden, kryptografisten avainten ja digitaalisten allekirjoitusten periaatteet.
 ---
 
 # Matka Bitcoin-lompakoiden sydämeen

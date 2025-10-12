@@ -1,11 +1,11 @@
 ---
-name: Bitcoin Rahakottide Sisemine Tööpõhimõte
+name: Bitcoin rahakoti arhitektuur
 goal: Sukelduda krüptograafilistesse põhimõtetesse, mis toetavad Bitcoin rahakotte.
 objectives:
-  - Määratleda teoreetilised mõisted, mis on vajalikud Bitcoinis kasutatavate krüptograafiliste algoritmide mõistmiseks.
-  - Täielikult mõista deterministliku ja hierarhilise rahakoti ehitust.
-  - Teada, kuidas tuvastada ja vähendada rahakoti haldamisega seotud riske.
-  - Mõista hash-funktsioonide, krüptograafiliste võtmete ja digitaalallkirjade põhimõtteid.
+- Määratleda teoreetilised mõisted, mis on vajalikud Bitcoinis kasutatavate krüptograafiliste algoritmide mõistmiseks.
+- Täielikult mõista deterministliku ja hierarhilise rahakoti ehitust.
+- Teada, kuidas tuvastada ja vähendada rahakoti haldamisega seotud riske.
+- Mõista hash-funktsioonide, krüptograafiliste võtmete ja digitaalallkirjade põhimõtteid.
 ---
 
 # Teekond Bitcoin Rahakottide Südamesse

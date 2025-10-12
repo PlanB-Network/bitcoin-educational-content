@@ -1,11 +1,11 @@
 ---
-name: Les rouages des portefeuilles Bitcoin
+name: Architecture du portefeuille Bitcoin
 goal: Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin.
 objectives:
-  - Définir les notions théoriques nécessaires à la compréhension des algorithmes cryptographiques utilisés sur Bitcoin.
-  - Comprendre en intégralité la construction d'un portefeuille déterministe et hiérachique.
-  - Savoir identifier et réduire les risques liés à la gestion d’un portefeuille.
-  - Comprendre les principes des fonctions de hachage, des clés cryptographiques et des signatures numériques.
+- Définir les notions théoriques nécessaires à la compréhension des algorithmes cryptographiques utilisés sur Bitcoin.
+- Comprendre en intégralité la construction d'un portefeuille déterministe et hiérachique.
+- Savoir identifier et réduire les risques liés à la gestion d’un portefeuille.
+- Comprendre les principes des fonctions de hachage, des clés cryptographiques et des signatures numériques.
 ---
 
 # Un voyage au cœur des portefeuilles Bitcoin

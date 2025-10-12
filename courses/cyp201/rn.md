@@ -1,13 +1,11 @@
 ---
-name: Ibikorwa vy'imbere mu bikoresho vya Bitcoin
+name: Imiterere y'umufuka wa Bitcoin
 goal: Nimwinjire mu ngingo ngenderwako z’ubuhinga bwa none ziha ubushobozi amasakoshi ya Bitcoin.
-objectives: 
-
-  - Sigura ivyiyumviro vy'inyigisho bikenewe kugira ngo umuntu atahure ubuhinga bwo gukora amakuru bukoreshwa muri Bitcoin.
-  - Gutahura neza inyubako y'ubuhinga n'ubuhinga bwa Wallet.
-  - Kumenya ingene womenya no kugabanya ingorane zijanye n’ugucungera Wallet.
-  - Gutahura ingingo ngenderwako z’ibikorwa vya Hash, imfunguruzo z’ubuhinga bwa none, n’imikono y’ubuhinga bwa none.
-
+objectives:
+- Sigura ivyiyumviro vy'inyigisho bikenewe kugira ngo umuntu atahure ubuhinga bwo gukora amakuru bukoreshwa muri Bitcoin.
+- Gutahura neza inyubako y'ubuhinga n'ubuhinga bwa Wallet.
+- Kumenya ingene womenya no kugabanya ingorane zijanye n’ugucungera Wallet.
+- Gutahura ingingo ngenderwako z’ibikorwa vya Hash, imfunguruzo z’ubuhinga bwa none, n’imikono y’ubuhinga bwa none.
 ---
 
 # Urugendo rwo mu mutima w'amasakoshi ya Bitcoin

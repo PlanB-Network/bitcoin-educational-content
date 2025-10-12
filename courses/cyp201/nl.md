@@ -1,13 +1,11 @@
 ---
-name: De innerlijke werking van Bitcoin portemonnees
+name: Architectuur van Bitcoin-portemonnee
 goal: Duik in de cryptografische principes die Bitcoin wallets aansturen.
-objectives: 
-
-  - De theoretische begrippen definiëren die nodig zijn voor het begrijpen van de cryptografische algoritmen die in Bitcoin gebruikt worden.
-  - De constructie van een deterministische en hiërarchische Wallet volledig begrijpen.
-  - Weten hoe je de risico's die gepaard gaan met het beheren van een Wallet kunt identificeren en verminderen.
-  - De principes van Hash functies, cryptografische sleutels en digitale handtekeningen begrijpen.
-
+objectives:
+- De theoretische begrippen definiëren die nodig zijn voor het begrijpen van de cryptografische algoritmen die in Bitcoin gebruikt worden.
+- De constructie van een deterministische en hiërarchische Wallet volledig begrijpen.
+- Weten hoe je de risico's die gepaard gaan met het beheren van een Wallet kunt identificeren en verminderen.
+- De principes van Hash functies, cryptografische sleutels en digitale handtekeningen begrijpen.
 ---
 
 # Een reis naar het hart van Bitcoin portemonnees

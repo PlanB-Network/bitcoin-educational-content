@@ -1,11 +1,11 @@
 ---
-name: Cara Kerja Dompet Bitcoin
+name: Arsitektur Dompet Bitcoin
 goal: Menyelami prinsip-prinsip kriptografi yang menggerakkan dompet Bitcoin.
 objectives:
-  - Mendefinisikan konsep teoretis yang diperlukan untuk memahami algoritma kriptografi yang digunakan dalam Bitcoin.
-  - Memahami sepenuhnya pembangunan dompet yang deterministik dan hierarkis.
-  - Mengetahui cara mengidentifikasi dan mengurangi risiko yang terkait dengan pengelolaan dompet.
-  - Memahami prinsip fungsi hash, kunci kriptografi, dan tanda tangan digital.
+- Mendefinisikan konsep teoretis yang diperlukan untuk memahami algoritma kriptografi yang digunakan dalam Bitcoin.
+- Memahami sepenuhnya pembangunan dompet yang deterministik dan hierarkis.
+- Mengetahui cara mengidentifikasi dan mengurangi risiko yang terkait dengan pengelolaan dompet.
+- Memahami prinsip fungsi hash, kunci kriptografi, dan tanda tangan digital.
 ---
 
 # Perjalanan ke Jantung Dompet Bitcoin

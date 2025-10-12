@@ -43,10 +43,10 @@ Muchas gracias a nuestros profesores que formaron parte de este programa:
 **Programa del seminario**
 
 Semana 1 del evento LN Tuscany
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Una vez que hayas terminado este curso, si estás interesado en el entrenamiento de seguimiento, aquí está la segunda parte del programa:
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Esta formación te brinda la oportunidad de desarrollar tus habilidades de programación en Lightning Network utilizando Rust y diversos SDKs. Está dirigida a desarrolladores con un buen dominio de la programación que deseen adentrarse en el desarrollo específico para Lightning Network. Aprenderás las bases del lenguaje Rust, por qué es adecuado para Bitcoin, y luego pasarás a la práctica con SDK especializados.
@@ -155,3 +155,4 @@ Aquí aprenderás a desarrollar nodos LN utilizando diversos SDK como Breez SDK 
 ## Conclusión
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

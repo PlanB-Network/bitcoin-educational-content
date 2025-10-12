@@ -43,10 +43,10 @@ Xin cảm ơn các giáo viên đã tham gia vào chương trình này:
 **Lịch trình hội thảo**
 
 Tuần 1 của sự kiện LN Tuscany
-![hình ảnh](assets/1.webp)
+![hình ảnh](assets/001.webp)
 
 Một khi bạn đã hoàn thành khóa học này, nếu bạn quan tâm đến khóa đào tạo tiếp theo, đây là phần thứ hai của lịch trình:
-![hình ảnh](assets/2.webp)
+![hình ảnh](assets/002.webp)
 
 
 
@@ -157,3 +157,4 @@ Sẵn sàng phát triển kỹ năng của bạn với Lightning Network bằng 
 ## Kết luận
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

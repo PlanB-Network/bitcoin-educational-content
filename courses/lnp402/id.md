@@ -43,10 +43,10 @@ Terima kasih banyak kepada para pengajar kami yang telah menjadi bagian dari pro
 **Jadwal Seminar**
 
 Minggu 1 dari acara LN Tuscany
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Setelah Anda menyelesaikan kursus ini, jika Anda tertarik dengan pelatihan lanjutan, berikut adalah bagian kedua dari jadwal:
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Pelatihan ini memberi Anda kesempatan untuk mengembangkan keterampilan pemrograman Anda di Lightning Network menggunakan Rust dan berbagai SDK. Ini dirancang untuk pengembang yang sudah memiliki pemahaman pemrograman yang baik dan ingin mendalami pengembangan yang spesifik untuk Lightning Network. Anda akan mempelajari dasar-dasar bahasa Rust, mengapa ia cocok untuk pengembangan di Bitcoin, dan kemudian beralih ke penerapan praktis menggunakan SDK khusus.
@@ -157,3 +157,4 @@ Siap mengembangkan keterampilan Lightning Network Anda dengan Rust? Ayo mulai!
 ## Kesimpulan
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

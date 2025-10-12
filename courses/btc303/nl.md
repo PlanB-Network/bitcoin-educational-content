@@ -2254,6 +2254,13 @@ Je kunt de diepgang van je begrip testen door een [mini-essay](https://www.youtu
 
 <isCourseReview>true</isCourseReview>
 
+## Eindexamen
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 ## Conclusie
 
 

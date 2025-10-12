@@ -2254,6 +2254,13 @@ Anda dapat menguji kedalaman pemahaman Anda dengan menulis [mini-essay](https://
 
 <isCourseReview>true</isCourseReview>
 
+## Ujian Akhir
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 ## Kesimpulan
 
 

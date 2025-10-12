@@ -2254,6 +2254,12 @@ Puedes poner a prueba la profundidad de tu comprensión escribiendo [mini-ensayo
 
 <isCourseReview>true</isCourseReview>
 
+## Examen Final
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
 ## Conclusión
 
 

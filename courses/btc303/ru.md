@@ -2254,6 +2254,13 @@ OpenSSL выпустила новые версии своего программ
 
 <isCourseReview>true</isCourseReview>
 
+## Итоговый экзамен
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 ## Заключение
 
 

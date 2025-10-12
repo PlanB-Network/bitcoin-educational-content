@@ -2254,6 +2254,12 @@ Potete verificare la profondità della vostra comprensione scrivendo un [mini-sa
 
 <isCourseReview>true</isCourseReview>
 
+## Esame Finale
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
 ## Conclusione
 
 

@@ -2254,6 +2254,13 @@ Bitcoinにはバグがあります。バグを発見した人は、Bitcoinの開
 
 <isCourseReview>true</isCourseReview>
 
+## 期末試験
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 ## 結論
 
 

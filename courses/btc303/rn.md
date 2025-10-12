@@ -2254,6 +2254,14 @@ Ushobora kugerageza uburebure bw’ugutahura kwawe mu kwandika [inkuru ntoyi](ht
 
 <isCourseReview>true</isCourseReview>
 
+## Ikizamini Cya nyuma
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
+
 ## Iciyumviro
 
 

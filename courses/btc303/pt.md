@@ -2254,6 +2254,14 @@ Pode testar a profundidade da sua compreensão escrevendo um [mini-ensaio](https
 
 <isCourseReview>true</isCourseReview>
 
+## Exame Final
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
+
 ## Conclusão
 
 

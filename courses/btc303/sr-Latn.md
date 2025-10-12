@@ -2197,3 +2197,27 @@ Možete testirati dubinu svog razumevanja pisanjem [mini-eseja](https://www.yout
 - Zašto je vertikalno skaliranje mnogo teže u decentralizovanom sistemu? Šta je sa horizontalnim skaliranjem?
 - Čini se da nismo ni blizu postizanja konsenzusa o tome kako bismo mogli uključiti ceo svet na Bitcoin. Zar Satoshi nije trebalo barem da razmisli o putu ka tome, pre nego što je Mining prvi blok 2009?
 - Kako biste klasifikovali (vertikalna, horizontalna, unutrašnja, ili nije tehnika skaliranja) svaku od sledećih: sharding, povećanje veličine bloka, SegWit, SPV čvorovi, centralizovane berze, Lightning Network, smanjenje intervala bloka, Taproot, bočni lanci
+
+
+# Završni deo
+
+<partId>4b6ff4ef-b9ea-4c48-b05f-62d41a38fbbb</partId>
+
+## Recenzije i ocene
+
+<chapterId>d334a837-df46-4989-9cad-8d8779147dbe</chapterId>
+
+<isCourseReview>true</isCourseReview>
+
+## Završni ispit
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
+## Zaključak
+
+<chapterId>b77ed55c-b13a-430b-a212-37aab527b9e7</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>
+

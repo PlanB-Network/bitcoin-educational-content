@@ -2254,6 +2254,12 @@ Bitcoin دارای اشکالاتی است. از افرادی که اشکالا�
 
 <isCourseReview>true</isCourseReview>
 
+## آزمون نهایی
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
 ## نتیجه‌گیری
 
 

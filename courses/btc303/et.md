@@ -2254,6 +2254,12 @@ Saate testida oma arusaamise sügavust, kirjutades [mini-essee](https://www.yout
 
 <isCourseReview>true</isCourseReview>
 
+## Lõpueksam
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
 ## Kokkuvõte
 
 

@@ -1,0 +1,8 @@
+question: What fundamental characteristic distinguishes the book's definition of Bitcoin scaling from common alternative definitions used in the Bitcoin space?
+answer: It explicitly requires maintaining censorship resistance as a constraint while increasing usage capacity
+wrong_answers:
+  - It focuses exclusively on increasing blockchain transaction throughput rather than efficiency improvements
+  - It prioritizes layered architecture development over any modifications to the base blockchain protocol
+  - It emphasizes reducing computational requirements for nodes rather than expanding network capacity
+explanation: |
+  The book defines scaling as 'increasing Bitcoin's usage capacity without compromising its censorship resistance,' which explicitly includes the censorship resistance constraint. This distinguishes it from other definitions that focus solely on transaction capacity increases, efficiency improvements, or layered systems without considering the preservation of Bitcoin's fundamental properties. The censorship resistance requirement ensures that scaling solutions don't undermine Bitcoin's core value proposition of being a trustless, decentralized system that cannot be controlled by any single entity.

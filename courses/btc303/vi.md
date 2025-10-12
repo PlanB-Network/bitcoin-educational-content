@@ -2197,3 +2197,19 @@ Bạn có thể kiểm tra độ sâu hiểu biết của mình bằng cách vi�
 - Tại sao việc mở rộng theo chiều dọc lại khó khăn hơn nhiều trong một hệ thống phi tập trung? Còn việc mở rộng theo chiều ngang thì sao?
 - Có vẻ như chúng ta vẫn chưa đạt được sự đồng thuận về cách đưa toàn bộ thế giới lên Bitcoin. Satoshi không nên nghĩ đến ít nhất một con đường để đến đó trước Mining, khối đầu tiên vào năm 2009 sao?
 - Bạn sẽ phân loại (theo chiều dọc, chiều ngang, hướng vào trong hoặc không phải là kỹ thuật mở rộng quy mô) từng kỹ thuật sau đây như thế nào: phân mảnh, tăng kích thước khối, SegWit, các nút SPV, các sàn giao dịch tập trung, Lightning Network, giảm khoảng thời gian khối, Taproot, chuỗi bên
+
+
+# Phần Cuối
+<partId>4b6ff4ef-b9ea-4c48-b05f-62d41a38fbbb</partId>
+
+## Đánh giá & Xếp hạng
+<chapterId>d334a837-df46-4989-9cad-8d8779147dbe</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Kỳ thi Cuối kỳ
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kết luận
+<chapterId>b77ed55c-b13a-430b-a212-37aab527b9e7</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

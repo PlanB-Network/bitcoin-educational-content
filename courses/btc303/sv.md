@@ -2254,6 +2254,12 @@ Du kan testa din förståelse genom att skriva en [mini-essä](https://www.youtu
 
 <isCourseReview>true</isCourseReview>
 
+## Slutprov
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
 ## Slutsats
 
 

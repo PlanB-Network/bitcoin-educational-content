@@ -2254,6 +2254,13 @@ Sie können die Tiefe Ihres Verständnisses testen, indem Sie einen [Mini-Essay]
 
 <isCourseReview>true</isCourseReview>
 
+## Abschlussprüfung
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
+
 ## Schlussfolgerung
 
 

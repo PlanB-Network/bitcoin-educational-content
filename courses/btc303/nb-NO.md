@@ -2254,6 +2254,14 @@ Du kan teste dybden av din forståelse ved å skrive [mini-essay](https://www.yo
 
 <isCourseReview>true</isCourseReview>
 
+## Avsluttende prøve
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
+
 ## Konklusjon
 
 

@@ -2254,6 +2254,11 @@ Bitcoin 有錯誤。我們鼓勵發現 Bug 的人負責任地向 Bitcoin 開發�
 
 <isCourseReview>true</isCourseReview>
 
+## 期末考試
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<isCourseExam>true</isCourseExam>
+
+
 ## 總結
 
 

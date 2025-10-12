@@ -2254,6 +2254,10 @@ Bitcoin 存在错误。我们鼓励发现漏洞的用户负责任地向 Bitcoin 
 
 <isCourseReview>true</isCourseReview>
 
+## 期末考试
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## 结论
 
 
@@ -2261,3 +2265,5 @@ Bitcoin 存在错误。我们鼓励发现漏洞的用户负责任地向 Bitcoin 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
+

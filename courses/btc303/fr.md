@@ -2204,6 +2204,12 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 <isCourseReview>true</isCourseReview>
 
+## Examen final
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
 ## Conclusion
 
 

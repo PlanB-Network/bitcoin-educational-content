@@ -2170,17 +2170,11 @@ Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtub
 #### Mtazamo wa kiadui
 
 
-
-
 - Sybil attack ni nini, na ni nini hufanya mtandao uliogawanyika kukabiliwa na hilo?
 - Kwa nini ni muhimu kwamba wachezaji wote katika mtandao wa Bitcoin - na sio watengenezaji tu - wafikirie vibaya?
 
 
-
 #### Open source 
-
-
-
 
 - Ni watunzaji wachache pekee walio na ruhusa zinazohitajika za GitHub za kuunganisha msimbo kwenye hazina ya [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Je, hiyo si inapingana na mtandao usio na ruhusa?
 - Je, mchakato wa ukuzaji wa chanzo huria unaweza kukabiliwa na Sybil attack? Ikiwa ndivyo, ungepingaje hilo?
@@ -2192,11 +2186,30 @@ Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtub
 
 #### Scaling 
 
-
-
-
 - Inasemekana kwamba sharding inatoa faida za kuongeza uwezo wa mfumo kwa gharama ya kuongeza ugumu. Kwa nini tunapaswa au tusipaswe kukubali maboresho ya kiteknolojia kwa sababu tu ni magumu kuyaelewa, hata kama yanaonekana kuwa sahihi kiteknolojia?
 - Je,Ni mifano gani ya mbinu za inward scaling zilizowahi kuanzishwa kwenye Bitcoin?
 - Kwa nini kuongeza wima ni ngumu zaidi katika mfumo wa madaraka? Vipi kuhusu horizontal scaling?
 - Hatuonekani kuwa karibu kuwa na makubaliano kuhusu jinsi tunavyoweza kuabiri dunia nzima kwenye Bitcoin. Satoshi hapaswi kufikiria angalau njia ya kufika huko, kabla ya kumine block ya kwanza mnamo 2009?
 - Unawezaje kuainisha (wima, mlalo, mbinu ya ndani, au isiyo ya kuongeza) kila mojawapo ya yafuatayo: kugawanyika, ongezeko la ukubwa wa blocksize, SegWit, node za SPV, centralized exchanges, Lightning Network, block interval decrease, Taproot, Sidechain 
+
+# Sehemu ya Mwisho
+<partId>4b6ff4ef-b9ea-4c48-b05f-62d41a38fbbb</partId>
+
+## Mapitio na Ukadiriaji
+<chapterId>d334a837-df46-4989-9cad-8d8779147dbe</chapterId>
+
+<isCourseReview>true</isCourseReview>
+
+## Ujian Akhir
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
+## Hitimisho
+
+
+<chapterId>b77ed55c-b13a-430b-a212-37aab527b9e7</chapterId>
+
+
+<isCourseConclusion>true</isCourseConclusion>
+

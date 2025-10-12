@@ -2254,6 +2254,13 @@ Możesz sprawdzić głębię swojego zrozumienia, pisząc [mini-esej](https://ww
 
 <isCourseReview>true</isCourseReview>
 
+## Egzamin końcowy
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 ## Wnioski
 
 

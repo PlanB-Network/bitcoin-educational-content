@@ -1,0 +1,8 @@
+question: What is the main vulnerability that caused early digital currency attempts to fail before Bitcoin?
+answer: They relied on central servers that could be censored or shut down
+wrong_answers:
+  - They used inadequate cryptographic algorithms for transaction security
+  - They lacked sufficient computing power to process transactions efficiently
+  - They failed to implement proper user authentication mechanisms
+explanation: |
+  Early digital currencies failed because they depended on central servers for transaction processing and validation. As explained in the chapter, this centralization became their "Achilles' heel" because governments or other adversaries could easily censor, control, or shut down these central points of failure. Even attempts to use multiple servers in a federation still left the system vulnerable since each server could "fail, or be made to fail, one by one." Bitcoin solved this by eliminating the need for any central authority through its decentralized proof-of-work system.

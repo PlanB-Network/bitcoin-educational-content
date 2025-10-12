@@ -2254,6 +2254,13 @@ Voit testata ymmärryksesi syvyyttä kirjoittamalla 100-300 sanan [mini-esseen](
 
 <isCourseReview>true</isCourseReview>
 
+## Loppukoe
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
+
 ## Päätelmä
 
 

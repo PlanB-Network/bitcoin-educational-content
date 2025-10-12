@@ -2241,23 +2241,18 @@ Bu soru havuzundaki konuyu seçerek 100-300 kelimelik [mini-essay] (https://www.
 
 
 # Son Bölüm
-
-
 <partId>4b6ff4ef-b9ea-4c48-b05f-62d41a38fbbb</partId>
 
 
 ## Yorumlar & Derecelendirmeler
-
-
 <chapterId>d334a837-df46-4989-9cad-8d8779147dbe</chapterId>
-
-
 <isCourseReview>true</isCourseReview>
 
+## Final Sınavı
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<isCourseExam>true</isCourseExam>
+
+
 ## Sonuç
-
-
 <chapterId>b77ed55c-b13a-430b-a212-37aab527b9e7</chapterId>
-
-
 <isCourseConclusion>true</isCourseConclusion>

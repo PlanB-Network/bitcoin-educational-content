@@ -2254,6 +2254,13 @@ Bitcoin에 버그가 있습니다. 버그를 발견한 사람은 버그를 공�
 
 <isCourseReview>true</isCourseReview>
 
+## 기말시험
+
+<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 ## 결론
 
 

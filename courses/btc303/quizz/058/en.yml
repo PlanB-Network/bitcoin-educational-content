@@ -1,0 +1,8 @@
+question: According to the open source definition requirements, what must happen when source code is deliberately obfuscated in an open source software distribution?
+answer: The deliberately obfuscated source code violates open source principles and is not allowed
+wrong_answers:
+  - The obfuscated code must be accompanied by detailed documentation explaining its functionality
+  - The obfuscated code is acceptable as long as compiled binaries are also provided
+  - The obfuscated code must be made available through a separate download with reproduction costs
+explanation: |
+  The open source definition explicitly states that 'deliberately obfuscated source code is not allowed.' This is a fundamental requirement because obfuscation prevents meaningful scrutiny, modification, and understanding of the code, which defeats the core purposes of open source software. The source code must be in 'the preferred form in which a programmer would modify the program,' making obfuscation incompatible with open source principles regardless of documentation or distribution methods.

@@ -6,4 +6,4 @@ wrong_answers:
   - "fd00::1"
 explanation: |
   L’adresse "::1/128" est utilisée pour le loopback, pour les tests internes à la machine.
-reviewed: false
+reviewed: true 

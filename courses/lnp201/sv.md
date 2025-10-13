@@ -76,6 +76,21 @@ Slutligen kommer vi att avsluta utbildningen genom att sammanfatta de begrepp so
 
 *Här är några termer som du kommer att stöta på i kursens diagram på engelska, tillsammans med deras översättning för att hjälpa dig att förstå dem bättre på ditt språk:*
 
+| Engelska           | Översättning - förklaring     |
+| ------------------ | ----------------------------- |
+| *timelock*         | Tidslås                       |
+| *Revocation Key*   | Återkallelse-nyckel           |
+| *invoice*          | Faktura / betalningsbegäran   |
+| *sig* (signature)  | Signatur                      |
+| *secret*           | Hemlighet                     |
+| *amount*           | Belopp                        |
+| *scan QR code*     | Skanna QR-kod                 |
+| *Show QR code*     | Visa QR-kod                   |
+| *Asks the invoice* | Begär fakturan                |
+| *Give the invoice* | Ger fakturan                  |
+| *Payment*          | Betalning                     |
+| *Preimage*         | Förbild                       |
+
 # De grundläggande principerna
 
 

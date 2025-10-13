@@ -52,6 +52,21 @@ Oletko valmis oppimaan Lightning Networkin tekniset mekanismit? Aloitetaan!
 
 *Tässä on joitakin termejä, joita kohtaat kurssin kaavioissa englanniksi, yhdessä niiden käännösten kanssa auttaaksesi sinua ymmärtämään niitä paremmin omalla kielelläsi:*
 
+| Englanti           | Käännös - selitys             |
+| ------------------ | ----------------------------- |
+| *timelock*         | Aikalukko                     |
+| *Revocation Key*   | Kumousavain                   |
+| *invoice*          | Lasku / maksupyyntö           |
+| *sig* (signature)  | Allekirjoitus                 |
+| *secret*           | Salaisuus                     |
+| *amount*           | Summa                         |
+| *scan QR code*     | Skannaa QR-koodi              |
+| *Show QR code*     | Näytä QR-koodi                |
+| *Asks the invoice* | Pyytää laskua                 |
+| *Give the invoice* | Antaa laskun                  |
+| *Payment*          | Maksu                         |
+| *Preimage*         | Esikuva                       |
+
 # Perusteet
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

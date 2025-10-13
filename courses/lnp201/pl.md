@@ -75,6 +75,21 @@ Gotowy do odkrycia technicznych mechanizmów sieci Lightning? Zaczynajmy!
 
 *Oto kilka terminów, które napotkasz na schematach kursu w języku angielskim, wraz z ich tłumaczeniem, aby pomóc ci lepiej je zrozumieć w twoim języku:*
 
+| Angielski          | Tłumaczenie - wyjaśnienie     |
+| ------------------ | ----------------------------- |
+| *timelock*         | Blokada czasowa               |
+| *Revocation Key*   | Klucz odwołania               |
+| *invoice*          | Faktura / żądanie płatności   |
+| *sig* (signature)  | Podpis                        |
+| *secret*           | Sekret                        |
+| *amount*           | Kwota                         |
+| *scan QR code*     | Zeskanuj kod QR               |
+| *Show QR code*     | Pokaż kod QR                  |
+| *Asks the invoice* | Prosi o fakturę               |
+| *Give the invoice* | Dostarcza fakturę             |
+| *Payment*          | Płatność                      |
+| *Preimage*         | Przedobraz                    |
+
 # Podstawy
 
 

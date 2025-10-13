@@ -76,6 +76,21 @@ Klaar om de technische mechanismen van de Lightning Network te ontdekken? Laten 
 
 *Hier zijn enkele termen die je in de cursusdiagrammen in het Engels zult tegenkomen, samen met hun vertaling om je te helpen ze beter te begrijpen in je eigen taal:*
 
+| Engels             | Vertaling - uitleg            |
+| ------------------ | ----------------------------- |
+| *timelock*         | Tijdslot                      |
+| *Revocation Key*   | Intrekkingssleutel            |
+| *invoice*          | Factuur / betalingsverzoek    |
+| *sig* (signature)  | Handtekening                  |
+| *secret*           | Geheim                        |
+| *amount*           | Bedrag                        |
+| *scan QR code*     | QR-code scannen               |
+| *Show QR code*     | QR-code tonen                 |
+| *Asks the invoice* | Vraagt de factuur aan         |
+| *Give the invoice* | Geeft de factuur              |
+| *Payment*          | Betaling                      |
+| *Preimage*         | Voorbeeld                     |
+
 # De grondbeginselen
 
 

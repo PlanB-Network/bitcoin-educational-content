@@ -48,10 +48,6 @@ Finally, we will conclude the training by recapping the concepts covered and pav
 
 Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive in!
 
----
-
-*Here are some terms you will encounter in the course diagrams in English, along with their translation to help you better understand them in your language:*
-
 # The Fundamentals
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

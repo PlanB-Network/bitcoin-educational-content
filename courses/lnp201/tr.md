@@ -76,6 +76,21 @@ Lightning Network'un teknik mekanizmalarını ortaya çıkarmaya hazır mısın�
 
 *İngilizce ders şemalarında karşılaşacağınız bazı terimler ve bunları kendi dilinizde daha iyi anlamanıza yardımcı olacak çevirileri şunlardır:*
 
+| İngilizce          | Çeviri - açıklama             |
+| ------------------ | ----------------------------- |
+| *timelock*         | Zaman kilidi                  |
+| *Revocation Key*   | İptal anahtarı                |
+| *invoice*          | Fatura / ödeme talebi         |
+| *sig* (signature)  | İmza                          |
+| *secret*           | Sır                           |
+| *amount*           | Tutar                         |
+| *scan QR code*     | QR kodu tara                  |
+| *Show QR code*     | QR kodu göster                |
+| *Asks the invoice* | Faturayı ister                |
+| *Give the invoice* | Faturayı verir                |
+| *Payment*          | Ödeme                         |
+| *Preimage*         | Ön imaj                       |
+
 # Temel Bilgiler
 
 

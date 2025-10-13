@@ -52,6 +52,21 @@ Klar til å oppdage de tekniske mekanismene i Lightning Network? La oss sette i 
 
 *Her er noen begreper du vil møte i kursdiagrammene på engelsk, sammen med deres oversettelse for å hjelpe deg å forstå dem bedre på ditt eget språk:*
 
+| Engelsk            | Oversettelse - forklaring     |
+| ------------------ | ----------------------------- |
+| *timelock*         | Tidslås                       |
+| *Revocation Key*   | Tilbakekallingsnøkkel         |
+| *invoice*          | Faktura / betalingsforespørsel|
+| *sig* (signature)  | Signatur                      |
+| *secret*           | Hemmelighet                   |
+| *amount*           | Beløp                         |
+| *scan QR code*     | Skann QR-koden                |
+| *Show QR code*     | Vis QR-koden                  |
+| *Asks the invoice* | Ber om faktura                |
+| *Give the invoice* | Gir faktura                   |
+| *Payment*          | Betaling                      |
+| *Preimage*         | Forbilde                      |
+
 # Grunnleggende
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

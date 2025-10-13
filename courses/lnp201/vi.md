@@ -52,6 +52,21 @@ Sẵn sàng khám phá các cơ chế kỹ thuật của Lightning Network? Hãy
 
 *Dưới đây là một số thuật ngữ bạn sẽ gặp trong các sơ đồ khóa học bằng tiếng Anh, cùng với bản dịch của chúng để giúp bạn hiểu rõ hơn bằng ngôn ngữ của mình:*
 
+| Tiếng Anh          | Dịch - giải thích             |
+| ------------------ | ----------------------------- |
+| *timelock*         | Khóa thời gian                |
+| *Revocation Key*   | Khóa thu hồi                  |
+| *invoice*          | Hóa đơn / yêu cầu thanh toán  |
+| *sig* (signature)  | Chữ ký                        |
+| *secret*           | Bí mật                        |
+| *amount*           | Số tiền                       |
+| *scan QR code*     | Quét mã QR                    |
+| *Show QR code*     | Hiển thị mã QR                |
+| *Asks the invoice* | Yêu cầu hóa đơn               |
+| *Give the invoice* | Cung cấp hóa đơn              |
+| *Payment*          | Thanh toán                    |
+| *Preimage*         | Ảnh gốc                       |
+
 # Cơ bản
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

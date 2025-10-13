@@ -56,6 +56,21 @@ Spremni da otkrijete tehničke mehanizme Lightning Network-a? Hajde da zaronimo!
 
 *Evo nekoliko pojmova na koje ćete naići u šemama kursa na engleskom jeziku, zajedno sa njihovim prevodom kako biste ih bolje razumeli na svom jeziku:*
 
+| Engleski           | Prevod - objašnjenje          |
+| ------------------ | ----------------------------- |
+| *timelock*         | Vremenska brava               |
+| *Revocation Key*   | Ključ za opoziv               |
+| *invoice*          | Faktura / zahtev za plaćanje  |
+| *sig* (signature)  | Potpis                        |
+| *secret*           | Tajna                         |
+| *amount*           | Iznos                         |
+| *scan QR code*     | Skeniraj QR kod               |
+| *Show QR code*     | Prikaži QR kod                |
+| *Asks the invoice* | Traži fakturu                 |
+| *Give the invoice* | Daje fakturu                  |
+| *Payment*          | Plaćanje                      |
+| *Preimage*         | Preoblik                      |
+
 # Osnove
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

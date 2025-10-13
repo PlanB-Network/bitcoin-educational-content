@@ -52,6 +52,21 @@ Pronto a scoprire i meccanismi tecnici di Lightning Network? Andiamo!
 
 *Ecco alcuni termini che incontrerai negli schemi del corso in inglese, accompagnati dalla loro traduzione per aiutarti a comprenderli meglio nella tua lingua:*
 
+| Inglese            | Traduzione - spiegazione      |
+| ------------------ | ----------------------------- |
+| *timelock*         | Blocco temporale              |
+| *Revocation Key*   | Chiave di revoca              |
+| *invoice*          | Fattura / richiesta di pagamento|
+| *sig* (signature)  | Firma                         |
+| *secret*           | Segreto                       |
+| *amount*           | Importo                       |
+| *scan QR code*     | Scansiona il codice QR        |
+| *Show QR code*     | Mostra il codice QR           |
+| *Asks the invoice* | Richiede la fattura           |
+| *Give the invoice* | Fornisce la fattura           |
+| *Payment*          | Pagamento                     |
+| *Preimage*         | Preimmagine                   |
+
 # Le basi
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

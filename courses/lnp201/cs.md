@@ -52,6 +52,21 @@ Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 
 *Zde je několik termínů, se kterými se setkáte ve schématech kurzu v angličtině, doplněných o jejich překlad, aby vám pomohly je lépe pochopit ve vašem jazyce:*
 
+| Anglicky            | Překlad - vysvětlení          |
+| ------------------ | ----------------------------- |
+| *timelock*         | Časový zámek                  |
+| *Revocation Key*   | Klíč pro odvolání             |
+| *invoice*          | Faktura / žádost o platbu     |
+| *sig* (signature)  | Podpis                        |
+| *secret*           | Tajemství                     |
+| *amount*           | Částka                        |
+| *scan QR code*     | Naskenovat QR kód             |
+| *Show QR code*     | Zobrazit QR kód               |
+| *Asks the invoice* | Požaduje fakturu              |
+| *Give the invoice* | Poskytuje fakturu             |
+| *Payment*          | Platba                        |
+| *Preimage*         | Předobraz                     |
+
 # Základy
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

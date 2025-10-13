@@ -52,6 +52,21 @@ LNP201コースへようこそ！
 
 *以下は、英語のコース図で見かけるいくつかの用語と、それらをあなたの言語でよりよく理解するための翻訳です：*
 
+| 英語               | 翻訳 - 説明                   |
+| ------------------ | ----------------------------- |
+| *timelock*         | タイムロック                  |
+| *Revocation Key*   | 取消キー                      |
+| *invoice*          | 請求書 / 支払い依頼           |
+| *sig* (signature)  | 署名                          |
+| *secret*           | 秘密                          |
+| *amount*           | 金額                          |
+| *scan QR code*     | QRコードをスキャンする        |
+| *Show QR code*     | QRコードを表示する            |
+| *Asks the invoice* | 請求書を要求する              |
+| *Give the invoice* | 請求書を提供する              |
+| *Payment*          | 支払い                        |
+| *Preimage*         | プレイメージ                  |
+
 # 基礎
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

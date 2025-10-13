@@ -52,6 +52,21 @@ objectives:
 
 *以下是您在英文課程圖中會遇到的一些術語，以及它們的翻譯，以幫助您更好地用自己的語言理解它們：*
 
+| 英文               | 翻譯 - 說明                   |
+| ------------------ | ----------------------------- |
+| *timelock*         | 時間鎖                        |
+| *Revocation Key*   | 撤銷金鑰                      |
+| *invoice*          | 發票 / 付款請求               |
+| *sig* (signature)  | 簽名                          |
+| *secret*           | 秘密                          |
+| *amount*           | 金額                          |
+| *scan QR code*     | 掃描二維碼                    |
+| *Show QR code*     | 顯示二維碼                    |
+| *Asks the invoice* | 請求發票                      |
+| *Give the invoice* | 提供發票                      |
+| *Payment*          | 付款                          |
+| *Preimage*         | 原像                          |
+
 # 基本原理
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

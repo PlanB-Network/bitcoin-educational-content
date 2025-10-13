@@ -51,6 +51,21 @@ Je, uko tayari kufichua mbinu za kiufundi za Mtandao wa Umeme? Hebu tuzame ndani
 
 *Hapa kuna baadhi ya maneno utakayokutana nayo katika michoro ya kozi kwa Kiingereza, pamoja na tafsiri yake ili kukusaidia kuyaelewa vyema katika lugha yako:*
 
+| Kiingereza         | Tafsiri - maelezo             |
+| ------------------ | ----------------------------- |
+| *timelock*         | Kufuli la muda                |
+| *Revocation Key*   | Ufunguo wa kufuta             |
+| *invoice*          | Ankara / ombi la malipo       |
+| *sig* (signature)  | Sahihi                        |
+| *secret*           | Siri                          |
+| *amount*           | Kiasi                         |
+| *scan QR code*     | Changanua msimbo wa QR        |
+| *Show QR code*     | Onyesha msimbo wa QR          |
+| *Asks the invoice* | Anaomba Ankara                |
+| *Give the invoice* | Anatoa Ankara                 |
+| *Payment*          | Malipo                        |
+| *Preimage*         | Picha ya awali                |
+
 # Misingi
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

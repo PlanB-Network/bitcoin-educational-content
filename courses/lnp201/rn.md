@@ -76,6 +76,21 @@ Ni mwiteguye guhishura uburyo bw’ubuhinga bwa Lightning Network? Reka twinjire
 
 *Aha hari amazina amwe uzasangamo muri shema z’amasomo mu cyongereza, hamwe n’ubusobanuro bw’ayo kugira ngo bigufashe kuyasobanukirwa neza mu rurimi rwawe:*
 
+| Icongereza         | Ibisobanuro - ubusobanuro     |
+| ------------------ | ----------------------------- |
+| *timelock*         | Ifunguzo ry’igihe             |
+| *Revocation Key*   | Urufunguzo rwo gukuraho       |
+| *invoice*          | Invoisi / gusaba kwishyura    |
+| *sig* (signature)  | Umukono                       |
+| *secret*           | Ibanga                        |
+| *amount*           | Amafaranga                    |
+| *scan QR code*     | Sikana kode ya QR             |
+| *Show QR code*     | Erekana kode ya QR            |
+| *Asks the invoice* | Saba invoisi                  |
+| *Give the invoice* | Tanga invoisi                 |
+| *Payment*          | Kwishura                      |
+| *Preimage*         | Ishusho y’imbere              |
+
 # Ivy'ishimikiro
 
 

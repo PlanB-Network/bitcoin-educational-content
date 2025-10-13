@@ -52,6 +52,21 @@ Siap untuk mengungkap mekanisme teknis di balik Lightning Network (Jaringan Ligh
 
 *Berikut beberapa istilah yang akan Anda temui dalam diagram kursus berbahasa Inggris, beserta terjemahannya untuk membantu Anda memahaminya dengan lebih baik dalam bahasa Anda:*
 
+| Inggris            | Terjemahan - penjelasan       |
+| ------------------ | ----------------------------- |
+| *timelock*         | Kunci waktu                   |
+| *Revocation Key*   | Kunci pencabutan              |
+| *invoice*          | Faktur / permintaan pembayaran|
+| *sig* (signature)  | Tanda tangan                  |
+| *secret*           | Rahasia                       |
+| *amount*           | Jumlah                        |
+| *scan QR code*     | Pindai kode QR                |
+| *Show QR code*     | Tampilkan kode QR             |
+| *Asks the invoice* | Meminta faktur                |
+| *Give the invoice* | Memberikan faktur             |
+| *Payment*          | Pembayaran                    |
+| *Preimage*         | Pra-gambar                    |
+
 # Dasar-Dasar
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

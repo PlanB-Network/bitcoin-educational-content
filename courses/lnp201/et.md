@@ -52,6 +52,21 @@ Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
 
 *Siin on mõned terminid, millega kohtate kursuse skeemides inglise keeles, koos nende tõlkega, et aidata teil neid oma keeles paremini mõista:*
 
+| Inglise            | Tõlge - selgitus              |
+| ------------------ | ----------------------------- |
+| *timelock*         | Ajalukk                       |
+| *Revocation Key*   | Tühistamisvõti                |
+| *invoice*          | Arve / maksenõue              |
+| *sig* (signature)  | Allkiri                       |
+| *secret*           | Saladus                       |
+| *amount*           | Summa                         |
+| *scan QR code*     | Skaneeri QR-koodi             |
+| *Show QR code*     | Näita QR-koodi                |
+| *Asks the invoice* | Küsib arvet                   |
+| *Give the invoice* | Annab arve                    |
+| *Payment*          | Makse                         |
+| *Preimage*         | Eelkujutis                    |
+
 # Alused
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

@@ -76,6 +76,21 @@ Lightning Network의 기술적 메커니즘을 알아볼 준비가 되셨나요?
 
 *여기 영어 강의 도표에서 보게 될 몇 가지 용어와, 이를 당신의 언어로 더 잘 이해할 수 있도록 돕기 위한 번역이 있습니다:*
 
+| 영어               | 번역 - 설명                   |
+| ------------------ | ----------------------------- |
+| *timelock*         | 시간 잠금                     |
+| *Revocation Key*   | 해지 키                       |
+| *invoice*          | 청구서 / 결제 요청            |
+| *sig* (signature)  | 서명                          |
+| *secret*           | 비밀                          |
+| *amount*           | 금액                          |
+| *scan QR code*     | QR 코드 스캔                  |
+| *Show QR code*     | QR 코드 표시                  |
+| *Asks the invoice* | 청구서를 요청함               |
+| *Give the invoice* | 청구서를 제공함               |
+| *Payment*          | 결제                          |
+| *Preimage*         | 프리이미지                    |
+
 # 기본 사항
 
 

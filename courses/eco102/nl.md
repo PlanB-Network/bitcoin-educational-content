@@ -82,6 +82,8 @@ Klaar om te ontdekken hoe de ideeën van Frédéric Bastiat vandaag de dag nog s
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Deze cursus is een introductie tot Frédéric Bastiat, een miskend genie en een baken voor onze tijd. In deze korte inleiding zal ik proberen je te laten ontdekken wie Frédéric Bastiat was en wat de belangrijkste thema's zijn die we tijdens deze serie zullen behandelen.
 
@@ -142,6 +144,8 @@ In deze cursus maken we samen een reis door het denken van Frédéric Bastiat, t
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 In 1844 maakte Frédéric Bastiat een zakenreis naar Spanje. Na een verblijf in Madrid, Sevilla, Cádiz en Lissabon besloot hij in te schepen in Southampton en Engeland te bezoeken. In Londen had hij de gelegenheid om vergaderingen bij te wonen van de Anti-Corn Law League, waarvan hij het werk van op afstand had gevolgd. Hij ontmoette de belangrijkste leiders van deze bond, waaronder Richard Cobden, die zijn vriend zou worden.
@@ -218,6 +222,8 @@ Hij stierf in 1850 in Rome aan tuberculose. Hij ligt begraven in de Saint Louis 
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 Op het gebied van economie erkende Bastiat altijd dat hij schatplichtig was aan Adam Smith en Jean-Baptiste Say. Toen hij 26 was, schreef hij aan een van zijn vrienden: "Ik heb over deze onderwerpen nooit anders gelezen dan deze vier werken, Smith, Say, Destutt en de Censor."
@@ -302,6 +308,8 @@ Producenten nemen hun toevlucht tot overreding, onderhandeling en Contract, terw
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Het is weinig bekend, maar Destutt de Tracy had een beslissende invloed op de toekomstige president van de Verenigde Staten, Thomas Jefferson, toen hij ambassadeur in Parijs was in de jaren 1780.
 
@@ -370,6 +378,8 @@ Concluderend hadden de Ideologen een diepe intuïtie, namelijk dat productie en 
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 De geschiedenis van alle beschavingen is het verhaal van de strijd tussen de plunderende klassen en de productieve klassen. Dit is het credo van de twee auteurs die we gaan bespreken. Zij zijn de grondleggers van een liberale theorie van klassenstrijd die zowel Frédéric Bastiat als Karl Marx inspireerde, hoewel deze laatste de theorie verdraaide.
@@ -447,6 +457,8 @@ Hun ideeën, die zeer vernieuwend waren, zouden voor altijd een stempel drukken 
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 Het is 1838, in Manchester komt een klein aantal tot dan toe onbekende mannen bijeen om een manier te vinden om het monopolie van de tarwe-grondbezitters omver te werpen met wettelijke middelen en om te bereiken, zoals Bastiat later zou vertellen,
@@ -541,6 +553,8 @@ De kwestie van de vrijhandel is vandaag de dag nog steeds relevant. Aardrijkskun
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, die zichzelf uitsprak in de jaren 1840, is de erfgenaam van een generatie Verlichtingsfilosofen die vochten tegen censuur en voor de vrijheid om te debatteren. Denk aan Montesquieu, Diderot, Voltaire, Condorcet, maar ook Rousseau.
 
@@ -611,6 +625,8 @@ Volgens Bastiat bestaan de maatschappij, de mensen en de eigendommen vóór de w
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Op 24 februari 1848, na drie dagen van rellen in Parijs, deed koning Louis-Philippe I afstand van zijn macht. Dit betekende de geboorte van de Tweede Republiek.
 
 
@@ -671,6 +687,8 @@ Maar, zoals Bastiat ons herinnert, monopolie sluit vooruitgang uit.
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/en/057.webp)
@@ -769,6 +787,8 @@ Tot slot hebben protectionisten en socialisten volgens Bastiat een gemeenschappe
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon is een van de belangrijkste vertegenwoordigers van het Franse socialisme in het midden van de 19e eeuw. Hij is vooral beroemd vanwege deze uitspraak: "Eigendom is diefstal" in "Wat is eigendom?" in 1840.
 
@@ -852,6 +872,8 @@ Samenvattend erkenden zowel Proudhon als Bastiat het belang van kapitaalaccumula
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 In dit hoofdstuk onthul ik een gloednieuwe technologie, een revolutionaire technologie. Een onderzoeker heeft een bionische bril ontwikkeld met aan de voorkant een ultrakrachtige minicamera. Deze technologie maakt het mogelijk om details te zien die met het blote oog onmogelijk zijn. In de armen zit een elektronische chip die de beelden rechtstreeks naar de cloud stuurt via mijn smartphone.
 
@@ -910,6 +932,8 @@ De grote les van deze serie teksten is dat staatsinterventie perverse effecten h
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 In 1840 stemde de Kamer van Afgevaardigden voor een wet die de importbelastingen verhoogde om de Franse industrie te beschermen. Dit is het beroemde economische patriottisme dat we vandaag de dag nog steeds tegenkomen.
@@ -987,6 +1011,8 @@ Ware rijkdom, volgens Bastiat, is daarom het geheel van nuttige dingen die we pr
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Als de rijken afvallen, sterven de armen.
@@ -1075,6 +1101,8 @@ En ze zei dit terwijl ze zich richtte tot socialisten.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Veel mensen kennen "Tartuffe of de bedrieger", de komedie van Molière waarin een sluwe volgeling Elmire probeert te verleiden en haar man Orgon probeert op te lichten. Hoe kun je jezelf beschermen tegen de misleidingen van zo'n huichelaar die doet alsof hij goed voor je is, maar tegelijkertijd een complot tegen je smeedt?
 
@@ -1155,6 +1183,8 @@ Eén ding is zeker, het is niet de politiek die de loop der dingen kan verandere
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Kan een harmonieuze samenleving zonder geschreven wetten, regels, repressieve maatregelen? Als mensen vrij worden gelaten, zullen we dan niet getuige zijn van wanorde, anarchie, desorganisatie? Hoe kunnen we voorkomen dat er slechts een aaneenschakeling ontstaat van individuen die buiten elk overleg om handelen, als we dat niet doen door middel van wetten en een gecentraliseerde politieke organisatie?
 
@@ -1209,6 +1239,7 @@ Het herneemt Bastiat's idee van een onzichtbare samenwerking tussen miljoenen in
 
 De Nobelprijs voor Economie van 1976, Milton Friedman, kwam ook terug op dit potloodverhaal om het grote publiek uit te leggen hoe de markteconomie werkt.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 In een aflevering van zijn televisieserie Free to Choose analyseert hij de verschillende onderdelen van iets alledaags en eenvoudigs als een potlood en benadrukt hij het wonder van spontane orde, gegenereerd door duizenden economische interacties over de hele wereld. Mensen die elkaar niet kennen, die niet dezelfde religie of gewoonten hebben, slagen er toch in om samen dit voorwerp te produceren. Hij concludeert dat de vrije markt essentieel is om niet alleen welvaart, maar ook harmonie en vrede te garanderen.
 
@@ -1229,6 +1260,8 @@ Economische planning, die beweert het beter te doen dan de markt, leidt niet all
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 In een brief aan Alphonse de Lamartine in 1845 schreef Bastiat dat zijn hele filosofie vervat zit in één enkel principe:
@@ -1323,6 +1356,8 @@ Met andere woorden, collectieve keuzes zijn geen verantwoorde keuzes omdat ze en
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 In de vorige cursus zagen we waarom vrijheid en verantwoordelijkheid de sleutel zijn tot het sociale probleem. We zullen nu dieper op dit punt ingaan door te laten zien hoe Frédéric Bastiat aankijkt tegen het kwaad dat samenlevingen teistert en de oplossing daarvan.
 
@@ -1399,6 +1434,8 @@ Het moet duidelijk zijn dat deze ontwikkeling van vooruitgang door verantwoordel
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1492,6 +1529,8 @@ De wet kan een mens dwingen rechtvaardig te zijn, maar kan hem niet dwingen toeg
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Onder eigendom moeten we hier niet land verstaan. Het betekent "het recht van een arbeider op de waarde die hij door zijn arbeid heeft gecreëerd" Bastiat preciseert:
 
@@ -1567,6 +1606,8 @@ _(Cicero)_
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 Het belangrijkste idee van Bastiat in "De Wet", zijn beroemde pamflet uit 1850, is om aan te tonen waarom en hoe de wet plunderend is geworden, dat wil zeggen een bron van privileges, situationele huren en fiscale willekeur.
@@ -1647,6 +1688,8 @@ Een eeuw na de dood van Frédéric Bastiat is juridische plundering duidelijk zi
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 In 1848 was Bastiat afgevaardigde. Hij werd benoemd tot vicevoorzitter van de commissie voor financiën. Hij was dus bijzonder goed geplaatst om deze vraag te beantwoorden: wat is de staat? We wenden ons tot de staat om ons welzijn te garanderen. Maar Bastiat herinnert ons eraan dat de staat de burgers niets kan geven dat hij niet eerst van hen heeft afgenomen.
 
@@ -1719,6 +1762,8 @@ Schreef Frédéric Bastiat in een kort pamflet getiteld De Staat.
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 De invloed van Bastiat begon tegen het einde van de 19e eeuw af te nemen, met de opkomst van het socialisme en in het bijzonder het marxisme binnen universiteiten en onderzoeksinstituten, gefinancierd met overheidsgeld.

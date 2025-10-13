@@ -55,6 +55,8 @@ Pronto a scoprire come le idee di Frédéric Bastiat possano ancora risuonare og
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 Questo corso è un'introduzione a Frédéric Bastiat, un genio non riconosciuto e un faro per i nostri tempi. In questa breve introduzione, cercherò di aiutarvi a scoprire chi era Frédéric Bastiat e quali sono i temi principali che tratteremo durante questa serie.
 
 ![image](assets/en/001.webp)
@@ -101,6 +103,8 @@ In questo corso, viaggeremo insieme attraverso il pensiero di Frédéric Bastiat
 ## La Vita e il Contesto Storico
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 Nel 1844, Frédéric Bastiat intraprese un viaggio d'affari in Spagna. Dopo aver soggiornato a Madrid, Siviglia, Cadice e Lisbona, decise di imbarcarsi per Southampton e di visitare l'Inghilterra. A Londra, ebbe l'opportunità di partecipare agli incontri della Anti-Corn Law League, il cui lavoro aveva seguito da lontano. Incontrò i principali leader di questa Associazione, inclusi Richard Cobden, che sarebbe diventato suo amico.
 
@@ -154,6 +158,8 @@ Morì a Roma nel 1850, a causa della tubercolosi. È sepolto nella Chiesa di San
 ## Adam Smith e Jean-Baptiste Say
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 In economia, Bastiat ha sempre riconosciuto il suo debito verso Adam Smith e Jean-Baptiste Say. A 26 anni, scrisse a uno dei suoi amici: "Non ho mai letto su questi argomenti se non queste quattro opere, Smith, Say, Destutt e il Censore."
 
@@ -225,6 +231,8 @@ I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentr
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 È poco noto, ma Destutt de Tracy ebbe un'influenza decisiva sul futuro Presidente degli Stati Uniti, Thomas Jefferson, mentre era ambasciatore a Parigi negli anni '80 del 1700.
 
 >"Per ogni uomo, la sua prima patria è la sua terra natale, e la seconda è la Francia" & "La tirannia è quando il popolo teme il suo governo; la libertà è quando il governo teme il popolo."
@@ -272,6 +280,8 @@ In conclusione, gli Ideologi hanno avuto un'intuizione profonda, ossia che la pr
 ## Charles Comte e Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 La storia di tutte le civiltà è la storia della lotta tra le classi predatrici e le classi produttive. Questo è il credo dei due autori di cui andremo a discutere. Sono gli iniziatori di una teoria liberale della lotta di classe che ha ispirato tanto Frédéric Bastiat quanto Karl Marx, anche se quest'ultimo l'ha distorta.
 
@@ -323,6 +333,8 @@ Le loro idee, profondamente innovative, avrebbero segnato per sempre Frédéric 
 ## Cobden e la Lega
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 Siamo nel 1838, a Manchester, un piccolo numero di uomini, fino ad allora poco conosciuti, si riunisce per trovare un modo per rovesciare il monopolio dei proprietari terrieri del grano attraverso mezzi legali e per compiere, come Bastiat avrebbe in seguito raccontato,
 
@@ -390,6 +402,8 @@ La questione del libero scambio continua ad essere rilevante oggi. I libri di te
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 Frédéric Bastiat, che si esprimeva negli anni 1840, è l'erede di una generazione di filosofi dell'Illuminismo che hanno combattuto contro la censura e per la libertà di dibattito. Pensate a Montesquieu, Diderot, Voltaire, Condorcet, ma anche Rousseau.
 
 Per loro, l'idea era semplice: più le idee possono essere espresse, più la verità progredisce e più facilmente gli errori vengono confutati. La scienza progredisce sempre in questo modo.
@@ -438,6 +452,9 @@ Secondo Bastiat, la società, le persone e le proprietà esistono prima delle le
 ## Educazione Classica
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
+
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Il 24 febbraio 1848, dopo tre giorni di sommosse a Parigi, il re Luigi Filippo I abdicò al suo potere. Questo segnò la nascita della Seconda Repubblica.
 
 ![image](assets/en/052.webp)
@@ -479,6 +496,8 @@ Tuttavia, come ci ricorda Bastiat, il monopolio esclude il progresso.
 ## Protezionismo e Socialismo
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 ![immagine](assets/en/057.webp)
 _(Richard Cobden)_
@@ -547,6 +566,8 @@ Per concludere, protezionisti e socialisti condividono un punto comune, secondo 
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 Pierre-Joseph Proudhon è uno dei principali rappresentanti del socialismo francese a metà del XIX secolo. È particolarmente famoso per questa affermazione: "La proprietà è furto" in "Che cos'è la proprietà?" nel 1840.
 
 ![image](assets/en/064.webp)
@@ -606,6 +627,8 @@ In conclusione, sia Proudhon che Bastiat riconobbero l'importanza dell'accumulaz
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 In questo capitolo, svelerò una tecnologia completamente nuova, una tecnologia rivoluzionaria. Un ricercatore ha sviluppato un paio di occhiali bionici con una mini-telecamera ultra-potente incorporata nella parte frontale. Questa tecnologia permette di vedere dettagli impossibili da vedere ad occhio nudo. Nelle aste, c'è un chip elettronico che trasmette le immagini direttamente al cloud tramite il mio smartphone.
 
 ![image](assets/en/074.webp)
@@ -646,6 +669,8 @@ La grande lezione da questa serie di testi è che l'intervento dello stato ha ef
 ## La petizione dei fabbricanti di candele
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 Nel 1840, la Camera dei Deputati votò per una legge che aumentava le tasse di importazione per proteggere l'industria francese. Questo è il famoso patriottismo economico, che incontriamo ancora oggi.
 
@@ -699,6 +724,8 @@ La vera ricchezza, secondo Bastiat, è quindi l'insieme delle cose utili che pro
 ## Il Saccheggio tramite la Tassazione
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 > Quando i ricchi perdono peso, i poveri muoiono.
 
@@ -764,6 +791,8 @@ Disse questo rivolgendosi ai socialisti.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 Tutti conoscono Tartuffo o l'Impostore, la commedia di Molière in cui un astuto devoto tenta di sedurre Elmire e truffare suo marito Orgon. Come si può proteggersi dagli inganni di un tale ipocrita che finge di volerti bene mentre trama contro di te?
 
 ![image](assets/en/090.webp)
@@ -820,6 +849,8 @@ Una cosa è certa, non è il politico che può cambiare il corso delle cose e pe
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 Una società armoniosa può fare a meno di leggi scritte, regole, misure repressive? Se gli uomini sono lasciati liberi, non assisteremo a disordine, anarchia, disorganizzazione? Come evitare di creare una mera giustapposizione di individui che agiscono al di fuori di qualsiasi concerto, se non attraverso leggi e un'organizzazione politica centralizzata?
 
 Questo è l'argomento spesso invocato da coloro che richiedono la regolamentazione del mercato o la società da sola capace di coordinare gli individui in un tutto coerente e armonioso.
@@ -859,6 +890,8 @@ Riprende l'idea di Bastiat di una cooperazione invisibile tra milioni di individ
 
 Il Premio Nobel per l'Economia del 1976, Milton Friedman, ha anche ripreso questa storia della matita per spiegare al grande pubblico come funziona l'economia di mercato.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
+
 In un episodio della sua serie televisiva Free to Choose, analizza i vari componenti di qualcosa di così comune e semplice come una matita e mette in evidenza il miracolo dell'ordine spontaneo, generato da migliaia di interazioni economiche in tutto il mondo. Persone che non si conoscono, che non condividono la stessa religione o le stesse usanze, riescono comunque a coordinarsi per produrre questo oggetto. Conclude che il libero mercato è essenziale per garantire non solo la prosperità, ma anche l'armonia e la pace.
 
 ![image](assets/en/098.webp)
@@ -872,6 +905,8 @@ La pianificazione economica, che pretende di fare meglio del mercato, porta non 
 ## Libertà e responsabilità sono la chiave del problema sociale
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 In una lettera ad Alphonse de Lamartine nel 1845, Bastiat scrisse che la sua intera filosofia è contenuta in un unico principio:
 
@@ -937,6 +972,8 @@ In altre parole, le scelte collettive non sono scelte responsabili poiché, da u
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 Nel capitolo precedente, abbiamo visto perché la libertà e la responsabilità sono chiavi per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
 
 I liberali sono stati talvolta criticati per aver ignorato il male e per aver costruito l'utopia della libertà pura e perfetta in un mondo ideale. Questa critica è assolutamente infondata riguardo al nostro autore.
@@ -990,6 +1027,8 @@ Deve essere chiarito che questo sviluppo del progresso attraverso la responsabil
 ## Vera e Falsa Solidarietà
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 Frédéric Bastiat, nel suo famoso opuscolo "La Legge", denuncia la perversione della legge che consiste nel legalizzare, sotto il nome di "solidarietà", ciò che deve effettivamente essere chiamato saccheggio. Infatti, c'è una contraddizione nel voler imporre la fraternità attraverso la legge, ciò che oggi chiameremmo "giustizia sociale" o solidarietà.
@@ -1062,6 +1101,8 @@ La redistribuzione forzata non ha nulla a che fare con l'autentica solidarietà 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 Con proprietà, qui, non dobbiamo intendere la terra. Significa "il diritto di un lavoratore sul valore che ha creato attraverso il suo lavoro." Bastiat specifica:
 
 > Considero che il diritto alla proprietà consista nella libertà di disporre prima di tutto della propria persona, poi del proprio lavoro, e infine, dei prodotti del proprio lavoro - il che dimostra, peraltro, che, da un certo punto di vista, libertà e diritto alla proprietà non possono essere distinti l'uno dall'altro.
@@ -1115,6 +1156,8 @@ _(Cicerone)_
 ## Saccheggio Legale: Una Perversione della Legge
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 Il concetto principale di Bastiat in "La Legge", il suo famoso opuscolo datato 1850, è mostrare perché e come la legge sia diventata saccheggio, ovvero una fonte di privilegi, rendite situazionali e arbitrarietà fiscale.
 
@@ -1171,6 +1214,8 @@ Un secolo dopo la morte di Frédéric Bastiat, il saccheggio legale è chiaramen
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 Nel 1848, Bastiat era un deputato. Fu nominato vicepresidente della commissione finanziaria. Era, quindi, particolarmente ben posizionato per rispondere a questa domanda: cos'è lo Stato? Ci rivolgiamo allo Stato per garantire il nostro benessere. Ma Bastiat ci ricorda che lo Stato non può dare nulla ai cittadini che non abbia prima preso da loro.
 
 Bastiat inizia ribaltando un'equazione comunemente accettata: è lo Stato che sostiene la nazione. Tuttavia, lo Stato non può sostenere i cittadini perché non produce ricchezza; si limita a spostarla, a redistribuirla. Al contrario, sono i cittadini che sostengono lo Stato attraverso la creazione di ricchezza.
@@ -1221,6 +1266,8 @@ Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 ## L'eredità di Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 L'influenza di Bastiat iniziò a declinare verso la fine del XIX secolo, con l'ascesa del socialismo e in particolare del marxismo all'interno delle università e degli istituti di ricerca, finanziati con denaro pubblico.
 

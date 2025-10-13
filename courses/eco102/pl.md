@@ -82,6 +82,8 @@ Gotowy, by odkryć, jak idee Frédérica Bastiata są aktualne do dziś? Dołąc
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Ten kurs jest wprowadzeniem do Frédérica Bastiata, nierozpoznanego geniusza i latarni morskiej naszych czasów. W tym krótkim wprowadzeniu postaram się pomóc ci odkryć, kim był Frédéric Bastiat i jakie są główne tematy, które omówimy podczas tej serii.
 
@@ -142,6 +144,8 @@ W tym kursie będziemy wspólnie podróżować przez myśl Frédérica Bastiata,
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 W 1844 roku Frédéric Bastiat odbył podróż służbową do Hiszpanii. Po pobycie w Madrycie, Sewilli, Kadyksie i Lizbonie zdecydował się wyruszyć do Southampton i odwiedzić Anglię. W Londynie miał okazję uczestniczyć w spotkaniach Anti-Corn Law League, której pracę śledził z daleka. Poznał głównych przywódców tego stowarzyszenia, w tym Richarda Cobdena, który stał się jego przyjacielem.
@@ -218,6 +222,8 @@ Zmarł w Rzymie w 1850 roku na gruźlicę. Został pochowany w kościele Saint L
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 W dziedzinie ekonomii Bastiat zawsze uznawał swój dług wobec Adama Smitha i Jeana-Baptiste'a Saya. W wieku 26 lat napisał do jednego ze swoich przyjaciół: "Nigdy nie czytałem na te tematy, ale te cztery dzieła, Smith, Say, Destutt i Cenzor"
@@ -306,6 +312,8 @@ Producenci uciekają się do perswazji, negocjacji i Contract, podczas gdy grabi
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Jest to mało znane, ale Destutt de Tracy miał decydujący wpływ na przyszłego prezydenta Stanów Zjednoczonych, Thomasa Jeffersona, gdy ten był ambasadorem w Paryżu w latach osiemdziesiątych XVIII wieku.
 
@@ -374,6 +382,8 @@ Podsumowując, ideolodzy mieli głęboką intuicję, a mianowicie, że produkcja
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 Historia wszystkich cywilizacji jest historią walki między klasami grabieżczymi a klasami produkcyjnymi. Takie jest credo dwóch autorów, których będziemy omawiać. Są oni twórcami liberalnej teorii walki klas, która zainspirowała zarówno Fryderyka Bastiata, jak i Karola Marksa, choć ten ostatni ją zniekształcił.
@@ -451,6 +461,8 @@ Ich pomysły, głęboko innowacyjne, na zawsze naznaczyły Frédérica Bastiata,
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 Jest rok 1838, w Manchesterze, niewielka liczba ludzi, mało znanych do tego czasu, zbiera się, aby znaleźć sposób na obalenie monopolu właścicieli ziemskich pszenicy za pomocą środków prawnych i osiągnąć, jak później opowie Bastiat,
@@ -545,6 +557,8 @@ Kwestia wolnego handlu jest nadal aktualna. Podręczniki geografii w szkołach t
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, który wypowiedział się w latach czterdziestych XIX wieku, jest spadkobiercą pokolenia oświeceniowych filozofów, którzy walczyli z cenzurą i o wolność debaty. Montesquieu, Diderot, Voltaire, Condorcet, ale także Rousseau.
 
@@ -613,6 +627,8 @@ Według Bastiata społeczeństwo, ludzie i własność istnieją przed prawem, a
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 24 lutego 1848 roku, po trzech dniach zamieszek w Paryżu, król Ludwik Filip I abdykował. Oznaczało to narodziny Drugiej Republiki.
 
 
@@ -673,6 +689,8 @@ Jednak, jak przypomina nam Bastiat, monopol wyklucza postęp.
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/en/057.webp)
@@ -769,6 +787,8 @@ Podsumowując, protekcjoniści i socjaliści mają wspólny punkt, według Basti
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon jest jednym z głównych przedstawicieli francuskiego socjalizmu w połowie XIX wieku. Jest on szczególnie znany ze stwierdzenia: "Własność jest kradzieżą" w "What is Property?" z 1840 roku.
 
@@ -852,6 +872,8 @@ Podsumowując, zarówno Proudhon, jak i Bastiat dostrzegali znaczenie akumulacji
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 W tym rozdziale przedstawię zupełnie nową, rewolucyjną technologię. Pewien badacz opracował parę bionicznych okularów z ultramocną minikamerą wbudowaną z przodu. Technologia ta pozwala dostrzec szczegóły niemożliwe do zobaczenia gołym okiem. W ramionach znajduje się elektroniczny chip, który przesyła obrazy bezpośrednio do chmury za pośrednictwem mojego smartfona.
 
@@ -910,6 +932,8 @@ Wielką lekcją płynącą z tej serii tekstów jest to, że interwencja państw
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 W 1840 r. Izba Deputowanych przegłosowała ustawę zwiększającą podatki importowe w celu ochrony francuskiego przemysłu. Jest to słynny patriotyzm gospodarczy, z którym spotykamy się do dziś.
@@ -987,6 +1011,8 @@ Prawdziwe bogactwo, według Bastiata, jest zatem zbiorem użytecznych rzeczy, kt
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Kiedy bogaci tracą na wadze, biedni umierają.
@@ -1077,6 +1103,8 @@ Powiedziała to, zwracając się do socjalistów.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Wiele osób zna "Tartuffe'a albo oszusta", komedię Moliera, w której przebiegły wielbiciel próbuje uwieść Elmirę i oszukać jej męża Orgona. Jak uchronić się przed oszustwami takiego hipokryty, który udaje, że czyni dobro, a jednocześnie spiskuje przeciwko nam?
 
@@ -1157,6 +1185,8 @@ Jedno jest pewne, to nie polityka może zmienić bieg rzeczy i udoskonalić czł
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Czy harmonijne społeczeństwo może obejść się bez spisanych praw, zasad i środków represji? Jeśli ludzie będą wolni, czy nie będziemy świadkami nieporządku, anarchii, dezorganizacji? Jak uniknąć tworzenia zwykłego zestawienia jednostek działających poza jakimkolwiek koncertem, jeśli nie poprzez prawa i scentralizowaną organizację polityczną?
 
@@ -1211,6 +1241,7 @@ Powraca do idei Bastiata o niewidzialnej współpracy między milionami jednoste
 
 Milton Friedman, laureat Nagrody Nobla w dziedzinie ekonomii w 1976 roku, również powrócił do tej historii z ołówkiem, aby wyjaśnić opinii publicznej, jak działa gospodarka rynkowa.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 W jednym z odcinków swojego serialu telewizyjnego Free to Choose analizuje różne składniki czegoś tak przyziemnego i prostego jak ołówek i podkreśla cud spontanicznego porządku, generowanego przez tysiące interakcji gospodarczych na całym świecie. Ludzie, którzy się nie znają, którzy nie podzielają tej samej religii lub zwyczajów, wciąż potrafią skoordynować, aby wyprodukować ten przedmiot. Dochodzi do wniosku, że wolny rynek jest niezbędny do zapewnienia nie tylko dobrobytu, ale także harmonii i pokoju.
 
@@ -1231,6 +1262,8 @@ Planowanie gospodarcze, które twierdzi, że radzi sobie lepiej niż rynek, prow
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 W liście do Alphonse'a de Lamartine'a z 1845 r. Bastiat napisał, że cała jego filozofia zawarta jest w jednej zasadzie:
@@ -1325,6 +1358,8 @@ Innymi słowy, kolektywne wybory nie są odpowiedzialnymi wyborami, ponieważ z 
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 W poprzednim kursie zobaczyliśmy, dlaczego wolność i odpowiedzialność są kluczem do problemu społecznego. Teraz zagłębimy się w ten punkt, pokazując, w jaki sposób Frédéric Bastiat postrzega zło, które dotyka społeczeństwa i jego rozwiązanie.
 
@@ -1400,6 +1435,8 @@ Należy wyjaśnić, że rozwój postępu poprzez odpowiedzialność nie jest byn
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1491,6 +1528,8 @@ Prawo może zmusić człowieka do bycia sprawiedliwym, ale nie może zmusić go 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Przez własność nie powinniśmy tutaj rozumieć ziemi. Oznacza ona "prawo pracownika do wartości, którą stworzył dzięki swojej pracy" Precyzuje Bastiat:
 
@@ -1566,6 +1605,8 @@ _(Cyceron)_
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 Główną ideą Bastiata w "Prawie", jego słynnym pamflecie z 1850 roku, jest pokazanie, dlaczego i w jaki sposób prawo stało się grabieżą, czyli źródłem przywilejów, czynszów sytuacyjnych i arbitralności podatkowej.
@@ -1646,6 +1687,8 @@ Sto lat po śmierci Frédérica Bastiata, grabież prawna jest wyraźnie widoczn
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 W 1848 r. Bastiat był deputowanym. Został mianowany wiceprzewodniczącym komisji finansowej. Był zatem szczególnie dobrze przygotowany do odpowiedzi na pytanie: czym jest państwo? Zwracamy się do państwa, aby zapewnić sobie dobrobyt. Bastiat przypomina nam jednak, że państwo nie może dać obywatelom niczego, czego wcześniej im nie odebrało.
 
@@ -1718,6 +1761,8 @@ Napisał Frédéric Bastiat w krótkim pamflecie zatytułowanym Państwo.
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 Wpływ Bastiata zaczął spadać pod koniec XIX wieku, wraz z rozwojem socjalizmu, a zwłaszcza marksizmu, na uniwersytetach i w instytutach badawczych, finansowanych z pieniędzy publicznych.

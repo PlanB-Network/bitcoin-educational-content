@@ -55,6 +55,8 @@ Siap untuk menemukan bagaimana ide-ide Frédéric Bastiat masih relevan hingga h
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 Kursus ini adalah pengantar kepada Frédéric Bastiat, seorang jenius yang tidak diakui dan mercusuar untuk zaman kita. Dalam pengantar singkat ini, saya akan mencoba membantu Anda menemukan siapa Frédéric Bastiat dan apa tema-tema utama yang akan kita bahas selama seri ini.
 ![image](assets/en/001.webp)
 
@@ -100,6 +102,8 @@ Dalam kursus ini, kita akan bersama-sama menjelajahi pemikiran Frédéric Bastia
 ## Kehidupan dan Konteks Sejarah
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 Pada tahun 1844, Frédéric Bastiat melakukan perjalanan bisnis ke Spanyol. Setelah tinggal di Madrid, Sevilla, Cadiz, dan Lisabon, dia memutuskan untuk berangkat ke Southampton, dan mengunjungi Inggris. Di London, dia memiliki kesempatan untuk menghadiri pertemuan Anti-Corn Law League, yang pekerjaannya dia telah ikuti dari jauh. Dia bertemu dengan para pemimpin utama Asosiasi ini, termasuk Richard Cobden, yang akan menjadi temannya.
 
@@ -150,6 +154,8 @@ Ia meninggal di Roma pada tahun 1850, akibat tuberkulosis. Ia dimakamkan di Gere
 ## Adam Smith dan Jean-Baptiste Say
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 Dalam ekonomi, Bastiat selalu mengakui hutangnya kepada Adam Smith dan Jean-Baptiste Say. Pada usia 26, ia menulis kepada salah satu temannya, "Saya tidak pernah membaca tentang subjek-subjek ini kecuali empat karya ini, Smith, Say, Destutt, dan Censor."
 
@@ -216,6 +222,9 @@ Produsen menggunakan persuasi, negosiasi, dan kontrak, sementara penjarah menggu
 ## Antoine Destutt de Tracy
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
+
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 Sedikit yang diketahui, namun Destutt de Tracy memiliki pengaruh yang menentukan terhadap Presiden Amerika Serikat masa depan, Thomas Jefferson, saat ia menjadi duta besar di Paris pada tahun 1780-an.
 
 > "Bagi setiap orang, negara pertamanya adalah tanah airnya, dan yang kedua adalah Prancis" & "Tirani adalah ketika rakyat takut pada pemerintahnya; kebebasan adalah ketika pemerintah takut pada rakyatnya."
@@ -262,6 +271,8 @@ Kesimpulannya, Ideolog memiliki intuisi yang mendalam, yaitu bahwa produksi dan 
 ## Charles Comte dan Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 Sejarah semua peradaban adalah cerita tentang perjuangan antara kelas perampok dan kelas produktif. Ini adalah keyakinan dari dua penulis yang akan kita bahas. Mereka adalah pencetus teori liberal tentang perjuangan kelas yang menginspirasi Frédéric Bastiat sebanyak Karl Marx, meskipun yang terakhir menyimpangkannya.
 
@@ -312,6 +323,9 @@ Ide-ide mereka, yang sangat inovatif, akan selamanya menandai Frédéric Bastiat
 ## Cobden dan Liga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
+
 Pada tahun 1838, di Manchester, sejumlah kecil pria, yang hingga saat itu kurang dikenal, berkumpul untuk mencari cara menggulingkan monopoli pemilik tanah gandum melalui cara legal dan untuk mencapai, seperti yang akan diceritakan Bastiat nanti,
 ![image](assets/en/037.webp)
 
@@ -375,6 +389,8 @@ Pertanyaan tentang perdagangan bebas terus relevan hingga hari ini. Buku teks ge
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 Frédéric Bastiat, yang mengungkapkan dirinya pada tahun 1840-an, adalah pewaris generasi filsuf Pencerahan yang berjuang melawan sensor dan demi kebebasan berdebat. Pikirkan tentang Montesquieu, Diderot, Voltaire, Condorcet, tetapi juga Rousseau.
 
 Bagi mereka, ideanya sederhana: semakin banyak ide yang diizinkan untuk diungkapkan, semakin maju kebenaran dan semakin mudah kesalahan dibantah. Ilmu pengetahuan selalu berkembang dengan cara ini.
@@ -420,6 +436,9 @@ Menurut Bastiat, masyarakat, orang-orang, dan properti ada sebelum hukum, dan di
 ## Pendidikan Klasik
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
+
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Pada tanggal 24 Februari 1848, setelah tiga hari kerusuhan di Paris, Raja Louis-Philippe I melepaskan kekuasaannya. Ini menandai kelahiran Republik Kedua.
 
 ![image](assets/en/052.webp)
@@ -462,6 +481,8 @@ Namun, seperti yang diingatkan Bastiat, monopoli mengecualikan kemajuan.
 ## Proteksionisme dan Sosialisme
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 ![image](assets/en/057.webp)
 
@@ -530,6 +551,8 @@ Untuk menyimpulkan, menurut Bastiat, proteksionis dan sosialis memiliki titik pe
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 Pierre-Joseph Proudhon adalah salah satu perwakilan utama sosialisme Prancis pada pertengahan abad ke-19. Dia terutama terkenal dengan pernyataan ini: "Properti adalah pencurian" dalam "Apa itu Properti?" pada tahun 1840.
 
 ![image](assets/en/064.webp)
@@ -581,6 +604,9 @@ Kesimpulannya, baik Proudhon maupun Bastiat mengakui pentingnya akumulasi modal 
 ## Yang Terlihat dan Yang Tidak Terlihat
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
+
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 Dalam bab ini, saya akan mengungkapkan sebuah teknologi baru yang revolusioner. Seorang peneliti telah mengembangkan sepasang kacamata bionik dengan mini-kamera ultra-kuat yang tertanam di bagian depan. Teknologi ini memungkinkan melihat detail yang tidak mungkin dilihat dengan mata telanjang. Di bagian tangkai, terdapat chip elektronik yang mentransmisikan gambar langsung ke cloud melalui smartphone saya.
 ![image](assets/en/074.webp)
 
@@ -619,6 +645,8 @@ Pelajaran besar dari serangkaian teks ini adalah bahwa intervensi negara memilik
 ## Petisi para pembuat lilin
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 Pada tahun 1840, Majelis Deputi memilih untuk sebuah undang-undang yang meningkatkan pajak impor untuk melindungi industri Prancis. Ini adalah patriotisme ekonomi yang terkenal, yang masih kita temui saat ini.
 
@@ -667,6 +695,8 @@ Kekayaan sejati, menurut Bastiat, adalah kumpulan hal-hal berguna yang kita prod
 ## Penjarahan melalui Pajak
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 > Ketika orang kaya kehilangan berat badan, orang miskin mati.
 
@@ -731,6 +761,8 @@ Dan ia mengatakannya saat berbicara kepada kaum sosialis.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 Semua orang tahu Tartuffe atau sang Penipu, komedi oleh Molière di mana seorang pemuja yang licik mencoba untuk merayu Elmire dan menipu suaminya Orgon. Bagaimana seseorang dapat melindungi diri dari penipuan seorang munafik yang berpura-pura melakukan kebaikan sambil merencanakan melawan Anda?
 
 ![image](assets/en/090.webp)
@@ -784,6 +816,8 @@ Satu hal yang pasti, bukan politik yang dapat mengubah jalannya hal-hal dan meny
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 Bisakah masyarakat yang harmonis berfungsi tanpa undang-undang tertulis, aturan, tindakan represif? Jika manusia dibiarkan bebas, bukankah kita akan menyaksikan kekacauan, anarki, disorganisasi? Bagaimana cara menghindari menciptakan sekadar yuxtaposisi individu yang bertindak di luar konser apa pun, jika bukan melalui undang-undang dan organisasi politik yang terpusat?
 Ini adalah argumen yang sering diungkapkan oleh mereka yang menuntut regulasi pasar atau masyarakat saja yang mampu mengkoordinasikan individu menjadi sebuah kesatuan yang koheren dan harmonis.
 ![image](assets/en/095.webp)
@@ -818,6 +852,8 @@ Pada tahun 1958, penulis Amerika Leonard Read (Foundation for Economic Education
 Ini mengunjungi kembali ide Bastiat tentang kerjasama tak terlihat di antara jutaan individu yang tidak saling mengenal, yang mengarah pada pembuatan sesuatu yang sepele seperti pensil. Tidak ada yang tahu cara membuat pensil sendirian. Namun, jutaan manusia tanpa sadar berpartisipasi dalam penciptaan pensil sederhana ini, bertukar dan mengoordinasikan pengetahuan dan keterampilan mereka dalam sistem harga tanpa ada otoritas yang lebih tinggi yang mendikte tindakan mereka. Cerita ini menunjukkan bahwa individu bebas yang bekerja dalam mengejar kepentingan sah mereka bertindak lebih untuk kepentingan masyarakat daripada strategi ekonomi yang direncanakan dan terpusat.
 Pemenang Hadiah Nobel Ekonomi tahun 1976, Milton Friedman, juga mengunjungi kembali cerita pensil ini untuk menjelaskan kepada masyarakat umum bagaimana ekonomi pasar bekerja.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
+
 Dalam sebuah episode dari seri televisinya Free to Choose, ia menganalisis berbagai komponen dari sesuatu yang sepele dan sederhana seperti pensil dan menyoroti keajaiban dari tatanan spontan, yang dihasilkan oleh ribuan interaksi ekonomi di seluruh dunia. Orang-orang yang tidak saling mengenal, yang tidak membagikan agama atau adat istiadat yang sama, masih berhasil berkoordinasi untuk memproduksi objek ini. Ia menyimpulkan bahwa pasar bebas sangat penting untuk memastikan tidak hanya kemakmuran tetapi juga harmoni dan perdamaian.
 
 ![image](assets/en/098.webp)
@@ -831,6 +867,8 @@ Perencanaan ekonomi, yang mengklaim dapat melakukan lebih baik dari pasar, tidak
 ## Kebebasan dan tanggung jawab adalah kunci untuk masalah sosial
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 Dalam sebuah surat kepada Alphonse de Lamartine pada tahun 1845, Bastiat menulis bahwa seluruh filosofinya terkandung dalam satu prinsip:
 
@@ -892,6 +930,8 @@ Dengan kata lain, pilihan kolektif bukanlah pilihan yang bertanggung jawab karen
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 Pada kursus sebelumnya, kita telah melihat mengapa kebebasan dan tanggung jawab menjadi kunci untuk masalah sosial. Kita akan sekarang menggali lebih dalam poin ini dengan menunjukkan bagaimana Frédéric Bastiat memandang kejahatan yang menimpa masyarakat dan solusinya.
 
 Liberal terkadang dikritik karena mengabaikan kejahatan dan membangun utopia kebebasan yang murni dan sempurna dalam dunia ideal. Kritik ini sama sekali tidak berdasar mengenai penulis kita.
@@ -943,6 +983,8 @@ Harus dijelaskan bahwa pengembangan kemajuan melalui tanggung jawab sama sekali 
 ## Solidaritas yang Sejati dan Palsu
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 Frédéric Bastiat, dalam pamflet terkenalnya "The Law," mengecam perbuatan memperdaya hukum yang terdiri dari melegalisasi, di bawah nama "solidaritas," apa yang memang harus disebut perampasan. Memang, ada kontradiksi dalam ingin memaksakan persaudaraan melalui hukum, apa yang kita sebut hari ini "keadilan sosial" atau solidaritas.
@@ -1013,6 +1055,8 @@ Hukum dapat memaksa seseorang untuk bersikap adil, tetapi tidak dapat memaksa di
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 Dengan properti, kita tidak harus memahami tanah di sini. Ini berarti "hak pekerja atas nilai yang telah ia ciptakan melalui tenaga kerjanya." Bastiat menjelaskan:
 
 > Saya menganggap bahwa hak atas properti terdiri dari kebebasan untuk pertama-tama memutuskan tentang diri sendiri, kemudian tentang tenaga kerjanya, dan akhirnya, tentang produk dari tenaga kerjanya - yang membuktikan, lebih lanjut, bahwa, dari sudut pandang tertentu, kebebasan dan hak atas properti tidak dapat dibedakan satu sama lain.
@@ -1061,6 +1105,9 @@ _(Cicero)_
 ## Perampasan Hukum: Sebuah Perversion dari Hukum
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
+
 Ide utama Bastiat dalam "The Law", pamflet terkenalnya yang bertanggal 1850, adalah untuk menunjukkan mengapa dan bagaimana hukum telah menjadi perampasan, yaitu, sumber hak istimewa, sewa situasional, dan arbitrase fiskal.
 ![image](assets/en/125.webp)
 
@@ -1113,6 +1160,8 @@ Seabad setelah kematian Frédéric Bastiat, penjarahan hukum jelas terlihat dala
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 Pada tahun 1848, Bastiat adalah seorang deputi. Dia ditunjuk sebagai wakil presiden komisi keuangan. Oleh karena itu, dia sangat tepat untuk menjawab pertanyaan ini: apa itu Negara? Kita berpaling ke Negara untuk memastikan kesejahteraan kita. Namun, Bastiat mengingatkan kita bahwa Negara tidak dapat memberikan apa pun kepada warga negara yang tidak terlebih dahulu diambil dari mereka.
 
 Bastiat memulai dengan membalikkan persamaan yang umum diterima: Negara yang menopang bangsa. Namun, Negara tidak dapat menopang warga negara karena tidak menghasilkan kekayaan; hanya memindahkannya, mendistribusikannya. Sebaliknya, warga negara yang menopang Negara melalui penciptaan kekayaan.
@@ -1159,6 +1208,9 @@ Tulis Frédéric Bastiat dalam sebuah pamflet singkat berjudul The State.
 ## Warisan Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
+
 Pengaruh Bastiat mulai menurun menjelang akhir abad ke-19, dengan munculnya sosialisme dan khususnya Marxisme di dalam universitas dan lembaga penelitian, yang didanai oleh uang publik.
 Dengan datangnya abad ke-20, pengetahuan dan popularitas Bastiat menghilang. Namanya tidak lagi disebutkan dalam buku teks ekonomi. Baru setelah berakhirnya Perang Dunia II, minat baru terhadap ide-ide kebebasan, yang tampaknya terlupakan bersama Roosevelt dan rezim totaliter di Eropa, muncul kembali. Salah satu arsitek kebangkitan ini adalah ekonom Austria, Ludwig von Mises, salah satu dari banyak intelektual Eropa yang melarikan diri dari Eropa melalui Spanyol dan Portugal untuk mencapai Amerika.
 

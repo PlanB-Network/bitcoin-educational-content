@@ -82,6 +82,8 @@ Sind Sie bereit zu entdecken, dass die Ideen von Frédéric Bastiat auch heute n
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Dieser Kurs ist eine Einführung in Frédéric Bastiat, ein verkanntes Genie und ein Leuchtturm für unsere Zeit. In dieser kurzen Einführung werde ich versuchen, Ihnen zu zeigen, wer Frédéric Bastiat war und welches die wichtigsten Themen sind, die wir in dieser Reihe behandeln werden.
 
@@ -142,6 +144,8 @@ In diesem Kurs werden wir gemeinsam durch das Denken von Frédéric Bastiat reis
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 Im Jahr 1844 unternahm Frédéric Bastiat eine Geschäftsreise nach Spanien. Nach Aufenthalten in Madrid, Sevilla, Cadiz und Lissabon beschließt er, sich nach Southampton einzuschiffen und England zu besuchen. In London hatte er die Gelegenheit, an den Sitzungen der Anti-Corn Law League teilzunehmen, deren Arbeit er aus der Ferne verfolgt hatte. Er lernte die wichtigsten Führer dieser Vereinigung kennen, darunter Richard Cobden, der sein Freund werden sollte.
@@ -219,6 +223,8 @@ Er starb 1850 in Rom an Tuberkulose. Er ist in der Kirche Saint Louis des Franç
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 Auf dem Gebiet der Ökonomie hat Bastiat stets seine Schuld bei Adam Smith und Jean-Baptiste Say anerkannt. Mit 26 Jahren schrieb er an einen seiner Freunde: "Ich habe zu diesen Themen nie etwas anderes gelesen als diese vier Werke, Smith, Say, Destutt und den Zensor"
@@ -303,6 +309,8 @@ Produzenten greifen auf Überredung, Verhandlung und Contract zurück, während 
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Es ist wenig bekannt, aber Destutt de Tracy hatte einen entscheidenden Einfluss auf den späteren Präsidenten der Vereinigten Staaten, Thomas Jefferson, als dieser in den 1780er Jahren Botschafter in Paris war.
 
@@ -371,6 +379,8 @@ Zusammenfassend lässt sich sagen, dass die Ideologen eine tiefe Intuition hatte
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 Die Geschichte aller Zivilisationen ist die Geschichte des Kampfes zwischen den plündernden Klassen und den produktiven Klassen. Dies ist das Credo der beiden Autoren, die wir besprechen werden. Sie sind die Begründer einer liberalen Theorie des Klassenkampfes, die Frédéric Bastiat ebenso inspirierte wie Karl Marx, auch wenn letzterer sie entstellte.
@@ -448,6 +458,8 @@ Ihre Ideen, die zutiefst innovativ sind, werden Frédéric Bastiat, der selbst e
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 Es ist das Jahr 1838, als sich in Manchester eine kleine, bis dahin wenig bekannte Gruppe von Männern zusammenfindet, um mit legalen Mitteln das Monopol der Weizenbesitzer zu stürzen und, wie Bastiat später berichten wird, zu erreichen,
@@ -542,6 +554,8 @@ Die Frage des Freihandels ist auch heute noch aktuell. In den Geographielehrbüc
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, der sich in den 1840er Jahren äußerte, ist der Erbe einer Generation von Aufklärungsphilosophen, die gegen die Zensur und für die Freiheit der Debatte kämpften. Man denke an Montesquieu, Diderot, Voltaire, Condorcet, aber auch an Rousseau.
 
@@ -612,6 +626,8 @@ Nach Bastiat existieren die Gesellschaft, die Menschen und die Güter vor den Ge
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Am 24. Februar 1848, nach dreitägigen Unruhen in Paris, gab König Louis-Philippe I. seine Macht ab. Dies war die Geburtsstunde der Zweiten Republik.
 
 
@@ -672,6 +688,8 @@ Wie Bastiat jedoch anmerkt, schließt das Monopol den Fortschritt aus.
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/en/057.webp)
@@ -770,6 +788,8 @@ Zusammenfassend lässt sich sagen, dass die Protektionisten und die Sozialisten 
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon ist einer der wichtigsten Vertreter des französischen Sozialismus in der Mitte des 19. Jahrhunderts. Berühmt ist er vor allem für diese Aussage: "Eigentum ist Diebstahl" in "Was ist Eigentum?" von 1840.
 
@@ -854,6 +874,8 @@ Zusammenfassend lässt sich sagen, dass sowohl Proudhon als auch Bastiat die Bed
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 In diesem Kapitel werde ich eine brandneue Technologie vorstellen, eine revolutionäre Technologie. Ein Forscher hat eine bionische Brille entwickelt, in deren Vorderseite eine extrem leistungsstarke Minikamera eingebaut ist. Diese Technologie ermöglicht es, Details zu sehen, die mit dem bloßen Auge unmöglich zu erkennen sind. In den Bügeln befindet sich ein elektronischer Chip, der die Bilder über mein Smartphone direkt in die Cloud überträgt.
 
@@ -913,6 +935,8 @@ Die große Lehre aus dieser Reihe von Texten ist, dass staatliche Eingriffe perv
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 Im Jahr 1840 stimmte die Abgeordnetenkammer für ein Gesetz zur Erhöhung der Einfuhrsteuern, um die französische Industrie zu schützen. Das ist der berühmte Wirtschaftspatriotismus, der uns auch heute noch begegnet.
@@ -990,6 +1014,8 @@ Der wahre Reichtum ist nach Bastiat also die Gesamtheit der nützlichen Dinge, d
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Wenn die Reichen abnehmen, sterben die Armen.
@@ -1079,6 +1105,8 @@ Und sie sagte dies, während sie sich an die Sozialisten wandte.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Viele kennen "Tartuffe oder der Hochstapler", die Komödie von Molière, in der ein durchtriebener Verehrer versucht, Elmire zu verführen und ihren Mann Orgon zu betrügen. Wie kann man sich vor den Täuschungen eines solchen Heuchlers schützen, der vorgibt, dir Gutes zu tun, während er gegen dich intrigiert?
 
@@ -1159,6 +1187,8 @@ Eines ist sicher, es ist nicht die Politik, die den Lauf der Dinge verändern un
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Kann eine harmonische Gesellschaft ohne geschriebene Gesetze, Regeln, repressive Maßnahmen auskommen? Wenn die Menschen frei sind, wird es dann nicht zu Unordnung, Anarchie, Desorganisation kommen? Wie kann man vermeiden, dass ein bloßes Nebeneinander von Individuen entsteht, die außerhalb jeder Absprache handeln, wenn nicht durch Gesetze und eine zentralisierte politische Organisation?
 
@@ -1214,6 +1244,7 @@ Es greift Bastiats Idee einer unsichtbaren Zusammenarbeit zwischen Millionen von
 
 Auch der Wirtschaftsnobelpreisträger von 1976, Milton Friedman, griff diese Bleistiftgeschichte auf, um der breiten Öffentlichkeit zu erklären, wie die Marktwirtschaft funktioniert.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 In einer Folge seiner Fernsehserie Free to Choose analysiert er die verschiedenen Bestandteile eines so banalen und einfachen Gegenstandes wie einem Bleistift und hebt das Wunder der spontanen Ordnung hervor, die durch Tausende von wirtschaftlichen Interaktionen in der ganzen Welt entsteht. Menschen, die sich nicht kennen, die nicht dieselbe Religion oder dieselben Bräuche haben, schaffen es dennoch, sich abzustimmen, um diesen Gegenstand herzustellen. Er kommt zu dem Schluss, dass der freie Markt unerlässlich ist, um nicht nur Wohlstand, sondern auch Harmonie und Frieden zu gewährleisten.
 
@@ -1234,6 +1265,8 @@ Wirtschaftliche Planung, die vorgibt, besser zu sein als der Markt, führt nicht
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 In einem Brief an Alphonse de Lamartine aus dem Jahr 1845 schrieb Bastiat, dass seine gesamte Philosophie in einem einzigen Prinzip enthalten ist:
@@ -1328,6 +1361,8 @@ Mit anderen Worten, kollektive Entscheidungen sind keine verantwortungsvollen En
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 Im letzten Kurs haben wir gesehen, warum Freiheit und Verantwortung der Schlüssel zum sozialen Problem sind. Wir werden diesen Punkt nun vertiefen, indem wir zeigen, wie Frédéric Bastiat die Übel, die die Gesellschaften heimsuchen, und ihre Lösung sieht.
 
@@ -1404,6 +1439,8 @@ Es muss klargestellt werden, dass diese Entwicklung des Fortschritts durch Veran
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1497,6 +1534,8 @@ Das Recht kann den Menschen zwingen, gerecht zu sein, aber es kann ihn nicht zwi
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Unter Eigentum sollten wir hier nicht Land verstehen. Es bedeutet "das Recht des Arbeiters auf den Wert, den er durch seine Arbeit geschaffen hat" Bastiat präzisiert:
 
@@ -1573,6 +1612,8 @@ _(Cicero)_
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 In seinem berühmten Pamphlet "Das Recht" von 1850 zeigt Bastiat, warum und wie das Recht zu einer Quelle von Privilegien, Situationsrenten und Steuerwillkür geworden ist.
@@ -1654,6 +1695,8 @@ Ein Jahrhundert nach dem Tod von Frédéric Bastiat ist die juristische Ausplün
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 Im Jahr 1848 war Bastiat Abgeordneter. Er wurde zum Vizepräsidenten der Finanzkommission ernannt. Er war also besonders gut geeignet, die Frage zu beantworten: Was ist der Staat? Wir wenden uns an den Staat, um unser Wohlergehen zu sichern. Aber Bastiat erinnert uns daran, dass der Staat den Bürgern nichts geben kann, was er ihnen nicht vorher genommen hat.
 
@@ -1726,6 +1769,8 @@ Schrieb Frédéric Bastiat in einem kurzen Pamphlet mit dem Titel Der Staat.
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 Bastiats Einfluss begann gegen Ende des 19. Jahrhunderts mit dem Aufkommen des Sozialismus und insbesondere des Marxismus an den Universitäten und Forschungsinstituten, die mit öffentlichen Geldern finanziert wurden, zu schwinden.

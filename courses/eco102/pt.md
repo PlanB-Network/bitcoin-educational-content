@@ -82,6 +82,8 @@ Pronto para descobrir como as ideias de Frédéric Bastiat continuam a ter eco n
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Este curso é uma introdução a Frédéric Bastiat, um génio não reconhecido e um farol para os nossos tempos. Nesta breve introdução, tentarei ajudá-lo a descobrir quem foi Frédéric Bastiat e quais são os principais temas que iremos abordar durante esta série.
 
@@ -142,6 +144,8 @@ Neste curso, percorreremos juntos o pensamento de Frédéric Bastiat, partindo d
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 Em 1844, Frédéric Bastiat fez uma viagem de negócios a Espanha. Depois de ter passado por Madrid, Sevilha, Cádis e Lisboa, decide embarcar para Southampton e visitar Inglaterra. Em Londres, teve a oportunidade de assistir às reuniões da Liga Anti-Corn Law, cujos trabalhos tinha seguido à distância. Conhece os principais dirigentes desta associação, entre os quais Richard Cobden, que se tornará seu amigo.
@@ -219,6 +223,8 @@ Morreu em Roma em 1850, vítima de tuberculose. Está sepultado na Igreja de Sã
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 Em economia, Bastiat sempre reconheceu a sua dívida para com Adam Smith e Jean-Baptiste Say. Aos 26 anos, escreveu a um dos seus amigos: "Nunca li sobre estes assuntos senão estas quatro obras, Smith, Say, Destutt e o Censor"
@@ -303,6 +309,8 @@ Os produtores recorrem à persuasão, à negociação e ao Contract, enquanto os
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 É pouco conhecido, mas Destutt de Tracy teve uma influência decisiva no futuro Presidente dos Estados Unidos, Thomas Jefferson, quando este era embaixador em Paris na década de 1780.
 
@@ -371,6 +379,8 @@ Em conclusão, os Ideólogos tinham uma intuição profunda, a saber, que a prod
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 A história de todas as civilizações é a história da luta entre as classes saqueadoras e as classes produtoras. É este o credo dos dois autores de que vamos falar. São os criadores de uma teoria liberal da luta de classes que inspirou tanto Frédéric Bastiat como Karl Marx, embora este último a tenha deturpado.
@@ -448,6 +458,8 @@ As suas ideias, profundamente inovadoras, marcarão para sempre Frédéric Basti
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 Estamos em 1838, em Manchester, um pequeno número de homens, pouco conhecidos até então, reúne-se para encontrar uma forma de derrubar o monopólio dos proprietários de trigo através de meios legais e conseguir, como Bastiat contará mais tarde,
@@ -542,6 +554,8 @@ A questão do comércio livre continua a ser relevante atualmente. Os manuais es
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, que se exprimiu na década de 1840, é o herdeiro de uma geração de filósofos iluministas que lutaram contra a censura e pela liberdade de debate. Pensemos em Montesquieu, Diderot, Voltaire, Condorcet, mas também em Rousseau.
 
@@ -612,6 +626,8 @@ Segundo Bastiat, a sociedade, as pessoas e as propriedades existem antes das lei
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Em 24 de fevereiro de 1848, após três dias de tumultos em Paris, o rei Luís Filipe I abdicou do seu poder. Este facto marcou o nascimento da Segunda República.
 
 
@@ -672,6 +688,8 @@ No entanto, como recorda Bastiat, o monopólio exclui o progresso.
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/en/057.webp)
@@ -770,6 +788,8 @@ Para concluir, proteccionistas e socialistas têm um ponto em comum, segundo Bas
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon é um dos principais representantes do socialismo francês em meados do século XIX. É especialmente famoso por esta afirmação: "A propriedade é um roubo", em "O que é a propriedade?", de 1840.
 
@@ -854,6 +874,8 @@ Em conclusão, tanto Proudhon como Bastiat reconheceram a importância da acumul
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 Neste capítulo, vou revelar uma tecnologia totalmente nova, uma tecnologia revolucionária. Um investigador desenvolveu um par de óculos biónicos com uma mini-câmara ultra-poderosa embutida na parte da frente. Esta tecnologia permite ver pormenores impossíveis de ver a olho nu. Nas armas, há um chip eletrónico que transmite as imagens diretamente para a nuvem através do meu smartphone.
 
@@ -913,6 +935,8 @@ A grande lição desta série de textos é que a intervenção do Estado tem efe
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 Em 1840, a Câmara dos Deputados votou uma lei que aumentava os impostos de importação para proteger a indústria francesa. Este é o famoso patriotismo económico, que ainda hoje encontramos.
@@ -990,6 +1014,8 @@ A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis q
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Quando os ricos perdem peso, os pobres morrem.
@@ -1079,6 +1105,8 @@ E disse-o dirigindo-se aos socialistas.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Muitas pessoas conhecem "Tartufo ou o Impostor", a comédia de Molière em que um devoto ardiloso tenta seduzir Elmire e enganar o seu marido Orgon. Como é que nos podemos proteger dos enganos de um tal hipócrita que finge fazer-nos bem, mas que conspira contra nós?
 
@@ -1159,6 +1187,8 @@ Uma coisa é certa, não é a política que pode mudar o curso das coisas e aper
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Pode uma sociedade harmoniosa passar sem leis escritas, sem regras, sem medidas repressivas? Se os homens forem deixados livres, não se assistirá à desordem, à anarquia, à desorganização? Como evitar a criação de uma mera justaposição de indivíduos que actuam fora de qualquer concerto, senão através de leis e de uma organização política centralizada?
 
@@ -1214,6 +1244,7 @@ Revisita a ideia de Bastiat de uma cooperação invisível entre milhões de ind
 
 O Prémio Nobel da Economia de 1976, Milton Friedman, também revisitou esta história do lápis para explicar ao grande público como funciona a economia de mercado.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 Num episódio da sua série televisiva Free to Choose, ele analisa os vários componentes de algo tão mundano e simples como um lápis e destaca o milagre da ordem espontânea, gerada por milhares de interações económicas em todo o mundo. Pessoas que não se conhecem, que não partilham a mesma religião ou costumes, conseguem coordenar-se para produzir este objeto. O autor conclui que o mercado livre é essencial para garantir não só a prosperidade, mas também a harmonia e a paz.
 
@@ -1234,6 +1265,8 @@ O planeamento económico, que pretende ser melhor do que o mercado, conduz não 
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 Numa carta a Alphonse de Lamartine, em 1845, Bastiat escreveu que toda a sua filosofia está contida num único princípio:
@@ -1328,6 +1361,8 @@ Por outras palavras, as escolhas colectivas não são escolhas responsáveis, um
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 No curso anterior, vimos porque é que a liberdade e a responsabilidade são fundamentais para o problema social. Vamos agora aprofundar este ponto, mostrando como Frédéric Bastiat vê os males que afligem as sociedades e a sua solução.
 
@@ -1404,6 +1439,8 @@ Ao contrário de Rousseau, que procura erradicar o mal através de instituiçõe
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1497,6 +1534,8 @@ A lei pode obrigar um homem a ser justo, mas não pode obrigá-lo a ser devoto. 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Por propriedade, não devemos entender aqui a terra. Trata-se do "direito de um trabalhador sobre o valor que criou com o seu trabalho" Bastiat especifica:
 
@@ -1573,6 +1612,8 @@ Aqui, Bastiat alinha-se com o legado dos fisiocratas e, para além disso, com a 
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 A ideia principal de Bastiat em "A Lei", o seu famoso panfleto de 1850, é mostrar porque e como a lei se tornou uma pilhagem, ou seja, uma fonte de privilégios, de rendas situacionais e de arbitrariedade fiscal.
@@ -1654,6 +1695,8 @@ Um século após a morte de Frédéric Bastiat, a pilhagem jurídica está bem p
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 Em 1848, Bastiat era deputado. Foi nomeado vice-presidente da comissão de finanças. Estava, portanto, particularmente bem colocado para responder a esta pergunta: o que é o Estado? Recorremos ao Estado para assegurar o nosso bem-estar. Mas Bastiat lembra-nos que o Estado não pode dar nada aos cidadãos que não lhes tenha tirado primeiro.
 
@@ -1726,6 +1769,8 @@ Escreveu Frédéric Bastiat num pequeno panfleto intitulado O Estado.
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 A influência de Bastiat começou a diminuir no final do século XIX, com a ascensão do socialismo e, em particular, do marxismo nas universidades e institutos de investigação, financiados por dinheiros públicos.

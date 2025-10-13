@@ -5,17 +5,17 @@ description: Come Acquistare e vendere Bitcoin P2P con BitcoinVoucherBot (Nuova 
 ---
 ![image](assets/01.webp)
 
-Sentiamo ancora parlare di BitcoinVoucherBot, un bot Telegram nato per acquistare Bitcoin senza KYC(“Know Your Customer”), offrendo quindi un livello di anonimato ridotto. Puoi trovare una giuda dettagliata qui:
+Si sente ancora parlare di BitcoinVoucherBot, un bot Telegram nato per acquistare Bitcoin senza procedura KYC (“Know Your Customer”), offrendo così un maggiore livello di anonimato. Puoi trovare una guida dettagliata qui:
 
 https://planb.network/en/tutorials/exchange/centralized/bitcoin-voucher-bot-5f5d9449-10a7-4f97-9278-8dfbbea5ab1a
 
-In questa guida vedremo come funziona la nuova implementazione che permette di acquistare e vendere Bitcoin direttamente sul nuovo marketplace P2P (Peer-To-Peer).
+Questa guida ti mostra come usare la nuova funzione per comprare e vendere Bitcoin sul marketplace Peer-To-Peer (P2P).
 
-Per contrastare le nuove restrizioni che sempre più spesso minacciano la libertà digitale e la privacy, gli sviluppatori hanno creato questa estensione, dando agli utenti la possibilità di comprare e vendere Bitcoin con un elevato grado di anonimato tramite il P2P (Peer-To-Peer).
+In risposta alle nuove restrizioni che mettono a rischio la libertà digitale e la privacy, è nata questa estensione: uno strumento che consente agli utenti di scambiare Bitcoin in modo anonimo grazie al sistema P2P.
 
 Ma vediamo come funziona questo nuovo metodo di scambio.
 
-Per utilizzare il servizio dovrai effettuare i trasferimenti tramite Lightning Network. Assicurati quindi di avere un wallet che supporti questo protocollo e che ti consenta di usare un “LNURL” o un “Lightning Address” per ricevere e inviare i  fondi. 
+Il servizio funziona tramite Lightning Network: ti serve un wallet compatibile che supporti **LNURL** o **Lightning Address** per gestire i pagamenti.
 
 Tra i wallet supportati possiamo trovare:
 

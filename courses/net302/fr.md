@@ -1223,7 +1223,7 @@ En configuration automatique, plusieurs méthodes existent pour permettre aux é
 
 Certaines implémentations, comme celles présentes dans les systèmes Windows, peuvent utiliser un tirage pseudo-aléatoire pour générer la partie hôte de l’adresse, ce qui améliore la confidentialité par rapport à l’utilisation directe de l’adresse MAC. En effet, la visibilité de l’adresse MAC dans les paquets IPv6 pose des problèmes de protection de la vie privée, car elle permet de suivre un appareil dans différents contextes réseau.
 
-Une autre méthode largement utilisée est l’emploi du protocole DHCPv6, spécifié dans la RFC3315. Similaire au DHCP utilisé en IPv4, il permet une configuration plus contrôlée, centralisée, avec gestion des baux, options supplémentaires (DNS, MTU...), et enregistrement dans des bases de données. DHCPv6 peut être utilisé seul ou en complément de la configuration stateless pour fournir des paramètres annexes sans forcément attribuer l’adresse IP elle-même.
+Une autre méthode largement utilisée est l’emploi du protocole DHCPv6, spécifié dans la RFC3315. Similaire au DHCP utilisé en IPv4, il permet une configuration plus contrôlée, centralisée, avec gestion des baux, options supplémentaires (DNS, MTU...), et enregistrement dans des bases de données. DHCPv6 peut être utilisé seul ou en complément de la configuration *stateless* pour fournir des paramètres annexes sans forcément attribuer l’adresse IP elle-même.
 
 **Remarque importante :** lorsqu’on utilise la méthode basée sur l’adresse MAC, celle-ci est transformée en identifiant de 64 bits par le mécanisme EUI-64. Ce mécanisme insère les octets `FF:FE` au centre de l’adresse MAC d’origine (en 48 bits), et inverse le 7ème bit pour marquer l’unicité globale. Cela donne un identifiant d’interface stable, utilisé dans l’adresse IPv6 complète.
 
@@ -1375,7 +1375,7 @@ La conception des paquets IPv6 repose donc sur une séparation claire entre un e
 ## Relation entre IPv6 et DNS
 <chapterId>421eacb8-b80b-4aee-910f-e069ed805f00</chapterId>
 
-Dans les réseaux modernes, le DNS (*Domain Name System*) permet la traduction des noms de domaine en adresses IP utilisables par les machines. Avec l’introduction d’IPv6, le DNS a naturellement dû s’adapter pour supporter les nouvelles adresses sur 128 bits, tout en maintenant la compatibilité avec IPv4. Cette coexistence est importante dans les environnements dual-stack où les deux versions du protocole IP cohabitent.
+Dans les réseaux modernes, le DNS (*Domain Name System*) permet la traduction des noms de domaine en adresses IP utilisables par les machines. Avec l’introduction d’IPv6, le DNS a naturellement dû s’adapter pour supporter les nouvelles adresses sur 128 bits, tout en maintenant la compatibilité avec IPv4. Cette coexistence est importante dans les environnements *dual-stack* où les deux versions du protocole IP cohabitent.
 
 ### Enregistrements DNS spécifiques à IPv6
 
@@ -1437,7 +1437,7 @@ Par la suite, nous avons étudié les méthodes d’assignation des adresses IPv
 
 Nous avons également détaillé la manière dont les blocs d’adresses sont alloués, en partant de l’IANA, qui les distribue aux cinq RIR (*Registres Internet Régionaux*), puis aux fournisseurs d’accès, qui les redistribuent à leurs clients sous forme de sous-réseaux (souvent en /48, permettant 65536 sous-réseaux /64). La distinction entre les blocs _Provider Aggregatable_ (PA) et _Provider Independent_ (PI) permet de gérer des situations de _multihoming_ ou de changement de fournisseur.
 
-Nous avons vu que le DNS s’adapte à IPv6 grâce à l’enregistrement AAAA et que les mécanismes de résolution inverse utilisent une nouvelle structure dans la zone `ip6.arpa`. Le protocole DNS reste indépendant du protocole de transport utilisé (IPv4 ou IPv6), ce qui assure une parfaite interopérabilité dans un environnement dual-stack.
+Nous avons vu que le DNS s’adapte à IPv6 grâce à l’enregistrement AAAA et que les mécanismes de résolution inverse utilisent une nouvelle structure dans la zone `ip6.arpa`. Le protocole DNS reste indépendant du protocole de transport utilisé (IPv4 ou IPv6), ce qui assure une parfaite interopérabilité dans un environnement *dual-stack*.
 
 IPv6 n’est donc pas une simple évolution de son prédécesseur, mais bien une refonte en profondeur du système d’adressage, pensée pour les défis actuels et futurs du réseau mondial.
 
@@ -1617,7 +1617,7 @@ Au niveau de la couche Accès Réseau, il est important de pouvoir interroger et
 
 L’une des fonctionnalités de base de `ethtool` est sa capacité à interroger une interface afin d’en afficher les caractéristiques actuelles. On peut ainsi connaître :
 - la vitesse du lien (par exemple, 100 Mbit/s, 1 Gbit/s ou 10 Gbit/s) ;
-- le mode de négociation (half duplex ou full duplex) ;
+- le mode de négociation (*half duplex* ou *full duplex*) ;
 - si l’auto-négociation est activée ou non ;
 - le type de port utilisé (cuivre, fibre…) ;
 - l’état du lien (actif ou non) ;
@@ -1704,7 +1704,7 @@ mydmn.org (172.17.18.19): 56 data bytes
 Dans cet exemple, on remarque que la résolution de nom a été effectuée automatiquement. Le nom de domaine `mydmn.org` est associé à l’adresse IP `172.17.18.19`, ce qui indique que la résolution DNS fonctionne correctement. La commande fournit également des données techniques comme :
 - le numéro de séquence ICMP (`icmp_seq`), utile pour vérifier l’ordre d’arrivée des réponses ;
 - le TTL (*Time-To-Live*), qui correspond au nombre de sauts réseau restants avant destruction du paquet ;
-- le temps de réponse ou round-trip time/delay (`time`), exprimé en millisecondes, qui donne une indication sur la latence du lien.
+- le temps de réponse ou *round-trip time/delay* (`time`), exprimé en millisecondes, qui donne une indication sur la latence du lien.
 
 #### Analyse plus fine des paramètres ICMP
 

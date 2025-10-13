@@ -38,9 +38,9 @@ Per utilizzare Lnp2pbot, è necessario :
 
 ### 1. Configurazione del portafoglio Lightning
 
-Iniziate installando un portafoglio Lightning compatibile. Ecco le nostre raccomandazioni dettagliate:
+Inizia installando un portafoglio Lightning compatibile. Ecco le nostre raccomandazioni dettagliate:
 
-**Portafogli consigliati**
+**wallet consigliati**
 
 
 - [Breez](https://breez.technology):
@@ -78,12 +78,12 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 **Note importanti su altri portafogli**
 
-⚠️ **Importante**: Prima di vendere i satelliti, assicuratevi che il vostro portafoglio supporti le fatture "hold", che vengono utilizzate dal bot come sistema di deposito a garanzia.
+⚠️ **Importante**:Prima di vendere sats, assicurati che il tuo portafoglio supporti le fatture "hold", utilizzate dal bot come sistema di deposito a garanzia.
 
 
-- **Portafoglio di Satoshi**: Funziona bene per ricevere i satelliti, ma può avere ritardi nell'aggiornamento del saldo se una vendita viene annullata.
+- **Wallet of Satoshi:**: Funziona bene per ricevere sats, ma può presentare ritardi nell'aggiornamento del saldo se una vendita viene annullata.
 - **Muun**: Sconsigliato in quanto i pagamenti potrebbero non andare a buon fine a causa dei limiti delle commissioni di routing dei bot (massimo 0,2%).
-- **Aqua**: Funziona per ricevere i satelliti, ma può avere lunghi ritardi (fino a 48 ore) per gli aggiornamenti del saldo in caso di cancellazione della vendita.
+- **Aqua**: Funziona per ricevere sats, ma può presentare lunghi ritardi (fino a 48 ore) nell'aggiornamento del saldo in caso di annullamento di una vendita.
 
 💡 **Suggerimento**: Per un'esperienza ottimale, optate per i portafogli consigliati (Breez, Phoenix o Blixt).
 
@@ -95,11 +95,11 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 2. Telegram si aprirà automaticamente
 
-3. Cliccate su "Avvio" o inviate il comando "/avvio"
+3. Fai clic su "Start" oppure invia il comando "/start".
 
-4. Il bot vi chiederà di creare un nome utente, se non ne avete già uno
+4. Il bot ti chiederà di creare un nome utente, se non ne hai già uno.
 
-5. Il bot vi guiderà attraverso la configurazione iniziale
+5. Il bot ti guiderà attraverso la configurazione iniziale.
 
 ### 3. Unisciti alla comunità
 
@@ -127,31 +127,31 @@ In questa guida vedremo nel dettaglio come :
 
 ![Sélection d'une offre de vente](assets/fr/01.webp)
 
-Sfoglia le offerte in [@p2plightning](https://t.me/p2plightning) e clicca sul pulsante "Acquista satoshis" sotto l'annuncio che ti interessa.
+Sfoglia le offerte in [@p2plightning](https://t.me/p2plightning) e clicca sul pulsante "Buy satoshis"("Acquista satoshis") sotto l'annuncio che ti interessa.
 
 **2. Convalidare l'offerta e l'importo**
 
 ![Validation de l'offre](assets/fr/02.webp)
 
-1. Ritorno alla chat bot
+1. Torna alla chat del bot.
 
-2. Confermare la scelta dell'offerta
+2. Conferma la scelta dell'offerta.
 
-3. Inserite l'importo in valuta fiat che desiderate acquistare
+3. Inserisci l'importo in valuta fiat che desideri acquistare.
 
-4. Il bot vi chiederà di fornire una fattura Lightning per l'importo in satoshi
+4. Il bot ti chiederà di fornire una fattura Lightning per l'importo in satoshi.
 
 **3. Contattare il venditore**
 
 ![Mise en relation](assets/fr/03.webp)
 
-Una volta inviata la fattura, il bot vi mette in contatto con il venditore.
+Una volta inviata la fattura, il bot ti mette in contatto con il venditore.
 
 **4. Comunicazione con il venditore**
 
 ![Chat privé](assets/fr/04.webp)
 
-Cliccate sul nickname del venditore per aprire un canale di chat privato dove potrete scambiarvi i dettagli del pagamento in fiat.
+Clicca sul nickname del venditore per aprire un canale di chat privato dove potrete scambiarvi i dettagli del pagamento in fiat.
 
 **5. Conferma del pagamento**
 
@@ -171,14 +171,14 @@ Per creare un'offerta di vendita, è sufficiente utilizzare il comando :
 
 Il bot vi guiderà passo dopo passo:
 
-1. Scegliete la vostra valuta
+1. Scegli la tua valuta.
 
-2. Indicare la quantità di satoshi da vendere
+2. Indica la quantità di satoshi da vendere.
 
-3. Per quanto riguarda il prezzo, avete due opzioni:
+3.Per quanto riguarda il prezzo, hai due opzioni:
 
 
-   - Impostare un prezzo fisso per la quantità di satoshis
+   - Imposta un prezzo fisso per la quantità di satoshi.
    - Utilizzare il prezzo di mercato con la possibilità di applicare un premio (positivo o negativo)
 
 💡 **Tip**: Il premio consente di regolare il prezzo in relazione al prezzo di mercato. Ad esempio, un premio di -1% significa che state vendendo all'1% in meno rispetto al prezzo di mercato.
@@ -194,31 +194,31 @@ Una volta creato l'ordine, verrà visualizzata una conferma con l'opzione di ann
 ![Prise de l'ordre par un acheteur](assets/fr/08.webp)
 
 
-- Quando un acquirente risponde alla vostra offerta, riceverete una notifica con un codice QR e una fattura da pagare.
-- Controllate il profilo e la reputazione dell'acquirente.
+- Quando un acquirente risponde alla tua offerta, riceverai una notifica con un codice QR e una fattura da pagare.
+- Controlla il profilo e la reputazione dell'acquirente.
 
 ![Mise en relation avec l'acheteur](assets/fr/09.webp)
 
 
-- Fate clic sul nickname dell'acquirente per aprire un canale di discussione privato.
-- Comunicare i dettagli del pagamento fiat all'acquirente.
-- Attendere la conferma del pagamento in fiat da parte dell'acquirente.
-- Controllate che il pagamento sia stato ricevuto sul vostro conto.
+- Fai clic sul nickname dell'acquirente per aprire un canale di discussione privato.
+- Comunica i dettagli del pagamento fiat all'acquirente.
+- Attendi la conferma del pagamento in fiat da parte dell'acquirente.
+- Controlla che il pagamento sia stato ricevuto sul vostro conto.
 
 ![Confirmation de la fin de l'ordre](assets/fr/10.webp)
 
 
-- Confermare la transazione con `/rilascio` e completare l'ordine. Avrete la possibilità di valutare l'acquirente.
+- Conferma la transazione con `/rilascio` e completare l'ordine. Avrai la possibilità di valutare l'acquirente.
 
 ## Buone pratiche e sicurezza
 
 ### Consigli per la sicurezza
 
 
-- Iniziare con piccole quantità
-- Controllare sempre la reputazione degli utenti
-- Utilizzate solo i metodi di pagamento suggeriti
-- Mantenere tutte le comunicazioni nella chat bot
+- Inizia con piccole quantità.
+- Controlla sempre la reputazione degli utenti.
+- Usa solo i metodi di pagamento suggeriti.
+- Mantieni tutte le comunicazioni nella chat del bot.
 - Non condividere mai informazioni sensibili
 
 ### Sistema di reputazione
@@ -226,7 +226,7 @@ Una volta creato l'ordine, verrà visualizzata una conferma con l'opzione di ann
 
 - Ogni utente ha un punteggio di reputazione
 - Le transazioni riuscite aumentano il punteggio
-- Scegliere utenti con una buona reputazione
+- Scegli utenti con una buona reputazione.
 - Segnalare ai moderatori qualsiasi comportamento sospetto
 
 ### Risoluzione delle controversie

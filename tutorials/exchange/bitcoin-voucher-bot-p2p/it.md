@@ -20,4 +20,5 @@ Il servizio funziona tramite Lightning Network: ti serve un wallet compatibile c
 Tra i wallet supportati possiamo trovare:
 
 - [Sats.mobi](https://planb.network/it/tutorials/wallet/mobile/satsmobi-ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb) (Bot Telegram)
-
+- [Wallet Of Satoshi](https://planb.network/it/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7)
+- [Breez](https://planb.network/it/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06)

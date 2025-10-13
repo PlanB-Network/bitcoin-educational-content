@@ -13,7 +13,7 @@ Dans ce tutoriel, nous allons apprendre à faire tourner la plateforme **Plan �
 
 Pears est à la fois un environnement d’exécution, un outil de développement et une plateforme de déploiement pour des applications pair-à-pair. Cet outil open-source permet de construire, partager et exécuter des logiciels sans serveur et sans infrastructure, directement entre utilisateurs. Concrètement, cela signifie qu’au lieu d’héberger une application sur un serveur central, chaque utilisateur devient un nœud du réseau : il partage une partie de l’application et des données avec d’autres pairs. L’ensemble du système forme un réseau distribué où chaque instance coopère pour maintenir le service accessible.
 
-01
+![Image](assets/fr/01.webp)
 
 Cette approche repose sur un ensemble de briques logicielles modulaires développées par Holepunch :
 - **Hypercore** : un journal distribué qui garantit la cohérence et la sécurité des données sans base de données centrale.
@@ -22,11 +22,11 @@ Cette approche repose sur un ensemble de briques logicielles modulaires dévelop
 - **Hyperswarm** et **HyperDHT** : des couches réseau qui permettent la découverte et la connexion entre les pairs dans le monde entier, sans serveur central.
 - **Secretstream** : un protocole de chiffrement E2E pour sécuriser les échanges entre deux pairs.
 
-En combinant ces composants, Pears permet de créer des applications autonomes, chiffrées et distribuées, où chaque utilisateur participe activement au réseau. Cette architecture décentralisée élimine les coûts d’infrastructure, les risques de censure et les SPOF ("Single Point of Failure").
+En combinant ces composants, Pears permet de créer des applications autonomes, chiffrées et distribuées, où chaque utilisateur participe activement au réseau. Cette architecture décentralisée élimine les coûts d’infrastructure, les risques de censure et les SPOF ("*Single Point of Failure*").
 
 ## 2. Origine et philosophie du projet
 
-Pears est développé par Holepunch, une entreprise fondée par Paolo Ardoino (CEO de Tether et CTO de Bitfinex) et son équipe, avec la mission d’étendre la logique du pair-à-pair au-delà de Bitcoin. Leur ambition est de bâtir l’"Internet des pairs", où chaque application peut fonctionner sans autorisation, sans serveurs, et sans intermédiaire. Holepunch est déjà à l’origine de **Keet**, une application de visioconférence et de messagerie entièrement P2P.
+Pears est développé par Holepunch, une entreprise fondée par Paolo Ardoino (CEO de Tether et CTO de Bitfinex) et son équipe, avec la mission d’étendre la logique du pair-à-pair au-delà de Bitcoin. Leur ambition est de bâtir l’"*Internet des pairs*", où chaque application peut fonctionner sans autorisation, sans serveurs, et sans intermédiaire. Holepunch est déjà à l’origine de **Keet**, une application de visioconférence et de messagerie entièrement P2P.
 
 https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
@@ -44,7 +44,7 @@ Avant toute chose, il est important de s’assurer que votre système est à jou
 sudo apt update && sudo apt upgrade -y
 ```
 
-02
+![Image](assets/fr/02.webp)
 
 ### 3.2. Installer les dépendances
 
@@ -54,7 +54,7 @@ Pears repose sur certaines bibliothèques système, notamment `libatomic1`, util
 sudo apt install -y libatomic1 curl git
 ```
 
-03
+![Image](assets/fr/03.webp)
 
 ### 3.3. Installer Node.js et npm via NVM
 
@@ -64,7 +64,7 @@ Pears est distribué via *npm*, le gestionnaire de paquets *Node.js*. Même si P
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 ```
 
-04
+![Image](assets/fr/04.webp)
 
 Ensuite, rechargez votre terminal pour activer *NVM* :
 
@@ -72,7 +72,7 @@ Ensuite, rechargez votre terminal pour activer *NVM* :
 source ~/.bashrc
 ```
 
-05
+![Image](assets/fr/05.webp)
 
 Vérifiez que *NVM* est bien installé :
 
@@ -80,7 +80,7 @@ Vérifiez que *NVM* est bien installé :
 nvm --version
 ```
 
-06
+![Image](assets/fr/06.webp)
 
 Installez ensuite une version stable de *Node.js* (par exemple la LTS actuelle) :
 
@@ -88,7 +88,7 @@ Installez ensuite une version stable de *Node.js* (par exemple la LTS actuelle) 
 nvm install --lts
 ```
 
-07
+![Image](assets/fr/07.webp)
 
 Vérifiez les installations de *Node.js* et *npm* :
 
@@ -97,7 +97,7 @@ node -v
 npm -v
 ```
 
-08
+![Image](assets/fr/08.webp)
 
 ### 3.4. Installer Pears avec npm
 
@@ -107,7 +107,7 @@ Une fois *npm* disponible, vous pouvez installer Pears CLI globalement sur votre
 npm install -g pear
 ```
 
-09
+![Image](assets/fr/09.webp)
 
 ### 3.5. Initialiser Pears
 
@@ -119,7 +119,7 @@ pear
 
 Lors du premier démarrage, Pears va se connecter au réseau pair-à-pair pour télécharger les composants nécessaires. Ce processus ne nécessite aucun serveur central : les fichiers sont obtenus directement depuis d’autres pairs.  
 
-10
+![Image](assets/fr/10.webp)
 
 Une fois le téléchargement terminé, relancez la commande pour vérifier que tout fonctionne :
 
@@ -127,7 +127,7 @@ Une fois le téléchargement terminé, relancez la commande pour vérifier que t
 pear
 ```
 
-11
+![Image](assets/fr/11.webp)
 
 Si tout est correctement installé, l’aide de Pears s’affichera avec la liste des commandes disponibles.
 
@@ -141,7 +141,7 @@ pear run pear://keet
 
 Cette commande charge l’application Keet directement depuis le réseau Pears, sans passer par un serveur central. Si Keet se lance correctement, cela signifie que votre installation de Pears est pleinement fonctionnelle.
 
-12
+![Image](assets/fr/12.webp)
 
 Votre système Linux est désormais prêt à exécuter et héberger des applications pair-à-pair avec Pears.
 
@@ -156,10 +156,10 @@ L’installation de Pears sur Windows est tout aussi simple que sur Linux, mais 
 Avant toute chose, lancez PowerShell avec les droits administrateur :
 - Cliquez sur le menu Démarrer ;
 - Tapez PowerShell ;
-- Faites un clic droit sur "Windows PowerShell" ;
-- Sélectionnez "Exécuter en tant qu’administrateur".
+- Faites un clic droit sur "*Windows PowerShell*" ;
+- Sélectionnez "*Exécuter en tant qu’administrateur*".
 
-15
+![Image](assets/fr/15.webp)
 
 ### 4.2. Télécharger NVS
 
@@ -171,7 +171,7 @@ Dans PowerShell, exécutez la commande suivante pour installer la dernière vers
 winget install jasongin.nvs
 ```
 
-16
+![Image](assets/fr/16.webp)
 
 ### 4.3. Installer Node.js
 
@@ -183,11 +183,11 @@ nvs
 
 Vous devriez voir apparaître la liste des versions de *Node.js* disponibles. Sélectionnez la première en appuyant sur la touche `a` de votre clavier.
 
-17
+![Image](assets/fr/17.webp)
 
 *Node.js* est bien installé.
 
-18
+![Image](assets/fr/18.webp)
 
 ### 4.4. Vérifier les installations
 
@@ -200,7 +200,7 @@ npm -v
 
 Les deux commandes doivent renvoyer un numéro de version.
 
-19
+![Image](assets/fr/19.webp)
 
 ### 4.5. Installer Pears avec npm
 
@@ -212,7 +212,7 @@ npm install -g pear
 
 Cela installera le binaire `pear` dans votre répertoire *npm* global.
 
-20
+![Image](assets/fr/20.webp)
 
 ### 4.6. Vérifier et initialiser Pears
 
@@ -224,7 +224,7 @@ pear
 
 Lors du premier lancement, Pears téléchargera automatiquement les composants nécessaires depuis le réseau pair-à-pair. Ce processus peut durer quelques instants.
 
-21
+![Image](assets/fr/21.webp)
 
 Si tout s’est bien déroulé, vous devriez voir apparaître l’aide du CLI Pears avec la liste des sous-commandes disponibles (run, seed, info...).
 
@@ -238,7 +238,7 @@ pear run pear://keet
 
 Cette commande charge l’application Keet directement depuis le réseau Pears, sans passer par un serveur central. Si Keet se lance correctement, cela signifie que votre installation de Pears est pleinement fonctionnelle.
 
-22
+![Image](assets/fr/22.webp)
 
 Votre système Windows est désormais prêt à exécuter et héberger des applications pair-à-pair avec Pears.
 
@@ -250,8 +250,8 @@ Une fois Pears installé et fonctionnel, vous pouvez directement exécuter la pl
 pear run pear://k9cawqdsan3bkobkigesuyfeqjcasi49ikjaru5cipap835t7nwy
 ```
 
-13
+![Image](assets/fr/13.webp)
 
 Une fois le chargement terminé, Plan ₿ Academy s’ouvrira dans votre environnement Pears, prête à être utilisée comme sur le site web original, mais sans aucune dépendance à un serveur central.
 
-14
+![Image](assets/fr/14.webp)

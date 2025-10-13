@@ -6,4 +6,4 @@ wrong_answers:
   - AETF
 explanation: |
   L'ARPA (Advanced Research Projects Agency) a initié ARPANET, qui est le socle du développement du protocole TCP/IP. La DARPA est le nouveau nom de l'ARPA à partir de 1972.
-reviewed: false
+reviewed: true 

@@ -82,6 +82,8 @@ Kas olete valmis avastama, kuidas Frédéric Bastiat' ideed kõlavad tänapäeva
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 See kursus on sissejuhatus Frédéric Bastiat'sse, kes on tunnustamata geenius ja meie aja majakas. Selles lühikeses sissejuhatuses püüan aidata teil avastada, kes oli Frédéric Bastiat ja millised on peamised teemad, mida me selle sarja jooksul käsitleme.
 
@@ -142,6 +144,8 @@ Sellel kursusel rändame koos läbi Frédéric Bastiat' mõtte, alustades teda v
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 1844. aastal tegi Frédéric Bastiat ärireisi Hispaaniasse. Pärast Madridis, Sevillas, Cádizis ja Lissabonis viibimist otsustas ta suunduda Southamptonisse ja külastada Inglismaad. Londonis oli tal võimalus osaleda maisivastase liidu koosolekutel, mille tööd ta oli eemalt jälginud. Ta kohtus selle ühingu peamiste juhtidega, sealhulgas Richard Cobdeniga, kellest sai tema sõber.
@@ -219,6 +223,8 @@ Ta suri 1850. aastal Roomas tuberkuloosi. Ta on maetud Saint Louis des Français
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 Majandusteaduses tunnistas Bastiat alati oma võlga Adam Smithile ja Jean-Baptiste Say'le. 26-aastaselt kirjutas ta ühele oma sõbrale: "Ma ei ole kunagi lugenud neil teemadel muud kui neid nelja teost, Smithi, Say'd, Destutt'i ja Censor'i."
@@ -303,6 +309,8 @@ Tootjad kasutavad veenmist, läbirääkimisi ja Contract, samas kui rüüstajad 
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 See on vähe teada, kuid Destutt de Tracy avaldas otsustavat mõju Ameerika Ühendriikide tulevasele presidendile Thomas Jeffersonile, kui ta oli 1780. aastatel suursaadik Pariisis.
 
@@ -370,6 +378,8 @@ Kokkuvõtteks võib öelda, et ideoloogidel oli sügav intuitsioon, nimelt et to
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 Kõikide tsivilisatsioonide ajalugu on rüüstavate klasside ja tootlike klasside vahelise võitluse lugu. See on nende kahe autori usutunnistus, kellest me räägime. Nad on klassivõitluse liberaalse teooria loojad, mis inspireeris nii Frédéric Bastiat'd kui ka Karl Marxi, kuigi viimane moonutas seda.
@@ -447,6 +457,8 @@ Nende sügavalt uuenduslikud ideed jäid igaveseks Frédéric Bastiat'ile, kelle
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 On 1838. aasta, Manchesteris koguneb väike hulk seni vähetuntud mehi, et leida viis nisumaaomanike monopoli kukutamiseks juriidiliste vahenditega ja saavutada, nagu Bastiat hiljem jutustab,
@@ -541,6 +553,8 @@ Vabakaubanduse küsimus on jätkuvalt aktuaalne ka tänapäeval. Koolide geograa
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, kes väljendas end 1840. aastatel, on valgustusfilosoofide põlvkonna pärija, kes võitlesid tsensuuri vastu ja aruteluvabaduse eest. Mõelge Montesquieu'le, Diderot'le, Voltaire'le, Condorcet'le, aga ka Rousseau'le.
 
@@ -611,6 +625,8 @@ Bastiat' sõnul eksisteerivad ühiskond, inimesed ja omadused enne seadusi, ja t
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 24. veebruaril 1848, pärast kolm päeva kestnud rahutusi Pariisis, loobus kuningas Louis-Philippe I oma võimust. See tähistas Teise Vabariigi sündi.
 
 
@@ -671,6 +687,8 @@ Kuid nagu Bastiat meile meelde tuletab, välistab monopol progressi.
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/en/057.webp)
@@ -769,6 +787,8 @@ Kokkuvõttes on protektsionistidel ja sotsialistidel Bastiat' sõnul üks ühine
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon on üks 19. sajandi keskpaiga prantsuse sotsialismi peamisi esindajaid. Ta on eriti kuulus selle avalduse poolest: "Omand on vargus" 1840. aasta teoses "Mis on omand?".
 
@@ -853,6 +873,8 @@ Kokkuvõttes tunnistasid nii Proudhon kui ka Bastiat kapitali akumulatsiooni tä
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 Selles peatükis esitlen ma täiesti uut tehnoloogiat, revolutsioonilist tehnoloogiat. Üks teadlane on välja töötanud bioonilised prillid, mille esiküljele on paigaldatud ülivõimsad minikaamerad. See tehnoloogia võimaldab näha detaile, mida palja silmaga ei ole võimalik näha. Seljas on elektrooniline kiip, mis edastab pilte otse pilve minu nutitelefoni kaudu.
 
@@ -912,6 +934,8 @@ Selle tekstisarja suur õppetund on see, et riigi sekkumisel on perversne mõju,
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 1840. aastal hääletas esindajatekoda seaduse poolt, millega tõsteti impordimakse, et kaitsta Prantsuse tööstust. See on kuulus majanduspatriotism, millega me veel tänapäevalgi kokku puutume.
@@ -989,6 +1013,8 @@ Tõeline rikkus on Bastiat' sõnul seega kasulikud asjad, mida me oma vajaduste 
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Kui rikkad kaotavad kaalu, surevad vaesed.
@@ -1078,6 +1104,8 @@ Ja ta ütles seda sotsialistide poole pöördudes.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Paljud inimesed teavad Molière'i komöödiat "Tartuffe'i või petis", milles kaval kurjategija püüab võrgutada Elmire'i ja petab tema abikaasat Orgonit. Kuidas saab end kaitsta sellise silmakirjatseja pettuse eest, kes teeskleb, et teeb sulle head, samal ajal kui vehkleb sinu vastu?
 
@@ -1158,6 +1186,8 @@ Loomulikult ei ole poliitiline ökonoomia universaalne teadus; see ei välista f
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Kas harmooniline ühiskond saab hakkama ilma kirjalike seaduste, eeskirjade ja repressiivsete meetmeteta? Kui inimesed jäetakse vabaks, kas me ei ole tunnistajaks korrastamatusele, anarhiale, korrastamatusele? Kuidas vältida pelgalt väljaspool igasugust kontserti tegutsevate indiviidide kõrvutiolu, kui mitte seaduste ja tsentraliseeritud poliitilise organisatsiooni kaudu?
 
@@ -1213,6 +1243,7 @@ See tuletab meelde Bastiat' ideed miljonite üksteist mitte tundvate inimeste n�
 
 Ka 1976. aasta Nobeli majanduspreemia laureaat Milton Friedman käis selle pliiatsiloo üle, et selgitada avalikkusele, kuidas turumajandus toimib.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 Oma telesarja "Vabalt valida" ühes episoodis analüüsib ta millegi nii igapäevase ja lihtsa kui pliiatsi erinevaid komponente ning toob esile spontaanse korra ime, mis on tekkinud tuhandete majanduslike interaktsioonide tulemusena kogu maailmas. Inimesed, kes ei tunne üksteist, kes ei jaga sama religiooni ega kombeid, suudavad selle eseme tootmiseks siiski kooskõlastatult tegutseda. Ta jõuab järeldusele, et vaba turg on oluline mitte ainult heaolu, vaid ka harmoonia ja rahu tagamiseks.
 
@@ -1233,6 +1264,8 @@ Majandusplaneerimine, mis väidab end olevat parem kui turg, toob kaasa mitte ai
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 Bastiat kirjutas 1845. aastal Alphonse de Lamartine'ile saadetud kirjas, et kogu tema filosoofia sisaldub ühesainsas põhimõttes:
@@ -1327,6 +1360,8 @@ Teisisõnu, kollektiivsed valikud ei ole vastutustundlikud valikud, sest ühest 
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 Eelmisel kursusel nägime, miks vabadus ja vastutus on sotsiaalse probleemi võti. Nüüd süveneme sellesse punkti, näidates, kuidas Frédéric Bastiat näeb ühiskondi vaevavaid hädasid ja nende lahendamist.
 
@@ -1403,6 +1438,8 @@ Tuleb täpsustada, et see vastutuse kaudu toimuv areng ei ole sugugi automaatne.
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1496,6 +1533,8 @@ Seadus võib sundida inimest olema õiglane, kuid ei saa sundida teda olema püh
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Omandi all ei tohiks siinkohal mõista maad. See tähendab "töötaja õigust oma tööga loodud väärtusele" Bastiat täpsustab:
 
@@ -1572,6 +1611,8 @@ _(Cicero)_
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 Bastiat' põhiidee tema 1850. aasta kuulsas pamfletis "Õigus" on näidata, miks ja kuidas õigus on muutunud rüüstamiseks, st privileegide, situatsioonirentide ja maksualase omavoli allikaks.
@@ -1653,6 +1694,8 @@ Sada aastat pärast Frédéric Bastiat' surma on õiguslik rüüstamine selgelt 
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 1848. aastal oli Bastiat saadik. Ta nimetati rahanduskomisjoni asepresidendiks. Seetõttu oli ta eriti sobiv vastuse leidmiseks küsimusele: mis on riik? Me pöördume riigi poole, et tagada oma heaolu. Kuid Bastiat tuletab meile meelde, et riik ei saa anda kodanikele midagi, mida ta pole neilt kõigepealt võtnud.
 
@@ -1725,6 +1768,8 @@ Kirjutas Frédéric Bastiat lühikeses pamfletis pealkirjaga "Riik".
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 Bastiat' mõju hakkas vähenema 19. sajandi lõpu poole, kui ülikoolides ja teadusinstituutides, mida rahastati riiklikest vahenditest, tõusis sotsialism ja eriti marksism.

@@ -63,12 +63,12 @@ Bardzo dziękujemy naszym nauczycielom, którzy byli częścią tego programu:
 
 Tydzień 1 wydarzenia LN Toskania
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Po ukończeniu tego kursu, jeśli jesteś zainteresowany szkoleniem uzupełniającym, oto druga część harmonogramu:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 

@@ -138,7 +138,7 @@ Selle korralduse eelis seisneb lihtsas kaabeldamises ja selles, et ei sõltu üh
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/en/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Selline hierarhiline ülesehitus sobib eriti hästi suurte võrkude puhul, mis v
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/en/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Bussitopoloogia peamine eelis on madalad paigalduskulud tänu lihtsustatud kaabe
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Selline paigutus muudab haldamise ja hoolduse lihtsaks: kui üks välisseade lä
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/en/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Kompromissiks on see, et loodavate ühenduste arv suureneb kiiresti koos termina
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/en/005.webp)
 
 
 
@@ -263,7 +263,7 @@ TCP/IP mudeli neli kihti on järgmised:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/en/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Kui datagramm ületab võrgusegmendi MTU-d, mida ta peab ületama, jagavad marsr
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/en/008.webp)
 
 
 
@@ -431,7 +431,7 @@ Seega järgib edastamine struktureeritud protsessi:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/en/009.webp)
 
 
 
@@ -442,7 +442,7 @@ Saabumisel toimub protsess vastupidi: vastuvõttev masin saab kaadri võrgujuurd
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/en/010.webp)
 
 
 
@@ -456,7 +456,7 @@ Andmete muundamise iga Layer puhul võib kokku võtta järgmiselt:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/en/011.webp)
 
 
 
@@ -507,7 +507,7 @@ Saadaolevate aadresside arv on klassiti väga erinev: alates suurtest avalikest 
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/en/013.webp)
 
 
 
@@ -585,7 +585,7 @@ Soovime 4 alamvõrku, millest igaühes on kuni 60 hosti.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/en/016.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP on ühendusele orienteeritud protokoll, mis tähendab, et see loob selgesõn
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/en/018.webp)
 
 
 
@@ -688,7 +688,7 @@ Usaldusväärsuse parandamiseks kasutab TCP taimerit: kui segment on saadetud, a
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/en/019.webp)
 
 
 
@@ -711,7 +711,7 @@ Järjestuse sünkroniseerimine Exchange põhineb kuulsal **"*kolmesuunalise käe
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/en/020.webp)
 
 
 
@@ -734,7 +734,7 @@ Praktikas määratleb libisev aken järjestusnumbrite vahemiku, mis võib vabalt
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/en/021.webp)
 
 
 
@@ -751,7 +751,7 @@ Sellist täpset juhtimist, mis ühendab IP paindliku marsruutimise ja TCP range 
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/en/022.webp)
 
 
 
@@ -791,7 +791,7 @@ Neid vahetusi reguleerivad kaks põhiaspekti:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/en/023.webp)
 
 
 
@@ -800,7 +800,7 @@ Neid vahetusi reguleerivad kaks põhiaspekti:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/en/024.webp)
 
 
 
@@ -836,7 +836,7 @@ Selle süsteemi keskmes on **teenuse algmoodulid**, mis toimivad suhtlusliideste
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/en/026.webp)
 
 
 
@@ -896,7 +896,7 @@ näide: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Oluline on meeles pidada, et MAC Address ja IP Address on kaks täiesti erinevat
 - Visuaalne näide MAC Address kohta:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/en/032.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Oluline on meeles pidada, et MAC Address ja IP Address on kaks täiesti erinevat
 - Visuaalne näide IP Address-st:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Lisaks IPv4 nappuse lahendamisele tugevdab NAT ka turvalisust, luues esimese loo
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/en/035.webp)
 
 
 
@@ -1331,7 +1331,7 @@ selle praktilise toimimise näitlikustamiseks võib tuua järgmise näite:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/en/037.webp)
 
 
 
@@ -1500,7 +1500,7 @@ Professionaalsetes keskkondades on eesmärk tagada teenuse järjepidevus ja/või
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/en/039.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Automaatseks konfigureerimiseks on olemas mitu meetodit:
 Siin on näide, kuidas muuta MAC Address EUI-64-ks:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/en/045.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Siin on ülevaade erinevatest IPv6-s määratletud laienduste päistest.
 See päis, kui see on olemas, paigutatakse alati kohe pärast põhipealkirja. See sisaldab teavet, mida peab töötlema iga marsruuter paketi teekonnal, erinevalt enamikust teistest päistest, mida tavaliselt töötleb ainult sihtkoht. Tüüpilised kasutusalad hõlmavad globaalsete parameetrite edastamist või konkreetsete töötlemisetappide taotlemist paketi liikumisel läbi võrgu.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/en/047.webp)
 
 
 #### Marsruudi päis
@@ -2117,7 +2117,7 @@ Selle juurdumispealkirja neli esimest välja on järgmised:
 Väli "Segmendid jäänud" algab allesjäänud segmentide koguarvuga ja seda vähendatakse iga hüppega ühe võrra.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/en/048.webp)
 
 
 #### Fragmenteerimise päis
@@ -2134,7 +2134,7 @@ Fragmenteerimise päis sisaldab järgmisi välju:
 - **M flag**: näitab, kas järgneb rohkem fragmente.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/en/049.webp)
 
 
 #### Autentimispealkiri (AH)
@@ -2146,7 +2146,7 @@ Selle päise eesmärk on tagada side turvalisus, kontrollides nii saatja autents
 Pettusliku muutmiskatse korral ei vasta autentimiskood enam ja andmeprogramm võidakse tagasi lükata. See mehhanism kaitseb ka kordusrünnakute eest, tuvastades volitamata dubleerimisi.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/en/050.webp)
 
 
 #### Sihtkoha valikute päis
@@ -2158,7 +2158,7 @@ See päis on mõeldud ainult andmegrammi lõppsaajale. Seda võib kasutada raken
 Algselt ei olnud sellist võimalust protokollis määratletud. See päis võeti siiski kasutusele IPv6 kavandamisel, et võimaldada tulevikus lisada laiendusi ilma paketi üldist struktuuri muutmata. Näiteks null-optsiooni kasutatakse ainult selleks, et täita päis 8 baidi mitmekordselt mälu joondamise eesmärgil.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/en/051.webp)
 
 
 IPv6-pakettide disain on üles ehitatud minimaalse baaspealkirja ja modulaarsete laienduspealkirjade selgel eraldamisel. Selline ülesehitus tagab nii standardse töötlemisjõudluse kui ka paindlikkuse, mis on vajalik protokolli arendamiseks ja turvalisuse, keerulise marsruutimise või teenuse kvaliteedi mehhanismide integreerimiseks, säilitades samas ühilduvuse tulevaste infrastruktuuridega.
@@ -2504,7 +2504,7 @@ Wireshark on saadaval paljudes operatsioonisüsteemides, sealhulgas Linuxis ja W
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/en/052.webp)
 
 
 
@@ -2555,7 +2555,7 @@ See käsk väljastab üksikasjaliku aruande Interface kohta, mis on CentOS- või
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/en/053.webp)
 
 
 
@@ -3107,7 +3107,7 @@ Sel juhul küsitakse kõiki hoste vahemikus `192.168.0.0` kuni `192.168.0.255`. 
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/en/055.webp)
 
 
 

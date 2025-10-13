@@ -1,6 +1,6 @@
 ---
 name: Handleiding voor het lokaal draaien van het Plan ₿ Network platform
-description: Hoe kunt u de Plan ₿ Network in een lokale omgeving laten draaien om mijn bijdrage aan inhoud of het proeflezen/beoordelen van educatieve inhoud op de Plan ₿ Network te testen?
+description: Hoe kan je de Plan ₿ Network in een lokale omgeving laten draaien om mijn bijdrage aan inhoud of het proeflezen/beoordelen van educatieve inhoud op de Plan ₿ Network te testen?
 ---
 ![github](assets/cover.webp)
 
@@ -16,7 +16,7 @@ Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze tutor
 
 ---
 
-## **Hoe Bitcoin Leerbeheersysteem Lokaal draaien**
+## **Hoe Bitcoin Leerbeheersysteem lokaal draaien**
 
 
 Deze tutorial geeft gedetailleerde stappen om het platform in te stellen, dummy keys te verwerken en repositories aan te passen. Volg de onderstaande stappen om veelvoorkomende problemen te voorkomen en je lokale omgeving goed te configureren.
@@ -27,7 +27,7 @@ Deze tutorial geeft gedetailleerde stappen om het platform in te stellen, dummy 
 
 
 - Linux machine met Docker en Docker Compose geïnstalleerd (er is gemeld dat het ook op Windows werkt).
-- voldoende `nodejs` versie (getest: 22.12.0)
+- toereikende `nodejs` versie (getest: 22.12.0)
 - `pnpm` geïnstalleerd op je systeem.
 - Git geconfigureerd voor het klonen van repositories.
 
@@ -67,7 +67,7 @@ cp .env.example .env
 ⚠️ Dit is een verplichte stap, het overslaan ervan zal resulteren in fouten zoals verbindingsweigering tussen sommige containers.
 
 
-Vergeet niet om uw speciale Github PAT ook toe te voegen in het bestand
+Vergeet niet om je speciale Github PAT ook toe te voegen in het bestand
 
 
 
@@ -86,7 +86,7 @@ SENDGRID_KEY=dummySendgridKey
 **4. Afhankelijkheden installeren**
 
 
-zorg ervoor dat je een geschikte nodejs versie hebt geïnstalleerd. Vanaf 2024-12 is bewezen dat v22.12.0 (LTS) werkt.
+Zorg ervoor dat je een geschikte nodejs versie hebt geïnstalleerd. Vanaf 2024-12 is bewezen dat v22.12.0 (LTS) werkt.
 
 
 
@@ -117,12 +117,12 @@ pnpm install
 ```
 
 
-__TIP:__Neem in gedachten dat je van tijd tot tijd zowel de afhankelijkheden als pnpm zelf moet bijwerken
+__TIP:__ Denk er aan dat je van tijd tot tijd zowel de afhankelijkheden als pnpm zelf moet bijwerken.
 
 
 
-**5. Voer de containers** uit
-
+**5. Voer de containers uit** 
+ 
 Start in je `../Bitcoin-learning-management-system/` map de ontwikkelomgeving met Docker:
 
 
@@ -142,7 +142,7 @@ Dit zal alle nodige containers van dockers bouwen en starten.
 
 **6. Toegang tot de toepassing**
 
-Zodra de containers draaien, opent u de frontend op:
+Van zodra de containers draaien, open je de frontend met:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
@@ -154,7 +154,7 @@ Opmerking: de app wordt automatisch opnieuw geladen als je bronbestanden wijzigt
 
 
 
-**7.** Stel je database in Schema
+**7.** Stel je database schema in
 
 
 Bij de eerste run moet je de DB-migraties uitvoeren.
@@ -168,7 +168,7 @@ pnpm run dev:db:migrate
 ```
 
 
-**8. Gegevens importeren uit de database**
+**8. Gegevens importeren uit de repository**
 
 Om gegevens in de database te importeren, dien je een verzoek in bij de API:
 
@@ -180,7 +180,7 @@ curl -X POST http://localhost:3000/api/github/sync
 
 **9. Problemen met toegang tot synchronisatievolume oplossen**
 
-Als u toegangsproblemen ondervindt met de volumes `cdn` en `sync`, voer dan het volgende uit:
+Als je toegangsproblemen ondervindt met de volumes `cdn` en `sync`, voer dan het volgende uit:
 
 
 ```markdown
@@ -188,7 +188,7 @@ docker exec --user=root bitcoin-learning-management-system-api-1 chmod 777 /tmp/
 ```
 
 
-dan weer wel:
+dan opnieuw:
 
 
 ```markdown
@@ -200,9 +200,9 @@ curl -X POST http://localhost:3000/api/github/sync
 
 
 
-**10. De database aanpassen (optioneel)**
+**10. De repository aanpassen (optioneel)**
 
-Als je een Fork of een specifieke tak moet gebruiken:
+Als je een fork of een specifieke branch moet gebruiken:
 
 1. Bewerk het `.env` bestand om de volgende variabelen bij te werken:
 
@@ -224,7 +224,7 @@ docker compose up --build -V
 ```
 
 
-3\. Synchroniseer de archiefgegevens opnieuw:
+3\. Synchroniseer de repository data opnieuw:
 
 
 ```markdown
@@ -246,7 +246,7 @@ docker compose down
 ```
 
 
-alle bestaande containers en volumes snoeien
+prune (snoei) alle bestaande containers en volumes
 
 
 ```

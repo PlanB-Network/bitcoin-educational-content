@@ -63,12 +63,12 @@ objectives:
 
 هفته 1 رویداد LN توسکانی
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 پس از اتمام این دوره، اگر به آموزش پیگیری علاقه‌مند هستید، در اینجا بخش دوم برنامه آمده است:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 

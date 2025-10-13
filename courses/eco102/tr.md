@@ -82,6 +82,8 @@ Frédéric Bastiat'nın fikirlerinin bugün hala nasıl yankılandığını keş
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Bu ders, tanınmayan bir deha ve çağımız için bir yol gösterici olan Frédéric Bastiat'ya bir giriş niteliğindedir. Bu kısa girişte, Frédéric Bastiat'nın kim olduğunu ve bu seri boyunca ele alacağımız ana temaların neler olduğunu keşfetmenize yardımcı olmaya çalışacağım.
 
@@ -142,6 +144,8 @@ Bu derste, Frédéric Bastiat'nın düşüncesinde, onu çok erken yaşlarda şe
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 1844 yılında Frédéric Bastiat İspanya'ya bir iş gezisi yaptı. Madrid, Sevilla, Cadiz ve Lizbon'da kaldıktan sonra Southampton'a gitmeye ve İngiltere'yi ziyaret etmeye karar verdi. Londra'da, çalışmalarını uzaktan takip ettiği Mısır Yasası Karşıtı Birlik'in toplantılarına katılma fırsatı buldu. Aralarında daha sonra arkadaşı olacak Richard Cobden'ın da bulunduğu bu birliğin önde gelen liderleriyle tanıştı.
@@ -218,6 +222,8 @@ Kitaplarının ve denemelerinin neredeyse tamamı hayatının son altı yılınd
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 Bastiat, ekonomi alanında Adam Smith ve Jean-Baptiste Say'e olan borcunu her zaman kabul etmiştir. Henüz 26 yaşındayken bir arkadaşına şöyle yazmıştır: "Bu konularda Smith, Say, Destutt ve Censor'un dört eseri dışında hiçbir şey okumadım."
@@ -302,6 +308,8 @@ Ancak Frédéric Bastiat, Jean-Baptiste Say'den anahtar bir kavramı, yağma kav
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Çok az bilinir ama Destutt de Tracy, 1780'lerde Paris'te büyükelçi olarak görev yaptığı sırada, geleceğin ABD Başkanı Thomas Jefferson üzerinde belirleyici bir etkiye sahipti.
 
@@ -369,6 +377,8 @@ Sonuç olarak, İdeologların derin bir sezgisi vardı: üretim ve mübadeleler 
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 Tüm uygarlıkların tarihi, yağmacı sınıflar ile üretici sınıflar arasındaki mücadelenin öyküsüdür. Tartışacağımız iki yazarın inancı budur. Bu iki yazar, Karl Marx'a olduğu kadar Frédéric Bastiat'ya da ilham veren liberal sınıf mücadelesi teorisinin yaratıcılarıdır, ancak Bastiat bu teoriyi çarpıtmıştır.
@@ -446,6 +456,8 @@ Son derece yenilikçi olan fikirleri, kendisi de siyasi krizler konusunda derin 
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 Yıl 1838, Manchester'da, o zamana kadar pek tanınmayan az sayıda adam, buğday toprak sahiplerinin tekelini yasal yollarla yıkmanın bir yolunu bulmak ve Bastiat'nın daha sonra anlatacağı gibi bunu başarmak için bir araya gelir,
@@ -540,6 +552,8 @@ Serbest ticaret meselesi bugün de güncelliğini korumaktadır. Okullardaki co�
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 1840'larda kendini ifade eden Frédéric Bastiat, sansüre karşı ve tartışma özgürlüğü için mücadele eden bir Aydınlanma filozofları kuşağının mirasçısıdır. Montesquieu, Diderot, Voltaire, Condorcet ve aynı zamanda Rousseau'yu düşünün.
 
@@ -610,6 +624,8 @@ Bastiat'ya göre toplum, insanlar ve mülkler yasalardan önce vardır ve Bastia
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 24 Şubat 1848'de Paris'te üç gün süren ayaklanmaların ardından Kral I. Louis-Philippe iktidarı bıraktı. Böylece İkinci Cumhuriyet doğmuş oldu.
 
 
@@ -670,6 +686,8 @@ Ancak Bastiat'nın bize hatırlattığı gibi, tekelcilik ilerlemeyi dışlar.
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/en/057.webp)
@@ -768,6 +786,8 @@ Sonuç olarak, Bastiat'ya göre korumacılar ve sosyalistler ortak bir noktayı 
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon, 19. yüzyılın ortalarında Fransız sosyalizminin en önemli temsilcilerinden biridir. Özellikle şu ifadesiyle ünlüdür: "Mülkiyet hırsızlıktır" 1840 yılında "Mülkiyet Nedir?" adlı kitabında.
 
@@ -851,6 +871,8 @@ Sonuç olarak, hem Proudhon hem de Bastiat sermaye birikiminin önemini ve bazı
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 Bu bölümde yepyeni bir teknolojiyi, devrim niteliğinde bir teknolojiyi tanıtacağım. Bir araştırmacı, ön yüzünde ultra güçlü bir mini kamera bulunan bir çift biyonik gözlük geliştirdi. Bu teknoloji, çıplak gözle görülmesi imkânsız ayrıntıları görmeyi sağlıyor. Kollarda, görüntüleri akıllı telefonum aracılığıyla doğrudan buluta ileten elektronik bir çip var.
 
@@ -909,6 +931,8 @@ Bu metin dizisinden çıkarılacak en büyük ders, devlet müdahalesinin görü
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 1840 yılında Temsilciler Meclisi, Fransız sanayisini korumak için ithalat vergilerini arttıran bir yasayı oyladı. Bu, bugün hala karşılaştığımız ünlü ekonomik vatanseverliktir.
@@ -986,6 +1010,8 @@ Dolayısıyla Bastiat'ya göre gerçek zenginlik, ihtiyaçlarımızı karşılam
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Zenginler kilo verdiğinde, fakirler ölür.
@@ -1074,6 +1100,8 @@ Ve bunu sosyalistlere hitap ederken söyledi.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Molière'in kurnaz bir dindarın Elmire'i baştan çıkarmaya ve kocası Orgon'u dolandırmaya çalıştığı komedisi "Tartuffe ya da Sahtekâr "ı pek çok kişi bilir. Size karşı komplo kurarken size iyilik yapıyormuş gibi davranan böyle bir ikiyüzlünün aldatmacalarına karşı kendinizi nasıl koruyabilirsiniz?
 
@@ -1154,6 +1182,8 @@ Kesin olan bir şey var ki, olayların gidişatını değiştirebilecek ve insan
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Uyumlu bir toplum yazılı yasalar, kurallar, baskıcı önlemler olmadan yaşayabilir mi? İnsanlar özgür bırakılırsa düzensizliğe, anarşiye, dağınıklığa tanık olmaz mıyız? Yasalar ve merkezi bir siyasi örgütlenme yoluyla değilse bile, herhangi bir uyumun dışında hareket eden bireylerin yan yana gelmesinden nasıl kaçınılabilir?
 
@@ -1208,6 +1238,7 @@ Bastiat'nın, birbirini tanımayan milyonlarca birey arasında, kalem gibi sıra
 
 1976 Nobel Ekonomi Ödülü sahibi Milton Friedman da piyasa ekonomisinin nasıl işlediğini halka açıklamak için bu kalem hikayesini yeniden ele aldı.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 Free to Choose adlı televizyon dizisinin bir bölümünde, bir kurşun kalem kadar sıradan ve basit bir şeyin çeşitli bileşenlerini analiz ediyor ve dünya çapında binlerce ekonomik etkileşimin yarattığı kendiliğinden düzen mucizesinin altını çiziyor. Birbirini tanımayan, aynı dini ya da gelenekleri paylaşmayan insanlar yine de bu nesneyi üretmek için koordine olmayı başarıyor. Serbest piyasanın sadece refahı değil, aynı zamanda uyum ve barışı da sağlamak için gerekli olduğu sonucuna varıyor.
 
@@ -1228,6 +1259,8 @@ Piyasadan daha iyisini yapma iddiasındaki ekonomik planlama, sadece kaynakları
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 Bastiat, 1845 yılında Alphonse de Lamartine'e yazdığı bir mektupta tüm felsefesinin tek bir ilkede toplandığını yazmıştır:
@@ -1322,6 +1355,8 @@ Başka bir deyişle, kolektif seçimler sorumlu seçimler değildir, çünkü bi
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 Bir önceki derste, özgürlük ve sorumluluğun neden sosyal sorunun anahtarı olduğunu gördük. Şimdi Frédéric Bastiat'nın toplumları etkileyen kötülükleri ve bunların çözümünü nasıl gördüğünü göstererek bu noktayı daha derinlemesine inceleyeceğiz.
 
@@ -1398,6 +1433,8 @@ Sorumluluk yoluyla ilerlemenin bu gelişiminin hiçbir şekilde otomatik olmadı
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1491,6 +1528,8 @@ Hukuk bir insanı adil olmaya zorlayabilir ama adanmış olmaya zorlayamaz. Sosy
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Burada mülkiyetten toprağı anlamamalıyız. "Bir işçinin emeğiyle yarattığı değer üzerindeki hakkı" anlamına gelir Bastiat belirtiyor:
 
@@ -1566,6 +1605,8 @@ _(Cicero)_
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 Bastiat'nın 1850 tarihli ünlü broşürü "The Law "daki ana fikri, hukukun neden ve nasıl yağmacı hale geldiğini, yani ayrıcalıkların, durumsal rantların ve mali keyfiliğin kaynağı olduğunu göstermektir.
@@ -1646,6 +1687,8 @@ Frédéric Bastiat'nın ölümünden bir asır sonra, 1948 tarihli İnsan Haklar
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 1848 yılında Bastiat milletvekiliydi. Maliye komisyonunun başkan yardımcılığına atandı. Bu nedenle şu soruyu yanıtlamak için özellikle iyi bir konuma sahipti: Devlet nedir? Refahımızı sağlamak için devlete başvururuz. Ancak Bastiat bize Devletin vatandaşlardan almadığı hiçbir şeyi onlara veremeyeceğini hatırlatır.
 
@@ -1718,6 +1761,8 @@ Frédéric Bastiat, Devlet başlıklı kısa bir broşürde yazdı.
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 Bastiat'nın etkisi 19. yüzyılın sonlarına doğru, sosyalizmin ve özellikle de Marksizmin üniversitelerde ve kamu parasıyla finanse edilen araştırma enstitülerinde yükselişiyle birlikte azalmaya başladı.

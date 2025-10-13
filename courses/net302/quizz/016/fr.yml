@@ -6,4 +6,4 @@ wrong_answers:
   - Il le compresse avant de le diffuser
 explanation: |
   Si la taille du datagramme excède la MTU, le routeur le fragmente en plusieurs paquets plus petits adaptés au réseau cible.
-reviewed: false
+reviewed: true 

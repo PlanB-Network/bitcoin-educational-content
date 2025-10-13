@@ -6,4 +6,4 @@ wrong_answers:
   - Le nom d’hôte principal
 explanation: |
   Le TLD est toujours l’élément le plus à droite du FQDN, comme .com, .org ou .fr.
-reviewed: false
+reviewed: true 

@@ -829,19 +829,19 @@ Aan de softwarekant zijn er 2 manieren om een Bitcoin node te gebruiken:
 
 
 - installeer direct een protocolimplementatie, zoals Bitcoin core (aanbevolen), of Bitcoin Knots,
-- of gebruik een kant-en-klare distributie (vaak "_node-in-a-box_" genoemd) die op dezelfde manier een Bitcoin implementatie integreert, maar ook een Interface beheersysteem, een applicatiewinkel en kant-en-klare hulpmiddelen bevat (Lightning, browsers, indexservers, zelfs zelf-hostende toepassingen buiten Bitcoin...).
+- of gebruik een kant-en-klare distributie (vaak "_node-in-a-box_" genoemd) die op dezelfde manier een Bitcoin implementatie integreert, maar ook een interface beheersysteem, een applicatiewinkel en kant-en-klare hulpmiddelen bevat (Lightning, browsers, indexservers, zelfs gehoste toepassingen buiten Bitcoin...).
 
 
 
-Beide benaderingen leiden tot hetzelfde doel: het hebben van je eigen node, maar ze verschillen in termen van Interface installatie en gebruik, onderhoud, uitbreidbaarheid en kosten. Dat is wat we in dit hoofdstuk zullen onderzoeken.
+Beide benaderingen leiden tot hetzelfde doel: het hebben van je eigen node, maar ze verschillen in termen van interface installatie en gebruik, onderhoud, uitbreidbaarheid en kosten. Dat is wat we in dit hoofdstuk zullen onderzoeken.
 
 
 
-### Ruwe Bitcoin nodeimplementaties
+### Pure Bitcoin nodeimplementaties
 
 
 
-Het installeren van een ruwe implementatie betekent direct gebruik maken van de software van een Bitcoin protocolimplementatie (zoals Core), zonder aanvullende Layer software. Je beheert de configuratie, updates en bijbehorende diensten (indexering, API, Lightning, back-ups, enz.) zelf, afhankelijk van je behoeften.
+Het installeren van een pure implementatie betekent direct gebruik maken van de software van een Bitcoin protocolimplementatie (zoals Core), zonder aanvullende layer software. Je beheert de configuratie, updates en bijbehorende diensten (indexering, API, Lightning, back-ups, enz.) zelf, afhankelijk van je behoeften.
 
 
 
@@ -849,15 +849,15 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-#### Bitcoin core (klant met ultrameerderheid)
+#### Bitcoin core (client met ultrameerderheid)
 
 
 
-[Bitcoin core is de ultra-majority client van het netwerk] (https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de Blockchain, biedt RPC/REST API's en kan een Wallet integreren. Als je de voorkeur geeft aan standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
+[Bitcoin core is de ultra-majority client van het netwerk] (https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de blockchain, biedt RPC/REST API's en kan een wallet integreren. Als je de voorkeur hebt voor standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
 
 
 
-**Voordelen:** Maximale stabiliteit, voorspelbaar gedrag, ruwe ervaring, eenvoudig te installeren en te configureren.
+**Voordelen:** Maximale stabiliteit, voorspelbaar gedrag, pure ervaring, eenvoudig te installeren en te configureren.
 
 
 
@@ -869,11 +869,11 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (belangrijkste alternatieve klant)
+#### Bitcoin Knots (belangrijkste alternatieve client)
 
 
 
-[Bitcoin Knots is een Fork van Bitcoin core](https://bitcoinknots.org/), onderhouden door Luke Dashjr. Het is de belangrijkste alternatieve client voor Core voor het implementeren van het Bitcoin protocol. Het is volledig compatibel met de rest van het netwerk (het is in geen geval een Hard Fork zoals Bitcoin Cash), maar biedt desondanks extra mogelijkheden, inclusief opties voor het relaybeleid die in Core ontbreken, of standaard strenger worden toegepast om wat sommigen als spam beschouwen te beperken.
+[Bitcoin Knots is een fork van Bitcoin core](https://bitcoinknots.org/), onderhouden door Luke Dashjr. Het is de belangrijkste alternatieve client voor Core voor het implementeren van het Bitcoin protocol. Het is volledig compatibel met de rest van het netwerk (het is in geen geval een hard fork zoals Bitcoin Cash), maar biedt desondanks extra mogelijkheden, inclusief opties voor het relaybeleid die in Core ontbreken te beperken, of standaard strenger worden toegepast om wat sommigen als spam beschouwen.
 
 
 
@@ -882,8 +882,8 @@ Er zijn 2 mogelijke redenen om Knots boven Core te kiezen:
 
 
 
-- Technieken**: Andere opties dan Core, met name op het gebied van relaisbeheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door je node.
-- Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe deze effectief gebruikt kunnen worden. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het merendeel van het beheer van de client afkeuren.
+- **Technieken**: Andere opties dan Core, met name op het gebied van relaisbeheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door je node.
+- **Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe deze effectief gebruikt kunnen worden. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het beheer van de meest gebrukte client afkeuren.
 
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -896,7 +896,7 @@ Persoonlijk raad ik je aan om Core te kiezen, vooral om sneller te kunnen profit
 
 
 
-De _node-in-a-box_ combineert Bitcoin core (of Knots) met een voorgeconfigureerd besturingssysteem, een Interface Web, en een App Store van zelf-hostende diensten (Lightning, explorers, Electrum server, Mempool, BTCPay Server, Nextcloud, etc.). Met slechts één klik kun je deze verschillende modules installeren, bijwerken en onderling verbinden.
+De _node-in-a-box_ combineert Bitcoin core (of Knots) met een voorgeconfigureerd besturingssysteem, een web interface, en een App Store met zelf gehoste diensten (Lightning, explorers, Electrum server, Mempool, BTCPay Server, Nextcloud, etc.). Met slechts één klik kun je deze verschillende modules installeren, bijwerken en onderling verbinden.
 
 
 
@@ -913,7 +913,7 @@ De meeste van deze oplossingen zijn verkrijgbaar in twee formaten:
 
 
 
-- Voorgemonteerde machine: een volledige computer met het besturingssysteem al geïnstalleerd. Deze pay-as-you-go machines hoeven alleen maar op het lichtnet te worden aangesloten en met het internet te worden verbonden om operationeel te zijn. Als je budget het toelaat, heeft deze optie het voordeel dat ze heel eenvoudig op te zetten is, vaak prioritaire ondersteuning biedt en bijdraagt aan de financiering van de ontwikkeling, aangezien het bedrijfsmodel van deze bedrijven meestal gebaseerd is op de verkoop van hardware.
+- Voorgemonteerde machine: een volledige computer met het besturingssysteem al geïnstalleerd. Deze pay-as-you-go machines hoeven alleen maar op het stroomnet te worden aangesloten en met het internet te worden verbonden om operationeel te zijn. Als je budget het toelaat, heeft deze optie het voordeel dat ze heel eenvoudig op te zetten is, vaak prioritaire ondersteuning biedt en bijdraagt aan de financiering van de ontwikkeling, aangezien het bedrijfsmodel van deze bedrijven meestal gebaseerd is op de verkoop van hardware.
 - Doe-het-zelf: installeer het distributiebesturingssysteem op je eigen machine (oude pc, NUC, Raspberry Pi, thuisserver...). Dit is de voordeligste oplossing, omdat je een oude machine kunt recyclen of hardware kunt kiezen die precies past bij je behoeften en budget. Het is ook de meest flexibele optie en de meest bevredigende om te configureren. Het is deze aanpak die we zullen verkennen in het praktische deel van de cursus.
 
 
@@ -926,7 +926,7 @@ Hier volgt een overzicht van de belangrijkste beschikbare node-in-a-box oplossin
 
 
 
-[Vandaag de dag is Umbrel de leider in node-in-a-box oplossingen (https://umbrel.com/). Het succes is grotendeels te danken aan de eenvoud van de installatie (toen het werd gelanceerd op een eenvoudige Raspberry Pi), de elegante en intuïtieve Interface en een ecosysteem van toepassingen dat snel is gegroeid en nu zeer uitgebreid is.
+[Vandaag de dag is Umbrel de leider in node-in-a-box oplossingen](https://umbrel.com/). Het succes is grotendeels te danken aan de eenvoud van de installatie (toen het werd gelanceerd op een eenvoudige Raspberry Pi), de elegante en intuïtieve interface en een ecosysteem van toepassingen dat snel is gegroeid en nu zeer uitgebreid is.
 
 
 
@@ -934,7 +934,7 @@ Hier volgt een overzicht van de belangrijkste beschikbare node-in-a-box oplossin
 
 
 
-Umbrel werd in 2020 gelanceerd als een eenvoudig Bitcoin node met een paar aanvullende toepassingen, maar heeft zich geleidelijk ontwikkeld tot een moderne cloud met alle functies.
+Umbrel werd in 2020 gelanceerd als een eenvoudige Bitcoin node met een paar aanvullende toepassingen, maar heeft zich geleidelijk ontwikkeld tot een complete moderne thuis cloud.
 
 
 
@@ -948,11 +948,11 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-[Start9 biedt StartOS (https://start9.com/), een systeem dat is ontworpen voor "sovereign computing": het doel is dat iedereen zijn eigen privé-server kan bezitten en beheren, versterkt door een marktplaats van zelf gehoste applicaties. Je kunt een Start9 server kopen (Server One voor $619, Server Pure voor $899) of je eigen server samenstellen in DIY-modus op je eigen machine.
+[Start9 biedt StartOS](https://start9.com/), een systeem dat is ontworpen voor "sovereign computing": het doel is dat iedereen zijn eigen privé-server kan bezitten en beheren, versterkt door een marktplaats van zelf gehoste applicaties. Je kunt een Start9 server kopen (Server One voor $619, Server Pure voor $899) of je eigen server samenstellen in DIY-modus op je eigen machine.
 
 
 
-Aan de Bitcoin kant kun je met StartOS een Full node, een Lightning node, BTCPay Server, Electrs en vele andere diensten installeren. De aantrekkingskracht van Start9 gaat echter verder: het biedt de mogelijkheid om verschillende software (bestandscloud, messaging, monitoring) op een uniforme manier te ontdekken, configureren en bloot te stellen, met volledige controle. Het project is daarom gericht op gebruikers die een robuust self-hosting platform willen, niet alleen een eenvoudige Bitcoin node. Het is waarschijnlijk het meest complete ecosysteem na Umbrel.
+Aan de Bitcoin kant kun je met StartOS een full node, een Lightning node, BTCPay Server, Electrs en vele andere diensten installeren. De aantrekkingskracht van Start9 gaat echter verder: het biedt de mogelijkheid om verschillende software (bestandscloud, messaging, monitoring) op een uniforme manier te ontdekken, configureren en bloot te stellen, met volledige controle. Het project is daarom gericht op gebruikers die een robuust self-hosting platform willen, niet alleen een eenvoudige Bitcoin node. Het is waarschijnlijk het meest complete ecosysteem na Umbrel.
 
 
 
@@ -960,11 +960,11 @@ Aan de Bitcoin kant kun je met StartOS een Full node, een Lightning node, BTCPay
 
 
 
-Het grootste verschil met Umbrel zit in de Interface. Umbrel vertrouwt op een zeer gepolijste UX, terwijl Start9 een ruwere, meer functionele Interface biedt. Het applicatie-ecosysteem van Start9 is minder rijk dan dat van Umbrel, maar het compenseert dit met een aantal technische voordelen: de toegang tot geavanceerde applicatie-instellingen is vereenvoudigd, terwijl Umbrel al snel beperkend wordt als de gewenste optie niet wordt geleverd door de Interface. Start9 blinkt ook uit in back-upbeheer: behalve de efficiënte oplossing van Umbrel voor LND is er geen uniform mechanisme, in tegenstelling tot Start9. Bovendien biedt het meer toegankelijke bewakingstools en een versleutelde verbinding op afstand (`https`), terwijl lokale toegang tot Umbrel via `http` gaat.
+Het grootste verschil met Umbrel zit in de interface. Umbrel vertrouwt op een zeer gepolijste UX, terwijl Start9 een ruwere, meer functionele interface biedt. Het applicatie-ecosysteem van Start9 is minder rijk dan dat van Umbrel, maar het compenseert dit met een aantal technische voordelen: de toegang tot geavanceerde applicatie-instellingen is vereenvoudigd, terwijl Umbrel al snel beperkend wordt als de gewenste optie niet wordt geleverd door de interface. Start9 blinkt ook uit in back-upbeheer: behalve de efficiënte oplossing van Umbrel voor LND is er geen uniform mechanisme, in tegenstelling tot Start9. Bovendien biedt het meer toegankelijke bewakingstools en een versleutelde verbinding op afstand (`https`), terwijl lokale toegang tot Umbrel via `http` gaat.
 
 
 
-Kortom, als je gewoon de essentiële toepassingen voor Bitcoin nodig hebt, zonder bijzondere interesse in het zeer rijke ecosysteem van Umbrel, en de Interface gebruiker is geen prioriteit, dan is Start9 een betere optie. Anders is Umbrel de betere keuze.
+Kortom, als je gewoon de essentiële toepassingen voor Bitcoin nodig hebt, zonder bijzondere interesse in het zeer rijke ecosysteem van Umbrel, en de gebruikersinterface is geen prioriteit, dan is Start9 een betere optie. Anders is Umbrel de betere keuze.
 
 
 
@@ -974,7 +974,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-[MyNode is een distributie die zich uitsluitend richt op Bitcoin en Lightning](https://mynodebtc.com/), en biedt een web Interface, een marktplaats voor toepassingen en upgrades met één klik. Je kunt kant-en-klare hardware kopen (*Model Two* verkrijgbaar voor $ 549) of MyNode gratis installeren op je eigen machine. Het project biedt ook een *Premium* versie van de software ($94), die ondersteuning met prioriteit en geavanceerde functies bevat.
+[MyNode is een distributie die zich uitsluitend richt op Bitcoin en Lightning](https://mynodebtc.com/), en biedt een web interface, een marktplaats voor toepassingen en upgrades met één klik. Je kunt kant-en-klare hardware kopen (*Model Two* verkrijgbaar voor $ 549) of MyNode gratis installeren op je eigen machine. Het project biedt ook een *Premium* versie van de software ($94), die ondersteuning met prioriteit en geavanceerde functies bevat.
 
 
 
@@ -982,7 +982,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-In de praktijk brengt MyNode alle basisbouwstenen samen die nodig zijn om een Full node te laten werken, evenals de toepassingen die essentieel zijn voor Bitcoin gebruikers. Daarom is het een geschikte oplossing als je geen applicaties nodig hebt die buiten het Bitcoin ecosysteem vallen, zoals zelf gehoste apps die je kunt vinden in Start9 en Umbrel systemen.
+In de praktijk brengt MyNode alle basisbouwstenen samen die nodig zijn om een full node te laten werken, evenals de toepassingen die essentieel zijn voor Bitcoin gebruikers. Daarom is het een geschikte oplossing als je geen applicaties nodig hebt die buiten het Bitcoin ecosysteem vallen, zoals zelf gehoste apps die je kunt vinden in de Start9 en Umbrel systemen.
 
 
 
@@ -1010,11 +1010,11 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo is een privacy-gerichte node-in-a-box](https://wiki.ronindojo.io/en/home) die de inzet van Samurai Dojo en Whirlpool automatiseert, met een speciale Interface en plugins die speciaal zijn ontworpen voor het Samurai-ecosysteem.
+[RoninDojo is een privacy-gerichte node-in-a-box](https://wiki.ronindojo.io/en/home) die de implementatie van Samurai Dojo en Whirlpool automatiseert, met een speciale interface en plugins die speciaal zijn ontworpen voor het Samurai-ecosysteem.
 
 
 
-Het principe is eenvoudig: als je Ashigaru Wallet gebruikt (de Fork opvolger van Samurai Wallet, na de arrestatie van de ontwikkelaars) of als je wilt profiteren van geavanceerde privacytools, dan is RoninDojo iets voor jou.
+Het principe is eenvoudig: als je Ashigaru wallet gebruikt (de fork opvolger van Samurai wallet, na de arrestatie van de ontwikkelaars) of als je wilt profiteren van geavanceerde privacytools, dan is RoninDojo iets voor jou.
 
 
 
@@ -1022,7 +1022,7 @@ Het principe is eenvoudig: als je Ashigaru Wallet gebruikt (de Fork opvolger van
 
 
 
-Het project bood eerder een voorgeconfigureerde machine genaamd de Tanto, maar deze is momenteel niet beschikbaar. Het is mogelijk dat deze op een later tijdstip terugkeert. In de tussentijd is het mogelijk om RoninDojo eenvoudig te installeren op een Rock5B+ of Rockpro64, of zelfs indirect op een Raspberry Pi.
+Het project bood eerder een voorgeconfigureerde machine aan genaamd de Tanto, maar deze is momenteel niet beschikbaar. Het is mogelijk dat deze op een later tijdstip terugkeert. In de tussentijd is het mogelijk om RoninDojo eenvoudig te installeren op een Rock5B+ of Rockpro64, of zelfs indirect op een Raspberry Pi.
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - 192.168.0.0/16
 explanation: |
   La plage 127.0.0.0/8 est utilisée pour le bouclage local. Toute requête vers cette plage reste confinée à la machine émettrice.
-reviewed: false
+reviewed: true 

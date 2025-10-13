@@ -17,3 +17,4 @@ Paymium (https://www.paymium.com) è la prima piattaforma di scambio di bitcoin 
 - Utilizzo e acquisto
 
 ![video](https://youtu.be/JVizZzRmJf8)
+

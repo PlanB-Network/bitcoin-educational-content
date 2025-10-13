@@ -6,4 +6,4 @@ wrong_answers:
   - À vérifier la longueur totale des paquets IP
 explanation: |
   Les primitives de service assurent l’interface de communication entre les différentes couches, ce qui permet d’établir, maintenir ou terminer les échanges réseau.
-reviewed: false
+reviewed: true 

@@ -26,7 +26,7 @@ En combinant ces composants, Pears permet de créer des applications autonomes, 
 
 ## 2. Origine et philosophie du projet
 
-Pears est développé par Holepunch, une entreprise fondée par Paolo Ardoino (CEO de Tether et CTO de Bitfinex) et son équipe, avec la mission d’étendre la logique du pair-à-pair au-delà de Bitcoin. Leur ambition est de bâtir l’"*Internet des pairs*", où chaque application peut fonctionner sans autorisation, sans serveurs, et sans intermédiaire. Holepunch est déjà à l’origine de **Keet**, une application de visioconférence et de messagerie entièrement P2P.
+Pears est développé par Holepunch, une entreprise fondée par Mathias Buus et Paolo Ardoino (CEO de Tether et CTO de Bitfinex), avec la mission d’étendre la logique du pair-à-pair au-delà de Bitcoin. Leur ambition est de bâtir l’"*Internet des pairs*", où chaque application peut fonctionner sans autorisation, sans serveurs, et sans intermédiaire. Holepunch est déjà à l’origine de **Keet**, une application de visioconférence et de messagerie entièrement P2P.
 
 https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 

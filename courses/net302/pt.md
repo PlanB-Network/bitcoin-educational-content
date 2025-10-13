@@ -138,7 +138,7 @@ A vantagem desta disposição reside na simplicidade da sua cablagem e na ausên
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/en/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Este layout hierárquico funciona particularmente bem para grandes redes que nec
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/en/002.webp)
 
 
 
@@ -166,7 +166,7 @@ A principal vantagem da topologia de bus é o baixo custo de instalação, graç
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Esta disposição facilita a gestão e a manutenção: se um dispositivo perifé
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/en/004.webp)
 
 
 
@@ -197,7 +197,7 @@ A desvantagem é que o número de conexões a serem estabelecidas aumenta rapida
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/en/005.webp)
 
 
 
@@ -263,7 +263,7 @@ As quatro camadas do modelo TCP/IP são:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/en/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Quando um datagrama excede o MTU de um segmento de rede que tem de atravessar, o
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/en/008.webp)
 
 
 
@@ -431,7 +431,7 @@ A transmissão segue assim um processo estruturado:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/en/009.webp)
 
 
 
@@ -442,7 +442,7 @@ Após a chegada, o processo é invertido: a máquina recetora recebe o quadro no
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/en/010.webp)
 
 
 
@@ -456,7 +456,7 @@ A transformação dos dados em cada Layer pode ser resumida da seguinte forma:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/en/011.webp)
 
 
 
@@ -507,7 +507,7 @@ O número de endereços disponíveis varia muito entre classes: desde grandes re
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/en/013.webp)
 
 
 
@@ -585,7 +585,7 @@ Pretendemos 4 sub-redes com um máximo de 60 anfitriões cada.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/en/016.webp)
 
 
 
@@ -680,7 +680,7 @@ O TCP é um protocolo orientado para a ligação, o que significa que estabelece
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/en/018.webp)
 
 
 
@@ -688,7 +688,7 @@ Para melhorar a fiabilidade, o TCP utiliza um temporizador: assim que um segment
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/en/019.webp)
 
 
 
@@ -711,7 +711,7 @@ A sincronização de sequências Exchange baseia-se no famoso mecanismo **"*thre
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/en/020.webp)
 
 
 
@@ -734,7 +734,7 @@ Em termos práticos, a janela deslizante define um intervalo de números de sequ
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/en/021.webp)
 
 
 
@@ -751,7 +751,7 @@ Esta gestão precisa, que combina o encaminhamento flexível do IP com o control
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/en/022.webp)
 
 
 
@@ -791,7 +791,7 @@ Dois aspectos fundamentais regem estes intercâmbios:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/en/023.webp)
 
 
 
@@ -800,7 +800,7 @@ Dois aspectos fundamentais regem estes intercâmbios:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/en/024.webp)
 
 
 
@@ -840,7 +840,7 @@ Ao combinar o aspeto horizontal (comunicação entre aplicações distribuídas)
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/en/026.webp)
 
 
 
@@ -900,7 +900,7 @@ exemplo: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1187,7 +1187,7 @@ IP Address            MAC Address                Type
 - Exemplo visual do MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/en/032.webp)
 
 
 
@@ -1195,7 +1195,7 @@ IP Address            MAC Address                Type
 - Exemplo visual de um IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1262,7 +1262,7 @@ Para além de resolver a escassez de IPv4, a NAT reforça também a segurança, 
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/en/035.webp)
 
 
 
@@ -1335,7 +1335,7 @@ para ilustrar como isto funciona na prática, considere o seguinte exemplo:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/en/037.webp)
 
 
 
@@ -1504,7 +1504,7 @@ Em ambientes profissionais, o objetivo é garantir a continuidade do serviço e/
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/en/039.webp)
 
 
 
@@ -1958,7 +1958,7 @@ Para a configuração automática, existem vários métodos:
 Eis um exemplo de como transformar um MAC Address em EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/en/045.webp)
 
 
 
@@ -2096,7 +2096,7 @@ Eis uma panorâmica dos diferentes tipos de cabeçalhos de extensão definidos p
 Este cabeçalho, se presente, é sempre colocado imediatamente após o cabeçalho de base. Ele contém informações que devem ser processadas por todos os roteadores ao longo do caminho do pacote, ao contrário da maioria dos outros cabeçalhos, que geralmente são tratados apenas pelo nó de destino. As utilizações típicas incluem a sinalização de parâmetros globais ou o pedido de passos de processamento específicos à medida que o pacote percorre a rede.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/en/047.webp)
 
 
 #### Cabeçalho de encaminhamento
@@ -2121,7 +2121,7 @@ Os primeiros quatro campos deste cabeçalho de enraizamento são:
 O campo "Segmentos restantes" começa com o número total de segmentos restantes e é diminuído de um em cada salto.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/en/048.webp)
 
 
 #### Cabeçalho de fragmentação
@@ -2138,7 +2138,7 @@ O cabeçalho de fragmentação contém os seguintes campos:
 - **Bandeira M**: indica se se seguem mais fragmentos.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/en/049.webp)
 
 
 #### Cabeçalho de autenticação (AH)
@@ -2150,7 +2150,7 @@ Este cabeçalho foi concebido para proteger as comunicações, verificando a aut
 No caso de uma tentativa de modificação fraudulenta, o código de autenticação deixará de corresponder e o datagrama poderá ser rejeitado. Este mecanismo também protege contra ataques de repetição, detectando duplicações não autorizadas.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/en/050.webp)
 
 
 #### Cabeçalho das opções de destino
@@ -2162,7 +2162,7 @@ Este cabeçalho destina-se apenas ao destinatário final do datagrama. Pode ser 
 Inicialmente, essa opção não estava definida no protocolo. No entanto, este cabeçalho foi introduzido quando o IPv6 foi projetado, para permitir a adição de futuras extensões sem modificar a estrutura geral do pacote. A opção null, por exemplo, é usada apenas para preencher o cabeçalho com um múltiplo de 8 bytes para fins de alinhamento de memória.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/en/051.webp)
 
 
 A conceção dos pacotes IPv6 assenta numa separação clara entre um cabeçalho de base mínimo e cabeçalhos de extensão modulares. Esta arquitetura assegura tanto o desempenho do processamento normal como a flexibilidade necessária para fazer evoluir o protocolo e integrar mecanismos de segurança, de encaminhamento complexo ou de qualidade de serviço, mantendo simultaneamente a compatibilidade com futuras infra-estruturas.
@@ -2508,7 +2508,7 @@ O Wireshark está disponível em muitos sistemas operativos, incluindo Linux e W
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/en/052.webp)
 
 
 
@@ -2559,7 +2559,7 @@ Esse comando gera um relatório detalhado sobre o `enp0s3` Interface, uma conven
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/en/053.webp)
 
 
 
@@ -3111,7 +3111,7 @@ Neste caso, todos os hosts no intervalo de `192.168.0.0` a `192.168.0.255` serã
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/en/055.webp)
 
 
 

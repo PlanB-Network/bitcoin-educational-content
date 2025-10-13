@@ -82,6 +82,8 @@ Oletko valmis huomaamaan, miten Frédéric Bastiat'n ajatukset ovat edelleen aja
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Tämä kurssi on johdatus Frédéric Bastiat'iin, joka on tunnustamaton nero ja aikamme majakka. Tässä lyhyessä esittelyssä yritän auttaa sinua löytämään, kuka Frédéric Bastiat oli ja mitkä ovat ne tärkeimmät teemat, joita käsittelemme tämän sarjan aikana.
 
@@ -142,6 +144,8 @@ Tällä kurssilla käymme yhdessä läpi Frédéric Bastiat'n ajatuksia, aloitta
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 Vuonna 1844 Frédéric Bastiat teki työmatkan Espanjaan. Oltuaan Madridissa, Sevillassa, Cádizissa ja Lissabonissa hän päätti lähteä Southamptoniin ja vierailla Englannissa. Lontoossa hänellä oli tilaisuus osallistua maissilain vastaisen liiton kokouksiin, jonka toimintaa hän oli seurannut etäältä. Hän tapasi tämän yhdistyksen tärkeimmät johtajat, muun muassa Richard Cobdenin, josta tulisi hänen ystävänsä.
@@ -219,6 +223,8 @@ Hän kuoli Roomassa vuonna 1850 tuberkuloosiin. Hänet on haudattu Saint Louis d
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 Taloustieteen alalla Bastiat tunnusti aina olevansa velkaa Adam Smithille ja Jean-Baptiste Saylle. Hän kirjoitti 26-vuotiaana eräälle ystävälleen: "En ole koskaan lukenut näistä aiheista muuta kuin nämä neljä teosta, Smithin, Sayn, Destuttin ja Sensorin."
@@ -303,6 +309,8 @@ Tuottajat turvautuvat suostutteluun, neuvotteluihin ja Contract:een, kun taas ry
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 On vähän tiedossa, mutta Destutt de Tracy vaikutti ratkaisevasti Yhdysvaltojen tulevaan presidenttiin Thomas Jeffersoniin, kun hän oli suurlähettiläänä Pariisissa 1780-luvulla.
 
@@ -371,6 +379,8 @@ Yhteenvetona voidaan todeta, että ideologeilla oli syvällinen intuitio, nimitt
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 Kaikkien sivilisaatioiden historia on tarina ryöstöluokkien ja tuottavien luokkien välisestä taistelusta. Tämä on niiden kahden kirjailijan uskontunnustus, joista aiomme keskustella. He ovat luokkataistelua koskevan liberaalin teorian alullepanijoita, joka inspiroi Frédéric Bastiat'ta yhtä paljon kuin Karl Marxia, vaikka jälkimmäinen vääristeli sitä.
@@ -448,6 +458,8 @@ Heidän syvästi innovatiiviset ajatuksensa leimasivat ikuisesti Frédéric Bast
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 On vuosi 1838, ja Manchesterissa pieni joukko siihen asti vähän tunnettuja miehiä kokoontuu etsimään keinoa kaataa vehnän maanomistajien monopoli laillisin keinoin ja saada aikaan, kuten Bastiat myöhemmin kertoi,
@@ -542,6 +554,8 @@ Kysymys vapaakaupasta on edelleen ajankohtainen. Koulujen maantieteen oppikirjoi
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, joka ilmaisi itseään 1840-luvulla, on valistusfilosofien sukupolven perillinen, joka taisteli sensuuria vastaan ja keskustelun vapauden puolesta. Ajatelkaa Montesquieuta, Diderot'ta, Voltairea, Condorcet'ta, mutta myös Rousseauta.
 
@@ -612,6 +626,8 @@ Bastiat'n mukaan yhteiskunta, ihmiset ja ominaisuudet ovat olemassa ennen lakeja
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Pariisissa kolme päivää kestäneiden mellakoiden jälkeen kuningas Louis-Philippe I luopui vallasta 24. helmikuuta 1848. Tämä merkitsi toisen tasavallan syntyä.
 
 
@@ -672,6 +688,8 @@ Kuten Bastiat kuitenkin muistuttaa, monopoli sulkee pois edistyksen.
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/fi/056.webp)
@@ -770,6 +788,8 @@ Bastiat'n mukaan protektionisteilla ja sosialisteilla on yhteinen asia: he eivä
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon on yksi 1800-luvun puolivälin ranskalaisen sosialismin tärkeimmistä edustajista. Hän on erityisen kuuluisa tästä lausunnosta: "Mitä on omaisuus?" vuonna 1840.
 
@@ -854,6 +874,8 @@ Yhteenvetona voidaan todeta, että sekä Proudhon että Bastiat tunnustivat pä�
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 Tässä luvussa esittelen aivan uuden teknologian, vallankumouksellisen teknologian. Eräs tutkija on kehittänyt bioniset silmälasit, joiden etuosaan on upotettu erittäin tehokas minikamera. Tämä teknologia mahdollistaa sellaisten yksityiskohtien näkemisen, joita ei voi nähdä paljain silmin. Silmälasien sylissä on elektroninen siru, joka lähettää kuvat suoraan pilveen älypuhelimeni kautta.
 
@@ -913,6 +935,8 @@ Tämän tekstisarjan suuri opetus on se, että valtion väliintulolla on kierout
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 Vuonna 1840 edustajainhuone äänesti tuontiverojen korottamista koskevan lain puolesta Ranskan teollisuuden suojelemiseksi. Tämä on sitä kuuluisaa talouspatriotismia, johon törmäämme vielä nykyäänkin.
@@ -990,6 +1014,8 @@ Todellinen rikkaus on Bastiat'n mukaan siis niiden hyödyllisten asioiden kokona
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Kun rikkaat laihtuvat, köyhät kuolevat.
@@ -1079,6 +1105,8 @@ Ja hän sanoi tämän puhuessaan sosialisteille.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Monet tuntevat Molièren komedian "Tartuffe eli huijari", jossa ovela uskovainen yrittää vietellä Elmiren ja huijata tämän aviomiestä Orgonia. Miten voi suojautua tällaisen tekopyhän petoksen kohteeksi joutuvan henkilön petoksilta, joka teeskentelee tekevänsä sinulle hyvää ja juonittelee samalla sinua vastaan?
 
@@ -1159,6 +1187,8 @@ Yksi asia on varma: politiikka ei ole se, joka voi muuttaa asioiden kulkua ja te
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Voiko sopusointuinen yhteiskunta pärjätä ilman kirjoitettuja lakeja, sääntöjä ja sortotoimia? Jos ihmiset jätetään vapaiksi, emmekö joudu todistamaan epäjärjestystä, anarkiaa, epäjärjestystä? Miten voidaan välttää pelkkä yhteen sovittamattomien yksilöiden rinta rinnan toimiminen, jos ei lakien ja keskitetyn poliittisen organisaation avulla?
 
@@ -1214,6 +1244,7 @@ Se palauttaa mieliin Bastiatin ajatuksen miljoonien toisiaan tuntemattomien yksi
 
 Vuoden 1976 taloustieteen Nobel-palkinnon saanut Milton Friedman palasi myös tähän lyijykynätarinaan selittääkseen suurelle yleisölle, miten markkinatalous toimii.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 Eräässä jaksossa hänen televisiosarjaansa Free to Choose hän analysoi niinkin arkisen ja yksinkertaisen asian kuin kynän eri osatekijöitä ja korostaa spontaanin järjestyksen ihmettä, joka syntyy tuhansien taloudellisten vuorovaikutussuhteiden seurauksena eri puolilla maailmaa. Ihmiset, jotka eivät tunne toisiaan, jotka eivät jaa samaa uskontoa tai tapoja, onnistuvat silti koordinoimaan toimintansa ja tuottamaan tämän esineen. Hän päättelee, että vapaat markkinat ovat välttämättömät paitsi vaurauden myös harmonian ja rauhan takaamiseksi.
 
@@ -1234,6 +1265,8 @@ Taloussuunnittelu, jonka väitetään toimivan markkinoita paremmin, johtaa pait
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 Kirjeessään Alphonse de Lamartinelle vuonna 1845 Bastiat kirjoitti, että hänen koko filosofiansa sisältyy yhteen ainoaan periaatteeseen:
@@ -1328,6 +1361,8 @@ Toisin sanoen kollektiiviset valinnat eivät ole vastuullisia valintoja, koska t
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 Edellisellä kurssilla näimme, miksi vapaus ja vastuu ovat avainasemassa sosiaalisessa ongelmassa. Syvennymme nyt tähän seikkaan osoittamalla, miten Frédéric Bastiat näkee yhteiskuntia vaivaavat epäkohdat ja niiden ratkaisun.
 
@@ -1404,6 +1439,8 @@ On selvennettävä, että tämä vastuullisuuden kautta tapahtuva kehitys ei sui
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1497,6 +1534,8 @@ Laki voi pakottaa ihmisen olemaan oikeudenmukainen, mutta se ei voi pakottaa hä
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Omaisuudella ei tässä yhteydessä pidä ymmärtää maata. Se tarkoittaa "työntekijän oikeutta siihen arvoon, jonka hän on luonut työllään" Bastiat täsmentää:
 
@@ -1567,6 +1606,8 @@ Tässä Bastiat liittyy fysiokraattien perintöön ja sen lisäksi Ciceron ja Ar
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 Bastiat'n vuonna 1850 ilmestyneessä kuuluisassa pamfletissa "Laki" pääajatuksena on osoittaa, miksi ja miten laista on tullut ryöstölaki eli etuoikeuksien, tilannekohtaisten vuokrien ja verotuksellisen mielivallan lähde.
@@ -1645,6 +1686,8 @@ Sata vuotta Frédéric Bastiat'n kuoleman jälkeen oikeudellinen ryöstö näkyy
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 Vuonna 1848 Bastiat oli kansanedustaja. Hänet nimitettiin valtiovarainvaliokunnan varapuheenjohtajaksi. Siksi hänellä oli erityisen hyvät edellytykset vastata kysymykseen: mikä on valtio? Käännymme valtion puoleen varmistaaksemme hyvinvointimme. Bastiat kuitenkin muistuttaa meitä siitä, että valtio ei voi antaa kansalaisille mitään sellaista, mitä se ei ole ensin ottanut heiltä.
 
@@ -1717,6 +1760,8 @@ Kirjoitti Frédéric Bastiat lyhyessä pamfletissa nimeltä Valtio.
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 Bastiat'n vaikutus alkoi heikentyä 1800-luvun loppupuolella, kun sosialismi ja erityisesti marxilaisuus yleistyivät yliopistoissa ja julkisin varoin rahoitetuissa tutkimuslaitoksissa.

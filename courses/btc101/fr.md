@@ -1201,7 +1201,6 @@ Il est essentiel de reconnaître que le KYC est un sujet de discussion important
 
 ### Solutions non-KYC
 
-:::video id=c0962e15-72fd-4072-b2e0-587e89ba1e61:::
 
 En outre, il existe plusieurs [places de marché](https://planb.network/tutorials/exchange) où l'on peut acheter et vendre des bitcoins dans le cadre d'un échange de pair à pair. D'une manière générale, vous pouvez prendre en compte les éléments suivants :
 
@@ -1218,6 +1217,8 @@ Enfin, il est important de noter que les obligations fiscales peuvent varier en 
 ## Hyper-bitcoinisation
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+
+:::video id=c0962e15-72fd-4072-b2e0-587e89ba1e61:::
 
 ### La course effrénée ne fait que commencer !
 

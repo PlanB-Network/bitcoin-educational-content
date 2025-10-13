@@ -6,4 +6,4 @@ wrong_answers:
   - Zato što poruke ne mogu biti autentifikovane bez digitalnog potpisa.
 explanation: |
   Poverljivost štiti sadržaj poruka, ali bez MAC-a, napadač bi i dalje mogao presresti i izmeniti poruku bez razumevanja, čime bi ugrozio integritet komunikacije.
-reviewed: false
+reviewed: true

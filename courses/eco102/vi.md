@@ -82,6 +82,8 @@ Bạn đã sẵn sàng khám phá những tư tưởng của Frédéric Bastiat 
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Khóa học này giới thiệu về Frédéric Bastiat, một thiên tài ít được biết đến và là ngọn hải đăng của thời đại chúng ta. Trong phần giới thiệu ngắn gọn này, tôi sẽ cố gắng giúp bạn khám phá Frédéric Bastiat là ai và những chủ đề chính mà chúng ta sẽ đề cập trong loạt bài này.
 
@@ -142,6 +144,8 @@ Trong khóa học này, chúng ta sẽ cùng nhau tìm hiểu tư tưởng của
 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 
 Năm 1844, Frédéric Bastiat có chuyến công tác đến Tây Ban Nha. Sau khi dừng chân tại Madrid, Seville, Cadiz và Lisbon, ông quyết định lên đường đến Southampton và thăm Anh. Tại London, ông có cơ hội tham dự các cuộc họp của Liên minh Chống Luật Ngũ cốc, nơi ông đã theo dõi hoạt động của họ từ xa. Ông đã gặp gỡ những nhà lãnh đạo chủ chốt của Hiệp hội này, bao gồm cả Richard Cobden, người sau này trở thành bạn của ông.
@@ -219,6 +223,8 @@ Hầu hết sách và tiểu luận của ông được viết trong sáu năm c
 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 
 Trong kinh tế học, Bastiat luôn thừa nhận mình mang ơn Adam Smith và Jean-Baptiste Say. Năm 26 tuổi, ông viết cho một người bạn: "Tôi chưa bao giờ đọc về những chủ đề này ngoài bốn tác phẩm này, Smith, Say, Destutt và The Censor."
@@ -303,6 +309,8 @@ Người sản xuất dùng đến thuyết phục, đàm phán và Contract, tr
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Ít ai biết rằng Destutt de Tracy có ảnh hưởng quyết định đến Tổng thống tương lai của Hoa Kỳ, Thomas Jefferson, khi ông là đại sứ tại Paris vào những năm 1780.
 
@@ -371,6 +379,8 @@ Tóm lại, các nhà tư tưởng có một trực giác sâu sắc, đó là s
 
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 
 Lịch sử của mọi nền văn minh là câu chuyện về cuộc đấu tranh giữa giai cấp bóc lột và giai cấp sản xuất. Đây chính là tín điều của hai tác giả mà chúng ta sẽ thảo luận. Họ là những người khởi xướng lý thuyết tự do về đấu tranh giai cấp, một lý thuyết đã truyền cảm hứng cho Frédéric Bastiat cũng như Karl Marx, mặc dù Marx đã bóp méo nó.
@@ -448,6 +458,8 @@ Những ý tưởng mang tính đổi mới sâu sắc của họ sẽ mãi mãi
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 
 Vào năm 1838, tại Manchester, một nhóm nhỏ đàn ông, ít được biết đến cho đến lúc đó, đã tập hợp lại để tìm cách lật đổ chế độ độc quyền của các chủ đất trồng lúa mì thông qua các biện pháp hợp pháp và để thực hiện, như Bastiat sau này kể lại,
@@ -542,6 +554,8 @@ Vấn đề tự do thương mại vẫn còn nguyên giá trị cho đến ngà
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, người đã thể hiện quan điểm của mình vào những năm 1840, là người kế thừa một thế hệ triết gia Khai sáng đã đấu tranh chống lại sự kiểm duyệt và đấu tranh cho quyền tự do tranh luận. Hãy nghĩ đến Montesquieu, Diderot, Voltaire, Condorcet, và cả Rousseau nữa.
 
@@ -612,6 +626,8 @@ Theo Bastiat, xã hội, con người và tài sản tồn tại trước luật
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Ngày 24 tháng 2 năm 1848, sau ba ngày bạo loạn ở Paris, Vua Louis-Philippe I đã thoái vị. Sự kiện này đánh dấu sự ra đời của nền Cộng hòa thứ hai.
 
 
@@ -672,6 +688,8 @@ Tuy nhiên, như Bastiat nhắc nhở chúng ta, độc quyền ngăn cản sự
 
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
 ![image](assets/vi/056.webp)
@@ -770,6 +788,8 @@ Tóm lại, theo Bastiat, những người theo chủ nghĩa bảo hộ và ch�
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon là một trong những đại diện tiêu biểu của chủ nghĩa xã hội Pháp vào giữa thế kỷ 19. Ông đặc biệt nổi tiếng với câu nói: "Tài sản là trộm cắp" trong tác phẩm "Tài sản là gì?" năm 1840.
 
@@ -854,6 +874,8 @@ Tóm lại, cả Proudhon và Bastiat đều nhận thức được tầm quan t
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 Trong chương này, tôi sẽ tiết lộ một công nghệ hoàn toàn mới, một công nghệ mang tính cách mạng. Một nhà nghiên cứu đã phát triển một cặp kính sinh học với một camera mini siêu mạnh được tích hợp ở mặt trước. Công nghệ này cho phép nhìn thấy những chi tiết mà mắt thường không thể nhìn thấy. Trong cánh tay, có một chip điện tử truyền hình ảnh trực tiếp lên đám mây thông qua điện thoại thông minh của tôi.
 
@@ -913,6 +935,8 @@ Bài học lớn nhất từ loạt bài viết này là sự can thiệp của 
 
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 
 Năm 1840, Hạ viện đã bỏ phiếu thông qua luật tăng thuế nhập khẩu để bảo vệ ngành công nghiệp Pháp. Đây chính là tinh thần yêu nước kinh tế nổi tiếng mà chúng ta vẫn thấy ngày nay.
@@ -990,6 +1014,8 @@ Do đó, theo Bastiat, của cải đích thực là tập hợp những thứ h
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 
 > Khi người giàu giảm cân, người nghèo chết.
@@ -1079,6 +1105,8 @@ Và bà đã nói điều này khi phát biểu trước những người theo c
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Nhiều người biết đến vở hài kịch "Tartuffe hay Kẻ Mạo Danh" của Molière, kể về một tín đồ xảo quyệt tìm cách quyến rũ Elmire và lừa gạt chồng bà là Orgon. Làm sao ta có thể tự bảo vệ mình khỏi những trò lừa bịp của một kẻ đạo đức giả giả vờ làm điều tốt nhưng lại âm mưu chống lại ta?
 
@@ -1159,6 +1187,8 @@ Có một điều chắc chắn, chính trị không thể thay đổi vận m�
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Liệu một xã hội hài hòa có thể tồn tại mà không cần luật lệ, quy tắc và các biện pháp đàn áp thành văn? Nếu con người được tự do, chẳng phải chúng ta sẽ chứng kiến sự hỗn loạn, vô chính phủ và mất tổ chức sao? Làm thế nào để tránh tạo ra sự đối lập đơn thuần giữa những cá nhân hành động ngoài vòng kiểm soát, nếu không thông qua luật pháp và một tổ chức chính trị tập trung?
 
@@ -1214,6 +1244,7 @@ Câu chuyện này tái hiện ý tưởng của Bastiat về sự hợp tác v�
 
 Milton Friedman, người đoạt giải Nobel Kinh tế năm 1976, cũng đã nhắc lại câu chuyện về cây bút chì này để giải thích cho công chúng về cách thức hoạt động của nền kinh tế thị trường.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 Trong một tập phim truyền hình "Tự Do Lựa Chọn", ông phân tích các thành phần khác nhau của một thứ tầm thường và đơn giản như cây bút chì, đồng thời nêu bật phép màu của trật tự tự phát, được tạo ra bởi hàng ngàn tương tác kinh tế trên khắp thế giới. Những người không quen biết nhau, không cùng tôn giáo hay phong tục, vẫn có thể hợp tác để tạo ra vật thể này. Ông kết luận rằng thị trường tự do là yếu tố thiết yếu để đảm bảo không chỉ sự thịnh vượng mà còn cả sự hòa hợp và hòa bình.
 
@@ -1234,6 +1265,8 @@ Kế hoạch hóa kinh tế, vốn tự cho là tốt hơn thị trường, khô
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 
 Trong một lá thư gửi Alphonse de Lamartine năm 1845, Bastiat viết rằng toàn bộ triết lý của ông được gói gọn trong một nguyên tắc duy nhất:
@@ -1328,6 +1361,8 @@ Nói cách khác, lựa chọn tập thể không phải là lựa chọn có tr
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 
 Trong khóa học trước, chúng ta đã thấy tại sao tự do và trách nhiệm là chìa khóa cho vấn đề xã hội. Giờ đây, chúng ta sẽ đi sâu hơn vào điểm này bằng cách chỉ ra quan điểm của Frédéric Bastiat về những tệ nạn đang hoành hành trong xã hội và giải pháp cho chúng.
 
@@ -1404,6 +1439,8 @@ Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nh
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1497,6 +1534,8 @@ Luật pháp có thể buộc một người phải công bằng, nhưng không 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Ở đây, chúng ta không nên hiểu đất đai là tài sản. Nó có nghĩa là "quyền của người lao động đối với giá trị mà họ tạo ra bằng sức lao động của mình". Bastiat chỉ rõ:
 
@@ -1566,6 +1605,8 @@ Trong hệ thống tự do tự nhiên, tồn tại một luật tự nhiên, đ
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 
 Ý tưởng chính của Bastiat trong "Luật pháp", cuốn sách nhỏ nổi tiếng của ông xuất bản năm 1850, là chỉ ra lý do tại sao và bằng cách nào luật pháp lại trở thành phương tiện cướp bóc, tức là nguồn gốc của các đặc quyền, lợi tức tình huống và sự tùy tiện về tài chính.
@@ -1645,6 +1686,8 @@ Một thế kỷ sau cái chết của Frédéric Bastiat, nạn cướp bóc h�
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 Năm 1848, Bastiat là một đại biểu. Ông được bổ nhiệm làm phó chủ tịch ủy ban tài chính. Do đó, ông đặc biệt phù hợp để trả lời câu hỏi này: Nhà nước là gì? Chúng ta tìm đến Nhà nước để đảm bảo phúc lợi của mình. Nhưng Bastiat nhắc nhở chúng ta rằng Nhà nước không thể cho công dân bất cứ thứ gì mà trước đó nó chưa lấy đi của họ.
 
@@ -1717,6 +1760,8 @@ Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề Nh
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 Ảnh hưởng của Bastiat bắt đầu suy giảm vào cuối thế kỷ 19, với sự trỗi dậy của chủ nghĩa xã hội và đặc biệt là chủ nghĩa Marx trong các trường đại học và viện nghiên cứu, được tài trợ bằng tiền công.

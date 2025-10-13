@@ -63,12 +63,12 @@ Stort tack till våra lärare som har varit en del av detta program:
 
 Vecka 1 av LN:s evenemang i Toscana
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 När du har avslutat den här kursen och är intresserad av uppföljningsutbildningen kommer här den andra delen av schemat:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 

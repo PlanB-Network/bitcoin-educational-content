@@ -1,9 +1,9 @@
 question: Koja vrsta enkripcije koristi fiksne blokove podataka?
-answer: Šifrovanje blokova
+answer: Blok šifra
 wrong_answers:
-  - Šifrovanje toka
+  - Šifra toka
   - Kod za autentifikaciju poruke
   - Javni ključ
 explanation: |
   Šifrovanje blokova deli podatke na blokove fiksne veličine i šifruje ih nezavisno.
-reviewed: false
+reviewed: true

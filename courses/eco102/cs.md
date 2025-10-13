@@ -55,6 +55,8 @@ Připraveni zjistit, jak Bastiatovy myšlenky mohou i dnes rezonovat? Připojte 
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 Tento kurz je úvodem k Frédéricu Bastiatovi, neuznanému géniovi a majáku pro naše časy. V tomto stručném úvodu se pokusím pomoci vám objevit, kdo Frédéric Bastiat byl a jaká hlavní témata budeme během této série pokrývat.
 ![image](assets/cs/001.webp)
 
@@ -97,6 +99,8 @@ V tomto kurzu společně procestujeme myšlenkami Frédérica Bastiata, začneme
 ## Život a historický kontext
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 V roce 1844 podnikl Frédéric Bastiat obchodní cestu do Španělska. Po pobytu v Madridu, Seville, Cadizu a Lisabonu se rozhodl odplout do Southamptonu a navštívit Anglii. V Londýně měl příležitost zúčastnit se schůzek Anti-Corn Law League (Ligy proti obilným zákonům), jejíž práci sledoval zpovzdálí. Setkal se s hlavními vůdci této asociace, včetně Richarda Cobdena, který se stal jeho přítelem.
 
@@ -150,6 +154,8 @@ Zemřel v Římě v roce 1850 na tuberkulózu. Je pohřben v kostele Saint Louis
 ## Adam Smith a Jean-Baptiste Say
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 V ekonomii Bastiat vždy uznával svůj dluh vůči Adamu Smithovi a Jean-Baptistu Sayovi. Ve 26 letech napsal jednomu ze svých přátel: "Nikdy jsem na tyto předměty nečetl nic jiného než tyto čtyři práce, Smitha, Saya, Destutta a Censor."
 
@@ -215,6 +221,8 @@ Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 Je málo známo, ale Destutt de Tracy měl rozhodující vliv na budoucího prezidenta Spojených států, Thomase Jeffersona, když byl v 80. letech 18. století velvyslancem v Paříži.
 
 > "Pro každého člověka je jeho první vlastí jeho domovina a druhou je Francie" & "Tyranie je, když se lidé bojí své vlády; svoboda je, když se vláda bojí lidí."
@@ -260,6 +268,8 @@ Závěrem, Ideologové měli hlubokou intuici, totiž že produkce a výměny js
 ## Charles Comte a Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 Historie všech civilizací je příběhem boje mezi drancujícími třídami a produktivními třídami. To je vyznání dvou autorů, o kterých budeme diskutovat. Jsou původci liberální teorie třídního boje, která inspirovala Frédérica Bastiata stejně jako Karla Marxe, ačkoli ten ji zdeformoval.
 
@@ -310,6 +320,8 @@ Jejich myšlenky, hluboce inovativní, by navždy poznamenaly Frédérica Bastia
 ## Cobden a Liga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 Je rok 1838, v Manchesteru, malý počet mužů, dosud málo známých, se shromáždí, aby našli způsob, jak právními prostředky svrhnout monopol vlastníků pšeničných pozemků a dosáhnout, jak by Bastiat později vyprávěl,
 
@@ -374,6 +386,8 @@ Otázka volného obchodu zůstává relevantní i dnes. Učebnice zeměpisu ve �
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 Frédéric Bastiat, který se vyjadřoval ve 40. letech 19. století, je dědicem generace filozofů osvícenství, kteří bojovali proti cenzuře a za svobodu debaty. Pomyslete na Montesquieua, Diderota, Voltaira, Condorceta, ale také Rousseaua.
 
 Pro ně byla myšlenka jednoduchá: čím více je dovoleno vyjadřovat názory, tím více postupuje pravda a tím snadněji jsou odmítnuty omyly. Věda vždy postupuje tímto způsobem.
@@ -420,6 +434,9 @@ Podle Bastiata společnost, lidé a majetky existují před zákony, a má tuto 
 ## Klasické vzdělávání
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
+
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Dne 24. února 1848, po třech dnech nepokojů v Paříži, král Ludvík Filip I. abdikoval. Tím byl položen základ Druhé republiky.
 ![image](assets/cs/051.webp)
 
@@ -459,6 +476,8 @@ Nicméně, jak nás Bastiat připomíná, monopol vylučuje pokrok.
 ## Protekcionismus a socialismus
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 ![obrázek](assets/cs/056.webp)
 
@@ -518,6 +537,8 @@ Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 Pierre-Joseph Proudhon je jedním z hlavních představitelů francouzského socialismu v polovině 19. století. Je zejména proslulý svým tvrzením: "Majetek je krádež" v "Co je majetek?" v roce 1840.
 
 ![image](assets/cs/062.webp)
@@ -568,6 +589,8 @@ Závěrem, jak Proudhon, tak Bastiat uznali význam akumulace kapitálu a tenden
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 V této kapitole odhalím zcela novou technologii, revoluční technologii. Výzkumník vyvinul pár bionických brýlí s ultra-výkonnou mini-kamerou zabudovanou v přední části. Tato technologie umožňuje vidět detaily, které jsou nemožné vidět pouhým okem. V ramenech je elektronický čip, který přenáší obrazy přímo do cloudu prostřednictvím mého smartphonu.
 
 ![image](assets/cs/070.webp)
@@ -607,6 +630,8 @@ Velké ponaučení z této série textů je, že státní zásah má perverzní 
 ## Petice svíčkářů
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 V roce 1840 hlasovala Sněmovna poslanců pro zákon zvyšující dovozní cla za účelem ochrany francouzského průmyslu. Jedná se o slavný ekonomický patriotismus, se kterým se setkáváme i dnes.
 
@@ -657,6 +682,8 @@ Pravé bohatství, podle Bastiata, je tedy soubor užitečných věcí, které v
 ## Plenění prostřednictvím zdanění
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 > Když bohatí hubnou, chudí umírají.
 
@@ -717,6 +744,8 @@ Cílem není udělat z bohatých chudé, ale z chudých bohaté." A to řekla, k
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 Každý zná Tartuffa nebo Podvodníka, komedii od Molièra, ve které chytrý náboženský fanatik se snaží svést Elmire a podvést jejího manžela Orgona. Jak se může člověk chránit před podvody takového pokrytce, který předstírá, že vám chce prospět, zatímco proti vám spikne?
 
 ![image](assets/cs/081.webp)
@@ -767,6 +796,8 @@ Jedna věc je jistá, není to politik, kdo může změnit běh věcí a zdokona
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 Může harmonická společnost fungovat bez psaných zákonů, pravidel, represivních opatření? Pokud jsou lidé ponecháni svobodní, nebudeme svědky chaosu, anarchie, dezorganizace? Jak zabránit vytvoření pouhého souboru jednotlivců jednajících mimo jakoukoliv spolupráci, pokud ne prostřednictvím zákonů a centralizované politické organizace?
 
 Toto je argument často uvedený těmi, kdo požadují regulaci trhu nebo společnosti samotné schopné koordinovat jednotlivce do koherentního a harmonického celku.
@@ -803,6 +834,8 @@ Navazuje na Bastiatovu myšlenku neviditelné spolupráce mezi miliony jednotliv
 
 Nobelova cena za ekonomii za rok 1976, Milton Friedman, také znovu navštívil tento příběh tužky, aby vysvětlil široké veřejnosti, jak funguje tržní ekonomika.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
+
 V epizodě svého televizního seriálu Free to Choose analyzuje různé komponenty něčeho tak obyčejného a jednoduchého jako tužka a zdůrazňuje zázrak spontánního řádu, generovaného tisíci ekonomických interakcí po celém světě. Lidé, kteří se navzájem neznají, kteří nesdílejí stejné náboženství ani zvyky, přesto dokážou koordinovat výrobu tohoto objektu. Dospívá k závěru, že volný trh je nezbytný nejen pro zajištění prosperity, ale také pro harmonii a mír.
 
 ![image](assets/cs/088.webp)
@@ -817,6 +850,8 @@ Ekonomické plánování, které tvrdí, že dokáže fungovat lépe než trh, v
 ## Svoboda a odpovědnost jsou klíčem k sociálnímu problému
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 V dopise Alphonse de Lamartine v roce 1845 Bastiat napsal, že jeho celá filozofie je obsažena v jediném principu:
 
@@ -878,6 +913,8 @@ Jinými slovy, kolektivní volby nejsou zodpovědné volby, protože na jedné s
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 V předchozím kurzu jsme viděli, proč jsou svoboda a odpovědnost klíčové pro sociální problém. Nyní se do tohoto bodu ponoříme hlouběji tím, že ukážeme, jak Frédéric Bastiat vidí zla, která sužují společnosti, a jejich řešení.
 
 Liberálové byli někdy kritizováni za ignorování zla a konstruování utopie čisté a dokonalé svobody v ideálním světě. Tato kritika je však v případě našeho autora zcela neopodstatněná.
@@ -928,6 +965,8 @@ Je nutné objasnit, že tento vývoj pokroku skrze odpovědnost není nijak auto
 ## Pravá a falešná solidarita
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 Frédéric Bastiat ve svém slavném pamfletu "Zákon" odsuzuje perverzi zákona, která spočívá v legalizaci, pod názvem "solidarita", toho, co by se skutečně mělo nazývat loupeží. Skutečně existuje rozpor v tom, chtít uvalit bratrství prostřednictvím zákona, což bychom dnes nazvali "sociální spravedlnost" nebo solidarita.
@@ -997,6 +1036,8 @@ Zákon může člověka přimět být spravedlivý, ale nemůže ho donutit být
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 Majetkem zde nemáme na mysli půdu. Znamená to "právo pracovníka nad hodnotou, kterou vytvořil svou prací." Bastiat upřesňuje:
 
 > Považuji, že právo na majetek spočívá ve svobodě nejprve disponovat se svou vlastní osobou, poté se svou prací a nakonec s produkty své práce - což navíc dokazuje, že z určitého pohledu nelze svobodu a právo na majetek od sebe odlišit.
@@ -1044,6 +1085,8 @@ Zde se Bastiat staví do linie s dědictvím fyziokratů a dále s tradicí filo
 ## Právní Loupež: Perverze Zákona
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 Hlavní myšlenkou Bastiata v "Zákonu", jeho slavném pamfletu z roku 1850, je ukázat proč a jak se zákon stal loupeží, tedy zdrojem privilegií, situativních rent a fiskální svévolnosti.
 
@@ -1096,6 +1139,8 @@ Sto let po smrti Frédérica Bastiata je právní loupež zřetelně patrná v 
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 V roce 1848 byl Bastiat poslancem. Byl jmenován viceprezidentem finanční komise. Byl tedy zvláště vhodný k zodpovězení této otázky: Co je stát? Obracíme se na stát, aby zajistil naše blaho. Ale Bastiat nás připomíná, že stát nemůže dát občanům nic, co si nejprve sám nevzal.
 
 Bastiat začíná převrácením běžně přijímané rovnice: je to stát, který udržuje národ. Nicméně, stát nemůže udržovat občany, protože nevytváří bohatství; pouze ho přesouvá, redistribuuje. Naopak, jsou to občané, kteří udržují stát prostřednictvím tvorby bohatství.
@@ -1141,6 +1186,8 @@ Napsal Frédéric Bastiat v krátké brožuře nazvané Stát.
 ## Dědictví Frédérica Bastiata
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 Vliv Bastiata začal klesat ke konci 19. století s nástupem socialismu a zejména marxismu na univerzitách a výzkumných institutech, financovaných veřejnými penězi.
 

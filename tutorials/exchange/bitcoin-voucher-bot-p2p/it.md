@@ -15,7 +15,7 @@ In risposta alle nuove restrizioni che mettono a rischio la libertà digitale e 
 
 Ma vediamo come funziona questo nuovo metodo di scambio.
 
-Il servizio funziona tramite Lightning Network: ti serve un wallet compatibile che supporti **LNURL** o **Lightning Address** per gestire i pagamenti.
+Il servizio funziona tramite Lightning Network: ti serve un wallet compatibile che supporti "LNURL" o "Lightning Address" per gestire i pagamenti.
 
 Tra i wallet supportati possiamo trovare:
 

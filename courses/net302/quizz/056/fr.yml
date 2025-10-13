@@ -3,7 +3,7 @@ answer: Agréger plusieurs interfaces réseau physiques
 wrong_answers:
   - Ajouter des adresses IP virtuelles au réseau local
   - Créer un pont Wi-Fi
-  - Réduire la taille des paquets sur du cable RJ45
+  - Réduire la taille des paquets sur du câble RJ45
 explanation: |
   Le bonding permet d’utiliser plusieurs interfaces physiques comme une seule logique pour garantir la redondance ou augmenter la bande passante.
-reviewed: false
+reviewed: true 

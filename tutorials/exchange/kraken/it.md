@@ -171,7 +171,7 @@ Dopo aver scelto il metodo più adatto a te, sei finalmente pronto a depositare 
 
 
 
-Tornate quindi al menu principale facendo clic sulla casetta in alto a sinistra, come mostrato di seguito:
+Torna quindi al menu principale facendo clic sulla casetta in alto a sinistra, come mostrato di seguito:
 
 
 
@@ -211,18 +211,18 @@ Dall'alto verso il basso vediamo la scheda:
 
 
 
-Per acquisire il nostro primo "Sats", dovrete depositare sulla piattaforma una valuta fiat, in questo caso euro.
+Per acquisire il tuo primo "Sats", dovresti depositare sulla piattaforma una valuta fiat, in questo caso euro.
 
 
 
-A tal fine, selezionare il menu "Home" in alto a destra, quindi fare clic su "Deposit"("Deposito"), come indicato dalle frecce sottostanti.
+A tal fine, seleziona il menu "Home" in alto a destra, quindi fai clic su "Deposit"("Deposito"), come indicato dalle frecce sottostanti.
 
 
 
 ![KRAKEN](assets/fr/20.webp)
 
 
-Quindi selezionare "Euro".
+Quindi seleziona "Euro".
 
 
 
@@ -233,14 +233,14 @@ Quindi selezionare "Euro".
 Nella schermata successiva vengono proposti diversi modi per depositare gli euro, ma qui ci occuperemo del più comune, ossia il classico bonifico bancario SEPA.
 
 
-A tal fine, selezionare "Manual Bank Transfer"("Bonifico bancario manuale").
+A tal fine, seleziona "Manual Bank Transfer"("Bonifico bancario manuale").
 
 
 
 ![KRAKEN](assets/fr/22.webp)
 
 
-Cliccate quindi su "SEPA & SEPA Instant".
+Clicca quindi su "SEPA & SEPA Instant".
 
 
 
@@ -248,7 +248,7 @@ Cliccate quindi su "SEPA & SEPA Instant".
 
 
 
-Infine, effettuare un bonifico dalla propria banca utilizzando le coordinate bancarie fornite. **Si noti che il nome associato al conto bancario che effettua il bonifico deve essere lo stesso utilizzato per creare il conto Kraken**. Attendere (di solito qualche minuto prima che i vostri euro siano disponibili e appaiano sul vostro saldo Kraken).
+Infine, effettua un bonifico dalla tua banca utilizzando le coordinate bancarie fornite. **Si noti che il nome associato al conto bancario che effettua il bonifico deve essere lo stesso utilizzato per creare il conto Kraken**. Attendi (di solito qualche minuto) prima che i tuoi euro siano disponibili e appaiano sul tuo saldo Kraken.
 
 
 
@@ -260,7 +260,7 @@ Infine, effettuare un bonifico dalla propria banca utilizzando le coordinate ban
 
 
 
-Se desiderate prelevare euro o, più in generale, "fiat" dalla piattaforma al vostro conto bancario personale, dovrete cliccare su "Trasferimento" nell'angolo in alto a destra dello schermo, quindi su "Prelievo".
+Se desideri prelevare euro o, più in generale, 'fiat' dalla piattaforma al tuo conto bancario personale, dovrai cliccare su "Transfer"("Trasferimento") nell'angolo in alto a destra dello schermo, quindi su "Withdraw"("Prelievo").
 
 
 
@@ -268,7 +268,7 @@ Se desiderate prelevare euro o, più in generale, "fiat" dalla piattaforma al vo
 
 
 
-Selezionare la valuta desiderata.
+Seleziona la valuta desiderata.
 
 
 
@@ -284,7 +284,7 @@ Poi, nel caso dell'euro, SEPA e SEPA Instant.
 
 
 
-Quindi inserire l'importo che si desidera prelevare da Kraken e le coordinate bancarie del conto che si desidera accreditare.
+Quindi inserisci l'importo che si desideri prelevare da Kraken e le coordinate bancarie del conto che si desidera accreditare.
 
 
 ![KRAKEN](assets/fr/28.webp)
@@ -295,14 +295,14 @@ Quindi inserire l'importo che si desidera prelevare da Kraken e le coordinate ba
 
 
 
-Per depositare bitcoin su Kraken, si procede inizialmente come per il deposito di euro, cliccando su "Deposito" dalla schermata iniziale (anche il pulsante "Trasferimento" in alto a destra dà accesso alla funzione di deposito).
+Per depositare bitcoin su Kraken, si procede inizialmente come per il deposito di euro, cliccando su "Deposit"("Deposito") dalla schermata iniziale (anche il pulsante "Transfer"("Trasferimento") in alto a destra dà accesso alla funzione di deposito).
 
 
 
 ![KRAKEN](assets/fr/20.webp)
 
 
-Questa volta, naturalmente, selezionate "Bitcoin".
+Questa volta, naturalmente, seleziona "Bitcoin".
 
 
 
@@ -310,15 +310,15 @@ Questa volta, naturalmente, selezionate "Bitcoin".
 
 
 
-Quindi selezionare "Lightning" o "Bitcoin" e ignorare accuratamente il resto: sono solo monete di scarto che non hanno nulla a che fare con il Bitcoin.
+Quindi seleziona 'Lightning' o 'Bitcoin' e non considerare il resto: sono solo monete di scarto che non hanno nulla a che fare con il Bitcoin.
 
 
 
-Come promemoria, il Lightning Network consente di effettuare il Exchange Bitcoin istantaneamente e con maggiore privacy, rispetto alla rete Bitcoin, che richiederà diverse decine di minuti prima che il Exchange sia considerato definitivo.
+Come promemoria, la rete Lightning ti permette di scambiare Bitcoin istantaneamente e con una maggiore privacy, rispetto alla rete Bitcoin, che richiederà diverse decine di minuti prima che lo scambio sia considerato definitivo.
 
 
 
-Se siete interessati al Lightning Network, abbiamo anche un corso di formazione completo per aiutarvi a capire come funziona:
+Se sei interessatio a Lightning Network, abbiamo anche un corso di formazione completo per aiutarti a capire come funziona:
 
 
 
@@ -328,16 +328,14 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Appare un messaggio di avvertimento che vi dice di depositare solo Bitcoin al Address che vi verrà presentato nella schermata successiva. È ovvio che qui nessuno ha altro che Bitcoin, giusto? Cliccate su "Ho capito".
-
+Appare un messaggio di avvertimento che ti dice di depositare solo Bitcoin all’indirizzo che ti verrà presentato nella schermata successiva. Ovviamente qui si usa solo Bitcoin, giusto? Clicca su "I understand"("Ho capito").
 
 
 ![KRAKEN](assets/fr/31.webp)
 
 
 
-Scansionate il codice QR offerto con il vostro Wallet Bitcoin preferito, o copiate il Address se state usando un Wallet sullo stesso computer. **Ci vorranno 3 conferme (Kraken dice 45 minuti) prima che i fondi vengano accreditati sul vostro conto Kraken**.
-
+Scansiona il codice QR fornito con il tuo wallet Bitcoin preferito, oppure copia l’indirizzo se stai usando un wallet sullo stesso computer. **Ci vorranno 3 conferme (Kraken dice circa 45 minuti) prima che i fondi vengano accreditati sul tuo conto Kraken.**
 
 
 *Per il nostro esempio, depositeremo l'equivalente di 21 dollari di bitcoin, che utilizzeremo per illustrare la parte di acquisto/vendita poco più avanti*
@@ -348,11 +346,10 @@ Scansionate il codice QR offerto con il vostro Wallet Bitcoin preferito, o copia
 
 
 
-Per prelevare bitcoin da Kraken al vostro Wallet personale per l'autodeposito, dovrete procedere inizialmente nello stesso modo descritto sopra per il prelievo di valuta fiat.
+Per prelevare bitcoin da Kraken al tuo wallet personale per l'autodeposito, dovrai procedere inizialmente nello stesso modo descritto sopra per il prelievo di valuta fiat.
 
 
-
-Cliccare su "Trasferimento" nell'angolo in alto a destra e selezionare "Prelievo".
+Clicca su "Transfer"("Trasferimento") nell'angolo in alto a destra e selezionare "Withdraw"("Prelievo").
 
 
 
@@ -360,7 +357,7 @@ Cliccare su "Trasferimento" nell'angolo in alto a destra e selezionare "Prelievo
 
 
 
-Quindi selezionare "Bitcoin". *Qui si può vedere che i 21 dollari (19.580 satoshi) sono stati accreditati sul conto nel frattempo*.
+Quindi seleziona "Bitcoin". *Qui si può vedere che i 21 dollari (19.580 satoshi) sono stati accreditati sul conto nel frattempo*.
 
 
 
@@ -368,7 +365,7 @@ Quindi selezionare "Bitcoin". *Qui si può vedere che i 21 dollari (19.580 satos
 
 
 
-Quindi selezionare "Bitcoin" o "Fulmine" per scegliere il metodo di rimozione dei preziosi satoshi Kraken.
+Poi seleziona 'Bitcoin' o 'Lightning' per scegliere il metodo per trasferire i tuoi preziosi satoshi su Kraken.
 
 
 
@@ -376,19 +373,19 @@ Quindi selezionare "Bitcoin" o "Fulmine" per scegliere il metodo di rimozione de
 
 
 
-Infine, dovrete compilare il vostro Bitcoin Address e convalidarlo cliccando su un link che vi verrà inviato per e-mail, in modo che Kraken possa essere sicura che siate voi a richiedere il prelievo.
+Infine, dovrai inserire il tuo Bitcoin Address e convalidarlo cliccando su un link che ti verrà inviato via e-mail, in modo che Kraken possa essere sicura che sei tu a richiedere il prelievo.
 
 
 
-Iniziate inserendo il vostro Address di prelievo e dandogli un nome a vostra scelta. Questo Address può essere riutilizzato per i prelievi futuri, anche se questa non è una buona pratica dal punto di vista della tutela della privacy...
-
+Inizia inserendo il tuo Address di prelievo e assegnandogli un nome a tua scelta. Questo Address può essere riutilizzato per i prelievi futuri, anche se non è una buona pratica dal punto di vista della privacy...
 
 
 ![KRAKEN](assets/fr/35.webp)
 
 
 
-Una volta cliccato sul link inviato per e-mail, sarà possibile indicare l'importo che si desidera prelevare e convalidare l'operazione di prelievo.
+Una volta cliccato sul link inviato via e-mail, potrai indicare l'importo che desideri prelevare e convalidare l'operazione di prelievo.
+
 
 
 
@@ -410,7 +407,7 @@ Una volta cliccato sul link inviato per e-mail, sarà possibile indicare l'impor
 Facciamo una prova e proviamo a comprare 10 € di Bitcoin grazie ai 21 € che abbiamo depositato sul nostro conto Kraken nel paragrafo **4 - Deposito e prelievo di euro (fiat)**.
 
 
-Immettere l'importo e fare clic su "Rivedi".
+Immetti l'importo e fare clic su "Review"("Rivedi").
 
 
 
@@ -418,10 +415,9 @@ Immettere l'importo e fare clic su "Rivedi".
 
 
 
-Viene quindi presentato un riepilogo dell'operazione che sta per essere avviata. Vengono riepilogati la quantità di bitcoin acquistati, il prezzo Bitcoin al momento dell'acquisto e le commissioni (0,1 euro o 1% in questo caso).
+Viene mostrato un riepilogo dell'operazione che sta per essere avviata. Il riepilogo indica la quantità di bitcoin che acquisterai, il prezzo del Bitcoin al momento dell'acquisto e le commissioni applicate (0,1 euro o 1% in questo caso).
 
-
-Fare clic su "Conferma" per acquistare i bitcoin.
+Clicca su 'Conferma' per acquistare i bitcoin.
 
 
 
@@ -429,15 +425,14 @@ Fare clic su "Conferma" per acquistare i bitcoin.
 
 
 
-Ora siete i proprietari di 10 euro di Bitcoin. Beh, non proprio, perché finché i bitcoin sono su Kraken, non vi appartengono davvero...
-
+Ora sei il proprietario di 10 euro di Bitcoin. Beh, non proprio, perché finché i bitcoin sono su Kraken, non ti appartengono davvero...
 
 
 ![KRAKEN](assets/fr/39.webp)
 
 
 
-Per vendere, seguite lo stesso principio, ma selezionate "Vendi" nella parte superiore del riquadro di acquisto/vendita, poi "Rivedi" e infine "Conferma".
+Per vendere, seguite lo stesso principio, ma selezionate Sell"("Vendi") nella parte superiore del riquadro di acquisto/vendita, poi "Review"("Rivedi") e infine "Confirm"("Conferma").
 
 
 
@@ -457,11 +452,11 @@ Per vendere, seguite lo stesso principio, ma selezionate "Vendi" nella parte sup
 
 
 
-Una soluzione pratica per acquistare Bitcoin automaticamente, senza nemmeno dover accedere al proprio conto Kraken, è quella di impostare un DCA. Depositate una quantità di fiat sul vostro conto e impostate acquisti regolari che si attiveranno automaticamente a intervalli regolari, finché il vostro portafoglio fiat sarà sufficientemente alimentato.
+Una soluzione pratica per acquistare Bitcoin automaticamente, senza nemmeno dover accedere al proprio conto Kraken, è quella di impostare un DCA. Deposita una quantità di fiat sul tuo conto e imposta acquisti regolari che si attiveranno automaticamente a intervalli prefissati, finché il tuo portafoglio fiat sarà sufficientemente alimentato.
 
 
 
-A tal fine, fare clic su "Acquista ora" per visualizzare le varie opzioni, quindi scegliere "Ricostruzione".
+A tal fine, clicca su "Buy now"("Acquista ora") per visualizzare le varie opzioni, quindi scegli "Recuring"("Ricostruzione")
 
 
 
@@ -469,9 +464,7 @@ A tal fine, fare clic su "Acquista ora" per visualizzare le varie opzioni, quind
 
 
 
-Scegliete quindi l'importo e la frequenza di acquisto che desiderate impostare. Nel nostro esempio, sceglieremo di acquistare 5 euro di Bitcoin ogni giorno. Cliccare su "Rivedi", quindi su "Conferma" per impostare l'acquisto regolare.
-
-
+Scegli quindi l'importo e la frequenza di acquisto che desideri impostare. Nel nostro esempio, sceglieremo di acquistare 5 euro di Bitcoin ogni giorno. Clicca su "Review"("Rivedi"), quindi su "Confirm"("Conferma") per impostare l'acquisto regolare.
 
 ![KRAKEN](assets/fr/44.webp)
 
@@ -492,7 +485,7 @@ Scegliete quindi l'importo e la frequenza di acquisto che desiderate impostare. 
 L'ultimo modo per negoziare bitcoin su Kraken è quello di predeterminare un prezzo futuro al quale si desidera acquistare o vendere i propri preziosi satoshi.
 
 
-Questa volta selezionare "Ordine personalizzato".
+Questa volta selezionare "Custom Order"("Ordine personalizzato").
 
 
 
@@ -500,7 +493,7 @@ Questa volta selezionare "Ordine personalizzato".
 
 
 
-Indicare quindi il prezzo target al quale si desidera attivare l'acquisto/vendita e fare clic su "Rivedi".
+Indica quindi il prezzo target al quale desideri attivare l'acquisto/vendita e clicca su "Review"("Rivedi").
 
 
 Ad esempio, scegliamo di acquistare 5 euro di Bitcoin a condizione che il prezzo scenda da 91.000 euro, al momento di questa esercitazione, a 75.000 euro.
@@ -511,7 +504,7 @@ Ad esempio, scegliamo di acquistare 5 euro di Bitcoin a condizione che il prezzo
 
 
 
-Infine, scegliere "Conferma" per aprire la posizione.
+Infine, scegli "Confirm"("Conferma") per aprire la posizione.
 
 
 
@@ -556,7 +549,7 @@ Come "Maker", è ancora meglio, in quanto si beneficia di una commissione dello 
 
 
 
-Per accedere a **Kraken Pro**, fare clic nell'angolo in alto a destra dello schermo sui 9 puntini disposti a quadrato e scegliere "Kraken Pro".
+Per accedere a **Kraken Pro**, clica nell'angolo in alto a destra dello schermo sui 9 puntini disposti a quadrato e scegliere "Kraken Pro".
 
 
 
@@ -564,7 +557,7 @@ Per accedere a **Kraken Pro**, fare clic nell'angolo in alto a destra dello sche
 
 
 
-Il Interface cambia come mostrato di seguito.
+L'interfaccia cambia come mostrato di seguito.
 
 
 
@@ -572,7 +565,7 @@ Il Interface cambia come mostrato di seguito.
 
 
 
-Per acquistare/vendere tramite **Kraken Pro**, fare clic su "Commercio" nell'angolo in alto a sinistra.
+Per acquistare/vendere tramite **Kraken Pro**, clicca su "Trade"("Commercio") nell'angolo in alto a sinistra.
 
 
 
@@ -580,7 +573,7 @@ Per acquistare/vendere tramite **Kraken Pro**, fare clic su "Commercio" nell'ang
 
 
 
-Quindi selezionate la coppia che desiderate negoziare facendo clic nell'angolo in alto a sinistra. Nel nostro caso, inseriremo la coppia BTC/EUR.
+Quindi seleziona la coppia che desideri negoziare cliccando nell'angolo in alto a sinistra. Nel nostro caso, inseriremo la coppia BTC/EUR.
 
 
 

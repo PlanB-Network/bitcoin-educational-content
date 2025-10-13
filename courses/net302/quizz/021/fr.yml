@@ -6,4 +6,4 @@ wrong_answers:
   - Le routage statique
 explanation: |
   La "fenêtre glissante" autorise l’envoi de plusieurs segments à la suite, puis décale la plage à chaque accusé de réception pour optimiser le flux.
-reviewed: false
+reviewed: true 

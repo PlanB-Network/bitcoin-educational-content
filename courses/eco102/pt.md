@@ -309,7 +309,6 @@ Os produtores recorrem à persuasão, à negociação e ao Contract, enquanto os
 
 > Para cada homem, o seu primeiro país é a sua pátria, e o segundo é a França" & "A tirania é quando o povo teme o seu governo; a liberdade é quando o governo teme o povo.
 >
-
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)

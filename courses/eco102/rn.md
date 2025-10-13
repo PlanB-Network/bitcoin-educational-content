@@ -308,7 +308,6 @@ Ntibizwi cane, ariko Destutt de Tracy yarafise uruhara runini ku bijanye n’uwa
 
 > Ku muntu wese, igihugu ciwe ca mbere ni igihugu ciwe, ica kabiri ni Ubufaransa" & "Ububisha ni igihe abantu batinya intwaro yabo; umwidegemvyo ni igihe leta itinya abantu.
 >
-
 > Toma Yeferoni
 
 ![image](assets/en/021.webp)

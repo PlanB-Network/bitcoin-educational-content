@@ -308,7 +308,6 @@ Haijulikani sana, lakini Destutt de Tracy alikuwa na ushawishi mkubwa kwa Rais w
 
 > Kwa kila mtu, nchi yake ya kwanza ni nchi yake, na ya pili ni Ufaransa" & "Udhalimu ni wakati watu wanaiogopa serikali yao; uhuru ni pale serikali inapowaogopa watu.
 >
-
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)

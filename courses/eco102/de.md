@@ -309,7 +309,6 @@ Es ist wenig bekannt, aber Destutt de Tracy hatte einen entscheidenden Einfluss 
 
 > Für jeden Menschen ist sein erstes Land sein Heimatland, und das zweite ist Frankreich" & "Tyrannei ist, wenn das Volk seine Regierung fürchtet; Freiheit ist, wenn die Regierung das Volk fürchtet.
 >
-
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)

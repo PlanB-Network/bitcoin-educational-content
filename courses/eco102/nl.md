@@ -308,7 +308,6 @@ Het is weinig bekend, maar Destutt de Tracy had een beslissende invloed op de to
 
 > Voor elke man is zijn eerste land zijn vaderland en het tweede Frankrijk" & "Tirannie is wanneer de mensen bang zijn voor hun regering; vrijheid is wanneer de regering bang is voor de mensen.
 >
-
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)

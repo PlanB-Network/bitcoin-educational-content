@@ -308,7 +308,6 @@ Ancak Frédéric Bastiat, Jean-Baptiste Say'den anahtar bir kavramı, yağma kav
 
 > Her insanın ilk ülkesi vatanı, ikincisi ise Fransa'dır." & "Tiranlık, halkın hükümetinden korkmasıdır; özgürlük ise hükümetin halktan korkmasıdır.
 >
-
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)

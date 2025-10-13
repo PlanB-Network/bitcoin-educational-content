@@ -309,7 +309,6 @@ Người sản xuất dùng đến thuyết phục, đàm phán và Contract, tr
 
 > Đối với mỗi người, quê hương là đất nước đầu tiên, và nước Pháp là quê hương thứ hai" & "Chế độ chuyên chế là khi người dân sợ chính phủ của họ; tự do là khi chính phủ sợ người dân.
 >
-
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)

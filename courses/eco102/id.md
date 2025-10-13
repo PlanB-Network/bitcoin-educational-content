@@ -216,6 +216,7 @@ Produsen menggunakan persuasi, negosiasi, dan kontrak, sementara penjarah menggu
 ## Antoine Destutt de Tracy
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
+
 Sedikit yang diketahui, namun Destutt de Tracy memiliki pengaruh yang menentukan terhadap Presiden Amerika Serikat masa depan, Thomas Jefferson, saat ia menjadi duta besar di Paris pada tahun 1780-an.
 
 > "Bagi setiap orang, negara pertamanya adalah tanah airnya, dan yang kedua adalah Prancis" & "Tirani adalah ketika rakyat takut pada pemerintahnya; kebebasan adalah ketika pemerintah takut pada rakyatnya."

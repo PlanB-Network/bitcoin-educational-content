@@ -309,7 +309,6 @@ See on vähe teada, kuid Destutt de Tracy avaldas otsustavat mõju Ameerika Ühe
 
 > Iga inimese jaoks on tema esimene riik tema kodumaa ja teine on Prantsusmaa" & "Tüüraania on see, kui rahvas kardab oma valitsust; vabadus on see, kui valitsus kardab rahvast.
 >
-
 > Thomas Jefferson
 
 ![image](assets/en/021.webp)

@@ -19,6 +19,5 @@ Per utilizzare il servizio dovrai effettuare i trasferimenti tramite Lightning N
 
 Tra i wallet supportati possiamo trovare:
 
-- [Sats.mobi]([https://www.esempio.com](https://planb.network/it/tutorials/wallet/mobile/satsmobi-ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb))
-
+- <a href="https://https://planb.network/it/tutorials/wallet/mobile/satsmobi-ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb" target="_blank">Sats.mobi</a> (Bot Telegram)
 

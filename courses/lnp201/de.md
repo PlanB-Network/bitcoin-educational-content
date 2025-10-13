@@ -50,6 +50,8 @@ Bereit, die technischen Mechanismen des Lightning Network zu entdecken? Auf geht
 
 ---
 
+*Hier sind einige Begriffe, denen Sie in den Diagrammen des Kurses auf Englisch begegnen werden, zusammen mit ihrer Übersetzung, um Ihnen zu helfen, sie in Ihrer Sprache besser zu verstehen:*
+
 # Die Grundlagen
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

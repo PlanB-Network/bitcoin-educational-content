@@ -50,6 +50,8 @@ Klar til å oppdage de tekniske mekanismene i Lightning Network? La oss sette i 
 
 ---
 
+*Her er noen begreper du vil møte i kursdiagrammene på engelsk, sammen med deres oversettelse for å hjelpe deg å forstå dem bedre på ditt eget språk:*
+
 # Grunnleggende
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

@@ -73,6 +73,8 @@ Gotowy do odkrycia technicznych mechanizmów sieci Lightning? Zaczynajmy!
 
 ---
 
+*Oto kilka terminów, które napotkasz na schematach kursu w języku angielskim, wraz z ich tłumaczeniem, aby pomóc ci lepiej je zrozumieć w twoim języku:*
+
 # Podstawy
 
 

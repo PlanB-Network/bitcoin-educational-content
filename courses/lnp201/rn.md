@@ -74,6 +74,8 @@ Ni mwiteguye guhishura uburyo bw’ubuhinga bwa Lightning Network? Reka twinjire
 
 ---
 
+*Aha hari amazina amwe uzasangamo muri shema z’amasomo mu cyongereza, hamwe n’ubusobanuro bw’ayo kugira ngo bigufashe kuyasobanukirwa neza mu rurimi rwawe:*
+
 # Ivy'ishimikiro
 
 

@@ -50,6 +50,8 @@ Sẵn sàng khám phá các cơ chế kỹ thuật của Lightning Network? Hãy
 
 ---
 
+*Dưới đây là một số thuật ngữ bạn sẽ gặp trong các sơ đồ khóa học bằng tiếng Anh, cùng với bản dịch của chúng để giúp bạn hiểu rõ hơn bằng ngôn ngữ của mình:*
+
 # Cơ bản
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

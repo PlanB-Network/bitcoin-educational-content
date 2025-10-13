@@ -50,6 +50,8 @@ Siap untuk mengungkap mekanisme teknis di balik Lightning Network (Jaringan Ligh
 
 ---
 
+*Berikut beberapa istilah yang akan Anda temui dalam diagram kursus berbahasa Inggris, beserta terjemahannya untuk membantu Anda memahaminya dengan lebih baik dalam bahasa Anda:*
+
 # Dasar-Dasar
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

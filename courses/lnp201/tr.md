@@ -74,6 +74,8 @@ Lightning Network'un teknik mekanizmalarını ortaya çıkarmaya hazır mısın�
 
 ---
 
+*İngilizce ders şemalarında karşılaşacağınız bazı terimler ve bunları kendi dilinizde daha iyi anlamanıza yardımcı olacak çevirileri şunlardır:*
+
 # Temel Bilgiler
 
 

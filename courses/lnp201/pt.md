@@ -50,6 +50,8 @@ Pronto para descobrir os mecanismos técnicos do Lightning Network? Vamos lá!
 
 ---
 
+*Aqui estão alguns termos que você encontrará nos esquemas do curso em inglês, acompanhados de sua tradução para ajudá-lo a compreendê-los melhor em seu idioma:*
+
 # Os Fundamentos
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

@@ -50,6 +50,8 @@ Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 
 ---
 
+*Zde je několik termínů, se kterými se setkáte ve schématech kurzu v angličtině, doplněných o jejich překlad, aby vám pomohly je lépe pochopit ve vašem jazyce:*
+
 # Základy
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

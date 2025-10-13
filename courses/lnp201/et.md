@@ -50,6 +50,8 @@ Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
 
 ---
 
+*Siin on mõned terminid, millega kohtate kursuse skeemides inglise keeles, koos nende tõlkega, et aidata teil neid oma keeles paremini mõista:*
+
 # Alused
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

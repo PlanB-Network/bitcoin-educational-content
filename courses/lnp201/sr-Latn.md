@@ -54,6 +54,8 @@ Spremni da otkrijete tehničke mehanizme Lightning Network-a? Hajde da zaronimo!
 
 ---
 
+*Evo nekoliko pojmova na koje ćete naići u šemama kursa na engleskom jeziku, zajedno sa njihovim prevodom kako biste ih bolje razumeli na svom jeziku:*
+
 # Osnove
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

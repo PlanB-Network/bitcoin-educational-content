@@ -74,6 +74,8 @@ Slutligen kommer vi att avsluta utbildningen genom att sammanfatta de begrepp so
 
 ---
 
+*Här är några termer som du kommer att stöta på i kursens diagram på engelska, tillsammans med deras översättning för att hjälpa dig att förstå dem bättre på ditt språk:*
+
 # De grundläggande principerna
 
 

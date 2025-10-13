@@ -74,6 +74,8 @@ Klaar om de technische mechanismen van de Lightning Network te ontdekken? Laten 
 
 ---
 
+*Hier zijn enkele termen die je in de cursusdiagrammen in het Engels zult tegenkomen, samen met hun vertaling om je te helpen ze beter te begrijpen in je eigen taal:*
+
 # De grondbeginselen
 
 

@@ -50,6 +50,8 @@ Finalmente, concluiremos el curso recapitulando los conceptos tratados y abriend
 
 ---
 
+*Aquí tienes algunos términos que encontrarás en los esquemas del curso en inglés, junto con su traducción para ayudarte a comprenderlos mejor en tu idioma:*
+
 # Los Fundamentos
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

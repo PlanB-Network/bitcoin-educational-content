@@ -6,4 +6,4 @@ wrong_answers:
   - route add -net [address] netmask [mask] dev [interface]
 explanation: |
   La commande "ip addr add" est la méthode moderne pour attribuer une adresse IP à une interface réseau sous Linux.
-reviewed: false
+reviewed: true 

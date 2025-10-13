@@ -6,4 +6,4 @@ wrong_answers:
   - Sa gestion est complexe
 explanation: |
   En topologie en anneau, la panne d’un équipement rompt la boucle et empêche la circulation des données.
-reviewed: false
+reviewed: true 

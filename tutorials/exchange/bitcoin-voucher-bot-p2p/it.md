@@ -24,3 +24,13 @@ Tra i wallet supportati possiamo trovare:
 - [Breez](https://planb.network/it/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06)
 
 In alternativa, è possibile utilizzare qualsiasi wallet compatibile con 'Lightning Address' e capace di emettere fatture Bolt11. Attualmente, non sono supportati i wallet che utilizzano il formato Bolt12.
+
+Per questo tutorial, useremo Wallet of Satoshi, grazie alla sua estrema semplicità e utilizzo immediato.
+
+⚠️ **Nota bene:** Wallet of Satoshi è molto popolare tra i principianti per la sua semplicità, ma è un wallet "custodial". In pratica, i fondi sono gestiti da terze parti, e l’utente non ne detiene direttamente le chiavi private, perdendo così il controllo totale e la piena proprietà.
+
+È fortemente consigliato usare questo wallet solo temporaneamente. Dopo aver ricevuto i fondi, è buona pratica trasferirli su un wallet "non-custodial", che ti garantisce il controllo totale e la custodia diretta delle tue chiavi private.
+
+Al momento della stesura di questo tutorial, Wallet of Satoshi sta sviluppando una versione beta che consentirà lo swap verso un wallet non-custodial. Nonostante ciò, si raccomanda di utilizzarlo esclusivamente come soluzione temporanea, in attesa del rilascio della nuova versione.
+
+Molto bene! ti guiderò passo dopo passo nella creazione del tuo account, nella gestione dei match di acquisto e vendita, e nell’utilizzo della tua area riservata. Sarà un processo semplice e intuitivo, pensato per accompagnarti anche se sei alle prime armi.

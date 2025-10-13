@@ -1,0 +1,8 @@
+question: What fundamental insight about Lightning adoption led Breeze to shift from building a single mobile app to developing an SDK architecture?
+answer: The mobile app ecosystem doesn't facilitate easy communication between applications, preventing specialized apps from leveraging shared Lightning infrastructure
+wrong_answers:
+  - Mobile devices lack sufficient computational power to run Lightning nodes reliably, requiring cloud-based infrastructure for proper operation
+  - Regulatory compliance requires Lightning functionality to be centralized in SDKs rather than distributed across individual mobile applications
+  - User experience research showed that consumers prefer having Lightning payments managed by third-party services rather than individual apps
+explanation: |
+  The correct answer identifies the key architectural limitation discovered through the original Breeze app: mobile ecosystems don't allow easy inter-app communication, forcing developers to build all Lightning features into single apps rather than creating specialized applications that share Lightning infrastructure. This insight led to the SDK approach enabling multiple apps to connect to the same Lightning node. The wrong answers focus on technical limitations, regulatory issues, or user preferences, but these weren't the fundamental architectural insight that drove the strategic shift to an SDK model.

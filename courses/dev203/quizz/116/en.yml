@@ -1,0 +1,8 @@
+question: What is the primary advantage of the Breeze SDK's interoperability feature that allows multiple applications to connect to the same Lightning node using the same seed phrase?
+answer: Users can maintain a single Lightning balance across different specialized applications while avoiding the complexity of managing multiple Lightning nodes
+wrong_answers:
+  - Applications can share private keys directly between each other, enabling seamless cross-app transaction signing without user intervention
+  - Multiple applications can pool their liquidity together to create larger Lightning channels with increased routing capacity for the network
+  - Developers can access shared Lightning infrastructure without implementing their own node management, reducing development costs and complexity
+explanation: |
+  The SDK's interoperability allows users to access the same Lightning node and funds from multiple specialized apps (like a general wallet and a podcasting app) without managing separate balances or nodes. The wrong answers misrepresent the architecture: private keys never leave the user's device and aren't shared between apps, liquidity pooling isn't how the system works, and while developers do benefit from simplified infrastructure, the primary advantage described is the unified user experience across applications.

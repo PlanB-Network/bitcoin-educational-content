@@ -6,4 +6,4 @@ wrong_answers:
   - À contrôler la fragmentation des paquets UDP
 explanation: |
   Les ports sont des points d’écoute logiques permettant aux applications réseau de distinguer les différents services sur un même hôte.
-reviewed: false
+reviewed: true 

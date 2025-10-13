@@ -320,7 +320,6 @@ Jest to mało znane, ale Destutt de Tracy miał decydujący wpływ na przyszłeg
 
 > Dla każdego człowieka pierwszym krajem jest jego ojczyzna, a drugim Francja" & "Tyrania jest wtedy, gdy ludzie boją się swojego rządu; wolność jest wtedy, gdy rząd boi się ludzi.
 >
-
 > Thomas Jefferson
 
 ![image](assets/pl/022.webp)

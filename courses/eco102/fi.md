@@ -317,7 +317,6 @@ On vähän tiedossa, mutta Destutt de Tracy vaikutti ratkaisevasti Yhdysvaltojen
 
 > Jokaisen ihmisen ensimmäinen maa on hänen kotimaansa, ja toinen maa on Ranska." & "Tyrannia on sitä, kun kansa pelkää hallitustaan; vapaus on sitä, kun hallitus pelkää kansaa.
 >
-
 > Thomas Jefferson
 
 ![image](assets/fi/022.webp)

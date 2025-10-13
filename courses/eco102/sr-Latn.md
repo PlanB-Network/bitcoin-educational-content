@@ -319,7 +319,6 @@ Malo je poznato, ali Destutt de Tracy je imao odlučujući uticaj na budućeg pr
 
 > "Za svakog čoveka, njegova prva zemlja je njegova domovina, a druga je Francuska" & "Tiranija je kada se narod boji svoje vlade; sloboda je kada se vlada boji naroda."
 >
-
 > Thomas Jefferson
 
 ![image](assets/sr-Latn/022.webp)

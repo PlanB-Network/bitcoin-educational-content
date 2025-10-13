@@ -317,7 +317,6 @@ Es poco conocido, pero Destutt de Tracy ejerció una influencia decisiva en el f
 
 > Para todo hombre, su primer país es su patria, y el segundo es Francia" & "Tiranía es cuando el pueblo teme a su gobierno; libertad es cuando el gobierno teme al pueblo.
 >
-
 > Thomas Jefferson
 
 ![image](assets/es/022.webp)

@@ -316,7 +316,6 @@ Det är föga känt, men Destutt de Tracy hade ett avgörande inflytande på USA
 
 > För varje människa är hans första land hans hemland, och det andra är Frankrike" & "Tyranni är när folket fruktar sin regering; frihet är när regeringen fruktar folket.
 >
-
 > Thomas Jefferson
 
 ![image](assets/sv/022.webp)

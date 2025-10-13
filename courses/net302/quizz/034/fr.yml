@@ -6,4 +6,4 @@ wrong_answers:
   - Générer des noms DNS
 explanation: |
   Une adresse IPv4 est assignée à chaque interface réseau d’un équipement et permet de la localiser et de l’atteindre sur le réseau.
-reviewed: false
+reviewed: true 

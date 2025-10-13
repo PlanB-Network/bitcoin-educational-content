@@ -72,6 +72,8 @@ Slutligen kommer vi att avsluta utbildningen genom att sammanfatta de begrepp so
 Är du redo att avslöja de tekniska mekanismerna i Lightning Network? Låt oss dyka in!
 
 
+---
+
 # De grundläggande principerna
 
 

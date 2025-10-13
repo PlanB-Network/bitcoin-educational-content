@@ -48,6 +48,25 @@ Enfin, nous conclurons la formation en récapitulant les notions abordées tout 
 
 Prêt à découvrir les rouages techniques du Lightning Network ? Allons-y !
 
+---
+
+*Voici quelques termes que vous rencontrerez dans les schémas du cours en anglais, accompagnés de leur traduction pour vous aider à mieux les comprendre dans votre langue :*
+
+| Anglais            | Traduction - explication                                                                                           |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| *timelock*         | **Verrou temporel** — empêche la dépense d’une transaction avant un certain moment ou numéro de bloc.              |
+| *Revocation Key*   | **Clé de révocation** — permet d’invalider un ancien engagement pour sanctionner un comportement malhonnête.       |
+| *invoice*          | **Facture / demande de paiement** — contient le montant, la description et la clé de destination d’un paiement LN. |
+| *sig* (signature)  | **Signature** — preuve cryptographique qu’une transaction est autorisée par le détenteur de la clé privée.         |
+| *secret*           | **Secret** — donnée privée (préimage) utilisée pour débloquer un paiement Lightning.                               |
+| *amount*           | **Montant** — somme en satoshis à transférer lors d’un paiement ou d’une transaction.                              |
+| *scan QR code*     | **Scanner le code QR** — lire un QR code pour importer une facture Lightning.                                      |
+| *Show QR code*     | **Afficher le code QR** — montrer un QR code contenant une facture Lightning.                                      |
+| *Asks the invoice* | **Demande la facture** — action de solliciter une facture pour initier un paiement Lightning.                      |
+| *Give the invoice* | **Fournit la facture** — génération ou envoi d’une facture Lightning à un payeur.                                  |
+| *Payment*          | **Paiement** — transfert de valeur sur Bitcoin ou sur le réseau Lightning.                                         |
+| *Preimage*         | **Préimage** — donnée secrète révélée par le bénéficiaire pour prouver et finaliser le paiement.                   |
+
 # Les fondamentaux
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

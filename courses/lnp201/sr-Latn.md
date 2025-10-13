@@ -52,6 +52,8 @@ Na kraju, zaključićemo obuku ponavljanjem pokrivenih koncepata i otvaranjem pu
 
 Spremni da otkrijete tehničke mehanizme Lightning Network-a? Hajde da zaronimo!
 
+---
+
 # Osnove
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

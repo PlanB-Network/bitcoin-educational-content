@@ -48,6 +48,8 @@ Nakonec uzavřeme kurz shrnutím probraných pojmů a otevřením cesty k pokro�
 
 Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 
+---
+
 # Základy
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

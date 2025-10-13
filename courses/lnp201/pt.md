@@ -48,6 +48,8 @@ Finalmente, concluiremos o curso recaptulando os conceitos abordados e abrindo c
 
 Pronto para descobrir os mecanismos técnicos do Lightning Network? Vamos lá!
 
+---
+
 # Os Fundamentos
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

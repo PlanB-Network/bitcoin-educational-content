@@ -48,6 +48,8 @@ Til slutt vil vi oppsummere de behandlede konseptene og åpne veien for mer avan
 
 Klar til å oppdage de tekniske mekanismene i Lightning Network? La oss sette i gang!
 
+---
+
 # Grunnleggende
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

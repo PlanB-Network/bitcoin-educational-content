@@ -72,6 +72,8 @@ Lightning Network는 개별 채널에 국한된 것이 아니라 실제 결제 �
 Lightning Network의 기술적 메커니즘을 알아볼 준비가 되셨나요? 지금 바로 시작하세요!
 
 
+---
+
 # 기본 사항
 
 

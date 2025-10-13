@@ -71,6 +71,8 @@ Na koniec szkolenia podsumujemy omówione koncepcje i utorujemy drogę bardziej 
 Gotowy do odkrycia technicznych mechanizmów sieci Lightning? Zaczynajmy!
 
 
+---
+
 # Podstawy
 
 

@@ -72,6 +72,8 @@ Tot slot sluiten we de training af met een recapitulatie van de behandelde conce
 Klaar om de technische mechanismen van de Lightning Network te ontdekken? Laten we erin duiken!
 
 
+---
+
 # De grondbeginselen
 
 

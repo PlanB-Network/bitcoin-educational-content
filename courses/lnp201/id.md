@@ -48,6 +48,8 @@ Sebagai penutup pelatihan ini, kita akan merangkum kembali konsep-konsep yang te
 
 Siap untuk mengungkap mekanisme teknis di balik Lightning Network (Jaringan Lightning)? Ayo kita mulai!
 
+---
+
 # Dasar-Dasar
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

@@ -72,6 +72,8 @@ Ubwa nyuma, tuzosozera amahugurwa mu gusubiramwo ivyiyumviro vyavuzwe no gutegur
 Ni mwiteguye guhishura uburyo bw’ubuhinga bwa Lightning Network? Reka twinjiremwo!
 
 
+---
+
 # Ivy'ishimikiro
 
 

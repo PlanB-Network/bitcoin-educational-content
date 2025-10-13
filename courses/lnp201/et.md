@@ -48,6 +48,8 @@ Lõpuks lõpetame koolituse, korrates käsitletud mõisteid ja avades tee keeruk
 
 Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
 
+---
+
 # Alused
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

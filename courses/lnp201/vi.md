@@ -48,6 +48,8 @@ Cuối cùng, chúng ta sẽ kết thúc khóa học bằng cách tóm tắt cá
 
 Sẵn sàng khám phá các cơ chế kỹ thuật của Lightning Network? Hãy bắt đầu nào!
 
+---
+
 # Cơ bản
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

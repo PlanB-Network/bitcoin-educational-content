@@ -48,6 +48,8 @@ Lopuksi päätämme koulutuksen käsiteltyjen käsitteiden kertauksella ja avaam
 
 Oletko valmis oppimaan Lightning Networkin tekniset mekanismit? Aloitetaan!
 
+---
+
 # Perusteet
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

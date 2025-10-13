@@ -48,6 +48,8 @@ Infine concluderemo il corso ricapitolando i concetti trattati e aprendo la stra
 
 Pronto a scoprire i meccanismi tecnici di Lightning Network? Andiamo!
 
+---
+
 # Le basi
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

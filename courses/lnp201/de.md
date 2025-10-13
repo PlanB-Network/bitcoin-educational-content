@@ -48,6 +48,8 @@ Abschließend fassen wir die behandelten Konzepte zusammen und eröffnen den Weg
 
 Bereit, die technischen Mechanismen des Lightning Network zu entdecken? Auf geht’s!
 
+---
+
 # Die Grundlagen
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

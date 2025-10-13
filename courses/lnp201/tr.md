@@ -72,6 +72,8 @@ Son olarak, ele alınan kavramları özetleyerek ve Lightning Network hakkındak
 Lightning Network'un teknik mekanizmalarını ortaya çıkarmaya hazır mısınız? Hadi içeri dalalım!
 
 
+---
+
 # Temel Bilgiler
 
 

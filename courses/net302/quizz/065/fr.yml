@@ -6,4 +6,5 @@ wrong_answers:
   - ICMPv4
 explanation: |
   DHCPv6 gère explicitement les durées de vie via le bail ; NDP les annonce dans ses messages de configuration de routeur.
-reviewed: false
+reviewed: true 
+ 

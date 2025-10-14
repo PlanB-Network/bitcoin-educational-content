@@ -1411,19 +1411,19 @@ Afhankelijk van je beoogde gebruik kun je kiezen voor een 2TB SSD, zoals in de a
 
 
 
-Umbrel is een persoonlijk serverbesturingssysteem ontworpen om zelf-hosting toegankelijk te maken: je installeert Umbrel, opent een browser op `umbrel.local`, en beheert alles via een eenvoudige Interface op afstand.
+Umbrel is een persoonlijk serverbesturingssysteem ontworpen om zelf-hosting toegankelijk te maken: je installeert Umbrel, opent een browser op `umbrel.local`, en beheert alles via een eenvoudige interface op afstand.
 
 
 
-Het project populariseerde eerst het idee van een Bitcoin- en Lightning-node met één klik en breidde daarna uit tot een echte "thuiswolk": bestands- en foto-opslag, multimediastreaming, netwerktools, domotica, lokale AI en honderden apps die geïnstalleerd kunnen worden vanuit een geïntegreerde App Store.
+Het project populariseerde eerst het idee van een Bitcoin- en Lightning-node met één klik en breidde daarna uit tot een echte "home cloud": bestands- en foto-opslag, multimediastreaming, netwerktools, domotica, lokale AI en honderden apps die geïnstalleerd kunnen worden vanuit een geïntegreerde App Store.
 
 
 
-In Umbrel draait elke applicatie in een Docker container (isolatie, atomaire updates, onafhankelijke start/stop). De Interface centraliseert de toegang tot al deze apps en biedt single sign-on (met optioneel 2FA), one-click updates voor OS en apps, live monitoring van de machine (CPU, RAM, temperatuur, opslag), rechtenbeheer tussen apps en een overzicht van hun verbruik.
+In Umbrel draait elke applicatie in een Docker container (isolatie, atomaire updates, onafhankelijke start/stop). De interface centraliseert de toegang tot al deze apps en biedt single sign-on (met optioneel 2FA), one-click updates voor OS en apps, live monitoring van de machine (CPU, RAM, temperatuur, opslag), rechtenbeheer tussen apps en een overzicht van hun verbruik.
 
 
 
-Het doel van Umbrel is dan ook om u de controle en vertrouwelijkheid over uw gegevens terug te geven, zonder afhankelijk te zijn van cloud-diensten, buiten het simpelweg bedienen van een Bitcoin node.
+Het doel van Umbrel is dan ook om je de controle en vertrouwelijkheid over je gegevens terug te geven, zonder afhankelijk te zijn van cloud-diensten, buiten het simpelweg bedienen van een Bitcoin node.
 
 
 
@@ -1447,7 +1447,7 @@ Umbrel biedt twee verschillende benaderingen:
 
 
 
-- [**umbrelOS**](https://umbrel.com/umbrelos): dit is het besturingssysteem dat je zelf kunt installeren op je eigen hardware (mini-PC, NUC, tower, dedicated laptop...). Je hebt dezelfde Interface en dezelfde App Store als op Umbrel Home.
+- [**umbrelOS**](https://umbrel.com/umbrelos): dit is het besturingssysteem dat je zelf kunt installeren op je eigen hardware (mini-PC, NUC, tower, dedicated laptop...). Je hebt dezelfde interface en dezelfde App Store als op Umbrel Home.
 
 
 
@@ -1463,11 +1463,11 @@ In beide gevallen is de gebruikerservaring aan de softwarekant identiek: browser
 
 
 
-In het volgende hoofdstuk gaan we kijken hoe je umbrelOS DIY op je eigen machine kunt installeren. U kunt deze BTC 202-cursus echter op dezelfde manier volgen als u voor een Umbrel Home hebt gekozen.
+In het volgende hoofdstuk gaan we kijken hoe je umbrelOS DIY op je eigen machine kunt installeren. Je kunt deze BTC 202-cursus echter op dezelfde manier volgen als je voor een Umbrel Home hebt gekozen.
 
 
 
-### Gebruikssituatie: van het Bitcoin node naar de thuiscloud
+### Gebruiksscenario: van de Bitcoin node naar de thuiscloud
 
 
 

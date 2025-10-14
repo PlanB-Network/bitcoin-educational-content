@@ -137,7 +137,7 @@ Faida ya mpangilio huu iko katika unyenyekevu wa cabling yake, na kutokuwepo kwa
 
 
 
-![Image](assets/en/001.webp)
+![Image](assets/sw/001.webp)
 
 
 
@@ -151,7 +151,7 @@ Mpangilio huu wa daraja hufanya kazi vyema hasa kwa mitandao mikubwa inayohitaji
 
 
 
-![Image](assets/en/002.webp)
+![Image](assets/sw/002.webp)
 
 
 
@@ -165,7 +165,7 @@ Faida kuu ya topolojia ya bus ni gharama ya chini ya usakinishaji, shukrani kwa 
 
 
 
-![Image](assets/en/003.webp)
+![Image](assets/sw/003.webp)
 
 
 
@@ -179,7 +179,7 @@ Mpangilio huu hurahisisha usimamizi na matengenezo: ikiwa kifaa kimoja cha pembe
 
 
 
-![Image](assets/en/004.webp)
+![Image](assets/sw/004.webp)
 
 
 
@@ -196,7 +196,7 @@ Biashara ni kwamba idadi ya miunganisho itakayoanzishwa inaongezeka kwa kasi na 
 
 
 
-![Image](assets/en/005.webp)
+![Image](assets/sw/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Tabaka nne za muundo wa TCP/IP ni:
 
 
 
-![Image](assets/en/006.webp)
+![Image](assets/sw/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Datagram inapozidi MTU ya sehemu ya mtandao inayohitaji kuvuka, vifaa vya kuelek
 
 
 
-![Image](assets/en/008.webp)
+![Image](assets/sw/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Uhamisho kwa hivyo unafuata mchakato ulioandaliwa:
 
 
 
-![Image](assets/en/009.webp)
+![Image](assets/sw/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Baada ya kuwasili, mchakato umebadilishwa: mashine ya kupokea inapata sura kweny
 
 
 
-![Image](assets/en/010.webp)
+![Image](assets/sw/009.webp)
 
 
 
@@ -455,7 +455,7 @@ Mabadiliko ya data katika kila Layer yanaweza kufupishwa kama:
 - **Frame**: Kizuizi cha mwisho kiko tayari kutumwa kupitia mkondo halisi na Network Access Layer.
 
 
-![Image](assets/en/011.webp)
+![Image](assets/sw/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Idadi ya address zinazopatikana hutofautiana sana kati ya madarasa: kutoka mitan
 
 
 
-![Image](assets/en/013.webp)
+![Image](assets/sw/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Tunataka subnet 4 za hadi wapangishi 60 kila moja.
 
 
 
-![Image](assets/en/016.webp)
+![Image](assets/sw/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP ni protocol inayolenga muunganisho, kumaanisha kuwa inaanzisha uhusiano wa w
 
 
 
-![Image](assets/en/018.webp)
+![Image](assets/sw/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Ili kuboresha kutegemewa, TCP hutumia kipima muda: mara sehemu inapotumwa, hesab
 
 
 
-![Image](assets/en/019.webp)
+![Image](assets/sw/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Usawazishaji wa mfuatano wa Exchange unatokana na utaratibu maarufu wa **"*three
 
 
 
-![Image](assets/en/020.webp)
+![Image](assets/sw/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Kwa maneno ya kiutendaji, dirisha la kutelezesha linafafanua anuwai ya nambari z
 
 
 
-![Image](assets/en/021.webp)
+![Image](assets/sw/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Usimamizi huu sahihi, unaochanganya uelekezaji unaonyumbulika wa IP na udhibiti 
 
 
 
-![Image](assets/en/022.webp)
+![Image](assets/sw/017.webp)
 
 
 
@@ -793,7 +793,7 @@ Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
 
-![Image](assets/en/023.webp)
+![Image](assets/sw/018.webp)
 
 
 
@@ -802,7 +802,7 @@ Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
 
-![Image](assets/en/024.webp)
+![Image](assets/sw/019.webp)
 
 
 
@@ -837,7 +837,7 @@ Kwa kuchanganya kipengele cha mlalo (mawasiliano kati ya programu zilizosambazwa
 
 
 
-![Image](assets/en/026.webp)
+![Image](assets/sw/020.webp)
 
 
 
@@ -897,7 +897,7 @@ mfano: Address 172.16.254.1_
 
 
 
-![Image](assets/en/027.webp)
+![Image](assets/sw/021.webp)
 
 
 
@@ -1184,7 +1184,7 @@ Ni muhimu kukumbuka kuwa MAC Address na IP Address ni vitambulishi viwili tofaut
 - Mfano unaoonekana wa MAC Address:
 
 
-![Image](assets/en/032.webp)
+![Image](assets/sw/022.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Ni muhimu kukumbuka kuwa MAC Address na IP Address ni vitambulishi viwili tofaut
 - Mfano unaoonekana wa IP Address:
 
 
-![Image](assets/en/027.webp)
+![Image](assets/sw/023.webp)
 
 
 
@@ -1259,7 +1259,7 @@ Mbali na kushughulikia uhaba wa IPv4, NAT pia huimarisha usalama kwa kuunda kizu
 
 
 
-![Image](assets/en/035.webp)
+![Image](assets/sw/024.webp)
 
 
 
@@ -1332,7 +1332,7 @@ _Kuonyesha jinsi hii inavyofanya kazi, zingatia mfano ufuatao:_
 
 
 
-![Image](assets/en/037.webp)
+![Image](assets/sw/025.webp)
 
 
 
@@ -1501,7 +1501,7 @@ Katika mazingira ya kitaaluma, lengo ni kuhakikisha uendelevu wa huduma na/au ku
 
 
 
-![Image](assets/en/039.webp)
+![Image](assets/sw/026.webp)
 
 
 
@@ -1957,7 +1957,7 @@ Kwa usanidi otomatiki, kuna njia kadhaa:
 Hapa kuna mfano wa jinsi ya kubadilisha MAC Address kuwa EUI-64:
 
 
-![Image](assets/en/045.webp)
+![Image](assets/sw/027.webp)
 
 
 
@@ -2096,7 +2096,7 @@ Huu hapa ni muhtasari wa aina tofauti za vichwa vya viendelezi vilivyofafanuliwa
 Kichwa hiki, ikiwa kipo, kila mara huwekwa mara baada ya kichwa cha msingi. Ina maelezo ambayo lazima yachakatwa na kila kipanga njia kando ya njia ya pakiti, tofauti na vichwa vingine vingi, ambavyo kwa kawaida hushughulikiwa tu na nodi lengwa. Matumizi ya kawaida ni pamoja na kuashiria vigezo vya kimataifa au kuomba hatua mahususi za uchakataji kadiri pakiti inavyosafiri kupitia mtandao.
 
 
-![Image](assets/en/047.webp)
+![Image](assets/sw/028.webp)
 
 
 #### Inaelekeza header
@@ -2121,7 +2121,7 @@ Sehemu nne za kwanza za kichwa hiki cha mizizi ni:
 Sehemu ya "Sehemu Zilizosalia" huanza na jumla ya idadi ya sehemu zilizosalia na hupunguzwa kwa moja kwa kila mruko.
 
 
-![Image](assets/en/048.webp)
+![Image](assets/sw/029.webp)
 
 
 #### Kichwa cha kugawanyika (Fragment Header)
@@ -2138,7 +2138,7 @@ Kichwa cha kugawanyika kina sehemu zifuatazo:
 - **M flag**: inaonyesha ikiwa vipande zaidi vinafuata.
 
 
-![Image](assets/en/049.webp)
+![Image](assets/sw/030.webp)
 
 
 #### Kijajuu cha uthibitishaji Authentication Header (AH)
@@ -2150,7 +2150,7 @@ Kichwa hiki kimeundwa ili kulinda mawasiliano kwa kuthibitisha uhalisi wa mtumaj
 Katika tukio la jaribio la ulaghai la kurekebisha, msimbo wa uthibitishaji hautalingana tena, na datagram inaweza kukataliwa. Utaratibu huu pia hulinda dhidi ya mashambulizi ya uchezaji wa marudio kwa kugundua urudufishaji ambao haujaidhinishwa.
 
 
-![Image](assets/en/050.webp)
+![Image](assets/sw/031.webp)
 
 
 #### Kijajuu cha Chaguo Lengwa (Destination Options Header)
@@ -2162,7 +2162,7 @@ Kichwa hiki kinakusudiwa tu kwa mpokeaji wa mwisho wa datagramu. Inaweza kutumik
 Hapo awali, hakuna chaguo kama hilo lililofafanuliwa katika protocol. Hata hivyo, kichwa hiki kilianzishwa wakati IPv6 ilipoundwa, ili kuruhusu viendelezi vya siku zijazo kuongezwa bila kurekebisha muundo wa jumla wa pakiti. Chaguo batili, kwa mfano, hutumika tu kuweka kichwa kwa wingi wa baiti 8 kwa madhumuni ya upatanishi wa kumbukumbu.
 
 
-![Image](assets/en/051.webp)
+![Image](assets/sw/032.webp)
 
 
 Muundo wa pakiti za IPv6 umejengwa kwa utengano wazi kati ya kichwa kidogo cha msingi na vichwa vya kiendelezi vya msimu. Usanifu huu unahakikisha utendakazi wa kawaida wa uchakataji na unyumbufu unaohitajika ili kuendeleza itifaki na kuunganisha usalama, uelekezaji changamano au mifumo ya ubora wa huduma, huku ikidumisha upatanifu na miundomsingi ya siku zijazo.
@@ -2509,7 +2509,7 @@ Wireshark inapatikana kwenye mifumo mingi ya uendeshaji, ikiwa ni pamoja na Linu
 
 
 
-![Image](assets/en/052.webp)
+![Image](assets/sw/033.webp)
 
 
 
@@ -2560,7 +2560,7 @@ Amri hii hutoa ripoti ya kina kuhusu `enp0s3` Interface, mkataba wa kawaida wa k
 
 
 
-![Image](assets/en/053.webp)
+![Image](assets/sw/034.webp)
 
 
 
@@ -3112,7 +3112,7 @@ Katika hali hii, wapangishi wote katika safu `192.168.0.0` hadi `192.168.0.255` 
 
 
 
-![Image](assets/en/055.webp)
+![Image](assets/sw/035.webp)
 
 
 

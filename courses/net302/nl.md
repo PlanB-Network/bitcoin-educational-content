@@ -138,7 +138,7 @@ Het voordeel van deze opstelling is de eenvoud van de bekabeling en de afwezighe
 
 
 
-![Image](assets/en/001.webp)
+![Image](assets/nl/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Deze hiërarchische lay-out werkt bijzonder goed voor grote netwerken die een du
 
 
 
-![Image](assets/en/002.webp)
+![Image](assets/nl/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Het belangrijkste voordeel van de bustopologie zijn de lage installatiekosten da
 
 
 
-![Image](assets/en/003.webp)
+![Image](assets/nl/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Deze lay-out maakt beheer en onderhoud eenvoudig: als een randapparaat uitvalt, 
 
 
 
-![Image](assets/en/004.webp)
+![Image](assets/nl/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Het nadeel is dat het aantal verbindingen dat tot stand moet worden gebracht sne
 
 
 
-![Image](assets/en/005.webp)
+![Image](assets/nl/005.webp)
 
 
 
@@ -263,7 +263,7 @@ De vier lagen van het TCP/IP-model zijn:
 
 
 
-![Image](assets/en/006.webp)
+![Image](assets/nl/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Wanneer een datagram de MTU van een netwerksegment waar het doorheen moet oversc
 
 
 
-![Image](assets/en/008.webp)
+![Image](assets/nl/007.webp)
 
 
 
@@ -431,7 +431,7 @@ De overdracht verloopt dus volgens een gestructureerd proces:
 
 
 
-![Image](assets/en/009.webp)
+![Image](assets/nl/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Bij aankomst wordt het proces omgekeerd: de ontvangende machine krijgt het frame
 
 
 
-![Image](assets/en/010.webp)
+![Image](assets/nl/009.webp)
 
 
 
@@ -456,7 +456,7 @@ De transformatie van de gegevens bij elke Layer kan als volgt worden samengevat:
 
 
 
-![Image](assets/en/011.webp)
+![Image](assets/nl/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Het aantal beschikbare adressen varieert sterk tussen de klassen: van grote open
 
 
 
-![Image](assets/en/013.webp)
+![Image](assets/nl/011.webp)
 
 
 
@@ -585,7 +585,7 @@ We willen 4 subnetten van elk maximaal 60 hosts.
 
 
 
-![Image](assets/en/016.webp)
+![Image](assets/nl/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP is een verbindingsgeoriënteerd protocol, wat betekent dat het een expliciet
 
 
 
-![Image](assets/en/018.webp)
+![Image](assets/nl/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Om de betrouwbaarheid te verbeteren maakt TCP gebruik van een timer: zodra een s
 
 
 
-![Image](assets/en/019.webp)
+![Image](assets/nl/014.webp)
 
 
 
@@ -711,7 +711,7 @@ De sequentiesynchronisatie Exchange is gebaseerd op het beroemde **"*drie-weg ha
 
 
 
-![Image](assets/en/020.webp)
+![Image](assets/nl/015.webp)
 
 
 
@@ -734,7 +734,7 @@ In praktische termen definieert het glijdende venster een reeks volgnummers die 
 
 
 
-![Image](assets/en/021.webp)
+![Image](assets/nl/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Dit nauwkeurige beheer, dat de flexibele routering van IP combineert met de stri
 
 
 
-![Image](assets/en/022.webp)
+![Image](assets/nl/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Twee belangrijke aspecten bepalen deze uitwisselingen:
 
 
 
-![Image](assets/en/023.webp)
+![Image](assets/nl/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Twee belangrijke aspecten bepalen deze uitwisselingen:
 
 
 
-![Image](assets/en/024.webp)
+![Image](assets/nl/019.webp)
 
 
 
@@ -836,7 +836,7 @@ Door het horizontale aspect (communicatie tussen gedistribueerde toepassingen) t
 
 
 
-![Image](assets/en/026.webp)
+![Image](assets/nl/020.webp)
 
 
 
@@ -896,7 +896,7 @@ voorbeeld: Address 172.16.254.1_
 
 
 
-![Image](assets/en/027.webp)
+![Image](assets/nl/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Het is belangrijk om te onthouden dat de MAC Address en de IP Address twee totaa
 - Visueel voorbeeld van MAC Address:
 
 
-![Image](assets/en/032.webp)
+![Image](assets/nl/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Het is belangrijk om te onthouden dat de MAC Address en de IP Address twee totaa
 - Visueel voorbeeld van een IP Address:
 
 
-![Image](assets/en/027.webp)
+![Image](assets/nl/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Naast het aanpakken van IPv4-schaarste, versterkt NAT ook de beveiliging door ee
 
 
 
-![Image](assets/en/035.webp)
+![Image](assets/nl/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ om te illustreren hoe dit in de praktijk werkt, kun je het volgende voorbeeld be
 
 
 
-![Image](assets/en/037.webp)
+![Image](assets/nl/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ In professionele omgevingen is het doel om dienstcontinuïteit te garanderen en/
 
 
 
-![Image](assets/en/039.webp)
+![Image](assets/nl/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Voor automatische configuratie bestaan verschillende methoden:
 Hier is een voorbeeld van hoe je een MAC Address omzet in EUI-64:
 
 
-![Image](assets/en/045.webp)
+![Image](assets/nl/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Hier volgt een overzicht van de verschillende typen extensieheaders die door IPv
 Deze header wordt, indien aanwezig, altijd direct na de basis header geplaatst. Het bevat informatie die verwerkt moet worden door elke router langs het pad van het pakket, in tegenstelling tot de meeste andere headers, die meestal alleen verwerkt worden door het bestemmingsknooppunt. Typisch gebruik is het signaleren van globale parameters of het aanvragen van specifieke verwerkingsstappen terwijl het pakket door het netwerk reist.
 
 
-![Image](assets/en/047.webp)
+![Image](assets/nl/028.webp)
 
 
 #### Routing kop
@@ -2117,7 +2117,7 @@ De eerste vier velden van deze rooting header zijn:
 Het veld "Segments Left" begint met het totale aantal resterende segmenten en wordt bij elke hop met één verlaagd.
 
 
-![Image](assets/en/048.webp)
+![Image](assets/nl/029.webp)
 
 
 #### Fragmentatie kop
@@ -2134,7 +2134,7 @@ De fragmentatieheader bevat de volgende velden:
 - **M flag**: geeft aan of er meer fragmenten volgen.
 
 
-![Image](assets/en/049.webp)
+![Image](assets/nl/030.webp)
 
 
 #### Kop authenticatie (AH)
@@ -2146,7 +2146,7 @@ Deze header is ontworpen om communicatie te beveiligen door zowel de authenticit
 In het geval van een frauduleuze wijzigingspoging, zal de authenticatiecode niet langer overeenkomen en kan het datagram worden geweigerd. Dit mechanisme beschermt ook tegen replay-aanvallen door onbevoegde duplicaties te detecteren.
 
 
-![Image](assets/en/050.webp)
+![Image](assets/nl/031.webp)
 
 
 #### Bestemmingsopties koptekst
@@ -2158,7 +2158,7 @@ Deze header is alleen bedoeld voor de uiteindelijke ontvanger van het datagram. 
 Aanvankelijk was een dergelijke optie niet gedefinieerd in het protocol. Deze header werd echter geïntroduceerd toen IPv6 werd ontworpen, zodat toekomstige uitbreidingen konden worden toegevoegd zonder de algehele pakketstructuur te wijzigen. De null optie wordt bijvoorbeeld alleen gebruikt om de header op te vullen tot een veelvoud van 8 bytes ten behoeve van geheugenuitlijning.
 
 
-![Image](assets/en/051.webp)
+![Image](assets/nl/032.webp)
 
 
 Het ontwerp van IPv6 pakketten is gebaseerd op een duidelijke scheiding tussen een minimale basiskop en modulaire uitbreidingskoppen. Deze architectuur garandeert zowel standaard verwerkingsprestaties als de flexibiliteit die nodig is om het protocol te ontwikkelen en beveiliging, complexe routering of quality-of-service-mechanismen te integreren, terwijl de compatibiliteit met toekomstige infrastructuren behouden blijft.
@@ -2504,7 +2504,7 @@ Wireshark is beschikbaar op veel besturingssystemen, waaronder Linux en Windows.
 
 
 
-![Image](assets/en/052.webp)
+![Image](assets/nl/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Dit commando geeft een gedetailleerd rapport over de `enp0s3` Interface, een geb
 
 
 
-![Image](assets/en/053.webp)
+![Image](assets/nl/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ In dit geval worden alle hosts in het bereik `192.168.0.0` tot `192.168.0.255` o
 
 
 
-![Image](assets/en/055.webp)
+![Image](assets/nl/035.webp)
 
 
 

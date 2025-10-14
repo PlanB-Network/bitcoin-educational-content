@@ -89,6 +89,8 @@ Tato tabulka vám nabízí překlad hlavních anglických termínů, které se p
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 První typ kryptografických algoritmů používaných na Bitcoinu zahrnuje hašovací funkce. Hrají zásadní roli na různých úrovních protokolu, ale také uvnitř Bitcoinových peněženek. Pojďme společně objevit, co je hašovací funkce a k čemu se používá v Bitcoinu.
 
 ### Definice a Princip Hašování

@@ -90,6 +90,8 @@ Denne tabellen gir deg en oversettelse av de viktigste engelske termene som bruk
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 Den første typen kryptografiske algoritmer brukt på Bitcoin omfatter hashfunksjoner. De spiller en essensiell rolle på forskjellige nivåer av protokollen, men også innenfor Bitcoin-lommebøker. La oss sammen oppdage hva en hashfunksjon er og hva den brukes til i Bitcoin.
 
 ### Definisjon og Prinsipp for Hashing

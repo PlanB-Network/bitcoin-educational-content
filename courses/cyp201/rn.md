@@ -119,6 +119,8 @@ Iyi mbonerahamwe iguha ubusobanuro bw’amagambo y’icongereza akunda gukoreshw
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 
 Ubwoko bwa mbere bw’ubuhinga bwo gukora amakuru bukoreshwa muri Bitcoin bushimikiye ku bikorwa vya Hash. Bifise uruhara runini ku nzego zitandukanye z’amasezerano, ariko kandi no mu bipapuro vya Bitcoin. Reka tubone hamwe ico igikorwa ca Hash ari co n'ico gikoreshwa muri Bitcoin.
 

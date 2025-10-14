@@ -90,6 +90,8 @@ Diese Tabelle bietet Ihnen eine Übersetzung der wichtigsten verwendeten englisc
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 Die erste Art von kryptografischen Algorithmen, die bei Bitcoin verwendet werden, umfasst Hash-Funktionen. Sie spielen eine wesentliche Rolle auf verschiedenen Ebenen des Protokolls, aber auch innerhalb von Bitcoin-Wallets. Lassen Sie uns gemeinsam entdecken, was eine Hash-Funktion ist und wofür sie bei Bitcoin verwendet wird.
 
 ### Definition und Prinzip des Hashings

@@ -119,6 +119,8 @@ Ova tabela vam nudi prevod glavnih engleskih termina koji se koriste, kako bi va
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 
 Prvi tip kriptografskih algoritama korišćenih u Bitkojnu uključuje heš funkcije. One igraju ključnu ulogu na različitim nivoima protokola, ali i unutar Bitkojn novčanika. Hajde da zajedno otkrijemo šta je heš funkcija i za šta se koristi u Bitkojnu.
 

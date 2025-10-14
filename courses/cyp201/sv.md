@@ -119,6 +119,8 @@ Denna tabell erbjuder dig en översättning av de viktigaste engelska termerna s
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 
 Den första typen av kryptografiska algoritmer som används i Bitcoin omfattar Hash-funktioner. De spelar en viktig roll på olika nivåer i protokollet, men också inom Bitcoin-plånböcker. Låt oss tillsammans upptäcka vad en Hash-funktion är och vad den används till i Bitcoin.
 

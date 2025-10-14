@@ -119,6 +119,8 @@ Bu tablo, CYP 201 dersi kapsamında kullanılan şemaları ve teknik belgeleri d
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 
 Bitcoin'de kullanılan ilk kriptografik algoritma türü Hash işlevlerini kapsar. Bunlar protokolün farklı seviyelerinde ve aynı zamanda Bitcoin cüzdanlarında önemli bir rol oynar. Hash fonksiyonunun ne olduğunu ve Bitcoin'de ne için kullanıldığını birlikte keşfedelim.
 

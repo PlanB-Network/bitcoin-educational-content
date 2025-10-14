@@ -90,6 +90,8 @@ Tabel ini memberikan Anda terjemahan dari istilah-istilah utama dalam bahasa Ing
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 Jenis algoritma kriptografi pertama yang digunakan pada Bitcoin mencakup fungsi hash. Mereka memainkan peran penting pada berbagai tingkat protokol, tetapi juga dalam dompet Bitcoin. Mari kita temukan bersama apa itu fungsi hash dan untuk apa digunakan dalam Bitcoin.
 
 ### Definisi dan Prinsip Hashing

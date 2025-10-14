@@ -91,6 +91,8 @@ Bảng này cung cấp cho bạn bản dịch các thuật ngữ tiếng Anh ch�
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 Loại thuật toán mật mã đầu tiên được sử dụng trên Bitcoin bao gồm các hàm băm. Chúng đóng một vai trò thiết yếu ở các cấp độ khác nhau của giao thức, nhưng cũng trong ví Bitcoin. Hãy cùng khám phá xem hàm băm là gì và nó được sử dụng như thế nào trong Bitcoin.
 
 ### Định nghĩa và Nguyên tắc của Băm

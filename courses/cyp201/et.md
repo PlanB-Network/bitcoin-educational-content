@@ -90,6 +90,8 @@ See tabel pakub teile tõlke peamistest ingliskeelsetest terminitest, mida kasut
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 Esimest tüüpi krüptograafilised algoritmid, mida Bitcoinis kasutatakse, hõlmavad hash-funktsioone. Need mängivad olulist rolli protokolli erinevatel tasanditel, aga ka Bitcoin'i rahakottides. Vaatame koos, mis on hash-funktsioon ja milleks seda Bitcoinis kasutatakse.
 
 ### Hashimise definitsioon ja põhimõte

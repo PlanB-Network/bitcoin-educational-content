@@ -2591,14 +2591,14 @@ Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsun
 Untuk melihat semua metadata yang terkandung dalam file, gunakan perintah berikut:
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
-Ganti `nama.jpg` dengan nama asli file Anda. Pastikan juga Anda berada di direktori yang berisi gambar ini. Sebagai contoh, jika saya memiliki foto patung Satoshi Nakamoto di direktori `/Downloads`, saya dapat menampilkan metadata dengan menjalankan perintah berikut:
+Ganti `nama.webp` dengan nama asli file Anda. Pastikan juga Anda berada di direktori yang berisi gambar ini. Sebagai contoh, jika saya memiliki foto patung Satoshi Nakamoto di direktori `/Downloads`, saya dapat menampilkan metadata dengan menjalankan perintah berikut:
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 ![Image](assets/fr/260.webp)
@@ -2618,7 +2618,7 @@ Ini memberi Anda gambaran lengkap tentang apa yang akan Anda terbitkan atau kiri
 Untuk menghapus semua metadata yang tidak perlu dari file, gunakan perintah:
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 ![Image](assets/fr/261.webp)
@@ -2630,7 +2630,7 @@ Perintah ini secara otomatis membuat salinan file asli dengan metadata yang tela
 Jika Anda tidak ingin menyimpan yang asli, Anda dapat menghapusnya dengan perintah:
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 Jika kita melihat kembali metadata file kita, kita dapat melihat bahwa semua metadata yang tidak perlu atau sensitif telah dihapus.
@@ -2642,10 +2642,10 @@ Jika kita melihat kembali metadata file kita, kita dapat melihat bahwa semua met
 Jika Anda memiliki beberapa file untuk diproses dalam direktori yang sama, Anda dapat menggunakan perintah umum seperti:
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
-Ini akan menghapus metadata semua file JPEG dalam direktori saat ini. Anda dapat menyesuaikan ekstensi sesuai dengan kebutuhan Anda (`*.png`, `*.pdf`...).
+Ini akan menghapus metadata semua file JPEG dalam direktori saat ini. Anda dapat menyesuaikan ekstensi sesuai dengan kebutuhan Anda (`*.webp`, `*.pdf`...).
 
 ![Image](assets/fr/264.webp)
 

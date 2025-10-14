@@ -4943,18 +4943,18 @@ Da biste videli sve metapodatke sadržane u datoteci, koristite sledeću komandu
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Zamenite `name.jpg` sa pravim imenom vašeg fajla. Takođe, uverite se da ste pozicionirani u direktorijumu koji sadrži ovu sliku. Na primer, ako imam fotografiju statue Satoshi Nakamoto u direktorijumu `/Downloads`, mogu prikazati njene metapodatke pokretanjem sledeće komande:
+Zamenite `name.webp` sa pravim imenom vašeg fajla. Takođe, uverite se da ste pozicionirani u direktorijumu koji sadrži ovu sliku. Na primer, ako imam fotografiju statue Satoshi Nakamoto u direktorijumu `/Downloads`, mogu prikazati njene metapodatke pokretanjem sledeće komande:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Da biste obrisali sve nepotrebne metapodatke iz datoteke, koristite komandu:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Ako ne želite da zadržite original, možete ga obrisati komandom:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Ako imate nekoliko fajlova za obradu u istom direktorijumu, možete koristiti ge
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Ovo briše metapodatke svih JPEG datoteka u trenutnom direktorijumu. Možete prilagoditi ekstenziju prema vašim potrebama (`*.png`, `*.pdf`...).
+Ovo briše metapodatke svih JPEG datoteka u trenutnom direktorijumu. Možete prilagoditi ekstenziju prema vašim potrebama (`*.webp`, `*.pdf`...).
 
 
 

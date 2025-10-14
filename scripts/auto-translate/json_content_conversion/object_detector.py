@@ -48,7 +48,7 @@ class MDObjectDetector(BaseObjectDetector):
             'snippet_delimiter': r'^```\w*$',
             'planb_links': r'^https://planb\.network/.*$',
             'quote': r'^>\s*(.+)$',
-            'video_id': r'^:::\s*video\s+id='
+            'video_id': r'^:::video\s+id='
         }
 
     def detect_object_type(self, line: str) -> Optional[str]:

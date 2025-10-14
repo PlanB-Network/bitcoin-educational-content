@@ -20,12 +20,15 @@ Non si tratta del "solito doppione" di Debian per le piccole schede tipo Raspber
 
 **Spremere ogni bit dalla tua SBC non è mai stato così semplice**.
 
+
 ## Automazioni per self-hosting
+
 Vuoi sperimentare con un tuo server per far girare soluzioni avanzate di networking, oppure strumenti per far evolvere la tua esperienza in ambito Bitcoin? DietPi potrebbe essere la soluzione che stavi cercando. Anche se molti sanno gestire la propria infrastruttura ed eseguono server perfettamente configurati e protetti, DietPi è uno step adatto a chi desidera iniziare da zero.
 
 Anziché eseguire manualmente tutti i compiti complessi che un task del genere richiede, DietPi ti permette di costruirli con un `wizard` e la sua riga di comando. Ecco che puoi sperimentare il tuo cloud personale, la gestione dei dispositivi _smart home_, backup e crontab automatizzati, ma anche soluzioni più avanzate.
 
 ![img](assets/en/01.webp)
+
 
 ## Installazione
 
@@ -61,6 +64,7 @@ Se anche tu hai ottenuto il risultato `Good signature` e lo stesso hash di contr
 
 ![img](assets/en/07.webp)
 
+
 ## Installazione DietPi
 
 ![img](assets/en/09.webp)
@@ -83,7 +87,7 @@ Al termine dell'installazione e successivo reboot, DietPi si presenta a video pe
 
 ![img](assets/en/10.webp)
 
-### "Attrezzi" da sistema operativo
+### "Strumenti" per il sistema operativo
 
 Dimentica la maggior parte dei programmi che usi sulla tua distribuzione Linux: DietPi è talmente ottimizzato, da averne tralasciati parecchi. In pratica dovresti installarti tanti comandi manualmente ma, se stai solo provando, resisti alla tentazione e prova a mettere sotto test le automazioni di DietPi.
 
@@ -185,8 +189,6 @@ In seguito potresti esercitarti con VPN avanzate, come Tailscale o Wireguard:
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
-
-
 
 **Docker**: alcuni dei tool che possono far crescere la tua esperienza con Bitcoin, come ad esempio un personale `Blind Oracle per Jade`, girano su **Docker**. Se non hai alcuna esperienza con questa piattaforma, puoi iniziare a usarla tramite DietPi, per guadagnare sicurezza e avanzare poi verso l'installazione "a manina". Installa:
 - Docker

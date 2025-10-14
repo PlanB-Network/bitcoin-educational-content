@@ -1681,11 +1681,11 @@ Nu je opstartbare USB-stick met UmbrelOS klaar is, kun je uw computer ervan opst
 
 
 
-Zoals uitgelegd aan het begin van dit hoofdstuk, heb je een beeldscherm en een invoerapparaat nodig om de installatie te voltooien. Sluit een beeldscherm aan via HDMI (of een andere poort, afhankelijk van uw PC) en sluit een toetsenbord aan via USB op uw machine. Deze apparaten zijn alleen nodig voor de installatie; je hebt ze daarna niet meer nodig, omdat Umbrel op afstand toegankelijk is vanaf een andere computer. Sluit deze twee apparaten aan op uw pc.
+Zoals uitgelegd aan het begin van dit hoofdstuk, heb je een beeldscherm en een invoerapparaat nodig om de installatie te voltooien. Sluit een beeldscherm aan via HDMI (of een andere poort, afhankelijk van je PC) en sluit een toetsenbord aan via USB op je machine. Deze apparaten zijn alleen nodig voor de installatie; je hebt ze daarna niet meer nodig, omdat Umbrel op afstand toegankelijk is vanaf een andere computer. Sluit deze twee apparaten aan op je pc.
 
 
 
-**Tip:** Als je thuis geen randscherm hebt, kun je je tv gebruiken. Met zijn HDMI-ingang (of een andere ingang) kan hij worden gebruikt als tijdelijk scherm terwijl je het besturingssysteem installeert.
+**Tip:** Als je thuis geen scherm als randapparaat hebt, kun je je tv gebruiken. Met zijn HDMI-ingang (of een andere ingang) kan hij worden gebruikt als tijdelijk scherm terwijl je het besturingssysteem installeert.
 
 
 
@@ -1697,23 +1697,23 @@ Umbrel heeft uiteraard een internetverbinding nodig. Sluit de RJ45 Ethernetkabel
 
 
 
-Zet je machine aan. In de meeste gevallen wordt de USB-sleutel automatisch gedetecteerd en wordt er van opgestart. Je ziet dan het UmbrelOS Interface installatiescherm verschijnen.
+Zet je machine aan. In de meeste gevallen wordt de USB-stick automatisch gedetecteerd en wordt er van opgestart. Je ziet dan het UmbrelOS interface installatiescherm verschijnen.
 
 
 
-Als het apparaat opstart op een ander systeem of een foutmelding geeft, betekent dit waarschijnlijk dat het niet automatisch opstart vanaf de USB-stick. Start in dit geval opnieuw op en ga naar de BIOS/UEFI-instellingen (meestal toegankelijk door op `DEL`, `F2`, `F12` of `ESC` te drukken, afhankelijk van de computerfabrikant). Wijzig vervolgens de opstartvolgorde om prioriteit te geven aan de USB-sleutel. Start vervolgens het apparaat opnieuw op om UmbrelOS te starten.
+Als het apparaat opstart op een ander systeem of een foutmelding geeft, betekent dit waarschijnlijk dat het niet automatisch opstart vanaf de USB-stick. Start in dit geval opnieuw op en ga naar de BIOS/UEFI-instellingen (meestal toegankelijk door op `DEL`, `F2`, `F12` of `ESC` te drukken, afhankelijk van de computerfabrikant). Wijzig vervolgens de opstartvolgorde om prioriteit te geven aan de USB-stick. Start vervolgens het apparaat opnieuw op om UmbrelOS te starten.
 
 
 
-### Stap 4: Installeer UmbrelOS op uw computer
+### Stap 4: Installeer UmbrelOS op je computer
 
 
 
-Zodra het apparaat is opgestart vanaf de USB-stick, wordt u begroet door de Interface UmbrelOS installatie. In deze stap wordt het systeem direct op de interne Hard schijf van de machine geïnstalleerd.
+Zodra het apparaat is opgestart vanaf de USB-stick, wordt je begroet door de UmbrelOS installatie interface. In deze stap wordt het systeem direct op de interne harde schijf van je machine geïnstalleerd.
 
 
 
-Het scherm dat verschijnt geeft een lijst weer van alle interne opslagapparaten die door de computer zijn gedetecteerd. Bij elke schijf staat een nummer, een naam en een opslagcapaciteit. Zoek de schijf waarop u Umbrel wilt installeren. **Waarschuwing: alle bestanden op deze schijf worden permanent verwijderd.**
+Het scherm dat verschijnt geeft een lijst weer van alle interne opslagapparaten die door de computer zijn gedetecteerd. Bij elke schijf staat een nummer, een naam en een opslagcapaciteit. Zoek de schijf waarop je Umbrel wilt installeren. **Waarschuwing: alle bestanden op deze schijf worden permanent verwijderd.**
 
 
 
@@ -1721,7 +1721,7 @@ Het scherm dat verschijnt geeft een lijst weer van alle interne opslagapparaten 
 
 
 
-Als je eenmaal de juiste schijf hebt geïdentificeerd (meestal de schijf met de grootste capaciteit voor de Blockchain), noteer dan het nummer dat eraan is toegewezen. Als de schijf die je hebt gekozen bijvoorbeeld onder het nummer `2` verschijnt, voer dan gewoon `2` in en druk vervolgens op de `Enter` toets op het toetsenbord.
+Als je eenmaal de juiste schijf hebt geïdentificeerd (meestal de schijf met de grootste capaciteit voor de blockchain), noteer dan het nummer dat eraan is toegewezen. Als de schijf die je hebt gekozen bijvoorbeeld onder het nummer `2` verschijnt, voer dan gewoon `2` in en druk vervolgens op de `Enter` toets op het toetsenbord.
 
 
 
@@ -1737,7 +1737,7 @@ Het programma zal de geselecteerde schijf formatteren, UmbrelOS installeren en h
 
 
 
-Wanneer de installatie voltooid is, wordt u gevraagd om het apparaat uit te schakelen. Druk op een willekeurige toets om de computer uit te schakelen.
+Wanneer de installatie voltooid is, wordt je gevraagd om het apparaat uit te schakelen. Druk op een willekeurige toets om de computer uit te schakelen.
 
 
 
@@ -1745,7 +1745,7 @@ Wanneer de installatie voltooid is, wordt u gevraagd om het apparaat uit te scha
 
 
 
-U kunt nu de USB-stekker, het toetsenbord en het scherm verwijderen, omdat deze niet langer nodig zijn voor uw Umbrel. Het enige dat overblijft van je node is de Supply en de RJ45 Ethernetkabel.
+Je kunt nu de USB-Stick, het toetsenbord en het scherm verwijderen, omdat deze niet langer nodig zijn voor je Umbrel. Het enige dat overblijft van je node is de stroomtoevoer en de RJ45 Ethernetkabel.
 
 
 
@@ -1753,22 +1753,22 @@ U kunt nu de USB-stekker, het toetsenbord en het scherm verwijderen, omdat deze 
 
 
 
-Controleer de volgende twee punten voordat u het apparaat opnieuw opstart:
+Controleer de volgende twee punten voordat je het apparaat opnieuw opstart:
 
 
 
 
 
-- De USB-stekker is losgekoppeld**: als deze aangesloten blijft, kan het systeem hierop herstarten in plaats van op de interne schijf;
+- De USB-stick is losgekoppeld**: als deze aangesloten blijft, kan het systeem hierop herstarten in plaats van op de interne schijf;
 - Ethernetkabel is aangesloten**: het apparaat moet verbonden zijn met je router om te kunnen werken.
 
 
 
-Druk op de aan/uit-knop. Het systeem start automatisch op vanaf de interne schijf waarop UmbrelOS werd geïnstalleerd. De eerste keer opstarten kan ongeveer **5 minuten** duren. Gedurende deze tijd initialiseert Umbrel haar diensten en Interface.
+Druk op de aan/uit-knop. Het systeem start automatisch op vanaf de interne schijf waarop UmbrelOS werd geïnstalleerd. De eerste keer opstarten kan ongeveer **5 minuten** duren. Gedurende deze tijd initialiseert Umbrel haar diensten en interface.
 
 
 
-Open vanaf een andere computer (uw gewone pc) die is aangesloten op hetzelfde lokale netwerk**, een webbrowser (Firefox, Chrome...) en ga naar:
+Open vanaf een andere computer (je gewone pc) die is aangesloten op **hetzelfde lokale netwerk**, een webbrowser (Firefox, Chrome...) en ga naar:
 
 
 
@@ -1778,11 +1778,11 @@ http://umbrel.local
 
 
 
-Deze Address wordt gebruikt om op afstand toegang te krijgen tot de Umbrel Interface grafische gebruiker Interface en te beginnen met de configuratie.
+Dit adres wordt gebruikt om van op afstand toegang te krijgen tot de Umbrel grafische gebruikersinterface en te beginnen met de configuratie.
 
 
 
-Als de Address `http://umbrel.local` niet werkt op je browser na minstens 5 minuten wachten, probeer het dan gewoon:
+Als het addres `http://umbrel.local` niet werkt op je browser na minstens 5 minuten wachten, probeer dan gewoon:
 
 
 
@@ -1792,7 +1792,7 @@ http://umbrel
 
 
 
-Als dit nog steeds niet werkt, voer dan het lokale IP Address van uw Umbrel rechtstreeks in de browser in. Bijvoorbeeld (vervang `42` door het nummer van uw machine die Umbrel host op het lokale netwerk):
+Als dit nog steeds niet werkt, voer dan het lokale IP adres van je Umbrel rechtstreeks in de browser in. Bijvoorbeeld (vervang `42` door het nummer van je machine die Umbrel host op het lokale netwerk):
 
 
 
@@ -1802,19 +1802,19 @@ http://192.168.1.42
 
 
 
-Om de IP Address van uw Umbrel te identificeren, zijn er verschillende methoden, van de eenvoudigste tot de meest geavanceerde:
+Om het IP adres van uw Umbrel te identificeren, zijn er verschillende methoden, van de eenvoudigste tot de meest geavanceerde:
 
 
 
 
 
-- Ga naar de Interface administratie van uw router en zoek het IP Address van het Umbrel-apparaat op het lokale netwerk.
+- Ga naar de administratie interface van je router en zoek het IP Address van het Umbrel-apparaat op het lokale netwerk.
 
 
 
 
 
-- Gebruik netwerkscansoftware zoals Angry IP Scanner om aangesloten apparaten te detecteren en de IP Address van uw Umbrel te lokaliseren.
+- Gebruik netwerkscansoftware zoals Angry IP Scanner om aangesloten apparaten te detecteren en het IP adres van je Umbrel te lokaliseren.
 
 
 
@@ -1844,7 +1844,7 @@ Nu ben je klaar om Umbrel te gebruiken!
 
 
 
-Om te beginnen met het configureren van uw Umbrel, klikt u op de knop "*Start*".
+Om te beginnen met het configureren van je Umbrel, klik je op de knop "*Start*".
 
 
 
@@ -1856,7 +1856,7 @@ Om te beginnen met het configureren van uw Umbrel, klikt u op de knop "*Start*".
 
 
 
-Kies een pseudoniem of voer uw naam in en stel dan een sterk wachtwoord in. Wees voorzichtig: dit wachtwoord is de enige barrière voor toegang tot uw Umbrel vanaf uw netwerk (en dus mogelijk ook tot uw bitcoins als u een Lightning-node op Umbrel draait). Het beschermt ook toegang op afstand via Tor of VPN, als deze diensten zijn ingeschakeld.
+Kies een pseudoniem of voer je naam in en stel dan een sterk wachtwoord in. Wees voorzichtig: dit wachtwoord is de enige barrière voor toegang tot je Umbrel vanaf je netwerk (en dus mogelijk ook tot je bitcoins als je een Lightning-node op Umbrel draait). Het beschermt ook toegang op afstand via Tor of VPN, als deze diensten zijn ingeschakeld.
 
 
 
@@ -1876,7 +1876,7 @@ Zodra je je wachtwoord hebt ingevoerd, klik je op de knop "*Create*".
 
 
 
-Uw Umbrel-configuratie is nu voltooid.
+Je Umbrel-configuratie is nu voltooid.
 
 
 
@@ -1884,11 +1884,11 @@ Uw Umbrel-configuratie is nu voltooid.
 
 
 
-#### Ontdekking van Interface
+#### Kennismaking met de interface
 
 
 
-De Interface van Umbrel is behoorlijk intuïtief:
+De interface van Umbrel is behoorlijk intuïtief:
 
 
 
@@ -1914,7 +1914,7 @@ De Interface van Umbrel is behoorlijk intuïtief:
 
 
 
-- Het menu "*Bestanden*" centraliseert alle documenten die op uw Umbrel zijn opgeslagen.
+- Het menu "*Files*" (Bestanden) centraliseert alle documenten die op je Umbrel zijn opgeslagen.
 
 
 
@@ -1924,7 +1924,7 @@ De Interface van Umbrel is behoorlijk intuïtief:
 
 
 
-- In het menu "*Instellingen*" kunt u de instellingen van uw Umbrel wijzigen en informatie opvragen, zoals:
+- In het menu "*Settings*" (Instellingen) kun je de instellingen van je Umbrel wijzigen en informatie opvragen, zoals:
     - Update, herstart of stop je machine;
     - Raadpleeg de beschikbare opslagruimte, het RAM-gebruik en de temperatuur van de processor;
     - Verander de achtergrond;
@@ -1940,7 +1940,7 @@ De Interface van Umbrel is behoorlijk intuïtief:
 
 
 
-Eerst en vooral raad ik sterk aan om twee-factor authenticatie (2FA) in te schakelen. Dit voegt een extra Layer beveiliging toe aan je wachtwoord. Het is bijna onmisbaar als je van plan bent om je Umbrel te gebruiken om persoonlijke bestanden op te slaan, een Lightning node te draaien of andere gevoelige activiteiten uit te voeren.
+Eerst en vooral raad ik sterk aan om twee-factor authenticatie (2FA) in te schakelen. Dit voegt een extra beveiligingslaag toe aan je wachtwoord. Het is bijna onmisbaar als je van plan bent om je Umbrel te gebruiken om persoonlijke bestanden op te slaan, een Lightning node te draaien of andere gevoelige activiteiten uit te voeren.
 
 
 
@@ -1954,7 +1954,7 @@ Klik hiervoor op het overeenkomstige vakje in de instellingen.
 
 
 
-Scan vervolgens de QR-code die wordt weergegeven met uw verificatietoepassing. Voer vervolgens de 6-cijferige dynamische code in het daarvoor bestemde veld op uw Umbrel in.
+Scan vervolgens de QR-code die wordt weergegeven met je verificatietoepassing. Voer vervolgens de 6-cijferige dynamische code in het daarvoor bestemde veld in op je Umbrel.
 
 
 
@@ -1966,19 +1966,19 @@ Vanaf nu vereist elke nieuwe verbinding met je Umbrel zowel het wachtwoord als d
 
 
 
-Wat betreft toegang op afstand via Tor, als je het niet nodig hebt, raad ik aan om deze optie uit te schakelen om het aanvalsoppervlak van je Umbrel te beperken. Standaard is je node alleen toegankelijk vanaf een machine die verbonden is met hetzelfde lokale netwerk. Als je toegang via Tor inschakelt, kun je je Umbrel toch onderweg beheren.
+Wat betreft toegang op afstand via Tor, als je het niet nodig hebt, raad ik aan om deze optie uit te schakelen om de aanvalsmogelijkheden van je Umbrel te beperken. Standaard is je node alleen toegankelijk vanaf een machine die verbonden is met hetzelfde lokale netwerk. Als je toegang via Tor inschakelt, kun je je Umbrel toch onderweg beheren.
 
 
 
-Als je deze functie inschakelt, wordt het theoretisch mogelijk voor elke machine in de wereld om een verbinding met jouw node te proberen, mits het de Tor Address kent. Je wachtwoord en 2FA zullen je echter nog steeds beschermen.
+Als je deze functie inschakelt, wordt het theoretisch mogelijk voor elke machine in de wereld om een verbinding met jouw node proberen te maken, mits het het Tor adres kent. Je wachtwoord en 2FA zullen je echter nog steeds beschermen.
 
 
 
-Als je deze optie activeert, zorg er dan voor dat je twee-factor authenticatie (2FA) hebt ingeschakeld, een sterk wachtwoord hebt en nooit je Tor-verbinding Address onthult.
+Als je deze optie activeert, zorg er dan voor dat je twee-factor authenticatie (2FA) hebt ingeschakeld, een sterk wachtwoord hebt en nooit je Tor-verbinding adres onthult.
 
 
 
-Voer gewoon deze Tor Address in je Tor browser in om toegang te krijgen tot Umbrel's Interface vanaf elk netwerk.
+Voer gewoon dit Tor adres in je Tor browser in om toegang te krijgen tot Umbrel's interface vanaf elk netwerk.
 
 
 
@@ -1986,7 +1986,7 @@ Voer gewoon deze Tor Address in je Tor browser in om toegang te krijgen tot Umbr
 
 
 
-Tot slot kunt u op deze instellingenpagina ook de Wi-Fi-verbinding activeren. Als uw machine die Umbrel host een Wi-Fi-netwerkkaart of een Wi-Fi-dongle heeft, kunt u hiermee toegang krijgen tot het internet zonder de RJ45-kabel te gebruiken. Afhankelijk van je configuratie kan deze oplossing echter de verbinding vertragen, wat invloed kan hebben op de initiële synchronisatie (IBD) en toekomstig gebruik van de node (bijvoorbeeld voor Lightning-transacties). Persoonlijk raad ik deze optie niet aan, omdat een node niet bedoeld is voor mobiel gebruik: het wordt altijd op afstand benaderd, dus je kunt het net zo goed aangesloten laten.
+Tot slot kun je op deze instellingenpagina ook de Wi-Fi-verbinding activeren. Als je machine die Umbrel host een Wi-Fi-netwerkkaart of een Wi-Fi-dongle heeft, kun je hiermee toegang krijgen tot het internet zonder de RJ45-kabel te gebruiken. Afhankelijk van je configuratie kan deze oplossing echter de verbinding vertragen, wat invloed kan hebben op de initiële synchronisatie (IBD) en toekomstig gebruik van de node (bijvoorbeeld voor Lightning transacties). Persoonlijk raad ik deze optie niet aan, omdat een node niet bedoeld is voor mobiel gebruik: het wordt altijd op afstand benaderd, dus je kunt het net zo goed aangesloten laten.
 
 
 
@@ -1994,7 +1994,7 @@ Tot slot kunt u op deze instellingenpagina ook de Wi-Fi-verbinding activeren. Al
 
 
 
-Nu UmbrelOS correct geïnstalleerd en geconfigureerd is op uw machine, kunt u verder gaan met de installatie van uw Bitcoin node. Niets is eenvoudiger: ga naar de App Store, open de categorie "*Bitcoin*" en selecteer dan de applicatie "*Bitcoin Node*" (het is eigenlijk Bitcoin core).
+Nu UmbrelOS correct geïnstalleerd en geconfigureerd is op je machine, kun je verder gaan met de installatie van je Bitcoin node. Niets is eenvoudiger: ga naar de App Store, open de categorie "*Bitcoin*" en selecteer dan de applicatie "*Bitcoin Node*" (het is eigenlijk Bitcoin core).
 
 
 
@@ -2002,7 +2002,7 @@ Nu UmbrelOS correct geïnstalleerd en geconfigureerd is op uw machine, kunt u ve
 
 
 
-Klik vervolgens op de knop "*Installeren*".
+Klik vervolgens op de knop "*Install*" (Installeren).
 
 
 
@@ -2010,7 +2010,7 @@ Klik vervolgens op de knop "*Installeren*".
 
 
 
-Zodra de installatie is voltooid, zal uw Bitcoin node zijn IBD (*Initial Block Download*) starten: het zal alle transacties en blokken downloaden en valideren sinds Bitcoin werd opgericht in 2009.
+Zodra de installatie is voltooid, zal je Bitcoin node zijn IBD (*Initial Block Download*) starten: het zal alle transacties en blokken downloaden en valideren sinds Bitcoin werd opgericht in 2009.
 
 
 

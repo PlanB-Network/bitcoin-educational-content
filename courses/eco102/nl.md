@@ -87,19 +87,19 @@ Klaar om te ontdekken hoe de ideeën van Frédéric Bastiat vandaag de dag nog s
 
 Deze cursus is een introductie tot Frédéric Bastiat, een miskend genie en een baken voor onze tijd. In deze korte inleiding zal ik proberen je te laten ontdekken wie Frédéric Bastiat was en wat de belangrijkste thema's zijn die we tijdens deze serie zullen behandelen.
 
-![image](assets/en/001.webp)
+![image](assets/nl/001.webp)
 
 
 Inderdaad, Frédéric Bastiat, die in 1801 werd geboren en in de eerste helft van de 19e eeuw leefde, bleef enige tijd een belangrijk auteur. Daarna verdween hij geleidelijk en vandaag de dag hoort niemand meer iets over hem, weet niemand meer wie hij is. Toch is deze auteur, paradoxaal genoeg, vertaald in vele talen, waaronder Italiaans, Russisch, Spaans en Engels.
 
 
-![image](assets/en/002.webp)
+![image](assets/nl/002.webp)
 
 
 Het blijkt dat na de Tweede Wereldoorlog een van zijn boeken werd gepubliceerd in de Verenigde Staten. Het werd zo beroemd dat Ronald Reagan zelf zei dat het zijn favoriete boek was, en dit boekje heet "The Law" Bastiat is dus een van de twee beroemdste Franse auteurs in de Verenigde Staten, de andere is ook bekend in Frankrijk, Alexis de Tocqueville.
 
 
-![image](assets/en/003.webp)
+![image](assets/nl/003.webp)
 
 _(Marktplaats in Mugron in de Landes, de stad van Bastiat)_
 
@@ -107,19 +107,19 @@ _(Marktplaats in Mugron in de Landes, de stad van Bastiat)_
 Een miskend genie dus, maar ook een lichtpunt voor onze tijd. Inderdaad, Frédéric Bastiat, die in Bayonne werd geboren, woonde eerst een deel van zijn leven in de Landes waar hij een landbouwbedrijf beheerde dat hij had geërfd en hij leidde uiteindelijk een leven als ondernemer. En toen, heel vroeg, raakte hij geïnteresseerd in economie, hij reisde naar Engeland, hij ontmoette Richard Cobden die een leider was van de vrijhandelsbeweging. Bastiat was gefascineerd door deze beweging, hij was ervan overtuigd dat vrijhandel een oplossing was voor Frankrijk en hij besloot daarna om te proberen zijn ideeën in Frankrijk te verspreiden. Hij schreef artikelen die erg succesvol waren en hij verhuisde naar Parijs om een krant te runnen die in die tijd het Journal des économistes heette.
 
 
-![image](assets/en/004.webp)
+![image](assets/nl/004.webp)
 
 
 Hij was ook een filosoof en een denker over de maatschappij, sociale orde, rechtvaardigheid, recht, een denker over rechten. En in dat opzicht kunnen we zeggen dat Bastiat een licht voor onze tijd is. En daarmee wil ik afsluiten. Hij is iemand die de werking van de politieke markt probeerde te begrijpen. Natuurlijk is hij ook een verdediger van de markteconomie, voor wie de markteconomie uiteindelijk de beste manier is om rijkdom te creëren. Maar daarnaast, en dit is waar hij niet erkend wordt, begreep hij de mechanismen van de politieke markt.
 
 
-![image](assets/en/005.webp)
+![image](assets/nl/005.webp)
 
 
 Toen hij tot afgevaardigde werd gekozen, was dat tijdens de Tweede Republiek en vanaf dat moment was het het volk dat de wetten maakte. In die tijd was Bastiat getuige van een soort inflatie van wetten in alle richtingen, inclusief het creëren van openbare diensten, sociale rechten, belastingen, enz.
 
 
-![image](assets/en/006.webp)
+![image](assets/nl/006.webp)
 
 
 ---
@@ -151,7 +151,7 @@ In deze cursus maken we samen een reis door het denken van Frédéric Bastiat, t
 In 1844 maakte Frédéric Bastiat een zakenreis naar Spanje. Na een verblijf in Madrid, Sevilla, Cádiz en Lissabon besloot hij in te schepen in Southampton en Engeland te bezoeken. In Londen had hij de gelegenheid om vergaderingen bij te wonen van de Anti-Corn Law League, waarvan hij het werk van op afstand had gevolgd. Hij ontmoette de belangrijkste leiders van deze bond, waaronder Richard Cobden, die zijn vriend zou worden.
 
 
-![image](assets/en/007.webp)
+![image](assets/nl/007.webp)
 
 
 Daar zou de loop van zijn leven radicaal veranderen. Hij vertelt zelf dat zijn roeping als econoom op dat moment werd bepaald. Bij zijn terugkeer in Frankrijk had hij maar één idee voor ogen: Frankrijk bewust maken van de liberale beweging die Engeland beroerde.
@@ -162,13 +162,13 @@ Frédéric Bastiat werd op 30 juni 1801 geboren in Bayonne. Hij werd op 9-jarige
 In 1825 erfde hij een agrarisch landgoed van zijn grootvader, dat hij naar eigen zeggen beheerde als een "gentleman-farmer". Op dat moment ondervond hij aan den lijve de problemen die werden veroorzaakt door het ontbreken van een duidelijke definitie van eigendomsrechten. Hij besloot vredesrechter te worden in zijn stad Mugron, in het hart van de Landes, een commercieel en fluviatiel kruispunt tussen de havens van Bordeaux en Bayonne. Later werd hij gekozen tot lid van de Algemene Raad van de Landes.
 
 
-![image](assets/en/008.webp)
+![image](assets/nl/008.webp)
 
 
 Hij ontwikkelde al snel een passie voor politieke economie en bestudeerde het werk van Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer en Charles Comte. Hij las Engelse kranten en daar leerde hij over het bestaan van een Engelse liga voor vrije handel.
 
 
-![image](assets/en/009.webp)
+![image](assets/nl/009.webp)
 
 _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
@@ -176,7 +176,7 @@ _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 Na zijn terugkeer uit Engeland schreef hij een artikel met de titel: "Over de invloed van Engelse en Franse tarieven op de toekomst van de twee volken", dat hij naar het Journal des Économistes in Parijs stuurde. Het artikel verscheen in het oktobernummer van 1844 en was een groot succes. Iedereen bewonderde zijn krachtige en scherpzinnige argumentatie, zijn sobere en elegante stijl.
 
 
-![image](assets/en/010.webp)
+![image](assets/nl/010.webp)
 
 
 Het Journal des Économistes vroeg hem vervolgens om meer artikelen en verschillende leden van de Political Economy Society, met name Horace Say, de zoon van Jean-Baptiste Say, en Michel Chevalier, een bekende professor, feliciteerden hem en moedigden hem aan om samen met hen door te gaan met het verspreiden van economische waarheden. Dit betekende het begin van een nieuw leven in Parijs.
@@ -185,14 +185,14 @@ Het Journal des Économistes vroeg hem vervolgens om meer artikelen en verschill
 Hij publiceerde de eerste serie Economic Sophisms, waarin hij protectionisten met durf en ironie aanviel. In Parijs begon hij zelfs een cursus politieke economie in een privékamer, die gretig werd bijgewoond door de elite van de studenten.
 
 
-![image](assets/en/011.webp)
+![image](assets/nl/011.webp)
 
 
 Het jaar daarop richtte hij in Frankrijk de "Association pour le libre-échange" op en stortte hij zich op de strijd tegen het protectionisme in Frankrijk. Hij zamelde fondsen in, richtte een weekblad op en gaf lezingen in het hele land.
 
 De eerste bijeenkomst vond plaats in Bordeaux op 23 februari 1846, waar de Bordeaux Association for Free Trade werd opgericht. Al snel verspreidde de beweging zich over heel Frankrijk. In Parijs werd een eerste kern gevormd onder de leden van de Society of Economists, waar afgevaardigden, industriëlen en handelaren zich bij aansloten. Er ontstonden ook belangrijke groepen in Marseille, Lyon en Le Havre.
 
-![image](assets/en/005.webp)
+![image](assets/nl/012.webp)
 
 
 De Februarirevolutie van 1848 wierp de monarchie van Louis-Philippe omver, bekend als de julimonarchie (1830-1848), en zag de komst van de Tweede Republiek. Bastiat werd toen verkozen tot lid van de wetgevende vergadering als afgevaardigde voor Landes. Hij zat in het centrum-links, samen met Alexis de Tocqueville, tussen de monarchisten en de socialisten. Daar probeerde hij individuele vrijheden zoals burgerlijke vrijheden te verdedigen en verzette hij zich tegen alle beperkende beleidsmaatregelen, of die nu van rechts of van links kwamen. Hij werd verkozen tot vicevoorzitter van de Commissie van Financiën en probeerde zijn collega-afgevaardigden voortdurend te herinneren aan deze eenvoudige waarheid, die in parlementen vaak wordt vergeten:
@@ -203,13 +203,13 @@ De Februarirevolutie van 1848 wierp de monarchie van Louis-Philippe omver, beken
 Bijna al zijn boeken en essays schreef hij in de laatste zes jaar van zijn leven, van 1844 tot 1850. In 1850 schreef Bastiat twee van zijn beroemdste werken: De Wet en een serie pamfletten getiteld Wat men ziet en wat men niet ziet. De Wet is vertaald in vele vreemde talen, waaronder Engels, Duits, Spaans, Russisch en Italiaans.
 
 
-![image](assets/en/012.webp)
+![image](assets/nl/013.webp)
 
 
 Hij stierf in 1850 in Rome aan tuberculose. Hij ligt begraven in de Saint Louis des Français kerk in Rome.
 
 
-![image](assets/en/013.webp)
+![image](assets/nl/014.webp)
 
 
 # Invloeden
@@ -229,7 +229,7 @@ Hij stierf in 1850 in Rome aan tuberculose. Hij ligt begraven in de Saint Louis 
 Op het gebied van economie erkende Bastiat altijd dat hij schatplichtig was aan Adam Smith en Jean-Baptiste Say. Toen hij 26 was, schreef hij aan een van zijn vrienden: "Ik heb over deze onderwerpen nooit anders gelezen dan deze vier werken, Smith, Say, Destutt en de Censor."
 
 
-![image](assets/en/014.webp)
+![image](assets/nl/015.webp)
 
 _(Jean-Baptiste Say en Adam Smith)_
 
@@ -237,7 +237,7 @@ _(Jean-Baptiste Say en Adam Smith)_
 Politieke economie, zoals bedacht door Adam Smith en J.-B. Say, wordt samengevat in één woord: vrijheid. Vrijheid van handel, individuele vrijheid, vrije handel en vrij initiatief. Vrije handel werd eerst verdedigd door de fysiocraten, zoals François Quesnay en Vincent de Gournay, en daarna door Adam Smith die hun ideeën samenvatte met zijn eigen observaties. Aan het einde van de 18e eeuw verduidelijkte en corrigeerde Jean-Baptiste Say enkele punten van de doctrine van zijn leermeester Adam Smith in zijn meesterlijke Verhandeling over de Politieke Economie.
 
 
-![image](assets/en/015.webp)
+![image](assets/nl/016.webp)
 
 _(Say, Destutt de Tracy, Quesnay, de Gournay)_
 
@@ -245,7 +245,7 @@ _(Say, Destutt de Tracy, Quesnay, de Gournay)_
 Adam Smith was geïnteresseerd in welvaart, niet als doel op zich, maar als middel voor de morele verheffing van individuen. Voor hem bestaat de rijkdom van naties uit de rijkdom van individuen. Als je een welvarende natie wilt, aldus Adam Smith, laat individuen dan vrij handelen. En de markt werkt omdat het iedereen in staat stelt zijn voorkeuren te uiten en zijn belangen na te streven.
 
 
-![image](assets/en/016.webp)
+![image](assets/nl/017.webp)
 
 
 De grote nieuwigheid van moderne economen aan het begin van de 18e eeuw is dat ze geïnteresseerd zijn in elk individu met de wil om zijn vermogen tot handelen te herstellen en tegelijkertijd nadenken over hoe passies en conflicten kunnen worden beheerst. De mens wil van nature zijn lot en dat van zijn dierbaren verbeteren door de Exchange van goederen en diensten.
@@ -256,7 +256,7 @@ Wat Adam Smith laat zien is dat je alleen je eigen belang kunt dienen door het b
 
 > Geef me wat ik nodig heb en jullie zullen van mij krijgen wat jullie zelf nodig hebben. (...) Het is niet uit welwillendheid van de slager, de brouwer of de bakker dat we ons eten verwachten, maar uit respect voor hun eigen belang.
 
-![image](assets/en/017.webp)
+![image](assets/nl/018.webp)
 
 
 ---
@@ -270,7 +270,7 @@ Wat Adam Smith laat zien is dat je alleen je eigen belang kunt dienen door het b
 Exchange is een spel met een positieve som. Wat de één wint, wint de ander ook. Het verschilt dus van politieke herverdeling waarbij er altijd een winnaar en een verliezer is. Als we kijken naar de Engelse school, dan is voor Smith, Ricardo en Locke waarde gekoppeld aan arbeid. Voor Marx is het hetzelfde.
 
 
-![image](assets/en/018.webp)
+![image](assets/nl/019.webp)
 
 _(Marx, Ricardo, Smith, Locke)_
 
@@ -283,7 +283,7 @@ Maar Bastiat nuanceert Say ook op dit punt. Het gaat niet om het nut dat in ding
 De economie gehoorzaamt aan een aantal eenvoudige wetten die zijn afgeleid van menselijk gedrag. Eén daarvan, de Wet van Say, luidt als volgt: "Producten en diensten worden geruild voor producten en diensten." Zijn idee is dat naties en individuen profiteren van een toename in het productieniveau omdat het meer mogelijkheden biedt voor wederzijds voordelige uitwisselingen.
 
 
-![image](assets/en/019.webp)
+![image](assets/nl/020.webp)
 
 
 Sterker nog, producten worden alleen gekocht in afwachting van de diensten die de koper verwacht: Ik koop een schijfje voor de muziek die ik zal beluisteren, ik koop een bioscoopkaartje voor de film die ik zal zien. En in een Exchange besluit elke partij omdat ze inschat dat ze meer diensten kan halen uit wat ze verwerft dan wat ze opgeeft. In deze context is geld slechts een tussenproduct, het compenseert een verleende dienst en opent andere diensten.
@@ -300,7 +300,7 @@ Maar van Jean-Baptiste Say erft Frédéric Bastiat ook een sleutelbegrip, nameli
 Producenten nemen hun toevlucht tot overreding, onderhandeling en Contract, terwijl plunderaars hun toevlucht nemen tot geweld en bedrog. Daarom is het aan de wet om plundering de kop in te drukken en zowel arbeid als eigendom veilig te stellen. Zoals Adam Smith al stelde, is het waarborgen van de veiligheid van de burgers de belangrijkste taak van de overheid en dit legitimeert het heffen van belastingen.
 
 
-![image](assets/en/020.webp)
+![image](assets/nl/021.webp)
 
 
 ## Antoine Destutt de Tracy
@@ -318,34 +318,34 @@ Het is weinig bekend, maar Destutt de Tracy had een beslissende invloed op de to
 >
 > Thomas Jefferson
 
-![image](assets/en/021.webp)
+![image](assets/nl/022.webp)
 
 
 Zijn Verhandeling over politieke economie veroordeelde protectionisme en Napoleontische expansie. Bonaparte verbood het daarom in Frankrijk te publiceren. Jefferson zelf vertaalde het echter in het Engels en publiceerde het in de Verenigde Staten. Hij maakte van deze tekst het eerste lesboek over politieke economie van de Universiteit van Virginia, die hij net had opgericht in Charlottesville. De Verhandeling werd pas in 1819 in Frankrijk gepubliceerd!
 
 
-![image](assets/en/022.webp)
+![image](assets/nl/023.webp)
 
 
 Destutt de Tracy, een filosoof en econoom, was de leider van de zogenaamde "Ideologen" school, waartoe mensen als Cabanis, Condorcet, Constant, Daunou, Say en Germaine de Staël behoorden. Zij zijn de erfgenamen van de Fysiocraten en de directe discipelen van Turgot.
 
 
-![image](assets/en/023.webp)
+![image](assets/nl/024.webp)
 
 
-![image](assets/en/024.webp)
+![image](assets/nl/025.webp)
 
 
 Met ideologie bedoelde Tracy eenvoudigweg de wetenschap die zich bezighoudt met de studie van ideeën, hun oorsprong, hun wetten, hun relatie met taal, dat wil zeggen, in meer hedendaagse termen, epistemologie. De term "ideologie" had niet de pejoratieve connotatie die Marx er later aan zou geven om de economen van "laissez-faire" in diskrediet te brengen. Het tijdschrift van de ideologenbeweging heette La Décade philosophique et littéraire.
 
 
-![image](assets/en/025.webp)
+![image](assets/nl/026.webp)
 
 
 Het domineerde de revolutionaire periode en werd geleid door Jean-Baptiste Say. Destutt de Tracy werd in 1808 verkozen tot lid van de Franse Academie en in 1832 tot lid van de Academie voor Morele en Politieke Wetenschappen. Zijn dochter trouwde in 1802 met Georges Washington de La Fayette (de zoon van de eerste Amerikaanse president), wat de toen nog nauwe band tussen Frankrijk en het jonge Amerika aantoont.
 
 
-![image](assets/en/026.webp)
+![image](assets/nl/027.webp)
 
 Het doel van zijn Verhandeling over Politieke Economie is om "de beste manier te onderzoeken om al onze fysieke en intellectuele vermogens aan te wenden om onze verschillende behoeften te bevredigen." Zijn idee is dat handel de bron is van al het menselijk welzijn; het is de beschavende, rationaliserende en pacificerende kracht van de wereld. De grote stelregel van de politieke economie wordt door hem als volgt geformuleerd: "Handel is het geheel van de samenleving, net zoals arbeid het geheel van rijkdom is." Sterker nog, hij ziet de samenleving als "een voortdurende reeks uitwisselingen waarbij beide contractanten altijd winnen" Daarom is de markt het tegenovergestelde van roof. Het verrijkt sommigen zonder anderen te verarmen. Zoals later gezegd zal worden, is het geen "zero-sum game", maar een positive-sum game.
 
@@ -353,13 +353,13 @@ Het doel van zijn Verhandeling over Politieke Economie is om "de beste manier te
 Onze auteur gaat niet zover om politieke economie te definiëren als de wetenschap van uitwisselingen. Maar dezelfde redenering wordt overgenomen en voortgezet door Bastiat. Verkopen is een Exchange van objecten, huren is een Exchange van diensten, en lenen is slechts een uitgestelde Exchange. Politieke economie wordt zo voor Bastiat "de theorie van Exchange."
 
 
-![image](assets/en/027.webp)
+![image](assets/nl/028.webp)
 
 
 Volgens Destutt de Tracy komt eigendom noodzakelijkerwijs voort uit onze natuur, uit ons vermogen om te verlangen. Als de mens niets zou willen, zou hij rechten noch plichten hebben. Om in zijn behoeften te voorzien en zijn plichten te vervullen, moet de mens middelen gebruiken die hij door zijn arbeid verwerft. En de vorm van sociale organisatie die hieraan voldoet is privébezit. Daarom is het enige doel van de overheid om eigendom te beschermen en vreedzaam Exchange mogelijk te maken.
 
 
-![image](assets/en/028.webp)
+![image](assets/nl/029.webp)
 
 
 Voor hem zijn de beste belastingen de meest gematigde en hij wil dat de uitgaven van de staat zo beperkt mogelijk zijn. Hij veroordeelt het plunderen van de rijkdom van de maatschappij door de overheid in de vorm van staatsschulden, belastingen, bankmonopolies en uitgaven. Nogmaals, de wet zou alleen moeten dienen om vrijheid te beschermen; ze zou nooit mogen plunderen.
@@ -384,13 +384,13 @@ Concluderend hadden de Ideologen een diepe intuïtie, namelijk dat productie en 
 De geschiedenis van alle beschavingen is het verhaal van de strijd tussen de plunderende klassen en de productieve klassen. Dit is het credo van de twee auteurs die we gaan bespreken. Zij zijn de grondleggers van een liberale theorie van klassenstrijd die zowel Frédéric Bastiat als Karl Marx inspireerde, hoewel deze laatste de theorie verdraaide.
 
 
-![image](assets/en/029.webp)
+![image](assets/nl/030.webp)
 
 
 Voor Comte en Dunoyer is plundering, dat wil zeggen alle vormen van geweld die in de samenleving door de sterken op de zwakken worden uitgeoefend, de grote sleutel tot het begrijpen van de menselijke geschiedenis. Het ligt aan de oorsprong van alle fenomenen van uitbuiting van de ene klasse door de andere.
 
 
-![image](assets/en/030.webp)
+![image](assets/nl/031.webp)
 
 
 Als Frédéric Bastiat zijn economische opvoeding te danken heeft aan Smith, Destutt de Tracy en Say, dan heeft hij zijn politieke opvoeding te danken aan de leiders van het tijdschrift Le Censeur, Charles Comte en Charles Dunoyer.
@@ -399,7 +399,7 @@ Als Frédéric Bastiat zijn economische opvoeding te danken heeft aan Smith, Des
 Dit tijdschrift (1814-1819), na de Honderd Dagen omgedoopt tot Le Censeur européen, verspreidde de liberale ideeën die in 1830 triomfeerden met de opstand van de Drie Glorieuze Dagen en het aan de macht komen van de hertog van Orléans, Louis-Philippe I.
 
 
-![image](assets/en/031.webp)
+![image](assets/nl/032.webp)
 
 
 
@@ -410,7 +410,7 @@ Charles Comte, neef van Auguste Comte en schoonzoon van Say, is de oprichter van
 Wat is het doel van de recensie? De titel spreekt voor zich: de regering censureren. Vechten tegen de willekeur van de macht door de publieke opinie te informeren en de persvrijheid te verdedigen.
 
 
-![image](assets/en/033.webp)
+![image](assets/nl/033.webp)
 
 _(Benjamin Constant)_
 
@@ -423,7 +423,7 @@ Ze nemen van Benjamin Constant het onderscheid over tussen de Ouden en de Modern
 
 > Dunoyer
 
-![image](assets/en/034.webp)
+![image](assets/nl/034.webp)
 
 
 Deze nieuwe sociale theorie bevat een van de Elements die de hoeksteen van het wetenschappelijk socialisme van Marx en Engels zou worden: klassenstrijd. Maar waaruit bestaat de liberale theorie van klassenstrijd en waarin verschilt deze van het marxisme?
@@ -435,7 +435,7 @@ Het begint bij het individu dat handelt om aan zijn behoeften en verlangens te v
 Op dit punt hebben individuen te maken met twee fundamentele alternatieven: ze kunnen de door anderen geproduceerde rijkdom plunderen of ze kunnen werken om zelf rijkdom te produceren. In elke samenleving kan men een duidelijk onderscheid maken tussen degenen die leven van plundering en degenen die leven van productie. Onder het Ancien Régime viel de adel de ijverigsten rechtstreeks aan om te leven van een nieuwe vorm van eerbetoon: belasting. De roofzuchtige adel werd opgevolgd door hordes bureaucraten, die niet minder roofzuchtig waren.
 
 
-![image](assets/en/035.webp)
+![image](assets/nl/035.webp)
 
 
 Terwijl voor Marx het klassenantagonisme gesitueerd is binnen de productieve activiteit zelf, tussen werknemers en werkgevers, zijn voor Comte en Dunoyer de botsende klassen aan de ene kant de producenten van de maatschappij, die belastingen betalen (waaronder kapitalisten, arbeiders, boeren, geleerden, enz.) en aan de andere kant de niet-producenten, die leven van de huur die gefinancierd wordt door belastingen, "de nietsdoende en verslindende klasse" (bureaucraten, ambtenaren, politici, begunstigden van subsidies of beschermingen).
@@ -444,7 +444,7 @@ Terwijl voor Marx het klassenantagonisme gesitueerd is binnen de productieve act
 In tegenstelling tot Marx pleiten de auteurs van de Censeur Européen niet voor klassenstrijd. In plaats daarvan strijden ze voor sociale vrede. En dit kan volgens hen alleen bereikt worden door de depolitisering van de samenleving. Daartoe is het belangrijk om eerst het prestige en de voordelen van openbare ambten te verminderen. Vervolgens is het belangrijk om invloed in het politieke lichaam te geven aan de producenten.
 
 
-![image](assets/en/036.webp)
+![image](assets/nl/036.webp)
 
 Tenslotte is de enige manier om de wereld te bevrijden van de uitbuiting van de ene klasse door de andere de vernietiging van het mechanisme dat deze uitbuiting mogelijk maakt: de macht van de staat om bezit te verdelen en te controleren en de toewijzing van voordelen die ermee verbonden zijn (de "posities").
 
@@ -463,7 +463,7 @@ Hun ideeën, die zeer vernieuwend waren, zouden voor altijd een stempel drukken 
 Het is 1838, in Manchester komt een klein aantal tot dan toe onbekende mannen bijeen om een manier te vinden om het monopolie van de tarwe-grondbezitters omver te werpen met wettelijke middelen en om te bereiken, zoals Bastiat later zou vertellen,
 
 
-![image](assets/en/037.webp)
+![image](assets/nl/037.webp)
 
 
 > Zonder bloedvergieten, alleen door de kracht van de opinie, een revolutie die net zo diepgaand, misschien nog wel diepgaander is dan de revolutie die onze voorvaderen in 1789 tot stand brachten.
@@ -471,13 +471,13 @@ Het is 1838, in Manchester komt een klein aantal tot dan toe onbekende mannen bi
 Uit deze bijeenkomst zou de Liga tegen de maïswetten voortkomen, of de graanwetten, zoals Bastiat ze zou noemen. Maar al snel zou dit doel de totale en eenzijdige afschaffing van protectionisme worden.
 
 
-![image](assets/en/038.webp)
+![image](assets/nl/038.webp)
 
 
 Deze economische strijd voor vrijhandel zou heel Engeland tot 1846 in beslag nemen. In Frankrijk was het bestaan van deze grote beweging, buiten een klein aantal ingewijden, volledig onbekend. Het was door het lezen van een Engelse krant, waar hij toevallig op geabonneerd was, dat Frédéric Bastiat in 1843 van het bestaan van de Liga hoorde. Enthousiast vertaalde hij de toespraken van Cobden, Fox en Bright. Daarna correspondeerde hij met Cobden en uiteindelijk ging hij in 1845 naar Londen om de gigantische bijeenkomsten van de Liga bij te wonen.
 
 
-![image](assets/en/039.webp)
+![image](assets/nl/039.webp)
 
 
 Het was deze campagne van agitatie voor vrije handel, in het hele koninkrijk, met tienduizenden leden, die Bastiat's pen in vuur en vlam zette en de loop van zijn leven radicaal en definitief veranderde.
@@ -486,7 +486,7 @@ Het was deze campagne van agitatie voor vrije handel, in het hele koninkrijk, me
 De Liga kan vergeleken worden met een reizende universiteit die economisch onderwijs gaf aan de deelnemers aan haar bijeenkomsten in het hele land: gewone mensen, industriëlen, landbouwers en boeren, die de Liga allemaal onder haar hoede had genomen en wier belangen door de graanwetten werden onderdrukt. Richard Cobden was de ziel van de beweging en een uitstekende agitator.
 
 
-![image](assets/en/040.webp)
+![image](assets/nl/040.webp)
 
 
 Hij was een fascinerend en formidabel spreker en had een wonderbaarlijke gave voor het bedenken van treffende en beknopte zinnen, ver van de abstracte betogen van economen.
@@ -494,7 +494,7 @@ Hij was een fascinerend en formidabel spreker en had een wonderbaarlijke gave vo
 
 > Wat is het broodmonopolie? riep hij uit. Het is de schaarste van brood. Het verbaast je dat de wetgeving van dit land op dit gebied geen ander doel heeft dan een zo groot mogelijke schaarste aan brood. En toch is het niets anders. De wetgeving kan haar doel alleen bereiken door schaarste.
 
-![image](assets/en/041.webp)
+![image](assets/nl/041.webp)
 
 
 In 1845 publiceerde Bastiat in Parijs zijn boek Cobden and the League, met zijn vertalingen voorzien van commentaar. Het boek opent met een inleiding over de economische situatie van Engeland, over de geschiedenis van het ontstaan en de voortgang van de Liga. Sinds 1815 was het protectionisme in Engeland sterk ontwikkeld. Er waren vooral wetten die de invoer van graan beperkten, wat zeer harde gevolgen had voor het volk. Tarwe was immers noodzakelijk voor het maken van brood, een levensnoodzakelijk product in die tijd. Bovendien bevoordeelde dit systeem de aristocratie, dat wil zeggen de grootgrondbezitters, die er inkomsten uit haalden.
@@ -515,7 +515,7 @@ Het doel van de League was om de publieke opinie te mobiliseren en het parlement
 - Vrede tussen naties bevorderen
 
 
-![image](assets/en/043.webp)
+![image](assets/nl/042.webp)
 
 _(Jeremy Bentham)_
 
@@ -527,13 +527,13 @@ Bij de verkiezingen van 1841 werden vijf leden van de Liga, waaronder Cobden, in
 
 Interessant is dat Bastiat zich een deel van hun methode toe-eigende; hij assimileerde hun taal en zette die om in de Franse context. Het boek over Cobden en de Liga werd al snel een succes en Bastiat maakte een sensationele entree in de wereld van economen. Hij richtte een vereniging op in Bordeaux ten gunste van de vrije handel en verhuisde deze vervolgens naar Parijs. Hij kreeg de leiding over het Journal des Économistes. De beweging was geboren en bleef bestaan tot 1848.
 
-![image](assets/en/044.webp)
+![image](assets/nl/043.webp)
 
 
 Pas na Bastiat's dood, in 1866, zou Napoleon III een vrijhandelsverdrag met Engeland ondertekenen, een soort postume overwinning voor de man die de laatste zes jaar van zijn korte leven aan dit grote idee had gewijd.
 
 
-![image](assets/en/045.webp)
+![image](assets/nl/044.webp)
 
 _(Michel Chevalier)_
 
@@ -561,7 +561,7 @@ Frédéric Bastiat, die zichzelf uitsprak in de jaren 1840, is de erfgenaam van 
 Voor hen was het idee eenvoudig: hoe meer ideeën mogen worden uitgedrukt, hoe meer de waarheid vooruitgaat en hoe gemakkelijker fouten worden weerlegd. Wetenschap boekt altijd vooruitgang op deze manier.
 
 
-![image](assets/en/046.webp)
+![image](assets/nl/045.webp)
 
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
@@ -572,13 +572,13 @@ Integendeel, weinigen hebben begrepen dat wat gold voor ideeën ook gold voor go
 Bastiat beschouwt Rousseau inderdaad als de ware voorloper van het socialisme en collectivisme. In de auteur van The Social Contract staat een zin die zijn filosofie goed samenvat: "we beginnen pas mensen te worden nadat we burgers zijn geweest."
 
 
-![image](assets/en/047.webp)
+![image](assets/nl/046.webp)
 
 
 Aanvankelijk is de mens slechts een bourgeois. Maar de bourgeois is een rekenmachine; hij wil zijn onmiddellijke genot, hij is slaaf van zijn zintuigen, van zijn verlangens, van zijn specifieke belangen. Kortom, hij is niet rationeel, daarom is hij niet vrij. Hij moet opgevoed worden, om te begrijpen dat zijn ware belang het algemeen belang is. Daarom schreef Rousseau in De sociale Contract:
 
 
-![image](assets/en/048.webp)
+![image](assets/nl/047.webp)
 
 
 ---
@@ -594,7 +594,7 @@ Volgens deze doctrine heeft de mens twee wilsrichtingen in zich: een wil die ger
 Het is daarom volkomen legitiem, volgens Rousseau, om mensen te dwingen in naam van een doel dat ze zelf, als ze meer verlicht waren geweest, zouden hebben nagestreefd, maar dat ze niet nastreven omdat ze blind, onwetend of corrupt zijn. De maatschappij is opgericht om hen te dwingen te doen wat ze spontaan zouden willen als ze verlicht waren. En door dit te doen, doet men hen geen geweld aan omdat men hen leidt om "vrij" te zijn, dat wil zeggen, om de juiste keuzes te maken, keuzes die in overeenstemming zijn met hun ware zelf.
 
 
-![image](assets/en/049.webp)
+![image](assets/nl/048.webp)
 
 
 Rousseau is ervan overtuigd dat de goede samenleving een creatie van de wet is en geeft de wetgever daarom onbeperkte macht. Het is aan hem om individuen om te vormen tot volleerde mensen, tot burgers.
@@ -604,7 +604,7 @@ Maar het is ook aan de wet om eigendom te laten bestaan. Volgens Rousseau kan ei
 
 > De eerste persoon die, nadat hij een stuk land had omheind, zei: Dit is van mij, en mensen vond die eenvoudig genoeg waren om hem te geloven, was de ware grondlegger van de burgermaatschappij. Hoeveel misdaden, oorlogen, moorden, hoeveel ellende en verschrikking zou het menselijk ras bespaard zijn gebleven door degene die, terwijl hij de palen omhoog trok of de greppel opvulde, tegen zijn medemensen had geroepen: "Pas op dat je niet naar deze bedrieger luistert; je bent verloren als je vergeet dat de vruchten van iedereen zijn en de aarde van niemand!"
 
-![image](assets/en/050.webp)
+![image](assets/nl/049.webp)
 
 
 Daarom is natuurlijk eigendom de bron van het kwaad. En Marx, een groot lezer van Rousseau, zou zich dit herinneren. Hoe dit kwaad te bestrijden? Door de sociale Contract, antwoordt Rousseau. Inderdaad, de goede samenleving is er een die voortvloeit uit een Contract die de vervreemding van het individu met al zijn rechten aan de gemeenschap voorschrijft. Vanaf dat moment is het aan de gemeenschap om rechten toe te kennen aan het individu door middel van de wet.
@@ -613,7 +613,7 @@ Daarom is natuurlijk eigendom de bron van het kwaad. En Marx, een groot lezer va
 In tegenstelling tot Rousseau zegt Frédéric Bastiat dat "de mens als eigenaar van onroerend goed wordt geboren" Voor hem is eigendom een noodzakelijk gevolg van de aard van de mens, van zijn constitutie. Hij schrijft dat "de mens wordt geboren als eigenaar, omdat hij geboren wordt met behoeften waarvan de bevrediging onmisbaar is voor het leven, met organen en vermogens waarvan de uitoefening onmisbaar is voor de bevrediging van deze behoeften". Maar vermogens zijn slechts het verlengstuk van de persoon, en eigendom is slechts het verlengstuk van de vermogens. Met andere woorden, het is het gebruik van onze vermogens in werk dat eigendom legitimeert.
 
 
-![image](assets/en/051.webp)
+![image](assets/nl/050.webp)
 
 
 Volgens Bastiat bestaan de maatschappij, de mensen en de eigendommen vóór de wetten en hij heeft deze beroemde zin: "Het is niet omdat er wetten zijn dat er eigendommen zijn, maar omdat er eigendommen zijn dat er wetten zijn". Daarom moet de wet negatief zijn: het moet voorkomen dat er inbreuk wordt gemaakt op mensen en hun goederen. Eigendom is de _raison d'être_ van de wet en niet andersom.
@@ -629,7 +629,7 @@ Volgens Bastiat bestaan de maatschappij, de mensen en de eigendommen vóór de w
 Op 24 februari 1848, na drie dagen van rellen in Parijs, deed koning Louis-Philippe I afstand van zijn macht. Dit betekende de geboorte van de Tweede Republiek.
 
 
-![image](assets/en/052.webp)
+![image](assets/nl/051.webp)
 
 
 Bastiat was in Parijs en was getuige van de gebeurtenissen. Later zou hij schrijven:
@@ -640,7 +640,7 @@ Bastiat was in Parijs en was getuige van de gebeurtenissen. Later zou hij schrij
 Deze passage is verrassend. Wat hebben de Griekse en Romeinse oudheid ermee te maken?
 
 
-![image](assets/en/053.webp)
+![image](assets/nl/052.webp)
 
 
 Bastiat verwijst naar Plato's Republiek en zijn theorie van de filosoof-koning, maar ook naar Sparta, dat Rousseau zo bewonderde, naar het Romeinse Rijk, waar Napoleon zo nostalgisch naar was. Helaas zijn deze Griekse en Romeinse ideeën volgens Bastiat gebaseerd op een valse premisse: het idee van de almacht van de wetgever, van de absolute soevereiniteit van de wet.
@@ -649,7 +649,7 @@ Bastiat verwijst naar Plato's Republiek en zijn theorie van de filosoof-koning, 
 Je hoeft maar een willekeurig boek over filosofie, politiek of geschiedenis open te slaan om dit in onze cultuur gewortelde idee te vinden dat de mensheid een inerte materie is die leven, organisatie, moraal en welvaart ontvangt van de politieke macht. Aan zichzelf overgelaten zou de mensheid neigen naar anarchie en alleen door de mysterieuze en almachtige hand van de Wetgever van deze ramp worden gered. Maar, zegt Bastiat, dit idee is al lang gerijpt en voorbereid door eeuwen van klassieke opvoeding.
 
 
-![image](assets/en/054.webp)
+![image](assets/nl/053.webp)
 
 
 Ten eerste, zegt hij, beschouwden de Romeinen eigendom als een puur conventioneel gegeven, als een kunstmatige creatie van geschreven recht. Waarom? Simpelweg, legt Bastiat uit, omdat ze leefden van slavernij en plundering. Voor hen waren alle eigendommen de vrucht van plundering. Daarom konden ze het idee dat de basis van legitiem eigendom arbeid was, niet in de wetgeving opnemen zonder de fundamenten van hun samenleving te vernietigen.
@@ -662,7 +662,7 @@ Ze hadden inderdaad een empirische definitie van eigendom, "jus utendi et abuten
 Rousseau deelt inderdaad dit algemene juridische idee om eigendom te baseren op de wet. Rousseau kent de wet, en dus het volk, absolute macht toe over individuen en eigendommen. En in deze opvatting, die het idee van de republiek sinds de Franse Revolutie vormt, moet de wetgever de maatschappij organiseren, als een sociaal architect, als een monteur die een machine uitvindt uit inerte materie, of als een pottenbakker die klei vormt. De wetgever plaatst zich dus buiten de mensheid, erboven, om haar naar believen te ordenen volgens plannen die zijn heldere intelligentie heeft bedacht.
 
 
-![image](assets/en/055.webp)
+![image](assets/nl/054.webp)
 
 
 Integendeel, voor Bastiat gaat het eigendomsrecht vooraf aan de wet. Dit is wat hij het principe van de economen noemt, in tegenstelling tot het principe van de juristen. Terwijl "het principe van de juristen praktisch slavernij bevat, zegt Bastiat, bevat dat van de economen vrijheid.
@@ -674,7 +674,7 @@ Wat is vrijheid dan? Het is eigendom, het recht om te genieten van de vruchten v
 Het is triest om te bedenken dat onze sociale en politieke filosofie is blijven steken in het idee dat de oplossing voor al onze problemen van bovenaf moest komen, van de wet, van de staat. Maar dit is verklaarbaar. Deze ideeën worden de jeugd elke dag bijgebracht op scholen en universiteiten, via het onderwijsmonopolie.
 
 
-![image](assets/en/056.webp)
+![image](assets/nl/055.webp)
 
 _een voorbeeld van zo'n monopolistische agent zou een overheidsinstelling kunnen zijn_
 
@@ -690,7 +690,7 @@ Maar, zoals Bastiat ons herinnert, monopolie sluit vooruitgang uit.
 :::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 
-![image](assets/en/057.webp)
+![image](assets/nl/056.webp)
 
 _(Richard Cobden)_
 
@@ -701,7 +701,7 @@ Zoals we al hebben gezien, was het in de eerste plaats Cobden's strijd tegen pro
 Protectionisme is in werkelijkheid een vorm van economisch nationalisme. Het is gericht op het elimineren van buitenlandse concurrentie, terwijl ze doen alsof ze "nationale belangen verdedigen" Vervolgens proberen ze de overheid een reeks zuiver demagogische onwaarheden te laten accepteren, die als deugdzaam worden voorgesteld: de verdediging van banen, concurrentievermogen, enz. Natuurlijk zwichten de gekozen ambtenaren voor de druk van de producenten, omdat het voor hen een gouden kans is om hun klantenkring te consolideren en hun macht uit te breiden.
 
 
-![image](assets/en/058.webp)
+![image](assets/nl/057.webp)
 
 _een voorbeeld van reclame voor een blender geproduceerd in Frankrijk_
 
@@ -728,7 +728,7 @@ Als we het Engelse product verbieden, betaalt de consument een eenheid meer voor
 Protectionisme is ook een vorm van klassenstrijd. Volgens Bastiat is het een systeem dat gebaseerd is op het egoïsme en de hebzucht van producenten. Om hun beloning te verhogen, eisen boeren of industriëlen belastingen om de markt te sluiten voor buitenlandse producten, waardoor consumenten gedwongen worden meer te betalen voor hun producten.
 
 
-![image](assets/en/060.webp)
+![image](assets/nl/058.webp)
 
 
 Bastiat kiest resoluut de kant van de consument. Tegenover het klassenbelang stelt hij het algemeen belang, het belang van de consument, dat wil zeggen het belang van iedereen. Het is altijd vanuit het standpunt van de consument dat de staat moet handelen.
@@ -737,7 +737,7 @@ Bastiat kiest resoluut de kant van de consument. Tegenover het klassenbelang ste
 Met de februarirevolutie van 1848 en haar barricades zou er een vijand opduiken die geduchter was dan het protectionisme, een vijand waarmee het veel affiniteiten deelt: het socialisme.
 
 
-![image](assets/en/061.webp)
+![image](assets/nl/059.webp)
 
 
 Wat is het? Het is een politieke beweging die de organisatie van arbeid door de wet, de nationalisatie van industrieën en banken en de herverdeling van rijkdom door middel van belastingen eist. Bastiat zou nu al zijn energie, talent en geschriften wijden aan het bestrijden van deze nieuwe doctrine, die alleen maar kon leiden tot een exponentiële groei van de macht en een eeuwigdurende klassenstrijd. Zo leverde hij vanaf de eerste dagen van de revolutie bijdragen aan een kortstondige krant genaamd "La République Française", die al snel bekend werd als een contrarevolutionair tijdschrift. In deze tijd schreef hij zijn pamfletten over eigendom, de staat, plundering en de wet.
@@ -754,7 +754,7 @@ Op 27 juni 1848, de dag na een bloedige nieuwe opstand in Parijs, stond hij in e
 - 2° De natie raakte gecharmeerd van het idee dat broederschap en solidariteit in de wet konden worden opgenomen. Dat wil zeggen, het eiste dat de staat rechtstreeks geluk zou creëren voor zijn burgers. Hier ziet Bastiat het begin van de welvaartsstaat.
 
 
-![image](assets/en/062.webp)
+![image](assets/nl/060.webp)
 
 
 En hij zou daarna doorgaan met het analyseren van de perverse effecten ervan. Hier is een voorbeeld, aangehaald in de brief aan Cobden:
@@ -766,7 +766,7 @@ En hij zou daarna doorgaan met het analyseren van de perverse effecten ervan. Hi
 - 3° Bastiat voegt eraan toe dat protectionisme volgens hem de eerste manifestatie van deze wanorde was. De kapitalisten vroegen eerst om tussenkomst van de wet om hun aandeel in de rijkdom te vergroten. Het was onvermijdelijk dat de arbeiders hetzelfde wilden.
 
 
-![image](assets/en/063.webp)
+![image](assets/nl/061.webp)
 
 
 ---
@@ -792,14 +792,14 @@ Tot slot hebben protectionisten en socialisten volgens Bastiat een gemeenschappe
 Pierre-Joseph Proudhon is een van de belangrijkste vertegenwoordigers van het Franse socialisme in het midden van de 19e eeuw. Hij is vooral beroemd vanwege deze uitspraak: "Eigendom is diefstal" in "Wat is eigendom?" in 1840.
 
 
-![image](assets/en/064.webp)
+![image](assets/nl/062.webp)
 
 
 
 Er zit iets logisch absurds in deze bewering. Want als er geen rechtmatig verworven eigendom zou zijn, zou er logischerwijs ook geen daad als diefstal kunnen zijn. Daarom zou Proudhon later verduidelijken dat het de feitelijke verdeling van eigendom is die hij als diefstal beschouwt, niet het eigendom zelf, dat hij beschrijft als een revolutionaire kracht die ten grondslag ligt aan de anarchistische samenleving.
 
 
-![image](assets/en/066.webp)
+![image](assets/nl/063.webp)
 
 
 Maar Proudhon is een individualistische anarchist. Hij ziet het proletariaat noch de staat als legitieme bronnen van macht. Hij heeft scherpe kritiek op het communisme en pleit voor arbeidersmutualisme, een vorm van gestructureerde coöperatieve solidariteit, die zou berusten op de vrijwillige bundeling van middelen voor wederzijdse hulp. Het is minder bekend, maar Bastiat was in principe helemaal niet tegen dit idee. Hij was alleen bang dat de staat er een de facto monopolistische openbare dienst van zou maken. De geschiedenis zou hem gelijk geven.
@@ -810,24 +810,24 @@ Maar Proudhon is een individualistische anarchist. Hij ziet het proletariaat noc
 Aan de andere kant is het bekend dat Marx in "De armoede van de filosofie" Proudhon en zijn socialisme, dat hij "utopisch" noemde, gewelddadig zou aanvallen ten gunste van een zogenaamd "wetenschappelijk" socialisme.
 
 
-![image](assets/en/068.webp)
+![image](assets/nl/064.webp)
 
 In juni 1848 werd Proudhon verkozen in de Nationale Assemblee, naast Bastiat. Ze waren bekenden van elkaar en hadden veel respect voor elkaar. In 1849 wisselde Bastiat echter veertien brieven met hem uit in de kolommen van La Voix du Peuple. In deze krachtige Exchange verduidelijkte hij zijn standpunt over monetaire en bancaire kwesties. Het geschil kwam neer op het volgende alternatief: vrij krediet of vrijheid van krediet?
 
 
-![image](assets/en/069.webp)
+![image](assets/nl/065.webp)
 
 
 Proudhon zag de rente op kapitaal als de eerste oorzaak van het pauperisme en de ongelijkheid van omstandigheden. Hij pleitte voor onbeperkte geldschepping door een staatsbank (de Exchange Bank of Volksbank) en zag in het "vrije krediet" de oplossing voor het sociale probleem. Aan de andere kant was Bastiat een voorstander van de vrijheid van banken, dat wil zeggen de regulering van de geldcirculatie door de vrije toegang tot het beroep, gekoppeld aan een noodzakelijke verantwoordelijkheid over de eigen middelen, en de vrijheid van concurrentie.
 
 
-![image](assets/en/070.webp)
+![image](assets/nl/066.webp)
 
 
 Bastiat weerlegde zijn tegenstander in verschillende stappen. Ten eerste analyseerde hij de perverse effecten van gratis krediet en geldschepping. Een dergelijk systeem zou alleen maar de meest risicovolle en roekeloze acties van banken en private actoren aanmoedigen omdat ze weten dat ze gedekt worden door de staat, dat wil zeggen door belastinggeld: "Het is een ernstige zaak om alle mensen in een situatie te plaatsen waarin ze zeggen: Laten we ons geluk beproeven met andermans eigendom; als ik slaag, zoveel te beter voor mij; als ik faal, jammer voor anderen." Een vooruitziende uitspraak die van toepassing zou kunnen zijn op ons tijdperk.
 
 
-![image](assets/en/071.webp)
+![image](assets/nl/067.webp)
 
 
 Het beleid van lage rentes dat centrale banken voeren is een manier om kunstmatig geld te creëren. En de opeenvolgende crises van het financiële systeem in de afgelopen eeuw, met de schuldenlast van staten, zijn er het directe gevolg van.
@@ -836,13 +836,13 @@ Het beleid van lage rentes dat centrale banken voeren is een manier om kunstmati
 Vervolgens laat Bastiat zien dat het mogelijk is om de koopkracht van de arbeidersklasse te verbeteren, maar op een andere, rechtvaardigere en effectievere manier. Voor hem is de verlaging van de rente ook het doel van een liberaal beleid. Maar dit wordt bereikt door de bevrijding en accumulatie van kapitaal, niet door de afschaffing van rente, dat wil zeggen vrij krediet.
 
 
-![image](assets/en/072.webp)
+![image](assets/nl/068.webp)
 
 
 Volgens Bastiat valt de vooruitgang van de mensheid inderdaad samen met de vorming van kapitaal. In zijn pamflet getiteld Capital and Rent laat Bastiat ons dit begrijpen aan de hand van Robinson Crusoe op zijn eiland.
 
 
-![image](assets/en/073.webp)
+![image](assets/nl/069.webp)
 
 Zonder opgebouwd kapitaal of materiaal zou Robinson ten dode zijn opgeschreven. Vervolgens legt hij uit dat kapitaal de arbeider op twee manieren verrijkt:
 
@@ -877,7 +877,7 @@ Samenvattend erkenden zowel Proudhon als Bastiat het belang van kapitaalaccumula
 In dit hoofdstuk onthul ik een gloednieuwe technologie, een revolutionaire technologie. Een onderzoeker heeft een bionische bril ontwikkeld met aan de voorkant een ultrakrachtige minicamera. Deze technologie maakt het mogelijk om details te zien die met het blote oog onmogelijk zijn. In de armen zit een elektronische chip die de beelden rechtstreeks naar de cloud stuurt via mijn smartphone.
 
 
-![image](assets/en/074.webp)
+![image](assets/nl/070.webp)
 
 
 De uitvinder van het eerste prototype van deze bril was Frédéric Bastiat in 1850 in een beroemd pamflet: _Ce qu'on voit et ce qu'on ne voit pas_. Deze bril is die van de econoom. Ze maken het mogelijk om de gevolgen van beslissingen van de overheid op ons leven te meten. Het is de bril die "ons in staat stelt te zien wat we niet zien": de vernietiging die wordt veroorzaakt door cliëntelistisch beleid en valse economische theorieën. Vaak zien we hun slachtoffers niet, noch hun begunstigden, kortom, hun werkelijke gevolgen in tegenstelling tot de beweringen in officiële toespraken, wat Bastiat "economische drogredenen" noemt
@@ -904,7 +904,7 @@ Maar wat niet wordt gezien is wat de eigenaar zou hebben gekocht met dat geld, m
 Er zal dus niet meer "stimulering" van de economie zijn met het breken van het raam dan zonder. In het eerste geval zal er echter een nettoverlies zijn: de waarde van het raam.
 
 
-![image](assets/en/075.webp)
+![image](assets/nl/071.webp)
 
 De eerste les die we moeten leren is dat een "goede" beslissing of een "goed" beleid een beslissing is die de samenleving minder kost dan wat een andere toewijzing van middelen had kunnen kosten. De effectiviteit van een beleid moet niet alleen worden beoordeeld op basis van de effecten, maar ook op basis van de alternatieven die hadden kunnen plaatsvinden. Dit is het concept van "opportuniteitskosten" dat Bastiat dierbaar is.
 
@@ -921,7 +921,7 @@ Maar er zijn andere manieren om de economie te stimuleren. Als de staat zich bez
 Tenslotte kunnen we zeggen dat Bastiat, bijna een eeuw voor Keynes, de Keynesiaanse drogredenen weerlegde die beweren dat staatsschulden de economie stimuleren en dat overheidsuitgaven groei produceren.
 
 
-![image](assets/en/076.webp)
+![image](assets/nl/072.webp)
 
 
 De grote les van deze serie teksten is dat staatsinterventie perverse effecten heeft die niet worden gezien. Alleen een goede econoom kan ze voorzien. Politiek is wat we zien. De economie is wat we niet zien.
@@ -938,7 +938,7 @@ De grote les van deze serie teksten is dat staatsinterventie perverse effecten h
 In 1840 stemde de Kamer van Afgevaardigden voor een wet die de importbelastingen verhoogde om de Franse industrie te beschermen. Dit is het beroemde economische patriottisme dat we vandaag de dag nog steeds tegenkomen.
 
 
-![image](assets/en/077.webp)
+![image](assets/nl/073.webp)
 
 hierboven: Marine Le Pen, een Franse politica_
 
@@ -947,7 +947,7 @@ hierboven: Marine Le Pen, een Franse politica_
 Bastiat schreef toen een satirische tekst die later een van zijn beroemdste werken werd: "de petitie van de kaarsenmakers". Het illustreert hoe bepaalde goed georganiseerde pressiegroepen van producenten onterechte privileges van de staat krijgen, ten nadele van de burgers. Tegelijkertijd toont het de absurde en destructieve aard van protectionistische wetgeving.
 
 
-![image](assets/en/079.webp)
+![image](assets/nl/074.webp)
 
 
 ---
@@ -967,7 +967,7 @@ Dus wie is deze oneerlijke buitenlandse concurrent? Niemand minder dan de zon. D
 Met andere woorden, de kaarsenmakers proberen de schadelijke effecten van een "buitenlandse concurrent" (de zon) op de economie van Frankrijk aan te tonen. Want de zon kan niet alleen hetzelfde "product" leveren als kaarsen, maar doet dat ook nog eens gratis. Tweehonderd jaar later is dit verhaal nog steeds ongelooflijk relevant. Denk aan de taxichauffeurs die de wet vragen om VTC's en Uber te verbieden. Denk aan de boekwinkels die Amazon willen verbieden.
 
 
-![image](assets/en/080.webp)
+![image](assets/nl/075.webp)
 
 
 Bastiat's echte tegenstander in deze fictie is het politieke en electorale protectionisme, dat alleen vertrouwt op de hebzucht van producenten en de naïviteit van consumenten. Hij onthult de collusie tussen de slechte kapitalist van die tijd en de staat. In plaats van te innoveren en zich aan te passen aan de markt, is de slechte kapitalist degene die politiek voordeel probeert te behalen door middel van protectionisme. Dit leidt altijd tot verspilling voor de consument, dat wil zeggen onrecht.
@@ -987,7 +987,7 @@ Protectionisme is ook gebaseerd op een verborgen syllogisme dat een drogreden bl
 Laten we deze absurditeit illustreren met een paar korte verhalen van Bastiat. In hoofdstuk III van de tweede reeks van Economic Sophisms stelt hij zich een timmerman voor die aan de minister een petitie schrijft waarin hij vraagt om protectionistische wetgeving. De timmerman formuleert zijn verzoek als volgt Meneer de minister, maak een wet die bepaalt dat "niemand iets anders kan gebruiken dan balken en balken die gemaakt zijn van botte bijlen." Met andere woorden, maak een wet die het gebruik van scherpe bijlen in Frankrijk verbiedt. Dus waar men normaal 100 bijlslagen geeft, zal men er 300 moeten geven. Er zal veel vraag zijn naar timmerlieden en ze zullen beter betaald worden.
 
 
-![image](assets/en/081.webp)
+![image](assets/nl/076.webp)
 
 
 In hoofdstuk XVI staat nog een zeer ironische tekst, getiteld: De rechterhand en de linkerhand. Na een onderzoek stelt een koninklijke gezant een rapport op waarin hij de koning voorstelt om alle rechterhanden van de arbeiders af te snijden, of op zijn minst vast te binden. Zo, vervolgt hij, zal het werk en dus de rijkdom toenemen. Productie zal veel moeilijker worden, waardoor massaal extra arbeidskrachten moeten worden aangenomen en de lonen moeten stijgen. Het pauperisme zal uit het land verdwijnen.
@@ -1016,7 +1016,7 @@ Ware rijkdom, volgens Bastiat, is daarom het geheel van nuttige dingen die we pr
 
 > Als de rijken afvallen, sterven de armen.
 
-![image](assets/en/083.webp)
+![image](assets/nl/077.webp)
 
 
 Dit citaat, toegeschreven aan Lao-Tzu, beschrijft het onvermijdelijke gevolg van een belastingsysteem dat erop gericht is de rijken harder te treffen dan anderen.
@@ -1067,7 +1067,7 @@ Het probleem is dat belastingen, zoals ze zijn opgevat, onderhevig zijn aan de w
 Daarom had Bastiat de Laffer-curve al begrepen. Arthur Laffer is een Amerikaanse econoom die bekend staat om zijn beroemde "curve" (een ellips), gepubliceerd in 1974, die laat zien dat de opbrengst van belastingen toeneemt naarmate het belastingtarief lager wordt. Dit is de theorie van het afnemende rendement van buitensporige belastingen.
 
 
-![image](assets/en/087.webp)
+![image](assets/nl/078.webp)
 
 
 > Te veel belasting doodt de belasting.
@@ -1078,7 +1078,7 @@ Daarom had Bastiat de Laffer-curve al begrepen. Arthur Laffer is een Amerikaanse
 Politici gaan er naïef van uit dat er een automatische en vaste relatie bestaat tussen belastingtarieven en belastinginkomsten. Ze denken dat ze de belastinginkomsten kunnen verdubbelen door het belastingtarief te verdubbelen. Volgens Laffer gaat zo'n benadering voorbij aan het feit dat belastingbetalers hun gedrag kunnen veranderen als reactie op nieuwe stimulansen.
 
 
-![image](assets/en/088.webp)
+![image](assets/nl/079.webp)
 
 
 De Laffer-curve laat zien dat de overheid geen inkomsten ontvangt als de belastingtarieven 100% zijn. Omgekeerd stimuleert elke belastingverlaging de economische activiteit en dus de staatsinkomsten. Een verlaging van de marginale belastingtarieven stimuleert immers investeringen, werk en creativiteit en bevordert zo de economische groei. Een voldoende verlaging kan voldoende economische stimulans geven om de overheidsinkomsten te verhogen door de belastinggrondslag aanzienlijk te verbreden.
@@ -1087,7 +1087,7 @@ De Laffer-curve laat zien dat de overheid geen inkomsten ontvangt als de belasti
 Bastiat zou hieraan kunnen toevoegen dat er evenveel belang moet worden gehecht aan het terugdringen van de staatsuitgaven als aan het verlagen van de belastingen. Niettemin, zoals Margaret Thatcher, een leerling van Frédéric Bastiat, het zo treffend uitdrukte:
 
 
-![image](assets/en/089.webp)
+![image](assets/nl/080.webp)
 
 
 > Het doel is niet om de rijken arm te maken, maar om de armen rijk te maken.
@@ -1106,7 +1106,7 @@ En ze zei dit terwijl ze zich richtte tot socialisten.
 Veel mensen kennen "Tartuffe of de bedrieger", de komedie van Molière waarin een sluwe volgeling Elmire probeert te verleiden en haar man Orgon probeert op te lichten. Hoe kun je jezelf beschermen tegen de misleidingen van zo'n huichelaar die doet alsof hij goed voor je is, maar tegelijkertijd een complot tegen je smeedt?
 
 
-![image](assets/en/090.webp)
+![image](assets/nl/081.webp)
 
 
 Bastiat merkt op dat er twee manieren zijn om een einde te maken aan dit soort bedrog: Tartuffe corrigeren of Orgon verlichten. Natuurlijk zullen er altijd Tartuffes zijn, maar hun macht om schade aan te richten zou veel minder zijn als er minder Orgons naar hen zouden luisteren.
@@ -1118,7 +1118,7 @@ De zwakte van de menselijke rede ligt ten grondslag aan het misbruik van vrijhei
 Er zijn echter twee complementaire manieren om het oordeel van burgers te verlichten, zoals Bastiat schetst in een hoofdstuk van de tweede serie van Economic Sophisms getiteld "The Two Moralities".
 
 
-![image](assets/en/091.webp)
+![image](assets/nl/082.webp)
 
 
 
@@ -1137,7 +1137,7 @@ In feite zijn dit twee perfect complementaire morele kaders.
 Kortom, het leert de deugd, de onbaatzuchtige daad. Deze moraliteit, zegt Bastiat, zal eeuwig de mooiste en ontroerendste zijn, want ze laat zien wat het beste in de mens is.
 
 
-![image](assets/en/092.webp)
+![image](assets/nl/083.webp)
 
 
 2. De andere helpt om het kwaad aan de kaak te stellen en te bestrijden door de kennis van de effecten ervan, het is de economische moraal. Deze richt zich tot het intellect en niet tot het hart, met als doel het slachtoffer te informeren over de negatieve gevolgen van een gedraging. Ze versterkt de lessen van de ervaring. Ze streeft naar het verspreiden van gezond verstand, kennis en wantrouwen onder de onderdrukte massa's, waardoor onderdrukking moeilijker wordt.
@@ -1146,7 +1146,7 @@ Kortom, het leert de deugd, de onbaatzuchtige daad. Deze moraliteit, zegt Bastia
 Deze economische moraal streeft naar hetzelfde resultaat als de religieuze moraal, maar gaat uit van de effecten van menselijke handelingen. Ze leert ons te reageren tegen onrechtvaardige of schadelijke handelingen en die te verdedigen die rechtvaardig of nuttig zijn.
 
 
-![image](assets/en/093.webp)
+![image](assets/nl/084.webp)
 
 
 Bastiat benadrukt hier de rol van de wetenschap, en in het bijzonder van de economische wetenschap. Hoewel deze verschilt van die van de traditionele moraal, is haar rol toch noodzakelijk om alle vormen van verkwisting te bestrijden. De moraal valt de ondeugd aan met haar intentie, ze voedt de wil op. Aan de andere kant valt de wetenschap de ondeugd aan door de effecten ervan te begrijpen en zo de triomf van de deugd te vergemakkelijken.
@@ -1191,7 +1191,7 @@ Kan een harmonieuze samenleving zonder geschreven wetten, regels, repressieve ma
 Dit is het argument dat vaak wordt aangehaald door diegenen die marktregulering eisen of een maatschappij die als enige in staat is om individuen te coördineren tot een coherent en harmonieus geheel.
 
 
-![image](assets/en/095.webp)
+![image](assets/nl/085.webp)
 
 
 Dit is niet de visie van Bastiat. Volgens hem gehoorzaamt het sociale mechanisme, net als het hemelse mechanisme of het mechanisme van het menselijk lichaam, aan algemene wetten. Met andere woorden, het is al een harmonieus georganiseerd geheel. En de motor van deze organisatie is de vrije markt.
@@ -1223,7 +1223,7 @@ Bastiat beschrijft de markt als een gedecentraliseerd en onzichtbaar instrument 
 Wat opvalt, concludeert Bastiat, is de immense wanverhouding tussen de voordelen die deze man uit de maatschappij haalt en de voordelen die hij zichzelf zou bieden als hij tot zijn eigen middelen beperkt zou blijven. In één dag verbruikt hij goederen die hij zelf niet zou kunnen produceren.
 
 
-![image](assets/en/096.webp)
+![image](assets/nl/086.webp)
 
 
 In 1958 publiceerde de Amerikaanse schrijver Leonard Read (Foundation for Economic Education) een kort essay in het tijdschrift The Freeman, geschreven op de manier van Bastiat, dat erg beroemd werd: "I, Pencil". Deze tekst is een metafoor voor wat een vrije markt is. Het begint als volgt:
@@ -1231,7 +1231,7 @@ In 1958 publiceerde de Amerikaanse schrijver Leonard Read (Foundation for Econom
 
 > Ik ben een potlood, een gewoon houten potlood dat alle jongens en meisjes en volwassenen die kunnen lezen en schrijven kennen. Het is een van de eenvoudigste voorwerpen in de menselijke beschaving. En toch weet niemand op deze aarde hoe hij mij moet maken.
 
-![image](assets/en/097.webp)
+![image](assets/nl/087.webp)
 
 Het herneemt Bastiat's idee van een onzichtbare samenwerking tussen miljoenen individuen die elkaar niet kennen, wat leidt tot de constructie van zoiets alledaags als een potlood. Niemand weet hoe je in je eentje een potlood maakt. Toch nemen miljoenen mensen onbewust deel aan de creatie van dit eenvoudige potlood, waarbij ze hun kennis en vaardigheden uitwisselen en coördineren binnen een prijssysteem zonder dat een hogere autoriteit hun gedrag dicteert. Dit verhaal laat zien dat vrije individuen die hun legitieme belangen nastreven meer doen voor de samenleving dan welke geplande en gecentraliseerde economische strategie dan ook.
 
@@ -1243,13 +1243,13 @@ De Nobelprijs voor Economie van 1976, Milton Friedman, kwam ook terug op dit pot
 In een aflevering van zijn televisieserie Free to Choose analyseert hij de verschillende onderdelen van iets alledaags en eenvoudigs als een potlood en benadrukt hij het wonder van spontane orde, gegenereerd door duizenden economische interacties over de hele wereld. Mensen die elkaar niet kennen, die niet dezelfde religie of gewoonten hebben, slagen er toch in om samen dit voorwerp te produceren. Hij concludeert dat de vrije markt essentieel is om niet alleen welvaart, maar ook harmonie en vrede te garanderen.
 
 
-![image](assets/en/098.webp)
+![image](assets/nl/088.webp)
 
 
 Friedrich Hayek legde in 1945 in zijn essay "The Use of Knowledge in Society" al uit waarom de markteconomie en de decentralisatie van beslissingen essentieel zijn voor welvaart. Volgens Hayek zou geen enkele centrale planner of bureaucraat ooit voldoende kennis kunnen hebben om alle economische acties succesvol te sturen. Alleen het prijssysteem in een vrije markt stelt miljoenen onafhankelijke actoren in staat om zelf te beslissen hoe middelen efficiënt kunnen worden toegewezen.
 
 
-![image](assets/en/099.webp)
+![image](assets/nl/089.webp)
 
 
 Economische planning, die beweert het beter te doen dan de markt, leidt niet alleen tot een slechte toewijzing van middelen, maar ook tot de hegemonie van de ene klasse over de andere. Daarom is socialisme niet alleen een intellectuele fout, maar ook een fout die uiteindelijk tot immens onrecht leidt.
@@ -1268,7 +1268,7 @@ In een brief aan Alphonse de Lamartine in 1845 schreef Bastiat dat zijn hele fil
 
 > Vrijheid is de beste vorm van sociale organisatie.
 
-![image](assets/en/100.webp)
+![image](assets/nl/090.webp)
 
 Hij voegt er echter een voorwaarde aan toe:
 
@@ -1287,7 +1287,7 @@ Daarom vertegenwoordigt verantwoordelijkheid in zekere zin het positieve aspect 
 Individuele verantwoordelijkheid is zowel een belangrijke vector van creativiteit als een stimulans voor voorzichtigheid en vooruitziendheid.
 
 
-![image](assets/en/101.webp)
+![image](assets/nl/091.webp)
 
 
 Wanneer iemand zijn eigen geld uitgeeft, is hij voorzichtig om niet te veel schulden te maken, om de kwaliteit van producten en de betrouwbaarheid van leveranciers te controleren, met het risico zwaar gestraft te worden. Dat is de kracht van verantwoordelijkheid, samen met vrijheid is het de ware motor van sociale vooruitgang.
@@ -1301,7 +1301,7 @@ Maar waar komt het fenomeen van onverantwoordelijkheid of desponsibilisering van
 Sterker nog, statisme vermindert voortdurend het privé-initiatief en de vrije keuze van mensen. Het doet voor hen wat ze zelf zouden kunnen doen en beter. Het onttrekt individuen dus aan de gevolgen van hun daden. Het vernietigt verantwoordelijkheid.
 
 
-![image](assets/en/102.webp)
+![image](assets/nl/092.webp)
 
 
 Volgens Bastiat hebben de hypertrofie van de wetten en de buitensporige tussenkomst van de staat tot gevolg dat de strijd om de macht, de plundering, de privileges, de monopolies, de oorlogen, kortom alles wat de vooruitgang van de beschaving in de weg staat, wordt aangewakkerd.
@@ -1312,7 +1312,7 @@ Het risico van een te grote voorkeur voor de weg van de wet of bureaucratische c
 Laten we deze kwestie illustreren met een paar belangrijke actuele onderwerpen. Het eerste voorbeeld is de crisis van 2008.
 
 
-![image](assets/en/103.webp)
+![image](assets/nl/093.webp)
 
 _(Alan Greenspan, voorzitter van de FED, de Amerikaanse centrale bank, van 1987 tot 2006)_
 
@@ -1328,7 +1328,7 @@ En het fenomeen zal zich oneindig blijven herhalen zolang banken onder de heersc
 Een ander voorbeeld: openbare diensten
 
 
-![image](assets/en/105.webp)
+![image](assets/nl/094.webp)
 
 
 Elke openbare dienst legt de voorkeuren van een bureaucratische elite op, ten koste van de individuele vrije keuze. Dit leidt volgens Bastiat tot twee gevolgen: De burger "houdt op de vrije controle uit te oefenen over zijn eigen bevredigingen, en omdat hij niet langer de verantwoordelijkheid heeft, houdt hij natuurlijk ook op de intelligentie te bezitten." De reden is eenvoudig: elke geschreven wet is dwingend en voor iedereen gelijk, er wordt geen rekening gehouden met de specifieke situaties, behoeften en voorkeuren van de burgers.
@@ -1337,13 +1337,13 @@ Elke openbare dienst legt de voorkeuren van een bureaucratische elite op, ten ko
 Tot slot is de openbare dienst een oorzaak van immobiliteit. Wanneer particuliere diensten openbaar worden, ontsnappen ze namelijk aan concurrentie. Bijgevolg, zegt Bastiat, ik citeer: "de ambtenaar is verstoken van de stimulans die vooruitgang in de hand werkt."
 
 
-![image](assets/en/106.webp)
+![image](assets/nl/095.webp)
 
 
 Als we kijken naar de openbare dienst van nationaal onderwijs, begrijpen we wat Bastiat bedoelt. Het ontlast de overgrote meerderheid van de ouders van de opvoeding van hun kinderen en reduceert de school tot een dagopvang. Het moedigt leraren niet aan om te innoveren en risico's te nemen omdat ze in een dergelijk systeem slechts uitvoerders zijn van een programma dat zonder hen, door bureaucraten, is ontworpen. Tot slot negeert het de realiteit van de specifieke behoeften van elk individu.
 
 
-![image](assets/en/107.webp)
+![image](assets/nl/096.webp)
 
 We zullen in een andere cursus zien dat volgens Bastiat de enige legitieme openbare diensten van een staat drievoudig zijn: het leger, de politie en de rechterlijke macht. Maar om af te sluiten over verantwoordelijkheid: het probleem met staatsinterventie is dat degenen die beslissingen nemen niet degenen zijn die de gevolgen ervan ondervinden.
 
@@ -1373,7 +1373,7 @@ Het kwaad is niet alleen een definitieve realiteit maar het speelt ook een rol i
 Om deze vragen te beantwoorden zal Bastiat het menselijk handelen analyseren. Dit kan inderdaad leiden tot zowel goed als kwaad.
 
 
-![image](assets/en/108.webp)
+![image](assets/nl/097.webp)
 
 
 Het kwaad komt in de eerste plaats voort uit onze onvolmaaktheid. Vrij kiezen is het risico lopen een slechte keuze te maken, zegt Bastiat. We kunnen inderdaad op vele manieren misleid worden, zelfs over onze eigen behoeften en belangen. De mens is feilbaar, hij is geneigd om het spel van economische wetten verkeerd te begrijpen of om ze van hun doel af te leiden.
@@ -1389,7 +1389,7 @@ Als het kwaad voortkomt uit menselijke zwakheid en niet uit de vrijheid zelf, no
 Door deze natuurlijke sanctie leert de mens, ontdekt hij, corrigeert hij zichzelf, boekt hij vooruitgang en verbetert hij. Met andere woorden, verantwoordelijkheid is een principe van perfectie en vooruitgang, zoals we in de vorige cursus hebben gezien.
 
 
-![image](assets/en/109.webp)
+![image](assets/nl/098.webp)
 
 
 Als een mens de gevolgen, goed of slecht, van zijn beslissingen draagt, zal hij geneigd zijn zich te verbeteren door van de ervaring te leren. Daarom moet de individuele verantwoordelijkheid, die volgens Bastiat de grote opvoeder van de volkeren is, het basisprincipe van alle regulering van gedragingen en samenlevingen, de ruimte krijgen om te handelen.
@@ -1401,7 +1401,7 @@ Het kwaad veroorzaakt lijden en lijden doet ons de fout of vergissing begrijpen,
 Omdat de mens het risico loopt om fouten te maken of verkeerd te handelen en de gevolgen daarvan te dragen, wordt hij aangemoedigd om verantwoordelijk te zijn. Hij zal er dan naar streven te anticiperen op de gevaren die hem kunnen treffen om zichzelf te beschermen.
 
 
-![image](assets/en/110.webp)
+![image](assets/nl/099.webp)
 
 
 ---
@@ -1416,13 +1416,13 @@ Het is dus duidelijk dat Bastiat verre van blind is. Hij ontkent het bestaan van
 Hij beweert eenvoudigweg dat als de bron van het kwaad in de afwezigheid van vrijheid ligt, de remedie in de vrijheid zelf ligt, en meer specifiek in de volledige en complete uitoefening van persoonlijke verantwoordelijkheid.
 
 
-![image](assets/en/111.webp)
+![image](assets/nl/100.webp)
 
 
 Maar als het misbruik van vrijheid de oorzaak is van onze ellende, dan is het juiste gebruik ervan de remedie, dat wil zeggen, de volledige uitoefening van persoonlijke verantwoordelijkheid, gebaseerd op het eigendomsrecht. Sociale regulering vindt dus plaats door middel van verantwoordelijkheid en niet door tussenkomst van de staat op alle gebieden, wat een van de grote bronnen van verspilling en dus van kwaad is.
 
 
-![image](assets/en/112.webp)
+![image](assets/nl/101.webp)
 
 In tegenstelling tot Rousseau, die het kwaad probeert uit te roeien door middel van collectieve instellingen, verdedigt Frédéric Bastiat de mogelijkheid van kwaad en fouten, zonder welke er geen vrijheid of individuele verantwoordelijkheid is. Want alleen hierdoor is het mogelijk om, via een proces van ontdekking, vooruitgang te boeken en het sociale kwaad te verminderen.
 
@@ -1447,7 +1447,7 @@ Frédéric Bastiat hekelt in zijn beroemde pamflet "De Wet" de perversie van het
 Want moraliteit wordt gedefinieerd als vrijwillig gedrag. Wanneer een individu gedwongen wordt iets te geven wat hij niet wil geven, is hij altijd het slachtoffer van diefstal.
 
 
-![image](assets/en/115.webp)
+![image](assets/nl/102.webp)
 
 
 Wanneer een donatie bij wet verplicht wordt gesteld, is het niet langer een morele houding. De morele houding van geven wordt vervangen door het claimen van "rechten", wat claims zijn op de arbeid van anderen. Valse solidariteit is de oproep om te leven ten koste van anderen.
@@ -1464,7 +1464,7 @@ En nog een keer:
 > Regeringen voeren alleen handelingen uit die door de macht worden gesanctioneerd. Het is toegestaan om iemand te dwingen rechtvaardig te zijn, maar niet om hem te dwingen liefdadig te zijn. De wet, die met geweld probeert te doen wat de moraal bereikt door overreding, stijgt niet op tot het domein van liefdadigheid, maar valt in het domein van plundering.
 > Toch heeft deze perversie van het recht een naam, het is socialisme, dat wil zeggen, de ideologie van gedwongen herverdeling van rijkdom door de staat. Socialisme wordt volgens Bastiat gekenmerkt door de ideologie van legale plundering. Maar de sluwheid van deze ideologie is dat ze haar geweld maskeert onder een verkeerd taalgebruik: de oproep tot solidariteit of broederschap.
 
-![image](assets/en/116.webp)
+![image](assets/nl/103.webp)
 
 
 ---
@@ -1478,13 +1478,13 @@ En nog een keer:
 Volgens Bastiat is er echter een alternatief voor de verplichte solidariteit van de staat: "mutual aid society", de wederzijdse en spontane hulp van mensen onder elkaar dankzij onderlinge hulporganisaties. Maar hij voorzag ook dat de staat zich uiteindelijk meester zou maken van deze onderlinge maatschappijen om er een uniek en gecentraliseerd orgaan van te maken, dat uitgaven en verspilling zou aanmoedigen.
 
 
-![image](assets/en/117.webp)
+![image](assets/nl/104.webp)
 
 
 In een pamflet genaamd "Rechtvaardigheid en Broederschap", onderzoekt Bastiat ook het idee van een vereenvoudigd en eerlijk belastingsysteem voor de financiering van collectieve behoeften (politie, justitie, leger): inkomens en winsten zouden onderworpen worden aan één enkel en proportioneel belastingtarief. Dit is wat vandaag bekend staat als de "vlaktaks".
 
 
-![image](assets/en/118.webp)
+![image](assets/nl/105.webp)
 
 
 ---
@@ -1550,7 +1550,7 @@ In deze zin is het recht op eigendom een van de rechten die niet voortvloeien ui
 Haar missie is het verdedigen van de persoon en zijn eigendom.
 
 
-![image](assets/en/120.webp)
+![image](assets/nl/106.webp)
 
 _(François Quesnay, leider van de Fysiocraten)_
 
@@ -1563,13 +1563,13 @@ Het recht "is niet geschapen". Het is niet uitgevonden vanuit een ideaalbeeld va
 Individuen hebben natuurlijke rechten die al voor de wet bestaan: Eigendom, Vrijheid, Persoonlijkheid. De rol van de wet zou moeten zijn om deze natuurlijke rechten van het individu te behouden. Daarom moet de staat beperkt zijn. Tegenwoordig zouden we zeggen dat Bastiat een voorstander is van de minimale staat.
 
 
-![image](assets/en/121.webp)
+![image](assets/nl/107.webp)
 
 
 In het systeem van Rousseau, dat we in een eerdere cursus hebben besproken, is het de taak van de wetgever om eigendom te organiseren, te wijzigen of zelfs af te schaffen als dat nodig wordt geacht. Voor Rousseau is eigendom niet natuurlijk maar conventioneel, net als de maatschappij zelf. Dit idee komt voort uit het Romeinse recht, waarmee Rousseau zeer vertrouwd was.
 
 
-![image](assets/en/122.webp)
+![image](assets/nl/108.webp)
 
 
 Robespierre poneert op zijn beurt het principe dat "Eigendom het recht is van elke burger om te genieten van en te beschikken over het deel van de goederen dat hem door de wet is gegarandeerd"
@@ -1592,13 +1592,9 @@ Dit idee dat het recht op eigendom een creatie van de wet is, leidt er volgens B
 In het systeem van natuurlijke vrijheid bestaat er een natuurwet, onafhankelijk van de grillen van wetgevers. Deze geldt voor alle mensen en dateert van voor de tijd van elke samenleving. En het is de plicht van de overheid om de natuurlijke rechten van elk individu te waarborgen. Een rechtvaardige samenleving is er een waarin eigendomsrechten volledig worden gerespecteerd, dat wil zeggen beschermd tegen elke inmenging van anderen.
 
 
-![image](assets/en/120.webp)
+![image](assets/nl/109.webp)
 
 Hier sluit Bastiat aan bij de nalatenschap van de Fysiocraten, en verder bij de traditie van de rechtsfilosofie van Cicero en Aristoteles. De wet schept geen rechten. Haar missie is ze te verdedigen en dus eigendom te verdedigen, zowel het eigendom van zichzelf, de integriteit van de persoon, als het eigendom van de vruchten van iemands arbeid.
-
-
-
-_(Cicero)_
 
 
 ## Wettelijke plundering: Een verdraaiing van de wet
@@ -1612,7 +1608,7 @@ _(Cicero)_
 Het belangrijkste idee van Bastiat in "De Wet", zijn beroemde pamflet uit 1850, is om aan te tonen waarom en hoe de wet plunderend is geworden, dat wil zeggen een bron van privileges, situationele huren en fiscale willekeur.
 
 
-![image](assets/en/125.webp)
+![image](assets/nl/110.webp)
 
 
 Wat is de ware aard van de wet?
@@ -1627,7 +1623,7 @@ Het institutionele systeem van natuurlijke vrijheid is het systeem waarin de maa
 > Het is niet omdat er wetten zijn dat er eigenschappen zijn, maar omdat er eigenschappen zijn dat er wetten zijn.
 > Eigendom en recht
 
-![image](assets/en/126.webp)
+![image](assets/nl/111.webp)
 
 
 Ieder mens mag zijn leven verdedigen en zijn vermogens gebruiken. En de wet is de collectieve organisatie van deze legitieme verdediging. De wet verdedigt rechtvaardigheid. Geen positieve rechtvaardigheid die broederschap en solidariteit zou organiseren, maar een negatieve rechtvaardigheid die zichzelf beperkt tot het voorkomen dat de rechten van de een die van de ander inpikken.
@@ -1639,15 +1635,13 @@ Als de wet echter niet langer negatief is maar positief, neemt het gevoel van on
 Valse filantropie, zegt Bastiat, is een van de belangrijkste oorzaken van de perversie van de wet. Sommige mensen beschouwen zichzelf als verheven boven de rest van de mensheid en in staat om betere keuzes te maken dan anderen.
 
 
-![image](assets/en/127.webp)
+![image](assets/nl/112.webp)
 
 Zij weten beter wat goed is voor anderen en zullen hun opvatting van het goede aan iedereen opleggen; dit zijn de filantropen. Zij hebben valse rechten gecreëerd die tegenwoordig sociale rechten worden genoemd. Sociale rechten zijn niets anders dan rechten op de arbeid van anderen, rechten om over iemands eigendom te beschikken, de vrucht van iemands arbeid: het recht op huisvesting, het recht op gezondheid, op onderwijs, op werk, op een minimumloon, enz.
 
 
 Wat is plunderen? Het is precies het tegenovergestelde van eigendom, vertelt Bastiat ons. Plunderen komt van het Latijnse _spoliare_, wat strippen betekent. We hebben gezien dat de mens alleen kan leven door zich dingen toe te eigenen, door zijn vermogens op dingen toe te passen, dat wil zeggen door te werken. Helaas kan hij zich ook het product van de vermogens van zijn medemens toe-eigenen, dat wil zeggen, hem plunderen.
 
-
-![image](assets/en/128.webp)
 
 
 De hele missie van de wet is het voorkomen van deze buitenwettelijke plundering, dat wil zeggen het verdedigen van eigendom en vrijheid, twee onafscheidelijke dingen.
@@ -1656,13 +1650,13 @@ De hele missie van de wet is het voorkomen van deze buitenwettelijke plundering,
 Zodra in principe wordt toegegeven dat de wet kan worden afgeleid van zijn ware missie, dat het eigendommen kan schenden in plaats van ze te garanderen, volgt er noodzakelijkerwijs een klassenstrijd, ofwel om zich te verdedigen tegen plundering of om het ook in iemands voordeel te organiseren.
 
 
-![image](assets/en/129.webp)
+![image](assets/nl/113.webp)
 
 
 In plaats van natuurlijke rechten te verdedigen, verandert de wet in bescherming van bedrijfs- en categoriale belangen. Plundering wordt georganiseerd door de wet, ten voordele van de klassen die de wet maken en hun vrienden of klanten. Bastiat anticipeert hiermee op de public choice school in de 20e eeuw voor wie de wet het resultaat is van een "politieke markt" waarin groepen individuen proberen hun belangen te bevredigen ten koste van anderen.
 
 
-![image](assets/en/130.webp)
+![image](assets/nl/114.webp)
 
 
 Voor hem moet het doel van de wet eenvoudigweg zijn om "een einde te maken aan alle plunderingen" Als de staat niet ingrijpt in het privéleven, zijn individuen in feite eigenaars en verantwoordelijk voor hun leven. Ze maken hun eigen geluk. Zij dragen de goede of slechte gevolgen van hun daden.
@@ -1676,7 +1670,7 @@ Ze zijn er zeker van dat hun natuurlijke rechten gegarandeerd en onaantastbaar z
 Bastiat schreef de bovenstaande zin in De Wet, enige tijd voordat hij stierf.
 
 
-![image](assets/en/131.webp)
+![image](assets/nl/115.webp)
 
 
 Een eeuw na de dood van Frédéric Bastiat is juridische plundering duidelijk zichtbaar in de Universele Verklaring van de Rechten van de Mens van 1948, met name in de artikelen 22 ("iedereen heeft recht op sociale zekerheid"), 23 ("iedereen heeft recht op arbeid"), 24 ("iedereen heeft recht op rust en vrije tijd"), 25 ("iedereen heeft recht op een levensstandaard die hoog genoeg is voor zijn gezondheid en welzijn"), 26 ("iedereen heeft recht op onderwijs").
@@ -1696,26 +1690,26 @@ In 1848 was Bastiat afgevaardigde. Hij werd benoemd tot vicevoorzitter van de co
 Bastiat begint met het omdraaien van een algemeen geaccepteerde vergelijking: het is de staat die de natie in stand houdt. De staat kan de burgers echter niet in stand houden omdat hij geen rijkdom produceert; hij verplaatst deze alleen maar, herverdeelt ze. Integendeel, het zijn de burgers die de staat in stand houden door rijkdom te creëren.
 
 
-![image](assets/en/132.webp)
+![image](assets/nl/116.webp)
 
 
 Bovendien bestaat de staat op zichzelf niet; er zijn alleen mensen die de staat vormen, die regeren, besturen, die direct of indirect van de staat leven. Daarom zijn de mensen die de staat besturen net als anderen; ze proberen hun persoonlijke belangen te bevredigen.
 
 
-![image](assets/en/133.webp)
+![image](assets/nl/117.webp)
 
 
 En omdat het optreden van de staat puur herverdelend is, is het onderhevig aan de druk van speciale belangengroepen. Bepaalde belangengroepen hebben namelijk begrepen dat het gemakkelijker was om geld te verdienen door politiek engagement dan door productief gedrag. Ze proberen het geld van anderen te stelen onder het mom van de staat en ondermijnen de productiecapaciteit van de markt door de vermenigvuldiging van wetten, belastingen en bureaucratische beperkingen.
 
 
-![image](assets/en/134.webp)
+![image](assets/nl/118.webp)
 
 
 Met andere woorden, de staat streeft alleen cliëntelistische doelen na en het begrip algemeen belang is betekenisloos. Elke winst die door sommigen wordt behaald gaat ten koste van anderen: het is geen nulsomspel maar een negatief nulsomspel.
 
 Bastiat loopt dus een eeuw vooruit op de analyses van de werking van de politieke markt die aan het eind van de jaren 1950 zouden ontstaan met de zogenaamde Public Choice-school van James Buchanan, Nobelprijswinnaar economie, en zijn collega Gordon Tullock.
 
-![image](assets/en/135.webp)
+![image](assets/nl/119.webp)
 
 
 
@@ -1728,13 +1722,13 @@ Om te weten of de staat rechtmatig een recht heeft, moet men zich dus afvragen o
 Daarom mag de staat in geen geval inbreuk maken op de natuurlijke rechten; hij moet ze juist garanderen.
 
 
-![image](assets/en/137.webp)
+![image](assets/nl/120.webp)
 
 
 Het garandeert veiligheid, zowel intern als extern, en rechtvaardigheid. Het kan sterk en effectief zijn in zijn domein. Maar de wet kan niet buiten deze zeer strikte rol treden omdat het dan een instrument wordt om van sommigen te plunderen ten voordele van anderen. Wanneer de wet wordt geperverteerd, werkt hij als een instrument van onrechtvaardigheid. De perversie van de wet leidt altijd tot plundering, zoals we in de vorige cursus hebben gezien. Het is onmiddellijk, automatisch, onvermijdelijk en zeker. De wet uit zijn domein halen kan alleen maar inbreuk maken op de natuurlijke rechten. De burgermaatschappij wordt dan ontdaan van haar macht (natuurlijke instellingen, contracten, uitwisselingen, verenigingen) ten gunste van staatsbeheer, dat wil zeggen technocratisch en bureaucratisch.
 
 
-![image](assets/en/107.webp)
+![image](assets/nl/121.webp)
 
 
 Als gevolg hiervan zijn de enige legitieme openbare diensten van een staat volgens Bastiat drie in getal: het leger, de politie en de rechterlijke macht. Met andere woorden, de staat moet zorgen voor de interne en externe bescherming van individuen, hun vrijheid en hun eigendom. Het is daarom normaal dat iedereen bijdraagt aan deze bescherming. Maar buiten deze legitieme functies is elke andere bijdrage aan een andere dienst die door de staat wordt geleverd, onderworpen aan onderzoek. Buiten deze cirkel, schrijft Bastiat:
@@ -1774,11 +1768,11 @@ Met de 20e eeuw verdween de kennis en populariteit van Bastiat. Hij werd niet me
 Mises vestigde zich in 1943 in New York en organiseerde seminars die opmerkelijke geesten aantrokken: George Stigler, Milton Friedman, beiden toekomstige Nobelprijswinnaars, en Murray Rothbard, toen student aan Columbia. Het was tijdens deze seminars dat hij voor het eerst over Bastiat sprak als een van de belangrijkste referenties van het klassieke liberalisme. Hij presenteerde zijn toehoorders Bastiat's pamfletten The Law en The State, nog niet vertaald in het Engels. In 1953 zou één van de deelnemers aan het seminar, Leonard Read, "The Law" van Bastiat in het Engels laten vertalen en de taak op zich nemen om het boek door het hele land te verspreiden via zijn stichting: de Foundation for Economic Education.
 
 
-![image](assets/en/139.webp)
+![image](assets/nl/122.webp)
 
 Maar degene die ook de stellingen van Frédéric Bastiat zou populariseren was een economische columnist voor de New York Times, Henry Hazlitt, in een klein boekje genaamd: "Economics in One Lesson", gepubliceerd in 1946. Expliciet puttend uit de ideeën van Bastiat, probeert hij aan te tonen dat het probleem met statistische economische oplossingen is dat ze geen rekening houden met hun desastreuze gevolgen op de lange termijn.
 
-![image](assets/en/140.webp)
+![image](assets/nl/123.webp)
 
 
 Hazlitt begint zijn boek met het verhaal van Bastiat over het gebroken raam. Hij vat het verhaal samen in een eenvoudige en eenduidige les:
@@ -1794,7 +1788,7 @@ Bastiat was een van de favoriete economen van Ronald Reagan, lang voordat hij to
 
 De les die Reagan zijn werknemers leerde, in navolging van Bastiat, is dat er geen grotere mythe bestaat dan die van het stimuleren van groei en werkgelegenheid door overheidsuitgaven.
 
-![image](assets/en/141.webp)
+![image](assets/nl/124.webp)
 
 
 Het was met name John Maynard Keynes die suggereerde dat overheidsuitgaven de productie verhoogden dankzij een multiplicator: als de overheid een brug bouwt, kunnen de arbeiders van die brug brood kopen, waarna de bakker schoenen kan kopen, enzovoort. Als de privé-industrie achteruitgaat, kan dit worden verholpen door grote werken. Als er werkloosheid is, kan de staat overheidsbanen creëren.
@@ -1802,7 +1796,7 @@ Het was met name John Maynard Keynes die suggereerde dat overheidsuitgaven de pr
 
 Maar zoals Bastiat treffend aantoonde, heeft staatsinterventie perverse effecten die niet worden gezien. Alleen een goede econoom kan ze voorzien. Laten we een voorbeeld nemen: Het is een illusie om te geloven dat de overheid "banen kan creëren", want voor elke gecreëerde overheidsbaan, vernietigt ze een baan op de markt. Sterker nog, overheidsbanen worden betaald door belastingen. Overheidsbanen worden niet gecreëerd; ze worden waargenomen. Elke cent die de staat uitgeeft moet noodzakelijkerwijs verkregen worden door een cent belasting of schuld.
 
-![image](assets/en/142.webp)
+![image](assets/nl/125.webp)
 
 
 Als we de zaken vanuit deze hoek bekijken, legde Reagan uit aan GE-werknemers, komen de zogenaamde wonderen van de staatsuitgaven in een heel ander daglicht te staan. Want belastingen ontmoedigen productie en de welvaart die wordt gecreëerd door overheidsuitgaven kan niet volledig de welvaart compenseren die werd voorkomen door de belastingen die werden geheven om deze uitgaven te betalen.

@@ -6,4 +6,4 @@ wrong_answers:
   - 8 bits
 explanation: |
   Les 64 premiers bits d’une adresse IPv6 sont généralement réservés au préfixe de sous-réseau.
-reviewed: false
+reviewed: true 

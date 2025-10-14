@@ -17,6 +17,7 @@ The first thing you’ll need is an installation file. The safest and most relia
 Simply visit the link provided below and follow the instructions to download the Windows 11 ISO file:
 
 * [MS Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
+
 ![Image](assets/en/02.webp)
 
 Once you’re on the download page, scroll down to the section for downloading the ISO file.
@@ -46,11 +47,11 @@ The file size is about 5.5 GB, and the generated link will be valid for 24 hours
 ## II. Second : Automation!
 At this stage, we need to make changes to the standard Windows installation. In this stage, using Unattended install, we determine the items that we want to have changes during installation. In fact, in this method, an XML file is used to configure the installation steps and services installed in Windows. In other words, the use of the Unattended.xml file creates an automation process during installation, preventing the need to select multiple options and avoiding the tedious steps usually required during setup. This method is an unusual but standard method that has been introduced by Microsoft. More information is available on Microsoft's official website at the following address:
 
-https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11
+* [Autounattend.xml](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11)
 
 There are various tools available on the internet for generating Unattended files. Some of them are online, while others are offline. One of the online tools for creating this file is the following website:
 
-https://schneegans.de/windows/unattend-generator
+* [Unattend-generator](https://schneegans.de/windows/unattend-generator)
 
 After opening the above address, we are presented with the following page:
 

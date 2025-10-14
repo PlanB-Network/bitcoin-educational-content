@@ -104,7 +104,7 @@ Comme mentionné dans l'introduction, Bitstack propose 3 méthodes pour investir
 - La configuration d'achats récurrents (DCA) ;
 - L'utilisation de l'arrondi automatique sur les dépenses.
 
-### Acheter au comptant
+### Faire un achat ponctuel
 
 Pour effectuer un achat ponctuel de bitcoins au prix du marché, cliquez simplement sur "*Acheter*".
 

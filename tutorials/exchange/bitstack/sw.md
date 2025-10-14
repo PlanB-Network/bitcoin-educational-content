@@ -160,7 +160,7 @@ Kama ilivyotajwa katika utangulizi, Bitstack inatoa njia 3 za kuwekeza katika Bi
 - Matumizi ya kuzungusha kiotomatiki kwa gharama.
 
 
-### Kununua kwa pesa taslimu
+### Fanya ununuzi wa mara moja
 
 
 Ili kufanya ununuzi wa mara moja wa bitcoins kwa bei ya soko, bonyeza tu kwenye "* Nunua *".

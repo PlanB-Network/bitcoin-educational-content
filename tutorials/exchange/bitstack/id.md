@@ -110,7 +110,7 @@ Seperti yang telah disebutkan di bagian pendahuluan, Bitstack menawarkan 3 metod
 - Konfigurasi Pembelian Berulang (RPC);
 - Penggunaan pembulatan otomatis pada pengeluaran.
 
-### Membeli dengan uang tunai
+### Melakukan pembelian satu kali
 
 Untuk melakukan pembelian satu kali pada harga pasar, cukup klik "*Beli*".
 

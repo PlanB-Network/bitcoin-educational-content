@@ -160,7 +160,7 @@ Jak wspomniano we wstępie, Bitstack oferuje 3 metody inwestowania w Bitcoin:
 - Korzystanie z automatycznego zaokrąglania wydatków.
 
 
-### Kupowanie za gotówkę
+### Dokonać jednorazowego zakupu
 
 
 Aby dokonać jednorazowego zakupu bitcoinów po cenie rynkowej, wystarczy kliknąć "*Kup*".

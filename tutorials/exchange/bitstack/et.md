@@ -110,7 +110,7 @@ Nagu sissejuhatuses mainitud, pakub Bitstack 3 meetodit Bitcoini investeerimisek
 - Korduvate ostude konfigureerimine (RPC) ;
 - Kulude automaatse ümardamise kasutamine.
 
-### Ostmine sularahas
+### Teha ühekordne ost
 
 Bitcoinide ühekordse ostu tegemiseks turuhinnaga, klõpsake lihtsalt nupule "*Ostan*".
 

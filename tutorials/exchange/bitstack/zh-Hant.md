@@ -160,7 +160,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 - 支出使用自動四捨五入。
 
 
-### 以現金購買
+### 進行一次性購買
 
 
 要以市價一次性購買比特幣，只需點擊「*購買*」。

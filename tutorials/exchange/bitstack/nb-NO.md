@@ -110,7 +110,7 @@ Som nevnt i innledningen, tilbyr Bitstack tre metoder for å investere i Bitcoin
 - Konfigurasjon av gjentatte kjøp (RPC) ;
 - Bruk av automatisk avrunding på utgifter.
 
-### Kjøpe med kontanter
+### Gjør et engangskjøp
 
 For å foreta et engangskjøp av bitcoins til markedspris, klikker du bare på "*Buy*".
 

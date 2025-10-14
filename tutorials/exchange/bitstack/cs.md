@@ -110,7 +110,7 @@ Jak bylo zmíněno v úvodu, Bitstack nabízí tři způsoby investování do Bi
 - Konfigurace opakovaného nákupu (RPC) ;
 - Používání automatického zaokrouhlování výdajů.
 
-### Nákup za hotovost
+### Provést jednorázový nákup
 
 Chcete-li provést jednorázový nákup bitcoinů za tržní cenu, jednoduše klikněte na "*Koupit*".
 

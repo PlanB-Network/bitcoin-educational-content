@@ -110,7 +110,7 @@ As mentioned in the introduction, Bitstack offers 3 methods for investing in Bit
 - Recurring Purchase Configuration (RPC) ;
 - The use of automatic rounding on expenses.
 
-### Buying with cash
+### Make a one-time purchase
 
 To make a one-off purchase of bitcoins at the market price, simply click on "*Buy*".
 

@@ -110,7 +110,7 @@ Como se mencionó en la introducción, Bitstack ofrece 3 métodos para invertir 
 - Configuración de compras periódicas (RPC) ;
 - El uso del redondeo automático en los gastos.
 
-### Comprar en efectivo
+### Realizar una compra puntual
 
 Para realizar una compra única de bitcoins a precio de mercado, basta con hacer clic en "*Comprar*".
 

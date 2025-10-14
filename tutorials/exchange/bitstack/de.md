@@ -110,7 +110,7 @@ Wie in der Einleitung erwähnt, bietet Bitstack 3 Methoden für die Investition 
 - Konfiguration wiederkehrender Käufe (RPC) ;
 - Die Verwendung der automatischen Rundung von Ausgaben.
 
-### Einkaufen mit Bargeld
+### Einen einmaligen Kauf tätigen
 
 Um einen einmaligen Kauf von Bitcoins zum Marktpreis zu tätigen, klicken Sie einfach auf "*Kaufen*".
 

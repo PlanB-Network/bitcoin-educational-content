@@ -110,7 +110,7 @@ Come accennato nell'introduzione, Bitstack offre 3 metodi per investire in Bitco
 - Configurazione acquisti ricorrenti (RPC) ;
 - L'uso dell'arrotondamento automatico delle spese.
 
-### Acquisto in contanti
+### Effettuare un acquisto occasionale
 
 Per effettuare un acquisto una tantum di bitcoin al prezzo di mercato, è sufficiente cliccare su "*Acquista*".
 

@@ -160,7 +160,7 @@ Zoals vermeld in de inleiding, biedt Bitstack 3 methodes om te investeren in Bit
 - Het gebruik van automatische afronding op uitgaven.
 
 
-### Kopen met contant geld
+### Een eenmalige aankoop doen
 
 
 Om een eenmalige aankoop van bitcoins tegen de marktprijs te doen, klik je gewoon op "*Koop*".

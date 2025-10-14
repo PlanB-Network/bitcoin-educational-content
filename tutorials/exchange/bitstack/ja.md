@@ -110,7 +110,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 - 定期購入設定（RPC） ；
 - 経費の自動四捨五入の使用。
 
-### 現金での購入
+### 一回限りの購入を行う
 
 ビットコインを市場価格で一括購入するには、「*購入*」をクリックするだけです。
 

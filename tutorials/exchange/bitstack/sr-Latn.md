@@ -160,7 +160,7 @@ Kao što je pomenuto u uvodu, Bitstack nudi 3 metode za investiranje u Bitcoin:
 - Korišćenje automatskog zaokruživanja na troškovima.
 
 
-### Kupovina gotovinom
+### Napraviti jednokratnu kupovinu
 
 
 Da biste izvršili jednokratnu kupovinu bitkoina po tržišnoj ceni, jednostavno kliknite na "*Buy*".

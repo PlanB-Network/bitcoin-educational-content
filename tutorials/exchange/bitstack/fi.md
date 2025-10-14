@@ -110,7 +110,7 @@ Kuten johdannossa mainittiin, Bitstack tarjoaa 3 tapaa sijoittaa Bitcoiniin:
 - Toistuvien ostojen konfigurointi (RPC) ;
 - Menojen automaattinen pyöristäminen.
 
-### Ostaminen käteisellä
+### Tee kertaluonteinen ostos
 
 Jos haluat ostaa bitcoineja kertaluonteisesti markkinahintaan, klikkaa "*Osta*".
 

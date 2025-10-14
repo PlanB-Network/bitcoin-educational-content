@@ -110,7 +110,7 @@ Như đã đề cập trong phần giới thiệu, Bitstack cung cấp 3 phươn
 - Cấu hình mua hàng định kỳ (RPC);
 - Sử dụng tính năng làm tròn tự động cho chi phí.
 
-### Mua bằng tiền mặt
+### Thực hiện mua một lần
 
 Để mua bitcoin một lần theo giá thị trường, chỉ cần nhấp vào "*Mua*".
 

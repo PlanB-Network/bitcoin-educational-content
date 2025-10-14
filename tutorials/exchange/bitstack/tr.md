@@ -160,7 +160,7 @@ Giriş bölümünde de belirtildiği gibi, Bitstack Bitcoin'ya yatırım yapmak 
 - Harcamalarda otomatik yuvarlama kullanımı.
 
 
-### Nakit ile satın alma
+### Tek seferlik satın alma yapmak
 
 
 Piyasa fiyatından tek seferlik bitcoin satın almak için "*Satın Al*" seçeneğine tıklamanız yeterlidir.

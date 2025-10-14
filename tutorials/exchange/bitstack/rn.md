@@ -160,7 +160,7 @@ Nk’uko vyavuzwe mu ntangamarara, Bitstack itanga uburyo 3 bwo gushiramwo amahe
 - Ikoreshwa ry’uguzunguruka kwihuta ku mahera akoreshwa.
 
 
-### Gugura n'amahera
+### Gukora igura rimwe gusa
 
 
 Kugira ngo ugure rimwe gusa ama bitcoins kugiciro c'isoko, kanda gusa kuri "*Gura*".

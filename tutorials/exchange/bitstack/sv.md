@@ -160,7 +160,7 @@ Som nämnts i inledningen erbjuder Bitstack 3 metoder för att investera i Bitco
 - Användning av automatisk avrundning på kostnader.
 
 
-### Köpa med kontanter
+### Göra ett engångsköp
 
 
 För att göra ett engångsköp av bitcoins till marknadspris, klicka bara på "*Buy*".

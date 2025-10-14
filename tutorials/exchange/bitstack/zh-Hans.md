@@ -110,7 +110,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 - 循环采购配置 (RPC) ；
 - 费用自动四舍五入。
 
-### 用现金购买
+### 进行一次性购买
 
 要按市价一次性购买比特币，只需点击 "*购买*"。
 

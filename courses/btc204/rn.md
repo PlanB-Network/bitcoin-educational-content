@@ -38,6 +38,8 @@ Twifatanye natwe kugira ngo uhindure uko ukoresha Bitcoin maze ube umukoresha af
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 Murakaze mu nyigisho ya BTC204!
 
@@ -127,6 +129,8 @@ Ni mwiteguye gutohoza ivy’ubuzima bwite kuri Bitcoin? Reka tugende!
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin ni amafaranga mbere na mbere, ariko mu vy’ukuri woba uzi ingene BTC ziserukirwa kuri protocole?
@@ -197,6 +201,8 @@ Igitigiri cose c'ama Wallet yawe coba `17 BTC`.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Ica kabiri, nk’uko vyavuzwe mu bice vyabanje, ibiceri vya Bitcoin mu vy’ukur
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### Amahera: ukuri, ubunyankamugayo n'ugukoresha kabiri
@@ -429,6 +437,8 @@ Ariko kubera ko amafaranga y’ubudandaji ya Bitcoin amenyeshwa abantu bose, bir
 
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
+
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
 
 
 
@@ -549,6 +559,8 @@ Tuzobona ivyo ari vyo mu bice bikurikira, ariko birasanzwe bishimishije kumenya 
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -741,6 +753,8 @@ Kubera izo nzira z’ugucuruza, turashobora gusobanura amakuru amwamwe yerekeye 
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 Heuristic internal ni ikintu kidasanzwe tubona mu gikorwa ubwaco, tutakeneye gusuzuma ibidukikije vyaco, kandi kidushoboza gukuraho. Mu buryo butandukanye n’ibigereranyo, vyibanda ku mibumbe rusangi y’ugucuruza ku rugero rwo hejuru, ubuhinga bwo kumenya imbere mu mutima bushingiye ku makuru ashobora gukurwamwo. Ivyo birimwo:
@@ -900,6 +914,8 @@ Inkomoko: [Mempool.ikibanza](b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1489,6 +1505,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Tumaze kwiga ubuhinga bushobora gusenyura ibanga ryawe kuri Bitcoin, muri iki gice ca gatatu ubu turaza kuraba uburyo bwiza bwo gukurikiza kugira ngo wikingire. Intumbero y’iki gice si ugutohoza uburyo bwo gutuma ibanga rigenda neza, ikintu kizokwihwezwa mu nyuma, ahubwo ni ugutahura ingene umuntu yokorana neza na Bitcoin kugira ngo agumane ibanga itanga mu buryo busanzwe, ata gukoresha ubuhinga bwo kwongerako.
@@ -1663,6 +1681,8 @@ Niba ukeneye ikimenyetso kidahinduka kugira ngo ubone amahera, nk’intererano, 
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 Nk’uko twabibonye mu gice kivuga ku gusesangura imirongo, hariho ubuhinga bwinshi bwo gutahura ibintu n’imirongo bishobora gukoreshwa mu gukuraho amakuru yerekeye igikorwa. Nk’uwukoresha, birahambaye ko umenya ubu buhinga kugira ngo ushobore kubukingira neza.
@@ -1820,6 +1840,8 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
+
 
 
 KYC bisobanura "Menya umukiriya wawe". Ni uburyo bwo gutegeka bushirwa mu ngiro n’amashirahamwe amwe amwe akora mu rwego rwa Bitcoin. Intumbero y’iyi nzira ni ugusuzuma no kwandika akaranga k’abaguzi babo, n’intumbero yavuzwe yo kurwanya ugukoresha nabi amahera no gufasha iterabwoba.
@@ -1970,6 +1992,8 @@ Mu gusozera, iyo bitcoins zihinduwe n’ibindi bintu, haba ugugura mu mafaranga 
 
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
+
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
 
 
 
@@ -2148,6 +2172,8 @@ Ubundi buryo ni ugukora muri Exchange ku bitcoins. Ubwo buryo bwo kuronka umuntu
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
+
 
 
 Kimwe mu bintu bigoye cane mu gutwara igikoresho co kwibungabunga Wallet ni ugukomeza. Woba ukwiye gukomeza? Iciyumviro ni ikihe? Ni ubunini ubuhe bwa UTXO bukwiye kwubahirizwa? Ni ibihe bintu bishobora gusenyuka mu bijanye n’ibanga? Ivyo ni vyo tuzorabira muri iki gice.
@@ -2269,6 +2295,8 @@ Uko biri kwose, ntimwibagire ko ugushira hamwe kwose ata kabuza gutuma umuntu at
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Reka turabe ubundi buryo bwiza bwo gutuma ubuzima bwite bwawe bugenda neza kuri Bitcoin.
@@ -2350,6 +2378,8 @@ Uretse ivyo bikorwa vyiza vyose vyo gukurikiza ku musi ku musi, hari mbere n’u
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2500,6 +2530,8 @@ Abakoresha muri iki gihe rero barakunda CoinJoin, kuko ibafasha kuguma bafise ub
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2676,6 +2708,8 @@ Ubu, Whirlpool ni yo yonyene ikoresha CoinJoin ikoresha cane umurongo wa Zerolin
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 
 **Mu mwaka w'2024, turiko turabona amahinduka akomeye mu bikoresho biriho ku bakoresha bipfuza gukora coinjoins kuri Bitcoin. Ubu turi mu gihe c'ihinduka, kandi isoko rya CoinJoin ririko rihindurwa cane. Iki gice nta gukeka ko kizosubirwamwo uko igihe kigenda kirarenga**
@@ -2795,6 +2829,8 @@ Nk'uko muzoba mwabikoranye ubu, ivyo nkunda ni vy'ukuri Whirlpool model ku coinj
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3126,6 +3162,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
+
 
 
 Tumaze kwiga ingene coinjoins zikora n’ibibazo bijanye no guvanga neza, ubu tugiye kumenya ingene twopima ubushobozi bwazo. Twomenya gute nimba uburyo bwo gukorana n’abandi bwabaye bwiza, kandi ni urugero rungana iki UTXO yaronse mu kutamenyekana? Ivyo nivyo tuzomenya muri iki gice n'ibice vy'amazina canke "anonsets".
@@ -3236,6 +3274,8 @@ Nk’uko twabibonye muri iki kigabane, anonsets zishobora kubarwa gusa iyo harih
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3561,6 +3601,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
+
 
 
 CoinJoin ubu ni uburyo bwiza bwo kwinjiza ukudakeka mu gukurikirana UTXOs mu gusesangura uruhererekane. Nk’uko twabibonye mu bice vyabanje, kugira ngo umuntu aronke uruvange rukora cane, ivyo yinjiza n’ivyo asohora bitegerezwa kuba bimwe uko bishoboka kwose. Ikindi, birahambaye ko UTXOs zishirwa mu mugwi munini uko bishoboka kwose kugira ngo anonsets zibe nyinshi. Rero, kugira ngo coinjoins zibe nziza, zitegerezwa kuba zirimwo umubare munini w’ama UTXO amwe. Ivyo bisabwa vyinshi bisigura ko amasezerano ya CoinJoin afise urutonde rukomeye cane: amafaranga ashirwaho imbere y’igihe, kandi abaje mu nama bose bategerezwa kuyakurikiza kugira ngo uburyo bwo gukora bube bumwe. Ikindi, coinjoins zisaba ko haba uguhuza hagati y’abaje mu nama bose n’umuhuzabikorwa mu gihe c’ubwubatsi bw’ibikorwa.
@@ -3692,6 +3734,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3874,6 +3918,8 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
+
 
 
 Ikoreshwa ry’imiterere y’ubucuruzi ya Bitcoin yongera ubusobanuro ku gusesangura uruhererekane, nka CoinJoin, ni ngirakamaro cane cane ku bijanye no kurinda ubuzima bwite. Ariko nk’uko twabibonye mu kigabane kivuga ku bijanye n’ama payjoins, amafaranga CoinJoin aramenyekana mu buryo busanzwe ku ruzitiro. Ibuka isano twashize hagati y’ugushiramwo amakuru n’ugushiramwo amakuru: iyo dosiye ipfutse, uwundi muntu agira gatatu abonye iyo dosiye ipfutse ntashobora gushika ku birimwo, ariko arashobora kumenya neza ko iyo dosiye yahinduwe kugira ngo ihishe ibirimwo. Ivyo ni ko biri no kuri CoinJoin: iyo umusesanguzi asuzuma igikorwa ca CoinJoin, naho adashobora gushinga amasano ataziguye hagati y’ivyo yinjiza n’ivyo asohoka (n’ibihushanye n’ivyo), arashobora kwemera ko igikorwa abonye ari CoinJoin.
@@ -3982,6 +4028,8 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4168,6 +4216,8 @@ Gushika ubu, ahanini twize uburyo bwo gukingira ibanga ku rugero rw’ibikorwa u
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 Mu gice ca 4, twavuganye akamaro ko gukoresha urupapuro rwa Full node kugira ngo ukinge ibanga ry’amahera ukoresha. Ariko rero, birahambaye gutahura ko node yawe ubwayo ishobora guterwa n’ibitero birondera gukura amakuru yerekeye ibikorwa vyawe. Muri iki gice rero, turaza kuraba ingingo zitandukanye ushobora gufata kugira ngo ukinge ubuzima bwite bwawe, atari ku rugero rw’ibikorwa ubwavyo canke ivy’imigenderanire ya Bitcoin, ariko ku rugero rw’urubuga.
@@ -4282,6 +4332,8 @@ Maze gutohoza uburyo butandukanye bwo gukingira ibanga ku rugero rw’urubuga, m
 
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
+
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
 
 
 
@@ -5459,6 +5511,8 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

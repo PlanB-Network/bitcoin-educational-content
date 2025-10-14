@@ -212,4 +212,4 @@ After this step, clicking Next will create the ISO file. This file can be used i
 
 You can find a tutorial about VirtualBox here:
 
-* [VirtualBox] (https://planb.network/tutorials/computer-security/operating%20system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65)
+* [VirtualBox](https://planb.network/tutorials/computer-security/operating%20system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65)

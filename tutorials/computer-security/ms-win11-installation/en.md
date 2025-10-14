@@ -66,9 +66,9 @@ In the next step, we select the desired location.
 
 At this stage, we can also specify the processor architecture for the computer. In this step, we can:
 
-A: Decide whether to ignore Windows security features, such as TPM and Secure Boot. The Secure Boot feature ensures that if any core Windows files are tampered with during the boot process, the issue is detected and their execution is prevented. This feature also helps protect the system from installing malicious updates on Windows. Enabling the option to bypass these features is sometimes unavoidable on certain computers, especially older models. However, it is generally recommended to keep features like Secure Boot enabled.
+1: Decide whether to ignore Windows security features, such as TPM and Secure Boot. The Secure Boot feature ensures that if any core Windows files are tampered with during the boot process, the issue is detected and their execution is prevented. This feature also helps protect the system from installing malicious updates on Windows. Enabling the option to bypass these features is sometimes unavoidable on certain computers, especially older models. However, it is generally recommended to keep features like Secure Boot enabled.
 
-B: Ignore the requirement for an internet connection to complete the process. This is useful in situations where a wired LAN connection is not available, because in most cases, the wireless card is not yet recognized during Windows installation, and internet access via cable is required. Activating this option resolves issues related to this step.
+2: Ignore the requirement for an internet connection to complete the process. This is useful in situations where a wired LAN connection is not available, because in most cases, the wireless card is not yet recognized during Windows installation, and internet access via cable is required. Activating this option resolves issues related to this step.
 
 In the next step, we can choose a name for the computer.
 
@@ -95,9 +95,11 @@ The next step involves configuring the Windows login account:
 
 At this stage:
 
-A: We can define a name and password for the admin account. It is also possible to create multiple user or admin accounts.
+1: We can define a name and password for the admin account. It is also possible to create multiple user or admin accounts.
 
-B: Here, we specify which account to log into the first time after Windows installation. The different options for this section are shown in the image.
+2: Here, we specify which account to log into the first time after Windows installation. The different options for this section are shown in the image.
+
+3: If you don’t want any accounts to be created, clean all accounts, and select this option. In this case, after Windows installation, you will automatically be logged into the Windows Administrator account.
 
 The next step involves configuring password and host file settings:
 
@@ -113,17 +115,17 @@ The next step involves configuring Windows security settings:
 
 At this stage:
 
-A: Windows Defender can be enabled or disabled. This feature acts like security software in Windows and helps prevent the execution of malicious files, certain network attacks, and more.
+1: Windows Defender can be enabled or disabled. This feature acts like security software in Windows and helps prevent the execution of malicious files, certain network attacks, and more.
 
-B: Automatic Windows updates can be disabled. This is one of the common challenges faced by Windows users!
+2: Automatic Windows updates can be disabled. This is one of the common challenges faced by Windows users!
 
-C: This section allows enabling or disabling UAC (User Account Control). This feature prevents suspicious applications from running with elevated permissions for reading and writing.
+3: This section allows enabling or disabling UAC (User Account Control). This feature prevents suspicious applications from running with elevated permissions for reading and writing.
 
-D: This feature is used by Windows to detect potentially harmful software.
+4: This feature is used by Windows to detect potentially harmful software.
 
-E: Enable or disable support for long paths in Windows applications, such as PowerShell and others.
+5: Enable or disable support for long paths in Windows applications, such as PowerShell and others.
 
-F: Enable or disable Remote Desktop for accessing the system remotely.
+6: Enable or disable Remote Desktop for accessing the system remotely.
 
 Depending on the Windows version being used, some of these features may or may not be supported.
 
@@ -133,9 +135,9 @@ The next step involves configuring the icons:
 
 In this section:
 
-A: Desktop icons are listed, which can be added or removed as needed.
+1: Desktop icons are listed, which can be added or removed as needed.
 
-B: Start menu icons are listed, which can also be added or removed based on requirements.
+2: Start menu icons are listed, which can also be added or removed based on requirements.
 
 C: This section allows configuring whether virtualization-related tools are installed or not. This option is specific to Windows 11 and does not apply to Windows 10.
 

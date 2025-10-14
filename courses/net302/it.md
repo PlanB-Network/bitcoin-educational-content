@@ -138,7 +138,7 @@ Il vantaggio di questa disposizione risiede nella semplicità del cablaggio e ne
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/en/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Questa disposizione gerarchica funziona particolarmente bene per le reti di gran
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/en/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Il principale vantaggio della topologia a bus è il basso costo di installazione
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Questa disposizione facilita la gestione e la manutenzione: se un dispositivo pe
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/en/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Il compromesso è che il numero di connessioni da stabilire aumenta rapidamente 
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/en/005.webp)
 
 
 
@@ -263,7 +263,7 @@ I quattro livelli del modello TCP/IP sono:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/en/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Quando un datagramma supera l'MTU di un segmento di rete che deve attraversare, 
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/en/008.webp)
 
 
 
@@ -431,7 +431,7 @@ La trasmissione segue quindi un processo strutturato:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/en/009.webp)
 
 
 
@@ -442,7 +442,7 @@ All'arrivo, il processo è invertito: la macchina ricevente riceve il frame dal 
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/en/010.webp)
 
 
 
@@ -456,7 +456,7 @@ La trasformazione dei dati in ogni Layer può essere riassunta come segue:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/en/011.webp)
 
 
 
@@ -507,7 +507,7 @@ Il numero di indirizzi disponibili varia notevolmente da una classe all'altra: d
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/en/013.webp)
 
 
 
@@ -585,7 +585,7 @@ Vogliamo 4 sottoreti con un massimo di 60 host ciascuna.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/en/016.webp)
 
 
 
@@ -680,7 +680,7 @@ Il TCP è un protocollo orientato alla connessione, cioè stabilisce una relazio
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/en/018.webp)
 
 
 
@@ -688,7 +688,7 @@ Per migliorare l'affidabilità, il TCP utilizza un timer: una volta inviato un s
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/en/019.webp)
 
 
 
@@ -711,7 +711,7 @@ La sincronizzazione della sequenza Exchange si basa sul famoso meccanismo **"*th
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/en/020.webp)
 
 
 
@@ -734,7 +734,7 @@ In termini pratici, la finestra scorrevole definisce un intervallo di numeri di 
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/en/021.webp)
 
 
 
@@ -751,7 +751,7 @@ Questa gestione precisa, che combina l'instradamento flessibile di IP con il con
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/en/022.webp)
 
 
 
@@ -791,7 +791,7 @@ Due aspetti fondamentali regolano questi scambi:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/en/023.webp)
 
 
 
@@ -800,7 +800,7 @@ Due aspetti fondamentali regolano questi scambi:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/en/024.webp)
 
 
 
@@ -836,7 +836,7 @@ Combinando l'aspetto orizzontale (comunicazione tra applicazioni distribuite) co
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/en/026.webp)
 
 
 
@@ -896,7 +896,7 @@ esempio: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - Esempio visivo di MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/en/032.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - Esempio visivo di un IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Oltre a risolvere il problema della scarsità di IPv4, il NAT rafforza anche la 
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/en/035.webp)
 
 
 
@@ -1331,7 +1331,7 @@ per illustrare il funzionamento pratico di questo sistema, si consideri il segue
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/en/037.webp)
 
 
 
@@ -1500,7 +1500,7 @@ Negli ambienti professionali, l'obiettivo è garantire la continuità del serviz
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/en/039.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Per la configurazione automatica esistono diversi metodi:
 Ecco un esempio di come trasformare un MAC Address in EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/en/045.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Ecco una panoramica dei diversi tipi di intestazioni di estensione definiti da I
 Questa intestazione, se presente, è sempre collocata subito dopo l'intestazione di base. Contiene informazioni che devono essere elaborate da ogni router lungo il percorso del pacchetto, a differenza della maggior parte delle altre intestazioni, che di solito sono gestite solo dal nodo di destinazione. Gli usi tipici includono la segnalazione di parametri globali o la richiesta di specifiche fasi di elaborazione durante il percorso del pacchetto.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/en/047.webp)
 
 
 #### Intestazione di routing
@@ -2117,7 +2117,7 @@ I primi quattro campi di questa intestazione di rooting sono:
 Il campo "Segmenti rimasti" inizia con il numero totale di segmenti rimanenti e viene decrementato di uno a ogni hop.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/en/048.webp)
 
 
 #### Intestazione di frammentazione
@@ -2134,7 +2134,7 @@ L'intestazione di frammentazione contiene i seguenti campi:
 - **Flag M**: indica se seguono altri frammenti.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/en/049.webp)
 
 
 #### Intestazione di autenticazione (AH)
@@ -2146,7 +2146,7 @@ Questa intestazione è progettata per proteggere le comunicazioni verificando si
 In caso di tentativo di modifica fraudolenta, il codice di autenticazione non corrisponderà più e il datagramma potrà essere rifiutato. Questo meccanismo protegge anche dagli attacchi di replay, rilevando le duplicazioni non autorizzate.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/en/050.webp)
 
 
 #### Intestazione delle opzioni di destinazione
@@ -2158,7 +2158,7 @@ Questa intestazione è destinata solo al destinatario finale del datagramma. Pu�
 Inizialmente, il protocollo non prevedeva alcuna opzione di questo tipo. Tuttavia, questa intestazione è stata introdotta durante la progettazione di IPv6, per consentire l'aggiunta di future estensioni senza modificare la struttura complessiva del pacchetto. L'opzione null, ad esempio, viene utilizzata solo per riempire l'intestazione con un multiplo di 8 byte per l'allineamento della memoria.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/en/051.webp)
 
 
 La progettazione dei pacchetti IPv6 si basa su una netta separazione tra un'intestazione di base minima e intestazioni di estensione modulari. Questa architettura garantisce sia prestazioni di elaborazione standard sia la flessibilità necessaria per far evolvere il protocollo e integrare meccanismi di sicurezza, di routing complesso o di qualità del servizio, mantenendo la compatibilità con le infrastrutture future.
@@ -2504,7 +2504,7 @@ Wireshark è disponibile su molti sistemi operativi, compresi Linux e Windows. L
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/en/052.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Questo comando produce un rapporto dettagliato su `enp0s3` Interface, una conven
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/en/053.webp)
 
 
 
@@ -3107,7 +3107,7 @@ In questo caso, verranno interrogati tutti gli host nell'intervallo da `192.168.
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/en/055.webp)
 
 
 

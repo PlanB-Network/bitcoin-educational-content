@@ -43,10 +43,10 @@ Many thanks to our teachers who have been part of this program:
 **Seminaire schedual**
 
 Week 1 of the LN Tuscany event
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Once you've finished this course, if you are interested in the follow-up training, here is the second part of the schedule:
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 This training gives you the opportunity to develop your programming skills on the Lightning Network using Rust and various SDKs. It is designed for developers with a solid programming background who want to dive into Lightning Network-specific development. You’ll learn the basics of Rust, why it’s suitable for Bitcoin development, and then move on to hands-on implementation using specialized SDKs.
@@ -158,3 +158,4 @@ Ready to grow your Lightning Network skills with Rust? Let’s go!
 ## Conclusion
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

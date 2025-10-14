@@ -1,35 +1,34 @@
 ---
 name: Alby Go
-description: Leitfaden für die Alby Go Mobile App
+description: Anleitung für die Alby Go Mobile App
 ---
 
 ![cover-green](assets/cover.webp)
 
 
-## 🚀 Willkommen bei Alby Go - dem benutzerfreundlichsten mobilen Wallet
+## 🚀 Willkommen bei Alby Go - die einfachste zu bedienende mobile Wallet
 
 
-**Alby Go** ist eine quelloffene, einfach zu bedienende mobile App, die als Wallet Interface zu Bitcoin Blitzknoten und Geldbörsen fungiert. Hier erfahren Sie, wie Sie loslegen und das Beste aus Ihrer Erfahrung machen können.
+**Alby Go** ist eine Open-Source-App, die einfach zu bedienen ist und als Wallet-Schnittstelle für Bitcoin-Lightning-Nodes und -Wallets dient. Hier erfährst du, wie du loslegst und das Beste aus deiner Erfahrung machst.
 
 
-**✅ Unterstützte und bekannte kompatible Wallets/Nodes:**
+**✅ Unterstützte und kompatible Wallets/Nodes:**
 
 
-
-- [Alby Hub](https://albyhub.com/) **(empfohlen)**
+- **[Alby Hub](https://albyhub.com/)** *(empfohlen)*
 - **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
 - **Coinos** *(ungetestet)*
 - **Primal** *(ungetestet)*
 - **Minibits** *(ungetestet)*
 
 
-Die meisten NWC-fähigen Dienste sollten funktionieren. Wenn Sie einen neuen Dienst testen, teilen Sie der Gemeinschaft Ihre Ergebnisse mit!
+Die meisten NWC-fähigen Dienste sollten funktionieren. Wenn du einen neuen Dienst testest, lass die Community an deinen Ergebnissen teilhaben!
 
 
 ## 📲 Alby Go installieren
 
 
-Verfügbar auf den wichtigsten Plattformen:
+Alby Go ist auf den wichtigsten Plattformen verfügbar:
 
 
 
@@ -40,44 +39,43 @@ Verfügbar auf den wichtigsten Plattformen:
 
 
 
-## 🔌 Anschließen eines Wallet
+## 🔌 Wallet verbinden
 
 
-Alby Go wird über ein NWC (Nostr Wallet Connect)-Geheimnis mit Ihrem blitzfähigen Knoten oder Wallet verbunden. Sie können eine oder mehrere Geldbörsen verbinden, um einfach zwischen ihnen zu wechseln.
+**Alby Go** wird über ein NWC (Nostr Wallet Connect)-Secret mit deiner Lightning Node oder Wallet verbunden. Du kannst eine oder mehrere Wallets verbinden, um einfach zwischen ihnen zu wechseln.
 
 Schritte:
 
-1. Öffnen Sie Einstellungen → Geldbörsen → Wallet verbinden
+1. Öffne die Einstellungen → Wallets → Wallet verbinden
 
-2. Scannen Sie einen QR-Code oder fügen Sie ein NWC-Verbindungsgeheimnis ein (z. B. nostr+walletconnect://...)
+2. Scanne einen QR-Code oder füge ein NWC Connection Secret ein (z.B. nostr+walletconnect://...)
 
-3. Geben Sie Ihrer Verbindung einen eigenen Namen
-
-
-Sobald die Verbindung hergestellt ist, ist Ihr Wallet oder Knotenpunkt bereit für das Senden und Empfangen von Bitcoin-Blitzzahlungen über Alby Go.
+3. Gib deiner Connection einen eigenen Namen
 
 
-✅ Tipp: Sie können mehrere Geldbörsen verbinden und jederzeit zwischen ihnen wechseln.
+Sobald die Verbindung hergestellt ist, ist deine Wallet oder Node bereit, Bitcoin-Lightning-Zahlungen über Alby Go zu senden und zu empfangen.
+
+
+✅ Tipp: Du kannst mehrere Wallets verbinden und jederzeit zwischen ihnen wechseln.
 
 
 
-
-## ⚡Senden Sie Bitcoin
+## ⚡ Bitcoin senden
 
 
 Um Sats über Lightning Network zu senden:
 
-1. Tippen Sie auf die große gelbe Schaltfläche **SENDEN**.
+1. Tippe auf die große gelbe Schaltfläche **SENDEN**.
 
-2. Wählen Sie eine der folgenden Möglichkeiten:
-
-
- - Scannen Sie einen blitzschnellen Invoice QR-Code
- - Einfügen eines Blitzes Invoice aus der Zwischenablage
- - Manuelle Eingabe eines Blitzes Address
+2. Wähle eine der folgenden Optionen:
 
 
-Sie können auch einen Empfänger aus Ihrem Address-Buch auswählen, in dem Sie Blitzadressen zur einfachen Wiederverwendung speichern können.
+ - Scanne einen Lightning-Invoice-QR-Code
+ - Füge eine Lightning-Invoice aus der Zwischenablage ein
+ - Gib manuell eine Lightning-Adresse ein
+
+
+Du kannst auch einen Empfänger aus deinem Adressbuch auswählen, wo du Lightning-Adressen für eine einfache Wiederverwendung speichern kannst.
 
 
 
@@ -86,28 +84,26 @@ Sie können auch einen Empfänger aus Ihrem Address-Buch auswählen, in dem Sie 
 
 Um Sats mit Alby Go zu empfangen:
 
-1. Tippen Sie auf die große gelbe Schaltfläche **RECEIVE**.
+1. Tippe auf die große gelbe Schaltfläche **EMPFANGEN**.
 
-2. Wählen Sie eine der folgenden Möglichkeiten:
+2. Wähle eine der folgenden Optionen:
 
-
- - Teilen Sie Ihren Address-Blitz wie angezeigt
- - Wählen Sie "Betrag", um generate einen Blitz Invoice mit benutzerdefinierten Beträgen
- - Klicken Sie auf "Redeem", um die QR-Codes von LNURL zu scannen
-
-
-Für den Absender sind sowohl QR-Codes als auch Invoice-Strings verfügbar.
+   
+- Teile deine angezeigte Lightning-Adresse
+- Wähle "Betrag", um eine Lightning-Invoice mit benutzerdefinierten Beträgen zu erstellen
+- Klicke auf "Einlösen", um LNURL-Abbuchungs-QR-Codes zu scannen
 
 
+Sowohl QR-Codes als auch Invoice-Strings stehen zur Bequemlichkeit des Senders zur Verfügung.
 
 
-## 🧳 Los!
 
-Nehmen Sie Ihren Bitcoin mit, wohin Sie gehen.
 
-**Alby Go** ist leicht, schnell und einfach zu bedienen - perfekt für Node-Betreiber und Bitcoiner, die unterwegs sind.
+## 🧳 Los geht's!
 
-Keine Aufblähung. Kein Aufhebens. Blitzschnell.
+Nimm dein Bitcoin überallhin mit. 
+
+**Alby Go** ist leicht, schnell und einfach zu bedienen – perfekt für Node-Betreiber und Bitcoiner, die unterwegs sind. Keine Probleme. Blitzschnell.
 
 
 
@@ -119,10 +115,10 @@ Keine Aufblähung. Kein Aufhebens. Blitzschnell.
 - 🌗 Dunkel- und Hell-Modus
 - 💱 Benutzerdefinierte Währungseingabe & Taschenrechner
 - 🧾 Transaktionsverlauf
-- 👥 Address Buch
-- 🧷 Hinzufügen, Entfernen und Exportieren von Geldbörsen
+- 👥 Addressbuch
+- 🧷 Hinzufügen, Entfernen und Exportieren von Wallets
 
 
-**💡 Brauchen Sie Hilfe?**
+**💡 Brauchst du Hilfe?**
 
-Besuchen Sie getalby.com für Support und Updates.
+Besuche getalby.com für Support und Updates.

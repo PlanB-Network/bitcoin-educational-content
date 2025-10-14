@@ -63,12 +63,12 @@ Turashimira cane abigisha bacu babaye muri iyo porogarama:
 
 Indwi ya mbere y'ikiganiro ca LN co muri Toscane
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Uhejeje iri shure, nimba ushaka gukurikirana amahugurwa, ng’iki igice ca kabiri c’urutonde:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 

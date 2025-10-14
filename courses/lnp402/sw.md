@@ -47,11 +47,11 @@ Shukrani nyingi kwa walimu wetu ambao wamekuwa sehemu ya mpango huu:
 
 Wiki ya 1 ya tukio la LN Tuscany
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Mara tu unapomaliza kozi hii, ikiwa ungependa mafunzo ya ufuatiliaji, hii hapa ni sehemu ya pili ya ratiba:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 Bahati nzuri na masomo yako.
 

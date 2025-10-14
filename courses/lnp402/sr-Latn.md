@@ -63,12 +63,12 @@ Mnogo hvala našim nastavnicima koji su bili deo ovog programa:
 
 Nedelja 1 LN Toskana događaja
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Kada završite ovaj kurs, ako ste zainteresovani za nastavak obuke, ovde je drugi deo rasporeda:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 

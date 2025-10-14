@@ -47,11 +47,11 @@ objectives:
 
 LN Tuscany 活動的第一週
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 完成本課程後，如果您對後續訓練有興趣，以下是第二部分的時間表：
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 祝您學習順利。
 

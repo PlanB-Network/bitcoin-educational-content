@@ -5,7 +5,7 @@ description: Hoe stuur ik nieuwe inhoud naar Plan ₿ Network?
 ![cover](assets/cover.webp)
 
 
-De missie van Plan ₿ Network is om toonaangevende onderwijsbronnen op Bitcoin beschikbaar te maken in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, waardoor iedereen de kans krijgt om deel te nemen aan het verrijken van het platform. Bijdragen kunnen vele vormen aannemen: correctie en proeflezen van bestaande teksten, vertaling in andere talen, bijwerken van informatie of zelfs het maken van nieuwe tutorials die nog niet beschikbaar zijn op onze site.
+De missie van Plan ₿ Network is om toonaangevende onderwijsbronnen over Bitcoin beschikbaar te maken in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, waardoor iedereen de kans krijgt om deel te nemen aan het verrijken van het platform. Bijdragen kunnen vele vormen aannemen: correctie en proeflezen van bestaande teksten, vertaling in andere talen, bijwerken van informatie of zelfs het maken van nieuwe tutorials die nog niet beschikbaar zijn op onze site.
 
 
 In deze tutorial bekijken we hoe je nieuwe inhoud, zoals een tutorial of cursus, toevoegt aan het Plan ₿ Network platform.
@@ -26,7 +26,7 @@ Cursussen zijn van nature langer en meer gestructureerd dan tutorials. Ze moeten
 ![TUTO](assets/fr/37.webp)
 
 
-Handleidingen zijn over het algemeen korter. Ze zijn bedoeld als stap-voor-stap handleiding voor het uitvoeren van een specifieke Bitcoin-gerelateerde taak, met afbeeldingen als ondersteuning.
+Handleidingen zijn over het algemeen korter. Ze zijn bedoeld als stap-voor-stap instructiegids voor het uitvoeren van een specifieke Bitcoin-gerelateerde taak, met afbeeldingen als ondersteuning.
 
 
 [Ontdek Plan ₿ Network tutorials] (https://planb.network/tutorials)
@@ -38,22 +38,22 @@ Handleidingen zijn over het algemeen korter. Ze zijn bedoeld als stap-voor-stap 
 ## Hoe stel ik een nieuwe cursus voor?
 
 
-Als je een idee hebt voor een Bitcoin cursus die nog niet aanwezig is op het platform en je wilt deze graag schrijven, dan kun je contact met ons opnemen via Address:
+Als je een idee hebt voor een Bitcoin cursus die nog niet aanwezig is op het platform en je wilt deze graag schrijven, dan kun je contact met ons opnemen via het volgende adres:
 
 
 contact@planb.network
 
 
-Stel jezelf in je bericht kort voor en beschrijf je idee voor een cursus. Als je al een idee hebt voor de structuur van je cursus, voeg dan ook de afzonderlijke hoofdstukken toe. We nemen zo snel mogelijk contact met je op om uit te leggen hoe we verder moeten gaan en, indien nodig, de structuur van je cursus te bespreken.
+Stel jezelf kort voor in je bericht en beschrijf je idee voor een cursus. Als je al een idee hebt voor de structuur van je cursus, voeg dan ook de afzonderlijke hoofdstukken toe. We nemen zo snel mogelijk contact met je op om uit te leggen hoe we verder moeten gaan en, indien nodig, de structuur van je cursus te bespreken.
 
 
-## Hoe stuur ik een nieuwe zelfstudie in?
+## Hoe stuur ik een nieuwe tutorial in?
 
 
 Om een nieuwe tutorial aan Plan ₿ Network toe te voegen, kun je dat direct op GitHub doen door een Pull Request in te dienen. In de tutorial hieronder en de bijbehorende tutorials, neem ik je stap voor stap mee door dit proces en informeer ik je over de richtlijnen die je moet volgen om ervoor te zorgen dat je tutorial compatibel is met het platform, terwijl je een duidelijke bijdragegeschiedenis behoudt.
 
 
-## 1 - Kies een thema voor je zelfstudie
+## 1 - Kies een thema voor je tutorial
 
 
 We zijn voornamelijk op zoek naar tutorials over tools gerelateerd aan Bitcoin of het ecosysteem ervan. Deze inhoud kan worden onderverdeeld in zes hoofdcategorieën:
@@ -62,11 +62,11 @@ We zijn voornamelijk op zoek naar tutorials over tools gerelateerd aan Bitcoin o
 
 
 - Portfolio ;
-- Knooppunt ;
+- Node (Knooppunt) ;
 - Mining ;
-- Handelaar;
+- Merchant (Handelaar_;
 - Exchange ;
-- Vertrouwelijkheid.
+- Confidentiality (Vertrouwelijkheid).
 
 
 Naast deze onderwerpen die specifiek verband houden met Bitcoin, is Plan ₿ Network ook op zoek naar bijdragen over onderwerpen die individuele soevereiniteit benadrukken, zoals:
@@ -84,7 +84,7 @@ Naast deze onderwerpen die specifiek verband houden met Bitcoin, is Plan ₿ Net
 - LifeHacking...
 
 
-Momenteel hebben we bijvoorbeeld tutorials over Tails, Nostr en GrapheneOS. Deze tools zijn niet direct gerelateerd aan Bitcoin, maar het zijn systemen die voor ons interessant kunnen zijn als onderdeel van een beweging naar soevereiniteit in de digitale wereld. Deze inhoud kan geïntegreerd worden in een subcategorie van de "Andere" sectie.
+Momenteel hebben we bijvoorbeeld tutorials over Tails, Nostr en GrapheneOS. Deze tools zijn niet direct gerelateerd aan Bitcoin, maar het zijn systemen die voor ons interessant kunnen zijn als onderdeel van een beweging naar soevereiniteit in de digitale wereld. Deze inhoud kan geïntegreerd worden in een subcategorie van de "Others" sectie.
 
 
 Je kunt een tutorial vanuit het niets ontwerpen, of een tutorial nemen die eerder op jouw website is gepubliceerd (op voorwaarde dat je het copyright bezit) en deze ook op Plan ₿ Network delen, waarbij je een link naar het originele artikel toevoegt.
@@ -105,7 +105,7 @@ Zodra je het thema voor je tutorial hebt gekozen, is de volgende stap om ons te 
 Stel jezelf kort voor en specificeer de specifieke inhoud die je wilt schrijven, evenals de taal waarin je wilt schrijven, door een bericht te sturen in het kanaal "Algemeen". Een teamlid zal dan een issue aanmaken op GitHub dat overeenkomt met jouw toekomstige bijdrage.
 
 
-Als je geen Telegram-account hebt en er liever geen aanmaakt, kun je ook contact met ons opnemen via e-mail op de volgende Address
+Als je geen Telegram-account hebt en er liever geen aanmaakt, kun je ook contact met ons opnemen via e-mail op de volgende adres
 
 
 paolo@planb.network

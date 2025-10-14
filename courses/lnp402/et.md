@@ -45,10 +45,10 @@ Suur tänu meie õpetajatele, kes olid selle programmi osa:
 **Seminarikava**
 
 LN Tuscany ürituse 1. nädal
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Kui olete selle kursuse lõpetanud ja olete huvitatud jätkukoolitusest, siis siin on teise osa ajakava:
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 See koolitus annab sulle võimaluse arendada oma programmeerimisoskusi Lightning Networki jaoks, kasutades Rusti ja erinevaid SDK-sid. Koolitus on mõeldud arendajatele, kellel on juba hea programmeerimispagas ja kes soovivad süveneda Lightning Networki spetsiifilisse arendusse. Õpid Rusti aluseid, miks see sobib Bitcoini arenduseks, ja liigud seejärel edasi praktilise töö juurde spetsiaalsete SDK-dega.
@@ -178,3 +178,4 @@ Valmis arendama oma Lightning Networki oskusi Rustiga? Alustame!
 
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

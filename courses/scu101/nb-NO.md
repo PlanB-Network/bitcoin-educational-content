@@ -53,16 +53,16 @@ Hvis du ser etter mer avanserte ferdigheter om emnet, er våre ressurser, opplæ
 
 I starten vil vi diskutere viktigheten av å velge en nettleser og hva det vil ha å si for sikkerhet. Deretter vil vi utforske spesifikasjonene til nettlesere, spesielt med tanke på håndtering av informasjonskapsler. Videre vil vi også se hvordan man sikrer en tryggere og mer anonym nettleseropplevelse ved bruk av verktøy som TOR. Etterpå vil vi fokusere på bruk av VPN for å forbedre beskyttelsen av dine data. Til slutt vil vi avslutte med anbefalinger for sikker bruk av WiFi-forbindelser.
 
-![image](assets/en/1.webp)
+![image](assets/nb-NO/001.webp)
 
 **Seksjon 2: Beste praksiser for bruk av datamaskin**
 
 - Kapittel 3 - Bruk av datamaskin
 - Kapittel 4 - Hacking & håndtering av sikkerhetskopier
 
-  I denne seksjonen vil vi dekke tre nøkkelområder innen datasikkerhet. Først vil vi utforske ulike operativsystemer: Mac, PC og Linux, og fremheve deres spesifikke egenskaper og styrker. Deretter vil vi dykke ned i metoder for å effektivt beskytte mot hackingforsøk og styrke sikkerheten til enhetene dine. Til slutt vil vi understreke viktigheten av regelmessig å beskytte og sikkerhetskopiere dataene dine for å forhindre tap eller ransomware.
+I denne seksjonen vil vi dekke tre nøkkelområder innen datasikkerhet. Først vil vi utforske ulike operativsystemer: Mac, PC og Linux, og fremheve deres spesifikke egenskaper og styrker. Deretter vil vi dykke ned i metoder for å effektivt beskytte mot hackingforsøk og styrke sikkerheten til enhetene dine. Til slutt vil vi understreke viktigheten av regelmessig å beskytte og sikkerhetskopiere dataene dine for å forhindre tap eller ransomware.
 
-![image](assets/en/2.webp)
+![image](assets/nb-NO/002.webp)
 
 **Seksjon 3: Implementering av løsninger**
 
@@ -74,7 +74,7 @@ I denne praktiske tredje seksjonen vil vi gå videre til implementeringen av din
 
 Først vil vi se på hvordan du beskytter innboksen din, som er essensiell for kommunikasjonen din og ofte målrettet av hackere. Deretter vil vi introdusere deg for en passordbehandler: en praktisk løsning for å ikke lenger glemme eller blande sammen passordene dine samtidig som du holder dem sikre. Til slutt vil vi diskutere et ekstra sikkerhetstiltak, to-faktor autentisering, som legger til et ekstra lag med beskyttelse for kontoene dine. Alt vil bli forklart enkelt og tydelig. 
 
-![image](assets/en/3.webp)
+![image](assets/nb-NO/003.webp)
 
 KEr du klar til å styrke din digitale sikkerhet og ta tilbake kontrollen over dine data? La oss starte!
 # Alt du trenger å vite om nettsurfing
@@ -92,13 +92,13 @@ Når du surfer på internett, er det viktig å unngå visse vanlige feil for å 
 Det anbefales å laste ned programvare fra utgiverens offisielle nettsted i stedet for generiske sider.
 Eksempel: Bruk www.signal.org/download i stedet for www.logicieltelechargement.fr/signal. 
 
-![image](assets/notext/4.webp)
+![image](assets/nb-NO/004.webp)
 
 Det er også tilrådelig å prioritere åpen kildekode-programvare (open source) ettersom de ofte er tryggere og fri for skadelig programvare. En "åpen kildekode"-programvare er en programvare der koden er kjent og tilgjengelig for alle. Dette tillater blant annet verifisering av at det ikke finnes skjult tilgang for å stjele dine personlige data.
 
 > Bonus: Åpen kildekode-programvare er ofte gratis! Dette "universitetet" er 100% åpen kildekode, så du kan sjekke koden vår på GitHub.
 
-![image](assets/notext/5.webp)
+![image](assets/nb-NO/005.webp)
 
 ### Informasjonskapselhåndtering: Feil og beste praksis
 
@@ -111,7 +111,7 @@ Informasjonskapsler (cookies) er filer opprettet av nettsteder for å lagre info
 Det er to store familier av nettlesere: de som er basert på Chrome og de som er basert på Firefox.
 Selv om begge familiene tilbyr et lignende sikkerhetsnivå, anbefales det å unngå Google Chrome-nettleseren på grunn av dens sporing. Lettere alternativer til Chrome, som Chromium eller Brave, kan være å foretrekke. Brave er spesielt anbefalt for sin innebygde annonseblokkering. Det kan være nødvendig å bruke flere nettlesere for å få tilgang til visse nettsteder.
 
-![image](assets/notext/6.webp)
+![image](assets/nb-NO/006.webp)
 
 ### Privat nettsurfing, TOR og andre alternativer for sikrere og mer anonym surfing
 
@@ -121,7 +121,7 @@ Et mer avansert alternativ er TOR (The Onion Router)-nettverket, som tilbyr anon
 
 TOR er lovlig og brukes av journalister, frihetsaktivister og andre som ønsker å omgå sensur i autoritære land. Det er imidlertid viktig å forstå at TOR ikke sikrer de besøkte sidene eller datamaskinen selv. I tillegg kan bruk av TOR senke internettforbindelsen ettersom data passerer gjennom tre andre personers datamaskiner før det når sin destinasjon. Det er også essensielt å merke seg at TOR ikke er en idiotsikker løsning for å garantere 100% anonymitet og bør ikke brukes til ulovlige aktiviteter.
 
-![image](assets/notext/7.webp)
+![image](assets/nb-NO/007.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
@@ -135,14 +135,16 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 VPN-er er verktøy som krypterer data som overføres over internett, noe som gjør forbindelsen sikrere. I en profesjonell sammenheng lar VPN-er ansatte trygt få tilgang til bedriftens interne nettverk eksternt. De utvekslede dataene er kryptert, noe som gjør det mye vanskeligere for tredjeparter å snappe opp. I tillegg til å sikre tilgang til et internt nettverk, kan bruk av en VPN tillate en bruker å rute sin internettforbindelse gjennom bedriftens interne nettverk, noe som gir inntrykk av at deres forbindelse kommer fra selskapet. Dette kan være spesielt nyttig for å få tilgang til nettjenester som er geografisk begrenset.
 
-![image](assets/en/8.webp)
+![image](assets/nb-NO/008.webp)
 
 ### Typer VPN-er
 
 Det er to hovedtyper av VPN-er: bedrifts-VPN-er og forbruker-VPN-er, som NordVPN. Bedrifts-VPN-er har en tendens til å være dyrere og mer komplekse, mens forbruker-VPN-er generelt er mer tilgjengelige og brukervennlige. For eksempel lar NordVPN brukere koble til internett gjennom en server som ligger i et annet land, noe som kan omgå geografiske restriksjoner.
+
 Å bruke en forbruker-VPN garanterer ikke fullstendig anonymitet. Mange VPN-leverandører beholder informasjon om brukerne sine, noe som potensielt kan kompromittere deres anonymitet. Selv om VPN-er kan være nyttige for å forbedre nettsikkerhet, er de ikke en universell løsning. De er effektive for visse spesifikke bruksområder, som å få tilgang til geografisk begrensede tjenester eller forbedre sikkerheten når man reiser, men de garanterer ikke total sikkerhet. Når du velger en VPN, er det essensielt å prioritere pålitelighet og tekniksk ekspertise over popularitet. VPN-leverandører som samler inn minst personlig informasjon, er generelt de sikreste. Tjenester som iVPN og Mullvad samler ikke inn personlig informasjon og tillater til og med betalinger i Bitcoin for økt personvern. 
 
-![image](assets/notext/9.webp)
+![image](assets/nb-NO/009.webp)
+
 VPN kan også brukes til å blokkere nettannonser, noe som gir en mer behagelig og sikker nettsurfingsopplevelse. Det er imidlertid viktig å gjøre din egne undersøkelser for å finne den VPN-en som passer dine spesifikke behov best. Å bruke en VPN anbefales for å forbedre sikkerheten, selv når du surfer på internett hjemme. Dette bidrar til å sikre et høyere sikkerhetsnivå for utvekslet data online. Til slutt, sørg for å sjekke URL-ene og det lille hengelåsikonet i adresselinjen for å bekrefte at du er på det nettstedet du har til hensikt å besøke.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -157,7 +159,8 @@ I Den europeiske union (EU) er databeskyttelse regulert av General Data Protecti
 
 For å unngå nettsvindel, er det avgjørende å verifisere identiteten til nettstedet du surfer på, spesielt ved å sjekke forlengelsen og domenenavnet. I tillegg, vær årvåken mot svindlere som bruker lignende bokstaver i URL-er for å lure brukere.
 
-![image](assets/en/10.webp)
+![image](assets/nb-NO/010.webp)
+
 Oppsummert kan bruk av VPN i stor grad forbedre online sikkerhet, både for bedrifter og individuelle brukere. Videre kan det å praktisere gode nettleservaner bidra til bedre digital hygiene. I neste del av dette kurset vil vi ta for oss datasikkerhet, inkludert oppdateringer, antivirus og passordhåndtering.
 
 # Beste praksiser for datamaskinbruk
@@ -177,9 +180,14 @@ Sikkerheten til våre datamaskiner er en stor bekymring i dagens digitale verden
 ### Valg av datamaskin og operativsystem
 
 Når det gjelder valg av datamaskin, er det ingen betydelig forskjell i sikkerhet mellom gamle og nye datamaskiner. Men det finnes sikkerhetsforskjeller mellom operativsystemer som Windows, Linux og Mac.
+
+![image](assets/nb-NO/011.webp)
+
 Angående Windows, anbefales det å ikke bruke en administrator-konto til daglig bruk, men heller opprette to separate kontoer: en administrator-konto og en konto for daglig bruk. Windows er ofte mer utsatt for skadelig programvare på grunn av det store antallet brukere og enkelheten av å bytte fra bruker til administrator. Så på Linux og Mac er trusler mindre vanlige.
 
 Valget av operativsystem bør baseres på dine behov og preferanser. Linux-systemer har utviklet seg betydelig de siste årene, og blir stadig mer brukervennlige. Ubuntu er et interessant alternativ for nybegynnere, med et enkelt å bruke grafisk grensesnitt. Det er mulig å partisjonere en datamaskin for å eksperimentere med Linux samtidig som man beholder Windows, men dette kan være komplekst. Det er ofte å foretrekke å ha en dedikert datamaskin, en virtuell maskin, eller en USB-nøkkel for å teste Linux eller Ubuntu.
+
+![image](assets/nb-NO/012.webp)
 
 ### Programvareoppdateringer
 
@@ -197,7 +205,10 @@ For å gi deg et konkret eksempel på en feil: "cracked" programvare (ulovlig an
 - Må du betale? Det kommer an på!
 
 Valget og implementeringen av antivirusprogram er viktig. Windows Defender, det innebygde antivirusprogrammet i Windows, er en trygg og effektiv løsning. For en gratis løsning er den ekstremt god og mye bedre enn mange gratis løsninger man finner på nettet. Faktisk bør man være forsiktig med antivirusprogrammer lastet ned fra internett, da de kan være ondsinnede eller utdaterte.
+
 For de som ønsker betale for antivirusprogrammer, anbefales det å velge et program som intelligent analyserer ukjente og fremvoksende trusler, som Kaspersky. Oppdateringer av antivirusprogrammene er essensielt for å beskytte mot nye trusler.
+
+![image](assets/nb-NO/013.webp)
 
 > Merk: Linux og Mac, takket være deres system for separasjon av brukerrettigheter, trenger ofte ikke antivirusprogrammer.
 
@@ -230,7 +241,7 @@ Den gyldne regelen her er å nøye sjekke fullt navn på avsenderen samt opprinn
 
 Løsepengevirus er en type skadelig programvare som krypterer brukerdata og krever løsepenger for å dekryptere dem. Denne typen angrep blir stadig mer vanlig og kan være svært problematisk for et selskap eller en enkeltperson. For å beskytte deg, er det avgjørende å lage sikkerhetskopier av de mest sensitive filene! Dette vil ikke stoppe løsepengeviruset, men det vil tillate deg å ganske enkelt ignorere det.
 
-![image](assets/notext/14.webp)
+![image](assets/nb-NO/014.webp)
 Sikkerhetskopier de viktige dataene dine regelmessig til en ekstern lagringsenhet eller en sikker nettbasert lagringstjeneste. På denne måten, i tilfelle et cyberangrep eller maskinvarefeil, kan du gjenopprette dataene dine uten å miste viktig informasjon.
 
 Enkel løsning:
@@ -269,7 +280,7 @@ Selv om vi alle allerede har en e-postkonto, er det viktig å vurdere å opprett
 
 Riktig håndtering av våre e-postadresser er avgjørende for å sikre sikkerheten til vår netttilgang. Det er viktig å velge en sikker og personvernsrespekterende e-postleverandør. ProtonMail er et eksempel på en sikker og personvernrespekterende e-posttjeneste.
 
-![image](assets/notext/15.webp)
+![image](assets/nb-NO/015.webp)
 Når du velger en e-postleverandør og oppretter et passord, er det essensielt å aldri gjenbruke samme passord for forskjellige online tjenester. Det anbefales å regelmessig opprette nye e-postadresser og skille bruksområder ved å bruke forskjellige e-postadresser. Det er å foretrekke å velge en sikker e-posttjeneste for kritiske kontoer. Det bør også nevnes at noen tjenester begrenser lengden på passord, så det er viktig å være oppmerksom på denne begrensningen. Tjenester er også tilgjengelige for å opprette midlertidige e-postadresser, som kan brukes for kontoer med begrenset varighet.
 
 Det er viktig å vurdere at eldre e-postleverandører som La Poste, Arobase, Wig, Hotmail, fortsatt brukes, men deres sikkerhetspraksis kan ikke være like god som de hos Gmail. Derfor anbefales det å ha to separate e-postadresser, en for generell kommunikasjon og den andre for oppretting av kontoer, med sistnevnte bedre sikret. Det er best å unngå å blande e-postadressen med den fra din telefonoperatør eller internettleverandør, da dette kan være en angrepsvektor.
@@ -278,7 +289,7 @@ Det er viktig å vurdere at eldre e-postleverandører som La Poste, Arobase, Wig
 
 Det er anbefales å bruke nettstedet Have I Been Pwned (https://haveibeenpwned.com/) for å sjekke om din e-postadresse har blitt kompromittert og for å bli varslet om fremtidige datainnbrudd. En hacket database kan utnyttes av hackere for å sende phishing-e-poster eller gjenbruke kompromitterte passord.
 
-![image](assets/notext/16.webp)
+![image](assets/nb-NO/016.webp)
 Generelt er det å begynne å bruke en ny, sikrere e-postadresse ikke en dårlig praksis og til og med nødvendig hvis man ønsker å starte på nytt med et sikrere utgangspunkt.
 Bonus Bitcoin: Det kan være lurt å opprette en spesifikk e-postadresse for dine Bitcoin-aktiviteter (opprette børs-kontoer) for å virkelig skille disse av livets aktiviteter med resten av livet.
 
@@ -299,7 +310,7 @@ Med en passordbehandler trenger du ikke lenger å bekymre deg for å glemme pass
 - LastPass: En av de mest populære passordbehandlerne. Det er en tredjepartstjeneste, noe som betyr at passordene dine lagres på deres servere. Den tilbyr en gratisversjon og en betalt versjon, med et brukervennlig grensesnitt.
 - Dashlane: Dette er også en tredjepartstjeneste, med et intuitivt grensesnitt og ekstra funksjoner som sporing av kredittkortinformasjon og sikre notater.
 
-  ![image](assets/notext/17.webp)
+  ![image](assets/nb-NO/017.webp)
 
 ### Selvlagring (self-hosting) for mer kontroll:
 
@@ -307,7 +318,7 @@ Med en passordbehandler trenger du ikke lenger å bekymre deg for å glemme pass
 
 - KeePass: Dette er en løsning med åpen kildekode som primært er ment for selvlagring. Dataene dine lagres lokalt som standard, men du kan synkronisere passorddatabasen ved hjelp av forskjellige metoder hvis du ønsker det. KeePass er anerkjent for sin sikkerhet og fleksibilitet, selv om det kan være litt mindre brukervennlig for nybegynnere.
 
-![image](assets/notext/18.webp)
+![image](assets/nb-NO/018.webp)
 
 For selvhostede løsninger som KeePass er det mulig å synkronisere databasen din mellom flere enheter uten å bruke sentraliserte tredjepartstjenester. Verktøy som **Syncthing** muliggjør kryptert og desentralisert synkronisering direkte mellom enhetene dine. Denne tilnærmingen holder dataene dine under din kontroll samtidig som den sikrer tilgjengeligheten på alle enhetene dine.
 
@@ -346,7 +357,7 @@ Dette andre steget kan være:
 - En kode generert av en applikasjon som Google Authenticator eller Authy.
 - En fysisk sikkerhetsnøkkel som du setter inn i datamaskinen din.
 
-![image](assets/notext/19.webp)
+![image](assets/nb-NO/019.webp)
   Med 2FA, selv om en hacker får tak i passordet ditt, vil de ikke kunne få tilgang til kontoen din uten denne andre verifiseringsfaktoren. Dette gjør 2FA essensielt for å beskytte dine nettbaserte kontoer mot uautorisert tilgang.
 
 ### Hvilket alternativ skal man velge?
@@ -497,7 +508,7 @@ Den konstante utviklingen av trusler krever regelmessig overvåking av nyheter o
 
 Ved å mestre disse ferdighetene og verktøyene, vil du være godt rustet til å navigere cybersikkerhetens verdenen med suksess.
 
-![image](assets/notext/20.webp)
+![image](assets/nb-NO/020.webp)
 
 ## Intervju med Renaud
 
@@ -511,7 +522,7 @@ Det er generelt ikke anbefalt å bruke nettleserutvidelser for automatisk utfyll
 
 Passordadministratorer oppmuntrer generelt til bruk av ekstra autentiseringsfaktorer, som tofaktorautentisering. For optimal sikkerhet, er det anbefalt å holde OTP-er (engangspassord) på din mobile enhet. AndoTP tilbyr en åpen kildekode-løsning for å generere og lagre OTP-koder på telefonen din. Mens Google Authenticator tillater eksport av autentiseringskodefrø, forblir tilliten til sikkerhetskopi på en Google-konto begrenset. Derfor er OTI- og AndoTP-applikasjonene anbefalt for autonom OTP-håndtering.
 
-![image](assets/notext/21.webp)
+![image](assets/nb-NO/021.webp)
 Spørsmålet om digital arv og digital sorgprosess reiser viktigheten av å ha en prosedyre for å overføre passord etter en persons død. En passordbehandler letter denne overgangen ved å sikkert lagre alle digitale hemmeligheter på ett sted. Passordbehandleren tillater også identifisering av alle åpne kontoer og håndtering av deres lukking eller overføring. Det anbefales å skrive ned hovedpassordet på papir, men det bør oppbevares på et skjult og sikkert sted. Hvis harddisken er kryptert og datamaskinen er låst, vil ikke passordet være tilgjengelig, selv i tilfelle av innbrudd.
 
 ### Mot en post-passord æra: Utforsking av troverdige alternativer

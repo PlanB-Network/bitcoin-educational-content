@@ -7,7 +7,11 @@ description: Comment installer et utiliser l'application Plan ₿ Academy sur Pe
 
 Vous le savez sans doute, Plan ₿ Academy est la plus vaste base de données éducative dédiée à Bitcoin, regroupant des cours, des tutoriels et des milliers de ressources publiées sous licence libre. À l’origine, Plan ₿ Academy est un site web. Mais que se passerait-il si vous ne pouviez plus y accéder normalement, par exemple en cas de censure ?
 
-Dans ce tutoriel, nous allons apprendre à faire tourner la plateforme **Plan ₿ Academy** de manière réellement incensurable grâce à **Pears**, une technologie pair-à-pair (P2P) développée par **Holepunch** et soutenue par **Tether**. L’objectif est simple : rendre possible la diffusion et l’utilisation d’applications web sans dépendre d’aucune infrastructure centralisée (ni serveurs, ni hébergeurs, ni intermédiaires). En d’autres termes, même si un fournisseur de cloud ferme ou qu’un pays bloque un domaine, l’application continue de vivre entre les pairs du réseau. C’est cette approche qui permet à notre plateforme éducative Plan ₿ Academy de rester accessible partout dans le monde, sans point unique de défaillance.
+Dans ce tutoriel, nous allons apprendre à faire tourner la plateforme **Plan ₿ Academy** de manière réellement incensurable grâce à **Pears**, une technologie pair-à-pair (P2P) développée par **Holepunch** et soutenue par **Tether**.
+
+Pears est donc le logiciel qui va nous permettre de faire fonctionner la plateforme Plan ₿ Academy sans dépendre d’un site web centralisé. Dans ce tutoriel, nous allons donc installer Pears sur votre ordinateur afin d’accéder à Plan ₿ Academy via Pears.
+
+L’objectif de Pears est simple : rendre possible la diffusion et l’utilisation d’applications web sans dépendre d’aucune infrastructure centralisée (ni serveurs, ni hébergeurs, ni intermédiaires). En d’autres termes, même si un fournisseur de cloud ferme ou qu’un pays bloque un domaine, l’application continue de vivre entre les pairs du réseau. C’est cette approche qui permet à notre plateforme éducative Plan ₿ Academy de rester accessible partout dans le monde, sans point unique de défaillance.
 
 ## 1. Installer Pears 
 

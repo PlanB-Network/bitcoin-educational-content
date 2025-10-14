@@ -2022,7 +2022,7 @@ Deze fase is bijzonder tijdrovend, omdat de duur afhangt van verschillende facto
 
 
 
-Met een pc met een normale configuratie (een fatsoenlijke processor, 8 tot 16 GB RAM en een SSD) kun je ongeveer 2 tot 7 dagen werken.
+Met een pc met een normale configuratie (een fatsoenlijke processor, 8 tot 16 GB RAM en een SSD) is het mogelijk in ongeveer 2 tot 7 dagen.
 
 
 
@@ -2038,7 +2038,7 @@ Standaard is de waarde van de `dbcache` parameter in Bitcoin core ingesteld op 4
 
 
 
-Wees voorzichtig dat u geen waarde toewijst die te groot is voor uw machine. Als het beschikbare RAM-geheugen voor UmbrelOS opraakt, kan uw node abrupt stoppen, waardoor de IBD onderbroken wordt en u het handmatig opnieuw moet opstarten, wat resulteert in een aanzienlijk tijdverlies.
+Wees voorzichtig dat je geen waarde toewijst die te groot is voor je machine. Als het beschikbare RAM-geheugen voor UmbrelOS opraakt, kan je node abrupt stoppen, waardoor de IBD onderbroken wordt en je het handmatig opnieuw moet opstarten, wat resulteert in een aanzienlijk tijdverlies.
 
 
 
@@ -2046,7 +2046,7 @@ Om meer te weten te komen over de invloed van de `dbcache` parameter op initiël
 
 
 
-Zodra de IBD van je node is voltooid (100% synchronisatie), heb je nu een volledig operationeel Bitcoin node. Gefeliciteerd, je bent nu een integraal onderdeel van het Bitcoin netwerk!
+Zodra de IBD van je node is voltooid (100% synchronisatie), heb je nu een volledig operationele Bitcoin node. Gefeliciteerd, je bent nu een integraal onderdeel van het Bitcoin netwerk!
 
 
 
@@ -2060,7 +2060,7 @@ In het volgende deel verkennen we het praktische gebruik van je nieuwe node: hoe
 
 
 
-# Uw Wallet aansluiten op uw node
+# Je Wallet aansluiten op je node
 
 
 <partId>418d0afd-3a61-4b5a-9db4-203c0335fd29</partId>

@@ -66,7 +66,7 @@ In the next step, we select the desired location.
 
 At this stage, we can also specify the processor architecture for the computer. In this step, we can:
 
-A: Decide whether to ignore Windows security features, such as TPM and Secure Boot. Enabling the option to bypass these features is sometimes unavoidable on certain computers, especially older models. However, it is generally recommended to keep features like Secure Boot enabled.
+A: Decide whether to ignore Windows security features, such as TPM and Secure Boot. The Secure Boot feature ensures that if any core Windows files are tampered with during the boot process, the issue is detected and their execution is prevented. This feature also helps protect the system from installing malicious updates on Windows. Enabling the option to bypass these features is sometimes unavoidable on certain computers, especially older models. However, it is generally recommended to keep features like Secure Boot enabled.
 
 B: Ignore the requirement for an internet connection to complete the process. This is useful in situations where a wired LAN connection is not available, because in most cases, the wireless card is not yet recognized during Windows installation, and internet access via cable is required. Activating this option resolves issues related to this step.
 

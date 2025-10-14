@@ -9,53 +9,49 @@ description: Accepter des paiements en bitcoins sans frais et sans intermédiair
 
 Dans un monde de plus en plus numérique, de nouvelles initiatives et d'innovations émergent quotidiennement. Il en est de même dans le domaine de la finance, du commerce, etc. Les boutiques virtuelles, l'e-commerce, les paiements numériques foisonnent, de nos jours. Les paiements en espèces s'effacent progressivement à mesure que les paiements numériques deviennent monnaie courante. Cependant, il reste encore des obstacles tels que les frais élevés que les intégrateurs de paiements prélèvent, la rétro-facturation, le blocage ou le gel des fonds, les interruptions de services causées par une panne, pour ne mentionner que ceux-là.
 
-C'est au regard de toutes ces contraintes, que des solutions ont été élaborées pour permettre aux commerçants de recevoir des paiements avec — une monnaie numérique, non censurable et sans tiers de confiance — le Bitcoin. Les premières méthodes de paiement via Bitcoin comme BitPay étaient toujours centralisées. Dans le but de se rapprocher le plus possible de l'esprit qui sous-tend la création de Bitcoin (la décentralisation), **BTC PAY Server** a été créé.
+C'est au regard de toutes ces contraintes, que des solutions ont été élaborées pour permettre aux commerçants de recevoir des paiements avec une monnaie numérique, non censurable et sans tiers de confiance : le bitcoin. Les premières méthodes de paiement via Bitcoin comme BitPay étaient toujours centralisées. Dans le but de se rapprocher le plus possible de l'esprit qui sous-tend la création de Bitcoin, **BTCPay Server** a été créé.
 
+## Qu'est-ce que BTCPay Server ? 
 
-## Qu'est-ce que BTCPAY SERVER ? 
+Lancé par Nicolas DORIER, **BTCPay Server** est une solution open-source entièrement autonome et gratuite qui permet d'accepter des paiements en bitcoins. Il permet à toute personne d'héberger librement lui-même le serveur sans un prestataire tiers. Il s'intègre facilement à des sites e-commerce (WooComerce, Shopify, etc.) ou peut être utilisé comme un terminal de point de vente (POS).
 
-Lancé par Nicolas DORIER, développeur Bitcoin, **BTCPAY SERVER** est une solution open-source entièrement autonome et gratuite qui permet d'accepter des paiements en Bitcoin. Il permet à toute personne d'héberger librement lui-même le serveur sans un prestataire tiers. Il s'intègre facilement à des sites e-commerce (WooComerce, Shopify, etc.) ou peut être utilisé comme un terminal de point de vente (POS). 
+## Spécificités de BTCPay Server
 
-## Spécificités de BTCPAY Server
+Les solutions de POS Bitcoin centralisées (comme *Open Node* par exemple) sont pratiques, mais dépendent d’une entreprise tierce puisqu’ils ne sont pas auto-hébergeables et, le plus souvent, ne sont pas open-source. Ils simplifient l’utilisation, mais introduisent des frais de commission et présentent davantage de risques qu’une solution comme BTCPay Server.
 
-Les POS centralisés (SatoshiPay, Strike, etc.) sont pratiques, mais dépendantes d'une entreprise tierce. Ils vous simplifient la vie mais introduisent des frais de commission.
-
-BTCPay Server s’adresse aux commerçants en ligne ou physiques, aux associations et organismes à but non lucratif désireux de recevoir des dons confidentiels. Il constitue également une solution idéale pour les porteurs de projets ainsi que pour les développeurs souhaitant obtenir un soutien direct de leur communauté, etc.
+BTCPay Server s’adresse aux commerçants en ligne ou physiques, aux associations et organismes à but non lucratif désireux de recevoir des dons en bitcoins. Il constitue également une solution idéale pour les porteurs de projets ainsi que pour les développeurs souhaitant obtenir un soutien direct de leur communauté.
 
 Les spécificités de BTCPay Server résident dans l’autonomie qu’il offre, l’absence de procédure KYC, le contrôle intégral des fonds ainsi que la suppression des frais de plateforme. En devenant votre propre processeur de paiement, vous éliminez toute dépendance à un tiers centralisé entre vous et vos clients.
 
 Vous pouvez ainsi accepter des paiements en bitcoins directement, et même générer des factures de paiement. Cela garantit que ni vous ni votre entreprise ne pourrez être bannis par qui que ce soit.
-Vous jouez à la fois le rôle de banque et de processeur de paiement, par conséquent, vous n’avez plus à verser de commission à un intermédiaire pour chaque transaction. Bien entendu, les frais liés aux transactions Bitcoin on chain demeurent, mais ils peuvent être réduits grâce à l'utilisation du réseau Liquid ou Lightning.
+
+Vous jouez à la fois le rôle de banque et de processeur de paiement ; ainsi, vous n’avez plus à verser de commission à un intermédiaire pour chaque transaction. Bien sûr, les frais de transaction Bitcoin subsistent, mais ils peuvent être considérablement réduits grâce à l’utilisation de Liquid ou du Lightning Network.
 
 À cela s’ajoutent :
-
-- une personnalisation complète de l’interface et de l’apparence des factures ;
-- une prise en charge native des paiements via Tor, garantissant une confidentialité accrue ;
-- la possibilité de soutenir aisément une campagne de crowdfunding, une application de point de vente ou encore de simples boutons de paiement ;
-- une compatibilité avec un bon nombre de devises.
-- Paiements Bitcoin directs et pair-à-pair
-- Pas d'intermédiaire
-- un contrôle complet sur la clé privée
--  une confidentialité améliorée
-- Sécurité renforcée
-- Logiciel auto-hébergé
-- Prise en charge de SegWit
-- Prise en charge du réseau Lightning 
-- Portefeuille interne, entièrement basé sur les nœuds, avec l'intégration de portefeuille matériel
+- une personnalisation complète de l’interface et des modèles de factures ;
+- la prise en charge native des paiements via Tor, assurant un haut niveau de confidentialité ;
+- la possibilité de gérer facilement une campagne de financement participatif, une application de point de vente ou de simples boutons de paiement ;
+- la compatibilité avec de multiples devises ;
+- des paiements Bitcoin directs et véritablement pair-à-pair, sans intermédiaire ;
+- un contrôle total sur vos clés privées ;
+- la possibilité d'auto-héberger le logiciel de PoS ;
+- la prise en charge complète de SegWit et du réseau Lightning ;
+- la possibilité d'utiliser son propre nœud Bitcoin ;
+- la possibilité de sécuriser ses fonds avec un hardware wallet.
 
 ## Installation et configuration de BTCPay Server
-###  Choisir son mode d’installation
 
-BTCPay Server peut être installé de plusieurs manières. Selon vos besoins et vos moyens, vous avez trois options principales :
+### Choisir son mode d’hébergement
 
-- **BTCPay Server hébergé par un tiers** : vous utilisez une plateforme qui héberge le service pour vous. Simple mais souvent payant.  
-- **BTCPay Server auto-hébergé sur un serveur cloud** (par ex. [btcpayprovider](https://btcpayprovider.com/), [Bitcoin People](http://bitcoinpeople.it/), [LNPayments](https://www.lnpayments.org/)). C’est la solution recommandée pour la plupart des commerçants débutants.  
-- **BTCPay Server sur votre propre matériel (local)** : un ordinateur ou un mini-PC. Plus technique mais totalement indépendant.  
+BTCPay Server peut être installé de différentes manières. Selon vos besoins et vos ressources, trois options principales s’offrent à vous :
 
- Pour un commerçant débutant, je recommande vivement le **déploiement sur un serveur cloud**.  
+- **BTCPay Server hébergé par un tiers** : vous utilisez une plateforme qui héberge le service pour vous. C’est simple, mais généralement payant.
+- **BTCPay Server auto-hébergé sur un serveur cloud** (par exemple via [btcpayprovider](https://btcpayprovider.com/), [Bitcoin People](http://bitcoinpeople.it/) ou tout autre fournisseur). C’est la solution recommandée pour la plupart des commerçants débutants.
+- **BTCPay Server installé sur votre propre matériel (en local)** : sur un ordinateur, un mini-PC ou un Umbrel. Cette méthode est plus technique, mais offre une indépendance totale.
 
+Pour un commerçant débutant, je recommande plutôt le **déploiement sur un serveur cloud**.
 
-###  Créer un compte BTCPay Server
+### Créer un compte BTCPay Server
 
 Avec BTCPay, il est possible de créer et de gérer un nombre illimité de boutiques.  
 Chaque boutique dispose de son propre portefeuille, peut générer des applications (telles que des boutons de point de vente, de paiement ou de financement participatif) et peut également être connectée à un logiciel e-commerce externe via les intégrations proposées.

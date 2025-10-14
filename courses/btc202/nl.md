@@ -1561,13 +1561,13 @@ Hier gebruiken we het UmbrelOS x86 image (meer precies, de x86_64 versie). Je ku
 
 
 
-Als je hebt gekozen voor een Raspberry Pi 5 (een optie die ik niet aanraad, zoals vermeld in de vorige sectie), dan is de installatie iets anders. Je kunt dan deze speciale tutorial volgen en terugkeren naar mijn cursus op het Interface web `http://umbrel.local`:
+Als je hebt gekozen voor een Raspberry Pi 5 (een optie die ik niet aanraad, zoals vermeld in de vorige sectie), dan is de installatie iets anders. Je kunt dan deze speciale tutorial volgen en terugkeren naar mijn cursus over de web interface `http://umbrel.local`:
 
 
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Zoals vermeld in de vorige sectie, heb ik ervoor gekozen om deze tutorial te draaien op een kleine refurbished PC die ik voor een goede prijs vond: een *Lenovo ThinkCentre M900 Tiny* uitgerust met een Intel Core i7 processor en 16 GB RAM. Dit is een erg comfortabele configuratie voor het draaien van Umbrel, vooral voor een Bitcoin node. Ik heb echter voor deze configuratie gekozen omdat ik later een Lightning node en andere veeleisende toepassingen wil installeren. Ik heb ook een 2TB SSD toegevoegd aan mijn ThinkCentre om de volledige Blockchain te behouden en nog steeds een comfortabele marge te hebben. Met deze configuratie zijn de totale kosten €270, inclusief alle kosten.
+Zoals vermeld in de vorige sectie, heb ik ervoor gekozen om deze tutorial te draaien op een kleine refurbished PC die ik voor een goede prijs vond: een *Lenovo ThinkCentre M900 Tiny* uitgerust met een Intel Core i7 processor en 16 GB RAM. Dit is een erg comfortabele configuratie voor het draaien van Umbrel, vooral voor een Bitcoin node. Ik heb echter voor deze configuratie gekozen omdat ik later een Lightning node en andere veeleisende toepassingen wil installeren. Ik heb ook een 2TB SSD toegevoegd aan mijn ThinkCentre om de volledige blockchain te behouden en nog steeds een comfortabele marge te hebben. Met deze configuratie zijn de totale kosten €270, inclusief alle uitgaven.
 
 
 
@@ -1579,7 +1579,7 @@ Ik ben vooral dol op de ThinkCentre Tiny-serie van Lenovo, omdat het compacte, s
 
 
 
-Als je, zoals ik, hebt gekozen voor een pc zonder monitor, **moet je alleen voor de duur van de installatie een monitor en toetsenbord** aansluiten. Daarna heb je toegang op afstand vanaf een andere computer in hetzelfde netwerk (of via andere methoden die we in latere hoofdstukken behandelen). Je hebt ook een RJ45 Ethernetkabel nodig om je machine aan te sluiten op het lokale netwerk en een USB-sleutel van minstens 4 GB om het installatie-image op te slaan.
+Als je, zoals ik, hebt gekozen voor een pc zonder monitor, **moet je alleen voor de duur van de installatie een monitor en toetsenbord** aansluiten. Daarna heb je toegang op afstand vanaf een andere computer in hetzelfde netwerk (of via andere methoden die we in latere hoofdstukken behandelen). Je hebt ook een RJ45 Ethernetkabel nodig om je machine aan te sluiten op het lokale netwerk en een USB-stick van minstens 4 GB om de installatie-image op te slaan.
 
 
 
@@ -1591,7 +1591,7 @@ Dit zijn de vereisten voor de uitrusting:
 - Computer met x86_64-processor (minimaal Dual-core, aanbevolen Quad-core);
 - RAM-geheugen (minimaal 4 GB, 8 GB aanbevolen of meer voor langdurig gebruik);
 - SSD (aanbevolen + 2 TB);
-- USB-sleutel (+ 4 GB) voor installatie van UmbrelOS-image;
+- USB-stick (+ 4 GB) voor installatie van UmbrelOS-image;
 - Monitor en toetsenbord (alleen handig voor de eerste installatie als de pc er geen heeft);
 - RJ45 Ethernetkabel.
 
@@ -1605,11 +1605,11 @@ Afhankelijk van de hardware die je hebt gekozen, is de eerste stap het monteren 
 
 
 
-### Stap 2: Een opstartbare USB-sleutel voorbereiden
+### Stap 2: Een opstartbare USB-stick voorbereiden
 
 
 
-Voordat u UmbrelOS op uw machine installeert, moet u een opstartbare USB-sleutel maken die het besturingssysteem bevat. Alle stappen in stap 2 moeten worden uitgevoerd op uw eigen computer (en niet direct op de computer die uw node wordt).
+Voordat je UmbrelOS op je machine installeert, moet je een bootable USB-stick maken die het besturingssysteem bevat. Alle stappen in stap 2 moeten worden uitgevoerd op je eigen computer (en niet direct op de computer die je node wordt).
 
 
 
@@ -1619,7 +1619,7 @@ Voordat u UmbrelOS op uw machine installeert, moet u een opstartbare USB-sleutel
 
 
 
-Ga naar [de officiële Umbrel website om het ISO-image te downloaden](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) voor installatie via een USB-sleutel. Zorg ervoor dat je de versie selecteert die compatibel is met de x86_64 architectuur (bestand met de naam `umbrelos-amd64-usb-installer.iso`). Het downloaden kan even duren, omdat de image vrij groot is.
+Ga naar [de officiële Umbrel website om de ISO-image te downloaden](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) voor installatie via een USB-stick. Zorg ervoor dat je de versie selecteert die compatibel is met de x86_64 architectuur (bestand met de naam `umbrelos-amd64-usb-installer.iso`). Het downloaden kan even duren, omdat de image vrij groot is.
 
 
 
@@ -1643,11 +1643,11 @@ Om de opstartbare USB-stick te maken, gebruik je een eenvoudig, platformonafhank
 
 
 
-- Plaats een lege USB-sleutel van minstens 4 GB:
+- Plaats een lege USB-stick van minstens 4 GB:
 
 
 
-Steek een USB-sleutel in je computer (degene waarop je zojuist het UmbrelOS en Balena Etcher image hebt gedownload). **Waarschuwing: alle gegevens op de sleutel worden verwijderd**. Zorg ervoor dat er geen belangrijke bestanden op staan.
+Steek een USB-stick in je computer (degene waarop je zojuist het UmbrelOS en Balena Etcher image hebt gedownload). **Waarschuwing: alle gegevens op de stick worden verwijderd**. Zorg ervoor dat er geen belangrijke bestanden op staan.
 
 
 
@@ -1657,7 +1657,7 @@ Steek een USB-sleutel in je computer (degene waarop je zojuist het UmbrelOS en B
 
 
 
-Start Balena Etcher en selecteer het `umbrelos-amd64-usb-installer.iso` ISO-bestand dat je zojuist hebt gedownload door op de knop "*Flash from file*" te klikken. Selecteer vervolgens de USB-sleutel als doelapparaat en klik op "*Flash!*" om te beginnen met schrijven.
+Start Balena Etcher en selecteer het `umbrelos-amd64-usb-installer.iso` ISO-bestand dat je zojuist hebt gedownload door op de knop "*Flash from file*" te klikken. Selecteer vervolgens de USB-stick als doelapparaat en klik op "*Flash!*" om te beginnen met schrijven.
 
 
 
@@ -1665,7 +1665,7 @@ Start Balena Etcher en selecteer het `umbrelos-amd64-usb-installer.iso` ISO-best
 
 
 
-Zodra de bewerking voltooid is, hebt u een opstartbare USB-sleutel met UmbrelOS, klaar om op te starten en Umbrel op uw machine te installeren.
+Zodra de bewerking voltooid is, heb je een opstartbare USB-stick met UmbrelOS, klaar om op te starten en Umbrel op je machine te installeren.
 
 
 
@@ -1677,7 +1677,7 @@ Zodra de bewerking voltooid is, hebt u een opstartbare USB-sleutel met UmbrelOS,
 
 
 
-Nu uw opstartbare USB-stick met UmbrelOS klaar is, kunt u uw computer erop opstarten om de systeeminstallatie te starten. Haal de USB-stick uit uw hoofdcomputer en steek deze in het apparaat waarop u Umbrel en uw Bitcoin node wilt installeren.
+Nu je opstartbare USB-stick met UmbrelOS klaar is, kun je uw computer ervan opstarten om de systeeminstallatie te starten. Haal de USB-stick uit je hoofdcomputer en steek deze in het apparaat waarop je Umbrel en je Bitcoin node wilt installeren.
 
 
 

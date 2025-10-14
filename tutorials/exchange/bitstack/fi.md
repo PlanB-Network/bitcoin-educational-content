@@ -6,7 +6,7 @@ description: Osta ja myy bitcoineja Bitstack-sovelluksessa
 
 Bitstack on ranskalainen bitcoin-sijoitusalusta, jota AMF sääntelee PSAN. Se tarjoaa Android- ja iOS-käyttöjärjestelmiin saatavilla olevan sovelluksen, jolla bitcoinien ostaminen ja myyminen on helppoa.
 
-Bitstackin erottaa muista sen automaattinen pyöristysjärjestelmä, joka synkronoi käyttäjän pankkitilin ja muuntaa päivittäisten menojen aikana veloitetun summan ja sitä seuraavan korkeamman euron välisen erotuksen suoraan bitcoineiksi. Tämä menetelmä helpottaa *Dollar Cost Averaging* (DCA) -menetelmän soveltamista, mikä mahdollistaa satoshien asteittaisen ja kivuttoman kertymisen. Tämän omaperäisen ominaisuuden lisäksi alusta tarjoaa myös klassisen DCA-järjestelmän, jossa on automaattiset sijoitukset sekä spot-ostot ja -myynnit.
+Bitstackin erottaa sen automaattinen pyöristyssysteemi, joka synkronoi käyttäjän pankkitilin muuntaakseen päivittäisten menojen ja seuraavan euron välisen erotuksen suoraan bitcoineiksi. Tämä menetelmä helpottaa *Dollar Cost Averaging* (DCA) -strategian soveltamista mahdollistamalla satoshien asteittaisen ja kivuttoman kertymisen. Tämän ainutlaatuisen ominaisuuden lisäksi alusta tarjoaa myös perinteisen DCA-järjestelmän automaattisilla sijoituksilla sekä kertaluonteisia ostoja ja myyntejä.
 
 ![Image](assets/fr/01.webp)
 

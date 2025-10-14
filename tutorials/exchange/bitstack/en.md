@@ -6,7 +6,7 @@ description: Buy and sell bitcoins on the Bitstack application
 
 Bitstack is a French bitcoin investment platform, regulated PSAN by the AMF. It offers an app available on Android and iOS for easy buying and selling of bitcoin.
 
-What sets Bitstack apart is its automatic rounding system, which synchronizes the user's bank account to convert the difference between the amount debited during daily spending and the next higher euro, directly into bitcoins. This method facilitates the application of *Dollar Cost Averaging* (DCA), enabling a gradual, painless accumulation of satoshis. In addition to this original feature, the platform also offers a classic DCA system with automatic investments, as well as spot buying and selling.
+What sets Bitstack apart is its automatic rounding system, which syncs the user’s bank account to convert the difference between the amount spent on daily expenses and the next higher euro directly into bitcoins. This method facilitates the application of *Dollar Cost Averaging* (DCA) by allowing a gradual and painless accumulation of satoshis. In addition to this original feature, the platform also offers a traditional DCA system with automatic investments, as well as one-time purchases and sales.
 
 ![Image](assets/fr/01.webp)
 

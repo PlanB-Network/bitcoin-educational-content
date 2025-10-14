@@ -1467,7 +1467,7 @@ In het volgende hoofdstuk gaan we kijken hoe je umbrelOS DIY op je eigen machine
 
 
 
-### Gebruiksscenario: van de Bitcoin node naar de thuiscloud
+### Use case: van de Bitcoin node naar de thuiscloud
 
 
 
@@ -1477,7 +1477,7 @@ Umbrel kan heel minimalistisch blijven en zich alleen richten op Bitcoin, of evo
 
 
 
-- Eenvoudig Bitcoin node**: dit is het eerste gebruik waarop Umbrel vanaf het begin heeft vertrouwd. Je kunt Bitcoin core (of Knots) draaien, je wallets direct op je node aansluiten, een Electrum server ontsluiten, je Mempool Block explorer hosten om de Blockchain te bekijken, en kosten schatten... Het zijn deze toepassingen waar we ons in deze cursus op zullen richten.
+- **Eenvoudige Bitcoin node**: dit is het eerste gebruik waarop Umbrel vanaf het begin van uitging. Je kunt Bitcoin core (of Knots) draaien, je wallets direct op je node aansluiten, een Electrum server ontsluiten, je Mempool block explorer hosten om de blockchain te bekijken, en kosten schatten... Het zijn deze toepassingen waar we ons in deze cursus op zullen richten.
 
 
 
@@ -1487,7 +1487,7 @@ Umbrel kan heel minimalistisch blijven en zich alleen richten op Bitcoin, of evo
 
 
 
-- Lightning Network**: Umbrel laat je ook LND of Core Lightning, twee implementaties van de Lightning Network, inzetten om je eigen Lightning node te beheren. Je zult in staat zijn om kanalen te openen, je liquiditeit te beheren, betalingen te doen, balancering te automatiseren, diensten aan te bieden, een Wallet op afstand aan te sluiten of te profiteren van geavanceerd Interface beheer dankzij de vele beschikbare toepassingen. We bekijken deze specifieke use case in onze volgende LNP 202 cursus.
+- **Lightning Network**: Umbrel laat je ook LND of Core Lightning, twee implementaties van het Lightning Network, inzetten om je eigen Lightning node te beheren. Je zult in staat zijn om kanalen te openen, je liquiditeit te beheren, betalingen te doen, balancering te automatiseren, diensten aan te bieden, een wallet op afstand aan te sluiten of te profiteren van geavanceerd interface beheer dankzij de vele beschikbare toepassingen. We bekijken deze specifieke use case in onze volgende LNP 202 cursus.
 
 
 
@@ -1497,11 +1497,11 @@ Umbrel kan heel minimalistisch blijven en zich alleen richten op Bitcoin, of evo
 
 
 
-- Algemene zelf-hosting**: met Nextcloud, Immich, Jellyfin/Plex, DNS-brede advertentieblokkers (Pi-hole/AdGuard), VPN's (WireGuard, Tailscale), domotica (Home Assistant), back-ups, notitiebeheer, kantoortools, lokale AI (Ollama + Open WebUI)... Umbrel kan je persoonlijke server worden, zodat je weer controle hebt over je gegevens. Je host de diensten die je elke dag gebruikt zelf, met een gepolijste gebruikerservaring die sterk lijkt op externe oplossingen, terwijl je de volledige controle behoudt over je gegevens en privacy.
+- **Algemene zelf-hosting**: met Nextcloud, Immich, Jellyfin/Plex, DNS-brede advertentieblokkers (Pi-hole/AdGuard), VPN's (WireGuard, Tailscale), domotica (Home Assistant), back-ups, notitiebeheer, kantoortools, lokale AI (Ollama + Open WebUI)... Umbrel kan je persoonlijke server worden, zodat je weer controle hebt over je gegevens. Je host de diensten die je elke dag gebruikt zelf, met een gepolijste gebruikerservaring die sterk lijkt op externe oplossingen, terwijl je de volledige controle behoudt over je gegevens en privacy.
 
 
 
-Door applicaties in containers te implementeren, kun je Umbrel vormgeven zoals jij dat wilt: begin met een eenvoudige Bitcoin node en een paar apps die gekoppeld zijn aan zijn ecosysteem, installeer dan een Lightning node naast je Bitcoin node, en verrijk je instantie geleidelijk met de zelf-hostende applicaties die je nodig hebt.
+Door applicaties in containers te implementeren, kun je Umbrel vormgeven zoals jij dat wilt: begin met een eenvoudige Bitcoin node en een paar apps die gekoppeld zijn aan zijn ecosysteem, installeer dan een Lightning node naast je Bitcoin node, en verrijk je instantie geleidelijk met de zelf-gehoste applicaties die je nodig hebt.
 
 
 
@@ -1521,7 +1521,7 @@ Een van de belangrijkste voordelen van Umbrel ten opzichte van de concurrentie i
 
 
 
-Umbrel's code is openbaar beschikbaar (je kunt het bekijken, Fork, en aanpassen), maar het valt niet onder een echte open-source licentie. In feite wordt umbrelOS gedistribueerd onder de [*PolyForm Noncommercial 1.0*] licentie (https://polyformproject.org/licenses/noncommercial/1.0.0/), hoewel sommige bijbehorende ontwikkeltools beschikbaar zijn onder de MIT licentie.
+Umbrel's code is openbaar beschikbaar (je kunt het bekijken, forken, en aanpassen), maar het valt niet onder een echte open-source licentie. In feite wordt umbrelOS gedistribueerd onder de [*PolyForm Noncommercial 1.0*] licentie (https://polyformproject.org/licenses/noncommercial/1.0.0/), hoewel sommige bijbehorende ontwikkeltools beschikbaar zijn onder de MIT licentie.
 
 
 
@@ -1542,14 +1542,14 @@ Elke toepassing in de Store behoudt echter zijn eigen licentie, vaak open source
 
 
 
-## Een Full node met paraplu installeren
+## Een full node met Umbrel installeren
 
 
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
 
 
 
-Nu we alle benodigde informatie hebben, is het tijd om in de details te duiken. In deze tutorial laten we zien hoe je een compleet Bitcoin node installeert met UmbrelOS.
+Nu we alle benodigde informatie hebben, is het tijd om in de details te duiken. In deze tutorial laten we zien hoe je een complete Bitcoin node installeert met UmbrelOS.
 
 
 

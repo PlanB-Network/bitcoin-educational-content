@@ -1064,7 +1064,7 @@ Nu we alle softwaremogelijkheden hebben bekeken, gaan we ons richten op de hardw
 
 
 
-De afgelopen jaren zijn bitcoiners zich steeds meer bewust geworden van een veelvoorkomende misvatting, vooral met de popularisering van node-in-a-box begin jaren 2020: een Bitcoin node moet noodzakelijkerwijs draaien op een machine die uitsluitend voor dit doel is bedoeld. Maar dit is niet waar. Je hebt niet per se een speciale computer nodig om een Bitcoin node te draaien: Bitcoin core kan prima op een gewone PC draaien. Als je voldoende schijfruimte hebt voor Blockchain of snoeien inschakelt, kun je de keten valideren, je Wallet aansluiten en zelfs het programma afsluiten als je klaar bent met het gebruik ervan. Het voordeel van deze aanpak is aanzienlijk: geen initiële investering en minimale complexiteit.
+De afgelopen jaren zijn bitcoiners zich steeds meer bewust geworden van een veelvoorkomende misvatting, vooral met de popularisering van node-in-a-box begin jaren 2020: een Bitcoin node moet noodzakelijkerwijs draaien op een machine die uitsluitend voor dit doel is bedoeld. Maar dit is niet waar. Je hebt niet per se een speciale computer nodig om een Bitcoin node te draaien: Bitcoin core kan prima op een gewone PC draaien. Als je voldoende schijfruimte hebt voor Blockchain of pruning inschakelt, kun je de keten valideren, je wallet aansluiten en zelfs het programma afsluiten als je klaar bent met het gebruik ervan. Het voordeel van deze aanpak is aanzienlijk: geen initiële investering en minimale complexiteit.
 
 
 
@@ -1084,7 +1084,7 @@ Dat gezegd hebbende, is het gebruik van een dedicated machine vaak comfortabeler
 
 
 
-Het is de meest economische oplossing. De meesten van ons hebben thuis, of bij vrienden en familie, wel een oude PC staan die Dust verzamelt: dit is de perfecte gelegenheid om hem weer in gebruik te nemen! Om hem aan te passen voor gebruik als Bitcoin node, voeg je gewoon een 2TB SSD toe en, afhankelijk van je behoeften, vervang of voeg je RAM-bars toe om het RAM-geheugen te vergroten. Reken op een prijs tussen €100 en €200 voor een volledig functionele machine.
+Het is de meest economische oplossing. De meesten van ons hebben thuis, of bij vrienden en familie, wel een oude PC staan die onder het stof ligt: dit is de perfecte gelegenheid om hem weer in gebruik te nemen! Om hem aan te passen voor gebruik als Bitcoin node, voeg je gewoon een 2TB SSD toe en, afhankelijk van je behoeften, vervang of voeg je RAM-bars toe om het RAM-geheugen te vergroten. Reken op een prijs tussen €100 en €200 voor een volledig functionele machine.
 
 
 
@@ -1168,7 +1168,7 @@ Het is een uitstekend goedkoop alternatief voor de mini-pc: tegenwoordig kun je 
 
 
 
-**Zwakke punten:** iets hoger stroomverbruik dan een kale Mini-PC, geleidelijke slijtage van de batterij bij 24/7 gebruik met capaciteitsverlies, zeldzaam maar reëel risico van opzwellen van de batterij of thermal runaway bij het ouder worden. Het is vooral dit aspect waardoor ik de mini-PC een betere optie vind dan de laptop: de geleidelijke slijtage van de batterij en de bijbehorende risico's.
+**Zwakke punten:** iets hoger stroomverbruik dan een blanco Mini-PC, geleidelijke slijtage van de batterij bij 24/7 gebruik met capaciteitsverlies, zeldzaam maar reëel risico van opzwellen van de batterij of thermal runaway bij het ouder worden. Het is vooral dit aspect waardoor ik de mini-PC een betere optie vind dan de laptop: de geleidelijke slijtage van de batterij en de bijbehorende risico's.
 
 
 
@@ -1192,7 +1192,7 @@ In het begin van de jaren 2020, met de opkomst van node-in-a-box software, kwam 
 
 
 
-In de praktijk, als je doel alleen is om een Bitcoin node te draaien zonder extra toepassingen, kan een Raspberry Pi voldoende zijn. Maar zodra je Umbrel, Start9 of een rijker ecosysteem (Block explorer, Address indexer, Lightning node, zelf-hostende apps...) wilt gebruiken, bereikt de machine al snel zijn grenzen.
+In de praktijk, als je doel alleen is om een Bitcoin node te draaien zonder extra toepassingen, kan een Raspberry Pi voldoende zijn. Maar zodra je Umbrel, Start9 of een rijker ecosysteem (block explorer, adres indexer, Lightning node, zelf-gehoste apps...) wilt gebruiken, bereikt de machine al snel zijn grenzen.
 
 
 
@@ -1201,9 +1201,9 @@ De Raspberry Pi heeft een aantal nadelen:
 
 
 
-- processors die te slank zijn, met een ARM-architectuur die soms niet compatibel is met bepaalde software of meer handelingen vereist;
-- Gesoldeerd RAM, onmogelijk te upgraden, met beperkte configuraties (vaak maximaal 8 GB);
-- externe dozen voor SSD's die met een kabel zijn verbonden, frequente bronnen van bugs, waardoor de aanschaf van een specifieke kaart nodig is voor een stabiele SSD;
+- processors die te bepertk zijn, met een ARM-architectuur die soms niet compatibel is met bepaalde software of meer handelingen vereist;
+- Gesoldeerde RAM, onmogelijk te upgraden, met beperkte configuraties (vaak maximaal 8 GB);
+- externe behuizing voor SSD's die met een kabel zijn verbonden, frequente bronnen van bugs, waardoor de aanschaf van een specifieke kaart nodig is voor een stabiele SSD;
 - de neiging om snel warm te worden en problemen met de juiste koeling;
 - extra hardware moet aanschaffen (behuizing, ventilator, SSD-kaart, enz.);
 - zeer beperkte connectiviteit.
@@ -1222,7 +1222,7 @@ Historisch gezien was het grote voordeel van SBC's zoals de Raspberry Pi hun pri
 
 
 
-Technisch gezien is het mogelijk om een Bitcoin node op een HDD te draaien. Het probleem is dat alles aanzienlijk langzamer zal gaan, vooral de IBD, die extreem lang zal worden door Bitcoin core's intensieve gebruik van de schijf als cache (vooral voor de UTXO set). Dit is de reden waarom ik het gebruik van een HDD sterk afraad: het creëert een echte bottleneck, beperkt de toekomstige evolutie ernstig (bijvoorbeeld voor een Lightning node) en kan zelfs leiden tot een synchronisatie mismatch met de Blockchain kop. Bovendien verhoogt de constante stress op de mechanische schijf het risico op vroegtijdige slijtage.
+Technisch gezien is het mogelijk om een Bitcoin node op een HDD te draaien. Het probleem is dat alles aanzienlijk langzamer zal gaan, vooral de IBD, die extreem lang zal worden door Bitcoin core's intensieve gebruik van de schijf als cache (vooral voor de UTXO set). Dit is de reden waarom ik het gebruik van een HDD sterk afraad: het creëert een echte bottleneck, beperkt de toekomstige evolutie ernstig (bijvoorbeeld voor een Lightning node) en kan zelfs leiden tot een synchronisatie mismatch met de blockchain kop. Bovendien verhoogt de constante stress op de mechanische schijf het risico op vroegtijdige slijtage.
 
 
 
@@ -1234,7 +1234,7 @@ SSD's veranderen je gebruikerservaring radicaal: alles wordt sneller en soepeler
 
 
 
-Wat capaciteit betreft, wordt 2 TB geleidelijk het nieuwe redelijke minimum. In de zomer van 2025 nadert Blockchain al de 700 GB, en als je Umbrel, een Address indexer en een paar toepassingen toevoegt, zal een SSD van 1 TB snel verzadigd zijn. Met 2 TB heb je een comfortabele marge voor de komende jaren (in een brede schatting tussen 5 en 15 jaar). Je kunt ook kiezen voor 4TB als je van plan bent om veel applicaties te gebruiken op Umbrel, grote bestanden opslaat in self-hosting, of als je sterk wilt anticiperen op je behoefte aan schijfruimte.
+Wat capaciteit betreft, wordt 2 TB geleidelijk het nieuwe redelijke minimum. In de zomer van 2025 nadert blockchain al de 700 GB, en als je Umbrel, een adres indexer en een paar toepassingen toevoegt, zal een SSD van 1 TB snel verzadigd zijn. Met 2 TB heb je een comfortabele marge voor de komende jaren (ruime schatting tussen 5 en 15 jaar). Je kunt ook kiezen voor 4TB als je van plan bent om veel applicaties te gebruiken op Umbrel, grote bestanden opslaat in self-hosting, of als je sterk wilt anticiperen op je behoefte aan schijfruimte.
 
 
 
@@ -1262,7 +1262,7 @@ Aan de andere kant, als je een node-in-a-box systeem zoals Umbrel of Start9 gebr
 
 
 
-Voor een Umbrel node is de minimale vereiste een dual-core 64-bit processor van Intel of AMD. Als je naast Bitcoin core nog een paar andere toepassingen wilt gebruiken, zal een quad-core (of hoger) echt een verschil maken in de vloeiendheid. Processoren van de 6e tot 10e generatie i5/i7 zijn bijvoorbeeld uitstekende opties op de tweedehandsmarkt.
+Voor een Umbrel node is de minimale vereiste een dual-core 64-bit processor van Intel of AMD. Als je naast Bitcoin core nog een paar andere toepassingen wilt gebruiken, zal een quad-core (of hoger) echt een verschil maken in de soepelheid. Processoren van de 6e tot 10e generatie i5/i7 zijn bijvoorbeeld uitstekende opties op de tweedehandsmarkt.
 
 
 
@@ -1270,7 +1270,7 @@ Voor een Umbrel node is de minimale vereiste een dual-core 64-bit processor van 
 
 
 
-Hieronder stel ik drie concrete configuraties voor, aangepast aan verschillende budgetten en behoeften, met precieze modellen om ze te ondersteunen. Deze keuzes worden als voorbeeld gegeven om de informatie in dit hoofdstuk te illustreren; u bent niet verplicht om precies deze modellen te kiezen. Omdat ik van mening ben dat de Mini-PC op de lange termijn de beste optie is, zal ik dit formaat gebruiken voor de drie voorgestelde configuraties.
+Hieronder stel ik drie concrete configuraties voor, aangepast aan verschillende budgetten en behoeften, met precieze modellen om ze te ondersteunen. Deze keuzes worden als voorbeeld gegeven om de informatie in dit hoofdstuk te illustreren; je bent niet verplicht om precies deze modellen te kiezen. Omdat ik van mening ben dat de Mini-PC op de lange termijn de beste optie is, zal ik dit formaat gebruiken voor de drie voorgestelde configuraties.
 
 
 
@@ -1338,7 +1338,7 @@ De *ASUS NUC 14 Pro* is bijvoorbeeld nieuw verkrijgbaar bij Amazon voor €540. 
 
 
 
-Dit is een extreem comfortabele configuratie, zelfs overkill als het aanvankelijke doel eenvoudigweg is om een Bitcoin node te draaien. Aan de andere kant, als je ten volle wilt profiteren van alle zelf-hostende toepassingen die beschikbaar zijn op Umbrel en Start9, dan is dit vermogensniveau precies goed voor jou.
+Dit is een extreem comfortabele configuratie, zelfs overkill als het aanvankelijke doel eenvoudigweg is om een Bitcoin node te draaien. Aan de andere kant, als je ten volle wilt profiteren van alle zelf-gehoste toepassingen die beschikbaar zijn op Umbrel en Start9, dan is dit vermogensniveau precies goed voor jou.
 
 
 
@@ -1346,7 +1346,7 @@ Dit is een extreem comfortabele configuratie, zelfs overkill als het aanvankelij
 
 
 
-Afhankelijk van je beoogde gebruik kun je kiezen voor een 2TB SSD, zoals in de andere configuraties, of direct voor een 4TB SSD voor €260 als je ook persoonlijke bestanden wilt opslaan en je self-hosting gebruik wilt uitbreiden. Met een 2TB SSD bedragen de totale kosten van de configuratie €660, terwijl dit met een 4TB SSD €800 is.
+Afhankelijk van je beoogde gebruik kun je kiezen voor een 2TB SSD, zoals in de andere configuraties, of direct voor een 4TB SSD voor €260 als je ook persoonlijke bestanden wilt opslaan en je zelf-hosting gebruik wilt uitbreiden. Met een 2TB SSD bedragen de totale kosten van de configuratie €660, terwijl dit met een 4TB SSD €800 is.
 
 
 
@@ -1374,7 +1374,7 @@ Afhankelijk van je beoogde gebruik kun je kiezen voor een 2TB SSD, zoals in de a
 
 
 
-- Gebruik altijd de originele Supply voeding van de fabrikant voor uw machine. Dit is cruciaal om schade aan uw apparatuur te voorkomen en het risico op brand te vermijden.
+- Gebruik altijd de originele stroomvoorziening van de fabrikant voor uw machine. Dit is cruciaal om schade aan uw apparatuur te voorkomen en het risico op brand te vermijden.
 
 
 
@@ -1392,7 +1392,7 @@ Afhankelijk van je beoogde gebruik kun je kiezen voor een 2TB SSD, zoals in de a
 
 
 
-- Vergeet tot slot niet om de koeling van je machine te optimaliseren: maak hem regelmatig schoon en installeer hem op een koele, goed geventileerde, onoverzichtelijke plek om oververhitting te voorkomen, wat kan leiden tot throttling (vrijwillige beperking van de snelheid van je processor).
+- Vergeet tot slot niet om de koeling van je machine te optimaliseren: maak hem regelmatig schoon en installeer hem op een koele, goed geventileerde, overzichtelijke plek om oververhitting te voorkomen, wat kan leiden tot throttling (vrijwillige beperking van de snelheid van je processor).
 
 
 

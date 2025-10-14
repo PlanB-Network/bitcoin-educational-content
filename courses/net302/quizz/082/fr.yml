@@ -6,4 +6,4 @@ wrong_answers:
   - route
 explanation: |
   ip neigh, issu de la suite iproute2, remplace arp pour gérer les associations IP/MAC sur Linux moderne.
-reviewed: false
+reviewed: true 

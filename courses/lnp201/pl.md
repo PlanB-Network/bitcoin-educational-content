@@ -71,6 +71,25 @@ Na koniec szkolenia podsumujemy omówione koncepcje i utorujemy drogę bardziej 
 Gotowy do odkrycia technicznych mechanizmów sieci Lightning? Zaczynajmy!
 
 
+---
+
+*Oto kilka terminów, które napotkasz na schematach kursu w języku angielskim, wraz z ich tłumaczeniem, aby pomóc ci lepiej je zrozumieć w twoim języku:*
+
+| Angielski          | Tłumaczenie - wyjaśnienie     |
+| ------------------ | ----------------------------- |
+| *timelock*         | Blokada czasowa               |
+| *Revocation Key*   | Klucz odwołania               |
+| *invoice*          | Faktura / żądanie płatności   |
+| *sig* (signature)  | Podpis                        |
+| *secret*           | Sekret                        |
+| *amount*           | Kwota                         |
+| *scan QR code*     | Zeskanuj kod QR               |
+| *Show QR code*     | Pokaż kod QR                  |
+| *Asks the invoice* | Prosi o fakturę               |
+| *Give the invoice* | Dostarcza fakturę             |
+| *Payment*          | Płatność                      |
+| *Preimage*         | Przedobraz                    |
+
 # Podstawy
 
 
@@ -99,7 +118,7 @@ Przed zbadaniem aspektu „sieci” ważne jest, aby zrozumieć koncepcję **kan
 Kanał płatności pozwala dwóm stronom, nazwanym tutaj **Alicja** i **Bob**, na wymianę funduszy przez sieć Lightning. Każda postać ma węzeł sieci, symbolizowany przez okrąg, a kanał między nimi jest reprezentowany przez odcinek linii.
 
 
-![LNP201](assets/en/01.webp)
+![LNP201](assets/en/001.webp)
 
 
 W naszym przykładzie Alicja ma 100 000 satów po swojej stronie kanału, a Bob ma 30 000 satów, co daje łącznie 130 000 satów, co stanowi **przepustowość kanału**.
@@ -117,13 +136,13 @@ W naszym przykładzie Alicja ma 100 000 satów po swojej stronie kanału, a Bob 
 Wróćmy do kanału płatności. Kluczowym pojęciem jest tutaj „**strona kanału**”. Każdy uczestnik ma środki po swojej stronie kanału: Alicja 100 000 satów, a Bob 30 000. Jak widzieliśmy, suma tych środków reprezentuje całkowitą pojemność kanału, liczbę ustaloną w momencie jego otwarcia.
 
 
-![LNP201](assets/en/02.webp)
+![LNP201](assets/en/002.webp)
 
 
 Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów do Boba, jest to możliwe, ponieważ ma wystarczającą ilość środków (100 000 satów). Po tej transakcji Alicja będzie miała po swojej stronie 60 000 satów, a Bob 70 000.
 
 
-![LNP201](assets/en/03.webp)
+![LNP201](assets/en/003.webp)
 
 
 **Pojemność kanału**, wynosząca 130 000 satów, pozostaje stała. To, co się zmienia, to alokacja środków. System ten nie pozwala na wysyłanie większej ilości środków niż się posiada. Na przykład, jeśli Bob chciałby odesłać Alicji 80 000 satów, nie mógłby, ponieważ ma tylko 70 000.
@@ -132,7 +151,7 @@ Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów
 Inny sposób wyobrażenia sobie alokacji środków to wyobrażenie sobie **kursora**, który wskazuje, gdzie znajdują się środki w kanale. Na początku, gdy Alicja ma 100 000 satów, a Bob 30 000, kursor jest bardziej po stronie Boba, ponieważ Alicja ma znacznie więcej środków. Po transakcji na 40 000 satów kursor przesunie się nieco w stronę Alicji, która teraz posiada 60 000 satów.
 
 
-![LNP201](assets/en/04.webp)
+![LNP201](assets/en/004.webp)
 
 
 Ta reprezentacja może być przydatna do wyobrażenia sobie równowagi funduszy w kanale.
@@ -197,7 +216,7 @@ Transakcja Bitcoin polega na wysłaniu środków z jednego adresu do drugiego. W
 Najpopularniejszy skrypt wymaga podpisu kluczem prywatnym powiązanym z adresem. Kiedy Alicja podpisuje transakcję swoim kluczem prywatnym, **odblokowuje skrypt**, który blokuje środki, a następnie może je przelać. Transfer środków polega na dodaniu nowego skryptu do tych środków, określającego, że tym razem do ich wydania wymagany będzie podpis kluczem prywatnym **Boba**.
 
 
-![LNP201](assets/en/05.webp)
+![LNP201](assets/en/005.webp)
 
 
 ### UTXOs: Niewykorzystane środki z poprzednich transakcji
@@ -220,7 +239,7 @@ Oto przykład transakcji z 2 wyjściami:
 - UTXO w wysokości 0,0005 BTC dla Alicji, zablokowany przez skrypt wymagający jej własnego podpisu.
 
 
-![LNP201](assets/en/06.webp)
+![LNP201](assets/en/006.webp)
 
 
 ### Adresy z wieloma podpisami
@@ -229,13 +248,13 @@ Oto przykład transakcji z 2 wyjściami:
 Oprócz prostych adresów generowanych z jednego klucza publicznego, możliwe jest tworzenie **adresów wielopodpisowych** z wielu kluczy publicznych. Szczególnie interesującym przypadkiem w sieci Lightning jest **2/2 adres wielopodpisowy**, wygenerowany z dwóch kluczy publicznych:
 
 
-![LNP201](assets/en/07.webp)
+![LNP201](assets/en/007.webp)
 
 
 Aby wydać środki zablokowane za pomocą adresu z wieloma podpisami 2/2, konieczne jest podpisanie za pomocą dwóch kluczy prywatnych powiązanych z kluczami publicznymi.
 
 
-![LNP201](assets/en/08.webp)
+![LNP201](assets/en/008.webp)
 
 
 Ten typ adresu jest dokładnym odwzorowaniem łańcucha bloków Bitcoina dla kanałów płatności w sieci Lightning.
@@ -278,7 +297,7 @@ W tym rozdziale zobaczymy dokładniej, jak otworzyć kanał płatności w sieci 
 Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** w sieci Lightning można porównać do „rury” do wymiany środków między dwoma uczestnikami (**Alicja** i **Bob** w naszych przykładach). Przepustowość tego kanału odpowiada sumie dostępnych środków po każdej ze stron. W naszym przykładzie Alicja ma **100 000 satów**, a Bob ma **30 000 satów**, co daje **całkowitą przepustowość** wynoszącą **130 000 satów**.
 
 
-![LNP201](assets/en/09.webp)
+![LNP201](assets/en/009.webp)
 
 
 ### Poziomy wymiany informacji
@@ -293,7 +312,7 @@ Kluczowe jest wyraźne rozróżnienie różnych poziomów wymiany w sieci Lightn
 - **Transakcje w sieci Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu bloków, które przedstawimy za pomocą pomarańczowych linii.
 
 
-![LNP201](assets/en/10.webp)
+![LNP201](assets/en/010.webp)
 
 
 Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwem protokołu P2P bez otwierania kanału, ale do wymiany funduszy niezbędny jest kanał.
@@ -306,42 +325,42 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 - **Wymiana wiadomości**: Alicja chce otworzyć kanał z Bobem. Wysyła mu wiadomość zawierającą kwotę, którą chce zdeponować w kanale (130 000 satów) oraz swój klucz publiczny. Bob odpowiada, udostępniając swój klucz publiczny.
 
 
-![LNP201](assets/en/11.webp)
+![LNP201](assets/en/011.webp)
 
 
 
 - **Utworzenie adresu wielopodpisowego**: Za pomocą tych dwóch kluczy publicznych Alicja tworzy **2/2 adresy wielopodpisowe**, co oznacza, że środki, które zostaną później zdeponowane pod tym adresem, będą wymagały obu podpisów (Alicji i Boba) do wykonania transakcji.
 
 
-![LNP201](assets/en/12.webp)
+![LNP201](assets/en/012.webp)
 
 
 
 - **Transakcja wpłaty**: Alicja przygotowuje transakcję w sieci Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu na ten adres **130 000 satów**. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
 
 
-![LNP201](assets/en/13.webp)
+![LNP201](assets/en/013.webp)
 
 
 
 - **Transakcja wypłaty**: Przed opublikowaniem transakcji wpłaty, Alicja tworzy transakcję wypłaty, aby mogła odzyskać swoje środki w przypadku problemu z Bobem. W rzeczywistości, gdy Alicja opublikuje transakcję wpłaty, jej saty zostaną zablokowane pod adresem z wieloma podpisami 2/2, który do odblokowania wymaga zarówno jej podpisu, jak i podpisu Boba. Alicja chroni się przed ryzykiem, tworząc transakcję wypłaty, która pozwala jej odzyskać środki.
 
 
-![LNP201](assets/en/14.webp)
+![LNP201](assets/en/014.webp)
 
 
 
 - **Podpis Boba**: Alicja wysyła transakcję wpłaty do Boba jako dowód i prosi go o podpisanie transakcji wypłaty. Po uzyskaniu podpisu Boba na transakcji wypłaty, Alicja ma pewność, że będzie w stanie odzyskać swoje środki w dowolnym momencie, ponieważ do odblokowania adresu wielopodpisowego potrzebny jest teraz tylko jej własny podpis.
 
 
-![LNP201](assets/en/15.webp)
+![LNP201](assets/en/015.webp)
 
 
 
 - **Publikacja transakcji wpłaty**: Po uzyskaniu podpisu Boba, Alicja może opublikować transakcję wpłaty w łańcuchu bloków Bitcoina, tym samym oficjalnie otwierając kanał Lightning między dwoma użytkownikami.
 
 
-![LNP201](assets/en/16.webp)
+![LNP201](assets/en/016.webp)
 
 
 ### Kiedy kanał jest otwarty?
@@ -380,7 +399,7 @@ W tym rozdziale odkryjemy techniczne funkcjonowanie przepływu transakcji w kana
 Jak widzieliśmy wcześniej, kanał Lightning rozpoczyna się od **otwarcia** transakcji w sieci Bitcoin. Kanał może zostać **zamknięty** w dowolnym momencie, również za pośrednictwem transakcji w sieci Bitcoin. Pomiędzy tymi dwoma momentami można wykonać prawie nieskończoną liczbę transakcji w kanale, bez przechodzenia przez łańcuch bloków Bitcoina. Zobaczmy, co dzieje się w kanale podczas transakcji.
 
 
-![LNP201](assets/en/17.webp)
+![LNP201](assets/en/017.webp)
 
 
 ### Początkowy stan kanału
@@ -389,7 +408,7 @@ Jak widzieliśmy wcześniej, kanał Lightning rozpoczyna się od **otwarcia** tr
 W momencie otwarcia kanału Alicja zdeponowała **130 000 satów** pod adresem wielopodpisowym kanału. Tak więc w stanie początkowym wszystkie środki są po stronie Alicji. Przed otwarciem kanału Alicja poprosiła Boba o podpisanie **transakcji wypłaty**, która pozwoliłaby jej odzyskać środki, gdyby chciała zamknąć kanał.
 
 
-![LNP201](assets/en/18.webp)
+![LNP201](assets/en/018.webp)
 
 
 ### Niepublikowane transakcje: transakcje zobowiązujące
@@ -407,7 +426,7 @@ Weźmy przykład z Alicją wysyłającą 30 000 satów do Boba:
 
 Aby zweryfikować ten transfer, Alicja i Bob tworzą nową **nieopublikowaną transakcję w sieci Bitcoin**, która z adresu wielopodpisowego wysyła **100 000 satów do Alicji** i **30 000 satów do Boba**. Obie strony tworzą tę transakcję niezależnie, ale z tymi samymi danymi (kwoty i adresy). Po utworzeniu transakcji, każda ze stron ją podpisuje i wymienia swój podpis z drugą stroną. Pozwala to każdej ze stron na opublikowanie transakcji w dowolnym momencie, jeśli jest to konieczne, aby odzyskać swój udział w kanale w głównym łańcuchu bloków Bitcoina.
 
-![LNP201](assets/en/19.webp)
+![LNP201](assets/en/019.webp)
 
 
 ### Proces przelewania środków: Faktura
@@ -419,7 +438,7 @@ Kiedy Bob chce otrzymać środki, wysyła Alicji **_fakturę_** na 30 000 satów
 Każda transakcja zobowiązująca reprezentuje nowy podział środków w kanale po transferze. W tym przykładzie po transakcji Bob ma 30 000 satów, a Alicja 100 000 satów. Jeśli którykolwiek z dwóch uczestników zdecyduje się opublikować transakcję zobowiązującą w łańcuchu bloków, spowoduje to zamknięcie kanału, a środki zostaną rozdzielone zgodnie z ostatnią dystrybucją.
 
 
-![LNP201](assets/en/20.webp)
+![LNP201](assets/en/020.webp)
 
 
 ### Nowy stan po drugiej transakcji
@@ -433,7 +452,7 @@ Weźmy inny przykład: po pierwszej transakcji, w której Alicja wysłała Bobow
 - **Bob** ma **20 000 satów**.
 
 
-![LNP201](assets/en/21.webp)
+![LNP201](assets/en/021.webp)
 
 
 Ponownie, transakcja ta nie jest publikowana w łańcuchu bloków, ale może zostać opublikowana w dowolnym momencie poprzez zamknięcie kanału.
@@ -477,7 +496,7 @@ Weźmy prosty przykład:
   - Bob: **70,000 satów**
 
 
-![LNP201](assets/en/22.webp)
+![LNP201](assets/en/022.webp)
 
 
 W dowolnym momencie obie strony mogą opublikować **najnowszą transakcję zobowiązującą** podpisaną w celu zamknięcia kanału i odzyskania środków.
@@ -489,13 +508,13 @@ W dowolnym momencie obie strony mogą opublikować **najnowszą transakcję zobo
 Potencjalny problem pojawia się, gdy jedna ze stron zdecyduje się **oszukać**, publikując starą transakcję zobowiązującą. Na przykład, Alicja może opublikować starszą transakcję zobowiązującą, w której miała **100 000 satów**, mimo że w rzeczywistości ma tylko **60 000**. To pozwoliłoby jej ukraść Bobowi **40 000 satów**.
 
 
-![LNP201](assets/en/23.webp)
+![LNP201](assets/en/023.webp)
 
 
 Co gorsza, Alicja mogła opublikować pierwszą transakcję wypłaty, tę przed otwarciem kanału, w której miała **130 000 satów**, a tym samym ukraść wszystkie fundusze z kanału.
 
 
-![LNP201](assets/en/24.webp)
+![LNP201](assets/en/024.webp)
 
 
 ### Rozwiązanie: klucz odwołania i blokada czasowa
@@ -511,7 +530,7 @@ Aby zapobiec tego rodzaju oszustwom ze strony Alicji, w sieci Lightning do trans
 Dzięki tym dwóm połączonym mechanizmom Bob ma czas na wykrycie próby oszustwa Alicji i ukaranie jej poprzez odzyskanie swoich danych wyjściowych za pomocą klucza unieważniającego, co dla Boba oznacza odzyskanie wszystkich środków z kanału. Nasza nowa transakcjia zobowiązująca będzie teraz wyglądała następująco:
 
 
-![LNP201](assets/en/25.webp)
+![LNP201](assets/en/025.webp)
 
 
 Prześledźmy razem działanie tego mechanizmu.
@@ -535,7 +554,7 @@ Weźmy przykład, aby dobrze zrozumieć ten proces:
 - **Stan początkowy**: Alicja ma **100 000 satów**, Bob **30 000 satów**.
 
 
-![LNP201](assets/en/26.webp)
+![LNP201](assets/en/026.webp)
 
 
 
@@ -546,14 +565,14 @@ Weźmy przykład, aby dobrze zrozumieć ten proces:
    - Te przelewy pozwalają Alicji wysłać Bobowi **40 000 satów** w sieci Lightning za pośrednictwem ich kanału, a nowe transakcje zobowiązujące odzwierciedlają teraz tę nową dystrybucję środków.
 
 
-![LNP201](assets/en/27.webp)
+![LNP201](assets/en/027.webp)
 
 
 
 - Jeśli Alicja spróbuje opublikować starą transakcję zobowiązującą, w której nadal posiadała **100 000 satów**, Bob, po uzyskaniu klucza unieważnienia, może natychmiast odzyskać środki za pomocą tego klucza, podczas gdy Alicja jest zablokowana przez blokadę czasową.
 
 
-![LNP201](assets/en/28.webp)
+![LNP201](assets/en/028.webp)
 
 
 Nawet jeśli w tym przypadku Bob nie ma niczego do zyskania na oszustwie, jeśli i tak to robi, Alicja również korzysta z symetrycznej ochrony oferującej jej takie same gwarancje.
@@ -589,7 +608,7 @@ W tym rozdziale omówimy **zamykanie kanału** w sieci Lightning, które odbywa 
 **Cykl życia kanału** rozpoczyna się od jego **otwarcia**, poprzez transakcję w sieci Bitcoin, następnie dokonywane są w nim transakcje w sieci Lightning, a na koniec, gdy strony chcą odzyskać swoje środki, kanał jest **zamykany** poprzez drugą transakcję w sieci Bitcoin. Transakcje pośrednie dokonywane w sieci Lightning są reprezentowane przez niepublikowane **transakcje zobowiązujące**.
 
 
-![LNP201](assets/en/29.webp)
+![LNP201](assets/en/029.webp)
 
 
 ### Trzy rodzaje zamknięcia kanału
@@ -612,7 +631,7 @@ Weźmy przykład:
 - Ta dystrybucja jest odzwierciedlona w **2 transakcjach zobowiązujących** (po jednej na użytkownika), które nie są publikowane, ale mogą zostać opublikowane w przypadku zamknięcia kanału.
 
 
-![LNP201](assets/en/30.webp)
+![LNP201](assets/en/030.webp)
 
 
 ### Plusy: zamknięcie współpracy
@@ -626,7 +645,7 @@ We **wspólnym zamknięciu** Alicja i Bob zgadzają się zamknąć kanał. Oto j
 - Bob zgadza się, a obie strony nie dokonują dalszych transakcji w kanale.
 
 
-![LNP201](assets/en/31.webp)
+![LNP201](assets/en/031.webp)
 
 
 
@@ -637,7 +656,7 @@ We **wspólnym zamknięciu** Alicja i Bob zgadzają się zamknąć kanał. Oto j
 Na przykład, jeśli Alicja posiada **100 000 satów**, a Bob **30 000 satów**, transakcja zamykająca wyśle **100 000 satów** na adres Alicji i **30 000 satów** na adres Boba, bez ograniczeń czasowych. Po podpisaniu transakcji przez obie strony jest ona publikowana przez Alicję. Gdy transakcja zostanie potwierdzona w łańcuchu bloków Bitcoina, kanał Lightning zostanie oficjalnie zamknięty.
 
 
-![LNP201](assets/en/32.webp)
+![LNP201](assets/en/032.webp)
 
 
 **Wspólne zamknięcie** jest preferowaną metodą zamknięcia, ponieważ jest szybkie (bez blokady czasowej), a opłaty transakcyjne są dostosowywane do aktualnych warunków rynkowych Bitcoina. Pozwala to uniknąć płacenia zbyt małej kwoty, co mogłoby grozić zablokowaniem transakcji w mempoolach, lub niepotrzebnego przepłacania, co prowadzi do niepotrzebnych strat finansowych dla uczestników.
@@ -651,13 +670,13 @@ Gdy węzeł Alicji wyśle wiadomość do węzła Boba z prośbą o zamknięcie w
 W tym przypadku Alicja po prostu opublikuje ostatnią transakcję zobowiązującą, która odzwierciedla stan kanału w czasie, gdy miała miejsce ostatnia transakcja Lightning z prawidłową dystrybucją środków.
 
 
-![LNP201](assets/en/33.webp)
+![LNP201](assets/en/033.webp)
 
 
 Transakcja ta obejmuje **blokadę czasową** środków Alicji, co spowalnia zamknięcie.
 
 
-![LNP201](assets/en/34.webp)
+![LNP201](assets/en/034.webp)
 
 
 Ponadto opłaty za transakcję zobowiązującą mogą być nieodpowiednie w momencie zamknięcia, ponieważ zostały ustalone w momencie tworzenia transakcji, czasami kilka miesięcy wcześniej. Ogólnie rzecz biorąc, klienci sieci Lightning zawyżają opłaty, aby uniknąć przyszłych problemów, ale może to prowadzić do zbyt wysokich opłat lub odwrotnie, zbyt niskich.
@@ -672,13 +691,13 @@ Podsumowując, **zamknięcie wymuszone** jest opcją ostateczną, gdy partner pr
 Wreszcie, zamknięcie z **oszustwem** ma miejsce, gdy jedna ze stron próbuje opublikować starą transakcję zobowiązującą, często wtedy, gdy posiadała więcej środków niż powinna. Na przykład Alicja może opublikować starą transakcję, w której posiadała **120 000 satów**, podczas gdy w rzeczywistości posiada tylko **100 000 satów**.
 
 
-![LNP201](assets/en/35.webp)
+![LNP201](assets/en/035.webp)
 
 
 Bob, aby zapobiec temu oszustwu, monitoruje łańcuch bloków Bitcoina i jego mempool, aby upewnić się, że Alicja nie opublikuje starej transakcji. Jeśli Bob wykryje próbę oszustwa, może użyć **klucza odwołania**, aby odzyskać środki Alicji i ukarać ją, zabierając wszystkie środki z kanału. Ponieważ Alicja jest zablokowana przez blokadę czasową na swoim wyjściu, Bob ma czas na wydanie środków bez blokady czasowej po swojej stronie, aby odzyskać całą sumę na adres, którego jest właścicielem.
 
 
-![LNP201](assets/en/36.webp)
+![LNP201](assets/en/036.webp)
 
 
 Oczywiście oszustwo może potencjalnie zakończyć się sukcesem, jeśli Bob nie podejmie działania w czasie narzuconym przez blokadę czasową wyjścia Alicji. W takim przypadku dane wyjściowe Alicji są odblokowane, co pozwala jej wykorzystać je do utworzenia nowych danych wyjściowych dla kontrolowanego przez nią adresu.
@@ -734,7 +753,7 @@ Wyobraźmy sobie za przykład taką sytuację:
 - **Suzie** ma kanał z **Bobem**, na którym posiada **250 000 satów**, a Bob nie posiada żadnych satów.
 
 
-![LNP201](assets/en/37.webp)
+![LNP201](assets/en/037.webp)
 
 
 Jeśli Alicja chce wysłać środki do Boba bez otwierania z nim bezpośredniego kanału, będzie musiała przejść przez Suzie, a każdy kanał będzie musiał dostosować płynność po obu stronach. **Wysłane saty pozostają w obrębie swoich kanałów**; w rzeczywistości nie „przekraczają” kanałów, ale transfer odbywa się poprzez dostosowanie wewnętrznej płynności w każdym kanale.
@@ -748,7 +767,7 @@ Załóżmy, że Alicja chce wysłać **50 000 satów** Bobowi:
 - **Suzie** replikuje ten transfer wysyłając 50 000 satów **Bobowi** na ich kanale.
 
 
-![LNP201](assets/en/38.webp)
+![LNP201](assets/en/038.webp)
 
 
 W ten sposób płatność jest kierowana do Boba poprzez ruch płynności w każdym kanale. Na koniec operacji Alicja otrzymuje 50 000 satów. Rzeczywiście przekazała 50 000 satów, ponieważ początkowo miała ich 100 000. Bob, po swojej stronie, otrzymuje dodatkowe 50 000 satów. Dla Suzie (węzła pośredniego) operacja ta jest neutralna: początkowo miała 30 000 satów w swoim kanale z Alicją i 250 000 satów w swoim kanale z Bobem, łącznie 280 000 satów. Po operacji posiada 80 000 satów w swoim kanale z Alicją i 200 000 satów w swoim kanale z Bobem, co jest taką samą sumą jak na początku.
@@ -769,7 +788,7 @@ Weźmy teoretyczny przykład innej sieci:
 - **150 000 satów** po stronie **Carol** i **100 000 satów** po stronie **Boba**.
 
 
-![LNP201](assets/en/39.webp)
+![LNP201](assets/en/039.webp)
 
 
 Maksymalna kwota, jaką Alicja może wysłać Bobowi w tej konfiguracji, wynosi **90 000 satów**, ponieważ jest ona ograniczona przez najmniejszą płynność dostępną w kanale między **Suzie a Carol**. W przeciwnym kierunku (między Bobem a Alicją) płatność nie jest możliwa, ponieważ strona **Suzie** w kanale z **Alicją** nie zawiera żadnych satów. W związku z tym nie ma **żadnej trasy** nadającej się do transferu w tym kierunku.
@@ -783,13 +802,13 @@ Alicja wysyła Bobowi kanałami **40 000 satów**:
 - Carol ostatecznie przekazuje Bobowi 40 000 satów.
 
 
-![LNP201](assets/en/40.webp)
+![LNP201](assets/en/040.webp)
 
 
 **Saty wysłane** w każdym kanale **pozostają w tym kanale**, więc saty wysłane Bobowi przez Carol nie są takie same jak te wysłane przez Alicję do Suzie. Transfer odbywa się tylko poprzez dostosowanie płynności wewnątrz każdego kanału. Co więcej, całkowita pojemność kanałów pozostaje niezmieniona.
 
 
-![LNP201](assets/en/41.webp)
+![LNP201](assets/en/041.webp)
 
 
 Podobnie jak w poprzednim przykładzie, po transakcji węzeł źródłowy (Alicja) ma 40 000 satów mniej. Węzły pośrednie (Suzie i Carol) zachowują tę samą łączną kwotę, dzięki czemu operacja jest dla nich neutralna. Wreszcie, węzeł docelowy (Bob) otrzymuje dodatkowe 40 000 satów.
@@ -820,7 +839,7 @@ Na przykład, dla kanału między Alicją a Suzie, możemy mieć:
 - **Suzie**: opłata podstawowa w wysokości 0,5 sata i 10 ppm dla opłat zmiennych.
 
 
-![LNP201](assets/en/42.webp)
+![LNP201](assets/en/042.webp)
 
 
 Aby lepiej zrozumieć, jak działają opłaty, przeanalizujmy tę sama sieć Lightning, co poprzednio, ale teraz z następującymi opłatami za routing:
@@ -831,7 +850,7 @@ Aby lepiej zrozumieć, jak działają opłaty, przeanalizujmy tę sama sieć Lig
 - Kanał **Suzie - Carol**: opłata podstawowa 0 satów i 200 ppm dla Suzie.
 - Kanał **Carol - Bob**: opłata podstawowa w wysokości 1 sata i 1 ppm dla Suzie 2.
 
-![LNP201](assets/en/43.webp)
+![LNP201](assets/en/043.webp)
 
 
 Aby dokonać tej samej płatności w wysokości **40 000 satów** na rzecz Boba, Alicja będzie musiała wysłać nieco więcej, ponieważ każdy węzeł pośredniczący potrąci swoje opłaty:
@@ -856,13 +875,13 @@ $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 Całkowite opłaty za tę płatność na tej ścieżce wynoszą zatem **9,04 satów**. Zatem Alicja musi wysłać **40 009,04 satów**, aby Bob otrzymał dokładnie **40 000 satów**.
 
 
-![LNP201](assets/en/44.webp)
+![LNP201](assets/en/044.webp)
 
 
 Płynność jest zatem aktualizowana:
 
 
-![LNP201](assets/en/45.webp)
+![LNP201](assets/en/045.webp)
 
 
 ### Routowanie warstwowe
@@ -912,13 +931,13 @@ Kwestią, która pojawia się w przypadku routingu płatności, jest zatem niezb
 Alicja chce wysłać 40 000 satów Bobowi, ale nie ma z nim bezpośredniego kanału i nie chce go otwierać. Szuka trasy i decyduje się przejść przez węzeł Suzie.
 
 
-![LNP201](assets/en/46.webp)
+![LNP201](assets/en/046.webp)
 
 
 Jeśli Alicja naiwnie wyśle 40 000 satów Suzie, mając nadzieję, że Suzie przeleje tę sumę Bobowi, Suzie może zatrzymać środki dla siebie i nie przekaże niczego Bobowi.
 
 
-![LNP201](assets/en/47.webp)
+![LNP201](assets/en/047.webp)
 
 Aby uniknąć takiej sytuacji, w sieci Lightning używamy kontraktów HTLC (Hashed Time-Locked Contracts), które sprawiają, że płatność do węzła pośredniczącego jest warunkowa, co oznacza, że Suzie musi spełnić określone warunki, aby uzyskać dostęp do środków Alicji i przekazać je Bobowi.
 
@@ -937,7 +956,7 @@ HTLC jest specjalnym kontraktem opartym na dwóch zasadach:
 Oto jak ten proces działa w naszym przykładzie z Alicją, Suzie i Bobem:
 
 
-![LNP201](assets/en/48.webp)
+![LNP201](assets/en/048.webp)
 
 
 **Tworzenie sekretu**: Bob generuje losowy sekret oznaczony jako _s_ (obraz wstępny) i oblicza jego hasz oznaczony jako _r_ za pomocą funkcji hasz oznaczonej jako _h_. Mamy:
@@ -951,13 +970,13 @@ $$
 Użycie funkcji hasz uniemożliwia znalezienie _s_ tylko z _h(s)_, ale jeśli _s_ jest podane, łatwo jest zweryfikować, że odpowiada _h(s)_.
 
 
-![LNP201](assets/en/49.webp)
+![LNP201](assets/en/049.webp)
 
 
 **Wysłanie żądania płatności**: Bob wysyła **fakturę** Alicji z prośbą o płatność. Ta faktura zawiera hasz _r_.
 
 
-![LNP201](assets/en/50.webp)
+![LNP201](assets/en/050.webp)
 
 
 **Wysłanie płatności warunkowej**: Alicja wysyła Suzie kontrakt HTLC w wysokości 40 000 satów. Warunkiem otrzymania tych środków przez Suzie jest dostarczenie Alicji tajnego _s'_ spełniającego następujące równanie:
@@ -968,7 +987,7 @@ h(s') = r
 $$
 
 
-![LNP201](assets/en/51.webp)
+![LNP201](assets/en/051.webp)
 
 
 **Przekazanie kontraktu HTLC ostatecznemu odbiorcy**: Suzie, aby otrzymać 40 000 satów od Alicji, musi przekazać Bobowi podobny kontrakt HTLC o wartości 40 000 satów, który ma ten sam warunek, a mianowicie musi dostarczyć Suzie sekret _s'_, który spełnia równanie:
@@ -979,13 +998,13 @@ h(s') = r
 $$
 
 
-![LNP201](assets/en/52.webp)
+![LNP201](assets/en/052.webp)
 
 
 **Weryfikacja przez tajne _s_**: Bob przekazuje _s_ Suzie, aby otrzymać 40 000 satów obiecanych w kontrakcie HTLC. Dzięki temu sekretowi Suzie może odblokować HTLC Alicji i otrzymać od niej 40 000 satów. Płatność jest następnie prawidłowo kierowana do Boba.
 
 
-![LNP201](assets/en/53.webp)
+![LNP201](assets/en/053.webp)
 
 Proces ten uniemożliwia Suzie zatrzymanie środków Alicji bez ukończenia transferu do Boba, ponieważ musi ona wysłać płatność do Boba, aby uzyskać tajne _s_, a tym samym odblokować kontrakt HTLC Alicji. Operacja pozostaje taka sama, nawet jeśli trasa obejmuje kilka węzłów pośredniczących: jest to po prostu kwestia powtórzenia kroków Suzie dla każdego węzła pośredniczącego. Każdy węzeł jest chroniony przez warunki kontraktu HTLC, ponieważ odblokowanie ostatniego HTLC przez odbiorcę automatycznie uruchamia odblokowanie wszystkich innych HTLC w kaskadzie.
 
@@ -996,19 +1015,19 @@ Proces ten uniemożliwia Suzie zatrzymanie środków Alicji bez ukończenia tran
 Jeśli podczas procesu płatności jeden z węzłów pośredniczących lub węzeł odbiorcy przestanie odpowiadać, szczególnie w przypadku awarii Internetu lub zasilania, wówczas płatność nie może zostać zakończona, ponieważ sekret potrzebny do odblokowania kontraktu HTLC nie został przesłany. W naszym przykładzie z Alicją, Suzie i Bobem, problem ten wystąpi na przykład, gdy Bob nie prześle Suzie sekretu _s_. W takim przypadku wszystkie kontrakty HTLC znajdujące się przed ścieżką i zabezpieczone przez nie środki zostaną zablokowane.
 
 
-![LNP201](assets/en/54.webp)
+![LNP201](assets/en/054.webp)
 
 
 Aby tego uniknąć, kontrakty HTLC w sieci Lightning mają okres ważności, który pozwala na usunięcie HTLC, jeśli nie zostanie on ukończony po określonym czasie. Wygaśnięcie następuje w określonej kolejności, ponieważ zaczyna się najpierw od kontraktu HTLC najbliższego odbiorcy, a następnie stopniowo przesuwa się w górę do emitenta transakcji. W naszym przykładzie, jeśli Bob nigdy nie przekaże tajemnicy _s_ Suzie, spowoduje to wygaśnięcie HTLC Suzie wobec Boba.
 
 
-![LNP201](assets/en/55.webp)
+![LNP201](assets/en/055.webp)
 
 
 Następnie HTLC od Alicji do Suzie.
 
 
-![LNP201](assets/en/56.webp)
+![LNP201](assets/en/056.webp)
 
 
 Gdyby kolejność wygaśnięcia została odwrócona, Alicja mogłaby odzyskać swoją płatność, zanim Suzie zdołałaby uchronić się przed potencjalnym oszustwem. Rzeczywiście, jeśli Bob wróciłby, aby odebrać swój kontrakt HTLC, podczas gdy Alicja już usunęła swój, Suzie znalazłaby się w niekorzystnej sytuacji. Ta kaskadowa kolejność wygasania HTLC zapewnia zatem, że żaden węzeł pośredniczący nie ponosi nieuczciwych strat.
@@ -1019,19 +1038,19 @@ Gdyby kolejność wygaśnięcia została odwrócona, Alicja mogłaby odzyskać s
 
 Transakcje zobowiązujące reprezentują kontrakty HTLC w taki sposób, że warunki, które nakładają na sieć Lightning, mogą zostać przeniesione do sieci Bitcoin w przypadku wymuszonego zamknięcia kanału w trakcie życia HTLC. Dla przypomnienia, transakcje zobowiązujące reprezentują aktualny stan kanału między dwoma użytkownikami i pozwalają na jednostronne wymuszone zamknięcie w przypadku wystąpienia problemów. Z każdym nowym stanem kanału tworzone są 2 transakcje zobowiązujące: po jednej dla każdej ze stron. Powróćmy do naszego przykładu z Alicją, Suzie i Bobem, ale przyjrzyjmy się bliżej temu, co dzieje się na poziomie kanału między Alicją i Suzie, gdy tworzony jest kontrakt HTLC.
 
-![LNP201](assets/en/57.webp)
+![LNP201](assets/en/057.webp)
 
 
 Przed rozpoczęciem płatności na 40 000 satów między Alicją a Bobem, Alicja posiada 100 000 satów w swoim kanale z Suzie, podczas gdy Suzie posiada 30 000 satów. Ich transakcje zobowiązujące wyglądają następująco:
 
 
-![LNP201](assets/en/58.webp)
+![LNP201](assets/en/058.webp)
 
 
 Alicja właśnie otrzymała fakturę Boba, która zawiera _r_, hasz sekretu. Może więc skonstruować kontrakt HTLC o wartości 40 000 satów z Suzie. Ten HTLC jest reprezentowany w ostatnich transakcjach zobowiązujących jako wyjście o nazwie „**_HTLC Out_**” po stronie Alicji, ponieważ fundusze są wychodzące, i „**_HTLC In_**” po stronie Suzie, ponieważ fundusze są przychodzące.
 
 
-![LNP201](assets/en/59.webp)
+![LNP201](assets/en/059.webp)
 
 
 Te wyjścia powiązane z kontraktem HTLC mają dokładnie takie same warunki, a mianowicie:
@@ -1049,7 +1068,7 @@ Ponadto, jeśli kanał zostanie zamknięty, podczas gdy kilka kontraktów HTLC j
 
 Jeśli kanał nie zostanie zamknięty, to po wygaśnięciu lub dokonaniu płatności Lightning tworzone są nowe transakcje zobowiązujące, aby odzwierciedlić nowy, teraz stabilny stan kanału, czyli bez żadnych oczekujących kontraktów HTLC. Dane wyjściowe związane z HTLC można zatem usunąć z transakcji zobowiązującej.
 
-![LNP201](assets/en/60.webp)
+![LNP201](assets/en/060.webp)
 
 
 Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest kontrakt HTLC, Alicja i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających kontraktów HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
@@ -1088,11 +1107,11 @@ W poprzednich rozdziałach zobaczyliśmy, jak korzystać z kanałów innych węz
 Jak widzieliśmy, w sieci Lightning to węzeł wysyłający płatność musi obliczyć pełną trasę do odbiorcy, ponieważ używamy systemu routingu warstwowego. Węzły pośredniczące nie znają ani punktu początkowego, ani ostatecznego miejsca docelowego. Wiedzą tylko, skąd pochodzi płatność i do którego węzła muszą ją następnie przesłać. Oznacza to, że węzeł wysyłający musi utrzymywać dynamiczną lokalną topologię sieci, z istniejącymi węzłami Lightning i kanałami między nimi, biorąc pod uwagę otwarcia, zamknięcia i aktualizacje stanu.
 
 
-![LNP201](assets/en/61.webp)
+![LNP201](assets/en/061.webp)
 
 Nawet przy takiej topologii sieci Lightning, niektóre informacje istotne dla routingu pozostają niedostępne dla węzła wysyłającego - nie widzi on dokładnego rozkładu płynności w kanałach w danym momencie. Rzeczywiście, każdy kanał wyświetla tylko swoją **całkowitą pojemność**, ale wewnętrzna dystrybucja środków jest znana tylko dwóm uczestniczącym węzłom. Stanowi to wyzwanie dla efektywnego routingu, ponieważ powodzenie płatności zależy w szczególności od tego, czy jej kwota jest mniejsza niż najniższa płynność na wybranej trasie. Płynności nie są jednak widoczne dla węzła wysyłającego.
 
-![LNP201](assets/en/62.webp)
+![LNP201](assets/en/062.webp)
 
 
 ### Aktualizacja mapy sieci
@@ -1118,7 +1137,7 @@ Węzły sieci Lightning monitorują również łańcuch bloków Bitcoina w celu 
 Weźmy przykład małej sieci Lightning Network z 7 węzłami: Alicja, Bob, 1, 2, 3, 4 i 5. Wyobraźmy sobie, że Alicja chce wysłać płatność do Boba, ale musi przejść przez węzły pośredniczące.
 
 
-![LNP201](assets/en/63.webp)
+![LNP201](assets/en/063.webp)
 
 
 Oto rzeczywista dystrybucja środków w tych kanałach:
@@ -1135,13 +1154,13 @@ Oto rzeczywista dystrybucja środków w tych kanałach:
 - **Kanał pomiędzy 5 i Bob**: 260 000 satów po stronie 5, 100 000 po stronie Bob (całkowita pojemność 360 000 satów).
 
 
-![LNP201](assets/en/64.webp)
+![LNP201](assets/en/064.webp)
 
 
 Aby dokonać płatności w wysokości 100 000 satów od Alicji do Boba, opcje routingu są ograniczone przez płynność dostępną w każdym kanale. Optymalną trasą dla Alicji, w oparciu o znane rozkłady płynności, może być sekwencja „Alicja → 1 → 2 → 4 → 5 → Bob”:
 
 
-![LNP201](assets/en/65.webp)
+![LNP201](assets/en/065.webp)
 
 
 Ponieważ jednak Alicja nie zna dokładnej dystrybucji środków w każdym kanale, musi oszacować optymalną trasę w sposób probabilistyczny, biorąc pod uwagę następujące kryteria:
@@ -1169,13 +1188,13 @@ Analizując te kryteria, węzeł wysyłający może przetestować najbardziej pr
 Alicja postanawia przetestować swoją pierwszą trasę (`Alicja → 1 → 2 → 5 → Bob`). W związku z tym wysyła kontrakt HTLC w wysokości 100 000 satów do węzła 1. Węzeł ten sprawdza, czy ma wystarczającą płynność z węzłem 2 i kontynuuje transmisję. Węzeł 2 odbiera następnie HTLC z węzła 1, ale zdaje sobie sprawę, że nie ma wystarczającej płynności w swoim kanale z węzłem 5, aby skierować płatność w wysokości 100 000 satów. Następnie wysyła komunikat o błędzie z powrotem do węzła 1, który przesyła go do Alicji. Ta trasa nie powiodła się.
 
 
-![LNP201](assets/en/66.webp)
+![LNP201](assets/en/066.webp)
 
 
 Następnie Alicja próbuje skierować swoją płatność przy użyciu drugiej trasy (`Alicja → 1 → 2 → 4 → 5 → Bob`). Wysyła HTLC o wartości 100 000 satów do węzła 1, który przesyła go do węzła 2, następnie do węzła 4, do węzła 5 i wreszcie do Boba. Tym razem płynność jest wystarczająca, a trasa działa. Każdy węzeł odblokowuje swój HTLC kaskadowo przy użyciu obrazu wstępnego dostarczonego przez Boba (sekret _s_), co pozwala na pomyślne sfinalizowanie płatności Alicji na rzecz Boba.
 
 
-![LNP201](assets/en/67.webp)
+![LNP201](assets/en/067.webp)
 
 
 Poszukiwanie trasy odbywa się w następujący sposób: węzeł wysyłający rozpoczyna od zidentyfikowania najlepszych możliwych tras, a następnie próbuje kolejno dokonywać płatności, aż do znalezienia funkcjonalnej trasy.
@@ -1213,7 +1232,7 @@ W następnym rozdziale zajmiemy się funkcjonowaniem faktur, a także kilkoma in
 W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli żądań płatności wysyłanych przez węzeł odbiorcy do węzła nadawcy. Celem jest zrozumienie, jak płacić i otrzymywać płatności w sieci Lightning. Omówimy również 2 alternatywy dla klasycznych faktur: wypłatę LNURL i keysend.
 
 
-![LNP201](assets/en/68.webp)
+![LNP201](assets/en/068.webp)
 
 
 ### Struktura faktur Lightning
@@ -1333,7 +1352,7 @@ W tradycyjnej transakcji, takiej jak zakupy w sklepie, faktura jest generowana d
 W niektórych sytuacjach, takich jak wypłata bitcoinów za pomocą usługi online, tradycyjny proces jest zbyt uciążliwy. W takich przypadkach funkcja wypłaty **LNURL** upraszcza ten proces, wyświetlając kod QR, który skanuje portfel odbiorcy, aby automatycznie utworzyć fakturę. Następnie usługa płaci fakturę, a użytkownik po prostu widzi natychmiastową wypłatę.
 
 
-![LNP201](assets/en/69.webp)
+![LNP201](assets/en/069.webp)
 
 
 LNURL to protokół komunikacyjny, który określa zestaw funkcji zaprojektowanych w celu uproszczenia interakcji między węzłami Lightning i klientami, a także aplikacjami innych firm. Wypłata LNURL, jak właśnie widzieliśmy, jest więc tylko jednym z przykładów funkcjonalności.
@@ -1352,7 +1371,7 @@ Innym interesującym przypadkiem jest transfer środków bez wcześniejszego otr
 Dla uproszczenia, w tym protokole to nadawca generuje sekret używany w HTLC, a nie odbiorca. W praktyce pozwala to nadawcy na dokonanie płatności bez konieczności wcześniejszej interakcji z odbiorcą.
 
 
-![LNP201](assets/en/70.webp)
+![LNP201](assets/en/070.webp)
 
 
 **Co powinieneś wynieść z tego rozdziału?**
@@ -1397,7 +1416,7 @@ Profile te nie są oczywiście stałe; użytkownik może przełączać się mię
 Aby lepiej to zrozumieć, weźmy przykład prostej sieci składającej się z trzech węzłów: kupującego (Alicja), routera (Suzie) i sprzedawcy (Bob).
 
 
-![LNP201](assets/en/71.webp)
+![LNP201](assets/en/071.webp)
 
 
 Wyobraźmy sobie, że kupujący chce wysłać 30 000 satów do sprzedającego i że płatność przechodzi przez węzeł routera. Każda ze stron musi wtedy posiadać minimalną ilość płynności w kierunku płatności:
@@ -1409,7 +1428,7 @@ Wyobraźmy sobie, że kupujący chce wysłać 30 000 satów do sprzedającego i 
 - Router musi mieć 30 000 satów po stronie płacącego w swoim kanale, a także 30 000 satów po swojej stronie w kanale ze sprzedawcą, aby móc przekierować płatność.
 
 
-![LNP201](assets/en/72.webp)
+![LNP201](assets/en/072.webp)
 
 
 ### Strategie zarządzania płynnością
@@ -1432,14 +1451,14 @@ Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzy
 - **Otwarcie trójkątne**: Istnieją platformy dla węzłów, które chcą wspólnie otwierać kanały, umożliwiając każdemu z nich czerpanie korzyści z natychmiastowej płynności przychodzącej i wychodzącej. Na przykład [LightningNetwork+](https://lightningnetwork.plus/) oferuje taką usługę. Jeśli Alicja, Bob i Suzie chcą otworzyć kanał ze 100 000 satów, mogą uzgodnić na tej platformie, że Alicja otworzy kanał w kierunku Boba, Bob w kierunku Suzie, a Suzie w kierunku Alicji. W ten sposób każdy z nich ma 100 000 satów płynności wychodzącej i 100 000 satów płynności przychodzącej, a jednocześnie ma zablokowanych tylko 100 000 satów.
 
 
-![LNP201](assets/en/73.webp)
+![LNP201](assets/en/073.webp)
 
 
 
 - **Kupowanie kanałów**: Istnieją również usługi wynajmu kanałów Lightning w celu uzyskania płynności przychodzącej, takie jak [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) lub [Lightning Labs Pool](https://lightning.engineering/pool/). Na przykład Alicja może kupić kanał o wartości miliona satów dla swojego węzła, aby móc otrzymywać płatności.
 
 
-![LNP201](assets/en/74.webp)
+![LNP201](assets/en/074.webp)
 
 
 Wreszcie, węzły przekierowujące, których celem jest maksymalizacja liczby przetwarzanych płatności i pobieranych opłat, muszą:
@@ -1456,7 +1475,7 @@ Wreszcie, węzły przekierowujące, których celem jest maksymalizacja liczby pr
 Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału przy jednoczesnym odzyskaniu środków w łańcuchu bloków Bitcoina. Na przykład Alicja wysyła 1 milion satów za pośrednictwem sieci Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach on-chain. Równoważy to jej kanał z 1 milionem satów po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
 
 
-![LNP201](assets/en/75.webp)
+![LNP201](assets/en/075.webp)
 
 
 Usługa ta umożliwia uzyskanie płynności przychodzącej podczas odzyskiwania bitcoinów on-chain, co pomaga ograniczyć unieruchomienie gotówki potrzebnej do akceptowania płatności za pomocą sieci Lightning.
@@ -1506,16 +1525,16 @@ W początkowych rozdziałach zbadaliśmy, w jaki sposób dwie strony, otwierają
 - **Otwarcie kanału**: Utworzenie kanału odbywa się za pośrednictwem transakcji Bitcoin, która blokuje środki adresem wielopodpisowym 2/2. Depozyt ten reprezentuje kanał Lightning w łańcuchu bloków.
 
 
-![LNP201](assets/en/76.webp) 2. **Transakcje w kanale**: W tym kanale można dokonać wielu transakcji bez konieczności publikowania ich w łańcuchu bloków. Każda transkacja Lightning powoduje zmianę w kanale reprezentowaną przez transkacje zobowiązującą.
+![LNP201](assets/en/076.webp) 2. **Transakcje w kanale**: W tym kanale można dokonać wielu transakcji bez konieczności publikowania ich w łańcuchu bloków. Każda transkacja Lightning powoduje zmianę w kanale reprezentowaną przez transkacje zobowiązującą.
 
-![LNP201](assets/en/77.webp)
+![LNP201](assets/en/077.webp)
 
 
 
 - **Zabezpieczenie i zamknięcie**: Uczestnicy zatwierdzają nowy stanu kanału poprzez wymianę kluczy odwołania, aby zabezpieczyć środki i zapobiec wszelkim oszustwom. Obie strony mogą wspólnie zamknąć kanał, dokonując nowej transakcji w łańcuchu bloków Bitcoina lub w ostateczności poprzez zamknięcie wymuszone. Ta ostatnia opcja, choć mniej wydajna, ponieważ jest dłuższa i czasami słabo oceniana pod względem opłat, nadal pozwala na odzyskanie środków. W przypadku oszustwa ofiara może ukarać oszusta, odzyskując wszystkie środki z kanału w łańcuchu bloków.
 
 
-![LNP201](assets/en/78.webp)
+![LNP201](assets/en/078.webp)
 
 
 ### Sieć kanałów
@@ -1528,21 +1547,21 @@ Po omówieniu pojedynczych kanałów, rozszerzyliśmy naszą analizę na sieć k
 - **Routing**: Gdy dwie strony nie są bezpośrednio połączone kanałem, sieć umożliwia routing przez węzły pośredniczące. Płatności są następnie przekazywane z jednego węzła do drugiego.
 
 
-![LNP201](assets/en/79.webp)
+![LNP201](assets/en/079.webp)
 
 
 
 - **Kontrakty HTLC**: Płatności przechodzące przez węzły pośredniczące są zabezpieczone przez „_Hash Time-Locked Contracts_” (HTLC), które pozwalają na zablokowanie środków do momentu całkowitego zakończenia płatności.
 
 
-![LNP201](assets/en/80.webp)
+![LNP201](assets/en/080.webp)
 
 
 
 - **Routing warstwowy**: Aby zapewnić poufność płatności, routing warstwowy maskuje przed węzłami pośredniczącymi ostateczne miejsce docelowe płatności. Węzeł wysyłający musi zatem obliczyć całą trasę, ale wobec braku pełnych informacji na temat płynności kanałów, wykonuje kolejne próby, aby przekierować płatność.
 
 
-![LNP201](assets/en/81.webp)
+![LNP201](assets/en/081.webp)
 
 
 ### Zarządzanie płynnością
@@ -1559,19 +1578,19 @@ Widzieliśmy, że zarządzanie płynnością przepływu płatności jest wyzwani
 - **Przenoszenie płynności**: Wysyłanie płatności do innych kanałów powoduje przeniesienie płynności na przeciwną stronę.
 
 
-![LNP201](assets/en/82.webp)
+![LNP201](assets/en/082.webp)
 
 
 
 - **Korzystanie z usług takich jak Loop i Pool**: Usługi te umożliwiają równoważenie płynności lub kupowanie kanałów z płynnością po przeciwnej stronie.
 
-![LNP201](assets/en/83.webp)
+![LNP201](assets/en/083.webp)
 
 
 - **Wspólne otwarcia**: Dostępne są również platformy do łączenia się w celu wykonywania otwarć trójkątnych i posiadania płynności przychodzącej.
 
 
-![LNP201](assets/en/84.webp)
+![LNP201](assets/en/084.webp)
 
 
 # Sekcja końcowa

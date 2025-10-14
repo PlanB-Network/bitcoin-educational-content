@@ -8,7 +8,7 @@ description: 在 Bitstack 應用程式上買賣比特幣
 Bitstack 是法國的 Bitcoin 投資平台，由 AMF 監管 PSAN。它提供 Android 和 iOS 應用程式，方便買賣 Bitcoin。
 
 
-Bitstack 的與眾不同之處在於它的自動四捨五入系統，該系統與用戶的銀行帳戶同步，將用戶日常消費時扣除的金額與下一個較高的歐元之間的差額直接轉換為比特幣。這種方法有助於 *Dollar Cost Averaging* (DCA) 的應用，使 Satoshis 逐步、無痛地累積。除了這個獨創的功能外，平台也提供經典的 DCA 系統自動投資，以及現貨買賣。
+Bitstack 的特點在於其自動進位系統，該系統會同步使用者的銀行帳戶，將日常支出金額與下一個歐元之間的差額直接轉換為比特幣。此方法有助於應用 *Dollar Cost Averaging*（DCA），使得聰能夠逐步且無痛地累積。除了這一原創功能外，該平台還提供具備自動投資的傳統 DCA 系統，以及單次買賣功能。
 
 
 ![Image](assets/fr/01.webp)
@@ -160,7 +160,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 - 支出使用自動四捨五入。
 
 
-### 以現金購買
+### 進行一次性購買
 
 
 要以市價一次性購買比特幣，只需點擊「*購買*」。

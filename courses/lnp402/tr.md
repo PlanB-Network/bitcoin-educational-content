@@ -63,12 +63,12 @@ Bu programın bir parçası olan öğretmenlerimize çok teşekkür ederiz:
 
 LN Toskana etkinliğinin 1. haftası
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Bu kursu tamamladıktan sonra, devam eğitimiyle ilgileniyorsanız, programın ikinci bölümünü burada bulabilirsiniz:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 

@@ -45,10 +45,10 @@ Mange takk til våre lærere som har vært en del av dette programmet:
 **Seminarplan**
 
 Uke 1 av LN Tuscany-arrangementet
-![bilde](assets/1.webp)
+![bilde](assets/en/001.webp)
 
 Når du har fullført dette kurset, hvis du er interessert i oppfølgingstreningen, her er den andre delen av planen:
-![bilde](assets/2.webp)
+![bilde](assets/en/002.webp)
 
 
 Denne opplæringen gir deg muligheten til å utvikle dine programmeringsferdigheter på Lightning Network ved å bruke Rust og ulike SDK-er. Den er laget for utviklere som allerede har god kjennskap til programmering og som ønsker å fordype seg i spesifikk utvikling for Lightning Network. Du vil lære det grunnleggende om Rust, hvorfor det egner seg til Bitcoin-utvikling, og deretter gå over til praktisk implementering med spesialiserte SDK-er.
@@ -178,3 +178,4 @@ Klar til å utvikle ferdighetene dine på Lightning Network med Rust? La oss set
 
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

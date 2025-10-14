@@ -55,6 +55,8 @@ Ready to discover how Frédéric Bastiat’s ideas still resonate today? Join us
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 This course is an introduction to Frédéric Bastiat, an unrecognized genius and a beacon for our times. In this brief introduction, I aim to help you discover who Frédéric Bastiat was and the major themes we will cover during this series.
 ![image](assets/en/001.webp)
 
@@ -98,6 +100,8 @@ In this course, we will travel together through the thought of Frédéric Bastia
 ## The Life and Historical Context
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 In 1844, Frédéric Bastiat made a business trip to Spain. After staying in Madrid, Seville, Cadiz, and Lisbon, he decided to embark for Southampton and to visit England. In London, he had the opportunity to attend meetings of the Anti-Corn Law League, whose work he had followed from a distance. He met the main leaders of this Association, including Richard Cobden, who would become his friend.
 
@@ -149,6 +153,8 @@ He died in Rome in 1850 from tuberculosis. He is buried at the Saint Louis des F
 ## Adam Smith and Jean-Baptiste Say
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 In economics, Bastiat always acknowledged his debt to Adam Smith and Jean-Baptiste Say. At 26, he wrote to one of his friends, "I have never read on these subjects but these four works, Smith, Say, Destutt, and the Censor."
 
@@ -208,6 +214,8 @@ Producers resort to persuasion, negotiation, and contract, while plunderers reso
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 It is little known, but Destutt de Tracy had a decisive influence on the future President of the United States, Thomas Jefferson, while he was ambassador to Paris in the 1780s.
 
 > For every man, his first country is his homeland, and the second is France & Tyranny is when the people fear their government; liberty is when the government fears the people.  
@@ -254,6 +262,8 @@ In conclusion, the Ideologues had a profound intuition, namely that production a
 ## Charles Comte and Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 The history of all civilizations is the story of the struggle between the plundering classes and the productive classes. This is the creed of the two authors we will discuss. They are the originators of a liberal theory of class struggle that inspired Frédéric Bastiat as much as Karl Marx, although the latter distorted it.
 
@@ -306,6 +316,8 @@ Their ideas, profoundly innovative, would forever mark Frédéric Bastiat, who w
 ## Cobden and the League
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 It is 1838, in Manchester, a small number of men, little known until then, gather to find a way to overthrow the monopoly of the wheat landowners through legal means and to accomplish, as Bastiat would later recount,
 
@@ -369,6 +381,8 @@ The issue of free trade remains relevant today. Geography textbooks in schools c
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 Frédéric Bastiat, who expressed himself in the 1840s, is the heir to a generation of Enlightenment philosophers who fought against censorship and for the freedom to debate. Think of Montesquieu, Diderot, Voltaire, Condorcet, but also Rousseau.
 
 For them, the idea was simple: the more ideas are allowed to be expressed, the more truth progresses and the more easily errors are refuted. Science always progresses in this way.
@@ -417,6 +431,9 @@ According to Bastiat, society, people, and properties exist before laws, and he 
 ## Classical Education
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
+
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 On February 24, 1848, after three days of riots in Paris, King Louis-Philippe I abdicated his power. This marked the birth of the Second Republic.
 
 ![image](assets/en/052.webp)
@@ -458,6 +475,8 @@ However, as Bastiat reminds us, monopoly excludes progress.
 ## Protectionism and Socialism
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 ![image](assets/en/057.webp)
 _(Richard Cobden)_
@@ -527,6 +546,8 @@ To conclude, protectionists and socialists share a common point, according to Ba
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 Pierre-Joseph Proudhon is one of the major representatives of French socialism in the mid-19th century. He is especially famous for his statement, "Property is theft," as presented in "What is Property?" in 1840.
 
 ![image](assets/en/064.webp)
@@ -581,6 +602,8 @@ In conclusion, both Proudhon and Bastiat recognized the importance of capital ac
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 In this chapter, I will unveil a brand-new technology — a revolutionary innovation. A researcher has developed a pair of bionic glasses with an ultra-powerful mini-camera embedded in the front. This technology enables the visualization of details that are invisible to the naked eye. In the arms, there is an electronic chip that transmits images directly to the cloud via my smartphone.
 
 ![image](assets/en/074.webp)
@@ -621,6 +644,8 @@ The key lesson from this series of texts is that state intervention often has un
 ## The Petition of the Candle Makers
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 In 1840, the Chamber of Deputies passed a law increasing import taxes to protect French industry. This is the famous economic patriotism, which we still encounter today.
 
@@ -673,6 +698,8 @@ True wealth, according to Bastiat, is therefore the set of useful things that we
 ## Plunder Through Taxation
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 > When the rich lose weight, the poor die.  
 
@@ -735,6 +762,8 @@ And she said this while addressing socialists.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 Many people know "Tartuffe or the Impostor", the comedy by Molière in which a cunning devotee attempts to seduce Elmire and swindle her husband Orgon. How can one protect oneself against the deceptions of such a hypocrite who pretends to do you good while plotting against you?
 
 ![image](assets/en/090.webp)
@@ -789,6 +818,8 @@ One thing is certain: it is not politics that can change the course of things or
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 Can a harmonious society do without written laws, rules, and repressive measures? If men are left free, won't we witness disorder, anarchy, disorganization? How to avoid creating a mere juxtaposition of individuals acting outside of any concert, if not through laws and a centralized political organization?
 
 This is the argument often invoked by those who demand market regulation or that society alone is capable of coordinating individuals into a coherent and harmonious whole.
@@ -827,6 +858,8 @@ It revisits Bastiat's idea of an invisible cooperation among millions of individ
 
 The 1976 Nobel Prize in Economics recipient, Milton Friedman, also revisited the pencil story to explain to the general public how the market economy works.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
+
 In an episode of his television series Free to Choose, he analyzes the various components of something as mundane and simple as a pencil, highlighting the miracle of spontaneous order generated by thousands of economic interactions worldwide. People who do not know each other, who do not share the same religion or customs, still manage to coordinate to produce this object. He concludes that the free market is essential not only to ensure prosperity but also to promote harmony and peace.
 
 ![image](assets/en/098.webp)
@@ -840,6 +873,8 @@ Economic planning, which claims to outperform the market, leads not only to a po
 ## Freedom and Responsibility are the Key to the Social Problem
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 In a letter to Alphonse de Lamartine in 1845, Bastiat wrote that his entire philosophy is contained in a single principle:
 
@@ -905,6 +940,8 @@ In other words, collective choices are not responsible choices, as they entail n
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
+
 In the previous course, we explored why freedom and responsibility are crucial to addressing social problems. We will now delve deeper into this point by showing how Frédéric Bastiat views the evils that afflict societies and their solution.
 
 Liberals have sometimes been criticized for ignoring evil and constructing the utopia of pure and perfect freedom in an ideal world. This criticism is absolutely unfounded regarding our author.
@@ -957,6 +994,8 @@ It must be clarified that this development of progress through responsibility is
 ## True and False Solidarity
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 Frédéric Bastiat, in his famous pamphlet "The Law," denounces the perversion of law that consists in legalizing, under the name of "solidarity," what must indeed be called plunder. Indeed, there is a contradiction in wanting to impose fraternity through law, which we would today call "social justice" or solidarity.
@@ -1026,6 +1065,8 @@ Law can compel a man to be just, but it cannot force him to be devoted. The fals
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 By property, we should not understand land in this context. It means "the right of a worker over the value he has created through his labor." Bastiat specifies:
 
 > I consider that the right to property consists in the freedom to first dispose of one's own person, then of one's labor, and finally, of the products of one's labor, which proves, moreover, that, from a certain point of view, freedom and the right to property cannot be distinguished from one another.  
@@ -1075,6 +1116,8 @@ _(Cicero)_
 ## Legal Plunder: A Perversion of the Law
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 The main idea of Bastiat in "The Law", his famous 1850 pamphlet, is to demonstrate why and how the law has become a source of plunder, that is, a means of creating privileges, situational rents, and fiscal arbitrariness.
 
@@ -1130,6 +1173,8 @@ A century after the death of Frédéric Bastiat, legal plunder is clearly eviden
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 In 1848, Bastiat was a deputy. He was appointed vice-president of the finance commission. He was, therefore, particularly well-placed to answer this question: what is the State? We turn to the State to ensure our well-being. But Bastiat reminds us that the State cannot give anything to the citizens that it hasn't first taken from them.
 
 Bastiat begins by overturning a commonly accepted equation: it’s the State that sustains the nation. However, the State cannot sustain its citizens because it does not produce wealth; it merely redistributes it. On the contrary, it is the citizens who sustain the State through the creation of wealth.
@@ -1176,6 +1221,8 @@ Wrote Frédéric Bastiat in a short pamphlet titled The State.
 ## The Legacy of Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 Bastiat's influence began to decline towards the end of the 19th century, with the rise of socialism, particularly Marxism, within universities and research institutes, which were increasingly funded by public money.
 

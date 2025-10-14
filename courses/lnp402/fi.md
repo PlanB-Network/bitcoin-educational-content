@@ -43,10 +43,10 @@ Suurkiitokset opettajillemme, jotka ovat olleet osa tätä ohjelmaa:
 **Seminaarin aikataulu**
 
 LN Tuscany -tapahtuman 1. viikko
-![kuva](assets/1.webp)
+![kuva](assets/en/001.webp)
 
 Kun olet saanut tämän kurssin päätökseen, jos olet kiinnostunut jatkokoulutuksesta, tässä on toisen osan aikataulu:
-![kuva](assets/2.webp)
+![kuva](assets/en/002.webp)
 
 
 Tämä koulutus tarjoaa sinulle mahdollisuuden kehittää ohjelmointitaitojasi Lightning Networkin parissa käyttämällä Rustia ja erilaisia SDK-työkaluja. Se on suunniteltu kehittäjille, joilla on jo hyvä ohjelmointiosaaminen ja jotka haluavat syventyä Lightning Network -kehitykseen. Opit Rust-kielen perusteet, miksi se sopii Bitcoin-kehitykseen, ja siirryt käytännön sovelluksiin erikoistuneiden SDK:iden avulla.
@@ -157,3 +157,4 @@ Valmis kehittämään Lightning Network -osaamistasi Rustilla? Mennään!
 ## Yhteenveto
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

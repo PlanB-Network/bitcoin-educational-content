@@ -5,5 +5,5 @@ wrong_answers:
   - Množenje nije asocijativno nad celim brojevima
   - Ne postoji neutralni element za množenje
 explanation: |
-  Skup celih brojeva ne zadovoljava uslov inverzije pod množenjem jer ne postoji inverz za svaki ceo broj koji bi dao 1 kada se pomnoži. Samo Elements 1 i -1 ispunjavaju ovaj uslov.
-reviewed: false
+  Skup celih brojeva ne zadovoljava uslov inverzije pod množenjem jer ne postoji inverz za svaki ceo broj koji bi dao 1 kada se pomnoži. Samo elementi 1 i -1 ispunjavaju ovaj uslov.
+reviewed: true

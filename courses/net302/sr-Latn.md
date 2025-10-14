@@ -138,7 +138,7 @@ Prednost ovog aranžmana leži u jednostavnosti kabliranja i odsustvu zavisnosti
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/en/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Ovaj hijerarhijski raspored posebno dobro funkcioniše za velike mreže koje zah
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/en/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Glavna prednost sabirničke topologije je nizak trošak instalacije, zahvaljuju�
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Ovaj raspored olakšava upravljanje i održavanje: ako jedan periferni uređaj z
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/en/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Kompromis je u tome što broj veza koje treba uspostaviti brzo raste s brojem te
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/en/005.webp)
 
 
 
@@ -263,7 +263,7 @@ TCP/IP stek se često predstavlja kao stek od četiri funkcionalna sloja, često
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/en/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Kada datagram premaši MTU mrežnog segmenta koji treba da pređe, rutirajuća o
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/en/008.webp)
 
 
 
@@ -431,7 +431,7 @@ Prenos tako prati strukturiran proces:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/en/009.webp)
 
 
 
@@ -442,7 +442,7 @@ Po dolasku, proces se obrće: prijemna mašina prima okvir na Network Access Lay
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/en/010.webp)
 
 
 
@@ -456,7 +456,7 @@ Transformacija podataka na svakom Layer može se sažeti kao:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/en/011.webp)
 
 
 
@@ -507,7 +507,7 @@ Broj dostupnih adresa značajno varira između klasa: od velikih javnih mreža u
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/en/013.webp)
 
 
 
@@ -585,7 +585,7 @@ Mreža **klase C**: 192.168.1.0/24 sa podrazumevanom maskom 255.255.255.0.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/en/016.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP je protokol zasnovan na vezi, što znači da uspostavlja eksplicitnu, stalnu
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/en/018.webp)
 
 
 
@@ -688,7 +688,7 @@ Da bi se poboljšala pouzdanost, TCP koristi tajmer: kada se segment pošalje, p
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/en/019.webp)
 
 
 
@@ -711,7 +711,7 @@ Sekvenca sinhronizacije Exchange zasniva se na čuvenom mehanizmu **"*three-way 
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/en/020.webp)
 
 
 
@@ -734,7 +734,7 @@ U praktičnim terminima, klizni prozor definiše opseg sekvencijalnih brojeva ko
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/en/021.webp)
 
 
 
@@ -751,7 +751,7 @@ Ovo precizno upravljanje, koje kombinuje fleksibilno rutiranje IP-a sa strogom k
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/en/022.webp)
 
 
 
@@ -791,7 +791,7 @@ Dva ključna aspekta upravljaju ovim razmenama:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/en/023.webp)
 
 
 
@@ -800,7 +800,7 @@ Dva ključna aspekta upravljaju ovim razmenama:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/en/024.webp)
 
 
 
@@ -836,7 +836,7 @@ Kombinovanjem horizontalnog aspekta (komunikacija između distribuiranih aplikac
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/en/026.webp)
 
 
 
@@ -896,7 +896,7 @@ primer: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Važno je zapamtiti da su MAC Address i IP Address dva potpuno različita identi
 - Vizuelni primer MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/en/032.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Važno je zapamtiti da su MAC Address i IP Address dva potpuno različita identi
 - Vizuelni primer IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Pored rešavanja problema nestašice IPv4 adresa, NAT takođe jača bezbednost s
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/en/035.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _Da bismo ilustrovali kako ovo funkcioniše u praksi, razmotrimo sledeći primer
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/en/037.webp)
 
 
 
@@ -1500,7 +1500,7 @@ U profesionalnim okruženjima, cilj je garantovati kontinuitet usluge i/ili agre
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/en/039.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Za automatsku konfiguraciju, postoji nekoliko metoda:
 Evo primera kako transformisati MAC Address u EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/en/045.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Evo pregleda različitih tipova zaglavlja ekstenzija definisanih od strane IPv6.
 Ovaj zaglavlje, ako je prisutno, uvek se postavlja odmah nakon osnovnog zaglavlja. Sadrži informacije koje moraju biti obrađene od strane svakog rutera duž puta paketa, za razliku od većine drugih zaglavlja, koja obično obrađuje samo odredišni čvor. Tipične upotrebe uključuju signalizaciju globalnih parametara ili zahtev za specifičnim koracima obrade dok paket putuje kroz mrežu.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/en/047.webp)
 
 
 #### Zaglavlje usmeravanja
@@ -2117,7 +2117,7 @@ Prva četiri polja ovog zaglavlja za usmeravanje su:
 Polje "Segments Left" počinje sa ukupnim brojem preostalih segmenata i smanjuje se za jedan pri svakom skoku.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/en/048.webp)
 
 
 #### Fragmentacioni zaglavlje
@@ -2134,7 +2134,7 @@ Zaglavlje fragmentacije sadrži sledeća polja:
 - **M zastavica**: označava da li slede još fragmenti.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/en/049.webp)
 
 
 #### Autentifikacioni zaglavlje (AH)
@@ -2146,7 +2146,7 @@ Ovaj zaglavlje je dizajnirano da osigura komunikacije verifikovanjem autentično
 U slučaju pokušaja lažne izmene, kod za autentifikaciju više neće odgovarati i datagram može biti odbijen. Ovaj mehanizam takođe štiti od napada ponavljanjem otkrivanjem neovlašćenih duplikacija.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/en/050.webp)
 
 
 #### Zaglavlje Opcija Odredišta
@@ -2158,7 +2158,7 @@ Ovaj zaglavlje je namenjeno samo za krajnjeg primaoca datagrama. Može se korist
 U početku, takva opcija nije bila definisana u protokolu. Međutim, ovaj zaglavlje je uvedeno kada je IPv6 dizajniran, kako bi se omogućilo dodavanje budućih proširenja bez modifikovanja ukupne strukture paketa. Null opcija, na primer, koristi se samo za popunjavanje zaglavlja na višekratnik od 8 bajtova radi poravnanja memorije.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/en/051.webp)
 
 
 Dizajn IPv6 paketa zasnovan je na jasnoj separaciji između minimalne osnovne zaglavlja i modularnih zaglavlja za proširenje. Ova arhitektura osigurava kako standardne performanse obrade, tako i fleksibilnost potrebnu za evoluciju protokola i integraciju sigurnosti, složenog rutiranja ili mehanizama kvaliteta usluge, uz održavanje kompatibilnosti sa budućim infrastrukturama.
@@ -2504,7 +2504,7 @@ Wireshark je dostupan na mnogim operativnim sistemima, uključujući Linux i Win
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/en/052.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Ova komanda ispisuje detaljan izveštaj o `enp0s3` Interface, uobičajena konven
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/en/053.webp)
 
 
 
@@ -3107,7 +3107,7 @@ U ovom slučaju, svi hostovi u opsegu `192.168.0.0` do `192.168.0.255` će biti 
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/en/055.webp)
 
 
 

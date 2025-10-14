@@ -281,41 +281,41 @@ Periksa lalu simpan deskriptor ke perangkat penandatangan dengan memilihnya di l
 
 ![Enregistrer descripteur sur l'appareil de récupération](assets/fr/38.webp)
 
-Konfigurasikan node Anda. Anda dapat menggunakan node yang sudah ada atau menginstal *pruned node* pada mesin Anda. Dalam kasus kami, kami menggunakan node yang sudah ada.
+Atur node kamu. Kamu bisa pakai node yang sudah ada atau instal *pruned node* di perangkat kamu. Dalam kasus kami, kami pakai node yang sudah ada.
 
 ![Choisir type de nœud](assets/fr/39.webp)
 
-Untuk tutorial ini, kami menggunakan server Electrum publik. Akan tetapi, server ini memiliki akses ke semua aktivitas kita dengan dompet Liana. Jika Anda ingin melindungi privasi Anda, Anda sebaiknya menggunakan node Anda sendiri.
+Untuk tutorial ini, kami pakai server Electrum publik. Tapi perlu diingat, server ini bisa melihat semua aktivitas kamu dengan dompet Liana. Kalau kamu ingin menjaga privasi, sebaiknya pakai node kamu sendiri.
 
 ![Connexion serveur Electrum public](assets/fr/17.webp)
 
-Setelah Anda menyiapkan node, Anda akan dibawa ke layar dompet utama, di mana Anda bisa melihat saldo dan transaksi sebelumnya yang ditautkan ke akun tersebut. Anda juga dapat melihat apakah dana dapat diambil. Di sini, kita melihat bahwa koin dapat diambil.
+Setelah kamu menyiapkan node, kamu akan masuk ke layar utama dompet. Di sana kamu bisa lihat saldo dan riwayat transaksi yang terhubung ke akun itu. Kamu juga bisa cek apakah dananya bisa diambil. Di sini, kita lihat kalau koinnya bisa diambil.
 
 ![Accueil Liana récupération](assets/fr/40.webp)
 
-Untuk memulihkan dana dalam portofolio, buka Pengaturan ("*Pengaturan*") di bagian kiri bawah dan klik "*Pemulihan*".
+Untuk memulihkan dana di dompet kamu, buka menu Pengaturan di bagian kiri bawah, lalu klik Pemulihan.
 
 ![Récupération dans paramètres](assets/fr/41.webp)
 
-Keluarkan koin ke dalam dompet dengan mencentang kotak yang sesuai. Tunjukkan alamat BTC yang ingin Anda kirimkan dana, serta tarif biaya transaksi. Kemudian klik "*Selanjutnya*".
+Keluarkan koin ke dompet dengan mencentang kotak yang sesuai. Masukkan alamat BTC tujuan tempat kamu mau kirim dana, lalu tentukan tarif biaya transaksinya. Setelah itu, klik Selanjutnya.
 
 ![Récupération des pièces](assets/fr/42.webp)
 
-Tanda tangani transaksi dengan mengeklik "*Tanda tangani*" dan validasi transaksi pada dompet perangkat keras Anda.
+Tandatangani transaksi dengan klik Tanda tangani, lalu konfirmasi transaksinya di dompet perangkat keras kamu.
 
 ![Signer transaction clé de récupération](assets/fr/43.webp)
 
-Kemudian, siarkan melalui jaringan dengan mengeklik "*Broadcast*".
+Setelah itu, kirim transaksinya ke jaringan dengan klik Broadcast.
 
 ![Diffuser transaction clé de récupération](assets/fr/44.webp)
 
-Transaksi akan muncul di layar utama. Setelah dikonfirmasi, pemulihan selesai!
+Transaksi akan muncul di layar utama. Setelah dikonfirmasi, proses pemulihan pun selesai!
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
 ## Bonus: analisis deskriptor
 
-Deskriptor adalah string karakter yang dapat dibaca manusia yang secara lengkap menjelaskan serangkaian alamat. Deskriptor menggabungkan sejumlah informasi penting untuk mengambil bagian-bagian (UTXO) dari portofolio tingkat lanjut. Cara penulisan deskriptor didasarkan pada [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), bahasa skrip yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar pada tahun 2019.
+Deskriptor adalah rangkaian teks yang bisa dibaca manusia dan berisi penjelasan lengkap tentang satu set alamat. Deskriptor ini memuat berbagai informasi penting untuk mengambil bagian-bagian (UTXO) dari dompet tingkat lanjut. Cara penulisan deskriptor didasarkan pada [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), bahasa skrip yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar pada tahun 2019.
 
 Untuk lebih memahami mengapa string karakter ini penting, mari kita analisis deskriptor dalam contoh kita, yaitu :
 
@@ -346,6 +346,6 @@ Skrip yang dibuat oleh portofolio ini akan berbentuk sebagai berikut:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Karena keamanan dompet Bitcoin Anda juga bergantung pada pemahaman Anda tentang cara kerjanya, saya sarankan Anda mempelajari mekanisme dompet deterministik dan hirarkis secara mendalam dengan mengikuti kursus pelatihan gratis di Plan ₿ Network:
+Karena keamanan dompet Bitcoin kamu juga bergantung pada seberapa baik kamu memahami cara kerjanya, aku sarankan kamu pelajari lebih dalam tentang mekanisme dompet deterministik dan hierarkis lewat kursus gratis di Plan ₿ Network:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

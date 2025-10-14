@@ -399,9 +399,9 @@ Alors que cette interprétation biaisée de l’inflation nous fait surtout oubl
 
 Enfin, il est ici utile de se rendre compte que ce mécanisme finaliste s’illustre aussi très bien dans la manière avec laquelle les détracteurs de Bitcoin expriment leurs critiques en ne s’intéressant précisément qu’à ses effets. 
 
-Car si certains effets de Bitcoin peuvent certainement être critiquables, à cause du biais cognitif  lié au fait qu’il s’agit d’une technologie nouvelle et disruptive, nous avons une forte propension à ne voir que les effets négatifs. Surtout si la réalité ne correspond pas à nos désirs, par exemple si on est religieux face à une révolution copernicienne comme l’est le spinozisme, ou si l’on est un banquier central face à un concept de monnaie numérique décentralisée.
+Car si certains effets de Bitcoin peuvent certainement être critiquables, à cause du biais cognitif lié au fait qu’il s’agit d’une technologie nouvelle et disruptive, nous avons une forte propension à ne voir que les effets négatifs. Surtout si la réalité ne correspond pas à nos désirs, par exemple si on est religieux face à une révolution copernicienne comme l’est le spinozisme, ou si l’on est un banquier central face à un concept de monnaie numérique décentralisée.
 
-Or, il apparaît très clairement qu’à partir du moment où un religieux ou un banquier central fait preuve d’entendement, de curiosité et de bonne volonté et qu’ils s’intéressent à un concept en cherchant d’abord à le comprendre plutôt qu’en en jugeant les effets pour faire correspondre leur opinion à leurs attentes, ils seront alors certainement en mesure d’y adhérer. 
+Or, il apparaît très clairement qu’à partir du moment où un religieux ou un banquier central fait preuve d’entendement, de curiosité et de bonne volonté et qu’ils s’intéressent à un concept en cherchant d’abord à le comprendre plutôt qu’en jugeant les effets pour faire correspondre leur opinion à leurs attentes, ils seront alors certainement en mesure d’y adhérer. 
 
 Merci de votre attention et je vous retrouve dans le prochain chapitre.
 
@@ -438,7 +438,7 @@ Croire ou imaginer le contraire pour nous rassurer est la raison pour laquelle n
 
 Qu’il n’y a pas de crainte sans espoir, ni d’espoir sans crainte et que celui qui craint espère toujours échapper à ce qu’il craint alors que celui qui espère craint toujours que ce qu’il espère ne se produise pas. 
 
-Et comme « nous sommes disposés à croire facilement  ce que nous espérons », dit Spinoza dans son Éthique, c’est lorsque nous affrontons des causes extérieures ou des événements qui nous seraient nuisibles, contraires à toute idée d’utilité, que s’exprime alors la seconde étape de cette illusion dite théologique, caractérisée par des croyances à partir desquelles naît le sentiment superstitieux. 
+Et comme « nous sommes disposés à croire facilement ce que nous espérons », dit Spinoza dans son Éthique, c’est lorsque nous affrontons des causes extérieures ou des événements qui nous seraient nuisibles, contraires à toute idée d’utilité, que s’exprime alors la seconde étape de cette illusion dite théologique, caractérisée par des croyances à partir desquelles naît le sentiment superstitieux. 
 
 Autrement dit « L’infâme » selon Voltaire (1694-1778) pour qui la superstition ne nait jamais de la raison, et pour qui elle correspond toujours à une croyance irrationnelle ou infondée, opposée à toute forme de rationalité en attribuant à des objets ou à des actions des pouvoirs ou une puissance spirituelle qu’ils n’ont pas.
 

@@ -1,4 +1,4 @@
-question: Welk type machine wordt voorgesteld als het beste compromis voor een Bitcoin thuisknooppunt?
+question: Welk type machine wordt voorgesteld als het beste compromis voor een Bitcoin home node?
 answer: Een NUC-type mini-pc
 wrong_answers:
   - Laptop

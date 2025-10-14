@@ -90,7 +90,7 @@ Na een korte introductie tot Umbrel, geven we een gedetailleerde tutorial om je 
 
 
 
-### Deel 4 - Je Wallet aansluiten op je node
+### Deel 4 - Je wallet aansluiten op je node
 
 
 
@@ -281,7 +281,7 @@ Een Bitcoin wallet, aan de andere kant, is een stuk software dat ontworpen is om
 
 
 
-In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software, zoals het geval is bij Bitcoin core, dat zowel als full node en als wallet dient. Veel populaire wallet programma's (Sparrow, BlueWallet, etc.) vereisen echter een verbinding met een externe node (van jezelf of van een derde partij) om transacties uit te zenden en het wallet saldo te bepalen.
+In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software, zoals het geval is bij Bitcoin core, dat zowel als full node en als wallet dient. Veel populaire wallet programma's (Sparrow, Bluewallet, etc.) vereisen echter een verbinding met een externe node (van jezelf of van een derde partij) om transacties uit te zenden en het wallet saldo te bepalen.
 
 
 
@@ -512,7 +512,7 @@ Zoals we in een vorig hoofdstuk al aangaven, communiceren wallets niet zomaar me
 
 
 
-Door je eigen node te gebruiken, verstuur je je transacties rechtstreeks naar het netwerk, zonder tussenpersonen. Op voorwaarde dat je je node goed beveiligt (wat we later zullen bespreken) of aan bepaalde standaarden voldoet, wordt er geen informatie blootgesteld: noch je IP Address, noch de details van je transacties passeren via een entiteit waar jij geen controle over hebt. Dit is een basisvoorwaarde om je vertrouwelijkheid op Bitcoin te bewaren.
+Door je eigen node te gebruiken, verstuur je je transacties rechtstreeks naar het netwerk, zonder tussenpersonen. Op voorwaarde dat je je node goed beveiligt (wat we later zullen bespreken) of aan bepaalde standaarden voldoet, wordt er geen informatie blootgesteld: noch je IP adres, noch de details van je transacties passeren via een entiteit waar jij geen controle over hebt. Dit is een basisvoorwaarde om je vertrouwelijkheid op Bitcoin te bewaren.
 
 
 
@@ -522,7 +522,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Om dezelfde redenen die hierboven genoemd zijn, is wallet software gebaseerd op een node van een derde partij kwetsbaar voor censuurrisico's: de operator van de node op afstand kan om verschillende redenen weigeren om bepaalde transacties door te geven. Hij kan ze verdacht vinden of in strijd met zijn beleid. De transactie kan ook worden geblokkeerd als deze niet voldoet aan de doorgeefregels van de node. Tot slot kan de operator zich specifiek richten op jouw IP Address om de uitzending van jouw transacties te blokkeren.
+Om dezelfde redenen die hierboven genoemd zijn, is wallet software gebaseerd op een node van een derde partij kwetsbaar voor censuurrisico's: de operator van de node op afstand kan om verschillende redenen weigeren om bepaalde transacties door te geven. Hij kan ze verdacht vinden of in strijd met zijn beleid. De transactie kan ook worden geblokkeerd als deze niet voldoet aan de doorgeefregels van de node. Tot slot kan de operator zich specifiek richten op jouw IP adres om de uitzending van jouw transacties te blokkeren.
 
 
 
@@ -1808,7 +1808,7 @@ Om het IP adres van uw Umbrel te identificeren, zijn er verschillende methoden, 
 
 
 
-- Ga naar de administratie interface van je router en zoek het IP Address van het Umbrel-apparaat op het lokale netwerk.
+- Ga naar de administratie interface van je router en zoek het IP adres van het Umbrel-apparaat op het lokale netwerk.
 
 
 
@@ -2054,13 +2054,13 @@ Zodra de IBD van je node is voltooid (100% synchronisatie), heb je nu een volled
 
 
 
-In het volgende deel verkennen we het praktische gebruik van je nieuwe node: hoe je je Wallet erop aansluit en welke applicaties je moet installeren om een soevereine Bitcoiner te worden.
+In het volgende deel verkennen we het praktische gebruik van je nieuwe node: hoe je je wallet erop aansluit en welke applicaties je moet installeren om een soevereine Bitcoiner te worden.
 
 
 
 
 
-# Je Wallet aansluiten op je node
+# Je wallet aansluiten op je node
 
 
 <partId>418d0afd-3a61-4b5a-9db4-203c0335fd29</partId>
@@ -2090,7 +2090,7 @@ In lekentaal is het hetzelfde principe als een index in een boek: als je op zoek
 
 
 
-In een Bitcoin node, zoals Bitcoin core, worden Blockchain gegevens in hun ruwe, chronologische vorm opgeslagen. Elk blok bevat transacties, die op hun beurt inputs en outputs bevatten, zonder een bepaalde classificatie per Address, identifier of Wallet. Deze lineaire organisatie is geoptimaliseerd voor blokvalidatie, maar ongeschikt voor gericht zoeken. Als je bijvoorbeeld alle transacties wilt vinden die gekoppeld zijn aan een specifieke Address in een niet-geïndexeerd node, moet je handmatig de hele Blockchain doornemen, blok voor blok en transactie voor transactie. Dit is precies waar de indexer op je Bitcoin node om de hoek komt kijken.
+In een Bitcoin node, zoals Bitcoin core, worden blockchain gegevens in hun ruwe, chronologische vorm opgeslagen. Elk blok bevat transacties, die op hun beurt inputs en outputs bevatten, zonder een bepaalde classificatie per adres, identifier of wallet. Deze lineaire organisatie is geoptimaliseerd voor blokvalidatie, maar ongeschikt voor gericht zoeken. Als je bijvoorbeeld alle transacties wilt vinden die gekoppeld zijn aan een specifiek adres in een niet-geïndexeerd node, moet je handmatig de hele blockchain doornemen, blok voor blok en transactie voor transactie. Dit is precies waar de indexer op je Bitcoin node om de hoek komt kijken.
 
 
 
@@ -2106,7 +2106,7 @@ Een indexer is een gespecialiseerd softwareprogramma dat deze massa ruwe gegeven
 
 
 
-Met indexering kun je snel, nauwkeurig en efficiënt naar informatie op je node zoeken. Als je bijvoorbeeld een Wallet zoals Sparrow op je node aansluit, kan het vrijwel direct de balans van een Address weergeven. Concreet: het bevraagt de indexer met een verzoek als: "_Welke UTXO's zijn geassocieerd met dit script-Hash?_" De indexer antwoordt vrijwel onmiddellijk, zonder de hele Blockchain opnieuw te hoeven lezen, omdat deze gegevens al in de database staan.
+Met indexering kun je snel, nauwkeurig en efficiënt naar informatie op je node zoeken. Als je bijvoorbeeld een wallet zoals Sparrow op je node aansluit, kan het vrijwel direct de balans van een adres weergeven. Concreet: het bevraagt de indexer met een verzoek als: "_Welke UTXO's zijn geassocieerd met deze script-Hash?_" De indexer antwoordt vrijwel onmiddellijk, zonder de hele blockchain opnieuw te hoeven lezen, omdat deze gegevens al in de database staan.
 
 
 
@@ -2114,11 +2114,11 @@ Met indexering kun je snel, nauwkeurig en efficiënt naar informatie op je node 
 
 
 
-Zonder de noodzaak van aanvullende software, biedt Bitcoin core strikt genomen geen complete Address indexer vergelijkbaar met die gevonden in software zoals Electrs of Fulcrum. Niettemin bevat het verschillende interne indexeringsmechanismen, evenals optionele opties voor het uitbreiden van de zoekmogelijkheden. Om de situatie volledig te begrijpen, moeten we een omweg maken naar de geschiedenis van het project.
+Zonder de noodzaak van aanvullende software, biedt Bitcoin core strikt genomen geen complete adres indexer vergelijkbaar met die te vinden is in software zoals Electrs of Fulcrum. Niettemin bevat het verschillende interne indexeringsmechanismen, evenals optionele opties voor het uitbreiden van de zoekmogelijkheden. Om de situatie volledig te begrijpen, moeten we een omweg maken naar de geschiedenis van het project.
 
 
 
-Tot Bitcoin core versie 0.8.0 was transactievalidatie gebaseerd op een globale transactie-index, bekend als de `txindex`. Deze index refereerde aan alle Blockchain transacties en hun uitvoer. Wanneer een node een nieuwe transactie ontving, raadpleegde het deze index om te controleren of de verbruikte outputs (in inputs) werkelijk bestonden en niet al waren uitgegeven. `txindex` was daarom destijds onmisbaar voor transactievalidatie.
+Tot Bitcoin core versie 0.8.0 was transactievalidatie gebaseerd op een globale transactie-index, bekend als de `txindex`. Deze index refereerde alle blockchain transacties en hun uitvoer. Wanneer een node een nieuwe transactie ontving, raadpleegde het deze index om te controleren of de verbruikte outputs (in inputs) werkelijk bestonden en niet al waren uitgegeven. `txindex` was daarom destijds onmisbaar voor transactievalidatie.
 
 
 
@@ -2130,49 +2130,49 @@ Deze methode is veel sneller en slaat alleen de huidige staat van het register o
 
 
 
-In tegenstelling tot wat vaak wordt gedacht, biedt Bitcoin core geen Address-gebaseerde indexering zoals Electrs of Fulcrum. Er zijn verschillende redenen voor deze keuze:
+In tegenstelling tot wat vaak wordt gedacht, biedt Bitcoin core geen adres-gebaseerde indexering zoals Electrs of Fulcrum. Er zijn verschillende redenen voor deze keuze:
 
 
 
 
 
-- De rol van Bitcoin core is niet om een complete Block explorer te worden, noch om een API op maat te maken voor elk gebruik. Het integreren van een Address-gebaseerde index zou een Commitment onderhoud op lange termijn impliceren dat verder gaat dan de initiële reikwijdte van de software.
+- De rol van Bitcoin core is niet om een complete block explorer te worden, noch om een API op maat te maken voor elk gebruik. Het integreren van een adres-gebaseerde index zou een onderhoudsverbintenis op lange termijn impliceren dat verder gaat dan de initiële reikwijdte van de software.
 
 
 
 
 
-- De meeste gebruikssituaties kunnen al op andere manieren worden opgelost. Om bijvoorbeeld de balans van een Address te schatten, kun je het `scantxoutset` commando gebruiken, dat direct de UTXO set bevraagt zonder een volledige index nodig te hebben.
+- De meeste use cases kunnen al op andere manieren worden opgelost. Om bijvoorbeeld de balans van een adres in te schatten, kun je het `scantxoutset` commando gebruiken, dat direct de UTXO set bevraagt zonder een volledige index nodig te hebben.
 
 
 
 
 
-- Elk softwareprogramma heeft specifieke eisen met betrekking tot het formaat of type gegevens dat geïndexeerd moet worden (Address, Hash script, eigen tag, enz.). Het is flexibeler en logischer om deze programma's hun eigen aangepaste indexen te laten maken, dan een generieke oplossing in Bitcoin core vast te leggen.
+- Elk softwareprogramma heeft specifieke eisen met betrekking tot het formaat of type gegevens dat geïndexeerd moet worden (adres, Hash script, eigen tag, enz.). Het is flexibeler en logischer om deze programma's hun eigen aangepaste indexen te laten maken, dan een generieke oplossing in Bitcoin core vast te leggen.
 
 
 
-Bitcoin core heeft een optionele transactie indexer (`txindex`), een overblijfsel van de historische werking, maar het biedt geen Address index, noch een directe Interface voor complexe zoekopdrachten. In sommige gevallen kan het daarom nuttig zijn om een externe indexer toe te voegen.
+Bitcoin core heeft een optionele transactie indexer (`txindex`), een overblijfsel van de historische werking, maar het biedt geen adres index, noch een directe interface voor complexe zoekopdrachten. In sommige gevallen kan het daarom nuttig zijn om een externe indexer toe te voegen.
 
 
 
-### Moet je een Address indexer toevoegen aan je node?
+### Moet je een adres indexer toevoegen aan je node?
 
 
 
-Het toevoegen van een Address indexer, zoals Electrs of Fulcrum, is niet verplicht; het hangt af van je specifieke behoeften.
+Het toevoegen van een adres indexer, zoals Electrs of Fulcrum, is niet verplicht; het hangt af van je specifieke behoeften.
 
 
 
-Als je gewoon een Wallet, zoals Sparrow, op je node wilt aansluiten om saldi te bekijken en transacties uit te zenden, dan is dat heel goed mogelijk direct via Interface RPC van Bitcoin core, lokaal of op afstand via Tor.
+Als je gewoon een wallet, zoals Sparrow, op je node wilt aansluiten om saldi te bekijken en transacties uit te zenden, dan is dat heel goed mogelijk direct via RPC interface van Bitcoin core, lokaal of op afstand via Tor.
 
 
 
-Aan de andere kant, om meer geavanceerde software te gebruiken, zoals het draaien van een Mempool.Lokaal wordt de installatie van een Address indexer onontbeerlijk voor de ruimte Block explorer.
+Aan de andere kant, om meer geavanceerde software te gebruiken, zoals het draaien van een Mempool.Locally, wordt de installatie van een adres indexer onontbeerlijk voor de space block explorer.
 
 
 
-De indexer vereist een bepaalde hoeveelheid synchronisatietijd (minder dan de IBD) en zal extra schijfruimte innemen. Als je SSD nog genoeg vrije ruimte heeft na het downloaden van Blockchain, kun je eenvoudig een indexer toevoegen.
+De indexer vereist een bepaalde hoeveelheid synchronisatietijd (minder dan de IBD) en zal extra schijfruimte innemen. Als je SSD nog genoeg vrije ruimte heeft na het downloaden van blockchain, kun je eenvoudig een indexer toevoegen.
 
 
 
@@ -2180,7 +2180,7 @@ De indexer vereist een bepaalde hoeveelheid synchronisatietijd (minder dan de IB
 
 
 
-Twee softwareprogramma's worden vaak gebruikt om dit type Address index op te bouwen en toegankelijk te maken: **Electrs** en **Fulcrum**. Deze tools indexeren de Blockchain volgens script-Hash (adressen) en stellen vervolgens een gestandaardiseerde Interface voor (het Electrum-protocol), waarmee talloze wallets, zoals Electrum Wallet, Sparrow of Phoenix, verbinding maken.
+Twee softwareprogramma's worden vaak gebruikt om dit type adres index op te bouwen en toegankelijk te maken: **Electrs** en **Fulcrum**. Deze tools indexeren de Blockchain volgens script-Hash (adressen) en stellen vervolgens een gestandaardiseerde interface voor (het Electrum-protocol), waarmee talloze wallets, zoals Electrum wallet, Sparrow of Phoenix, verbinding maken.
 
 
 
@@ -2188,7 +2188,7 @@ Twee softwareprogramma's worden vaak gebruikt om dit type Address index op te bo
 
 
 
-Simpel gezegd is Electrs vrij compact: het indexeert Blockchain sneller en neemt minder schijfruimte in, maar presteert iets minder goed dan Fulcrum bij zoekopdrachten. Fulcrum daarentegen verbruikt meer schijfruimte en doet er langer over om te indexeren, maar biedt superieure queryprestaties.
+Simpel gezegd is Electrs vrij compact: het indexeert blockchain sneller en neemt minder schijfruimte in, maar presteert iets minder goed dan Fulcrum bij zoekopdrachten. Fulcrum daarentegen verbruikt meer schijfruimte en doet er langer over om te indexeren, maar biedt superieure queryprestaties.
 
 
 
@@ -2196,18 +2196,18 @@ Voor individueel gebruik raad ik Electrs aan: het verbruikt minder ruimte, wordt
 
 
 
-Concreet betekent dit dat Electrs in augustus 2025 ongeveer 56 GB opslagruimte nodig zal hebben, vergeleken met ongeveer 178 GB voor Fulcrum. Je keuze voor een indexer hangt dus ook af van je opslagcapaciteit:
+Concreet betekent dit dat Electrs in augustus 2025 ongeveer 56 GB opslagruimte vereist, vergeleken met ongeveer 178 GB voor Fulcrum. Je keuze voor een indexer hangt dus ook af van je opslagcapaciteit:
 
 
 
 
-- Als je schijfruimte erg beperkt is, moet je het doen met Bitcoin core zonder een externe Address indexer.
+- Als je schijfruimte erg beperkt is, moet je het doen met Bitcoin core zonder een externe adres indexer.
 - Als je een indexer wilt gebruiken, maar nog steeds beperkt wordt door capaciteit, kies dan voor Electrs.
 - Als je een comfortabele hoeveelheid schijfruimte hebt, is Fulcrum misschien precies wat je zoekt.
 
 
 
-Voor de rest van deze BTC 202 cursus zal ik Electrs gebruiken, maar je kunt gemakkelijk meelopen met Fulcrum: de installatieprocedure is identiek, net als de Interface verbinding met de Wallet, aangezien beide een Electrum server ontsluiten.
+Voor de rest van deze BTC 202 cursus zal ik Electrs gebruiken, maar je kunt gemakkelijk meelopen met Fulcrum: de installatieprocedure is identiek, net als de interface verbinding met de wallet, aangezien beide een Electrum server ontsluiten.
 
 
 
@@ -2231,18 +2231,18 @@ Zodra de installatie voltooid is, zal Electrs overgaan tot een synchronisatiefas
 
 
 
-Zodra de synchronisatie voltooid is, kunt u uw Wallet software verbinden met uw Electrum server, die gehost wordt op Umbrel.
+Zodra de synchronisatie voltooid is, kun je je wallet software verbinden met je Electrum server, die gehost wordt op Umbrel.
 
 
 
-## Hoe sluit ik mijn Wallet aan op mijn Bitcoin-node?
+## Hoe sluit ik mijn wallet aan op mijn Bitcoin-node?
 
 
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 
 
 
-Nu je een compleet Bitcoin node hebt, is het tijd om het goed te gebruiken! In het volgende hoofdstuk zullen we andere gebruiksmogelijkheden van je Umbrel instantie verkennen. Laten we echter beginnen met de basis: uw Wallet software aansluiten om informatie van uw eigen Blockchain te gebruiken en transacties via uw eigen node te distribueren.
+Nu je een compleet Bitcoin node hebt, is het tijd om het goed te gebruiken! In het volgende hoofdstuk zullen we andere gebruiksmogelijkheden van je Umbrel instantie verkennen. Laten we echter beginnen met de basis: uw wallet software aansluiten om informatie van uw eigen Blockchain te gebruiken en transacties via uw eigen node te distribueren.
 
 
 
@@ -2260,7 +2260,7 @@ In deze tutorial concentreren we ons op het verbinden met je node via Tor, omdat
 
 
 
-We gebruiken Sparrow als voorbeeld in dit hoofdstuk, maar de procedure is hetzelfde voor alle andere Wallet beheersoftware die verbindingen met Electrum servers accepteert. Zoek gewoon de corresponderende instelling in de parameters van je toepassing (meestal in "*Server*", "*Netwerk*", "*Node*"...).
+We gebruiken Sparrow als voorbeeld in dit hoofdstuk, maar de procedure is hetzelfde voor alle andere wallet beheersoftware die verbindingen met Electrum servers accepteert. Zoek gewoon de corresponderende instelling in de parameters van je toepassing (meestal in "*Server*", "*Netwerk*", "*Node*"...).
 
 
 
@@ -2311,7 +2311,7 @@ U moet dan verschillende gegevens invoeren om de verbinding met uw node tot stan
 
 
 
-Het tabblad "*RPC Details*" toont alle benodigde informatie voor de verbinding. Kies om verbinding te maken via Tor Address (in `.onion`).
+Het tabblad "*RPC Details*" toont alle benodigde informatie voor de verbinding. Kies om verbinding te maken via Tor adres (in `.onion`).
 
 
 
@@ -2363,7 +2363,7 @@ U moet dan een aantal gegevens invoeren om de verbinding met uw indexer tot stan
 
 
 
-Selecteer het tabblad "*Tor*" om de `.onion` verbinding Address te verkrijgen. Als u een mobiele Wallet-software wilt aansluiten, kunt u ook direct de QR-code scannen.
+Selecteer het tabblad "*Tor*" om de `.onion` verbinding adres te verkrijgen. Als u een mobiele wallet-software wilt aansluiten, kunt u ook direct de QR-code scannen.
 
 
 
@@ -2371,7 +2371,7 @@ Selecteer het tabblad "*Tor*" om de `.onion` verbinding Address te verkrijgen. A
 
 
 
-Voer gewoon de Tor Address van je Electrum server in het "*URL*" veld in en klik dan op de "*Test verbinding*" knop.
+Voer gewoon de Tor adres van je Electrum server in het "*URL*" veld in en klik dan op de "*Test verbinding*" knop.
 
 
 
@@ -2395,7 +2395,7 @@ Het vinkje rechtsonder op de Interface Sparrow wallet wordt blauw (de kleur die 
 
 
 
-Nu weet je hoe je je Wallet op je Bitcoin node kunt aansluiten! In het volgende hoofdstuk laat ik je kennismaken met een aantal extra toepassingen die beschikbaar zijn op Umbrel, waar ik bijzonder enthousiast over ben, en die je in staat zullen stellen om je dagelijks gebruik van Bitcoin via je node te verbeteren.
+Nu weet je hoe je je wallet op je Bitcoin node kunt aansluiten! In het volgende hoofdstuk laat ik je kennismaken met een aantal extra toepassingen die beschikbaar zijn op Umbrel, waar ik bijzonder enthousiast over ben, en die je in staat zullen stellen om je dagelijks gebruik van Bitcoin via je node te verbeteren.
 
 
 
@@ -2423,7 +2423,7 @@ Natuurlijk zou het onmogelijk zijn om alle Bitcoin toepassingen hier op te somme
 
 
 
-Als er één hulpmiddel is dat echt onmisbaar is bij het dagelijks gebruik van Bitcoin, dan is het Block explorer. Of het nu online toegankelijk is of lokaal geïnstalleerd, het zet de ruwe gegevens van Blockchain om in een gestructureerd, duidelijk en gemakkelijk te lezen formaat. Het heeft ook een zoekmachine waarmee gebruikers snel een specifiek blok, transactie of Address kunnen vinden.
+Als er één hulpmiddel is dat echt onmisbaar is bij het dagelijks gebruik van Bitcoin, dan is het Block explorer. Of het nu online toegankelijk is of lokaal geïnstalleerd, het zet de ruwe gegevens van Blockchain om in een gestructureerd, duidelijk en gemakkelijk te lezen formaat. Het heeft ook een zoekmachine waarmee gebruikers snel een specifiek blok, transactie of adres kunnen vinden.
 
 
 
@@ -2431,7 +2431,7 @@ Concreet kun je met de verkenner een schatting maken van de vergoedingen die nod
 
 
 
-Zoals eerder vermeld, kan een verkenner online worden gehost op een website of lokaal op je computer worden uitgevoerd. Een groot nadeel van online diensten is dat ze je privacy in gevaar kunnen brengen. Zonder VPN of Tor kan de server die de verkenner host je IP Address koppelen aan de transacties die je bekijkt, wat een ideaal ingangspunt kan zijn voor ketenanalyse.
+Zoals eerder vermeld, kan een verkenner online worden gehost op een website of lokaal op je computer worden uitgevoerd. Een groot nadeel van online diensten is dat ze je privacy in gevaar kunnen brengen. Zonder VPN of Tor kan de server die de verkenner host je IP adres koppelen aan de transacties die je bekijkt, wat een ideaal ingangspunt kan zijn voor ketenanalyse.
 
 
 
@@ -2456,7 +2456,7 @@ Umbrel biedt verschillende blokverkenners:
 
 
 
-Ik ben vooral dol op Mempool.Space, die ik op mijn node heb geïnstalleerd. Let op: om de meeste blokverkenners op Umbrel te gebruiken, is een Address indexer nodig. Je hebt dus de Bitcoin Node (of Bitcoin Knots) applicatie nodig, die een 100% gesynchroniseerde Blockchain heeft, evenals een indexer zoals Electrs of Fulcrum, die ook 100% gesynchroniseerd is.
+Ik ben vooral dol op Mempool.Space, die ik op mijn node heb geïnstalleerd. Let op: om de meeste blokverkenners op Umbrel te gebruiken, is een adres indexer nodig. Je hebt dus de Bitcoin Node (of Bitcoin Knots) applicatie nodig, die een 100% gesynchroniseerde Blockchain heeft, evenals een indexer zoals Electrs of Fulcrum, die ook 100% gesynchroniseerd is.
 
 
 
@@ -2526,7 +2526,7 @@ Een andere applicatie die ik erg leuk vind op Umbrel is Tailscale. Het is een VP
 
 
 
-Op Umbrel verbindt de installatie van Tailscale uw Bitcoin node met uw eigen virtuele privé-netwerk. Eenmaal geconfigureerd, krijgt uw node een privé Tailscale IP Address, alleen toegankelijk vanaf andere apparaten die verbonden zijn met hetzelfde Tailscale netwerk (zoals computers, smartphones en tablets). Deze verbinding is end-to-end versleuteld en gaat niet door een onbeschermd publiek netwerk, waardoor de beveiliging aanzienlijk wordt verbeterd ten opzichte van een onversleutelde verbinding.
+Op Umbrel verbindt de installatie van Tailscale uw Bitcoin node met uw eigen virtuele privé-netwerk. Eenmaal geconfigureerd, krijgt uw node een privé Tailscale IP adres, alleen toegankelijk vanaf andere apparaten die verbonden zijn met hetzelfde Tailscale netwerk (zoals computers, smartphones en tablets). Deze verbinding is end-to-end versleuteld en gaat niet door een onbeschermd publiek netwerk, waardoor de beveiliging aanzienlijk wordt verbeterd ten opzichte van een onversleutelde verbinding.
 
 
 
@@ -2546,7 +2546,7 @@ Concreet biedt Tailscale je verschillende voordelen bij het gebruik van je Umbre
 
 
 
-- Je kunt verbinding maken met je Electrum server (Electrs of Fulcrum) of direct met Bitcoin core via je VPN, waarbij je Tor omzeilt. Dit zorgt voor een veilige verbinding, vergelijkbaar met het gebruik van Tor, maar met een veel hogere snelheid en minder latentie. Kortom, u behoudt de privacy- en veiligheidsvoordelen van Tor terwijl u geniet van de snelheid van een Clearnet-verbinding. Voor een On-Chain Wallet lijkt deze winst misschien marginaal, maar als je van plan bent om later je eigen Lightning-node op te zetten, is het verschil aanzienlijk. Inderdaad, betalingen doen via je node onderweg op Tor is extreem traag door de vele uitwisselingen die nodig zijn, terwijl het met Tailscale perfect werkt.
+- Je kunt verbinding maken met je Electrum server (Electrs of Fulcrum) of direct met Bitcoin core via je VPN, waarbij je Tor omzeilt. Dit zorgt voor een veilige verbinding, vergelijkbaar met het gebruik van Tor, maar met een veel hogere snelheid en minder latentie. Kortom, u behoudt de privacy- en veiligheidsvoordelen van Tor terwijl u geniet van de snelheid van een Clearnet-verbinding. Voor een On-Chain wallet lijkt deze winst misschien marginaal, maar als je van plan bent om later je eigen Lightning-node op te zetten, is het verschil aanzienlijk. Inderdaad, betalingen doen via je node onderweg op Tor is extreem traag door de vele uitwisselingen die nodig zijn, terwijl het met Tailscale perfect werkt.
 
 
 
@@ -2590,7 +2590,7 @@ Nostr clients ***noStrudel*** of ***Snort*** zijn ook beschikbaar op Umbrel. Dan
 
 
 
-Tot slot is er de ***Nostr Wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr-klanten om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf uw persoonlijke node via uw kanalen verzonden.
+Tot slot is er de ***Nostr wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr-klanten om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf uw persoonlijke node via uw kanalen verzonden.
 
 
 
@@ -2719,7 +2719,7 @@ Voer deze handeling regelmatig uit om je besturingssysteem en applicaties up-to-
 
 
 
-Als je alleen je Bitcoin node gebruikt om je transacties te valideren en te distribueren, maar je wallets worden buiten Umbrel beheerd (bijvoorbeeld met een Hardware Wallet en Sparrow wallet), dan is er niets om direct naar Umbrel te back-uppen. In dit geval blijft de essentiële back-up die van de herstel-zin en Descriptor van je externe Wallet, en dit geldt ongeacht of je je eigen node gebruikt of niet. Er verandert dus niets ten opzichte van je vorige configuratie.
+Als je alleen je Bitcoin node gebruikt om je transacties te valideren en te distribueren, maar je wallets worden buiten Umbrel beheerd (bijvoorbeeld met een Hardware wallet en Sparrow wallet), dan is er niets om direct naar Umbrel te back-uppen. In dit geval blijft de essentiële back-up die van de herstel-zin en Descriptor van je externe wallet, en dit geldt ongeacht of je je eigen node gebruikt of niet. Er verandert dus niets ten opzichte van je vorige configuratie.
 
 
 
@@ -2887,7 +2887,7 @@ Wanneer een node voor het eerst opstart, kent het nog geen peers. Het moet echte
 
 
 
-Wanneer de node opnieuw opstart nadat het al eerder is gebruikt, probeert Core eerst opnieuw verbinding te maken met uitgaande peers die voor de uitschakeling zijn geregistreerd, informatie die is opgeslagen in het `anchors.dat` bestand. Daarna raadpleegt hij zijn IP Address boek **`peers.dat`**, waarin de lijst van eerder gevonden peers is opgeslagen, om opnieuw verbinding met ze te maken. Dit is gewoon een lokaal bestand, bijgewerkt en bewaard door Core. Aan de andere kant, voor een nieuwe node die net gelanceerd is, zijn deze 2 bestanden leeg, omdat deze nog nooit met andere Bitcoin nodes heeft gecommuniceerd.
+Wanneer de node opnieuw opstart nadat het al eerder is gebruikt, probeert Core eerst opnieuw verbinding te maken met uitgaande peers die voor de uitschakeling zijn geregistreerd, informatie die is opgeslagen in het `anchors.dat` bestand. Daarna raadpleegt hij zijn IP adres boek **`peers.dat`**, waarin de lijst van eerder gevonden peers is opgeslagen, om opnieuw verbinding met ze te maken. Dit is gewoon een lokaal bestand, bijgewerkt en bewaard door Core. Aan de andere kant, voor een nieuwe node die net gelanceerd is, zijn deze 2 bestanden leeg, omdat deze nog nooit met andere Bitcoin nodes heeft gecommuniceerd.
 
 
 
@@ -2920,7 +2920,7 @@ Als laatste redmiddel kun je handmatig Supply IP adressen instellen via het `pee
 
 
 
-Eenmaal opgestart, diversifieert de interne Address manager de bronnen (aparte autonome netwerken, clearnet en Tor, evenals verschillende geografische gebieden) om het risico van topologische isolatie te verminderen. Het node maakt deze uitgaande verbindingen (verbindingen die het zelf selecteert en die daarom veiliger zijn).
+Eenmaal opgestart, diversifieert de interne adres manager de bronnen (aparte autonome netwerken, clearnet en Tor, evenals verschillende geografische gebieden) om het risico van topologische isolatie te verminderen. Het node maakt deze uitgaande verbindingen (verbindingen die het zelf selecteert en die daarom veiliger zijn).
 
 
 
@@ -2967,7 +2967,7 @@ Standaard slaat Bitcoin core zijn gegevens op in een specifieke werkmap. Onder G
 
 
 
-Blockchain is daarom een verzameling blokken. Een Full node slaat deze blokken op als sequentiële platte bestanden en onderhoudt een parallelle index voor snel terugvinden. Wanneer het nodig is (reorganisatie, Wallet rescan, peer service), wordt deze data opnieuw gelezen zoals het is.
+Blockchain is daarom een verzameling blokken. Een Full node slaat deze blokken op als sequentiële platte bestanden en onderhoudt een parallelle index voor snel terugvinden. Wanneer het nodig is (reorganisatie, wallet rescan, peer service), wordt deze data opnieuw gelezen zoals het is.
 
 
 
@@ -3024,7 +3024,7 @@ Sommige indexen zijn optioneel en standaard uitgeschakeld, omdat ze de schijfrui
 
 
 
-- `indexes/txindex/`, die we al genoemd hebben, biedt een transactie → locatie mapping tabel, waardoor het mogelijk is om elke bevestigde transactie op te halen zonder het blok te kennen dat het bevat. Dit is handig voor buiten Wallet `getrawtransaction` type RPC queries, maar is vrij duur.
+- `indexes/txindex/`, die we al genoemd hebben, biedt een transactie → locatie mapping tabel, waardoor het mogelijk is om elke bevestigde transactie op te halen zonder het blok te kennen dat het bevat. Dit is handig voor buiten wallet `getrawtransaction` type RPC queries, maar is vrij duur.
 - indexes/blockfilter/` die compacte blokfilters (BIP157/158) kunnen bevatten voor thin clients. Deze structuren versnellen verificatie aan de cliëntkant ten koste van extra opslag op het indexeernode.
 
 
@@ -3131,7 +3131,7 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 
 
 
-- `peers.dat` houdt een IP Address boek bij van potentiële peers, gevoed door initiële DNS ontdekking, netwerkuitwisselingen en handmatige toevoegingen. Wanneer de node opstart, kan het uit dit bestand putten om uitgaande verbindingen tot stand te brengen.
+- `peers.dat` houdt een IP adres boek bij van potentiële peers, gevoed door initiële DNS ontdekking, netwerkuitwisselingen en handmatige toevoegingen. Wanneer de node opstart, kan het uit dit bestand putten om uitgaande verbindingen tot stand te brengen.
 - Als de node wordt uitgeschakeld, bewaart `anchors.dat` de adressen van uitgaande peers, zodat je ze de volgende keer dat je opstart snel weer kunt proberen te bereiken.
 - `banlist.json` bevat lokale verboden die zijn ingesteld door de operator of door de node (herhaaldelijk ongeldig gedrag), om te voorkomen dat de node opnieuw verbinding maakt of verbindingen accepteert van deze specifieke peers.
 - `fee_estimates.dat` bewaart statistieken over de tijdshorizon van waargenomen bevestigingen, die door de tariefschatter worden gebruikt om tariefpercentages voor te stellen die overeenkomen met de vertragingsdoelstellingen die zijn gekozen bij het aanmaken van een transactie.
@@ -3140,23 +3140,23 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 - `debug.log` is het diagnostische tekstlogboek, dat kan worden gebruikt om de activiteit van een node te begrijpen in het geval van een bug.
 - gW-448.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van de node en verwijderd bij het afsluiten.
 - `ip_asn.map` is een IP → ASN mapping tabel (standalone systeem) gebruikt voor bucketing en peer diversificatie (`-asmap` optie).
-- `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiele onion Address te behouden tussen reboots.
+- `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiele onion adres te behouden tussen reboots.
 - `i2p_private_key` slaat de privé-sleutel van I2P op wanneer `-i2psam=` wordt gebruikt, om uitgaande en mogelijk inkomende verbindingen op I2P te maken.
-- `.cookie` bevat een kortstondige RPC authenticatie token (aangemaakt bij het opstarten, verwijderd bij het afsluiten) wanneer cookie-authenticatie wordt gebruikt. Dit kan bijvoorbeeld worden gebruikt om Wallet software te verbinden.
+- `.cookie` bevat een kortstondige RPC authenticatie token (aangemaakt bij het opstarten, verwijderd bij het afsluiten) wanneer cookie-authenticatie wordt gebruikt. Dit kan bijvoorbeeld worden gebruikt om wallet software te verbinden.
 - `.lock` is de data directory lock, die voorkomt dat meerdere instanties tegelijkertijd naar dezelfde datadir schrijven.
 - `guisettings.ini.bak` is het automatisch opslaan van GUI instellingen (*Bitcoin Qt*) wanneer de `-resetguisettings` optie is gebruikt.
 
 
 
-Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel Bitcoin node-software als Wallet. Het is echter niet per se de oplossing die ik zou aanraden voor het beheren van je wallets, aangezien Interface nog steeds basis is en de functionaliteiten beperkt zijn vergeleken met moderne software zoals Sparrow of Liana. Core bevat ook bestanden voor het beheren van je wallets:
+Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel Bitcoin node-software als wallet. Het is echter niet per se de oplossing die ik zou aanraden voor het beheren van je wallets, aangezien Interface nog steeds basis is en de functionaliteiten beperkt zijn vergeleken met moderne software zoals Sparrow of Liana. Core bevat ook bestanden voor het beheren van je wallets:
 
 
 
 
 
 - `wallets/` is de standaardmap die een of meer;
-- `wallets/<name>/Wallet.dat` is de SQLite database van de Wallet (sleutels, descriptors, transactie metadata, etc.);
-- wallets/<name>/Wallet.dat-journal` is het SQLite rollback logboek.
+- `wallets/<name>/wallet.dat` is de SQLite database van de wallet (sleutels, descriptors, transactie metadata, etc.);
+- wallets/<name>/wallet.dat-journal` is het SQLite rollback logboek.
 
 
 
@@ -3335,19 +3335,19 @@ Op netwerkniveau hebben we ook:
 
 
 - `addnode`: voegt een vriendelijke peer toe om contact mee op te nemen naast de gebruikelijke ontdekking (kan meerdere keren gespecificeerd worden).
-- connect`: beperkt verbindingen strikt tot het Address node (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere nodes.
-- `seednode`: wordt alleen gebruikt om het boek-Address in te vullen als er verbinding wordt gemaakt met een node en daarna de verbinding wordt verbroken.
+- connect`: beperkt verbindingen strikt tot het adres node (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere nodes.
+- `seednode`: wordt alleen gebruikt om het boek-adres in te vullen als er verbinding wordt gemaakt met een node en daarna de verbinding wordt verbroken.
 - `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je node nooit meer dan 125 verbindingen zal accepteren.
 - maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente Elements.
 - `onlynet`: beperkt uitgaande verbindingen tot alleen geselecteerde netwerken (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Als je bijvoorbeeld wilt dat je node alleen via Tor verbinding maakt met het Bitcoin netwerk, dan kun je de `onlynet=onion` parameter inschakelen en inkomende verbindingen uitschakelen (of ook alleen verbindingen via Tor toestaan).
-- `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale Address pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
+- `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale adres pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
 - `forcednsseed`: verplicht _DNS seeds_ aan te vragen bij het opstarten, zelfs als je al adressen op voorraad hebt (standaard: `0`).
-- `fixedseeds`: Sta het gebruik toe van *seed nodes* (hardcoded Address lijst) als _DNS seeds_ falen of uitgeschakeld zijn (standaard: `1`).
+- `fixedseeds`: Sta het gebruik toe van *seed nodes* (hardcoded adres lijst) als _DNS seeds_ falen of uitgeschakeld zijn (standaard: `1`).
 - `dns`: Geeft toestemming voor DNS-resoluties in het algemeen (bijvoorbeeld voor `-addnode`/`-seednode`/`-connect`).
 
 
 
-Standaard communiceert je node over clearnet, Tor en I2P. Dit betekent dat de peers waarmee het verbinding maakt op clearnet je publieke IP Address kunnen zien, en je ISP zal waarschijnlijk kunnen detecteren dat je een Bitcoin node gebruikt (hoewel P2P Transport V2 het moeilijker maakt voor een ISP om af te luisteren). Dit is niet per se een probleem, maar als je wilt voorkomen dat deze informatie uitlekt, kun je je node uitsluitend via het Tor netwerk verbinden.
+Standaard communiceert je node over clearnet, Tor en I2P. Dit betekent dat de peers waarmee het verbinding maakt op clearnet je publieke IP adres kunnen zien, en je ISP zal waarschijnlijk kunnen detecteren dat je een Bitcoin node gebruikt (hoewel P2P Transport V2 het moeilijker maakt voor een ISP om af te luisteren). Dit is niet per se een probleem, maar als je wilt voorkomen dat deze informatie uitlekt, kun je je node uitsluitend via het Tor netwerk verbinden.
 
 
 
@@ -3368,7 +3368,7 @@ Om volledig Tor-enabled te zijn, moet je Bitcoin core dwingen om alleen dit netw
 
 
 
-Al je P2P verbindingen gaan via Tor. Je node ontvangt een `.onion` Address voor inkomende verbindingen, dus er hoeven geen poorten geopend te worden op de router. Je ISP ziet alleen Tor verkeer en je peers zijn niet op de hoogte van je werkelijke publieke IP Address.
+Al je P2P verbindingen gaan via Tor. Je node ontvangt een `.onion` adres voor inkomende verbindingen, dus er hoeven geen poorten geopend te worden op de router. Je ISP ziet alleen Tor verkeer en je peers zijn niet op de hoogte van je werkelijke publieke IP adres.
 
 
 
@@ -3418,7 +3418,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het node uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je Wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
+- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het node uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
 
 
 
@@ -3484,7 +3484,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Bindt een Interface of Address bereik en kent fijnkorrelige rechten toe aan de corresponderende peers: `relay`, `forcerelay`, `Mempool` (Mempool inhoud verzoek), `noban`, `download`, `addr`, `bloomfilter`. Dit kan handig zijn voor het toekennen van geprivilegieerde behandeling aan vertrouwde peers (zoals gateways, LANs en interne diensten).
+- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Bindt een Interface of adres bereik en kent fijnkorrelige rechten toe aan de corresponderende peers: `relay`, `forcerelay`, `Mempool` (Mempool inhoud verzoek), `noban`, `download`, `addr`, `bloomfilter`. Dit kan handig zijn voor het toekennen van geprivilegieerde behandeling aan vertrouwde peers (zoals gateways, LANs en interne diensten).
 
 
 
@@ -3514,25 +3514,25 @@ Ter herinnering, al deze relaisregels hebben geen invloed op de geldigheid van t
 
 
 
-Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin.conf` bestand. Als je Wallet niet direct in Core gebruikt, maar liever externe beheersoftware zoals Sparrow of Liana, dan zijn deze parameters van weinig belang:
+Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin.conf` bestand. Als je wallet niet direct in Core gebruikt, maar liever externe beheersoftware zoals Sparrow of Liana, dan zijn deze parameters van weinig belang:
 
 
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definieert het formaat van Wallet gegenereerde adressen voor ontvangst.
+- adrestype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definieert het formaat van wallet gegenereerde adressen voor ontvangst.
 
 
 
 
 
-- `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Exchange Address formaat forceren (rest van een invoer op een enkele betaling).
+- `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Exchange adres formaat forceren (rest van een invoer op een enkele betaling).
 
 
 
 
 
-- `Wallet=<pad>`: Laadt een bestaande Wallet bij het opstarten (kan herhaald worden om meerdere wallets te laden).
+- `wallet=<pad>`: Laadt een bestaande wallet bij het opstarten (kan herhaald worden om meerdere wallets te laden).
 
 
 
@@ -3556,13 +3556,13 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `txconfirmtarget=<n>`: Bevestigingsdoel voor de transactie (in aantal blokken, standaard: `6`). De Wallet stelt automatisch de vergoeding in voor de transactie die binnen dit aantal blokken moet worden bevestigd.
+- `txconfirmtarget=<n>`: Bevestigingsdoel voor de transactie (in aantal blokken, standaard: `6`). De wallet stelt automatisch de vergoeding in voor de transactie die binnen dit aantal blokken moet worden bevestigd.
 
 
 
 
 
-- `paytxfee=<amt>`: Vast tarief (BTC/kvB) toegepast op Wallet transacties. Vermijd in het algemeen: gebruik adaptieve schatting via `txconfirmtarget`.
+- `paytxfee=<amt>`: Vast tarief (BTC/kvB) toegepast op wallet transacties. Vermijd in het algemeen: gebruik adaptieve schatting via `txconfirmtarget`.
 
 
 
@@ -3574,19 +3574,19 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `mintxfee=<amt>`: Minimum drempel (BTC/kvB) voor Wallet om transacties aan te maken (standaard: `0.00001`). Wallet zal weigeren een transactie onder deze drempel aan te maken.
+- `mintxfee=<amt>`: Minimum drempel (BTC/kvB) voor wallet om transacties aan te maken (standaard: `0.00001`). wallet zal weigeren een transactie onder deze drempel aan te maken.
 
 
 
 
 
-- `maxtxfee=<amt>`: Absolute limiet op de totale kosten voor een Wallet transactie (standaard: `0.10` BTC). Beschermt tegen abnormaal hoge kosten die bitcoins onnodig zouden vernietigen.
+- `maxtxfee=<amt>`: Absolute limiet op de totale kosten voor een wallet transactie (standaard: `0.10` BTC). Beschermt tegen abnormaal hoge kosten die bitcoins onnodig zouden vernietigen.
 
 
 
 
 
-- `avoidpartialspends=1`: Selecteert UTXO's door Address clusters om gedeeltelijke uitgaven te vermijden.
+- `avoidpartialspends=1`: Selecteert UTXO's door adres clusters om gedeeltelijke uitgaven te vermijden.
 
 
 
@@ -3598,13 +3598,13 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `consolidatefeerate=<amt>`: Maximale snelheid (BTC/kvB) waarboven Wallet vermijdt om meer inputs toe te voegen dan nodig is om te consolideren. Dit maakt opportunistische consolidaties tegen lage prijzen mogelijk en verlaagt de kosten wanneer de kosten hoog zijn.
+- `consolidatefeerate=<amt>`: Maximale snelheid (BTC/kvB) waarboven wallet vermijdt om meer inputs toe te voegen dan nodig is om te consolideren. Dit maakt opportunistische consolidaties tegen lage prijzen mogelijk en verlaagt de kosten wanneer de kosten hoog zijn.
 
 
 
 
 
-- `maxapsfee=<n>`: Budget voor extra kosten (BTC, absolute waarde) die de Wallet bereid is te betalen om de optie "*vermijd gedeeltelijke uitgaven*" te activeren.
+- `maxapsfee=<n>`: Budget voor extra kosten (BTC, absolute waarde) die de wallet bereid is te betalen om de optie "*vermijd gedeeltelijke uitgaven*" te activeren.
 
 
 
@@ -3616,13 +3616,13 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `keypool=<n>`: Grootte van de vooraf gegenereerde Address pool (standaard: `1000`). Te kleine waarden vergroten het risico op onvolledige terugzettingen.
+- `keypool=<n>`: Grootte van de vooraf gegenereerde adres pool (standaard: `1000`). Te kleine waarden vergroten het risico op onvolledige terugzettingen.
 
 
 
 
 
-- `disablewallet=1`: Start Bitcoin core zonder het Wallet subsysteem en schakelt geassocieerde RPC's uit. Vermindert het aanvalsoppervlak en de footprint als de node alleen wordt gebruikt voor validatie/vrijgave.
+- `disablewallet=1`: Start Bitcoin core zonder het wallet subsysteem en schakelt geassocieerde RPC's uit. Vermindert het aanvalsoppervlak en de footprint als de node alleen wordt gebruikt voor validatie/vrijgave.
 
 
 
@@ -3660,7 +3660,7 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` niet-Wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
+- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` niet-wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
 
 
 
@@ -3740,7 +3740,7 @@ Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je
 
 
 
-- `rpcbind=<addr>[:port]`: RPC server luistert Address/poort. Standaard wordt alleen lokaal geluisterd (`127.0.0.1` en `::1`). Deze parameter wordt genegeerd als `rpcallowip` niet ook is gedefinieerd. Gebruik deze om Interface expliciet te beperken.
+- `rpcbind=<addr>[:port]`: RPC server luistert adres/poort. Standaard wordt alleen lokaal geluisterd (`127.0.0.1` en `::1`). Deze parameter wordt genegeerd als `rpcallowip` niet ook is gedefinieerd. Gebruik deze om Interface expliciet te beperken.
 
 
 
@@ -3764,7 +3764,7 @@ Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je
 
 
 
-- `rpccookiefile=<pad>`: Pad naar authenticatiecookie (standaard: `.cookie` bestand onder `datadir/`). Dit wordt gebruikt voor lokale toegang door dezelfde gebruiker zonder persistente wachtwoorden te beheren. U kunt het bijvoorbeeld gebruiken om de Liana Wallet met uw Bitcoin core op dezelfde machine te verbinden.
+- `rpccookiefile=<pad>`: Pad naar authenticatiecookie (standaard: `.cookie` bestand onder `datadir/`). Dit wordt gebruikt voor lokale toegang door dezelfde gebruiker zonder persistente wachtwoorden te beheren. U kunt het bijvoorbeeld gebruiken om de Liana wallet met uw Bitcoin core op dezelfde machine te verbinden.
 
 
 
@@ -3886,7 +3886,7 @@ We zijn nu klaar met het opsommen van de meeste configuratieparameters. Dit `Bit
 
 
 
-We zijn aan het einde gekomen van deze BTC 202-cursus, die u niet alleen in staat heeft gesteld de basisprincipes te begrijpen van hoe nodes werken en hoe ze samenwerken binnen het systeem, maar ook om uw eigen node op te zetten. U bent nu een soevereine Bitcoiner, met uw eigen Wallet, die uw transacties uitzendt via uw eigen node. Gefeliciteerd!
+We zijn aan het einde gekomen van deze BTC 202-cursus, die u niet alleen in staat heeft gesteld de basisprincipes te begrijpen van hoe nodes werken en hoe ze samenwerken binnen het systeem, maar ook om uw eigen node op te zetten. U bent nu een soevereine Bitcoiner, met uw eigen wallet, die uw transacties uitzendt via uw eigen node. Gefeliciteerd!
 
 
 

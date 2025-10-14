@@ -140,7 +140,7 @@ In this section:
 
 2: Start menu icons are listed, which can also be added or removed based on requirements.
 
-C: This section allows configuring whether virtualization-related tools are installed or not. This option is specific to Windows 11 and does not apply to Windows 10.
+3: This section allows configuring whether virtualization-related tools are installed or not. This option is specific to Windows 11 and does not apply to Windows 10.
 
 The next step involves configuring Wi-Fi settings:
 
@@ -172,7 +172,9 @@ Finally, after applying the desired settings, the generated XML file can be down
 
 By clicking on Download XML File, the autounattend.xml file is downloaded. To use this file, simply mount the downloaded ISO on a USB drive, place the autounattend.xml file in the root directory, and then proceed with the Windows installation.
 
-One of the tools available for creating a bootable USB drive is Rufus.
+One of the tools available for creating a bootable USB drive is Rufus. Rufus can make a bootable windows installation flash drive, with a given windows instllation ISO file. It is fast and simple.
+
+* [Rufus](https://rufus.ie/it/#download)
 
 ![Image](assets/en/21.webp)
 
@@ -186,7 +188,11 @@ At this stage, we disable all options, as having them enabled can cause conflict
 
 At this point, the USB drive is ready for use to install Windows automatically, and the installation can be started using this drive.
 
-If you need to install Windows on a virtual machine, you can use software to create and edit ISO files. One such software is AnyBurn. After extracting the contents of the ISO file downloaded from the Microsoft website, place the autounattend.xml file in the root directory. Then, using AnyBurn, create a new ISO with the updated contents. On the main page of the software, select "Create Image from File/Folder":
+If you need to install Windows on a virtual machine, you can use software to create and edit ISO files. One such software is AnyBurn. After extracting the contents of the ISO file downloaded from the Microsoft website, place the autounattend.xml file in the root directory. Then, using AnyBurn, create a new ISO with the updated contents.AnyBurn is a multifunctional software for working with ISO files. It offers various features for handling ISO files, one of which is creating bootable ISO images.
+
+* [AnyBurn](https://www.anyburn.com/download.php)
+  
+On the main page of the software, select "Create Image from File/Folder":
 
 ![Image](assets/en/24.webp)
 
@@ -203,3 +209,6 @@ At this stage, the path to the bootfix.bin file must be set to make the ISO boot
 ![Image](assets/en/27.webp)
 
 After this step, clicking Next will create the ISO file. This file can be used in virtualization software such as Oracle VirtualBox.
+
+
+https://planb.network/tutorials/computer-security/operating%20system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65

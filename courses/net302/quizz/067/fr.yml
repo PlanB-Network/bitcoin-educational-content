@@ -6,4 +6,4 @@ wrong_answers:
   - Améliorer la compatibilité ARP
 explanation: |
   L’utilisation d’identifiants d’interface aléatoires protège contre le suivi des appareils par leur adresse MAC.
-reviewed: false
+reviewed: true 

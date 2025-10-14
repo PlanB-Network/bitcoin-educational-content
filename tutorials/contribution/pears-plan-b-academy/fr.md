@@ -248,13 +248,104 @@ Votre système Windows est désormais prêt à exécuter et héberger des applic
 
 ### 1.4. Comment installer Pears sur macOS ?
 
-Voyons maintenant comment installer Pears sur macOS.
+L’installation de Pears sur macOS est similaire à celle sous Linux, mais elle requiert quelques ajustements propres à l’environnement Apple. Découvrons ces étapes ensemble.
 
 *Si vous utilisez Linux ou Windows et avez déjà installé Pears, vous pouvez passer directement à l'**étape 2**.*
 
+#### 1.4.1. Vérifier les prérequis système
 
+Avant l'installation, assurez-vous que *Xcode Command Line Tools* est présent sur votre système. Ce paquet fournit les outils de compilation nécessaires pour _Node.js_ et ses dépendances.
 
+Pour ce faire, ouvrez un terminal avec le raccourcis clavier `Cmd + Space bar`, puis tapez `Terminal` et appuyez sur la touche `Enter`. Vous pouvez ensuite saisir cette commande dans le terminal pour lancer l'installation :
 
+```bash
+xcode-select --install
+```
+
+Si les outils sont déjà installés sur votre système, macOS vous en informera.
+
+#### 1.4.2. Installer NVM
+
+Pears est distribué via *npm*, le gestionnaire de paquets *Node.js*. Même si Pears ne dépend pas directement de *Node.js* pour fonctionner, celui-ci est nécessaire à l’installation. La méthode recommandée pour installer *Node.js* sur macOS est *NVM* (*Node Version Manager*), qui permet de gérer plusieurs versions de Node en parallèle.
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+```
+
+Ensuite, rechargez votre terminal pour activer *NVM* :
+
+```bash
+source ~/.zshrc
+```
+
+Si vous utilisez *bash* plutôt que *zsh*, exécutez plutôt :
+
+```bash
+source ~/.bashrc
+```
+
+Vérifiez ensuite que *NVM* est bien installé :
+
+```bash
+nvm --version
+```
+
+Le terminal doit vous renvoyer la version de *NVM* installée sur votre système.
+
+#### 1.4.3. Installer Node.js et npm
+
+Installez ensuite une version stable de *Node.js* (par exemple la LTS actuelle) :
+
+```bash
+nvm install --lts
+```
+
+Une fois l’installation terminée, vérifiez les versions installées :
+
+```bash
+node -v
+npm -v
+```
+
+Les deux commandes doivent retourner un numéro de version.
+
+#### 1.4.4. Installer Pears avec npm
+
+Une fois *npm* disponible, vous pouvez installer Pears CLI globalement sur votre système. Cela vous permettra d’exécuter la commande `pear` depuis n’importe quel répertoire.
+
+```bash
+npm install -g pear
+```
+
+#### 1.4.5. Initialiser Pears
+
+Après l’installation, lancez simplement la commande suivante dans votre terminal :
+
+```bash
+pear
+```
+
+Lors du premier démarrage, Pears va se connecter au réseau pair-à-pair pour télécharger les composants nécessaires. Ce processus ne nécessite aucun serveur central : les fichiers sont obtenus directement depuis d’autres pairs.  
+
+Une fois le téléchargement terminé, relancez la commande pour vérifier que tout fonctionne :
+
+```bash
+pear
+```
+
+Si tout est correctement installé, l’aide de Pears s’affichera avec la liste des commandes disponibles.
+
+#### 1.4.6. Tester Pears avec Keet
+
+Pour vérifier que Pears est pleinement opérationnel, vous pouvez lancer une application P2P déjà disponible sur le réseau, comme Keet, le logiciel de messagerie et visioconférence open-source de Holepunch.
+
+```bash
+pear run pear://keet
+```
+
+Cette commande charge l’application Keet directement depuis le réseau Pears, sans passer par un serveur central. Si Keet se lance correctement, cela signifie que votre installation de Pears est pleinement fonctionnelle.
+
+Votre système macOS est désormais prêt à exécuter et héberger des applications pair-à-pair avec Pears.
 
 ## 2. Comment utiliser Plan ₿ Academy sur Pears ?
 

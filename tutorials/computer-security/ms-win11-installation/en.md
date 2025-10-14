@@ -44,7 +44,7 @@ Once the request is successfully processed, you will see a page with the downloa
 The file size is about 5.5 GB, and the generated link will be valid for 24 hours.
 
 ## II. Second : Automation!
-At this stage, we need to make changes to the standard Windows installation. In this stage, using Unattended install, we determine the items that we want to have changes during installation. In fact, in this method, an XML file is used to configure the installation steps and services installed in Windows. This method is an unusual but standard method that has been introduced by Microsoft. More information is available on Microsoft's official website at the following address:
+At this stage, we need to make changes to the standard Windows installation. In this stage, using Unattended install, we determine the items that we want to have changes during installation. In fact, in this method, an XML file is used to configure the installation steps and services installed in Windows. In other words, the use of the Unattended.xml file creates an automation process during installation, preventing the need to select multiple options and avoiding the tedious steps usually required during setup. This method is an unusual but standard method that has been introduced by Microsoft. More information is available on Microsoft's official website at the following address:
 
 https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11
 

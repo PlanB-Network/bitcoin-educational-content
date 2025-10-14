@@ -1,10 +1,12 @@
 ---
-"name:": BTCPay Server
-"description:": Accepter des payements Bitcoin sans frais, et sans intermédiaire.
+name: BTCPay Server
+description: Accepter des paiements en bitcoins sans frais et sans intermédiaire.
 ---
 
-![capture](assets/cover.webp)
- 
+![cover](assets/cover.webp)
+
+![video](https://youtu.be/KqsM-n-e4aY)
+
 Dans un monde de plus en plus numérique, de nouvelles initiatives et d'innovations émergent quotidiennement. Il en est de même dans le domaine de la finance, du commerce, etc. Les boutiques virtuelles, l'e-commerce, les paiements numériques foisonnent, de nos jours. Les paiements en espèces s'effacent progressivement à mesure que les paiements numériques deviennent monnaie courante. Cependant, il reste encore des obstacles tels que les frais élevés que les intégrateurs de paiements prélèvent, la rétro-facturation, le blocage ou le gel des fonds, les interruptions de services causées par une panne, pour ne mentionner que ceux-là.
 
 C'est au regard de toutes ces contraintes, que des solutions ont été élaborées pour permettre aux commerçants de recevoir des paiements avec — une monnaie numérique, non censurable et sans tiers de confiance — le Bitcoin. Les premières méthodes de paiement via Bitcoin comme BitPay étaient toujours centralisées. Dans le but de se rapprocher le plus possible de l'esprit qui sous-tend la création de Bitcoin (la décentralisation), **BTC PAY Server** a été créé.

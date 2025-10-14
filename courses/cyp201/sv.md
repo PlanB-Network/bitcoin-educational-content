@@ -36,6 +36,8 @@ Med tydlig pedagogik, över 60 förklarande diagram och konkreta exempel kommer 
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 
 Välkommen till kursen CYP201, där vi kommer att utforska på djupet hur HD Bitcoin plånböcker fungerar. Den här kursen är utformad för alla som vill förstå de tekniska grunderna för att använda Bitcoin, oavsett om de är tillfälliga användare, upplysta entusiaster eller framtida experter.
 
@@ -279,6 +281,8 @@ Du känner nu till de viktigaste grunderna om hashfunktioner för vad som följe
 
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 
 Vi har tidigare sett att hashfunktioner har viktiga egenskaper som motiverar att de används i Bitcoin. Låt oss nu undersöka de interna mekanismerna i dessa hashfunktioner som ger dem dessa egenskaper, och för att göra detta föreslår jag att dissekera driften av SHA256.
@@ -783,6 +787,8 @@ Nu när vi har tittat i detalj på hur Hash-funktioner fungerar, särskilt SHA25
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 
 I Bitcoin på applikationsnivå används, förutom Hash-funktioner, kryptografiska derivationsalgoritmer för att generate säkra data från initiala indata. Även om dessa algoritmer förlitar sig på Hash-funktioner har de olika syften, särskilt när det gäller autentisering och nyckelgenerering. Dessa algoritmer behåller några av egenskaperna hos Hash-funktioner, t.ex. irreversibilitet, manipuleringsresistens och kollisionsresistens.
 
@@ -915,6 +921,8 @@ I det här kapitlet har vi undersökt funktionerna HMAC-SHA512 och PBKDF2, som a
 
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
+
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
 
 Den andra kryptografiska metoden som används i Bitcoin involverar digitala signaturalgoritmer. Låt oss utforska vad detta innebär och hur det fungerar.
@@ -1054,6 +1062,8 @@ https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 Som tidigare nämnts baseras de digitala signaturalgoritmerna i Bitcoin på ett par privata och offentliga nycklar som är matematiskt sammankopplade. Låt oss tillsammans utforska vad denna matematiska länk är och hur de genereras.
 
@@ -1239,6 +1249,8 @@ I det här förenklade exemplet med $k = 4$ skulle det naturligtvis vara möjlig
 
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 
 Nu när du vet hur man härleder en offentlig nyckel från en privat nyckel kan du redan ta emot bitcoins genom att använda detta nyckelpar som ett utgiftsvillkor. Men hur spenderar man dem? För att spendera bitcoins måste du låsa upp _scriptPubKey_ som är kopplad till din UTXO för att bevisa att du verkligen är dess legitima ägare. För att göra detta måste du producera en signatur $s$ som matchar den offentliga nyckeln $K$ som finns i _scriptPubKey_ med hjälp av den privata nyckeln $k$ som ursprungligen användes för att beräkna $K$. Den digitala signaturen är således ett ovedersägligt bevis på att du har den privata nyckel som är kopplad till den publika nyckel som du hävdar.
@@ -1548,6 +1560,8 @@ Tja, vi vet inte riktigt varför Satoshi inte valde det, men en trolig hypotes �
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 
 Som vi har sett i tidigare kapitel används digitala signaturer ofta för att låsa upp skriptet för en inmatning. I signeringsprocessen är det nödvändigt att inkludera de signerade uppgifterna i beräkningen, i våra exempel betecknade med meddelandet $m$. När dessa data väl har signerats kan de inte ändras utan att signaturen blir ogiltig. Oavsett om det gäller ECDSA eller Schnorr måste signaturverifieraren inkludera samma meddelande $m$ i sin beräkning. Om det skiljer sig från det meddelande $m$ som undertecknaren ursprungligen använde, blir resultatet felaktigt och signaturen anses ogiltig. Man kan då säga att en signatur täcker vissa data och på sätt och vis skyddar dem mot obehöriga ändringar.
 
@@ -1656,6 +1670,8 @@ I nästa del föreslår jag att du upptäcker hur Mnemonic-frasen vid basen av d
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
+
 
 Nu när vi har utforskat hur Hash-funktioner och digitala signaturer fungerar kan vi studera hur Bitcoin-plånböcker fungerar. Målet är att beskriva hur en Wallet i Bitcoin är uppbyggd, hur den bryts ned och vad de olika informationsbitarna som utgör den används till. Denna förståelse för Wallet-mekanismerna gör att du kan förbättra din användning av Bitcoin när det gäller säkerhet och integritet.
 
@@ -1723,6 +1739,8 @@ I de kommande kapitlen kommer vi att utforska det interna arbetet i HD-plånböc
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Moderna HD-plånböcker förlitar sig på en enda initial information som kallas "entropi" för att deterministiskt generate hela uppsättningen Wallet-nycklar. Denna entropi är ett pseudoslumpmässigt tal som delvis avgör säkerheten för Wallet.
 
 
@@ -1762,6 +1780,8 @@ I nästa kapitel ska vi se hur vi går från ett slumpmässigt tal till en Mnemo
 
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 Mnemonic-frasen, även kallad "seed-fras", "återhämtningsfras", "hemlig fras" eller "24-ordsfras", är en sekvens som vanligtvis består av 12 eller 24 ord, som genereras från entropi. Den används för att på ett deterministiskt sätt härleda alla nycklar till en HD Wallet. Detta innebär att det från denna fras är möjligt att deterministiskt generate och återskapa alla privata och offentliga nycklar till Bitcoin Wallet, och följaktligen få tillgång till de medel som skyddas med den. Syftet med Mnemonic-frasen är att tillhandahålla ett sätt att säkerhetskopiera och återskapa bitcoins som är både säkert och enkelt att använda. Den introducerades 2013 med BIP39-standarden.
 
@@ -1908,6 +1928,8 @@ Innan vi fortsätter med härledningen av Wallet från denna Mnemonic-fras komme
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
+
 
 Som vi just har sett genereras HD-plånböcker från en Mnemonic-fras som vanligtvis består av 12 eller 24 ord. Denna fras är mycket viktig eftersom den gör det möjligt att återställa alla nycklar i en Wallet om dess fysiska enhet (som t.ex. en Hardware Wallet) skulle gå förlorad. Den utgör dock en enda felkälla, för om den äventyras kan en angripare stjäla alla bitcoins. Det är här som BIP39 passphrase kommer in i bilden.
 
@@ -1963,6 +1985,8 @@ I följande avsnitt kommer vi att upptäcka hur dessa två Elements vid basen av
 
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 
 När Mnemonic-frasen och den valfria passphrase har genererats kan processen med att härleda en Bitcoin HD Wallet påbörjas. Mnemonic-frasen konverteras först till en seed som utgör basen för alla nycklar i Wallet.
@@ -2071,6 +2095,8 @@ Innan jag fortsätter med härledningen av HD Wallet med följande Elements, vil
 ## Utökade nycklar
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 
 En utökad nyckel är helt enkelt en sammankoppling av en nyckel (privat eller offentlig) och dess tillhörande chain code. Denna chain code är nödvändig för att härleda underordnade nycklar eftersom det utan den är omöjligt att härleda underordnade nycklar från en överordnad nyckel, men vi kommer att beskriva denna process mer ingående i nästa kapitel. Dessa utökade nycklar gör det alltså möjligt att samla all nödvändig information för att härleda underordnade nycklar, vilket förenklar kontohanteringen inom en HD Wallet.
@@ -2237,6 +2263,8 @@ I det här kapitlet har vi lärt oss att det finns två olika typer av underordn
 ## Härledning av nyckelpar för barn
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 
 Härledningen av barnnyckelpar i Bitcoin HD-plånböcker förlitar sig på en hierarkisk struktur som gör det möjligt att generera ett stort antal nycklar, samtidigt som dessa par organiseras i olika grupper genom grenar. Varje barnpar som härrör från ett föräldrapar kan användas antingen direkt i en *scriptPubKey* för att låsa bitcoins, eller som utgångspunkt för generate fler barnnycklar, och så vidare, för att skapa ett träd av nycklar.
@@ -2496,6 +2524,8 @@ Hittills har du lärt dig att skapa den grundläggande Elements för en HD Walle
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 
 Den hierarkiska strukturen för HD-plånböcker i Bitcoin gör det möjligt att organisera nyckelpar på olika sätt. Tanken är att från den privata huvudnyckeln och huvudnyckeln chain code härleda flera nivåer av djup. Varje tillagd nivå motsvarar härledningen av ett underordnat nyckelpar från ett överordnat nyckelpar.
 
@@ -2629,6 +2659,8 @@ I nästa kapitel kommer vi att upptäcka vad "*output script descriptors*" är, 
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Du får ofta höra att Mnemonic-frasen ensam är tillräcklig för att återställa åtkomst till en Wallet. I verkligheten är saker och ting lite mer komplexa. I det föregående kapitlet tittade vi på härledningsstrukturen för HD Wallet, och du kanske har märkt att den här processen är ganska komplex. Härledningsvägar talar om för programvaran vilken riktning den ska följa för att härleda användarens nycklar. Men när man återställer en Bitcoin Wallet, om man inte känner till dessa vägar, är Mnemonic-frasen ensam inte tillräckligt. Det gör det möjligt att få huvudnyckeln och huvud chain code, men det är då nödvändigt att känna till de index som används för att nå barnnycklarna.
 
 
@@ -2693,6 +2725,8 @@ Du vet nu allt om hur HD-plånböcker fungerar i Bitcoin och processen för att 
 ## Mottagande adresser
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
+
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
 
 Mottagningsadresser är informationsbitar inbäddade i *scriptPubKey* för att låsa nyskapade UTXO:er. Enkelt uttryckt tjänar en Address till att ta emot bitcoins. Låt oss utforska deras funktion i samband med vad vi har studerat i de tidigare kapitlen.
@@ -2878,6 +2912,8 @@ Nu när vi har gått igenom teorin kan vi gå vidare till praktiken! I följande
 ## Address härledning
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 
 Låt oss tillsammans utforska hur man kan generate en mottagande Address från ett nyckelpar som till exempel finns på djup 5 i en HD Wallet. Denna Address kan sedan användas i en Wallet-programvara för att låsa en UTXO.

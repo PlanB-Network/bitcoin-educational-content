@@ -26,6 +26,8 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 歡迎來到 CYP201 課程，我們將在此深入探討 HD Bitcoin 錢包的運作原理。本課程專為想要瞭解 Bitcoin 使用技術基礎的任何人而設計，無論他們是隨便的使用者、有悟性的愛好者，或是未來的專家。
 
 本訓練的目標是提供您掌握日常使用工具的訣竅。HD Bitcoin 錢包是您使用者體驗的核心，有時以複雜的概念為基礎，我們將嘗試讓您了解這些概念。我們將與您一起解開它們的神秘面紗！
@@ -205,6 +207,8 @@ $$
 ## SHA256 的內部運作
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 我們之前已經看到雜湊函數擁有重要的特性，這些特性證明它們可以用在 Bitcoin 上。現在讓我們檢視這些散列函數賦予這些特性的內部機制，為了達到這個目的，我建議剖析 SHA256 的運作。
 
@@ -607,6 +611,8 @@ $$
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 在 Bitcoin 應用層級中，除了 Hash 函式之外，還會使用加密推導演算法來保護來自初始輸入的 generate 資料。雖然這些演算法依賴 Hash 函式，但它們有不同的目的，尤其是在認證和金鑰產生方面。這些演算法保留了 Hash 函數的某些特性，例如不可逆性、抗竄改性和抗碰撞性。
 
 在 Bitcoin 錢包上，主要使用 2 種衍生演算法：
@@ -700,6 +706,8 @@ $$
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 Bitcoin 中使用的第二種加密方法涉及數位簽章演算法。讓我們來探討一下這包括什麼以及如何運作。
 
 ### 比特幣、UTXOs 和消費條件
@@ -790,6 +798,8 @@ https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 ## 從私密金鑰計算公開金鑰
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 如前所述，Bitcoin 上的數位簽章演算法是基於一對在數學上有關聯的私密金鑰和公開金鑰。讓我們一起探討這個數學上的連結是什麼，以及它們是如何產生的。
 
@@ -909,6 +919,8 @@ $$
 ## 使用私密金鑰簽署
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 現在您已經知道如何從私密金鑰推導出公開金鑰，您已經可以使用這對金鑰作為花費條件來接收 bitcoins。但是如何使用它們呢？要使用比特幣，您需要解鎖附在 UTXO 上的 _scriptPubKey_ 以證明您確實是它的合法擁有者。要做到這一點，您必須使用最初用於計算 $K$ 的私人密碼匙 $k$ 製作與 _scriptPubKey_ 中的公開密碼匙 $K$ 相匹配的簽章 $s$。因此，數位簽章是不可推翻的證明，證明您擁有與您所聲稱的公開金鑰相關的私人金鑰。
 
@@ -1137,6 +1149,8 @@ $$
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 正如我們在前幾章所見，數位簽章通常用於解鎖輸入的腳本。在簽章過程中，必須將已簽章的資料包含在計算中，在我們的範例中指定為訊息 $m$。此資料一經簽署，若不使簽署失效，則無法修改。事實上，不論是 ECDSA 或 Schnorr，簽章驗證者都必須在計算中包含相同的訊息 $m$。如果它與簽章者最初使用的訊息 $m$ 不同，結果將是不正確的，簽章將被視為無效。因此可以說，簽名涵蓋了某些資料，並在某種程度上保護資料免受未經授權的修改。
 
 ### 什麼是 sighash 旗幟？
@@ -1212,6 +1226,8 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
+
 既然我們已經探索了 Hash 功能和數位簽章的運作，我們就可以研究 Bitcoin 錢包的運作方式。我們的目標將是想像 Bitcoin 上的 Wallet 是如何構成、如何分解，以及構成 Wallet 的不同資訊是用來做什麼的。對 Wallet 機制的了解將可讓您在安全性和隱私權方面改善 Bitcoin 的使用。
 
 在深入瞭解技術細節之前，有必要先釐清何謂「Bitcoin Wallet」，並瞭解其效用。
@@ -1257,6 +1273,8 @@ Mnemonic 短語大大簡化了用戶的備份工作。如果託管 Wallet 的裝
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 現代的 HD 錢包（確定式和分層式）依賴一個稱為「熵」的單一初始資訊來確定 generate 的整套 Wallet 金鑰。這個熵是一個偽隨機數，其混亂程度部分決定了 Wallet 的安全性。
 
 ### 熵的定義
@@ -1284,6 +1302,8 @@ HD Wallet 使用的初始熵一般為 128 位元或 256 位元，其中：
 ## Mnemonic 語句
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 Mnemonic 詞組也稱為 「seed 詞組」、「恢復詞組」、「秘密詞組 」或 「24 字詞組」，是通常由 12 或 24 個字組成的序列，由熵產生。它用來確定性地推導出 HD Wallet 的所有金鑰。這表示從這個詞組可以確定地 generate 並重新產生 Bitcoin Wallet 的所有私人和公開金鑰，進而存取以其保護的資金。Mnemonic 短語的目的是提供一種既安全又易用的比特幣備份和復原方式。它在 2013 年與 BIP39 一起被引入標準。
 
@@ -1387,6 +1407,8 @@ https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
+
 正如我們剛才所看到的，HD 錢包是由 Mnemonic 詞組產生的，通常由 12 或 24 個單詞組成。這個詞組非常重要，因為它可以在 Wallet 的實體裝置（例如 Hardware Wallet）遺失時恢復其所有金鑰。不過，它也構成了單點失敗，因為如果它被攻擊，攻擊者就可能竊取所有的 bitcoins。這就是 BIP39 passphrase 發揮作用的地方。
 
 ### 什麼是 BIP39 passphrase？
@@ -1424,6 +1446,8 @@ passphrase 是任意的，可以是使用者選擇的任何字元組合。因此
 ## 建立 seed 和主密碼
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 一旦產生 Mnemonic 詞組和選用的 passphrase，就可以開始衍生 Bitcoin HD Wallet 的程序。Mnemonic 詞組會先轉換成 seed，構成 Wallet 所有鍵的基礎。
 
@@ -1501,6 +1525,8 @@ $$
 ## 延伸鑰匙
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 擴展金鑰是一個金鑰 (無論是私人或公開) 和其相關鏈碼的簡單串接。這個鏈碼對於子金鑰的衍生是非常重要的，因為如果沒有它，就不可能從父金鑰衍生出子金鑰，但我們會在下一章更精確地發現這個過程。因此，這些擴充金鑰允許彙集所有必要的資訊來衍生子金鑰，從而簡化 HD Wallet 內的帳戶管理。
 
@@ -1652,6 +1678,8 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 ## 子金鑰對的衍生
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 在 Bitcoin HD 錢包中，子密鑰對的衍生依賴於一種分層結構，它允許生成大量的密鑰，同時通過分支將這些密鑰對組織成不同的群組。從父鑰匙對衍生出來的每個子鑰匙對都可以直接用於 *scriptPubKey* 鎖定比特幣，或者作為 generate 更多子鑰匙的起點，以此類推，創建一棵鑰匙樹。
 
@@ -1836,6 +1864,8 @@ $$
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 Bitcoin 上 HD 錢包的分層結構允許以各種方式組織金鑰對。其構思是從主私人密碼匙和主鏈碼衍生出多層深度。每個新增的層級對應於從父鑰匙對衍生出子鑰匙對。
 
 隨著時間的推移，不同的 BIP 引進了這些衍生路徑的標準，目的是統一它們在不同軟體中的使用。因此，在本章中，我們將根據這些標準，瞭解 HD 錢包中各級衍生的含義。
@@ -1940,6 +1970,8 @@ $$
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 您通常會被告知單憑 Mnemonic 詞組就足以恢復 Wallet 的存取權限。實際上，事情比較複雜。在前一章中，我們研究了 HD Wallet 的衍生結構，您可能已經注意到這個過程相當複雜。萃取路徑會告訴軟體要沿著哪個方向萃取使用者的金鑰。然而，在復原 Bitcoin Wallet 時，如果不知道這些路徑，光靠 Mnemonic 的詞組是不夠的。它允許取得主密鑰和主鏈碼，但接下來必須知道用來取得子密鑰的索引。
 
 理論上，不僅需要保存我們 Wallet 的 Mnemonic 詞組，還需要保存我們使用的帳戶路徑。實際上，只要遵循標準，通常可以在沒有這些資訊的情況下重新取得子金鑰的存取權。只要逐一測試每個標準，一般都可以重新取得比特幣的存取權。但是，這並不能保證，而且對初學者來說尤其複雜。而且，隨著腳本類型的多樣化和更複雜配置的出現，這些資訊可能會變得難以推斷，從而使這些資料變成隱私資訊，難以用暴力手段恢復。這就是為什麼最近推出了一項創新，並開始整合到您最喜歡的 Wallet 軟體中：*輸出腳本描述符*。
@@ -1989,6 +2021,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ## 收件地址
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
+
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
 接收地址是嵌入在 *scriptPubKey* 中的資訊，用來鎖定新建立的 UTXO。簡單來說，Address 是用來接收比特幣的。讓我們結合前面幾章的內容來探討它們的運作。
 
@@ -2132,6 +2166,8 @@ P2TR 對應版本 1 的 SegWit 輸出，這表示 P2TR 輸入的簽章會儲存�
 ## Address 衍生
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 讓我們一起探討如何從位於 HD Wallet 深度 5 的一對鑰匙 generate 接收 Address。然後，這個 Address 就可以用 Wallet 軟體來鎖定 UTXO。
 

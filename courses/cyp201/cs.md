@@ -28,6 +28,8 @@ S jasnou pedagogikou, více než 60 vysvětlujícími diagramy a konkrétními p
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 Vítejte v kurzu CYP201, kde se podrobně seznámíme s fungováním HD Bitcoinových peněženek. Tento kurz je určen každému, kdo chce pochopit technické základy používání Bitcoinu, ať už jde o příležitostné uživatele, osvícené nadšence nebo budoucí odborníky.
 
 Cílem tohoto školení je dát vám klíče k ovládnutí nástrojů, které používáte každý den. HD Bitcoinové peněženky, které jsou v srdci vašeho uživatelského zážitku, jsou založeny na někdy složitých konceptech, které se pokusíme zpřístupnit. Společně je odhalíme!
@@ -195,6 +197,9 @@ Nyní znáte základní informace o hašovacích funkcích pro to, co následuje
 ## Vnitřní fungování SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Dříve jsme viděli, že hashovací funkce mají důležité charakteristiky, které ospravedlňují jejich použití v Bitcoinu. Nyní se podíváme na vnitřní mechanismy těchto hashovacích funkcí, které jim dávají tyto vlastnosti, a k tomu navrhuji rozebrat fungování SHA256.
 Funkce SHA256 a SHA512 patří do stejné rodiny SHA2. Jejich mechanismus je založen na specifické konstrukci nazvané **Merkle-Damgårdova konstrukce**. RIPEMD160 také využívá tento stejný typ konstrukce.
 
@@ -548,6 +553,8 @@ Nyní, když jsme se podrobně podívali na fungování hašovacích funkcí, ze
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 V Bitcoinu na aplikační úrovni, kromě hašovacích funkcí, se používají kryptografické algoritmy derivace k generování bezpečných dat z počátečních vstupů. Ačkoli tyto algoritmy spoléhají na hašovací funkce, slouží k jiným účelům, zejména co se týče autentizace a generování klíčů. Tyto algoritmy si zachovávají některé charakteristiky hašovacích funkcí, jako je nevratnost, odolnost vůči manipulaci a odolnost proti kolizím.
 
 V peněženkách Bitcoinu se hlavně používají 2 algoritmy derivace:
@@ -633,6 +640,8 @@ V této kapitole jsme prozkoumali funkce HMAC-SHA512 a PBKDF2, které používaj
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 Druhou kryptografickou metodou používanou v Bitcoinu jsou algoritmy digitálních podpisů. Pojďme prozkoumat, co to znamená a jak to funguje.
 
 ### Bitcoiny, UTXO a Podmínky Výdaje
@@ -716,6 +725,9 @@ https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 ## Výpočet veřejného klíče z privátního klíče
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Jak bylo dříve viděno, algoritmy digitálního podpisu v Bitcoinu jsou založeny na páru privátních a veřejných klíčů, které jsou matematicky propojeny. Pojďme společně prozkoumat, jaký je tento matematický vztah a jak jsou generovány.
 
 ### Privátní klíč
@@ -827,6 +839,8 @@ Samozřejmě, v tomto zjednodušeném příkladu s $k = 4$, by bylo možné naj�
 ## Podpis privátním klíčem
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Nyní, když víte, jak odvodit veřejný klíč z privátního klíče, můžete již přijímat bitcoiny použitím této dvojice klíčů jako podmínky pro utrácení. Ale jak je utratit? Pro utrácení bitcoinů budete muset odemknout _scriptPubKey_ připojený k vašemu UTXO, abyste dokázali, že jste skutečně jeho legitimním vlastníkem. K tomu musíte vyprodukovat podpis $s$, který odpovídá veřejnému klíči $K$ přítomnému ve _scriptPubKey_ pomocí privátního klíče $k$, který byl původně použit pro výpočet $K$. Digitální podpis je tak nezpochybnitelným důkazem, že máte v držení privátní klíč spojený s veřejným klíčem, který tvrdíte.
 
@@ -1044,6 +1058,8 @@ Ve skutečnosti nevíme, proč si Satoshi jej nevybral, ale pravděpodobná hypo
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 Jak jsme viděli v předchozích kapitolách, digitální podpisy jsou často používány k odemčení skriptu vstupu. Při procesu podepisování je nutné zahrnout podepsaná data do výpočtu, označená v našich příkladech jako zpráva $m$. Tato data, jakmile jsou podepsána, nemohou být změněna bez zneplatnění podpisu. Skutečně, ať už pro ECDSA nebo Schnorr, musí verifikátor podpisu zahrnout do svého výpočtu stejnou zprávu $m$. Pokud se liší od zprávy $m$ původně použité signatářem, výsledek bude nesprávný a podpis bude považován za neplatný. Říká se, že podpis pokrývá určitá data a chrání je tak nějakým způsobem proti neoprávněným úpravám.
 
 ### Co je to sighash flag?
@@ -1108,6 +1124,8 @@ V další části navrhuji objevit, jak funguje mnemonická fráze, která je z�
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
+
 Nyní, když jsme prozkoumali fungování hašovacích funkcí a digitálních podpisů, můžeme studovat, jak fungují Bitcoin peněženky. Cílem bude představit si, jak je peněženka na Bitcoinu konstruována, jak je dekomponována a jaké různé informace, které ji tvoří, se používají. Toto porozumění mechanismům peněženky vám umožní zlepšit vaše používání Bitcoinu z hlediska bezpečnosti a soukromí.
 
 Před ponořením do technických detailů je nezbytné objasnit, co se myslí pojmem "Bitcoin peněženka" a pochopit její užitečnost.
@@ -1148,6 +1166,9 @@ V nadcházejících kapitolách prozkoumáme vnitřní fungování HD peněžene
 ## Entropie a náhodné číslo
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Moderní HD peněženky (deterministické a hierarchické) spoléhají na jediný počáteční kus informace nazývaný "entropie" pro deterministické generování celé sady klíčů peněženky. Tato entropie je pseudo-náhodné číslo, jehož úroveň chaosu částečně určuje bezpečnost peněženky.
 
 ### Definice Entropie
@@ -1174,6 +1195,9 @@ V další kapitole uvidíme, jak přejdeme od náhodného čísla k mnemonické 
 ## Mnemonická fráze
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 Mnemonická fráze, také nazývaná "seed fráze", "recovery fráze", "tajná fráze" nebo "24-slovní fráze", je sekvence obvykle složená ze 12 nebo 24 slov, která je generována z entropie. Používá se k deterministickému odvození všech klíčů HD peněženky. To znamená, že z této fráze je možné deterministicky generovat a znovu vytvořit všechny soukromé a veřejné klíče Bitcoinové peněženky a tím pádem přistupovat k fondům, které jsou s ní chráněny. Účelem mnemonické fráze je poskytnout prostředek pro zálohování a obnovu bitcoinů, který je zároveň bezpečný a snadno použitelný. Do standardů byla zavedena v roce 2013 s BIP39.
 Pojďme společně objevit, jak přejít od entropie k mnemonické frázi.
 
@@ -1270,6 +1294,8 @@ Před pokračováním v odvození peněženky z této mnemonické fráze vám v 
 ## Heslo
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
+
 Jak jsme právě viděli, HD peněženky jsou generovány z mnemonické fráze, která obvykle sestává z 12 nebo 24 slov. Tato fráze je velmi důležitá, protože umožňuje obnovit všechny klíče peněženky v případě, že je její fyzické zařízení (jako například hardware peněženka) ztraceno. Nicméně představuje jediný bod selhání, protože pokud je kompromitována, útočník by mohl ukrást všechny bitcoiny. Zde přichází na řadu BIP39 heslo.
 
 ### Co je BIP39 heslo?
@@ -1302,6 +1328,8 @@ V následující části se dozvíme, jak jsou tyto dva prvky na základě vaš�
 
 ## Vytváření Semene a Hlavního Klíče
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Jakmile jsou mnemonická fráze a volitelná heslová fráze vygenerovány, může začít proces odvozování Bitcoinové HD peněženky. Mnemonická fráze je nejprve převedena na semeno, které tvoří základ všech klíčů peněženky.
 
@@ -1373,6 +1401,8 @@ Před pokračováním v odvození HD peněženky s následujícími prvky si př
 
 ## Rozšířené klíče
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 Rozšířený klíč je jednoduše spojení klíče (ať už soukromého nebo veřejného) a jeho přidruženého řetězového kódu. Tento řetězový kód je zásadní pro odvození dětských klíčů, protože bez něj je nemožné odvodit dětské klíče z rodičovského klíče, ale tento proces objevíme přesněji v další kapitole. Tyto rozšířené klíče tak umožňují agregovat veškeré informace nezbytné pro odvození dětských klíčů, čímž se zjednodušuje správa účtů v rámci HD peněženky.
 
@@ -1488,6 +1518,8 @@ V této kapitole jsme zjistili, že existují dva různé typy dětských klíč
 
 ## Odvození Párů Dětských Klíčů
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 Odvození párů dětských klíčů v Bitcoin HD peněženkách spoléhá na hierarchickou strukturu, která umožňuje generování velkého počtu klíčů, zatímco tyto páry jsou organizovány do různých skupin prostřednictvím větví. Každý dětský pár odvozený od rodičovského páru může být použit přímo v *scriptPubKey* k uzamčení bitcoinů, nebo jako výchozí bod pro generování dalších dětských klíčů, a tak dále, k vytvoření stromu klíčů.
 
@@ -1670,6 +1702,8 @@ Shrnutí, dosud jste se naučili vytvářet základní prvky HD peněženky: mne
 ## Struktura peněženky a cesty derivace
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 Hierarchická struktura HD peněženek na Bitcoinu umožňuje organizaci párů klíčů různými způsoby. Myšlenka spočívá v odvození několika úrovní hloubky z hlavního soukromého klíče a hlavního řetězového kódu. Každá přidaná úroveň odpovídá derivaci dětského páru klíčů z rodičovského páru klíčů.
 
 Časem různé BIPy (Bitcoin Improvement Proposals) představily standardy pro tyto cesty derivace s cílem standardizovat jejich používání napříč různým softwarem. V této kapitole tedy objevíme význam každé úrovně derivace v HD peněženkách podle těchto standardů.
@@ -1754,6 +1788,9 @@ V tomto příkladu:
 V následující kapitole objevíme, co jsou to "*output script descriptors*", což je nedávno představená inovace v Bitcoin Core, která zjednodušuje zálohování Bitcoinové peněženky.
 ## Output script descriptors
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Často se říká, že mnemonická fráze sama o sobě stačí k obnovení přístupu k peněžence. Ve skutečnosti jsou věci trochu složitější. V předchozí kapitole jsme se podívali na strukturu derivace HD peněženky a možná jste si všimli, že tento proces je poměrně složitý. Derivační cesty říkají softwaru, kterým směrem se má ubírat k odvození klíčů uživatele. Při obnově Bitcoinové peněženky však, pokud tyto cesty neznáme, není mnemonická fráze sama o sobě dostatečná. Umožňuje získat hlavní klíč a hlavní řetězový kód, ale je pak nutné znát indexy použité k dosažení dětských klíčů.
 
 Teoreticky by bylo nutné uložit nejen mnemonickou frázi naší peněženky, ale také cesty k účtům, které používáme. V praxi je často možné znovu získat přístup k dětským klíčům bez těchto informací, pokud byly dodrženy standardy. Testováním každého standardu po jednom je obecně možné znovu získat přístup k bitcoinům. Nicméně to není zaručené a je to zejména pro začátečníky složité. Také s diverzifikací typů skriptů a vznikem složitějších konfigurací by se tyto informace mohly stát obtížně extrapolovatelnými, čímž by se tyto údaje proměnily v soukromé informace a obtížně obnovitelné hrubou silou. To je důvod, proč byla nedávno představena inovace, která začíná být integrována do vašeho oblíbeného softwaru pro peněženky: *output script descriptors*.
@@ -1794,6 +1831,8 @@ Nyní víte vše o fungování HD peněženky na Bitcoinu a procesu derivace kl�
 
 ## Přijímací Adresy
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
+
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
 Přijímací adresy jsou informace vložené do *scriptPubKey* pro uzamčení nově vytvořených UTXO. Jednoduše řečeno, adresa slouží k přijímání bitcoinů. Pojďme prozkoumat jejich fungování v souvislosti s tím, co jsme studovali v předchozích kapitolách.
 
@@ -1909,6 +1948,8 @@ Nyní, když jsme probrali teorii, pojďme přejít k praxi! V následující ka
 
 ## Odvození adresy
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Pojďme společně prozkoumat, jak generovat přijímací adresu z páru klíčů umístěných například na hloubce 5 v HD peněžence. Tato adresa pak může být použita v softwaru peněženky k uzamčení UTXO.
 

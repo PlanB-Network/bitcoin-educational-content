@@ -36,6 +36,8 @@ Açık pedagoji, 60'ın üzerinde açıklayıcı diyagram ve somut örneklerle C
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 
 HD Bitcoin cüzdanlarının işleyişini derinlemesine inceleyeceğimiz CYP201 kursuna hoş geldiniz. Bu kurs, ister sıradan kullanıcılar, ister aydınlanmış meraklılar veya geleceğin uzmanları olsun, Bitcoin kullanımının teknik temellerini anlamak isteyen herkes için tasarlanmıştır.
 
@@ -279,6 +281,8 @@ Artık bundan sonrası için hashing fonksiyonları hakkında temel bilgileri bi
 
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 
 Daha önce hashing fonksiyonlarının Bitcoin'te kullanılmalarını haklı çıkaran önemli özelliklere sahip olduğunu görmüştük. Şimdi bu hash fonksiyonlarına bu özellikleri kazandıran iç mekanizmalarını inceleyelim ve bunu yapmak için SHA256'nın çalışmasını incelemeyi öneriyorum.
@@ -783,6 +787,8 @@ Bitcoin'da yoğun olarak kullanılan SHA256 başta olmak üzere Hash işlevlerin
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 
 Uygulama düzeyinde Bitcoin'te, Hash işlevlerine ek olarak, başlangıç girdilerinden generate güvenli veri elde etmek için kriptografik türetme algoritmaları kullanılır. Bu algoritmalar Hash işlevlerine dayanmakla birlikte, özellikle kimlik doğrulama ve anahtar üretimi açısından farklı amaçlara hizmet ederler. Bu algoritmalar, Hash fonksiyonlarının geri döndürülemezlik, kurcalanmaya karşı direnç ve çarpışma direnci gibi bazı özelliklerini korur.
 
@@ -915,6 +921,8 @@ Bu bölümde, Bitcoin protokolünde anahtar türetme işlemlerinin bütünlüğ�
 
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
+
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
 
 Bitcoin'te kullanılan ikinci kriptografik yöntem dijital imza algoritmalarını içerir. Bunun ne anlama geldiğini ve nasıl çalıştığını inceleyelim.
@@ -1054,6 +1062,8 @@ https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 Daha önce görüldüğü gibi, Bitcoin'taki dijital imza algoritmaları matematiksel olarak bağlantılı bir çift özel ve açık anahtara dayanmaktadır. Bu matematiksel bağlantının ne olduğunu ve nasıl üretildiklerini birlikte inceleyelim.
 
@@ -1239,6 +1249,8 @@ Elbette, $k = 4$ olan bu basitleştirilmiş örnekte, olasılık sayısı düş�
 
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 
 Artık bir özel anahtardan bir açık anahtarı nasıl türeteceğinizi bildiğinize göre, bu anahtar çiftini harcama koşulu olarak kullanarak bitcoin alabilirsiniz. Peki bunları nasıl harcayabilirsiniz? Bitcoinleri harcamak için, UTXO'inize ekli _scriptPubKey_'in kilidini açmanız ve gerçekten meşru sahibi olduğunuzu kanıtlamanız gerekecektir. Bunu yapmak için, başlangıçta $K$'yı hesaplamak için kullanılan özel anahtarı $k$ kullanarak _scriptPubKey_'de bulunan açık anahtar $K$ ile eşleşen bir imza $s$ üretmelisiniz. Dolayısıyla dijital imza, iddia ettiğiniz açık anahtarla ilişkili özel anahtara sahip olduğunuzun reddedilemez bir kanıtıdır.
@@ -1548,6 +1560,8 @@ Satoshi'nın neden bunu seçmediğini gerçekten bilmiyoruz, ancak olası bir hi
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 
 Önceki bölümlerde gördüğümüz gibi, dijital imzalar genellikle bir girdinin senaryosunun kilidini açmak için kullanılır. İmzalama sürecinde, örneklerimizde $m$ mesajı ile belirtilen imzalı verinin hesaplamaya dahil edilmesi gerekir. Bu veri bir kez imzalandıktan sonra imzayı geçersiz kılmadan değiştirilemez. Aslında, ister ECDSA ister Schnorr için olsun, imza doğrulayıcı hesaplamasına aynı $m$ mesajını dahil etmelidir. İmzalayan tarafından başlangıçta kullanılan $m$ mesajından farklıysa, sonuç yanlış olacak ve imza geçersiz sayılacaktır. Bu durumda bir imzanın belirli verileri kapsadığı ve bir şekilde yetkisiz değişikliklere karşı koruduğu söylenir.
 
@@ -1656,6 +1670,8 @@ Bir sonraki bölümde, Bitcoin Wallet'inizin temelindeki Mnemonic ifadesinin nas
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
+
 
 Artık Hash işlevlerinin ve dijital imzaların işleyişini keşfettiğimize göre, Bitcoin cüzdanlarının nasıl çalıştığını inceleyebiliriz. Amaç, Bitcoin'de bir Wallet'un nasıl oluşturulduğunu, nasıl ayrıştırıldığını ve onu oluşturan farklı bilgi parçalarının ne için kullanıldığını açıklamak olacaktır. Wallet mekanizmalarının bu şekilde anlaşılması, güvenlik ve gizlilik açısından Bitcoin kullanımınızı geliştirmenize olanak sağlayacaktır.
 
@@ -1723,6 +1739,8 @@ Mnemonic ifadesi kullanıcı için yedeklemeyi büyük ölçüde basitleştirir.
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Modern HD cüzdanları, tüm generate anahtar setini deterministik olarak Wallet'e dönüştürmek için "entropi" adı verilen tek bir başlangıç bilgisine dayanır. Bu entropi, Wallet'in güvenliğini kısmen belirleyen sözde rastgele bir sayıdır.
 
 
@@ -1762,6 +1780,8 @@ Bir sonraki bölümde, rastgele bir sayıdan 12 veya 24 kelimelik bir Mnemonic i
 
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 "Mnemonic cümlesi", "seed cümlesi", "kurtarma cümlesi", "gizli cümle" veya "24 kelimelik cümle" olarak da adlandırılan seed cümlesi, genellikle 12 veya 24 kelimeden oluşan ve entropiden üretilen bir dizidir. Bir HD Wallet'ün tüm anahtarlarını deterministik olarak türetmek için kullanılır. Bu, bu ifadeden, generate'in tüm özel ve açık anahtarlarını deterministik olarak Bitcoin Wallet oluşturmak ve sonuç olarak onunla korunan fonlara erişmek mümkün olduğu anlamına gelir. Mnemonic ifadesinin amacı, bitcoinlerin hem güvenli hem de kullanımı kolay bir şekilde yedeklenmesi ve kurtarılması için bir araç sağlamaktır. BIP39 standardı ile 2013 yılında tanıtılmıştır.
 
@@ -1908,6 +1928,8 @@ Bu Mnemonic ifadesinden Wallet'un türetilmesine devam etmeden önce, bir sonrak
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
+
 
 Daha önce gördüğümüz gibi, HD cüzdanları tipik olarak 12 veya 24 kelimeden oluşan bir Mnemonic cümlesinden üretilir. Bu ifade çok önemlidir çünkü fiziksel cihazının (örneğin bir Hardware Wallet gibi) kaybolması durumunda bir Wallet'ün tüm anahtarlarının geri yüklenmesini sağlar. Bununla birlikte, tek bir hata noktası oluşturur, çünkü ele geçirilirse, bir saldırgan tüm bitcoinleri çalabilir. İşte bu noktada BIP39 passphrase devreye girmektedir.
 
@@ -1963,6 +1985,8 @@ Aşağıdaki bölümde, Wallet'ünüzün temelindeki bu iki Elements'nin - Mnemo
 
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 
 Mnemonic cümlesi ve isteğe bağlı passphrase oluşturulduktan sonra, Bitcoin HD Wallet türetme süreci başlayabilir. Mnemonic cümlesi ilk olarak Wallet'nin tüm anahtarlarının temelini oluşturan bir seed'e dönüştürülür.
@@ -2071,6 +2095,8 @@ Aşağıdaki Elements ile HD Wallet'in türetilmesine devam etmeden önce, bir s
 ## Genişletilmiş Anahtarlar
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 
 Genişletilmiş bir anahtar basitçe bir anahtarın (özel veya genel) ve ilişkili chain code'un birleştirilmesidir. Bu chain code alt anahtarların türetilmesi için gereklidir, çünkü bu olmadan bir üst anahtardan alt anahtarları türetmek mümkün değildir, ancak bu süreci bir sonraki bölümde daha ayrıntılı olarak keşfedeceğiz. Dolayısıyla bu genişletilmiş anahtarlar, alt anahtarları türetmek için gerekli tüm bilgilerin bir araya getirilmesini sağlar ve böylece bir HD Wallet içinde hesap yönetimini basitleştirir.
@@ -2237,6 +2263,8 @@ Bu bölümde, iki farklı alt anahtar türü olduğunu keşfettik. Ayrıca bu al
 ## Çocuk Anahtar Çiftlerinin Türetilmesi
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 
 Bitcoin HD cüzdanlarında alt anahtar çiftlerinin türetilmesi, bu çiftleri dallar aracılığıyla farklı gruplar halinde düzenlerken çok sayıda anahtar üretilmesine olanak tanıyan hiyerarşik bir yapıya dayanır. Bir üst çiftten türetilen her bir alt çift, bitcoinleri kilitlemek için doğrudan bir *scriptPubKey* içinde kullanılabilir ya da bir anahtar ağacı oluşturmak için generate daha fazla alt anahtar için bir başlangıç noktası olarak kullanılabilir.
@@ -2496,6 +2524,8 @@ $$
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 
 Bitcoin'daki HD cüzdanlarının hiyerarşik yapısı, anahtar çiftlerinin çeşitli şekillerde düzenlenmesine olanak tanır. Buradaki fikir, ana özel anahtardan ve ana chain code'ten çeşitli derinlik seviyeleri türetmektir. Eklenen her seviye, bir üst anahtar çiftinden bir alt anahtar çiftinin türetilmesine karşılık gelir.
 
@@ -2629,6 +2659,8 @@ Bir sonraki bölümde, Bitcoin core'de yakın zamanda tanıtılan ve bir Bitcoin
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Genellikle Mnemonic ifadesinin tek başına bir Wallet'e erişimi kurtarmak için yeterli olduğu söylenir. Gerçekte işler biraz daha karmaşıktır. Bir önceki bölümde HD Wallet'in türetme yapısına baktık ve bu sürecin oldukça karmaşık olduğunu fark etmiş olabilirsiniz. Türetme yolları yazılıma kullanıcının anahtarlarını türetmek için hangi yönü takip etmesi gerektiğini söyler. Ancak, bir Bitcoin Wallet kurtarılırken, bu yollar bilinmiyorsa, Mnemonic ifadesi tek başına yeterli değildir. Ana anahtarın ve ana chain code'in elde edilmesini sağlar, ancak daha sonra alt anahtarlara ulaşmak için kullanılan dizinlerin bilinmesi gerekir.
 
 
@@ -2693,6 +2725,8 @@ Artık Bitcoin'de HD cüzdanların çalışması ve anahtar çiftlerinin türeti
 ## Alıcı Adresleri
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
+
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
 
 Alıcı adresleri, yeni oluşturulan UTXO'ları kilitlemek için *scriptPubKey* içine yerleştirilmiş bilgi parçalarıdır. Basitçe söylemek gerekirse, bir Address bitcoin almaya yarar. Önceki bölümlerde incelediklerimizle bağlantılı olarak bunların işleyişini inceleyelim.
@@ -2878,6 +2912,8 @@ P2TR, sürüm 1 SegWit çıktılarına karşılık gelir; bu da P2TR girdilerini
 ## Address Türetme
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 
 Örneğin bir HD Wallet'ün 5. derinliğinde bulunan bir çift anahtardan bir alıcı Address'nin nasıl generate yapılacağını birlikte inceleyelim. Bu Address daha sonra bir Wallet yazılımında bir UTXO'ü kilitlemek için kullanılabilir.

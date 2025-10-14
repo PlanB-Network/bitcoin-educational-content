@@ -6,4 +6,4 @@ wrong_answers:
   - MX
 explanation: |
   L’enregistrement AAAA (quad-A) permet d’associer un nom de domaine à une adresse IPv6, tandis que le type A est réservé à IPv4.
-reviewed: false
+reviewed: true 

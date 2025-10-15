@@ -13,6 +13,20 @@ Pears est donc le logiciel qui va nous permettre de faire fonctionner la platefo
 
 L’objectif de Pears est simple : rendre possible la diffusion et l’utilisation d’applications web sans dépendre d’aucune infrastructure centralisée (ni serveurs, ni hébergeurs, ni intermédiaires). En d’autres termes, même si un fournisseur de cloud ferme ou qu’un pays bloque un domaine, l’application continue de vivre entre les pairs du réseau. C’est cette approche qui permet à notre plateforme éducative Plan ₿ Academy de rester accessible partout dans le monde, sans point unique de défaillance.
 
+---
+
+**TL;DR :**
+
+- Installez Pears ;
+
+- Exécutez la commande suivante pour lancer l’application Plan ₿ Academy :
+
+```shell
+pear run pear://k9cawqdsan3bkobkigesuyfeqjcasi49ikjaru5cipap835t7nwy
+```
+
+---
+
 ## 1. Installer Pears 
 
 ### 1.1. Qu’est-ce que Pears ?

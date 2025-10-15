@@ -88,7 +88,7 @@ objectives:
 18 世紀初，法國的情況令人擔憂。農村人口的產量僅能勉強維持生存，而且還被徵收重稅。
 
 
-![image](assets/fr/001.webp)
+![image](assets/zh-Hant/001.webp)
 
 
 
@@ -98,16 +98,16 @@ objectives:
 但我們如何才能找到解決時代疾病的方法呢？當時還沒有經濟學，因此也沒有特別的藥物可以應用。經濟政策的原則仍然是亂用的，在限制性階段和更自由的時期之間轉換。當然，我們有模式、歷史參考可以遵循。亨利四世（Henri IV）的大臣蘇利（*Sully*）就是其中之一，他提倡農業，並促進法國內部更大的貿易自由。
 
 
-![image](assets/fr/002.webp)
+![image](assets/zh-Hant/002.webp)
 
 
-![image](assets/fr/003.webp)
+![image](assets/zh-Hant/003.webp)
 
 
 但是，路易十四的大臣科爾貝（Colbert）出現了，他在規範與自由之間徘徊，但最終還是強制實施了規範。在 17 世紀末，科爾伯超越了蘇利：大臣們現在援引他的遺產，並試圖應用他們聲稱是他的格言。
 
 
-![image](assets/fr/004.webp)
+![image](assets/zh-Hant/004.webp)
 
 
 在 17 世紀末政治家的心目中，科爾貝的格言有四條。
@@ -118,7 +118,7 @@ objectives:
 這樣的規則有數百條，每種行業都有專門的規則。然而，在科爾貝特的追隨者眼中，這仍是不足夠的：他們認為，工業也需要企業的監督。
 
 
-![image](assets/fr/005.webp)
+![image](assets/zh-Hant/005.webp)
 
 
 任何想要從事某個行業的人都必須先當幾年的學徒，然後再當技工，最後才嘗試製作「傑作」並向公會繳付大筆金錢，以獲得大師的地位。因此，每個行業內的競爭都受到嚴格限制。
@@ -128,7 +128,7 @@ objectives:
 (2) **貿易是零和遊戲**。談到商業，科爾貝的門徒與古代的野蠻人有著相同的偏見。路易十四的大臣認為，貿易是一場 「永恆的戰爭」。為什麼呢？原因很簡單：對科爾伯特及其繼任者來說，一個國家的任何財富增長都意味著另一個國家的貧窮化。在他們看來，不能讓英國人或荷蘭人富裕起來，因為這意味著他們在搶走法國的繁榮。
 
 
-![image](assets/fr/006.webp)
+![image](assets/zh-Hant/006.webp)
 
 
 因此，這些國家的產品必須被禁止或被徵收重稅，沒有任何顧忌，因為貿易是一場戰爭，在戰爭中我們只能希望敵人滅亡。
@@ -140,13 +140,13 @@ objectives:
 (3) **當國家缺錢時，提高更多的稅收**。高拔和他的弟子們絕不相信納稅人的財富是有限的資源。在他們看來，只要有足夠的稅收，公共支出永遠不會成為問題。如果人民反對，那只是因為部長們做得不夠好，因為正如科爾伯冷嘲熱諷地說，「徵稅的藝術就在於把鵝拔起來，但又不讓它們叫得太厲害」。
 
 
-![image](assets/fr/007.webp)
+![image](assets/zh-Hant/007.webp)
 
 
 (4) **財富首先是金銀**。在經濟科學誕生之前，許多作家都遵循著一個關於財富本質的主導教條，也就是後來所謂的*商鞅主義*。科爾貝和他的繼任者繼續沿著這條路走下去。簡而言之，重商主義者認為國家繁榮的真正標誌是貴重金屬、白銀和黃金的累積。
 
 
-![image](assets/fr/008.webp)
+![image](assets/zh-Hant/008.webp)
 
 
 
@@ -171,28 +171,28 @@ objectives:
 在這些稅制改革者中，以時間和功績來說，第一位是偉大的元帥 Sébastien Le Prestre Vauban，他是著名的要塞和城堡建造者。
 
 
-![image](assets/fr/009.webp)
+![image](assets/zh-Hant/009.webp)
 
 
-![image](assets/fr/010.webp)
+![image](assets/zh-Hant/010.webp)
 
 
 儘管我們已經遺憾地忘記了，沃邦不僅是一位軍人，他還是一位經濟學家。他對農民的命運很感興趣，他在 1695 年提出了大膽的稅制改革（Projet de capitation - "the Project for a Capitation"），並在 1707 年再次提出改革（Projet d'une Dime Royale - "the Royal Tithe"）：用與收入成正比的稅收取代大部分現有的稅收，這是一種比其時代更早的劃一稅收。
 
 
-![image](assets/fr/011.webp)
+![image](assets/zh-Hant/011.webp)
 
 
 沃邦是通過好奇心得出這些想法的。他是一個敏銳的觀察者，努力研究社會生活和經濟現實，近乎科學化。他特別堅持需要通過人口普查進行統計。
 
 
-![image](assets/fr/012.webp)
+![image](assets/zh-Hant/012.webp)
 
 
 他的第二大功績是對群眾所忍受的苦難作出了感人而誠實的描述。他寫道：「我們不要被欺騙，王國的心已被毀滅。萬物受苦，萬物忍受，萬物呻吟。您只需看看並檢查一下各省的核心，您會發現比我所說的更糟糕。沃邦的悲觀觀察絕非誇張，而是 18 世紀早期生活的準確寫照。Alexis de Tocqueville 非常瞭解這些觀點，他後來將 Vauban 的 *Royal Tithe* 描述為「令人害怕」，因為它是真實的。
 
 
-![image](assets/fr/013.webp)
+![image](assets/zh-Hant/013.webp)
 
 
 沃邦作為經濟學家的另一大優點是提出了影響深遠的稅制改革，目的是根除或至少減輕他所觀察和描述的弊端。他這樣做是對的；舊政權下的法國經濟因稅收不平等、不穩定和難以辨認而癱瘓。
@@ -203,7 +203,7 @@ objectives:
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/zh-Hant/014.webp)
 
 
 
@@ -235,7 +235,7 @@ objectives:
 很少有過去的法國經濟學家在今天的祖國獲得與他們的貢獻相匹配的認可，Boisguilbert 也不例外。
 
 
-![image](assets/fr/015.webp)
+![image](assets/zh-Hant/015.webp)
 
 
 Boisguilbert 並未受到當時讀者的賞識，也因其古怪的性格和無比的熱情而與權勢圈子疏離，在 18 世紀留下的印記甚少。然而，在上世紀初，他的作品慢慢被重新發現。
@@ -248,10 +248,10 @@ Boisguilbert 並未受到當時讀者的賞識，也因其古怪的性格和無�
 (Pierre Le Pesant de) Boisguilbert 於 1646 年出生在 Rouen。Boisguilbert 曾在巴黎的 Port-Royal 接受教育，在擔任包括 Rouen 中將在內的各種職務之前，他開始了不成功的文學生涯。在這段期間，他寫了幾本書來宣揚自己的觀點，其中包括 1695 年出版的《法國的尾巴》（Détail de la France），翌年他以更明確的書名重新出版這本書：[*路易十四統治下的法國被毀滅，由誰和如何毀滅，以及恢復法國的方法](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*。
 
 
-![image](assets/fr/016.webp)
+![image](assets/zh-Hant/016.webp)
 
 
-![image](assets/fr/017.webp)
+![image](assets/zh-Hant/017.webp)
 
 
 而這正是 Boisguilbert 著作的基礎：法國的貧窮及其原因。
@@ -274,7 +274,7 @@ Boisguilbert 發現這種不幸有兩個主要原因。因為如果人民生活�
 法 國 悲 慘 的 第 二 個 原 因 是 太 多 的 障 礙 阻 礙 了 貨 物 的 自 由 貿 易 ﹐ 尤 其 是 農 產 品 。邊 境 有 關 稅 ， 甚 至 國 內 不 同 地 區 之 間 也 有 關 稅 ， 這 使 所 有 商 業 活 動 陷 入 癱 瘓 。這 些 限 制 妨 礙 了 平 衡 價 格 的 建 立 ﹐ 限 制 了 市 場 機 會 。結果，農民無法從他們的生產中賺取生計，因為他們無法從銷售中獲利，並遭受農產品價格無償的損失，這個問題在今天仍然非常重要，也是 Boisguilbert 理論的核心。在貿易限制的問題上，Boisguilbert 主張清理道路，換句話說，就是建立自由貿易。
 
 
-![image](assets/fr/018.webp)
+![image](assets/zh-Hant/018.webp)
 
 
 自由確實是他的最終結論。他說，「這並不是一個行動的問題」，「而只是停止像我們這樣粗暴地反對自然的行為，而自然總是趨向自由和完美的」。他不厭其煩地重複說，「只要我們讓大自然順其自然，也就是給予它自由，而且除了為所有人提供保護和防止暴力之外，沒有人干涉這種商業活動，一切都會好起來」。
@@ -295,19 +295,19 @@ Boisguilbert 甚至批評他所謂的 「*善良的靈魂*」，那些本意是�
 Richard Cantillon 是《一般貿易性質論文》（Essay on the Nature of Trade in General，約於 1730 年寫成，1755 年出版）的作者，他被視為現代經濟科學的先驅之一。經濟學家 Murray Rothbard 在其《經濟思想史》中甚至將康蒂永稱為現代經濟學的創始人。
 
 
-![image](assets/fr/019.webp)
+![image](assets/zh-Hant/019.webp)
 
 
 Richard Cantillon 生於愛爾蘭，年輕時定居巴黎並取得法國國籍。他曾是一名銀行家，並在約翰-羅時代賺了一大筆錢。
 
 
-![image](assets/fr/020.webp)
+![image](assets/zh-Hant/020.webp)
 
 
 也是在這個時候，他開始研究經濟理論。大約在 1730 年，Cantillon 創作了《一般商業性質論文》（Essay on the Nature of Commerce in General）。
 
 
-![image](assets/fr/021.webp)
+![image](assets/zh-Hant/021.webp)
 
 
 這本書可被視為創造經濟學一般理論的最早嘗試之一。Cantillon 小心翼翼地找出他所謂的「經濟的一般定律」，也就是事物本質上的定律，而不是這個或那個國家的特殊事實。這種方法是革命性的。
@@ -331,7 +331,7 @@ Richard Cantillon 生於愛爾蘭，年輕時定居巴黎並取得法國國籍�
 針對 John Law 的經驗，Cantillon 解釋了當貨幣沒有實際價值時會發生或必須發生的事情。
 
 
-![image](assets/fr/022.webp)
+![image](assets/zh-Hant/022.webp)
 
 
 他認為用紙幣這種沒有實際價值的貨幣代替金屬貨幣會有兩個主要後果。第一個後果是他所謂的「民眾拒絕」，也就是對沒有價值的貨幣越來越不信任。第二個後果是通貨膨脹：貨幣疲弱使得商品更加昂貴。
@@ -364,22 +364,22 @@ Richard Cantillon 生於愛爾蘭，年輕時定居巴黎並取得法國國籍�
 在我們選擇納入 18 世紀法國自由放任思想家萬神殿的所有作家中，聖皮耶修道院長 (Abbot of Saint-Pierre) 無疑是最容易被忽略的一位。
 
 
-![image](assets/fr/023.webp)
+![image](assets/zh-Hant/023.webp)
 
 
 平心而論，這部分是他自己的錯。他寫了很多東西，但他的文風讀起來很Hard，而且充滿了重複。甚至連讓-雅克-盧梭（Jean-Jacques Rousseau）也試圖總結他的作品：他開始這樣做，但很快就放棄了這項任務，因為他意識到這超出了他的力量。在十九世紀中葉，Gustave de Molinari 為了表彰他，出版了一本關於他的綜合著作，在這本著作中，他向聖皮埃爾修道院長這位和平主義者和經濟學家致敬。但這並不足以讓他走出被遺忘的狀態，因為他至今仍停留在被遺忘的狀態中。
 
 
-![image](assets/fr/024.webp)
+![image](assets/zh-Hant/024.webp)
 
 
-![image](assets/fr/025.webp)
+![image](assets/zh-Hant/025.webp)
 
 
 聖皮耶方丈寫過經濟學方面的文章，但他身為和平主義者的身份才是大家最感興趣的。他是 「永久和平計畫」（Project for Perpetual Peace）的作者，這比著名的康德（Emmanuel Kant）的計畫還早。
 
 
-![image](assets/fr/026.webp)
+![image](assets/zh-Hant/026.webp)
 
 
 在這部著作中，他認為戰爭具有破壞性，不僅對戰敗者而言是如此，對勝利者而言也是如此，甚至對沒有參與戰爭的人而言也是如此，因為他們的商業會受到影響。
@@ -391,19 +391,19 @@ Richard Cantillon 生於愛爾蘭，年輕時定居巴黎並取得法國國籍�
 Saint-Pierre 修道士生平中也有一段插曲，完美地說明了法國自由放任運動背後的批判思維。他在 1695 年加入了法國學院，但在 1718 年因為敢於批判路易十四的統治而被開除。在這件事上，他與沃邦（Vauban）和博伊斯吉爾貝（Boisguilbert）等人站在同一陣線，這些人也敢於對太陽王的輝煌統治下所隱藏的弊端發表意見。
 
 
-![image](assets/fr/027.webp)
+![image](assets/zh-Hant/027.webp)
 
 
 聖皮埃爾修道院長認為，路易十四在位時宮廷奢華，迷戀於軍事征服，這並不是一個賢明國王的標誌。他拒絕接受路易十四配得上 「**路易大帝**」稱號的說法。
 
 
-![image](assets/fr/028.webp)
+![image](assets/zh-Hant/028.webp)
 
 
 "他說：「同時毀滅自己的鄰居和人民並不是偉大。這個立場深深觸怒了法國學院，該學院長期以各種文學形式美化國王。因此，他們幾乎一致投票決定將他開除。
 
 
-![image](assets/fr/029.webp)
+![image](assets/zh-Hant/029.webp)
 
 
 在經濟思想方面，他持續運用效用原則，就像傑里米-貝森（Jeremy Bentham）後來所做的一樣，並經常提出合理的見解。平心而論，他仍然受到重商主義思想的影響，當時沒有人能夠完全擺脫這種思想。
@@ -414,7 +414,7 @@ Saint-Pierre 修道士生平中也有一段插曲，完美地說明了法國自�
 
 > "當商人之間進行銷售時，賣方會獲利，買方也會獲利；因為如果雙方都沒有某些實際或可察覺的利益，賣方就不會以這樣或那樣的價格賣出，買方也不會以這樣或那樣的價格買入。
 
-![image](assets/fr/030.webp)
+![image](assets/zh-Hant/030.webp)
 
 
 在 Vincent de Gournay 之前，他還強調了勞動的價值以及保持勞動吸引力的重要性。"他寫道：「所有的勞動都是艱辛的。"當一個人看到他的工作沒有任何報酬，或者報酬不夠時，他就會變得無所事事，不會再做無謂的努力。阿根森侯爵（Marquis d'Argenson）、文森特-德-古內（Vincent de Gournay）和自然科學家（Physiocrats）在批評繁瑣的規章制度和行會制度時，也提出了相同的論點。他們認為，這些限制會挫傷工人的積極性，造成不必要的困難，最終使怠惰看起來比在這樣的條件下努力生產更有吸引力。
@@ -430,13 +430,13 @@ Saint-Pierre 修道士生平中也有一段插曲，完美地說明了法國自�
 Marquis d'Argenson 是一位被遺忘的自由放任主義創始人。
 
 
-![image](assets/fr/031.webp)
+![image](assets/zh-Hant/031.webp)
 
 
 它被奧古斯特-昂肯 (August Oncken) 重新發現，昂肯是一本關於自由放任、放任主義的書的作者，他的結論是，達爾根森在這一思想的誕生過程中扮演了重要角色。
 
 
-![image](assets/fr/032.webp)
+![image](assets/zh-Hant/032.webp)
 
 
 René-Louis Voyer，Argenson 侯爵，1694 年出生。他的政治生涯從議會顧問開始，然後在國務院服務。
@@ -445,7 +445,7 @@ René-Louis Voyer，Argenson 侯爵，1694 年出生。他的政治生涯從議�
 早在亞當‧斯密之前 30 年，d'Argenson 就已經為分工和專業化的好處辯護。
 
 
-![image](assets/fr/033.webp)
+![image](assets/zh-Hant/033.webp)
 
 
 他強烈批判那些在他看來試圖改變不同地區自然偏好的法規。例如，他對於政府希望在圖爾這個當時貧窮的城市生產的布料和天鵝絨，能與以奢侈品聞名的熱那亞所生產的布料和天鵝絨的品質相提並論感到困惑。他的結論是：
@@ -460,7 +460,7 @@ René-Louis Voyer，Argenson 侯爵，1694 年出生。他的政治生涯從議�
 甚至在亞當‧斯密之前，他就瞭解到，自我利益會透過建構自發的自然秩序而導致普遍利益。
 
 
-![image](assets/fr/034.webp)
+![image](assets/zh-Hant/034.webp)
 
 
 他將社會比作一窩蜜蜂，每隻昆蟲都遵循自己的本能，「從它們的行動中」，他精確地說，「產生了大量的積累，以滿足這個小社會的需求；但這並不是由命令或將軍帶來的，他們強迫每個人遵循其領導者的觀點」。這或許是法國經濟思想中最接近亞當‧斯密著名的「看不見的手」概念的表達。
@@ -475,7 +475,7 @@ d'Argenson 侯爵總是被他那個時代的大臣們的想法所激怒。他們
 有時候，他對於自己的想法很少被理解感到絕望。
 
 
-![image](assets/fr/035.webp)
+![image](assets/zh-Hant/035.webp)
 
 
 因此，他所捍衛的經濟政策理想與他那個時代的趨勢背道而馳。他的理想為國家界定了一個基本的負面角色。"商業所需要的只是消除障礙。它只需要好的法官、對壟斷的懲罰、對所有公民的平等保護、穩定的貨幣、道路和運河。這就是最低限度國家的定義，這將成為法國政治經濟學傳統的基礎之一。
@@ -502,7 +502,7 @@ d'Argenson 侯爵總是被他那個時代的大臣們的想法所激怒。他們
 文森特-德-古內 (Vincent de Gournay) 是自由放任主義在法國最早的代表人物之一，也是自由放任主義在公共行政和知識界最早的倡導者之一。正因如此，他在經濟思想史上應該得到的認可遠比他通常得到的要多。我曾嘗試在最近的一本書中強調他的貢獻。
 
 
-![image](assets/fr/036.webp)
+![image](assets/zh-Hant/036.webp)
 
 
 Gournay 出生於一個商人家庭，他本人也成為了一名成功的商人，在法國政府中獲得一席之地之前就積累了大量財富。在商務局裡，他是自由勞工和自由貿易的熱烈擁護者。
@@ -517,19 +517,19 @@ Gournay 出生於一個商人家庭，他本人也成為了一名成功的商人
 1.[The remarks](https://archive.org/details/traitessurlecomm0000chil) on a translation of a book by the English economist Josiah Child；
 
 
-![image](assets/fr/037.webp)
+![image](assets/zh-Hant/037.webp)
 
 
 2.「觀點 」包含在《禁止印花布料的利弊研究》中；
 
 
-![image](assets/fr/038.webp)
+![image](assets/zh-Hant/038.webp)
 
 
 3."Observations on the East India Company"，由 Abbot Morellet 附錄於其 Memoir on the Current State of the East India Company (1769)；
 
 
-![image](assets/fr/039.webp)
+![image](assets/zh-Hant/039.webp)
 
 
 4.最重要的是，他擔任商務專員時的各種回憶錄。
@@ -556,7 +556,7 @@ Gournay 出生於一個商人家庭，他本人也成為了一名成功的商人
 在所有這些觀點上，Gournay 在 18 世紀中葉的思想爭論中扮演了關鍵的角色。他對經濟自由的捍衛比物理學家早了十年，比亞當‧斯密早了二十年。但他最持久的影響是對 Turgot 的。Gournay 把年輕的 Turgot 納入自己的羽翼下，用自己的思想訓練他。
 
 
-![image](assets/fr/040.webp)
+![image](assets/zh-Hant/040.webp)
 
 
 多年之後，將來路易十六手下的大臣杜爾哥（Turgot）在他的朋友死後寫了一篇悼詞（Éloge）來紀念他。如果說圖爾戈從來沒有完全接受弗朗索瓦-魁奈（François Quesnay）的物理學派，那是因為他對自己的第一位師父文森特-德-古內（Vincent de Gournay）保持著不可戰勝的依戀。
@@ -571,13 +571,13 @@ Gournay 出生於一個商人家庭，他本人也成為了一名成功的商人
 談到早期的經濟科學，歷史往往會強調第一個思想流派：以 François Quesnay 及其弟子為首的物理學家。然而，在他們崛起的近十年前，有另一個較不正式但同樣重要的團體，以經濟學家文森特‧德‧古內 (Vincent de Gournay) 為中心。
 
 
-![image](assets/fr/041.webp)
+![image](assets/zh-Hant/041.webp)
 
 
 正如我們在上一部分所看到的，Gournay 對英國和荷蘭等外國國家的例子非常著迷。他對這些國家的經濟學家，如約塞亞-柴爾德（Josiah Child）、約翰-德-威特（Johan de Witt）和大衛-休姆（David Hume）等人也非常敬佩。
 
 
-![image](assets/fr/042.webp)
+![image](assets/zh-Hant/042.webp)
 
 
 這種欽佩讓他翻譯了他們的經濟著作，並指定翻譯。
@@ -593,14 +593,14 @@ Gournay 出生於一個商人家庭，他本人也成為了一名成功的商人
 - Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 editions in 4 years)
 
 
-![image](assets/fr/043.webp)
+![image](assets/zh-Hant/043.webp)
 
 
 
 - Coyer's [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (2 年內出了 5 版)
 
 
-![image](assets/fr/044.webp)
+![image](assets/zh-Hant/044.webp)
 
 
 
@@ -613,7 +613,7 @@ Gournay 出生於一個商人家庭，他本人也成為了一名成功的商人
 - [Essay on the Nature of Trade in General](https://archive.org/details/essayonnatureofc0000cant) 作者：Richard Cantillon。
 
 
-![image](assets/fr/045.webp)
+![image](assets/zh-Hant/045.webp)
 
 
 最後這本書是在 1730 年左右寫成的，在作者去世之後仍停留在手稿階段。Gournay 在他的經濟學家朋友的幫助下，於 1755 年出版了這本書。據該圈子的成員 Abbot Morellet 所說，Gournay 向他認識的每一位經濟學家都推薦了這本書。
@@ -622,13 +622,13 @@ Gournay 出生於一個商人家庭，他本人也成為了一名成功的商人
 Gournay 圈子的思想成果對思想史產生了重大影響。在這個意義上，他們可被視為法國經濟科學的奠基人。INED 的 Christine Théré 曾研究過經濟學出版物的歷史，她發現在 1750 年到 1759 年間，出版了不少於 **349** 本經濟學著作，而之前的整個十年 (1740-1749) 僅出版了 **83** 本。1750 年代的這場革命主要歸功於 Gournay 圈子。
 
 
-![image](assets/fr/046.webp)
+![image](assets/zh-Hant/046.webp)
 
 
 為了在法國人中傳播對經濟討論的興趣，古內 (Gournay) 和他的朋友們努力通過小說讓人們瞭解這些討論。在批判行會的《貿易回憶錄》（*Memoir on the Trades*）之後，古內（Gournay）和克利科-布勒瓦什（Cliquot-Blervache）協助加布里爾-弗朗索瓦-科耶（Gabriel-François Coyer）撰寫了一部短篇諷刺小說《欽奇》（Chinki: [A Cochinchinese Tale Applicable to Other Nations]）（https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf）。
 
 
-![image](assets/fr/047.webp)
+![image](assets/zh-Hant/047.webp)
 
 
 故事講述主角 Chinki 因稅收過高而被迫離開他的土地，並試圖在城市中為他的孩子們尋找手藝工作。但由於行會的濫用規定，所有行業都不對他們開放，因此故事以幽默的筆調描寫他日漸失望的心情。
@@ -649,19 +649,19 @@ Gournay 圈子的思想成果對思想史產生了重大影響。在這個意義
 法國有兩位名叫米拉波的名人，一父一子，但真正創造歷史的是兒子。他是一位革命護民官，也是法國大革命事件中的核心人物之一，他一直名聞遐邇。
 
 
-![image](assets/fr/048.webp)
+![image](assets/zh-Hant/048.webp)
 
 
 憑藉他的才華和在法國歷史上的地位，他的風頭蓋過了他的父親，一位經濟學家和 François Quesnay 學派的中流砥柱，早在 1758 年就成為了該學派的第一位成員。
 
 
-![image](assets/fr/049.webp)
+![image](assets/zh-Hant/049.webp)
 
 
 事實上，米拉波侯爵早在採用物理神學之前，就已經因一本名為《人類之友》的書籍而聲名遠播。人口論》[FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog)。儘管這本書的第一版是在 1756 年出版的，但在 1757 年左右，也就是他與 Quesnay 會面的前一年，這本書就已經很有名了。
 
 
-![image](assets/fr/050.webp)
+![image](assets/zh-Hant/050.webp)
 
 
 在 1757 年到 1760 年間出版了 20 多個版本，這可能使它成為歷史上最成功的經濟學著作。有些讀者甚至認為這本書是孟德斯鸠寫的，因為它的推理很尖銳。王太子（Dauphin），也就是路易十六國王的父親，甚至聲稱自己背過這本書。一時間，凡爾賽的每個人都在讀這本書。
@@ -675,13 +675,13 @@ Gournay 圈子的思想成果對思想史產生了重大影響。在這個意義
 Mirabeau 在開始他的經濟學家生涯時，從 Richard Cantillon 身上獲得了靈感。他擁有一份 Cantillon 的《商業性質論》手稿已有 15 年之久，並耐心地對其進行分析和評論。
 
 
-![image](assets/fr/051.webp)
+![image](assets/zh-Hant/051.webp)
 
 
 L'Ami des Hommes》最初的構想是對 Cantillon 的 Essay 作簡單的評論。但由於 Mirabeau 的思想有點兼收並蓄，說白了就是有點瘋狂，所以他很快就偏離了原來的計劃。這本書簡單地討論了他所知道的所有經濟問題，偶爾會遠離 Cantillon。這本書很難讀，每一章都有離奇的計劃和離題。Mirabeau 自己也承認這本書很混亂，而且他的風格是世界末日式的。
 
 
-![image](assets/fr/052.webp)
+![image](assets/zh-Hant/052.webp)
 
 
 儘管現在一片混亂，有些想法還是值得注意：
@@ -694,7 +694,7 @@ L'Ami des Hommes》最初的構想是對 Cantillon 的 Essay 作簡單的評論�
 - 最後，他捍衛貿易自由和各國在和平中的兄弟情誼。
 
 
-![image](assets/fr/053.webp)
+![image](assets/zh-Hant/053.webp)
 
 
 將 Mirabeau 的觀點標籤為自由主義或反自由主義是 Hard 的做法。他經常在一種觀點和另一種觀點之間來回遊移，有時甚至沒有意識到這一點。不過，自由主義思想還是經常在他的文章中佔主導地位。他最著名的一句話是：
@@ -705,7 +705,7 @@ L'Ami des Hommes》最初的構想是對 Cantillon 的 Essay 作簡單的評論�
 米拉波最成功的時刻已經過去，他受到了追求。剛對經濟學感興趣的弗朗索瓦-魁奈（François Quesnay）邀請他參加在凡爾賽舉行的招待會。
 
 
-![image](assets/fr/054.webp)
+![image](assets/zh-Hant/054.webp)
 
 
 他們進行了激烈的辯論，最後，通常在辯論中不會發生的事情發生了：米拉波斷然承認他錯了。他同意魁奈的觀點，並說他已準備好傳播這些觀點。
@@ -714,13 +714,13 @@ L'Ami des Hommes》最初的構想是對 Cantillon 的 Essay 作簡單的評論�
 他們共同組成了日後物理學派的核心，並通過他們定期招募的新成員而得到加強。米拉波皈依後不久，魁奈請他為自己的稅收觀點辯護。米拉波因此被送往文森（Vincennes）監獄幾天，然後被流放到比尼翁（Bignon）。
 
 
-![image](assets/fr/055.webp)
+![image](assets/zh-Hant/055.webp)
 
 
 Mirabeau 在為 Quesnay 的學校招募新成員方面也發揮了重要作用。他甚至說服了年輕的 Dupont de Nemours。
 
 
-![image](assets/fr/056.webp)
+![image](assets/zh-Hant/056.webp)
 
 
 物理學家們每週二也在米拉波的家裏開會。杜爾哥 (Turgot) 和亞當‧斯密 (Adam Smith) 等人似乎都參加過一次或多次這些會議。
@@ -738,13 +738,13 @@ Mirabeau 在為 Quesnay 的學校招募新成員方面也發揮了重要作用�
 François Quesnay 是法國最著名的經濟學家之一。
 
 
-![image](assets/fr/057.webp)
+![image](assets/zh-Hant/057.webp)
 
 
 他的名字出現在每一本有關經濟學和經濟思想史的教科書中。教科書上說他創造了「經濟表」來圖解經濟，他是物理學派的領導人，他錯誤地認為只有土地才有生產力，最後，亞當‧斯密來澄清了這個錯誤。教科書或多或少都是這樣概括 François Quesnay 的。
 
 
-![image](assets/fr/058.webp)
+![image](assets/zh-Hant/058.webp)
 
 
 將他貶低為這樣是很可惜的，因為魁奈也是第一位嘗試以科學原則來捍衛經濟自由的經濟學家。他是那個時代最受聆聽和最有影響力的經濟學家之一。此外，他還創立了 「物理神學」（Physiocracy），這是一種比 「只有自然才會產生財富 」這種簡單的想法更豐富的學說。
@@ -762,7 +762,7 @@ François Quesnay 是法國最著名的經濟學家之一。
 1740 年，他成為外科學院的秘書。1748 年，54 歲的他成為蓬巴杜夫人的私人醫生，並搬到凡爾賽。
 
 
-![image](assets/fr/059.webp)
+![image](assets/zh-Hant/059.webp)
 
 
 他和蓬巴杜夫人非常親近。魁奈甚至在宠妃失宠的消息公布时说，如果没有她，他不想继续在凡尔赛当医生：
@@ -776,13 +776,13 @@ François Quesnay 是法國最著名的經濟學家之一。
 在 60 歲時，他被介紹給當時流行的經濟學辯論，並開始撰寫關於經濟學的文章。1755 年，他為《百科全書》（*Encyclopédie*）撰寫了《農民》（Farmers）和《穀物》（Grain）兩篇文章。
 
 
-![image](assets/fr/060.webp)
+![image](assets/zh-Hant/060.webp)
 
 
 這些著作於 1757 年出版。同年，他遇到了著名的米拉波（Mirabeau），並成功地將他的經濟思想轉化為自己的思想--物理神學的核心誕生了。之後，魁奈創作了《經濟表》（Tableau Économique），由皇家印刷廠印刷，據說國王本人也在凡爾賽宮親自出席。從那時起，他定期在凡爾賽寓所接待經濟學家和哲學家，讓他們自由討論。魁奈還為 1759 年出版的米拉波的《稅收論》作出了貢獻。
 
 
-![image](assets/fr/061.webp)
+![image](assets/zh-Hant/061.webp)
 
 
 審查很快就開始了。Mirabeau 被關進監獄，Quesnay 遭到譴責。在那之後，魁奈意識到他不能公開出版，他需要門徒來傳播他的思想。
@@ -799,13 +799,13 @@ François Quesnay 是法國最著名的經濟學家之一。
 由於他的合作者的努力，他的想法找到了一個平台：首先是透過報紙，如 *Journal of Agriculture* 和 *Ephémérides du Citoyen*。
 
 
-![image](assets/fr/062.webp)
+![image](assets/zh-Hant/062.webp)
 
 
 然後，透過書籍，不僅是他弟子的書籍，還有一本由 Dupont de Nemours 於 1768 年出版的重要文集，名為 *Physiocracy*。
 
 
-![image](assets/fr/063.webp)
+![image](assets/zh-Hant/063.webp)
 
 
 這本書彙集了魁奈的主要貢獻。它闡述了物理學家領袖的經濟理想：一種農業經濟模式，法律保障每個人擁有財產的權利和貿易自由。
@@ -829,10 +829,10 @@ Physiocracy 在法國，甚至整個歐洲成為時尚，僅僅十年的時間�
 它起源於 1750 年代經濟思想的演變。有幾位作者在 Boisguilbert 與後來被稱為 Physiocracy 之間架起了橋梁。正如之前所討論的，Vincent de Gournay 和他的經濟學家圈子背後出版了許多書籍，向法國讀者介紹外國的經濟思想，並幫助燃點他們對經濟學的熱情。在 Boisguilbert 的《Détail de la France》和 Cantillon 的[《Essay on the Nature of Trade in General》](https://archive.org/details/essaisurlanature0000cant) 等書中，已經出現了 Physiocracy 的基礎。
 
 
-![image](assets/fr/064.webp)
+![image](assets/zh-Hant/064.webp)
 
 
-![image](assets/fr/065.webp)
+![image](assets/zh-Hant/065.webp)
 
 
 自 Boisguilbert 以來，自由放任的概念有幾位提倡者，特別是 Vincent de Gournay 和 Marquis d'Argenson。
@@ -844,24 +844,24 @@ Physiocracy 在法國，甚至整個歐洲成為時尚，僅僅十年的時間�
 因此，在1756年，物理神學的故事開始了。弗朗索瓦-魁奈（François Quesnay），當時是一名外科醫生，後來變成了蓬巴杜夫人的私人醫生，他邀請米拉波到凡爾賽討論經濟思想。
 
 
-![image](assets/fr/066.webp)
+![image](assets/zh-Hant/066.webp)
 
 
 他們的對話結束時，米拉波同意了魁奈的想法。從那時起，他們開始寫作：魁奈創作了《經濟表》（*Tableau économique*，1758 年）來說明經濟中的財富流動，他們一起出版了《稅收論》（Theory of Taxation，1759 年）。
 
 
-![image](assets/fr/067.webp)
+![image](assets/zh-Hant/067.webp)
 
 
 
-![image](assets/fr/068.webp)
+![image](assets/zh-Hant/068.webp)
 
 
 他們的努力沒有受到熱烈歡迎。在宮廷中，人們普遍反應冷淡。國王認同魁奈的理論傾向，親切地稱他為 「我的思想家」。但除了這句恭維，他們的工作沒有取得任何成果。事實上，他們的《稅收論》觸怒了它所批評的稅務管理者，以至於他們要求並確保了米拉波的監禁。蓬巴杜夫人最終讓他獲釋，但他仍在比農 (Bignon) 的莊園流亡了幾個星期。
 
 
 
-![image](assets/fr/069.webp)
+![image](assets/zh-Hant/069.webp)
 
 
 這樣，1760 年代的前半段就在相對的沉默中過去了。由於他在凡爾賽的地位，魁奈被迫停止寫作，或者至少不以自己的名義發表任何作品。已經被判刑一次的米拉波受到了警告，他很清楚國王的宠兒不可能永遠保護他。
@@ -871,7 +871,7 @@ Physiocracy 在法國，甚至整個歐洲成為時尚，僅僅十年的時間�
 在這段短暫的沉寂之後，這兩位經濟學家開始招收門徒：這是普及他們思想的唯一方法。到 1765 年，他們取得了引人注目的成就。Dupont de Nemours、Abeille、Mercier de la Rivière、Le Trosne 和 Baudeau 很快加入了他們的行列。他們組成了一個學校：他們有自己的期刊《Les Éphémérides du Citoyen》，甚至每個星期二都在米拉波的家中聚會。
 
 
-![image](assets/fr/070.webp)
+![image](assets/zh-Hant/070.webp)
 
 
 在 1765 年到 1775 年間，物理學家團結成了一個名聲鼎盛的團體。文學界和哲學界的眼睛只盯著他們，使他們的思想得以廣泛而迅速地傳播。人們稱他們為 「經濟學家」，或者更嘲諷地稱他們為 「經濟學家的教派」。無論語氣如何，他們的惡名是絕對的。1774 年，de Vaublanc 先生在一次梅斯之旅後在他的回憶錄中寫到了他的驚訝：他周圍的每個人都在像魁奈的門徒一樣談論經濟學和推理。他說：「這很時髦」。「每個人都是經濟學家」。
@@ -880,7 +880,7 @@ Physiocracy 在法國，甚至整個歐洲成為時尚，僅僅十年的時間�
 然而，到了 1770 年，他們的聲望開始下降。這個團體經歷了第一次叛離，他們抵擋批評的能力也減弱了。批判者很多，孔迪拉克 (Condillac)、梅利 (Mably)、伏爾泰 (Voltaire)、加里安尼 (Galiani)、林蓋 (Linguet)、格拉斯林 (Graslin)，甚至蘇格蘭的亞當-斯密 (Adam Smith) 都對他們的觀點提出了挑戰。
 
 
-![image](assets/fr/071.webp)
+![image](assets/zh-Hant/071.webp)
 
 
 他們的報紙不再定期出版。這標誌著該運動最活躍時期的結束。
@@ -899,7 +899,7 @@ Physiocracy 一詞的意思是「以自然為主的政府」，由 Dupont de Nem
 
 
 
-![image](assets/fr/072.webp)
+![image](assets/zh-Hant/072.webp)
 
 
 這是一個晦澀難懂的短語。沒有任何魁奈的學生向我們提供它的真正含義。然而，他們的思想體系絕對不是晦澀不明的。事實上，它是圍繞著幾個非常清晰的原則而建立的，我們將在此概述這些原則。
@@ -917,7 +917,7 @@ Physiocracy 一詞的意思是「以自然為主的政府」，由 Dupont de Nem
 
 
 
-![image](assets/fr/073.webp)
+![image](assets/zh-Hant/073.webp)
 
 
 物理學家的想法其實很微妙。根據他們的觀點，生產與獲利是不同的。工業家和商人可以賺取利潤，但只有農夫才真正在生產，因為生產是創造有用的材料，而不是在原有的材料上增加效用。
@@ -932,7 +932,7 @@ Physiocracy 一詞的意思是「以自然為主的政府」，由 Dupont de Nem
 今天，要侮辱一個人，我們會說他不是民主派。儘管歷史學家原諒了物理貴族對農業生產力的嚴格看法，但卻沒有原諒他們對民主的反對，尤其是他們生活在啟蒙思想的鼎盛時期。從18世紀中葉到大革命前夕，物理學家被視為進步的敵人。
 
 
-![image](assets/fr/074.webp)
+![image](assets/zh-Hant/074.webp)
 
 
 托克维尔坚持这一观点：
@@ -943,7 +943,7 @@ Physiocracy 一詞的意思是「以自然為主的政府」，由 Dupont de Nem
 物理學家在經濟學上是自由的，因此在政治問題上卻不是自由的。魁奈在他的格言中寫道：「讓主權獨一無二，並優於社會上的所有個人以及所有不公正的私人利益企業」。後來，在同一格言中又寫道：「政府中的制衡制度是一個致命的觀念，它只會顯露大人物之間的不和諧和對小人物的壓迫」。
 
 
-![image](assets/fr/075.webp)
+![image](assets/zh-Hant/075.webp)
 
 
 托克维尔恰如其分地指出，物理学家们一看到民主的形式就拒绝了它。他們對日後成為法國政治經濟慣例的民主持懷疑態度，因為民主遠非完美的制度：它可能允許少數人受到多數人的壓迫，也可能成為篡權、暴政和掠奪的工具。
@@ -955,7 +955,7 @@ Physiocracy 一詞的意思是「以自然為主的政府」，由 Dupont de Nem
 自然科學家認為，人們需要擁有和保留他們的勞動成果。在他們看來，財產權是社會的基礎。他們認為國家有一個主要的工作：保護人民的財產。此外，從經濟的角度來看，物理學家認為財產的不可侵犯性可以鼓勵人們工作和努力，是經濟進步的條件。
 
 
-![image](assets/fr/076.webp)
+![image](assets/zh-Hant/076.webp)
 
 
 Quesnay 說得很簡單：
@@ -973,7 +973,7 @@ Quesnay 說得很簡單：
 > 讓商業有完全的自由，因為對國家和民族來說，最可靠、最精確、最有益的國內和對外貿易管制，就在於完全的競爭自由。
 
 
-![image](assets/fr/077.webp)
+![image](assets/zh-Hant/077.webp)
 
 
 物理學家已經看到了政府干預造成的損害，尤其是在穀物貿易方面。他們說，人們必須承認，當局永遠無法像個人一樣管理好商業，因為它需要回應每一個需求，並對需求或Supply的每一個變化做出反應。所有這一切，即使是人們所能想像到的最聰明的政府，也遠遠無法做到。因此，我們必須順其自然，讓一切順其自然。
@@ -1007,7 +1007,7 @@ Quesnay 說得很簡單：
 在國外，成功來得很早。在德國，巴登侯爵 (Margrave of Baden) 對重理論思想很感興趣，並與米拉波 (Mirabeau) 和杜邦 (Dupont de Nemours) 保持定期通信。
 
 
-![image](assets/fr/078.webp)
+![image](assets/zh-Hant/078.webp)
 
 
 他委派經濟學家約翰-奧古斯特-施萊特韋恩 (Johann August Schlettwein)，一位深信不疑的理論家，推行稅制改革和穀物貿易自由化。1770 年 4 月，在小村莊 Dietlingen 進行了第一次試驗。村民似乎熱烈歡迎這些措施，但負責官員卻不太支持，因此延遲了更廣泛的實施。
@@ -1016,13 +1016,13 @@ Quesnay 說得很簡單：
 在俄羅斯，凱薩琳二世正準備立法改革，並請狄德羅派一位傑出的思想家來協助她。
 
 
-![image](assets/fr/079.webp)
+![image](assets/zh-Hant/079.webp)
 
 
 他閱讀了 1767 年出版的 [*The Natural and Essential Order of Political Societies*](https://archive.org/details/lordrenaturelete00mercuoft)一書後，印象深刻，於是將該書的作者 Mercier de la Rivière 寄給她。
 
 
-![image](assets/fr/080.webp)
+![image](assets/zh-Hant/080.webp)
 
 
 
@@ -1035,33 +1035,33 @@ Quesnay 說得很簡單：
 在法國，1774 年杜爾哥 (Turgot) 被任命為財政總監時，自然科學派獲得了巨大的成功。
 
 
-![image](assets/fr/081.webp)
+![image](assets/zh-Hant/081.webp)
 
 
 圖爾戈意識到他們名聲的衰落，從來不以物理學家的忠實弟子自居，也不以百科全書家的身份自居，儘管他是一個百科全書家，而且他們受到神職人員的鄙視。杜爾哥上台後，頒布了六項著名的敕令，這些敕令構成了實踐自然科學主義的開始：商業自由、勞動自由和壟斷的終結。
 
 
 
-![image](assets/fr/082.webp)
+![image](assets/zh-Hant/082.webp)
 
 
 到了法國大革命時期，物理學家的追隨者減少了。Mirabeau 侯爵於 1789 年 7 月 13 日逝世，這是一個很好的象徵。Abeille 繼任了，但 Dupont de Nemours 依然忠誠。Dupont de Nemours 被任命為國會議員，他代表了物理學家的聲音，呼籲進行經濟改革，支持財產Ownership和自由貿易。
 
 
-![image](assets/fr/083.webp)
+![image](assets/zh-Hant/083.webp)
 
 
 他也曾與瓦薩（the assignats）對抗，但沒有成功。儘管這次失敗了，但物理學家的思想仍然存在於思想辯論中，並影響了大革命的早期成就。正如 Joseph Rambaud 所說，大革命在自由方面所做的一切都要歸功於物理學家。
 
 
-![image](assets/fr/084.webp)
+![image](assets/zh-Hant/084.webp)
 
 
 
 物理學家對經濟思想史也有重大影響。亞當‧斯密曾到訪法國，並與他們中的許多人見面，深受他們的著作影響。他甚至考慮把《國富論》獻給魁奈。
 
 
-![image](assets/fr/085.webp)
+![image](assets/zh-Hant/085.webp)
 
 
 不幸的是，魁奈在斯密的書出版前兩年去世，斯密也因此刪除了獻辭。雖然斯密不同意他們認為只有農業才有生產力的觀點，但他接受了他們對自由市場的許多論點，並在自己的著作中發揚光大。
@@ -1081,21 +1081,21 @@ Quesnay 說得很簡單：
 
 
 
-![image](assets/fr/086.webp)
+![image](assets/zh-Hant/086.webp)
 
 
 今天，它的銷售額已超過 35,000 億美元，在全球擁有近 65,000 名員工。原來這家公司與法國物理學派經濟學家 Samuel-Pierre Dupont de Nemours 的命運息息相關。
 
 
 
-![image](assets/fr/087.webp)
+![image](assets/zh-Hant/087.webp)
 
 
 出生於 1739 年的 Dupont de Nemours 在 24 歲時接觸了物理學家。當時，他仍在尋找自己的人生道路。有一天，他看到一本名為《國家的財富》的小冊子。他發現這本小冊子的經濟思想是一派胡言，於是寫了一篇批判性的回應，名為 Reflections on the Wealth of the State，於 1763 年出版。這篇文章廣受好評，讀者們讚揚道：「您一定是米拉波的弟子！」諷刺的是，杜邦甚至不知道誰是米拉波。
 
 
 
-![image](assets/fr/088.webp)
+![image](assets/zh-Hant/088.webp)
 
 
 由於好奇，他開始閱讀 Mirabeau 的著作《人民之友》（*Friend of the People）和《稅收論》（*Theory of Taxation）。他認識了米拉波和弗朗索瓦-魁奈 (François Quesnay)，並加入了他們的學校。
@@ -1104,7 +1104,7 @@ Quesnay 說得很簡單：
 
 
 
-![image](assets/fr/089.webp)
+![image](assets/zh-Hant/089.webp)
 
 
 這有兩個原因：米拉波和魁奈必須保持沉默，而杜邦被視為他們的新星。
@@ -1116,7 +1116,7 @@ Quesnay 說得很簡單：
 Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 
 
-![image](assets/fr/090.webp)
+![image](assets/zh-Hant/090.webp)
 
 
 他後來說，「當魁奈向我伸出雙臂時，我還是個孩子--是他讓我成為了一個男人」。是魁奈讓他成為當時文壇上的重要經濟學家。
@@ -1124,20 +1124,20 @@ Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 在*Journal de l'agriculture, du commerce et des finances*之後，杜邦被任命為*Les Éphémérides du Citoyen*的編輯，該期刊成為了物理學家的官方刊物。
 
 
-![image](assets/fr/091.webp)
+![image](assets/zh-Hant/091.webp)
 
 
 他使這本期刊集成為經濟理論的主要中心，甚至在理論派衰落的時候，他還親自撰寫幾乎所有後來的卷冊，支持這本期刊集。此外，Dupont de Nemours 還創造了 "physicist 「一詞，這個詞源於兩個希臘字，意思是 」自然的政府"。他用這個詞作為 1768 年出版的魁奈文章集的標題，而這個詞也最終在歷史上確立了地位。眾所周知，物理學家之間互相稱呼為 「經濟學家」，在大革命時期，他們仍然被稱為 「經濟學家」。
 
 
 
-![image](assets/fr/092.webp)
+![image](assets/zh-Hant/092.webp)
 
 
 杜爾哥（Turgot）短暫擔任法國財政部長時，杜邦成為他的親密顧問，也是唯一能接近他的物理貴族，因為杜爾哥與其他人保持距離。
 
 
-![image](assets/fr/093.webp)
+![image](assets/zh-Hant/093.webp)
 
 
 在大革命時期，他從內穆爾(Nemours)的轄區當選，並發現自己在議會中，另一位杜邦先生(Monsieur Dupont)也在座。當時他被稱為 Dupont de Nemours，不是因為他是貴族，只是為了區分兩人。當然，這個名字還是保留了下來。
@@ -1146,14 +1146,14 @@ Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 大革命期間，1792 年 8 月，他拿起武器在杜伊勒利宮（Tuileries Palace）捍衛國王，抵擋群眾的攻擊。
 
 
-![image](assets/fr/094.webp)
+![image](assets/zh-Hant/094.webp)
 
 
 國王對他說：「杜邦先生，我們總能在需要你的地方找到你！」他奇蹟地逃過了恐怖主義的洗禮，被判刑等待上斷頭台，卻因羅伯斯庇爾的倒台而得救，他在拿破崙的統治下被逼流放，在美國找到了幸福，他的一個兒子在父親的協助下創立了都彭公司。
 
 
 
-![image](assets/fr/095.webp)
+![image](assets/zh-Hant/095.webp)
 
 
 儘管他的一生多舛，其間發表了數十篇文章、小冊子和書籍，但他至今仍鮮為人知。這也許是因為他仍然是一個堅定的物理學家，當這個學說已經不再流行的時候。事實上，正如熊彼特所寫，Dupont de Nemours 「在其職業生涯中，有許多機會可以放棄物理學」，但他仍然忠於物理學。他是一個有信念的人。
@@ -1175,14 +1175,14 @@ Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 
 
 
-![image](assets/fr/096.webp)
+![image](assets/zh-Hant/096.webp)
 
 
 啟蒙哲學最著名的成就，毫無疑問是狄德羅 (Diderot) 和達朗貝 (d'Alembert) 的《*百科全書*》。
 
 
 
-![image](assets/fr/097.webp)
+![image](assets/zh-Hant/097.webp)
 
 
 當然，經濟文章是由經濟學家撰寫的。在早期的幾卷中，狄德羅求助於福爾邦納，之後招募了自由派經濟學家：首先是弗朗索瓦-魁奈（François Quesnay，他撰寫了《谷物》、《費米爾》、《人》等文章 - 最後一則尚未出版），然後是圖爾戈（Turgot，他撰寫《市場與市場》）。這些著作都非常重要。在他的文章中，魁奈為日後的物理學說奠定了基礎。除了他的《經濟表》（*Tableau économique*）之外，這些仍然是他最著名的作品。當時還年輕的 Turgot 在他的文章中發展了自由放任的思想，批判國家對市場組織的干預。
@@ -1191,7 +1191,7 @@ Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 在《*百科全書*》的許多其他文章中，哲學家們，尤其是狄德羅，在宗教、政治和經濟等各個領域捍衛自由的理想。
 
 
-![image](assets/fr/098.webp)
+![image](assets/zh-Hant/098.webp)
 
 
 勞動自由，尤其是與行會制度的對立，是藝術、技術和社區等各個條目中一再出現的主題。
@@ -1201,10 +1201,10 @@ Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 
 
 
-![image](assets/fr/099.webp)
+![image](assets/zh-Hant/099.webp)
 
 
-![image](assets/fr/100.webp)
+![image](assets/zh-Hant/100.webp)
 
 
 這本書成為有史以來對物理學家思想最猛烈的攻擊，給這個運動帶來了重大的打擊。後來，狄德羅在他的《加里安尼的論述》（*Apology of Galiani*）中為加里安尼辯護，對抗物理學家的親密盟友莫雷爾（Abbot Morellet）。幾年後，在杜爾哥（Turgot）執政期間，人們看到狄德羅對通過廢除行會建立勞動自由大加讚賞。這時，狄德羅這個工匠的兒子發現自己與自由派經濟學家的看法一致，於是寫了一封尖刻的信給加里昂尼，聲稱勞工自由會在二三十年內毀掉法國工業。從工業革命的角度來看，歷史並非如此。狄德羅回到自由派經濟學家那邊之後，就不再受到他們的信任，並且一直被孤立。他在 1774 年寄給 Dupont de Nemours 的一封信中寫道，「我想說的是......」：
@@ -1212,13 +1212,13 @@ Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 
 > "您曾經對我有過友誼，現在您不再有了，因為您太忙了，再也沒有時間去愛任何人。
 
-![image](assets/fr/101.webp)
+![image](assets/zh-Hant/101.webp)
 
 
 伏爾泰 (Voltaire) 走的是一條類似的道路，其經濟觀點缺乏一致性。他崇拜 Vincent de Gournay，與經濟學家（包括 Dupont de Nemours 和 Turgot）通信，並欣賞物理學家，尤其是他們對農業的讚揚。他在《致 Ephémérides*的作者》（*Diatribe to the Author of the Ephémérides*）一文中稱頌了他們。然而，他後來在諷刺作品《四十克朗的人》（The Man of Forty Crowns*）中批評他們單一土地稅的想法，這也引起了很大的爭議。最後，像狄德羅一樣，他讚揚杜爾戈的事蹟，稱之為黃金時代，並稱讚他兩項關於勞動自由和自由貿易的偉大法令。
 
 
-![image](assets/fr/102.webp)
+![image](assets/zh-Hant/102.webp)
 
 
 最後，哲學家與經濟思想的關係是好壞參半的。儘管他們對自由經濟思想有讚有彈，但他們在把這些思想帶入更廣泛的啟蒙思想論述中扮演了一個角色。如此一來，不論有意或無意，他們都有助於推動自由放任的觀念，直到大革命為止。
@@ -1234,22 +1234,22 @@ Dupont de Nemours 始終對 Quesnay 保有很高的評價。
 
 
 
-![image](assets/fr/103.webp)
+![image](assets/zh-Hant/103.webp)
 
 
 將他與 Cantillon 並列為 18 世紀最偉大的經濟學家。
 
 
-![image](assets/fr/104.webp)
+![image](assets/zh-Hant/104.webp)
 
 
 Turgot是如何崛起的？這歸結於三個關鍵因素的結合。 **第一**，他的名門背景。他出身於皇室行政官世家，其中許多人都曾擔任政府要職。 **第二**，他出生和成長的黃金年代。孟德斯鸠 (Montesquieu) 出版《愛的真諦》(*L'Esprit des Lois*)時，杜爾哥 21 歲；《百科全書》(*Encyclopédie*)第一卷面世時，杜爾哥 24 歲。
 
 
-![image](assets/fr/105.webp)
+![image](assets/zh-Hant/105.webp)
 
 
-![image](assets/fr/106.webp)
+![image](assets/zh-Hant/106.webp)
 
 
 他是物理學家、伏爾泰、狄德羅、德霍爾巴赫、亞當-斯密、孔多塞等人的同代人。 **第三**，他的思想早熟。他在索邦大學（Sorbonne）就讀時，22 歲就寫了一封關於紙幣的信，發表了卓越的演說，24 歲時編寫了一份要寫的 52 部作品清單。
@@ -1267,19 +1267,19 @@ Turgot是如何崛起的？這歸結於三個關鍵因素的結合。 **第一**
 
 
 
-![image](assets/fr/107.webp)
+![image](assets/zh-Hant/107.webp)
 
 
 1767 年，他在擔任執政官期間，以《財富的形成與分配反思》（*Reflections on the Formation and Distribution of Wealth* ）為名，撰寫了一本經濟學彙編。
 
 
-![image](assets/fr/108.webp)
+![image](assets/zh-Hant/108.webp)
 
 
 分工、消費者主權、私有財產、資本的角色，幾乎所有主要的經濟主題都有談及。許多歷史學家（最近的一位是歷史學家 Anne-Claire Hoyng）指出 Turgot 的這部著作與 9 年後發表的 Adam Smith 的《國富論》有相似之處。
 
 
-![image](assets/fr/109.webp)
+![image](assets/zh-Hant/109.webp)
 
 
 Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些信後來被傳達給了國王，但其中一半已經遺失。他寫道：
@@ -1290,7 +1290,7 @@ Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些�
 > 如果說有哪個時刻需要最充分、最絕對的自由，完全不受任何障礙的限制，我敢說現在就是，而且考慮頒布穀物貿易法規從來沒有像現在這樣合適。
 
 
-![image](assets/fr/110.webp)
+![image](assets/zh-Hant/110.webp)
 
 
 1769 年，Turgot 為 Abbot Morellet 的 *Dictionnaire de Commerce* 寫了《價值與貨幣》一文，這篇文章最終沒有出版。Galiani 早已指出「人是萬物的共同尺度」，預見了圖爾戈三十年後在這篇文章中發展出的主觀分析，他在這篇文章中擴展並證明了這個命題。
@@ -1300,7 +1300,7 @@ Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些�
 
 
 
-![image](assets/fr/111.webp)
+![image](assets/zh-Hant/111.webp)
 
 
 "他說：「認為商業中貨幣的利息應該由王子的法律來固定是錯誤的，它是一種當前的價格，可以像所有其他商品一樣自我調節」，為了捍衛這一立場，他反駁了亞里斯多德和教父的反對意見。
@@ -1318,7 +1318,7 @@ Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些�
 
 
 
-![image](assets/fr/112.webp)
+![image](assets/zh-Hant/112.webp)
 
 
 ## 改革家圖爾戈
@@ -1331,7 +1331,7 @@ Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些�
 
 
 
-![image](assets/fr/113.webp)
+![image](assets/zh-Hant/113.webp)
 
 
 他的父親曾是巴黎商人的教務長，祖父則是一位稽查官。在學業成績優異之後，Turgot 家族最小的成員希望至少能達到同樣的高度。他先是擔任了一段時間的maître des requêtes，也就是說，他是紳士們和凡爾賽之間的聯絡人。這是一個有聲望的職位，他必須獲得特別的年齡豁免，但圖爾戈渴望得到更多。他的導師古內（Gournay）的去世進一步激勵了他向更高的目標邁進，他要求被任命為行政官。
@@ -1346,7 +1346,7 @@ Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些�
 
 
 
-![image](assets/fr/114.webp)
+![image](assets/zh-Hant/114.webp)
 
 
 由 於 這 個 地 區 非 常 貧 窮 ﹐ 因 此 大 臣 們 對 其 毫 無 興 趣 。這給了 Turgot 嘗試改革的自由。在利穆贊，他推行了三大計劃：
@@ -1358,7 +1358,7 @@ Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些�
 - 招募民兵，即在戰爭時期動員的農民軍隊。
 
 
-![image](assets/fr/115.webp)
+![image](assets/zh-Hant/115.webp)
 
 
 這是透過抽籤來完成的，這導致了恐懼和暴力，因為有逃亡者；Turgot 以受薪的志願者取代了這些強制性的徵稅。
@@ -1374,13 +1374,13 @@ Turgot 在給泰雷修道院長的信中捍衛了穀物貿易的自由，這些�
 我們知道他在信中向路易十六概述了他的原則："不破產。不加稅。沒有新的貸款」。這個哲學，今天的批評者可能會將其標籤為無謂的「嚴謹」，但其目的卻是為了拯救君主制。
 
 
-![image](assets/fr/116.webp)
+![image](assets/zh-Hant/116.webp)
 
 
 Turgot 擬備了六份敕令，以改革法國經濟。
 
 
-![image](assets/fr/117.webp)
+![image](assets/zh-Hant/117.webp)
 
 
 這是經濟專家第一次，也是最後一次獲得改革國家經濟的自由。圖爾戈的三項敕令引人注目：一項敕令廢除了強迫勞動（corvées），另一項敕令解散了行會（公司），第三項敕令確立了穀物的自由貿易。
@@ -1391,12 +1391,12 @@ Turgot 擬備了六份敕令，以改革法國經濟。
 
 > 我聽到一個可怕的消息我們會怎麼樣？我被摧毀了見證了黃金時代的誕生與消亡，我們將永遠無法復原！這個晴天霹靂擊中了我的頭腦和心靈。
 
-![image](assets/fr/118.webp)
+![image](assets/zh-Hant/118.webp)
 
 
 自此以後，許多人認為法國是一個不可能改革的國家。圖爾戈的失敗似乎證實了這一點：他已經為半個世紀的自由經濟思想做好了準備；他得到了啟蒙哲學家的支持；擁有絕對權力的國王本人也支持他。
 
-![image](assets/fr/119.webp)
+![image](assets/zh-Hant/119.webp)
 
 
 最後，貴族和特權階級贏得了勝利。國王只能私下哀嘆：「我現在明白了，只有圖爾戈先生和我關心人民」
@@ -1411,7 +1411,7 @@ Turgot 擬備了六份敕令，以改革法國經濟。
 就像重商主義（它最明顯的實際表現）一樣，蒙田的詭辯主義花了很長的時間才消失。
 
 
-![image](assets/fr/120.webp)
+![image](assets/zh-Hant/120.webp)
 
 
 這個歪理就是貿易和 Exchange 是零和遊戲的觀念。無論一方在交易中獲得什麼，另一方必然會失去什麼。它的支持者認為，無論是在個人與個人之間，還是在國家與國家之間，都是如此。
@@ -1420,7 +1420,7 @@ Turgot 擬備了六份敕令，以改革法國經濟。
 孔迪拉克方丈在徹底瓦解這個錯誤觀念上扮演了重要角色。
 
 
-![image](assets/fr/121.webp)
+![image](assets/zh-Hant/121.webp)
 
 
 「確切地 」也許是一種誇張的說法，因為在公開辯論中，這種詭辯經常重現。這也許就是孔迪拉克至今仍是一位鮮為人知的經濟學家的原因。除了奧地利經濟學家之外，很少人了解他的 Exchange 理論的重要性，也沒有人再對他感興趣。
@@ -1429,7 +1429,7 @@ Turgot 擬備了六份敕令，以改革法國經濟。
 對於大多數經濟思想史學家來說，1776 年的標誌是創立了經濟科學的《國富論》的出版。我們剛剛上完的十五課，研究了亞當‧斯密之前的法國經濟科學，足以證明這種觀念的錯誤。此外，在同一年的 1776 年，另一本書或許比亞當‧斯密的著作更值得歷史學家讚揚：這本書是由孔迪拉克所寫的，書名很簡單，就是 [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond)。
 
 
-![image](assets/fr/122.webp)
+![image](assets/zh-Hant/122.webp)
 
 
 對孔迪拉克來說，如果把 Exchange 視為零和遊戲的歪論仍然存在，那麼物理學家應該負上部分責任，因為他們認為 Exchange 是一種平等的關係。康德拉克認為這是錯誤的：Exchange 是一種不平等的關係，在這種關係中，一個人總是付出較少而獲得較多。
@@ -1448,7 +1448,7 @@ Physiocrats 的思想與 Condillac 的思想之間，沒有比這更完美的對
 然而，兩者的對立主要在於文字上。兩者都同意，當用一法郎換一本书時，這本書就值一法郎，或者說這本書的價格就是一法郎。
 
 
-![image](assets/fr/123.webp)
+![image](assets/zh-Hant/123.webp)
 
 
 不同之處在於 Condillac 斷言，既然我們以 Exchange 一法郎購買書籍，這表示對我們而言，書籍的價值高於我們的一法郎硬幣。與硬幣相比，我們更喜歡書本，這就是我們製作 Exchange 的原因。
@@ -1466,7 +1466,7 @@ Condillac 正確的地方在於，如果兩種交換商品的價格相等，價�
 第一個命題：我們尋求商品是為了它們的效用。這一點看似顯而易見，但這是經濟科學的核心原則，人類 Exchange 是為了獲得效用，讓-巴蒂斯特-薩伊 (Jean-Baptiste Say) 也完美地發展了這一點。
 
 
-![image](assets/fr/124.webp)
+![image](assets/zh-Hant/124.webp)
 
 
 第二個命題：價值先於交換而存在，也是交換的動機。每個人對商品和服務所做的主觀判斷，意味著這些相同的商品和服務對他們來說有其價值，根據它們似乎提供的效用，價值或多或少。當然，每個人的判斷方式不同，價值也就因人而異。
@@ -1491,7 +1491,7 @@ Condillac 正確的地方在於，如果兩種交換商品的價格相等，價�
 
 
 
-![image](assets/fr/125.webp)
+![image](assets/zh-Hant/125.webp)
 
 
 在他職業生涯的大部分時間裡，他專注於與經濟學完全無關的領域，這也是理所當然的，因為他的才能使他最專注的科學取得了巨大的進步。但在 1770 年左右，他感到自己被經濟問題所吸引，這也許是因為其他哲學家，尤其是伏爾泰 (Voltaire) 和狄德羅 (Diderot) 不願意把他們的閒暇時間花在經濟問題上，也因為他曾與杜爾哥 (Turgot) 交好。
@@ -1506,7 +1506,7 @@ Condillac 正確的地方在於，如果兩種交換商品的價格相等，價�
 
 
 
-![image](assets/fr/126.webp)
+![image](assets/zh-Hant/126.webp)
 
 
 自此，孔多塞的職業生涯有了轉機，他加入了經濟辯論，不知疲倦地支持新任大臣的自由改革。孔多塞崇尚競爭和商業自由，他還呼籲廢除 corvées（強迫勞動）、行會以及公平的稅收。只要一有機會，他就會公開表達這些信念，而且顯然非常熱情：「請允許我再次談論商業自由；我喜歡談論這個話題」。
@@ -1518,7 +1518,7 @@ Condillac 正確的地方在於，如果兩種交換商品的價格相等，價�
 孔多塞在其 [*Letters on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC)中提出了幾個重點。
 
 
-![image](assets/fr/127.webp)
+![image](assets/zh-Hant/127.webp)
 
 
 首先，當時的高穀價並不是自由貿易的結果，而是歉收的結果，孔多塞清楚地證明了這一點。接著，他解釋了為什麼自由放任不僅是合適的，而且是唯一合適的政策，儘管普遍存在偏見。他指出：「我們已經習慣看見政府介入穀物貿易，所以什麼都不做看起來像是一件非比尋常的新事物」。之後，他又說：「幾乎每個人，尤其是擔任公職的人，都相信沒有事情是自己發生的，如果政府不干預一切，就會失去一切」。孔多塞因此重提物理學家和杜爾哥（Turgot）的論點，顯示自由貿易優於所有形式的干預主義。
@@ -1549,13 +1549,13 @@ Turgot 欣賞 Condorcet 對其思想的忠誠捍衛，任命他為貨幣監督�
 Dupont de Nemours 撰寫了 Nemours 保護區的冤情清單。
 
 
-![image](assets/fr/128.webp)
+![image](assets/zh-Hant/128.webp)
 
 
 這份引人入勝的文件包含了自由派經濟學家對貿易限制、壟斷和攻擊財產的所有抱怨。Dupont de Nemours 也被選入國民議會。
 
 
-![image](assets/fr/129.webp)
+![image](assets/zh-Hant/129.webp)
 
 在大革命期間，他成為自由常識的代言人，堅定地對抗日益高漲的民粹主義和干涉主義的煽動，最終取得了勝利。
 
@@ -1564,7 +1564,7 @@ Dupont de Nemours 撰寫了 Nemours 保護區的冤情清單。
 
 
 
-![image](assets/fr/130.webp)
+![image](assets/zh-Hant/130.webp)
 
 
 "他說：「把銀行業務交由自由貿易的法律處理會更好」。他還說：
@@ -1586,7 +1586,7 @@ Dupont de Nemours 堅決反對，並出版了一本小冊子，題為 [* Assigna
 
 
 
-![image](assets/fr/131.webp)
+![image](assets/zh-Hant/131.webp)
 
 
 他在小冊子上簽名為 「人民之友」。這篇文章引起了轟動，大會被問到是誰寫的。Dupont de Nemours 於是站起來承認這是他的作品，並說他不以使用「人民之友」這個稱號為恥，因為對抗外國人是真正為人民服務。
@@ -1595,7 +1595,7 @@ Dupont de Nemours 堅決反對，並出版了一本小冊子，題為 [* Assigna
 
 
 
-![image](assets/fr/132.webp)
+![image](assets/zh-Hant/132.webp)
 
 
 我們都知道接下來的災難、經濟毀滅和人民所承受的苦難，許多人因為轉讓變得一文不值而失去一切，不得不被燒掉。
@@ -1627,40 +1627,40 @@ Boisguilbert 斷言，那些善意的靈魂相信他們可以藉由政府的參�
 
 
 
-![image](assets/fr/133.webp)
+![image](assets/zh-Hant/133.webp)
 
 
 Cantillon 堅持金錢絕不應該為了政治目的而被操縱。允許國家隨意管理金錢，就是為巨大的金融和經濟混亂鋪路。
 
 
 
-![image](assets/fr/134.webp)
+![image](assets/zh-Hant/134.webp)
 
 
 Vincent de Gournay 斷言，對勞動力的過度管制會打擊工人和手藝人的努力，將他們推向懶惰和無為。正是因為有了自由競爭，經濟才能成長，國家才能繁榮。
 
 
 
-![image](assets/fr/135.webp)
+![image](assets/zh-Hant/135.webp)
 
 
 Marquis d'Argenson 斷言，沒有任何政府能夠預見和衡量一切，因此，人們必須依賴每個人的自我利益。
 
 
 
-![image](assets/fr/136.webp)
+![image](assets/zh-Hant/136.webp)
 
 
 Quesnay 和 Physiocrats 斷言私有財產是人類社會的基礎。沒有私有財產，人就失去了努力、工作的動力，因為他無法享受自己的勞動成果或累積任何東西。
 
 
-![image](assets/fr/137.webp)
+![image](assets/zh-Hant/137.webp)
 
 
 Condillac 斷言，Exchange 永遠是互惠互利的，因此應該毫無例外地永遠是自由的。國家的唯一使命必須是保護自由和財產。
 
 
-![image](assets/fr/138.webp)
+![image](assets/zh-Hant/138.webp)
 
 
 所有這些想法都將被 19 世紀的經濟學家所接受。有些人，如讓-巴蒂斯特-薩伊（Jean-Baptiste Say），會透過嚴謹的《政治經濟學論》（*Treatise on Political Economy*），將這些觀點科學化。相反地，其他經濟學家則希望透過故事、小說和有趣的短篇故事來普及這些基本格言，Frédéric Bastiat 就巧妙地做到了這一點。

@@ -1,4 +1,4 @@
-question: Welke zelf-hostende applicaties kunnen via Umbrel worden geïnstalleerd?
+question: Welke zelf-gehoste applicaties kunnen via Umbrel worden geïnstalleerd?
 answer: Nextcloud
 wrong_answers:
   - Google Drive

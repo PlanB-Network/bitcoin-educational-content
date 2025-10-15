@@ -1,7 +1,7 @@
 question: Wat is de eerste stap bij een bug op Umbrel?
-answer: generate een diagnosebundel
+answer: genereer een diagnosebundel
 wrong_answers:
-  - Installeer Bitcoin core opnieuw en voer IBD opnieuw uit
+  - Installeer Bitcoin Core opnieuw en voer IBD opnieuw uit
   - Cache wissen
   - 2FA uitschakelen
 explanation: |

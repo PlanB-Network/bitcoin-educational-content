@@ -231,6 +231,58 @@ Pour cela, ouvrez le menu `Settings > Persistent settings`, puis sélectionnez `
 
 Si tout est fonctionnel, votre SeedSigner est désormais prêt à être utilisé !
 
+## 4. Paramétrage du SeedSigner
+
+Avant de créer votre portefeuille Bitcoin, nous allons configurer le SeedSigner. Comme il fonctionne sur un Raspberry Pi Zero dépourvu de mémoire persistante, ses réglages ne sont pas enregistrés automatiquement à moins de les sauvegarder sur la carte microSD. Assurez-vous donc d’avoir activé cette option, sinon ce paramétrage sera perdu au redémarrage (voir l’étape 3.5).
+
+### 4.1 Accès au menu des paramètres
+
+Démarrez votre SeedSigner et attendez l’apparition de l’écran d’accueil. À l’aide du joystick, naviguez jusqu’à l’option `Settings`, puis validez en appuyant sur le bouton central. Vous entrez alors dans le menu principal des paramètres.
+
+024
+
+### 4.2 Choisir le logiciel de gestion de portefeuille
+
+Accédez ensuite au menu `Coordinator software`.
+
+025
+
+Le `Coordinator` désigne le logiciel de gestion de portefeuille avec lequel votre SeedSigner communiquera via des QR codes. Ce logiciel est installé soit sur votre ordinateur, soit sur votre smartphone. C’est lui qui vous permettra de gérer vos bitcoins, mais sans jamais avoir accès à vos clés privées. Le SeedSigner reste le seul appareil capable de signer vos transactions.
+
+La version actuelle du firmware prend en charge plusieurs logiciels : Sparrow, Specter, BlueWallet, Nunchuk et Keeper. Dans mon cas, j’utilise **Sparrow Wallet**, que je vous recommande particulièrement pour sa simplicité et sa richesse fonctionnelle.
+
+Si vous ne savez pas comment l’installer, vous pouvez suivre ce tutoriel :
+
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+Sélectionnez simplement le logiciel de votre choix dans le menu.
+
+026
+
+### 4.3 Unités et affichage des montants
+
+Dans le menu `Denomination Display`, vous pouvez choisir l’unité d’affichage des montants :
+- `BTC`
+- `mBTC` (milli-bitcoin, soit 0,001 BTC)
+- `sats` (satoshis, soit 1/100 000 000 de BTC)
+
+L’unité en **sats** est généralement la plus pratique pour les petites sommes.
+
+027
+
+### 4.4 Réglages avancés
+
+Rendez-vous maintenant dans le menu `Advanced`. Vous y trouverez plusieurs options utiles :
+- `Bitcoin network` : à modifier uniquement si vous souhaitez utiliser le SeedSigner sur le Testnet.
+- `QR code density` : ajuste la quantité d’informations contenue dans chaque QR code. Vous pouvez laisser la valeur par défaut, sauf si vous rencontrez des difficultés de lecture lors du scan.
+- `Xpub export` : permet d’activer ou de désactiver l’exportation de votre clé publique étendue (`xpub`, `ypub`, `zpub`) vers un logiciel de gestion de portefeuille via QR code (fonction que nous utiliserons plus loin, donc laissez la activée pour le moment).
+- `Script types` : définit les types de scripts autorisés pour verrouiller vos bitcoins. Vous n’avez pas besoin de modifier ce paramètre, car le type de script sera défini directement sur Sparrow. Ici, il s’agit uniquement des scripts que le SeedSigner est autorisé à manipuler.
+
+### 4.5 Choix de la langue
+
+Enfin, dans le menu `Language`, vous pouvez modifier la langue de l’interface selon votre préférence.
+
+028
 
 
 

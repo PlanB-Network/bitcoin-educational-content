@@ -1,5 +1,5 @@
 question: Waarom wordt een HDD niet aanbevolen voor een Bitcoin node?
-answer: Omdat het IBD en algemeen gebruik aanzienlijk vertraagt
+answer: Omdat het IBD een algemeen gebruik aanzienlijk vertraagt
 wrong_answers:
   - Omdat het geen blockchain bestanden kan opslaan
   - Omdat het te weinig energie verbruikt en dreigt te exploderen

@@ -13,7 +13,7 @@ objectives:
 
 In deze cursus leggen we in 25 hoofdstukken de basis van Bitcoin uit, zodat je deze technologie op een eenvoudige en effectieve manier kunt begrijpen. De cursus verkent de basisprincipes van de industrie als geheel, waaronder onderwerpen als mining, wallets, koop-/verkoopplatformen en meer. Tijdens de hele cursus is er extra educatief materiaal beschikbaar, en we nodigen je ook uit om de "21 Posters" in de bronnensectie te bekijken nadat je deze cursus hebt afgerond.
 
-Je hebt geen specifieke kennis nodig om te beginnen. In feite is alle inhoud toegankelijk voor studenten van alle niveaus, en het duurt ongeveer 15 uur om het te voltooien.
+Er is geen voorkennis vereist om met deze cursus te beginnen. BTC 101 is ontworpen om voor iedereen toegankelijk te zijn, ongeacht je ervaringsniveau.
 
 +++
 

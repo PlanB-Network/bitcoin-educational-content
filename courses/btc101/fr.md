@@ -13,7 +13,7 @@ objectives:
 
 Dans ce cours, nous expliquerons les bases de Bitcoin en 25 chapitres, afin que vous puissiez comprendre cette technologie d'une manière simple et efficace. Le cours explore les bases de l'industrie dans son ensemble, y compris des sujets tels que le minage, les portefeuilles, les plateformes d'achat/vente, et plus encore. Du matériel pédagogique supplémentaire sera disponible tout au long du parcours, et nous vous invitons également à consulter les "21 affiches" dans la section des ressources une fois que vous aurez terminé ce cours.
 
-Vous n'avez besoin d'aucune connaissance spécifique pour commencer. En effet, le contenu suivant est accessible aux étudiants de tous niveaux, et il faut compter environ 15 heures pour le terminer.
+Aucune connaissance préalable n’est requise pour débuter ce cours. BTC 101 a été conçu pour être accessible à tous, quel que soit votre niveau d’expérience.
 
 +++
 

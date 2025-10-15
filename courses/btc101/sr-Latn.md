@@ -17,7 +17,7 @@ objectives:
 U ovom kursu ćemo objasniti osnove bitkoina u 25 poglavlja, kako biste mogli da razumete ovu tehnologiju na jednostavan i efikasan način. Kurs istražuje osnove industrije u celini, uključujući teme kao što su rudarenje, novčanici, platforme za kupovinu/prodaju (menjačnice) i još mnogo toga. Dodatni edukativni materijal će biti dostupan tokom celog puta, a takođe vas pozivamo da pogledate "21 Poster" u odeljku resursa nakon što završite ovaj kurs.
 
 
-Ne treba vam nikakvo specifično znanje da biste počeli. Zapravo, sledeći sadržaj je dostupan studentima svih nivoa, i trebalo bi da Vam bude potrebno približno 15 sati da ga završite.
+Nije potrebno prethodno znanje da biste započeli ovaj kurs. BTC 101 je osmišljen da bude dostupan svima, bez obzira na nivo iskustva.
 
 
 +++

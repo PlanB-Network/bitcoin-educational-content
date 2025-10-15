@@ -13,7 +13,7 @@ objectives:
 
 I den här kursen kommer vi att förklara grunderna i Bitcoin i 25 kapitel, så att du kan förstå denna teknologi på ett enkelt och effektivt sätt. Kursen utforskar grunderna i branschen som helhet, inklusive ämnen som mining, plånböcker, köp-/försäljningsplattformar och mer. Ytterligare utbildningsmaterial kommer att finnas tillgängligt under resan, och vi inbjuder dig också att kolla in "21 Posters" i resursavsnittet efter att du har avslutat denna kurs.
 
-Du behöver ingen specifik kunskap för att komma igång. Faktum är att följande innehåll är tillgängligt för studenter på alla nivåer, och det bör ta ungefär 15 timmar att avsluta.
+Ingen förkunskap krävs för att börja denna kurs. BTC 101 har utformats för att vara tillgänglig för alla, oavsett din erfarenhetsnivå.
 
 +++
 # Introduktion

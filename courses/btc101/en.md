@@ -13,7 +13,7 @@ objectives:
 
 In this course, we will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
 
-You don't need any specific knowledge to get started. In fact, the following content is accessible to students of all levels, and it should take approximately 15 hours to finish.
+No prior knowledge is required to begin this course. BTC 101 was designed to be accessible to everyone, regardless of your level of experience.
 
 +++
 

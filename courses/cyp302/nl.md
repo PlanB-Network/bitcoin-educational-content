@@ -1,29 +1,18 @@
 ---
-name: Inleiding tot formele cryptografie
+name: Grondslagen van moderne cryptografie
 goal: Een diepgaande introductie in de wetenschap en praktijk van cryptografie.
-objectives: 
-
-  - Verken Beale cijfers en moderne cryptografische methoden om de basis en historische concepten van cryptografie te begrijpen.
-  - Verdiep je in getaltheorie, groepen en velden om de belangrijkste wiskundige concepten die ten grondslag liggen aan cryptografie onder de knie te krijgen.
-  - Bestudeer het RC4-stroomcijfer en AES met een 128-bits sleutel om meer te leren over symmetrische cryptografische algoritmen.
-  - Onderzoek het RSA cryptosysteem, sleuteldistributie en Hash functies om asymmetrische cryptografie te verkennen.
-
-
+objectives:
+- Verken Beale cijfers en moderne cryptografische methoden om de basis en historische concepten van cryptografie te begrijpen.
+- Verdiep je in getaltheorie, groepen en velden om de belangrijkste wiskundige concepten die ten grondslag liggen aan cryptografie onder de knie te krijgen.
+- Bestudeer het RC4-stroomcijfer en AES met een 128-bits sleutel om meer te leren over symmetrische cryptografische algoritmen.
+- Onderzoek het RSA cryptosysteem, sleuteldistributie en Hash functies om asymmetrische cryptografie te verkennen.
 ---
-# Diep duik in cryptografie
+# Diepgaande verkenning van moderne cryptografie
 
+In deze cursus behandelen we de essentie van moderne cryptografie op een duidelijke, toegankelijke manier, zonder dat een sterke wiskundige achtergrond vereist is. In de hoofdstukken leer je kernconcepten zoals symmetrische en publieke-sleutelversleuteling, hashfuncties, digitale handtekeningen, sleuteluitwisseling en praktische protocollen. Onderweg leggen we de verbindingen naar praktische toepassingen zoals veilige berichtgeving, TLS, wachtwoordopslag en authenticatie.
 
-Het is moeilijk om veel materialen te vinden die een goede middenweg bieden in het cryptografieonderwijs.
-
-
-Aan de ene kant zijn er lange, formele verhandelingen die echt alleen toegankelijk zijn voor mensen met een sterke achtergrond in wiskunde, logica of een andere formele discipline. Aan de andere kant zijn er inleidingen op zeer hoog niveau die echt te veel details verbergen voor iedereen die op zijn minst een beetje nieuwsgierig is.
-
-
-Deze inleiding tot cryptografie probeert de middenweg te vinden. Hoewel het relatief uitdagend en gedetailleerd zou moeten zijn voor iedereen die nieuw is in cryptografie, is het niet het konijnenhol van een typische fundamentele verhandeling.
-
-
+Het materiaal is ontworpen voor leerlingen van alle niveaus en biedt een evenwicht tussen intuïtie en net genoeg technische diepgang om nieuwsgierigheid te bevredigen. Verwacht een gerichte, boeiende reis. Aan het einde begrijp je hoe en waarom moderne cryptografie werkt en hoe je het verantwoord kunt gebruiken.
 +++
-
 # Inleiding
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>

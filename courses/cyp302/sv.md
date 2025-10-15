@@ -1,29 +1,18 @@
 ---
-name: Introduktion till formell kryptografi
+name: Grunder i modern kryptografi
 goal: En djupdykning i kryptografins vetenskap och praktik.
-objectives: 
-
-  - Utforska Beale-chiffer och moderna kryptografiska metoder för att förstå grundläggande och historiska begrepp inom kryptografi.
-  - Fördjupa dig i talteori, grupper och fält för att behärska viktiga matematiska begrepp som ligger till grund för kryptografi.
-  - Studera RC4 stream cipher och AES med en 128-bitars nyckel för att lära dig mer om symmetriska kryptografiska algoritmer.
-  - Undersök RSA-kryptosystemet, nyckeldistribution och Hash-funktioner för att utforska asymmetrisk kryptografi.
-
-
+objectives:
+- Utforska Beale-chiffer och moderna kryptografiska metoder för att förstå grundläggande och historiska begrepp inom kryptografi.
+- Fördjupa dig i talteori, grupper och fält för att behärska viktiga matematiska begrepp som ligger till grund för kryptografi.
+- Studera RC4 stream cipher och AES med en 128-bitars nyckel för att lära dig mer om symmetriska kryptografiska algoritmer.
+- Undersök RSA-kryptosystemet, nyckeldistribution och Hash-funktioner för att utforska asymmetrisk kryptografi.
 ---
-# Djupdykning i kryptografi
+# Fördjupning i modern kryptografi
 
+I den här kursen kommer vi att täcka grunderna i modern kryptografi på ett tydligt och lättillgängligt sätt, ingen gedigen matematisk bakgrund krävs. Genom kapitlen kommer du att lära dig kärnkoncept som symmetrisk och asymmetrisk kryptering, hashfunktioner, digitala signaturer, nyckelutbyte och verkliga protokoll. Längs vägen kommer vi att koppla ihop punkterna med praktiska tillämpningar som säker meddelandehantering, TLS, lösenordslagring och autentisering.
 
-Det är svårt att hitta många material som erbjuder en bra medelväg i kryptografiutbildningen.
-
-
-Å ena sidan finns det långa, formella avhandlingar som egentligen bara är tillgängliga för dem som har en stark bakgrund inom matematik, logik eller någon annan formell disciplin. Å andra sidan finns det introduktioner på mycket hög nivå som egentligen döljer alltför många detaljer för den som är åtminstone lite nyfiken.
-
-
-Denna introduktion till kryptografi försöker fånga mellanvägen. Även om den bör vara relativt utmanande och detaljerad för alla som är nya inom kryptografi, är det inte kaninhålet i en typisk grundläggande avhandling.
-
-
+Materialet är utformat för elever på alla nivåer och balanserar intuition med precis tillräckligt tekniskt djup för att tillfredsställa nyfikenhet. Förvänta dig en fokuserad, engagerande resa. I slutet kommer du att förstå hur och varför modern kryptografi fungerar och hur man använder den ansvarsfullt.
 +++
-
 # Inledning
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>

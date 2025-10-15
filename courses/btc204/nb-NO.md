@@ -28,6 +28,8 @@ Bli med oss for å endre din bruk av Bitcoin og bli en informert bruker, som er 
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 Velkommen til BTC204-kurset!
 
 I en verden der konfidensialiteten til finansielle transaksjoner gradvis blir en luksus, er det viktig å forstå og beherske prinsippene for personvern ved bruk av Bitcoin. Dette kurset gir deg alle nøklene, både teoretiske og praktiske, for å oppnå dette på egen hånd.
@@ -87,6 +89,8 @@ Klar til å utforske de intrikate aspektene ved personvern på Bitcoin? La oss g
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 Bitcoin er først og fremst en valuta, men vet du egentlig hvordan BTC er representert på protokollen?
 
@@ -136,6 +140,8 @@ Den totale saldoen på porteføljen din vil være `17 BTC`.
 ## Strukturen til Bitcoin-transaksjoner
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 ### Transaksjonsinnganger og -utganger
@@ -223,6 +229,8 @@ For det andre, som nevnt i de foregående avsnittene, er Bitcoin-mynter i hoveds
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 ### Penger: autentisitet, integritet og dobbeltforbruk
 
@@ -293,6 +301,8 @@ Men siden Bitcoin-transaksjoner offentliggjøres, er det likevel mulig å etable
 ## Hva er Bitcoin-kjedeanalyse?
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
+
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
 
 
 ### Definisjon og drift
@@ -372,6 +382,8 @@ Vi skal se hva de er i de neste kapitlene, men allerede nå er det interessant �
 ## Transaksjonsmønstre
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 Et transaksjonsmønster er ganske enkelt en overordnet modell eller struktur for en typisk transaksjon som finnes i blokkjeden, og som man vet hvordan kan tolkes. Når vi studerer mønstre, fokuserer vi på én enkelt transaksjon og analyserer den på et høyt nivå.
@@ -504,6 +516,8 @@ Takket være disse transaksjonsmønstrene kan vi allerede tolke en viss mengde i
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 En intern heuristikk er en spesifikk egenskap som vi identifiserer i selve transaksjonen, uten at vi trenger å undersøke omgivelsene, og som gjør det mulig for oss å trekke slutninger. I motsetning til mønstre, som fokuserer på den overordnede strukturen i transaksjonen på et overordnet nivå, er interne heuristikker basert på et sett med data som kan hentes ut. Dette inkluderer
 
@@ -613,6 +627,8 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 ## Ekstern heuristikk
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 Studiet av eksterne heuristikker innebærer å analysere likheter, mønstre og egenskaper ved visse elementer som ikke er spesifikke for selve transaksjonen. Med andre ord: Mens vi tidligere begrenset oss til å utnytte elementer som var iboende i transaksjonen med interne heuristikker, utvider vi nå analysefeltet til å omfatte transaksjonens omgivelser, takket være eksterne heuristikker.
@@ -1033,6 +1049,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 Etter å ha studert teknikkene som kan bryte konfidensialiteten din på Bitcoin, vil vi i denne tredje delen nå se på de beste fremgangsmåtene du kan ta i bruk for å beskytte deg selv. Målet med denne delen er ikke å utforske metoder for å forbedre konfidensialiteten, et emne som vil bli behandlet senere, men heller å forstå hvordan man kan samhandle riktig med Bitcoin for å beholde den konfidensialiteten den naturlig tilbyr, uten å ty til ytterligere teknikker.
 
@@ -1169,6 +1187,8 @@ Hvis du trenger en statisk identifikator for å motta betalinger, for eksempel d
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 Som vi oppdaget i avsnittet om strenganalyse, finnes det en rekke heuristikker og mønstre som kan brukes til å utlede informasjon om en transaksjon. Som bruker er det viktig å være klar over disse teknikkene for å kunne beskytte seg bedre mot dem.
 
@@ -1276,6 +1296,8 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
+
 
 KYC står for "Know Your Customer". Det er en regulatorisk prosedyre som implementeres av visse selskaper som opererer i Bitcoin-sektoren. Formålet med denne prosedyren er å verifisere og registrere identiteten til kundene deres, med det uttalte målet å bekjempe hvitvasking av penger og finansiering av terrorisme.
 
@@ -1376,6 +1398,8 @@ Når bitcoins byttes mot andre eiendeler, enten det er et kjøp i statlig valuta
 ## Salgs- og anskaffelsesmetoder
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
+
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
 
 
 Etter å ha lest forrige kapittel lurer du kanskje på hvordan du kan kjøpe eller selge bitcoin uten å måtte gjennomgå en identitetsverifisering, for å unngå risikoen forbundet med KYC. Det finnes flere måter å handle bitcoin på.
@@ -1500,6 +1524,8 @@ En annen metode er å jobbe i bytte mot bitcoins. Denne anskaffelsesmetoden kan 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
+
 
 Et av de mest kompliserte aspektene ved å drive en portefølje med egen forvaltning er konsolidering. Bør du konsolidere? Hva er poenget? Hvor stor UTXO bør man respektere? Hva er kompromissene når det gjelder konfidensialitet? Det er dette vi skal se nærmere på i denne delen.
 
@@ -1584,6 +1610,8 @@ Uansett må du ikke glemme at enhver konsolidering uunngåelig medfører tap av 
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 La oss ta en titt på noen andre beste fremgangsmåter for å optimalisere personvernet ditt på Bitcoin.
 
@@ -1639,6 +1667,8 @@ I tillegg til alle disse gode praksisene som skal tas i bruk på daglig basis, f
 ## Hva er en coinjoin-transaksjon?
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 Etter å ha studert det grunnleggende om personvern, skal vi nå se på mer sofistikerte teknikker som tar sikte på å aktivt forsvare konfidensialiteten din, spesielt ved å skille ut bitcoin-historikken din. I neste del skal vi se på en rekke små teknikker, men først vil jeg gjerne fortelle deg om coinjoin.
@@ -1737,6 +1767,8 @@ Dagens brukere foretrekker derfor coinjoin, ettersom det lar dem beholde full ko
 ## Zerolink og chaumian coinjoins
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 Privatlivet som en coinjoin gir, avhenger av størrelsen på gruppen som brikken vår er gjemt i. Det betyr at vi må finne så mange deltakere som mulig. Det er fullt mulig å opprette en coinjoin manuelt, med brukere vi har funnet selv, men dette er en kompleks prosess, og vil ikke gi deg noen store anonsett.
@@ -1853,6 +1885,8 @@ Whirlpool er for øyeblikket den eneste coinjoin-implementeringen som følger Ze
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 *I 2024 er vi vitne til store endringer i verktøyene som er tilgjengelige for brukere som ønsker å gjøre coinjoins på Bitcoin. Vi er nå ved et vendepunkt, og coinjoin-markedet gjennomgår store omstruktureringer. Dette kapittelet vil helt sikkert bli oppdatert over tid.*
 
@@ -1933,6 +1967,8 @@ Som du sikkert har forstått nå, foretrekker jeg definitivt Whirlpool-modellen 
 ## Hvordan Whirlpool fungerer
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 Det som skiller Whirlpool fra andre coinjoin-metoder, er bruken av "_ZeroLink_"-transaksjoner, som sikrer at det strengt tatt ikke er noen mulig teknisk kobling mellom alle innganger og utganger. Denne perfekte miksen oppnås gjennom en struktur der hver deltaker bidrar med en identisk mengde input (med unntak av gruveavgifter), noe som genererer output av helt like mengder.
@@ -2168,6 +2204,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
+
 
 Etter å ha studert hvordan coinjoins fungerer og hva som skal til for å oppnå effektiv miksing, skal vi nå finne ut hvordan vi kan måle effektiviteten. Hvordan kan vi avgjøre om en coinjoining-prosess har vært effektiv, og hvilken grad av anonymitet en del har oppnådd? Det skal vi finne ut av i dette kapittelet ved hjelp av anonymitetssett eller "anonsett".
 
@@ -2242,6 +2280,8 @@ Som vi har sett i dette kapittelet, kan anonsets bare beregnes hvis det er en vi
 ## Entropi
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 Som vi har sett i denne delen om coinjoins, spiller homogeniteten til UTXO-er i input og output en viktig rolle i å forbedre konfidensialiteten til en Bitcoin-transaksjon. Denne parameteren skaper en plausibel benektbarhet i møte med blokkjedeanalyse. Flere metoder kan brukes til å måle denne homogeniteten, men en av de mest effektive, etter min mening, er bruken av indikatorene som tilbys av * Boltzmann * -verktøyet, utviklet av OXT- og Samourai Wallet-teamene, og spesielt entropien til transaksjonen. Det er dette vi skal se nærmere på i dette kapittelet.
@@ -2504,6 +2544,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
+
 
 Coinjoin er per i dag den mest effektive metoden for å innføre usikkerhet i sporingen av deler i en kjedeanalyse. Som vi har sett i tidligere kapitler, må inn- og utdata være så homogene som mulig for å oppnå en miks med høy ytelse. I tillegg er det viktig at delene integreres i en så stor gruppe som mulig for å maksimere anonsettene. For at sammenføyninger skal være effektive, må de involvere et stort antall ensartede deler. Dette mangfoldet av krav betyr at coinjoin-transaksjoner har en svært rigid struktur: Beløpene er fastsatt på forhånd, og alle deltakerne må forholde seg til dem for å garantere ensartethet i prosessen. I tillegg krever coinjoins synkronisering mellom alle deltakerne og koordinatoren under transaksjonskonstruksjonen.
 
@@ -2593,6 +2635,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 ## Betaling mini-coinjoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 Når du ønsker å gjennomføre en betalingstransaksjon med en viss grad av konfidensialitet, er payjoin et godt alternativ. Men som vi nettopp har sett, krever payjoin at mottakeren er involvert. Så hva gjør du hvis mottakeren nekter å delta i en payjoin, eller hvis du rett og slett foretrekker å ikke involvere dem? Et alternativ er å bruke en Stonewall- eller Stonewall x2-transaksjon. La oss se nærmere på disse to transaksjonstypene.
@@ -2717,6 +2761,8 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
+
 
 Bruken av Bitcoin-transaksjonsstrukturer som gjør kjedeanalysen mer tvetydig, for eksempel coinjoin, er spesielt fordelaktig for å beskytte personvernet. Som vi diskuterte i kapittelet om payjoins, er imidlertid coinjoin-transaksjoner naturlig nok identifiserbare i kjeden. Husk analogien vi trakk mellom kryptering og coinjoin: Når en fil er kryptert, kan en tredjepart som oppdager den krypterte filen, ikke få tilgang til innholdet, men kan tydelig identifisere at filen har blitt endret for å skjule innholdet. Det samme gjelder coinjoin: Når en analytiker undersøker en coinjoin-transaksjon, kan han eller hun, selv om han eller hun ikke kan etablere direkte koblinger mellom inndata og utdata (og vice versa), likevel gjenkjenne at den observerte transaksjonen er en coinjoin.
 
@@ -2789,6 +2835,8 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 ## Hemmelige eierskapsoverdragelser
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 En annen av Bitcoins konfidensialitetsteknikker er hemmelig overføring av eierskap. Denne metoden tar sikte på å overføre eierskap av Bitcoins fra en person til en annen, og omvendt, uten at transaksjonen er eksplisitt synlig på blokkjeden. La oss ta en titt på de ulike teknikkene som er tilgjengelige, sammen med fordeler og ulemper.
@@ -2912,6 +2960,8 @@ Hittil har vi hovedsakelig studert konfidensialitetsmetoder på selve transaksjo
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 I del 4 diskuterte vi viktigheten av å bruke en komplett node for å beskytte konfidensialiteten til transaksjonene dine. Det er imidlertid viktig å være klar over at noden i seg selv kan bli utsatt for angrep som forsøker å hente ut informasjon om aktivitetene dine. I dette kapittelet skal vi derfor se på de ulike tiltakene du kan iverksette for å beskytte personvernet ditt, ikke på transaksjonsnivå eller i selve bitcoinflyten, men på nettverksnivå.
 
@@ -2988,6 +3038,8 @@ Etter å ha utforsket de ulike metodene for konfidensialitet på nettverksnivå,
 ## BIP47 og gjenbrukbare betalingskoder
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
+
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
 
 
 Som vi så i del 3, er gjenbruk av adresser et alvorlig hinder for brukernes konfidensialitet i Bitcoin-protokollen. For å redusere denne risikoen anbefales det på det sterkeste å generere en tom mottakeradresse for hver nye betaling som mottas i en lommebok. Selv om det nå er enklere å generere en ny adresse ved bruk av moderne programvare og hierarkiske, deterministiske lommebøker, kan denne praksisen virke kontraintuitiv.
@@ -3814,6 +3866,8 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 ## Stille betalinger
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 BIP47 har fått mye kritikk for sin ineffektivitet i kjeden. Som forklart i forrige kapittel, krever det en varslingstransaksjon for hver nye mottaker. Denne begrensningen blir ubetydelig hvis vi planlegger å etablere en bærekraftig betalingskanal med denne mottakeren. En enkelt varslingstransaksjon baner nemlig vei for et nesten uendelig antall påfølgende BIP47 -betalinger.

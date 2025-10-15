@@ -1,0 +1,8 @@
+question: What is the main reason why the actual circulating supply of Bitcoin will be significantly lower than the theoretical maximum of approximately 21 million BTC?
+answer: Lost private keys, wallet theft, and coins sent to wrong addresses permanently remove bitcoins from circulation
+wrong_answers:
+  - Mining difficulty adjustments automatically reduce the total supply to maintain scarcity over time
+  - Transaction fees are burned during processing, gradually decreasing the available bitcoin supply
+  - "The Bitcoin protocol automatically locks coins that haven't moved for extended periods to prevent inflation"
+explanation: |
+  The chapter explains that while the theoretical maximum is about 20,999,817 BTC, the actual usable supply is much lower due to human error and loss. Lost private keys make bitcoins permanently inaccessible, wallets get stolen or forgotten, and coins are sometimes sent to invalid addresses. These factors create permanent supply reduction that benefits remaining holders, as Satoshi noted that lost coins make everyone else's coins worth more.

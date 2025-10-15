@@ -17,7 +17,7 @@ objectives:
 W tym kursie wyjaśnimy podstawy Bitcoin w 25 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Kurs omawia podstawy całej branży, w tym tematy takie jak Mining, portfele, platformy kupna/sprzedaży i inne. Dodatkowe materiały edukacyjne będą dostępne przez cały czas trwania kursu, a po jego ukończeniu zapraszamy również do zapoznania się z "21 plakatami" w sekcji zasobów.
 
 
-Nie potrzebujesz żadnej konkretnej wiedzy, aby rozpocząć. W rzeczywistości poniższe treści są dostępne dla studentów na wszystkich poziomach, a ich ukończenie powinno zająć około 15 godzin.
+Nie jest wymagana żadna wcześniejsza wiedza, aby rozpocząć ten kurs. BTC 101 został zaprojektowany tak, aby był dostępny dla wszystkich, niezależnie od poziomu doświadczenia.
 
 
 +++

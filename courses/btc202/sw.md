@@ -21,7 +21,7 @@ Labda unajua msemo "Sio funguo zako, sio sarafu zako", ambayo inahimiza uhifadhi
 
 
 
-BTC 202 ni kozi inayoweza kufikiwa iliyoundwa ili kukufundisha jinsi ya kusokota fundo lako mwenyewe la Bitcoin, hata kama wewe si mtaalamu wa kiufundi. Tutaanza kwa kufafanua fundo la Bitcoin ni nini, ni la nini, na kwa nini ni muhimu kabisa kusokota moja mwenyewe. Kisha nitakuongoza hatua kwa hatua kupitia kuchagua maunzi yako, kusakinisha programu muhimu, kuunganisha Wallet yako, na kufanya uboreshaji wa kwanza unaowezekana ili kuipeleka zaidi.
+BTC 202 ni mafunzo rahisi yaliyoundwa kukufundisha jinsi ya kuendesha nodi yako ya Bitcoin, hata kama wewe si mtaalamu wa kiufundi. Tutaanza kwa kufafanua nodi ya Bitcoin ni nini, inafanya kazi gani, na kwa nini ni muhimu sana kuiendesha wewe mwenyewe. Kisha nitakuongoza hatua kwa hatua katika kuchagua vifaa vyako, kusakinisha programu muhimu, kuunganisha programu ya pochi yako, na kufanya uboreshaji wa awali ili kuendelea mbele.
 
 
 
@@ -481,7 +481,7 @@ Kama tutakavyojadili baadaye katika kozi hii, ni nodi, kulingana na uzito wao wa
 
 
 
-## Kwa nini uzungushe fundo lako mwenyewe?
+## Kwa nini kuendesha nodi yako mwenyewe?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Kuna imani iliyoenea kwamba kuendesha nodi ya Bitcoin ni tendo la kujitolea, bil
 
 
 
-Hakika, kama tulivyoonyesha katika sura zilizopita, hakuna faida ya moja kwa moja ya kifedha katika kusokota fundo. Kwa hiyo mtu anaweza kufikiri kwamba hakuna maslahi ya kibinafsi katika kufanya hivyo. Bado kuendesha nodi yako mwenyewe huleta faida nyingi za mtu binafsi. Ili kukushawishi kwa hili, nitawasilisha katika sura hii sababu zote, za kiufundi na za kimkakati, kwa nini unapaswa kusakinisha na kutumia nodi yako ya Bitcoin.
+Kama tulivyoangazia katika sura zilizopita, kuendesha nodi hakuletei faida ya moja kwa moja ya kifedha. Kwa hivyo mtu anaweza kufikiri kuwa hakuna faida binafsi ya kufanya hivyo. Hata hivyo, kuendesha nodi yako mwenyewe kunaleta manufaa mengi binafsi. Ili kukushawishi, katika sura hii nitawasilisha sababu zote, za kiufundi na za kimkakati, ambazo zinapaswa kukutia moyo kusakinisha na kutumia nodi yako ya Bitcoin.
 
 
 
@@ -576,7 +576,7 @@ Kufunga Full node sio operesheni ndogo. Inajumuisha kufunga programu, kuelewa ue
 
 
 
-Kupata maarifa haya huimarisha imani yako katika zana na kunaweza kupunguza hatari ya makosa au kufichuliwa kwa ulaghai. Kusokota fundo lako mwenyewe pia ni njia ya kujifunza.
+Kupata maarifa haya huongeza imani yako katika chombo na inaweza kupunguza hatari ya makosa au kudanganywa. Kuendesha nodi yako mwenyewe pia ni kujifunza.
 
 
 
@@ -692,7 +692,7 @@ Kwa hivyo sio idadi ya nodi muhimu, lakini umuhimu wa shughuli za kiuchumi wanaz
 
 
 
-> Sio fundo lako, sio sheria zako.
+> Sio nodi yako, sio sheria zako.
 
 
 ## Aina tofauti za nodi za Bitcoin
@@ -706,7 +706,7 @@ Kwa hivyo, nodi ya Bitcoin ni mashine inayoendesha utekelezaji wa itifaki ya Bit
 
 
 
-### Fundo kamili
+### Nodi kamili
 
 
 
@@ -730,7 +730,7 @@ Kulingana na mahitaji yako, unaweza kuongeza kiashiria kwenye Full node yako. Bi
 
 
 
-### Sehemu ya pruned
+### Nodi iliyopunguzwa
 
 
 
@@ -754,7 +754,7 @@ Kwa kifupi, ufuatiliaji wa Wallet hufanya kazi bila hitch kwenye nodi ya pruned 
 
 
 
-### Fundo nyepesi / SPV
+### Nodi nyepesi / SPV
 
 
 
@@ -849,7 +849,7 @@ Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea
 
 
 
-#### Bitcoin core (mteja aliye wengi zaidi)
+#### Bitcoin Core (mteja mkuu kabisa)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (mteja mkuu mbadala)
+#### Bitcoin Knots (mteja mbadala mkuu)
 
 
 
@@ -2590,7 +2590,7 @@ Wateja wa Nostr ***noStrudel*** au ***Snort*** wanapatikana pia kwenye Umbrel. S
 
 
 
-Hatimaye, kuna programu ya ***Nostr Wallet Connect*** kwenye Umbrel, ambayo huwezesha malipo asilia ya Umeme katika Nostr. Kwa maneno madhubuti, unaweza kuunganisha nodi yako ya baadaye ya Umeme kwa wateja wako wa Nostr ili kutuma malipo madogo, yanayoitwa "*zaps*", ili kutuza maudhui au kuingiliana kwa njia ya uchumaji, bila kuhitaji kupitia huduma ya mtu mwingine. Malipo haya yanatumwa moja kwa moja kutoka kwa nodi yako ya kibinafsi kupitia chaneli zako.
+Mwishowe, kuna programu ***Nostr Wallet Connect*** kwenye Umbrel, ambayo inaruhusu malipo ya asili ya Lightning ndani ya Nostr. Kimsingi, unaweza kuunganisha nodi yako ya Lightning ya baadaye kwa wateja wako wa Nostr ili kutuma malipo madogo, yanayoitwa "*zaps*", ili kulipa kwa maudhui au kushirikiana kwa njia ya kifedha bila kutumia huduma ya mtu wa tatu. Malipo haya hutoka moja kwa moja kutoka kwa nodi yako binafsi kupitia njia zako.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Kudumisha fundo lako la Mwavuli
+## Kudumisha nodi yako ya Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Ikiwa nodi yako inasikiza kwenye mlango wazi (kwa chaguo-msingi, 8333), inakubal
 
 
 
-## Anatomia ya fundo lako la Bitcoin
+## Maumbile ya nodi yako ya Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

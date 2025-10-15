@@ -138,7 +138,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/hi/001.webp)
 
 
 
@@ -152,7 +152,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/hi/002.webp)
 
 
 
@@ -166,7 +166,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/hi/003.webp)
 
 
 
@@ -180,7 +180,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/hi/004.webp)
 
 
 
@@ -197,7 +197,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/hi/005.webp)
 
 
 
@@ -263,7 +263,7 @@ ___
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/hi/006.webp)
 
 
 
@@ -390,7 +390,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/hi/007.webp)
 
 
 
@@ -431,7 +431,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/hi/008.webp)
 
 
 
@@ -442,7 +442,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/hi/009.webp)
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/hi/010.webp)
 
 
 
@@ -507,7 +507,7 @@ IP Address के दो भाग हैं:
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/hi/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Address के उपयोग को अनुकूलित करने औ�
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/hi/012.webp)
 
 
 
@@ -680,7 +680,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/hi/013.webp)
 
 
 
@@ -688,7 +688,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/hi/014.webp)
 
 
 
@@ -711,7 +711,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/hi/015.webp)
 
 
 
@@ -734,7 +734,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/hi/016.webp)
 
 
 
@@ -751,7 +751,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/hi/017.webp)
 
 
 
@@ -791,7 +791,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/hi/018.webp)
 
 
 
@@ -800,7 +800,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/hi/019.webp)
 
 
 
@@ -836,7 +836,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/hi/020.webp)
 
 
 
@@ -896,7 +896,7 @@ IP Address एक विशिष्ट संख्यात्मक पहच
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/hi/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - MAC Address का दृश्य उदाहरण:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/hi/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - IP Address का दृश्य उदाहरण:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/hi/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ IPv4 की कमी को दूर करने के अलावा, NAT 
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/hi/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _यह समझने के लिए कि व्यवहार में 
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/hi/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/hi/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ IPv4 के विपरीत, इसमें कोई प्रसारण 
 यहां एक उदाहरण दिया गया है कि MAC Address को EUI-64 में कैसे परिवर्तित किया जाए:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/hi/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ IPv6 पैकेट प्रारूप, IPv4 से सरल और अध�
 यह हेडर, यदि मौजूद हो, तो हमेशा बेस हेडर के ठीक बाद रखा जाता है। इसमें वह जानकारी होती है जिसे पैकेट के पथ पर प्रत्येक राउटर द्वारा संसाधित किया जाना आवश्यक होता है, जबकि अधिकांश अन्य हेडर आमतौर पर केवल गंतव्य नोड द्वारा ही संसाधित किए जाते हैं। इसके विशिष्ट उपयोगों में वैश्विक मापदंडों का संकेत देना या पैकेट के नेटवर्क से गुजरते समय विशिष्ट प्रसंस्करण चरणों का अनुरोध करना शामिल है।
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/hi/028.webp)
 
 
 #### रूटिंग हेडर
@@ -2117,7 +2117,7 @@ IPv6 पैकेट प्रारूप, IPv4 से सरल और अध�
 "सेगमेंट बचे" फ़ील्ड शेष बचे कुल सेगमेंट की संख्या से शुरू होती है और प्रत्येक हॉप पर एक से घट जाती है।
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/hi/029.webp)
 
 
 #### विखंडन शीर्षक
@@ -2134,7 +2134,7 @@ IPv6 में, केवल स्रोत होस्ट को ही ड�
 - **एम ध्वज**: यह इंगित करता है कि क्या और टुकड़े आने वाले हैं।
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/hi/030.webp)
 
 
 #### प्रमाणीकरण हेडर (AH)
@@ -2146,7 +2146,7 @@ IPv6 में, केवल स्रोत होस्ट को ही ड�
 धोखाधड़ीपूर्ण संशोधन के प्रयास की स्थिति में, प्रमाणीकरण कोड मेल नहीं खाएगा और डेटाग्राम को अस्वीकार किया जा सकता है। यह तंत्र अनधिकृत दोहराव का पता लगाकर रीप्ले हमलों से भी सुरक्षा प्रदान करता है।
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/hi/031.webp)
 
 
 #### गंतव्य विकल्प शीर्षलेख
@@ -2158,7 +2158,7 @@ IPv6 में, केवल स्रोत होस्ट को ही ड�
 प्रारंभ में, प्रोटोकॉल में ऐसा कोई विकल्प परिभाषित नहीं था। हालाँकि, IPv6 के डिज़ाइन के समय इस हेडर को शामिल किया गया था, ताकि भविष्य में समग्र पैकेट संरचना में बदलाव किए बिना एक्सटेंशन जोड़े जा सकें। उदाहरण के लिए, शून्य विकल्प का उपयोग केवल मेमोरी संरेखण उद्देश्यों के लिए हेडर को 8 बाइट्स के गुणज तक बढ़ाने के लिए किया जाता है।
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/hi/032.webp)
 
 
 IPv6 पैकेट डिज़ाइन न्यूनतम बेस हेडर और मॉड्यूलर एक्सटेंशन हेडर के बीच स्पष्ट पृथक्करण पर आधारित है। यह आर्किटेक्चर मानक प्रोसेसिंग प्रदर्शन और प्रोटोकॉल को विकसित करने, सुरक्षा, जटिल रूटिंग या सेवा-गुणवत्ता तंत्रों को एकीकृत करने के लिए आवश्यक लचीलेपन, दोनों को सुनिश्चित करता है, साथ ही भविष्य के बुनियादी ढाँचों के साथ संगतता बनाए रखता है।
@@ -2504,7 +2504,7 @@ tcpdump -w fichier.cap -i eth0 -s 0 -n port 80 and host 192.168.25.24
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/hi/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/hi/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/hi/035.webp)
 
 
 

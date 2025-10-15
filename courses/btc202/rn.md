@@ -21,7 +21,7 @@ Kumbure urazi neza imvugo ngo "Si imfunguruzo zawe, si ibiceri vyawe", iremesha 
 
 
 
-BTC 202 ni inyigisho ishoboka yagenewe kukwigisha ingene wozunguruka urudodo rwawe rwa Bitcoin, naho woba utari umuhinga mu vy’ubuhinga. Tuzotangura dusobanura ico urudodo rwa Bitcoin ari co, ico rukoreshwa, n’igituma ari ngombwa cane ko wizunguruka. Nzoca ndakuyobora intambwe ku yindi mu guhitamwo ibikoresho vyawe, gushiramwo porogarama zikenewe, gufatanya Wallet yawe, no gukora ivyiza vya mbere bishoboka kugira ngo uyishire kure.
+BTC 202 ni inyigisho iboneka neza yagenewe kukwigisha uburyo bwo gutangiza node yawe ya Bitcoin, n’iyo utaba umutekinisiye w’inzobere. Tuzatangira dusobanura icyo node ya Bitcoin ari cyo, icyo ikora, n’icyo ari cyo kugira ngo uyikoreshe wenyine. Hanyuma nzagufasha intambwe ku yindi mu guhitamo ibikoresho byawe, kwishyiriraho software zikenewe, guhuza software ya wallet yawe no gukora amwe mu mavugurura ya mbere ashoboka kugira ngo ugere kure.
 
 
 
@@ -481,7 +481,7 @@ Nk’uko tuzobivuga mu nyuma muri iki cigwa, ni izo nzira, hakurikijwe uburemere
 
 
 
-## Ni kuki wogobeka urudodo rwawe bwite?
+## Kuki watangiza node yawe bwite?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Hariho ivyiyumviro vyinshi vy'uko gukoresha uruzitiro rwa Bitcoin ari igikorwa c
 
 
 
-Nkako, nk’uko twabibonye mu bigabane vyabanje, nta nyungu y’amahera itaziguye iboneka mu gutera urudodo. Umuntu yoshobora rero kwiyumvira yuko ata nyungu y’umuntu ku giti ciwe iri mu kubigira. Yamara rero gukoresha node yawe bwite birazana inyungu nyinshi ku muntu ku giti ciwe. Kugira ngo ivyo ndavyemeze, ngiye kubashikiriza muri iki gice imvo zose, zo mu vy’ubuhinga no mu buryo bw’ingene wozikora, zituma ukwiye gushiramwo no gukoresha node yawe bwite ya Bitcoin.
+Nk’uko twabigarutseho mu masomo ashize, gutangiza node ntibitanga inyungu y’amafaranga ako kanya. Bityo ushobora gutekereza ko nta nyungu bwite ibirimo. Ariko rero, gukoresha node yawe bwite bitanga inyungu nyinshi ku giti cyawe. Kugira ngo ubifate nk’ibikwiye, muri iki gice nderekana impamvu zose, haba iza tekiniki n’iz’ingamba, zigomba kugushishikariza kwishyiriraho no gukoresha node yawe ya Bitcoin.
 
 
 
@@ -576,7 +576,7 @@ Gushiramwo Full node si igikorwa c’ubusa. Birimwo gushiramwo porogarama, gutah
 
 
 
-Kuronka ubwo bumenyi biratuma urushiriza kwizigira ico gikoresho kandi birashobora kugabanya ingorane zo gukora amakosa canke gushikirwa n’ibinyoma. Guzunguruka urudodo rwawe bwite na vyo nyene ni uburyo bwo kwiga.
+Kumenya ibi biguha icyizere mu gikoresho kandi bishobora kugabanya ibyago byo gukora amakosa cyangwa guhura n’uburiganya. Gutangiza node yawe bwite nabyo ni ukwiga.
 
 
 
@@ -692,7 +692,7 @@ Rero si umubare w’ibihimba vy’umubiri bihambaye, ahubwo ni akamaro k’igiko
 
 
 
-> Si ipfundo ryawe, si amategeko yawe.
+> Si node atari iyawe, amategeko si ayawe.
 
 
 ## Ubwoko butandukanye bw'ibihimba vya Bitcoin
@@ -706,7 +706,7 @@ Igikoresho ca Bitcoin ni rero imashini ikoresha ugushirwa mu ngiro kw’itegeko 
 
 
 
-### Ipfundo ryose
+### Node yuzuye
 
 
 
@@ -730,7 +730,7 @@ Bivanye n'ivyo ukeneye, urashobora kwongerako indexer kuri Full node yawe. Bitco
 
 
 
-### Ipfundo rya pruned
+### Node yagabanyijwe
 
 
 
@@ -754,7 +754,7 @@ Muri make, gukurikirana Wallet birakora ataco bigutera ku nzira ya pruned iyo ur
 
 
 
-### Ipfundo ry'umuco / SPV
+### Node yoroshye / SPV
 
 
 
@@ -849,7 +849,7 @@ Ubu ni bwo buryo bufise ubusegaba kandi bushobora guhinduka: urazi neza ibiriko 
 
 
 
-#### Bitcoin core (umukiriya mwinshi cane)
+#### Bitcoin Core (umukiriya ukomeye cyane)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (umukiriya nyamukuru)
+#### Bitcoin Knots (umukiriya w'inyongera nyamukuru)
 
 
 
@@ -2590,7 +2590,7 @@ Abaguzi ba Nostr ***noStrudel*** canke ***Snort*** na bo nyene baraboneka ku Mut
 
 
 
-Ubwa nyuma, hariho ***Nostr Wallet Connect*** app kuri Umbrel, ishobora gutuma umuntu ashobora kwishura amahera y’umuravyo mu rurimi rwa Nostr. Mu majambo nyayo, urashobora guhuza urudodo rwawe rwa Lightning rwo muri kazoza n'abaguzi bawe ba Nostr kugira ngo wohereze amafaranga make, yitwa "*zaps*", kugira ngo uhe impera ibirimwo canke ukorane mu buryo bufise amahera, udakeneye guca mu nzira y'uwundi muntu. Ivyo vyishyurwa birungikwa bivuye ku nzira yawe bwite biciye ku mihora yawe.
+Mu mpera, hari porogaramu yitwa ***Nostr Wallet Connect*** kuri Umbrel, igufasha gukora ubwishyu bwa Lightning muri Nostr. Mu buryo bweruye, ushobora guhuza node yawe ya Lightning n’abakiriya ba Nostr kugira ngo wohereze ubwishyu buto buto buzwi nka "*zaps*" mu rwego rwo guhemba ibikubiyeho cyangwa kugirana imikoranire ishingiye ku mafaranga, utanyuze muri serivisi z’abandi. Aya mafaranga ava muri node yawe bwite anyura mu mikoranire yawe.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Kubungabunga urudodo rwawe rw'umutaka
+## Kubungabunga node yawe ya Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Niba node yawe iriko iratega yompi ku port yuguruye (ku mburabuzi, 8333), yemera
 
 
 
-## Ubuhinga bw'umubiri w'urudodo rwawe rwa Bitcoin
+## Imiterere ya node yawe ya Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

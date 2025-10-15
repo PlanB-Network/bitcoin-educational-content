@@ -46,24 +46,24 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.98
+    reward: 21.99
   - language: de
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - reneplass
-    reward: 8.25
+    reward: 8.26
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Ncfab
-    reward: 8.25
+    reward: 8.26
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.51
+    reward: 16.52
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
@@ -89,18 +89,18 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 16.46
+    reward: 16.47
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.51
+    reward: 16.52
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 10.98
+    reward: 10.99
   - language: vi
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -120,18 +120,18 @@ proofreading:
     contributor_names:
       - AraleB
       - bitcoinindo21
-    reward: 6.86
+    reward: 6.87
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 13.72
+    reward: 13.73
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.98
+    reward: 21.99
   - language: pl
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -143,26 +143,26 @@ proofreading:
     urgency: 1
     contributor_names:
       - e-manuel7
-    reward: 19.19
+    reward: 19.2
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 10.98
+    reward: 10.99
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
       - Arianebtc
-    reward: 5.49
+    reward: 5.5
   - language: zh-Hant
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Showyuan
-    reward: 13.72
+    reward: 13.73
   - language: fa
     last_contribution_date: 2025-05-24
     urgency: 1
@@ -174,7 +174,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Petrahodl
-    reward: 8.25
+    reward: 8.26
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
@@ -185,17 +185,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.43
+    reward: 27.46
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.97
+    reward: 21.99
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.9
+    reward: 32.93
 tags:
   - user-friendly
   - wallets

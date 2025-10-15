@@ -1,22 +1,17 @@
 ---
-name: Einführung in die formale Kryptographie
+name: Grundlagen der modernen Kryptographie
 goal: Eine tiefgehende Einführung in die Wissenschaft und Praxis der Kryptographie.
 objectives:
-
-  - Erforschen Sie Beale-Chiffren und moderne kryptografische Methoden, um grundlegende und historische Konzepte der Kryptografie zu verstehen.
-  - Vertiefen Sie sich in die Zahlentheorie, Gruppen und Felder, um die wichtigsten mathematischen Konzepte der Kryptographie zu beherrschen.
-  - Studieren Sie die RC4-Stromchiffre und AES mit einem 128-Bit-Schlüssel, um mehr über symmetrische kryptografische Algorithmen zu erfahren.
-  - Untersuchen Sie das RSA-Kryptosystem, die Schlüsselverteilung und Hash-Funktionen, um die asymmetrische Kryptographie zu erkunden.
-
+- Erforschen Sie Beale-Chiffren und moderne kryptografische Methoden, um grundlegende und historische Konzepte der Kryptografie zu verstehen.
+- Vertiefen Sie sich in die Zahlentheorie, Gruppen und Felder, um die wichtigsten mathematischen Konzepte der Kryptographie zu beherrschen.
+- Studieren Sie die RC4-Stromchiffre und AES mit einem 128-Bit-Schlüssel, um mehr über symmetrische kryptografische Algorithmen zu erfahren.
+- Untersuchen Sie das RSA-Kryptosystem, die Schlüsselverteilung und Hash-Funktionen, um die asymmetrische Kryptographie zu erkunden.
 ---
-# Tiefes Eintauchen in die Kryptographie
+# Tiefgang in die moderne Kryptographie
 
-Es ist schwierig, viele Materialien zu finden, die einen guten Mittelweg im Kryptographieunterricht bieten.
+In diesem Kurs behandeln wir die Grundlagen der modernen Kryptographie auf klare und zugängliche Weise, ohne dass umfangreiche mathematische Vorkenntnisse erforderlich sind. In den einzelnen Kapiteln lernen Sie Kernkonzepte wie symmetrische und asymmetrische Verschlüsselung, Hash-Funktionen, digitale Signaturen, Schlüsselaustausch und praxisnahe Protokolle kennen. Dabei werden wir die Verbindungen zu praktischen Anwendungen wie sicherer Nachrichtenübermittlung, TLS, Passwortspeicherung und Authentifizierung herstellen.
 
-Auf der einen Seite gibt es lange, formale Abhandlungen, die wirklich nur für diejenigen zugänglich sind, die einen starken Hintergrund in Mathematik, Logik oder einer anderen formalen Disziplin haben. Andererseits gibt es sehr anspruchsvolle Einführungen, die wirklich zu viele Details für jeden verbergen, der auch nur ein bisschen neugierig ist.
-
-Diese Einführung in die Kryptographie versucht, einen Mittelweg zu finden. Während sie für jeden, der neu in die Kryptographie einsteigt, relativ anspruchsvoll und detailliert sein sollte, ist sie nicht das Kaninchenloch einer typischen grundlegenden Abhandlung.
-
+Das Material ist für Lernende aller Niveaus konzipiert und balanciert Intuition mit gerade genug technischer Tiefe, um die Neugier zu befriedigen. Erwarten Sie eine fokussierte, fesselnde Reise. Am Ende werden Sie verstehen, wie und warum moderne Kryptographie funktioniert und wie man sie verantwortungsvoll einsetzt.
 +++
 # Einführung
 

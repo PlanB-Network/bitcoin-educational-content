@@ -1,4 +1,4 @@
-question: Chi ha avuto l'idea di creare una rete di test per evitare di danneggiare la rete principale di Bitcoin?
+question: Chi ha avuto l'idea di creare una rete di test per evitare di danneggiare il network principale di Bitcoin?
 answer: Gavin Andresen
 wrong_answers:
   - Satoshi Nakamoto

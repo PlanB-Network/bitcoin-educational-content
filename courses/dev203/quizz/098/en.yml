@@ -1,0 +1,8 @@
+question: What is the most significant technical benefit of using Cargo's built-in tools (cargo fmt and cargo clippy) during the development of a command-line number guessing game?
+answer: They establish professional code standards and catch potential issues before they become production problems while serving as automated code review mechanisms
+wrong_answers:
+  - "They automatically optimize the application's runtime performance and reduce memory consumption during number generation and user input processing"
+  - They provide real-time debugging capabilities and stack trace analysis specifically designed for command-line interface development patterns
+  - They enable automatic dependency management and library integration for third-party packages like colors and readline without manual configuration
+explanation: |
+  Cargo fmt and cargo clippy serve as essential quality assurance tools that maintain consistent code formatting and identify potential improvements through static analysis. While they don't directly optimize runtime performance, provide debugging capabilities, or manage dependencies, they establish professional development standards that prevent common mistakes and ensure code maintainability. This automated code review process is crucial for building reliable applications that can scale to more complex projects like blockchain development tools.

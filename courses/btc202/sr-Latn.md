@@ -21,7 +21,7 @@ Verovatno ste upoznati sa izrekom "Nisu tvoji ključevi, nisu tvoji novčići", 
 
 
 
-BTC 202 je pristupačan kurs osmišljen da vas nauči kako da sami ispletete svoj Bitcoin čvor, čak i ako niste tehnički stručnjak. Počećemo definisanjem šta je Bitcoin čvor, čemu služi i zašto je apsolutno neophodno da ga sami ispletete. Zatim ću vas korak po korak voditi kroz izbor hardvera, instalaciju potrebnog softvera, povezivanje vašeg Wallet i pravljenje prvih mogućih optimizacija kako biste ga unapredili.
+BTC 202 je pristupačna obuka osmišljena da vas nauči kako da pokrenete sopstveni Bitcoin čvor, čak i ako niste tehnički stručnjak. Počećemo definisanjem šta je Bitcoin čvor, čemu služi i zašto je apsolutno neophodno da ga sami pokrenete. Zatim ću vas korak po korak voditi kroz izbor hardvera, instalaciju potrebnog softvera, povezivanje vašeg wallet softvera i prve moguće optimizacije za dalji napredak.
 
 
 
@@ -481,7 +481,7 @@ Kao što ćemo kasnije diskutovati u ovom kursu, čvorovi, prema njihovoj ekonom
 
 
 
-## Zašto vezati svoj čvor?
+## Zašto pokrenuti sopstveni čvor?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Postoji široko rasprostranjeno verovanje da je upravljanje Bitcoin čvorom iskl
 
 
 
-Zaista, kao što smo istakli u prethodnim poglavljima, nema direktne finansijske dobiti u pletenju čvora. Stoga bi se moglo pomisliti da ne postoji lični interes za to. Ipak, vođenje sopstvenog čvora donosi mnoge individualne koristi. Da bih vas ubedio u to, u ovom poglavlju ću predstaviti sve razloge, kako tehničke tako i strateške, zašto bi trebalo da instalirate i koristite sopstveni Bitcoin čvor.
+Kao što smo istakli u prethodnim poglavljima, pokretanje čvora ne donosi direktnu finansijsku dobit. Moglo bi se, dakle, pomisliti da nema lične koristi u tome. Ipak, korišćenje sopstvenog čvora donosi brojne individualne prednosti. Da bih vas uverio u to, u ovom poglavlju ću predstaviti sve razloge, tehničke i strateške, koji bi trebalo da vas podstaknu da instalirate i koristite sopstveni Bitcoin čvor.
 
 
 
@@ -576,7 +576,7 @@ Instalacija Full node nije trivijalan zadatak. Uključuje instalaciju softvera, 
 
 
 
-Sticanje ovog znanja jača vaše poverenje u alat i može smanjiti rizik od greške ili izloženosti prevarama. Pravljenje sopstvenog čvora je takođe oblik učenja.
+Sticanje ovog znanja jača vaše poverenje u alat i može smanjiti rizik od grešaka ili izloženosti prevarama. Pokretanje sopstvenog čvora znači i učenje.
 
 
 
@@ -706,7 +706,7 @@ Dakle, nije važan broj čvorova, već važnost ekonomske aktivnosti koju podrž
 
 
 
-### Kompletan čvor
+### Potpuni čvor
 
 
 
@@ -730,7 +730,7 @@ U zavisnosti od vaših potreba, možete dodati indeksator na vaš Full node. Bit
 
 
 
-### pruned čvor
+### Orezani čvor
 
 
 
@@ -754,7 +754,7 @@ Ukratko, praćenje Wallet funkcioniše bez problema na pruned čvoru ako kreirat
 
 
 
-### The light knot / SPV
+### Laki čvor / SPV
 
 
 
@@ -849,7 +849,7 @@ Ovo je najviše suvereni i fleksibilni pristup: tačno znate šta se pokreće, g
 
 
 
-#### Bitcoin core (ultra-većinska mušterija)
+#### Bitcoin Core (dominantni klijent)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (glavni alternativni kupac)
+#### Bitcoin Knots (glavni alternativni klijent)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr klijenti ***noStrudel*** ili ***Snort*** su takođe dostupni na Umbrel-u. 
 
 
 
-Konačno, tu je aplikacija ***Nostr Wallet Connect*** na Umbrel-u, koja omogućava nativna Lightning plaćanja u Nostr-u. Konkretno, možete povezati vaš budući Lightning čvor sa vašim Nostr korisnicima kako biste slali mikro-plaćanja, nazvana "*zaps*", za nagrađivanje sadržaja ili interakciju na monetizovan način, bez potrebe za korišćenjem usluga treće strane. Ova plaćanja se šalju direktno sa vašeg ličnog čvora putem vaših kanala.
+Na kraju, postoji aplikacija ***Nostr Wallet Connect*** na Umbrel-u, koja omogućava obavljanje izvornih Lightning plaćanja unutar Nostra. Konkretno, možete povezati svoj budući Lightning čvor sa Nostr klijentima kako biste slali mikroplaćanja, nazvana "*zaps*", da nagradite sadržaj ili da ostvarite monetizovanu interakciju, bez korišćenja usluga trećih strana. Ove uplate idu direktno sa vašeg ličnog čvora preko vaših kanala.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Održavanje vašeg Umbrel čvora
+## Održavanje svog Umbrel čvora
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Ako vaš čvor sluša na otvorenom portu (po defaultu, 8333), prihvata dolazne v
 
 
 
-## Anatomija vašeg Bitcoin čvora
+## Anatomija tvog Bitcoin čvora
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

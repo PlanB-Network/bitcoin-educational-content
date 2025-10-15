@@ -715,20 +715,20 @@ Denna reflektion leder oss till att ifrågasätta hur rigid den traditionella de
 
 Så, hur många fall av hyperinflation finns det totalt?
 
-Vanliga definitioner av hyperinflation, som Kagans definition med en månatlig inflationstakt på 50%, kan ibland vara förvirrande eller alltför förenklade. Exempelvis kan två länder med en årlig inflationstakt på 1 000% respektive 3 000% uppfattas olika beroende på hur inflationen fördelar sig över månaden. Om ingen månad överstiger tröskeln på 50%, enligt Kagans definition, skulle dessa länder inte befinna sig i ett tillstånd av hyperinflation. Detta tillvägagångssätt kan därför leda till anomalier i klassificeringen av hyperinflation, särskilt när man jämför kumulativa inflationer över året.
+Vanliga definitioner av hyperinflation, som Cagans definition med en månatlig inflationstakt på 50%, kan ibland vara förvirrande eller alltför förenklade. Exempelvis kan två länder med en årlig inflationstakt på 1 000% respektive 3 000% uppfattas olika beroende på hur inflationen fördelar sig över månaden. Om ingen månad överstiger tröskeln på 50%, enligt Cagans definition, skulle dessa länder inte befinna sig i ett tillstånd av hyperinflation. Detta tillvägagångssätt kan därför leda till anomalier i klassificeringen av hyperinflation, särskilt när man jämför kumulativa inflationer över året.
 
 
 ![image](assets/fr/038.webp)
 
 
 
-- Kagans arbete "Monetary Dynamics of Hyperinflation", som ger en grundläggande analys av hyperinflation.
-- Bernolds bok, som studerar 30 olika perioder av hyperinflation och därmed utvidgar analysens omfattning.
+- Cagans arbete "Monetary Dynamics of Hyperinflation", som ger en grundläggande analys av hyperinflation.
+- Bernholzs bok, som studerar 30 olika perioder av hyperinflation och därmed utvidgar analysens omfattning.
 - Davids personliga samling av sedlar från 36 perioder av hyperinflation, vilket ger en konkret och historisk förståelse.
-- Hanky Cross-tabellen (2012 års version, uppdaterad 2016 med Venezuela), som listar 57 perioder av hyperinflation enligt Kagans definition.
+- Hanky Cross-tabellen (2012 års version, uppdaterad 2016 med Venezuela), som listar 57 perioder av hyperinflation enligt Cagans definition.
 
 
-Det bör noteras att vissa historiska perioder med hög inflation inte ingår i de klassiska tabellerna över hyperinflation, ofta på grund av strikta klassificeringskriterier. Under det amerikanska självständighetskriget i november 1779 och under det amerikanska inbördeskriget i mars 1864 var till exempel den månatliga inflationen 47,4 procent respektive 40 procent. Även om dessa inflationstakter är höga överstiger de inte den tröskel på 50 procent som Kagan fastställer, vilket innebär att dessa perioder inte kan klassificeras som hyperinflationsfall. Detta utelämnande illustrerar begränsningarna med rigida definitioner och belyser behovet av ett mer nyanserat tillvägagångssätt för att förstå hyperinflation i all dess komplexitet.
+Det bör noteras att vissa historiska perioder med hög inflation inte ingår i de klassiska tabellerna över hyperinflation, ofta på grund av strikta klassificeringskriterier. Under det amerikanska självständighetskriget i november 1779 och under det amerikanska inbördeskriget i mars 1864 var till exempel den månatliga inflationen 47,4 procent respektive 40 procent. Även om dessa inflationstakter är höga överstiger de inte den tröskel på 50 procent som Cagan fastställer, vilket innebär att dessa perioder inte kan klassificeras som hyperinflationsfall. Detta utelämnande illustrerar begränsningarna med rigida definitioner och belyser behovet av ett mer nyanserat tillvägagångssätt för att förstå hyperinflation i all dess komplexitet.
 
 
 ## Likheter mellan Weimar och Zimbabwe
@@ -1128,7 +1128,7 @@ Till vänster på bilden visas åren för redenominering, namnet på den nya val
 ![image](assets/fr/052.webp)
 
 
-På den högra sidan av bilden finns en graf över inflationen. De röda pilarna representerar år med hyperinflation, som enligt Kagans kriterium definieras som en inflationstakt på 50% per månad. Detta kriterium kan ibland leda till tvetydiga tolkningar, med år som har höga inflationstakter men som inte uppfyller den strikta definitionen av hyperinflation.
+På den högra sidan av bilden finns en graf över inflationen. De röda pilarna representerar år med hyperinflation, som enligt Cagans kriterium definieras som en inflationstakt på 50% per månad. Detta kriterium kan ibland leda till tvetydiga tolkningar, med år som har höga inflationstakter men som inte uppfyller den strikta definitionen av hyperinflation.
 
 Det bör noteras att det är en vanlig åtgärd som regeringar vidtar under inflationsperioder. Detta löser dock inte det underliggande problemet med inflation eller hyperinflation. Det är bara ett sätt att byta namn på valutan och ta bort nollor, utan att verkligen ta itu med grundorsaken till hyperinflation: expansionen av pengarna Supply. I en senare video kommer vi att diskutera de verkliga lösningarna på Address och lösa problemet med hyperinflation. I den här serien kommer vi att belysa konsekvenserna av en enkel redenominering utan tillräckliga reformer: inflationen kvarstår.
 
@@ -1277,7 +1277,7 @@ Sammanfattningsvis är hyperinflation bara en aspekt av de ekonomiska utmaningar
 ### Hur man får slut på måttlig och hög inflation
 
 
-De slutsatser som nämns är hämtade från boken "Monetary Regime and Inflation" av Bernold. Enligt Bernold är den enda metoden för att få bukt med inflationen att genomföra en monetär reform och införa restriktioner för regeringen. Dessa restriktioner innebär att en institution, t.ex. en centralbank, inrättas som verkar oberoende av regeringens politiska beslut. Hög- och hyperinflation är ofta resultatet av att budgetunderskott finansieras genom penningskapande. För att Address dämpa inflationen är det viktigt att minska penningmängdens Supply tillväxt. Bernold föreslår också att denna penningmängdstillväxt bör vara relativ i förhållande till grannländerna. En överraskande punkt är att under perioder av hög eller hyperinflation kan det totala värdet av pengarna Supply faktiskt minska. Ett slående exempel på denna situation är Zimbabwe.
+De slutsatser som nämns är hämtade från boken "Monetary Regime and Inflation" av Bernholz. Enligt Bernholz är den enda metoden för att få bukt med inflationen att genomföra en monetär reform och införa restriktioner för regeringen. Dessa restriktioner innebär att en institution, t.ex. en centralbank, inrättas som verkar oberoende av regeringens politiska beslut. Hög- och hyperinflation är ofta resultatet av att budgetunderskott finansieras genom penningskapande. För att Address dämpa inflationen är det viktigt att minska penningmängdens Supply tillväxt. Bernholz föreslår också att denna penningmängdstillväxt bör vara relativ i förhållande till grannländerna. En överraskande punkt är att under perioder av hög eller hyperinflation kan det totala värdet av pengarna Supply faktiskt minska. Ett slående exempel på denna situation är Zimbabwe.
 
 
 ### Kontraintuitiva lösningar
@@ -1286,10 +1286,10 @@ De slutsatser som nämns är hämtade från boken "Monetary Regime and Inflation
 När man studerade Zimbabwe noterade man att 10 biljoner enheter av pengarna Supply hade förlorat allt sitt värde. I Weimar var det möjligt att trycka två tredjedelar av det totala nominella värdet på 65 miljarder enheter av pengarna Supply på en enda dag. Detta visar hur pengarna Supply kan devalveras. För att avhjälpa denna situation är det nödvändigt att avsevärt öka penningmängden Supply för att nå en lämplig nivå. Då är en monetär reform oumbärlig. I en situation med hög inflation är denna reform oundviklig, men den måste säkerställa att det finns tillräckligt med pengar i omlopp. Efter detta steg kan regeringen åläggas restriktioner.
 
 
-Enligt Bernolds observationer är det inte alltid som institutioner som IMF och Världsbanken har rätt strategi när det gäller att lösa inflationsproblem. I vissa fall, när ett land behöver öka sin penningmängd, försöker dessa institutioner att Supply minska den. Nyckeln är att nå en lämplig monetär nivå och sedan sätta gränser för dess tillväxt, och på så sätt undvika att finansiera statliga utgifter genom penningskapande.
+Enligt Bernholzs observationer är det inte alltid som institutioner som IMF och Världsbanken har rätt strategi när det gäller att lösa inflationsproblem. I vissa fall, när ett land behöver öka sin penningmängd, försöker dessa institutioner att Supply minska den. Nyckeln är att nå en lämplig monetär nivå och sedan sätta gränser för dess tillväxt, och på så sätt undvika att finansiera statliga utgifter genom penningskapande.
 
 
-En intressant aspekt som Bernold tar upp är att framgången för en penningpolitisk reform inte bara beror på dess tekniska relevans utan också på befolkningens förtroende för den. Vissa väl utformade reformer kan misslyckas eftersom allmänheten inte litar på dem, medan andra, dåligt utformade, kan lyckas eftersom befolkningen litar på dem. Uppfattningen och allmänhetens förtroende är därför avgörande för om en monetär reform lyckas eller misslyckas.
+En intressant aspekt som Bernholz tar upp är att framgången för en penningpolitisk reform inte bara beror på dess tekniska relevans utan också på befolkningens förtroende för den. Vissa väl utformade reformer kan misslyckas eftersom allmänheten inte litar på dem, medan andra, dåligt utformade, kan lyckas eftersom befolkningen litar på dem. Uppfattningen och allmänhetens förtroende är därför avgörande för om en monetär reform lyckas eller misslyckas.
 
 
 

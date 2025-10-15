@@ -101,26 +101,29 @@ K vyřešení tohoto problému byla vyvinuta *asymetrická* kryptografie, znám�
 
 Tento typ kryptografie umožňuje implementaci jak šifrovacích algoritmů, tak procesů podpisu. Asymetrické šifrování zahrnuje použití veřejného klíče jako šifrovacího klíče a soukromého klíče jako dešifrovacího klíče. Uživatel generuje pár klíčů, uchovává soukromý klíč a sdílí veřejný klíč se svými korespondenty, aby mu mohli posílat zprávy. Tento typ šifrování je analogický poštovní schránce, kterou příjemce používá k přijímání dopisů a kterou pouze oni vlastní klíč.
 
-![Asymetrické šifrování](assets/en/001.webp)
+![Asymetrické šifrování](assets/cs/001.webp)
 Digitální podpisy na druhou stranu spoléhají na použití soukromého klíče jako podpisového klíče a veřejného klíče jako klíče pro ověření. Uživatel vygeneruje pár klíčů, podepíše zprávu soukromým klíčem a pošle ji svým korespondentům, kteří mohou ověřit její pravost pomocí veřejného klíče. Tím pádem nikdy nepotřebují znát soukromý klíč.
-![Digitální podpis](assets/en/002.webp)
+![Digitální podpis](assets/cs/002.webp)
 
 Asymetrická kryptografie byla nezávisle objevena několika výzkumníky během 70. let 20. století. Avšak první, kdo prezentovali své zjištění, byli Whitfield Diffie a Martin Hellman, dva kryptografové ze Stanfordovy univerzity. V listopadu 1976 publikovali článek s názvem "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" v časopise *IEEE Transactions on Information Theory*, který popisoval algoritmus pro výměnu klíčů (určený pro přenos tajných klíčů pro symetrické šifrování) stejně jako proces digitálního podpisu. V úvodu tohoto článku napsali:
 > "Stojíme dnes na prahu revoluce v kryptografii. Vývoj levného digitálního hardwaru ji osvobodil od designových omezení mechanického výpočetního zařízení a snížil cenu vysoce kvalitních kryptografických zařízení na úroveň, kde mohou být používány v komerčních aplikacích, jako jsou vzdálené bankomaty a počítačové terminály. Tyto aplikace zase vytvářejí potřebu nových typů kryptografických systémů, které minimalizují nutnost bezpečných kanálů pro distribuci klíčů a poskytují ekvivalent písemného podpisu. Zároveň teoretické vývoje v teorii informací a informatice slibují poskytnutí dokazatelně bezpečných kryptosystémů, měnící toto starověké umění na vědu."
 
 Zde je fotografie z roku 1977, kterou pořídil Chuck Painter pro Stanford News Service, kde můžete vidět Whitfielda Diffieho (vpravo) a Martina Hellmana (uprostřed). Osoba vlevo je kryptograf Ralph Merkle, který byl na pokraji stejného objevu.
 
-![Ralph Merkle, Martin Hellman a Whitfield Diffie v roce 1977](assets/en/003.webp)
+![Ralph Merkle, Martin Hellman a Whitfield Diffie v roce 1977](assets/cs/003.webp)
 
 Článek Diffieho a Hellmana připravil půdu pro mnoho inovací. Jednou z nich byl [kryptosystém RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), který byl navržen v roce 1977 kryptografy Ronaldem Rivestem, Adi Shamirem a Leonardem Adlemanem (kterým dal své jméno) a patentován MIT v roce 1983. Tento systém umožňuje jak šifrování, tak podepisování zpráv, díky výměně rolí klíčů. RSA bylo veřejně prezentováno poprvé v [článku Martina Gardnera](https://simson.net/ref/1977/Gardner_RSA.pdf) publikovaném v časopise *Scientific American* v srpnu 1977, který měl název "Mathematical Games: A new kind of cipher that would take millions of years to break."
 
 Objev asymetrické kryptografie také motivoval vytvoření jednosměrných funkcí, které se vyznačují tím, že výpočet obrazu (směrem dopředu) je velmi snadný a získání pre-obrazu (směrem zpět) velmi obtížné. Konkrétně to vedlo k vývoji prvních kryptografických hashovacích funkcí, které transformují zprávu proměnné velikosti na pevně danou velikost. Mezi lety 1989 a 1991 bylo tak navrženo několik hashovacích algoritmů (MD2, MD4 a MD5) Ronaldem Rivestem pro MIT.
-Základní kryptografické prvky Bitcoinu vycházejí z tohoto výzkumu. Schéma podpisu ECDSA, které umožňuje autorizaci výdajů tradiční transakce, bylo vytvořeno v roce 1992 pro NIST. Hašovací funkce SHA-256, používaná na několika místech v protokolu, byla publikována v roce 2001 jako součást sady algoritmů SHA-2, kterou zveřejnila NSA. Pro více informací na toto téma se můžete odkázat na kurz [Crypto 301](../crypto301/fr.md) prezentovaný Loïcem Morelem.
+Základní kryptografické prvky Bitcoinu vycházejí z tohoto výzkumu. Schéma podpisu ECDSA, které umožňuje autorizaci výdajů tradiční transakce, bylo vytvořeno v roce 1992 pro NIST. Hašovací funkce SHA-256, používaná na několika místech v protokolu, byla publikována v roce 2001 jako součást sady algoritmů SHA-2, kterou zveřejnila NSA. Pro více informací na toto téma se můžete odkázat na kurz [CYP201] prezentovaný Loïc Morel.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 ### Slepotiskové podpisy a elektronické peníze
 
 Tato revoluce v oblasti kryptografie také inspirovala mladého Davida Chauma, počítačového vědce ze západního pobřeží a tehdejšího doktoranda na Univerzitě v Berkeley. Rychle se stal vášnivým zastáncem ochrany soukromí. Skutečně ho velmi znepokojovala budoucnost svobody a důvěrnosti ve společnosti, která se stávala stále více počítačizovanou.
 
-![David Chaum v 90. letech](assets/en/004.webp)
+![David Chaum v 90. letech](assets/cs/004.webp)
 David Chaum v 90. letech (zdroj: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
 Ve svém [základním článku](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), "Security Without Identification: Transaction Systems to Make Big Brother Obsolete" publikovaném v roce 1985 v *Communications of the ACM*, napsal:
@@ -138,7 +141,7 @@ Ve svém technickém provozu je model eCash založen na procesu slepého podpisu
 
 Zde je ilustrace různých kroků zapojených do vytvoření a nahrazení Chaumovy bankovky (z *L'Élégance de Bitcoin*):
 
-![Vytvoření a nahrazení Chaumovy bankovky](assets/en/005.webp)
+![Vytvoření a nahrazení Chaumovy bankovky](assets/cs/005.webp)
 
 Akce (každá odpovídá matematické operaci nebo přenosu informací) jsou následující:
 
@@ -160,12 +163,12 @@ To vše znamená, že žádná banka v systému nemůže spojit platbu s Alicino
 
 ### Implementace eCash
 V roce 1990 založil David Chaum vlastní společnost DigiCash B.V., aby realizoval svůj nápad elektronických peněz. Tato společnost sídlila v Amsterdamu, Nizozemsko, a držela patenty na jeho vynález. V té době byl internet stále v plenkách (Web byl ještě ve vývoji) a e-commerce neexistovala; takže model eCash představoval formidabilní příležitost.
-![DigiCash Logo](assets/en/006.webp)
+![DigiCash Logo](assets/cs/006.webp)
 
 Nicméně, nebyla to společnost Davida Chauma, která model poprvé otestovala: byli to cypherpunkové, kteří jej implementovali bez ohledu na patenty a kteří si o to nepožádali. Tak byl na mailing listě cypherpunků 4. února 1994 anonymním vývojářem, který používal jméno Pr0duct Cypher, [navržen](https://cypherpunks.venona.com/date/1994/02/msg00247.html) protokol nazvaný Magic Money. Tento protokol umožňoval vytvoření vlastní měny provozováním e-mailového serveru, který sloužil jako eCash mincovna. Cypherpunkové si s tím užívali, vytvářeli všechny druhy účetních jednotek jako Tacky Tokens, GhostMarks, DigiFrancs a NexusBucks. Nicméně, užitečnost těchto tokenů byla minimální a výměny byly velmi vzácné.
 Na straně DigiCash, po několika letech vývoje, byl v květnu 1994 na první mezinárodní konferenci o World Wide Web v CERNu v Ženevě [představen](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) prototyp. Společnost poté zahájila pokus, který začal 19. října téhož roku, s vydáním jednotek nazvaných "CyberBucks", které nebyly kryty žádnou jinou měnou. Různí obchodníci přijímali CyberBucks jako součást tohoto experimentu. Cypherpunkové se také zapojili, používali je k provádění skutečných výměn. Tak CyberBucks získaly na trhu hodnotu. Tato hodnota však zkolabovala, když byl eCash nasazen v tradičním bankovním systému.
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/cs/007.webp)
 Fotografie (rozmazaná) týmu DigiCash v roce 1995: David Chaum je na dalekém levém (zdroj: [Chaum.com](https://chaum.com/ecash/))
 
 Zavedení eCash do bankovního systému začalo v říjnu 1995 s počátkem partnerství DigiCash s Mark Twain Bank, malou bankou v Missouri. Na rozdíl od případu CyberBucks, jejichž směnný kurz byl plovoucí, byla účetní jednotka kryta americkým dolarem. Mezi lety 1996 a 1998 následovalo Mark Twain Bank šest bank: Merita Bank ve Finsku, Deutsche Bank v Německu, Advance Bank v Austrálii, Bank Austria v Rakousku, Den norske Bank v Norsku a Credit Suisse ve Švýcarsku. Tisk tehdy sliboval tomuto systému světlou budoucnost.
@@ -202,7 +205,7 @@ K prosazení těchto omezení byla v roce 1865 Abrahamem Lincolnem založena vl�
 
 Situace se poté stala ještě více omezenou. Centrální banka, nazývaná Federální rezervní systém Spojených států, byla vytvořena v roce 1913 po bankovní panice v roce 1907. Poté byl klasický zlatý standard opuštěn v roce 1933 jako součást New Dealu F.D. Roosevelta, s [Exekutivním nařízením 6102](https://fr.wikipedia.org/wiki/Executive_Order_6102), které zakazovalo jednotlivcům a společnostem nacházejícím se ve Spojených státech držet zlato. Odkaz na zlato v měnovém systému byl nakonec opuštěn v roce 1971, kdy Richard Nixon oznámil konec konvertibility dolaru na zlato na mezinárodní úrovni.
 S zrušením zákazu držení zlata a s rozvojem internetu začínajícím v 70. letech se myšlenka zavádění soukromých měn znovu objevila. To byl případ Bernarda von NotHause, který v roce 1998 spustil Liberty Dollar, měnu založenou na zlatě a stříbru, která byla dostupná ve formě stříbrných mincí a reprezentativních bankovek. Systém spravovala nezisková organizace s názvem NORFED (akronym pro National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Od roku 2003 byl Liberty Dollar dostupný také v digitální formě, prostřednictvím systému účtů podobného e-goldu (viz následující sekce). Systém zaznamenal určitý úspěch. Kromě oběžných mincí obsahovaly trezory NORFEDu přibližně 8 milionů dolarů v drahých kovech, aby zajistily konvertibilitu měny, včetně 6 milionů na podporu digitální jednotky.
-![2003 Silver Liberty Dollar](assets/en/008.webp)
+![2003 Silver Liberty Dollar](assets/cs/008.webp)
 Liberty Dollar (10 dolarů) ve stříbře z roku 2003 (zdroj: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
 V září 2006 vydala americká mincovna [tiskovou zprávu](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers), kterou společně napsala s ministerstvem spravedlnosti, ve které dospěla k závěru, že používání mincí NORFEDu porušuje sekci 486 titulu 18 United States Code a představuje "federální zločin". V důsledku toho po razii FBI na prostory NORFEDu v roce 2007 byla porušení vznesena proti NotHausovi a jeho spolupracovníkům, kteří byli zatčeni v roce 2009 a souzeni v březnu 2011. V roce 2014 byl Bernard von NotHaus v odvolacím řízení odsouzen k šesti měsícům domácího vězení a třem letům podmíněně.
@@ -213,7 +216,7 @@ Princip spočíval v tom, že každá jednotka e-goldu mohla být převedena na 
 
 Systém e-gold využíval vznikající web, a zejména velmi nový prohlížeč Netscape. Každý klient mohl přistupovat ke svému účtu z webové stránky, místo aby musel používat dedikovaný software. Pro tehdejší dobu byla platforma velmi výkonná, využívala systém reálného časového hrubého vyrovnání inspirovaný mezibankovním převodem. Zde je, jak vypadalo posílání e-goldu v roce 2005 (obrázek z [tutoriálu](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) té doby):
 
-![Sending on e-gold in 2005](assets/en/009.webp)
+![Sending on e-gold in 2005](assets/cs/009.webp)
 Systém e-gold se setkal s velkým úspěchem: na svém vrcholu v roce 2006 [zaručoval](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 3,6 tuny zlata, v hodnotě více než 80 milionů dolarů, [zpracoval](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75 000 transakcí denně, s ročním objemem 3 miliardy dolarů a spravoval více než 2,7 milionu účtů. Tento úspěch byl náhle zastaven zásahem státu. Po vyšetřování provedeném Tajnou službou byl Douglas Jackson, jeho dvě společnosti a jeho spolupracovníci [obviněni](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html) 27. dubna 2007 Ministerstvem spravedlnosti za podporu praní špinavých peněz a provozování podniku pro převod peněz bez licence. V listopadu 2008 byl Douglas Jackson shledán vinným a byl odsouzen k 3 letům podmíněně, včetně 6 měsíců domácího vězení pod elektronickým dohledem. Po neúspěšném pokusu získat licenci byl e-gold nucen trvale ukončit činnost v listopadu 2009.
 
 Po stejném modelu byly vytvořeny další systémy. Můžeme zmínit GoldMoney, založené Jamesem Turkem a jeho synem v únoru 2001, které se dnes přizpůsobilo finančním regulacím. e-Bullion, systém založený Jamesem Fayedem v červenci 2001, ukončil svou činnost v roce 2008. Nakonec jedna z posledních digitálních zlatých měn byla Pecunix, která byla založena v Panamě Simonem Davisem v roce 2002 a ukončila činnost v roce 2015 jako součást podvodu při odchodu.
@@ -222,7 +225,7 @@ Po stejném modelu byly vytvořeny další systémy. Můžeme zmínit GoldMoney,
 
 Dalším příkladem centralizovaného soukromého měnového systému je Liberty Reserve, který umožňoval svým uživatelům držet a převádět elektronické měny vázané na americký dolar, euro nebo zlato. Tento systém vytvořil Arthur Budovsky, Američan ukrajinského původu, a Vladimir Kats, ruský imigrant ze Sankt Petěrburgu. V roce 2006 se Arthur Budovsky expatrioval do Kostariky, tehdy považované za daňový ráj, kde zaregistroval svou společnost, Liberty Reserve S.A.
 
-![Logo Liberty Reserve v roce 2009](assets/en/010.webp)
+![Logo Liberty Reserve v roce 2009](assets/cs/010.webp)
 Logo Liberty Reserve v roce 2009 (zdroj: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 Systém byl velmi podobný e-gold, s tím rozdílem, že finanční prostředky (převážně v dolarech) byly drženy na offshore bankovních účtech, nikoli v soukromých trezorech. Liberty Reserve velmi těžilo ze zavření e-gold v dubnu 2007 po obžalobě Douglase Jacksona a jeho spolupracovníků. V květnu 2013, [podle Ministerstva spravedlnosti USA](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf), měla platforma přes milion uživatelů po celém světě, včetně více než 200 000 ve Spojených státech, a zpracovala 12 milionů finančních transakcí ročně, s celkovým objemem více než 1,4 miliardy dolarů. Použití bylo primárně pro kriminální aktivity, ale [nebylo omezeno pouze na](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) tyto: Liberty Reserve bylo také využíváno obchodníky na Forexu nebo pro zahraniční převody.
 
@@ -240,7 +243,7 @@ Původní vize PayPal byla revoluční, v souladu s libertariánskou vizí Peter
 
 > "Samozřejmě, to, co nazýváme 'pohodlné' pro americké uživatele, bude pro rozvojový svět revoluční. Mnoho vlád těchto zemí si s jejich měnami pohrává. Používají inflaci a někdy i celkové devalvace měny, jak jsme viděli v Rusku a několika jihovýchodních asijských zemích minulý rok, aby vzaly bohatství svým občanům. Většina obyčejných lidí tam nikdy nemá příležitost otevřít si zahraniční účet nebo se dostat k více než pár bankovkám stabilní měny jako jsou americké dolary. Nakonec PayPal toto změní. V budoucnosti, když naše službu zpřístupníme mimo USA a jak internetová penetrace bude pokračovat v rozšiřování do všech ekonomických vrstev lidí, PayPal dá občanům po celém světě přímější kontrolu nad jejich měnami, než kdy měli předtím. Bude téměř nemožné pro korupční vlády krást bohatství od svých lidí starými způsoby, protože pokud to zkusí, lidé přejdou na dolary, libry nebo jeny, v podstatě vymění bezcennou místní měnu za něco bezpečnějšího."
 
-![Peter Thiel 20. října 1999 během svého projevu v Oaklandu, Kalifornie pro Independent Institute](assets/en/011.webp)
+![Peter Thiel 20. října 1999 během svého projevu v Oaklandu, Kalifornie pro Independent Institute](assets/cs/011.webp)
 Peter Thiel 20. října 1999 během svého projevu v Oaklandu, Kalifornie pro Independent Institute (zdroj: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
 Nicméně, věci se nevyvíjely požadovaným směrem a PayPal musel dodržovat všechny druhy finančních regulací, až do bodu, kdy je služba nyní známá pro svou cenzuru plateb a zmrazení účtů po celém světě. Bylo naivní věřit, že takový systém by mohl vyzvat zavedenou moc.
@@ -261,13 +264,13 @@ V této kapitole se budeme zabývat vznikem různých základních technických 
 
 S nástupem počítačů v 50. letech se objevila možnost jejich vzájemného propojení. Takto vznikly první počítačové sítě, což vedlo k vývoji internetu, "sítě sítí", v 70. letech. Nevyhnutelně se vynořila otázka infrastruktury těchto sítí. Proto polsko-americký počítačový vědec Paul Baran ve svém základním článku z roku 1964 (popisujícím přepínání paketů) uvedl tři typy sítí: centralizovanou síť, spoléhající na jediný uzel; distribuovanou síť, kde každý bod je uzel; decentralizovanou (nedistribuovanou) síť, spoléhající na distribuovanou síť mnoha uzlů.
 
-![Centralizované, decentralizované a distribuované sítě podle Paula Barana](assets/en/012.webp)
+![Centralizované, decentralizované a distribuované sítě podle Paula Barana](assets/cs/012.webp)
 
 Z těchto úvah lze odvodit dva čisté modely: model klient-server, kde centrální server odpovídá na požadavky klientů, a model peer-to-peer, kde každý uzel má ve systému stejnou roli. Tento druhý model byl zvláště užitečný pro sdílení souborů v 2000. letech s vytvořením BitTorrentu a dalších podobných protokolů. Síť Tor je decentralizovaná, nikoli čistě peer-to-peer.
 Problém, který se setkává v distribuovaných architekturách, je otázka distribuovaného konsensu, běžně označovaná jako problém byzantských generálů, který formalizovali Leslie Lamport, Robert Shostak a Marshall Pease ve [článku](https://lamport.azurewebsites.net/pubs/byz.pdf) publikovaném v roce 1982. Tento problém řeší výzvu spolehlivosti přenosu a integrity účastníků v systémech peer-to-peer a aplikuje se v případech, kdy komponenty počítačového systému potřebují dosáhnout shody.
 Problém je prezentován ve formě metafory zahrnující generály armády Byzantské říše, kteří obléhají nepřátelské město se svými vojsky s úmyslem útoku a mohou komunikovat pouze prostřednictvím poslů. Cílem je najít strategii (tj. algoritmus), který dokáže zvládnout přítomnost zrádců a zajistit, aby všichni loajální generálové souhlasili s plánem bitvy, tak aby útok byl úspěšný. Zde je ilustrace (zdroj: *L'Élégance de Bitcoin*):
 
-![Problém byzantských generálů](assets/en/013.webp)
+![Problém byzantských generálů](assets/cs/013.webp)
 
 Řešení tohoto problému je důležité pro distribuované systémy, které by spravovaly jednotku účtu. Tyto systémy skutečně vyžadují, aby účastníci souhlasili s vlastnictvím jednotek účtu, tj. kdo co vlastní.
 
@@ -279,7 +282,7 @@ S algoritmem konsensu Bitcoinu Satoshi Nakamoto problém vyřešil pravděpodobn
 Časové razítkování je technika, která spočívá v přiřazení data a času k informacím, jako je událost nebo dokument. Z právního hlediska to může například zajistit existenci smlouvy před daným datem. Ve skutečném světě existuje mnoho způsobů, jak něco opatřit časovým razítkem, jako je zaslání dokumentu v zapečetěné obálce nebo zaznamenání časové osy v zápisníku.
 Nicméně, časové razítkování je obzvláště užitečné v digitálním světě, kde jsou soubory (text, obrázek, audio nebo video) snadno modifikovatelné. Časové razítkování může být prováděno centralizovanými službami, které jsou zodpovědné za ukládání přijatých dokumentů (nebo jejich otisků) a přiřazení k datu a času přijetí. To se označuje jako důvěryhodné časové razítkování.
 V roce 1991 navrhli Stuart Haber a Scott Stornetta, dva výzkumníci pracující pro Bell Communications Research Inc. (běžně nazývané "Bellcore"), výzkumné a vývojové konsorcium se sídlem v New Jersey, důvěrnou a bezpečnou techniku časového razítkování. Ve [svém článku](http://www.staroceans.org/e-book/Haber_Stornetta.pdf) s názvem "Jak časově razítkovat digitální dokument" popisovali, jak by certifikovaná služba časového razítkování mohla použít jednosměrnou funkci (jako je hashovací funkce MD4) a algoritmus podpisu k zvýšení důvěrnosti dokumentů klientů a spolehlivosti certifikace. Konkrétně šlo o myšlenku spojit informace tím, že se do aplikace jednosměrné funkce zapojí předchozí časové razítko.
-![Příklad certifikovaného časového razítkování](assets/en/014.webp)
+![Příklad certifikovaného časového razítkování](assets/cs/014.webp)
 Příklad certifikovaného časového razítkování (zdroj: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber a Stornetta svou myšlenku realizovali tak, že od roku 1992 začali v rubrice klasifikovaných inzerátů New York Times publikovat kryptografické otisky (vzniklé hašováním užitečných dat). Poté v roce 1994 založili vlastní společnost Surety Technologies s cílem plně se této činnosti věnovat. Jsou tak [známí](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) pro vytvoření prvního řetězce časových razítek, přičemž předchozí otisk byl zohledněn při výpočtu nového otisku, který měl být publikován v novinách, což předznamenalo blockchain Bitcoinu.
@@ -291,7 +294,7 @@ Koncept důkazu práce (proof of work) byl poprvé popsán v roce 1992 počíta�
 
 S popularizací internetu v 90. letech se problém nechtěných e-mailů stával stále naléhavějším, včetně na mailing listu cypherpunků. Proto byl koncept od Dwork a Naora [implementován](https://cypherpunks.venona.com/date/1997/03/msg00774.html) mladým britským cypherpunkem Adamem Backem v roce 1997 s Hashcash, algoritmem produkujícím jednoduché důkazy práce pomocí hashovací funkce. Konkrétněji, zahrnuje nalezení částečné kolize dané hashovací funkce, tj. získání dvou zpráv, které mají otisk začínající stejnými datovými bity (poznámka: od verze 1.0 vydané v roce 2002, zahrnuje objevení částečné kolize pro nulový otisk, tedy nalezení pre-image, jehož otisk začíná určitým počtem binárních nul). Jelikož je hashovací funkce jednosměrná, takového úspěchu lze dosáhnout pouze testováním různých možností jednu po druhé, což vyžaduje vynaložení energie.
 
-![Adam Back v roce 2001](assets/en/015.webp)
+![Adam Back v roce 2001](assets/cs/015.webp)
 Adam Back v roce 2001 (zdroj: [archiv osobní stránky Adama Backa](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
 Ale cypherpunkové se neomezili pouze na považování důkazu práce za jednoduchý prostředek omezení spamu; chtěli jej také použít jako způsob, jak zaručit náklady na vytvoření digitální měny. Takto v roce 1997 Adam Back [představil](https://cypherpunks.venona.com/date/1997/04/msg00822.html) tuto myšlenku sám, ale byl si vědom, že takto získané důkazy práce nemohou být přenášeny zcela distribuovaným způsobem (kvůli problému dvojího utrácení) a že je proto nutné použít centralizovaný systém jako eCash. Podobně v roce 1996 kryptografové Ronald Rivest a Adi Shamir popisovali [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), centralizovaný mikroplatební systém, jehož mince měly být díky produkci důkazů práce nemožné padělat.
@@ -309,13 +312,13 @@ Tvorba měny byla otevřená všem účastníkům a prováděla se prostřednict
 Ačkoliv byl koncept b-money, který prezentoval Wei Dai, poměrně geniální, nebyl zcela funkční. Měl tedy zásadní nedostatky, jako je zranitelnost vůči Sybilovým útokům na síť (teoreticky kdokoli mohl přidávat nové uzly do sítě), centralizace sítě v případě, že by servery byly předem vybrány, a problém související se stabilizací jednotky účtu (kdo dekretuje pozorovatelné ceny na trhu?).
 Po jeho publikaci na seznamu si b-money získalo pozornost cypherpunků, a zejména [Adama Backa](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Wei Dai však svůj model nikdy neimplementoval, nejen kvůli jeho nefunkčnosti, ale také kvůli [rozčarování](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) kryptografa z krypto-anarchie. Přesto bylo b-money citováno v bílé knize Bitcoinu, čímž se stalo jedním z jeho předchůdců.
 
-![Citace b-money v bílé knize Bitcoinu](assets/en/016.webp)
+![Citace b-money v bílé knize Bitcoinu](assets/cs/016.webp)
 
 ### bit gold: digitální zlato před Bitcoinem
 
 Druhý model, který vzešel z myšlenek cypherpunků, byla myšlenka bit gold, kterou si v roce 1998 představil Nick Szabo. Byl to americký počítačový vědec maďarského původu, který pracoval jako konzultant pro DigiCash šest měsíců. Jako cypherpunk je známý tím, že v roce 1995 formalizoval pojem smart kontraktu.
 V roce 1994 Nick Szabo vytvořil soukromý mailing list nazvaný libtech-l, který měl, jak název napovídá, hostit diskuse o osvobozujících technikách, umožňujících ochranu individuálních svobod proti útokům autorit. Přístup měli cypherpunkové jako Wei Dai a Hal Finney, stejně jako ekonomové Larry White a George Selgin, zastánci Hayekovy konkurence měn a svobodného bankovnictví.
-![Nick Szabo v roce 1997](assets/en/017.webp)
+![Nick Szabo v roce 1997](assets/cs/017.webp)
 Nick Szabo v roce 1997 (zdroj: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
 Na mailing listu libtech-l Nick Szabo poprvé popsal svůj koncept, než v roce 1999 na svém osobním webu zveřejnil [návrh](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) bílé knihy. Poté v roce 2005 představil bit gold v [článku](https://unenumerated.blogspot.com/2005/12/bit-gold.html) publikovaném na jeho blogu Unenumerated.
@@ -336,7 +339,7 @@ Tokeny opakovaně použitelného důkazu práce byly spravovány serverem, kter�
 
 Zde je ilustrace [navržená](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) samotným Hal Finneym:
 
-![Výměna v RPOW](assets/en/018.webp)
+![Výměna v RPOW](assets/cs/018.webp)
 
 Hal Finney nejen navrhl model, ale také ho osobně implementoval. Dne 15. srpna 2004 [oznámil](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) spuštění systému RPOW na mailing listu cypherpunků, kromě dokumentace jeho fungování na dedikovaném webu (rpow.net). Poté jej [představil](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) na konferenci CodeCon 2005 v San Franciscu, kde diskutoval o potenciálních využitích tokenů proof-of-work, a to: přenos hodnoty, regulace spamu, obchod ve videohrách, online hazardní hry jako poker a proti leechingu v protokolech pro sdílení souborů jako BitTorrent.
 Nicméně, RPOW měl vrozené nedostatky, které mohou vysvětlit, proč nedosáhl očekávaného úspěchu:
@@ -348,7 +351,7 @@ Skutečné využití RPOW bylo tedy anekdotické, ale Hal Finney si zaslouží u
 
 ### Ripple: Decentralizace úvěru
 Dalším méně známým, ale přesto významným předchůdcem Bitcoinu, je distribuovaný kreditní protokol Ripple, který navrhl kanadský vývojář Ryan Fugger v roce 2004. Mladý Kanaďan byl inspirován konceptem [místního směnného obchodního systému](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), se kterým se setkal ve Vancouveru před navržením svého protokolu. Své Ripple [bílé knihy](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) publikoval 14. dubna 2004 a poté ji implementoval prostřednictvím konceptu důkazu zvaného RipplePay, který fungoval na centrálním serveru a umožňoval uživatelům připojit se pouze s e-mailovou adresou.
-![Ryan Fugger okolo roku 2010](assets/en/019.webp)
+![Ryan Fugger okolo roku 2010](assets/cs/019.webp)
 Ryan Fugger okolo roku 2010 (zdroj: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
 Koncept Ripple byl založen na myšlence, že peníze jsou v podstatě tvořeny IOU, tedy kredity. Šlo o zřízení peer-to-peer sítě, jejíž spojení by byla kreditními vztahy mezi lidmi. Platby byly poté prováděny směrováním série půjček, přičemž všichni účastníci jednali jako bankéři, kteří si navzájem půjčovali peníze. Alice mohla zaplatit Davidovi 10 dolarů tím, že půjčila 10 dolarů Bobovi a požádala Boba, aby učinil totéž Carole, poté Carole učinila totéž Davidovi: Davidův účet byl poté připsán 10 dolary z Aliceina vytvoření peněz. Systém fungoval do jisté míry jako vlnky, což vysvětluje název projektu.
@@ -395,7 +398,7 @@ V srpnu 2008 se Satoshi rozhodl připravit na spuštění Bitcoinu. Dne 18. reze
 
 Dne 20. srpna tvůrce Bitcoinu [kontaktoval](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adama Backa zasláním e-mailu, ve kterém požádal o radu, jak citovat jeho článek o Hashcash v bílé knize. Těžko to vidět jinak než jako záminku, aby se vynálezce Hashcashu dozvěděl o jeho novém systému.
 
-![Adam Back v roce 2012](assets/en/020.webp)
+![Adam Back v roce 2012](assets/cs/020.webp)
 Adam Back v roce 2012 (zdroj: [osobní stránka Adama Backa](http://www.cypherspace.org/adam/))
 
 E-mail obsahoval odkaz na návrh bílé knihy. Název PDF souboru byl `ecash.pdf` a jeho titulek "Elektronická hotovost bez důvěryhodné třetí strany". Abstrakt je stejný jako ten z první verze, která byla publikována v říjnu, s jedním slovním rozdílem. Bohužel nemáme k dispozici celý dokument.
@@ -424,7 +427,7 @@ Dále uvádí hlavní vlastnosti svého modelu:
 
 Ve svém e-mailu zahrnuje odkaz na bílou knihu, která je již hostována na Bitcoin.org, což je krátký 9-stránkový dokument, prezentovaný jako vědecký článek, popisující technické fungování Bitcoinu. Tento dokument se zaměřuje na problém online plateb.
 
-![Titul a shrnutí první verze bílé knihy (říjen 2008)](assets/en/021.webp)
+![Titul a shrnutí první verze bílé knihy (říjen 2008)](assets/cs/021.webp)
 
 Po tomto oznámení Satoshi obdrží několik odpovědí, ale většina z nich je skeptická. Je zejména kritizován za tři věci:
 - Nejprve cypherpunk James A. Donald [zpochybňuje](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) škálovatelnost systému slovy, že "to nevypadá, že by se to dalo škálovat na požadovanou velikost." Satoshi [odpovídá](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html), že "šířka pásma nemusí být tak omezující, jak si myslíte."
@@ -433,7 +436,7 @@ Po tomto oznámení Satoshi obdrží několik odpovědí, ale většina z nich j
 - Nakonec jednotlivec jménem Ray Dillinger (používající pseudonym bear) [přemýšlí](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) o hodnotě účetní jednotky, lituje skutečnosti, že "výpočetní důkazy práce nemají žádnou vnitřní hodnotu" a kritizuje jejich inflační povahu kvůli technickému vývoji počítačového hardwaru. Satoshi [odpovídá](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html), že "nárůst rychlosti hardwaru je zohledněn" periodickým přizpůsobením obtížnosti produkce.
 I když je skepticismus převládajícím postojem na seznamu, není sdílen všemi přihlášenými k mailing listu. Zvláště jedna osoba se od ostatních odlišuje svým nadšením: Hal Finney, který má optimistický pohled do budoucnosti a nikdy se nevzdal myšlenky elektronických peněz, navzdory neúspěchům 90. let. O několik let později [prohlásil](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) k této záležitosti, že "kryptografické šediny [...] mají tendenci stávat se cynickými", ale že on "byl idealističtější" a že "vždy miloval kryptografii, její tajemství a její paradox." (*originál: "I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of it."*) Takže 7. listopadu napsal v [e-mailu](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) na seznam, že "Bitcoin se jeví jako velmi slibný nápad" a porovnává Satoshiho model s bit gold od Nicka Szaba. (*originál: "Bitcoin seems to be a very promising idea."*)
 
-![Hal Finney v roce 2007](assets/en/022.webp)
+![Hal Finney v roce 2007](assets/cs/022.webp)
 Hal Finney v roce 2007
 
 ### Měnová politika a softwarový kód
@@ -474,7 +477,7 @@ Jakmile je toto dokončeno, Satoshi se ujme úkolu informovat různé jednotlivc
 Dne 10. ledna se Hal Finney pokusil spustit spustitelný soubor softwaru, ale narazil na technický problém, který způsobil pád jeho počítače. [Kontaktoval](https://web.archive.org/web/20140821141611/http://sourceforge.net/p/bitcoin/mailman/message/21295694/) Satoshiho a začal s ním o této záležitosti vyměňovat zprávy. Přes potíže se Halu Finneymu podařilo software rozchodit. V noci z 10. na 11. ledna, ve 1 hodinu ráno, našel svůj první blok ([blok 78](https://mempool.space/block/00000000a2886c95400fd3b263b9920af80b118b28fee5d2a162a18e4d9d8b2f)) a tím si vydělal 50 bitcoinů. Hodinu poté poslal [chvályhodný email](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) na *Cryptography mailing list*, kde gratuloval Satoshi k vydání alfa verze a zdůraznil měnovou politiku jednotky účtu. Nakonec ve 3:33 ráno [sdílel](https://twitter.com/halfin/status/1110302988) svou zkušenost na Twitteru (tehdy se rozvíjející sociální síť) s tím, že "\[s\]pouští \[B\]itcoin". To je první tweet o Bitcoinu.
 Z těchto výměn mezi Satoshi a Halem Finneym vznikla verze 0.1.3, [publikovaná](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/) 12. ledna, která byla mnohem stabilnější než předchozí. Satoshi také využil své konverzace s Halem Finneym, aby mu poslal nějaké bitcoiny: [poslal](https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) mu 10 bitcoinů přes jeho IP adresu v noci z 11. na 12. ledna ve 3:30. To byl první převod od jedné osoby k druhé v síti.
 Ale Hal Finney není jediná osoba, která v té době zkouší Bitcoin. To platí také pro Dustina D. Trammella, amerického výzkumníka v oblasti počítačové bezpečnosti, který se tehdy zajímal o digitální měny (a zejména o elektronickou verzi Liberty Dollar) a objevil Bitcoin prostřednictvím mailing listu. Dne 11. ledna spustil software na jednom ze svých pracovních strojů (ale svůj první [blok](https://mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) nenašel až do 13. kvůli technickému problému). Během noci z 11. na 12. ledna se dostal do kontaktu se Satoshi, se kterým [komunikoval](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) intenzivně v následujících dnech. Dne 15. ledna Dustin Trammell [obdržel](https://mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) také 25 bitcoinů od něj.
-![Dustin Trammell](assets/en/023.webp)Dustin Trammell (zdroj: [Archiv blogu Dustina Trammella](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
+![Dustin Trammell](assets/cs/023.webp)Dustin Trammell (zdroj: [Archiv blogu Dustina Trammella](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
 Následně se další lidé pokoušejí dostat software do chodu. To je případ Nicholase Bohma, britského právníka, který 25. ledna posílá email na bitcoin-list, protože se setkává s technickým problémem a vyměňuje si soukromé zprávy se Satoshi. Jistému Jeffu Kanovi se podaří dostat verzi 0.1.3 do chodu 30. ledna. Nicholas Bohm bude zmíněn po boku Dustina Trammella v zásluhách verze 0.1.5 softwaru, která byla vydána na začátku února.
 
@@ -508,7 +511,7 @@ To je titulek z britského deníku *The Times* toho dne, který naznačuje, že 
 - Na jedné straně brání zpětnému datování spuštění sítě tím, že dokazuje, že systém nemohl být spuštěn před 3. lednem, protože Satoshi nemohl vědět o titulku před vydáním novin;
 - Na druhé straně symbolicky ukazuje, proti čemu Bitcoin stojí, odkazem na měnový a finanční kontext doby.
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/cs/024.webp)
 
 V té době svět skutečně pocítil plný dopad finanční krize, která začala v roce 2007 prasknutím bubliny subprime hypoték ve Spojených státech. Vlády zachraňovaly finanční instituce, aby zabránily dalším bankrotům po pádu investiční banky Lehman Brothers 15. září 2008, a centrální banky se zapojily do kvantitativního uvolňování tím, že do finančních trhů injektovaly likviditu. Toto použití veřejných peněz vytvořených pro tuto příležitost mělo za následek znepokojení řady občanů, kteří si uvědomili, že bankovní systém je ve skutečnosti systémem soukromých zisků a socializovaných ztrát.
 
@@ -541,7 +544,7 @@ Dále, ve stejném emailu, Jonathan Thornburg diskutuje téma sítí zombie poč
 
 Nakonec poslední komentář pochází od Johna Gilmorea, zakládajícího člena cypherpunků a správce prvního mailing listu hnutí od roku 1992 do roku 1997. V emailu odeslaném 25. ledna zdůrazňuje údajné ekologické důsledky Bitcoinu a [píše](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html), že "poslední, co potřebujeme, je nasadit systém navržený tak, aby spaloval všechny dostupné cykly, spotřebovával elektřinu a generoval oxid uhličitý po celém internetu, aby vyráběl malé množství bitbuxů pro posílání emailů nebo spamů." Satoshi mu [odpovídá](https://mmalmi.github.io/satoshi/#email-3) soukromě, že "by bylo ironické muset si vybrat mezi ekonomickou svobodou a ochranou životního prostředí." Dodává, že "důkaz práce je jediné řešení, které [našel], aby systém elektronické hotovosti peer-to-peer fungoval" a že, i kdyby spotřebovával hodně energie, "stále by plýtval méně než prací a zdroji náročná konvenční bankovní činnost, kterou by nahradil."
 
-![John Gilmore v roce 2007](assets/en/025.webp)
+![John Gilmore v roce 2007](assets/cs/025.webp)
 John Gilmore v roce 2007 (zdroj: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
 Dne 27. ledna Hal Finney [zmínil](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html) způsoby, jak snížit energetickou disipaci spojenou s výpočtem důkazu práce. O hodinu později [napsal](https://twitter.com/halfin/status/1153096538) na Twitteru "přemýšlím o tom, jak snížit emise CO2 z rozšířené implementace Bitcoinu."
@@ -556,7 +559,7 @@ Jak jsme řekli, zatímco Satoshiho komunikace byla původně omezena na mailing
 11. února Satoshi publikoval [úvodní zprávu](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source) představující Bitcoin na fóru (p2pfoundation.ning.com) a poslal [kopii](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001347.html) e-mailem na seznam (p2p-research). V tomto textu napsal:
 
 > "Základní problém s konvenční měnou je veškerá důvěra, která je potřebná k jejímu fungování. Musíme důvěřovat centrální bance, že nebude měnu devalvovat, ale historie fiat měn je plná porušení této důvěry. Musíme důvěřovat bankám, že budou držet naše peníze a převádět je elektronicky, ale ony je půjčují ve vlnách úvěrových bublin sotva s zlomkem v rezervě. Musíme jim důvěřovat, že ochrání naše soukromí, aby nám zloději identity nevyprázdnili účty. Jejich významné režijní náklady činí mikroplatby nemožnými."
-Na svém [profilu](https://p2pfoundation.ning.com/profile/SatoshiNakamoto) tvrdí, že je Japonec, ale to není vše. Aktualizace rozhraní v roce 2011 odhalila jeho věk: 35 let, což znamená, že v roce 2009 mu bylo 32 nebo 33 let. Poté, v roce 2014, bylo [objeveno](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/), že uvedl konkrétní datum narození: 5. dubna 1975. Toto datum, zdánlivě nevinné, je pravděpodobně složeným odkazem na zákaz vlastnictví zlata pro americké občany mezi lety 1933 a 1975 ve Spojených státech. Den 5. dubna souvisí s dnem, kdy byl tento zákaz stanoven [Exekutivním nařízením 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) podepsaným prezidentem Franklinem Delano Rooseveltem 5. dubna 1933, a rok 1975 odpovídá jeho zrušení s přijetím [Zákona veřejného práva 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Tento detail je velmi důležitý, protože tento zákaz ukončil klasický zlatý standard (kdy bylo možné získat zlato výměnou za reprezentativní účtenku), umožnil devalvaci dolaru (prostřednictvím Zákona o zlaté rezervě v roce 1934) a usnadnil zavedení režimu plovoucích směnných kurzů, který známe po Nixonově šoku v roce 1971. ![Profil Satoshi Nakamota na fóru P2P Foundation, zachycený 17. března 2011](assets/en/026.webp)
+Na svém [profilu](https://p2pfoundation.ning.com/profile/SatoshiNakamoto) tvrdí, že je Japonec, ale to není vše. Aktualizace rozhraní v roce 2011 odhalila jeho věk: 35 let, což znamená, že v roce 2009 mu bylo 32 nebo 33 let. Poté, v roce 2014, bylo [objeveno](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/), že uvedl konkrétní datum narození: 5. dubna 1975. Toto datum, zdánlivě nevinné, je pravděpodobně složeným odkazem na zákaz vlastnictví zlata pro americké občany mezi lety 1933 a 1975 ve Spojených státech. Den 5. dubna souvisí s dnem, kdy byl tento zákaz stanoven [Exekutivním nařízením 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) podepsaným prezidentem Franklinem Delano Rooseveltem 5. dubna 1933, a rok 1975 odpovídá jeho zrušení s přijetím [Zákona veřejného práva 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Tento detail je velmi důležitý, protože tento zákaz ukončil klasický zlatý standard (kdy bylo možné získat zlato výměnou za reprezentativní účtenku), umožnil devalvaci dolaru (prostřednictvím Zákona o zlaté rezervě v roce 1934) a usnadnil zavedení režimu plovoucích směnných kurzů, který známe po Nixonově šoku v roce 1971. ![Profil Satoshi Nakamota na fóru P2P Foundation, zachycený 17. března 2011](assets/cs/026.webp)
 
 Profil Satoshi Nakamota na fóru P2P Foundation dne 17. března 2011 (zdroj: [zachycení fóra](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
@@ -575,7 +578,7 @@ Satoshiho komunikační strategie postupně přináší ovoce. V dubnu 2009 se o
 
 Dne 12. dubna Mike Hearn poslal [email](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi, ve kterém položil řadu otázek o Bitcoinu. Poznamenal, že "je vzácné narazit na skutečně revoluční nápady" a neopomenul zmínit Ripple.
 
-![Mike Hearn](assets/en/027.webp)
+![Mike Hearn](assets/cs/027.webp)
 
 Mike Hearn a Satoshi Nakamoto diskutovali o různých aspektech Bitcoinu, jako je škálovatelnost, mikroplatby, fungování softwaru a absence chargebacků. Mike Hearn se zejména zeptal Satoshi, proč si vybral množství "24 milionů" (*sic*) pro celkové množství bitcoinů a zda mohou být děleny. Satoshi poté dal následující vysvětlení:
 
@@ -589,7 +592,7 @@ Satoshiho komunikace také upoutala pozornost mladého finského studenta inform
 
 > "Systém je anonymní a žádná vláda by nemohla danit nebo bránit transakcím. Neexistuje žádná centrální banka, která by mohla devalvovat měnu neomezeným vytvářením nových peněz. Rozšířené přijetí takového systému se jeví jako něco, co by mohlo mít devastující účinek na schopnost státu živit se ze svých občanů."
 
-![Martti Malmi v roce 2013](assets/en/028.webp)
+![Martti Malmi v roce 2013](assets/cs/028.webp)
 Martti Malmi v roce 2013 (zdroj: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 Martti poté poslal [email](https://mmalmi.github.io/satoshi/#email-1) Satoshiho s tím, že je autorem tohoto textu, kde píše, že "by chtěl pomoci s Bitcoinem", i když "zatím nemá mnoho zkušeností s vývojem." Satoshi Nakamoto odpovídá 2. května, říká mu, že jeho "porozumění Bitcoinu" je "přesné."
@@ -621,7 +624,7 @@ Během měsíců se přihlašuje a účastní prvního fóra čím dál více li
 Po několika diskuzích o technickém řešení, které přijmout, Martti Malmi [instaluje](https://mmalmi.github.io/satoshi/#email-93) fórum na svém serveru 17. listopadu a Satoshi začíná s jeho [konfigurací](https://mmalmi.github.io/satoshi/#email-99) 19. listopadu. Od 22. přenáší tvůrce Bitcoinu některé otázky a odpovědi ze starého fóra, které pokrývají témata jako soukromí, těžba a Linux. Také zveřejňuje [uvítací zprávu](https://bitcointalk.org/index.php?topic=5.msg28#msg28). Dne 25. je fórum [spuštěno](https://mmalmi.github.io/satoshi/#email-110) na adrese bitcoin.org/smf.
 První uživatelé začínají s registrací na začátku následujícího měsíce. 9. prosince se objevuje [první zpráva](https://bitcointalk.org/index.php?topic=12.msg40#msg40) od někoho jiného než Satoshiho, což skutečně odstartuje diskuse. Jako ilustraci zde je [snímek obrazovky](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/) fóra z 29. května 2010:
 
-![Snímek obrazovky Bitcoin fóra z 29. května 2010](assets/en/029.webp)
+![Snímek obrazovky Bitcoin fóra z 29. května 2010](assets/cs/029.webp)
 
 Spuštění nového fóra bylo příležitostí k vydání [verze 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) softwaru, na kterém Satoshi Nakamoto a Martti Malmi pracovali několik měsíců, což bylo provedeno 16. prosince. Tato verze zahrnuje vylepšení, jako je minimalizace do hlavního panelu, automatické spuštění při startu nebo vícevláknové zpracování pro produkci těžby. Software byl také přizpůsoben pro Linux, díky příspěvku a testům provedeným nově příchozím NewLibertyStandard (jehož případ bude řešen v další kapitole).
 
@@ -668,7 +671,7 @@ Poslední dva důvody jsou mnohem významnější, protože motivují lidi k nep
 ### První směnárenská služba a první cena
 Na konci září 2009 objevil Bitcoin jednotlivec používající pseudonym NewLibertyStandard (který budeme zkracovat jako NLS). Vyzkoušel software a začal těžit. První blok, který vyprodukoval, je [blok 23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Je uživatelem Linuxu a proto používá "emulátor" Wine pro spuštění softwaru. Zajímá se o politickou svobodu a drahé kovy, jak dokládá jeho [avatar](https://bitcointalk.org/index.php?action=profile;u=26) na fóru, který zobrazuje amerického orla s nápisem "liberty". Bitcoin tedy vidí jako ekvivalent zlata v digitálním světě: na své [osobní stránce](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) prezentuje tvorbu Satoshiho Nakamota jako "ekonomickou revoluci" a jako "zlatý standard digitální měny".
 
-![Avatar NewLibertyStandard na Bitcoin fóru zobrazující amerického orla](assets/en/030.webp)
+![Avatar NewLibertyStandard na Bitcoin fóru zobrazující amerického orla](assets/cs/030.webp)
 
 V říjnu 2009 byla založena první směnárenská služba, která umožňovala lidem převádět jejich dolary na bitcoiny a jejich bitcoiny zpět na dolary. Zakladatel se zaregistroval na fóru věnovaném Bitcoinu na SourceForge a oznámil zde otevření své služby. Pro odhad směnného kurzu se opíral o energetické náklady potřebné k získání jednotky, přičemž vzal v úvahu cenu elektřiny ve své lokalitě a frekvenci své osobní produkce. Na své stránce [napsal](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
@@ -676,7 +679,7 @@ V říjnu 2009 byla založena první směnárenská služba, která umožňovala
 
 Zde jsou indikativní směnné kurzy služby NLS, také publikované na osobní stránce NLS:
 
-![Indikativní směnné kurzy služby NLS](assets/en/031.webp)
+![Indikativní směnné kurzy služby NLS](assets/cs/031.webp)
 
 Transakce jsou uskutečňovány prostřednictvím emailu na newlibertystandard@gmail.com. Převody dolarů jsou prováděny výhradně prostřednictvím PayPalu a za operaci jsou účtovány poplatky.
 
@@ -696,7 +699,7 @@ Počátek roku 2010 je označen prvními kroky komerčních výměn v kryptoměn
 Koordinace úsilí probíhá především na fóru. Dne 27. ledna nizozemský uživatel pod jménem giik vytvořil [vlákno](https://bitcointalk.org/index.php?topic=30.0) s názvem "Přijímáme Bitcoiny", ve kterém navrhl vytvořit seznam různých služeb, které bitcoin přijímají. Bylo to v této době, kdy nové fórum začalo získávat na popularitě a zprávy začaly rychle přibývat. Dne 7. února Satoshi [upozornil](https://mmalmi.github.io/satoshi/#email-153) Marttiho Malmiho, že "fórum opravdu nabírá na obrátkách. &nbsp;Nechtěl jsem očekávat tolik aktivit tak rychle."
 Dne 5. února NLS [navrhl](https://bitcointalk.org/index.php?topic=41.msg238#msg238), aby bitcoin, podobně jako měny obchodované na devizovém trhu, přijal ticker symbol BTC a symbol thajského bahtu (฿). Do té doby neexistovala žádná ustálená praxe: například Satoshi a Martti používali písmena `bc` pro popis jednotek ve své [korespondenci](https://mmalmi.github.io/satoshi/#email-119). Používání symbolu BTC se rychle standardizovalo. Dne 24. února byl symbol měny (velké B protkané dvěma svislými pruhy) [navržen](https://bitcointalk.org/index.php?topic=64.msg504#msg504) Satoshi, který poté vytvořil první skutečné logo Bitcoinu.
 
-![První skutečné logo Bitcoinu navržené Satoshi Nakamotem (2010)](assets/en/032.webp)
+![První skutečné logo Bitcoinu navržené Satoshi Nakamotem (2010)](assets/cs/032.webp)
 
 Postupně lidé začali bitcoin přijímat. To byl případ uživatele SmokeTooMuch v prosinci 2009, který právě přišel a [oznámil existenci](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) služby prodeje dárkových karet paysafecard pojmenované BTC 2 PSC. Služba byla později [zmíněna](https://mmalmi.github.io/satoshi/#email-141) pozitivně Satoshi dne 4. února 2010. To byl také případ NLS, který 9. února [otevřel](https://bitcointalk.org/index.php?topic=30.msg305#msg305) svůj vlastní online obchod, Liberty Swap Variety Shop, kde nabízel na prodej známky a samolepky.
 
@@ -705,7 +708,7 @@ Výměna s dolarem se také rozvíjela a během dvou měsíců otevřely své br
 - BitcoinFX (bitcoinfx.cz.cc), služba pro prodej bitcoinů za dolary Liberty Reserve, která je [oznámena](https://bitcointalk.org/index.php?topic=30.msg194#msg194) 15. února;
 - BitcoinExchange (bitcoinexchange.com), platforma Marttiho Malmiho, která unikátně [hodnotí](https://mmalmi.github.io/satoshi/#email-25) nabídku a poptávku zvažováním eur a bitcoinů vložených uživateli, a která je [otevřena veřejnosti](https://bitcointalk.org/index.php?topic=68.msg591#msg591) 2. března 2010;
 - Bitcoin Market (bitcoinmarket.com), peer-to-peer tržiště využívající PayPal, které je [spuštěno](https://bitcointalk.org/index.php?topic=20.msg726#msg726) někým jménem dwdollar 16. března a které zaznamená významný úspěch před vznikem Mt. Gox v červenci.
-![Pozdější zachycení rozhraní Bitcoin Market, 26. srpna 2011](assets/en/033.webp)[Zachycení](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) rozhraní Bitcoin Market později (srpen 2011)
+![Pozdější zachycení rozhraní Bitcoin Market, 26. srpna 2011](assets/cs/033.webp)[Zachycení](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) rozhraní Bitcoin Market později (srpen 2011)
 
 Dne 11. března se koná první pokerová hra s použitím bitcoinů, kterou [organizuje](https://bitcointalk.org/index.php?topic=80.msg781#msg781) správce BitcoinFX, čímž zahajuje silný vztah, který bude mezi hazardními hrami a kryptoměnou existovat. Hru vyhrává dwdollar, který získává [600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761).
 
@@ -713,7 +716,7 @@ Objevují se další služby přijímající bitcoiny, jako je služba hlasu př
 
 Také se objevuje první specializovaná úschovná služba pro Bitcoin: je to MyBitcoin, webová aplikace umožňující snadné a klidné používání kryptoměny, zejména na mobilních zařízeních. Díky této službě skutečně není nutné stahovat kompletní řetězec dat pro odesílání a přijímání transakcí, ani si uchovávat bitcoiny samotné tím, že si uložíte své privátní klíče.
 
-![Logo MyBitcoin z archivu stránky mybitcoin.com](assets/en/034.webp)
+![Logo MyBitcoin z archivu stránky mybitcoin.com](assets/cs/034.webp)
 
 V té době ještě neexistovaly lehké peněženky (známé jako "SPV"), takže sám Satoshi Nakamoto považoval použití tohoto typu softwaru za přijatelné, i když toto použití šlo proti principu disintermediace, který je v srdci Bitcoinu. Dne 18. května 2010 [napsal](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na fóru:
 
@@ -753,14 +756,14 @@ V této kapitole se podíváme na první nasazení těžby pomocí grafického p
 Stále rostoucí poptávka po bitcoinu byla doprovázena postupným nárůstem těžební aktivity v síti. Během roku 2009 byla obtížnost v síti na minimální úrovni 1, což vyžadovalo, aby všechny uzly provedly přibližně 4,3 miliardy výpočtů pro vytěžení bloku. Nicméně, v prosinci 2009 se to změnilo díky algoritmu úpravy, který zvýšil faktor obtížnosti z 1 na 1,18.
 Satoshi Nakamoto byl velmi znepokojen tímto nárůstem obtížnosti a od února 2010 udržoval [historii](https://bitcointalk.org/index.php?topic=43.msg249#msg249) na fóru. Vypadalo to takto:
 
-![Vývoj obtížnosti, jak jej popsal Satoshi Nakamoto na fóru](assets/en/035.webp)
+![Vývoj obtížnosti, jak jej popsal Satoshi Nakamoto na fóru](assets/cs/035.webp)
 
 Přes toto nadšení z nárůstu výpočetního výkonu v síti, Satoshi se přesto snažil zpomalit specializaci těžby, aby podpořil distribuci jednotek. Do té doby těžaři používali své centrální procesorové jednotky (CPU) k extrakci nových bitcoinů. Nicméně, tyto procesory se ukázaly být neefektivní pro provádění opakovaných operací ve srovnání s grafickými procesorovými jednotkami (GPU), které jsou na tento typ opakovaných výpočtů mnohem vhodnější. V důsledku toho všichni v té době věděli, že tento vývoj je nevyhnutelný, včetně samotného Satoshiho. Dne 19. prosince 2009 [prohlásil](https://bitcointalk.org/index.php?topic=12.msg54#msg54) následovně:
 "Měli bychom mít gentlemanovu dohodu, abychom co nejdéle odložili závod ve vývoji GPU pro dobro sítě. Je mnohem snazší získat nové uživatele, pokud se nemusí starat o ovladače GPU a kompatibilitu. Je skvělé, jak kdokoli jen s CPU může soutěžit poměrně rovnocenně právě teď."
 
 Nicméně, o několik měsíců později byla Pandorina skříňka otevřena. Troublemakerem je Laszlo Hanyecz, 28letý americký vývojář maďarského původu, žijící na Floridě. Bitcoin objevil v dubnu 2010. Devátého [získal](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3 300 bitcoinů od NLS za přibližně 20 dolarů, poté systém otestoval několika převody. Osmnáctého se pokusil zatížit síť tím, že násobil transakce ze své [veřejné adresy](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), ale síť to vydržela.
 
-![Laszlo Hanyecz se svým synem v květnu 2018](assets/en/036.webp)
+![Laszlo Hanyecz se svým synem v květnu 2018](assets/cs/036.webp)
 Laszlo Hanyecz se svým synem v květnu 2018 (zdroj: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 Následně [upravil](https://bitcointalk.org/index.php?topic=116.msg972#msg972) software tak, aby fungoval na operačním systému Mac OS X. Poté pracoval na optimalizaci těžby s využitím prostředí OpenCL, které umožňuje [zapojení GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) do generování bitcoinů. Desátého května publikoval svůj [spustitelný soubor](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) a [nabídl](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) psaní patchů, aby umožnil ostatním těžařům to samé. Tato optimalizace mu rychle umožnila zaujmout významné místo ve výrobě bloků. Koncem dubna Laszlo kontaktoval Satoshiho, aby se zeptal na jeho názor, ale ten odpověděl až 17. května. Tvůrce Bitcoinu ho pak [požádal](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/), aby zpomalil své operace, aby těžba zůstala dostupná pro co největší počet lidí:
 > "Velkým lákadlem pro nové uživatele je, že kdokoli s počítačem může generovat nějaké volné mince. Když bude 5000 uživatelů, tento podnět může vyprchat, ale zatím to stále platí. GPU by předčasně omezily podnět pouze pro ty s high-endovým hardvarem GPU. Je nevyhnutelné, že výpočetní klastry GPU nakonec získají všechny vygenerované mince, ale nechci tento den příliš uspěchat. (...) Nechci znít jako socialistka, nevadí mi, pokud je bohatství koncentrováno, ale zatím získáme více růstu tím, že tyto peníze dáme 100% lidí, než když je dáme 20%. Navíc, čím déle můžeme odložit závod ve vývoji GPU, tím zralejší budou knihovny OpenCL a více lidí bude mít video karty kompatibilní s OpenCL."
@@ -773,18 +776,18 @@ Tento nárůst v těžbě měl také významný důsledek: Satoshi přestal prod
 
 Těžební aktivita Satoshiho má specifický vzor, který umožňuje identifikovat bloky, které pravděpodobně našel, s několika falešnými pozitivy. Tento těžební vzor byl zdůrazněn vývojářem Sergio Lernerem v roce 2013 a byl pojmenován Patoshi Pattern.
 
-![Patoshi Pattern mezi bloky 0 a 50,000](assets/en/037.webp)
+![Patoshi Pattern mezi bloky 0 a 50,000](assets/cs/037.webp)
 
 Patoshi Pattern mezi bloky 0 a 50,000, jak je pozorován na webu [satoshiblocks.info](http://satoshiblocks.info/): každý bod odpovídá bloku, modré čáry jsou tvořeny z Satoshiho bloků, ostatní čáry reprezentují výstupy ostatních těžařů.
 Podle studie Whale Alert zveřejněné v roce 2020 Satoshi těžil přibližně 22 500 bloků a tímto způsobem nahromadil 1 122 693 bitcoinů, což je více než 5 % z plánovaných 21 milionů jednotek. Většinu roku 2009 síť spoléhala na výpočetní výkon svého zakladatele. Tato závislost byla ilustrována v srpnu 2009, který byl nejhorším obdobím z hlediska těžební aktivity a koincidoval s obdobím "pauzy" pro Satoshiho, kdy pravděpodobně méně sledoval své stroje. Skutečně, během tohoto srpna bylo vyprodukováno pouze 1 564 bloků z očekávaných 4 464, což odpovídá průměrnému času 28 minut a 30 sekund.
 
 S nárůstem výpočetního výkonu na podzim roku 2009 se podíl Satoshiho výpočetního výkonu vzhledem k celkovému výkonu sítě postupně snižoval. Klesl z 75 % v březnu 2009 na 60 % v září, poté na 15 % v prosinci a dosáhl 0 % v květnu. Níže je graf od [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) z roku 2014:
 
-![Odhad podílu Satoshiho výpočetního výkonu vzhledem k celkovému výkonu mezi lednem 2009 a červencem 2010](assets/en/038.webp)
+![Odhad podílu Satoshiho výpočetního výkonu vzhledem k celkovému výkonu mezi lednem 2009 a červencem 2010](assets/cs/038.webp)
 
 Navíc pokles dominance Satoshiho v těžbě není pouze pasivní: sám zpomaluje svou produkci během téhož období. Satoshiho vyhlášeným cílem je, aby se každý podílel: netěží pro finanční zisk, ale aby zajistil provoz sítě, dokud nezačnou fungovat pobídky. Takto třikrát snižuje svůj hash rate (počet výpočtů provedených každou sekundu) během tohoto období těžby: poprvé z 4,5 na 2,5 MH/s v červnu 2009, podruhé z 2,5 na 1 MH/s v říjnu a potřetí z 1 na 0 MH/s v květnu 2010. Zde je graf jeho vývoje hash rate během tohoto období ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)):
 
-![Odhad Satoshiho hash rate mezi lednem 2009 a květnem 2010](assets/en/039.webp)
+![Odhad Satoshiho hash rate mezi lednem 2009 a květnem 2010](assets/cs/039.webp)
 
 Satoshiho těžba je tedy rozhodně altruistická, jak poukazuje [Jameson Lopp](https://blog.lopp.net/was-satoshi-a-greedy-miner/). Když přestane těžit 3. května 2010 (jeho poslední blok je [blok 54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), představuje to další úspěch v pomalém vývoji Bitcoinu: převzetí potvrzování transakcí ekonomickými aktéry.
 
@@ -795,12 +798,12 @@ Květen 2010 je také poznamenán zásadní událostí: prvním nákupem fyzick�
 
 Tuto nabídku po čtyřech dnech přijal mladý Kaliforňan jménem Jeremy Sturdivant, který výměnu akceptoval prostřednictvím služby okamžitého zasílání zpráv IRC.
 
-![Jeremy Sturdivant v květnu 2018](assets/en/040.webp)
+![Jeremy Sturdivant v květnu 2018](assets/cs/040.webp)
 Jeremy Sturdivant v květnu 2018 (zdroj: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
 Dne 22. května objednal Jeremy Sturdivant dvě pizzy od Papa John's, které byly doručeny Laszlovi v Jacksonville na Floridě. Výměnou [obdržel](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10 000 bitcoinů, jejichž hodnota byla v té době přibližně 44 dolarů podle kurzu Bitcoin Market. Zde je fotografie těchto dvou pizz, [sdílená](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) samotným Laszlem:
 
-![Pizzy od Papa John's doručené Laszlovi Hanyeczovi 22. května 2010](assets/en/041.webp)
+![Pizzy od Papa John's doručené Laszlovi Hanyeczovi 22. května 2010](assets/cs/041.webp)
 
 To uzavírá první nákup fyzického zboží za bitcoiny, i když tento nákup je nepřímý. Laszlo je [Martti Malmim](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) gratulován s tím, že "byl učiněn velký krok." NLS také přidává [pozitivní komentář](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) k této záležitosti.
 
@@ -814,7 +817,7 @@ Nicméně, zvýšení kupní síly kryptoměny neubralo na symbolice této udál
 
 Toto období také přineslo příchod klíčové postavy v historii Bitcoinu: Gavina Andresena, 44letého vývojáře narozeného v Austrálii, který [získal](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) americkou státní příslušnost v roce 2004 a v té době žil v Amherstu v Massachusetts. Po návratu z cesty do Austrálie a dočasném nezaměstnání objevil Bitcoin na konci května prostřednictvím [článku](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) od Neila McAllistera publikovaného na InfoWorld. Tento článek prezentoval projekt Satoshiho Nakamota jako "inovaci open-source."
 
-![Profilová fotografie Gavina Andresena, pořízená v Townsville, Queensland, Austrálie](assets/en/042.webp)
+![Profilová fotografie Gavina Andresena, pořízená v Townsville, Queensland, Austrálie](assets/cs/042.webp)
 Gavin Andresen v Townsville, Queensland, Austrálie (zdroj: [archiv CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
 Zvědavý a vynalézavý, rychle začal pracovat na osobním projektu: "Bitcoin Faucet", který dává bitcoiny každému, kdo o ně požádá. Dne 11. června [spustil](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) svou službu a představil ji na fóru takto:
@@ -872,7 +875,7 @@ Následně Teppy aktualizoval prezentaci s ohledem na tyto návrhy. Tak bylo na 
 
 > "Co říkáte na tuto disruptivní technologii? Bitcoin je digitální měna založená na peer-to-peer síti bez centrální banky a bez transakčních poplatků. Používá koncept proof-of-work, kde uzly vynakládají výpočetní výkon na hledání balíčků mincí, které poté vysílají do sítě. Analýza spotřeby energie ukazuje, že tržní hodnota Bitcoinů je již nad hodnotou energie potřebné k jejich vygenerování, což naznačuje zdravou poptávku. Komunita doufá, že měna zůstane mimo dosah jakékoli vlády."
 
-![Slashdot Logo v roce 2010](assets/en/043.webp)
+![Slashdot Logo v roce 2010](assets/cs/043.webp)
 
 Publikace si všimla a během několika dní bylo zveřejněno téměř 500 komentářů. Pro Bitcoin toto úspěch vedl k masivnímu přílivu návštěvníků na web a fórum. Používání blockchainu prudce vzrostlo: počet transakcí provedených v síti se zvýšil z 42 dne 10. července na 1 641 dne 12., dosáhl 5 554 dne 14., což bylo historické maximum. Systém vydržel navzdory zvýšené zátěži. Dne 14. vývojář Gavin Andresen [napsal](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) na fóru:
 
@@ -884,12 +887,12 @@ Dalším efektem přílivu lidí ze Slashdotu je zvýšení výpočetního výko
 
 Mezi těmi, kteří díky Slashdotu objevili Bitcoin, byl Jed McCaleb, 35letý americký podnikatel a programátor známý spoluzakládáním a vývojem peer-to-peer softwaru pro sdílení souborů eDonkey2000 v 2000s. Když si uvědomil, jak obtížné je získat Bitcoin výměnou za dolary, rozhodl se "z náhlého popudu" vytvořit efektivní tržiště. K tomu účelu přepracoval jeden ze svých starých projektů vyvinutých v roce 2007: Magic The Gathering Online eXchange (MTGOX), webovou stránku, která umožňovala kupování a prodej karet pro online hru *Magic: The Gathering Online*. Použil doménové jméno tohoto projektu (mtgox.com), které se stalo názvem nové platformy: Mt. Gox, vyslovováno "Mount Gox".
 
-![Jed McCaleb v roce 2013](assets/en/044.webp)
+![Jed McCaleb v roce 2013](assets/cs/044.webp)
 Jed McCaleb v roce 2013 (zdroj: Ariel Zambelich pro [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 Týden později, 18. července, Jed McCaleb spustil svou burzovní platformu a [oznámil](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) to na fóru. Díky své odbornosti zajistil, že platforma fungovala jako automatizované tržiště, podobně jako moderní online burzy. [Podle jeho slov](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891) se odlišovala od Bitcoin Marketu tím, že byla "vždy online, automatizovaná", "stránka byla rychlejší a měla dedikovaný hosting" a "rozhraní bylo uživatelsky přívětivější". V důsledku toho se Mt. Gox rychle stal hlavním způsobem získávání bitcoinů, čímž se etabloval jako referenční místo pro kotace v dolarech.
 
-![Rozhraní platformy Mt. Gox v únoru 2011](assets/en/045.webp)
+![Rozhraní platformy Mt. Gox v únoru 2011](assets/cs/045.webp)
 Rozhraní platformy Mt. Gox v únoru 2011 (zdroj: [archiv Mt. Gox](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 Na začátku platforma přijímala platby přes PayPal. Nicméně v říjnu 2010, po příliš mnoha žádostech o vrácení peněz, PayPal [zablokoval](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) účet Jeda McCaleba, což ho donutilo dočasně pozastavit vklady a výběry na platformě. O několik týdnů později [obnovil](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) převody přidáním Liberty Reserve jako metody platby. Následně také na žádost přijal transakce přes [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) a bankovní převody [v dolarech](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) a [v eurech](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 ### Zrychlující efekt Slashdottingu
@@ -910,7 +913,7 @@ Příliv uživatelů ze Slashdotu také vyžadoval zlepšení softwaru. Bylo tř
 Tvůrce Bitcoinu však na kódu nepracuje sám. Může se spolehnout na Gavina Andresena, který přišel v červnu a stále více se zapojuje do vývoje (od 9. července je [uveden](https://sourceforge.net/p/bitcoin/code/101/) v repozitáři na SourceForge). Jsou zde také lidé, kteří mají zájem o to, jak systém funguje, a hlásí problémy, když se s nimi setkají, jako například Christian Decker (cdecker) nebo Michael Marquardt (lépe známý pod pseudonymem Theymos). Satoshiho také podporují těžaři, kteří upravují kód, aby našli způsoby, jak optimalizovat generování jednotek, jako ArtForz (první osoba, která zřídila farmu pro těžbu, jak uvidíme v další kapitole), německý vývojář Nils Schneider (tcatm), Michael Brown (knightmb) nebo BlackEye.
 Nakonec můžeme zmínit Jeffa Garzika (používajícího na fóru pseudonym jgarzik), který je americkým vývojářem, přispěvatelem ve světě svobodného softwaru, zejména pro distribuci Red Hat, a je stoupencem libertariánství a ekonomické školy Rakouska. Bitcoin objevil prostřednictvím článku zveřejněného na Slashdot a téměř okamžitě se zapojil do Bitcoinu.
 
-![Jeff Garzik v roce 2013](assets/en/046.webp)
+![Jeff Garzik v roce 2013](assets/cs/046.webp)
 Jeff Garzik v roce 2013 (zdroj: [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
 Prvním cílem Satoshiho je zabezpečit software a protokol, aby vydržel nedávný nárůst využití. Společně s Gavinem Andresenem zvažují různé útoky, které by mohly nastat (včetně útoků typu denial of service) a snaží se opravit objevené zranitelnosti. Takto je 17. července přidán systém kontrolních bodů ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), který brání přepisování řetězce před určitým datem, a 25. července je integrován pojem práce ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)) pro zpřesnění mechanismu výběru správného řetězce uzly.
@@ -946,7 +949,7 @@ Tento parametr byl [přidán](https://sourceforge.net/p/bitcoin/code/103/) diskr
 
 Ačkoli Satoshi existence limitu velikosti bloku nezmínil, několik lidí si jeho přítomnost v kódu časem všimlo. Takto bylo na to upozorněno již 12. srpna členem ruskojazyčného fóra, který používal pseudonym throughput a [uvedl](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873) v relativně příznivém tónu, že "Dalším zajímavým aspektem je, že velikost bloku v bytech (takže počet transakcí v něm) je omezena." Později, 30. září, byl to Theymos, kdo [upozornil](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) dalšího člena, že "Bitcoin nepovolí bloky větší než 1MB, takže při předpokladu (spíše malé) průměrné velikosti transakce 216 bajtů, Bitcoin může zpracovat pouze 4 629 transakcí každých 10 minut."
 Nakonec přítomnost tohoto parametru ovlivňuje Jeffa Garzika, který [prohlašuje](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750), že je "mnohem více znepokojen škálovatelností než vypnutím vlády" a který [se ptá](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107), jak je možné "prodat bitcoin vážným investorům, s vestavěnými omezeními jako je limit 463 transakcí za minutu." Důsledkem toho 3. října navrhuje na fóru patch, který by zvýšil limit velikosti bloku na 7.168 MB, aby "odpovídal průměrné rychlosti transakcí PayPalu." Theymos reaguje tím, že "použití tohoto patche vás udělá nekompatibilními s ostatními Bitcoin klienty." Toto sdělení podporuje Satoshi Nakamoto, který [doporučuje](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) nepoužívat patch a uvádí: "Můžeme změnu postupně zavést později, pokud se k tomu přiblížíme." Ten druhý [objasňuje](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) své myšlenky následující den tím, že poskytuje pokyny, jak provést takovou změnu protokolu.
-![Zpráva od Satoshi Nakamoto popisující zvýšení limitu velikosti bloku v roce 2010](assets/en/047.webp)
+![Zpráva od Satoshi Nakamoto popisující zvýšení limitu velikosti bloku v roce 2010](assets/cs/047.webp)
 
 Tato diskuse znamená začátek debaty o škálovatelnosti, která by nakonec vedla k opravdové občanské válce mezi lety 2015 a 2017, známé jako válka o velikost bloku.
 
@@ -977,11 +980,11 @@ Toto období bylo zvláště zlatou érou pro těžbu, která viděla významná
 
 Po tom, co byl Bitcoin slashdotted v červenci 2010, vysoká finanční odměna způsobená nárůstem ceny a možností budoucího růstu povzbudila jednotlivce, aby se intenzivněji věnovali generování bitcoinů. To je důvod, proč [hash rate](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) sítě, který byl 11. července 0,22 GH/s, vzrostl na 2,78 GH/s 17. července, poté na 5,79 GH/s 15. srpna, aby nakonec dosáhl 9,94 GH/s 19. září a nakonec 12,58 GH/s 29. září.
 
-![Celkový hash rate sítě od 11. července do 5. října 2010](assets/en/048.webp)
+![Celkový hash rate sítě od 11. července do 5. října 2010](assets/cs/048.webp)
 Celkový hash rate sítě od 11. července do 5. října 2010 (zdroj: [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
 Největším těžařem této doby byl německý vývojář, který používal jméno ArtForz. Poté, co se o Bitcoinu dozvěděl prostřednictvím Slashdot, rychle se zapojil do vývoje softwaru a strávil spoustu času na IRC kanálu #bitcoin-dev. Zejména vyvinul svůj vlastní algoritmus pro těžbu pomocí GPU s OpenCL, který spouštěl na grafické kartě svého počítače. Začal generovat bitcoiny 19. července. Dne 25. července, v diskuzním vlákně, které se ptalo uživatelů na jejich držení bitcoinů, ArtForz [uvedl](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617), že za 6 dní vygeneroval 1 700 bitcoinů, což odpovídá 4 % hash rate, neboli 80 MH/s. Postupně si vybudoval velkou těžební farmu, která byla známá jako "ArtFarm." V srpnu jeho farma [zahrnovala](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 ATI Radeon HD 5770, což mu umožnilo zvýšit výkon z 76 MH/s 9. srpna na přibližně 450 MH/s 13. srpna.
 
-![Těžební produkce ArtForze mezi srpnem a říjnem 2010](assets/en/049.webp)
+![Těžební produkce ArtForze mezi srpnem a říjnem 2010](assets/cs/049.webp)
 Těžební produkce ArtForze mezi srpnem a říjnem 2010 (zdroj: Blackburn et al., "[Spolupráce mezi anonymní skupinou chránila Bitcoin během selhání decentralizace](https://arxiv.org/pdf/2206.02871)")
 
 Během týdnů ArtForz ovládal významnou část výpočetního výkonu sítě. Dne 2. září těžař puddinpop [uvedl](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957), že má "přibližně 12 5770s používajících jeho OpenCL klienta" a že má "více než 1 Ghash/s," což mu dává "20 % hash kapacity sítě." (*originál: "ArtForz, na IRC, má jako 12 nebo tak 5770s běžících jeho vlastní OpenCL klienta. Celá síť dělá něco kolem 5-6Ghash/s, a on sám uvedl, že má přes 1Ghash/s."*) Dne 23. září ArtForz [prohlásil](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0), že drží hash rate téměř 2 GH/s, což stále představuje 20 % hashingu. Dne 3. října theymos [uvedl](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118), že ArtForz "má 20 až 30 % výpočetního výkonu sítě." (*originál: "má 20-30 % výpočetního výkonu sítě"*)
@@ -1008,7 +1011,7 @@ Dne 23. listopadu byla do [kódu](https://bitcointalk.org/index.php?topic=1901.m
 
 Dne 27. listopadu mladý český vývojář Marek Palatinus, používající pseudonym slush, [zveřejnil](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) popis "kooperativní těžby" na fóru, model, který využívá `getwork` a logiku Jeffa Garzika. Tento model je založen na částečných důkazech práce produkovaných těžaři (pay-per-share). Následující den Satoshi Nakamoto [schválil](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) koncept.
 
-![Marek Palatinus (slush) na konferenci Z-DAY v Praze 11. května 2013](assets/en/050.webp)
+![Marek Palatinus (slush) na konferenci Z-DAY v Praze 11. května 2013](assets/cs/050.webp)
 Marek Palatinus (slush) na konferenci Z-DAY v Praze 11. května 2013
 Dva odhadovací modely byly implementovány v prosinci. Nejprve byl 1. prosince aplikován koncept puddinpop uživatelem doublec, který [pozval](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) lidi, aby se připojili k jeho serveru pro sdílené těžení. Skupina, která se formovala, [vytěžila](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) svůj první blok (95,420) 4. prosince. Po vytěžení dalšího bloku o několik dní později byl server doublec [vypnut](https://bluishcoder.co.nz/bitcoin-pool/) 15. prosince. Služba trvale uzavřela své dveře 17. prosince kvůli vzniku mnohem efektivnějšího kooperativu: Bitcoin.cz Mining.
 
@@ -1018,7 +1021,7 @@ Během noci z 15. na 16. prosince byl kooperativ konečně [spuštěn](https://b
 
 Kooperativ se stal referencí v těžbě Bitcoinu. Během let [několikrát změnil](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) název: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining a nakonec Slush Pool, na počest svého zakladatele. V září 2022 se stal Braiins Pool.
 
-![Logo kooperativu Slush z září 2011](assets/en/051.webp)
+![Logo kooperativu Slush z září 2011](assets/cs/051.webp)
 Logo kooperativu Slush z září 2011 (zdroj: [archiv](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) stránky)
 
 ### Velký skok vpřed v těžbě
@@ -1044,32 +1047,32 @@ S francouzskou komunitou se věci změnily, zejména díky akcím jedné osoby: 
 
 O několik dní později, 30. září, publikoval [tiskovou zprávu](https://linuxfr.org/news/connaissez-vous-les-bitcoins) ve francouzštině na LinuxFr.org (DLFP). Tato zpráva, s názvem "Znáte bitcoiny?", je pravděpodobně první prezentací Bitcoinu napsanou v jazyce Molièra. Článek dosáhl velkého počtu lidí, generoval téměř 350 komentářů. Zde je první odstavec, jak [se objevil](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) v té době:
 
-![Znáte bitcoiny?](assets/en/052.webp)
+![Znáte bitcoiny?](assets/cs/052.webp)
 > **Články: Znáte bitcoiny?** Bitcoin je elektronická měna navržená v roce 2009 jistým Satoshim Nakamotem. Tato měna se odlišuje od ostatních elektronických měn svou plně decentralizovanou povahou peer-to-peer a chytrým využitím základních kryptografických konceptů. Opírá se o software napsaný v jazyce C++ a zveřejněný pod svobodnou licencí MIT.
 
 Konkrétně tento příspěvek má za účinek přitáhnout pozornost určitého Plouma, skutečné jméno Lionel Dricot, 29letého belgického blogera a zastánce svobodného softwaru. Dne 25. října [publikoval](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) na svém blogu článek s názvem "Geek Currency, Monkey Money?", ve kterém se vyslovuje pro decentralizaci a podporuje princip Bitcoinu. Mnoho francouzsky mluvících internetových uživatelů se o Bitcoinu dozvědělo právě tímto způsobem, včetně [Amaury Sécheta](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), vývojáře, který později v roce 2017 vytvořil Bitcoin Cash.
-![Lionel Dricot (Ploum) v roce 2012, tehdy kandidát pod záštitou Pirátské strany pro belgické komunální a provinciální volby](assets/en/053.webp)
+![Lionel Dricot (Ploum) v roce 2012, tehdy kandidát pod záštitou Pirátské strany pro belgické komunální a provinciální volby](assets/cs/053.webp)
 Lionel Dricot (Ploum) v roce 2012, tehdy kandidát pod záštitou Pirátské strany pro belgické komunální a provinciální volby (zdroj: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
 Tentýž den Ploum otevřel [diskusní vlákno](https://bitcointalk.org/index.php?topic=1567.0) "Francouzské" na fóru Bitcoin. Zprávy od francouzsky mluvících členů fóra se v následujících měsících zvyšovaly. Zvláště David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), zaregistrovaný 17. října a budoucí zakladatel Bitcoin-Central, a Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), zaregistrovaný 7. listopadu a budoucí majitel platformy Mt. Gox, se zúčastnili. Viděli jsme také zapojení určitého Jean-Luca, který by otevřel stránku [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) 23. prosince a začal ji [propagovat](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) v lednu. [Francouzské sub-fórum](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) bylo nakonec vytvořeno Marttim Malmim 1. února 2011.
 
 ### Rozvoj komunikace
 Kromě rozvoje jazykových komunit dochází také k určité inovaci v metodách používaných pro komunikaci o Bitcoinu. Dne 4. října 38letý Australan používající pseudonym noagendamarket [spustil](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) iniciativu s názvem BitcoinMedia. Cílem je propagovat Bitcoin vytvářením různých obsahů a jejich reklamou na místech, která pravděpodobně přilákají publikum. Ačkoli tato iniciativa nesplnila očekávaný úspěch, má zásluhu na vzniku prvních videí mluvících o Bitcoinu. První video kanálu, [publikované](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) 5. října, je Google Search Story, vytvořené pomocí nástroje Youtube (viz snímek obrazovky níže). Další videa budou generována s Xtranormal, jednoduchým nástrojem pro vytváření video sekvencí z předem navržených postav a prostředí.
-![První video o Bitcoinu (Google Search Story)](assets/en/054.webp)
+![První video o Bitcoinu (Google Search Story)](assets/cs/054.webp)
 
 Blogové příspěvky o Bitcoinu se v tomto období množí. To je zvláště případ Jon Matonise, který vede blog *The Monetary Future*, kde diskutuje témata související s digitálními měnami, svobodným bankovnictvím a kryptografií. Bitcoin objevil v březnu a [vyměnil si zprávy](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) se Satoshi, po čemž začal o tématu psát. V říjnu publikuje [třetí článek](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html), kde mluví o nárůstu ceny a popisuje novinky v ekosystému.
 
-![Profilový obrázek Jon Matonise v roce 2011](assets/en/055.webp)
+![Profilový obrázek Jon Matonise v roce 2011](assets/cs/055.webp)
 Profilový obrázek Jon Matonise v roce 2011 (zdroj: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 Také v této době je navrženo nové logo Bitcoinu. Dne 1. listopadu člen fóra používající pseudonym bitboy [publikoval](https://bitcointalk.org/index.php?topic=1631.0) grafické prvky k zvýraznění kryptoměny. Jedním z těchto prvků je oranžové logo s přeškrtnutým a mírně nakloněným B:
 
-![Logo Bitcoinu navržené bitboyem, listopad 2010](assets/en/056.webp)
+![Logo Bitcoinu navržené bitboyem, listopad 2010](assets/cs/056.webp)
 
 ### Rozvíjející se ekonomika
 Toto období je také poznamenáno pozoruhodným růstem ekosystému na ekonomické úrovni. Během podzimu 2010 existují platformy jako Mt. Gox, Bitcoin Market a několik dalších, ale to nestačí. Takto začínají vznikat mimoburzovní směnárny. Kromě směn, které probíhají prostřednictvím soukromých zpráv na fóru, je zaveden mírně přísnější systém: #bitcoin-otc. Jedná se o IRC kanál na Freenode [otevřený](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) uživatelem s přezdívkou nanotube 18. října. Kniha objednávek je hostována na [přidruženém webu](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php) a výměny probíhají přímo mezi stranami, bez depozitu do escrow, prostřednictvím různých platebních metod (PayPal, Liberty Reserve). Počet služeb přijímajících bitcoin také roste, i když zůstává relativně nízký, jak [dokládá](https://web.archive.org/web/20101120224505/http://www.bitcoin.org/trade) seznamová stránka oficiálního webu. Všechny tyto prvky vedou k prudkému nárůstu ceny. Zatímco od srpna se stabilizuje kolem 6¢, na začátku října začíná růst. Dostává se na 10¢, aby na konci měsíce dosáhla 20¢. 6. listopadu dokonce překročí 50¢, což nepochybně [vzrušuje](https://bitcointalk.org/index.php?topic=1681.0) členy fóra.
 
-![Cena BTC mezi 18. červencem a 18. říjnem 2010 na Mt. Gox](assets/en/057.webp)
+![Cena BTC mezi 18. červencem a 18. říjnem 2010 na Mt. Gox](assets/cs/057.webp)
 Cena BTC mezi 18. červencem a 18. říjnem 2010 na Mt. Gox (zdroj: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
 
 Růst Bitcoinu znamená, že se začínají měřit různé aspekty, ať už jde o cenu, aktivitu na řetězci nebo těžbu. Všichni vědí, že ekosystém zažívá určitý růst, ale nikdo neví, jak ho správně odhadnout. Proto v druhé polovině roku 2010 a na začátku roku 2011 vznikají různé služby, mezi hlavní patří:
@@ -1086,7 +1089,7 @@ Posledním prvkem ukazujícím na úspěch Bitcoinu je fakt, že někteří se s
 
 Významnou událostí na konci roku 2010 bylo přijetí bitcoinu Electronic Frontier Foundation, mezinárodní organizací na ochranu svobod na internetu, kterou v roce 1900 spoluzaložili Mitch Kapor, John Gilmore a John Perry Barlow. To bylo zvláště důležité pro první příznivce Bitcoinu, kteří byli v srdci cypherpunks. Byli nadšeni, že jej přijme.
 
-![Logo Electronic Frontier Foundation](assets/en/058.webp)
+![Logo Electronic Frontier Foundation](assets/cs/058.webp)
 
 Iniciativu 13. srpna 2010 vzal člen fóra s přezdívkou Kiba, který [navrhl](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) kontaktovat EFF a navrhnout, aby přijali dar, [shromážděný](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) od komunity. Za tímto účelem si zřídil [účet](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) na MyBitcoin, kde shromáždil finanční prostředky a chtěl předat přístup EFF. Na konci srpna odeslal e-mail (opravený komunitou).
 
@@ -1138,13 +1141,13 @@ Gavin, který je blízko Satoshi, ale také diskutuje s ostatními vývojáři, 
 
 Spouštěcím momentem pro Satoshiho odchod je aféra WikiLeaks. WikiLeaks je nevládní organizace založená cypherpunkem Julianem Assangem v roce 2006 s cílem dát hlas whistleblowerům a únikům informací při ochraně jejich zdrojů. Během roku 2010 jsou důvěrné dokumenty odhalené touto neziskovou organizací šířeny hlavními médii a vyvolávají rozruch ve veřejném mínění. Ty se týkají zejména nadměrných akcí americké armády, jako jsou civilní oběti a akty mučení spáchané v Afghánistánu (Afghan War Diary) a Iráku (Iraq War Logs).
 
-![Logo WikiLeaks v listopadu 2010](assets/en/059.webp)
+![Logo WikiLeaks v listopadu 2010](assets/cs/059.webp)
 
 Financování WikiLeaks je primárně založeno na veřejných darováních, takže organizace spoléhá na platební procesory pro přijímání online plateb. Nicméně, po těchto odhaleních, je na tyto prostředníky vyvíjen tlak, který se obává reakce regulátora. To je důvod, proč online platební společnost Moneybookers [zmrazuje](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) účet neziskové organizace dne 14. října.
 
 Tato situace otevírá královskou cestu pro použití Bitcoinu, který nespoléhá na žádnou důvěryhodnou třetí stranu a mnohem lépe by odolával finanční cenzuře. Hypotéza je otevřena na fóru v listopadu Amir Taaki, 22letý Brit iránského původu používající pseudonym genjix.
 
-![Amir Taaki v prosinci 2012 v Bratislavě](assets/en/060.webp)
+![Amir Taaki v prosinci 2012 v Bratislavě](assets/cs/060.webp)
 Amir Taaki v prosinci 2012 v Bratislavě (zdroj: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 Hacker, anarchista a [pokerový hráč](https://bitcointalk.org/index.php?topic=1487.0), nedávno se dozvěděl o modelu Satoshiho Nakamota. Ve situaci WikiLeaks vidí příležitost ukázat užitečnost Bitcoinu. Dne 10. listopadu [napíše](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271) na fóru následující zprávu:
 > "Chtěl jsem poslat dopis WikiLeaks o Bitcoinu, protože bohužel měli několik incidentů, kdy jim byly zabaveny finanční prostředky. [...] Neví někdo, kam jim poslat zprávu?"
@@ -1248,23 +1251,23 @@ Kvůli nedostatku času byl Martti nucen postupně ukončit provoz své směnár
 Ale primárně je potřeba, aby Martti delegoval správu webu. Na konci roku 2010 a na začátku roku 2011 se Bitcoin.org setkal s [některými](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [problémy](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775). Dne 28. března Martti [zveřejnil](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922) oznámení na fóru, ve kterém žádal o technickou pomoc a obdržel několik odpovědí. Hosting byl poté [zpevněn](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002), což zabránilo odstávce webu při každém masivním přílivu návštěvníků.
 Jeho vzhled se také změnil. V prosinci 2010 web stále vypadal, jak vypadalo za éry Satoshiho. Zde je [snímek](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/) z 5. prosince:
 
-![Snímek Bitcoin.org z 5. prosince 2010](assets/en/061.webp)
+![Snímek Bitcoin.org z 5. prosince 2010](assets/cs/061.webp)
 
 Tak byl na začátku roku 2011 [přidán](https://web.archive.org/web/20110216125441/http://www.bitcoin.org/) nádech barvy:
 
-![Snímek Bitcoin.org z 16. února 2011](assets/en/062.webp)
+![Snímek Bitcoin.org z 16. února 2011](assets/cs/062.webp)
 
 V dubnu, po redesignu [organizovaném](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) komunitou, se změnil layout webu. Zde je, jak to [vypadalo](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/) tehdy:
 
-![Snímek Bitcoin.org z 11. dubna 2011](assets/en/063.webp)
+![Snímek Bitcoin.org z 11. dubna 2011](assets/cs/063.webp)
 
 Nakonec, v září 2011, byla [provedena](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691) nová změna Nils Schneiderem. Pro tuto příležitost byl [vytvořen](https://github.com/bitcoin/bitcoin.org) nový GitHub repozitář. Tento design vydržel déle: nezměnil se až do roku 2013. Zde je (všimněte si, že Bitcoin-the-software je tehdy popsán jako "komunitou řízený open source projekt"):
 
-![Snímek Bitcoin.org z 23. září 2011](assets/en/064.webp)
+![Snímek Bitcoin.org z 23. září 2011](assets/cs/064.webp)
 
 Pokud jde o wiki, původně bylo založeno na DokuWiki, volně dostupném enginu integrovaném do webu. Nicméně, v prosinci 2010, Mark Karpelès, francouzský vývojář žijící v Japonsku a používající na fóru pseudonym MagicalTux, vytvořil nové wiki na adrese bitcoin.it. Toto wiki je založeno na enginu MediaWiki, který považuje za elegantnější a snadněji použitelný. Původní myšlenka není nahradit stávající dokumentaci, ale, jak Mark [vyjádřil](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) na IRC, vyvinout "méně formální, více komunitně orientované wiki."
 Tato nová wiki zaujala [Marttiho Malmiho](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) a [Gavina Andresena](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), takže rychle zvažují, že ji učiní hlavní wiki. Zde je [snímek](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page) pořízený 21. května:
-![Snímek Bitcoin.it wiki z 21. května 2011](assets/en/065.webp)
+![Snímek Bitcoin.it wiki z 21. května 2011](assets/cs/065.webp)
 
 Několik dní po spuštění odkaz s názvem "wiki" na domovské stránce Bitcoin.org [ukazuje](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) na Bitcoin.it. Obsah je postupně přenášen z verze DokuWiki. Dne 31. ledna Martti [naznačuje](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) na fóru, že toto je nová wiki.
 
@@ -1282,12 +1285,12 @@ První setkání uživatelů Bitcoinu zorganizoval Bruce Wagner, moderátor z Ne
 
 I když se první akce konaly ve Spojených státech, francouzská komunita nezůstala pozadu. Dne 25. května, aby se připomněla návštěva Gavina Andresena v Paříži, byl v oblasti La Défense uspořádán oběd, kterého se zúčastnili významné osobnosti jako Lucien Grondin, David François a Jon Matonis (který také navštívil).
 
-![Setkání v La Défense v Paříži s Gavinem Andresenem, v růžové košili](assets/en/066.webp)
+![Setkání v La Défense v Paříži s Gavinem Andresenem, v růžové košili](assets/cs/066.webp)
 Setkání v La Défense v Paříži s Gavinem Andresenem, v růžové košili (zdroj: [archiv fóra](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
 Měsíc později, 15. června, se [uskutečnila](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831) první veřejná prezentace Bitcoinu ve francouzštině, opět v Paříži. Prezentaci vedl Renaud Lifchitz (nono2357), mladý expert na kybernetickou bezpečnost, který Bitcoin objevil o rok dříve. [Prezentovaný obsah](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) byl velmi kvalitní a účast byla tak velká, že místnost byla plná.
 
-![Prezentace Bitcoinu od Renauda Lifchitze 15. června 2011](assets/en/067.webp)
+![Prezentace Bitcoinu od Renauda Lifchitze 15. června 2011](assets/cs/067.webp)
 Prezentace Bitcoinu od Renauda Lifchitze 15. června 2011 (zdroj: [archiv fóra](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
 Po této zkušenosti pařížská komunita [zorganizovala](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) společenské setkání, které se konalo 11. července. Tato akce spojila jednotlivce jako Pierre Noizat nebo Émilien Dutang.
@@ -1304,7 +1307,7 @@ Za prvé, na Youtube začaly proliferovat videa na toto téma. Dne 22. března s
 
 :::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 V dubnu bylo téma digitální měny pokryto hlavními mainstreamovými médii, jako jsou [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), a [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). V květnu získal tento pohyb na momentu a Bitcoin byl zmíněn téměř všude, zejména na [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), na [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), na [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), a na [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
-![Gavin Andresen v Forbes v dubnu 2011](assets/en/068.webp)
+![Gavin Andresen v Forbes v dubnu 2011](assets/cs/068.webp)
 Gavin Andresen v Forbes v dubnu 2011 (zdroj: [archiv Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
 Rádio bylo také využito k diskusi o kryptoměně. Epizoda kanadského rádiového pořadu CBC Radio byla [věnována](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/) tématu měny a Bitcoinu 27. února. Bitcoin byl také zmíněn v několika epizodách FreeTalkLive, pořadu s libertariánskou orientací ve Spojených státech. Zejména bylo toto téma [diskutováno](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16) podrobněji 16. března 2011, zejména v kontextu vzestupu Silk Road. Nakonec 24. května byl Bitcoin předmětem [krátkého segmentu](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins) na National Public Radio ve Spojených státech.
@@ -1313,12 +1316,12 @@ Individuální bloggeři mají také zájem. To je případ Ricka Falkvingeho, z
 
 Popularizace Bitcoinu znamená, že jeho cena výrazně stoupá. Zatímco v prosinci 2010 klesla na 20 centů, 9. února 2011 dosáhla parity s dolarem. V té době Hal Finney [prohlásil](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307), že členové komunity jsou "opravdu šťastní, že jsou na začátku možně explozivního nového fenoménu." Měl dobrý instinkt, protože to, co následuje, je bleskové.
 
-![Fotografie zveřejněná jimbobwayem na fóru v den parity s dolarem](assets/en/069.webp)
+![Fotografie zveřejněná jimbobwayem na fóru v den parity s dolarem](assets/cs/069.webp)
 Fotografie zveřejněná jimbobwayem na fóru v den parity s dolarem (zdroj: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 Skutečně, mediální šílenství jara vede k postupnému vytvoření dosud nevídaného spekulativního fenoménu. Po několikaměsíční stagnaci kolem 1 dolaru cena stoupá a na konci dubna dosahuje 3 dolarů. V květnu je na 8 dolarech. Nakonec, 8. června, cena bitcoinu dosahuje historického maxima 32 dolarů na Mt. Gox! Tento nárůst odpovídá 160násobnému zvýšení za 6 měsíců.
 
-![Průměrná cena BTC mezi 1. lednem a 30. červnem 2011](assets/en/070.webp)
+![Průměrná cena BTC mezi 1. lednem a 30. červnem 2011](assets/cs/070.webp)
 Průměrná cena BTC mezi 1. lednem a 30. červnem 2011 (zdroj: [Bitbo.io](https://calendar.bitbo.io/price/))
 
 Přirozeně, tento spekulativní pohyb připomíná finanční bublinu, tj. nadhodnocení finančního produktu ve srovnání s jeho základní hodnotou. V případě měny jako Bitcoin jde o prchavé nadšení, které vede k závratnému nárůstu ceny, následovanému prudkým poklesem způsobeným nedostatkem přesvědčení nových účastníků. Takto je vývoj ceny [popisován](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) jako "bublina" sloupkařem Reuters 27. května, v jednom z prvních "nekrologů" Bitcoinu.

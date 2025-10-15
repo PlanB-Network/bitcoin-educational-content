@@ -21,7 +21,7 @@ Sie kennen wahrscheinlich das Sprichwort "Nicht Ihre Schlüssel, nicht Ihre Mün
 
 
 
-BTC 202 ist ein zugänglicher Kurs, der Ihnen beibringen soll, wie Sie Ihren eigenen Bitcoin-Knoten spinnen können, auch wenn Sie kein technischer Experte sind. Wir beginnen damit, zu definieren, was ein Bitcoin-Knoten ist, wozu er dient und warum es absolut notwendig ist, selbst einen zu spinnen. Dann führe ich Sie Schritt für Schritt durch die Auswahl Ihrer Hardware, die Installation der notwendigen Software, den Anschluss Ihres Wallet und die ersten möglichen Optimierungen, um ihn weiterzuentwickeln.
+BTC 202 ist eine leicht zugängliche Schulung, die Ihnen beibringt, wie Sie Ihren eigenen Bitcoin-Knoten betreiben, auch wenn Sie kein technischer Experte sind. Wir beginnen damit, zu definieren, was ein Bitcoin-Knoten ist, wozu er dient und warum es absolut wesentlich ist, einen selbst zu betreiben. Anschließend führe ich Sie Schritt für Schritt durch die Auswahl Ihrer Hardware, die Installation der erforderlichen Software, die Verbindung Ihrer Wallet-Software und die ersten möglichen Optimierungen, um weiterzugehen.
 
 
 
@@ -481,7 +481,7 @@ Wie wir später in diesem Kurs erörtern werden, sind es die Knotenpunkte (d. h.
 
 
 
-## Warum den eigenen Knoten verdrehen?
+## Warum sollte man seinen eigenen Knoten betreiben?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Es gibt eine weit verbreitete Überzeugung, dass der Betrieb eines Bitcoin-Knote
 
 
 
-Wie wir in den vorangegangenen Kapiteln dargelegt haben, bringt das Spinnen eines Knotens in der Tat keinen direkten finanziellen Gewinn. Man könnte also meinen, dass es kein persönliches Interesse daran gibt. Dennoch bringt der Betrieb eines eigenen Knotens viele individuelle Vorteile mit sich. Um Sie davon zu überzeugen, werde ich in diesem Kapitel alle technischen und strategischen Gründe darlegen, warum Sie Ihren eigenen Bitcoin-Knoten installieren und nutzen sollten.
+Wie wir in den vorherigen Kapiteln hervorgehoben haben, bringt der Betrieb eines Knotens keinen direkten finanziellen Gewinn. Man könnte daher denken, dass es keinen persönlichen Nutzen hat, dies zu tun. Dennoch bietet der Betrieb eines eigenen Knotens viele individuelle Vorteile. Um Sie davon zu überzeugen, werde ich in diesem Kapitel alle technischen und strategischen Gründe vorstellen, die Sie dazu bewegen sollten, Ihren eigenen Bitcoin-Knoten zu installieren und zu nutzen.
 
 
 
@@ -576,7 +576,7 @@ Die Installation eines Full node ist kein trivialer Vorgang. Sie umfasst die Ins
 
 
 
-Die Aneignung dieses Wissens stärkt Ihr Vertrauen in das Werkzeug und kann das Risiko von Fehlern oder Betrug verringern. Auch das Spinnen eines eigenen Knotens ist eine Form des Lernens.
+Das Erwerben dieses Wissens stärkt Ihr Vertrauen in das Werkzeug und kann das Risiko von Fehlern oder Betrug verringern. Einen eigenen Knoten zu betreiben bedeutet auch, zu lernen.
 
 
 
@@ -730,7 +730,7 @@ Je nach Bedarf können Sie einen Indexer zu Ihrem Full node hinzufügen. Der Bit
 
 
 
-### Der pruned-Knoten
+### Der beschnittene Knoten
 
 
 
@@ -849,7 +849,7 @@ Das ist der souveränste und flexibelste Ansatz: Sie wissen genau, was läuft, w
 
 
 
-#### Bitcoin core (Ultra-Mehrheitskunde)
+#### Bitcoin Core (überwiegender Client)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (alternativer Hauptkunde)
+#### Bitcoin Knots (wichtigster alternativer Client)
 
 
 
@@ -2590,7 +2590,7 @@ Die Nostr-Clients ***noStrudel*** oder ***Snort*** sind ebenfalls auf Umbrel ver
 
 
 
-Schließlich gibt es noch die ***Nostr Wallet Connect*** App auf Umbrel, die native Lightning-Zahlungen in Nostr ermöglicht. Konkret können Sie Ihren zukünftigen Lightning-Knoten mit Ihren Nostr-Kunden verknüpfen, um Mikrozahlungen, genannt "*zaps*", zu senden, um Inhalte zu belohnen oder auf monetäre Weise zu interagieren, ohne dass Sie einen Drittanbieter-Service in Anspruch nehmen müssen. Diese Zahlungen werden direkt von Ihrem persönlichen Knotenpunkt über Ihre Kanäle gesendet.
+Schließlich gibt es die Anwendung ***Nostr Wallet Connect*** auf Umbrel, die native Lightning-Zahlungen innerhalb von Nostr ermöglicht. Konkret können Sie Ihren zukünftigen Lightning-Knoten mit Ihren Nostr-Clients verbinden, um Mikrozahlungen, sogenannte „*Zaps*“, zu senden, um Inhalte zu belohnen oder auf monetarisierte Weise zu interagieren, ohne einen Drittanbieterdienst zu nutzen. Diese Zahlungen werden direkt von Ihrem persönlichen Knoten über Ihre Kanäle gesendet.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Pflege des Regenschirmknotens
+## Pflege deines Umbrel-Knotens
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Wenn Ihr Knoten an einem offenen Port lauscht (standardmäßig 8333), nimmt er e
 
 
 
-## Anatomie Ihres Bitcoin-Knotens
+## Anatomie deines Bitcoin-Knotens
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

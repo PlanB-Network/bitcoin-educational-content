@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-`name.jpg` को अपनी फ़ाइल के असली नाम से बदलें। यह भी सुनिश्चित करें कि आप उस निर्देशिका में स्थित हों जिसमें यह चित्र है। उदाहरण के लिए, अगर मेरे पास `/Downloads` निर्देशिका में Satoshi नाकामोटो प्रतिमा की तस्वीर है, तो मैं निम्न आदेश चलाकर उसका मेटाडेटा प्रदर्शित कर सकता हूँ:
+`name.webp` को अपनी फ़ाइल के असली नाम से बदलें। यह भी सुनिश्चित करें कि आप उस निर्देशिका में स्थित हों जिसमें यह चित्र है। उदाहरण के लिए, अगर मेरे पास `/Downloads` निर्देशिका में Satoshi नाकामोटो प्रतिमा की तस्वीर है, तो मैं निम्न आदेश चलाकर उसका मेटाडेटा प्रदर्शित कर सकता हूँ:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-यह वर्तमान निर्देशिका में मौजूद सभी JPEG फ़ाइलों का मेटाडेटा हटा देता है। आप अपनी ज़रूरतों के अनुसार एक्सटेंशन को अनुकूलित कर सकते हैं (`*.png`, `*.pdf`...)।
+यह वर्तमान निर्देशिका में मौजूद सभी JPEG फ़ाइलों का मेटाडेटा हटा देता है। आप अपनी ज़रूरतों के अनुसार एक्सटेंशन को अनुकूलित कर सकते हैं (`*.webp`, `*.pdf`...)।
 
 
 

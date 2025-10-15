@@ -1,0 +1,8 @@
+question: What is the primary reason Bitcoin uses addresses derived from public keys as pseudonyms instead of descriptive usernames?
+answer: To enable secure offline address creation without requiring blockchain registration
+wrong_answers:
+  - To make transactions completely anonymous and untraceable on the blockchain
+  - To reduce the computational power needed for transaction verification
+  - To allow unlimited reuse of the same pseudonym across multiple transactions
+explanation: |
+  Bitcoin uses addresses derived from public keys as pseudonyms because this system allows users to securely create new addresses offline without needing to register them on the blockchain first. Using descriptive usernames would require announcing the link between the username and public key on the blockchain, which would cost fees, bloat the blockchain, and reduce security. Additionally, usernames would encourage reuse (reducing privacy) and create impersonation risks. The address-based system eliminates these problems while maintaining the cryptographic security needed for Bitcoin to function properly.

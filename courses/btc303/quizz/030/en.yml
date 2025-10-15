@@ -1,0 +1,8 @@
+question: According to Satoshi Nakamoto's perspective, what effect do lost bitcoins have on the remaining coins in circulation?
+answer: They make everyone else's coins worth slightly more as a donation to everyone
+wrong_answers:
+  - They reduce network security by decreasing the total value available for mining rewards
+  - They create deflationary pressure that destabilizes the monetary system over time
+  - They must be replaced through additional mining to maintain the intended supply level
+explanation: |
+  Satoshi Nakamoto explained that lost coins function as a donation to all other bitcoin holders by making their coins more valuable due to the reduced effective supply. This is a positive deflationary effect, not a destabilizing force. Lost coins don't affect mining rewards since those come from newly minted coins and transaction fees, not from the existing supply. Bitcoin's protocol doesn't replace lost coins - they remain permanently out of circulation, which actually benefits remaining holders through increased scarcity.

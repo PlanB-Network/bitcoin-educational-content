@@ -1,21 +1,17 @@
 ---
-name: Giới thiệu về mật mã học chính thức
+name: Cơ sở của mật mã học hiện đại
 goal: Giới thiệu sâu sắc về khoa học và thực hành mật mã.
-objectives: 
-  - Khám phá mật mã Beale và các phương pháp mật mã hiện đại để hiểu các khái niệm cơ bản và lịch sử về mật mã.
-  - Đi sâu vào lý thuyết số, nhóm và các lĩnh vực để nắm vững các khái niệm toán học quan trọng làm nền tảng cho mật mã học.
-  - Nghiên cứu mã hóa luồng RC4 và AES với khóa 128 bit để tìm hiểu về các thuật toán mã hóa đối xứng.
-  - Nghiên cứu hệ thống mật mã RSA, phân phối khóa và hàm băm để khám phá mật mã bất đối xứng.
-
+objectives:
+- Khám phá mật mã Beale và các phương pháp mật mã hiện đại để hiểu các khái niệm cơ bản và lịch sử về mật mã.
+- Đi sâu vào lý thuyết số, nhóm và các lĩnh vực để nắm vững các khái niệm toán học quan trọng làm nền tảng cho mật mã học.
+- Nghiên cứu mã hóa luồng RC4 và AES với khóa 128 bit để tìm hiểu về các thuật toán mã hóa đối xứng.
+- Nghiên cứu hệ thống mật mã RSA, phân phối khóa và hàm băm để khám phá mật mã bất đối xứng.
 ---
-# Đi sâu vào mật mã
+# Tìm hiểu sâu về Mật mã học Hiện đại
 
-Thật khó để tìm được nhiều tài liệu cung cấp giải pháp trung gian tốt cho giáo dục mật mã.
+Trong khóa học này, chúng ta sẽ đề cập đến những điều cần thiết của mật mã học hiện đại theo cách rõ ràng, dễ tiếp cận, không yêu cầu nền tảng toán học vững chắc. Qua các chương, bạn sẽ học các ý tưởng cốt lõi như mã hóa đối xứng và khóa công khai, hàm băm, chữ ký số, trao đổi khóa và các giao thức thực tế. Trên đường đi, chúng ta sẽ kết nối các điểm với các ứng dụng thực tế như nhắn tin bảo mật, TLS, lưu trữ mật khẩu và xác thực.
 
-Một mặt, có những chuyên luận dài dòng, chính thức, thực sự chỉ có thể tiếp cận được với những người có nền tảng vững chắc về toán học, logic hoặc một số ngành học chính thức khác. Mặt khác, có những phần giới thiệu ở trình độ rất cao thực sự ẩn chứa quá nhiều chi tiết đối với bất kỳ ai ít nhất là tò mò một chút.
-
-Phần giới thiệu về mật mã này tìm cách nắm bắt được điểm trung gian. Mặc dù nó có thể khá khó khăn và chi tiết đối với bất kỳ ai mới làm quen với mật mã, nhưng nó không phải là hang thỏ của một chuyên luận cơ bản thông thường.
-
+Tài liệu được thiết kế cho người học ở mọi cấp độ và cân bằng trực giác với độ sâu kỹ thuật vừa đủ để thỏa mãn sự tò mò. Hãy mong đợi một hành trình tập trung, hấp dẫn. Đến cuối khóa học, bạn sẽ hiểu cách thức và lý do tại sao mật mã học hiện đại hoạt động và cách sử dụng nó một cách có trách nhiệm.
 +++
 # Giới thiệu
 

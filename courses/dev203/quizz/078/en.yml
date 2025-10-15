@@ -1,0 +1,8 @@
+question: What is the primary difference between unwrap_or() and unwrap_or_default() methods when handling Result and Option types?
+answer: unwrap_or() requires you to specify a fallback value, while unwrap_or_default() uses the type's default implementation
+wrong_answers:
+  - unwrap_or() panics on errors while unwrap_or_default() returns None, providing safer error handling in production
+  - unwrap_or() works only with Result types while unwrap_or_default() works exclusively with Option types for value extraction
+  - unwrap_or() propagates errors up the call stack while unwrap_or_default() converts all errors into default string messages
+explanation: |
+  The unwrap_or() method allows you to provide a specific fallback value when a Result contains an error or an Option contains None, giving you control over what value to use in failure cases. In contrast, unwrap_or_default() automatically uses the type's Default trait implementation, which is convenient when the default value is appropriate for your use case. Both methods work with both Result and Option types and neither panics or propagates errors - they both provide graceful degradation by returning usable values instead of failing.

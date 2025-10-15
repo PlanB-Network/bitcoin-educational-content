@@ -248,7 +248,7 @@ Chaque technologie de réseau impose son propre MTU en fonction de ses caractér
 
 Quand un datagramme dépasse le MTU d’un segment de réseau qu’il doit emprunter, les équipements de routage se chargent de le **fragmenter** en plusieurs morceaux plus petits, chacun respectant la limite imposée. Cette opération se produit typiquement lors du passage d’un réseau à haut MTU vers un réseau à plus faible capacité. Par exemple, un datagramme provenant d’un réseau FDDI peut être fragmenté pour être transmis sur un segment Ethernet.
 
-![Image](assets/fr/008.webp)
+![Image](assets/fr/007.webp)
 
 Le processus de fragmentation se déroule ainsi :
 - Le routeur découpe le datagramme en fragments de taille inférieure ou égale au MTU du réseau cible.
@@ -269,13 +269,13 @@ Lorsqu’un message est émis, il traverse successivement les quatre couches de 
 
 Ainsi, la transmission suit un processus structuré : la couche Application génère le **message** initial, contenant les données brutes. La couche Transport encapsule ce message dans un **segment**, en y adjoignant notamment les ports source et destination, les numéros de séquence et les mécanismes de contrôle de flux. La couche Internet prend le segment, y ajoute un entête IP pour former un **datagramme**, spécifiant notamment les adresses IP source et destination. Enfin, la couche Accès Réseau encapsule ce datagramme dans une **trame**, en ajoutant des informations comme les adresses MAC et les codes de vérification d’intégrité (CRC).
 
-![Image](assets/fr/009.webp)
+![Image](assets/fr/008.webp)
 
 Ce processus d’encapsulation assure non seulement l’intégrité et la traçabilité des données, mais aussi leur adaptabilité : à chaque transition d’un réseau à un autre, les entêtes fournissent aux équipements les informations essentielles pour décider de l’itinéraire, vérifier la validité ou procéder à la fragmentation si nécessaire.
 
 À l’arrivée, le mécanisme s’inverse : la machine réceptrice reçoit la trame au niveau de la couche Accès Réseau, qui lit l’entête correspondant et le retire. Le datagramme est ensuite transmis à la couche Internet, qui lit l’entête IP, puis l’enlève à son tour pour livrer le segment à la couche Transport. Cette dernière traite les entêtes de transport, vérifie l’intégrité du flux et remet finalement le **message** à l’application cible dans son état originel.
 
-![Image](assets/fr/010.webp)
+![Image](assets/fr/009.webp)
 
 Ce schéma illustre la transformation progressive des données à chaque niveau :
 
@@ -284,7 +284,7 @@ Ce schéma illustre la transformation progressive des données à chaque niveau�
 - **Datagramme** : forme prise à la suite de l’ajout de l’entête IP par la couche Internet.
 - **Trame** : bloc final prêt à être transmis sur le support physique par la couche Accès Réseau.
 
-![Image](assets/fr/011.webp)
+![Image](assets/fr/010.webp)
 
 Ce processus, essentiel à la fiabilité et à l’universalité des communications sur Internet, garantit que chaque donnée, aussi fragmentée ou complexe soit-elle, puisse être transportée de bout en bout tout en restant compréhensible et exploitable par la machine réceptrice.
 
@@ -309,7 +309,7 @@ Il faut savoir que toutes les combinaisons binaires ne sont pas exploitables pou
 
 Le nombre maximum d’adresses varie sensiblement d’une classe à l’autre, ce qui permet d’adapter le plan d’adressage aux besoins : de vastes réseaux publics pour les classes A, des réseaux d’entreprise pour les classes B, ou des réseaux plus restreints pour les classes C.
 
-![Image](assets/fr/013.webp)
+![Image](assets/fr/011.webp)
 
 Certaines plages d’adresses sont réservées et ne transitent jamais sur Internet. On parle alors d’**adresses privées**, destinées aux réseaux internes d’organisations, d’entreprises ou de particuliers. Elles ne peuvent pas être routées directement sur Internet sans passer par une traduction d’adresses, généralement assurée par un dispositif NAT (*Network Address Translation*). Ces plages sont :
 - Pour la **Classe A** : de 10.0.0.0 à 10.255.255.255
@@ -351,7 +351,7 @@ Prenons un cas concret. Soit un réseau de **classe C** : 192.168.1.0/24 avec un
 
 **Étape 5** : Ainsi, on obtient quatre sous-réseaux, chacun capable d’héberger jusqu’à 62 machines, tout en conservant l’efficacité du plan d’adressage global. La partie _hostid_ de l’adresse est donc subdivisée en deux : une pour le _subnetid_ et l’autre pour l’hôte proprement dit.
 
-![Image](assets/fr/016.webp)
+![Image](assets/fr/012.webp)
 
 Ce principe fondamental du subnetting reste incontournable dans l’ingénierie réseau moderne, car il permet d’allouer les ressources IP avec précision, de contrôler le trafic et d’assurer une bonne isolation entre segments tout en maintenant une gestion claire et évolutive.
 
@@ -410,11 +410,11 @@ Les principales responsabilités de TCP peuvent se résumer ainsi :
 
 Concrètement, TCP est un protocole orienté connexion, ce qui signifie qu’il met en place une relation explicite et suivie entre le client et le serveur. Pour cela, il s’appuie sur un système de **numéros de séquence** et d’**accusés de réception** : à chaque segment envoyé, un identifiant unique est attribué pour permettre à la machine réceptrice de vérifier l’intégrité et l’ordre des données reçues. En retour, le destinataire renvoie un segment de confirmation avec un **flag ACK** positionné à 1, indiquant la bonne réception et précisant le prochain numéro attendu.
 
-![Image](assets/fr/018.webp)
+![Image](assets/fr/013.webp)
 
 Pour renforcer la fiabilité, TCP intègre une minuterie : dès l’envoi d’un segment, un délai est activé. Si l’accusé de réception ne parvient pas dans ce laps de temps, le segment est réémis automatiquement, l’émetteur considérant qu’il a été perdu durant le transit. Ce mécanisme de retransmission automatique compense les pertes inhérentes aux réseaux IP, qui peuvent survenir en cas de surcharge, d’erreur de routage ou de panne d’équipement.
 
-![Image](assets/fr/019.webp)
+![Image](assets/fr/014.webp)
 
 TCP est capable de détecter et gérer les doublons éventuels. Si un segment est réémis mais que l’original arrive tout de même, le destinataire, grâce aux numéros de séquence, identifie le doublon et ne conserve que la version correcte, ce qui élimine ainsi toute ambiguïté dans le flux reçu.
 
@@ -428,7 +428,7 @@ L’échange de synchronisation des séquences repose sur le fameux mécanisme d
 2. Le serveur à la réception répond en retour avec un segment d’accusé de réception (**SYN-ACK**) : il accuse réception du numéro de séquence du client et communique à son tour son propre numéro de séquence initial, incrémenté de 1 ;
 3. Enfin, le client envoie un dernier segment (**ACK**) confirmant qu’il a bien reçu le numéro de séquence du serveur et finalise la synchronisation : le flag SYN est alors désactivé et le flag ACK reste positionné pour signifier que la connexion est prête.
 
-![Image](assets/fr/020.webp)
+![Image](assets/fr/015.webp)
 
 Ce protocole d’échange garantit que les deux parties partagent la même base de numérotation avant de transmettre des données utiles. Une fois cette synchronisation réalisée, la session est ouverte : les segments peuvent circuler dans les deux sens, chacun étant accusé de réception, ce qui assure une fiabilité maximale du flux.
 
@@ -442,7 +442,7 @@ Concrètement, la fenêtre glissante définit une plage de numéros de séquence
 
 **Exemple** : si le numéro de séquence initial est 3 et que la fenêtre autorise jusqu’à la séquence 5, les segments compris entre 3 et 5 peuvent être envoyés sans attendre d’accusé de réception pour chacun.
 
-![Image](assets/fr/021.webp)
+![Image](assets/fr/016.webp)
 
 Il est important de souligner que la taille de la fenêtre glissante n’est pas fixe. Elle s’ajuste dynamiquement en fonction de l’état du réseau et de la capacité de traitement du récepteur. Lorsqu’un récepteur estime pouvoir traiter un volume de données plus important, il peut indiquer au travers du champ "fenêtre" qu’une extension est souhaitée. L’émetteur adapte alors sa fenêtre en conséquence. À l’inverse, en cas de surcharge ou de risque de saturation, le récepteur peut demander une réduction : l’émetteur attendra alors que la fenêtre se déplace avant de poursuivre l’envoi de segments supplémentaires.
 
@@ -452,7 +452,7 @@ Concernant la **clôture d’une connexion TCP**, le protocole prévoit une proc
 
 Cette gestion précise, qui allie la souplesse de l’acheminement IP au contrôle rigoureux de TCP, est souvent illustrée par un schéma mettant en parallèle la rapidité du protocole IP (qui fonctionne selon le principe **"best effort"** sans garantie de livraison) et la fiabilité du protocole TCP (qui encadre la transmission grâce à une logique d’accusés de réception et de séquences négociées).
 
-![Image](assets/fr/022.webp)
+![Image](assets/fr/017.webp)
 
 Cependant, dans certaines situations, la priorité n’est pas donnée à la fiabilité absolue mais à la vitesse de transmission et à la simplicité. C’est notamment le cas pour des applications comme le streaming en direct ou la voix sur IP, qui tolèrent quelques pertes de paquets sans impact majeur sur l’expérience utilisateur. Dans ces cas, on privilégie le recours au **protocole UDP** (_User Datagram Protocol_).
 
@@ -475,11 +475,11 @@ Deux aspects fondamentaux organisent ces échanges :
 
 - L’**aspect vertical**, qui décrit la relation entre une couche et la couche qui la surplombe ou la sous-tend (de la couche N vers la couche N+1, et inversement).
 
-![Image](assets/fr/023.webp)
+![Image](assets/fr/018.webp)
 
 - L’**aspect horizontal**, qui met en lumière l’interaction entre les applications distantes, c’est-à-dire le dialogue qui s’établit d’un **client** vers un **serveur**, ou réciproquement.
 
-![Image](assets/fr/024.webp)
+![Image](assets/fr/019.webp)
 
 L’architecture en couches repose sur le principe que chaque niveau ne traite que les informations qui relèvent de sa compétence : ainsi, les structures de données, les entêtes et les mécanismes de contrôle varient d’une couche à l’autre, mais l’ensemble forme un tout cohérent, permettant l’acheminement progressif des données vers leur destination finale.
 
@@ -498,7 +498,7 @@ Au cœur de ce fonctionnement, les échanges entre couches reposent sur des **pr
 
 Ainsi, le modèle TCP/IP combine l’aspect horizontal (communication entre applications distribuées) et l’aspect vertical (interactions internes entre couches) pour offrir une architecture complète et extensible. La superposition de ces deux aspects donne une vue d’ensemble de l’échange de données dans une communication réseau structurée.
 
-![Image](assets/fr/026.webp)
+![Image](assets/fr/020.webp)
 
 ### Synthèse de la partie
 
@@ -529,7 +529,7 @@ Le protocole **IPv4**, toujours dominant malgré l’émergence de l’IPv6, uti
 
 _Exemple : l’adresse 172.16.254.1_
 
-![Image](assets/fr/027.webp)
+![Image](assets/fr/021.webp)
 
 Chaque bit au sein d’un octet a un poids bien défini : le bit de gauche (bit de poids fort) vaut 128, le suivant 64, puis 32, 16, 8, 4, 2 et 1 pour le bit de droite (bit de poids faible). Ainsi, l’écriture binaire est convertie en décimal par simple addition des poids activés.  
 Le tableau ci-dessous rappelle cette correspondance :
@@ -699,11 +699,11 @@ Il est donc important de garder à l’esprit que l’adresse MAC et l’adresse
 
 - Exemple visuel d’adresse MAC :
 
-![Image](assets/fr/032.webp)
+![Image](assets/fr/022.webp)
 
 - Exemple visuel d’adresse IP :
 
-![Image](assets/fr/027.webp)
+![Image](assets/fr/023.webp)
 
 Dans un environnement d’entreprise, ces deux niveaux d’adressage ne peuvent fonctionner séparément. Par exemple, lors de l’attribution automatique d’une adresse IP par un serveur DHCP, c’est l’adresse MAC de l’équipement qui sert de point de départ. L’ordinateur envoie une requête DHCP en broadcast, incluant son adresse MAC, afin de se voir attribuer une adresse IP disponible par le serveur. Sans cette identification matérielle, le serveur DHCP ne saurait pas à quel appareil délivrer l’adresse.
 
@@ -745,7 +745,7 @@ Ce procédé présente un avantage immédiat : il masque totalement l’architec
 
 En plus de répondre à la pénurie d’adresses IPv4, le NAT renforce donc la sécurité en créant une première barrière logique entre le réseau interne et le réseau public. Les communications entrantes non sollicitées sont ainsi naturellement filtrées, car seules les connexions initiées depuis l’intérieur bénéficient de la traduction nécessaire pour recevoir les réponses.
 
-![Image](assets/fr/035.webp)
+![Image](assets/fr/024.webp)
 
 ### Types de traduction
 
@@ -794,7 +794,7 @@ De manière générale, tout protocole intégrant une référence explicite à l
 
 _Pour illustrer le fonctionnement concret, prenons l’exemple suivant :_
 
-![Image](assets/fr/037.webp)
+![Image](assets/fr/025.webp)
 
 Dans ce scénario, un poste interne peut accéder au serveur web interne en appelant directement l’URL `http://192.168.1.20:80`. Ici, l’indication du port est optionnelle puisque `80` est le port standard pour le HTTP. À l’inverse, si une requête est initiée depuis l’extérieur, l’utilisateur saisira l’adresse publique `http://85.152.44.14:80`. Le routeur NAT réceptionne la requête, consulte sa table de correspondance et traduit automatiquement l’adresse publique en adresse privée, redirigeant la connexion vers `http://192.168.1.20:80`.
 
@@ -918,7 +918,7 @@ Cette structuration modulaire reste valable et facilement automatisable sur les 
 
 Dans les environnements professionnels, on cherche à garantir la continuité de service et/ou à agréger la bande passante. Les mécanismes de *bonding* (ou *teaming* avec _teamd_) répondent à ces besoins : plusieurs interfaces physiques fonctionnent comme une seule interface logique, souvent nommée `bond0` ou `team0`.
 
-![Image](assets/fr/039.webp)
+![Image](assets/fr/026.webp)
 
 Prérequis :
 - Charger le module `bonding` (ou utiliser `teamd`) ;
@@ -1229,7 +1229,7 @@ Une autre méthode largement utilisée est l’emploi du protocole DHCPv6, spéc
 
 Voici un exemple de transformation d’une adresse MAC en EUI-64 :
 
-![Image](assets/fr/045.webp)
+![Image](assets/fr/027.webp)
 
 Cependant, en raison des inquiétudes croissantes autour du traçage des appareils, les systèmes d’exploitation modernes (notamment Linux, Windows 10+, macOS, Android) proposent par défaut des mécanismes de "privacy extension", qui utilisent des identifiants d’interface aléatoires renouvelés périodiquement pour les connexions sortantes, tout en conservant un identifiant stable pour les communications internes (DNS, DHCPv6…).
 
@@ -1323,7 +1323,7 @@ Voici un aperçu des différents types d’en-têtes d’extension définis par 
 
 Cet en-tête, s’il est présent, est toujours placé immédiatement après l’en-tête de base. Il contient des informations destinées à être lues par chaque routeur traversé, ce qui le distingue des autres en-têtes généralement traités uniquement par la destination. Il est typiquement utilisé pour signaler des paramètres globaux ou déclencher des traitements spécifiques tout au long du trajet.
 
-![Image](assets/fr/047.webp)
+![Image](assets/fr/028.webp)
 
 #### En-tête de routage
 
@@ -1340,7 +1340,7 @@ Les quatre premiers champs de cet en-tête sont les suivants :
 Le champ "Segments Left" est initialisé au nombre total de segments restant et est décrémenté d’une unité à chaque saut.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/fr/029.webp)
 
 #### En-tête de fragmentation
 
@@ -1351,7 +1351,7 @@ L’en-tête de fragmentation contient les champs suivants :
 - **Fragment Offset** : position du fragment dans le datagramme original.
 - **M flag** : indique s’il reste d’autres fragments.
 
-![Image](assets/fr/049.webp)
+![Image](assets/fr/030.webp)
 
 #### En-tête d’authentification (AH)
 
@@ -1359,7 +1359,7 @@ Cet en-tête vise à sécuriser les communications en garantissant l’authentic
 
 En cas de tentative de modification frauduleuse, le code d’authentification ne correspondra plus, et le datagramme pourra être rejeté. Ce mécanisme permet également de lutter contre les attaques par rejeu, en détectant les duplications non autorisées.
 
-![Image](assets/fr/050.webp)
+![Image](assets/fr/031.webp)
 
 #### En-tête Option de destination
 
@@ -1367,7 +1367,7 @@ Cet en-tête est destiné uniquement au destinataire final du datagramme. Il per
 
 Initialement, aucune option de ce type n’était définie dans le protocole. Toutefois, cet en-tête a été introduit dès la conception d’IPv6 pour permettre l’ajout futur d’extensions sans modifier la structure globale des paquets. L’option nulle, par exemple, sert uniquement à compléter l’en-tête jusqu’à un multiple de 8 octets, pour des raisons d’alignement mémoire.
 
-![Image](assets/fr/051.webp)
+![Image](assets/fr/032.webp)
 
 
 La conception des paquets IPv6 repose donc sur une séparation claire entre un en-tête de base minimaliste et des en-têtes d’extension optionnels, introduits de manière modulaire. Cette architecture garantit à la fois la performance du traitement standard et la souplesse nécessaire pour faire évoluer le protocole, intégrer des mécanismes de sécurité, de routage complexe ou de qualité de service, tout en maintenant la compatibilité avec les infrastructures futures.
@@ -1598,7 +1598,7 @@ Wireshark est disponible sur de nombreux systèmes d’exploitation, notamment L
 - les détails décodés par protocole ;
 - les données brutes hexadécimales.
 
-![Image](assets/fr/052.webp)
+![Image](assets/fr/033.webp)
 
 Wireshark excelle dans les scénarios où l’on souhaite observer les comportements complexes des protocoles, reconstituer les dialogues applicatifs (comme une session HTTP ou DNS), ou étudier les temps de réponse d’un service. Il est également possible d’appliquer des filtres d’affichage très précis à l’aide de sa syntaxe dédiée (différente de celle de `tcpdump`), afin de ne visualiser que les paquets pertinents.
 
@@ -1633,7 +1633,7 @@ ethtool enp0s3
 
 Cette commande renvoie un ensemble complet de données sur l’interface `enp0s3`, souvent rencontrée dans les distributions basées sur CentOS ou RHEL.
 
-![Image](assets/fr/053.webp)
+![Image](assets/fr/034.webp)
 
 #### Modifier dynamiquement les paramètres d’une interface
 
@@ -2037,7 +2037,7 @@ nmap 192.168.0.0/24
 
 Dans cet exemple, tous les hôtes de l’espace `192.168.0.0` à `192.168.0.255` seront interrogés. Le résultat présentera, pour chaque adresse IP, la liste des ports ouverts, leur état (open, filtered…), et si possible, le nom du service correspondant.
 
-![Image](assets/fr/055.webp)
+![Image](assets/fr/035.webp)
 
 Un administrateur peut s’appuyer sur `nmap` pour plusieurs tâches :
 - Détection d’hôtes actifs : en scannant un sous-réseau, on identifie les machines qui répondent à une requête ;
@@ -2160,3 +2160,4 @@ La maîtrise conjointe de ces outils, chacun dédié à une étape précise du m
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

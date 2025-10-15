@@ -15,7 +15,7 @@ proofreading:
     urgency: 1 # default value
     contributor_names:
       - f205sats
-    reward: 1 # default value
+    reward: 3.07 # default value
   - language: cs
     last_contribution_date:
     urgency: 1

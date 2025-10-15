@@ -35,7 +35,7 @@ Bluu Wallet ni chanzo wazi, cha kujilimbikizia Bitcoin Wallet ambacho hukuruhusu
 
 
 
-Mara tu ikiwa imewekwa, unaweza kuunda Wallet mpya na kuhifadhi maneno 12 ya kurejesha, au kuagiza Bitcoin Wallet iliyopo. Jua jinsi ya kufanya nakala bora ya maneno yako muhimu ili usipoteze ufikiaji wa bitcoins zako.
+Mara tu ikiwa imewekwa, unaweza kuunda Wallet mpya na kuhifadhi maneno 12 ya urejeshaji, au kuagiza Bitcoin Wallet iliyopo. Hakikisha unajua jinsi ya kutengeneza nakala salama ya maneno yako muhimu ili usipoteze ufikiaji wa bitcoins zako.
 
 
 
@@ -86,7 +86,7 @@ Unapobofya onyesho la kukagua Bitcoin Wallet, utaweza kuona historia yako ya mua
 
 
 
-⚠️ Shughuli zote katika Bitcoin Wallet yako ziko kwenye msururu mkuu wa itifaki wa Bitcoin (Mainnet).
+⚠️ Miamala yote katika Bitcoin Wallet yako ziko kwenye msururu mkuu wa protocol wa Bitcoin (Mainnet).
 
 
 
@@ -106,7 +106,7 @@ Unaweza pia kusanidi kiasi kilichoainishwa ili kubainisha kiasi cha Bitcoin unac
 
 
 
-- Kwenye kitufe cha **Tuma **, tuma bitcoins kwa Bitcoin Address, kuweka kiasi kinachohitajika na kuthibitisha shughuli.
+- Kwenye kitufe cha **Tuma **, tuma bitcoins kwa Bitcoin Address, kuweka kiasi kinachohitajika na kuthibitisha muamala.
 
 
 
@@ -118,7 +118,7 @@ Wallet ya Bluu hukuruhusu kusanidi vigezo vya usafirishaji wako wa Bitcoin upend
 
 
 
-Kwa hivyo unaweza kuchagua uwiano wa ada ya muamala unaokufaa ikiwa ungependa kuona muamala wako umethibitishwa haraka katika Mempool na kujumuishwa kwenye kizuizi na wachimbaji. Kulingana na uwiano utakaochagua, wachimbaji watatoa kipaumbele kwa shughuli yako kwa kiwango kikubwa au kidogo. Pata maelezo zaidi katika mafunzo yetu ya anga ya Mempool.
+Kwa hivyo unaweza kuchagua uwiano wa ada ya muamala unaokufaa ikiwa ungependa kuona muamala wako umethibitishwa haraka katika Mempool na kujumuishwa kwenye block na miners. Kulingana na uwiano utakaochagua, miners watatoa kipaumbele kwa muamala wako kwa kiwango kikubwa au kidogo. Pata maelezo zaidi katika mafunzo yetu ya anga ya Mempool.
 
 
 
@@ -130,7 +130,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-- Ukiwa na Bluu Wallet, unaweza kuongeza wapokeaji wengi kwenye usafirishaji mmoja.
+-Ukiwa na Blue Wallet, unaweza kuongeza wapokeaji wengi kwenye usafirishaji mmoja.
 
 
 
@@ -164,7 +164,7 @@ Unaweza kuondoa mpokeaji mmoja au wote kwa kubofya kwenye **Ondoa Mpokeaji** na 
 
 
 
-Multisig (sahihi nyingi) Wallet inawakilisha Wallet iliyoundwa kutoka kwa kikundi cha nambari fulani (chini ya 2) ya pochi za Bitcoin. Katika aina hii ya Wallet, kulingana na usanidi na njia iliyochaguliwa, matumizi ya bitcoins inakuwa hatua ya pamoja na ya ushirikiano.
+Multisig (sahihi nyingi) Wallet inawakilisha Wallet iliyoundwa kutoka kwa kikundi cha nambari fulani (chini ya 2) ya Wallet za Bitcoin. Katika aina hii ya Wallet, kulingana na usanidi na njia iliyochaguliwa, matumizi ya bitcoins inakuwa hatua ya pamoja na ya ushirikiano.
 
 
 
@@ -322,7 +322,7 @@ Lightning Network haitumiki tena asili katika programu ya Blue Wallet.
 
 
 
-Katika Mipangilio > **Mipangilio ya Umeme**, unaweza kuhusisha wewe mwenyewe Wallet yako ya Umeme unapoendesha nodi ya Lightning Network Daemon (LND). Sakinisha LND Hub, kisha uunganishe Wallet yako kwa kuingiza kiungo kilichotolewa na Hub.
+Katika Mipangilio > **Mipangilio ya Lightning**, unaweza kuhusisha wewe mwenyewe Wallet yako ya Lightning unapoendesha node ya Lightning Network Daemon (LND). Sakinisha LND Hub, kisha uunganishe Wallet yako kwa kuingiza kiungo kilichotolewa na Hub.
 
 
 

@@ -17,82 +17,82 @@ proofreading:
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 1
+    reward: 0.24
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.6
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.6
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.6
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.6
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.01
+    reward: 0.98
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.75
+    reward: 0.73
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.88
+    reward: 0.85
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.6
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.6
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.6
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48
   - language: ru
     last_contribution_date:
     urgency: 1

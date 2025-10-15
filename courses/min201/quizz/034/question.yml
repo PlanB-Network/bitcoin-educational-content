@@ -9,7 +9,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.19
   - language: de
     last_contribution_date:
     urgency: 1
@@ -20,7 +20,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.09
+    reward: 0.08
   - language: es
     last_contribution_date:
     urgency: 1
@@ -30,7 +30,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.19
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -60,7 +60,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.19
   - language: id
     last_contribution_date:
     urgency: 1
@@ -70,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.19
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -85,12 +85,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.19
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
+    reward: 0.26
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
@@ -110,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.19
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -120,7 +120,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.19
   - language: tr
     last_contribution_date:
     urgency: 1

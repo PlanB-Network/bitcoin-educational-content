@@ -1,22 +1,17 @@
 ---
-name: Úvod do formální kryptografie
+name: Základy moderní kryptografie
 goal: Hloubkový úvod do vědy a praxe kryptografie.
 objectives:
-
-  - Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
-  - Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
-  - Prostudujte si proudovou šifru RC4 a AES se 128bitovým klíčem a seznamte se se symetrickými kryptografickými algoritmy.
-  - Prozkoumejte kryptosystém RSA, distribuci klíčů a hašovací funkce a prozkoumejte asymetrickou kryptografii.
-
+- Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
+- Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
+- Prostudujte si proudovou šifru RC4 a AES se 128bitovým klíčem a seznamte se se symetrickými kryptografickými algoritmy.
+- Prozkoumejte kryptosystém RSA, distribuci klíčů a hašovací funkce a prozkoumejte asymetrickou kryptografii.
 ---
-# Hluboký ponor do kryptografie
+# Hluboký ponor do moderní kryptografie
 
-Je obtížné najít mnoho materiálů, které by ve výuce kryptografie nabízely dobrou střední cestu.
+V tomto kurzu probereme základy moderní kryptografie jasným a přístupným způsobem, bez nutnosti hlubokých matematických znalostí. V jednotlivých kapitolách se naučíte klíčové koncepty jako symetrické a asymetrické šifrování, hašovací funkce, digitální podpisy, výměnu klíčů a protokoly z reálného světa. Cestou propojíme teorii s praktickými aplikacemi, jako je zabezpečené zasílání zpráv, TLS, ukládání hesel a autentizace.
 
-Na jedné straně existují dlouhá, formální pojednání, která jsou přístupná opravdu jen těm, kdo mají silné zázemí v matematice, logice nebo jiné formální disciplíně. Na druhé straně existují úvody na velmi vysoké úrovni, které skutečně skrývají příliš mnoho detailů pro každého, kdo je alespoň trochu zvědavý.
-
-Tento úvod do kryptografie se snaží zachytit střední cestu. Ačkoli by měl být poměrně náročný a podrobný pro každého, kdo s kryptografií začíná, není to králičí nora typického základního pojednání.
-
+Materiál je navržen pro studenty všech úrovní a vyvažuje intuitivní pochopení s dostatečnou technickou hloubkou pro uspokojení zvědavosti. Očekávejte soustředěnou a poutavou cestu. Na konci budete rozumět tomu, jak a proč moderní kryptografie funguje a jak ji používat zodpovědně.
 +++
 # Úvod
 

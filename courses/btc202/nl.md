@@ -21,7 +21,7 @@ Je bent waarschijnlijk bekend met het adagium "Niet je sleutels, niet je munten"
 
 
 
-BTC 202 is een toegankelijke cursus die is ontworpen om je te leren je eigen Bitcoin knoop te spinnen, zelfs als je geen technisch expert bent. We beginnen met te definiëren wat een Bitcoin knoop is, waar hij voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Daarna begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het aansluiten van je Wallet en het maken van de eerste mogelijke optimalisaties om verder te komen.
+BTC 202 is een toegankelijke opleiding die is ontworpen om je te leren je eigen Bitcoin-node te draaien, zelfs als je geen technische expert bent. We beginnen met te definiëren wat een Bitcoin-node is, waar het voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Vervolgens begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het verbinden van je walletsoftware en de eerste mogelijke optimalisaties om verder te gaan.
 
 
 
@@ -481,7 +481,7 @@ Zoals we later in deze cursus zullen bespreken, zijn het de knooppunten, op basi
 
 
 
-## Waarom je eigen knoop doorhakken?
+## Waarom je eigen node draaien?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Er heerst een wijdverspreid geloof dat het runnen van een Bitcoin node een zuive
 
 
 
-Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voordeel verbonden aan het leggen van een knoop. Je zou daarom kunnen denken dat er geen persoonlijk belang bij is. Toch brengt het runnen van je eigen knoop veel individuele voordelen met zich mee. Om je hiervan te overtuigen, ga ik in dit hoofdstuk alle redenen presenteren, zowel technische als strategische, waarom je je eigen Bitcoin node zou moeten installeren en gebruiken.
+Zoals we in de voorgaande hoofdstukken hebben benadrukt, levert het draaien van een node geen directe financiële winst op. Men zou dus kunnen denken dat er geen persoonlijk voordeel aan verbonden is. Toch biedt het draaien van een eigen node veel individuele voordelen. Om je hiervan te overtuigen, zal ik in dit hoofdstuk alle technische en strategische redenen uiteenzetten die je zouden moeten aanmoedigen om je eigen Bitcoin-node te installeren en te gebruiken.
 
 
 
@@ -576,7 +576,7 @@ Het installeren van een Full node is geen sinecure. Het omvat het installeren va
 
 
 
-Het verwerven van deze kennis versterkt je vertrouwen in het gereedschap en kan het risico op fouten of blootstelling aan oplichterij verminderen. Je eigen knoop leggen is ook een vorm van leren.
+Het verwerven van deze kennis versterkt je vertrouwen in het hulpmiddel en kan het risico op fouten of blootstelling aan oplichting verminderen. Je eigen node draaien betekent ook leren.
 
 
 
@@ -692,7 +692,7 @@ Het gaat dus niet om het aantal knooppunten, maar om het belang van de economisc
 
 
 
-> Niet jouw knoop, niet jouw regels.
+> Niet jouw node, niet jouw regels.
 
 
 ## De verschillende typen Bitcoin knooppunten
@@ -706,7 +706,7 @@ Een Bitcoin knooppunt is dus een machine waarop een implementatie van het Bitcoi
 
 
 
-### De volledige knoop
+### De volledige node
 
 
 
@@ -730,7 +730,7 @@ Afhankelijk van je behoeften kun je een indexer toevoegen aan je Full node. Bitc
 
 
 
-### De pruned knoop
+### De afgeslankte node
 
 
 
@@ -754,7 +754,7 @@ Kortom, Wallet traceren werkt probleemloos op een pruned knooppunt als je een ni
 
 
 
-### De lichte knoop / SPV
+### De lichte node / SPV
 
 
 
@@ -849,7 +849,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-#### Bitcoin core (klant met ultrameerderheid)
+#### Bitcoin Core (overheersende client)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (belangrijkste alternatieve klant)
+#### Bitcoin Knots (belangrijkste alternatieve client)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr clients ***noStrudel*** of ***Snort*** zijn ook beschikbaar op Umbrel. Dan
 
 
 
-Tot slot is er de ***Nostr Wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-knooppunt koppelen aan je Nostr-klanten om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf uw persoonlijke knooppunt via uw kanalen verzonden.
+Ten slotte is er de applicatie ***Nostr Wallet Connect*** op Umbrel, waarmee je native Lightning-betalingen binnen Nostr kunt uitvoeren. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr-clients om microbetalingen te versturen, genaamd "*zaps*", om content te belonen of op een gemonetariseerde manier te interageren, zonder via een externe dienst te gaan. Deze betalingen vertrekken rechtstreeks vanuit je persoonlijke node via je kanalen.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Uw parapluknoop onderhouden
+## Je Umbrel-node onderhouden
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Als je knooppunt luistert op een open poort (standaard 8333), dan accepteert het
 
 
 
-## Anatomie van uw Bitcoin knoop
+## Anatomie van je Bitcoin-node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

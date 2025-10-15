@@ -1,13 +1,11 @@
 ---
-name: El protocolo RGB, de la teoría a la práctica
+name: Programación RGB
 goal: Adquirir los conocimientos necesarios para comprender y utilizar el protocolo RGB
-objectives: 
-
-  - Comprender los conceptos fundamentales del protocolo RGB
-  - Dominar los principios de la Client-side Validation y los commitments de Bitcoin
-  - Aprender a crear, gestionar y transferir contratos RGB
-  - Cómo manejar un nodo Lightning compatible con RGB
-
+objectives:
+- Comprender los conceptos fundamentales del protocolo RGB
+- Dominar los principios de la Client-side Validation y los commitments de Bitcoin
+- Aprender a crear, gestionar y transferir contratos RGB
+- Cómo manejar un nodo Lightning compatible con RGB
 ---
 # Descubriendo el protocolo RGB
 

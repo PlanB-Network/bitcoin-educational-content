@@ -152,13 +152,13 @@ Bu sorunu çözmek için, açık anahtar kriptografisi olarak da bilinen *asimet
 Bu kriptografi türü hem şifreleme algoritmalarının hem de imza işlemlerinin uygulanmasına izin verir. Asimetrik şifreleme, şifreleme anahtarı olarak açık anahtarın ve şifre çözme anahtarı olarak özel anahtarın kullanılmasını içerir. Kullanıcı bir çift anahtar oluşturur, özel anahtarı saklar ve açık anahtarı mesaj gönderebilmeleri için muhabirleriyle paylaşır. Bu tür şifreleme, alıcının mektup almak için kullandığı ve yalnızca anahtarına sahip olduğu bir posta kutusuna benzer.
 
 
-![Asymmetric encryption](assets/en/001.webp)
+![Asymmetric encryption](assets/tr/001.webp)
 
 
 Öte yandan dijital imzalar, imza anahtarı olarak özel anahtarın ve doğrulama anahtarı olarak da açık anahtarın kullanılmasına dayanır. Kullanıcı bir anahtar çifti oluşturur, özel anahtarla bir mesajı imzalar ve açık anahtarı kullanarak gerçekliğini doğrulayabilecek muhabirlerine gönderir. Böylece, özel anahtarı bilmelerine asla gerek kalmaz.
 
 
-![Digital signature](assets/en/002.webp)
+![Digital signature](assets/tr/002.webp)
 
 
 1970'lerde birçok araştırmacı bağımsız olarak asimetrik kriptografiyi keşfetti. Ancak, bulduklarını ilk sunanlar Stanford Üniversitesi'nden iki kriptograf olan Whitfield Diffie ve Martin Hellman olmuştur. Kasım 1976'da *IEEE Transactions on Information Theory* dergisinde "[New Directions in Cryptography] (https://ee.stanford.edu/~hellman/publications/24.pdf)" başlıklı bir makale yayınladılar ve bu makalede bir anahtar Exchange algoritması (simetrik şifreleme için gizli anahtarların iletimi için tasarlanmıştır) ve bir dijital imza süreci tanımlandı. Bu makalenin giriş bölümünde şöyle yazmışlardır:
@@ -168,7 +168,7 @@ Bu kriptografi türü hem şifreleme algoritmalarının hem de imza işlemlerini
 İşte Stanford Haber Servisi için Chuck Painter tarafından 1977 yılında çekilmiş bir fotoğraf. Fotoğrafta Whitfield Diffie (sağda) ve Martin Hellman'ı (ortada) görüyorsunuz. Soldaki kişi ise aynı keşfi yapmak üzere olan kriptograf Ralph Merkle.
 
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/003.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/tr/003.webp)
 
 
 Diffie ve Hellman'ın makalesi birçok yeniliğin önünü açmıştır. Bunlardan biri, kriptograflar Ronald Rivest, Adi Shamir ve Leonard Adleman tarafından 1977 yılında tasarlanan ve 1983 yılında MIT tarafından patenti alınan [RSA kriptosistemidir] (https://people.csail.mit.edu/rivest/Rsapaper.pdf). Bu sistem, anahtarların rollerinin değiştirilmesi sayesinde mesajların hem şifrelenmesine hem de imzalanmasına izin verir. RSA ilk kez Ağustos 1977'de *Scientific American* dergisinde yayınlanan [Martin Gardner'ın makalesinde] (https://simson.net/ref/1977/Gardner_RSA.pdf) "Matematiksel Oyunlar" başlığıyla kamuoyuna sunulmuştur: Kırılması milyonlarca yıl sürecek yeni bir tür şifre."
@@ -177,7 +177,9 @@ Diffie ve Hellman'ın makalesi birçok yeniliğin önünü açmıştır. Bunlard
 Asimetrik kriptografinin keşfi, bir görüntünün hesaplanmasını (ileri yön) ve bir ön görüntünün elde edilmesini (geri yön) çok zor hale getiren tek yönlü fonksiyonların yaratılmasını da motive etti. Özellikle, değişken boyutlu bir mesajı sabit boyutlu bir özete dönüştüren ilk kriptografik Hash fonksiyonlarının geliştirilmesine yol açtı. 1989 ve 1991 yılları arasında Ronald Rivest, MIT için çeşitli hash algoritmaları (MD2, MD4 ve MD5) tasarlamıştır.
 
 
-Bitcoin'nin temel kriptografik Elements'sı bu araştırmadan kaynaklanmaktadır. Geleneksel bir işlem için harcama yetkisi sağlayan ECDSA imza şeması 1992 yılında NIST için oluşturulmuştur. Protokolün birçok yerinde kullanılan SHA-256 Hash işlevi, 2001 yılında NSA tarafından kamuya açıklanan SHA-2 algoritma paketinin bir parçası olarak yayınlanmıştır. Bu konu hakkında daha fazla bilgi için Loïc Morel tarafından sunulan [Crypto 301](../crypto301/fr.md) kursuna bakınız.
+Bitcoin'nin temel kriptografik Elements'sı bu araştırmadan kaynaklanmaktadır. Geleneksel bir işlem için harcama yetkisi sağlayan ECDSA imza şeması 1992 yılında NIST için oluşturulmuştur. Protokolün birçok yerinde kullanılan SHA-256 Hash işlevi, 2001 yılında NSA tarafından kamuya açıklanan SHA-2 algoritma paketinin bir parçası olarak yayınlanmıştır. Bu konu hakkında daha fazla bilgi için Loïc Morel tarafından sunulan CYP201 kursuna bakınız.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Kör İmzalar ve Elektronik Nakit
@@ -186,7 +188,7 @@ Bitcoin'nin temel kriptografik Elements'sı bu araştırmadan kaynaklanmaktadır
 Kriptografideki bu devrim, o zamanlar Berkeley Üniversitesi'nde doktora öğrencisi olan Batı Yakalı bilgisayar bilimcisi genç David Chaum'a da ilham verdi. Kısa sürede mahremiyetin korunması konusunda tutkulu hale geldi ve giderek bilgisayarlaşan bir toplumda özgürlük ve gizliliğin geleceği konusunda çok endişeliydi.
 
 
-![David Chaum in the 90s](assets/en/004.webp)
+![David Chaum in the 90s](assets/tr/004.webp)
 
 90'larda David Chaum (kaynak: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -215,7 +217,7 @@ Teknik işleyişinde eCash modeli, imzalayan kişinin neyi imzaladığını gör
 Burada bir Chaumian notasının oluşturulması ve değiştirilmesinde yer alan farklı adımların bir örneği yer almaktadır (*L'Élégance de Bitcoin*'dan):
 
 
-![Creation and replacement of a Chaumian note](assets/en/005.webp)
+![Creation and replacement of a Chaumian note](assets/tr/005.webp)
 
 
 Eylemler (her biri bir matematiksel işleme veya bir bilgi aktarımına karşılık gelir) aşağıdaki gibidir:
@@ -254,7 +256,7 @@ Tüm bunlar sistemdeki hiçbir bankanın ödemeyi Alice'in kimliğiyle ilişkile
 1990 yılında David Chaum, elektronik para fikrini hayata geçirmek için Amsterdam, Hollanda merkezli Digicash B.V. şirketini kurdu. Bu şirket Chaum'un icadının patentlerini elinde bulunduruyordu. O dönemde İnternet henüz emekleme aşamasındaydı (Web henüz geliştirilme aşamasındaydı) ve e-ticaret mevcut değildi; dolayısıyla eCash modeli müthiş bir fırsat oluşturuyordu.
 
 
-![DigiCash Logo](assets/en/006.webp)
+![DigiCash Logo](assets/tr/006.webp)
 
 
 Ancak, modeli ilk test eden David Chaum'un şirketi değildi: patentleri dikkate almadan uygulayan ve bunun için izin istemeyen cypherpunks idi. Böylece, Magic Money adlı bir protokol, Pr0duct Cypher adını kullanan anonim bir geliştirici tarafından 4 Şubat 1994 tarihinde cypherpunks posta listesinde [önerildi] (https://cypherpunks.venona.com/date/1994/02/msg00247.html). Bu protokol, bir eCash darphanesi olarak hizmet veren bir e-posta sunucusunu çalıştırarak kişinin kendi para birimini oluşturmasına izin veriyordu. Cypherpunk'lar Tacky Tokens, GhostMarks, DigiFrancs ve NexusBucks gibi her türlü hesap birimini oluştururken çok eğlendiler. Ancak, bu tokenlerin faydası çok azdı ve takasları çok nadirdi.
@@ -262,7 +264,7 @@ Ancak, modeli ilk test eden David Chaum'un şirketi değildi: patentleri dikkate
 DigiCash tarafında, birkaç yıl süren geliştirmenin ardından, Mayıs 1994'te Cenevre'deki CERN'de World Wide Web üzerine düzenlenen ilk uluslararası konferansta bir prototip [sunuldu] (https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf). Şirket daha sonra aynı yılın 19 Ekim'inde "CyberBucks" adı verilen ve başka herhangi bir para birimi tarafından desteklenmeyen birimler çıkararak bir deneme gerçekleştirdi. Bu denemenin bir parçası olarak çeşitli tüccarlar CyberBucks'ı kabul etti. Şifre kırıcılar da bunu kabul ederek gerçek takaslar yapmak için kullandılar. Böylece CyberBucks piyasada değer kazandı. Ancak, eCash geleneksel bankacılık sisteminde kullanılmaya başlandığında bu değer çöktü.
 
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/tr/007.webp)
 
 DigiCash ekibinin 1995 yılındaki fotoğrafı (bulanık): David Chaum en solda (kaynak: [Chaum.com](https://chaum.com/ecash/))
 
@@ -327,7 +329,7 @@ Bu durum daha sonra daha da kısıtlı hale geldi. Federal Reserve of the United
 Altın bulundurma yasağının kaldırılması ve 1970'lerde başlayan internet gelişimiyle birlikte özel para birimleri kullanma fikri yeniden ortaya çıktı. Bernard von NotHaus 1998 yılında altın ve gümüşe dayalı, gümüş sikkeler ve temsili banknotlar halinde bulunabilen bir para birimi olan Liberty Dollar'ı piyasaya sürdü. NORFED (National Organization for the Repeal of the Federal Reserve and Internal Revenue Code'un kısaltması) adlı kar amacı gütmeyen bir kuruluş sistemi yönetti. 2003 yılından itibaren Liberty Doları, e-altın benzeri bir hesap sistemi aracılığıyla dijital olarak da kullanılmaya başlandı (bir sonraki bölüme bakınız). Bu sistem belli bir başarı elde etti. Dolaşımdaki madeni paraların yanı sıra, NORFED'in kasalarında paranın konvertibilitesini sağlamak için yaklaşık 8 milyon dolar değerli metal bulunuyordu ve bunun 6 milyon doları dijital birimi desteklemek içindi.
 
 
-![2003 Silver Liberty Dollar](assets/en/008.webp)
+![2003 Silver Liberty Dollar](assets/tr/008.webp)
 
 2003 yılından gümüş Liberty Doları (10 dolar) (kaynak: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -345,7 +347,7 @@ Prensip, her bir e-altın biriminin gerçek altına dönüştürülebilmesiydi. 
 E-gold sistemi, yeni gelişmekte olan Web'den, özellikle de yeni Netscape tarayıcısından yararlandı. Her müşteri kendi hesabına özel bir yazılım kullanmak yerine web sitesinden erişebiliyordu. O zamanlar için, bankalar arası transferden esinlenen gerçek zamanlı bir brüt ödeme sistemi kullanan platform çok yüksek performans gösteriyordu. İşte 2005 yılında e-altın göndermenin nasıl göründüğü (o zamanki bir [tutorial](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)'dan alınan görüntü):
 
 
-![Sending on e-gold in 2005](assets/en/009.webp)
+![Sending on e-gold in 2005](assets/tr/009.webp)
 
 
 E-altın sistemi büyük bir başarı elde etti: 2006'daki zirvesinde 80 milyon dolardan fazla değere sahip 3,6 ton altını [garanti](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) etti, yıllık 3 milyar dolarlık bir hacim için günde 75.000 işlemi [işledi](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) ve 2,7 milyondan fazla hesabı yönetti.
@@ -362,7 +364,7 @@ Aynı modeli izleyen başka sistemler de kuruldu. James Turk ve oğlu tarafında
 Merkezi özel para birimi sisteminin bir başka örneği de kullanıcıların ABD doları, avro veya altına sabitlenmiş elektronik para birimlerini tutmalarına ve transfer etmelerine olanak tanıyan Liberty Reserve'dir. Bu sistemi Ukrayna kökenli bir Amerikalı olan Arthur Budovsky ve Saint Petersburg'dan Rus bir göçmen olan Vladimir Kats yaratmıştır. Arthur Budovsky 2006 yılında, o zamanlar vergi cenneti olarak kabul edilen Kosta Rika'ya gitti ve Liberty Reserve S.A. adlı şirketini burada tescil ettirdi.
 
 
-![Liberty Reserve logo in 2009](assets/en/010.webp)
+![Liberty Reserve logo in 2009](assets/tr/010.webp)
 
 2009'da Liberty Reserve logosu (kaynak: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
@@ -392,7 +394,7 @@ PayPal'ın orijinal vizyonu, Peter Thiel'in özgürlükçü vizyonu doğrultusun
 
 > "Elbette, Amerikalı kullanıcılar için 'kullanışlı' dediğimiz şey, gelişmekte olan dünya için devrim niteliğinde olacaktır. Bu ülkelerin birçoğunun hükümetleri para birimleriyle hızlı ve gevşek oynuyor. Enflasyonu ve bazen de geçen yıl Rusya ve bazı Güneydoğu Asya ülkelerinde gördüğümüz gibi toptan devalüasyonları, vatandaşlarının servetlerini ellerinden almak için kullanıyorlar. Oradaki sıradan insanların çoğu hiçbir zaman bir offshore hesabı açma ya da ellerine ABD doları gibi istikrarlı bir para biriminden birkaç banknottan fazlasını alma fırsatına sahip olamıyor. Eninde sonunda PayPal bunu değiştirebilecek. Gelecekte, hizmetimizi ABD dışında da kullanılabilir hale getirdiğimizde ve İnternet penetrasyonu tüm ekonomik katmanlara yayılmaya devam ettikçe, PayPal dünya çapındaki vatandaşlara para birimleri üzerinde daha önce hiç sahip olmadıkları kadar doğrudan kontrol sağlayacaktır. Yozlaşmış hükümetlerin eski yöntemlerle halklarının servetlerini çalmaları neredeyse imkansız hale gelecek, çünkü bunu denedikleri takdirde halk Dolar, Pound ya da Yen'e geçerek daha güvenli bir para birimi için değersiz yerel para birimini terk edecektir."
 
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/tr/011.webp)
 
 Peter Thiel 20 Ekim 1999 tarihinde Oakland, Kaliforniya'da Independent Institute için yaptığı konuşma sırasında (kaynak: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
@@ -429,7 +431,7 @@ Bu bölümde, daha sonra Bitcoin'te kullanılan çeşitli temel teknik Elements'
 1950'lerde bilgisayarların ortaya çıkmasıyla birlikte, onları birbirine bağlama olasılığı da ortaya çıktı. İlk bilgisayar ağları bu şekilde oluşturuldu ve 1970'lerde "ağların ağı" olan İnternet'in gelişmesine yol açtı. Bu ağların altyapısı sorunu kaçınılmaz olarak ortaya çıktı. Bu nedenle Polonyalı-Amerikalı bilgisayar bilimcisi Paul Baran, 1964 tarihli temel makalesinde (paket anahtarlamayı tanımlayan) üç tür ağ listeledi: tek bir düğüme dayanan merkezi ağ; her noktanın bir düğüm olduğu dağıtılmış ağ; birden fazla düğümden oluşan dağıtılmış bir ağa dayanan merkezi olmayan (dağıtılmamış) ağ.
 
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/tr/012.webp)
 
 
 Bu düşüncelerden iki saf model türetilebilir: merkezi bir sunucunun istemcilerin isteklerine yanıt verdiği istemci-sunucu modeli ve her düğümün sistemde aynı role sahip olduğu eşler arası model. Bu son model özellikle 2000'li yıllarda BitTorrent ve diğer benzer protokollerin oluşturulmasıyla dosya paylaşımı için faydalı olmuştur. Tor ağı merkezi değildir, tamamen eşler arası değildir.
@@ -440,7 +442,7 @@ Dağıtık mimarilerde karşılaşılan bir sorun, genellikle Bizans Genelleri S
 Problem, Bizans İmparatorluğu'nun ordu generallerinin birlikleriyle bir düşman şehrini kuşattığı, saldırı niyetinde olduğu ve sadece haberciler aracılığıyla iletişim kurabildiği bir metafor olarak ifade edilmektedir. Amaç, hainlerin varlığını yönetebilecek ve saldırının başarılı olması için tüm sadık generallerin bir savaş planı üzerinde anlaşmasını sağlayacak bir strateji (yani bir algoritma) bulmaktır. İşte bir örnek (kaynak: *L'Élégance de Bitcoin*):
 
 
-![The Byzantine Generals Problem](assets/en/013.webp)
+![The Byzantine Generals Problem](assets/tr/013.webp)
 
 
 Bu sorunun çözülmesi, bir hesap birimini yöneten dağıtık sistemler için önemlidir. Bu tür sistemler, katılımcıların hesap birimlerinin Ownership'i, yani kimin neye sahip olduğu konusunda anlaşmasını gerektirir.
@@ -462,7 +464,7 @@ Ancak, zaman damgası özellikle dosyaların (metin, görüntü, ses veya video)
 1991 yılında, New Jersey'de bulunan bir Ar-Ge konsorsiyumu olan Bell Communications Research Inc. (genellikle "Bellcore" olarak adlandırılır) için çalışan iki araştırmacı Stuart Haber ve Scott Stornetta tarafından gizli ve güvenli bir zaman damgası tekniği önerilmiştir. "Dijital bir belgeye zaman damgası nasıl vurulur" başlıklı [makalelerinde] (http://www.staroceans.org/e-book/Haber_Stornetta.pdf), sertifikalı bir zaman damgası hizmetinin müşteri belgelerinin gizliliğini ve sertifikasyonun güvenilirliğini artırmak için tek yönlü bir işlevi (MD4 Hash işlevi gibi) ve bir imza algoritmasını nasıl kullanabileceğini açıkladılar. Özellikle, fikir, tek yönlü işlevin uygulanmasına önceki Timestamp'yi dahil ederek bilgiyi zincirlemekti.
 
 
-![Example of certified timestamping](assets/en/014.webp)
+![Example of certified timestamping](assets/tr/014.webp)
 
 Sertifikalı zaman damgası örneği (kaynak: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
@@ -482,7 +484,7 @@ Proof of Work konsepti ilk olarak 1992 yılında Kaliforniya'da San Jose'nin gü
 İnternetin 1990'larda yaygınlaşmasıyla birlikte, istenmeyen e-posta sorunu, cypherpunk'ların e-posta listesi de dahil olmak üzere giderek daha fazla baskı yaratmaya başladı. Bu nedenle Dwork ve Naor'un konsepti 1997 yılında genç İngiliz Cypherpunk Adam Back tarafından bir Hash fonksiyonu kullanarak basit çalışma kanıtları üreten bir algoritma olan Hashcash ile [uygulandı] (https://cypherpunks.venona.com/date/1997/03/msg00774.html). Daha spesifik olarak, söz konusu Hash fonksiyonunun kısmi bir çarpışmasını bulmayı, yani aynı veri bitleriyle başlayan bir ayak izine sahip iki mesaj elde etmeyi içerir (not: 2002'de yayınlanan 1.0 sürümünden itibaren, sıfır baskı için kısmi bir çarpışma keşfetmeyi, yani ayak izi belirli sayıda ikili sıfırla başlayan bir ön görüntü bulmayı içerir). Hash işlevi tek yönlü olduğundan, böyle bir başarı ancak farklı olasılıkları ayrı ayrı test ederek gerçekleştirilebilir, bu da bir enerji harcaması gerektirir.
 
 
-![Adam Back in 2001](assets/en/015.webp)
+![Adam Back in 2001](assets/tr/015.webp)
 
 Adam Back 2001 yılında (kaynak: [Adam Back'in kişisel sayfasının arşivi](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -512,7 +514,7 @@ Oldukça dahiyane olmasına rağmen Wei Dai'nin b-para konsepti tamamen işlevse
 Listede yayınlanmasından sonra, b-money cypherpunk'ların ve özellikle de [Adam Back'in] dikkatini çekti(https://cypherpunks.venona.com/date/1998/12/msg00203.html). Ancak, Wei Dai modelini sadece işlevsiz olduğu için değil, aynı zamanda kriptografın kripto-anarşisine yönelik [hayal kırıklığı](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) nedeniyle de hiçbir zaman uygulamadı. Bununla birlikte, b-para Bitcoin beyaz kağıdında alıntılanmış ve bu da onu öncülerinden biri haline getirmiştir.
 
 
-![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
+![Citation of b-money in the Bitcoin white paper](assets/tr/016.webp)
 
 
 ### bit gold: Bitcoin öncesi dijital altın
@@ -524,7 +526,7 @@ Cypherpunk'ların fikirlerinden ortaya çıkan ikinci model, Nick Szabo'nun 1998
 1994 yılında Nick Szabo libtech-l adında özel bir posta listesi oluşturdu. Adından da anlaşılacağı üzere, otoritelerin saldırılarına karşı bireysel özgürlüklerin korunmasını sağlayan özgürlükçü teknikler üzerine tartışmalara ev sahipliği yapmayı amaçlıyordu. Wei Dai ve Hal Finney gibi Cypherpunk'ların yanı sıra Hayekçi para birimi rekabeti ve serbest bankacılığın savunucuları olan ekonomistler Larry White ve George Selgin'in de erişimi vardı.
 
 
-![Nick Szabo in 1997](assets/en/017.webp)
+![Nick Szabo in 1997](assets/tr/017.webp)
 
 1997 yılında Nick Szabo (kaynak: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -557,7 +559,7 @@ Sunucu yeniden kullanılabilir Proof-of-Work jetonlarını yönetir ve RSA şifr
 İşte Hal Finney'in kendisi tarafından [tasarlanmış] (https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) bir illüstrasyon:
 
 
-![Exchange in RPOW](assets/en/018.webp)
+![Exchange in RPOW](assets/tr/018.webp)
 
 
 Hal Finney sadece modeli tasarlamakla kalmamış, aynı zamanda bizzat uygulamıştır. 15 Ağustos 2004 tarihinde cypherpunks posta listesinde RPOW sisteminin başlatıldığını [duyurdu](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) ve özel web sitesinde (rpow.net) işleyişini belgeledi. Daha sonra San Francisco'da düzenlenen CodeCon 2005 konferansında [sundu](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) ve burada Proof-of-Work tokenlerinin potansiyel kullanım alanlarını tartıştı: değer transferi, spam düzenlemesi, video oyunlarında ticaret, poker gibi çevrimiçi kumar ve BitTorrent gibi dosya paylaşım protokollerinde anti-leeching.
@@ -579,7 +581,7 @@ Dolayısıyla, RPOW'un fiili kullanımı anekdot niteliğindeydi. Yine de Hal Fi
 Bitcoin'ün daha az bilinen ancak burada önemli olan bir başka öncül modeli de Kanadalı geliştirici Ryan Fugger tarafından 2004 yılında tasarlanan dağıtık kredi protokolü Ripple'dır. Genç Kanadalı, protokolünü tasarlamadan önce Vancouver'da deneyimlediği [yerel Exchange ticaret sistemi](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS) kavramından esinlenmiştir. Ripple [white paper](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)'ı 14 Nisan 2004 tarihinde yayınladı. Ardından, merkezi bir sunucuda çalışan ve kullanıcıların yalnızca bir e-posta Address ile bağlanmasına izin veren RipplePay adlı bir kavram kanıtı aracılığıyla uyguladı.
 
 
-![Ryan Fugger circa 2010](assets/en/019.webp)
+![Ryan Fugger circa 2010](assets/tr/019.webp)
 
 Ryan Fugger 2010 dolaylarında (kaynak: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -653,7 +655,7 @@ Ağustos 2008'de Satoshi, Bitcoin'in lansmanı için hazırlık yapmaya karar ve
 20 Ağustos'ta Bitcoin'ün yaratıcısı Adam Back [https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf] ile temasa geçerek Hashcash ile ilgili makalesine beyaz kitapta nasıl atıfta bulunacağı konusunda tavsiye isteyen bir e-posta gönderdi. Bunu, Hashcash'in mucidinin yeni sisteminden haberdar olmasını sağlamak için bir bahane olarak görmemek Hard.
 
 
-![Adam Back in 2012](assets/en/020.webp)
+![Adam Back in 2012](assets/tr/020.webp)
 
 Adam Back 2012 yılında (kaynak: [Adam Back'in kişisel sayfası](http://www.cypherspace.org/adam/))
 
@@ -697,7 +699,7 @@ Ayrıca modelinin temel özelliklerini de listelemektedir:
 E-postasında, halihazırda Bitcoin.org'da barındırılan beyaz kağıda bir bağlantı ekliyor. Bilimsel bir makale olarak sunulan 9 sayfalık bu kısa belge, Bitcoin'un teknik işleyişini anlatıyor ve çevrimiçi ödemeler sorununa odaklanıyor.
 
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/tr/021.webp)
 
 
 Satoshi bu duyurunun ardından birkaç tepki aldı, ancak çoğu şüpheciydi. Özellikle üç şey için eleştirildi:
@@ -714,7 +716,7 @@ Satoshi bu duyurunun ardından birkaç tepki aldı, ancak çoğu şüpheciydi. �
 Şüphecilik listedeki baskın tutum olsa da, e-posta listesine abone olan herkes tarafından paylaşılmıyor. Özellikle bir kişi coşkusuyla diğerlerinden ayrılıyor: Geleceğe iyimser bakan ve 90'lı yıllardaki başarısızlıklara rağmen elektronik para fikrinden asla vazgeçmeyen Hal Finney. Birkaç yıl sonra bu konuda "kriptografik gri sakallıların [...] sinik olma eğiliminde olduklarını" ancak kendisinin "kriptografiyi, gizemini ve paradoksunu her zaman sevdiği için" "daha idealist olduğunu" [belirtmiştir] (https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) (*orijinal: "Kriptografik gri sakallıların (ben 50'li yaşlarımın ortasındaydım) alaycı olma eğiliminde olduklarını fark ettim. Ben daha idealisttim; kriptoyu, gizemini ve paradoksunu her zaman sevdim. "*) Böylece, 7 Kasım'da listeye yazdığı bir [e-posta](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) ile "Bitcoin çok umut verici bir fikir gibi görünüyor" dedi ve Satoshi'nin modelini Nick Szabo'nun bit gold'u ile karşılaştırdı. (*orijinal: "Bitcoin çok umut verici bir fikir gibi görünüyor. "*)
 
 
-![Hal Finney in 2007](assets/en/022.webp)
+![Hal Finney in 2007](assets/tr/022.webp)
 
 Hal Finney 2007 yılında
 
@@ -787,7 +789,7 @@ Satoshi ve Hal Finney arasındaki bu yazışmalardan, 12 Ocak'ta [yayınlanan](h
 Ancak Hal Finney o dönemde Bitcoin'ü deneyen tek kişi değildir. O sıralarda dijital para birimleriyle (ve özellikle de Liberty Dollar'ın elektronik versiyonuyla) ilgilenen Amerikalı bilgisayar güvenliği araştırmacısı Dustin D. Trammell de Bitcoin'ü e-posta listesi aracılığıyla keşfetmiştir. 11 Ocak'ta yazılımı iş makinelerinden birinde çalıştırır (ancak teknik bir sorun nedeniyle ilk [blok](https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) madenciliğini ayın 13'üne kadar yapmaz). 11'i 12 Ocak'a bağlayan gece boyunca Satoshi ile yoğun bir şekilde temasa geçer ve sonraki günlerde onunla [iletişim](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) kurar. 15 Ocak'ta Dustin Trammell ondan da 25 bitcoin [alır](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577).
 
 
-![Dustin Trammell](assets/en/023.webp)
+![Dustin Trammell](assets/tr/023.webp)
 
 Dustin Trammell (kaynak: [Dustin Trammell'in blog arşivi](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
@@ -843,7 +845,7 @@ Bu, İngiliz *The Times* gazetesinin o günkü manşetidir ve Maliye Bakanı'nı
 - Öte yandan, dönemin parasal ve finansal bağlamına atıfta bulunarak Bitcoin'un neye karşı durduğunu sembolik olarak göstermektedir.
 
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/tr/024.webp)
 
 
 O dönemde dünya, 2007 yılında Amerika Birleşik Devletleri'nde subprime balonunun patlamasıyla başlayan mali krizin tüm etkilerini hissediyordu. Hükümetler, yatırım bankası Lehman Brothers'ın 15 Eylül 2008'de batmasının ardından daha fazla iflasın önüne geçmek için finansal kurumları kurtardı ve merkez bankaları finansal piyasalara likidite enjekte ederek niceliksel gevşemeye gitti. Bu vesileyle yaratılan kamu parasının kullanımı, bankacılık sisteminin aslında özel karlar ve toplumsallaştırılmış zararlardan oluştuğunu fark eden bir dizi vatandaşı tedirgin etti.
@@ -893,7 +895,7 @@ Ardından, aynı e-postada Jonathan Thornburg, Satoshi'nin vurguladığı kullan
 Son yorum ise cypherpunks'ın kurucu üyelerinden ve 1992'den 1997'ye kadar hareketin ilk e-posta listesinin koruyucusu olan John Gilmore'dan geliyor. Gilmore, 25 Ocak'ta gönderdiği bir e-postada, Bitcoin'ün sözde ekolojik sonuçlarını vurguluyor ve [yazıyor](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) "İhtiyacımız olan son şey, e-postaları veya spam'leri iletmek için küçük miktarlarda bitbux üretmek üzere tüm mevcut döngüleri yakmak, elektrik tüketmek ve karbondioksit üretmek üzere tasarlanmış bir sistemi İnternet'in her yerine yerleştirmektir." Satoshi [yanıtlar] (https://mmalmi.github.io/Satoshi/#email-3) ona özel olarak "ekonomik özgürlük ve çevre koruma arasında seçim yapmak zorunda kalmanın ironik olacağını" söyler "Proof of Work'ün eşler arası bir elektronik para sisteminin çalışması için bulduğu tek çözüm olduğunu" ve çok fazla enerji tüketecek olsa bile "yine de yerini alacağı emek ve kaynak yoğun geleneksel bankacılık faaliyetinden daha az israf edeceğini" ekliyor
 
 
-![John Gilmore in 2007](assets/en/025.webp)
+![John Gilmore in 2007](assets/tr/025.webp)
 
 John Gilmore 2007 yılında (kaynak: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -920,7 +922,7 @@ Söylediğimiz gibi, Satoshi'ün iletişimi başlangıçta Kriptografi posta lis
 
 Profilinde] (https://p2pfoundation.ning.com/profile/SatoshiNakamoto) Japon olduğunu iddia ediyor ama hepsi bu kadar değil. 2011'de yapılan bir Interface güncellemesi yaşını ortaya çıkardı: 35 yaşında, yani 2009'da 32 ya da 33 yaşındaydı. Ardından, 2014 yılında, belirli bir doğum tarihi belirttiği [keşfedildi](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/): 5 Nisan 1975. Görünüşte zararsız olan bu tarih muhtemelen 1933-1975 yılları arasında Amerika Birleşik Devletleri'nde Amerikan vatandaşlarının altın sahibi olmalarının yasaklanmasına bir göndermedir. 5 Nisan günü, bu yasağın Başkan Franklin Delano Roosevelt tarafından 5 Nisan 1933 tarihinde imzalanan [Executive Order 6102] (https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-Coin-gold-bullion-and-gold-certificates) ile tesis edildiği güne, 1975 yılı ise [Public Law 93-373] (https://www.govtrack.us/congress/bills/93/s2665/text) ile yürürlükten kaldırıldığı güne tekabül etmektedir. Bu ayrıntı çok önemlidir çünkü bu yasak klasik altın standardını (temsili bir banknot karşılığında Exchange cinsinden altın elde edilebildiği) sona erdirmiş, doların devalüasyonuna (1934'teki Altın Rezerv Yasası aracılığıyla) izin vermiş ve 1971 Nixon Şoku'nun ardından bildiğimiz dalgalı Exchange kuru parasal rejiminin kurulmasını kolaylaştırmıştır.
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/tr/026.webp)
 
 
 Satoshi Nakamoto'nun 17 Mart 2011 tarihinde P2P Vakfı forumundaki profili (kaynak: [forum yakalama](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
@@ -950,7 +952,7 @@ Satoshi'ün iletişim stratejisi yavaş yavaş meyvelerini vermeye başladı. Ni
 12 Nisan'da Mike Hearn, Satoshi'e bir [e-posta] (https://plan99.net/~mike/Satoshi-emails/thread1.html) göndererek Bitcoin hakkında bir dizi soru sordu. "Gerçekten devrimci fikirlerle karşılaşmanın nadir olduğunu" belirtti ve Ripple'dan bahsetmeyi ihmal etmedi.
 
 
-![Mike Hearn](assets/en/027.webp)
+![Mike Hearn](assets/tr/027.webp)
 
 
 Mike Hearn ve Satoshi Nakamoto, Bitcoin'nın ölçeklendirme, mikro ödemeler, yazılımın nasıl çalıştığı ve ters ibrazların olmaması gibi çeşitli yönlerini tartıştı. Mike Hearn özellikle Satoshi'ye toplam bitcoin miktarı için neden "24 milyon" (*sic*) miktarını seçtiğini ve bunların alt bölümlere ayrılıp ayrılamayacağını sordu. Satoshi daha sonra aşağıdaki açıklamayı yapmıştır:
@@ -972,7 +974,7 @@ Satoshi'nın iletişimi Martti Malmi adlı genç bir Finlandiyalı bilgisayar bi
 
 > "Sistem anonimdir ve hiçbir hükümet işlemleri vergilendiremez ya da engelleyemez. Sınırsız yeni para yaratarak para biriminin değerini düşürebilecek bir merkez bankası yok. Böyle bir sistemin yaygın olarak benimsenmesi, devletin vatandaşlarını besleme yeteneği üzerinde yıkıcı bir etkiye sahip olabilecek bir şey gibi görünüyor."
 
-![Martti Malmi in 2013](assets/en/028.webp)
+![Martti Malmi in 2013](assets/tr/028.webp)
 
 Martti Malmi 2013 yılında (kaynak: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -1023,7 +1025,7 @@ Benimsenecek teknik çözüm üzerine yapılan bazı tartışmalardan sonra Mart
 İlk kullanıcılar bir sonraki ayın başında kayıt olmaya başlar. 9 Aralık'ta, Satoshi dışında biri tarafından gönderilen [ilk mesaj](https://bitcointalk.org/index.php?topic=12.msg40#msg40) görünür ve bu da tartışmaları gerçekten başlatır. Örnek olarak, 29 Mayıs 2010 tarihinde forumun [ekran görüntüsü](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) aşağıda verilmiştir:
 
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/tr/029.webp)
 
 
 Yeni forumun açılışı, Satoshi Nakamoto ve Martti Malmi'nin aylardır üzerinde çalıştığı yazılımın [sürüm 0.2] (https://bitcointalk.org/index.php?topic=16.msg73#msg73) sürümünün 16 Aralık'ta yayınlanması için bir fırsat oldu. Bu sürüm görev çubuğuna küçültme, açılışta otomatik başlatma ve Mining üretimi için çoklu iş parçacığı gibi iyileştirmeler içeriyor. Malmi'nin katkıları ve yeni kurulan NewLibertyStandard (bir sonraki bölümde ele alınacak) tarafından gerçekleştirilen testler sayesinde yazılım Linux'a da uyarlandı.
@@ -1099,7 +1101,7 @@ Son iki neden, insanları sürekli madencilik yapmaya motive ettiği için çok 
 Eylül 2009'un sonunda NewLibertyStandard (NLS olarak kısaltacağız) takma adını kullanan bir kişi Bitcoin'u keşfeder. Yazılımı dener ve Mining'yi başlatır. Ürettiği ilk blok [blok 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Kendisi bir Linux kullanıcısıdır ve bu nedenle yazılımı çalıştırmak için "emülatör" Wine kullanır. Forumdaki [avatar](https://bitcointalk.org/index.php?action=profile;u=26) üzerinde "özgürlük" yazan bir Amerikan Kartalı resminden de anlaşılacağı üzere siyasi özgürlük ve değerli metallerle ilgilenmektedir. Dolayısıyla Bitcoin'u dijital dünyada altının bir eşdeğeri olarak görüyor: [kişisel sayfasında](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) Satoshi Nakamoto'nun yaratımını "ekonomik bir devrim" ve "dijital para biriminin altın standardı" olarak sunuyor
 
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/tr/030.webp)
 
 
 Ekim 2009'da, insanların dolarlarını bitcoine ve bitcoinlerini tekrar dolara dönüştürmelerine olanak tanıyan ilk para birimi Exchange hizmeti kuruldu. Yaratıcı, SourceForge'daki Bitcoin'e adanmış foruma kaydoldu ve hizmetinin açılışını orada duyurdu. Exchange oranını tahmin etmek için, bulunduğu yerdeki elektrik fiyatını ve üretim sıklığını göz önünde bulundurarak bir birim elde etmek için gereken enerji maliyetini temel aldı. Sayfasında [yazdı](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
@@ -1110,7 +1112,7 @@ Ekim 2009'da, insanların dolarlarını bitcoine ve bitcoinlerini tekrar dolara 
 İşte NLS'nin kişisel sayfasında da yayınlanan NLS hizmetinin gösterge niteliğindeki Exchange ücretleri:
 
 
-![Indicative exchange rates of the NLS service](assets/en/031.webp)
+![Indicative exchange rates of the NLS service](assets/tr/031.webp)
 
 
 İşlemler newlibertystandard@gmail.com adresinden e-posta yoluyla gerçekleştirilir. Dolar transferleri yalnızca PayPal aracılığıyla yapılır ve işlem için ücret alınır.
@@ -1143,7 +1145,7 @@ Koordinasyon çabaları öncelikle forum üzerinden yürütülmektedir. 27 Ocak'
 5 Şubat'ta NLS, yabancı Exchange piyasasında işlem gören para birimleri gibi Bitcoin'nin de BTC ve Tayland bahtı (฿) sembolünü benimsemesini [önerdi](https://bitcointalk.org/index.php?topic=41.msg238#msg238). O zamana kadar yerleşik bir uygulama yoktu: örneğin, Satoshi ve Martti [yazışmalarında] birimleri tanımlamak için `bc` harflerini kullandılar (https://mmalmi.github.io/Satoshi/#email-119). BTC sembolünün kullanımı hızla standart hale geldi. 24 Şubat'ta para birimi sembolü (iki dikey çubukla kesişen büyük B) Satoshi tarafından [tasarlandı](https://bitcointalk.org/index.php?topic=64.msg504#msg504) ve ardından ilk gerçek Bitcoin logosu oluşturuldu.
 
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/tr/032.webp)
 
 
 Yavaş yavaş, insanlar Bitcoin'u kabul etmeye başladı. Aralık 2009'da SmokeTooMuch adlı kullanıcı BTC 2 PSC adlı bir paysafecard hediye kartı satış hizmetinin varlığından haberdar oldu](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65). Bu hizmet daha sonra 4 Şubat 2010 tarihinde Satoshi tarafından olumlu bir şekilde [bahsedildi](https://mmalmi.github.io/Satoshi/#email-141). Bu durum, 9 Şubat'ta pul ve çıkartmaları satışa sunduğu Liberty Swap Variety Shop adlı kendi online mağazasını [açan](https://bitcointalk.org/index.php?topic=30.msg305#msg305) NLS için de geçerliydi.
@@ -1158,7 +1160,7 @@ Dolar ile Exchange de gelişti ve iki ay içinde en az üç platform kapıların
 - Bitcoin Market (bitcoinmarket.com), 16 Mart'ta dwdollar adlı biri tarafından [başlatılan] (https://bitcointalk.org/index.php?topic=20.msg726#msg726) ve Temmuz ayında Mt. Gox'un ortaya çıkmasından önce önemli bir başarı görecek olan PayPal kullanan eşler arası bir pazar yeri.
 
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/tr/033.webp)
 
 gW-426 Market Interface'in [Yakalama] (https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) daha sonra (Ağustos 2011)
 
@@ -1172,7 +1174,7 @@ IP üzerinden ses hizmeti [Link2VoIP](https://bitcointalk.org/index.php?topic=30
 İlk özel Bitcoin saklama hizmeti de ortaya çıkıyor: MyBitcoin, özellikle mobil cihazlarda kripto para biriminin kolay ve sakin bir şekilde kullanılmasını sağlayan bir web uygulaması. Bu hizmet sayesinde kullanıcıların işlem göndermek ve almak için tüm zincir verilerini indirmelerine ya da özel anahtarlarını kaydederek bitcoinlerini kendilerinin saklamalarına gerek kalmıyor.
 
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/tr/034.webp)
 
 
 O zamanlar hafif cüzdanlar ("SPV" olarak bilinir) mevcut değildi, bu nedenle Satoshi Nakamoto'nun kendisi, bu kullanım Bitcoin'un kalbindeki aracısızlaştırma ilkesine aykırı olsa da, bu tür bir yazılımın kullanılmasını kabul edilebilir buldu. 18 Mayıs 2010 tarihinde forumda [yazdı] (https://bitcointalk.org/index.php?topic=125.msg1149#msg1149):
@@ -1236,7 +1238,7 @@ Bitcoin'ye yönelik giderek artan talebe, ağdaki Mining faaliyetlerinde kademel
 Satoshi Nakamoto bu zorluk artışı konusunda çok endişeliydi ve Şubat 2010'dan itibaren forumda bir [geçmiş] (https://bitcointalk.org/index.php?topic=43.msg249#msg249) tuttu. İşte böyle görünüyordu:
 
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/tr/035.webp)
 
 
 Ağdaki bilgi işlem gücünün artmasıyla ilgili bu coşkuya rağmen, Satoshi yine de birimlerin dağılımını desteklemek için Mining'ün uzmanlaşmasını yavaşlatmak istiyordu. O zamana kadar madenciler yeni bitcoinler çıkarmak için merkezi işlem birimlerini (CPU) kullanıyordu. Ancak bu işlemciler, bu tür tekrarlayan hesaplamalar için çok daha uygun olan grafik işlem birimlerine (GPU'lar) kıyasla, tekrarlayan işlemleri gerçekleştirmek için verimsiz olduklarını kanıtladılar. Sonuç olarak, Satoshi'ün kendisi de dahil olmak üzere herkes bu evrimin kaçınılmaz olduğunu biliyordu. 19 Aralık 2009 tarihinde aşağıdaki şekilde [belirtmiştir] (https://bitcointalk.org/index.php?topic=12.msg54#msg54):
@@ -1247,7 +1249,7 @@ Ağdaki bilgi işlem gücünün artmasıyla ilgili bu coşkuya rağmen, Satoshi 
 Ancak birkaç ay sonra Pandora'nın kutusu açıldı. Baş belası Laszlo Hanyecz, Florida'da yaşayan 28 yaşında Macar kökenli Amerikalı bir geliştiricidir. Bitcoin'yı Nisan 2010'da keşfetti. Ayın 9'unda NLS'den yaklaşık 20 $ karşılığında 3.300 bitcoin [satın aldı] (https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1), ardından birkaç transfer yaparak sistemi test etti. Ayın 18'inde, [halka açık Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4) işlemlerini çoğaltarak ağı tıkamaya çalıştı, ancak tıkandı.
 
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/tr/036.webp)
 
 Laszlo Hanyecz Mayıs 2018'de oğluyla birlikte (kaynak: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1270,7 +1272,7 @@ Mining'deki bu artışın da önemli bir sonucu oldu: Satoshi blok üretmeyi dur
 Satoshi'in Mining aktivitesinin belirgin bir deseni vardır, bu da muhtemelen birkaç yanlış pozitif ile bulduğu blokları tanımlamayı mümkün kılar. Geliştirici Sergio Lerner 2013 yılında bu Mining modelini vurgulamış ve Patoshi Modeli olarak adlandırmıştır.
 
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/tr/037.webp)
 
 
 Satoshiblocks.info] (http://satoshiblocks.info/) web sitesinde gözlemlendiği gibi 0 ve 50.000 bloklar arasındaki Patoshi Örüntüsü: her nokta bir bloğa karşılık gelir. Mavi çizgiler Satoshi'in bloklarından oluşmakta, diğer çizgiler ise diğer madencilerin çıktılarını temsil etmektedir.
@@ -1282,13 +1284,13 @@ Whale Alert tarafından 2020 yılında yayınlanan bir araştırmaya göre, Sato
 2009'un sonbaharında bilgi işlem gücündeki artışla birlikte, Satoshi'ün bilgi işlem gücünün toplam ağ gücüne oranı kademeli olarak azaldı. Mart 2009'da %75 olan oran Eylül'de %60'a, Aralık'ta %15'e düşmüş ve Mayıs'ta %0'a ulaşmıştır. Aşağıda [Organofcorti] (https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) tarafından 2014 yılında yapılan bir grafik yer almaktadır:
 
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/tr/038.webp)
 
 
 Dahası, Satoshi'nın Mining hakimiyetindeki düşüş sadece pasif değildir: aynı dönemde üretimini yavaşlatır. Aslında, Satoshi'nın belirtilen amacı herkesin katılımıdır: Madenciliği maddi kazanç için değil, teşvikler yürürlüğe girene kadar ağın çalışmasını sağlamak için yapmaktadır. Böylece, bu Mining döneminde Hash oranını (her saniyede yapılan hesaplama sayısı) üç kez düşürür: ilki Haziran 2009'da 4,5'ten 2,5 MH/s'ye, ikincisi Ekim ayında 2,5'ten 1 MH/s'ye ve üçüncüsü Mayıs 2010'da 1'den 0 MH/s'ye. İşte bu dönem boyunca Hash oranının gelişiminin bir grafiği ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/tr/039.webp)
 
 
 Satoshi'in Mining'si bu nedenle [Jameson Lopp'un işaret ettiği gibi](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/) kesinlikle fedakârdır. Mining'yi 3 Mayıs 2010'da durdurduğunda (son bloğu [blok 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), bu Bitcoin'un yavaş gelişimindeki bir başka başarıyı teşkil eder: işlem onayının ekonomik aktörler tarafından devralınması.
@@ -1305,7 +1307,7 @@ Temel bir olay da Mayıs 2010'a damgasını vurur: bitcoin ile ilk fiziksel mal 
 Dört gün sonra bu teklif kabul edildi. Jeremy Sturdivant adlı genç bir Kaliforniyalı, IRC anlık mesajlaşma servisinde Exchange'yı kabul etti.
 
 
-![Jeremy Sturdivant in May 2018](assets/en/040.webp)
+![Jeremy Sturdivant in May 2018](assets/tr/040.webp)
 
 Jeremy Sturdivant Mayıs 2018'de (kaynak: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1313,7 +1315,7 @@ Jeremy Sturdivant Mayıs 2018'de (kaynak: [The Telegraph](https://www.telegraph.
 22 Mayıs'ta Papa John's'tan iki pizza sipariş etmiş ve bunlar Jacksonville, Florida'daki Laszlo'ya teslim edilmiştir. Exchange'de 10.000 bitcoin [aldı](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d), Bitcoin Piyasa kurunda yaklaşık 44 $ değerinde. İşte bu iki pizzanın Laszlo'nun kendisi tarafından [paylaşılan](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) bir fotoğrafı:
 
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/tr/041.webp)
 
 
 Böylece, dolaylı da olsa, bitcoin ile yapılan ilk fiziksel mal satın alma işlemi tamamlanmış oldu. Laszlo, "büyük bir adım atıldığını" yazan [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) tarafından tebrik edildi NLS de bu konuda [olumlu bir yorum](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) ekliyor.
@@ -1336,7 +1338,7 @@ Bununla birlikte, kripto para biriminin satın alma gücündeki artış, semboli
 Bu dönem aynı zamanda Bitcoin tarihinde kilit bir figürün gelişine de tanıklık etti: Gavin Andresen, 2004 yılında ABD vatandaşlığına [geçen](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) ve o sırada Amherst, Massachusetts'te yaşayan 44 yaşında Avustralya doğumlu bir geliştirici. Avustralya'ya yaptığı bir seyahatten dönen ve geçici olarak işsiz olan Andresen, Mayıs ayı sonunda InfoWorld'de Neil McAllister tarafından yayınlanan bir [makale](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) aracılığıyla Bitcoin'yı keşfetti. Bu makale Satoshi Nakamoto'nun projesini "açık kaynaklı bir yenilik" olarak sunuyordu
 
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/tr/042.webp)
 
 Gavin Andresen Townsville, Queensland, Avustralya'da (kaynak: [CIO arşivi](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
@@ -1429,7 +1431,7 @@ Daha sonra Teppy, önerileri dikkate alarak sunumu güncelledi. Böylece, Temmuz
 
 > "Yıkıcı bir teknoloji için bu nasıl? Bitcoin, merkez bankası ve işlem ücreti olmayan, eşler arası, ağ tabanlı bir dijital para birimidir. Proof-of-Work konseptini kullanan düğümler, bulgularını ağa yayınlayarak jeton demetlerini aramak için CPU döngülerini yakar. Enerji kullanımının analizi, Bitcoin'lerin piyasa değerinin halihazırda generate için gereken enerjinin değerinin üzerinde olduğunu ve bunun da sağlıklı bir talebe işaret ettiğini göstermektedir. Topluluk, para biriminin herhangi bir hükümetin erişimi dışında kalacağından umutlu."
 
-![Slashdot Logo in 2010](assets/en/043.webp)
+![Slashdot Logo in 2010](assets/tr/043.webp)
 
 
 Yayın fark edildi ve birkaç gün içinde yaklaşık 500 yorum gönderildi. Bitcoin için bu başarı, siteye ve foruma büyük bir ziyaretçi akınına yol açtı. Blockchain'in kullanımı arttı: ağ üzerinde gerçekleştirilen işlem sayısı 10 Temmuz'da 42 iken 12'sinde 1.641'e yükseldi ve 14'ünde 5.554'e ulaşarak tüm zamanların en yüksek seviyesine ulaştı. Sistem artan yüke rağmen ayakta kaldı. Ayın 14'ünde geliştirici Gavin Andresen forumda [yazdı] (https://bitcointalk.org/index.php?topic=286.msg2745#msg2745):
@@ -1449,7 +1451,7 @@ Slashdot'tan gelen insan akınının bir diğer etkisi de ağ üzerinde kullanı
 Slashdot sayesinde Bitcoin'i keşfedenler arasında, 2000'li yıllarda eşler arası dosya paylaşım yazılımı eDonkey2000'in kurucu ortağı ve geliştiricisi olarak tanınan 35 yaşındaki Amerikalı girişimci ve programcı Jed McCaleb de vardı. Bitcoin'i dolar karşılığında Exchange olarak elde etmenin zorluğunu fark ederek, "bir hevesle" verimli bir pazar yaratmaya karar verdi. Bunu yapmak için 2007 yılında geliştirdiği eski projelerinden birini yeniden kullandı: Magic The Gathering Online Exchange (MTGOX), çevrimiçi oyun *Magic: The Gathering Online* için kart alım satımına izin veren bir web sitesi. Bu projenin alan adını (mtgox.com) yeniden kullandı ve bu yeni platformun adı oldu: Mt. Gox, "Gox Dağı" olarak telaffuz edilir.
 
 
-![Jed McCaleb in 2013](assets/en/044.webp)
+![Jed McCaleb in 2013](assets/tr/044.webp)
 
 Jed McCaleb 2013 yılında (kaynak: Ariel Zambelich için [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
@@ -1457,7 +1459,7 @@ Jed McCaleb 2013 yılında (kaynak: Ariel Zambelich için [Wired](https://web.ar
 Bir hafta sonra, 18 Temmuz'da Jed McCaleb Exchange platformunu başlattı ve forumda [duyurdu](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866). Uzmanlığı sayesinde, platformun modern çevrimiçi borsalara benzer şekilde otomatik bir pazar yeri olarak çalışmasını sağladı. [Ona göre](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), Bitcoin Market'ten farklıydı çünkü "her zaman çevrimiçiydi, otomatikti", "site daha hızlıydı ve özel barındırmaya sahipti" ve "Interface daha kullanıcı dostuydu." Sonuç olarak, Mt. Gox hızla Bitcoin'i satın almanın birincil yolu haline geldi ve kendisini dolar kotasyonları için bir ölçüt olarak belirledi.
 
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/tr/045.webp)
 
 Şubat 2011'de Mt. Gox platformunun Interface'u (kaynak: [Mt. Gox arşivi](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1495,7 +1497,7 @@ Ancak Bitcoin'in yaratıcısı kod üzerinde tek başına çalışmıyor. Hazira
 Son olarak Jeff Garzik'ten (forumda jgarzik takma adını kullanıyor) bahsedebiliriz, Amerikalı bir geliştirici ve özgür yazılım dünyasına katkıda bulunuyor, özellikle Red Hat dağıtımı için ve Avusturya ekonomi okulunun özgürlükçü bir takipçisi. Bitcoin'ü Slashdot'taki makale aracılığıyla keşfetti ve hemen Bitcoin'e dahil oldu.
 
 
-![Jeff Garzik in 2013](assets/en/046.webp)
+![Jeff Garzik in 2013](assets/tr/046.webp)
 
 Jeff Garzik 2013 yılında (kaynak: [Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
@@ -1557,7 +1559,7 @@ Her ne kadar Satoshi blok boyutu sınırının varlığından bahsetmemiş olsa 
 Son olarak, bu parametrenin varlığı, "ölçeklenebilirlik konusunda hükümetin kapanmasından çok daha fazla endişe duyduğunu" [beyan eden] (https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) ve "dakika başına 463 işlem sınırı gibi yerleşik sınırlamalarla Bitcoin'yi ciddi yatırımcılara satmanın" nasıl mümkün olduğunu [soran] (https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) Jeff Garzik'i etkilemektedir Sonuç olarak, 3 Ekim'de forumda blok boyutu sınırını "PayPal'ın ortalama işlem oranına uyacak şekilde" 7.168 MB'a çıkarmak için bir yama öneriyor Theymos, "bu yamayı uygulamak sizi diğer Bitcoin istemcileriyle uyumsuz hale getirecektir" diyerek yanıt verir Bu mesaj, yamayı kullanmamayı [tavsiye eden] (https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) ve şunu belirten Satoshi Nakamoto tarafından onaylanmıştır: "İhtiyaç duymaya yaklaşırsak daha sonra bir değişiklik yapabiliriz." İkincisi, ertesi gün böyle bir protokol değişikliğinin nasıl yapılacağına dair yol göstererek düşüncelerini [açıklığa kavuşturur](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366).
 
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/tr/047.webp)
 
 
 Bu tartışma, sonunda 2015-2017 yılları arasında blok büyüklüğü savaşı olarak bilinen gerçek bir iç savaşa yol açacak olan ölçeklenebilirlik tartışmasının başlangıcına işaret etmektedir.
@@ -1609,7 +1611,7 @@ Bu dönem özellikle ilk GPU çiftliklerinin ve ilk kooperatifin ortaya çıkmas
 Temmuz 2010'da Bitcoin'nın slashdot edilmesinden sonra, fiyat artışından kaynaklanan yüksek mali ödül ve gelecekteki büyüme olasılığı, bireyleri kendilerini daha yoğun bir şekilde Bitcoin üretmeye adamaya teşvik etti. Bu nedenle 11 Temmuz'da 0.22 GH/s olan ağın [Hash oranı] (https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime) 17'sinde 2.78 GH/s'ye, ardından 15 Ağustos'ta 5.79 GH/s'ye yükseldi ve sonunda 19 Eylül'de 9.94 GH/s'ye ve son olarak 29 Eylül'de 12.58 GH/s'ye ulaştı.
 
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/tr/048.webp)
 
 11 Temmuz - 5 Ekim 2010 tarihleri arasındaki toplam ağ Hash oranı (kaynak: [CoinWarz](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chart))
 
@@ -1619,7 +1621,7 @@ Bu dönemin en büyük Miner'ü ArtForz adını kullanan bir Alman geliştiriciy
 Bitcoin üretmeye 19 Temmuz'da başlamıştır. 25 Temmuz'da, kullanıcıların Bitcoin varlıkları hakkında anket yaptığı bir başlıkta ArtForz [belirtti] (https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) 6 günde 1.700 bitcoin üretmişti, bu da Hash oranının %4'üne veya 80 MH/s'ye karşılık geliyordu. Yavaş yavaş, "ArtFarm" olarak bilinen büyük bir Mining çiftliği kurdu Ağustos ayında, çiftliği [dahil] (https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/) 6 ATI Radeon HD 5770s, 9 Ağustos'ta 76 MH/s'den 13'ünde yaklaşık 450 MH/s'ye çıkmasını sağladı.
 
 
-![ArtForz's mining production between August and October 2010](assets/en/049.webp)
+![ArtForz's mining production between August and October 2010](assets/tr/049.webp)
 
 ArtForz'un Ağustos ve Ekim 2010 tarihleri arasındaki Mining üretimi (kaynak: Blackburn ve diğerleri, "[Ademi merkeziyetçilik başarısızlıkları sırasında Bitcoin'i koruyan anonim bir grup arasındaki işbirliği](https://arxiv.org/pdf/2206.02871)")
 
@@ -1666,7 +1668,7 @@ Bununla birlikte, kısmi Proof of Work, bir müşterinin Hash oranını ölçmen
 27 Kasım'da, Marek Palatinus adlı genç bir Çek geliştirici, slush takma adını kullanarak, forumda `getwork' ve Jeff Garzik'in mantığından yararlanan bir model olan "kooperatif Mining "nin bir tanımını [yayınladı] (https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0). Bu model, madenciler tarafından üretilen kısmi çalışma kanıtlarına dayanmaktadır (paylaşım başına ödeme). Ertesi gün, Satoshi Nakamoto konsepti [onayladı] (https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119).
 
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/tr/050.webp)
 
 Marek Palatinus (slush) 11 Mayıs 2013 tarihinde Prag'da düzenlenen Z-DAY konferansında
 
@@ -1683,7 +1685,7 @@ Kooperatif 15 Aralık'ı 16 Aralık'a bağlayan gece Marek Palatinus tarafından
 Kooperatif, Bitcoin Mining'te bir ölçüt haline gelecektir. Yıllar boyunca çeşitli isimler [taşıdı] (https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history): Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining ve son olarak yaratıcısı hakkında Slush Pool. Eylül 2022'de Braiins Pool adını almıştır.
 
 
-![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
+![Logo of Slush's cooperative in September 2011](assets/tr/051.webp)
 
 Slush kooperatifinin Eylül 2011'deki logosu (kaynak: sitenin [arşivi](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/))
 
@@ -1724,7 +1726,7 @@ Fransız toplumunda işler, özellikle bir kişinin eylemleriyle değişti: Gron
 Birkaç gün sonra, ayın 30'unda LinuxFr.org'da (DLFP) Fransızca bir [haber bülteni] (https://linuxfr.org/news/connaissez-vous-les-bitcoins) yayınladı. "Bitcoins hakkında bilginiz var mı?" başlıklı bu yayın, muhtemelen Bitcoin'in Molière dilinde yazılmış ilk sunumudur. Makale çok sayıda kişiye ulaşarak yaklaşık 350 yorum aldı. İşte o zamanki [göründüğü] (https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) haliyle ilk paragraf:
 
 
-![Do you know about bitcoins?](assets/en/052.webp)
+![Do you know about bitcoins?](assets/tr/052.webp)
 
 
 > **Makaleler: Bitcoin'i biliyor musunuz?** Bitcoin, 2009 yılında Satoshi Nakamoto adlı biri tarafından tasarlanmış elektronik bir para birimidir. Bu para birimi, tamamen merkeziyetsiz peer-to-peer yapısı ve temel kriptografik kavramların akıllıca kullanımıyla diğer elektronik paralardan ayrılır. C++ ile yazılmış ve özgür MIT lisansı altında yayımlanmış bir yazılıma dayanır.
@@ -1732,7 +1734,7 @@ Birkaç gün sonra, ayın 30'unda LinuxFr.org'da (DLFP) Fransızca bir [haber b�
 Bu gönderi özellikle 29 yaşında Belçikalı bir blog yazarı ve özgür yazılım savunucusu olan gerçek adı Lionel Dricot olan Ploum'un dikkatini çekmektedir. 25 Ekim'de blogunda "Geek Currency, Monkey Money?" başlıklı bir makale [yayınladı] (https://ploum.net/monnaie-de-geek-monnaie-de-singe/) ve bu makalede ademi merkeziyetçiliği savunuyor ve Bitcoin ilkesini destekliyor. Fransızca konuşan pek çok internet kullanıcısı, 2017 yılında Bitcoin Cash'i yaratacak olan geliştirici [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/) de dahil olmak üzere Bitcoin'yi bu yolla duydu.
 
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/tr/053.webp)
 
 Lionel Dricot (Ploum) 2012'de, o zaman Korsan Parti bayrağı altında Belçika belediye ve il seçimleri için aday (kaynak: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1745,13 +1747,13 @@ Aynı gün Ploum, Bitcoin forumunda [tartışma başlığı] (https://bitcointal
 Dilsel toplulukların gelişimine ek olarak, Bitcoin hakkında iletişim için kullanılan yöntemlerde de belirli bir yenilik söz konusudur. 4 Ekim'de noagendamarket takma adını kullanan 38 yaşındaki bir Avustralyalı BitcoinMedia adlı bir girişimi [başlattı] (https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217). Amaç, içerik oluşturarak ve izleyici çekmesi muhtemel yerlerde reklamını yaparak Bitcoin'ü tanıtmaktı. Bu girişim beklenen başarıyı yakalayamamış olsa da, Bitcoin'ten bahseden ilk videoların üretilmesine öncülük etme değerine sahiptir. Kanalın 5 Ekim'de [yayınlanan] (https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) ilk videosu, YouTube aracı kullanılarak oluşturulmuş bir Google Arama Hikayesidir (aşağıdaki ekran görüntüsüne bakın). Diğer videolar, önceden tasarlanmış bir dizi karakter ve ortamdan video dizileri oluşturmak için kolay bir araç olan Xtranormal ile oluşturulacak.
 
 
-![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
+![First video on Bitcoin (Google Search Story)](assets/tr/054.webp)
 
 
 Bitcoin ile ilgili blog yazıları bu dönemde çoğalıyor. Bu durum özellikle dijital para birimleri, serbest bankacılık ve kriptografi konularını tartıştığı *The Monetary Future* adlı blogu yöneten Jon Matonis için geçerli. Mart ayında Bitcoin'i keşfetti ve Satoshi ile [değiş tokuş] (https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514) yaptı, ardından konu hakkında yazmaya başladı. Ekim ayında, fiyat artışından bahsettiği ve ekosistemin yeniliklerini detaylandırdığı bir [üçüncü makale](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html) yayınladı.
 
 
-![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
+![Profile picture of Jon Matonis in 2011](assets/tr/055.webp)
 
 Jon Matonis'in 2011 yılındaki profil resmi (kaynak: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
@@ -1759,7 +1761,7 @@ Jon Matonis'in 2011 yılındaki profil resmi (kaynak: [Forbes](https://www.forbe
 Şu anda, yeni bir Bitcoin logosu da önerilmiştir. 1 Kasım'da bitboy takma adını kullanan bir forum üyesi, kripto para birimini vurgulamak için Elements grafiğini [yayınladı] (https://bitcointalk.org/index.php?topic=1631.0). Bu Elements'lerden biri, B harfinin üzeri çizilmiş ve hafifçe eğilmiş turuncu bir logodur:
 
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/tr/056.webp)
 
 
 ### Büyüyen Bir Ekonomi
@@ -1769,7 +1771,7 @@ Bu dönem aynı zamanda ekosistemin ekonomik düzeyde kayda değer bir büyüme 
 Tüm bu Elements, fiyatın büyük ölçüde artmasına yol açıyor. Ağustos ayından bu yana 6 sent civarında sabitlenmişken, Ekim ayının başında yükselmeye başlar. Ay sonunda 10¢'e çıkarak 20¢'e ulaşır. 6 Kasım'da, forum üyelerini [heyecanlandırmaktan] (https://bitcointalk.org/index.php?topic=1681.0) geri kalmayan 50¢'i aşar.
 
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/tr/057.webp)
 
 Mt. Gox'ta 18 Temmuz ve 18 Ekim 2010 tarihleri arasında BTC Fiyatı (kaynak: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
@@ -1794,7 +1796,7 @@ Bitcoin'ün başarısına işaret eden son bir unsur da bazılarının onun sın
 2010 yılının sonunda Electronic Frontier Foundation'ın Bitcoin'yi kabul etmesi önemli bir olaydı. Bu kuruluş 1900 yılında Mitch Kapor, John Gilmore ve John Perry Barlow tarafından kurulmuş, İnternet üzerindeki özgürlükleri korumaya yönelik uluslararası bir organizasyondur. Bu, özünde cypherpunk olan Bitcoin'yi ilk benimseyenler için özellikle önemliydi. Bitcoin'yi kabul etmeye hevesliydiler.
 
 
-![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
+![Logo of the Electronic Frontier Foundation](assets/tr/058.webp)
 
 
 Kiba adlı forum üyesi, 13 Ağustos 2010 tarihinde EFF ile temasa geçmeyi [teklif ederek](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) ve topluluktan [toplanan](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) bir bağışı kabul etmelerini önererek inisiyatif aldı. Bu amaçla, MyBitcoin'de bir [hesap](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) oluşturdu ve burada fonları topladı ve EFF'ye erişimi transfer etmek istedi. Ağustos sonunda gönderdiği (topluluk tarafından düzeltilen) bir e-posta taslağı hazırladı.
@@ -1879,7 +1881,7 @@ Satoshi'a yakın olan ancak diğer geliştiricilerle de tartışan Gavin, bu dur
 Satoshi'in ayrılışını tetikleyen olay WikiLeaks olayıdır. WikiLeaks, 2006 yılında Cypherpunk Julian Assange tarafından kurulan ve kaynaklarını koruyarak muhbirlere ve bilgi sızıntılarına ses vermeyi amaçlayan bir sivil toplum kuruluşudur. 2010 yılı boyunca, STK tarafından ortaya çıkarılan gizli belgeler büyük medya tarafından aktarıldı ve kamuoyunda heyecan yarattı. Bu belgeler özellikle Amerikan ordusunun Afganistan (Afgan Savaş Günlüğü) ve Irak'taki (Irak Savaş Günlükleri) sivil kayıplar ve işkence eylemleri gibi aşırı eylemleriyle ilgilidir.
 
 
-![WikiLeaks logo in November 2010](assets/en/059.webp)
+![WikiLeaks logo in November 2010](assets/tr/059.webp)
 
 
 WikiLeaks'in finansmanı temel olarak kamu bağışlarına dayanıyor, bu nedenle kuruluş çevrimiçi ödemeleri almak için ödeme işlemcilerine güveniyor. Ancak, bu ifşaatların ardından, düzenleyicinin tepkisinden korkan bu aracılar üzerinde baskı oluşuyor. Bu nedenle online ödeme şirketi Moneybookers 14 Ekim'de STK'nın hesabını [dondurdu] (https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked).
@@ -1888,7 +1890,7 @@ WikiLeaks'in finansmanı temel olarak kamu bağışlarına dayanıyor, bu nedenl
 Bu durum, herhangi bir güvenilir üçüncü tarafa dayanmayan ve finansal sansüre çok daha iyi direnecek olan Bitcoin'yi kullanmak için kraliyet yolunu açıyor. Kasım ayında, genjix takma adını kullanan 22 yaşındaki bir İngiliz-İranlı olan Amir Taaki, forumda hipotezi açtı.
 
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/060.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/tr/060.webp)
 
 Amir Taaki Aralık 2012'de Bratislava'da (kaynak: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -2059,25 +2061,25 @@ Ancak Martti'nin öncelikle web sitesi yönetimini devretmesi gerekiyor. 2010 so
 Görünüşü de değişti. Aralık 2010'da web sitesi hala Satoshi dönemindeki gibi görünüyordu. İşte 5 Aralık'tan bir [anlık görüntü] (https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/):
 
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/061.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/tr/061.webp)
 
 
 Böylece, 2011'in başlarında bir renk dokunuşu [eklendi] (https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/):
 
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/062.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/tr/062.webp)
 
 
 Nisan ayında, topluluk tarafından [organize edilen](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) bir yeniden tasarım nedeniyle web sitesinin düzeni değişti. İşte o zaman [nasıl göründüğü](https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/):
 
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/063.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/tr/063.webp)
 
 
 Son olarak, Eylül 2011'de Nils Schneider tarafından yeni bir değişiklik [yapıldı](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691). Bu olay için yeni bir GitHub deposu [oluşturuldu](https://github.com/Bitcoin/Bitcoin.org). Bu tasarım daha uzun sürecekti: 2013 yılına kadar değiştirilmeyecekti. İşte burada (Bitcoin-the-software'in daha sonra "topluluk odaklı bir açık kaynak projesi" olarak tanımlandığına dikkat edin):
 
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/064.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/tr/064.webp)
 
 
 Wiki ile ilgili olarak, başlangıçta web sitesine entegre edilmiş ücretsiz bir motor olan DokuWiki'ye dayanıyordu. Ancak Aralık 2010'da, Japonya'da yaşayan ve forumda MagicalTux takma adını kullanan Fransız bir geliştirici olan Mark Karpelès, Bitcoin.it adresinde yeni bir wiki oluşturdu. Bu wiki, daha zarif ve kullanımı daha kolay bulduğu MediaWiki motoruna dayanmaktadır. Başlangıçtaki fikir mevcut belgelerin yerini almak değil, Mark'ın IRC'de [ifade ettiği] (https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) gibi, "daha az resmi, daha topluluk odaklı bir wiki" geliştirmektir
@@ -2086,7 +2088,7 @@ Wiki ile ilgili olarak, başlangıçta web sitesine entegre edilmiş ücretsiz b
 Bu yeni viki [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) ve [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535)'in ilgisini çeker, bu yüzden hemen ana viki yapmayı düşünürler. İşte 21 Mayıs'ta çekilmiş bir [anlık görüntü](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page):
 
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/065.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/tr/065.webp)
 
 
 Açılıştan birkaç gün sonra, Bitcoin.org ana sayfasındaki "wiki" başlıklı bağlantı [points] (https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Bitcoin.it adresine yönlendirildi. İçerik DokuWiki sürümünden kademeli olarak aktarılır. 31 Ocak'ta Martti forumda bunun yeni wiki olduğunu [belirtir](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789).
@@ -2114,7 +2116,7 @@ Kurucunun ayrılması ve işbirliği yapma ihtiyacı sadece teknik yönü değil
 İlk etkinlikler Amerika Birleşik Devletleri'nde gerçekleşmiş olsa da Fransız toplumu da geride kalmadı. Gavin Andresen'in Paris ziyareti münasebetiyle 25 Mayıs'ta La Défense bölgesinde Lucien Grondin, David François ve Jon Matonis (kendisi de ziyaretteydi) gibi önemli isimlerin katıldığı bir öğle yemeği düzenlendi.
 
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/066.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/tr/066.webp)
 
 Pembe gömlekli Gavin Andresen ile Paris'te La Défense'da buluşma (kaynak: [forum arşivi](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
@@ -2122,7 +2124,7 @@ Pembe gömlekli Gavin Andresen ile Paris'te La Défense'da buluşma (kaynak: [fo
 Bir ay sonra, 15 Haziran'da, Bitcoin'un Fransızca ilk halka açık sunumu [gerçekleşti](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), yine Paris'te. Sunum, Bitcoin'u bir yıl önce keşfetmiş olan genç siber güvenlik uzmanı Renaud Lifchitz (nono2357) tarafından gerçekleştirildi. Sunulan içerik](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/) çok yüksek kalitedeydi ve izleyici katılımı o kadar iyiydi ki salon tıklım tıklım doluydu.
 
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/067.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/tr/067.webp)
 
 Renaud Lifchitz tarafından 15 Haziran 2011 tarihinde yapılan Bitcoin sunumu (kaynak: [forum arşivi](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -2153,7 +2155,7 @@ Yılın ilerleyen aylarında, Kasım ayında, Prag'da bir Avrupa konferansı [ge
 Nisan ayında dijital para konusu [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/) ve [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) gibi önemli ana akım basın organlarında yer aldı. Mayıs ayında hareket ivme kazandı ve Bitcoin'ten [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency), [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124) ve [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/) başta olmak üzere neredeyse her yerde bahsedildi.
 
 
-![Gavin Andresen in Forbes in April 2011](assets/en/068.webp)
+![Gavin Andresen in Forbes in April 2011](assets/tr/068.webp)
 
 Gavin Andresen Nisan 2011'de Forbes'da (kaynak: [Forbes arşivi](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -2170,7 +2172,7 @@ Bireysel blog yazarları da ilgileniyor. İsveç Korsan Partisi'nin kurucusu Ric
 Bitcoin'un yaygınlaşması fiyatının önemli ölçüde artması anlamına gelmektedir. Aralık 2010'da 20 sente kadar düşmüşken, 9 Şubat 2011'de dolar ile eşit seviyeye ulaştı. O dönemde Hal Finney [https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307] topluluk üyelerinin "muhtemelen patlayıcı yeni bir fenomenin başlangıcında oldukları için gerçekten şanslı olduklarını" belirtmiştir İyi bir içgüdüye sahipti, çünkü bundan sonra olacaklar yıldırım hızıyla gerçekleşecekti.
 
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/069.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/tr/069.webp)
 
 Jimbobway tarafından dolar ile parite günü forumda yayınlanan fotoğraf (kaynak: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
@@ -2178,7 +2180,7 @@ Jimbobway tarafından dolar ile parite günü forumda yayınlanan fotoğraf (kay
 Gerçekten de, baharın medya çılgınlığı yavaş yavaş benzeri görülmemiş bir spekülatif fenomen yaratır. Birkaç ay boyunca 1 $ civarında durgunlaştıktan sonra, fiyat yükseldi ve Nisan sonunda 3 $'a ulaştı. Son olarak, 8 Haziran'da Bitcoin'in fiyatı Mt. Gox'ta 32 $ gibi tarihi bir yüksekliğe ulaştı! Bu artış altı ay içinde 160 katlık bir artışa tekabül ediyor.
 
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/070.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/tr/070.webp)
 
 BTC'nin 1 Ocak - 30 Haziran 2011 tarihleri arasındaki ortalama fiyatı (kaynak: [Bitbo.io](https://calendar.bitbo.io/price/))
 

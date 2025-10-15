@@ -106,12 +106,6 @@ Nimwinovore ivyo mwavumbuye!
 
 <isCourseReview>true</isCourseReview>
 
-## Ikizame canyuma
-
-
-<chapterId>fb0afb14-6ba5-11f0-8b44-4f0935e15322</chapterId>
-
-<isCourseExam>true</isCourseExam>
 
 ## Iciyumviro
 

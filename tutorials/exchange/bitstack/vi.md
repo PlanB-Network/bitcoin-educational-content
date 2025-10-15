@@ -6,7 +6,7 @@ description: Mua và bán bitcoin trên ứng dụng Bitstack
 
 Bitstack là một nền tảng đầu tư bitcoin của Pháp, được PSAN quản lý bởi AMF. Nó cung cấp một ứng dụng có sẵn trên Android và iOS để dễ dàng mua và bán bitcoin.
 
-Điểm khác biệt của Bitstack là hệ thống làm tròn tự động, đồng bộ hóa tài khoản ngân hàng của người dùng để chuyển đổi sự khác biệt giữa số tiền ghi nợ trong quá trình chi tiêu hàng ngày và đồng euro cao hơn tiếp theo, trực tiếp thành bitcoin. Phương pháp này tạo điều kiện thuận lợi cho việc áp dụng *Trung bình chi phí đô la* (DCA), cho phép tích lũy satoshi dần dần, không đau đớn. Ngoài tính năng ban đầu này, nền tảng này còn cung cấp hệ thống DCA cổ điển với các khoản đầu tư tự động, cũng như mua và bán tại chỗ.
+Điều khiến Bitstack trở nên khác biệt là hệ thống làm tròn tự động của nó, đồng bộ hóa tài khoản ngân hàng của người dùng để chuyển đổi phần chênh lệch giữa số tiền đã chi trong các khoản chi tiêu hàng ngày và đồng euro cao hơn tiếp theo trực tiếp thành bitcoin. Phương pháp này giúp việc áp dụng *Dollar Cost Averaging* (DCA) trở nên dễ dàng hơn, cho phép tích lũy satoshi dần dần và không đau đớn. Ngoài tính năng độc đáo này, nền tảng cũng cung cấp hệ thống DCA cổ điển với các khoản đầu tư tự động, cũng như mua bán một lần.
 
 ![Image](assets/fr/01.webp)
 
@@ -110,7 +110,7 @@ Như đã đề cập trong phần giới thiệu, Bitstack cung cấp 3 phươn
 - Cấu hình mua hàng định kỳ (RPC);
 - Sử dụng tính năng làm tròn tự động cho chi phí.
 
-### Mua bằng tiền mặt
+### Thực hiện mua một lần
 
 Để mua bitcoin một lần theo giá thị trường, chỉ cần nhấp vào "*Mua*".
 

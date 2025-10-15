@@ -4947,18 +4947,18 @@ Hvis du vil vise alle metadataene i en fil, bruker du følgende kommando:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Erstatt `name.jpg` med det virkelige navnet på filen din. Sørg også for at du befinner deg i katalogen som inneholder dette bildet. Hvis jeg for eksempel har et bilde av Satoshi Nakamoto-statuen i katalogen `/Downloads`, kan jeg vise metadataene ved å kjøre følgende kommando:
+Erstatt `name.webp` med det virkelige navnet på filen din. Sørg også for at du befinner deg i katalogen som inneholder dette bildet. Hvis jeg for eksempel har et bilde av Satoshi Nakamoto-statuen i katalogen `/Downloads`, kan jeg vise metadataene ved å kjøre følgende kommando:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4995,7 +4995,7 @@ Bruk kommandoen for å slette alle unødvendige metadata fra en fil:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5017,7 +5017,7 @@ Hvis du ikke vil beholde originalen, kan du slette den med kommandoen:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5041,12 +5041,12 @@ Hvis du har flere filer som skal behandles i samme katalog, kan du bruke en gene
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Dette sletter metadataene til alle JPEG-filer i den aktuelle katalogen. Du kan tilpasse filtypen etter dine behov (`*.png`, `*.pdf`...).
+Dette sletter metadataene til alle JPEG-filer i den aktuelle katalogen. Du kan tilpasse filtypen etter dine behov (`*.webp`, `*.pdf`...).
 
 
 

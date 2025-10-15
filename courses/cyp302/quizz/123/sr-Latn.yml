@@ -6,4 +6,4 @@ wrong_answers:
   - Kupci bi morali menjati ključeve pri svakoj kupovini
 explanation: |
   Korišćenjem istog ključa za sve, Jim's Sporting Goods bi ugrozio poverljivost i integritet, jer bi svaki kupac mogao potencijalno pristupiti podacima drugih kupaca.
-reviewed: false
+reviewed: true

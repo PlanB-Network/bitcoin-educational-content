@@ -102,26 +102,29 @@ Trong nhiều thế kỷ, phương pháp duy nhất để che giấu nội dung 
 
 Loại mật mã học này cho phép triển khai cả các thuật toán mã hóa và quy trình chữ ký. Mã hóa bất đối xứng bao gồm việc sử dụng khóa công khai làm khóa mã hóa và khóa riêng tư làm khóa giải mã. Người dùng tạo ra một cặp khóa, giữ khóa riêng tư và chia sẻ khóa công khai với các đối tác liên lạc của họ để họ có thể gửi tin nhắn. Loại mã hóa này tương tự như một hòm thư mà người nhận sử dụng để nhận thư và chỉ họ sở hữu chìa khóa.
 
-![Mã hóa bất đối xứng](assets/en/001.webp)
+![Mã hóa bất đối xứng](assets/vi/001.webp)
 Chữ ký số, ngược lại, dựa vào việc sử dụng khóa riêng làm khóa chữ ký và khóa công khai làm khóa xác minh. Người dùng tạo ra một cặp khóa, ký một thông điệp với khóa riêng và gửi nó cho các đối tác liên lạc, những người có thể xác minh tính xác thực của nó sử dụng khóa công khai. Do đó, họ không bao giờ cần biết đến khóa riêng.
-![Chữ ký số](assets/en/002.webp)
+![Chữ ký số](assets/vi/002.webp)
 
 Mật mã bất đối xứng đã được phát hiện độc lập bởi nhiều nhà nghiên cứu trong những năm 1970. Tuy nhiên, những người đầu tiên trình bày những gì họ đã tìm ra là Whitfield Diffie và Martin Hellman, hai nhà mật mã học từ Đại học Stanford. Vào tháng 11 năm 1976, họ đã công bố một bài báo có tựa đề "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" trên tạp chí *IEEE Transactions on Information Theory*, mô tả một thuật toán trao đổi khóa (dành cho việc truyền đạt các khóa bí mật cho mật mã đối xứng) cũng như một quy trình chữ ký số. Trong phần giới thiệu của bài báo này, họ đã viết:
 > "Chúng ta đang đứng trước bờ vực của một cuộc cách mạng trong lĩnh vực mật mã. Sự phát triển của phần cứng số giá rẻ đã giải phóng nó khỏi những hạn chế thiết kế của máy tính cơ khí và giảm giá của các thiết bị mật mã chất lượng cao xuống mức có thể được sử dụng trong các ứng dụng thương mại như máy rút tiền tự động và máy tính đầu cuối. Lần lượt, những ứng dụng như vậy tạo ra nhu cầu về các hệ thống mật mã mới, giảm thiểu sự cần thiết của các kênh phân phối khóa bảo mật và cung cấp tương đương của một chữ ký viết tay. Đồng thời, các phát triển lý thuyết trong lý thuyết thông tin và khoa học máy tính hứa hẹn cung cấp các hệ thống mật mã có thể chứng minh được tính an toàn, biến nghệ thuật cổ xưa này thành một khoa học."
 
 Dưới đây là một bức ảnh từ năm 1977, chụp bởi Chuck Painter cho Dịch vụ Tin tức Stanford, nơi bạn có thể thấy Whitfield Diffie (bên phải) và Martin Hellman (ở giữa). Người ở bên trái là nhà mật mã học Ralph Merkle, người đang ở bên bờ vực của việc phát hiện ra cùng một điều.
 
-![Ralph Merkle, Martin Hellman, và Whitfield Diffie năm 1977](assets/en/003.webp)
+![Ralph Merkle, Martin Hellman, và Whitfield Diffie năm 1977](assets/vi/003.webp)
 
 Bài báo của Diffie và Hellman đã mở đường cho một loạt các đổi mới. Một trong số đó là [hệ thống mật mã RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), được thiết kế vào năm 1977 bởi các nhà mật mã học Ronald Rivest, Adi Shamir, và Leonard Adleman (người đã đặt tên cho nó) và được MIT cấp bằng sáng chế vào năm 1983. Hệ thống này cho phép cả việc mã hóa và ký các thông điệp, nhờ vào việc đổi chỗ các vai trò của các khóa. RSA được công bố công khai lần đầu tiên trong một [bài báo của Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) được đăng trên tạp chí *Scientific American* vào tháng 8 năm 1977, với tựa đề "Mathematical Games: A new kind of cipher that would take millions of years to break."
 
 Sự phát hiện của mật mã bất đối xứng cũng đã thúc đẩy sự tạo ra của các hàm một chiều, được đặc trưng bởi việc làm cho việc tính toán một ảnh (hướng tiến) rất dễ dàng và việc thu được một ảnh ngược (hướng ngược) rất khó. Cụ thể, nó dẫn đến sự phát triển của các hàm băm mật mã đầu tiên, chuyển đổi một thông điệp có kích thước biến đổi thành một bản tóm tắt cố định. Giữa năm 1989 và 1991, một số thuật toán băm (MD2, MD4, và MD5) do đó đã được thiết kế bởi Ronald Rivest cho MIT.
-Các yếu tố mật mã cơ bản của Bitcoin bắt nguồn từ nghiên cứu này. Hệ thống chữ ký ECDSA, cho phép ủy quyền chi tiêu một giao dịch truyền thống, được tạo ra vào năm 1992 cho NIST. Hàm băm SHA-256, được sử dụng ở nhiều nơi trong giao thức, được công bố vào năm 2001 như một phần của bộ thuật toán SHA-2 được NSA công khai. Để biết thêm thông tin về chủ đề này, bạn có thể tham khảo khóa học [Crypto 301](../crypto301/fr.md) do Loïc Morel trình bày.
+Các yếu tố mật mã cơ bản của Bitcoin bắt nguồn từ nghiên cứu này. Hệ thống chữ ký ECDSA, cho phép ủy quyền chi tiêu một giao dịch truyền thống, được tạo ra vào năm 1992 cho NIST. Hàm băm SHA-256, được sử dụng ở nhiều nơi trong giao thức, được công bố vào năm 2001 như một phần của bộ thuật toán SHA-2 được NSA công khai. Để biết thêm thông tin về chủ đề này, bạn có thể tham khảo khóa học CYP201 do Loïc Morel trình bày.
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 ### Chữ Ký Ẩn và Tiền Điện Tử
 
 Cuộc cách mạng trong lĩnh vực mật mã cũng đã truyền cảm hứng cho David Chaum, một nhà khoa học máy tính từ Bờ Tây và sau đó là một nghiên cứu sinh tiến sĩ tại Đại học Berkeley. Ông nhanh chóng trở nên đam mê bảo vệ quyền riêng tư. Ông thực sự rất lo lắng về tương lai của tự do và bảo mật trong một xã hội ngày càng được số hóa.
 
-![David Chaum trong những năm 90](assets/en/004.webp)
+![David Chaum trong những năm 90](assets/vi/004.webp)
 David Chaum trong những năm 90 (nguồn: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
 Trong [bài báo cơ bản](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf) của mình, "Security Without Identification: Transaction Systems to Make Big Brother Obsolete" được công bố vào năm 1985 trong *Communications of the ACM*, ông viết:
@@ -140,7 +143,7 @@ Về hoạt động kỹ thuật, mô hình eCash dựa trên quy trình ký mù
 
 Dưới đây là một minh họa về các bước liên quan trong việc tạo và thay thế một ghi chú Chaumian (từ *L'Élégance de Bitcoin*):
 
-![Tạo và thay thế một ghi chú Chaumian](assets/en/005.webp)
+![Tạo và thay thế một ghi chú Chaumian](assets/vi/005.webp)
 
 Các hành động (mỗi cái tương ứng với một phép toán toán học hoặc một sự truyền đạt thông tin) như sau:
 
@@ -162,13 +165,13 @@ Tất cả điều này ngụ ý rằng không có ngân hàng nào trong hệ t
 
 ### Các triển khai của eCash
 Vào năm 1990, David Chaum đã thành lập công ty của mình, DigiCash B.V., để thực hiện ý tưởng về tiền điện tử của mình. Công ty này có trụ sở tại Amsterdam, Hà Lan, và sở hữu các bằng sáng chế cho phát minh của mình. Tại thời điểm đó, Internet vẫn còn trong giai đoạn đầu (Web vẫn đang được phát triển) và thương mại điện tử chưa tồn tại; do đó, mô hình eCash tạo ra một cơ hội lớn.
-![Logo DigiCash](assets/en/006.webp)
+![Logo DigiCash](assets/vi/006.webp)
 
 Tuy nhiên, không phải công ty của David Chaum là công ty đầu tiên thử nghiệm mô hình này: đó là nhóm cypherpunks đã triển khai nó mà không quan tâm đến các bằng sáng chế và không xin phép để làm như vậy. Do đó, một giao thức có tên là Magic Money đã được [đề xuất](https://cypherpunks.venona.com/date/1994/02/msg00247.html) trên danh sách thư của cypherpunks vào ngày 4 tháng 2 năm 1994, bởi một nhà phát triển ẩn danh với tên Pr0duct Cypher. Giao thức này cho phép tạo ra tiền tệ của riêng mình bằng cách vận hành một máy chủ email đóng vai trò như một nhà đúc eCash. Nhóm cypherpunks đã vui vẻ với nó, tạo ra các loại đơn vị tài khoản như Tacky Tokens, GhostMarks, DigiFrancs và NexusBucks. Tuy nhiên, tính hữu ích của các token này rất hạn chế, và việc trao đổi là rất hiếm.
 
 Về phía DigiCash, sau vài năm phát triển, một nguyên mẫu đã được [trình bày](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) vào tháng 5 năm 1994 tại hội nghị quốc tế đầu tiên về World Wide Web tại CERN ở Geneva. Sau đó, công ty đã tiến hành một thử nghiệm bắt đầu vào ngày 19 tháng 10 của năm đó, với việc phát hành các đơn vị gọi là "CyberBucks" không được bảo đảm bởi bất kỳ loại tiền tệ nào khác. Các nhà bán lẻ đã chấp nhận CyberBucks như một phần của thí nghiệm này. Nhóm cypherpunks cũng tham gia, sử dụng nó để thực hiện các giao dịch thực tế. Do đó, CyberBucks đã có giá trị trên thị trường. Tuy nhiên, giá trị này đã sụp đổ khi eCash được triển khai trong hệ thống ngân hàng truyền thống.
 
-![Ảnh (mờ) của đội ngũ DigiCash năm 1995](assets/en/007.webp)
+![Ảnh (mờ) của đội ngũ DigiCash năm 1995](assets/vi/007.webp)
 Ảnh (mờ) của đội ngũ DigiCash năm 1995: David Chaum ở cực trái (nguồn: [Chaum.com](https://chaum.com/ecash/))
 
 Việc giới thiệu eCash vào hệ thống ngân hàng bắt đầu vào tháng 10 năm 1995 với sự khởi đầu của mối quan hệ đối tác giữa DigiCash và Mark Twain Bank, một ngân hàng nhỏ ở Missouri. Không giống như trường hợp của CyberBucks mà tỷ giá hối đoái là nổi, đơn vị tài khoản được bảo đảm bởi đô la Mỹ. Từ năm 1996 đến 1998, sáu ngân hàng đã theo sau Mark Twain Bank: Merita Bank ở Phần Lan, Deutsche Bank ở Đức, Advance Bank ở Úc, Bank Austria ở Áo, Den norske Bank ở Na Uy, và Credit Suisse ở Thụy Sĩ. Báo chí sau đó đã hứa hẹn một tương lai sáng lạn cho hệ thống này.
@@ -206,7 +209,7 @@ Tuy nhiên, mọi thứ thay đổi với Nội chiến, được Liên minh gi�
 
 Tình hình trở nên càng hạn chế hơn sau đó. Ngân hàng trung ương, được gọi là Cục Dự trữ Liên bang của Hoa Kỳ, được thành lập vào năm 1913, theo sau cơn hoảng loạn ngân hàng năm 1907. Sau đó, tiêu chuẩn vàng cổ điển bị bỏ vào năm 1933 như một phần của New Deal của F.D. Roosevelt, với [Sắc lệnh 6102](https://fr.wikipedia.org/wiki/Executive_Order_6102) cấm cá nhân và công ty đặt tại Hoa Kỳ giữ vàng. Việc tham chiếu đến vàng trong hệ thống tiền tệ cuối cùng đã bị bỏ vào năm 1971 khi Richard Nixon thông báo về việc kết thúc khả năng chuyển đổi đồng đô la thành vàng trên phạm vi quốc tế.
 Với việc bãi bỏ lệnh cấm sở hữu vàng và sự phát triển của Internet bắt đầu từ những năm 1970, ý tưởng triển khai các loại tiền tệ tư nhân đã xuất hiện trở lại. Điều này đã diễn ra với Bernard von NotHaus, người đã ra mắt Đô la Tự do (Liberty Dollar) vào năm 1998, một loại tiền tệ dựa trên vàng và bạc có thể tìm thấy dưới dạng đồng tiền bạc và ghi chú đại diện. Hệ thống được quản lý bởi một tổ chức phi lợi nhuận có tên là NORFED (viết tắt của National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Bắt đầu từ năm 2003, Đô la Tự do cũng có sẵn dưới dạng số, thông qua một hệ thống tài khoản tương tự như e-gold (xem phần tiếp theo). Hệ thống đã gặp một mức độ thành công nhất định. Ngoài các đồng tiền lưu thông, kho của NORFED chứa khoảng 8 triệu đô la kim loại quý để đảm bảo khả năng chuyển đổi của tiền tệ, bao gồm 6 triệu để hỗ trợ đơn vị số.
-![Đô la Tự do Bạc 2003](assets/en/008.webp)
+![Đô la Tự do Bạc 2003](assets/vi/008.webp)
 Đô la Tự do (10 đô la) bằng bạc từ năm 2003 (nguồn: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
 Vào tháng 9 năm 2006, Bộ Dập tiền Mỹ đã phát hành một [thông cáo báo chí](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers), viết chung với Bộ Tư pháp, trong đó kết luận rằng việc sử dụng đồng tiền của NORFED đã vi phạm điều 486 của tiêu đề 18 của Bộ luật Hoa Kỳ và cấu thành "một tội phạm liên bang." Do đó, sau một cuộc đột kích của FBI vào cơ sở của NORFED vào năm 2007, các vi phạm đã được đưa ra chống lại NotHaus và các cộng sự của ông, những người đã bị bắt vào năm 2009 và xét xử vào tháng 3 năm 2011. Năm 2014, Bernard von NotHaus đã bị kết án phạt quản chế tại gia sáu tháng và ba năm quản thúc.
@@ -217,7 +220,7 @@ Nguyên tắc là mỗi đơn vị e-gold có thể được chuyển đổi th�
 
 Hệ thống e-gold tận dụng lợi thế của Web mới nổi, và đặc biệt là trình duyệt Netscape rất mới vào thời điểm đó. Mỗi khách hàng có thể truy cập tài khoản của mình từ trang web, thay vì phải vận hành phần mềm chuyên dụng. Đối với thời điểm đó, nền tảng rất hiệu suất cao, sử dụng một hệ thống thanh toán tổng thời gian thực được lấy cảm hứng từ chuyển khoản liên ngân hàng. Dưới đây là cách gửi e-gold trông như thế nào vào năm 2005 (hình ảnh từ một [hướng dẫn](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) của thời điểm đó):
 
-![Gửi trên e-gold vào năm 2005](assets/en/009.webp)
+![Gửi trên e-gold vào năm 2005](assets/vi/009.webp)
 Hệ thống e-gold đã gặp được thành công lớn: vào đỉnh cao năm 2006, nó [đảm bảo](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 3.6 tấn vàng, trị giá hơn 80 triệu đô la, [xử lý](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75,000 giao dịch mỗi ngày, với khối lượng hàng năm là 3 tỷ đô la, và quản lý hơn 2.7 triệu tài khoản. Thành công này đã bị chấm dứt đột ngột sau sự can thiệp của Nhà nước. Sau một cuộc điều tra do Dịch vụ Bí mật thực hiện, Douglas Jackson, hai công ty của ông và các cộng sự đã bị [buộc tội](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html) vào ngày 27 tháng 4 năm 2007, bởi Bộ Tư pháp vì đã tạo điều kiện cho việc rửa tiền và hoạt động kinh doanh chuyển tiền mà không có giấy phép. Vào tháng 11 năm 2008, Douglas Jackson đã bị tìm thấy có tội và bị kết án 3 năm quản chế, bao gồm 6 tháng quản thúc tại nhà dưới sự giám sát điện tử. Sau một nỗ lực không thành công để lấy được giấy phép, e-gold đã buộc phải đóng cửa vĩnh viễn vào tháng 11 năm 2009.
 
 Các hệ thống khác đã được tạo ra theo mô hình tương tự. Chúng ta có thể nhắc đến GoldMoney, được James Turk và con trai ông thành lập vào tháng 2 năm 2001, hiện nay đã thích ứng với các quy định tài chính. e-Bullion, hệ thống do James Fayed thành lập vào tháng 7 năm 2001, đã đóng cửa vào năm 2008. Cuối cùng, một trong những đồng tiền vàng số cuối cùng là Pecunix, được thành lập tại Panama bởi Simon Davis vào năm 2002 và đã ngừng hoạt động vào năm 2015, như một phần của một vụ lừa đảo thoát ra.
@@ -226,7 +229,7 @@ Các hệ thống khác đã được tạo ra theo mô hình tương tự. Chú
 
 Một ví dụ khác về hệ thống tiền tệ tư nhân tập trung là Liberty Reserve, cho phép người dùng giữ và chuyển đổi các loại tiền tệ điện tử được gắn với đô la Mỹ, euro, hoặc vàng. Hệ thống này được tạo ra bởi Arthur Budovsky, một người Mỹ gốc Ukraine, và Vladimir Kats, một người nhập cư từ Saint Petersburg, Nga. Vào năm 2006, Arthur Budovsky đã di cư đến Costa Rica, khi đó được coi là một thiên đường thuế, nơi ông đã đăng ký công ty của mình, Liberty Reserve S.A.
 
-![Logo Liberty Reserve năm 2009](assets/en/010.webp)
+![Logo Liberty Reserve năm 2009](assets/vi/010.webp)
 Logo Liberty Reserve năm 2009 (nguồn: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 Hệ thống này khá giống với e-gold, ngoại trừ việc các quỹ (chủ yếu là bằng đô la) được giữ trong các tài khoản ngân hàng nước ngoài, thay vì trong các két riêng tư. Liberty Reserve đã hưởng lợi lớn từ việc đóng cửa e-gold vào tháng 4 năm 2007 sau khi Douglas Jackson và các cộng sự của ông ta bị truy tố. Vào tháng 5 năm 2013, [theo Bộ Tư pháp Hoa Kỳ](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf), nền tảng này có hơn một triệu người dùng trên toàn thế giới, bao gồm hơn 200.000 người ở Hoa Kỳ, và xử lý 12 triệu giao dịch tài chính hàng năm, với tổng khối lượng hơn 1,4 tỷ đô la. Việc sử dụng chủ yếu cho các hoạt động tội phạm, nhưng [không giới hạn ở](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) những điều này: Liberty Reserve cũng được sử dụng bởi các nhà giao dịch Forex hoặc cho việc chuyển tiền ra nước ngoài.
 
@@ -243,7 +246,7 @@ Tầm nhìn ban đầu của PayPal là mang tính cách mạng, phù hợp vớ
 
 > "Tất nhiên, những gì chúng tôi gọi là 'tiện lợi' cho người dùng Mỹ sẽ là cách mạng cho thế giới đang phát triển. Nhiều chính phủ của các quốc gia này chơi trò mạo hiểm với đồng tiền của họ. Họ sử dụng lạm phát và đôi khi là phá giá tiền tệ toàn diện, như chúng ta đã thấy ở Nga và một số quốc gia Đông Nam Á năm ngoái, để lấy đi của cải từ công dân của họ. Hầu hết người dân bình thường ở đó không bao giờ có cơ hội mở một tài khoản nước ngoài hoặc sở hữu nhiều hơn một vài tờ tiền tệ ổn định như đô la Mỹ. Cuối cùng, PayPal sẽ có thể thay đổi điều này. Trong tương lai, khi chúng tôi mở rộng dịch vụ ra ngoài Mỹ và khi sự thâm nhập Internet tiếp tục mở rộng đến tất cả các tầng lớp kinh tế của người dân, PayPal sẽ cho phép công dân trên toàn thế giới kiểm soát trực tiếp đồng tiền của họ nhiều hơn bao giờ hết. Sẽ gần như không thể cho các chính phủ tham nhũng lấy đi của cải từ người dân của họ thông qua các phương tiện cũ vì nếu họ cố gắng, người dân sẽ chuyển sang sử dụng đô la, Bảng Anh, hoặc Yên, thực tế từ bỏ đồng tiền địa phương không giá trị để đổi lấy thứ gì đó an toàn hơn."
 
-![Peter Thiel vào ngày 20 tháng 10 năm 1999, trong bài phát biểu của mình tại Oakland, California cho Viện Độc lập](assets/en/011.webp)
+![Peter Thiel vào ngày 20 tháng 10 năm 1999, trong bài phát biểu của mình tại Oakland, California cho Viện Độc lập](assets/vi/011.webp)
 Peter Thiel vào ngày 20 tháng 10 năm 1999, trong bài phát biểu của mình tại Oakland, California cho Viện Độc lập (nguồn: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
 Tuy nhiên, mọi thứ không phát triển theo hướng mong muốn, và PayPal đã phải tuân thủ mọi loại quy định tài chính, đến mức dịch vụ này hiện nay nổi tiếng với việc kiểm duyệt thanh toán và đóng băng tài khoản trên toàn thế giới. Đó là sự ngây thơ khi tin rằng một hệ thống như vậy có thể thách thức quyền lực đã được thiết lập.
@@ -264,14 +267,14 @@ Trong chương này, chúng ta sẽ nghiên cứu sự xuất hiện của các 
 
 Với sự xuất hiện của máy tính vào những năm 1950, khả năng kết nối chúng với nhau đã xuất hiện. Đó là cách mà các mạng máy tính đầu tiên được hình thành, dẫn đến sự phát triển của Internet, "mạng lưới của các mạng lưới," vào những năm 1970. Câu hỏi về cơ sở hạ tầng của những mạng lưới này không thể tránh khỏi. Đó là lý do tại sao nhà khoa học máy tính Ba Lan-Mỹ Paul Baran, trong bài báo cơ bản năm 1964 của mình (mô tả việc chuyển mạch gói), đã liệt kê ba loại mạng: mạng tập trung, dựa vào một nút duy nhất; mạng phân tán, nơi mỗi điểm là một nút; mạng phi tập trung (không phân tán), dựa vào một mạng phân tán của nhiều nút.
 
-![Mạng tập trung, phi tập trung, và phân tán theo Paul Baran](assets/en/012.webp)
+![Mạng tập trung, phi tập trung, và phân tán theo Paul Baran](assets/vi/012.webp)
 
 Hai mô hình thuần túy có thể được rút ra từ những xem xét này: mô hình client-server, nơi một máy chủ trung tâm phản hồi các yêu cầu của khách hàng, và mô hình peer-to-peer, nơi mỗi nút có cùng vai trò trong hệ thống. Mô hình sau đặc biệt hữu ích cho việc chia sẻ tệp vào những năm 2000, với sự tạo ra của BitTorrent và các giao thức tương tự khác. Mạng Tor là phi tập trung, không hoàn toàn là peer-to-peer.
 Một vấn đề gặp phải trong các kiến trúc phân tán là vấn đề đồng thuận phân tán, thường được gọi là Vấn đề Tướng Byzantine, được Leslie Lamport, Robert Shostak và Marshall Pease chính thức hóa trong một [bài báo](https://lamport.azurewebsites.net/pubs/byz.pdf) công bố vào năm 1982. Vấn đề này đề cập đến thách thức về độ tin cậy trong truyền thông và tính toàn vẹn của các bên tham gia trong hệ thống ngang hàng, và nó được áp dụng trong các trường hợp mà các thành phần của một hệ thống máy tính cần phải đồng thuận.
 
 Vấn đề được trình bày dưới dạng một ẩn dụ liên quan đến các tướng của quân đội Đế chế Byzantine, những người đang bao vây một thành phố địch với ý định tấn công và chỉ có thể giao tiếp qua sứ giả. Mục tiêu là tìm ra một chiến lược (tức là một thuật toán) có thể quản lý sự hiện diện của kẻ phản bội và đảm bảo rằng tất cả các tướng trung thành đồng thuận về một kế hoạch chiến đấu để cuộc tấn công thành công. Dưới đây là một hình minh họa (nguồn: *L'Élégance de Bitcoin*):
 
-![Vấn đề Tướng Byzantine](assets/en/013.webp)
+![Vấn đề Tướng Byzantine](assets/vi/013.webp)
 
 Giải quyết vấn đề này quan trọng đối với các hệ thống phân tán sẽ quản lý một đơn vị tài khoản. Thực sự, các hệ thống này yêu cầu các bên tham gia đồng thuận về quyền sở hữu của các đơn vị tài khoản, tức là, ai sở hữu cái gì.
 
@@ -283,7 +286,7 @@ Với thuật toán đồng thuận của Bitcoin, Satoshi Nakamoto đã giải 
 Dấu thời gian là một kỹ thuật liên quan đến việc kết hợp một ngày và thời gian với thông tin như một sự kiện hoặc một tài liệu. Từ góc độ pháp lý, điều này có thể, ví dụ, đảm bảo sự tồn tại của một hợp đồng trước một ngày nhất định. Trong thế giới thực, có nhiều cách để đánh dấu thời gian cho một thứ gì đó, như gửi một tài liệu trong một phong bì niêm phong hoặc ghi lại một dòng thời gian trong một cuốn sổ tay.
 Tuy nhiên, dấu thời gian đặc biệt hữu ích trong thế giới số, nơi các tệp (văn bản, hình ảnh, âm thanh hoặc video) dễ dàng được chỉnh sửa. Dấu thời gian có thể được thực hiện bởi các dịch vụ tập trung, chịu trách nhiệm lưu giữ các tài liệu nhận được (hoặc dấu vân tay của chúng) và kết hợp chúng với ngày và thời gian nhận được. Điều này được gọi là dấu thời gian đáng tin cậy.
 Vào năm 1991, một kỹ thuật đóng dấu thời gian bảo mật và bí mật đã được đề xuất bởi Stuart Haber và Scott Stornetta, hai nhà nghiên cứu làm việc cho Bell Communications Research Inc. (thường được gọi là "Bellcore"), một liên minh nghiên cứu và phát triển tại New Jersey. Trong [bài báo của họ](http://www.staroceans.org/e-book/Haber_Stornetta.pdf) có tiêu đề "Làm thế nào để đóng dấu thời gian cho một tài liệu số", họ đã mô tả cách một dịch vụ đóng dấu thời gian được chứng nhận có thể sử dụng một hàm một chiều (như hàm băm MD4) và một thuật toán chữ ký để tăng cường tính bảo mật của tài liệu khách hàng và độ tin cậy của việc chứng nhận. Cụ thể, ý tưởng là liên kết thông tin bằng cách kết hợp dấu thời gian trước đó vào việc áp dụng hàm một chiều.
-![Ví dụ về đóng dấu thời gian được chứng nhận](assets/en/014.webp)
+![Ví dụ về đóng dấu thời gian được chứng nhận](assets/vi/014.webp)
 Ví dụ về đóng dấu thời gian được chứng nhận (nguồn: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber và Stornetta đã thực hiện ý tưởng của mình bằng cách công bố các dấu vân tay mật mã (kết quả từ việc băm dữ liệu hữu ích) trong các mục quảng cáo phân loại của New York Times bắt đầu từ năm 1992. Sau đó, họ đã thành lập công ty của riêng mình vào năm 1994, Surety Technologies, với mục tiêu toàn tâm toàn ý cho hoạt động này. Họ do đó được [biết đến](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) với việc tạo ra chuỗi dấu thời gian đầu tiên, với việc dấu vân tay trước đó được tính toán trong việc tạo ra dấu vân tay mới để được công bố trong báo, điều này đã báo trước cho blockchain Bitcoin.
@@ -295,7 +298,7 @@ Khái niệm về bằng chứng công việc (proof of work) lần đầu tiên
 
 Với sự phổ biến của Internet vào những năm 1990, vấn đề email không mong muốn trở nên ngày càng bức thiết, bao gồm cả trên danh sách gửi thư của các cypherpunk. Đó là lý do tại sao khái niệm của Dwork và Naor đã được [thực hiện](https://cypherpunks.venona.com/date/1997/03/msg00774.html) bởi cypherpunk trẻ người Anh Adam Back vào năm 1997 với Hashcash, một thuật toán tạo ra bằng chứng công việc đơn giản sử dụng một hàm băm. Cụ thể hơn, nó liên quan đến việc tìm một va chạm một phần của hàm băm được xem xét, tức là, thu được hai thông điệp có dấu vết bắt đầu bằng cùng một dữ liệu bit (lưu ý: từ phiên bản 1.0 được phát hành vào năm 2002, nó liên quan đến việc khám phá một va chạm một phần cho dấu vết không, cụ thể là tìm một ảnh trước có dấu vết bắt đầu bằng một số lượng xác định các số không nhị phân). Vì hàm băm là một chiều, thành tựu như vậy chỉ có thể được thực hiện bằng cách thử nghiệm các khả năng khác nhau một cách lần lượt, điều này đòi hỏi một lượng năng lượng tiêu thụ.
 
-![Adam Back vào năm 2001](assets/en/015.webp)
+![Adam Back vào năm 2001](assets/vi/015.webp)
 Adam Back vào năm 2001 (nguồn: [lưu trữ trang cá nhân của Adam Back](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
 Nhưng các cypherpunk không giới hạn bản thân trong việc xem xét bằng chứng công việc như một phương tiện đơn giản để hạn chế spam; họ cũng muốn sử dụng nó như một cách để đảm bảo chi phí sản xuất một đồng tiền kỹ thuật số. Do đó, vào năm 1997, Adam Back [đã tưởng tượng](https://cypherpunks.venona.com/date/1997/04/msg00822.html) ý tưởng này bởi chính mình, nhưng ông nhận thức được rằng các bằng chứng công việc như vậy không thể được chuyển giao một cách hoàn toàn phân tán (do vấn đề chi tiêu gấp đôi) và do đó cần phải thông qua một hệ thống tập trung như eCash. Tương tự, vào năm 1996, các nhà mật mã học Ronald Rivest và Adi Shamir đã mô tả [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), một hệ thống micropayment tập trung mà đồng tiền của nó được cho là không thể làm giả nhờ sản xuất bằng chứng công việc.
@@ -314,13 +317,13 @@ Việc tạo ra tiền tệ mở cửa cho tất cả người tham gia và đư
 Mặc dù khá tinh tế, khái niệm về b-money được trình bày bởi Wei Dai không hoàn toàn chức năng. Do đó, nó có những khuyết điểm lớn như dễ bị tấn công Sybil trên mạng (ai cũng có thể lý thuyết thêm nút mới vào mạng), sự tập trung mạng trong trường hợp máy chủ được chọn trước, và vấn đề liên quan đến việc ổn định đơn vị tài khoản (ai quyết định giá cả có thể quan sát được trên thị trường?).
 Sau khi được công bố trên danh sách, b-money đã thu hút sự chú ý của các cypherpunk, và đặc biệt là [sự chú ý của Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Tuy nhiên, Wei Dai không bao giờ triển khai mô hình của mình, không chỉ vì nó không chức năng, mà còn do [sự vỡ mộng](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) của nhà mật mã học đối với crypto-anarchy. Tuy nhiên, b-money cuối cùng đã được trích dẫn trong bản white paper của Bitcoin, khiến nó trở thành một trong những tiền thân của nó.
 
-![Trích dẫn b-money trong bản white paper của Bitcoin](assets/en/016.webp)
+![Trích dẫn b-money trong bản white paper của Bitcoin](assets/vi/016.webp)
 
 ### bit gold: vàng số trước Bitcoin
 
 Mô hình thứ hai xuất hiện từ ý tưởng của các cypherpunk là ý tưởng về bit gold được tưởng tượng bởi Nick Szabo vào năm 1998. Ông là một nhà khoa học máy tính người Mỹ gốc Hungary, đã từng làm việc như một tư vấn viên cho DigiCash trong sáu tháng. Là một cypherpunk, ông được biết đến với việc đã hình thành khái niệm về hợp đồng thông minh vào năm 1995.
 Vào năm 1994, Nick Szabo đã tạo ra một danh sách thư tư nhân gọi là libtech-l, với mục tiêu, như tên gọi của nó, là tổ chức các cuộc thảo luận về các kỹ thuật giải phóng, cho phép bảo vệ quyền tự do cá nhân chống lại sự tấn công của các cơ quan chính quyền. Những người ủng hộ chủ nghĩa mã hóa như Wei Dai và Hal Finney đã có quyền truy cập, cũng như các nhà kinh tế học Larry White và George Selgin, những người ủng hộ sự cạnh tranh tiền tệ theo Hayek và ngân hàng tự do.
-![Nick Szabo năm 1997](assets/en/017.webp)
+![Nick Szabo năm 1997](assets/vi/017.webp)
 Nick Szabo năm 1997 (nguồn: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
 Chính trên danh sách thư libtech-l mà Nick Szabo lần đầu tiên mô tả khái niệm của mình, trước khi đăng tải [bản nháp](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) của một bài báo trắng vào năm 1999 trên trang web cá nhân của mình. Sau đó, ông đã trình bày về bit gold vào năm 2005, trong một [bài viết](https://unenumerated.blogspot.com/2005/12/bit-gold.html) được đăng trên blog của mình, Unenumerated.
@@ -341,7 +344,7 @@ Các token chứng minh công việc có thể tái sử dụng được quản 
 
 Dưới đây là một hình minh họa [được thiết kế](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) bởi chính Hal Finney:
 
-![Giao dịch trong RPOW](assets/en/018.webp)
+![Giao dịch trong RPOW](assets/vi/018.webp)
 
 Hal Finney không chỉ thiết kế mô hình mà còn tự mình triển khai nó. Vào ngày 15 tháng 8 năm 2004, ông [thông báo](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) về việc ra mắt hệ thống RPOW trên danh sách gửi thư của cypherpunks, ngoài việc tài liệu hóa hoạt động của nó trên trang web chuyên dụng (rpow.net). Sau đó, ông [trình bày](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) nó tại hội nghị CodeCon 2005 được tổ chức tại San Francisco, nơi ông thảo luận về các ứng dụng tiềm năng cho token chứng minh công việc, bao gồm: chuyển giá trị, quản lý spam, thương mại trong trò chơi video, cờ bạc trực tuyến như poker, và chống leeching trên các giao thức chia sẻ tệp như BitTorrent.
 Tuy nhiên, RPOW có những khuyết điểm nội tại có thể giải thích tại sao nó không đạt được thành công như mong đợi:
@@ -353,7 +356,7 @@ Do đó, việc sử dụng thực tế của RPOW là anekdot, nhưng Hal Finne
 
 ### Ripple: Sự Phi Tập Trung của Tín Dụng
 Một mô hình tiền nhiệm ít được biết đến của Bitcoin, nhưng không kém phần quan trọng, là giao thức tín dụng phân tán Ripple, được thiết kế bởi nhà phát triển người Canada Ryan Fugger vào năm 2004. Người Canada trẻ tuổi này đã được truyền cảm hứng từ khái niệm về [hệ thống trao đổi địa phương](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), một điều mà anh đã trải nghiệm ở Vancouver trước khi thiết kế giao thức của mình. Anh đã công bố bản [white paper](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) của Ripple vào ngày 14 tháng 4 năm 2004, và sau đó triển khai nó thông qua một bằng chứng khái niệm gọi là RipplePay, hoạt động trên một máy chủ trung tâm và cho phép người dùng kết nối chỉ với một địa chỉ email.
-![Ryan Fugger khoảng năm 2010](assets/en/019.webp)
+![Ryan Fugger khoảng năm 2010](assets/vi/019.webp)
 Ryan Fugger khoảng năm 2010 (nguồn: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
 Khái niệm của Ripple dựa trên ý tưởng rằng tiền tệ về cơ bản được tạo thành từ các IOU, tức là tín dụng. Nó liên quan đến việc thiết lập một mạng lưới ngang hàng mà các liên kết sẽ là mối quan hệ tín dụng giữa mọi người. Các khoản thanh toán sau đó được thực hiện bằng cách định tuyến một loạt các khoản vay, với tất cả các bên tham gia đóng vai trò như những người cho vay tiền cho nhau. Alice có thể trả David 10 đô la bằng cách cho Bob vay 10 đô la, và yêu cầu Bob làm điều tương tự với Carole, sau đó Carole làm điều tương tự với David: Tài khoản của David sau đó được ghi có 10 đô la từ việc tạo tiền của Alice. Hệ thống hoạt động phần nào bằng cách lan truyền, điều này giải thích tên của dự án.
@@ -401,7 +404,7 @@ Vào tháng 8 năm 2008, Satoshi quyết định chuẩn bị cho việc ra mắ
 
 Vào ngày 20 tháng 8, người tạo ra Bitcoin [liên hệ](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) với Adam Back bằng cách gửi cho ông một email xin lời khuyên về cách trích dẫn bài báo của mình về Hashcash trong bản white paper. Khó có thể không coi đây là một lý do để đảm bảo rằng người phát minh ra Hashcash biết đến hệ thống mới của mình.
 
-![Adam Back năm 2012](assets/en/020.webp)
+![Adam Back năm 2012](assets/vi/020.webp)
 Adam Back năm 2012 (nguồn: [Trang cá nhân của Adam Back](http://www.cypherspace.org/adam/))
 
 Email chứa một liên kết đến bản nháp của bản white paper. Tên file PDF là `ecash.pdf` và tiêu đề của nó là "Tiền Mặt Điện Tử Không Cần Bên Thứ Ba Đáng Tin Cậy". Tóm tắt giống như phiên bản đầu tiên sẽ được công bố vào tháng 10, với một từ khác biệt. Thật không may, chúng ta không có toàn bộ tài liệu.
@@ -431,7 +434,7 @@ Trong email đầu tiên [của mình](https://www.metzdowd.com/pipermail/crypto
 
 Trong email của mình, ông bao gồm một liên kết đến bài báo trắng, đã được lưu trữ trên Bitcoin.org, là một tài liệu ngắn gọn 9 trang, được trình bày như một bài báo khoa học, mô tả cơ chế kỹ thuật của Bitcoin. Tài liệu này tập trung vào vấn đề thanh toán trực tuyến.
 
-![Tiêu đề và tóm tắt phiên bản đầu tiên của bài báo trắng (Tháng 10 năm 2008)](assets/en/021.webp)
+![Tiêu đề và tóm tắt phiên bản đầu tiên của bài báo trắng (Tháng 10 năm 2008)](assets/vi/021.webp)
 
 Sau thông báo này, Satoshi nhận được một số phản hồi, nhưng hầu hết trong số đó là hoài nghi. Ông đặc biệt bị chỉ trích về ba điều:
 - Đầu tiên, cypherpunk James A. Donald [thách thức](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) khả năng mở rộng của hệ thống bằng cách nói rằng "nó không có vẻ như có thể mở rộng đến kích thước cần thiết." Satoshi [đáp lại](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) rằng "băng thông có thể không cản trở như bạn nghĩ."
@@ -440,7 +443,7 @@ Sau thông báo này, Satoshi nhận được một số phản hồi, nhưng h�
 - Cuối cùng, một cá nhân tên là Ray Dillinger (sử dụng bí danh bear) [tự hỏi](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) về giá trị của đơn vị tài khoản, than phiền về việc "chứng minh công việc tính toán không có giá trị nội tại" và chỉ trích bản chất lạm phát của chúng do sự phát triển kỹ thuật của phần cứng máy tính. Satoshi [đáp lại](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) rằng "sự tăng tốc độ của phần cứng được tính đến" bằng cách điều chỉnh định kỳ độ khó của việc sản xuất.
 Mặc dù thái độ hoài nghi là thái độ chủ đạo trên danh sách, nó không được chia sẻ bởi tất cả mọi người đăng ký vào danh sách thư. Cụ thể, một người nổi bật hơn những người khác với sự nhiệt tình của họ: Hal Finney, người có quan điểm lạc quan về tương lai và không bao giờ từ bỏ ý tưởng về tiền điện tử, bất chấp những thất bại của những năm 90. Ông [tuyên bố](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) về vấn đề này vài năm sau rằng "những người giàu kinh nghiệm về mật mã [...] thường trở nên hoài nghi" nhưng mà ông "luôn lạc quan hơn" vì đã "luôn yêu thích mật mã, bí ẩn và nghịch lý của nó." Vì vậy, vào ngày 7 tháng 11, ông viết trong một [email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) gửi đến danh sách rằng "Bitcoin có vẻ là một ý tưởng rất hứa hẹn" và so sánh mô hình của Satoshi với bit gold của Nick Szabo.
 
-![Hal Finney vào năm 2007](assets/en/022.webp)
+![Hal Finney vào năm 2007](assets/vi/022.webp)
 Hal Finney vào năm 2007
 
 ### Chính Sách Tiền Tệ và Mã Phần Mềm
@@ -485,7 +488,7 @@ Vào ngày 10 tháng 1, Hal Finney đã cố gắng khởi chạy tệp thực t
 Từ những trao đổi giữa Satoshi và Hal Finney đã xuất hiện phiên bản 0.1.3, [được công bố](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/) vào ngày 12 tháng 1, phiên bản này ổn định hơn nhiều so với các phiên bản trước. Satoshi cũng tận dụng cuộc trò chuyện của mình với Hal Finney để gửi cho ông một số bitcoins: ông đã [gửi](https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) cho ông 10 bitcoins qua địa chỉ IP vào đêm từ ngày 11 đến ngày 12 tháng 1, lúc 3:30 sáng. Đây là lần chuyển giao đầu tiên từ người này sang người khác trên mạng.
 
 Nhưng Hal Finney không phải là người duy nhất thử nghiệm Bitcoin vào thời điểm đó. Dustin D. Trammell, một nhà nghiên cứu an ninh máy tính người Mỹ, lúc bấy giờ quan tâm đến tiền tệ số (và đặc biệt là phiên bản điện tử của Liberty Dollar) cũng phát hiện ra Bitcoin qua danh sách thư điện tử. Vào ngày 11 tháng 1, ông chạy phần mềm trên một trong những máy tính làm việc của mình (nhưng ông không khai thác khối đầu tiên của mình [block](https://mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) cho đến ngày 13 do một vấn đề kỹ thuật). Trong đêm từ ngày 11 đến 12, ông liên lạc với Satoshi, với người mà ông [giao tiếp](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) rộng rãi trong những ngày tiếp theo. Vào ngày 15 tháng 1, Dustin Trammell cũng [nhận được](https://mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) 25 bitcoins từ ông.
-![Dustin Trammell](assets/en/023.webp)Dustin Trammell (nguồn: [Lưu trữ blog của Dustin Trammell](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
+![Dustin Trammell](assets/vi/023.webp)Dustin Trammell (nguồn: [Lưu trữ blog của Dustin Trammell](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
 Sau đó, những người khác cố gắng để phần mềm hoạt động. Điều này đúng với Nicholas Bohm, một luật sư người Anh, người đã gửi một email vào ngày 25 tháng 1 trên bitcoin-list vì anh ta gặp phải một vấn đề kỹ thuật và đã trao đổi riêng tư với Satoshi. Một người tên là Jeff Kane đã thành công trong việc chạy phiên bản 0.1.3 vào ngày 30 tháng 1. Nicholas Bohm sẽ được nhắc đến cùng với Dustin Trammell trong phần tín dụng của phiên bản 0.1.5 của phần mềm được phát hành vào đầu tháng 2.
 
@@ -520,7 +523,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 - Một mặt, nó ngăn chặn việc đặt ngày trước cho việc khởi động mạng lưới bằng cách chứng minh rằng hệ thống không thể được bắt đầu trước ngày 3 tháng 1, vì Satoshi không thể biết về tiêu đề trước khi tờ báo được xuất bản;
 - Mặt khác, nó biểu tượng cho điều mà Bitcoin phản đối bằng cách tham chiếu đến bối cảnh tài chính và tiền tệ của thời điểm đó.
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/vi/024.webp)
 
 Thời điểm đó, thế giới thực sự đang cảm nhận đầy đủ ảnh hưởng của cuộc khủng hoảng tài chính bắt đầu vào năm 2007 với việc vỡ bong bóng thế chấp phụ cấp ở Hoa Kỳ. Các chính phủ đã cứu trợ các tổ chức tài chính để ngăn chặn thêm các vụ phá sản sau sự sụp đổ của ngân hàng đầu tư Lehman Brothers vào ngày 15 tháng 9 năm 2008, và các ngân hàng trung ương đã tham gia vào việc nới lỏng định lượng bằng cách bơm thanh khoản vào thị trường tài chính. Việc sử dụng tiền công cộng được tạo ra cho dịp này đã gây ra sự bất ổn cho một số công dân, những người nhận ra rằng hệ thống ngân hàng thực sự là một hệ thống lợi nhuận tư nhân và thua lỗ xã hội hóa.
 
@@ -552,7 +555,7 @@ Tiếp theo, trong cùng một email, Jonathan Thornburg thảo luận về ch�
 
 Cuối cùng, bình luận cuối cùng đến từ John Gilmore, một thành viên sáng lập của cypherpunks và người giữ danh sách gửi thư đầu tiên của phong trào từ năm 1992 đến 1997. Trong một email gửi vào ngày 25 tháng 1, ông nêu bật hậu quả sinh thái học được cho là của Bitcoin và [viết](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) rằng "điều cuối cùng chúng ta cần là triển khai một hệ thống được thiết kế để tiêu thụ tất cả các chu kỳ có sẵn, tiêu thụ điện năng và phát thải carbon dioxide, trên toàn Internet, nhằm sản xuất một lượng nhỏ bitbux để gửi email hoặc spam qua." Satoshi [đáp lại](https://mmalmi.github.io/satoshi/#email-3) ông ấy một cách riêng tư rằng "sẽ rất mỉa mai khi phải chọn giữa tự do kinh tế và bảo tồn môi trường." Ông thêm rằng "bằng chứng công việc là giải pháp duy nhất [ông ấy đã] tìm thấy để làm cho hệ thống tiền điện tử ngang hàng hoạt động" và rằng, ngay cả khi nó tiêu thụ nhiều năng lượng, "nó vẫn lãng phí ít hơn so với hoạt động ngân hàng truyền thống tốn kém lao động và tài nguyên mà nó sẽ thay thế."
 
-![John Gilmore năm 2007](assets/en/025.webp)
+![John Gilmore năm 2007](assets/vi/025.webp)
 John Gilmore năm 2007 (nguồn: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
 Vào ngày 27, Hal Finney [đề cập](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html) đến các cách giảm sự tiêu hao năng lượng liên quan đến việc tính toán bằng chứng công việc. Một giờ sau, anh ấy [viết](https://twitter.com/halfin/status/1153096538) trên Twitter "suy nghĩ về cách giảm lượng khí thải CO2 từ việc triển khai Bitcoin rộng rãi."
@@ -569,7 +572,7 @@ Ngày 11 tháng 2, Satoshi đã công bố một [thông điệp giới thiệu]
 > "Vấn đề cơ bản với tiền tệ thông thường là tất cả sự tin tưởng cần thiết để làm cho nó hoạt động. Chúng ta phải tin tưởng rằng ngân hàng trung ương không làm giảm giá trị tiền tệ, nhưng lịch sử của các loại tiền tệ fiat đầy rẫy những vi phạm niềm tin đó. Chúng ta phải tin tưởng các ngân hàng giữ tiền của chúng ta và chuyển nó điện tử, nhưng họ cho vay nó ra trong những đợt bong bóng tín dụng với chỉ một phần nhỏ dự trữ. Chúng ta phải tin họ bảo vệ sự riêng tư của chúng ta, không để kẻ trộm danh tính rút cạn tài khoản của chúng ta. Chi phí hoạt động đáng kể của họ làm cho việc thanh toán micropayments trở nên không thể."
 Trên [hồ sơ](https://p2pfoundation.ning.com/profile/SatoshiNakamoto) của mình, ông ta tự nhận là một người đàn ông Nhật Bản, nhưng không chỉ có vậy. Một bản cập nhật giao diện vào năm 2011 đã tiết lộ tuổi của ông: 35 tuổi, điều này có nghĩa là ông ấy 32 hoặc 33 tuổi vào năm 2009. Sau đó, vào năm 2014, người ta [phát hiện](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) rằng ông ấy đã chỉ định một ngày sinh cụ thể: 5 tháng 4, 1975. Ngày này, dường như vô hại, có lẽ là một tham chiếu ghép từ lệnh cấm công dân Mỹ sở hữu vàng từ năm 1933 đến 1975 tại Hoa Kỳ. Ngày 5 tháng 4 liên quan đến ngày lệnh cấm này được thiết lập bởi [Lệnh Hành Pháp 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) ký bởi Tổng thống Franklin Delano Roosevelt vào ngày 5 tháng 4, 1933, và năm 1975 tương ứng với việc bãi bỏ lệnh cấm này thông qua việc ban hành [Luật Công Cộng 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Chi tiết này rất quan trọng vì lệnh cấm này đã kết thúc tiêu chuẩn vàng cổ điển (nơi người ta có thể đổi vàng lấy một tờ tiền đại diện), cho phép giảm giá trị đồng đô la (thông qua Đạo luật Dự trữ Vàng vào năm 1934), và tạo điều kiện cho việc thiết lập chế độ tiền tệ tỷ giá hối đoái nổi sau Sự kiện Nixon vào năm 1971.
 
-![Hồ sơ của Satoshi Nakamoto trên diễn đàn P2P Foundation vào ngày 17 tháng 3, 2011](assets/en/026.webp)
+![Hồ sơ của Satoshi Nakamoto trên diễn đàn P2P Foundation vào ngày 17 tháng 3, 2011](assets/vi/026.webp)
 
 Hồ sơ của Satoshi Nakamoto trên diễn đàn P2P Foundation vào ngày 17 tháng 3, 2011 (nguồn: [bản chụp diễn đàn](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
@@ -589,7 +592,7 @@ Chiến lược giao tiếp của Satoshi dần dần phát huy hiệu quả. V�
 
 Vào ngày 12 tháng 4, Mike Hearn đã gửi một [email](https://plan99.net/~mike/satoshi-emails/thread1.html) cho Satoshi trong đó anh ta đặt một loạt câu hỏi về Bitcoin. Anh ta lưu ý rằng "hiếm khi gặp được những ý tưởng cách mạng thực sự" và không quên nhắc đến Ripple.
 
-![Mike Hearn](assets/en/027.webp)
+![Mike Hearn](assets/vi/027.webp)
 
 Mike Hearn và Satoshi Nakamoto đã thảo luận về các khía cạnh khác nhau của Bitcoin như khả năng mở rộng, micropayments, cách hoạt động của phần mềm, và sự vắng mặt của chargebacks. Cụ thể, Mike Hearn đã hỏi Satoshi tại sao ông chọn số lượng "24 triệu" (*sic*) cho tổng số bitcoins và liệu chúng có thể được chia nhỏ. Satoshi sau đó đã đưa ra lời giải thích sau:
 
@@ -604,7 +607,7 @@ Sự giao tiếp của Satoshi cũng đã thu hút sự chú ý của một sinh
 
 > "Hệ thống là ẩn danh, và không có chính phủ nào có thể thu thuế hay ngăn chặn các giao dịch. Không có ngân hàng trung ương nào có thể làm giảm giá trị tiền tệ bằng cách tạo ra tiền mới không giới hạn. Sự phổ biến rộng rãi của một hệ thống như vậy có vẻ như là điều có thể có tác động nghiêm trọng đến khả năng của nhà nước trong việc lợi dụng công dân của mình."
 
-![Martti Malmi vào năm 2013](assets/en/028.webp)
+![Martti Malmi vào năm 2013](assets/vi/028.webp)
 Martti Malmi vào năm 2013 (nguồn: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 Sau đó, Martti gửi một [email](https://mmalmi.github.io/satoshi/#email-1) cho Satoshi thông báo rằng anh là tác giả của văn bản này, nơi anh viết rằng anh "muốn giúp đỡ với Bitcoin" mặc dù anh "chưa có nhiều kinh nghiệm trong phát triển." Satoshi Nakamoto trả lời vào ngày 2 tháng 5, nói với anh rằng "hiểu biết về Bitcoin" của anh là "chính xác."
@@ -636,7 +639,7 @@ Trong những tháng tiếp theo, ngày càng nhiều người đăng ký và th
 Sau một số cuộc thảo luận về giải pháp kỹ thuật để áp dụng, Martti Malmi [cài đặt](https://mmalmi.github.io/satoshi/#email-93) diễn đàn trên máy chủ của mình vào ngày 17 tháng 11, và Satoshi bắt đầu [cấu hình](https://mmalmi.github.io/satoshi/#email-99) nó vào ngày 19 tháng 11. Bắt đầu từ ngày 22, người tạo ra Bitcoin chuyển một số câu hỏi và trả lời từ diễn đàn cũ bao gồm các chủ đề như quyền riêng tư, khai thác mỏ, và Linux. Ông cũng công bố một [thông điệp chào mừng](https://bitcointalk.org/index.php?topic=5.msg28#msg28). Vào ngày 25, diễn đàn được [khởi chạy](https://mmalmi.github.io/satoshi/#email-110) tại địa chỉ bitcoin.org/smf.
 Những người dùng đầu tiên bắt đầu đăng ký vào đầu tháng tiếp theo. Vào ngày 9 tháng 12, [thông điệp đầu tiên](https://bitcointalk.org/index.php?topic=12.msg40#msg40) được đăng bởi một người khác ngoài Satoshi xuất hiện, thực sự khởi đầu cho các cuộc thảo luận. Là một ví dụ, đây là một [ảnh chụp màn hình](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/) của diễn đàn vào ngày 29 tháng 5 năm 2010:
 
-![Ảnh chụp màn hình diễn đàn Bitcoin từ ngày 29 tháng 5 năm 2010](assets/en/029.webp)
+![Ảnh chụp màn hình diễn đàn Bitcoin từ ngày 29 tháng 5 năm 2010](assets/vi/029.webp)
 
 Việc ra mắt diễn đàn mới là cơ hội để phát hành [phiên bản 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) của phần mềm, mà Satoshi Nakamoto và Martti Malmi đã làm việc trong nhiều tháng, được thực hiện vào ngày 16 tháng 12. Phiên bản này bao gồm các cải tiến như thu nhỏ xuống thanh tác vụ, khởi động tự động khi mở máy, hoặc đa luồng cho sản xuất khai thác. Phần mềm cũng được điều chỉnh cho Linux, nhờ vào sự đóng góp của Malmi và các bài kiểm tra được thực hiện bởi NewLibertyStandard mới đến (trường hợp của người này sẽ được đề cập trong chương tiếp theo).
 
@@ -684,7 +687,7 @@ Hai lý do cuối cùng còn quan trọng hơn vì chúng thúc đẩy mọi ng�
 ### Dịch vụ trao đổi đầu tiên và giá đầu tiên
 Vào cuối tháng 9 năm 2009, một cá nhân sử dụng bí danh NewLibertyStandard (mà chúng ta sẽ viết tắt là NLS) phát hiện ra Bitcoin. Anh ta thử nghiệm phần mềm và bắt đầu đào. Khối đầu tiên mà anh ta tạo ra là [khối 23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Anh ta là người dùng Linux và do đó sử dụng "trình giả lập" Wine để chạy phần mềm. Anh ta quan tâm đến tự do chính trị và kim loại quý, như được chứng minh bởi [hình đại diện](https://bitcointalk.org/index.php?action=profile;u=26) của anh ta trên diễn đàn, mô tả một con Đại Bàng Mỹ với từ "tự do" được khắc trên đó. Do đó, anh ta coi Bitcoin như một tương đương của vàng trong thế giới số: trên [trang cá nhân](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) của mình, anh ta giới thiệu sáng tạo của Satoshi Nakamoto như là "một cuộc cách mạng kinh tế" và như là "tiêu chuẩn vàng của tiền tệ số."
 
-![Hình đại diện của NewLibertyStandard trên diễn đàn Bitcoin mô tả một con Đại Bàng Mỹ](assets/en/030.webp)
+![Hình đại diện của NewLibertyStandard trên diễn đàn Bitcoin mô tả một con Đại Bàng Mỹ](assets/vi/030.webp)
 
 Vào tháng 10 năm 2009, dịch vụ trao đổi tiền tệ đầu tiên được thiết lập, cho phép mọi người chuyển đổi đô la của họ thành bitcoin và ngược lại. Người sáng lập đã đăng ký trên diễn đàn dành riêng cho Bitcoin trên SourceForge và thông báo về việc mở dịch vụ của mình tại đó. Để ước lượng tỷ giá hối đoái, anh ta dựa vào chi phí năng lượng cần thiết để thu được một đơn vị, tính toán dựa trên giá điện tại địa điểm của mình và tần suất sản xuất cá nhân của mình. Trên trang của mình, anh ta [viết](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
@@ -692,7 +695,7 @@ Vào tháng 10 năm 2009, dịch vụ trao đổi tiền tệ đầu tiên đư�
 
 Dưới đây là tỷ giá hối đoái chỉ dẫn của dịch vụ NLS, cũng được công bố trên trang cá nhân của NLS:
 
-![Tỷ giá hối đoái chỉ dẫn của dịch vụ NLS](assets/en/031.webp)
+![Tỷ giá hối đoái chỉ dẫn của dịch vụ NLS](assets/vi/031.webp)
 
 Giao dịch được giải quyết qua email tại newlibertystandard@gmail.com. Chuyển đổi đô la được thực hiện độc quyền qua PayPal, và phí được tính cho hoạt động này.
 
@@ -713,7 +716,7 @@ Nỗ lực phối hợp chủ yếu được thực hiện trên diễn đàn. V
 
 Vào ngày 5 tháng 2, NLS [đề xuất](https://bitcointalk.org/index.php?topic=41.msg238#msg238) rằng bitcoin, giống như các loại tiền tệ được giao dịch trên thị trường ngoại hối, nên sử dụng ký hiệu giao dịch BTC và biểu tượng của đồng baht Thái Lan (฿). Cho đến thời điểm đó, không có một quy định cụ thể nào: ví dụ, Satoshi và Martti đã sử dụng các chữ cái `bc` để mô tả đơn vị trong [thư từ](https://mmalmi.github.io/satoshi/#email-119) của họ. Việc sử dụng ký hiệu BTC nhanh chóng trở nên tiêu chuẩn. Vào ngày 24 tháng 2, biểu tượng tiền tệ (chữ B viết hoa được gạch ngang bởi hai thanh dọc) đã được [thiết kế](https://bitcointalk.org/index.php?topic=64.msg504#msg504) bởi Satoshi, người sau đó đã tạo ra logo Bitcoin đầu tiên thực sự.
 
-![Logo Bitcoin đầu tiên thực sự được thiết kế bởi Satoshi Nakamoto (2010)](assets/en/032.webp)
+![Logo Bitcoin đầu tiên thực sự được thiết kế bởi Satoshi Nakamoto (2010)](assets/vi/032.webp)
 
 Dần dần, mọi người bắt đầu chấp nhận bitcoin. Điều này đúng với người dùng SmokeTooMuch vào tháng 12 năm 2009, người vừa mới đến và [báo cáo sự tồn tại](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) của một dịch vụ bán thẻ quà tặng paysafecard có tên là BTC 2 PSC. Dịch vụ sau đó đã được [đề cập](https://mmalmi.github.io/satoshi/#email-141) một cách tích cực bởi Satoshi vào ngày 4 tháng 2 năm 2010. Điều này cũng đúng với NLS, người vào ngày 9 tháng 2, [mở](https://bitcointalk.org/index.php?topic=30.msg305#msg305) cửa hàng trực tuyến của mình, Liberty Swap Variety Shop, nơi anh ta cung cấp tem và sticker để bán.
 
@@ -722,7 +725,7 @@ Giao dịch với đô la cũng phát triển, và trong vòng hai tháng, khôn
 - BitcoinFX (bitcoinfx.cz.cc), một dịch vụ bán bitcoin lấy đô la Liberty Reserve, được [thông báo](https://bitcointalk.org/index.php?topic=30.msg194#msg194) vào ngày 15 tháng 2;
 - BitcoinExchange (bitcoinexchange.com), nền tảng của Martti Malmi, độc đáo [đánh giá](https://mmalmi.github.io/satoshi/#email-25) cung và cầu bằng cách xem xét euro và bitcoin do người dùng gửi vào, và được [mở cửa cho công chúng](https://bitcointalk.org/index.php?topic=68.msg591#msg591) vào ngày 2 tháng 3 năm 2010;
 - Bitcoin Market (bitcoinmarket.com), một thị trường giao dịch ngang hàng sử dụng PayPal được [ra mắt](https://bitcointalk.org/index.php?topic=20.msg726#msg726) bởi một người có tên là dwdollar vào ngày 16 tháng 3, và sẽ thấy được sự thành công đáng kể trước khi Mt. Gox xuất hiện vào tháng 7.
-![Chụp màn hình giao diện Thị trường Bitcoin, ngày 26 tháng 8 năm 2011](assets/en/033.webp)[Chụp](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) giao diện Thị trường Bitcoin sau này (Tháng 8 năm 2011)
+![Chụp màn hình giao diện Thị trường Bitcoin, ngày 26 tháng 8 năm 2011](assets/vi/033.webp)[Chụp](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) giao diện Thị trường Bitcoin sau này (Tháng 8 năm 2011)
 
 Vào ngày 11 tháng 3, trò chơi poker đầu tiên sử dụng bitcoin được [tổ chức](https://bitcointalk.org/index.php?topic=80.msg781#msg781) bởi quản trị viên của BitcoinFX, mở đầu cho mối quan hệ mạnh mẽ sẽ tồn tại giữa cờ bạc và tiền mã hóa. Trò chơi được chiến thắng bởi dwdollar, người kiếm được [600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761).
 
@@ -730,7 +733,7 @@ Các dịch vụ khác chấp nhận bitcoin xuất hiện như dịch vụ voic
 
 Dịch vụ giữ hộ Bitcoin chuyên dụng đầu tiên cũng xuất hiện: đó là MyBitcoin, một ứng dụng web cho phép sử dụng tiền mã hóa một cách dễ dàng và yên bình, đặc biệt là trên di động. Nhờ dịch vụ này, người dùng thực sự không cần phải tải xuống toàn bộ dữ liệu chuỗi để gửi và nhận giao dịch, cũng không cần phải tự mình giữ bitcoin bằng cách lưu khóa riêng của họ.
 
-![Logo của MyBitcoin từ lưu trữ của trang web mybitcoin.com](assets/en/034.webp)
+![Logo của MyBitcoin từ lưu trữ của trang web mybitcoin.com](assets/vi/034.webp)
 
 Tại thời điểm đó, ví nhẹ (được biết đến là "SPV") chưa tồn tại, vì vậy chính Satoshi Nakamoto đã coi việc sử dụng loại phần mềm này là chấp nhận được, mặc dù việc sử dụng này đi ngược lại với nguyên tắc không can thiệp vào trung tâm của Bitcoin. Vào ngày 18 tháng 5 năm 2010, ông [viết](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) trên diễn đàn:
 
@@ -771,14 +774,14 @@ Nhu cầu ngày càng cao đối với bitcoin đã đi kèm với sự tăng d�
 
 Satoshi Nakamoto rất quan tâm đến sự tăng này trong độ khó và đã duy trì một [lịch sử](https://bitcointalk.org/index.php?topic=43.msg249#msg249) trên diễn đàn bắt đầu từ tháng 2 năm 2010. Dưới đây là cách nó trông như thế nào:
 
-![Sự phát triển của độ khó như được mô tả bởi Satoshi Nakamoto trên diễn đàn](assets/en/035.webp)
+![Sự phát triển của độ khó như được mô tả bởi Satoshi Nakamoto trên diễn đàn](assets/vi/035.webp)
 
 Mặc dù có sự hứng thú này về sự tăng cường sức mạnh tính toán trên mạng, Satoshi vẫn muốn làm chậm sự chuyên môn hóa của việc đào để ủng hộ việc phân phối các đơn vị. Cho đến thời điểm đó, các thợ đào đã sử dụng các đơn vị xử lý trung tâm (CPU) của họ để khai thác bitcoin mới. Tuy nhiên, những bộ xử lý này đã chứng minh là không hiệu quả cho việc thực hiện các hoạt động lặp đi lặp lại, so với các đơn vị xử lý đồ họa (GPU) phù hợp hơn nhiều với loại tính toán lặp đi lặp lại này. Do đó, mọi người biết vào thời điểm đó rằng sự phát triển này là không thể tránh khỏi, bao gồm cả chính Satoshi. Vào ngày 19 tháng 12 năm 2009, ông [tuyên bố](https://bitcointalk.org/index.php?topic=12.msg54#msg54) như sau:
 "Chúng ta nên có một thỏa thuận giữa các quý ông để hoãn cuộc đua vũ trang GPU càng lâu càng tốt vì lợi ích của mạng. Việc đưa người dùng mới lên tốc độ sẽ dễ dàng hơn nhiều nếu họ không phải lo lắng về trình điều khiển GPU và tính tương thích. Thật tuyệt vời khi bất kỳ ai chỉ với một CPU cũng có thể cạnh tranh một cách công bằng ngay bây giờ."
 
 Tuy nhiên, chỉ vài tháng sau, hộp Pandora đã được mở. Kẻ gây rối là Laszlo Hanyecz, một nhà phát triển người Mỹ 28 tuổi gốc Hungary, sống ở Florida. Anh ta phát hiện ra Bitcoin vào tháng 4 năm 2010. Vào ngày 9, anh ta [mua](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3,300 bitcoin từ NLS với giá khoảng 20 đô la, sau đó thử nghiệm hệ thống bằng cách thực hiện một số giao dịch. Vào ngày 18, anh ta đã cố gắng làm tắc nghẽn mạng bằng cách nhân lên các giao dịch từ [địa chỉ công khai](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4) của mình, nhưng mạng đã chịu đựng được.
 
-![Laszlo Hanyecz cùng con trai vào tháng 5 năm 2018](assets/en/036.webp)
+![Laszlo Hanyecz cùng con trai vào tháng 5 năm 2018](assets/vi/036.webp)
 Laszlo Hanyecz cùng con trai vào tháng 5 năm 2018 (nguồn: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 Sau đó, anh ấy đã [thích nghi](https://bitcointalk.org/index.php?topic=116.msg972#msg972) mã nguồn phần mềm để nó có thể hoạt động trên hệ điều hành Mac OS X. Tiếp theo, anh ấy đã làm việc về tối ưu hóa việc đào bằng cách sử dụng môi trường OpenCL, cho phép [sự tham gia của GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) trong việc tạo ra bitcoin. Vào ngày 10 tháng 5, anh ấy đã công bố [file thực thi](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) và [đề nghị](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) viết các bản vá để cho phép các thợ đào khác làm điều tương tự. Sự tối ưu hóa này nhanh chóng cho phép anh ấy chiếm một vị trí quan trọng trong việc sản xuất khối.
 
@@ -793,17 +796,17 @@ Sự tăng trưởng trong việc đào cũng có một hậu quả đáng kể:
 
 Hoạt động đào của Satoshi có một mô hình rõ ràng, làm cho việc xác định các khối mà ông có thể đã tìm thấy trở nên khả thi, với một số trường hợp nhầm lẫn. Mô hình đào này đã được nhà phát triển Sergio Lerner nêu bật vào năm 2013 và đã được đặt tên là Mô hình Patoshi.
 
-![Mô hình Patoshi giữa các khối 0 và 50,000](assets/en/037.webp)
+![Mô hình Patoshi giữa các khối 0 và 50,000](assets/vi/037.webp)
 
 Mô hình Patoshi giữa các khối 0 và 50,000 như quan sát trên trang web [satoshiblocks.info](http://satoshiblocks.info/): mỗi điểm tương ứng với một khối, các đường màu xanh được hình thành từ các khối của Satoshi, các đường khác đại diện cho kết quả của các thợ đào khác.
 Theo một nghiên cứu của Whale Alert được công bố vào năm 2020, Satoshi đã khai thác khoảng 22,500 khối và do đó tích lũy được 1,122,693 bitcoin, chiếm hơn 5% tổng số 21 triệu đơn vị dự kiến. Trong phần lớn năm 2009, mạng lưới dựa vào sức mạnh tính toán của người sáng lập. Sự phụ thuộc này được minh họa vào tháng 8 năm 2009, đây là giai đoạn tồi tệ nhất về hoạt động khai thác và trùng khớp với thời gian "tạm dừng" của Satoshi, nơi ông có khả năng giám sát máy móc của mình ít hơn. Thực tế, trong tháng 8 này, chỉ có 1,564 khối được sản xuất ra khỏi 4,464 khối dự kiến, tương ứng với thời gian trung bình là 28 phút và 30 giây.
 Với sự tăng cường sức mạnh tính toán vào mùa thu năm 2009, tỷ lệ sức mạnh tính toán của Satoshi so với tổng sức mạnh của mạng dần giảm. Nó giảm từ 75% vào tháng 3 năm 2009 xuống còn 60% vào tháng 9, sau đó giảm xuống 15% vào tháng 12, và đạt 0% vào tháng 5. Dưới đây là biểu đồ do [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) tạo vào năm 2014:
 
-![Ước lượng tỷ lệ sức mạnh tính toán của Satoshi so với tổng sức mạnh từ tháng 1 năm 2009 đến tháng 7 năm 2010](assets/en/038.webp)
+![Ước lượng tỷ lệ sức mạnh tính toán của Satoshi so với tổng sức mạnh từ tháng 1 năm 2009 đến tháng 7 năm 2010](assets/vi/038.webp)
 
 Hơn nữa, sự giảm sút trong việc thống trị khai thác của Satoshi không chỉ là thụ động: chính ông ấy cũng chậm lại việc sản xuất của mình trong cùng kỳ. Thực vậy, mục tiêu được Satoshi nêu ra là để mọi người tham gia: ông không khai thác để kiếm lợi nhuận, mà để đảm bảo hoạt động của mạng cho đến khi các động lực kích thích có hiệu lực. Do đó, ông giảm tốc độ hash của mình (số lượng tính toán thực hiện mỗi giây) ba lần trong giai đoạn khai thác này: lần đầu từ 4.5 xuống 2.5 MH/s vào tháng 6 năm 2009, lần thứ hai từ 2.5 xuống 1 MH/s vào tháng 10, và lần thứ ba từ 1 xuống 0 MH/s vào tháng 5 năm 2010. Dưới đây là biểu đồ về sự phát triển tốc độ hash của ông trong giai đoạn này ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)):
 
-![Ước lượng tốc độ hash của Satoshi từ tháng 1 năm 2009 đến tháng 5 năm 2010](assets/en/039.webp)
+![Ước lượng tốc độ hash của Satoshi từ tháng 1 năm 2009 đến tháng 5 năm 2010](assets/vi/039.webp)
 
 Vì vậy, việc khai thác của Satoshi hoàn toàn vì mục đích từ thiện, như [Jameson Lopp chỉ ra](https://blog.lopp.net/was-satoshi-a-greedy-miner/). Khi ông dừng khai thác vào ngày 3 tháng 5 năm 2010 (khối cuối cùng của ông là [khối 54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), đó là một thành tựu khác trong sự phát triển chậm rãi của Bitcoin: việc chuyển giao xác nhận giao dịch cho các nhà kinh tế.
 
@@ -814,12 +817,12 @@ Tháng 5 năm 2010 cũng được đánh dấu bởi một sự kiện quan tr�
 
 Lời đề nghị này đã được chấp nhận sau bốn ngày. Một thanh niên người California tên là Jeremy Sturdivant đã chấp nhận giao dịch trên dịch vụ nhắn tin tức thời IRC.
 
-![Jeremy Sturdivant vào tháng 5 năm 2018](assets/en/040.webp)
+![Jeremy Sturdivant vào tháng 5 năm 2018](assets/vi/040.webp)
 Jeremy Sturdivant vào tháng 5 năm 2018 (nguồn: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
 Vào ngày 22 tháng 5, anh đã đặt hai pizza từ Papa John's được giao đến cho Laszlo ở Jacksonville, Florida. Anh [nhận](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10,000 bitcoin đổi lại, trị giá khoảng 44 đô la theo tỷ giá Bitcoin Market. Dưới đây là bức ảnh của hai chiếc pizza này, [chia sẻ](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) bởi chính Laszlo:
 
-![Pizzas từ Papa John's được giao đến Laszlo Hanyecz vào ngày 22 tháng 5 năm 2010](assets/en/041.webp)
+![Pizzas từ Papa John's được giao đến Laszlo Hanyecz vào ngày 22 tháng 5 năm 2010](assets/vi/041.webp)
 
 Điều này kết thúc việc mua hàng hóa vật lý đầu tiên bằng bitcoin, mặc dù việc mua này là gián tiếp. Laszlo được [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) chúc mừng, người viết rằng "một bước lớn đã được thực hiện." NLS cũng thêm một [bình luận tích cực](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) về vấn đề này.
 
@@ -833,7 +836,7 @@ Tuy nhiên, sự tăng lên về sức mua của tiền mã hóa không làm gi�
 
 Giai đoạn này cũng chứng kiến sự xuất hiện của một nhân vật then chốt trong lịch sử Bitcoin: Gavin Andresen, một nhà phát triển 44 tuổi sinh ra ở Úc, đã [nhận](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) quốc tịch Mỹ vào năm 2004 và đang sống tại Amherst, Massachusetts vào thời điểm đó. Trở về từ một chuyến đi Úc và tạm thời thất nghiệp, anh phát hiện ra Bitcoin vào cuối tháng 5 thông qua một [bài báo](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) của Neil McAllister được đăng trên InfoWorld. Bài báo này giới thiệu dự án của Satoshi Nakamoto như một "đổi mới mã nguồn mở."
 
-![Ảnh hồ sơ của Gavin Andresen, chụp tại Townsville, Queensland, Úc](assets/en/042.webp)
+![Ảnh hồ sơ của Gavin Andresen, chụp tại Townsville, Queensland, Úc](assets/vi/042.webp)
 Gavin Andresen tại Townsville, Queensland, Úc (nguồn: [lưu trữ CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
 Tò mò và sáng tạo, anh nhanh chóng bắt đầu làm việc trên một dự án cá nhân: một "Bitcoin Faucet" phát bitcoin cho bất kỳ ai yêu cầu. Vào ngày 11 tháng 6, anh [ra mắt](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) dịch vụ của mình và giới thiệu nó trên diễn đàn như sau:
@@ -892,7 +895,7 @@ Vào ngày 11 tháng 7 năm 2010, một phiên bản đã được chỉnh sửa
 
 > "Thế này đã đủ gọi là công nghệ đột phá chưa? Bitcoin là một đồng tiền số dựa trên mạng peer-to-peer, không có ngân hàng trung ương, và không có phí giao dịch. Sử dụng khái niệm chứng minh công việc, các nút tiêu hao chu kỳ CPU để tìm kiếm các gói tiền, phát sóng phát hiện của họ lên mạng. Phân tích về việc sử dụng năng lượng chỉ ra rằng giá trị thị trường của Bitcoins đã vượt qua giá trị năng lượng cần thiết để tạo ra chúng, cho thấy nhu cầu khỏe mạnh. Cộng đồng hy vọng rằng đồng tiền sẽ ở ngoài tầm với của bất kỳ chính phủ nào."
 
-![Logo Slashdot năm 2010](assets/en/043.webp)
+![Logo Slashdot năm 2010](assets/vi/043.webp)
 
 Bài viết đã được chú ý, và gần 500 bình luận đã được đăng trong vài ngày. Đối với Bitcoin, thành công này đã dẫn đến một làn sóng lớn người truy cập vào trang web và diễn đàn. Việc sử dụng blockchain tăng vọt: số lượng giao dịch được thực hiện trên mạng tăng từ 42 vào ngày 10 tháng 7 lên 1,641 vào ngày 12, đạt 5,554 vào ngày 14, một kỷ lục mới. Hệ thống đã giữ vững mặc dù tải tăng lên. Vào ngày 14, nhà phát triển Gavin Andresen [viết](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) trên diễn đàn:
 
@@ -905,12 +908,12 @@ Một hậu quả khác của làn sóng người từ Slashdot là sự tăng c
 
 Trong số những người phát hiện ra Bitcoin nhờ Slashdot có Jed McCaleb, một doanh nhân và lập trình viên người Mỹ 35 tuổi, nổi tiếng với việc đồng sáng lập và phát triển phần mềm chia sẻ tệp ngang hàng eDonkey2000 vào những năm 2000. Nhận thấy việc đổi Bitcoin lấy đô la khá khó khăn, anh quyết định "một cách bốc đồng" tạo ra một thị trường hiệu quả. Để làm điều này, anh đã tái sử dụng một trong những dự án cũ của mình phát triển vào năm 2007: Magic The Gathering Online eXchange (MTGOX), một trang web cho phép mua bán thẻ cho trò chơi trực tuyến *Magic: The Gathering Online*. Anh tái sử dụng tên miền của dự án này (mtgox.com), trở thành tên của nền tảng mới: Mt. Gox, phát âm là "Mount Gox".
 
-![Jed McCaleb vào năm 2013](assets/en/044.webp)
+![Jed McCaleb vào năm 2013](assets/vi/044.webp)
 Jed McCaleb vào năm 2013 (nguồn: Ariel Zambelich cho [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 Một tuần sau, vào ngày 18 tháng 7, Jed McCaleb đã ra mắt nền tảng giao dịch của mình và [thông báo](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) trên diễn đàn. Nhờ kinh nghiệm của mình, anh đảm bảo rằng nền tảng hoạt động như một thị trường tự động, tương tự như các sàn giao dịch trực tuyến hiện đại. [Theo lời anh](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), nó nổi bật so với Bitcoin Market vì "luôn trực tuyến, tự động," "trang web nhanh hơn và có dịch vụ lưu trữ dành riêng," và "giao diện thân thiện với người dùng hơn." Kết quả là, Mt. Gox nhanh chóng trở thành phương tiện chính để mua bitcoin, thiết lập mình là tiêu chuẩn cho báo giá đô la.
 
-![Giao diện của nền tảng Mt. Gox vào tháng 2 năm 2011](assets/en/045.webp)
+![Giao diện của nền tảng Mt. Gox vào tháng 2 năm 2011](assets/vi/045.webp)
 Giao diện của nền tảng Mt. Gox vào tháng 2 năm 2011 (nguồn: [Lưu trữ Mt. Gox](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 Ban đầu, nền tảng này chấp nhận thanh toán qua PayPal. Tuy nhiên, vào tháng 10 năm 2010, sau quá nhiều yêu cầu hoàn tiền, PayPal đã [chặn](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) tài khoản của Jed McCaleb, buộc anh ta phải tạm thời ngừng việc nạp và rút tiền trên nền tảng. Một vài tuần sau, anh ta đã [khôi phục](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) việc chuyển tiền bằng cách thêm Liberty Reserve làm phương thức thanh toán. Sau đó, anh ta cũng chấp nhận giao dịch qua [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) theo yêu cầu, và chuyển khoản ngân hàng [bằng đô la](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) và [bằng euro](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
@@ -932,7 +935,7 @@ Sự gia nhập của người dùng từ Slashdot cũng đòi hỏi việc cả
 Tuy nhiên, người tạo ra Bitcoin không làm việc một mình trên mã nguồn. Ông có thể dựa vào Gavin Andresen, người đã tham gia vào tháng 6 và ngày càng tham gia nhiều hơn vào việc phát triển (ông được [ghi nhận](https://sourceforge.net/p/bitcoin/code/101/) trên kho lưu trữ SourceForge từ ngày 9 tháng 7). Cũng có những người tò mò về cách hệ thống hoạt động và báo cáo vấn đề khi họ gặp phải, như Christian Decker (cdecker) hoặc Michael Marquardt (được biết đến nhiều hơn với bí danh Theymos). Satoshi cũng được hỗ trợ bởi các thợ đào, những người chỉnh sửa mã để tìm cách tối ưu hóa việc tạo ra các đơn vị, như ArtForz (người đầu tiên thiết lập một trang trại đào, như chúng ta sẽ thấy trong chương tiếp theo), nhà phát triển người Đức Nils Schneider (tcatm), Michael Brown (knightmb), hoặc BlackEye.
 Cuối cùng, chúng ta có thể nhắc đến Jeff Garzik (sử dụng bí danh jgarzik trên diễn đàn), là một nhà phát triển người Mỹ, người đóng góp trong thế giới phần mềm tự do, đặc biệt là cho bản phân phối Red Hat, và là một người theo chủ nghĩa tự do theo trường phái kinh tế Áo. Ông phát hiện ra Bitcoin thông qua bài viết được đăng trên Slashdot và gần như ngay lập tức tham gia vào Bitcoin.
 
-![Jeff Garzik năm 2013](assets/en/046.webp)
+![Jeff Garzik năm 2013](assets/vi/046.webp)
 Jeff Garzik năm 2013 (nguồn: [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
 Mục tiêu đầu tiên của Satoshi là làm cho phần mềm và giao thức an toàn hơn, để đối phó với sự tăng trưởng gần đây trong việc sử dụng. Cùng với Gavin Andresen, họ xem xét các cuộc tấn công có thể xảy ra (bao gồm cả các cuộc tấn công từ chối dịch vụ) và cố gắng khắc phục các lỗ hổng được phát hiện. Đó là cách mà một hệ thống các điểm kiểm tra được thêm vào ngày 17 tháng 7 ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), ngăn chặn chuỗi được viết lại trước một ngày nhất định, và khái niệm về công việc được tích hợp vào ngày 25 tháng 7 ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)) để tinh chỉnh cơ chế chọn chuỗi chính xác bởi các nút.
@@ -966,7 +969,7 @@ Tham số này đã được Satoshi thêm một cách kín đáo vào mã ngu�
 
 Mặc dù Satoshi không đề cập đến sự tồn tại của giới hạn kích thước khối, vài người đã nhận thấy sự hiện diện của nó trong mã nguồn theo thời gian. Nó đã được nhận xét ngay từ ngày 12 tháng 8 bởi một thành viên diễn đàn nói tiếng Nga sử dụng bí danh throughput, người đã [nói](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873), với một tông điệu tương đối thuận lợi, rằng "Một khía cạnh thú vị khác là kích thước byte của khối (vậy số lượng giao dịch trong đó) được giới hạn." Sau đó, vào ngày 30 tháng 9, là Theymos đã [chỉ ra](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) cho một thành viên khác rằng "Bitcoin sẽ không cho phép các khối vượt quá 1MB, vì vậy giả sử một kích thước giao dịch trung bình (khá nhỏ) là 216 byte, Bitcoin chỉ có thể xử lý 4,629 giao dịch mỗi 10 phút."
 Cuối cùng, sự hiện diện của tham số này ảnh hưởng đến Jeff Garzik, người [tuyên bố](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) rằng anh ta "quan tâm nhiều hơn đến khả năng mở rộng hơn là việc chính phủ đóng cửa" và đã [hỏi](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) làm thế nào có thể "bán bitcoin cho các nhà đầu tư nghiêm túc, với những hạn chế sẵn có như giới hạn 463 giao dịch mỗi phút." Do đó, vào ngày 3 tháng 10, anh đề xuất một bản vá trên diễn đàn để tăng giới hạn kích thước khối lên 7.168 MB nhằm "tương đương với tốc độ giao dịch trung bình của PayPal." Theymos phản hồi bằng cách nói rằng "việc áp dụng bản vá này sẽ làm bạn không tương thích với các ứng dụng Bitcoin khác." Thông điệp này được Satoshi Nakamoto ủng hộ, người [khuyến nghị](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) không sử dụng bản vá và tuyên bố: "Chúng ta có thể dần dần thay đổi sau nếu chúng ta tiến gần hơn đến việc cần nó." Ngày hôm sau, ông [làm rõ](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) suy nghĩ của mình bằng cách cung cấp hướng dẫn về cách thực hiện thay đổi giao thức như thế nào.
-![Tin nhắn từ Satoshi Nakamoto mô tả việc tăng giới hạn kích thước khối vào năm 2010](assets/en/047.webp)
+![Tin nhắn từ Satoshi Nakamoto mô tả việc tăng giới hạn kích thước khối vào năm 2010](assets/vi/047.webp)
 
 Cuộc thảo luận này đánh dấu sự bắt đầu của cuộc tranh luận về khả năng mở rộng, cuối cùng sẽ dẫn đến một cuộc nội chiến thực sự giữa năm 2015 và 2017, được biết đến là cuộc chiến kích thước khối.
 
@@ -997,11 +1000,11 @@ Giai đoạn này đặc biệt là một kỷ nguyên vàng cho việc khai th�
 
 Sau khi Bitcoin được slashdotted vào tháng 7 năm 2010, phần thưởng tài chính cao do giá tăng và khả năng tăng trưởng trong tương lai đã khuyến khích cá nhân dành thời gian để tạo ra bitcoin một cách tích cực hơn. Đó là lý do tại sao [tốc độ hash](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) của mạng, từ 0.22 GH/s vào ngày 11 tháng 7, đã tăng lên 2.78 GH/s vào ngày 17, sau đó lên 5.79 GH/s vào ngày 15 tháng 8, để cuối cùng đạt 9.94 GH/s vào ngày 19 tháng 9 và cuối cùng là 12.58 GH/s vào ngày 29 tháng 9.
 
-![Tổng tốc độ hash của mạng từ ngày 11 tháng 7 đến ngày 5 tháng 10 năm 2010](assets/en/048.webp)
+![Tổng tốc độ hash của mạng từ ngày 11 tháng 7 đến ngày 5 tháng 10 năm 2010](assets/vi/048.webp)
 Tổng tốc độ hash của mạng từ ngày 11 tháng 7 đến ngày 5 tháng 10 năm 2010 (nguồn: [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
 Người khai thác lớn nhất trong giai đoạn này là một nhà phát triển người Đức có biệt danh là ArtForz. Sau khi tìm hiểu về Bitcoin qua Slashdot, anh ta nhanh chóng tham gia vào việc phát triển phần mềm và dành nhiều thời gian trên kênh IRC #bitcoin-dev. Đặc biệt, anh ta đã phát triển thuật toán khai thác GPU của riêng mình với OpenCL, mà anh ta chạy bằng card đồ họa của máy tính. Anh ta bắt đầu tạo ra bitcoin vào ngày 19 tháng 7. Vào ngày 25 tháng 7, trong một chủ đề khảo sát người dùng về số lượng bitcoin họ sở hữu, ArtForz [tuyên bố](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) rằng anh ta đã tạo ra 1,700 bitcoin trong 6 ngày, tương đương với 4% tổng hash rate, hay 80 MH/s. Dần dần, anh ta xây dựng một trang trại khai thác lớn, được biết đến với cái tên "ArtFarm." Vào tháng 8, trang trại của anh [bao gồm](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 ATI Radeon HD 5770s, cho phép anh ta tăng từ 76 MH/s vào ngày 9 tháng 8 lên khoảng 450 MH/s vào ngày 13.
 
-![Sản lượng khai thác của ArtForz từ tháng 8 đến tháng 10 năm 2010](assets/en/049.webp)
+![Sản lượng khai thác của ArtForz từ tháng 8 đến tháng 10 năm 2010](assets/vi/049.webp)
 Sản lượng khai thác của ArtForz từ tháng 8 đến tháng 10 năm 2010 (nguồn: Blackburn et al., "[Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/pdf/2206.02871)")
 
 Trong những tuần tiếp theo, ArtForz đã kiểm soát một phần đáng kể sức mạnh tính toán của mạng. Vào ngày 2 tháng 9, người khai thác puddinpop [tuyên bố](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957) rằng anh ta "có khoảng 12 5770s sử dụng ứng dụng OpenCL của mình" và rằng anh ta "có hơn 1 Ghash/s," chiếm "20% sức mạnh hash của mạng." (*nguyên văn: "ArtForz, trên IRC, có khoảng 12 hoặc nhiều hơn 5770s chạy ứng dụng OpenCL của riêng mình. Toàn bộ mạng đang thực hiện khoảng 5-6Ghash/s, và một mình anh ta đã tuyên bố rằng anh ta có hơn 1Ghash/s."*) Vào ngày 23 tháng 9, ArtForz [tuyên bố](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0) sở hữu tốc độ hash gần 2 GH/s, vẫn chiếm 20% sức mạnh hashing. Vào ngày 3 tháng 10, theymos [tuyên bố](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) rằng ArtForz "chiếm 20 đến 30% sức mạnh tính toán của mạng." (*nguyên văn: "anh ta chiếm 20-30% sức mạnh CPU của mạng"*)
@@ -1028,7 +1031,7 @@ Vào ngày 23 tháng 11, một phiên bản sửa đổi của chức năng `get
 
 Vào ngày 27 tháng 11, một nhà phát triển trẻ người Séc tên là Marek Palatinus, sử dụng bí danh slush, đã [công bố](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) mô tả về "đào hợp tác" trên diễn đàn, một mô hình tận dụng `getwork` và logic của Jeff Garzik. Mô hình này dựa trên các bằng chứng công việc một phần được sản xuất bởi các thợ đào (trả theo cổ phần). Ngày hôm sau, Satoshi Nakamoto đã [chấp thuận](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) khái niệm này.
 
-![Marek Palatinus (slush) tại hội nghị Z-DAY ở Prague vào ngày 11 tháng 5 năm 2013](assets/en/050.webp)
+![Marek Palatinus (slush) tại hội nghị Z-DAY ở Prague vào ngày 11 tháng 5 năm 2013](assets/vi/050.webp)
 Marek Palatinus (slush) tại hội nghị Z-DAY ở Prague vào ngày 11 tháng 5 năm 2013
 Hai mô hình ước lượng đã được triển khai vào tháng 12. Đầu tiên, khái niệm puddinpop đã được áp dụng vào ngày 1 tháng 12 bởi người dùng doublec, người đã [mời](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) mọi người kết nối với máy chủ khai thác hợp tác của mình. Nhóm được hình thành đã [tạo ra](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) khối đầu tiên (95,420) vào ngày 4 tháng 12. Sau khi tạo thêm một khối nữa vài ngày sau, máy chủ của doublec đã được [đóng cửa](https://bluishcoder.co.nz/bitcoin-pool/) vào ngày 15. Dịch vụ này đã đóng cửa vĩnh viễn vào ngày 17, do sự xuất hiện của một hợp tác xã hiệu quả hơn nhiều: Bitcoin.cz Mining.
 
@@ -1038,7 +1041,7 @@ Trong đêm từ ngày 15 đến ngày 16 tháng 12, hợp tác xã cuối cùng
 
 Hợp tác xã này sẽ trở thành một tiêu chuẩn trong việc khai thác Bitcoin. Nó đã [mang](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) nhiều tên gọi qua các năm: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, và cuối cùng là Slush Pool, theo tên người sáng lập. Nó trở thành Braiins Pool vào tháng 9 năm 2022.
 
-![Logo của hợp tác xã Slush vào tháng 9 năm 2011](assets/en/051.webp)
+![Logo của hợp tác xã Slush vào tháng 9 năm 2011](assets/vi/051.webp)
 Logo của hợp tác xã Slush vào tháng 9 năm 2011 (nguồn: [lưu trữ](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) của trang web)
 
 ### Bước Nhảy Vọt Lớn trong Khai Thác
@@ -1064,11 +1067,11 @@ Chính với cộng đồng Pháp mà mọi thứ thay đổi, đặc biệt th�
 
 Vài ngày sau, vào ngày 30, anh đã công bố một [bản tin](https://linuxfr.org/news/connaissez-vous-les-bitcoins) bằng tiếng Pháp trên LinuxFr.org (DLFP). Bản tin này, có tiêu đề "Bạn đã biết về bitcoin chưa?", có lẽ là bài giới thiệu đầu tiên về Bitcoin được viết bằng ngôn ngữ của Molière. Bài viết đã tiếp cận một số lượng lớn người đọc, tạo ra gần 350 bình luận. Dưới đây là đoạn đầu tiên như nó [đã xuất hiện](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) vào thời điểm đó:
 
-![Bạn đã biết về bitcoin chưa?](assets/en/052.webp)
+![Bạn đã biết về bitcoin chưa?](assets/vi/052.webp)
 > **Bài viết: Bạn có biết bitcoin không?** Bitcoin là một loại tiền điện tử được thiết kế vào năm 2009 bởi một người tên là Satoshi Nakamoto. Đồng tiền này khác với các loại tiền điện tử khác nhờ tính chất hoàn toàn phi tập trung theo mô hình ngang hàng và việc sử dụng khéo léo các khái niệm mật mã cơ bản. Nó dựa trên phần mềm được viết bằng C++ và phát hành theo giấy phép tự do MIT.
 
 Cụ thể, thông điệp này đã thu hút sự chú ý của một người tên là Ploum, tên thật là Lionel Dricot, một blogger người Bỉ 29 tuổi và là người ủng hộ phần mềm tự do. Vào ngày 25 tháng 10, anh [đã đăng](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) một bài viết trên blog của mình, với tiêu đề "Tiền của Geek, Tiền của Khỉ?", trong đó anh ủng hộ sự phân quyền và hỗ trợ nguyên tắc của Bitcoin. Nhiều người dùng internet nói tiếng Pháp đã biết đến Bitcoin thông qua phương tiện này, bao gồm [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), nhà phát triển sau này đã tạo ra Bitcoin Cash vào năm 2017.
-![Lionel Dricot (Ploum) vào năm 2012, khi đó là ứng cử viên dưới ngọn cờ của Đảng Cướp Biển cho cuộc bầu cử cộng đồng và tỉnh của Bỉ](assets/en/053.webp)
+![Lionel Dricot (Ploum) vào năm 2012, khi đó là ứng cử viên dưới ngọn cờ của Đảng Cướp Biển cho cuộc bầu cử cộng đồng và tỉnh của Bỉ](assets/vi/053.webp)
 Lionel Dricot (Ploum) vào năm 2012, khi đó là ứng cử viên dưới ngọn cờ của Đảng Cướp Biển cho cuộc bầu cử cộng đồng và tỉnh của Bỉ (nguồn: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
 Cùng ngày, Ploum đã mở [chuỗi thảo luận](https://bitcointalk.org/index.php?topic=1567.0) "French" trên diễn đàn Bitcoin. Số lượng tin nhắn từ các thành viên diễn đàn nói tiếng Pháp tăng lên trong những tháng tiếp theo. Đáng chú ý, David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), đăng ký vào ngày 17 tháng 10 và là người sáng lập Bitcoin-Central sau này, và Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), đăng ký vào ngày 7 tháng 11 và là chủ sở hữu tương lai của nền tảng Mt. Gox, đã tham gia. Cũng đã có sự tham gia của một người tên là Jean-Luc, người sau đó đã mở trang web [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) vào ngày 23 tháng 12 và bắt đầu [quảng bá](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) nó vào tháng 1. Một [diễn đàn phụ tiếng Pháp](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) cuối cùng đã được Martti Malmi tạo ra vào ngày 1 tháng 2 năm 2011.
@@ -1076,21 +1079,21 @@ Cùng ngày, Ploum đã mở [chuỗi thảo luận](https://bitcointalk.org/ind
 ### Sự Phát Triển của Giao Tiếp
 Ngoài sự phát triển của các cộng đồng ngôn ngữ, có một sự đổi mới nhất định trong các phương pháp được sử dụng để giao tiếp về Bitcoin. Vào ngày 4 tháng 10, một người Úc 38 tuổi sử dụng bí danh noagendamarket đã [khởi xướng](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) một sáng kiến có tên là BitcoinMedia. Ý tưởng là quảng bá Bitcoin bằng cách tạo ra các nội dung khác nhau và quảng cáo chúng ở những nơi có khả năng thu hút khán giả. Mặc dù sáng kiến này không đạt được thành công như mong đợi, nhưng nó có công lao dẫn đến việc sản xuất những video đầu tiên nói về Bitcoin. Video đầu tiên của kênh, được [công bố](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) vào ngày 5 tháng 10, là một Câu Chuyện Tìm Kiếm Google, được tạo ra bằng công cụ Youtube (xem ảnh chụp màn hình bên dưới). Những video khác sẽ được tạo ra với Xtranormal, một công cụ dễ dàng để tạo ra các chuỗi video từ một bộ nhân vật và cảnh được thiết kế trước.
 
-![Video đầu tiên về Bitcoin (Câu Chuyện Tìm Kiếm Google)](assets/en/054.webp)
+![Video đầu tiên về Bitcoin (Câu Chuyện Tìm Kiếm Google)](assets/vi/054.webp)
 
 Các bài đăng trên blog về Bitcoin đang phát triển mạnh trong giai đoạn này. Điều này đặc biệt đúng với Jon Matonis, người điều hành blog *The Monetary Future* nơi ông thảo luận về các chủ đề liên quan đến tiền tệ số, ngân hàng tự do, và mật mã học. Ông phát hiện ra Bitcoin vào tháng 3 và [trò chuyện](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) với Satoshi, sau đó ông bắt đầu viết về chủ đề này. Vào tháng 10, ông công bố bài viết [thứ ba](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html) nơi ông nói về sự tăng giá và chi tiết những điều mới mẻ của hệ sinh thái.
 
-![Ảnh đại diện của Jon Matonis năm 2011](assets/en/055.webp)
+![Ảnh đại diện của Jon Matonis năm 2011](assets/vi/055.webp)
 Ảnh đại diện của Jon Matonis năm 2011 (nguồn: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 Cũng vào thời gian này, một logo Bitcoin mới được đề xuất. Vào ngày 1 tháng 11, một thành viên diễn đàn sử dụng bí danh bitboy đã [công bố](https://bitcointalk.org/index.php?topic=1631.0) các yếu tố đồ họa để nổi bật tiền mã hóa. Một trong những yếu tố này là logo màu cam với chữ B bị gạch ngang và hơi nghiêng:
 
-![Logo Bitcoin được thiết kế bởi bitboy, tháng 11 năm 2010](assets/en/056.webp)
+![Logo Bitcoin được thiết kế bởi bitboy, tháng 11 năm 2010](assets/vi/056.webp)
 
 ### Một Nền Kinh Tế Đang Phát Triển
 Giai đoạn này cũng được đánh dấu bởi sự tăng trưởng đáng chú ý của hệ sinh thái ở cấp độ kinh tế. Trong mùa thu năm 2010, các nền tảng như Mt. Gox, Bitcoin Market, và một số nền tảng khác tồn tại, nhưng đó không phải là đủ. Đó là lý do tại sao các sàn giao dịch qua quầy (over-the-counter) bắt đầu nhân lên. Ngoài các giao dịch được thực hiện qua tin nhắn riêng trên diễn đàn, một hệ thống nghiêm ngặt hơn được đặt ra: #bitcoin-otc. Đây là một kênh IRC trên Freenode [được mở](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) bởi một người dùng có tên là nanotube vào ngày 18 tháng 10. Sổ lệnh được lưu trữ trên [trang web liên kết](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php) và các giao dịch diễn ra trực tiếp giữa các bên, không qua tiền gửi bảo lãnh, thông qua các phương thức thanh toán khác nhau (PayPal, Liberty Reserve). Số lượng dịch vụ chấp nhận bitcoin cũng tăng lên, mặc dù vẫn còn tương đối thấp, như được [chứng minh](https://web.archive.org/web/20101120224505/http://www.bitcoin.org/trade) bởi trang liệt kê của trang web chính thức. Tất cả những yếu tố này dẫn đến việc giá tăng mạnh. Trong khi nó ổn định ở mức 6¢ từ tháng 8, nó bắt đầu tăng vào đầu tháng 10. Nó tăng lên 10¢, để đạt 20¢ vào cuối tháng. Vào ngày 6 tháng 11, nó thậm chí vượt qua 50¢, điều này không thất bại khiến các thành viên diễn đàn [phấn khích](https://bitcointalk.org/index.php?topic=1681.0).
 
-![Giá BTC từ ngày 18 tháng 7 đến ngày 18 tháng 10 năm 2010 trên Mt. Gox](assets/en/057.webp)
+![Giá BTC từ ngày 18 tháng 7 đến ngày 18 tháng 10 năm 2010 trên Mt. Gox](assets/vi/057.webp)
 Giá BTC từ ngày 18 tháng 7 đến ngày 18 tháng 10 năm 2010 trên Mt. Gox (nguồn: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
 
 Sự tăng trưởng của Bitcoin có nghĩa là mọi thứ bắt đầu được đo lường, dù là về giá cả, hoạt động trên chuỗi, hay khai thác. Mọi người đều biết rằng hệ sinh thái đang trải qua sự tăng trưởng, nhưng không ai biết cách ước lượng nó một cách chính xác. Đó là lý do tại sao các dịch vụ xuất hiện trong nửa cuối của năm 2010 và đầu năm 2011, trong số đó những cái chính là:
@@ -1107,7 +1110,7 @@ Một yếu tố cuối cùng chỉ ra sự thành công của Bitcoin là việ
 
 Một sự kiện quan trọng vào cuối năm 2010 là việc tổ chức Electronic Frontier Foundation, một tổ chức quốc tế bảo vệ tự do trên Internet, được đồng sáng lập vào năm 1900 bởi Mitch Kapor, John Gilmore, và John Perry Barlow, chấp nhận bitcoin. Điều này đặc biệt quan trọng đối với những người tiên phong sử dụng Bitcoin, những người là cypherpunks bằng cả trái tim. Họ rất muốn tổ chức này chấp nhận bitcoin.
 
-![Logo của Tổ chức Electronic Frontier Foundation](assets/en/058.webp)
+![Logo của Tổ chức Electronic Frontier Foundation](assets/vi/058.webp)
 
 Đó là thành viên diễn đàn có tên là Kiba đã chủ động vào ngày 13 tháng 8 năm 2010, bằng cách [đề xuất](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) liên hệ với EFF và đề nghị họ chấp nhận một khoản quyên góp, [thu thập](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) từ cộng đồng. Với mục đích này, anh ấy đã thiết lập một [tài khoản](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) trên MyBitcoin nơi anh ấy tập hợp các quỹ và muốn chuyển quyền truy cập cho EFF. Anh ấy đã soạn một email (được cộng đồng chỉnh sửa) và gửi vào cuối tháng 8.
 
@@ -1161,13 +1164,13 @@ Gavin, người gần gũi với Satoshi nhưng cũng thảo luận với các n
 
 Sự kiện kích hoạt cho sự ra đi của Satoshi là vụ WikiLeaks. WikiLeaks là một tổ chức phi chính phủ được thành lập bởi cypherpunk Julian Assange vào năm 2006, nhằm mục đích cung cấp tiếng nói cho những người tố cáo và rò rỉ thông tin trong khi bảo vệ nguồn của họ. Trong năm 2010, các tài liệu mật được NGO tiết lộ được các phương tiện truyền thông lớn chuyển tiếp và gây xôn xao dư luận. Những tài liệu này đặc biệt liên quan đến các hành động quá mức của quân đội Mỹ, như thương vong dân sự và các hành vi tra tấn được thực hiện, ở Afghanistan (Nhật ký Chiến tranh Afghanistan) và Iraq (Nhật ký Chiến tranh Iraq).
 
-![Logo WikiLeaks vào tháng 11 năm 2010](assets/en/059.webp)
+![Logo WikiLeaks vào tháng 11 năm 2010](assets/vi/059.webp)
 
 Ngân sách của WikiLeaks chủ yếu dựa vào các khoản đóng góp công khai, vì vậy tổ chức này phụ thuộc vào các bên trung gian thanh toán để nhận thanh toán trực tuyến. Tuy nhiên, sau những tiết lộ này, áp lực được đặt lên những trung gian này, những người lo sợ phản ứng của cơ quan quản lý. Đây là lý do tại sao công ty thanh toán trực tuyến Moneybookers [đóng băng](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) tài khoản của NGO vào ngày 14 tháng 10.
 
 Tình hình này mở ra một con đường hoàng lộ cho việc sử dụng Bitcoin, không phụ thuộc vào bất kỳ bên thứ ba đáng tin cậy nào và sẽ chống lại kiểm duyệt tài chính tốt hơn nhiều. Giả thuyết này được mở ra trên diễn đàn vào tháng 11 bởi Amir Taaki, một người Anh gốc Iran 22 tuổi sử dụng bí danh genjix.
 
-![Amir Taaki vào tháng 12 năm 2012 tại Bratislava](assets/en/060.webp)
+![Amir Taaki vào tháng 12 năm 2012 tại Bratislava](assets/vi/060.webp)
 Amir Taaki vào tháng 12 năm 2012 tại Bratislava (nguồn: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 Hacker, người theo chủ nghĩa vô chính phủ, và [người chơi poker](https://bitcointalk.org/index.php?topic=1487.0), anh ta mới đây tìm hiểu về mô hình của Satoshi Nakamoto. Anh ta thấy trong tình hình của WikiLeaks một cơ hội để chứng minh tính hữu ích của Bitcoin. Vào ngày 10 tháng 11, anh ta [viết](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271) thông điệp sau trên diễn đàn:
 > "Tôi muốn gửi một bức thư cho Wikileaks về Bitcoin vì tiếc là họ đã gặp phải một số vụ việc khi quỹ của họ bị tịch thu trong quá khứ. [...] Ai biết nơi nào để gửi tin nhắn cho họ không?"
@@ -1275,23 +1278,23 @@ Nhưng chủ yếu là việc quản lý trang web mà Martti cần phải ủy 
 
 Hình dáng của nó cũng thay đổi. Vào tháng 12 năm 2010, trang web vẫn trông giống như thời kỳ Satoshi. Dưới đây là một [ảnh chụp](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/) từ ngày 5 tháng 12:
 
-![Ảnh chụp Bitcoin.org từ ngày 5 tháng 12, 2010](assets/en/061.webp)
+![Ảnh chụp Bitcoin.org từ ngày 5 tháng 12, 2010](assets/vi/061.webp)
 
 Vì thế, một chút màu sắc đã được [thêm vào](https://web.archive.org/web/20110216125441/http://www.bitcoin.org/) vào đầu năm 2011:
 
-![Ảnh chụp Bitcoin.org từ ngày 16 tháng 2, 2011](assets/en/062.webp)
+![Ảnh chụp Bitcoin.org từ ngày 16 tháng 2, 2011](assets/vi/062.webp)
 
 Vào tháng 4, sau một cuộc thiết kế lại [do cộng đồng tổ chức](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581), bố cục của trang web đã thay đổi. Dưới đây là hình dáng của nó [lúc bấy giờ](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/):
 
-![Ảnh chụp Bitcoin.org từ ngày 11 tháng 4, 2011](assets/en/063.webp)
+![Ảnh chụp Bitcoin.org từ ngày 11 tháng 4, 2011](assets/vi/063.webp)
 
 Cuối cùng, vào tháng 9 năm 2011, một thay đổi mới đã được [thực hiện](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691) bởi Nils Schneider. Một kho lưu trữ GitHub mới đã được [tạo ra](https://github.com/bitcoin/bitcoin.org) cho dịp này. Thiết kế này sẽ tồn tại lâu hơn: nó sẽ không được thay đổi cho đến năm 2013. Dưới đây là nó (lưu ý rằng Bitcoin-the-software lúc đó được mô tả là "một dự án mã nguồn mở do cộng đồng điều hành"):
 
-![Ảnh chụp Bitcoin.org từ ngày 23 tháng 9, 2011](assets/en/064.webp)
+![Ảnh chụp Bitcoin.org từ ngày 23 tháng 9, 2011](assets/vi/064.webp)
 
 Về wiki, ban đầu nó dựa trên DokuWiki, một engine miễn phí được tích hợp vào trang web. Tuy nhiên, vào tháng 12 năm 2010, Mark Karpelès, một nhà phát triển người Pháp sống tại Nhật Bản và sử dụng bí danh MagicalTux trên diễn đàn, đã tạo một wiki mới tại địa chỉ bitcoin.it. Wiki này dựa trên engine MediaWiki, mà anh ấy thấy đẹp mắt và dễ sử dụng hơn. Ý tưởng ban đầu không phải là thay thế tài liệu hiện có, nhưng, như Mark [biểu đạt](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) trên IRC, để phát triển "một wiki ít chính thức hơn, hướng đến cộng đồng nhiều hơn."
 Wiki mới này thu hút sự chú ý của [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) và [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), vì vậy họ nhanh chóng xem xét việc biến nó thành wiki chính. Dưới đây là một [ảnh chụp](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page) được thực hiện vào ngày 21 tháng 5:
-![Ảnh chụp của Bitcoin.it wiki vào ngày 21 tháng 5, 2011](assets/en/065.webp)
+![Ảnh chụp của Bitcoin.it wiki vào ngày 21 tháng 5, 2011](assets/vi/065.webp)
 
 Vài ngày sau khi ra mắt, liên kết có tiêu đề "wiki" trên trang chủ Bitcoin.org [chỉ](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) đến Bitcoin.it. Nội dung dần được chuyển từ phiên bản DokuWiki. Vào ngày 31 tháng 1, Martti [chỉ ra](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) trên diễn đàn rằng đây là wiki mới.
 
@@ -1309,12 +1312,12 @@ Tháng 2 cũng đánh dấu [bài thuyết trình được quay phim đầu tiê
 
 Mặc dù những sự kiện đầu tiên diễn ra tại Hoa Kỳ, cộng đồng Pháp không bị bỏ lại phía sau. Vào ngày 25 tháng 5, để đánh dấu chuyến thăm của Gavin Andresen tới Paris, một bữa trưa đã được tổ chức tại khu vực La Défense, với sự tham gia của các nhân vật nổi bật như Lucien Grondin, David François, và Jon Matonis (người cũng đang thăm).
 
-![Cuộc gặp tại La Défense ở Paris với Gavin Andresen, mặc áo sơ mi hồng](assets/en/066.webp)
+![Cuộc gặp tại La Défense ở Paris với Gavin Andresen, mặc áo sơ mi hồng](assets/vi/066.webp)
 Cuộc gặp tại La Défense ở Paris với Gavin Andresen, mặc áo sơ mi hồng (nguồn: [lưu trữ diễn đàn](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
 Một tháng sau, vào ngày 15 tháng 6, bài thuyết trình công khai đầu tiên về Bitcoin bằng tiếng Pháp [diễn ra](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), một lần nữa tại Paris. Nó được thực hiện bởi Renaud Lifchitz (nono2357), một chuyên gia an ninh mạng trẻ tuổi đã phát hiện ra Bitcoin một năm trước đó. [Nội dung được trình bày](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) có chất lượng rất cao, và sự tham gia của khán giả tốt đến mức phòng đã chật kín.
 
-![Bài thuyết trình Bitcoin của Renaud Lifchitz vào ngày 15 tháng 6 năm 2011](assets/en/067.webp)
+![Bài thuyết trình Bitcoin của Renaud Lifchitz vào ngày 15 tháng 6 năm 2011](assets/vi/067.webp)
 Bài thuyết trình Bitcoin của Renaud Lifchitz vào ngày 15 tháng 6 năm 2011 (nguồn: [lưu trữ diễn đàn](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
 Sau trải nghiệm này, cộng đồng Paris [tổ chức](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) một buổi gặp mặt xã hội, diễn ra vào ngày 11 tháng 7. Sự kiện này đã quy tụ những cá nhân như Pierre Noizat hay Émilien Dutang.
@@ -1331,7 +1334,7 @@ Năm 2011 cũng là một năm mà sự quan tâm của truyền thông mở r�
 
 :::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 Vào tháng Tư, chủ đề về tiền tệ số đã được các phương tiện truyền thông chính thống lớn như [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), và [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) đưa tin. Vào tháng Năm, phong trào này đã nhận được sự đẩy mạnh, và Bitcoin được nhắc đến hầu như ở khắp mọi nơi, đáng chú ý là trên [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), trên [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), trên [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), và trên [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
-![Gavin Andresen trong Forbes vào tháng Tư 2011](assets/en/068.webp)
+![Gavin Andresen trong Forbes vào tháng Tư 2011](assets/vi/068.webp)
 Gavin Andresen trong Forbes vào tháng Tư 2011 (nguồn: [Lưu trữ Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
 Radio cũng được sử dụng để thảo luận về tiền mã hóa. Một tập của chương trình radio CBC Radio của Canada đã được [dành riêng](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/) để thảo luận về chủ đề tiền tệ và Bitcoin vào ngày 27 tháng 2. Bitcoin cũng được nhắc đến trong một số tập của FreeTalkLive, một chương trình mang hướng tự do ở Hoa Kỳ. Cụ thể, chủ đề này đã được [thảo luận](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16) một cách rộng rãi hơn vào ngày 16 tháng 3 năm 2011, đặc biệt trong bối cảnh sự phát triển của Silk Road. Cuối cùng, vào ngày 24 tháng 5, Bitcoin đã trở thành chủ đề của một [phần ngắn](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins) trên National Public Radio ở Hoa Kỳ.
@@ -1340,12 +1343,12 @@ Các blogger cá nhân cũng quan tâm. Điều này đúng với Rick Falkvinge
 
 Sự phổ biến của Bitcoin có nghĩa là giá của nó tăng đáng kể. Trong khi nó đã giảm xuống còn 20 cent vào tháng 12 năm 2010, nó đạt ngang bằng với đô la vào ngày 9 tháng 2 năm 2011. Tại thời điểm đó, Hal Finney [tuyên bố](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) rằng các thành viên của cộng đồng "thực sự may mắn khi ở ngay từ đầu của một hiện tượng mới có thể bùng nổ." Ông đã có trực giác tốt, bởi vì những gì xảy ra tiếp theo diễn ra cực kỳ nhanh chóng.
 
-![Ảnh chụp được jimbobway đăng trên diễn đàn vào ngày đạt ngang giá với đô la](assets/en/069.webp)
+![Ảnh chụp được jimbobway đăng trên diễn đàn vào ngày đạt ngang giá với đô la](assets/vi/069.webp)
 Ảnh chụp được jimbobway công bố trên diễn đàn vào ngày đạt ngang giá với đô la (nguồn: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 Quả thực, cơn sốt truyền thông vào mùa xuân dẫn đến việc dần dần tạo ra một hiện tượng đầu cơ chưa từng có. Sau khi đã ổn định quanh $1 trong vài tháng, giá tăng lên và đạt $3 vào cuối tháng Tư. Trong tháng Năm, nó ở mức $8. Cuối cùng, vào ngày 8 tháng 6, giá của bitcoin đạt mức cao lịch sử là $32 trên Mt. Gox! Sự tăng này tương đương với sự tăng 160 lần trong 6 tháng.
 
-![Giá trung bình của BTC từ ngày 1 tháng 1 đến ngày 30 tháng 6 năm 2011](assets/en/070.webp)
+![Giá trung bình của BTC từ ngày 1 tháng 1 đến ngày 30 tháng 6 năm 2011](assets/vi/070.webp)
 Giá trung bình của BTC từ ngày 1 tháng 1 đến ngày 30 tháng 6 năm 2011 (nguồn: [Bitbo.io](https://calendar.bitbo.io/price/))
 
 Tất nhiên, phong trào đầu cơ này nhắc nhở về một bong bóng tài chính, tức là sự định giá quá cao của một sản phẩm tài chính so với giá trị cơ bản của nó. Trong trường hợp của một đồng tiền như Bitcoin, đó là về một sự hứng thú thoáng qua dẫn đến sự tăng giá chóng mặt, theo sau là sự giảm giá mạnh do thiếu niềm tin của các thành viên mới. Đây là cách mà sự phát triển giá được [mô tả](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) như một "bong bóng" bởi một nhà bình luận của Reuters vào ngày 27 tháng 5, trong một trong những "bài viết tưởng niệm" đầu tiên của Bitcoin.

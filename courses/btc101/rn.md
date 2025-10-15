@@ -17,7 +17,7 @@ objectives:
 Muri kino cigwa, turaza kubasigurira ivy'ishimikiro vya Bitcoin mubigabane 25, kugira ushobore gutahura buno buhinga mu buryo bworoshe kandi kandi bwizewe. Icigwa kiranonosora ivy'ishimikiro vy'uruganda rwose muri rusangi, harimwo ingingo nk'ugucukura, ingodo, kugura/kugurisha imbuga, n'ibindi vyinshi. Ibikoresho vy'ukwigirako vyiyongerako bizoboneka uko urugendo ruzoza rurabandanya, kandi turabatumiye kuraba "21 Posters" biri mugace k'ibikoresho inyuma yokurangiza kino cirwa.
 
 
-Ntukeneye kugira  ubumenyi bwihariye kugira utangure. Ariko, inyandiko zikwirikira zishobora kubona umunyeshure w'urwego rwarigwo rwose , kandi bishobora gutwara amasaha yababa 15 kugira uheze.
+Nta bumenyi busabwa kugira ngo utangire iri somo. BTC 101 yateguwe kugira ngo igezweho kuri bose, utitaye ku rwego rw’uburambe ufite.
 
 
 +++

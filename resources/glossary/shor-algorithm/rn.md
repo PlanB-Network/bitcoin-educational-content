@@ -1,0 +1,5 @@
+---
+term: SHOR (IBIMENYETSO)
+---
+
+Ubuhinga bwa Quantum bwavumbuwe muri 1994 na Peter Shor bushobora gucapura imibare myinshi yuzuye mu gice c'imibare y'intango mu gihe c'imibare myinshi. Mu kugabanya umubare w'ibikorwa bikenewe kugira ngo umuntu ashobore gucapura imibare yose, Shor yoshobora gutuma ubuhinga bwo gukora amakuru y'ibanga bwashinzwe kuri iki kibazo c'imibare, nka RSA, butakora. Shor ishobora guhindurwa gatoyi kugira ngo ikore ku mirongo hafi yose ikoresha imiterere y’umugwi. Irasanzwe ifise uburyo bwiza bwo guhindura amajambo y’uruzitiro (ECDSA, Schnorr...). Ku bw’ivyo, Shor n’ibindi bihimba vyayo vy’inyuma birakora neza ku bijanye n’ubuhinga bwo gukora amajambo y’uruyeri. Ubu, ntituraronka mudasobwa y’ubuhinga bwa quantum ifise ububasha buhagije kandi idahinduka kugira ngo ishobore gukora neza ubuhinga bwa Shor.

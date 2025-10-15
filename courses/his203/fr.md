@@ -1120,7 +1120,11 @@ Jesus, meek and humble of heart, make my heart like unto thine!
 
 Les coopératives posent un problème de centralisation. Le regroupement en coopératives amène à une plus grande centralisation du minage.
 
-P2Pool est créé par ForrestV, qui fréquente beaucoup IRC [depuis mars](https://buildingbitcoin.org/bitcoin-dev/log-2011-03-09.html).
+P2Pool est créé par Forrest Voight ([ForrestV](https://bitcointalk.org/index.php?action=profile;u=6447)), un jeune développeur floridien de 18 ans, qui fréquente beaucoup IRC [depuis mars](https://buildingbitcoin.org/bitcoin-dev/log-2011-03-09.html).
+
+![Forrest Voight vers 2011](assets/en/forrest-voight-circa-2011-forre-st.webp)
+
+Forrest Voight vers 2011 (source : [archive](https://web.archive.org/web/20110816144339/https://forre.st/) de son site personnel)
 
 forrestv : https://bitcointalk.org/index.php?topic=18313.0 + https://bitcointalk.org/index.php?topic=61131.0
 
@@ -1136,15 +1140,25 @@ share chain = chaine de partage, chaine des parts, chaine de participation ?
 
 description : https://en.bitcoin.it/w/index.php?title=P2Pool&oldid=23453 "P2Pool creates a new block chain in which the difficulty is adjusted so a new block is found every 10 seconds. The blocks that get into the P2Pool block chain (called the "share chain") are the same blocks that would get into the Bitcoin block chain, only they have a lower difficulty target. Whenever a peer announces a new share found (new block in the P2Pool block chain), it is received by the other peers, and the other peers verify that this block contains payouts for all the previous miners who found a share (and announced it) that made it into the P2Pool share chain. This continues until some peer finds a block that has a difficulty that meets the Bitcoin network's difficulty target. This peer announces this block to the Bitcoin network and miners who have submitted shares for this block are paid in the generation transaction, proportionally to how many shares they have found in the last while."
 
-### Stratum (nov. 2011)
+### Stratum (sept. 2012)
 
-Le minage en coopératives motive également le développement d'un nouveau protocole de communication, plus efficace que le rudimentaire getblocktemplate (GBT).
+Le minage en coopératives motive également le développement d'un nouveau protocole de communication, plus efficace que la rudimentaire fonction `getwork`.
+
+getmemorypool, Forrest Voight, 24 août 2011 : https://bitcointalk.org/index.php?topic=39088.msg478130#msg478130
+
+ajouté au logiciel en novembre 2011 dans la version 0.5 : https://bitcointalk.org/index.php?topic=52480.msg626275#msg626275
+
+getblocktemplate (GBT), BIP [22](https://github.com/bitcoin/bips/blob/master/bip-0022.mediawiki) et [23](https://github.com/bitcoin/bips/blob/master/bip-0023.mediawiki), [proposé](https://en.bitcoin.it/w/index.php?title=BIP_0022&oldid=24328) sous le nom `getmemorypool` par Luke-Jr le 28 février 2012. Utilisé dans Eloipool (https://web.archive.org/web/20120701151930/http://gitorious.org/bitcoin/eloipool). EclipseMC à partir de mai (https://github.com/bitcoin/bitcoin/pull/936#issuecomment-5804140). [Apparait](https://bitcointalk.org/index.php?topic=110243.msg1199467#msg1199467) dans la version 0.7 du logiciel de Bitcoin, qui sort le 17 septembre 2012.
+
+Le protocole de minage Stratum (StratumMP) est [proposé](https://bitcointalk.org/index.php?topic=108533.msg1180029#msg1180029) par Marek Palatinus le 11 septembre 2012. Le protocole (dont le nom [signifie](https://bitcointalk.org/index.php?topic=55842.msg667768#msg667768) « couche » en latin) permet le hachage par clients légers. Eleuthria, l'opérateur de BTC Guild qui [travaillait](https://bitcointalk.org/index.php?topic=108441.msg1178526#msg1178526) alors sur un modèle similaire, retire par conséquent sa proposition.
+
+Réaction de Luke-Jr : https://bitcointalk.org/?topic=108854.0
 
 https://en.bitcoin.it/wiki/Stratum_mining_protocol
 
-getblocktemplate (GBT)
+Stratum (gestion de Bitcoin.cz mining), [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
 
-Stratum, [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
+En avril 2013, le taux de hachage passant par Stratum [représente](https://web.archive.org/web/20150307191254/http://mining.bitcoin.cz/stratum-mining) plus de 90 % de la puissance totale du réseau !
 
 ### FPGA
 

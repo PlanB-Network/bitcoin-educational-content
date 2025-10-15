@@ -2774,18 +2774,18 @@ Met deze eenvoudige routines blijft je Umbrel node stabiel, veilig en nuttig, zo
 
 
 
-## IBD en het ipeer discovery process begrijpen
+## IBD en het peer discovery process begrijpen
 
 
 <chapterId>175ac9d1-ea23-45d9-9918-d3e7352435cd</chapterId>
 
 
 
-Je Bitcoin node start op zonder enige voorkennis van de transactiegeschiedenis. In eerste instantie is het gewoon een computer met software (Bitcoin core of vergelijkbaar). Om een volledig gesynchroniseerd en operationeel Bitcoin node te worden, moet het lokaal de toestand van Ledger reconstrueren door alle blokken te controleren die gepubliceerd zijn sinds het Genesis blok (blok 0, gepubliceerd door Satoshi Nakamoto op 3 januari 2009). Deze stap heet **IBD (_Initial Block Download_)**.
+Je Bitcoin node start op zonder enige voorkennis van de transactiegeschiedenis. In eerste instantie is het gewoon een computer met software (Bitcoin Core of vergelijkbaar). Om een volledig gesynchroniseerde en operationeele Bitcoin node te worden, moet het lokaal de toestand van de ledger reconstrueren door alle blokken te controleren die gepubliceerd zijn sinds het Genesis blok (blok 0, gepubliceerd door Satoshi Nakamoto op 3 januari 2009). Deze stap heet **IBD (_Initial Block Download_)**.
 
 
 
-IBD bestaat uit het downloaden en verifiëren van elk blok en elke transactie afzonderlijk, waarbij de consensusregels worden toegepast, om een eigen versie van de Blockchain te bouwen. Het doel is niet simpelweg om een kopie van niet-geverifieerde gegevens op te halen, maar om volledig onafhankelijk tot dezelfde conclusie te komen, net als de eerlijke meerderheid van het netwerk.
+IBD bestaat uit het downloaden en verifiëren van elk blok en elke transactie afzonderlijk, waarbij de consensusregels worden toegepast, om een eigen versie van de blockchain te bouwen. Het doel is niet simpelweg om een kopie van niet-geverifieerde gegevens op te halen, maar om volledig onafhankelijk tot dezelfde conclusie te komen, net als de eerlijke meerderheid van het netwerk.
 
 
 
@@ -2797,7 +2797,7 @@ IBD bestaat uit het downloaden en verifiëren van elk blok en elke transactie af
 
 
 
-De synchronisatie begint met de stap _**headers-first**_. Uw node vraagt de reeks block headers op bij verschillende peers en controleert voor elk ervan de Proof of Work, moeilijkheidsaanpassing, syntaxis, evenals de Timestamp en versienummerregels. Kortom, het zorgt ervoor dat elke ontvangen header voldoet aan de consensusregels.
+De synchronisatie begint met de stap _**headers-first**_. Je node vraagt de reeks block headers op bij verschillende peers en controleert voor elk ervan de Proof of Work, moeilijkheidsaanpassing (difficulty adjustment), syntaxis, evenals de timestamp en versienummerregels. Kortom, het zorgt ervoor dat elke ontvangen header voldoet aan de consensusregels.
 
 
 
@@ -2805,7 +2805,7 @@ De synchronisatie begint met de stap _**headers-first**_. Uw node vraagt de reek
 
 
 
-Ter herinnering, een Bitcoin blok bestaat uit een header van 80 bytes en een lijst van transacties. De vingerafdruk van het blok wordt verkregen door een dubbele SHA-256 Hash toe te passen op deze header, die 6 velden bevat:
+Ter herinnering, een Bitcoin blok bestaat uit een header van 80 bytes en een lijst van transacties. De vingerafdruk van het blok wordt verkregen door een dubbele SHA-256 hash toe te passen op deze header, die 6 velden bevat:
 
 
 
@@ -2813,7 +2813,7 @@ Ter herinnering, een Bitcoin blok bestaat uit een header van 80 bytes en een lij
 - versie
 - Hash van vorig blok
 - Merkle Root van transacties
-- Timestamp (langer dan de mediane tijd van de voorgaande 11 blokken)
+- Timestamp (groter dan de mediane tijd van de voorgaande 11 blokken)
 - moeilijkheidsdoel
 - Nonce
 
@@ -2823,7 +2823,7 @@ Ter herinnering, een Bitcoin blok bestaat uit een header van 80 bytes en een lij
 
 
 
-Transacties worden vastgelegd in een Merkle Tree. Dit is een structuur die een grote set gegevens samenvat (in dit geval, alle transacties in het blok) door hun hashes progressief twee aan twee samen te voegen tot een enkele "root", en zo te bewijzen dat een element bij de set hoort (en elke wijziging te detecteren). Op deze manier wijzigt elke wijziging aan een transactie ook de root van de Merkle Tree en dus de fingerprint van de block header. SegWit heeft een aparte extra Commitment geïntroduceerd voor cookies (handtekeningen), geplaatst in de coinbase.
+Transacties worden vastgelegd in een Merkle Tree. Dit is een structuur die een grote set gegevens samenvat (in dit geval, alle transacties in het blok) door hun hashes progressief twee aan twee samen te voegen tot een enkele "root", en zo te bewijzen dat een element bij de set hoort (en elke wijziging te detecteren). Op deze manier wijzigt elke wijziging aan een transactie ook de root van de Merkle Tree en dus de fingerprint van de block header. SegWit heeft een aparte extra commitment geïntroduceerd voor cookies (handtekeningen), geplaatst in de coinbase.
 
 
 
@@ -2831,7 +2831,7 @@ Transacties worden vastgelegd in een Merkle Tree. Dit is een structuur die een g
 
 
 
-Deze _**headers-first**_ stap stelt de node in staat om de tak met het meeste werk (ongeacht het aantal blokken) te identificeren, wat de tak is waarop Bitcoin nodes synchroniseren. Zodra deze tak is geïdentificeerd, downloadt de node de inhoud van de blokken parallel van verschillende verbindingen en valideert dan elke transactie: formaat, geldigheid van scripts (behalve `assumevalid=1`), bedragen en afwezigheid van dubbele uitgaven. Bij elke succesvolle controle wordt de huidige staat van onuitgegeven munten (UTXO set) bijgewerkt in de `chainstate/` database: uitgegeven uitgangen worden verwijderd, terwijl nieuwe geldige uitgangen worden toegevoegd.
+Deze _**headers-first**_ stap stelt de node in staat om de tak met het meeste werk (ongeacht het aantal blokken) te identificeren, wat de tak is waarop Bitcoin nodes synchroniseren. Zodra deze tak is geïdentificeerd, downloadt de node de inhoud van de blokken parallel van verschillende verbindingen en valideert dan elke transactie: formaat, geldigheid van scripts (behalve `assumevalid=1`), bedragen en afwezigheid van dubbele uitgaven. Bij elke succesvolle controle wordt de huidige staat van onuitgegeven munten (UTXO set) bijgewerkt in de `chainstate/` database: uitgegeven outputs worden verwijderd, terwijl nieuwe geldige outputs worden toegevoegd.
 
 
 
@@ -2843,7 +2843,7 @@ Zodra de IBD voltooid is, gaat de node zijn normale fase in: het valideert nieuw
 
 
 
-### VeronderstelValid
+### AssumeValid
 
 
 
@@ -2851,7 +2851,7 @@ Bitcoin core bevat een mechanisme dat ontworpen is om de tijd te verkorten die n
 
 
 
-De `assumevalid` parameter is gebaseerd op een referentieblok uit het verleden, waarvan Hash in elke softwareversie geïntegreerd is. Tijdens IBD, als je node vindt dat dit blok inderdaad op de tak met het meeste werk zit, kan het script verificatie voor alle transacties voorafgaand aan dit punt negeren.
+De `assumevalid` parameter is gebaseerd op een referentieblok uit het verleden, waarvan de hash in elke softwareversie geïntegreerd is. Tijdens IBD, als je node vindt dat dit blok inderdaad op de branch met het meeste werk zit, kan het script verificatie voor alle transacties voorafgaand aan dit punt negeren.
 
 
 
@@ -2863,23 +2863,23 @@ Je kunt volledige validatie van alle scripts forceren door dit mechanisme uit te
 
 
 
-### StelUTXO
+### AssumeUTXO
 
 
 
-`assumeutxo` is een andere bestaande parameter, maar in tegenstelling tot `assumevalid` is deze niet standaard geactiveerd. Dit mechanisme stelt de software in staat om een momentopname van de UTXO set te laden, samen met de metadata, en deze voorlopig te beschouwen als een referentietoestand, nadat geverifieerd is dat de headers inderdaad leiden naar de Blockchain met het meeste werk.
+`assumeutxo` is een andere bestaande parameter, maar in tegenstelling tot `assumevalid` is deze niet standaard geactiveerd. Dit mechanisme stelt de software in staat om een momentopname van de UTXO set te laden, samen met de metadata, en deze voorlopig te beschouwen als een referentietoestand, nadat geverifieerd is dat de headers inderdaad leiden naar de blockchain met het meeste werk.
 
 
 
-Het node wordt dus snel operationeel voor algemeen gebruik (RPC, wallets verbinden, etc.), terwijl het tegelijkertijd de volledige, geverifieerde reconstructie van zijn eigen UTXO set op de achtergrond start. Zodra deze fase is voltooid, wordt de initiële momentopname vervangen door de lokaal gereconstrueerde toestand. Deze aanpak scheidt snelle levering van nodes van volledige verificatie, zonder de laatste in gevaar te brengen.
+De node wordt dus snel operationeel voor algemeen gebruik (RPC, wallets verbinden, etc.), terwijl het tegelijkertijd de volledige, geverifieerde reconstructie van zijn eigen UTXO set op de achtergrond start. Zodra deze fase is voltooid, wordt de initiële momentopname vervangen door de lokaal gereconstrueerde toestand. Deze aanpak scheidt snelle levering van nodes van volledige verificatie, zonder de laatste in gevaar te brengen.
 
 
 
-### Peer zoeken: Hoe vindt jouw node het Bitcoin netwerk?
+### Peer discovery: Hoe vindt jouw node het Bitcoin netwerk?
 
 
 
-Wanneer een node voor het eerst opstart, kent het nog geen peers. Het moet echter andere Bitcoin nodes op het Internet vinden om headers aan te vragen, en vervolgens blokken, om zijn IBD te voltooien. Om deze verbindingen te initiëren, volgt Bitcoin core een geprioriteerde logica.
+Wanneer een node voor het eerst opstart, kent het nog geen peers. Het moet echter andere Bitcoin nodes op het Internet vinden om headers aan te vragen, en vervolgens blokken, om zijn IBD te voltooien. Om deze verbindingen te initiëren, volgt Bitcoin Core een geprioriteerde logica.
 
 
 
@@ -2891,7 +2891,7 @@ Wanneer de node opnieuw opstart nadat het al eerder is gebruikt, probeert Core e
 
 
 
-In dit geval bevraagt de software _**DNS seeds**_. Dit zijn [servers onderhouden door erkende ontwikkelaars van ecosystemen](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die een lijst met IP-adressen van vermoedelijk actieve nodes terugsturen. Met deze adressen kan het nieuwe node zijn eerste verbindingen starten en de benodigde gegevens opvragen bij de IBD. Hier is de lijst van *DNS seeds* die tot nu toe actief zijn (augustus 2025):
+In dit geval bevraagt de software _**DNS seeds**_. Dit zijn [servers onderhouden door erkende ontwikkelaars van ecosystemen](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die een lijst met IP-adressen van vermoedelijk actieve nodes terugsturen. Met deze adressen kan de nieuwe node zijn eerste verbindingen starten en de benodigde gegevens opvragen bij de IBD. Hier is de lijst van *DNS seeds* die tot nu toe actief zijn (augustus 2025):
 
 
 
@@ -2908,7 +2908,7 @@ In dit geval bevraagt de software _**DNS seeds**_. Dit zijn [servers onderhouden
 
 
 
-In de meeste gevallen is de stap *DNS seeds* voldoende om de eerste verbindingen met andere nodes tot stand te brengen. Als deze servers bij uitzondering niet binnen 60 seconden reageren, schakelt de node over op een andere methode: [een statische lijst van meer dan 1000 adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) van _zaadnodes_ is ingebouwd in de code van Bitcoin core en wordt regelmatig bijgewerkt. Als de eerste twee methoden om IP-adressen te verkrijgen mislukken, brengt deze laatste oplossing een initiële verbinding tot stand, van waaruit de node vervolgens nieuwe IP-adressen kan aanvragen.
+In de meeste gevallen is de *DNS seeds* stap voldoende om de eerste verbindingen met andere nodes tot stand te brengen. Als deze servers bij uitzondering niet binnen 60 seconden reageren, schakelt de node over op een andere methode: [een statische lijst van meer dan 1000 adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) van _seed nodes_ is ingebouwd in de code van Bitcoin Core en wordt regelmatig bijgewerkt. Als de eerste twee methoden om IP-adressen te verkrijgen mislukken, brengt deze laatste oplossing een initiële verbinding tot stand, van waaruit de node vervolgens nieuwe IP-adressen kan aanvragen.
 
 
 
@@ -2916,11 +2916,11 @@ In de meeste gevallen is de stap *DNS seeds* voldoende om de eerste verbindingen
 
 
 
-Als laatste redmiddel kun je handmatig Supply IP adressen instellen via het `peers.dat` bestand om specifieke verbindingen te forceren.
+Als laatste redmiddel kun je handmatig IP adressen instellen via het `peers.dat` bestand om specifieke verbindingen te forceren.
 
 
 
-Eenmaal opgestart, diversifieert de interne adres manager de bronnen (aparte autonome netwerken, clearnet en Tor, evenals verschillende geografische gebieden) om het risico van topologische isolatie te verminderen. Het node maakt deze uitgaande verbindingen (verbindingen die het zelf selecteert en die daarom veiliger zijn).
+Eenmaal opgestart, diversifieert de interne adres manager de bronnen (aparte autonome netwerken, clearnet en Tor, evenals verschillende geografische gebieden) om het risico van topologische isolatie te verminderen. De node maakt deze uitgaande verbindingen (verbindingen die het zelf selecteert en die daarom veiliger zijn).
 
 
 

@@ -1,13 +1,13 @@
 ---
 name: Tando
-description: Trascorrete il Bitcoin ovunque in Kenya.
+description: Spendi Bitcoin ovunque in Kenya.
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-La tecnologia Bitcoin rappresenta un'innovazione su cui sempre più comunità africane fanno affidamento per costruire e consolidare la propria sovranità e per migliorare la qualità del proprio commercio eliminando le barriere economiche e regionali.
+La tecnologia Bitcoin, rappresenta un'innovazione su cui sempre più comunità africane fanno affidamento per costruire e consolidare la propria sovranità e per migliorare la qualità del proprio commercio eliminando le barriere economiche e regionali.
 
 
 
@@ -19,7 +19,7 @@ L'avventura di Tando, la super-app keniota, inizia nel 2023 alla **Conferenza af
 
 
 
-Tando è un'applicazione mobile disponibile sulle piattaforme Android e iOS, che consente di utilizzare Bitcoin ovunque in Kenya. In questa esercitazione ci concentreremo sulla piattaforma Android. Tuttavia, le procedure descritte di seguito sono valide anche per la piattaforma iOS.
+Tando è un’applicazione mobile disponibile su Android e iOS, che ti permette di utilizzare Bitcoin ovunque in Kenya. In questo tutorial ci concentreremo sulla piattaforma Android; tuttavia, i processi descritti di seguito sono validi anche per iOS.
 
 
 
@@ -27,15 +27,14 @@ Tando è un'applicazione mobile disponibile sulle piattaforme Android e iOS, che
 
 
 
-Tando è un mezzo di Exchange basato su due tecnologie:
+Tando è un mezzo di scambio basato su due tecnologie:
 
 
 
 
 
-- Lightning Network: il Bitcoin Layer per pagamenti istantanei e praticamente gratuiti.
-- M-Pesa: La moneta mobile più popolare del Kenya.
-
+- Lightning Network: il livello di Bitcoin per pagamenti istantanei e praticamente gratuiti.
+- M-Pesa: il servizio di mobile money più popolare in Kenya.
 
 
 Non richiede informazioni personali ai suoi utenti e non richiede la verifica dell'identità. Con Tando è possibile proteggere la propria privacy durante le transazioni.
@@ -61,7 +60,7 @@ Con Tando, è possibile utilizzare Bitcoin per :
 
 
 
-Con il suo Interface intuitivo e minimalista, Tando consente di utilizzare qualsiasi Lightning Wallet per effettuare pagamenti in scellini kenioti (KES). Questo rappresenta un'opportunità per gli stranieri di venire in Kenya senza contanti e di vivere normalmente utilizzando il proprio Lightning Wallet. Tando fornisce inoltre al Bitcoin un quadro di riferimento per l'utilizzo, incoraggiandone l'adozione nelle comunità keniote.
+Con la sua interfaccia intuitiva e minimalista, Tando permette di utilizzare qualsiasi wallet Lightning per effettuare pagamenti in scellini kenioti (KES). Questo offre ai visitatori stranieri l’opportunità di vivere in Kenya senza contanti, utilizzando normalmente il proprio wallet Lightning. Tando fornisce inoltre al Bitcoin un quadro pratico per l’utilizzo, promuovendone l’adozione nelle comunità keniote.
 
 
 
@@ -99,20 +98,17 @@ Scan to pay è una delle opzioni di pagamento automatico dell'applicazione. Scan
 
 
 
-L'opzione di rimessa di denaro di Tando vi permette di inviare denaro in Kenya da qualsiasi parte del mondo. È quindi possibile effettuare transazioni transfrontaliere e intercontinentali, senza commissioni esorbitanti, verso il Kenya utilizzando la propria Lightning Wallet.
+L’opzione di trasferimento di denaro di Tando ti permette di inviare fondi in Kenya da qualsiasi parte del mondo. In questo modo, puoi effettuare transazioni transfrontaliere e intercontinentali verso il Kenya, senza commissioni eccessive, utilizzando il tuo wallet Lightning.
 
 
 
-Selezionare l'opzione **Invia denaro**, quindi inserire il numero del destinatario. Inserire l'importo da inviare (tra 15 e 50.000 KES), quindi creare il Lightning Invoice associato a questo pagamento.
-
-
+Seleziona l’opzione Invia denaro, quindi inserisci il numero del destinatario. Inserisci l’importo da inviare (tra 15 e 50.000 KES), quindi crea la fattura Lightning associata a questo pagamento.
 
 ![send-money](assets/fr/04.webp)
 
 
 
-Pagate la fattura dal vostro Lightning Wallet e Tando la convertirà in scellini kenioti (KES) e la invierà al destinatario specificato.
-
+Paga la fattura dal tuo wallet Lightning e Tando la convertirà in scellini kenioti (KES), inviandola al destinatario indicato.
 
 
 ![pay](assets/fr/05.webp)
@@ -138,16 +134,14 @@ Inserire il numero del Invoice che si desidera pagare, quindi procedere al pagam
 - **Acquisto di merci**:
 
 
-
-Acquisti direttamente con Tando. Inserite il numero dell'esercente e l'importo in scellini kenioti (KES) dei vostri acquisti totali, poi generate il fulmine Invoice per il pagamento.
-
+Fai acquisti direttamente con Tando. Inserisci il numero del commerciante e l’importo totale dei tuoi acquisti in scellini kenioti (KES), quindi genera la fattura Lightning per il pagamento.
 
 
 ![buy](assets/fr/07.webp)
 
 
 
-Nel menu dell'applicazione troverete anche tutte le informazioni necessarie su Tando, in modo da poter comprendere meglio la sua visione e i suoi prezzi.
+Nel menu dell’applicazione troverai inoltre tutte le informazioni su Tando, così da comprendere meglio la loro visione e le tariffe.
 
 
 
@@ -155,7 +149,7 @@ Nel menu dell'applicazione troverete anche tutte le informazioni necessarie su T
 
 
 
-Sempre più iniziative come Tando stanno sorgendo nelle comunità africane, come BitSpenda, un'iniziativa ghanese che mira a utilizzare il Bitcoin per effettuare pagamenti in Ghana, Nigeria e Kenya.
+Sempre più iniziative come Tando stanno nascendo nelle comunità africane. Scopri BitSpenda, un progetto ghanese che punta a utilizzare Bitcoin per effettuare pagamenti in Ghana, Nigeria e Kenya.
 
 
 

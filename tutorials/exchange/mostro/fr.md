@@ -1,6 +1,6 @@
 ---
-name: Mostro P2P
-description: Plateforme d'échange Bitcoin peer-to-peer via Lightning et Nostr
+name: Mostro
+description: Plateforme d'échange Bitcoin P2P sans KYC via Lightning et Nostr
 ---
 
 ![cover](assets/cover.webp)
@@ -13,7 +13,7 @@ Comment acquérir ou vendre des bitcoins sans compromettre sa souveraineté fina
 
 Mostro P2P est un protocole d'échange Bitcoin open source créé par **grunch**, développeur du populaire bot Telegram **lnp2pbot** lancé en 2021. Si lnp2pbot permettait déjà des échanges P2P sans KYC via Lightning, il présentait une vulnérabilité majeure : **Telegram constitue un point de défaillance centralisé** susceptible d'être censuré par les gouvernements.
 
-Mostro représente l'**évolution décentralisée** de ce concept : en remplaçant Telegram par le protocole **Nostr** (réseau de relais distribués incensurables), Mostro élimine ce risque systémique. Le protocole combine Lightning Network pour les transactions instantanées, Nostr pour la communication résistante à la censure, et les **hold invoices** pour créer un escrow automatisé véritablement non-custodial.
+Mostro représente l'**évolution décentralisée** de ce concept : en remplaçant Telegram par le protocole **Nostr** (réseau de relais distribués incensurable), Mostro élimine ce risque systémique. Le protocole combine Lightning Network pour les transactions instantanées, Nostr pour la communication résistante à la censure, et les **hold invoices** pour créer un escrow automatisé véritablement non-custodial.
 
 ### Architecture technique
 
@@ -79,16 +79,20 @@ Ce tutoriel vous guidera à travers l'installation et l'utilisation des deux cli
 
 Avant de commencer, vous devez disposer de :
 
-1. **Un portefeuille Lightning Network** fonctionnel avec liquidité suffisante
-   - Recommandés : Phoenix, Breez, Wallet of Satoshi, BlueWallet
-   - Minimum 1000 satoshis de liquidité pour tester
+- **Un portefeuille Lightning Network** fonctionnel avec liquidité suffisante (ou compatible avec Lightning)
+	- Recommandés : Phoenix, Breez, Wallet of Satoshi...
+	- Minimum 1000 satoshis de liquidité pour tester
 
-2. **Une clé privée Nostr** (format `nsec1...`)
-   - Créez une clé dédiée au trading sur [nostrkeygen.com](https://nostrkeygen.com/)
-   - **Important** : N'utilisez jamais votre clé Nostr personnelle principale
-   - Conservez votre clé privée en lieu sûr (gestionnaire de mots de passe)
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-3. **Optionnel mais recommandé** : VPN ou connexion Tor pour masquer votre adresse IP
+- **Une clé privée Nostr** (format `nsec1...`)
+	- Créez une clé dédiée au trading sur [nostrkeygen.com](https://nostrkeygen.com/)
+	- **Important** : N'utilisez jamais votre clé Nostr personnelle principale
+	- Conservez votre clé privée en lieu sûr (gestionnaire de mots de passe)
+
+- **Optionnel mais recommandé** : VPN ou connexion Tor pour masquer votre adresse IP
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Installation de Mostro CLI
 
@@ -103,6 +107,7 @@ rustc --version
 ```
 
 Si Rust n'est pas installé :
+
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
@@ -128,16 +133,16 @@ cp .env-sample .env
 Ouvrez `.env` et configurez vos paramètres :
 
 ```bash
-# Clé publique de l'instance Mostro (choisissez une instance)
-# Instance mainnet principale (recommandée) :
+# Public key of the Mostro instance (choose an instance)
+# Main mainnet instance (recommended):
 MOSTRO_PUBKEY='npub1ykvsmrmw2hk7jgxgy64zr8tfkx4nnjhq9eyfxdlg3caha3ph0skq6jr3z0'
-# Instance alternative/test :
+# Alternative/test instance:
 # MOSTRO_PUBKEY='npub19m9laul6k463czdacwx5ta4ap43nlf3lr0p99mqugnz8mdz7wtvskkm5wg'
 
-# Votre clé privée Nostr dédiée au trading
+# Your Nostr private key dedicated to trading
 NSEC_PRIVKEY='nsec1votre_cle...'
 
-# Liste des relais Nostr (utilisez les mêmes que l'app mobile pour synchronisation)
+# List of Nostr relays (use the same ones as the mobile app for synchronization)
 RELAYS='wss://nos.lol,wss://relay.damus.io,wss://nostr-pub.wellorder.net,wss://nostr.mutinywallet.com,wss://relay.nostr.band'
 
 POW='0'
@@ -441,7 +446,7 @@ Après la libération, appuyez sur **RATE** pour évaluer l'acheteur. Sélection
 
 ![Évaluation de la contrepartie](assets/fr/21.webp)
 
-L'échange est terminé!
+L'échange est terminé !
 
 ### Acheter des bitcoins avec l'app mobile
 

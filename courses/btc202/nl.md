@@ -2242,7 +2242,7 @@ Zodra de synchronisatie voltooid is, kun je je wallet software verbinden met je 
 
 
 
-Nu je een compleet Bitcoin node hebt, is het tijd om het goed te gebruiken! In het volgende hoofdstuk zullen we andere gebruiksmogelijkheden van je Umbrel instantie verkennen. Laten we echter beginnen met de basis: uw wallet software aansluiten om informatie van uw eigen Blockchain te gebruiken en transacties via uw eigen node te distribueren.
+Nu je een complete Bitcoin node hebt, is het tijd om hem goed te benutten! In het volgende hoofdstuk zullen we andere gebruiksmogelijkheden van je Umbrel instantie verkennen. Laten we echter beginnen met de basis: je wallet software aansluiten om informatie van je eigen blockchain te gebruiken en transacties via je eigen node te distribueren.
 
 
 
@@ -2251,8 +2251,8 @@ Zoals hierboven vermeld, zijn er twee belangrijke verbindingsinterfaces:
 
 
 
-- Directe verbinding met Bitcoin core via RPC;
-- Of maak verbinding met een Electrum-server (Electrs of Fulcrum).
+- Directe verbinding met Bitcoin Core via RPC;
+- Of een verbinding maken met een Electrum-server (Electrs of Fulcrum).
 
 
 
@@ -2264,7 +2264,7 @@ We gebruiken Sparrow als voorbeeld in dit hoofdstuk, maar de procedure is hetzel
 
 
 
-Open op Sparrow het tabblad "*Bestand*" en ga naar het menu "Instellingen".
+Open op Sparrow het tabblad "*File*" (Bestand) en ga naar het menu "Settings" (Instellingen).
 
 
 
@@ -2285,17 +2285,17 @@ Vervolgens ontdek je drie mogelijkheden om je software aan een Bitcoin node te k
 
 
 
-- Publieke server* (geel): standaard, als u geen Bitcoin node bezit, verbindt deze optie u met een publiek node dat u niet bezit (meestal van een bedrijf). Deze optie is hier niet relevant, aangezien je je eigen node op Umbrel hebt.
-- Bitcoin core* (Green): deze optie komt overeen met verbinding via Interface RPC, d.w.z. rechtstreeks met Bitcoin core.
-- Private Electrum* (blauw): met deze optie kun je verbinding maken via de Interface Electrum Server van je indexer (Electrs of Fulcrum).
+- Public Server* (geel): standaard, als je geen Bitcoin node bezit, verbindt deze optie je met een publieke node die je niet bezit (meestal van een bedrijf). Deze optie is hier niet relevant, aangezien je je eigen node op Umbrel hebt.
+- Bitcoin Core* (Green): deze optie komt overeen met verbinding via RPC interface, d.w.z. rechtstreeks met Bitcoin Core.
+- Private Electrum* (blauw): met deze optie kun je verbinding maken via de interface Electrum Server van je indexer (Electrs of Fulcrum).
 
 
 
-### Aansluiting op Bitcoin core RPC
+### Aansluiting op Bitcoin Core RPC
 
 
 
-Als je Umbrel node geen indexer heeft, is dit de optie die je moet selecteren. Klik op Sparrow op "*Bitcoin core*".
+Als je Umbrel node geen indexer heeft, is dit de optie die je moet selecteren. Klik op Sparrow op "*Bitcoin Core*".
 
 
 
@@ -2303,7 +2303,7 @@ Als je Umbrel node geen indexer heeft, is dit de optie die je moet selecteren. K
 
 
 
-U moet dan verschillende gegevens invoeren om de verbinding met uw node tot stand te brengen. Al deze gegevens zijn toegankelijk vanuit de "*Bitcoin Node*" toepassing op Umbrel door te klikken op de "*Connect*" knop in de rechter bovenhoek van de Interface.
+Je moet dan verschillende gegevens invoeren om de verbinding met je node tot stand te brengen. Al deze gegevens zijn toegankelijk vanuit de "*Bitcoin Node*" toepassing op Umbrel door te klikken op de "*Connect*" knop in de rechter bovenhoek van de interface.
 
 
 
@@ -2319,7 +2319,7 @@ Het tabblad "*RPC Details*" toont alle benodigde informatie voor de verbinding. 
 
 
 
-Voer deze gegevens in de overeenkomstige velden op de Sparrow wallet in en klik dan op de knop "*Test verbinding*".
+Voer deze gegevens in de overeenkomstige velden op de Sparrow wallet in en klik dan op de knop "*Test Connection*" (Test verbinding).
 
 
 
@@ -2327,7 +2327,7 @@ Voer deze gegevens in de overeenkomstige velden op de Sparrow wallet in en klik 
 
 
 
-Als de verbinding succesvol is, verschijnt er een Green vinkje en een bevestigingsbericht.
+Als de verbinding succesvol is, verschijnt er een groen vinkje en een bevestigingsbericht.
 
 
 
@@ -2335,7 +2335,7 @@ Als de verbinding succesvol is, verschijnt er een Green vinkje en een bevestigin
 
 
 
-Het vinkje rechtsonder Interface Sparrow wallet zal nu Green zijn (wat een directe verbinding met Bitcoin core aangeeft).
+Het vinkje rechtsonder de Sparrow wallet interface zal nu groen zijn (wat een directe verbinding met Bitcoin Core aangeeft).
 
 
 
@@ -2347,7 +2347,7 @@ Het vinkje rechtsonder Interface Sparrow wallet zal nu Green zijn (wat een direc
 
 
 
-Als je node een indexer heeft, is het beter om daar verbinding mee te maken dan om Bitcoin core direct te gebruiken, omdat je zoekopdrachten dan sneller verwerkt worden.
+Als je node een indexer heeft, is het beter om daar verbinding mee te maken dan om Bitcoin Core direct te gebruiken, omdat je zoekopdrachten dan sneller verwerkt worden.
 
 
 
@@ -2359,11 +2359,11 @@ Ga op Sparrow naar de tab "*Private Electrum*".
 
 
 
-U moet dan een aantal gegevens invoeren om de verbinding met uw indexer tot stand te brengen. U vindt deze gegevens in de toepassing "*Electrs*" (of, indien van toepassing, "*Fulcrum*") op Umbrel.
+Je moet dan een aantal gegevens invoeren om de verbinding met je indexer tot stand te brengen. Je vindt deze gegevens in de toepassing "*Electrs*" (of, indien van toepassing, "*Fulcrum*") op Umbrel.
 
 
 
-Selecteer het tabblad "*Tor*" om de `.onion` verbinding adres te verkrijgen. Als u een mobiele wallet-software wilt aansluiten, kunt u ook direct de QR-code scannen.
+Selecteer het tabblad "*Tor*" om het `.onion` verbindingsadres te verkrijgen. Als je een mobiele wallet software wilt aansluiten, kun je ook direct de QR-code scannen.
 
 
 
@@ -2371,7 +2371,7 @@ Selecteer het tabblad "*Tor*" om de `.onion` verbinding adres te verkrijgen. Als
 
 
 
-Voer gewoon de Tor adres van je Electrum server in het "*URL*" veld in en klik dan op de "*Test verbinding*" knop.
+Voer gewoon het Tor adres van je Electrum server in het "*URL*" veld in en klik dan op de knop "*Test Connection*" (Test verbinding).
 
 
 
@@ -2387,7 +2387,7 @@ Als de verbinding succesvol is, worden een vinkje en een bevestigingsbericht wee
 
 
 
-Het vinkje rechtsonder op de Interface Sparrow wallet wordt blauw (de kleur die hoort bij verbinding met een Electrum-server).
+Het vinkje rechtsonder op de Sparrow wallet interface wordt blauw (de kleur die hoort bij verbinding met een Electrum-server).
 
 
 
@@ -2415,15 +2415,15 @@ In deze BTC 202 cursus concentreren we ons uitsluitend op Bitcoin-gerelateerde t
 
 
 
-Natuurlijk zou het onmogelijk zijn om alle Bitcoin toepassingen hier op te sommen. In dit hoofdstuk wil ik u kennis laten maken met de essentiële hulpmiddelen die uw dagelijks gebruik van Bitcoin zullen vergemakkelijken en verrijken.
+Natuurlijk zou het onmogelijk zijn om alle Bitcoin toepassingen hier op te sommen. In dit hoofdstuk wil ik je kennis laten maken met de essentiële hulpmiddelen die je dagelijks gebruik van Bitcoin zullen vergemakkelijken en verrijken.
 
 
 
-### Mempool.ruimte
+### Mempool.space
 
 
 
-Als er één hulpmiddel is dat echt onmisbaar is bij het dagelijks gebruik van Bitcoin, dan is het Block explorer. Of het nu online toegankelijk is of lokaal geïnstalleerd, het zet de ruwe gegevens van Blockchain om in een gestructureerd, duidelijk en gemakkelijk te lezen formaat. Het heeft ook een zoekmachine waarmee gebruikers snel een specifiek blok, transactie of adres kunnen vinden.
+Als er één hulpmiddel is dat echt onmisbaar is bij het dagelijks gebruik van Bitcoin, dan is het de block explorer. Of het nu online toegankelijk is of lokaal geïnstalleerd, het zet de ruwe gegevens van blockchain om in een gestructureerd, duidelijk en gemakkelijk te lezen formaat. Het heeft ook een zoekmachine waarmee gebruikers snel een specifiek blok, transactie of adres kunnen vinden.
 
 
 
@@ -2437,11 +2437,11 @@ Zoals eerder vermeld, kan een verkenner online worden gehost op een website of l
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Bovendien kan uw Internet Service Provider (ISP) weten dat u een bepaalde transactie bekijkt via de Block explorer site. Dit werpt ook een vertrouwenskwestie op: je moet erop vertrouwen dat de online dienst je accurate informatie over je transacties geeft, zonder dat je zelf de juistheid ervan kunt controleren.
+Bovendien kan je Internet Service Provider (ISP) weten dat je een bepaalde transactie bekijkt via de block explorer site. Dit werpt ook een vertrouwenskwestie op: je moet erop vertrouwen dat de online dienst je accurate informatie over je transacties geeft, zonder dat je zelf de juistheid ervan kunt controleren.
 
 
 
-Daarom is het altijd het beste om je eigen lokale Block explorer te gebruiken. Op deze manier lekken er geen gegevens uit over uw zoekactiviteiten, omdat alle zoekopdrachten direct worden verwerkt op een machine die u beheert, zonder via het internet te gaan. Bovendien vertrouwt een lokale verkenner op gegevens van je eigen Bitcoin node, die je zelf hebt gevalideerd, volgens je eigen regels, en die je kunt vertrouwen.
+Daarom is het altijd het beste om je eigen lokale block explorer te gebruiken. Op deze manier lekken er geen gegevens uit over je zoekactiviteiten, omdat alle zoekopdrachten direct worden verwerkt op een machine die je beheert, zonder via het internet te gaan. Bovendien vertrouwt een lokale verkenner op gegevens van je eigen bitcoin node, die je zelf hebt gevalideerd, volgens je eigen regels, en die je kunt vertrouwen.
 
 
 
@@ -2450,13 +2450,13 @@ Umbrel biedt verschillende blokverkenners:
 
 
 
-- Mempool.Ruimte
+- Mempool.Space
 - Bitfeed
-- BTC RPC Verkenner
+- BTC RPC Explorer
 
 
 
-Ik ben vooral dol op Mempool.Space, die ik op mijn node heb geïnstalleerd. Let op: om de meeste blokverkenners op Umbrel te gebruiken, is een adres indexer nodig. Je hebt dus de Bitcoin Node (of Bitcoin Knots) applicatie nodig, die een 100% gesynchroniseerde Blockchain heeft, evenals een indexer zoals Electrs of Fulcrum, die ook 100% gesynchroniseerd is.
+Ik ben vooral dol op Mempool.Space, die ik op mijn node heb geïnstalleerd. Let op: om de meeste blokverkenners op Umbrel te gebruiken, is een adres indexer nodig. Je hebt dus de Bitcoin Node (of Bitcoin Knots) applicatie nodig, die een 100% gesynchroniseerde blockchain heeft, evenals een indexer zoals Electrs of Fulcrum, die ook 100% gesynchroniseerd is.
 
 
 
@@ -2474,7 +2474,7 @@ Om meer te leren over het gebruik van de Mempool.Space verkenner, raad ik deze u
 
 https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-### Bliksemnode
+### Lightning Node
 
 
 
@@ -2488,13 +2488,13 @@ Umbrel biedt een aantal toepassingen om je te helpen je Lightning-node aan de pr
 
 
 - LND, via de applicatie *Lightning Node*;
-- Kern Bliksem.
+- Core Lightning.
 
 
 
 https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-Je kunt je node dan beheren vanaf de hoofd Interface, of, voor nog meer functionaliteit en geavanceerde opties, installeer *Ride The Lightning* of *ThunderHub*. Deze tools bieden u een veel uitgebreider webgebaseerd Interface beheersysteem voor uw node.
+Je kunt je node dan beheren vanaf de hoofd interface, of, voor nog meer functionaliteit en geavanceerde opties, installeer *Ride The Lightning* of *ThunderHub*. Deze tools bieden je een veel uitgebreider webgebaseerd interface beheersysteem voor je node.
 
 
 
@@ -2518,15 +2518,15 @@ Dankzij Umbrel is het beheren van een persoonlijke Lightning-node sterk vereenvo
 
 
 
-### Staartschaal
+### Tailscale
 
 
 
-Een andere applicatie die ik erg leuk vind op Umbrel is Tailscale. Het is een VPN-applicatie die is ontworpen om het creëren van veilige netwerken tussen meerdere apparaten te vereenvoudigen, waar ze zich ook bevinden in de wereld. In tegenstelling tot traditionele VPN's, die afhankelijk zijn van gecentraliseerde servers, maakt Tailscale gebruik van het WireGuard protocol om end-to-end versleutelde verbindingen op te zetten tussen je verschillende machines. Dit betekent dat u een werkend VPN kunt implementeren in slechts een paar minuten, zonder de noodzaak voor ingewikkelde netwerkconfiguraties.
+Een andere applicatie die ik erg leuk vind op Umbrel is Tailscale. Het is een VPN-applicatie die is ontworpen om het creëren van veilige netwerken tussen meerdere apparaten te vereenvoudigen, waar ze zich ook bevinden in de wereld. In tegenstelling tot traditionele VPN's, die afhankelijk zijn van gecentraliseerde servers, maakt Tailscale gebruik van het WireGuard protocol om end-to-end versleutelde verbindingen op te zetten tussen je verschillende machines. Dit betekent dat je een werkende VPN kunt implementeren in slechts een paar minuten, zonder de noodzaak voor ingewikkelde netwerkconfiguraties.
 
 
 
-Op Umbrel verbindt de installatie van Tailscale uw Bitcoin node met uw eigen virtuele privé-netwerk. Eenmaal geconfigureerd, krijgt uw node een privé Tailscale IP adres, alleen toegankelijk vanaf andere apparaten die verbonden zijn met hetzelfde Tailscale netwerk (zoals computers, smartphones en tablets). Deze verbinding is end-to-end versleuteld en gaat niet door een onbeschermd publiek netwerk, waardoor de beveiliging aanzienlijk wordt verbeterd ten opzichte van een onversleutelde verbinding.
+Op Umbrel verbindt de installatie van Tailscale je Bitcoin node met je eigen virtuele privé-netwerk. Eenmaal geconfigureerd, krijgt je node een privé Tailscale IP adres, alleen toegankelijk vanaf andere apparaten die verbonden zijn met hetzelfde Tailscale netwerk (zoals computers, smartphones en tablets). Deze verbinding is end-to-end versleuteld en gaat niet over een onbeschermd publiek netwerk, waardoor de beveiliging aanzienlijk wordt verbeterd ten opzichte van een onversleutelde verbinding.
 
 
 
@@ -2540,19 +2540,19 @@ Concreet biedt Tailscale je verschillende voordelen bij het gebruik van je Umbre
 
 
 
-- U kunt de Interface Umbrel beheren of toegang krijgen tot de applicaties die aan uw node zijn gekoppeld (zoals Mempool, Ride The Lightning, ThunderHub...) vanaf elke locatie, alsof u zich op hetzelfde lokale netwerk bevindt, zonder poorten bloot te stellen op het internet en zonder door Tor te gaan, wat erg traag is;
+- Je kunt de Umbrel interface beheren of toegang krijgen tot de applicaties die aan je node zijn gekoppeld (zoals Mempool, Ride The Lightning, ThunderHub...) vanaf elke locatie, alsof je je op hetzelfde lokale netwerk bevindt, zonder poorten bloot te stellen op het internet en zonder door Tor te gaan, wat erg traag is;
 
 
 
 
 
-- Je kunt verbinding maken met je Electrum server (Electrs of Fulcrum) of direct met Bitcoin core via je VPN, waarbij je Tor omzeilt. Dit zorgt voor een veilige verbinding, vergelijkbaar met het gebruik van Tor, maar met een veel hogere snelheid en minder latentie. Kortom, u behoudt de privacy- en veiligheidsvoordelen van Tor terwijl u geniet van de snelheid van een Clearnet-verbinding. Voor een On-Chain wallet lijkt deze winst misschien marginaal, maar als je van plan bent om later je eigen Lightning-node op te zetten, is het verschil aanzienlijk. Inderdaad, betalingen doen via je node onderweg op Tor is extreem traag door de vele uitwisselingen die nodig zijn, terwijl het met Tailscale perfect werkt.
+- Je kunt verbinding maken met je Electrum server (Electrs of Fulcrum) of direct met Bitcoin Core via je VPN, waarbij je Tor omzeilt. Dit zorgt voor een veilige verbinding, vergelijkbaar met het gebruik van Tor, maar met een veel hogere snelheid en minder latentie. Kortom, je behoudt de privacy- en veiligheidsvoordelen van Tor terwijl je geniet van de snelheid van een Clearnet-verbinding. Voor een On-Chain wallet lijkt deze winst misschien marginaal, maar als je van plan bent om later je eigen Lightning-node op te zetten, is het verschil aanzienlijk. Inderdaad, betalingen doen via je node onderweg op Tor is extreem traag door de vele uitwisselingen die nodig zijn, terwijl het met Tailscale perfect werkt.
 
 
 
 
 
-- Je hoeft geen NAT-regels te configureren, poorten te openen of een conventionele VPN-server op te zetten. Zodra de toepassing op Umbrel en uw apparaten is geïnstalleerd, wordt het netwerk automatisch tot stand gebracht.
+- Je hoeft geen NAT-regels te configureren, poorten te openen of een conventionele VPN-server op te zetten. Zodra de toepassing op Umbrel en je apparaten is geïnstalleerd, wordt het netwerk automatisch tot stand gebracht.
 
 
 
@@ -2560,7 +2560,7 @@ Tailscale op Umbrel is daarom een zeer interessante oplossing als je overal ter 
 
 
 
-Voor het installeren en configureren van Tailscale op uw Umbrel, zie deze tutorial, sectie 4: "*Gebruik van Tailscale op Umbrel*":
+Voor het installeren en configureren van Tailscale op je Umbrel, zie deze tutorial, sectie 4: "*Gebruik van Tailscale op Umbrel*":
 
 
 
@@ -2582,19 +2582,19 @@ Dit protocol is erg populair binnen de Bitcoin gemeenschap omdat Nostr, net als 
 
 
 
-Met uw Umbrel kunt u uw gebruik van Nostr optimaliseren. Door de applicatie ***Nostr Relay*** te installeren, kunt u uw eigen privérelais rechtstreeks op uw machine hosten, zodat al uw berichten en interacties op Nostr lokaal worden opgeslagen en niet verloren kunnen gaan door verwijdering door openbare relais.
+Met je Umbrel kun je je gebruik van Nostr optimaliseren. Door de applicatie ***Nostr Relay*** te installeren, kun je je eigen privérelais rechtstreeks op je machine hosten, zodat al je berichten en interacties op Nostr lokaal worden opgeslagen en niet verloren kunnen gaan door verwijdering door openbare relais.
 
 
 
-Nostr clients ***noStrudel*** of ***Snort*** zijn ook beschikbaar op Umbrel. Dankzij deze applicaties kun je publiceren, lezen, profielen zoeken en interageren met het Nostr ecosysteem, rechtstreeks vanaf het Interface web op je Umbrel.
+Nostr clients ***noStrudel*** of ***Snort*** zijn ook beschikbaar op Umbrel. Dankzij deze applicaties kun je publiceren, lezen, profielen zoeken en interageren met het Nostr ecosysteem, rechtstreeks vanaf de web interface op je Umbrel.
 
 
 
-Tot slot is er de ***Nostr wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr-klanten om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf uw persoonlijke node via uw kanalen verzonden.
+Tot slot is er de ***Nostr wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr clients om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf je persoonlijke node via je kanalen verzonden.
 
 
 
-Om uit te vinden hoe je al deze toepassingen gebruikt, raad ik je aan deze complete tutorial te bekijken:
+Om te ontdekken hoe je al deze toepassingen gebruikt, raad ik je aan deze complete tutorial te bekijken:
 
 
 
@@ -2604,11 +2604,11 @@ https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server is een gratis, open-source betalingsverwerker die u in staat stelt betalingen via Bitcoin en Lightning Network te accepteren zonder tussenpersonen, met behoud van eigen bewaring van fondsen.
+BTCPay Server is een gratis, open-source betalingsverwerker die je in staat stelt betalingen via het Bitcoin en Lightning Network te accepteren zonder tussenpersonen, met behoud van eigen bewaring van geldmiddelen.
 
 
 
-De architectuur van BTCPay Server is gebaseerd op een Bitcoin node en, voor Lightning, op een compatibele implementatie (LND, Core Lightning...), waardoor het een van de weinige PoS-oplossingen is die niet onder toezicht staat. Het is ook de meest uitgebreide software voor tracking en accounting.
+De architectuur van BTCPay Server is gebaseerd op een Bitcoin node en, voor Lightning, op een compatibele implementatie (LND, Core Lightning...), waardoor het een van de weinige non-custodial PoS-oplossingen is (die niet onder toezicht staat). Het is ook de meest uitgebreide software voor tracking en accounting.
 
 
 
@@ -2616,13 +2616,13 @@ De architectuur van BTCPay Server is gebaseerd op een Bitcoin node en, voor Ligh
 
 
 
-Als u een bedrijf hebt en Bitcoin betalingen rechtstreeks via uw Umbrel node wilt aanvaarden, dan is de BTCPay Server toepassing ideaal voor u. Om meer te weten te komen over dit onderwerp, raad ik u aan de volgende bronnen te raadplegen:
+Als je een bedrijf hebt en Bitcoin betalingen rechtstreeks via je Umbrel node wilt aanvaarden, dan is de BTCPay Server toepassing ideaal voor jou. Om meer te weten te komen over dit onderwerp, raad ik je aan de volgende bronnen te raadplegen:
 
 
 
 
 
-- De BIZ 101-cursus over het gebruik van Bitcoin in uw bedrijf:
+- De BIZ 101-cursus over het gebruik van Bitcoin in jouw bedrijf:
 
 
 

@@ -34,6 +34,10 @@ Kozi huanza na uchunguzi wa kina wa sarafu za kawaida na njia za malipo, kuweka 
 
 Iwe unawakilisha biashara ndogo au shirika kubwa, kozi hii inalenga kukupa maarifa ya kuunganisha Bitcoin katika shughuli zako za kila siku, na hivyo kuimarisha uthabiti wa kampuni yako, ufanisi na makali ya ushindani. Bitcoin inapoendelea kuunda upya mazingira ya kiuchumi, kuelewa teknolojia hizi za msingi sio chaguo tu bali ni hitaji la kimkakati. Jitayarishe kujihusisha na maudhui ya utambuzi, mifano ya vitendo, na mwongozo wa kimkakati ambao utakuwezesha kusogeza na kutumia ulimwengu unaoendelea wa Bitcoin!
 
+Je, uko tayari kuingia katika ulimwengu wa Bitcoin kwa biashara? Twende!
+
+**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.network/resources/glossary) kwa ufafanuzi.
+
 # Sarafu, mifumo ya malipo, na Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

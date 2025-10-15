@@ -82,7 +82,7 @@ Pertumbuhan yang signifikan ini, tentu saja, terkait erat dengan:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/id/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Dengan membangun "benteng" pertama di masa depan, **Komunitas Bitcoin di seluruh
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/id/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Pertemuan menawarkan pengalaman yang lebih pribadi dan ramah daripada panggilan 
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/id/003.webp)
 
 
 Pertemuan Bitcoin dapat melayani banyak tujuan:
@@ -314,7 +314,7 @@ Anda dapat memeriksa [btcmap.org] (https://btcmap.org/communities/map#0/0/0/), y
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/id/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Tergantung pada subjeknya (pembicaraan teknis atau lokakarya langsung), mungkin 
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/id/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Untuk memberi Anda beberapa ide, berikut ini beberapa contoh logo komunitas Pran
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/id/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Untuk memberi Anda beberapa ide, berikut ini beberapa contoh logo komunitas Pran
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/id/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Untuk memberi Anda beberapa ide, berikut ini beberapa contoh logo komunitas Pran
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/id/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Untuk memberi Anda beberapa ide, berikut ini beberapa contoh logo komunitas Pran
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/id/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Berikut ini adalah templat Canva siap pakai yang dapat Anda duplikat dan adaptas
 - **Poster pengumuman pertemuan** (untuk media sosial dan pencetakan A4/A3): [tautan](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
+![image](assets/id/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Berikut ini adalah templat Canva siap pakai yang dapat Anda duplikat dan adaptas
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/id/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Berikut ini adalah templat Canva siap pakai yang dapat Anda duplikat dan adaptas
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/id/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/id/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Jika Anda ingin mendesain logo futuristik untuk pertemuan "Bitcoin London", Anda
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/id/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Jika empat hasil pertama tidak cukup realistis, perbaiki permintaan Anda:
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/id/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Untuk tampilan yang lebih bersih, seperti stiker:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/id/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Sebagai contoh, komunitas Swiss umumnya menggunakan Telegram, Twitter, dan situs
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/id/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Memang, **saluran Telegram lebih seperti alat siaran satu arah untuk admin**. An
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/id/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Di sisi lain, **Grup Telegram sangat ideal untuk komunitas**: Sama seperti aplik
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/id/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Kiat: Sesuaikan topik Anda dengan kebutuhan komunitas Anda. Contoh: Pertemuan Ab
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/id/020.webp)
 
 
 Perlu diingat bahwa **supergrup Telegram bisa sedikit rumit untuk digunakan oleh beberapa anggota**. Misalnya, tidak semua orang tahu **cara mengakses topik yang berbeda** (mereka hanya perlu mengetuk logo grup di menu utama Telegram untuk melihat daftar lengkap topik). Mengirim tangkapan layar cepat dapat membantu menghilangkan kebingungan.
@@ -1053,7 +1053,7 @@ Sangat disarankan untuk **menulis deskripsi yang jelas tentang pertemuan Anda** 
 
 > Lihat jejaring sosial kami yang lain: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/id/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Dengan menggunakan **bot [@GroupHelpBot] (https://telegram.me/grouphelpbot)**, o
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/id/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Itulah yang telah dilakukan oleh kolektif FREE Madeira.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/id/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Twitter sangat mudah digunakan, dan untuk meningkatkan privasi Anda, Anda perlu 
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/id/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ Selain itu, **Anda dapat menyematkan tweet atau utas ke profil Twitter Anda untu
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/id/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Hidangan **Cercle du Coin** adalah contoh lain yang bagus.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/id/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Ini termasuk:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/id/027.webp)
 
 
 Platform lain juga dapat meningkatkan visibilitas Anda. **[Meetup](https://www.meetup.com/)** adalah salah satunya, dan merupakan situs web (dan aplikasi ponsel) tempat Anda dapat membuat acara dan menemukan orang lain di sekitar Anda.
@@ -1476,7 +1476,7 @@ Acara seperti ini memungkinkan Anda, dalam skala Anda sendiri, untuk **menciptak
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/id/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Daripada memilih tanggal sendiri, biasanya yang terbaik adalah membuat jajak pen
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/id/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Ketika pertemuan Anda baru saja dimulai, sering kali ini bukan waktu yang tepat 
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/id/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ Dalam kasus pertama, sambil mengingat preferensi setiap orang, tujuan yang jelas
 Dalam kasus kedua, acara bulanan kedua dapat didedikasikan untuk tema tertentu, seperti sesi pemula atau lokakarya (Mining, Lightning, instalasi node, dll.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/id/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Selain itu, berikut ini ada tiga hal penting yang perlu diingat:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/id/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Hubungi lokasi tempat Anda akan menyelenggarakan acara dan pesanlah tempat terse
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/id/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Inilah yang harus dilakukan:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/id/034.webp)
 
 
 
@@ -1762,7 +1762,7 @@ Untuk memastikan semua orang merasa dilibatkan dalam acara Anda, fokuslah pada d
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/id/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Kuncinya adalah dengan menyadarinya.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/id/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Tergantung pada ketersediaan Anda dan tingkat keterlibatan dalam komunitas Anda,
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/id/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Sebelum memesan, ingatlah kiat-kiat berikut ini:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/id/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Jika Anda menjalankan sebuah asosiasi dan ingin menginvestasikan sebagian dana A
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/id/039.webp)
 
 
 Untuk mendukung ekosistem ini, **[penerbit Konsensus Network] (https://konsensus.network/) telah menawarkan diskon 15% hingga 35% untuk semua bukunya kepada para peserta pertemuan dan komunitas Bitcoin internasional sejak akhir tahun 2023, untuk pemesanan tiga buku atau lebih**.
@@ -1997,7 +1997,7 @@ Berikut ini adalah contoh sumber terbuka yang dapat Anda gunakan dan adaptasi:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/id/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Salah satu contohnya adalah [brosur bersumber lengkap](https://profedustream.sub
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/id/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/id/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ Di Prancis dan beberapa negara lain, ada juga "kotak buku", kotak kayu kecil di 
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/id/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/id/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Berikut ini [buklet yang dibagikan kepada para pengguna bitcoin di Perancis](htt
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/id/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/id/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Beberapa bitcoiners bahkan berinisiatif untuk menerjemahkan "Stranded" ke dalam 
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/id/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Salah satu contohnya adalah [StreetCyberArt] (https://twitter.com/streetcyber_ar
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/id/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Juga perlu diperhatikan, bahwa mencetak poster ini pada printer pribadi biasanya
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/id/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Jika Anda ingin memesan lebih dari 50 kartu NFC, Anda bisa menghubungi perusahaa
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/id/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Apa pun yang Anda pilih, rancanglah visual khusus platform untuk membuat saluran
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/id/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Beberapa templat lencana yang digunakan oleh asosiasi Bitcoin Lille adalah [ters
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/id/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Meskipun demikian, ini bukanlah pekerjaan yang mudah: ini menuntut motivasi, usa
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/id/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Tetap saja, ini patut dicoba, terutama dengan serikat dan asosiasi mahasiswa. Da
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/id/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Setiap pedagang berbeda, dan menerima mereka memiliki tantangan tersendiri:
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/id/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Setelah mereka berada di atas kapal:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/id/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Perlu diketahui, wawancara media bisa jadi rumit. Kata-kata bisa saja diambil di
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/id/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Contoh yang baik adalah **[Bitcoin Lille's open-source rulebook](https://bitcoin
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/id/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Gunakan **alat komunikasi terenkripsi atau anonim** untuk melindungi privasi ang
 Pada tanggal 5 April 1933, Franklin Roosevelt, Presiden ke-32 Amerika Serikat, menandatangani **Executive Order 6102**, yang menjadikannya ilegal bagi perorangan untuk memiliki koin emas, emas batangan, atau sertifikat di mana pun di seluruh negeri.
 
 
-![image](assets/fr/059.webp)
+![image](assets/id/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Kita tidak perlu terjebak dalam pemikiran konspirasi. Namun, tidak ada yang bisa
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/id/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Karena waktu kita terbatas, kuncinya adalah tetap rendah hati, terus belajar, da
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/id/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Sebaliknya, **carilah bantuan dari para pengguna bitcoin yang telah berjalan di 
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/id/062.webp)
 
 
 
@@ -2897,7 +2897,7 @@ Untuk itu, kami akan memanfaatkan pengalaman komunitas yang telah membuat acara 
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/id/063.webp)
 
 
 

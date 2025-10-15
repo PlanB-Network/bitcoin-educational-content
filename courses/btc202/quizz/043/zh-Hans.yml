@@ -1,0 +1,9 @@
+question: Umbrel Home 和 umbrelOS 有什么区别？
+answer: Umbrel Home 是预装的微型服务器，而 umbrelOS 则是自己动手安装的系统。
+wrong_answers:
+  - Umbrel Home 是免费的，umbrelOS 不是。
+  - Umbrel Home 不支持 Bitcoin；umbrelOS 支持 Bitcoin
+  - Umbrel Home 是开源的，而 umbrelOS 是专有的
+explanation: |
+  Umbrel Home 在销售时已经安装了 umbrelOS，可以直接使用，而 umbrelOS 则可以在自己的硬件上 DIY 安装。
+reviewed: true

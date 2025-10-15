@@ -15,7 +15,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: de
     last_contribution_date: 2025-02-20
     urgency: 1
@@ -38,27 +38,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.72
+    reward: 2.73
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.72
+    reward: 2.73
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.34
+    reward: 5.36
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.72
+    reward: 2.73
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -73,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -83,22 +83,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 6.24
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
@@ -119,7 +119,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -129,7 +129,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: tr
     last_contribution_date:
     urgency: 1

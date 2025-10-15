@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste beperking van Tor-communicatie met je knooppunt?
+answer: Traagheid
+wrong_answers:
+  - Gebrek aan encryptie
+  - Spam
+  - De onmogelijkheid om RPC te gebruiken
+explanation: |
+  Tor-verbindingen zijn veilig, maar langzamer dan alternatieven zoals VPN.
+reviewed: true

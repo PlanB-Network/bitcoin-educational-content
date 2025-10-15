@@ -3,7 +3,7 @@ answer: The UTXO set
 wrong_answers:
   - The Mempool
   - The Blockchain
-  - Portfolio register
+  - The Wallet History
 explanation: |
   The node keeps the UTXO set, which is the set of unspent outputs available for future transactions.
-reviewed: false
+reviewed: true

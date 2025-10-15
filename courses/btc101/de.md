@@ -13,7 +13,7 @@ objectives:
 
 In diesem Kurs werden wir die Grundlagen von Bitcoin in 25 Kapiteln erklären, damit du diese Technologie auf einfache und effektive Weise verstehen kannst. Der Kurs erforscht die Grundlagen der gesamten Branche, einschließlich Themen wie Mining, Wallets, Kauf-/Verkaufsplattformen und mehr. Während des gesamten Kurses wird zusätzliches Lehrmaterial zur Verfügung stehen. Außerdem laden wir dich ein, nach Abschluss des Kurses die "21 Poster" im Ressourcenbereich anzusehen.
 
-Du brauchst keine besonderen Vorkenntnisse, um loszulegen. Die folgenden Inhalte sind für Schüler aller Niveaus geeignet und sollten in etwa 15 Stunden abgeschlossen sein.
+Es sind keine Vorkenntnisse erforderlich, um diesen Kurs zu beginnen. BTC 101 wurde so konzipiert, dass er für alle zugänglich ist, unabhängig von Ihrem Erfahrungsstand.
 
 +++
 
@@ -82,6 +82,8 @@ Schließlich stehen wir erst am Anfang der Bitcoin-Adaption, nachdem die Startph
 Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen dir viel Spaß mit diesem Kurs und hoffen, dass du in diesem neuen globalen Währungsparadigma weitere Fortschritte machst.
 
 Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
+
+**Anm.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.network/resources/glossary) für Definitionen.
 
 ## Die Vorgeschichte von Bitcoin
 

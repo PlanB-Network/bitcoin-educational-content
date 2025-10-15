@@ -13,7 +13,7 @@ objectives:
 
 I dette kurset vil vi forklare det grunnleggende om Bitcoin i 25 kapitler, slik at du kan forstå denne teknologien på en enkel og effektiv måte. Kurset utforsker det grunnleggende i bransjen som helhet, inkludert emner som utvinning, lommebøker, kjøps- og salgsplattformer og mer. Ytterligere undervisningsmateriell vil være tilgjengelig gjennom hele reisen, og vi inviterer deg også til å sjekke "21 plakater" i ressursdelen etter at du er ferdig med dette kurset.
 
-Du trenger ingen spesielle forkunnskaper for å komme i gang. Det følgende innholdet er faktisk tilgjengelig for studenter på alle nivåer, og det bør ta omtrent 15 timer å bli ferdig.
+Ingen forkunnskaper kreves for å starte dette kurset. BTC 101 er designet for å være tilgjengelig for alle, uavhengig av erfaringsnivå.
 
 +++
 
@@ -82,6 +82,8 @@ Vi er tross alt bare i begynnelsen av innføringen, og vi har passert startfasen
 Det viktige poenget her er å forstå denne nye teknologien på en generell måte, så vi håper du liker dette kurset og fortsetter å gjøre fremskritt i dette nye globale monetære paradigmet.
 
 Klar til å dykke ned i den fascinerende verdenen av Bitcoin og forstå alle dets mekanismer? La oss gå!
+
+**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.network/resources/glossary) for definisjoner.
 
 ## Bitcoins forhistorie
 

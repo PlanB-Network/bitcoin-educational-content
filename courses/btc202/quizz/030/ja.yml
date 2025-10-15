@@ -1,0 +1,9 @@
+question: ノード・イン・ア・ボックスの主な利点は何ですか？
+answer: 簡単なインストールと統合されたアプリケーション管理
+wrong_answers:
+  - コンセンサス・ルールの厳格な検証
+  - ストレージなしでBlockchainに直接アクセス
+  - Bitcoin以外の通貨との互換性
+explanation: |
+  ノード・イン・ボックスは、統一されたInterfaceを介して、多数の補助アプリケーションの設置と管理を簡素化します。
+reviewed: true

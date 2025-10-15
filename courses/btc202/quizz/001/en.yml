@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin currency
   - The Blockchain Bitcoin
 explanation: |
-  The Bitcoin network consists of all connected nodes, each running a different implementation of the protocol.
-reviewed: false
+  The Bitcoin network comprises all connected nodes, each running a distinct implementation of the protocol.
+reviewed: true

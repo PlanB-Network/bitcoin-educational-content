@@ -1,0 +1,9 @@
+question: Qual è la differenza principale tra un'implementazione grezza e un nodo in una scatola?
+answer: La presenza di un Interface e di applicazioni integrate
+wrong_answers:
+  - Compatibilità di rete
+  - Dimensione Blockchain memorizzata su disco
+  - Il protocollo e la valuta utilizzati
+explanation: |
+  Un'implementazione grezza installa solo il software del nodo, mentre un nodo-in-a-box aggiunge un Interface, un App Store e servizi integrati.
+reviewed: true

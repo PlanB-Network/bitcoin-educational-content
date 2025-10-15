@@ -50,7 +50,7 @@ Die darin enthaltenen Befehle sind in der Programmiersprache JavaScript geschrie
 Eine JavaScript-Laufzeitumgebung ist ein spezielles Programm, das diese Dateien ausführt.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Die NodeJS-Laufzeitumgebung
@@ -71,7 +71,7 @@ Da NodeJS für alle drei Betriebssysteme verfügbar ist, können die von Ihnen g
 Das bedeutet, dass Sie zum Beispiel ein einfaches Videospiel in JavaScript auf Ihrem Windows-PC schreiben und es an Ihren Freund weitergeben können, damit er es auf seinem Mac ausführt.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Sie können Boolesche Begriffe mit logischen Operatoren kombinieren:
 - `!` bedeutet "nicht", es wird vor einem booleschen Wert angewandt und kehrt diesen um: wenn der boolesche Wert "wahr" ist, wird "falsch" zurückgegeben und umgekehrt.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Beispiele:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Die Klasse "Car" **erbt** jetzt alles von "Vehicle". Sie erhält die Eigenschaft "Brand", und wir haben die Methode "Start()" durch unsere eigene Version ersetzt.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Probieren wir es aus:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript ist eine interpretierte Sprache, im Gegensatz zu kompilierten Sprache
 Der in einer kompilierten Sprache geschriebene Code wird in eine Binärdatei umgewandelt, und die Binärdatei wird direkt an die CPU des Computers weitergeleitet.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpretensprachen hingegen sind in der Regel benutzerfreundlicher und orientieren sich eher an der menschlichen Denkweise ("high level") als an der Arbeitsweise von Maschinen ("low level"); daher verfügen sie in der Regel über eine virtuelle Maschine, die ihren Code ausführt.
@@ -5261,7 +5261,7 @@ Warum ist das ein Problem?
 Da Browser Code ausführen, der aus Millionen verschiedener Quellen im Internet stammt, können sie leicht zu Malware werden, weshalb sie vom Rest des Betriebssystems getrennt sind.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript konnte nicht auf das Dateisystem und andere lokale Ressourcen auf Ihrem Computer zugreifen (zumindest nicht so einfach wie andere Sprachen), so dass dies eine erhebliche Einschränkung für die Art der Anwendungen darstellte, die Sie damit erstellen konnten.
@@ -5270,7 +5270,7 @@ JavaScript konnte nicht auf das Dateisystem und andere lokale Ressourcen auf Ihr
 Im Jahr 2009 veröffentlichte Ryan Dahl NodeJS, eine Laufzeitumgebung, mit der Sie die V8-Engine außerhalb des Browsers direkt auf dem nativen Betriebssystem Ihres Computers verwenden können. Außerdem bietet sie viele Funktionen, die für das Schreiben von serverseitigen und Befehlszeilenprogrammen nützlich sind. So können Sie mit NodeJS beispielsweise einen Webserver erstellen, Dateien lesen und schreiben oder Tools zur Automatisierung von Aufgaben erstellen.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 In diesem Kurs haben wir uns bisher mit den JavaScript-Funktionen beschäftigt, die sowohl im Browser als auch in NodeJS vorhanden sind. Mit diesen Funktionen konnten wir Daten definieren und sie auf abstrakte Weise manipulieren. In den nächsten Lektionen werden wir uns mit den NodeJS-spezifischen Funktionen befassen, die uns die Interaktion mit dem Betriebssystem ermöglichen.

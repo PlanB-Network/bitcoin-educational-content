@@ -1,0 +1,9 @@
+question: Bitcoin coreのassumevalidパラメータの機能は何ですか？
+answer: 参照ブロックの前のスクリプト検証を無視する
+wrong_answers:
+  - リファレンスブロックの前にProof-of-Work検証を無視する
+  - 参照ブロックの前のヘッダー検証を無視する
+  - ピアディスカバリーにTorを強制
+explanation: |
+  Assumevalidは、既知のブロックの前のスクリプト検証を無視し、他のすべての検証を保持することで、IBDを高速化する。
+reviewed: true

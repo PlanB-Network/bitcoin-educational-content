@@ -1,0 +1,9 @@
+question: نقش یک رله Nostr نصب شده بر روی Umbrel چیست؟
+answer: میزبانی انتشارات خود به صورت محلی
+wrong_answers:
+  - بررسی تراکنش‌های Bitcoin
+  - با مخاطبین خود کانال‌های Nostr ایجاد کنید
+  - پشتیبان‌گیری محلی از Blockchain Nostr
+explanation: |
+  یک رله Nostr بر روی Umbrel امکان می‌دهد داده‌ها به صورت محلی میزبانی شوند و تضمین‌کننده دسترسی و حاکمیت باشند.
+reviewed: true

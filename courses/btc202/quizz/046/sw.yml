@@ -1,0 +1,9 @@
+question: Je, parameta ya dbcache inaweza kufanya nini katika Bitcoin core?
+answer: Tenga RAM ili kuharakisha IBD
+wrong_answers:
+  - Bainisha ukubwa wa Blockchain
+  - Rekebisha ugumu wa juu wa Mining
+  - Weka kikomo idadi ya programu zingine zilizounganishwa
+explanation: |
+  Kigezo cha dbcache huongeza nafasi ya kumbukumbu inayotumika kuhifadhi kwa muda seti ya UTXO, ambayo inaweza kuharakisha mchakato wa awali wa maingiliano.
+reviewed: true

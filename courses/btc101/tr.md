@@ -17,7 +17,7 @@ objectives:
 Bu eğitimde, Bitcoin'nin temellerini 25 bölümde açıklayacağız, böylece bu teknolojiyi basit ve etkili bir şekilde anlayabilirsiniz. Eğitim, Mining, cüzdanlar, alım/satım platformları ve daha fazlası gibi konular da dahil olmak üzere sektörün temellerini bir bütün olarak incelemektedir. Yolculuk boyunca ek eğitim materyalleri sunulacak ve ayrıca bu kursu bitirdikten sonra sizi kaynaklar bölümündeki "21 Poster "i kontrol etmeye davet ediyoruz.
 
 
-Başlamak için herhangi bir özel bilgiye ihtiyacınız yok. Aslında, aşağıdaki içerik her seviyeden öğrencinin erişimine açıktır ve tamamlanması yaklaşık 15 saat sürecektir.
+Bu kursa başlamak için önceden bilgi sahibi olmanız gerekmez. BTC 101, deneyim seviyeniz ne olursa olsun herkesin erişebilmesi için tasarlanmıştır.
 
 
 +++
@@ -121,6 +121,8 @@ Burada önemli olan nokta, bu yeni teknolojiyi genel bir şekilde anlamaktır, b
 
 Bitcoin'ün büyüleyici dünyasına dalmaya ve tüm iç işleyişini anlamaya hazır mısınız? Hadi başlayalım!
 
+
+**Not**: Kurs sırasında tanıdık olmayan terimlerle karşılaşırsanız, tanımlar için lütfen [sözlüğe](https://planb.network/resources/glossary) başvurun.
 
 ## Bitcoin'in Tarih Öncesi
 

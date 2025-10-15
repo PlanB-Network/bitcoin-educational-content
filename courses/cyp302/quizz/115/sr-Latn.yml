@@ -6,4 +6,4 @@ wrong_answers:
   - Osetljive informacije su pomešane u svakom bloku šifrovanog teksta
 explanation: |
   Difuzija znači da mala promena u otvorenom tekstu rezultira značajnom promenom u šifrovanom tekstu, što otežava napadaču da zaključi otvoreni tekst.
-reviewed: false
+reviewed: true

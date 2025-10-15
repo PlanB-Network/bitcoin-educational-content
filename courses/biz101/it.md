@@ -36,7 +36,7 @@ Sia che rappresentiate una piccola impresa o una grande società, questo corso m
 
 Pronti a immergervi nel mondo di Bitcoin per le aziende? Andiamo!
 
-Pronto a immergerti nel mondo di Bitcoin per le aziende? Andiamo!
+**N.B.**: Se incontri termini sconosciuti durante il corso, consulta [il glossario](https://planb.network/resources/glossary) per le definizioni.
 
 # Valuta, sistemi di pagamento e Bitcoin
 

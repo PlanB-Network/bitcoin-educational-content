@@ -50,7 +50,7 @@ Příkazy, které obsahují, jsou napsány v programovacím jazyce JavaScript.
 Runtime JavaScriptu je speciální program, který tyto soubory spouští.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Prostředí NodeJS
@@ -71,7 +71,7 @@ Protože je NodeJS k dispozici pro všechny tři operační systémy, bude možn
 To znamená, že můžete například napsat jednoduchou videohru v JavaScriptu na svém počítači s Windows a předat ji kamarádovi, aby ji spustil na svém Macu.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Logické operátory můžete kombinovat:
 - `!` znamená "ne", aplikuje se před boolean a převrátí ho: pokud je boolean `pravdivý`, vrátí `nepravdivý` a naopak.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Příklady:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Třída `Car` nyní **dědí** vše od třídy `Vehicle`. Získává vlastnost `značka` a metodu `start()` jsme nahradili naší vlastní verzí.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Vyzkoušejme si to:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript je interpretovaný jazyk, na rozdíl od kompilovaných jazyků, jako 
 Kód napsaný v kompilovaném jazyce se změní na binární kód a ten se přenese přímo do procesoru počítače.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpredové jazyky jsou naopak uživatelsky přívětivější a mají blíže k tomu, jak myslí lidé ("high level"), než jak pracují stroje ("low level"); proto je pro jejich kód obvykle vytvořen virtuální stroj.
@@ -5261,7 +5261,7 @@ Proč je to problém?
 Vzhledem k tomu, že prohlížeče spouštějí kód získaný z milionů různých zdrojů na internetu, mohou se snadno stát škodlivým softwarem, a proto jsou "sandboxovány" od zbytku operačního systému.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript neuměl přistupovat k souborovému systému a dalším místním zdrojům v počítači (alespoň ne tak snadno jako jiné jazyky), takže to představovalo významné omezení pro to, jaké aplikace jste s ním mohli vytvářet.
@@ -5270,7 +5270,7 @@ JavaScript neuměl přistupovat k souborovému systému a dalším místním zdr
 V roce 2009 vydal Ryan Dahl knihu NodeJS, což je runtime, který umožňuje používat engine V8 mimo prohlížeč, přímo v nativním operačním systému počítače. Přidává také mnoho funkcí, které jsou užitečné pro psaní programů na straně serveru a příkazového řádku. Pomocí NodeJS můžete například vytvořit webový server, číst a zapisovat soubory nebo vytvářet nástroje pro automatizaci úloh.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 V tomto kurzu jsme se zatím zabývali funkcemi JavaScriptu, které jsou přítomny jak v prohlížeči, tak v NodeJS. Tyto funkce nám umožnily definovat data a manipulovat s nimi abstraktním způsobem. V několika příštích lekcích prozkoumáme funkce, které jsou specifické pro NodeJS a umožňují nám komunikovat s operačním systémem.

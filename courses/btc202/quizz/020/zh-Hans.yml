@@ -1,0 +1,9 @@
+question: 如果某个区块违反了共识规则，会发生什么？
+answer: 节点立即拒绝接受
+wrong_answers:
+  - 它存储在 Mempool 中，等待验证
+  - 仅由接受其他规则的节点转发
+  - 仅由钱包验证
+explanation: |
+  节点会系统地拒绝任何不符合共识规则的区块。
+reviewed: true

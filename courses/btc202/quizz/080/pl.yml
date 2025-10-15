@@ -1,0 +1,9 @@
+question: Jaka jest domyślna wartość parametru maxconnections w Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections ogranicza całkowitą liczbę połączeń przychodzących i wychodzących. Domyślną wartością jest 125.
+reviewed: true

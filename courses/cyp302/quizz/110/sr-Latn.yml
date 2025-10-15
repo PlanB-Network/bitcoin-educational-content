@@ -6,4 +6,4 @@ wrong_answers:
   - Zahtev za korišćenjem javnog ključa pored privatnog ključa
 explanation: |
   RC4 ima značajne slabosti u generisanju ključa toka, što izlaže enkripciju napadima, zbog čega se postepeno napušta u modernim sigurnosnim protokolima.
-reviewed: false
+reviewed: true

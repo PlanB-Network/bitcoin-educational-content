@@ -13,7 +13,7 @@ objectives:
 
 V tomto kurzu vám v 25 kapitolách vysvětlíme základy Bitcoinu, abyste tuto technologii pochopili jednoduše a efektivně. Kurz se zabývá základy celého odvětví, včetně témat, jako je těžba, peněženky, nákupní/prodejní platformy a další. V průběhu cesty budou k dispozici další výukové materiály a také vás zveme, abyste si po dokončení tohoto kurzu prohlédli "21 plakátů" v sekci zdrojů.
 
-Pro začátek nepotřebujete žádné specifické znalosti. Ve skutečnosti je následující obsah přístupný studentům všech úrovní a jeho dokončení by mělo trvat přibližně 15 hodin.
+K zahájení tohoto kurzu nejsou vyžadovány žádné předchozí znalosti. BTC 101 byl navržen tak, aby byl přístupný všem, bez ohledu na úroveň zkušeností.
 
 +++
 
@@ -82,6 +82,8 @@ Koneckonců jsme teprve v počáteční fázi jeho zavádění, protože jsme pr
 Důležité je pochopit tuto novou technologii v obecné rovině, takže doufáme, že se vám tento kurz bude líbit a budete pokračovat v pokroku v tomto novém globálním měnovém paradigmatu.
 
 Připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
+
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
 
 ## Prehistorie bitcoinu
 

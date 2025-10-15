@@ -1,0 +1,9 @@
+question: Ni faharisi gani ya hiari inayoweza kuamilishwa katika Bitcoin core ili kupata shughuli na txid yake?
+answer: txindex
+wrong_answers:
+  - nyongeza
+  - blockindex
+  - umeme
+explanation: |
+  Chaguo la txindex=1 linatumika kuuliza muamala kwa kitambulisho chake cha kipekee (txid).
+reviewed: true

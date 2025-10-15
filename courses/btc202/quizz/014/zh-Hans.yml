@@ -1,0 +1,9 @@
+question: 2009 年，最初的 Bitcoin 软件结合了什么？
+answer: Wallet、弓和小号
+wrong_answers:
+  - 节点、Miner 和 Block explorer
+  - Wallet、菜刀和 Miner
+  - Miner 和 Mining pool
+explanation: |
+  最初的 Bitcoin 软件将 Wallet、节点和 Miner 功能集成到一个程序中。
+reviewed: true

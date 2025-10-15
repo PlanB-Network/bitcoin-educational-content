@@ -50,7 +50,7 @@ Neis sisalduvad käsud on kirjutatud JavaScript programmeerimiskeeles.
 JavaScripti runtime on spetsiaalne programm, mis täidab neid faile.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### NodeJS-i käitusaeg
@@ -71,7 +71,7 @@ Kuna NodeJS on saadaval kõigile kolmele operatsioonisüsteemile, saab teie kirj
 See tähendab, et saate näiteks kirjutada lihtsa videomängu JavaScriptis oma Windows-arvutis ja anda selle oma sõbrale edasi, et ta seda oma Macil jooksutaks.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Booluseid saab kombineerida loogiliste operaatorite abil:
 - `!` tähendab "mitte", seda rakendatakse enne boolean'i ja see pöörab selle ümber: kui boolean on `true`, siis tagastab see `false` ja vastupidi.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Näited:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klass `Auto` pärib nüüd kõik `Auto` klassist `Vehicle`. See saab omaduse `brand` ja me oleme asendanud meetodi `start()` oma versiooniga.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Proovime seda välja:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript on interpreteeritud keel, erinevalt kompileeritud keeltest nagu C.
 Kompileerimiskeeles kirjutatud kood muudetakse binaarseks ja binaarskeem suunatakse otse arvuti protsessorisse.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Teisalt kipuvad interpreed keeled olema kasutajasõbralikumad ja on lähemal sellele, kuidas inimesed mõtlevad ("kõrge tase") kui sellele, kuidas masinad töötavad ("madal tase"); seega on nende koodide käivitamiseks tavaliselt ehitatud virtuaalmasin.
@@ -5261,7 +5261,7 @@ Miks on see probleem?
 Kuna veebilehitsejad täidavad miljonitest erinevatest internetiallikatest hangitud koodi, võivad nad kergesti sattuda pahavara hulka, seega on nad ülejäänud operatsioonisüsteemist "liivakastis".
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript ei saanud juurdepääsu failisüsteemile ja muudele arvuti kohalikele ressurssidele (vähemalt mitte nii lihtsalt nagu teised keeled), nii et see oli oluline piirang selle abil loodavate rakenduste osas.
@@ -5270,7 +5270,7 @@ JavaScript ei saanud juurdepääsu failisüsteemile ja muudele arvuti kohalikele
 2009. aastal avaldas Ryan Dahl NodeJSi, mis on runtime, mis võimaldab kasutada V8 mootorit väljaspool brauserit, otse arvuti emakeelses operatsioonisüsteemis. See lisab ka palju funktsioone, mis on kasulikud serveripoolsete ja käsurea programmide kirjutamiseks. Näiteks saab NodeJS-i kasutada veebiserveri loomiseks, failide lugemiseks ja kirjutamiseks või ülesannete automatiseerimiseks mõeldud tööriistade loomiseks.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Selles kursuses oleme seni uurinud JavaScripti funktsioone, mis on olemas nii brauseris kui ka NodeJSis. Need funktsioonid võimaldasid meil andmeid defineerida ja nendega abstraktselt manipuleerida. Järgmistes õppetundides uurime funktsioone, mis on NodeJS-i spetsiifilised ja võimaldavad meil suhelda operatsioonisüsteemiga.

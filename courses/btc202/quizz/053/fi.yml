@@ -1,0 +1,9 @@
+question: Mikä valinnainen indeksi voidaan aktivoida Bitcoin core:ssa tapahtuman löytämiseksi sen txid:n perusteella?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  Vaihtoehtoa txindex=1 käytetään kysyttäessä tapahtumaa sen yksilöllisen tunnisteen (txid) perusteella.
+reviewed: true

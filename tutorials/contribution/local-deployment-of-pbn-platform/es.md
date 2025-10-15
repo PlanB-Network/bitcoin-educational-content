@@ -6,7 +6,7 @@ description: ¿Cómo se puede ejecutar Plan ₿ Network en un entorno local para
 
 ## En resumen
 
-Este tutorial proporciona instrucciones paso a paso para configurar el Sistema de Gestión de Aprendizaje Bitcoin desde Plan ₿ Network en su máquina local utilizando Docker, claves falsas y configuraciones de repositorio personalizadas.
+Este tutorial proporciona instrucciones paso a paso para configurar el Sistema de Gestión de Aprendizaje Bitcoin desde Plan ₿ Network en tu máquina local utilizando Docker, claves falsas y configuraciones de repositorio personalizadas.
 
 Si no has entendido la parte de arriba, no te preocupes: ¡este tutorial es para ti!
 
@@ -17,15 +17,14 @@ Este tutorial proporciona pasos detallados para configurar la plataforma, maneja
 
 **1. Requisitos previos**
 
-
 - Máquina Linux con Docker y Docker Compose instalados (se ha informado de que también funciona en Windows).
-- versión suficiente de `nodejs` (probado: 22.12.0)
+- Versión suficiente de `nodejs` (probado: 22.12.0)
 - `pnpm` instalado en su sistema.
 - Git configurado para clonar repositorios.
 
 **2. Clonar el repositorio**
 
-Clone el repositorio en su máquina local:
+Clona el repositorio en tu máquina local:
 
 git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
 
@@ -44,7 +43,7 @@ cd bitcoin-learning-management-system
 cp .env.example .env
 ```
 
-1. Edite el fichero `.env`, borrando la parte .example del nombre, ahora tiene que incluir claves ficticias para las variables requeridas. Ejemplo:
+1. Edita el fichero `.env`, borrando la parte .example del nombre, ahora tendrás que incluir claves ficticias para las variables requeridas. Ejemplo:
 
 ⚠️ Este es un paso obligatorio, saltárselo dará lugar a errores como la denegación de conexión entre algunos de los contenedores.
 
@@ -62,21 +61,21 @@ SENDGRID_KEY=dummySendgridKey
 ---
 **4. Instalar dependencias**
 
-asegúrese de tener instalada una versión adecuada de nodejs. A partir de 2024-12, se ha comprobado que funciona la v22.12.0 (LTS).
+Asegúrate de tener instalada una versión adecuada de nodejs. A partir de 2024-12, se ha comprobado que funciona la v22.12.0 (LTS).
 
 ⚠️ Ubuntu 22.04 repositorio nodejs versión es 12.22.9: demasiado viejo para permitir instalar pnpm
 
-Para instalar nodejs, encuentre las instrucciones [aquí](https://nodejs.org/en/download/package-manager); por ejemplo, puede optar por utilizar el método de instalación `nvm`.
+Para instalar nodejs, encuentra las instrucciones [aquí](https://nodejs.org/en/download/package-manager); por ejemplo, puedes optar por utilizar el método de instalación `nvm`.
 
 ---
-Antes de iniciar la fase de instalación pnpm de los paquetes necesarios, asegúrese de tener todas las dependencias instaladas, puede lograrlo ejecutando el siguiente comando:
+Antes de iniciar la fase de instalación pnpm de los paquetes necesarios, asegúrate de tener todas las dependencias instaladas, puedes lograrlo ejecutando el siguiente comando:
 
 ```bash
 sudo apt install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++ libpixman-1-dev
 ```
 
 ---
-Dentro de la carpeta `../Bitcoin-learning-management-system/`, ejecute el siguiente comando para instalar `pnpm`
+Dentro de la carpeta `../Bitcoin-learning-management-system/`, ejecuta el siguiente comando para instalar `pnpm`
 
 ```bash
 pnpm install
@@ -86,7 +85,7 @@ __TIP:__ Recuerda actualizar de vez en cuando tanto las dependencias como el pro
 
 **5. Ejecutar los contenedores**
 
-Dentro de su carpeta `../Bitcoin-learning-management-system/`, inicie el entorno de desarrollo con Docker:
+Dentro de tu carpeta `../Bitcoin-learning-management-system/`, inicia el entorno de desarrollo con Docker:
 
 ```bash
 docker compose up --build -V
@@ -112,7 +111,7 @@ Nota: la aplicación se recargará automáticamente si cambias algún archivo fu
 
 **7.** Configura tu base de datos Schema
 
-En la primera ejecución, deberá ejecutar las migraciones de BD.
+En la primera ejecución, deberás ejecutar las migraciones de BD.
 
 Para ello, ejecute el script de migración: `pnpm run dev:db:migrate`
 
@@ -130,13 +129,13 @@ curl -X POST http://localhost:3000/api/github/sync
 
 **9. Solucionar problemas de acceso al volumen de sincronización**
 
-Si tiene problemas de acceso a los volúmenes `cdn` y `sync`, ejecute:
+Si tienes problemas de acceso a los volúmenes `cdn` y `sync`, ejecuta:
 
 ```markdown
 docker exec --user=root bitcoin-learning-management-system-api-1 chmod 777 /tmp/{sync,cdn}
 ```
 
-entonces otra vez:
+Entonces otra vez:
 
 ```markdown
 curl -X POST http://localhost:3000/api/github/sync
@@ -146,9 +145,9 @@ curl -X POST http://localhost:3000/api/github/sync
 
 **10. Personalizar el repositorio (opcional)**
 
-Si necesita utilizar una Fork o una rama específica:
+Si necesitas utilizar un Fork o una rama específica:
 
-1. Edite el archivo `.env` para actualizar las siguientes variables:
+1. Edita el archivo `.env` para actualizar las siguientes variables:
 
 ```markdown
 DATA_REPOSITORY_URL=https://github.com/<your-username>/bitcoin-educational-content.git
@@ -157,14 +156,14 @@ PRIVATE_DATA_REPOSITORY_URL=https://github.com/<your-username>/planB-premium-con
 PRIVATE_DATA_REPOSITORY_BRANCH=<your-branch>
 ```
 
-2\. Reinicie Docker:
+2\. Reinicia Docker:
 
 ```markdown
 docker compose down -v
 docker compose up --build -V
 ```
 
-3\. Vuelva a sincronizar los datos del repositorio:
+3\. Vuelve a sincronizar los datos del repositorio:
 
 ```markdown
 curl -X POST http://localhost:3000/api/github/sync
@@ -174,20 +173,20 @@ Este tutorial asegura que la plataforma está correctamente configurada con clav
 
 **Comandos para ayuda extra**
 
-detener todos los contenedores
+Detener todos los contenedores
 
 ```
 docker compose down
 ```
 
-podar todos los contenedores y volúmenes existentes
+Podar todos los contenedores y volúmenes existentes
 
 ```
 docker container prune -f
 docker volume prune --all
 ```
 
-vuelva a crear los contenedores con el mismo comando utilizado en la guía oficial y el script de sincronización del almuerzo:
+Vuelve a crear los contenedores con el mismo comando utilizado en la guía oficial y lanza el script de sincronización:
 
 ```
 docker-compose up --build -V

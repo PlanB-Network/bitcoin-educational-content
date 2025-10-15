@@ -1,0 +1,9 @@
+question: Quando un utente deve installare un indicizzatore?
+answer: Per eseguire un Block explorer
+wrong_answers:
+  - Per i blocchi Mining stessi
+  - Per attivare il Lightning Network
+  - Per firmare le transazioni
+explanation: |
+  Un indicizzatore diventa indispensabile per usi avanzati, come ad esempio un esploratore locale.
+reviewed: true

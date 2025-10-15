@@ -13,7 +13,7 @@ objectives:
 
 Neste curso, explicaremos os conceitos básicos do Bitcoin em 25 capítulos, para que você possa entender essa tecnologia de maneira simples e eficaz. O curso explora os conceitos básicos da indústria como um todo, incluindo tópicos como mineração, carteiras, plataformas de compra / venda e muito mais. Será disponibilizado material educativo adicional ao longo da jornada e convidamo-lo também a consultar os "21 Posters" na secção de recursos depois de terminar este curso.
 
-Não precisa de ter conhecimentos específicos para começar. De facto, o conteúdo que se segue é acessível a estudantes de todos os níveis e deve demorar cerca de 15 horas a ser concluído.
+Nenhum conhecimento prévio é necessário para começar este curso. O BTC 101 foi concebido para ser acessível a todos, independentemente do seu nível de experiência.
 
 +++
 
@@ -82,6 +82,8 @@ Afinal, estamos apenas no início da sua adoção, pois já passámos a fase de 
 O importante aqui é compreender esta nova tecnologia de uma forma geral, por isso esperamos que goste deste curso e que continue a progredir neste novo paradigma monetário global.
 
 Pronto para mergulhar no fascinante universo do Bitcoin e entender todos os seus mecanismos? Vamos lá!
+
+**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.network/resources/glossary) para definições.
 
 ## A pré-história do Bitcoin
 

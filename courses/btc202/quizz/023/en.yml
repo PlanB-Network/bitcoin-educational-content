@@ -1,9 +1,9 @@
 question: What's the difference between consensus rules and relay rules?
-answer: Consensus defines validity, relays diffusion of transactions
+answer: Consensus defines validity, relays the diffusion of transactions
 wrong_answers:
   - Consensus defines fees, relay defines addresses
   - Consensus manages Blockchain, relay manages private keys
   - Consensus chooses miners, relay chooses merchants
 explanation: |
   Consensus rules determine what is valid in Bitcoin, while relay rules manage transactions between nodes.
-reviewed: false
+reviewed: true

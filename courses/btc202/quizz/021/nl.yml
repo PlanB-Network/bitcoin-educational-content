@@ -1,0 +1,9 @@
+question: Welke factor bepaalt de invloed van een knooppunt op de consensusregels?
+answer: Het economische gewicht
+wrong_answers:
+  - Het aantal uitgaande verbindingen
+  - Anciënniteit in het netwerk
+  - Niets, want elk knooppunt heeft één stem
+explanation: |
+  De invloed op consensusregels hangt af van de economische activiteit die door het knooppunt wordt ondersteund, niet van het aantal.
+reviewed: true

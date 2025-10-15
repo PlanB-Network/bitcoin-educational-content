@@ -1,0 +1,9 @@
+question: Mikä node-in-a-box-ratkaisu on nykyisin markkinajohtaja?
+answer: Sateenvarjo
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel on suosituin node-in-a-box-ratkaisu, koska se on helppo asentaa ja sen App Store on monipuolinen.
+reviewed: true

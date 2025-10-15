@@ -13,7 +13,7 @@ objectives:
 
 Dans ce cours, nous expliquerons les bases de Bitcoin en 25 chapitres, afin que vous puissiez comprendre cette technologie d'une manière simple et efficace. Le cours explore les bases de l'industrie dans son ensemble, y compris des sujets tels que le minage, les portefeuilles, les plateformes d'achat/vente, et plus encore. Du matériel pédagogique supplémentaire sera disponible tout au long du parcours, et nous vous invitons également à consulter les "21 affiches" dans la section des ressources une fois que vous aurez terminé ce cours.
 
-Vous n'avez besoin d'aucune connaissance spécifique pour commencer. En effet, le contenu suivant est accessible aux étudiants de tous niveaux, et il faut compter environ 15 heures pour le terminer.
+Aucune connaissance préalable n’est requise pour débuter ce cours. BTC 101 a été conçu pour être accessible à tous, quel que soit votre niveau d’expérience.
 
 +++
 
@@ -84,6 +84,8 @@ Après tout, nous n'en sommes qu'au début de son adoption, puisque nous avons d
 L'important ici est de comprendre cette nouvelle technologie de manière générale. Nous espérons donc que vous apprécierez ce cours et que vous continuerez à progresser dans ce nouveau paradigme monétaire mondial.
 
 Prêt à plonger dans l'univers fascinant de Bitcoin et à en comprendre tous les rouages ? Allons-y !  
+
+**N.B.** : Si vous rencontrez des termes inconnus pendant le cours, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour les définitions.
 
 ## La préhistoire de Bitcoin
 
@@ -1199,7 +1201,6 @@ Il est essentiel de reconnaître que le KYC est un sujet de discussion important
 
 ### Solutions non-KYC
 
-:::video id=c0962e15-72fd-4072-b2e0-587e89ba1e61:::
 
 En outre, il existe plusieurs [places de marché](https://planb.network/tutorials/exchange) où l'on peut acheter et vendre des bitcoins dans le cadre d'un échange de pair à pair. D'une manière générale, vous pouvez prendre en compte les éléments suivants :
 
@@ -1216,6 +1217,8 @@ Enfin, il est important de noter que les obligations fiscales peuvent varier en 
 ## Hyper-bitcoinisation
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+
+:::video id=c0962e15-72fd-4072-b2e0-587e89ba1e61:::
 
 ### La course effrénée ne fait que commencer !
 

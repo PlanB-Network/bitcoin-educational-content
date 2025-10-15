@@ -13,7 +13,7 @@ objectives:
 
 Tällä kurssilla selitämme Bitcoinin perusteet 25 luvussa, jotta voit ymmärtää tämän teknologian yksinkertaisella ja tehokkaalla tavalla. Kurssilla käsitellään koko alan perusteita, mukaan lukien aiheet kuten louhinta, lompakot, osto-/myyntialustat ja paljon muuta. Lisäkoulutusmateriaalia on saatavilla koko matkan ajan, ja pyydämme sinua myös tutustumaan "21 julistetta" -osion resursseihin tämän kurssin päätyttyä.
 
-Alkuun pääsemiseksi ei tarvita mitään erityisiä tietoja. Itse asiassa seuraava sisältö sopii kaikentasoisille opiskelijoille, ja sen läpikäymiseen pitäisi kulua noin 15 tuntia.
+Tämän kurssin aloittamiseen ei tarvita aiempaa tietämystä. BTC 101 on suunniteltu olemaan kaikkien saatavilla kokemustasosta riippumatta.
 
 +++
 
@@ -82,6 +82,8 @@ Loppujen lopuksi olemme vasta sen käyttöönoton alkuvaiheessa, sillä olemme o
 Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten toivomme, että nautit tästä kurssista ja edistyt edelleen tässä uudessa globaalissa rahaparadigmassa.
 
 Oletko valmis sukeltamaan Bitcoinin kiehtovaan maailmaan ja ymmärtämään sen kaikki toimintamekanismit? Lähdetään liikkeelle!
+
+**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary).
 
 ## Bitcoinin esihistoria
 

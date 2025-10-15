@@ -80,7 +80,7 @@ Om du letar efter mer avancerade färdigheter i ämnet finns våra resurser, han
 Till att börja med kommer vi att diskutera vikten av att välja en webbläsare och dess tillhörande säkerhetsimplikationer. Vi kommer sedan att utforska de specifika egenskaperna hos webbläsare, särskilt när det gäller cookiehantering. Vi kommer också att se hur man kan säkerställa en säkrare och anonymare surfupplevelse med hjälp av verktyg som TOR. Därefter kommer vi att fokusera på användningen av VPN för att förbättra skyddet av dina data. Slutligen kommer vi att avsluta med rekommendationer för säker användning av WiFi-anslutningar.
 
 
-![](assets/en/1.webp)
+![image](assets/sv/001.webp)
 
 
 **Avsnitt 2: Bästa praxis för datoranvändning**
@@ -93,7 +93,7 @@ Till att börja med kommer vi att diskutera vikten av att välja en webbläsare 
 
 I det här avsnittet går vi igenom tre viktiga områden inom datasäkerhet. Först går vi igenom olika operativsystem, bland annat Mac, PC och Linux, och belyser deras specifika egenskaper och styrkor. Därefter går vi igenom metoder för att effektivt skydda mot hackningsförsök och förbättra säkerheten i dina enheter. Slutligen kommer vi att betona vikten av att regelbundet skydda och säkerhetskopiera dina data för att förhindra förlust eller ransomware.
 
-![](assets/en/2.webp)
+![image](assets/sv/002.webp)
 
 
 **Avsnitt 3: Implementering av lösningar**
@@ -110,7 +110,7 @@ I detta praktiska tredje avsnitt går vi vidare till implementeringen av dina ko
 
 Först ska vi se hur du kan skydda din e-postinkorg, som är viktig för din kommunikation och ofta är måltavla för hackare. Sedan kommer vi att presentera en lösenordshanterare: en praktisk lösning för att förhindra att du glömmer eller blandar ihop dina lösenord samtidigt som du håller dem säkra. Slutligen kommer vi att diskutera en ytterligare säkerhetsåtgärd, tvåfaktorsautentisering, som lägger till en extra Layer av skydd för dina konton. Allt kommer att förklaras på ett tydligt och lättillgängligt sätt.
 
-![](assets/en/3.webp)
+![image](assets/sv/003.webp)
 
 
 Är du redo att stärka din digitala säkerhet och återta kontrollen över dina data? Då kör vi!
@@ -137,14 +137,15 @@ Vi rekommenderar att du laddar ner programvara från utgivarens officiella webbp
 
 Exempel: Använd www.signal.org/download i stället för www.logicieltelechargement.fr/signal.
 
-![](assets/notext/4.webp)
+![image](assets/sv/004.webp)
 
 
 Det är också lämpligt att prioritera programvara med öppen källkod eftersom de ofta är säkrare och fria från skadlig programvara. En programvara med "öppen källkod" är en typ av programvara vars kod är offentligt tillgänglig och åtkomlig för alla. Detta gör det bland annat möjligt att kontrollera att det inte finns någon dold åtkomst för att stjäla dina uppgifter.
 
 
 > Bonus: Programvara med öppen källkod är ofta gratis! Det här universitetet har 100 % öppen källkod, så du kan också granska vår kod på GitHub.
-> ![](tillgångar/notext/5.webp)
+
+![image](tillgångar/en/005.webp)
 
 ### Hantering av kakor: Fel och bästa praxis
 
@@ -161,7 +162,7 @@ Det finns två stora familjer av webbläsare: de som är baserade på Chrome och
 
 Även om båda familjerna erbjuder en liknande säkerhetsnivå rekommenderas det att undvika att använda webbläsaren Google Chrome på grund av dess spårningsfunktioner. Lättare alternativ till Chrome, till exempel Chromium eller Brave, kan vara att föredra. Brave rekommenderas särskilt för sin inbyggda annonsblockerare. Det kan vara nödvändigt att använda flera webbläsare för att komma åt vissa webbplatser.
 
-![](assets/notext/6.webp)
+![image](assets/sv/006.webp)
 
 
 ### Privat surfning, TOR och andra alternativ för säkrare och mer anonym surfning
@@ -175,7 +176,7 @@ Ett mer avancerat alternativ är TOR-nätverket (The Onion Router), som erbjuder
 
 TOR är ett lagligt verktyg som används flitigt av journalister, frihetsaktivister och andra som försöker kringgå censur i auktoritära länder. Det är dock viktigt att förstå att TOR inte säkrar de besökta webbplatserna eller själva datorn. Att använda TOR kan dessutom göra internetanslutningen långsammare eftersom data passerar genom tre andra personers datorer innan den når sin destination. Det är också viktigt att notera att TOR inte är en idiotsäker lösning för att garantera 100 % anonymitet och inte bör användas för olaglig verksamhet.
 
-![](assets/notext/7.webp)
+![image](assets/sv/007.webp)
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
@@ -194,7 +195,7 @@ Att skydda sin internetanslutning är en viktig aspekt av säkerheten på nätet
 
 VPN är ett verktyg som krypterar data som överförs via internet, vilket gör anslutningen säkrare. I ett professionellt sammanhang gör VPN det möjligt för anställda att på ett säkert sätt få tillgång till företagets interna nätverk från avlägsna platser. Den data som utväxlas är krypterad, vilket gör det mycket svårare för tredje part att avlyssna den. Förutom att säkra åtkomsten till ett internt nätverk kan en användare med hjälp av ett VPN dirigera sin internetanslutning genom företagets interna nätverk, vilket ger intrycket att anslutningen kommer från företaget. Detta kan vara särskilt användbart för att få tillgång till onlinetjänster som är geografiskt begränsade.
 
-![](assets/en/8.webp)
+![image](assets/sv/008.webp)
 
 
 ### Olika typer av VPN
@@ -205,7 +206,7 @@ Det finns två huvudtyper av VPN: företags-VPN och konsument-VPN, till exempel 
 
 Att använda ett VPN för konsumenter garanterar dock inte fullständig anonymitet. Många VPN-leverantörer behåller information om sina användare, vilket kan äventyra deras anonymitet. Även om VPN kan vara användbart för att förbättra säkerheten på nätet är det inte en universallösning. De är effektiva för specifika användningsområden, t.ex. för att få tillgång till geografiskt begränsade tjänster eller för att förbättra säkerheten under resor, men de garanterar inte total säkerhet. När du väljer ett VPN är det viktigt att prioritera tillförlitlighet och teknisk expertis framför popularitet. VPN-leverantörer som samlar in minst personlig information är i allmänhet de säkraste. Tjänster som iVPN och Mullvad samlar inte in personlig information och tillåter till och med betalningar i Bitcoin för ökad integritet.
 
-![](assets/notext/9.webp)
+![image](assets/sv/009.webp)
 
 Slutligen kan ett VPN också användas för att blockera onlineannonser, vilket ger en trevligare och säkrare surfupplevelse. Det är dock viktigt att göra grundliga efterforskningar för att hitta det VPN som bäst passar dina behov. Att använda ett VPN rekommenderas för att förbättra säkerheten, även när du surfar på internet hemma. Detta bidrar till att säkerställa en högre skyddsnivå för utbytta data online. Slutligen, kan du kontrollera webbadresserna och det lilla hänglåset i Address-fältet för att bekräfta att du är på den avsedda webbplatsen?
 
@@ -225,7 +226,7 @@ I Europeiska unionen regleras dataskydd av den allmänna dataskyddsförordningen
 
 För att undvika bedrägerier på nätet är det viktigt att kontrollera identiteten på den webbplats du surfar på, särskilt genom att kontrollera tillägget och domännamnet. Var också vaksam mot bedragare som använder liknande bokstäver i webbadresser för att lura användare.
 
-![](assets/en/10.webp)
+![image](assets/sv/010.webp)
 
 Sammanfattningsvis kan användningen av ett VPN avsevärt förbättra säkerheten på nätet för både företag och enskilda användare. Dessutom kan goda surfvanor bidra till en bättre digital hygien. I nästa avsnitt av den här kursen kommer vi att gå igenom datasäkerhet, inklusive uppdateringar, antivirusprogram och lösenordshantering.
 
@@ -256,14 +257,14 @@ Säkerheten för våra datorer är ett stort problem i dagens digitala värld. I
 
 När det gäller valet av dator finns det ingen signifikant skillnad i säkerhet mellan gamla och nya datorer. Däremot finns det säkerhetsskillnader mellan olika operativsystem, till exempel Windows, Linux och Mac.
 
-![](assets/notext/11.webp)
+![image](assets/sv/011.webp)
 
 När det gäller Windows rekommenderas att man inte använder ett administratörskonto dagligen, utan att man skapar två separata konton: ett för administratörsbruk och ett annat för dagligt bruk. Windows är ofta mer sårbart för skadlig kod på grund av det stora antalet användare och att det är lätt att byta från en vanlig användare till en administratör. Å andra sidan är hoten mindre vanliga på Linux och Mac.
 
 
 Valet av operativsystem bör baseras på dina behov och preferenser. Linux-systemen har utvecklats avsevärt under de senaste åren och blivit alltmer användarvänliga. Ubuntu är ett intressant alternativ för nybörjare, med en lättanvänd grafisk Interface. Det är möjligt att partitionera en dator för att experimentera med Linux samtidigt som man behåller Windows, men det kan vara en komplicerad process. Det är ofta bättre att ha en dedikerad dator, en virtuell maskin eller en USB-nyckel för att testa Linux eller Ubuntu.
 
-![](assets/notext/12.webp)
+![image](assets/sv/012.webp)
 
 
 ### Uppdateringar av programvara
@@ -293,7 +294,7 @@ Valet och implementeringen av ett antivirusprogram är viktigt. Windows Defender
 
 För den som vill investera i ett betalt antivirus rekommenderas att välja ett antivirusprogram som på ett intelligent sätt analyserar okända och nya hot, till exempel Kaspersky. Antivirusuppdateringar är avgörande för att skydda mot nya hot.
 
-![](assets/notext/13.webp)
+![image](assets/sv/013.webp)
 
 
 > Notera: Linux och Mac, tack vare deras system för åtskillnad av användarrättigheter, behöver ofta inte antivirus.
@@ -343,7 +344,7 @@ Den gyllene regeln här är att noga kontrollera avsändarens fullständiga namn
 
 Ransomware är en typ av skadlig programvara som krypterar användardata och kräver en lösensumma för att dekryptera den. Den här typen av attacker blir allt vanligare och kan vara mycket besvärliga för både företag och privatpersoner. För att skydda dig är det viktigt att skapa säkerhetskopior av de känsligaste filerna! Detta kommer inte att stoppa ransomware, men det kommer att göra det möjligt för dig att ignorera det.
 
-![](assets/notext/14.webp)
+![image](assets/sv/014.webp)
 
 Säkerhetskopiera regelbundet dina viktiga data till en extern lagringsenhet eller en säker lagringstjänst online. På så sätt kan du återställa dina data utan att förlora viktig information i händelse av en cyberattack eller ett maskinvarufel.
 
@@ -401,7 +402,7 @@ Ett e-postkonto bör skapas med ett unikt och starkt lösenord (mer information 
 
 Korrekt hantering av våra e-postadresser är avgörande för att garantera säkerheten för vår online-åtkomst. Det är viktigt att välja en säker och integritetsrespekterande e-postleverantör. Till exempel är ProtonMail en säker e-posttjänst som respekterar privatlivet.
 
-![](assets/notext/15.webp)
+![image](assets/sv/015.webp)
 
 När du väljer en e-postleverantör och skapar ett lösenord är det viktigt att aldrig återanvända samma lösenord för olika onlinetjänster. Vi rekommenderar att du regelbundet skapar nya e-postadresser och använder dem för olika ändamål. Det är lämpligt att använda en säker e-posttjänst för kritiska konton. Det är också värt att notera att vissa tjänster begränsar längden på lösenord, så det är viktigt att vara medveten om denna begränsning. Det finns också tjänster för att skapa tillfälliga e-postadresser, som kan användas för konton med begränsad varaktighet.
 
@@ -414,7 +415,7 @@ Bara så att du vet, äldre e-postleverantörer som La Poste, Arobase, Wig och H
 
 Du bör använda webbplatsen Have I Been Pwned (https://haveibeenpwned.com/) för att kontrollera om din e-post Address har äventyrats och för att få meddelanden om framtida dataintrång. Hackare kan utnyttja en hackad databas för att skicka phishing-meddelanden eller återanvända komprometterade lösenord.
 
-![](assets/notext/16.webp)
+![image](assets/sv/016.webp)
 
 Att börja använda en ny, säkrare e-post Address är i allmänhet inte en dålig idé och är till och med nödvändigt om man vill börja om på nytt på en hälsosam basis.
 
@@ -448,7 +449,7 @@ Med en lösenordshanterare behöver du inte längre oroa dig för att glömma bo
 
 - Dashlane: Det är också en tjänst från tredje part, med en intuitiv Interface och ytterligare funktioner som spårning av kreditkortsinformation och säkra anteckningar.
 
-![](assets/notext/17.webp)
+![image](assets/sv/017.webp)
 
 
 ### Självhosting för mer kontroll:
@@ -461,7 +462,7 @@ Med en lösenordshanterare behöver du inte längre oroa dig för att glömma bo
 
 - KeePass: Det är en öppen källkodslösning som främst är avsedd för självhosting. Dina data lagras lokalt som standard, men du kan synkronisera lösenordsdatabasen med olika metoder om du vill. KeePass är allmänt erkänt för sin säkerhet och flexibilitet, även om det kan vara något mindre användarvänligt för nybörjare.
 
-![](assets/notext/18.webp)
+![image](assets/sv/018.webp)
 
 För självhostade lösningar som KeePass är det möjligt att synkronisera din databas mellan flera enheter utan att använda centraliserade tredjepartstjänster. Verktyg som **Syncthing** möjliggör krypterad och decentraliserad synkronisering direkt mellan dina enheter. Detta tillvägagångssätt håller dina data under din kontroll samtidigt som det säkerställer att de är tillgängliga på alla dina enheter.
 
@@ -500,7 +501,7 @@ Detta andra steg kan vara:
 - En kod som genereras av ett program som Google Authenticator eller Authy.
 - En fysisk säkerhetsnyckel som du sätter in i din dator.
 
-![](assets/notext/19.webp)
+![image](assets/sv/019.webp)
 
 Med 2FA kan en hackare, även om denne kommer över ditt lösenord, inte komma åt ditt konto utan den andra verifieringsfaktorn. Detta gör 2FA avgörande för att skydda dina onlinekonton mot obehörig åtkomst.
 
@@ -710,7 +711,7 @@ Den ständiga utvecklingen av hot kräver regelbunden bevakning av nyheter och s
 
 Genom att behärska dessa färdigheter och verktyg kommer du att vara väl utrustad för att navigera i cybersäkerhetsvärlden på ett framgångsrikt sätt.
 
-![](assets/notext/20.webp)
+![image](assets/sv/020.webp)
 
 
 ## Intervju med Renaud
@@ -730,7 +731,7 @@ Det är i allmänhet inte rekommenderat att använda webbläsartillägg för aut
 
 Lösenordshanterare uppmuntrar i allmänhet till användning av ytterligare autentiseringsfaktorer, t.ex. tvåfaktorsautentisering. För optimal säkerhet är det lämpligt att förvara OTP:er (engångslösenord) på din mobila enhet. AndOTP är en öppen källkodslösning för att generera och lagra OTP-koder (engångslösenord) på din mobila enhet. Även om Google Authenticator tillåter export av autentiseringskodfrön, är förtroendet för säkerhetskopiering på ett Google-konto fortfarande begränsat. Därför rekommenderas applikationerna OTI och AndoTP för autonom OTP-hantering.
 
-![](assets/notext/21.webp)
+![image](assets/sv/021.webp)
 
 Frågan om digitalt arv och digital sorg belyser vikten av att ha ett förfarande på plats för att överföra lösenord efter en persons död. En lösenordshanterare underlättar denna övergång genom att säkert lagra alla digitala hemligheter på ett och samma ställe. Med lösenordshanteraren kan du också identifiera alla öppna konton och hantera stängning eller överföring av dem. Det rekommenderas att huvudlösenordet skrivs ner på papper, men det bör förvaras på en dold och säker plats. Om Hard-enheten är krypterad och datorn är låst kommer lösenordet inte att vara tillgängligt, inte ens vid inbrott.
 

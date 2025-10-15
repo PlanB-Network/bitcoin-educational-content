@@ -35,6 +35,8 @@ Que vous représentiez une petite entreprise ou une grande société, ce cours v
 
 Prêt à plonger dans l'univers de Bitcoin pour les entreprises ? C'est parti !
 
+**N.B.** : Si vous rencontrez des termes inconnus pendant le cours, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour les définitions.
+
 # Monnaie, systèmes de paiement et Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

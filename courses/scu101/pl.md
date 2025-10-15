@@ -80,7 +80,7 @@ Jeśli szukasz bardziej zaawansowanych umiejętności na ten temat, nasze zasoby
 Na początek omówimy znaczenie wyboru przeglądarki internetowej i jej wpływ na bezpieczeństwo. Następnie zbadamy specyfikę przeglądarek, w szczególności w zakresie zarządzania plikami cookie. Zobaczymy również, jak zapewnić bezpieczniejsze i bardziej anonimowe przeglądanie, korzystając z narzędzi takich jak TOR. Następnie skupimy się na wykorzystaniu sieci VPN w celu zwiększenia ochrony danych. Na koniec przedstawimy zalecenia dotyczące bezpiecznego korzystania z połączeń WiFi.
 
 
-![](assets/en/1.webp)
+![image](assets/pl/001.webp)
 
 
 **Sekcja 2: Najlepsze praktyki korzystania z komputera**
@@ -93,7 +93,7 @@ Na początek omówimy znaczenie wyboru przeglądarki internetowej i jej wpływ n
 
 W tej sekcji omówimy trzy kluczowe obszary bezpieczeństwa komputerowego. Po pierwsze, zbadamy różne systemy operacyjne: Mac, PC i Linux, podkreślając ich specyfikę i mocne strony. Następnie zagłębimy się w metody skutecznej ochrony przed próbami włamań i wzmocnienia bezpieczeństwa urządzeń. Na koniec podkreślimy znaczenie regularnej ochrony i tworzenia kopii zapasowych danych, aby zapobiec ich utracie lub atakom ransomware.
 
-![](assets/en/2.webp)
+![image](assets/pl/002.webp)
 
 
 **Sekcja 3: Wdrażanie rozwiązań**
@@ -110,7 +110,7 @@ W tej praktycznej trzeciej części przejdziemy do wdrażania konkretnych rozwi�
 
 Najpierw zobaczymy, jak chronić skrzynkę e-mail, która jest niezbędna do komunikacji i często jest celem hakerów. Następnie przedstawimy menedżera haseł: praktyczne rozwiązanie, dzięki któremu nie zapomnisz ani nie pomylisz swoich haseł, zachowując ich bezpieczeństwo. Na koniec omówimy dodatkowy środek bezpieczeństwa, uwierzytelnianie dwuskładnikowe, które dodaje dodatkowy Layer ochrony do twoich kont. Wszystko zostanie wyjaśnione w jasny i przystępny sposób.
 
-![](assets/en/3.webp)
+![image](assets/pl/003.webp)
 
 
 Gotowy na wzmocnienie bezpieczeństwa cyfrowego i odzyskanie kontroli nad swoimi danymi? Do dzieła!
@@ -137,14 +137,15 @@ Zaleca się pobieranie oprogramowania z oficjalnej strony internetowej wydawcy, 
 
 Przykład: Użyj www.signal.org/download zamiast www.logicieltelechargement.fr/signal.
 
-![](assets/notext/4.webp)
+![image](assets/pl/004.webp)
 
 
 Zaleca się również priorytetowe traktowanie oprogramowania open-source, ponieważ są one często bezpieczniejsze i wolne od złośliwego oprogramowania. Oprogramowanie "open-source" to oprogramowanie, którego kod jest znany i dostępny dla każdego. Pozwala to między innymi zweryfikować, czy nie ma ukrytego dostępu do kradzieży danych osobowych.
 
 
 > Bonus: oprogramowanie open source jest często darmowe! Ten uniwersytet jest w 100% open source, więc możesz również sprawdzić nasz kod na naszym GitHubie.
-> ![](assets/notext/5.webp)
+
+![image](assets/pl/005.webp)
 
 ### Zarządzanie plikami cookie: Błędy i najlepsze praktyki
 
@@ -161,7 +162,7 @@ Istnieją dwie główne rodziny przeglądarek: te oparte na Chrome i te oparte n
 
 Chociaż obie rodziny oferują podobny poziom bezpieczeństwa, zaleca się unikanie przeglądarki Google Chrome ze względu na jej trackery. Lżejsze alternatywy dla Chrome, takie jak Chromium lub Brave, mogą być preferowane. Brave jest szczególnie polecany ze względu na wbudowany bloker reklam. Aby uzyskać dostęp do niektórych stron internetowych, konieczne może być korzystanie z wielu przeglądarek.
 
-![](assets/notext/6.webp)
+![image](assets/pl/006.webp)
 
 
 ### Przeglądanie prywatne, TOR i inne alternatywy dla bezpieczniejszego i bardziej anonimowego przeglądania
@@ -175,7 +176,7 @@ Bardziej zaawansowaną alternatywą jest sieć TOR (The Onion Router), która of
 
 TOR jest legalny i jest używany przez dziennikarzy, działaczy na rzecz wolności i inne osoby, które chcą uniknąć cenzury w krajach autorytarnych. Ważne jest jednak, aby zrozumieć, że TOR nie zabezpiecza odwiedzanych witryn ani samego komputera. Ponadto korzystanie z TOR może spowolnić połączenie internetowe, ponieważ dane przechodzą przez komputery trzech innych osób, zanim dotrą do miejsca docelowego. Należy również pamiętać, że TOR nie jest niezawodnym rozwiązaniem gwarantującym 100% anonimowość i nie powinien być używany do nielegalnych działań.
 
-![](assets/notext/7.webp)
+![image](assets/pl/007.webp)
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
@@ -194,7 +195,7 @@ Ochrona połączenia internetowego jest kluczowym aspektem bezpieczeństwa onlin
 
 "VPN to narzędzia, które szyfrują dane przesyłane przez Internet, dzięki czemu połączenie jest bezpieczniejsze. W kontekście zawodowym sieci VPN umożliwiają pracownikom bezpieczny zdalny dostęp do wewnętrznej sieci firmy. Wymieniane dane są szyfrowane, co znacznie utrudnia ich przechwycenie przez osoby trzecie. Oprócz zabezpieczenia dostępu do sieci wewnętrznej, korzystanie z VPN może pozwolić użytkownikowi na przekierowanie połączenia internetowego przez sieć wewnętrzną firmy, sprawiając wrażenie, że połączenie pochodzi z firmy. Może to być szczególnie przydatne w przypadku dostępu do usług online, które są ograniczone geograficznie.
 
-![](assets/en/8.webp)
+![image](assets/pl/008.webp)
 
 
 ### Rodzaje sieci VPN
@@ -205,7 +206,7 @@ Istnieją dwa główne typy VPN: VPN dla przedsiębiorstw i VPN dla konsumentów
 
 Korzystanie z konsumenckiej sieci VPN nie gwarantuje jednak pełnej anonimowości. Wielu dostawców VPN zachowuje informacje o swoich użytkownikach, co może potencjalnie zagrozić ich anonimowości. Chociaż sieci VPN mogą być przydatne do poprawy bezpieczeństwa online, nie są one uniwersalnym rozwiązaniem. Są skuteczne w przypadku niektórych konkretnych zastosowań, takich jak dostęp do usług ograniczonych geograficznie lub poprawa bezpieczeństwa podczas podróży, ale nie gwarantują całkowitego bezpieczeństwa. Wybierając VPN, ważne jest, aby przedkładać niezawodność i techniczność nad popularność. Dostawcy VPN, którzy zbierają najmniej danych osobowych, są zazwyczaj najbezpieczniejsi. Usługi takie jak iVPN i Mullvad nie gromadzą danych osobowych, a nawet umożliwiają płatności w Bitcoin w celu zwiększenia prywatności.
 
-![](assets/notext/9.webp)
+![image](assets/pl/009.webp)
 
 Wreszcie, VPN może być również używany do blokowania reklam online, zapewniając przyjemniejsze i bezpieczniejsze przeglądanie. Ważne jest jednak, aby przeprowadzić własne badania, aby znaleźć VPN, który najlepiej odpowiada Twoim konkretnym potrzebom. Korzystanie z VPN jest zalecane w celu zwiększenia bezpieczeństwa, nawet podczas przeglądania Internetu w domu. Pomaga to zapewnić wyższy poziom bezpieczeństwa wymienianych danych online. Na koniec upewnij się, że sprawdzasz adresy URL i małą kłódkę na pasku Address, aby potwierdzić, że jesteś na stronie, którą zamierzasz odwiedzić.
 
@@ -225,7 +226,7 @@ W Unii Europejskiej ochrona danych jest regulowana przez ogólne rozporządzenie
 
 Aby uniknąć oszustw internetowych, ważne jest, aby zweryfikować tożsamość przeglądanej witryny, zwłaszcza poprzez sprawdzenie rozszerzenia i nazwy domeny. Ponadto należy uważać na oszustów, którzy używają podobnych liter w adresach URL, aby oszukać użytkowników.
 
-![](assets/en/10.webp)
+![image](assets/pl/010.webp)
 
 Podsumowując, korzystanie z VPN może znacznie poprawić bezpieczeństwo online, zarówno dla firm, jak i użytkowników indywidualnych. Ponadto praktykowanie dobrych nawyków przeglądania może przyczynić się do lepszej higieny cyfrowej. W następnym segmencie tego kursu zajmiemy się bezpieczeństwem komputera Address, w tym aktualizacjami, programem antywirusowym i zarządzaniem hasłami.
 
@@ -256,14 +257,14 @@ Bezpieczeństwo naszych komputerów jest głównym problemem w dzisiejszym cyfro
 
 Jeśli chodzi o wybór komputera, nie ma znaczącej różnicy w bezpieczeństwie między starymi i nowymi komputerami. Istnieją jednak różnice w bezpieczeństwie między systemami operacyjnymi: Windows, Linux i Mac.
 
-![](assets/notext/11.webp)
+![image](assets/pl/011.webp)
 
 Jeśli chodzi o system Windows, zaleca się, aby nie używać konta administratora na co dzień, ale raczej utworzyć dwa oddzielne konta: konto administratora i konto do codziennego użytku. Windows jest często bardziej narażony na złośliwe oprogramowanie ze względu na dużą liczbę użytkowników i łatwość przełączania się z użytkownika na administratora. Z drugiej strony, zagrożenia są mniej powszechne w systemach Linux i Mac.
 
 
 Wybór systemu operacyjnego powinien opierać się na potrzebach i preferencjach użytkownika. Systemy Linux znacznie ewoluowały w ostatnich latach, stając się coraz bardziej przyjazne dla użytkownika. Ubuntu jest interesującą alternatywą dla początkujących, z łatwym w użyciu graficznym Interface. Możliwe jest podzielenie komputera na partycje w celu eksperymentowania z Linuksem przy jednoczesnym zachowaniu systemu Windows, ale może to być skomplikowane. Często lepiej jest mieć dedykowany komputer, maszynę wirtualną lub klucz USB do testowania Linuksa lub Ubuntu.
 
-![](assets/notext/12.webp)
+![image](assets/pl/012.webp)
 
 
 ### Aktualizacje oprogramowania
@@ -293,7 +294,7 @@ Wybór i wdrożenie programu antywirusowego jest ważne. Windows Defender, wbudo
 
 Dla tych, którzy chcą zainwestować w płatny program antywirusowy, zaleca się wybranie programu antywirusowego, który inteligentnie analizuje nieznane i pojawiające się zagrożenia, takie jak Kaspersky. Aktualizacje programu antywirusowego są niezbędne do ochrony przed nowymi zagrożeniami.
 
-![](assets/notext/13.webp)
+![image](assets/pl/013.webp)
 
 
 > Uwaga: Linux i Mac, dzięki systemowi separacji praw użytkownika, często nie potrzebują programu antywirusowego.
@@ -343,7 +344,7 @@ Złotą zasadą jest tutaj dokładne sprawdzenie pełnej nazwy nadawcy, a także
 
 Ransomware to rodzaj złośliwego oprogramowania, które szyfruje dane użytkownika i żąda okupu za ich odszyfrowanie. Ten rodzaj ataku staje się coraz bardziej powszechny i może być bardzo kłopotliwy dla firmy lub osoby prywatnej. Aby się chronić, konieczne jest tworzenie kopii zapasowych najbardziej wrażliwych plików! Nie powstrzyma to ransomware, ale pozwoli po prostu je zignorować.
 
-![](assets/notext/14.webp)
+![image](assets/pl/014.webp)
 
 Regularnie twórz kopie zapasowe ważnych danych na zewnętrznym urządzeniu pamięci masowej lub w bezpiecznej usłudze przechowywania danych online. W ten sposób, w przypadku cyberataku lub awarii sprzętu, można odzyskać dane bez utraty kluczowych informacji.
 
@@ -401,7 +402,7 @@ Chociaż wszyscy mamy już konto e-mail, ważne jest, aby rozważyć utworzenie 
 
 Właściwe zarządzanie naszymi adresami e-mail ma kluczowe znaczenie dla zapewnienia bezpieczeństwa naszego dostępu online. Ważne jest, aby wybrać bezpiecznego i szanującego prywatność dostawcę poczty e-mail. Na przykład ProtonMail to bezpieczna i szanująca prywatność usługa poczty elektronicznej.
 
-![](assets/notext/15.webp)
+![image](assets/pl/015.webp)
 
 Wybierając dostawcę poczty e-mail i tworząc hasło, ważne jest, aby nigdy nie używać tego samego hasła do różnych usług online. Zaleca się regularne tworzenie nowych adresów e-mail i oddzielne korzystanie z nich przy użyciu różnych adresów e-mail. Zaleca się wybranie bezpiecznej usługi e-mail dla krytycznych kont. Należy również zauważyć, że niektóre usługi ograniczają długość haseł, dlatego ważne jest, aby być świadomym tego ograniczenia. Dostępne są również usługi do tworzenia tymczasowych adresów e-mail, które mogą być używane dla kont o ograniczonym czasie działania.
 
@@ -414,7 +415,7 @@ Ważne jest, aby wziąć pod uwagę, że starsi dostawcy poczty e-mail, tacy jak
 
 Zaleca się korzystanie ze strony internetowej Have I Been Pwned (https://haveibeenpwned.com/), aby sprawdzić, czy nasz e-mail Address został naruszony i aby zostać powiadomionym o przyszłych naruszeniach danych. Zhakowana baza danych może zostać wykorzystana przez hakerów do wysyłania wiadomości phishingowych lub ponownego wykorzystania naruszonych haseł.
 
-![](assets/notext/16.webp)
+![image](assets/pl/016.webp)
 
 Ogólnie rzecz biorąc, rozpoczęcie korzystania z nowego, bezpieczniejszego Address nie jest złą praktyką, a nawet jest konieczne, jeśli ktoś chce zacząć od nowa.
 
@@ -448,7 +449,7 @@ Dzięki menedżerowi haseł nie musisz już martwić się o zapominanie haseł l
 
 - Dashlane: Jest to również usługa innej firmy, z intuicyjnym Interface i dodatkowymi funkcjami, takimi jak śledzenie informacji o karcie kredytowej i bezpieczne notatki.
 
-![](assets/notext/17.webp)
+![image](assets/pl/017.webp)
 
 
 ### Self-hosting dla większej kontroli:
@@ -461,7 +462,7 @@ Dzięki menedżerowi haseł nie musisz już martwić się o zapominanie haseł l
 
 - KeePass: Jest to rozwiązanie open-source, które jest przeznaczone głównie do samodzielnego hostingu. Dane są domyślnie przechowywane lokalnie, ale jeśli chcesz, możesz zsynchronizować bazę haseł za pomocą różnych metod. KeePass jest powszechnie znany ze swojego bezpieczeństwa i elastyczności, choć może być nieco mniej przyjazny dla początkujących użytkowników.
 
-![](assets/notext/18.webp)
+![image](assets/pl/018.webp)
 
 W przypadku rozwiązań samodzielnie hostowanych, takich jak KeePass, możliwe jest synchronizowanie bazy danych między kilkoma urządzeniami bez korzystania ze scentralizowanych usług stron trzecich. Narzędzia takie jak **Syncthing** umożliwiają szyfrowaną i zdecentralizowaną synchronizację bezpośrednio między urządzeniami. Takie podejście pozwala zachować kontrolę nad danymi i jednocześnie zapewnia ich dostępność na wszystkich urządzeniach.
 
@@ -500,7 +501,7 @@ Tym drugim krokiem może być:
 - Kod wygenerowany przez aplikację taką jak Google Authenticator lub Authy.
 - Fizyczny klucz bezpieczeństwa wkładany do komputera.
 
-![](assets/notext/19.webp)
+![image](assets/pl/019.webp)
 
 Dzięki 2FA, nawet jeśli haker uzyska twoje hasło, nie będzie w stanie uzyskać dostępu do twojego konta bez tego drugiego czynnika weryfikacji. To sprawia, że 2FA jest niezbędne do ochrony kont online przed nieautoryzowanym dostępem.
 
@@ -710,7 +711,7 @@ Ciągła ewolucja zagrożeń wymaga regularnego monitorowania wiadomości i spec
 
 Dzięki opanowaniu tych umiejętności i narzędzi będziesz dobrze przygotowany do skutecznego poruszania się po świecie cyberbezpieczeństwa.
 
-![](assets/notext/20.webp)
+![image](assets/pl/020.webp)
 
 
 ## Wywiad z Renaud
@@ -730,7 +731,7 @@ Generalnie nie zaleca się używania rozszerzeń przeglądarki do automatycznego
 
 Menedżery haseł zazwyczaj zachęcają do korzystania z dodatkowych czynników uwierzytelniania, takich jak uwierzytelnianie dwuskładnikowe. Aby zapewnić optymalne bezpieczeństwo, zaleca się przechowywanie OTP (haseł jednorazowych) na urządzeniu mobilnym. AndoTP oferuje rozwiązanie typu open-source do generowania i przechowywania kodów OTP w telefonie. Podczas gdy Google Authenticator umożliwia eksportowanie nasion kodu uwierzytelniającego, zaufanie do kopii zapasowej na koncie Google pozostaje ograniczone. Dlatego aplikacje OTI i AndoTP są zalecane do autonomicznego zarządzania OTP.
 
-![](assets/notext/21.webp)
+![image](assets/pl/021.webp)
 
 Kwestia cyfrowego dziedziczenia i cyfrowej żałoby podnosi znaczenie posiadania procedury przekazywania haseł po śmierci danej osoby. Menedżer haseł ułatwia to przejście, bezpiecznie przechowując wszystkie cyfrowe sekrety w jednym miejscu. Menedżer haseł pozwala również zidentyfikować wszystkie otwarte konta i zarządzać ich zamknięciem lub przeniesieniem. Zaleca się zapisanie hasła głównego na papierze, ale należy je przechowywać w ukrytym i bezpiecznym miejscu. Jeśli dysk Hard jest zaszyfrowany, a komputer zamknięty, hasło nie będzie dostępne nawet w przypadku włamania.
 

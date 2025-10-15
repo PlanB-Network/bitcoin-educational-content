@@ -1,16 +1,16 @@
 ---
-name: BTC Map
+name: BTC-map
 description: Tafuta maeneo ya kutumia Sats yako
 ---
 ![cover](assets/cover.webp)
 
 
 
-Ingawa wengi bado wanapunguza Bitcoin kuwa zana ya uwekezaji na ya kubahatisha, mtayarishi wake Satoshi Nakamoto aliitayarisha kama mfumo wa malipo wa kielektroniki wa Rika-kwa-Rika. Walakini, ni Hard kujua wapi unaweza kutumia bitcoins zako. Lakini hiyo ilikuwa kabla ya Ramani ya BTC.
+Ingawa wengi bado wanapunguza Bitcoin kuwa zana ya uwekezaji na ya kubahatisha, mtayarishi wake Satoshi Nakamoto aliitayarisha kama mfumo wa malipo wa kielektroniki wa peer-to-peer. Walakini, ni ngumu kujua wapi unaweza kutumia bitcoins zako. Lakini hiyo ilikuwa kabla ya BTC-map.
 
 
 
-Kulingana na OSM (OpenStreetMap), yenyewe ikiwa ni zana huria ya kuchora ramani shirikishi, Ramani ya BTC inatoa njia rahisi ya kuorodhesha mashirika ambayo yanakubali malipo katika BTC, Lightning au On-Chain. Hifadhidata ya kimataifa, ambayo bado ni changa lakini tayari ni muhimu, iliyo na watu wengi na kwa bitcoiners.
+Kulingana na OSM (OpenStreetMap), yenyewe ikiwa ni zana huria ya kuchora ramani shirikishi, BTC-map inatoa njia rahisi ya kuorodhesha mashirika ambayo yanakubali malipo katika BTC, Lightning au On-Chain. Hifadhidata ya kimataifa, ambayo bado ni changa lakini tayari ni muhimu, iliyo na watu wengi na kwa bitcoiners.
 
 
 
@@ -52,8 +52,8 @@ Vichupo mbalimbali vilivyo juu ya tovuti, kutoka kushoto kwenda kulia:
 
 
 
-- nembo ya Ramani ya BTC: rudi kwenye ukurasa wa nyumbani
-- "Ramani": kiini cha bidhaa, pamoja na ramani mbili (vifaa na jumuiya)
+- nembo ya BTC map: rudi kwenye ukurasa wa nyumbani
+- "map": kiini cha bidhaa, pamoja na ramani mbili (vifaa na jumuiya)
 - "Programu: midia tofauti ambayo unaweza kusakinisha Ramani ya BTC
 - "Maeneo": uwasilishaji wa jamii na takwimu, kwa bara na nchi
 - "Dumisha": kushiriki katika kusasisha na kuimarisha ramani
@@ -66,7 +66,7 @@ Kwa bahati mbaya, vichupo hivi vitaunda jedwali la yaliyomo katika mafunzo haya.
 
 
 
-## RAMANI
+## MAP
 
 
 
@@ -96,7 +96,7 @@ Tovuti inatoa kadi mbili na malengo tofauti. Lakini wacha tuanze kwa kuelezea za
 
 
 
-Pia utagundua, kwenye kona ya juu ya mkono wa kulia wa kila ramani, kitufe cha kubadilisha ramani Layer. Katika somo hili nimechagua kuacha toleo la giza.
+Pia utagundua, kwenye kona ya juu ya mkono wa kulia wa kila map, kitufe cha kubadilisha map Layer. Katika somo hili nimechagua kuacha toleo la giza.
 
 
 
@@ -230,7 +230,7 @@ Mara moja utaona maeneo ya rangi ya machungwa. Kama unavyoona, hizi ni jumuiya m
 - Thibitisha Mahali: sasisha/sahihisha maelezo kwenye kituo ambacho tayari kimeorodheshwa
 - Ongeza Jumuiya: ongeza jumuia (kuna makosa katika url, kufikia fomu, nenda kwa Maeneo -> Jumuiya -> Ongeza Jumuiya)
 - Fungua Tiketi: hapa ndipo maombi ya nyongeza, uthibitishaji, maeneo na jumuiya yanatua, ili kushughulikiwa na watu wa kujitolea.
-- Shughuli za Kuweka Tagi: hukuonyesha hatua za hivi punde zilizochukuliwa na washiriki wa mradi (mtumiaji yeyote kama wewe au mimi anaweza kushiriki), kama vile maeneo mapya zaidi yaliyoongezwa, kusasishwa au hata kufutwa...
+- Shughuli za Kuweka Tag: hukuonyesha hatua za hivi punde zilizochukuliwa na washiriki wa mradi (mtumiaji yeyote kama wewe au mimi anaweza kushiriki), kama vile maeneo mapya zaidi yaliyoongezwa, kusasishwa au hata kufutwa...
 - Masuala ya Kuweka lebo: hapa ndipo watumiaji wanaorodhesha makosa yote ya kuweka lebo
 
 
@@ -247,7 +247,7 @@ Mara moja utaona maeneo ya rangi ya machungwa. Kama unavyoona, hizi ni jumuiya m
 
 
 
-Ramani ya BTC inakuruhusu [kuongeza jumuiya yako mwenyewe](https://btcmap.org/communities/add/), hebu tuitazame hatua kwa hatua:
+BTC map inakuruhusu [kuongeza jumuiya yako mwenyewe](https://btcmap.org/communities/add/), hebu tuitazame hatua kwa hatua:
 
 
 
@@ -261,7 +261,7 @@ Ramani ya BTC inakuruhusu [kuongeza jumuiya yako mwenyewe](https://btcmap.org/co
 - 1: Eneo linalolingana na jumuiya yako
 - 2: Jina la jumuiya yako
 - 3: URL ya tovuti
-- 4: Umeme Address ambayo vidokezo vinaweza kutumwa
+- 4: Lightning Address ambayo vidokezo vinaweza kutumwa
 - 5: Marejeleo ya mitandao ya kijamii ambayo jumuiya yako iko
 - 6: Barua pepe yako ya Address ili jukwaa liweze kukuuliza habari zaidi ikihitajika
 - 7: Maelezo mafupi (k.m. jumuiya inayozungumza Kijerumani, eneo la Frankfurt)

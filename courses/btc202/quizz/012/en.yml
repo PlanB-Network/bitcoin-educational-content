@@ -3,7 +3,7 @@ answer: Building a candidate block from Mempool
 wrong_answers:
   - Validate the entire Blockchain from Mempool
   - Create Bitcoin addresses for users
-  - Store private keys for portfolios
+  - Store private keys for wallets
 explanation: |
   A miner selects transactions from Mempool and builds a candidate block, which he attempts to validate by proof of work.
-reviewed: false
+reviewed: true

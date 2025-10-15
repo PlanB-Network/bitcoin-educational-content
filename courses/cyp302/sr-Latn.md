@@ -1,16 +1,16 @@
 ---
-name: Uvod u formalnu Kriptografiju
-goal: Duboko uranjanje u nauku i praksu kriptografije.
+name: Uvod u formalnu kriptografiju
+goal: Detaljan uvod u nauku i praksu kriptografije
 objectives: 
 
   - Istražite Beale šifre i moderne kriptografske metode kako biste razumeli osnovne i istorijske koncepte kriptografije.
-  - Uronite se u teoriju brojeva, grupe i polja kako biste savladali ključne matematičke pojmove koji su osnova kriptografije.
+  - Uronite u teoriju brojeva, grupe i polja kako biste savladali ključne matematičke pojmove koji se nalaze u osnovi kriptografije.
   - Proučite RC4 stream šifru i AES sa 128-bitnim ključem da biste saznali više o simetričnim kriptografskim algoritmima.
-  - Istražite RSA kriptosistem, distribuciju ključeva i Hash funkcije kako biste istražili asimetričnu kriptografiju.
+  - Istražite RSA kriptosistem, distribuciju ključeva i heš funkcije kako biste istražili asimetričnu kriptografiju.
 
 
 ---
-# Duboko zaronite u kriptografiju
+# Detaljan uvod u kriptografiju
 
 
 Teško je pronaći mnogo materijala koji nude dobru sredinu u obrazovanju o kriptografiji.
@@ -19,7 +19,7 @@ Teško je pronaći mnogo materijala koji nude dobru sredinu u obrazovanju o krip
 S jedne strane, postoje dugački, formalni traktati, zaista dostupni samo onima sa jakom pozadinom u matematici, logici ili nekoj drugoj formalnoj disciplini. S druge strane, postoje veoma uvodne prezentacije koje zaista skrivaju previše detalja za svakoga ko je makar malo radoznao.
 
 
-Ovaj uvod u kriptografiju nastoji da zauzme srednji put. Iako bi trebalo da bude relativno izazovan i detaljan za svakoga ko je nov u kriptografiji, nije zečja rupa tipičnog osnovnog traktata.
+Ovaj uvod u kriptografiju nastoji da zauzme srednji put. Iako bi trebalo da bude relativno izazovan i detaljan za svakoga ko je nov u kriptografiji, nije „zečja rupa“ tipičnog osnovnog traktata.
 
 
 +++
@@ -36,11 +36,11 @@ Ovaj uvod u kriptografiju nastoji da zauzme srednji put. Iako bi trebalo da bude
 Dobrodošli na kurs CYP302!
 
 
-Ova knjiga nudi dubinsko uvodno proučavanje nauke i prakse kriptografije. Gde god je moguće, fokusira se na konceptualno, a ne formalno izlaganje materijala.
+Ova knjiga nudi detaljno uvodno proučavanje nauke i prakse kriptografije. Gde god je moguće, fokusira se na konceptualno, a ne formalno izlaganje materijala.
 
 
 
-Ovaj obrazovni sadržaj je adaptiran iz knjige i repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Iako je autor ljubazno dozvolio njegovu obrazovnu upotrebu, sva prava intelektualne svojine ostaju kod originalnog stvaraoca.
+Ovaj obrazovni sadržaj je adaptiran iz knjige i repozitorijuma [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Iako je autor ljubazno dozvolio njegovu obrazovnu upotrebu, sva prava intelektualne svojine ostaju kod originalnog stvaraoca.
 
 **Motivacija i ciljevi**
 
@@ -62,13 +62,13 @@ Od programera do intelektualno radoznalih, ova knjiga je korisna za svakoga ko �
 
 
 
-**Uputstva za čitanje**
+**Uputstvo za čitanje**
 
 
-Knjiga trenutno sadrži sedam poglavlja: "Šta je kriptografija?" (Poglavlje 1), "Matematičke osnove kriptografije I" (Poglavlje 2), "Matematičke osnove kriptografije II" (Poglavlje 3), "Simetrična kriptografija" (Poglavlje 4), "RC4 i AES" (Poglavlje 5), "Asimetrična kriptografija" (Poglavlje 6) i "RSA kriptosistem" (Poglavlje 7). Završno poglavlje, "Kriptografija u praksi," će još biti dodato. Ono se fokusira na razne kriptografske primene, uključujući sigurnost transporta Layer, onion routing i Bitcoin-ov sistem vrednosti Exchange.
+Knjiga trenutno sadrži sedam poglavlja: "Šta je kriptografija?" (Poglavlje 1), "Matematičke osnove kriptografije I" (Poglavlje 2), "Matematičke osnove kriptografije II" (Poglavlje 3), "Simetrična kriptografija" (Poglavlje 4), "RC4 i AES" (Poglavlje 5), "Asimetrična kriptografija" (Poglavlje 6) i "RSA kriptosistem" (Poglavlje 7). Završno poglavlje, "Kriptografija u praksi," će još biti dodato. Ono se fokusira na razne kriptografske primene, uključujući sigurnost transportnog sloja, onion rutiranje i Bitcoin-ov sistem razmene vrednosti.
 
 
-Osim ako nemate snažnu pozadinu u matematici, teorija brojeva je verovatno najteža tema u ovoj knjizi. Nudim pregled u Poglavlju 3, a pojavljuje se i u izlaganju AES-a u Poglavlju 5 i RSA kriptosistema u Poglavlju 7.
+Osim ako nemate snažnu pozadinu u matematici, teorija brojeva je verovatno najteža tema u ovoj knjizi. Nudim pregled u Poglavlju 3, a pojavljuje se i u izlaganju o AES-a u Poglavlju 5 i o RSA kriptosistemu u Poglavlju 7.
 
 
 Ako se zaista mučite sa formalnim detaljima u ovim delovima knjige, preporučujem da se prvi put zadovoljite čitanjem na visokom nivou.
@@ -81,7 +81,7 @@ Ako se zaista mučite sa formalnim detaljima u ovim delovima knjige, preporučuj
 Najuticajnija knjiga koja je oblikovala ovu je _Introduction to Modern Cryptography_ Jonathana Katza i Yehude Lindella, CRC Press (Boca Raton, FL), 2015. Prateći kurs je dostupan na Courseri pod nazivom "Cryptography."
 
 
-Glavni dodatni izvori koji su bili od pomoći u kreiranju pregleda u ovoj knjizi su Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar i Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) i [kurs zasnovan na knjizi Paar pod nazivom “Introduction to Cryptography”](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); i Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+Glavni dodatni izvori koji su bili od pomoći u kreiranju poglavlja u ovoj knjizi su Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar i Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) i [kurs zasnovan na knjizi Paar pod nazivom “Introduction to Cryptography”](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); i Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 
 Navešću samo vrlo specifične informacije i rezultate koje preuzimam iz ovih izvora, ali želim ovde da izrazim svoju opštu zahvalnost prema njima.
@@ -94,7 +94,7 @@ Za one čitaoce koji žele da potraže naprednije znanje o kriptografiji nakon o
 **Doprinosi**
 
 
-Molimo pogledajte [datoteku sa doprinosima u spremištu](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) za neke smernice o tome kako podržati projekat.
+Molimo pogledajte [datoteku sa doprinosima u repozitorijumu](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) za neke smernice o tome kako podržati projekat.
 
 
 
@@ -104,7 +104,7 @@ Molimo pogledajte [datoteku sa doprinosima u spremištu](https://github.com/JWBu
 **Ključni pojmovi:**
 
 
-Ključni pojmovi u priručnicima se uvode tako što se podebljavaju. Na primer, uvođenje šifre Rijndael kao ključnog pojma bi izgledalo ovako: **šifra Rijndael**.
+Ključni pojmovi u priručnicima se uvode tako što se podebljavaju. Na primer, uvođenje Rijndael šifre kao ključnog pojma bi izgledalo ovako: **Rijndael šifra**.
 
 
 Ključni pojmovi su eksplicitno definisani, osim ako su vlastita imena ili je njihovo značenje očigledno iz diskusije.
@@ -117,7 +117,7 @@ Bilo koja definicija se obično daje prilikom uvođenja ključnog pojma, iako je
 **Naglašene reči i fraze:**
 
 
-Reči i fraze su naglašene putem italika. Na primer, fraza "Remember your password" bi izgledala ovako: *Remember your password*.
+Reči i fraze su naglašene putem italika. Na primer, fraza "Remember your password" bi izgledala ovako: *Remember your password* (prevod: "Zapamtite svoju šifru).
 
 
 
@@ -152,7 +152,7 @@ Hajde da započnemo naše istraživanje u oblasti kriptografije jednim od šarma
 Priča o Beale šiframa je, po mom mišljenju, verovatnije fikcija nego stvarnost. Ali navodno se dogodila ovako.
 
 
-I tokom zime 1820. i 1822. godine, čovek po imenu Thomas J. Beale boravio je u gostionici koju je posedovao Robert Morriss u Lynchburgu (Virginia). Na kraju Bealeovog drugog boravka, predao je Morrissu gvozdenu kutiju sa vrednim dokumentima na čuvanje.
+Tokom zime 1820. i 1822. godine, čovek po imenu Thomas J. Beale boravio je u gostionici koju je posedovao Robert Morriss u Lynchburgu (Virginia). Na kraju Bealeovog drugog boravka, predao je Morrissu gvozdenu kutiju sa vrednim dokumentima na čuvanje.
 
 
 Nekoliko meseci kasnije, Morriss je primio pismo od Bealea datirano na 9. maj 1822. U njemu je naglašena velika vrednost sadržaja gvozdene kutije i navedena su neka uputstva za Morrissa: ako ni Beale ni bilo koji od njegovih saradnika nikada ne dođu da preuzmu kutiju, trebalo bi da je otvori tačno deset godina od datuma pisma (to jest, 9. maja 1832). Neki od papira unutra biće napisani u običnom tekstu. Nekoliko drugih, međutim, biće „nerazumljivi bez pomoći ključa.“ Taj „ključ“ bi, zatim, trebalo da bude dostavljen Morrissu od strane neimenovanog Bealeovog prijatelja u junu 1832.
@@ -208,19 +208,19 @@ Nakon dešifrovanja, druga poruka pruža detaljan sadržaj blaga (zlato, srebro 
 <chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
 
 
-Šarene priče poput one o Beale šiframa su ono što većina nas povezuje sa kriptografijom. Ipak, moderna kriptografija se razlikuje na najmanje četiri važna načina od ovih tipova istorijskih primera.
+Šarene priče poput one o Beale šiframa su ono što većina nas povezuje sa kriptografijom. Ipak, moderna kriptografija se u najmanje četiri važna aspekta razlikuje od ovih istorijskih primera.
 
 
 Prvo, istorijski gledano, kriptografija se bavila samo **tajnošću** (ili poverljivošću). [3] Šifrovani tekstovi bi bili kreirani kako bi se osiguralo da samo određene strane mogu imati pristup informacijama u otvorenim tekstovima, kao u slučaju Beale-ovih šifara. Da bi šema enkripcije dobro služila ovoj svrsi, dešifrovanje šifrovanog teksta trebalo bi da bude izvodljivo samo ako imate ključ.
 
 
-Moderna kriptografija se bavi širim spektrom tema od same tajnosti. Ove teme uključuju prvenstveno (1) **integritet poruke**—odnosno, osiguranje da poruka nije izmenjena; (2) **autentičnost poruke**—odnosno, osiguranje da poruka zaista dolazi od određenog pošiljaoca; i (3) **neporecivost**—odnosno, osiguranje da pošiljalac kasnije ne može lažno poreći da je poslao poruku. [4]
+Moderna kriptografija se bavi širim spektrom tema od same tajnosti. Ove teme uključuju prvenstveno (1) **integritet poruke**—odnosno, osiguranje da poruka nije izmenjena; (2) **autentičnost poruke**—odnosno, osiguranje da poruka zaista dolazi od određenog pošiljaoca; i (3) **neporecivost**—odnosno, obezbeđivanje da pošiljalac kasnije ne može lažno poreći da je poslao poruku. [4]
 
 
 Važno je imati na umu razliku između **šeme enkripcije** i **kriptografske šeme**. Šema enkripcije se bavi samo tajnošću. Iako je šema enkripcije kriptografska šema, obrnuto nije tačno. Kriptografska šema može služiti i drugim glavnim temama kriptografije, uključujući integritet, autentičnost i neporecivost.
 
 
-Teme integriteta i autentičnosti su jednako važne kao i tajnost. Naši moderni komunikacioni sistemi ne bi mogli da funkcionišu bez garancija u vezi sa integritetom i autentičnošću komunikacija. Neporecivost je takođe važna briga, kao na primer za digitalne ugovore, ali je manje sveprisutno potrebna u kriptografskim aplikacijama nego tajnost, integritet i autentičnost.
+Teme integriteta i autentičnosti su jednako važne kao i tajnost. Naši moderni komunikacioni sistemi ne bi mogli da funkcionišu bez garancija u vezi sa integritetom i autentičnošću komunikacija. Neporecivost ili neopozivost je takođe važna, kao na primer za digitalne ugovore, ali je manje univerzalno potrebna u kriptografskim aplikacijama u poređenju sa tajnošću, integritetom i autentičnošću.
 
 
 Drugo, klasične šeme šifrovanja kao što su Beale šifre uvek uključuju jedan ključ koji je deljen među svim relevantnim stranama. Međutim, mnoge moderne kriptografske šeme uključuju ne samo jedan, već dva ključa: **privatni** i **javni ključ**. Dok prvi treba da ostane privatan u svim aplikacijama, drugi je obično javno poznat (otuda i njihova imena). U okviru šifrovanja, javni ključ može biti korišćen za šifrovanje poruke, dok se privatni ključ može koristiti za dešifrovanje.
@@ -232,7 +232,7 @@ Grana kriptografije koja se bavi šemama gde sve strane dele jedan ključ poznat
 Pojava asimetrične kriptografije krajem 1970-ih bila je jedan od najvažnijih događaja u istoriji kriptografije. Bez nje, većina naših modernih komunikacionih sistema, uključujući Bitcoin, ne bi bila moguća, ili bi barem bila veoma nepraktična.
 
 
-Važno je napomenuti da moderna kriptografija nije isključivo proučavanje simetričnih i asimetričnih kriptografskih šema (iako to pokriva veći deo oblasti). Na primer, kriptografija se takođe bavi Hash funkcijama i generatorima pseudorandom brojeva, i možete izgraditi aplikacije na ovim primitivima koje nisu povezane sa simetričnom ili asimetričnom kriptografijom ključeva.
+Važno je napomenuti da moderna kriptografija nije isključivo proučavanje simetričnih i asimetričnih kriptografskih šema (iako to pokriva veći deo oblasti). Na primer, kriptografija se takođe bavi heš funkcijama i generatorima pseudonasumičnih brojeva, i možete izgraditi aplikacije na ovim primitivima koje nisu povezane sa simetričnom ili asimetričnom kriptografijom ključeva.
 
 
 Treće, klasične šeme šifrovanja, poput onih korišćenih u Beale šiframa, bile su više umetnost nego nauka. Njihova percipirana sigurnost uglavnom se zasnivala na intuicijama u vezi sa njihovom složenošću. Obično bi bile zakrpljene kada bi se saznalo za novi napad na njih, ili bi bile potpuno odbačene ako je napad bio posebno ozbiljan. Međutim, moderna kriptografija je rigorozna nauka sa formalnim, matematičkim pristupom kako razvoju, tako i analizi kriptografskih šema. [5]
@@ -243,12 +243,12 @@ Specifično, moderna kriptografija se fokusira na formalne **dokaze sigurnosti**
 
 1.	Izjava o **kriptografskoj definiciji sigurnosti**, odnosno, skup sigurnosnih ciljeva i pretnja koju predstavlja napadač.
 
-2.	Izjava o bilo kojim matematičkim pretpostavkama u vezi sa računarskom složenošću šeme. Na primer, kriptografska šema može sadržati generator pseudorandom brojeva. Iako ne možemo dokazati da oni postoje, možemo pretpostaviti da postoje.
+2.	Izjava o bilo kojim matematičkim pretpostavkama u vezi sa računarskom složenošću šeme. Na primer, kriptografska šema može sadržati generator pseudonasumičnih brojeva. Iako ne možemo dokazati da oni postoje, možemo pretpostaviti da postoje.
 
 3.	Izlaganje matematičkog **dokaza sigurnosti** šeme na osnovu formalnog pojma sigurnosti i bilo kojih matematičkih pretpostavki.
 
 
-Četvrto, dok se istorijski kriptografija prvenstveno koristila u vojnim okruženjima, ona je prožela naše svakodnevne aktivnosti u digitalnom dobu. Bilo da obavljate bankarske poslove putem interneta, objavljujete na društvenim mrežama, kupujete proizvod na Amazonu sa svojom kreditnom karticom ili dajete napojnicu prijatelju Bitcoin, kriptografija je sine qua non našeg digitalnog doba.
+Četvrto, dok se istorijski kriptografija prvenstveno koristila u vojnim okruženjima, ona je prožela naše svakodnevne aktivnosti u digitalnom dobu. Bilo da obavljate bankarske poslove putem interneta, objavljujete na društvenim mrežama, kupujete proizvod na Amazonu sa svojom kreditnom karticom ili dajete Bitcoin napojnicu prijatelju, kriptografija je sine qua non našeg digitalnog doba.
 
 
 S obzirom na ova četiri aspekta moderne kriptografije, mogli bismo okarakterisati modernu **kriptografiju** kao nauku koja se bavi formalnim razvojem i analizom kriptografskih šema za zaštitu digitalnih informacija od napada protivnika. [6] Bezbednost ovde treba široko shvatiti kao sprečavanje napada koji narušavaju tajnost, integritet, autentifikaciju i/ili neporecivost u komunikacijama.
@@ -257,17 +257,17 @@ S obzirom na ova četiri aspekta moderne kriptografije, mogli bismo okarakterisa
 Kriptografija se najbolje posmatra kao poddisciplina **kibernetičke sigurnosti**, koja se bavi sprečavanjem krađe, oštećenja i zloupotrebe računarskih sistema. Imajte na umu da mnogi problemi kibernetičke sigurnosti imaju malo ili samo delimičnu vezu sa kriptografijom.
 
 
-Na primer, ako kompanija lokalno smešta skupe servere, možda će biti zabrinuta za obezbeđivanje ovog hardvera od krađe i oštećenja. Iako je ovo pitanje sajber bezbednosti, ima malo veze sa kriptografijom.
+Na primer, ako kompanija lokalno smešta skupe servere, možda će biti zabrinuta za obezbeđivanje ovog hardvera od krađe i oštećenja. Iako je ovo pitanje sajber iliti kibernetičke bezbednosti, ono ima malo veze sa kriptografijom.
 
 
-Za još jedan primer, **phishing napadi** su čest problem u našem modernom dobu. Ovi napadi pokušavaju da prevare ljude putem e-maila ili nekog drugog medija za poruke kako bi otkrili osetljive informacije kao što su lozinke ili brojevi kreditnih kartica. Iako kriptografija može pomoći Address phishing napadima do određenog stepena, sveobuhvatan pristup zahteva više od samog korišćenja neke kriptografije.
+Za još jedan primer, **phishing napadi** su čest problem u našem modernom dobu. Ovi napadi pokušavaju da prevare ljude putem e-maila ili nekog drugog medija za poruke kako bi otkrili osetljive informacije kao što su lozinke ili brojevi kreditnih kartica. Iako kriptografija može pomoći rešavanju phishing napada do određenog stepena, sveobuhvatan pristup zahteva više od samog korišćenja neke kriptografije.
 
 
 
 **Beleške:**
 
 
-[3] Da budemo precizni, važne primene kriptografskih šema su bile povezane sa tajnošću. Deca, na primer, često koriste jednostavne kriptografske šeme za „zabavu“. Tajnost zapravo nije zabrinutost u tim slučajevima.
+[3] Da budemo precizni, važne primene kriptografskih šema su bile povezane sa tajnošću. Deca, na primer, često koriste jednostavne kriptografske šeme za „zabavu“. Tajnost u tim slučajevima zapravo nije od značaja.
 
 
 [4] Bruce Schneier, *Applied Cryptography*, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons), str. 2.
@@ -285,10 +285,10 @@ Za još jedan primer, **phishing napadi** su čest problem u našem modernom dob
 <chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
 
 
-Moderna kriptografija je dizajnirana da pruži sigurnosne garancije u **otvorenom komunikacionom** okruženju. Ako je naš komunikacioni kanal toliko dobro zaštićen da prisluškivači nemaju šanse da manipulišu ili čak samo posmatraju naše poruke, onda je kriptografija suvišna. Većina naših komunikacionih kanala, međutim, nije ovako dobro čuvana.
+Moderna kriptografija je dizajnirana da pruži sigurnosne garancije u **otvorenom komunikacionom** okruženju. Ako je naš komunikacioni kanal toliko dobro zaštićen da prisluškivači nemaju šanse da manipulišu ili čak da samo posmatraju naše poruke, onda je kriptografija suvišna. Većina naših komunikacionih kanala, međutim, nije ovako dobro čuvana.
 
 
-Kičma komunikacije u modernom svetu je ogromna mreža optičkih kablova. Obavljanje telefonskih poziva, gledanje televizije i pretraživanje interneta u modernom domaćinstvu uglavnom se oslanja na ovu mrežu optičkih kablova (mali procenat može se oslanjati isključivo na satelite). Istina je da možete imati različite podatkovne veze u svom domu, kao što su koaksijalni kabl, (asimetrična) digitalna pretplatnička linija i optički kabl. Ali, barem u razvijenom svetu, ovi različiti mediji za prenos podataka brzo se spajaju izvan vaše kuće na čvor u ogromnoj mreži optičkih kablova koja povezuje ceo svet. Izuzeci su neka udaljena područja razvijenog sveta, kao što su Sjedinjene Američke Države i Australija, gde podatkovni saobraćaj može i dalje prelaziti značajne udaljenosti preko tradicionalnih bakarnih telefonskih žica.
+Kičma komunikacije u modernom svetu je ogromna mreža optičkih kablova. Obavljanje telefonskih poziva, gledanje televizije i pretraživanje interneta u modernom domaćinstvu uglavnom se oslanja na ovu mrežu optičkih kablova (mali procenat može se oslanjati isključivo na satelite). Istina je da možete imati različite veze za prenos podataka u svom domu, kao što su koaksijalni kabl, (asimetrična) digitalna pretplatnička linija i optički kabl. Ali, barem u razvijenom svetu, ovi različiti mediji za prenos podataka brzo se spajaju izvan vaše kuće na čvor u ogromnoj mreži optičkih kablova koja povezuje ceo svet. Izuzeci su neka udaljena područja razvijenog sveta, kao što su Sjedinjene Američke Države i Australija, gde saobraćaj podataka može i dalje prelaziti značajne udaljenosti preko tradicionalnih bakarnih telefonskih žica.
 
 
 Bilo bi nemoguće sprečiti potencijalne napadače da fizički pristupe ovoj mreži kablova i njenoj pratećoj infrastrukturi. Zapravo, već znamo da većinu naših podataka presreću razne nacionalne obaveštajne agencije na ključnim tačkama preseka Interneta.[7] Ovo uključuje sve, od poruka na Facebook-u do adresa veb-sajtova koje posećujete.
@@ -325,7 +325,7 @@ Stoga, ideja o čuvanju komunikacija u tajnosti zaštitom komunikacionog kanala 
 Kriptografija se oslanja na matematiku. I ako želite da izgradite više od površnog razumevanja kriptografije, morate biti komforni sa tom matematikom.
 
 
-Ovo poglavlje uvodi većinu osnovne matematike s kojom ćete se susresti prilikom učenja kriptografije. Teme uključuju slučajne varijable, modulo operacije, XOR operacije i pseudonasumičnost. Trebalo bi da savladate materijal u ovim sekcijama za bilo kakvo nesuperficijalno razumevanje kriptografije.
+Ovo poglavlje uvodi većinu osnovne matematike s kojom ćete se susresti prilikom učenja kriptografije. Teme uključuju slučajne varijable, modulo operacije, XOR operacije i pseudonasumičnost. Trebalo bi da savladate materijal u ovim sekcijama za bilo kakvo nepovršno razumevanje kriptografije.
 
 
 Sledeći deo se bavi teorijom brojeva, što je mnogo izazovnije.
@@ -372,8 +372,7 @@ Promenljiva $X$ iznad je definisana apstraktno. Stoga, možete zamisliti uzorkov
 Alternativno, možete zamisliti uzorkovanje $X$, kao bacanje poštene kocke i dodeljivanje “2” u slučaju da kocka pokaže $1$, $3$, ili $4$, i dodeljivanje “1” u slučaju da kocka pokaže $2$, $5$, ili $6$. Svaki put kada uzorkujete $X$, ponovo bacate kocku.
 
 
-Zaista, bilo koji prirodni eksperiment koji bi vam omogućio da definišete verovatnoće mogućih vrednosti $X$ iznad može se zamisliti u vezi sa crtanjem.
-
+Zapravo, svaki prirodni eksperiment koji bi vam omogućio da odredite verovatnoće mogućih vrednosti gore navedenih može se zamisliti u odnosu na izvlačenje.
 
 Često, međutim, slučajne promenljive nisu samo apstraktno uvedene. Umesto toga, skup mogućih vrednosti ishoda ima eksplicitno značenje u stvarnom svetu (umesto samo kao brojevi). Pored toga, ove vrednosti ishoda mogu biti definisane u odnosu na neku specifičnu vrstu eksperimenta (umesto kao bilo koji prirodni eksperiment sa tim vrednostima).
 
@@ -382,7 +381,7 @@ Hajde sada da razmotrimo primer promenljive $X$ koja nije apstraktno definisana.
 
 
 
-- $X$ ima skup ishoda {red kicks off,blue kicks off}
+- $X$ ima skup ishoda {crveni započinju utakmicu, plavi započinju utakmicu}
 - Bacite određeni novčić $C$: pismo = „crveni počinje“; glava = „plavi počinje“
 
 
@@ -411,14 +410,14 @@ Nasumične promenljive mogu imati diskretne ili kontinuirane raspodele verovatno
 **Kontinuirane slučajne promenljive** mogu umesto toga uzimati vrednosti u jednom ili više intervala. Možete reći, na primer, da će slučajna promenljiva, prilikom uzorkovanja, uzeti bilo koju realnu vrednost između 0 i 1, i da je svaki realan broj u ovom intervalu podjednako verovatan. Unutar ovog intervala, postoji beskonačno mnogo mogućih vrednosti.
 
 
-Za kriptografske diskusije, potrebno je razumeti samo diskretne slučajne promenljive. Svaka diskusija o slučajnim promenljivama od sada nadalje treba, dakle, da se razume kao da se odnosi na diskretne slučajne promenljive, osim ako nije izričito navedeno drugačije.
+Za kriptografske diskusije, potrebno je razumeti samo diskretne slučajne promenljive. Svaka diskusija o slučajnim promenljivama od sada pa na dalje treba, dakle, da se razume kao da se odnosi na diskretne slučajne promenljive, osim ako nije izričito navedeno drugačije.
 
 
 
-### Grafikovanje slučajnih varijabli
+### Grafički prikaz slučajnih varijabli
 
 
-Moguće vrednosti i pridružene verovatnoće za slučajnu promenljivu mogu se lako vizualizovati putem grafa. Na primer, razmotrimo slučajnu promenljivu $X$ iz prethodnog odeljka sa skupom ishoda $\{1, 2\}$, i $Pr [X = 1] = 0.5$ i $Pr [X = 2] = 0.5$. Takvu slučajnu promenljivu bismo obično prikazali u obliku stubičastog grafa kao u *Figure 1*.
+Moguće vrednosti i pridružene verovatnoće za slučajnu promenljivu mogu se lako vizualizovati putem grafa. Na primer, razmotrimo slučajnu promenljivu $X$ iz prethodnog odeljka sa skupom ishoda $\{1, 2\}$, i $Pr [X = 1] = 0.5$ i $Pr [X = 2] = 0.5$. Takvu slučajnu promenljivu bismo obično prikazali u obliku stubičastog grafa kao u *Slici 1*.
 
 
 *Slika 1: Slučajna promenljiva X*
@@ -427,14 +426,14 @@ Moguće vrednosti i pridružene verovatnoće za slučajnu promenljivu mogu se la
 ![Figure 1: Random variable X.](assets/Figure2-1.webp)
 
 
-Široke trake u *Figure 1* očigledno ne znače da nasumična varijabla $X$ zapravo ima kontinuiranu distribuciju. Umesto toga, trake su napravljene širokim kako bi bile vizuelno privlačnije (samo linija koja ide pravo gore pruža manje intuitivnu vizualizaciju).
+Široke stubovi u *Slici 1* očigledno ne znače da nasumična varijabla $X$ zapravo ima kontinuiranu distribuciju. Umesto toga, stubovi su napravljeni širokim kako bi bile vizuelno privlačnije (samo linija koja ide pravo gore pruža manje intuitivnu vizualizaciju).
 
 
 
 ### Uniformne varijable
 
 
-U izrazu „slučajna varijabla“, termin „slučajna“ samo znači „verovatnosna“. Drugim rečima, to samo znači da se dva ili više mogućih ishoda varijable javljaju sa određenim verovatnoćama. Ovi ishodi, međutim, *ne moraju nužno* biti podjednako verovatni (iako termin „slučajna“ zaista može imati to značenje u drugim kontekstima).
+U izrazu „slučajna varijabla“, termin „slučajna“ samo znači „verovatna“. Drugim rečima, to samo znači da se dva ili više mogućih ishoda varijable javljaju sa određenim verovatnoćama. Ovi ishodi, međutim, *ne moraju nužno* biti podjednako verovatni (iako termin „slučajna“ zaista može imati to značenje u drugim kontekstima).
 
 
 **Uniformna promenljiva** je poseban slučaj slučajne promenljive. Može poprimiti dve ili više vrednosti, sve sa jednakom verovatnoćom. Slučajna promenljiva $X$ prikazana na *Slici 1* je očigledno uniformna promenljiva, jer se oba moguća ishoda javljaju sa verovatnoćom $0.5$. Međutim, postoji mnogo slučajnih promenljivih koje nisu primeri uniformnih promenljivih.
@@ -509,7 +508,7 @@ $$
 $$
 
 
-Možete ga videti prikazanog na *Figure 3*. Nasumična promenljiva Z je, za razliku od Y, uniformna promenljiva, jer su sve verovatnoće za moguće vrednosti pri uzorkovanju jednake.
+Možete ga videti prikazanog na *Slici 3*. Nasumična promenljiva Z je, za razliku od Y, uniformna promenljiva, jer su sve verovatnoće za moguće vrednosti pri uzorkovanju jednake.
 
 
 
@@ -523,25 +522,25 @@ Možete ga videti prikazanog na *Figure 3*. Nasumična promenljiva Z je, za razl
 ### Uslovna verovatnoća
 
 
-Pretpostavimo da Bob namerava da ravnomerno izabere dan iz poslednje kalendarske godine. Šta treba da zaključimo da je verovatnoća da izabrani dan bude u letu?
+Pretpostavimo da Bob namerava da ravnomerno izabere dan iz poslednje kalendarske godine. Kakav bi trebalo da bude naš zaključak o verovatnoći da izabrani dan bude u leto?
 
 
-Sve dok mislimo da će Bobov proces zaista biti potpuno uniforman, trebali bismo zaključiti da postoji verovatnoća od 1/4 da Bob izabere dan u letu. Ovo je **bezuslovna verovatnoća** da nasumično izabrani dan bude u letu.
+Sve dok mislimo da će Bobov proces zaista biti potpuno uniforman, trebali bismo zaključiti da postoji verovatnoća od 1/4 da Bob izabere dan u leto. Ovo je **bezuslovna verovatnoća** da nasumično izabrani dan bude u leto.
 
 
-Pretpostavimo sada da Bob umesto da nasumično bira kalendarski dan, bira samo nasumično među onim danima kada je podnevna temperatura na Crystal Lake-u (New Jersey) bila 21 stepen Celzijusa ili viša. S obzirom na ove dodatne informacije, šta možemo zaključiti o verovatnoći da će Bob izabrati dan u letu?
+Pretpostavimo sada da Bob umesto da nasumično bira kalendarski dan, bira samo nasumično među onim danima kada je podnevna temperatura na Crystal Lake-u (New Jersey) bila 21 stepen celzijusa ili viša. S obzirom na ove dodatne informacije, šta možemo zaključiti o verovatnoći da će Bob izabrati dan u leto?
 
 
 Zaista bismo trebali izvući drugačiji zaključak nego ranije, čak i bez ikakvih dodatnih specifičnih informacija (npr., temperatura u podne svakog dana prošle kalendarske godine).
 
 
-Znajući da je Crystal Lake u New Jerseyju, sigurno ne bismo očekivali da temperatura u podne bude 21 stepen Celzijusa ili viša zimi. Umesto toga, mnogo je verovatnije da je to topao dan u proleće ili jesen, ili dan negde u leto. Dakle, znajući da je temperatura u podne na Crystal Lakeu na odabrani dan bila 21 stepen Celzijusa ili viša, verovatnoća da je dan koji je Bob odabrao u leto postaje mnogo veća. Ovo je **uslovna verovatnoća** da je nasumično odabrani dan u leto, s obzirom na to da je temperatura u podne na Crystal Lakeu bila 21 stepen Celzijusa ili viša.
+Znajući da je Crystal Lake u New Jerseyju, sigurno ne bismo očekivali da temperatura u podne bude 21 stepen celzijusa ili viša zimi. Umesto toga, mnogo je verovatnije da je to topao dan u proleće ili jesen, ili dan negde u leto. Dakle, znajući da je temperatura u podne na Crystal Lakeu na odabrani dan bila 21 stepen celzijusa ili viša, verovatnoća da je dan koji je Bob odabrao bude u leto postaje mnogo veća. Ovo je **uslovna verovatnoća** da je nasumično odabrani dan u leto, s obzirom na to da je temperatura u podne na Crystal Lakeu bila 21 stepen celzijusa ili viša.
 
 
 Za razliku od prethodnog primera, verovatnoće dva događaja takođe mogu biti potpuno nepovezane. U tom slučaju, kažemo da su **nezavisni**.
 
 
-Pretpostavimo, na primer, da je određeni pošten novčić pao na glavu. S obzirom na ovu činjenicu, kolika je, onda, verovatnoća da će sutra padati kiša? Uslovna verovatnoća u ovom slučaju treba da bude ista kao i bezuslovna verovatnoća da će sutra padati kiša, jer bacanje novčića generalno nema uticaja na vreme.
+Pretpostavimo, na primer, da je određeni regularan novčić pao na glavu. S obzirom na ovu činjenicu, kolika je, onda, verovatnoća da će sutra padati kiša? Uslovna verovatnoća u ovom slučaju treba da bude ista kao i bezuslovna verovatnoća da će sutra padati kiša, jer bacanje novčića generalno nema uticaja na vreme.
 
 
 Koristimo simbol "|" za pisanje izjava o uslovnoj verovatnoći. Na primer, verovatnoća događaja $A$ pod uslovom da se dogodio događaj $B$ može se napisati na sledeći način:
@@ -626,7 +625,7 @@ Najosnovniji izraz sa **modulo operacijom** je sledećeg oblika: $x \mod y$.
 Promenljiva $x$ se naziva deljenik, a promenljiva $y$ delilac. Da biste izvršili modulo operaciju sa pozitivnim deljenikom i pozitivnim deliocem, jednostavno odredite ostatak deljenja.
 
 
-Na primer, razmotrimo izraz $25 \mod 4$. Broj 4 ide u broj 25 ukupno 6 puta. Ostatak te deljenja je 1. Dakle, $25 \mod 4$ je jednako 1. Na sličan način, možemo izračunati izraze ispod:
+Na primer, razmotrimo izraz $25 \mod 4$. Broj 4 ide u broj 25 ukupno 6 puta. Ostatak tog deljenja je 1. Dakle, $25 \mod 4$ je jednako 1. Na sličan način, možemo izračunati izraze ispod:
 
 
 
@@ -643,11 +642,11 @@ Definitivno ćete naići na slučajeve sa negativnim deliocem u kriptografiji. U
 
 
 
-- Prvo odredite najbližu vrednost *manju ili jednaku* deliocu u koju delilac deli sa ostatkom nula. Nazovite tu vrednost $p$.
-- Ako je dividenda $x$, onda je rezultat operacije modulo vrednost $x – p$.
+- Prvo odredite najbližu vrednost *manju ili jednaku* deljeniku u koju se delilac deli bez ostatka. Nazovite tu vrednost $p$.
+- Ako je deljenik $x$, onda je rezultat operacije modulo vrednost $x – p$.
 
 
-Na primer, pretpostavimo da je dividenda $–20$ a delilac 3. Najbliža vrednost manja ili jednaka $–20$ u koju 3 deli ravnomerno je $–21$. Vrednost $x – p$ u ovom slučaju je $–20 – (–21)$. Ovo je jednako 1 i, prema tome, $–20 \mod 3$ je jednako 1. Na sličan način, možemo izračunati izraze ispod:
+Na primer, pretpostavimo da je deljenik $–20$ a delilac 3. Najbliža vrednost manja ili jednaka $–20$ u koju 3 deli ravnomerno je $–21$. Vrednost $x – p$ u ovom slučaju je $–20 – (–21)$. Ovo je jednako 1 i, prema tome, $–20 \mod 3$ je jednako 1. Na sličan način, možemo izračunati izraze ispod:
 
 
 
@@ -659,7 +658,7 @@ Na primer, pretpostavimo da je dividenda $–20$ a delilac 3. Najbliža vrednost
 U vezi sa notacijom, obično ćete videti sledeće tipove izraza: $x = [y \mod z]$. Zbog zagrada, operacija modulo u ovom slučaju se primenjuje samo na desnu stranu izraza. Ako je $y$ jednako 25, a $z$ jednako 4, na primer, tada $x$ iznosi 1.
 
 
-Without brackets, the modulo operation acts on *both sides* of an expression. Suppose, for instance, the following expression: $x = y \mod z$. If $y$ equals 25 and $z$ equals 4, then all we know is that $x \mod 4$ evaluates to 1. This is consistent with any value for $x$ from the set $\{\ldots,–7, –3, 1, 5, 9,\ldots\}$.
+Bez uglastih zagrada, operacija modulo deluje na *obe strane* izraza. Pretpostavite, na primer, sledeći izraz: $x = y \mod z$. Ako $y$ je jednako 25 i ako $z$ je jednako 4, onda znamo da  $x \mod 4$ je jednako 1. Ovo odgovara bilo kojoj vrednosti $x$ iz seta $\{\ldots,–7, –3, 1, 5, 9,\ldots\}$.
 
 
 Grana matematike koja uključuje modulo operacije na brojevima i izrazima naziva se **modularna aritmetika**. Možete misliti na ovu granu kao na aritmetiku za slučajeve u kojima brojna linija nije beskonačno dugačka. Iako obično nailazimo na modulo operacije za (pozitivne) cele brojeve unutar kriptografije, možete takođe izvoditi modulo operacije koristeći bilo koje realne brojeve.
@@ -671,7 +670,7 @@ Grana matematike koja uključuje modulo operacije na brojevima i izrazima naziva
 Operacija modulo se često sreće u kriptografiji. Da bismo ilustrovali, razmotrimo jednu od najpoznatijih istorijskih šema šifrovanja: šifru pomaka.
 
 
-Hajde prvo da ga definišemo. Pretpostavimo rečnik *D* koji izjednačava sva slova engleske abecede, redom, sa skupom brojeva $\{0, 1, 2, \ldots, 25\}$. Pretpostavimo prostor poruka **M**. **Šifriranje pomakom** je, dakle, šema šifrovanja definisana na sledeći način:
+Hajde prvo da je definišemo. Pretpostavimo rečnik *D* koji izjednačava sva slova engleske abecede, redom, sa skupom brojeva $\{0, 1, 2, \ldots, 25\}$. Pretpostavimo prostor poruka **M**. **Šifriranje pomakom** je, dakle, šema šifrovanja definisana na sledeći način:
 
 
 
@@ -695,7 +694,7 @@ Operator modulo u šifri pomaka osigurava da se slova rotiraju, tako da su sva �
 Pretpostavimo da ste ravnomerno odabrali ključ da ima vrednost 17. Slovo „O“ odgovara broju 15. Bez modulo operacije, zbir ovog broja iz otvorenog teksta sa ključem bi iznosio broj šifrovanog teksta 32. Međutim, taj broj šifrovanog teksta ne može biti pretvoren u slovo šifrovanog teksta, jer engleska abeceda ima samo 26 slova. Modulo operacija osigurava da broj šifrovanog teksta zapravo bude 6 (rezultat $32 \mod 26$), što odgovara slovu šifrovanog teksta „G“.
 
 
-Celaokupna enkripcija reči „DOG“ sa ključnom vrednošću 17 je sledeća:
+Celaokupna enkripcija reči „DOG“ sa vrednošću ključa 17 je sledeća:
 
 
 
@@ -726,7 +725,7 @@ Pr[K = 1] = \frac{1}{26}
 $$
 
 
-...i tako dalje. Uzorak uniformne promenljive $K$ jednom da bi se dobio određeni ključ.
+...i tako dalje. Uzorkujte uniformnu promenljivu $K$ jednom da bi ste dobili određeni ključ.
 
 
 
@@ -735,7 +734,7 @@ $$
 <chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
 
 
-Svi računarski podaci se obrađuju, skladište i šalju preko mreža na nivou bitova. Bilo koje šeme kriptografije koje se primenjuju na računarske podatke takođe funkcionišu na nivou bitova.
+Svi računarski podaci se obrađuju, skladište i šalju preko mreža na nivou bitova. Bilo koje kriptografske šeme koje se primenjuju na računarske podatke takođe funkcionišu na nivou bitova.
 
 
 Na primer, pretpostavimo da ste otkucali e-mail u svojoj e-mail aplikaciji. Bilo koje šifrovanje koje primenite ne dešava se direktno na ASCII karakterima vašeg e-maila. Umesto toga, primenjuje se na bit-reprezentaciju slova i drugih simbola u vašem e-mailu.
@@ -751,7 +750,7 @@ Ključna matematička operacija koju treba razumeti za modernu kriptografiju, po
 - $1 \oplus 1 = 0$
 
 
-Na primer, pretpostavimo da imate poruku $m_1$ (01111001) i poruku $m_2$ (01011001). XOR operacija ovih dvaju poruka može se videti ispod.
+Na primer, pretpostavimo da imate poruku $m_1$ (01111001) i poruku $m_2$ (01011001). XOR operacija ovih dveju poruka može se videti ispod.
 
 
 
@@ -782,7 +781,7 @@ XOR operacija je ekvivalentna posebnom slučaju izvođenja modulo operacije na s
 <chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
 
 
-U našoj diskusiji o slučajnim i uniformnim varijablama, napravili smo specifičnu razliku između "slučajnih" i "uniformnih". Ta razlika se obično održava u praksi kada se opisuju slučajne varijable. Međutim, u našem trenutnom kontekstu, ova razlika treba biti zanemarena i "slučajno" i "uniformno" se koriste kao sinonimi. Objasniću zašto na kraju odeljka.
+U našoj diskusiji o slučajnim i uniformnim varijablama, napravili smo specifičnu razliku između "slučajnih" i "uniformnih". Ta razlika se obično zadržava  u praksi prilikom opisivanja slučajnih varijabli. Međutim, u našem trenutnom kontekstu, ova razlika treba biti zanemarena i "slučajno" i "uniformno" se koriste kao sinonimi. Objasniću zašto na kraju odeljka.
 
 
 Da bismo počeli, možemo nazvati binarni niz dužine $n$ **slučajnim** (ili **uniformnim**), ako je rezultat uzorkovanja uniformne varijable $S$ koja daje svakom binarnom nizu te dužine $n$ jednaku verovatnoću izbora.
@@ -791,7 +790,7 @@ Da bismo počeli, možemo nazvati binarni niz dužine $n$ **slučajnim** (ili **
 Pretpostavimo, na primer, skup svih binarnih nizova dužine 8: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Tipično je pisati 8-bitni niz u dva kvarteta, od kojih se svaki naziva **nibble**.) Nazovimo ovaj skup nizova **$S_8$**.
 
 
-Prema definiciji iznad, možemo, dakle, nazvati određeni binarni niz dužine 8 nasumičnim (ili uniformnim), ako je rezultat uzorkovanja uniformne varijable $S$ koja daje svakom nizu u **$S_8$** jednaku verovatnoću izbora. S obzirom da skup **$S_8$** uključuje $2^8$ Elements, verovatnoća izbora pri uzorkovanju bi morala biti $1/2^8$ za svaki niz u skupu.
+Prema definiciji iznad, možemo, dakle, nazvati određeni binarni niz dužine 8 nasumičnim (ili uniformnim), ako je rezultat uzorkovanja uniformne varijable $S$ koja daje svakom nizu u **$S_8$** jednaku verovatnoću izbora. S obzirom da skup **$S_8$** uključuje $2^8$ elemenata, verovatnoća izbora pri uzorkovanju bi morala biti $1/2^8$ za svaki niz u skupu.
 
 
 Ključni aspekt nasumičnosti binarnog niza je da je definisan u odnosu na proces kojim je izabran. Oblik bilo kog određenog binarnog niza sam po sebi, dakle, ne otkriva ništa o njegovoj nasumičnosti u izboru.
@@ -800,10 +799,10 @@ Ključni aspekt nasumičnosti binarnog niza je da je definisan u odnosu na proce
 Na primer, mnogi ljudi intuitivno imaju ideju da niz kao što je $1111\ 1111$ nije mogao biti izabran nasumično. Ali ovo je očigledno netačno.
 
 
-Definišući uniformnu varijablu $S$ preko svih binarnih nizova dužine 8, verovatnoća odabira $1111\ 1111$ iz skupa **$S_8$** je ista kao i za niz kao što je $0111\ 0100$. Dakle, ne možete ništa reći o nasumičnosti niza, samo analizirajući sam niz.
+Definišući uniformnu varijablu $S$ preko svih binarnih nizova dužine 8, verovatnoća odabira $1111\ 1111$ iz skupa **$S_8$** je ista kao i za niz $0111\ 0100$. Dakle, ne možete ništa reći o nasumičnosti niza, samo analizirajući sam niz.
 
 
-Takođe možemo govoriti o nasumičnim nizovima bez specifičnog misljenja na binarne nizove. Na primer, možemo govoriti o nasumičnom heksadecimalnom nizu $AF\ 02\ 82$. U ovom slučaju, niz bi bio nasumično izabran iz skupa svih heksadecimalnih nizova dužine 6. Ovo je ekvivalentno nasumičnom izboru binarnog niza dužine 24, jer svaka heksadecimalna cifra predstavlja 4 bita.
+Možemo takođe govoriti o nasumičnim nizovima, ne misleći pri tom isključivo na binarne nizove. Na primer, možemo govoriti o nasumičnom heksadecimalnom nizu $AF\ 02\ 82$. U ovom slučaju, niz bi bio nasumično izabran iz skupa svih heksadecimalnih nizova dužine 6. Ovo je ekvivalentno nasumičnom izboru binarnog niza dužine 24, jer svaka heksadecimalna cifra predstavlja 4 bita.
 
 
 Tipično, izraz „nasumičan niz“, bez kvalifikacije, odnosi se na niz nasumično odabran iz skupa svih nizova iste dužine. Ovako sam ga opisao gore. Niz dužine $n$ može, naravno, biti nasumično odabran i iz drugog skupa. Na primer, iz skupa koji čini samo podskup svih nizova dužine $n$, ili možda iz skupa koji uključuje nizove različitih dužina. U tim slučajevima, međutim, ne bismo ga nazvali „nasumičnim nizom“, već „nizom koji je nasumično odabran iz nekog skupa **S**“.
@@ -812,25 +811,25 @@ Tipično, izraz „nasumičan niz“, bez kvalifikacije, odnosi se na niz nasumi
 Ključni koncept u kriptografiji je pseudonasumičnost. **Pseudonasumični niz** dužine $n$ izgleda *kao da* je rezultat uzorkovanja uniformne varijable $S$ koja svakom nizu u **$S_n$** daje jednaku verovatnoću izbora. Međutim, niz je zapravo rezultat uzorkovanja uniformne varijable $S'$ koja samo definiše raspodelu verovatnoće—ne nužno onu sa jednakim verovatnoćama za sve moguće ishode—na podskupu **$S_n$**. Ključna tačka ovde je da niko ne može zaista razlikovati uzorke iz $S$ i $S'$, čak i ako ih uzmete mnogo.
 
 
-Pretpostavimo, na primer, slučajnu promenljivu $S$. Njeno skup ishoda je **$S_{256}$**, to je skup svih binarnih nizova dužine 256. Ovaj skup ima $2^{256}$ Elements. Svaki element ima jednaku verovatnoću izbora, $1/2^{256}$, prilikom uzorkovanja.
+Pretpostavimo, na primer, slučajnu promenljivu $S$. Njen skup ishoda je **$S_{256}$**, to je skup svih binarnih nizova dužine 256. Ovaj skup ima $2^{256}$ elemenata. Svaki element ima jednaku verovatnoću izbora, $1/2^{256}$, prilikom uzorkovanja.
 
 
-Pored toga, pretpostavimo nasumičnu promenljivu $S'$. Njeno skup ishoda uključuje samo $2^{128}$ binarnih nizova dužine 256. Ona ima neku verovatnosnu distribuciju nad tim nizovima, ali ta distribucija nije nužno uniformna.
+Pored toga, pretpostavimo nasumičnu promenljivu $S'$. Njen skup ishoda uključuje samo $2^{128}$ binarnih nizova dužine 256. Ona ima neku verovatnosnu distribuciju nad tim nizovima, ali ta distribucija nije nužno uniformna.
 
 
-Pretpostavimo da sam sada uzeo 1000-e uzoraka iz $S$ i 1000-e uzoraka iz $S'$ i dao ti dva skupa ishoda. Kažem ti koji skup ishoda je povezan sa kojom slučajnom promenljivom. Zatim, uzimam uzorak iz jedne od dve slučajne promenljive. Ali ovaj put ti ne kažem iz koje slučajne promenljive uzimam uzorak. Ako je $S'$ pseudonasumičan, ideja je da je tvoja verovatnoća da tačno pogodiš iz koje slučajne promenljive sam uzeo uzorak praktično ne bolja od $1/2$.
+Pretpostavimo da sam sada uzeo 1000 uzoraka iz $S$ i 1000 uzoraka iz $S'$ i dao ti dva skupa ishoda. Kažem ti koji skup ishoda je povezan sa kojom slučajnom promenljivom. Zatim, uzimam uzorak iz jedne od dve slučajne promenljive. Ali ovaj put ti ne kažem iz koje slučajne promenljive uzimam uzorak. Ako je $S'$ pseudonasumičan, ideja je da je tvoja verovatnoća da tačno pogodiš iz koje slučajne promenljive sam uzeo uzorak praktično ne bolja od $1/2$.
 
 
 Tipično, pseudonasumičan niz dužine $n$ se proizvodi nasumičnim odabirom niza veličine $n – x$, gde je $x$ pozitivan ceo broj, i korišćenjem tog niza kao ulaza za ekspanzivni algoritam. Ovaj nasumičan niz veličine $n – x$ je poznat kao **seed**.
 
 
-Pseudorandom nizovi su ključni koncept za praktičnu primenu kriptografije. Razmotrite, na primer, strim šifre. Kod strim šifre, nasumično odabrani ključ se ubacuje u ekspanzivni algoritam kako bi se proizveo mnogo veći pseudorandom niz. Ovaj pseudorandom niz se zatim kombinuje sa otvorenim tekstom putem XOR operacije kako bi se proizveo šifrovani tekst.
+Pseudonasumični nizovi su ključni koncept za praktičnu primenu kriptografije. Razmotrite, na primer, tokovne šifre (eng. stream cipher). Kod tokovne šifre, nasumično odabrani ključ se ubacuje u ekspanzivni algoritam kako bi se proizveo mnogo veći pseudonasumičan niz. Ovaj pseudonasumičan niz se zatim kombinuje sa otvorenim tekstom putem XOR operacije kako bi se proizveo šifrovani tekst.
 
 
-Ako ne bismo mogli da proizvedemo ovu vrstu pseudonasumičnog niza za tok šifru, onda bismo trebali ključ koji je dug koliko i poruka za njenu sigurnost. Ovo nije baš praktična opcija u većini slučajeva.
+Ako ne bismo mogli da proizvedemo ovu vrstu pseudonasumičnog niza za tokovnu šifru, onda bismo trebali ključ koji je dug koliko i poruka za njenu sigurnost. Ovo nije baš praktična opcija u većini slučajeva.
 
 
-Pojam pseudonasumičnosti o kojem se raspravlja u ovom odeljku može se formalnije definisati. Takođe se proširuje na druge kontekste. Ali ne moramo ulaziti u tu raspravu ovde. Sve što zaista treba intuitivno da razumete za veći deo kriptografije je razlika između nasumičnog i pseudonasumičnog niza. [2]
+Pojam pseudonasumičnosti o kojem se raspravlja u ovom odeljku može se formalnije definisati. Takođe se proširuje na druge kontekste. Ali ne moramo ulaziti u tu raspravu ovde. Sve što zaista treba intuitivno da razumete za veliki deo kriptografije postoji razlika između nasumičnog i pseudonasumičnog niza. [2]
 
 
 Razlog za ukidanje razlike između "nasumičan" i "uniforman" u našoj diskusiji sada bi takođe trebalo da bude jasan. U praksi, svi koriste termin pseudonasumičan da označe niz koji izgleda **kao da** je rezultat uzorkovanja uniformne promenljive $S$. Strogo govoreći, takav niz bismo trebali nazvati "pseudo-uniforman," usvajajući naš raniji jezik. Pošto je termin "pseudo-uniforman" i nezgrapan i niko ga ne koristi, nećemo ga uvoditi ovde radi jasnoće. Umesto toga, jednostavno ćemo izostaviti razliku između "nasumičan" i "uniforman" u trenutnom kontekstu.
@@ -867,16 +866,16 @@ ___
 Možete okarakterisati **teoriju brojeva** kao proučavanje svojstava celih brojeva i matematičkih funkcija koje rade sa celim brojevima.
 
 
-Razmotrimo, na primer, da su bilo koja dva broja $a$ i $N$ **koprimi** (ili **relativno prosti**) ako je njihov najveći zajednički delilac jednak 1. Pretpostavimo sada određeni ceo broj $N$. Koliko je celih brojeva manjih od $N$ koji su koprimi sa $N$? Možemo li dati opšte izjave o odgovorima na ovo pitanje? Ovo su tipične vrste pitanja na koja teorija brojeva nastoji da odgovori.
+Razmotrimo, na primer, da su bilo koja dva broja $a$ i $N$ **koprajms** (ili **relativno prosti**) ako je njihov najveći zajednički delilac jednak 1. Pretpostavimo sada određeni ceo broj $N$. Koliko je celih brojeva manjih od $N$ koji su relativno prosti sa $N$? Možemo li dati opšte izjave o odgovorima na ovo pitanje? Ovo su tipične vrste pitanja na koja teorija brojeva nastoji da odgovori.
 
 
-Moderna teorija brojeva oslanja se na alate apstraktne algebre. Oblast **apstraktne algebre** je poddisciplina matematike gde su glavni objekti analize apstraktni objekti poznati kao algebarske strukture. **Algebarska struktura** je skup Elements povezan sa jednom ili više operacija, koji ispunjava određene aksiome. Kroz algebarske strukture, matematičari mogu steći uvid u specifične matematičke probleme, apstrahujući se od njihovih detalja.
+Moderna teorija brojeva oslanja se na alate apstraktne algebre. Oblast **apstraktne algebre** je poddisciplina matematike gde su glavni objekti analize apstraktni objekti poznati kao algebarske strukture. **Algebarska struktura** je skup elemenata povezanih sa jednom ili više operacija, koji ispunjava određene aksiome. Kroz algebarske strukture, matematičari mogu steći uvid u specifične matematičke probleme, apstrahujući se od njihovih detalja.
 
 
 Polje apstraktne algebre se ponekad naziva i modernom algebrom. Možete naići i na pojam **apstraktne matematike** (ili **čiste matematike**). Ovaj poslednji termin nije referenca na apstraktnu algebru, već označava proučavanje matematike radi nje same, a ne samo sa ciljem potencijalnih primena.
 
 
-Skupovi iz apstraktne algebre mogu se baviti mnogim tipovima objekata, od transformacija koje čuvaju oblik na jednakostraničnom trouglu do šara na tapetama. Za teoriju brojeva, razmatramo samo skupove Elements koji sadrže cele brojeve ili funkcije koje rade sa celim brojevima.
+Skupovi iz apstraktne algebre mogu se baviti mnogim tipovima objekata, od transformacija koje čuvaju oblik na jednakostraničnom trouglu do šara na tapetama. Za teoriju brojeva, razmatramo samo skupove elemenata koji sadrže cele brojeve ili funkcije koje rade sa celim brojevima.
 
 
 
@@ -885,86 +884,86 @@ Skupovi iz apstraktne algebre mogu se baviti mnogim tipovima objekata, od transf
 <chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 
 
-Osnovni koncept u matematici je koncept skupa Elements. Skup se obično označava znakovima vitičastih zagrada sa Elements odvojenim zarezima.
+Osnovni koncept u matematici je koncept skupa elemenata. Skup se obično označava znakovima vitličastih zagrada sa elementima odvojenim zarezima.
 
 
 Na primer, skup svih celih brojeva je $\{…, -2, -1, 0, 1, 2, …\}$. Tri tačke ovde znače da se određeni obrazac nastavlja u određenom pravcu. Dakle, skup svih celih brojeva takođe uključuje $3, 4, 5, 6$ i tako dalje, kao i $-3, -4, -5, -6$ i tako dalje. Ovaj skup svih celih brojeva se obično označava sa $\mathbb{Z}$.
 
 
-Još jedan primer skupa je $\mathbb{Z} \mod 11$, ili skup svih celih brojeva modulo 11. Za razliku od celog skupa $\mathbb{Z}$, ovaj skup sadrži samo konačan broj Elements, naime $\{0, 1, \ldots, 9, 10\}$.
+Još jedan primer skupa je $\mathbb{Z} \mod 11$, ili skup svih celih brojeva modulo 11. Za razliku od celog skupa $\mathbb{Z}$, ovaj skup sadrži samo konačan broj elemenata, naime $\{0, 1, \ldots, 9, 10\}$.
 
 
-Uobičajena greška je misliti da skup $\mathbb{Z} \mod 11$ zapravo jeste $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Ali to nije slučaj, s obzirom na način na koji smo ranije definisali operaciju modula. Bilo koji negativni celi brojevi smanjeni modulom 11 prelaze u skup $\{0, 1, \ldots, 9, 10\}$. Na primer, izraz $-2 \mod 11$ prelazi u $9$, dok izraz $-27 \mod 11$ prelazi u $5$.
+Uobičajena greška je misliti da skup $\mathbb{Z} \mod 11$ zapravo jeste $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Ali to nije slučaj, s obzirom na način na koji smo ranije definisali operaciju modula. Bilo koji negativni celi brojevi redukovani po modulu 11 prelaze u skup $\{0, 1, \ldots, 9, 10\}$. Na primer, izraz $-2 \mod 11$ prelazi u $9$, dok izraz $-27 \mod 11$ prelazi u $5$.
 
 
-Još jedan osnovni koncept u matematici je koncept binarne operacije. Ovo je bilo koja operacija koja uzima dva Elements da bi proizvela treći. Na primer, iz osnovne aritmetike i algebre, bili biste upoznati sa četiri osnovne binarne operacije: sabiranje, oduzimanje, množenje i deljenje.
+Još jedan osnovni koncept u matematici je koncept binarne operacije. Ovo je bilo koja operacija koja uzima dva elementa da bi proizvela treći. Na primer, iz osnovne aritmetike i algebre poznata su vam četiri osnovna binarna operatora: sabiranje, oduzimanje, množenje i deljenje.
 
 
 Ova dva osnovna matematička koncepta, skupovi i binarne operacije, koriste se za definisanje pojma grupe, najosnovnije strukture u apstraktnoj algebri.
 
 
-Specifično, pretpostavimo neku binarnu operaciju $\circ$. Pored toga, pretpostavimo neki skup Elements **S** opremljen tom operacijom. Sve što "opremljen" ovde znači je da se operacija $\circ$ može izvršiti između bilo koja dva Elements u skupu **S**.
+Specifično, pretpostavimo neku binarnu operaciju $\circ$. Pored toga, pretpostavimo neki skup elemenata **S** sa definisanom tom operacijom. Sve što "definisan" ovde znači je da se operacija $\circ$ može izvršiti između bilo koja dva elementa u skupu **S**.
 
 
 Kombinacija $\langle \mathbf{S}, \circ \rangle$ je, dakle, **grupa** ako ispunjava četiri specifična uslova, poznata kao aksiomi grupe.
 
 
-1. Za bilo koje $a$ i $b$ koji su Elements od $\mathbf{S}$, $a \circ b$ je takođe element od $\mathbf{S}$. Ovo je poznato kao **uslov zatvorenosti**.
+1. Za bilo koje $a$ i $b$ koji su elementi od $\mathbf{S}$, $a \circ b$ je takođe element od $\mathbf{S}$. Ovo je poznato kao **uslov zatvorenosti**.
 
-2. Za bilo koje $a$, $b$ i $c$ koji su Elements od $\mathbf{S}$, važi da je $(a \circ b) \circ c = a \circ (b \circ c)$. Ovo je poznato kao **uslov asocijativnosti**.
+2. Za bilo koje $a$, $b$ i $c$ koji su elementi od $\mathbf{S}$, važi da je $(a \circ b) \circ c = a \circ (b \circ c)$. Ovo je poznato kao **uslov asocijativnosti**.
 
-3. Postoji jedinstveni element $e$ u $\mathbf{S}$, takav da za svaki element $a$ u $\mathbf{S}$, sledeća jednačina važi: $e \circ a = a \circ e = a$. Kako postoji samo jedan takav element $e$, on se naziva **neutralni element**. Ovaj uslov je poznat kao **uslov neutralnosti**.
+3. Postoji jedinstveni element $e$ u $\mathbf{S}$, takav da za svaki element $a$ u $\mathbf{S}$, sledeća jednačina važi: $e \circ a = a \circ e = a$. Kako postoji samo jedan takav element $e$, on se naziva **neutralni element** ili **jedinični element**. Ovaj uslov je poznat kao **uslov neutralnosti**.
 
 4. Za svaki element $a$ u $\mathbf{S}$, postoji element $b$ u $\mathbf{S}$, takav da važi sledeća jednačina: $a \circ b = b \circ a = e$, gde je $e$ identitetni element. Element $b$ ovde je poznat kao **inverzni element**, i obično se označava kao $a^{-1}$. Ovaj uslov je poznat kao **uslov inverznosti** ili **uslov invertibilnosti**.
 
 
-Hajde da dalje istražimo grupe. Označimo skup svih celih brojeva sa $\mathbb{Z}$. Ovaj skup u kombinaciji sa standardnim sabiranjem, ili $\langle \mathbb{Z}, + \rangle$, očigledno odgovara definiciji grupe, jer ispunjava četiri gore navedene aksiome.
+Hajde da dalje istražimo grupe. Označimo skup svih celih brojeva sa $\mathbb{Z}$. Ovaj skup u kombinaciji sa standardnim sabiranjem, ili $\langle \mathbb{Z}, + \rangle$, očigledno odgovara definiciji grupe, jer ispunjava četiri gore navedena aksioma.
 
 
-1. Za bilo koje $x$ i $y$ koji su Elements od $\mathbb{Z}$, $x + y$ je takođe element od $\mathbb{Z}$. Dakle, $\langle \mathbb{Z}, + \rangle$ ispunjava uslov zatvorenosti.
+1. Za bilo koje $x$ i $y$ koji su elementi od $\mathbb{Z}$, $x + y$ je takođe element od $\mathbb{Z}$. Dakle, $\langle \mathbb{Z}, + \rangle$ ispunjava uslov zatvorenosti.
 
-2. Za bilo koje $x$, $y$ i $z$ koji su Elements od $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. Tako $\langle \mathbb{Z}, + \rangle$ ispunjava uslov asocijativnosti.
+2. Za bilo koje $x$, $y$ i $z$ koji su elementi od $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. Tako $\langle \mathbb{Z}, + \rangle$ ispunjava uslov asocijativnosti.
 
 3. Postoji neutralni element u $\langle \mathbb{Z}, + \rangle$, naime 0. Za bilo koje $x$ u $\mathbb{Z}$, važi: $0 + x = x + 0 = x$. Dakle, $\langle \mathbb{Z}, + \rangle$ ispunjava uslov neutralnog elementa.
 
-4. Konačno, za svaki element $x$ u $\mathbb{Z}$, postoji $y$ tako da je $x + y = y + x = 0$. Ako je $x$ na primer 10, $y$ bi bio $-10$ (u slučaju da je $x$ 0, $y$ je takođe 0). Dakle, $\langle \mathbb{Z}, + \rangle$ ispunjava uslov inverza.
+4. Konačno, za svaki element $x$ u $\mathbb{Z}$, postoji $y$ tako da je $x + y = y + x = 0$. Ako je $x$ na primer 10, $y$ bi bio $-10$ (u slučaju da je $x$ 0, $y$ je takođe 0). Dakle, $\langle \mathbb{Z}, + \rangle$ ispunjava uslov inverznosti.
 
 
 Važno je napomenuti da činjenica da skup celih brojeva sa operacijom sabiranja čini grupu ne znači da on čini grupu sa operacijom množenja. Ovo možete proveriti testiranjem $\langle \mathbb{Z}, \cdot \rangle$ u odnosu na četiri aksioma grupe (gde $\cdot$ označava standardno množenje).
 
 
-Prva dva aksioma očigledno važe. Pored toga, pod množenjem element 1 može služiti kao identitetni element. Bilo koji ceo broj $x$ pomnožen sa 1, naime daje $x$. Međutim, $\langle \mathbb{Z}, \cdot \rangle$ ne ispunjava uslov inverza. To jest, ne postoji jedinstveni element $y$ u $\mathbb{Z}$ za svaki $x$ u $\mathbb{Z}$, tako da je $x \cdot y = 1$.
+Prva dva aksioma očigledno važe. Pored toga, pod množenjem element 1 može služiti kao identitetni element. Bilo koji ceo broj $x$ pomnožen sa 1, naime daje $x$. Međutim, $\langle \mathbb{Z}, \cdot \rangle$ ne ispunjava uslov inverznosti. To jest, ne postoji jedinstveni element $y$ u $\mathbb{Z}$ za svaki $x$ u $\mathbb{Z}$, tako da je $x \cdot y = 1$.
 
 
 Na primer, pretpostavimo da je $x = 22$. Koja vrednost $y$ iz skupa $\mathbb{Z}$ pomnožena sa $x$ bi dala neutralni element 1? Vrednost $1/22$ bi odgovarala, ali to nije u skupu $\mathbb{Z}$. Zapravo, nailazite na ovaj problem za bilo koji ceo broj $x$, osim za vrednosti 1 i -1 (gde bi $y$ morao biti 1 i -1 respektivno).
 
 
-Ako bismo dozvolili realne brojeve za naš skup, tada bi naši problemi uglavnom nestali. Za bilo koji element $x$ u skupu, množenje sa $1/x$ daje 1. Pošto su razlomci uključeni u skup realnih brojeva, inverz se može naći za svaki realni broj. Izuzetak je nula, jer bilo koje množenje sa nulom nikada neće dati identitetni element 1. Dakle, skup realnih brojeva različitih od nule opremljen množenjem zaista je grupa.
+Ako bismo dozvolili realne brojeve za naš skup, tada bi naši problemi uglavnom nestali. Za bilo koji element $x$ u skupu, množenje sa $1/x$ daje 1. Pošto su razlomci uključeni u skup realnih brojeva, inverznost se može naći za svaki realni broj. Izuzetak je nula, jer bilo koje množenje sa nulom nikada neće dati identitetni element 1. Dakle, skup realnih brojeva različitih od nule sa definisanom operacijom množenja zaista je grupa.
 
 
 Neke grupe ispunjavaju peti opšti uslov, poznat kao **uslov komutativnosti**. Ovaj uslov je sledeći:
 
 
 
-- Pretpostavimo da grupa $G$ sa skupom **S** i binarnim operatorom $\circ$. Pretpostavimo da su $a$ i $b$ Elements od **S**. Ako važi da je $a \circ b = b \circ a$ za bilo koja dva Elements $a$ i $b$ u **S**, onda $G$ ispunjava uslov komutativnosti.
+- Pretpostavimo da grupa $G$ sa skupom **S** i binarnim operatorom $\circ$. Pretpostavimo da su $a$ i $b$ elementi unutar **S**. Ako važi da je $a \circ b = b \circ a$ za bilo koja dva elementa $a$ i $b$ u **S**, onda $G$ ispunjava uslov komutativnosti.
 
 
 Bilo koja grupa koja ispunjava uslov komutativnosti poznata je kao **komutativna grupa**, ili **Abelova grupa** (po Nilsu Henriku Abelu). Lako je proveriti da su i skup realnih brojeva nad sabiranjem i skup celih brojeva nad sabiranjem Abelove grupe. Skup celih brojeva nad množenjem uopšte nije grupa, pa samim tim ne može biti Abelova grupa. Skup nenultih realnih brojeva nad množenjem, nasuprot tome, takođe je Abelova grupa.
 
 
-Trebalo bi da obratite pažnju na dve važne konvencije u vezi sa notacijom. Prvo, znakovi „+“ ili „×“ će često biti korišćeni da simbolizuju grupne operacije, čak i kada Elements nisu, zapravo, brojevi. U tim slučajevima, ne bi trebalo da tumačite ove znakove kao standardno aritmetičko sabiranje ili množenje. Umesto toga, to su operacije sa samo apstraktnom sličnošću sa ovim aritmetičkim operacijama.
+Trebalo bi da obratite pažnju na dve važne konvencije u vezi sa notacijom. Prvo, znakovi „+“ ili „×“ će često biti korišćeni da simbolizuju grupne operacije, čak i kada elementi nisu, zapravo, brojevi. U tim slučajevima, ne bi trebalo da tumačite ove znakove kao standardno aritmetičko sabiranje ili množenje. Umesto toga, to su operacije sa samo apstraktnom sličnošću sa ovim aritmetičkim operacijama.
 
 
-Osim ako se konkretno ne odnosiš na aritmetičko sabiranje ili množenje, lakše je koristiti simbole kao što su $\circ$ i $\diamond$ za grupne operacije, jer oni nemaju veoma ukorenjene kulturne konotacije.
+Osim ako se konkretno ne odnosi na aritmetičko sabiranje ili množenje, lakše je koristiti simbole kao što su $\circ$ i $\diamond$ za grupne operacije, jer oni nemaju veoma ukorenjene kulturne konotacije.
 
 
-Drugo, iz istog razloga zbog kojeg se “+” i “×” često koriste za označavanje ne-aritmetičkih operacija, identitet Elements grupa se često simbolizuje sa “0” i “1”, čak i kada Elements u tim grupama nisu brojevi. Osim ako se ne referišete na identitet elementa grupe sa brojevima, lakše je koristiti neutralniji simbol kao što je “$e$” za označavanje identitet elementa.
+Drugo, iz istog razloga zbog kojeg se “+” i “×” često koriste za označavanje ne-aritmetičkih operacija, identitetni element grupa se često simbolizuje sa “0” i “1”, čak i kada elementi u tim grupama nisu brojevi. Osim ako se ne referišete na identitettni elementa grupe sa brojevima, lakše je koristiti neutralniji simbol kao što je “$e$” za označavanje identitetnog elementa.
 
 
-Mnoge različite i veoma važne skupove vrednosti u matematici, opremljene određenim binarnim operacijama, čine grupe. Kriptografske aplikacije, međutim, rade samo sa skupovima celih brojeva ili barem Elements koji su opisani celim brojevima, to jest, unutar domena teorije brojeva. Stoga se skupovi sa realnim brojevima osim celih brojeva ne koriste u kriptografskim aplikacijama.
+Mnogi različiti i vrlo važni matematički skupovi, uz određene binarne operacije, čine grupe. Kriptografske aplikacije, međutim, rade samo sa skupovima celih brojeva ili barem elementima koji su opisani celim brojevima, to jest, unutar domena teorije brojeva. Stoga se skupovi sa realnim brojevima osim celih brojeva ne koriste u kriptografskim aplikacijama.
 
 
-Hajde da završimo pružanjem primera Elements koji može biti „opisan celim brojevima“, iako oni nisu celi brojevi. Dobar primer su tačke eliptičkih krivih. Iako bilo koja tačka na eliptičkoj krivoj očigledno nije ceo broj, takva tačka je zaista opisana sa dva cela broja.
+Hajde da završimo davanjem primera elemenata koji može biti „opisan celim brojevima“, iako oni nisu celi brojevi. Dobar primer su tačke eliptičkih krivih. Iako bilo koja tačka na eliptičkoj krivoj očigledno nije ceo broj, takva tačka je zaista opisana sa dva cela broja.
 
 
 Eliptičke krive su, na primer, ključne za Bitcoin. Bilo koji standardni Bitcoin privatni i javni par ključeva se bira iz skupa tačaka koje su definisane sledećom eliptičkom krivom:
@@ -978,7 +977,7 @@ $$
 (koji je najveći prost broj manji od $2^{256}$).
 
 
-Transakcije u Bitcoin obično uključuju zaključavanje izlaza na jedan ili više javnih ključeva na neki način. Vrednost iz ovih transakcija može se, zatim, otključati pravljenjem digitalnih potpisa sa odgovarajućim privatnim ključevima.
+Bitcoin transakcije obično uključuju zaključavanje izlaza na jedan ili više javnih ključeva na neki način. Vrednost iz ovih transakcija može se, zatim, otključati pravljenjem digitalnih potpisa sa odgovarajućim privatnim ključevima.
 
 
 
@@ -988,25 +987,25 @@ Transakcije u Bitcoin obično uključuju zaključavanje izlaza na jedan ili viš
 <chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
 
 
-Glavna razlika koju možemo povući je između **konačne** i **beskonačne grupe**. Prva ima konačan broj Elements, dok druga ima beskonačan broj Elements. Broj Elements u bilo kojoj konačnoj grupi poznat je kao **red grupe**. Sva praktična kriptografija koja uključuje upotrebu grupa oslanja se na konačne (brojčano-teorijske) grupe.
+Glavna razlika koju možemo povući je između **konačne** i **beskonačne grupe**. Prva ima konačan broj elemenata, dok druga ima beskonačan broj elemenata. Broj elemenata u bilo kojoj konačnoj grupi poznat je kao **red grupe**. Sva praktična kriptografija koja uključuje upotrebu grupa oslanja se na konačne (brojčano-teorijske) grupe.
 
 
-U okviru kriptografije sa javnim ključem, određena klasa konačnih Abelovih grupa poznata kao ciklične grupe je posebno važna. Da bismo razumeli ciklične grupe, prvo moramo razumeti koncept potenciranja elemenata grupe.
+U okviru kriptografije sa javnim ključem, određena klasa konačnih Abelovih grupa poznata kao ciklične grupe je posebno važna. Da bismo razumeli ciklične grupe, najpre moramo da razumemo pojam stepenovanja elemenata grupe.
 
 
-Pretpostavimo da je $G$ grupa sa grupnom operacijom $\circ$, i da je $a$ element grupe $G$. Izraz $a^n$ treba, dakle, interpretirati kao element $a$ kombinovan sam sa sobom ukupno $n – 1$ puta. Na primer, $a^2$ znači $a \circ a$, $a^3$ znači $a \circ a \circ a$, i tako dalje. (Napomena: potenciranje ovde nije nužno potenciranje u standardnom aritmetičkom smislu.)
+Pretpostavimo da je $G$ grupa sa grupnom operacijom $\circ$, i da je $a$ element grupe $G$. Izraz $a^n$ treba, dakle, interpretirati kao element $a$ kombinovan sam sa sobom ukupno $n – 1$ puta. Na primer, $a^2$ znači $a \circ a$, $a^3$ znači $a \circ a \circ a$, i tako dalje. (Napomena: potenciranje ili stepenovanje ovde nije nužno potenciranje u standardnom aritmetičkom smislu.)
 
 
 Okrenimo se primeru. Pretpostavimo da je $G = \langle \mathbb{Z} \mod 7, + \rangle$, i da naša vrednost za $a$ iznosi 4. U ovom slučaju, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Alternativno, $a^4$ bi predstavljao $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
 
-Neke abelove grupe imaju jedan ili više Elements, koji mogu proizvesti sve druge grupe Elements kroz kontinuirano potenciranje. Ovi Elements se nazivaju **generatori** ili **primitivni Elements**.
+Neke abelove grupe imaju jedan ili više elemenata, koji mogu proizvesti sve druge elemente grupe kroz kontinuirano potenciranje. Ovi elementi se nazivaju **generatori** ili **primitivni elementi**.
 
 
-Jedna važna klasa takvih grupa je $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, gde je $N$ prost broj. Oznaka $\mathbb{Z}^*$ ovde znači da grupa sadrži sve nenulte, pozitivne cele brojeve manje od $N$. Takva grupa, dakle, uvek ima $N – 1$ Elements.
+Jedna važna klasa takvih grupa je $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, gde je $N$ prost broj. Oznaka $\mathbb{Z}^*$ ovde znači da grupa sadrži sve nenulte, pozitivne cele brojeve manje od $N$. Takva grupa, dakle, uvek ima $N – 1$ elemenata.
 
 
-Razmotrimo, na primer, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Ova grupa ima sledeći Elements: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Red ove grupe je 10 (što je zaista jednako $11 – 1$).
+Razmotrimo, na primer, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Ova grupa ima sledeći elemente: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Red ove grupe je 10 (što je zaista jednako $11 – 1$).
 
 
 Hajde da istražimo potenciranje elementa 2 iz ove grupe. Izračunavanja do $2^{12}$ su prikazana ispod. Imajte na umu da se na levoj strani jednačine eksponent odnosi na potenciranje grupnog elementa. U našem konkretnom primeru, ovo zaista uključuje aritmetičko potenciranje na desnoj strani jednačine (ali je moglo uključivati, na primer, sabiranje). Da bih pojasnio, napisao sam ponovljenu operaciju, umesto eksponentnog oblika na desnoj strani.
@@ -1027,10 +1026,10 @@ Hajde da istražimo potenciranje elementa 2 iz ove grupe. Izračunavanja do $2^{
 - $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
 
-Ako pažljivo pogledaš, možeš videti da izvođenje eksponenciranja na elementu 2 prolazi kroz sve Elements od $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ u sledećem redosledu: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Nakon $2^{10}$, nastavak eksponenciranja elementa 2 ponovo prolazi kroz sve Elements i to u istom redosledu. Dakle, element 2 je generator u $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
+Ako pažljivo pogledaš, možeš videti da izvođenje eksponenciranja na elementu 2 prolazi kroz sve elemente grupe $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ u sledećem redosledu: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Nakon $2^{10}$, nastavak eksponenciranja elementa 2 ponovo prolazi kroz sve elemente i to u istom redosledu. Dakle, element 2 je generator za grupu $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
 
-Iako $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ima više generatora, nisu svi Elements ove grupe generatori. Razmotrimo, na primer, element 3. Prolazeći kroz prvih 10 eksponencijacija, bez prikazivanja zamornih proračuna, dobijamo sledeće rezultate:
+Iako $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ima više generatora, nisu svi elementi ove grupe generatori. Razmotrimo, na primer, element 3. Prolazeći kroz prvih 10 eksponencijacija, bez prikazivanja zamornih proračuna, dobijamo sledeće rezultate:
 
 
 
@@ -1046,10 +1045,10 @@ Iako $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ima više generatora, nisu sv
 - $3^{10} = 1 \mod 11$
 
 
-Umesto da prolazi kroz sve vrednosti u $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, eksponenciranje elementa 3 vodi samo do podskupa tih vrednosti: 3, 9, 5, 4 i 1. Nakon petog eksponenciranja, ove vrednosti počinju da se ponavljaju.
+Umesto da prolazi kroz sve vrednosti grupe $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, eksponenciranje elementa 3 vodi samo do podskupa tih vrednosti: 3, 9, 5, 4 i 1. Nakon petog eksponenciranja, ove vrednosti počinju da se ponavljaju.
 
 
-Sada možemo definisati **cikličnu grupu** kao bilo koju grupu sa barem jednim generatorom. To jest, postoji barem jedan element grupe iz kojeg možete proizvesti sve druge elemente grupe Elements kroz eksponenciranje.
+Sada možemo definisati **cikličnu grupu** kao bilo koju grupu sa barem jednim generatorom. To jest, postoji barem jedan element grupe iz kojeg možete proizvesti sve druge elemente grupe kroz eksponenciranje.
 
 
 Možda ste primetili u našem gornjem primeru da su i $2^{10}$ i $3^{10}$ jednaki $1 \mod 11$. U stvari, iako nećemo izvoditi proračune, potenciranje sa 10 bilo kog elementa u grupi $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ će dati $1 \mod 11$. Zašto je to slučaj?
@@ -1061,10 +1060,10 @@ Ovo je važno pitanje, ali zahteva malo truda da se odgovori.
 Da počnemo, pretpostavimo dva pozitivna cela broja $a$ i $N$. Važna teorema u teoriji brojeva kaže da $a$ ima multiplikativni inverz modulo $N$ (to jest, ceo broj $b$ tako da $a \cdot b = 1 \mod N$) ako i samo ako je najveći zajednički delilac između $a$ i $N$ jednak 1. To jest, ako su $a$ i $N$ međusobno prosti.
 
 
-Dakle, za bilo koju grupu celih brojeva opremljenu množenjem po modulu $N$, samo manji brojevi koji su međusobno prosti sa $N$ su uključeni u skup. Ovaj skup možemo označiti sa $\mathbb{Z}^c \mod N$.
+Dakle, za bilo koju grupu celih brojeva sa operacijom množenja po modulu $N$, samo manji brojevi koji su međusobno prosti sa $N$ su uključeni u skup. Ovaj skup možemo označiti sa $\mathbb{Z}^c \mod N$.
 
 
-Na primer, pretpostavimo da je $N$ 10. Samo su celi brojevi 1, 3, 7 i 9 međusobno prosti sa 10. Tako skup $\mathbb{Z}^c \mod 10$ uključuje samo $\{1, 3, 7, 9\}$. Ne možete kreirati grupu sa celobrojnom multiplikacijom modulo 10 koristeći bilo koje druge cele brojeve između 1 i 10. Za ovu specifičnu grupu, inverzi su parovi 1 i 9, i 3 i 7.
+Na primer, pretpostavimo da je $N$ 10. Samo su celi brojevi 1, 3, 7 i 9 međusobno prosti sa 10. Tako skup $\mathbb{Z}^c \mod 10$ uključuje samo $\{1, 3, 7, 9\}$. Ne možete kreirati grupu sa celobrojnom multiplikacijom modulo 10 koristeći bilo koje druge cele brojeve između 1 i 10. Za ovu specifičnu grupu, inverzni su parovi 1 i 9, i 3 i 7.
 
 
 U slučaju kada je $N$ sam po sebi prost, svi celi brojevi od 1 do $N – 1$ su uzajamno prosti sa $N$. Takva grupa, dakle, ima red $N – 1$. Koristeći našu raniju notaciju, $\mathbb{Z}^c \mod N$ je jednako $\mathbb{Z}^* \mod N$ kada je $N$ prost. Grupa koju smo odabrali za naš raniji primer, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, je poseban primer ove klase grupa.
@@ -1080,13 +1079,13 @@ Zatim, funkcija $\phi(N)$ izračunava broj međusobno prostih brojeva do broja $
 Ovo ima važnu implikaciju za klasu grupa $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ gde je $N$ prost broj. Za ove grupe, eksponenciranje elemenata grupe predstavlja aritmetičko eksponenciranje. To jest, $a^{\phi(N)} \mod N$ predstavlja aritmetičku operaciju $a^{\phi(N)} \mod N$. Kako je bilo koji element $a$ u ovim multiplikativnim grupama relativno prost sa $N$, to znači da je $a^{\phi(N)} \mod N = a^{N – 1} \mod N = 1 \mod N$.
 
 
-Eulerova teorema je zaista važan rezultat. Za početak, ona implicira da svi Elements u $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ mogu ciklusirati samo kroz broj vrednosti eksponenciranjem koji deli $N – 1$. U slučaju $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, to znači da svaki element može ciklusirati samo kroz 2, 5, ili 10 Elements. Grupne vrednosti kroz koje bilo koji element ciklusira prilikom eksponenciranja poznate su kao **red elementa**. Element sa redom ekvivalentnim redu grupe je generator.
+Eulerova teorema je zaista važan rezultat. Za početak, ona implicira da svi elementi u $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ mogu ponavljati (kružiti) samo kroz ograničenti broj vrednosti eksponenciranjem koji deli $N – 1$. U slučaju $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, to znači da svaki element može kružiti samo kroz 2, 5, ili 10 elemente. Vrednosti grupe kroz koje bilo koji element ciklusira prilikom eksponenciranja poznate su kao **red elementa**. Element grupe sa redom ekvivalentnim redu grupe je generator.
 
 
 Štaviše, Eulerova teorema implicira da uvek možemo znati rezultat $a^{N – 1} \mod N$ za bilo koju grupu $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ gde je $N$ prost. Ovo važi bez obzira na to koliko složene stvarne kalkulacije mogu biti.
 
 
-Na primer, pretpostavimo da je naša grupa $\mathbb{Z}^* \mod 160,481,182$ (gde je 160,481,182 zaista prost broj). Znamo da svi brojevi od 1 do 160,481,181 moraju biti Elements ove grupe, i da je $\phi(n) = 160,481,181$. Iako ne možemo napraviti sve korake u proračunima, znamo da izrazi kao što su $514^{160,481,181}$, $2,005^{160,481,181}$ i $256,212^{160,481,181}$ moraju svi evaluirati na $1 \mod 160,481,182$.
+Na primer, pretpostavimo da je naša grupa $\mathbb{Z}^* \mod 160,481,182$ (gde je 160,481,182 zaista prost broj). Znamo da svi brojevi od 1 do 160,481,181 moraju biti elementi ove grupe, i da je $\phi(n) = 160,481,181$. Iako ne možemo napraviti sve korake u proračunima, znamo da izrazi kao što su $514^{160,481,181}$, $2,005^{160,481,181}$ i $256,212^{160,481,181}$ moraju svi evaluirati na $1 \mod 160,481,182$.
 
 
 **Beleške:**
@@ -1109,32 +1108,32 @@ Formula Eulero-ve Phi funkcije za prostu faktorizaciju $N$.
 <chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
 
 
-Grupa je osnovna algebarska struktura u apstraktnoj algebri, ali postoji mnogo više. Jedina druga algebarska struktura sa kojom treba da budete upoznati je struktura **polja**, posebno **konačnog polja**. Ova vrsta algebarske strukture se često koristi u kriptografiji, kao što je u Advanced Encryption Standard. Potonji je glavni simetrični šifarski sistem sa kojim ćete se susresti u praksi.
+Grupa je osnovna algebarska struktura u apstraktnoj algebri, ali postoji mnogo više. Jedina druga algebarska struktura sa kojom treba da budete upoznati je struktura **polja**, posebno **konačnog polja**. Ova vrsta algebarske strukture se često koristi u kriptografiji, kao što je u Advanced Encryption Standard-u. Potonji je glavni simetrični sistem enkripcije (šifrovanja) sa kojim ćete se susresti u praksi.
 
 
-Polje je izvedeno iz pojma grupe. Konkretno, **polje** je skup Elements **S** opremljen sa dva binarna operatora $\circ$ i $\diamond$, koji ispunjava sledeće uslove:
+Polje je izvedeno iz pojma grupe. Konkretno, **polje** je skup elemenata **S** na kojem su definisana dve binarne operacije $\circ$ i $\diamond$, koje ispunjavaju sledeće uslove:
 
 
-1. Skup **S** opremljen sa $\circ$ je Abelova grupa.
+1. Skup **S** sa zadatom operacijom $\circ$ je Abelova grupa.
 
-2. Skup **S** opremljen sa $\diamond$ je Abelova grupa za „nenula“ Elements.
+2. Skup **S** sa zadatom operacijom  $\diamond$ je Abelova grupa za „nenulte“ elemente.
 
-3. Skup **S** opremljen sa dva operatora ispunjava ono što je poznato kao distributivni uslov: Pretpostavimo da su $a$, $b$ i $c$ Elements od **S**. Tada **S** opremljen sa dva operatora ispunjava distributivno svojstvo kada je $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
-
-
-Imajte na umu da je, kao i kod grupa, definicija polja veoma apstraktna. Ona ne postavlja nikakve tvrdnje o tipovima Elements u **S**, niti o operacijama $\circ$ i $\diamond$. Samo navodi da je polje bilo koji skup Elements sa dve operacije za koje važe tri gore navedena uslova. („Nulti“ element u drugoj Abelovoj grupi može se apstraktno interpretirati.)
+3. Skup **S** sa zadate dve operacije zadovoljava ono što je poznato kao distributivni uslov: Pretpostavimo da su $a$, $b$ i $c$ elementi od **S**. Tada **S** na kojem su definisane dve operacije ispunjava distributivno svojstvo kada je $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
 
-Dakle, šta bi mogao biti primer polja? Dobar primer je skup $\mathbb{Z} \mod 7$, ili $\{0, 1, \ldots, 7\}$ definisan preko standardnog sabiranja (umesto $\circ$ gore) i standardnog množenja (umesto $\diamond$ gore).
+Imajte na umu da je, kao i kod grupa, definicija polja veoma apstraktna. Ona ne postavlja nikakve tvrdnje o tipovima elemenata u **S**, niti o operacijama $\circ$ i $\diamond$. Samo navodi da je polje bilo koji skup elemenata sa dve operacije za koje važe tri gore navedena uslova. („Nulti“ element u drugoj Abelovoj grupi može se apstraktno interpretirati.)
 
 
-Prvo, $\mathbb{Z} \mod 7$ ispunjava uslov da bude Abelova grupa preko sabiranja, i ispunjava uslov da bude Abelova grupa preko množenja ako uzmete u obzir samo nenulte Elements. Drugo, kombinacija skupa sa dva operatora ispunjava distributivni uslov.
+Dakle, šta bi mogao biti primer polja? Dobar primer je skup $\mathbb{Z} \mod 7$, ili $\{0, 1, \ldots, 7\}$ definisan operacijom standardnog sabiranja (umesto $\circ$ gore) i standardnog množenja (umesto $\diamond$ gore).
 
 
-Didaktički je korisno istražiti ove tvrdnje koristeći neke posebne vrednosti. Uzmimo eksperimentalne vrednosti 5, 2 i 3, neke nasumično odabrane Elements iz skupa $\mathbb{Z} \mod 7$, da bismo ispitali polje $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Koristićemo ove tri vrednosti redom, prema potrebi, da istražimo posebne uslove.
+Prvo, $\mathbb{Z} \mod 7$ ispunjava uslov da bude Abelova grupa u odnosu na sabiranje, i ispunjava uslov da bude Abelova grupa u odnosu na množenje ako uzmete u obzir samo nenulte elemente. Drugo, kombinacija skupa sa dva operatora ispunjava distributivni uslov.
 
 
-Hajde prvo da istražimo da li je $\mathbb{Z} \mod 7$ opremljen sabiranjem Abelova grupa.
+Didaktički je korisno istražiti ove tvrdnje koristeći neke posebne vrednosti. Uzmimo eksperimentalne vrednosti 5, 2 i 3, neke nasumično odabrane elemente iz skupa $\mathbb{Z} \mod 7$, da bismo ispitali polje $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Koristićemo ove tri vrednosti redom, prema potrebi, da istražimo posebne uslove.
+
+
+Hajde prvo da istražimo da li je $\mathbb{Z} \mod 7$ sa zadatom operacijom sabiranja Abelova grupa.
 
 
 1. **Uslov zatvorenosti**: Uzmimo 5 i 2 kao naše vrednosti. U tom slučaju, $[5 + 2] \mod 7 = 7 \mod 7 = 0$. Ovo je zaista element skupa $\mathbb{Z} \mod 7$, tako da je rezultat u skladu sa uslovom zatvorenosti.
@@ -1148,7 +1147,7 @@ Hajde prvo da istražimo da li je $\mathbb{Z} \mod 7$ opremljen sabiranjem Abelo
 5. **Uslov komutativnosti**: Uzmimo 5 i 3 kao naše vrednosti. U tom slučaju, $[5 + 3] \mod 7 = [3 + 5] \mod 7 = 1$. Ovo je u skladu sa uslovom komutativnosti.
 
 
-Skup $\mathbb{Z} \mod 7$ opremljen sabiranjem očigledno izgleda kao Abelova grupa. Hajde sada da istražimo da li je $\mathbb{Z} \mod 7$ opremljen množenjem Abelova grupa za sve nenulte Elements.
+Skup $\mathbb{Z} \mod 7$ sa definisanom operacijom sabiranja očigledno izgleda kao Abelova grupa. Hajde sada da istražimo da li je $\mathbb{Z} \mod 7$ sa definisanom operacijom množenja Abelova grupa za sve nenulte elemente.
 
 
 1. **Uslov zatvorenosti**: Uzmimo 5 i 2 kao naše vrednosti. U tom slučaju, $[5 \cdot 2] \mod 7 = 10 \mod 7 = 3$. Ovo je takođe element skupa $\mathbb{Z} \mod 7$, tako da je rezultat u skladu sa uslovom zatvorenosti.
@@ -1162,7 +1161,7 @@ Skup $\mathbb{Z} \mod 7$ opremljen sabiranjem očigledno izgleda kao Abelova gru
 5. **Uslov komutativnosti**: Uzmimo 5 i 3 kao naše vrednosti. U tom slučaju, $[5 \cdot 3] \mod 7 = [3 \cdot 5] \mod 7 = 15 \mod 7 = 1$. Ovo je u skladu sa uslovom komutativnosti.
 
 
-Skup $\mathbb{Z} \mod 7$ očigledno izgleda da ispunjava pravila za Abelovu grupu kada se spoji sa sabiranjem ili množenjem nad nenultim Elements.
+Skup $\mathbb{Z} \mod 7$ očigledno izgleda da ispunjava pravila za Abelovu grupu sa zadatom operacijom sabiranja ili množenja nad nenultim elementima.
 
 
 Konačno, čini se da ovaj skup u kombinaciji sa oba operatora zadovoljava distributivni uslov. Uzmimo 5, 2 i 3 kao naše vrednosti. Vidimo da je $[5 \cdot (2 + 3)] \mod 7 = [5 \cdot 2 + 5 \cdot 3] \mod 7 = 25 \mod 7 = 4$.
@@ -1174,28 +1173,28 @@ Sada smo videli da $\mathbb{Z} \mod 7$ opremljen sa sabiranjem i množenjem ispu
 Ključna razlika je između dve vrste polja: konačna i beskonačna polja.
 
 
-**Beskonačno polje** uključuje polje gde je skup **S** beskonačno velik. Skup realnih brojeva $\mathbb{R}$ opremljen sabiranjem i množenjem je primer beskonačnog polja. **Konačno polje**, takođe poznato kao **Galoisovo polje**, je polje gde je skup **S** konačan. Naš primer iznad $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ je konačno polje.
+**Beskonačno polje** uključuje polje gde je skup **S** beskonačno velik. Skup realnih brojeva $\mathbb{R}$ sa definisanim operacijama sabiranja i množenja je primer beskonačnog polja. **Konačno polje**, takođe poznato kao **Galoisovo polje**, je polje gde je skup **S** konačan. Naš primer iznad $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ je konačno polje.
 
 
-U kriptografiji, prvenstveno smo zainteresovani za konačna polja. Generalno, može se pokazati da konačno polje postoji za neki skup Elements **S** ako i samo ako ima $p^m$ Elements, gde je $p$ prost broj i $m$ pozitivan ceo broj veći ili jednak jedan. Drugim rečima, ako je red nekog skupa **S** prost broj ($p^m$ gde je $m = 1$) ili neka stepena prostog broja ($p^m$ gde je $m > 1$), onda možete pronaći dva operatora $\circ$ i $\diamond$ takva da su ispunjeni uslovi za polje.
+U kriptografiji, prvenstveno smo zainteresovani za konačna polja. Generalno, može se pokazati da konačno polje postoji za neki skup elemenata **S** ako i samo ako ima $p^m$ elemenata, gde je $p$ prost broj i $m$ pozitivan ceo broj veći ili jednak od jedan. Drugim rečima, ako je red nekog skupa **S** prost broj ($p^m$ gde je $m = 1$) ili neka stepena prostog broja ($p^m$ gde je $m > 1$), onda možete pronaći dva operatora $\circ$ i $\diamond$ takva da su ispunjeni uslovi za polje.
 
 
-Ako neko konačno polje ima prost broj Elements, onda se naziva **prostim poljem**. Ako je broj Elements u konačnom polju stepen prostog broja, onda se polje naziva **proširenim poljem**. U kriptografiji, interesujemo se za oba, i prosta i proširena polja. [2]
+Ako neko konačno polje ima prost broj elemenata, onda se naziva **prostim poljem**. Ako je broj elemenata u konačnom polju stepen prostog broja, onda se polje naziva **proširenim poljem**. U kriptografiji, interesujemo se za oba, i prosta i proširena polja. [2]
 
 
-Glavna prostoprimna polja od interesa u kriptografiji su ona gde je skup svih celih brojeva modulisan nekim prostim brojem, a operatori su standardno sabiranje i množenje. Ova klasa konačnih polja bi uključivala $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, i tako dalje. Za bilo koje prostoprimno polje $\mathbb{Z} \mod p$, skup celih brojeva polja je sledeći: $\{0, 1, \ldots, p – 2, p – 1\}$.
+Glavna prosta polja od interesa u kriptografiji su ona gde je skup svih celih brojeva modulisan nekim prostim brojem, a operatori su standardno sabiranje i množenje. Ova klasa konačnih polja bi uključivala $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, i tako dalje. Za bilo koje prosto polje $\mathbb{Z} \mod p$, skup celih brojeva polja je sledeći: $\{0, 1, \ldots, p – 2, p – 1\}$.
 
 
-U kriptografiji, takođe smo zainteresovani za proširena polja, posebno bilo koja polja sa $2^m$ Elements gde je $m > 1$. Takva konačna polja se, na primer, koriste u Rijndael šifri, koja čini osnovu za Advanced Encryption Standard. Dok su prosti brojevi relativno intuitivni, ova proširena polja baze 2 verovatno nisu za one koji nisu upoznati sa apstraktnom algebrom.
+U kriptografiji, takođe smo zainteresovani za proširena polja, posebno bilo koja polja sa $2^m$ elemenata gde je $m > 1$. Takva konačna polja se, na primer, koriste u Rijndael šifri, koja čini osnovu za Advanced Encryption Standard šemu enkripcije. Dok su prosti brojevi relativno intuitivni, ova proširena polja baze 2 verovatno nisu za one koji nisu upoznati sa apstraktnom algebrom.
 
 
-Za početak, zaista je tačno da bilo koji skup celih brojeva sa $2^m$ Elements može biti dodeljen sa dva operatora koji bi njihovu kombinaciju učinili poljem (sve dok je $m$ pozitivan ceo broj). Ipak, samo zato što polje postoji ne znači nužno da ga je lako otkriti ili da je posebno praktično za određene primene.
+Za početak, zaista je tačno da bilo koji skup celih brojeva sa $2^m$ elemenata može biti definisan sa dva operatora koji bi njihovu kombinaciju učinili poljem (sve dok je $m$ pozitivan ceo broj). Ipak, samo zato što polje postoji ne znači nužno da ga je lako otkriti ili da je posebno praktično za određene primene.
 
 
-Ispostavlja se da su posebno primenljiva proširenja polja $2^m$ u kriptografiji ona definisana nad posebnim skupovima polinomskih izraza, a ne nekim skupom celih brojeva.
+Ispostavlja se da su posebno primenljiva proširenja polja $2^m$ u kriptografiji ona definisana nad posebnim skupovima polinomskih izraza, a ne nad nekim skupom celih brojeva.
 
 
-Na primer, pretpostavimo da želimo prošireno polje sa $2^3$ (tj. 8) Elements u skupu. Iako može postojati mnogo različitih skupova koji se mogu koristiti za polja te veličine, jedan takav skup uključuje sve jedinstvene polinome oblika $a_2x^2 + a_1x + a_0$, gde je svaki koeficijent $a_i$ ili 0 ili 1. Dakle, ovaj skup **S** uključuje sledeće Elements:
+Na primer, pretpostavimo da želimo prošireno polje sa $2^3$ (tj. 8) elemenata u skupu. Iako može postojati mnogo različitih skupova koji se mogu koristiti za polja te veličine, jedan takav skup uključuje sve jedinstvene polinome oblika $a_2x^2 + a_1x + a_0$, gde je svaki koeficijent $a_i$ ili 0 ili 1. Dakle, ovaj skup **S** uključuje sledeće elemente:
 
 
 1. $0$: Slučaj kada je $a_2 = 0$, $a_1 = 0$, i $a_0 = 0$.
@@ -1215,7 +1214,7 @@ Na primer, pretpostavimo da želimo prošireno polje sa $2^3$ (tj. 8) Elements u
 8. $x^2 + x + 1$: Slučaj gde je $a_2 = 1$, $a_1 = 1$, i $a_0 = 1$.
 
 
-Dakle, **S** bi bio skup $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Koje dve operacije mogu biti definisane nad ovim skupom Elements da bi se osiguralo da njihova kombinacija čini polje?
+Dakle, **S** bi bio skup $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Koje dve operacije mogu biti definisane nad ovim skupom elemenata da bi se osiguralo da njihova kombinacija čini polje?
 
 
 Prva operacija na skupu **S** ($\circ$) može se definisati kao standardno sabiranje polinoma modulo 2. Sve što treba da uradite je da saberete polinome kao što biste to inače uradili, a zatim primenite modulo 2 na svaki od koeficijenata rezultujućeg polinoma. Evo nekoliko primera:
@@ -1236,7 +1235,7 @@ Hajde prvo da se okrenemo ideji ireducibilnog polinoma. **Ireducibilni polinom**
 Na primer, razmotrite polinom $x^2 - 3x + 2$. Ovo se može prepisati kao $(x – 1)(x – 2)$. Dakle, ovo nije ireducibilno. Sada razmotrite polinom $x^2 + 1$. Koristeći samo cele brojeve, ne postoji način da se ovaj izraz dalje faktoriše. Dakle, ovo je ireducibilan polinom u odnosu na cele brojeve.
 
 
-Sledeće, okrenimo se konceptu množenja vektora. Nećemo detaljno istraživati ovu temu, ali treba da razumete osnovno pravilo: Bilo koja podela vektora može se izvršiti sve dok deljenik ima stepen viši ili jednak stepenu delioca. Ako deljenik ima niži stepen od delioca, tada deljenik više ne može biti podeljen deliocem.
+Sledeće, okrenimo se konceptu množenja vektora. Nećemo detaljno istraživati ovu temu, ali treba da razumete osnovno pravilo: Svako deljenje vektora može se izvršiti sve dok deljenik ima stepen viši ili jednak stepenu delioca. Ako deljenik ima niži stepen od delioca, tada deljenik više ne može biti podeljen deliocem.
 
 
 Na primer, razmotrite izraz $x^6 + x + 1 \mod x^5 + x^2$. Ovo se očigledno dalje redukuje jer je stepen delioca, 6, veći od stepena delitelja, 5. Sada razmotrite izraz $x^5 + x + 1 \mod x^5 + x^2$. Ovo se takođe dalje redukuje, jer su stepen delioca, 5, i delitelja, 5, jednaki.
@@ -1257,10 +1256,10 @@ Kako su svi vektori u skupu stepena 2 ili nižeg, nerazloživi polinom treba da 
 Ispostavlja se da postoji nekoliko ireducibilnih polinoma stepena 3 koje bismo mogli koristiti kao naš delilac. Svaki od ovih polinoma definiše različito polje u kombinaciji sa našim skupom **S** i sabiranjem modulo 2. To znači da imate više opcija kada koristite proširena polja $2^m$ u kriptografiji.
 
 
-Za naš primer, pretpostavimo da odaberemo polinom $x^3 + x + 1$. Ovo je zaista nerazloživo, jer ga ne možete faktorisati koristeći cele brojeve. Pored toga, obezbediće da bilo koje množenje dva Elements da polinom stepena 2 ili manje.
+Za naš primer, pretpostavimo da odaberemo polinom $x^3 + x + 1$. Ovo je zaista nerazloživo, jer ga ne možete faktorisati koristeći cele brojeve. Pored toga, obezbediće da bilo koje množenje dva elementa da polinom stepena 2 ili manje.
 
 
-Hajde da prođemo kroz primer druge operacije koristeći polinom $x^3 + x + 1$ kao delilac da bismo ilustrovali kako to funkcioniše. Pretpostavimo da množite Elements $x^2 + 1$ sa $x^2 + x$ u našem skupu **S**. Zatim, treba da izračunamo izraz $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Ovo se može pojednostaviti na sledeći način:
+Hajde da prođemo kroz primer druge operacije koristeći polinom $x^3 + x + 1$ kao delilac da bismo ilustrovali kako to funkcioniše. Pretpostavimo da množite elemente $x^2 + 1$ sa $x^2 + x$ u našem skupu **S**. Zatim, treba da izračunamo izraz $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Ovo se može pojednostaviti na sledeći način:
 
 
 
@@ -1298,13 +1297,13 @@ Možda se pitate zašto $(x^3) - (x^3 + x + 1)$ daje $x + 1$ a ne $-x - 1$. Zapa
 Da sumiramo množenje $x^2 + 1$ i $x^2 + x$: Kada pomnožite ta dva člana, dobijate polinom stepena 4, $x^4 + x^3 + x^2 + x$, koji treba da se redukuje modulo $x^3 + x + 1$. Polinom stepena 4 je deljiv sa $x^3 + x + 1$ tačno $x + 1$ puta. Ostatak nakon deljenja $x^4 + x^3 + x^2 + x$ sa $x^3 + x + 1$ tačno $x + 1$ puta je $x + 1$. Ovo je zaista element u našem skupu $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
 
 
-Zašto bi proširena polja sa bazom 2 nad skupovima polinoma, kao u gornjem primeru, bila korisna za kriptografiju? Razlog je taj što koeficijente u polinomima takvih skupova, bilo 0 ili 1, možete posmatrati kao Elements binarnih nizova određene dužine. Skup **S** u našem gornjem primeru, na primer, mogao bi se posmatrati kao skup **S** koji uključuje sve binarne nizove dužine 3 (000 do 111). Operacije na **S**, zatim, mogu se koristiti za izvođenje operacija na ovim binarnim nizovima i proizvodnju binarnog niza iste dužine.
+Zašto bi proširena polja sa bazom 2 nad skupovima polinoma, kao u gornjem primeru, bila korisna za kriptografiju? Razlog je taj što koeficijente u polinomima takvih skupova, bilo 0 ili 1, možete posmatrati kao elemente binarnih nizova određene dužine. Skup **S** u našem gornjem primeru, na primer, mogao bi se posmatrati kao skup **S** koji uključuje sve binarne nizove dužine 3 (000 do 111). Operacije nad skupom **S**, zatim, mogu se koristiti za izvođenje operacija na ovim binarnim nizovima i proizvodnju binarnog niza iste dužine.
 
 
 **Beleške:**
 
 
-[2] Proširena polja postaju veoma kontraintuitivna. Umesto da imaju Elements celih brojeva, ona imaju skupove polinoma. Pored toga, sve operacije se izvode modulo nekog neprelaznog polinoma.
+[2] Proširena polja postaju veoma kontraintuitivna. Umesto da imaju elemente celih brojeva, ona imaju skupove polinoma. Pored toga, sve operacije se izvode modulo nekog ireducibilnog polinoma.
 
 
 
@@ -1313,10 +1312,10 @@ Zašto bi proširena polja sa bazom 2 nad skupovima polinoma, kao u gornjem prim
 <chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
 
 
-Uprkos formalnom jeziku i apstraktnosti diskusije, koncept grupe ne bi trebalo da bude previše težak za razumevanje. To je samo skup Elements zajedno sa binarnom operacijom, gde izvršavanje te binarne operacije na tim Elements ispunjava četiri opšta uslova. Abelova grupa ima samo dodatni uslov poznat kao komutativnost. Ciklična grupa, zauzvrat, je posebna vrsta Abelove grupe, naime ona koja ima generator. Polje je samo složenija konstrukcija iz osnovnog pojma grupe.
+Uprkos formalnom jeziku i apstraktnosti diskusije, koncept grupe ne bi trebalo da bude previše težak za razumevanje. To je samo skup elemenata zajedno sa binarnom operacijom, gde izvršavanje te binarne operacije na tim elementima ispunjava četiri opšta uslova. Abelova grupa ima samo dodatni uslov poznat kao komutativnost. Ciklična grupa, zauzvrat, je posebna vrsta Abelove grupe, naime ona koja ima generator. Polje je samo složenija konstrukcija iz osnovnog pojma grupe.
 
 
-Ali ako ste praktično nastrojena osoba, mogli biste se zapitati u ovom trenutku: Koga briga? Da li poznavanje nekog skupa Elements sa operatorom kao grupe, ili čak Abelove ili ciklične grupe, ima ikakvu relevantnost u stvarnom svetu? Da li je važno znati da je nešto polje?
+Ali ako ste praktično nastrojena osoba, mogli biste se zapitati u ovom trenutku: Koga briga? Ima li ikakvog značaja u stvarnom svetu to što znamo da je neki skup elemenata sa zadatom operacijom grupa, ili čak Abelova ili ciklična grupa? Ima li značaja to što znamo da je nešto polje?
 
 
 Bez ulaženja u previše detalja, odgovor je „da“. Grupe su prvi put stvorene u 19. veku od strane francuskog matematičara Evarista Galoisa. On ih je koristio da donese zaključke o rešavanju polinomskih jednačina stepena višeg od pet.
@@ -1325,7 +1324,7 @@ Bez ulaženja u previše detalja, odgovor je „da“. Grupe su prvi put stvoren
 Od tada je koncept grupe pomogao da se rasvetli niz problema u matematici i drugim oblastima. Na njihovoj osnovi, na primer, fizičar Murray-Gellman je bio u stanju da predvidi postojanje čestice pre nego što je ona zapravo primećena u eksperimentima. [3] Za još jedan primer, hemičari koriste teoriju grupa za klasifikaciju oblika molekula. Matematičari su čak koristili koncept grupe da izvuku zaključke o nečemu tako konkretnom kao što je tapeta!
 
 
-U suštini, pokazivanje da je skup Elements sa nekim operatorom grupa znači da ono što opisujete ima određenu simetriju. Ne simetriju u uobičajenom smislu te reči, već u apstraktnijem obliku. I ovo može pružiti značajne uvide u određene sisteme i probleme. Složeniji pojmovi iz apstraktne algebre samo nam daju dodatne informacije.
+U suštini, pokazivanje da je skup elemenata sa nekim operatorom grupa znači da ono što opisujete ima određenu simetriju. Ne simetriju u uobičajenom smislu te reči, već u apstraktnijem obliku. I ovo može pružiti značajne uvide u određene sisteme i probleme. Složeniji pojmovi iz apstraktne algebre samo nam daju dodatne informacije.
 
 
 Najvažnije je da ćete videti značaj brojevnih teorijskih grupa i polja u praksi kroz njihovu primenu u kriptografiji, posebno u kriptografiji javnog ključa. Već smo videli u našoj diskusiji o poljima, na primer, kako se proširena polja koriste u Rijndael šifri. Taj primer ćemo razraditi u *Poglavlju 5*.
@@ -1357,18 +1356,18 @@ Za dalju diskusiju o modernoj teoriji brojeva, možete se konsultovati sa mnogim
 
 
 
-## Alice i Bob
+## Alisa i Bob
 
 <chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
 
 
-Jedna od dve glavne grane kriptografije je simetrična kriptografija. Ona uključuje šeme šifrovanja, kao i šeme koje se bave autentifikacijom i integritetom. Do 1970-ih, cela kriptografija bi se sastojala od simetričnih šema šifrovanja.
+Jedna od dve glavne grane kriptografije je simetrična kriptografija. Ona uključuje šeme šifrovanja, kao i šeme koje se bave autentifikacijom i integritetom. Do 1970-ih, cela kriptografija se sastojala od simetričnih šema šifrovanja.
 
 
-Glavna diskusija počinje razmatranjem simetričnih šema šifrovanja i pravljenjem ključne razlike između strujnih šifara i blok šifara. Zatim se okrećemo kodovima za autentifikaciju poruka, koji su šeme za osiguranje integriteta i autentičnosti poruka. Na kraju, istražujemo kako se simetrične šeme šifrovanja i kodovi za autentifikaciju poruka mogu kombinovati kako bi se osigurala sigurna komunikacija.
+Glavna diskusija započinje razmatranjem simetričnih šema šifrovanja i pravljenjem ključne razlike između šifara toka i blok šifara. Zatim se okrećemo kodovima za autentikaciju poruka, koji predstavljaju šeme za obezbeđivanje integriteta i autentičnosti poruka. Na kraju, istražujemo kako se simetrične šeme šifrovanja i kodovi za autentifikaciju poruka mogu kombinovati kako bi se osigurala sigurna komunikacija.
 
 
-Ovo poglavlje usputno razmatra različite simetrične kriptografske šeme iz prakse. Sledeće poglavlje nudi detaljno izlaganje enkripcije pomoću strujne šifre i blokovske šifre iz prakse, naime RC4 i AES respektivno.
+Ovo poglavlje usputno razmatra različite simetrične kriptografske šeme iz prakse. Sledeće poglavlje nudi detaljno izlaganje enkripcije pomoću šifre toka i blokovske šifre iz prakse, naime RC4 i AES respektivno.
 
 
 Pre nego što započnemo našu diskusiju o simetričnoj kriptografiji, želim ukratko da dam nekoliko napomena o ilustracijama Alise i Boba u ovom i narednim poglavljima.
@@ -1390,7 +1389,7 @@ Sledećih pet ključnih tačaka treba imati na umu kada su u pitanju primeri koj
 
 2. Oni se lako mogu proširiti da uključe tri ili više aktera.
 
-3. U primerima, Bob i Alice su obično aktivni učesnici u kreiranju svake poruke i u primeni kriptografskih šema na tu poruku. Ali u stvarnosti, elektronske komunikacije su uglavnom automatizovane. Kada posetite veb-sajt koristeći transportnu Layer sigurnost, na primer, kriptografija se obično u potpunosti obrađuje od strane vašeg računara i veb servera.
+3. U primerima, Bob i Alisa su obično aktivni učesnici u kreiranju svake poruke i u primeni kriptografskih šema na tu poruku. Ali u stvarnosti, elektronske komunikacije su uglavnom automatizovane. Kada posetite veb-sajt koristeći bezbednost transportnog sloja (TLS), na primer, kriptografijom se obično u potpunosti bave vaš računar i veb server.
 
 4. U kontekstu elektronske komunikacije, „poruke“ koje se šalju preko komunikacionog kanala obično su TCP/IP paketi. Oni mogu pripadati e-mailu, Facebook poruci, telefonskom razgovoru, prenosu fajlova, vebsajtu, otpremi softvera i slično. Oni nisu poruke u tradicionalnom smislu. Ipak, kriptografi će često pojednostaviti ovu stvarnost navodeći da je poruka, na primer, e-mail.
 
@@ -1425,10 +1424,10 @@ Ali ne bi se reklo da je korišćenje Salsa20 sa 128-bitnim ključem drugačija 
 Simetrične šeme šifrovanja su obično korisne u dve vrste slučajeva: (1) One u kojima dva ili više agenata komuniciraju na daljinu i žele da zadrže sadržaj svojih komunikacija tajnim; i (2) one u kojima jedan agent želi da zadrži sadržaj poruke tajnim kroz vreme.
 
 
-Možete videti prikaz situacije (1) u *Figure 1* ispod. Bob želi da pošalje poruku $M$ Alisi preko određene distance, ali ne želi da drugi mogu da pročitaju tu poruku.
+Možete videti prikaz situacije (1) u *Slici 1* ispod. Bob želi da pošalje poruku $M$ Alisi preko određene distance, ali ne želi da drugi mogu da pročitaju tu poruku.
 
 
-Bob prvo šifrira poruku $M$ privatnim ključem $K$. Zatim šalje šifrat $C$ Alisi. Kada Alisa primi šifrat, može ga dešifrovati koristeći ključ $K$ i pročitati otvoreni tekst. Sa dobrim šifarskim sistemom, svaki napadač koji presretne šifrat $C$ ne bi trebalo da može saznati ništa od stvarnog značaja o poruci $M$.
+Bob prvo šifrira poruku $M$ privatnim ključem $K$. Zatim šalje šifrat (eng. ciphertext) $C$ Alisi. Kada Alisa primi šifrat, može ga dešifrovati koristeći ključ $K$ i pročitati otvoreni tekst. Sa dobrim šifarskim sistemom, svaki napadač koji presretne šifrat $C$ ne bi trebalo da može saznati ništa od stvarnog značaja o poruci $M$.
 
 
 Možete videti prikaz situacije (2) na *Slici 2* ispod. Bob želi da spreči druge da vide određene informacije. Tipična situacija može biti da je Bob zaposleni koji čuva osetljive podatke na svom računaru, koje ni autsajderi ni njegove kolege ne bi trebalo da čitaju.
@@ -1483,19 +1482,19 @@ Pretpostavimo rečnik *D* koji izjednačava sva slova engleske abecede, redom, s
 Ono što čini šifru pomaka simetričnom šemom enkripcije je to što se isti ključ koristi i za proces enkripcije i za proces dekripcije. Na primer, pretpostavimo da želite da šifrujete poruku "DOG" koristeći šifru pomaka, i da ste nasumično odabrali "24" kao ključ. Šifrovanje poruke ovim ključem bi dalo "BME". Jedini način da se povrati originalna poruka je korišćenjem istog ključa, "24", za proces dekripcije.
 
 
-Ovaj Shift šifra je primer **monoalfabetske supstitucione šifre**: šema šifrovanja gde je alfabet šifrovanog teksta fiksiran (tj. koristi se samo jedan alfabet). Pod pretpostavkom da je algoritam dešifrovanja deterministički, svaki simbol u šifrovanom tekstu supstitucije može se odnositi na najviše jedan simbol u otvorenom tekstu.
+Ovo šifriranje pomakom je primer **monoalfabetske supstitucione šifre**: šema šifrovanja gde je alfabet šifrovanog teksta fiksiran (tj. koristi se samo jedan alfabet). Pod pretpostavkom da je algoritam dešifrovanja deterministički, svaki simbol u šifrovanom tekstu supstitucije može se odnositi na najviše jedan simbol u otvorenom tekstu.
 
 
-Sve do 1700-ih, mnoge primene enkripcije su se u velikoj meri oslanjale na monoalfabetske supstitucione šifre, iako su često bile mnogo složenije od Šifrove šifre. Mogli ste, na primer, nasumično izabrati slovo iz alfabeta za svako originalno slovo teksta pod uslovom da se svako slovo pojavljuje samo jednom u alfabetu šifrovanog teksta. To znači da biste imali faktorijel od 26 mogućih privatnih ključeva, što je bilo ogromno u doba pre računara.
+Sve do 1700-ih, mnoge primene enkripcije su se u velikoj meri oslanjale na monoalfabetske supstitucione šifre, iako su često bile mnogo složenije od navedenog primera šifriranja pomakom. Mogli ste, na primer, nasumično izabrati slovo iz alfabeta za svako originalno slovo teksta pod uslovom da se svako slovo pojavljuje samo jednom u alfabetu šifrovanog teksta. To znači da biste imali faktorijel od 26 mogućih privatnih ključeva, što je bilo ogromno u doba pre računara.
 
 
-Imajte na umu da ćete često naići na termin **cipher** u kriptografiji. Budite svesni da ovaj termin ima različita značenja. Zapravo, znam najmanje pet različitih značenja ovog termina unutar kriptografije.
+Imajte na umu da ćete često naići na termin **cipher** na engleskom u kriptografiji. Budite svesni da ovaj termin ima različita značenja. Zapravo, znam najmanje pet različitih značenja ovog termina unutar kriptografije.
 
 
-U nekim slučajevima se odnosi na šemu šifrovanja, kao što je to slučaj kod Shift šifre i monoalfabetske supstitucione šifre. Međutim, termin se takođe može odnositi specifično na algoritam šifrovanja, privatni ključ, ili samo na šifrat bilo koje takve šeme šifrovanja.
+U nekim slučajevima se odnosi na šemu šifrovanja, kao što je to slučaj kod šifriranja pomakom i monoalfabetske supstitucione šifre. Međutim, termin se takođe može odnositi specifično na algoritam šifrovanja, privatni ključ, ili samo na šifrat bilo koje takve šeme šifrovanja.
 
 
-Na kraju, termin šifra može se odnositi i na osnovni algoritam iz kojeg možete konstruisati kriptografske šeme. Ovo može uključivati različite algoritme za šifrovanje, ali i druge tipove kriptografskih šema. Ovaj smisao termina postaje relevantan u kontekstu blok šifara (pogledajte odeljak „Blok šifre“ ispod).
+Na kraju, termin cipher ili u prevodu šifrat može se odnositi i na osnovni algoritam iz kojeg možete konstruisati kriptografske šeme. Ovo može uključivati različite algoritme za šifrovanje, ali i druge tipove kriptografskih šema. Ovaj smisao termina postaje relevantan u kontekstu blok šifara (pogledajte odeljak „Blok šifre“ ispod).
 
 
 Možda ćete naići i na termine **encipher** ili **decipher**. Ovi termini su samo sinonimi za enkripciju i dekripciju.
@@ -1507,13 +1506,13 @@ Možda ćete naići i na termine **encipher** ili **decipher**. Ovi termini su s
 <chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
 
-Šifarska zamena je veoma nesigurna simetrična šema šifrovanja, barem u modernom svetu. [1] Napadač bi mogao jednostavno pokušati dešifrovanje bilo kog šifrovanog teksta sa svih 26 mogućih ključeva da vidi koji rezultat ima smisla. Ova vrsta napada, gde napadač samo prolazi kroz ključeve da vidi šta funkcioniše, poznata je kao **brute force napad** ili **iscrpna pretraga ključeva**.
+Šifriranje pomakom je veoma nesigurna simetrična šema šifrovanja, barem u modernom svetu. [1] Napadač bi mogao jednostavno pokušati dešifrovanje bilo kog šifrovanog teksta sa svih 26 mogućih ključeva da vidi koji rezultat ima smisla. Ova vrsta napada, gde napadač samo prolazi kroz ključeve da vidi šta funkcioniše, poznata je kao **brute force napad** ili **napad grubom silom** ili **iscrpna pretraga ključeva**.
 
 
-Da bi bilo koja šema enkripcije ispunila minimalni pojam sigurnosti, mora imati skup mogućih ključeva, ili **ključni prostor**, koji je toliko veliki da su napadi grubom silom neizvodljivi. Sve moderne šeme enkripcije ispunjavaju ovaj standard. To je poznato kao **princip dovoljnog ključnog prostora**. Sličan princip se obično primenjuje u različitim vrstama kriptografskih šema.
+Da bi bilo koja šema enkripcije ispunila minimalni pojam sigurnosti, mora imati skup mogućih ključeva, ili **prostor ključeva**, koji je toliko veliki da su napadi grubom silom neizvodljivi. Sve moderne šeme enkripcije ispunjavaju ovaj standard. To je poznato kao **princip dovoljnog prostora ključeva**. Sličan princip se obično primenjuje u različitim vrstama kriptografskih šema.
 
 
-Da biste stekli osećaj o veličini prostora ključeva u modernim šemama enkripcije, pretpostavimo da je fajl enkriptovan sa 128-bitnim ključem koristeći napredni standard enkripcije. To znači da napadač ima skup od $2^{128}$ ključeva koje treba da prođe za napad grubom silom. Šansa od 0.78% uspeha sa ovom strategijom zahtevala bi da napadač prođe kroz otprilike $2.65 \times 10^{36}$ ključeva.
+Da biste stekli osećaj o veličini prostora ključeva u modernim šemama enkripcije, pretpostavimo da je fajl enkriptovan sa 128-bitnim ključem koristeći napredni standard enkripcije (AES). To znači da napadač ima skup od $2^{128}$ ključeva koje treba da prođe za napad grubom silom. Šansa od 0.78% uspeha sa ovom strategijom zahtevala bi da napadač prođe kroz otprilike $2.65 \times 10^{36}$ ključeva.
 
 
 Pretpostavimo da optimistično pretpostavimo da napadač može pokušati $10^{16}$ ključeva u sekundi (tj. 10 kvadriliona ključeva u sekundi). Da bi testirala 0,78% svih ključeva u prostoru ključeva, njen napad bi morao trajati $2,65 \times 10^{20}$ sekundi. To je oko 8,4 triliona godina. Dakle, čak ni napad grubom silom od strane apsurdno moćnog protivnika nije realističan sa modernom 128-bitnom šemom enkripcije. Ovo je princip dovoljnog prostora ključeva na delu.
@@ -1528,10 +1527,10 @@ U svakom slučaju, moderna kriptografija uvek pretpostavlja da sigurnost bilo ko
 Ideja da sigurnost simetrične šeme šifrovanja može zavisiti samo od tajnosti privatnog ključa poznata je kao **Kerckhoffsov princip**.
 
 
-Kako je prvobitno zamislio Kerckhoffs, princip se odnosi samo na simetrične šeme šifrovanja. Međutim, opštija verzija principa takođe se primenjuje na sve druge savremene tipove kriptografskih šema: Dizajn bilo koje kriptografske šeme ne sme biti potreban da bude tajan kako bi bila sigurna; tajnost se može odnositi samo na neke nizove informacija, obično privatni ključ.
+Kako je prvobitno zamislio Kerckhoffs, princip se odnosi samo na simetrične šeme šifrovanja. Međutim, opštija verzija principa takođe se primenjuje na sve druge savremene tipove kriptografskih šema: dizajn bilo koje kriptografske šeme ne sme biti potreban da bude tajan kako bi bila sigurna; tajnost se može odnositi samo na neke nizove informacija, obično privatni ključ.
 
 
-Kerckhoffsovo načelo je ključno za modernu kriptografiju iz četiri razloga. [2] Prvo, postoji samo ograničen broj kriptografskih šema za određene tipove aplikacija. Na primer, većina modernih simetričnih enkripcijskih aplikacija koristi Rijndael šifru. Dakle, vaša tajnost u vezi sa dizajnom šeme je veoma ograničena. Međutim, postoji mnogo više fleksibilnosti u čuvanju neke privatne ključeve za Rijndael šifru tajnom.
+Kerckhoffsovo načelo je ključno za modernu kriptografiju iz četiri razloga. [2] Prvo, postoji samo ograničen broj kriptografskih šema za određene tipove aplikacija. Na primer, većina modernih simetričnih enkripcijskih aplikacija koristi Rijndael šifru. Dakle, vaša tajnost u vezi sa dizajnom šeme je veoma ograničena. Međutim, postoji mnogo više fleksibilnosti u čuvanju nekog privatnog ključa za Rijndael šifru u tajnosti.
 
 
 Drugo, lakše je zameniti neki niz informacija nego čitavu kriptografsku šemu. Pretpostavimo da svi zaposleni u jednoj kompaniji koriste isti softver za enkripciju i da svaki par zaposlenih ima privatni ključ za poverljivu komunikaciju. Kompromitovanje ključeva je problem u ovom scenariju, ali barem bi kompanija mogla zadržati softver uprkos takvim sigurnosnim propustima. Ako bi kompanija zavisila od tajnosti šeme, tada bi svaki propust te tajnosti zahtevao zamenu celog softvera.
@@ -1540,10 +1539,10 @@ Drugo, lakše je zameniti neki niz informacija nego čitavu kriptografsku šemu.
 Treće, Kerckhoffsov princip omogućava standardizaciju i kompatibilnost između korisnika kriptografskih šema. Ovo ima ogromne prednosti za efikasnost. Na primer, teško je zamisliti kako bi milioni ljudi mogli sigurno da se povežu na Google-ove veb servere svakog dana, ako bi ta sigurnost zahtevala čuvanje kriptografskih šema u tajnosti.
 
 
-Četvrto, Kerckhoffov princip omogućava javnu proveru kriptografskih šema. Ova vrsta provere je apsolutno neophodna za postizanje sigurnih kriptografskih šema. Ilustrativno, glavni osnovni algoritam u simetričnoj kriptografiji, Rijndael šifra, bio je rezultat takmičenja organizovanog od strane Nacionalnog instituta za standarde i tehnologiju između 1997. i 2000. godine.
+Četvrto, Kerckhoffov princip omogućava javnu proveru kriptografskih šema. Ova vrsta provere je apsolutno neophodna za postizanje sigurnih kriptografskih šema. Ilustrativno, osnovni algoritam u simetričnoj kriptografiji, Rijndael šifra, bio je rezultat takmičenja organizovanog od strane Nacionalnog instituta za standarde i tehnologiju između 1997. i 2000. godine.
 
 
-Bilo koji sistem koji pokušava da postigne **sigurnost kroz skrivanje** je onaj koji se oslanja na čuvanje detalja svog dizajna i/ili implementacije u tajnosti. U kriptografiji, ovo bi bio specifično sistem koji se oslanja na čuvanje detalja dizajna kriptografskog šema u tajnosti. Dakle, sigurnost kroz skrivanje je u direktnom kontrastu sa Kerckhoffsovim principom.
+Bilo koji sistem koji pokušava da postigne **sigurnost kroz skrivanje** je onaj koji se oslanja na čuvanje detalja svog dizajna i/ili implementacije u tajnosti. U kriptografiji, ovo bi bio specifično sistem koji se oslanja na čuvanje detalja dizajna kriptografske šeme u tajnosti. Dakle, sigurnost kroz skrivanje je u direktnom kontrastu sa Kerckhoffsovim principom.
 
 
 Sposobnost otvorenosti da poboljša kvalitet i sigurnost takođe se šire odnosi na digitalni svet, a ne samo na kriptografiju. Besplatne i otvorene Linux distribucije kao što je Debian, na primer, generalno imaju nekoliko prednosti u odnosu na svoje Windows i MacOS pandane u smislu privatnosti, stabilnosti, sigurnosti i fleksibilnosti. Iako to može imati više uzroka, najvažniji princip je verovatno, kako je Eric Raymond izrazio u svom poznatom eseju "Katedrala i bazar," da "ako dovoljno ljudi gleda, svi bagovi su plitki." [3] Upravo ovaj princip mudrosti mase dao je Linuxu njegov najznačajniji uspeh.
@@ -1557,8 +1556,7 @@ Iako nećemo ulaziti u sve detalje različitih pojmova kriptografske sigurnosti,
 
 
 - Napadačevo znanje o šemi je u skladu sa Kerckhoffsovim principom.
-- Napadač ne može izvodljivo izvršiti brute force napad na šemu. Konkretno, modeli pretnji kriptografskih pojmova sigurnosti obično čak ni ne dozvoljavaju brute force napade, jer pretpostavljaju da oni nisu relevantna razmatranja.
-
+- Napadač ne može izvodljivo da izvrši napad grubom silom na šemu. Konkretno, modeli pretnji u kriptografskim pojmovima bezbednosti obično čak ni ne dopuštaju napade grubom silom, jer pretpostavljaju da oni nisu relevantni za razmatranje.
 
 
 **Beleške:**
@@ -1570,44 +1568,44 @@ Iako nećemo ulaziti u sve detalje različitih pojmova kriptografske sigurnosti,
 [2] Jonathan Katz i Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), str. 7f.
 
 
-[3] Eric Raymond, “The Cathedral and the Bazaar,” paper was presented at the Linux Kongress, Würzburg, Germany (May 27, 1997). There are a number of subsequent versions available as well as a book. My citations are from page 30 in the book: Eric Raymond, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_, revised edn. (2001), O’Reilly: Sebastopol, CA.
+[3] Eric Raymond, “The Cathedral and the Bazaar,” rad je predstavljen na Linux Kongresu, Würzburg, Germany (May 27, 1997). Dostupno je i više kasnijih verzija, kao i knjiga. Moje citate navodim sa 30. strane te knjige: Eric Raymond, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_, revised edn. (2001), O’Reilly: Sebastopol, CA.
 
 
 
-## Stream šifre
+## Šifre toka (eng. stream cipher)
 
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
 
-Simetrične šeme šifrovanja standardno se dele na dva tipa: **strujni šifri** i **blok šifri**. Ova razlika je donekle problematična, međutim, jer ljudi koriste ove termine na nedosledan način. U narednih nekoliko odeljaka, izložiću razliku na način za koji mislim da je najbolji. Trebalo bi da budete svesni, međutim, da će mnogi ljudi koristiti ove termine donekle drugačije nego što sam izložio.
+Simetrične šeme šifrovanja standardno se dele na dva tipa: **šifre toka** i **blok šifre**. Ova razlika je donekle problematična, međutim, jer ljudi koriste ove termine na nedosledan način. U narednih nekoliko odeljaka, izložiću razliku na način za koji mislim da je najbolji. Trebalo bi da budete svesni, međutim, da će mnogi ljudi koristiti ove termine donekle drugačije nego što sam izložio.
 
 
-Okrenimo se prvo ka strim šiframa. **Strim šifra** je simetrična šema šifrovanja gde se šifrovanje sastoji iz dva koraka.
+Okrenimo se prvo ka šiframa toka. **Šifra toka** je simetrična šema šifrovanja gde se šifrovanje sastoji iz dva koraka.
 
 
-Prvo, niz dužine otvorenog teksta se proizvodi putem privatnog ključa. Ovaj niz se naziva **keystream**.
+Prvo, pomoću privatnog ključa se proizvodi niz dužine originalnog teksta. Ovaj niz se naziva **keystream**.
 
 
-Zatim se keystream matematički kombinuje sa otvorenim tekstom kako bi se proizveo šifrovani tekst. Ova kombinacija je obično XOR operacija. Za dešifrovanje, možete jednostavno obrnuti operaciju. (Napomena da $A \oplus B = B \oplus A$, u slučaju kada su $A$ i $B$ nizovi bitova. Dakle, redosled XOR operacije u strim šifri nije bitan za rezultat. Ovo svojstvo je poznato kao **komutativnost**.)
+Zatim se keystream matematički kombinuje sa otvorenim tekstom kako bi se proizveo šifrovani tekst. Ova kombinacija je obično XOR operacija. Za dešifrovanje, možete jednostavno obrnuti operaciju. (Napomena da $A \oplus B = B \oplus A$, u slučaju kada su $A$ i $B$ nizovi bitova. Dakle, redosled XOR operacije u šifri toka nije bitan za rezultat. Ovo svojstvo je poznato kao **komutativnost**.)
 
 
-Tipična XOR strim šifra prikazana je na *Slici 3*. Prvo uzimate privatni ključ $K$ i koristite ga za generate generisanje ključa toka. Ključ toka se zatim kombinuje sa otvorenim tekstom putem XOR operacije kako bi se proizveo šifrovani tekst. Bilo koji agent koji primi šifrovani tekst može ga lako dešifrovati ako ima ključ $K$. Sve što treba da uradi je da kreira ključ toka iste dužine kao šifrovani tekst prema specificiranoj proceduri šeme i primeni XOR sa šifrovani tekst.
+Tipična XOR šifra toka prikazana je na *Slici 3*. Prvo uzimate privatni ključ $K$ i koristite ga za generisanje ključa toka (keystream). Ključ toka se zatim kombinuje sa otvorenim tekstom putem XOR operacije kako bi se proizveo šifrovani tekst. Bilo koji agent koji primi šifrovani tekst može ga lako dešifrovati ako ima ključ $K$. Sve što treba da uradi je da kreira ključ toka iste dužine kao šifrovani tekst prema specificiranoj proceduri šeme i primeni XOR sa šifrovani tekst.
 
 
 
-*Slika 3: XOR tokovna šifra*
+*Slika 3: XOR operacija kod šifre toka*
 
 
 ![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
 
 
-Podsetite se da je šema šifrovanja obično šablon za šifrovanje sa istim osnovnim algoritmom, a ne tačna specifikacija. Po analogiji, strim šifra je obično šablon za šifrovanje u kojem možete koristiti ključeve različitih dužina. Iako dužina ključa može uticati na neke manje detalje šeme, neće uticati na njen suštinski oblik.
+Podsetite se da je šema šifrovanja obično šablon za šifrovanje sa istim osnovnim algoritmom, a ne tačna specifikacija. Po analogiji, šifra toka je obično šablon za šifrovanje u kojem možete koristiti ključeve različitih dužina. Iako dužina ključa može uticati na neke manje detalje šeme, neće uticati na njen suštinski oblik.
 
 
-Šifarski sistem pomaka je primer veoma jednostavnog i nesigurnog strim šifra. Koristeći jedno slovo (privatni ključ), možete proizvesti niz slova dužine poruke (keystream). Ovaj keystream se zatim kombinuje sa otvorenim tekstom putem modulo operacije kako bi se proizveo šifrovani tekst. (Ova modulo operacija može biti pojednostavljena u XOR operaciju kada se slova predstavljaju u bitovima).
+Šifarski sistem pomaka je primer veoma jednostavne i nesigurne šifre toka. Koristeći jedno slovo (privatni ključ), možete proizvesti niz slova dužine poruke (keystream). Ovaj keystream se zatim kombinuje sa otvorenim tekstom putem modulo operacije kako bi se proizveo šifrovani tekst. (Ova modulo operacija može biti pojednostavljena u XOR operaciju kada se slova predstavljaju u bitovima).
 
 
-Još jedan poznati primer toka šifre je **Vigenere šifra**, nazvana po Blaise de Vigenereu koji ju je u potpunosti razvio krajem 16. veka (iako su drugi uradili mnogo prethodnog rada). To je primer **polialfabetske supstitucione šifre**: šema šifrovanja gde se alfabet šifrovanog teksta za simbol otvorenog teksta menja u zavisnosti od njegove pozicije u tekstu. Za razliku od monoalfabetske supstitucione šifre, simboli šifrovanog teksta mogu biti povezani sa više od jednog simbola otvorenog teksta.
+Još jedan poznati primer toka šifre je **Viženerova šifra**, nazvana po Blaise de Vigenereu koji ju je u potpunosti razvio krajem 16. veka (iako su drugi uradili mnogo prethodnog rada). To je primer **polialfabetske supstitucione šifre**: šema šifrovanja gde se alfabet šifrovanog teksta za simbol otvorenog teksta menja u zavisnosti od njegove pozicije u tekstu. Za razliku od monoalfabetske supstitucione šifre, simboli šifrovanog teksta mogu biti povezani sa više od jednog simbola otvorenog teksta.
 
 
 Kako je enkripcija postajala popularna u renesansnoj Evropi, tako je i **kriptanaliza**—odnosno, razbijanje šifrovanih tekstova—posebno korišćenjem **analize frekvencije**. Ova poslednja koristi statističke pravilnosti u našem jeziku za razbijanje šifrovanih tekstova, a otkrili su je arapski učenjaci već u devetom veku. To je tehnika koja posebno dobro funkcioniše sa dužim tekstovima. Čak ni najsloženije monoalfabetske supstitucione šifre više nisu bile dovoljne protiv analize frekvencije do 1700-ih u Evropi, posebno u vojnim i bezbednosnim okruženjima. Kako je Viženerova šifra nudila značajan napredak u sigurnosti, postala je popularna u ovom periodu i bila je široko rasprostranjena do kasnih 1700-ih.
@@ -1625,7 +1623,7 @@ Neformalno govoreći, šema enkripcije funkcioniše na sledeći način:
 4. Nastavite ovaj proces dok cela poruka ne bude šifrovana.
 
 
-Na primer, pretpostavimo da je vaš privatni ključ "GOLD" i želite da šifrujete poruku "CRYPTOGRAPHY". U tom slučaju, postupili biste na sledeći način prema Vigenère šifri:
+Na primer, pretpostavimo da je vaš privatni ključ "GOLD" i želite da šifrujete poruku "CRYPTOGRAPHY". U tom slučaju, postupili biste na sledeći način prema Viženerovoj šifri:
 
 
 
@@ -1643,52 +1641,52 @@ Na primer, pretpostavimo da je vaš privatni ključ "GOLD" i želite da šifruje
 - $c_{11} = [(24 + 3) \mod 26] = 1 = B$
 
 
-Dakle, šifrat $c$ = "IFJSZCRUGDSB".
+Dakle, šifrat je $c$ = "IFJSZCRUGDSB".
 
 
-Još jedan poznati primer toka šifre je **one-time pad**. Sa one-time pad-om, jednostavno kreirate niz nasumičnih bitova dužine kao što je poruka u otvorenom tekstu i proizvodite šifrovani tekst putem XOR operacije. Dakle, privatni ključ i tok ključeva su ekvivalentni sa one-time pad-om.
+Još jedan poznati primer toka šifre je **one-time pad** (u prevodu jednokratna šifra). Sa one-time pad-om, jednostavno kreirate niz nasumičnih bitova iste dužine kao što je poruka u otvorenom tekstu i proizvodite šifrovani tekst putem XOR operacije. Dakle, privatni ključ i tok ključeva (keystream) su ekvivalentni sa one-time pad-om.
 
 
-Iako su Šifarski šifra i Viženerove šifre veoma nesigurne u modernom dobu, jednokratna šifra je veoma sigurna ako se pravilno koristi. Verovatno najpoznatija primena jednokratne šifre bila je, barem do 1980-ih, za **Vašington-Moskva vruću liniju**. [4]
+Iako su šifra pomaka i Viženerove šifre veoma nesigurne u modernom dobu, jednokratna šifra je veoma sigurna ako se pravilno koristi. Verovatno najpoznatija primena jednokratne šifre bila je, barem do 1980-ih, za **Vašington-Moskva vruću liniju**. [4]
 
 
-Hotline je direktna komunikaciona veza između Vašingtona i Moskve za hitna pitanja koja je instalirana nakon Kubanske raketne krize. Tehnologija za nju se transformisala tokom godina. Trenutno, uključuje direktni optički kabl kao i dve satelitske veze (za redundanciju), koje omogućavaju e-mail i slanje tekstualnih poruka. Veza se završava na raznim mestima u SAD. Pentagon, Bela kuća i Raven Rock Mountain su poznate krajnje tačke. Suprotno popularnom mišljenju, hotline nikada nije uključivao telefone.
+Vruća linija je direktna komunikaciona veza između Vašingtona i Moskve za hitna pitanja koja je instalirana nakon Kubanske raketne krize. Tehnologija za nju se transformisala tokom godina. Trenutno, uključuje direktni optički kabl kao i dve satelitske veze (za redundantnost), koje omogućavaju e-mail i slanje tekstualnih poruka. Veza se završava na raznim mestima u SAD. Pentagon, Bela kuća i Raven Rock Mountain su poznate krajnje tačke. Suprotno popularnom mišljenju, vruća linija nikada nije uključivala telefone.
 
 
 U suštini, šema jednokratnog bloka funkcionisala je na sledeći način. I Vašington i Moskva bi imali dva seta nasumičnih brojeva. Jedan set nasumičnih brojeva, kreiran od strane Rusa, odnosio se na šifrovanje i dešifrovanje bilo koje poruke na ruskom jeziku. Jedan set nasumičnih brojeva, kreiran od strane Amerikanaca, odnosio se na šifrovanje i dešifrovanje bilo koje poruke na engleskom jeziku. S vremena na vreme, više nasumičnih brojeva bi bilo dostavljeno drugoj strani putem poverljivih kurira.
 
 
-Vašington i Moskva su, tada, mogli tajno komunicirati koristeći ove nasumične brojeve za kreiranje jednokratnih blokova. Svaki put kada je bilo potrebno komunicirati, koristili biste sledeći deo nasumičnih brojeva za vašu poruku.
+Vašington i Moskva su, tada, mogli tajno komunicirati koristeći ove nasumične brojeve za kreiranje jednokratnih blokova. Svaki put kada je bilo potrebno komunicirati, koristili bi sledeći deo nasumičnih brojeva za poruku.
 
 
-Iako veoma siguran, jednokratna šifra suočava se sa značajnim praktičnim ograničenjima: ključ mora biti dug koliko i poruka i nijedan deo jednokratne šifre ne sme se ponovo koristiti. To znači da morate pratiti gde se nalazite u jednokratnoj šifri, skladištiti ogroman broj bitova i povremeno razmenjivati Exchange nasumičnih bitova sa svojim partnerima. Kao posledica toga, jednokratna šifra se ne koristi često u praksi.
+Iako veoma siguran, jednokratna šifra suočava se sa značajnim praktičnim ograničenjima: ključ mora biti dug koliko i poruka i nijedan deo jednokratne šifre ne sme se ponovo koristiti. To znači da morate pratiti gde se nalazite u jednokratnoj šifri, skladištiti ogroman broj bitova i povremeno razmenjivati nasumične bitove sa svojim partnerima. Kao posledica toga, jednokratna šifra se ne koristi često u praksi.
 
 
-Umesto toga, pretežno korišćeni strim šifri u praksi su **pseudorandom strim šifri**. Salsa20 i blisko povezana varijanta nazvana ChaCha su primeri često korišćenih pseudorandom strim šifri.
+Umesto toga, pretežno korišćene šifre toka u praksi su **pseudonasumične šifre toka**. Salsa20 i blisko povezana varijanta nazvana ChaCha su primeri često korišćenih pseudonasumičnih šifri toka.
 
 
-Kod ovih pseudonasumičnih strim šifara, prvo nasumično birate ključ K koji je kraći od dužine otvorenog teksta. Takav nasumični ključ K obično kreira naš računar na osnovu nepredvidivih podataka koje prikuplja tokom vremena, kao što su vreme između mrežnih poruka, pokreti miša, i tako dalje.
+Kod ovih pseudonasumičnih šifara toka, prvo nasumično birate ključ K koji je kraći od dužine otvorenog teksta. Takav nasumični ključ K obično kreira naš računar na osnovu nepredvidivih podataka koje prikuplja tokom vremena, kao što su vreme između mrežnih poruka, pokreti miša, i tako dalje.
 
 
-Ovaj nasumični ključ $K$ se zatim ubacuje u algoritam ekspanzije koji stvara pseudonasumični tok ključeva dužine poruke. Možete precizno odrediti koliko dugo tok ključeva treba da bude (npr., 500 bita, 1000 bita, 1200 bita, 29,117 bita, itd.).
+Ovaj nasumični ključ $K$ se zatim ubacuje u algoritam ekspanzije koji stvara pseudonasumični tok ključa dužine poruke. Možete precizno odrediti koliko dugo tok ključa treba da bude (npr., 500 bita, 1000 bita, 1200 bita, 29,117 bita, itd.).
 
 
-Pseudonasumični tok ključeva izgleda *kao da* je izabran potpuno nasumično iz skupa svih nizova iste dužine. Stoga, šifrovanje sa pseudonasumičnim tokom ključeva izgleda kao da je urađeno sa jednokratnom podlogom. Ali to, naravno, nije slučaj.
+Pseudonasumični tok ključa izgleda *kao da* je izabran potpuno nasumično iz skupa svih nizova iste dužine. Stoga, šifrovanje sa pseudonasumičnim tokom ključa izgleda kao da je urađeno sa jednokratnom podlogom. Ali to, naravno, nije slučaj.
 
 
-Pošto je naš privatni ključ kraći od toka ključeva i naš algoritam za proširenje mora biti deterministički kako bi proces šifrovanja/dešifrovanja funkcionisao, nije svaki tok ključeva te određene dužine mogao biti rezultat našeg operacije proširenja.
+Pošto je naš privatni ključ kraći od toka ključa i naš algoritam za proširenje mora biti deterministički kako bi proces šifrovanja/dešifrovanja funkcionisao, nije svaki tok ključa određene dužine mogao biti rezultat operacije proširenja.
 
 
-Pretpostavimo, na primer, da naš privatni ključ ima dužinu od 128 bita i da možemo da ga ubacimo u ekspanzivni algoritam kako bismo kreirali mnogo duži keystream, recimo od 2.500 bita. Pošto naš ekspanzivni algoritam mora biti deterministički, naš algoritam može najviše da izabere $1/2^{128}$ stringova sa dužinom od 2.500 bita. Dakle, takav keystream nikada ne bi mogao biti izabran potpuno nasumično iz svih stringova iste dužine.
+Pretpostavimo, na primer, da naš privatni ključ ima dužinu od 128 bita i da možemo da ga ubacimo u ekspanzivni algoritam kako bismo kreirali mnogo duži keystream (u prevodu tok ključa), recimo od 2.500 bita. Pošto naš ekspanzivni algoritam mora biti deterministički, naš algoritam može najviše da izabere $1/2^{128}$ stringova sa dužinom od 2.500 bita. Dakle, takav keystream nikada ne bi mogao biti izabran potpuno nasumično iz svih stringova iste dužine.
 
 
-Naša definicija strim šifre ima dva aspekta: (1) keystream dužine kao što je otvoreni tekst se generiše uz pomoć privatnog ključa; i (2) ovaj keystream se kombinuje sa otvorenim tekstom, obično putem XOR operacije, da bi se proizveo šifrovani tekst.
+Naša definicija šifre toka ima dva aspekta: (1) keystream dužine kao što je otvoreni tekst se generiše uz pomoć privatnog ključa; i (2) ovaj keystream se kombinuje sa otvorenim tekstom, obično putem XOR operacije, da bi se proizveo šifrovani tekst.
 
 
-Ponekad ljudi definišu uslov (1) strožije, tvrdeći da keystream mora biti specifično pseudorandom. To znači da ni shift šifra, ni one-time pad ne bi bili smatrani stream šiframa.
+Ponekad ljudi definišu uslov (1) strožije, tvrdeći da keystream mora biti specifično pseudonasumičan. To znači da ni šifrapomaka , ni one-time pad ne bi bili smatrani šiframa toka.
 
 
-Po mom mišljenju, šire definisanje uslova (1) pruža lakši način za organizovanje šema enkripcije. Pored toga, to znači da ne moramo prestati nazivati određenu šemu enkripcije strim šifrom samo zato što saznamo da se zapravo ne oslanja na pseudonasumične ključeve.
+Po mom mišljenju, šire definisanje uslova (1) pruža lakši način za organizovanje šema enkripcije. Pored toga, to znači da ne moramo prestati nazivati određenu šemu enkripcije šifrom toka samo zato što saznamo da se zapravo ne oslanja na pseudonasumične ključeve.
 
 
 **Beleške:**
@@ -1704,10 +1702,10 @@ Po mom mišljenju, šire definisanje uslova (1) pruža lakši način za organizo
 <chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
 
 
-Prvi način na koji se **blok šifra** obično razume jeste kao nešto primitivnije od strim šifre: Osnovni algoritam koji izvodi transformaciju uz očuvanje dužine na nizu odgovarajuće dužine uz pomoć ključa. Ovaj algoritam se može koristiti za kreiranje šema enkripcije i možda drugih tipova kriptografskih šema.
+Prvi način na koji se **blok šifra** obično razume jeste kao nešto primitivnije od šifre toka: osnovni algoritam koji, uz pomoć ključa, vrši transformaciju niza odgovarajuće dužine, pri čemu se dužina niza ne menja. Ovaj algoritam se može koristiti za kreiranje šema enkripcije i možda drugih tipova kriptografskih šema.
 
 
-Često, blok šifra može primati ulazne nizove različitih dužina kao što su 64, 128 ili 256 bita, kao i ključeve različitih dužina kao što su 128, 192 ili 256 bita. Iako se neki detalji algoritma mogu promeniti u zavisnosti od ovih varijabli, osnovni algoritam se ne menja. Ako bi se menjao, govorili bismo o dve različite blok šifre. Napomena da je upotreba termina osnovni algoritam ovde ista kao i za šeme šifrovanja.
+Često, blok šifra može primati ulazne nizove različitih dužina kao što su 64, 128 ili 256 bita, kao i ključeve različitih dužina kao što su 128, 192 ili 256 bita. Iako se neki detalji algoritma mogu promeniti u zavisnosti od ovih varijabli, osnovni algoritam se ne menja. Ako bi se menjao, govorili bismo o dve različite blok šifre. Primetite da je upotreba termina osnovni algoritam ovde ista kao i kod šema šifrovanja.
 
 
 Prikaz kako blok šifra funkcioniše može se videti na *Slici 4* ispod. Poruka $M$ dužine $L$ i ključ $K$ služe kao ulazi za blok šifru. Ona izlazno daje poruku $M'$ dužine $L$. Ključ ne mora nužno biti iste dužine kao $M$ i $M'$ za većinu blok šifara.
@@ -1719,13 +1717,13 @@ Prikaz kako blok šifra funkcioniše može se videti na *Slici 4* ispod. Poruka 
 ![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
 
 
-Blok šifra sama po sebi nije šema šifrovanja. Ali blok šifra se može koristiti sa različitim **modovima rada** da bi se proizvele različite šeme šifrovanja. Mod rada jednostavno dodaje neke dodatne operacije izvan blok šifre.
+Blok šifra sama po sebi nije šema šifrovanja. Ali blok šifra se može koristiti sa različitim **modovima rada** da bi se proizvele različite šeme šifrovanja. Režim rada jednostavno dodaje neke dodatne operacije izvan blok šifre.
 
 
-Da bismo ilustrovali kako ovo funkcioniše, pretpostavimo blok šifru (BC) koja zahteva ulazni niz od 128 bita i privatni ključ od 128 bita. Slika 5 ispod prikazuje kako se ta blok šifra može koristiti sa **modom elektronske šifre knjige** (**ECB mod**) za kreiranje šeme enkripcije. (Elipse na desnoj strani ukazuju na to da možete ponavljati ovaj obrazac koliko god je potrebno).
+Da bismo ilustrovali kako ovo funkcioniše, pretpostavimo blok šifru (BC) koja zahteva ulazni niz od 128 bita i privatni ključ od 128 bita. Slika 5 ispod prikazuje kako se ta blok šifra može koristiti sa **režim elektronske kodne knjige** (**ECB mod**) za kreiranje šeme enkripcije. (Elipse na desnoj strani ukazuju na to da možete ponavljati ovaj obrazac koliko god je potrebno).
 
 
-*Slika 5: Blok šifra sa ECB režimom*
+*Slika 5: Blok šifra u ECB režimu*
 
 
 ![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
@@ -1740,16 +1738,16 @@ Sada podelite podatke na delove od 128-bitnih nizova ($M_1$, $M_2$, $M_3$, i tak
 Dekriptovanje je samo obrnut proces, iako primalac treba da ima neki prepoznatljiv način da ukloni bilo kakvo popunjavanje iz dekriptovanih podataka kako bi proizveo originalnu tekstualnu poruku.
 
 
-Iako relativno jednostavan, blok šifrar sa režimom elektronske kodne knjige nedostaje sigurnost. Ovo je zato što dovodi do **determinističkog šifrovanja**. Bilo koja dva identična 128-bitna niza podataka su šifrovana na potpuno isti način. Te informacije se mogu iskoristiti.
+Iako relativno jednostavan, blok šifra u režimu elektronske kodne knjige nedostaje sigurnost. Ovo je zato što dovodi do **determinističkog šifrovanja**. Bilo koja dva identična 128-bitna niza podataka su šifrovana na potpuno isti način. Te informacije se mogu iskoristiti.
 
 
 Umesto toga, svaka šema šifrovanja konstruisana od blok šifre treba da bude **probabilistička**: to jest, šifrovanje bilo koje poruke $M$, ili bilo kog specifičnog dela $M$, generalno bi trebalo da daje različit ishod svaki put. [5]
 
 
-**Način ulančavanja šifarskih blokova** (**CBC način**) je verovatno najčešće korišćen način rada sa blokovskom šifrom. Kombinacija, ako se pravilno uradi, proizvodi verovatnosnu šemu šifrovanja. Prikaz ovog načina rada možete videti na *Slici 6* ispod.
+**Režim ulančavanja blok šifre** (**CBC način**) je verovatno najčešće korišćen način rada sa blokovskom šifrom. Kombinacija, ako se pravilno uradi, proizvodi verovatnosnu šemu šifrovanja. Prikaz ovog načina rada možete videti na *Slici 6* ispod.
 
 
-*Slika 6: Blok šifra sa CBC režimom*
+*Slika 6: Blok šifra u CBC režimu*
 
 
 ![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
@@ -1773,7 +1771,7 @@ Drugim rečima, vaš inicijalizacioni vektor treba da bude nasumičan ili pseudo
 Konačno, usmerimo našu pažnju na **output feedback mode** (**OFB mode**). Možete videti prikaz ovog režima na *Slici 7*.
 
 
-*Slika 7: Blok šifra sa OFB režimom*
+*Slika 7: Blok šifra u OFB režimu*
 
 
 ![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
@@ -1782,16 +1780,16 @@ Konačno, usmerimo našu pažnju na **output feedback mode** (**OFB mode**). Mo�
 Sa OFB režimom takođe birate vektor inicijalizacije. Ali ovde, za prvi blok, vektor inicijalizacije se direktno ubacuje u blok šifru sa vašim ključem. Rezultujućih 128-bitova se zatim tretira kao keystream. Ovaj keystream se XOR-uje sa otvorenim tekstom da bi se proizveo šifrovani tekst za blok. Za naredne blokove, koristite keystream iz prethodnog bloka kao ulaz u blok šifru i ponavljate korake.
 
 
-Ako pažljivo pogledaš, ono što je zapravo kreirano ovde iz blok šifre sa OFB režimom je strim šifra. Generišeš generate keystream delove od 128-bitova dok ne dobiješ dužinu otvorenog teksta (odbacujući bitove koji ti nisu potrebni iz poslednjeg 128-bitnog keystream dela). Zatim, XOR-uješ keystream sa svojim otvorenim tekstom da dobiješ šifrat.
+Ako pažljivo pogledaš, ono što je zapravo kreirano ovde iz blok šifre sa OFB režimom je šifra toka. Generišeš keystream delove od 128-bitova dok ne dobiješ dužinu otvorenog teksta (odbacujući bitove koji ti nisu potrebni iz poslednjeg 128-bitnog keystream dela). Zatim, XOR-uješ keystream sa svojim otvorenim tekstom da dobiješ šifrat.
 
 
-U prethodnom odeljku o strim šiframa, naveo sam da se generiše keystream uz pomoć privatnog ključa. Tačnije, ne mora biti kreiran samo sa privatnim ključem. Kao što možete videti u OFB modu, keystream se proizvodi uz podršku i privatnog ključa i inicijalizacionog vektora.
+U prethodnom odeljku o šiframa toka, naveo sam da se generiše keystream uz pomoć privatnog ključa. Tačnije, ne mora biti kreiran samo sa privatnim ključem. Kao što možete videti u OFB modu, keystream se proizvodi uz podršku i privatnog ključa i inicijalizacionog vektora.
 
 
-Imajte na umu da, kao i kod CBC režima, važno je odabrati pseudonasumičan ili nasumičan Nonce za inicijalizacioni vektor svaki put kada koristite blok šifru u OFB režimu. U suprotnom, isti 128-bitni niz poruka poslat u različitim komunikacijama biće enkriptovan na isti način. Ovo je jedan od načina da se kreira probabilistička enkripcija sa strim šifrom.
+Imajte na umu da, kao i kod CBC režima, važno je odabrati pseudonasumičan ili nasumičan nonce za inicijalizacioni vektor svaki put kada koristite blok šifru u OFB režimu. U suprotnom, isti 128-bitni niz poruka poslat u različitim komunikacijama biće enkriptovan na isti način. Ovo je jedan od načina da se kreira probabilistička enkripcija sa šifrom toka.
 
 
-Neki strim šifri koriste samo privatni ključ za kreiranje keystream-a. Za te strim šifre, važno je da koristite nasumični Nonce za odabir privatnog ključa za svaku instancu komunikacije. U suprotnom, rezultati enkripcije sa tim strim šiframa će takođe biti deterministički, što dovodi do sigurnosnih problema.
+Neke šifre toka koriste samo privatni ključ za kreiranje keystream-a. Za te šifre toka, važno je da koristite nasumični nonce za odabir privatnog ključa za svaku instancu komunikacije. U suprotnom, rezultati enkripcije sa tim šiframa toka će takođe biti deterministički, što dovodi do sigurnosnih problema.
 
 
 Najpopularnija moderna blok šifra je **Rijndael šifra**. Bila je pobednički rad od petnaest prijava na takmičenju koje je organizovao Nacionalni institut za standarde i tehnologiju (NIST) između 1997. i 2000. godine kako bi se zamenio stariji standard za šifrovanje, **standard za šifrovanje podataka** (**DES**).
@@ -1815,33 +1813,33 @@ AES blok šifra će biti detaljno objašnjena u *Poglavlju 5*.
 
 
 
-## Raščišćavanje konfuzije
+## Razjašnjavanje zabune
 
 <chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
 
 
-Zbrka oko razlike između blok šifara i strim šifara nastaje jer ponekad ljudi razumeju termin blok šifra kao da se odnosi specifično na *blok šifru sa blok režimom enkripcije*.
+Zbrka oko razlike između blok šifara i šifara toka nastaje jer ponekad ljudi razumeju termin blok šifra kao da se odnosi specifično na *blok šifru sa blok režimom enkripcije*.
 
 
 Razmotrite ECB i CBC režime u prethodnom odeljku. Ovi režimi specifično zahtevaju da podaci za šifrovanje budu deljivi veličinom bloka (što znači da ćete možda morati koristiti popunjavanje za originalnu poruku). Pored toga, podaci u ovim režimima se takođe direktno obrađuju blokovskom šifrom (a ne samo kombinovanjem sa rezultatom operacije blokovske šifre kao u OFB režimu).
 
 
-Stoga, alternativno, možete definisati **blok šifru** kao bilo koju šemu enkripcije koja operiše na blokovima fiksne dužine poruke u jednom trenutku (gde bilo koji blok mora biti duži od bajta, inače se pretvara u strim šifru). I podaci za enkripciju i šifrat moraju se ravnomerno deliti na ovu veličinu bloka. Tipično, veličina bloka je 64, 128, 192 ili 256 bita u dužini. Nasuprot tome, strim šifra može enkriptovati bilo koje poruke u delovima od jednog bita ili bajta u isto vreme.
+Stoga, alternativno, možete definisati **blok šifru** kao bilo koju šemu enkripcije koja operiše na blokovima fiksne dužine poruke u jednom trenutku (gde bilo koji blok mora biti duži od bajta, inače se pretvara u strim šifru). I podaci za enkripciju i šifrat moraju se ravnomerno deliti na ovu veličinu bloka. Tipično, veličina bloka je 64, 128, 192 ili 256 bita u dužini. Nasuprot tome, šifra toka može enkriptovati bilo koje poruke u delovima od jednog bita ili bajta u isto vreme.
 
 
-Sa ovim specifičnijim razumevanjem blok šifre, zaista možete tvrditi da su moderni šifarski sistemi ili strujne ili blok šifre. Od sada nadalje, pod pojmom blok šifra misliću u opštijem smislu, osim ako nije drugačije navedeno.
+Sa ovim specifičnijim razumevanjem blok šifre, zaista možete tvrditi da su moderni šifarski sistemi ili tok ili blok šifre. Od sada nadalje, pod pojmom blok šifra misliću u opštijem smislu, osim ako nije drugačije navedeno.
 
 
-Diskusija o OFB modu u prethodnom odeljku takođe pokreće još jednu zanimljivu tačku. Neki strim šifri su izgrađeni od blok šifri, kao što je Rijndael sa OFB. Neki, kao što su Salsa20 i ChaCha, nisu kreirani od blok šifri. Možete ih nazvati **primitivnim strim šifrima**. (Ne postoji zaista standardizovan termin za označavanje takvih strim šifri.)
+Diskusija o OFB modu u prethodnom odeljku takođe pokreće još jednu zanimljivu tačku. Neke šifre toka su izgrađene od blok šifre, kao što je Rijndael sa OFB. Neki, kao što su Salsa20 i ChaCha, nisu kreirane od blok šifri. Možete ih nazvati **primitivnim šiframa toka**. (Ne postoji zaista standardizovan termin za označavanje takvih šifri toka.)
 
 
-Kada ljudi govore o prednostima i nedostacima strim šifara i blok šifara, obično upoređuju primitivne strim šifre sa šemama šifrovanja zasnovanim na blok šiframa.
+Kada ljudi govore o prednostima i nedostacima šifara toka i blok šifara, obično upoređuju primitivne šifre toka sa šemama šifrovanja zasnovanim na blok šiframa.
 
 
-Iako uvek možete lako konstruisati strim šifru iz blok šifre, obično je veoma teško izgraditi neku vrstu konstrukta sa blok modom enkripcije (kao što je CBC mod) iz primitivne strim šifre.
+Iako uvek možete lako konstruisati šifru toka iz blok šifre, obično je veoma teško izgraditi neku vrstu konstrukta sa blok modom enkripcije (kao što je CBC mod) iz primitivne šifre toka.
 
 
-Iz ove diskusije, sada bi trebalo da razumete *Slika 8*. Ona pruža pregled simetričnih šema šifrovanja. Koristimo tri vrste šema šifrovanja: primitivne strujne šifre, blok šifre u strujnom režimu, i blok šifre u blok režimu (takođe nazvane „blok šifre“ na dijagramu).
+Iz ove diskusije, sada bi trebalo da razumete *Sliku 8*. Ona pruža pregled simetričnih šema šifrovanja. Koristimo tri vrste šema šifrovanja: primitivne šifre toka, blok šifre u režimu toka, i blok šifre u blok režimu (takođe nazvane „blok šifre“ na dijagramu).
 
 
 *Slika 8: Pregled simetričnih šema šifrovanja*
@@ -1873,10 +1871,10 @@ U oba ova slučaja, napadač možda neće imati nikakve uvide u sadržaj šifrov
 Kodovi za autentifikaciju poruka su labavo definisani kao simetrične kriptografske šeme sa tri algoritma: algoritam za generisanje ključa, algoritam za generisanje oznake i algoritam za verifikaciju. Siguran MAC osigurava da su oznake **egzistencijalno nekrivotvorive** za bilo kog napadača—odnosno, oni ne mogu uspešno kreirati oznaku na poruci koja se verifikuje, osim ako nemaju privatni ključ.
 
 
-Bob i Alice mogu se boriti protiv manipulacije određenom porukom koristeći MAC. Pretpostavimo za trenutak da im nije stalo do tajnosti. Oni samo žele osigurati da je poruka koju je primila Alice zaista od Boba i da nije ni na koji način promenjena.
+Bob i Alisa mogu se boriti protiv manipulacije određene poruke koristeći MAC. Pretpostavimo za trenutak da im nije stalo do tajnosti. Oni samo žele osigurati da je poruka koju je primila Alisa zaista od Boba i da nije ni na koji način promenjena.
 
 
-Proces je prikazan na *Figure 9*. Da bi koristili **MAC** (Message Authentication Code), prvo bi generate privatni ključ $K$ koji je deljen između njih dvoje. Bob kreira oznaku $T$ za poruku koristeći privatni ključ $K$. Zatim šalje poruku kao i oznaku poruke Alisi. Ona tada može verifikovati da je Bob zaista napravio oznaku, tako što će provući privatni ključ, poruku i oznaku kroz verifikacioni algoritam.
+Proces je prikazan na *Slici 9*. Da bi koristili **MAC** (Message Authentication Code), prvo bi generisali privatni ključ $K$ koji je deljen između njih dvoje. Bob kreira oznaku $T$ za poruku koristeći privatni ključ $K$. Zatim šalje poruku kao i oznaku poruke Alisi. Ona tada može verifikovati da je Bob zaista napravio oznaku, tako što će provući privatni ključ, poruku i oznaku kroz verifikacioni algoritam.
 
 
 *Slika 9: Pregled simetričnih šema šifrovanja*
@@ -1885,13 +1883,13 @@ Proces je prikazan na *Figure 9*. Da bi koristili **MAC** (Message Authenticatio
 ![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
-Zbog **egzistencijalne nekrivotvorivosti**, napadač ne može na bilo koji način izmeniti poruku $M$ niti kreirati svoju poruku sa važećom oznakom. Ovo važi čak i ako napadač posmatra oznake mnogih poruka između Boba i Alise koje koriste isti privatni ključ. U najgorem slučaju, napadač bi mogao blokirati Alisu da primi poruku $M$ (problem koji kriptografija ne može Address).
+Zbog **egzistencijalne nekrivotvorivosti**, napadač ne može na bilo koji način izmeniti poruku $M$ niti kreirati svoju poruku sa važećom oznakom. Ovo važi čak i ako napadač posmatra oznake mnogih poruka između Boba i Alise koje koriste isti privatni ključ. U najgorem slučaju, napadač bi mogao blokirati Alisu da primi poruku $M$ (problem koji kriptografija ne može rešiti).
 
 
 MAC garantuje da je poruku zaista kreirao Bob. Ova autentičnost automatski podrazumeva integritet poruke—odnosno, ako je Bob kreirao neku poruku, onda, ipso facto, ona nije bila izmenjena ni na koji način od strane napadača. Dakle, od sada nadalje, svaka briga za autentifikaciju treba automatski da podrazumeva brigu za integritet.
 
 
-Iako sam napravio razliku između autentičnosti i integriteta poruke u svojoj diskusiji, takođe je uobičajeno koristiti te termine kao sinonime. Oni se, dakle, odnose na ideju poruka koje su kreirane od strane određenog pošiljaoca i nisu ni na koji način izmenjene. U tom duhu, kodovi za autentifikaciju poruka se često nazivaju i **kodovi za integritet poruka**.
+Iako sam napravio razliku između autentičnosti i integriteta poruke u svojoj diskusiji, takođe je uobičajeno koristiti te termine kao sinonime. Oni se, dakle, odnose na ideju da poruke koje su kreirane od strane određenog pošiljaoca nisu ni na koji način izmenjene. U tom duhu, kodovi za autentifikaciju poruka se često nazivaju i **kodovi za integritet poruka**.
 
 
 
@@ -1903,13 +1901,13 @@ Iako sam napravio razliku između autentičnosti i integriteta poruke u svojoj d
 Tipično, želite da garantujete i tajnost i autentičnost u komunikaciji i, stoga, šeme šifrovanja i MAC šeme se obično koriste zajedno.
 
 
-Šema **autentifikovanog šifrovanja** je šema koja kombinuje šifrovanje sa MAC-om na veoma siguran način. Konkretno, mora da ispunjava standarde za egzistencijalnu nekrivotvorivost, kao i veoma snažan pojam tajnosti, odnosno onaj koji je otporan na **napade odabirom šifro-teksta**. [7]
+Šema **autentifikovanog šifrovanja** je šema koja kombinuje šifrovanje sa MAC-om na veoma siguran način. Konkretno, mora da ispunjava standarde za egzistencijalnu nekrivotvorivost, kao i veoma snažan pojam tajnosti, odnosno onaj koji je otporan na **napade sa izabranim šifratom**. [7]
 
 
 Da bi šema šifrovanja bila otporna na napade sa izabranim šifratom, mora ispunjavati standarde za **nepromenljivost**: to jest, svaka modifikacija šifrata od strane napadača treba da rezultira ili nevažećim šifratom ili šifratom koji se dešifruje u otvoreni tekst koji nema veze sa originalnim. [8]
 
 
-Kao što šema za autentifikovano šifrovanje osigurava da je šifrovani tekst koji je kreirao napadač uvek nevažeći (jer oznaka neće biti verifikovana), ona ispunjava standarde za otpornost na napade sa izabranim šifrovanim tekstom. Zanimljivo je da možete dokazati da se šema za autentifikovano šifrovanje uvek može kreirati kombinacijom egzistencijalno nekrivotvorivog MAC-a i šeme šifrovanja koja ispunjava manje jači pojam sigurnosti, poznat kao **sigurnost protiv napada sa izabranim otvorenim tekstom**.
+Kao što šema za autentifikovano šifrovanje osigurava da je šifrovani tekst koji je kreirao napadač uvek nevažeći (jer oznaka neće biti verifikovana), ispunjava standarde za otpornost na napade sa izabranim šifrovanim tekstom. Zanimljivo je da možete dokazati da se šema za autentifikovano šifrovanje uvek može kreirati kombinacijom egzistencijalno nekrivotvorivog MAC-a i šeme šifrovanja koja ispunjava manje jači pojam sigurnosti, poznat kao **sigurnost protiv napada sa izabranim otvorenim tekstom**.
 
 
 Nećemo ulaziti u sve detalje konstruisanja šema za autentifikovano šifrovanje. Ali je važno znati dva detalja njihove konstrukcije.
@@ -1933,16 +1931,16 @@ Alisa sada prvo proverava da li je oznaka važeća s obzirom na šifrat $C$ i kl
 ![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
 
 
-Kako se kreiraju MAC-ovi? Iako se MAC-ovi mogu kreirati na više načina, uobičajen i efikasan način za njihovo kreiranje je putem **kriptografskih Hash funkcija**.
+Kako se kreiraju MAC-ovi? Iako se MAC-ovi mogu kreirati na više načina, uobičajen i efikasan način za njihovo kreiranje je putem **kriptografskih heš funkcija**.
 
 
-Kriptografske funkcije Hash ćemo detaljnije predstaviti u *Poglavlju 6*. Za sada, samo znajte da je **Hash funkcija** funkcija koja se može efikasno izračunati, prima ulaze proizvoljne veličine i daje izlaze fiksne dužine. Na primer, popularna Hash funkcija **SHA-256** (sigurni Hash algoritam 256) uvek generiše izlaz od 256 bita bez obzira na veličinu ulaza. Neke Hash funkcije, kao što je SHA-256, imaju korisne primene u kriptografiji.
+Kriptografsku funkciju heš ćemo detaljnije predstaviti u *Poglavlju 6*. Za sada, samo znajte da je **heš funkcija** funkcija koja se može efikasno izračunati, prima ulaze proizvoljne veličine i daje izlaze fiksne dužine. Na primer, popularna heš funkcija **SHA-256** (sigurni heš algoritam 256) uvek generiše izlaz od 256 bita bez obzira na veličinu ulaza. Neke heš funkcije, kao što je SHA-256, imaju korisne primene u kriptografiji.
 
 
-Najčešći tip oznake proizveden kriptografskom funkcijom Hash je **Hash zasnovan kod za autentifikaciju poruka** (HMAC). Proces je prikazan na *Slici 11*. Strana proizvodi dva različita ključa iz privatnog ključa $K$, unutrašnji ključ $K_1$ i spoljašnji ključ $K_2$. Otvoreni tekst $M$ ili šifrovani tekst $C$ se zatim hešira zajedno sa unutrašnjim ključem. Rezultat $T'$ se zatim hešira sa spoljašnjim ključem kako bi se proizvela oznaka poruke $T$.
+Najčešći tip oznake proizveden kriptografskom funkcijom heš je **heš zasnovan kod za autentifikaciju poruka** (HMAC). Proces je prikazan na *Slici 11*. Strana proizvodi dva različita ključa iz privatnog ključa $K$, unutrašnji ključ $K_1$ i spoljašnji ključ $K_2$. Otvoreni tekst $M$ ili šifrovani tekst $C$ se zatim hešira zajedno sa unutrašnjim ključem. Rezultat $T'$ se zatim hešira sa spoljašnjim ključem kako bi se proizvela oznaka poruke $T$.
 
 
-Postoji paleta Hash funkcija koje se mogu koristiti za kreiranje HMAC-a. Najčešće korišćena Hash funkcija je SHA-256.
+Postoji paleta heš funkcija koje se mogu koristiti za kreiranje HMAC-a. Najčešće korišćena heš funkcija je SHA-256.
 
 
 
@@ -1977,7 +1975,7 @@ Pretpostavimo da dve strane učestvuju u komunikacionoj sesiji, tako da šalju v
 Glavni razlog je taj što šema autentifikovane enkripcije ne pruža nikakve garancije da je poruku zaista poslao agent koji ju je kreirao unutar komunikacione sesije. Razmotrite sledeća tri vektora napada:
 
 
-1. **Napad ponovnim puštanjem (Replay attack)**: Napadač ponovo šalje šifrat i oznaku koje je presrela između dve strane u ranijem trenutku.
+1. **Napad ponovnim puštanjem (Replay attack)**: Napadač ponovo šalje šifrat i oznaku koju je presrela između dve strane u ranijem trenutku.
 
 2. **Napad preuređivanjem**: Napadač presreće dve poruke u različito vreme i šalje ih primaocu obrnutim redosledom.
 
@@ -1996,7 +1994,7 @@ Srećom, ove vrste napada mogu se lako ublažiti u komunikacionoj sesiji koriste
 Identifikatori se mogu dodati u običnu tekstualnu poruku pre enkripcije. Ovo bi sprečilo bilo kakve refleksione napade. Relativni vremenski indikator može, na primer, biti redni broj u određenoj komunikacionoj sesiji. Svaka strana dodaje redni broj poruci pre enkripcije, tako da primalac zna kojim redosledom su poruke poslate. Ovo eliminiše mogućnost napada preuređivanjem. Takođe eliminiše napade ponavljanjem. Bilo koja poruka koju napadač pošalje niz liniju imaće stari redni broj, i primalac će znati da ne procesuira poruku ponovo.
 
 
-Da ilustrujemo kako funkcionišu sesije sigurne komunikacije, pretpostavimo opet Alisu i Boba. Oni šalju ukupno četiri poruke napred-nazad. Možete videti kako bi šema autentifikovane enkripcije sa identifikatorima i rednim brojevima funkcionisala ispod u *Figure 11*.
+Da ilustrujemo kako funkcionišu sesije sigurne komunikacije, pretpostavimo opet Alisu i Boba. Oni šalju ukupno četiri poruke napred-nazad. Možete videti kako bi šema autentifikovane enkripcije sa identifikatorima i rednim brojevima funkcionisala ispod u *Slici 11*.
 
 
 Sesija komunikacije počinje tako što Bob šalje šifrat $C_{0,B}$ Alisi sa oznakom poruke $T_{0,B}$. Šifrat sadrži poruku, kao i identifikator (BOB) i redni broj (0). Oznaka $T_{0,B}$ je napravljena preko celog šifrata. U njihovim narednim komunikacijama, Alisa i Bob održavaju ovaj protokol, ažurirajući polja po potrebi.
@@ -2027,16 +2025,16 @@ Sesija komunikacije počinje tako što Bob šalje šifrat $C_{0,B}$ Alisi sa ozn
 <chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
 
 
-U ovom poglavlju ćemo diskutovati o detaljima šeme enkripcije sa modernim primitivnim strim šifrom, RC4 (ili "Rivest šifra 4"), i modernom blok šifrom, AES. Iako je RC4 šifra pala u nemilost kao metoda enkripcije, AES je standard za modernu simetričnu enkripciju. Ova dva primera bi trebalo da pruže bolju ideju o tome kako simetrična enkripcija funkcioniše ispod haube.
+U ovom poglavlju ćemo diskutovati o detaljima šeme enkripcije sa savremenim osnovnim (kriptografskim) primitivom – tok šifra RC4, (ili "Rivest šifra 4"), i modernom blok šifrom, AES. Iako je RC4 šifra pala u nemilost kao metoda enkripcije, AES je standard za modernu simetričnu enkripciju. Ova dva primera bi trebalo da pruže bolju ideju o tome kako simetrična enkripcija funkcioniše ispod haube.
 
 
 ___
 
 
-Kako bismo stekli uvid u to kako moderni pseudonasumični strim šifri rade, fokusiraću se na RC4 strim šifru. To je pseudonasumična strim šifra koja je korišćena u WEP i WAP sigurnosnim protokolima za bežične pristupne tačke, kao i u TLS-u. Kako RC4 ima mnogo dokazanih slabosti, pao je u nemilost. Zapravo, Internet Engineering Task Force sada zabranjuje upotrebu RC4 paketa od strane klijentskih i serverskih aplikacija u svim instancama TLS-a. Ipak, dobro funkcioniše kao primer za ilustrovanje kako primitivna strim šifra radi.
+Kako bismo stekli uvid u to kako moderni pseudonasumične tok šifre rade, fokusiraću se na RC4 tok šifru. To je pseudonasumična tok šifra koja je korišćena u WEP i WAP sigurnosnim protokolima za bežične pristupne tačke, kao i u TLS-u. Kako RC4 ima mnogo dokazanih slabosti, pao je u nemilost. Zapravo, Internet Engineering Task Force sada zabranjuje upotrebu RC4 paketa od strane klijentskih i serverskih aplikacija u svim instancama TLS-a. Ipak, dobro funkcioniše kao primer za ilustrovanje kako primitivna šifra toka radi.
 
 
-Da počnemo, prvo ću pokazati kako da šifrujemo običnu tekstualnu poruku pomoću baby RC4 šifre. Pretpostavimo da je naša obična tekstualna poruka "SOUP." Šifrovanje sa našom baby RC4 šifrom, zatim, odvija se u četiri koraka.
+Za početak, prvo ću pokazati kako da šifrujemo tekstualnu poruku pomoću jednostavne (pojednostavljene) verzije RC4 šifre. Pretpostavimo da je naša obična tekstualna poruka "SOUP." Šifrovanje pomoću naše jednostavne RC4 šifre zatim se odvija u četiri koraka.
 
 
 ### Korak 1
@@ -2055,7 +2053,7 @@ Vrednosti ovde nisu ASCII brojevi, već decimalne vrednosti predstavljene kao 1-
 ### Korak 2
 
 
-Drugo, definišite ključni niz **K** dužine 8 bajtova tako što ćete izabrati ključ između 1 i 8 bajtova (bez dozvoljenih delova bajta). Pošto svaki bajt ima 8 bita, možete izabrati bilo koji broj između 0 i 255 za svaki bajt vašeg ključa.
+Drugo, definišite ključni niz **K** dužine 8 bajtova tako što ćete izabrati ključ između 1 i 8 bajtova (pri čemu delimični bajtovi nisu dozvoljeni). Pošto svaki bajt ima 8 bita, možete izabrati bilo koji broj između 0 i 255 za svaki bajt vašeg ključa.
 
 
 Pretpostavimo da izaberemo naš ključ **k** kao $[14, 48, 9]$, tako da ima dužinu od 3 bajta. Svaki indeks našeg niza ključeva je, zatim, postavljen prema decimalnoj vrednosti za taj određeni element ključa, redom. Ako prođete kroz ceo ključ, počnite ponovo od početka, dok ne popunite svih 8 slotova niza ključeva. Dakle, naš niz ključeva je sledeći:
@@ -2068,7 +2066,7 @@ Pretpostavimo da izaberemo naš ključ **k** kao $[14, 48, 9]$, tako da ima duž
 ### Korak 3
 
 
-Treće, transformisaćemo niz **S** koristeći ključni niz **K**, u procesu poznatom kao **planiranje ključa**. Proces je sledeći u pseudokodu:
+Treće, transformisaćemo niz **S** koristeći ključni niz **K**, u procesu poznatom kao **planiranje ključa** (eng. key scheduling). Proces je sledeći u pseudokodu:
 
 
 
@@ -2085,7 +2083,7 @@ Transformacija niza **S** je prikazana u *Tabeli 1*.
 Da počnemo, možete videti početno stanje **S** kao $[0, 1, 2, 3, 4, 5, 6, 7]$ sa početnom vrednošću 0 za **j**. Ovo će biti transformisano koristeći ključni niz $[14, 48, 9, 14, 48, 9, 14, 48]$.
 
 
-The for loop starts with $i = 0$. According to our pseudocode above, the new value of **j** becomes 6 ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). Swapping $S[0]$ and $S[6]$, the state of **S** after 1 round becomes $[6, 1, 2, 3, 4, 5, 0, 7]$.
+For petlja počinje sa $i = 0$. Prema našem gornjem pseudokodu, nova vrednost promenljive j postaje 6 ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). Zamenjujući $S[0]$ i $S[6]$, stanje **S** posle prve runde postaje $[6, 1, 2, 3, 4, 5, 0, 7]$.
 
 
 U sledećem redu, $i = 1$. Prolazeći ponovo kroz for petlju, **j** dobija vrednost 7 ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). Zamenom $S[1]$ i $S[7]$ iz trenutnog stanja **S**, $[6, 1, 2, 3, 4, 5, 0, 7]$, dobija se $[6, 7, 2, 3, 4, 5, 0, 1]$ nakon 2. runde.
@@ -2098,10 +2096,10 @@ Nastavljamo s ovim procesom sve dok ne proizvedemo poslednji red na dnu za niz *
 *Tabela 1: Ključna tabela rasporeda*
 
 
-| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| Runda   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 |         |     |     |     |      |      |      |      |      |      |      |      |
-| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| Inicijalno |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
 | 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
 | 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
 | 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
@@ -2123,7 +2121,7 @@ Keystream se proizvodi sledećim pseudokodom:
 
 - Kreiraj promenljive **j**, **i**, i **t**.
 - Postavi $j = 0$.
-- Za svaki $i$ otvorenog teksta, počevši od $i = 1$ i idući do $i = 4$, svaki bajt toka ključeva se proizvodi na sledeći način:
+- Za svaki $i$ otvorenog teksta, počevši od $i = 1$ i idući do $i = 4$, svaki bajt keystrem-a se proizvodi na sledeći način:
     - $j = (j + S[i]) \mod 8$
     - Zameni $S[i]$ i $S[j]$.
     - $t = (S[i] + S[j]) \mod 8$
@@ -2158,16 +2156,16 @@ Da bismo počeli, koristeći ASCII tabelu, možemo videti da je “SOUP” kodir
 | 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
 | 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-Primer koji smo upravo diskutovali je samo razblažena verzija **RC4 strim šifre**. Prava RC4 strim šifra ima **S** niz dužine 256 bajtova, a ne 8 bajtova, i ključ koji može biti između 1 i 256 bajtova, a ne između 1 i 8 bajtova. Niz ključeva i strimovi ključeva se zatim proizvode uzimajući u obzir dužinu od 256 bajtova **S** niza. Izračuni postaju izuzetno složeniji, ali principi ostaju isti. Koristeći isti ključ, [14,48,9], sa standardnom RC4 šifrom, otvorena poruka "SOUP" je enkriptovana kao 67 02 ed df u heksadecimalnom formatu.
+Primer koji smo upravo diskutovali je samo razblažena verzija **RC4 tok šifre**. Prava RC4 tok šifra ima **S** niz dužine 256 bajtova, a ne 8 bajtova, i ključ koji može biti između 1 i 256 bajtova, a ne između 1 i 8 bajtova. Niz ključeva i strimovi ključeva (keystreams) se zatim proizvode uzimajući u obzir dužinu od 256 bajtova **S** niza. Izračuni postaju izuzetno složeniji, ali principi ostaju isti. Koristeći isti ključ, [14,48,9], sa standardnom RC4 šifrom, otvorena poruka "SOUP" je enkriptovana kao 67 02 ed df u heksadecimalnom formatu.
 
 
-Šifarnik toka u kojem se tok ključeva ažurira nezavisno od otvorenog teksta ili šifrovanog teksta je **sinhroni šifarnik toka**. Tok ključeva zavisi samo od ključa. Jasno je da je RC4 primer sinhronog šifarnika toka, jer tok ključeva nema veze sa otvorenim tekstom ili šifrovanim tekstom. Svi naši primitivni šifarnici toka pomenuti u prethodnom poglavlju, uključujući šifru pomaka, Vigenèreovu šifru i jednokratnu podlogu, takođe su bili sinhronog tipa.
+Šifarnik toka (eng. stream cipher) u kojem se tok ključeva (keystream) ažurira nezavisno od otvorenog teksta ili šifrovanog teksta je **sinhroni šifarnik toka**. Tok ključeva (eng. keystream) zavisi samo od ključa. Jasno je da je RC4 primer sinhronog šifarnika toka, jer tok ključeva nema veze sa otvorenim tekstom ili šifrovanim tekstom. Svi naši primitivni šifarnici toka pomenuti u prethodnom poglavlju, uključujući šifru pomaka, Vigenèreovu šifru i jednokratnu podlogu, takođe su bili sinhronog tipa.
 
 
-Nasuprot tome, **asinhroni strim šifra** ima keystream koji se proizvodi i pomoću ključa i prethodnog Elements šifrovanog teksta. Ova vrsta šifre se takođe naziva **samosinhronizujuća šifra**.
+Nasuprot tome, **asinhrona strim šifra** ima keystream koji se proizvodi i pomoću ključa i prethodnog elementa šifrovanog teksta. Ova vrsta šifre se takođe naziva **samosinhronizujuća šifra**.
 
 
-Važno je da se keystream proizveden sa RC4 tretira kao jednokratna šifra, i ne možete proizvesti keystream na potpuno isti način sledeći put. Umesto menjanja ključa svaki put, praktično rešenje je kombinovati ključ sa **Nonce** da bi se proizveo bytestream.
+Važno je da se keystream proizveden sa RC4 tretira kao jednokratna šifra, tako da ne možete proizvesti keystream na potpuno isti način sledeći put. Umesto da se ključ menja svaki put, praktično rešenje je kombinovati ključ sa „nonce“-om kako bi se proizveo niz bajtova (bytestream).
 
 
 
@@ -2177,22 +2175,21 @@ Važno je da se keystream proizveden sa RC4 tretira kao jednokratna šifra, i ne
 <chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
 
 
-Kao što je pomenuto u prethodnom poglavlju, Nacionalni institut za standarde i tehnologiju (NIST) održao je takmičenje između 1997. i 2000. godine kako bi odredio novi standard za simetrično šifrovanje. **Rijndael šifra** se pokazala kao pobednički unos. Ime je igra reči na osnovu imena belgijskih tvoraca, Vincent Rijmen i Joan Daemen.
+Kao što je pomenuto u prethodnom poglavlju, Nacionalni institut za standarde i tehnologiju (NIST) održao je takmičenje između 1997. i 2000. godine kako bi odredio novi standard za simetrično šifrovanje. **Rijndael šifra** se pokazala kao pobednička. Ime je igra reči na osnovu imena belgijskih tvoraca, Vincent Rijmen i Joan Daemen.
 
 
 Rijndael šifra je **blok šifra**, što znači da postoji osnovni algoritam koji se može koristiti sa različitim specifikacijama za dužine ključeva i veličine blokova. Možete je, zatim, koristiti sa različitim režimima rada za konstruisanje šema šifrovanja.
 
 
-Komitet za NIST takmičenje usvojio je ograničenu verziju Rijndael šifre—naime onu koja zahteva veličine blokova od 128 bita i dužine ključeva od 128 bita, 192 bita ili 256 bita—kao deo **Naprednog standarda za šifrovanje (AES)**. Ova ograničena verzija Rijndael šifre može se koristiti i u više režima rada. Specifikacija za standard je ono što je poznato kao **Napredni standard za šifrovanje (AES)**.
+Komitet za NIST takmičenje usvojio je ograničenu verziju Rijndael šifre — naime onu koja zahteva veličine blokova od 128 bita i dužine ključeva od 128 bita, 192 bita ili 256 bita — kao deo **Naprednog standarda za šifrovanje (AES)**. Ova ograničena verzija Rijndael šifre može se koristiti i u više režima rada. Specifikacija za taj standard je ono što je poznato kao **Napredni standard za šifrovanje (AES)**.
 
 
 Da bih pokazao kako funkcioniše Rijndael šifra, jezgro AES-a, ilustrovaću proces enkripcije sa 128-bitnim ključem. Veličina ključa utiče na broj rundi koje se sprovode za svaki blok enkripcije. Za 128-bitne ključeve, potrebno je 10 rundi. Sa 192 bita i 256 bita, bilo bi potrebno 12 i 14 rundi, respektivno.
 
 
-Pored toga, pretpostaviću da se AES koristi u **ECB-modu**. Ovo čini izlaganje malo lakšim i nije važno za Rijndael algoritam. Da budemo sigurni, ECB mod nije bezbedan u praksi jer dovodi do determinističkog šifrovanja. Najčešće korišćeni bezbedni mod sa AES-om je **CBC** (Cipher Block Chaining).
+Pored toga, pretpostaviću da se AES koristi u **ECB-modu**. Ovo čini izlaganje malo lakšim i nije važno za Rijndael algoritam. Da budemo jasni, ECB način u praksi nije siguran jer dovodi do determinističkog šifriranja. Najčešće korišteni siguran način rada s AES-om je **CBC** (Cipher Block Chaining, lančano povezivanje blokova šifre).
 
-
-Hajde da nazovemo ključ $K_0$. Konstrukcija sa gore navedenim parametrima, zatim, izgleda kao na *Slici 1*, gde $M_i$ označava deo otvorenog teksta od 128 bita, a $C_i$ deo šifrovanog teksta od 128 bita. Dodaje se popunjavanje otvorenom tekstu za poslednji blok, ako otvoreni tekst ne može biti ravnomerno podeljen veličinom bloka.
+Hajde da nazovemo ključ $K_0$. Konstrukcija sa gore navedenim parametrima, zatim, izgleda kao na *Slici 1*, gde $M_i$ označava deo otvorenog teksta od 128 bita, a $C_i$ deo šifrovanog teksta od 128 bita. Popunjavanje (padding) se dodaje otvorenom tekstu u posljednjem bloku, ako se otvoreni tekst ne može ravnomjerno podijeliti prema veličini bloka.
 
 
 
@@ -2205,7 +2202,7 @@ Hajde da nazovemo ključ $K_0$. Konstrukcija sa gore navedenim parametrima, zati
 Svaki 128-bitni blok teksta prolazi kroz deset rundi u Rijndael šemi šifrovanja. Ovo zahteva poseban ključ za svaku rundu ($K_1$ do $K_{10}$). Oni se proizvode za svaku rundu iz originalnog 128-bitnog ključa $K_0$ koristeći **algoritam za proširenje ključa**. Dakle, za svaki blok teksta koji treba da bude šifrovan, koristićemo originalni ključ $K_0$ kao i deset posebnih ključeva za runde. Imajte na umu da se ovih istih 11 ključeva koristi za svaki 128-bitni blok otvorenog teksta koji zahteva šifrovanje.
 
 
-Algoritam za proširenje ključa je dug i složen. Rad na njemu ima malo didaktičke koristi. Možete sami pregledati algoritam za proširenje ključa, ako želite. Kada se proizvedu ključevi rundi, Rijndael šifra će manipulisati prvim 128-bitnim blokom otvorenog teksta, $M_1$, kao što je prikazano na *Slici 2*. Sada ćemo proći kroz ove korake.
+Algoritam za proširenje ključa je dug i složen. Rad na njemu ima malo didaktičke koristi. Možete sami pogledati algoritam za proširenje ključa, ako želite. Kada se proizvedu ključevi rundi, Rijndael šifra će manipulisati prvim 128-bitnim blokom otvorenog teksta, $M_1$, kao što je prikazano na *Slici 2*. Sada ćemo proći kroz ove korake.
 
 
 *Slika 2: Manipulacija $M_1$ sa Rijndael šifrom:*
@@ -2223,9 +2220,9 @@ Algoritam za proširenje ključa je dug i složen. Rad na njemu ima malo didakti
 
 
 - XOR $S_{n-1}$ i $K_n$
-- Zamena bajtova
-- Shift Rows
-- Mešaj Kolone
+- Zamena bajtova (eng. Byte Substitution)
+- Pomeranje redova (eng. Shift Rows)
+- Mix kolona (eng. Mix Columns)
 - XOR $S$ i $K_n$ da bi se proizveo $S_n$
 
 
@@ -2235,8 +2232,8 @@ Algoritam za proširenje ključa je dug i složen. Rad na njemu ima malo didakti
 
 
 - XOR $S_9$ i $K_{10}$
-- Zamena bajtova
-- Pomeraj Redove
+- Zamena bajtova (eng. Byte Substitution)
+- Pomeranje redova (eng. Shift Rows)
 - XOR $S$ i $K_{10}$ da bi se proizveo $S_{10}$
 - $S_{10}$ = $C_1$
 
@@ -2255,10 +2252,10 @@ Runda 0 Rijndael šifre je jednostavna. Niz $S_0$ se proizvodi XOR operacijom iz
 ### Runda 1
 
 
-U rundi 1, niz $S_0$ se prvo kombinuje sa rundskim ključem $K_1$ koristeći XOR operaciju. Ovo proizvodi novo stanje $S$.
+U rundi 1, niz $S_0$ se prvo kombinuje sa ključem runde $K_1$ koristeći XOR operaciju. Ovo proizvodi novo stanje $S$.
 
 
-Drugo, operacija **zamene bajtova** se izvodi na trenutnom stanju $S$. Ona funkcioniše tako što uzima svaki bajt iz 16-bajtne $S$ niske i zamenjuje ga bajtom iz niske koja se zove **Rijndaelova S-kutija**. Svaki bajt ima jedinstvenu transformaciju, i kao rezultat se proizvodi novo stanje $S$. Rijndaelova S-kutija je prikazana na *Slici 3*.
+Drugo, operacija **zamene bajtova** se izvodi na trenutnom stanju $S$. Ona funkcioniše tako što uzima svaki bajt iz 16-bajtne $S$ niza i zamenjuje ga bajtom iz niza koja se zove **Rijndaelova S-kutija**. Svaki bajt ima jedinstvenu transformaciju, i kao rezultat se proizvodi novo stanje $S$. Rijndaelova S-kutija je prikazana na *Slici 3*.
 
 
 *Slika 3: Rijndaelova S-Kutija*
@@ -2284,7 +2281,7 @@ Drugo, operacija **zamene bajtova** se izvodi na trenutnom stanju $S$. Ona funkc
 | F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
 
-Ovaj S-Box je jedno mesto gde apstraktna algebra dolazi do izražaja u Rijndael šifri, konkretno **Galoisova polja**.
+Ova S-kutija je jedno mesto gde apstraktna algebra dolazi do izražaja u Rijndael šifri, konkretno **Galoisova polja**.
 
 
 Da biste započeli, definišete svaki mogući bajt element od 00 do FF kao 8-bitni vektor. Svaki takav vektor je element **Galoisovog polja GF(2^8)** gde je ireducibilni polinom za operaciju modula $x^8 + x^4 + x^3 + x + 1$. Galoisovo polje sa ovim specifikacijama se takođe naziva **Rijndaelovo konačno polje**.
@@ -2293,7 +2290,7 @@ Da biste započeli, definišete svaki mogući bajt element od 00 do FF kao 8-bit
 Zatim, za svaki mogući element u polju, kreiramo ono što se zove **Nyberg S-Box**. U ovoj kutiji, svaki bajt se preslikava na svoj **multiplikativni inverz** (tj. tako da njihov proizvod bude jednak 1). Zatim te vrednosti iz Nyberg S-kutije preslikavamo u Rijndaelovu S-kutiju koristeći **afinu transformaciju**.
 
 
-Treća operacija na nizu **S** je operacija **shift rows**. Ona uzima stanje **S** i prikazuje svih šesnaest bajtova u matrici. Popunjavanje matrice počinje u gornjem levom uglu i nastavlja se tako što ide od vrha ka dnu, a zatim, svaki put kada se kolona popuni, pomera se jedna kolona udesno i na vrh.
+Treća operacija na nizu **S** je operacija **pomeranja redova** (eng. **shift rows**). Ona uzima stanje **S** i prikazuje svih šesnaest bajtova u matrici. Popunjavanje matrice počinje u gornjem levom uglu i nastavlja se tako što ide od vrha ka dnu, a zatim, svaki put kada se kolona popuni, pomera se jedna kolona udesno i na vrh.
 
 
 Kada je matrica **S** konstruisana, četiri reda se pomeraju. Prvi red ostaje isti. Drugi red se pomera za jedno mesto ulevo. Treći se pomera za dva mesta ulevo. Četvrti se pomera za tri mesta ulevo. Primer procesa je prikazan na *Slici 4*. Originalno stanje **S** je prikazano na vrhu, a rezultat stanja nakon operacije pomeranja redova je prikazan ispod njega.
@@ -2345,13 +2342,13 @@ $$
 Kao sledeći korak, svi termini u matrici bi morali biti pretvoreni u polinome. Na primer, F1 predstavlja 1 bajt i postao bi $x^7 + x^6 + x^5 + x^4 + 1$, a 03 predstavlja 1 bajt i postao bi $x + 1$.
 
 
-Sve množenje se zatim izvodi **modulo** $x^8 + x^4 + x^3 + x + 1$. Ovo rezultira sabiranjem četiri polinoma u svakoj od četiri ćelije kolone. Nakon izvođenja tih sabiranja **modulo 2**, dobićete četiri polinoma. Svaki od ovih polinoma predstavlja 8-bitni niz, ili 1 bajt, **S**. Nećemo ovde izvoditi sve ove proračune na matrici u *Figure 6* jer su opsežni.
+Sve množenje se zatim izvodi **modulo** $x^8 + x^4 + x^3 + x + 1$. Ovo rezultira sabiranjem četiri polinoma u svakoj od četiri ćelije kolone. Nakon izvođenja tih sabiranja **modulo 2**, dobićete četiri polinoma. Svaki od ovih polinoma predstavlja 8-bitni niz, ili 1 bajt, **S**. Nećemo ovde izvoditi sve ove proračune na matrici u *Slici 6* jer su opsežni.
 
 
 Kada je prva kolona obrađena, ostale tri kolone matrice **S** obrađuju se na isti način. Na kraju, to će dati matricu sa šesnaest bajtova koja se može transformisati u niz.
 
 
-Kao poslednji korak, niz **S** se ponovo kombinuje sa rund ključem u **XOR** operaciji. Ovo proizvodi stanje $S_1$. To jest,
+Kao poslednji korak, niz **S** se ponovo kombinuje sa ključem runde u **XOR** operaciji. Ovo proizvodi stanje $S_1$. To jest,
 
 
 
@@ -2367,11 +2364,11 @@ Runde 2 do 9 su samo ponavljanje runde 1, *mutatis mutandis*. Završna runda izg
 
 - $S_9 \oplus K_{10}$
 - Zamena bajtova
-- Shift Rows
+- Pomeranje kolona
 - $S_{10} = S \oplus K_{10}$
 
 
-Država $S_{10}$ je sada postavljena na $C_1$, prvih 128 bita šifrovanog teksta. Prolazeći kroz preostale blokove otvorenog teksta od 128 bita dobija se kompletan šifrovani tekst **C**.
+Stanje $S_{10}$ je sada postavljeno na $C_1$, prvih 128 bita šifrovanog teksta. Prolazeći kroz preostale blokove otvorenog teksta od 128 bita dobija se kompletan šifrovani tekst **C**.
 
 
 ### Operacije Rijndael šifre
@@ -2400,17 +2397,17 @@ Razlog za operacije iza Rijndael šifre je što one proizvode visok stepen konfu
 Kao i kod simetrične kriptografije, asimetrične šeme mogu se koristiti za obezbeđivanje tajnosti i autentifikacije. Međutim, za razliku od simetričnih, ove šeme koriste dva ključa umesto jednog: privatni i javni ključ.
 
 
-Počinjemo našu istragu otkrićem asimetrične kriptografije, posebno problema koji su je podstakli. Zatim, raspravljamo o tome kako asimetrične šeme za enkripciju i autentifikaciju funkcionišu na visokom nivou. Potom, uvodimo Hash funkcije, koje su ključne za razumevanje asimetričnih šema autentifikacije, a takođe imaju značaj u drugim kriptografskim kontekstima, kao što su Hash zasnovani kodovi za autentifikaciju poruka koje smo diskutovali u Poglavlju 4.
+Počinjemo našu istragu otkrićem asimetrične kriptografije, posebno problema koji su je podstakli. Zatim, raspravljamo o tome kako asimetrične šeme za enkripciju i autentifikaciju funkcionišu na visokom nivou. Potom, uvodimo heš funkcije, koje su ključne za razumevanje asimetričnih šema autentifikacije, a takođe imaju značaj u drugim kriptografskim kontekstima, kao što su kodovi zasnovani na heš funkciji za autentifikaciju poruka koje smo diskutovali u Poglavlju 4.
 
 
 ___
 
 
 
-Pretpostavimo da Bob želi da kupi novi kišni mantil od Jim’s Sporting Goods, online prodavnice sportske opreme sa milionima kupaca u Severnoj Americi. Ovo će biti njegova prva kupovina od njih i želi da koristi svoju kreditnu karticu. Dakle, Bob će prvo morati da kreira nalog kod Jim’s Sporting Goods, što zahteva slanje ličnih podataka kao što su njegov Address i informacije o kreditnoj kartici. Zatim može proći kroz potrebne korake za kupovinu kišnog mantila.
+Pretpostavimo da Bob želi da kupi novi kišni mantil od Jim’s Sporting Goods, online prodavnice sportske opreme sa milionima kupaca u Severnoj Americi. Ovo će biti njegova prva kupovina od njih i želi da koristi svoju kreditnu karticu. Dakle, Bob će prvo morati da kreira nalog kod Jim’s Sporting Goods, što zahteva slanje ličnih podataka kao što su njegova adresa i informacije o kreditnoj kartici. Zatim može proći kroz potrebne korake za kupovinu kišnog mantila.
 
 
-Bob i Jim’s Sporting Goods će želeti da osiguraju da njihove komunikacije budu bezbedne tokom ovog procesa, s obzirom na to da je Internet otvoren komunikacioni sistem. Oni će želeti da osiguraju, na primer, da nijedan potencijalni napadač ne može saznati Bobove podatke o kreditnoj kartici i Address, i da nijedan potencijalni napadač ne može ponoviti njegove kupovine ili kreirati lažne u njegovo ime.
+Bob i Jim’s Sporting Goods će želeti da osiguraju da njihove komunikacije budu bezbedne tokom ovog procesa, s obzirom na to da je internet otvoren komunikacioni sistem. Oni će želeti da osiguraju, na primer, da nijedan potencijalni napadač ne može saznati Bobove podatke o kreditnoj kartici i adresi, i da nijedan potencijalni napadač ne može ponoviti njegove kupovine ili kreirati lažne u njegovo ime.
 
 
 Napredna šema autentifikovane enkripcije, kao što je diskutovano u prethodnom poglavlju, svakako bi mogla učiniti komunikaciju između Boba i Jim's Sporting Goods sigurnom. Ali očigledno postoje praktične prepreke za implementaciju takve šeme.
@@ -2419,13 +2416,13 @@ Napredna šema autentifikovane enkripcije, kao što je diskutovano u prethodnom 
 Da bismo ilustrovali ove praktične prepreke, pretpostavimo da živimo u svetu u kojem postoje samo alati simetrične kriptografije. Šta bi tada Jim’s Sporting Goods i Bob mogli da urade kako bi osigurali sigurnu komunikaciju?
 
 
-U tim okolnostima, suočiće se sa značajnim troškovima za bezbednu komunikaciju. Kako je Internet otvoren komunikacioni sistem, ne mogu jednostavno Exchange skup ključeva preko njega. Stoga će Bob i predstavnik Jim's Sporting Goods morati da naprave ključ Exchange lično.
+U tim okolnostima, suočiće se sa značajnim troškovima za bezbednu komunikaciju. Kako je internet otvoren komunikacioni sistem, ne mogu jednostavno razmeniti skup ključeva preko njega. Stoga će Bob i predstavnik Jim's Sporting Goods morati da naprave razmenu ključa lično.
 
 
-Jedna mogućnost je da Jim’s Sporting Goods kreira posebne lokacije za ključeve Exchange, gde Bob i drugi novi kupci mogu preuzeti set ključeva za sigurnu komunikaciju. Ovo bi očigledno došlo uz značajne organizacione troškove i znatno smanjilo efikasnost sa kojom novi kupci mogu obavljati kupovine.
+Jedna mogućnost je da Jim’s Sporting Goods kreira posebne lokacije za razmenu ključeva, gde Bob i drugi novi kupci mogu preuzeti set ključeva za sigurnu komunikaciju. Ovo bi očigledno došlo uz značajne organizacione troškove i znatno smanjilo efikasnost sa kojom novi kupci mogu obavljati kupovine.
 
 
-Alternativno, Jim’s Sporting Goods može poslati Bobu par ključeva putem visoko pouzdanog kurira. Ovo je verovatno efikasnije nego organizovanje lokacija ključeva Exchange. Ali to bi i dalje dolazilo uz značajne troškove, posebno ako mnogi kupci obave samo jednu ili nekoliko kupovina.
+Alternativno, Jim’s Sporting Goods može poslati Bobu par ključeva putem visoko pouzdanog kurira. Ovo je verovatno efikasnije nego organizovanje lokacija za razmenu ključeva. Ali to bi i dalje dolazilo uz značajne troškove, posebno ako mnogi kupci obave samo jednu ili nekoliko kupovina.
 
 
 Dalje, simetrična šema za autentifikovano šifrovanje takođe primorava Jim’s Sporting Goods da čuva odvojene skupove ključeva za sve svoje kupce. Ovo bi bio značajan praktičan izazov za hiljade kupaca, a kamoli za milione.
@@ -2442,8 +2439,8 @@ Dakle, Jim’s Sporting Goods bi morao da čuva par ključeva za svakog kupca, b
 
 
 - Jim’s Sporting Goods bi morao da skladišti milione parova ključeva, jedan set za svakog kupca.
-- Ovi ključevi bi morali biti propisno osigurani, jer bi bili sigurna meta za hakere. Svako narušavanje sigurnosti zahtevalo bi ponavljanje skupih razmena ključeva, bilo na posebnim lokacijama ključeva Exchange ili putem kurira.
-- Bilo koji kupac Jim’s Sporting Goods morao bi bezbedno čuvati par ključeva kod kuće. Gubici i krađe će se dogoditi, što zahteva ponavljanje razmene ključeva. Kupci bi takođe morali proći kroz ovaj proces za bilo koje druge online prodavnice ili druge vrste entiteta sa kojima žele komunicirati i obavljati transakcije putem Interneta.
+- Ovi ključevi bi morali biti propisno osigurani, jer bi bili sigurna meta za hakere. Svako narušavanje sigurnosti zahtevalo bi ponavljanje skupih razmena ključeva, bilo na posebnim lokacijama za razmenu ključeva ili putem kurira.
+- Bilo koji kupac Jim’s Sporting Goods morao bi bezbedno čuvati par ključeva kod kuće. Gubici i krađe će se dogoditi, što zahteva ponavljanje razmene ključeva. Kupci bi takođe morali proći kroz ovaj proces za bilo koje druge online prodavnice ili druge vrste entiteta sa kojima žele komunicirati i obavljati transakcije putem interneta.
 
 
 Ova dva glavna izazova upravo opisana bila su veoma fundamentalna pitanja sve do kasnih 1970-ih. Bila su poznata kao **problem distribucije ključa** i **problem upravljanja ključem**, respektivno.
@@ -2464,30 +2461,30 @@ Dakle, šta se desilo 1970-ih? Kako je moguće da možemo trenutno obavljati kup
 <chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
 
 
-Do 1970-ih, problemi distribucije ključeva i upravljanja ključevima privukli su pažnju grupe američkih akademskih kriptografa: Whitfielda Diffieja, Martina Hellmana i Ralpha Merklea. Suočeni sa ozbiljnim skepticizmom većine svojih kolega, upustili su se u pronalaženje rešenja za to.
+Do 1970-ih, problemi distribucije ključeva i upravljanja ključevima privukli su pažnju grupe američkih akademskih kriptografa: Whitfielda Diffie-ja, Martina Hellmana i Ralpha Merklea. Suočeni sa ozbiljnim skepticizmom većine svojih kolega, upustili su se u pronalaženje rešenja za to.
 
 
 Barem jedna primarna motivacija za njihov poduhvat bila je predviđanje da će otvorene računarske komunikacije duboko uticati na naš svet. Kao što su Diffie i Helmann primetili 1976. godine,
 
 
-> Razvoj računarski kontrolisanih komunikacionih mreža obećava lak i jeftin kontakt između ljudi ili računara na suprotnim stranama sveta, zamenjujući većinu pošte i mnoge izlete telekomunikacijama. Za mnoge primene ovi kontakti moraju biti osigurani protiv prisluškivanja i ubacivanja nelegitimnih poruka. Međutim, trenutno rešenje problema bezbednosti zaostaje za drugim oblastima komunikacione tehnologije. *Suvremena kriptografija nije u stanju da ispuni zahteve, jer bi njena upotreba nametnula tako ozbiljne neugodnosti korisnicima sistema, da bi eliminisala mnoge prednosti teleprocesiranja.* [1]
+> Razvoj računarski kontrolisanih komunikacionih mreža obećava lak i jeftin kontakt između ljudi ili računara na suprotnim stranama sveta, zamenjujući većinu pošte i mnoge izlete telekomunikacijama. Za mnoge primene ovi kontakti moraju biti osigurani protiv prisluškivanja i ubacivanja nelegitimnih poruka. Međutim, trenutno rešenje problema bezbednosti zaostaje za drugim oblastima komunikacione tehnologije. *Savremena kriptografija nije u stanju da ispuni zahteve, jer bi njena upotreba nametnula tako ozbiljne neugodnosti korisnicima sistema, da bi eliminisala mnoge prednosti teleprocesiranja.* [1]
 
-Upornost Diffieja, Hellmana i Merklea se isplatila. Prva objava njihovih rezultata bila je rad Diffieja i Helmana iz 1976. godine pod nazivom „New Directions in Cryptography.” U njemu su predstavili dva originalna načina za Address probleme distribucije ključeva i upravljanja ključevima.
-
-
-Prvo rešenje koje su ponudili bilo je daljinsko *key-Exchange protokol*, odnosno skup pravila za Exchange jednog ili više simetričnih ključeva preko nesigurnog komunikacionog kanala. Ovaj protokol je sada poznat kao *Diffie-Helmann key Exchange* ili *Diffie-Helmann-Merkle key Exchange*. [2]
+Upornost Diffieja, Hellmana i Merklea se isplatila. Prva objava njihovih rezultata bila je rad Diffieja i Helmana iz 1976. godine pod nazivom „New Directions in Cryptography.” U njemu su predstavili dva originalna načina za rešavanje probleme distribucije ključeva i upravljanja ključevima.
 
 
-Sa Diffie-Helmann ključem Exchange, dve strane prvo Exchange neke informacije javno na nesigurnom kanalu kao što je Internet. Na osnovu tih informacija, zatim, nezavisno kreiraju simetrični ključ (ili par simetričnih ključeva) za sigurnu komunikaciju. Iako obe strane nezavisno kreiraju svoje ključeve, informacije koje su podelili javno osiguravaju da ovaj proces kreiranja ključa daje isti rezultat za obe strane.
+Prvo rešenje koje su ponudili bilo je *protokol razmene ključs* na daljinu, odnosno skup pravila za razmenu jednog ili više simetričnih ključeva preko nesigurnog komunikacionog kanala. Ovaj protokol je sada poznat kao *Diffie-Helmann key Exchange* ili *Diffie-Helmann-Merkle key Exchange*. [2]
 
 
-Važno je napomenuti da, iako svako može posmatrati informacije koje strane razmenjuju javno preko nesigurnog kanala, samo dve strane koje učestvuju u informacijama Exchange mogu kreirati simetrične ključeve iz njih.
+Sa Diffie-Helmann razmenom ključa, dve strane prvo razmene neke informacije javno na nesigurnom kanalu kao što je internet. Na osnovu tih informacija, zatim, nezavisno kreiraju simetrični ključ (ili par simetričnih ključeva) za sigurnu komunikaciju. Iako obe strane nezavisno kreiraju svoje ključeve, informacije koje su podelili javno osiguravaju da ovaj proces kreiranja ključa daje isti rezultat za obe strane.
 
 
-Ovo, naravno, zvuči potpuno kontraintuitivno. Kako bi dve strane Exchange mogle javno da podele informacije koje bi im omogućile da samo one kreiraju simetrične ključeve iz njih? Zašto niko drugi ko posmatra informacije Exchange ne bi mogao da kreira iste ključeve?
+Važno je napomenuti da, iako svako može posmatrati informacije koje strane razmenjuju javno preko nesigurnog kanala, samo dve strane koje učestvuju u razmneni informacija mogu kreirati simetrične ključeve iz njih.
 
 
-Oslanja se naravno na neku lepu matematiku. Diffie-Helmann ključ Exchange radi putem jednosmerne funkcije sa skrivenim prolazom. Hajde da redom diskutujemo značenje ova dva termina.
+Ovo, naravno, zvuči potpuno kontraintuitivno. Kako bi dve strane mogle javno da podele informacije koje bi im omogućile da samo one kreiraju simetrične ključeve iz njih? Zašto niko drugi ko posmatra razmenu informacija ne bi mogao da kreira iste ključeve?
+
+
+Oslanja se naravno na neku lepu matematiku. Diffie-Helmann razmena ključa radi putem jednosmerne funkcije sa skrivenim prolazom. Hajde da redom diskutujemo značenje ova dva termina.
 
 
 Pretpostavimo da vam je data neka funkcija $f(x)$ i rezultat $f(a) = y$, gde je $a$ određena vrednost za $x$. Kažemo da je $f(x)$ **jednosmerna funkcija** ako je lako izračunati vrednost $y$ kada su dati $a$ i $f(x)$, ali je računarski neizvodljivo izračunati vrednost $a$ kada su dati $y$ i $f(x)$. Naziv **jednosmerna funkcija**, naravno, potiče iz činjenice da je takvu funkciju praktično izračunati samo u jednom smeru.
@@ -2496,28 +2493,28 @@ Pretpostavimo da vam je data neka funkcija $f(x)$ i rezultat $f(a) = y$, gde je 
 Neke jednosmerne funkcije imaju ono što je poznato kao **trapdoor**. Dok je praktično nemoguće izračunati $a$ samo na osnovu $y$ i $f(x)$, postoji određeni deo informacije $Z$ koji omogućava da se izračuna $a$ iz $y$ na računarski izvodljiv način. Ovaj deo informacije $Z$ je poznat kao **trapdoor**. Jednosmerne funkcije koje imaju trapdoor poznate su kao **trapdoor funkcije**.
 
 
-Nećemo ulaziti u detalje Diffie-Helmann ključa Exchange ovde. Ali u suštini, svaki učesnik kreira neke informacije, od kojih je jedan deo javno podeljen, dok neki ostaju tajni. Svaka strana zatim uzima svoj tajni deo informacija i javne informacije koje je podelila druga strana kako bi kreirala privatni ključ. I na neki način, oba učesnika će završiti sa istim privatnim ključem.
+Nećemo ulaziti u detalje Diffie-Helmann razmene ključa ovde. Ali u suštini, svaki učesnik kreira neke informacije, od kojih je jedan deo javno podeljen, dok neki ostaju tajni. Svaka strana zatim uzima svoj tajni deo informacija i javne informacije koje je podelila druga strana kako bi kreirala privatni ključ. I na neki način, oba učesnika će završiti sa istim privatnim ključem.
 
 
-Bilo koja strana koja posmatra samo javno deljene informacije između dve strane u Diffie Helmann ključu Exchange nije u mogućnosti da replicira ove proračune. Potrebne su im privatne informacije od jedne od dve strane da bi to uradili.
+Bilo koja strana koja posmatra samo javno deljene informacije između dve strane u Diffie Helmann razmeni ključa nije u mogućnosti da replicira ove proračune. Potrebne su im privatne informacije od jedne od dve strane da bi to uradili.
 
 
-Iako osnovna verzija Diffie-Helmann ključa Exchange predstavljena u radu iz 1976. godine nije veoma sigurna, sofisticirane verzije osnovnog protokola su svakako i dalje u upotrebi danas. Najvažnije je da je svaki ključ Exchange protokola u najnovijoj verziji transportnog Layer sigurnosnog protokola (verzija 1.3) suštinski obogaćena verzija protokola koju su predstavili Diffie i Hellman 1976. godine. Transportni Layer sigurnosni protokol je preovlađujući protokol za sigurno razmenjivanje informacija formatiranih prema hipertekstualnom transfer protokolu (http), standardu za razmenu Web sadržaja.
+Iako osnovna verzija Diffie-Helmann protokola za razmenu ključa predstavljena u radu iz 1976. godine nije veoma sigurna, sofisticirane verzije osnovnog protokola su svakako i dalje u upotrebi danas. Najvažnije je to što je svaki protokol za razmenu ključeva u najnovijoj verziji protokola sigurnosnog sloja prenosa (verzija 1.3) u suštini obogaćena verzija protokola koji su predstavili Diffie i Hellman 1976. godine. Protokol sigurnosnog sloja prenosa (TLS) je pretežni protokol za sigurno razmenjivanje informacija koje su formatirane prema protokolu za prenos hiperteksta (HTTP), standardu za razmenu sadržaja na vebu.
 
 
-Važno je napomenuti da Diffie-Helmann ključ Exchange nije asimetrična šema. Strogo govoreći, može se tvrditi da pripada oblasti simetrične kriptografije ključa. Ali pošto se i Diffie-Helmann ključ Exchange i asimetrična kriptografija oslanjaju na jednosmerne brojevno-teorijske funkcije sa zamkama, obično se razmatraju zajedno.
+Važno je napomenuti da Diffie-Helmann razmena ključa nije asimetrična šema. Strogo govoreći, može se tvrditi da pripada oblasti simetrične kriptografije ključa. Ali pošto se i Diffie-Helmann razmena ključa i asimetrična kriptografija oslanjaju na jednosmerne brojevno-teorijske funkcije sa zamkama, obično se razmatraju zajedno.
 
 
-Drugi način koji su Diffie i Helmann ponudili Address za problem distribucije i upravljanja ključevima u svom radu iz 1976. godine bio je, naravno, putem asimetrične kriptografije.
+Drugi način koji su Diffie i Helmann ponudili rešenje za problem distribucije i upravljanja ključevima u svom radu iz 1976. godine bio je, naravno, putem asimetrične kriptografije.
 
 
-Nasuprot njihovoj prezentaciji Diffie-Hellman ključa Exchange, oni su pružili samo opšte konture kako bi asimetrične kriptografske šeme mogle biti konstruisane. Nisu ponudili nikakvu jednosmernu funkciju koja bi specifično mogla ispuniti uslove potrebne za razumnu sigurnost u takvim šemama.
+Nasuprot njihovoj prezentaciji Diffie-Hellman protokola za razmenu ključa, oni su pružili samo opšte konture kako bi asimetrične kriptografske šeme mogle biti konstruisane. Nisu ponudili nikakvu jednosmernu funkciju koja bi specifično mogla ispuniti uslove potrebne za razumnu sigurnost u takvim šemama.
 
 
 Praktična implementacija asimetrične šeme je, međutim, pronađena godinu dana kasnije od strane tri različita akademska kriptografa i matematičara: Ronald Rivest, Adi Shamir i Leonard Adleman. [3] Kriptosistem koji su predstavili postao je poznat kao **RSA kriptosistem** (po njihovim prezimenima).
 
 
-Funkcije sa skrivenim vratima korišćene u asimetričnoj kriptografiji (i Diffie Helmann ključ Exchange) su sve povezane sa dva glavna **računska Hard problema**: faktorizacija prostih brojeva i izračunavanje diskretnih logaritama.
+Funkcije sa skrivenim vratima korišćene u asimetričnoj kriptografiji (i Diffie Helmann razmena ključa) su sve povezane sa dva glavna **računski teška problema**: faktorizacija prostih brojeva i izračunavanje diskretnih logaritama.
 
 
 **Faktorizacija prostih brojeva** zahteva, kao što ime implicira, razlaganje celog broja na njegove proste faktore. RSA problem je daleko najpoznatiji primer kriptosistema povezanog sa faktorizacijom prostih brojeva.
@@ -2526,16 +2523,16 @@ Funkcije sa skrivenim vratima korišćene u asimetričnoj kriptografiji (i Diffi
 **Problem diskretnog logaritma** je problem koji se javlja u cikličkim grupama. Dat je generator u određenoj cikličkoj grupi, i potrebno je izračunati jedinstveni eksponent potreban da se iz generatora proizvede drugi element u grupi.
 
 
-Šeme zasnovane na diskretnom logaritmu oslanjaju se na dve glavne vrste cikličnih grupa: multiplikativne grupe celih brojeva i grupe koje uključuju tačke na eliptičkim krivama. Originalni Diffie Helmann ključ Exchange, kako je predstavljen u “New Directions in Cryptography”, radi sa cikličnom multiplikativnom grupom celih brojeva. Bitcoin-ov algoritam digitalnog potpisa i nedavno uvedena Schnorr šema potpisa (2021) zasnovani su na problemu diskretnog logaritma za određenu cikličnu grupu eliptičke krive.
+Šeme zasnovane na diskretnom logaritmu oslanjaju se na dve glavne vrste cikličnih grupa: multiplikativne grupe celih brojeva i grupe koje uključuju tačke na eliptičkim krivama. Originalni Diffie Helmann protokol za razmenu ključa, kako je predstavljen u “New Directions in Cryptography”, radi sa cikličnom multiplikativnom grupom celih brojeva. Bitcoin-ov algoritam digitalnog potpisa i nedavno uvedena Schnorr šema potpisa (2021) zasnovani su na problemu diskretnog logaritma za određenu cikličnu grupu eliptičke krive.
 
 
 Zatim ćemo preći na pregled tajnosti i autentifikacije na visokom nivou u asimetričnom okruženju. Međutim, pre nego što to učinimo, potrebno je da napravimo kratku istorijsku napomenu.
 
 
-Sada se čini verovatnim da je grupa britanskih kriptografa i matematičara koji su radili za Vladin komunikacioni štab (GCHQ) nezavisno došla do gore pomenutih otkrića nekoliko godina ranije. Ova grupa se sastojala od Džejmsa Elisa, Kliforda Koksa i Malkolma Vilijamsona.
+Sada se čini verovatnim da je grupa britanskih kriptografa i matematičara koji su radili za vladin komunikacioni štab (GCHQ) nezavisno došla do gore pomenutih otkrića nekoliko godina ranije. Ova grupa se sastojala od Džejmsa Elisa, Kliforda Koksa i Malkolma Vilijamsona.
 
 
-Prema njihovim sopstvenim izveštajima i izveštaju GCHQ-a, Džejms Elis je prvi osmislio koncept kriptografije javnog ključa 1969. Navodno je Kliford Koks zatim otkrio RSA kriptografski sistem 1973. godine, a Malkolm Vilijamson koncept Diffie Helmann ključa Exchange 1974. godine. [4] Njihova otkrića, međutim, navodno nisu bila otkrivena sve do 1997. godine, s obzirom na tajnu prirodu rada u GCHQ-u.
+Prema njihovim sopstvenim izveštajima i izveštaju GCHQ-a, Džejms Elis je prvi osmislio koncept kriptografije javnog ključa 1969. Navodno je Kliford Koks zatim otkrio RSA kriptografski sistem 1973. godine, a Malkolm Vilijamson koncept Diffie Helmann razmene ključa 1974. godine. [4] Njihova otkrića, međutim, navodno nisu bila otkrivena sve do 1997. godine, s obzirom na tajnu prirodu rada u GCHQ-u.
 
 
 
@@ -2545,7 +2542,7 @@ Prema njihovim sopstvenim izveštajima i izveštaju GCHQ-a, Džejms Elis je prvi
 [1] Whitfield Diffie i Martin Hellman, “New directions in cryptography,” _IEEE Transactions on Information Theory_ IT-22 (1976), pp. 644–654, at p. 644.
 
 
-[2] Ralph Merkle takođe diskutuje o ključnom Exchange protokolu u “Secure communications over insecure channels”, _Communications of the Association for Computing Machinery_, 21 (1978), 294–99. Iako je Merkle zapravo predao ovaj rad pre rada Diffieja i Hellmana, objavljen je kasnije. Merkleovo rešenje nije eksponencijalno sigurno, za razliku od Diffie-Hellmanovog.
+[2] Ralph Merkle takođe diskutuje o protokolu za razmenu ključa u “Secure communications over insecure channels”, _Communications of the Association for Computing Machinery_, 21 (1978), 294–99. Iako je Merkle zapravo predao ovaj rad pre rada Diffieja i Hellmana, objavljen je kasnije. Merkleovo rešenje nije eksponencijalno sigurno, za razliku od Diffie-Hellmanovog.
 
 
 [3] Ron Rivest, Adi Shamir, and Leonard Adleman, “A method for obtaining digital signatures and public-key cryptosystems”, _Communications of the Association for Computing Machinery_, 21 (1978), pp. 120–26.
@@ -2605,7 +2602,7 @@ Bob prvo kreira par ključeva, koji se sastoje od javnog ključa ($K_P$) i priva
 Alisa ubacuje poruku, javni ključ i digitalni potpis u **algoritam za verifikaciju**. Ovaj algoritam proizvodi ili **tačno** za važeći potpis, ili **netačno** za nevažeći potpis.
 
 
-Digitalni potpis je, kao što naziv jasno implicira, digitalni ekvivalent pisanog potpisa na pismima, ugovorima i slično. U stvari, digitalni potpis je obično mnogo sigurniji. Uz malo truda, možete falsifikovati pisani potpis; proces koji je olakšan činjenicom da se pisani potpisi često ne proveravaju pažljivo. Međutim, siguran digitalni potpis je, baš kao i siguran kod za autentifikaciju poruka, **egzistencijalno nefalšljiv**: to jest, sa sigurnom šemom digitalnog potpisa, niko ne može izvodljivo kreirati potpis za poruku koji prolazi proceduru verifikacije, osim ako nema privatni ključ.
+Digitalni potpis je, kao što naziv jasno implicira, digitalni ekvivalent pisanog potpisa na pismima, ugovorima i slično. U stvari, digitalni potpis je obično mnogo sigurniji. Uz malo truda, možete falsifikovati pisani potpis; proces koji je olakšan činjenicom da se pisani potpisi često ne proveravaju pažljivo. Međutim, siguran digitalni potpis je, baš kao i siguran kod za autentifikaciju poruka, **egzistencijalno nekrivotvorljiv**: to jest, sa sigurnom šemom digitalnog potpisa, niko ne može izvodljivo kreirati potpis za poruku koji prolazi proceduru verifikacije, osim ako nema privatni ključ.
 
 
 *Slika 2: Asimetrična autentifikacija*
@@ -2618,46 +2615,46 @@ Digitalni potpis je, kao što naziv jasno implicira, digitalni ekvivalent pisano
 Kao i kod asimetrične enkripcije, vidimo zanimljiv kontrast između digitalnih potpisa i kodova za autentifikaciju poruka. Za ove poslednje, verifikacioni algoritam može koristiti samo jedna od strana koja je upoznata sa sigurnom komunikacijom. To je zato što zahteva privatni ključ. Međutim, u asimetričnom okruženju, bilo ko može verifikovati digitalni potpis $S$ koji je napravio Bob.
 
 
-Sve ovo čini digitalne potpise izuzetno moćnim alatom. Oni čine osnovu, na primer, za kreiranje potpisa na ugovorima koji se mogu verifikovati u pravne svrhe. Ako je Bob napravio potpis na Contract u gore navedenom Exchange, Alisa može pokazati poruku $M$, Contract i potpis $S$ sudu. Sud tada može verifikovati potpis koristeći Bobov javni ključ. [5]
+Sve ovo čini digitalne potpise izuzetno moćnim alatom. Oni čine osnovu, na primer, za kreiranje potpisa na ugovorima koji se mogu verifikovati u pravne svrhe. Ako je Bob napravio potpis na ugovoru u gore navedenoj razmeni, Alisa može pokazati poruku $M$, ugovor i potpis $S$ sudu. Sud tada može verifikovati potpis koristeći Bobov javni ključ. [5]
 
 
 Za još jedan primer, digitalni potpisi su važan aspekt bezbednog softvera i distribucije ažuriranja softvera. Ova vrsta javne proverljivosti nikada ne bi mogla biti kreirana korišćenjem samo kodova za autentifikaciju poruka.
 
 
-Kao poslednji primer moći digitalnih potpisa, razmotrite Bitcoin. Jedna od najčešćih zabluda o Bitcoin, posebno u medijima, jeste da su transakcije šifrovane: nisu. Umesto toga, Bitcoin transakcije rade sa digitalnim potpisima kako bi se osigurala bezbednost.
+Kao poslednji primer moći digitalnih potpisa, razmotrite Bitcoin. Jedna od najčešćih zabluda o Bitcoin-u, posebno u medijima, jeste da su transakcije šifrovane: nisu. Umesto toga, Bitcoin transakcije rade sa digitalnim potpisima kako bi se osigurala bezbednost.
 
 
-Bitcoini postoje u serijama koje se nazivaju neiskorišćeni izlazi transakcija (ili **UTXO**). Pretpostavimo da primite tri uplate na određenom Bitcoin Address za po 2 bitcoina. Tehnički, sada nemate 6 bitcoina na tom Address. Umesto toga, imate tri serije od po 2 bitcoina koje su zaključane kriptografskim problemom povezanim sa tim Address. Za svaku uplatu koju izvršite, možete koristiti jednu, dve ili sve tri od ovih serija, u zavisnosti od toga koliko vam je potrebno za transakciju.
+Bitkoini postoje u serijama koje se nazivaju neiskorišćeni izlazi transakcija (ili **UTXO**). Pretpostavimo da primite tri uplate na određenoj Bitcoin adresi za po 2 bitkoina. Tehnički, sada nemate 6 bitkoina na toj adresi. Umesto toga, imate tri serije od po 2 bitkoina koja su zaključana kriptografskim problemom povezanim sa tom adresom. Za svaku uplatu koju izvršite, možete koristiti jednu, dve ili sve tri od ovih serija, u zavisnosti od toga koliko vam je potrebno za transakciju.
 
 
-Dokaz Ownership nad neiskorišćenim izlazima transakcija obično se prikazuje putem jednog ili više digitalnih potpisa. Bitcoin funkcioniše upravo zato što je izrada važećih digitalnih potpisa na neiskorišćenim izlazima transakcija računski neizvodljiva, osim ako ne posedujete tajne informacije potrebne za njihovu izradu.
+Dokaz vlasništva nad neiskorišćenim izlazima transakcija obično se prikazuje putem jednog ili više digitalnih potpisa. Bitcoin funkcioniše upravo zato što je izrada važećih digitalnih potpisa na neiskorišćenim izlazima transakcija računski neizvodljiva, osim ako ne posedujete tajne informacije potrebne za njihovu izradu.
 
 
 Trenutno, Bitcoin transakcije transparentno uključuju sve informacije koje treba da budu verifikovane od strane učesnika u mreži, kao što su porekla neiskorišćenih izlaza transakcija korišćenih u transakciji. Iako je moguće sakriti neke od tih informacija i dalje omogućiti verifikaciju (kao što to čine neke alternativne kriptovalute poput Monera), ovo takođe stvara određene bezbednosne rizike.
 
 
-Zbunjenost ponekad nastaje oko digitalnih potpisa i pisanih potpisa uhvaćenih digitalno. U potonjem slučaju, uhvatite sliku svog pisanog potpisa i zalepite je na elektronski dokument kao što je zaposlenje Contract. Međutim, ovo nije digitalni potpis u kriptografskom smislu. Potonji je samo dugačak broj koji se može proizvesti samo posedovanjem privatnog ključa.
+Zbunjenost ponekad nastaje oko digitalnih potpisa i pisanih potpisa uhvaćenih digitalno. U potonjem slučaju, uhvatite sliku svog pisanog potpisa i zalepite je na elektronski dokument kao što je ugovor o zapošljavanju. Međutim, ovo nije digitalni potpis u kriptografskom smislu. Potonji je samo dugačak broj koji se može proizvesti samo posedovanjem privatnog ključa.
 
 
-Baš kao u simetričnom ključnom okruženju, možete koristiti i asimetrične šeme za šifrovanje i autentifikaciju zajedno. Slični principi se primenjuju. Pre svega, trebalo bi koristiti različite parove privatnih-javnih ključeva za šifrovanje i pravljenje digitalnih potpisa. Pored toga, prvo bi trebalo šifrovati poruku, a zatim je autentifikovati.
+Baš kao u okruženju sa simetričnim ključem, i u okruženju sa asimetričnim ključem možete zajedno koristiti šeme za šifriranje i autentifikaciju. Slični principi se primenjuju. Pre svega, trebalo bi koristiti različite parove privatnih-javnih ključeva za šifrovanje i pravljenje digitalnih potpisa. Pored toga, prvo bi trebalo šifrovati poruku, a zatim je autentifikovati.
 
 
-Važno je napomenuti da se u mnogim aplikacijama asimetrična kriptografija ne koristi tokom celog procesa komunikacije. Umesto toga, obično će se koristiti samo za *Exchange simetrične ključeve* između strana putem kojih će zapravo komunicirati.
+Važno je napomenuti da se u mnogim aplikacijama asimetrična kriptografija ne koristi tokom celog procesa komunikacije. Umesto toga, obično će se koristiti samo za *razmenu simetričnih ključeva* između strana putem kojih će zapravo komunicirati.
 
 
-Ovo je slučaj, na primer, kada kupujete robu putem interneta. Znajući javni ključ prodavca, ona vam može poslati digitalno potpisane poruke koje možete verifikovati radi njihove autentičnosti. Na osnovu toga, možete slediti jedan od više protokola za razmenu simetričnih ključeva kako biste bezbedno komunicirali.
+Ovo je slučaj, na primer, kada kupujete odeću putem interneta. Znajući javni ključ prodavca, ona vam može poslati digitalno potpisane poruke koje možete verifikovati radi njihove autentičnosti. Na osnovu toga, možete slediti jedan od više protokola za razmenu simetričnih ključeva kako biste bezbedno komunicirali.
 
 
 Glavni razlog za učestalost prethodno pomenutog pristupa je taj što je asimetrična kriptografija mnogo manje efikasna od simetrične kriptografije u postizanju određenog nivoa sigurnosti. Ovo je jedan od razloga zašto nam je i dalje potrebna simetrična kriptografija pored javne kriptografije. Pored toga, simetrična kriptografija je mnogo prirodnija u posebnim aplikacijama kao što je korisnik računara koji šifrira sopstvene podatke.
 
 
-Kako tačno digitalni potpisi i enkripcija javnim ključem Address rešavaju probleme distribucije ključeva i upravljanja ključevima?
+Kako tačno digitalni potpisi i enkripcija javnim ključem rešavaju probleme distribucije ključeva i upravljanja ključevima?
 
 
 Ne postoji samo jedan odgovor ovde. Asimetrična kriptografija je alat i ne postoji samo jedan način da se taj alat koristi. Ali hajde da uzmemo naš raniji primer iz Jim's Sporting Goods da pokažemo kako bi se problemi obično rešavali u ovom primeru.
 
 
-Da bi počeo, Jim’s Sporting Goods bi verovatno pristupio **autoritetu za sertifikate**, organizaciji koja podržava distribuciju javnih ključeva. Autoritet za sertifikate bi registrovao neke detalje o Jim’s Sporting Goods i dodelio mu javni ključ. Zatim bi poslao Jim’s Sporting Goods sertifikat, poznat kao **TLS/SSL sertifikat**, sa javnim ključem Jim’s Sporting Goods digitalno potpisanim koristeći sopstveni javni ključ autoriteta za sertifikate. Na ovaj način, autoritet za sertifikate potvrđuje da određeni javni ključ zaista pripada Jim’s Sporting Goods.
+Da bi počeo, Jim’s Sporting Goods bi verovatno pristupio **sertifikacionom telu** (eng. certificate authority CA), organizaciji koja podržava distribuciju javnih ključeva. Sertifikaciono telo bi registrovalo neke detalje o Jim’s Sporting Goods i dodelilo mu javni ključ. CA zatim šalje sertifikat Jim’s Sporting Goods, poznat kao **TLS/SSL sertifikat** koji sadrži njihov javni ključ, digitalno potpisan pomoću privatnog ključa sertifikacionog tela. Na ovaj način, autoritet za sertifikate potvrđuje da određeni javni ključ zaista pripada Jim’s Sporting Goods.
 
 
 Ključ za razumevanje ovog procesa sa TLS/SSL sertifikatima je da, iako generalno nećete imati javni ključ Jim’s Sporting Goods-a sačuvan bilo gde na vašem računaru, javni ključevi priznatih sertifikacionih autoriteta su zaista sačuvani u vašem pregledaču ili u vašem operativnom sistemu. Oni su sačuvani u onome što se zove **root sertifikati**.
@@ -2666,7 +2663,7 @@ Ključ za razumevanje ovog procesa sa TLS/SSL sertifikatima je da, iako generaln
 Dakle, kada vam Jim’s Sporting Goods obezbedi svoj TLS/SSL sertifikat, možete verifikovati digitalni potpis sertifikacionog tela putem root sertifikata u vašem pregledaču ili operativnom sistemu. Ako je potpis validan, možete biti relativno sigurni da javni ključ na sertifikatu zaista pripada Jim’s Sporting Goods. Na ovoj osnovi, lako je uspostaviti protokol za sigurnu komunikaciju sa Jim’s Sporting Goods.
 
 
-Distribucija ključeva sada je postala znatno jednostavnija za Jim’s Sporting Goods. Nije Hard videti da je upravljanje ključevima takođe postalo znatno pojednostavljeno. Umesto da mora da skladišti hiljade ključeva, Jim’s Sporting Goods samo treba da skladišti privatni ključ koji mu omogućava da pravi potpise za javni ključ na svom SSL sertifikatu. Svaki put kada kupac poseti sajt Jim’s Sporting Goods, može uspostaviti sigurnu komunikacionu sesiju putem ovog javnog ključa. Kupci takođe ne moraju da skladište bilo kakve informacije (osim javnih ključeva priznatih sertifikacionih autoriteta u svom operativnom sistemu i pregledaču).
+Distribucija ključeva sada je postala znatno jednostavnija za Jim’s Sporting Goods. Nije teško videti da je upravljanje ključevima takođe postalo znatno pojednostavljeno. Umesto da mora da skladišti hiljade ključeva, Jim’s Sporting Goods samo treba da skladišti privatni ključ koji mu omogućava da pravi potpise za javni ključ na svom SSL sertifikatu. Svaki put kada kupac poseti sajt Jim’s Sporting Goods, može uspostaviti sigurnu komunikacionu sesiju putem ovog javnog ključa. Kupci takođe ne moraju da skladište bilo kakve informacije (osim javnih ključeva priznatih sertifikacionih autoriteta u svom operativnom sistemu i pregledaču).
 
 
 **Beleške:**
@@ -2677,27 +2674,27 @@ Distribucija ključeva sada je postala znatno jednostavnija za Jim’s Sporting 
 
 
 
-## Hash funkcije
+## Heš funkcije
 
 <chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
 
 
-Funkcije Hash su sveprisutne u kriptografiji. One nisu ni simetrične ni asimetrične šeme, već spadaju u kriptografsku kategoriju za sebe.
+Heš funkcije su sveprisutne u kriptografiji. One nisu ni simetrične ni asimetrične šeme, već spadaju u kriptografsku kategoriju za sebe.
 
 
-Već smo naišli na funkcije Hash u Poglavlju 4 prilikom kreiranja poruka za autentifikaciju zasnovanih na Hash. One su takođe važne u kontekstu digitalnih potpisa, ali iz nešto drugačijeg razloga: Digitalni potpisi se naime obično prave preko Hash vrednosti neke (šifrovane) poruke, a ne stvarne (šifrovane) poruke. U ovom delu, ponudiću detaljniji uvod u funkcije Hash.
+Već smo naišli na heš funkcije u Poglavlju 4 prilikom kreiranja poruka za autentifikaciju zasnovanih na heš vrednosti. One su takođe važne u kontekstu digitalnih potpisa, ali iz nešto drugačijeg razloga: digitalni potpisi se naime obično prave preko heš vrednosti neke (šifrovane) poruke, a ne stvarne (šifrovane) poruke. U ovom delu, ponudiću detaljniji uvod u heš funkcije.
 
 
-Hajde da počnemo sa definisanjem Hash funkcije. **Hash funkcija** je bilo koja efikasno izračunljiva funkcija koja prima ulaze proizvoljne veličine i daje izlaze fiksne dužine.
+Hajde da počnemo sa definisanjem heš funkcije. **Heš funkcija** je bilo koja efikasno izračunljiva funkcija koja prima ulaze proizvoljne veličine i daje izlaze fiksne dužine.
 
 
-**kriptografska Hash funkcija** je samo Hash funkcija koja je korisna za primene u kriptografiji. Izlaz kriptografske Hash funkcije se obično naziva **Hash**, **Hash-vrednost**, ili **sažetak poruke**.
+**Kriptografska heš funkcija** je samo heš funkcija koja je korisna za primene u kriptografiji. Izlaz kriptografske heš funkcije se obično naziva **heš**, **heš-vrednost**, ili **sažetak poruke**.
 
 
-U kontekstu kriptografije, "Hash funkcija" se obično odnosi na kriptografsku Hash funkciju. Usvojiću tu praksu od sada nadalje.
+U kontekstu kriptografije, "heš funkcija" se obično odnosi na kriptografsku heš funkciju. Usvojiću tu praksu od sada nadalje.
 
 
-Primer popularne funkcije Hash je **SHA-256** (sigurni Hash algoritam 256). Bez obzira na veličinu ulaza (npr. 15 bita, 100 bita, ili 10,000 bita), ova funkcija će dati 256-bitnu Hash vrednost. Ispod možete videti nekoliko primera izlaza funkcije SHA-256.
+Primer popularne heš funkcije je **SHA-256** (sigurni heš algoritam 256). Bez obzira na veličinu ulaza (npr. 15 bita, 100 bita, ili 10,000 bita), ova funkcija će dati 256-bitnu heš vrednost. Ispod možete videti nekoliko primera izlaza funkcije SHA-256.
 
 
 „Hello“: `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
@@ -2712,7 +2709,7 @@ Primer popularne funkcije Hash je **SHA-256** (sigurni Hash algoritam 256). Bez 
 Svi izlazi su tačno 256 bita zapisani u heksadecimalnom formatu (svaka heksadecimalna cifra može biti predstavljena sa četiri binarna broja). Dakle, čak i da ste ubacili Tolkinovu knjigu *Gospodar prstenova* u SHA-256 funkciju, izlaz bi i dalje bio 256 bita.
 
 
-Funkcije Hash kao što je SHA-256 koriste se u razne svrhe u kriptografiji. Koja svojstva su potrebna od funkcije Hash zaista zavisi od konteksta određene primene. Postoje dva glavna svojstva koja se generalno žele od funkcija Hash u kriptografiji: [6]
+Heš funkcija kao što je SHA-256 koriste se u razne svrhe u kriptografiji. Koja svojstva su potrebna od heš funkcije zaista zavisi od konteksta određene primene. Postoje dva glavna svojstva koja se generalno žele od heš funkcija u kriptografiji: [6]
 
 
 1.	Otpornost na sudar
@@ -2720,26 +2717,26 @@ Funkcije Hash kao što je SHA-256 koriste se u razne svrhe u kriptografiji. Koja
 2.	Skrivanje
 
 
-Funkcija $H$ tipa Hash se smatra **otporna na sudare** ako je neizvodljivo pronaći dve vrednosti, $x$ i $y$, takve da je $x \neq y$, a ipak $H(x) = H(y)$.
+Funkcija $H$ heš tipa se smatra **otporna na sudare** ako je neizvodljivo pronaći dve vrednosti, $x$ i $y$, takve da je $x \neq y$, a ipak $H(x) = H(y)$.
 
 
-Koliziono otporne Hash funkcije su važne, na primer, u verifikaciji softvera. Pretpostavimo da želite da preuzmete Windows izdanje Bitcoin Core 0.21.0 (serverska aplikacija za obradu Bitcoin mrežnog saobraćaja). Glavni koraci koje biste morali preduzeti, kako biste verifikovali legitimnost softvera, su sledeći:
+Koliziono otporne heš funkcije su važne, na primer, u verifikaciji softvera. Pretpostavimo da želite da preuzmete Windows izdanje Bitcoin Core 0.21.0 (serverska aplikacija za obradu Bitcoin mrežnog saobraćaja). Glavni koraci koje biste morali preduzeti, kako biste verifikovali legitimnost softvera, su sledeći:
 
 
-1.	Prvo treba da preuzmete i uvezete javne ključeve jednog ili više saradnika Bitcoin Core u softver koji može da verifikuje digitalne potpise (npr. Kleopetra). Te javne ključeve možete pronaći [ovde](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Preporučuje se da verifikujete Bitcoin Core softver sa javnim ključevima od više saradnika.
+1.	Prvo treba da preuzmete i uvezete javne ključeve jednog ili više saradnika Bitcoin Core-a u softver koji može da verifikuje digitalne potpise (npr. Kleopetra). Te javne ključeve možete pronaći [ovde](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Preporučuje se da verifikujete Bitcoin Core softver sa javnim ključevima od više saradnika.
 
-2.	Zatim, treba da verifikujete javne ključeve koje ste uvezli. Barem jedan korak koji treba da preduzmete je da proverite da li su javni ključevi koje ste pronašli isti kao oni objavljeni na raznim drugim mestima. Na primer, možete konsultovati lične veb stranice, Twitter stranice ili Github stranice osoba čije ste javne ključeve uvezli. Tipično se ovo poređenje javnih ključeva vrši poređenjem kratkog Hash javnog ključa poznatog kao otisak prsta.
+2.	Zatim, treba da verifikujete javne ključeve koje ste uvezli. Barem jedan korak koji treba da preduzmete je da proverite da li su javni ključevi koje ste pronašli isti kao oni objavljeni na raznim drugim mestima. Na primer, možete konsultovati lične veb stranice, Twitter stranice ili Github stranice osoba čije ste javne ključeve uvezli. Tipično se ovo poređenje javnih ključeva vrši poređenjem kratke heš vrednosti javnog ključa poznatog kao otisak prsta (eng. fingerprint).
 
 3.	Zatim, treba da preuzmete izvršni fajl za Bitcoin Core sa njihove [veb stranice](www.bitcoincore.org). Biće dostupni paketi za Linux, Windows i MAC operativne sisteme.
 
-4.	Zatim, morate pronaći dve datoteke izdanja. Prva sadrži zvanični SHA-256 Hash za izvršni fajl koji ste preuzeli zajedno sa hešovima svih ostalih paketa koji su objavljeni. Druga datoteka izdanja će sadržati potpise raznih saradnika preko datoteke izdanja sa hešovima paketa. Obe ove datoteke izdanja treba da se nalaze na Bitcoin Core vebsajtu.
+4.	Zatim, morate pronaći dve objavljene datoteke određenog izdanja. Prva sadrži zvanični SHA-256 heš vrednost za izvršni fajl koji ste preuzeli zajedno sa hešovima svih ostalih paketa koji su objavljeni. Još jedna datoteka izdanja sadržaće potpise različitih saradnika kojima je potpisana datoteka izdanja sa heš vrednostima paketa. Obe ove datoteke izdanja treba da se nalaze na Bitcoin Core vebsajtu.
 
-5.	 Next, you would need to calculate the SHA-256 Hash of the executable you downloaded from the Bitcoin Core website on your own computer. You, then, compare this result with that for the official package Hash for the executable. They should be the same.
+5.	 Zatim treba da izračunate SHA-256 heš vrednost izvršne datoteke koju ste preuzeli sa veb-sajta Bitcoin Core-a na svom računaru. Nakon toga uporedite taj rezultat sa zvaničnim hešom paketa za izvršnu datoteku. Vrednosti bi trebalo da budu iste.
+   
+7.	Konačno, morali biste da verifikujete da jedan ili više digitalnih potpisa nad datotekom izdanja sa zvaničnim hešovima paketa zaista odgovara jednom ili više javnih ključeva koje ste uvezli (izdanja Bitcoin Core nisu uvek potpisana od strane svih). To možete učiniti pomoću aplikacije kao što je Kleopetra.
 
-6.	Konačno, morali biste da verifikujete da jedan ili više digitalnih potpisa nad datotekom izdanja sa zvaničnim hešovima paketa zaista odgovara jednom ili više javnih ključeva koje ste uvezli (izdanja Bitcoin Core nisu uvek potpisana od strane svih). To možete učiniti pomoću aplikacije kao što je Kleopetra.
 
-
-Ovaj proces verifikacije softvera ima dve glavne prednosti. Prvo, osigurava da nije bilo grešaka u prenosu prilikom preuzimanja sa vebsajta Bitcoin Core. Drugo, osigurava da vas nijedan napadač nije mogao navesti da preuzmete izmenjeni, zlonamerni kod, bilo hakovanjem vebsajta Bitcoin Core ili presretanjem saobraćaja.
+Ovaj proces verifikacije softvera ima dve glavne prednosti. Prvo, osigurava da nije bilo grešaka u prenosu prilikom preuzimanja sa Bitcoin Core vebsajta. Drugo, osigurava da vas nijedan napadač nije mogao navesti da preuzmete izmenjeni, zlonamerni kod, bilo hakovanjem Bitcoin Core vebsajta ili presretanjem saobraćaja.
 
 
 Kako tačno proces verifikacije softvera gore štiti od ovih problema?
@@ -2748,10 +2745,10 @@ Kako tačno proces verifikacije softvera gore štiti od ovih problema?
 Ako ste marljivo verifikovali javne ključeve koje ste uvezli, onda možete biti prilično sigurni da su ovi ključevi zaista njihovi i da nisu kompromitovani. S obzirom na to da digitalni potpisi imaju egzistencijalnu nekrivotvorivost, znate da su samo ovi saradnici mogli napraviti digitalni potpis preko zvaničnih heševa paketa na fajlu izdanja.
 
 
-Pretpostavimo da su potpisi na datoteci za izdanje koju ste preuzeli ispravni. Sada možete uporediti Hash vrednost koju ste lokalno izračunali za Windows izvršnu datoteku koju ste preuzeli sa onom koja je uključena u pravilno potpisanu datoteku za izdanje. Kao što znate, SHA-256 Hash funkcija je otporna na kolizije, podudaranje znači da je vaša izvršna datoteka tačno ista kao zvanična izvršna datoteka.
+Pretpostavimo da su potpisi na datoteci za izdanje koju ste preuzeli ispravni. Sada možete uporediti heš vrednost koju ste lokalno izračunali za Windows izvršnu datoteku koju ste preuzeli sa onom koja je uključena u pravilno potpisanu datoteku za izdanje. Kao što znate, SHA-256 heš funkcija je otporna na kolizije, podudaranje znači da je vaša izvršna datoteka tačno ista kao zvanična izvršna datoteka.
 
 
-Sada se osvrnimo na drugo zajedničko svojstvo Hash funkcija: **skrivanje**. Za bilo koju Hash funkciju $H$ se kaže da ima svojstvo skrivanja ako, za bilo koji nasumično odabrani $x$ iz veoma velikog opsega, nije izvodljivo pronaći $x$ kada je dat samo $H(x)$.
+Sada se osvrnimo na drugo zajedničko svojstvo heš funkcija: **skrivanje**. Za bilo koju heš funkciju $H$ se kaže da ima svojstvo skrivanja ako, za bilo koji nasumično odabrani $x$ iz veoma velikog opsega, nije izvodljivo pronaći $x$ kada je dat samo $H(x)$.
 
 
 Ispod možete videti SHA-256 izlaz poruke koju sam napisao. Da bi se osigurala dovoljna nasumičnost, poruka je uključivala nasumično generisan niz karaktera na kraju. S obzirom na to da SHA-256 ima svojstvo skrivanja, niko ne bi mogao da dešifruje ovu poruku.
@@ -2761,23 +2758,23 @@ Ispod možete videti SHA-256 izlaz poruke koju sam napisao. Da bi se osigurala d
 - `b194221b37fa4cd1cfce15aaef90351d70de17a98ee6225088b523b586c32ded`
 
 
-Ali neću vas držati u neizvesnosti dok SHA-256 ne postane slabiji. Originalna poruka koju sam napisao bila je sledeća:
+Ali neću vas držati u neizvesnosti dok SHA-256 ne oslabi. Originalna poruka koju sam napisao bila je sledeća:
 
 
 
 - "Ovo je veoma nasumična poruka, ili pa donekle nasumična. Ovaj početni deo nije, ali ću završiti sa nekim relativno nasumičnim karakterima kako bih osigurao veoma nepredvidivu poruku. XLWz4dVG3BxUWm7zQ9qS".
 
 
-Uobičajen način na koji se funkcije Hash sa svojstvom skrivanja koriste jeste u upravljanju lozinkama (otpornost na koliziju je takođe važna za ovu primenu). Bilo koja pristojna onlajn usluga zasnovana na nalogu, kao što su Facebook ili Google, neće direktno čuvati vaše lozinke za upravljanje pristupom vašem nalogu. Umesto toga, oni će čuvati samo Hash te lozinke. Svaki put kada unesete svoju lozinku u pregledač, prvo se izračunava Hash. Samo taj Hash se šalje serveru provajdera usluge i poredi sa Hash koji je sačuvan u bazi podataka u pozadini. Svojstvo skrivanja može pomoći da se osigura da napadači ne mogu povratiti lozinku iz vrednosti Hash.
+Uobičajen način na koji se heš funkcije sa svojstvom skrivanja koriste jeste u upravljanju lozinkama (otpornost na koliziju je takođe važna za ovu primenu). Bilo koja pristojna onlajn usluga zasnovana na nalogu, kao što su Facebook ili Google, neće direktno čuvati vaše lozinke za upravljanje pristupom vašem nalogu. Umesto toga, oni će čuvati samo heš vrednost te lozinke. Svaki put kada unesete svoju lozinku u pregledač, prvo se izračunava heš. Samo taj heš se šalje serveru provajdera usluge i poredi sa hešom koji je sačuvan u bazi podataka u pozadini. Svojstvo skrivanja može pomoći da se osigura da napadači ne mogu povratiti lozinku iz heš vrednosti.
 
 
-Upravljanje lozinkama putem hešova, naravno, funkcioniše samo ako korisnici zaista biraju teške lozinke. Svojstvo skrivanja pretpostavlja da je x izabran nasumično iz veoma velikog opsega. Biranje lozinki kao što su "1234", "mojalozinka" ili vaš datum rođenja neće pružiti nikakvu stvarnu sigurnost. Postoje dugačke liste uobičajenih lozinki i njihovih hešova koje napadači mogu iskoristiti ako ikada dobiju Hash vaše lozinke. Ove vrste napada su poznate kao **napadi rečnikom**. Ako napadači znaju neke od vaših ličnih podataka, mogli bi takođe pokušati sa informisanim pretpostavkama. Stoga, uvek su vam potrebne duge, sigurne lozinke (po mogućstvu dugi, nasumični nizovi iz menadžera lozinki).
+Upravljanje lozinkama putem hešova, naravno, funkcioniše samo ako korisnici zaista biraju teške lozinke. Svojstvo skrivanja pretpostavlja da je x izabran nasumično iz veoma velikog opsega. Biranje lozinki kao što su "1234", "mojalozinka" ili vaš datum rođenja neće pružiti nikakvu stvarnu sigurnost. Postoje dugačke liste uobičajenih lozinki i njihovih hešova koje napadači mogu iskoristiti ako ikada dobiju heš vrednost vaše lozinke. Ove vrste napada su poznate kao **napadi rečnikom**. Ako napadači znaju neke od vaših ličnih podataka, mogli bi takođe pokušati sa informisanim pretpostavkama. Stoga, uvek su vam potrebne duge, sigurne lozinke (po mogućstvu dugi, nasumični nizovi iz menadžera lozinki).
 
 
-Ponekad aplikaciji može biti potrebna Hash funkcija koja ima i otpornost na koliziju i skrivanje. Ali svakako ne uvek. Proces verifikacije softvera o kojem smo diskutovali, na primer, zahteva samo da Hash funkcija pokazuje otpornost na koliziju, skrivanje nije važno.
+Ponekad aplikaciji može biti potrebna heš funkcija koja ima i otpornost na koliziju i skrivanje. Ali svakako ne uvek. Proces verifikacije softvera o kojem smo diskutovali, na primer, zahteva samo da heš funkcija pokazuje otpornost na koliziju, skrivanje nije važno.
 
 
-Iako su otpornost na koliziju i skrivanje glavna svojstva koja se traže kod Hash funkcija u kriptografiji, u određenim aplikacijama mogu biti poželjne i druge vrste svojstava.
+Iako su otpornost na koliziju i skrivanje glavna svojstva koja se traže kod heš funkcija u kriptografiji, u određenim aplikacijama mogu biti poželjne i druge vrste svojstava.
 
 
 
@@ -2800,7 +2797,7 @@ Iako su otpornost na koliziju i skrivanje glavna svojstva koja se traže kod Has
 <chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
 
 
-Iako je simetrična kriptografija obično prilično intuitivna za većinu ljudi, to obično nije slučaj sa asimetričnom kriptografijom. Iako ste verovatno zadovoljni opisom na visokom nivou datim u prethodnim odeljcima, verovatno se pitate šta su tačno jednousmerne funkcije i kako se tačno koriste za konstruisanje asimetričnih šema.
+Iako je simetrična kriptografija obično prilično intuitivna za većinu ljudi, to obično nije slučaj sa asimetričnom kriptografijom. Iako ste verovatno zadovoljni opisom na visokom nivou datim u prethodnim odeljcima, verovatno se pitate šta su tačno jednosmerne funkcije i kako se tačno koriste za konstruisanje asimetričnih šema.
 
 
 U ovom poglavlju, ukloniću deo misterije oko asimetrične kriptografije, detaljnijim proučavanjem specifičnog primera, naime RSA kriptosistema. U prvom delu, predstaviću problem faktorizacije na kojem se zasniva RSA problem. Zatim ću pokriti niz ključnih rezultata iz teorije brojeva. U poslednjem delu, spojićemo ove informacije kako bismo objasnili RSA problem i kako se to može koristiti za kreiranje asimetričnih kriptografskih šema.
@@ -2825,7 +2822,7 @@ Pre oko 2.500 godina, grčki matematičar Euklid iz Aleksandrije otkrio je klju�
 **Teorema 1**. Svaki ceo broj $N$ koji je veći od 1 je ili prost broj, ili se može izraziti kao proizvod prostih činilaca.
 
 
-Sav ovaj poslednji deo izjave znači da možete uzeti bilo koji složeni broj $N$ veći od 1 i zapisati ga kao proizvod prostih brojeva. Ispod su navedeni neki primeri složenih brojeva zapisanih kao proizvod prostih činilaca.
+Sav završni deo ove izjave znači da možete uzeti bilo koji složeni broj $N$ veći od 1 i zapisati ga kao proizvod prostih brojeva. Ispod su navedeni neki primeri složenih brojeva zapisanih kao proizvod prostih činilaca.
 
 
 
@@ -2894,7 +2891,7 @@ Pretpostavimo da date računaru samo $N$, i zatražite od njega da pronađe dva 
 Za početak, pretpostavimo da računar pokušava da reši problem prolazeći kroz 1024-bitne brojeve, testirajući u svakom slučaju da li su prosti i da li su faktori od $N$. Skup prostih brojeva koji treba testirati je tada približno $1.265 \cdot 10^{305}$. [2]
 
 
-Čak i ako uzmete sve računare na planeti i pokušate da pronađete i testirate 1024-bitne proste brojeve na ovaj način, šansa od 1 prema milijardu da uspešno pronađete prosti faktor od $N$ zahtevala bi period računanja mnogo duži od starosti Univerzuma.
+Čak i ako uzmete sve računare na planeti i pokušate da pronađete i testirate 1024-bitne proste brojeve na ovaj način, šansa od 1 prema milijardu da uspešno pronađete prosti faktor od $N$ zahtevala bi period računanja mnogo duži od starosti univerzuma.
 
 
 Sada u praksi računar može bolje da obavi posao od grube procedure upravo opisane. Postoji nekoliko algoritama koje računar može primeniti kako bi brže došao do faktorizacije. Poenta je, međutim, da čak i korišćenjem ovih efikasnijih algoritama, zadatak računara je i dalje računarski neizvodljiv. [3]
@@ -2903,7 +2900,7 @@ Sada u praksi računar može bolje da obavi posao od grube procedure upravo opis
 Važno je napomenuti da se težina faktorizacije pod upravo opisanim uslovima oslanja na pretpostavku da ne postoje računarski efikasni algoritmi za izračunavanje prostih faktora. Ne možemo zapravo dokazati da efikasan algoritam ne postoji. Ipak, ova pretpostavka je vrlo verovatna: uprkos opsežnim naporima koji traju stotinama godina, još uvek nismo pronašli takav računarski efikasan algoritam.
 
 
-Stoga, problem faktorizacije, pod određenim okolnostima, može se verovatno smatrati Hard problemom. Konkretno, kada su $p$ i $q$ veoma veliki prosti brojevi, njihov proizvod $N$ nije teško izračunati; ali faktorizacija samo uz dato $N$ je praktično nemoguća.
+Stoga, problem faktorizacije, pod određenim okolnostima, može se verovatno smatrati računarski teškim problemom. Konkretno, kada su $p$ i $q$ veoma veliki prosti brojevi, njihov proizvod $N$ nije teško izračunati; ali faktorizacija samo uz dato $N$ je praktično nemoguća.
 
 
 
@@ -2922,7 +2919,7 @@ $$ \frac{2^{1024}}{\LN(2^{1024})} - \frac{2^{1023}}{\LN(2^{1023})} $$
 ...što je približno jednako $1.265 \times 10^{305}$.
 
 
-[3] Isto je tačno za probleme diskretnih logaritama. Dakle, zašto asimetrične konstrukcije rade sa mnogo većim ključevima nego simetrične kriptografske konstrukcije.
+[3] Isto je tačno za probleme diskretnih logaritama. Zato asimetrične konstrukcije funkcionišu sa mnogo većim ključevima nego simetrične kriptografske konstrukcije.
 
 
 
@@ -2942,10 +2939,10 @@ Neki od materijala u tri pododeljka već su predstavljeni u *Poglavlju 3*. Ali �
 
 
 
-### Redosled N
+### Red N
 
 
-Ceo broj $a$ je **relativno prost** ili **kopriman** sa celim brojem $N$, ako je njihov najveći zajednički delilac 1. Iako 1 po konvenciji nije prost broj, ona je kopriman broj sa svakim celim brojem (kao i $-1$).
+Ceo broj $a$ je **relativno prost** ili **kopriman (uzajmno prost)** sa celim brojem $N$, ako je njihov najveći zajednički delilac 1. Iako 1 po konvenciji nije prost broj, on je uzajmno prost broj sa svakim celim brojem (kao i $-1$).
 
 
 Na primer, razmotrite slučaj kada je $a = 18$ i $N = 37$. Ovi brojevi su očigledno međusobno prosti. Najveći ceo broj koji deli i 18 i 37 je 1. Nasuprot tome, razmotrite slučaj kada je $a = 42$ i $N = 16$. Ovi brojevi očigledno nisu međusobno prosti. Obe brojeve deli 2, što je veće od 1.
@@ -2954,10 +2951,10 @@ Na primer, razmotrite slučaj kada je $a = 18$ i $N = 37$. Ovi brojevi su očigl
 Sada možemo definisati red $N$ na sledeći način. Pretpostavimo da je $N$ ceo broj veći od 1. **Red broja N** je, dakle, broj svih brojeva koji su uzajamno prosti sa $N$ tako da za svaki uzajamno prost broj $a$, važi sledeći uslov: $1 \leq a < N$.
 
 
-Na primer, ako je $N = 12$, onda su 1, 5, 7 i 11 jedini koprimerni brojevi koji ispunjavaju gore navedeni uslov. Dakle, red 12 je jednak 4.
+Na primer, ako je $N = 12$, onda su 1, 5, 7 i 11 jedini uzajmno prosti brojevi koji ispunjavaju gore navedeni uslov. Dakle, red 12 je jednak 4.
 
 
-Pretpostavimo da je $N$ prost broj. Tada je svaki ceo broj manji od $N$, ali veći ili jednak 1, relativno prost sa njim. Ovo uključuje sve Elements u sledećem skupu: $\{1,2,3,....,N - 1\}$. Dakle, kada je $N$ prost, red $N$ je $N - 1$. Ovo je navedeno u propoziciji 1, gde $\phi(N)$ označava red $N$.
+Pretpostavimo da je $N$ prost broj. Tada je svaki ceo broj manji od $N$, ali veći ili jednak 1, relativno prost sa njim. Ovo uključuje sve elemente u sledećem skupu: $\{1,2,3,....,N - 1\}$. Dakle, kada je $N$ prost, red $N$ je $N - 1$. Ovo je navedeno u propoziciji 1, gde $\phi(N)$ označava red $N$.
 
 
 **Proposition 1**. $\phi(N) = N - 1$ kada je $N$ prost
@@ -2972,10 +2969,10 @@ Pretpostavimo da $N$ nije prost. Tada možete izračunati njegov red koristeći 
 $$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
 
-**Theorem 2** pokazuje da kada razložite bilo koji složeni broj $N$ na njegove različite proste faktore, lako je izračunati redosled $N$.
+**Teorema 2** pokazuje da kada razložite bilo koji složeni broj $N$ na njegove različite proste faktore, lako je izračunati redosled $N$.
 
 
-Na primer, pretpostavimo da je $N = 270$. Ovo očigledno nije prost broj. Razlaganje $N$ na njegove proste faktore daje izraz: $2 \cdot 3^3 \cdot 5$. Prema Ojlerovoj Fi funkciji, redosled $N$ je zatim sledeći:
+Na primer, pretpostavimo da je $N = 270$. Ovo očigledno nije prost broj. Razlaganje $N$ na njegove proste faktore daje izraz: $2 \cdot 3^3 \cdot 5$. Prema Eulerovoj Fi funkciji, redosled $N$ je zatim sledeći:
 
 
 $$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23$$
@@ -2990,10 +2987,10 @@ $$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$
 Ovo je ključni rezultat posebno za RSA problem, i naveden je u **Propoziciji 2** ispod.
 
 
-**Proposition 2**. Ako je $N$ proizvod dva prosta broja, $p$ i $q$, red $N$ je proizvod $(p - 1) \cdot (q - 1)$.
+**Propozicija 2**. Ako je $N$ proizvod dva prosta broja, $p$ i $q$, red $N$ je proizvod $(p - 1) \cdot (q - 1)$.
 
 
-Na primer, pretpostavimo da je $N = 119$. Ovaj ceo broj može se rastaviti na dva prosta broja, naime 7 i 17. Dakle, Ojlerova Fi funkcija sugeriše da je redosled od 119 sledeći:
+Na primer, pretpostavimo da je $N = 119$. Ovaj ceo broj može se rastaviti na dva prosta broja, naime 7 i 17. Dakle, Eulerova Fi funkcija sugeriše da je redosled od 119 sledeći:
 
 
 $$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
@@ -3002,7 +2999,7 @@ $$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 Drugim rečima, ceo broj 119 ima 96 međusobno prostih brojeva u opsegu od 1 do 119. Zapravo, ovaj skup uključuje sve cele brojeve od 1 do 119, koji nisu deljivi sa 7 ili 17.
 
 
-Od sada, označimo skup međusobno prostih brojeva koji određuju redosled $N$ kao $C_N$. Za naš primer gde je $N = 119$, skup $C_{119}$ je previše veliki da bismo ga potpuno naveli. Ali neki od Elements su sledeći:
+Od sada, označimo skup međusobno prostih brojeva koji određuju redosled $N$ kao $C_N$. Za naš primer gde je $N = 119$, skup $C_{119}$ je previše veliki da bismo ga potpuno naveli. Ali neki od elemenata su sledeći:
 
 
 $$C_{119} = \{1, 2, \dots 6, 8 \dots 13, 15, 16, 18, \dots 33, 35 \dots 96\}$$
@@ -3025,7 +3022,7 @@ Pretpostavimo, na primer, da je $a = 5$ i $N = 11$. Postoji mnogo celih brojeva 
 Iako 5 ima mnogo inverza u redukciji modulo 11, možete pokazati da postoji samo jedan pozitivan inverz od 5 koji je manji od 11. Zapravo, ovo nije jedinstveno za naš konkretan primer, već je opšti rezultat.
 
 
-**Proposition 3**. Ako je ceo broj $a$ invertibilan modulo $N$, mora biti slučaj da tačno jedan pozitivan inverz od $a$ je manji od $N$. (Dakle, ovaj jedinstveni inverz od $a$ mora dolaziti iz skupa $\{1, \dots, N - 1\}$).
+**Propozicija 3**. Ako je ceo broj $a$ invertibilan modulo $N$, mora biti slučaj da tačno jedan pozitivan inverz od $a$ je manji od $N$. (Dakle, ovaj jedinstveni inverz od $a$ mora dolaziti iz skupa $\{1, \dots, N - 1\}$).
 
 
 Neka označimo jedinstveni inverz od $a$ iz **Propozicije 3** kao $a^{-1}$. Za slučaj kada je $a = 5$ i $N = 11$, možete videti da je $a^{-1} = 9$, s obzirom da $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$.
@@ -3040,7 +3037,7 @@ Nije nužno da inverz od $a$ postoji u redukciji modulo $N$. Pretpostavimo, na p
 Kako tačno znamo da li neki ceo broj $a$ ima inverz za dati $N$? Kao što ste možda primetili u gornjem primeru, najveći zajednički delilac između 2 i 8 je veći od 1, tačnije 2. I ovo je zapravo ilustrativno za sledeći opšti rezultat:
 
 
-**Proposition 4**. Inverz postoji za ceo broj $a$ dat redukcijom modulo $N$, i specifično jedinstven pozitivan inverz manji od $N$, ako i samo ako je najveći zajednički delilac između $a$ i $N$ jednak 1 (to jest, ako su međusobno prosti).
+**Propozicija 4**. Inverz postoji za ceo broj $a$ dat redukcijom modulo $N$, i specifično jedinstven pozitivan inverz manji od $N$, ako i samo ako je najveći zajednički delilac između $a$ i $N$ jednak 1 (to jest, ako su međusobno prosti).
 
 
 Za slučaj kada je $a = 5$ i $N = 11$, zaključili smo da je $a^{-1} = 9$, s obzirom na to da $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$. Važno je napomenuti da je i obrnuto tačno. To jest, kada je $a = 9$ i $N = 11$, važi da je $a^{-1} = 5$.
@@ -3050,7 +3047,7 @@ Za slučaj kada je $a = 5$ i $N = 11$, zaključili smo da je $a^{-1} = 9$, s obz
 ### Eulerova teorema
 
 
-Pre nego što pređemo na RSA problem, moramo razumeti još jedan ključni teorem, naime **Eulerov teorem**. On kaže sledeće:
+Pre nego što pređemo na RSA problem, moramo razumeti još jednu ključnu teoremu, naime **Eulerov teorema**. On kaže sledeće:
 
 
 **Teorema 3**. Pretpostavimo da su dva cela broja $a$ i $N$ međusobno prosti. Tada, $a^{\phi(N)} \mod N = 1 \mod N$.
@@ -3072,16 +3069,16 @@ Ono što sada kaže Eulerova teorema je da $5^6 \mod 7$ mora biti jednako $1 \mo
 Ceo broj 7 deli se u 15,624 ukupno 2,233 puta. Dakle, ostatak pri deljenju 16,625 sa 7 je 1.
 
 
-Dalje, koristeći Ojlerovu funkciju Fi, **Teorema 2**, možete izvesti **Propoziciju 5** ispod.
+Dalje, koristeći Eulerov funkciju Fi, **Teorema 2**, možete izvesti **Propoziciju 5** ispod.
 
 
-**Proposition 5**. $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$ za bilo koje pozitivne cele brojeve $a$ i $b$.
+**Propozicija 5**. $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$ za bilo koje pozitivne cele brojeve $a$ i $b$.
 
 
 Nećemo pokazati zašto je to slučaj. Ali samo napominjemo da ste već videli dokaz ove tvrdnje činjenicom da je $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ kada su $p$ i $q$ prosti brojevi, kao što je navedeno u **Propoziciji 2**.
 
 
-Eulerova teorema u vezi sa **Propozicijom 5** ima važne implikacije. Pogledajte šta se dešava, na primer, u izrazima ispod, gde su $a$ i $N$ međusobno prosti.
+Eulerova teorema zajedno sa **Propozicijom 5** ima važne implikacije. Pogledajte šta se dešava, na primer, u izrazima ispod, gde su $a$ i $N$ međusobno prosti.
 
 
 
@@ -3093,13 +3090,13 @@ Eulerova teorema u vezi sa **Propozicijom 5** ima važne implikacije. Pogledajte
 Stoga, kombinacija Eulerove teoreme i **Propozicije 5** omogućava nam jednostavno izračunavanje niza izraza. Uopšteno, možemo sažeti uvid kao u **Propoziciji 6**.
 
 
-**Proposition 6**. $a^x \mod N = a^{x \mod \phi(N)}$
+**Propozicija 6**. $a^x \mod N = a^{x \mod \phi(N)}$
 
 
 Sada moramo sve sastaviti u složenom poslednjem koraku.
 
 
-Baš kao što $N$ ima red $\phi(N)$ koji uključuje Elements skupa $C_N$, znamo da ceo broj $\phi(N)$ takođe mora imati red i skup međusobno prostih brojeva. Neka je $\phi(N) = R$. Tada znamo da postoji i vrednost za $\phi(R)$ i skup međusobno prostih brojeva $C_R$.
+Baš kao što $N$ ima red $\phi(N)$ koji uključuje elemente skupa $C_N$, znamo da ceo broj $\phi(N)$ takođe mora imati red i skup međusobno prostih brojeva. Neka je $\phi(N) = R$. Tada znamo da postoji i vrednost za $\phi(R)$ i skup međusobno prostih brojeva $C_R$.
 
 
 Pretpostavimo da sada biramo ceo broj $e$ iz skupa $C_R$. Znamo iz **Propozicije 3** da ovaj ceo broj $e$ ima samo jedan jedinstven pozitivan inverz manji od $R$. To jest, $e$ ima jedan jedinstven inverz iz skupa $C_R$. Nazovimo taj inverz $d$. S obzirom na definiciju inverza, to znači da je $e \cdot d = 1 \mod R$.
@@ -3108,7 +3105,7 @@ Pretpostavimo da sada biramo ceo broj $e$ iz skupa $C_R$. Znamo iz **Propozicije
 Možemo koristiti ovaj rezultat da bismo dali izjavu o našem originalnom celom broju $N$. Ovo je sažeto u **Propoziciji 7**.
 
 
-**Proposition 7**. Suppose that $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Then for any element $a$ of the set $C_N$ it must be the case that $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
+**Propozicija 7**. Pretpostavimo da $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Onda za svaki element $a$ skupa $C_N$ mora biti slučaj da $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
 
 
 Sada imamo sve rezultate teorije brojeva potrebne da jasno formulišemo RSA problem.
@@ -3120,10 +3117,10 @@ Sada imamo sve rezultate teorije brojeva potrebne da jasno formulišemo RSA prob
 <chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
 
 
-Sada smo spremni da navedemo RSA problem. Pretpostavimo da kreirate skup promenljivih koji se sastoji od $p$, $q$, $N$, $\phi(N)$, $e$, $d$, i $y$. Nazovite ovaj skup $\Pi$. Kreira se na sledeći način:
+Sada smo spremni da formulišemo RSA problem. Pretpostavimo da kreirate skup promenljivih koji se sastoji od $p$, $q$, $N$, $\phi(N)$, $e$, $d$, i $y$. Nazovite ovaj skup $\Pi$. Kreira se na sledeći način:
 
 
-1. generate dva nasumična prosta broja $p$ i $q$ jednake veličine i izračunaj njihov proizvod $N$.
+1. Generišite dva nasumična prosta broja $p$ i $q$ jednake veličine i izračunaj njihov proizvod $N$.
 
 2. Izračunajte red $N$, $\phi(N)$, pomoću sledećeg proizvoda: $(p - 1) \cdot (q - 1)$.
 
@@ -3134,7 +3131,7 @@ Sada smo spremni da navedemo RSA problem. Pretpostavimo da kreirate skup promenl
 5. Izaberite nasumičnu vrednost $y$ koja je manja i uzajamno prosta sa $N$.
 
 
-RSA problem se sastoji u pronalaženju $x$ takvog da je $x^e = y$, dok je dat samo podskup informacija u vezi sa $\Pi$, naime promenljive $N$, $e$ i $y$. Kada su $p$ i $q$ veoma veliki, obično se preporučuje da budu veličine 1024 bita, smatra se da je RSA problem Hard. Sada možete videti zašto je to slučaj s obzirom na prethodnu diskusiju.
+RSA problem se sastoji u pronalaženju $x$ takvog da je $x^e = y$, dok je dat samo podskup informacija u vezi sa $\Pi$, naime promenljive $N$, $e$ i $y$. Kada su $p$ i $q$ veoma veliki, obično se preporučuje da budu veličine 1024 bita, smatra se da je RSA problem težak. Sada možete videti zašto je to slučaj s obzirom na prethodnu diskusiju.
 
 
 Jednostavan način za izračunavanje $x$ kada je $x^e \mod N = y \mod N$ je jednostavno izračunavanje $y^d \mod N$. Znamo da je $y^d \mod N = x \mod N$ prema sledećim proračunima:
@@ -3152,13 +3149,13 @@ Međutim, možda ćemo moći indirektno izračunati $d$ iz reda $N$, $\phi(N)$, 
 Konačno, redosled bi mogao biti izračunat indirektno sa prostim faktorima $p$ i $q$, tako da na kraju možemo izračunati $d$. Ali prema pretpostavci, vrednosti $p$ i $q$ takođe nisu bile dostupne nama.
 
 
-Strogo govoreći, čak i ako je problem faktorizacije unutar RSA problema Hard, ne možemo dokazati da je i RSA problem takođe Hard. Naime, mogu postojati i drugi načini za rešavanje RSA problema osim faktorizacije. Međutim, generalno je prihvaćeno i pretpostavlja se da, ako je problem faktorizacije unutar RSA problema Hard, da je i sam RSA problem takođe Hard.
+Strogo govoreći, čak i ako je problem faktorizacije unutar RSA problema računarski težak, ne možemo dokazati da je i RSA problem takođe težak. Naime, mogu postojati i drugi načini za rešavanje RSA problema osim faktorizacije. Međutim, generalno je prihvaćeno i pretpostavlja se da, ako je problem faktorizacije unutar RSA problema težak, da je i sam RSA problem takođe težak.
 
 
-Ako je RSA problem zaista Hard, onda proizvodi jednosmernu funkciju sa zamkom. Funkcija ovde je $f(g) = g^e \mod N$. Sa znanjem o $f(g)$, svako bi lako mogao izračunati vrednost $y$ za određeni $g = x$. Međutim, praktično je nemoguće izračunati određenu vrednost $x$ samo na osnovu poznavanja vrednosti $y$ i funkcije $f(g)$. Izuzetak je kada vam je dat komad informacije $d$, zamka. U tom slučaju, možete jednostavno izračunati $y^d$ da biste dobili $x$.
+Ako je RSA problem zaista težak, onda proizvodi jednosmernu funkciju sa zamkom. Funkcija ovde je $f(g) = g^e \mod N$. Sa znanjem o $f(g)$, svako bi lako mogao izračunati vrednost $y$ za određeni $g = x$. Međutim, praktično je nemoguće izračunati određenu vrednost $x$ samo na osnovu poznavanja vrednosti $y$ i funkcije $f(g)$. Izuzetak je kada vam je dat komad informacije $d$, zamka. U tom slučaju, možete jednostavno izračunati $y^d$ da biste dobili $x$.
 
 
-Hajde da prođemo kroz konkretan primer kako bismo ilustrovali RSA problem. Ne mogu odabrati RSA problem koji bi se smatrao Hard pod gore navedenim uslovima, jer bi brojevi bili nezgrapni. Umesto toga, ovaj primer je samo da ilustruje kako RSA problem generalno funkcioniše.
+Hajde da prođemo kroz konkretan primer kako bismo ilustrovali RSA problem. Ne mogu odabrati RSA problem koji bi se smatrao teškim pod gore navedenim uslovima, jer bi brojevi bili nezgrapni. Umesto toga, ovaj primer je samo da ilustruje kako RSA problem generalno funkcioniše.
 
 
 Za početak, pretpostavimo da izaberete dva nasumična prosta broja 13 i 31. Dakle, $p = 13$ i $q = 31$. Proizvod $N$ ova dva prosta broja je jednak 403. Lako možemo izračunati red 403. On je ekvivalentan $(13 - 1) \cdot (31 - 1) = 360$.
@@ -3167,7 +3164,7 @@ Za početak, pretpostavimo da izaberete dva nasumična prosta broja 13 i 31. Dak
 Zatim, kako je navedeno u koraku 3 RSA problema, treba da izaberemo broj koji je relativno prost sa 360, veći od 2 i manji od 360. Ne moramo nasumično birati ovu vrednost. Pretpostavimo da izaberemo 103. Ovo je broj relativno prost sa 360 jer je njihov najveći zajednički delilac 1.
 
 
-Korak 4 sada zahteva da izračunamo vrednost $d$ takvu da $103 \cdot d \mod 360 = 1$. Ovo nije lak zadatak ručno kada je vrednost za $N$ velika. Zahteva da koristimo proceduru koja se zove **prošireni Euklidov algoritam**.
+Korak 4 sada zahteva da izračunamo vrednost $d$ takvu da $103 \cdot d \mod 360 = 1$. Ovo nije lak zadatak za ručno računanje kada je vrednost za $N$ velika. Zahteva da koristimo proceduru koja se zove **prošireni Euklidov algoritam**.
 
 
 Iako ovde ne prikazujem postupak, on daje vrednost 7 kada je $e = 103$. Možete proveriti da par vrednosti 103 i 7 zaista ispunjava opšti uslov $e \cdot d \mod \phi(n) = 1$ kroz proračune ispod.
@@ -3203,10 +3200,10 @@ Problem je što vam nije pružena informacija da je $d = 7$. Naravno, mogli bist
 Naravno, računar bi i dalje mogao relativno lako rešiti RSA problem za ovaj primer, jer uključeni prosti brojevi nisu veliki. Ali kada prosti brojevi postanu veoma veliki, suočava se sa praktično nemogućim zadatkom.
 
 
-Sada smo predstavili RSA problem, skup uslova pod kojima je to Hard, i osnovnu matematiku. Kako bilo šta od ovoga pomaže sa asimetričnom kriptografijom? Konkretno, kako možemo pretvoriti težinu RSA problema pod određenim uslovima u šemu šifrovanja ili šemu digitalnog potpisa?
+Sada smo predstavili RSA problem, skup uslova pod kojima je on težak, kao i matematiku na kojoj se zasniva. Kako bilo šta od ovoga pomaže sa asimetričnom kriptografijom? Konkretno, kako možemo pretvoriti težinu RSA problema pod određenim uslovima u šemu šifrovanja ili šemu digitalnog potpisa?
 
 
-Jedan pristup je uzeti RSA problem i izgraditi šeme na jednostavan način. Na primer, pretpostavimo da ste generisali skup promenljivih $\Pi$ kao što je opisano u RSA problemu, i osigurajte da su $p$ i $q$ dovoljno veliki. Postavite vaš javni ključ jednako $(N, e)$ i podelite ovu informaciju sa svetom. Kao što je gore opisano, držite vrednosti za $p$, $q$, $\phi(n)$, i $d$ tajnim. U stvari, $d$ je vaš privatni ključ.
+Jedan pristup je uzeti RSA problem i izgraditi šeme na jednostavan način. Na primer, pretpostavimo da ste generisali skup promenljivih $\Pi$ kao što je opisano u RSA problemu, i obezbedili da su $p$ i $q$ dovoljno veliki. Postavite vaš javni ključ jednako $(N, e)$ i podelite ovu informaciju sa svetom. Kao što je gore opisano, držite vrednosti za $p$, $q$, $\phi(n)$, i $d$ tajnim. U stvari, $d$ je vaš privatni ključ.
 
 
 Svako ko želi da vam pošalje poruku $m$ koja je element $C_N$ može je jednostavno enkriptovati na sledeći način: $c = m^e \mod N$. (Šifrat $c$ ovde je ekvivalentan vrednosti $y$ u RSA problemu.) Možete lako dekriptovati ovu poruku jednostavno izračunavanjem $c^d \mod N$.
@@ -3215,13 +3212,13 @@ Svako ko želi da vam pošalje poruku $m$ koja je element $C_N$ može je jednost
 Možda biste pokušali da kreirate šemu digitalnog potpisa na isti način. Pretpostavimo da želite da pošaljete nekome poruku $m$ sa digitalnim potpisom $S$. Mogli biste jednostavno postaviti $S = m^d \mod N$ i poslati par $(m,S)$ primaocu. Svako može verifikovati digitalni potpis samo proverom da li je $S^e \mod N = m \mod N$. Međutim, bilo kojem napadaču bi bilo veoma teško da kreira validan $S$ za poruku, s obzirom na to da ne poseduje $d$.
 
 
-Nažalost, pretvaranje onoga što je samo po sebi Hard problem, RSA problem, u kriptografski šem nije tako jednostavno. Za jednostavnu šemu enkripcije, možete odabrati samo brojeve koji su uzajamno prosti sa $N$ kao vaše poruke. To nam ne ostavlja mnogo mogućih poruka, svakako ne dovoljno za standardnu komunikaciju. Pored toga, ove poruke moraju biti odabrane nasumično. To se čini pomalo nepraktičnim. Konačno, svaka poruka koja je odabrana dva puta će dati potpuno isti šifrat. Ovo je izuzetno nepoželjno u bilo kojoj šemi enkripcije i ne ispunjava nijedan rigorozan moderan standard sigurnosti u enkripciji.
+Nažalost, pretvaranje samog po sebi teškog problema, RSA problema, u kriptografsku šemu nije tako jednostavno. Za jednostavnu šemu enkripcije, možete odabrati samo brojeve koji su uzajamno prosti sa $N$ kao vaše poruke. To nam ne ostavlja mnogo mogućih poruka, svakako ne dovoljno za standardnu komunikaciju. Pored toga, ove poruke moraju biti odabrane nasumično. To se čini pomalo nepraktičnim. Konačno, svaka poruka koja je odabrana dva puta će dati potpuno isti šifrat. Ovo je izuzetno nepoželjno u bilo kojoj šemi enkripcije i ne ispunjava nijedan rigorozan moderan standard sigurnosti u enkripciji.
 
 
-Problemi postaju još gori za naš jednostavan digitalni potpisni sistem. Kako sada stoje stvari, bilo koji napadač može lako falsifikovati digitalne potpise tako što prvo izabere broj koji je relativno prost sa $N$ kao potpis, a zatim izračuna odgovarajuću originalnu poruku. Ovo očigledno narušava zahtev za egzistencijalnom nefalzifikabilnošću.
+Problemi postaju još gori za naš jednostavan digitalni potpisni sistem. Kako sada stoje stvari, bilo koji napadač može lako falsifikovati digitalne potpise tako što prvo izabere broj koji je relativno prost sa $N$ kao potpis, a zatim izračuna odgovarajuću originalnu poruku. Ovo očigledno narušava zahtev egzistencijalne nekrivotvorljivosti.
 
 
-Ipak, dodavanjem malo pametne složenosti, RSA problem se može koristiti za kreiranje sigurnog šema za enkripciju javnim ključem, kao i sigurnog šema za digitalni potpis. Nećemo ulaziti u detalje takvih konstrukcija ovde. [4] Važno je, međutim, da ova dodatna složenost ne menja fundamentalni osnovni RSA problem na kojem se ove šeme zasnivaju.
+Ipak, dodavanjem malo pametne složenosti, RSA problem se može koristiti za kreiranje sigurne šeme za enkripciju javnim ključem, kao i sigurne šeme za digitalni potpis. Nećemo ulaziti u detalje takvih konstrukcija ovde. [4] Važno je, međutim, da ova dodatna složenost ne menja fundamentalni osnovni RSA problem na kojem se ove šeme zasnivaju.
 
 
 

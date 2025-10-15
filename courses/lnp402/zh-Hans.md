@@ -45,10 +45,10 @@ objectives:
 **研讨会日程**
 
 LN托斯卡纳活动的第一周
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 一旦您完成了这个课程，如果您对后续培训感兴趣，这里是日程的第二部分：
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 
@@ -178,3 +178,4 @@ LN托斯卡纳活动的第一周
 
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

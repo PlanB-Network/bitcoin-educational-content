@@ -14,7 +14,7 @@ objectives:
 
 Trong khóa học này, những điều liên quan đến Bitcoin được chia làm 25 chương với những giải thích đơn giản và dễ hiểu, để bạn có thể tiếp cận công nghệ này một cách hiệu quả. Bạn sẽ khám phá toàn bộ những khái niệm căn bản trong lĩnh vực này như việc khai thác Bitcoin, ví, các sàn mua/bán và hơn thế nữa. Sẽ có các tài liệu bổ sung trong suốt hành trình đính kèm với bài kiểm tra "21 Posters" sau khi hoàn thành khóa học này.
 
-Để bắt đầu, bạn không cần phải trang bị bất kỳ kiến thức cụ thể nào. Nội dung của khóa học có thể sử dụng cho mọi người, ở mọi trình độ và ước tính trung bình mất khoảng 15 giờ để hoàn tất.
+Không cần kiến thức trước để bắt đầu khóa học này. BTC 101 được thiết kế để mọi người đều có thể tiếp cận, bất kể trình độ kinh nghiệm của bạn.
 
 +++
 # Phần giới thiệu
@@ -88,7 +88,13 @@ Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở
 
 Điểm mấu chốt ở đây là giúp bạn hiểu được công nghệ mới này một cách tổng thể, vì vậy chúng tôi hy vọng bạn thích khóa học này và liên tục phát huy trong hệ thống tiền tệ toàn cầu mới này.
 
+Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin và hiểu tất cả các hoạt động bên trong của nó chưa? Hãy cùng đi nào!
+
+**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+
 ## Lịch sử của Bitcoin
+
+
 
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

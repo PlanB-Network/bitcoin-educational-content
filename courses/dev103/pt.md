@@ -50,7 +50,7 @@ Os comandos que contêm são escritos na linguagem de programação JavaScript.
 Um tempo de execução do JavaScript é um programa especial que executa estes ficheiros.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### O runtime do NodeJS
@@ -71,7 +71,7 @@ Uma vez que o NodeJS está disponível para os três sistemas operativos, os pro
 Isto significa que pode, por exemplo, escrever um jogo de vídeo simples em JavaScript no seu PC Windows e passá-lo ao seu amigo para o executar no seu Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ false
 - `!` significa "não", é aplicado antes de um booleano e inverte-o: se o booleano for `verdadeiro`, devolverá `falso`, e vice-versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Exemplos:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 A classe `Carro` agora **herda** tudo de `Veículo`. Ela recebe a propriedade `brand`, e nós substituímos o método `start()` pela nossa própria versão.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Vamos experimentar:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ O JavaScript é uma linguagem interpretada, por oposição a linguagens compilad
 O código escrito numa linguagem compilada é transformado em binário, e o binário é enviado diretamente para a CPU do computador.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 As linguagens interpretadas, por outro lado, tendem a ser mais fáceis de utilizar e estão mais próximas da forma como os seres humanos pensam ("alto nível") do que da forma como as máquinas funcionam ("baixo nível"); por isso, normalmente, têm uma máquina virtual construída para executar o seu código.
@@ -5261,7 +5261,7 @@ Porque é que isso é um problema?
 Bem, uma vez que os browsers executam código obtido a partir de milhões de fontes diferentes na Internet, podem facilmente incorrer em malware, pelo que estão "protegidos" do resto do sistema operativo.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 O JavaScript não podia aceder ao sistema de ficheiros e a outros recursos locais do seu computador (pelo menos, não tão facilmente como outras linguagens), pelo que isso constituía uma limitação significativa do tipo de aplicações que podia construir com ele.
@@ -5270,7 +5270,7 @@ O JavaScript não podia aceder ao sistema de ficheiros e a outros recursos locai
 Em 2009, Ryan Dahl publicou o NodeJS, que é um tempo de execução que permite utilizar o motor V8 fora do browser, diretamente no sistema operativo nativo do computador. Ele também adiciona muitos recursos que são úteis para escrever programas do lado do servidor e de linha de comando. Por exemplo, pode utilizar o NodeJS para criar um servidor Web, ler e escrever ficheiros ou criar ferramentas que automatizam tarefas.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Neste curso, até agora, exploramos os recursos do JavaScript que estão presentes no navegador e no NodeJS. Esses recursos nos permitiram definir dados e manipulá-los de maneiras abstratas. Nas próximas lições, exploraremos os recursos que são específicos do NodeJS e que nos permitem interagir com o sistema operacional.

@@ -43,10 +43,10 @@ Velké díky našim učitelům, kteří byli součástí tohoto programu:
 **Plán semináře**
 
 1. týden události LN Tuscany
-![obrázek](assets/1.webp)
+![obrázek](assets/en/001.webp)
 
 Jakmile dokončíte tento kurz, pokud máte zájem o další školení, zde je druhá část plánu:
-![obrázek](assets/2.webp)
+![obrázek](assets/en/002.webp)
 
 
 Toto školení vám nabízí příležitost rozvíjet své programátorské dovednosti v rámci Lightning Network pomocí jazyka Rust a různých SDK. Je určeno pro vývojáře, kteří již dobře ovládají programování a chtějí se ponořit do vývoje specifického pro Lightning Network. Naučíte se základy jazyka Rust, proč je vhodný pro vývoj na Bitcoinu, a poté přejdete k praktickému použití specializovaných SDK.
@@ -157,3 +157,4 @@ Připraveni rozvíjet své dovednosti v Lightning Network s Rustem? Jdeme na to!
 ## Závěr
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

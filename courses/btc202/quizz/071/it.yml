@@ -1,0 +1,9 @@
+question: Quali sono i file che un nodo consulta per primi per trovare i suoi vecchi peer al riavvio?
+answer: ancore.dat e peers.dat
+wrong_answers:
+  - Mempool.dat e peers.dat
+  - Mempool.dat e ip.dat
+  - ip.dat e anchors.dat
+explanation: |
+  Il Bitcoin core consulta prima anchors.dat (precedenti peer in uscita), poi peers.dat (libro noto del Address) per riconnettersi.
+reviewed: true

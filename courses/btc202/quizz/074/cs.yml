@@ -1,0 +1,9 @@
+question: Jaká datová struktura shrnuje transakce v bloku?
+answer: Merkle Tree
+wrong_answers:
+  - Tabulka Hash UTXO
+  - Soubor peers.dat
+  - Registr assumeutxo
+explanation: |
+  Transakce v bloku jsou odevzdávány do bloku Merkle Tree, jehož kořen je obsažen v záhlaví bloku, aby byla zajištěna integrita bloku.
+reviewed: true

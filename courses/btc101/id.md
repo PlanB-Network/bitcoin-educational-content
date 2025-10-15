@@ -13,7 +13,7 @@ objectives:
 
 Di Dalam kursus ini, kami akan menjelaskan dasar-dasar Bitcoin dalam 25 bab, sehingga Anda dapat memahami teknologi ini dengan cara yang sederhana dan efektif. Kursus ini mengeksplorasi dasar-dasar industri secara keseluruhan, termasuk topik-topik seperti penambangan, dompet, platform jual-beli, dan banyak lagi. Materi edukasi tambahan akan tersedia di sepanjang perjalanan, dan kami juga mengundang Anda untuk memeriksa "21 Poster" di bagian resources setelah Anda menyelesaikan kursus ini.
 
-Anda tidak memerlukan pengetahuan khusus untuk memulai. Bahkan, konten berikut ini dapat diakses oleh siswa dari semua tingkatan, dan membutuhkan waktu sekitar 15 jam untuk menyelesaikannya.
+Tidak diperlukan pengetahuan sebelumnya untuk memulai kursus ini. BTC 101 dirancang agar dapat diakses oleh semua orang, terlepas dari tingkat pengalaman Anda.
 
 +++
 
@@ -83,6 +83,8 @@ Bagaimanapun, kita baru berada pada tahap awal pengadopsiannya, karena kita tela
 Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi kami harap Anda menikmati kursus ini dan terus membuat kemajuan dalam paradigma moneter global yang baru ini.
 
 Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? Ayo mulai!
+
+**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.network/resources/glossary) untuk definisi.
 
 ## Prasejarah Bitcoin
 

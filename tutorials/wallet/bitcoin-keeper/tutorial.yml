@@ -17,12 +17,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 1
+    reward: 0.16
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.4
   - language: de
     last_contribution_date:
     urgency: 1
@@ -37,17 +37,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.4
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.4
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.4
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -57,12 +57,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.65
+    reward: 0.63
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48
   - language: it
     last_contribution_date:
     urgency: 1
@@ -72,22 +72,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.57
+    reward: 0.55
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.4
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.4
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.4
   - language: pt
     last_contribution_date:
     urgency: 1

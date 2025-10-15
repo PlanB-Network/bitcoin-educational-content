@@ -1,4 +1,4 @@
-question: What is the risk if a portfolio depends on a third-party node?
+question: What is the risk if a wallet depends on a third-party node?
 answer: Risk of surveillance and censorship
 wrong_answers:
   - Risk of automatic double-spending
@@ -6,4 +6,4 @@ wrong_answers:
   - Risk of loss and monitoring
 explanation: |
   A third-party node can analyze or block your transactions, or even associate your data with your identity.
-reviewed: false
+reviewed: true

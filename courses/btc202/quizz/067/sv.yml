@@ -1,0 +1,9 @@
+question: Vilka säkerhetskopior krävs för att återställa en Lightning-nod?
+answer: seed och SCB
+wrong_answers:
+  - seed och txindex-fil
+  - seed och offentlig IP Address
+  - seed och 2FA
+explanation: |
+  För att återställa en Lightning-nod krävs både seed och SCB (Static Channel Backup), utan vilka kanalfonder inte kan återställas.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Qué tiene de especial un nodo SPV?
+answer: Conserva sólo las cabeceras de bloque
+wrong_answers:
+  - Conserva todo el Blockchain desde el bloque Genesis
+  - Almacena sólo los bloques más recientes
+  - Sólo mantiene el conjunto UTXO, no el Blockchain
+explanation: |
+  Un nodo SPV verifica las transacciones mediante cabeceras de bloque y pruebas Merkle, sin almacenar los datos completos.
+reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - Mempool.dat and ip.dat
   - ip.dat and anchors.dat
 explanation: |
-  Bitcoin core first consults anchors.dat (previous outgoing peers) then peers.dat (known address book) to reconnect.
-reviewed: false
+  Bitcoin Core first consults anchors.dat (previous outgoing peers), then peers.dat (known address book) to reconnect.
+reviewed: true

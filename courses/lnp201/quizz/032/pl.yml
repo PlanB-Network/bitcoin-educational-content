@@ -1,9 +1,9 @@
-question: Jaka jest rola opłat routingowych w Lightning Network?
-answer: Aby zachęcić węzły pośredniczące do zapewnienia płynności w celu przekazywania płatności
+question: Jaka jest rola opłat routingowych w sieci Lightning?
+answer: Zachęcenie węzłów pośredniczących do zapewnienia płynności w celu przekazywania płatności
 wrong_answers:
-  - Aby ograniczyć liczbę transakcji w sieci
-  - Aby zapewnić, że każdy kanał ma wystarczające fundusze
-  - Aby automatycznie obliczyć najkrótszą ścieżkę
+  - Ograniczenie liczby transakcji w sieci
+  - Zapewnienie, że każdy kanał ma wystarczające fundusze
+  - Automatyczne obliczenie najkrótszej ścieżki
 explanation: |
   Opłaty za routing są wykorzystywane do wynagradzania węzłów pośredniczących, które przekazują płatności, oferując swoją płynność, aby umożliwić transfer środków przez sieć.
 reviewed: false

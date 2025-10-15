@@ -1,9 +1,9 @@
-question: What is the main characteristic of a complete node?
+question: What is the main characteristic of a full node?
 answer: It downloads and validates the entire Blockchain
 wrong_answers:
   - It retains only the block headers
   - It deletes old blocks after verification
   - It depends on another node to validate transactions
 explanation: |
-  The complete node retains the entire Blockchain and validates each block and transaction independently.
-reviewed: false
+  The full node retains the entire Blockchain and validates each block and transaction independently.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Uvek vraća 0 bez obzira na rezultat
 explanation: |
   Operacija XOR (ili isključivo ili) proizvodi 1 ako su dva bita različita (0 i 1 ili 1 i 0) i 0 ako su isti.
-reviewed: false
+reviewed: true

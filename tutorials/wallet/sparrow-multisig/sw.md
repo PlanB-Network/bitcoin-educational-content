@@ -1,6 +1,6 @@
 ---
 name: Sparrow Wallet - Multisig
-description: Unda jalada la saini nyingi kwenye Sparrow
+description: Unda jalada la multiple-sign kwenye Sparrow
 ---
 ![cover](assets/cover.webp)
 
@@ -10,7 +10,7 @@ Wallet ya saini nyingi (mara nyingi huitwa "*Multisig*") ni muundo wa Bitcoin Wa
 
 
 
-Utaratibu huu huwezesha udhibiti wa kwingineko kushirikiwa kati ya vyombo au vifaa kadhaa. Kwa mfano, katika usanidi wa 2-ya-3, seti tatu za kujitegemea za funguo zinazalishwa, lakini mbili tu zinahitajika ili kutolewa fedha. Usanifu huu kwa kiasi kikubwa hupunguza hatari zinazohusiana na maelewano au kupoteza ufunguo: mwizi aliye na ufikiaji wa ufunguo mmoja tu hawezi kufuta Wallet, na mtumiaji anayepoteza moja bado anaweza kufikia fedha zake na mbili zilizobaki.
+Utaratibu huu huwezesha udhibiti wa kwingineko kushirikiwa kati ya vyombo au vifaa kadhaa. Kwa mfano, katika usanidi wa 2-ya-3, seti tatu za kujitegemea za funguo huzalishwa, lakini mbili tu zinahitajika ili kutoa fedha. Usanifu huu hupunguza kwa kiasi kikubwa hatari zinazohusiana na kuathirika au kupoteza ufunguo: mwizi aliye na ufikiaji wa ufunguo mmoja pekee hawezi kufuta wallet, na mtumiaji anayepoteza ufunguo mmoja bado anaweza kufikia fedha zake kwa kutumia funguo mbili zilizobaki.
 
 
 
@@ -18,7 +18,7 @@ Utaratibu huu huwezesha udhibiti wa kwingineko kushirikiwa kati ya vyombo au vif
 
 
 
-Walakini, usalama huu mkubwa unakuja na ugumu zaidi. Kuweka Multisig Wallet kunahitaji kupata vifungu kadhaa vya Mnemonic (moja kwa kila kipengele cha sahihi) na funguo za umma zilizopanuliwa ("*xpub*"). Hakika, ikiwa unatumia Multisig 2-of-3 Wallet, kupata Wallet lazima ama uwe na virai vyote vitatu vya Mnemonic, au angalau virai viwili kati ya vitatu. Lakini ikiwa una maneno mawili tu kati ya matatu, unahitaji pia kufikia *xpubs* tatu, bila ambayo haitawezekana kurejesha funguo za umma zinazohitajika kufikia bitcoins wanazolinda.
+Hata hivyo, usalama huu wa juu unakuja na ugumu zaidi. Kuweka multisig wallet kunahitaji kupata vifungu kadhaa vya mnemonic (kimoja kwa kila kipengele cha sahihi) pamoja na funguo za umma zilizopanuliwa (xpub). Kwa mfano, ikiwa unatumia multisig 2-of-3 wallet, ili kuipata tena lazima uwe na ama vifungu vyote vitatu vya mnemonic, au angalau viwili kati ya vitatu. Lakini ikiwa una maneno mawili pekee kati ya matatu, utahitaji pia kuwa na xpubs zote tatu; bila hizo, haitawezekana kurejesha funguo za umma zinazohitajika kufikia bitcoins wanazolinda.
 
 
 
@@ -60,7 +60,7 @@ Kwa mafunzo haya, nitakuonyesha jinsi ya kutengeneza Multisig kwa [Programu ya u
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-Ili kusanidi Wallet yenye saini nyingi, utahitaji pochi tofauti za maunzi. Kwa Multisig 2-de-3, kwa mfano, unaweza kutumia :
+Ili kusanidi Wallet yenye saini nyingi, utahitaji Wallet tofauti za maunzi. Kwa Multisig 2-de-3, kwa mfano, unaweza kutumia :
 
 
 
@@ -107,7 +107,7 @@ https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-Kama tutakavyoona baadaye katika somo hili, inawezekana pia kujumuisha katika usanidi wako wa Multisig kipengele ambacho hakihusishwi na Hardware Wallet, lakini ambacho funguo zake za faragha zimehifadhiwa kwenye Kompyuta yako. Njia hii ni dhahiri si salama kuliko matumizi ya kipekee ya pochi za vifaa, lakini inaweza kuwa muhimu katika hali fulani. Kwa mfano, kwa Multisig 2-de-3, unaweza kuchagua pochi mbili za vifaa na Software Wallet moja.
+Kama tutakavyoona baadaye katika somo hili, inawezekana pia kujumuisha kwenye usanidi wako wa multisig kipengele ambacho hakihusishwi na hardware wallet, lakini ambacho funguo zake za faragha zimehifadhiwa kwenye kompyuta yako. Njia hii bila shaka si salama kama matumizi ya pekee ya hardware wallet, lakini inaweza kuwa na manufaa katika hali fulani. Kwa mfano, kwa multisig 2-of-3, unaweza kuchagua hardware Wallet mbili za vifaa na software wallet moja.
 
 
 
@@ -315,7 +315,7 @@ Pia tutasajili *Descriptor* hii kwenye Coldcard (ikiwa utatumia moja katika usan
 
 
 
-Hii ndiyo inafanya Coldcard kuvutia sana katika Multisig: inatoa hundi ya ziada dhidi ya mashambulizi fulani ya kisasa, ambayo pochi nyingine za vifaa haziruhusu (mradi, bila shaka, kwamba unaitumia kusaini).
+Hii ndiyo inafanya Coldcard kuvutia sana katika Multisig: inatoa hundi ya ziada dhidi ya mashambulizi fulani ya kisasa, ambayo wallet nyingine za vifaa haziruhusu (mradi, bila shaka, kwamba unaitumia kusaini).
 
 
 
@@ -377,7 +377,7 @@ Kando na kuhifadhi *Descriptor*, usisahau kuzingatia mahususi kuhifadhi vifungu 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Kabla ya kupokea bitcoins zako za kwanza kwenye Multisig yako, **Ninakushauri sana kufanya mtihani tupu wa kurejesha **. Andika maelezo fulani ya marejeleo, kama vile ya kwanza kupokea Address, kisha uweke upya pochi zako za maunzi huku Wallet ingali tupu. Kisha, jaribu kurejesha Multisig Wallet yako kwenye Pochi za Vifaa ukitumia nakala zako za karatasi za maneno ya Mnemonic, kisha kwenye Sparrow ukitumia *Descriptor*. Hakikisha kuwa Address ya kwanza iliyotolewa baada ya urejeshaji inalingana na uliyoandika hapo awali. Ikiwa inafanya hivyo, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminika.
+Kabla ya kupokea bitcoins zako za kwanza kwenye multisig yako, nakushauri sana kufanya jaribio tupu la urejeshaji. Andika maelezo fulani ya marejeleo, kama vile anwani ya kwanza ya kupokea, kisha weka upya pochi zako za vifaa huku wallet ikiwa bado tupu. Baadaye, jaribu kurejesha multisig wallet yako kwenye pochi za vifaa ukitumia nakala zako za karatasi za maneno ya mnemonic, kisha kwenye Sparrow ukitumia descriptor. Hakikisha kuwa anwani ya kwanza iliyotolewa baada ya urejeshaji inalingana na uliyoandika hapo awali. Ikiwa inalingana, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminikac.
 
 
 
@@ -527,7 +527,7 @@ Ninaanza kusaini na Coldcard yangu. Ili kufanya hivyo, mimi huingiza kadi ya Mic
 
 
 
-Kuna njia 3 za kusambaza muamala utakaotiwa saini kwa Hardware Wallet yako, kisha uirejeshe kutoka kwa Sparrow. Ya kwanza ni kutumia kadi ndogo ya SD, kama tutakavyofanya hapa kwa Coldcard. Ya pili ni kupitia muunganisho wa kebo, ambayo tutatumia kwa saini ya pili (Ledger na Trezor). Hatimaye, inawezekana kutumia mawasiliano ya msimbo wa QR, kwa vifaa vilivyo na kamera kama vile Coldcard Q, Jade Plus au Passport V2.
+Kuna njia tatu za kusambaza muamala utakaotiwa saini kwa hardware wallet yako, kisha kuurudisha kwenye Sparrow. Ya kwanza ni kutumia kadi ndogo ya SD, kama tutakavyofanya hapa kwa Coldcard. Ya pili ni kupitia muunganisho wa kebo, ambao tutatumia kwa sahihi ya pili (Ledger na Trezor). Hatimaye, inawezekana kutumia mawasiliano ya msimbo wa QR, kwa vifaa vilivyo na kamera kama vile Coldcard Q, Jade Plus au Passport V2.
 
 
 
@@ -571,7 +571,7 @@ Bofya kwenye "*Saini*" karibu na jina la Hardware Wallet yako.
 
 
 
-Mara ya kwanza unapotumia Ledger yako na Multisig hii, Sparrow itakuuliza uthibitishe funguo zilizopanuliwa za umma (xpub) za watia saini wenza. Kama ilivyo kwa Coldcard, hatua hii hukuzuia kusaini kwa upofu baadaye. Ili kuthibitisha maelezo haya, linganisha xpub inayoonyeshwa kwenye skrini ya Ledger na zile zinazotolewa moja kwa moja na pochi zako zingine za maunzi.
+Mara ya kwanza unapotumia Ledger yako na multisig hii, Sparrow itakuuliza uthibitishe funguo zilizopanuliwa za umma (xpub) za watia saini wenza. Kama ilivyo kwa Coldcard, hatua hii hukuzuia kusaini bila kujua baadaye. Ili kuthibitisha maelezo haya, linganisha xpub inayoonyeshwa kwenye skrini ya Ledger na zile zinazotolewa moja kwa moja na pochi zako zingine za vifaa.
 
 
 
@@ -595,7 +595,7 @@ Bonyeza skrini ili kusaini.
 
 
 
-Sparrow sasa ana saini mbili zinazohitajika ili kutoa pesa kutoka kwa kwingineko ya Multisig. Angalia muamala mara ya mwisho, na ikiwa kila kitu kitaenda sawa, bofya "*Tangaza Muamala*" ili kuitangaza kwenye mtandao.
+Sparrow sasa ina saini mbili zinazohitajika ili kutoa pesa kutoka kwa kwingineko ya Multisig. Angalia muamala mara ya mwisho, na ikiwa kila kitu kitaenda sawa, bofya "*Tangaza Muamala*" ili kuitangaza kwenye mtandao.
 
 
 

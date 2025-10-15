@@ -1,0 +1,9 @@
+question: Bitcoin core 的主要替代實現方式是什麼？
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin 現金
+  - BTCD
+  - Bcoin
+explanation: |
+  由 Luke Dashjr 開發的 Bitcoin Knots 是 Core 的 Fork，提供額外的選項和更保守的願景。
+reviewed: true

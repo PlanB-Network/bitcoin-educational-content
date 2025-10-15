@@ -52,6 +52,8 @@ Kurs, geleneksel para birimleri ve ödeme mekanizmalarının ayrıntılı bir in
 İşletmeler için Bitcoin dünyasına dalmaya hazır mısınız? Hadi başlayalım!
 
 
+**Not**: Kurs sırasında tanıdık olmayan terimlerle karşılaşırsanız, tanımlar için lütfen [sözlüğe](https://planb.network/resources/glossary) başvurun.
+
 # Para birimi, ödeme sistemleri ve Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

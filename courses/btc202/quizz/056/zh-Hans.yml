@@ -1,0 +1,9 @@
+question: 通过 Umbrel 将移动 Wallet 连接到 Electrs 的最简单方法是什么？
+answer: 扫描 Tor QR 代码
+wrong_answers:
+  - 下载 cookie 文件
+  - 导入私人密钥
+  - 复制 Wallet.dat 文件
+explanation: |
+  Umbrel 允许您直接扫描 Electrs 提供的 Tor QR 代码来配置您的移动连接。
+reviewed: true

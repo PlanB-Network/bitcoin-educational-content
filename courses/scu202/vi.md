@@ -8282,16 +8282,24 @@ Bảo mật mạng gia đình của bạn bắt đầu từ việc lựa chọn 
 Bộ định tuyến tương thích với Wi-Fi 6, Wi-Fi 6E hoặc Wi-Fi 7 sẽ mang lại tốc độ tốt hơn và trên hết là khả năng hỗ trợ sẵn có cho các công nghệ bảo mật hiện đại. Ngược lại, thiết bị rất cũ, đặc biệt là những thiết bị không còn được cập nhật phần mềm, có thể chứa các lỗ hổng đã biết nhưng chưa được vá. Do đó, chúng tiềm ẩn rủi ro cho toàn bộ mạng của bạn, ngay cả khi bạn cấu hình chúng đúng cách. So với điện thoại di động hoặc máy tính, bộ định tuyến là thiết bị mà chúng ta thường sử dụng trong nhiều năm. Tuy nhiên, việc thay thế chúng thường xuyên hơn có thể là một ý tưởng hay để tận hưởng lợi ích từ một mô hình hiện đại và an toàn hơn.
 
 
+**Chú ý**: Theo nguyên tắc chung, các bộ định tuyến do nhà cung cấp dịch vụ internet cung cấp có thể thiếu tính năng cập nhật cần thiết cũng như khả năng cá nhân hóa. Trong một số trường hợp, nhà cung cấp dịch vụ cũng có thể có quyền truy cập không hạn chế vào mạng nội bộ của người dùng cuối.
+
 Vì vậy, hãy đảm bảo bạn cập nhật firmware cho bộ định tuyến một cách có hệ thống. Các bản cập nhật này sẽ khắc phục các lỗ hổng, bổ sung các tính năng mới và tăng cường tính ổn định tổng thể của hệ thống. Một số nhà sản xuất cung cấp bản cập nhật tự động, nhưng trong một số trường hợp, bạn sẽ cần kiểm tra thủ công thông qua công cụ quản trị Interface của bộ định tuyến. Cũng như điện thoại, máy tính, hệ điều hành và phần mềm, việc cập nhật bộ định tuyến thường xuyên là rất quan trọng. Bạn có thể biến việc này thành thói quen hàng tuần - ví dụ như vào mỗi Chủ nhật - bằng cách lập danh sách tất cả các mục cần kiểm tra và cập nhật.
 
 
-Nếu bộ định tuyến của bạn không còn được bảo trì nhưng vẫn hoạt động bình thường về mặt phần cứng, bạn có thể cài đặt phần mềm nguồn mở thay thế, chẳng hạn như:
+Ngoài ra, bạn có thể bật tự động cập nhật hoặc ít nhất bật quét tự động để tìm các bản cập nhật firmware mới nếu bạn muốn thao tác thủ công. Mặc dù tính năng tự động cập nhật vẫn có thể là một mối đe dọa bảo mật, việc không cập nhật firmware của router thường xuyên sẽ khiến mạng cục bộ của bạn dễ bị các lỗ hổng đã được công khai biết đến.
+
+**Ví dụ**: Khi mua router cho riêng bạn, có thể là ý tưởng tốt khi tìm các công ty đã được thiết lập trong ngành, những công ty đã cung cấp router trên thị trường trong một thời gian dài. Ví dụ, router Fritz!Box có danh tiếng lâu đời là các thiết bị plug-and-play, phù hợp sử dụng cả trong gia đình lẫn các công ty quy mô nhỏ. Chính sách cập nhật phần mềm của họ thường kéo dài trong nhiều năm.
+
+Nếu router của bạn không còn được duy trì nhưng vẫn hoạt động đúng về mặt phần cứng, bạn có thể cài đặt firmware mã nguồn mở thay thế, chẳng hạn như:
 
 
 
 - OpenWrt, một bản phân phối Linux chuyên về bộ định tuyến, cung cấp tính linh hoạt cao và các bản cập nhật thường xuyên
 - pfSense và OPNsense, hai hệ thống dựa trên FreeBSD (giống Unix) dành cho tường lửa và bộ định tuyến x86
 
+
+**Lưu ý**: Một số nhà cung cấp dịch vụ Internet (ISP) cung cấp cho khách hàng của họ các bộ định tuyến số lượng lớn do một công ty duy nhất sản xuất, công ty này đồng thời cung cấp cho nhiều ISP khác nhau trên khắp thế giới. Bạn có thể thấy rằng để cài đặt một trong các firmware thay thế trên bộ định tuyến, người khác có thể đã phát hiện ra cách thực hiện, ngay cả khi họ ở nửa kia của thế giới.
 
 ![Image](assets/fr/196.webp)
 

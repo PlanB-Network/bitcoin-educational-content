@@ -1,9 +1,9 @@
 question: Welk commando haalt het lokale IP Address van je Umbrel op als toegang via umbrel.local mislukt?
-answer: hostnaam -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
-  - umbrel-ip --weergeven
+  - umbrel-ip --show
   - netstat -umbrel
 explanation: |
-  Bij detectieproblemen kunt u het commando hostname -I op de Umbrel-machine gebruiken om het lokale IP-adres te achterhalen.
+  Bij detectieproblemen kunt je het commando hostname -I op de Umbrel-machine gebruiken om het lokale IP-adres te achterhalen.
 reviewed: true

@@ -164,6 +164,80 @@ Si vous ne l'avez pas encore, téléchargez le logiciel [Balena Etcher](https://
 
 Patientez jusqu’à la fin du processus : votre microSD est prête à l’emploi. Nous pouvons maintenant passer à l'assemblage !
 
+## 3. Assemblage du SeedSigner
+
+Une fois votre carte microSD préparée et flashée avec le logiciel SeedSigner, vous pouvez procéder à l’assemblage final de l’appareil. Prenez votre temps, car certaines pièces sont fragiles (notamment la nappe, la caméra et les broches GPIO).
+
+### 3.1 Préparation du boîtier
+
+Avant toute chose, ouvrez votre boîtier. Vérifiez qu’il est propre et qu’aucun résidu de plastique d’impression 3D ne gêne les fixations internes. Repérez bien :
+- L’emplacement de la caméra (petit orifice circulaire à l’avant).
+- L’ouverture pour l’écran.
+- Les découpes pour les ports micro-USB et le lecteur microSD du Raspberry Pi Zero.
+
+### 3.2 Installation de la caméra
+
+Repérez sur le Raspberry Pi Zero le connecteur de la nappe de la caméra : c’est une fine barrette noire située sur le côté de la carte, pouvant se soulever légèrement pour s’ouvrir. Relevez-la avec précaution, sans forcer : elle doit simplement basculer de quelques millimètres.
+
+015
+
+Insérez la nappe de la caméra. La partie marron/cuivrée doit être orientée vers le bas. Assurez-vous qu’elle est bien enfoncée dans le connecteur, sans torsion.
+
+016
+
+Refermez la barrette noire pour verrouiller la nappe (vous sentirez un léger clic). Vérifiez doucement qu’elle tient et ne bouge pas.
+
+017
+
+Placez ensuite le module caméra dans l’orifice prévu du boîtier. Selon le modèle, il peut s’emboîter directement ou nécessiter un petit adhésif pour le maintenir. L’objectif doit être parfaitement aligné face à l’extérieur.
+
+### 3.3 Installation du Raspberry Pi Zero
+
+Si vous utilisez un boîtier, insérez la carte Raspberry Pi Zero à l’intérieur. Alignez soigneusement les ports avec les ouvertures prévues.
+
+Positionnez ensuite l’écran Waveshare au-dessus du Raspberry Pi Zero. Les broches GPIO du Pi doivent s’aligner parfaitement avec le connecteur femelle de l’écran. Enfoncez lentement l’écran sur les broches, en exerçant une pression uniforme de chaque côté afin d’éviter de les tordre.
+
+018
+
+Si vous avez un boîtier, terminez le montage en ajoutant la face avant et le joystick.
+
+Enfin, insérez la carte microSD contenant le logiciel flashé dans le lecteur du Raspberry Pi Zero, situé sur la tranche. Assurez-vous qu’elle soit bien enclenchée.
+
+### 3.4 Premier démarrage
+
+Branchez un câble d’alimentation micro-USB sur le port dédié. Patientez environ une minute. Le logo SeedSigner devrait apparaître, suivi de l’écran d’accueil.
+
+019
+
+Pour commencer, vérifiez le bon fonctionnement des différents éléments en vous rendant dans le menu `Settings > I/O test`.
+
+020
+
+Testez tous les boutons et assurez-vous qu’ils répondent correctement. Cliquez ensuite sur le bouton `KEY1` pour vérifier que la caméra fonctionne comme prévu. Cela va prendre une photo.
+
+021
+
+### 3.5 Ajustement de la caméra
+
+Selon la manière dont vous avez monté votre SeedSigner, il se peut que la caméra affiche une image inversée. Pour corriger cela, rendez-vous dans `Settings > Advanced > Camera rotation` et sélectionnez une rotation de 180° si nécessaire.
+
+022
+
+Si vous avez modifié l’orientation de la caméra ou souhaitez ultérieurement changer d’autres paramètres (comme la langue de l’interface), il faut activer la persistance des paramètres sur la microSD. Sinon, vos réglages reviendront par défaut à chaque redémarrage, car le Raspberry Pi Zero ne dispose pas de mémoire persistante.
+
+Pour cela, ouvrez le menu `Settings > Persistent settings`, puis sélectionnez `Enabled`.
+
+023
+
+Si tout est fonctionnel, votre SeedSigner est désormais prêt à être utilisé !
+
+
+
+
+
+
+
+
 
 
 

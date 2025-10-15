@@ -1,9 +1,9 @@
 question: ProtonMail gibi güvenli bir e-posta sağlayıcısı ne gibi avantajlar sunar?
 answer: Gizlilik koruması ve gelişmiş güvenlik.
 wrong_answers:
-  - Yeni başlayanlar için daha basit Interface.
-  - Saldırı yüzeyini en aza indirmek için özelliklerin azaltılması.
-  - E-postalarınızı otomatik olarak generate'e dönüştürmek için bir algoritma entegrasyonu.
+  - Yeni başlayanlar için daha basit içyüz.
+  - Saldırı yüzeyini asgariye indirmek için özelliklerin azaltılması.
+  - E-postalarınızı otomatik olarak oluşturlması için bir algoritma entegrasyonu.
 explanation: |
   ProtonMail, gizlilik politikası ve güçlendirilmiş güvenlik önlemleriyle öne çıkıyor.
 reviewed: true

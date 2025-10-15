@@ -22,77 +22,77 @@ proofreading:
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 2.83
+    reward: 2.77
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.53
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.53
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.53
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.09
+    reward: 12.78
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 9.16
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.53
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.23
+    reward: 10.97
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.53
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -132,7 +132,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: tr
     last_contribution_date:
     urgency: 1

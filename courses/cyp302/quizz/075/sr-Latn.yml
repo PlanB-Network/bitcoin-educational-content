@@ -6,4 +6,4 @@ wrong_answers:
   - Osigurava korišćenje jedinstvenih ključeva
 explanation: |
   Kerckhoffov princip omogućava javnu verifikaciju sigurnosnih nedostataka, kao u sistemima otvorenog koda, što čini sisteme pouzdanijim kroz transparentnost. Sigurnost je osigurana isključivo ključem, a ne samim procesom enkripcije.
-reviewed: false
+reviewed: true

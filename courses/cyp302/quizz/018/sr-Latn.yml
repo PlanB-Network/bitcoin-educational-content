@@ -6,4 +6,4 @@ wrong_answers:
   - Njihova kombinovana verovatnoća jednaka je najvećoj verovatnoći od te dve.
 explanation: |
   Dva događaja su nezavisna ako verovatnoća jednog ne menja verovatnoću drugog, kao što izvlačenje lutrije nema uticaj na vreme sledećeg dana.
-reviewed: false
+reviewed: true

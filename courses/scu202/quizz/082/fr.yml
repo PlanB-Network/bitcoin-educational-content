@@ -5,5 +5,5 @@ wrong_answers:
   - Signal
   - Threema
 explanation: |
-  Keet repose sur un modèle peer-to-peer où toutes les communications transitent directement entre utilisateurs, sans serveur central, ce qui garantit une forte résilience et confidentialité.
+  Keet repose sur un modèle pair-à-pair où toutes les communications transitent directement entre utilisateurs, sans serveur central, ce qui garantit une forte résilience et confidentialité.
 reviewed: false

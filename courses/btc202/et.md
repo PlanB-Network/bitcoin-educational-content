@@ -21,7 +21,7 @@ Ilmselt olete tuttav ütlusega "Not your keys, not your coins", mis julgustab om
 
 
 
-BTC 202 on kättesaadav kursus, mille eesmärk on õpetada teile, kuidas oma Bitcoin sõlme keerata, isegi kui te ei ole tehniline ekspert. Alustame sellega, et defineerime, mis on Bitcoin sõlme, milleks see on mõeldud ja miks on hädavajalik seda ise keerata. Seejärel juhatan teid samm-sammult läbi riistvara valimise, vajaliku tarkvara paigaldamise, Wallet ühendamise ja esimeste võimalike optimeerimiste tegemise, et seda edasi viia.
+BTC 202 on hõlpsasti juurdepääsetav koolitus, mis on loodud selleks, et õpetada teile, kuidas oma Bitcoin'i sõlme käivitada, isegi kui te ei ole tehnikaekspert. Alustame sellega, et määratleme, mis on Bitcoin'i sõlm, milleks see on mõeldud ja miks on hädavajalik seda ise käitada. Seejärel juhendan teid samm-sammult teie riistvara valimisel, vajaliku tarkvara installimisel, rahakotitarkvara ühendamisel ja esimestel võimalikest optimeerimistest edasiliikumiseks.
 
 
 
@@ -481,7 +481,7 @@ Nagu me arutame hiljem selles kursuses, on sõlmed, vastavalt nende majandusliku
 
 
 
-## Miks oma sõlme keerata?
+## Miks käitada oma sõlme?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ On levinud arvamus, et Bitcoin-sõlme käitamine on puhtalt altruistlik tegu, il
 
 
 
-Tõepoolest, nagu me eelmistes peatükkides märkisime, ei ole sõlme ketramisest otsest rahalist kasu. Seetõttu võiks arvata, et see ei ole isiklik huvi. Ometi toob oma sõlme pidamine palju individuaalset kasu. Et teid selles veenda, esitan selles peatükis kõik põhjused, nii tehnilised kui ka strateegilised, miks te peaksite oma Bitcoin sõlme paigaldama ja kasutama.
+Nagu oleme eelnevates peatükkides rõhutanud, ei too sõlme käitamine otsest rahalist kasu. Seetõttu võiks arvata, et sellel pole isiklikku huvi. Ometi toob oma sõlme kasutamine palju individuaalseid eeliseid. Selle tõestamiseks esitan selles peatükis kõik tehnilised ja strateegilised põhjused, mis peaksid teid julgustama omaenda Bitcoini sõlme paigaldama ja kasutama.
 
 
 
@@ -576,7 +576,7 @@ Full node paigaldamine ei ole triviaalne toiming. See hõlmab tarkvara paigaldam
 
 
 
-Nende teadmiste omandamine tugevdab teie usaldust tööriista vastu ja võib vähendada vigade või pettuste ohtu. Oma sõlme keeramine on samuti üks õppimise vorm.
+Selle teadmise omandamine tugevdab teie usaldust tööriista vastu ja võib vähendada vigade või pettuste ohtu. Oma sõlme käitamine tähendab ka õppimist.
 
 
 
@@ -692,7 +692,7 @@ Seega ei ole oluline mitte sõlmede arv, vaid nende poolt toetatava majandustege
 
 
 
-> Mitte sinu sõlme, mitte sinu reegleid.
+> Pole sinu sõlm, pole sinu reeglid.
 
 
 ## Bitcoin sõlmede eri tüübid
@@ -730,7 +730,7 @@ Sõltuvalt teie vajadustest võite lisada oma Full node-le indekseerija. Bitcoin
 
 
 
-### pruned sõlme
+### Kärbitud sõlm
 
 
 
@@ -849,7 +849,7 @@ See on kõige suveräänsem ja paindlikum lähenemisviis: te teate täpselt, mis
 
 
 
-#### Bitcoin core (ülimalt suurklient)
+#### Bitcoin Core (valdav klient)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr kliendid ***noStrudel*** või ***Snort*** on saadaval ka Umbrelil. Tänu n
 
 
 
-Lõpuks on Umbrelil olemas ***Nostr Wallet Connect*** rakendus, mis võimaldab Nostris kasutada Lightning-makseid. Konkreetselt öeldes saate oma tulevase Lightning-sõlme siduda oma Nostri klientidega, et saata mikromakseid, mida nimetatakse "*zaps*", et tasustada sisu või suhelda rahaliselt, ilma et oleks vaja minna läbi kolmanda osapoole teenuse. Need maksed saadetakse otse teie isiklikust sõlmest teie kanalite kaudu.
+Lõpuks on Umbrelis rakendus ***Nostr Wallet Connect***, mis võimaldab teha Nostris kohalikke Lightning-makseid. Täpsemalt saate ühendada oma tulevase Lightning-sõlme Nostr-klientidega, et saata mikromakseid, mida nimetatakse "*zaps*", sisu premeerimiseks või rahastatud suhtlemiseks ilma kolmanda osapoolte teenust kasutamata. Need maksed väljastatakse otse teie isiklikust sõlmest teie kanalite kaudu.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Umbrel-sõlme hooldamine
+## Oma Umbrel-sõlme hooldamine
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Kui teie võrgusõlm kuulab avatud porti (vaikimisi 8333), võtab see vastu siss
 
 
 
-## Teie Bitcoin sõlme anatoomia
+## Teie Bitcoini sõlme anatoomia
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

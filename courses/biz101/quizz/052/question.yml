@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.2
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -56,7 +56,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.22
   - language: nb-NO
     last_contribution_date:
     urgency: 1

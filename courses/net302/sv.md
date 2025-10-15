@@ -138,7 +138,7 @@ Fördelen med detta arrangemang är att kablarna är enkla att dra och att man i
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/en/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Denna hierarkiska layout fungerar särskilt bra för stora nätverk som behöver
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/en/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Den största fördelen med busstopologin är den låga installationskostnaden ta
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Denna layout gör hantering och underhåll enkelt: om en periferienhet går sön
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/en/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Nackdelen är att antalet anslutningar som måste upprättas ökar snabbt med an
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/en/005.webp)
 
 
 
@@ -263,7 +263,7 @@ De fyra lagren i TCP/IP-modellen är
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/en/006.webp)
 
 
 
@@ -390,7 +390,7 @@ När ett datagram överskrider MTU för ett nätverkssegment som det måste pass
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/en/008.webp)
 
 
 
@@ -431,7 +431,7 @@ När ett meddelande skickas passerar det genom de fyra lagren i TCP/IP-stacken. 
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/en/009.webp)
 
 
 
@@ -442,7 +442,7 @@ Vid ankomsten är processen omvänd: den mottagande maskinen får ramen i Networ
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/en/010.webp)
 
 
 
@@ -456,7 +456,7 @@ Omvandlingen av data vid varje Layer kan sammanfattas enligt följande:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/en/011.webp)
 
 
 
@@ -507,7 +507,7 @@ Antalet tillgängliga adresser varierar stort mellan klasserna: från stora publ
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/en/013.webp)
 
 
 
@@ -585,7 +585,7 @@ Vi vill ha 4 subnät med upp till 60 värdar vardera.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/en/016.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP är ett anslutningsorienterat protokoll, vilket innebär att det upprättar 
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/en/018.webp)
 
 
 
@@ -688,7 +688,7 @@ För att förbättra tillförlitligheten använder TCP en timer: när ett segmen
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/en/019.webp)
 
 
 
@@ -711,7 +711,7 @@ Sekvenssynkroniseringen Exchange baseras på den berömda mekanismen **"*treväg
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/en/020.webp)
 
 
 
@@ -734,7 +734,7 @@ I praktiken definierar det glidande fönstret ett intervall av sekvensnummer som
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/en/021.webp)
 
 
 
@@ -751,7 +751,7 @@ Denna exakta hantering, som kombinerar IP:s flexibla routing med TCP:s strikta k
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/en/022.webp)
 
 
 
@@ -791,7 +791,7 @@ Två viktiga aspekter styr dessa utbyten:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/en/023.webp)
 
 
 
@@ -800,7 +800,7 @@ Två viktiga aspekter styr dessa utbyten:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/en/024.webp)
 
 
 
@@ -836,7 +836,7 @@ Genom att kombinera den horisontella aspekten (kommunikation mellan distribuerad
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/en/026.webp)
 
 
 
@@ -896,7 +896,7 @@ exempel: Address 172.16.254.1
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Det är viktigt att komma ihåg att MAC Address och IP Address är två helt oli
 - Visuellt exempel på MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/en/032.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Det är viktigt att komma ihåg att MAC Address och IP Address är två helt oli
 - Visuellt exempel på en IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Förutom att hantera IPv4-bristen stärker NAT också säkerheten genom att skap
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/en/035.webp)
 
 
 
@@ -1331,7 +1331,7 @@ för att illustrera hur detta fungerar i praktiken, se följande exempel:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/en/037.webp)
 
 
 
@@ -1500,7 +1500,7 @@ I professionella miljöer är målet att garantera tjänstekontinuitet och/eller
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/en/039.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Det finns flera metoder för automatisk konfiguration:
 Här är ett exempel på hur man omvandlar en MAC Address till EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/en/045.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Här är en översikt över de olika typerna av förlängningsrubriker som defin
 Detta huvud, om det finns, placeras alltid omedelbart efter bashuvudet. Den innehåller information som måste bearbetas av varje router längs paketets väg, till skillnad från de flesta andra headers, som vanligtvis endast hanteras av destinationsnoden. Typiska användningsområden är signalering av globala parametrar eller begäran om specifika bearbetningssteg när paketet färdas genom nätverket.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/en/047.webp)
 
 
 #### Routningshuvud
@@ -2117,7 +2117,7 @@ De fyra första fälten i denna rooting header är:
 Fältet "Segments Left" börjar med det totala antalet återstående segment och minskas med ett vid varje hopp.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/en/048.webp)
 
 
 #### Fragmenteringshuvud
@@ -2134,7 +2134,7 @@ Fragmenteringshuvudet innehåller följande fält:
 - **M-flagga**: anger om fler fragment följer.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/en/049.webp)
 
 
 #### Autentiseringshuvud (AH)
@@ -2146,7 +2146,7 @@ Detta huvud är utformat för att säkra kommunikation genom att verifiera både
 I händelse av ett bedrägligt modifieringsförsök kommer autentiseringskoden inte längre att matcha och datagrammet kan avvisas. Denna mekanism skyddar också mot replay-attacker genom att upptäcka obehöriga dupliceringar.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/en/050.webp)
 
 
 #### Destination Options Header
@@ -2158,7 +2158,7 @@ Denna header är endast avsedd för den slutliga mottagaren av datagrammet. Det 
 Ursprungligen fanns inget sådant alternativ definierat i protokollet. Denna header infördes dock när IPv6 utformades, så att framtida tillägg kan läggas till utan att den övergripande paketstrukturen ändras. Alternativet null används t.ex. endast för att fylla ut rubriken till en multipel av 8 byte för minnesjustering.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/en/051.webp)
 
 
 IPv6-paketens design bygger på en tydlig separation mellan ett minimalt bashuvud och modulära tilläggshuvuden. Denna arkitektur säkerställer både standardprocessprestanda och den flexibilitet som krävs för att utveckla protokollet och integrera säkerhet, komplex routing eller mekanismer för tjänstekvalitet, samtidigt som kompatibiliteten med framtida infrastrukturer bibehålls.
@@ -2504,7 +2504,7 @@ Wireshark finns tillgängligt på många operativsystem, inklusive Linux och Win
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/en/052.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Detta kommando ger en detaljerad rapport om Interface `enp0s3`, en vanlig namngi
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/en/053.webp)
 
 
 
@@ -3107,7 +3107,7 @@ I det här fallet kommer alla värdar i intervallet `192.168.0.0` till `192.168.
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/en/055.webp)
 
 
 

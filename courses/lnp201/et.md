@@ -48,6 +48,25 @@ Lõpuks lõpetame koolituse, korrates käsitletud mõisteid ja avades tee keeruk
 
 Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
 
+---
+
+*Siin on mõned terminid, millega kohtate kursuse skeemides inglise keeles, koos nende tõlkega, et aidata teil neid oma keeles paremini mõista:*
+
+| Inglise            | Tõlge - selgitus              |
+| ------------------ | ----------------------------- |
+| *timelock*         | Ajalukk                       |
+| *Revocation Key*   | Tühistamisvõti                |
+| *invoice*          | Arve / maksenõue              |
+| *sig* (signature)  | Allkiri                       |
+| *secret*           | Saladus                       |
+| *amount*           | Summa                         |
+| *scan QR code*     | Skaneeri QR-koodi             |
+| *Show QR code*     | Näita QR-koodi                |
+| *Asks the invoice* | Küsib arvet                   |
+| *Give the invoice* | Annab arve                    |
+| *Payment*          | Makse                         |
+| *Preimage*         | Eelkujutis                    |
+
 # Alused
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -66,7 +85,7 @@ Enne "võrgu" aspekti uurimist on oluline mõista Lightning'il maksekanali konts
 
 Maksekanal võimaldab kahel osapoolel, siin **Alice** ja **Bob**, vahetada vahendeid Lightning Network'i kaudu. Igal protagonistil on sõlm, mida sümboliseerib ring, ja nende vaheline kanal on esindatud joonlõiguga.
 
-![LNP201](assets/en/01.webp)
+![LNP201](assets/en/001.webp)
 
 Meie näites on Alicel oma kanali poolel 100 000 satoshi ja Bobil 30 000, kokku 130 000 satoshi, mis moodustab **kanali mahutavuse**.
 
@@ -78,17 +97,17 @@ Meie näites on Alicel oma kanali poolel 100 000 satoshi ja Bobil 30 000, kokku 
 
 Tagasi maksekanali juurde. Peamine kontseptsioon siin on "**kanali pool**". Igal osalejal on oma kanali poolel teatud summa vahendeid: Alicel 100 000 satoshi ja Bobil 30 000. Nagu oleme näinud, esindab nende vahendite summa kanali koguvõimsust, mis määratakse kanali avamisel.
 
-![LNP201](assets/en/02.webp)
+![LNP201](assets/en/002.webp)
 
 Võtame näiteks Lightning tehingu. Kui Alice soovib saata 40 000 satoshit Bobile, on see võimalik, kuna tal on piisavalt vahendeid (100 000 satoshit). Pärast seda tehingut omab Alice oma poolel 60 000 satoshit ja Bob 70 000.
 
-![LNP201](assets/en/03.webp)
+![LNP201](assets/en/003.webp)
 
 **Kanali võimsus**, 130 000 satoshit, jääb muutumatuks. Muutub vahendite jaotus. See süsteem ei luba saata rohkem vahendeid, kui omatakse. Näiteks, kui Bob sooviks saata tagasi 80 000 satoshit Alicele, ei saaks ta seda teha, kuna tal on ainult 70 000.
 
 Teine viis fondide jaotust ette kujutada on ette kujutada **kursorit**, mis näitab, kus fondid kanalis asuvad. Alguses, kui Alice’il on 100 000 satoshit ja Bobil 30 000, on kursor pigem Bobi poolel, sest Alice’il on palju rohkem vahendeid. Pärast 40 000 satoshi tehingut liigub kursor veidi Alice’i poole, kellel on nüüd 60 000 satoshit.
 
-![LNP201](assets/en/04.webp)
+![LNP201](assets/en/004.webp)
 
 See esitusviis võib olla kasulik kanalis olevate vahendite tasakaalu ettekujutamiseks.
 
@@ -130,7 +149,7 @@ Bitcoin'il hõlmab tehing fondide saatmist ühelt aadressilt teisele. Võtame n�
 
 Kõige levinum skript nõuab aadressiga seotud privaatvõtmega allkirjastamist. Kui Alice allkirjastab tehingu oma privaatvõtmega, **avab ta skripti**, mis blokeerib vahendid, ja need saab seejärel üle kanda. Fondide ülekandmine hõlmab nende fondidele uue skripti lisamist, milles on sätestatud, et nende kulutamiseks on seekord vajalik **Bob'i** privaatvõtme allkiri.
 
-![LNP201](assets/en/05.webp)
+![LNP201](assets/en/005.webp)
 
 ### UTXO-d: Kulutamata Tehinguväljundid
 
@@ -145,17 +164,17 @@ Siin on näide tehingust 2 väljundiga:
 - UTXO 0.0015 BTC Bobi jaoks, lukustatud skriptiga, mis nõuab Bobi privaatvõtme allkirja.
 - UTXO 0.0005 BTC Alice'i jaoks, lukustatud skriptiga, mis nõuab tema enda allkirja.
 
-![LNP201](assets/en/06.webp)
+![LNP201](assets/en/006.webp)
 
 ### Mitme allkirjaga aadressid
 
 Lisaks lihtsatele aadressidele, mis on genereeritud ühest avalikust võtmest, on võimalik luua **mitme allkirjaga aadresse** mitmest avalikust võtmest. Eriti huvitav Lightning Networki jaoks on **2/2 mitme allkirjaga aadress**, mis on genereeritud kahest avalikust võtmest:
 
-![LNP201](assets/en/07.webp)
+![LNP201](assets/en/007.webp)
 
 Selle 2/2 mitme allkirjaga aadressiga lukustatud vahendite kulutamiseks on vajalik allkirjastada kahe privaatvõtmega, mis on seotud avalike võtmetega.
 
-![LNP201](assets/en/08.webp)
+![LNP201](assets/en/008.webp)
 
 See aadressitüüp on täpselt Bitcoin'i plokiahela esitus Lightning Networki maksekanalitest.
 
@@ -184,7 +203,7 @@ Sel peatükis vaatame täpsemalt, kuidas avada maksekanalit Lightning Networkis 
 
 Nagu me esimeses peatükis nägime, võib **maksekanalit** Lightningis võrrelda "toruga" vahendite vahetamiseks kahe osaleja vahel (**Alice** ja **Bob** meie näidetes). Selle kanali maht vastab mõlema poole saadaolevate vahendite summale. Meie näites on Alicel **100 000 satoshi** ja Bobil **30 000 satoshi**, andes **kogumahuks 130 000 satoshi**.
 
-![LNP201](assets/en/09.webp)
+![LNP201](assets/en/009.webp)
 
 ### Informatsiooni Vahetuse Tasemed
 
@@ -194,34 +213,34 @@ On oluline selgelt eristada erinevaid vahetuse tasemeid Lightning Networkis:
 - **Maksekanalid (Lightning protokoll)**: Need on teed vahendite vahetamiseks Lightningis, mida me kujutame tahkete mustade joontega.
 - **Bitcoin'i tehingud (Bitcoin protokoll)**: Need on onchain tehingud, mida me kujutame oranžide joontega.
 
-![LNP201](assets/en/10.webp)
+![LNP201](assets/en/010.webp)
 On oluline märkida, et Lightningi sõlm suudab suhelda P2P protokolli kaudu ilma kanalit avamata, kuid vahendite vahetamiseks on kanal vajalik.
 
 ### Sammud Lightningi kanali avamiseks
 
 - **Sõnumivahetus**: Alice soovib Bobiga kanali avada. Ta saadab talle sõnumi, mis sisaldab summat, mida ta soovib kanalisse deponeerida (130 000 satsi) ja oma avaliku võtme. Bob vastab, jagades oma avalikku võtit.
 
-![LNP201](assets/en/11.webp)
+![LNP201](assets/en/011.webp)
 
 - **Mitme allkirjaga aadressi loomine**: Nende kahe avaliku võtmega loob Alice **2/2 mitme allkirjaga aadressi**, mis tähendab, et hiljem sellel aadressil deponeeritud vahendid nõuavad kulutamiseks mõlema (Alice'i ja Bobi) allkirja.
 
-![LNP201](assets/en/12.webp)
+![LNP201](assets/en/012.webp)
 
 - **Deposiidi tehing**: Alice valmistab ette Bitcoin'i tehingu, et deponeerida vahendid sellele mitme allkirjaga aadressile. Näiteks võib ta otsustada saata **130 000 satoshi** sellele mitme allkirjaga aadressile. See tehing on **koostatud, kuid veel mitte avaldatud** plokiahelas.
 
-![LNP201](assets/en/13.webp)
+![LNP201](assets/en/013.webp)
 
 - **Väljavõtte tehing**: Enne deposiidi tehingu avaldamist koostab Alice väljavõtte tehingu, et ta saaks oma vahendid tagasi saada, kui Bobiga tekib probleem. Tõepoolest, kui Alice avaldab deposiidi tehingu, lukustatakse tema satsid 2/2 mitme allkirjaga aadressile, mis nõuab avamiseks nii tema kui ka Bobi allkirja. Alice kaitseb end selle kaotuse riski eest, koostades väljavõtte tehingu, mis võimaldab tal oma vahendid tagasi saada.
 
-![LNP201](assets/en/14.webp)
+![LNP201](assets/en/014.webp)
 
 - **Bob'i allkiri**: Alice saadab deposiidi tehingu Bobile tõendina ja palub tal allkirjastada väljavõtte tehingu. Kui Bobi allkiri on väljavõtte tehingul saadud, on Alice kindel, et ta saab oma vahendid igal ajal tagasi, kuna nüüd on vaja ainult tema enda allkirja, et mitme allkirjaga lukust avada.
 
-![LNP201](assets/en/15.webp)
+![LNP201](assets/en/015.webp)
 
 - **Deposiidi tehingu avaldamine**: Kui Bobi allkiri on saadud, saab Alice deposiidi tehingu Bitcoin'i plokiahelas avaldada, avades sellega ametlikult Lightningi kanali kahe kasutaja vahel.
 
-![LNP201](assets/en/16.webp)
+![LNP201](assets/en/016.webp)
 
 ### Millal peetakse kanalit avatuks?
 
@@ -247,13 +266,13 @@ Sel peatükis avastame tehnilist toimimist tehingu puhul kanalis Lightningi võr
 
 Nagu varem nähtud, algab Lightning kanal **avamisega** läbi Bitcoin'i tehingu. Kanalit saab **sulgeda** igal ajal, samuti läbi Bitcoin'i tehingu. Nende kahe hetke vahel saab kanalis toimuda peaaegu lõputu arv tehinguid, ilma et peaks minema läbi Bitcoin'i plokiahela. Vaatame, mis toimub kanalis tehingu ajal.
 
-![LNP201](assets/en/17.webp)
+![LNP201](assets/en/017.webp)
 
 ### Kanali algseisund
 
 Kanali avamise hetkel deposiit Alice **130 000 satoshi** kanali multisignatuuri aadressile. Seega, algseisundis on kõik vahendid Alice'i poolel. Enne kanali avamist lasi Alice Bobil allkirjastada ka **väljavõtte tehingu**, mis võimaldaks tal oma vahendid tagasi saada, kui ta sooviks kanali sulgeda.
 
-![LNP201](assets/en/18.webp)
+![LNP201](assets/en/018.webp)
 
 ### Avaldamata Tehingud: Kohustuslikud Tehingud
 
@@ -264,7 +283,7 @@ Võtame näiteks, kus Alice saadab 30 000 satoshi Bobile:
 - **Alguses**: Alice'il on 130 000 satoshi.
 - **Pärast tehingut**: Alice'il on 100 000 satoshi ja Bobil 30 000 satoshi.
   Selle ülekande valideerimiseks loovad Alice ja Bob uue **avaldamata Bitcoin'i tehingu**, mis saadaks **100 000 satoshi Alice'ile** ja **30 000 satoshi Bobile** multisignatuuri aadressilt. Mõlemad pooled konstrueerivad selle tehingu iseseisvalt, kuid sama andmetega (summad ja aadressid). Kui konstruktsioon on valmis, allkirjastab igaüks tehingu ja vahetab teisega oma allkirja. See võimaldab kummalgi poolel tehingu igal ajal avaldada, kui see on vajalik, et taastada oma osa kanalist peamisel Bitcoin'i plokiahelal.
-  ![LNP201](assets/en/19.webp)
+  ![LNP201](assets/en/019.webp)
 
 ### Ülekandeprotsess: Arve
 
@@ -272,7 +291,7 @@ Kui Bob soovib vahendeid vastu võtta, saadab ta Alice'ile **_arve_** 30 000 sat
 
 Iga kohustuslik tehing esindab kanalis vahendite uut jaotust pärast ülekannet. Selles näites, pärast tehingut, on Bobil 30 000 satoshi ja Alice'il 100 000 satoshi. Kui üks kahest osalejast otsustaks selle kohustusliku tehingu plokiahelale avaldada, tulemuseks oleks kanali sulgemine ja vahendid jaotataks vastavalt sellele viimasele jaotusele.
 
-![LNP201](assets/en/20.webp)
+![LNP201](assets/en/020.webp)
 
 ### Uus Seisund Pärast Teist Tehingut
 
@@ -281,7 +300,7 @@ Võtame teise näite: pärast esimest tehingut, kus Alice saatis 30 000 satoshi 
 - **Alice**l on nüüd **110 000 satoshi**.
 - **Bob**il on **20 000 satoshi**.
 
-![LNP201](assets/en/21.webp)
+![LNP201](assets/en/021.webp)
 
 Jällegi, seda tehingut ei avaldata plokiahelas, kuid seda saab igal ajal teha, juhul kui kanal suletakse.
 
@@ -309,7 +328,7 @@ Võtame lihtsa näite:
   - Alice: **60,000 satoshi**
   - Bob: **70,000 satoshi**
 
-![LNP201](assets/en/22.webp)
+![LNP201](assets/en/022.webp)
 
 Igal ajal võivad mõlemad pooled avaldada **viimase allkirjastatud kohustusliku tehingu**, et sulgeda kanal ja taastada oma vahendid.
 
@@ -317,11 +336,11 @@ Igal ajal võivad mõlemad pooled avaldada **viimase allkirjastatud kohustusliku
 
 Potentsiaalne probleem tekib, kui üks osapooltest otsustab **petta**, avaldades vana kohustusliku tehingu. Näiteks võiks Alice avaldada vanema kohustusliku tehingu, kus tal oli **100,000 satoshi**, kuigi tegelikkuses on tal nüüd ainult **60,000**. See võimaldaks tal varastada **40,000 satoshi** Bobilt.
 
-![LNP201](assets/en/23.webp)
+![LNP201](assets/en/023.webp)
 
 Veelgi hullem, Alice võiks avaldada kõige esimese väljavõtmistehingu, selle enne kanali avamist, kus tal oli **130,000 satoshi**, ja seeläbi varastada kogu kanali vahendid.
 
-![LNP201](assets/en/24.webp)
+![LNP201](assets/en/024.webp)
 
 ### Lahendus: Tühistamisvõti ja Ajalukk
 
@@ -330,7 +349,7 @@ Selle liiki petmise vältimiseks Alice'i poolt, lisatakse Lightning Network'is k
 - **Ajalukk**: Iga kohustuslik tehing sisaldab Alice'i vahenditele ajalukku. Ajalukk on nutilepingu primitiiv, mis seab aja tingimuse, mis peab olema täidetud, et tehingut saaks lisada plokki. See tähendab, et Alice ei saa oma vahendeid taastada enne, kui on möödunud teatud arv plokke, kui ta avaldab ühe kohustuslikest tehingutest. See ajalukk hakkab kehtima alates kohustusliku tehingu kinnitamisest. Selle kestus on üldiselt proportsionaalne kanali suurusega, kuid seda saab ka käsitsi seadistada.
 - **Tühistamisvõti**: Alice'i vahendeid saab samuti kohe kulutada Bob, kui tal on **tühistamisvõti**. See võti koosneb saladusest, mida hoiab Alice, ja saladusest, mida hoiab Bob. Pange tähele, et see saladus on iga kohustusliku tehingu jaoks erinev.
    Tänu nende kahe ühendatud mehhanismi kasutamisele on Bobil aega tuvastada Alice'i petmiskatse ja teda karistada, taastades oma väljundi revokatsioonivõtmega, mis Bobi jaoks tähendab kanali kõikide vahendite tagasisaamist. Meie uus kohustuslik tehing näeb nüüd välja selline:
-   ![LNP201](assets/en/25.webp)
+   ![LNP201](assets/en/025.webp)
 
 Vaadelgem selle mehhanismi toimimist üksikasjalikumalt.
 
@@ -345,7 +364,7 @@ Võtame näite, et mõista seda protsessi hästi:
 
 - **Algolek**: Alice'il on **100,000 satoshi**, Bobil **30,000 satoshi**.
 
-![LNP201](assets/en/26.webp)
+![LNP201](assets/en/026.webp)
 
 - Bob soovib saada Alice'ilt läbi nende Lightning kanali 40,000 satoshi. Selleks:
    - Ta saadab talle arve koos oma saladusega revokatsioonivõtme jaoks oma eelmise kohustusliku tehingu jaoks.
@@ -353,11 +372,11 @@ Võtame näite, et mõista seda protsessi hästi:
    - Lõpuks saadab Bob oma allkirja Alice'i uue kohustusliku tehingu jaoks.
    - Need vahetused võimaldavad Alicel saata **40,000 satoshi** Bobile Lightning'i kaudu läbi nende kanali, ja uued kohustuslikud tehingud peegeldavad nüüd seda uut fondide jaotust.
 
-![LNP201](assets/en/27.webp)
+![LNP201](assets/en/027.webp)
 
 - Kui Alice üritab avaldada vana kohustusliku tehingu, kus tal oli endiselt **100,000 satoshi**, saab Bob, olles saanud revokatsioonivõtme, kohe kasutada seda võtit fondide taastamiseks, samal ajal kui Alice on ajaluku tõttu blokeeritud.
 
-![LNP201](assets/en/28.webp)
+![LNP201](assets/en/028.webp)
 
 Isegi kui sel juhul pole Bobil majanduslikku huvi petta proovida, kui ta seda siiski teeb, saab Alice samuti sümmeetrilisest kaitsest kasu, pakkudes talle samu tagatisi.
 
@@ -380,7 +399,7 @@ Sel peatükis arutame **kanali sulgemist** Lightning võrgus, mida tehakse läbi
 
 **Kanali elutsükkel** algab selle **avamisega**, läbi Bitcoin tehingu, seejärel tehakse selles Lightning tehinguid, ja lõpuks, kui osapooled soovivad oma vahendeid taastada, **sulgetakse** kanal läbi teise Bitcoin tehingu. Vahepealsed tehingud Lightning'is esindavad avaldamata **kohustuste tehinguid**.
 
-![LNP201](assets/en/29.webp)
+![LNP201](assets/en/029.webp)
 
 ### Kolm tüüpi kanali sulgemist
 
@@ -395,7 +414,7 @@ Võtame näite:
 - Alicel on **100 000 satoshi** ja Bobil **30 000 satoshi**.
 - See jaotus kajastub **2 kohustuste tehingus** (üks kasutaja kohta), mis ei ole avaldatud, kuid võiksid olla kanali sulgemise korral.
 
-![LNP201](assets/en/30.webp)
+![LNP201](assets/en/030.webp)
 
 ### Hea: koostööaline sulgemine
 
@@ -404,12 +423,12 @@ Võtame näite:
 - Alice saadab Bobile sõnumi Lightning kommunikatsiooniprotokolli kaudu, ettepanekuga kanal sulgeda.
 - Bob nõustub ja mõlemad pooled ei tee kanalis rohkem tehinguid.
 
-![LNP201](assets/en/31.webp)
+![LNP201](assets/en/031.webp)
 
 - Alice ja Bob läbirääkimisi peavad koos **sulgemistehingu** tasude üle. Need tasud arvutatakse üldiselt välja Bitcoin'i tasuturu alusel sulgemise ajal. On oluline märkida, et **alati on see isik, kes kanali avas** (meie näites Alice), kes maksab sulgemistasud.
 - Nad koostavad uue **sulgemistehingu**. See tehing sarnaneb kohustuste tehinguga, kuid ilma ajalukkude või tühistamismehhanismideta, kuna mõlemad pooled teevad koostööd ja petmise ohtu ei ole. Seega on see koostööaline sulgemistehing erinev kohustuste tehingutest.
    Näiteks, kui Alice omab **100,000 satoshit** ja Bob **30,000 satoshit**, siis lõpetav tehing saadab **100,000 satoshit** Alice'i aadressile ja **30,000 satoshit** Bob'i aadressile, ilma ajalukustuseta. Kui mõlemad pooled on tehingu allkirjastanud, avaldab Alice selle. Kui tehing on Bitcoin'i plokiahelas kinnitatud, on Lightning kanal ametlikult suletud.
-   ![LNP201](assets/en/32.webp)
+   ![LNP201](assets/en/032.webp)
 
 **Kooperatiivne sulgemine** on eelistatud sulgemismeetod, kuna see on kiire (ajalukustuseta) ja tehingutasud on kohandatud vastavalt praegustele Bitcoin'i turutingimustele. See väldib liiga väheste tasude maksmist, mis võiks tehingu mempuulis kinni jääda, või tarbetult liiga suurte tasude maksmist, mis toob osalejatele tarbetu rahalise kaotuse.
 
@@ -418,11 +437,11 @@ Võtame näite:
 Kui Alice'i sõlm saadab Bob'ile sõnumi, paludes kooperatiivset sulgemist, kuid ta ei vasta (näiteks internetiühenduse katkemise või tehnilise probleemi tõttu), võib Alice jätkata **sunnitud sulgemisega**, avaldades **viimase allkirjastatud kohustuse tehingu**.
 Sellisel juhul avaldab Alice lihtsalt viimase kohustuse tehingu, mis kajastab kanali seisundit viimase Lightning tehingu toimumise ajal õige fondide jaotusega.
 
-![LNP201](assets/en/33.webp)
+![LNP201](assets/en/033.webp)
 
 See tehing sisaldab **ajalukustust** Alice'i fondidele, muutes sulgemise aeglasemaks.
 
-![LNP201](assets/en/34.webp)
+![LNP201](assets/en/034.webp)
 
 Samuti võivad kohustuse tehingu tasud sulgemise hetkel olla sobimatud, kuna need määrati tehingu loomisel, mõnikord mitu kuud varem. Üldiselt ülehindavad Lightning kliendid tasusid, et vältida tulevikuprobleeme, kuid see võib viia liigsete tasudeni või vastupidi liiga madalateni.
 
@@ -432,11 +451,11 @@ Kokkuvõttes on **sunnitud sulgemine** viimane võimalus, kui teine pool enam ei
 
 Lõpuks toimub sulgemine **petmisega**, kui üks osapooltest üritab avaldada vana kohustuse tehingu, kus nad omavad rohkem vahendeid kui nad peaksid. Näiteks võib Alice avaldada vana tehingu, kus ta omas **120,000 satoshit**, samas kui tegelikult omab ta nüüd ainult **100,000**.
 
-![LNP201](assets/en/35.webp)
+![LNP201](assets/en/035.webp)
 
 Bob, et vältida petmist, jälgib Bitcoin'i plokiahelat ja selle mempuuli, et tagada, et Alice ei avaldaks vana tehingut. Kui Bob tuvastab petmise katse, saab ta kasutada **tühistamisvõtit**, et taastada Alice'i vahendid ja karistada teda, võttes kogu kanali fondid. Kuna Alice on oma väljundi ajalukustusega blokeeritud, on Bob'il aega seda kulutada ilma oma poolel ajalukustuseta, et taastada kogu summa aadressil, mida ta omab.
 
-![LNP201](assets/en/36.webp)
+![LNP201](assets/en/036.webp)
 
 Ilmselgelt võib petmine potentsiaalselt õnnestuda, kui Bob ei tegutse Alice'i väljundi ajalukustusele seatud ajapiirangus. Sellisel juhul avatakse Alice'i väljund, võimaldades tal seda tarbida, et luua uus väljund aadressile, mida ta kontrollib.
 
@@ -472,7 +491,7 @@ Näiteks kujutage ette, et:
 - **Alice** (oranžis) omab kanalit **Suzie**ga (hallis), kus Alice'i poolel on **100,000 satoshi** ja Suzie poolel **30,000 satoshi**.
 - **Suzie** omab kanalit **Bobiga**, kus Suzie poolel on **250,000 satoshi** ja Bobil pole satoshisid.
 
-![LNP201](assets/en/37.webp)
+![LNP201](assets/en/037.webp)
 
 Kui Alice soovib saata vahendeid Bobile ilma temaga otsekanalit avamata, peab ta minema läbi Suzie, ja iga kanal peab kohandama likviidsust mõlemal poolel. **Saadetud satoshid jäävad oma vastavatesse kanalitesse**; need ei "ületa" tegelikult kanaleid, vaid ülekanne toimub iga kanali sisese likviidsuse kohandamise kaudu.
 
@@ -481,7 +500,7 @@ Oletame, et Alice soovib saata **50,000 satoshi** Bobile:
 - **Alice** saadab 50,000 satoshi **Suzie**le nende ühises kanalis.
 - **Suzie** kordab seda ülekannet, saates 50,000 satoshi **Bobile** nende kanalis.
 
-![LNP201](assets/en/38.webp)
+![LNP201](assets/en/038.webp)
 Seega suunatakse makse Bobile läbi likviidsuse liikumise igas kanalis. Operatsiooni lõppedes on Alicel 50 000 satsi. Ta on tõepoolest üle kandnud 50 000 satsi, kuna algselt oli tal 100 000. Bobil omakorda on nüüd 50 000 satsi rohkem. Suzie jaoks (vahepealne sõlm) on see operatsioon neutraalne: algselt oli tal oma kanalis Alicega 30 000 satsi ja oma kanalis Bobiga 250 000 satsi, kokku 280 000 satsi. Pärast operatsiooni omab ta oma kanalis Alicega 80 000 satsi ja oma kanalis Bobiga 200 000 satsi, mis on sama summa kui alguses.
 See ülekanne on seega piiratud **saadaoleva likviidsusega** ülekande suunas.
 
@@ -493,7 +512,7 @@ Võtame teoreetilise näite teisest võrgust, kus on:
 - **90 000 satoshit** **Suzie** poolel ja **200 000 satoshit** **Caroli** poolel (roosas).
 - **150 000 satoshit** **Caroli** poolel ja **100 000 satoshit** **Bobi** poolel.
 
-![LNP201](assets/en/39.webp)
+![LNP201](assets/en/039.webp)
 
 Maksimaalne summa, mida Alice saab Bobile selles konfiguratsioonis saata, on **90 000 satoshit**, kuna teda piirab väikseim saadaolev likviidsus kanalis **Suzielt Carolile**. Vastupidises suunas (Bobilt Aliceni) ei ole makse võimalik, kuna **Suzie** poolel kanalis **Alice'iga** ei ole satoshi'e. Seega ei ole selles suunas kasutatavat **marsruuti**.
 Alice saadab **40 000 satoshit** Bobile läbi kanalite:
@@ -502,11 +521,11 @@ Alice saadab **40 000 satoshit** Bobile läbi kanalite:
 - Suzie kannab 40 000 satoshit Carolile nende ühises kanalis.
 - Carol lõpuks kannab 40 000 satoshit Bobile.
 
-![LNP201](assets/en/40.webp)
+![LNP201](assets/en/040.webp)
 
 **Saadetud satoshid** jäävad iga kanali sisse, nii et Caroli poolt Bobile saadetud satoshid ei ole samad, mis Alice saatis Suziele. Ülekanne toimub ainult likviidsuse reguleerimisega iga kanali sees. Lisaks jääb kanalite kogumahutavus muutumatuks.
 
-![LNP201](assets/en/41.webp)
+![LNP201](assets/en/041.webp)
 
 Nagu eelmises näites, pärast tehingut on allikasõlmel (Alice) 40 000 satoshit vähem. Vahepealsed sõlmed (Suzie ja Carol) säilitavad sama kogusumma, muutes operatsiooni nende jaoks neutraalseks. Lõpuks saab sihtsõlm (Bob) juurde 40 000 satoshit.
 
@@ -525,14 +544,14 @@ Näiteks Alice'i ja Suzie vahelise kanali puhul võime omada:
 - **Alice**: baastasu 1 sat ja 1 ppm muutuva tasu jaoks.
 - **Suzie**: baastasu 0.5 sat ja 10 ppm muutuva tasu jaoks.
 
-![LNP201](assets/en/42.webp)
+![LNP201](assets/en/042.webp)
 
 Et paremini mõista, kuidas tasud töötavad, uurigem sama Lightning Networki nagu varem, kuid nüüd järgmiste marsruutimistasudega:
 
 - Kanal **Alice - Suzie**: baastasu 1 satoshi ja 1 ppm Alice'i jaoks.
 - Kanal **Suzie - Carol**: baastasu 0 satoshi ja 200 ppm Suzie jaoks.
 - **Carol - Bob** Kanal: baastasu 1 satoshi ja 1 ppm Suzie 2 jaoks.
-  ![LNP201](assets/en/43.webp)
+  ![LNP201](assets/en/043.webp)
 
 Sama makse puhul **40,000 satoshis** Bob'ile peab Alice saatma veidi rohkem, kuna iga vahendaja sõlm võtab oma tasud:
 
@@ -546,11 +565,11 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 
 Seega on selle makse kogutasud sellel teel **9.04 satoshit**. Seega peab Alice saatma **40,009.04 satoshit**, et Bob saaks täpselt **40,000 satoshit**.
 
-![LNP201](assets/en/44.webp)
+![LNP201](assets/en/044.webp)
 
 Seega on likviidsus uuendatud:
 
-![LNP201](assets/en/45.webp)
+![LNP201](assets/en/045.webp)
 
 ### Onion marsruutimine
 
@@ -581,11 +600,11 @@ Maksete suunamisel tekib seega vajadus usaldada vahendajasõlmi ja ka vahendajas
 
 Alice soovib saata 40 000 satsi Bobile, kuid tal pole temaga otsest kanalit ja ta ei soovi seda avada. Ta otsib marsruuti ja otsustab minna läbi Suzie sõlme.
 
-![LNP201](assets/en/46.webp)
+![LNP201](assets/en/046.webp)
 
 Kui Alice saadab naiivselt 40 000 satoshit Suziele, lootes, et Suzie kannab selle summa Bobile üle, võib Suzie raha endale jätta ja mitte midagi Bobile edastada.
 
-![LNP201](assets/en/47.webp)
+![LNP201](assets/en/047.webp)
 Selle olukorra vältimiseks kasutame Lightningis HTLC-sid (Hashed Time-Locked Contracts), mis muudavad makse vahendajasõlmele tingimuslikuks, tähendades, et Suzie peab täitma teatud tingimused, et pääseda ligi Alice'i rahadele ja need Bobile edasi kanda.
 
 ### Kuidas HTLC-d Töötavad
@@ -597,7 +616,7 @@ HTLC on eriline leping, mis põhineb kahe põhimõttel:
 
 Siin on, kuidas see protsess meie näites Alice'i, Suzie ja Bobiga töötab:
 
-![LNP201](assets/en/48.webp)
+![LNP201](assets/en/048.webp)
 **Saladuse loomine**: Bob genereerib juhusliku saladuse, mida tähistatakse _s_-na (eelkujutis), ja arvutab selle räsi, mida tähistatakse _r_-na, kasutades räsimisfunktsiooni, mida tähistatakse _h_-na. Meil on:
 
 $$
@@ -606,11 +625,11 @@ $$
 
 Räsimisfunktsiooni kasutamine muudab võimatuks leida _s_ ainult _h(s)_ põhjal, kuid kui _s_ on antud, on lihtne kontrollida, et see vastab _h(s)_-le.
 
-![LNP201](assets/en/49.webp)
+![LNP201](assets/en/049.webp)
 
 **Maksepäringu saatmine**: Bob saadab Alicele **arve**, paludes makset. See arve sisaldab muuhulgas räsi _r_.
 
-![LNP201](assets/en/50.webp)
+![LNP201](assets/en/050.webp)
 
 **Tingimusliku makse saatmine**: Alice saadab Suziele HTLC 40 000 satoshi ulatuses. Tingimus, mille alusel Suzie need vahendid saab, on see, et ta peab Alicele andma saladuse _s'_, mis rahuldab järgmist võrrandit:
 
@@ -618,7 +637,7 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/51.webp)
+![LNP201](assets/en/051.webp)
 
 **HTLC ülekandmine lõppsaajale**: Suzie, et saada Alicelt 40 000 satoshit, peab edastama sarnase HTLC 40 000 satoshi ulatuses Bobile, kellel on sama tingimus, nimelt et ta peab andma Suziele saladuse _s'_, mis rahuldab võrrandit:
 
@@ -626,39 +645,39 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/52.webp)
+![LNP201](assets/en/052.webp)
 
 **Kinnitamine saladuse _s_ abil**: Bob annab _s_-i Suziele, et saada lubatud 40 000 satoshit HTLC-st. Selle saladusega saab Suzie seejärel avada Alice'i HTLC ja saada Alicelt 40 000 satoshit. Makse on seejärel õigesti suunatud Bobile.
 
-![LNP201](assets/en/53.webp)
+![LNP201](assets/en/053.webp)
 See protsess takistab Suziel hoidmast Alice'i vahendeid ilma ülekannet Bobile lõpule viimata, kuna ta peab saatma makse Bobile, et saada saladus _s_ ja seeläbi avada Alice'i HTLC. Operatsioon jääb samaks isegi siis, kui marsruut hõlmab mitut vahendajat: see on lihtsalt küsimus Suzie sammude kordamisest iga vahendaja jaoks. Iga sõlm on kaitstud HTLC-de tingimustega, sest viimase HTLC avamine saaja poolt käivitab automaatselt kõigi teiste HTLC-de kaskaadse avamise.
 
 ### HTLC-de aegumine ja haldamine probleemide korral
 
 Kui makseprotsessi ajal üks vahendajatest või saaja sõlm ei vasta, eriti interneti- või elektrikatkestuse korral, siis makset ei saa lõpule viia, kuna vajalikku saladust HTLC-de avamiseks ei edastata. Võttes meie näite Alicest, Suziest ja Bobist, tekib see probleem näiteks siis, kui Bob ei anna saladust _s_ Suziele. Sel juhul blokeeritakse kõik marsruudi ülesvoolu HTLC-d ja samuti nende poolt tagatud vahendid.
 
-![LNP201](assets/en/54.webp)
+![LNP201](assets/en/054.webp)
 
 Selle vältimiseks on Lightningi HTLC-del aegumistähtaeg, mis võimaldab HTLC eemaldada, kui seda ei ole teatud aja jooksul lõpule viidud. Aegumine järgib kindlat järjekorda, kuna see algab esmalt HTLC-ga, mis on saajale kõige lähemal, ja liigub seejärel järk-järgult ülespoole tehingu väljastajani. Meie näites, kui Bob ei anna kunagi saladust _s_ Suziele, põhjustaks see esmalt Suzie HTLC aegumise Bobi suunas.
 
-![LNP201](assets/en/55.webp)
+![LNP201](assets/en/055.webp)
 
 Seejärel Alice'i HTLC Suzie suunas.
-![LNP201](assets/en/56.webp)
+![LNP201](assets/en/056.webp)
 Kui aegumise järjekord oleks vastupidine, võiks Alice oma makse tagasi saada enne, kui Suzie suudaks end potentsiaalse pettuse eest kaitsta. Tõepoolest, kui Bob tuleb tagasi, et nõuda oma HTLC-d, samal ajal kui Alice on juba oma oma eemaldanud, oleks Suzie ebasoodsas olukorras. See kaskaadne HTLC-de aegumise järjekord tagab seega, et ükski vahendajast sõlm ei kannataks ebaõiglasi kaotusi.
 
 ### HTLC-de esitus kohustuslike tehingute puhul
 
 Kohustuslikud tehingud esitavad HTLC-sid sellisel viisil, et tingimused, mida need Lightning'ile seavad, saab üle kanda Bitcoinile, juhul kui kanal suletakse sunniviisiliselt HTLC eluea jooksul. Meenutuseks, kohustuslikud tehingud esindavad kahe kasutaja vahelise kanali praegust seisundit ja võimaldavad ühepoolset sunniviisilist sulgemist probleemide korral. Iga kanali uue seisundi korral luuakse 2 kohustuslikku tehingut: üks mõlemale poolele. Vaatame meie näidet Alice'i, Suzie ja Bobiga, kuid uurime lähemalt, mis toimub kanalitasandil Alice'i ja Suzie vahel, kui HTLC luuakse.
-![LNP201](assets/en/57.webp)
+![LNP201](assets/en/057.webp)
 
 Enne 40 000 satsi makse algust Alice'i ja Bobi vahel, on Alice'il oma kanalis Suzie'ga 100 000 satsi, samal ajal kui Suzie'l on 30 000. Nende kohustuslikud tehingud on järgmised:
 
-![LNP201](assets/en/58.webp)
+![LNP201](assets/en/058.webp)
 
 Alice on just saanud Bobi arve, mis sisaldab märkimisväärselt _r_, salajase väärtuse räsi. Seega saab ta luua Suzie'ga 40 000 satoshi suuruse HTLC. See HTLC on esitatud viimastes kohustuslikes tehingutes väljundina nimega "**_HTLC Out_**" Alice'i poolel, kuna vahendid on väljaminevad, ja "**_HTLC In_**" Suzie poolel, kuna vahendid on sissetulevad.
 
-![LNP201](assets/en/59.webp)
+![LNP201](assets/en/059.webp)
 
 Need HTLC-ga seotud väljundid jagavad täpselt samu tingimusi, nimelt:
 
@@ -669,7 +688,7 @@ Need tingimused kehtivad ainult juhul, kui kanal suletakse (st kohustuslik tehin
 
 Lisaks, kui kanal suletakse, samal ajal kui mitu HTLC-d on ootel, luuakse nii palju lisaväljundeid, kui on käimasolevaid HTLC-sid.
 Kui kanalit ei suleta, siis pärast Lightningi makse aegumist või õnnestumist luuakse uued kohustuslikud tehingud, et kajastada kanali uut, nüüd stabiilset seisundit, st ilma ühegi ootel HTLC-ta. Seega saab HTLC-dega seotud väljundid kohustuslikest tehingutest eemaldada.
-![LNP201](assets/en/60.webp)
+![LNP201](assets/en/060.webp)
 Lõpuks, kui koostööl põhinev kanali sulgemine toimub samal ajal, kui HTLC on aktiivne, lõpetavad Alice ja Suzie uute maksete vastuvõtmise ja ootavad käimasolevate HTLC-de lahendamist või aegumist. See võimaldab neil avaldada kergema sulgemistehingu, ilma HTLC-dega seotud väljunditeta, vähendades seeläbi tasusid ja vältides võimaliku ajaluku ootamist.
 **Mida peaksite sellest peatükist kaasa võtma?**
 
@@ -693,9 +712,9 @@ Eelmistes peatükkides nägime, kuidas kasutada teiste sõlmede kanaleid maksete
 
 Nagu oleme näinud, peab Lightningis makset saatva sõlme arvutama täieliku marsruudi saajani, kuna kasutame sibulmarsruutimise süsteemi. Vahepealsed sõlmed ei tea ei lähtepunkti ega lõppsihtkohta. Nad teavad ainult, kust makse tuleb ja millisele sõlmele nad peavad selle järgmisena edastama. See tähendab, et saatva sõlme peab säilitama dünaamilise kohaliku topoloogia võrgust, olemasolevate Lightning sõlmede ja nende vaheliste kanalitega, arvestades avamisi, sulgemisi ja olekuuuendusi.
 
-![LNP201](assets/en/61.webp)
+![LNP201](assets/en/061.webp)
 Isegi selle Lightning Networki topoloogiaga on marsruutimiseks olulist infot, mis jääb saatva sõlme jaoks kättesaamatuks, mis on kanalites igal hetkel täpne likviidsuse jaotus. Tõepoolest, iga kanal näitab ainult oma **koguvõimsust**, kuid fondide sisemine jaotus on teada ainult kahele osalevale sõlmele. See tekitab tõhusa marsruutimise väljakutseid, kuna makse õnnestumine sõltub märkimisväärselt sellest, kas selle summa on väiksem kui valitud marsruudil olev madalaim likviidsus. Siiski, likviidsused ei ole saatva sõlme jaoks kõik nähtavad.
-![LNP201](assets/en/62.webp)
+![LNP201](assets/en/062.webp)
 
 ### Võrgukaardi Uuendamine
 
@@ -711,7 +730,7 @@ Kahe peamise Lightning sõlmede vahel vahetatava sõnumi on järgmised:
 
 Võtame näiteks väikese Lightning Network'i, kus on 7 sõlme: Alice, Bob, 1, 2, 3, 4 ja 5. Kujutame ette, et Alice soovib saata makse Bobile, kuid peab läbima vahendajate sõlmed.
 
-![LNP201](assets/en/63.webp)
+![LNP201](assets/en/063.webp)
 
 Siin on tegelik rahade jaotus nendes kanalites:
 
@@ -724,11 +743,11 @@ Siin on tegelik rahade jaotus nendes kanalites:
 - **Kanal 3 ja Bobi vahel**: 50,000 satsi 3 poolel, 250,000 Bobi poolel (kogumaht 300,000 satsi).
 - **Kanal 5 ja Bobi vahel**: 260,000 satsi 5 poolel, 100,000 Bobi poolel (kogumaht 360,000 satsi).
 
-![LNP201](assets/en/64.webp)
+![LNP201](assets/en/064.webp)
 
 Makse tegemiseks 100,000 satsi ulatuses Alice'ilt Bobile on suunamisvõimalused piiratud iga kanali saadaoleva likviidsusega. Alice'i jaoks optimaalne marsruut, lähtudes teadaolevatest likviidsuse jaotustest, võiks olla jada `Alice → 1 → 2 → 4 → 5 → Bob`:
 
-![LNP201](assets/en/65.webp)
+![LNP201](assets/en/065.webp)
 
 Kuid kuna Alice ei tea iga kanali täpset rahade jaotust, peab ta optimaalse marsruudi tõenäosuslikult hindama, võttes arvesse järgmisi kriteeriume:
 
@@ -746,11 +765,11 @@ Kuid kuna Alice ei tea iga kanali täpset rahade jaotust, peab ta optimaalse mar
 
 Alice otsustab testida oma esimest marsruuti (`Alice → 1 → 2 → 5 → Bob`). Seega saadab ta HTLC 100 000 satsi sõlmele 1. See sõlm kontrollib, kas tal on piisavalt likviidsust sõlmega 2, ja jätkab ülekannet. Sõlm 2 saab HTLC sõlmelt 1, kuid mõistab, et tal pole oma kanalis sõlmega 5 piisavalt likviidsust, et suunata 100 000 satsi makset. Seejärel saadab ta veateate tagasi sõlmele 1, kes edastab selle Alice'ile. See marsruut on ebaõnnestunud.
 
-![LNP201](assets/en/66.webp)
+![LNP201](assets/en/066.webp)
 
 Seejärel üritab Alice suunata oma makse kasutades oma teist marsruuti (`Alice → 1 → 2 → 4 → 5 → Bob`). Ta saadab HTLC 100 000 satsi sõlmele 1, kes edastab selle sõlmele 2, seejärel sõlmele 4, sõlmele 5 ja lõpuks Bobile. Seekord on likviidsus piisav ja marsruut toimib. Iga sõlm avab oma HTLC kaskaadselt, kasutades Bobi poolt antud eelkujutist (saladus _s_), mis võimaldab Alice'i makse Bobile edukalt lõpule viia.
 
-![LNP201](assets/en/67.webp)
+![LNP201](assets/en/067.webp)
 
 Marsruudi otsing toimub järgmiselt: saatja sõlm alustab parimate võimalike marsruutide tuvastamisega, seejärel üritab makseid järjestikku, kuni leitakse toimiv marsruut.
 
@@ -773,7 +792,7 @@ Järgmises peatükis uurime spetsiifiliselt arvete toimimist, lisaks mõningaid 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 Selles peatükis vaatame lähemalt Lightning **arvete** tööpõhimõtet, see tähendab maksepäringuid, mida saaja sõlm saadab saatja sõlmele. Eesmärk on mõista, kuidas Lightningis makseid teha ja vastu võtta. Arutleme ka kahe klassikalisele arvetele alternatiivi üle: LNURL ja Keysend.
-![LNP201](assets/en/68.webp)
+![LNP201](assets/en/068.webp)
 
 ### Lightning Arvete Struktuur
 
@@ -855,7 +874,7 @@ Traditsioonilises tehingus, nagu poeost, genereeritakse arve kogusumma tasumisek
 
 Teatud olukordades, nagu bitcoiinide väljavõtmine veebiteenusest, on traditsiooniline protsess liiga tülikas. Sellistel juhtudel lihtsustab **LNURL** väljavõtmise lahendus seda protsessi, kuvades QR-koodi, mille saaja rahakott skaneerib automaatselt arve loomiseks. Teenus seejärel maksab arve ja kasutaja näeb lihtsalt koheselt toimuvat väljavõtmist.
 
-![LNP201](assets/en/69.webp)
+![LNP201](assets/en/069.webp)
 
 LNURL on suhtlusprotokoll, mis määratleb funktsioonide kogumi, mille eesmärk on lihtsustada suhtlust Lightning sõlmede ja klientide, samuti kolmandate osapoolte rakenduste vahel. Nagu me just nägime, on LNURL väljavõtmine seega vaid üks näide teiste funktsioonide hulgas.
 See protokoll põhineb HTTP-l ja võimaldab luua linke erinevateks toiminguteks, nagu makse- või väljavõtmistaotlus, või muud funktsioonid, mis parandavad kasutajakogemust. Iga LNURL on bech32 kodeeritud URL lnurl eesliitega, mis, kui skaneeritud, käivitab Lightning rahakotis automaatsete toimingute seeria.
@@ -867,7 +886,7 @@ Teine huvitav juhtum on vahendite ülekandmine ilma eelnevalt saadud arveta, mid
 
 Lihtsustatult, selles protokollis on saatja see, kes genereerib HTLC-des kasutatava saladuse, mitte saaja. Praktiliselt võimaldab see saatjal teha makse ilma eelnevalt saajaga suhelnud olemata.
 
-![LNP201](assets/en/70.webp)
+![LNP201](assets/en/070.webp)
 
 **Mida peaksite sellest peatükist kaasa võtma?**
 
@@ -897,7 +916,7 @@ Need profiilid ei ole muidugi fikseeritud; kasutaja võib sõltuvalt tehingutest
 
 Paremaks mõistmiseks võtame näite lihtsast võrgust, mis koosneb kolmest sõlmest: ostja (Alice), ruuter (Suzie) ja müüja (Bob).
 
-![LNP201](assets/en/71.webp)
+![LNP201](assets/en/071.webp)
 
 Kujutage ette, et ostja soovib saata 30 000 satsi müüjale ja et makse läheb läbi ruuteri sõlme. Igal osapoolel peab siis olema minimaalne likviidsuse summa makse suunas:
 
@@ -905,7 +924,7 @@ Kujutage ette, et ostja soovib saata 30 000 satsi müüjale ja et makse läheb l
 - Müüjal peab olema kanal, kus 30 000 satoshit on vastaspoolel, et suuta neid vastu võtta.
 - Ruuteril peab olema 30 000 satoshit maksja poolel oma kanalis ja samuti 30 000 satoshit oma poolel kanalis müüjaga, et suuta makset suunata.
 
-![LNP201](assets/en/72.webp)
+![LNP201](assets/en/072.webp)
 
 ### Likviidsuse Haldamise Strateegiad
 
@@ -916,11 +935,11 @@ Teisest küljest on müüja ülesanne keerulisem. Selleks, et suuta makseid vast
 - **Likviidsuse liikumine**: Müüja võib samuti avada kanali ja kanda osa vahenditest vastaspoolele, tehes fiktiivseid makseid teisele sõlmele, mis tagastab raha muul viisil. Järgmises osas näeme, kuidas seda toimingut teostada.
 - **Kolmnurkne avamine**: Platvormid on olemas sõlmedele, kes soovivad kanaleid koostöös avada, võimaldades igaühel saada kohe sissetulevat ja väljaminevat likviidsust. Näiteks [LightningNetwork+](https://lightningnetwork.plus/) pakub seda teenust. Kui Alice, Bob ja Suzie soovivad avada kanali 100 000 satiga, võivad nad sellel platvormil kokku leppida, et Alice avab kanali Bobi suunas, Bob Suzie suunas ja Suzie Alice'i suunas. Sel viisil on igal neist 100 000 sati väljaminevat likviidsust ja 100 000 sati sissetulevat likviidsust, olles samal ajal lukustanud ainult 100 000 sati.
 
-![LNP201](assets/en/73.webp)
+![LNP201](assets/en/073.webp)
 
 - **Kanalite ostmine**: Teenused Lightning kanalite rentimiseks on samuti olemas, et saada sissetulevat likviidsust, nagu [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) või [Lightning Labs Pool](https://lightning.engineering/pool/). Näiteks Alice võib osta kanali ühe miljoni satoshiga oma sõlme suunas, et saada makseid vastu võtta.
 
-![LNP201](assets/en/74.webp)
+![LNP201](assets/en/074.webp)
 
 Lõpuks, marsruuterite jaoks, kelle eesmärk on maksimeerida töödeldud maksete arvu ja kogutud tasusid, peavad nad:
 
@@ -931,7 +950,7 @@ Lõpuks, marsruuterite jaoks, kelle eesmärk on maksimeerida töödeldud maksete
 
 [Loop Out](https://lightning.engineering/loop/) teenus, mida pakub Lightning Labs, võimaldab liigutada likviidsust kanali vastaspoolele, taastades samal ajal vahendid Bitcoin'i plokiahelas. Näiteks Alice saadab 1 miljon satoshit Lightningu kaudu loop sõlmele, mis seejärel tagastab need vahendid talle on-chain bitcoinides. See tasakaalustab tema kanali 1 miljoni satoshiga mõlemal poolel, optimeerides tema võimet makseid vastu võtta.
 
-![LNP201](assets/en/75.webp)
+![LNP201](assets/en/075.webp)
 
 Seega võimaldab see teenus sissetulevat likviidsust, taastades samal ajal oma bitcoinid on-chain, mis aitab piirata sularaha immobiliseerimist, mis on vajalik Lightningu maksete vastuvõtmiseks.
 
@@ -962,12 +981,12 @@ Esimestes peatükkides uurisime, kuidas kaks osapoolt, avades maksekanali, saava
 
 - **Kanali Avamine**: Kanali loomine toimub läbi Bitcoin'i tehingu, mis lukustab vahendid 2/2 multisignatuuriga aadressile. See sissemakse esindab Lightning kanalit plokiahelas.
 
-![LNP201](assets/en/76.webp) 2. **Tehingud Kanalis**: Selles kanalis on seejärel võimalik teostada arvukalt tehinguid ilma, et peaks neid plokiahelas avaldama. Iga Lightning tehing loob kanali uue seisundi, mida kajastab kohustuse tehing.
-![LNP201](assets/en/77.webp)
+![LNP201](assets/en/076.webp) 2. **Tehingud Kanalis**: Selles kanalis on seejärel võimalik teostada arvukalt tehinguid ilma, et peaks neid plokiahelas avaldama. Iga Lightning tehing loob kanali uue seisundi, mida kajastab kohustuse tehing.
+![LNP201](assets/en/077.webp)
 
 - **Turvamine ja Sulgemine**: Osalejad kinnitavad kanali uut seisundit, vahetades tühistamisvõtmeid, et turvata vahendeid ja vältida pettust. Mõlemad pooled saavad kanali koostööd tehes sulgeda, tehes uue tehingu Bitcoin'i plokiahelas, või viimase abinõuna läbi sunnitud sulgemise. See viimane võimalus, kuigi vähem efektiivne, kuna see on pikem ja mõnikord halvasti hinnatud tasude osas, võimaldab siiski vahendite taastamist. Pettuse korral saab ohver petturit karistada, taastades kõik kanali vahendid plokiahelas.
 
-![LNP201](assets/en/78.webp)
+![LNP201](assets/en/078.webp)
 
 ### Kanalite Võrgustik
 
@@ -975,15 +994,15 @@ Isolatsioonis kanalite uurimise järel laiendasime oma analüüsi kanalite võrg
 
 - **Suunamine**: Kui kaks osapoolt ei ole otseselt ühendatud kanaliga, võimaldab võrgustik suunata makseid läbi vahendajate sõlmede. Maksed liiguvad siis ühest sõlmest teise.
 
-![LNP201](assets/en/79.webp)
+![LNP201](assets/en/079.webp)
 
 - **HTLCd**: Vahendajate sõlmede kaudu liikuvad maksed on turvatud "_Hash Time-Locked Contracts_" (HTLC) abil, mis võimaldavad vahendeid lukustada kuni makse on lõpuni teostatud.
 
-![LNP201](assets/en/80.webp)
+![LNP201](assets/en/080.webp)
 
 - **Onion Routing**: Makse konfidentsiaalsuse tagamiseks maskeerib onion routing lõppsihtkoha vahendajate sõlmede eest. Saatja sõlm peab seega arvutama kogu marsruudi, kuid kanalite likviidsuse täieliku teabe puudumisel toimub makse suunamine järjestikuste katsete kaudu.
 
-![LNP201](assets/en/81.webp)
+![LNP201](assets/en/081.webp)
 
 ### Likviidsuse Haldamine
 
@@ -993,13 +1012,13 @@ Oleme näinud, et likviidsuse haldamine on Lightningis väljakutse, et tagada ma
 
 - **Likviidsuse Liigutamine**: Maksete saatmisega teistesse kanalitesse liigub likviidsus vastasküljele.
 
-![LNP201](assets/en/82.webp)
+![LNP201](assets/en/082.webp)
 
 - **Teenuste Nagu Loop ja Pool Kasutamine**: Need teenused võimaldavad tasakaalustada või osta kanaleid likviidsusega vastasküljel.
-  ![LNP201](assets/en/83.webp)
+  ![LNP201](assets/en/083.webp)
 - **Koostöölised Avamised**: On ka platvorme saadaval, et ühenduda kolmnurksete avamiste sooritamiseks ja sissetuleva likviidsuse saamiseks.
 
-![LNP201](assets/en/84.webp)
+![LNP201](assets/en/084.webp)
 
 # Lõpusektsioon
 

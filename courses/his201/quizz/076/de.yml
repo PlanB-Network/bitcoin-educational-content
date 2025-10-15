@@ -6,4 +6,4 @@ wrong_answers:
   - Nils Schneider
 explanation: |
   Dieses System wurde nach dem Vorbild der Python Enhancement Proposals (PEP) speziell für die Programmiersprache Python entwickelt.
-reviewed: false
+reviewed: true

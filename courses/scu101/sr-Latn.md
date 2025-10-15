@@ -80,7 +80,7 @@ Ako tražite naprednije veštine na ovu temu, naši resursi, tutorijali ili drug
 Za početak, razgovaraćemo o važnosti izbora web pregledača i njegovim implikacijama na sigurnost. Zatim ćemo istražiti specifičnosti pregledača, posebno u vezi sa upravljanjem kolačićima. Takođe ćemo videti kako osigurati sigurnije i anonimnije iskustvo pregledanja, koristeći alate kao što je TOR. Nakon toga, fokusiraćemo se na upotrebu VPN-ova za poboljšanje zaštite vaših podataka. Na kraju, završićemo sa preporukama za sigurno korišćenje WiFi konekcija.
 
 
-![](assets/en/1.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 **Sekcija 2: Najbolje prakse za korišćenje računara**
@@ -93,7 +93,7 @@ Za početak, razgovaraćemo o važnosti izbora web pregledača i njegovim implik
 
 U ovom odeljku pokrićemo tri ključne oblasti računarske bezbednosti. Prvo ćemo istražiti različite operativne sisteme: Mac, PC i Linux, ističući njihove specifičnosti i prednosti. Zatim ćemo se upustiti u metode za efikasnu zaštitu od pokušaja hakovanja i jačanje bezbednosti vaših uređaja. Na kraju, naglasićemo važnost redovne zaštite i bekapovanja vaših podataka kako biste sprečili bilo kakav gubitak ili ransomware.
 
-![](assets/en/2.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 **Sekcija 3: Implementacija rešenja**
@@ -110,7 +110,7 @@ U ovom praktičnom trećem delu, preći ćemo na implementaciju vaših konkretni
 
 Prvo ćemo videti kako zaštititi vaš email inbox, koji je ključan za vašu komunikaciju i često meta hakera. Zatim ćemo vas upoznati sa menadžerom lozinki: praktično rešenje da više ne zaboravljate ili mešate lozinke, dok ih držite sigurnima. Na kraju, razgovaraćemo o dodatnoj sigurnosnoj meri, dvofaktorskoj autentifikaciji, koja dodaje dodatni Layer zaštite vašim nalozima. Sve će biti objašnjeno jasno i pristupačno.
 
-![](assets/en/3.webp)
+![image](assets/sr-Latn/003.webp)
 
 
 Spremni da ojačate svoju digitalnu sigurnost i preuzmete kontrolu nad svojim podacima? Krenimo!
@@ -137,14 +137,14 @@ Preporučuje se preuzimanje softvera sa zvanične veb stranice izdavača, a ne s
 
 Primer: Koristite www.signal.org/download umesto www.logicieltelechargement.fr/signal.
 
-![](assets/notext/4.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 Takođe je preporučljivo davati prioritet softveru otvorenog koda jer su često sigurniji i bez zlonamernog softvera. Softver "otvorenog koda" je softver čiji je kod poznat i dostupan svima. Ovo omogućava, između ostalog, proveru da nema skrivenog pristupa za krađu vaših ličnih podataka.
 
 
 > Bonus: Open-source softver je često besplatan! Ovaj univerzitet je 100% open source, tako da možete pogledati i naš kod na našem GitHub-u.
-> ![](assets/notext/5.webp)
+> ![image](assets/sr-Latn/005.webp)
 
 ### Upravljanje kolačićima: Greške i najbolje prakse
 
@@ -161,7 +161,7 @@ Postoje dve glavne porodice pregledača: oni zasnovani na Chrome-u i oni zasnova
 
 Iako obe porodice nude sličan nivo sigurnosti, preporučuje se izbegavanje Google Chrome pregledača zbog njegovih tragača. Lakše alternative za Chrome, kao što su Chromium ili Brave, mogu biti poželjne. Brave se posebno preporučuje zbog ugrađenog blokatora reklama. Možda će biti potrebno koristiti više pregledača za pristup određenim veb sajtovima.
 
-![](assets/notext/6.webp)
+![image](assets/sr-Latn/006.webp)
 
 
 ### Privatno pretraživanje, TOR i druge alternative za sigurnije i anonimnije pretraživanje
@@ -175,7 +175,7 @@ Naprednija alternativa je TOR (The Onion Router) mreža, koja nudi anonimnost ma
 
 TOR je legalan i koriste ga novinari, aktivisti za slobodu i drugi koji žele da izbegnu cenzuru u autoritarnim zemljama. Međutim, važno je razumeti da TOR ne obezbeđuje sigurnost posećenih sajtova niti samog računara. Takođe, korišćenje TOR-a može usporiti internet konekciju jer podaci prolaze kroz računare tri drugih osoba pre nego što stignu do odredišta. Takođe je bitno napomenuti da TOR nije nepogrešivo rešenje za garantovanje 100% anonimnosti i ne bi trebalo da se koristi za ilegalne aktivnosti.
 
-![](assets/notext/7.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
@@ -194,7 +194,7 @@ Zaštita vaše internet konekcije je ključni aspekt online sigurnosti, a koriš
 
 'VPN-ovi su alati koji šifruju podatke prenesene putem interneta, čineći vezu sigurnijom. U profesionalnom kontekstu, VPN-ovi omogućavaju zaposlenima da sigurno pristupe internom mrežom kompanije na daljinu. Razmenjeni podaci su šifrovani, što otežava trećim stranama da ih presretnu. Pored obezbeđivanja pristupa internoj mreži, korišćenje VPN-a može omogućiti korisniku da usmeri svoju internet vezu kroz internu mrežu kompanije, ostavljajući utisak da njihova veza dolazi iz kompanije. Ovo može biti posebno korisno za pristupanje onlajn uslugama koje su geografski ograničene.
 
-![](assets/en/8.webp)
+![image](assets/sr-Latn/008.webp)
 
 
 ### Tipovi VPN-ova
@@ -205,7 +205,7 @@ Postoje dve glavne vrste VPN-ova: enterprise VPN-ovi i potrošački VPN-ovi, kao
 
 Međutim, korišćenje potrošačkog VPN-a ne garantuje potpunu anonimnost. Mnogi VPN provajderi zadržavaju informacije o svojim korisnicima, što potencijalno može ugroziti njihovu anonimnost. Iako VPN-ovi mogu biti korisni za poboljšanje online sigurnosti, oni nisu univerzalno rešenje. Efikasni su za određene specifične upotrebe, kao što je pristupanje geografski ograničenim uslugama ili poboljšanje sigurnosti tokom putovanja, ali ne garantuju potpunu sigurnost. Prilikom izbora VPN-a, neophodno je dati prioritet pouzdanosti i tehničkim karakteristikama nad popularnošću. VPN provajderi koji prikupljaju najmanje ličnih informacija su generalno najsigurniji. Usluge kao što su iVPN i Mullvad ne prikupljaju lične informacije i čak omogućavaju plaćanja u Bitcoin radi povećane privatnosti.
 
-![](assets/notext/9.webp)
+![image](assets/sr-Latn/009.webp)
 
 Konačno, VPN se takođe može koristiti za blokiranje online reklama, pružajući prijatnije i sigurnije iskustvo pretraživanja. Međutim, važno je da sami istražite kako biste pronašli VPN koji najbolje odgovara vašim specifičnim potrebama. Preporučuje se korišćenje VPN-a za poboljšanje sigurnosti, čak i kada pretražujete internet kod kuće. Ovo pomaže da se obezbedi viši nivo sigurnosti za razmenjene podatke online. Konačno, obavezno proverite URL-ove i mali katanc u Address traci kako biste potvrdili da ste na sajtu koji nameravate da posetite.
 
@@ -225,7 +225,7 @@ U Evropskoj uniji, zaštita podataka je regulisana Opštom uredbom o zaštiti po
 
 Da biste izbegli online prevare, ključno je proveriti identitet sajta koji posećujete, posebno proverom ekstenzije i imena domena. Takođe, budite oprezni prema prevarantima koji koriste slična slova u URL-ovima kako bi obmanuli korisnike.
 
-![](assets/en/10.webp)
+![image](assets/sr-Latn/010.webp)
 
 Ukratko, korišćenje VPN-a može značajno poboljšati bezbednost na mreži, kako za preduzeća, tako i za individualne korisnike. Štaviše, praktikovanje dobrih navika pri pretraživanju može doprineti boljoj digitalnoj higijeni. U sledećem segmentu ovog kursa, bavićemo se Address računarskom bezbednošću, uključujući ažuriranja, antivirus i upravljanje lozinkama.
 
@@ -256,14 +256,14 @@ Bezbednost naših računara je glavna briga u današnjem digitalnom svetu. Danas
 
 Što se tiče izbora računara, ne postoji značajna razlika u bezbednosti između starih i novih računara. Međutim, razlike u bezbednosti postoje između operativnih sistema: Windows, Linux i Mac.
 
-![](assets/notext/11.webp)
+![image](assets/sr-Latn/011.webp)
 
 Što se tiče Windows-a, preporučuje se da se ne koristi administratorski nalog na dnevnoj bazi, već da se kreiraju dva odvojena naloga: administratorski nalog i nalog za svakodnevnu upotrebu. Windows je često više izložen malverima zbog velikog broja korisnika i lakoće prelaska sa korisnika na administratora. S druge strane, pretnje su ređe na Linux-u i Mac-u.
 
 
 Izbor operativnog sistema treba da se zasniva na vašim potrebama i preferencijama. Linux sistemi su se značajno razvili u poslednjih nekoliko godina, postajući sve više prilagođeni korisnicima. Ubuntu je zanimljiva alternativa za početnike, sa grafičkim Interface koji je jednostavan za korišćenje. Moguće je particionisati računar kako biste eksperimentisali sa Linux-om dok zadržavate Windows, ali to može biti složeno. Često je poželjno imati posvećen računar, virtuelnu mašinu ili USB ključ za testiranje Linux-a ili Ubuntu-a.
 
-![](assets/notext/12.webp)
+![image](assets/sr-Latn/012.webp)
 
 
 ### Ažuriranja Softvera
@@ -293,7 +293,7 @@ Izbor i implementacija antivirusnog programa su važni. Windows Defender, ugrađ
 
 Za one koji žele da investiraju u plaćeni antivirus, preporučuje se da izaberu antivirus koji inteligentno analizira nepoznate i nove pretnje, kao što je Kaspersky. Ažuriranja antivirusa su ključna za zaštitu od novih pretnji.
 
-![](assets/notext/13.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 > Napomena: Linux i Mac, zahvaljujući svom sistemu razdvajanja korisničkih prava, često ne trebaju antivirus.
@@ -343,7 +343,7 @@ Zlatno pravilo ovde je pažljivo proveriti puno ime pošiljaoca kao i poreklo em
 
 Ransomware je vrsta zlonamernog softvera koji šifruje korisničke podatke i zahteva otkupninu za njihovo dešifrovanje. Ova vrsta napada postaje sve češća i može biti veoma problematična za kompaniju ili pojedinca. Da biste se zaštitili, neophodno je kreirati rezervne kopije najosetljivijih fajlova! Ovo neće zaustaviti ransomware, ali će vam omogućiti da ga jednostavno ignorišete.
 
-![](assets/notext/14.webp)
+![image](assets/sr-Latn/014.webp)
 
 Redovno pravite rezervne kopije važnih podataka na eksterni uređaj za skladištenje ili sigurnu onlajn uslugu skladištenja. Na ovaj način, u slučaju sajber napada ili kvara hardvera, možete povratiti svoje podatke bez gubitka ključnih informacija.
 
@@ -401,7 +401,7 @@ Iako svi već imamo email nalog, važno je razmotriti kreiranje novog, modernije
 
 Pravilno upravljanje našim email adresama je ključno za osiguranje bezbednosti našeg online pristupa. Važno je odabrati sigurnog provajdera email usluga koji poštuje privatnost. Na primer, ProtonMail je sigurna usluga emaila koja poštuje privatnost.
 
-![](assets/notext/15.webp)
+![image](assets/sr-Latn/015.webp)
 
 Kada birate provajdera e-pošte i kreirate lozinku, važno je nikada ne koristiti istu lozinku za različite online usluge. Preporučuje se redovno kreiranje novih e-mail adresa i razdvajanje upotrebe korišćenjem različitih e-mail adresa. Poželjno je odabrati sigurnu uslugu e-pošte za kritične naloge. Takođe treba napomenuti da neke usluge ograničavaju dužinu lozinki, pa je važno biti svestan ovog ograničenja. Dostupne su i usluge za kreiranje privremenih e-mail adresa, koje se mogu koristiti za naloge sa ograničenim trajanjem.
 
@@ -414,7 +414,7 @@ Važno je uzeti u obzir da se stariji provajderi e-pošte kao što su La Poste, 
 
 Preporučuje se korišćenje vebsajta Have I Been Pwned (https://haveibeenpwned.com/) kako biste proverili da li je naš email Address kompromitovan i da biste bili obavešteni o budućim povredama podataka. Hakovana baza podataka može biti iskorišćena od strane hakera za slanje phishing emailova ili ponovnu upotrebu kompromitovanih lozinki.
 
-![](assets/notext/16.webp)
+![image](assets/sr-Latn/016.webp)
 
 Uopšteno, početi koristiti novi, sigurniji email Address nije loša praksa i čak je neophodno ako neko želi da počne iznova na zdravim osnovama.
 
@@ -448,7 +448,7 @@ Uz menadžer lozinki, više ne morate brinuti o zaboravljanju lozinki ili njihov
 
 - Dashlane: To je takođe usluga treće strane, sa intuitivnim Interface i dodatnim funkcijama kao što su praćenje informacija o kreditnim karticama i sigurne beleške.
 
-![](assets/notext/17.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 ### Samostalno hostovanje za veću kontrolu:
@@ -461,7 +461,7 @@ Uz menadžer lozinki, više ne morate brinuti o zaboravljanju lozinki ili njihov
 
 - KeePass: To je rešenje otvorenog koda koje je prvenstveno namenjeno za samostalno hostovanje. Vaši podaci se po defaultu čuvaju lokalno, ali možete sinhronizovati bazu podataka lozinki koristeći različite metode ako želite. KeePass je široko prepoznat po svojoj sigurnosti i fleksibilnosti, iako može biti nešto manje prilagođen početnicima.
 
-![](assets/notext/18.webp)
+![image](assets/sr-Latn/018.webp)
 
 Za samohostovana rešenja kao što je KeePass, moguće je sinhronizovati vašu bazu podataka između više uređaja bez korišćenja centralizovanih usluga trećih strana. Alati poput **Syncthing** omogućavaju šifrovanu i decentralizovanu sinhronizaciju direktno između vaših uređaja. Ovakav pristup čuva vaše podatke pod vašom kontrolom, dok istovremeno obezbeđuje njihovu dostupnost na svim uređajima.
 
@@ -500,7 +500,7 @@ Ovaj drugi korak može biti:
 - Kod generisan aplikacijom kao što je Google Authenticator ili Authy.
 - Fizički sigurnosni ključ koji umetnete u svoj računar.
 
-![](assets/notext/19.webp)
+![image](assets/sr-Latn/019.webp)
 
 Sa 2FA, čak i ako haker dobije vašu lozinku, neće moći da pristupi vašem nalogu bez ovog drugog faktora verifikacije. Ovo čini 2FA neophodnim za zaštitu vaših online naloga od neovlašćenog pristupa.
 
@@ -710,7 +710,7 @@ Stalna evolucija pretnji zahteva redovno praćenje vesti i specijalizovanih foru
 
 Savladavanjem ovih veština i alata, bićete dobro opremljeni za uspešno snalaženje u svetu sajber bezbednosti.
 
-![](assets/notext/20.webp)
+![image](assets/sr-Latn/020.webp)
 
 
 ## Intervju sa Renaudom
@@ -730,7 +730,7 @@ Generalno se ne preporučuje korišćenje ekstenzija za pretraživače za automa
 
 Menadžeri lozinki generalno podstiču korišćenje dodatnih faktora autentifikacije, kao što je dvofaktorska autentifikacija. Za optimalnu sigurnost, preporučljivo je čuvati OTP-ove (jednokratne lozinke) na vašem mobilnom uređaju. AndoTP nudi open-source rešenje za generisanje i čuvanje OTP kodova na vašem telefonu. Dok Google Authenticator omogućava izvoz semena za autentifikacione kodove, poverenje u bekap na Google nalogu ostaje ograničeno. Stoga se OTI i AndoTP aplikacije preporučuju za autonomno upravljanje OTP-ovima.
 
-![](assets/notext/21.webp)
+![image](assets/sr-Latn/021.webp)
 
 Pitanje digitalnog nasleđa i digitalnog žaljenja ističe važnost postojanja procedure za prenos lozinki nakon smrti osobe. Menadžer lozinki olakšava ovu tranziciju sigurnim čuvanjem svih digitalnih tajni na jednom mestu. Menadžer lozinki takođe omogućava identifikaciju svih otvorenih naloga i upravljanje njihovim zatvaranjem ili prenosom. Preporučuje se da se glavna lozinka zapiše na papir, ali treba je čuvati na skrivenom i sigurnom mestu. Ako je Hard disk enkriptovan i računar zaključan, lozinka neće biti dostupna, čak ni u slučaju provale.
 

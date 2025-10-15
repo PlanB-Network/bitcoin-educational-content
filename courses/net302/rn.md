@@ -138,7 +138,7 @@ Inyungu y’iyo ndinganizo iri mu kworoha kw’imirongo yayo, no kutagira ibikor
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/en/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Iyi nzira y’uburongozi ikora neza cane cane ku mihora minini ikeneye gucapura 
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/en/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Inyungu nyamukuru y’iyi topologie ya bisi ni igiciro gito co kuyishiramwo, biv
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Ivyo bituma uburongozi n’ugucungera vyoroha: iyo igikoresho kimwe co ku ruhand
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/en/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Ico bivamwo ni uko umubare w’amahuza azoshirwaho wiyongera cane uko umubare w�
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/en/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Ivyumba bine vy’akarorero ka TCP/IP ni:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/en/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Iyo datagram irenze MTU y'igice c'urubuga gikeneye kujabuka, ibikoresho vy'inzir
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/en/008.webp)
 
 
 
@@ -431,7 +431,7 @@ Ugutanga rero bikurikira inzira itunganijwe:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/en/009.webp)
 
 
 
@@ -442,7 +442,7 @@ Iyo umuntu ashitse, iyo nzira irahinduka: imashini yakira iyo nkuru ironka iyo n
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/en/010.webp)
 
 
 
@@ -456,7 +456,7 @@ Ihinduka ry’amakuru kuri buri Layer rishobora gusobanurwamwo mu ncamake gutya:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/en/011.webp)
 
 
 
@@ -507,7 +507,7 @@ Igitigiri c’amaderesi aboneka kiratandukanye cane hagati y’imigwi: kuva ku m
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/en/013.webp)
 
 
 
@@ -585,7 +585,7 @@ Turashaka ama subnets 4 agera ku ba hosts 60 kuri imwe yose.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/en/016.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP ni porotokole ishingiye ku guhuza, bisobanura ko ishiraho ubucuti butomoye, 
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/en/018.webp)
 
 
 
@@ -688,7 +688,7 @@ Kugira ngo TCP ishobore kwizigirwa, ikoresha igihe: iyo igice kimaze koherezwa, 
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/en/019.webp)
 
 
 
@@ -711,7 +711,7 @@ Urutonde rw'uguhuza ibintu Exchange rushingiye ku buryo buzwi cane **"*gufata ib
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/en/020.webp)
 
 
 
@@ -734,7 +734,7 @@ Mu majambo ngirakamaro, idirisha rinyerera risobanura urutonde rw’imibare isho
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/en/021.webp)
 
 
 
@@ -751,7 +751,7 @@ Ubu burongozi nyabwo,bufatanya inzira ya IP ishobora guhinduka n'ubugenzuzi buko
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/en/022.webp)
 
 
 
@@ -791,7 +791,7 @@ Ibintu bibiri nyamukuru bigenzura ivyo biganiro:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/en/023.webp)
 
 
 
@@ -800,7 +800,7 @@ Ibintu bibiri nyamukuru bigenzura ivyo biganiro:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/en/024.webp)
 
 
 
@@ -836,7 +836,7 @@ Mu gufatanya umuce uringaniye (uguhanahana amakuru hagati y’ibikorwa bikwiragi
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/en/026.webp)
 
 
 
@@ -896,7 +896,7 @@ akarorero: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Ni vyiza kwibuka ko MAC Address na IP Address ari ibimenyetso bibiri bitandukany
 - Akarorero kaboneka ka MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/en/032.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Ni vyiza kwibuka ko MAC Address na IP Address ari ibimenyetso bibiri bitandukany
 - Akarorero kagaragara k'i IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/en/027.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Uretse gutorera umuti ubukene bwa IPv4, NAT irakomeza kandi umutekano mu kurema 
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/en/035.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _Kugira ngo tubone ingene ivyo bigenda mu bikorwa, rimbura akarorero gakurikira:
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/en/037.webp)
 
 
 
@@ -1500,7 +1500,7 @@ Mu bidukikije vy’umwuga, intumbero ni ugutuma ibikorwa bigumaho no/canke gukor
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/en/039.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Ku gutunganya ubwavyo, hari uburyo bwinshi:
 Aha niho akarorero k'ingene wohindura MAC Address ngo ibe EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/en/045.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Aha niho hari icegeranyo c'ubwoko butandukanye bw'imitwe y'ivyagutse isobanurwa 
 Uwo mutwe, iyo uhari, wama ushirwa ubwo nyene inyuma y’umutwe w’ishimikiro. Irimwo amakuru ategerezwa gutunganirizwa na router yose iri mu nzira y’ipakete, bitandukanye n’iyindi mitwe myinshi, akenshi ikoreshwa gusa n’umurongo w’aho ija. Ikoreshwa risanzwe ririmwo gutanga ikimenyetso c'ibipimo vy'isi yose canke gusaba intambwe zihariye zo gukora uko iyo paketi igenda biciye ku rubuga.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/en/047.webp)
 
 
 #### Umutwe w'inzira
@@ -2117,7 +2117,7 @@ Ivyatsi bine vya mbere vy'uyu mutwe w'imizi ni:
 "Ibice vy'ibubamfu" bitangura n'umubare wose w'ibice bisigaye kandi bigabanywa n'ikimwe ku nzira yose.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/en/048.webp)
 
 
 #### Umutwe w'uguca ibice
@@ -2134,7 +2134,7 @@ Umutwe w'ibice urimwo ibi bikurikira:
 - **M flag**: yerekana nimba hari ibindi bice bikurikira.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/en/049.webp)
 
 
 #### Umutwe w'ukwemeza (AH)
@@ -2146,7 +2146,7 @@ Uwo mutwe ugenewe gukingira amakuru mu kugenzura ukuri kw’uwurungitse be n’u
 Iyo habayeho ukugerageza guhindura mu buryo bw’ubuhendanyi, kode y’ukwemeza ntizosubira guhura, kandi datagram ishobora kwangwa. Ubwo buryo burakingira kandi ibitero vyo gusubiramwo mu kumenya ivy’ugusubiramwo bitaremewe.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/en/050.webp)
 
 
 #### Umutwe w'amahitamwo y'aho uja
@@ -2158,7 +2158,7 @@ Uyu mutwe ugenewe gusa uwuronka amakuru ya nyuma. Ishobora gukoreshwa mu kwonger
 Mu ntango, nta mahitamwo nk’ayo yari yasobanuwe muri iyo porotokole. Ariko rero, uwo mutwe warashizweho igihe IPv6 yahingurwa, kugira ngo bishobore kwongerwako ibindi bizoza ata guhindura imiterere yose y’amapakete. Ihitamwo ry'ubusa, nk'akarorero, rikoreshwa gusa kugira ngo umutwe ushire ku mubare w'amabayiti 8 ku ntumbero zo gutunganya ubwonko.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/en/051.webp)
 
 
 IPv6 packet design yubatswe ku gutandukanya gutomoye hagati y'umutwe w'ishimikiro mutoyi n'imitwe y'ivyagutse vy'ibice. Iyi nyubakwa ituma habaho ubushobozi bwo gukora neza n’uguhinduranya bikenewe kugira ngo umuntu ashobore guhindura amategeko no gushiramwo umutekano, uburyo butoroshe bwo gukoresha canke uburyo bwo gutanga ibikorwa, mu gihe aguma ahuye n’ibikorwa remezo vyo muri kazoza.
@@ -2504,7 +2504,7 @@ Wireshark iboneka ku bikoresho vyinshi, harimwo Linux na Windows. Kuyishiramwo b
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/en/052.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Iri tegeko ritanga raporo ido n'ido ku `enp0s3` Interface, itegeko ry'amazina ru
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/en/053.webp)
 
 
 
@@ -3107,7 +3107,7 @@ Muri iki gihe, abashitsi bose bari hagati ya `192.168.0.0` na `192.168.0.255` ba
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/en/055.webp)
 
 
 

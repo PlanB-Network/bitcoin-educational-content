@@ -1,5 +1,5 @@
 ---
-name: Timestamp of Plan ₿ Network diploma's
+name: Tijdstempel van Plan ₿ Network diploma's
 description: Begrijpen hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor je certificaten en diploma's
 ---
 
@@ -9,13 +9,13 @@ description: Begrijpen hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor 
 Als je dit leest, is de kans groot dat je een ₿-CERT testcertificaat of een diploma van voltooiing hebt ontvangen voor een van de cursussen die je hebt gevolgd op planb.network, dus gefeliciteerd met deze prestatie!
 
 
-In deze tutorial zullen we ontdekken hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor uw ₿-CERT-testcertificaat of een Diploma voor het voltooien van een cursus. Vervolgens beschrijven we in een tweede deel hoe u de echtheid van deze bewijzen kunt verifiëren.
+In deze tutorial zullen we ontdekken hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor je ₿-CERT-testcertificaat of elk diploma voor het voltooien van een cursus. Vervolgens beschrijven we in een tweede deel hoe je de echtheid van deze bewijzen kunt verifiëren.
 
 
 # Plan ₿ Network bewijsmechanisme
 
 
-Op Plan ₿ Network ondertekenen we certificaten en diploma's cryptografisch en voorzien we ze van een tijdstempel met behulp van de Timechain (d.w.z. Bitcoin Blockchain), via een bewijsmechanisme dat berust op twee cryptografische operaties:
+Op Plan ₿ Network ondertekenen we certificaten en diploma's cryptografisch en voorzien we ze van een tijdstempel met behulp van de Timechain (d.w.z. Bitcoin blockchain), via een bewijsmechanisme dat berust op twee cryptografische operaties:
 
 
 1. Een GPG-handtekening op een tekstbestand dat je prestaties samenvat
@@ -31,29 +31,29 @@ Wij geloven dat dit eenvoudige bewijsmechanisme ons in staat stelt om certificat
 ![image](./assets/proof-mechanism.webp)
 
 
-Dankzij dit bewijsmechanisme zal elke poging om zelfs maar het kleinste detail van je certificaat of diploma te veranderen, resulteren in een compleet andere SHA-256 Hash van het ondertekende bestand, wat onmiddellijk elke manipulatie onthult, aangezien zowel de handtekening als de Timestamp niet langer geldig zijn. Bovendien, als iemand probeert om certificaten of diploma's te vervalsen in naam van Plan ₿ Network, zal een eenvoudige verificatie van de handtekening de fraude aan het licht brengen.
+Dankzij dit bewijsmechanisme zal elke poging om zelfs maar het kleinste detail van je certificaat of diploma te veranderen, resulteren in een compleet andere SHA-256 hash van het ondertekende bestand, wat onmiddellijk elke manipulatie onthult, aangezien zowel de handtekening als de tijdstempel niet langer geldig zijn. Bovendien, als iemand probeert om certificaten of diploma's te vervalsen in naam van Plan ₿ Network, zal een eenvoudige verificatie van de handtekening de fraude aan het licht brengen.
 
 
 ## Hoe werkt de GPG-handtekening?
 
 
-De GPG handtekening wordt gegenereerd met behulp van open-source software genaamd GNU Privacy Guard. Met deze software kunnen gebruikers eenvoudig privésleutels aanmaken, handtekeningen ondertekenen en verifiëren, en bestanden versleutelen en ontsleutelen. Voor deze tutorial is het belangrijk op te merken dat Plan ₿ Network GPG gebruikt om haar private/publieke sleutels te maken en om alle ₿-CERT Certificaten en Diploma's van Voltooiing van Cursussen te ondertekenen.
+De GPG handtekening wordt gegenereerd met behulp van open-source software genaamd GNU Privacy Guard. Met deze software kunnen gebruikers eenvoudig privésleutels aanmaken, ondertekenen en handtekeningen verifiëren, en bestanden versleutelen en ontsleutelen. Voor deze tutorial is het belangrijk op te merken dat Plan ₿ Network GPG gebruikt om haar private/publieke sleutels te maken en om alle ₿-CERT Certificaten en Diploma's van cursus voltooiing te ondertekenen.
 
 
 Aan de andere kant, als iemand de authenticiteit van een ondertekend bestand wil verifiëren, kan hij GPG gebruiken om de publieke sleutel van de uitgever te importeren en te verifiëren.
 
 
-Wie nieuwsgierig is en meer wil weten over deze fantastische software, kan ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html) raadplegen
+Wie nieuwsgierig is en meer wil weten over deze fantastische software, kan ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html) raadplegen.
 
 
 ## Hoe werkt tijdstempelen?
 
 
-Iedereen kan OpenTimestamps gebruiken om Timestamp een bestand te maken en verifieerbaar bewijs te verkrijgen van het bestaan ervan. Met andere woorden, het levert geen bewijs van wanneer het bestand is gemaakt, maar eerder bewijs dat het bestand niet later bestond dan een specifiek moment in de tijd.
+Iedereen kan OpenTimestamps gebruiken om een bestand te timestempelen en verifieerbaar bewijs te verkrijgen van het bestaan ervan. Met andere woorden, het levert geen bewijs van wanneer het bestand is gemaakt, maar eerder bewijs dat het bestand niet later bestond dan een specifiek moment in de tijd.
 
-OpenTimestamps levert deze service gratis door gebruik te maken van een zeer efficiënte methode om bewijs op te slaan in de Bitcoin Blockchain. Het gebruikt het SHA-256 Hash algoritme om een unieke identificatie voor uw bestand te creëren, en construeert een Merkle Tree met behulp van de hashes van de bestanden die door andere gebruikers zijn ingediend. Alleen de Hash van de Merkle Tree structuur is verankerd in een OP_RETURN transactie, wat zorgt voor een veilige en compacte manier om het bestaan van een bestand te verifiëren.
+OpenTimestamps levert deze service gratis door gebruik te maken van een zeer efficiënte methode om bewijs op te slaan in de Bitcoin blockchain. Het gebruikt het SHA-256 hash algoritme om een unieke identificatie voor je bestand te creëren, en construeert een Merkle Tree met behulp van de hashes van de bestanden die door andere gebruikers zijn ingediend. Alleen de hash van de Merkle Tree structuur is verankerd in een OP_RETURN transactie, wat zorgt voor een veilige en compacte manier om het bestaan van een bestand te verifiëren.
 
-Als deze transactie eenmaal in een blok zit, kan iedereen met het initiële bestand en het bijbehorende `.ots`-bestand de echtheid van de tijdstempels verifiëren. In het tweede deel van de tutorial zullen we zien hoe je je Bitcoin Certificaat of een Diploma of Course Completion kunt verifiëren via een teminal en via een grafische Interface op de website van OpenTimestamps.
+Als deze transactie eenmaal in een blok zit, kan iedereen met het initiële bestand en het bijbehorende `.ots`-bestand de echtheid van de tijdstempels verifiëren. In het tweede deel van de tutorial zullen we zien hoe je je Bitcoin Certificaat of een Diploma van cursus voltooiing kunt verifiëren via een teminal en via een grafische interface op de website van OpenTimestamps.
 
 
 # Hoe een Plan ₿ Network ₿-CERT-certificaat of -diploma verifiëren
@@ -68,19 +68,19 @@ Log in op je persoonlijke/studenten dashboard op planb.network.
 ![image](./assets/login.webp)
 
 
-Ga naar "Credentials" door op het menu aan de linkerkant te klikken en selecteer je examensessie of je Diploma.
+Ga naar "Credentials" door op het menu aan de linkerkant te klikken en selecteer je examensessie of je diploma.
 
 
 ![image](./assets/credential.webp)
 
 
-Het zip-bestand downloaden.
+Download het zip-bestand.
 
 
 ![image](./assets/download.webp)
 
 
-Pak de inhoud uit door met de rechtermuisknop op het `.zip` bestand te klikken en "Uitpakken" te selecteren. Je zult drie verschillende bestanden vinden:
+Pak de inhoud uit door met de rechtermuisknop op het `.zip` bestand te klikken en "Extract" (Uitpakken) te selecteren. Je zult drie verschillende bestanden vinden:
 
 
 
@@ -103,7 +103,7 @@ curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/pl
 ```
 
 
-U zou een bericht als het volgende moeten zien als u de PGP-sleutel met succes hebt geïmporteerd
+Je zou een bericht als het volgende moeten zien als je de PGP-sleutel met succes hebt geïmporteerd.
 
 
 ```
@@ -129,7 +129,7 @@ Dit commando zou je details over de handtekening moeten laten zien, inclusief:
 
 
 - Wie ondertekende het (Plan ₿ Network)
-- Toen het werd ondertekend
+- Wanneer het werd ondertekend
 - Of de handtekening geldig is of niet
 
 
@@ -150,21 +150,21 @@ Als je een bericht als "BAD signature" ziet, betekent dit dat er met het bestand
 ## Stap 3: Controleer de Open Timestamp
 
 
-### Verifiëren via een grafische Interface
+### Verifiëren via een grafische interface
 
 
 1. Bezoek de website van OpenTimestamps: https://opentimestamps.org/
 
-2. Klik op het tabblad "Stempelen & verifiëren".
+2. Klik op het tabblad "Stamp & Verify".
 
 3. Sleep het OTS-bestand (bijvoorbeeld `certificate.txt.ots`) naar het aangewezen gebied.
 
-4. Sleep het bestand met tijdstempel (bijvoorbeeld `certificate.txt`) naar het aangewezen gebied.
+4. Sleep het bestand met de tijdstempel (bijvoorbeeld `certificate.txt`) naar het aangewezen gebied.
 
-5. De website controleert automatisch de open Timestamp en geeft het resultaat weer.
+5. De website controleert automatisch de open timestamp en geeft het resultaat weer.
 
 
-Als je een bericht als het volgende ziet, is de Timestamp geldig:
+Als je een bericht als het volgende ziet, is de tijdstempel geldig:
 
 
 ![cover](assets/opentimestamp_wegui_verified.webp)
@@ -173,7 +173,7 @@ Als je een bericht als het volgende ziet, is de Timestamp geldig:
 ### De CLI-Methode
 
 
-OPMERKING: deze procedure **vereist een draaiend lokaal Bitcoin knooppunt**
+OPMERKING: deze procedure **vereist een draaiende lokale Bitcoin node**
 
 
 1. Installeer de OpenTimestamps-client vanuit de officiële [repository] (https://github.com/opentimestamps/opentimestamps-client) door het volgende commando uit te voeren:
@@ -187,7 +187,7 @@ pip install opentimestamps-client
 2. Navigeer naar de map met de uitgepakte certificaatbestanden.
 
 
-3. Voer het volgende commando uit om de open Timestamp te verifiëren:
+3. Voer het volgende commando uit om de open timestamp te verifiëren:
 
 
 ```
@@ -199,9 +199,9 @@ Deze opdracht zal:
 
 
 
-- Vergelijk de Timestamp met de Blockchain van de Bitcoin
-- Laat precies zien wanneer het bestand een tijdstempel kreeg
-- De echtheid van de Timestamp bevestigen
+- de Timestamp met de Bitcoin blockchain vergelijken
+- precies laten zien wanneer het bestand een tijdstempel kreeg
+- de echtheid van de Timestamp bevestigen
 
 
 ### Eindresultaten
@@ -210,9 +210,9 @@ Deze opdracht zal:
 De verificatie is geslaagd als **beide** van de volgende berichten worden weergegeven:
 
 
-1. De GPG-handtekening wordt gerapporteerd als **"Goede handtekening van Plan ₿ Network"**
+1. De GPG-handtekening wordt gerapporteerd als **"Good signature from Plan ₿ Network"**
 
-2. De OpenTimestamps verificatie toont een specifiek Bitcoin blok Timestamp en rapporteert **"Succes! Bitcoin blok [blokhoogte] bevestigt dat gegevens bestonden vanaf [Timestamp]"**
+2. De OpenTimestamps verificatie toont een specifiek Bitcoin Timestamp blok  en rapporteert **"Success! Bitcoin block [blockheight] attests data existed as of [timestamp]"**
 
 
-Nu je weet hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor elk ₿-CERT Certificaat en Diploma, kun je de integriteit ervan eenvoudig verifiëren.
+Nu je weet hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor elk ₿-CERT Certificaat en Diploma, en kan je de integriteit ervan eenvoudig verifiëren.

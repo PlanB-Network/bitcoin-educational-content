@@ -63,12 +63,12 @@ Hartelijk dank aan onze leerkrachten die aan dit programma hebben meegewerkt:
 
 Week 1 van het LN Toscane evenement
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Als je klaar bent met deze cursus en geïnteresseerd bent in de vervolgtraining, dan is hier het tweede deel van het schema:
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 

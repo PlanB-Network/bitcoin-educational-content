@@ -2652,14 +2652,14 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Uw parapluknoop onderhouden
+## Je Umbrel node onderhouden
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
 
 
 
-Om deze laatste sectie af te trappen, en voordat we verder gaan met meer geavanceerde theorie, wil ik in dit korte hoofdstuk de best practices en concrete acties bekijken die je kunt ondernemen zodra je Umbrel node geïnstalleerd, gesynchroniseerd en correct geconfigureerd is. Hoe onderhoudt u het dagelijks?
+Om deze laatste sectie af te trappen, en voordat we verder gaan met meer geavanceerde theorie, wil ik in dit korte hoofdstuk de best practices en concrete acties bekijken die je kunt ondernemen zodra je Umbrel node geïnstalleerd, gesynchroniseerd en correct geconfigureerd is. Hoe onderhoud je het dagelijks?
 
 
 
@@ -2667,15 +2667,15 @@ Om deze laatste sectie af te trappen, en voordat we verder gaan met meer geavanc
 
 
 
-Een betrouwbaar node begint met stabiele hardware. Zorg ervoor dat de machine waar je node op staat goed geventileerd, Dust-vrij en geïnstalleerd is in een droge omgeving, uit de buurt van warmte- en vochtbronnen. Vermijd het proppen in een kleine ruimte en kies voor een goed geventileerde locatie.
+Een betrouwbare node begint met stabiele hardware. Zorg ervoor dat de machine waar je node op staat goed geventileerd, stofvrij en geïnstalleerd is in een droge omgeving, uit de buurt van warmte- en vochtbronnen. Vermijd het proppen in een kleine ruimte en kies voor een goed geventileerde locatie.
 
 
 
-Op Raspberry Pi en mini-PC's verstopt Dust uiteindelijk de koellichamen, waardoor de temperatuur stijgt en throttling (vrijwillige beperking van het gebruik van bronnen) optreedt, wat weer resulteert in een daling van de efficiëntie van je node. Daarom raad ik aan om de luchtinlaat en ventilator regelmatig te reinigen, idealiter om de paar maanden.
+Op Raspberry Pi en mini-PC's verstopt stof uiteindelijk de koellichamen, waardoor de temperatuur stijgt en throttling (vrijwillige beperking van het gebruik van bronnen) optreedt, wat weer resulteert in een daling van de efficiëntie van je node. Daarom raad ik aan om de luchtinlaat en ventilator regelmatig te reinigen, idealiter om de paar maanden.
 
 
 
-Zorg ervoor dat u een Supply-voeding van hoge kwaliteit gebruikt, want een onstabiele spanning kan leiden tot systeembeschadiging en zelfs brandgevaar opleveren. In het ideale geval gebruikt u de originele voeding Supply die door de fabrikant van uw machine is geleverd. Pas ook op voor oververhitting door het Joule-effect op stekkerdozen: respecteer altijd het maximaal toegelaten vermogen en sluit nooit meerdere stekkerdozen in cascade aan.
+Zorg ervoor dat je een stroomvoeding van hoge kwaliteit gebruikt, want een onstabiele spanning kan leiden tot systeembeschadiging en zelfs brandgevaar opleveren. In het ideale geval gebruikt je de originele stroomvoeding die door de fabrikant van je machine is geleverd. Pas ook op voor oververhitting door het Joule-effect op stekkerdozen: respecteer altijd het maximaal toegelaten vermogen en sluit nooit meerdere stekkerdozen in cascade aan.
 
 
 
@@ -2683,7 +2683,7 @@ Ik raad ook aan om te investeren in een UPS. Dit beschermt je node tegen plotsel
 
 
 
-Houd aan de opslagkant de voortgang in de gaten: als de schijf verzadigd dreigt te raken, overweeg dan ruimte vrij te maken (ongebruikte apps verwijderen, de instellingen van de indexer aanpassen) of migreer naar een grotere SSD. Het nadeel van een vol Bitcoin node is dat de opslagvereisten continu toenemen, omdat er elke 10 minuten een nieuw blok wordt gegenereerd en oude blokken niet kunnen worden verwijderd (tenzij de node pruned is). Ik raad je daarom aan om bij de aanschaf van je hardware een voldoende grote capaciteit te plannen (minimaal 2 TB).
+Houd aan de opslagkant de voortgang in de gaten: als de schijf verzadigd dreigt te raken, overweeg dan ruimte vrij te maken (ongebruikte apps verwijderen, de instellingen van de indexer aanpassen) of migreer naar een grotere SSD. Het nadeel van een volle Bitcoin node is dat de opslagvereisten continu toenemen, omdat er elke 10 minuten een nieuw blok wordt gegenereerd en oude blokken niet kunnen worden verwijderd (tenzij de node pruned is). Ik raad je daarom aan om bij de aanschaf van je hardware een voldoende grote capaciteit te plannen (minimaal 2 TB).
 
 
 
@@ -2697,7 +2697,7 @@ Node-updates zijn belangrijk om drie belangrijke redenen: ten eerste beveiliging
 
 
 
-- Om het systeem bij te werken: Open het instellingenmenu en klik vervolgens op de knop "*Check for Update*" naast de parameter "*UmbrelOS*".
+- Om het systeem bij te werken: open het instellingenmenu en klik vervolgens op de knop "*Check for Update*" naast de parameter "*UmbrelOS*".
 
 
 
@@ -2707,7 +2707,7 @@ Node-updates zijn belangrijk om drie belangrijke redenen: ten eerste beveiliging
 
 
 
-- Applicaties bijwerken: Ga naar de App Store. Als een van uw toepassingen moet worden bijgewerkt, verschijnt er een knop met een rode bel in de rechterbovenhoek van de Interface. Klik erop en werk elke applicatie bij.
+- Applicaties bijwerken: Ga naar de App Store. Als een van je toepassingen moet worden bijgewerkt, verschijnt er een knop met een rode bel in de rechterbovenhoek van de interface. Klik erop en werk elke applicatie bij.
 
 
 
@@ -2719,11 +2719,11 @@ Voer deze handeling regelmatig uit om je besturingssysteem en applicaties up-to-
 
 
 
-Als je alleen je Bitcoin node gebruikt om je transacties te valideren en te distribueren, maar je wallets worden buiten Umbrel beheerd (bijvoorbeeld met een Hardware wallet en Sparrow wallet), dan is er niets om direct naar Umbrel te back-uppen. In dit geval blijft de essentiële back-up die van de herstel-zin en Descriptor van je externe wallet, en dit geldt ongeacht of je je eigen node gebruikt of niet. Er verandert dus niets ten opzichte van je vorige configuratie.
+Als je alleen je Bitcoin node gebruikt om je transacties te valideren en te distribueren, maar je wallets worden buiten Umbrel beheerd (bijvoorbeeld met een hardware wallet en Sparrow wallet), dan is er niets om direct naar Umbrel te back-uppen. In dit geval blijft de essentiële back-up die van de recovery phrase (herstel-zin) en descriptor van je externe wallet, en dit geldt ongeacht of je je eigen node gebruikt of niet. Er verandert dus niets ten opzichte van je vorige configuratie.
 
 
 
-Aan de andere kant, afhankelijk van de extra applicaties die je gebruikt op Umbrel, kunnen er meer back-ups nodig zijn. Dit is met name het geval als u een Lightning-node op Umbrel gebruikt. In dit geval is het absoluut noodzakelijk om een back-up te maken van de seed die u bij de installatie van uw Lightning-node hebt gekregen. Naast de seed hebt u een up-to-date ***Static Channel Backup (SCB)*** nodig om uw Lightning-node te kunnen herstellen in het geval van een probleem. Met SCB kunt u uw fondsen herstellen door kanalen geforceerd af te sluiten. Als de seed of de SCB ontbreekt, is het onmogelijk om een Lightning-node te herstellen.
+Aan de andere kant, afhankelijk van de extra applicaties die je gebruikt op Umbrel, kunnen er meer back-ups nodig zijn. Dit is met name het geval als je een Lightning-node op Umbrel gebruikt. In dit geval is het absoluut noodzakelijk om een back-up te maken van de seed die je bij de installatie van uw Lightning-node hebt gekregen. Naast de seed heb je een up-to-date ***Static Channel Backup (SCB)*** nodig om je Lightning-node te kunnen herstellen in het geval van een probleem. Met SCB kun je je geldmiddelen herstellen door kanalen geforceerd af te sluiten. Als de seed of de SCB ontbreekt, is het onmogelijk om een Lightning-node te herstellen.
 
 
 
@@ -2739,7 +2739,7 @@ We zullen deze aspecten in detail bespreken in de volgende LNP202 cursus.
 
 
 
-Gebruik een lang, uniek en willekeurig wachtwoord voor Interface Umbrel en vergeet niet om twee-factor authenticatie (2FA) te activeren. Voor toepassingen die zowel wachtwoord- als 2FA-beveiliging bieden, activeer altijd beide en wijzig de standaardwachtwoorden.
+Gebruik een lang, uniek en willekeurig wachtwoord voor de Umbrel interface en vergeet niet om twee-factor authenticatie (2FA) te activeren. Voor toepassingen die zowel wachtwoord- als 2FA-beveiliging bieden, activeer altijd beide en wijzig de standaardwachtwoorden.
 
 
 
@@ -2757,7 +2757,7 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-In het geval van een bug op uw Umbrel, generate eerst een diagnosebundel via de probleemoplossingssectie van UmbrelOS of de betreffende toepassing en start de toepassing vervolgens opnieuw op. Probeer indien nodig ook een volledige herstart van het systeem.
+In het geval van een bug op je Umbrel, genereer eerst een diagnosebundel via de probleemoplossingssectie van UmbrelOS of de betreffende toepassing en start de toepassing vervolgens opnieuw op. Probeer indien nodig ook een volledige herstart van het systeem.
 
 
 
@@ -2765,16 +2765,16 @@ Als het probleem zich blijft voordoen, raad ik je aan [lid te worden van de Umbr
 
 
 
-Deze gebieden stellen u niet alleen in staat om beveiligingsaankondigingen en -updates te volgen, maar ook om vragen te stellen en uiteindelijk om andere gebruikers te helpen. Het is vaak in deze uitwisselingen dat best practices worden ontdekt.
+Deze omgevingen stellen je niet alleen in staat om beveiligingsaankondigingen en -updates te volgen, maar ook om vragen te stellen en uiteindelijk om andere gebruikers te helpen. Het is vaak in deze uitwisselingen dat best practices worden ontdekt.
 
 
 
-Met deze eenvoudige gewoontes blijft uw Umbrel node stabiel, veilig en nuttig, zowel voor u als voor het Bitcoin netwerk.
+Met deze eenvoudige routines blijft je Umbrel node stabiel, veilig en nuttig, zowel voor jou als voor het Bitcoin netwerk.
 
 
 
 
-## IBD en het intercollegiale ontdekkingsproces begrijpen
+## IBD en het ipeer discovery process begrijpen
 
 
 <chapterId>175ac9d1-ea23-45d9-9918-d3e7352435cd</chapterId>

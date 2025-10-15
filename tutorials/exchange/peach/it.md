@@ -54,7 +54,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 - Segui le istruzioni di installazione sul tuo dispositivo.
 - Durante l’installazione ti verrà chiesto se desideri condividere alcuni dati per contribuire al miglioramento dell’applicazione Peach.(immagine 1)
 - Nella schermata successiva (immagine 2), hai due opzioni:
--Se sei un nuovo utente, clicca su “Nuovo utente” per creare un nuovo profilo.
+- Se sei un nuovo utente, clicca su “Nuovo utente” per creare un nuovo profilo.
 - Se hai già un account, utilizza “Ripristina” per recuperare il tuo profilo esistente.
 - Se hai un codice referral, puoi inserirlo qui.
 - Per ripristinare un account esistente (immagine 3), avrai bisogno di:
@@ -254,7 +254,7 @@ Per una sicurezza ottimale, si consiglia di eseguire entrambi i tipi di backup.
 - Conferma la ricezione del pagamento.
 - Valuta la transazione.
 - I bitcoin vengono rilasciati automaticamente all’acquirente.
-- 
+  
 **Consigli per una transazione di successo**
 
 

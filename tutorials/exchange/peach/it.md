@@ -162,7 +162,7 @@ Questo approccio garantisce una maggiore riservatezza, ma implica anche una magg
 
 - Accedi alle impostazioni dalla scheda in basso a destra della schermata principale.
 - Seleziona l’opzione “backup” nel menu delle impostazioni.
-- 
+  
 ![Processus de sauvegarde](assets/fr/06.webp)
 
 Sono disponibili due tipi di backup:

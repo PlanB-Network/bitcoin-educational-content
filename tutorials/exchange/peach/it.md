@@ -182,7 +182,7 @@ Il backup dei file ripristina l'intero account Peach, compresi i file:
 - La cronologia delle conversazioni.
 - I dati di pagamento.
 - La cronologia delle transazioni con i dettagli delle controparti.
-- 
+  
 **Salvataggio della frase di recupero (immagine 15)**
 
 

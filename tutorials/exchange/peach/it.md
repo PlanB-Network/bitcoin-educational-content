@@ -74,7 +74,7 @@ L'applicazione Peach è organizzata in quattro schermate principali accessibili 
  - Ricevere bitcoin.
  - Inviare bitcoin.
  - Visualizzare la cronologia delle transazioni.
-- **Commerci** : Il vostro centro di gestione del commercio dove troverete:
+- **Commercio** : Il vostro centro di gestione del commercio dove troverete:
  - Le vostre transazioni correnti.
  - Una storia completa dei vostri scambi.
  - Lo stato di ogni transazione.

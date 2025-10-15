@@ -8,7 +8,7 @@ description: Guida completa all'utilizzo di Peach e allo scambio di bitcoin P2P
 
 ## Introduzione
 
-Gli scambi peer-to-peer (P2P) senza KYC sono essenziali per preservare la riservatezza e l'autonomia finanziaria degli utenti. Permettono di effettuare transazioni dirette tra individui senza la necessità di verificare l'identità, il che è fondamentale per coloro che tengono alla privacy. Per una comprensione più approfondita dei concetti teorici, date un'occhiata al corso BTC204:
+Gli scambi peer-to-peer (P2P) senza KYC (Know Your Customer) sono essenziali per preservare la riservatezza e l'autonomia finanziaria degli utenti. Permettono di effettuare transazioni dirette tra individui senza la necessità di verificare l'identità, il che è fondamentale per coloro che tengono alla privacy. Per una comprensione più approfondita dei concetti teorici, date un'occhiata al corso BTC204:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -23,12 +23,12 @@ Peach è una piattaforma di scambio P2P che consente agli utenti di acquistare e
 Peach si impegna a memorizzare il minimo indispensabile di dati sui propri utenti. Ecco una panoramica dei dati memorizzati sui suoi server:
 
 
-- Un hash dell'identificativo univoco della vostra applicazione (AdID)
-- Un hash dei dati di pagamento
-- Le vostre conversazioni criptate
-- Dati sulle transazioni per garantire che gli utenti anonimi non superino il limite di trading (tipi di metodi di pagamento utilizzati, importi di acquisto e vendita)
-- Indirizzi utilizzati per inviare e ricevere dal conto fiduciario
-- Dati di utilizzo (Firebase & Google Analytics), solo con il vostro consenso
+- Un hash dell'identificativo univoco della vostra applicazione (AdID).
+- Un hash dei dati di pagamento.
+- Le vostre conversazioni criptate.
+- Dati sulle transazioni per garantire che gli utenti anonimi non superino il limite di trading (tipi di metodi di pagamento utilizzati, importi di acquisto e vendita).
+- Indirizzi utilizzati per inviare e ricevere dal conto fiduciario.
+- Dati di utilizzo (Firebase & Google Analytics), solo con il vostro consenso.
 
 Come promemoria, un hash è un dato reso irriconoscibile, simile alla crittografia. Gli stessi dati produrranno sempre lo stesso hash, rendendo possibile l'individuazione di duplicati senza conoscere i dati originali.
 
@@ -39,9 +39,9 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Chi può vedere i miei dati di pagamento?**
 
 
-- Solo la controparte può vedere i dettagli del pagamento
-- I dati vengono trasmessi tramite i server Peach, ma sono completamente criptati da un capo all'altro
-- In caso di controversia, i dati di pagamento e la cronologia delle conversazioni saranno visibili al mediatore Peach assegnato
+- Solo la controparte può vedere i dettagli del pagamento.
+- I dati vengono trasmessi tramite i server Peach, ma sono completamente criptati da un capo all'altro.
+- In caso di controversia, i dati di pagamento e la cronologia delle conversazioni saranno visibili al mediatore Peach assegnato.
 
 ## Installazione e configurazione
 
@@ -50,16 +50,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ![Installation de Peach](assets/fr/01.webp)
 
 
-- Scaricate l'applicazione da [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
-- Seguire le istruzioni di installazione del dispositivo.
-- Durante l'installazione, vi verrà chiesto di scegliere se desiderate condividere alcuni dati per migliorare l'applicazione Peach (immagine 1)
-- Nella schermata successiva (immagine 2), sono disponibili due opzioni:
- - Se siete un nuovo utente, cliccate su "Nuovo utente" per creare un nuovo profilo
- - Se si dispone già di un account, utilizzare "Ripristina" per ripristinare il profilo esistente
-- Se avete un codice di riferimento, potete inserirlo qui.
-- Per ripristinare un account esistente (immagine 3), è necessario :
- - Il file di backup
- - La password per decifrare il file
+- Scarica l’applicazione da [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
+- Segui le istruzioni di installazione sul tuo dispositivo.
+- Durante l’installazione ti verrà chiesto se desideri condividere alcuni dati per contribuire al miglioramento dell’applicazione Peach.(immagine 1)
+- Nella schermata successiva (immagine 2), hai due opzioni:
+-Se sei un nuovo utente, clicca su “Nuovo utente” per creare un nuovo profilo.
+- Se hai già un account, utilizza “Ripristina” per recuperare il tuo profilo esistente.
+- Se hai un codice referral, puoi inserirlo qui.
+- Per ripristinare un account esistente (immagine 3), avrai bisogno di:
+- Il file di backup.
+- La password per decifrare il file.
 
 ### 2. Panoramica delle schermate principali
 
@@ -69,55 +69,55 @@ L'applicazione Peach è organizzata in quattro schermate principali accessibili 
 
 
 - **Home**: La schermata principale per l'acquisto e la vendita di bitcoin. Qui è possibile creare nuove transazioni e accedere alle offerte disponibili.
-- **Portafoglio**: Il vostro portafoglio bitcoin integrato che vi permette di :
- - Controllare il saldo
- - Ricevere bitcoin
- - Inviare bitcoin
- - Visualizzare la cronologia delle transazioni
-- **Commerci** : Il vostro centro di gestione del commercio dove troverete :
- - Le vostre transazioni correnti
- - Una storia completa dei vostri scambi
- - Lo stato di ogni transazione
-- **Impostazioni**: L'hub di configurazione dell'account per :
- - Gestire i metodi di pagamento
- - Configurare i backup
- - Personalizzare le preferenze
- - Accesso all'assistenza e al supporto
+- **Portafoglio**: Il vostro portafoglio bitcoin integrato che vi permette di:
+ - Controllare il saldo.
+ - Ricevere bitcoin.
+ - Inviare bitcoin.
+ - Visualizzare la cronologia delle transazioni.
+- **Commerci** : Il vostro centro di gestione del commercio dove troverete:
+ - Le vostre transazioni correnti.
+ - Una storia completa dei vostri scambi.
+ - Lo stato di ogni transazione.
+- **Impostazioni**: L'hub di configurazione dell'account per:
+ - Gestire i metodi di pagamento.
+ - Configurare i backup.
+ - Personalizzare le preferenze.
+ - Accesso all'assistenza e al supporto.
 
 ### 3. Configurare i metodi di pagamento
 
 ![Accès aux paramètres de paiement](assets/fr/03.webp)
 
-Accedete ai metodi di pagamento tramite la scheda Impostazioni (immagine 8)
+Accedi ai metodi di pagamento tramite la scheda Impostazioni (immagine 8).
 
 **Pagamenti online**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
 
-- Fare clic sul pulsante per aggiungere un nuovo metodo di pagamento
-- Scegliete la vostra valuta
-- Selezionare il metodo di pagamento preferito
+- Clicca sul pulsante per aggiungere un nuovo metodo di pagamento.
+- Scegli la tua valuta.
+- Seleziona il metodo di pagamento preferito.
 
 *Tipi di metodi di pagamento disponibili:*
 
 ***Trasferimenti bancari disponibili: ***
 
 
-- SEPA (standard o istantaneo)
-- Inserite le vostre coordinate bancarie SEPA
+- SEPA (standard o istantaneo).
+- Inserisci i dettagli del tuo conto bancario SEPA.
 
 ***Portafogli online accettati :***
 
 
-- Sono disponibili diverse opzioni a seconda del paese (Revolut, Paypal, Wise, Strike, ecc.)
-- Seguire le istruzioni per aggiungere i dati di accesso
-
+- Sono disponibili diverse opzioni a seconda del paese (Revolut, Paypal, Wise, Strike, ecc.).
+- Segui le istruzioni per inserire i tuoi dati di accesso.
+  
 ***La carta regalo che può essere utilizzata :***
 
 
-- Amazon
-- Inserire il paese di emissione della carta e le altre informazioni necessarie
+- Amazon.
+- Inserisci il paese di emissione della carta e le altre informazioni necessarie.
 
 ***Opzioni di pagamento nazionali:***
 
@@ -134,16 +134,16 @@ Sistemi di pagamento specifici per ogni paese :
 ![Configuration des paiements en personne](assets/fr/05.webp)
 
 
-- Selezionare "Incontri
-- Quindi selezionare il proprio incontro dall'elenco
+- Seleziona "Incontri".
+- Quindi seleziona il proprio incontro dall'elenco.
 
 ### Istruzioni per l'uso
 
 
-- È possibile impostare più metodi di pagamento contemporaneamente
-- Più metodi si aggiungono, più ampia sarà la gamma di offerte a cui si avrà accesso
-- Prima di registrarsi, verificare che i dati siano corretti
-- È possibile modificare o eliminare i metodi di pagamento in qualsiasi momento
+- È possibile impostare più metodi di pagamento contemporaneamente.
+- Più metodi si aggiungono, più ampia sarà la gamma di offerte a cui si avrà accesso.
+- Prima di registrarti, verificare che i dati siano corretti.
+- È possibile modificare o eliminare i metodi di pagamento in qualsiasi momento.
 
 **Nota sulla sicurezza**: Le informazioni di pagamento sono criptate e condivise solo con il partner di scambio durante la transazione.
 
@@ -151,7 +151,7 @@ Sistemi di pagamento specifici per ogni paese :
 
 **Comprendere il proprio conto Peach**
 
-Un account Peach non è un account tradizionale con login e password. È un file memorizzato localmente sul vostro telefono, il che significa che Peach non ha bisogno di memorizzare i vostri dati o di conoscere la vostra identità: siete voi a controllarlo. Questo file contiene tutti i vostri dati, dalle chiavi del vostro portafoglio bitcoin ai dettagli dei vostri pagamenti.
+Un account Peach non è un account tradizionale con login e password. Si tratta di un file archiviato localmente sul tuo telefono, il che significa che Peach non deve conservare i tuoi dati né conoscere la tua identità: il controllo è nelle tue mani. Questo file contiene tutte le tue informazioni, dalle chiavi del tuo wallet Bitcoin ai tuoi dati di pagamento.
 
 Questo approccio garantisce una maggiore riservatezza, ma implica anche una maggiore responsabilità. Perdere il telefono senza un backup significa perdere l'accesso al conto Peach e ai fondi. È quindi fondamentale eseguire il backup di questo file e proteggerlo con una password forte.
 
@@ -160,9 +160,9 @@ Questo approccio garantisce una maggiore riservatezza, ma implica anche una magg
 ![Accéder aux sauvegardes](assets/fr/13.webp)
 
 
-- Accedere alle impostazioni dalla scheda in basso a destra della schermata iniziale
-- Selezionare l'opzione "backup" nel menu delle impostazioni
-
+- Accedi alle impostazioni dalla scheda in basso a destra della schermata principale.
+- Seleziona l’opzione “backup” nel menu delle impostazioni.
+- 
 ![Processus de sauvegarde](assets/fr/06.webp)
 
 Sono disponibili due tipi di backup:
@@ -170,38 +170,38 @@ Sono disponibili due tipi di backup:
 **Salvare il file del conto (immagine 14)**
 
 
-- Fare clic su "Crea nuovo backup"
-- Creare una password forte per crittografare il file di backup
-- Conservare questo file in un luogo sicuro
+- Clicca su “Crea nuovo backup”
+- Crea una password sicura per criptare il file di backup.
+- Conserva questo file in un luogo sicuro.
 
-Il backup dei file ripristina l'intero account Peach, compresi i file :
+Il backup dei file ripristina l'intero account Peach, compresi i file:
 
 
-- Il vostro portafoglio
-- I vostri metodi di pagamento
-- Storia della conversazione
-- Dati di pagamento
-- Storico delle transazioni con i dettagli della controparte
-
+- Il tuo portafoglio.
+- I tuoi metodi di pagamento.
+- La cronologia delle conversazioni.
+- I dati di pagamento.
+- La cronologia delle transazioni con i dettagli delle controparti.
+- 
 **Salvataggio della frase di recupero (immagine 15)**
 
 
-- Seguire le istruzioni per visualizzare la frase di recupero
-- Scrivete con attenzione le parole nell'ordine corretto
-- Conservare questo backup in un luogo sicuro, possibilmente diverso dal file dell'account
+- Segui le istruzioni per visualizzare la tua frase di recupero.
+- Scrivi attentamente le parole nell’ordine corretto.
+- Conserva questo backup in un luogo sicuro, idealmente diverso dal file dell’account.
 
-La frase di recupero recupera solo :
-
-
-- Accesso al proprio account
-- I vostri fondi bitcoin
-
-Perderete :
+La frase di recupero recupera solo:
 
 
-- Storia della conversazione
-- Dati di pagamento
-- Informazioni sulla controparte nella cronologia delle transazioni
+- Accesso al tuo account.
+- I tuoi fondi in bitcoin.
+  
+Perderete:
+
+
+- Cronologia delle conversazioni.
+- Dati di pagamento.
+- Informazioni sulle controparti nella cronologia delle transazioni.
 
 Per una sicurezza ottimale, si consiglia di eseguire entrambi i tipi di backup.
 
@@ -212,61 +212,61 @@ Per una sicurezza ottimale, si consiglia di eseguire entrambi i tipi di backup.
 ![Création et vue des offres](assets/fr/07.webp)
 
 
-- Nella schermata iniziale, fare clic sul pulsante "Acquista" (immagine 16)
-- Configurare l'acquisto in base alle proprie preferenze (immagine 17)
-- Sfogliare l'elenco delle offerte disponibili (immagine 18)
-
+- Nella schermata principale, clicca sul pulsante “Acquista” (immagine 16).
+- Configura l’acquisto secondo le tue preferenze (immagine 17).
+- Sfoglia l’elenco delle offerte disponibili (immagine 18).
+  
 ![Sélection et confirmation d'achat](assets/fr/08.webp)
 
 
-- Selezionate l'offerta che fa per voi (immagine 19)
-- Effettuare il pagamento con il metodo concordato
-- Confermare il pagamento nell'applicazione e valutare la transazione (immagine 20)
-
+- Seleziona l’offerta più adatta a te (immagine 19).
+- Effettua il pagamento con il metodo concordato.
+- Conferma il pagamento nell’applicazione e valuta la transazione (immagine 20).
+  
 ![Réception des bitcoins](assets/fr/09.webp)
 
 
-- Tracciare lo stato della transazione
-- Controllare la conferma di ricezione dei bitcoin
-- I fondi saranno disponibili nel vostro portafoglio Peach
+- Monitora lo stato della tua transazione.
+- Verifica la conferma di ricezione dei bitcoin.
+- I fondi saranno disponibili nel tuo portafoglio Peach.
 
 ### 2. Come vendere Bitcoin
 
 ![Création d'un ordre de vente](assets/fr/10.webp)
 
 
-- Configurare l'offerta di vendita (immagine 24)
-- Finanziare la transazione inviando i bitcoin all'indirizzo fornito (immagine 25)
-- Attendere la conferma della transazione (immagine 26)
-- La vostra offerta è ora visibile agli acquirenti (immagine 27)
+- Configura la tua offerta di vendita (immagine 24).
+- Finanzia la transazione inviando i bitcoin all’indirizzo fornito (immagine 25).
+- Attendi la conferma della transazione (immagine 26).
+- La tua offerta è ora visibile agli acquirenti (immagine 27).
 
 ![Attente du paiement](assets/fr/11.webp)
 
 
-- Monitorare lo stato della vostra offerta
-- Attendere la conferma del pagamento da parte dell'acquirente
-- Controllare i dettagli della transazione
+- Monitora lo stato della tua offerta.
+- Attendi la conferma del pagamento da parte dell’acquirente.
+- Controlla i dettagli della transazione.
 
 ![Finalisation de la vente](assets/fr/12.webp)
 
 
-- Controllare lo stato dei pagamenti
-- Confermare la ricezione del pagamento
-- Valutare la transazione
-- I bitcoin vengono rilasciati automaticamente all'acquirente
-
+- Controlla lo stato del pagamento.
+- Conferma la ricezione del pagamento.
+- Valuta la transazione.
+- I bitcoin vengono rilasciati automaticamente all’acquirente.
+- 
 **Consigli per una transazione di successo**
 
 
-- Rispondere rapidamente ai messaggi della controparte
-- Controllare attentamente i dettagli del pagamento
-- Non esitate a ricorrere al servizio di mediazione in caso di problemi
+- Rispondi rapidamente ai messaggi della tua controparte.
+- Controlla attentamente i dettagli del pagamento.
+- Non esitare a utilizzare il servizio di mediazione se riscontri un problema.
 
 **Nota di sicurezza**: Non confermate mai la ricezione di un pagamento prima di averne verificato la ricezione sul vostro conto.
 
 ## Vantaggi e svantaggi
 
-### Benefici della pesca
+### Benefici di Peach
 
 
 - **Non è richiesto il KYC**: Preserva la riservatezza dell'utente.
@@ -274,7 +274,7 @@ Per una sicurezza ottimale, si consiglia di eseguire entrambi i tipi di backup.
 - **Interfaccia intuitiva**: Facile da usare per gli utenti intermedi.
 - **Open Source**: Il codice sorgente è pubblico e verificabile dalla comunità.
 
-### Svantaggi della pesca
+### Svantaggi di Peach
 
 
 - **Liquidità limitata**: Volume di trading inferiore rispetto alle piattaforme più consolidate.

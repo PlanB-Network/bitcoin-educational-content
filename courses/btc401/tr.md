@@ -74,7 +74,7 @@ Kurs boyunca katılımcılar, anlayışlarına yardımcı olacak ve öğrenme de
 **Cubo Plus** eğitim programının ilk dersine hoş geldiniz. Bugün, **Bitcoin Italia Podcast**'in kurucusu Ricky'nin önderliğinde Bitcoin dünyasına dalıyoruz. Ricky, Bitcoin'yı insan haklarını korumak ve teşvik etmek için bir araç olarak kullanan tutkulu bir insan hakları aktivistidir. Altı yılı aşkın deneyimiyle Ricky, El Salvador ve Guatemala gibi gelişmekte olan pazarlarda Bitcoin'nın benimsenmesini belgelemek için kapsamlı seyahatler gerçekleştirmiştir. Çalışmaları podcast yayıncılığının ötesine geçiyor; YouTube (**Bitcoin Explorers**) ve Twitter'da (**BTC Explorer**, **Ricky6**) da aktif. Ricky'nin Commitment'ten Bitcoin'ya geçişi, geleneksel, merkezi bankacılık sistemlerine meydan okuyarak finansal özgürlük ve gizlilik sunduğuna olan inancından kaynaklanıyor.
 
 
-![Unbanked Population](assets/en/01.webp)
+![Unbanked Population](assets/en/001.webp)
 
 _Bankasız Küresel Nüfus_
 
@@ -108,7 +108,7 @@ Bitcoin dijital bir para biriminden çok daha fazlasıdır. Gizliliği korumak v
 Finansal baskının yaygın olduğu otoriter rejimlerde, Bitcoin'in **duyarsız doğası** insanların fonlarının dondurulması veya el konulması korkusu olmadan işlem yapabilmelerini sağlar. **Açık kaynak** yapısı, küresel katılımı teşvik ederek ağı sürekli geliştiren bir topluluğu teşvik eder.
 
 
-![Image](assets/en/02.webp)
+![Image](assets/en/002.webp)
 
 
 Potansiyeline rağmen Bitcoin önemli zorluklarla karşı karşıyadır. Afrika ve Hindistan gibi bölgelerde, elektrik ve internet erişimi gibi temel altyapı genellikle eksiktir ve bu da benimsenmeyi sınırlamaktadır. Ayrıca, **dijital katılım** - her yaştan ve eğitim seviyesinden insanın teknolojiyi kullanabilmesini sağlamak- büyük bir engel olmaya devam etmektedir.
@@ -195,7 +195,7 @@ Aynı zamanda, **Avusturya Ekonomisi** Bitcoin'nın parasal ilkelerinin temelini
 El Salvador'un Bitcoin'ü benimsemesi, gönüllü benimsemeyi ve ademi merkeziyetçiliği teşvik ederek **Avusturya Ekonomisi** ile uyumlu bir finansal özgürlük aracı olarak potansiyelini yansıtmaktadır. Bu hareket, rekabet, tekel ve müsadere gibi temel sorunları ele alarak geleneksel finansal sistemlere meydan okumaktadır.
 
 
-![Image](assets/en/03.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -272,7 +272,7 @@ Bitcoin işlemleri, Proof-of-Work algoritmasını kullanarak kriptografik bir bu
 Blockchain'teki her **blok** bir **başlık** (bir önceki bloğun Hash'si gibi veriler içeren) ve bir işlem listesinden oluşur. **Genesis Bloğu** olarak bilinen ilk blok benzersizdir çünkü kendinden önce gelen bir blok yoktur.
 
 
-![Image](assets/en/04.webp)
+![Image](assets/en/004.webp)
 
 
 İşlemler bir bloğa dahil edilmeden önce, onaylanmayı bekledikleri **Mempool**'te bulunurlar. Onaylandıktan sonra, bu işlemler yeni çıkarılan bloğa ve ardından Blockchain'e eklenir.
@@ -348,7 +348,7 @@ Bir diğer önemli ayrım ise **Bitcoin**'nin herhangi bir şirket veya hüküme
 
 > - shitcoins:_ Shitcoins, gerçek faydadan yoksun, düşük değerli veya şüpheli kalitede kripto para birimleridir. Genellikle son derece spekülatiftirler ve bazen kripto para piyasasındaki patlamadan faydalanarak dolandırıcılık amacıyla veya net bir amaç olmaksızın yaratılırlar.
 
-![Image](assets/en/05.webp)
+![Image](assets/en/005.webp)
 
 
 ### Enerji tüketimi ve çevresel etki
@@ -979,7 +979,7 @@ Spectre ve Ledger kullanarak Bitcoin için güvenlik ve cihaz kurulumu hakkında
 Bitcoin, on yılı aşkın bir süredir küresel ölçekte başarıyla faaliyet göstererek ve dijital ekonomide yeni olanaklar yaratarak finans dünyasında dönüştürücü bir yenilik olduğunu kanıtlamıştır. Ancak, hala yaratıcı ve işbirliğine dayalı çözümler gerektiren zorluklarla karşı karşıyadır. Bitcoin'nın devam eden gelişimi, merkezi olmayan finansın geleceğini şekillendirmek isteyenler için eşsiz bir fırsat sunuyor.
 
 
-![Image](assets/en/06.webp)
+![Image](assets/en/006.webp)
 
 
 #### Bitcoin kullanılabilirliğindeki açık sorunlar
@@ -1018,7 +1018,7 @@ Bitcoin protokolündeki esneklik, gizlilik, güvenlik ve ölçeklenebilirlik ala
 #### Güvenlik ve gizliliğe karşı kullanılabilirlik
 
 
-![Image](assets/en/07.webp)
+![Image](assets/en/007.webp)
 
 
 Bitcoin'ün kullanılabilirliğini artırma çabaları genellikle güvenlik ve gizlilik pahasına gerçekleşmektedir. Örneğin, Satoshi'ün Wallet'i gibi kullanıcı dostu emanet cüzdanları erişilebilir bir Interface sağlar ancak güvenlik ve gizlilikten önemli ölçüde ödün verir. Basitleştirilmiş sistemler kullanılabilirliği artırabilir ancak gizliliğe zarar veren Address'nin yeniden kullanımı gibi sorunlara yol açabilir. Bu nedenle, kullanılabilirlikteki herhangi bir iyileştirme, potansiyel güvenlik ve gizlilik ödünlerine karşı dikkatlice tartılmalıdır.
@@ -1066,7 +1066,7 @@ Güvenlik ve verimliliği korurken Bitcoin ve Lightning Network ile kullanıcı 
 Bitcoin'ün kullanılabilirliğini, güvenliğini ve gizliliğini iyileştirmek için eğitim materyalleri oluşturmak etkilidir. Kullanıcıları en iyi uygulamalar ve Bitcoin'ün altında yatan ilkeler konusunda eğitmek, onları bilinçli kararlar vermeleri için güçlendirebilir ve ağla ilgili genel deneyimlerini geliştirebilir.
 
 
-![Image](assets/en/08.webp)
+![Image](assets/en/008.webp)
 
 
 **Layer 1 ve Layer 2 değişiklikleri**
@@ -1128,7 +1128,7 @@ Hem güvenlik hem de güvenilirlik sistem bütünlüğünü korumayı amaçlasa 
 Güvenilirlik mühendisliğinin en önemli örneklerinden biri 18. yüzyılda inşa edilen bir köprüdür. Bileşimi ve üretim süreci de dahil olmak üzere kullanılan çeliğin kalitesi, köprünün güvenilirliğini önemli ölçüde etkilemiştir. Mühendisler tekil arıza noktalarını dikkate almak ve köprünün zaman içindeki güvenilirliğini değerlendirmek ve sağlamak için olasılık ve istatistikleri kullanmak zorundaydı.
 
 
-![Image](assets/en/09.webp)
+![Image](assets/en/009.webp)
 
 
 Güvenilirliğin aksine, güvenlik kasıtlı tehditlerle ilgilenir. Örneğin, 256 bitlik bir kriptografik anahtar, kaba zorlamanın imkansızlığı nedeniyle matematiksel bir güvenlik garantisi sağlar. Güvenlik önlemleri, fiziksel kurcalamadan sofistike siber saldırılara kadar farklı tehdit modellerini hesaba katmalıdır.
@@ -1146,7 +1146,7 @@ Başka bir senaryoda, sürücünün yolcunun kimliğini doğrulamak için gizli 
 Guatemala'da seçim sonuçlarına zaman damgası vurulması, seçim sürecinin bütünlüğünün sağlanmasında kritik bir rol oynamıştır. Seçim yetkilileri, Timestamp verilerine kriptografik yöntemler uygulayarak sonuçların gerçekliğine dair kurcalanamaz kanıtlar sunabilir ve önemli finansal teşviklerle hareket eden potansiyel manipülatörleri caydırabilir.
 
 
-![Image](assets/en/10.webp)
+![Image](assets/en/010.webp)
 
 
 ### Potansiyel tehditlerin belirlenmesi ve azaltılması
@@ -1235,7 +1235,7 @@ Stallman'ın önemli katkılarından biri, Unix benzeri özgür bir işletim sis
 Bu boşluk Linus Torvalds'ın 1991 yılında Linux çekirdeğini yaratmasıyla doldurulmuştur. Torvalds'ın çekirdeği GNU bileşenleriyle birleşerek GNU/Linux olarak bilinen tamamen işlevsel bir özgür işletim sistemi ortaya çıkardı. Stallman'ın yazılım özgürlüğüne yönelik felsefi Commitment'i ile Torvalds'ın pratik katkısı arasındaki bu işbirliği, açık kaynak yaklaşımının gücünü örneklemektedir.
 
 
-![Image](assets/en/11.webp)
+![Image](assets/en/011.webp)
 
 
 Özgür Yazılım Hareketi, yazılımın herkesin kullanması, değiştirmesi ve paylaşması için ücretsiz olması gerektiği fikrini destekleyerek yazılım endüstrisini derinden etkilemiştir. Hareketin ilkeleri, bugün gelişmekte olan birçok açık kaynaklı proje ve topluluğun temelini oluşturmuştur.
@@ -1250,7 +1250,7 @@ Açık kaynaklı projelerin finanse edilmesi ve sürdürülmesi benzersiz zorluk
 Başarılı bir örnek, Bitcoin altyapısının kritik bir parçası olan Bitcoin core'dır. Bitcoin core üzerinde çalışan geliştiriciler genellikle hibeler, bağışlar ve projenin başarısından yararlanan kuruluşların sponsorlukları yoluyla finanse edilmektedir. Bu model, geliştiricilerin geleneksel ticari finansmanın kısıtlamaları olmadan yazılımı geliştirmeye odaklanmalarını sağlar.
 
 
-![Image](assets/en/12.webp)
+![Image](assets/en/012.webp)
 
 
 Öne çıkan bir diğer örnek de Linux işletim sistemidir. IBM, Red Hat ve Intel gibi birçok şirket Linux'un gelişimine katkıda bulunmaktadır çünkü ürünleri ve hizmetleri sağlam ve güvenli bir işletim sistemine bağlıdır. Bu şirketler Linux ekosistemini sürdürmek ve geliştirmek için finansal destek sağlamakta, kod katkısında bulunmakta ve kaynak sunmaktadır.
@@ -1259,7 +1259,7 @@ Başarılı bir örnek, Bitcoin altyapısının kritik bir parçası olan Bitcoi
 MIT, GPL ve AGPL gibi açık kaynak lisansları da açık kaynak yazılımın ekonomik dinamiklerinde önemli bir rol oynamaktadır. MIT gibi izin veren lisanslar, ticarileştirme de dahil olmak üzere kodun daha esnek kullanımına izin verir. Buna karşılık, GPL gibi copyleft lisansları, herhangi bir türev çalışmanın da açık kaynaklı olmasını sağlayarak işbirlikçi bir ortamı teşvik eder.
 
 
-![Image](assets/en/13.webp)
+![Image](assets/en/013.webp)
 
 
 Sonuç olarak, açık kaynaklı yazılımların ekonomisi topluluk katkıları, kurumsal sponsorluklar ve yenilikçi finansman modelleri tarafından yönlendirilmektedir. Bu mekanizmalar açık kaynaklı projelerin sürdürülebilirliğini ve sürekli gelişimini sağlayarak hem geliştiricilere hem de kullanıcılara fayda sağlamaktadır.
@@ -1285,13 +1285,13 @@ Hoş geldiniz! Bugün, her Bitcoin geliştiricisinin bilmesi gereken kriptografi
 Bu bölümde, Bitcoin fonksiyonları, Merkle ağaçları, dijital imzalar ve eliptik eğriler de dahil olmak üzere Hash geliştiricileri için gerekli olan temel kriptografik kavramları inceleyeceğiz.
 
 
-![Image](assets/en/14.webp)
+![Image](assets/en/014.webp)
 
 
 **Hash işlevleri**: Bir Hash fonksiyonu bir girdi alır ve sabit uzunlukta bir bayt dizisi üretir. Bitcoin'te, Hash işlevleri veri bütünlüğü ve güvenliği için temeldir. Kriptografik Hash fonksiyonları verimli olmalı, generate görünüşte rastgele çıktılar vermeli ve girdi boyutundan bağımsız olarak sabit uzunlukta çıktılar üretmelidir. Dosya bütünlüğü kontrolleri için kullanılırlar ve verilerin kötü niyetle değiştirilmediğinden emin olurlar.
 
 
-![Image](assets/en/15.webp)
+![Image](assets/en/015.webp)
 
 
 **Güvenlik özellikleri**: Kriptografik Hash fonksiyonları çeşitli güvenlik özelliklerine uymalıdır. Ön-imge direnci, Hash çıktısından orijinal girdiyi tersine mühendislikle elde etmenin hesaplama açısından mümkün olmamasını sağlar. İkinci ön-imaj direnci, aynı Hash çıktısını üreten farklı bir girdi bulmanın zor olması gerektiği anlamına gelir. Çarpışma direnci, aynı Hash çıktısını veren iki farklı girdi bulmanın mümkün olmamasını sağlar.
@@ -1300,7 +1300,7 @@ Bu bölümde, Bitcoin fonksiyonları, Merkle ağaçları, dijital imzalar ve eli
 **Merkle ağaçları**: Merkle Tree, büyük veri kümelerinin verimli ve güvenli bir şekilde doğrulanmasını sağlayan bir veri yapısıdır. Veri öğeleri çiftler halinde hashlenir ve elde edilen hashler tek bir kök Hash oluşturmak için yinelemeli olarak birleştirilir. Bitcoin'de Merkle ağaçları, özellikle Basitleştirilmiş Ödeme Doğrulama (SPV) istemcileri ve Taproot (Mast) için blok oluşturma ve işlem doğrulamada çok önemlidir.
 
 
-![Image](assets/en/16.webp)
+![Image](assets/en/016.webp)
 
 
 **Dijital imzalar (ECDSA)**: Eliptik Eğri Dijital İmza Algoritması (ECDSA), Bitcoin işlemlerinde özgünlüğü ve bütünlüğü sağlamak için kullanılır. İlgili açık anahtar kullanılarak doğrulanabilen bir özel anahtar kullanarak bir imza oluşturmayı içerir. Anahtar kavramlar arasında sonlu alanları, ayrık logaritmaları ve nonce'ların önemini anlamak yer almaktadır.
@@ -1309,7 +1309,7 @@ Bu bölümde, Bitcoin fonksiyonları, Merkle ağaçları, dijital imzalar ve eli
 **Eliptik eğriler**: Eliptik eğriler, verimlilikleri ve güvenlikleri nedeniyle açık anahtar kriptografisinde kullanılır. Eliptik eğri kriptografisinin güvenliği, ayrık logaritma problemini çözmenin zorluğuna dayanır.
 
 
-![Image](assets/en/17.webp)
+![Image](assets/en/017.webp)
 
 
 ### Bitcoin'de pratik kriptografik uygulamalar ve güvenlik uygulamaları
@@ -1321,7 +1321,7 @@ Bu bölümde, bu kavramların gerçek dünyadaki Bitcoin geliştirmesinde uygula
 **Kriptografi = tehlike**: Kriptografi iki ucu keskin bir kılıçtır. Kazara veri hasarına ve kötü niyetli eylemlere karşı koruma sağlarken, yanlış uygulama ciddi güvenlik açıklarına yol açabilir. Geliştiriciler, hem güvenli uygulama hem de olası sorunları giderme becerisi sağlamak için kriptografik mekanizmaları derinlemesine anlamalıdır. Örneğin, SHA-2'nin 256 bitlik çıktısı, ön görüntü saldırılarının yaklaşık 2^256 iş gerektirmesini ve çarpışma direncinin yaklaşık 2^128 iş olmasını sağlar.
 
 
-![Image](assets/en/18.webp)
+![Image](assets/en/018.webp)
 
 
 **Merkle Tree uygulamaları**: Logaritmik kanıt boyutunu anlamak ve dikkatli ağaç tasarımı sağlamak, işlem doğrulamasında Hash yinelemesi gibi kusurlardan kaçınmak için çok önemlidir. Merkle ağaçları blok oluşturma, işlem doğrulama ve Taproot gibi geliştirmelerde kullanılır.
@@ -1330,7 +1330,7 @@ Bu bölümde, bu kavramların gerçek dünyadaki Bitcoin geliştirmesinde uygula
 **Açık anahtar kriptografisi**: Ayrık logaritmalar ve sonlu alanlar Bitcoin'deki kriptografik hesaplamalarda temeldir. Meydan okuma-yanıt protokolleri, özel bir anahtarın bilgisini ifşa etmeden doğrulamak için kullanılır.
 
 
-![Image](assets/en/19.webp)
+![Image](assets/en/019.webp)
 
 
 **Güvenlik etkileri**: Geçmiş örnekler, Nonce'in yeniden kullanımı nedeniyle önemli mali kayıplar yaşandığını göstermektedir. Benzersiz nonce'lar oluşturmanın önemini anlamak çok önemlidir. LibSecP256k1 gibi güvenilir kütüphanelerin kullanılması sağlam ve güvenli kriptografik işlemler sağlar.
@@ -1392,10 +1392,10 @@ Soft çatalları, Bitcoin protokolünün mevcut kurallarını sıkılaştıran v
 Hard çatalları, mevcut kuralları gevşeterek yeni işlem türlerine izin veren değişikliklerdir. Bunlar geriye dönük uyumlu değildir, yani yükseltilmemiş düğümler yeni kuralları tanımayacaktır. Bitcoin'in bu tarihten sonra da çalışmaya devam etmesini sağlamak amacıyla 2106 Yılı sorunu için bir Hard Fork örneği gerekebilir.
 
 
-![Image](assets/en/20.webp)
+![Image](assets/en/020.webp)
 
 
-![Image](assets/en/21.webp)
+![Image](assets/en/021.webp)
 
 
 ### Yönetişim örnekleri
@@ -1425,7 +1425,7 @@ Bitcoin'in mutabakat mekanizması, değişikliklerin kabul edilmesi için geniş
 Blok boyutu tartışması, Bitcoin'in blok boyutunun artırılıp artırılmaması etrafında dönen önemli bir yönetişim sorunuydu. Bu tartışma, etkin blok boyutunu artıran ve Lightning Network'ü etkinleştiren bir Soft Fork olan SegWit'nın uygulanmasıyla çözüldü.
 
 
-![Image](assets/en/22.webp)
+![Image](assets/en/022.webp)
 
 
 ### Zorla değişiklikler ve çoğunluk kuralı
@@ -1501,7 +1501,7 @@ Bir Bitcoin düğümü çalıştırmak çeşitli nedenlerden dolayı gereklidir:
 - Geçerli adayların listesini tutar; **Mempool**: Düğümler, bloklara dahil edilmek üzere Mempool'te olası işlem adaylarının bir listesini tutmalıdır.
 
 
-![nodes network](assets/en/23.webp)
+![nodes network](assets/en/023.webp)
 
 
 **NOT**: Mempool, onaylanmış ancak henüz bir bloğa dahil edilmemiş işlemler için geçici bir depolama alanıdır.
@@ -1513,7 +1513,7 @@ Bir Bitcoin düğümü çalıştırmak çeşitli nedenlerden dolayı gereklidir:
 #### Bitcoin core modülleri
 
 
-![Bitcoin core modules](assets/en/24.webp)
+![Bitcoin core modules](assets/en/024.webp)
 
 
 
@@ -1547,7 +1547,7 @@ bitcoin-cli gettxoutsetinfo
 ```
 
 
-![utxoset info command](assets/en/25.webp)
+![utxoset info command](assets/en/025.webp)
 
 
 Bitcoin sayısının doğru olduğunu denetleyebiliriz.
@@ -1566,7 +1566,7 @@ Bitcoin sayısının doğru olduğunu denetleyebiliriz.
 **ÖNEMLİ**: İşlemler UTXO'lar ile aynı değildir.
 
 
-![Txs and UTXOs](assets/en/26.webp)
+![Txs and UTXOs](assets/en/026.webp)
 
 
 #### Mempool
@@ -1660,7 +1660,7 @@ Blok başlığı bir Bitcoin bloğunun temel taşıdır ve aşağıdaki alanlar�
 **Not**: Mining sırasında yalnızca ilk 80 bayt (blok başlığını içeren) karma hale getirilir.
 
 
-![Block header structure](assets/en/27.webp)
+![Block header structure](assets/en/027.webp)
 
 
 #### Basitleştirmeler
@@ -1698,13 +1698,13 @@ Bir Bitcoin bloğundaki her işlem aşağıdakileri içerir:
 - **Kilit Süresi**: Bu işlemin bir bloğa dahil edilebileceği blok yüksekliğini veya Timestamp'u belirtir.
 
 
-![Transaction structure](assets/en/28.webp)
+![Transaction structure](assets/en/028.webp)
 
-![TxIn structure](assets/en/29.webp)
+![TxIn structure](assets/en/029.webp)
 
-![Outpoint structure](assets/en/30.webp)
+![Outpoint structure](assets/en/030.webp)
 
-![TxOut structure](assets/en/31.webp)
+![TxOut structure](assets/en/031.webp)
 
 
 #### Ayrıştırma teknikleri
@@ -1895,11 +1895,11 @@ _ => todo!()
 ```
 
 
-![op_checksig](assets/en/32.webp)
+![op_checksig](assets/en/032.webp)
 
-![op_hash160](assets/en/33.webp)
+![op_hash160](assets/en/033.webp)
 
-![op_push](assets/en/34.webp)
+![op_push](assets/en/034.webp)
 
 
 #### Kod ayrıştırmada karşılaşılan zorluklar
@@ -1938,7 +1938,7 @@ Kompakt blokların kullanımı şu anda düğümler arasındaki veri iletiminin 
 Mutabakat açısından kritik uygulamalarda, hataları önlemek ve güvenliği sağlamak için [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) veya [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/) gibi mevcut kütüphanelerin kullanılması önerilir. Kendi ayrıştırıcınızı uygulamak eğitici olabilir ancak üretim ortamlarında riskli de olabilir.
 
 
-![libraries](assets/en/35.webp)
+![libraries](assets/en/035.webp)
 
 
 ### Bitcoin'de verimlilik ve güvenlik Mining
@@ -1961,7 +1961,7 @@ Mining boş bloklar madenciler için daha verimli olabilir:
 Boş bloklar bazen zamanlama sorunları nedeniyle kazılır. Madenciler bir sonraki blok için Mining'ye başladıklarında işlemlerin tam listesini almamış olabilirler, bu nedenle bunun yerine boş bir blok kazmayı tercih ederler.
 
 
-![empty block](assets/en/36.webp)
+![empty block](assets/en/036.webp)
 
 
 #### Boş blokların kötü amaçlı Mining'i
@@ -2019,14 +2019,14 @@ Bitcoin düğümleri Bitcoin ağının belkemiğidir. Birbirlerine, Exchange iş
 - **Arşiv düğümleri**: Tam düğümlerin bir alt kümesi olan arşiv düğümleri, tüm Blockchain verilerini saklar, bu da onları geçmiş analiz ve hata ayıklama için değerli kılar.
 
 
-![archival node](assets/en/37.webp)
+![archival node](assets/en/037.webp)
 
 
 
 - **pruned düğümleri**: pruned düğümleri, Blockchain'in yalnızca bir kısmını tutarak disk alanından tasarruf sağlar ve doğrulama için artık gerekli olmayan eski verileri ortadan kaldırır.
 
 
-![pruned node](assets/en/38.webp)
+![pruned node](assets/en/038.webp)
 
 
 #### Bitcoin core
@@ -2041,7 +2041,7 @@ Bitcoin core en yaygın kullanılan Full node uygulamasıdır. Hem Full node hem
 - **Dil**: Python'da testlerle C++ dilinde yazılmıştır, sağlam performans ve güvenilirlik sağlar.
 
 
-![cli-gui](assets/en/39.webp)
+![cli-gui](assets/en/039.webp)
 
 
 ##### Bitcoin core'i Keşfetmek
@@ -2096,7 +2096,7 @@ Bitcoin core'in ötesinde, birkaç alternatif düğüm uygulaması vardır:
 Bu alternatifleri uygulamak, özellikle mutabakat kurallarıyla ilgili olarak kendi risklerini de beraberinde getirir. Yerleşik doğrulama kurallarından sapmak çatallanmalara veya tutarsızlıklara yol açabilir. Bitcoin Kernel projesi, mutabakat kodunu merkezileştirerek bu riskleri azaltmayı ve uygulamalar arasında tekdüzelik sağlamayı amaçlamaktadır.
 
 
-![implementation](assets/en/40.webp)
+![implementation](assets/en/040.webp)
 
 
 ### Bitcoin cüzdanlar ve güvenlik
@@ -2171,21 +2171,21 @@ Türü ne olursa olsun, her Bitcoin Wallet üç temel işlevi yerine getirir:
 - Bitcoin cüzdanları, kriptografik anahtarları tutan ve üreten anahtar zincirleri olarak işlev görür.
 
 
-![keychain](assets/en/41.webp)
+![keychain](assets/en/041.webp)
 
 
 
 - Gelen işlemler için Blockchain'yi izlerler.
 
 
-![monitor](assets/en/42.webp)
+![monitor](assets/en/042.webp)
 
 
 
 - Harcanmamış işlem çıktılarını (UTXO'lar) seçerek, girdileri ve çıktıları ayarlayarak ve gizlilik ve ücretler için optimizasyon yaparak işlemler oluşturun.
 
 
-![tx_builder](assets/en/43.webp)
+![tx_builder](assets/en/043.webp)
 
 
 #### Wallet mantığının yeniden kullanılabilirliği
@@ -2411,7 +2411,7 @@ Bitcoin'un ademi merkeziyetçiliği temel güçlü yönlerinden biri olsa da, ay
 ### Bir çözüm olarak ödeme kanalları
 
 
-![Gold coin](assets/en/44.webp)_Gold Standard Metaphor_
+![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 
 Address'ün verimsizlikleri ve gizlilik sorunları için Bitcoin, ödeme kanalları uygulanabilir bir çözüm olarak önerilmiştir. Mikro ödeme kanalları, işlemlerin off-chain gerçekleşmesine olanak tanıyarak tüm ağda sürekli veri paylaşımı ihtiyacını azaltır. Bu, Blockchain üzerindeki yükü önemli ölçüde hafifleterek daha hızlı ve daha ucuz işlemlere olanak tanır.
@@ -2461,7 +2461,7 @@ HTLC'nin iş akışı, birden fazla aracı üzerinden güvenli yönlendirme sağ
 Bir HTLC'da, Alice ödemeyi gizli bir "R "nin Hash'i ile kilitler Bob, Carol ve Diana'nın her biri sonraki aracılarıyla benzer sözleşmeler oluşturarak fonlarını yalnızca doğru gizli "R "yi sunmaları halinde talep edebilmelerini sağlar Bu mekanizma atomikliği sağlar; ödeme tamamen tamamlanır ya da başarısız olur ve kısmi fon kayıplarına karşı koruma sağlar.
 
 
-![Hash lock](assets/en/45.webp)_Hash lock function_
+![Hash lock](assets/en/045.webp)_Hash lock function_
 
 
 ### Pratik hususlar ve ağ dinamikleri
@@ -2482,7 +2482,7 @@ Kanallar durumlarını katılımcılar arasındaki karşılıklı anlaşmalara v
 HTLC mekanizması, zaman kilitleri ve imzalar kullanarak atomikliği sağlar. Bu koruma, ödeme protokolünün tam başarı ya da başarısızlığı garanti etmesini sağlayarak kısmi fon kayıplarına karşı koruma sağlar.
 
 
-![Time lock and signatures](assets/en/46.webp)_Combine restrictions_
+![Time lock and signatures](assets/en/046.webp)_Combine restrictions_
 
 
 #### Teşvikler ve sorumluluklar
@@ -2509,7 +2509,7 @@ Ağ içindeki düğümler kamuya açık bir kanal grafiğinin parçası olabilir
 Alice ödeme rotasına karar vermek için ağ topolojisi hakkında bilgi sahibi olmalıdır. Kaynak yönlendirme, ödemeleri birden fazla aracı üzerinden yönlendirmenin karmaşıklığına rağmen gizliliği korumak için kullanılır.
 
 
-![Source Routing](assets/en/47.webp)_Source Routing Path_
+![Source Routing](assets/en/047.webp)_Source Routing Path_
 
 
 #### Sonuç
@@ -2536,7 +2536,7 @@ Bitcoin Blockchain'in üzerinde ikinci bir Layer olarak işlev gören Lightning 
 Kavramı daha iyi anlamak için bir bar hesabı benzetmesini düşünün. Bir barda hesap açtığınızda, her birinden sonra ödeme yapmadan sürekli içki siparişi verebilirsiniz. Son olarak, gecenin sonunda toplam tutarı ödersiniz. Benzer şekilde, bir Lightning kanalı birden fazla işleme off-chain izin verir ve bu işlemler yalnızca kanal kapatıldığında On-Chain kapatılır. Bir başka benzetme de, bir ödemeyi birden fazla düğüm üzerinden yönlendirmenin, varış noktanıza ulaşmak için aktarmalı uçuşlar yapmaya benzediği bir havaalanıdır. Her bir düğüm (ya da "uçuş") ödemenizin gitmesi gereken yere yönlendirilmesine yardımcı olarak verimli bir yönlendirme sağlar.
 
 
-![airport analogy](assets/en/48.webp)_The airport analogy of LN_
+![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
 Özünde Lightning Network, Bitcoin ağının sınırlamalarını ele alarak onu tamamlar ve Layer'yı sadece bir hesaplaşma sisteminden günlük işlemleri verimli bir şekilde gerçekleştirebilen çok yönlü bir sisteme dönüştürür.
@@ -2548,7 +2548,7 @@ Kavramı daha iyi anlamak için bir bar hesabı benzetmesini düşünün. Bir ba
 Lightning Network protokolü 10 BOLT (Yıldırım Teknolojisinin Temelleri) aracılığıyla titizlikle tanımlanmıştır. Bu BOLT'lar Milano'da düzenlenen bir konferansta kararlaştırılmıştır ve Lightning Network'in çeşitli uygulamaları için temel teşkil etmektedir.
 
 
-![bolt](assets/en/49.webp)_BOLT Diagram _
+![bolt](assets/en/049.webp)_BOLT Diagram _
 
 
 #### Bolt 1 (temel protokol)
@@ -2610,7 +2610,7 @@ Commitment işlemleri, fonları güvence altına almak ve hırsızlığı önlem
 ### Yönlendirme ve soğan yönlendirme
 
 
-![onion routing](assets/en/50.webp)_Onion Routing diagram _
+![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 
 Ödemeler, birden fazla düğüm üzerinden gönderilen şifreli paketler oluşturmayı içeren Onion yönlendirme kullanılarak yönlendirilir. HTLC'ler işlemi güvence altına alarak gizlilik ve güvenlik sağlar.
@@ -2622,7 +2622,7 @@ Commitment işlemleri, fonları güvence altına almak ve hırsızlığı önlem
 Lightning Network faturaları (Bolt 11) Bech32'de kodlanır ve ödeme Hash, açıklama ve son kullanma tarihi gibi ayrıntıları içerir. Yeniden kullanım sorunlarını önlemek için her Invoice bir kez kullanılmalıdır.
 
 
-![Invoice structure](assets/en/51.webp)_BOLT11 Invoice_
+![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
 
 
 #### Şifreleme ve kimlik doğrulama
@@ -2716,7 +2716,7 @@ Lightning Network (LN), Bitcoin ölçeklenebilirliği ve işlem hızında öneml
 Lightning cüzdanları, süreci kullanıcı dostu hale getirmek için tasarlanmıştır ve minimum teknik bilgiye sahip olanların bile gelişmiş Bitcoin işlevlerinden yararlanmasına olanak tanır. Hızlı ve uygun maliyetli mikro işlemlere olanak tanıyan bu cüzdanlar, günlük işlemler için Bitcoin'nin daha geniş çapta benimsenmesine önemli ölçüde katkıda bulunur.
 
 
-![LN Clients](assets/en/52.webp)_Lightning Wallets_
+![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 
 ### Bitcoin cüzdanlar vs. Lightning cüzdanlar
@@ -2764,7 +2764,7 @@ Etkili likidite yönetimi, başarılı Lightning Network operasyonlarının teme
 #### Likidite yönetimi örneği:
 
 
-![Example of Liquidity](assets/en/53.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 
 Çeşitli kanallar aracılığıyla birbirine bağlanan tipik LN kullanıcıları olan Alice, Bob, Charlie ve Dan'i içeren bir senaryo düşünün:
@@ -2775,7 +2775,7 @@ Etkili likidite yönetimi, başarılı Lightning Network operasyonlarının teme
 - Eğer Bob'in yeterli bakiyesi ve Charlie ile bir kanalı varsa ve Charlie'nin de Dan ile bir kanalı varsa, Alice'ün ödemesi Dan'e ulaşmak için Bob ve Charlie üzerinden yönlendirilebilir.
 
 
-![Example of Liquidity](assets/en/54.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
 Ancak, bu kanallardan herhangi birinin tükenmesi veya bağlantı sorunlarıyla karşılaşması durumunda işlem başarısız olabilir. Bu durum, ağ genelinde dengeli likiditenin korunmasının önemini göstermektedir.
@@ -2844,7 +2844,7 @@ Cüzdanlar, özel anahtarları kimin elinde tuttuğuna ve likiditeyi kimin yöne
 - **Gözetim dışı cüzdanlar**: Kullanıcılar özel anahtarlara sahiptir, manuel likidite yönetimi gerektirebilir. Örnekler Breeze ve OBW'yi içerir.
 
 
-![Liquidity Lightning](assets/en/55.webp)_2x2 Matrix of LN Clients_
+![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
 
 ### Eleştiri ve iyileştirme alanları
@@ -3311,7 +3311,7 @@ KİS-825 bağlamında KİS-826 karmaşıklığı, öncelikle KİS-826 operasyonl
 #### Temel karlılık faktörleri
 
 
-![energy cost](assets/en/56.webp)
+![energy cost](assets/en/056.webp)
 
 
 1. **Elektrik maliyetleri**: Mining karlılığını etkileyen en önemli faktörlerden biri elektrik maliyetidir. Fransa gibi bölgelerde elektrik, daha düşük maliyetlerin madenciler için rekabet avantajı sağladığı El Salvador gibi ülkelere kıyasla nispeten pahalı olabilir.
@@ -3345,7 +3345,7 @@ Madenciler üç temel darboğazla karşı karşıyadır: donanım mevcudiyeti, e
 2021 yılında Çin hükümeti Mining'ı kendi topraklarında yasaklayarak Çin'deki Mining şirketlerinin enerjiye erişimini kaybetmesine neden oldu. Bu, Hashrate'da iki hafta içinde **%50** düşüşe neden oldu.
 
 
-![hashrate drop](assets/en/57.webp)
+![hashrate drop](assets/en/057.webp)
 
 
 ---
@@ -3359,7 +3359,7 @@ Madenciler üç temel darboğazla karşı karşıyadır: donanım mevcudiyeti, e
 Mining donanımının yolculuğu, basit CPU Mining'den başlayarak bugün kullandığımız son derece uzmanlaşmış ASIC madencilere kadar muazzam olmuştur.
 
 
-![evolution hardware](assets/en/58.webp)
+![evolution hardware](assets/en/058.webp)
 
 
 1. **CPU Mining**: İlk günlerde Mining normal bilgisayar işlemcileri (CPU'lar) kullanılarak gerçekleştiriliyordu. Ağ büyüdükçe bu yöntem hızla aşıldı.
@@ -3379,7 +3379,7 @@ Mining donanımının yolculuğu, basit CPU Mining'den başlayarak bugün kullan
 - **Antminer S9**: Daha eski ve daha az verimli olmasına rağmen Antminer S9, uygun fiyatı ve iyi performansı nedeniyle daha küçük kurulumlar ve hobiciler için popüler olmaya devam ediyor.
 
 
-![s19j pro vs antminer s9](assets/en/59.webp)
+![s19j pro vs antminer s9](assets/en/059.webp)
 
 
 #### Mining verimlilik ve öğrenme
@@ -3425,14 +3425,14 @@ Düzenlemeler, Mining ortamının şekillenmesinde önemli bir rol oynamaktadır
 - **Hisse başına ödeme**: Hisse Başına Ödeme, havuzun bir blok bulup bulmadığına bakılmaksızın madencileri gönderdikleri her geçerli hisse için ödüllendirir. **Paylar** madencilerin gerekli çalışmayı tamamladığını gösteren kanıt birimleridir ve havuz bu payları doğrular.
 
 
-![pps](assets/en/60.webp)
+![pps](assets/en/060.webp)
 
 
 
 - **Orantılı**: Ödülün, Miner'in havuzun toplam Hashrate'üne katkısına eşit olarak dağıtılması için bir bloğun Mining havuzuna bağlıdır.
 
 
-![prop](assets/en/61.webp)
+![prop](assets/en/061.webp)
 
 
 #### Mining'nın Geleceği

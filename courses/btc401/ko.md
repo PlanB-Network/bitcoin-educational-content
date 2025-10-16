@@ -74,7 +74,7 @@ Bitcoin용 Cubo+ 개발 과정에 오신 것을 환영합니다!
 **큐보 플러스** 교육 프로그램의 첫 번째 강의에 오신 것을 환영합니다. 오늘은 **Bitcoin 이탈리아 팟캐스트**의 설립자 리키가 이끄는 Bitcoin의 세계로 들어가 보겠습니다. 리키는 Bitcoin을 인권 보호와 증진을 위한 도구로 사용하는 열정적인 인권 운동가입니다. 6년 이상의 경험을 가진 리키는 엘살바도르와 과테말라 같은 신흥 시장에서의 Bitcoin 채택을 기록하면서 광범위한 여행을 해왔습니다. 그는 팟캐스트뿐만 아니라 유튜브(**Bitcoin Explorer**)와 트위터(**BTC Explorer**, **Ricky6**)에서도 활발히 활동하고 있습니다. 리키의 Commitment에서 Bitcoin은 금융 자유와 프라
 
 
-![Unbanked Population](assets/en/01.webp)
+![Unbanked Population](assets/en/001.webp)
 
 전 세계 은행 서비스를 이용하지 못하는 인구
 
@@ -108,7 +108,7 @@ Bitcoin는 단순한 디지털 화폐 그 이상입니다. 프라이버시를 �
 금융 탄압이 흔한 권위주의 체제에서 Bitcoin의 **검열 불가능성**은 사람들이 자금 동결이나 압수에 대한 두려움 없이 거래할 수 있게 해줍니다. **오픈 소스**의 특성은 전 세계의 참여를 장려하여 네트워크를 지속적으로 개선하는 커뮤니티를 육성합니다.
 
 
-![Image](assets/en/02.webp)
+![Image](assets/en/002.webp)
 
 
 Bitcoin은 그 잠재력에도 불구하고 상당한 도전에 직면해 있습니다. 아프리카와 인도와 같은 지역에서는 전기와 인터넷 접속과 같은 기본 인프라가 부족하여 채택이 제한되는 경우가 많습니다. 또한 모든 연령과 교육 수준의 사람들이 기술을 사용할 수 있도록 하는 '디지털 포용성'이 여전히 큰 장애물로 남아 있습니다.
@@ -195,7 +195,7 @@ Bitcoin은 그 잠재력에도 불구하고 상당한 도전에 직면해 있습
 엘살바도르의 Bitcoin 채택은 자발적인 채택과 탈중앙화를 촉진함으로써 **오스트리아 경제학**에 부합하는 금융 자유를 위한 도구로서의 잠재력을 반영합니다. 이러한 움직임은 경쟁, 독점, 몰수라는 주요 문제를 해결함으로써 전통적인 금융 시스템에 도전합니다.
 
 
-![Image](assets/en/03.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -272,7 +272,7 @@ Bitcoin 트랜잭션은 **채굴자**에 의해 검증되고 블록에 추가되
 Blockchain의 각 **블록**은 **헤더**(이전 블록의 Hash와 같은 데이터 포함)와 트랜잭션 목록으로 구성됩니다. 첫 번째 블록인 **Genesis 블록**은 이전 블록이 없기 때문에 고유합니다.
 
 
-![Image](assets/en/04.webp)
+![Image](assets/en/004.webp)
 
 
 트랜잭션이 블록에 포함되기 전에는 **Mempool**에 상주하며 유효성 검사를 기다립니다. 검증이 완료되면 이러한 트랜잭션은 새로 채굴된 블록에 추가된 다음 Blockchain에 추가됩니다.
@@ -348,7 +348,7 @@ Bitcoin의 구조와 지속적인 진화는 기술의 혁신과 적응성을 보
 
 > - 싯코인: 싯코인은 가치가 낮거나 품질이 의심스러운 암호화폐로 실제 유용성이 부족합니다. 투기성이 높은 경우가 많으며, 암호화폐 시장의 호황을 이용하여 사기 목적이나 명확한 목적 없이 만들어지기도 합니다.
 
-![Image](assets/en/05.webp)
+![Image](assets/en/005.webp)
 
 
 ### 에너지 소비 및 환경 영향
@@ -979,7 +979,7 @@ Wallet을 설정한 후에는 Address를 공유하기만 하면 간단하게 트
 10년이 넘는 기간 동안 Bitcoin은 전 세계적으로 성공적으로 운영되며 디지털 경제의 새로운 가능성을 열며 금융계를 변화시키는 혁신으로 입증되었습니다. 하지만 여전히 창의적이고 협업적인 솔루션이 필요한 과제에 직면해 있습니다. Bitcoin의 지속적인 진화는 탈중앙화 금융의 미래를 만드는 데 관심이 있는 사람들에게 특별한 기회를 제공합니다.
 
 
-![Image](assets/en/06.webp)
+![Image](assets/en/006.webp)
 
 
 #### Bitcoin 사용성의 미해결 문제
@@ -1018,7 +1018,7 @@ Bitcoin 자산을 보호하는 것은 복잡한 작업이며, 여러 가지 어�
 #### 사용성 대 보안 및 개인정보 보호
 
 
-![Image](assets/en/07.webp)
+![Image](assets/en/007.webp)
 
 
 Bitcoin의 사용성을 개선하기 위한 노력은 종종 보안과 프라이버시를 희생하게 됩니다. 예를 들어, Satoshi의 Wallet와 같은 사용자 친화적인 관리 지갑은 Interface에 액세스할 수 있지만 보안과 개인정보 보호에 상당한 타협을 하게 됩니다. 간소화된 시스템은 사용성을 높일 수 있지만 Address 재사용과 같은 문제를 일으켜 프라이버시를 훼손할 수 있습니다. 따라서 사용성 개선은 잠재적인 보안 및 개인정보 보호 절충안과 신중하게 비교 검토해야 합니다.
@@ -1066,7 +1066,7 @@ Hardware Wallet 배포와 관련된 위험을 완화하고 무결성을 보장�
 Bitcoin의 사용성, 보안 및 개인정보 보호를 개선하기 위한 교육 자료를 만드는 것은 큰 영향을 미칩니다. 사용자에게 모범 사례와 Bitcoin의 기본 원칙을 교육하면 사용자가 정보에 입각한 결정을 내리고 네트워크에 대한 전반적인 경험을 향상시킬 수 있습니다.
 
 
-![Image](assets/en/08.webp)
+![Image](assets/en/008.webp)
 
 
 **Layer 1 및 Layer 2 변경 사항**
@@ -1128,7 +1128,7 @@ Bitcoin의 프로토콜을 변경하려면 상당한 조정과 커뮤니티 합�
 신뢰성 엔지니어링의 전형적인 예는 18세기 교량 건설로 거슬러 올라갈 수 있습니다. 당시 사용된 강철의 품질과 구성 및 제조 공정은 다리의 신뢰성에 결정적인 영향을 미쳤습니다. 엔지니어는 단일 고장 지점을 고려하고 확률과 통계를 사용하여 시간이 지남에 따라 다리의 신뢰성을 평가하고 보장해야 했습니다.
 
 
-![Image](assets/en/09.webp)
+![Image](assets/en/009.webp)
 
 
 신뢰성과 달리 보안은 의도적인 위협에 대응합니다. 예를 들어 256비트 암호화 키는 무차별 암호 대입이 불가능하기 때문에 수학적 보안을 보장합니다. 보안 조치는 물리적 변조부터 정교한 사이버 공격에 이르기까지 다양한 위협 모델을 고려해야 합니다.
@@ -1146,7 +1146,7 @@ Bitcoin의 프로토콜을 변경하려면 상당한 조정과 커뮤니티 합�
 과테말라에서는 선거 결과의 타임스탬프가 선거 과정의 무결성을 보장하는 데 중요한 역할을 했습니다. 선거 관리자들은 Timestamp 데이터에 암호화 방법을 사용하여 결과의 진위 여부에 대한 변조 방지 증거를 제공함으로써 상당한 재정적 인센티브에 이끌린 잠재적 조작자를 억제할 수 있었습니다.
 
 
-![Image](assets/en/10.webp)
+![Image](assets/en/010.webp)
 
 
 ### 잠재적 위협 식별 및 완화
@@ -1235,7 +1235,7 @@ Bitcoin 지갑 보안을 위한 전략에는 다중 서명 설정과 다양한 �
 1991년 라이너스 토발즈가 리눅스 커널을 만들면서 그 공백이 메워졌습니다. 토발즈의 커널은 GNU 구성 요소와 결합되어 완전한 기능을 갖춘 무료 운영 체제인 GNU/Linux를 탄생시켰습니다. 소프트웨어 자유에 대한 스톨만의 철학적 Commitment와 토발즈의 실질적인 공헌 사이의 이러한 협력은 오픈 소스 접근법의 힘을 잘 보여줍니다.
 
 
-![Image](assets/en/11.webp)
+![Image](assets/en/011.webp)
 
 
 자유 소프트웨어 운동은 소프트웨어 산업에 큰 영향을 미쳤으며, 누구나 소프트웨어를 자유롭게 사용, 수정, 공유할 수 있어야 한다는 생각을 장려했습니다. 이 원칙은 오늘날 번창하고 있는 많은 오픈 소스 프로젝트와 커뮤니티의 토대가 되었습니다.
@@ -1250,7 +1250,7 @@ Bitcoin 지갑 보안을 위한 전략에는 다중 서명 설정과 다양한 �
 한 가지 성공적인 사례는 Bitcoin core 인프라의 핵심 부분인 Bitcoin입니다. Bitcoin core에 참여하는 개발자들은 프로젝트의 성공으로 혜택을 받는 단체의 보조금, 기부금, 후원을 통해 자금을 지원받는 경우가 많습니다. 이 모델을 통해 개발자는 기존의 상업적 자금의 제약 없이 소프트웨어 개선에 집중할 수 있습니다.
 
 
-![Image](assets/en/12.webp)
+![Image](assets/en/012.webp)
 
 
 또 다른 대표적인 예로 리눅스 운영체제를 들 수 있습니다. IBM, Red Hat, Intel과 같은 많은 회사들은 자사의 제품과 서비스가 강력하고 안전한 운영 체제에 의존하기 때문에 Linux 개발에 기여하고 있습니다. 이러한 회사는 재정적 지원을 제공하고, 코드를 제공하고, Linux 생태계를 유지 및 개선하기 위한 리소스를 제공합니다.
@@ -1259,7 +1259,7 @@ Bitcoin 지갑 보안을 위한 전략에는 다중 서명 설정과 다양한 �
 MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨어의 경제적 역학 관계에서 중요한 역할을 합니다. MIT와 같은 허가 라이선스는 상용화를 포함하여 코드를 보다 유연하게 사용할 수 있도록 허용합니다. 반면, GPL과 같은 카피레프트 라이선스는 모든 파생 작업물도 오픈소스여야 한다는 것을 보장하여 협업 환경을 조성합니다.
 
 
-![Image](assets/en/13.webp)
+![Image](assets/en/013.webp)
 
 
 결론적으로, 오픈소스 소프트웨어의 경제성은 커뮤니티 기여, 기업 후원, 혁신적인 자금 조달 모델에 의해 좌우됩니다. 이러한 메커니즘은 오픈소스 프로젝트의 지속 가능성과 지속적인 개선을 보장하여 개발자와 사용자 모두에게 혜택을 줍니다.
@@ -1285,13 +1285,13 @@ MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨�
 이 섹션에서는 Hash 함수, 머클 트리, 디지털 서명, 타원 곡선 등 Bitcoin 개발자에게 필수적인 주요 암호화 개념에 대해 자세히 알아보겠습니다.
 
 
-![Image](assets/en/14.webp)
+![Image](assets/en/014.webp)
 
 
 **Hash 함수**: Hash 함수는 입력을 받아 고정 길이의 바이트 문자열을 생성합니다. Bitcoin에서 Hash 함수는 데이터 무결성과 보안을 위한 기본 요소입니다. 암호화 Hash 함수는 효율적이어야 하고, generate은 무작위로 보이는 출력을 생성하며, 입력 크기에 관계없이 고정 길이의 출력을 생성해야 합니다. 파일 무결성 검사에 사용되어 데이터가 악의적으로 변경되지 않았는지 확인합니다.
 
 
-![Image](assets/en/15.webp)
+![Image](assets/en/015.webp)
 
 
 **보안 속성**: 암호화 Hash 함수는 몇 가지 보안 속성을 준수해야 합니다. 사전 이미지 저항은 Hash 출력에서 원래 입력을 리버스 엔지니어링하는 것이 계산적으로 불가능하다는 것을 보장합니다. 두 번째 사전 이미지 저항은 동일한 Hash 출력을 생성하는 다른 입력을 찾기가 어려워야 함을 의미합니다. 충돌 저항은 동일한 Hash 출력을 생성하는 두 개의 다른 입력을 찾는 것이 불가능하다는 것을 보장합니다.
@@ -1300,7 +1300,7 @@ MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨�
 **머클 트리**: Merkle Tree은 대규모 데이터 세트를 효율적이고 안전하게 검증할 수 있는 데이터 구조입니다. 데이터 항목은 쌍으로 해시되며, 결과 해시는 반복적으로 결합되어 단일 루트 Hash을 형성합니다. Bitcoin에서 머클 트리는 블록 생성 및 트랜잭션 검증, 특히 간편결제 검증(SPV) 클라이언트와 Taproot(마스트)에서 매우 중요한 역할을 합니다.
 
 
-![Image](assets/en/16.webp)
+![Image](assets/en/016.webp)
 
 
 **디지털 서명(ECDSA)**: 타원 곡선 디지털 서명 알고리즘(ECDSA)은 Bitcoin 거래의 진위성과 무결성을 보장하는 데 사용됩니다. 여기에는 해당 공개 키를 사용하여 확인할 수 있는 개인 키를 사용하여 서명을 생성하는 것이 포함됩니다. 주요 개념에는 유한 필드, 이산 로그, 논스의 중요성에 대한 이해가 포함됩니다.
@@ -1309,7 +1309,7 @@ MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨�
 **타원 곡선**: 타원 곡선은 효율성과 보안성 때문에 공개 키 암호화에 사용됩니다. 타원 곡선 암호화의 보안은 이산 로그 문제 해결의 난이도에 따라 달라집니다.
 
 
-![Image](assets/en/17.webp)
+![Image](assets/en/017.webp)
 
 
 ### Bitcoin의 실용적인 암호화 애플리케이션 및 보안 사례
@@ -1321,7 +1321,7 @@ MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨�
 **암호화 = 위험**: 암호화는 양날의 검과도 같습니다. 우발적인 데이터 손상과 악의적인 행동으로부터 데이터를 보호하지만, 잘못 구현하면 심각한 취약점으로 이어질 수 있습니다. 개발자는 안전한 구현과 잠재적인 문제 해결 능력을 모두 확보하기 위해 암호화 메커니즘을 깊이 이해해야 합니다. 예를 들어, SHA-2의 256비트 출력은 사전 이미지 공격에 약 2^256의 작업이 필요하고 충돌 저항은 약 2^128의 작업이 필요하다는 것을 보장합니다.
 
 
-![Image](assets/en/18.webp)
+![Image](assets/en/018.webp)
 
 
 **Merkle Tree 애플리케이션**: 로그 증명 크기를 이해하고 트랜잭션 검증에서 Hash 중복과 같은 결함을 방지하려면 신중한 트리 설계가 필수적입니다. 머클 트리는 블록 생성, 트랜잭션 검증 및 Taproot와 같은 개선 사항에 사용됩니다.
@@ -1330,7 +1330,7 @@ MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨�
 **공개 키 암호화**: 이산 로그와 유한 필드는 Bitcoin의 암호화 계산에서 기본입니다. 챌린지-응답 프로토콜은 개인키를 공개하지 않고 개인키에 대한 지식을 검증하는 데 사용됩니다.
 
 
-![Image](assets/en/19.webp)
+![Image](assets/en/019.webp)
 
 
 **보안 영향**: 과거 사례에 따르면 Nonce 재사용으로 인해 상당한 재정적 손실이 발생했습니다. 고유한 논스를 생성하는 것의 중요성을 이해하는 것이 중요합니다. LibSecP256k1과 같은 신뢰할 수 있는 라이브러리를 사용하면 강력하고 안전한 암호화 작업을 보장할 수 있습니다.
@@ -1392,10 +1392,10 @@ Soft 포크는 Bitcoin 프로토콜의 기존 규칙을 강화하는 변경 사�
 Hard 포크는 기존 규칙을 완화하여 새로운 유형의 트랜잭션을 허용하는 변경 사항입니다. 이는 이전 버전과 호환되지 않으므로 업그레이드되지 않은 노드는 새로운 규칙을 인식하지 못합니다. 2106년에 발생한 문제에 대해 Bitcoin가 이 날짜 이후에도 계속 작동하도록 하려면 Hard Fork의 예가 필요할 수 있습니다.
 
 
-![Image](assets/en/20.webp)
+![Image](assets/en/020.webp)
 
 
-![Image](assets/en/21.webp)
+![Image](assets/en/021.webp)
 
 
 ### 거버넌스의 예
@@ -1425,7 +1425,7 @@ Bitcoin의 합의 메커니즘은 본질적으로 정치적이기 때문에 변�
 블록 크기 논쟁은 Bitcoin의 블록 크기를 늘릴지 여부를 둘러싼 중요한 거버넌스 이슈였습니다. 이 논란은 유효 블록 크기를 늘리고 Lightning Network를 활성화하는 SegWit, Soft Fork의 구현으로 해결되었습니다.
 
 
-![Image](assets/en/22.webp)
+![Image](assets/en/022.webp)
 
 
 ### 강제 변경 및 다수결 원칙
@@ -1501,7 +1501,7 @@ Bitcoin 노드를 실행하는 것은 여러 가지 이유로 필수적입니다
 - 유효한 후보 목록 유지; **Mempool**: 노드는 블록에 포함될 수 있는 트랜잭션 후보 목록을 Mempool에 보관해야 합니다.
 
 
-![nodes network](assets/en/23.webp)
+![nodes network](assets/en/023.webp)
 
 
 **참고**: Mempool은 검증되었지만 아직 블록에 포함되지 않은 트랜잭션을 위한 임시 저장 영역입니다.
@@ -1513,7 +1513,7 @@ Bitcoin 노드를 실행하는 것은 여러 가지 이유로 필수적입니다
 #### Bitcoin core 모듈
 
 
-![Bitcoin core modules](assets/en/24.webp)
+![Bitcoin core modules](assets/en/024.webp)
 
 
 
@@ -1547,7 +1547,7 @@ bitcoin-cli gettxoutsetinfo
 ```
 
 
-![utxoset info command](assets/en/25.webp)
+![utxoset info command](assets/en/025.webp)
 
 
 비트코인의 수가 정확한지 감사할 수 있습니다.
@@ -1566,7 +1566,7 @@ bitcoin-cli gettxoutsetinfo
 **중요**: 트랜잭션은 UTXO와 동일하지 않습니다.
 
 
-![Txs and UTXOs](assets/en/26.webp)
+![Txs and UTXOs](assets/en/026.webp)
 
 
 #### Mempool
@@ -1660,7 +1660,7 @@ Bitcoin 블록을 구문 분석하려면 다음 구성 요소에 집중해야 �
 **참고**: Mining에서는 처음 80바이트(블록 헤더를 구성하는)만 해시됩니다.
 
 
-![Block header structure](assets/en/27.webp)
+![Block header structure](assets/en/027.webp)
 
 
 #### 간소화
@@ -1698,13 +1698,13 @@ Bitcoin 블록의 각 트랜잭션에는 다음이 포함됩니다:
 - **잠금 시간**: 이 트랜잭션이 블록에 포함될 수 있는 블록 높이 또는 Timestamp을 나타냅니다.
 
 
-![Transaction structure](assets/en/28.webp)
+![Transaction structure](assets/en/028.webp)
 
-![TxIn structure](assets/en/29.webp)
+![TxIn structure](assets/en/029.webp)
 
-![Outpoint structure](assets/en/30.webp)
+![Outpoint structure](assets/en/030.webp)
 
-![TxOut structure](assets/en/31.webp)
+![TxOut structure](assets/en/031.webp)
 
 
 #### 구문 분석 기술
@@ -1895,11 +1895,11 @@ _ => todo!()
 ```
 
 
-![op_checksig](assets/en/32.webp)
+![op_checksig](assets/en/032.webp)
 
-![op_hash160](assets/en/33.webp)
+![op_hash160](assets/en/033.webp)
 
-![op_push](assets/en/34.webp)
+![op_push](assets/en/034.webp)
 
 
 #### 스크립트 구문 분석의 과제
@@ -1938,7 +1938,7 @@ Ok((Script(opcodes), &bytes[len.0 as usize..]))
 합의가 중요한 애플리케이션의 경우 버그를 방지하고 보안을 보장하기 위해 [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) 또는 [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/)과 같은 기존 라이브러리를 사용하는 것이 좋습니다. 자체 파서를 구현하는 것은 교육적일 수 있지만 프로덕션 환경에서는 위험할 수도 있습니다.
 
 
-![libraries](assets/en/35.webp)
+![libraries](assets/en/035.webp)
 
 
 ### Bitcoin의 효율성 및 보안 Mining
@@ -1961,7 +1961,7 @@ Mining 빈 블록은 채굴자에게 더 효율적일 수 있습니다:
 타이밍 문제로 인해 빈 블록이 채굴되는 경우가 있습니다. 채굴자는 다음 블록에서 Mining을 시작할 때까지 전체 거래 목록을 받지 못했을 수 있으므로 빈 블록을 채굴하는 대신 빈 블록을 선택하게 됩니다.
 
 
-![empty block](assets/en/36.webp)
+![empty block](assets/en/036.webp)
 
 
 #### 빈 블록의 악성 Mining
@@ -2019,14 +2019,14 @@ Bitcoin 노드는 Bitcoin 네트워크의 중추입니다. 이들은 서로 연�
 - **아카이브 노드**: 전체 노드의 하위 집합인 아카이브 노드는 모든 Blockchain 데이터를 보유하므로 기록 분석 및 디버깅에 유용합니다.
 
 
-![archival node](assets/en/37.webp)
+![archival node](assets/en/037.webp)
 
 
 
 - **pruned 노드**: pruned 노드는 Blockchain의 일부만 유지하여 더 이상 유효성 검사에 필요하지 않은 오래된 데이터를 제거함으로써 디스크 공간을 절약합니다.
 
 
-![pruned node](assets/en/38.webp)
+![pruned node](assets/en/038.webp)
 
 
 #### Bitcoin core
@@ -2041,7 +2041,7 @@ Bitcoin core는 가장 널리 사용되는 Full node 구현입니다. Full node�
 - **언어**: 강력한 성능과 안정성을 보장하는 파이썬 테스트와 함께 C++로 작성되었습니다.
 
 
-![cli-gui](assets/en/39.webp)
+![cli-gui](assets/en/039.webp)
 
 
 ##### Bitcoin core 살펴보기
@@ -2096,7 +2096,7 @@ Bitcoin core 외에도 몇 가지 대체 노드 구현이 있습니다:
 이러한 대안을 구현하는 데에는 특히 합의 규칙과 관련하여 자체적인 위험이 따릅니다. 확립된 검증 규칙에서 벗어나면 포크나 불일치가 발생할 수 있습니다. Bitcoin 커널 프로젝트는 합의 코드를 중앙 집중화하여 구현 전반의 일관성을 보장함으로써 이러한 위험을 완화하고자 합니다.
 
 
-![implementation](assets/en/40.webp)
+![implementation](assets/en/040.webp)
 
 
 ### Bitcoin 지갑 및 보안
@@ -2171,21 +2171,21 @@ Cold 지갑은 보안성이 뛰어나다는 평가를 받고 있습니다. 오�
 - Bitcoin 지갑은 키체인 역할을 하며 암호화 키를 보관하고 생성합니다.
 
 
-![keychain](assets/en/41.webp)
+![keychain](assets/en/041.webp)
 
 
 
 - Blockchain을 통해 들어오는 트랜잭션을 모니터링합니다.
 
 
-![monitor](assets/en/42.webp)
+![monitor](assets/en/042.webp)
 
 
 
 - 미사용 거래 출력(UTXO)을 선택하고, 입력과 출력을 설정하고, 개인정보 보호 및 수수료를 최적화하여 거래를 생성합니다.
 
 
-![tx_builder](assets/en/43.webp)
+![tx_builder](assets/en/043.webp)
 
 
 #### Wallet 로직의 재사용성
@@ -2411,7 +2411,7 @@ Bitcoin의 탈중앙화는 핵심적인 강점 중 하나이지만, 동시에 �
 ### 솔루션으로서의 결제 채널
 
 
-![Gold coin](assets/en/44.webp)_Gold Standard Metaphor_
+![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 
 Address의 비효율성과 개인정보 보호 문제를 해결하기 위해 결제 채널이 실행 가능한 해결책으로 제안되었습니다. 소액 결제 채널을 사용하면 off-chain에서 트랜잭션이 발생하여 전체 네트워크에서 지속적인 데이터 공유의 필요성을 줄일 수 있습니다. 이는 Blockchain의 부담을 크게 완화하여 더 빠르고 저렴한 거래를 가능하게 합니다.
@@ -2461,7 +2461,7 @@ HTLC의 워크플로에는 여러 중개자를 통한 안전한 라우팅을 보
 HTLC에서 Alice은 비밀 "R"의 Hash로 지불을 잠급니다 Bob, 캐롤, 다이애나는 각각 후속 중개자와 유사한 계약을 생성하여 정확한 비밀 "R"을 제시할 경우에만 자금을 청구할 수 있도록 합니다 이 메커니즘은 원자성을 보장하며, 결제가 완전히 완료되거나 실패하여 부분적인 자금 손실을 방지합니다.
 
 
-![Hash lock](assets/en/45.webp)_Hash lock function_
+![Hash lock](assets/en/045.webp)_Hash lock function_
 
 
 ### 실용적인 고려 사항 및 네트워크 역학
@@ -2482,7 +2482,7 @@ HTLC에서 Alice은 비밀 "R"의 Hash로 지불을 잠급니다 Bob, 캐롤, �
 HTLC 메커니즘은 시간 잠금과 서명을 사용해 원자성을 보장합니다. 이 안전장치는 결제 프로토콜이 완전한 성공 또는 실패를 보장하여 부분적인 자금 손실을 방지합니다.
 
 
-![Time lock and signatures](assets/en/46.webp)_Combine restrictions_
+![Time lock and signatures](assets/en/046.webp)_Combine restrictions_
 
 
 #### 인센티브 및 책임
@@ -2509,7 +2509,7 @@ HTLC 메커니즘은 시간 잠금과 서명을 사용해 원자성을 보장합
 Alice는 결제 경로를 결정하기 위해 네트워크 토폴로지에 대한 지식이 있어야 합니다. 소스 라우팅은 여러 중개자를 통한 결제 라우팅의 복잡성에도 불구하고 개인 정보를 보호하기 위해 사용됩니다.
 
 
-![Source Routing](assets/en/47.webp)_Source Routing Path_
+![Source Routing](assets/en/047.webp)_Source Routing Path_
 
 
 #### 결론
@@ -2536,7 +2536,7 @@ Bitcoin Blockchain 위에 두 번째 Layer로 작동하는 Lightning Network을 
 개념을 더 잘 이해하려면 바 탭의 비유를 생각해 보세요. 바에서 탭을 열면 음료를 마실 때마다 계산하지 않고 계속 주문할 수 있습니다. 마지막으로 밤이 끝날 때 총 금액을 정산합니다. 마찬가지로, 라이트닝 채널은 여러 트랜잭션(off-chain)을 허용하며, 채널이 닫힐 때만 정산(On-Chain)됩니다. 또 다른 비유는 공항으로, 여러 노드를 통해 결제를 라우팅하는 것은 목적지에 도착하기 위해 환승 항공편을 이용하는 것과 비슷합니다. 각 노드(또는 "항공편")는 결제가 필요한 곳으로 이동하도록 도와주므로 효율적인 라우팅을 보장합니다.
 
 
-![airport analogy](assets/en/48.webp)_The airport analogy of LN_
+![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
 본질적으로 Lightning Network는 Bitcoin 네트워크의 한계를 보완하여 단순한 결제용 Layer에서 일상적인 거래를 효율적으로 처리할 수 있는 다목적 시스템으로 탈바꿈합니다.
@@ -2548,7 +2548,7 @@ Bitcoin Blockchain 위에 두 번째 Layer로 작동하는 Lightning Network을 
 Lightning Network 프로토콜은 10개의 BOLT(빛의 기술 기반)를 통해 세심하게 정의되어 있습니다. 이 볼트들은 밀라노에서 열린 컨퍼런스에서 합의된 것으로, Lightning Network의 다양한 구현을 위한 기반이 됩니다.
 
 
-![bolt](assets/en/49.webp)_BOLT Diagram _
+![bolt](assets/en/049.webp)_BOLT Diagram _
 
 
 #### Bolt 1(기본 프로토콜)
@@ -2610,7 +2610,7 @@ Commitment 트랜잭션은 자금을 보호하고 도난을 방지하기 위해 
 ### 라우팅 및 어니언 라우팅
 
 
-![onion routing](assets/en/50.webp)_Onion Routing diagram _
+![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 
 결제는 여러 노드를 통해 전송되는 암호화된 패킷을 생성하는 Onion 라우팅을 사용하여 라우팅됩니다. HTLC는 거래를 보호하여 개인정보와 보안을 보장합니다.
@@ -2622,7 +2622,7 @@ Commitment 트랜잭션은 자금을 보호하고 도난을 방지하기 위해 
 Lightning Network 송장(Bolt 11)은 Bech32로 인코딩되며 결제 Hash, 설명, 만료일 등의 세부 정보를 포함합니다. 각 Invoice는 재사용 문제를 방지하기 위해 한 번만 사용해야 합니다.
 
 
-![Invoice structure](assets/en/51.webp)_BOLT11 Invoice_
+![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
 
 
 #### 암호화 및 인증
@@ -2716,7 +2716,7 @@ Lightning Network(LN)은 Bitcoin의 확장성과 트랜잭션 속도에서 획�
 라이트닝 지갑은 사용자 친화적으로 설계되어 최소한의 기술 지식만 있어도 고급 Bitcoin 기능의 혜택을 누릴 수 있습니다. 이러한 지갑은 빠르고 비용 효율적인 소액 결제를 가능하게 함으로써 일상적인 거래에 Bitcoin이 널리 채택되는 데 크게 기여합니다.
 
 
-![LN Clients](assets/en/52.webp)_Lightning Wallets_
+![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 
 ### Bitcoin 지갑과 라이트닝 지갑 비교
@@ -2764,7 +2764,7 @@ Bitcoin 지갑과 라이트닝 지갑은 아키텍처와 사용 사례에서 근
 #### 유동성 관리의 예
 
 
-![Example of Liquidity](assets/en/53.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 
 다양한 채널을 통해 상호 연결된 전형적인 LN 사용자들인 Alice, Bob, Charlie 및 Dan이 포함된 시나리오를 생각해 보세요:
@@ -2775,7 +2775,7 @@ Bitcoin 지갑과 라이트닝 지갑은 아키텍처와 사용 사례에서 근
 - Bob이 적절한 잔액과 찰리와의 채널을 가지고 있고 찰리가 댄과의 채널을 가지고 있다면, Alice의 결제는 Bob과 찰리를 통해 댄에게 전달될 수 있습니다.
 
 
-![Example of Liquidity](assets/en/54.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
 그러나 이러한 채널 중 하나라도 고갈되거나 연결 문제가 발생하면 트랜잭션이 실패할 수 있습니다. 이는 네트워크 전반에서 균형 잡힌 유동성을 유지하는 것이 얼마나 중요한지 보여줍니다.
@@ -2844,7 +2844,7 @@ Bitcoin 지갑과 라이트닝 지갑은 아키텍처와 사용 사례에서 근
 - **비수탁 지갑**: 사용자가 개인 키를 보유하며 수동 유동성 관리가 필요할 수 있습니다. 브리즈와 OBW가 그 예입니다.
 
 
-![Liquidity Lightning](assets/en/55.webp)_2x2 Matrix of LN Clients_
+![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
 
 ### 비판 및 개선 영역
@@ -3311,7 +3311,7 @@ Mining의 복잡성은 주로 Bitcoin 운영의 수익성을 결정하는 기술
 #### 주요 수익성 요인
 
 
-![energy cost](assets/en/56.webp)
+![energy cost](assets/en/056.webp)
 
 
 1. **전기 비용**: Mining의 수익성에 영향을 미치는 가장 중요한 요소 중 하나는 전기 비용입니다. 프랑스와 같은 지역에서는 엘살바도르와 같은 국가에 비해 전기 요금이 상대적으로 비쌀 수 있으며, 낮은 비용이 채굴자에게 경쟁력을 제공합니다.
@@ -3345,7 +3345,7 @@ Mining의 복잡성은 주로 Bitcoin 운영의 수익성을 결정하는 기술
 2021년에 중국 정부는 자국 내 Mining의 사용을 금지하여 중국 내 Mining 기업이 에너지 공급을 받지 못하게 되었습니다. 그 결과 2주 동안 Hashrate은 **50%** 하락했습니다.
 
 
-![hashrate drop](assets/en/57.webp)
+![hashrate drop](assets/en/057.webp)
 
 
 ---
@@ -3359,7 +3359,7 @@ Mining의 복잡성은 주로 Bitcoin 운영의 수익성을 결정하는 기술
 단순한 CPU Mining에서 시작하여 오늘날 우리가 사용하는 고도로 전문화된 ASIC 채굴기에 이르기까지 Mining 하드웨어의 여정은 기념비적인 것이었습니다.
 
 
-![evolution hardware](assets/en/58.webp)
+![evolution hardware](assets/en/058.webp)
 
 
 1. **CPU Mining**: 초창기에는 일반 컴퓨터 프로세서(CPU)를 사용하여 Mining를 수행했습니다. 이 방식은 네트워크가 성장함에 따라 빠르게 뒤쳐졌습니다.
@@ -3379,7 +3379,7 @@ Mining의 복잡성은 주로 Bitcoin 운영의 수익성을 결정하는 기술
 - **앤트마이너 S9**: 오래되고 효율성은 떨어지지만, Antminer S9는 저렴한 가격과 괜찮은 성능으로 소규모 설정과 취미로 사용하는 사람들에게 여전히 인기가 있습니다.
 
 
-![s19j pro vs antminer s9](assets/en/59.webp)
+![s19j pro vs antminer s9](assets/en/059.webp)
 
 
 #### Mining 효율성 및 학습
@@ -3425,14 +3425,14 @@ Mining는 금전적인 보상뿐만 아니라 귀중한 실전 경험도 제공�
 - **공유당 지불**: 지분 보상제는 풀이 블록을 발견했는지 여부와 관계없이 채굴자가 제출한 각 유효한 지분에 대해 보상을 지급합니다. **공유**는 채굴자가 필요한 작업을 완료했음을 증명하는 단위이며, 풀은 이러한 공유를 검증합니다.
 
 
-![pps](assets/en/60.webp)
+![pps](assets/en/060.webp)
 
 
 
 - **비례**: 풀 Mining에 따라 풀의 총 Hashrate에 대한 Miner의 기여도에 따라 보상을 균등하게 분배하는 블록입니다.
 
 
-![prop](assets/en/61.webp)
+![prop](assets/en/061.webp)
 
 
 #### Mining의 미래

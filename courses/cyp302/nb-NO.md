@@ -118,7 +118,7 @@ Du kan se den andre krypteringsteksten i *Figur 2* nedenfor. Nøkkelen til denne
 
 *Figur 1: Beale-chiffer nr. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 For eksempel er det første tallet i den andre chifferteksten 115. Det 115. ordet i uavhengighetserklæringen er "instituted", så den første bokstaven i klarteksten er "i" Krypteringsteksten angir ikke direkte ordavstand og store bokstaver. Men etter å ha dekryptert de første ordene, kan du logisk utlede at det første ordet i klarteksten rett og slett var "I" (Klarteksten starter med setningen "I have deposited in the county of Bedford.")
 
@@ -281,7 +281,7 @@ De mulige verdiene og tilhørende sannsynlighetene for en tilfeldig variabel kan
 
 *Figur 1: Tilfeldig variabel X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 De brede søylene i *Figur 1* er selvsagt ikke ment å antyde at den tilfeldige variabelen $X$ faktisk er kontinuerlig. I stedet er søylene gjort brede for å være mer visuelt tiltalende (bare en linje rett opp gir en mindre intuitiv visualisering).
 
@@ -319,7 +319,7 @@ En grafisk fremstilling av $Y$ er vist i *Figur 2*.
 
 *Figur 2: Tilfeldig variabel Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Et siste eksempel er den tilfeldige variabelen Z. Den har utfallsmengden {1,3,7,11,12} og følgende sannsynlighetsfordeling:
 
@@ -347,7 +347,7 @@ Du kan se det avbildet i *Figur 3*. Den tilfeldige variabelen Z er, i motsetning
 
 *Figur 3: Tilfeldig variabel Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Betinget sannsynlighet
 
@@ -1005,11 +1005,11 @@ Bob krypterer meldingen $M$ på tidspunkt $T_0$ med nøkkelen $K$ for å produse
 
 *Figur 1: Hemmelighold på tvers av rommet*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Figur 2: Hemmelighold over tid*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Et eksempel: Shift-krypteringen
 
@@ -1111,7 +1111,7 @@ En typisk XOR-strømkryptering er vist i *Figur 3*. Først tar du en privat nøk
 
 *Figur 3: En XOR-strømkryptering*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Husk at et krypteringsskjema vanligvis er en mal for kryptering med samme kjernealgoritme, snarere enn en nøyaktig spesifikasjon. I forlengelsen av dette er en stream cipher vanligvis en mal for kryptering der du kan bruke nøkler av ulik lengde. Selv om nøkkellengden kan påvirke noen mindre detaljer i skjemaet, vil det ikke påvirke den grunnleggende formen.
 
@@ -1195,7 +1195,7 @@ En illustrasjon av hvordan en blokkchiffer fungerer, kan ses i *Figur 4* nedenfo
 
 *Figur 4: En blokkchiffer*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 En blokkchiffer i seg selv er ikke et krypteringsskjema. Men en blokkchiffer kan brukes med ulike **operasjonsmåter** for å produsere forskjellige krypteringsskjemaer. En operasjonsmåte legger ganske enkelt til noen ekstra operasjoner utenfor blokkchiffreringen.
 
@@ -1203,7 +1203,7 @@ For å illustrere hvordan dette fungerer, kan vi tenke oss en blokkchiffer (BC) 
 
 *Figur 5: En blokkchiffer med ECB-modus*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Prosessen for elektronisk kodebokskryptering med blokkchiffer er som følger. Se om du kan dele opp klartekstmeldingen i 128-bits blokker. Hvis ikke, legger du til **padding** i meldingen, slik at resultatet kan deles jevnt med blokkstørrelsen på 128 bits. Dette er dataene som brukes til krypteringsprosessen.
 
@@ -1219,7 +1219,7 @@ I stedet bør ethvert krypteringsskjema som er konstruert fra en blokkchiffer, v
 
 *Figur 6: En blokkchiffer med CBC-modus*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Anta at blokkstørrelsen igjen er 128 bits. Da må du igjen sørge for at den opprinnelige klartekstmeldingen får den nødvendige utfyllingen.
 
@@ -1235,7 +1235,7 @@ Til slutt skal vi se nærmere på **output feedback-modus** (**OFB-modus**). Du 
 
 *Figur 7: En blokkchiffer med OFB-modus*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 I OFB-modus velger du også en initialiseringsvektor. Men her settes initialiseringsvektoren for den første blokken direkte inn i blokkchiffreringen med nøkkelen din. De resulterende 128 bitene behandles deretter som en nøkkelstrøm. Denne nøkkelstrømmen XOR-es med klarteksten for å produsere krypteringsteksten for blokken. For påfølgende blokker bruker du nøkkelstrømmen fra den forrige blokken som input i blokkchiffreringen, og gjentar trinnene.
 
@@ -1281,7 +1281,7 @@ Ut fra denne diskusjonen bør du nå forstå *Figur 8*. Den gir en oversikt over
 
 *Figur 8: Oversikt over symmetriske krypteringsmetoder*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Autentiseringskoder for meldinger
 
@@ -1305,7 +1305,7 @@ Prosessen er illustrert i *Figur 9*. For å bruke en **MAC** (Message Authentica
 
 *Figur 9: Oversikt over symmetriske krypteringsmetoder*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 På grunn av **eksistensiell uforfalskbarhet** kan en angriper ikke endre meldingen $M$ på noen måte eller lage sin egen melding med en gyldig tag. Dette gjelder selv om angriperen observerer taggene til mange meldinger mellom Bob og Alice som bruker den samme private nøkkelen. En angriper kan i beste fall hindre Alice i å motta meldingen $M$ (et problem som kryptografi ikke kan løse).
 
@@ -1337,7 +1337,7 @@ Alice sjekker nå først om taggen er gyldig, gitt chifferteksten $C$ og nøkkel
 
 *Figur 10: Et autentisert krypteringsopplegg*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Hvordan opprettes MAC-er? MAC-er kan opprettes på flere måter, men en vanlig og effektiv måte å opprette dem på er ved hjelp av **kryptografiske hashfunksjoner**.
 
@@ -1349,7 +1349,7 @@ Det finnes en rekke hashfunksjoner som kan brukes til å opprette en HMAC. Den m
 
 *Figur 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Noter:**
 
@@ -1387,7 +1387,7 @@ Kommunikasjonsøkten starter med at Bob sender en krypteringstekst $C_{0,B}$ til
 
 *Figur 12: En sikker kommunikasjonsøkt*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 og AES
 
@@ -1524,7 +1524,7 @@ La oss kalle nøkkelen $K_0$. Konstruksjonen med de ovennevnte parameterne ser d
 
 *Figur 1: AES-ECB med en 128-biters nøkkel*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Hver 128-biters tekstblokk går gjennom ti runder i Rijndael-krypteringsskjemaet. Dette krever en separat rundenøkkel for hver runde ($K_1$ til $K_{10}$). Disse produseres for hver runde fra den opprinnelige 128-biters nøkkelen $K_0$ ved hjelp av en **nøkkelutvidelsesalgoritme**. For hver tekstblokk som skal krypteres, vil vi derfor bruke den opprinnelige nøkkelen $K_0$ i tillegg til ti separate rundenøkler. Merk at de samme 11 nøklene brukes for hver 128-biters blokk med klartekst som skal krypteres.
 
@@ -1800,7 +1800,7 @@ På et senere tidspunkt ønsker Bob å skrive en melding $M$ til Alice. Siden de
 
 *Figur 1: Asymmetrisk kryptering*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Enhver motstander som lytter på Bob og Alices kommunikasjon, kan observere $C$. Hun kjenner også $K_P$ og krypteringsalgoritmen $E(\cdot)$. Det er imidlertid viktig å merke seg at denne informasjonen ikke gjør det mulig for angriperen å dekryptere chifferteksten $C$. Dekryptering krever spesifikt $K_S$, som angriperen ikke har.
 
@@ -1824,7 +1824,7 @@ En digital signatur er, som navnet tydelig antyder, det digitale motstykket til 
 
 *Figur 2: Asymmetrisk autentisering*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 I likhet med asymmetrisk kryptering ser vi en interessant kontrast mellom digitale signaturer og meldingsautentiseringskoder. I sistnevnte tilfelle kan verifiseringsalgoritmen bare brukes av én av partene som har innsyn i den sikre kommunikasjonen. Dette er fordi den krever en privat nøkkel. I den asymmetriske settingen kan imidlertid hvem som helst verifisere en digital signatur $S$ laget av Bob.
 

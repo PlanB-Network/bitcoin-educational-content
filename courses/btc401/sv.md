@@ -74,7 +74,7 @@ Under hela kursen kommer deltagarna att använda viktiga verktyg som hjälper de
 Välkommen till den första föreläsningen i utbildningsprogrammet **Cubo Plus**. Idag dyker vi in i Bitcoin:s värld, under ledning av Ricky, grundaren av **Bitcoin Italia Podcast**. Ricky är en passionerad människorättsaktivist som använder Bitcoin som ett verktyg för att skydda och främja mänskliga rättigheter. Med över sex års erfarenhet har Ricky rest mycket och dokumenterat antagandet av Bitcoin på tillväxtmarknader som El Salvador och Guatemala. Hans arbete går utöver podcasting; han är också aktiv på YouTube (**Bitcoin Explorers**) och Twitter (**BTC Explorer**, **Ricky6**). Rickys Commitment till Bitcoin härrör från hans övertygelse om att det erbjuder ekonomisk frihet och integritet, vilket utmanar traditionella, centraliserade banksystem.
 
 
-![Unbanked Population](assets/en/01.webp)
+![Unbanked Population](assets/en/001.webp)
 
 _Den globala befolkningen utan bank_
 
@@ -108,7 +108,7 @@ Bitcoin är mycket mer än bara en digital valuta. Det är ett verktyg för att 
 I auktoritära regimer, där finansiellt förtryck är vanligt, gör Bitcoin:s **ocensorable nature** det möjligt för människor att göra transaktioner utan rädsla för att deras medel ska frysas eller konfiskeras. Dess **öppen källkod** uppmuntrar till globalt deltagande och främjar en gemenskap som kontinuerligt förbättrar nätverket.
 
 
-![Image](assets/en/02.webp)
+![Image](assets/en/002.webp)
 
 
 Trots sin potential står Bitcoin inför betydande utmaningar. I områden som Afrika och Indien saknas ofta grundläggande infrastruktur som elektricitet och tillgång till internet, vilket begränsar användningen. Dessutom är **digital inkludering** - att säkerställa att människor i alla åldrar och utbildningsnivåer kan använda teknik - fortfarande ett stort hinder.
@@ -195,7 +195,7 @@ Samtidigt utgjorde **Austrian Economics** grunden för Bitcoin:s monetära princ
 El Salvadors antagande av Bitcoin återspeglar dess potential som ett verktyg för ekonomisk frihet, i linje med **Austrian Economics** genom att främja frivillig adoption och decentralisering. Detta steg utmanar traditionella finansiella system genom att ta itu med nyckelfrågor: konkurrens, monopol och konfiskering.
 
 
-![Image](assets/en/03.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -272,7 +272,7 @@ Bitcoin-transaktioner valideras och läggs till i block av **miners**, som tävl
 Varje **block** i Blockchain består av en **rubrik** (med data som föregående blocks Hash) och en lista med transaktioner. Det första blocket, som kallas **Genesis Block**, är unikt eftersom det inte har någon föregångare.
 
 
-![Image](assets/en/04.webp)
+![Image](assets/en/004.webp)
 
 
 Innan transaktionerna inkluderas i ett block finns de i **Mempool**, där de väntar på validering. När transaktionerna har validerats läggs de till i det nyligen utvunna blocket och sedan i Blockchain.
@@ -348,7 +348,7 @@ En annan viktig distinktion är att **Bitcoin** skapades med det enda syftet att
 
 > - _Shitcoins:_ Shitcoins är kryptovalutor med lågt värde eller tvivelaktig kvalitet som saknar verklig nytta. De är ofta mycket spekulativa och skapas ibland i bedrägliga syften eller utan ett tydligt syfte för att dra nytta av marknadsboomen för kryptovalutor.
 
-![Image](assets/en/05.webp)
+![Image](assets/en/005.webp)
 
 
 ### Energiförbrukning och miljöpåverkan
@@ -979,7 +979,7 @@ Detta avslutar vår föreläsning om säkerhet och enhetsinställningar för Bit
 Under mer än ett decennium har Bitcoin visat sig vara en omvälvande innovation i finansvärlden, som framgångsrikt verkar på global nivå och öppnar nya möjligheter i den digitala ekonomin. Den står dock fortfarande inför utmaningar som kräver kreativa och samarbetsinriktade lösningar. Den pågående utvecklingen av Bitcoin utgör en unik möjlighet för dem som är intresserade av att forma framtiden för decentraliserad finansiering.
 
 
-![Image](assets/en/06.webp)
+![Image](assets/en/006.webp)
 
 
 #### Öppna problem i Bitcoin:s användbarhet
@@ -1018,7 +1018,7 @@ Flexibilitet inom Bitcoin-protokollet är nödvändigt för att främja förbät
 #### Användbarhet kontra säkerhet och integritet
 
 
-![Image](assets/en/07.webp)
+![Image](assets/en/007.webp)
 
 
 Ansträngningar för att förbättra Bitcoin:s användbarhet sker ofta på bekostnad av säkerhet och integritet. Till exempel ger användarvänliga depåplånböcker, såsom Wallet av Satoshi, en tillgänglig Interface men kompromissar avsevärt med säkerhet och integritet. Förenklade system kan öka användbarheten men kan leda till problem som återanvändning av Address, vilket undergräver integriteten. Därför måste alla förbättringar av användbarheten noga vägas mot potentiella kompromisser när det gäller säkerhet och integritet.
@@ -1066,7 +1066,7 @@ Att förenkla användarinteraktioner med Bitcoin och Lightning Network samtidigt
 Att skapa utbildningsmaterial för att förbättra Bitcoin:s användbarhet, säkerhet och integritet är betydelsefullt. Att utbilda användare om bästa praxis och de underliggande principerna för Bitcoin kan ge dem möjlighet att fatta välgrundade beslut och förbättra deras övergripande upplevelse av nätverket.
 
 
-![Image](assets/en/08.webp)
+![Image](assets/en/008.webp)
 
 
 **Ändringar i Layer 1 och Layer 2**
@@ -1128,7 +1128,7 @@ Både säkerhet och tillförlitlighet syftar till att upprätthålla systeminteg
 Ett typiskt exempel på tillförlitlighetsteknik kan spåras tillbaka till 1700-talet då man byggde en bro. Kvaliteten på det stål som användes, inklusive dess sammansättning och tillverkningsprocess, hade en avgörande betydelse för brons tillförlitlighet. Ingenjörerna var tvungna att ta hänsyn till enskilda felpunkter och använda sannolikhet och statistik för att bedöma och säkerställa brons tillförlitlighet över tid.
 
 
-![Image](assets/en/09.webp)
+![Image](assets/en/009.webp)
 
 
 Till skillnad från tillförlitlighet handlar säkerhet om avsiktliga hot. En 256-bitars kryptonyckel ger t.ex. en matematisk säkerhetsgaranti eftersom det är omöjligt att bryta sig igenom den. Säkerhetsåtgärder måste ta hänsyn till olika hotmodeller, från fysisk manipulering till sofistikerade cyberattacker.
@@ -1146,7 +1146,7 @@ I ett annat scenario kan man tänka sig en upphämtning på flygplatsen där fö
 I Guatemala spelade tidsstämpling av valresultat en avgörande roll för att säkerställa valprocessens integritet. Genom att använda kryptografiska metoder för Timestamp-data kunde valförrättare tillhandahålla bevis på att resultaten var äkta, vilket avskräckte potentiella manipulatörer som drivs av betydande ekonomiska incitament.
 
 
-![Image](assets/en/10.webp)
+![Image](assets/en/010.webp)
 
 
 ### Identifiering och begränsning av potentiella hot
@@ -1235,7 +1235,7 @@ Ett av Stallmans viktigaste bidrag var utvecklingen av GNU-projektet, som syftad
 Denna lucka fylldes genom Linus Torvalds skapande av Linuxkärnan 1991. Torvalds kärna, i kombination med GNU-komponenterna, resulterade i ett fullt fungerande fritt operativsystem som kallas GNU/Linux. Detta samarbete mellan Stallmans filosofiska Commitment för programvarufrihet och Torvalds praktiska bidrag är ett exempel på styrkan i öppen källkod.
 
 
-![Image](assets/en/11.webp)
+![Image](assets/en/011.webp)
 
 
 Rörelsen för fri programvara har haft stor inverkan på programvarubranschen genom att främja idén att programvara ska vara fri för alla att använda, modifiera och dela. Dess principer har lagt grunden för många av de projekt och gemenskaper med öppen källkod som finns idag.
@@ -1250,7 +1250,7 @@ Finansiering och upprätthållande av projekt med öppen källkod innebär unika
 Ett framgångsrikt exempel är Bitcoin Core, en kritisk del av Bitcoin-infrastrukturen. Utvecklare som arbetar med Bitcoin Core finansieras ofta genom bidrag, donationer och sponsring från organisationer som drar nytta av projektets framgång. Den här modellen gör att utvecklarna kan fokusera på att förbättra programvaran utan att begränsas av traditionell kommersiell finansiering.
 
 
-![Image](assets/en/12.webp)
+![Image](assets/en/012.webp)
 
 
 Ett annat framträdande exempel är operativsystemet Linux. Många företag, till exempel IBM, Red Hat och Intel, bidrar till utvecklingen av Linux eftersom deras produkter och tjänster är beroende av ett robust och säkert operativsystem. Dessa företag ger ekonomiskt stöd, bidrar med kod och erbjuder resurser för att underhålla och förbättra Linux-ekosystemet.
@@ -1259,7 +1259,7 @@ Ett annat framträdande exempel är operativsystemet Linux. Många företag, til
 Licenser för öppen källkod, som MIT, GPL och AGPL, spelar också en avgörande roll för den ekonomiska dynamiken i programvara med öppen källkod. Tillåtande licenser som MIT möjliggör en mer flexibel användning av koden, inklusive kommersialisering. Däremot säkerställer copyleft-licenser som GPL att alla härledda verk också måste vara öppen källkod, vilket främjar en samarbetsmiljö.
 
 
-![Image](assets/en/13.webp)
+![Image](assets/en/013.webp)
 
 
 Sammanfattningsvis kan sägas att ekonomin för programvara med öppen källkod drivs av bidrag från samhället, sponsring från företag och innovativa finansieringsmodeller. Dessa mekanismer säkerställer hållbarhet och kontinuerlig förbättring av projekt med öppen källkod, vilket gynnar både utvecklare och användare.
@@ -1285,13 +1285,13 @@ Välkomna! Idag kommer vi att dyka in i de viktiga aspekterna av kryptografi som
 I det här avsnittet går vi igenom de viktigaste kryptografiska begreppen som är väsentliga för Bitcoin-utvecklare, inklusive Hash-funktioner, Merkle-träd, digitala signaturer och elliptiska kurvor.
 
 
-![Image](assets/en/14.webp)
+![Image](assets/en/014.webp)
 
 
 **Hash-funktioner**: En Hash-funktion tar en indata och producerar en sträng av bytes med fast längd. I Bitcoin är Hash-funktioner grundläggande för dataintegritet och säkerhet. Kryptografiska Hash-funktioner måste vara effektiva, generate till synes slumpmässiga utdata och producera utdata med fast längd oavsett indatastorlek. De används för filintegritetskontroller och säkerställer att data inte har ändrats på ett illvilligt sätt.
 
 
-![Image](assets/en/15.webp)
+![Image](assets/en/015.webp)
 
 
 **Säkerhetsegenskaper**: Kryptografiska Hash-funktioner måste följa flera säkerhetsegenskaper. Pre-image-resistens säkerställer att det är beräkningsmässigt omöjligt att baklängeskonstruera den ursprungliga inmatningen från Hash-utmatningen. Andra förbildsresistens innebär att det ska vara svårt att hitta en annan inmatning som ger samma Hash-utmatning. Kollisionsmotstånd säkerställer att det är osannolikt att hitta två olika ingångar som ger samma Hash-utgång.
@@ -1300,7 +1300,7 @@ I det här avsnittet går vi igenom de viktigaste kryptografiska begreppen som �
 **Merkle-träd**: En Merkle Tree är en datastruktur som möjliggör effektiv och säker verifiering av stora datamängder. Dataobjekt hashas i par, och de resulterande hasharna kombineras iterativt för att bilda en enda rot Hash. I Bitcoin är Merkle-träd avgörande för blockskapande och transaktionsverifiering, särskilt för SPV-klienter (Simplified Payment Verification) och i Taproot (Mast).
 
 
-![Image](assets/en/16.webp)
+![Image](assets/en/016.webp)
 
 
 **Digitala signaturer (ECDSA)**: Elliptic Curve Digital Signature Algorithm (ECDSA) används för att säkerställa äkthet och integritet i Bitcoin-transaktioner. Det innebär att en signatur genereras med hjälp av en privat nyckel som kan verifieras med motsvarande offentlig nyckel. Nyckelbegrepp inkluderar förståelse av finita fält, diskreta logaritmer och vikten av nonces.
@@ -1309,7 +1309,7 @@ I det här avsnittet går vi igenom de viktigaste kryptografiska begreppen som �
 **Elliptiska kurvor**: Elliptiska kurvor används i kryptografi med publik nyckel på grund av deras effektivitet och säkerhet. Säkerheten i kryptografi med elliptiska kurvor beror på svårigheten att lösa det diskreta logaritmproblemet.
 
 
-![Image](assets/en/17.webp)
+![Image](assets/en/017.webp)
 
 
 ### Praktiska kryptografiska tillämpningar och säkerhetsrutiner i Bitcoin
@@ -1321,7 +1321,7 @@ I det här avsnittet kommer vi att utforska tillämpningen av dessa koncept i ve
 **Kryptografi = fara**: Kryptografi är ett tveeggat svärd. Samtidigt som den skyddar mot oavsiktlig dataskada och skadliga handlingar kan felaktig implementering leda till allvarliga sårbarheter. Utvecklare måste ha en djup förståelse för kryptografiska mekanismer för att kunna garantera både säker implementering och möjlighet att felsöka potentiella problem. Till exempel säkerställer SHA-2:s 256-bitarsutgång att preimage-attacker kräver cirka 2^256 arbete, med kollisionsmotstånd cirka 2^128 arbete.
 
 
-![Image](assets/en/18.webp)
+![Image](assets/en/018.webp)
 
 
 **Merkle Tree tillämpningar**: Att förstå den logaritmiska bevisstorleken och säkerställa noggrann träddesign är viktigt för att undvika brister, såsom Hash-duplicering i transaktionsverifiering. Merkle-träd används vid blockskapande, transaktionsverifiering och förbättringar som Taproot.
@@ -1330,7 +1330,7 @@ I det här avsnittet kommer vi att utforska tillämpningen av dessa koncept i ve
 **Kryptografi med offentlig nyckel**: Diskreta logaritmer och finita fält är grundläggande i kryptografiska beräkningar i Bitcoin. Protokoll för utmaningssvar används för att verifiera kännedom om en privat nyckel utan att avslöja den.
 
 
-![Image](assets/en/19.webp)
+![Image](assets/en/019.webp)
 
 
 **Säkerhetsimplikationer**: Historiska exempel visar på betydande ekonomiska förluster på grund av återanvändning av Nonce. Att förstå vikten av att generera unika nonces är avgörande. Att använda betrodda bibliotek som LibSecP256k1 garanterar robusta och säkra kryptografiska operationer.
@@ -1392,10 +1392,10 @@ Soft-forks är ändringar som skärper de befintliga reglerna i Bitcoin-protokol
 Hard-forks är ändringar som luckrar upp de befintliga reglerna och tillåter nya typer av transaktioner. Dessa är inte bakåtkompatibla, vilket innebär att icke uppgraderade noder inte kommer att känna igen de nya reglerna. Ett exempel på en Hard Fork kan behövas för problemet med år 2106 för att säkerställa att Bitcoin fortsätter att fungera efter detta datum.
 
 
-![Image](assets/en/20.webp)
+![Image](assets/en/020.webp)
 
 
-![Image](assets/en/21.webp)
+![Image](assets/en/021.webp)
 
 
 ### Exempel på styrning
@@ -1425,7 +1425,7 @@ Körande noder kan validera Bitcoin-regler och delta i nätverket, även med oli
 Debatten om blockstorleken var en viktig styrningsfråga som handlade om huruvida Bitcoin:s blockstorlek skulle ökas. Denna kontrovers löstes genom implementeringen av SegWit, en Soft Fork som ökade den effektiva blockstorleken och möjliggjorde Lightning Network.
 
 
-![Image](assets/en/22.webp)
+![Image](assets/en/022.webp)
 
 
 ### Påtvingade förändringar och majoritetsstyre
@@ -1501,7 +1501,7 @@ Att driva en Bitcoin-nod är viktigt av flera skäl:
 - Upprätthåller lista över giltiga kandidater; **Mempool**: Noder måste behålla en lista över möjliga transaktionskandidater i Mempool som ska ingå i block.
 
 
-![nodes network](assets/en/23.webp)
+![nodes network](assets/en/023.webp)
 
 
 **NOTE**: Mempool är ett tillfälligt lagringsutrymme för transaktioner som har validerats men ännu inte inkluderats i ett block.
@@ -1513,7 +1513,7 @@ Att driva en Bitcoin-nod är viktigt av flera skäl:
 #### Bitcoin Grundläggande moduler
 
 
-![Bitcoin core modules](assets/en/24.webp)
+![Bitcoin core modules](assets/en/024.webp)
 
 
 
@@ -1547,7 +1547,7 @@ bitcoin-cli gettxoutsetinfo
 ```
 
 
-![utxoset info command](assets/en/25.webp)
+![utxoset info command](assets/en/025.webp)
 
 
 Vi kan kontrollera att antalet Bitcoins är korrekt.
@@ -1566,7 +1566,7 @@ Vi kan kontrollera att antalet Bitcoins är korrekt.
 **VIKTIGT**: Transaktioner är inte samma sak som UTXO:er.
 
 
-![Txs and UTXOs](assets/en/26.webp)
+![Txs and UTXOs](assets/en/026.webp)
 
 
 #### Mempool
@@ -1660,7 +1660,7 @@ Blockhuvudet är hörnstenen i ett Bitcoin-block och innehåller följande fält
 **Notera**: Endast de första 80 byte (som utgör blockhuvudet) hashas under Mining.
 
 
-![Block header structure](assets/en/27.webp)
+![Block header structure](assets/en/027.webp)
 
 
 #### Förenklingar
@@ -1698,13 +1698,13 @@ Varje transaktion i ett Bitcoin-block innehåller följande:
 - **Låsningstid**: Anger den blockhöjd eller Timestamp vid vilken denna transaktion kan inkluderas i ett block.
 
 
-![Transaction structure](assets/en/28.webp)
+![Transaction structure](assets/en/028.webp)
 
-![TxIn structure](assets/en/29.webp)
+![TxIn structure](assets/en/029.webp)
 
-![Outpoint structure](assets/en/30.webp)
+![Outpoint structure](assets/en/030.webp)
 
-![TxOut structure](assets/en/31.webp)
+![TxOut structure](assets/en/031.webp)
 
 
 #### Parsing-tekniker
@@ -1895,11 +1895,11 @@ _ => todo!()
 ```
 
 
-![op_checksig](assets/en/32.webp)
+![op_checksig](assets/en/032.webp)
 
-![op_hash160](assets/en/33.webp)
+![op_hash160](assets/en/033.webp)
 
-![op_push](assets/en/34.webp)
+![op_push](assets/en/034.webp)
 
 
 #### Utmaningar vid tolkning av skript
@@ -1938,7 +1938,7 @@ Användningen av kompakta block används för närvarande för att effektivisera
 För konsensuskritiska applikationer rekommenderas att man använder befintliga bibliotek för att undvika buggar och garantera säkerheten, t.ex. [Rust-Bitcoin] (https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit] (https://docs.rs/BDK/latest/BDK/). Att implementera sin egen parser kan vara lärorikt men också riskabelt i produktionsmiljöer.
 
 
-![libraries](assets/en/35.webp)
+![libraries](assets/en/035.webp)
 
 
 ### Effektivitet och säkerhet i Bitcoin Mining
@@ -1961,7 +1961,7 @@ Mining tomma block kan vara mer effektiva för gruvarbetare:
 Tomma block bryts ibland på grund av tidsproblem. Miners kanske inte har fått hela listan med transaktioner när de börjar Mining nästa block, så de väljer att minera ett tomt block istället.
 
 
-![empty block](assets/en/36.webp)
+![empty block](assets/en/036.webp)
 
 
 #### Skadlig Mining av tomma block
@@ -2019,14 +2019,14 @@ Bitcoin-noder är ryggraden i Bitcoin-nätverket. De ansluter till varandra, Exc
 - **Arkiveringsnoder**: Arkivnoderna, som är en undergrupp till fulla noder, behåller alla Blockchain-data, vilket gör dem värdefulla för historisk analys och felsökning.
 
 
-![archival node](assets/en/37.webp)
+![archival node](assets/en/037.webp)
 
 
 
 - **Beskurna noder**: Beskurna noder sparar diskutrymme genom att bara behålla en del av Blockchain och eliminera äldre data som inte längre behövs för validering.
 
 
-![pruned node](assets/en/38.webp)
+![pruned node](assets/en/038.webp)
 
 
 #### Bitcoin Kärnverksamhet
@@ -2041,7 +2041,7 @@ Bitcoin Core är den mest använda Full node-implementeringen. Den utför dubbla
 - **Språk**: Skriven i C++ med tester i Python, vilket garanterar robust prestanda och tillförlitlighet.
 
 
-![cli-gui](assets/en/39.webp)
+![cli-gui](assets/en/039.webp)
 
 
 ##### Utforska Bitcoin kärna
@@ -2096,7 +2096,7 @@ Utöver Bitcoin Core finns det flera alternativa implementeringar av noder:
 Att implementera dessa alternativ medför sina egna risker, särskilt när det gäller konsensusreglerna. Att avvika från etablerade valideringsregler kan leda till förgreningar eller inkonsekvenser. Bitcoin Kernel-projektet försöker mildra dessa risker genom att centralisera konsensuskoden och säkerställa enhetlighet mellan olika implementeringar.
 
 
-![implementation](assets/en/40.webp)
+![implementation](assets/en/040.webp)
 
 
 ### Bitcoin plånböcker och säkerhet
@@ -2171,21 +2171,21 @@ Oavsett typ utför varje Bitcoin Wallet tre grundläggande funktioner:
 - Bitcoin-plånböcker fungerar som nyckelkedjor och håller och genererar kryptografiska nycklar.
 
 
-![keychain](assets/en/41.webp)
+![keychain](assets/en/041.webp)
 
 
 
 - De övervakar Blockchain för inkommande transaktioner.
 
 
-![monitor](assets/en/42.webp)
+![monitor](assets/en/042.webp)
 
 
 
 - Skapa transaktioner genom att välja outnyttjade transaktionsutgångar (UTXO), ange in- och utgångar samt optimera för sekretess och avgifter.
 
 
-![tx_builder](assets/en/43.webp)
+![tx_builder](assets/en/043.webp)
 
 
 #### Återanvändbarhet av Wallet-logik
@@ -2411,7 +2411,7 @@ Den decentraliserade valideringsprocessen för Bitcoin kräver betydande beräkn
 ### Betalningskanaler som en lösning
 
 
-![Gold coin](assets/en/44.webp)_Gold Standard Metaphor_
+![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 
 För att Address komma till rätta med ineffektiviteten och integritetsfrågorna i Bitcoin har betalningskanaler föreslagits som en genomförbar lösning. Mikrobetalningskanaler gör det möjligt för transaktioner att ske off-chain, vilket minskar behovet av konstant datadelning i hela nätverket. Detta lättar avsevärt på bördan för Blockchain, vilket möjliggör snabbare och billigare transaktioner.
@@ -2461,7 +2461,7 @@ HTLC:s arbetsflöde omfattar en flerstegsprocess som säkerställer säker dirig
 I en HTLC låser Alice betalningen med en Hash av ett hemligt "R" Bob, Carol och Diana skapar var och en liknande kontrakt med sina efterföljande mellanhänder, vilket säkerställer att de endast kan göra anspråk på sina medel om de presenterar rätt hemligt "R" Denna mekanism säkerställer atomicitet; betalningen fullföljs helt eller misslyckas, vilket skyddar mot partiella fondförluster.
 
 
-![Hash lock](assets/en/45.webp)_Hash lock function_
+![Hash lock](assets/en/045.webp)_Hash lock function_
 
 
 ### Praktiska överväganden och nätverksdynamik
@@ -2482,7 +2482,7 @@ Kanaler uppdaterar sitt tillstånd baserat på ömsesidiga överenskommelser och
 HTLC-mekanismen säkerställer atomicitet genom användning av tidslås och signaturer. Denna skyddsåtgärd säkerställer att betalningsprotokollet garanterar antingen fullständig framgång eller misslyckande, vilket skyddar mot partiella fondförluster.
 
 
-![Time lock and signatures](assets/en/46.webp)_Combine restrictions_
+![Time lock and signatures](assets/en/046.webp)_Combine restrictions_
 
 
 #### Incitament och ansvarsområden
@@ -2509,7 +2509,7 @@ Noder i nätverket kan antingen vara en del av en offentligt tillkännagiven kan
 Alice måste ha kunskap om nätverkstopologin för att kunna besluta om betalningsvägen. Source routing används för att bevara integriteten trots komplexiteten i att dirigera betalningar genom flera mellanhänder.
 
 
-![Source Routing](assets/en/47.webp)_Source Routing Path_
+![Source Routing](assets/en/047.webp)_Source Routing Path_
 
 
 #### Slutsats
@@ -2536,7 +2536,7 @@ Nu kommer Lightning Network, som fungerar som en andra Layer ovanpå Bitcoin Blo
 För att förstå konceptet bättre kan man jämföra med en barflik. När du öppnar en flik på en bar kan du kontinuerligt beställa drinkar utan att betala efter varje. Slutligen betalar du det totala beloppet i slutet av kvällen. På samma sätt tillåter en Lightning-kanal flera transaktioner off-chain, som endast avvecklas On-Chain när kanalen stängs. En annan analogi är en flygplats, där det att dirigera en betalning genom flera noder kan liknas vid att ta anslutande flyg för att nå din destination. Varje nod (eller "flygning") hjälper till att styra betalningen dit den ska, vilket säkerställer en effektiv dirigering.
 
 
-![airport analogy](assets/en/48.webp)_The airport analogy of LN_
+![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
 I huvudsak kompletterar Lightning Network Bitcoin-nätverket genom att åtgärda dess begränsningar och omvandla det från en ren avvecklings-Layer till ett mångsidigt system som kan hantera vardagliga transaktioner på ett effektivt sätt.
@@ -2548,7 +2548,7 @@ I huvudsak kompletterar Lightning Network Bitcoin-nätverket genom att åtgärda
 Lightning Network-protokollet är noggrant definierat genom 10 BOLT:er (Basis of Lightning Technology). Dessa BOLT:er fastställdes under en konferens i Milano och utgör grunden för olika implementeringar av Lightning Network.
 
 
-![bolt](assets/en/49.webp)_BOLT Diagram _
+![bolt](assets/en/049.webp)_BOLT Diagram _
 
 
 #### Bolt 1 (basprotokoll)
@@ -2610,7 +2610,7 @@ Commitment-transaktioner innehåller mekanismer som nLockTime, OPCheckSequenceVe
 ### Routing och onion routing
 
 
-![onion routing](assets/en/50.webp)_Onion Routing diagram _
+![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 
 Betalningar dirigeras med hjälp av Onion-routing, vilket innebär att krypterade paket skapas och skickas genom flera noder. HTLC:er säkrar transaktionen, vilket garanterar integritet och säkerhet.
@@ -2622,7 +2622,7 @@ Betalningar dirigeras med hjälp av Onion-routing, vilket innebär att krypterad
 Lightning Network-fakturor (Bolt 11) är kodade i Bech32 och innehåller detaljer som betalning Hash, beskrivning och utgångsdatum. Varje Invoice måste användas en gång för att förhindra problem med återanvändning.
 
 
-![Invoice structure](assets/en/51.webp)_BOLT11 Invoice_
+![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
 
 
 #### Kryptering och autentisering
@@ -2716,7 +2716,7 @@ Lightning Network (LN) representerar ett betydande genombrott i Bitcoin skalbarh
 Lightning-plånböckerna är utformade för att göra processen användarvänlig, så att även de med minimal teknisk kunskap kan dra nytta av avancerade Bitcoin-funktioner. Genom att möjliggöra snabba och kostnadseffektiva mikrotransaktioner bidrar dessa plånböcker avsevärt till en bredare användning av Bitcoin för vardagliga transaktioner.
 
 
-![LN Clients](assets/en/52.webp)_Lightning Wallets_
+![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 
 ### Bitcoin plånböcker vs. blixtplånböcker
@@ -2764,7 +2764,7 @@ Effektiv likviditetshantering är en hörnsten i en framgångsrik Lightning Netw
 #### Exempel på likviditetshantering:
 
 
-![Example of Liquidity](assets/en/53.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 
 Tänk dig ett scenario med Alice, Bob, Charlie och Dan - typiska LN-användare som är sammankopplade via olika kanaler:
@@ -2775,7 +2775,7 @@ Tänk dig ett scenario med Alice, Bob, Charlie och Dan - typiska LN-användare s
 - Om Bob har ett tillräckligt saldo och en kanal med Charlie, och Charlie har en kanal med Dan, kan Alice:s betalning dirigeras genom Bob och Charlie för att nå Dan.
 
 
-![Example of Liquidity](assets/en/54.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
 Men om någon av dessa kanaler har problem med sin kapacitet eller anslutningen kan transaktionen misslyckas. Detta visar hur viktigt det är att upprätthålla en balanserad likviditet i hela nätverket.
@@ -2844,7 +2844,7 @@ Plånböcker kan klassificeras utifrån vem som innehar de privata nycklarna och
 - **Icke-förvarade plånböcker**: Användare har privata nycklar, kan kräva manuell likviditetshantering. Exempel på detta är Breeze och OBW.
 
 
-![Liquidity Lightning](assets/en/55.webp)_2x2 Matrix of LN Clients_
+![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
 
 ### Kritik och förbättringsområden
@@ -3311,7 +3311,7 @@ Mining-komplexitet i samband med Bitcoin omfattar främst de tekniska och strate
 #### Viktiga lönsamhetsfaktorer
 
 
-![energy cost](assets/en/56.webp)
+![energy cost](assets/en/056.webp)
 
 
 1. **Elektricitetskostnader**: En av de viktigaste faktorerna som påverkar lönsamheten för Mining är elkostnaden. I regioner som Frankrike kan el vara relativt dyrt jämfört med länder som El Salvador, där lägre kostnader ger en konkurrensfördel för gruvarbetarna.
@@ -3345,7 +3345,7 @@ Miners står inför tre primära flaskhalsar: hårdvarutillgänglighet, energiti
 År 2021 förbjöd den kinesiska regeringen Mining inom sitt territorium, vilket ledde till att Mining-företag i Kina förlorade tillgången till energi. Detta resulterade i en **50%** minskning av Hashrate under två veckor.
 
 
-![hashrate drop](assets/en/57.webp)
+![hashrate drop](assets/en/057.webp)
 
 
 ---
@@ -3359,7 +3359,7 @@ Miners står inför tre primära flaskhalsar: hårdvarutillgänglighet, energiti
 Resan för Mining-hårdvara har varit monumental, från enkla CPU Mining till de högspecialiserade ASIC-gruvbrytare som vi använder idag.
 
 
-![evolution hardware](assets/en/58.webp)
+![evolution hardware](assets/en/058.webp)
 
 
 1. **CPU Mining**: I början utfördes Mining med hjälp av vanliga datorprocessorer (CPU:er). Denna metod blev snabbt utkonkurrerad i takt med att nätverket växte.
@@ -3379,7 +3379,7 @@ Resan för Mining-hårdvara har varit monumental, från enkla CPU Mining till de
 - **Antminer S9**: Även om Antminer S9 är äldre och mindre effektiv är den fortfarande populär bland mindre installationer och hobbyanvändare tack vare sitt överkomliga pris och sin hyfsade prestanda.
 
 
-![s19j pro vs antminer s9](assets/en/59.webp)
+![s19j pro vs antminer s9](assets/en/059.webp)
 
 
 #### Mining effektivitet och lärande
@@ -3425,14 +3425,14 @@ Reglering spelar en viktig roll i utformningen av Mining-landskapet. Till exempe
 - **Betala per andel**: Pay-Per-Share belönar miners för varje giltig share de skickar in, oavsett om poolen hittar ett block eller inte. **Shares** är bevisenheter för att gruvarbetare har slutfört det arbete som krävs, och poolen verifierar dessa aktier.
 
 
-![pps](assets/en/60.webp)
+![pps](assets/en/060.webp)
 
 
 
 - **Proportionell**: Det beror på poolen Mining ett block för att fördela belöningen lika till bidraget från Miner till den totala Hashrate i poolen.
 
 
-![prop](assets/en/61.webp)
+![prop](assets/en/061.webp)
 
 
 #### Framtiden för Mining

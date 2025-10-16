@@ -74,7 +74,7 @@ Tijdens de cursus zullen deelnemers gebruik maken van belangrijke hulpmiddelen d
 Welkom bij de eerste lezing van het **Cubo Plus** onderwijsprogramma. Vandaag duiken we in de wereld van Bitcoin, onder leiding van Ricky, de oprichter van de **Bitcoin Italia Podcast**. Ricky is een gepassioneerde mensenrechtenactivist die Bitcoin gebruikt als een middel om mensenrechten te beschermen en te promoten. Met meer dan zes jaar ervaring heeft Ricky veel gereisd en de adoptie van Bitcoin gedocumenteerd in opkomende markten zoals El Salvador en Guatemala. Zijn werk gaat verder dan podcasts; hij is ook actief op YouTube (**Bitcoin Explorers**) en Twitter (**BTC Explorer**, **Ricky6**). Ricky's Commitment voor Bitcoin komt voort uit zijn overtuiging dat het financiële vrijheid en privacy biedt en een uitdaging vormt voor traditionele, gecentraliseerde banksystemen.
 
 
-![Unbanked Population](assets/en/01.webp)
+![Unbanked Population](assets/en/001.webp)
 
 wereldwijde bevolking zonder bankrekeningen
 
@@ -108,7 +108,7 @@ Bitcoin is veel meer dan alleen een digitale valuta. Het is een middel om privac
 In autoritaire regimes, waar financiële repressie gebruikelijk is, stelt de **ongevoelige aard** van Bitcoin mensen in staat om transacties te doen zonder bang te hoeven zijn dat hun geld wordt bevroren of in beslag genomen. De **open-source** aard moedigt wereldwijde deelname aan, waardoor een gemeenschap ontstaat die het netwerk voortdurend verbetert.
 
 
-![Image](assets/en/02.webp)
+![Image](assets/en/002.webp)
 
 
 Ondanks het potentieel staat Bitcoin voor grote uitdagingen. In gebieden zoals Afrika en India ontbreekt het vaak aan basisinfrastructuur zoals elektriciteit en internettoegang, wat de toepassing beperkt. Bovendien blijft **digitale inclusie** - ervoor zorgen dat mensen van alle leeftijden en opleidingsniveaus gebruik kunnen maken van technologie - een grote hindernis.
@@ -195,7 +195,7 @@ Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire prin
 De invoering van Bitcoin in El Salvador weerspiegelt het potentieel ervan als instrument voor financiële vrijheid en sluit aan bij **Oostenrijkse Economie** door vrijwillige invoering en decentralisatie te bevorderen. Deze stap daagt traditionele financiële systemen uit door de belangrijkste problemen aan te pakken: concurrentie, monopolie en confiscatie.
 
 
-![Image](assets/en/03.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -272,7 +272,7 @@ Bitcoin transacties worden gevalideerd en toegevoegd aan blokken door **miners**
 Elk **blok** in de Blockchain bestaat uit een **kop** (met gegevens zoals de Hash van het vorige blok) en een lijst met transacties. Het eerste blok, bekend als het **Genesis Blok**, is uniek omdat het geen voorganger heeft.
 
 
-![Image](assets/en/04.webp)
+![Image](assets/en/004.webp)
 
 
 Voordat transacties in een blok worden opgenomen, verblijven ze in de **Mempool**, waar ze wachten op validatie. Zodra ze gevalideerd zijn, worden deze transacties toegevoegd aan het nieuw gemijnde blok en vervolgens aan de Blockchain.
@@ -348,7 +348,7 @@ Een ander belangrijk verschil is dat **Bitcoin** is gecreëerd met als enige doe
 
 > - shitcoins:_ Shitcoins zijn cryptocurrencies met een lage waarde of van twijfelachtige kwaliteit die geen echt nut hebben. Ze zijn vaak zeer speculatief en worden soms gemaakt voor frauduleuze doeleinden of zonder een duidelijk doel, waarbij ze profiteren van de hausse op de cryptocurrency markt.
 
-![Image](assets/en/05.webp)
+![Image](assets/en/005.webp)
 
 
 ### Energieverbruik en milieu-impact
@@ -979,7 +979,7 @@ Dit is het einde van onze lezing over beveiliging en het instellen van apparaten
 In meer dan een decennium heeft Bitcoin bewezen een transformatieve innovatie in de financiële wereld te zijn, die met succes wereldwijd actief is en nieuwe mogelijkheden biedt in de digitale economie. Het wordt echter nog steeds geconfronteerd met uitdagingen die creatieve en gezamenlijke oplossingen vereisen. De voortdurende evolutie van Bitcoin biedt een unieke kans voor diegenen die geïnteresseerd zijn in het vormgeven van de toekomst van gedecentraliseerde financiën.
 
 
-![Image](assets/en/06.webp)
+![Image](assets/en/006.webp)
 
 
 #### Openstaande problemen in de Bitcoin bruikbaarheid
@@ -1018,7 +1018,7 @@ Flexibiliteit binnen het Bitcoin protocol is noodzakelijk om verbeteringen in pr
 #### Bruikbaarheid versus veiligheid en privacy
 
 
-![Image](assets/en/07.webp)
+![Image](assets/en/007.webp)
 
 
 Inspanningen om de bruikbaarheid van Bitcoin te verbeteren gaan vaak ten koste van de veiligheid en privacy. Gebruiksvriendelijke bewaarportemonnees, zoals de Wallet van Satoshi, bieden bijvoorbeeld een toegankelijke Interface, maar leveren een aanzienlijk compromis op het gebied van veiligheid en privacy. Vereenvoudigde systemen kunnen de bruikbaarheid vergroten, maar kunnen leiden tot problemen zoals hergebruik van Address, wat de privacy ondermijnt. Daarom moeten alle verbeteringen in bruikbaarheid zorgvuldig worden afgewogen tegen mogelijke compromissen in veiligheid en privacy.
@@ -1066,7 +1066,7 @@ Het vereenvoudigen van gebruikersinteracties met de Bitcoin en de Lightning Netw
 Het creëren van educatief materiaal om de bruikbaarheid, veiligheid en privacy van Bitcoin te verbeteren heeft impact. Het opleiden van gebruikers over best practices en de onderliggende principes van Bitcoin kan hen in staat stellen geïnformeerde beslissingen te nemen en hun algehele ervaring met het netwerk te verbeteren.
 
 
-![Image](assets/en/08.webp)
+![Image](assets/en/008.webp)
 
 
 **Layer 1 en Layer 2 wijzigingen**
@@ -1128,7 +1128,7 @@ Hoewel zowel beveiliging als betrouwbaarheid tot doel hebben om de integriteit v
 Een typisch voorbeeld van betrouwbaarheidstechniek gaat terug tot de 18e eeuw met de bouw van een brug. De kwaliteit van het gebruikte staal, inclusief de samenstelling en het fabricageproces, had een cruciale invloed op de betrouwbaarheid van de brug. Ingenieurs moesten rekening houden met enkelvoudige storingspunten en waarschijnlijkheid en statistiek gebruiken om de betrouwbaarheid van de brug in de loop der tijd te beoordelen en te garanderen.
 
 
-![Image](assets/en/09.webp)
+![Image](assets/en/009.webp)
 
 
 In tegenstelling tot betrouwbaarheid heeft beveiliging te maken met opzettelijke bedreigingen. Een 256-bits cryptografische sleutel biedt bijvoorbeeld een wiskundige veiligheidsgarantie omdat het niet mogelijk is om deze te kraken. Beveiligingsmaatregelen moeten rekening houden met verschillende bedreigingsmodellen, van fysieke sabotage tot geavanceerde cyberaanvallen.
@@ -1146,7 +1146,7 @@ Stel je in een ander scenario een pick-up op een vliegveld voor waarbij de chauf
 In Guatemala speelde het tijdstempelen van verkiezingsuitslagen een cruciale rol bij het waarborgen van de integriteit van het verkiezingsproces. Door cryptografische methoden te gebruiken voor Timestamp-gegevens, konden verkiezingsfunctionarissen manipulatie-identiek bewijs leveren van de echtheid van de resultaten, waardoor potentiële manipulators, gedreven door aanzienlijke financiële prikkels, werden afgeschrikt.
 
 
-![Image](assets/en/10.webp)
+![Image](assets/en/010.webp)
 
 
 ### Potentiële bedreigingen identificeren en beperken
@@ -1235,7 +1235,7 @@ Een van Stallman's belangrijke bijdragen was de ontwikkeling van het GNU Project
 De leemte werd opgevuld door Linus Torvalds' creatie van de Linux kernel in 1991. Torvalds' kernel, gecombineerd met de GNU componenten, resulteerde in een volledig functioneel vrij besturingssysteem dat bekend staat als GNU/Linux. Deze samenwerking tussen Stallman's filosofische Commitment aan softwarevrijheid en Torvalds' praktische bijdrage illustreert de kracht van de open-source benadering.
 
 
-![Image](assets/en/11.webp)
+![Image](assets/en/011.webp)
 
 
 De Free Software Movement heeft een grote invloed gehad op de software-industrie door het idee te promoten dat software vrij moet zijn voor iedereen om te gebruiken, aan te passen en te delen. De principes hebben de basis gelegd voor veel van de open-source projecten en gemeenschappen die vandaag de dag floreren.
@@ -1250,7 +1250,7 @@ Het financieren en in stand houden van open source-projecten brengt unieke uitda
 Een succesvol voorbeeld is Bitcoin Core, een cruciaal onderdeel van de Bitcoin infrastructuur. Ontwikkelaars die aan Bitcoin Core werken, worden vaak gefinancierd door subsidies, donaties en sponsoring van organisaties die profiteren van het succes van het project. Dankzij dit model kunnen ontwikkelaars zich richten op het verbeteren van de software zonder de beperkingen van traditionele commerciële financiering.
 
 
-![Image](assets/en/12.webp)
+![Image](assets/en/012.webp)
 
 
 Een ander prominent voorbeeld is het besturingssysteem Linux. Veel bedrijven, zoals IBM, Red Hat en Intel, dragen bij aan de ontwikkeling van Linux omdat hun producten en diensten afhankelijk zijn van een robuust en veilig besturingssysteem. Deze bedrijven geven financiële steun, dragen code bij en bieden middelen aan om het Linux-ecosysteem te onderhouden en te verbeteren.
@@ -1259,7 +1259,7 @@ Een ander prominent voorbeeld is het besturingssysteem Linux. Veel bedrijven, zo
 Open source licenties, zoals de MIT, GPL en AGPL, spelen ook een cruciale rol in de economische dynamiek van open source software. Permissieve licenties zoals MIT maken een flexibeler gebruik van de code mogelijk, inclusief commercialisatie. Daarentegen zorgen copyleft licenties zoals de GPL ervoor dat elk afgeleid werk ook open-source moet zijn, wat een collaboratieve omgeving bevordert.
 
 
-![Image](assets/en/13.webp)
+![Image](assets/en/013.webp)
 
 
 Concluderend kan worden gesteld dat de economische aspecten van open source software worden gedreven door bijdragen van gemeenschappen, sponsoring door bedrijven en innovatieve financieringsmodellen. Deze mechanismen zorgen voor de duurzaamheid en voortdurende verbetering van open source-projecten, waarvan zowel ontwikkelaars als gebruikers profiteren.
@@ -1285,13 +1285,13 @@ Welkom! Vandaag duiken we in de cruciale aspecten van cryptografie die elke Bitc
 In deze sectie zullen we ons verdiepen in de belangrijkste cryptografische concepten die essentieel zijn voor Bitcoin ontwikkelaars, waaronder Hash functies, Merkle bomen, digitale handtekeningen en elliptische krommen.
 
 
-![Image](assets/en/14.webp)
+![Image](assets/en/014.webp)
 
 
 **Hash functies**: Een Hash functie neemt een invoer en produceert een reeks bytes met een vaste lengte. In Bitcoin zijn Hash functies fundamenteel voor gegevensintegriteit en beveiliging. Cryptografische Hash functies moeten efficiënt zijn, generate schijnbaar willekeurige uitgangen hebben en uitgangen met een vaste lengte produceren, ongeacht de grootte van de invoer. Ze worden gebruikt voor bestandsintegriteitscontroles, om te verzekeren dat gegevens niet kwaadwillig zijn gewijzigd.
 
 
-![Image](assets/en/15.webp)
+![Image](assets/en/015.webp)
 
 
 **Beschermingseigenschappen**: Cryptografische Hash functies moeten voldoen aan verschillende beveiligingseigenschappen. Pre-image resistentie zorgt ervoor dat het rekenkundig niet haalbaar is om de originele invoer te reverse-engineeren vanuit de Hash uitvoer. Tweede pre-image resistentie betekent dat het moeilijk moet zijn om een andere invoer te vinden die dezelfde Hash uitvoer produceert. Botsingsweerstand zorgt ervoor dat het onwaarschijnlijk is om twee verschillende inputs te vinden die dezelfde Hash output opleveren.
@@ -1300,7 +1300,7 @@ In deze sectie zullen we ons verdiepen in de belangrijkste cryptografische conce
 **Merkle bomen**: Een Merkle Tree is een datastructuur die efficiënte en veilige verificatie van grote datasets mogelijk maakt. Gegevensitems worden gehasht in paren, waarbij de resulterende hashes iteratief worden gecombineerd om een enkele Hash wortel te vormen. In Bitcoin zijn Merkle trees cruciaal bij het aanmaken van blokken en het verifiëren van transacties, in het bijzonder voor cliënten van Simplified Payment Verification (SPV) en in Taproot (Mast).
 
 
-![Image](assets/en/16.webp)
+![Image](assets/en/016.webp)
 
 
 **Digitale handtekeningen (ECDSA)**: Het Elliptic Curve Digital Signature Algorithm (ECDSA) wordt gebruikt om de authenticiteit en integriteit van Bitcoin-transacties te garanderen. Hierbij wordt een handtekening gegenereerd met een private sleutel die kan worden geverifieerd met de corresponderende publieke sleutel. Sleutelbegrippen zijn onder andere het begrijpen van eindige velden, discrete logaritmen en het belang van nonces.
@@ -1309,7 +1309,7 @@ In deze sectie zullen we ons verdiepen in de belangrijkste cryptografische conce
 **Elliptische krommen**: Elliptische krommen worden gebruikt in public key cryptografie vanwege hun efficiëntie en veiligheid. De veiligheid van cryptografie met elliptische krommen berust op de moeilijkheid om het discrete logaritmeprobleem op te lossen.
 
 
-![Image](assets/en/17.webp)
+![Image](assets/en/017.webp)
 
 
 ### Praktische cryptografische toepassingen en beveiligingspraktijken in Bitcoin
@@ -1321,7 +1321,7 @@ In deze sectie zullen we de toepassing van deze concepten in de echte Bitcoin on
 **Cryptografie = gevaar**: Cryptografie is een tweesnijdend zwaard. Hoewel het beschermt tegen schade aan gegevens en kwaadwillige acties, kan een onjuiste implementatie leiden tot ernstige kwetsbaarheden. Ontwikkelaars moeten cryptografische mechanismen goed begrijpen om zowel een veilige implementatie te garanderen als de mogelijkheid om mogelijke problemen op te lossen. Bijvoorbeeld, SHA-2's 256-bit uitvoer zorgt ervoor dat preimage aanvallen ongeveer 2^256 werk vereisen, met botsingsweerstand rond 2^128 werk.
 
 
-![Image](assets/en/18.webp)
+![Image](assets/en/018.webp)
 
 
 **Merkle Tree toepassingen**: Inzicht in de logaritmische bewijsgrootte en een zorgvuldig boomontwerp zijn essentieel om fouten te voorkomen, zoals Hash duplicatie bij transactieverificatie. Merkle bomen worden gebruikt bij het aanmaken van blokken, verificatie van transacties en verbeteringen zoals Taproot.
@@ -1330,7 +1330,7 @@ In deze sectie zullen we de toepassing van deze concepten in de echte Bitcoin on
 **Openbare sleutel cryptografie**: Discrete logaritmen en eindige velden zijn fundamenteel in cryptografische berekeningen in Bitcoin. Challenge-response protocollen worden gebruikt om kennis van een private sleutel te verifiëren zonder deze te onthullen.
 
 
-![Image](assets/en/19.webp)
+![Image](assets/en/019.webp)
 
 
 **Gevolgen voor de veiligheid**: Historische voorbeelden tonen aanzienlijke financiële verliezen door hergebruik van Nonce. Het belang van het genereren van unieke nonces is cruciaal. Het gebruik van vertrouwde bibliotheken zoals LibSecP256k1 zorgt voor robuuste en veilige cryptografische operaties.
@@ -1392,10 +1392,10 @@ Soft forks zijn veranderingen die de bestaande regels van het Bitcoin protocol a
 Hard forks zijn veranderingen die de bestaande regels versoepelen en nieuwe soorten transacties toestaan. Deze zijn niet achterwaarts compatibel, wat betekent dat niet-geüpgraded knooppunten de nieuwe regels niet herkennen. Een voorbeeld van een Hard Fork zou nodig kunnen zijn voor het Jaar 2106 probleem om ervoor te zorgen dat Bitcoin ook na deze datum blijft functioneren.
 
 
-![Image](assets/en/20.webp)
+![Image](assets/en/020.webp)
 
 
-![Image](assets/en/21.webp)
+![Image](assets/en/021.webp)
 
 
 ### Voorbeelden van bestuur
@@ -1425,7 +1425,7 @@ Lopende knooppunten kunnen Bitcoin regels valideren en deelnemen aan het netwerk
 Het debat over de blokgrootte was een belangrijke bestuurskwestie, die draaide om de vraag of de blokgrootte van Bitcoin vergroot moest worden. Deze controverse werd opgelost met de implementatie van SegWit, een Soft Fork die de effectieve blokgrootte verhoogde en de Lightning Network mogelijk maakte.
 
 
-![Image](assets/en/22.webp)
+![Image](assets/en/022.webp)
 
 
 ### Gedwongen veranderingen en meerderheidsregel
@@ -1501,7 +1501,7 @@ Het draaien van een Bitcoin node is om verschillende redenen essentieel:
 - Houdt een lijst bij van geldige kandidaten; **Mempool**: Knooppunten moeten een lijst bijhouden van mogelijke transactiekandidaten in de Mempool om in blokken te worden opgenomen.
 
 
-![nodes network](assets/en/23.webp)
+![nodes network](assets/en/023.webp)
 
 
 **OPMERKING**: De Mempool is een tijdelijke opslagruimte voor transacties die gevalideerd zijn, maar nog niet in een blok zijn opgenomen.
@@ -1513,7 +1513,7 @@ Het draaien van een Bitcoin node is om verschillende redenen essentieel:
 #### Bitcoin Kernmodules
 
 
-![Bitcoin core modules](assets/en/24.webp)
+![Bitcoin core modules](assets/en/024.webp)
 
 
 
@@ -1547,7 +1547,7 @@ bitcoin-cli gettxoutsetinfo
 ```
 
 
-![utxoset info command](assets/en/25.webp)
+![utxoset info command](assets/en/025.webp)
 
 
 We kunnen controleren of het aantal Bitcoins klopt.
@@ -1566,7 +1566,7 @@ We kunnen controleren of het aantal Bitcoins klopt.
 **BELANGRIJK**: Transacties zijn niet hetzelfde als UTXO's.
 
 
-![Txs and UTXOs](assets/en/26.webp)
+![Txs and UTXOs](assets/en/026.webp)
 
 
 #### Mempool
@@ -1660,7 +1660,7 @@ De block header is de hoeksteen van een Bitcoin blok en bevat de volgende velden
 **Noot**: Alleen de eerste 80 bytes (bestaande uit de koptekst van het blok) worden gehasht tijdens Mining.
 
 
-![Block header structure](assets/en/27.webp)
+![Block header structure](assets/en/027.webp)
 
 
 #### Vereenvoudigingen
@@ -1698,13 +1698,13 @@ Elke transactie in een Bitcoin blok bevat het volgende:
 - **Vergrendelingstijd**: Geeft de blokhoogte of Timestamp aan waarop deze transactie kan worden opgenomen in een blok.
 
 
-![Transaction structure](assets/en/28.webp)
+![Transaction structure](assets/en/028.webp)
 
-![TxIn structure](assets/en/29.webp)
+![TxIn structure](assets/en/029.webp)
 
-![Outpoint structure](assets/en/30.webp)
+![Outpoint structure](assets/en/030.webp)
 
-![TxOut structure](assets/en/31.webp)
+![TxOut structure](assets/en/031.webp)
 
 
 #### Parsingtechnieken
@@ -1895,11 +1895,11 @@ _ => todo!()
 ```
 
 
-![op_checksig](assets/en/32.webp)
+![op_checksig](assets/en/032.webp)
 
-![op_hash160](assets/en/33.webp)
+![op_hash160](assets/en/033.webp)
 
-![op_push](assets/en/34.webp)
+![op_push](assets/en/034.webp)
 
 
 #### Uitdagingen bij het parsen van scripts
@@ -1938,7 +1938,7 @@ Het gebruik van compacte blokken wordt momenteel gebruikt om de efficiëntie van
 Voor consensus-kritische toepassingen wordt het aangeraden om bestaande bibliotheken te gebruiken om bugs te vermijden en veiligheid te garanderen, zoals [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) of [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Het implementeren van je eigen parser kan leerzaam zijn, maar ook riskant in productieomgevingen.
 
 
-![libraries](assets/en/35.webp)
+![libraries](assets/en/035.webp)
 
 
 ### Efficiëntie en veiligheid in Bitcoin Mining
@@ -1961,7 +1961,7 @@ Mining lege blokken kunnen efficiënter zijn voor mijnwerkers:
 Soms worden lege blokken gedolven vanwege timingproblemen. Miners hebben misschien nog niet de volledige lijst met transacties ontvangen tegen de tijd dat ze Mining het volgende blok beginnen te minen, dus kiezen ze ervoor om in plaats daarvan een leeg blok te minen.
 
 
-![empty block](assets/en/36.webp)
+![empty block](assets/en/036.webp)
 
 
 #### Kwaadaardige Mining van lege blokken
@@ -2019,14 +2019,14 @@ Bitcoin nodes vormen de ruggengraat van het Bitcoin netwerk. Ze verbinden met el
 - **Archiefknooppunten**: Een subset van volledige knooppunten, archiveringsknooppunten bewaren alle Blockchain gegevens, waardoor ze waardevol zijn voor historische analyse en debugging.
 
 
-![archival node](assets/en/37.webp)
+![archival node](assets/en/037.webp)
 
 
 
 - **Gesnoeide knooppunten**: Pruned nodes besparen schijfruimte door slechts een deel van de Blockchain te bewaren, waardoor oudere gegevens die niet langer nodig zijn voor validatie worden verwijderd.
 
 
-![pruned node](assets/en/38.webp)
+![pruned node](assets/en/038.webp)
 
 
 #### Bitcoin Kern
@@ -2041,7 +2041,7 @@ Bitcoin Core is de meest gebruikte Full node implementatie. Het vervult dubbele 
 - **Taal**: Geschreven in C++ met tests in Python, wat zorgt voor robuuste prestaties en betrouwbaarheid.
 
 
-![cli-gui](assets/en/39.webp)
+![cli-gui](assets/en/039.webp)
 
 
 ##### Bitcoin kern verkennen
@@ -2096,7 +2096,7 @@ Naast Bitcoin Core zijn er verschillende alternatieve knooppuntimplementaties:
 Het implementeren van deze alternatieven brengt zijn eigen risico's met zich mee, vooral met betrekking tot de consensusregels. Afwijken van gevestigde validatieregels kan leiden tot forks of inconsistenties. Het Bitcoin Kernel project probeert deze risico's te beperken door de consensuscode te centraliseren, waardoor uniformiteit tussen implementaties wordt gewaarborgd.
 
 
-![implementation](assets/en/40.webp)
+![implementation](assets/en/040.webp)
 
 
 ### Bitcoin portefeuilles en beveiliging
@@ -2171,21 +2171,21 @@ Ongeacht het type, vervult elke Bitcoin Wallet drie fundamentele functies:
 - Bitcoin wallets fungeren als sleutelhanger voor het bewaren en genereren van cryptografische sleutels.
 
 
-![keychain](assets/en/41.webp)
+![keychain](assets/en/041.webp)
 
 
 
 - Ze controleren de Blockchain op binnenkomende transacties.
 
 
-![monitor](assets/en/42.webp)
+![monitor](assets/en/042.webp)
 
 
 
 - Creëer transacties door UTXO's (unspent transaction outputs) te selecteren, inputs en outputs in te stellen en te optimaliseren voor privacy en vergoedingen.
 
 
-![tx_builder](assets/en/43.webp)
+![tx_builder](assets/en/043.webp)
 
 
 #### Herbruikbaarheid van Wallet-logica
@@ -2411,7 +2411,7 @@ Hoewel de decentralisatie van Bitcoin een van de sterke punten is, brengt het oo
 ### Betaalkanalen als oplossing
 
 
-![Gold coin](assets/en/44.webp)_Gold Standard Metaphor_
+![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 
 Om Address de inefficiënties en privacyproblemen van Bitcoin te verhelpen, zijn betaalkanalen voorgesteld als een levensvatbare oplossing. Microbetaalkanalen maken transacties off-chain mogelijk, waardoor er minder behoefte is aan constante gegevensuitwisseling over het hele netwerk. Dit verlicht de last op de Blockchain aanzienlijk en maakt snellere en goedkopere transacties mogelijk.
@@ -2461,7 +2461,7 @@ De workflow van HTLC omvat een meerstappenproces dat zorgt voor een veilige rout
 In een HTLC vergrendelt Alice de betaling met een Hash van een geheime "R" Bob, Carol en Diana creëren elk een gelijkaardig contract met hun volgende tussenpersonen, waarbij ze verzekeren dat ze hun fondsen enkel kunnen opeisen als ze de correcte geheime "R" voorleggen Dit mechanisme zorgt voor atomiciteit; de betaling wordt volledig voltooid of mislukt, waardoor gedeeltelijke fondsverliezen worden voorkomen.
 
 
-![Hash lock](assets/en/45.webp)_Hash lock function_
+![Hash lock](assets/en/045.webp)_Hash lock function_
 
 
 ### Praktische overwegingen en netwerkdynamiek
@@ -2482,7 +2482,7 @@ Kanalen updaten hun toestand op basis van wederzijdse overeenkomsten en handteke
 Het HTLC mechanisme zorgt voor atomiciteit door het gebruik van tijdsloten en handtekeningen. Deze beveiliging zorgt ervoor dat het betalingsprotocol ofwel een volledig succes of een mislukking garandeert, waardoor het beschermt tegen gedeeltelijke fondsverliezen.
 
 
-![Time lock and signatures](assets/en/46.webp)_Combine restrictions_
+![Time lock and signatures](assets/en/046.webp)_Combine restrictions_
 
 
 #### Stimulansen en verantwoordelijkheden
@@ -2509,7 +2509,7 @@ Knooppunten binnen het netwerk kunnen ofwel deel uitmaken van een publiek aangek
 Alice moet kennis hebben van de netwerktopologie om de betalingsroute te bepalen. Bronroutering wordt gebruikt om de privacy te behouden ondanks de complexiteit van het routeren van betalingen via meerdere tussenpersonen.
 
 
-![Source Routing](assets/en/47.webp)_Source Routing Path_
+![Source Routing](assets/en/047.webp)_Source Routing Path_
 
 
 #### Conclusie
@@ -2536,7 +2536,7 @@ Maak kennis met de Lightning Network, die functioneert als een tweede Layer bove
 Om het concept beter te begrijpen, kun je het vergelijken met een tabblad in een bar. Als je een rekening opent bij een bar, kun je continu drankjes bestellen zonder na elk drankje te betalen. Aan het einde van de avond reken je het totaalbedrag af. Op dezelfde manier laat een Lightning-kanaal meerdere transacties off-chain toe, die pas On-Chain worden verrekend wanneer het kanaal wordt gesloten. Een andere analogie is een luchthaven, waar het routeren van een betaling via meerdere knooppunten vergelijkbaar is met het nemen van aansluitende vluchten om je bestemming te bereiken. Elk knooppunt (of "vlucht") helpt bij het leiden van je betaling naar waar het naartoe moet, zodat een efficiënte routering gegarandeerd is.
 
 
-![airport analogy](assets/en/48.webp)_The airport analogy of LN_
+![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
 In essentie vult de Lightning Network het Bitcoin netwerk aan door de beperkingen ervan aan te pakken, waardoor het van een eenvoudige Layer verrekening verandert in een veelzijdig systeem dat in staat is om alledaagse transacties efficiënt af te handelen.
@@ -2548,7 +2548,7 @@ In essentie vult de Lightning Network het Bitcoin netwerk aan door de beperkinge
 Het Lightning Network protocol is nauwkeurig gedefinieerd aan de hand van 10 BOLT's (Basis of Lightning Technology). Deze BOLT's zijn overeengekomen tijdens een conferentie in Milaan en dienen als basis voor verschillende implementaties van de Lightning Network.
 
 
-![bolt](assets/en/49.webp)_BOLT Diagram _
+![bolt](assets/en/049.webp)_BOLT Diagram _
 
 
 #### Bolt 1 (basisprotocol)
@@ -2610,7 +2610,7 @@ Commitment transacties bevatten mechanismen zoals nLockTime, OPCheckSequenceVeri
 ### Routing & ui routering
 
 
-![onion routing](assets/en/50.webp)_Onion Routing diagram _
+![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 
 Betalingen worden gerouteerd met behulp van Onion routing, waarbij versleutelde pakketten worden gemaakt die via meerdere knooppunten worden verzonden. HTLC's beveiligen de transactie en zorgen zo voor privacy en veiligheid.
@@ -2622,7 +2622,7 @@ Betalingen worden gerouteerd met behulp van Onion routing, waarbij versleutelde 
 Lightning Network facturen (Bolt 11) zijn gecodeerd in Bech32 en bevatten details zoals betaling Hash, omschrijving en vervaldatum. Elke Invoice moet één keer gebruikt worden om problemen met hergebruik te voorkomen.
 
 
-![Invoice structure](assets/en/51.webp)_BOLT11 Invoice_
+![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
 
 
 #### Encryptie en verificatie
@@ -2716,7 +2716,7 @@ De Lightning Network (LN) vertegenwoordigt een belangrijke doorbraak in Bitcoin 
 Lightning wallets zijn ontworpen om het proces gebruiksvriendelijk te maken, zodat zelfs mensen met minimale technische kennis kunnen profiteren van geavanceerde Bitcoin functionaliteiten. Door snelle en kosteneffectieve microtransacties mogelijk te maken, dragen deze wallets aanzienlijk bij aan de bredere adoptie van Bitcoin voor alledaagse transacties.
 
 
-![LN Clients](assets/en/52.webp)_Lightning Wallets_
+![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 
 ### Bitcoin portemonnees vs. Lightning portemonnees
@@ -2764,7 +2764,7 @@ Effectief liquiditeitsbeheer is een hoeksteen van succesvolle Lightning Network 
 #### Voorbeeld van liquiditeitsbeheer:
 
 
-![Example of Liquidity](assets/en/53.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 
 Beschouw een scenario met Alice, Bob, Charlie en Dan - typische LN-gebruikers die via verschillende kanalen met elkaar verbonden zijn:
@@ -2775,7 +2775,7 @@ Beschouw een scenario met Alice, Bob, Charlie en Dan - typische LN-gebruikers di
 - Als Bob een toereikend saldo heeft en een kanaal met Charlie, en Charlie heeft een kanaal met Dan, dan kan de betaling van Alice via Bob en Charlie naar Dan worden geleid.
 
 
-![Example of Liquidity](assets/en/54.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
 Als een van deze kanalen echter uitgeput raakt of connectiviteitsproblemen heeft, kan de transactie mislukken. Dit illustreert hoe belangrijk het is om een evenwichtige liquiditeit over het netwerk te handhaven.
@@ -2844,7 +2844,7 @@ Portemonnees kunnen worden ingedeeld op basis van wie de privésleutels bezit en
 - **Niet-Custodial-portefeuilles**: Gebruikers houden privésleutels, mogelijk is handmatig liquiditeitsbeheer nodig. Voorbeelden zijn Breeze en OBW.
 
 
-![Liquidity Lightning](assets/en/55.webp)_2x2 Matrix of LN Clients_
+![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
 
 ### Kritiek en verbeterpunten
@@ -3311,7 +3311,7 @@ Mining complexiteit in de context van Bitcoin heeft voornamelijk betrekking op d
 #### Belangrijke winstgevendheidsfactoren
 
 
-![energy cost](assets/en/56.webp)
+![energy cost](assets/en/056.webp)
 
 
 1. **Elektriciteitskosten**: Een van de belangrijkste factoren die de winstgevendheid van Mining beïnvloeden, zijn de elektriciteitskosten. In regio's zoals Frankrijk kan elektriciteit relatief duur zijn in vergelijking met landen zoals El Salvador, waar lagere kosten een concurrentievoordeel bieden voor mijnwerkers.
@@ -3345,7 +3345,7 @@ Miners hebben te maken met drie primaire knelpunten: de beschikbaarheid van hard
 In 2021 verbood de Chinese overheid Mining op haar grondgebied, waardoor Mining-bedrijven in China geen toegang meer hadden tot energie. Dit resulteerde in een daling van Hashrate met **50%** in twee weken.
 
 
-![hashrate drop](assets/en/57.webp)
+![hashrate drop](assets/en/057.webp)
 
 
 ---
@@ -3359,7 +3359,7 @@ In 2021 verbood de Chinese overheid Mining op haar grondgebied, waardoor Mining-
 De reis van Mining hardware is monumentaal geweest, van eenvoudige CPU Mining tot de zeer gespecialiseerde ASIC miners die we vandaag de dag gebruiken.
 
 
-![evolution hardware](assets/en/58.webp)
+![evolution hardware](assets/en/058.webp)
 
 
 1. **CPU Mining**: In de begindagen werd Mining uitgevoerd met gewone computerprocessors (CPU's). Deze methode werd snel voorbijgestreefd toen het netwerk groeide.
@@ -3379,7 +3379,7 @@ De reis van Mining hardware is monumentaal geweest, van eenvoudige CPU Mining to
 - **Antminer S9**: Hoewel hij ouder en minder efficiënt is, blijft de Antminer S9 populair voor kleinere setups en hobbyisten vanwege zijn betaalbaarheid en degelijke prestaties.
 
 
-![s19j pro vs antminer s9](assets/en/59.webp)
+![s19j pro vs antminer s9](assets/en/059.webp)
 
 
 #### Mining efficiëntie en leren
@@ -3425,14 +3425,14 @@ Regelgeving speelt een belangrijke rol bij het vormgeven van het Mining landscha
 - **Betalen per aandeel**: Pay-Per-Share beloont miners voor elk geldig aandeel dat ze indienen, ongeacht of de pool een blok vindt. **Shares** zijn bewijseenheden dat miners het vereiste werk hebben gedaan en de pool verifieert deze shares.
 
 
-![pps](assets/en/60.webp)
+![pps](assets/en/060.webp)
 
 
 
 - **Proportioneel**: Het is afhankelijk van de Mining pool van een blok om de beloning gelijk te verdelen naar de bijdrage van de Miner aan de totale Hashrate van de pool.
 
 
-![prop](assets/en/61.webp)
+![prop](assets/en/061.webp)
 
 
 #### Toekomst van Mining

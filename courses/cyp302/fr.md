@@ -116,7 +116,7 @@ Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. [2] 
 
 *Figure 1 : Chiffre de Beale n°2*
 
-![Figure 1 : Chiffre de Beale n°2.](assets/Figure1-1.webp "Figure 1 : Chiffre de Beale n°2")
+![Figure 1 : Chiffre de Beale n°2.](assets/en/001.webp "Figure 1 : Chiffre de Beale n°2")
 
 Par exemple, le premier nombre du deuxième texte chiffré est 115. Le 115e mot de la Déclaration d'Indépendance est "instituted", donc la première lettre du texte en clair est "i". Le texte chiffré n'indique pas directement les espaces entre les mots et les majuscules. Cependant, après avoir déchiffré les premiers mots, on peut logiquement en déduire que le premier mot du texte en clair était simplement "I". (Le texte en clair commence par la phrase "I have deposited in the county of Bedford.")
 
@@ -274,7 +274,7 @@ Les valeurs possibles et les probabilités associées pour une variable aléatoi
 
 *Figure 1 : Variable aléatoire X*
 
-![Figure 1 : Variable aléatoire X.](assets/Figure2-1.webp)
+![Figure 1 : Variable aléatoire X.](assets/en/002.webp)
 
 Les barres larges dans la *Figure 1* ne suggèrent évidemment pas que la variable aléatoire $X$ est en réalité continue. Les barres sont rendues larges afin d'être plus esthétiques visuellement (une simple ligne verticale serait moins intuitive à visualiser).
 
@@ -312,7 +312,7 @@ Une représentation graphique de $Y$ est fournie dans la *Figure 2*.
 
 *Figure 2 : Variable aléatoire Y*
 
-![Figure 2 : Variable aléatoire Y.](assets/Figure2-2.webp "Figure 2 : Variable aléatoire Y")
+![Figure 2 : Variable aléatoire Y.](assets/en/003.webp "Figure 2 : Variable aléatoire Y")
 
 Pour un dernier exemple, considérons la variable aléatoire $Z$. Elle a l'ensemble de résultats $\{1,3,7,11,12\}$ et la distribution de probabilité suivante :
 
@@ -340,7 +340,7 @@ Vous pouvez voir sa représentation dans la *Figure 3*. La variable aléatoire $
 
 *Figure 3 : Variable aléatoire Z*
 
-![Figure 3 : Variable aléatoire Z.](assets/Figure2-3.webp "Figure 3 : Variable aléatoire Z")
+![Figure 3 : Variable aléatoire Z.](assets/en/004.webp "Figure 3 : Variable aléatoire Z")
 
 ### Probabilité conditionnelle
 
@@ -957,12 +957,12 @@ Bob chiffre le message $M$ à un moment donné $T_0$ avec la clé $K$ pour produ
 
 *Figure 1 : Secret à travers l'espace*
 
-![Figure 1 : Secret à travers l'espace](assets/Figure4-1.webp "Figure 1 : Secret à travers l'espace")
+![Figure 1 : Secret à travers l'espace](assets/en/005.webp "Figure 1 : Secret à travers l'espace")
 
 
 *Figure 2 : Secret à travers le temps*
 
-![Figure 2 : Secret à travers le temps](assets/Figure4-2.webp "Figure 2 : Secret à travers le temps")
+![Figure 2 : Secret à travers le temps](assets/en/006.webp "Figure 2 : Secret à travers le temps")
 
 
 ## Un exemple : Le chiffre de décalage
@@ -1061,7 +1061,7 @@ Un chiffrement par flot basé sur XOR est représenté dans la *Figure 3*. Vous 
 
 *Figure 3 : Un chiffrement par flot basé sur XOR*
 
-![Figure 3 : Un chiffrement par flot basé sur XOR](assets/Figure4-3.webp "Figure 3 : Un chiffrement par flot basé sur XOR")
+![Figure 3 : Un chiffrement par flot basé sur XOR](assets/en/007.webp "Figure 3 : Un chiffrement par flot basé sur XOR")
 
 Rappelons qu'un schéma de chiffrement est généralement un modèle de chiffrement utilisant un même algorithme de base, plutôt qu’une spécification exacte. Par extension, un chiffrement par flot est typiquement un modèle de chiffrement dans lequel on peut utiliser des clés de différentes longueurs. Bien que la longueur de la clé puisse modifier certains détails mineurs du schéma, elle n’affecte pas sa forme essentielle.
 
@@ -1141,7 +1141,7 @@ Un schéma illustrant le fonctionnement d'un chiffre par bloc est présenté à 
 
 *Figure 4 : Un chiffrement par bloc*
 
-![Figure 4 : Un chiffrement par bloc](assets/Figure4-4.webp "Figure 4 : Un chiffrement par bloc")
+![Figure 4 : Un chiffrement par bloc](assets/en/008.webp "Figure 4 : Un chiffrement par bloc")
 
 Un chiffre par bloc seul n'est pas un schéma de chiffrement. Mais il peut être utilisé avec divers **modes de fonctionnement** pour produire différents schémas de chiffrement. Un mode de fonctionnement ajoute simplement des opérations supplémentaires en dehors du chiffre par bloc.
 
@@ -1149,7 +1149,7 @@ Pour illustrer comment cela fonctionne, supposons un chiffre par bloc (**BC**) q
 
 *Figure 5 : Un chiffrement par bloc avec le mode ECB*
 
-![Figure 5 : Un chiffrement par bloc avec le mode ECB](assets/Figure4-5.webp "Figure 5 : Un chiffrement par bloc avec le mode ECB")
+![Figure 5 : Un chiffrement par bloc avec le mode ECB](assets/en/009.webp "Figure 5 : Un chiffrement par bloc avec le mode ECB")
 
 Le processus de chiffrement en **mode Electronic Code Book (ECB)** avec un chiffre par bloc est le suivant. Voyez si vous pouvez diviser votre message en clair en blocs de **128 bits**. Si ce n'est pas possible, ajoutez un **padding** (remplissage) au message, de sorte que le résultat puisse être divisé en blocs de **128 bits**. Cela constitue vos données utilisées pour le processus de chiffrement.
 
@@ -1165,7 +1165,7 @@ Le **mode de chaînage par blocs de chiffrement** (**mode CBC**) est probablemen
 
 *Figure 6 : Un chiffrement par bloc avec le mode CBC*
 
-![Figure 6 : Un chiffrement par bloc avec le mode CBC](assets/Figure4-6.webp "Figure 6 : Un chiffrement par bloc avec le mode CBC")
+![Figure 6 : Un chiffrement par bloc avec le mode CBC](assets/en/010.webp "Figure 6 : Un chiffrement par bloc avec le mode CBC")
 
 Supposons que la taille des blocs soit à nouveau de **128 bits**. Pour commencer, vous devez vous assurer que votre message en clair d’origine reçoit le **padding** nécessaire.
 
@@ -1181,7 +1181,7 @@ Passons maintenant au **mode de rétroaction de sortie (Output Feedback Mode - O
 
 *Figure 7 : Un chiffrement par bloc avec le mode OFB*
 
-![Figure 7 : Un chiffrement par bloc avec le mode OFB](assets/Figure4-7.webp "Figure 7 : Un chiffrement par bloc avec le mode OFB")
+![Figure 7 : Un chiffrement par bloc avec le mode OFB](assets/en/011.webp "Figure 7 : Un chiffrement par bloc avec le mode OFB")
 
 Avec le **mode OFB**, vous sélectionnez également un vecteur d’initialisation. Mais ici, pour le premier bloc, le vecteur d’initialisation est directement inséré dans le chiffre par bloc avec votre clé. Les **128 bits** résultants sont alors traités comme un flux de clé. Ce flux de clé est ensuite combiné par une opération **XOR** avec le texte en clair pour produire le texte chiffré correspondant au bloc. Pour les blocs suivants, vous utilisez le flux de clé du bloc précédent comme entrée du chiffre par bloc, puis vous répétez les étapes.
 
@@ -1226,7 +1226,7 @@ Grâce à cette discussion, vous devriez maintenant comprendre la **Figure 8**. 
 
 *Figure 8 : Aperçu des schémas de chiffrement symétriques*
 
-![Figure 8 : Aperçu des schémas de chiffrement symétriques](assets/Figure4-8.webp "Figure 8 : Aperçu des schémas de chiffrement symétriques")
+![Figure 8 : Aperçu des schémas de chiffrement symétriques](assets/en/012.webp "Figure 8 : Aperçu des schémas de chiffrement symétriques")
 
 
 ## Codes d’authentification de message (MAC)
@@ -1249,7 +1249,7 @@ Le processus est illustré dans la *Figure 9*. Pour utiliser un **MAC** (**Code 
 
 *Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique*
 
-![Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique](assets/Figure4-9.webp "Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique")
+![Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique](assets/en/013.webp "Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique")
 
 En raison de l’**existentielle infalsifiabilité**, un attaquant ne peut ni modifier le message $M$, ni créer son propre message avec un tag valide. Cela reste vrai même si l’attaquant observe les tags de nombreux messages échangés entre Bob et Alice utilisant la même clé privée. Au mieux, un attaquant pourrait bloquer Alice pour l’empêcher de recevoir le message $M$ (un problème que la cryptographie ne peut pas résoudre).
 
@@ -1281,7 +1281,7 @@ Alice commence par vérifier si le tag est valide, en tenant compte du texte chi
 
 *Figure 10 : Un schéma de chiffrement authentifié*
 
-![Figure 10 : Un schéma de chiffrement authentifié](assets/Figure4-10.webp "Figure 10 : Un schéma de chiffrement authentifié")
+![Figure 10 : Un schéma de chiffrement authentifié](assets/en/014.webp "Figure 10 : Un schéma de chiffrement authentifié")
 
 **Comment sont créés les MAC ?**
 
@@ -1295,7 +1295,7 @@ Il existe un ensemble de fonctions de hachage qui peuvent être utilisées pour 
 
 *Figure 11 : HMAC*
 
-![Figure 11 : HMAC](assets/Figure4-11.webp "Figure 11 : HMAC")
+![Figure 11 : HMAC](assets/en/015.webp "Figure 11 : HMAC")
 
 **Notes :**
 
@@ -1330,7 +1330,7 @@ La session de communication commence par Bob qui envoie un texte chiffré $C_{0,
 
 *Figure 12 : Une session de communication sécurisée*
 
-![Figure 12 : Une session de communication sécurisée](assets/Figure4-12.webp "Figure 12 : Une session de communication sécurisée")
+![Figure 12 : Une session de communication sécurisée](assets/en/016.webp "Figure 12 : Une session de communication sécurisée")
 
 # RC4 et AES
 <partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
@@ -1458,7 +1458,7 @@ Appelons la clé $K_0$. La construction avec les paramètres ci-dessus ressemble
 
 *Figure 1 : AES-ECB avec une clé de 128 bits*
 
-![Figure 1 : AES-ECB avec une clé de 128 bits](assets/Figure5-1.webp "Figure 1 : AES-ECB avec une clé de 128 bits")
+![Figure 1 : AES-ECB avec une clé de 128 bits](assets/en/017.webp "Figure 1 : AES-ECB avec une clé de 128 bits")
 
 Chaque bloc de texte de 128 bits passe par dix tours dans le schéma de chiffrement de Rijndael. Cela nécessite une clé de tour distincte pour chaque tour ($K_1$ à $K_{10}$). Ces clés sont produites pour chaque tour à partir de la clé originale de 128 bits $K_0$ en utilisant un **algorithme d'expansion de clé**. Ainsi, pour chaque bloc de texte à chiffrer, nous utiliserons la clé originale $K_0$ ainsi que dix clés de tour distinctes. Notez que ces 11 clés sont utilisées pour chaque bloc de texte en clair de 128 bits nécessitant un chiffrement.
 
@@ -1725,7 +1725,7 @@ Alice commence par créer une paire de clés, composée d'une clé publique ($K_
 
 *Figure 1 : Cryptographie asymétrique*
 
-![Figure 1 : Cryptographie asymétrique](assets/Figure6-1.webp "Figure 1 : Cryptographie asymétrique")
+![Figure 1 : Cryptographie asymétrique](assets/en/018.webp "Figure 1 : Cryptographie asymétrique")
 
 Tout adversaire qui écoute la communication entre Bob et Alice peut observer $C$. Il connaît également $K_P$ et l'algorithme de chiffrement $E(\cdot)$. Cependant, cette information ne permet pas à l'attaquant de déchiffrer $C$ de manière faisable. Le déchiffrement nécessite spécifiquement $K_S$, que l'attaquant ne possède pas.
 
@@ -1749,7 +1749,7 @@ Une signature numérique est, comme son nom l'indique clairement, l'équivalent 
 
 *Figure 2 : Authentification asymétrique*
 
-![Figure 2 : Authentification asymétrique](assets/Figure6-2.webp "Figure 2 : Authentification asymétrique")
+![Figure 2 : Authentification asymétrique](assets/en/019.webp "Figure 2 : Authentification asymétrique")
 
 Comme pour le chiffrement asymétrique, nous voyons un contraste intéressant entre les signatures numériques et les codes d'authentification de message. Pour ces derniers, l'algorithme de vérification ne peut être utilisé que par l'une des parties participant à la communication sécurisée, car il nécessite une clé privée. Dans le cadre asymétrique, cependant, n'importe qui peut vérifier une signature numérique $S$ réalisée par Bob.
 

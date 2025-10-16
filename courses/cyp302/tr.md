@@ -1,29 +1,18 @@
 ---
-name: Biçimsel Kriptografiye Giriş
+name: Modern kriptografinin temelleri
 goal: Kriptografi bilimine ve uygulamasına derinlemesine bir giriş.
-objectives: 
-
-  - Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
-  - Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
-  - Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
-  - Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
-
-
+objectives:
+- Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
+- Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
+- Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
+- Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
 ---
-# Kriptografiye derinlemesine dalış
+# Modern Kriptografiye Derinlemesine Bakış
 
+Bu kursta, modern kriptografinin temellerini ağır bir matematik geçmişi gerektirmeden açık ve anlaşılır bir şekilde ele alacağız. Bölümler boyunca, simetrik ve açık anahtarlı şifreleme, hash fonksiyonları, dijital imzalar, anahtar değişimi ve gerçek dünya protokolleri gibi temel fikirleri öğreneceksiniz. Bu süreçte, güvenli mesajlaşma, TLS, parola depolama ve kimlik doğrulama gibi pratik uygulamalarla noktaları birleştireceğiz.
 
-Kriptografi eğitiminde iyi bir orta yol sunan çok sayıda materyal bulmak zordur.
-
-
-Bir yanda, sadece matematik, mantık veya diğer bazı resmi disiplinlerde güçlü bir geçmişe sahip olanların gerçekten erişebileceği uzun, resmi incelemeler var. Öte yandan, en azından biraz meraklı olan herkes için gerçekten çok fazla ayrıntıyı gizleyen çok üst düzey tanıtımlar var.
-
-
-Kriptografiye giriş niteliğindeki bu kitap orta yolu yakalamayı amaçlamaktadır. Kriptografiye yeni başlayanlar için nispeten zorlayıcı ve ayrıntılı olsa da, tipik bir temel incelemenin tavşan deliği değildir.
-
-
+Materyal, her seviyeden öğrenci için tasarlanmıştır ve sezgiyi merakı tatmin edecek kadar teknik derinlikle dengeler. Odaklanmış, ilgi çekici bir yolculuk bekleyin. Sonunda, modern kriptografinin nasıl ve neden çalıştığını ve onu sorumlu bir şekilde nasıl kullanacağınızı anlayacaksınız.
 +++
-
 # Giriş
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>

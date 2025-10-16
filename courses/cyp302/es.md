@@ -1,22 +1,17 @@
 ---
-name: Introducción a la criptografía formal
+name: Bases de la criptografía moderna
 goal: Una introducción en profundidad a la ciencia y la práctica de la criptografía.
-objectives: 
-
-  - Explore los cifrados Beale y los métodos criptográficos modernos para comprender los conceptos básicos e históricos de la criptografía.
-  - Profundice en la teoría de números, grupos y campos para dominar los conceptos matemáticos clave que subyacen a la criptografía.
-  - Estudia el cifrado de flujo RC4 y AES con una clave de 128 bits para conocer los algoritmos criptográficos simétricos.
-  - Investigar el criptosistema RSA, la distribución de claves y las funciones hash para explorar la criptografía asimétrica.
-
+objectives:
+- Explore los cifrados Beale y los métodos criptográficos modernos para comprender los conceptos básicos e históricos de la criptografía.
+- Profundice en la teoría de números, grupos y campos para dominar los conceptos matemáticos clave que subyacen a la criptografía.
+- Estudia el cifrado de flujo RC4 y AES con una clave de 128 bits para conocer los algoritmos criptográficos simétricos.
+- Investigar el criptosistema RSA, la distribución de claves y las funciones hash para explorar la criptografía asimétrica.
 ---
-# Profundizar en la criptografía
+# Inmersión profunda en la criptografía moderna
 
-Es difícil encontrar muchos materiales que ofrezcan un buen término medio en la enseñanza de la criptografía.
+En este curso, cubriremos los fundamentos de la criptografía moderna de una manera clara y accesible, sin necesidad de conocimientos matemáticos avanzados. A lo largo de los capítulos, aprenderás conceptos fundamentales como el cifrado simétrico y de clave pública, funciones hash, firmas digitales, intercambio de claves y protocolos del mundo real. En el camino, conectaremos los puntos con aplicaciones prácticas como mensajería segura, TLS, almacenamiento de contraseñas y autenticación.
 
-Por un lado, hay tratados largos y formales, sólo accesibles para quienes tengan una sólida formación en matemáticas, lógica u otra disciplina formal. Por otro lado, hay introducciones de muy alto nivel que ocultan demasiados detalles para cualquiera que tenga al menos un poco de curiosidad.
-
-Esta introducción a la criptografía pretende situarse en un término medio. Aunque debería ser relativamente desafiante y detallada para cualquier persona nueva en criptografía, no es la madriguera de conejo de un típico tratado fundacional.
-
+El material está diseñado para estudiantes de todos los niveles y equilibra la intuición con la profundidad técnica justa para satisfacer la curiosidad. Espera un viaje enfocado y atractivo. Al final, comprenderás cómo y por qué funciona la criptografía moderna y cómo usarla de manera responsable.
 +++
 # Introducción
 

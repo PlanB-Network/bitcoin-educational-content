@@ -1,13 +1,11 @@
 ---
-name: RGB-protokolla teoriasta käytäntöön
+name: RGB-ohjelmointi
 goal: Hankkia tarvittavat taidot RGB:n ymmärtämiseen ja käyttöön
-objectives: 
-
-  - RGB-protokollan peruskäsitteiden ymmärtäminen
-  - Hallitse asiakaspuolen validoinnin ja Bitcoin-sitoumusten periaatteet
-  - Opi luomaan, hallinnoimaan ja siirtämään RGB-sopimuksia
-  - RGB-yhteensopivan Lightning-solmun käyttäminen
-
+objectives:
+- RGB-protokollan peruskäsitteiden ymmärtäminen
+- Hallitse asiakaspuolen validoinnin ja Bitcoin-sitoumusten periaatteet
+- Opi luomaan, hallinnoimaan ja siirtämään RGB-sopimuksia
+- RGB-yhteensopivan Lightning-solmun käyttäminen
 ---
 # RGB-protokollan löytäminen
 

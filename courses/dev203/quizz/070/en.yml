@@ -1,0 +1,8 @@
+question: How does Rust's unified tooling ecosystem through Cargo differ from the approach used in older languages like C++ for Bitcoin development?
+answer: Cargo provides standardized dependency management, building, testing, and documentation in one tool, eliminating fragmentation
+wrong_answers:
+  - Cargo focuses exclusively on memory safety validation while C++ tools prioritize compilation speed optimization
+  - Cargo requires manual configuration of multiple separate tools while C++ provides integrated development environments
+  - Cargo only supports Bitcoin-specific libraries while C++ tools work with general-purpose financial applications
+explanation: |
+  Rust's Cargo represents a unified approach to project management that handles all essential development tasks through a single, standardized tool. This eliminates the fragmentation problem seen in C++ where multiple competing tools for dependency management, building, and testing create inconsistency across projects. For Bitcoin development, this standardization is crucial because it ensures consistent build processes, reliable dependency resolution, and uniform code quality checks across different projects and teams, reducing the risk of configuration-related errors that could compromise security.

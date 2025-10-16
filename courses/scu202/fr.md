@@ -2556,14 +2556,14 @@ Ce paquet installe `exiftool`, que vous pouvez ensuite utiliser directement en l
 Pour voir toutes les métadonnées contenues dans un fichier, utilisez la commande suivante :
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
-Remplacez `name.jpg` par le nom réel de votre fichier. Assurez-vous également d’être positionné dans le dossier contenant cette image. Par exemple, si j’ai une photo de la statue de Satoshi Nakamoto dans le dossier `/Downloads`, je peux afficher ses métadonnées en exécutant la commande suivante :
+Remplacez `name.webp` par le nom réel de votre fichier. Assurez-vous également d’être positionné dans le dossier contenant cette image. Par exemple, si j’ai une photo de la statue de Satoshi Nakamoto dans le dossier `/Downloads`, je peux afficher ses métadonnées en exécutant la commande suivante :
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 ![Image](assets/fr/260.webp)
@@ -2582,7 +2582,7 @@ Cela vous permet d’avoir une vue complète sur ce que vous vous apprêtez à p
 Pour effacer toutes les métadonnées inutiles d’un fichier, utilisez la commande :
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 ![Image](assets/fr/261.webp)
@@ -2594,7 +2594,7 @@ Cette commande crée automatiquement une copie du fichier original avec les mét
 Si vous ne voulez pas conserver l’original, vous pouvez le supprimer avec la commande :
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 Si on regarde de nouveau les métadonnées de notre fichier, on peut voir que toutes les métadonnées inutiles ou sensibles ont été supprimées.
@@ -2606,10 +2606,10 @@ Si on regarde de nouveau les métadonnées de notre fichier, on peut voir que to
 Si vous avez plusieurs fichiers à traiter dans un même dossier, vous pouvez utiliser une commande générique comme :
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
-Cela supprime les métadonnées de tous les fichiers JPEG présents dans le répertoire courant. Vous pouvez adapter l’extension selon vos besoins (`*.png`, `*.pdf`...).
+Cela supprime les métadonnées de tous les fichiers JPEG présents dans le répertoire courant. Vous pouvez adapter l’extension selon vos besoins (`*.webp`, `*.pdf`...).
 
 ![Image](assets/fr/264.webp)
 

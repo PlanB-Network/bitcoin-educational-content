@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Замените `name.jpg` на настоящее имя вашего файла. Также убедитесь, что вы находитесь в директории, содержащей это изображение. Например, если у меня есть фотография статуи Satoshi Накамото в каталоге `/Downloads`, я могу отобразить ее метаданные, выполнив следующую команду:
+Замените `name.webp` на настоящее имя вашего файла. Также убедитесь, что вы находитесь в директории, содержащей это изображение. Например, если у меня есть фотография статуи Satoshi Накамото в каталоге `/Downloads`, я могу отобразить ее метаданные, выполнив следующую команду:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Удаляет метаданные всех файлов JPEG в текущем каталоге. Вы можете изменить расширение в соответствии с вашими потребностями (`*.png`, `*.pdf`...).
+Удаляет метаданные всех файлов JPEG в текущем каталоге. Вы можете изменить расширение в соответствии с вашими потребностями (`*.webp`, `*.pdf`...).
 
 
 

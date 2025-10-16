@@ -14,10 +14,10 @@ description: How can I use the BIP-85 to generate multiple seedphrases from a ma
 BIP-85 is an advanced function that lets you create several **seed secondary phrases** from one **seed main phrase**.
 
 
-Each seed secondary sentence can be used to create a completely independent Bitcoin portfolio. These portfolios can be used for a variety of purposes: a Hot Wallet on mobile, a portfolio for a relative, a separate savings portfolio, etc.
+Each seed secondary sentence can be used to create a completely independent Bitcoin wallet. These wallets can be used for a variety of purposes: a Hot Wallet on mobile, a wallet for a relative, a separate savings wallet, etc.
 
 
-All seed sub-phrases are **mathematically derived**, but it is **impossible to trace back to the seed main phrase** from a sub-phrase. This ensures complete separation between each portfolio.
+All seed sub-phrases are **mathematically derived**, but it is **impossible to trace back to the seed main phrase** from a sub-phrase. This ensures complete separation between each wallet.
 
 
 As long as you have access to your seed main phrase (and the associated passphrase if you're using one), you can regenerate any seed secondary phrase **identically**, without having to save it separately.
@@ -30,10 +30,10 @@ BIP-85 is useful if you want to :
 
 
 
-- Create several independent Bitcoin portfolios without multiple backups
+- Create several independent Bitcoin wallets without multiple backups
 - Manage your funds according to different uses (savings, expenses, family, projects)
 - Guaranteeing safeguards for relatives ("Uncle Jim" function)
-- Delete a portfolio without losing access to your funds
+- Delete a wallet without losing access to your funds
 - Simplify your security: just one seed key phrase to protect
 
 
@@ -43,7 +43,7 @@ BIP-85 is useful if you want to :
 With BIP-32, a single seed sentence can be used to generate a complete hierarchy of Bitcoin accounts and addresses, using derivation paths (for example: `m/44'/0'/0'/0/0`). Each path can represent a separate account, but **all remain linked to the same seed sentence**. So, if this seed phrase is compromised, **all derived accounts become accessible**.
 
 
-With BIP-85, a seed main sentence can be used to generate several totally independent seed secondary sentences: **if one of these secondary seeds is compromised, the attacker will never be able to go back to the main seed or access the other portfolios**.
+With BIP-85, a seed main sentence can be used to generate several totally independent seed secondary sentences: **if one of these secondary seeds is compromised, the attacker will never be able to go back to the main seed or access the other wallets**.
 
 This makes it possible to compartmentalize risks:
 
@@ -61,19 +61,19 @@ On the other hand, for both BIP-32 and BIP-85, if the main seed is compromised, 
 ## 2. Practical use cases for BIP-85
 
 
-BIP-85 allows you to create multiple Bitcoin portfolios from a single seed core phrase, each with its own seed secondary phrase. Here are five practical use cases for organizing and securing your Bitcoin funds. Each case explains why using BIP-85 is more practical than managing multiple accounts with a single seed phrase via BIP-32.
+BIP-85 allows you to create multiple Bitcoin wallets from a single seed core phrase, each with its own seed secondary phrase. Here are five practical use cases for organizing and securing your Bitcoin funds. Each case explains why using BIP-85 is more practical than managing multiple accounts with a single seed phrase via BIP-32.
 
 
-### 2.1 Limiting the risk of a less-secure portfolio
+### 2.1 Limiting the risk of a less-secure wallet
 
 
 
 - **Scenario**: You use a "Hot Wallet" wallet (installed on an Internet-connected device), for daily transactions.
-- **Solution BIP-85**: You create a seed secondary phrase dedicated to this portfolio.
+- **Solution BIP-85**: You create a seed secondary phrase dedicated to this wallet.
 - **Advantage over BIP-32**: You don't need to import the seed primary phrase onto your phone, reducing the risk of hacking. Only the seed secondary phrase is compromised, protecting your other wallets. With BIP-32, you need to use the seed main phrase and a bypass path, exposing all your funds.
 
 
-### 2.2 Create a portfolio for a family member
+### 2.2 Create a wallet for a family member
 
 
 
@@ -82,20 +82,20 @@ BIP-85 allows you to create multiple Bitcoin portfolios from a single seed core 
 - **Advantage over BIP-32**: With BIP-32, creating an account for a loved one requires either sharing your main seed phrase, risking all your funds and complicating management for your loved one (managing branching paths), or creating a new seed phrase to save in addition to your main seed phrase.
 
 
-### 2.3 Facilitating the management of separate portfolios
+### 2.3 Facilitating the management of separate wallets
 
 
 
 - **Scenario**: You separate your bitcoins for different purposes (e.g. long-term savings, non-KYC funds).
 - **Solution BIP-85**: You create seed secondary phrases dedicated to each objective.
-- **Advantage over BIP-32**: With BIP-32, all accounts share the same seed phrase, which complicates management in third-party portfolios by requiring derivation paths such as `m/44'/0'/0'` to be managed. In addition, it is not possible to assign a separate account per device (e.g. "savings on Coldcard", "daily on mobile", "vacations on Trezor"). BIP-85 assigns a unique seed secondary phrase per objective, which is easy to identify and import separately on each device.
+- **Advantage over BIP-32**: With BIP-32, all accounts share the same seed phrase, which complicates management in third-party wallets by requiring derivation paths such as `m/44'/0'/0'` to be managed. In addition, it is not possible to assign a separate account per device (e.g. "savings on Coldcard", "daily on mobile", "vacations on Trezor"). BIP-85 assigns a unique seed secondary phrase per objective, which is easy to identify and import separately on each device.
 
 
 ### 2.4 Using a temporary wallet for transactions
 
 
 
-- **Scenario**: You need a temporary portfolio for a one-off transaction or to preserve confidentiality (e.g.: mixing of funds, interaction with a Exchange KYC, etc.).
+- **Scenario**: You need a temporary wallet for a one-off transaction or to preserve confidentiality (e.g.: mixing of funds, interaction with a Exchange KYC, etc.).
 - **Solution BIP-85**: You create a seed secondary sentence, use it for the transaction, then destroy it if necessary, knowing that it can be regenerated.
 - **Advantage over BIP-32**: With BIP-32, a temporary account depends on the seed main sentence, exposing all your funds if compromised.
 
@@ -113,7 +113,7 @@ BIP-85 allows you to create multiple Bitcoin portfolios from a single seed core 
 
 
 - Basic knowledge
- - Understanding mnemonic phrases (BIP-39): a list of 12 to 24 words to save a portfolio.
+ - Understanding mnemonic phrases (BIP-39): a list of 12 to 24 words to save a wallet.
  - Know what a Bitcoin wallet is: software or device to manage your bitcoins, and how to restore it with a mnemonic phrase.
  - More resources in Annexes.
 
@@ -207,12 +207,12 @@ ColdCard now displays a new seed secondary sentence. You can :
 ### 4.2 Using the secondary seed
 
 
-You can now use this derived seed to create a new portfolio in :
+You can now use this derived seed to create a new wallet in :
 
 
 - a mobile app
 - another Hardware Wallet
-- a Multisig portfolio
+- a Multisig wallet
 
 
 ### 4.3 Recovering a lost seed secondary phrase
@@ -246,7 +246,7 @@ The use of BIP85 relies entirely on the 24-word seed main sentence, as well as o
 
 
 - From these two elements, all seed secondary phrases can be regenerated.
-- Without one of these 2 elements, you lose access to all derivative portfolios.
+- Without one of these 2 elements, you lose access to all derivative wallets.
 
 
 ### 5.2 Risks in multi-signature configuration
@@ -258,7 +258,7 @@ We strongly advise against using secondary seed phrases generated from the same 
 ### 5.3 Software compatibility
 
 
-Not all applications directly support BIP85 derivation. However, seeds generated via BIP85 are standard BIP39 seeds (12, 18 or 24 words), and can therefore be used in any BIP39-compatible portfolio.
+Not all applications directly support BIP85 derivation. However, seeds generated via BIP85 are standard BIP39 seeds (12, 18 or 24 words), and can therefore be used in any BIP39-compatible wallet.
 
 
 ### 5.4 BIP85 account register
@@ -267,7 +267,7 @@ Not all applications directly support BIP85 derivation. However, seeds generated
 It is recommended to keep an up-to-date personal register of seed secondary phrases.
 
 
-- It allows you to find out quickly which BIP85 index corresponds to which portfolio, without having to keep seed secondary phrases.
+- It allows you to find out quickly which BIP85 index corresponds to which wallet, without having to keep seed secondary phrases.
 - This register should remain minimalist, with no explicit mention of Bitcoin, and should be stored separately from the main seed. Remember to mention it in your inheritance plan.
 
 
@@ -329,7 +329,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
-### A.4 How Bitcoin portfolios work
+### A.4 How Bitcoin wallets work
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

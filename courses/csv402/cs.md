@@ -1,13 +1,11 @@
 ---
-name: Protokol RGB od teorie k praxi
+name: Programování RGB
 goal: Získat dovednosti potřebné k pochopení a používání RGB
-objectives: 
-
-  - Porozumět základním pojmům protokolu RGB
-  - Zvládnutí principů ověřování na straně klienta a závazků Bitcoinu
-  - Naučte se vytvářet, spravovat a přenášet smlouvy RGB
-  - Jak ovládat uzel Lightning kompatibilní s RGB
-
+objectives:
+- Porozumět základním pojmům protokolu RGB
+- Zvládnutí principů ověřování na straně klienta a závazků Bitcoinu
+- Naučte se vytvářet, spravovat a přenášet smlouvy RGB
+- Jak ovládat uzel Lightning kompatibilní s RGB
 ---
 # Zjištění protokolu RGB
 

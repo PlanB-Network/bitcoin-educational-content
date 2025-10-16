@@ -1,0 +1,8 @@
+question: According to the responsible disclosure framework, what is the primary strategic reason for providing vulnerability patches to altcoin developers only after fixes are widely deployed in the Bitcoin network?
+answer: To prevent attackers from exploiting the same vulnerability on Bitcoin while altcoins are being patched
+wrong_answers:
+  - "To maintain Bitcoin's competitive advantage over alternative cryptocurrency implementations"
+  - To ensure altcoin developers have sufficient time to understand and properly implement the fixes
+  - To avoid legal liability issues that could arise from premature disclosure to third-party projects
+explanation: |
+  The timing strategy reflects a security-first approach where Bitcoin's network must be protected before helping others. If altcoins were notified simultaneously, attackers could study altcoin implementations or exploit them to understand the vulnerability, then potentially attack Bitcoin nodes that haven't yet upgraded. The sequential approach ensures Bitcoin's widespread protection before expanding help to other networks, minimizing the window of vulnerability exploitation across the ecosystem.

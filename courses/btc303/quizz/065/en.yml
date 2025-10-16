@@ -1,0 +1,8 @@
+question: What is the primary reason that increasing block sizes leads to a higher probability of stale blocks in Bitcoin mining?
+answer: Larger blocks take more time to propagate and validate across the network, creating longer windows where miners work on outdated blockchain tips
+wrong_answers:
+  - Larger blocks require more computational power to mine, causing miners to spend longer finding valid proof-of-work solutions
+  - "Increased block sizes reduce the difficulty adjustment mechanism's effectiveness, leading to unpredictable block timing intervals"
+  - Bigger blocks create more transaction conflicts between competing blocks, making it harder to determine which block should be accepted
+explanation: |
+  The correct answer identifies the core mechanism behind stale blocks. When blocks are larger, they require more bandwidth to transfer between nodes and more time to validate. During this extended propagation period, multiple miners may find competing blocks at the same height since they haven't yet received the latest block. This creates a race condition where only one block can ultimately be accepted, making the others stale. The wrong answers confuse this propagation issue with mining difficulty, consensus mechanisms, or transaction conflicts, which are separate concerns from the timing problem that causes stale blocks.

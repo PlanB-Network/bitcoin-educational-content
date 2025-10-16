@@ -116,7 +116,7 @@ O artigo de Diffie e Hellman abriu caminho para uma infinidade de inovações. U
 A descoberta da criptografia assimétrica também motivou a criação de funções unidirecionais, caracterizadas por tornar o cálculo de uma imagem (direção direta) muito fácil e obter uma pré-imagem (direção inversa) muito difícil. Em particular, levou ao desenvolvimento das primeiras funções de hash criptográfico, que transformavam uma mensagem de tamanho variável em um resumo de tamanho fixo. Entre 1989 e 1991, vários algoritmos de hash (MD2, MD4 e MD5) foram assim projetados por Ronald Rivest para o MIT.
 Os elementos criptográficos básicos do Bitcoin derivam desta pesquisa. O esquema de assinatura ECDSA, que permite a autorização de gastos de uma transação tradicional, foi criado em 1992 para o NIST. A função de hash SHA-256, usada em múltiplos pontos do protocolo, foi publicada em 2001 como parte do conjunto de algoritmos SHA-2 divulgado pela NSA. Para mais informações sobre este tópico, você pode consultar o curso CYP201 apresentado por Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70fù
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Assinaturas Cegas e Dinheiro Eletrônico
 

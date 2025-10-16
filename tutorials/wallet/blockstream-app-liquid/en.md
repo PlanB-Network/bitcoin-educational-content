@@ -10,7 +10,7 @@ description: How to configure Blockstream App and use the Liquid network
 
 
 
-- This tutorial explains how to use the **Blockstream App** mobile application to manage a **Bitcoin Liquid** portfolio, i.e. transactions recorded directly on the Bitcoin "Liquid" side chain.
+- This tutorial explains how to use the **Blockstream App** mobile application to manage a **Bitcoin Liquid** wallet, i.e. transactions recorded directly on the Bitcoin "Liquid" side chain.
 - It covers installation, initial configuration, creation of a software wallet, and operations for receiving and sending bitcoins on Liquid.
 - Note: Other tutorials in the Appendices cover Onchain, Watch-Only and the desktop version.
 
@@ -95,7 +95,7 @@ Liquid relies on a **federation** of trusted participants (exchanges, recognized
 - **Key features**:
 - **Onchain** transactions on Blockchain Bitcoin.
     - Transactions on the **Liquid** network (Sidechain for fast, confidential exchanges).
-- **Watch-only** portfolios for monitoring funds without access to keys.
+- **Watch-only** wallets for monitoring funds without access to keys.
     - Privacy options: connection via **Tor**, connection to a **personal node** via Electrum, or **SPV** verification to reduce dependency on third-party nodes.
     - Functions **Replace-by-fee (RBF)** to speed up unconfirmed transactions.
 - **Compatibility**: Integrates hardware wallets such as **Blockstream Jade**.
@@ -123,14 +123,14 @@ Liquid relies on a **federation** of trusted participants (exchanges, recognized
 
 
 
-- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported portfolios will appear here later.
+- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported wallets will appear here later.
 
 
 ![image](assets/fr/02.webp)
 
 
 
-- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your portfolio.
+- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your wallet.
 
 
 ![image](assets/fr/03.webp)
@@ -176,14 +176,14 @@ Liquid relies on a **federation** of trusted participants (exchanges, recognized
 
 
 
-## 4. Creating a Bitcoin onchain portfolio
+## 4. Creating a Bitcoin onchain wallet
 
 
 ### 4.1. Start creation
 
 
 
-- **Caution**: Set up your portfolio in a private environment, without cameras or observers.
+- **Caution**: Set up your wallet in a private environment, without cameras or observers.
 - From the home screen, click on "Get Started" :
 
 
@@ -208,8 +208,8 @@ Liquid relies on a **federation** of trusted participants (exchanges, recognized
 
 
 - (1) **"Setup Mobile Wallet"** : Create a new hot wallet (Hot Wallet).
-- (2) **"Restore from Backup "**: Import an existing portfolio using a mnemonic phrase (12 or 24 words). Warning: Do not import the phrase from a Cold Wallet, as it will be exposed on a connected device, invalidating its security.
-- (3) **"Watch-Only "**: Import an existing read-only portfolio, to view the balance (e.g. of your Cold Wallet) without exposing the mnemonic phrase. See the "Watch Only" tutorial in the appendix.
+- (2) **"Restore from Backup "**: Import an existing wallet using a mnemonic phrase (12 or 24 words). Warning: Do not import the phrase from a Cold Wallet, as it will be exposed on a connected device, invalidating its security.
+- (3) **"Watch-Only "**: Import an existing read-only wallet, to view the balance (e.g. of your Cold Wallet) without exposing the mnemonic phrase. See the "Watch Only" tutorial in the appendix.
 
 
 **In this tutorial**: Click on **"Setup Mobile Wallet"** to create a Hot Wallet.
@@ -220,7 +220,7 @@ Your Wallet is automatically created and the Wallet home page, here called "My W
 ![image](assets/fr/07.webp)
 
 
-**Important**: Blockstream App has simplified the creation of a Wallet by not automatically displaying the 12-word seed phrase. *Even though the portfolio is now created in one click, you risk losing access to your funds if you don't save your seed phrase*.
+**Important**: Blockstream App has simplified the creation of a Wallet by not automatically displaying the 12-word seed phrase. *Even though the wallet is now created in one click, you risk losing access to your funds if you don't save your seed phrase*.
 
 
 ### 4.2. Save seed phrase
@@ -310,7 +310,7 @@ Alternatively, exchange your bitcoins onchain or via the Lightning network for L
 
 
 
-- From the portfolio home screen, click on '"**Transact**" then **"Receive "**.
+- From the wallet home screen, click on '"**Transact**" then **"Receive "**.
 
 
 ![image](assets/fr/19.webp)
@@ -342,7 +342,7 @@ Alternatively, exchange your bitcoins onchain or via the Lightning network for L
 
 
 
-- From the portfolio home screen, click on "**Transact**" then **"Send "** :
+- From the wallet home screen, click on "**Transact**" then **"Send "** :
 
 
 ![image](assets/fr/22.webp)

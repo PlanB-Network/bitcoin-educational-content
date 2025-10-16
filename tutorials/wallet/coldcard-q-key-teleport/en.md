@@ -171,7 +171,7 @@ A quick reminder of what a multi-signature Wallet (Multisig) is.
 
 Usually, to spend your Wallet funds, only one private key is needed to unlock the UTXOs associated with your addresses.
 
-In the case of a Wallet Multisig, up to 15 private keys and therefore 15 signatures may be needed to spend the funds. This is known as an "M out of N" portfolio, with N between 1 and 15 and M the number of signatures required for the funds to be spendable. For example, a Wallet Multisig 3 out of 5 will require at least 3 signatures out of a possible 5.
+In the case of a Wallet Multisig, up to 15 private keys and therefore 15 signatures may be needed to spend the funds. This is known as an "M out of N" wallet, with N between 1 and 15 and M the number of signatures required for the funds to be spendable. For example, a Wallet Multisig 3 out of 5 will require at least 3 signatures out of a possible 5.
 
 
 The challenge is then to coordinate between signatories to sign a "PSBT" for "Partially Signed Bitcoin Transaction" in turn. In this context, "**Key Teleport**" can be used to transmit the PSBT between co-signers in a simple and confidential way. A simple video call between co-signers will do the trick.

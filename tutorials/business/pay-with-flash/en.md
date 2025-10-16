@@ -101,7 +101,7 @@ When you create your point of sale, you'll be given a web link which is the Inte
 
 
 
-On your dashboard page, click on **Start** in the **Point of Sale** quadrant. You will be redirected to the Interface for configuring your point of sale. Fill in the information corresponding to your point of sale and associate it with the portfolio you previously connected, then submit your data.
+On your dashboard page, click on **Start** in the **Point of Sale** quadrant. You will be redirected to the Interface for configuring your point of sale. Fill in the information corresponding to your point of sale and associate it with the wallet you previously connected, then submit your data.
 
 
 ![pdv](assets/fr/09.webp)

@@ -4988,18 +4988,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Name.jpg`를 파일의 실제 이름으로 바꿉니다. 또한 이 이미지가 포함된 디렉토리에 있는지 확인하세요. 예를 들어 `/Downloads` 디렉터리에 Satoshi 나카모토 동상 사진이 있는 경우 다음 명령을 실행하여 메타데이터를 표시할 수 있습니다:
+Name.webp`를 파일의 실제 이름으로 바꿉니다. 또한 이 이미지가 포함된 디렉토리에 있는지 확인하세요. 예를 들어 `/Downloads` 디렉터리에 Satoshi 나카모토 동상 사진이 있는 경우 다음 명령을 실행하여 메타데이터를 표시할 수 있습니다:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -5036,7 +5036,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5058,7 +5058,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5082,12 +5082,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-현재 디렉토리에 있는 모든 JPEG 파일의 메타데이터를 삭제합니다. 필요에 맞게 확장자를 조정할 수 있습니다(`*.png`, `*.pdf`...).
+현재 디렉토리에 있는 모든 JPEG 파일의 메타데이터를 삭제합니다. 필요에 맞게 확장자를 조정할 수 있습니다(`*.webp`, `*.pdf`...).
 
 
 

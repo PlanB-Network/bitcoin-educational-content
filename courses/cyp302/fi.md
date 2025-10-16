@@ -1,22 +1,17 @@
 ---
-name: Johdatus muodolliseen kryptografiaan
+name: Modernin kryptografian perusteet
 goal: Syväsukellus kryptografian tieteeseen ja käytäntöön.
 objectives:
-
-  - Tutustutaan Beale-salauksiin ja nykyaikaisiin salausmenetelmiin, jotta ymmärretään salakirjoituksen peruskäsitteitä ja historiallisia käsitteitä.
-  - Syvenny lukuteoriaan, ryhmiin ja kenttiin ja hallitse salakirjoituksen taustalla olevat keskeiset matemaattiset käsitteet.
-  - Tutustu symmetrisiin salausalgoritmeihin tutustumalla RC4-virtasalausmenetelmään ja AES:ään 128-bittisellä avaimella.
-  - Tutustu RSA-kryptosysteemiin, avainten jakamiseen ja hash-funktioihin ja tutustu epäsymmetriseen kryptografiaan.
-
+- Tutustutaan Beale-salauksiin ja nykyaikaisiin salausmenetelmiin, jotta ymmärretään salakirjoituksen peruskäsitteitä ja historiallisia käsitteitä.
+- Syvenny lukuteoriaan, ryhmiin ja kenttiin ja hallitse salakirjoituksen taustalla olevat keskeiset matemaattiset käsitteet.
+- Tutustu symmetrisiin salausalgoritmeihin tutustumalla RC4-virtasalausmenetelmään ja AES:ään 128-bittisellä avaimella.
+- Tutustu RSA-kryptosysteemiin, avainten jakamiseen ja hash-funktioihin ja tutustu epäsymmetriseen kryptografiaan.
 ---
-# Syväsukellus kryptografiaan
+# Syväsukellus moderniin kryptografiaan
 
-On vaikea löytää monia materiaaleja, jotka tarjoaisivat hyvän keskitason kryptografian opetuksessa.
+Tällä kurssilla käsittelemme modernin kryptografian perusteet selkeällä ja lähestyttävällä tavalla, ilman vaativaa matemaattista taustaa. Lukujen aikana opit keskeisiä käsitteitä kuten symmetrinen ja julkisen avaimen salaus, tiivistefunktiot, digitaaliset allekirjoitukset, avaintenvaihto ja tosielämän protokollat. Matkan varrella yhdistämme pisteet käytännön sovelluksiin, kuten turvalliseen viestintään, TLS:ään, salasanojen tallennukseen ja todennukseen.
 
-Toisaalta on olemassa pitkiä, muodollisia tutkielmia, jotka ovat oikeastaan vain niiden ulottuvilla, joilla on vahva tausta matematiikassa, logiikassa tai muussa muodollisessa tieteenalassa. Toisaalta on hyvin korkeatasoisia johdantoja, jotka todella kätkevät liian monet yksityiskohdat kaikilta, jotka ovat edes hieman uteliaita.
-
-Tässä johdannossa kryptografiaan pyritään löytämään keskitie. Vaikka sen pitäisi olla suhteellisen haastava ja yksityiskohtainen kaikille kryptografian aloittelijoille, se ei ole tyypillisen perustavanlaatuisen tutkielman kaninkolo.
-
+Materiaali on suunniteltu kaiken tasoisille oppijoille ja tasapainottaa intuitiota juuri sopivalla teknisellä syvyydellä uteliaisuuden tyydyttämiseksi. Odota keskittynyttä ja mukaansatempaavaa matkaa. Lopussa ymmärrät, miten ja miksi moderni kryptografia toimii ja miten sitä käytetään vastuullisesti.
 +++
 # Johdanto
 

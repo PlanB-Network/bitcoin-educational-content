@@ -1,0 +1,8 @@
+question: According to the chapter, what is the main limitation that even a full node cannot protect you from?
+answer: Chain rewrites that could double-spend your transactions
+wrong_answers:
+  - Malicious software stealing your private keys from memory
+  - "Invalid blocks that don't follow Bitcoin's consensus rules"
+  - Incorrect coin issuance schedules violating the protocol
+explanation: |
+  While a full node can verify that blocks follow consensus rules, prevent invalid coin issuance, and detect protocol violations, it cannot prevent chain rewrites where miners reorganize the blockchain to double-spend transactions. The chapter specifically states that no matter how advanced your software is, you must still trust that blocks containing your coins won't be rewritten. This is why Bitcoin's defense mechanism relies on waiting for multiple confirmations to reduce the probability of a chain rewrite to an acceptable level.

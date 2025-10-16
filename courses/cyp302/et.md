@@ -1,22 +1,17 @@
 ---
-name: Sissejuhatus formaalsesse krüptograafiasse
+name: Kaasaegse krüptograafia alused
 goal: Sügav sissejuhatus krüptograafia teadusesse ja praktikasse.
 objectives:
-
-  - Tutvuda Beale'i šifreeringute ja kaasaegsete krüptograafiliste meetoditega, et mõista krüptograafia põhilisi ja ajaloolisi mõisteid.
-  - Süvenege arvuteooriasse, rühmadesse ja väljadesse, et omandada krüptograafia aluseks olevad põhilised matemaatilised mõisted.
-  - Õppige tundma RC4 voogkrüpteerimist ja AES-i 128-bitise võtmega, et õppida tundma sümmeetrilisi krüptograafilisi algoritme.
-  - Uurige RSA krüptosüsteemi, võtme jaotamist ja hash-funktsioone, et uurida asümmeetrilist krüptograafiat.
-
+- Tutvuda Beale'i šifreeringute ja kaasaegsete krüptograafiliste meetoditega, et mõista krüptograafia põhilisi ja ajaloolisi mõisteid.
+- Süvenege arvuteooriasse, rühmadesse ja väljadesse, et omandada krüptograafia aluseks olevad põhilised matemaatilised mõisted.
+- Õppige tundma RC4 voogkrüpteerimist ja AES-i 128-bitise võtmega, et õppida tundma sümmeetrilisi krüptograafilisi algoritme.
+- Uurige RSA krüptosüsteemi, võtme jaotamist ja hash-funktsioone, et uurida asümmeetrilist krüptograafiat.
 ---
-# Sügav sukeldumine krüptograafiasse
+# Süvitsi kaasaegse krüptograafiasse
 
-On raske leida palju materjale, mis pakuksid krüptograafiaõppes head keskteed.
+Sel kursusel käsitleme kaasaegse krüptograafia põhitõdesid selgel ja ligipääsetaval viisil, ilma et oleks vaja põhjalikke matemaatikateadmisi. Peatükkide jooksul õpid põhimõisteid nagu sümmeetriline ja avaliku võtme krüpteerimine, räsifunktsioonid, digitaalallkirjad, võtmevahetus ja reaalsed protokollid. Tee peal ühendame punktid praktiliste rakendustega nagu turvaline sõnumside, TLS, paroolide salvestamine ja autentimine.
 
-Ühest küljest on olemas pikad formaalsed käsitlused, mis on tegelikult kättesaadavad ainult neile, kellel on tugev taust matemaatikas, loogikas või mõnes muus formaalses distsipliinis. Teisest küljest on olemas väga kõrgetasemelised sissejuhatused, mis tegelikult varjavad liiga palju üksikasju kõigile, kes on vähemalt pisutki uudishimulikud.
-
-Käesolev sissejuhatus krüptograafiasse püüab leida kesktee. Kuigi see peaks olema suhteliselt keeruline ja üksikasjalik kõigile krüptograafia algajaile, ei ole see tüüpilise alusdokumendi küülikupea.
-
+Materjal on loodud kõigi tasemete õppijatele ning tasakaalustab intuitsiooni piisava tehnilise sügavusega, et rahuldada uudishimu. Oota keskendunud ja kaasahaaravat teekonda. Lõpuks mõistad, kuidas ja miks kaasaegne krüptograafia töötab ning kuidas seda vastutustundlikult kasutada.
 +++
 # Sissejuhatus
 

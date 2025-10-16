@@ -1081,10 +1081,6 @@ Merci, à très bientôt !
 
 :::video id=029aa591-35e5-46d9-a5a7-cd5b4280fe65:::
 
-### Bonus : Interview de Fanis
-
-:::video id=029aa591-35e5-46d9-a5a7-cd5b4280fe65:::
-
 # Section finale
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

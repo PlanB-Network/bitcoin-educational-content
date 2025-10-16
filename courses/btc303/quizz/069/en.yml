@@ -1,0 +1,8 @@
+question: According to the book's definition, which scenario represents legitimate Bitcoin scaling while preserving censorship resistance?
+answer: Implementing more space-efficient signature verification algorithms that reduce transaction input sizes
+wrong_answers:
+  - Encouraging users to migrate transactions to centralized exchanges to reduce on-chain volume
+  - Implementing automatic transaction filtering to prioritize certain types of economic activity
+  - Creating government-approved validation nodes that can process transactions more efficiently
+explanation: |
+  The book defines Bitcoin scaling as 'increasing Bitcoin's usage capacity without compromising its censorship resistance.' Space-efficient signature verification directly fits this definition by making transactions use fewer bytes while maintaining decentralization. The wrong answers all compromise censorship resistance: centralized exchanges introduce trusted third parties, transaction filtering creates censorship mechanisms, and government-approved nodes centralize validation authority. True scaling preserves Bitcoin's core properties while improving efficiency.

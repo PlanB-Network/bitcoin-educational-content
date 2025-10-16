@@ -1,23 +1,18 @@
 ---
-name: Introduction to formal Cryptography
+name: Bases of Modern cryptography
 goal: A deep-dive introduction to the science and practice of cryptography.
 objectives:
-  - Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.
-  - Delve into number theory, groups, and fields to master key mathematical concepts underlying cryptography.
-  - Study the RC4 stream cipher and AES with a 128-bit key to learn about symmetric cryptographic algorithms.
-  - Investigate the RSA cryptosystem, key distribution, and hash functions to explore asymmetric cryptography.
-
+- Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.
+- Delve into number theory, groups, and fields to master key mathematical concepts underlying cryptography.
+- Study the RC4 stream cipher and AES with a 128-bit key to learn about symmetric cryptographic algorithms.
+- Investigate the RSA cryptosystem, key distribution, and hash functions to explore asymmetric cryptography.
 ---
-# Deep-dive into cryptographie
+# Deep-dive into Modern Cryptography
 
-It is difficult to find many materials that offer a good middle ground in cryptography education.
+In this course, we’ll cover the essentials of modern cryptography in a clear, approachable way, no heavy math background required. Across the chapters, you’ll learn core ideas like symmetric and public-key encryption, hash functions, digital signatures, key exchange, and real-world protocols. Along the way, we’ll connect the dots to practical applications such as secure messaging, TLS, password storage, and authentication.
 
-On the one hand, there are lengthy, formal treatises, really only accessible to those with a strong background in mathematics, logic, or some other formal discipline. On the other hand, there are very high-level introductions that really hide too many of the details for anyone that is at least a bit curious.
-
-This introduction to cryptography seeks to capture the middle ground. While it should be relatively challenging and detailed for anyone new to cryptography, it is not the rabbit hole of a typical foundational treatise.
-
+The material is designed for learners of all levels and balances intuition with just enough technical depth to satisfy curiosity. Expect a focused, engaging journey. By the end, you’ll understand how and why modern cryptography works and how to use it responsibly.
 +++
-
 # Introduction
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 

@@ -4943,18 +4943,18 @@ Voit tarkastella kaikkia tiedoston sisältämiä metatietoja seuraavalla komenno
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Korvaa `nimi.jpg` tiedoston oikealla nimellä. Varmista myös, että olet hakemistossa, joka sisältää tämän kuvan. Jos minulla on esimerkiksi kuva Satoshi Nakamoto -patsaasta hakemistossa `/Downloads`, voin näyttää sen metatiedot suorittamalla seuraavan komennon:
+Korvaa `nimi.webp` tiedoston oikealla nimellä. Varmista myös, että olet hakemistossa, joka sisältää tämän kuvan. Jos minulla on esimerkiksi kuva Satoshi Nakamoto -patsaasta hakemistossa `/Downloads`, voin näyttää sen metatiedot suorittamalla seuraavan komennon:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Voit poistaa kaikki tarpeettomat metatiedot tiedostosta komennolla:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Jos et halua säilyttää alkuperäistä, voit poistaa sen komennolla:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Jos samassa hakemistossa on useita käsiteltäviä tiedostoja, voit käyttää y
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Tämä poistaa kaikkien nykyisen hakemiston JPEG-tiedostojen metatiedot. Voit mukauttaa laajennuksen tarpeidesi mukaan (`*.png`, `*.pdf`...).
+Tämä poistaa kaikkien nykyisen hakemiston JPEG-tiedostojen metatiedot. Voit mukauttaa laajennuksen tarpeidesi mukaan (`*.webp`, `*.pdf`...).
 
 
 

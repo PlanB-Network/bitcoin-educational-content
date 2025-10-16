@@ -1,0 +1,8 @@
+question: According to Gregory Maxwell's perspective on vulnerability severity assessment, what approach should developers take when evaluating the potential impact of discovered security issues?
+answer: Treat vulnerabilities as more severe than currently known and assume they could be easily exploitable even if they appear difficult to exploit
+wrong_answers:
+  - Focus only on the immediate observable impact and categorize vulnerabilities based on their current known exploitation methods
+  - Prioritize vulnerabilities based on their technical complexity and delay fixes for issues that seem theoretically difficult to exploit
+  - Evaluate each vulnerability in isolation without considering how multiple minor issues might combine to create major security risks
+explanation: |
+  Maxwell argues that developers should treat vulnerabilities as more severe than they appear because hard-to-exploit issues can become trivial with the right technique, and seemingly minor problems can escalate into serious threats. He emphasizes that simple performance bugs can be weaponized to partition the network and enable double-spending attacks. This conservative approach acknowledges that developers may not initially understand the full exploitation potential of a vulnerability, making it prudent to assume the worst-case scenario rather than underestimating the threat.

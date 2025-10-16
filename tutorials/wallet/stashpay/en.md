@@ -128,4 +128,4 @@ The **Export log** menu lists all Breez and Boltz infrastructure actions concern
 You've just got to grips with StashPay's minimalist Bitcoin wallet. If you've found this tutorial useful, we recommend our tutorial on how to get started with Bitcoin and earn your first bitcoins.
 
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

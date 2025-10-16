@@ -111,7 +111,7 @@ In the **Channels** section, you'll see the list of open channels and the node's
 
 - Incoming ratio**: The amount the node will charge you for every million Satoshi it receives, depending on the channel chosen.
 - The ratio (parts per million)** : which represents the number of Satoshi per million units that the node will charge you when you decide to make a payment via one of its channels. Let's say you decide to make a payment of `10_000 Sats` via a channel whose ppm ratio is `500 Sats`, you'll have to pay the node `10_000 * 500 / 1_000_000` satoshis, equivalent to `5 Sats`.
-- The [HTLC](https://planb.network/resources/glossary/HTLC) maximum** : The maximum amount this node allows you to transit via one of these channels.
+- The [HTLC](https://planb.network/resources/glossary/htlc) maximum** : The maximum amount this node allows you to transit via one of these channels.
 
 
 By consulting the table in this Interface, you can also find all this information on the node it is matched to.

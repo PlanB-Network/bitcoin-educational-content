@@ -147,7 +147,7 @@ Im Abschnitt **Kanäle** sehen Sie die Liste der offenen Kanäle und die Verbind
 
 - Eingehende Quote**: Der Betrag, den der Knoten für jede Million Satoshi, die er empfängt, in Rechnung stellt, abhängig vom gewählten Kanal.
 - Das Verhältnis (Teile pro Million)** : Es stellt die Anzahl der Satoshi pro Million Einheiten dar, die der Knotenpunkt Ihnen in Rechnung stellt, wenn Sie sich entscheiden, eine Zahlung über einen seiner Kanäle vorzunehmen. Angenommen, Sie entscheiden sich, eine Zahlung von `10_000 Sats` über einen Kanal zu tätigen, dessen ppm-Verhältnis `500 Sats` ist, dann müssen Sie dem Knoten `10_000 * 500 / 1_000_000` Satoshis zahlen, was `5 Sats` entspricht.
-- Das [HTLC](https://planb.network/resources/glossary/HTLC) Maximum** : Der Höchstbetrag, den dieser Knoten Ihnen erlaubt, über einen dieser Kanäle zu übertragen.
+- Das [HTLC](https://planb.network/resources/glossary/htlc) Maximum** : Der Höchstbetrag, den dieser Knoten Ihnen erlaubt, über einen dieser Kanäle zu übertragen.
 
 
 

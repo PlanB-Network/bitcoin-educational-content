@@ -549,13 +549,13 @@ Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah
 
 ![Image](assets/fr/020.webp)
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 - **Linux Mint**:
 
 Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, yang dirancang untuk menawarkan alternatif yang lebih intuitif dan lebih dekat dengan ergonomi Windows. Versi ini menawarkan beberapa lingkungan desktop, termasuk Cinnamon, sebuah fork dari GNOME yang dirancang khusus oleh tim Mint, yang menyediakan Interface yang jelas, klasik, dan terasa akrab.
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint menonjol karena kesederhanaannya, keberadaan codec multimedia secara default, dan alat pembaruan yang dirancang dengan baik. Di sisi lain, ia sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak memerlukan banyak pembelajaran.
 
@@ -643,7 +643,7 @@ Parrot OS juga merupakan turunan dari Debian. Parrot OS menawarkan lingkungan un
 
 Tails adalah distribusi langsung (live distribution) berbasis Debian yang berfokus pada privasi. Semua lalu lintasnya melewati jaringan Tor, dan tidak ada yang disimpan di antara sesi pengguna. Ini adalah distribusi ideal untuk penggunaan sekali pakai yang sensitif (jurnalisme, aktivisme, pembuatan seed Bitcoin...).
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Catatan**: Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari flash drive USB atau CD, tanpa instalasi pada hard disk.
 
@@ -3516,7 +3516,7 @@ GrapheneOS tidak mengintegrasikan komponen eksklusif apa pun. Anda bebas untuk m
 
 Graphene hanya kompatibel dengan Google Pixel terbaru (Pixel 6, 7, 8, dan 9).
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

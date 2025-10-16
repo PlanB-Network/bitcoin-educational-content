@@ -1,0 +1,8 @@
+question: What type of operation does Rust perform by default when assigning one String variable to another?
+answer: A move operation that transfers ownership and invalidates the source variable
+wrong_answers:
+  - A deep copy that duplicates all heap data to create independent strings
+  - A shallow copy that creates two pointers to the same heap memory
+  - A reference creation that allows both variables to share read-only access
+explanation: |
+  Rust performs a move operation by default when assigning complex types like String. This transfers ownership from the source to the destination variable while invalidating the source, preventing dangerous scenarios where multiple variables could modify the same heap memory. A deep copy would be inefficient for large strings, a shallow copy would create memory safety issues with multiple pointers to the same data, and reference creation requires explicit syntax with the ampersand operator.

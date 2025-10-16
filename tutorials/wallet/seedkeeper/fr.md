@@ -195,7 +195,7 @@ Voilà ! Vous savez désormais comment utiliser le Seedkeeper pour sauvegarder l
 
 https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-https://planb.network/tutorials/wallet/backup/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3
+https://planb.network/tutorials/computer-security/authentication/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3
 
 Dans ce tutoriel, nous avons mentionné à plusieurs reprises les ***Descriptors*** de votre portefeuille Bitcoin. Vous ne savez pas de quoi il s’agit ? Dans ce cas, je vous recommande de suivre notre formation gratuite CYP 201, qui détaille en profondeur tous les mécanismes de fonctionnement des portefeuilles HD !
 

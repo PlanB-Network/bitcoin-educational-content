@@ -12,17 +12,21 @@ Si deseas contribuir a la Red PlanB, necesitarás usar Git y GitHub. Si estas he
 ## ¿Qué es Git?
 
 Git es un sistema de control de versiones, diseñado específicamente para gestionar proyectos de software. Creado en 2005 por Linus Torvalds, Git rápidamente se convirtió en el estándar en la industria del desarrollo de software para el control de versiones. Pero, ¿qué significa exactamente eso?
+
 ![git](assets/11.webp)
+
 En su núcleo, Git permite a los desarrolladores rastrear los cambios realizados en el código fuente de un proyecto a lo largo del tiempo. Esto significa que con cada cambio en el código, Git registra una nueva versión del proyecto. Si ocurre un error o si una característica experimental no funciona como se esperaba, es posible revertir a un estado anterior del código, como una especie de máquina del tiempo para archivos.
 
 Una de las características clave de Git es la gestión de ramas. Una rama es una especie de línea paralela donde los desarrolladores pueden trabajar independientemente del resto del proyecto. Esto facilita enormemente la adición de nuevas características o la corrección de errores sin perturbar el código principal. Una vez que las modificaciones son probadas y validadas, pueden fusionarse con la rama principal.
 
 Una de las peculiaridades de Git es su capacidad para operar de manera distribuida. Cada desarrollador tiene una copia completa del proyecto en el disco duro de su propio ordenador, lo que les permite trabajar sin conexión y fusionar los cambios más tarde cuando esté disponible una conexión a Internet. Esto reduce el riesgo de conflictos y permite que varios desarrolladores trabajen simultáneamente en el mismo proyecto sin estorbarse mutuamente.
-Inicialmente, Git fue diseñado principalmente para proyectos de desarrollo de software. Sin embargo, también se puede utilizar para gestionar proyectos de escritura de contenido. En lugar de colaborar en código, colaboramos en texto. Y es precisamente este método el que la Red PlanB ha adoptado para gestionar su contenido. Git facilita la colaboración en la escritura de cursos y tutoriales, ya que permite un seguimiento preciso de los cambios, una gestión eficiente de versiones y también habilita la revisión y mejora del contenido por otros colaboradores.
+Inicialmente, Git fue diseñado principalmente para proyectos de desarrollo de software. Sin embargo, también se puede utilizar para gestionar proyectos de escritura de contenido. En lugar de colaborar en código, colaboramos en texto. Y es precisamente este método el que PlanB Network ha adoptado para gestionar su contenido. Git facilita la colaboración en la escritura de cursos y tutoriales, ya que permite un seguimiento preciso de los cambios, una gestión eficiente de versiones y también habilita la revisión y mejora del contenido por otros colaboradores.
 ## ¿Qué es GitHub?
 
-GitHub es una plataforma de gestión y alojamiento de código fuente basada en el sistema de control de versiones Git del que acabamos de hablar. Lanzado en 2008, GitHub rápidamente ganó popularidad y se ha convertido en una referencia esencial para desarrolladores en todo el mundo. Pero, ¿en qué se diferencia GitHub de Git y por qué es tan crucial en nuestro método de producción de contenido?
+GitHub es una plataforma de gestión y alojamiento de código fuente basada en el sistema de control de versiones Git del que acabamos de hablar. Lanzado en 2008, GitHub rápidamente ganó popularidad y se ha convertido en una referencia esencial para desarrolladores en todo el mundo. Pero, ¿En qué se diferencia GitHub de Git y por qué es tan crucial en nuestro método de producción de contenido?
+
 ![github](assets/12.webp)
+
 Primero, es importante entender que GitHub está construido sobre Git (del cual hablamos en la sección anterior). Mientras que Git es la herramienta que rastrea los cambios en el código, GitHub es el servicio en línea que aloja, comparte y gestiona este código.
 
 Imagina Git como una especie de libro de registro que cada desarrollador usa en su propio ordenador para registrar todos los cambios en su proyecto. GitHub, por otro lado, es como una biblioteca pública donde todos estos libros de registro pueden ser compartidos, comparados y combinados.
@@ -41,7 +45,7 @@ En Git y GitHub, te encontrarás con comandos y características cuyos nombres p
 
 - **Pull Request:** Una solicitud enviada por un colaborador para indicar que han enviado cambios a una rama en un repositorio remoto y desean que estos cambios sean revisados y potencialmente fusionados en la rama principal del repositorio.
 
-- **Commit:** Guardar tus cambios. Un commit es como una instantánea instantánea de tu trabajo en un momento dado, lo que permite mantener un historial de cambios. Cada commit incluye un mensaje descriptivo explicando qué ha sido modificado.
+- **Commit:** Guardar tus cambios. Un commit es como una instantánea de tu trabajo en un momento dado, lo que permite mantener un historial de cambios. Cada commit incluye un mensaje descriptivo explicando qué ha sido modificado.
 
 - **Branch:** Una versión paralela del repositorio, que te permite trabajar en cambios sin afectar la rama principal (a menudo llamada "main" o "master"). Las ramas facilitan el desarrollo de nuevas características y la corrección de errores sin el riesgo de interrumpir el código estable.
 
@@ -56,31 +60,50 @@ En Git y GitHub, te encontrarás con comandos y características cuyos nombres p
 - **Issue:** Una herramienta para rastrear tareas y errores en GitHub. Los issues permiten reportar problemas, proponer mejoras o discutir nuevas características. Cada issue puede ser asignado, etiquetado y comentado.
 
 Esta lista obviamente no es exhaustiva. Hay muchos otros términos técnicos específicos para Git y GitHub. Sin embargo, los mencionados aquí son los principales con los que te encontrarás frecuentemente.
-Después de leer este artículo, es posible que algunos aspectos de Git y GitHub todavía no te sean claros. Te animo a que empieces a utilizar estas herramientas por ti mismo. ¡La práctica es a menudo la mejor manera de entender cómo funciona la máquina! Y para comenzar, puedes descubrir estos otros 2 tutoriales:
+Después de leer este artículo, es posible que algunos aspectos de Git y GitHub todavía no te sean claros. Te animamos a que empieces a utilizar estas herramientas por ti mismo. ¡La práctica es a menudo la mejor manera de entender cómo funciona la máquina! Y para comenzar, puedes descubrir estos otros 2 tutoriales:
 
 ## Cómo crear una cuenta de GitHub
 
-Si deseas contribuir a la Red PlanB, necesitarás una cuenta de GitHub. En este tutorial, te guiaremos paso a paso sobre cómo crear tu propia cuenta, configurarla y asegurarla adecuadamente.
+Si deseas contribuir a PlanB Network, necesitarás una cuenta de GitHub. En este tutorial, te guiaremos paso a paso sobre cómo crear tu propia cuenta, configurarla y asegurarla adecuadamente.
 
 - Ve a [https://github.com/signup](https://github.com/signup). 
 - Ingresa tu dirección de correo electrónico, luego haz clic en el botón verde `Continue`:
+  
 ![github](assets/1.webp)
+
 - Elige una contraseña fuerte, luego haz clic en el botón verde `Continue`:
+  
 ![github](assets/12.webp)
+
 - A continuación, elige tu nombre de usuario. Puedes revelar tu identidad real o usar un pseudónimo. Luego, haz clic en el botón verde `Continue`:
+  
 ![github](assets/3.webp)
+
 - Completa el Captcha:
+  
 ![github](assets/4.webp)
+
 - Se te enviará un correo electrónico que contiene un código de confirmación; necesitarás ingresarlo para finalizar la creación de tu cuenta:
+  
 ![github](assets/5.webp)
+
 - Rellena las preguntas si quieres que GitHub te guíe hacia ciertas herramientas, o haz clic en `skip personalization` para saltar:
+  
 ![github](assets/6.webp)
+
 - Elige el plan gratuito haciendo clic en el botón `Continue for free`:
+  
 ![github](assets/7.webp)
+
 - Luego serás redirigido a tu panel de control. 
 - Si lo deseas, puedes personalizar tu cuenta haciendo clic en tu foto de perfil ubicada en la parte superior derecha de la pantalla, luego accediendo al menú `Settings`:
+  
 ![github](assets/8.webp)
+
 - En esta sección, tienes la opción de agregar una nueva foto de perfil, seleccionar un nombre, personalizar tu biografía o agregar un enlace a tu sitio web personal:
+  
 ![github](assets/9.webp)
-- También recomiendo visitar el menú `Password and authentication` para configurar al menos la autenticación de dos factores:
+
+- También recomendamos visitar el menú `Password and authentication` para configurar al menos la autenticación de dos factores:
+  
 ![github](assets/10.webp)

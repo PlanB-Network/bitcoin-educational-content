@@ -1,22 +1,19 @@
 ---
 name: Bitcoin für Unternehmen
 goal: Lernen Sie die Grundlagen des Zahlungsverkehrs und der Finanzverwaltung, um Ihr Unternehmen auf Bitcoin umzustellen
-objectives: 
-
-  - Bitcoin als aufstrebende Währung und als Geschäftsinstrument
-  - Verstehen, warum und wie ein Unternehmen Bitcoin in der Finanzverwaltung halten oder für Zahlungen verwenden kann
-  - Eine konkrete Vorstellung davon haben, wie man Bitcoin-Zahlungen in der Praxis akzeptiert
-  - Auf die Verwaltung der steuerlichen und buchhalterischen Anforderungen vorbereitet sein
-
+objectives:
+- Entdecken Sie Bitcoin als aufstrebende Währung und Geschäftsinstrument
+- Verstehen Sie, warum und wie ein Unternehmen Bitcoin in der Kasse halten oder für Zahlungen verwenden kann
+- Haben Sie eine konkrete Vorstellung davon, wie man Bitcoin-Zahlungen in der Praxis akzeptiert
+- Seien Sie auf die Verwaltung steuerlicher und buchhalterischer Anforderungen vorbereitet
 ---
-# Starten Sie die Reise Ihres Unternehmens in das Bitcoin-Netzwerk
+# Starten Sie die Reise Ihres Unternehmens im Bitcoin-Netzwerk
 
-Entdecken Sie die praktischen Möglichkeiten von Bitcoin und Lightning Network und erfahren Sie, wie sie - ähnlich wie das Internet - Ihre Geschäftsabläufe **umwandeln** können. Von digitalem Kapital bis hin zu schnellen, wirtschaftlichen und skalierbaren Zahlungen bietet Bitcoin ein breites Spektrum an **Anwendungsfällen für Unternehmen**.
+Entdecken Sie die praktischen Möglichkeiten des Bitcoin- und Lightning-Netzwerks und erkunden Sie, wie sie, ähnlich wie das Internet, Ihre Geschäftsabläufe transformieren können. Von der Schatzkammer bis hin zu schnellen, wirtschaftlichen und skalierbaren Zahlungen bietet Bitcoin ein breites Spektrum an Anwendungsfällen für Unternehmen.
 
-In diesem Leitfaden erfahren Sie, wie Sie Bitcoin als globales, universelles und internetbasiertes Währungsnetzwerk verstehen können. Mit seinen einzigartigen grundlegenden Eigenschaften bietet **Bitcoin erhebliche Verbesserungen gegenüber traditionellen Währungsnetzwerken**. Sie werden herausfinden, warum und wie Sie Bitcoin für klassische Finanzanwendungen wie Kapitalspeicher und Zahlungssysteme nutzen können. Darüber hinaus behandelt dieser Leitfaden den Erwerb und das Halten von Bitcoin, einschließlich der damit verbundenen buchhalterischen und steuerlichen Anforderungen, sowie die Implementierung einfacher oder umfangreicher Bitcoin-Zahlungslösungen.
+In diesem Kurs lernen Sie, Bitcoin als globales, universelles und internetnatives Währungsnetzwerk zu verstehen. Mit seinen einzigartigen grundlegenden Eigenschaften bietet Bitcoin erhebliche Verbesserungen gegenüber traditionellen Währungen. Sie werden entdecken, warum und wie Sie Bitcoin für klassische Finanzanwendungsfälle wie Kapitalaufbewahrung und Zahlungssysteme nutzen können. Darüber hinaus behandelt dieser Kurs den Erwerb und das Halten von Bitcoin, einschließlich der damit verbundenen buchhalterischen und steuerlichen Anforderungen, sowie die Implementierung einfacher oder umfangreicher Bitcoin-Zahlungslösungen.
 
-Egal ob Sie ein **kleines Unternehmen oder ein großer Konzern** sind, die Integration von Bitcoin in Ihre täglichen Abläufe kann Ihr Unternehmen **resilienter, produktiver und wettbewerbsfähiger** machen. Jedes internetbasierte Unternehmen wird ein Bitcoin-orientiertes Unternehmen werden, und dieser Kurs stellt sicher, dass Sie darauf vorbereitet sind. In den ersten Abschnitten werden die Grundlagen der Funktionsweise von Bitcoin rekapituliert, so dass Sie, auch wenn Sie Anfänger sind, das nötige Grundwissen erlangen, um weiterzumachen. Es ist immer eine gute Idee, die Grundlagen von Satoshis Erfindung zu lernen, ob vor oder nach dem Eintauchen in BIZ101.
-
+Ob Sie ein kleines Unternehmen oder ein großer Konzern sind, die Integration von Bitcoin in Ihre täglichen Abläufe kann Ihr Unternehmen widerstandsfähiger, produktiver und wettbewerbsfähiger machen. Jedes internetbasierte Unternehmen wird zu einem Bitcoin-orientierten Unternehmen werden, und dieser Kurs stellt sicher, dass Sie vorbereitet sind.
 +++
 # Einführung
 

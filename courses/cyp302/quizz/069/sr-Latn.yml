@@ -6,4 +6,4 @@ wrong_answers:
   - Dužina ključa nema uticaja na Salsa20.
 explanation: |
   U simetričnoj šemi enkripcije Salsa20, dužina ključa (128 ili 256 bita) utiče na broj rundi u algoritmu, bez promene same suštine algoritma.
-reviewed: false
+reviewed: true

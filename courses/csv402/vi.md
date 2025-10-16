@@ -1,13 +1,11 @@
 ---
-name: Giao thức RGB, từ lý thuyết đến thực hành
+name: Lập trình RGB
 goal: Có được các kỹ năng cần thiết để hiểu và sử dụng RGB
-objectives: 
-
-  - Hiểu các khái niệm cơ bản của giao thức RGB
-  - Nắm vững các nguyên tắc xác thực phía khách hàng và cam kết Bitcoin
-  - Tìm hiểu cách tạo, quản lý và chuyển giao hợp đồng RGB
-  - Cách vận hành nút Lightning tương thích RGB
-
+objectives:
+- Hiểu các khái niệm cơ bản của giao thức RGB
+- Nắm vững các nguyên tắc xác thực phía khách hàng và cam kết Bitcoin
+- Tìm hiểu cách tạo, quản lý và chuyển giao hợp đồng RGB
+- Cách vận hành nút Lightning tương thích RGB
 ---
 # Khám phá giao thức RGB
 

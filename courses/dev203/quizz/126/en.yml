@@ -1,0 +1,8 @@
+question: What is the primary technical consequence of Breeze SDK's opinionated design philosophy compared to LDK's generic toolkit approach for Lightning wallet development?
+answer: It enables direct integration of essential services like LSP functionality within the SDK itself, allowing immediate payment reception without manual channel setup
+wrong_answers:
+  - It requires developers to implement more low-level networking protocols and payment routing algorithms compared to using generic Lightning libraries
+  - It forces wallet applications to handle network graph synchronization and anchor output management independently of the underlying Lightning implementation
+  - It necessitates custom implementation of LNURL support and exchange rate services since opinionated SDKs cannot include third-party integrations
+explanation: |
+  Breeze SDK's opinionated design specifically targets wallet applications, allowing it to integrate essential services like LSP functionality directly into the SDK. This contrasts sharply with LDK's generic approach, which requires developers to implement these services separately. The integration enables seamless user experiences like immediate payment reception for new wallets, whereas LDK's broad scope means developers must build these wallet-specific features from scratch, significantly increasing development complexity and time-to-market.

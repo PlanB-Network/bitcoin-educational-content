@@ -3,7 +3,7 @@ answer: Daleko izvan starosti univerzuma
 wrong_answers:
   - Nekoliko meseci sa klasičnim računarima
   - Nekoliko minuta sa superkompjuterima
-  - Nekoliko decenija za Bitcoin Mining farmu
+  - Nekoliko decenija za farmu za rudarenje Bitcoina
 explanation: |
   Složenost faktorizacije brojeva od 2048 bita je takva da bi bilo praktično nemoguće rešiti, čak i koristeći sve postojeće računske resurse tokom perioda dužeg od starosti univerzuma.
-reviewed: false
+reviewed: true

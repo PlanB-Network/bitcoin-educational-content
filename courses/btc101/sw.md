@@ -14,7 +14,7 @@ objectives:
 
 Katika kozi hii, tutaelezea misingi ya Bitcoin katika sura 25, ili uweze kuelewa teknolojia hii kwa njia rahisi na yenye ufanisi. Kozi hii inachunguza misingi ya sekta kwa ujumla, ikijumuisha mada kama vile uchimbaji, pochi, majukwaa ya kununua/kuuza na zaidi. Nyenzo za ziada za elimu zitapatikana katika safari yote, na pia tunakualika kuangalia "Mabango 21" katika sehemu ya nyenzo baada ya kumaliza kozi hii.
 
-Hauhitaji maarifa yoyote maalum ili kuanza. Kwa hakika, maudhui yafuatayo yanaweza kufikiwa na wanafunzi wa viwango vyote, na inapaswa kuchukua takriban saa 15 kumaliza.
+Hakuna ujuzi wa awali unaohitajika kuanza kozi hii. BTC 101 imeundwa ili iweze kufikiwa na kila mtu, bila kujali kiwango chako cha uzoefu.
 
 +++
 # Utangulizi

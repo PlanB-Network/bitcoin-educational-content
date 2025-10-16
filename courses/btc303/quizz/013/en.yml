@@ -1,0 +1,8 @@
+question: According to Matt Corallo's presentation, what is the relationship between trustless and trusted systems in Bitcoin's architecture?
+answer: You can build trusted systems on top of a trustless system, but not trustless systems on top of trusted systems
+wrong_answers:
+  - You can build trustless systems on top of trusted systems, but not trusted systems on top of trustless systems
+  - Both trustless and trusted systems can be built on top of each other without any architectural limitations
+  - Trustless and trusted systems must operate independently and cannot be layered on top of each other
+explanation: |
+  Matt Corallo's key insight is that Bitcoin's trustless base layer enables flexibility in system design. A trustless foundation like Bitcoin's protocol allows developers to create trusted services (like custodial wallets) on higher layers while preserving the underlying security guarantees. However, the reverse is impossible - you cannot create truly trustless systems if the foundation itself requires trust, as any trustless properties would be undermined by the trusted base layer's vulnerabilities.

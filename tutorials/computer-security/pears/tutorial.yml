@@ -1,0 +1,25 @@
+id: 6d42b312-c69f-4504-8f71-b03b56c42fdd
+
+project_id: 48ba05d4-d553-4402-9d56-6dab2d7e45dd
+
+tags:
+  - software
+  - network-security
+  - self-sovereignty
+
+category: communication
+
+level: intermediate
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-13
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

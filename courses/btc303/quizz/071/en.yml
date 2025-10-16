@@ -1,0 +1,8 @@
+question: What was the primary criticism raised in the very first email response to Satoshi Nakamoto's announcement of the Bitcoin whitepaper on the Cryptography mailing list?
+answer: The proposed system did not appear to scale to the required size
+wrong_answers:
+  - The cryptographic algorithms used were not sufficiently secure for financial applications
+  - The peer-to-peer architecture would make the system vulnerable to network attacks
+  - The consensus mechanism would consume too much computational energy to be practical
+explanation: |
+  The very first sentence of the first email response to Satoshi's Bitcoin whitepaper announcement specifically stated 'it does not seem to scale to the required size.' This shows that scaling concerns existed from Bitcoin's earliest public discussions, even before the network launched. The other options, while potentially valid concerns for a cryptocurrency system, were not the focus of that initial response, which immediately identified scalability as the primary issue with Satoshi's proposal.

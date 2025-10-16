@@ -1,14 +1,11 @@
 ---
-name: Itegeko rya RGB, kuva ku vyiyumviro gushika ku bikorwa
+name: Guhindura porogaramu RGB
 goal: Uronke ubuhinga bukenewe kugira ngo utahure kandi ukoreshe igitabu RGB.
-objectives: 
-
-  - Gutahura ivyiyumviro nyamukuru vy'amasezerano ya RGB
-  - Kumenya neza ingingo ngenderwako z'amasezerano ya Client-side Validation na Bitcoin
-  - Menya ingene wokora, wocungera no gutanga amasezerano ya RGB
-  - Uko wokoresha umuravyo uhuye na RGB
-
-
+objectives:
+- Gutahura ivyiyumviro nyamukuru vy'amasezerano ya RGB
+- Kumenya neza ingingo ngenderwako z'amasezerano ya Client-side Validation na Bitcoin
+- Menya ingene wokora, wocungera no gutanga amasezerano ya RGB
+- Uko wokoresha umuravyo uhuye na RGB
 ---
 # Kuvumbura amasezerano ya RGB
 

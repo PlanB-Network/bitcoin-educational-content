@@ -1,22 +1,19 @@
 ---
 name: Bitcoin untuk Bisnis
 goal: Pelajari dasar-dasar pembayaran dan perbendaharaan untuk membawa perusahaan Anda ke bitcoin
-objectives: 
-
-  - Bitcoin sebagai mata uang yang sedang berkembang dan alat bisnis
-  - Memahami mengapa dan bagaimana sebuah bisnis dapat menyimpan bitcoin dalam bentuk treasury atau menggunakannya untuk pembayaran
-  - Memiliki gambaran konkret tentang cara menerima pembayaran bitcoin dalam praktiknya
-  - Bersiaplah untuk mengelola persyaratan fiskal dan akuntansi
-
+objectives:
+- Temukan Bitcoin sebagai mata uang yang berkembang dan alat bisnis
+- Pahami mengapa dan bagaimana bisnis dapat menyimpan bitcoin di kas atau menggunakannya untuk pembayaran
+- Miliki ide konkret tentang cara menerima pembayaran Bitcoin dalam praktik
+- Bersiaplah untuk mengelola persyaratan fiskal dan akuntansi
 ---
-# Memulai perjalanan perusahaan Anda di jaringan bitcoin
+# Mulai perjalanan perusahaan Anda di jaringan Bitcoin
 
-Temukan kemampuan praktis Bitcoin dan Lightning Network, dan jelajahi bagaimana, seperti halnya internet, keduanya dapat **mengubah operasi bisnis Anda**. Dari modal digital hingga pembayaran yang cepat, ekonomis, dan terukur, Bitcoin menawarkan spektrum yang luas untuk berbagai macam kasus penggunaan untuk bisnis.
+Temukan kemampuan praktis dari jaringan Bitcoin dan Lightning, dan jelajahi bagaimana, seperti internet, mereka dapat mengubah operasi bisnis Anda. Dari perbendaharaan hingga pembayaran yang cepat, ekonomis, dan skalabel, Bitcoin menawarkan spektrum luas kasus penggunaan untuk bisnis.
 
-Dalam panduan ini, Anda akan belajar bagaimana memahami Bitcoin sebagai jaringan keuangan global, universal, dan jaringan internet. Dengan karakteristik fundamentalnya yang unik, **Bitcoin memberikan peningkatan yang signifikan dibandingkan jaringan mata uang tradisional**. Anda akan menemukan mengapa dan bagaimana cara memanfaatkan Bitcoin untuk kasus-kasus keuangan klasik seperti penyimpanan modal dan sistem pembayaran. Selain itu, panduan ini akan membahas cara memperoleh dan menyimpan Bitcoin, termasuk persyaratan akuntansi dan fiskal yang terkait, serta mengimplementasikan solusi pembayaran Bitcoin sederhana atau skala besar.
+Sepanjang kursus ini, Anda akan belajar memahami Bitcoin sebagai jaringan moneter global, universal, dan asli internet. Dengan karakteristik fundamental yang unik, Bitcoin menawarkan peningkatan signifikan dibandingkan mata uang tradisional. Anda akan menemukan mengapa dan bagaimana memanfaatkan Bitcoin untuk kasus penggunaan keuangan klasik seperti penyimpanan modal dan sistem pembayaran. Selain itu, kursus ini akan mencakup akuisisi dan kepemilikan Bitcoin, termasuk persyaratan akuntansi dan fiskal terkait, serta implementasi solusi pembayaran Bitcoin sederhana atau skala besar.
 
-Entah Anda seorang **bisnis kecil atau perusahaan besar**, mengintegrasikan Bitcoin ke dalam operasi harian Anda dapat membuat perusahaan Anda lebih **tahan banting, produktif, dan kompetitif**. Setiap perusahaan berbasis internet akan menjadi perusahaan yang berorientasi pada Bitcoin, dan kursus ini memastikan Anda siap. Bagian awal kursus ini merangkum dasar-dasar operasi Bitcoin, jadi meskipun Anda seorang pemula, Anda akan mendapatkan pengetahuan dasar yang diperlukan untuk melanjutkan. Mempelajari dasar-dasar penemuan Satoshi selalu merupakan ide yang bagus, baik sebelum atau sesudah mempelajari BIZ101.
-
+Baik Anda adalah bisnis kecil atau korporasi besar, mengintegrasikan Bitcoin ke dalam operasi harian Anda dapat membuat perusahaan Anda lebih tangguh, produktif, dan kompetitif. Setiap perusahaan berbasis internet akan menjadi perusahaan berorientasi Bitcoin, dan kursus ini memastikan Anda siap.
 +++
 # Pendahuluan
 

@@ -1,0 +1,8 @@
+question: According to Bitcoin Core's responsible disclosure practices, when should vulnerability details be publicly disclosed after a fix has been deployed?
+answer: After more than 80% of Bitcoin nodes have deployed the fixes
+wrong_answers:
+  - Immediately after the patch is released to prevent false security assumptions
+  - After all major altcoins have been notified and updated their implementations
+  - After a standard 90-day embargo period regardless of deployment status
+explanation: |
+  Bitcoin Core follows a deployment-based disclosure timeline rather than a fixed time period. The 80% threshold ensures that the vast majority of the network is protected before attackers can learn about the vulnerability from public disclosure. This approach prioritizes network security over arbitrary timelines, as premature disclosure could expose the remaining 20% of nodes to targeted attacks. The other options represent common practices in traditional software security but don't account for Bitcoin's decentralized nature where users must voluntarily upgrade their nodes.

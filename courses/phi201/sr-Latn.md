@@ -91,14 +91,14 @@ Zašto naslov ovog kursa: istorija slobode? Zato što treba da razumemo odnos iz
 
 > Kada prošlost više ne osvetljava budućnost, duh hoda u tami (Alexis de Tokvil - _Demokratija u Americi_.)
 
-![image](assets/1/img-028.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 U isto vreme, Auguste Comte je rekao: "Neko ne poznaje u potpunosti nauku dok ne poznaje njenu istoriju." Ova istina bi se mogla primeniti na ideju slobode.
 
 Zaista, sloboda nije nova ideja. To je nasleđe koje se prenosi kroz generacije. Cela istorija civilizacije svedoči o neprekidnoj borbi za slobodu.
 
-![image](assets/1/img-022.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 Međutim, cilj ovog kursa nije samo da osvetli istoriju slobode, već i, što je još važnije, da razvije kritičko rasuđivanje. Zaista, sama istorija nije dovoljna da se sudi o sadašnjosti i budućnosti. Potrebno je da bude praćena kritičkom refleksijom i sudom o greškama prošlosti. Ovo je doprinos filozofije. Zato sam ovaj kurs nazvao: filozofska istorija slobode. Radi se upravo o istraživanju kako su filozofi kroz vekove zamišljali slobodu.
@@ -114,7 +114,7 @@ Od svog porekla, ima dvostruku svrhu:
 - Prvo, treba dati značenje nejasnim i konfuznim konceptima. Šta je dobro, istinito, pravedno, lepo? Kao što je funkcija istorije da osvetli prošlost, tako je filozofija umetnost pravilnog definisanja pojmova. Zato treba da počnemo u ovom kursu razumevanjem šta je sloboda.
 
 
-![image](assets/1/img-027.webp)
+![image](assets/sr-Latn/003.webp)
 
 
 Sloboda je koncept koji pokriva mnoštvo varijanti, koje su isto toliko mogućih deklinacija iste stvarnosti: politička sloboda, ekonomska sloboda, sloboda savesti, govora, verska sloboda, sloboda udruživanja, itd. O kojoj stvarnosti govorimo?
@@ -136,7 +136,7 @@ Pojam odgovornosti je posledica slobode jer svaki izbor ima posledice. Odgovorna
 Iz ove perspektive, postoje samo dve vrste političkih filozofija: filozofija slobode i filozofija moći.
 
 
-![image](assets/1/img-016.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 
@@ -152,17 +152,17 @@ Oni koji brane prvu filozofiju u Francuskoj su fiziokrati, sa Fransoom Keneom na
 
 > Nije zato što postoje zakoni da postoje svojine, već zato što postoje svojine da postoje zakoni. (_Svojina i Zakon_).
 
-![image](assets/1/img-018.webp)
+![image](assets/sr-Latn/005.webp)
 
 
 Za Turgota i Saya, učenike Keneja, postoji prirodni zakon, nezavisan od hirova zakonodavaca, koji važi za sve ljude i prethodi svakom društvu. Ova filozofija dolazi direktno iz srednjovekovne skolastike, stoicizma, Aristotela i Sofokla. Neispisani zakoni su i pre i iznad pisanih zakona jer potiču iz ljudske prirode i razuma.
 
 
-![image](assets/1/img-014.webp)
+![image](assets/sr-Latn/006.webp)
 
 Druga filozofija se nalazi među autorima kao što su Ruso, Robespjer ili Kant, koji oličavaju republikansku tradiciju za koju je suverenitet opšte volje pravi izvor zakona. Savremenik Keneu, Ruso je anti-fiziokrat. Za njega, zakonodavac mora organizovati društvo, poput mehaničara koji izmišlja mašinu od inertne materije.
 
-![image](assets/1/img-026.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 > "Onaj ko se usuđuje da preuzme osnivanje naroda," kaže Ruso, "mora se osećati sposobnim da promeni, da tako kažemo, ljudsku prirodu, da transformiše svakog pojedinca koji je, sam po sebi, savršena i usamljena celina, u deo veće celine od koje taj pojedinac, na neki način, prima svoj život i biće." (_Društveni ugovor_)
@@ -200,7 +200,7 @@ Istorija je tako borba između dva principa: slobode i ugnjetavanja:
 ### Šta je ugnjetavanje?
 
 
-![image](assets/1/img-025.webp)
+![image](assets/sr-Latn/008.webp)
 
 
 U jednoj reči, to je pljačka. Bastiat skicira glavne tipove pljačke koje dolaze od vladajućih elita: rat, ropstvo, teokratija i monopol. Zaista, prema njemu: "Postoje samo dva načina da se steknu potrepštine za očuvanje, ulepšavanje i poboljšanje života: PRODUKCIJA i PLJAČKA." ([_Fiziologija pljačke_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
@@ -229,7 +229,7 @@ U [_Fiziologiji pljačke_](http://bastiat.org/fr/physiologie_de_la_spoliation.ht
 ### Istorija pljačke
 
 
-![image](assets/1/img-020.webp)
+![image](assets/sr-Latn/009.webp)
 
 
 Istorijski gledano, vladajuće elite su uvek živele od pljačke. Bastiat primećuje:
@@ -259,7 +259,7 @@ Nekoliko dana pre svoje smrti u Rimu 1850. godine, Bastija je poverio svom prija
 Poznato je, istoriju pišu pobednici. Pažnja je često usmerena na osvajanje moći, na živote lidera na vlasti i na sukobe koji ih suprotstavljaju onima koji žele da zauzmu njihovo mesto.
 
 
-![image](assets/1/img-023.webp)
+![image](assets/sr-Latn/010.webp)
 
 
 Ovo je posebno tačno za udžbenike namenjene javnim školama i napisane od strane profesora zaposlenih od strane države.
@@ -275,7 +275,7 @@ Ovaj autor je najpoznatiji po svojoj maksimi: "Moć teži da korumpira, a apsolu
 ### Aktonova Teza
 
 
-![image](assets/1/img-029.webp)
+![image](assets/sr-Latn/011.webp)
 
 
 Za Actona, sukob između slobode i moći je centralna tema ljudske istorije, a sloboda je pokretačka snaga napretka i evolucije društava. Acton je nastojao da razume faktore koji su doprineli usponu slobode na Zapadu. Njegov cilj je bio da identifikuje uslove neophodne za njeno očuvanje i razvoj. Proučavao je filozofske ideje, društvene strukture i političke kontekste koji su vremenom pogodovali njenom nastanku.
@@ -302,7 +302,7 @@ Tako Volter, u svojim [_Filozofskim pismima_](https://fr.wikisource.org/wiki/Let
 
 > Kad bi u Engleskoj postojala samo jedna religija, njen despotizam bi bio za strahovanje; kad bi postojale samo dve, one bi se međusobno klale; ali ih ima trideset, i one žive u miru i sreći. ([O prezbiterijancima](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
-![image](assets/1/img-105.webp)
+![image](assets/sr-Latn/012.webp)
 
 
 Condorcet, u svom [_Sketch for a Historical Picture of the Progress of the Human Mind_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), pripisuje decentralizovanu strukturu moći u Italiji rivalstvu između pape i cara, što je omogućilo opstanak mnogih nezavisnih gradova-država.
@@ -318,7 +318,7 @@ Ova teza se takođe nalazi u monumentalnom delu iz 1983. godine: _Law and Revolu
 
 Međutim, postoji još jedna perspektiva o istoriji. Ona je bila prilično uspešna i dugo je uživala podršku zapadnih intelektualaca i predstavnika Globalnog Juga. Ovo je socijalistički i marksistički pogled na istoriju.
 
-![image](assets/1/img-024.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 Objašnjava izvanredan rast Evrope prvenstveno kroz napredak tehnologije u kombinaciji sa "primitivnom akumulacijom" kapitala, koja potiče iz imperijalizma, ropstva, trouglaste trgovine, eksproprijacije malih seljaka i eksploatacije radničke klase. Zaključak je jasan. Ovaj izuzetan evropski rast postignut je na račun miliona i miliona robova i potlačenih pojedinaca.
@@ -346,7 +346,7 @@ Ova analiza odražava nerazumevanje viška vrednosti i kooperativne i dinamičke
 
 Zapravo, marksistička analiza iskrivljuje istorijsku stvarnost Industrijske revolucije. Ludwig von Mises je razjasnio ovo pitanje u svom ekonomskom traktatu [_Ljudska akcija_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (pogledajte posebno poglavlje pod nazivom [Popularna interpretacija Industrijske revolucije](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) kao i u seriji predavanja objavljenih pod naslovom: [_Ekonomska politika: Misli za danas i sutra_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Takođe vredi pročitati, Antikapitalistički mentalitet [ovde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) i [ovde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
-![image](assets/1/img-030.webp)
+![image](assets/sr-Latn/014.webp)
 
 
 Mises objašnjava da su poslovi u fabrikama, iako bedni po našim standardima, predstavljali najbolju moguću priliku za radnike tog vremena.
@@ -367,7 +367,7 @@ Mises dodaje da je poboljšanje ljudskog stanja na taj način postalo moguće ak
 Pre industrijske revolucije, većina ljudi je živela u ruralnim društvima i zavisila od poljoprivrede za svoj opstanak. Imali su malo toga za prodaju na tržištu, što je ograničavalo njihove mogućnosti i njihov životni standard. Svi su očekivali da će živeti u apsolutnom siromaštvu i zamišljali su sličnu sudbinu za svoje potomke. Niko nije bio ogorčen situacijom koja se činila neizbežnom.
 
 
-![image](assets/1/img-106.webp)
+![image](assets/sr-Latn/015.webp)
 
 
 Sa dolaskom industrijalizacije, pojavile su se nove prilike, stvarajući rastuću potražnju za radnom snagom. Po prvi put, ljudi bez zemlje ili značajnih resursa mogli su prodavati svoj rad fabrikama i proizvođačima u Exchange za platu, osiguravajući sigurnost za budućnost.
@@ -394,7 +394,7 @@ Nakon toga, nijansiranija istorijska analiza od one koju je dao Marks omogućava
 Kako kaže Jean Baechler, član Akademije moralnih i političkih nauka, u _The Origins of Capitalism_ (1971):
 
 
-![image](assets/1/img-021.webp)
+![image](assets/sr-Latn/016.webp)
 
 
 > Prvi uslov za maksimizaciju ekonomske efikasnosti je oslobađanje civilnog društva od Države (...) Ekspanzija kapitalizma duguje svoje poreklo i raison d'être političkoj anarhiji.
@@ -416,7 +416,7 @@ Zaključujući ovo poglavlje, ekonomski i kulturni uzlet Evrope nije bio rezulta
 U poslednjem poglavlju _Anatomy of the State_ (prevedeno na francuski kao _L’anatomie de l’Etat_, od strane Résurgence editions), Murray Rothbard predlaže teoriju istorije. Ovo veoma kratko poglavlje nosi naslov: Istorija, trka između državne moći i društvene moći. Prema Rothbardu, istorija se može razumeti kao večiti sukob između dva osnovna principa:
 
 
-![image](assets/1/img-013.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 
@@ -454,7 +454,7 @@ Pisani ustav svakako ima mnogo prednosti, ali je ozbiljna greška pretpostaviti 
 ### 20. vek: vek povlačenja
 
 
-![image](assets/1/img-012.webp)
+![image](assets/sr-Latn/018.webp)
 
 
 Prema Rothbardu, istorija nije linearan proces, već oscilacija između napretka društvene moći i ponovnog uspostavljanja kontrole od strane države:
@@ -470,7 +470,7 @@ Od 17. do 19. veka, u mnogim zapadnim zemljama, postojali su periodi ubrzanja dr
 
 > Tokom ovog veka, ljudska rasa se suočava, još jednom, sa virulentnom vladavinom Države; Država sada naoružana stvaralačkom snagom čoveka, konfiskovanom i izopačenom za sopstvene ciljeve.
 > Šta je, uostalom, slobodno društvo? To je društvo bez monopola. U svom delu političke filozofije, _Etika slobode_ (1982), Rotbard odgovara: "društvo u kojem ne postoji zakonska mogućnost prinudne agresije protiv ličnosti ili imovine pojedinca." Zato se, prema njemu, politička filozofija, koja mora definisati principe pravednog društva, svodi na jedno jedino pitanje: "Ko legitimno poseduje šta?"
-> ![image](assets/1/img-029.webp)
+> ![image](assets/sr-Latn/019.webp)
 
 Za Rothbarda, društveni poredak može prevladati ako je proizvod generalizacije ugovornih procedura za slobodno Exchange vlasničkih prava, privatizacijom svih ekonomskih aktivnosti, pa čak i suverenih funkcija (centralna banka, sudovi) i pribegavanjem konkurenciji među agencijama za zaštitu.
 
@@ -498,7 +498,7 @@ I dodaje:
 Iskustvo atinske demokratije ostavilo je trajan trag u istoriji političke misli i nastavlja da inspiriše ideale demokratije i učešća građana u današnjem svetu.
 
 
-![image](assets/2/img-107.webp)
+![image](assets/sr-Latn/020.webp)
 
 
 Atinska demokratija bila je karakterisana živahnom javnom debatom o gradskim poslovima, koja se prvenstveno odvijala u agori, tržnici. Ovaj način rada, zasnovan na razumu i kritičkoj diskusiji, oštro je kontrastirao sa ranijim praksama gde su zakoni i običaji smatrani svetim i nepromenljivim, prenetim od predaka i zaštićenim od strane bogova.
@@ -509,7 +509,7 @@ Atinska demokratija bila je karakterisana živahnom javnom debatom o gradskim po
 
 Atinska demokratija predstavlja veliki prekid sa prošlim tradicijama. Zaista, u ranijim društvima nije moglo biti "politike" u smislu diskusije o društvenim pravilima, jer su ona bila nametnuta na transcendentan način putem mita.
 
-![image](assets/2/img-109.webp)
+![image](assets/sr-Latn/021.webp)
 
 
 Istoričar Jean-Pierre Vernant piše:
@@ -520,7 +520,7 @@ Istoričar Jean-Pierre Vernant piše:
 
 > (Jean Pierre Vernant, _Porijeklo grčke misli_, Pariz, P.U.F, 1962)
 
-![image](assets/2/img-001.webp)
+![image](assets/sr-Latn/022.webp)
 
 
 Grčka reč "polis," koja daje "politics" na francuskom, znači grad-država. Kada Aristotel piše da je "čovek po prirodi politička životinja," to ne znači da je stvoren za moć. Pod politikom, on misli na sposobnost ljudi da raspravljaju na javnom trgu kako bi odredili šta je pravedno, a šta nepravedno.
@@ -549,7 +549,7 @@ A Žan-Pjer Vernan dodaje:
 Društvena harmonija nije proizvod namerne akcije bogova, već poslušnosti svih građana istom bezličnom zakonu. Moć više nije stvar sveštenika, postala je stvar svih. Tako se pojavljuje pojam jednakosti pred zakonom: "_isonomia_," ali i retorika. Ovladavanje govorom bilo je ključno za ubeđivanje sugrađana na skupštinama i sudovima.
 
 
-![image](assets/2/img-110.webp)
+![image](assets/sr-Latn/023.webp)
 
 
 Za Aristotela, tiranija je poslušnost čoveku, a sloboda je poslušnost zakonu. Njemu se pripisuje ovaj citat:
@@ -565,7 +565,7 @@ Cicero, čuveni rimski govornik i filozof iz 1. veka pre nove ere, preuzeo je ov
 Ideja republike potiče iz grčke filozofije. Često je suprotstavljena demokratiji, koja se smatra previše rizičnom. Platon je svoje glavno delo političke filozofije nazvao: _Republika_, i vrlo strogo sudi o demokratiji. Kada narod vlada, postoji veliki rizik da nametne zakon svojih želja i pomeša dobro sa prijatnim. Otuda tragična smrt Sokrata, osuđenog na smrt od strane narodne porote, manipulirane sofistima. Platon je iz ovoga izvukao sve pouke.
 
 
-![image](assets/2/img-111.webp)
+![image](assets/sr-Latn/024.webp)
 
 
 Aristotel bi koristio termin republika da označi pravedan ustav, onaj koji teži ka zajedničkom interesu i tretira građane kao slobodne ljude. Pravi režim slobode je onaj gde je zakon opšti, jednak za sve, anoniman, a ne lična naredba.
@@ -591,7 +591,7 @@ Prema Jacqueline de Romilly:
 (_Ancient Greece at the Discovery of Freedom, Paris, Editions de Fallois, 1989_)
 
 
-![image](assets/2/img-108.webp)
+![image](assets/sr-Latn/025.webp)
 
 
 Herodot je uveren da je narod slobodnih ljudi narod koji poštuje zakon, a ne gospodara, kao u Persijskom carstvu gde je samo jedan čovek slobodan, a svi ostali su robovi. Ovo važi za Atinu, demokratiju, ali važi i za Spartu. Kralj ne stvara zakon, on ne nameće svoju volju. On osigurava poštovanje zakona, on je u njegovoj službi i umire, ako je potrebno, da ga brani.
@@ -603,7 +603,7 @@ Herodot je uveren da je narod slobodnih ljudi narod koji poštuje zakon, a ne go
 Udaljavajući se od mitološkog mišljenja, Tales, Anaksimandar, Anaksimen, a kasnije Demokrit i Empedokle, bili su prvi koji su nastojali da razumeju phusis (prirodu) kroz razum, a ne kroz natprirodna bića.
 
 
-![image](assets/2/img-009.webp)
+![image](assets/sr-Latn/026.webp)
 
 
 Osnovni princip koji su postavili ovi rani predsokratski filozofi je da Elements kosmosa (univerzuma) ostaju na mestu jer su svi podjednako podložni istom "zakonu prirode" (phusis) koji se može izraziti na univerzalan i neophodan način. Univerzum je racionalan, on čini strukturisanu celinu, koju čovek može otkriti svojim razumom ("logos" nasuprot "mutos", mitu).
@@ -614,7 +614,7 @@ Prema Karlu Poperu, dugujemo filozofima antičke Grčke, posebno predsokratovcim
 Što se tiče prvih znakova postojanja kritičkog stava, nove slobode mišljenja, oni se pojavljuju u Anaksimandrovoj kritici Talesa. Ovo je prilično jedinstven fenomen, mislilac kojeg Anaksimandar kritikuje je njegov učitelj, njegov sunarodnik, jedan od Sedam mudraca, onaj koji je osnovao Jonsku školu. Prema tradiciji, Anaksimandar je bio samo četrnaest godina mlađi od Talesa, i verovatno je formulisao svoje kritike i predstavio svoje nove koncepte tokom života svog učitelja (izgleda da su umrli, čini se, nekoliko godina razmaka). Međutim, u izvorima se ne nalazi nikakav dokaz neslaganja, svađe ili raskola.
 
 
-![image](assets/2/img-008.webp)
+![image](assets/sr-Latn/027.webp)
 
 
 Ove Elements ukazuju, prema njemu, da je Tales taj koji je započeo ovu novu tradiciju slobode, zasnovanu na originalnom odnosu između učitelja i učenika. Tales je bio sposoban da toleriše kritiku i, štaviše, uspostavio je tradiciju njenog priznavanja. Popper ovde identifikuje prekid sa dogmatskom tradicijom, koja dozvoljava samo jednu školsku doktrinu, da bi je zamenio pluralizmom i falibilizmom.
@@ -643,7 +643,7 @@ Rimsko carstvo je bilo ogromna kosmopolitska tvorevina. Na svom vrhuncu, oko 117
 - Na istoku se prostiralo do Mesopotamije (današnji Irak) i Jermenije.
 
 
-![image](assets/2/img-007.webp)
+![image](assets/sr-Latn/028.webp)
 
 
 Od tada su Rimljani unapredili razvoj prava daleko iznad Grka, koji su živeli u malim, etnički homogenim gradovima-državama. Pod Rimskom Republikom, već je postojala pravna zaštita imovine i individualnih prava.
@@ -658,7 +658,7 @@ Privatna svojina je dobila novu dimenziju u rimskoj civilizaciji koju ranije nij
 Rimsko pravo bi postalo temelj svih modernih zapadnih zakona tokom srednjeg veka i do našeg vremena.
 
 
-![image](assets/2/img-012.webp)
+![image](assets/sr-Latn/029.webp)
 
 
 ### Zaštita pojedinačnih prava
@@ -673,7 +673,7 @@ Ovaj zakon zapanjujuće odgovara fundamentalnim prirodnim pravima kako ih je teo
 Svakako, žene, robovi i stranci su i dalje bili isključeni iz pune zaštite zakona. Ipak, Zakonik dvanaest tablica predstavljao je značajan napredak i osnovu za dalji razvoj individualnih prava proširenih na sve.
 
 
-![image](assets/2/img-006.webp)
+![image](assets/sr-Latn/030.webp)
 
 
 Zakon dvanaest tablica posebno naglašava važnost prava vlasništva:
@@ -709,7 +709,7 @@ Model ravnoteže u mislima je Seneka, rimski stoički filozof koji je pisao o va
 Rasprava o srećnom životu (_De Vita Beata_) je zagovor stoičke moralnosti. Sreća, kaže Seneka, "je slobodna duša \[...\] nedostupna strahu \[...\] za koju je jedino zlo moralna nedostojnost." Učenik Sokrata, stoički mudrac ne boji se fizičkog zla, smrti, pa čak ni trpljenja nepravde. Za njega je jedino zlo moralno zlo. Stoga, vrhovno dobro leži u vrlini.
 
 
-![image](assets/2/img-011.webp)
+![image](assets/sr-Latn/031.webp)
 
 
 Međutim, zadovoljstvo nije nespojivo sa vrlinom:
@@ -745,7 +745,7 @@ Aristotel razlikuje prirodnu pravdu od pravne pravde. Prirodna pravda je ono št
 Dramaturg Sofokle, u svojoj drami _Antigona_, prikazuje sukob između božanskog zakona i ljudskog zakona. Antigona odbija da posluša dekret kralja Kreonta koji zabranjuje sahranu njenog brata, tvrdeći da božanski zakoni, nepromenljivi i superiorni, imaju prednost nad ljudskim zakonima.
 
 
-![image](assets/2/img-002.webp)
+![image](assets/sr-Latn/032.webp)
 
 
 Kada Antigona ne posluša Kreonta, ona se suprotstavlja pozitivnom zakonu da bi sledila svoju moralnu i religijsku savest. Ako postoji samo pozitivni zakon, kaže Aristotel, Kreont je uvek u pravu, čak i kada greši. Ali ako održavamo regulativnu ideju prirodnog ili božanskog zakona, Antigona može ustati kada dođe vreme i pozvati se protiv nepravednog zakona, na superiorno pravo nepisanog zakona.
@@ -757,7 +757,7 @@ Kada Antigona ne posluša Kreonta, ona se suprotstavlja pozitivnom zakonu da bi 
 Cicero je živeo u 1. veku pre nove ere i smatra se najvećim oratorom latinskog jezika pod Rimskim carstvom. Takođe je moralni i politički filozof blizak stoicima. Njegove eseje čitali su obrazovani Evropljani kroz mnoge vekove.
 
 
-![image](assets/2/img-004.webp)
+![image](assets/sr-Latn/033.webp)
 
 U svom traktatu _O zakonima_ (_De Legibus_), on razmišlja o temelju zakona. Prema njemu, pozitivni zakon, skup konvencija ili pisanih zakona koje usvaja društvo, ne može uspostaviti pravdu dostojnu tog imena. Postoji prirodna pravda, upisana u ljudski razum: "zakon ima temelj u samoj prirodi." Reći da su pravedno i nepravedno rezultat konvencije znači reći da je istina dekretirana. Međutim, istina ne može biti dekretirana, čak ni od strane većine, ona vodi naše sudove.
 
@@ -788,13 +788,13 @@ Tvrdeći da se zakon ne može svesti samo na statute koje donosi zakonodavno tel
 Zašto je Rim propao i na kraju pao? Mnogi vole misliti da je Rimsko carstvo iznenada propalo pod uticajem varvarskih invazija. Međutim, uzroci propasti Rimskog carstva mogu se pronaći mnogo ranije, u imperijalizmu i ekonomskom i monetarnom dirigizmu.
 
 
-![image](assets/2/img-013.webp)
+
 
 
 Godine 1734, u svom delu _Razmatranja o uzrocima veličine Rimljana i njihovog opadanja_, Montesquieu je razvio originalnu i jedinstvenu tezu kako bi objasnio uspon i pad rimske moći: sloboda stečena pod Republikom, a zatim izgubljena pod Carstvom. Od trenutka kada se rimska dominacija proširila, sloboda je izgubljena, a dekadencija je nastupila.
 
 
-![image](assets/2/img-003.webp)
+![image](assets/sr-Latn/034.webp)
 
 
 Rimsko carstvo je bilo parazitski vojni režim, koji je mogao opstati samo kroz konstantan priliv opljačkanog bogatstva spolja, zarobljenika svedenih na ropstvo i ukradenih zemalja.
@@ -831,7 +831,7 @@ Zatim je politička nestabilnost dodata ekonomskoj nestabilnosti, sa više od 50
 Klasičan primer intervencionizma pojavio se u Rimu kada je car Dioklecijan želeo da ograniči cene. Intervencionizam se definiše kao delovanje sile koja prevazilazi svoju ulogu održavanja reda i zaštite građana. To je pokušaj kontrole tržišta, sa ciljem modifikovanja cena, plata, kamatnih stopa i profita.
 
 
-![image](assets/2/img-005.webp)
+![image](assets/sr-Latn/035.webp)
 
 
 Ponovljene monetarne emisije od strane uzastopnih careva kako bi se nosili sa povećanjem vojnih rashoda izazvale su porast cena. Godine 301, Dioklecijan je proglasio Edikt o maksimumu u pokušaju da ih ograniči. Bio je to neuspeh.
@@ -850,7 +850,7 @@ Rimski car Dioklecijan je poznat kao poslednji rimski car koji je progonio hriš
 Prateći stope Montesquieua, Philippe Fabry pokazuje da je Rim doživeo putanju od liberalizma do socijalizma. Philippe Fabry je istoričar prava, institucija i političkih ideja. Predavao je na Univerzitetu u Toulouseu 1 Capitole i autor je nekoliko knjiga, uključujući _Rim, od liberalizma do socijalizma_, 2014.
 
 
-![image](assets/2/img-010.webp)
+![image](assets/sr-Latn/036.webp)
 
 
 Da li je Rim bio najveća liberalna sila starog sveta? Da li je potom pao u oblik socijalizma? Prvo da definišemo pojmove:
@@ -898,7 +898,7 @@ I dodaje:
 Hrišćanska ideja slobode razvijala se u srednjovekovnoj teologiji od Svetog Avgustina u 4. veku, do Svetog Tome Akvinskog u 13. veku. Šta je ta ideja?
 
 
-![image](assets/3/img-036.webp)
+![image](assets/sr-Latn/037.webp)
 
 
 ### Sloboda je uključena u ideju greha
@@ -930,7 +930,7 @@ Ukratko, sloboda je dobra jer omogućava čoveku da se usmeri ka dobru i ka Bogu
 
 U srednjovekovnoj teologiji, promisao nije stalna intervencija Boga u životima ljudi, kao da Bog deluje umesto nas i bez našeg pristanka. Naprotiv, Bog daje svakom stvorenju, prema njegovoj prirodi, sposobnosti koje mu omogućavaju da se samo brine o sebi i tako dostigne svoj puni razvoj. Bog ne čini dobro umesto stvorenja.
 
-![image](assets/3/img-039.webp)
+![image](assets/sr-Latn/038.webp)
 
 
 I što se više penjemo na lestvici bića, od minerala do čoveka, to Bog više delegira svom stvorenju moć da deluje samostalno. On poverava čoveku slobodu da upravlja sobom i svetom svojom razumom, prema vrlini razboritosti.
@@ -941,7 +941,7 @@ Tako piše Sveti Toma (_Summa contra Gentiles_, III, 69 i 122):
 
 > Oduzeti od savršenstva stvorenja znači umanjiti savršenstvo božanske moći (...) Bog je uvređen od nas samo zato što delujemo protiv sopstvenog dobra.
 
-![image](assets/3/img-037.webp)
+![image](assets/sr-Latn/039.webp)
 
 
 Providnost nam, dakle, daje sredstva da budemo sopstvena providnost. I dodaje:
@@ -973,7 +973,7 @@ Prema Svetom Tomi:
 U srednjem veku, razum i vera se takmiče za pristup istini. Nakon Abélarda i Alberta Velikog, Toma Akvinski je u 13. veku odlučio da brani prava razuma i njegovu autonomiju u odnosu na veru.
 
 
-![image](assets/3/img-048.webp)
+![image](assets/sr-Latn/040.webp)
 
 
 Pozajmljuje iz Aristotelove misli ideju o autonomnom prirodnom poretku, nezavisnom od nebeskog poretka. Ovaj prirodni poredak je zaista nadmašen natprirodnim poretkom, ali postoji odvojeno i prethodi mu. Dakle, za njega postoje dva načina da se dođe do istine o svetu, a posebno o Bogu:
@@ -1012,7 +1012,7 @@ Ovo je srednja pozicija, koja nastoji da pomiri veru i razum. Pravi racionalizam
 Hrišćanski srednji vek je bio obeležen, početkom 13. veka, rađanjem i mnoštvom univerziteta na Zapadu. Univerzitet je zajednica studenata i majstora iz istog grada pod kontrolom Crkve i u principu obuhvata četiri fakulteta: umetnosti, teologiju, pravo, medicinu. Teologija se shvata kao nauka, po uzoru na grčku nauku.
 
 
-![image](assets/3/img-041.webp)
+![image](assets/sr-Latn/041.webp)
 
 Godine 1200, Philippe-Auguste je osnovao Univerzitet u Parizu, koji je brzo postao najpoznatiji univerzitet u Evropi. Godine 1257, Robert de Sorbon je osnovao teološki koledž na Univerzitetu u Parizu, koji će kasnije biti nazvan Sorbona. Novi metod podučavanja i istraživanja poznat kao skolastika (od schola, škola) pojavio se unutar ovih univerziteta. Uključivao je "disputatio," vrstu kontradiktorne debate pred publikom. Predlagana je teza, nakon čega su sledili prigovori na koje je trebalo odgovoriti. Kada bi svi argumenti bili iscrpljeni, majstor bi rešavao debatu razumnim rešenjem.
 
@@ -1042,7 +1042,7 @@ Pitanje odnosa između politike i religije oblikovalo se radom Svetog Augustina 
 
 Dve ljubavi su tako stvorile dva grada: ljubav prema sebi do prezira prema Bogu, zemaljski grad; ljubav prema Bogu, do prezira prema sebi, nebeski grad.
 
-![image](assets/3/img-043.webp)
+![image](assets/sr-Latn/042.webp)
 
 
 Dakle, imamo:
@@ -1056,7 +1056,7 @@ Dakle, imamo:
 Međutim, za Augustina, ovaj zemaljski grad je neophodan. Neophodan je jer garantuje mir. Dakle, suživot sa religioznima mora biti dobro upravljan, i treba ga regulisati preovlađivanjem duhovne moći nad vremenskom moći. Ali ne bi trebalo da postoji radikalna separacija ili otvoreni sukob, i oba entiteta treba da rade zajedno. Istoričari su ovu doktrinu nazvali politički augustinizam.
 
 
-![image](assets/3/img-033.webp)
+![image](assets/sr-Latn/043.webp)
 
 
 ### Rivalstvo između vremenske moći i duhovne moći
@@ -1108,7 +1108,7 @@ Biblijska etika je asimetrična, što znači da se mora dati više nego što se 
 Najpoznatija inkarnacija ove nove doktrine je Škola u Salamanki, u Španiji u 16. veku. Fransisko de Vitorija, jedan od njenih predstavnika, tvrdi da ako je svaki čovek stvoren po Božijem liku, nijedan čovek ne može biti proglašen inferiornim u odnosu na drugog, ni Jevrejin, ni crni rob, ni Indijanac.
 
 
-![image](assets/3/img-042.webp)
+![image](assets/sr-Latn/044.webp)
 
 
 Otkrivanje Amerika predstavljalo je pravi kulturni šok, prvi proboj u političko-religijski unizam nasleđen iz Antike. Poznata kontroverza oko prava Indijanaca zaista je podelila teologe u dva suprotstavljena i nepomirljiva tabora.
@@ -1124,7 +1124,7 @@ U _Summa Theologica_, St. Toma postavlja sledeće pitanje: da li treba poslušat
 
 Učenjaci iz Salamanke primenili su ovo razmišljanje na slučaj domorodačkih naroda: vlasništvo je prirodno pravo. Dakle, oduzimanje zemlje domorodačkim narodima je čin krađe, isto kao da su hrišćani. Takođe nije dozvoljeno voditi rat protiv njih s obzirom na to da nema agresije s njihove strane, već s naše.
 
-![image](assets/3/img-035.webp)
+![image](assets/sr-Latn/045.webp)
 
 
 Pitanje starosedelačkih naroda bilo je prva pukotina u političko-religijskom monolitu. Pokazalo je da jedinstvo političkog društva može počivati na osnovi drugačijoj od verskog jedinstva stanovnika iste teritorije, na osnovi zajedničke pripadnosti ljudskoj prirodi.
@@ -1154,11 +1154,14 @@ Hajde da se fokusiramo na prvu tačku. Druga tačka će biti obrađena u naredno
 Henri Pirenne, belgijski istoričar s početka 20. veka, posvetio je deo svog rada analizi pojave kapitalizma u Evropi. U svojoj knjizi _Istorija Evrope_, navodi:
 
 
-![image](assets/3/img-034.webp)
+
 
 
 > Sve suštinske karakteristike kapitalizma — individualno preduzetništvo, napredak kredita, komercijalni profiti, špekulacija, itd. — već su postojale od 12. veka u italijanskim gradovima-državama, Veneciji, Đenovi ili Firenci.
-> Prema Pirenu, ovi trgovački gradovi, zahvaljujući svom komercijalnom dinamizmu i strateškom položaju na pomorskim putevima, razvili su ekonomske prakse karakteristične za nastajući kapitalizam. On posebno ističe:
+
+![image](assets/sr-Latn/046.webp)
+
+Prema Pirenu, ovi trgovački gradovi, zahvaljujući svom komercijalnom dinamizmu i strateškom položaju na pomorskim putevima, razvili su ekonomske prakse karakteristične za nastajući kapitalizam. On posebno ističe:
 
 
 - **Uspon individualnog preduzetništva:** Italijanski trgovci, često iz bogatih porodica, ulagali su sopstvena sredstva u daleke komercijalne ekspedicije, preuzimajući tako rizike i očekujući značajne profite.
@@ -1175,12 +1178,13 @@ Pirenne primećuje da su ove prakse, iako prisutne u drugim delovima Evrope, do�
 
 Sveto pismo osuđuje zajmove s kamatama, nazvane lihvarstvo, smatrajući da davanje novca na kamatu znači iskorištavanje ranjivih zajmoprimaca. Međutim, u praksi, Crkva je zatvarala oči pred tim pitanjem.
 
+![image](assets/sr-Latn/047.webp)
 
 Jacques Le Goff je francuski istoričar specijalizovan za kulturu i mentalitete srednjeg veka. Sledeći Pirena, on prepoznaje prisustvo semena kapitalizma još u srednjem veku, naročito u italijanskim gradovima, gde su prakse kao što su individualno preduzetništvo, težnja za profitom i korišćenje kreditnih instrumenata već bile prisutne.
 
 Or Le Goff ističe u _L'usure au Moyen Âge_ (1967, ponovo objavljeno 1986. pod naslovom: _La bourse et la vie; économie et religion au moyen-age_) da je još u 13. veku, Sveti Albert Veliki teoretisao pojam "legitimnog interesa" koji je kasnije razvio Sveti Toma Akvinski. Uprkos religijskim zabranama, praksa pozajmljivanja je postojala i zadovoljavala stvarne ekonomske potrebe. Dugo pre Adama Smita, oni su razumeli da kamata na zajmove nije lihvarstvo već način da se omogući naknada za rizik za zajmodavca i investicija za zajmoprimca, što su osnove kapitalizma.
 
-![image](assets/3/img-047.webp)
+![image](assets/sr-Latn/048.webp)
 
 
 Međutim, prema francuskom istoričaru, uspon kapitalizma mora biti postavljen u širi kontekst ekonomskih, socijalnih i kulturnih transformacija koje su se odvijale tokom nekoliko vekova. Le Goff posebno naglašava značaj Komercijalne revolucije 15. i 16. veka, obeležene ekspanzijom pomorske trgovine i otkrićem novih trgovačkih puteva, što je podstaklo akumulaciju kapitala i prevlast tržišne logike.
@@ -1192,7 +1196,7 @@ Međutim, prema francuskom istoričaru, uspon kapitalizma mora biti postavljen u
 Sistematsko proučavanje ekonomskih zakona počinje u visokom srednjem veku. Prvi ekonomisti su skolastički teolozi Pariške škole. Prvi među njima koji je napisao naučni traktat u potpunosti posvećen ekonomskoj temi je Nikola Oresme (1325-1382). Oko 1360. godine, on je sastavio svoj _Traktat o poreklu, prirodi, zakonu i promenama novca_ koji rezimira i razvija ideje skolastičara svog vremena.
 
 
-![image](assets/3/img-031.webp)
+![image](assets/sr-Latn/049.webp)
 
 
 U središtu njegove monetarne analize leži problem "mutacija" novca, odnosno promene u metalnom sadržaju kovanica i njihovoj denominaciji. Ove promene su se dešavale od pamtiveka i dobro su dokumentovane za Antiku i Srednji vek. Njihov najvidljiviji efekat je promena kupovne moći monetarne jedinice, posebno njeno smanjenje. Ovo je primitivni oblik inflacije koji Oresme jasno osuđuje kao zlo.
@@ -1230,7 +1234,7 @@ Oresme naglašava da promene valute nisu samo igra preraspodele u korist vlasti 
 
 Od renesanse, Evropu su pustošili verski ratovi. Tolerancija je, stoga, postala jedna od velikih bitaka prosvetiteljstva.
 
-![image](assets/4/img-112.webp)
+![image](assets/sr-Latn/050.webp)
 
 
 Za neke bi naučni metod ujedinio ljude izvan predrasuda sa zajedničkim pogledom na svet. Zar univerzalna privlačnost nije ista za katolika, protestanta, Jevreja ili ateistu? Tako Enciklopedija Diderota i d’Alemberta predstavlja pokušaj da se promoviše univerzalno znanje, sposobno da ujedini ljude.
@@ -1247,7 +1251,7 @@ Za Voltera, to je prvenstveno ljudska grešnost koja čini temelj doktrine toler
 
 > Tolerancija je neophodna posledica naše svesti o tome da smo skloni greškama. Grešiti je ljudski, i svi mi stalno pravimo greške. Oprostimo jedni drugima naše ludosti; ovo je prvi zakon prirode.
 
-![image](assets/4/img-078.webp)
+![image](assets/sr-Latn/051.webp)
 
 
 Ali u svojim _Filozofskim pismima_ (1734), Volter nudi drugačiji pogled. On primećuje da u Engleskoj trgovina podstiče versku toleranciju, koja je suštinska komponenta građanskog mira, a samim tim i sreće. Piše ova pisma kako bi kritikovao verske ratove u Francuskoj, podstaknute apsolutnom i nametljivom političkom moći. Ovo predstavlja prvu radikalnu kritiku Starog režima.
@@ -1288,7 +1292,7 @@ U _Desetom pismu_, "O trgovini", Voltaire opisuje francuski način razmišljanja
 Ipak, Francuska nije oskudevala u velikim umovima. Malo je poznato, ali Anne Robert Jacques Turgot, Baron de Laulne, bio je pre svega vodeći mislilac pre nego što je postao generalni kontrolor finansija pod Lujem XVI. Bio je autor majstorskog traktata o političkoj ekonomiji, _Reflections on the Formation and Distribution of Wealth_ (1766), koji je prethodio _The Wealth of Nations_ Adama Smitha (1776).
 
 
-![image](assets/4/img-074.webp)
+![image](assets/sr-Latn/052.webp)
 
 Njegovi rani spisi odražavaju njegovu Commitment prema filozofiji prosvetiteljstva. Godine 1754. objavio je svoje _Pisma o građanskoj toleranciji_, a 1757. nekoliko članaka napisanih za _Enciklopediju_ od strane Diderota i d'Alemberta.
 
@@ -1315,7 +1319,7 @@ Drugim rečima, biti tolerantan ne znači biti neprijateljski nastrojen prema re
 Ekonomski liberalizam se često povezuje sa anglosaksonskom tradicijom koja potiče od Adama Smita, u kontrastu sa "političkim liberalizmom," za koji se kaže da potiče iz kontinentalnog prosvetiteljstva, posebno u Francuskoj. Ovaj pogled je netačan.
 
 
-![image](assets/4/img-069.webp)
+![image](assets/sr-Latn/053.webp)
 
 
 Bilo je to kao reakcija na merkantilizam i, šire gledano, na ideje Ancien Régime-a da je ekonomska nauka rođena u Francuskoj. Sa prosvetiteljstvom je došao period u kojem su filozofi počeli da sebe nazivaju "ekonomistima", to su bili fiziokrati.
@@ -1343,7 +1347,7 @@ Od ovog trenutka, dve veoma različite koncepcije počele su da se pojavljuju un
 Ova fraza se pojavila kada je Jean-Baptiste Colbert, glavni savetnik Luja XIV, jednog dana upitao trgovce: "Šta mogu učiniti za vas?" Jedan od njih, po imenu François Legendre, odgovorio je: "Pustite nas da radimo!"
 
 
-![image](assets/4/img-051.webp)
+![image](assets/sr-Latn/054.webp)
 
 
 Fraza je usvojena od strane fiziokrata, Françoisa Quesnaya, markiza d'Argensona, a zatim i od Vincenta de Gournaya: "Laissez-faire, laissez passer." Postala je njihov moto.
@@ -1368,7 +1372,7 @@ Sve do Francuske revolucije, društvo je živelo u aristokratskoj ekonomiji zasn
 Međutim, od srednjeg veka, kao što smo videli, tržišna ekonomija se razvijala. Trgovci su postajali bogatiji i sticali sve više ekonomskih sloboda.
 
 
-![image](assets/4/img-068.webp)
+![image](assets/sr-Latn/055.webp)
 
 
 Tržište je o dobrovoljnom Exchange po dogovorenoj ceni. Tržište poboljšava materijalno, intelektualno i političko stanje svih jer omogućava sticanje prostora autonomije i inicijative.
@@ -1377,7 +1381,7 @@ Tržište je o dobrovoljnom Exchange po dogovorenoj ceni. Tržište poboljšava 
 Zaista, ljudi prirodno žele da poboljšaju svoje stanje i stanje svojih voljenih, kroz Exchange dobara i usluga. Otuda želja ovih novih filozofa, "ekonomista," da omoguće ljudima da sami sebi obezbede dovoljan prihod i tako postignu ono što Kant naziva u svom pamfletu _Šta je prosvetljenje?_ njihovu "zrelost," njihovu autonomiju odlučivanja i delovanja.
 
 
-![image](assets/4/img-060.webp)
+![image](assets/sr-Latn/056.webp)
 
 
 Za fiziokrate, sloboda se ne deli. Borba protiv političkih privilegija i suzbijanje ekonomskih renti su jedno te isto. Velika novina modernih ekonomista, na pragu 18. veka, bila je da su se fokusirali na svakog pojedinca sa namerom da obnove njegovu sposobnost za delovanje, dok su razmišljali o tome kako obuzdati strasti i interese kroz slobodno tržište.
@@ -1417,7 +1421,10 @@ Tokom svog kratkog mandata kao ministar finansija (generalni kontrolor), od avgu
 
 
 > Morate, Sire, naoružati se protiv svoje dobrote, svojom dobrotom samom, uzimajući u obzir odakle dolazi novac koji možete raspodeliti svojim dvorjanima.
-> Godine 1774. objavio je svojih Šest edikata kako bi ukinuo cehove i majstorije (korporacije koje su postale monopoli i prepreke za ulazak na tržište rada), ukinuo unutrašnje carine na trgovinu žitom, ukinuo prinudni rad (korvée) i uspostavio toleranciju prema protestantima.
+
+![image](assets/sr-Latn/057.webp)
+
+Godine 1774. objavio je svojih Šest edikata kako bi ukinuo cehove i majstorije (korporacije koje su postale monopoli i prepreke za ulazak na tržište rada), ukinuo unutrašnje carine na trgovinu žitom, ukinuo prinudni rad (korvée) i uspostavio toleranciju prema protestantima.
 
 Nažalost, rastuće cene pšenice, nakon loše žetve, bacile su sumnju na njegove reforme. Turgot je napisao u svoju odbranu:
 
@@ -1447,7 +1454,7 @@ Posvećujući jedno poglavlje "Briljantnosti Turgota," Murray Rothbard u svojoj 
 Godine 1776, filozof Étienne Bonnot de Condillac objavio je _Trgovina i vlada_, verovatno jedan od najveličanstvenijih zagovora tog doba u korist slobodne trgovine i individualne slobode.
 
 
-![image](assets/4/img-053.webp)
+![image](assets/sr-Latn/058.webp)
 
 
 _Commerce and Government_ sadrži ono što će kasnije biti nazvano teorijom subjektivnosti vrednosti, što mu je donelo sve pohvale austrijskih ekonomista, počevši od Mengera. Sledeći Turgota, ali sa većom jasnoćom, Kondijak tvrdi da vrednost ne leži u radu već u činjenici da svako pronalazi interes u Exchange:
@@ -1466,7 +1473,7 @@ To je takođe rasprava o filozofiji jer pokazuje kako je slobodan i dobrovoljan 
 Godine 1776, Englez po imenu Tomas Pejn objavio je u Americi žestoku brošuru koja kritikuje englesku monarhiju i zalaže se za nezavisnost američkih kolonista: _Common Sense_.
 
 
-![image](assets/4/img-065.webp)
+![image](assets/sr-Latn/059.webp)
 
 
 Paine tvrdi da:
@@ -1497,11 +1504,11 @@ Thomas Paine, kroz svoj pamflet, odigrao je ključnu ulogu u Američkoj revoluci
 Dana 4. jula 1776. godine, u Filadelfiji, gde su okupljeni na kongresu (na engleskom, "Convention"), predstavnici Trinaest engleskih kolonija Severne Amerike usvajaju rezoluciju kojom se navodi da "Sjedinjene Države jesu, i po pravu treba da budu, slobodne i nezavisne Države". Rezoluciju podržavaju Džon Adams (jedan od inspiratora Bostonske čajanke) i Bendžamin Frenklin, delegati iz Masačusetsa. Deklaraciju o nezavisnosti će sastaviti Tomas Džeferson, delegat iz Virdžinije.
 
 
-![image](assets/4/img-066.webp)
+![image](assets/sr-Latn/060.webp)
 
 Tokom godina koje su usledile, Francuzi La Fayette, Rochambeau, Admiral de Grasse, Grof d'Estaing, General Duportail, Markiz de la Rouerie, Komandant Pierre L'Enfant, pisac Beaumarchais, i mnogi drugi borili su se uz Pobunjenike kako bi ih oslobodili jarma Kralja Engleske.
 
-![image](assets/4/img-081.webp)
+![image](assets/sr-Latn/061.webp)
 
 
 141 godina kasnije, 4. jula 1917, usred Svetskog rata, organizovana je ceremonija za prve vojnike AEF-a koji su stigli u Pariz na groblju Pikpus na grobu La Fajeta, "heroja dva sveta." Tom prilikom, kapetan Čarls E. Stanton iz štaba generala Pershinga održao je čuveni govor:
@@ -1524,7 +1531,7 @@ Godine 1789, ponovo je La Fayette, zajedno sa Jeffersonom, postavio prve temelje
 Adam Smith je 1776. godine objavio _Istraživanje prirode i uzroka bogatstva naroda_. Plodan rad koji ga često svrstava među ekonomiste iako je predavao moralnu filozofiju na Univerzitetu u Glazgovu. Na karikaturalan način, pamti se kao otac moderne ekonomije.
 
 
-![image](assets/4/img-070.webp)
+![image](assets/sr-Latn/062.webp)
 
 
 U stvarnosti, Smith je mnogo dugovao ekonomistima Quesnayju i Turgotu koje je sreo tokom putovanja dužeg od godinu dana u Francuskoj. U ovoj knjizi, on posebno opisuje "jednostavan sistem prirodne slobode" u kojem su pojedinci, sledeći svoje interese, vođeni "nevidljivom rukom" da unaprede dobrobit društva u celini.
@@ -1570,7 +1577,7 @@ Sve do 18. veka, glavni politički problem za ove filozofe je stoga pitanje suve
 
 Ideja je bila inspirisana Lokom u 17. veku, a zatim ju je preuzeo Ruso. Suverena moć ne sme samo da potiče iz slobodne volje naroda, već mora i da prebiva u njoj. Ovo je rusojistička teorija suvereniteta opšte volje, ono što danas nazivamo demokratijom.
 
-![image](assets/4/img-071.webp)
+![image](assets/sr-Latn/063.webp)
 
 
 Rousseau zamišlja narod kao autonomnog pojedinca sposobnog da se podvrgne zakonima koje sami uspostavljaju. Slobodna volja naroda predstavlja jedini pravedni temelj suvereniteta. Rousseau bi razvio ovaj pravni humanizam, karakterističan za modernost, do njegovih krajnjih posledica zamišljajući narod kao pojedinca sposobnog za slobodno samoodređenje ili kao opštu volju. Tako, Contract podrazumeva pokoravanje zakonima koje čovek kao opšta volja daje sebi kao posebnoj volji. Teorija opšte volje ili suvereniteta naroda tako omogućava pomirenje slobode i pokoravanja. Samoinstitucija zakona ili politička autonomija zaista je bila suštinska komponenta demokratije još od Rousseaua.
@@ -1585,7 +1592,7 @@ Ali pitanje o poreklu suvereniteta nije jedino. Refleksija može krenuti u novom
 Jedan od filozofa prosvetiteljstva čiji je uticaj bio veoma jak u Francuskoj i Americi je Džon Lok. On je bio inspiracija osnivačima Sjedinjenih Američkih Država, ali i Deklaracije o pravima čoveka i građanina iz 1789. godine.
 
 
-![image](assets/4/img-063.webp)
+![image](assets/sr-Latn/064.webp)
 
 
 Svi prethodni sistemi su smatrali da su slobode samo privilegije koje vlast daje na osnovu ovlašćenja koje može biti opozvano u bilo kom trenutku. Za Loka, čovekov život je njegov sopstveni na osnovu prirodnog prava (što znači: na osnovu moralnog principa inherentnog ljudskoj prirodi) i da je jedina moralna svrha vlade zaštita individualnih prava.
@@ -1601,7 +1608,7 @@ Thomas Jefferson je upisao Lokovu teoriju neotuđivih prava u Deklaraciju nezavi
 Smatramo da su ove istine očigledne, da su svi ljudi stvoreni jednaki, da su obdareni od strane svog Stvoritelja određenim neotuđivim pravima, među kojima su život, sloboda i težnja za srećom.
 
 
-![image](assets/4/img-058.webp)
+![image](assets/sr-Latn/065.webp)
 
 
 Štaviše, Član 2 Francuske deklaracije o pravima iz 1789. takođe crpi inspiraciju iz ove Lokove tradicije prirodnog prava:
@@ -1618,7 +1625,7 @@ Američka revolucija je bila vođena ljudima koji su govorili o fundamentalnim n
 U 19. veku, Alexis de Tocqueville, francuski politički filozof, pokušao je da identifikuje razlike između dve sestrinske revolucije. On pripisuje uspeh Američke revolucije nekoliko faktorima.
 
 
-![image](assets/4/img-076.webp)
+![image](assets/sr-Latn/066.webp)
 
 
 Prvo, na način definisanja republike. Francuska Republika je jedna i nedeljiva. Američka Republika je sastavljena od suverenih država, od kojih svaka poseduje sopstvenu jurisdikciju i lokalne interese. Federalizam se u Francuskoj smatra izdajom. U Americi, izdaja bi se sastojala u želji da se nametne jedinstvo. Barem do Američkog građanskog rata, Unija u raznolikosti država bila je snaga Federacije.
@@ -1641,7 +1648,7 @@ Ova formulacija eksplicitno štiti od tiranije većine. Međutim, Francuska revo
 Abbé Sieyès (1748-1836) se smatra ocem Francuske revolucije. On je autor dela _Šta je treći stalež?_, u januaru 1789.
 
 
-![image](assets/4/img-073.webp)
+![image](assets/sr-Latn/067.webp)
 
 
 Treći stalež obuhvatao je sve one koji nisu pripadali sveštenstvu ili plemstvu. Od prvih redova svoje čuvene brošure, Abbé Sieyès je hvalio individualne slobode i slobodnu konkurenciju:
@@ -1659,13 +1666,13 @@ Konfiskacija crkvenih poseda imala je za cilj da spreči finansijsku krizu; bila
 
 Štaviše, kao što je Dupont de Nemours predvideo, izdavanje falsifikovane valute samo je pogoršalo krizu, izazivajući široko rasprostranjenu inflaciju i oštar pad vrednosti Asignata. U avgustu 1792. godine, nemiri zbog gladi su zauzvrat doveli do pobune u Parizu, pogubljenja Luja XVI u januaru 1793, a zatim i do Vladavine terora.
 
-![image](assets/4/img-080.webp)
+![image](assets/sr-Latn/068.webp)
 
 
 Godine 1795, pet godina nakon prvog izdavanja, papirni novac je izgubio 99% svoje vrednosti. Francuska revolucija se nastavila pod Direktorijumom do 1799. godine, kada je Napoleon preuzeo vlast putem državnog udara. Postao je Prvi konzul Francuske Republike pre nego što je krunisan za cara 1804. godine. Ovo je bila jedna od prvih očiglednih kontradikcija sa Deklaracijom o pravima čoveka, koja je proklamovala da je privatna svojina nepovrediva.
 
 
-![image](assets/4/img-050.webp)
+![image](assets/sr-Latn/069.webp)
 
 
 U Americi nije bilo ekonomskog dirigizma, niti monetarnog bankrota poput onog sa Asignatima. I iznad svega, nije bilo proskripcija, masovnih emigracija, giljotine, masakra, niti vladavine terora. Odmah se može videti razlika u sredstvima delovanja koja razdvaja Američku revoluciju od Francuske revolucije.
@@ -1694,7 +1701,7 @@ Ovo je, štaviše, značenje primedbe Friedricha Hayeka u njegovoj knjizi _The C
 Prema Benjamin Constantu, sloboda u našim modernim društvima više se ne može shvatiti na način društava Antike kao direktno učešće u poslovima grada.
 
 
-![image](assets/5/img-103.webp)
+![image](assets/sr-Latn/070.webp)
 
 
 ### Sloboda u privatnom životu
@@ -1705,7 +1712,7 @@ U drevna vremena, pojedinac je bio suveren u javnim poslovima, ali porobljen u s
 
 > Sloboda Starih sastojala se od aktivnog i stalnog učešća u kolektivnoj moći. Naša sloboda, s druge strane, mora se sastojati od mirnog uživanja privatne nezavisnosti; iz toga sledi da moramo biti mnogo više vezani za našu individualnu nezavisnost nego što su to bili stari. (_O slobodi Starih u poređenju sa slobodom Modernih_ (1819))
 
-![image](assets/5/img-084.webp)
+![image](assets/sr-Latn/071.webp)
 
 
 Moderna sloboda je građanska sloboda, koja uključuje ekonomsku slobodu i zasniva se na pravu na privatnost. To je pravo da se ne bude podvrgnut bilo kakvoj samovolji, pravo na izražavanje, okupljanje, kretanje, bogosluženje i industriju. Nema slobode bez mogućnosti izbora sopstvenog načina života i vrednosti, dakle nema slobode bez mogućnosti povlačenja iz zajednice i samim tim nema slobode bez ograničenja države kako bi se omogućilo postojanje ovog privatnog prostora. To je sloboda koja odgovara onome što Amerikanci nazivaju građanskim pravima.
@@ -1716,10 +1723,12 @@ Ova definicija slobode nalazi se kod Džona Stjuarta Mila:
 
 > Jedina sloboda koja zaslužuje to ime je ona koja nam omogućava da sledimo sopstveno dobro na svoj način, sve dok ne pokušavamo da lišimo druge njihovog ili ometamo njihove napore da ga postignu. (...) Čovečanstvo više dobija dopuštajući svakom pojedincu da živi kako mu odgovara nego prisiljavajući ga da živi kako se drugima čini dobrim. (_O slobodi_, 1859)
 
-![image](assets/5/img-097.webp)
+![image](assets/sr-Latn/072.webp)
 
 
 Mill iznosi granice državnog suvereniteta: on prestaje tamo gde počinje suverenitet pojedinca. Ako pojedinačna akcija nema štetne posledice po druge, tada je pojedinac potpuno slobodan da je izvrši. Država mora regulisati međuljudske odnose, ali ne može ići dalje, mešajući se u privatne živote pojedinaca. Ako pojedinac nanosi štetu sebi, država ne može učiniti ništa osim "prigovoriti" ili pokušati "razumeti" ili "ubeđivati" ih: ne može prisiljavati ili kažnjavati. Jer Mill dodaje: "Jedini legitiman razlog zbog kojeg država može koristiti silu protiv jednog od svojih članova, protiv njihove volje, jeste da spreči nanošenje štete drugima."
+
+![image](assets/sr-Latn/073.webp)
 
 Politička moć koja odgovara slobodi Modernih je stoga ograničena moć: "Neka se vlast ograniči na to da bude pravedna, mi ćemo se pobrinuti za našu sreću," proglašava Benjamin Constant. Nije na Državi da nam govori kako da budemo srećni.
 
@@ -1764,7 +1773,7 @@ Drugim rečima, u slobodnom društvu, neophodno je uspostaviti strogu granicu iz
 Alexis de Tokvil je bio pažljiv posmatrač demokratije i kritičar demokratskog individualizma.
 
 
-![image](assets/5/img-095.webp)
+![image](assets/sr-Latn/074.webp)
 
 
 Tocquevilleova analiza demokratije suštinski proširuje distinkciju koju je napravio Constant između slobode Starih i slobode Modernih. U članku iz 1836. godine (_Društveno i političko stanje Francuske pre i posle 1789._), Tocqueville metodično upoređuje aristokratsku slobodu sa demokratskom slobodom. Prva je definisana kao "Uživanje privilegije," a Tocqueville navodi primer rimskog građanina koji svoju slobodu ne izvodi iz prirode, već iz pripadnosti Rimu.
@@ -1777,7 +1786,7 @@ Drugi koncept, koji je "ispravna ideja slobode," sastoji se u "jednakom i neotu�
 Tokvil pažljivo identifikuje sve političke i kulturne efekte ovog novog načina postojanja, tipično modernog. Kao obožavalac Paskala, on ima za cilj da prikaže veličinu i bede demokratije.
 
 
-![image](assets/5/img-085.webp)
+![image](assets/sr-Latn/075.webp)
 
 
 Godine 1841. u _Demokratiji u Americi_, on analizira ovaj demokratski princip koji se nameće u izjednačavanju uslova naspram hijerarhije klasa i autoriteta tradicija. I primećuje da ovaj proces logično prati raspad društvenih uticaja, veze zavisnosti, i atomizuje društvenu vezu, čime se ugrožava samo ostvarivanje slobode i političke odgovornosti građanina. Štaviše, gubitak velikih antičkih ideala (vrlina, opšte dobro) vodi osiromašenju smisla života, "ka malim i vulgarnim zadovoljstvima," ka dosadi i nelagodnosti.
@@ -1828,7 +1837,7 @@ U ovom govoru, Tokvil poredi socijalizam sa Ancien Régime, za koje su "njegovi 
 
 > Ja sam za demokratiju, ako ovom rečju mislite: Svakom vlasništvo nad svojim radom, sloboda za sve, jednakost za sve, pravda za sve i mir među svima. (_Slobodna trgovina_).
 
-![image](assets/5/img-088.webp)
+![image](assets/sr-Latn/076.webp)
 
 
 Ali 1848. godine, nakon februarske revolucije, Bastiat je izabran za poslanika Landes-a u skupštini gde su socijalisti trijumfalno ušli. Ovi potonji su zahtevali samo jednu stvar: da zakon potvrdi princip bratstva. Drugim rečima, da se donesu zakoni koji obezbeđuju rad, obrazovanje i zdravstvenu zaštitu za sve.
@@ -1845,7 +1854,7 @@ Država tada postaje, prema Bastiatovim rečima,
 > velika fikcija kroz koju svako nastoji da živi na račun svih ostalih. ([_Država_](http://bastiat.org/fr/l_etat.html))
 > Bastiat takođe razvija ideju da sukob nastaje kada zakon odstupa od svoje prave uloge. U svom poznatom pamfletu [_Zakon_](http://bastiat.org/fr/la_loi.html), on pokazuje zašto i kako je zakon postao "bojno polje svih pohlepa," što znači izvor privilegija, situacionih renti i proizvoljnog oporezivanja. Čim se u principu prihvati da zakon može biti skrenut sa svoje prave misije, da može kršiti svojine umesto da ih garantuje, nužno sledi klasna borba, bilo da se brani od pljačke ili da se organizuje za sopstvenu korist.
 
-![image](assets/5/img-098.webp)
+![image](assets/sr-Latn/077.webp)
 
 
 U slučajevima kada zakon samo sprovodi prava svakog pojedinca i garantuje _"kolektivnu organizaciju individualnog prava na legitimnu odbranu,"_ niko nije u poziciji da ga iskoristi za sopstvenu korist na račun svih, do te mere da sam oblik vlasti postaje sekundarno pitanje.
@@ -1873,13 +1882,13 @@ Pogledajte globus. Koji su najsrećniji, najmoralniji i najmirniji narodi? Oni g
 Bilo je to tokom 19. veka kada se pojavila kritika kapitalizma, a posebno marksistička kritika.
 
 
-![image](assets/5/img-089.webp)
+![image](assets/sr-Latn/078.webp)
 
 
 Kakva je korist od prava na govor, pisanje i glasanje, uzviknuo je Marks, ako je svakodnevni život borba za opstanak? Iznad određenog praga, siromaštvo se izjednačava sa ropstvom. Društveni poredak stoga koristi svima samo ako se primenjuje princip pravedne raspodele dobara. Upravo je ova kritika liberalizma navela Marksa da razmotri potrebu za racionalnom i planiranom kontrolom društvenog poretka. Od sada, minimalnu državu liberala mora naslediti jaka država sposobna da uspostavi stvarnu jednakost, koja, prema Marksu, ide do ukidanja privatne svojine i njene kolektivizacije. U ublaženijoj verziji, "socijaldemokratiji," od države se traži da garantuje ne samo apstraktna prava čoveka već i konkretna prava čoveka. Stvaraju se nova prava, socijalna i ekonomska prava, garantovana od strane države: pravo na rad, pravo na stanovanje, pravo na zdravlje (besplatno), pravo na obrazovanje (besplatno).
 
 
-![image](assets/5/img-091.webp)
+![image](assets/sr-Latn/079.webp)
 
 
 ### Mit o nepristrasnoj državi
@@ -1902,7 +1911,7 @@ Ova politička iluzija liberalizma je sekularna strana religiozne iluzije, dodaj
 
 Zapravo, za Marksa i u skladu sa istorijskim materijalizmom, ekonomsko otuđenje je u korenu političkog otuđenja kao i religijskog otuđenja. U ekonomskom otuđenju, koje je rezultat kapitalizma (definisanog kao privatna Ownership sredstava za proizvodnju), radnik je primoran da prodaje svoju radnu snagu kao robu. Štaviše, lišen je proizvoda svog rada, koji je u vlasništvu poslodavca. Tako je otuđen, što znači odvojen od sebe jer njegov rad postaje nešto strano njemu što obavlja silom, da bi preživeo. Ipak, rad je za Marksa suštinski ljudski čin, onaj kroz koji se ostvaruje sama suština čoveka, odnosno sloboda. Zato oslobađanje rada takođe znači vraćanje čoveka njegovom dostojanstvu i ljudskosti.
 
-![image](assets/5/img-104.webp)
+![image](assets/sr-Latn/080.webp)
 
 
 Politička revolucija je stoga iluzija, prema njemu, sve dok nije praćena ekonomskom i socijalnom revolucijom sposobnom da oslobodi čoveka od kapitalističkog ropstva i tako postigne jedinstvo između radnika i građanina, između društva i države, privatne sfere i javne sfere. Formalna sloboda i jednakost građanina će tako postati stvarne, u društvu bez klasa.
@@ -1917,7 +1926,7 @@ Politička revolucija je stoga iluzija, prema njemu, sve dok nije praćena ekono
 Austrijska škola ekonomije, koju je osnovao Karl Menger krajem 19. veka, od početka se suprotstavljala teorijama Karla Marksa.
 
 
-![image](assets/5/img-083.webp)
+![image](assets/sr-Latn/081.webp)
 
 
 ### Borba klasa
@@ -1936,7 +1945,7 @@ Na primer, poslodavac zapošljava radnika jer su mu potrebne njegove veštine za
 
 Ludwig von Mises ističe da Marx nije uspeo da razlikuje ono što se odnosi na buržoasku ideologiju u ljudskim pravima i šta ona znači u praksi, prevrate koje podrazumeva u društvenom životu. Mnogi kritički mislioci ljudskih prava napravili su istu grešku. To je bio slučaj i sa kontrarevolucionarima, kao što su Joseph de Maistre ili Louis de Bonald.
 
-![image](assets/5/img-092.webp)
+![image](assets/sr-Latn/082.webp)
 
 
 U _Etika slobode_ i _Anatomija države_, Murray Rothbard je objasnio da eksploatacija ima smisla samo kao agresija protiv privatne svojine i da jedino država ostvaruje svoje prihode kroz agresiju, to jest, kroz oporezivanje, dug, štampanje novca, i tako kroz inflaciju. U stvarnosti, državna intervencija, a ne klasna borba, je izvor nasilja i sukoba u društvu. Država, prisvajanjem resursa i regulisanjem ekonomije, stvara distorzije i nepravde koje vode ka sukobima i represiji. Okončanje eksploatacije stoga zahteva smanjenje moći predatorske kaste: države.
@@ -1954,7 +1963,7 @@ Koncept klasne borbe može takođe dovesti do ideje da je sve dozvoljeno. Marks 
 Mises je skovao termin "polilogizam" da objasni ovu sofizmu. "Poly" znači mnogo, a "logism" se odnosi na racionalni diskurs i logiku. Prema Marksu, postojalo bi nekoliko nespojivih logika, ona proletarijata i ona buržoazije.
 
 
-![image](assets/5/img-096.webp)
+![image](assets/sr-Latn/083.webp)
 
 
 Ipak, sve do sredine 19. veka, niko se nije usuđivao da ospori činjenicu da je logička struktura uma identična i zajednička za sva ljudska bića. Svi ljudski odnosi zasnivaju se na pretpostavci o uniformnoj logičkoj strukturi. Ljudi mogu da se upuste u diskusiju jer mogu da se pozovu na nešto zajedničko svima, naime, logičku strukturu razuma.
@@ -1977,7 +1986,7 @@ Zato bi Žorž Sorel, uvoznik marksizma u Francusku, rekao da je nasilje korisno
 Austrijanci tvrde da je Marksova teorija vrednosti zasnovana na radu, prema kojoj je vrednost robe određena količinom rada potrebnog za njenu proizvodnju, pogrešna. Oni smatraju da je vrednost subjektivna i određena potrošačkim preferencijama, a ne troškovima proizvodnje.
 
 
-![image](assets/5/img-087.webp)
+![image](assets/sr-Latn/084.webp)
 
 
 Eugen von Böhm-Bawerk, jedan od ranih austrijskih ekonomista, kritikovao je Marksovu teoriju vrednosti rada u svom delu _Wert, Kapital und Zins_ (1886). Böhm-Bawerk je tvrdio da je Marksova teorija zasnovana na fundamentalnoj grešci, naime da su sve jedinice rada identične. U stvarnosti, tvrdio je, neki rad je teži ili produktivniji od drugih, i to je ono što određuje vrednost robe.
@@ -1993,7 +2002,7 @@ Friedrich Hayek je razvio teoriju profita zasnovanu na konceptu neizvesnosti, ko
 Marksisti veruju da je socijalizam, ekonomski sistem u kojem su sredstva za proizvodnju u vlasništvu i pod kontrolom radnika, neizbežno superioran kapitalizmu. Austrijanci, s druge strane, tvrde da je socijalizam nemoguće ostvariti u praksi, jer bi zahtevao nerealističan stepen centralnog planiranja.
 
 
-![image](assets/5/img-090.webp)
+![image](assets/sr-Latn/085.webp)
 
 
 Još 1922. godine, u svojoj knjizi _Socijalizam,_ Ludwig von Mises je pokazao da bi socijalizam doveo do široko rasprostranjenih nestašica, jer centralni planeri ne bi mogli da donose tačne ekonomske kalkulacije bez cenovnog sistema koji obezbeđuje tržište.
@@ -2008,7 +2017,7 @@ Još 1922. godine, u svojoj knjizi _Socijalizam,_ Ludwig von Mises je pokazao da
 Uznemiren porastom intervencionizma vlade u ekonomijama zapadnih demokratija, Hajek je napisao _Put u ropstvo_ kao filozofsku kritiku kolektivizma, bilo sa desnice ili levice. Objavljena u nekoliko miliona primeraka, zahvaljujući _Reader’s Digest_-u, ova knjiga je u velikoj meri doprinela Hajekovoj slavi u Sjedinjenim Državama.
 
 
-![image](assets/5/img-100.webp)
+![image](assets/sr-Latn/086.webp)
 
 
 ### Privlačnost kolektivizma
@@ -2038,7 +2047,7 @@ Nasuprot tome, planiranje ekonomije i društva uopšte, suština socijalizma, us
 Od prvih stranica, Hayek uspostavlja paralelu između trijumfa socijalističkih ideala na Zapadu i istovremenog uspeha totalitarnih utopija.
 
 
-![image](assets/5/img-093.webp)
+![image](assets/sr-Latn/087.webp)
 
 
 > Malo ljudi, upozorava on u svom predgovoru, spremno je da prepozna da uspon fašizma i nacizma nije bio reakcija protiv trendova (...) prethodnog perioda, već neizbežan rezultat tih trendova. Ovo je nešto što je većina ljudi odbila da vidi, čak i u trenutku kada su shvatili sličnost koju nude određene negativne osobine domaćih režima Komunističke Rusije i Nacističke Nemačke. Rezultat je da mnogi ljudi koji sebe smatraju iznad aberacija nacizma i koji iskreno mrze sve njegove manifestacije, istovremeno rade za ideale čija bi realizacija direktno vodila ka ovoj omraženoj tiraniji.
@@ -2069,7 +2078,7 @@ U zaključku, Hayek poziva svoje savremenike da okrenu leđa "ludilu" i "savreme
 Kapitalizam se često optužuje da je izvor naredbe: "uvek moramo proizvoditi više," ili formule: "konzumiranje je dobro za rast." Međutim, ove ideje ne potiču iz tradicionalnog kapitalizma već iz kejnzijanizma, koji dominira poljem ekonomske nauke i političkom klasom od 1930-ih.
 
 
-![image](assets/6/img-011.webp)
+![image](assets/sr-Latn/088.webp)
 
 
 ### Analiza krize iz 1929.
@@ -2078,13 +2087,13 @@ Kapitalizam se često optužuje da je izvor naredbe: "uvek moramo proizvoditi vi
 Objavljena 1936. godine, knjiga Džona Majnarda Kejnza: _Opšta teorija zaposlenosti, kamate i novca_, pomela je sve pred sobom. Preispitujući uzroke Velike depresije i načine izlaska iz nje, opisuje novu ekonomsku paradigmu, koja će preobratiti generacije ekonomista i političara.
 
 
-![image](assets/6/img-005.webp)
+![image](assets/sr-Latn/089.webp)
 
 
 Da rezimiramo uopšteno, javna potrošnja proizvodi rast i da bi se podržao budžetski deficit, mora se sprovesti monetarna politika niskih kamatnih stopa. Dakle, inicijalno, diskreciono povećanje javne potrošnje imalo bi multiplikativni efekat na ekonomsku aktivnost, sposoban da ograniči recesiju i ubrza oporavak. Zatim, u drugoj fazi, novac bi se smatrao instrumentom ekonomske politike koji bi javne vlasti koristile u svrhu makroekonomske stabilizacije.
 
 
-![image](assets/6/img-001.webp)
+![image](assets/sr-Latn/090.webp)
 
 
 Kejnzijanizam je stoga tvrdnja da se obezbede sredstva za snažan rast i punu zaposlenost kroz javnu potrošnju i potrošnju. A ovaj plan rasta zasniva se na kontroli novca.
@@ -2105,7 +2114,7 @@ Sa Keynesom, 20. vek je postao vek poverenja u stručnjake i planiranje. Socijal
 Za Keynesa, intervencija države je neophodna da bi se stimulisala potražnja i ponovo pokrenuo ekonomski motor. Ova doktrina je trijumfovala na univerzitetima i u udžbenicima. Ipak, intervencija države ima svoje nedostatke i može pogoršati krize na duži rok umesto da ih reši.
 
 
-![image](assets/6/img-010.webp)
+![image](assets/sr-Latn/091.webp)
 
 
 Zato neki ekonomisti, u manjini, kritikuju Keynesa zbog njegovog kratkoročnog pristupa i zalažu se za povratak tržišnim mehanizmima kao bolju alternativu državnoj intervenciji.
@@ -2115,13 +2124,13 @@ Tako je Friedrich Hayek objasnio da stalno smanjenje kamatnih stopa od strane ce
 Zajedno sa drugima, on je takođe istakao opasnost centralizacije i manipulacije valutom. Ovo je naročito slučaj sa Francuzom Žakom Rufom, takođe učenikom i prijateljem Ludviga fon Mizesa.
 
 
-![image](assets/6/img-012.webp)
+![image](assets/sr-Latn/092.webp)
 
 
 Diplomiravši na École Polytechnique 1919. godine, Rueff je imao karijeru kao viši državni službenik i bio je ekonomski savetnik brojnim vladama tokom 1920-ih i 30-ih godina. Njegovo glavno delo pojavilo se 1945. godine: _L’ordre social_ (Društveni poredak), u kojem razvija snažan argument u korist slobodnog tržišta, sa ekonomskog, filozofskog i moralnog stanovišta.
 
 
-![image](assets/6/img-013.webp)
+![image](assets/sr-Latn/093.webp)
 
 
 Ova knjiga uključuje ključnu glavu pod nazivom: "Zvučan novac ili totalitarna država". U ovoj glavi, on razvija dve teze. Prva: "Lažni novac rađa društveni nered". Druga teza proizlazi iz prve: "Društveni nered rađa društveno ropstvo". Lažni novac je papirna valuta, odvojena od bilo koje fizičke stvarnosti i manipulirana od strane vladajuće sile. Društveni nered je inflacija i konzumerizam koji iz toga proizlaze. Društveno ropstvo je zavisnost društva od države, gubitak svake finansijske, moralne i političke autonomije.
@@ -2134,7 +2143,7 @@ Verovatno je da će sledeći period depresije dovesti do široke primene politik
 Počevši od 1958. godine, politika za ispravljanje francuske ekonomije, inspirisana Žakom Rufom, sprovodiće se pod autoritetom generala de Gola. To će dovesti do čuvenih "Trideset slavnih godina".
 
 
-![image](assets/6/img-014.webp)
+![image](assets/sr-Latn/094.webp)
 
 
 U _Monetarnom grehu Zapada_, 1971. godine, Rueff piše:
@@ -2145,7 +2154,7 @@ U _Monetarnom grehu Zapada_, 1971. godine, Rueff piše:
 Dodaje: "Inflacija je da se subvencionišu rashodi koji ne donose ništa novcem koji ne postoji." Prema njegovim rečima: "Čovek bi pomislio, posmatrajući evoluciju međunarodnog monetarnog sistema, da Zapad primenjuje Lenjinov savet, prema kojem: Da bi se uništio buržoaski režim, dovoljno je korumpirati njegovu valutu."
 
 
-![image](assets/6/img-004.webp)
+![image](assets/sr-Latn/095.webp)
 
 
 Godine 1976. poslednji put napada kejnzijanizam u članku za novine _Le Monde_.
@@ -2168,7 +2177,7 @@ Novac je alat koji je omogućio ljudima da pređu izvan razmene dobara, da šted
 Ispostavilo se da se poseban oblik novca postepeno izdvojio od drugih da bi tokom vekova postao globalni standard za referencu, a to je zlato.
 
 
-![image](assets/6/img-002.webp)
+![image](assets/sr-Latn/096.webp)
 
 
 Zaista, zlato je Hard valuta, teško za proizvodnju, skupo za falsifikovanje. Tržište je izabralo zlato kao najpouzdaniju, najtrajniju i najmanje podložnu manipulaciji valutu. Istorija pokazuje da kada pojedinci mogu da biraju valutu koju koriste, oni obično biraju zlato.
@@ -2189,7 +2198,7 @@ Zato Ludwig von Mises u _Human Action_ piše:
 Bretton Woods sistem, dizajniran 1944. godine i u potpunosti implementiran 1959., bio je zasnovan na zlatu i dolaru, jedinoj valuti koja se mogla konvertovati u zlato. Stoga je bilo neophodno akumulirati dolare kako bi se moglo dobiti zlato.
 
 
-![image](assets/6/img-007.webp)
+![image](assets/sr-Latn/097.webp)
 
 
 U to vreme, posebno sa Vijetnamskim ratom, povećanje deficita vlade SAD-a navelo je mnoge strane zemlje, uključujući Francusku, da žele da konvertuju svoje dolare u zlato kod FED-a. Dana 15. avgusta 1971. godine, predsednik Nikson je odlučio da ukine obećanje o konvertibilnosti dolara u zlato, čime je stvorena prva potpuno papirna valuta u istoriji Sjedinjenih Država. Od tog dana može se datirati trenutak kada je novac potpuno došao pod kontrolu centralnih banaka. U jednom intervjuu, Ričard Nikson je navodno izjavio:
@@ -2200,15 +2209,17 @@ U to vreme, posebno sa Vijetnamskim ratom, povećanje deficita vlade SAD-a navel
 Zaista, za mnoge kejnzijanske ekonomiste, napuštanje zlatnog standarda dalo je vladama fleksibilnost potrebnu za reagovanje na ekonomske krize ili njihovo sprečavanje.
 
 
-![image](assets/6/img-009.webp)
+![image](assets/sr-Latn/098.webp)
 
 
 Prema Alanu Grinspenu, bivšem predsedniku FED-a, američke centralne banke, zlatni standard je nespojiv sa državnim dugom i finansiranjem države blagostanja:
 
 
 > Oduvek sam gajio nostalgiju za stabilnošću cena svojstvenom zlatnom standardu; stabilna valuta bila je njegov primarni cilj. Ali odavno sam priznao da zlatni standard ne prihvata lako preovlađujući pogled na funkciju vlade, posebno dužnost da obezbedi sistem socijalne sigurnosti. \[…\] Većina Amerikanaca je tolerisala inflaciju kao cenu koju treba platiti za postojanje modernog socijalnog sistema. Više nema zagovornika zlatnog standarda i vidim malo mogućnosti za njegov povratak. (_Doba turbulencije_).
-> Naprotiv, za ljude poput Žaka Rifa, napuštanje plemenitih metala je greška koja može dovesti samo do kontinuiranog smanjenja kupovne moći, praćenog padom životnog standarda, povećanjem nejednakosti prihoda i rastućom ekonomskom nestabilnošću.
-> ![image](assets/6/img-008.webp)
+
+Naprotiv, za ljude poput Žaka Rifa, napuštanje plemenitih metala je greška koja može dovesti samo do kontinuiranog smanjenja kupovne moći, praćenog padom životnog standarda, povećanjem nejednakosti prihoda i rastućom ekonomskom nestabilnošću.
+
+![image](assets/sr-Latn/099.webp)
 
 U februaru 1965. godine, tokom televizijske konferencije za novinare, general de Gol, direktno inspirisan Rüeffom, predložio je povratak na zlatni standard. Izjavio je:
 
@@ -2221,7 +2232,7 @@ U februaru 1965. godine, tokom televizijske konferencije za novinare, general de
 Godine 1976, Hayek je predložio alternativu državnom monopolu na kreiranje valuta: konkurenciju između valuta. U svojoj knjizi, _Pour une vraie concurrence des monnaies_ (_Denacionalizacija novca_), zamislio je monetarno tržište bez državnog monopola u kojem bi postojale različite privatne valute. Kreiranje i upravljanje različitim valutama od strane privatnih entiteta omogućilo bi pojedincima da izaberu najstabilniju i najpouzdaniju valutu, čime bi se podstakla konkurencija i disciplina među izdavaocima.
 
 
-![image](assets/6/img-003.webp)
+![image](assets/sr-Latn/100.webp)
 
 
 On piše:
@@ -2232,7 +2243,7 @@ On piše:
 Za Hayeka, prošla nestabilnost tržišne ekonomije proizlazi iz činjenice da najvažniji regulator tržišnih mehanizama, naime novac, nije mogao sam biti proizvod tržišnog procesa.
 
 
-![image](assets/6/img-006.webp)
+![image](assets/sr-Latn/101.webp)
 
 
 Hayek je verovao da bi slobodno tržište privatnih valuta dovelo do veće monetarne stabilnosti. Gotovo 50 godina kasnije, kriptovaluta poput Bitcoin oličava Hayekovu konkurentsku viziju nudeći decentralizovanu alternativu monopolističkom sistemu centralnih banaka. Bitcoin, sa svojim ograničenjem emisije od 21 milion jedinica, predstavlja garanciju protiv inflacije i proizvoljnosti regulatora.
@@ -2247,7 +2258,7 @@ Hayek je verovao da bi slobodno tržište privatnih valuta dovelo do veće monet
 Kriza kroz koju prolazimo je kriza civilizacije, to jest, intelektualna kriza sa moralnim, političkim i ekonomskim posledicama.
 
 
-![image](assets/6/img-000.webp)
+![image](assets/sr-Latn/102.webp)
 
 
 Mnogo se priča o krizi politike, padu parlamentarne demokratije, predstavničke vlasti, a time i slobode. Ova kriza se donekle lako pripisuje kapitalizmu i "diktaturi tržišta."

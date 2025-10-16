@@ -21,7 +21,7 @@ Du er sikkert kjent med ordtaket "Ikke dine nøkler, ikke dine mynter", som oppf
 
 
 
-BTC 202 er et lett tilgjengelig kurs som er utviklet for å lære deg å spinne din egen Bitcoin-knute, selv om du ikke er en teknisk ekspert. Vi begynner med å definere hva en Bitcoin-knute er, hva den brukes til, og hvorfor det er helt avgjørende å spinne en selv. Deretter guider jeg deg trinn for trinn gjennom valg av maskinvare, installering av nødvendig programvare, tilkobling av Wallet og de første mulige optimaliseringene for å ta den videre.
+BTC 202 er et lett tilgjengelig kurs laget for å lære deg å kjøre din egen Bitcoin-node, selv om du ikke er en teknisk ekspert. Vi starter med å definere hva en Bitcoin-node er, hva den brukes til, og hvorfor det er helt essensielt å kjøre en selv. Deretter vil jeg veilede deg steg for steg i valg av maskinvare, installasjon av nødvendig programvare, tilkobling av lommebokprogramvaren og de første mulige optimaliseringene for å gå videre.
 
 
 
@@ -481,7 +481,7 @@ Som vi skal diskutere senere i dette kurset, er det nodene, i henhold til deres 
 
 
 
-## Hvorfor vri din egen knute?
+## Hvorfor kjøre din egen node?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Det er en utbredt oppfatning at det å drive en Bitcoin-node er en rent altruist
 
 
 
-Som vi har påpekt i de foregående kapitlene, er det ingen direkte økonomisk gevinst ved å spinne en knute. Man skulle derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel er det mange personlige fordeler ved å drive sin egen knute. For å overbevise deg om dette skal jeg i dette kapittelet presentere alle grunnene, både tekniske og strategiske, til hvorfor du bør installere og bruke din egen Bitcoin-node.
+Som vi har påpekt i de foregående kapitlene, gir det ingen direkte økonomisk gevinst å kjøre en node. Man kunne derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel gir det å drive sin egen node mange individuelle fordeler. For å overbevise deg om dette, vil jeg i dette kapittelet presentere alle de tekniske og strategiske grunnene som bør motivere deg til å installere og bruke din egen Bitcoin-node.
 
 
 
@@ -576,7 +576,7 @@ Installasjon av en Full node er ingen triviell operasjon. Det innebærer å inst
 
 
 
-Å tilegne seg denne kunnskapen styrker tilliten til verktøyet og kan redusere risikoen for å gjøre feil eller bli utsatt for svindel. Å spinne sin egen knute er også en form for læring.
+Å tilegne seg denne kunnskapen styrker tilliten din til verktøyet og kan redusere risikoen for feil eller svindel. Å kjøre sin egen node er også en læringsprosess.
 
 
 
@@ -692,7 +692,7 @@ Det er altså ikke antallet noder som betyr noe, men betydningen av den økonomi
 
 
 
-> Ikke din knute, ikke dine regler.
+> Ikke din node, ikke dine regler.
 
 
 ## De ulike typene Bitcoin-noder
@@ -706,7 +706,7 @@ En Bitcoin-node er derfor en maskin som kjører en implementering av Bitcoin-pro
 
 
 
-### Den komplette knuten
+### Den fullstendige noden
 
 
 
@@ -730,7 +730,7 @@ Avhengig av behovene dine kan du legge til en indekserer i Full node. Bitcoin co
 
 
 
-### pruned-knuten
+### Den beskårne noden
 
 
 
@@ -754,7 +754,7 @@ Kort sagt fungerer Wallet-sporing problemfritt på en pruned-node hvis du oppret
 
 
 
-### Den lette knuten / SPV
+### Den lette noden / SPV
 
 
 
@@ -849,7 +849,7 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-#### Bitcoin core (kunde med ultramajoritet)
+#### Bitcoin Core (dominerende klient)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (hovedalternativ kunde)
+#### Bitcoin Knots (hovedalternativ klient)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr-klientene ***noStrudel*** eller ***Snort*** er også tilgjengelige på Umb
 
 
 
-Til slutt er det ***Nostr Wallet Connect***-appen på Umbrel, som muliggjør innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til Nostr-kundene dine for å sende mikrobetalinger, kalt "*zaps*", for å belønne innhold eller samhandle på en inntektsgivende måte, uten å måtte gå gjennom en tredjeparts tjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
+Til slutt finnes applikasjonen ***Nostr Wallet Connect*** på Umbrel, som gjør det mulig å foreta innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til dine Nostr-klienter for å sende mikrobetaIinger, kalt "*zaps*", for å belønne innhold eller samhandle på en monetarisert måte, uten å bruke en tredjepartstjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Vedlikehold av Umbrel-knuten din
+## Vedlikeholde din Umbrel-node
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Hvis noden din lytter på en åpen port (standard er 8333), godtar den innkommen
 
 
 
-## Bitcoin-knutens anatomi
+## Anatomi av din Bitcoin-node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

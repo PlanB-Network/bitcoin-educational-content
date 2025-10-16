@@ -1,5 +1,5 @@
 ---
-name: 別名保險庫
+name: Alias Vault
 description: 管理密碼、雙因素驗證和別名的強大工具 (內建電子郵件伺服器) - 也可自行託管！
 ---
 

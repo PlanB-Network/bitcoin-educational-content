@@ -3,7 +3,7 @@ answer: Oni omogućavaju sigurno manipulisanje binarnim nizovima.
 wrong_answers:
   - Oni pojednostavljuju proračune smanjenjem broja operacija.
   - Oni sprečavaju greške u proračunu dodavanjem redundancije.
-  - Oni ograničavaju opseg mogućnosti smanjenjem broja Elements.
+  - Oni ograničavaju opseg mogućnosti smanjenjem broja elemenata.
 explanation: |
-  Polja proširenja sa bazom 2 su pogodna jer se njihov Elements može posmatrati kao binarni nizovi, što olakšava izvođenje operacija na digitalnim podacima na binarnom nivou u sistemima.
-reviewed: false
+  Polja proširenja sa bazom 2 su pogodna jer se njihovi elementi mogu posmatrati kao binarni nizovi, što olakšava izvođenje operacija na digitalnim podacima na binarnom nivou u sistemima.
+reviewed: true

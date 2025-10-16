@@ -549,13 +549,13 @@ Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah
 
 ![Image](assets/fr/020.webp)
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 - **Linux Mint**:
 
 Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, yang dirancang untuk menawarkan alternatif yang lebih intuitif dan lebih dekat dengan ergonomi Windows. Versi ini menawarkan beberapa lingkungan desktop, termasuk Cinnamon, sebuah fork dari GNOME yang dirancang khusus oleh tim Mint, yang menyediakan Interface yang jelas, klasik, dan terasa akrab.
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint menonjol karena kesederhanaannya, keberadaan codec multimedia secara default, dan alat pembaruan yang dirancang dengan baik. Di sisi lain, ia sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak memerlukan banyak pembelajaran.
 
@@ -643,7 +643,7 @@ Parrot OS juga merupakan turunan dari Debian. Parrot OS menawarkan lingkungan un
 
 Tails adalah distribusi langsung (live distribution) berbasis Debian yang berfokus pada privasi. Semua lalu lintasnya melewati jaringan Tor, dan tidak ada yang disimpan di antara sesi pengguna. Ini adalah distribusi ideal untuk penggunaan sekali pakai yang sensitif (jurnalisme, aktivisme, pembuatan seed Bitcoin...).
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Catatan**: Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari flash drive USB atau CD, tanpa instalasi pada hard disk.
 
@@ -2591,14 +2591,14 @@ Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsun
 Untuk melihat semua metadata yang terkandung dalam file, gunakan perintah berikut:
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
-Ganti `nama.jpg` dengan nama asli file Anda. Pastikan juga Anda berada di direktori yang berisi gambar ini. Sebagai contoh, jika saya memiliki foto patung Satoshi Nakamoto di direktori `/Downloads`, saya dapat menampilkan metadata dengan menjalankan perintah berikut:
+Ganti `nama.webp` dengan nama asli file Anda. Pastikan juga Anda berada di direktori yang berisi gambar ini. Sebagai contoh, jika saya memiliki foto patung Satoshi Nakamoto di direktori `/Downloads`, saya dapat menampilkan metadata dengan menjalankan perintah berikut:
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 ![Image](assets/fr/260.webp)
@@ -2618,7 +2618,7 @@ Ini memberi Anda gambaran lengkap tentang apa yang akan Anda terbitkan atau kiri
 Untuk menghapus semua metadata yang tidak perlu dari file, gunakan perintah:
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 ![Image](assets/fr/261.webp)
@@ -2630,7 +2630,7 @@ Perintah ini secara otomatis membuat salinan file asli dengan metadata yang tela
 Jika Anda tidak ingin menyimpan yang asli, Anda dapat menghapusnya dengan perintah:
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 Jika kita melihat kembali metadata file kita, kita dapat melihat bahwa semua metadata yang tidak perlu atau sensitif telah dihapus.
@@ -2642,10 +2642,10 @@ Jika kita melihat kembali metadata file kita, kita dapat melihat bahwa semua met
 Jika Anda memiliki beberapa file untuk diproses dalam direktori yang sama, Anda dapat menggunakan perintah umum seperti:
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
-Ini akan menghapus metadata semua file JPEG dalam direktori saat ini. Anda dapat menyesuaikan ekstensi sesuai dengan kebutuhan Anda (`*.png`, `*.pdf`...).
+Ini akan menghapus metadata semua file JPEG dalam direktori saat ini. Anda dapat menyesuaikan ekstensi sesuai dengan kebutuhan Anda (`*.webp`, `*.pdf`...).
 
 ![Image](assets/fr/264.webp)
 
@@ -3516,7 +3516,7 @@ GrapheneOS tidak mengintegrasikan komponen eksklusif apa pun. Anda bebas untuk m
 
 Graphene hanya kompatibel dengan Google Pixel terbaru (Pixel 6, 7, 8, dan 9).
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -3796,7 +3796,7 @@ Telegram adalah layanan perpesanan yang sangat populer berkat ergonomi dan fitur
 
 Oleh karena itu, Telegram secara teknis dapat mengakses konten dari sebagian besar percakapan yang tidak dilindungi secara eksplisit. Bahkan jika perusahaan mengambil sikap tegas terhadap otoritas pemerintah, Telegram bukanlah solusi optimal untuk pertukaran rahasia atau sensitif, kecuali jika Anda secara eksplisit menggunakan "pertukaran rahasia"nya, yang jauh lebih tidak praktis dalam penggunaan sehari-hari.
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 

@@ -1,22 +1,17 @@
 ---
-name: Introduzione alla crittografia formale
+name: Basi della crittografia moderna
 goal: Un'introduzione approfondita alla scienza e alla pratica della crittografia.
 objectives:
-
-  - Esplorare i cifrari di Beale e i moderni metodi crittografici per comprendere i concetti fondamentali e storici della crittografia.
-  - Approfondite la teoria dei numeri, i gruppi e i campi per padroneggiare i concetti matematici chiave alla base della crittografia.
-  - Studiare il cifrario a flusso RC4 e AES con chiave a 128 bit per conoscere gli algoritmi crittografici simmetrici.
-  - Analizzare il crittosistema RSA, la distribuzione delle chiavi e le funzioni hash per esplorare la crittografia asimmetrica.
-
+- Esplorare i cifrari di Beale e i moderni metodi crittografici per comprendere i concetti fondamentali e storici della crittografia.
+- Approfondite la teoria dei numeri, i gruppi e i campi per padroneggiare i concetti matematici chiave alla base della crittografia.
+- Studiare il cifrario a flusso RC4 e AES con chiave a 128 bit per conoscere gli algoritmi crittografici simmetrici.
+- Analizzare il crittosistema RSA, la distribuzione delle chiavi e le funzioni hash per esplorare la crittografia asimmetrica.
 ---
-# Un'immersione nella crittografia
+# Approfondimento sulla crittografia moderna
 
-È difficile trovare molti materiali che offrano una buona via di mezzo nell'educazione alla crittografia.
+In questo corso, tratteremo gli elementi essenziali della crittografia moderna in modo chiaro e accessibile, senza richiedere una solida preparazione matematica. Attraverso i capitoli, imparerai concetti fondamentali come la crittografia simmetrica e a chiave pubblica, le funzioni hash, le firme digitali, lo scambio di chiavi e i protocolli del mondo reale. Lungo il percorso, collegheremo i punti ad applicazioni pratiche come la messaggistica sicura, TLS, l'archiviazione delle password e l'autenticazione.
 
-Da un lato, ci sono lunghi trattati formali, accessibili solo a chi ha un solido background in matematica, logica o altre discipline formali. Dall'altro lato, ci sono introduzioni di altissimo livello che nascondono troppi dettagli per chiunque sia almeno un po' curioso.
-
-Questa introduzione alla crittografia cerca di cogliere la via di mezzo. Pur essendo relativamente impegnativa e dettagliata per chiunque sia alle prime armi con la crittografia, non è la tana del coniglio di un tipico trattato di fondamenti.
-
+Il materiale è progettato per studenti di tutti i livelli e bilancia l'intuizione con una profondità tecnica sufficiente a soddisfare la curiosità. Aspettati un viaggio mirato e coinvolgente. Alla fine, capirai come e perché funziona la crittografia moderna e come usarla in modo responsabile.
 +++
 # Introduzione
 

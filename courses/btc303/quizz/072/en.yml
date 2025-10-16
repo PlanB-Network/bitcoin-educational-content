@@ -1,0 +1,8 @@
+question: According to Gregory Maxwell's analysis, what creates the fundamental trade-off that forces users toward trusted services in Bitcoin scaling discussions?
+answer: Both excessively high resource usage pricing out validators and overly expensive block space access for dispute resolution
+wrong_answers:
+  - The conflict between increasing transaction throughput and maintaining adequate mining profitability across different pool sizes
+  - The tension between implementing segregated witness upgrades and preserving backward compatibility with legacy wallet software
+  - The competition between layer-two solutions and on-chain scaling approaches for limited development resources and community support
+explanation: |
+  Maxwell identified a dual-sided problem where Bitcoin loses its advantages in both directions: if resource usage is too high relative to available technology, validation becomes too costly and prices out users who then must rely on trusted third parties instead of validating independently. Conversely, if capacity is too low and transaction methods are inefficient, accessing the blockchain for dispute resolution becomes prohibitively expensive, again pushing users toward trusted services. This creates a delicate balance that scaling solutions must navigate.

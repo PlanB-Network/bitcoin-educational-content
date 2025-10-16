@@ -106,7 +106,7 @@ On the **Settings** icon, download the backup key and save the file appropriatel
 ![rescue-key](assets/fr/09.webp)
 
 
-This file contains the 12 keywords of the portfolio associated with your atomic exchanges.
+This file contains the 12 keywords of the wallet associated with your atomic exchanges.
 
 
 Then click on the **Create atomic exchange** button and proceed with payment of the indicated amount.

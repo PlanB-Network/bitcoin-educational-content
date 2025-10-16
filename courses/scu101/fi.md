@@ -53,13 +53,16 @@ Jos etsit aiheesta edistyneempiä taitoja, resurssimme, tutoriaalimme tai muut k
 
 Aloitamme keskustelemalla web-selaimen valinnan tärkeydestä ja sen merkityksestä turvallisuudelle. Tutkimme sen jälkeen selainten erityispiirteitä, erityisesti evästeiden hallinnan osalta. Näemme myös, miten varmistaa turvallisempi ja anonyymimpi selailukokemus käyttämällä työkaluja, kuten TOR. Sen jälkeen keskitymme VPN:ien käyttöön datasi suojauksen tehostamiseksi. Lopuksi päättämme suosituksiin WiFi-yhteyksien turvallisesta käytöstä.
 
-![](assets/en/1.webp)
+![image](assets/fi/001.webp)
 
 **Osa 2: Parhaat käytännöt tietokoneen käytössä**
 
 - Luku 3 - Tietokoneen käyttö
 - Luku 4 - Hakkerointi & varmuuskopioiden hallinta
-  Tässä osiossa käsittelemme kolmea tietoturvan keskeistä aluetta. Ensiksi tutustumme eri käyttöjärjestelmiin: Mac, PC ja Linux, korostaen niiden erityispiirteitä ja vahvuuksia. Sen jälkeen syvennymme menetelmiin, joilla voidaan tehokkaasti suojautua hakkerointiyrityksiltä ja vahvistaa laitteidesi turvallisuutta. Lopuksi korostamme säännöllisen suojauksen ja datan varmuuskopioinnin tärkeyttä, jotta voit välttää tietojen menetyksen tai kiristyshaittaohjelmat.![](assets/en/2.webp)
+
+Tässä osiossa käsittelemme kolmea tietoturvan keskeistä aluetta. Ensiksi tutustumme eri käyttöjärjestelmiin: Mac, PC ja Linux, korostaen niiden erityispiirteitä ja vahvuuksia. Sen jälkeen syvennymme menetelmiin, joilla voidaan tehokkaasti suojautua hakkerointiyrityksiltä ja vahvistaa laitteidesi turvallisuutta. Lopuksi korostamme säännöllisen suojauksen ja datan varmuuskopioinnin tärkeyttä, jotta voit välttää tietojen menetyksen tai kiristyshaittaohjelmat.
+
+![image](assets/fi/002.webp)
 
 **Osa 3: Ratkaisujen toteuttaminen**
 
@@ -70,7 +73,8 @@ Aloitamme keskustelemalla web-selaimen valinnan tärkeydestä ja sen merkitykses
 Tässä käytännönläheisessä kolmannessa osassa siirrymme konkreettisten ratkaisujesi toteuttamiseen.
 
 Ensin näemme, miten suojata sähköpostilaatikkosi, joka on olennainen viestintävälineesi ja usein hakkerien kohteena. Sen jälkeen esittelemme sinulle salasananhallinnan: käytännöllisen ratkaisun, jolla et enää unohda tai sekoita salasanojasi samalla kun pidät ne turvassa. Lopuksi keskustelemme lisäturvatoimesta, kahden tekijän tunnistautumisesta, joka lisää ylimääräisen suojakerroksen tileillesi. Kaikki selitetään selkeästi ja ymmärrettävästi.
-![](assets/en/3.webp)
+
+![image](assets/fi/003.webp)
 
 Oletko valmis vahvistamaan digitaalista turvallisuuttasi ja ottamaan hallinnan takaisin tietoihisi? Mennään!
 # Kaikki mitä sinun tarvitsee tietää online-selailusta
@@ -87,12 +91,14 @@ Internetissä selatessa on tärkeää välttää tiettyjä yleisiä virheitä on
 
 On suositeltavaa ladata ohjelmistot julkaisijan virallisilta verkkosivuilta mieluummin kuin yleisiltä sivustoilta.
 Esimerkki: Käytä www.signal.org/download sijaan www.logicieltelechargement.fr/signal.
-![](assets/notext/4.webp)
+
+![image](assets/fi/004.webp)
 
 On myös suositeltavaa suosia avoimen lähdekoodin ohjelmistoja, sillä ne ovat usein turvallisempia ja vapaita haittaohjelmista. "Avoimen lähdekoodin" ohjelmisto on ohjelmisto, jonka koodi on tunnettu ja kaikkien saatavilla. Tämä mahdollistaa muun muassa tarkistuksen, ettei siinä ole piilotettuja pääsyjä varastamaan henkilökohtaisia tietojasi.
 
 > Bonus: Avoimen lähdekoodin ohjelmistot ovat usein ilmaisia! Tämä yliopisto on 100% avoimen lähdekoodin, joten voit myös tarkistaa koodimme GitHubissa.
-> ![](assets/notext/5.webp)
+
+![image](assets/fi/005.webp)
 
 ### Evästeiden hallinta: Virheet ja parhaat käytännöt
 
@@ -103,7 +109,9 @@ Evästeet ovat tiedostoja, joita verkkosivustot luovat tallentaakseen tietoja la
 ### Verkkoselaimet: valinnat, turvallisuus
 
 On kaksi suurta selainperhettä: Chromeen perustuvat ja Firefoxiin perustuvat selaimet.
-Vaikka molemmat perheet tarjoavat saman turvallisuustason, on suositeltavaa välttää Google Chrome -selainta sen seurantaohjelmien vuoksi. Chromea kevyemmät vaihtoehdot, kuten Chromium tai Brave, saattavat olla parempia vaihtoehtoja. Brave on erityisesti suositeltava sen sisäänrakennetun mainostenestäjän vuoksi. Tietyille verkkosivustoille pääsy saattaa vaatia useamman selaimen käyttöä.![](assets/notext/6.webp)
+Vaikka molemmat perheet tarjoavat saman turvallisuustason, on suositeltavaa välttää Google Chrome -selainta sen seurantaohjelmien vuoksi. Chromea kevyemmät vaihtoehdot, kuten Chromium tai Brave, saattavat olla parempia vaihtoehtoja. Brave on erityisesti suositeltava sen sisäänrakennetun mainostenestäjän vuoksi. Tietyille verkkosivustoille pääsy saattaa vaatia useamman selaimen käyttöä.
+
+![image](assets/fi/006.webp)
 
 ### Yksityinen selaus, TOR ja muut vaihtoehdot turvallisempaan ja nimettömämpään selaamiseen
 
@@ -112,7 +120,8 @@ Yksityinen selaus, vaikka se ei piilota selaustietoja internet-palveluntarjoajal
 Edistyneempi vaihtoehto on TOR (The Onion Router) -verkko, joka tarjoaa nimettömyyttä peittämällä käyttäjän IP-osoitteen ja mahdollistamalla pääsyn Darknetiin. TOR-selain on erityisesti suunniteltu TOR-verkon käyttöön. Sen avulla voit vierailla sekä tavallisilla verkkosivustoilla että .onion-verkkosivustoilla, joita yleensä ylläpitävät yksityishenkilöt ja jotka voivat olla laittomia.
 
 TOR on laillinen ja sitä käyttävät toimittajat, vapauden aktivistit ja muut, jotka haluavat välttää sensuuria autoritaarisissa maissa. On kuitenkin tärkeää ymmärtää, että TOR ei turvaa vierailtuja sivustoja tai itse tietokonetta. Lisäksi TORin käyttö voi hidastaa internet-yhteyttä, sillä tiedot kulkevat kolmen muun ihmisen tietokoneiden kautta ennen määränpäähänsä saapumista. On myös olennaista huomata, että TOR ei ole virheetön ratkaisu taatakseen 100 %:n nimettömyyden eikä sitä tulisi käyttää laittomiin toimiin.
-![](assets/notext/7.webp)
+
+![image](assets/fi/007.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
@@ -125,12 +134,17 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 Internet-yhteyden suojaaminen on olennainen osa online-turvallisuutta, ja virtuaaliset yksityisverkot (VPN:t) ovat tehokas tapa parantaa tätä turvallisuutta sekä yrityksille että yksityiskäyttäjille.
 
 'VPN:t ovat työkaluja, jotka salakoodaavat internetin yli lähetettävät tiedot, tehden yhteydestä turvallisemman. Ammatillisessa kontekstissa VPN:t mahdollistavat työntekijöiden turvallisen pääsyn yrityksen sisäiseen verkkoon etäyhteyden kautta. Vaihdettu data on salattu, mikä tekee kolmansien osapuolien väliintulon paljon vaikeammaksi. VPN:n käyttö ei ainoastaan turvaa pääsyä sisäiseen verkkoon, vaan mahdollistaa myös käyttäjän internet-yhteyden reitittämisen yrityksen sisäisen verkon kautta, antaen vaikutelman, että yhteys tulee yrityksestä. Tämä voi olla erityisen hyödyllistä päästäessä käsiksi maantieteellisesti rajoitettuihin online-palveluihin.
-![](assets/en/8.webp)
+
+![image](assets/fi/008.webp)
 
 ### VPN-tyypit
 
 VPN:itä on kahta päätyyppiä: yritys-VPN:t ja kuluttaja-VPN:t, kuten NordVPN. Yritys-VPN:t ovat yleensä kalliimpia ja monimutkaisempia, kun taas kuluttaja-VPN:t ovat yleisesti ottaen helpommin saatavilla ja käyttäjäystävällisempiä. Esimerkiksi NordVPN mahdollistaa käyttäjien yhdistämisen internetiin toisessa maassa sijaitsevan palvelimen kautta, mikä voi ohittaa maantieteelliset rajoitukset.
-Kuitenkin kuluttajakäyttöön tarkoitetun VPN:n käyttäminen ei takaa täydellistä anonyymiyttä. Monet VPN-palveluntarjoajat säilyttävät tietoja käyttäjistään, mikä voi mahdollisesti vaarantaa heidän anonyymiytensä. Vaikka VPN:t voivat olla hyödyllisiä online-turvallisuuden parantamisessa, ne eivät ole universaali ratkaisu. Ne ovat tehokkaita tietyissä erityiskäytöissä, kuten maantieteellisesti rajoitettujen palveluiden käyttämisessä tai turvallisuuden parantamisessa matkustaessa, mutta ne eivät takaa täydellistä turvallisuutta. VPN:n valinnassa on olennaista asettaa luotettavuus ja teknisyys suosion edelle. VPN-palveluntarjoajat, jotka keräävät vähiten henkilökohtaisia tietoja, ovat yleensä turvallisimpia. Palvelut kuten iVPN ja Mullvad eivät kerää henkilökohtaisia tietoja ja sallivat jopa maksut Bitcoinilla lisätyn yksityisyyden vuoksi. ![](assets/notext/9.webp)
+
+Kuitenkin kuluttajakäyttöön tarkoitetun VPN:n käyttäminen ei takaa täydellistä anonyymiyttä. Monet VPN-palveluntarjoajat säilyttävät tietoja käyttäjistään, mikä voi mahdollisesti vaarantaa heidän anonyymiytensä. Vaikka VPN:t voivat olla hyödyllisiä online-turvallisuuden parantamisessa, ne eivät ole universaali ratkaisu. Ne ovat tehokkaita tietyissä erityiskäytöissä, kuten maantieteellisesti rajoitettujen palveluiden käyttämisessä tai turvallisuuden parantamisessa matkustaessa, mutta ne eivät takaa täydellistä turvallisuutta. VPN:n valinnassa on olennaista asettaa luotettavuus ja teknisyys suosion edelle. VPN-palveluntarjoajat, jotka keräävät vähiten henkilökohtaisia tietoja, ovat yleensä turvallisimpia. Palvelut kuten iVPN ja Mullvad eivät kerää henkilökohtaisia tietoja ja sallivat jopa maksut Bitcoinilla lisätyn yksityisyyden vuoksi. 
+
+![image](assets/fi/009.webp)
+
 Lopuksi VPN:tä voidaan käyttää myös online-mainosten estämiseen, tarjoten nautinnollisemman ja turvallisemman selauskokemuksen. On kuitenkin tärkeää tehdä oma tutkimus löytääkseen VPN:n, joka parhaiten sopii omiin erityistarpeisiin. VPN:n käyttöä suositellaan turvallisuuden parantamiseksi, myös kotona internetiä selatessa. Tämä auttaa varmistamaan korkeamman turvallisuustason online-vaihdetulle datalle. Lopuksi, varmista tarkistaa URL-osoitteet ja pieni lukko osoiterivillä vahvistaaksesi, että olet sivustolla, jolla aiot vierailla.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -144,7 +158,9 @@ Online-turvallisuuden kannalta on olennaista ymmärtää, että 4G on yleisesti 
 Euroopan unionissa tietosuojaa säännellään Yleisellä tietosuoja-asetuksella (GDPR). Siksi on turvallisempaa käyttää eurooppalaisia Wi-Fi-yhteyspisteen tarjoajia, kuten SNCF, jotka eivät myy käyttäjien yhteystietoja eteenpäin. Kuitenkin pelkkä lukon näkyminen sivustolla ei takaa sen aitoutta. On tärkeää varmistaa sivuston julkisen avaimen aitous käyttämällä sertifikaattijärjestelmää. Vaikka datan salaaminen estää kolmansia osapuolia kaappaamasta vaihdettua dataa, on silti mahdollista, että pahantahtoinen henkilö voi esiintyä sivustona ja siirtää dataa salaamattomana.
 
 Online-huijausten välttämiseksi on ratkaisevan tärkeää varmistaa selaamasi sivuston identiteetti, erityisesti tarkistamalla laajennus ja verkkotunnus. Lisäksi ole valppaana huijareiden suhteen, jotka käyttävät URL-osoitteissa samankaltaisia kirjaimia käyttäjien harhauttamiseksi.
-![](assets/en/10.webp)
+
+![image](assets/fi/010.webp)
+
 Yhteenvetona voidaan sanoa, että VPN:n käyttö voi merkittävästi parantaa online-turvallisuutta sekä yrityksille että yksityiskäyttäjille. Lisäksi hyvien selaustapojen noudattaminen voi edistää parempaa digitaalista hygieniaa. Seuraavassa kurssin osassa käsittelemme tietokoneen turvallisuutta, mukaan lukien päivitykset, antivirus ja salasanojen hallinta.
 
 # Parhaat käytännöt tietokoneen käyttöön
@@ -164,9 +180,14 @@ Tietokoneidemme turvallisuus on suuri huolenaihe tämän päivän digitaalisessa
 ### Tietokoneen ja käyttöjärjestelmän valinta
 
 Tietokoneen valinnan osalta ei ole merkittävää eroa turvallisuudessa vanhojen ja uusien tietokoneiden välillä. Kuitenkin käyttöjärjestelmien välillä on turvallisuuseroja: Windows, Linux ja Mac.
+
+![image](assets/fi/011.webp)
+
 Windowsin osalta suositellaan, että et käytä järjestelmänvalvojan tiliä päivittäiseen käyttöön, vaan luot kaksi erillistä tiliä: järjestelmänvalvojan tilin ja tilin päivittäiseen käyttöön. Windows on usein alttiimpi haittaohjelmille sen suuren käyttäjämäärän ja käyttäjästä järjestelmänvalvojaksi vaihtamisen helppouden vuoksi. Toisaalta, uhkat ovat harvinaisempia Linuxissa ja Macissa.
 
 Käyttöjärjestelmän valinnan tulisi perustua tarpeisiisi ja mieltymyksiisi. Linux-järjestelmät ovat kehittyneet huomattavasti viime vuosina, muuttuen yhä käyttäjäystävällisemmiksi. Ubuntu on mielenkiintoinen vaihtoehto aloittelijoille, sen helppokäyttöisen graafisen käyttöliittymän ansiosta. On mahdollista osioida tietokone kokeillaksesi Linuxia säilyttäen samalla Windowsin, mutta tämä voi olla monimutkaista. Usein on suositeltavaa käyttää erillistä tietokonetta, virtuaalikonetta tai USB-tikkua Linuxin tai Ubuntun testaamiseen.
+
+![image](assets/fi/012.webp)
 
 ### Ohjelmistopäivitykset
 
@@ -186,11 +207,14 @@ Antaakseni sinulle konkreettisen esimerkin virheestä: päivittämättömät kra
 Virustorjunnan valinta ja käyttöönotto on tärkeää. Windows Defender, Windowsin sisäänrakennettu virustorjunta, on turvallinen ja tehokas ratkaisu. Ilmaisena ratkaisuna se on erittäin hyvä ja paljon parempi kuin monet verkosta löytyvät ilmaiset ratkaisut. Todellakin, verkosta ladattujen virustorjuntaohjelmien kanssa on syytä olla varovainen, sillä ne voivat olla haitallisia tai vanhentuneita.
 Niille, jotka haluavat sijoittaa maksulliseen virustorjuntaan, suositellaan valitsemaan virustorjunta, joka analysoi älykkäästi tuntemattomia ja nousevia uhkia, kuten Kaspersky. Virustorjuntapäivitykset ovat välttämättömiä uusien uhkien torjumiseksi.
 
+![image](assets/fi/013.webp)
+
 > Huom: Linux ja Mac, kiitos niiden käyttäjäoikeuksien erottelujärjestelmän, eivät usein tarvitse virustorjuntaa.
 
 Lopuksi, tässä on joitakin hyviä käytäntöjä tietokoneesi ja tietojesi turvallisuuden varmistamiseksi. On tärkeää valita tehokas ja käyttäjäystävällinen virustorjunta. On myös ratkaisevan tärkeää omaksua hyviä käytäntöjä tietokoneellasi, kuten välttää tuntemattomien tai epäilyttävien USB-tikkujen liittämistä. Nämä USB-tikut voivat sisältää haittaohjelmia, jotka voivat käynnistyä automaattisesti liitettäessä. USB-tikun tarkistaminen on hyödytöntä sen jälkeen, kun se on liitetty. Jotkut yritykset ovat joutuneet hakkeroinnin uhreiksi USB-tikkujen vuoksi, jotka on huolettomasti jätetty pääsyalueille, kuten parkkipaikalle.
 
 Kohtele tietokonettasi kuten kotiasi: pysy valppaana, päivitä säännöllisesti, poista tarpeettomat tiedostot ja käytä vahvaa salasanaa turvallisuuden varmistamiseksi. On ratkaisevan tärkeää salata tiedot kannettavissa tietokoneissa ja älypuhelimissa varkauden tai tietojen menetyksen estämiseksi. BitLocker Windowsille, LUKS Linuxille ja sisäänrakennettu vaihtoehto Macille ovat ratkaisuja tietojen salaamiseen. On suositeltavaa ottaa tietojen salaus käyttöön epäröimättä ja kirjoittaa salasana paperille, joka säilytetään turvallisessa paikassa.
+
 Yhteenvetona on olennaista valita käyttöjärjestelmä, joka vastaa tarpeitasi ja päivittää sitä säännöllisesti, samoin kuin asennettuja sovelluksia. On myös tärkeää käyttää tehokasta ja käyttäjäystävällistä virustorjuntaohjelmaa sekä omaksua hyviä käytäntöjä tietokoneesi ja tietojesi turvallisuuden varmistamiseksi.
 
 ## Hakkerointi & Varmuuskopiointi: Tietojesi suojaaminen
@@ -216,7 +240,9 @@ Kultainen sääntö tässä on tarkistaa huolellisesti lähettäjän koko nimi s
 ### Lunasohjelmat ja kyberhyökkäysten tyypit:
 
 Lunasohjelma on haittaohjelman tyyppi, joka salaa käyttäjän tiedot ja vaatii lunnaita niiden salauksen purkamiseksi. Tämän tyyppinen hyökkäys on yhä yleisempi ja voi olla erittäin hankala yritykselle tai yksilölle. Suojautuaksesi on välttämätöntä luoda varmuuskopiot kaikkein arkaluonteisimmista tiedostoista! Tämä ei pysäytä lunasohjelmaa, mutta se mahdollistaa sen yksinkertaisesti ohittamisen.
-![](assets/notext/14.webp)
+
+![image](assets/fi/014.webp)
+
 Varmuuskopioi säännöllisesti tärkeät tietosi ulkoiselle tallennuslaitteelle tai turvalliseen online-tallennuspalveluun. Näin voit palauttaa tietosi kyberhyökkäyksen tai laitteistovian sattuessa menettämättä tärkeitä tietoja.
 
 Yksinkertainen ratkaisu:
@@ -254,7 +280,9 @@ Vaikka meillä kaikilla on jo sähköpostitili, on tärkeää harkita uuden, mod
 ### Sähköpostipalvelun valinta ja sähköpostiosoitteiden hallinta
 
 Sähköpostiosoitteidemme asianmukainen hallinta on ratkaisevan tärkeää verkkopääsyn turvallisuuden varmistamiseksi. On tärkeää valita turvallinen ja yksityisyyttä kunnioittava sähköpostipalvelu. Esimerkiksi ProtonMail on turvallinen ja yksityisyyttä kunnioittava sähköpostipalvelu.
-![](assets/notext/15.webp)
+
+![image](assets/fi/015.webp)
+
 Sähköpostipalvelun valitsemisessa ja salasanan luomisessa on olennaista, ettei samaa salasanaa käytetä uudelleen eri verkkopalveluissa. On suositeltavaa säännöllisesti luoda uusia sähköpostiosoitteita ja erottaa käyttötarkoitukset käyttämällä eri sähköpostiosoitteita. On suositeltavaa valita turvallinen sähköpostipalvelu kriittisille tileille. On myös huomioitava, että jotkin palvelut rajoittavat salasanojen pituutta, joten on tärkeää olla tietoinen tästä rajoituksesta. Palveluita on saatavilla myös väliaikaisten sähköpostiosoitteiden luomiseen, joita voidaan käyttää rajoitetun ajan kestäville tileille.
 
 On tärkeää ottaa huomioon, että vanhempia sähköpostipalveluita kuten La Poste, Arobase, Wig, Hotmail, käytetään yhä, mutta niiden turvallisuuskäytännöt eivät välttämättä ole yhtä hyvät kuin esimerkiksi Gmailin. Siksi on suositeltavaa pitää kaksi erillistä sähköpostiosoitetta, toinen yleiseen viestintään ja toinen tilien palauttamiseen, jälkimmäisen ollessa paremmin suojattu. On parasta välttää sähköpostiosoitteen sekoittamista puhelinoperaattoriisi tai internet-palveluntarjoajaan, sillä se voi olla hyökkäysvektori.
@@ -262,7 +290,9 @@ On tärkeää ottaa huomioon, että vanhempia sähköpostipalveluita kuten La Po
 ### Pitäisikö minun vaihtaa sähköpostitilini?
 
 On suositeltavaa käyttää verkkosivustoa Have I Been Pwned (https://haveibeenpwned.com/) tarkistaaksesi, onko sähköpostiosoitteesi vaarantunut ja saadaksesi ilmoituksia tulevista tietomurroista. Hakkeroidut tietokannat voivat olla hakkerien hyväksikäyttämiä lähettämään phishing-sähköposteja tai uudelleenkäyttämään vaarantuneita salasanoja.
-![](assets/notext/16.webp)
+
+![image](assets/fi/016.webp)
+
 Yleisesti ottaen uuden, turvallisemman sähköpostiosoitteen käyttöönotto ei ole huono käytäntö ja jopa tarpeellista, jos haluaa aloittaa alusta terveellä pohjalla.
 Bonus Bitcoin: Saattaa olla suositeltavaa luoda erityinen sähköpostiosoite Bitcoin-toimintoihimme (vaihtotilien luominen) erottaaksemme todella elämämme toiminta-alueet toisistaan.
 
@@ -282,7 +312,8 @@ Salasananhallintaohjelman avulla sinun ei enää tarvitse huolehtia salasanojen 
 
 - LastPass: Yksi suosituimmista salasanojen hallintajärjestelmistä. Se on kolmannen osapuolen palvelu, mikä tarkoittaa, että salasanasi säilytetään heidän palvelimillaan. Tarjolla on ilmainen versio ja maksullinen versio, käyttäjäystävällisellä käyttöliittymällä.
 - Dashlane: Se on myös kolmannen osapuolen palvelu, intuitiivisella käyttöliittymällä ja lisäominaisuuksilla, kuten luottokorttitietojen seuranta ja turvalliset muistiinpanot.
-  ![](assets/notext/17.webp)
+
+  ![image](assets/fi/017.webp)
 
 ### Itsehostaminen lisäkontrollin saamiseksi:
 
@@ -290,7 +321,7 @@ Salasananhallintaohjelman avulla sinun ei enää tarvitse huolehtia salasanojen 
 
 - KeePass: Se on avoimen lähdekoodin ratkaisu, joka on ensisijaisesti tarkoitettu itsehostamiseen. Tietosi säilytetään oletusarvoisesti paikallisesti, mutta halutessasi voit synkronoida salasanatietokannan käyttäen eri menetelmiä. KeePass on laajalti tunnustettu sen turvallisuudesta ja joustavuudesta, vaikkakin se saattaa olla hieman vähemmän käyttäjäystävällinen aloittelijoille.
 
-![](assets/notext/18.webp)
+![image](assets/fi/018.webp)
 
 Itse isännöidyissä ratkaisuissa, kuten KeePass, on mahdollista synkronoida tietokanta useiden laitteiden välillä ilman keskitettyjä kolmannen osapuolen palveluja. Työkalut kuten **Syncthing** mahdollistavat salatun ja hajautetun synkronoinnin suoraan laitteiden välillä. Tämä lähestymistapa pitää tiedot hallinnassasi ja varmistaa niiden saatavuuden kaikilla laitteillasi.
 
@@ -327,9 +358,9 @@ Kaksivaiheinen tunnistautuminen (2FA) on lisäkerroksen turvatoimi, jota käytet
 - Sovelluksen, kuten Google Authenticatorin tai Authyn, generoima koodi.
 - Fyysinen turva-avain, jonka liität tietokoneeseesi.
 
-  ![](assets/notext/19.webp)
+![image](assets/fi/019.webp)
 
-  2FA:n avulla, vaikka hakkeri saisi salasanasi, he eivät pystyisi pääsemään tilillesi ilman tätä toista vahvistustekijää. Tämä tekee 2FA:sta olennaisen suojaamaan verkkotilejäsi luvattomalta pääsyltä.
+2FA:n avulla, vaikka hakkeri saisi salasanasi, he eivät pystyisi pääsemään tilillesi ilman tätä toista vahvistustekijää. Tämä tekee 2FA:sta olennaisen suojaamaan verkkotilejäsi luvattomalta pääsyltä.
 
 ### Minkä vaihtoehdon valita?
 
@@ -477,7 +508,8 @@ Uhkien jatkuva kehitys vaatii säännöllistä uutisten ja erikoistuneiden fooru
 - Hallinto: ISO-standardit, GDPR/CCPA-säädökset.
 
 Hallitsemalla näitä taitoja ja työkaluja, olet hyvin varustautunut navigoimaan kyberturvallisuuden maailmassa menestyksekkäästi.
-![](assets/notext/20.webp)
+
+![image](assets/fi/020.webp)
 
 ## Haastattelu Renaudin kanssa
 
@@ -486,10 +518,13 @@ Hallitsemalla näitä taitoja ja työkaluja, olet hyvin varustautunut navigoimaa
 ### Tehokas salasanojen hallinta ja autentikoinnin vahvistaminen: Akateeminen lähestymistapa
 
 Kolme keskeistä ulottuvuutta, jotka on otettava huomioon puhuessasi salasanojen hallinnasta:: salasanojen luominen, päivittäminen ja käyttöönotto verkkosivustoilla.
+
 Yleensä ei suositella selainlaajennusten käyttöä automaattiseen salasanojen täyttöön. Nämä työkalut voivat tehdä käyttäjästä haavoittuvaisemman phishing-hyökkäyksille. Renaud, tunnustettu kyberturvallisuuden asiantuntija, suosii manuaalista hallintaa käyttäen KeePassia, joka sisältää salasanan manuaalisen kopioimisen ja liittämisen. Laajennukset voivat lisätä hyökkäyspintaa, hidastaa selaimen suorituskykyä ja siten muodostaa merkittävän riskin. Näin ollen selainlaajennusten minimaalinen käyttö on suositeltavaa.
 
 Salasanojen hallintajärjestelmät yleensä kannustavat käyttämään lisäautentikointitekijöitä, kuten kaksivaiheista tunnistautumista. Optimaalisen turvallisuuden takaamiseksi on suositeltavaa säilyttää OTP:t (kertakäyttöiset salasanat) mobiililaitteessasi. AndoTP tarjoaa avoimen lähdekoodin ratkaisun OTP-koodien luomiseen ja säilyttämiseen puhelimessasi. Vaikka Google Authenticator mahdollistaa autentikointikoodien siementen viemisen, varmuuskopion luottamus Google-tilille on rajallinen. Siksi OTI- ja AndoTP-sovellukset ovat suositeltavia itsenäiseen OTP-hallintaan.
-![](assets/notext/21.webp)
+
+![image](assets/fi/021.webp)
+
 Digitaalisen perinnön ja digitaalisen surun kysymys nostaa esiin salasanojen siirtomenettelyn tärkeyden henkilön kuoleman jälkeen. Salasanojen hallintajärjestelmä helpottaa tätä siirtymää turvallisesti säilyttämällä kaikki digitaaliset salaisuudet yhdessä paikassa. Salasanojen hallintajärjestelmä mahdollistaa myös kaikkien avointen tilien tunnistamisen ja niiden sulkemisen tai siirron hallinnan. On suositeltavaa kirjoittaa pääsalasana paperille, mutta se tulee säilyttää piilotettuna ja turvallisessa paikassa. Jos kiintolevy on salattu ja tietokone lukittu, salasana ei ole saatavilla, edes murron yhteydessä.
 
 ### Kohti salasanattomuuden aikakautta: Uskottavien vaihtoehtojen tutkiminen
@@ -505,7 +540,10 @@ Suora autentikointi asiaankuuluvaan palveluun on mielenkiintoinen vaihtoehto rii
 ### Tietokoneturvallisuus: turvallisten käytäntöjen imperatiivit ja ihmisen huolimattomuuteen liittyvät riskit
 
 Tietokoneturvallisuus voi vaarantua yksinkertaisilla käytännöillä ja oletussalasanojen, kuten "admin", käytöllä. Monimutkaiset hyökkäykset eivät aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi. Esimerkiksi erään YouTube-kanavan ylläpitäjän salasanat oli kirjoitettu yrityksen yksityiseen lähdekoodiin. Turvallisuusaukot ovat usein ihmisen huolimattomuuden tulosta.
-On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset.
+
+On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. 
+
+Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset.
 
 On myös syytä mainita järjestelmä nimeltä "Lightning authentication".. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
 

@@ -4943,18 +4943,18 @@ Gebruik de volgende opdracht om alle metagegevens in een bestand te bekijken:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Vervang `naam.jpg` door de echte naam van je bestand. Zorg er ook voor dat je in de map staat die deze afbeelding bevat. Als ik bijvoorbeeld een foto van het Satoshi Nakamoto standbeeld in de `/Downloads` map heb, kan ik de metadata weergeven door het volgende commando uit te voeren:
+Vervang `naam.webp` door de echte naam van je bestand. Zorg er ook voor dat je in de map staat die deze afbeelding bevat. Als ik bijvoorbeeld een foto van het Satoshi Nakamoto standbeeld in de `/Downloads` map heb, kan ik de metadata weergeven door het volgende commando uit te voeren:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Gebruik de opdracht om alle onnodige metagegevens uit een bestand te verwijderen
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Als je het origineel niet wilt bewaren, kun je het verwijderen met de opdracht:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Als je meerdere bestanden in dezelfde map wilt verwerken, kun je een algemene op
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Dit verwijdert de metadata van alle JPEG-bestanden in de huidige map. Je kunt de extensie aanpassen aan je behoeften (`*.png`, `*.pdf`...).
+Dit verwijdert de metadata van alle JPEG-bestanden in de huidige map. Je kunt de extensie aanpassen aan je behoeften (`*.webp`, `*.pdf`...).
 
 
 

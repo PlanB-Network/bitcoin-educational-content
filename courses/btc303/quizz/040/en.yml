@@ -1,0 +1,8 @@
+question: According to the chapter's discussion of Bitcoin compatibility, what type of compatibility does a soft fork provide?
+answer: Both forward and backward compatibility, making it fully compatible
+wrong_answers:
+  - Only backward compatibility, allowing new software to process old data
+  - Only forward compatibility, allowing old software to process new data
+  - Neither forward nor backward compatibility, requiring complete system updates
+explanation: |
+  The chapter clearly states that 'A change to the Bitcoin consensus rules is said to be a soft fork if it is fully compatible.' It defines fully compatible as being both forward and backward compatible. Forward compatibility means old software can process data from newer versions by ignoring parts it doesn't understand, while backward compatibility means new software can process old data. This dual compatibility is what makes soft forks the preferred upgrade mechanism for Bitcoin, as they don't break existing systems while enabling new functionality.

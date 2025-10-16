@@ -1,0 +1,8 @@
+question: What does the concept of Bitcoin harmony, as described through David Harding's analogy, primarily emphasize about the network's operation?
+answer: Thousands of full nodes independently verify transactions to achieve harmonious agreement without requiring trust between operators
+wrong_answers:
+  - Mining pools must coordinate their efforts to sing the same song and produce blocks in synchronized harmony
+  - Bitcoin developers need to reach unanimous consensus before implementing any protocol changes or upgrades
+  - All Bitcoin users must agree on transaction validity through a democratic voting process to maintain network stability
+explanation: |
+  David Harding's harmony analogy emphasizes that Bitcoin's strength comes from thousands of independent full nodes each working separately to verify transactions, creating harmonious agreement about the ledger state without any node operator needing to trust others. This is compared to a chorus where each member sings independently but produces beautiful harmony together. The wrong answers misinterpret this concept by suggesting coordination requirements between miners, developers, or users, which contradicts the fundamental principle of independent verification that makes Bitcoin trustless and decentralized.

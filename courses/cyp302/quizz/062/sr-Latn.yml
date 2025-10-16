@@ -1,9 +1,9 @@
 question: Koji tip simetrične enkripcije se prvenstveno koristi za kontinuirane komunikacije, kao što su audio ili video strimovi?
-answer: Šifrovanje toka
+answer: Šifra toka
 wrong_answers:
-  - Šifrovanje blokova
+  - Šifra bloka
   - Verifikacioni kod
   - Heširanje poruka
 explanation: |
-  Šifrovanje toka je posebno pogodno za kontinuirane komunikacije jer šifruje podatke kontinuirano, za razliku od blok šifrovanja, koje ih deli na blokove.
-reviewed: false
+  Šifra toka je posebno pogodno za kontinuirane komunikacije jer šifruje podatke kontinuirano, za razliku od blok šifre, koje ih deli na blokove.
+reviewed: true

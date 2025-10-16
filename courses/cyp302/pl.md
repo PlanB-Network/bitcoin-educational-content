@@ -1,29 +1,18 @@
 ---
-name: Wprowadzenie do kryptografii formalnej
+name: Podstawy nowoczesnej kryptografii
 goal: Dogłębne wprowadzenie do nauki i praktyki kryptografii.
-objectives: 
-
-  - Poznaj szyfry Beale'a i nowoczesne metody kryptograficzne, aby zrozumieć podstawowe i historyczne koncepcje kryptografii.
-  - Zagłęb się w teorię liczb, grup i pól, aby opanować kluczowe koncepcje matematyczne leżące u podstaw kryptografii.
-  - Przeanalizuj szyfr strumieniowy RC4 i AES z kluczem 128-bitowym, aby poznać symetryczne algorytmy kryptograficzne.
-  - Zbadanie kryptosystemu RSA, dystrybucji kluczy i funkcji Hash w celu poznania kryptografii asymetrycznej.
-
-
+objectives:
+- Poznaj szyfry Beale'a i nowoczesne metody kryptograficzne, aby zrozumieć podstawowe i historyczne koncepcje kryptografii.
+- Zagłęb się w teorię liczb, grup i pól, aby opanować kluczowe koncepcje matematyczne leżące u podstaw kryptografii.
+- Przeanalizuj szyfr strumieniowy RC4 i AES z kluczem 128-bitowym, aby poznać symetryczne algorytmy kryptograficzne.
+- Zbadanie kryptosystemu RSA, dystrybucji kluczy i funkcji Hash w celu poznania kryptografii asymetrycznej.
 ---
-# Głębokie zagłębienie się w kryptografię
+# Głębokie zanurzenie w nowoczesną kryptografię
 
+W tym kursie omówimy podstawy nowoczesnej kryptografii w jasny i przystępny sposób, bez wymagania solidnego zaplecza matematycznego. W kolejnych rozdziałach poznasz kluczowe koncepcje, takie jak szyfrowanie symetryczne i klucza publicznego, funkcje skrótu, podpisy cyfrowe, wymiana kluczy oraz protokoły stosowane w rzeczywistości. Po drodze połączymy kropki z praktycznymi zastosowaniami, takimi jak bezpieczna wymiana wiadomości, TLS, przechowywanie haseł i uwierzytelnianie.
 
-Trudno jest znaleźć wiele materiałów, które oferują dobry środek w edukacji kryptograficznej.
-
-
-Z jednej strony istnieją długie, formalne traktaty, naprawdę dostępne tylko dla osób z silnym doświadczeniem w matematyce, logice lub innej dyscyplinie formalnej. Z drugiej strony, istnieją bardzo szczegółowe wprowadzenia, które naprawdę ukrywają zbyt wiele szczegółów dla każdego, kto jest choć trochę ciekawy.
-
-
-To wprowadzenie do kryptografii ma na celu uchwycenie środka. Chociaż powinno być stosunkowo trudne i szczegółowe dla każdego, kto jest nowy w kryptografii, nie jest to królicza nora typowego fundamentalnego traktatu.
-
-
+Materiał jest zaprojektowany dla uczących się na wszystkich poziomach i równoważy intuicję z wystarczającą głębią techniczną, aby zaspokoić ciekawość. Oczekuj skoncentrowanej, angażującej podróży. Pod koniec zrozumiesz, jak i dlaczego działa nowoczesna kryptografia oraz jak używać jej odpowiedzialnie.
 +++
-
 # Wprowadzenie
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>

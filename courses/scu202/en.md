@@ -3746,16 +3746,16 @@ To view all the metadata contained in a file, use the following command:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
-Replace `name.jpg` with the real name of your file. Also make sure you're positioned in the directory containing this image. For example, if I have a photo of the Satoshi Nakamoto statue in the `/Downloads` directory, I can display its metadata by running the following command:
+Replace `name.webp` with the real name of your file. Also make sure you're positioned in the directory containing this image. For example, if I have a photo of the Satoshi Nakamoto statue in the `/Downloads` directory, I can display its metadata by running the following command:
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -3783,7 +3783,7 @@ To delete all unnecessary metadata from a file, use the command:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -3800,7 +3800,7 @@ If you don't want to keep the original, you can delete it with the command:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -3818,11 +3818,11 @@ If you have several files to process in the same directory, you can use a generi
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
-This deletes the metadata of all JPEG files in the current directory. You can adapt the extension to suit your needs (`*.png`, `*.pdf`...).
+This deletes the metadata of all JPEG files in the current directory. You can adapt the extension to suit your needs (`*.webp`, `*.pdf`...).
 
 
 ![Image](assets/fr/264.webp)

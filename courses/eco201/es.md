@@ -65,7 +65,7 @@ Cuando una institución financiera tiene una licencia bancaria, significa básic
 
 Al comprar la casa, le indicas a tu banquero que transfiera dinero a la cuenta del vendedor. Si la cuenta del vendedor está en otro banco, tu banquero notifica al banquero correspondiente en la otra institución para asegurarse de que la cuenta del vendedor sea acreditada correctamente, mientras que se debita tu cuenta por la cantidad correspondiente.
 
-![imagen](assets/en/01.webp)
+![imagen](assets/es/001.webp)
 
 Figura 1: Creación de Dinero como Entradas Contables
 
@@ -83,7 +83,7 @@ Este dilema dio origen a los bancos centrales modernos. En el siglo XIX en Ingla
 
 Además de mantener la estabilidad financiera, los bancos centrales son responsables de establecer tasas de interés clave. Estas tasas determinan el costo al que los bancos con licencia pueden pedir prestado fondos al banco central, definiendo esencialmente el costo de la liquidez para las instituciones financieras que desempeñan un papel crucial en los préstamos en nuestras economías. Por lo tanto, estas tasas sirven como referencia para todo el sistema financiero. Como individuo, las tasas de interés que pagas en tu hipoteca se pueden desglosar en la tasa oficial y el margen del banco.
 
-![image](assets/en/02.webp)
+![image](assets/es/002.webp)
 
 Figura 2: Bancarrota de Lehman Borthers (15/09/2008)
 
@@ -91,7 +91,7 @@ Durante la gran crisis financiera de 2008, Lehman Brothers, un gran banco de inv
 
 Si bien estas medidas evitaron una ola en cascada de quiebras, hicieron poco para aliviar la posterior desaceleración económica. Millones de personas perdieron sus empleos y hogares, el gasto del consumidor se desplomó, las empresas quebraron y los bancos incurrieron en pérdidas sustanciales. A pesar de las tasas de interés históricamente bajas, pocos estaban dispuestos a pedir prestado, lo que resultó en un ciclo vicioso en el que la disminución inicial del gasto y la inversión se reforzaron a sí mismas. En consecuencia, los banqueros centrales tomaron medidas adicionales implementando programas de Flexibilización Cuantitativa (QE, por sus siglas en inglés, Quantitative Easing ). Estos programas implicaban que los bancos centrales compraran bonos del gobierno y valores respaldados por hipotecas de los bancos comerciales con reservas del banco central.
 
-![image](assets/en/03.webp)
+![image](assets/es/003.webp)
 
 Figura 3 : Tipos de interés en las principales economías / Fuente: BCE
 
@@ -101,7 +101,7 @@ Contrariamente a muchas expectativas, los programas de QE no revivieron signific
 
 No obstante, se puede extraer un principio económico esencial de este episodio: cuando se crea dinero nuevo, inicialmente beneficia a aquellos más cercanos a la fuente del dinero, a expensas de aquellos más alejados. Esta idea económica se remonta al siglo XVIII, cuando Richard Cantillon la describió en su "Ensayo sobre la naturaleza del comercio en general". Ahora se conoce coloquialmente como el "Efecto Cantillon".
 
-![image](assets/en/04.webp)
+![image](assets/es/004.webp)
 
 Figura 4: El efecto Cantillon / Fuente: River Financial
 
@@ -112,7 +112,7 @@ En esta instancia, los banqueros, ejecutivos bancarios, propietarios de acciones
 
 En esencia, el sistema está sesgado. Los bancos son inherentemente inestables, pero su fracaso puede poner en peligro toda la economía. Este riesgo moral incentiva a los ejecutivos bancarios a tomar riesgos excesivos para maximizar los ingresos de su banco, sabiendo que el banco central finalmente los rescatará, trasladando el costo a los contribuyentes. En tales escenarios, los banqueros centrales crean condiciones para una transferencia masiva de poder adquisitivo de las personas trabajadoras y ahorradoras a los propietarios de activos y aquellos conectados al sistema financiero, desconectando así el proceso de creación de riqueza de la acumulación de riqueza.
 
-![image](assets/en/05.webp)
+![image](assets/es/005.webp)
 
 Figura 5: Distribución de la riqueza en China + Europa + EE. UU. / Fuente: OECD
 
@@ -122,7 +122,7 @@ Durante períodos prolongados de Políticas de Tasa de Interés Cero (ZIRP), los
 
 Otra consecuencia no deseada de ZIRP es que alienta a los gobiernos a realizar gastos extensos. Dado que los gobiernos no enfrentan costos de endeudamiento y pueden confiar en que los bancos centrales compren sus bonos a través de programas de QE, tienen un incentivo natural para gastar tanto como sea posible, especialmente en contextos democráticos donde el gasto puede obtener votos. Esta tendencia a menudo pasa por alto las consecuencias a largo plazo de tal desperdicio fiscal, lo que lleva a un aumento significativo en los niveles de deuda pública en las economías desarrolladas desde la Crisis Financiera Global (GFC).
 
-![image](assets/en/06.webp)
+![image](assets/es/006.webp)
 
 Figura 6: Deuda Pública y Privada como % del PIB (Mundial, ponderado por el PIB por país) / Fuente: FMI
 
@@ -159,7 +159,7 @@ Estas preguntas han ocupado a economistas y filósofos durante muchos siglos y h
 
 Después de que la teoría del valor de la tierra de los fisiócratas, que postulaba que todo valor proviene de la tierra, fuera refutada por la teoría del valor del trabajo de los economistas clásicos, que postulaba que el valor de un bien proviene de la cantidad de trabajo invertido en su producción, fue el turno de la teoría marginal del valor para suplantar a esta última. En la década de 1870, siguiendo a Marx, el último de los economistas clásicos, surgieron casi simultáneamente tres nuevas corrientes de pensamiento económico en torno a una teoría marginal del valor: la escuela de Lausana con Léon Walras, la escuela moderna o neoclásica con William Stanley Jevons y la escuela austriaca con Carl Menger. Esta revolución en la teoría del valor constituyó una renovación significativa del pensamiento económico.
 
-![image](assets/en/07.webp)
+![image](assets/es/007.webp)
 
 De izquierda a derecha: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -169,7 +169,7 @@ Es común presentar el marginalismo de estas tres corrientes como similares. De 
 
 ### Valor Subjetivo
 
-![image](assets/en/08.webp)
+![image](assets/es/008.webp)
 
 > El valor no es intrínseco, no está en las cosas. Está dentro de nosotros; es la forma en que el hombre reacciona ante las condiciones de su entorno. El valor no está en las palabras ni en las doctrinas, se refleja en la conducta humana. No importa lo que un hombre o un grupo diga acerca del valor, sino cómo actúan.
 > 
@@ -196,7 +196,7 @@ Esta concepción subjetiva del valor, entendida como una relación psicológica 
 
 ### La División del Trabajo
 
-![image](assets/en/09.webp)
+![image](assets/es/009.webp)
 
 Visita a una fábrica de clavos, Léonard Defrance (siglo XVIII)
 
@@ -259,7 +259,7 @@ Este juego ilustra un problema que se encuentra con frecuencia en la vida real: 
 
 ### Dinero para Resolver Problemas de Coordinación
 
-![image](assets/en/10.webp)
+![image](assets/es/010.webp)
 
 > El dinero no es una invención del Estado. No es el producto de un acto legislativo. Ni siquiera es necesaria la sanción de la autoridad política para su existencia. Ciertos bienes llegaron a convertirse en dinero de manera bastante natural, como resultado de relaciones económicas que eran independientes del poder del Estado."
 > 
@@ -283,7 +283,7 @@ En tiempos pre-civilización, estas tecnologías no existían. Por lo tanto, nue
 
 ### Doble Coincidencia de Deseos y Salibilidad
 
-![image](assets/en/11.webp)
+![image](assets/es/011.webp)
 
 El dinero puede verse como la solución descubierta por nuestros antepasados para abordar lo que los economistas llaman el problema de la "doble coincidencia de deseos". Este problema tiene tres dimensiones: espacial, temporal e interpersonal.
 
@@ -326,14 +326,14 @@ Esta evaluación subjetiva del valor de los bienes futuros en comparación con l
 
 Este concepto de valoración relativa de los bienes futuros sobre los bienes presentes es la raíz del fenómeno del interés. De hecho, en una economía con mercados de capital no manipulados, las tasas de interés de referencia (consideradas libres de riesgo de impago) se determinan en la intersección de la oferta y la demanda de capital. Por lo tanto, estas tasas representan el estado de las preferencias temporales para toda la economía: un aumento en la tasa de interés se produce como resultado de un aumento relativo en la demanda de capital en comparación con la oferta, lo que indica preferencias temporales más altas. Por el contrario, una disminución en las tasas de interés se produce debido a un aumento en el ahorro, es decir, un aumento en la oferta de capital, lo que indica una reducción en las preferencias temporales.
 
-![image](assets/en/12.webp)
+![image](assets/es/012.webp)
 
 En una economía donde las tasas de interés no son manipuladas por el banco central, tendemos a observar una curva de rendimiento ascendente: a mayor vencimiento de la deuda, mayor es la tasa de interés. La situación opuesta no puede ocurrir porque implicaría que el futuro es más cierto que el presente, lo cual es una imposibilidad lógica.
 El concepto de preferencia temporal y cómo expresamos nuestra propia preferencia temporal a través del consumo y el ahorro es fundamental para los procesos de asignación de capital y producción. Volvamos a la teoría del capital de Eugen von Böhm-Bawerk, estudiante de Menger, para entender exactamente cómo la preferencia temporal afecta la organización de la producción.
 
 ### Teoría del Capital
 
-![image](assets/en/13.webp)
+![image](assets/es/013.webp)
 
 > El valor presente de los bienes de orden superior es igual al valor del producto final menos el valor de los servicios del capital necesarios para su producción.
 >
@@ -353,13 +353,13 @@ Debido a la naturaleza secuencial de la acción humana, estas elecciones interte
 
 Para ilustrar este punto, volvamos al ejemplo dado por Böhm-Bawerk en su obra "Capital and Interest":
 
-![image](assets/en/14.webp)
+![image](assets/es/014.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe y el desvío de producción:
 
-![image](assets/en/15.webp)
+![image](assets/es/015.webp)
 
 Robinson Crusoe desembarcando provisiones del naufragio, John Alexander Gilfillan (1793-1864)
 
@@ -382,7 +382,7 @@ Este es un concepto tentador, aunque simple: cualquier extensión de la estructu
 Ahora bien, como se insinuó en el primer capítulo, los bancos centrales han manipulado las tasas de interés durante décadas, mientras que los bancos comerciales han otorgado crédito sin reservas previas, lo que significa que las tasas de interés no representan nuestra preferencia temporal y dan una ilusión de ahorro abundante.
 Esto se ilustra perfectamente en el gráfico a continuación: las tasas a largo plazo son más bajas que las tasas a corto plazo. En primer lugar, esto no tiene absolutamente ningún sentido, porque implicaría que el futuro es más seguro que el presente. En segundo lugar, plantea una pregunta sobre las consecuencias para la asignación de capital: si todos tienen incentivos para actuar como si el ahorro fuera abundante, mientras que los ahorradores no se encuentran en ninguna parte porque no se les recompensa por ahorrar, ¿qué consecuencias podría tener esto para la economía?
 
-![imagen](assets/en/16.webp)
+![imagen](assets/es/016.webp)
 > Curva de Rendimiento de los bonos governativos de Estados Unidos
 
 ¡Esto es lo que descubriremos en el próximo capítulo dedicado a la Teoría Austriaca del Ciclo Económico!
@@ -413,7 +413,7 @@ Para describir este fenómeno de descoordinación temporal y sus consecuencias d
 
 Para facilitar nuestra explicación, volveremos a la clasificación de bienes de Menger y representaremos la estructura productiva en un diagrama compuesto por un número arbitrario de etapas:
 
-![image](assets/en/17.webp)
+![image](assets/es/017.webp)
 
 En el diagrama anterior, los recursos iniciales pasan por varias etapas de producción, sufriendo transformaciones que los acercan al estado de bienes de consumo final (a través de la interacción con los factores originales de producción: tiempo, tierra, trabajo). La altura del lado derecho del triángulo representa esquemáticamente el PIB, ya que denota la suma de todos los bienes de consumo vendidos en un período. La brecha entre cada barra corresponde al valor agregado (en términos monetarios) generado por cada etapa del proceso. Esta diferencia también se puede ver como el ingreso asociado con cada etapa (ingresos - costos).
 
@@ -421,7 +421,7 @@ Si, a nivel agregado, los agentes económicos aumentan sus ahorros, la cantidad 
 
 Luego obtendremos una estructura de producción extendida, un cambio que se puede representar cualitativamente mediante el siguiente diagrama:
 
-![image](assets/en/18.webp)
+![image](assets/es/018.webp)
 
 Aquí, el valor monetario de los bienes de consumo demandados ha disminuido, liberando recursos para la creación de una etapa adicional de producción. En este escenario, donde la disminución de las tasas de interés es consecuencia de una disminución del consumo, es decir, un aumento del ahorro, el área del triángulo que representa la cantidad de dinero en circulación permanece sin cambios. La transformación de la estructura de producción (alargamiento) simplemente resulta de una transferencia de poder adquisitivo de una parte de la estructura a otra.
 
@@ -436,7 +436,7 @@ Con tasas de interés más bajas, los empresarios pueden pedir prestados más re
 
 Ten en cuenta que esta es una consecuencia completamente lógica de la expansión del crédito. En la medida en que los bancos producen medios fiduciarios al otorgar préstamos, naturalmente se espera que el poder adquisitivo general aumente.
 
-![image](assets/en/19.webp)
+![image](assets/es/019.webp)
 
 A medida que el crédito ingresa a la economía a través de préstamos a empresarios, deberíamos observar un aumento en las ganancias en los sectores de producción alejados del consumo y una disminución en las ganancias relativas en los sectores más cercanos al consumo. Esta mayor rentabilidad luego respalda una reasignación de capital hacia estas nuevas etapas más intensivas en capital (construcción naval, automotriz, construcción, tecnologías avanzadas, etc.) y una disminución de las inversiones en sectores más cercanos al consumo.
 
@@ -452,7 +452,7 @@ Este ajuste se puede ver como un período durante el cual se impone el subconsum
 
 Desafortunadamente, este mecanismo depresivo a menudo se ve interrumpido por el poder político y los bancos centrales que buscan "estimular" la economía a través del gasto deficitario y una política monetaria fácil.
 
-![imagen](assets/en/20.webp)
+![imagen](assets/es/020.webp)
 
 Tanto los monetaristas como los keynesianos consideran que la causa de la depresión es la demanda agregada insuficiente, por lo que ninguno presta atención a la evolución de los precios relativos, que, como hemos visto, es el núcleo del problema. Por lo tanto, creen que proporcionar un incentivo para la expansión del crédito (bajando las tasas de interés) y utilizar la capacidad de déficit del estado para impulsar la demanda iniciará una recuperación. A corto plazo, estas medidas pueden parecer que producen los efectos deseados: el déficit respalda el gasto, mientras que la reducción de las tasas de interés conduce a precios de activos más altos, lo que, a su vez, anima a los poseedores de activos a aumentar sus gastos. Sin embargo, este impulso eventualmente se desvanece, mientras que el problema estructural persiste, o incluso empeora, ya que la mala asignación de capital continúa gracias a las tasas de interés artificialmente bajas.
 
@@ -491,7 +491,7 @@ Con su artículo, Mises introdujo una nueva dimensión al debate. Dejando de lad
 
 ### Explicando la Imposibilidad del Cálculo Económico
 
-![image](assets/en/21.webp)
+![image](assets/es/021.webp)
 
 > Lo que el cálculo económico requiere es un sistema monetario cuyo funcionamiento no esté saboteado por la interferencia gubernamental.
 >
@@ -513,7 +513,7 @@ Este proceso es crucial porque valida o invalida la eficiencia de diversas activ
 
 Desde esta perspectiva, una economía planificada centralmente inevitablemente experimentará una mala asignación de capital. A corto y mediano plazo, estas malas asignaciones pueden pasar desapercibidas porque no hay precios de mercado ni quiebras que las revelen. Sin embargo, debido a la ausencia de retroalimentación (precios) y mecanismos de realocación (quiebras), los errores se acumularán hasta que el derroche se haga evidente a través de una disminución significativa en las condiciones de vida.
 
-![image](assets/en/22.webp)
+![image](assets/es/022.webp)
 
 > "La curiosa tarea de la economía es mostrar a los hombres cuán poco saben realmente acerca de aquello que creen poder diseñar."
 >
@@ -527,7 +527,7 @@ A pesar de esta impresionante predicción y numerosas demostraciones empíricas 
 
 ### La Teoría del Ciclo Económico Austriaco como un Caso Específico de la Imposibilidad del Cálculo Económico bajo el Socialismo
 
-![image](assets/en/23.webp)
+![image](assets/es/023.webp)
 > "En la comunidad socialista, todo cambio económico se convierte en una empresa cuyo éxito no puede ser ni anticipadamente evaluado ni determinado retrospectivamente. No hay más que tanteo en la oscuridad. El socialismo es la abolición de la economía racional."
 >
 > Ludwig von Mises, La acción humana

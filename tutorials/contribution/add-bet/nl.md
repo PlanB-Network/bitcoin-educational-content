@@ -8,10 +8,10 @@ description: Hoe voeg je nieuw onderwijsmateriaal toe op PlanB Network?
 De missie van PlanB is om toonaangevende educatieve bronnen aan te bieden op Bitcoin, in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, waardoor iedereen kan deelnemen aan het verrijken van het platform.
 
 
-Naast tutorials en training biedt PlanB Network ook een uitgebreide bibliotheek met gevarieerde educatieve inhoud op Bitcoin, toegankelijk voor iedereen, [in de "BET" (_Bitcoin Educational Toolkit_) sectie](https://planb.network/resources/bet). Deze database bevat educatieve posters, memes, humoristische propagandaposters, technische diagrammen, logo's en andere hulpmiddelen voor gebruikers. Het doel van dit initiatief is om individuen en gemeenschappen die wereldwijd Bitcoin onderwijzen te ondersteunen door hen te voorzien van de nodige visuele middelen.
+Naast tutorials en training biedt PlanB Network ook een uitgebreide bibliotheek aan met gevarieerde educatieve inhoud over Bitcoin, toegankelijk voor iedereen, [in de "BET" (_Bitcoin Educational Toolkit_) sectie](https://planb.network/resources/bet). Deze database bevat educatieve posters, memes, humoristische propagandaposters, technische diagrammen, logo's en andere hulpmiddelen voor gebruikers. Het doel van dit initiatief is om individuen en gemeenschappen die wereldwijd Bitcoin onderwijzen te ondersteunen door hen te voorzien van de nodige visuele middelen.
 
 
-Wil je meewerken aan het verrijken van deze database, maar weet je niet hoe? Deze tutorial is voor jou!
+Wil je meewerken aan het verrijken van deze database, maar weet je niet hoe? Dan is deze tutorial voor jou!
 
 
 *Het is noodzakelijk dat alle inhoud die in de site wordt geïntegreerd vrij is van rechten of de licentie van het bronbestand respecteert. Alle visuals gepubliceerd op PlanB Network zijn beschikbaar onder de [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licentie.*
@@ -26,17 +26,18 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
+
 - Ga naar [de GitHub repository van PlanB gewijd aan gegevens](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet) in de `resources/bet/` sectie:
 
 ![event](assets/02.webp)
 
 
-- Klik rechtsboven op de knop `Bestand toevoegen` en vervolgens op `Nieuw bestand maken`:
+- Klik rechtsboven op de knop `Add file` (Bestand toevoegen) en vervolgens op `Create new file` (Nieuw bestand maken):
 
 ![event](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een Fork van het originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de `Fork this repository` knop:
+- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
 
 ![event](assets/04.webp)
 
@@ -46,7 +47,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/05.webp)
 
 
-- Maak een map voor je inhoud. Om dit te doen, schrijf je in het vak `Naam je bestand...` de naam van je inhoud in kleine letters met streepjes in plaats van spaties. Laten we in mijn voorbeeld zeggen dat ik een PDF-visual van de BIP39-lijst van 2048 woorden wil toevoegen. Dus noem ik mijn map `bip39-wordlist`: ![event](assets/06.webp)
+- Maak een map voor je inhoud. Om dit te doen, schrijf je in het vak `Name your file...` de naam van je inhoud in kleine letters met streepjes in plaats van spaties. Laten we in mijn voorbeeld zeggen dat ik een PDF-visual van de BIP39-lijst van 2048 woorden wil toevoegen. Dus noem ik mijn map `bip39-wordlist`: ![event](assets/06.webp)
 - Om de aanmaak van de map te bevestigen, voeg je gewoon een schuine streep toe na de naam in hetzelfde vak, bijvoorbeeld: `bip39-wordlist/`. Door een schuine streep toe te voegen, wordt automatisch een map aangemaakt in plaats van een bestand:
 
 ![event](assets/07.webp)
@@ -79,7 +80,7 @@ Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
 
-- `project`: Geef de identificatiecode van je organisatie op PlanB Network aan. Als je nog geen "project" identifier hebt voor je bedrijf, kun je er een aanmaken door deze tutorial te volgen.
+- `project`: Geef de identificatiecode van je organisatie op PlanB Network aan. Als je nog geen "project" identificatiecode hebt voor je bedrijf, kun je er een aanmaken door deze tutorial te volgen.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -89,29 +90,29 @@ Als je er geen hebt, kun je gewoon je naam, je pseudoniem of de naam van je bedr
 
 
 - `type`: Selecteer de aard van uw inhoud uit de volgende twee opties:
- - educatieve inhoud` voor educatieve inhoud.
- - `Visuele inhoud` voor andere soorten diverse inhoud.
+  - `Educational Content` voor educatieve inhoud.
+  - `Visual Content` voor andere soorten van diverse inhoud.
 
 
 
 - `links`: Geef links naar je inhoud. Je hebt twee opties:
- - Als je ervoor kiest om je inhoud direct op PlanB's GitHub te hosten, moet je de links naar dit bestand toevoegen tijdens de volgende stappen.
- - Als je inhoud elders wordt gehost, bijvoorbeeld op je persoonlijke website, geef dan hier de bijbehorende links aan:
+  - Als je ervoor kiest om je inhoud direct op PlanB's GitHub te hosten, moet je de links naar dit bestand toevoegen tijdens de volgende stappen.
+  - Als je inhoud elders wordt gehost, bijvoorbeeld op je persoonlijke website, geef dan hier de bijbehorende links aan:
      - `download`: Een link om je inhoud te downloaden.
-     - `bekijken`: Een link om je inhoud te bekijken (kan dezelfde zijn als de downloadlink). Als je inhoud in meerdere talen beschikbaar is, voeg dan voor elke taal een link toe.
+     - `view`: Een link om je inhoud te bekijken (kan dezelfde zijn als de downloadlink). Als je inhoud in meerdere talen beschikbaar is, voeg dan voor elke taal een link toe.
 
 
 
-- `tags`: Voeg twee tags toe die aan je inhoud zijn gekoppeld. Voorbeelden:
- - Bitcoin
- - technologie
- - economie
- - onderwijs
- - meme...
+- `tags`: Voeg twee tags toe die aan je inhoud zijn gekoppeld. Voorbeelden:      
+  - Bitcoin
+  - technologie
+  - economie
+  - onderwijs
+  - meme...
 
 
 
-- `contributors`**: Vermeld je contributor identifier als je die hebt.**
+- `contributors`: Vermeld je contributor identifier als je die hebt.
 
 
 Je YAML-bestand zou er bijvoorbeeld zo uit kunnen zien:
@@ -165,50 +166,48 @@ view:
 - Create a new YAML file by naming it with the indicator of your native language. This file will be used for the content description. For example, if I want to write my description in English, I will name this file `en.yml`: ![event](assets/36.webp)
 - Fill out this YAML file using this template:
 
-```
-
+```yaml
 name:
 description: |
 
 ```
 
-- For the `name` key, you can add the name of your content;
-- For the `description` key, you simply need to add a short paragraph that describes your content. The description must be in the same language as the file name. You do not need to translate this description into all the supported languages on the site, as the PlanB teams will do so with their model.
-For example, here is what your file might look like:
+- Voor de `name` sleutel kun je de naam van je inhoud toevoegen;
+- Voor de `description` sleutel moet je slechts een korte alinea toevoegen die je inhoud beschrijft. De beschrijving moet in dezelfde taal zijn als de bestandsnaam. Je hoeft deze beschrijving niet te vertalen naar alle ondersteunde talen op de site, aangezien de PlanB-teams dit met hun model zullen doen. Bijvoorbeeld, hier is een voorbeeld van hoe je bestand eruit zou kunnen zien:
 
 ```
 
 name: BIP39 WORDLIST
 description: |
-Volledige en genummerde lijst van de 2048 Engelse woorden uit het BIP39 woordenboek die gebruikt worden om Mnemonic zinnen te coderen. Het document kan op één pagina worden afgedrukt.
+ \Complete and numbered list of the 2048 English words from the BIP39 dictionary used to encode mnemonic phrases. The document can be printed on a single page.
 
 ```
 
 ![event](assets/37.webp)
-- Click on the `Commit changes...` button:
+- Klik op de `Commit changes...` knop:
 ![event](assets/38.webp)
-- Ensure that the `Commit directly to the patch-1 branch` box is checked, add a title, then click on `Commit changes`:
+- Zorg ervoor dat het vakje `Commit directly to the patch-1 branch` is aangevinkt, voeg een titel toe, en klik vervolgens op `Commit changes`:
 ![event](assets/39.webp)
-- Your content folder should now look like this:
+- De inhoud van je map zou er nu zo moeten uitzien:
 ![event](assets/40.webp)
 
 ---
 
-*If you prefer not to add the content on GitHub and you have already noted the links in the `bet.yml` file during the previous steps, you can skip this section and go directly to the part concerning the creation of the Pull Request.*
+*Als je de inhoud niet wilt toevoegen aan GitHub en je hebt de links al genoteerd in het `bet.yml` bestand tijdens de vorige stappen, dan kun je dit gedeelte overslaan en rechtstreeks doorgaan naar het deel over het maken van de Pull Request.*
 
-- Return to the `/assets` folder:
+- Ga terug naar de `/assets` folder:
 ![event](assets/41.webp)
-- Click on the `Add file` button, then on `Upload files`:
+- Klik op de `Add file` knop, dan op `Upload files`:
 ![event](assets/42.webp)
-- A new page will open. Drag and drop into the area the content you wish to share:
+- Er wordt een nieuwe pagina geopend. Sleep en zet de inhoud die je wilt delen in het aangewezen gebied:
 ![event](assets/43.webp)
-- For example, I added the PDF file of the BIP39 list:
+- Als voorbeeld heb ik het PDF-bestand van de BIP39 lijst toegevoegd: 
 ![event](assets/44.webp)
-- Once the content is uploaded, ensure that the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`:
+- Zodra de inhoud is geüpload, zorg ervoor dat het vakje `Commit directly to the patch-1 branch` is aangevinkt, en klik vervolgens op `Commit changes`: 
 ![event](assets/45.webp)
-- Return to your `/assets` folder and click on the file you just uploaded:
+- Ga terug naar je `/assets` folder en klik op het bestand dat je zonet hebt geüpload:
 ![event](assets/46.webp)
-- Retrieve the intermediate URL of your file. For example, in my case, the URL is:
+- Haal de tussenliggende URL van je bestand op. Bijvoorbeeld, in mijn geval is de URL:
 
 ```
 
@@ -216,7 +215,7 @@ https://github.com/tutorial-pandul/Bitcoin-educational-content/blob/patch-1/reso
 
 ```
 
-- Keep only the last part of the URL from `/resources` onwards:
+- Behoud alleen het laatste deel van de URL vanaf `/resources`:
 
 ```
 
@@ -224,10 +223,46 @@ https://github.com/tutorial-pandul/Bitcoin-educational-content/blob/patch-1/reso
 
 ```
 
-- Add to the base of the URL the following information to have the correct link:
+- Voeg aan het einde van de URL de volgende informatie toe om de juiste link te krijgen:
 
 ```
 
 https://github.com/DiscoverBitcoin/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 
 ```
+
+Wat we hier doen is het toekomstige link naar je bestand voorspellen, nadat je voorstel is samengevoegd (merged) met de bronrepository van het PlanB Network.
+
+- Ga terug naar je `bet.yml` bestand en klik op het potloodpictogram:
+![event](assets/47.webp)
+
+- Voeg je link daar toe:
+![event](assets/48.webp)
+
+- Zodra je wijzigingen klaar zijn, klik op de knop `Commit changes...`:
+![event](assets/49.webp)
+
+- Voeg een titel toe voor je wijzigingen, evenals een korte beschrijving:
+![event](assets/50.webp)
+
+- Klik op de groene knop `Commit changes...`:
+![event](assets/51.webp)
+
+- Als alles naar je zin lijkt, keer terug naar de root van je fork:
+![event](assets/52.webp)
+
+- Je zou een bericht moeten zien dat aangeeft dat je branch is gewijzigd. Klik op de knop `Compare & pull request`:
+![event](assets/53.webp)
+
+- Voeg een duidelijke titel en een beschrijving toe voor je Pull Request (PR):
+![event](assets/54.webp)
+
+- Klik op de knop `Create pull request`:
+![event](assets/55.webp)
+Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu beoordelen en, als alles in orde is, het samenvogen met de hoofdrepository van het PlanB Network. Je zou je BET een paar dagen later op de website moeten zien verschijnen.
+
+Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking plaatsen met een verzoek om aanvullende informatie. Zolang je PR niet is gevalideerd, kun je het raadplegen in het tabblad "Pull requests" in de PlanB Network GitHub repository:
+
+![event](assets/56.webp)
+
+Bedankt voor je waardevolle bijdrage! :)

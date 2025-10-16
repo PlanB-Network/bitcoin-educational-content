@@ -138,7 +138,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/ja/001.webp)
 
 
 
@@ -152,7 +152,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/ja/002.webp)
 
 
 
@@ -166,7 +166,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/ja/003.webp)
 
 
 
@@ -180,7 +180,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/ja/004.webp)
 
 
 
@@ -197,7 +197,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/ja/005.webp)
 
 
 
@@ -263,7 +263,7 @@ TCP/IPモデルの4つのレイヤーは以下の通り：
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/ja/006.webp)
 
 
 
@@ -390,7 +390,7 @@ IPデータグラムが、データグラム自体よりも伝送容量が小さ
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/ja/007.webp)
 
 
 
@@ -431,7 +431,7 @@ IPデータグラムが、データグラム自体よりも伝送容量が小さ
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/ja/008.webp)
 
 
 
@@ -442,7 +442,7 @@ IPデータグラムが、データグラム自体よりも伝送容量が小さ
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/ja/009.webp)
 
 
 
@@ -456,7 +456,7 @@ IPデータグラムが、データグラム自体よりも伝送容量が小さ
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/ja/010.webp)
 
 
 
@@ -507,7 +507,7 @@ IP Addressには2つの部分がある：
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/ja/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Addressを最適に使用し、複雑なネットワークを設計するには�
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/ja/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCPはコネクション指向のプロトコルであり、クライアント�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/ja/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCPはコネクション指向のプロトコルであり、クライアント�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/ja/014.webp)
 
 
 
@@ -711,7 +711,7 @@ TCPは重複を検出して処理することができる。再送されたセ�
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/ja/015.webp)
 
 
 
@@ -734,7 +734,7 @@ TCPは重複を検出して処理することができる。再送されたセ�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/ja/016.webp)
 
 
 
@@ -751,7 +751,7 @@ IPの柔軟なルーティングとTCPの厳密な制御を組み合わせたこ
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/ja/017.webp)
 
 
 
@@ -791,7 +791,7 @@ UDPはTCPとは根本的に異なる原理で動作する。つまり、**コネ
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/ja/018.webp)
 
 
 
@@ -800,7 +800,7 @@ UDPはTCPとは根本的に異なる原理で動作する。つまり、**コネ
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/ja/019.webp)
 
 
 
@@ -836,7 +836,7 @@ UDPはTCPとは根本的に異なる原理で動作する。つまり、**コネ
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/ja/020.webp)
 
 
 
@@ -896,7 +896,7 @@ IPアドレスは主に2つの方法で割り当てることができる：
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/ja/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ MAC AddressとIP Addressは全く異なる識別子ですが、密接に補完�
 - MAC Addressのビジュアル例：
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/ja/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ MAC AddressとIP Addressは全く異なる識別子ですが、密接に補完�
 - IP Addressの視覚的な例：
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/ja/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ IPv4不足への対応に加え、NATは内部ネットワークとパブリッ�
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/ja/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ NATは、ほとんどの一般的な用途（ウェブ閲覧、電子メール�
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/ja/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/ja/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ IPv4とは異なり、「ブロードキャスト」という概念はない。�
 以下は、MAC AddressをEUI-64に変換する方法の例である：
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/ja/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ IPv6のパケットフォーマットはIPv4と異なり、よりシンプルで
 このヘッダーがある場合、常にベースヘッダーの直後に置かれる。通常宛先ノードだけで処理される他のほとんどのヘッダーとは異なり、パケットの経路上のすべてのルーターで処理されなければならない情報を含む。典型的な用途としては、グローバルパラメータをシグナリングしたり、パケットがネットワークを通過する際に特定の処理ステップを要求したりすることなどがある。
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/ja/028.webp)
 
 
 #### ルーティング・ヘッダ
@@ -2117,7 +2117,7 @@ IPv6のパケットフォーマットはIPv4と異なり、よりシンプルで
 Segments Left "フィールドは、残りのセグメントの総数から始まり、ホップごとに1ずつ減っていく。
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/ja/029.webp)
 
 
 #### フラグメント・ヘッダー
@@ -2134,7 +2134,7 @@ IPv6では、ルーターもフラグメントできるIPv4とは異なり、送
 - **Mフラグ**：さらにフラグメントが続くかどうかを示す。
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/ja/030.webp)
 
 
 #### 認証ヘッダー（AH）
@@ -2146,7 +2146,7 @@ IPv6では、ルーターもフラグメントできるIPv4とは異なり、送
 不正な変更が試みられた場合、認証コードは一致しなくなり、データグラムは拒否される可能性がある。このメカニズムは、不正な複製を検出することでリプレイ攻撃からも保護する。
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/ja/031.webp)
 
 
 #### デスティネーション・オプション・ヘッダー
@@ -2158,7 +2158,7 @@ IPv6では、ルーターもフラグメントできるIPv4とは異なり、送
 当初、このようなオプションはプロトコルに定義されていなかった。しかし、このヘッダーはIPv6が設計されたときに導入され、パケット構造全体を変更することなく将来の拡張を追加できるようにした。例えば、nullオプションは、メモリ整列の目的でヘッダを8バイトの倍数にパディングするためだけに使用される。
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/ja/032.webp)
 
 
 IPv6パケットの設計は、最小限のベースヘッダとモジュラー拡張ヘッダの明確な分離に基づいて構築されています。このアーキテクチャは、将来のインフラとの互換性を維持しながら、標準的な処理性能と、プロトコルを進化させ、セキュリティや複雑なルーティング、サービス品質メカニズムを統合するために必要な柔軟性の両方を保証します。
@@ -2504,7 +2504,7 @@ Wiresharkは、LinuxやWindowsを含む多くのオペレーティングシス�
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/ja/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/ja/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/ja/035.webp)
 
 
 

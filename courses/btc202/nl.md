@@ -3133,14 +3133,14 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 
 - `peers.dat` houdt een IP adres boek bij van potentiële peers, gevoed door initiële DNS ontdekking, netwerkuitwisselingen en handmatige toevoegingen. Wanneer de node opstart, kan het uit dit bestand putten om uitgaande verbindingen tot stand te brengen.
 - Als de node wordt uitgeschakeld, bewaart `anchors.dat` de adressen van uitgaande peers, zodat je ze de volgende keer dat je opstart snel weer kunt proberen te bereiken.
-- `banlist.json` bevat lokale verboden die zijn ingesteld door de operator of door de node (herhaaldelijk ongeldig gedrag), om te voorkomen dat de node opnieuw verbinding maakt of verbindingen accepteert van deze specifieke peers.
+- `banlist.json` bevat lokale blokkeringen die zijn ingesteld door de operator of door de node (herhaaldelijk ongeldig gedrag), om te voorkomen dat de node opnieuw verbinding maakt of verbindingen accepteert van deze specifieke peers.
 - `fee_estimates.dat` bewaart statistieken over de tijdshorizon van waargenomen bevestigingen, die door de tariefschatter worden gebruikt om tariefpercentages voor te stellen die overeenkomen met de vertragingsdoelstellingen die zijn gekozen bij het aanmaken van een transactie.
-- gW-446.conf` bevat de configuratieparameters van je node. Hier kun je de relaisregels aanpassen. Ik vertel je hier meer over in het volgende hoofdstuk.
+- `bitcion.conf` bevat de configuratieparameters van je node. Hier kun je de relaisregels aanpassen. Ik vertel je hier meer over in het volgende hoofdstuk.
 - `settings.json` bevat aanvullende parameters voor `Bitcoin.conf`.
 - `debug.log` is het diagnostische tekstlogboek, dat kan worden gebruikt om de activiteit van een node te begrijpen in het geval van een bug.
-- gW-448.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van de node en verwijderd bij het afsluiten.
+- `bitcoind.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van de node en verwijderd bij het afsluiten.
 - `ip_asn.map` is een IP → ASN mapping tabel (standalone systeem) gebruikt voor bucketing en peer diversificatie (`-asmap` optie).
-- `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiele onion adres te behouden tussen reboots.
+- `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiel onion adres te behouden tussen reboots.
 - `i2p_private_key` slaat de privé-sleutel van I2P op wanneer `-i2psam=` wordt gebruikt, om uitgaande en mogelijk inkomende verbindingen op I2P te maken.
 - `.cookie` bevat een kortstondige RPC authenticatie token (aangemaakt bij het opstarten, verwijderd bij het afsluiten) wanneer cookie-authenticatie wordt gebruikt. Dit kan bijvoorbeeld worden gebruikt om wallet software te verbinden.
 - `.lock` is de data directory lock, die voorkomt dat meerdere instanties tegelijkertijd naar dezelfde datadir schrijven.
@@ -3148,19 +3148,19 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 
 
 
-Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel Bitcoin node-software als wallet. Het is echter niet per se de oplossing die ik zou aanraden voor het beheren van je wallets, aangezien Interface nog steeds basis is en de functionaliteiten beperkt zijn vergeleken met moderne software zoals Sparrow of Liana. Core bevat ook bestanden voor het beheren van je wallets:
+Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel Bitcoin node-software als wallet. Het is echter niet per se de oplossing die ik zou aanraden voor het beheren van je wallets, aangezien de interface nog steeds eenvoudig is en de functionaliteiten beperkt zijn vergeleken met moderne software zoals Sparrow of Liana. Core bevat ook bestanden voor het beheren van je wallets:
 
 
 
 
 
-- `wallets/` is de standaardmap die een of meer;
+- `wallets/` is de standaardmap die een of meer wallets bevat;
 - `wallets/<name>/wallet.dat` is de SQLite database van de wallet (sleutels, descriptors, transactie metadata, etc.);
 - wallets/<name>/wallet.dat-journal` is het SQLite rollback logboek.
 
 
 
-Samengevat is dit de Bitcoin core bestandsstructuur:
+Samengevat is dit de Bitcoin Core bestandsstructuur:
 
 
 
@@ -3208,7 +3208,7 @@ Samengevat is dit de Bitcoin core bestandsstructuur:
 
 
 
-Bij ontvangst van een nieuw blok controleert je node de Proof of Work en, meer in het algemeen, de naleving van de consensusregels. Als alles goed is, past het de veranderingen transactie voor transactie toe op zijn UTXO set: het controleert of elke entry bestaande UTXO's met een geldig script spendeert, verwijdert deze UTXO's en voegt de nieuwe exits toe. Als alles geldig is, worden de wijzigingen vastgelegd op `chainstate/`.
+Bij ontvangst van een nieuw blok controleert je node de Proof of Work en, meer in het algemeen, de naleving van de consensusregels. Als alles goed is, past het de veranderingen transactie per transactie toe op zijn UTXO set: het controleert of elke entry bestaande UTXO's met een geldig script spendeert, verwijdert deze UTXO's en voegt de nieuwe exits toe. Als alles geldig is, worden de wijzigingen vastgelegd op `chainstate/`.
 
 
 
@@ -3225,11 +3225,11 @@ Parallel worden ongedaan gemaakte gegevens naar `rev*.dat` geschreven en metadat
 
 
 
-Het `Bitcoin.conf` bestand is het belangrijkste Interface configuratiebestand voor Bitcoin core. Hiermee kun je het gedrag en de parameters van je node aanpassen zonder dat je de broncode opnieuw hoeft te compileren of commandoregel aanpassingen hoeft te maken. Concreet is het een platte tekst bestand gestructureerd in sleutel-waarde paren, wat betekent dat elke regel van het bestand verwijst naar een specifieke parameter (de sleutel) en de bijbehorende waarde, die gewijzigd kan worden om die parameter aan te passen.
+Het `Bitcoin.conf` bestand is het belangrijkste interface configuratiebestand voor Bitcoin Core. Hiermee kun je het gedrag en de parameters van je node aanpassen zonder dat je de broncode opnieuw hoeft te compileren of commandoregel aanpassingen hoeft te maken. Concreet is het een plat tekst bestand gestructureerd in sleutel-waarde paren, wat betekent dat elke regel van het bestand verwijst naar een specifieke parameter (de sleutel) en de bijbehorende waarde, die gewijzigd kan worden om die parameter aan te passen.
 
 
 
-Netwerk, transactierelais, prestaties, indexering, logging en RPC toegangsparameters kunnen worden gedefinieerd in `Bitcoin.conf`. Dit configuratiebestand wijzigt echter nooit de consensusregels van het protocol: het stelt alleen het lokale beleid van de node in (regels voor het doorgeven), de manier waarop het verbindt, indexeert en diensten blootstelt.
+Netwerk, transactierelais, prestaties, indexering, logging en RPC toegangsparameters kunnen worden gedefinieerd in `Bitcoin.conf`. Dit configuratiebestand wijzigt echter nooit de consensusregels van het protocol: het stelt alleen het lokale beleid van de node in (regels voor het doorgeven), de manier waarop het verbindt, indexeert en diensten ontsluit.
 
 
 
@@ -3237,7 +3237,7 @@ Netwerk, transactierelais, prestaties, indexering, logging en RPC toegangsparame
 
 
 
-Standaard staat `Bitcoin.conf` in de Bitcoin core datamap. Dit is de beroemde directory waar we het in het vorige hoofdstuk over hadden. Dit bestand wordt echter niet automatisch aangemaakt door Bitcoin core, behalve in bepaalde omgevingen, zoals Umbrel. Als het nog niet bestaat, moet je het zelf generate aanmaken door simpelweg een bestand met de naam `Bitcoin.conf` te maken en het vervolgens in een tekstverwerker te openen om je wijzigingen aan te brengen.
+Standaard staat `Bitcoin.conf` in de Bitcoin Core datamap. Dit is de bekende directory waar we het in het vorige hoofdstuk over hadden. Dit bestand wordt echter niet automatisch aangemaakt door Bitcoin Core, behalve in bepaalde omgevingen, zoals Umbrel. Als het nog niet bestaat, moet je het zelf aanmaken door simpelweg een bestand met de naam `Bitcoin.conf` te maken en het vervolgens in een tekstverwerker te openen om je wijzigingen aan te brengen.
 
 
 
@@ -3246,7 +3246,7 @@ De parameters die zijn gedefinieerd in `Bitcoin.conf` kunnen worden overschreven
 
 
 
-- `settings.json` (dynamisch geschreven door Interface graphics of sommige RPC),
+- `settings.json` (dynamisch geschreven door interface graphics of sommige RPC),
 - en opties gewijzigd via opdrachtregels.
 
 
@@ -3263,7 +3263,7 @@ Het formaat van `Bitcoin.conf` is daarom erg eenvoudig: één regel per optie, i
 
 
 
-Bijna alle Booleaanse opties kunnen worden uitgeschakeld met een `no` voorvoegsel. Bijvoorbeeld, `luisteren=0` en `nolisten=1` zijn gelijkwaardig afhankelijk van de versie.
+Bijna alle Booleaanse opties kunnen worden uitgeschakeld met een `no` voorvoegsel. Bijvoorbeeld, `listen=0` en `nolisten=1` zijn gelijkwaardig afhankelijk van de versie.
 
 
 
@@ -3275,7 +3275,7 @@ Om de configuratie per netwerk te segmenteren, kun je secties gebruiken: `[main]
 
 
 
-Zoals hierboven uitgelegd zijn consensusregels uiteraard niet configureerbaar in `Bitcoin.conf`, omdat dit een Hard Fork zou kunnen creëren. Aan de andere kant zijn veel andere aspecten wel configureerbaar. Er zijn 3 nuttige klassen om in gedachten te houden:
+Zoals hierboven uitgelegd zijn consensusregels uiteraard niet configureerbaar in `Bitcoin.conf`, omdat dit een hard fork zou kunnen creëren. Aan de andere kant zijn veel andere aspecten wel configureerbaar. Er zijn 3 nuttige klassen om in gedachten te houden:
 
 
 
@@ -3299,7 +3299,7 @@ Allereerst is het belangrijk om duidelijk onderscheid te maken tussen de 2 soort
 
 
 
-- Uitgaande verbindingen, die door ons node naar een ander node worden geïnitieerd;
+- Uitgaande verbindingen, die door onze node naar een ander node worden geïnitieerd;
 
 
 
@@ -3309,7 +3309,7 @@ Allereerst is het belangrijk om duidelijk onderscheid te maken tussen de 2 soort
 
 
 
-- Inkomende verbindingen, geïnitieerd door een ander node naar het onze.
+- Inkomende verbindingen, geïnitieerd door een andere node naar de onze.
 
 
 
@@ -3317,11 +3317,11 @@ Allereerst is het belangrijk om duidelijk onderscheid te maken tussen de 2 soort
 
 
 
-Deze twee soorten verbindingen zijn perfect in staat om dezelfde gegevens in beide richtingen uit te wisselen; het is geen kwestie van het beperken van de richting van de stroom, maar alleen van een verschil in de initiator van de verbinding. Vanuit het oogpunt van ons node worden uitgaande verbindingen over het algemeen als veiliger beschouwd, omdat we ze initiëren en precies kiezen met welk node we een verbinding maken, waardoor het onwaarschijnlijk is dat de verbinding kwaadaardig is. Standaard onderhoudt Bitcoin core 10 uitgaande verbindingen (8 "*full-relay*" + 2 "*block-relay-only*").
+Deze twee soorten verbindingen zijn perfect in staat om dezelfde gegevens in beide richtingen uit te wisselen; het is geen kwestie van het beperken van de richting van de stroom, maar alleen van een verschil in de initiator van de verbinding. Vanuit het oogpunt van onze node worden uitgaande verbindingen over het algemeen als veiliger beschouwd, omdat we ze initiëren en precies kiezen met welke node we een verbinding maken, waardoor het onwaarschijnlijk is dat de verbinding kwaadaardig is. Standaard onderhoudt Bitcoin Core 10 uitgaande verbindingen (8 "*full-relay*" + 2 "*block-relay-only*").
 
 
 
-Een Full node voegt meer waarde toe aan het netwerk door inkomende verbindingen te accepteren. De `listen=1` parameter schakelt het luisteren op de standaard poort 8333 van het betreffende netwerk in, waardoor deze inkomende verbindingen op het clearnet ontvangen kunnen worden. Om dit te laten werken moet deze poort ook open staan op je router. Als dat niet het geval is, zal je node alleen met uitgaande verbindingen blijven werken, wat geen invloed heeft op je persoonlijke gebruik van Bitcoin. De keuze om inkomende verbindingen toe te staan is aan jou; er is geen "beste keuze"
+Een full node voegt meer waarde toe aan het netwerk door inkomende verbindingen te accepteren. De `listen=1` parameter schakelt het luisteren op de standaard poort 8333 van het betreffende netwerk in, waardoor deze inkomende verbindingen op het clearnet ontvangen kunnen worden. Om dit te laten werken moet deze poort ook open staan op je router. Als dat niet het geval is, zal je node alleen met uitgaande verbindingen blijven werken, wat geen invloed heeft op je persoonlijke gebruik van Bitcoin. De keuze om inkomende verbindingen toe te staan is aan jou; er is geen "beste keuze"
 
 
 
@@ -3335,10 +3335,10 @@ Op netwerkniveau hebben we ook:
 
 
 - `addnode`: voegt een vriendelijke peer toe om contact mee op te nemen naast de gebruikelijke ontdekking (kan meerdere keren gespecificeerd worden).
-- connect`: beperkt verbindingen strikt tot het adres node (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere nodes.
-- `seednode`: wordt alleen gebruikt om het boek-adres in te vullen als er verbinding wordt gemaakt met een node en daarna de verbinding wordt verbroken.
+- `connect`: beperkt verbindingen strikt tot de adres node (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere nodes.
+- `seednode`: wordt alleen gebruikt om het adresboek in te vullen als er verbinding wordt gemaakt met een node en daarna de verbinding wordt verbroken.
 - `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je node nooit meer dan 125 verbindingen zal accepteren.
-- maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente Elements.
+- maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente elementen.
 - `onlynet`: beperkt uitgaande verbindingen tot alleen geselecteerde netwerken (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Als je bijvoorbeeld wilt dat je node alleen via Tor verbinding maakt met het Bitcoin netwerk, dan kun je de `onlynet=onion` parameter inschakelen en inkomende verbindingen uitschakelen (of ook alleen verbindingen via Tor toestaan).
 - `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale adres pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
 - `forcednsseed`: verplicht _DNS seeds_ aan te vragen bij het opstarten, zelfs als je al adressen op voorraad hebt (standaard: `0`).
@@ -3351,18 +3351,18 @@ Standaard communiceert je node over clearnet, Tor en I2P. Dit betekent dat de pe
 
 
 
-Om volledig Tor-enabled te zijn, moet je Bitcoin core dwingen om alleen dit netwerk te gebruiken en een verborgen service te maken voor inkomende verbindingen (als je die wilt inschakelen). In `Bitcoin.conf`, moet je deze configuratie toevoegen:
+Om volledig Tor-enabled te zijn, moet je Bitcoin Core dwingen om alleen dit netwerk te gebruiken en een verborgen service te maken voor inkomende verbindingen (als je die wilt inschakelen). In `Bitcoin.conf`, moet je deze configuratie toevoegen:
 
 
 
 
 - `onlynet=onion`,
 - `proxy=127.0.0.1:9050`,
-- `luisteronion=1`,
+- `listenonion=1`,
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
-- `luisteren=1`,
-- bind=127.0.0.1`,
+- `listen=1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3372,7 +3372,7 @@ Al je P2P verbindingen gaan via Tor. Je node ontvangt een `.onion` adres voor in
 
 
 
-Om DNS-resolutie in het niets te vermijden, kun je `dnsseed=0` en `dns=0` aan je configuratie toevoegen. Je moet dan handmatig `.onion` peers opgeven via `seednode=` of `addnode=`, omdat het anders moeilijk is om nieuwe nodes te vinden.
+Om DNS-resolutie veilig te vermijden, kun je `dnsseed=0` en `dns=0` aan je configuratie toevoegen. Je moet dan handmatig `.onion` peers opgeven via `seednode=` of `addnode=`, omdat het anders moeilijk is om nieuwe nodes te vinden.
 
 
 
@@ -3394,7 +3394,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- `maxmempool=<n>`: Beperkt de maximale grootte van de lokale Mempool tot `<n>` megabytes (standaard: `300`). Als de limiet is bereikt, verhoogt de node dynamisch de effectieve vergoedingsdrempel en geeft het prioriteit aan de minst winstgevende transacties (gebaseerd op het vergoedingspercentage, niet de absolute waarde) om onder de limiet te blijven. Je kunt deze instelling als standaard laten staan. Verhogen kan handig zijn als je Mining solo bent, of als je een nauwkeuriger beeld wilt krijgen van Mempool congestie en de schatting van de kosten wilt verbeteren. Verlagen bespaart RAM en, in mindere mate, andere systeembronnen.
+- `maxmempool=<n>`: Beperkt de maximale grootte van de lokale Mempool tot `<n>` megabytes (standaard: `300`). Als de limiet is bereikt, verhoogt de node dynamisch de effectieve vergoedingsdrempel en geeft het prioriteit aan de minst winstgevende transacties (gebaseerd op het vergoedingspercentage, niet de absolute waarde) om onder de limiet te blijven. Je kunt deze instelling als standaard laten staan. Verhogen kan handig zijn als je solo miner bent, of als je een nauwkeuriger beeld wilt krijgen van Mempool congestie en de schatting van de kosten wilt verbeteren. Verlagen bespaart RAM en, in mindere mate, andere systeembronnen.
 
 
 
@@ -3418,7 +3418,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het node uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
+- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). De node uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor de relais en totale onbekendheid met de Mempool.
 
 
 
@@ -3442,25 +3442,25 @@ Ter herinnering, RBF is een transactiemechanisme waarmee de verzender een transa
 
 
 
-Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een beginner bent, hoeft u deze instellingen niet aan te passen:
+Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als je een beginner bent, hoef je deze instellingen niet aan te passen:
 
 
 
 
 
-- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien Mining via node) op te nemen via een `OP_RETURN` uitgang (standaard: `1`). Het deactiveren van deze parameter verkleint de oppervlakte voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gedolven `OP_RETURN` accepteren.
+- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien mining via node) op te nemen via een `OP_RETURN` output (standaard: `1`). Het deactiveren van deze parameter verkleint het draagvlak voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gemijnde `OP_RETURN` accepteren.
 
 
 
 
 
-- `datacarriersize=<n>`: Maximale grootte (in bytes) van de `OP_RETURN` die de node doorgeeft (standaard: `83`). Het verlagen van deze waarde beperkt de payloads die via `OP_RETURN` getransporteerd worden. Merk op dat deze limiet standaard zal worden verwijderd in een toekomstige versie van Bitcoin core.
+- `datacarriersize=<n>`: Maximale grootte (in bytes) van de `OP_RETURN` die de node doorgeeft (standaard: `83`). Het verlagen van deze waarde beperkt de payloads die via `OP_RETURN` getransporteerd worden. Merk op dat deze limiet standaard zal worden verwijderd in een toekomstige versie van Bitcoin Core.
 
 
 
 
 
-- `bytespersigop=<n>`: Parameter die handtekeningtransacties omzet in equivalente bytes voor evaluatie van de relaallimiet (standaard: `20`). Dit beïnvloedt de acceptatie van `sigops` rijke transacties volgens lokale beleidsregels.
+- `bytespersigop=<n>`: Parameter die handtekeningtransacties omzet in equivalente bytes voor evaluatie van de relaislimiet (standaard: `20`). Dit beïnvloedt de acceptatie van `sigops` rijke transacties volgens lokale beleidsregels.
 
 
 
@@ -3478,19 +3478,19 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- `whitelistforcerelay=1`: Wijst "*forcerelay*" permissie toe aan whitelisted peers met standaard permissie (standaard: `0`). Het node stuurt dan hun transacties door, zelfs als ze al aanwezig zijn in Mempool, en omzeilt zo anti-redundantie mechanismen.
+- `whitelistforcerelay=1`: Wijst "*forcerelay*" permissie toe aan whitelisted peers met standaard permissie (standaard: `0`). De node stuurt dan hun transacties door, zelfs als ze al aanwezig zijn in Mempool, en omzeilt zo anti-redundantie mechanismen.
 
 
 
 
 
-- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Bindt een Interface of adres bereik en kent fijnkorrelige rechten toe aan de corresponderende peers: `relay`, `forcerelay`, `Mempool` (Mempool inhoud verzoek), `noban`, `download`, `addr`, `bloomfilter`. Dit kan handig zijn voor het toekennen van geprivilegieerde behandeling aan vertrouwde peers (zoals gateways, LANs en interne diensten).
+- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Bindt een interface of adres bereik en kent fijnkorrelige rechten toe aan de corresponderende peers: `relay`, `forcerelay`, `Mempool` (Mempool inhoud verzoek), `noban`, `download`, `addr`, `bloomfilter`. Dit kan handig zijn voor het toekennen van geprivilegieerde behandeling aan vertrouwde peers (zoals gateways, LANs en interne diensten).
 
 
 
 
 
-- peerbloomfilters=1`: Schakel ondersteuning in voor Bloom filters (BIP37) om gefilterde blokken/transacties te serveren aan thin clients (standaard: `0`). Waarschuwing: dit verhoogt de belasting van uw bronnen.
+- peerbloomfilters=1`: Schakel ondersteuning in voor Bloom filters (BIP37) om gefilterde blokken/transacties te serveren aan thin clients (standaard: `0`). Waarschuwing: dit verhoogt de belasting van je bronnen.
 
 
 
@@ -3510,7 +3510,7 @@ Ter herinnering, al deze relaisregels hebben geen invloed op de geldigheid van t
 
 
 
-### Portemonnees
+### Wallets
 
 
 
@@ -3544,13 +3544,13 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `walletbroadcast=1`: Zendt automatisch transacties uit die zijn aangemaakt door geladen portemonnees (standaard: `1`). Stel in op `0` als je het uitzenden via een ander kanaal wilt beheren.
+- `walletbroadcast=1`: Zendt automatisch transacties uit die zijn aangemaakt door geladen wallets (standaard: `1`). Stel in op `0` als je het uitzenden via een ander kanaal wilt beheren.
 
 
 
 
 
-- `walletrbf=1`: Schakelt RBF opt-in in om RBF op alle transacties te signaleren (standaard: `1`). Hiermee kunt u de kosten later verhogen in het geval van een geblokkeerde transactie.
+- `walletrbf=1`: Schakelt RBF opt-in in om RBF op alle transacties te signaleren (standaard: `1`). Hiermee kun je de kosten later verhogen in het geval van een geblokkeerde transactie.
 
 
 
@@ -3592,7 +3592,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `spendzeroconfchange=1`: Staat toe dat een onbevestigde UTXO Exchange wordt hergebruikt als invoer in een nieuwe transactie (standaard: `1`).
+- `spendzeroconfchange=1`: Staat toe dat een onbevestigde UTXO exchange wordt hergebruikt als invoer in een nieuwe transactie (standaard: `1`).
 
 
 
@@ -3604,13 +3604,13 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `maxapsfee=<n>`: Budget voor extra kosten (BTC, absolute waarde) die de wallet bereid is te betalen om de optie "*vermijd gedeeltelijke uitgaven*" te activeren.
+- `maxapsfee=<n>`: Budget voor extra kosten (BTC, absolute waarde) die de wallet bereid is te betalen om de optie "*avoid partial spends*" te activeren.
 
 
 
 
 
-- `discardfee=<amt>`: Tarief (BTC/kvB) dat je tolerantie aangeeft om de Exchange weg te gooien door het toe te voegen aan de vergoeding. Uitgangen die meer dan een derde van hun waarde zouden kosten tegen dit tarief, worden verwijderd.
+- `discardfee=<amt>`: Tarief (BTC/kvB) dat je tolerantie aangeeft om de exchange weg te gooien door het toe te voegen aan de vergoeding. Outputs die meer dan een derde van hun waarde zouden kosten tegen dit tarief, worden verwijderd.
 
 
 
@@ -3622,7 +3622,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- `disablewallet=1`: Start Bitcoin core zonder het wallet subsysteem en schakelt geassocieerde RPC's uit. Vermindert het aanvalsoppervlak en de footprint als de node alleen wordt gebruikt voor validatie/vrijgave.
+- `disablewallet=1`: Start Bitcoin Core zonder het wallet subsysteem en schakelt geassocieerde RPC's uit. Vermindert het aanvalsoppervlak en de footprint als de node alleen wordt gebruikt voor validatie/vrijgave.
 
 
 
@@ -3636,7 +3636,7 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- `datadir=<dir>`: Stelt de hoofdgegevensmap van Bitcoin core in.
+- `datadir=<dir>`: Stelt de hoofdgegevensmap van Bitcoin Core in.
 
 
 
@@ -3654,19 +3654,19 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- `prune=<n>`: Schakelt het snoeien van blokbestanden in en stelt een schijfruimte doel in MiB in (standaard: `0` = uitgeschakeld; `1` = handmatig snoeien via RPC; `>=550` = automatisch snoeien onder het doel). Niet compatibel met `txindex=1`. Het node blijft een volledig validerend node, maar kan niet langer de oude geschiedenis leveren. Deze optie is vooral handig als je schijfruimte beperkt is, bijvoorbeeld als je een node op je thuiscomputer installeert.
+- `prune=<n>`: Schakelt het prunen (snoeien) van blokbestanden in en stelt een schijfruimte doel in MiB in (standaard: `0` = uitgeschakeld; `1` = handmatig prunen via RPC; `>=550` = automatisch prunen onder het doel). Niet compatibel met `txindex=1`. De node blijft een volledig validerende node, maar kan niet langer de oude geschiedenis leveren. Deze optie is vooral handig als je schijfruimte beperkt is, bijvoorbeeld als je een node op je thuiscomputer installeert.
 
 
 
 
 
-- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` niet-wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
+- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` non-wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
 
 
 
 
 
-- `assumevalid=<hex>`: Geeft een blok aan waarvan wordt aangenomen dat het geldig is, waardoor je scriptcontroles voor zijn voorouders kunt overslaan (stel `0` in om alles te controleren). Zie het vorige hoofdstuk voor meer informatie.
+- `assumevalid=<hex>`: Geeft een blok aan waarvan wordt aangenomen dat het geldig is, waardoor je scriptcontroles voor zijn voorlopers kunt overslaan (stel `0` in om alles te controleren). Zie het vorige hoofdstuk voor meer informatie.
 
 
 

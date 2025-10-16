@@ -187,7 +187,7 @@ Una volta confermato, lo swap si conclude automaticamente:
 ![Configuration du swap reverse](assets/fr/08.webp)
 
 
-*Creazione reverse swap: 50.000 Sats Lightning → 49.220 Sats On-Chain, con commissioni di rete (530 Sats) e servizio (250 Sats) chiaramente visualizzate. L’utente può inserire manualmente un indirizzo Bitcoin ricevente o generarne uno automaticamente dall’app Zeus tramite "generate On-Chain Address".*
+*Creazione reverse swap: 50.000 Sats Lightning → 49.220 Sats On-Chain, con commissioni di rete (530 Sats) e servizio (250 Sats) chiaramente visualizzate. L’utente può inserire manualmente un indirizzo Bitcoin ricevente o generarne uno automaticamente dall’app Zeus tramite "generate On-Chain Address"(“Genera indirizzo on-chain”).*
 
 
 ![Finalisation du swap mobile](assets/fr/09.webp)

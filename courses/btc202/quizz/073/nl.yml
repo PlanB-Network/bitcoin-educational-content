@@ -1,4 +1,4 @@
-question: Wat is de functie van de parameter assumevalid in Bitcoin core?
+question: Wat is de functie van de parameter assumevalid in Bitcoin Core?
 answer: Scriptverificatie negeren vóór een referentieblok
 wrong_answers:
   - Proof-of-Work verificatie negeren vóór een referentieblok

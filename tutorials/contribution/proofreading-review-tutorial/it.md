@@ -15,15 +15,15 @@ Se non hai capito quello che hai appena letto, non preoccuparti: questo tutorial
 
 Plan ₿ Network è una piattaforma dedicata allo studio di Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, e si trovano su un repository GitHub, aperto a collaborazioni esterne per la revisione e la creazione di contenuti.
 
-Plan ₿ Network mira a diventare uno spazio pubblico nel cyberspazio Bitcoin, collegando le comunità Bitcoin in tutto il mondo.
+Plan ₿ Network mira a diventare uno spazio pubblico nel cyberspazio Bitcoin, collegando le community Bitcoin sparse in tutto il mondo.
 
-## Perché contribuire?
+## Perché collaborare con Plan ₿ Network?
 
 Plan ₿ Network è fondamentalmente multilingue, poiché il nostro obiettivo è quello di rendere le risorse su Bitcoin accessibili a tutti, in tutto il mondo. Crediamo che la lingua non debba essere un ostacolo per l'utilizzo della moneta libera.
 
 Per raggiungere questo obiettivo, utilizziamo un approccio che chiamiamo "Human x AI". Attraverso il nostro [programma](https://github.com/Asi0Flammeus/LLM-Translator), possiamo tradurre automaticamente i nostri contenuti in molte lingue. Tuttavia, abbiamo bisogno di una persona che parli correntemente la lingua target per verificare che il contenuto sia comprensibile e privo di termini inappropriati.
 
-Se vuoi contribuire a costruire questo progetto educativo per promuovere l'educazione su Bitcoin nella tua comunità, puoi iniziare revisionando un corso o un tutorial.
+Se vuoi contribuire a costruire questo progetto educativo per promuovere l'educazione su Bitcoin nella tua community, puoi iniziare revisionando un corso o un tutorial.
 
 Inoltre, poiché abbiamo a cuore il modello *Value4Value*, avremo cura di inviare un "reward" a coloro che contribuiscono. La ricompensa si baserà sulla lunghezza del testo, sull'accuratezza linguistica della nostra auto-traduzione e sulla difficoltà del contenuto.
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 1. Crea un account
 
-- Crea un account su [GitHub](https://github.com/) per iniziare a contribuire. Se ti serve una guida sulla creazione del tuo account GitHub, puoi cliccare sul tutorial menzionato qui sopra.
+- Crea un account su [GitHub](https://github.com/) per iniziare a collaborare con Plan ₿ Network. Se ti serve una guida sulla creazione del tuo account GitHub, puoi cliccare sul tutorial menzionato qui sopra.
 
 - Avrai anche bisogno di un account sull'app di messaggistica [Telegram](https://telegram.org/).
 
@@ -49,8 +49,8 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/01.webp)
 
 
-- Presentati brevemente e specifica, in un messaggio nel canale "General" il contenuto che ti interessa, le lingue che padroneggi.
-- Un coordinatore creerà quindi una 'issue' su GitHub dedicata al tuo futuro contributo, dove troverai tutte le informazioni necessarie per iniziare la tua revisione.
+- Presentati brevemente, specifica il contenuto che vuoi revisionare e in che lingua mandando un messaggio nella sezione "General".
+- Un coordinatore creerà quindi una 'issue' su GitHub dedicata al tuo futuro lavoro di revisore di bozze, dove troverai tutte le informazioni necessarie per iniziare.
 
 ![REVIEW](assets/fr/02.webp)
 
@@ -76,17 +76,17 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/05.webp)
 
 
-- Arriverai poi all'interfaccia dell'editor (cfr. **A**), dove potrai vedere il percorso del file e il 'branch' corrispondente (cfr. **B**) e passare dalla modalità di modifica a quella di anteprima (cfr. **C**).
+- Arriverai poi all'interfaccia dell'editor (cfr. **A**), dove potrai vedere il percorso del file e il 'branch' corrispondente (cfr. **B**). Potrai inoltre passare dalla modalità di modifica a quella di anteprima (cfr. **C**).
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. Si consiglia di effettuare la revisione nella finestra `code`, con il contenuto originale visualizzato in una finestra separata. Ad esempio, puoi visualizzare il testo sul sito web di Plan ₿ Network o nella sezione `preview` di GitHub in una scheda del browser. Puoi anche utilizzare `ctrl + F` per individuare gli errori comuni e apportare correzioni multiple nella visualizzazione `code`.
+NB. Ti consiglio di effettuare la revisione nella finestra `code`, con il contenuto originale visualizzato in una finestra separata. Ad esempio, puoi visualizzare il testo sul sito web Plan ₿ Network o nell'anteprima GitHub in una scheda del browser. Puoi anche utilizzare `ctrl + F` per individuare gli errori comuni e apportare correzioni multiple nella visualizzazione `code`.
 
 ## 4. Conferma le modifiche
 
 
 - Puoi iniziare a rivedere e correggere i contenuti, se necessario.
-- Quando vuoi mettere in pausa la sessione, è possibile confermare le modifiche, anche se la revisione non è ancora terminata. In questo modo, si possono salvare i propri progressi su GitHub.
+- Quando vuoi mettere in pausa la sessione, puoi confermare le modifiche, anche se la revisione non è ancora terminata. In questo modo, puoi salvare i tuoi progressi su GitHub.
 - Per farlo, clicca sul pulsante "Commit Changes...".
 
 ![REVIEW](assets/fr/07.webp)
@@ -110,7 +110,7 @@ NB. Si consiglia di effettuare la revisione nella finestra `code`, con il conten
 
 
 - Se non hai completato la tua revisione e desideri continuare il lavoro in un secondo momento, è sufficiente uscire da questa pagina.
-- Nel momento in cui è stato cliccato su "commit changes", le modifiche sono state salvate sul tuo fork GitHub.
+- Nel momento in cui clicchi su "commit changes", le modifiche vengono salvate sul tuo fork GitHub.
 - Per riprendere il lavoro, accedi al tuo fork tramite il tuo profilo GitHub.
 
 ![REVIEW](assets/fr/14.webp)
@@ -146,8 +146,8 @@ https://planb.network/tutorials/contribution/content/proofreading-guidelines-523
 ![REVIEW](assets/fr/12.webp)
 
 
-- Grazie mille per il tuo contributo! Dopo l'approvazione, un coordinatore del repo di Plan ₿ Network ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
-- Se vuoi contribuire di nuovo, torna al punto 2 e invia un nuovo messaggio nel gruppo Telegram per iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo branch di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. **A**), quindi clicca sul pulsante "Sync fork" (cfr. **B**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
+- Grazie mille per il tuo aiuto! Dopo l'approvazione, un coordinatore del repo di Plan ₿ Network ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
+- Se vuoi fare una nuova revisione di bozze, torna al punto 2 e invia un nuovo messaggio nel gruppo Telegram. In questo modo potrai iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo branch di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. **A**), quindi clicca sul pulsante "Sync fork" (cfr. **B**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
 
 ![REVIEW](assets/fr/16.webp)
 

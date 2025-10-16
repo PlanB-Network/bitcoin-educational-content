@@ -13,7 +13,7 @@ Se non hai capito quello che hai appena letto, non preoccuparti: questo tutorial
 ---
 ## Che cos'è Plan ₿ Network?
 
-Plan ₿ Network è una piattaforma deciata allo studio di Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, e si trovano su un repository GitHub, aperto a collaborazioni esterne per la revisione e la creazione di contenuti.
+Plan ₿ Network è una piattaforma dedicata allo studio di Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, e si trovano su un repository GitHub, aperto a collaborazioni esterne per la revisione e la creazione di contenuti.
 
 Plan ₿ Network mira a diventare uno spazio pubblico nel cyberspazio Bitcoin, collegando le comunità Bitcoin in tutto il mondo.
 

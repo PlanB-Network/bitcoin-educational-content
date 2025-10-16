@@ -74,7 +74,7 @@ Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 ## Porozumění Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
 Lightning Network je síť platebních kanálů postavená na protokolu Bitcoinu, která má umožnit rychlé a nízkonákladové transakce. Umožňuje vytváření platebních kanálů mezi účastníky, v rámci kterých mohou být transakce prováděny téměř okamžitě a s minimálními poplatky, aniž by bylo nutné zaznamenávat každou transakci jednotlivě na blockchainu. Tímto způsobem se Lightning Network snaží zlepšit škálovatelnost Bitcoinu a učinit jej použitelným pro platby nízké hodnoty.

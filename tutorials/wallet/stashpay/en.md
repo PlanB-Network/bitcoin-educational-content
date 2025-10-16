@@ -9,7 +9,7 @@ description: The minimalist Bitcoin wallet for everyone
 User experience is a key factor in the adoption of Bitcoin solutions around the globe. Providing a smooth, simple and technically unencumbered experience is the priority for many wallets and exchange platforms. In this respect, StashPay stands out for its minimalist approach, while at the same time demonstrating the power of Lightning Network.
 
 
-In this tutorial, we'll take a look at this portfolio to find out how it works and how it's ideal for small businesses or solopreneurs.
+In this tutorial, we'll take a look at this wallet to find out how it works and how it's ideal for small businesses or solopreneurs.
 
 
 ## Getting started with StashPay

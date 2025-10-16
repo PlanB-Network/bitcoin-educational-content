@@ -36,7 +36,7 @@ In this tutorial, we'll take you on a tour of this platform, which is an essenti
 ## Find pairs
 
 
-One of the aims of the Amboss platform is to enable the various nodes in the network to connect and communicate information with each other. On the platform's home page, you can directly search for the name of a node you already know, or find nodes from the most popular Lightning portfolios you use.
+One of the aims of the Amboss platform is to enable the various nodes in the network to connect and communicate information with each other. On the platform's home page, you can directly search for the name of a node you already know, or find nodes from the most popular Lightning wallets you use.
 
 
 ![home](assets/fr/01.webp)

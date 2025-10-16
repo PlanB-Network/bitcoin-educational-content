@@ -434,7 +434,7 @@ In Debifi :
 - Send the stablecoins from your wallet to the lender's address indicated, and return to confirm the repayment on the platform by copying the **ID** of the repayment transaction into the dedicated tab. This makes it easier for Debifi to carry out its checks.
 
 
-Once payment has been confirmed by the lender (and by you), Debifi will then ask you to **refund**. Your Bitcoin collateral is released and you can return it from the escrow to your own portfolio.  Don't forget to collect all your Bitcoins.
+Once payment has been confirmed by the lender (and by you), Debifi will then ask you to **refund**. Your Bitcoin collateral is released and you can return it from the escrow to your own wallet.  Don't forget to collect all your Bitcoins.
 
 
 As soon as you receive your bitcoins, the loan contract changes to **Contract completed**.

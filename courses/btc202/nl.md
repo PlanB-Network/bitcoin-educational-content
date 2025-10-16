@@ -2929,7 +2929,7 @@ Als je node luistert op een open poort (standaard 8333), dan accepteert het binn
 
 
 
-## Anatomie van uw Bitcoin knoop
+## Anatomie van je Bitcoin node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,13 +2941,13 @@ Wanneer je node zijn initiële synchronisatie heeft voltooid, slaat het lokaal v
 
 
 
-- gW-402 **blokken** opgeslagen op schijf,
+- **blockcain blokken** opgeslagen op schijf,
 - de **UTXO set** die wordt bijgehouden in een sleutelwaardedatabase,
 - en de **Mempool** wordt opgeslagen in RAM en periodiek geserialiseerd.
 
 
 
-Daarnaast maken verschillende hulpbestanden (peers, schattingen van honoraria, uitsluitingslijsten, portefeuilles, enz.) het plaatje compleet. Laten we de rol van al deze bestanden ontdekken.
+Daarnaast maken verschillende hulpbestanden (peers, schattingen van kosten, uitsluitingslijsten, wallets, enz.) het plaatje compleet. Laten we de rol van al deze bestanden ontdekken.
 
 
 
@@ -2955,7 +2955,7 @@ Daarnaast maken verschillende hulpbestanden (peers, schattingen van honoraria, u
 
 
 
-Standaard slaat Bitcoin core zijn gegevens op in een specifieke werkmap. Onder GNU/Linux is dit meestal in `~/.Bitcoin/`, onder Windows in `%APPDATA%Bitcoin/`, en onder macOS in `~/Library/Application Support/Bitcoin/`. Als je een verpakte oplossing gebruikt (bijvoorbeeld binnen een node distributie), dan kan deze map ergens anders aangekoppeld zijn, maar de structuur blijft hetzelfde. De belangrijke submappen en bestanden die hieronder worden beschreven, bevinden zich nog steeds hier.
+Standaard slaat Bitcoin Core zijn gegevens op in een specifieke werkmap. Onder GNU/Linux is dit meestal in `~/.Bitcoin/`, onder Windows in `%APPDATA%Bitcoin/`, en onder macOS in `~/Library/Application Support/Bitcoin/`. Als je een gebundelde oplossing gebruikt (bijvoorbeeld binnen een node distributie), dan kan deze map ergens anders geplaatst zijn, maar de structuur blijft hetzelfde. De belangrijke submappen en bestanden die hieronder worden beschreven, bevinden zich nog steeds hier.
 
 
 
@@ -2967,11 +2967,11 @@ Standaard slaat Bitcoin core zijn gegevens op in een specifieke werkmap. Onder G
 
 
 
-Blockchain is daarom een verzameling blokken. Een Full node slaat deze blokken op als sequentiële platte bestanden en onderhoudt een parallelle index voor snel terugvinden. Wanneer het nodig is (reorganisatie, wallet rescan, peer service), wordt deze data opnieuw gelezen zoals het is.
+Blockchain is daarom een verzameling blokken. Een full node slaat deze blokken op als sequentiële platte bestanden en onderhoudt een parallelle index voor snel terugvinden. Wanneer het nodig is (reorganisatie, wallet rescan, peer service), wordt deze data opnieuw gelezen zoals het is.
 
 
 
-**Noot:** Een reorganisatie, of resynchronisatie, is een fenomeen waarbij de Blockchain een verandering van zijn structuur ondergaat door de aanwezigheid van concurrerende blokken op dezelfde hoogte. Dit gebeurt wanneer een deel van de Blockchain wordt vervangen door een andere keten met een grotere hoeveelheid geaccumuleerd werk. Deze hersynchronisaties zijn een natuurlijk onderdeel van de werking van Bitcoin, waar verschillende miners bijna gelijktijdig nieuwe blokken kunnen vinden, waardoor het Bitcoin netwerk in tweeën wordt gedeeld. In zulke gevallen kan het netwerk zich tijdelijk opsplitsen in concurrerende ketens. Uiteindelijk, als één van deze ketens meer werk verzamelt, worden de andere ketens verlaten door de nodes en worden hun blokken bekend als "verouderde blokken" of "weesblokken" Dit proces van het vervangen van een keten door een andere wordt resynchronisatie genoemd.
+**Noot:** Een reorganisatie, of resynchronisatie, is een fenomeen waarbij de blockchain een verandering van zijn structuur ondergaat door de aanwezigheid van concurrerende blokken op dezelfde hoogte. Dit gebeurt wanneer een deel van de blockchain wordt vervangen door een andere keten met een grotere hoeveelheid geaccumuleerd werk. Deze hersynchronisaties zijn een natuurlijk onderdeel van de werking van Bitcoin, waar verschillende miners bijna gelijktijdig nieuwe blokken kunnen vinden, waardoor het Bitcoin netwerk in tweeën wordt gedeeld. In zulke gevallen kan het netwerk zich tijdelijk opsplitsen in concurrerende ketens. Uiteindelijk, als één van deze ketens meer werk verzamelt, worden de andere ketens verlaten door de nodes en worden hun blokken bekend als "verouderde blokken" of "orphan blocks" (weesblokken). Dit proces van het vervangen van een keten door een andere wordt resynchronisatie genoemd.
 
 
 
@@ -2987,7 +2987,7 @@ Ontvangen en gevalideerde blokken worden geschreven naar opeenvolgende container
 
 
 
-In pruned modus bewaart de node alleen een recent venster van deze bestanden om de schijfruimte te beperken. De oudste `blk*.dat` containers worden verwijderd zodra de geconfigureerde ruimtedoelstelling is bereikt, terwijl er voldoende geschiedenis wordt bewaard om consistent te blijven met de best bekende keten. De index en UTXO set blijven normaal, waardoor de volgende transacties en blokken gevalideerd kunnen worden.
+In pruned modus bewaart de node alleen een recente selectie van deze bestanden om de schijfruimte te beperken. De oudste `blk*.dat` containers worden verwijderd zodra de geconfigureerde ruimtedoelstelling is bereikt, terwijl er voldoende geschiedenis wordt bewaard om consistent te blijven met de best bekende keten. De index en UTXO set blijven normaal, waardoor de volgende transacties en blokken gevalideerd kunnen worden.
 
 
 
@@ -2995,7 +2995,7 @@ In pruned modus bewaart de node alleen een recent venster van deze bestanden om 
 
 
 
-Om terug te kunnen gaan in de tijd tijdens een reorganisatie, slaat Core, parallel aan elk `blk` bestand, een `revNNN.dat` bestand op in `blocks/`. Dit bestand bevat de informatie die nodig is om het effect van een blok op de UTXO set ongedaan te maken: voor elke uitgang die door het blok wordt verbruikt, wordt de vorige toestand van de corresponderende UTXO opgeslagen (hoeveelheid, script, hoogte...). Als een blok wordt afgebroken, kan de node de vorige toestand snel herstellen zonder dat de hele keten opnieuw hoeft te worden gescand.
+Om terug te kunnen gaan in de tijd tijdens een reorganisatie, slaat Core, parallel aan elk `blk` bestand, een `revNNN.dat` bestand op in `blocks/`. Dit bestand bevat de informatie die nodig is om het effect van een blok op de UTXO set ongedaan te maken: voor elke output die door het blok wordt verbruikt, wordt de vorige toestand van de corresponderende UTXO opgeslagen (hoeveelheid, script, hoogte...). Als een blok wordt afgebroken, kan de node de vorige toestand snel herstellen zonder dat de hele keten opnieuw hoeft te worden gescand.
 
 
 
@@ -3007,7 +3007,7 @@ Om terug te kunnen gaan in de tijd tijdens een reorganisatie, slaat Core, parall
 
 
 
-Direct zoeken naar een blok in de flat files zou te tijdrovend zijn. Core onderhoudt daarom een LevelDB database in `blocks/index/` die voor elk bekend blok metadata zoals Hash, hoogte, validatiestatus, `blk` bestand en offset waar het zich bevindt opsomt. Wanneer een peer een blok opvraagt, of wanneer een interne component een specifiek blok moet benaderen, biedt deze index snelle toegang. Zonder deze index zouden er te veel handelingen nodig zijn.
+Direct zoeken naar een blok in de flat files zou te tijdrovend zijn. Core onderhoudt daarom een LevelDB database in `blocks/index/` die voor elk bekend blok metadata zoals hash, hoogte, validatiestatus, `blk` bestand en offset waar het zich bevindt opsomt. Wanneer een peer een blok opvraagt, of wanneer een interne component een specifiek blok moet benaderen, biedt deze index snelle toegang. Zonder deze index zouden er te veel handelingen nodig zijn.
 
 
 
@@ -3025,7 +3025,7 @@ Sommige indexen zijn optioneel en standaard uitgeschakeld, omdat ze de schijfrui
 
 
 - `indexes/txindex/`, die we al genoemd hebben, biedt een transactie → locatie mapping tabel, waardoor het mogelijk is om elke bevestigde transactie op te halen zonder het blok te kennen dat het bevat. Dit is handig voor buiten wallet `getrawtransaction` type RPC queries, maar is vrij duur.
-- indexes/blockfilter/` die compacte blokfilters (BIP157/158) kunnen bevatten voor thin clients. Deze structuren versnellen verificatie aan de cliëntkant ten koste van extra opslag op het indexeernode.
+- indexes/blockfilter/` die compacte blokfilters (BIP157/158) kunnen bevatten voor thin clients. Deze structuren versnellen verificatie aan de client zijde ten koste van extra opslag op de indexeernode.
 
 
 
@@ -3033,7 +3033,7 @@ Sommige indexen zijn optioneel en standaard uitgeschakeld, omdat ze de schijfrui
 
 
 
-Het UTXO (*Onbestede Transactie Output*) model is de boekhoudkundige representatie van Bitcoin: elke onbestede output is een beschikbaar "Coin" dat gebruikt kan worden als input voor een toekomstige transactie.
+Het UTXO (*Unspent Transaction Output*) model is de boekhoudkundige representatie van Bitcoin: elke onbestede output is een beschikbare "Coin" die gebruikt kan worden als input voor een toekomstige transactie.
 
 
 
@@ -3041,7 +3041,7 @@ Het UTXO (*Onbestede Transactie Output*) model is de boekhoudkundige representat
 
 
 
-De totaliteit van al deze onderdelen op een gegeven moment T vormt de UTXO set: een grote lijst van alle onderdelen die nu beschikbaar zijn. Het is deze staat die de node raadpleegt om te beslissen of een transactie legitieme eenheden uitgeeft die nog niet gebruikt zijn in een eerdere transactie (om Double-spending te vermijden).
+De totaliteit van al deze onderdelen op een gegeven moment T vormt de UTXO set: een grote lijst van alle onderdelen die nu beschikbaar zijn. Het is deze staat die de node raadpleegt om te beslissen of een transactie legitieme eenheden uitgeeft die nog niet gebruikt zijn in een eerdere transactie (om dubbele uitgaven te vermijden).
 
 
 
@@ -3049,7 +3049,7 @@ De totaliteit van al deze onderdelen op een gegeven moment T vormt de UTXO set: 
 
 
 
-De UTXO set wordt opgeslagen in de `chainstate/` map als een compacte LevelDB database. Elk deel associeert een sleutel die is afgeleid van de Hash van de transactie en de uitvoerindex met een waarde die het volgende bevat: het bedrag, het `scriptPubKey` slot, de hoogte van het aanmaakblok en een coinbase indicator.
+De UTXO set wordt opgeslagen in de `chainstate/` map als een compacte LevelDB database. Elk deel associeert een sleutel die is afgeleid van de hash van de transactie en de outputindex met een waarde die het volgende bevat: het bedrag, het `scriptPubKey` slot, de hoogte van het aanmaakblok en een coinbase indicator.
 
 
 
@@ -3057,11 +3057,11 @@ De UTXO set wordt opgeslagen in de `chainstate/` map als een compacte LevelDB da
 
 
 
-Het node onderhoudt een geheugencache boven LevelDB om frequente lees- en schrijfbewerkingen op te vangen. De `dbcache` parameter kan worden gebruikt om de grootte van deze cache aan te passen: hoe groter deze is, hoe meer geheugentoegang de IBD en de huidige validatie profiteren, ten koste van een hoger RAM-verbruik. Wanneer een nieuw blok wordt gevonden door een Miner, verwijdert de node uit de UTXO set de uitgangen die zijn uitgegeven (of verbruikt) door de transacties in het blok en voegt de nieuw gecreëerde uitgangen toe.
+De node onderhoudt een geheugencache boven LevelDB om frequente lees- en schrijfbewerkingen op te vangen. De `dbcache` parameter kan worden gebruikt om de grootte van deze cache aan te passen: hoe groter deze is, hoe meer geheugentoegang de IBD en de huidige validatie profiteren, ten koste van een hoger RAM-verbruik. Wanneer een nieuw blok wordt gevonden door een miner, verwijdert de node uit de UTXO set de outputs die zijn uitgegeven (of verbruikt) door de transacties in het blok en voegt de nieuw gecreëerde outputs toe.
 
 
 
-Theoretisch zouden we een transactie kunnen valideren door de blokgeschiedenis opnieuw te scannen om te controleren of een uitgang nooit is uitgegeven. In de praktijk zou dit echter veel te tijdrovend zijn, omdat de hele Blockchain gescand zou moeten worden voor elke nieuwe transactie. De UTXO set biedt daarom het minimale zicht dat nodig is om lokaal en in een redelijke tijd de afwezigheid van Double-spending aan te tonen.
+Theoretisch zouden we een transactie kunnen valideren door de blokgeschiedenis opnieuw te scannen om te controleren of een output nooit is uitgegeven. In de praktijk zou dit echter veel te tijdrovend zijn, omdat de hele blockchain gescand zou moeten worden voor elke nieuwe transactie. De UTXO set biedt daarom het minimale zicht dat nodig is om lokaal en in een redelijke tijd de afwezigheid van dubbele uitgaven aan te tonen.
 
 
 
@@ -3073,13 +3073,13 @@ Merk op dat de UTXO set vaak de kern vormt van de bezorgdheid over de decentrali
 
 
 
-De groei van de UTXO set komt ook voort uit de structuur van eenvoudige betalingstransacties op Bitcoin. Wanneer je een betaling doet, verbruik je een enkele UTXO als input en creëer je 2 nieuwe UTXO's als output (één voor de betaling en de andere voor de Exchange). Tenslotte geeft een heuristische ketenanalyse, genaamd CIOH (*Common Input Ownership Heuristic*), een verdere stimulans om Coin consolidatie te vermijden.
+De groei van de UTXO set komt ook voort uit de structuur van eenvoudige betalingstransacties op Bitcoin. Wanneer je een betaling doet, verbruik je een enkele UTXO als input en creëer je 2 nieuwe UTXO's als output (één voor de betaling en de andere voor het wisselgeld ( exchange)). Tenslotte geeft een heuristische ketenanalyse, genaamd CIOH (*Common Input Ownership Heuristic*), een verdere stimulans om coin consolidatie te vermijden.
 
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Omdat een deel ervan in het RAM moet worden bewaard om transacties binnen een redelijke tijd te kunnen verifiëren, kan de UTXO set de werking van een Full node geleidelijk aan te duur maken. Om dit probleem op te lossen bestaan er al enkele voorstellen, met name [Utreexo](https://planb.network/resources/glossary/utreexo).
+Omdat een deel ervan in het RAM moet worden bewaard om transacties binnen een redelijke tijd te kunnen verifiëren, kan de UTXO set de werking van een full node geleidelijk aan te duur maken. Om dit probleem op te lossen bestaan er al enkele voorstellen, met name [Utreexo](https://planb.network/resources/glossary/utreexo).
 
 
 
@@ -3093,12 +3093,12 @@ De Mempool is de lokale verzameling geldige transacties die zijn ontvangen, maar
 
 
 - de grootte die is toegewezen aan de Mempool via de `maxmempool` parameter: een node met een grotere Mempool zal meer transacties kunnen bevatten dan een node met een kleinere Mempool (tenzij de laatste leeg raakt);
-- gW-433 regels: deze zijn een subset van de relaisregels van de node en definiëren de kenmerken waaraan een onbevestigde transactie moet voldoen om in Mempool geaccepteerd te worden;
+- mempool regels: deze zijn een subset van de relaisregels van de node en definiëren de kenmerken waaraan een onbevestigde transactie moet voldoen om in Mempool geaccepteerd te worden;
 - transactie percolatie: door verschillende factoren kan een bepaalde transactie gedistribueerd zijn naar een deel van het netwerk, maar een ander deel nog niet bereikt hebben.
 
 
 
-Het is belangrijk om op te merken dat node mempools geen consensuswaarde hebben. Bitcoin werkt perfect, zelfs als elk node een andere Mempool heeft. Uiteindelijk zijn de gezaghebbende blokken altijd die blokken die zijn toegevoegd aan de Blockchain. Bijvoorbeeld, zelfs als een node in eerste instantie een bepaalde transactie afwijst in zijn Mempool (geldig volgens de consensusregels), zal het verplicht zijn om het te accepteren als het uiteindelijk wordt opgenomen in een blok met een geldige Proof of Work. Als het dit niet doet en dit blok verwerpt, ook al voldoet het aan de consensusregels, zou het een Hard Fork veroorzaken, d.w.z. de aanmaak van een nieuwe, aparte Bitcoin waarop het alleen zou staan.
+Het is belangrijk om op te merken dat node mempools geen consensuswaarde hebben. Bitcoin werkt perfect, zelfs als elke node een andere Mempool heeft. Uiteindelijk zijn de gezaghebbende blokken altijd die blokken die zijn toegevoegd aan de blockchain. Bijvoorbeeld, zelfs als een node in eerste instantie een bepaalde transactie afwijst in zijn Mempool (geldig volgens de consensusregels), zal het verplicht zijn om het te accepteren als het uiteindelijk wordt opgenomen in een blok met een geldige Proof of Work. Als het dit niet doet en dit blok verwerpt, ook al voldoet het aan de consensusregels, zou het een hard fork veroorzaken, d.w.z. de aanmaak van een nieuwe, aparte Bitcoin waarop het alleen zou staan.
 
 
 
@@ -3106,7 +3106,7 @@ Het is belangrijk om op te merken dat node mempools geen consensuswaarde hebben.
 
 
 
-Wanneer een transactie wordt ontvangen, past Core een reeks controles toe op consensusregels (syntaxis, geldige scripts, geen dubbele uitgaven, etc.) en Mempool regels, die een lokaal beleid zijn (RBF, drempels voor minimale kosten, datalimiet in `OP_RETURN`, etc.). Als de transactie aan deze regels voldoet, wordt deze in het geheugen opgeslagen.
+Wanneer een transactie wordt ontvangen, past Core een reeks controles toe op de consensusregels (syntaxis, geldige scripts, geen dubbele uitgaven, etc.) en Mempool regels, die een lokaal beleid zijn (RBF, drempels voor minimale kosten, datalimiet in `OP_RETURN`, etc.). Als de transactie aan deze regels voldoet, wordt deze in het geheugen opgeslagen.
 
 
 
@@ -3118,7 +3118,7 @@ De grootte van de Mempool wordt beperkt door de `maxmempool` parameter in het `B
 
 
 
-Om het herstarten te versnellen, serialiseert Core periodiek de toestand van de Mempool in het `Mempool.dat` bestand wanneer de node wordt afgesloten. Naast de eigenlijke Mempool, die in het geheugen blijft, slaat Core dit `Mempool.dat` bestand op schijf op. De volgende keer dat de node wordt gestart, wordt deze momentopname opnieuw geladen en wordt alles verwijderd dat niet langer geldig is voor de huidige Blockchain.
+Om het herstarten te versnellen, serialiseert Core periodiek de toestand van de Mempool in het `Mempool.dat` bestand wanneer de node wordt afgesloten. Naast de eigenlijke Mempool, die in het geheugen blijft, slaat Core dit `Mempool.dat` bestand op schijf op. De volgende keer dat de node wordt gestart, wordt deze momentopname opnieuw geladen en wordt alles verwijderd dat niet langer geldig is voor de huidige blockchain.
 
 
 

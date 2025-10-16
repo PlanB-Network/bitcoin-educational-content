@@ -3796,7 +3796,7 @@ Telegram adalah layanan perpesanan yang sangat populer berkat ergonomi dan fitur
 
 Oleh karena itu, Telegram secara teknis dapat mengakses konten dari sebagian besar percakapan yang tidak dilindungi secara eksplisit. Bahkan jika perusahaan mengambil sikap tegas terhadap otoritas pemerintah, Telegram bukanlah solusi optimal untuk pertukaran rahasia atau sensitif, kecuali jika Anda secara eksplisit menggunakan "pertukaran rahasia"nya, yang jauh lebih tidak praktis dalam penggunaan sehari-hari.
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 

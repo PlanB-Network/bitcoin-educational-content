@@ -3338,7 +3338,7 @@ Op netwerkniveau hebben we ook:
 - `connect`: beperkt verbindingen strikt tot de adres node (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere nodes.
 - `seednode`: wordt alleen gebruikt om het adresboek in te vullen als er verbinding wordt gemaakt met een node en daarna de verbinding wordt verbroken.
 - `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je node nooit meer dan 125 verbindingen zal accepteren.
-- maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente elementen.
+- `maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente elementen.
 - `onlynet`: beperkt uitgaande verbindingen tot alleen geselecteerde netwerken (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Als je bijvoorbeeld wilt dat je node alleen via Tor verbinding maakt met het Bitcoin netwerk, dan kun je de `onlynet=onion` parameter inschakelen en inkomende verbindingen uitschakelen (of ook alleen verbindingen via Tor toestaan).
 - `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale adres pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
 - `forcednsseed`: verplicht _DNS seeds_ aan te vragen bij het opstarten, zelfs als je al adressen op voorraad hebt (standaard: `0`).
@@ -3418,7 +3418,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). De node uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor de relais en totale onbekendheid met de Mempool.
+- `blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). De node uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor de relais en totale onbekendheid met de Mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als je een 
 
 
 
-- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien mining via node) op te nemen via een `OP_RETURN` output (standaard: `1`). Het deactiveren van deze parameter verkleint het draagvlak voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gemijnde `OP_RETURN` accepteren.
+- `datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien mining via node) op te nemen via een `OP_RETURN` output (standaard: `1`). Het deactiveren van deze parameter verkleint het draagvlak voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gemijnde `OP_RETURN` accepteren.
 
 
 
@@ -3490,13 +3490,13 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als je een 
 
 
 
-- peerbloomfilters=1`: Schakel ondersteuning in voor Bloom filters (BIP37) om gefilterde blokken/transacties te serveren aan thin clients (standaard: `0`). Waarschuwing: dit verhoogt de belasting van je bronnen.
+- `peerbloomfilters=1`: Schakel ondersteuning in voor Bloom filters (BIP37) om gefilterde blokken/transacties te serveren aan thin clients (standaard: `0`). Waarschuwing: dit verhoogt de belasting van je bronnen.
 
 
 
 
 
-- peerblockfilters=1`: Geeft BIP157 (*Neutrino*) compacte filters aan peers (standaard: `0`).
+- `peerblockfilters=1`: Geeft BIP157 (*Neutrino*) compacte filters aan peers (standaard: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- adrestype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definieert het formaat van wallet gegenereerde adressen voor ontvangst.
+- `adrestype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definieert het formaat van wallet gegenereerde adressen voor ontvangst.
 
 
 
@@ -3568,7 +3568,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- fallbackfee=<amt>`: Terugvalsnelheid (BTC/kvB) die wordt gebruikt als de schatter geen gegevens meer heeft (standaard: `0,00`). Als dit op 0 wordt gezet, wordt fallback volledig uitgeschakeld.
+- `fallbackfee=<amt>`: Terugvalsnelheid (BTC/kvB) die wordt gebruikt als de schatter geen gegevens meer heeft (standaard: `0,00`). Als dit op 0 wordt gezet, wordt fallback volledig uitgeschakeld.
 
 
 
@@ -3734,13 +3734,13 @@ Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je
 
 
 
-- `server=1`: Activeert de JSON-RPC server. Essentieel als je `bitcoind` aanstuurt via `bitcoin-cli` of een toepassing van derden. Uitschakelen (`0`) op een zuiver validerend node dat geen API beschikbaar stelt of al een Electrum-server gebruikt.
+- `server=1`: Activeert de JSON-RPC server. Essentieel als je `bitcoind` aanstuurt via `bitcoin-cli` of een toepassing van derden. Uitschakelen (`0`) op een zuiver validerende node dat geen API beschikbaar stelt of al een Electrum-server gebruikt.
 
 
 
 
 
-- `rpcbind=<addr>[:port]`: RPC server luistert adres/poort. Standaard wordt alleen lokaal geluisterd (`127.0.0.1` en `::1`). Deze parameter wordt genegeerd als `rpcallowip` niet ook is gedefinieerd. Gebruik deze om Interface expliciet te beperken.
+- `rpcbind=<addr>[:port]`: RPC server luisterende adres/poort. Standaard wordt alleen lokaal geluisterd (`127.0.0.1` en `::1`). Deze parameter wordt genegeerd als `rpcallowip` niet ook is gedefinieerd. Gebruik deze om interface expliciet te beperken.
 
 
 
@@ -3752,7 +3752,7 @@ Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je
 
 
 
-- `rpcallowip=<ip|cidr>`: Staat RPC-clients toe van een gegeven IP of subnet (kan worden herhaald). Gebruik in combinatie met `rpcbind` om de API alleen bloot te stellen aan een vertrouwd segment (LAN/VPN).
+- `rpcallowip=<ip|cidr>`: Staat RPC-clients toe van een gegeven IP of subnet (kan worden herhaald). Gebruik in combinatie met `rpcbind` om de API alleen te ontsluiten aan een vertrouwd segment (LAN/VPN).
 
 
 
@@ -3764,7 +3764,7 @@ Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je
 
 
 
-- `rpccookiefile=<pad>`: Pad naar authenticatiecookie (standaard: `.cookie` bestand onder `datadir/`). Dit wordt gebruikt voor lokale toegang door dezelfde gebruiker zonder persistente wachtwoorden te beheren. U kunt het bijvoorbeeld gebruiken om de Liana wallet met uw Bitcoin core op dezelfde machine te verbinden.
+- `rpccookiefile=<pad>`: Pad naar authenticatiecookie (standaard: `.cookie` bestand onder `datadir/`). Dit wordt gebruikt voor lokale toegang door dezelfde gebruiker zonder persistente wachtwoorden te beheren. Je kunt het bijvoorbeeld gebruiken om de Liana wallet met je Bitcoin Core op dezelfde machine te verbinden.
 
 
 
@@ -3776,7 +3776,7 @@ Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je
 
 
 
-- `rpcthreads=<n>`: Aantal threads voor RPC oproepen (standaard: `4`). Verhoog dit als u hoge pieken in oproepen hebt aan de kant van de monitoring/externe tool.
+- `rpcthreads=<n>`: Aantal threads voor RPC oproepen (standaard: `4`). Verhoog dit als je hoge pieken in oproepen hebt aan de kant van de monitoring/externe tool.
 
 
 
@@ -3886,7 +3886,7 @@ We zijn nu klaar met het opsommen van de meeste configuratieparameters. Dit `Bit
 
 
 
-We zijn aan het einde gekomen van deze BTC 202-cursus, die u niet alleen in staat heeft gesteld de basisprincipes te begrijpen van hoe nodes werken en hoe ze samenwerken binnen het systeem, maar ook om uw eigen node op te zetten. U bent nu een soevereine Bitcoiner, met uw eigen wallet, die uw transacties uitzendt via uw eigen node. Gefeliciteerd!
+We zijn aan het einde gekomen van deze BTC 202-cursus, die je niet alleen in staat heeft gesteld de basisprincipes te begrijpen van hoe nodes werken en hoe ze samenwerken binnen het systeem, maar ook om je eigen node op te zetten. Je bent nu een soevereine Bitcoiner, met je eigen wallet, die jouw transacties uitzendt via je eigen node. Gefeliciteerd!
 
 
 
@@ -3894,11 +3894,11 @@ Je kunt nu overgaan naar het laatste deel van de cursus, waar je BTC 202 kunt ev
 
 
 
-U hebt nu verschillende opties voor u open. De volgende logische stap is het opzetten van je eigen Lightning node, zodat je volledig onafhankelijk bent voor je off-chain transacties. Dit zal het onderwerp zijn van een komende cursus, die dit najaar zal worden gepubliceerd in 2025 over Plan ₿ Network.
+Je hebt nu verschillende opties voor je open. De volgende logische stap is het opzetten van je eigen Lightning node, zodat je volledig onafhankelijk bent voor je off-chain transacties. Dit zal het onderwerp zijn van een komende cursus, die dit najaar zal worden gepubliceerd in 2025 op Plan ₿ Network.
 
 
 
-Ondertussen nodig ik u uit om de BTC 204 training te ontdekken, die u in staat zal stellen om de principes van privacybescherming te begrijpen en te beheersen bij uw gebruik van Bitcoin:
+Ondertussen nodig ik je uit om de BTC 204 training te ontdekken, die je in staat zal stellen om de principes van privacybescherming te begrijpen en te beheersen bij je gebruik van Bitcoin:
 
 
 

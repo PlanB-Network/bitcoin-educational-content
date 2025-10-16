@@ -1,0 +1,8 @@
+question: According to Eric Voskuil's axiom of resistance, what fundamental assumption must be accepted for Bitcoin to make sense as a system?
+answer: That it is possible for a system to resist state control
+wrong_answers:
+  - That the majority of network hashpower will always remain honest
+  - That cryptographic algorithms will never be broken by quantum computing
+  - That users will always prioritize decentralization over convenience
+explanation: |
+  The axiom of resistance assumes that systems can resist state control, which is foundational to Bitcoin's purpose as permissionless money. Without this assumption, Bitcoin's entire premise collapses since it would inevitably be controlled by states. The other options, while relevant to Bitcoin's security, are not part of Voskuil's axiom of resistance, which specifically addresses the philosophical foundation that resistance to state control is possible.

@@ -166,118 +166,235 @@ videos:
   - id: ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8
     youtube:
       - en: QDQ8NG0l3hk
+    peertube:
+      - it: naWLhCU4HzbTX2Zx2HY3WL
+      - de: 62digRnw2F78xemn1BDCGi
+      - ja: fLjWXRWf5aaaqC1S4FtbPC
+      - ru: o5Ggb4SXnxfMsYkZEa6SpB
   - id: 75323eef-ea03-45ac-9a6e-46d73ca255de
     youtube:
       - en: U9l5IVriCss
+    peertube:
+      - ja: hV8XHjqhumTgviL1Y5wRze
+      - de: 7pbHf6iZ4jUfr4UKwRXwEc
+      - en: x1WgaJnsdrs9ZRqwcDnjWy
+      - it: e82Gd2MEv5ua1LumJnpCB3
+      - ru: wg5i88J6aUbqqukPPd6LdV
   - id: 6098fee1-735e-4d8d-9f57-0faf5fef6d76
     youtube:
       - en: Ty80WuN5X-g
+    peertube:
+      - ja: 3Uq46CB5ioVetrbryH2SVH
+      - ru: oorMtkshhKAV5bz139wnwJ
+      - de: 9FSc8gpwPN1Y1ySpP6vNyi
+      - it: vtPq8CnYowefuyV9gofHcP
+      - en: 6fuNmLp33ERR92sJeBSaJu
   - id: c17454f3-14c5-47a0-8c9c-42ee12932bd3
     youtube:
       - en: dzPMGiR_JSE
+    peertube:
+      - it: aoHAGxj27DC9CHzYPv8fQJ
+      - en: 5BVx9qmzHvvuPhzhDxLDdk
+      - ru: 5x7udqVrcSD7Ysh6ySDSFy
+      - ja: 5azcoEiMf8QNk3x5DQwAzH
+      - de: p2tqCsgf6QvxHqPLaUyP2U
   - id: 1d850f23-eff1-4725-b284-ce12456a2c26
     youtube:
       - en: veCs39uVFUk
+    peertube:
+      - en: 3GiB2a5dBoEa5L5AHmLvgM
+      - ja: 2dFPMKoCYrd5P3a7Bju7gL
+      - ru: dUegKgr7mC1LNvJsydRFr1
+      - it: gwiyNP39EnfzwnjDwbJQg5
+      - de: hEMErwLsvxqYz1s1UrDhib
   - id: 4d8ad4e6-32ff-46d3-bd17-343929aa863b
     youtube:
       - en: zmAa2fj_V7w
+    peertube:
+      - de: 942Q1GGVm7DTZxHsxiaWKc
+      - it: a3out3CBL26v3frTcinSAJ
+      - ru: 4mXXXaVRQiw8gD7Zuz14QM
+      - ja: oW4troeApsXWgeX1QeShL6
+      - en: 3vXoSbzA6LS2bpAsHZeaEW
   - id: 38419c23-5592-4573-b0a7-84824a5bfb77
     youtube:
       - en: 44oBdNdXtEQ
+    peertube:
+      - de: wpeBAp6BG29CzrtjsGTQ3q
+      - ja: gebfppTSWaY6YqVr4FZJK5
+      - it: iCEFeEU2GRzho8JUpFpkgy
+      - en: i5XMtw6EUK5ZSDCzN5LxZA
+      - ru: 3vYFJqBFByXDBuHS5x5CL1
   - id: 6f204b92-55a5-4939-9440-7c5b96a297bf
     youtube:
       - en: jI4nM297aHA
+    peertube:
+      - ja: 9tD3TT3vAJabbm1Q6uQMVr
+      - it: uJd3PvakZ6kaFL1q2QuoBi
+      - de: hD7ChsohK5xeqW5Q4tYdjW
+      - ru: prbRCLWUeUnnBtTaijJ13D
+      - en: t4x9WLZLGA5egVomi2U9f3
   - id: e5baa834-111d-46f5-a28b-3538bed2bbb0
     youtube:
       - en: CqetCElRjUQ
+    peertube:
+      - it: 7TzmWTUcTExTzVbX1M3EGg
+      - de: gJcEW6sL88ELMBQxbyyDjq
+      - en: vHa3ccXfotnfPkgSR5twj5
+      - ru: rvy5gnfEddbHrKHV1bGtUP
+      - ja: ojHafBmwLKU58ewyVUHgi5
   - id: 309c3412-506e-4189-ad46-5e5088c55008
     youtube:
       - en: XANzf1Qqp9I
+    peertube:
+      - ja: 9XFtyzDTMjWxvpwCHQ7xDw
+      - de: cCDZJM1nvSbrcDBgieNwZz
+      - ru: 8Vwo2T2B4G75e2ByZQ2iVa
+      - it: 1BRjLpxtuBsE2gtPN9mKwx
+      - en: sYxAqhZUDBrsjPBvHqyfGA
   - id: 96096aef-e4ce-4c44-a022-57e27082232a
     youtube:
       - en: MIbej28La7Y
+    peertube:
+      - it: aXAycM28vys7NpJihJQdgu
+      - en: buqBFPWYhWzUENZ38vvuS6
+      - ru: 71EZ8bM2uvMh2dUSjC2Bus
+      - ja: 8cCkwJB3RUNvT3CoNUhkj1
+      - de: oMxmYAaB1LhRtGUjjt6XiJ
   - id: 5f4f4344-ef27-4765-8f09-8262e6833bde
     youtube:
       - en: coaskEGRjiU
+    peertube:
+      - ja: joauciCCPWzj4n3Gp9PHFT
+      - it: uSiZEBvjyuhvcuedC9WR8A
+      - en: ckN2Ku9snwKvmDmyaU1fTa
+      - ru: 7sfmjbLoZ6uEiXGE16596p
+      - de: 43i8D7P9xJkW7kFgCoam8v
   - id: 62831f54-0ee7-403b-b0e3-67084c2ef6ea
     youtube:
       - es: w9y0WsioH2c
+    peertube:
+      - es: 2c5xbWaM1yjAGMcYsV25HH
   - id: e516e004-3977-45e2-8f50-aa582061b7fa
     youtube:
       - es: zS_isbMwT28
+    peertube:
+      - es: pVtNuLoEbCvQ3wyxA2u6DW
   - id: 0dd90e82-4d29-4d27-bcdf-42988ced4b16
     youtube:
       - es: G9Fz1C4xf4Q
+    peertube:
+      - es: uyquy4HoG23rMW51rPxGvv
   - id: ec8a9259-cf0e-4142-af74-d08a867e3842
     youtube:
       - es: 1sHUdqA7J04
+    peertube:
+      - es: fsNSGF9t8Dd6ipjGmTw2Zh
   - id: 387747fe-bcda-499d-b247-d5c82bb6dcd7
     youtube:
       - es: GrXSB-nLvjE
+    peertube:
+      - es: pZyr9V6AKT65TShHK7b1BK
   - id: e3bfae93-85f5-4996-9dbc-5185ff0b4d0f
     youtube:
       - es: zg-7PXwNRPc
+    peertube:
+      - es: 3Wq5JnJBTxzkXn7kgTTXbV
   - id: 52ad2fd7-0459-4635-8785-793fc5fff28e
     youtube:
       - es: 4UGonGv0toY
+    peertube:
+      - es: 9y9NWokNNCv1QyEhD21zLR
   - id: 4e2361e0-e859-4459-bef5-79b2fbb03574
     youtube:
       - es: 5ZGKt6O5gGo
+    peertube:
+      - es: pAaf6r9QGbk8UkBKCoUsYb
   - id: e84ce4ec-d766-42dc-a58b-277af115b0e2
     youtube:
       - es: _7UuCI9TwlQ
+    peertube:
+      - es: qivd7pd6Cw66fzceSH5twg
   - id: b4707c4e-6b63-496e-9ac8-e748a8c3be94
     youtube:
       - es: V2NsdO0Zig8
+    peertube:
+      - es: 3kyYfiQKn3Xb9rDuanQmpB
   - id: a2ee69ae-e1e9-46f5-b95a-91e8c1a0aee6
     youtube:
       - es: v3tMehXZ4R0
+    peertube:
+      - es: dyhG4hH69vrRGig43qS2xC
   - id: 102fd1db-1730-4f18-8f16-4c31b4431ba0
     youtube:
       - es: 9VowzzMU1UA
+    peertube:
+      - es: tQhaPFPZERBZf56xsfBQ3H
   - id: 4315a277-12fe-4946-bb49-a807e60c09a7
     youtube:
       - fr: PszWk046x-I
       - en: VXTKpf_gduc
     peertube:
-      - fr: pgU7YNd1CWsC4zL7mfrz23
-      - en: cwc2fb3CW8moFhbgTcng4x
+      - fr: gFMLumFzEGq9T73MBfjYX7
+      - en: oSyof7Lb14Wk48DWTHcGXR
     rumble:
       - fr: v6vlysj
       - en: v6vlyr7
   - id: 7e59a543-3872-40de-950b-c7540129af1a
     youtube:
       - fr: cadCJ2V7zTg
+    peertube:
+      - fr: reY5kBhvLwz2EbKbBLj5ua
   - id: ef007b00-ace0-4a9e-a993-515277d190d2
     youtube:
       - fr: B2caBC0Rxko
+    peertube:
+      - fr: 8A4CLUtpZAKMG3Dr9fGBdd
   - id: 683b2325-59bd-4369-8c5a-7609fbe33079
     youtube:
       - fr: aPqI34tpypM
+    peertube:
+      - fr: fuxE98GGVLEdQBo7YHmH5r
   - id: 98be54e8-eaa7-4c2d-b8a7-fbf1c2197488
     youtube:
       - fr: RRvoVTLRJ84
+    peertube:
+      - fr: 3z9hMfJtBbSofhB5ocAmzj
   - id: c7db75c9-65c1-4d08-8577-d14b891d13d8
     youtube:
       - fr: FVmQvNpVW8Y
+    peertube:
+      - fr: hYgvD6kJwgJRW5mmhsoEzn
   - id: 7207f612-a3e7-4a8c-b562-8501ea242be3
     youtube:
       - fr: RAZAa3v41DM
+    peertube:
+      - fr: jttyzWLHCJQQKfnDPtVrzu
   - id: ffdc301f-bc2d-4d5a-b062-1f4058ee518d
     youtube:
       - fr: -JC4mkq7H48
+    peertube:
+      - fr: f5Zmh3kJKf8VgCGvV9YVbL
   - id: ef1ba4bb-b9bd-4597-88f7-d030cd70539a
     youtube:
       - fr: wnUGJjOxd9Q
+    peertube:
+      - fr: 69yBGZ2Wu922hkN9bNk6af
   - id: 0ce032ff-1839-44e7-ba80-3bb5f1bbd047
     youtube:
       - fr: CHnXJuZTarU
+    peertube:
+      - fr: aQCJ3W8NbYn3Se5hnivPUU
   - id: bdc1578b-2c6c-482d-a9bc-7145710a7ebb
     youtube:
       - fr: YuPrbhEJXbg
+    peertube:
+      - fr: t7AFQMGpzgn8gaUrxGXzDC
   - id: f63e6237-bd66-4670-beca-14c2e573c826
     youtube:
       - fr: MaWpD0rbkVo
+    peertube:
+      - fr: mCeT27d1G8RdM813VYCdAs
   - id: 029aa591-35e5-46d9-a5a7-cd5b4280fe65
     youtube:
       - fr: VeJ4oJIXo9k

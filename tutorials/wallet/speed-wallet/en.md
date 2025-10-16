@@ -220,7 +220,7 @@ To qualify, you must meet the following criteria:
 
 
 
-- You have at least **1000 Satoshis or 1 USDT** in your portfolio.
+- You have at least **1000 Satoshis or 1 USDT** in your wallet.
 
 
 
@@ -259,7 +259,7 @@ Open the extension in your browser, then log in.
 ![login](assets/fr/16.webp)
 
 
-Authenticate your computer to authorize access to your portfolio.
+Authenticate your computer to authorize access to your wallet.
 
 
 ![authorization](assets/fr/17.webp)
@@ -293,7 +293,7 @@ Essentially focused on payments, you will find the following options:
 - **Platform payments**: Connect your Speed Business account to external tools you use to make transfers and payments to these platforms.
 
 
-You've reached the end of our Speed Wallet tutorial. If you found this tutorial useful, please give us a green thumb. We also suggest you take a look at our tutorial on saving and setting up an estate plan using the Liana portfolio.
+You've reached the end of our Speed Wallet tutorial. If you found this tutorial useful, please give us a green thumb. We also suggest you take a look at our tutorial on saving and setting up an estate plan using the Liana wallet.
 
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

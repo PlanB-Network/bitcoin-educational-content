@@ -20,8 +20,8 @@ description: How do I configure a Watch-only wallet on Blockstream App?
 
 
 
-- **Beginners**: Users wishing to monitor a Bitcoin portfolio (often associated with a Hardware Wallet) via an intuitive mobile application.
-- **Intermediate users**: People looking to manage read-only portfolios while using privacy options such as Tor or SPV.
+- **Beginners**: Users wishing to monitor a Bitcoin wallet (often associated with a Hardware Wallet) via an intuitive mobile application.
+- **Intermediate users**: People looking to manage read-only wallets while using privacy options such as Tor or SPV.
 - **Hardware wallet owners**: To check their balances and generate addresses without connecting their device.
 - **Businesses and shops**:
  - Track your transactions for accounting purposes without exposing your private keys.
@@ -43,7 +43,7 @@ A **Watch-Only** wallet allows you to monitor the transactions and balance of a 
 
 
 
-- **Security**: Ideal for monitoring a portfolio secured by a **Hardware Wallet** without exposing private keys on a connected device.
+- **Security**: Ideal for monitoring a wallet secured by a **Hardware Wallet** without exposing private keys on a connected device.
 - **Convenience**: Allows you to check the balance and generate new recipient addresses without connecting the Hardware Wallet.
 - **Confidentiality**: Compatible with options such as **Tor** or **SPV** to limit dependency on third-party servers.
 - **Use cases**: Tracking funds on the move, generating addresses to receive payments, or verifying transactions without risking private keys.
@@ -67,14 +67,14 @@ An **extended public key** (xpub, ypub, zpub, etc.) is a piece of data derived f
 
 
 - Extended public key types
-- **xpub**: Used for Legacy portfolios (addresses starting with "1", BIP-44) and Taproot portfolios (addresses starting with "bc1p", BIP-86).
+- **xpub**: Used for Legacy wallets (addresses starting with "1", BIP-44) and Taproot wallets (addresses starting with "bc1p", BIP-86).
 - **ypub**: Designed for compatible SegWit wallets (addresses starting with "3", BIP-49).
-- **zpub**: Associated with native SegWit portfolios (addresses starting with "bc1q", BIP-84).
+- **zpub**: Associated with native SegWit wallets (addresses starting with "bc1q", BIP-84).
 - Others (tpub, upub, vpub, etc.): Used for alternative networks (such as Testnet) or specific standards. For example, **tpub** is for the Testnet network.
 
 
 
-- **Distinction**: The choice between xpub, ypub, or zpub depends on the address type (legacy, SegWit, Taproot or nested SegWit) and the BIP standard used by the wallet. Check the format required by your source portfolio to ensure compatibility with Blockstream App.
+- **Distinction**: The choice between xpub, ypub, or zpub depends on the address type (legacy, SegWit, Taproot or nested SegWit) and the BIP standard used by the wallet. Check the format required by your source wallet to ensure compatibility with Blockstream App.
 
 
 
@@ -109,11 +109,11 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Blockstream App** is a mobile (iOS, Android) and desktop application for managing Bitcoin portfolios and assets on the Liquid network. Acquired by [Blockstream](https://blockstream.com/) in 2016, it was previously named *Green Address* and then *Blockstream Green*.
+- **Blockstream App** is a mobile (iOS, Android) and desktop application for managing Bitcoin wallets and assets on the Liquid network. Acquired by [Blockstream](https://blockstream.com/) in 2016, it was previously named *Green Address* and then *Blockstream Green*.
 - **Key features**:
 - **Onchain** transactions on Blockchain Bitcoin.
     - Transactions on the **Liquid** network (Sidechain for fast, confidential exchanges).
-- **Watch-only** portfolios for monitoring funds without access to keys.
+- **Watch-only** wallets for monitoring funds without access to keys.
     - Privacy options: connection via **Tor**, connection to a **personal node** via Electrum, or **SPV** verification to reduce dependency on third-party nodes.
     - Functions **Replace-by-fee (RBF)** to speed up unconfirmed transactions.
 - **Compatibility**: Integrates hardware wallets such as **Blockstream Jade**.
@@ -141,14 +141,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported portfolios will appear here later.
+- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported wallets will appear here later.
 
 
 ![image](assets/fr/02.webp)
 
 
 
-- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your portfolio.
+- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your wallet.
 
 
 ![image](assets/fr/03.webp)
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-## 4. Creating a Bitcoin "Watch-only" portfolio
+## 4. Creating a Bitcoin "Watch-only" wallet
 
 
 ### 4.1. Recover extended public key
@@ -219,8 +219,8 @@ To set up a Watch-Only wallet, you must first obtain the extended public key (xp
 
 
 
-- **Caution**: Set up your portfolio in a private environment, without cameras or observers.
-- From the home screen, click on "Set up a new portfolio" and then on "Get Started" :
+- **Caution**: Set up your wallet in a private environment, without cameras or observers.
+- From the home screen, click on "Set up a new wallet" and then on "Get Started" :
 
 
 ![image](assets/fr/04.webp)
@@ -236,7 +236,7 @@ To set up a Watch-Only wallet, you must first obtain the extended public key (xp
 
 
 - (1) **"Setup Mobile Wallet"** : Create a new Hot Wallet. See the "Blockstream App - Onchain" tutorial in the appendix.
-- (2) **"Restore from Backup "**: Import an existing portfolio using a mnemonic phrase (12 or 24 words). Caution: Do not import the phrase from a Cold Wallet, as it will be exposed on a connected device, invalidating its security.
+- (2) **"Restore from Backup "**: Import an existing wallet using a mnemonic phrase (12 or 24 words). Caution: Do not import the phrase from a Cold Wallet, as it will be exposed on a connected device, invalidating its security.
 - (3) **"Watch-Only "**: the option we're interested in for this tutorial.
 
 

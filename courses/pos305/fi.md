@@ -1,1174 +1,1743 @@
 ---
-name: Bitcoin ja BTCPay Server
-goal: Asenna BTCPay Server yrityksellesi
-objectives:
+name: Bitcoin ja BTC Pay Server
+goal: Asenna BTC Pay Server yrityksellesi
+objectives: 
+
   - Ymmärrä, mikä btcpayserver on.
-  - Isännöi ja määritä BTCPay Server itse.
-  - Käytä btcpayserveria päivittäisessä liiketoiminnassasi.
+  - BTC Pay Serverin itse isännöinti ja konfigurointi.
+  - Käytä btcpayserver päivittäisessä liiketoiminnassa.
+
 ---
 
-# Bitcoin ja BTCPay Server
+# Bitcoin ja BTCPay-palvelin
 
-Tämä on johdantokurssi BTCPay Serverin käyttöön, jonka ovat kirjoittaneet Alekos ja Bas, ja joka on mukautettu Plan ₿-kurssimuotoon melontwistin ja asi0:n toimesta.
+
+Tämä on Alekosin ja Basin kirjoittama BTCPay-palvelinoperaattorin johdantokurssi, jonka melontwist ja asi0 ovat muokanneet Plan ₿ -kurssiformaattiin.
+
 
 KESKENERÄINEN TARINA
 
-"Tämä on valheita, luottamukseni teihin on murtunut, teen teidät tarpeettomiksi".
 
-Tuottanut BTCPay Server Foundation
+"Tämä on valhetta, luottamukseni sinuun on murtunut, teen sinusta vanhentuneen".
+
+
+Tuottaja BTCPay Server Foundation
+
 
 +++
 
 # Johdanto
 
+
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+
 
 ## Kurssin yleiskatsaus
 
+
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
-Tervetuloa POS 305-kurssille BTCPay Serveristä!
 
-Tämän koulutuksen tavoitteena on opettaa sinulle, kuinka asentaa, konfiguroida ja käyttää BTCPay Serveriä yrityksessäsi tai organisaatiossasi. BTCPay Server on avoimen lähdekoodin ratkaisu, joka mahdollistaa bitcoin-maksujen käsittelyn itsenäisesti, turvallisesti ja taloudellisesti. Tämä kurssi on suunnattu ensisijaisesti kokeneille käyttäjille, jotka haluavat hallita BTCPay Serverin itseisännöintiä ja integroida sen täydellisesti päivittäiseen toimintaansa.
+Tervetuloa POS 305 -kurssille BTCPay Serverillä!
 
-**Osio 1: BTCPay Serverin esittely**  
-Aloitamme yleisellä esittelyllä BTCPay Serveristä, joka sisältää kirjautumisnäytön, käyttäjätilien hallinnan ja uuden kaupan luomisen. Tämä johdanto auttaa sinua ymmärtämään BTCPay Serverin käyttöliittymän ja omaksumaan työkalun käyttöönottoon tarvittavat perustoiminnot.
 
-**Osio 2: Bitcoin-avainten suojaamisen esittely**  
-Bitcoin-varojesi turvallisuus on erittäin tärkeää. Tässä osiossa tutkimme kryptografisten avainten generointia, hardware-lompakoiden käyttöä avainten suojaamiseen sekä avainten hallintaa BTCPay Serverin kautta. Opit myös, kuinka määrittää BTCPay Serverin Lightning-lompakko maksutapahtumien optimoimiseksi.
+Tämän koulutuksen tavoitteena on opettaa sinulle, miten asennat, konfiguroit ja käytät BTCPay Serveriä yrityksessäsi tai organisaatiossasi. BTCPay Server on avoimen lähdekoodin ratkaisu, jonka avulla voit käsitellä Bitcoin-maksuja itsenäisesti, turvallisesti ja kustannustehokkaasti. Tämä kurssi on suunnattu ensisijaisesti edistyneille käyttäjille, jotka haluavat hallita BTCPay Serverin omatoimista isännöintiä, jotta se voidaan integroida täysin päivittäisiin toimintoihin.
 
-**Osio 3: BTCPay Serverin käyttöliittymä**  
-Tämä osio opastaa sinua BTCPay Serverin käyttöliittymän läpi. Opit navigoimaan hallintapaneelissa, konfiguroimaan kaupan ja palvelimen asetuksia, hallitsemaan maksuja ja hyödyntämään integroituja liitännäisiä. Tavoitteena on tutustuttaa sinut työkaluihin, joita tarvitset asennuksen mukauttamiseksi tarpeidesi mukaan.
 
-**Osio 4: BTCPay Serverin konfigurointi**  
-Lopuksi keskitymme BTCPay Serverin käytännön asennukseen eri ympäristöissä. Käytitpä sitten LunaNodea, Voltagea tai Umbrel-solmua, opit olennaiset vaiheet BTCPay Serverin käyttöönottamiseksi ja konfiguroimiseksi ottaen huomioon kunkin ympäristön erityispiirteet.
+**Luku 1: BTCPay-palvelimen esittely**
 
-Oletko valmis hallitsemaan BTCPay Serverin ja kasvattamaan liiketoimintaasi? Lähdetään liikkeelle!
+Aloitamme BTCPay Serverin yleisesittelyllä, johon kuuluu kirjautumisnäyttö, käyttäjätilien hallinta ja uuden kaupan luominen. Tämä esittely auttaa sinua ymmärtämään BTCPay Server Interface:n ja hahmottamaan perusominaisuudet, joita tarvitset tämän työkalun käytön aloittamiseen.
 
-## Kriittinen suosio kirjoittajan Bitcoin ja BTCPay Server -teokselle
+
+**Luku 2: Johdanto Bitcoin-avaimien suojaamiseen**
+
+Bitcoin-varojesi turvallisuus on erittäin tärkeää. Tässä osiossa käsittelemme kryptografisten avainten tuottamista, laitteistolompakoiden käyttöä avainten suojaamiseen ja sitä, miten avainten kanssa voi olla vuorovaikutuksessa BTCPay Serverin kautta. Opit myös, miten konfiguroida BTCPay Server Lightning Wallet -palvelin maksutapahtumien optimoimiseksi.
+
+
+**Luku 3: BTCPay-palvelin Interface**
+
+Tämä osa opastaa sinut BTCPay Serverin käyttäjän Interface:n käyttöönotossa. Opit navigoimaan kojelaudalla, määrittämään myymälä- ja palvelinasetuksia, hallitsemaan maksuja ja hyödyntämään integroituja liitännäisiä. Tavoitteena on antaa sinulle tarvittavat työkalut, joilla voit mukauttaa asennuksesi omien tarpeidesi mukaan.
+
+
+**Luku 4: BTCPay-palvelimen määrittäminen**
+
+Lopuksi keskitymme BTCPay Serverin käytännön asennukseen eri ympäristöissä. Käytitpä sitten LunaNodea, Voltagea tai Umbrel-solmua, opit olennaiset vaiheet BTCPay Serverin käyttöönottoon ja konfigurointiin ottaen huomioon kunkin ympäristön erityispiirteet.
+
+
+Oletko valmis hallitsemaan BTCPay Serveriä ja kasvattamaan liiketoimintaasi? Mennään!
+
+
+## Kriittistä suosiota tekijän Bitcoin- ja BTCPay-palvelimelle
+
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
 
-Aloitetaan siitä, mikä BTCPay Server on ja mistä se sai alkunsa. Arvostamme läpinäkyvyyttä ja tiettyjä standardeja luottamuksen muodostamiseksi Bitcoin-alueella.
-Eräs projekti alalla rikkoi nämä arvot. BTCPay Serverin pääkehittäjä, Nicolas Dorier, otti tämän henkilökohtaisesti ja lupasi tehdä heidät tarpeettomiksi. Tässä me nyt olemme monta vuotta myöhemmin ja työskentelemme kohti tätä tulevaisuutta, täysin avoimen lähdekoodin parissa, joka päivä.
 
-> Tämä on valheita, luottamukseni teihin on murtunut, teen teidät tarpeettomiksi.
+Aloitetaan ymmärtämällä, mikä BTCPay Server on ja mistä se on peräisin. Arvostamme läpinäkyvyyttä ja tiettyjä standardeja luottamuksen muodostamiseksi Bitcoin-avaruudessa.
+
+Avaruushanke rikkoi nämä arvot. BTCPay Serverin johtava kehittäjä Nicolas Dorier otti tämän henkilökohtaisesti ja lupasi poistaa ne käytöstä. Tässä sitä nyt ollaan, monta vuotta myöhemmin, ja työskentelemme tätä tulevaisuutta kohti täysin avoimen lähdekoodin periaatteella joka päivä.
+
+
+> Tämä on valhetta, luottamukseni sinuun on murtunut, teen sinusta tarpeettoman.
 > Nicolas Dorier
 
-Nicolaksen sanojen jälkeen oli aika ryhtyä rakentamaan. Paljon työtä on tehty sen eteen, mitä nyt kutsutaan BTCPay Serveriksi. Yhä useammat ihmiset halusivat auttaa tässä työssä. Tunnetuimpia ovat r0ckstardev, MrKukks, Pavlenex ja ensimmäinen kauppias, joka käytti ohjelmistoa, astupidmoose.
+Nicolasin sanojen jälkeen oli aika aloittaa rakentaminen. Merkittävä määrä työtä tehtiin sen eteen, mitä nyt kutsumme BTCPay Serveriksi. Useammat ihmiset halusivat osallistua tähän työhön. Tunnetuimpia ovat r0ckstardev, MrKukks, Pavlenex ja ensimmäinen ohjelmistoa käyttänyt kauppias, astupidmoose.
 
-Mitä avoin lähdekoodi tarkoittaa, ja mitä sellaisen projektin tekemiseen kuuluu?
 
-FOSS tarkoittaa vapaata ja avoimen lähdekoodin ohjelmistoa. Ensimmäinen viittaa ehtoihin, jotka sallivat kenen tahansa kopioida, muokata ja jopa levittää versioita (jopa voittoa tavoitellen) ohjelmistosta. Jälkimmäinen viittaa lähdekoodin avoimeen jakamiseen, kannustaen yleisöä osallistumaan ja parantamaan sitä.
-Tämä tuo mukanaan kokeneita käyttäjiä, jotka ovat innokkaita osallistumaan ohjelmistoon, josta he jo saavat arvoa, osoittaen ajan myötä voittavansa omistusoikeudellisen ohjelmiston käyttöönotossa. Se on linjassa Bitcoinin eetoksen kanssa, että "tiedon kuuluu olla vapaa". Se tuo yhteen intohimoisia ihmisiä, jotka muodostavat yhteisön ja on yksinkertaisesti hauskempaa. Kuten Bitcoin, FOSS on väistämätön.
+Mitä avoimella lähdekoodilla tarkoitetaan ja mitä tällaiseen hankkeeseen kuuluu?
+
+
+FOSS on lyhenne sanoista Free & Open-Source Software. Ensin mainittu viittaa ehtoihin, joiden mukaan kuka tahansa voi kopioida, muokata ja jopa levittää ohjelmistoversioita (jopa voiton tavoittelemiseksi). Jälkimmäisellä tarkoitetaan lähdekoodin avointa jakamista ja yleisön kannustamista osallistumaan ja parantamaan sitä.
+
+Tämä houkuttelee kokeneita käyttäjiä, jotka ovat innostuneita osallistumaan ohjelmistojen kehittämiseen, joita he jo käyttävät ja joista he saavat arvoa, ja tämä on lopulta osoittautunut onnistuneemmaksi käyttöönotossa kuin omistusoikeudelliset ohjelmistot. Se on yhdenmukainen Bitcoin:n eetoksen kanssa, jonka mukaan "tieto kaipaa vapautta" Se kokoaa yhteen intohimoisia ihmisiä, jotka muodostavat yhteisön, ja se on yksinkertaisesti hauskempaa. Kuten Bitcoin, FOSS on väistämätön.
+
 
 ### Ennen kuin aloitamme
 
-Tämä kurssi koostuu useista osista. Monet niistä käsitellään luokkahuoneopettajasi toimesta, saat käyttöösi DEMO-ympäristöt, isännöidyn palvelimen itsellesi ja mahdollisesti verkkotunnuksen. Jos suoritat tämän kurssin itsenäisesti, ole tietoinen siitä, että DEMO-ympäristöt eivät ole käytettävissäsi.
-HUOM. Jos seuraat tätä kurssia luokkahuoneessa, palvelinten nimet saattavat vaihdella luokkahuoneen asetusten mukaan. Palvelinten nimissä saattaa olla eroja tämän vuoksi.
+
+Tämä kurssi koostuu useista osista. Monista osista huolehtii luokanopettajasi, demoympäristöt, joihin saat pääsyn, isännöidyn palvelimen itsellesi ja mahdollisesti verkkotunnuksen. Jos suoritat tämän kurssin itsenäisesti, ota huomioon, että DEMO-merkinnällä varustetut ympäristöt eivät ole käytettävissäsi.
+
+HUOM. Jos seuraat tätä kurssia luokkahuoneessa, palvelimien nimet saattavat vaihdella luokkahuoneen kokoonpanosta riippuen. Palvelimien nimissä olevat muuttujat saattavat tästä syystä olla erilaisia.
+
 
 ### Kurssin rakenne
 
-Jokaisella luvulla on tavoitteet ja tiedon arvioinnit. Tällä kurssilla käymme läpi nämä ja jokaisen oppituntikokonaisuuden (eli luvun) päätteeksi on yhteenveto avainominaisuuksista. Esitykset on varustettu kuvituksilla visuaalisen palautteen tarjoamiseksi ja keskeisten käsitteiden vahvistamiseksi visuaalisesti. Tavoitteet asetetaan kunkin oppituntikokonaisuuden alussa. Nämä tavoitteet menevät pelkän tarkistuslistan yli. Ne tarjoavat sinulle oppaan uuden taitosetin pariin. Tiedon arvioinnit ovat asteittain haastavampia BTCPay Serverin asetusten suhteen.
 
-### Mitä opiskelijat saavat kurssilla?
+Jokaisessa luvussa on tavoitteet ja osaamisen arviointi. Tällä kurssilla käsittelemme kutakin näistä ja esitämme yhteenvedon keskeisistä ominaisuuksista kunkin oppituntikokonaisuuden (eli luvun) lopussa. Kuvituksilla annetaan visuaalista palautetta ja vahvistetaan keskeisiä käsitteitä visuaalisesti. Tavoitteet asetetaan kunkin oppituntilohkon alussa. Nämä tavoitteet ovat tarkistuslistaa laajempia. Ne antavat sinulle oppaan uusiin taitoihin. Osaamisen arvioinnit ovat asteittain haastavampia, kun BTCPay-palvelimen asennus on valmis.
 
-BTCPay Server -kurssilla opiskelija voi ymmärtää Bitcoinin perusperiaatteet, sekä tekniset että ei-tekniset. Laaja koulutus Bitcoinin käyttöön BTCPay Serverin kautta mahdollistaa opiskelijoiden oman Bitcoin-infrastruktuurin operoinnin.
 
-### Tärkeät verkkosivustot tai yhteydenottomahdollisuudet
+### Mitä opiskelijat saavat kurssin mukana?
 
-BTCPay Server Foundation, joka mahdollisti Alekosin ja Basin tämän kurssin kirjoittamisen, sijaitsee Tokiossa, Japanissa. BTCPay Server -säätiöön voi ottaa yhteyttä listatun verkkosivuston kautta;
+
+BTCPay-palvelinkurssin avulla opiskelija voi ymmärtää Bitcoin:n tekniset ja ei-tekniset perusperiaatteet. BTCPay Server -palvelimen kautta saatava laaja Bitcoin:n käyttökoulutus antaa opiskelijoille mahdollisuuden käyttää omaa Bitcoin-infrastruktuuriaan.
+
+
+### Tärkeitä verkko-osoitteita tai yhteystietoja
+
+
+BTCPay Server Foundation, jonka ansiosta Alekos ja Bas saivat kirjoittaa tämän kurssin, sijaitsee Tokiossa, Japanissa. BTCPay Server -säätiöön voi ottaa yhteyttä luetellun verkkosivuston kautta.
+
+
 
 - https://foundation.btcpayserver.org
-- liity virallisiin chat-kanaviin: https://chat.btcpayserver.org
+- Liity virallisiin keskustelukanaviin: https://chat.btcpayserver.org
 
-## Johdanto Bitcoiniin
+
+## Johdanto Bitcoin:een
+
 
 <chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
 
-### Bitcoinin ymmärtäminen luokkahuoneharjoituksen kautta
 
-Tämä on luokkahuoneharjoitus, joten jos otat tämän kurssin itse, et voi suorittaa sitä, mutta voit silti käydä läpi tämän harjoituksen. Tämän tehtävän suorittamiseen vaadittava henkilömäärä on 9–11.
+### Bitcoin:n ymmärtäminen luokkahuoneharjoituksen avulla
 
-Harjoitus alkaa katsomalla johdanto "Miten Bitcoin ja lohkoketju toimivat" BBC:ltä.
+
+Tämä on luokkahuoneharjoitus, joten jos osallistut kurssille itse, et voi suorittaa sitä, mutta voit silti käydä tämän harjoituksen läpi. Tämän tehtävän suorittamiseen tarvitaan vähintään 9-11 henkilöä.
+
+
+Harjoitus alkaa BBC:n esittelyn "How Bitcoin and the Blockchain works" katsomisen jälkeen.
+
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
-Tähän harjoitukseen tarvitaan vähintään yhdeksän henkilön osallistuminen. Tämän harjoituksen tarkoituksena on fyysisesti saada käsitys siitä, miten Bitcoin toimii. Toimimalla kunkin roolin mukaisesti verkossa, saat interaktiivisen ja leikkisän tavan oppia. Tämä harjoitus ei sisällä Lightning Networkia.
 
-### Esimerkki; Vaatii 9 / 11 henkilöä
+Tähän harjoitukseen tarvitaan vähintään yhdeksän osallistujaa. Harjoituksen tavoitteena on antaa fyysinen käsitys Bitcoin:n toiminnasta. Pelaamalla kutakin roolia verkossa voitte oppia vuorovaikutteisesti ja leikkimielisesti. Tässä harjoituksessa ei käytetä Lightning Network:ää.
+
+
+### Esimerkki: Vaatii 9 / 11 henkilöä
+
 
 Roolit ovat:
 
-- 1 Asiakas
-- 1 Kauppias
-- 7–9 Bitcoin-noodia
 
-**Asetelma on seuraava:**
 
-Asiakas ostaa tuotteen kaupasta Bitcoinilla.
+- 1 asiakas
+- 1 kauppias
+- 7-9 Bitcoin-solmua
+
+
+**Asetukset ovat seuraavat:**
+
+
+Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
+
 
 **Skenaario 1 - Perinteinen pankkijärjestelmä**
 
-- Asetelma:
-  - Katso kaaviot/selitykset liitetyssä Figjamissa - [Toimintakaavio](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-  - Hanki kolme opiskelijavapaaehtoista toimimaan Asiakkaan (Alice), Kauppiaan (Bob) ja Pankin rooleissa.
+
+
+- Järjestä:
+  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Hanki kolme vapaaehtoista opiskelijaa esittämään asiakkaan (Alice), kauppiaan (Bob) ja pankin rooleja.
 - Näyttele tapahtumien kulku:
-  - Asiakas- selaa kauppaa verkossa ja löytää $25 maksavan tuotteen, jonka haluaa, ja ilmoittaa Kauppiaalle haluavansa ostaa
-  - Kauppias- pyytää maksua.
-  - Asiakas- lähettää korttitiedot Kauppiaalle
-  - Kauppias- välittää tiedot Pankille (identifioi sekä omat että asiakkaan tiedot/informaation) pyytäen maksua
-  - Pankki kerää tietoja Asiakkaasta ja Kauppiaasta (Alice ja Bob) ja tarkistaa, että asiakkaan saldo riittää.
-  - Vähentää \$25 Alicen tililtä, lisää \$24 Bobin tilille, ottaa \$1 palvelumaksun
-  - Kauppias saa peukalon ylös Pankilta ja toimittaa tuotteen asiakkaalle.
+  - Asiakas - selaa verkkokauppaa ja löytää haluamansa tuotteen 25 dollarilla ja ilmoittaa kauppiaalle haluavansa ostaa sen
+  - Kauppias pyytää maksua.
+  - Asiakas lähettää korttitiedot kauppiaalle
+  - Kauppias - välittää pankille tiedot (yksilöi sekä omat että henkilöllisyytensä/tiedot), joissa pyydetään maksamaan seuraavat maksut
+  - Pankki kerää tietoja asiakkaasta ja kauppiaasta (Alice ja Bob) ja tarkistaa, että asiakkaan saldo on riittävä.
+  - Vähentää 25 \$ Alice:n tililtä, lisää 24 \$ Bob:n tilille, ottaa 1 \$ palvelusta
+  - Kauppias saa pankilta hyväksynnän ja lähettää tuotteen asiakkaalle.
 - Kommentit:
-  - Bobin ja Alicen on oltava suhteessa pankkiin.
-  - Pankki kerää tunnistetietoja sekä Bobista että Alicesta.
-  - Pankki ottaa osuuden.
-  - Pankkiin on luotettava kummankin osapuolen rahojen säilyttäjänä koko ajan.
+  - Bob:lla ja Alice:llä on oltava pankkisuhde.
+  - Pankki kerää tunnistetietoja sekä Bob:stä että Alice:stä.
+  - Bank ottaa osuuden.
+  - Pankin on luotettava siihen, että se säilyttää koko ajan jokaisen osallistujan rahat.
+
 
 **Skenaario 2 - Bitcoin-järjestelmä**
 
-- Asetelma:
-  - Katso kaaviot/selitykset liitetyssä Figjamissa - [Toimintakaavio](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-- Korvaa Pankki yhdeksällä opiskelijalla, jotka toimivat Tietokoneen (Bitcoin-solmut/Louhijat) roolissa verkossa pankin korvaamiseksi. - Jokaisella yhdeksästä Tietokoneesta on täydellinen historiallinen kirjaus kaikista aiemmista tehdyistä transaktioista (näin ollen tarkat saldot ilman väärennöksiä), sekä joukko sääntöjä:
-  - Varmista, että transaktio on asianmukaisesti allekirjoitettu (avain sopii lukkoon)
-  - Lähetä ja vastaanota kelvollisia transaktioita verkon vertaisilta, hylkää kelvottomat (mukaan lukien kaikki, jotka yrittävät käyttää samoja varoja kahdesti)
-- Päivitä/Lisää kirjauksia säännöllisesti uusilla transaktioilla, jotka on vastaanotettu "satunnaiselta" tietokoneelta, edellyttäen, että kaikki sisällöt ovat kelvollisia (huom: jätämme nyt huomiotta Proof of Work -komponentin tässä yksinkertaisuuden vuoksi), muutoin hylkää nämä ja jatka kuten ennen seuraavaan "satunnaiseen" tietokoneen päivitykseen
-  - Oikea määrä palkittiin, jos sisällöt olivat kelvollisia.
-- Näyttele tapahtumien sarja:
-  - Asiakas- selaa kauppaa verkossa ja löytää tuotteen, jonka hinta on 25 dollaria ja jonka hän haluaa ostaa, ja ilmoittaa Kauppiaalle haluavansa ostaa
-  - Kauppias- pyytää maksua lähettämällä asiakkaalle laskun/osoitteen lompakostaan.
-  - Asiakas- rakentaa transaktion (lähettää 25 dollarin arvosta BTC:tä Kauppiaan antamaan osoitteeseen) ja lähettää sen Bitcoin-verkkoon.
-- Tietokoneet- vastaanottavat transaktion ja varmistavat:
-  - Lähettävästä osoitteesta löytyy vähintään 25 dollarin arvosta BTC:tä
-  - Transaktio on asianmukaisesti allekirjoitettu (“avattu” asiakkaan toimesta)
-  - Jos näin ei ole, transaktiota ei välitetä verkossa, ja jos on, se välitetään ja pidetään odottamassa.
-  - Kauppiaat voivat tarkistaa, että transaktio on odottamassa ja vireillä.
-- Yksi tietokone valitaan “satunnaisesti” ehdottamaan ehdotetun transaktion viimeistelyä lähettämällä “lohkon”, joka sisältää sen; jos se tarkistetaan, he saavat BTC-palkkion.
-  - VAIHTOEHTOINEN/EDISTYNYT - tietokoneen satunnaisen valinnan sijaan simuloimaan louhintaa antamalla Tietokoneiden heittää noppaa, kunnes jokin ennalta määrätty tulos tapahtuu (esim. ensimmäinen, joka heittää kaksi kuutosta, valitaan)
-  - Voidaan myös esittää, mitä tapahtuisi, jos kaksi Tietokonetta voittaisi suunnilleen samanaikaisesti, mikä johtaisi ketjun jakautumiseen.
-  - Tietokoneet tarkistavat kelvollisuuden, päivittävät/lisäävät kirjauksia kirjanpitoihinsa, jos säännöt täyttyvät, ja lähettävät lohkon vertaisilleen.
-  - Satunnaisesti valittu tietokone saa palkkion kelvollisen lohkon ehdottamisesta.
-  - Kauppias tarkistaa, että transaktio on viimeistelty; näin ollen varat on vastaanotettu, ja tuote on lähetetty asiakkaalle.
-- Kommentit:
-  - Huomaa, että ennalta olemassa olevaa pankkisuhdetta ei tarvittu.
-  - Kolmatta osapuolta ei tarvittu avuksi; korvattu koodilla/kannustimilla.
-  - Kukaan ulkopuolinen ei kerää tietoja suorasta vaihdosta, ja osallistujien välillä on vaihdettava vain tarvittava määrä tietoja (esim. toimitusosoite).
-  - Luottamusta ihmisten välillä ei vaadita (muuta kuin että Kauppias lähettää tuotteen), monin tavoin kuin käteisostossa.
-  - Rahat omistavat suoraan yksilöt.
-  - Bitcoin-kirjanpito esitetään dollareissa yksinkertaisuuden vuoksi, mutta todellisuudessa se on BTC.
-  - Simuloimme yhden transaktion lähettämistä, mutta todellisuudessa verkossa on vireillä useita transaktioita, ja lohkot sisältävät kerralla tuhansia transaktioita. Solmut tarkistavat myös, ettei vireillä ole kaksinkertaisia maksutransaktioita (hylkäisin kaikki paitsi yhden, jos näin olisi).
-- Huijausskenaariot:
-  - Entä jos asiakkaalla ei olisikaan ollut 25 dollarin arvoista BTC:tä?
-    - Hän ei olisi voinut luoda transaktiota, koska “avaaminen” ja “omistaminen” ovat sama asia, ja tietokoneet tarkistavat, että transaktio on asianmukaisesti allekirjoitettu; muutoin ne hylkäävät sen.
-- Mitä jos satunnaisesti valittu tietokone yrittää "muuttaa kirjanpitoa"? - Lohko hylättäisiin, koska jokaisella muulla tietokoneella on täydellinen historia ja he huomaisivat muutoksen, mikä rikkoisi yhtä heidän säännöistään.
-  - Satunnainen tietokone ei saisi palkkiota, eikä yhtään sen lohkon transaktiota vahvistettaisi.
 
-## Tiedon arviointi
+
+- Järjestä:
+  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Korvaa pankki yhdeksällä oppilaalla, jotka toimivat tietokoneen (Bitcoin solmua/kaukoputkea) roolissa verkossa, joka korvaa pankin.
+- Kullakin yhdeksästä tietokoneesta on täydellinen historiatieto kaikista koskaan tehdyistä tapahtumista (siten tarkat saldot ilman väärennöksiä) sekä joukko sääntöjä:
+  - Tarkista, että tapahtuma on asianmukaisesti allekirjoitettu (thekeyfitsthelock)
+  - Lähettää ja vastaanottaa päteviä transaktioita verkon vertaisverkoille ja hylätä virheelliset transaktiot (mukaan lukien sellaiset, joissa yritetään käyttää samat varat kahdesti)
+- Päivitä/täydennä tietueita säännöllisesti "satunnaiselta" tietokoneelta saaduilla uusilla tapahtumilla, jos kaikki sisältö on kelvollinen (huom. jätämme toistaiseksi huomiotta Proof of Work-komponentin yksinkertaisuuden vuoksi), muutoin hylkäämme nämä ja jatkamme kuten ennenkin, kunnes seuraava "satunnainen" tietokone lähettää päivityksen
+  - Oikea määrä palkittiin, jos sisältö oli pätevä.
+- Näyttele tapahtumien kulku:
+  - Asiakas - selaa verkkokauppaa ja löytää haluamansa 25 dollarin hintaisen tuotteen ja ilmoittaa kauppiaalle haluavansa ostaa sen
+  - Kauppias pyytää maksua lähettämällä asiakkaalle Invoice/Address:n Wallet:sta.
+  - Asiakas - rakentaa transaktion (lähettää 25 dollarin arvosta BTC:tä kauppiaan toimittamaan Address:ään) ja lähettää sen Bitcoin-verkkoon.
+- Tietokoneet - vastaanottavat tapahtuman ja tarkistavat sen:
+  - Address:ssä on vähintään 25 dollaria BTC:tä, joka lähetetään Address:stä
+  - Tapahtuma on allekirjoitettu asianmukaisesti ("avattu" asiakkaan toimesta)
+  - Jos näin ei ole, tapahtumaa ei siirretä verkon kautta, ja jos näin on, se siirretään ja pidetään odottamassa.
+  - Kauppiaat voivat tarkistaa, että maksutapahtuma on vireillä ja odottaa.
+- Yksi tietokone valitaan "satunnaisesti" ehdottamaan ehdotetun transaktion viimeistelyä lähettämällä sen sisältävä "lohko"; jos se on oikein, se saa BTC-palkkion.
+  - VALINNAINEN/LISÄVALINTAINEN - sen sijaan, että tietokone valitaan satunnaisesti, voidaan simuloida Mining:tä antamalla tietokoneiden heittää noppaa, kunnes jokin ennalta määrätty tulos tulee (esim. valitaan se, joka heittää ensimmäisenä tuplakuutosia)
+  - Se voi myös näytellä, mitä tapahtuisi, jos kaksi tietokonetta voittaisi suunnilleen samanaikaisesti, jolloin ketju jakautuisi.
+  - Tietokoneet tarkistavat voimassaolon, päivittävät/lisäävät tietueita pääkirjoihinsa, jos säännöt täyttyvät, ja lähettävät transaktiolohkon vertaisverkoille.
+  - Satunnaisesti valittu tietokone saa palkkion kelvollisen lohkon ehdottamisesta.
+  - Kauppias tarkistaa, että maksutapahtuma saatiin päätökseen, joten varat vastaanotettiin ja tuote lähetettiin asiakkaalle.
+- Kommentit:
+  - Huomaa, että aiempaa pankkisuhdetta ei tarvittu.
+  - Kolmatta osapuolta ei tarvita helpottamaan; korvataan säännöillä/kannustimilla.
+  - Kukaan ei saa kerätä tietoja välittömän Exchange:n ulkopuolelta, ja osallistujien välillä on vaihdettava vain tarvittava määrä (esim. lähetys Address).
+  - Ihmisten (muiden kuin tuotteen lähettävän kauppiaan) välillä ei tarvita luottamusta, kuten käteisostoksilla monin tavoin.
+  - Raha on suoraan yksityishenkilöiden omistuksessa.
+  - Bitcoin Ledger on kuvattu yksinkertaisuuden vuoksi dollareina, mutta todellisuudessa se on BTC.
+  - Simuloimme yhden transaktion lähettämistä, mutta todellisuudessa verkossa on useita transaktioita vireillä, ja lohkoihin kuuluu tuhansia transaktioita kerralla. Solmut varmistavat myös, että vireillä ei ole kaksoiskuljetustransaktioita (tässä tapauksessa hylkäisin kaikki paitsi yhden).
+- Huijausskenaariot:
+  - Entä jos asiakkaalla ei olisi 25 BTC dollaria?
+    - Ne eivät pystyisi luomaan tapahtumaa, koska "lukituksen avaaminen" ja "Ownership" ovat sama asia, ja tietokoneet tarkistavat, että tapahtuma on asianmukaisesti allekirjoitettu; muussa tapauksessa ne hylkäävät sen
+  - Entä jos satunnaisesti valittu tietokone yrittää "muuttaa Ledger:n"?
+    - Lohko hylättäisiin, koska kaikilla muilla tietokoneilla on täydellinen historia ja ne huomaisivat muutoksen, joka rikkoisi yhtä niiden säännöistä.
+    - Satunnainen tietokone ei saisi palkkiota, eikä heidän lohkonsa transaktioita viimeisteltäisi.
+
+
+## Tietojen arviointi
+
 
 <chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
 
-### KA Luokkakeskustelu
 
-Keskustele joistakin yksinkertaistuksista, jotka tehtiin luokkatehtävässä toisen skenaarion alla, ja kuvaile mitä todellinen Bitcoin-järjestelmä tekee yksityiskohtaisemmin.
+### KA Luokkahuonekeskustelu
 
-### KA Sanaston kertaus
 
-Määrittele seuraavat keskeiset termit, jotka esiteltiin edellisessä osiossa:
+Keskustele joistakin luokkahuoneharjoituksessa tehdyistä liiallisista yksinkertaistuksista toisen skenaarion yhteydessä ja kuvaa tarkemmin, mitä varsinainen Bitcoin-järjestelmä tekee.
+
+
+### KA Sanaston kertaaminen
+
+
+Määrittele seuraavat edellisessä jaksossa esitellyt keskeiset termit:
+
+
 
 - Solmu
 - Mempool
-- Vaikeustavoite
+- Vaikeusaste Tavoite
 - Lohko
 
-**Keskustele ryhmänä joistakin lisätermien merkityksistä:**
 
-Lohkoketju, Transaktio, Kahdenkertainen kulutus, Bysanttilaisten kenraalien ongelma, Louhinta, Proof of Work (PoW), Hahmofunktio, Lohkopalkkio, Lohkoketju, Pisin ketju, 51% hyökkäys, Lähtö, Lähdön lukitus, Muutos, Satoshit, Julkinen/Yksityinen avain, Osoite, Julkisen avaimen kryptografia, Digitaalinen allekirjoitus, Lompakko
+**Keskustelkaa ryhmässä joidenkin muiden termien merkityksestä:**
 
-# BTCPay Serverin esittely
+
+Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof of Work (PoW), Hash Funktio, Block reward, Blockchain, pisin ketju, 51% hyökkäys, ulostulo, ulostulon lukitus, muutos, Satoshi, julkinen/yksityinen avain, Address, julkisen avaimen salaus, digitaalinen allekirjoitus, Wallet
+
+
+# BTCPay-palvelimen esittely
+
 
 <partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
 
-## BTCPay Serverin kirjautumisnäkymän ymmärtäminen
+
+## BTCPay Serverin kirjautumisnäytön ymmärtäminen
+
 
 <chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
 
-### Työskentely BTCPay Serverin kanssa
 
-Tämän kurssiosan tavoitteena on ymmärtää yleisesti BTCPay Server -ohjelmiston toimintaa. Jaetussa ympäristössä suositellaan seuraamaan opettajan esittelyä ja seuraamaan mukana BTCPay Server -kurssikirjassa. Opit luomaan lompakon useilla eri menetelmillä. Esimerkkejä sisältävät Hot wallet -asetukset ja laitteistolompakot, jotka on yhdistetty BTCPay Server Vaultin kautta. Nämä tavoitteet tapahtuvat Demo-ympäristössä, joka näytetään ja johon pääsyn antaa kurssin opettaja.
+### Työskentely BTCPay-palvelimen kanssa
 
-Jos seuraat tätä kurssia itseksesi, voit löytää listan kolmannen osapuolen isännöijistä Demo-tarkoituksiin osoitteessa https://directory.btcpayserver.org/filter/hosts. Suosittelemme vahvasti välttämään näiden kolmannen osapuolen vaihtoehtojen käyttöä tuotantoympäristöinä, mutta ne palvelevat oikeita tarkoituksia Bitcoinin ja BTCPay Serverin käytön esittelyssä.
 
-BTCPay Server -kivijalkakoulutettavana sinulla saattaa olla aiempaa kokemusta Bitcoin-solmun asettamisesta. Tämä kurssi puhuu erityisesti BTCPay Server -ohjelmistopinosta.
+Tämän kurssikokonaisuuden tavoitteena on saada yleinen ymmärrys BTCPay Server -ohjelmistosta. Jaetussa ympäristössä on suositeltavaa seurata opettajan esittelyä ja tutustua BTCPay Server -kurssikirjaan, jotta voit seurata opettajan mukana. Opit luomaan Wallet:n useiden eri menetelmien avulla. Esimerkkeinä ovat Hot Wallet-asetukset ja BTCPay Server Vaultin kautta yhdistetyt laitteistolompakot. Nämä tavoitteet tapahtuvat demoympäristössä, joka on esillä ja johon kurssin opettajasi antaa pääsyn.
 
-Monet BTCPay Serverin vaihtoehdoista ovat olemassa jossain muodossa muissa Bitcoin-lompakko-ohjelmistoissa.
 
-### BTCPay Serverin kirjautumisnäyttö
+Jos seuraat tätä kurssia itse, löydät luettelon kolmannen osapuolen isännistä demotarkoituksiin osoitteesta https://directory.btcpayserver.org/filter/hosts. Emme suosittele käyttämään näitä kolmannen osapuolen vaihtoehtoja tuotantoympäristöinä, mutta ne palvelevat kuitenkin tarkoituksenmukaisesti Bitcoin:n ja BTCPay Serverin käytön esittelyä.
 
-Tervetuloa Demo-ympäristöön, sinua pyydetään 'Kirjautumaan sisään' tai 'Luomaan uusi tili'. Palvelimen ylläpitäjät voivat poistaa uusien tilien luomisen käytöstä turvallisuussyistä. BTCPay Serverin logoja ja painikkeiden värejä voidaan muuttaa, koska BTCPay Server on avoimen lähdekoodin ohjelmisto. Kolmas osapuoli voi White-label-ohjelmiston ja muuttaa koko ulkoasun.
 
-![kuva](assets/en/0.webp)
+BTCPay Server rockstar -harjoittelijana sinulla saattaa olla aiempaa kokemusta Bitcoin-solmun perustamisesta. Tämä kurssi on räätälöity erityisesti BTCPay Server -ohjelmistopinoa varten.
 
-### Tilin luomisen ikkuna
 
-Tilin luominen BTCPay Serveriin vaatii kelvollisen sähköpostiosoitteen; esimerkki@email.com olisi kelvollinen merkkijono sähköpostille.
+Monet BTCPay Serverin vaihtoehdoista ovat olemassa muodossa tai toisessa muissa Bitcoin Wallet-ohjelmistoissa.
 
-Salasanan on oltava vähintään 8 merkkiä pitkä, mukaan lukien kirjaimet, numerot ja merkit. Salasanan asettamisen jälkeen sinun on vahvistettava kirjoitettu salasana varmistaaksesi, että se on oikein verrattuna ensimmäiseen salasanakenttään kirjoitettuun.
-Kun sekä Sähköposti- että Salasana-kentät on täytetty oikein, klikkaa "Luo tili" -painiketta. Tämä tallentaa sähköpostin ja salasanan opettajan BTCPay Server -instanssiin.
-![image](assets/en/1.webp)
 
-**!Huomio!**
+### BTCPay-palvelimen kirjautumisnäyttö
 
-Jos seuraat tätä kurssia omatoimisesti, tilin luominen olisi jotain, mitä saatat tehdä kolmannen osapuolen isännöinnissä; siksi mainitsemme jälleen, ettei näitä tule käyttää tuotantoympäristöinä vaan ainoastaan koulutustarkoituksiin.
 
-### Tilin luominen BTCPay Serverin ylläpitäjän toimesta
+Kun sinut toivotetaan tervetulleeksi demoympäristöön, sinua pyydetään kirjautumaan tai luomaan tili Palvelimen ylläpitäjät voivat poistaa uusien tilien luomisen käytöstä turvallisuussyistä. BTCPay Serverin logoja ja painikkeiden värejä voidaan muuttaa, koska BTCPay Server on avoimen lähdekoodin ohjelmisto. Kolmannen osapuolen isäntä voi tehdä ohjelmistolle White label -merkinnän ja muuttaa koko ulkoasua.
 
-BTCPay Server -instanssin ylläpitäjä voi myös luoda tilejä BTCPay Serverille. BTCPay Server -instanssin ylläpitäjä voi klikata "Palvelimen Asetukset" (1), klikata "Käyttäjät"-välilehteä (2) ja klikata "+ Lisää käyttäjä" -painiketta (3) Käyttäjät-välilehden oikeassa yläkulmassa. Tavoitteessa (4.3) opit lisää ylläpitäjän hallinnasta Tileihin liittyen.
 
-![image](assets/en/2.webp)
+![image](assets/en/001.webp)
 
-Ylläpitäjänä tarvitset käyttäjän sähköpostiosoitteen ja asetat vakiosalasanan. On suositeltavaa, että ylläpitäjänä informoit käyttäjää, että heidän tulisi vaihtaa tämä salasana ennen tilin käyttöä turvallisuussyistä. Jos ylläpitäjä EI aseta Salasanaa ja SMTP on asetettu palvelimelle, käyttäjä saa sähköpostiin kutsulinkin, jolla he voivat luoda tilinsä ja asettaa salasanan itse.
+
+### Luo tili -ikkuna
+
+
+Tilien luominen BTCPay-palvelimella edellyttää kelvollisia Address-sähköposti-merkkijonoja; example@email.com olisi kelvollinen merkkijono sähköpostille.
+
+
+Salasanan on oltava vähintään 8 merkkiä pitkä, mukaan lukien kirjaimet, numerot ja merkit. Kun olet asettanut salasanan kerran, sinun on tarkistettava, että salasana on sama kuin ensimmäiseen salasanakenttään kirjoitettu salasana.
+
+
+Kun sekä sähköpostiosoite- että salasanakentät on täytetty oikein, napsauta Luo tili -painiketta. Tämä tallentaa sähköpostiosoitteen ja salasanan ohjaajan BTCPay-palvelimen instanssiin.
+
+
+![image](assets/en/002.webp)
+
+
+**!Huom!**
+
+
+Jos seuraat tätä kurssia itsenäisesti, tilin luominen tapahtuu todennäköisesti kolmannen osapuolen isännöimällä palvelimella, joten korostamme jälleen kerran, että näitä ei pidä käyttää tuotantoympäristöinä vaan ainoastaan koulutustarkoituksiin.
+
+
+### Tilin luominen BTCPay-palvelimen ylläpitäjän toimesta
+
+
+BTCPay-palvelininstanssin järjestelmänvalvoja voi myös luoda tilejä BTCPay-palvelimelle. BTCPay-palvelimen järjestelmänvalvoja voi napsauttaa "Palvelimen asetukset" (1), napsauttaa "Käyttäjät"-välilehteä (2) ja napsauttaa "+ Lisää käyttäjä" -painiketta (3) Käyttäjät-välilehden oikeassa yläkulmassa. Tavoitteessa (4.3) opit lisää tilien ylläpitäjän hallinnasta.
+
+
+![image](assets/en/003.webp)
+
+
+Järjestelmänvalvojana tarvitset käyttäjän sähköpostiosoitteen Address ja asetat vakiosalasanan. On suositeltavaa, että järjestelmänvalvoja ilmoittaa käyttäjälle, että hänen on vaihdettava tämä salasana ennen tilin käyttöä turvallisuussyistä. Jos järjestelmänvalvoja ei aseta salasanaa ja palvelimelle on määritetty SMTP, käyttäjä saa sähköpostiviestin, jossa on kutsulinkki tilin luomiseen ja salasanan asettamiseen itse.
+
 
 ### Esimerkki
 
-Kun seuraat kurssia opettajan johdolla, seuraa opettajan antamaa linkkiä ja luo tilisi tarjotussa Demo-ympäristössä. Varmista, että sähköpostiosoitteesi ja salasanasi ovat turvallisesti tallennettu; tarvitset nämä kirjautumistiedot loppukurssin demo-tavoitteisiin.
 
-Opettajasi on saattanut kerätä sähköpostiosoitteen etukäteen ja lähettänyt kutsulinkin ennen tätä harjoitusta. Jos näin on ohjeistettu, tarkista sähköpostisi.
+Kun seuraat kurssia opettajan kanssa, seuraa opettajan antamaa linkkiä ja luo tilisi demoympäristöön. Varmista, että sähköpostiosoitteesi Address ja salasanasi on tallennettu turvallisesti; tarvitset näitä kirjautumistietoja kurssin lopuissa demotavoitteissa.
 
-Kun otat kurssin ilman opettajaa, luo tilisi käyttäen BTCPay Serverin demo-ympäristöä; mene osoitteeseen
 
-https://mainnet.demo.btcpayserver.org/login.
+Kouluttajasi on saattanut kerätä Address-sähköpostin etukäteen ja lähettää kutsulinkin ennen tätä harjoitusta. Tarkista sähköpostiosoitteesi, jos sinua on ohjeistettu.
 
-Tätä tiliä tulisi käyttää ainoastaan demonstraatio-/koulutustarkoituksiin eikä koskaan liiketoimintaan.
 
-### Taitojen Yhteenveto
+Kun osallistut kurssille ilman ohjaajaa, luo tilisi BTCPay Server -demoympäristön avulla; siirry osoitteeseen
 
-Tässä osiossa opit seuraavat asiat:
 
-- Miten luoda tili isännöidylle palvelimelle käyttöliittymän kautta.
-- Miten palvelimen ylläpitäjä voi manuaalisesti lisätä käyttäjiä palvelimen asetuksissa.
+https://Mainnet.demo.btcpayserver.org/login.
 
-### Tiedon arviointi
 
-#### KA Konseptuaalinen katsaus
+Tätä tiliä tulisi käyttää vain esittely- ja koulutustarkoituksiin eikä koskaan liiketoimintaan.
 
-Anna syitä, miksi Demo-palvelimen käyttäminen tuotantotarkoituksiin on huono idea.
 
-## Käyttäjätilin hallinta
+### Taitojen yhteenveto
+
+
+Tässä jaksossa opit seuraavat asiat:
+
+
+
+- Kuinka luoda tili isännöidylle palvelimelle Interface:n kautta.
+- Miten palvelimen ylläpitäjä voi lisätä käyttäjiä manuaalisesti palvelimen asetuksissa.
+
+
+### Tietojen arviointi
+
+
+#### KA Käsitteellinen tarkastelu
+
+
+Anna syitä siihen, miksi demopalvelimen käyttö tuotantotarkoituksiin on huono ajatus.
+
+
+## Käyttäjätilien hallinta
+
 
 <chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
 
-### Tilinhallinta BTCPay Serverissä
 
-Kun kaupan omistaja on luonut tilinsä, hän voi hallita sitä BTCPay Serverin käyttöliittymän vasemmassa alakulmassa. Tilinapin alla on useita korkeamman tason asetuksia.
+### Tilinhallinta BTCPay-palvelimella
 
-- Tumma/Vaalea tila.
+
+Kun myymälän omistaja on luonut tilinsä, hän voi hallita sitä BTCPay-palvelimen käyttöliittymän vasemmassa alareunassa. Tili-painikkeen alapuolella on useita korkeamman tason asetuksia.
+
+
+
+- Tumma/valo-tila.
 - Piilota arkaluonteiset tiedot -vaihtoehto.
 - Hallitse tiliä.
 
-![image](assets/en/3.webp)
 
-### Tumma ja Vaalea tila
+![image](assets/en/004.webp)
 
-BTCPay Serverin käyttäjät voivat valita käyttöliittymän Tumman tai Vaalean version. Asiakkaalle näkyvät sivut eivät muutu. Ne käyttävät asiakkaan suosimia asetuksia tumman tai vaalean tilan suhteen.
 
-### Piilota arkaluonteiset tiedot -vaihtoehto
+### Tumma ja vaalea tila
 
-Piilota arkaluonteiset tiedot -painike tuo nopean ja yksinkertaisen turvallisuustason. Kun sinun tarvitsee käyttää BTCPay Serveriäsi, mutta ympärilläsi saattaa olla ihmisiä kurkkimassa olkapääsi yli julkisessa tilassa, kytke päälle Piilota arkaluonteiset tiedot, ja kaikki arvot BTCPay Serverissä piilotetaan. Joku saattaa pystyä kurkkimaan olkapääsi yli, mutta ei enää näe käsittelemiäsi arvoja.
+
+BTCPay Serverin käyttäjät voivat valita käyttöliittymän vaalean tai tumman tilan version. Asiakaskohtaiset sivut eivät muutu. Ne käyttävät asiakkaan suosimia asetuksia tumman tai vaalean tilan osalta.
+
+
+### Piilota arkaluonteiset tiedot Toggle
+
+
+Piilota arkaluonteiset tiedot -painike tarjoaa nopean ja yksinkertaisen Layer-suojauksen. Aina kun sinun on käytettävä BTCPay Serveriäsi, mutta ihmiset saattavat väijyä olkapääsi yli julkisessa tilassa, kytke Hide Sensitive Info päälle, ja kaikki BTCPay Serverin arvot ovat piilossa. Joku voi ehkä katsoa olkapääsi yli, mutta ei voi enää nähdä arvoja, joita käsittelet.
+
 
 ### Hallitse tiliä
 
-Kun käyttäjätili on luotu, tässä on paikka hallita salasanoja, kaksivaiheista tunnistautumista tai API-avaimia.
 
-### Hallinnoi tiliä - Tili
+Kun käyttäjätili on luotu, tässä voit hallita salasanoja, 2FA:ta tai API-avaimia.
 
-Voit halutessasi päivittää tilisi eri sähköpostiosoitteella. Varmistaaksesi sähköpostiosoitteesi oikeellisuuden, BTCPay Server mahdollistaa varmistussähköpostin lähettämisen. Klikkaa tallenna, jos käyttäjä asettaa uuden sähköpostiosoitteen ja vahvistaa varmistuksen toimineen. Käyttäjänimi pysyy samana kuin aiempi sähköposti.
 
-Käyttäjä voi päättää poistaa koko tilinsä. Tämän voi tehdä klikkaamalla poista-painiketta Tilin-välilehdellä.
+### Tilin hallinta - Tili
 
-![kuva](assets/en/4.webp)
+
+Voit päivittää tilisi eri sähköpostiosoitteella Address. Varmistaaksesi, että sähköpostiosoitteesi Address on oikea, BTCPay Server antaa sinun lähettää vahvistussähköpostin. Napsauta Tallenna, jos käyttäjä asettaa uuden sähköpostiosoitteen Address ja vahvistaa, että vahvistus toimi. Käyttäjätunnus pysyy samana kuin edellisessä sähköpostissa.
+
+
+Käyttäjä voi päättää poistaa koko tilinsä. Tämä voidaan tehdä napsauttamalla Tili-välilehden Poista-painiketta.
+
+
+![image](assets/en/005.webp)
+
 
 **!Huom!**
 
-Sähköpostin vaihtamisen jälkeen tilin käyttäjänimi ei muutu. Aiemmin annettu sähköpostiosoite säilyy kirjautumisnimenä.
 
-### Hallinnoi tiliä - Salasana
+Sähköpostin vaihtamisen jälkeen tilin käyttäjänimi ei muutu. Aiemmin annettu sähköpostiosoite Address pysyy kirjautumisnimenä.
 
-Opiskelija saattaa haluta vaihtaa salasanansa. Hän voi tehdä tämän menemällä Salasana-välilehdelle. Täällä hänen on kirjoitettava vanha salasanansa ja hän voi vaihtaa sen uuteen.
 
-![kuva](assets/en/5.webp)
+### Tilin hallinta - Salasana
 
-### Kaksivaiheinen tunnistautuminen (2fa)
 
-Rajoittaaksesi varastetun salasanan seurauksia, voit käyttää kaksivaiheista tunnistautumista (2fa), suhteellisen uutta turvallisuusmenetelmää. Voit aktivoida kaksivaiheisen tunnistautumisen Hallinnoi tiliä -kohdasta ja kaksivaiheisen tunnistautumisen välilehdeltä. Sinun on suoritettava toinen vaihe kirjautumisen jälkeen käyttäjänimelläsi ja salasanallasi.
+Opiskelija voi haluta vaihtaa salasanansa. Hän voi tehdä sen menemällä Salasana-välilehdelle. Täällä hänen on kirjoitettava vanha salasanansa ja vaihdettava se uuteen.
 
-BTCPay Server mahdollistaa 2FA:n käyttöönoton kahdella tavalla, sovelluspohjainen 2FA (Authy, Google, Microsoft autentikaattorit) tai turvalaitteiden kautta (FIDO2 tai LNURL Auth).
 
-### Kaksivaiheinen tunnistautuminen - Sovelluspohjainen
+![image](assets/en/006.webp)
 
-Mobiililaitteesi käyttöjärjestelmän (Android tai iOS) perusteella käyttäjät voivat valita seuraavista sovelluksista;
 
-1. Lataa kaksivaiheinen autentikaattori;
-   - Authy [Androidille](https://play.google.com/store/apps/details?id=com.authy.authy) tai [iOS:lle](https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator [Androidille](https://play.google.com/store/apps/details?id=com.azure.authenticator) tai [iOS:lle](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
-   - Google Authenticator [Androidille](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) tai [iOS:lle](https://apps.apple.com/us/app/google-authenticator/id388497605)
-2. Sovelluksen lataamisen ja asentamisen jälkeen.
-   - Skannaa BTCPay Serverin tarjoama QR-koodi
-   - Tai syötä BTCPay Serverin generoima avain manuaalisesti autentikaattorisovellukseesi.
-3. Autentikaattorisovellus tarjoaa sinulle uniikin koodin. Syötä uniikki koodi BTCPay Serveriin varmistaaksesi asetuksen, ja klikkaa vahvista suorittaaksesi prosessin loppuun.
+### Kaksitekijätodennus (2fa)
 
-![kuva](assets/en/6.webp)
+
+Voit rajoittaa varastetun salasanan seurauksia käyttämällä kaksitekijätodennusta (2FA), joka on suhteellisen uusi tietoturvamenetelmä. Voit aktivoida kaksitekijätodennuksen Hallitse tiliä ja Kaksitekijätodennus-välilehden kautta. Sinun on suoritettava toinen vaihe kirjauduttuasi sisään käyttäjätunnuksella ja salasanalla.
+
+
+BTCPay Server tukee kahta menetelmää 2FA:n käyttöönottoon: sovelluspohjainen 2FA (Authy, Google, Microsoft Authenticators) tai turvalaitteiden kautta (FIDO2 tai LNURL Auth).
+
+
+### Kaksitekijätodennus - sovelluspohjainen
+
+
+Matkapuhelimen käyttöjärjestelmän (Android tai iOS) mukaan käyttäjät voivat valita seuraavista sovelluksista;
+
+
+1. Lataa kahden tekijän todennusohjelma.
+
+
+   - Authy for [Android](https://play.google.com/store/apps/details?id=com.authy.authy) tai [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator for [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) tai [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Google Authenticator for [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) tai [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
+
+2. Kun olet ladannut ja asentanut Authenticator-sovelluksen.
+
+
+   - Skannaa BTCPay-palvelimen tarjoama QR-koodi
+   - Tai syötä BTCPay-palvelimen luoma avain manuaalisesti Authenticator-sovellukseesi.
+
+3. Authenticator-sovellus antaa sinulle yksilöllisen koodin. Kirjoita yksilöllinen koodi BTCPay Serveriin vahvistaaksesi asetukset ja napsauta vahvista saadaksesi prosessin päätökseen.
+
+
+![image](assets/en/007.webp)
+
 
 ### Taitojen yhteenveto
 
-Tässä osiossa opit seuraavat asiat:
 
-- Tilinhallintavaihtoehdot ja erilaiset tavat hallita tiliä BTCPay Server -instanssissa.
-- Miten asettaa sovelluspohjainen 2FA.
+Tässä jaksossa opit seuraavat asiat:
 
-### Tiedon arviointi
 
-#### KA Konseptuaalinen katsaus
 
-Kuvaile, miten sovelluspohjainen 2FA auttaa turvaamaan tilisi
+- Tilinhallintavaihtoehdot ja eri tavat hallita tiliä BTCPay Server -instanssissa.
+- Sovelluspohjaisen 2FA:n määrittäminen.
 
-## Luo uusi kauppa
+
+### Tietojen arviointi
+
+
+#### KA Käsitteellinen tarkastelu
+
+
+Kuvaile, miten sovelluspohjainen 2FA auttaa turvaamaan tilisi.
+
+
+## Uuden myymälän luominen
+
 
 <chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
 
-### Luo kauppasi velho
 
-Kun uusi käyttäjä kirjautuu sisään BTCPay Serveriin, ympäristö on tyhjä ja tarvitsee ensimmäisen kaupan. BTCPay Serverin käyttöönotto-opas antaa käyttäjälle mahdollisuuden ’Luo kauppasi’ (1). Kauppaa voidaan pitää Kotina Bitcoin-tarpeillesi. Uusi BTCPay Server Node aloittaa Synkronoimalla Bitcoin-lohkoketjun (2). Riippuen siitä, millä infrastruktuurilla ajat BTCPay Serveria, tämä voi kestää muutamasta tunnista muutamaan päivään. Instanssin nykyinen versio näkyy BTCPay Serverin käyttöliittymän oikeassa alakulmassa. Tämä on hyödyllistä viitteenä vianmäärityksessä.
-![kuva](assets/en/7.webp)
+### Luo ohjattu myymälä
 
-### Luo kauppasi -opas
 
-Tämän kurssin seuraaminen alkaa hieman erilaiselta näytöltä kuin edellisellä sivulla. Koska ohjaajasi on valmistellut Demo-ympäristön, Bitcoin-lohkoketju on synkronoitu etukäteen, ja siksi et näe noden synkronointitilaa.
+Kun uusi käyttäjä kirjautuu BTCPay-palvelimeen, ympäristö on tyhjä ja tarvitsee ensimmäisen tallennuksen. BTCPay Serverin ohjatun käyttöönoton yhteydessä käyttäjälle annetaan mahdollisuus "Luo myymälä" (1). Storea voidaan pitää Bitcoin-tarpeiden kotina. Uusi BTCPay Server Node aloittaa synkronoimalla Bitcoin Blockchain:n (2). Riippuen siitä, millaisessa infrastruktuurissa käytät BTCPay Serveriä, tämä voi kestää muutamasta tunnista muutamaan päivään. Instanssin nykyinen versio näkyy BTCPay Server -käyttöliittymän oikeassa alakulmassa. Tämä on hyödyllinen viite vianmäärityksessä.
 
-Käyttäjä voi päättää poistaa koko tilinsä. Tämä voidaan tehdä napsauttamalla poista-painiketta Tilivälilehdellä.
 
-![kuva](assets/en/8.webp)
+![image](assets/en/008.webp)
+
+
+### Luo ohjattu myymälä
+
+
+Tämän kurssin seuraaminen alkaa hieman erilaisella näytöllä kuin edellisellä sivulla. Koska ohjaajasi on valmistellut demoympäristön, Bitcoin Blockchain on synkronoitu aiemmin, ja siksi et näe solmujen synkronointitilaa.
+
+
+Käyttäjä voi päättää poistaa koko tilinsä. Tämä voidaan tehdä napsauttamalla Tili-välilehden Poista-painiketta.
+
+
+![image](assets/en/009.webp)
+
 
 **!Huom!**
 
-BTCPay Server -tilit voivat luoda rajattoman määrän kauppoja. Jokainen kauppa on lompakko tai ”koti”.
+
+BTCPay Server -tileillä voi luoda rajattoman määrän kauppoja. Jokainen myymälä on Wallet tai "koti".
+
 
 ### Esimerkki
 
-Aloita napsauttamalla "Luo kauppasi".
 
-![kuva](assets/en/9.webp)
+Aloita klikkaamalla "Luo myymälä".
 
-Tämä luo ensimmäisen Kotisi ja hallintapaneelin BTCPay serverin käyttöön.
 
-(1) Napsautettuasi "Luo kauppasi", BTCPay Server vaatii sinua nimeämään kaupan; tämä voi olla mikä tahansa sinulle hyödyllinen.
+![image](assets/en/010.webp)
 
-![kuva](assets/en/10.webp)
 
-(2) Seuraavaksi on asetettava oletuskaupan valuutta, joko fiat-valuutta tai Bitcoin / Sats -standardiin nimetty. Demoympäristössä asetamme sen USD:ksi.
+Tämä luo ensimmäisen kotisi ja kojelautasi BTCPay Serverin käyttöä varten.
 
-![kuva](assets/en/11.webp)
 
-(3) Viimeisenä parametrina kaupan asetuksissa, BTCPay Server vaatii sinua asettamaan "Suosituin hintalähde" vertaamaan Bitcoinin hintaa nykyiseen fiat-hintaan, jotta kauppasi näyttää oikean vaihtokurssin Bitcoinin ja kaupassa asetetun fiat-valuutan välillä. Pysymme oletuksessa Demoesimerkissä ja asetamme tämän Kraken-vaihtoon. BTCPay Server käyttää Krakenin API:a tarkistaakseen vaihtokurssit.
+(1) Kun olet napsauttanut "Luo myymälä", BTCPay Server pyytää sinua nimeämään myymälän; tämä voi olla mikä tahansa sinulle hyödyllinen nimi.
 
-![kuva](assets/en/12.webp)
 
-(4) Nyt kun nämä kaupan parametrit on asetettu, napsauta Luo-painiketta, ja BTCPay Server luo ensimmäisen kauppasi hallintapaneelin, jossa opas jatkuu.
+![image](assets/en/011.webp)
 
-![kuva](assets/en/13.webp)
 
-Onnittelut, olet luonut ensimmäisen kauppasi, ja tämä päättää tämän harjoituksen.
+(2) Seuraavaksi on asetettava oletusarvoinen myymälävaluutta, joko fiat-valuutta tai Bitcoin- tai Sats-valuutta. Demoympäristöä varten asetamme sen arvoksi USD.
 
-![kuva](assets/en/14.webp)
 
-### Taitojen Yhteenveto
+![image](assets/en/012.webp)
 
-Tässä osiossa opit:
 
-- Kaupan luomisen ja oletusvaluutan määrittämisen yhdistettynä hintalähteen asetusten kanssa.
-- Jokainen "Kauppa" on uusi koti erillään muista tämän BTCPay Server -asennuksen kaupoista.
+(3) Viimeisenä parametrina myymälän asetuksissa BTCPay Server edellyttää, että asetat "Preferred price source" (Suositeltava hintalähde), jotta voit verrata Bitcoin:n hintaa nykyiseen fiat-hintaan, jotta myymälässäsi näkyy oikea Exchange-kurssi Bitcoin:n ja myymälän asettaman fiat-valuutan välillä. Me pysymme demoesimerkissä oletusarvossa ja asetamme tämän Krakenin Exchange:ksi. BTCPay Server käyttää Krakenin API:ta Exchange-kurssien tarkistamiseen.
 
-# Johdanto Bitcoin-avainten Turvaamiseen
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+![image](assets/en/013.webp)
 
-## Ymmärrys Bitcoin-avainten Luomisesta
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+(4) Nyt kun nämä myymälän parametrit on asetettu, napsauta Luo-painiketta, jolloin BTCPay Server luo ensimmäisen myymälän kojelaudan, jossa ohjattu toiminto jatkuu.
 
-### Mitä bitcoin-avainten luomiseen sisältyy?
 
-Bitcoin-lompakot, kun ne luodaan, luovat niin kutsutun "siemenen". Viimeisessä tavoitteessa loit "siemenen", Sarja sanoja, jotka on luotu aiemmin, tunnetaan myös nimellä mnemoniset lauseet. Siementä käytetään johdattamaan yksittäisiä Bitcoin-avaimia ja käytetään Bitcoinin lähettämiseen tai vastaanottamiseen. Siemenlauseita ei koskaan tulisi jakaa kolmansien osapuolien tai luottamattomien vertaisten kanssa.
-Siemenluonti suoritetaan teollisuusstandardin mukaisesti, joka tunnetaan nimellä "Hierarkkinen Deterministinen" (HD) kehys.
-![kuva](assets/en/15.webp)
+![image](assets/en/014.webp)
 
-### Osoitteet
 
-BTCPay Server on suunniteltu luomaan uusi Osoite. Tämä lievittää julkisen avaimen tai Osoitteen uudelleenkäytön ongelmaa. Saman Julkisen avaimen käyttäminen tekee koko maksuhistoriasi seuraamisen erittäin helpoksi. Avainten ajatteleminen kertakäyttöisinä kuponkeina parantaisi merkittävästi yksityisyyttäsi. Käytämme myös Bitcoin Osoitteita, älä sekoita näitä Julkisiin avaimiin.
+Onneksi olkoon, olet luonut ensimmäisen kauppasi, ja tämä päättää tämän harjoituksen.
 
-Osoite johdetaan Julkisesta avaimesta "hashing-algoritmin" kautta. Useimmat lompakot ja transaktiot kuitenkin näyttävät Osoitteita näiden julkisten avainten sijaan. Osoitteet ovat yleensä lyhyempiä kuin julkiset avaimet ja alkavat yleensä `1`, `3`, tai `bc1`, kun taas julkiset avaimet alkavat `02`, `03`, tai `04`.
 
-- Osoitteet, jotka alkavat `1.....`, ovat edelleen hyvin yleisiä osoitteita. Kuten luvussa Uuden kaupan luominen mainittiin, nämä ovat perintöosoitteita. Tämä osoitetyyppi on tarkoitettu P2PKH-transaktioille. P2Pkh käyttää Base58-koodausta, mikä tekee osoitteesta kirjainkoosta riippuvaisen. Sen rakenne perustuu julkiseen avaimen lisäksi yhteen tunnisteena toimivaan numeroon.
+![image](assets/en/015.webp)
 
-- Osoitteet, jotka alkavat `bc1...`, ovat hitaasti siirtymässä hyvin yleisiksi osoitteiksi. Näitä kutsutaan (natiiveiksi) SegWit Osoitteiksi. Nämä tarjoavat paremman maksurakenteen kuin muut mainitut Osoitteet. Natiivit SegWit Osoitteet käyttävät Bech32-koodausta ja sallivat vain pienet kirjaimet.
-
-- Osoitteet, jotka alkavat `3...`, ovat yleisesti edelleen käytössä vaihtoalustoilla talletusosoitteina. Näitä osoitteita mainitaan luvussa Uuden kaupan luominen, käärittyinä tai sisäkkäisinä SegWit-osoitteina. Ne voivat kuitenkin toimia myös "Multisig Osoitteena". Kun niitä käytetään SegWit-osoitteena, transaktiomaksuissa on jälleen säästöjä, vaikkakin vähemmän kuin Natiivissa SegWitissä. P2SH Osoitteet käyttävät Base58-koodausta. Tämä tekee niistä kirjainkoosta riippuvaisia, kuten perintöosoite.
-
-- Osoitteet, jotka alkavat `2...`, ovat Testnet-osoitteita. Ne on tarkoitettu vastaanottamaan testnet bitcoinia (tBTC). Sinun ei pitäisi koskaan sekoittaa näitä ja lähettää Bitcoineja näihin osoitteisiin. Kehitystarkoituksiin voit luoda testnet-lompakon. Verkossa on useita hanoja, joista saa testnet Bitcoinia. Älä koskaan osta Testnet Bitcoinia. Testnet Bitcoinia louhitaan. Tämä saattaa olla syy kehittäjälle käyttää Regtestiä sen sijaan. Tämä on kehittäjille tarkoitettu leikkikenttäympäristö, josta puuttuu tiettyjä verkkokomponentteja. Bitcoin on kuitenkin kehitystarkoituksiin erittäin hyödyllinen.
-
-### Julkiset Avaimet
-
-Julkisia avaimia käytetään käytännössä nykyään vähemmän. Ajan myötä bitcoinin käyttäjät ovat korvanneet ne Osoitteilla. Ne kuitenkin edelleen ovat olemassa ja niitä käytetään satunnaisesti. Julkiset avaimet ovat yleensä paljon pidempiä merkkijonoja kuin osoitteet. Kuten osoitteidenkin kohdalla, ne alkavat tietyllä tunnisteella.
-
-- Ensinnäkin, `02...` ja `03...` ovat hyvin standardoituja julkisen avaimen tunnisteita, jotka on koodattu SEC-muodossa. Näitä voidaan käsitellä ja muuntaa osoitteiksi vastaanottoa varten, käyttää luomaan multi-sig osoitteita tai varmentamaan allekirjoituksen. Bitcoinin alkuaikojen transaktiot käyttivät julkisia avaimia osana P2PK-transaktioita.
-
-- HD-lompakot käyttävät kuitenkin erilaista rakennetta. `xpub...`, `ypub...` tai `zpub...` kutsutaan laajennetuiksi julkisiksi avaimiksi, yleisemmin xpubiksi. Näitä avaimia käytetään johdettujen julkisten avainten luomiseen, koska ne ovat osa HD-lompakkoa. Koska xpubisi pitää kirjaa koko historiastasi, tarkoittaen menneitä ja tulevia transaktioita, älä jaa näitä luotettomien osapuolien kanssa.
-
-### Taitoyhteenveto
-
-Tässä osiossa opit seuraavat:
-
-- Eroavaisuudet osoitteiden ja julkisen avaimen tietotyyppien välillä sekä osoitteiden käytön hyödyt julkisiin avaimiin verrattuna.
-
-### Tietämyksen arviointi
-
-Kuvaile tuoreiden osoitteiden käytön hyötyä jokaiselle transaktiolle verrattuna osoitteen uudelleenkäyttöön tai julkisen avaimen menetelmiin
-
-## Avainten turvaaminen laitteistolompakolla
-
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
-
-### Bitcoin-avainten säilyttäminen
-
-Siemenlauseen luomisen jälkeen, 12 - 24 sanasta koostuva lista, joka tässä kirjassa on luotu, vaatii asianmukaiset varmuuskopiot ja turvatoimet, sillä nämä sanat ovat ainoa tapa palauttaa pääsy lompakkoon. HD-lompakoiden rakenne ja se, miten se deterministisesti luo osoitteita käyttäen tätä yhtä siementä, kaikki luomasi osoitteet varmuuskopioidaan käyttäen tätä yhtä mnemonic-sanojen listaa, joka edustaa siemen- tai palautusfraasia.
-
-Pidä palautusfraasisi turvassa. Jos joku pääsee siihen käsiksi, erityisesti pahantahtoisesti, he voivat siirtää varojasi. Siemenen pitäminen turvassa ja muistaminen ovat toisilleen yhteisiä. Bitcoinin yksityisavainten säilyttämiseen on useita menetelmiä, joilla kullakin on etuja ja haittoja, joko turvallisuuden, yksityisyyden, mukavuuden tai fyysisten keinojen osalta. Yksityisavainten tärkeyden vuoksi bitcoinin käyttäjät yleensä säilyttävät ja pitävät näitä avaimia turvallisesti "omassa hallussaan" käyttämättä "huoltajapalveluita" kuten pankkeja. Käyttäjästä riippuen hänen on käytettävä joko kylmäsäilytysratkaisua tai kuumaa lompakkoa.
-
-### Kuuman ja kylmän säilytyksen bitcoin-avaimet
-
-Yleensä bitcoin-lompakot jaetaan Kuumaan Lompakkoon tai Kylmään Lompakkoon. Useimmat kompromissit liittyvät mukavuuteen, käytön helppouteen ja turvallisuusriskiin. Kukin näistä menetelmistä voidaan nähdä myös huoltajapalvelun ratkaisussa. Kuitenkin kompromissit tässä ovat enimmäkseen turvallisuuteen ja yksityisyyteen liittyviä ja menevät tämän kurssin soveltamisalan ulkopuolelle.
-
-### Kuuma lompakko
-
-Kuumat lompakot ovat kätevin tapa olla vuorovaikutuksessa Bitcoinin kanssa mobiilin, verkon tai työpöytäohjelmiston kautta. Lompakko on aina yhteydessä internetiin, mikä mahdollistaa käyttäjien lähettää tai vastaanottaa Bitcoinia. Tämä on kuitenkin myös sen heikkous, sillä lompakko, koska se on aina verkossa, on nyt alttiimpi hyökkäyksille hakkerien tai laitteeseesi kohdistuvan haittaohjelman toimesta. BTCPay Serverissä kuumat lompakot säilyttävät yksityiset avaimet instanssissa. Kuka tahansa, joka pääsee käsiksi BTCPay Serverin kauppaasi, voisi varastaa varoja tästä osoitteesta, jos on pahantahtoinen. Kun BTCPay Server toimii isännöidyssä ympäristössä, sinun tulisi aina ottaa tämä huomioon turvallisuusprofiilissasi ja mieluiten ei käyttää Kuuma-lompakkoa tällaisessa tapauksessa. Kun BTCPay Server on asennettu omalle laitteistolle, jonka olet turvannut ja johon luotat, riskiprofiili laskee merkittävästi, mutta se ei koskaan katoa!
-
-### Kylmä lompakko
-
-Ihmiset siirtävät Bitcoininsa kylmään lompakkoon, koska se voi eristää yksityiset avaimet internetistä. Internet-yhteyden poistaminen yhtälöstä vähentää haittaohjelmien, vakoiluohjelmien ja SIM-vaihtojen riskiä. Kylmäsäilytystä pidetään turvallisempana kuin kuumaa säilytystä turvallisuuden ja autonomian osalta, kunhan riittävät varotoimet otetaan käyttöön välttääkseen Bitcoinin yksityisavainten menettämisen. Kylmäsäilytys sopii parhaiten suurille Bitcoin-määrille, joita ei ole tarkoitus käyttää usein lompakon asetuksen monimutkaisuuden vuoksi.
-
-On olemassa erilaisia menetelmiä, miten säilyttää Bitcoin-avaimia kylmäsäilytyksessä, paperilompakoista aivolompakoihin, laitteistolompakoihin tai, alusta alkaen, lompakkotiedostoon. Useimmat lompakot käyttävät BIP 39:ää siemenlauseen luomiseen. Kuitenkin Bitcoin-ydinohjelmistossa ei ole vielä päästy yksimielisyyteen sen käytöstä. Bitcoin Core -ohjelmisto luo edelleen Wallet.dat-tiedoston, jonka sinun on säilytettävä turvallisessa offline-sijainnissa.
 
 ### Taitojen yhteenveto
 
-Tässä osiossa opit:
 
-- Eroavaisuudet kuumien ja kylmien lompakoiden välillä toiminnallisuuden ja niiden kompromissien osalta.
-- Mikä on lompakko?
-- Mikä on ero kuumien ja kylmien lompakoiden välillä?
+Tässä jaksossa opit:
 
-- Kuvaile, mitä tarkoitetaan "lompakon luomisella"?
 
-## Käyttäen Bitcoin-avaimiasi
+
+- Kaupan luominen ja oletusvaluutan määrittäminen yhdistettynä hintalähdeasetuksiin.
+- Jokainen "Store" on uusi koti, joka on erotettu muista BTCPay Serverin asennuksen myymälöistä.
+
+
+# Johdanto Bitcoin-avaimien suojaamiseen
+
+
+<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+
+
+## Bitcoin-avainten tuottamisen ymmärtäminen
+
+
+<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+
+
+### Mitä Bitcoin-avainten tuottamiseen liittyy?
+
+
+Bitcoin-lompakot luovat luodessaan niin sanotun "seed:n". Viimeisessä tavoitteessa luot "seed", Ennen luotu sanasarja tunnetaan myös nimellä Mnemonic-lauseet. seed:tä käytetään yksittäisten Bitcoin-avainten tuottamiseen ja sitä käytetään Bitcoin:n lähettämiseen tai vastaanottamiseen. seed-lauseita ei saa koskaan jakaa kolmansille osapuolille tai epäluotettaville vertaisille.
+
+
+seed:n sukupolvi tuotetaan teollisuusstandardin mukaisesti, joka tunnetaan nimellä "hierarkkinen deterministinen" (HD) kehys.
+
+
+![image](assets/en/016.webp)
+
+
+### Osoitteet
+
+
+BTCPay-palvelin on rakennettu generate:lle ja uudelle Address:lle. Tämä helpottaa julkisen avaimen tai Address:n uudelleenkäytön ongelmaa. Saman julkisen avaimen käyttäminen tekee koko maksuhistoriasi seuraamisesta erittäin helppoa. Avainten ajatteleminen kertakäyttöisinä tositteina parantaisi yksityisyyttäsi huomattavasti. Käytämme myös Bitcoin-osoitteita, mutta älä sekoita niitä julkisiin avaimiin.
+
+
+Address johdetaan julkisesta avaimesta "hashausalgoritmin" avulla Useimmat lompakot ja transaktiot näyttävät kuitenkin Osoitteet eikä näitä julkisia avaimia. Osoitteet ovat yleensä lyhyempiä kuin julkiset avaimet, ja ne alkavat yleensä kirjaimilla `1`, `3` tai `bc1`, kun taas julkiset avaimet alkavat kirjaimilla `02`, `03` tai `04`.
+
+
+
+- Osoitteet, jotka alkavat `1.....`, ovat edelleen hyvin yleisiä osoitteita. Kuten luvussa "Uuden kaupan luominen" mainittiin, nämä ovat vanhoja osoitteita. Tämä Address-tyyppi on tarkoitettu P2PKH-tapahtumiin. P2Pkh käyttää Base58-koodausta, mikä tekee Address:stä suur- ja pienaakkoset huomioivan. Sen rakenne perustuu julkiseen avaimeen, jossa on lisänumero tunnisteena.
+
+
+
+- Osoitteet, jotka alkavat sanoilla `bc1...`, ovat hitaasti siirtymässä hyvin yleisiin osoitteisiin. Näitä kutsutaan (natiiveiksi) SegWit-osoitteiksi. Nämä tarjoavat paremman maksurakenteen kuin muut mainitut osoitteet. Natiivit SegWit-osoitteet käyttävät Bech32-koodausta ja sallivat vain pienet kirjaimet.
+
+
+
+- Osoitteet, jotka alkavat kirjaimella `3...`, ovat edelleen yleisesti käytössä pörsseissä talletusosoitteina. Nämä osoitteet mainitaan luvussa "Uuden myymälän luominen", käärityt tai sisäkkäiset SegWit-osoitteet. Ne voivat kuitenkin toimia myös "Multisig Address" -osoitteina. SegWit Address -osoitteena käytettynä saadaan jonkin verran säästöjä transaktiomaksuissa, mutta vähemmän kuin natiivissa SegWit:ssä. P2SH-osoitteissa käytetään Base58-koodausta. Tämä tekee siitä tapauskohtaisesti herkän, kuten vanhasta Address:stä.
+
+
+
+- Osoitteet, jotka alkavat kirjaimella `2...`, ovat Testnet-osoitteita. Ne on tarkoitettu vastaanottamaan Testnet Bitcoin (tBTC). Älä koskaan sekoita tätä ja lähetä Bitcoin:a näihin osoitteisiin. Kehitystarkoituksiin voit käyttää generate Testnet Wallet. Verkossa on useita hanoja Testnet Bitcoin:n saamiseksi. Älä koskaan osta Testnet Bitcoin. Testnet Bitcoin on louhittu. Tämä saattaa olla kehittäjälle syy käyttää sen sijaan Regtestiä. Tämä on kehittäjille tarkoitettu leikkiympäristö, josta puuttuvat tietyt verkkokomponentit. Bitcoin on kuitenkin erittäin hyödyllinen kehitystarkoituksiin.
+
+
+### Julkiset avaimet
+
+
+Julkisia avaimia käytetään nykyään käytännössä harvemmin. Bitcoin-käyttäjät ovat ajan myötä korvanneet ne osoitteilla. Niitä on kuitenkin edelleen olemassa, ja niitä käytetään edelleen satunnaisesti. Julkiset avaimet ovat yleensä paljon pidempiä merkkijonoja kuin osoitteet. Kuten osoitteetkin, ne alkavat tietyllä tunnisteella.
+
+
+
+- Ensinnäkin `02...` ja `03...` ovat hyvin vakiomuotoisia SEC-muotoon koodattuja julkisen avaimen tunnuksia. Niitä voidaan käsitellä ja muuttaa vastaanotto-osoitteiksi, käyttää multi-sig-osoitteiden luomiseen tai allekirjoituksen tarkistamiseen. Varhaisvaiheen Bitcoin-tapahtumissa käytettiin julkisia avaimia osana P2PK-tapahtumia.
+
+
+
+- HD-lompakoissa käytetään kuitenkin erilaista rakennetta. `xpub...`, `ypub...` tai `zpub...` kutsutaan laajennetuiksi julkisiksi avaimiksi eli xpubs. Näitä avaimia käytetään monien julkisten avainten johtamiseen osana HD Wallet:ää. Koska xpub-avaimesi sisältää koko historiasi eli aiemmat ja tulevat tapahtumat, älä koskaan jaa niitä epäluotettaville osapuolille.
+
+
+### Taitojen yhteenveto
+
+
+Tässä jaksossa opit seuraavat asiat:
+
+
+
+- Osoitteiden ja julkisten avainten tietotyyppien väliset erot ja edut, joita osoitteiden käyttäminen julkisiin avaimiin verrattuna tuo mukanaan.
+
+
+### Tietojen arviointi
+
+
+Kuvaile, mitä hyötyä uusien osoitteiden käyttämisestä kussakin tapahtumassa on Address:n uudelleenkäyttöön tai julkisen avaimen menetelmiin verrattuna.
+
+
+## Avainten varmistaminen Hardware Wallet:lla
+
+
+<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+
+
+### Bitcoin-avainten tallentaminen
+
+
+seed-lauseen luomisen jälkeen tässä kirjassa luotu 12-24 sanan luettelo vaatii asianmukaisia varmuuskopioita ja suojausta, sillä nämä sanat ovat ainoa tapa palauttaa pääsy Wallet:ään. HD-lompakoiden rakenne ja se, miten se luo osoitteet deterministisesti käyttämällä yhtä seed:tä, tarkoittaa, että kaikki luodut osoitteet varmuuskopioidaan käyttämällä tätä yhtä Mnemonic-sanojen luetteloa, joka edustaa seed- tai palautuslausetta.
+
+
+Pidä palautuslauseesi turvassa. Jos joku pääsee siihen käsiksi, erityisesti pahantahtoisesti, hän voi siirtää varojasi. Pidä seed turvassa, mutta muista samalla, että se on keskinäinen. Bitcoin:n yksityisten avainten säilyttämiseen on useita menetelmiä, joilla kullakin on omat etunsa ja haittansa turvallisuuden, yksityisyyden, mukavuuden ja fyysisen säilytyksen kannalta. Yksityisten avainten tärkeyden vuoksi Bitcoin-käyttäjät pyrkivät yleensä säilyttämään ja pitämään avaimet turvallisesti "omassa säilytyksessä" sen sijaan, että he käyttäisivät pankkien kaltaisia "säilytyspalveluja". Käyttäjästä riippuen heidän on käytettävä joko Cold-tallennusratkaisua tai Hot Wallet:ta.
+
+
+### Hot ja Cold Bitcoin-avainten varastointi
+
+
+Yleensä Bitcoin-lompakoissa on Hot Wallet tai Cold Wallet. Useimmat kompromissit liittyvät mukavuuteen, helppokäyttöisyyteen ja turvallisuusriskeihin. Kukin näistä menetelmistä voidaan nähdä myös säilytysratkaisussa. Kompromissit ovat kuitenkin enimmäkseen tietoturvaan ja yksityisyyteen perustuvia, ja ne eivät kuulu tämän kurssin aihepiiriin.
+
+
+### Hot Wallet
+
+
+Hot-lompakot ovat kätevin tapa olla vuorovaikutuksessa Bitcoin:n kanssa mobiili-, verkko- tai työpöytäohjelmiston kautta. Wallet on aina yhteydessä internetiin, jolloin käyttäjät voivat lähettää tai vastaanottaa Bitcoin:ta. Tämä on kuitenkin myös sen heikkous; koska Wallet on aina verkossa, se on nyt alttiimpi hakkereiden hyökkäyksille tai laitteessa oleville haittaohjelmille. BTCPay Serverissä Hot-lompakot tallentavat yksityiset avaimet instanssiin. Kuka tahansa, joka pääsee käsiksi BTCPay Server -varastoosi, voi mahdollisesti varastaa varoja tästä Address:stä, jos hän on pahansuopa. Kun BTCPay Server toimii isännöidyssä ympäristössä, sinun tulisi aina ottaa tämä huomioon turvallisuusprofiilissasi ja mieluiten olla käyttämättä Hot Wallet:ää tällaisessa tapauksessa. Kun BTCPay Server on asennettu omistamaasi ja suojaamaasi laitteistoon, riskiprofiili pienenee huomattavasti, mutta se ei koskaan katoa kokonaan.
+
+
+### Cold Wallet
+
+
+Yksityishenkilöt siirtävät Bitcoin:nsä Cold:een Wallet:een, koska se voi eristää yksityiset avaimet internetistä ja suojata niitä siten mahdollisilta verkkouhilta. Internet-yhteyden poistaminen yhtälöstä vähentää haittaohjelmien, vakoiluohjelmien ja SIM-korttien vaihtamisen riskiä. Cold-tallennuksen uskotaan olevan turvallisuudeltaan ja riippumattomuudeltaan parempi kuin Hot-tallennuksen, kunhan Bitcoin:n yksityisten avainten katoamisen estämiseksi on toteutettu riittävät varotoimet. Cold-tallennus soveltuu parhaiten suurille Bitcoin-määrille, joita ei ole tarkoitus käyttää usein Wallet-asetusten monimutkaisuuden vuoksi.
+
+
+Bitcoin-avainten tallentamiseen Cold-varastoon on olemassa erilaisia menetelmiä paperilompakoista aivolompakoihin, laitteistolompakoihin tai alusta alkaen Wallet-tiedostoon. Useimmat lompakot käyttävät BIP 39 generate seed-lauseen BIP 39. Bitcoin core-ohjelmiston sisällä ei kuitenkaan ole vielä päästy yksimielisyyteen sen käytöstä. Bitcoin core-ohjelmisto käyttää edelleen generate Wallet.dat-tiedostoa, joka on tallennettava turvalliseen offline-sijaintiin.
+
+
+### Taitojen yhteenveto
+
+
+Tässä jaksossa opit:
+
+
+
+- Hot- ja Cold-lompakoiden toiminnallisuuden erot ja niiden väliset kompromissit.
+
+
+### Osaamisen arviointi Käsitteellinen tarkastelu
+
+
+
+- Mikä on Wallet?
+
+
+
+- Mitä eroa on Hot- ja Cold-lompakoiden välillä?
+
+
+
+- Mitä tarkoitetaan "Wallet:n tuottamisella"?
+
+
+## Bitcoin-näppäinten käyttäminen
+
 
 <chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
 
-### BTCPay Server -lompakko
 
-BTCPay Server koostuu seuraavista vakio lompakko-ominaisuuksista:
+### BTCPay-palvelin Wallet
+
+
+BTCPay Server sisältää seuraavat Wallet:n vakio-ominaisuudet:
+
+
 
 - Tapahtumat
 - Lähetä
 - Vastaanota
-- Uudelleenskannaus
-- Vetomaksut
+- Tarkista
+- Vedä maksut
 - Maksut
 - PSBT
 - Yleiset asetukset
 
+
 ### Tapahtumat
 
-Ylläpitäjät voivat nähdä tietyn kaupan yhteydessä olevaan on-chain lompakkoon liittyvät sisään- ja ulostulevat tapahtumat tapahtumanäkymässä. Jokaisella tapahtumalla on ero saapuvien ja lähtevien välillä. Saapuvat ovat vihreitä ja lähtevät tapahtumat ovat punaisia. BTCPay Serverin tapahtumanäkymässä ylläpitäjät näkevät myös joukon vakioleimoja.
 
-| Tapahtuman Tyyppi | Kuvaus                                                 |
-| ----------------- | ------------------------------------------------------ |
-| App               | Maksu vastaanotettiin sovelluksen luoman laskun kautta |
-| invoice           | Maksu vastaanotettiin laskun kautta                    |
-| payjoin           | Ei maksettu, laskun ajastin ei ole vielä päättynyt     |
-| payjoin-exposed   | UTXO paljastettiin laskun payjoin-ehdotuksen kautta    |
-| payment-request   | Maksu vastaanotettiin maksupyynnön kautta              |
-| payout            | Maksu lähetettiin maksun tai hyvityksen kautta         |
+Järjestelmänvalvojat näkevät tapahtumanäkymässä kyseiseen varastoon liitettyjen On-Chain Wallet:n saapuvat ja lähtevät tapahtumat. Jokaisessa tapahtumassa on eroteltu vastaanotetut ja lähetetyt summat. Vastaanotetut tapahtumat ovat Green, ja lähtevät tapahtumat ovat punaisia. BTCPay-palvelimen tapahtumanäkymässä ylläpitäjät näkevät myös joukon vakiotarroja.
 
-### Miten Lähettää
 
-BTCPay-palvelimen lähetystoiminto lähettää tapahtumia BTCPay-palvelimen on-chain lompakostasi. BTCPay Server mahdollistaa useita tapoja allekirjoittaa tapahtumasi varojen käyttämiseksi. Tapahtuman voi allekirjoittaa;
+| Transaction Type | Description                                          |
+| ---------------- | ---------------------------------------------------- |
+| App              | Payment was received through an app-created invoice  |
+| invoice          | Payment was received through an invoice              |
+| payjoin          | Not paid, invoice timer still has not expired        |
+| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
+| payment-request  | Payment was received through a payment request       |
+| payout           | Payment was sent through a payout or refund          |
 
-- Laitteistolompakko
-- PSBT:tä tukevat lompakot
-- HD yksityisavain tai palautus siemenet.
-- Kuuma lompakko
+### Kuinka lähettää
 
-#### Laitteistolompakko
 
-BTCPay Server tukee sisäänrakennettua laitteistolompakkoa, joka mahdollistaa laitteistolompakkosi käytön BTCPay Vaultin kanssa ilman tietojen vuotamista kolmansien osapuolien sovelluksiin tai palvelimiin. Laitteistolompakon integraatio BTCPay Serveriin mahdollistaa laitteistolompakkosi tuonnin ja saapuvien varojen käytön yksinkertaisella vahvistuksella laitteellasi. Yksityisavaimet eivät koskaan poistu laitteesta, ja kaikki varat validoidaan täysnodiasi vasten, joten tietovuotoa ei tapahdu.
+BTCPay-palvelimen lähetystoiminto lähettää tapahtumia BTCPay-palvelimeltasi On-Chain Wallet. BTCPay-palvelin mahdollistaa useita tapoja allekirjoittaa tapahtumat varojen käyttämiseksi. Transaktio voidaan allekirjoittaa seuraavilla tavoilla;
 
-#### Allekirjoitus lompakolla, joka tukee PSBT:tä
 
-PSBT (Partially Signed Bitcoin Transactions) on Bitcoin-tapahtumien vaihtoformaatti, joka vaatii vielä täydellisen allekirjoituksen. PSBT:tä tuetaan BTCPay Serverissä, ja sen voi allekirjoittaa yhteensopivilla laitteisto- ja ohjelmistolompakoilla.
 
-Täysin allekirjoitetun Bitcoin-tapahtuman rakentaminen etenee seuraavasti:
+- Hardware Wallet
+- Lompakot, jotka tukevat PSBT
+- HD:n yksityinen avain tai palautussiemenet.
+- Hot Wallet
 
-- PSBT luodaan tietyillä syötteillä ja tulosteilla, mutta ilman allekirjoituksia
-- Viedy PSBT voidaan tuoda lompakkoon, joka tukee tätä formaattia
-- Tapahtuman tiedot voidaan tarkastella ja allekirjoittaa käyttäen lompakkoa
-- Allekirjoitettu PSBT-tiedosto viedään lompakosta ja tuodaan BTCPay Serveriin
-- BTCPay Server tuottaa lopullisen Bitcoin-tapahtuman
+
+#### Hardware Wallet
+
+
+BTCPay Serverissä on sisäänrakennettu Hardware Wallet-tuki, jonka avulla voit käyttää Hardware Wallet:ta BTCPay Vaultin kanssa vuotamatta tietoja kolmannen osapuolen sovelluksiin tai palvelimiin. BTCPay Serverin Hardware Wallet-integraatio mahdollistaa Hardware Wallet:n tuonnin ja saapuvien varojen käyttämisen yksinkertaisella vahvistuksella laitteellasi. Yksityiset avaimesi eivät koskaan poistu laitteesta, ja kaikki varat varmennetaan Full node:lla, mikä varmistaa, ettei tietoja vuoda.
+
+
+#### Allekirjoittaminen Wallet:ää tukevan PSBT:n kanssa
+
+
+PSBT (Osittain allekirjoitetut Bitcoin-tapahtumat) on vaihtomuoto Bitcoin-tapahtumille, jotka on vielä allekirjoitettava kokonaan. PSBT on tuettu BTCPay Serverissä, ja se voidaan allekirjoittaa yhteensopivilla laitteisto- ja ohjelmistolompakoilla.
+
+
+Täysin allekirjoitetun Bitcoin-tapahtuman rakentaminen tapahtuu seuraavien vaiheiden kautta:
+
+
+
+- PSBT rakennetaan, ja siinä on tietyt tulot ja lähdöt, mutta ei allekirjoituksia
+- Viety PSBT voidaan tuoda Wallet:llä, joka tukee tätä muotoa
+- Tapahtumatiedot voidaan tarkastaa ja allekirjoittaa Wallet:n avulla
+- Allekirjoitettu PSBT-tiedosto viedään Wallet:sta ja tuodaan BTCPay-palvelimelle
+- BTCPay-palvelin tuottaa lopullisen Bitcoin-tapahtuman
 - Tarkistat tuloksen ja lähetät sen verkkoon
 
-#### Allekirjoitus HD Yksityisavaimella tai mnemonic siemenellä
 
-Jos olet luonut lompakon aiemmin käyttäen BTCPay Serveriä, voit käyttää varoja syöttämällä yksityisavaimen asianmukaiseen kenttään. Aseta asianmukainen "AccountKeyPath" lompakko> Asetukset; muuten et voi käyttää.
+#### Allekirjoittaminen HD Private Key -avaimella tai Mnemonic seed:llä
 
-#### Allekirjoitus kuumalla lompakolla
 
-Jos loit uuden lompakon kauppasi perustamisen yhteydessä ja otit sen käyttöön kuumana lompakkona, se käyttää automaattisesti palvelimella säilytettyä siementä allekirjoitukseen.
+Jos olet luonut Wallet:n ennen BTCPay-palvelimen käyttöä, voit käyttää varat syöttämällä yksityisen avaimesi asianmukaiseen kenttään. Aseta asianmukainen "AccountKeyPath" kohdassa Wallet> Asetukset, muuten et voi käyttää.
 
-### RBF (Replace-By-Fee)
 
-Replace-By-Fee (RBF) on Bitcoin-protokollan ominaisuus, joka mahdollistaa aiemmin lähetetyn siirron korvaamisen (kun se on vielä vahvistamaton). Tämä mahdollistaa lompakkosi siirtojäljen satunnaistamisen tai korvaamisen korkeammalla maksutaksalla, jotta siirto siirtyy korkeammalle vahvistusjonossa (louhinnan prioriteetissa). Tämä korvaa tehokkaasti alkuperäisen siirron, sillä korkeampi maksutaksa saa etusijan, ja kun se vahvistetaan, alkuperäinen siirto mitätöidään (ei kaksinkertaista kulutusta).
-Paina "Lisäasetukset"-painiketta nähdäksesi RBF-vaihtoehdot;
+#### Allekirjoittaminen Hot Wallet:n kanssa
 
-![kuva](assets/en/16.webp)
 
-- Satunnaista suuremman yksityisyyden vuoksi, mahdollistaa siirron automaattisen korvaamisen siirtojäljen satunnaistamiseksi.
-- Kyllä, Merkitse siirto RBF:lle ja korvattavaksi nimenomaisesti (Ei korvata oletuksena, vain syötteen perusteella)
-- Ei, Älä salli siirron korvaamista.
+Jos olet luonut uuden Wallet:n myymälääsi perustettaessa ja ottanut sen käyttöön Hot Wallet:nä, se käyttää automaattisesti palvelimelle tallennettua seed:ta allekirjoittamiseen.
 
-### Kolikoiden Valinta
 
-Kolikoiden valinta on edistynyt yksityisyyttä parantava ominaisuus, joka mahdollistaa haluamiesi kolikoiden valitsemisen siirtoa tehdessä. Esimerkiksi maksaminen kolikoilla, jotka ovat tuoreita yhdistelmäsekoituksesta.
+### RBF (Replace-by-fee)
 
-Kolikoiden valinta toimii natiivisti lompakon merkintäominaisuuden kanssa. Tämä mahdollistaa saapuvien varojen merkitsemisen sujuvampaan UTXO-hallintaan ja kulutukseen.
 
-BTCpay Server tukee myös BIP-329:ää merkintöjen hallintaan. BIP-329 mahdollistaa merkintöjen asettamisen; jos siirrät lompakosta, joka tukee tätä tiettyä BIP:iä ja asetat merkintöjä, BTCPay Server tunnistaa nämä ja tuo ne sisään. Palvelimia siirrettäessä tämä tieto voidaan myös viedä ja tuoda uuteen ympäristöön.
+Replace-by-fee (RBF) on Bitcoin-protokollan ominaisuus, jonka avulla voit korvata aiemmin lähetetyn tapahtuman (kun se on vielä vahvistamaton). Tämä mahdollistaa Wallet:n tapahtuman sormenjäljen satunnaistamisen tai sen korvaamisen korkeammalla maksuprosentilla, jotta tapahtuma siirtyy korkeammalle vahvistusjonossa (Mining) prioriteettiasemassa. Tämä korvaa tehokkaasti alkuperäisen tapahtuman, koska korkeampi maksuprosentti asetetaan etusijalle, ja kun se on vahvistettu, se mitätöi alkuperäisen tapahtuman (ei kaksinkertaista kulutusta).
 
-### Miten Vastaanottaa
 
-Kun BTCPay Serverissa painetaan vastaanota-painiketta, se luo käyttämättömän osoitteen, jota voidaan käyttää maksujen vastaanottamiseen. Ylläpitäjät voivat myös luoda uuden osoitteen luomalla uuden "Laskun".
+Paina "Lisäasetukset"-painiketta nähdäksesi RBF-vaihtoehdot.
 
-BTCPay Server pyytää aina luomaan seuraavan käytettävissä olevan osoitteen välttääkseen osoitteen uudelleenkäytön. Kun klikattiin "Luo seuraava käytettävissä oleva BTC-osoite", BTCPay Server loi uuden osoitteen ja QR-koodin. Se mahdollistaa myös suoraan osoitteelle Merkinnän asettamisen paremman osoitteiden hallinnan vuoksi.
 
-![kuva](assets/en/17.webp)
+![image](assets/en/017.webp)
 
-![kuva](assets/en/18.webp)
 
-#### Uudelleenskannaus
 
-Uudelleenskannausominaisuus perustuu Bitcoin Core 0.17.0:n "Scantxoutset"-toimintoon skannata nykyisen lohkoketjun tila (kutsutaan UTXO Setiksi) kolikoille, jotka kuuluvat määritettyyn johdannaisjärjestelmään. Lompakon uudelleenskannaus ratkaisee kaksi ongelmaa, joita BTCPay Serverin käyttäjät kohtaavat.
+- Randomize for higher privacy (Satunnaistaminen yksityisyyden suojaamiseksi) mahdollistaa tapahtuman korvaamisen automaattisesti tapahtuman sormenjäljen satunnaistamiseksi.
+- Kyllä, merkitse tapahtuma RBF:lle ja korvaa se nimenomaisesti (ei korvata oletusarvoisesti, vain syötteen perusteella)
+- Ei, älä salli tapahtuman korvaamista.
 
-1. Gap limit -ongelma - Useimmat kolmannen osapuolen lompakot ovat kevytlompakoita, jotka jakavat solmun monen käyttäjän kesken. Kevyet ja täyden solmun varassa toimivat lompakot rajoittavat seurattavien saldoa vailla olevien osoitteiden määrää (tyypillisesti 20) lohkoketjussa suorituskykyongelmien estämiseksi. BTCPay Server luo uuden osoitteen jokaiselle laskulle. Edellä mainitun huomioon ottaen, kun BTCPay Server on luonut 20 peräkkäistä maksamatonta laskua, ulkoinen lompakko lopettaa siirtojen noutamisen olettaen, ettei uusia siirtoja ole tapahtunut. Ulkoinen lompakkosi ei näytä niitä, kun laskut maksetaan 21., 22. jne. Toisaalta sisäisesti BTCPay Serverin lompakko seuraa mitä tahansa luomaansa osoitetta paljon suuremmalla gap limitillä. Se ei ole riippuvainen kolmannesta osapuolesta ja voi aina näyttää oikean saldon.
-2. Ratkaisu gap-limit ongelmaan - Jos [ulkoinen/olemassa oleva lompakko](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) mahdollistaa gap-limitin konfiguroinnin, helppo korjaus on sen kasvattaminen. Valitettavasti suurin osa lompakoista ei kuitenkaan salli tätä. Ainoat lompakot, jotka meidän tietoomme sallivat gap-limitin konfiguroinnin, ovat Electrum, Wasabi ja Sparrow Wallet. Valitettavasti todennäköisesti kohtaat ongelmia monien muiden lompakoiden kanssa. Parhaan käyttäjäkokemuksen ja yksityisyyden takaamiseksi harkitse ulkoisten lompakoiden hylkäämistä ja BTCPay Serverin sisäisen lompakon käyttöä.
 
-#### BTCPay Server käyttää “mempoolfullrbf=1”
+### Coin Valinta
 
-BTCPay Server käyttää “mempoolfullrbf=1”; olemme lisänneet tämän oletusarvona BTCPay Server -asetuksiisi. Olemme kuitenkin tehneet siitä myös fragmentin, jonka voit itse poistaa käytöstä. Ilman “mempoolfullrbf=1”, jos asiakas tekee kaksinkertaisen maksun transaktiolla, joka ei merkitse RBF:ää, kauppias saisi tiedon vasta vahvistuksen jälkeen.
 
-Ylläpitäjä saattaa haluta poistaa tämän asetuksen käytöstä. Seuraavalla merkkijonolla voit muuttaa oletusasetusta.
+Coin-valinta on kehittynyt yksityisyyden suojaa parantava ominaisuus, jonka avulla voit valita kolikot, jotka haluat käyttää, kun teet maksutapahtuman. Esimerkiksi maksaminen kolikoilla, jotka ovat tuoreita conjoin mixistä.
+
+
+Coin-valinta toimii luonnostaan Wallet-tarratoiminnon kanssa. Näin voit merkitä saapuvat varat, mikä helpottaa UTXO:n hallintaa ja käyttöä.
+
+
+BTCPay Server tukee BIP-329:ää etikettien hallintaa varten. Jos siirrät Wallet:stä, joka tukee BIP-329:ää, ja sinulla on määritetyt tarrat, BTCPay Server tunnistaa ja tuo ne automaattisesti. Kun palvelimia siirretään, nämä tiedot voidaan myös viedä ja tuoda uuteen ympäristöön.
+
+
+### Miten vastaanottaa
+
+
+Kun napsautat vastaanottopainiketta BTCPay Serverissä, se luo käyttämättömän Address:n, jota voidaan käyttää maksujen vastaanottamiseen. Järjestelmänvalvojat voivat myös luoda uuden Address:n luomalla uuden "Invoice:n"
+
+
+BTCPay-palvelin pyytää sinua aina generate seuraavaan käytettävissä olevaan Address:ään Address:n uudelleenkäytön estämiseksi. Kun olet napsauttanut "generate seuraava käytettävissä oleva BTC Address", BTCPay Server luo uuden Address:n ja QR:n. Sen avulla voit myös asettaa suoraan tarran Address:ään, jotta voit hallita osoitteitasi paremmin.
+
+
+![image](assets/en/018.webp)
+
+
+![image](assets/en/019.webp)
+
+
+#### Skannaa uudelleen
+
+
+Rescan-ominaisuus perustuu Bitcoin core 0.17.0:n "Scantxoutset"-ominaisuuteen, jolla Blockchain:n (nimeltään UTXO Set) nykyinen tila skannataan konfiguroituun johdannaisjärjestelmään kuuluvien kolikoiden varalta. Wallet:n uudelleentarkistus ratkaisee kaksi yleistä ongelmaa, joita BTCPay Serverin käyttäjät usein kohtaavat.
+
+
+1. Aukkorajoitusongelma - Useimmat kolmannen osapuolen lompakot ovat kevyitä lompakoita, jotka jakavat solmun monien käyttäjien kesken. Kevyet ja Full node:een tukeutuvat lompakot rajoittavat niiden osoitteiden määrää (yleensä 20), joilla ei ole saldoa, joita ne seuraavat Blockchain:ssä suorituskykyongelmien välttämiseksi. BTCPay Server luo uuden Address:n jokaista Invoice:ta varten. Edellä esitetyn perusteella BTCPay Server tuottaa 20 peräkkäistä maksamatonta laskua, minkä jälkeen ulkoinen Wallet lopettaa tapahtumien noutamisen olettaen, että uusia tapahtumia ei ole tapahtunut. Ulkoinen Wallet ei näytä niitä, kun laskut on maksettu 21., 22. jne. päivänä. Toisaalta sisäisesti BTCPay-palvelimen Wallet seuraa kaikkia tuottamiaan Address-laskuja sekä huomattavasti korkeampaa välirajaa. Se ei ole riippuvainen kolmannesta osapuolesta ja voi aina näyttää oikean saldon.
+
+2. Aukkorajaratkaisu - Jos [ulkoinen/olemassa oleva Wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) sallii aukkorajakonfiguraation, helppo ratkaisu on lisätä sitä. Suurin osa lompakoista ei kuitenkaan salli tätä. Ainoat lompakot, jotka tietojemme mukaan tukevat tällä hetkellä gap limit -asetuksia, ovat Electrum, Wasabi ja Sparrow wallet. Valitettavasti kohtaat todennäköisesti ongelman monien muiden lompakoiden kanssa. Parhaan käyttökokemuksen ja yksityisyyden takaamiseksi kannattaa harkita BTCPay-palvelimen sisäisen Wallet:n käyttöä ulkoisten lompakoiden sijaan.
+
+
+#### BTCPay-palvelin käyttää "mempoolfullrbf=1"
+
+
+BTCPay Server käyttää "mempoolfullrbf=1"; olemme lisänneet tämän oletusarvoksi BTCPay Server -asetuksiin. Olemme kuitenkin tehneet siitä myös ominaisuuden, jonka voit itse poistaa käytöstä. Ilman "mempoolfullrbf=1", jos asiakas käyttää maksun tuplasti tapahtumalla, joka ei ole RBF-merkki, kauppias saisi tietää siitä vasta vahvistuksen jälkeen.
+
+
+Järjestelmänvalvoja voi halutessaan poistaa tämän asetuksen käytöstä. Seuraavalla merkkijonolla voit muuttaa oletusasetusta.
+
 
 ```
-BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
+BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 . btcpay-setup.sh -i
 ```
 
-### BTCPay Serverin lompakon asetukset
 
-BTCPay Serverin sisällä olevat lompakon asetukset tarjoavat selkeän ja nopean yleiskatsauksen lompakkosi yleisistä asetuksista. Kaikki nämä asetukset on esitäytetty, jos lompakko on luotu BTCPay Serverin avulla.
+### BTCPay-palvelimen Wallet asetukset
 
-![kuva](assets/en/19.webp)
 
-BTCPay Serverin lompakon asetukset alkavat lompakon tilalla. Onko se Vain katselu -tai Kuuma lompakko? Lompakon tyypistä riippuen toiminnot voivat vaihdella puuttuvien transaktioiden uudelleenskannauksesta, vanhojen transaktioiden karsimisesta historiasta, lompakon rekisteröimisestä maksulinkkejä varten tai nykyisen kauppaan liitetyn lompakon korvaamisesta ja poistamisesta. BTCPay Serverin lompakon asetuksissa ylläpitäjät voivat asettaa lompakolle Nimen paremman lompakon hallinnan takaamiseksi. Täällä Ylläpitäjä näkee myös Johdatuskaavion, tilin avaimen (xpub), Sormenjäljen ja Avainpolun. Maksuasetuksissa lompakon asetuksissa on vain 2 pääasetusta. Maksu on mitätön, jos transaktio ei vahvistu (asetetut minuutit) laskun erääntymisen jälkeen. Katsotaan lasku vahvistetuksi, kun maksutransaktiolla on X määrä vahvistuksia. Ylläpitäjät voivat myös asettaa kytkimen näyttämään suositellut maksut maksuissa tai asettaa manuaalisen vahvistustavoitteen lohkojen määrässä.
+Wallet-asetukset BTCPay Serverissä tarjoavat selkeän ja tiiviin yleiskatsauksen Wallet:n yleisistä asetuksista. Kaikki nämä asetukset on täytetty valmiiksi, jos Wallet on luotu BTCPay Serverillä.
 
-![kuva](assets/en/20.webp)
+
+![image](assets/en/020.webp)
+
+
+Wallet-asetukset BTCPay Serverissä tarjoavat selkeän ja tiiviin yleiskatsauksen Wallet:n yleisistä asetuksista. Kaikki nämä asetukset on täytetty valmiiksi, jos Wallet on luotu BTCPay Serverillä. BTCPay Serverin Wallet-asetukset alkavat Wallet:n tilasta. Onko se vain Watch-only- vai Hot Wallet? Wallet-tyypistä riippuen toimet voivat vaihdella, mukaan lukien Wallet:n tarkistaminen uudelleen puuttuvien tapahtumien varalta, vanhojen tapahtumien karsiminen historiasta, Wallet:n rekisteröinti maksulinkkejä varten tai nykyisen kauppaan liitetyn Wallet:n korvaaminen ja poistaminen. BTCPay Serverin Wallet-asetuksissa ylläpitäjät voivat asettaa Wallet:lle tunnisteen Wallet:n hallinnan parantamiseksi. Täällä ylläpitäjä näkee myös Derivation Scheme (johdantojärjestelmä), tiliavaimen (xpub), Fingerprint (sormenjälki) ja Keypath (avaintietopolku). Wallet:n asetuksissa on vain kaksi pääasiallista asetusta. Maksu on pätemätön, jos tapahtuma ei vahvistu (asetettujen minuuttien kuluessa) Invoice:n voimassaolon päättymisestä. Invoice katsotaan vahvistetuksi, kun maksutapahtumalla on X määrä vahvistuksia. Järjestelmänvalvojat voivat myös asettaa vaihtokytkimen näyttämään suositellut maksut maksunäytössä tai asettaa manuaalisen vahvistustavoitteen lohkojen lukumäärälle.
+
+
+![image](assets/en/021.webp)
+
 
 **!Huom!**
 
-Jos seuraat tätä kurssia omatoimisesti, tämän tilin luominen olisi jotain, mitä saatat tehdä kolmannen osapuolen isännöinnissä, siksi mainitsemme jälleen, että näitä ei tulisi käyttää tuotantoympäristöissä, vaan ainoastaan koulutustarkoituksiin.
+
+Jos seuraat tätä kurssia itsenäisesti, tilin luominen tapahtuu todennäköisesti kolmannen osapuolen isännän kautta. Siksi suosittelemme jälleen kerran, että näitä ei käytetä tuotantoympäristöinä, vaan ainoastaan koulutustarkoituksiin.
+
 
 ### Esimerkki
 
-#### Bitcoin-lompakon perustaminen BTCPay Serveriin
 
-BTCPay Server mahdollistaa kahdenlaisen lompakon asetuksen. Toinen tapa on tuoda jo olemassa oleva Bitcoin-lompakko. Tuonti voidaan tehdä yhdistämällä laitteistolompakko, tuomalla lompakkotiedosto, syöttämällä Laajennettu julkinen avain, skannaamalla lompakon QR-koodi tai vähiten suosittu, syöttämällä aiemmin luotu Lompakon palautussiemen käsin. BTCPay Serverissä on myös mahdollista luoda uusi lompakko. BTCPay Serverin uuden lompakon konfiguroinnissa on kaksi mahdollista tapaa.
-BTCPay Serverin kuuma lompakko -vaihtoehto mahdollistaa ominaisuudet kuten 'Payjoin' tai 'Liquid'. On kuitenkin haittapuoli: tämän lompakon luomiseen käytetty palautusavain (recovery seed) tallennetaan palvelimelle, josta kuka tahansa, jolla on ylläpitäjän oikeudet, voi hakea palautusavaimen. Koska yksityinen avaimesi johdetaan palautusavaimestasi, pahantahtoinen toimija voisi päästä käsiksi nykyisiin ja tuleviin varoihisi!
-Tällaisen riskin lieventämiseksi BTCPay Serverissä ylläpitäjä voi asettaa palvelimen asetuksissa > Käytännöt > "Salli ei-ylläpitäjien luoda kuumia lompakoita kaupoilleen" ei-asetukseen, kuten oletusarvoisesti on. Kuuman lompakon turvallisuuden parantamiseksi palvelimen ylläpitäjän tulisi ottaa käyttöön 2FA-tunnistautuminen tileille, joilla saa olla kuuma lompakko. Yksityisten avainten säilyttäminen julkisella palvelimella on vaarallista ja sisältää riskejä. Osa riskeistä on samankaltaisia kuin Lightning Network -riskeissä (katso seuraava luku Lightning Network -riskeistä).
+#### Bitcoin Wallet:n perustaminen BTCPay-palvelimeen
 
-Toinen vaihtoehto, jonka BTCPay Server tarjoaa uuden lompakon luomiseen, on luoda Vain-luku -lompakko (Watch-Only wallet). BTCPay Server luo yksityiset avaimet kerran. Kun käyttäjä vahvistaa kirjoittaneensa alas Seed Phrase -lauseensa, BTCPay Server poistaa yksityiset avaimet palvelimelta. Tuloksena kaupallesi on nyt yhdistetty Vain-luku -lompakko. Saapuneiden varojen käyttämiseksi Vain-luku -lompakostasi, katso luku Miten lähetetään, joko käyttämällä BTCPay Server Vaultia, PSBT:tä (osittain allekirjoitettu bitcoin-siirto) tai, vähiten suositeltuna, antamalla manuaalisesti Seed Phrase -lauseesi.
 
-Loit uuden 'Kaupan' viime osassa. Asennusvelho jatkaa pyytämällä "Aseta lompakko" tai "Aseta Lightning node". Tässä esimerkissä seuraat "Aseta lompakko" -velhoprosessia (1).
+BTCPay Server tarjoaa kaksi tapaa Wallet:n määrittämiseen. Yksi tapa on tuoda olemassa oleva Bitcoin Wallet. Tuonti voidaan tehdä liittämällä Hardware Wallet, tuomalla Wallet-tiedosto, syöttämällä laajennettu julkinen avain, skannaamalla Wallet:n QR-koodi tai, mikä on epäedullisinta, syöttämällä aiemmin luotu Wallet:n palautus seed käsin. BTCPay Serverissä on myös mahdollista luoda uusi Wallet. BTCPay Serverin konfigurointi on mahdollista tehdä kahdella tavalla uutta Wallet:ta luotaessa.
 
-![kuva](assets/en/21.webp)
 
-Kun klikkaat "Aseta lompakko", velho jatkaa pyytämällä, miten haluat jatkaa; BTCPay Server tarjoaa nyt mahdollisuuden yhdistää olemassa olevan Bitcoin-lompakon uuteen kauppaasi. Jos sinulla ei ole lompakkoa, BTCPay Server ehdottaa uuden luomista. Tämä esimerkki seuraa "luo uusi lompakko" -vaiheita (2). Seuraa vaiheita oppiaksesi, miten "Yhdistä olemassa oleva lompakko (1).
+BTCPay Serverin Hot Wallet -vaihtoehto mahdollistaa PayJoin:n tai Liquid:n kaltaiset ominaisuudet. Siinä on kuitenkin haittapuoli: tätä Wallet:a varten luotu palautus seed tallennetaan palvelimelle, josta kuka tahansa, jolla on järjestelmänvalvojan oikeudet, voi hakea sen. Koska yksityinen avaimesi on johdettu palautus-seed:stä, pahantahtoinen toimija voi päästä käsiksi nykyisiin ja tuleviin varoihisi!
 
-![kuva](assets/en/22.webp)
+
+Tämän riskin pienentämiseksi BTCPay Server -palvelimessa järjestelmänvalvoja voi asettaa arvoksi kohdassa Palvelimen asetukset > Käytännöt > "Salli muiden kuin järjestelmänvalvojien luoda Hot-lompakoita myymälöihinsä" "ei", koska se on oletusarvo. Parantaakseen näiden Hot-lompakoiden turvallisuutta palvelimen ylläpitäjän tulisi ottaa käyttöön 2FA-todennus tileillä, joilla saa olla Hot-lompakoita. Yksityisten avainten tallentaminen julkiselle palvelimelle on vaarallinen käytäntö, ja siihen liittyy merkittäviä riskejä. Jotkin niistä ovat samankaltaisia kuin Lightning Network:n riskit (katso Lightning Network:n riskit seuraavassa luvussa).
+
+
+Toinen vaihtoehto, jonka BTCPay Server tarjoaa uuden Wallet:n luomiseksi, on Watch-only wallet:n luominen. BTCPay Server luo generate yksityiset avaimesi kerran. Kun käyttäjä on vahvistanut kirjoittaneensa seed-lauseensa, BTCPay Server pyyhkii yksityiset avaimet palvelimelta. Tämän seurauksena myymälääsi on nyt liitetty Watch-only wallet. Jos haluat käyttää Watch-only wallet:lla saamasi varat, katso luku Miten lähetetään, joko käyttämällä BTCPay Server Vaultia, PSBT:ää (Partially Signed Bitcoin Transaction) tai, mikä on vähiten suositeltavaa, antamalla seed-lauseesi manuaalisesti.
+
+
+Loit uuden "Kaupan" viimeisessä osassa. Ohjattu asennus jatkuu pyytämällä "Set up a Wallet" tai "Set up a Lightning node". Tässä esimerkissä noudatat ohjatun "Set up a Wallet" -prosessia (1).
+
+
+![image](assets/en/022.webp)
+
+
+Kun olet napsauttanut "Wallet:n perustaminen", ohjattu toiminto jatkaa kysymällä, miten haluat jatkaa; BTCPay Server tarjoaa nyt mahdollisuuden liittää olemassa olevan Bitcoin Wallet:n uuteen myymälääsi. Jos sinulla ei ole Wallet:a, BTCPay Server ehdottaa uuden Wallet:n luomista. Tässä esimerkissä noudatetaan ohjeita "luo uusi Wallet" (2). Seuraa vaiheita oppiaksesi, miten "Yhdistä olemassa oleva Wallet (1).
+
+
+![image](assets/en/023.webp)
+
 
 **!Huom!**
 
-Jos otat tämän kurssin luokkahuoneessa, nykyinen esimerkki ja luomamme siemen (seed) on vain opetustarkoituksiin. Näissä osoitteissa ei pitäisi koskaan olla merkittäviä määriä muita kuin harjoitusten vaatimat.
 
-(1) Jatka "Uusi lompakko" -velhoa klikkaamalla "Luo uusi lompakko" -painiketta.
+Jos suoritat tämän kurssin luokkahuoneessa, ota huomioon, että nykyinen esimerkki ja seed, jonka olemme luoneet, on tarkoitettu vain opetustarkoituksiin. Näissä osoitteissa ei pitäisi koskaan olla mitään muuta merkittävää määrää kuin mitä harjoituksissa vaaditaan.
 
-![kuva](assets/en/23.webp)
 
-(2) "Luo uusi lompakko" -painiketta klikattuasi seuraavassa ikkunassa velho tarjoaa vaihtoehtoja "Kuuma lompakko" ja "Vain-luku lompakko". Jos seuraat ohjeita opettajan kanssa, ympäristösi on jaettu Demo, ja voit luoda vain Vain-luku lompakon. Huomaa alla olevien kuvien välinen ero. Koska olet Demo-ympäristössä seuraamassa opettajaa, luo "Vain-luku lompakko" ja jatka "Uusi Lompakko" -velhoa.
+(1) Jatka "Uusi Wallet" -ohjattua toimintoa napsauttamalla "Luo uusi Wallet" -painiketta.
 
-![kuva](assets/en/24.webp)
 
-![kuva](assets/en/25.webp)
+![image](assets/en/024.webp)
 
-(3) Jatkaessasi uuden lompakon velhoa, olet nyt BTC:n Vain-luku lompakon luontiosiossa. Tässä voimme asettaa lompakon "Osoitetyypin". BTCPay Server mahdollistaa haluamasi osoitetyypin valitsemisen; tämän kurssin kirjoitushetkellä suositellaan edelleen bech32-osoitteiden käyttöä. Opi lisää osoitteista tämän osan ensimmäisessä luvussa.
 
-- Segwit (bech32)
-- Native SegWit -osoitteet alkavat merkkijonolla `bc1q`.
-  - Esimerkki: `bc1qXXXXXXXXXXXXXXXXXXXXXX`
+(2) Kun olet napsauttanut "Create a new Wallet" (Luo uusi Wallet), ohjatun toiminnon seuraava ikkuna antaa vaihtoehdot "Hot Wallet" ja "Watch-only wallet" Jos seuraat ohjaajan kanssa, ympäristösi on jaettu Demo, ja voit luoda vain Watch-only wallet:n. Huomaa ero kahden alla olevan kuvan välillä. Kun olet demoympäristössä ja seuraat kouluttajan mukana, luo "Watch-only wallet" ja jatka ohjatulla "New Wallet" -ohjatulla toiminnolla.
+
+
+![image](assets/en/025.webp)
+
+
+![image](assets/en/026.webp)
+
+
+(3) Jatka ohjatun uuden Wallet:n luomista, ja olet nyt Create BTC Watch-only wallet -osiossa. Tässä pääsee asettamaan Wallet:n "Address-tyypin" BTCPay Server antaa sinun valita haluamasi Address-tyypin; tätä kurssia kirjoitettaessa suositellaan edelleen bech32-osoitteiden käyttöä. Voit tutustua osoitteisiin tarkemmin tämän osan ensimmäisessä luvussa.
+
+
+
+- SegWit (bech32)
+  - Alkuperäiset SegWit-osoitteet alkavat kirjaimella `bc1q`.
+  - Esimerkki: `bc1qXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 - Legacy
-  - Legacy-osoitteet alkavat numerolla `1`.
-  - Esimerkki: `15e15hXXXXXXXXXXXXXXXXXXXX`
-- Taproot (Kokeneille käyttäjille)
-  - Taproot-osoitteet alkavat merkkijonolla `bc1p`.
-  - Esimerkki: `bc1pXXXXXXXXXXXXXXXXXXXXXXXX`
-- Segwit wrapped
-  - Segwit wrapped -osoitteet alkavat numerolla `3`.
-  - Esimerkki: `37BBXXXXXXXXXXXXXXX`
+  - Legacy-osoitteet ovat osoitteita, jotka alkavat numerolla `1`.
+  - Esimerkki: `15e15hXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+- Taproot (edistyneille käyttäjille)
+  - Taproot-osoitteet alkavat kirjaimella "bc1p".
+  - Esimerkki: `bc1pXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+- SegWit kääritty
+  - SegWit-koteloidut osoitteet alkavat numerolla "3".
+  - Esimerkki: `37BBXXXXXXXXXXXXXXXXXXXXXXX`
 
-Valitse segwit (suositeltu) ensisijaiseksi lompakon osoitetyypiksesi.
 
-![kuva](assets/en/26.webp)
+Valitse SegWit (suositeltava) Wallet Address -tyypiksi.
 
-(4) Kun asetat Walletin parametreja, BTCPay Server mahdollistaa käyttäjille valinnaisen salasanan asettamisen BIP39:n kautta, varmista salasanasi.
 
-![kuva](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-(5) Asetettuasi Walletin osoitetyypin ja mahdollisesti joitakin edistyneitä asetuksia, klikkaa Luo, ja BTCPay Server generoi uuden Walletisi. Huomaa, että tämä on viimeinen vaihe ennen Seed-lausekkeesi generointia. Varmista, että teet tämän ympäristössä, jossa kukaan ei voi varastaa seed-lauseketta katsomalla näyttöäsi.
 
-![kuva](assets/en/28.webp)
+(4) Kun asetat Wallet:n parametria, BTCPay-palvelin antaa käyttäjille mahdollisuuden asettaa valinnaisen passphrase:n BIP39:n kautta; varmista salasanasi.
 
-(6) Seuraavalla velho-sivulla BTCPay Server näyttää sinulle vasta luodun Walletisi palautus-seed-lausekkeen; nämä ovat avaimet Walletisi palauttamiseen ja transaktioiden allekirjoittamiseen. BTCPay Server generoi 12 sanan seed-lausekkeen. Nämä sanat poistetaan palvelimelta tämän asetussivun jälkeen. Tämä Wallet on erityisesti vain-seuranta Wallet. On suositeltavaa, ettei tätä seed-lauseketta säilytetä digitaalisesti tai valokuvan muodossa. Käyttäjät voivat jatkaa velhossa vain, jos he aktiivisesti tunnustavat kirjoittaneensa seed-lausekkeensa ylös.
 
-![kuva](assets/en/29.webp)
+![image](assets/en/028.webp)
 
-(7) Klikkaamalla Valmis ja turvattuasi vasta generoidun Bitcoin-seed-lausekkeen, BTCPay Server päivittää kauppasi uudella Walletilla ja on valmis vastaanottamaan maksuja. Käyttöliittymässä vasemmassa navigointivalikossa huomaa, kuinka Bitcoin on nyt korostettu ja aktivoitu Walletin alla.
 
-![kuva](assets/en/30.webp)
+(5) Kun olet asettanut Wallet:n Address-tyypin ja mahdollisesti joitakin lisäasetuksia, napsauta Luo, ja BTCPay Server generate uusi Wallet:si. Huomaa, että tämä on viimeinen vaihe ennen seed-lauseen luomista. Varmista, että teet tämän vain ympäristössä, jossa joku ei voi varastaa seed-lauseen katsomalla näyttöäsi.
 
-### Esimerkki: Seed-lausekkeen kirjoittaminen ylös
 
-Tämä on erittäin erityinen ja turvallinen hetki käyttää Bitcoinia. Kuten aiemmin mainittiin, vain sinulla tulisi olla pääsy tai tieto seed-lausekkeestasi. Kun seuraat ohjeita opettajan ja luokan kanssa, generoitua seediä tulisi käyttää vain tässä kurssissa. Liian monet tekijät, luokkatovereiden uteliaat silmät, turvattomat järjestelmät ja monet muut tekevät näistä avaimista vain opetustarkoituksiin sopivia ja luottamattomia. Generoidut avaimet tulisi kuitenkin silti säilyttää kurssiesimerkkejä varten.
+![image](assets/en/029.webp)
 
-Ensimmäinen menetelmä, jota käytämme nykyisessä tilanteessa, myös vähiten turvallinen, on kirjoittaa seed-lauseke oikeassa järjestyksessä. Seed-lausekekortti on kurssimateriaalissa, joka on annettu opiskelijalle tai löytyy BTCPay Serverin GitHubista. Käytämme tätä korttia kirjoittaaksemme generoidut sanat edellisessä vaiheessa. Varmista, että kirjoitat ne oikeassa järjestyksessä. Kun olet kirjoittanut ne ylös, tarkista ne ohjelmiston antamia vastaan varmistaaksesi, että kirjoitit ne oikeassa järjestyksessä. Kun olet kirjoittanut sen ylös, klikkaa valintaruutua, joka ilmoittaa, että olet kirjoittanut seed-lausekkeesi oikein.
 
-### Esimerkki: Seed-lausekkeen säilyttäminen laitteistolompakossa
+(6) Ohjatun toiminnon seuraavassa näytössä BTCPay Server näyttää sinulle juuri luotua Wallet:aa koskevan Recovery seed -lausekkeen; nämä ovat avaimia Wallet:n palauttamiseen ja tapahtumien allekirjoittamiseen. BTCPay Server luo seed-lauseen, jossa on 12 sanaa. Nämä sanat poistetaan palvelimelta tämän asetusnäytön jälkeen. Tämä Wallet on nimenomaan Watch-only wallet. Tätä seed-lausetta ei suositella tallennettavaksi digitaalisesti tai valokuvana. Käyttäjät voivat edetä ohjatussa toiminnossa eteenpäin vain, jos he aktiivisesti vahvistavat kirjoittaneensa seed-lausekkeensa muistiin.
 
-Tällä kurssilla käsitellään seed-lausekkeen säilyttämistä laitteistolompakossa. Tällaisen laitteen sisällyttäminen kurssiin opettajan toimesta ei aina ole mahdollista. Kurssimateriaaleissa on kirjoitettu lista laitteistolompakoista, jotka sopisivat tähän harjoitukseen.
-Tässä esimerkissä käytämme BTCPay Server vaultia ja Blockstream Jade -laitelompakkoa.
-Voit myös seurata mukana videolta, jossa näytetään, miten laitelompakko yhdistetään.
+
+![image](assets/en/030.webp)
+
+
+(7) Kun olet napsauttanut Done (Valmis) ja varmistanut äskettäin luodun Bitcoin seed-lauseen, BTCPay Server päivittää kauppasi liitetyn uuden Wallet:n ja on valmis vastaanottamaan maksuja. Huomaa, että Bitcoin on nyt korostettuna ja aktivoituna Wallet:n alla käyttäjän Interface vasemmanpuoleisessa navigointivalikossa.
+
+
+![image](assets/en/031.webp)
+
+
+### Esimerkki: seed-lauseen kirjoittaminen
+
+
+Tämä on erityisen turvallinen hetki käyttää Bitcoin:tä. Kuten aiemmin mainittiin, vain sinulla pitäisi olla pääsy seed-lauseeseesi tai tieto siitä. Koska seuraat opettajan ja luokkahuoneen mukana, tuotettua seed:ta tulisi käyttää vain tällä kurssilla. Liian monet tekijät, kuten luokkatovereiden uteliaat katseet, turvattomat järjestelmät ja muut, tekevät näistä avaimista vain opetuksellisia ja epäluotettavia. Luodut avaimet olisi kuitenkin säilytettävä kurssin esimerkkejä varten.
+
+
+Ensimmäinen menetelmä, jota käytämme tässä tilanteessa ja joka on myös vähiten turvallinen, on seed-lauseen kirjoittaminen oikeassa järjestyksessä. seed-lauseen kortti sisältyy opiskelijalle annettuun kurssimateriaaliin tai se löytyy BTCPay Server GitHubista. Käytämme tätä korttia edellisessä vaiheessa luotujen sanojen kirjoittamiseen. Varmista, että kirjoitat ne ylös oikeassa järjestyksessä. Kun olet kirjoittanut ne ylös, tarkista ne ohjelmiston antamien tietojen perusteella varmistaaksesi, että kirjoitit ne oikeassa järjestyksessä. Kun olet kirjoittanut ne ylös, napsauta valintaruutua, jossa ilmoitetaan, että olet kirjoittanut seed-lauseen oikein.
+
+
+### Esimerkki: seed-lauseen tallentaminen Hardware Wallet:aan
+
+
+Tällä kurssilla käsittelemme seed-lauseen tallentamista Hardware Wallet:een. Tämän kurssin seuraaminen ohjaajan kanssa saattaa joskus sisältää tällaisen laitteen. Kurssin oppaan materiaaleihin on koottu luettelo laitteistokukkaroista, jotka soveltuisivat tähän harjoitukseen.
+
+
+Käytämme tässä esimerkissä BTCPay Server -holvia ja Blockstream Jade Hardware Wallet:ta.
+
+
+Voit myös seurata Hardware Wallet:n liittämistä koskevaa videoopasta.
+
 :::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
+
 
 Lataa BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
-Varmista, että lataat järjestelmällesi oikeat tiedostot. Windows-käyttäjien tulisi ladata [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe) paketti, Mac-käyttäjien ladata [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg), ja Linux-käyttäjien tulisi ladata [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
 
-BTCPay Server Vaultin asentamisen jälkeen, käynnistä ohjelmisto napsauttamalla kuvaketta työpöydälläsi. Kun BTCPay Server Vault on asennettu oikein ja käynnistetty ensimmäistä kertaa, se pyytää lupaa käyttää Web-sovelluksia. Se pyytää antamaan pääsyn tiettyyn BTCPay Serveriin, jota työskentelet. Hyväksy nämä ehdot. BTCPay Server Vault alkaa nyt etsiä laitteistoa. Kun laite on löydetty, BTCPay Server tunnistaa, että Vault on käynnissä ja on hakenut laitteesi.
+Varmista, että lataat oikeat tiedostot järjestelmääsi varten. Windows-käyttäjien tulisi ladata [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe) paketti, Mac-käyttäjien tulisi ladata [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg) ja Linux-käyttäjien tulisi ladata [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
+
+
+Kun olet asentanut BTCPay Server Vaultin, käynnistä ohjelmisto napsauttamalla työpöydällä olevaa kuvaketta. Kun BTCPay Server Vault on asennettu oikein ja käynnistetty ensimmäisen kerran, se pyytää lupaa käyttää sitä verkkosovellusten kanssa. Se pyytää antamaan käyttöoikeuden tiettyyn BTCPay Server -palvelimeen, jonka kanssa työskentelet. Hyväksy nämä ehdot. BTCPay Server Vault etsii nyt laitteistolaitteen. Kun laite on löydetty, BTCPay Server tunnistaa, että Vault on käynnissä ja on hakenut laitteesi.
+
 
 **!Huom!**
 
-Älä anna SSH-avaimiasi tai palvelimen ylläpitäjätiliä kenellekään muulle paitsi ylläpitäjille, kun käytät hot walletia. Kenellä tahansa, jolla on pääsy näihin tileihin, on pääsy Hot Walletin varoihin.
 
-### Taitojen Yhteenveto
+Älä anna SSH-avaimia tai palvelimen hallintatiliä muille kuin järjestelmänvalvojille, kun käytät Hot Wallet:ää. Kuka tahansa, jolla on pääsy näihin tileihin, pääsee käsiksi Hot Wallet:n varoihin.
 
-Tässä osiossa opit seuraavat asiat:
 
-- Bitcoin-lompakon transaktionäkymä ja sen erilaiset luokittelut.
-- Eri vaihtoehdot Bitcoin-lompakosta lähettämiseen, laitteistosta hot walletteihin.
-- Gap limit -ongelma, joka ilmenee useimmissa lompakoissa, ja miten se korjataan.
-- Kuinka luoda uusi Bitcoin-lompakko BTCPay Serverissä, mukaan lukien avainten tallentaminen laitelompakkoon ja palautuslausekkeen varmuuskopiointi.
+### Taitojen yhteenveto
 
-Tässä tavoitteessa olet oppinut, miten luoda uusi Bitcoin-lompakko BTCPay Serverissä. Emme ole vielä käsitelleet, miten näitä avaimia turvataan tai käytetään. Tämän tavoitteen pikakatsauksessa olet oppinut, miten perustaa ensimmäinen kauppa. Olet oppinut, miten luoda Bitcoin Recovery Seed -lause.
 
-### Tietämyksen Arvioinnin Käytännön Katsaus
+Tässä jaksossa opit seuraavat asiat:
 
-Kuvaile menetelmä avainten luomiseksi ja järjestelmä niiden turvaamiseksi, sekä turvajärjestelmän kauppaehdot/riskit.
 
-## BTCPay Server Lightning Wallet
+
+- Bitcoin Wallet:n ja sen eri luokittelujen transaktionäkymä.
+- Bitcoin Wallet:stä lähetettäessä on käytettävissä erilaisia vaihtoehtoja laitteistosta Hot-lompakkoihin.
+- Useimpia lompakoita käytettäessä ilmenevä kuilurajoitusongelma ja sen korjaaminen.
+- Miten generate uusi Bitcoin Wallet luodaan BTCPay Serverissä, mukaan lukien avainten tallentaminen Hardware Wallet:een ja palautuslauseen varmuuskopiointi.
+
+
+Tässä tavoitteessa olet oppinut, miten generate uusi Bitcoin Wallet luodaan BTCPay Serverissä. Emme ole vielä käsitelleet, miten näitä avaimia suojataan tai käytetään. Tämän tavoitteen nopeassa yleiskatsauksessa olet oppinut, miten ensimmäinen myymälä perustetaan. Olet oppinut, miten generate Bitcoin Recovery seed -lausetta käytetään.
+
+
+### Osaamisen arviointi Käytännön tarkastelu
+
+
+Kuvaile menetelmä avainten tuottamiseksi ja niiden suojausjärjestelmä sekä suojausjärjestelmän kompromissit/riskit.
+
+
+## BTCPay-palvelimen salama Wallet
+
 
 <chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
 
-Kun palvelimen ylläpitäjä ottaa käyttöön uuden BTCPay Server-instanssin, hän voi perustaa salamaverkon toteutuksen, LND:n, Core Lightningin tai Eclairin; katso Osa BTCPay Serverin määrittämisestä tarkemmat asennusohjeet.
-Jos luokkahuone seuraa mukana, Lightning-noodin yhdistäminen BTCPay Serveriisi toimii Custom-noodin kautta. Käyttäjä, joka ei ole palvelimen ylläpitäjä BTCPay Serverillä, ei oletusarvoisesti pysty käyttämään sisäistä Lightning-noodia. Tämä on suojatakseen palvelimen omistajaa menettämästä varojaan. Palvelimen ylläpitäjät voivat asentaa Pluginin antaakseen pääsyn Lightning-noodiinsa LNBankin kautta; tämä on tämän kirjan ulkopuolella; lue lisää LNBankista virallisella plugin-sivulla.
 
-### Yhdistä sisäinen nood (palvelimen ylläpitäjä)
+Kun palvelimen ylläpitäjä perustaa uuden BTCPay Server -instanssin, hän voi määrittää Lightning Network-toteutuksen, kuten LND:n, Core Lightningin tai Eclairin; katso tarkemmat asennusohjeet kohdasta BTCPay Serverin konfigurointi.
 
-Palvelimen ylläpitäjä voi käyttää BTCPay Serverin sisäistä Lightning-noodia. Riippumatta Lightning-toteutuksesta, yhdistäminen sisäiseen Lightning-noodiin on sama.
 
-Siirry aiemmin asetettuun kauppaan ja klikkaa vasemmassa valikossa "Lightning"-lompakkoa. BTCPay Server tarjoaa kaksi asennusmahdollisuutta, käyttäen sisäistä noodia (vain palvelimen ylläpitäjä oletuksena) tai custom-noodia (ulkoinen yhteys). Palvelimen ylläpitäjät voivat klikata "Käytä sisäistä noodia" -vaihtoehtoa. Lisäkonfiguraatiota ei vaadita. Klikkaa "tallenna"-painiketta ja huomaa ilmoitus, joka sanoo, "BTC Lightning nood päivitetty". Kaupalla on nyt onnistuneesti Lightning-verkon ominaisuudet.
+Jos seuraat luokkahuoneessa, Lightning-solmun yhdistäminen BTCPay-palvelimeen toimii Custom-solmun kautta. Käyttäjä, joka ei ole BTCPay Serverin palvelimen ylläpitäjä, ei voi oletusarvoisesti käyttää sisäistä Lightning-solmua. Tämä on tehty palvelimen omistajan suojaamiseksi varojen menettämiseltä. Palvelimen ylläpitäjät voivat asentaa lisäosan, jolla he voivat myöntää pääsyn Lightning-solmuunsa LNBankin kautta; tämä ei kuulu tämän kirjan aihepiiriin. Lisätietoja LNBankista on virallisella lisäosasivulla.
 
-### Yhdistä ulkoinen nood (kaupan omistaja/palvelimen käyttäjä)
 
-Koska kaupan omistajat eivät oletusarvoisesti saa käyttää palvelimen ylläpitäjän Lightning-noodia, yhteys on muodostettava ulkoiseen noodiin, joko noodiin, joka on kaupan omistajan hallussa ennen BTCPay Serverin asetusta, LNBank-plugin, jos palvelimen ylläpitäjä on tehnyt sen saataville, tai holhousratkaisu kuten Alby.
+### Yhdistä sisäinen solmu (palvelimen ylläpitäjä)
 
-Siirry aiemmin asetettuun kauppaan ja klikkaa vasemmassa valikossa "Lightning" lompakoiden alla. Koska kaupan omistajat eivät oletusarvoisesti saa käyttää sisäistä noodia, tämä vaihtoehto on harmaana. Custom-noodin käyttö on ainoa oletusarvoisesti saatavilla oleva vaihtoehto kaupan omistajille.
 
-BTCPay Server tarvitsee yhteystiedot; aiemmin tehty (tai holhousratkaisu) toimittaa nämä tiedot Lightning-toteutukseen liittyen. BTCPay Serverissä kaupan omistajat voivat käyttää seuraavia yhteyksiä;
+Palvelimen ylläpitäjä voi käyttää BTCPay Serverin sisäistä Lightning Nodea. Lightning-toteutuksesta riippumatta yhteyden muodostaminen sisäiseen Lightning-solmuun on sama.
 
-- C-lightning TCP:n tai Unixdomainsocketconnectionin kautta.
+
+Siirry edelliseen asennuskauppaan ja napsauta vasemmanpuoleisessa valikossa olevaa "Lightning" Wallet:a. BTCPay Server antaa kaksi asetusvaihtoehtoa: sisäisen solmun käyttö (oletusarvoisesti vain palvelimen ylläpitäjä) tai mukautetun solmun käyttö (ulkoinen yhteys). Palvelimen ylläpitäjät voivat napsauttaa "Käytä sisäistä solmua" -vaihtoehtoa. Muita asetuksia ei tarvita. Napsauta "tallenna"-painiketta ja huomaa ilmoitus, jossa lukee "BTC Lightning node updated". Kauppa on nyt saanut onnistuneesti Lightning Network-ominaisuudet.
+
+
+### Yhdistä ulkoinen solmu (palvelimen käyttäjä/varaston omistaja)
+
+
+Oletusarvoisesti myymälän omistajat eivät saa käyttää palvelimen ylläpitäjän Lightning Nodea. Yhteys on muodostettava ulkoiseen solmuun, joko solmuun, jonka myymälän omistaja omistaa ennen BTCPay-palvelimen perustamista, LNBank-lisäosaan, jos palvelimen ylläpitäjä on antanut sen käyttöön, tai säilytysratkaisuun, kuten Albyyn.
+
+
+Siirry edelliseen asetuskauppaan ja napsauta vasemmanpuoleisessa valikossa lompakoiden alapuolella olevaa kohtaa "Salama". Koska myymälän omistajat eivät oletusarvoisesti saa käyttää sisäistä solmua, tämä vaihtoehto on harmaana. Mukautetun solmun käyttäminen on ainoa oletusarvoisesti kaupan omistajille tarjolla oleva vaihtoehto.
+
+
+BTCPay-palvelin vaatii yhteystietoja; esivalmistettu (tai säilytysratkaisu) toimittaa nämä tiedot erityisesti Lightning-toteutukseen räätälöitynä. BTCPay Serverissä kaupan omistajat voivat käyttää seuraavia yhteyksiä;
+
+
+
+- C-salama TCP- tai Unixdomainsocket-yhteyden kautta.
 - Lightning Charge HTTPS:n kautta
 - Eclair HTTPS:n kautta
-- LND REST proxyn kautta
+- LND REST-välityspalvelimen kautta
 - LNDhub REST API:n kautta
 
-![kuva](assets/en/31.webp)
 
-Klikkaa "testaa yhteys" varmistaaksesi, että olet syöttänyt yhteystiedot oikein. Kun yhteys vahvistetaan toimivaksi, klikkaa tallenna, ja BTCPay Server näyttää, että kauppa on päivitetty Lightning-noodilla.
+![image](assets/en/032.webp)
 
-### Hallinnoi sisäistä Lightning-noodia LND (Palvelimen ylläpitäjä)
 
-Yhdistettyään sisäisen Lightning-noodin, palvelimen ylläpitäjät huomaavat uusia ruutuja kojelaudalla erityisesti Lightning-tiedot varten.
+Napsauta "testaa yhteys" varmistaaksesi, että olet syöttänyt yhteystiedot oikein. Kun yhteys on vahvistettu hyväksi, napsauta "Tallenna", ja BTCPay-palvelin näyttää, että myymälä on päivitetty Lightning-solmulla.
 
-- Lightning-saldo
+
+### Sisäisen Lightning-solmun LND hallinta (palvelimen ylläpitäjä)
+
+
+Sisäisen Lightning-solmun yhdistämisen jälkeen palvelimen ylläpitäjät huomaavat Dashboardissa uusia laatoituksia, jotka sisältävät erityisesti Lightning-tietoja.
+
+
+
+- Salama tasapaino
 - BTC kanavissa
-  - BTC avaavat kanavat
+  - BTC:n avauskanavat
   - BTC paikallinen saldo
-  - BTC etäsaldo
-  - BTC sulkevat kanavat
-- BTC On-chain
-  - BTC vahvistettu
+  - BTC etätasapaino
+  - BTC:n kanavien sulkeminen
+- BTC On-Chain
+  - BTC vahvisti
   - BTC vahvistamaton
   - BTC varattu
-- Lightning-palvelut
+- Salama-palvelut
   - Ride the Lightning (RTL).
 
-Klikkaamalla joko Ride the Lightning -logoa "Lightning-palvelut" ruudussa tai "Lightning" lompakoiden alla vasemmassa valikossa, palvelimen ylläpitäjät voivat saavuttaa RTL:n Lightning-noodin hallintaa varten.
 
-**Huomaa!**
+Palvelimen ylläpitäjät pääsevät RTL:n Lightning-solmujen hallintaan napsauttamalla joko Ride the Lightning -logoa Lightning-palvelut -laatassa tai vasemmanpuoleisen valikon lompakoiden alapuolella olevaa Lightning-kohtaa.
 
-Yhdistäminen sisäiseen Lightning-noodiin epäonnistuu - Jos sisäinen yhteys epäonnistuu, varmista:
 
-1. Bitcoin on-chain nood on täysin synkronoitu
-2. Sisäinen lightning-noodi on "Käytössä" kohdassa "Lightning" > "Asetukset" > "BTC Lightning Asetukset"
-   Jos et pysty muodostamaan yhteyttä Lightning-noodiisi, yritä käynnistää palvelimesi uudelleen tai lue lisätietoja BTCPay Serverin virallisesta dokumentaatiosta; https://docs.btcpayserver.org/Troubleshooting/ . Et voi hyväksyä Lightning-maksuja kaupassasi ennen kuin Lightning-noodisi näkyy "Online"-tilassa. Kokeile testata Lightning-yhteyttäsi napsauttamalla "Public Node Info" -linkkiä.
+**Huomautus!**
 
-### Lightning-lompakko
 
-Vasemman valikkopalkin Lightning-lompakko-vaihtoehdosta palvelimen ylläpitäjät löytävät helposti pääsyn RTL:ään, heidän julkiseen nooditietoonsa ja Lightning-asetuksiin, jotka ovat erityisiä heidän BTCPay Server -kaupalleen.
+Sisäisen salamasolmun yhdistäminen ei onnistu - Jos sisäinen yhteys ei onnistu, vahvista:
 
-#### Sisäinen nooditieto
 
-Palvelimen ylläpitäjät voivat napsauttaa sisäistä nooditietoa ja tarkastella palvelimensa tilaa (Online/ Offline) sekä yhteysmerkkijonoa Clearnetille tai Torille.
+1. Bitcoin On-Chain-solmu on täysin synkronoitu
 
-![kuva](assets/en/32.webp)
+2. Sisäinen salamasolmu on "Käytössä" kohdassa "Salama" > "Asetukset" > "BTC Lightning Settings"
 
-#### Yhteyden vaihto
 
-Jos kaupan omistaja päättää käyttää muutoksia Lightning-asetuksissa - Vaihda yhteyttä.
-Julkisen nooditiedon vieressä kaupan omistajat löytävät tämän vaihtoehdon. Se palauttaa alkuperäisen asetuksen ulkoiselle lightning-noodiyhteydelle, täytä uudet Lightning-nooditiedot, napsauta tallenna ja päivitä kauppa uusilla nooditiedoilla.
+Jos et pysty muodostamaan yhteyttä Lightning-solmuun, voit yrittää käynnistää palvelimen uudelleen tai lukea lisätietoja BTCPay Serverin virallisesta dokumentaatiosta; https://docs.btcpayserver.org/Troubleshooting/. Et voi hyväksyä Lightning-maksuja kaupassasi ennen kuin Lightning-solmusi näkyy "Online". Yritä testata Lightning-yhteytesi napsauttamalla "Public Node Info" -linkkiä.
 
-![kuva](assets/en/33.webp)
+
+### Salama Wallet
+
+
+Vasemman valikkopalkin Lightning Wallet -vaihtoehdossa palvelimen ylläpitäjät pääsevät helposti käsiksi RTL:ään, julkiseen solmuunsa ja BTCPay-palvelimen myymälän Lightning-asetuksiin.
+
+
+#### Solmun sisäiset tiedot
+
+
+Palvelimen ylläpitäjät voivat napsauttaa sisäisen solmun tietoja nähdäkseen palvelimen tilan (Online/Offline) ja yhteysmerkkijonon Clearnetiin tai Toriin.
+
+
+![image](assets/en/033.webp)
+
+
+#### Vaihda yhteys
+
+
+Voit vaihtaa ulkoisen Lightning-solmun siirtymällä kohtaan "Lightning-asetukset" ja napsauttamalla "Vaihda yhteys" (kohdan "Julkisen solmun tiedot" vieressä). Tämä nollaa nykyiset asetukset. Syötä uudet solmun tiedot, napsauta Tallenna, ja kauppa päivittyy vastaavasti.
+
+
+![image](assets/en/034.webp)
+
 
 #### Palvelut
 
-Jos palvelimen ylläpitäjä päättää asentaa useita palveluita Lightning-toteutusta varten, ne luetellaan täällä. Standardin LND-toteutuksen yhteydessä ylläpitäjillä on Ride The Lightning (RTL) standardityökaluna noodinhallintaan.
 
-#### BTC Lightning -lompakon asetukset
+Jos palvelimen ylläpitäjä päättää asentaa useita palveluja Lightning-toteutusta varten, ne luetellaan tässä. LND-standarditoteutuksen kanssa ylläpitäjillä on Ride The Lightning (RTL) vakiovälineenä solmujen hallintaan.
 
-Lisättyään Lightning-noodin kauppaan aiemmassa vaiheessa, Lightning-lompakon asetuksissa kaupan omistajat voivat silti päättää poistaa sen käytöstä kaupassaan käyttämällä Togglea Lightning-asetusten yläosassa.
 
-![kuva](assets/en/34.webp)
+#### BTC Lightning Wallet asetukset
 
-#### Lightning-maksuvaihtoehdot
 
-Kaupan omistajat voivat asettaa parametreja seuraaville parantaakseen Lightning-kokemusta asiakkailleen.
+Kun olet lisännyt Lightning-solmun kauppaan edellisessä vaiheessa, kaupan omistajat voivat vielä poistaa sen käytöstä myymälässään käyttämällä Lightning-asetusten yläosassa olevaa Vaihda-vaihtoehtoa.
 
-- Näytä Lightning-maksusummat Satosheina.
-- Lisää hyppyvihjeitä yksityisiin kanaviin Lightning-laskuun.
-- Yhdistä on-chain ja Lightning-maksu URL/QR-koodit kassalla.
-- Aseta kuvausmalli Lightning-laskuille.
+
+![image](assets/en/035.webp)
+
+
+#### Lightning Maksuvaihtoehdot
+
+
+Kaupan omistajat voivat asettaa seuraavat parametrit parantaakseen Lightning-kokemusta asiakkailleen.
+
+
+
+- Näyttää salamamaksujen summat Satoshisina.
+- Lisää hyppyvihjeitä yksityisiä kanavia varten Lightning Invoice:een.
+- Yhtenäistä On-Chain- ja Lightning-maksun URL/QR-koodit kassalla.
+- Aseta kuvausmalli salamalaskuille.
+
 
 #### LNURL
 
-Kaupan omistajat voivat valita käyttävätkö he LNURL:ää vai eivät. Lightning Network URL eli LNURL on ehdotettu standardi Lightning-maksajan ja -saajan välisille vuorovaikutuksille. Lyhyesti sanottuna LNURL on bech32-koodattu URL, joka on etuliitteellä lnurl. Lightning-lompakon odotetaan purkavan URL:n, ottavan yhteyttä URL:ään ja odottavan JSON-objektia, jossa on lisäohjeita, erityisesti tagi, joka määrittelee lnurl:n käyttäytymisen.
+
+Kaupan omistajat voivat valita, käyttävätkö he LNURL:ää vai eivät. Lightning Network URL eli LNURL on ehdotettu standardi Lightning Payerin ja maksunsaajan väliselle vuorovaikutukselle. Lyhyesti sanottuna LNURL on bech32-koodattu URL-osoite, jonka etuliitteenä on LNURL. Lightning Wallet:n odotetaan purkavan URL-osoitteen, ottavan yhteyttä URL-osoitteeseen ja odottavan JSON-objektia, jossa on lisäohjeita, erityisesti tunniste, joka määrittelee LNURL:n käyttäytymisen.
+
+
 
 - Ota LNURL käyttöön
-- LNURL Classic Mode
-  - Lompakon yhteensopivuuden vuoksi, Bech32-koodattu (klassinen) vs. selväkielinen URL (tuleva)
-- Salli maksajan lisätä kommentti.
+- LNURL Klassinen tila
+  - Wallet-yhteensopivuutta varten, Bech32-koodattu (klassinen) vs. selkeätekstinen URL-osoite (tulossa)
+- Salli maksunsaajan antaa kommentti.
+
 
 ### Esimerkki 1
 
-#### Yhdistä Lightningiin sisäisen noodin kautta (Ylläpitäjä)
 
-Tämä vaihtoehto on käytettävissä vain, jos olet tämän instanssin ylläpitäjä tai jos ylläpitäjä on muuttanut oletusasetuksia, joissa käyttäjät voivat käyttää sisäistä lightning-noodia.
+#### Muodosta yhteys Lightningiin sisäisen solmun kautta (järjestelmänvalvoja)
 
-Ylläpitäjänä, napsauta Lightning Wallet -kohtaa vasemmassa valikkopalkissa. BTCPay Server pyytää käyttämään yhtä kahdesta vaihtoehdosta Lightning-noodin yhdistämiseen, sisäinen nood tai mukautettu ulkoinen nood. Napsauta Käytä sisäistä noodia ja napsauta tallenna.
 
-#### Lightning-noodisi hallinta (RTL)
+Tämä vaihtoehto on käytettävissä vain, jos olet tämän instanssin järjestelmänvalvoja tai jos järjestelmänvalvoja on muuttanut oletusasetuksia niin, että käyttäjät voivat käyttää sisäistä salamasolmua.
 
-Yhdistettyäsi sisäiseen lightning-noodiin, BTCPay Server päivittyy ja näyttää ilmoituksen "BTC Lightning nood päivitetty", vahvistaen nyt yhdistäneesi Lightningin kauppaasi.
 
-Lightning-noodin hallinta on palvelimen ylläpitäjän tehtävä. Tämä sisältää.
+Napsauta ylläpitäjänä Lightning Wallet vasemmanpuoleisessa valikkopalkissa. BTCPay Server pyytää sinua valitsemaan toisen kahdesta vaihtoehdosta Lightning-solmun liittämiseksi: sisäinen solmu tai mukautettu ulkoinen solmu. Napsauta "Käytä sisäistä solmua" ja napsauta sitten "Tallenna"
 
-- Hallitse transaktioita
-- Likviditeetin hallinta
-  - Sisääntuleva likviditeetti
-  - Ulosmenevä likviditeetti
+
+#### Lightning-solmun hallinta (RTL)
+
+
+Kun olet muodostanut yhteyden sisäiseen Lightning-solmuun, BTCPay Server päivittyy ja näyttää ilmoituksen "BTC Lightning node updated", joka vahvistaa, että olet nyt yhdistänyt Lightningin myymälääsi.
+
+
+Salamasolmun hallinta on palvelimen ylläpitäjän tehtävä. Siihen kuuluu seuraavaa:
+
+
+- Hallitse tapahtumaa
+- Maksuvalmiuden hallinta
+  - Saapuva likviditeetti
+  - Lähtevä likviditeetti
 - Vertaisten ja kanavien hallinta
-  - Yhdistetyt vertaiset
+  - Liitetyt vertaisvertaisvertaisvertaisvertaisvertaisvertaisvertaiset
   - Kanavamaksut
   - Kanavan tila
-- Säännölliset varmuuskopioiden tekemiset kanavatiloista.
+- Kanavan tilojen varmuuskopiointi usein.
 - Reititysraporttien tarkistaminen
-- Vaihtoehtoisesti voit käyttää palveluita, kuten Loop.
+- Vaihtoehtoisesti voit käyttää Loopin kaltaisia palveluja.
 
-Kaikki salamaverkkosolmun hallinta tehdään standardina RTL:n kautta (olettaen, että käytät LND-toteutusta). Ylläpitäjät voivat klikata Lightning Walletiaan BTCPay Serverissä ja löytää painikkeen RTL:n avaamiseksi. BTCPay Serverin päävalikko on nyt päivitetty salamaverkon tiilillä, mukaan lukien nopea pääsy RTL:ään.
+
+Kaikki salamasolmujen hallinta tapahtuu vakiona RTL:n kanssa (olettaen, että käytät LND-toteutusta). Järjestelmänvalvojat voivat napsauttaa Lightning Wallet -solmua BTCPay Serverissä ja löytää painikkeen RTL:n avaamiseksi. BTCPay Serverin tärkein kojelauta on nyt päivitetty Lightning Network-laatoilla, mukaan lukien nopea pääsy RTL:ään.
+
 
 ### Esimerkki 2
 
-#### Yhdistä salamaverkkoon Albyn avulla
 
-Kun yhdistetään holhoojan, kuten Albyn kanssa, kauppiaiden tulisi ensin luoda tili, käy osoitteessa: https://getalby.com/
+#### Yhdistä salama Albyn kanssa
 
-![kuva](assets/en/35.webp)
 
-Alby-tilin luomisen jälkeen, siirry BTCPay Server kauppaasi.
+Albyn kaltaiseen säilyttäjään yhteyttä ottaessaan kauppojen omistajien on ensin luotava tili ja käytävä osoitteessa https://getalby.com/
 
-Vaihe 1: Klikkaa 'Aseta salamaverkkosolmu' Dashboardissa tai 'Salamaverkko' lompakoiden alla.
 
-![kuva](assets/en/36.webp)
+![image](assets/en/036.webp)
 
-Vaihe 2: Syötä lompakkoyhteystietosi, jotka Alby on antanut. Albyn Dashboardissa, klikkaa Wallet. Täältä löydät "Wallet Connection Credentials". Kopioi nämä tiedot. Liitä Albyn antamat tiedot Yhteyskonfiguraatiokenttään BTCPay Serverissä.
 
-![kuva](assets/en/37.webp)
+Kun olet luonut Alby-tilin, siirry BTCPay Server -myymälääsi.
 
-Vaihe 3: Kun olet antanut BTCPay Serverille yhteystiedot, klikkaa "Testaa yhteyttä" -painiketta varmistaaksesi, että yhteys toimii asianmukaisesti. Huomaa "Yhteys salamaverkkosolmuun onnistui" -viesti näytön yläosassa. Tämä vahvistaa, että kaikki toimii järjestyksessä.
 
-![kuva](assets/en/38.webp)
+Vaihe 1: Napsauta "Set up a Lightning node" (Lightning-solmun perustaminen) kojelaudalla tai "Lightning" (Lightning) lompakoiden alapuolella.
 
-Vaihe 4: Klikkaa tallenna, ja kauppasi on nyt yhdistetty salamaverkkosolmuun Albyn kautta.
 
-![kuva](assets/en/39.webp)
+![image](assets/en/037.webp)
+
+
+Vaihe 2: Aseta Albyn toimittamat Wallet-yhteystietosi. Napsauta Albyn kojelaudalla Wallet:ta. Täältä löydät "Wallet Connection Credentials". Kopioi nämä tunnistetiedot. Liitä Albyn valtakirjat BTCPay Serverin Connection configuration -kenttään.
+
+
+![image](assets/en/038.webp)
+
+
+Vaihe 3: Kun olet antanut BTCPay-palvelimelle yhteyden tiedot, napsauta "Testaa yhteys" -painiketta varmistaaksesi, että yhteys toimii oikein. Huomaa näytön yläreunassa oleva viesti "Yhteys salaman solmuun onnistui". Tämä vahvistaa, että kaikki toimii odotetulla tavalla.
+
+
+![image](assets/en/039.webp)
+
+
+Vaihe 4: Napsauta "Tallenna", ja kauppasi on nyt yhdistetty Albyn Lightning-solmuun.
+
+
+![image](assets/en/040.webp)
+
 
 **!Huom!**
 
-Älä luota holhoojan salamaverkkoratkaisuun enemmän kuin olet valmis menettämään.
 
-### Taitojen Yhteenveto
+Älä koskaan luota säilyttäjän Lightning-ratkaisuun enempää arvoa kuin olet valmis menettämään.
 
-Tässä osiossa opit:
 
-- Miten yhdistää sisäinen tai ulkoinen salamaverkkosolmu
-- Eri salamaverkkoon liittyvien tiilien sisällöt ja toiminnot Dashboardissa
-- Miten konfiguroida salamaverkkolompakko käyttäen Voltage Surgea tai Albya
+### Taitojen yhteenveto
 
-### Tiedon arviointi Käytännön katsaus
 
-Kuvaile joitakin vaihtoehtoja salamaverkkolompakon yhdistämiseksi kauppaasi.
+Tässä jaksossa opit:
 
-# BTCPay Server Käyttöliittymä
+
+
+- Sisäisen tai ulkoisen Lightning-solmun liittäminen
+- Kojelaudan eri salamoihin liittyvien laatikoiden sisältö ja toiminta
+- Lightning Wallet:n konfigurointi käyttämällä Voltage Surge- tai Alby-jännitettä
+
+
+### Tietojen arviointi Käytännön tarkastelu
+
+
+Kuvaile joitakin eri vaihtoehtoja Lightning Wallet:n liittämiseksi myymälääsi.
+
+
+# BTCPay-palvelin Interface
+
 
 <partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
 
-## Dashboardin yleiskatsaus
+
+## Yleiskatsaus kojelautaan
+
 
 <chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
 
-BTCPay Server on modulaarinen ohjelmistopaketti. Kuitenkin, on olemassa standardeja, joita jokainen BTCPay Server tulee sisältämään ja joita Ylläpitäjä/käyttäjät tulevat käyttämään. Aloittaen Dashboardista. Jokaisen BTCPay Serverin pääsykohde kirjautumisen jälkeen. Dashboard tarjoaa yleiskatsauksen siitä, miten kauppasi suoriutuu, lompakon nykyisen saldon ja viimeisimmät tx:t viimeisen 7 päivän ajalta. Koska se on modulaarinen näkymä, Pluginien on mahdollista hyödyntää tätä näkymää hyödykseen ja luoda omia tiilejään Dashboardiin. Tässä oppikirjassa puhumme vain standardi plugineista/ sovelluksista ja niiden vastaavista näkymistä läpi BTCPay Serverin.
 
-### Dashboardin Tiilet
+BTCPay Server on modulaarinen ohjelmistopaketti. On kuitenkin olemassa standardeja, joita jokaisen BTCPay Serverin on noudatettava, ja nämä standardit ohjaavat järjestelmänvalvojan ja käyttäjien välistä vuorovaikutusta. Aloitetaan kojelaudasta. Jokaisen BTCPay Server -palvelimen tärkein sisäänkirjautumiskohta kirjautumisen jälkeen. Dashboard tarjoaa yleiskatsauksen kauppasi suorituskyvystä, Wallet:n tämänhetkisestä saldosta ja viimeisten 7 päivän tapahtumista. Koska kyseessä on modulaarinen näkymä, liitännäisohjelmat voivat käyttää tätä näkymää hyödykseen ja luoda omia laatoituksiaan Dashboardiin. Tällä kurssilla käsittelemme vain vakiolisäosia ja -sovelluksia sekä niiden näkymiä koko BTCPay Serverissä.
 
-BTCPay Serverin päävalikon näkymässä on useita standarditiilejä saatavilla. Nämä tiilet on tarkoitettu kaupan omistajalle tai Ylläpitäjälle hallitakseen kauppaansa nopeasti yhdessä yleiskatsauksessa.
 
-- Lompakon saldo
-- Tapahtumatoiminta
-- Salamaverkon saldo (jos salamaverkko on käytössä kaupassa)
-- Salamaverkon palvelut (jos salamaverkko on käytössä kaupassa)
-- Viimeaikaiset tapahtumat.
-- Viimeaikaiset laskut
-- Käynnissä olevat joukkorahoitukset
-- Kaupan suorituskyky / myydyimmät tuotteet.
+### Kojelaudan laatat
 
-### Lompakon saldo
 
-Lompakon Saldo -laatta tarjoaa nopean yleiskatsauksen lompakkosi varoihin ja suorituskykyyn. Sen voi tarkastella joko BTC:ssä tai Fiat-valuutassa viikoittaisena, kuukausittaisena tai vuosittaisena graafina.
-![kuva](assets/en/40.webp)
+BTCPay Serverin kojelaudan päänäkymässä on käytettävissä pari vakiolaattaa. Nämä laatat on suunniteltu niin, että myymälän omistaja tai ylläpitäjä voi hallita myymäläänsä nopeasti yhdellä yleiskatsauksella.
 
-### Tapahtumatoiminta
 
-Lompakon Saldo -laatan vieressä BTCPay Server näyttää nopean yleiskatsauksen odottavista maksuista, viimeisen 7 päivän aikana tapahtuneiden Tapahtumien määrästä, ja onko kauppasi myöntänyt hyvityksiä. Hallinta-painikkeen klikkaaminen vie sinut odottavien maksujen hallintaan (lisätietoja maksuista BTCPay Server - Maksut -luvussa).
 
-![kuva](assets/en/41.webp)
+- Wallet tasapaino
+- Transaktiotoiminta
+- Lightning-saldo (jos Lightning on käytössä kaupassa)
+- Lightning-palvelut (jos Lightning on käytössä kaupassa)
+- Viimeaikaiset liiketoimet.
+- Viimeisimmät laskut
+- Nykyiset aktiiviset joukkorahoitukset
+- Myymälän suorituskyky / myydyimmät tuotteet.
 
-### Salama Saldo
+
+### Wallet tasapaino
+
+
+Wallet:n saldolaatta antaa nopean yleiskuvan Wallet:n varoista ja suorituskyvystä. Sitä voidaan tarkastella joko BTC- tai Fiat-valuutassa viikoittaisena, kuukausittaisena tai vuosittaisena kuvaajana.
+
+
+![image](assets/en/041.webp)
+
+
+### Transaktiotoiminta
+
+
+Wallet-saldolaatan vieressä BTCPay Server näyttää nopean yleiskatsauksen vireillä olevista maksuista, tapahtumien määrästä viimeisten 7 päivän aikana ja siitä, onko myymäläsi myöntänyt palautuksia. Napsauttamalla Hallitse-painiketta pääset vireillä olevien maksujen hallintaan (lisätietoja maksuista on luvussa BTCPay Server - Maksut).
+
+
+![image](assets/en/042.webp)
+
+
+### Salama tasapaino
+
 
 Tämä näkyy vain, kun Salama on aktivoitu.
 
-Kun Ylläpitäjä on sallinut Salama-verkon käytön, BTCPay Serverin hallintapaneelissa on nyt uusi laatta, jossa on tietoa Salama-nodestasi. Kuinka paljon BTC:tä on kanavissa, miten tämä jakautuu paikallisesti tai etäisesti (sisääntuleva tai ulostuleva likviditeetti), ovatko kanavat sulkeutumassa tai avautumassa, ja kuinka paljon bitcoinia on pidetty on-chain Salama-nodessa.
 
-![kuva](assets/en/42.webp)
+Kun järjestelmänvalvoja on sallinut Lightning Network:n käyttöoikeuden, BTCPay Serverin kojelaudalla on nyt uusi laatta, jossa on Lightning-solmun tiedot. Kuinka paljon BTC:tä on kanavissa, miten tämä on tasapainotettu paikallisesti tai etänä (saapuva tai lähtevä likviditeetti), ovatko kanavat sulkeutumassa tai avautumassa ja kuinka paljon Bitcoin:aa On-Chain:lla on Lightning-solmussa.
 
-### Salama Palvelut
+
+![image](assets/en/043.webp)
+
+
+### Salama-palvelut
+
 
 Tämä näkyy vain, kun salama on aktiivinen.
 
-BTCPay Serverin hallintapaneelissa Salama-saldon näkemisen lisäksi ylläpitäjät näkevät myös Salama Palvelut -laatan. Täällä ylläpitäjät voivat löytää nopeita painikkeita työkaluille, joita he käyttävät Salama-nodensa hallintaan; esimerkiksi Ride the Lightning on yksi BTCPay Serverin vakiotyökaluista Salama-noden hallintaan.
 
-![kuva](assets/en/43.webp)
+Sen lisäksi, että ylläpitäjät näkevät Lightning-saldosi BTCPay-palvelimen kojelaudalla, he näkevät myös Lightning-palveluiden laatan. Täältä ylläpitäjät löytävät pikapainikkeet työkaluille, joita he käyttävät Lightning-solmunsa hallintaan; esimerkiksi Ride the Lightning on yksi BTCPay Serverin vakiotyökalu Lightning-solmun hallintaan.
 
-### Viimeaikaiset Tapahtumat
 
-Viimeaikaisten tapahtumien laatta näyttää kauppasi viimeisimmät tapahtumat. Yhdellä klikkauksella BTCPay Serverin instanssin Ylläpitäjä voi nyt nähdä viimeisimmän tapahtuman ja tarkistaa, tarvitaanko siihen huomiota.
+![image](assets/en/044.webp)
 
-![kuva](assets/en/44.webp)
 
-### Viimeaikaiset laskut
+### Viimeaikaiset liiketoimet
 
-Viimeaikaisten laskujen laatta näyttää kuusi viimeisintä BTCPay Serverillä luotua laskua, mukaan lukien tilan ja laskun määrän. Laatta sisältää myös "Näytä kaikki" -painikkeen, jolla pääsee helposti käsiksi koko Laskujen yleiskatsaukseen.
 
-![kuva](assets/en/45.webp)
+Viimeisimmät tapahtumat -laatta näyttää kauppasi viimeisimmät tapahtumat. Yhdellä napsautuksella BTCPay-palvelimen ylläpitäjä näkee viimeisimmän tapahtuman ja näkee, onko siihen kiinnitettävä huomiota.
 
-### Kassapiste ja Joukkorahoitukset
 
-Koska BTCPay Server tarjoaa joukon vakio-liitännäisiä tai sovelluksia, Kassapiste ja Joukkorahoitus ovat kaksi BTCPay Serverin pääliitännäistä. Jokaiselle kaupalle ja lompakolle BTCPay Serverin käyttäjä voi luoda niin monta Kassapistettä tai Joukkorahoitusta kuin katsoo sopivaksi. Kumpikin luo uuden hallintapaneelin laatikon, joka näyttää liitännäisten suorituskyvyn.
+![image](assets/en/045.webp)
 
-![kuva](assets/en/46.webp)
 
-Huomaa pieni ero Kassapisteen ja Joukkorahoituksen laatikon välillä. Ylläpitäjä näkee Kassapisteen laatikossa myydyimmät tuotteet. Joukkorahoituslaatikossa tämä muuttuu Parhaiksi Eduiksi. Molemmissa laatikoissa on nopeita painikkeita vastaavan sovelluksen hallintaan ja viimeaikaisten laskujen tarkasteluun, jotka on luotu myydyimmistä tuotteista tai parhaista eduista.
+### Viimeisimmät laskut
 
-![kuva](assets/en/47.webp)
 
-**!?Huomio!?**
+Viimeisimmät laskut -laatta näyttää 6 viimeisintä BTCPay-palvelimen luomaa laskua, mukaan lukien tila ja Invoice-summa. Laatassa on myös "Näytä kaikki" -painike, jolla pääset helposti koko Invoice-yleiskatsaukseen.
 
-Saldojen graafit ja viimeaikaiset tapahtumat ovat saatavilla vain on-chain maksutavalle. Tiedot Salama-verkon saldoista ja tapahtumista ovat työn alla. BTCPay Serverin version 1.6.0 mukaan perustiedot Salama-verkon saldoista ovat saatavilla.
 
-### Taitojen Yhteenveto
+![image](assets/en/046.webp)
 
-Tässä osiossa opit seuraavat asiat:
 
-- Laattojen perusasettelu pääsivulla tunnetaan nimellä Hallintapaneeli.
-- Perustiedot kunkin laatikon sisällöstä.
+### Myyntipiste ja joukkorahoitus
 
-### Tiedon Arvioinnin Yhteenveto
 
-Listaa muististasi niin monta laatikkoa kuin voit Hallintapaneelista.
+Koska BTCPay Server tarjoaa joukon vakiolisäosia tai -sovelluksia, Point Of Sale ja Crowdfund ovat BTCPay Serverin kaksi tärkeintä lisäosaa. Jokaisen myymälän ja Wallet:n kanssa BTCPay Serverin käyttäjä voi generate käyttää niin monta myyntipistettä tai joukkorahoitusta kuin parhaaksi näkee. Kukin luo uuden kojelautalaatan, joka näyttää liitännäisten suorituskyvyn.
 
-## BTCPay Server - Kaupan asetukset
+
+![image](assets/en/047.webp)
+
+
+Huomaa pieni ero myyntipisteen ja joukkorahoituslaatan välillä. Ylläpitäjä näkee myydyimmät myytävät kohteet Myyntipiste-laatassa. Joukkorahoituslaatassa tästä tulee Top Perks. Molemmissa laatikoissa on pikapainikkeet, joiden avulla voit hallita kyseistä sovellusta ja tarkastella viimeisimpiä laskuja, jotka on luotu suosituimpien kohteiden tai suosituimpien etujen perusteella.
+
+
+![image](assets/en/048.webp)
+
+
+**!?Huomautus!?**
+
+
+Saldokaaviot ja viimeaikaiset maksutapahtumat ovat käytettävissä vain On-Chain-maksutavoille. Lightning Network-saldoja ja maksutapahtumia koskevat tiedot ovat työlistalla. BTCPay-palvelimen versiosta 1.6.0 alkaen Lightning Network:n perussaldot ovat saatavilla.
+
+
+### Taitojen yhteenveto
+
+
+Tässä jaksossa opit seuraavat asiat:
+
+
+
+- Tärkeimmän aloitussivun laattojen perusasettelua kutsutaan nimellä Dashboard.
+- Perusymmärrys kunkin laatan sisällöstä.
+
+
+### Osaamisen arvioinnin arviointi
+
+
+Luettele muistista niin monta laattaa kuin mahdollista Dashboardista.
+
+
+## BTCPay Server - Tallennusasetukset
+
 
 <chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
-BTCPay Server -ohjelmistossa tunnemme kaksi tyyppiä asetuksia. BTCPay Serverin kauppakohtaiset asetukset, jotka löytyvät vasemman valikon alapuolelta Dashboardin alta, ja BTCPay Serverin yleiset asetukset, jotka löytyvät valikon alaosasta juuri Accountin yläpuolelta. Vain palvelimen ylläpitäjät voivat tarkastella BTCPay Serverin palvelinkohtaisia asetuksia.
-Kaupan asetukset koostuvat monista välilehdistä, jotka kategorisoivat kunkin asetussarjan.
 
-- Yleiset
-- Kurssit
-- Kassan Ulkoasu
-- Pääsytunnukset
+
+BTCPay Server -ohjelmistossa on kahdenlaisia asetuksia. BTCPay Server -kauppakohtaiset asetukset, asetuspainike, joka löytyy vasemmasta valikkorivistä Dashboardin alapuolelta, ja BTCPay Server -asetukset, jotka löytyvät valikkorivin alareunasta, suoraan Accountin yläpuolelta. BTCPay Server -palvelinkohtaisia asetuksia voivat tarkastella vain palvelimen ylläpitäjät.
+
+
+Kaupan asetukset koostuvat monista välilehdistä, joilla kukin asetuskokonaisuus voidaan luokitella.
+
+
+
+- Yleistä
+- Hinnat
+- Kassan ulkonäkö
+- Access Tokens
 - Käyttäjät
 - Roolit
-- Webhookit
-- Maksuprosessorit
+- Verkkokoukut
+- Maksujen käsittelijät
 - Sähköpostit
 - Lomakkeet
 
-### Yleiset
 
-Yleiset asetukset -välilehdellä kaupan omistajat asettavat brändäyksensä ja maksuoletukset. Kaupan alustavassa asetuksessa kaupalle annettiin nimi; tämä heijastuu Yleiset asetukset -kohdassa Kaupan Nimen alla. Täällä kaupan omistaja voi myös asettaa verkkosivustonsa vastaamaan brändäystä ja Kaupan ID:n, jotta ylläpitäjä tunnistaa sen tietokannassa.
+### Yleistä
+
+
+Yleiset asetukset -välilehdellä kaupan omistajat asettavat brändin ja maksujen oletusasetukset. Myymälän alkuasetusten yhteydessä annettiin myymälän nimi; tämä näkyy Yleiset asetukset -kohdassa Myymälän nimi. Täällä myymälän omistaja voi myös asettaa verkkosivustonsa vastaamaan brändäystä ja myymälätunnuksen, jonka ylläpitäjä tunnistaa tietokannassa.
+
 
 #### Brändäys
 
-Koska BTCPay Server on FOSS, kaupan omistaja voi tehdä mukautetun brändäyksen vastaamaan omaa kauppaansa. Aseta brändin väri, tallenna brändisi logot ja lisää mukautettua CSS:ää julkisille/asiakkaalle näkyville sivuille (Laskut, Maksupyynnöt, Vetomaksut)
+
+Koska BTCPay Server on FOSS, kaupan omistaja voi tehdä mukautetun brändäyksen, joka sopii hänen kauppaansa. Aseta brändin väri, tallenna brändisi logot ja lisää mukautettu CSS julkisille/asiakkaille suunnatuille sivuille (laskut, maksupyynnöt, pull-maksut)
+
 
 #### Maksu
 
-Maksuasetuksissa kaupan omistajat voivat asettaa kauppansa oletusvaluutan (joko Bitcoinissa tai missä tahansa fiat-valuutassa).
 
-#### Salli kenen tahansa luoda laskuja
+Kaupan omistajat voivat asettaa maksujen asetuksissa kaupan oletusvaluutan (joko Bitcoin tai mikä tahansa fiat-valuutta).
 
-Tämä asetus on tarkoitettu kehittäjille tai rakentajille BTCPay Serverin päällä. Tämän asetuksen kytkeminen päälle kaupallesi mahdollistaa ulkopuolisten luoda laskuja BTCPay Server -instanssissasi.
 
-#### Lisää lisämaksu (verkkomaksu) laskuihin
+#### Anna kenen tahansa luoda laskuja
 
-Ominaisuus BTCPayssa suojatakseen kauppiaita pölyhyökkäyksiltä tai asiakkailta, jotka aiheuttavat korkeita kuluja myöhemmin, kun kauppiaan täytyy siirtää suuri määrä bitcoineja kerralla. Esimerkiksi asiakas loi 20 dollarin laskun ja maksoi sen osittain, maksamalla 1 dollarin 20 kertaa, kunnes lasku oli kokonaan maksettu. Kauppiaalla on nyt suurempi transaktio, mikä lisää louhintakustannuksia, jos kauppias päättää siirtää nuo varat myöhemmin. Oletuksena BTCPay lisää lisäverkkokustannuksen kokonaislaskun määrään kattamaan tuon kulun kauppiaalle, kun lasku maksetaan useassa transaktiossa. BTCPay tarjoaa useita vaihtoehtoja mukauttaa tätä suojatoimintoa. Voit soveltaa verkkomaksua:
 
-- Vain jos asiakas tekee enemmän kuin yhden maksun laskulle (Yllä olevassa esimerkissä, jos asiakas loi 20\$ laskun ja maksoi 1\$, kokonaismaksuvelka on nyt 19\$ + verkkomaksu. Verkkomaksu lisätään ensimmäisen maksun jälkeen)
-- Jokaisesta maksusta (mukaan lukien ensimmäinen maksu, esimerkissämme kokonaismäärä olisi heti 20\$ + verkkomaksu, jopa ensimmäisestä maksusta)
+Tämä asetus on tarkoitettu kehittäjille tai BTCPay Serverin päälle rakentajille. Kun tämä asetus on käytössä kaupassasi, se sallii ulkopuolisen maailman luoda laskuja BTCPay Server -instanssissasi.
+
+
+#### Lisämaksun (verkkomaksu) lisääminen laskuihin
+
+
+BTCPayn ominaisuus, joka suojaa kauppiaita Dust-hyökkäyksiltä tai asiakkaita kalliilta maksuilta myöhemmin, kun kauppiaan on siirrettävä suuri määrä Bitcoin:tä kerralla. Esimerkiksi asiakas loi Invoice:n 20$:n arvosta ja maksoi sen osittain maksamalla 1$ 20 kertaa, kunnes Invoice oli maksettu kokonaan. Kauppiaalla on nyt suurempi maksutapahtuma, mikä lisää Mining-kustannuksia, jos kauppias päättää siirtää kyseiset varat myöhemmin. Oletusarvoisesti BTCPay soveltaa ylimääräistä verkkokustannusta Invoice:n kokonaissummaan, jotta tämä kulu katetaan kauppiaalle, kun Invoice maksetaan useissa transaktioissa. BTCPay tarjoaa useita vaihtoehtoja tämän suojaustoiminnon mukauttamiseksi. Voit soveltaa verkkomaksua:
+
+
+
+- Vain jos asiakas maksaa Invoice:stä useamman kuin yhden maksun (yllä olevassa esimerkissä, jos asiakas on luonut Invoice:n 20\$:n arvosta ja maksanut 1\$:n, maksettava Invoice:n kokonaismäärä on nyt 19\$ + verkkomaksu. Verkkomaksu peritään ensimmäisen maksun jälkeen)
+- Jokaisella maksulla (myös ensimmäisellä maksulla, esimerkissämme summa on 20\$ + verkkomaksu heti, jopa ensimmäisellä maksulla)
 - Älä koskaan lisää verkkomaksua (poistaa verkkomaksun kokonaan käytöstä)
 
-Vaikka se suojaa pölytransaktioilta, se voi myös heijastua kielteisesti yrityksiin, jos sitä ei kommunikoida kunnolla. Asiakkailla saattaa olla lisäkysymyksiä ja he saattavat ajatella, että heitä veloitetaan liikaa.
 
-#### Lasku vanhenee, jos koko summaa ei ole maksettu jälkeen?
+Vaikka se suojaa Dust-tapahtumilta, se voi myös vaikuttaa kielteisesti yrityksiin, jos siitä ei tiedoteta asianmukaisesti. Asiakkailla voi olla lisäkysymyksiä ja he voivat luulla, että veloitat heiltä liikaa.
 
-Laskun ajastin on oletuksena asetettu 15 minuuttiin. Ajastin on suojamekanismi volatiliteettia vastaan, koska se lukitsee Bitcoin-määrän Bitcoinin ja fiat-valuutan kurssien mukaan. Jos asiakas ei maksa laskua määritellyssä ajassa, lasku katsotaan vanhentuneeksi. Lasku katsotaan "maksetuksi" heti, kun transaktio näkyy lohkoketjussa (0-vahvistusta) mutta "valmiiksi" kun se saavuttaa kauppiaan määrittelemän vahvistusten määrän (yleensä 1-6). Ajastin on mukautettavissa minuuteittain.
 
-#### Katsotaan lasku maksetuksi, vaikka maksettu summa on X% vähemmän kuin odotettu?
+#### Invoice raukeaa, jos koko summaa ei ole maksettu sen jälkeen?
 
-Kun asiakas käyttää vaihtopalvelun lompakkoa maksamaan suoraan laskusta, vaihto ottaa pienen maksun. Tämä tarkoittaa, että tällaista laskua ei katsota täysin suoritetuksi. Lasku saa tilan "osittain maksettu". Voit asettaa prosenttiosuuden tässä, jos kauppias haluaa hyväksyä alimaksetut laskut.
+
+Invoice:n ajastin on oletusarvoisesti asetettu 15 minuuttiin. Ajastin toimii suojamekanismina volatiliteettia vastaan, sillä se lukitsee Bitcoin-määrän Bitcoin:n ja Exchange:n välille asetettujen Bitcoin:n ja Exchange:n välisten hintojen mukaisesti. Jos asiakas ei maksa Invoice-maksua määritellyn ajan kuluessa, Invoice katsotaan vanhentuneeksi. Invoice katsotaan "maksetuksi" heti, kun transaktio näkyy Blockchain:ssä (ilman vahvistuksia), ja se on "valmis", kun se saavuttaa kauppiaan määrittelemän vahvistusten määrän (yleensä 1-6). Ajastin on muokattavissa minuuteittain.
+
+
+#### Pidätkö Invoice:tä maksettuna, vaikka maksettu määrä olisi X prosenttia odotettua pienempi?
+
+
+Kun asiakas käyttää Exchange Wallet:ää maksaakseen suoraan Invoice:sta, Exchange perii pienen maksun. Tämä tarkoittaa, että tällaista Invoice:a ei pidetä täysin valmiina. Invoice merkitään "maksettu osittain". Voit asettaa tässä prosenttiosuuden, jos kauppias haluaa hyväksyä vajaasti maksetut laskut.
+
 
 ### Hinnat
 
-BTCPay Serverissä, kun lasku luodaan, tarvitaan aina uusin ja tarkin Bitcoinista fiat-valuuttaan hinta. Uutta kauppaa luodessa BTCPay Serverissä, ylläpitäjiltä kysytään heidän haluamaansa hintalähdettä; kaupan perustamisen jälkeen kaupan omistajat voivat aina muuttaa hintalähdettään tässä välilehdessä.
 
-#### Edistynyt hinnan sääntöjen käsikirjoitus
+BTCPay-palvelimella, kun Invoice generoidaan, se tarvitsee aina ajantasaisimman ja tarkimman Bitcoin-to-fiat-hinnan. Kun ylläpitäjät luovat uuden myymälän BTCPay Serverissä, heitä pyydetään asettamaan haluamansa hintalähde. Kun kauppa on perustettu, kaupan omistajat voivat muuttaa hintalähdettä tällä välilehdellä milloin tahansa.
 
-Pääasiassa voimakäyttäjien käyttämä. Jos tämä on käytössä, kaupan omistajat voivat luoda käsikirjoituksia hinnan käyttäytymisestä ja siitä, miten asiakkailta veloitetaan.
+
+#### Kehittynyt korkosäännön skriptaaminen
+
+
+Pääasiassa tehokäyttäjien käytössä. Jos se on kytketty päälle, kaupan omistajat voivat luoda skriptejä hintakäyttäytymisen ja asiakkaiden veloittamisen ympärille.
+
 
 #### Testaus
 
-Nopea testauspaikka haluamillesi valuuttapareille. Tämä sisältää myös toiminnon oletusvaluuttaparien tarkistamiseen REST-kyselyn kautta.
 
-### Kassan ulkoasu
+Nopea testauspaikka haluamillesi valuuttapareille. Tämä ominaisuus sisältää myös mahdollisuuden tarkistaa oletusvaluuttaparit REST-kyselyn avulla.
 
-Kassan ulkoasuvälilehti alkaa laskukohtaisilla asetuksilla ja oletusmaksutavalla ja mahdollistaa tiettyjen maksutapojen käytön, kun asetetut vaatimukset täyttyvät.
 
-#### Laskun asetukset
+### Kassan ulkonäkö
 
-Oletusmaksutavat. BTCPay Serverin vakioasetuksissa on kolme vaihtoehtoa.
 
-- BTC (ketjussa)
+Kassan ulkonäkö -välilehti alkaa Invoice-kohtaisilla asetuksilla ja oletusmaksutavalla, ja se ottaa käyttöön tietyt maksutavat, kun asetetut vaatimukset täyttyvät.
+
+
+#### Invoice asetukset
+
+
+Oletusmaksutavat. BTCPay-palvelin tarjoaa vakiokokoonpanossaan kolme vaihtoehtoa.
+
+
+
+- BTC (On-Chain)
 - BTC (LNURL-pay)
-- BTC (ketjun ulkopuolella & Lightning)
+- BTC (off-chain & Lightning)
 
-Voimme asettaa parametreja kaupallemme, jossa asiakas vuorovaikuttaa vain Lightningin kanssa, kun hinta on alle X määrän ja päinvastoin ketjussa tapahtuville transaktioille, kun X on suurempi kuin Y, aina esitetään ketjussa tapahtuvan maksun vaihtoehto.
 
-![kuva](assets/en/48.webp)
+Voimme asettaa myymäläämme parametreja, joiden mukaan asiakas on vuorovaikutuksessa Lightningin kanssa vain silloin, kun hinta on pienempi kuin X-määrä, ja päinvastoin On-Chain-tapahtumien osalta, kun X on suurempi kuin Y, On-Chain-maksuvaihtoehto esitetään aina.
+
+
+![image](assets/en/049.webp)
+
 
 #### Kassa
 
-BTCPay Serverin 1.7 julkaisussa esiteltiin uusi Kassa-käyttöliittymä, jota kutsutaan Checkout V2:ksi. Koska julkaisu 1.9 standardoitiin, ylläpitäjät ja kaupan omistajat voivat silti asettaa kassan edelliseen julkaisuun. Käyttämällä vaihtoehtoa "Käytä klassista kassaa", kaupan omistaja voi palauttaa kaupan aiempaan kassa-kokemukseen. BTCPay Serverillä on myös valikoima esiasetuksia verkkokaupalle tai myymäläkokemukselle.
 
-![kuva](assets/en/49.webp)
+BTCPay Server -versiossa 1.7 otettiin käyttöön uusi Checkout Interface, Checkout V2. Koska julkaisu 1.9 standardoitiin, ylläpitäjät ja kauppojen omistajat voivat edelleen asettaa kassan edelliseen julkaisuun. Käyttämällä vaihtokytkintä "Käytä klassista kassakäytäntöä", kaupan omistaja voi palauttaa kaupan aiempaan kassakäytäntöön. BTCPay Serverissä on myös valikoituja esiasetuksia verkkokauppaa tai myymäläkokemusta varten.
 
-Kun asiakas vuorovaikuttaa kaupan kanssa ja luo laskun, laskulla on vanhentumisaika. Oletuksena BTCPay Server asettaa tämän 5 minuutiksi, ja ylläpitäjä voi asettaa tämän mihin tahansa pitää sopivana. Kassasivua voidaan edelleen mukauttaa tarkistamalla seuraavat parametrit:
+
+![image](assets/en/050.webp)
+
+
+Kun asiakas on vuorovaikutuksessa myymälän kanssa ja luo Invoice:n, Invoice:lle on asetettu voimassaoloaika. Oletusarvoisesti BTCPay Server asettaa sen 5 minuutiksi, ja järjestelmänvalvojat voivat säätää sen mieleisekseen. Kassasivua voidaan edelleen mukauttaa tarkistamalla seuraavat parametrit:
+
+
 
 - Juhli maksua näyttämällä konfettia
 - Näytä kaupan otsikko (nimi ja logo)
-- Näytä "Maksa lompakossa" -painike
-- Yhdistä ketjussa ja ketjun ulkopuolella tapahtuvat maksut URL/QR-koodit
-- Näytä Lightning-maksujen määrät Satosheina
-- Automaattinen kielen tunnistus kassalla
+- Näytä "Maksa Wallet:ssä" -painike
+- Yhtenäistetään On-Chain- ja off-chain-maksut URL/QR-osoitteet
+- Näytä salamamaksujen määrät Satoshisina
+- Automaattinen kielen tunnistaminen kassalla
 
-![kuva](assets/en/50.webp)
 
-Kun Automaattinen kielen tunnistus ei ole asetettu, BTCPay Server näyttää oletuksena englannin. Kaupan omistaja voi muuttaa tätä oletusta haluamalleen kielelle.
+![image](assets/en/051.webp)
 
-![kuva](assets/en/51.webp)
 
-Napsauta pudotusvalikkoa ja kaupan omistajat voivat asettaa mukautetun HTML-otsikon, joka näytetään kassasivulla.
+Kun automaattista kielen tunnistusta ei ole asetettu, BTCPay Server näyttää oletusarvoisesti englannin kielen. Kaupan omistaja voi muuttaa tämän oletusarvon haluamakseen kieleksi.
 
-![kuva](assets/en/52.webp)
 
-Jotta asiakas tietää maksutapansa, kaupan omistaja voi nimenomaisesti asettaa kassansa aina vaatimaan käyttäjiä valitsemaan haluamansa maksutavan. Kun lasku on maksettu, BTCPay Server sallii asiakkaan palata verkkokauppaan. Kaupan omistajat voivat asettaa tämän uudelleenohjauksen tapahtumaan automaattisesti sen jälkeen, kun asiakas on maksanut.
+![image](assets/en/052.webp)
 
-![kuva](assets/en/53.webp)
 
-#### Julkinen kuitti
+Napsauta pudotusvalikkoa, ja myymälän omistajat voivat asettaa kassasivulla näytettävän mukautetun HTML-otsikon.
 
-Julkisen kuitin asetuksissa kaupan omistaja voi asettaa kuitin sivut julkisiksi ja näyttää maksulistan kuitusivulla sekä kuitin QR-koodin, jotta asiakas pääsee siihen helposti digitaalisesti.
-![kuva](assets/en/54.webp)
 
-### Pääsytunnukset
+![image](assets/en/053.webp)
 
-Pääsytunnukset ovat käytössä tietyissä e-kaupan integraatioissa tai räätälöidyissä integraatioissa pariliitoksen muodostamiseksi.
 
-![kuva](assets/en/55.webp)
+Varmistaakseen, että asiakkaat tietävät maksutapansa, myymälän omistaja voi nimenomaisesti asettaa kassan aina vaatimaan käyttäjiä valitsemaan haluamansa maksutavan. Kun Invoice on maksettu, BTCPay Server antaa asiakkaan palata verkkokauppaan. Kaupan omistajat voivat asettaa tämän uudelleenohjauksen toimimaan automaattisesti sen jälkeen, kun asiakas on maksanut.
+
+
+![image](assets/en/054.webp)
+
+
+#### Julkinen vastaanotto
+
+
+Kaupan omistaja voi asettaa kuittisivut julkisiksi julkisten kuittien asetuksissa, jolloin kuittisivulla näkyy maksuluettelo ja QR-koodi, jonka avulla asiakas pääsee helposti käsiksi kuittiin.
+
+
+![image](assets/en/055.webp)
+
+
+### Access Tokens
+
+
+Pääsykoodeja käytetään tiettyjen sähköisen kaupankäynnin integraatioiden tai räätälöityjen integraatioiden kanssa.
+
+
+![image](assets/en/056.webp)
+
 
 ### Käyttäjät
 
-Kaupan käyttäjät ovat henkilöitä, joita kaupan omistaja voi hallinnoida: henkilökuntansa jäseniä, heidän tilejään ja pääsyään kauppaan. Henkilökunnan jäsenten luotua tilinsä, kaupan omistaja voi lisätä tiettyjä käyttäjiä kauppaan joko vierailijoina tai omistajina. Henkilökunnan roolin tarkempi määrittely löytyy seuraavasta osiosta nimeltä "BTCPay Serverin kaupan asetukset - Roolit".
 
-![kuva](assets/en/56.webp)
+Myymälän käyttäjät ovat paikka, jossa myymälän omistaja voi hallinnoida työntekijöitään, heidän tilejään ja pääsyä myymälään. Kun henkilökunnan jäsenet ovat luoneet tilinsä, myymälän omistaja voi lisätä tiettyjä käyttäjiä myymälään vieraskäyttäjiksi tai omistajiksi. Jos haluat määritellä tarkemmin henkilökunnan jäsenen roolin, katso seuraava osio "BTCPay-palvelimen myymäläasetukset - Roolit"
+
+
+![image](assets/en/057.webp)
+
 
 ### Roolit
 
-Kaupan omistaja saattaa pitää käyttäjien vakiorooleja riittämättöminä. Mukautetuissa rooliasetuksissa kaupan omistaja voi määritellä tarkat tarpeet kullekin roolille liiketoiminnassaan.
 
-(1) Luodaksesi uuden roolin, klikkaa "+ Lisää rooli" -painiketta.
+Kaupan omistaja ei ehkä pidä käyttäjän vakiorooleja tarpeeksi merkittävinä. Mukautettujen roolien asetuksissa kaupan omistaja voi määritellä kunkin roolin tarkat tarpeet liiketoiminnassaan.
 
-![kuva](assets/en/57.webp)
 
-(2) Anna roolille nimi, esimerkiksi "Kassanhoitaja".
+(1) Voit luoda uuden roolin napsauttamalla "+ Lisää rooli" -painiketta.
 
-![kuva](assets/en/58.webp)
 
-(3) Määritä yksittäiset oikeudet roolille.
+![image](assets/en/058.webp)
 
-- Muokkaa kauppojasi.
-- Hallinnoi kauppoihisi liitettyjä vaihtotilejä.
-  - Katsele kauppoihisi liitettyjä vaihtotilejä.
-- Hallinnoi vetomaksujasi.
-- Luo vetomaksuja.
-  - Luo hyväksymättömiä vetomaksuja.
+
+(2) Kirjoita roolin nimi, esimerkiksi "Cashier".
+
+
+![image](assets/en/059.webp)
+
+
+(3) Määritä roolin yksittäiset käyttöoikeudet.
+
+
+
+- Muokkaa myymälöitäsi.
+- Hallitse myymälöihisi liitettyjä Exchange-tilejä.
+  - Näytä myymälöihisi liitetyt Exchange-tilit.
+- Hallitse vetomaksuja.
+- Luo pull-maksuja.
+  - Luo hyväksymättömiä pull-maksuja.
 - Muokkaa laskuja.
-  - Katsele laskuja.
-  - Luo lasku.
-  - Luo laskuja kauppoihisi liitetyistä salamaverkon solmuista.
-- Katsele kauppojasi.
-  - Katsele laskuja.
-  - Katsele maksupyyntöjäsi.
-  - Muokkaa kauppojesi webkoukkuja.
+  - Tarkastele laskuja.
+  - Luo Invoice.
+  - Luo laskuja myymälöihisi liittyvistä salamasolmuista.
+- Näytä myymälät.
+  - Tarkastele laskuja.
+  - Tarkastele maksupyyntöjäsi.
+  - Muokkaa kauppojen verkkokoukkuja.
 - Muokkaa maksupyyntöjäsi.
-  - Katsele maksupyyntöjäsi.
-- Käytä kauppoihisi liitettyjä salamaverkon solmuja.
-  - Katsele kauppoihisi liitettyjä salamaverkon laskuja.
-  - Luo laskuja kauppoihisi liitetyistä salamaverkon solmuista.
-- Talleta varoja kauppoihisi liitettyihin vaihtotileihin.
-- Nosta varoja kauppojesi vaihtotileiltä kauppaasi.
-- Käy kauppaa kauppasi vaihtotileillä.
+  - Tarkastele maksupyyntöjäsi.
+- Käytä myymälöihisi liittyviä salamasolmuja.
+  - Näytä myymälöihisi liittyvät salamalaskut.
+  - Luo laskuja myymälöihisi liittyvistä salamasolmuista.
+- Talleta varoja myymälöihisi liitetyille Exchange-tileille.
+- Nosta varoja Exchange-tileiltä myymälääsi.
+- Vaihda varoja myymäläsi Exchange-tileillä.
 
-Kun rooli on luotu, sen nimi on kiinteä eikä sitä voi muuttaa muokkaustilassa.
 
-![kuva](assets/en/59.webp)
+Kun rooli luodaan, nimi on kiinteä, eikä sitä voi muuttaa sen jälkeen, kun se on muokkaustilassa.
 
-### Webkoukut
 
-BTCPay Serverissa on suhteellisen helppoa luoda uusi "Webkoukku". BTCPay Serverin kaupan asetuksissa - Webkoukut-välilehdellä kaupan omistaja voi helposti luoda uuden webkoukun klikkaamalla "+ Luo Webkoukku". Webkoukut mahdollistavat BTCPay Serverin lähettämään HTTP-tapahtumia kauppaasi liittyen muihin palvelimiin tai e-kaupan integraatioihin.
+![image](assets/en/060.webp)
 
-![kuva](assets/en/60.webp)
 
-Olet nyt näkymässä, jossa voit luoda Webkoukun. Varmista, että tiedät Payload URL:si ja liitä tämä BTCPay Serveriisi. Payload URL:si liittämisen jälkeen alla näkyy webkoukun salaisuus. Kopioi webkoukun salaisuus ja anna se päätepisteessä. Kun kaikki on asetettu, voit vaihtaa BTCPay Serverissä automaattiseen uudelleentoimitukseen. Yritämme toimittaa uudelleen kaikki epäonnistuneet toimitukset 10 sekunnin, 1 minuutin ja enintään 6 kertaa 10 minuutin jälkeen. Voit vaihtaa jokaisen tapahtuman välillä tai määrittää tarpeidesi mukaiset tapahtumat. Varmista, että webkoukku on käytössä ja tallenna se klikkaamalla Lisää webkoukku.
+### Verkkokoukut
 
-![kuva](assets/en/61.webp)
 
-Webkoukut eivät ole yhteensopivia Bitpay API:n kanssa. BTCPay Serverissä on kaksi erillistä IPN:ää (BitPayn termein: "Instant Payment Notifications").
+BTCPay Serverissä on kohtuullisen helppoa luoda uusi "Webhook". BTCPay Serverin Kaupan asetukset - Webhooks-välilehdellä kaupan omistaja voi helposti luoda uuden webhookin napsauttamalla "+ Create Webhook". Webhookien avulla BTCPay Server voi lähettää kauppaan liittyviä HTTP-tapahtumia muille palvelimille tai verkkokauppaintegraatioille.
+
+
+![image](assets/en/061.webp)
+
+
+Olet nyt Webhookin luomisen näkymässä. Varmista, että tiedät hyötykuorman URL-osoitteen ja liitä se BTCPay-palvelimeen. Kun olet liittänyt hyötykuorman URL-osoitteen, sen alla näkyy webhookin salaisuus. Kopioi webhookin salaisuus ja anna se päätepisteessä. Kun kaikki on asetettu, voit vaihtaa BTCPay Serverissä "Automaattisen uudelleentoimituksen" BTCPay Server yrittää toimittaa uudelleen kaikki epäonnistuneet toimitukset 10 sekunnin, 1 minuutin ja enintään 6 kertaa 10 minuutin kuluttua. Voit vaihtaa jokaisen tapahtuman välillä tai määrittää tapahtumat tarpeidesi mukaan. Varmista, että otat webhookin käyttöön ja paina "Add webhook" -painiketta tallentaaksesi sen.
+
+
+![image](assets/en/062.webp)
+
+
+Webhookien ei ole tarkoitus olla yhteensopivia Bitpayn API:n kanssa. BTCPay Serverissä on kaksi erillistä IPN:ää (BitPayn termein: "Instant Payment Notifications").
+
+
 
 - Webhookp
 - Ilmoitukset
 
-Käytä vain Ilmoitus URL:ää, kun luot laskuja Bitpay API:n kautta.
 
-### Maksuprosessorit
+Käytä ilmoitus-URL-osoitetta vain, kun luot laskuja Bitpayn API:n kautta.
 
-Maksuprosessorit toimivat yhdessä Maksujen käsittelyn konseptin kanssa BTCPay Serverissa. Maksuaggregaattori niputtaa useita siirtoja ja lähettää ne kerralla. Maksuprosessoreiden avulla kaupan omistaja voi automatisoida niputetut maksut. BTCPay Server tarjoaa kaksi automatisoitujen maksujen menetelmää, On-chain ja Off-chain (LN).
-Kaupan omistaja voi klikata ja konfiguroida molemmat maksuprosessorit erikseen. Kaupan omistaja saattaa haluta ajaa on-chain prosessorin vain joka X tunti, kun taas off-chain saattaa toimia muutaman minuutin välein. On-chain osalta voit myös asettaa tavoitteen, mihin lohkoon sen tulisi sisältyä. Oletusarvoisesti tämä on asetettu 1 (tai seuraava saatavilla oleva lohko). Huomaa, että Off-chain maksuprosessorin asettaminen sisältää vain aikavälin ajastimen eikä lohkon kohdetta. Salamaverkon maksut ovat välittömiä.
 
-![kuva](assets/en/62.webp)
-![kuva](assets/en/63.webp)
+### Maksujen käsittelijät
 
-Kaupan omistajat voivat konfiguroida on-chain prosessorin vain, jos heillä on Hot-wallet yhdistettynä kauppaansa.
 
-![kuva](assets/en/64.webp)
+Maksuprosessorit toimivat yhdessä BTCPay Serverin Maksut-käsitteen kanssa. Payout-aggregaattorin avulla voit koota useita maksutapahtumia ja lähettää ne kerralla. Payout-prosessoreiden avulla myymälän omistaja voi automatisoida eräpohjaiset maksut. BTCPay Server tarjoaa kaksi tapaa automatisoituja maksuja varten: On-Chain ja off-chain (LN).
 
-Maksuprosessorin asettamisen jälkeen voit nopeasti poistaa tai muokata sitä palaamalla Maksuprosessori-välilehteen BTCPay Serverin Kaupan asetuksissa.
 
-**!?Huomio!?**
+Kaupan omistaja voi klikata ja määrittää molemmat maksuprosessorit erikseen. Myymälän omistaja saattaa haluta käyttää On-Chain-prosessoria vain kerran X tunnin välein, kun taas off-chain-prosessori saattaa toimia muutaman minuutin välein. On-Chain:lle voidaan myös asettaa tavoite, mihin lohkoon se sisällytetään. Oletusarvoisesti tämä on asetettu arvoon 1 (tai seuraavaan käytettävissä olevaan lohkoon). Huomaa, että off-chain-maksuprosessorin asettamisessa on vain intervalliajastin eikä lohkokohtaista tavoitetta. Lightning Network-maksut ovat välittömiä.
 
-Maksuprosessori on-chain - Onchain maksuprosessori toimii vain kaupassa, joka on konfiguroitu Hot walletin kanssa yhdistettynä. Jos Hot walletia ei ole yhdistetty, BTCPay Server ei hallitse lompakon avaimia eikä pysty käsittelemään maksuja automaattisesti.
+
+![image](assets/en/063.webp)
+
+![image](assets/en/064.webp)
+
+
+Myymälän omistajat voivat määrittää On-Chain-prosessorin vain, jos heidän myymäläänsä on liitetty Hot Wallet.
+
+
+![image](assets/en/065.webp)
+
+
+Kun olet määrittänyt maksuprosessorin, voit nopeasti poistaa tai muuttaa sitä palaamalla BTCPay-palvelinkaupan asetusten Maksuprosessori-välilehdelle.
+
+
+**Huomautus**
+
+
+Maksuprosessori On-Chain - Maksuprosessori On-Chain voi toimia vain myymälässä, johon on liitetty Hot Wallet. Jos Hot Wallet:ää ei ole liitetty, BTCPay-palvelimella ei ole Wallet-avaimia eikä se pysty käsittelemään maksuja automaattisesti.
+
 
 ### Sähköpostit
 
-BTCPay Server voi käyttää sähköposteja ilmoituksiin tai, kun asetettu oikein, palauttamaan tilejä, jotka on luotu instanssissa, sillä vakiona BTCPay Server ei lähetä sähköpostia, kun salasana on kadonnut, esimerkiksi.
 
-![kuva](assets/en/65.webp)
+BTCPay Server voi käyttää sähköposteja ilmoituksiin tai, kun ne on asetettu oikein, tilien palauttamiseen, jotka on luotu instanssissa. Vakiona BTCPay Server ei lähetä sähköpostia, kun esimerkiksi salasana on kadonnut.
 
-Ennen kuin kaupan omistaja voi asettaa sähköpostisääntöjä laukaistavaksi tietyissä kauppansa tapahtumissa, meidän on määritettävä joitakin perussähköpostiasetuksia. BTCPay Server tarvitsee nämä asetukset lähettääkseen sähköposteja tapahtumista kauppasi perusteella tai salasanan nollaukseen.
 
-BTCPay Server on helpottanut tämän tiedon täyttämistä käyttämällä "Pikatäyttö"-vaihtoehtoa:
+![image](assets/en/066.webp)
+
+
+Ennen kuin myymälän omistaja voi asettaa sähköpostisääntöjä tiettyjen tapahtumien käynnistämiseksi myymälässään, hänen on ensin määritettävä sähköpostin perusasetukset. BTCPay Server tarvitsee nämä asetukset, jotta voit lähettää sähköposteja myymälääsi liittyvistä tapahtumista tai salasanan nollaamisesta.
+
+
+BTCPay Server on helpottanut näiden tietojen täyttämistä käyttämällä "Quick Fill" -vaihtoehtoa:
+
+
 
 - Gmail.com
 - Yahoo.com
@@ -1176,35 +1745,53 @@ BTCPay Server on helpottanut tämän tiedon täyttämistä käyttämällä "Pika
 - Office365
 - SendGrid
 
-Käyttämällä pikatäyttövaihtoehtoa, BTCPay Server täyttää SMTP-palvelimen ja portin kentät esivalmiiksi; nyt kaupan omistajan tarvitsee vain täyttää omat tietonsa sähköpostiosoitteeseen, kirjautumiseen (joka on yleensä sama kuin sähköpostiosoitteesi) ja salasanaasi. BTCPay Serverin tarjoama edistynyt vaihtoehto sähköpostiasetuksissa on TLS-sertifikaatin turvatarkastusten poistaminen käytöstä; oletusarvoisesti tämä on käytössä.
 
-![kuva](assets/en/66.webp)
+Käyttämällä pikatäyttöä BTCPay Server täyttää SMTP-palvelimen ja portin kentät valmiiksi. Nyt myymälän omistajan tarvitsee vain täyttää tunnistetietonsa, mukaan lukien sähköpostiosoite Address, kirjautuminen (joka on yleensä sama kuin sähköpostiosoitteesi Address) ja salasana. BTCPay-palvelimen sähköpostiasetusten lisäasetuksena on poistaa TLS-varmenteen turvatarkastukset käytöstä; oletusarvoisesti tämä on käytössä.
 
-Sähköpostisääntöjen avulla kaupan omistaja voi asettaa tiettyjä tapahtumia laukaisemaan sähköposteja tietyille sähköpostiosoitteille.
 
-- Lasku Luotu
-- Lasku Sai Maksun
-- Lasku Käsittelyssä
-- Lasku Vanhentunut
-- Lasku Selvitetty
-- Lasku Virheellinen
-- Laskun Maksu Selvitetty
+![image](assets/en/067.webp)
 
-Jos asiakas on antanut sähköpostiosoitteen, nämä laukaisimet voivat myös lähettää tiedon asiakkaalle. Kaupan omistajat voivat esitäyttää Aihe-rivin selventääkseen, miksi tämä sähköposti lähetettiin ja mikä laukaisi sen.
 
-![kuva](assets/en/67.webp)
+Sähköpostisääntöjen avulla myymälän omistaja voi asettaa tietyt tapahtumat käynnistämään sähköpostiviestit tiettyihin sähköpostiosoitteisiin.
+
+
+
+- Invoice Luotu
+- Invoice Saatu maksu
+- Invoice käsittely
+- Invoice Vanhentunut
+- Invoice Sovittu
+- Invoice Virheellinen
+- Invoice Maksu suoritettu
+
+
+Jos asiakas on antanut sähköpostiosoitteen Address, nämä laukaisimet voivat myös lähettää tiedot asiakkaalle. Myymälän omistajat voivat esitäyttää otsikkorivin tehdäkseen selväksi, miksi sähköpostiviesti lähetettiin ja mikä sen laukaisi.
+
+
+![image](assets/en/068.webp)
+
 
 ### Lomakkeet
 
-Koska BTCPay Server ei kerää mitään tietoja, kaupan omistaja saattaa haluta lisätä mukautetun lomakkeen kassakokemukseensa; näin kaupan omistaja voi kerätä lisätietoja asiakkaaltaan. BTCPay Serverin Lomakkeenrakentaja koostuu kahdesta osasta, visuaalisesta ja edistyneemmästä koodinäkymästä lomakkeille.
-Kun luot uuden lomakkeen, BTCPay Server avaa uuden ikkunan, jossa pyydetään perustietoja siitä, mitä uudella lomakkeellasi halutaan pyytää. Aluksi kauppiaan on annettava selvä nimi uudelle lomakkeelleen, tätä nimeä EI voi muuttaa sen asettamisen jälkeen.
-![kuva](assets/en/68.webp)
 
-Kun kauppias on antanut lomakkeelle nimen, voit myös kytkeä vaihtoehdon "Salli lomakkeen käyttö julkisesti" päälle, jolloin se muuttuu vihreäksi. Tämä mahdollistaa lomakkeen käytön kaikissa asiakkaalle näkyvissä paikoissa. Esimerkiksi, jos kauppias luo erillisen laskun ei myyntipisteen kautta, hän saattaa silti haluta kerätä tiedot asiakkaalta; tämän vaihtoehdon kytkeminen päälle mahdollistaa tietojen keräämisen.
+Koska BTCPay-palvelin ei kerää mitään tietoja, kaupan omistaja voi haluta lisätä mukautetun lomakkeen kassakokemukseensa; näin kaupan omistaja voi kerätä asiakkaalta lisätietoja. BTCPay Server Form builder koostuu kahdesta osasta: lomakkeiden visuaalisesta ja kehittyneemmästä koodinäkymästä.
 
-![kuva](assets/en/69.webp)
 
-Jokainen lomake alkaa vähintään yhdellä Uusi lomakekenttä -vaihtoehdolla. Kauppias voi valita kentän tyypin;
+Kun luot uuden lomakkeen, BTCPay Server avaa uuden ikkunan, jossa pyydetään perustiedot siitä, mitä haluat uuden lomakkeen kysyvän. Aluksi myymälän omistajan on annettava uudelle lomakkeelle selkeä nimi; tätä nimeä ei voi muuttaa sen jälkeen, kun se on asetettu.
+
+
+![image](assets/en/069.webp)
+
+
+Kun myymälän omistaja on antanut lomakkeelle nimen, voit myös kytkeä kytkimen "Salli lomakkeen julkinen käyttö" asentoon ON, jolloin se muuttuu Green:ksi. Näin varmistetaan, että lomaketta käytetään jokaisessa asiakaskohtaisessa toimipisteessä. Jos esimerkiksi myymälän omistaja luo erillisen Invoice-lomakkeen ei myyntipisteen kautta, hän saattaa silti haluta kerätä tietoja asiakkaalta. Tämä kytkin mahdollistaa näiden tietojen keräämisen.
+
+
+![image](assets/en/070.webp)
+
+
+Jokainen lomake alkaa vähintään yhdellä Uusi lomakekentällä. Kaupan omistaja voi valita, minkä tyyppinen kenttä sen pitäisi olla.
+
+
 
 - Teksti
 - Numero
@@ -1214,310 +1801,454 @@ Jokainen lomake alkaa vähintään yhdellä Uusi lomakekenttä -vaihtoehdolla. K
 - Puhelinnumerot
 - Päivämäärä
 - Piilotetut kentät
-- Kenttäryhmä
-- Tekstialue avoimille kommenteille.
-- Valintavalitsin
+- Fieldset
+- Tekstialue avoimia kommentteja varten.
+- Vaihtoehtojen valitsin
 
-Jokainen tyyppi sisältää täytettävät parametrit. Kauppias voi asettaa ne mielensä mukaan. Ensimmäisen luodun kentän alapuolelle kauppiaat voivat lisätä uusia kenttiä tähän yhteen lomakkeeseen.
 
-![kuva](assets/en/70.webp)
+Jokaisella tyypillä on omat täytettävät parametrit. Kaupan omistaja voi asettaa sen mieleisekseen. Ensimmäisen luodun kentän alapuolella myymälän omistajat voivat lisätä uusia kenttiä tähän lomakkeeseen.
+
+
+![image](assets/en/071.webp)
+
 
 #### Edistyneet mukautetut lomakkeet
 
-BTCPay Server mahdollistaa myös lomakkeiden rakentamisen koodissa. Erityisesti JSON-muodossa. Editorin sijaan kauppiaat voivat klikata KOODI-painiketta editorin vieressä ja siirtyä lomakkeidensa koodiin. Kentän määrittelyssä voidaan asettaa vain seuraavat kentät; kenttien arvot tallennetaan laskun metatietoihin:
 
-| Kenttä                | Kuvaus                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| .fields.constant      | Jos tosi, .value on asetettava lomakkeen määrittelyssä, eikä käyttäjä voi muuttaa kentän arvoa. (esimerkki: lomakkeen määrittelyn versio)                                                                                                                                                                                                                                                                                                                            |
-| .fields.type          | HTML-syötetyyppi teksti, radio, valintaruutu, salasana, piilotettu, painike, väri, päivämäärä, datetime-local, kuukausi, viikko, aika, sähköposti, numero, vaihtelu, haku, url, valinta, puhelin                                                                                                                                                                                                                                                                     |
-| .fields.options       | Jos .fields.type on select, valittavissa olevien arvojen luettelo                                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.options.text  | Tämän vaihtoehdon näytettävä teksti                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.options.value | Kentän arvo, jos tämä vaihtoehto on valittu                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| .fields.type=fieldset | Luo HTML-kenttäryhmän lasten .fields.fields ympärille (katso alla)                                                                                                                                                                                                                                                                                                                                                                                                   |
-| .fields.name          | Kentän JSON-ominaisuuden nimi, kuten se näkyy laskun metatiedoissa                                                                                                                                                                                                                                                                                                                                                                                                   |
-| .fields.value         | Kentän oletusarvo                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.required      | jos tosi, kenttä on pakollinen                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| .fields.label         | Kentän otsikko                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| .fields.helpText      | Lisäteksti, joka tarjoaa selityksen kentälle.                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| .fields.fields        | Voit järjestää kenttäsi hierarkiaan, jolloin alikentät voidaan sijoittaa laskun metatietoihin. Tämä rakenne voi auttaa sinua järjestämään ja hallinnoimaan kerättyjä tietoja paremmin, mikä tekee niiden käyttämisestä ja tulkitsemisesta helpompaa. Esimerkiksi, jos sinulla on lomake, joka kerää asiakastietoja, voit ryhmitellä kentät yläkentän alle, jota kutsutaan asiakkaaksi. Tässä yläkentässä saattaisi olla alikenttiä kuten nimi, sähköposti ja osoite. |
+BTCPay Serverin avulla voit myös rakentaa lomakkeita koodilla. Erityisesti JSON. Sen sijaan, että katsoisit editoria, kaupan omistajat voivat klikata CODE-painiketta editorin vieressä ja päästä lomakkeidensa koodiin. Kenttämäärittelyssä voidaan asettaa vain seuraavat kentät; kenttien arvot tallennetaan Invoice:n metatietoihin:
 
-Kentän nimi edustaa JSON-ominaisuuden nimeä, joka tallentaa käyttäjän antaman arvon laskun metatietoihin. Jotkin tunnetut nimet voidaan tulkita ja muuttaa laskun asetuksia.
 
-| Kentän nimi      | Kuvaus          |
-| ---------------- | --------------- |
-| invoice_amount   | Laskun summa    |
-| invoice_currency | Laskun valuutta |
+| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
+| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
+| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
+| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
+| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
+| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
+| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
 
-Voit esitäyttää laskun kenttiä automaattisesti lisäämällä kyselymerkkijonoja lomakkeen URL-osoitteeseen, kuten "?your_field=arvo".
+Kentän nimi edustaa JSON-ominaisuuden nimeä, joka tallentaa käyttäjän antaman arvon Invoice:n metatietoihin. Joitakin tunnettuja nimiä voidaan tulkita ja muuttaa Invoice:n asetusten mukauttamiseksi.
 
-Tässä joitakin käyttötapauksia tälle ominaisuudelle:
 
-- Käyttäjän syötteen avustaminen: Esitäytä kentät tunnetuilla asiakastiedoilla, jotta heidän on helpompi täyttää lomake. Esimerkiksi, jos tiedät jo asiakkaan sähköpostiosoitteen, voit esitäyttää sähköpostikentän säästääksesi heidän aikaansa.
-- Personointi: Mukauta lomake asiakkaan mieltymysten tai segmentoinnin perusteella. Esimerkiksi, jos sinulla on erilaisia asiakastasoja, voit esitäyttää lomakkeen relevantilla tiedolla, kuten heidän jäsenyystasonsa tai erityistarjouksensa.
-- Seuranta: Seuraa asiakaskäyntien lähdettä käyttämällä piilotettuja kenttiä ja esitäytettyjä arvoja. Esimerkiksi voit luoda linkkejä, joissa on esitäytettyjä utm_media arvoja kullekin markkinointikanavalle (esim. Twitter, Facebook, Sähköposti). Tämä auttaa analysoimaan markkinointiponnistelujesi tehokkuutta.
-- A/B-testaus: Esitäytä kentät eri arvoilla testataksesi eri lomakeversioita, jotta voit optimoida käyttäjäkokemuksen ja konversioasteet.
+| Field name       | Description            |
+| ---------------- | ---------------------- |
+| invoice_amount   | The invoice's amount   |
+| invoice_currency | The invoice's currency |
 
-### Taitojen Yhteenveto
+Voit esitäyttää Invoice-lomakkeen kentät automaattisesti lisäämällä lomakkeen URL-osoitteeseen kyselymerkkijonoja, kuten "?your_field=value".
 
-Tässä osiossa opit seuraavat:
 
-- Välilehtien asettelun ja toiminnot Kaupan Asetuksissa
-- Lukuisia vaihtoehtoja hienosäätääksesi perustana olevien vaihtokurssien, osamaksujen, pienien alimaksujen ja muun käsittelyä.
-- Mukauta kassan ulkoasua, mukaan lukien hintariippuvainen pääketju vs. Lightningin mahdollistaminen laskuissa.
-- Hallitse kaupan pääsyn tasoa ja oikeuksia eri rooleissa.
-- Määritä automaattiset sähköpostit ja niiden laukaisijat
-- Luo mukautettuja lomakkeita keräämään lisätietoja asiakkaalta kassalla.
+Seuraavassa on muutamia käyttötapauksia tälle ominaisuudelle:
 
-### Tietämyksen Arvioinnit
 
-#### KA Arvostelu
 
-Mikä on ero Kaupan Asetusten ja Palvelimen Asetusten välillä?
+- Käyttäjän syötön avustaminen: Esitäytä kentät tunnetuilla asiakastiedoilla, jotta asiakkaan on helpompi täyttää lomake. Jos esimerkiksi tiedät jo asiakkaan sähköpostiosoitteen Address, voit esitäyttää sähköpostikentän ja säästää näin aikaa.
+- Henkilökohtaistaminen: Mukauta lomake asiakkaan mieltymysten tai segmentoinnin perusteella. Jos sinulla on esimerkiksi eri asiakastasoja, voit esitäyttää lomakkeen asiaankuuluvilla tiedoilla, kuten heidän jäsenyystasollaan tai tietyillä tarjouksilla.
+- Seuranta: Seuraa asiakaskäyntien lähdettä piilokenttien ja esitäytettyjen arvojen avulla. Voit esimerkiksi luoda linkkejä, joissa on esitäytetyt utm_media-arvot kutakin markkinointikanavaa varten (esim. Twitter, Facebook, sähköposti). Näin voit analysoida markkinointitoimien tehokkuutta.
+- A/B-testaus: Esitäytä kentät eri arvoilla testataksesi eri lomakeversioita, jolloin voit optimoida käyttäjäkokemuksen ja konversioluvut.
+
+
+### Taitojen yhteenveto
+
+
+Tässä jaksossa opit seuraavat asiat:
+
+
+
+- Kaupan asetusten välilehtien ulkoasu ja toiminnot
+- Useita vaihtoehtoja, joilla voidaan hienosäätää taustalla olevien Exchange-maksujen, osittaisten maksujen, pienten alimaksujen ja muiden maksujen käsittelyä.
+- Mukauta kassan ulkoasua, mukaan lukien hintariippuvainen pääketju vs. Lightning-aktivointi laskuissa.
+- Hallitse myymälän käyttöoikeustasoja ja käyttöoikeuksia eri rooleissa.
+- Määritä automaattiset sähköpostiviestit ja niiden laukaisijat
+- Luo mukautettuja lomakkeita asiakkaan lisätietojen keräämistä varten kassalla.
+
+
+### Osaamisen arviointi
+
+
+#### KA arvostelu
+
+
+Mitä eroa on myymäläasetuksilla ja palvelinasetuksilla?
+
 
 #### KA Hypoteettinen
 
-Kuvaile joitakin vaihtoehtoja, joita saatat valita Kassan Ulkoasu > Laskun Asetuksissa, ja miksi.
+
+Kuvaile joitakin vaihtoehtoja, jotka voit valita kohdassa Kassan ulkoasu > Invoice-asetukset, ja kerro, miksi.
+
 
 ## BTCPay Server - Palvelimen asetukset
 
+
 <chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
 
-BTCPay Server koostuu kahdesta erilaisesta asetusnäkymästä. Toinen on omistettu Kaupan asetuksille ja toinen Palvelimen asetuksille. Jälkimmäinen on saatavilla vain, jos olet Palvelimen ylläpitäjä eikä kaupan omistajille. Palvelimen ylläpitäjät voivat lisätä käyttäjiä, luoda mukautettuja rooleja, määrittää sähköpostipalvelimen, asettaa käytäntöjä, suorittaa ylläpitotehtäviä, tarkistaa kaikki BTCPay Serveriin liitetyt palvelut, ladata tiedostoja palvelimelle tai tarkistaa Lokit.
+
+BTCPay Server koostuu kahdesta eri asetusnäkymästä. Toinen on omistettu Store-asetuksille ja toinen Server-asetuksille. Jälkimmäinen on vain palvelimen ylläpitäjien käytettävissä, ei myymälän omistajien. Palvelimen ylläpitäjät voivat lisätä käyttäjiä, luoda mukautettuja rooleja, määrittää sähköpostipalvelimen, asettaa käytäntöjä, suorittaa ylläpitotehtäviä, tarkistaa kaikki BTCPay Serveriin liitetyt palvelut, ladata tiedostoja palvelimelle tai tarkistaa lokit.
+
 
 ### Käyttäjät
 
-Kuten aiemmin mainittiin, Palvelimen Ylläpitäjät voivat kutsua käyttäjiä palvelimelleen lisäämällä heidät Käyttäjät-välilehteen.
 
-### Palvelinlaajuiset mukautetut Roolit
+Kuten edellisessä osassa mainittiin, palvelimen ylläpitäjät voivat kutsua käyttäjiä palvelimelleen lisäämällä heidät Käyttäjät-välilehdelle.
 
-BTCPay Server tuntee kahdenlaisia mukautettuja rooleja, kauppakohtaiset mukautetut roolit ja palvelinlaajuiset Mukautetut roolit BTCPay Serverin asetuksissa. Molemmilla on samankaltainen joukko oikeuksia; kuitenkin, jos asetettu BTCpay Serverin Asetukset - Roolit -välilehden kautta, sovellettu rooli on palvelinlaajuinen ja soveltuu useisiin kauppoihin. Huomaa "Palvelinlaajuinen" tagi mukautetuissa rooleissa Palvelimen asetuksissa.
 
-### Palvelinkohtaiset mukautetut roolit
+### Palvelimen laajuiset mukautetut roolit
 
-Palvelinkohtaisen mukautetun roolin oikeudet:
+
+BTCPay Serverillä on kahdenlaisia mukautettuja rooleja: myymäläkohtaiset mukautetut roolit ja koko palvelimen kattavat mukautetut roolit BTCPay Serverin asetuksissa. Molemmat sisältävät samanlaiset oikeudet; jos ne kuitenkin asetetaan BTCpay Server Settings - Roles -välilehdellä, sovellettu rooli on koko palvelimen laajuinen ja koskee useita kauppoja. Huomaa "Server-wide"-merkintä palvelimen asetuksissa olevissa mukautetuissa rooleissa.
+
+
+![image](assets/en/072.webp)
+
+
+### Palvelimen laajuiset mukautetut roolit
+
+
+Palvelimen laajuinen mukautettujen roolien käyttöoikeusjoukko;
+
+
 
 - Muokkaa myymälöitäsi.
-- Hallinnoi myymälöihisi linkitettyjä vaihtotilejä.
-  - Katso myymälöihisi linkitettyjä vaihtotilejä.
-- Hallinnoi vetomaksujasi.
-- Luo vetomaksuja.
-  - Luo hyväksymättömiä vetomaksuja.
+- Hallitse myymälöihisi liitettyjä Exchange-tilejä.
+  - Näytä myymälöihisi liitetyt Exchange-tilejä.
+- Hallitse vetomaksuja.
+- Luo pull-maksuja.
+  - Luo hyväksymättömiä pull-maksuja.
 - Muokkaa laskuja.
-  - Katso laskuja.
-  - Luo lasku.
-  - Luo laskuja myymälöihisi liitetyistä salamaverkon solmuista.
-- Katso myymälöitäsi.
-  - Katso laskuja.
-  - Katso maksupyyntöjäsi.
-  - Muokkaa myymälöiden web-koukkuja.
+  - Tarkastele laskuja.
+  - Luo Invoice.
+  - Luo laskuja myymälöihisi liittyvistä salamasolmuista.
+- Näytä myymälät.
+  - Tarkastele laskuja.
+  - Tarkastele maksupyyntöjäsi.
+  - Muokkaa kauppojen verkkokoukkuja.
 - Muokkaa maksupyyntöjäsi.
-  - Katso maksupyyntöjäsi.
-- Käytä myymälöihisi liitettyjä salamaverkon solmuja.
-  - Katso myymälöihisi liitettyjä salamaverkon laskuja.
-  - Luo laskuja myymälöihisi liitetyistä salamaverkon solmuista.
-- Talleta varoja myymälöihisi linkitettyihin vaihtotileihin.
-- Nosta varoja vaihtotileiltä myymälääsi.
-- Käy kauppaa myymäläsi vaihtotileillä.
+  - Tarkastele maksupyyntöjäsi.
+- Käytä myymälöihisi liittyviä salamasolmuja.
+  - Näytä myymälöihisi liittyvät salamalaskut.
+  - Luo laskuja myymälöihisi liittyvistä salamasolmuista.
+- Talleta varoja myymälöihisi liitetyille Exchange-tileille.
+- Nosta varoja Exchange-tileiltä myymälääsi.
+- Vaihda varoja myymäläsi Exchange-tileillä.
 
-**!?Huomio!?**
 
-Kun rooli on luotu, nimi on kiinteä eikä sitä voi muuttaa muokkaustilassa.
+**!?Huomautus!?**
+
+
+Kun rooli luodaan, nimi on kiinteä, eikä sitä voi muuttaa sen jälkeen, kun se on muokkaustilassa.
+
 
 ### Sähköposti
 
-Palvelinkohtaiset sähköpostiasetukset ovat samankaltaiset kuin myymäläkohtaiset sähköpostiasetukset. Tämä asetus kuitenkin käsittelee paitsi myymälöiden tai ylläpitäjän lokien laukaisijoita. Tämä sähköpostiasetus mahdollistaa myös salasanan palauttamisen BTCPay Serverissa kirjautumisen yhteydessä. Se toimii samalla tavalla kuin myymäläkohtaiset asetukset; ylläpitäjät voivat nopeasti täyttää sähköpostiparametrinsa, syöttää sähköpostitunnuksensa, ja palvelin voi nyt lähettää sähköposteja.
 
-### Käytännöt
+Palvelimen laajuiset sähköpostiasetukset näyttävät samankaltaisilta kuin myymäläkohtaiset sähköpostiasetukset. Tämä asetus ei kuitenkaan käsittele vain myymälöiden tai järjestelmänvalvojan lokien laukaisuja vaan myös muiden tapahtumien laukaisuja. Tämä sähköpostiasetus mahdollistaa myös salasanan palautuksen BTCPay-palvelimella kirjautumisen yhteydessä. Se toimii samalla tavalla kuin myymäläkohtaiset asetukset; ylläpitäjät voivat nopeasti täyttää sähköpostiparametrit ja syöttää sähköpostitietonsa, jolloin palvelin voi lähettää sähköposteja.
 
-BTCPay Serverin käytäntöjen ylläpitäjät voivat asettaa joitakin asetuksia aiheista kuten Olemassa olevien käyttäjien asetukset, Uusien käyttäjien asetukset, Ilmoitusasetukset ja Ylläpitoasetukset. Nämä on tarkoitettu rekisteröimään uusia käyttäjiä joko ylläpitäjänä tai tavallisina käyttäjinä tai jopa piilottamaan BTCPay Serverin hakukoneilta lisäämällä palvelimen otsikkoon.
 
-#### Olemassa olevien käyttäjien asetukset
+![image](assets/en/073.webp)
 
-Täällä saatavilla olevat vaihtoehdot ovat erillään mukautetuista rooleista. Nämä lisäoikeudet saattavat tehdä myymälän tai myymälän omistajan alttiiksi hyökkäyksille. Olemassa oleville käyttäjille voidaan lisätä käytäntöjä:
 
-- Salli ei-ylläpitäjien käyttää sisäistä salamaverkon solmua myymälöissään.
-  - Tämä mahdollistaisi myymälän omistajien käyttää palvelimen ylläpitäjän salamaverkon solmua ja siten hänen varojaan! Varo, tämä ei ole ratkaisu salamaverkon käyttöoikeuden antamiseen.
-- Salli ei-ylläpitäjien luoda kuumia lompakoita myymälöihinsä.
-  - Tämä mahdollistaisi kenelle tahansa tilin omistavalle henkilölle BTCPay Server -instanssissasi luoda kuumia lompakoita ja tallentaa niiden palautuskoodin ylläpitäjän palvelimelle. Tämä saattaisi tehdä ylläpitäjästä vastuullisen kolmansien osapuolien varojen säilyttämisestä!
-- Salli ei-ylläpitäjien tuoda kuumia lompakoita myymälöihinsä.
-  - Samankaltainen aiheeseen kuin kuumien lompakoiden luominen, tämä käytäntö sallii kuumien lompakoiden tuonnin, samoilla vaaroilla mainittuna kuumien lompakoiden luomisosiossa.
+### Politiikat
 
-#### Uusien käyttäjien asetukset
 
-Voimme asettaa joitakin tärkeitä asetuksia hallitaksemme palvelimelle saapuvia uusia käyttäjiä. Voimme asettaa vahvistussähköpostin uusille rekisteröinneille, poistaa käytöstä uusien käyttäjien luomisen kirjautumisnäytössä ja rajoittaa ei-ylläpitäjien pääsyä käyttäjän luontiin API:n kautta.
+BTCPay Server -käytäntöjen ylläpitäjät voivat määrittää erilaisia asetuksia aiheisiin, kuten Olemassa olevien käyttäjien asetukset, uusien käyttäjien asetukset, ilmoitusasetukset ja ylläpitoasetukset. Nämä on tarkoitettu uusien käyttäjien rekisteröimiseen ylläpitäjiksi tai tavallisiksi käyttäjiksi tai BTCPay Serverin piilottamiseen hakukoneilta lisäämällä se palvelimen otsikkoon.
 
-- Vaadi vahvistussähköposti rekisteröityessä.
-  - Palvelimen ylläpitäjän on asetettava sähköpostipalvelin!
-- Poista käytöstä uusien käyttäjien rekisteröinti palvelimella
-- Estä ei-ylläpitäjien pääsy käyttäjän luontiin API-päätepisteessä.
 
-Oletuksena BTCPay Server on ottanut käyttöön Uusien käyttäjien rekisteröinnin poistamisen käytöstä ja kytkenyt pois ei-ylläpitäjien pääsyn käyttäjän luontiin API-päätepisteessä. Tämä on turvallisuusnäkökulmasta, jotta mikään satunnainen henkilö, joka saattaa löytää BTCPay-kirjautumisen palvelimeltasi, ei voi alkaa luomaan tilejä.
+![image](assets/en/074.webp)
+
+
+#### Olemassa oleva käyttäjä Asetukset
+
+
+Tässä käytettävissä olevat vaihtoehdot ovat erillisiä mukautetuista rooleista. Nämä lisäoikeudet voivat tehdä kaupasta tai sen omistajasta haavoittuvan hyökkäyksille. Käytännöt, jotka voidaan lisätä olemassa oleville käyttäjille:
+
+
+
+- Salli muiden kuin pääkäyttäjien käyttää sisäistä Lightning-solmua myymälöissään.
+  - Tämä antaisi kauppojen omistajille mahdollisuuden käyttää palvelimen ylläpitäjän Lightning-solmua ja siten hänen varojaan! Varo, tämä ei ole ratkaisu Lightningin käyttöoikeuden antamiseen.
+- Salli muiden kuin pääkäyttäjien luoda Hot-lompakoita myymälöitään varten.
+  - Näin kuka tahansa, jolla on tili BTCPay-palvelimesi instanssissa, voi luoda Hot-lompakoita ja tallentaa niiden palautus seed:n järjestelmänvalvojan palvelimelle. Tämä saattaa tehdä ylläpitäjästä vastuullisen kolmannen osapuolen varojen hallussapidosta!
+- Salli muiden kuin pääkäyttäjien tuoda Hot-lompakoita myymälöihinsä.
+  - Samoin kuin edellisessä Hot-lompakoiden luomista käsittelevässä kohdassa, tämä käytäntö mahdollistaa Hot Wallet:n tuonnin, mutta siinä on samat vaarat kuin Hot-lompakoiden luomista käsittelevässä kohdassa.
+
+
+![image](assets/en/075.webp)
+
+
+#### Uuden käyttäjän asetukset
+
+
+Voimme määrittää joitakin tärkeitä asetuksia palvelimelle tulevien uusien käyttäjien hallintaa varten. Voimme asettaa uusille rekisteröinneille vahvistussähköpostin, poistaa uusien käyttäjien luomisen kirjautumisnäytön kautta ja rajoittaa muiden kuin järjestelmänvalvojien pääsyn käyttäjien luomiseen API:n kautta.
+
+
+
+- Vaadi vahvistussähköposti rekisteröintiä varten.
+  - Palvelimen ylläpitäjän on määritettävä sähköpostipalvelin.
+- Poista uusien käyttäjien rekisteröinti palvelimella käytöstä
+- Poista muiden kuin järjestelmänvalvojien pääsy käyttäjän luomisen API-päätepisteeseen.
+
+
+Oletusarvoisesti BTCPay-palvelin on kytkenyt pois päältä kohdan "Poista uusien käyttäjien rekisteröinti palvelimella" ja poistanut muiden kuin järjestelmänvalvojien pääsyn käyttäjän luomisen API-päätepisteeseen. Tämä tehdään turvallisuuden vuoksi, jotta satunnaiset ihmiset, jotka törmäävät BTCPay-tunnukseesi, eivät voi luoda tilejä.
+
+
+![image](assets/en/076.webp)
+
 
 #### Ilmoitusasetukset
 
-![image](assets/en/76.webp)
 
-#### Ylläpitoasetukset
+![image](assets/en/077.webp)
 
-BTCPay Server on avoimen lähdekoodin projekti, joka elää GitHubissa. Aina kun BTCPay Server julkaisee uuden version ohjelmistosta, ylläpitäjille voidaan ilmoittaa, että uusi versio on saatavilla. Ylläpitäjät saattavat myös haluta estää hakukoneita (google, yahoo, duckduckgo) indeksoimasta BTCPay Serverin verkkotunnusta. Koska BTCPay Server on FOSS, kehittäjät ympäri maailmaa saattavat haluta luoda uusia ominaisuuksia; BTCPay Serverillä on kokeellinen ominaisuus, joka kun kytketään päälle, ylläpitäjä voi käyttää tuotantoon tarkoitettuja ominaisuuksia vielä puhtaasti testaustarkoituksiin.
 
-- Tarkista julkaisut GitHubissa ja ilmoita, kun uusi BTCPay Server -versio on saatavilla.
-- Estä hakukoneita indeksoimasta tätä sivustoa
-- Ota käyttöön kokeelliset ominaisuudet.
+#### Huoltoasetukset
 
-![image](assets/en/77.webp)
 
-#### Lisäosat
+BTCPay Server on avoimen lähdekoodin projekti, joka on GitHubissa. Aina kun BTCPay Server julkaisee uuden version ohjelmistosta, ylläpitäjät voivat saada ilmoituksen, että uusi versio on saatavilla. Järjestelmänvalvojat saattavat myös haluta välttää hakukoneita (kuten Google, Yahoo ja DuckDuckGo) indeksoimasta BTCPay Server -verkkotunnusta. Koska BTCPay Server on FOSS, kehittäjät ympäri maailmaa voivat haluta luoda uusia ominaisuuksia. BTCPay Serverissä on kokeellinen ominaisuus, joka kytkettynä päälle antaa ylläpitäjille mahdollisuuden käyttää ominaisuuksia, joita ei ole tarkoitettu tuotantoon vaan testaukseen.
 
-BTCPay Server voi lisätä lisäosia ja laajentaa ominaisuusvalikoimaansa. Lisäosat ladataan oletusarvoisesti BTCPay Serverin plugin-builder-repositoriosta. Ylläpitäjä voi kuitenkin halutessaan nähdä lisäosat esijulkaisutilassa, ja jos lisäosan kehittäjä sallii sen, palvelimen ylläpitäjä voi nyt asentaa lisäosien beta-versioita.
 
-![image](assets/en/78.webp)
+
+- Tarkista julkaisut GitHubista ja ilmoita, kun uusi BTCPay Server -versio on saatavilla.
+- Estää hakukoneita indeksoimasta tätä sivustoa
+- Ota kokeelliset ominaisuudet käyttöön.
+
+
+![image](assets/en/078.webp)
+
+
+#### Liitännäiset
+
+
+BTCPay Server voi lisätä liitännäisiä ja laajentaa ominaisuuksiensa valikoimaa. Lisäosat ladataan oletusarvoisesti BTCPay Serverin plugin-builder-arkistosta. Ylläpitäjä voi kuitenkin halutessaan nähdä liitännäiset Pre-release-tilassa, ja jos liitännäisten kehittäjä sallii sen, palvelimen ylläpitäjä voi nyt asentaa liitännäisten beta-versioita.
+
+
+![image](assets/en/079.webp)
+
 
 ##### Mukautusasetukset
 
-Vakio BTCPay Server -asennus on saavutettavissa asennuksen yhteydessä määritetyn verkkotunnuksen kautta. Palvelimen ylläpitäjä voi kuitenkin uudelleenmäärittää juuriverkkotunnuksen ja näyttää jonkin luoduista sovelluksista tietyssä kaupassa. Palvelimen ylläpitäjä voi myös määrittää tiettyjä verkkotunnuksia tiettyihin sovelluksiin.
+
+Tavallinen BTCPay Server -käyttöönotto on käytettävissä asennuksen aikana määritetyn verkkotunnuksen kautta. Palvelimen ylläpitäjä voi kuitenkin määrittää pääkäyttäjätoimialueen uudelleen ja näyttää jonkin tietyn kaupan luoduista sovelluksista. Palvelimen ylläpitäjä voi myös määrittää tietyt verkkotunnukset tietyille sovelluksille.
+
+
 
 - Näytä sovellus verkkosivuston juuressa
-  - Näyttää mahdollisten juuriverkkotunnuksessa näytettävien sovellusten luettelon.
+  - Näyttää luettelon mahdollisista sovelluksista, jotka voidaan näyttää pääkäyttäjätoimialueella.
 
-![image](assets/en/79.webp)
 
-- Määritä tiettyjä verkkotunnuksia tiettyihin sovelluksiin.
-  - Kun klikkaat asettaaksesi tietyn verkkotunnuksen tietyille sovelluksille, ylläpitäjä voi määrittää niin monta verkkotunnusta tietyille sovelluksille kuin tarvitaan.
+![image](assets/en/080.webp)
 
-![image](assets/en/80.webp)
 
-#### Lohkotutkijat
 
-BTCPay Server toimii oletusarvoisesti mempool.space -lohkotutkijan kanssa transaktioita varten. Kun BTCPay Server luo uuden laskun ja siihen liittyy transaktio, kaupan omistaja voi klikata avatakseen transaktion; BTCPay Server osoittaa oletusarvoisesti mempool.spaceen lohkotutkijana; palvelimen ylläpitäjä voi muuttaa tätä omien mieltymystensä mukaan.
+- Kohdista tietyt verkkotunnukset tiettyihin sovelluksiin.
+  - Kun napsautat määrittääksesi tietyn toimialueen tietyille sovelluksille, järjestelmänvalvoja voi määrittää niin monta tiettyihin sovelluksiin osoittavaa toimialuetta kuin on tarpeen.
 
-![image](assets/en/81.webp)
+
+![image](assets/en/081.webp)
+
+
+#### Lohkon tutkimusmatkailijat
+
+
+BTCPay-palvelimen vakiovarusteena on Mempool.space, koska sen Block explorer on transaktioita varten. Kun BTCPay Server luo uuden Invoice:n ja siihen on sidottu transaktio, kaupan omistaja voi avata transaktion napsauttamalla sitä. BTCPay Server osoittaa oletusarvoisesti Mempool.spacea Block explorer:ksi; palvelimen ylläpitäjä voi kuitenkin muuttaa tämän haluamakseen vaihtoehdoksi.
+
+
+![image](assets/en/082.webp)
+
 
 ### Palvelut
 
-BTCPay Serverin asetukset: Palvelut-välilehti on yleiskatsaus komponenteista, joita BTCPay Server käyttää. BTCPay Serverin tarjoamat palvelut voivat vaihdella käyttöönoton menetelmästä riippuen.
 
-BTCPay Serverin ylläpitäjä voi klikata "Näe tiedot" kunkin palvelun takana avatakseen sen ja asettaakseen tiettyjä asetuksia.
+"BTCPay-palvelimen asetukset: Palvelut"-välilehdellä on yleiskatsaus BTCPay-palvelimesi käyttämistä komponenteista. BTCPay-palvelimesi tarjoamat palvelut saattavat vaihdella käyttöönottomenetelmästä riippuen.
 
-![image](assets/en/82.webp)
+
+BTCPay-palvelimen ylläpitäjä voi avata kunkin palvelun ja määrittää erityisasetukset napsauttamalla kunkin palvelun takana olevaa "Katso tiedot"-painiketta.
+
+
+![image](assets/en/083.webp)
+
 
 #### LND (gRPC)
 
-BTCPay tarjoaa LND:n GRPC-palvelun ulkopuoliseen käyttöön; löydät yhteystiedot tästä erityisestä asetusvalikosta; yhteensopivat lompakot on lueteltu täällä. BTCPay Server tarjoaa myös QR-koodin yhteyden muodostamiseen, skannaa ja sovella mobiililompakossa.
 
-Palvelimen ylläpitäjät voivat avata lisätietoja nähdäkseen;
+BTCPay tarjoaa LND:n GRPC-palvelun ulkopuolista kulutusta varten; löydät yhteystiedot tästä erityisestä asetusvalikosta; yhteensopivat lompakot on lueteltu täällä. BTCPay-palvelin tarjoaa myös QR-koodin yhteyttä varten, joka voidaan skannata ja soveltaa mobiilissa Wallet:ssä.
 
-- Isäntätiedot
+
+Palvelimen ylläpitäjät voivat avata lisätietoja.
+
+
+
+- Isännän tiedot
 - SSL:n käyttö
-- Macaroon
+- Makaroonit
 - AdminMacaroon
-- InvoiceMacaroon
+- LaskuMacaroon
 - ReadonlyMacaroon
-- GRPC SSL Cipher suite (GRPC_SSL_CIPHER_SUITES)
+- GRPC SSL -salaussarja (GRPC_SSL_CIPHER_SUITES)
+
 
 #### LND (REST)
 
-BTCPay tarjoaa LND:n REST-palvelun ulkopuoliseen käyttöön; löydät yhteystiedot täältä; yhteensopivat lompakot on lueteltu täällä. Yhteensopivien lompakoiden joukossa ovat Joule, Alby ja ZeusLN. BTCPay Server tarjoaa QR-koodin yhteyden muodostamiseen, skannaa ja sovella yhteensopivassa lompakossa.
 
-- REST Uri
-- Macaroon
-- AdminMacaroon- InvoiceMacaroon
+BTCPay tarjoaa LND:n REST-palvelun ulkopuolisille; löydät yhteystiedot täältä; yhteensopivat lompakot on lueteltu täällä. Yhteensopiviin lompakoihin kuuluvat Joule, Alby ja ZeusLN. BTCPay-palvelin tarjoaa yhteyden muodostamista varten QR-koodin, joka voidaan skannata ja soveltaa yhteensopivassa Wallet:ssa.
+
+
+
+- REST URI
+- Makaroonit
+- AdminMacaroon
+- LaskuMacaroon
 - ReadonlyMacaroon
 
-#### LND Seed Backup
 
-LND seed -varmuuskopio on hyödyllinen, jos haluat palauttaa varasi LND-lompakostasi palvelimen korruptoitumisen sattuessa. Koska Lightning-node on Hot-wallet, löydät luottamukselliset seed-tiedot tältä sivulta.
+#### LND seed Varmuuskopiointi
 
-LND dokumentoi palautusprosessin. Katso https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md dokumentaatiosta.
+
+LND seed varmuuskopio on hyödyllinen, kun haluat palauttaa varoja LND Wallet:sta, jos palvelin vahingoittuu. Koska Lightning-solmu on Hot-Wallet, löydät luottamukselliset seed-tiedot tältä sivulta.
+
+
+LND dokumentoi palautusprosessin. Katso dokumentaatio osoitteesta https://github.com/lightningnetwork/LND/blob/master/docs/recovery.md.
+
 
 #### Ride The Lightning
 
-Ride the Lightning on avoimen lähdekoodin ohjelmistona rakennettu Lightning-noden hallintatyökalu. BTCPay Server käyttää RTL:ää Lightning-noden hallintakomponenttina pinossaan. BTCPay Serverin ylläpitäjät voivat saavuttaa RTL:n palvelimen asetusten kautta - Palvelut-välilehdeltä tai napsauttamalla Lightning-lompakkoa.
+
+Ride the Lightning on avoimen lähdekoodin ohjelmistoksi rakennettu Lightning-solmujen hallintatyökalu. BTCPay Server käyttää RTL:ää Lightning-solmujen hallintakomponenttina pinossaan. BTCPay Serverin ylläpitäjät pääsevät RTL:ään Palvelimen asetukset - Palvelut-välilehden kautta tai napsauttamalla Lightning Wallet:tä.
+
 
 #### Full node P2P
 
-Palvelimen ylläpitäjät saattavat haluta yhdistää Bitcoin-nodensa mobiililompakkoon. Tällä sivulla esitetään tietoja, miten yhdistää etäyhteydellä full nodeen P2P-protokollan kautta. Kirjan kirjoitushetkellä BTCPay Server listaa Blockstream Greenin ja Wasabi-lompakon yhteensopiviksi lompakoiksi. BTCPay Server antaa QR-koodin yhteyden muodostamiseen, skannaa ja sovella yhteensopivaan lompakkoon.
+
+Palvelimen ylläpitäjät saattavat haluta yhdistää Bitcoin-solmunsa liikkuvaan Wallet:ään. Tällä sivulla on tietoa siitä, miten Full node:een voidaan muodostaa etäyhteys P2P-protokollan avulla. Tätä kurssia kirjoitettaessa BTCPay Server listaa Blockstream Green- ja Wasabi-lompakot yhteensopiviksi lompakoiksi. BTCPay Server tarjoaa yhteyden muodostamista varten QR-koodin, joka voidaan skannata ja soveltaa yhteensopivassa Wallet:ssä.
+
 
 #### Full node RPC
 
-Tällä sivulla esitetään tietoja, miten yhdistää etäyhteydellä full nodeen RPC-protokollan kautta.
+
+Tällä sivulla on tietoja, joiden avulla voit muodostaa etäyhteyden Full node-laitteeseen RPC-protokollan avulla.
+
 
 #### SSH
 
-SSH:ta käytetään ylläpitotarkoituksiin. BTCPay Server näyttää alkuperäisen yhteyskomennon palvelimeesi ja SSH-julkiset avaimet, jotka on valtuutettu yhdistämään palvelimeesi. Palvelimen ylläpitäjät saattavat haluta kytkeä SSH-muutokset pois päältä BTCPay Serverin käyttöliittymän kautta.
+
+SSH:ta käytetään ylläpitotarkoituksiin. BTCPay Server näyttää alkuperäisen yhteyden muodostuskomennon, jolla palvelimesi tavoitetaan, ja SSH-avaimet, joilla on lupa muodostaa yhteys palvelimeesi. Palvelimen ylläpitäjät voivat halutessaan poistaa SSH-muutokset käytöstä BTCPay Serverin käyttöliittymän kautta.
+
 
 #### Dynaaminen DNS
 
-Dynaaminen DNS mahdollistaa vakaa DNS-nimen osoittamisen palvelimeesi, vaikka IP-osoitteesi muuttuisi säännöllisesti. Tämä on suositeltavaa, jos isännöit BTCPay Serveria kotona ja haluat selkeän verkkotunnuksen päästäksesi palvelimeesi.
 
-Huomaa, että sinun on määritettävä NAT ja BTCPay Server -asennuksesi oikein saadaksesi HTTPS-sertifikaatin.
+Dynaamisen DNS:n avulla sinulla on vakaa DNS-nimi, joka osoittaa palvelimeesi, vaikka IP Address muuttuisi säännöllisesti. Tätä suositellaan, jos isännöit BTCPay-palvelinta kotona ja haluat selkeän verkkotunnuksen, jolla voit käyttää palvelintasi.
+
+
+Huomaa, että sinun on määritettävä NAT ja BTCPay Server -asennus oikein saadaksesi HTTPS-varmenteen.
+
 
 ### Teema
 
-BTCPay Server tarjoaa vakiona kaksi teemaa: Vaalea ja Tumma tila. Näiden välillä voi vaihtaa napsauttamalla Tilini vasemmassa alakulmassa ja vaihtelemalla Tumma teema tai Vaalea teema. BTCPay Serverin ylläpitäjät voivat lisätä oman teemansa tarjoamalla mukautetun CSS-teeman.
 
-Ylläpitäjät voivat laajentaa Vaalea/Tumma teemaa lisäämällä oman mukautetun CSS:nsä tai asettamalla oman teemansa täysin mukautetuksi.
+BTCPay Serverissä on vakiona kaksi teemaa: Teemoja: Vaalea ja Tumma. Niitä voi vaihtaa napsauttamalla vasemmalla alhaalla olevaa Account (Tili) -painiketta ja vaihtamalla Dark (Tumma) ja Light (Vaalea) -teemojen välillä. BTCPay Serverin ylläpitäjät voivat lisätä oman teemansa antamalla mukautetun CSS-teeman.
 
-![kuva](assets/en/83.webp)
 
-#### Palvelimen Brändäys
+Järjestelmänvalvojat voivat laajentaa Light/Dark-teemaa lisäämällä oman mukautetun CSS:n tai asettamalla mukautetun teeman täysin mukautetuksi.
 
-Palvelimen ylläpitäjät voivat muuttaa BTCPay Serverin brändäystä asettamalla yrityksesi laajuisen brändäyksen. Koska BTCPay Server on FOSS, palvelimen ylläpitäjät voivat white label -merkitä ohjelmiston ja muuttaa sen ulkonäköä sopimaan liiketoimintaansa.
 
-![kuva](assets/en/84.webp)
+![image](assets/en/084.webp)
 
-### Ylläpito
 
-Palvelimen ylläpitäjänä käyttäjäsi odottavat sinun pitävän hyvää huolta palvelimesta. BTCPay Serverin Ylläpito-välilehdellä ylläpitäjä voi suorittaa joitakin olennaisia ylläpitotoimia. Aseta verkkotunnus BTCPay Server -instanssille, Käynnistä uudelleen tai puhdista palvelin. Mahdollisesti tärkeintä, suorita päivitykset.
+#### Palvelimen brändäys
 
-BTCPay Server on avoimen lähdekoodin projekti ja päivittyy usein. Jokainen uusi julkaisu ilmoitetaan joko BTCPay Serverin ilmoitusten tai virallisten kanavien kautta, joiden kautta BTCPay Server viestii.
 
-![kuva](assets/en/85.webp)
+Palvelimen ylläpitäjät voivat muuttaa BTCPay-palvelimen brändiä asettamalla yrityksesi koko palvelimen kattavan brändin. Koska BTCPay Server on FOSS-versio, palvelimen ylläpitäjät voivat merkitä ohjelmiston valkoisella tarralla ja mukauttaa sen ulkoasun yritykselleen sopivaksi.
+
+
+![image](assets/en/085.webp)
+
+
+### Huolto
+
+
+Palvelimen ylläpitäjänä käyttäjät odottavat, että pidät palvelimesta hyvää huolta. BTCPay Serverin Maintenance-välilehdellä ylläpitäjä voi tehdä joitakin tärkeitä huoltotoimenpiteitä. Aseta verkkotunnus BTCPay Server -instanssille, käynnistä palvelin uudelleen tai siivoa se. Mahdollisesti tärkeintä on päivitysten suorittaminen.
+
+
+BTCPay Server on avoimen lähdekoodin projekti, jota päivitetään usein. Jokaisesta uudesta julkaisusta ilmoitetaan joko BTCPay Server -ilmoituksissa tai virallisissa kanavissa, joiden kautta BTCPay Server kommunikoi.
+
+
+![image](assets/en/086.webp)
+
 
 #### Verkkotunnus
 
-Kun BTCPay Server on asennettu, ylläpitäjä saattaa haluta vaihtaa alkuperäisestä verkkotunnuksestaan. Ylläpito-välilehdellä ylläpitäjä voi vaihtaa verkkotunnuksen. Napsauttamalla vahvista ja asettamalla asianmukaiset DNS-tietueet verkkotunnukseen, BTCPay Server päivittyy ja käynnistyy uudelleen palatakseen uuteen verkkotunnukseen.
 
-![kuva](assets/en/86.webp)
+Kun BTCPay Server on perustettu, järjestelmänvalvoja saattaa haluta vaihtaa pois alkuperäisestä verkkotunnuksesta. Ylläpitäjä voi vaihtaa verkkotunnuksen Maintenance-välilehdellä. Kun olet napsauttanut Vahvista ja määrittänyt oikeat DNS-tietueet verkkotunnukselle, BTCPay Server päivittyy ja käynnistyy uudelleen palatakseen uuteen verkkotunnukseen.
 
-#### Uudelleenkäynnistys
+
+![image](assets/en/087.webp)
+
+
+#### Käynnistä uudelleen
+
 
 Käynnistä BTCPay Server ja siihen liittyvät palvelut uudelleen.
 
-![kuva](assets/en/87.webp)
 
-#### Puhdistus
+![image](assets/en/088.webp)
 
-BTCPay Server toimii Docker-komponenttien kanssa; päivitysten yhteydessä voi jäädä jäljelle Docker-kuvia, väliaikaistiedostoja jne. Palvelimen ylläpitäjät voivat siivota nämä ja vapauttaa tilaa ympäristössään suorittamalla Puhdistus-skriptin.
-![kuva](assets/en/88.webp)
+
+#### Puhdas
+
+
+BTCPay Server toimii Docker-komponenttien kanssa; päivitysten yhteydessä saattaa jäädä Docker-kuvien jäänteitä, väliaikaisia tiedostoja jne. jäljelle. Palvelimen ylläpitäjät voivat vapauttaa tilaa suorittamalla Clean-skriptin.
+
+
+![image](assets/en/089.webp)
+
 
 #### Päivitys
 
-Mahdollisesti tärkein vaihtoehto Ylläpito-välilehdessä. BTCPay Server on yhteisön rakentama, ja siksi sen päivityssyklit ovat tiheämpiä kuin useimmissa ohjelmistotuotteissa. Kun BTCPay Serverillä on uusi julkaisu, ylläpitäjät saavat ilmoituksen ilmoituskeskuksessaan. Päivityspainiketta napsauttamalla BTCPay Server tarkistaa GitHubista uusimman julkaisun, päivittää palvelimen ja käynnistää sen uudelleen. Ennen päivittämistä palvelimen ylläpitäjien neuvotaan aina lukemaan julkaisutiedot, jotka jaetaan BTCPay Serverin virallisten kanavien kautta.
 
-![kuva](assets/en/89.webp)
+Se on ylläpito -välilehden tärkein vaihtoehto. BTCPay Server on yhteisön rakentama, ja siksi sen päivityssyklit ovat useimpia ohjelmistotuotteita tiheämpiä. Kun BTCPay Serveriin tulee uusi julkaisu, ylläpitäjät saavat siitä ilmoituksen ilmoituskeskukseensa. Napsauttamalla päivityspainiketta BTCPay Server tarkistaa GitHubista uusimman julkaisun, päivittää palvelimen ja käynnistää sen uudelleen. Ennen päivittämistä palvelimen ylläpitäjiä kehotetaan aina lukemaan BTCPay Serverin virallisten kanavien kautta jaetut julkaisutiedotteet.
+
+
+![image](assets/en/090.webp)
+
 
 ### Lokit
 
-Ongelman kohtaaminen ei ole koskaan hauskaa. Tässä asiakirjassa selitetään yleisimmät työnkulut ja vaiheet ongelmasi tehokkaaseen tunnistamiseen ja ratkaisemiseen itse tai yhteisön avulla.
+
+Ongelman kohtaaminen ei ole koskaan hauskaa. Tässä asiakirjassa kuvataan yleisimmät työnkulut ja vaiheet, joiden avulla ongelma voidaan tunnistaa ja ratkaista tehokkaasti joko itsenäisesti tai yhteisön avustuksella.
+
 
 Ongelman tunnistaminen on ratkaisevan tärkeää.
 
+
 #### Ongelman toistaminen
 
-Ensinnäkin yritä määrittää, milloin ongelma tapahtuu. Yritä toistaa ongelma. Yritä päivittää ja käynnistää palvelimesi uudelleen varmistaaksesi, että voit toistaa ongelmasi. Jos se kuvaa ongelmaasi paremmin, ota näyttökuva.
+
+Yritä ennen kaikkea selvittää, milloin ongelma ilmenee. Yritä toistaa ongelma. Yritä päivittää ja käynnistää palvelimesi uudelleen varmistaaksesi, että voit toistaa ongelman. Jos se kuvaa paremmin ongelmaasi, ota kuvakaappaus.
+
 
 ##### Palvelimen päivittäminen
 
-Tarkista BTCPay Serverin versionsi, jos se on paljon vanhempi kuin BTCPay Serverin [uusin versio](https://github.com/btcpayserver/btcpayserver/releases). Palvelimen päivittäminen saattaa ratkaista ongelman.
+
+Tarkista BTCPay Server -versiosi, jos se on paljon vanhempi kuin BTCPay Serverin [uusin versio](https://github.com/btcpayserver/btcpayserver/releases). Palvelimen päivittäminen voi ratkaista ongelman.
+
 
 ##### Palvelimen uudelleenkäynnistäminen
 
-Palvelimen uudelleenkäynnistäminen on helppo tapa ratkaista monia yleisimpiä BTCPay Serverin ongelmia. Sinun saattaa tarvita SSH-yhteys palvelimeesi sen uudelleenkäynnistämiseksi.
+
+Palvelimen uudelleenkäynnistäminen on helppo tapa ratkaista monet yleisimmistä BTCPay-palvelimen ongelmista. Sinun on ehkä otettava SSH-yhteys palvelimeesi, jotta voit käynnistää sen uudelleen.
+
 
 ##### Palvelun uudelleenkäynnistäminen
 
-Joissakin tapauksissa saattaa riittää, että käynnistät uudelleen tietyn palvelun BTCPay Server -asennuksessasi. Esimerkiksi lets encrypt -säiliön uudelleenkäynnistäminen SSL-sertifikaatin uusimiseksi.
+
+BTCPay Serverin käyttöönotossa saattaa olla tarpeen käynnistää uudelleen vain tietty palvelu joidenkin ongelmien vuoksi, kuten letsencrypt-säiliön käynnistäminen uudelleen SSL-varmenteen uusimiseksi.
+
 
 ```bash
 sudo su -
@@ -1525,21 +2256,30 @@ cd btcpayserver-docker
 docker restart letsencrypt-nginx-proxy-companion
 ```
 
-Käytä docker ps -komentoa löytääksesi eri palvelun nimen, jonka haluaisit käynnistää uudelleen.
 
-#### Lokien läpikäyminen
+Käytä docker ps:ää löytääksesi sen palvelun nimen, jonka haluat käynnistää uudelleen.
 
-Lokit voivat tarjota olennaista tietoa. Seuraavissa kappaleissa kuvaamme, miten saat lokitietoja BTCPayn eri osista.
 
-##### BTCPay Lokit
+#### Lokien läpikäynti
 
-Versiosta v1.0.3.8 lähtien voit helposti päästä käsiksi BTCPay Serverin lokeihin etupuolelta. Jos olet palvelimen ylläpitäjä, mene Palvelimen Asetukset > Lokit ja avaa lokitiedosto. Jos et tiedä, mitä tietty virhe lokeissa tarkoittaa, mainitse se vianmäärityksessä.
 
-Jos haluat yksityiskohtaisempia lokeja ja käytät Docker-asennusta, voit tarkastella tiettyjen Docker-säiliöiden lokeja komentoriviltä. Katso nämä [ohjeet ssh-yhteyden muodostamiseksi](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) BTCPay-instanssiin, joka toimii VPS:llä.
+Lokit voivat tarjota tärkeää tietoa. Seuraavissa kappaleissa kuvaamme, miten saat lokitietoja BTCPayn eri osista.
 
-Seuraavalla sivulla yleinen lista säiliönimistä, joita käytetään BTCPay Serverissä.
 
-Suorita alla olevat komennot tulostaaksesi lokit säiliönimen perusteella. Korvaa säiliön nimi nähdäksesi muiden säiliöiden lokit.
+##### BTCPay lokit
+
+
+V1.0.3.8:sta lähtien voit helposti käyttää BTCPay-palvelimen lokeja etupäässä. Jos olet palvelimen ylläpitäjä, valitse Palvelimen asetukset > Lokit ja avaa lokitiedosto. Jos et tiedä, mitä tietty lokien virhe tarkoittaa, mainitse se vianmäärityksen yhteydessä.
+
+
+Jos haluat yksityiskohtaisempia lokitietoja ja käytät Docker-käyttöönottoa, voit tarkastella tiettyjen Docker-säiliöiden lokitietoja komentorivillä. Katso nämä [ssh-ohjeet](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) VPS:llä toimivaan BTCPay-instanssiin.
+
+
+Seuraavalla sivulla on yleinen luettelo BTCPay Serverissä käytetyistä konttien nimistä.
+
+
+Suorita alla olevat komennot tulostaaksesi lokit säiliön nimen mukaan. Korvaa kontin nimi, jos haluat tarkastella muita konttien lokitietoja.
+
 
 ```bash
 sudo su -
@@ -1548,7 +2288,8 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| Lokit        | Säiliön Nimi                      |
+
+| Logs for     | Container Name                    |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -1565,887 +2306,1307 @@ docker logs --tail 100 generated_btcpayserver_1
 | Tor          | tor-gen                           |
 | Tor          | tor                               |
 
-###### Lightning Network LND - Docker
+###### Lightning Network LND - Telakka
 
-LND-lokien tarkastelu Dockeria käyttäen onnistuu muutamalla tavalla. Kirjaudu ensin root-käyttäjänä:
+
+LND-lokeihin pääsee käsiksi muutamalla tavalla, kun käytät Dockeria. Kirjaudu ensin sisään pääkäyttäjänä:
+
 
 ```bash
 sudo su -
-Siirry oikeaan hakemistoon:
+Navigate to the correct directory:
 cd btcpayserver-docker
-# Etsi kontin name:
+# Find container name:
 docker ps
-Tulosta lokit kontin nimellä:
+Print logs by container name:
 docker logs --tail 100 btcpayserver_lnd_bitcoin
 ```
 
-Vaihtoehtoisesti voit nopeasti tulostaa lokit käyttämällä kontin ID:tä (tarvitaan vain ensimmäiset uniikit ID-merkit, kuten kaksi vasemmanpuoleisinta merkkiä):
+
+Vaihtoehtoisesti voit tulostaa lokit nopeasti käyttämällä säiliön tunnusta (tarvitaan vain ensimmäiset yksilölliset tunnuksen merkit, kuten kaksi vasemmanpuoleisinta merkkiä):
+
 
 ```bash
-docker logs 'lisää konttisi ID'
+docker logs 'add your container ID'
 ```
 
-Jos tarvitset jostain syystä enemmän lokeja
+
+Jos jostain syystä tarvitset lisää tukkeja, -
+
 
 ```bash
 sudo su -
-cd /var/lib/docker/volumes/generated_lnd_bitcoin_datadir/_data/logs/bitcoin/mainnet/
+cd /var/lib/docker/volumes/generated_lnd_bitcoin_datadir/\_data/logs/ bitcoin/mainnet/
 ls
 ```
 
-Näet jotakin tällaista
+
+Näet jotain sellaista kuin
+
 
 ```bash
 lnd.log lnd.log.13 lnd.log.15 lnd.log.16.gz lnd.log.17.gz
 ```
 
-Päästäksesi käsiksi pakkaamattomiin lokeihin, käytä `cat lnd.log` tai jos haluat toisen, käytä `cat lnd.log.15`.
 
-Päästäksesi käsiksi pakattuihin lokeihin `.gzip`-muodossa, käytä `gzip -d lnd.log.16.gz` (tässä tapauksessa käsittelemme `lnd.log.16.gz`). Tämän pitäisi antaa sinulle uusi tiedosto, jossa voit tehdä `cat lnd.log.16`. Jos yllä oleva ei toimi, saatat tarvita asentaa gzip ensin komennolla `sudo apt-get install gzip`.
+Jos haluat käyttää näiden lokien pakkaamattomia lokeja, tee `cat LND.log` tai jos haluat toisen, käytä `cat LND.log.15`.
 
-###### Lightning Network c-lightning - Docker
+
+Jos haluat käyttää pakattuja lokitietoja muodossa `.gzip`, käytä `gzip -d LND.log.16.gz` (tässä tapauksessa käytämme `LND.log.16.gz`). Tämän pitäisi antaa sinulle uusi tiedosto, jossa voit tehdä `cat LND.log.16`. Jos edellä mainittu ei toimi, sinun on ehkä asennettava gzip ensin komennolla `sudo apt-get install gzip`.
+
+
+###### Lightning Network c-lightning - Telakka
+
 
 ```bash
 sudo su -
 docker ps
-# Etsi c-lightning kontin ID.
-docker logs 'lisää konttisi ID tähän'
+# Find the c-lightning container ID.
+docker logs 'add your container ID here'
 ```
 
-vaihtoehtoisesti käytä tätä
+
+Vaihtoehtoisesti voit käyttää tätä:
+
 
 ```bash
 docker logs --tail 100 btcpayserver_clightning_bitcoin
 ```
 
-Voit myös saada lokitietoja c-lightning cli-komennolla.
+
+Voit myös saada lokitiedot c-lightning CLI -komennolla.
+
 
 ```bash
 bitcoin-lightning-cli.sh getlog
 ```
 
-#### Bitcoin Node Lokit
 
-Bitcoind-konttisi lokien tarkastelun lisäksi voit käyttää mitä tahansa [bitcoin-cli komentoja](https://developer.bitcoin.org/reference/rpc/index.html)
+#### Bitcoin-solmun lokit
 
-[(avautuu uudessa ikkunassa)](https://developer.bitcoin.org/reference/rpc/index.html) saadaksesi tietoja bitcoin-nodestasi. BTCPay sisältää skriptin, joka mahdollistaa kommunikoinnin Bitcoin-nodesi kanssa helposti.
 
-btcpayserver-docker-kansiossa, saat blockchain-tiedot nodestasi käyttäen:
+bitcoind-säiliön [lokien tarkastelun](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) lisäksi voit myös käyttää mitä tahansa [bitcoin-cli-komentoja](https://developer.Bitcoin.org/reference/RPC/index.html)
+
+
+[(avaa uuden ikkunan)](https://developer.Bitcoin.org/reference/RPC/index.html) saadaksesi tietoja Bitcoin-solmusta. BTCPay sisältää skriptin, jonka avulla voit kommunikoida Bitcoin-solmun kanssa helposti.
+
+
+Hae btcpayserver-docker-kansion sisältä Blockchain-tiedot solmun avulla:
+
 
 ```bash
 bitcoin-cli.sh getblockchaininfo
 ```
 
+
 ### Tiedostot
 
-BTCPay Serverilla on paikallinen tiedostojärjestelmä ja se lataa kaupan (tuote) omaisuutta, logoja ja brändäystä suoraan palvelimelle. Palvelimen tiedostojärjestelmä on vain palvelimen ylläpitäjien saavutettavissa; kaupan omistajat voivat ladata omat logonsa/brändäyksensä kaupan tasolla.
-Kun palvelimen ylläpitäjä on Tiedostovarasto-välilehdessä, on mahdollista suoraan ladata palvelimellesi tai vaihtaa tiedostovaraston tarjoajaa paikalliseen tiedostojärjestelmään tai Azure Blob Storageen.
 
-![kuva](assets/en/90.webp)
+BTCPay-palvelimessa on paikallinen tiedostojärjestelmä, jonka avulla voit ladata myymälä- (tuote-) omaisuuseriä, logoja ja tuotemerkkejä suoraan palvelimelle. Palvelimen tiedostojärjestelmään pääsevät käsiksi vain palvelimen ylläpitäjät; myymälän omistajat voivat ladata logonsa tai brändinsä myymälätasolla.
 
-![kuva](assets/en/91.webp)
 
-### Taitojen Yhteenveto
+Kun palvelimen ylläpitäjä on Tiedostotallennus-välilehdellä, on mahdollista ladata suoraan palvelimelle tai vaihtaa tiedoston tallennuspalvelun tarjoaja paikalliseen tiedostojärjestelmään tai Azure Blob Storageen.
 
-Tässä osiossa opit seuraavat asiat:
 
-- Erot kaupan ja palvelimen asetuksissa, erityisesti käyttäjien, roolien ja sähköpostien osalta
-- Aseta palvelinlaajuiset politiikat Lightningin tai Bitcoinin hot walletin käytölle ja luomiselle, uusien käyttäjien rekisteröinnille ja sähköposti-ilmoituksille.
-- Miten lisätä mukautettuja teemoja (sen sijaan, että käytettäisiin vain yksinkertaisia vaaleita/pimeitä vaihtoehtoja) sekä luoda mukautettuja logoja
-- Suorita yksinkertaisia palvelimen ylläpitotehtäviä GUI:n kautta
-- Vianmääritys, mukaan lukien Docker-säiliöiden tai solmusi yksityiskohtien hankkiminen
-- Hallitse tiedostovarastoa
+![image](assets/en/091.webp)
 
-### Tiedon Arviointi
 
-#### KA Käsitteellinen Katsaus
+![image](assets/en/092.webp)
 
-Mikä on ero roolien määrittelyssä palvelimen kautta verrattuna kaupan asetuksiin, ja kuvaile potentiaalinen käyttötarkoitus toiselle yli toisen?
 
-#### KA Käytännön Katsaus
+### Taitojen yhteenveto
 
-Kuvaile mahdollisia käyttötapauksia, jotka ovat mahdollisia Politiikat-välilehdessä.
 
-#### KA Käytännön Katsaus
+Tässä jaksossa opit seuraavat asiat:
 
-Kuvaile toimia, joita ylläpitäjä saattaa säännöllisesti tehdä Ylläpito-välilehdessä.
 
-## BTCPay Server - Maksut
+
+- Kaupan ja palvelimen asetusten välinen ero, erityisesti käyttäjien, roolien ja sähköpostien osalta
+- Aseta koko palvelimen kattavat käytännöt Lightning- tai Bitcoin Hot Wallet -käytölle ja -luonnille, uusien käyttäjien rekisteröinnille ja sähköposti-ilmoituksille.
+- Miten lisätä mukautettuja teemoja (pelkkien vaaleiden ja tummien vaihtoehtojen sijaan) sekä luoda mukautettuja logoja?
+- Suorita yksinkertaisia palvelimen ylläpitotehtäviä mukana toimitetun graafisen käyttöliittymän avulla
+- Vianmääritysongelmat, mukaan lukien tietojen hakeminen mistä tahansa Docker-säiliöstä tai solmusta
+- Hallitse tiedostojen tallennusta
+
+
+### Tietojen arviointi
+
+
+#### KA Käsitteellinen tarkastelu
+
+
+Mitä eroa on palvelimen ja myymäläasetusten kautta määritetyillä rooleilla, ja mikä on mahdollista, että jompaa kumpaa käytetään enemmän kuin toista?
+
+
+#### KA Käytännön katsaus
+
+
+Kuvaile joitakin mahdollisia käyttötapauksia, jotka on otettu käyttöön Käytännöt-välilehdellä.
+
+
+#### KA Käytännön katsaus
+
+
+Kuvaile joitakin toimia, joita järjestelmänvalvoja voi tehdä rutiininomaisesti Ylläpito-välilehdellä.
+
+
+## BTCPay-palvelin - Maksut
+
 
 <chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
 
-Lasku on asiakirja, jonka myyjä laatii ostajalle maksun keräämiseksi.
 
-BTCPay Serverissa lasku edustaa asiakirjaa, joka on maksettava määritellyssä aikavälissä kiinteällä vaihtokurssilla. Laskuilla on viimeinen voimassaolopäivä, koska ne lukitsevat vaihtokurssin määrätyksi ajaksi suojatakseen vastaanottajaa hintavaihteluilta.
+Invoice on asiakirja, jonka myyjä antaa ostajalle maksun perimiseksi.
 
-BTCPay Serverin ydin on toimia Bitcoin-laskujen hallintajärjestelmänä. Lasku on olennainen työkalu vastaanotetun maksun seurantaan ja hallintaan.
 
-Ellet käytä sisäänrakennettua [Wallet](https://docs.btcpayserver.org/Wallet/) -lompakkoa maksujen manuaaliseen vastaanottoon, kaikki kaupan sisällä tehdyt maksut näytetään Laskut-sivulla. Tämä sivu lajittelee maksut päivämäärän mukaan ja on keskeinen osa laskujen hallintaa ja maksuongelmien selvittämistä.
+BTCPay Serverissä Invoice edustaa asiakirjaa, joka on maksettava määritellyn ajan kuluessa kiinteällä Exchange-kurssilla. Laskuilla on voimassaolopäivämäärät, koska ne lukitsevat Exchange-kurssin tietylle aikavälille ja suojaavat vastaanottajaa hinnanvaihteluilta.
 
-![kuva](assets/en/92.webp)
+
+BTCPay Serverin ydin on kyky toimia Bitcoin Invoice-hallintajärjestelmänä. Invoice on olennainen työkalu vastaanotettujen maksujen seurantaan ja hallintaan.
+
+
+Ellet käytä sisäänrakennettua [Wallet](https://docs.btcpayserver.org/Wallet/) maksujen vastaanottamiseen manuaalisesti, kaikki myymälän sisällä olevat maksut näkyvät Laskut-sivulla. Tällä sivulla maksut lajitellaan kumulatiivisesti päivämäärän mukaan, ja se toimii keskeisenä resurssina Invoice hallintaa ja maksujen vianmääritystä varten.
+
+
+![image](assets/en/093.webp)
+
 
 ### Yleistä
 
-#### Laskun tilat
 
-Alla oleva taulukko luettelee ja kuvailee BTCPayn standardilaskun tiloja ja ehdottaa yleisiä toimenpiteitä. Toimenpiteet ovat vain suosituksia. Käyttäjien on määriteltävä parhaat toimintatavat omien käyttötapauksiensa ja liiketoimintansa kannalta.
+#### Invoice:n tilat
 
-| Laskun Tila                    | Kuvaus                                                                                                                           | Toimenpide                                                                                                                                                          |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Uusi                           | Ei maksettu, laskun aikaraja ei ole vielä umpeutunut                                                                             | Ei toimenpiteitä                                                                                                                                                    |
-| Uusi (paidPartial)             | Maksettu, ei täysin, laskun aikaraja ei ole vielä umpeutunut                                                                     | Ei toimenpiteitä                                                                                                                                                    |
-| Vanhentunut                    | Ei maksettu, laskun aikaraja umpeutunut                                                                                          | Ei toimenpiteitä                                                                                                                                                    |
-| Vanhentunut (paidPartial) \*\* | Maksettu, ei täydessä määrässä, ja umpeutunut                                                                                    | Ota yhteyttä ostajaan järjestääksesi palautuksen tai pyytääksesi heitä maksamaan erääntyneet maksut. Vaihtoehtoisesti merkitse lasku selvitettyksi tai mitätöidyksi |
-| Vanhentunut (paidLate)         | Maksettu, täydessä määrässä, laskun aikarajan jälkeen                                                                            | Ota yhteyttä ostajaan järjestääksesi palautuksen tai käsittele tilaus, jos myöhäiset vahvistukset hyväksytään.                                                      |
-| Settled (paidOver)             | Maksettu laskun määrää suurempi summa, selvitetty, saatu riittävä määrä vahvistuksia                                             | Ota yhteyttä ostajaan järjestääksesi ylimääräisen summan palautuksen, tai odota vaihtoehtoisesti, että ostaja ottaa sinuun yhteyttä                                 |
-| Processing                     | Maksettu täysimääräisesti, mutta ei ole saanut riittävää määrää vahvistuksia kaupan asetuksissa määritellyllä tavalla            | Ota yhteyttä ostajaan järjestääksesi ylimääräisen summan palautuksen, tai odota vaihtoehtoisesti, että ostaja ottaa sinuun yhteyttä                                 |
-| Processing (paidOver)          | Maksettu laskun määrää suurempi summa, ei ole saanut riittävää määrää vahvistuksia                                               | Odota selvitystä, sitten ota yhteyttä ostajaan järjestääksesi ylimääräisen summan palautuksen, tai odota vaihtoehtoisesti, että ostaja ottaa sinuun yhteyttä        |
-| Settled                        | Maksettu täysimääräisesti, saatu riittävä määrä vahvistuksia kaupassa                                                            | Toteuta tilaus                                                                                                                                                      |
-| Settled (marked)               | Tila manuaalisesti muutettu selvitettyksi käsittelyssä tai virheellisessä tilassa                                                | Kaupan ylläpitäjä on merkinnyt maksun selvitetyksi                                                                                                                  |
-| **Invalid**                      | Maksettu, mutta ei ole saanut riittävää määrää vahvistuksia kaupan asetuksissa määritellyssä ajassa                              | Tarkista transaktio lohkoketjun tutkijassa, jos se on saanut riittävät vahvistukset, merkitse selvitetyksi                                                          |
-| Invalid (marked)               | Tila manuaalisesti muutettu virheelliseksi selvitetystä tai vanhentuneesta tilasta                                               | Kaupan ylläpitäjä on merkinnyt maksun virheelliseksi                                                                                                                |
-| Invalid (paidOver)             | Maksettu laskun määrää suurempi summa, mutta ei ole saanut riittävää määrää vahvistuksia kaupan asetuksissa määritellyssä ajassa | Tarkista transaktio lohkoketjun tutkijassa, jos se on saanut riittävät vahvistukset, merkitse selvitetyksi                                                          |
 
-#### Laskun tiedot
+Alla olevassa taulukossa luetellaan ja kuvataan BTCPayn Invoice-standarditilat sekä ehdotetut yleiset toimenpiteet. Toimenpiteet ovat vain suosituksia. Käyttäjien on itse määriteltävä omaan käyttötilanteeseensa ja liiketoimintaansa parhaiten sopiva toimintatapa.
 
-Laskun tiedot -sivu sisältää kaikki laskuun liittyvät tiedot.
 
-Laskutiedot luodaan automaattisesti perustuen laskun tilaan, vaihtokurssiin jne. Tuotetiedot luodaan automaattisesti, jos lasku on luotu tuotetietojen kanssa, kuten Point of Sale -sovelluksessa.
+| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
+| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
+| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
+| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
+| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
+| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
+| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
+| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
+| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
+| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
+| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
+| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
 
-#### Laskujen suodattaminen
+#### Invoice tiedot
 
-Laskuja voidaan suodattaa nopeiden suodattimien avulla, jotka sijaitsevat hakupainikkeen vieressä tai edistyneiden suodattimien avulla, jotka voidaan ottaa käyttöön napsauttamalla (Apua) -linkkiä yläosassa. Käyttäjät voivat suodattaa laskuja kaupan, tilausnumeron, tuotenumeron, tilan tai päivämäärän mukaan.
 
-#### Laskujen vienti
+Invoice:n tietosivu sisältää kaikki Invoice:een liittyvät tiedot.
 
-BTCPay Serverin laskut voidaan viedä CSV- tai JSON-muodossa. Lisätietoja laskujen viennistä ja kirjanpidosta.
 
-#### Laskun palauttaminen
+Invoice-tiedot luodaan automaattisesti Invoice-tilan, Exchange-asteen jne. perusteella. Tuotetiedot luodaan automaattisesti, jos Invoice on luotu tuotetietojen kanssa, esimerkiksi Point of Sale -sovelluksessa.
 
-Jos haluat mistä tahansa syystä tehdä palautuksen, voit helposti luoda palautuksen laskunäkymästä.
+
+#### Invoice suodatus
+
+
+Laskuja voidaan suodattaa hakupainikkeen vieressä olevien pikasuodattimien tai tarkennettujen suodattimien avulla, joita voi vaihtaa napsauttamalla yläreunassa olevaa (Ohje) -linkkiä. Käyttäjät voivat suodattaa laskuja myymälän, tilaustunnuksen, nimiketunnuksen, tilan tai päivämäärän mukaan.
+
+
+#### Invoice vienti
+
+
+BTCPay Server -laskut voidaan viedä CSV- tai JSON-muodossa. Lisätietoja Invoice viennistä ja kirjanpidosta.
+
+
+#### Invoice:n palauttaminen
+
+
+Jos jostain syystä haluat antaa palautuksen, voit helposti luoda palautuksen Invoice-näkymästä.
+
 
 #### Laskujen arkistointi
 
-BTCPay Serverin "ei osoitteen uudelleenkäyttö" -ominaisuuden seurauksena on yleistä nähdä monia vanhentuneita laskuja kauppasi laskusivulla. Piilottaaksesi ne näkymästäsi, valitse ne luettelosta ja merkitse ne arkistoiduiksi. Arkistoituina merkittyjä laskuja ei poisteta. Arkistoituun laskuun tehty maksu havaitaan edelleen BTCPay Serverissäsi (paidLate-tila). Voit milloin tahansa tarkastella kauppasi arkistoituja laskuja valitsemalla arkistoidut laskut hakusuodattimen pudotusvalikosta.
+
+Koska BTCPay Serverin Address uudelleenkäyttöä ei sallita, on tavallista, että kauppasi Invoice-sivulla näkyy paljon vanhentuneita laskuja. Voit piilottaa ne näkyvistäsi valitsemalla ne luettelosta ja merkitsemällä ne arkistoiduksi. Arkistoiduksi merkittyjä laskuja ei poisteta. BTCPay-palvelimesi havaitsee edelleen maksun arkistoidulle Invoice:lle (paidLate-tila). Voit tarkastella myymälän arkistoituja laskuja milloin tahansa valitsemalla arkistoidut laskut hakusuodattimen pudotusvalikosta.
+
 
 #### Oletusvaluutta
 
-Kaupan oletusvaluutta, tämä asetettiin kaupan luontivelhossa
 
-#### Salli kenen tahansa luoda lasku
+Kaupan oletusvaluutta, joka asetettiin ohjatussa kaupan luomisessa.
 
-Sinun tulisi ottaa tämä vaihtoehto käyttöön, jos haluat sallia ulkopuolisten luoda laskuja kaupassasi. Tämä vaihtoehto on hyödyllinen vain, jos käytät maksupainiketta tai jos laskutat API:n tai kolmannen osapuolen HTML-verkkosivuston kautta. PoS-sovellus on esivaltuutettu eikä tarvitse tätä toimintoa satunnaisen vierailijan avataksesi PoS-kauppasi ja luodaksesi laskun.
 
-#### Lisää lisämaksu (verkkomaksu) laskuun
+#### Kuka tahansa voi luoda Invoice:n
 
-- Vain jos asiakas tekee enemmän kuin yhden maksun laskulle
-- Jokaisesta maksusta
+
+Tämä vaihtoehto kannattaa ottaa käyttöön, jos haluat antaa ulkopuolisten luoda laskuja kaupassasi. Tämä vaihtoehto on hyödyllinen vain, jos käytät maksupainiketta tai jos laadit laskuja API:n tai kolmannen osapuolen HTML-sivuston kautta. PoS-sovellus on ennakkovaltuutettu, eikä tämän asetuksen ottamista käyttöön tarvita, jotta satunnainen vierailija voi avata kassakauppasi ja luoda Invoice-laskun.
+
+
+#### Lisää lisämaksu (verkkomaksu) Invoice:ään
+
+
+
+- Vain jos asiakas maksaa Invoice:stä useamman kuin yhden maksun
+- Jokaisen maksun yhteydessä
 - Älä koskaan lisää verkkomaksua
 
-#### Lasku vanhenee, jos koko summaa ei ole maksettu .. minuutin jälkeen.
 
-Laskurin aikaraja on oletuksena asetettu 15 minuuttiin. Aikaraja on suojamekanismi volatiliteettia vastaan, sillä se lukitsee kryptovaluutan määrän krypto-fiat -kurssien mukaan. Jos asiakas ei maksa laskua määritellyssä ajassa, lasku katsotaan vanhentuneeksi. Lasku katsotaan "maksetuksi" heti, kun transaktio näkyy lohkoketjussa (0-vahvistusta), mutta "valmiiksi" kun se saavuttaa kauppiaan määrittelemän vahvistusten määrän (yleensä 1-6). Aikarajaa voi muokata.
+#### Invoice raukeaa, jos koko summaa ei ole maksettu ... pöytäkirjan jälkeen.
 
-#### Pidä lasku maksettuna, vaikka maksettu summa olisi ..% odotettua vähemmän.
 
-Tilanteessa, jossa asiakas käyttää vaihtopalvelun lompakkoa maksamaan suoraan laskusta, vaihto ottaa pienen maksun. Tämä tarkoittaa, että tällaista laskua ei katsota täysin suoritetuksi. Laskun tilaksi tulee "osittain maksettu". Jos kauppias haluaa hyväksyä alimaksetut laskut, voit asettaa prosenttiosuuden tässä
+Invoice:n ajastin on oletusarvoisesti asetettu 15 minuuttiin. Ajastin toimii suojamekanismina volatiliteettia vastaan, sillä se lukitsee kryptovaluuttamäärän krypto-fiat-kurssien perusteella. Jos asiakas ei maksa Invoice-maksua määritellyn ajan kuluessa, Invoice katsotaan vanhentuneeksi. Invoice katsotaan "maksetuksi" heti, kun transaktio näkyy Blockchain:ssä (ilman vahvistuksia), ja se katsotaan "suoritetuksi", kun se saavuttaa kauppiaan määrittelemän vahvistusten määrän (yleensä 1-6). Ajastin on muokattavissa.
 
-### Pyyntöjä
 
-Maksupyynnöt ovat ominaisuus, joka mahdollistaa BTCPay-kaupan omistajille pitkäaikaisten laskujen luomisen. Varat maksetaan maksupyynnölle käyttäen maksuhetken vaihtokurssia. Tämä mahdollistaa käyttäjien maksaa omalla ajallaan ilman tarvetta neuvotella tai varmistaa vaihtokurssit kaupan omistajan kanssa maksuhetkellä.
+#### Pidä Invoice maksettuna, vaikka maksettu määrä olisi ..% odotettua pienempi.
 
-Käyttäjät voivat maksaa pyynnöt osamaksuina. Maksupyyntö pysyy voimassa kunnes se on maksettu kokonaan tai jos kaupan omistaja vaatii vanhentumisajan. Osoitteita ei koskaan uudelleenkäytetä. Uusi osoite luodaan joka kerta, kun käyttäjä klikkaa maksaa luodakseen laskun maksupyynnölle.
 
-Kaupan omistajat voivat tulostaa maksupyynnöt (tai viedä laskutiedot) kirjanpitoa ja laskentaa varten. BTCPay automaattisesti merkitsee laskut Maksupyynnöiksi kauppasi laskulistalla.
+Tilanteessa, jossa asiakas käyttää Exchange Wallet:ta maksaakseen suoraan Invoice:stä, Exchange ottaa pienen maksun. Tämä tarkoittaa, että tällaista Invoice:tä ei pidetä täysin valmiina. Invoice merkitään "maksettu osittain" Jos kauppias haluaa hyväksyä vajaasti maksetut laskut, voit asettaa prosenttimäärän tässä kohdassa
 
-#### Mukauta Maksupyynnöt
 
-- Laskun Summa - Aseta Pyydetty Maksusumma
-- Valuutta - Näytä Pyydetty Summa Fiatissa tai Kryptovaluutassa
-- Maksun Määrä - Salli vain yksittäiset maksut tai osamaksut
-- Vanhentumisaika - Salli maksut tiettyyn päivämäärään asti tai ilman vanhentumista
-- Kuvaus - Tekstieditori, Datataulukot, Upota Kuvia & Videoita
-- Ulkoasu - Väri ja Tyyli CSS-teemoilla
+### Pyynnöt
 
-![kuva](assets/en/93.webp)
 
-#### Luo Maksupyyntö
+Maksupyynnöt ovat ominaisuus, jonka avulla BTCPay-kaupan omistajat voivat luoda pitkäaikaisia laskuja. Varat maksetaan maksupyynnön mukaisesti käyttäen maksuhetkellä voimassa olevaa Exchange-kurssia. Näin käyttäjät voivat suorittaa maksuja haluamallaan tavalla ilman, että heidän tarvitsee neuvotella tai tarkistaa Exchange-kursseja kaupan omistajan kanssa maksuhetkellä.
 
-Vasemmassa valikossa, mene kohtaan Maksupyyntö ja klikkaa "Luo Maksupyyntö".
 
-![kuva](assets/en/94.webp)
+Käyttäjät voivat maksaa pyynnöt osamaksuina. Maksupyyntö pysyy voimassa, kunnes se on maksettu kokonaan tai jos kaupan omistaja vaatii päättymisajan. Osoitteita ei koskaan käytetä uudelleen. Uusi Address luodaan joka kerta, kun käyttäjä klikkaa maksa-painiketta luodakseen maksupyynnöstä Invoice:n.
 
-Anna Pyyntönimi, Summa, Näyttövaluutta, Liitetty Kauppa, Vanhentumisaika & Kuvaus (Valinnainen)
 
-Valitse vaihtoehto Salli maksajan luoda laskuja heidän valuutassaan, jos haluat sallia osamaksut.
+Kaupan omistajat voivat tulostaa maksupyyntöjä (tai viedä Invoice-tietoja) kirjanpitoa ja kirjanpitoa varten. BTCPay merkitsee laskut automaattisesti maksupyynnöiksi kauppasi Invoice-luettelossa.
 
-Klikkaa Tallenna & Katsele tarkastellaksesi maksupyyntöäsi.
 
-BTCPay luo URL-osoitteen maksupyynnölle. Jaa tämä URL nähdäksesi maksupyyntösi. Tarvitsetko useita samanlaisia pyyntöjä? Voit kopioida maksupyynnöt käyttämällä Kloonaa-vaihtoehtoa päävalikossa.
+#### Mukauta maksupyyntöjäsi
 
-![kuva](assets/en/95.webp)
+
+
+- Invoice Amount - Aseta pyydetty maksun määrä
+- Nimellisarvo - Näytä pyydetty summa fiat- tai kryptovaluuttana
+- Maksun määrä - Salli vain yksittäiset maksut tai osittaiset maksut
+- Päättymisaika - Salli maksut tiettyyn päivämäärään asti tai ilman päättymispäivää
+- Kuvaus - Tekstieditori, datataulukot, upota valokuvia ja videoita
+- Ulkonäkö - Väri ja tyyli CSS-teemojen avulla
+
+
+![image](assets/en/094.webp)
+
+
+#### Luo maksupyyntö
+
+
+Siirry vasemmanpuoleisessa valikossa kohtaan Maksupyyntö ja valitse "Luo maksupyyntö".
+
+
+![image](assets/en/095.webp)
+
+
+Anna pyynnön nimi, summa, näytön nimellisarvo, liittyvä myymälä, voimassaoloaika ja kuvaus (valinnainen)
+
+
+Valitse vaihtoehto Salli maksunsaajan laatia laskuja omalla nimellisarvollaan, jos haluat sallia osamaksut.
+
+
+Klikkaa Save & View (Tallenna & Näytä) tarkastellaksesi maksupyyntöäsi.
+
+
+BTCPay luo URL-osoitteen maksupyyntöä varten. Jaa tämä URL-osoite nähdäksesi maksupyyntösi. Tarvitsetko useita samoja pyyntöjä? Voit monistaa maksupyyntöjä käyttämällä päävalikon Kloonaa-vaihtoehtoa.
+
+
+![image](assets/en/096.webp)
+
 
 **VAROITUS**
 
-Maksupyynnöt ovat kauppakohtaisia, mikä tarkoittaa, että jokainen maksupyyntö liittyy kauppaan luomisen yhteydessä. Varmista, että sinulla on lompakko yhdistettynä kauppaasi, johon maksupyyntö kuuluu.
 
-#### Maksettu Pyyntö
+Maksupyynnöt ovat myymälästä riippuvaisia, mikä tarkoittaa, että jokainen maksupyyntö liitetään myymälään luomisen yhteydessä. Varmista, että Wallet on liitetty kauppaan, johon maksupyyntö kuuluu.
 
-Maksaja ja pyytäjä voivat tarkastella maksupyynnön tilaa maksun lähettämisen jälkeen. Tila näkyy Maksettuna, jos maksu on vastaanotettu kokonaan. Jos vain osamaksuja on tehty, Velka näyttää jäljellä olevan summan.
 
-![kuva](assets/en/96.webp)
+#### Maksettu pyyntö
 
-#### Mukauta Maksupyynnöt
 
-Kuvaussisältöä voidaan muokata maksupyynnön tekstieditorilla. Molemmat vaihtoehdot ovat käytettävissä, jos haluat käyttää lisäväriteemoja tai mukautettua CSS-tyyliä.
-Ei-tekniset käyttäjät voivat käyttää [bootstrap-teemaa](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Lisämuokkauksia voidaan tehdä tarjoamalla lisää CSS-koodia, kuten alla näytetään.
+Maksunsaaja ja maksupyynnön tekijä voivat tarkastella maksupyynnön tilaa sen jälkeen, kun maksu on lähetetty. Tilaksi tulee Selvitetty, jos maksu on vastaanotettu kokonaisuudessaan. Jos maksuja on suoritettu vain osittain, Amount Due näyttää jäljellä olevan saldon.
+
+
+![image](assets/en/097.webp)
+
+
+#### Mukauta maksupyyntöjä
+
+
+Kuvauksen sisältöä voidaan muokata maksupyynnön tekstieditorilla. Molemmat vaihtoehdot ovat käytettävissä, jos haluat käyttää muita väriteemoja tai mukautettua CSS-muotoilua.
+
+
+Ei-tekniset käyttäjät voivat käyttää [bootstrap-teemaa](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Muita mukautuksia voidaan tehdä antamalla ylimääräistä CSS-koodia, kuten alla on esitetty.
+
 
 ```css
 :root {
-  --btcpay-font-family-base: "Source Sans Pro", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --btcpay-primary: #7d4698;
-  --btcpay-primary-accent: #59316b;
-  --btcpay-body-text: #333a41;
-  --btcpay-body-bg: #fff;
-  --btcpay-bg-tile: #f8f9fa;
+--btcpay-font-family-base: "Source Sans Pro", -apple-system,
+BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+--btcpay-primary: #7d4698;
+--btcpay-primary-accent: #59316b;
+--btcpay-body-text: #333a41;
+--btcpay-body-bg: #fff;
+--btcpay-bg-tile: #f8f9fa;
 }
 
 #mainNav {
-  color: white;
-  background: lineaarinen-gradientti(#59316b, #331840);
+color: white;
+background: linear-gradient(#59316b, #331840);
 }
 
 #mainNav .btn-link {
-  color: white;
+color: white;
 }
 ```
 
-### Pull-maksut
 
-Perinteisesti vastaanottaja jakaa Bitcoin-osoitteensa tehdäkseen Bitcoin-maksun, ja lähettäjä lähettää myöhemmin rahaa tähän osoitteeseen. Tällaista järjestelmää kutsutaan Push-maksuksi, koska lähettäjä aloittaa maksun, kun taas vastaanottaja voi olla tavoittamattomissa, työntäen maksun vastaanottajalle.
+### Vedä maksut
 
-Entäpä jos roolit kääntyisivät?
 
-Entä jos sen sijaan, että lähettäjä työntäisi maksun, lähettäjä sallisi vastaanottajan vetää maksun silloin, kun vastaanottaja pitää sitä sopivana? Tämä on Pull-maksun konsepti. Tämä mahdollistaa useita uusia sovelluksia, kuten:
+Perinteisesti vastaanottaja jakaa Bitcoin Address:nsä Bitcoin-maksua varten, ja lähettäjä lähettää myöhemmin rahaa tähän Address:ään. Tällaista järjestelmää kutsutaan Push-maksuksi, koska lähettäjä aloittaa maksun, kun vastaanottaja ei ehkä ole saatavilla, ja työntää maksun vastaanottajalle.
 
-- Tilauspalvelu (jossa tilaaja sallii palvelun vetää rahaa joka x ajanjakson jälkeen)
-- Hyvitykset (jossa kauppias sallii asiakkaan vetää hyvitysrahat lompakkoonsa, kun he pitävät sitä sopivana)
-- Aikaan perustuva laskutus freelancereille (jossa palkkaaja sallii freelancerin vetää rahaa lompakkoonsa, kun aikaa raportoidaan)
-- Tukeminen (jossa tukija sallii saajan vetää rahaa joka kuukausi jatkaakseen heidän työnsä tukemista)
-- Automaattinen myynti (jossa pörssin asiakas sallisi pörssin vetää rahaa lompakostaan myydäkseen automaattisesti joka kuukausi)
-- Saldojen nostojärjestelmä (jossa suurivolyymisen palvelun käyttäjät voivat pyytää nostoja saldostaan, palvelu voi sitten helposti ryhmitellä kaikki maksut monille käyttäjille kiintein väliajoin)
+
+Entä jos rooli kuitenkin käännetään?
+
+
+Entä jos sen sijaan, että lähettäjä työntää maksun, lähettäjä antaa vastaanottajan vetää maksun vastaanottajan kannalta sopivana ajankohtana? Tämä on Pull-maksun käsite. Tämä mahdollistaa useita uusia sovelluksia, kuten
+
+
+
+- Tilauspalvelu (jossa tilaaja sallii palvelun vetää rahaa x ajan välein)
+- Palautukset (kun kauppias antaa asiakkaan nostaa palautusrahan Wallet-järjestelmäänsä silloin, kun hän katsoo sen tarpeelliseksi)
+- Aikaperusteinen laskutus freelancereille (kun palkkaava henkilö antaa freelancerin vetää rahaa Wallet:eensa sitä mukaa kuin aikaa raportoidaan)
+- Mesenaatti (kun mesenaatti antaa vastaanottajan nostaa rahaa joka kuukausi jatkaakseen työnsä tukemista)
+- Automaattinen myynti (Exchange:n asiakas voi antaa Exchange:n ottaa rahaa Wallet:stä myyntiin joka kuukausi automaattisesti)
+- Saldonostojärjestelmä (kun suuren volyymin palvelu antaa käyttäjien pyytää nostoja saldostaan, palvelu voi sitten helposti erätä kaikki maksut monille käyttäjille tietyin väliajoin)
+
 
 ### Maksut
 
-Maksutoiminnallisuus on sidoksissa [Pull Payments](https://docs.btcpayserver.org/PullPayments/)-toimintoon. Tämä ominaisuus mahdollistaa maksujen luomisen BTCPay:ssä. Tämä ominaisuus mahdollistaa pull-maksujen (hyvitykset, palkanmaksut tai nostot) käsittelyn.
 
-#### Esimerkki 1: Hyvitys
+Maksutoiminto on sidottu [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) -toimintoon. Tämän ominaisuuden avulla voit luoda maksuja BTCPayn sisällä. Tämän ominaisuuden avulla voit käsitellä pull-maksuja (palautuksia, palkanmaksuja tai nostoja).
 
-Aloitetaan hyvitysesimerkillä. Asiakas on ostanut tuotteen kaupastasi, mutta valitettavasti hänen täytyy palauttaa tuote. He haluavat hyvityksen. BTCPay:ssä voit luoda [Hyvityksen](https://docs.btcpayserver.org/Refund/) ja tarjota asiakkaalle linkin varojensa vaatimiseen. Kun asiakas on antanut osoitteensa ja vaatinut varat, se näkyy Maksuissa.
 
-Ensimmäinen tila on Odottaa hyväksyntää. Kaupan työntekijät voivat tarkistaa, jos useita odottaa, ja valinnan jälkeen käytetään Toiminnot-painiketta.
+#### Esimerkki 1: Palautus
 
-Toiminnot-painikkeen vaihtoehdot
+
+Aloitetaan palautusta koskevasta esimerkistä. Asiakas on ostanut tuotteen kaupastasi, mutta valitettavasti hänen on palautettava se. Hän haluaa hyvityksen. BTCPayn sisällä voit luoda [Palautus](https://docs.btcpayserver.org/Refund/) ja antaa asiakkaalle linkin, jonka kautta hän voi lunastaa rahansa. Kun asiakas on antanut Address-tietonsa ja lunastanut varat, ne näkyvät Maksut-osiossa.
+
+
+Sen ensimmäinen tila on Odottaa hyväksyntää. Myymälävirkailijat voivat tarkistaa, jos useampi on odottamassa, ja kun olet tehnyt valinnan, käytät Toiminnot-painiketta.
+
+
+Toimintopainikkeen vaihtoehdot
+
+
 
 - Hyväksy valitut maksut
-- Hyväksy & lähetä valitut maksut
+- Hyväksy ja lähetä valitut maksut
 - Peruuta valitut maksut
 
-Seuraava vaihe on Hyväksy & lähetä valitut maksut, koska haluamme hyvittää asiakkaalle. Tarkista Asiakkaan Osoite, näyttää summan ja haluammeko, että maksut vähennetään hyvityksestä vai ei. Kun olet tehnyt tarkistukset, jäljellä on vain transaktion allekirjoitus.
-Asiakas saa nyt päivityksiä Vaatimussivulla. Hän voi seurata tapahtumaa, sillä hänelle tarjotaan linkki lohkoketjuselaimelle ja hänen tapahtumalleen. Kun tapahtuma on vahvistettu ja tila muuttuu Valmiiksi.
+
+Seuraava vaihe on hyväksyä ja lähettää valitut maksut, koska haluamme palauttaa asiakkaalle rahat. Tarkista asiakkaan Address, josta näkyy summa ja se, haluammeko, että maksut vähennetään palautuksesta vai ei. Kun olet suorittanut tarkistukset, tapahtuman allekirjoittaminen on ainoa jäljellä oleva vaihe.
+
+
+Asiakas päivitetään nyt Vaatimus-sivulle. Hän voi seurata tapahtumaa, koska hänelle annetaan linkki Block explorer:ään ja hänen tapahtumaansa. Kun maksutapahtuma on vahvistettu, sen tila muuttuu tilaksi "Completed".
+
 
 #### Esimerkki 2: Palkka
 
-Keskitytään nyt palkanmaksuun, sillä se tapahtuu kaupan sisältä eikä asiakkaan pyynnöstä. Periaate on sama; käytetään Vetomaksuja. Mutta sen sijaan, että loisimme hyvityksen, teemme [Vetomaksun](https://docs.btcpayserver.org/PullPayments/).
 
-Siirry BTCPay-palvelimesi Vetomaksut-välilehteen. Yläoikealla, klikkaa Luo Vetomaksu -nappia.
+Seuraavaksi käsitellään palkanmaksua, sillä sitä ohjataan myymälän sisältä eikä asiakkaan pyynnön mukaan. Peruskonsepti on sama; siinä hyödynnetään pull-maksuja. Mutta sen sijaan, että luomme palautuksen, teemme [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
 
-Nyt olemme luomassa Maksatusta, anna sille nimi ja haluttu summa halutussa valuutassa, täytä Kuvaus, jotta työntekijä tietää mistä on kyse. Seuraava osa on samanlainen kuin hyvityksissä. Työntekijä täyttää Kohdeosoitteen ja summan, jonka hän haluaa vaatia tästä Maksatuksesta. Hän saattaa päättää tehdä siitä 2 erillistä vaatimusta, eri osoitteisiin, tai jopa osittain vaatia lightning-verkon kautta.
 
-Jos odottavia Maksatuksia on useita, voit niputtaa nämä allekirjoitettaviksi ja lähetettäviksi. Kun allekirjoitus on tehty, maksatukset siirtyvät Käynnissä-välilehteen ja näyttävät Tapahtuman. Kun verkko hyväksyy maksatuksen, se siirtyy Valmiiksi-välilehteen. Valmiiksi-välilehti on puhtaasti historiallisia tarkoituksia varten. Se pitää sisällään käsitellyt Maksatukset ja niihin kuuluvan tapahtuman.
+Siirry BTCPay-palvelimesi Pull Payments -välilehdelle. Napsauta oikeassa yläkulmassa Create Pull Payment -painiketta.
 
-### Vetomaksut
 
-#### Käsite
+Nyt olemme luomisessa Payout, anna sille nimi ja haluamasi määrä valitun valuutan. Täytä Kuvaus, jotta työntekijä tietää, mistä on kyse. Seuraava osa on samanlainen kuin palautukset. Työntekijä täyttää Kohde Address:n ja summan, jonka hän haluaa vaatia tästä Payoutista. Hän voi päättää tehdä siitä 2 erillistä korvausvaatimusta, eri osoitteisiin tai jopa osittain korvausvaatimuksen salaman aikana.
 
-Kun lähettäjä määrittää Vetomaksun, hän voi määrittää useita ominaisuuksia:
 
-- Vetopyynnön Nimi
-- Raja-arvo
+Jos useita maksuja on odottamassa, voit erottaa ne allekirjoitettaviksi ja lähetettäviksi. Kun maksut on allekirjoitettu, ne siirretään Käynnissä-välilehdelle ja näyttävät Tapahtuman. Kun verkko on hyväksynyt maksun, se siirtyy Valmis-välilehdelle. Valmis-välilehti on pelkästään historiallisia tarkoituksia varten. Siihen tallennetaan käsitellyt maksut ja siihen kuuluvat tapahtumat
+
+
+### Vedä maksut
+
+
+#### Konsepti
+
+
+Kun lähettäjä määrittää Pull-maksun, hän voi määrittää useita ominaisuuksia:
+
+
+
+- Pull request Nimi
+- Rajamäärä
 - Yksikkö (kuten BTC, SAT, USD)
 - Maksutavat
-  - BTC On-chain
-  - BTC Off-chain
+  - BTC On-Chain
+  - BTC off-chain
 - Kuvaus
 - Mukautettu CSS
-- Päättymispäivä (valinnainen Lightning Network BOLT11:lle)
+- Loppupäivä (valinnainen Lightning Network BOLT11:lle)
 
-Tämän jälkeen lähettäjä voi jakaa vetomaksun linkin avulla vastaanottajalle, joka mahdollistaa vastaanottajan luoda maksatuksen. Vastaanottaja valitsee maksatuksensa:
 
-- Minkä maksutavan käyttää
+Tämän jälkeen lähettäjä voi jakaa pull-maksun linkin avulla vastaanottajan kanssa, jolloin vastaanottaja voi luoda maksun. Vastaanottaja valitsee maksun:
+
+
+
+- Mitä maksutapaa käyttää
 - Minne rahat lähetetään
 
-Kun maksatus on luotu, se lasketaan vetomaksun nykyisen jakson raja-arvoon. Lähettäjä hyväksyy sitten maksatuksen asettamalla hinnan, jolla maksatus lähetetään, ja jatkaa maksun suorittamista.
 
-Lähettäjälle tarjoamme helppokäyttöisen tavan niputtaa useiden maksatusten maksaminen [BTCPay Sisäisestä Lompakosta](https://docs.btcpayserver.org/Wallet/).
+Kun maksu on luotu, se lasketaan mukaan kuluvan kauden vetomaksun rajaan. Tämän jälkeen lähettäjä hyväksyy maksun asettamalla maksun lähetysnopeuden ja jatkaa maksua.
+
+
+Tarjoamme lähettäjälle helppokäyttöisen menetelmän useiden maksujen yhdistämiseen [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
+
 
 #### Greenfield API
 
-BTCPay-palvelin tarjoaa täyden API:n sekä lähettäjälle että vastaanottajalle, joka on dokumentoitu instanssisi `/docs`-sivulla. (tai dokumentaatiosivustolla https://docs.btcpayserver.org)
 
-Koska API tarjoaa täyden pääsyn vetomaksuihin, lähettäjä voi automatisoida maksunsa tarpeidensa mukaan.
+BTCPay Server tarjoaa sekä lähettäjälle että vastaanottajalle täydellisen API:n, joka on dokumentoitu instanssin `/docs`-sivulla. (tai dokumentointisivustolla https://docs.btcpayserver.org)
 
-### Taitojen Yhteenveto
 
-Tässä osiossa opit seuraavat:
+Koska sovellusliittymämme tarjoaa kaikki mahdollisuudet pull-maksuihin, lähettäjä voi automatisoida maksut omien tarpeidensa mukaan.
 
-- Syvällinen ymmärrys BTCPay-palvelimen laskun tiloista sekä toiminnoista, joita niille voidaan suorittaa
-- Määrittele ja hallinnoi pidennetyn eliniän laskumekanismeja, tunnetaan pyyntöinä.
-- Lisäjoustavat maksuvaihtoehdot, jotka BTCPay-palvelimen ainutlaatuinen Vetomaksu-ominaisuus avaa, erityisesti miten käsitellä hyvityksiä ja palkanmaksuja.
 
-### Tiedon Arviointi
+### Taitojen yhteenveto
 
-#### KA Käsitteellinen Katsaus
 
-Mitkä ovat joitakin eroja laskujen ja maksupyyntöjen välillä, ja mikä voisi olla hyvä syy käyttää jälkimmäistä?
+Tässä jaksossa opit seuraavat asiat:
 
-#### KA Käsitteellinen Katsaus
 
-Miten vetomaksut laajentavat sitä, mitä tyypillisesti voidaan tehdä on-chain? Kuvaile joitakin käyttötapauksia, joita ne mahdollistavat.
 
-## BTCPay-palvelimen Oletuslisäosat
+- Syvällinen ymmärrys BTCPay Serverin Invoice-tiloista ja niihin kohdistuvista toimista
+- Mukauta ja hallitse pidennetyn käyttöiän Invoice-mekanismeja, joita kutsutaan pyynnöiksi.
+- BTCPay Serverin ainutlaatuisen Pull Payment -ominaisuuden myötä avautuvat joustavat lisämaksumahdollisuudet erityisesti palautusten ja palkanmaksun käsittelyssä.
+
+
+### Tietojen arviointi
+
+
+#### KA Käsitteellinen tarkastelu
+
+
+Mitä eroja on laskujen ja maksupyyntöjen välillä, ja mikä voisi olla hyvä syy käyttää jälkimmäisiä?
+
+
+#### KA Käsitteellinen tarkastelu
+
+
+Miten vetomaksut laajentavat sitä, mitä tyypillisesti voidaan tehdä On-Chain:ssä? Kuvaile joitakin käyttötapauksia, jotka ne mahdollistavat.
+
+
+## BTCPay-palvelimen oletusliitännäiset
+
 
 <chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
 
-### Oletuslaajennukset ja -sovellukset
 
-BTCPay-palvelin sisältää vakiojoukon laajennuksia (sovelluksia), jotka voivat muuttaa BTCPay-palvelimen e-commerce-maksuyhdyskäytäväksi. Lisäyksinä ovat Point Of Sale, joukkorahoitus-alusta ja helppokäyttöinen Pay-nappi, BTCPay-palvelin muuttuu helposti käyttöönotettavaksi ratkaisuksi.
+### Oletusliittimet ja -sovellukset
 
-### Point Of Sale
 
-Yksi BTCPay-palvelimen vakio laajennuksista on Point of Sale (PoS). PoS-laajennuksen avulla kaupan omistaja voi luoda Webshopin suoraan BTCPay-palvelimesta, kaupan omistajan ei tarvitse käyttää kolmannen osapuolen e-commerce-ratkaisuja Webshopin pyörittämiseen. Web-pohjainen PoS-sovellus mahdollistaa käyttäjille, joilla on kivijalkakauppoja, Bitcoinien vastaanottamisen ilman maksuja tai kolmatta osapuolta, suoraan heidän lompakkoonsa. PoS voidaan näyttää helposti tableteilla tai muilla web-selailua tukevilla laitteilla. Käyttäjät voivat helposti luoda kotinäytön pikakuvakkeen päästäkseen web-sovellukseen nopeasti.
+BTCPay-palvelimen mukana tulee vakiovarusteena liitännäisiä (sovelluksia), jotka voivat tehdä BTCPay-palvelimesta sähköisen kaupankäynnin maksuportin. Myyntipisteen, joukkorahoitusalustan ja helpon maksupainikkeen lisäyksillä BTCPay Serveristä tulee helposti käyttöönotettava ratkaisu.
 
-#### Kuinka luoda uusi Point Of Sale
 
-BTCPay-palvelin mahdollistaa kaupan omistajille Point of Sale -pisteen luomisen nopeasti monilla eri asetteluilla. BTCPay-palvelin tunnistaa, että jokainen kauppa ei ole e-commerce, eikä jokainen kauppa ole baari tai ravintola, ja se tarjoaa useita vakioasetuksia PoS:lle.
+### Myyntipiste
 
-Kun kaupan omistaja klikkaa "Point of Sale" vasemmassa valikossa, BTCPay-palvelin pyytää nyt nimeä; tämä nimi näkyy vasemmassa valikossa. Klikkaa Luo luodaksesi PoS:n.
 
-![kuva](assets/en/97.webp)
+Yksi BTCPay-palvelimen vakiolaajennuksista on myyntipiste (Point of Sale, PoS). PoS-lisäosan avulla kaupan omistaja voi luoda verkkokaupan suoraan BTCPay Serveristä; kaupan omistaja ei tarvitse kolmannen osapuolen verkkokaupparatkaisuja verkkokaupan ylläpitämiseen. Verkkopohjaisen PoS-sovelluksen avulla käyttäjät, joilla on kivijalkamyymälöitä, voivat helposti hyväksyä Bitcoin:n suoraan Wallet:ään ilman maksuja tai kolmatta osapuolta. PoS voidaan helposti näyttää tableteilla tai muilla laitteilla, jotka tukevat verkkoselausta. Käyttäjät voivat helposti luoda aloitusnäytön pikakuvakkeen, jonka avulla he pääsevät nopeasti verkkosovellukseen.
 
-#### Päivitä vasta luotu Point of Sale
 
-Uuden PoS:n luomisen jälkeen seuraava näyttö on Point of Sale -pisteesi päivittäminen ja tuotteiden lisääminen kauppaasi.
+#### Uuden myyntipisteen luominen
+
+
+BTCPay Serverin avulla myymälän omistajat voivat luoda nopeasti myyntipisteen useilla eri ulkoasuilla. BTCPay Server ymmärtää, että kaikki myymälät eivät ole verkkokauppoja eivätkä kaikki myymälät ole baareja tai ravintoloita, ja se sisältää useita vakioasetuksia myyntipisteellesi.
+
+
+Kun myymälän omistaja napsauttaa vasemmanpuoleisen valikkopalkin "Myyntipiste" -painiketta, BTCPay Server kysyy nyt nimeä; tämä nimi näkyy vasemmanpuoleisessa valikkopalkissa. Luo myyntipiste napsauttamalla Luo.
+
+
+![image](assets/en/098.webp)
+
+
+#### Päivitä äskettäin luotu myyntipiste
+
+
+Kun olet luonut uuden myyntipisteen, voit päivittää myyntipisteesi ja lisätä tuotteita myymälääsi seuraavassa näytössä.
+
 
 ##### Sovelluksen nimi
 
-Tässä annettu nimi Point of Sale -pisteellesi näkyy BTCPay-palvelimen päävalikossa.
 
-##### Näyttöotsikko
+Myyntipisteellesi tässä annettu nimi näkyy BTCPay-palvelimen päävalikossa.
 
-Yleisö näkee julkisen otsikon tai nimen vierailessa kaupassasi. BTCPay-palvelin nimeää vakiona kauppasi "Teekaupaksi". Korvaa tämä omalla kauppasi nimellä.
 
-![kuva](assets/en/98.webp)
+##### Näytön otsikko
 
-#### Valitse Point Of Sale -tyyli
 
-BTCPay-palvelin pystyy näyttämään Point Of Sale -pisteensä monella eri tavalla.
+Yleisö näkee myymäläsi otsikon tai nimen, kun se vierailee siellä. BTCPay-palvelin antaa oletusarvoisesti kaupallesi nimen "Teekauppa" Korvaa tämä kaupan nimellä.
 
-- Tuotelista
-  - Kauppanäkymä, jossa asiakkaat voivat ostaa vain yhden tuotteen kerrallaan.
-- Tuotelista ostoskorilla.
-  - Kauppanäkymä, jossa asiakkaat voivat ostaa useita tuotteita kerralla ja saada ostoskorin yhteenvedon näytön oikealle puolelle.
-- Näppäimistö ainoastaan
+
+![image](assets/en/099.webp)
+
+
+#### Valitse myyntipisteen tyyli
+
+
+BTCPay-palvelin pystyy näyttämään myyntipisteensä useilla eri tavoilla.
+
+
+
+- Tuoteluettelo
+  - Myymälänäkymä, jossa asiakkaat voivat ostaa vain 1 tuotteen kerrallaan.
+- Tuoteluettelo, jossa on ostoskori.
+  - Myymälänäkymä, jossa asiakkaat voivat ostaa useita tuotteita kerralla ja saada ostoskorin yleiskatsauksen näytön oikealle puolelle.
+- Vain näppäimistö
   - Ei tuoteluetteloa, vain näppäimistö suoraa laskutusta varten.
-- Tulostusnäkymä (Tulostettava tuotelista QR-koodilla)
-  - Jos et aina voi näyttää tuoteluetteloasi digitaalisesti, tarvitset "offline"-ratkaisun tuotteille; BTCPay-palvelimella on tulostusnäkymä toimimaan Offline-kauppana.
+- Tulostusnäyttö (tulostettava tuoteluettelo QR:llä)
+  - Jos et voi aina näyttää tuoteluetteloasi digitaalisesti, tarvitset "offline-ratkaisun" tuotteille; BTCPay Serverissä on tulostusnäyttö, joka toimii offline-kauppana.
 
-![kuva](assets/en/99.webp)
 
-#### Point Of Sale -tyyli - Tuotelista
+![image](assets/en/100.webp)
 
-![kuva](assets/en/100.webp)
 
-#### Point Of Sale -tyyli - Tuotelista + Ostoskori
+#### Point Of Sale Style - Tuoteluettelo
 
-![kuva](assets/en/101.webp)
 
-#### Point Of Sale -tyyli - Näppäimistö ainoastaan
+![image](assets/en/101.webp)
 
-![kuva](assets/en/102.webp)
 
-#### Point Of Sale -tyyli - Tulostusnäkymä
+#### Point Of Sale Style - Tuoteluettelo + Ostoskori
 
-![kuva](assets/en/103.webp)
+
+![image](assets/en/102.webp)
+
+
+#### Point Of Sale Style - vain näppäimistö
+
+
+![image](assets/en/103.webp)
+
+
+#### Point Of Sale Style - Tulosta näyttö
+
+
+![image](assets/en/104.webp)
+
 
 #### Valuutta
 
-Kaupan omistaja voi asettaa Point of Sale -pisteelleen eri valuutan kuin hänen yleisesti asettamansa oletusvaluutan. Kaupan oletusvaluutta täyttää tämän kentän automaattisesti.
+
+Myymälän omistaja voi asettaa myyntipisteen valuutaksi eri valuutan kuin yleinen oletusvaluutta. Kaupan oletusvaluutta täyttää tämän kentän automaattisesti.
+
 
 #### Kuvaus
 
-Kerro maailmalle kaupastasi; mitä myyt ja kuinka paljon? Kaikki, mikä selittää kauppasi, menee tähän.
+
+Kerro maailmalle kaupastasi; mitä myyt ja kuinka paljon? Kaikki myymälääsi selittävät asiat tulevat tänne.
+
+
+![image](assets/en/105.webp)
+
 
 #### Tuotteet
 
-Kun myyntipiste luodaan, vakio BTCPay Server lisää muutaman tuotteen kauppaan viitteeksi. Napsauta minkä tahansa vakiotuotteen Muokkaa-painiketta ymmärtääksesi paremmin jokaisen mahdollisen vaihtoehdon tuotteelle.
 
-Uuden tuotteen luominen kauppaasi koostuu seuraavista kentistä;
+Kun myyntipiste luodaan, tavallinen BTCPay-palvelin lisää kauppaan pari kohdetta viitteeksi. Napsauta minkä tahansa vakiokohteen Muokkaa-painiketta ymmärtääksesi paremmin kohteen kaikki mahdolliset vaihtoehdot.
+
+
+Uuden tuotteen luominen myymälääsi koostuu seuraavista kentistä;
+
+
 
 - Otsikko
-- Hinta (kiinteä, minimi tai mukautettu)
-- Kuvan URL
+- Hinta (kiinteä, vähimmäishinta tai mukautettu)
+- Kuvan URL-osoite
 - Kuvaus
-- Varasto
+- Inventaario
 - ID
-- Osta-painikkeen teksti
-- Ota käyttöön/Poista käytöstä
+- Osta Button Text.
+- Ota käyttöön/poista käytöstä
 
-Kun kaupan omistaja on täyttänyt kaikki uuden tuotteen kentät, napsauta tallenna, ja huomaat, että Tuotteet-osio myyntipisteessä alkaa täyttyä. Varmista aina tallentavasi näytön oikeasta yläkulmasta, jotta kaupan omistajat eivät menetä edistystään tuotteiden lisäämisessä.
 
-Kaupan omistajat voivat myös käyttää "Raakamuokkainta" tuotteidensa määrittämiseen. Raakamuokkain vaatii perustason ymmärrystä JSON-rakenteista.
+Kun myymälän omistaja on täyttänyt kaikki uudet tuotekentät, napsauta Tallenna, ja huomaat, että Myyntipisteen Tuotteet-osio täyttyy. Tallenna aina näytön oikeaan yläkulmaan, jotta myymälän omistajat eivät menetä edistymistään tuotteita lisätessään.
+
+
+Myymälän omistajat voivat myös käyttää "Raw Editoria" tuotteidensa konfigurointiin. Raakaeditori edellyttää JSON-rakenteiden peruskäsitystä.
+
+
+![image](assets/en/106.webp)
+
 
 #### Kassa
 
-BTCPay Server mahdollistaa pieniä myyntipiste-spesifisiä kassan mukautuksia. Kaupan omistaja voi asettaa "Osta x:llä" tekstin tai pyytää tiettyjä asiakastietoja lisäämällä lomakkeita.
 
-#### Tipit
+BTCPay Server mahdollistaa pienen PoS-kohtaisen kassan mukauttamisen. Kaupan omistaja voi asettaa "Osta x:llä" -tekstin tai pyytää tiettyjä asiakastietoja lisäämällä ne lomakkeisiin.
 
-Kaikki kaupat eivät tarvitse tippien vaihtoehtoa myynneissään. Kaupan omistajat voivat ottaa tämän käyttöön tai poistaa käytöstä tarpeidensa mukaan. Jos kauppa käyttää tippejä, kaupan omistaja voi asettaa haluamansa tekstin tippi-kenttään. BTCPay Serverin tipit toimivat prosenttiosuuden mukaan. Kaupan omistajat voivat lisätä useita prosenttiosuuksia pilkulla erotettuna.
+
+#### Vinkkejä
+
+
+Vain jotkin kaupat tarvitsevat myyntiä koskevan Tips-vaihtoehdon. Kaupan omistajat voivat kytkeä tämän päälle tai pois päältä myymälänsä kannalta sopivaksi katsomallaan tavalla. Jos myymälä käyttää vinkkejä päälle kytkettynä, myymälän omistaja voi asettaa kenttään haluamansa tekstin vinkkejä varten. BTCPay-palvelimen vinkit toimivat prosentuaalisen summan perusteella. Kaupan omistajat voivat lisätä useita prosenttilukuja pilkulla erotettuna.
+
 
 #### Alennukset
 
-Kaupan omistajana saatat haluta antaa asiakkaalle mukautetun alennuksen kassalla; alennusten vaihtoehto tulee saataville kauppasi kassalla. Tämä on kuitenkin erittäin suositeltavaa vastaan itsepalvelukassoille.
 
-#### Mukautetut Maksut
+Myymälän omistajana saatat haluta antaa asiakkaalle mukautetun alennuksen kassalla; Alennukset-vaihtoehto tulee saataville myymälän kassalla. Tätä on kuitenkin erittäin suositeltavaa välttää käyttämällä itsekassausjärjestelmiä.
 
-Kun Mukautetut Maksut -vaihtoehto on otettu käyttöön, asiakas saa syöttää asettamansa hinnan, joka on yhtä suuri tai suurempi kuin kaupan luoma alkuperäinen lasku.
+
+#### Mukautetut maksut
+
+
+Kun Mukautetut maksut -vaihtoehto on kytketty päälle, asiakas voi syöttää hinnan, joka on yhtä suuri tai suurempi kuin myymälän luoma alkuperäinen Invoice.
+
 
 #### Lisävaihtoehdot
 
-Kun olet asettanut kaiken myyntipisteellesi, jäljellä on joitakin ylimääräisiä vaihtoehtoja. Kaupan omistajat voivat helposti upottaa myyntipisteensä Iframeen tai upottaa maksupainikkeen, joka linkittää tiettyyn kaupan tuotteeseen. Luodun myyntipisteen tyylin määrittämiseksi omistajat voivat lisätä mukautettua CSS:ää lisävaihtoehtojen alaosaan.
+
+Kun olet määrittänyt kaiken myyntipisteesi, jäljellä on vielä joitakin lisävaihtoehtoja. Myymälän omistajat voivat helposti upottaa myyntipisteensä Iframen kautta tai upottaa maksupainikkeen, joka linkittää tiettyyn myymälän tuotteeseen. Juuri luodun PoS-myymälän tyylittelemiseksi omistajat voivat lisätä mukautetun CSS:n lisävaihtoehtojen alareunaan.
+
 
 #### Poista tämä sovellus
 
-Jos kaupan omistaja haluaa poistaa myyntipisteen kokonaan BTCPay Serveristaan, myyntipisteen päivittämisen alaosassa kaupan omistajat voivat napsauttaa Poista tämä sovellus -painiketta tuhotakseen myyntipiste-sovelluksensa kokonaan. Kun napsautetaan "Poista tämä sovellus", BTCPay Server pyytää vahvistusta kirjoittamalla `DELETE` ja vahvistamalla napsauttamalla Poista-painiketta. Poistamisen jälkeen kaupan omistaja palaa BTCPay Serverin hallintapaneeliin.
 
-### BTCPay Server - Joukkorahoitus
+Jos myymälän omistaja haluaa poistaa myyntipisteen kokonaan BTCPay-palvelimelta, myymälän omistajat voivat napsauttaa Poista tämä sovellus -painiketta myyntipistesovelluksen päivittämisen alareunassa, jolloin myyntipistesovellus tuhoutuu kokonaan. Kun napsautat "Poista tämä sovellus", BTCPay Server pyytää vahvistusta kirjoittamalla `DELETE` ja vahvistamalla napsauttamalla Poista-painiketta. Poistamisen jälkeen kaupan omistaja palaa BTCPay Serverin kojelautaan.
 
-Myyntipisteen lisäosan vieressä, BTCPay Server tarjoaa mahdollisuuden luoda joukkorahoituksen. Aivan kuten mikä tahansa muu joukkorahoitus-alusta, kaupan omistajat voivat asettaa tavoitteen, luoda etuja panostuksille ja mukauttaa sitä tarpeidensa mukaan.
+
+### BTCPay-palvelin - Joukkorahoitus
+
+
+Myyntipisteen lisäosan lisäksi BTCPay Serverissä on mahdollisuus luoda joukkorahoitus. Aivan kuten muutkin joukkorahoitusalustat, myymälän omistajat voivat asettaa tavoitteen, luoda etuisuuksia panoksille ja mukauttaa sen omiin tarpeisiinsa.
+
 
 #### Kuinka perustaa uusi joukkorahoitus
 
-Napsauta Joukkorahoitus-lisäosaa BTCPay Serverin päävalikossa vasemmalla Plugin-osion alapuolella. BTCPay Server pyytää nyt nimeä joukkorahoitukselle; tämä nimi näkyy myös vasemmassa valikossa.
 
-#### Päivitä vasta luotu myyntipiste
+Napsauta Crowdfund-lisäosaa BTCPay-palvelimesi vasemmanpuoleisessa päävalikossa, Plugin-osion alapuolella. BTCPay Server pyytää nyt nimeä Crowdfundille; tämä nimi näkyy myös vasemmassa valikkopalkissa.
 
-Kun sovellukselle on annettu nimi, seuraava näyttö on päivittää sovellus saamaan kontekstin.
+
+![image](assets/en/107.webp)
+
+
+#### Päivitä äskettäin luotu myyntipiste
+
+
+Kun sovellukselle on annettu nimi, seuraavassa näytössä sovellus päivitetään kontekstin saamiseksi.
+
 
 #### Sovelluksen nimi
 
-Antamasi nimi joukkorahoituksellesi näkyy BTCPay Serverin päävalikossa.
 
-#### Näyttöotsikko
+Joukkorahastollesi annettu nimi näkyy BTCPay Serverin päävalikossa.
 
-Otsikko on annettu joukkorahoituskampanjalle yleisölle.
 
-#### Iskulause
+#### Näytön otsikko
 
-Anna joukkorahoituskampanjalle ytimekäs kuvaus, josta selviää, mistä keräyksessä on kyse.
 
-![kuva](assets/en/107.webp)
+Otsikko on annettu joukkorahoitukselle yleisölle.
 
-#### Pääkuvan URL
 
-Jokaisella joukkorahoituskampanjalla on pääkuva, se yksi banneri, jonka tunnistat suoraan. Tämän kuvan voi tallentaa palvelimellesi, jos sinulla on hallinnolliset oikeudet, ylläpitäjät voivat ladata sen BTCPay Serverin asetuksista - Tiedostot. Kun olet kaupan omistaja, kuva on ladattava verkkoon kolmannen osapuolen isännöinnin kautta (esimerkiksi imgur)
+#### Tagline
 
-#### Tee joukkorahoituskampanja julkiseksi
 
-Tämä valitsin tekee joukkorahoituskampanjastasi julkisen ja siten näkyvän ulkomaailmalle. Testaustarkoituksia varten tai nähdäksesi, onko teemasi sovellettu oikein, saatat haluta pitää tämän asetuksen POIS PÄÄLTÄ joukkorahoituskampanjan rakentamisen ajan.
+Anna joukkorahoitukselle yksiviivainen sana, jolla tunnistat, mistä varainkeruussa on kyse.
+
+
+![image](assets/en/108.webp)
+
+
+#### Esitetyn kuvan URL-osoite
+
+
+Jokaisella joukkorahoituksella on pääkuvansa, yksi banneri, jonka tunnistat suoraan. Tämä kuva voidaan tallentaa palvelimellesi, jos sinulla on hallinnointioikeudet. Ylläpitäjät voivat ladata kuvan BTCPay-palvelimen asetuksista - Tiedostot. Kun olet myymälän omistaja, kuva on ladattava verkkoon kolmannen osapuolen palvelimen kautta (esimerkiksi Imgur).
+
+
+#### Tee joukkorahoitus julkiseksi
+
+
+Tämä kytkin tekee joukkorahoituksestasi julkista ja siten näkyvää ulkomaailmalle. Jos haluat testata tai nähdä, onko teemaa sovellettu oikein, pidä tämä pois päältä joukkorahoituksen rakentamisen ajan.
+
 
 #### Kuvaus
 
-Kerro maailmalle joukkorahoituskampanjastasi, mihin olet keräämässä varoja? Kaikki, mikä selittää joukkorahoituskampanjasi, kuuluu tänne.
 
-![kuva](assets/en/108.webp)
+Kerro maailmalle joukkorahoituksestasi. Mitä varten keräät varoja? Kaikki joukkorahoitustasi selittävät asiat tulevat tänne.
 
-#### Joukkorahoituskampanjan tavoite
 
-Aseta tavoite, kuinka paljon varainkeruun tulisi tuottaa projektille ja missä valuutassa tavoite tulisi ilmoittaa. Varmista, että jos tavoitteesi on asetettu päivämäärien välille, sisällytä nämä tavoite- ja päättymispäivät joukkorahoituskampanjan Tavoitteet-kohtaan.
+![image](assets/en/109.webp)
 
-![kuva](assets/en/109.webp)
 
-#### Edut
+#### Joukkorahoituksen tavoite
 
-Edut auttavat paljon joukkorahoituskampanjassasi. Tämä johtuu siitä, että edut tarjoavat ihmisille tavan osallistua kampanjaasi. Ne vetoavat sekä itsekkäisiin että hyväntekeväisyyteen liittyviin motivaatioihin. Ja ne mahdollistavat pääsyn tukijoidesi lompakkoon, ei vain heidän hyväntekeväisyyskassaan -- voit arvata kumman he pitävät tärkeämpänä.
 
-Uuden edun luominen koostuu seuraavista kentistä;
+Aseta tavoite sille, kuinka paljon varainkeräyksen tulisi tuottaa projektille, ja määritä, missä valuutassa tavoite tulisi ilmaista. Varmista, että jos tavoitteesi asetetaan päivämäärien välille, sisällytä nämä tavoite- ja päättymispäivät joukkorahoituksen kohdasta Tavoitteet.
+
+
+![image](assets/en/110.webp)
+
+
+#### Etuudet
+
+
+Etuisuudet voivat parantaa joukkorahoituspyrkimyksiäsi merkittävästi. Tämä johtuu siitä, että edut antavat ihmisille mahdollisuuden osallistua kampanjaasi. Ne hyödyntävät sekä itsekkäitä että hyväntahtoisia motiiveja. Ja niiden avulla pääset käsiksi tukijoittesi rahankäyttöön, etkä vain heidän hyväntekeväisyyskukkaroonsa - voit arvata, kumpi on merkittävämpi.
+
+
+Uuden etuuden luominen koostuu seuraavista kentistä.
+
+
 
 - Otsikko
-- Hinta (kiinteä, minimi tai mukautettu)
-- Kuvan URL
+- Hinta (kiinteä, vähimmäishinta tai mukautettu)
+- Kuvan URL-osoite
 - Kuvaus
-- Varasto
+- Inventaario
 - ID
-- Osta-painikkeen teksti
-- Ota käyttöön/Poista käytöstä
+- Osta Button Text.
+- Ota käyttöön/poista käytöstä
 
-Kun kaupan omistaja on täyttänyt kaikki uuden edun luomiseen tarvittavat kentät, klikkaa tallenna, ja huomaat, että Edut-osio joukkorahoituskampanjassa alkaa täyttyä.
 
-![kuva](assets/en/110.webp)
+Kun myymälän omistaja on täyttänyt kaikki uuden etuuden kentät, napsauta Tallenna, ja huomaat, että Joukkorahoituksen etuudet-osiossa on nyt kaikki kentät täytetty.
 
-### BTCPay Server - Maksupiste
 
-#### Osallistumiset
+![image](assets/en/111.webp)
 
-Kaupan omistajat voivat valita, miten Edut näytetään, miten ne järjestetään tai jopa rankataan muihin etuihin nähden. Kuitenkin, kun joukkorahoituskampanjan tavoitteet on saavutettu, kaupan omistajat saattavat haluta lopettaa lahjoitusten virtaamisen tähän keräykseen. Siksi hän voi ottaa käyttöön "Älä salli lisäosallistumisia tavoitteen saavuttamisen jälkeen". Tämä pysäyttää joukkorahoituskampanjan lahjoitusten vastaanottamisen.
 
-##### Joukkorahoituskampanjan käyttäytyminen
+### BTCPay-palvelin - myyntipiste
 
-Joukkorahoituskampanjan standardi laskee tavoitteeseen vain ne laskut, jotka on luotu joukkorahoituskampanjaa varten. Saattaa kuitenkin olla tilanteita, joissa kaupan omistaja haluaa kaikkien tässä kaupassa tehtyjen laskujen laskettavan joukkorahoituskampanjan hyväksi.
 
-#### Lisävaihtoehdot mukauttamiseen
+#### Maksut
 
-BTCpay Server tarjoaa muutamia lisämukautuksia. Lisää ääniä, animaatioita tai jopa keskusteluketjuja joukkorahoituskampanjaasi. Kaupan omistajat saattavat myös muuttaa joukkorahoituskampanjan ulkoasua syöttämällä oman mukautetun CSS:nsä.
+
+Kaupan omistajat voivat valita, miten edut näytetään, miten ne lajitellaan tai jopa asettaa ne paremmuusjärjestykseen suhteessa muihin etuuksiin. Kun joukkorahoitustavoitteet on saavutettu, myymälän omistajat saattavat kuitenkin haluta lopettaa lahjoitusten virtaamisen tähän varainkeruuseen. Siksi hän voi kytkeä päälle "Älä salli lisämaksuja tavoitteen saavuttamisen jälkeen". Tämä estää Crowdfundia vastaanottamasta lahjoituksia.
+
+
+##### Joukkorahoituskäyttäytyminen
+
+
+Crowdfundin standardi laskee tavoitteeseen vain Crowdfundilla luodut laskut. Saattaa kuitenkin olla tapauksia, joissa kaupan omistaja haluaa, että kaikki kyseisessä kaupassa tehdyt laskut lasketaan mukaan crowdfundiin.
+
+
+#### Muita vaihtoehtoja räätälöintiä varten
+
+
+BTCpay Server tarjoaa pari ylimääräistä mukautusta. Lisää ääniä, animaatioita tai jopa keskusteluketjuja joukkorahoitukseen. Kaupan omistajat voivat myös muokata Crowdfundin ulkoasua syöttämällä oman mukautetun CSS:n.
+
 
 #### Poista tämä sovellus
 
-Jos kaupan omistaja haluaa täysin poistaa joukkorahoituskampanjan BTCPay Serveristään, joukkorahoituskampanjan päivittämisen alaosassa kaupan omistajat voivat klikata "Poista tämä sovellus" -painiketta poistaakseen joukkorahoituskampanjasovelluksensa kokonaan. Kun klikkaat "Poista tämä sovellus", BTCPay Server pyytää vahvistusta kirjoittamalla `DELETE` ja vahvistamalla klikkaamalla Poista-painiketta. Poistamisen jälkeen kaupan omistaja palaa BTCPay Serverin hallintapaneeliin.
 
-### BTCPay Server - Maksupainike
+Jos myymälän omistaja haluaa poistaa joukkorahoituksen kokonaan BTCPay-palvelimelta, hän voi klikata joukkorahoituksen päivittämisen alareunassa "Poista tämä sovellus" -painiketta poistaakseen joukkorahoitussovelluksensa kokonaan. Kun napsautat "Poista tämä sovellus", BTCPay Server pyytää vahvistusta kirjoittamalla `DELETE` ja vahvistamalla napsauttamalla Poista-painiketta. Poistamisen jälkeen kaupan omistaja palaa BTCPay Serverin kojelautaan.
 
-Helppokäyttöiset HTML-maksupainikkeet, jotka voi upottaa sivuille ja jotka ovat laajasti muokattavissa, mahdollistavat kaupan omistajille kärkien ja lahjoitusten vastaanottamisen. BTCPay Serverin vasemmassa valikossa, Plugins-osion alapuolella, kaupan omistajat voivat klikata "Pay Button" ja valita Enable luodakseen Maksupainikkeen.
 
-#### Yleiset Asetukset
+### BTCPay-palvelin - Maksa-painike
 
-Maksupainikkeen Yleisissä Asetuksissa kaupan omistajat voivat määrittää
 
-- Vakiohinnan
-- Oletusvaluutan
-- Oletusmaksutavan
-  - Käytä kaupan oletusta
-  - BTC on-chain
-  - BTC Off-chain (Lightning)
-  - BTC Off-chain (LNURL-pay)
+Helposti upotettavan HTML-muotoisen ja helposti muokattavan maksupainikkeen avulla myymälän omistajat voivat vastaanottaa vinkkejä ja lahjoituksia. BTCPay Serverin vasemmassa valikkopalkissa, Plugins-osion alapuolella, myymälän omistajat voivat napsauttaa "Pay Button" (maksupainike) ja napsauttaa Enable (Ota käyttöön) luodaksesi maksupainikkeen.
+
+
+#### Yleiset asetukset
+
+
+Maksupainikkeen yleisissä asetuksissa kaupan omistajat voivat määrittää seuraavat asetukset
+
+
+
+- Vakiohinta
+- Oletusvaluutta
+- Oletusmaksutapa
+  - Käytä myymälän oletusarvoa
+  - BTC On-Chain
+  - BTC off-chain (salama)
+  - BTC off-chain (LNURL-maksu)
 - Kassan kuvaus
 - Tilaus ID
 
-#### Näyttöasetukset
 
-BTCPay Serverin Maksupainiketta voidaan mukauttaa eri tyyleihin sopivaksi. Painikkeet voivat olla kiinteällä tai mukautetulla summalla, joko näytettynä liukusäätimellä tai plus ja miinus -vaihtoehdoilla.
+#### Näytön vaihtoehdot
 
-#### Käytä Modaalia
 
-Luodessaan maksupainiketta kaupan omistajat voivat valita sen käyttäytymisen, kun asiakas klikkaa sitä, ja näyttää sen modaali-ikkunassa tai uudella sivulla.
+BTCPay Serverin Maksa-painike voidaan määrittää eri tyyleihin sopivaksi. Painikkeilla voi olla kiinteä tai mukautettu summa, joka näytetään joko liukusäätimellä tai plus- ja miinusvalitsimilla.
 
-**!?Huomio!?**
 
-Varoitus: Maksupainiketta tulisi käyttää vain kärkiin ja lahjoituksiin
+#### Käytä modaalia
 
-Maksupainikkeen käyttöä e-commerce-integraatioissa ei suositella, koska käyttäjä voi muokata tilaukseen liittyviä tietoja. E-commerceen tulisi käyttää Greenfield API:tamme. Jos tämä kauppa käsittelee kaupallisia transaktioita, suosittelemme luomaan erillisen kaupan ennen maksupainikkeen käyttöä.
 
-#### Mukauta Maksupainikkeen Teksti
+Luodessaan maksupainiketta kaupan omistajat voivat valita sen käyttäytymisen, kun asiakas napsauttaa sitä, ja näyttää sen modaalissa tai uutena sivuna.
 
-Oletuksena BTCPay Serverin maksupainike sanoo "Pay With BTCPay". Kaupan omistajat voivat määrittää tämän tekstin haluamakseen ja vaihtaa BTCPay Serverin logon omaansa. Aseta teksti käyttämällä "Pay Button Text" ja liitä kuvan URL "Pay Button Image URL" alle.
+
+**!?Huomautus!?**
+
+
+Varoitus: Maksu-painiketta tulee käyttää vain juomarahojen ja lahjoitusten maksamiseen
+
+
+Maksupainikkeen käyttäminen verkkokauppaintegraatioissa ei ole suositeltavaa, koska käyttäjä voi muuttaa tilaukseen liittyviä tietoja. Verkkokauppaa varten kannattaa käyttää Greenfield API:ta. Jos tämä kauppa käsittelee kaupallisia tapahtumia, suosittelemme luomaan erillisen kaupan ennen maksupainikkeen käyttöä.
+
+
+#### Mukauta maksupainikkeen tekstiä
+
+
+Oletusarvoisesti BTCPay-palvelimen maksupainikkeessa lukee "Pay With BTCPay". Kaupan omistajat voivat asettaa tämän tekstin haluamakseen ja vaihtaa BTCPay Serverin logon omakseen. Aseta teksti käyttämällä "Pay Button Text" -kohtaa ja liitä kuvan URL-osoite "Pay Button Image URL" -kohdan alle.
+
 
 ##### Kuvan koko
 
-Painikkeen kuvan koko voidaan asettaa vain kolmeen oletusarvoon.
+
+Painikkeessa olevan kuvan koon voi asettaa vain kolmeen oletusarvoon.
+
+
 
 - 146x40px
 - 168x46px
 - 209x57px
 
-#### Painiketyyppi
 
-BTCPay Server tuntee kolme tilaa Maksupainikkeelle.
+#### Painikkeen tyyppi
 
-- Kiinteä Summa
-  - Aiemmin asetettu hinta on painikkeen yleisissä asetuksissa.
-- Mukautettu Summa
-  - BTCPay Serverin Maksupainikkeessa on + ja - -vaihtoehdot mukautetun hinnan asettamiseksi.
-  - Mukautetun summan käyttäessä BTCPay Server pyytää Min, Max ja kuinka asteittain sen tulisi kasvaa.
-  - Painikkeet voidaan asettaa "Käytä Yksinkertaista syöttötyyliä". Tämä poistaa +/- Vaihtoehdot.
-  - Sovita painike inline, jossa painike ja vaihtoehdot näkyvät rivissä.
-- Liukusäädin
-  - Samankaltainen kuin mukautettu summa, mutta visuaalisesti erilainen, sillä siinä on liukusäädin +/- vaihtoehtojen sijaan.
-  - Liukusäädintä käytettäessä BTCPay Server pyytää Min, Max ja kuinka asteittain sen tulisi kasvaa.
 
-**!?Huomio!?**
+BTCPay-palvelin tuntee kolme tilaa maksupainikkeelle.
 
-Maksupainikkeen poistaminen voidaan tehdä yläosassa varoituskuvausten kohdalla.
 
-#### Maksuilmoitukset
 
-Server IPN (Instant Payment Notification) on tarkoitettu webhooksille ja siihen voidaan täyttää URL, johon ostotiedot lähetetään.
+- Kiinteä määrä
+  - Edellinen asetettu hinta on painikkeen yleisissä asetuksissa.
+- Mukautettu määrä
+  - BTCPay-palvelimen Maksa-painikkeessa on +- ja --vaihtimet mukautetun hinnan asettamiseksi.
+  - Kun käytät mukautettua summaa, BTCPay-palvelin pyytää Min- ja Max-arvoja sekä sitä, kuinka asteittain summan tulisi kasvaa.
+  - Painikkeet voidaan asettaa "Käytä yksinkertaista syöttötyyliä ".Tämä poistaa +/- kytkimet.
+  - Sovita painike riviin, jolloin painike ja vaihtovalikot näkyvät rivissä.
+- Slider
+  - Samanlainen kuin mukautettu määrä, mutta se on visuaalisesti erilainen, koska siinä on liukusäädin +/- kytkimien sijasta.
+  - Kun käytät liukusäädintä, BTCPay-palvelin pyytää Min- ja Max-arvoja sekä sitä, kuinka asteittain sen tulisi kasvaa.
 
-#### Sähköposti-ilmoitukset
 
-Aina kun maksu tapahtuu, BTCPay Server voi ilmoittaa kaupan omistajalle.
+**!?Huomautus!?**
 
-#### Selaimen uudelleenohjaus
 
-Kun asiakas on suorittanut ostoksen, hänet ohjataan tähän linkkiin, jos kaupan omistaja on sen asettanut.
+Maksupainike voidaan poistaa varoituksen kuvauksen yläosasta.
 
-#### Edistyneet Maksupainikkeen Asetukset
-
-Määritä lisäkyselymerkkijonoparametrit, jotka tulisi liittää kassasivulle laskun luomisen jälkeen. Esimerkiksi `lang=da-DK` lataisi kassasivun oletuksena tanskaksi.
-
-#### Käytä Sovellusta Päätepisteenä
-
-Linkitä maksupainike suoraan johonkin tuotteeseen PoS- tai Crowdfund-sovelluksissa aiemmin.
-Kauppiaat voivat klikata pudotusvalikkoa ja valita haluamansa sovelluksen; kun sovellus on valittu, kauppias voi lisätä kohteen, joka tulee linkittää.
-
-#### Generoitu koodi
-
-Koska BTCPay Serverin maksunappi on helposti upotettavaa HTML-koodia, BTCPay Server näyttää konfiguroinnin jälkeen alaosassa generoidun koodin, jonka voi kopioida verkkosivustolle.
-
-Kauppiaat voivat kopioida generoidun koodin verkkosivustolleen, ja BTCPay Serverin maksunappi on suoraan aktiivinen heidän verkkosivustollaan.
 
 #### Maksuilmoitukset
 
-Palvelimen IPN (Instant Payment Notification) on tarkoitettu webhooksille ja siihen voidaan täyttää URL, johon ostotiedot lähetetään.
+
+Palvelimen IPN (Instant Payment Notification) on suunniteltu webhookeja varten, ja siihen voidaan määrittää URL-osoite oston jälkeisiä tietoja varten.
+
 
 #### Sähköposti-ilmoitukset
 
-Aina kun maksu tapahtuu, BTCPay Server voi ilmoittaa kauppiaalle.
+
+Aina kun maksu on suoritettu, BTCPay-palvelin voi ilmoittaa siitä kaupan omistajalle.
+
 
 #### Selaimen uudelleenohjaus
 
-Kun asiakas on suorittanut ostoksen, hänet ohjataan tähän linkkiin, jos kauppias on sen asettanut.
 
-#### Lisäasetukset maksunapille
+Kun asiakas suorittaa ostoksen, hänet ohjataan tähän linkkiin, jos kaupan omistaja on sen asettanut.
 
-Määritä lisäkyselymerkkijono-parametrit, jotka tulisi liittää kassasivulle laskun luomisen jälkeen. Esimerkiksi `lang=da-DK` lataisi kassasivun oletuksena tanskaksi.
 
-#### Käytä sovellusta päätepisteenä
+#### Lisäasetukset maksupainikkeelle
 
-Linkitä maksunappi suoraan kohteeseen jossakin PoS- tai Crowdfund-sovelluksessa aiemmin. Kauppiaat voivat klikata pudotusvalikkoa ja valita haluamansa sovelluksen, kun sovellus on valittu, kauppias voi lisätä kohteen, joka tulee linkittää.
+
+Määritä kyselymerkkijonon lisäparametrit, jotka liitetään kassasivulle, kun Invoice on luotu. Esimerkiksi `lang=da-DK` lataisi kassasivun oletusarvoisesti tanskaksi.
+
+
+#### Sovelluksen käyttäminen päätepisteenä
+
+
+Voit linkittää maksupainikkeen suoraan johonkin aiemmin käyttämääsi PoS- tai Crowdfund-sovellukseen.
+
+
+Kaupan omistajat voivat napsauttaa pudotusvalikkoa ja valita haluamansa sovelluksen; kun sovellus on valittu, kaupan omistaja voi lisätä linkitettävän tuotteen.
+
 
 #### Generoitu koodi
 
-Koska BTCPay Serverin maksunappi on helposti upotettavaa HTML-koodia, BTCPay Server näyttää konfiguroinnin jälkeen alaosassa generoidun koodin, jonka voi kopioida verkkosivustolle. Kauppiaat voivat kopioida generoidun koodin verkkosivustolleen ja BTCPay Serverin maksunappi on suoraan aktiivinen heidän verkkosivustollaan.
+
+Koska BTCPay Serverin maksupainike on helposti upotettavissa oleva HTML-muoto, BTCPay Server näyttää alareunassa luodun koodin, jonka voit kopioida verkkosivustolle maksupainikkeen määrittämisen jälkeen.
+
+
+Kaupan omistajat voivat kopioida luodun koodin verkkosivustolleen, ja BTCPay-palvelimen maksupainike on suoraan aktiivinen heidän verkkosivustollaan.
+
+
+#### Maksuilmoitukset
+
+
+Palvelimen IPN (Instant Payment Notification) on suunniteltu webhookeja varten, ja siihen voidaan määrittää URL-osoite ostotietojen lähettämistä varten.
+
+
+#### Sähköposti-ilmoitukset
+
+
+Aina kun maksu suoritetaan, BTCPay-palvelin voi ilmoittaa siitä kaupan omistajalle.
+
+
+#### Selaimen uudelleenohjaus
+
+
+Kun asiakas suorittaa ostoksen, hänet ohjataan tähän linkkiin, jos kaupan omistaja on sen asettanut.
+
+
+#### Lisäasetukset maksupainikkeelle
+
+
+Määritä kyselymerkkijonon lisäparametrit, jotka liitetään kassasivulle, kun Invoice on luotu. Esimerkiksi `lang=da-DK` lataisi kassasivun oletusarvoisesti tanskaksi.
+
+
+#### Sovelluksen käyttäminen päätepisteenä
+
+
+Voit linkittää maksupainikkeen suoraan johonkin aiemmin käyttämääsi PoS- tai Crowdfund-sovellukseen. Kaupan omistajat voivat napsauttaa pudotusvalikkoa ja valita haluamansa sovelluksen. Kun sovellus on valittu, myymälän omistaja voi lisätä kohteen, joka on linkitettävä.
+
+
+#### Generoitu koodi
+
+
+Koska BTCPay Serverin maksupainike on helposti upotettavissa oleva HTML-muoto, BTCPay Server näyttää alareunassa luodun koodin, jonka voit kopioida verkkosivustolle maksupainikkeen määrittämisen jälkeen. Kaupan omistajat voivat kopioida luodun koodin verkkosivustolleen, ja BTCPay Serverin maksupainike on suoraan aktiivinen heidän verkkosivustollaan.
+
 
 ### Taitojen yhteenveto
 
-Tässä osiossa opit:
 
-- Miten käyttää BTCPay Serverin integroitua PoS-lisäosaa helposti luodaksesi mukautetun kaupan
-- Miten käyttää BTCPay Serverin integroitua Crowdfund-lisäosaa helposti luodaksesi mukautetun joukkorahoitussovelluksen
-- Generoimaan koodin mukautetulle maksunapille käyttäen Pay Button -lisäosaa
+Tässä jaksossa opit:
 
-### Tiedon arviointi
 
-#### KA-arvostelu
 
-Mitkä ovat kolme sisäänrakennettua lisäosaa, jotka tulevat vakiona BTCPay Serverin kanssa? Kuvaile lyhyesti, miten kutakin voidaan käyttää.
+- Kuinka käyttää BTCPay Serverin integroitua PoS-lisäosaa mukautetun myymälän luomiseen helposti?
+- Kuinka käyttää BTCPay Serverin integroitua Crowdfund-liitännäistä, jotta voit luoda mukautetun crowdfund-sovelluksen helposti?
+- Koodin luominen mukautettua maksupainiketta varten Pay Button -lisäosan avulla
 
-# BTCPay Serverin konfigurointi
+
+### Tietojen arviointi
+
+
+#### KA arvostelu
+
+
+Mitkä ovat BTCPay Serverin kolme sisäänrakennettua lisäosaa? Kuvaile muutamalla sanalla, miten kutakin voidaan käyttää.
+
+
+# BTCPay-palvelimen määrittäminen
+
 
 <partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
 
-## Perustiedot BTCPay Serverin asentamisesta LunaNode-ympäristöön
+
+## Perusymmärrys BTCPay-palvelimen asentamisesta LunaNode-ympäristöön
+
 
 <chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
 
-### BTCPay Serverin asentaminen isännöidylle ympäristölle (LunaNode)
 
-Nämä vaiheet tarjoavat kaikki tarvittavat tiedot BTCPay Serverin käyttöönotosta LunaNodessa. Ohjelmiston voi ottaa käyttöön monin eri tavoin.
-Löydät kaikki tiedot BTCPay Serveristä osoitteesta https://docs.btcpayserver.org.
+### BTCPay-palvelimen asentaminen isännöidylle ympäristölle (LunaNode)
+
+
+Nämä vaiheet tarjoavat kaikki tarvittavat tiedot BTCPay-palvelimen käytön aloittamiseksi LunaNodella. Ohjelmiston käyttöönottoon on monia vaihtoehtoja.
+
+Löydät kaikki BTCPay-palvelimen tiedot osoitteesta https://docs.btcpayserver.org.
+
 
 #### Mistä aloitamme?
 
-Tässä osassa tutustut LunaNodeen isäntänä, opit ensimmäiset askeleet BTCPay Serverisi käytössä ja opit, miten toimia Lightning Networkin kanssa. Kun olemme käyneet läpi kaikki vaiheet, voit pyörittää verkkokauppaa tai joukkorahoitusplatformia, joka hyväksyy Bitcoinin!
 
-Tämä on yksi monista tavoista ottaa BTCPay Server käyttöön. Lue dokumentaatiomme lisätietoja varten,
+Tässä osassa tutustut LunaNodeen hosting-palveluntarjoajana, opit BTCPay-palvelimen käytön ensimmäiset vaiheet ja opit käyttämään Lightning Network:ää. Kun olemme käyneet läpi kaikki vaiheet, voit ylläpitää verkkokauppaa tai joukkorahoitusalustaa, joka hyväksyy Bitcoin:n!
+
+
+Tämä on yksi monista tavoista ottaa BTCPay Server käyttöön. Lue lisätietoja dokumentaatiostamme.
+
 
 https://docs.btcpayserver.org.
 
-### BTCPay Server - LunaNoden käyttöönotto
+
+### BTCPay-palvelin - LunaNoden käyttöönotto
+
 
 #### LunaNoden käyttöönotto
 
-Ensin, mene LunaNode.com -verkkosivustolle, jossa luomme uuden tilin. Klikkaa oikeassa yläkulmassa olevaa "Sign Up" -painiketta tai käytä "Get Started" -opasta heidän kotisivullaan.
-![image](assets/en/111.webp)
 
-Kun olet luonut uuden tilin, LunaNode lähettää vahvistussähköpostin. Kun olet vahvistanut tilin, verrattuna Voltageen, sinulle esitetään välittömästi mahdollisuus lisätä saldoa tilillesi. Tätä saldoa tarvitaan palvelintilan ja hosting-kustannusten maksamiseen.
+Mene ensin LunaNode.com-sivustolle, jossa luomme uuden tilin. Napsauta oikealla ylhäällä olevaa Sign Up (Rekisteröidy) -painiketta tai käytä kotisivulla olevaa Get Started (Aloita) -ohjattua toimintoa.
+
 
 ![image](assets/en/112.webp)
 
-#### Lisää saldoa LunaNode-tilillesi
 
-Kun olet klikannut "Deposit credit", voit asettaa haluamasi summan, jonka haluat lisätä tilillesi, ja miten haluat maksaa sen. LunaNode ja BTCPay Server maksavat 10$USD ja 20$USD välillä kuukaudessa.
-Verrattuna Voltage.cloudiin, saat täyden pääsyn Virtuaaliseen Yksityiseen Palvelimeesi (VPS tästä eteenpäin) ja siten enemmän kontrollia palvelimeesi. Kun olet luonut uuden tilin, LunaNode lähettää vahvistussähköpostin.
-Kun olet vahvistanut tilin, verrattuna Voltageen, sinulle esitetään välittömästi mahdollisuus lisätä saldoa tilillesi. Tätä saldoa tarvitaan palvelintilan ja hosting-kustannusten maksamiseen.
+Kun olet luonut uuden tilin, LunaNode lähettää vahvistussähköpostin. Kun olet vahvistanut tilin, verrattuna Voltageen, sinulle esitetään välittömästi mahdollisuus täydentää tilisi saldoa. Tämä saldo on tarpeen palvelintilan ja hosting-kustannusten kattamiseksi.
 
-#### Kuinka ottaa käyttöön uusi palvelin?
-
-Tässä oppaassa käymme läpi asennuksen luomalla joukon API-avaimia ja käyttämällä LunaNoden tekemää BTCPay Server -käynnistäjää.
-
-LunaNode-kojelaudassasi, klikkaa API oikeassa yläkulmassa. Tämä avaa uuden sivun. Meidän tarvitsee vain asettaa nimi API-avaimelle. Loput hoitaa LunaNode eikä niitä käsitellä tässä oppaassa. Klikkaa "Create API Credential" -painiketta.
-API-tunnisteiden luomisen jälkeen saat pitkän kirjainten ja merkkien jonon. Tämä on API-avaimesi.
 
 ![image](assets/en/113.webp)
 
-#### Kuinka ottaa käyttöön uusi palvelin?
 
-Näissä tunnisteissa on 2 osaa, API-avain ja API-ID; tarvitsemme molemmat. Ennen kuin siirrymme seuraavaan vaiheeseen, avataan toinen välilehti selaimessa ja mennään osoitteeseen https://launchbtcpay.lunanode.com/
+#### Lisää luottoa LunaNode-tilillesi
 
-Täällä sinua pyydetään antamaan API-avain ja API-ID. Tämä varmistaa, että juuri sinä otat käyttöön tämän uuden palvelimen. API-avaimen pitäisi edelleen olla avoinna edellisessä välilehdessä; jos vierität alaspäin taulukossa, löydät API-ID:n.
 
-Palaa takaisin sivulle, jossa on Launcher, täytä kentät API-avaimellasi ja ID:lläsi ja klikkaa jatka.
+Kun olet napsauttanut "Talleta luottoa", voit määrittää, kuinka paljon haluat ladata tilillesi ja miten haluat maksaa sen. LunaNode ja BTCPay Server maksavat 10-20 dollaria kuukaudessa.
+
+Voltage.cloudiin verrattuna saat täyden pääsyn virtuaaliseen yksityispalvelimeesi (VPS), jolloin voit hallita palvelintasi paremmin. Kun olet luonut uuden tilisi, LunaNode lähettää vahvistussähköpostin.
+
+Kun olet vahvistanut tilisi, sinulle tarjotaan heti mahdollisuus täydentää tilisi saldoa Voltageen verrattuna. Tämä saldo on tarpeen palvelintilan ja hosting-kustannusten kattamiseksi.
+
+
+#### Miten uusi palvelin otetaan käyttöön?
+
+
+Tässä oppaassa käymme läpi asennusprosessin luomalla API-avaimet ja käyttämällä LunaNoden kehittämää BTCPay Server -käynnistysohjelmaa.
+
+
+Klikkaa LunaNode-kojelaudassa oikeassa yläkulmassa API. Tämä avaa uuden sivun. Meidän on vain määritettävä API-avaimelle nimi. LunaNode huolehtii muusta, eikä sitä käsitellä tässä oppaassa. Napsauta Create API Credential -painiketta.
+
+Kun olet luonut API-tunnukset, saat pitkän kirjain- ja merkkijonon. Tämä on API-avaimesi.
+
 
 ![image](assets/en/114.webp)
 
-Seuraavassa vaiheessa voit antaa verkkotunnuksen. Jos sinulla on jo verkkotunnus ja haluat käyttää sitä BTCPay Serverille, varmista, että lisäät myös DNS-tietueen (kutsutaan `A`-tietueeksi) verkkotunnukseesi. Jos sinulla ei ole verkkotunnusta, käytä sen sijaan LunaNoden tarjoamaa verkkotunnusta (voit muuttaa tätä myöhemmin BTCPay Serverin asetuksissa) ja klikkaa Jatka.
 
-Lue lisää DNS-tietueen asettamisesta tai muuttamisesta BTCPay Serverille; https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
+#### Miten uusi palvelin otetaan käyttöön?
 
-#### Käynnistä BTCPay Server LunaNodessa
 
-Edellisten vaiheiden jälkeen voimme asettaa kaikki vaihtoehdot uudelle palvelimellemme. Tässä vaiheessa valitsemme tuetuksi valuutaksi Bitcoinin (BTC); voimme asettaa sähköpostin saadaksemme ilmoituksia salausvarmenteiden uusimisesta; tämä ei ole pakollista.
-Tämä opas keskittyy Mainnet-ympäristön (oikean maailman Bitcoin) pystyttämiseen; kuitenkin LunaNode mahdollistaa myös Testnetin tai Regtestin käytön kehitystarkoituksiin. Tässä oppaassa pidämme vaihtoehdon Mainnetissa.
+Näissä tunnuksissa on kaksi osaa, API-avain ja API-tunnus; tarvitsemme molemmat. Ennen kuin siirrytään seuraavaan vaiheeseen, avataan selaimessa toinen välilehti ja siirrytään osoitteeseen https://launchbtcpay.lunanode.com/
 
-Valitse Lightning-toteutuksesi. LunaNode tarjoaa kaksi erilaista toteutusta, LND ja Core Lightning. Tässä oppaassa valitsemme LND:n. Toteutusten välillä on pieniä, mutta todellisia eroja; lisätietoja tästä suosittelemme lukemaan kattavan dokumentaation; https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
-![kuva](assets/en/115.webp)
+Tässä sinua pyydetään antamaan API-avaimesi ja API-tunnuksesi. Tämän tarkoituksena on kertoa, että sinä olet se, joka on tarjonnut tämän uuden palvelimen. API-avaimen pitäisi olla edelleen auki edellisessä välilehdessäsi; jos selaat alla olevaa taulukkoa alaspäin, löydät API-tunnuksen.
 
-LunaNode tarjoaa useita Virtuaalikone (VM) -paketteja. Nämä eroavat hintaluokissa ja palvelimen teknisissä tiedoissa. Tähän oppaaseen riittää m2-paketti; kuitenkin, jos olet valinnut Bitcoinin lisäksi muita valuuttoja, harkitse vähintään m4:n käyttöä.
 
-Nopeuta alkuperäisen lohkoketjun synkronointia; tämä on valinnainen ja riippuu tarpeistasi. On olemassa edistyneitä vaihtoehtoja, kuten Lightning Alias -asetuksen määrittäminen, tietyn GitHub-julkaisun osoittaminen tai SSH-avainten asettaminen; näitä ei käsitellä tässä oppaassa.
+Voit palata käynnistimen sivulle, täyttää kentät API-avaimellasi ja tunnuksellasi ja napsauttaa Jatka.
 
-Lomakkeen täyttämisen jälkeen sinun on napsautettava Launch VM, ja Lunanode alkaa luoda uutta VM:ääsi, johon on asennettu BTCPay Server. Tämä prosessi kestää muutaman minuutin; kun palvelimesi on valmis, LunaNode antaa sinulle linkin uuteen BTCPay Serveriisi.
 
-Luomisprosessin jälkeen napsauta linkkiä BTCPay Serveriisi; täällä sinua pyydetään luomaan Ylläpitäjän tili.
+![image](assets/en/115.webp)
 
-![kuva](assets/en/116.webp)
 
-### Taitojen Yhteenveto
+Seuraavassa vaiheessa voit antaa verkkotunnuksen. Jos omistat jo verkkotunnuksen ja haluat käyttää sitä BTCPay-palvelimessa, varmista, että lisäät myös DNS-tietueen (nimeltään `A`-tietue) verkkotunnuksellesi. Jos et omista verkkotunnusta, käytä sen sijaan LunaNoden tarjoamaa verkkotunnusta (voit muuttaa tämän myöhemmin BTCPay Server -asetuksissa) ja napsauta Jatka.
 
-Tässä osiossa opit:
 
-- Luomaan ja rahoittamaan tilin LunaNodessa
-- Käyttämään BTCPay Server Launcheria oman palvelimesi luomiseen
+Lue lisää BTCPay-palvelimen DNS-tietueen asettamisesta tai muuttamisesta; https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
 
-### Tiedon arviointi
 
-#### KA Konseptuaalinen katsaus
+#### Käynnistä BTCPay-palvelin LunaNodessa
 
-Kuvaile joitakin eroja BTCPay Server -instanssin ajamisessa VPS:llä verrattuna tilin luomiseen isännöidyllä instanssilla.
 
-## BTCPay Serverin asentaminen Voltage-ympäristöön
+Kun olemme suorittaneet edellä mainitut vaiheet, voimme asettaa kaikki asetukset uudelle palvelimellemme. Tässä valitsemme tuetuksi valuutaksi Bitcoin (BTC). Voimme myös asettaa sähköpostin, jolla saamme ilmoituksia salausvarmenteiden uusimisesta, mikä on valinnaista.
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
 
-Tutustut hosting-palveluntarjoajaan Voltage.cloud, opit BTCPay Serverisi ensiaskeleet ja opit käyttämään Lightning Networkia. Kun olemme käyneet läpi kaikki vaiheet, voit pyörittää verkkokauppaa tai joukkorahoitus-alustaa, joka hyväksyy Bitcoinin!
+Tämän oppaan tarkoituksena on määrittää Mainnet-ympäristö (todellinen Bitcoin); LunaNode antaa kuitenkin myös mahdollisuuden määrittää sen Testnet- tai Regtest-ympäristöksi kehitystarkoituksia varten. Jätämme sen Mainnet-vaihtoehdon tähän oppaaseen.
 
-Tämä on yksi monista tavoista ottaa käyttöön BTCPay Server. Lue lisää dokumentaatiostamme,
-https://docs.btcpayserver.org.
 
-### BTCPay Server - Voltage.cloud käyttöönotto
+Voit valita Lightning-toteutuksen. LunaNode tarjoaa kaksi eri toteutusta, LND ja Core Lightning. Tässä oppaassa käytämme LND:tä. Molemmissa toteutuksissa on vain vähän mutta todellisia eroja; jos haluat lisätietoja, suosittelemme lukemaan laajan dokumentaation: https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
-Mene ensin verkkosivulle Voltage.cloud ja rekisteröidy uudeksi käyttäjäksi. Kun luot tiliä, voit rekisteröityä 7 päivän ilmaiseen kokeiluun. Voit joko napsauttaa "Sign Up" yläoikealla tai käyttää "Try a free 7 day trial" heidän kotisivullaan.
 
-![kuva](assets/en/117.webp)
+![image](assets/en/116.webp)
 
-Kun olet luonut tilin, napsauta `NODES`-painiketta hallintapaneelissasi. Kun olemme valinneet Solmut ja luoneet uuden solmun, meille esitellään mahdolliset solmut, joita Voltage tarjoaa. Koska tämä opas käsittelee myös LightningNetworkia, meidän on ensin valittava Lightning-toteutuksemme ennen kuin luomme BTCPay Serverin. Napsauta LightningNode.
 
-![kuva](assets/en/118.webp)
-Tässä sinun tulee valita, minkä tyyppisen Lightning-noden haluat. Voltage tarjoaa monia vaihtoehtoja valaistusasetuksillesi. Tämä eroaa esimerkiksi LunaNoden käyttöönotosta. Tämän oppaan tarkoituksessa Lite Node riittää. Lue lisää eroista Voltage.cloud-sivustolla.
-![image](assets/en/119.webp)
+LunaNode tarjoaa useita virtuaalikonepaketteja (VM). Ne eroavat toisistaan hintaluokan ja palvelinmäärittelyjen suhteen. Tähän oppaaseen riittää m2-suunnitelma; jos olet kuitenkin valinnut valuutaksi muutakin kuin Bitcoin:n, harkitse vähintään m4-suunnitelmaa.
 
-Anna nodellesi nimi, aseta salasana ja suojaa tämä salasana. Jos menetät tämän salasanan, menetät pääsyn varmuuskopioihisi, eikä Voltage voi palauttaa sitä. Luo node, ja Voltage näyttää edistymisen. Voltage on luonut Lightning-nodesi. Voimme nyt luoda BTCPay Server -instanssin ja päästä suoraan Lightning-verkkoon.
 
-Napsauta Nodes kohtaa hallintapaneelin vasemmassa yläkulmassa. Täällä voit asettaa seuraavan osan BTCPay Server -instanssistasi. Napsauta "luo uusi", kun olet nodien yleisnäkymässä. Saat samankaltaisen näytön kuin aiemmin. Nyt valitsemme Lightning Noden sijaan BTCPay Serverin.
+Nopeuta Blockchain:n alkuperäistä synkronointia; tämä on valinnainen ja riippuu tarpeistasi. On olemassa edistyneempiä vaihtoehtoja, kuten Lightning Aliaksen asettaminen, tiettyyn GitHub-julkaisuun osoittaminen tai SSH-avaimien asettaminen; mitään näistä ei käsitellä tässä oppaassa.
 
-Voltage näyttää BTCPay Serverisi maantieteellisen sijainnin, Voltage isännöi Yhdysvaltain länsialueella. Täällä näet myös palvelimen isännöinnin hinnan. Napsauta Luo ja anna BTCPay Serverillesi nimi. Ota Lightning käyttöön, ja Voltage näyttää edellisessä vaiheessa luodun Lightning-noden. Napsauta Luo, ja Voltage luo BTCPay Server -instanssin.
 
-![image](assets/en/120.webp)
+Kun olet täyttänyt lomakkeen, sinun on klikattava Launch VM, ja Lunanode alkaa luoda uutta VM:ääsi, johon on asennettu BTCPay Server. Tämä prosessi kestää muutaman minuutin; kun palvelimesi on valmis, LunaNode antaa sinulle linkin uuteen BTCPay Serveriin.
 
-Kun olet napsauttanut luo, Voltage näyttää oletuskäyttäjänimen ja salasanan. Nämä ovat samankaltaiset kuin aiemmin Voltage:ssa asettamasi salasana. Napsauta Kirjaudu sisään -painiketta, niin sinut ohjataan BTCPay Serveriisi.
 
-Tervetuloa uuteen BTCPay Server -instanssiisi. Koska olemme jo asettaneet Lightningin luomisprosessissa, se näyttää, että Lightning on jo otettu käyttöön!
+Luomisprosessin jälkeen napsauta BTCPay-palvelimen linkkiä; tässä sinua pyydetään luomaan järjestelmänvalvojan tili.
+
+
+![image](assets/en/117.webp)
+
 
 ### Taitojen yhteenveto
 
-Tässä luvussa opit:
 
-- Tilin luomisen Voltage.cloud-sivustolla
-- Askeleet BTCPay Serverin käyttöönottoon yhdessä Lightning-noden kanssa tililläsi
+Tässä jaksossa opit:
 
-### Tiedon arviointi
 
-#### KA Käsitteellinen katsaus
 
-Mitkä ovat joitakin keskeisiä eroja Voltage- ja LunaNode-asetusten välillä?
+- Tilin luominen ja rahoittaminen LunaNodessa
+- BTCPay Server Launcherin käyttäminen oman palvelimen luomiseen
 
-## BTCPay Serverin asentaminen Umbrel-nodelle
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+### Tietojen arviointi
 
-Näiden vaiheiden lopussa voit vastaanottaa lightning-maksuja BTCPay-kauppaasi paikallisverkossasi. Tämä prosessi pätee myös, jos käytät umbrel-nodea ravintolassa tai yrityksessä. Jos haluat yhdistää tämän kaupan julkiselle verkkosivustolle, noudata Edistynyttä harjoitusta altistaaksesi umbrel-nodesi julkisesti.
 
-https://umbrel.com/
+#### KA Käsitteellinen tarkastelu
+
+
+Kuvaile joitakin eroja BTCPay Server -palvelimen käyttämisen välillä VPS:llä ja tilin luomisen välillä isännöidyllä palvelimella.
+
+
+## BTCPay Serverin asentaminen Voltage-ympäristöön
+
+
+<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+
+
+Tutustut Voltage.cloudiin hosting-palveluntarjoajana, opit BTCPay-palvelimen käytön ensimmäiset vaiheet ja Lightning Network:n käytön. Kun olemme käyneet läpi kaikki vaiheet, voit ylläpitää verkkokauppaa tai joukkorahoitusalustaa, joka hyväksyy Bitcoin:n!
+
+
+Tämä on yksi monista tavoista ottaa BTCPay Server käyttöön. Lue lisätietoja dokumentaatiostamme.
+
+https://docs.btcpayserver.org.
+
+
+### BTCPay-palvelin - Voltage.cloud käyttöönotto
+
+
+Mene ensin Voltage.cloud-sivustolle ja rekisteröi uusi tili. Kun luot tilin, voit rekisteröityä 7 päivän ilmaiseen kokeilujaksoon. Napsauta joko oikealla ylhäällä olevaa Sign Up (Rekisteröidy) -painiketta tai käytä heidän kotisivullaan olevaa "Kokeile ilmaista 7 päivän kokeilujaksoa" -painiketta.
+
+
+![image](assets/en/118.webp)
+
+
+Kun olet tehnyt tilin, napsauta kojelaudan `NODES`-painiketta. Kun olemme valinneet Solmut ja luoneet uuden solmun, meille näytetään mahdolliset solmun jännitetarjoukset. Koska tämä opas kattaa myös Lightning Network:n, Voltagessa meidän on ensin valittava Lightning-toteutuksemme ennen BTCPay-palvelimen luomista. Klikkaa LightningNode.
+
+
+![image](assets/en/119.webp)
+
+
+Tässä sinun on valittava, millaisen Lightning-solmun haluat. Voltage on erilaisia vaihtoehtoja valaistusasetuksiasi varten. Tämä on erilaista, kun otat käyttöön esimerkiksi LunaNoden kanssa. Tämän oppaan tarkoitukseen riittää Lite Node. Lue lisää eroista Voltage.cloudista.
+
+
+![image](assets/en/120.webp)
+
+
+Anna solmulle nimi, aseta salasana ja suojaa salasana. Jos salasana katoaa, menetät pääsyn varmuuskopioihisi, eikä Voltage voi palauttaa sitä. Luo solmu, ja Voltage näyttää edistymisen. Voltage on luonut Lightning-solmusi. Voimme nyt luoda BTCPay-palvelininstanssin ja käyttää suoraan Lightning Network:ta.
+
+
+Napsauta kojelaudan vasemmassa yläkulmassa olevaa Nodes (Solmut) -painiketta. Täällä voit määrittää BTCPay Server -instanssisi seuraavan osan. Napsauta "create new" (luo uusi), kun olet solmujen yleiskatsauksessa. Saat samanlaisen näytön kuin aiemmin. Nyt valitsemme Lightning Node -solmun sijaan BTCPay Serverin.
+
+
+Voltage näyttää BTCPay-palvelimesi maantieteellisen sijainnin, joka sijaitsee Yhdysvaltain länsiosassa. Täältä näet myös palvelimen isännöintikustannukset. Napsauta Luo ja anna BTCPay-palvelimelle nimi. Ota Lightning käyttöön ja Voltage näyttää sinulle edellisessä vaiheessa luodun Lightning-solmun. Napsauta Create, ja Voltage luo BTCPay Server -instanssin.
+
 
 ![image](assets/en/121.webp)
 
-Kun Umbrel-nodesi on täysin synkronoitu Bitcoin-lohkoketjun kanssa, siirry Umbrel App Storeen ja etsi BTCPay Server sovellusten alta.
+
+Kun olet painanut create, Voltage näyttää sinulle oletuskäyttäjätunnuksen ja salasanan. Nämä ovat samanlaiset kuin aiemmin Voltagessa asettamasi salasana. Napsauta Kirjaudu tilille -painiketta, jolloin sinut ohjataan BTCPay-palvelimelle.
+
+
+Tervetuloa uuteen BTCPay-palvelimen instanssiin. Koska olemme jo ottaneet Lightningin käyttöön luomisprosessin aikana, Lightning on jo käytössäsi!
+
+
+### Taitojen yhteenveto
+
+
+Tässä luvussa opit:
+
+
+
+- Tilin luominen Voltage.cloudissa
+- Vaiheet BTCPay-palvelimen käyttämiseksi yhdessä Lightning-solmun kanssa tililläsi
+
+
+### Tietojen arviointi
+
+
+#### KA Käsitteellinen tarkastelu
+
+
+Mitkä ovat keskeiset erot Voltage- ja LunaNode-asetusten välillä?
+
+
+## BTCPay-palvelimen asentaminen Umbrel-solmuun
+
+
+<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+
+
+Näiden vaiheiden päätteeksi voit hyväksyä salamamaksuja BTCPay-kauppaan paikallisessa verkossa. Tätä prosessia sovelletaan myös, jos ylläpidät sateenvarjosolmua ravintolassa tai yrityksessä. Jos haluat liittää tämän kaupan julkiseen verkkosivustoon, noudata harjoitusta Edistyneet, jotta voit paljastaa umbrel-solmusi yleisölle.
+
+
+https://umbrel.com/
+
 
 ![image](assets/en/122.webp)
 
-Napsauta BTCPay Serveriä nähdäksesi sovelluksen tiedot. Kun BTCPay Serverin tiedot ovat auki, oikeassa alakulmassa näkyy sovelluksen asianmukaiseen toimintaan vaadittavat vaatimukset. Siinä näytetään, että se vaatii Bitcoin- ja Lightning-noden. Jos et ole asentanut Lightning Nodea Umbrelillesi, napsauta Asenna. Tämä prosessi voi kestää muutaman minuutin.
+
+### BTCPay-palvelin - Umbrelin käyttöönotto
+
+
+Kun Umbrel-solmusi on täysin synkronoitu Bitcoin Blockchain:n kanssa, siirry Umbrelin sovelluskauppaan ja etsi BTCPay-palvelin sovellusten alta.
+
 
 ![image](assets/en/123.webp)
 
-Lightning Noden asentamisen jälkeen:
 
-1. Napsauta avaa sovellustiedot tai sovellus Umbrelin hallintapaneelissa.
-2. Napsauta aseta uusi node; sinulle näytetään 24 sanaa lightning-nodesi palauttamiseksi.
-3. Kirjoita nämä ylös.
+Napsauta BTCPay-palvelinta nähdäksesi sovelluksen tiedot. Kun BTCPay Serverin tiedot ovat avoinna, oikeassa alakulmassa näkyvät vaatimukset, joiden mukaan sovellus toimii oikein. Sen mukaan se vaatii Bitcoin:n ja Lightning-solmun. Jos et ole asentanut Lightning-solmua Umbreliin, napsauta Asenna. Tämä prosessi voi kestää muutaman minuutin.
+
 
 ![image](assets/en/124.webp)
-Umbrel pyytää vahvistusta juuri kirjoitetuista sanoista. Kun Lightning-solmu on asennettu, palaa Umbrelin sovelluskauppaan ja etsi BTCPay Server. Klikkaa asennuspainiketta, ja Umbrel näyttää, ovatko vaaditut komponentit asennettu ja että BTCPay Server vaatii pääsyn näihin komponentteihin. Asennuksen jälkeen klikkaa Avaa sovellustietojen oikeassa yläkulmassa tai avaa BTCPay Server Umbrelin hallintapaneelista.
 
-Umbrel pyytää vahvistusta juuri kirjoitetuista sanoista.
 
-![kuva](assets/en/125.webp)
+Kun olet asentanut Lightning Node:
 
-**!?Huomio!?**
 
-Muista säilyttää nämä asianmukaisessa paikassa, kuten aiemmin opit avaimia säilyttäessäsi.
+1. Napsauta Avaa sovelluksen tiedoissa tai Sovellus Umbrelsin kojelaudassa.
 
-Kun Lightning-solmu on asennettu, palaa Umbrelin sovelluskauppaan ja etsi BTCPay Server. Klikkaa asennuspainiketta, ja Umbrel näyttää, ovatko vaaditut komponentit asennettu ja että BTCPay Server vaatii pääsyn näihin komponentteihin.
+2. Napsauta setup a new node; sinulle näytetään 24 sanaa salamasolmun palautusta varten.
 
-![kuva](assets/en/126.webp)
+3. Kirjoita nämä ylös.
 
-Asennuksen jälkeen klikkaa Avaa sovellustietojen oikeassa yläkulmassa tai avaa BTCPay Server Umbrelin hallintapaneelista.
 
-![kuva](assets/en/127.webp)
+![image](assets/en/125.webp)
 
-### Taitojen Yhteenveto
 
-Tässä osiossa opit:
+Umbrel pyytää vahvistamaan juuri kirjoitetut sanat. Kun Lightning-solmu on perustettu, palaa Umbrelin sovelluskauppaan ja etsi BTCPay Server. Napsauta asennuspainiketta, ja Umbrel näyttää, onko tarvittavat komponentit asennettu ja että BTCPay Server vaatii pääsyn näihin komponentteihin. Asennuksen jälkeen napsauta Avaa oikeassa yläkulmassa App details -osassa tai avaa BTCPay Server Umbrelin kojelaudan kautta.
 
-- Askeleet BTCPay Serverin asentamiseen Lightning-toiminnallisuudella Umbrel-solmuun
 
-### Tiedon Arviointi
+Umbrel pyytää vahvistamaan juuri kirjoitetut sanat.
 
-#### KA Käsitteellinen Katsaus
 
-Miten asennus Umbrelissa eroaa kahdesta aiemmasta isännöidystä vaihtoehdosta?
+![image](assets/en/126.webp)
 
-# Lopullinen osio
+
+**!?Huomautus!?**
+
+
+Varmista, että säilytät ne turvallisessa paikassa, kuten aiemmin opit avainten säilytyksen yhteydessä.
+
+
+Kun Lightning-solmu on perustettu, palaa Umbrel App Storeen ja etsi BTCPay Server. Napsauta asennuspainiketta, ja Umbrel näyttää, onko tarvittavat komponentit asennettu ja että BTCPay Server vaatii pääsyn näihin komponentteihin.
+
+
+![image](assets/en/127.webp)
+
+
+Asennuksen jälkeen napsauta Avaa sovelluksen tietojen oikeassa yläkulmassa tai avaa BTCPay Server Umbrels-kojelaudan kautta.
+
+
+![image](assets/en/128.webp)
+
+
+### Taitojen yhteenveto
+
+
+Tässä jaksossa opit:
+
+
+
+- Vaiheet BTCPay-palvelimen asentamiseksi Lightning-toiminnolla Umbrel-solmuun
+
+
+### Tietojen arviointi
+
+
+#### KA Käsitteellinen tarkastelu
+
+
+Miten Umbrelin asetukset eroavat kahdesta edellisestä isännöintivaihtoehdosta?
+
+
+# Viimeinen jakso
+
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 
 
 
-## Arviot & Arvosanat
+
+## Arvostelut & arvostelut
+
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
-## Kurssin Yhteenveto
+## Kurssin johtopäätökset
+
 
 <chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

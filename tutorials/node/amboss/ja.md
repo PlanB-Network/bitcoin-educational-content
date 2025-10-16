@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - 受信比率**：ノードが100万Satoshiを受信するごとに、選択したチャンネルに応じて課金される金額。
 - 比率(parts per million)** : 100万単位あたりのSatoshiの数を表し、あなたがノードのチャンネルの1つを使って支払いをするときに、ノードがあなたに請求します。例えば、あなたが`500 Sats`のチャネルで`10_000 Sats`の支払いをすることに決めたとすると、あなたはノードに`10_000 * 500 / 1_000_000` satoshis、`5 Sats`を支払わなければなりません。
-- HTLC](https://planb.network/resources/glossary/HTLC) 最大** ：このノードがこれらのチャネルのいずれかを介してトランジットすることを許可する最大量。
+- HTLC](https://planb.network/resources/glossary/htlc) 最大** ：このノードがこれらのチャネルのいずれかを介してトランジットすることを許可する最大量。
 
 
 

@@ -138,7 +138,7 @@ Zaletą tego rozwiązania jest prostota okablowania i brak zależności od jakie
 
 
 
-![Image](assets/en/001.webp)
+![Image](assets/pl/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Taki hierarchiczny układ sprawdza się szczególnie dobrze w przypadku dużych 
 
 
 
-![Image](assets/en/002.webp)
+![Image](assets/pl/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Główną zaletą topologii magistrali jest niski koszt instalacji dzięki upros
 
 
 
-![Image](assets/en/003.webp)
+![Image](assets/pl/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Taki układ ułatwia zarządzanie i konserwację: jeśli jedno urządzenie peryf
 
 
 
-![Image](assets/en/004.webp)
+![Image](assets/pl/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Kompromis polega na tym, że liczba połączeń, które należy ustanowić, szyb
 
 
 
-![Image](assets/en/005.webp)
+![Image](assets/pl/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Cztery warstwy modelu TCP/IP to:
 
 
 
-![Image](assets/en/006.webp)
+![Image](assets/pl/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Gdy datagram przekracza MTU segmentu sieci, przez który musi przejść, sprzęt
 
 
 
-![Image](assets/en/008.webp)
+![Image](assets/pl/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Transmisja odbywa się zatem zgodnie z ustrukturyzowanym procesem:
 
 
 
-![Image](assets/en/009.webp)
+![Image](assets/pl/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Po dotarciu na miejsce, proces jest odwracany: maszyna odbierająca otrzymuje ra
 
 
 
-![Image](assets/en/010.webp)
+![Image](assets/pl/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Transformację danych w każdym Layer można podsumować następująco:
 
 
 
-![Image](assets/en/011.webp)
+![Image](assets/pl/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Liczba dostępnych adresów różni się znacznie w zależności od klasy: od du
 
 
 
-![Image](assets/en/013.webp)
+![Image](assets/pl/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Potrzebujemy 4 podsieci z maksymalnie 60 hostami każda.
 
 
 
-![Image](assets/en/016.webp)
+![Image](assets/pl/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP jest protokołem zorientowanym na połączenie, co oznacza, że ustanawia wy
 
 
 
-![Image](assets/en/018.webp)
+![Image](assets/pl/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Aby poprawić niezawodność, TCP wykorzystuje licznik czasu: po wysłaniu segme
 
 
 
-![Image](assets/en/019.webp)
+![Image](assets/pl/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Synchronizacja sekwencji Exchange opiera się na słynnym mechanizmie **"*three-
 
 
 
-![Image](assets/en/020.webp)
+![Image](assets/pl/015.webp)
 
 
 
@@ -734,7 +734,7 @@ W praktyce okno przesuwne definiuje zakres numerów sekwencyjnych, które mogą 
 
 
 
-![Image](assets/en/021.webp)
+![Image](assets/pl/016.webp)
 
 
 
@@ -751,7 +751,7 @@ To precyzyjne zarządzanie, łączące elastyczny routing IP ze ścisłą kontro
 
 
 
-![Image](assets/en/022.webp)
+![Image](assets/pl/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Wymiany te regulują dwa kluczowe aspekty:
 
 
 
-![Image](assets/en/023.webp)
+![Image](assets/pl/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Wymiany te regulują dwa kluczowe aspekty:
 
 
 
-![Image](assets/en/024.webp)
+![Image](assets/pl/019.webp)
 
 
 
@@ -840,7 +840,7 @@ Rdzeniem tego systemu są **prymitywy usług**, które działają jako interfejs
 
 
 
-![Image](assets/en/026.webp)
+![Image](assets/pl/020.webp)
 
 
 
@@ -900,7 +900,7 @@ przykład: Address 172.16.254.1_
 
 
 
-![Image](assets/en/027.webp)
+![Image](assets/pl/021.webp)
 
 
 
@@ -1187,7 +1187,7 @@ Ważne jest, aby pamiętać, że MAC Address i IP Address to dwa zupełnie róż
 - Wizualny przykład MAC Address:
 
 
-![Image](assets/en/032.webp)
+![Image](assets/pl/022.webp)
 
 
 
@@ -1195,7 +1195,7 @@ Ważne jest, aby pamiętać, że MAC Address i IP Address to dwa zupełnie róż
 - Wizualny przykład Address IP:
 
 
-![Image](assets/en/027.webp)
+![Image](assets/pl/023.webp)
 
 
 
@@ -1262,7 +1262,7 @@ Oprócz rozwiązania problemu niedoboru IPv4, NAT wzmacnia również bezpieczeń
 
 
 
-![Image](assets/en/035.webp)
+![Image](assets/pl/024.webp)
 
 
 
@@ -1335,7 +1335,7 @@ aby zilustrować, jak to działa w praktyce, rozważmy następujący przykład:_
 
 
 
-![Image](assets/en/037.webp)
+![Image](assets/pl/025.webp)
 
 
 
@@ -1504,7 +1504,7 @@ W środowiskach profesjonalnych celem jest zagwarantowanie ciągłości usług i
 
 
 
-![Image](assets/en/039.webp)
+![Image](assets/pl/026.webp)
 
 
 
@@ -1958,7 +1958,7 @@ Istnieje kilka metod automatycznej konfiguracji:
 Oto przykład, jak przekształcić MAC Address w EUI-64:
 
 
-![Image](assets/en/045.webp)
+![Image](assets/pl/027.webp)
 
 
 
@@ -2096,7 +2096,7 @@ Oto przegląd różnych typów nagłówków rozszerzeń zdefiniowanych przez IPv
 Nagłówek ten, jeśli występuje, jest zawsze umieszczany bezpośrednio po nagłówku podstawowym. Zawiera on informacje, które muszą być przetwarzane przez każdy router na ścieżce pakietu, w przeciwieństwie do większości innych nagłówków, które są zwykle obsługiwane tylko przez węzeł docelowy. Typowe zastosowania obejmują sygnalizowanie parametrów globalnych lub żądanie określonych kroków przetwarzania, gdy pakiet przemieszcza się przez sieć.
 
 
-![Image](assets/en/047.webp)
+![Image](assets/pl/028.webp)
 
 
 #### Nagłówek routingu
@@ -2121,7 +2121,7 @@ Pierwsze cztery pola tego nagłówka rootowania to:
 Pole "Segments Left" zaczyna się od całkowitej liczby pozostałych segmentów i jest zmniejszane o jeden przy każdym przeskoku.
 
 
-![Image](assets/en/048.webp)
+![Image](assets/pl/029.webp)
 
 
 #### Nagłówek fragmentacji
@@ -2138,7 +2138,7 @@ Nagłówek fragmentacji zawiera następujące pola:
 - Flaga **M**: wskazuje, czy ma nastąpić więcej fragmentów.
 
 
-![Image](assets/en/049.webp)
+![Image](assets/pl/030.webp)
 
 
 #### Nagłówek uwierzytelniania (AH)
@@ -2150,7 +2150,7 @@ Nagłówek ten został zaprojektowany w celu zabezpieczenia komunikacji poprzez 
 W przypadku nieuczciwej próby modyfikacji, kod uwierzytelniający nie będzie już pasował, a datagram może zostać odrzucony. Mechanizm ten chroni również przed atakami typu replay, wykrywając nieautoryzowane duplikaty.
 
 
-![Image](assets/en/050.webp)
+![Image](assets/pl/031.webp)
 
 
 #### Nagłówek opcji miejsca docelowego
@@ -2162,7 +2162,7 @@ Nagłówek ten jest przeznaczony wyłącznie dla końcowego odbiorcy datagramu. 
 Początkowo taka opcja nie była zdefiniowana w protokole. Nagłówek ten został jednak wprowadzony podczas projektowania protokołu IPv6, aby umożliwić dodawanie przyszłych rozszerzeń bez modyfikowania ogólnej struktury pakietu. Opcja null, na przykład, jest używana tylko do wypełnienia nagłówka wielokrotnością 8 bajtów w celu wyrównania pamięci.
 
 
-![Image](assets/en/051.webp)
+![Image](assets/pl/032.webp)
 
 
 Konstrukcja pakietów IPv6 opiera się na wyraźnym oddzieleniu minimalnego nagłówka podstawowego od modułowych nagłówków rozszerzeń. Architektura ta zapewnia zarówno standardową wydajność przetwarzania, jak i elastyczność potrzebną do ewolucji protokołu i integracji bezpieczeństwa, złożonego routingu lub mechanizmów jakości usług, przy jednoczesnym zachowaniu kompatybilności z przyszłymi infrastrukturami.
@@ -2508,7 +2508,7 @@ Wireshark jest dostępny w wielu systemach operacyjnych, w tym Linux i Windows. 
 
 
 
-![Image](assets/en/052.webp)
+![Image](assets/pl/033.webp)
 
 
 
@@ -2559,7 +2559,7 @@ To polecenie wyświetla szczegółowy raport na temat `enp0s3` Interface, wspól
 
 
 
-![Image](assets/en/053.webp)
+![Image](assets/pl/034.webp)
 
 
 
@@ -3111,7 +3111,7 @@ W tym przypadku, wszystkie hosty w zakresie od `192.168.0.0` do `192.168.0.255` 
 
 
 
-![Image](assets/en/055.webp)
+![Image](assets/pl/035.webp)
 
 
 

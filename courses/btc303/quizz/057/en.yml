@@ -1,0 +1,8 @@
+question: What fundamental principle allows developers to create systems like Lightning Network, CoinJoin, and OpenTimestamps on top of Bitcoin without seeking approval?
+answer: Permissionless development enables anyone to build protocols and applications on Bitcoin without requiring authorization from any central authority
+wrong_answers:
+  - Open source licensing requires all derivative works to be automatically approved and integrated into the main Bitcoin Core repository
+  - The MIT License mandates that all Bitcoin-based projects must receive explicit permission from the Bitcoin Core development team before deployment
+  - Consensus rules automatically validate and authorize any new protocol built on top of Bitcoin through the blockchain verification process
+explanation: |
+  Permissionless development is the correct answer because it's the foundational principle that allows anyone to build on Bitcoin without asking for permission. The wrong answers are incorrect because: open source licensing doesn't require automatic approval or integration into Bitcoin Core; the MIT License actually grants broad permissions without requiring approval from developers; and consensus rules validate transactions and blocks, not higher-level protocols built on top of Bitcoin.

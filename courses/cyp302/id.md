@@ -1,22 +1,17 @@
 ---
-name: Pengantar Kriptografi formal
+name: Dasar-dasar kriptografi modern
 goal: Pengenalan mendalam tentang ilmu dan praktik kriptografi.
 objectives:
-
-  - Jelajahi sandi Beale dan metode kriptografi modern untuk memahami konsep dasar dan sejarah kriptografi.
-  - Pelajari teori bilangan, grup, dan bidang untuk menguasai konsep matematika utama yang mendasari kriptografi.
-  - Pelajari stream cipher RC4 dan AES dengan kunci 128-bit untuk mempelajari algoritme kriptografi simetris.
-  - Selidiki kriptosistem RSA, distribusi kunci, dan fungsi hash untuk mengeksplorasi kriptografi asimetris.
-
+- Jelajahi sandi Beale dan metode kriptografi modern untuk memahami konsep dasar dan sejarah kriptografi.
+- Pelajari teori bilangan, grup, dan bidang untuk menguasai konsep matematika utama yang mendasari kriptografi.
+- Pelajari stream cipher RC4 dan AES dengan kunci 128-bit untuk mempelajari algoritme kriptografi simetris.
+- Selidiki kriptosistem RSA, distribusi kunci, dan fungsi hash untuk mengeksplorasi kriptografi asimetris.
 ---
-# Mendalami kriptografi secara mendalam
+# Mendalami Kriptografi Modern
 
-Sulit untuk menemukan banyak materi yang menawarkan jalan tengah yang baik dalam pendidikan kriptografi.
+Dalam kursus ini, kami akan membahas hal-hal penting dari kriptografi modern dengan cara yang jelas dan mudah dipahami, tanpa memerlukan latar belakang matematika yang kuat. Sepanjang bab-bab, Anda akan mempelajari ide-ide inti seperti enkripsi simetris dan kunci publik, fungsi hash, tanda tangan digital, pertukaran kunci, dan protokol dunia nyata. Sepanjang perjalanan, kami akan menghubungkan titik-titik ke aplikasi praktis seperti pesan aman, TLS, penyimpanan kata sandi, dan autentikasi.
 
-Di satu sisi, ada risalah yang panjang dan formal, benar-benar hanya dapat diakses oleh mereka yang memiliki latar belakang yang kuat dalam matematika, logika, atau disiplin formal lainnya. Di sisi lain, ada pengantar tingkat tinggi yang benar-benar menyembunyikan terlalu banyak detail bagi siapa pun yang setidaknya sedikit penasaran.
-
-Pengantar kriptografi ini berusaha untuk mengambil jalan tengah. Meskipun relatif menantang dan mendetail bagi siapa pun yang baru mengenal kriptografi, buku ini bukanlah sebuah risalah dasar yang biasa.
-
+Materi dirancang untuk pelajar dari semua tingkatan dan menyeimbangkan intuisi dengan kedalaman teknis yang cukup untuk memuaskan rasa ingin tahu. Harapkan perjalanan yang fokus dan menarik. Di akhir, Anda akan memahami bagaimana dan mengapa kriptografi modern bekerja dan cara menggunakannya secara bertanggung jawab.
 +++
 # Pendahuluan
 

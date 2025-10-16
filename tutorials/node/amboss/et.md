@@ -147,7 +147,7 @@ Jaotises **Kanalid** näete avatud kanalite nimekirja ja sõlme ühendusi teiste
 
 - Sissetuleku suhtarv**: Summa, mida sõlmpunkt nõuab teilt iga saadud miljoni Satoshi eest, sõltuvalt valitud kanalist.
 - Suhtarv (osad miljoni kohta)** : see näitab, mitu Satoshi miljoni ühiku kohta võtab sõlmpunkt teilt tasu, kui otsustate teha makse ühe oma kanali kaudu. Oletame, et te otsustate teha makse `10_000 Sats` kanali kaudu, mille ppm suhe on `500 Sats`, siis peate te maksma sõlmpunktile `10_000 * 500 / 1_000_000` satoshi, mis vastab `5 Sats`-le.
-- [HTLC](https://planb.network/resources/glossary/HTLC) maksimum** : Maksimaalne summa, mida see sõlmpunkt lubab ühe kanali kaudu läbida.
+- [HTLC](https://planb.network/resources/glossary/htlc) maksimum** : Maksimaalne summa, mida see sõlmpunkt lubab ühe kanali kaudu läbida.
 
 
 

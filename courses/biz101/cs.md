@@ -1,22 +1,19 @@
 ---
 name: Bitcoin pro firmy
 goal: Naučte se základy plateb a pokladny, abyste mohli svou společnost připojit k bitcoinu
-objectives: 
-
-  - Bitcoin jako rozvíjející se měna a obchodní nástroj
-  - Pochopit, proč a jak může podnik držet bitcoin v pokladně nebo ho používat k platbám
-  - Mít konkrétní představu, jak přijímat platby bitcoinem v praxi
-  - Připravte se na správu fiskálních a účetních požadavků
-
+objectives:
+- Objevte Bitcoin jako vznikající měnu a obchodní nástroj
+- Pochopte, proč a jak může podnik držet bitcoin v pokladně nebo jej používat pro platby
+- Mějte konkrétní představu o tom, jak v praxi přijímat platby v Bitcoinu
+- Buďte připraveni na správu daňových a účetních požadavků
 ---
-# Nastartujte cestu své společnosti v síti Bitcoin
+# Nastartujte cestu vaší společnosti v síti Bitcoin
 
-Objevte praktické možnosti bitcoinu a Lightning Network a zjistěte, jak mohou podobně jako internet **proměnit vaše obchodní operace**. Bitcoin nabízí široké spektrum **případů využití pro podniky** - od digitálního kapitálu po rychlé, úsporné a škálovatelné platby.
+Objevte praktické možnosti Bitcoinu a Lightning Network a prozkoumejte, jak mohou, podobně jako internet, transformovat vaše obchodní operace. Od pokladny po rychlé, ekonomické a škálovatelné platby nabízí Bitcoin široké spektrum případů použití pro podniky.
 
-V této příručce se dozvíte, jak porozumět bitcoinu jako globální, univerzální a internetové peněžní síti. Díky svým jedinečným základním vlastnostem přináší **Bitcoin oproti tradičním měnovým sítím významné zlepšení**. Zjistíte, proč a jak využít Bitcoin pro klasické finanční případy použití, jako je ukládání kapitálu a platební systémy. Kromě toho se v této příručce budete zabývat pořizováním a držením bitcoinů včetně souvisejících účetních a daňových požadavků, jakož i zaváděním jednoduchých nebo rozsáhlých platebních řešení v bitcoinech.
+V průběhu tohoto kurzu se naučíte chápat Bitcoin jako globální, univerzální a internetově nativní měnovou síť. Se svými jedinečnými základními charakteristikami nabízí Bitcoin významná vylepšení oproti tradičním měnám. Objevíte, proč a jak využít Bitcoin pro klasické finanční případy použití, jako je uchovávání kapitálu a platební systémy. Kromě toho tento kurz pokryje získávání a držení Bitcoinu, včetně souvisejících účetních a daňových požadavků, stejně jako implementaci jednoduchých nebo rozsáhlých platebních řešení Bitcoin.
 
-Ať už jste **malá firma nebo velká korporace**, integrace Bitcoinu do každodenního provozu může zvýšit **odolnost, produktivitu a konkurenceschopnost** vaší společnosti. Každá internetová společnost se stane společností orientovanou na Bitcoin a tento kurz vám zajistí, že budete připraveni. V úvodních částech jsou shrnuty základy fungování Bitcoinu, takže i když jste začátečník, získáte základní znalosti potřebné k dalšímu postupu. Naučit se základy Satoshiho vynálezu je vždy dobrý nápad, ať už před ponořením se do BIZ101, nebo po něm.
-
+Ať už jste malý podnik nebo velká korporace, integrace Bitcoinu do vašich každodenních operací může učinit vaši společnost odolnější, produktivnější a konkurenceschopnější. Každá internetová společnost se stane společností orientovanou na Bitcoin a tento kurz zajistí, že budete připraveni.
 +++
 # Úvod
 

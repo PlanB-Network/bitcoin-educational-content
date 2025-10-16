@@ -138,7 +138,7 @@ Der Vorteil dieser Anordnung liegt in der Einfachheit der Verkabelung und in der
 
 
 
-![Image](assets/en/001.webp)
+![Image](assets/de/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Dieser hierarchische Aufbau eignet sich besonders für große Netze, die eine kl
 
 
 
-![Image](assets/en/002.webp)
+![Image](assets/de/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Der Hauptvorteil der Bustopologie sind die niedrigen Installationskosten dank de
 
 
 
-![Image](assets/en/003.webp)
+![Image](assets/de/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Dieses Layout erleichtert die Verwaltung und Wartung: Wenn ein Peripheriegerät 
 
 
 
-![Image](assets/en/004.webp)
+![Image](assets/de/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Der Nachteil besteht darin, dass die Zahl der herzustellenden Verbindungen mit d
 
 
 
-![Image](assets/en/005.webp)
+![Image](assets/de/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Die vier Schichten des TCP/IP-Modells sind:
 
 
 
-![Image](assets/en/006.webp)
+![Image](assets/de/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Wenn ein Datagramm die MTU eines Netzsegments, das es durchqueren muss, übersch
 
 
 
-![Image](assets/en/008.webp)
+![Image](assets/de/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Die Übermittlung erfolgt also nach einem strukturierten Verfahren:
 
 
 
-![Image](assets/en/009.webp)
+![Image](assets/de/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Bei der Ankunft wird der Prozess umgekehrt: Der empfangende Rechner erhält den 
 
 
 
-![Image](assets/en/010.webp)
+![Image](assets/de/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Die Transformation der Daten bei jedem Layer kann wie folgt zusammengefasst werd
 
 
 
-![Image](assets/en/011.webp)
+![Image](assets/de/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Die Anzahl der verfügbaren Adressen ist je nach Klasse sehr unterschiedlich: vo
 
 
 
-![Image](assets/en/013.webp)
+![Image](assets/de/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Wir wollen 4 Subnetze mit jeweils bis zu 60 Hosts.
 
 
 
-![Image](assets/en/016.webp)
+![Image](assets/de/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP ist ein verbindungsorientiertes Protokoll, d. h. es stellt eine explizite, k
 
 
 
-![Image](assets/en/018.webp)
+![Image](assets/de/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Um die Zuverlässigkeit zu verbessern, verwendet TCP einen Zeitgeber: Sobald ein
 
 
 
-![Image](assets/en/019.webp)
+![Image](assets/de/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Die Sequenzsynchronisierung Exchange basiert auf dem berühmten **"*Drei-Wege-Ha
 
 
 
-![Image](assets/en/020.webp)
+![Image](assets/de/015.webp)
 
 
 
@@ -734,7 +734,7 @@ In der Praxis definiert das gleitende Fenster einen Bereich von Sequenznummern, 
 
 
 
-![Image](assets/en/021.webp)
+![Image](assets/de/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Diese präzise Verwaltung, die das flexible Routing von IP mit der strikten Kont
 
 
 
-![Image](assets/en/022.webp)
+![Image](assets/de/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Zwei wesentliche Aspekte bestimmen diesen Austausch:
 
 
 
-![Image](assets/en/023.webp)
+![Image](assets/de/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Zwei wesentliche Aspekte bestimmen diesen Austausch:
 
 
 
-![Image](assets/en/024.webp)
+![Image](assets/de/019.webp)
 
 
 
@@ -836,7 +836,7 @@ Durch die Kombination des horizontalen Aspekts (Kommunikation zwischen verteilte
 
 
 
-![Image](assets/en/026.webp)
+![Image](assets/de/020.webp)
 
 
 
@@ -896,7 +896,7 @@ beispiel: Address 172.16.254.1_
 
 
 
-![Image](assets/en/027.webp)
+![Image](assets/de/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Es ist wichtig, sich daran zu erinnern, dass der MAC Address und der IP Address 
 - Visuelles Beispiel des MAC Address:
 
 
-![Image](assets/en/032.webp)
+![Image](assets/de/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Es ist wichtig, sich daran zu erinnern, dass der MAC Address und der IP Address 
 - Visuelles Beispiel für einen IP Address:
 
 
-![Image](assets/en/027.webp)
+![Image](assets/de/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Neben der Behebung der IPv4-Knappheit stärkt NAT auch die Sicherheit, indem es 
 
 
 
-![Image](assets/en/035.webp)
+![Image](assets/de/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ um zu veranschaulichen, wie dies in der Praxis funktioniert, betrachten Sie das 
 
 
 
-![Image](assets/en/037.webp)
+![Image](assets/de/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ In professionellen Umgebungen besteht das Ziel darin, die Kontinuität der Diens
 
 
 
-![Image](assets/en/039.webp)
+![Image](assets/de/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Für die automatische Konfiguration gibt es mehrere Methoden:
 Hier ein Beispiel, wie ein MAC Address in EUI-64 umgewandelt werden kann:
 
 
-![Image](assets/en/045.webp)
+![Image](assets/de/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Hier ist ein Überblick über die verschiedenen Arten von Erweiterungs-Headern, 
 Dieser Header wird, falls vorhanden, immer unmittelbar nach dem Basis-Header platziert. Er enthält Informationen, die von jedem Router entlang des Paketweges verarbeitet werden müssen, im Gegensatz zu den meisten anderen Headern, die normalerweise nur vom Zielknoten verarbeitet werden. Typische Verwendungszwecke sind die Übermittlung globaler Parameter oder die Anforderung bestimmter Verarbeitungsschritte, während das Paket das Netz durchläuft.
 
 
-![Image](assets/en/047.webp)
+![Image](assets/de/028.webp)
 
 
 #### Routing-Kopfzeile
@@ -2117,7 +2117,7 @@ Die ersten vier Felder dieses Rooting-Headers sind:
 Das Feld "Verbleibende Segmente" beginnt mit der Gesamtzahl der verbleibenden Segmente und wird bei jedem Hop um eins dekrementiert.
 
 
-![Image](assets/en/048.webp)
+![Image](assets/de/029.webp)
 
 
 #### Fragmentierungskopf
@@ -2134,7 +2134,7 @@ Der Fragmentierungskopf enthält die folgenden Felder:
 - **M-Flag**: zeigt an, ob weitere Fragmente folgen.
 
 
-![Image](assets/en/049.webp)
+![Image](assets/de/030.webp)
 
 
 #### Authentifizierungs-Header (AH)
@@ -2146,7 +2146,7 @@ Dieser Header soll die Kommunikation sichern, indem er sowohl die Authentizität
 Im Falle eines betrügerischen Änderungsversuchs stimmt der Authentifizierungscode nicht mehr überein, und das Datagramm kann zurückgewiesen werden. Dieser Mechanismus schützt auch vor Wiederholungsangriffen, indem er unerlaubte Vervielfältigungen erkennt.
 
 
-![Image](assets/en/050.webp)
+![Image](assets/de/031.webp)
 
 
 #### Zieloptionen Kopfzeile
@@ -2158,7 +2158,7 @@ Dieser Header ist nur für den Endempfänger des Datagramms bestimmt. Er kann ve
 Ursprünglich war eine solche Option im Protokoll nicht vorgesehen. Dieser Header wurde jedoch bei der Entwicklung von IPv6 eingeführt, um künftige Erweiterungen zu ermöglichen, ohne die Gesamtstruktur des Pakets zu verändern. Die Null-Option wird zum Beispiel nur verwendet, um den Header aus Gründen der Speicherausrichtung auf ein Vielfaches von 8 Byte aufzufüllen.
 
 
-![Image](assets/en/051.webp)
+![Image](assets/de/032.webp)
 
 
 Das IPv6-Paketdesign basiert auf einer klaren Trennung zwischen einem minimalen Basis-Header und modularen Erweiterungs-Headern. Diese Architektur gewährleistet sowohl die standardmäßige Verarbeitungsleistung als auch die Flexibilität, die für die Weiterentwicklung des Protokolls und die Integration von Sicherheits-, komplexen Routing- oder Quality-of-Service-Mechanismen erforderlich ist, wobei die Kompatibilität mit künftigen Infrastrukturen gewahrt bleibt.
@@ -2504,7 +2504,7 @@ Wireshark ist für viele Betriebssysteme, einschließlich Linux und Windows, ver
 
 
 
-![Image](assets/en/052.webp)
+![Image](assets/de/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Dieser Befehl gibt einen detaillierten Bericht über den Interface "enp0s3" aus,
 
 
 
-![Image](assets/en/053.webp)
+![Image](assets/de/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ In diesem Fall werden alle Hosts im Bereich `192.168.0.0` bis `192.168.0.255` ab
 
 
 
-![Image](assets/en/055.webp)
+![Image](assets/de/035.webp)
 
 
 

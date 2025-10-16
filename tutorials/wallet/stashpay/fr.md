@@ -88,4 +88,4 @@ Le menu **Exporter le journal** liste toutes les actions des infrastructures de 
 
 Vous venez de prendre en main le portefeuille Bitcoin minimaliste StashPay. Si vous avez trouvé ce tutoriel utile, nous vous recommandons notre cursus pour débuter avec Bitcoin et obtenir vos premiers bitcoins.
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

@@ -1,21 +1,17 @@
---- 
-name: Utangulizi wa Cryptography rasmi
-goal: Utangulizi wa kina wa sayansi na mazoezi ya kriptografia.
-objectives: 
-  - Gundua misimbo ya Beale na mbinu za kisasa za kriptografia ili kuelewa dhana za kimsingi na za kihistoria za usimbaji fiche.
-  - Chunguza katika nadharia ya nambari, vikundi, na nyuga ili kufahamu dhana muhimu za hisabati msingi wa kriptografia.
-  - Soma msimbo wa mtiririko wa RC4 na AES kwa ufunguo wa 128-bit ili kupata maelezo kuhusu algoriti za kriptografia linganifu.
-  - Chunguza mfumo wa kificho wa RSA, usambazaji wa ufunguo, na vitendaji vya Hash ili kugundua usimbaji fiche usiolinganishwa.
-
 ---
-# Kuzama kwa kina katika kriptografia
+name: Misingi ya kriptografia ya kisasa
+goal: Utangulizi wa kina wa sayansi na mazoezi ya kriptografia.
+objectives:
+- Gundua misimbo ya Beale na mbinu za kisasa za kriptografia ili kuelewa dhana za kimsingi na za kihistoria za usimbaji fiche.
+- Chunguza katika nadharia ya nambari, vikundi, na nyuga ili kufahamu dhana muhimu za hisabati msingi wa kriptografia.
+- Soma msimbo wa mtiririko wa RC4 na AES kwa ufunguo wa 128-bit ili kupata maelezo kuhusu algoriti za kriptografia linganifu.
+- Chunguza mfumo wa kificho wa RSA, usambazaji wa ufunguo, na vitendaji vya Hash ili kugundua usimbaji fiche usiolinganishwa.
+---
+# Uchunguzi wa Kina wa Kriptografia ya Kisasa
 
-Ni vigumu kupata nyenzo nyingi ambazo hutoa msingi mzuri wa kati katika elimu ya cryptography.
+Katika kozi hii, tutafunika mambo muhimu ya kriptografia ya kisasa kwa njia wazi na inayoeleweka, hakuna haja ya msingi mkubwa wa hisabati. Katika sura zote, utajifunza wazo kuu kama vile usimbaji fiche wa simetri na ufunguo wa umma, kazi za hash, saini za kidijitali, ubadilishanaji wa funguo, na itifaki za ulimwengu halisi. Njiani, tutaunganisha nukta kwa matumizi ya vitendo kama vile kutuma ujumbe salama, TLS, uhifadhi wa nenosiri, na uthibitishaji.
 
-Kwa upande mmoja, kuna risala ndefu, rasmi, zinazoweza kufikiwa tu na wale walio na usuli dhabiti katika hisabati, mantiki, au taaluma nyingine rasmi. Kwa upande mwingine, kuna utangulizi wa hali ya juu sana ambao huficha maelezo mengi sana kwa mtu yeyote ambaye angalau ana hamu ya kujua.
-
-Utangulizi huu wa kriptografia unatafuta kunasa hali ya kati. Ingawa inapaswa kuwa na changamoto na maelezo ya kina kwa mtu yeyote mpya kwa cryptography, sio shimo la sungura la risala ya kawaida ya msingi.
-
+Nyenzo zimeundwa kwa wanafunzi wa viwango vyote na zinasawazisha ufahamu na kina cha kiufundi cha kutosha kukidhi udadisi. Tarajia safari iliyolengwa na ya kuvutia. Mwishoni, utaelewa jinsi na kwa nini kriptografia ya kisasa inafanya kazi na jinsi ya kuitumia kwa uwajibikaji.
 +++
 # Utangulizi
 

@@ -4943,18 +4943,18 @@ Para ver todos los metadatos contenidos en un archivo, utilice el siguiente coma
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Sustituye `nombre.jpg` por el nombre real de tu archivo. Asegúrate también de que estás situado en el directorio que contiene esta imagen. Por ejemplo, si tengo una foto de la estatua de Satoshi Nakamoto en el directorio `/Downloads`, puedo mostrar sus metadatos ejecutando el siguiente comando:
+Sustituye `nombre.webp` por el nombre real de tu archivo. Asegúrate también de que estás situado en el directorio que contiene esta imagen. Por ejemplo, si tengo una foto de la estatua de Satoshi Nakamoto en el directorio `/Downloads`, puedo mostrar sus metadatos ejecutando el siguiente comando:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Para eliminar todos los metadatos innecesarios de un archivo, utilice el comando
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Si no quieres conservar el original, puedes borrarlo con el comando:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Si tiene varios archivos que procesar en el mismo directorio, puede utilizar un 
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Borra los metadatos de todos los archivos JPEG del directorio actual. Puede adaptar la extensión a sus necesidades (`*.png`, `*.pdf`...).
+Borra los metadatos de todos los archivos JPEG del directorio actual. Puede adaptar la extensión a sus necesidades (`*.webp`, `*.pdf`...).
 
 
 

@@ -1,0 +1,8 @@
+question: What is the primary reason UniFFI requires developers to create a separate UDL file instead of automatically generating bindings directly from Rust code?
+answer: UDL serves as an explicit interface contract that specifies which parts of the Rust library should be exposed to other languages
+wrong_answers:
+  - "UDL is required because Rust's type system is incompatible with other programming languages without translation"
+  - UDL files are necessary to optimize the performance of cross-language function calls during runtime execution
+  - "UDL provides a way to automatically convert Rust's ownership model to garbage collection for target languages"
+explanation: |
+  UniFFI uses UDL as a deliberate design choice to maintain separation of concerns between implementation and interface. The UDL file acts as an explicit contract that allows developers to selectively expose parts of their Rust library while keeping internal implementation details private. This approach prevents automatic exposure of all public Rust items, giving developers fine-grained control over their API surface. The other options are incorrect because Rust types can be mapped without UDL (though less elegantly), performance optimization isn't UDL's primary purpose, and UDL doesn't convert ownership models.

@@ -138,7 +138,7 @@ Keuntungan dari pengaturan ini terletak pada kesederhanaan pemasangan kabel, dan
 
 
 
-![Image](assets/en/001.webp)
+![Image](assets/id/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Tata letak hirarkis ini bekerja dengan sangat baik untuk jaringan besar yang mem
 
 
 
-![Image](assets/en/002.webp)
+![Image](assets/id/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Keuntungan utama topologi bus adalah biaya pemasangan yang rendah, berkat pemasa
 
 
 
-![Image](assets/en/003.webp)
+![Image](assets/id/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Tata letak ini memudahkan pengelolaan dan pemeliharaan: jika satu perangkat peri
 
 
 
-![Image](assets/en/004.webp)
+![Image](assets/id/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Pengorbanannya adalah jumlah sambungan yang harus dibuat meningkat dengan cepat 
 
 
 
-![Image](assets/en/005.webp)
+![Image](assets/id/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Empat lapisan model TCP/IP adalah:
 
 
 
-![Image](assets/en/006.webp)
+![Image](assets/id/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Ketika sebuah datagram melebihi MTU segmen jaringan yang harus dilewati, peralat
 
 
 
-![Image](assets/en/008.webp)
+![Image](assets/id/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Oleh karena itu, penularan mengikuti proses yang terstruktur:
 
 
 
-![Image](assets/en/009.webp)
+![Image](assets/id/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Setelah tiba, prosesnya dibalik: mesin penerima mendapatkan frame di Network Acc
 
 
 
-![Image](assets/en/010.webp)
+![Image](assets/id/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Transformasi data pada setiap Layer dapat diringkas sebagai:
 
 
 
-![Image](assets/en/011.webp)
+![Image](assets/id/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Jumlah alamat yang tersedia sangat bervariasi di antara kelas-kelas: dari jaring
 
 
 
-![Image](assets/en/013.webp)
+![Image](assets/id/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Kami menginginkan 4 subnet yang masing-masing terdiri dari 60 host.
 
 
 
-![Image](assets/en/016.webp)
+![Image](assets/id/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP adalah protokol yang berorientasi pada koneksi, yang berarti protokol ini me
 
 
 
-![Image](assets/en/018.webp)
+![Image](assets/id/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Untuk meningkatkan keandalan, TCP menggunakan pengatur waktu: setelah sebuah seg
 
 
 
-![Image](assets/en/019.webp)
+![Image](assets/id/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Sinkronisasi urutan Exchange didasarkan pada mekanisme **"jabat tangan tiga arah
 
 
 
-![Image](assets/en/020.webp)
+![Image](assets/id/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Secara praktis, jendela geser mendefinisikan rentang nomor urut yang dapat bered
 
 
 
-![Image](assets/en/021.webp)
+![Image](assets/id/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Manajemen yang tepat ini, yang menggabungkan perutean fleksibel IP dengan kontro
 
 
 
-![Image](assets/en/022.webp)
+![Image](assets/id/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Ada dua aspek utama yang mengatur pertukaran ini:
 
 
 
-![Image](assets/en/023.webp)
+![Image](assets/id/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Ada dua aspek utama yang mengatur pertukaran ini:
 
 
 
-![Image](assets/en/024.webp)
+![Image](assets/id/019.webp)
 
 
 
@@ -840,7 +840,7 @@ Dengan menggabungkan aspek horizontal (komunikasi antara aplikasi terdistribusi)
 
 
 
-![Image](assets/en/026.webp)
+![Image](assets/id/020.webp)
 
 
 
@@ -900,7 +900,7 @@ contoh: Address 172.16.254.1_
 
 
 
-![Image](assets/en/027.webp)
+![Image](assets/id/021.webp)
 
 
 
@@ -1187,7 +1187,7 @@ Penting untuk diingat bahwa MAC Address dan IP Address adalah dua pengidentifika
 - Contoh visual dari MAC Address:
 
 
-![Image](assets/en/032.webp)
+![Image](assets/id/022.webp)
 
 
 
@@ -1195,7 +1195,7 @@ Penting untuk diingat bahwa MAC Address dan IP Address adalah dua pengidentifika
 - Contoh visual dari IP Address:
 
 
-![Image](assets/en/027.webp)
+![Image](assets/id/023.webp)
 
 
 
@@ -1262,7 +1262,7 @@ Selain mengatasi kelangkaan IPv4, NAT juga memperkuat keamanan dengan menciptaka
 
 
 
-![Image](assets/en/035.webp)
+![Image](assets/id/024.webp)
 
 
 
@@ -1335,7 +1335,7 @@ untuk mengilustrasikan bagaimana hal ini bekerja dalam praktiknya, pertimbangkan
 
 
 
-![Image](assets/en/037.webp)
+![Image](assets/id/025.webp)
 
 
 
@@ -1504,7 +1504,7 @@ Dalam lingkungan profesional, tujuannya adalah untuk menjamin kontinuitas layana
 
 
 
-![Image](assets/en/039.webp)
+![Image](assets/id/026.webp)
 
 
 
@@ -1958,7 +1958,7 @@ Untuk konfigurasi otomatis, ada beberapa metode yang tersedia:
 Berikut ini contoh cara mengubah MAC Address menjadi EUI-64:
 
 
-![Image](assets/en/045.webp)
+![Image](assets/id/027.webp)
 
 
 
@@ -2096,7 +2096,7 @@ Berikut ini adalah ikhtisar berbagai jenis header ekstensi yang didefinisikan ol
 Header ini, jika ada, selalu ditempatkan segera setelah header dasar. Header ini berisi informasi yang harus diproses oleh setiap router di sepanjang jalur paket, tidak seperti kebanyakan header lainnya, yang biasanya hanya ditangani oleh node tujuan. Penggunaan yang umum termasuk menandakan parameter global atau meminta langkah pemrosesan tertentu saat paket berjalan melalui jaringan.
 
 
-![Image](assets/en/047.webp)
+![Image](assets/id/028.webp)
 
 
 #### Header perutean
@@ -2121,7 +2121,7 @@ Empat bidang pertama dari header rooting ini adalah:
 Kolom "Segmen Tersisa" dimulai dengan jumlah total segmen yang tersisa dan dikurangi satu pada setiap hop.
 
 
-![Image](assets/en/048.webp)
+![Image](assets/id/029.webp)
 
 
 #### Tajuk fragmentasi
@@ -2138,7 +2138,7 @@ Header fragmentasi berisi bidang-bidang berikut ini:
 - Bendera **M**: mengindikasikan apakah ada fragmen lain yang mengikuti.
 
 
-![Image](assets/en/049.webp)
+![Image](assets/id/030.webp)
 
 
 #### Header otentikasi (AH)
@@ -2150,7 +2150,7 @@ Header ini dirancang untuk mengamankan komunikasi dengan memverifikasi keaslian 
 Jika terjadi upaya modifikasi yang curang, kode otentikasi tidak akan cocok lagi, dan datagram dapat ditolak. Mekanisme ini juga melindungi dari serangan pengulangan dengan mendeteksi duplikasi yang tidak sah.
 
 
-![Image](assets/en/050.webp)
+![Image](assets/id/031.webp)
 
 
 #### Tajuk Opsi Tujuan
@@ -2162,7 +2162,7 @@ Header ini hanya ditujukan untuk penerima akhir datagram. Header ini dapat digun
 Pada awalnya, tidak ada opsi seperti itu yang didefinisikan dalam protokol. Namun, header ini diperkenalkan ketika IPv6 dirancang, untuk memungkinkan ekstensi di masa depan ditambahkan tanpa mengubah struktur paket secara keseluruhan. Opsi null, misalnya, hanya digunakan untuk mengisikan header dengan kelipatan 8 byte untuk tujuan penyelarasan memori.
 
 
-![Image](assets/en/051.webp)
+![Image](assets/id/032.webp)
 
 
 Desain paket IPv6 dibangun di atas pemisahan yang jelas antara header dasar minimal dan header ekstensi modular. Arsitektur ini memastikan kinerja pemrosesan standar dan fleksibilitas yang diperlukan untuk mengembangkan protokol dan mengintegrasikan keamanan, perutean yang kompleks, atau mekanisme kualitas layanan, sambil mempertahankan kompatibilitas dengan infrastruktur di masa depan.
@@ -2508,7 +2508,7 @@ Wireshark tersedia pada banyak sistem operasi, termasuk Linux dan Windows. Mengi
 
 
 
-![Image](assets/en/052.webp)
+![Image](assets/id/033.webp)
 
 
 
@@ -2559,7 +2559,7 @@ Perintah ini menghasilkan laporan terperinci tentang `enp0s3` Interface, sebuah 
 
 
 
-![Image](assets/en/053.webp)
+![Image](assets/id/034.webp)
 
 
 
@@ -3111,7 +3111,7 @@ Dalam kasus ini, semua host dalam rentang `192.168.0.0` hingga `192.168.0.255` a
 
 
 
-![Image](assets/en/055.webp)
+![Image](assets/id/035.webp)
 
 
 

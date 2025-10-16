@@ -1,22 +1,17 @@
 ---
-name: Introduction à la cryptographie formelle
+name: Bases de la cryptographie moderne
 goal: Une introduction approfondie à la science et à la pratique de la cryptographie.
 objectives:
-
-  - Explorer les algorithmes de chiffrement de Beale et les méthodes cryptographiques modernes pour comprendre les concepts de base et historiques de la cryptographie.
-  - Plongez dans la théorie des nombres, des groupes et des corps pour maîtriser les concepts mathématiques clés qui sous-tendent la cryptographie.
-  - Étudiez le chiffrement de flux RC4 et l'AES avec une clé de 128 bits pour vous familiariser avec les algorithmes cryptographiques symétriques.
-  - Étudier le système cryptographique RSA, la distribution des clés et les fonctions de hachage pour explorer la cryptographie asymétrique.
-
+- Explorer les algorithmes de chiffrement de Beale et les méthodes cryptographiques modernes pour comprendre les concepts de base et historiques de la cryptographie.
+- Plongez dans la théorie des nombres, des groupes et des corps pour maîtriser les concepts mathématiques clés qui sous-tendent la cryptographie.
+- Étudiez le chiffrement de flux RC4 et l'AES avec une clé de 128 bits pour vous familiariser avec les algorithmes cryptographiques symétriques.
+- Étudier le système cryptographique RSA, la distribution des clés et les fonctions de hachage pour explorer la cryptographie asymétrique.
 ---
-# Plongée dans la cryptographie
+# Plongée approfondie dans la cryptographie moderne
 
-Il est difficile de trouver beaucoup de matériel qui offre un juste milieu dans l'enseignement de la cryptographie.
+Dans ce cours, nous couvrirons les éléments essentiels de la cryptographie moderne de manière claire et accessible, sans nécessiter de solides connaissances en mathématiques. Au fil des chapitres, vous apprendrez les concepts fondamentaux tels que le chiffrement symétrique et à clé publique, les fonctions de hachage, les signatures numériques, l'échange de clés et les protocoles du monde réel. En chemin, nous établirons des liens avec des applications pratiques telles que la messagerie sécurisée, TLS, le stockage de mots de passe et l'authentification.
 
-D'une part, il existe de longs papiers formels qui ne sont accessibles qu'aux personnes ayant une solide formation en mathématiques, en logique ou dans une autre discipline formelle. D'autre part, il y a des introductions de très haut niveau qui cachent trop de détails pour quiconque est un tant soit peu curieux.
-
-Cette introduction à la cryptographie cherche à se situer à mi-chemin. Bien qu'elle soit relativement stimulante et détaillée pour toute personne débutant dans le domaine de la cryptographie, elle n'est pas le trou du lapin d'un ouvrage académique typique.
-
+Le matériel est conçu pour les apprenants de tous niveaux et équilibre l'intuition avec juste assez de profondeur technique pour satisfaire la curiosité. Attendez-vous à un parcours ciblé et captivant. À la fin, vous comprendrez comment et pourquoi la cryptographie moderne fonctionne et comment l'utiliser de manière responsable.
 +++
 # Introduction
 

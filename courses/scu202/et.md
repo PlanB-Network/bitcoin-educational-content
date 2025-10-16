@@ -4943,18 +4943,18 @@ Kõigi failis sisalduvate metaandmete vaatamiseks kasutage järgmist käsku:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Asendage `nimi.jpg` oma faili tegeliku nimega. Veenduge ka, et asute kataloogis, mis sisaldab seda pilti. Näiteks kui mul on foto Satoshi Nakamoto kuju kohta kataloogis `/Downloads`, saan ma selle metaandmeid kuvada, käivitades järgmise käsu:
+Asendage `nimi.webp` oma faili tegeliku nimega. Veenduge ka, et asute kataloogis, mis sisaldab seda pilti. Näiteks kui mul on foto Satoshi Nakamoto kuju kohta kataloogis `/Downloads`, saan ma selle metaandmeid kuvada, käivitades järgmise käsu:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Kõigi ebavajalike metaandmete kustutamiseks failist kasuta käsku:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Kui te ei soovi originaali säilitada, saate selle käsuga kustutada:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Kui teil on mitu faili, mida soovite töödelda samas kataloogis, võite kasutad
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-See kustutab kõigi praeguses kataloogis olevate JPEG-failide metaandmed. Saate laiendust kohandada vastavalt oma vajadustele (`*.png`, `*.pdf`...).
+See kustutab kõigi praeguses kataloogis olevate JPEG-failide metaandmed. Saate laiendust kohandada vastavalt oma vajadustele (`*.webp`, `*.pdf`...).
 
 
 

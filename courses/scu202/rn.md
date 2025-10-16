@@ -4988,18 +4988,18 @@ Kugira ngo ubone amakuru yose ari muri dosiye, koresha itegeko rikurikira:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Subiriza `name.jpg` izina ry'ukuri rya dosiye yawe. Kandi urabe neza ko uri mu bubiko burimwo iri shusho. Nk'akarorero, nimba mfise ifoto y'igishushanyo ca Satoshi Nakamoto mu bubiko bwa `/Downloads`, ndashobora kwerekana amakuru yaco nkoresheje iri tegeko rikurikira:
+Subiriza `name.webp` izina ry'ukuri rya dosiye yawe. Kandi urabe neza ko uri mu bubiko burimwo iri shusho. Nk'akarorero, nimba mfise ifoto y'igishushanyo ca Satoshi Nakamoto mu bubiko bwa `/Downloads`, ndashobora kwerekana amakuru yaco nkoresheje iri tegeko rikurikira:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -5036,7 +5036,7 @@ Kugira ngo usibe amakuru yose adakenewe muri dosiye, koresha itegeko:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5058,7 +5058,7 @@ Niba udashaka kugumana ivy'umwimerere, ushobora kubifuta ukoresheje itegeko:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5082,12 +5082,12 @@ Niba ufise amadosiye menshi yo gukora mu bubiko bumwe, ushobora gukoresha itegek
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Ivyo bikuraho amakuru y'amadosiye yose ya JPEG ari mu bubiko buriho. Ushobora guhindura iyo nzira kugira ngo ihure n'ivyo ukeneye (`*.png`, `*.pdf`...).
+Ivyo bikuraho amakuru y'amadosiye yose ya JPEG ari mu bubiko buriho. Ushobora guhindura iyo nzira kugira ngo ihure n'ivyo ukeneye (`*.webp`, `*.pdf`...).
 
 
 

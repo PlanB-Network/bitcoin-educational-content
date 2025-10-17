@@ -633,7 +633,7 @@ Quant au format, il dépendra des ports disponibles sur votre machine, mais je v
 
 Pour Bitcoin Core seul (sans surcouche Umbrel), les recommandations des développeurs indiquent un minimum de 256 Mo de RAM en ajustant les paramètres au plus bas, 512 Mo avec les paramètres par défaut, et 1 Go pour une utilisation normale.
 
-En revanche, si vous utilisez un système de node-in-a-box comme Umbrel ou Start9, les besoins en RAM sont bien plus grands. Les développeurs d’Umbrel recommandent au minimum 4 Go de RAM. Cela peut suffire pour faire tourner uniquement Core, mais vous serez vite limité. Ils conseillent donc 8 Go, ce que je considère également comme le minimum pour une configuration de base autour de Bitcoin (Core + LND + indexeur + quelques applications). D’après mon expérience, avec Umbrel et quelques services supplémentaires, 8 Go restent un peu justes. Pour être réellement à l’aise et disposer d’une certaine marge, je recommande plutôt 16 Go de RAM.
+En revanche, si vous utilisez un système de *node-in-a-box* comme Umbrel ou Start9, les besoins en RAM sont bien plus grands. Les développeurs d’Umbrel recommandent au minimum 4 Go de RAM. Cela peut suffire pour faire tourner uniquement Core, mais vous serez vite limité. Ils conseillent donc 8 Go, ce que je considère également comme le minimum pour une configuration de base autour de Bitcoin (Core + LND + indexeur + quelques applications). D’après mon expérience, avec Umbrel et quelques services supplémentaires, 8 Go restent un peu justes. Pour être réellement à l’aise et disposer d’une certaine marge, je recommande plutôt 16 Go de RAM.
 
 #### Processeur (CPU)
 
@@ -671,19 +671,19 @@ Avec cette machine, vous avez une configuration confortable : une IBD rapide, et
 
 #### Configuration haut de gamme
 
-Si vous disposez d’un budget plus conséquent, les possibilités deviennent très larges. Vous pouvez choisir une configuration DIY ou même opter pour une machine préassemblée proposée directement par un projet de node-in-a-box.
+Si vous disposez d’un budget plus conséquent, les possibilités deviennent très larges. Vous pouvez choisir une configuration DIY ou même opter pour une machine préassemblée proposée directement par un projet de *node-in-a-box*.
 
 À titre d’exemple, je vous propose un *ASUS NUC 14 Pro* disponible neuf sur Amazon à 540 €. Pour ce prix, vous bénéficiez d’un processeur Intel Core Ultra 5 (récent et particulièrement performant), accompagné de 16 Go de RAM en DDR5. Avec une telle configuration, vous pourrez réaliser une IBD en un temps record et installer sans difficulté des applications gourmandes.  
 
-C’est une configuration extrêmement confortable, voire surdimensionnée si l’objectif initial est simplement de faire tourner un nœud Bitcoin. En revanche, si vous souhaitez exploiter pleinement toutes les applications de self-hosting disponibles sur Umbrel et Start9, ce niveau de puissance est adapté.
+C’est une configuration extrêmement confortable, voire surdimensionnée si l’objectif initial est simplement de faire tourner un nœud Bitcoin. En revanche, si vous souhaitez exploiter pleinement toutes les applications de *self-hosting* disponibles sur Umbrel et Start9, ce niveau de puissance est adapté.
 
 ![Image](assets/fr/043.webp)
 
-Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, comme dans les autres configurations, soit directement pour un SSD de 4 To à 260 € si vous souhaitez également stocker des fichiers personnels et étendre vos usages de self-hosting. Avec un SSD de 2 To, le coût total de la configuration s’élève à 660 €, tandis qu’avec un SSD de 4 To, il atteint 800 €.
+Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, comme dans les autres configurations, soit directement pour un SSD de 4 To à 260 € si vous souhaitez également stocker des fichiers personnels et étendre vos usages de *self-hosting*. Avec un SSD de 2 To, le coût total de la configuration s’élève à 660 €, tandis qu’avec un SSD de 4 To, il atteint 800 €.
 
 ### Quelques astuces supplémentaires
 
-- Si vous souhaitez acquérir du matériel d’occasion en payant en bitcoins, rendez-vous dans un meetup près de chez vous ! En discutant avec les autres participants, vous y trouverez sans doute du matériel adapté à un prix intéressant, tout en faisant vivre l’économie circulaire autour de Bitcoin. C’est également l’occasion de bénéficier de conseils avisés de la part de la communauté.  
+- Si vous souhaitez acquérir du matériel d’occasion en payant en bitcoins, rendez-vous dans un meet-up près de chez vous ! En discutant avec les autres participants, vous y trouverez sans doute du matériel adapté à un prix intéressant, tout en faisant vivre l’économie circulaire autour de Bitcoin. C’est également l’occasion de bénéficier de conseils avisés de la part de la communauté.  
 
 - Pour la connexion Internet, vous aurez bien sûr besoin d’un câble Ethernet RJ45, au moins pour l’installation du système.
 
@@ -695,7 +695,7 @@ Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, 
 
 - En fonction de la valeur de votre matériel et de votre situation géographique, un système parafoudre peut également être pertinent, soit directement au niveau du tableau électrique, soit sur la multiprise utilisée.  
 
-- Enfin, pensez à optimiser le refroidissement de votre machine : nettoyez-la régulièrement, et installez-la dans un endroit frais, bien ventilé et dégagé pour éviter toute surchauffe qui entraînerait du throtthling (limitation volontaire de la vitesse de votre processeur).
+- Enfin, pensez à optimiser le refroidissement de votre machine : nettoyez-la régulièrement, et installez-la dans un endroit frais, bien ventilé et dégagé pour éviter toute surchauffe qui entraînerait du *throtthling* (limitation volontaire de la vitesse de votre processeur).
 
 # Installer un nœud Bitcoin facilement
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
@@ -704,7 +704,7 @@ Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, 
 ## Umbrel : bien plus qu'un nœud Bitcoin
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
-Umbrel est un système d’exploitation de serveur personnel conçu pour rendre le self-hosting accessible : vous installez Umbrel, vous ouvrez un navigateur sur `umbrel.local`, et vous gérez tout via une interface simple à distance.
+Umbrel est un système d’exploitation de serveur personnel conçu pour rendre le *self-hosting* accessible : vous installez Umbrel, vous ouvrez un navigateur sur `umbrel.local`, et vous gérez tout via une interface simple à distance.
 
 Le projet a d’abord popularisé l’idée d’un nœud Bitcoin et Lightning en un clic, puis s’est élargi en une véritable "home cloud" : stockage de fichiers et de photos, streaming multimédia, outils réseau, domotique, IA locale, et des centaines d’apps installables depuis un App Store intégré.
 
@@ -744,7 +744,7 @@ Umbrel peut rester très minimaliste et centré uniquement sur Bitcoin, ou bien 
 
 - **Self-hosting généraliste** : avec Nextcloud, Immich, Jellyfin/Plex, les bloqueurs de publicité DNS-wide (Pi-hole/AdGuard), les VPN (WireGuard, Tailscale), la domotique (Home Assistant), les sauvegardes, la gestion de notes, les outils de bureautiques, les IA locales (Ollama + Open WebUI)... Umbrel peut devenir votre serveur personnel pour reprendre le contrôle de vos données. Vous hébergez vous-même les services que vous utilisez au quotidien, avec une expérience utilisateur soignée proche de celle des solutions externes, mais en conservant la maîtrise totale de vos données et de votre vie privée.
 
-Grâce au déploiement des applications en conteneurs, vous pouvez façonner Umbrel à votre guise : commencer par un simple nœud Bitcoin et quelques apps liées à son écosystème, puis installer par la suite un nœud Lightning adossé à votre nœud Bitcoin, et progressivement enrichir votre instance avec les applications de self-hosting qui vous seront utiles.
+Grâce au déploiement des applications en conteneurs, vous pouvez façonner Umbrel à votre guise : commencer par un simple nœud Bitcoin et quelques apps liées à son écosystème, puis installer par la suite un nœud Lightning adossé à votre nœud Bitcoin, et progressivement enrichir votre instance avec les applications de *self-hosting* qui vous seront utiles.
 
 ### Communauté et entraide
 
@@ -1121,7 +1121,7 @@ Dans ce tutoriel, nous nous concentrerons sur la connexion à votre nœud via To
 
 Nous prendrons l’exemple de Sparrow dans ce chapitre, mais la procédure est identique pour tous les autres logiciels de gestion de portefeuille acceptant les connexions aux serveurs Electrum. Il vous suffira de repérer, dans les paramètres de votre application, l’emplacement du réglage correspondant (généralement dans "*Server*", "*Network*", "*Node*"...).
 
-Sur Sparrow, ouvrez l’onglet "*File*" puis rendez-vous dans le menu "Settings".
+Sur Sparrow, ouvrez l’onglet "*File*" puis rendez-vous dans le menu "*Settings*".
 
 ![Image](assets/fr/030.webp)
 
@@ -1213,9 +1213,9 @@ De plus, votre fournisseur d’accès à Internet (ISP) peut savoir que vous con
 C’est pourquoi il est toujours préférable d’utiliser son propre explorateur de blocs en local. De cette manière, aucune donnée liée à votre activité de recherche ne fuitera, puisque toutes les requêtes sont traitées directement sur une machine que vous contrôlez, sans passage par Internet. De plus, un explorateur local s’appuie sur les données de votre propre nœud Bitcoin, que vous avez validées vous-même, selon vos propres règles, et en lesquelles vous pouvez avoir confiance.
 
 Sur Umbrel, plusieurs explorateurs de blocs sont disponibles :
-- Mempool.space  
-- Bitfeed  
-- BTC RPC Explorer
+- Mempool.space ; 
+- Bitfeed ; 
+- BTC RPC Explorer.
 
 Pour ma part, j’apprécie particulièrement Mempool.space, que j’ai donc installé sur mon nœud. Attention toutefois : pour utiliser la plupart des explorateurs de blocs sur Umbrel, un indexeur d’adresses est nécessaire. Vous devez donc disposer de l’application Bitcoin Node (ou Bitcoin Knots) avec une blockchain synchronisée à 100 %, ainsi que d’un indexeur tel qu’Electrs ou Fulcrum, également synchronisé à 100 %.
 
@@ -1263,7 +1263,7 @@ Concrètement, pour l'utilisation de votre Umbrel, Tailscale vous apporte plusie
 
 - Vous pouvez administrer l’interface Umbrel ou accéder aux applications liées à votre nœud (comme Mempool, Ride The Lightning, ThunderHub...) depuis n’importe où, comme si vous étiez sur le même réseau local, sans exposer de ports sur Internet et sans passer par Tor qui est très lent ;
 
-- Vous pouvez vous connecter à votre serveur Electrum (Electrs ou Fulcrum) ou directement à Bitcoin Core via votre VPN, sans passer par Tor. Cela vous offre une connexion sécurisée, comparable à l’utilisation de Tor, mais avec une vitesse bien plus élevée et une latence réduite. En résumé, vous conservez les avantages de Tor en matière de confidentialité et de sécurité, tout en bénéficiant de la rapidité d’une connexion en Clearnet. Pour un portefeuille on-chain, ce gain peut sembler marginal, mais si vous envisagez ultérieurement de mettre en place votre propre nœud Lightning, la différence est considérable. En effet, effectuer des paiements via votre nœud en déplacement sur Tor est extrêmement lent en raison des nombreux échanges requis, tandis qu’avec Tailscale, cela fonctionne parfaitement.
+- Vous pouvez vous connecter à votre serveur Electrum (Electrs ou Fulcrum) ou directement à Bitcoin Core via votre VPN, sans passer par Tor. Cela vous offre une connexion sécurisée, comparable à l’utilisation de Tor, mais avec une vitesse bien plus élevée et une latence réduite. En résumé, vous conservez les avantages de Tor en matière de confidentialité et de sécurité, tout en bénéficiant de la rapidité d’une connexion en Clearnet. Pour un portefeuille on-chain, ce gain peut sembler marginal, mais si vous envisagez ultérieurement de mettre en place votre propre nœud Lightning, la différence est considérable. En effet, effectuer des paiements via votre nœud en déplacement sur Tor est extrêmement lent en raison des nombreux échanges requis, tandis qu’avec Tailscale, cela fonctionne parfaitement ; 
 
 - Pas besoin de configurer des règles NAT, d’ouvrir des ports ou de mettre en place un serveur VPN classique. Une fois l’application installée sur Umbrel et vos appareils, le réseau est automatiquement établi.
 
@@ -1336,7 +1336,7 @@ Sur le stockage, surveillez l'évolution : si le disque approche de la saturatio
 
 ### Mettre à jour
 
-Les mises à jour de votre nœud sont importantes pour trois raisons principales : d’abord la sécurité (correctifs de vulnérabilités, durcissement réseau, protections DoS...), ensuite la compatibilité (évolutions de politiques de relais, changements de formats, mises à niveau des protocoles...), enfin la fiabilité et les performances (bugs corrigés, consommation de ressources...). Il faut donc vérifier périodiquement qu'UmbrelOS et vos apps sont bien à jours :
+Les mises à jour de votre nœud sont importantes pour trois raisons principales : d’abord la sécurité (correctifs de vulnérabilités, durcissement réseau, protections DoS...), ensuite la compatibilité (évolutions de politiques de relais, changements de formats, mises à niveau des protocoles...), enfin la fiabilité et les performances (bugs corrigés, consommation de ressources...). Il faut donc vérifier périodiquement qu'UmbrelOS et vos apps sont bien à jour :
 
 - Pour mettre à jour le système : Ouvrez le menu des paramètres, puis cliquez sur le bouton "*Check for Update*" à côté du paramètre "*UmbrelOS*".
 
@@ -1393,12 +1393,12 @@ La synchronisation débute par l’étape _**headers-first**_. Votre nœud deman
 ![Image](assets/fr/093.webp)
 
 Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une liste de transactions. L’empreinte du bloc est obtenue en appliquant un double hachage SHA-256 sur cet en-tête, lequel regroupe 6 champs :
-- version
-- hachage du bloc précédent
-- racine de Merkle des transactions
-- horodatage (supérieur au temps médian des 11 blocs précédents)
-- cible de difficulté
-- nonce
+- version, 
+- hachage du bloc précédent, 
+- racine de Merkle des transactions,
+- horodatage (supérieur au temps médian des 11 blocs précédents),
+- cible de difficulté,
+- nonce.
 
 ![Image](assets/fr/094.webp)
 
@@ -1461,7 +1461,7 @@ Si votre nœud écoute sur un port ouvert (8333 par défaut), il accepte des con
 ## Anatomie de votre nœud Bitcoin
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 
-Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localement plusieurs ensembles de données complémentaires qui lui permettent de valider les blocs et transactions, de servir des pairs du réseau et de redémarrer rapidement en conservant son état. 3 briques principales sont essentielles sur un nœud :
+Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localement plusieurs ensembles de données complémentaires qui lui permettent de valider les blocs et transactions, de servir des pairs du réseau et de redémarrer rapidement en conservant son état. Trois briques principales sont essentielles sur un nœud :
 - les **blocs** de la blockchain stockés sur disque,
 - l’**UTXO set** maintenu en base de données clé-valeur,
 - et la **mempool** conservée en mémoire vive et périodiquement sérialisée.
@@ -1532,7 +1532,7 @@ La croissance de l'UTXO set découle également de la structure des transactions
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.network/resources/glossary/utreexo).
+Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop coûteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.network/resources/glossary/utreexo).
 
 ### La mempool
 
@@ -1564,9 +1564,9 @@ Plusieurs autres fichiers au même niveau que `blocks/`, `chainstate/` et `index
 - `settings.json` contient d'autres paramètres supplémentaires au `bitcoin.conf` ;
 - `debug.log` est le journal texte de diagnostic, qui peut servir pour comprendre l’activité du nœud en cas de bug ;
 - `bitcoind.pid` enregistre l’identifiant de processus pendant l’exécution, qui permet à d'autres applications ou scripts d'identifier facilement Bitcoind (*Bitcoin Daemon*) et d'interagir avec lui si nécessaire. Il est créé au démarrage du nœud et supprimé à l’arrêt ;
-- `ip_asn.map` est une table de correspondance IP → ASN (système autonome) utilisée pour le bucketing et la diversification des pairs (option `-asmap`) ;
+- `ip_asn.map` est une table de correspondance IP → ASN (système autonome) utilisée pour le *bucketing* et la diversification des pairs (option `-asmap`) ;
 - `onion_v3_private_key` stocke la clé privée du service Tor v3 lorsque l’option `-listenonion` est activée, afin de conserver une adresse onion stable entre les redémarrages ;
-- `i2p_private_key` stocke la clé privée I2P lorsque `-i2psam=` est utilisé, pour réaliser des connexion sortantes et éventuellement entrantes sur I2P ;
+- `i2p_private_key` stocke la clé privée I2P lorsque `-i2psam=` est utilisé, pour réaliser des connexions sortantes et éventuellement entrantes sur I2P ;
 - `.cookie` contient un jeton d’authentification RPC éphémère (créé au démarrage, supprimé à l’arrêt) lorsque l’authentification par cookie est utilisée. Cela peut être utilisé par exemple pour connecter un logiciel de portefeuille ;
 - `.lock` est le verrou du répertoire de données, qui empêche plusieurs instances d’écrire simultanément dans le même datadir ;
 - `guisettings.ini.bak` est la sauvegarde automatique des paramètres de la GUI (*Bitcoin Qt*) lorsque l’option `-resetguisettings` est utilisée.
@@ -1630,7 +1630,7 @@ En parallèle, les données d’annulation sont écrites dans `rev*.dat` et les 
 
 Le fichier `bitcoin.conf` est la principale interface de configuration de Bitcoin Core. Il permet d’ajuster le comportement et les paramètres de votre nœud sans avoir à recompiler son code source ou faire des modifications en lignes de commande. Concrètement, c'est un fichier texte brut structuré en paires clé-valeur, c'est-à-dire que chaque ligne du fichier référence un paramètre spécifique (la clé) et une valeur associée qui peut être modifiée pour ajuster ce paramètre.
 
-On peut définir dans le `bitcoin.conf` des paramètres de réseau, de relais de transactions, de performances, d’indexation, de journalisation ou encore d’accès RPC. En revanche, ce fichier de configuration ne modifie jamais les règles de consensus du protocole : il fixe uniquement la politique locale du nœud (règles de relai), la manière dont il se connecte, indexe et expose des services.
+On peut définir dans le `bitcoin.conf` des paramètres de réseau, de relais de transactions, de performances, d’indexation, de journalisation ou encore d’accès RPC. En revanche, ce fichier de configuration ne modifie jamais les règles de consensus du protocole : il fixe uniquement la politique locale du nœud (règles de relais), la manière dont il se connecte, indexe et expose des services.
 
 ### Emplacement et priorité
 
@@ -1652,7 +1652,7 @@ Pour segmenter la configuration par réseau, on peut utiliser des sections : `
 
 ### Ce que le bitcoin.conf peut et ne peut pas faire
 
-Comment expliqué précédemment, les règles de consensus ne sont évidemment pas configurable dans le `bitcoin.conf`, puisque cela pourrait créer un hard fork. En revanche, beaucoup d’autres aspects sont paramétrables. On distingue 3 classes utiles à garder en tête :
+Comment expliqué précédemment, les règles de consensus ne sont évidemment pas configurables dans le `bitcoin.conf`, puisque cela pourrait créer un hard fork. En revanche, beaucoup d’autres aspects sont paramétrables. On distingue 3 classes utiles à garder en tête :
 - Les paramètres purement locaux. Ils n’affectent que votre nœud : taille du cache (`dbcache`), mode élagué (`prune`), index optionnels... Ils influencent les performances de votre machine, mais pas le réseau ;
 - Les politiques de relais et de mempool. Elles décident de ce que votre nœud accepte, conserve et relaie avant confirmation : seuil minimal de frais (`minrelaytxfee`), taille et durée de rétention de la mempool (`maxmempool`, `mempoolexpiry`), remplacement des transactions (RBF)... Ces règles ne font pas partie du consensus, donc deux nœuds différents peuvent avoir des politiques différentes et rester pleinement compatibles. En revanche, ces paramètres vont avoir une influence sur le réseau Bitcoin (comme expliqué dans la première partie, notamment avec la théorie de la percolation) ;
 - La connectivité réseau. Ce sont les options qui déterminent comment votre nœud trouve des pairs, écoute, traverse un NAT, utilise Tor ou un proxy, ou limite sa bande passante. Elles façonnent votre topologie, mais n’altèrent pas le relai des transactions.
@@ -1686,7 +1686,7 @@ Niveau réseau, on a également :
 - `dnsseed` : autorise ou non la requête des _DNS seeds_ pour obtenir des pairs quand votre réserve locale d’adresses est faible (par défaut : `1`, sauf si `-connect` ou `-maxconnections=0`) ;
 - `forcednsseed` : force la requête des _DNS seeds_ au démarrage, même si vous avez déjà des adresses en stock (par défaut : `0`) ;
 - `fixedseeds` : Autorise l’usage des *seed nodes* (liste d'adresses hardcodées) si les _DNS seeds_ échouent ou sont désactivés (par défaut : `1`) ;
-- `dns` : Autorise les résolutions DNS en général (par exemple pour `-addnode`/`-seednode`/`-connect`) ;
+- `dns` : Autorise les résolutions DNS en général (par exemple pour `-addnode`/`-seednode`/`-connect`).
 
 Par défaut, votre nœud communique sur le clearnet, Tor et I2P. Cela implique que les pairs avec lesquels il se connecte en clearnet peuvent voir votre adresse IP publique, et que votre ISP (fournisseur d’accès à Internet) pourra probablement détecter que vous exploitez un nœud Bitcoin (même si P2P Transport V2 complique l’écoute passive par un FAI). Ce n’est pas nécessairement problématique, mais si vous souhaitez éviter toute fuite de ces informations, vous pouvez connecter votre nœud exclusivement via Tor.
 
@@ -1725,13 +1725,13 @@ Voici les paramètres de base que vous pouvez modifier sur votre `bitcoin.conf` 
 
 - `minrelaytxfee=<n>` : Taux de frais minimal (en BTC/kvB) en-dessous duquel les transactions ne sont pas acceptées dans la mempool du nœud et pas relayées aux pairs (défaut : `0.00001` = 1 sat/vB). Plus cette valeur est élevée, plus votre nœud filtre agressivement les transactions à bas frais.
 
-- `mempoolfullrbf=1` : Accepter les transaction RBF même sans signalisation explicite de RBF dans la transaction remplacée. Avec cette politique dite "*full-RBF*", une transaction offrant un taux de frais supérieur peut en remplacer une autre en mempool si les autres conditions de remplacement sont satisfaites.
+- `mempoolfullrbf=1` : Accepter les transactions RBF même sans signalisation explicite de RBF dans la transaction remplacée. Avec cette politique dite "*full-RBF*", une transaction offrant un taux de frais supérieur peut en remplacer une autre en mempool si les autres conditions de remplacement sont satisfaites.
 
 Pour rappel : RBF est un mécanisme transactionnel permettant à l'expéditeur de remplacer une transaction par une autre avec des frais plus élevés, afin d'accélérer la confirmation de celle-ci. Si une transaction avec des frais trop faibles reste bloquée, l'expéditeur peut utiliser *Replace-By-Fee* pour augmenter les frais et prioriser sa transaction de remplacement dans les mempools et auprès des mineurs.
 
 #### Paramètres avancés et spécifiques
 
-Voici les paramètres avancés relatifs à la politique de mempool et de relai. Si vous êtes débutant, vous ne devriez pas avoir besoin de modifier ces paramètres :
+Voici les paramètres avancés relatifs à la politique de mempool et de relais. Si vous êtes débutant, vous ne devriez pas avoir besoin de modifier ces paramètres :
 
 - `datacarrier=1` : Autorise le relais et (si minage via le nœud) l’inclusion des transactions porteuses de données non financières via un output `OP_RETURN` (défaut : `1`). Désactiver ce paramètre réduit légèrement la surface de spam de données non financières au prix d’une compatibilité moindre avec certains usages. Dans tous les cas, vous devrez accepter les `OP_RETURN` minés.
 
@@ -1753,7 +1753,7 @@ Voici les paramètres avancés relatifs à la politique de mempool et de relai. 
 
 - `blockreconstructionextratxn=<n>` : Nombre supplémentaire de transactions conservées en mémoire pour reconstruire des blocs compacts (défaut : `100`). Améliore la réussite des reconstructions lors des synchronisations compactes, au prix d’un peu de mémoire.
 
-Pour rappel : toutes ces règles de relai n’ont aucune incidence sur la validité de transactions incluses dans un bloc valide. Ils servent à ajuster votre contribution au relais, à protéger vos ressources et à rendre votre nœud prévisible dans des environnements contraints, mais ne permettent jamais de refuser des blocs qui respectent les règles de consensus.
+Pour rappel : toutes ces règles de relais n’ont aucune incidence sur la validité de transactions incluses dans un bloc valide. Ils servent à ajuster votre contribution au relais, à protéger vos ressources et à rendre votre nœud prévisible dans des environnements contraints, mais ne permettent jamais de refuser des blocs qui respectent les règles de consensus.
 
 ### Wallets
 
@@ -1775,13 +1775,13 @@ Vous pouvez aussi ajuster, dans le fichier `bitcoin.conf`, la façon dont vos po
 
 - `paytxfee=<amt>` : Taux de frais fixe (BTC/kvB) appliqué aux transactions du wallet. À éviter en général : privilégiez l’estimation adaptative via `txconfirmtarget`.
 
-- `fallbackfee=<amt>` : Taux de secours (BTC/kvB) utilisé si l’estimateur manque de données (défaut : `0.00`). Le mettre à 0 désactive totalement le fallback.
+- `fallbackfee=<amt>` : Taux de secours (BTC/kvB) utilisé si l’estimateur manque de données (défaut : `0.00`). Le mettre à 0 désactive totalement le *fallback*.
 
 - `mintxfee=<amt>` : Seuil minimal (BTC/kvB) pour la création de transactions par le wallet (défaut : `0.00001`). Le wallet refusera de construire une transaction en-dessous de ce seuil.
 
 - `maxtxfee=<amt>` : Plafond absolu de frais totaux pour une transaction de wallet (défaut : `0.10` BTC). Protège contre des frais anormalement élevés qui viendraient détruire des bitcoins inutilement.
 
-- `avoidpartialspends=1` : Sélectionne les UTXOs par grappes d’adresse pour éviter les dépenses partielles.
+- `avoidpartialspends=1` : Sélectionne les UTXOs par grappes d’adresses pour éviter les dépenses partielles.
 
 - `spendzeroconfchange=1` : Autorise la réutilisation d’un UTXO de change non confirmé comme entrée dans une nouvelle transaction (défaut : `1`).
 

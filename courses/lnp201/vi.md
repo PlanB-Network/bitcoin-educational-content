@@ -74,7 +74,7 @@ Sẵn sàng khám phá các cơ chế kỹ thuật của Lightning Network? Hãy
 ## Hiểu về Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
 Lightning Network là một mạng lưới các kênh thanh toán được xây dựng trên cơ sở giao thức Bitcoin, nhằm mục đích cho phép thực hiện các giao dịch nhanh chóng và với chi phí thấp. Nó cho phép tạo ra các kênh thanh toán giữa các bên tham gia, trong đó các giao dịch có thể được thực hiện gần như ngay lập tức và với phí rất thấp, mà không cần phải ghi lại từng giao dịch riêng lẻ trên blockchain. Như vậy, Lightning Network tìm cách cải thiện khả năng mở rộng của Bitcoin và làm cho nó có thể sử dụng cho các khoản thanh toán giá trị thấp.

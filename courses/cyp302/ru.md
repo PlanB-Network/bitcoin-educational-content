@@ -118,7 +118,7 @@ objectives:
 
 *Рисунок 1: Шифр Била №. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Например, первое число второго шифротекста - 115. 115-е слово Декларации независимости - "instituted", поэтому первая буква открытого текста - "i" В шифротексте нет прямого указания на интервал между словами и капитализацию. Но, расшифровав первые несколько слов, можно сделать логический вывод, что первым словом открытого текста было просто "I" (Открытый текст начинается с фразы "Я вложил деньги в округе Бедфорд")
 
@@ -281,7 +281,7 @@ $$
 
 *Рисунок 1: Случайная переменная X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Широкие полосы на *Рисунке 1*, очевидно, не означают, что случайная переменная $X$ на самом деле непрерывна. Напротив, широкие полосы сделаны для того, чтобы быть более визуально привлекательными (прямая линия вверх дает менее интуитивную визуализацию).
 
@@ -319,7 +319,7 @@ $$
 
 *Рисунок 2: Случайная переменная Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 В качестве последнего примера рассмотрим случайную переменную Z. Она имеет набор исходов {1,3,7,11,12} и следующее распределение вероятностей:
 
@@ -347,7 +347,7 @@ $$
 
 *Рисунок 3: Случайная переменная Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Условная вероятность
 
@@ -1007,11 +1007,11 @@ ___
 
 *Рисунок 1: Секретность в пространстве*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Рисунок 2: Секретность во времени*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Пример: Шифр сдвига
 
@@ -1113,7 +1113,7 @@ ___
 
 *Рисунок 3: Потоковый шифр XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Помните, что схема шифрования - это, как правило, шаблон для шифрования с одним и тем же основным алгоритмом, а не точная спецификация. В свою очередь, потоковый шифр - это шаблон для шифрования, в котором можно использовать ключи разной длины. Хотя длина ключа может влиять на некоторые мелкие детали схемы, она не влияет на ее суть.
 
@@ -1197,7 +1197,7 @@ ___
 
 *Рисунок 4: Блочный шифр*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Сам по себе блочный шифр не является схемой шифрования. Но блочный шифр может быть использован с различными **режимами работы** для создания различных схем шифрования. Режим работы просто добавляет некоторые дополнительные операции за пределами блочного шифра.
 
@@ -1205,7 +1205,7 @@ ___
 
 *Рисунок 5: Блочный шифр с режимом ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Процесс шифрования электронной кодовой книги с помощью блочного шифра выглядит следующим образом. Проверьте, можно ли разделить сообщение с открытым текстом на 128-битные блоки. Если нет, добавьте к сообщению **падинг**, чтобы результат можно было равномерно разделить на блок размером 128 бит. Это и есть ваши данные, используемые в процессе шифрования.
 
@@ -1221,7 +1221,7 @@ ___
 
 *Рисунок 6: Блочный шифр с режимом CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Предположим, что размер блока снова равен 128 битам. Для начала вам снова нужно убедиться, что исходное сообщение с открытым текстом получило необходимую прокладку.
 
@@ -1237,7 +1237,7 @@ ___
 
 *Рисунок 7: Блочный шифр с режимом OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 В режиме OFB вы также выбираете вектор инициализации. Но здесь для первого блока вектор инициализации непосредственно вставляется в блочный шифр вместе с вашим ключом. Полученные 128 бит рассматриваются как поток ключей. Этот поток ключей переписывается с открытым текстом, чтобы получить шифротекст для блока. Для последующих блоков вы используете поток ключей из предыдущего блока в качестве входа в блочный шифр и повторяете все шаги.
 
@@ -1283,7 +1283,7 @@ ___
 
 *Рисунок 8: Обзор схем симметричного шифрования*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Коды аутентификации сообщений
 
@@ -1307,7 +1307,7 @@ ___
 
 *Рисунок 9: Обзор схем симметричного шифрования*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 В силу **экзистенциальной неустранимости** злоумышленник не может каким-либо образом изменить сообщение $M$ или создать собственное сообщение с действительной меткой. Это так, даже если злоумышленник наблюдает за метками многих сообщений между Бобом и Алисой, в которых используется один и тот же закрытый ключ. В крайнем случае, злоумышленник может заблокировать получение Алисой сообщения $M$ (проблема, которую криптография решить не может).
 
@@ -1339,7 +1339,7 @@ MAC гарантирует, что сообщение действительно
 
 *Рисунок 10: Схема аутентифицированного шифрования*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Как создаются MAC? Хотя MAC могут быть созданы несколькими способами, распространенным и эффективным способом их создания являются **криптографические хэш-функции**.
 
@@ -1351,7 +1351,7 @@ MAC гарантирует, что сообщение действительно
 
 *Рисунок 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Примечания:**
 
@@ -1389,7 +1389,7 @@ MAC гарантирует, что сообщение действительно
 
 *Рисунок 12: Безопасный сеанс связи*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 и AES
 
@@ -1526,7 +1526,7 @@ ___
 
 *Рисунок 1: AES-ECB со 128-битным ключом*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Каждый 128-битный блок текста проходит десять раундов в схеме шифрования Rijndael. Для каждого раунда (с $K_1$ по $K_{10}$) требуется отдельный ключ. Они создаются для каждого раунда из исходного 128-битного ключа $K_0$ с помощью алгоритма **расширения ключа**. Таким образом, для шифрования каждого блока текста мы будем использовать исходный ключ $K_0$, а также десять отдельных раундовых ключей. Обратите внимание, что эти же 11 ключей используются для каждого 128-битного блока открытого текста, требующего шифрования.
 
@@ -1800,7 +1800,7 @@ ___
 
 *Рисунок 1: Асимметричное шифрование*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Любой противник, прослушивающий общение Боба и Алисы, может наблюдать $C$. Она также знает $K_P$ и алгоритм шифрования $E(\cdot)$. Важно, однако, что эта информация не позволяет злоумышленнику практически расшифровать шифротекст $C$. Для расшифровки требуется $K_S$, которым злоумышленник не обладает.
 
@@ -1824,7 +1824,7 @@ ___
 
 *Рисунок 2: Асимметричная аутентификация*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Как и в случае с асимметричным шифрованием, мы видим интересный контраст между цифровыми подписями и кодами аутентификации сообщений. В последнем случае алгоритм проверки может быть использован только одной из сторон, имеющей доступ к защищенному сообщению. Это связано с тем, что для него требуется закрытый ключ. Однако в асимметричном случае любой может проверить цифровую подпись $S$, сделанную Бобом.
 

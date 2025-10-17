@@ -1,13 +1,12 @@
-question: Ni uruhara uruhe amahera afise mu guhuza ibikorwa vy’abantu hagati y’ibihe?
-answer: Bituma umuntu ashobora kubika agaciro muri iki gihe, akagashira mu vyo azoba ari muri kazoza.
+question: Ni uruhara uruhe amahera afise mu gutunganya ibikorwa vy’abantu hagati y’ibihe?
+answer: Bituma umuntu ashobora kubika agaciro muri iki gihe, akakarungika muri kazoza kiwe.
 wrong_answers:
-  - Bituma umuntu ashobora kubika agaciro muri kazoza, akagashikana ku muntu ari ubu.
-  - Bituma agaciro kabikwa mu gihe ca none no kugashikana ku bandi bantu.
-  - Bituma agaciro kabikwa muri kazoza no kugashikirizwa abandi bantu.
+  - Bituma umuntu ashobora kubika agaciro muri kazoza, akakarungika mur ari kubu.
+  - Bituma agaciro kabikwa muri kubu no kugashikana(kukarungika) ku bandi bantu.
+  - Bituma agaciro kabikwa muri kazoza no kukarungikira abandi bantu.
 explanation: |
-  Mu kubika amahera, ni ukuvuga kuzigama, abantu ku giti cabo baririnda
-  ukudakeka muri kazoza maze gutyo bakishoboza kuyobora .
-  ibikorwa vyabo ku bijanye n’igihe kirekire. Ariko rero, bo .
-  ivyo bishobora gushikako gusa iyo amahera akoreshwa ari iduka .
-  y’agaciro.
+  Mu kubika amahera, ni ukuvuga kuziganya, abantu baririnda kubera ukutamenya ivyo muri kazoza maze bakishoboza gutunganya .
+  ibikorwa vyabo mugihe kirekire. Ariko rero,
+  ivyo bishobora ushika mugihe ayo amahera akoreshwa ari nk'ububiko .
+  bw’agaciro.
 reviewed: true

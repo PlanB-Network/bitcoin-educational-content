@@ -1,14 +1,14 @@
-question: Ni kuki ingorane yo guhuza ibikorwa mu kugabanya ibikorwa yongera guseruka mu mibano minini?
-answer: Kubera ko abantu bafise ubushobozi buke bwo gutahura, kandi ingero yemewe mu kibano y’agaciro k’intererano muri Exchange ni ingorane idasanzwe.
+question: Ni kuki ingorane zo gutegura mu kugabanganya ibikorwa yongera guseruka mu miryango canke mu bibano vyagutse?
+answer: Kubera ko abantu bafise ubushobozi bufise a, kandi ingero yemewe mu kibano y’agaciro k’intererano muri Exchange ni ingorane idasanzwe.
 wrong_answers:
-  - Kubera ko abantu badakunda gukorana n’imigwi minini kandi bagakunda imiryango mitoyi.
-  - Kubera ko imiryango minini igira ubutunzi bwinshi, ivyo bikaba bituma idakenera gusangira ibikorwa.
-  - Kubera ko imiryango minini igira amakimbirane menshi, ivyo bikaba bituma guhuza ibikorwa bigorana.
+  - Kubera ko abantu badakunda gukorana n’imigwi minini canke ari benshi cane kandi bagakunda imiryango mitoyi canke gukorana ari bake.
+  - Kubera ko imiryango minini igira ubutunzi bwinshi, ivyo bikaba bituma idakenera kugabanganya ibikorwa ibikorwa.
+  - Kubera ko imiryango minini igira inryane nyinshi, ivyo bikaba kgendura canke gutuganya ibikorwa bigorana.
 explanation: |
   Mu mibano minini, ntibishoboka ko umuntu .
-  kubungabunga no kwibuka ubucuti buhamye n'ibindi
+  kubungabunga no kwibuka ubucuti afitaniye n'abandi
   abantu barenga 150, bikaba ari vyo bituma haba urutonde rw’izina .
-  ntibihagije kugira ngo umuntu ashobore gutsinda ingorane y’infungwa ku rugero.
-  Kandi, gusuzuma agaciro k’intererano ziri muri Exchange ni .
+  ntibihagije kugira ngo umuntu ashobore gutsinda amadidane y'umupfungwa ku rugero.
+  Kandi, gusuzuma agaciro k’intererano ziri muri guhana amakuru ni .
   ingorane igoye cane mu mibano minini.
 reviewed: true

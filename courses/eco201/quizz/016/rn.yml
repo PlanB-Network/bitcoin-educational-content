@@ -1,13 +1,13 @@
-question: Ni igiki ciyumviro co kugabanya akamaro k’inyuma?
-answer: Igipande cose c’inyongera c’ikintu kirakenewe cane kuruta icabanjirije.
+question: Ni igiki ciyumviro co kugabanya akamaro ko kuruhande?
+answer: Igipande cose c’inyongera c’ikintu kirakenewe cane kuruta icatanguye.
 wrong_answers:
-  - Igipande cose c’inyongera c’ikintu ciza kirakenewe cane kuruta icabanjirije.
-  - Igipande cose c’inyongera c’ikintu cipfuzwa kimwe n’icabanjirije.
+  - ingero yose y'ikintu usanga ikenenwe cane kuruta iyabanje.
+  - ingero yose yiyongeyeko y'ikintu usanga gikenenwe cane kurusha icabanje.
   - Icipfuzo co kuronka igice cose c’inyongera c’ikintu ciza kirahindukahinduka ata co umuntu ashobora kumenya.
 explanation: |
-  Iciyumviro co kugabanya akamaro k’inyuma kivuga ko buri .
+  Iciyumviro co kugabanya akamaro ko kuruhande kivuga ko buri .
   igice c'inyongera c'ikintu ni gitoyi cipfuzwa kuruta
-  imbere y’ivyo. Ivyo ni kubera ko uko umuntu aronka vyinshi .
+  icabanje. Ivyo ni kubera ko uko umuntu aronka vyinshi .
   y'ikintu ciza, ni ko n'akamaro gatoyi k'inyongera ku gice cose c'ico
   ivyiza biratanga.
 reviewed: true

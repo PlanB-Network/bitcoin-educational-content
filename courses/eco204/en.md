@@ -51,9 +51,9 @@ What if monetary history were repeating itself before our very eyes? You be the 
 
 Inflation is a concept that is often misunderstood due to its multiple definitions and interpretations. The perception of inflation varies among different groups, such as bitcoiners and traditional economists. Let's first clarify the definitions before discussing hyperinflation:
 
-- Definition from Robert: Inflation is an excessive increase in payment instruments (banknotes, capital), causing a rise in prices and a depreciation of the currency.
+- Definition from Le Robert dictionary: Inflation is an excessive increase in payment instruments (banknotes, capital), causing a rise in prices and a depreciation of the currency.
 
-- Definition from Larousse: Inflation is a phenomenon characterized by a generalized and continuous rise in the level of prices. Here, the word "generalized" is crucial.
+- Definition from Larousse encyclopedia: Inflation is a phenomenon characterized by a generalized and continuous rise in the level of prices. Here, the word "generalized" is crucial.
 
 ![image](assets/fr/001.webp)
 
@@ -121,13 +121,13 @@ Monetary devaluation is a tool often used by states to finance their expenses or
 ![image](assets/chapitre-2.1/6.webp)
 Unlike the precious Spanish silver dollar, the Maravedi was a copper currency mainly used within the local population. This currency was targeted for devaluation. When a Maravedis coin was initially worth two maravedises, the state would retrieve it, re-stamp it with a new value, for example, "four", and only return one coin to the owner. The coin, marked with the stamp "eight," is evidence of this process, having undergone several cycles of devaluation.
 
-This strategy allowed the state to effectively devalue a currency, creating inflation and indirectly financing itself, while preserving the integrity of the Spanish dollar on the international stage. However, this targeted devaluation had consequences for the local population, who saw the value of their common currency diluted.
+This strategy allowed the state to effectively devalue a currency, creating inflation and indirectly financing the State, while preserving the integrity of the Spanish dollar on the international stage. However, this targeted devaluation had consequences for the local population, who saw the value of their common currency diluted.
 
 The case of the Maravedis illustrates how a state can selectively devalue a local currency to meet its internal economic needs, while preserving the value of a reserve currency on the global stage. It is a striking example of the complexity and finesse of monetary policy in history.
 
 ![image](assets/fr/007.webp)
 
-More about what? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
+Do you want to know more? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
 #### 4. Price Revolution from the 15th to the 17th Century
 
@@ -190,7 +190,7 @@ In the same spirit, Spain and the Netherlands, as holders of the world reserve c
 
 However, the situation changed with the rise of the United States as the dominant economic power. They chose to devalue their reserve currency, thus exploiting inflation to their advantage. This decision is often attributed to the changed dynamics, where the choice of reserve currency was no longer as free as it had been before. American hegemony established the dollar as the world reserve currency, allowing for manipulation of its value. This shift reveals the potential impact of monetary policies on international trade in a globalized economy, marking a significant transition in the management of global reserve currencies.
 
-### Last example for the road: the Swiss Dinner
+### Last example for the road: the Swiss Dinar
 
 The Swiss Dinar illustrates another fascinating aspect of monetary devaluation, this time anchored in the pre-Gulf War Iraqi context. Named after the notable quality of its banknotes, this currency was issued by the Central Bank of Iraq and enjoyed a reputation for stability in the Middle East region. This confidence was mainly due to the quality of the banknote printing, which was done in England, implying a certain robustness against devaluation.
 
@@ -207,7 +207,7 @@ A distinctive phenomenon emerged in the post-Gulf War Iraqi economy: the dual pr
 The common perception often associates currency with state creation, where its issuance and value are regulated by the state. This concept has its roots in ancient civilizations, such as Rome, where coins were standardized and stamped by the Empire, thereby conferring official value on the currency. However, a deeper exploration reveals that the intrinsic value of currency was mainly derived from its precious metal content.
 
 ![image](assets/fr/016.webp)
-An example is illustrated through the examination of a monetary weight equivalent to eight Spanish reales, or one Spanish dollar. This weight, marked with a Roman numeral indicating its value, was used by currency exchangers to evaluate the value of coins based on their weight, rather than just their stamping. By weighing the coins, the exchangers could determine if they had been altered or damaged, which could have reduced their value. This practice highlights that, although the standardized stamping by the state conferred a certain nominal value to the currency, the true value resided in the weight of the precious metal it contained.
+An example is illustrated through the examination of a monetary weight equivalent to eight Spanish reais, or one Spanish dollar. This weight, marked with a Roman numeral indicating its value, was used by currency exchangers to evaluate the value of coins based on their weight, rather than just their stamping. By weighing the coins, the exchangers could determine if they had been altered or damaged, which could have reduced their value. This practice highlights that, although the standardized stamping by the state conferred a certain nominal value to the currency, the true value resided in the weight of the precious metal it contained.
 
 This analysis demonstrates that trust in currency, and by extension its value, was anchored in its tangible substance rather than the mere assertion of the state. It underscores the duality between the nominal value imposed by the state and the intrinsic value dictated by the content of precious metal. Thus, currency goes beyond being a mere state instrument, with its fundamental value being intrinsically linked to tangible and measurable elements.
 
@@ -245,7 +245,7 @@ Here is a breakdown of the topic into several key points:
   An increase in the money supply, without a corresponding increase in production, leads to inflation, as there is more money in circulation for the same amount of goods and services.
   While the increase in production should have led to deflation, the simultaneous increase in the money supply nullified this effect, resulting in inflation instead.
 
-- Inflation, Deflation, and Money Supply: Communicating Vessels:
+- Inflation, Deflation, and Money Supply - Communicating Vessels:
 
   Inflation and deflation are like communicating vessels in an economy. An increase in production can lead to deflation, but if the money supply is increased simultaneously, the deflationary effect is canceled out, resulting in inflation.
 
@@ -277,7 +277,7 @@ The analysis of Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) also hig
 
 #### Bank and Central Bank Balance Sheets
 
-A third example of why monetary printing would not cause inflation is that the relationship between monetary printing and inflation is modulated by how newly created money is introduced into the economy. If this money remains on the balance sheets of private banks without being lent to economic actors, it will not directly impact the real economy and, therefore, will not result in inflation.
+The third example of why monetary printing would not cause inflation is that the relationship between monetary printing and inflation is modulated by how newly created money is introduced into the economy. If this money remains on the balance sheets of private banks without being lent to economic actors, it will not directly impact the real economy and, therefore, will not result in inflation.
 
 ![image](assets/fr/021.webp)
 
@@ -452,7 +452,7 @@ Common definitions of hyperinflation, such as the one proposed by Phillip D. Cag
 
 - Cagan's work, "Monetary Dynamics of Hyperinflation," provides a fundamental analysis of hyperinflation.
 - Bernholz's book, which studies 30 distinct periods of hyperinflation, thus expanding the scope of analysis.
-- David's personal collection of banknotes from 36 periods of hyperinflation, allowing for a tangible and historical understanding.
+- David St-Onge's (the author of this course) personal collection of banknotes from 36 periods of hyperinflation, allowing for a tangible and historical understanding.
 - The Hanky Cross table (2012 version, updated in 2016 with Venezuela), listing 57 periods of hyperinflation based on Cagan's definition.
 
 It is worth noting that certain historical periods of high inflation are not included in the classic tables of hyperinflation, often due to strict classification criteria. For example, during the American War of Independence in November 1779, and during the American Civil War in March 1864, the monthly inflation rates were 47.4% and 40% respectively. These rates, although high, do not exceed the 50% threshold stipulated by Cagan, thus excluding these periods from being classified as hyperinflation cases. This omission highlights the limitations of rigid definitions and underscores the need for a more nuanced understanding of hyperinflation in its full complexity.
@@ -587,7 +587,7 @@ Weimar: "All crimes against the state, each and every one of them, to varying de
 
 The frantic purchase of foreign currencies has often marked a critical turning point in currency devaluation, exacerbating the fall in intrinsic value.
 
-> Weimar: "Mannheimer, on the instructions of his boss, went out in August 1921 and started buying foreign currencies at any price - 'because Germany had an infinite amount of paper marks but no foreign currencies.' This was the first sign of the absolute collapse in the value of the mark."
+> Weimar: "Fritz Mannheimer, on the instructions of his boss, went out in August 1921 and started buying foreign currencies at any price - 'because Germany had an infinite amount of paper marks but no foreign currencies.' This was the first sign of the absolute collapse in the value of the mark."
 
 > Zimbabwe: It has been alleged that they were given daily targets to meet, as some of the forex requirements were urgent and they would buy at any rate to accumulate forex to meet the deadline. This alleged practice was accused of fueling the fire of devaluation as the value of the Zimbabwean dollar continued its steep decline."
 
@@ -755,7 +755,7 @@ We will now look at different periods of redenomination in Latin American countr
 
 ### Explanation of the graphs
 
-On the slide, on the left, are the years of redenomination, the name of the new currency, and the exchange rate with the old currency. Taking the example of Argentina, the peso moneda nacional was converted at a rate of 25 to 1 from the previous currency, the peso real. In this context, we will examine the evolution of the Argentine currency over time. Additionally, we will indicate the initial and final denominations of banknotes for each period.
+On the slide, on the left, are the years of redenomination, the name of the new currency, and the exchange rate with the old currency. Taking the example of Argentina, the peso moneda nacional was converted at a rate of 25 to 1 from the previous currency, the peso reàl. In this context, we will examine the evolution of the Argentine currency over time. Additionally, we will indicate the initial and final denominations of banknotes for each period.
 
 ![image](assets/fr/052.webp)
 
@@ -767,23 +767,23 @@ After Argentina, our study will cover Brazil, Bolivia, Peru, Nicaragua, and Vene
 
 ![image](assets/fr/052.webp)
 
-Before 1826, Argentina used the Spanish dollar. After its independence in 1816, it introduced its own currency based on the Spanish real, resulting in the creation of a similar currency. The table begins in 1881, the year of the introduction of the "peso moneda nacional," with banknotes available up to 10,000. This was followed by the "peso ley," which was exchanged at a rate of 100 to 1 and featured banknotes up to one million. Then, the "Argentine peso" arrived with an exchange rate of 10,000 to 1 (equivalent to removing four zeros), and banknotes up to 10,000. In 1985, the "australes" was introduced and exchanged at a rate of 1,000 to 1, with banknotes available up to 500,000. In 1992, the current "peso ley" was established at a rate of 10,000 to 1, once again removing four zeros. Only the years 1989 and 1990 experienced hyperinflation.
+Before 1826, Argentina used the Spanish dollar. After its independence in 1816, it introduced its own currency based on the Spanish reàl, resulting in the creation of a similar currency. The table begins in 1881, the year of the introduction of the "peso moneda nacional," with banknotes available up to 10,000. This was followed by the "peso ley," which was exchanged at a rate of 100 to 1 and featured banknotes up to one million. Then, the "Argentine peso" arrived with an exchange rate of 10,000 to 1 (equivalent to removing four zeros), and banknotes up to 10,000. In 1985, the "australes" was introduced and exchanged at a rate of 1,000 to 1, with banknotes available up to 500,000. In 1992, the current "peso ley" was established at a rate of 10,000 to 1, once again removing four zeros. Only the years 1989 and 1990 experienced hyperinflation.
 
 ### Brazil
 
 ![image](assets/fr/053.webp)
 
-Brazil is a notable example of monetary redenomination, as illustrated by its history of currency changes. Before its independence, Brazil used the Portuguese real as its currency. However, as early as 1747, the country began using its own "Brazilian real," long before its declaration of independence in 1822. The table starts in 1818, marking the beginning of the issuance of Brazilian banknotes. Previously, the currency was primarily in the form of coins. These banknotes reached values of up to one million reales.
+Brazil is a notable example of monetary redenomination, as illustrated by its history of currency changes. Before its independence, Brazil used the Portuguese reàl as its currency. However, as early as 1747, the country began using its own "Brazilian reàl," long before its declaration of independence in 1822. The table starts in 1818, marking the beginning of the issuance of Brazilian banknotes. Previously, the currency was primarily in the form of coins. These banknotes reached values of up to one million reais.
 Starting from 1942, Brazil began a series of redenominations. In most cases (1942, 1967, 1986, 1989, 1993), the conversion rate was 1:1,000. In 1990, a name change occurred without conversion. The sequence of these currencies is as follows:
 
 - Réals (old version) until 1942.
 - Cruzeiros in 1942.
 - Cruzeiros (new version) in 1967.
 - Cruzados in 1986.
-- Cruzados Novo in 1989.
+- Cruzados Novos in 1989.
 - Return to Cruzeiros in 1990.
 - Cruzeiros Reais in 1993.
-- Finally, the Brazilian Real in 1994.
+- Finally, the Brazilian reàl in 1994.
 
 The highest denomination bill reached 500,000, and the last redenomination in 1994 was done at a rate of 2,750 to 1. The years 1989 and 1990 were marked by hyperinflation, while 1993-1994 saw high inflation rates that did not reach the threshold of hyperinflation (50% per month). After this tumultuous period, Brazil once again redenominated its currency by removing several zeros.
 
@@ -806,7 +806,7 @@ That is an overview of Bolivia's tumultuous monetary history, marked by periods 
 
 ![image](assets/fr/055.webp)
 
-Peru presents an interesting case regarding the effects of the arbitrary 50% rule. Starting with its monetary history, Peru used Spanish gold until the 19th century, when it declared its independence in 1821. The Peruvian dollar was in use from 1822 to 1863. In 1863, the Peruvian real was replaced by the soldi oro, at a rate of 10 to 1, reaching a maximum value of 50,000. In 1985, the currency "Inti" was introduced with a conversion rate of 1000 to 1, peaking at 5 million. In 1991, the "SOL" was launched with an exchange rate of 1 million to 1, with banknotes ranging from 10 to 200.
+Peru presents an interesting case regarding the effects of the arbitrary 50% rule. Starting with its monetary history, Peru used Spanish gold until the 19th century, when it declared its independence in 1821. The Peruvian dollar was in use from 1822 to 1863. In 1863, the Peruvian reàl was replaced by the soldi oro, at a rate of 10 to 1, reaching a maximum value of 50,000. In 1985, the currency "Inti" was introduced with a conversion rate of 1000 to 1, peaking at 5 million. In 1991, the "SOL" was launched with an exchange rate of 1 million to 1, with banknotes ranging from 10 to 200.
 Examining the redenomination periods, 1988 is considered a year of hyperinflation, especially in September. July-August 1990 also saw a period of hyperinflation. In 1988, the annual inflation rate was 667%, with a peak of 50% in September. In contrast, 1989 experienced an inflation rate of 3000% without any month exceeding 50%, so it was not classified as hyperinflation. In 1990, inflation peaked at 7481%. It is clear that the 50% rule can be arbitrary, as 1988 was considered a year of hyperinflation, unlike 1989. If this rule were reconsidered, it might be wise to lower the threshold to include periods like the one experienced by Peru in 1989.
 
 > Understanding what is happening

@@ -1,0 +1,8 @@
+question: According to Ragnar Lifthasir's critique, what problem do simplistic Bitcoin narratives like 'just HODL' create for the Bitcoin ecosystem?
+answer: They become monomanias that cause users to overlook more important aspects like security and trustless usage
+wrong_answers:
+  - "They encourage excessive trading activity that destabilizes Bitcoin's price and market dynamics"
+  - They create false expectations about guaranteed returns that lead to regulatory scrutiny and intervention
+  - They promote centralized exchange usage that concentrates Bitcoin holdings in custodial services
+explanation: |
+  Lifthasir defines these simplistic narratives as 'monomanias' - an excessive focus on a single idea that causes people to overlook arguably more important considerations. By only focusing on holding Bitcoin, users may neglect critical aspects like proper security practices, self-custody, or using Bitcoin in a trustless manner. The other options, while potentially problematic, are not the specific critique Lifthasir makes about oversimplified Bitcoin messaging.

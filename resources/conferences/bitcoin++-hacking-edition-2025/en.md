@@ -5,36 +5,36 @@ description: bitcoin++ is a developer-focused conference series. We place a heav
 
 # bitcoin++ Stage
 
-## Conference Kickoff | niftynei | bitcoin++ hacking edition | February 2025 | Florianopolis, Brasil
+## Conference Kickoff | niftynei
 
 ![video](https://youtu.be/xLrHs7IyHns)
 
-## Announcement from Vinteum | Lucas Ferreira | bitcoin++ hacking edition | February 2025 | Brasil
+## Announcement from Vinteum | Lucas Ferreira
 
 ![video](https://youtu.be/WQY8E3QJfm8)
 
-## B4OS Updates | Dulce Villarreal | bitcoin++ hacking edition | February 2025 | Florianopolis, Brasil
+## B4OS Updates | Dulce Villarreal
 
 ![video](https://youtu.be/989z4MGBiHI)
 
-## Building grugpool | Stu | bitcoin++ hacking edition | February 2025 | Florianopolis, Brasil
+## Building grugpool | Stu
 
 ![video](https://youtu.be/8ncwa1Zl_JU)
 
-## Build Your Own Coinpool | Super Testnet | bitcoin++ hacking edition | February 2025 | Brasil
+## Build Your Own Coinpool | Super Testnet
 
 ![video](https://youtu.be/Kh4zsFs0Xpc)
 
-## Stable Channels using LDK and Rust | Tony | bitcoin++ hacking edition | February 2025 | Brasil
+## Stable Channels using LDK and Rust | Tony
 
 ![video](https://youtu.be/BMHo4Qqkdrk)
 
-## How BitVM works | Jose Storopoli | bitcoin++ hacking edition | February 2025 | Florianopolis, Brasil
+## How BitVM works | Jose Storopoli
 
 ![video](https://youtu.be/gHoSpAgI7Xk)
 
 
-## NLightning  | Nickolas Goline | bitcoin++ hacking edition | February 2025 | Brasil
+## NLightning  | Nickolas Goline
 
 ![video](https://youtu.be/Dh4XO8mL8Rw)
 

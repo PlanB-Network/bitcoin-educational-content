@@ -13,7 +13,7 @@ objectives:
 
 In diesem Kurs werden wir die Grundlagen von Bitcoin in 25 Kapiteln erklären, damit du diese Technologie auf einfache und effektive Weise verstehen kannst. Der Kurs erforscht die Grundlagen der gesamten Branche, einschließlich Themen wie Mining, Wallets, Kauf-/Verkaufsplattformen und mehr. Während des gesamten Kurses wird zusätzliches Lehrmaterial zur Verfügung stehen. Außerdem laden wir dich ein, nach Abschluss des Kurses die "21 Poster" im Ressourcenbereich anzusehen.
 
-Du brauchst keine besonderen Vorkenntnisse, um loszulegen. Die folgenden Inhalte sind für Schüler aller Niveaus geeignet und sollten in etwa 15 Stunden abgeschlossen sein.
+Es sind keine Vorkenntnisse erforderlich, um diesen Kurs zu beginnen. BTC 101 wurde so konzipiert, dass er für alle zugänglich ist, unabhängig von Ihrem Erfahrungsstand.
 
 +++
 
@@ -1169,6 +1169,10 @@ Darüber hinaus gibt es mehrere [Marktplätze](https://planb.network/tutorials/e
 ![image](assets/de/076.webp)
 
 Abschließend sei darauf hingewiesen, dass die steuerlichen Verpflichtungen je nach Land variieren können. Wir empfehlen dir daher dringend, dich über die Vorschriften deines Landes zu informieren, bevor du Maßnahmen ergreifst, die dich einem Risiko aussetzen könnten.
+
+Wenn Sie Ihr Wissen über Strategien zum Kauf, zur Nutzung und zur Sicherung Ihrer Bitcoins vertiefen möchten, empfehle ich Ihnen dringend, im Anschluss an diesen Kurs den Kurs **BTC 102** zu absolvieren. Dort entdecken Sie unter anderem Empfehlungen für Werkzeuge, die an Ihr Profil, Ihre Bedürfnisse und Ihre persönlichen Ziele angepasst sind:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-Bitcoinisierung
 

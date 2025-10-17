@@ -3,7 +3,7 @@ answer: Proveravajući da generisani tag odgovara onom koji je poslao Bob
 wrong_answers:
   - Dešifrovanjem poruke da se vidi da li je čitljiva
   - Upoređivanjem veličine poruke i veličine oznake
-  - Verifikacijom IP adrese pošiljaoca Address
+  - Verifikacijom IP adrese pošiljaoca
 explanation: |
-  Alice koristi deljeni tajni ključ da generate oznaku iz primljene poruke. Ako se ova oznaka poklapa sa onom koju je poslao Bob, ona zna da je poruka autentična i netaknuta.
-reviewed: false
+  Alisa koristi deljeni tajni ključ da generiše oznaku iz primljene poruke. Ako se ova oznaka poklapa sa onom koju je poslao Bob, ona zna da je poruka autentična i netaknuta.
+reviewed: true

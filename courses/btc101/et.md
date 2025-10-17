@@ -13,7 +13,7 @@ objectives:
 
 Selles kursuses selgitame 25 peatükis Bitcoini põhitõdesid, et saaksite seda tehnoloogiat lihtsalt ja tõhusalt mõista. Kursus uurib kogu valdkonna põhitõdesid, sealhulgas selliseid teemasid nagu kaevandamine, rahakotid, ostu-/müügiplatvormid ja palju muud. Täiendavad õppematerjalid on kogu teekonna jooksul kättesaadavad ning kutsume teid üles vaatama ka "21 plakatit", mis asuvad ressursside rubriigis pärast selle kursuse lõpetamist.
 
-Alustamiseks ei ole vaja mingeid eriteadmisi. Tegelikult on järgmine sisu kättesaadav kõigi tasemete õpilastele ja selle läbimiseks peaks kuluma umbes 15 tundi.
+Selle kursuse alustamiseks ei ole vaja eelnevaid teadmisi. BTC 101 on loodud kõigile kättesaadavaks, sõltumata teie kogemuste tasemest.
 
 +++
 
@@ -1170,6 +1170,10 @@ Lisaks on olemas mitu [turuplatsi](https://planb.network/tutorials/exchange), ku
 ![image](assets/et/076.webp)
 
 Lõpuks on oluline märkida, et maksukohustused võivad sõltuvalt jurisdiktsioonist erineda, seega soovitame teil tungivalt konsulteerida oma riigi eeskirjadega enne mis tahes meetmete võtmist, mis võivad teid ohtu seada.
+
+Kui soovite süvendada oma teadmisi bitcoini ostmise, kasutamise ja turvamise strateegiate kohta, soovitan tungivalt läbida kursuse **BTC 102** pärast seda kursust. Seal avastate muu hulgas tööriistasoovitusi, mis sobivad teie profiili, vajaduste ja isiklike eesmärkidega:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 

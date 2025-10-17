@@ -4988,18 +4988,18 @@ Bir dosyada bulunan tüm meta verileri görüntülemek için aşağıdaki komutu
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Name.jpg` yerine dosyanızın gerçek adını yazın. Ayrıca bu resmi içeren dizinde konumlandığınızdan emin olun. Örneğin, `/Downloads` dizininde Satoshi Nakamoto heykelinin bir fotoğrafı varsa, aşağıdaki komutu çalıştırarak meta verilerini görüntüleyebilirim:
+Name.webp` yerine dosyanızın gerçek adını yazın. Ayrıca bu resmi içeren dizinde konumlandığınızdan emin olun. Örneğin, `/Downloads` dizininde Satoshi Nakamoto heykelinin bir fotoğrafı varsa, aşağıdaki komutu çalıştırarak meta verilerini görüntüleyebilirim:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -5036,7 +5036,7 @@ Bir dosyadaki tüm gereksiz meta verileri silmek için şu komutu kullanın:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5058,7 +5058,7 @@ Orijinali saklamak istemiyorsanız, komutla silebilirsiniz:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5082,12 +5082,12 @@ Aynı dizinde işlenecek birden fazla dosyanız varsa, aşağıdaki gibi genel b
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Bu, geçerli dizindeki tüm JPEG dosyalarının meta verilerini siler. Uzantıyı ihtiyaçlarınıza göre uyarlayabilirsiniz (`*.png`, `*.pdf`...).
+Bu, geçerli dizindeki tüm JPEG dosyalarının meta verilerini siler. Uzantıyı ihtiyaçlarınıza göre uyarlayabilirsiniz (`*.webp`, `*.pdf`...).
 
 
 

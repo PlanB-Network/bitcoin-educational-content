@@ -2,24 +2,19 @@
 name: Bitcoin for Businesses
 goal: Learn the payment and treasury basics to onboard your company to Bitcoin
 objectives:
-  - Bitcoin as an emerging currency and a business tool
-  - Understand why and how a business can hold bitcoin in treasury or use it for payments
-  - Have a concrete idea of how to accept Bitcoin payment in practice
-  - Be prepared for managing fiscal and accounting requirements
+- Discover Bitcoin as an emerging currency and a business tool
+- Understand why and how a business can hold bitcoin in treasury or use it for payments
+- Have a concrete idea of how to accept Bitcoin payment in practice
+- Be prepared for managing fiscal and accounting requirements
 ---
-
 # Kickstart your company’s journey on the Bitcoin network
 
-Discover the practical capabilities of the Bitcoin and Lightning Network, and explore how, much like the internet, they can **transform your business operations**. From digital capital to fast, economical, and scalable payments, Bitcoin offers a vast spectrum of **use cases for businesses**.
+Discover the practical capabilities of the Bitcoin and Lightning Network, and explore how, much like the internet, they can transform your business operations. From treasury to fast, economical, and scalable payments, Bitcoin offers a vast spectrum of use cases for businesses.
 
-Throughout this guide, you will learn how to understand Bitcoin as a global, universal, and internet-native monetary network. With its unique fundamental characteristics, **Bitcoin offers significant improvements over traditional currency networks**. You'll discover why and how to leverage Bitcoin for classic financial use cases such as capital storage and payment systems. Additionally, this guide will cover acquiring and holding Bitcoin, including the associated accounting and fiscal requirements, as well as implementing simple or large-scale Bitcoin payment solutions.
+Throughout this course, you will learn how to understand Bitcoin as a global, universal, and internet-native monetary network. With its unique fundamental characteristics, Bitcoin offers significant improvements over traditional currency. You'll discover why and how to leverage Bitcoin for classic financial use cases such as capital storage and payment systems. Additionally, this course will cover acquiring and holding Bitcoin, including the associated accounting and fiscal requirements, as well as implementing simple or large-scale Bitcoin payment solutions.
 
-Whether you're a **small business or a large corporation**, integrating Bitcoin into your daily operations can make your company more **resilient, productive, and competitive**. Every internet-based company will become a Bitcoin-oriented company, and this course ensures you are prepared. The initial sections recap the fundamentals of Bitcoin’s operation, so even if you’re a beginner, you’ll gain the foundational knowledge needed to proceed. Learning the basics of Satoshi's invention is always a good idea, whether before or after diving into BIZ101.
-
+Whether you're a small business or a large corporation, integrating Bitcoin into your daily operations can make your company more resilient, productive, and competitive. Every internet-based company will become a Bitcoin-oriented company, and this course ensures you are prepared.
 +++
-
-
-
 # Introduction
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>

@@ -1,0 +1,8 @@
+question: What critical limitation of mobile app ecosystems did the original Breeze app reveal that influenced the development of the SDK architecture?
+answer: Mobile apps cannot easily communicate with each other, forcing developers to build all Lightning features into single applications rather than sharing Lightning infrastructure
+wrong_answers:
+  - Mobile devices lack sufficient computational power to run Lightning nodes reliably, requiring cloud-based infrastructure to handle complex routing calculations
+  - Mobile operating systems restrict background processes too severely, preventing Lightning nodes from maintaining persistent connections to the network
+  - Mobile app stores prohibit non-custodial financial applications, forcing developers to implement custodial solutions to achieve app store approval
+explanation: |
+  The original Breeze app demonstrated that mobile ecosystems don't facilitate inter-app communication, preventing specialized applications from leveraging shared Lightning infrastructure. This architectural limitation forced all Lightning functionality into monolithic applications. The other options are incorrect: mobile devices can run Lightning nodes (as Breeze proved), background restrictions are manageable with proper architecture, and app stores generally allow non-custodial financial apps.

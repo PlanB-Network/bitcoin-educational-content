@@ -1,14 +1,11 @@
 ---
-name: 이론에서 실무까지, RGB 프로토콜
+name: RGB 프로그래밍
 goal: RGB을 이해하고 사용하는 데 필요한 기술을 습득하세요
-objectives: 
-
-  - RGB 프로토콜의 기본 개념 이해하기
-  - Client-side Validation 및 Bitcoin 약속의 원칙 마스터하기
-  - RGB 계약 생성, 관리 및 이전 방법 알아보기
-  - RGB 호환 라이트닝 노드 작동 방법
-
-
+objectives:
+- RGB 프로토콜의 기본 개념 이해하기
+- Client-side Validation 및 Bitcoin 약속의 원칙 마스터하기
+- RGB 계약 생성, 관리 및 이전 방법 알아보기
+- RGB 호환 라이트닝 노드 작동 방법
 ---
 # RGB 프로토콜 알아보기
 

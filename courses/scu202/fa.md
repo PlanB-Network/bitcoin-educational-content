@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-`name.jpg` را با نام واقعی فایل خود جایگزین کنید. همچنین مطمئن شوید که در دایرکتوری حاوی این تصویر قرار دارید. به عنوان مثال، اگر عکسی از مجسمه Satoshi Nakamoto در دایرکتوری `/Downloads` داشته باشم، می‌توانم با اجرای فرمان زیر، متادیتای آن را نمایش دهم:
+`name.webp` را با نام واقعی فایل خود جایگزین کنید. همچنین مطمئن شوید که در دایرکتوری حاوی این تصویر قرار دارید. به عنوان مثال، اگر عکسی از مجسمه Satoshi Nakamoto در دایرکتوری `/Downloads` داشته باشم، می‌توانم با اجرای فرمان زیر، متادیتای آن را نمایش دهم:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-این دستور فراداده‌های تمام فایل‌های JPEG در دایرکتوری فعلی را حذف می‌کند. می‌توانید پسوند را برای نیازهای خود تطبیق دهید (`*.png`, `*.pdf`...).
+این دستور فراداده‌های تمام فایل‌های JPEG در دایرکتوری فعلی را حذف می‌کند. می‌توانید پسوند را برای نیازهای خود تطبیق دهید (`*.webp`, `*.pdf`...).
 
 
 

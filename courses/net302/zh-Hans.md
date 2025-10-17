@@ -138,7 +138,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/zh-Hans/001.webp)
 
 
 
@@ -152,7 +152,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/zh-Hans/002.webp)
 
 
 
@@ -166,7 +166,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/zh-Hans/003.webp)
 
 
 
@@ -180,7 +180,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/zh-Hans/004.webp)
 
 
 
@@ -197,7 +197,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/zh-Hans/005.webp)
 
 
 
@@ -263,7 +263,7 @@ TCP/IP 模型的四个层次是
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/zh-Hans/006.webp)
 
 
 
@@ -390,7 +390,7 @@ IP 数据报的理论最大大小为**65,536 个字节**，这一限制由报头
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/zh-Hans/007.webp)
 
 
 
@@ -431,7 +431,7 @@ IP 数据报的理论最大大小为**65,536 个字节**，这一限制由报头
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/zh-Hans/008.webp)
 
 
 
@@ -442,7 +442,7 @@ IP 数据报的理论最大大小为**65,536 个字节**，这一限制由报头
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/zh-Hans/009.webp)
 
 
 
@@ -456,7 +456,7 @@ IP 数据报的理论最大大小为**65,536 个字节**，这一限制由报头
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/zh-Hans/010.webp)
 
 
 
@@ -507,7 +507,7 @@ IP Address 有两个部分：
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/zh-Hans/011.webp)
 
 
 
@@ -585,7 +585,7 @@ IP Address 有两个部分：
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/zh-Hans/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP 是一种面向连接的协议，这意味着它在客户端和服务器之�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/zh-Hans/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCP 是一种面向连接的协议，这意味着它在客户端和服务器之�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/zh-Hans/014.webp)
 
 
 
@@ -711,7 +711,7 @@ TCP 能够检测和处理重复数据。如果重新传输的数据段到达，�
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/zh-Hans/015.webp)
 
 
 
@@ -734,7 +734,7 @@ TCP 能够检测和处理重复数据。如果重新传输的数据段到达，�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/zh-Hans/016.webp)
 
 
 
@@ -751,7 +751,7 @@ TCP 能够检测和处理重复数据。如果重新传输的数据段到达，�
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/zh-Hans/017.webp)
 
 
 
@@ -791,7 +791,7 @@ TCP 和 UDP 之间的这种互补性使现代网络能够适应各种需求，�
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/zh-Hans/018.webp)
 
 
 
@@ -800,7 +800,7 @@ TCP 和 UDP 之间的这种互补性使现代网络能够适应各种需求，�
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/zh-Hans/019.webp)
 
 
 
@@ -836,7 +836,7 @@ TCP 和 UDP 之间的这种互补性使现代网络能够适应各种需求，�
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/zh-Hans/020.webp)
 
 
 
@@ -896,7 +896,7 @@ IP 地址的分配主要有两种方式：
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hans/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - MAC Address 可视化示例：
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/zh-Hans/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - IP Address 可视化示例：
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hans/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ NAT 背后的原理很简单，但却非常有效：不是为内部网络上的�
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/zh-Hans/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ NAT 可以通过不同方式实现，以满足特定需求。两种主要的操�
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/zh-Hans/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/zh-Hans/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ IPv6 本地网络系统地将 Address 分成两个部分：
 下面举例说明如何将 MAC Address 转换为 EUI-64：
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/zh-Hans/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 该报头（如果存在）总是紧跟在基本报头之后。它包含的信息必须由数据包路径上的每个路由器处理，而不像大多数其他报头，通常只由目的节点处理。典型的用途包括在数据包通过网络时发出全局参数信号或请求特定的处理步骤。
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/zh-Hans/028.webp)
 
 
 #### 路由标头
@@ -2117,7 +2117,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 剩余航段 "字段从剩余航段总数开始，每跳递减一个。
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/zh-Hans/029.webp)
 
 
 #### 碎片头
@@ -2134,7 +2134,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 - **M 标志**：表示后面是否有更多片段。
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/zh-Hans/030.webp)
 
 
 #### 验证标头（AH）
@@ -2146,7 +2146,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 如果试图进行欺诈性修改，验证码将不再匹配，数据报可能会被拒绝。这种机制还能通过检测未经授权的复制来防止重放攻击。
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/zh-Hans/031.webp)
 
 
 #### 目的地选项标头
@@ -2158,7 +2158,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 最初，协议中没有定义这样的选项。不过，在设计 IPv6 时引入了这个报头，以便在不修改整个数据包结构的情况下添加未来扩展。例如，空选项仅用于将报头填充为 8 字节的倍数，以便内存对齐。
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/zh-Hans/032.webp)
 
 
 IPv6 数据包的设计基于最小基本报头和模块化扩展报头之间的明确分离。这种架构既能确保标准的处理性能，又能确保协议发展所需的灵活性，还能集成安全性、复杂的路由选择或服务质量机制，同时保持与未来基础设施的兼容性。
@@ -2504,7 +2504,7 @@ Wireshark 适用于许多操作系统，包括 Linux 和 Windows。安装时需�
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/zh-Hans/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/zh-Hans/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/zh-Hans/035.webp)
 
 
 

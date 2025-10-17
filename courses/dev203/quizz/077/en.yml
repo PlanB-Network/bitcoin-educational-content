@@ -1,0 +1,8 @@
+question: What happens when you call lock() on a mutex in Rust and why do many developers consider it acceptable to unwrap this operation?
+answer: It returns a Result that can fail if another thread panicked while holding the mutex, and unwrapping is acceptable because you cannot reasonably handle errors from other threads' panics
+wrong_answers:
+  - It returns an Option that can be None if the mutex is busy, and unwrapping is acceptable because busy mutexes should cause immediate program termination
+  - It returns a Result that can fail due to deadlock detection, and unwrapping is acceptable because deadlocks indicate fundamental design flaws that should panic
+  - It always succeeds and returns the lock guard directly, making unwrapping unnecessary since mutex operations are guaranteed to be thread-safe in Rust
+explanation: |
+  When calling lock() on a mutex, Rust returns a Result because the operation can fail if another thread panicked while holding the mutex, leaving it in a poisoned state. This creates a unique situation where your local code receives an error for something that happened in a completely different thread's context. Since you cannot reasonably handle or recover from an error that originated from another thread's panic, many developers consider it acceptable to unwrap mutex locks, especially in panic-free codebases. The other options are incorrect because mutexes don't return Options for busy states, don't have built-in deadlock detection that causes Result failures, and the operation doesn't always succeed due to the poison mechanism.

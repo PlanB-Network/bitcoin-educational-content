@@ -1,5 +1,5 @@
 ---
-name: Kho bí danh
+name: Alias Vault
 description: Công cụ mạnh mẽ để quản lý mật khẩu, xác thực hai yếu tố và bí danh (có máy chủ email tích hợp) - Cũng tự lưu trữ!
 ---
 

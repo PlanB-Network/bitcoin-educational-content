@@ -1,0 +1,8 @@
+question: Why did the Lipa team choose LDK over building from scratch or using LND for their mobile Lightning wallet implementation?
+answer: LDK's modular Rust crate architecture provided necessary flexibility for mobile deployment while offering battle-tested Lightning logic without the resource overhead of complete node solutions
+wrong_answers:
+  - LDK provided complete out-of-the-box payment history functionality and automatic blockchain synchronization that other approaches lacked
+  - LDK was the only Lightning implementation that supported automatic channel creation and non-custodial architecture required for mobile wallets
+  - LDK offered superior performance and lower latency compared to LND while providing the same level of completeness as building from scratch
+explanation: |
+  The Lipa team chose LDK because its modular design allowed them to integrate only necessary Lightning functionality while maintaining control over mobile-specific optimizations. Unlike building from scratch (which would be extremely resource-intensive given Lightning's complexity) or using LND (designed as a complete server solution with high resource requirements), LDK's Rust crate architecture provided the perfect balance of proven Lightning logic with implementation flexibility. The wrong answers incorrectly suggest LDK provided complete solutions for payment history and synchronization (which it doesn't), was the only option supporting their requirements (LND also supports these features), or offered performance advantages over building custom solutions.

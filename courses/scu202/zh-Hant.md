@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-將 `name.jpg` 改為您檔案的真實名稱。同時確定您的位置是在包含此影像的目錄中。例如，如果我在 `/Downloads` 目錄下有一張 Satoshi Nakamoto 雕像的照片，我可以執行以下指令來顯示它的 metadata：
+將 `name.webp` 改為您檔案的真實名稱。同時確定您的位置是在包含此影像的目錄中。例如，如果我在 `/Downloads` 目錄下有一張 Satoshi Nakamoto 雕像的照片，我可以執行以下指令來顯示它的 metadata：
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-這會刪除目前目錄中所有 JPEG 檔案的 metadata。您可以根據需要調整副檔名 (`*.png`、`*.pdf`...)。
+這會刪除目前目錄中所有 JPEG 檔案的 metadata。您可以根據需要調整副檔名 (`*.webp`、`*.pdf`...)。
 
 
 

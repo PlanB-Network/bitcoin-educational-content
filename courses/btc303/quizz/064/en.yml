@@ -1,0 +1,8 @@
+question: According to the trade-off between throughput and decentralization discussed by Gregory Maxwell, what happens when Bitcoin blockchain's resource usage becomes too great relative to available technology?
+answer: Bitcoin loses competitive advantages compared to legacy systems because validation becomes too costly, pricing out many users and forcing trust back into the system
+wrong_answers:
+  - Bitcoin becomes more secure because only the most dedicated users with powerful hardware can participate in validation, creating a stronger network
+  - Bitcoin automatically adjusts its difficulty algorithm to reduce resource requirements and maintain the same level of decentralization across all participants
+  - Bitcoin splits into multiple parallel chains to distribute the computational load while maintaining the same security guarantees for all users
+explanation: |
+  Maxwell identified a fundamental trade-off where excessive resource requirements push users toward trusted third parties rather than independent validation. When validation costs become prohibitive, users can't afford to run full nodes and must rely on others, undermining Bitcoin's trustless nature. The wrong answers incorrectly suggest beneficial outcomes (increased security, automatic adjustments, or maintained guarantees) when high resource usage actually forces centralization and trust dependencies.

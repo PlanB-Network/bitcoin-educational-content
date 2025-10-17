@@ -1,22 +1,19 @@
 ---
 name: Bitkoin za preduzeća
 goal: Naučite osnove plaćanja i čuvanja vrednosti kako biste integrisali svoju kompaniju sa Bitkoinom
-objectives: 
-
-  - Bitkoin kao nova valuta i poslovni alat
-  - Razumeti zašto i kako preduzeće može držati Bitkoin u trezoru ili ga koristiti za plaćanja
-  - Imati konkretnu ideju kako praktično prihvatiti Bitkoin kao način plaćanja
-  - Budite spremni za upravljanje fiskalnim i računovodstvenim zahtevima
-
+objectives:
+- Otkrijte Bitcoin kao valutu u nastajanju i poslovni alat
+- Razumite zašto i kako preduzeće može držati bitcoin u blagajni ili ga koristiti za plaćanja
+- Imajte konkretnu ideju o tome kako prihvatiti Bitcoin plaćanje u praksi
+- Budite spremni za upravljanje fiskalnim i računovodstvenim zahtevima
 ---
-# Pokrenite putovanje Vaše kompanije na Bitkoin mreži
+# Pokrenite put vaše kompanije na Bitcoin mreži
 
-Otkrijte praktične mogućnosti Bitkoin i Lightning mreže, i istražite kako, slično internetu, mogu **transformisati vaše poslovne operacije**. Od digitalnog kapitala do brzih, ekonomičnih i skalabilnih plaćanja, Bitkoin nudi širok spektar **upotreba za preduzeća**.
+Otkrijte praktične mogućnosti Bitcoin i Lightning mreže i istražite kako one, slično internetu, mogu transformisati vaše poslovne operacije. Od trezora do brzih, ekonomičnih i skalabilnih plaćanja, Bitcoin nudi širok spektar slučajeva upotrebe za preduzeća.
 
-Kroz ovaj vodič, naučićete kako da razumete Bitkoin kao globalnu, univerzalnu i internet-prirodnu monetarnu mrežu. Sa svojim jedinstvenim fundamentalnim karakteristikama, **Bitkoin pruža značajna poboljšanja u odnosu na tradicionalne valutne mreže**. Otkrićete zašto i kako iskoristiti Bitkoin za klasične finansijske slučajeve upotrebe kao što su skladištenje kapitala i platni sistemi. Pored toga, ovaj vodič će pokriti sticanje i držanje Bitkoina, uključujući povezane računovodstvene i fiskalne zahteve, kao i implementaciju jednostavnih ili velikih Bitkoin platnih rešenja.
+Tokom ovog kursa, naučićete kako da razumete Bitcoin kao globalnu, univerzalnu i internet-izvornu monetarnu mrežu. Sa svojim jedinstvenim fundamentalnim karakteristikama, Bitcoin nudi značajna poboljšanja u odnosu na tradicionalnu valutu. Otkrijte zašto i kako da iskoristite Bitcoin za klasične finansijske slučajeve upotrebe kao što su skladištenje kapitala i sistemi plaćanja. Dodatno, ovaj kurs će pokriti sticanje i držanje Bitcoina, uključujući povezane računovodstvene i fiskalne zahteve, kao i implementaciju jednostavnih ili velikih Bitcoin rešenja za plaćanje.
 
-Bilo da ste **mala firma ili velika korporacija**, integracija Bitkoin u Vaše svakodnevne operacije može učiniti Vašu kompaniju **otpornijom, produktivnijom i konkurentnijom**. Svaka internet-bazirana kompanija postat će kompanija orijentisana na Bitkoin, a ovaj kurs osigurava da ste spremni. Početni delovi kursa obuhvataju osnove funkcionisanja Bitkoina, tako da čak i ako ste početnik, steći ćete osnovno znanje potrebno za nastavak. Učenje osnova Satošijevog izuma je uvek dobra ideja, bilo pre ili nakon što se upustite u BIZ101.
-
+Bilo da ste malo preduzeće ili velika korporacija, integracija Bitcoina u vaše svakodnevne operacije može učiniti vašu kompaniju otpornijom, produktivnijom i konkurentnijom. Svaka kompanija bazirana na internetu postaće kompanija orijentisana na Bitcoin, i ovaj kurs osigurava da ste spremni.
 +++
 # Uvod
 

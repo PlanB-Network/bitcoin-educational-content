@@ -8,25 +8,25 @@ description: Hoe kan ik mijn docentenprofiel op Plan ₿ Network toevoegen of wi
 Als je van plan bent bij te dragen aan Plan ₿ Network door een nieuwe tutorial of cursus te schrijven, heb je een docentprofiel nodig. Met dit profiel ontvang je de juiste credits voor de inhoud die je bijdraagt aan het platform.
 
 
-Voor degenen die al betrokken zijn geweest bij het maken van educatieve inhoud op Plan ₿ Network, heb je waarschijnlijk al een docentenprofiel. Je kunt het vinden in de `/professors` map [op onze GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Als je profiel al bestaat, vind dan je login in het `professor.yml` bestand.
+Voor degenen die al betrokken zijn geweest bij het maken van educatieve inhoud op Plan ₿ Network, heb je waarschijnlijk al een docentenprofiel. Je kunt het vinden in de `/professors` map [op onze GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Als je profiel al bestaat, dan vind je je login in het `professor.yml` bestand.
 
 
-Om je profiel te wijzigen, ga je naar het gedeelte "Je lerarenprofiel bewerken" aan het einde van deze handleiding.
+Om je profiel te wijzigen, ga je naar het gedeelte "Je docentenprofiel bewerken" aan het einde van deze tutorial.
 
 
-## Voeg een nieuwe leraar toe met onze software
+## Voeg een nieuwe docent toe met onze software
 
 
-De makkelijkste manier om je leraarsprofiel op Plan ₿ Network aan te maken is door onze geïntegreerde Python-tool te gebruiken. Dit is hoe het werkt.
+De makkelijkste manier om je docentenprofiel op Plan ₿ Network aan te maken is door onze geïntegreerde Python-tool te gebruiken. Dit is hoe het werkt.
 
 
 ### 1 - Uw lokale omgeving configureren
 
 
-Je moet je eigen Fork hebben van [Plan ₿ Network repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Je moet je eigen fork hebben van [Plan ₿ Network repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
-Synchroniseer de hoofdbranch (`dev`) van je Fork met het bronrepository.
+Synchroniseer de hoofdbranch (`dev`) van je fork met het bronrepository.
 
 
 Werk je lokale kloon bij.
@@ -49,13 +49,13 @@ git push origin dev
 ```
 
 
-### 2 - Maak een nieuwe tak
+### 2 - Maak een nieuwe branch
 
 
 Zorg ervoor dat je op de `dev` branch zit. Maak een nieuwe branch aan met een beschrijvende naam (bijv. `add-professor-loic-morel`).
 
 
-Publiceer deze tak op je Fork online.
+Publiceer deze branch op je fork online.
 
 
 ```bash
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-Eenmaal op de startpagina, voer je het lokale pad naar je repositorykloon in, de taal waarin je schrijft en je GitHub ID. Als je dit profiel voor iemand anders aanmaakt en al een Professor's profiel hebt, voer dan je ID in het "*PBN Professor's ID*" veld in. Als je je eigen profiel aanmaakt, zul je nog geen Professor's ID hebben, omdat je bezig bent er een aan te maken, dus laat dit veld leeg.
+Eenmaal op de startpagina, voer je het lokale pad naar je repositorykloon in, de taal waarin je schrijft en je GitHub ID. Als je dit profiel voor iemand anders aanmaakt en al een Professor's profiel hebt, voer dan je ID in het "*PBN Professor's ID*" veld in. Als je je eigen profiel aanmaakt, dan zul je nog geen Professor's ID hebben, omdat je bezig bent er een aan te maken, dus laat dit veld leeg.
 
 
 Klik dan op de knop "*New Professor*".
@@ -101,22 +101,22 @@ Vul de vereiste informatie in (merk op dat al deze informatie openbaar zal zijn 
 
 
 
-- Naam van je lerarendossier (gebruik je voor- en achternaam of een pseudoniem, in kleine letters) ;
+- Naam van je docentendossier (gebruik je voor- en achternaam of een pseudoniem, in kleine letters) ;
 - Je naam of bijnaam ;
-- Je website en profiel X (optioneel) ;
+- Je website en profiel op X (optioneel) ;
 - Een Lightning Address om donaties van lezers te ontvangen (optioneel) ;
 - Selecteer 2 of 3 tags uit de lijst;
 - Klik op "*Select Image*" om een profielafbeelding te kiezen uit je lokale mappen (je kunt elke naam en formaat voor de afbeelding gebruiken en de software past deze automatisch aan. Zorg ervoor dat de afbeelding vierkant is);
 - Schrijf een korte beschrijving van je profiel.
 
 
-Rond het aanmaken af door op "*Create Professor*" te klikken. Dit zal automatisch alle benodigde bestanden voor je profiel generate maken.
+Rond het aanmaken af door op "*Create Professor*" te klikken. Dit zal automatisch alle benodigde bestanden aanmaken voor je profiel.
 
 
 ![Image](assets/fr/02.webp)
 
 
-Sla je wijzigingen lokaal op door een commit aan te maken met een verklarende boodschap. Push de wijzigingen naar je Fork GitHub.
+Sla je wijzigingen lokaal op door een commit aan te maken met een verklarende boodschap. Push de wijzigingen naar je fork GitHub.
 
 
 ```bash
@@ -144,16 +144,16 @@ git push origin add-professor-loic-morel
 ```
 
 
-Als de PR samengevoegd is, kun je je werktak verwijderen.
+Als de PR samengevoegd is, kun je je werk branch verwijderen.
 
 
 ## Je docentenprofiel aanpassen
 
 
-Als je het gebruik van Git onder de knie hebt, pas dan je leraarsprofiel aan door een nieuwe branch aan te maken en het relevante bestand direct in je bestaande map te bewerken. Wijzigingen kunnen worden gemaakt in het `professor.yml` bestand of in het markdown bestand, afhankelijk van de informatie die gecorrigeerd moet worden. Als je je wijzigingen lokaal hebt gemaakt, push ze dan naar je Fork en dien een PR in.
+Als je het gebruik van Git onder de knie hebt, pas dan je leraarsprofiel aan door een nieuwe branch aan te maken en het relevante bestand direct in je bestaande map te bewerken. Wijzigingen kunnen worden gemaakt in het `professor.yml` bestand of in het markdown bestand, afhankelijk van de informatie die gecorrigeerd moet worden. Als je je wijzigingen lokaal hebt gemaakt, push ze dan naar je fork en dien een PR in.
 
 
-Voor beginners raad ik aan om de wijziging direct via GitHub's Interface web te doen. Zorg ervoor dat je een GitHub account hebt. Als je niet weet hoe je er een moet aanmaken, volg dan deze tutorial:
+Voor beginners raad ik aan om de wijziging direct via GitHub's web interface te doen. Zorg ervoor dat je een GitHub account hebt. Als je niet weet hoe je er een moet aanmaken, volg dan deze tutorial:
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
@@ -169,7 +169,7 @@ Klik op de map "*professors*" en ga dan naar je persoonlijke map.
 ![Image](assets/fr/04.webp)
 
 
-Om de metadata van je profiel te wijzigen, zoals Bliksem Address, naam of links, selecteer je het bestand "*professor.yml*". Om je beschrijving te wijzigen, klik je op het YAML-bestand voor jouw taal (bv. "*en.yml*" of "*fr.yml*").
+Om de metadata van je profiel te wijzigen, zoals Lightning adres, naam of links, selecteer je het bestand "*professor.yml*". Om je beschrijving te wijzigen, klik je op het YAML-bestand voor jouw taal (bv. "*en.yml*" of "*fr.yml*").
 
 
 Als je je beschrijving aanpast, vergeet dan niet om alle verouderde vertalingen te verwijderen. Dan kun je ofwel zelf zorgen voor het vertalen van je beschrijving in de andere talen met de hulp van een LLM, of alleen de beschrijving in je moedertaal laten staan en in je Pull Request vermelden dat je beschrijving door ons team vertaald moet worden.
@@ -178,25 +178,25 @@ Als je je beschrijving aanpast, vergeet dan niet om alle verouderde vertalingen 
 ![Image](assets/fr/05.webp)
 
 
-Klik op het potloodpictogram in het bestand dat u wilt wijzigen.
+Klik op het potloodpictogram in het bestand dat je wilt wijzigen.
 
 
 ![Image](assets/fr/06.webp)
 
 
-Als je nog geen Fork van het Plan ₿ Network repository hebt, zal GitHub voorstellen dat je er een aanmaakt. Klik op "*Fork this repository*".
+Als je nog geen fork van het Plan ₿ Network repository hebt, zal GitHub voorstellen dat je er een aanmaakt. Klik op "*Fork this repository*".
 
 
 ![Image](assets/fr/07.webp)
 
 
-Breng de gewenste wijzigingen aan in het bestand. Klik op "*Wijzigingen vastleggen*" als je klaar bent.
+Breng de gewenste wijzigingen aan in het bestand. Klik op "*Commit changes*" (Wijzigingen vastleggen) als je klaar bent.
 
 
 ![Image](assets/fr/08.webp)
 
 
-Voer een bericht in waarin je je wijziging beschrijft en selecteer vervolgens "*Wijzigingen voorstellen*".
+Voer een bericht in waarin je je wijziging beschrijft en selecteer vervolgens "*Propose changes*" (Wijzigingen voorstellen).
 
 
 ![Image](assets/fr/09.webp)
@@ -205,22 +205,22 @@ Voer een bericht in waarin je je wijziging beschrijft en selecteer vervolgens "*
 Een samenvatting van je wijzigingen wordt weergegeven. Als je nog meer wijzigingen in je profiel wilt aanbrengen, kun je teruggaan naar de mappen en nog meer commits doen. Als je klaar bent, klik je op "*Create pull request*".
 
 
-Een Pull Request is een verzoek om wijzigingen van jouw branch te integreren in de hoofdbranch van het Plan ₿ Network repository, zodat wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
+Een Pull Request is een verzoek om wijzigingen van jouw branch te integreren in de hoofdbranch van de Plan ₿ Network repository, zodat wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Zorg ervoor, bovenaan Interface, dat je werktak samengevoegd is met de `dev` tak van het Plan ₿ Network repository (dat is de hoofd tak).
+Zorg ervoor, bovenaan het scherm, dat je werk branch samengevoegd is met de `dev` branch van de Plan ₿ Network repository (dat is de hoofd branch).
 
 
-Voer een titel in die kort de wijzigingen samenvat die je wilt samenvoegen met het bron repository. Voeg een korte opmerking toe die deze wijzigingen beschrijft en klik dan op de Green "*Create pull request*" knop om het pull request te bevestigen:
+Voer een titel in die kort de wijzigingen samenvat die je wilt samenvoegen met de bron repository. Voeg een korte opmerking toe die deze wijzigingen beschrijft en klik dan op de groene knop "*Create pull request*" om de pull request te bevestigen:
 
 
 ![Image](assets/fr/11.webp)
 
 
-Je PR zal dan zichtbaar zijn op het tabblad "*Pull Request*" van het Plan ₿ Network repository. Je hoeft nu alleen nog maar te wachten tot een beheerder je wijziging samenvoegt.
+Je PR zal dan zichtbaar zijn op het tabblad "*Pull Request*" van de Plan ₿ Network repository. Je hoeft nu alleen nog maar te wachten tot een beheerder je wijziging samenvoegt.
 
 
 ![Image](assets/fr/12.webp)

@@ -48,6 +48,25 @@ Nakonec uzavřeme kurz shrnutím probraných pojmů a otevřením cesty k pokro�
 
 Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 
+---
+
+*Zde je několik termínů, se kterými se setkáte ve schématech kurzu v angličtině, doplněných o jejich překlad, aby vám pomohly je lépe pochopit ve vašem jazyce:*
+
+| Anglicky            | Překlad - vysvětlení          |
+| ------------------ | ----------------------------- |
+| *timelock*         | Časový zámek                  |
+| *Revocation Key*   | Klíč pro odvolání             |
+| *invoice*          | Faktura / žádost o platbu     |
+| *sig* (signature)  | Podpis                        |
+| *secret*           | Tajemství                     |
+| *amount*           | Částka                        |
+| *scan QR code*     | Naskenovat QR kód             |
+| *Show QR code*     | Zobrazit QR kód               |
+| *Asks the invoice* | Požaduje fakturu              |
+| *Give the invoice* | Poskytuje fakturu             |
+| *Payment*          | Platba                        |
+| *Preimage*         | Předobraz                     |
+
 # Základy
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -55,7 +74,7 @@ Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 ## Porozumění Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
 Lightning Network je síť platebních kanálů postavená na protokolu Bitcoinu, která má umožnit rychlé a nízkonákladové transakce. Umožňuje vytváření platebních kanálů mezi účastníky, v rámci kterých mohou být transakce prováděny téměř okamžitě a s minimálními poplatky, aniž by bylo nutné zaznamenávat každou transakci jednotlivě na blockchainu. Tímto způsobem se Lightning Network snaží zlepšit škálovatelnost Bitcoinu a učinit jej použitelným pro platby nízké hodnoty.
@@ -66,7 +85,7 @@ Před prozkoumáním aspektu "sítě" je důležité pochopit koncept **platebn�
 
 Platební kanál umožňuje dvěma stranám, zde **Alice** a **Bob**, vyměňovat si prostředky přes Lightning Network. Každý protagonista má uzel, symbolizovaný kruhem, a kanál mezi nimi je reprezentován úsečkou.
 
-![LNP201](assets/en/01.webp)
+![LNP201](assets/en/001.webp)
 
 V našem příkladu má Alice na své straně kanálu 100 000 satoshi a Bob 30 000, což dává dohromady 130 000 satoshi, což představuje **kapacitu kanálu**.
 
@@ -78,17 +97,17 @@ V našem příkladu má Alice na své straně kanálu 100 000 satoshi a Bob 30 0
 
 Vraťme se k platebnímu kanálu. Klíčovým pojmem zde je "**strana kanálu**". Každý účastník má na své straně kanálu určité prostředky: Alice 100 000 satoshi a Bob 30 000. Jak jsme viděli, součet těchto prostředků představuje celkovou kapacitu kanálu, číslo, které je nastaveno při jeho otevření.
 
-![LNP201](assets/en/02.webp)
+![LNP201](assets/en/002.webp)
 
 Vezměme si příklad transakce v Lightning Network. Pokud Alice chce poslat 40 000 satoshi Bobovi, je to možné, protože má dostatek prostředků (100 000 satoshi). Po této transakci bude mít Alice na své straně 60 000 satoshi a Bob 70 000.
 
-![LNP201](assets/en/03.webp)
+![LNP201](assets/en/003.webp)
 
 **Kapacita kanálu**, která činí 130 000 satoshi, zůstává konstantní. To, co se mění, je rozdělení prostředků. Tento systém neumožňuje posílat více prostředků, než kolik máte. Například, pokud by Bob chtěl poslat zpět 80 000 satoshi Alici, nemohl by, protože má pouze 70 000.
 
 Další způsob, jak si představit alokaci prostředků, je představit si **kurzor**, který ukazuje, kde se prostředky v kanálu nacházejí. Na začátku, se 100 000 satoshi pro Alici a 30 000 pro Boba, je kurzor spíše na Bobově straně, protože Alice má mnohem více prostředků. Po transakci 40 000 satoshi se kurzor mírně posune na Alicinu stranu, která nyní vlastní 60 000 satoshi.
 
-![LNP201](assets/en/04.webp)
+![LNP201](assets/en/004.webp)
 
 Toto znázornění může být užitečné pro představu o rovnováze prostředků v kanálu.
 
@@ -130,7 +149,7 @@ Na Bitcoinu transakce zahrnuje odeslání fondů z jedné adresy na druhou. Vezm
 
 Nejběžnější skript vyžaduje podpis soukromým klíčem spojeným s adresou. Když Alice podepíše transakci svým soukromým klíčem, **odemkne skript**, který blokuje fondy, a ty pak mohou být převedeny. Převod fondů zahrnuje přidání nového skriptu k těmto fondům, který stanoví, že pro jejich utrácení tentokrát bude vyžadován podpis **Bobova** soukromého klíče.
 
-![LNP201](assets/en/05.webp)
+![LNP201](assets/en/005.webp)
 
 ### UTXO: Nevyužité Transakční Výstupy
 
@@ -145,17 +164,17 @@ Zde je příklad transakce se 2 výstupy:
 - UTXO 0.0015 BTC pro Boba, uzamčené skriptem vyžadujícím Bobův soukromý klíč pro podpis.
 - UTXO 0.0005 BTC pro Alici, uzamčené skriptem vyžadujícím její vlastní podpis.
 
-![LNP201](assets/en/06.webp)
+![LNP201](assets/en/006.webp)
 
 ### Multi-podpisové adresy
 
 Kromě jednoduchých adres generovaných z jednoho veřejného klíče je možné vytvořit **multi-podpisové adresy** z více veřejných klíčů. Zvláště zajímavý případ pro Lightning Network je **2/2 multi-podpisová adresa**, generovaná ze dvou veřejných klíčů:
 
-![LNP201](assets/en/07.webp)
+![LNP201](assets/en/007.webp)
 
 Pro utrácení prostředků uzamčených touto 2/2 multi-podpisovou adresou je nutné podepsat oběma soukromými klíči spojenými s veřejnými klíči.
 
-![LNP201](assets/en/08.webp)
+![LNP201](assets/en/008.webp)
 
 Tento typ adresy je přesně reprezentací platebních kanálů na Lightning Network na Bitcoin blockchainu.
 
@@ -184,7 +203,7 @@ V této kapitole se podrobněji podíváme na to, jak otevřít platební kanál
 
 Jak jsme viděli v první kapitole, **platební kanál** na Lightningu lze přirovnat k "potrubí" pro výměnu prostředků mezi dvěma účastníky (**Alicí** a **Bobem** v našich příkladech). Kapacita tohoto kanálu odpovídá součtu dostupných prostředků na každé straně. V našem příkladu má Alice **100 000 satoshi** a Bob **30 000 satoshi**, což dává **celkovou kapacitu** **130 000 satoshi**.
 
-![LNP201](assets/en/09.webp)
+![LNP201](assets/en/009.webp)
 
 ### Úrovně výměny informací
 
@@ -194,34 +213,34 @@ Je zásadní jasně rozlišovat různé úrovně výměny na Lightning Network:
 - **Platební kanály (protokol Lightning)**: Jsou to cesty pro výměnu prostředků na Lightningu, které budeme znázorňovat plnými černými čarami.
 - **Bitcoinové transakce (protokol Bitcoin)**: Jsou to transakce provedené onchain, které budeme znázorňovat oranžovými čarami.
 
-![LNP201](assets/en/10.webp)
+![LNP201](assets/en/010.webp)
 Je důležité poznamenat, že Lightning node může komunikovat prostřednictvím P2P protokolu bez otevření kanálu, ale pro výměnu finančních prostředků je kanál nezbytný.
 
 ### Kroky k otevření Lightning kanálu
 
 - **Výměna zpráv**: Alice chce otevřít kanál s Bobem. Pošle mu zprávu obsahující částku, kterou chce v kanálu vložit (130 000 satoshi) a svůj veřejný klíč. Bob odpoví sdílením svého vlastního veřejného klíče.
 
-![LNP201](assets/en/11.webp)
+![LNP201](assets/en/011.webp)
 
 - **Vytvoření multisignature adresy**: S těmito dvěma veřejnými klíči Alice vytvoří **2/2 multisignature adresu**, což znamená, že prostředky, které budou později na této adrese vloženy, budou vyžadovat oba podpisy (Alice a Bob) k jejich utracení.
 
-![LNP201](assets/en/12.webp)
+![LNP201](assets/en/012.webp)
 
 - **Transakce vkladu**: Alice připraví Bitcoinovou transakci pro vklad prostředků na tuto multisignature adresu. Například se může rozhodnout poslat **130 000 satoshi** na tuto multisignature adresu. Tato transakce je **sestavena, ale ještě nebyla publikována** na blockchainu.
 
-![LNP201](assets/en/13.webp)
+![LNP201](assets/en/013.webp)
 
 - **Transakce výběru**: Před publikováním transakce vkladu Alice sestaví transakci výběru, aby mohla získat zpět své prostředky v případě problému s Bobem. Jakmile Alice publikuje transakci vkladu, její satoshi budou zamčeny na 2/2 multisignature adrese, která vyžaduje oba podpisy (její a Bobův) k jejich odemčení. Alice se chrání před rizikem ztráty tím, že sestaví transakci výběru, která jí umožní získat zpět své prostředky.
 
-![LNP201](assets/en/14.webp)
+![LNP201](assets/en/014.webp)
 
 - **Bobův podpis**: Alice pošle transakci vkladu Bobovi jako důkaz a požádá ho, aby podepsal transakci výběru. Jakmile je získán Bobův podpis na transakci výběru, Alice má jistotu, že si může kdykoli získat zpět své prostředky, protože nyní je potřeba pouze její vlastní podpis k odemčení multisignature.
 
-![LNP201](assets/en/15.webp)
+![LNP201](assets/en/015.webp)
 
 - **Publikace transakce vkladu**: Jakmile je získán Bobův podpis, Alice může publikovat transakci vkladu na Bitcoinovém blockchainu, čímž oficiálně otevře Lightning kanál mezi oběma uživateli.
 
-![LNP201](assets/en/16.webp)
+![LNP201](assets/en/016.webp)
 
 ### Kdy je kanál otevřen?
 
@@ -238,13 +257,13 @@ V další kapitole prozkoumáme technické fungování transakce uvnitř kanálu
 ### Připomenutí životního cyklu kanálu
 
 Jak bylo viděno dříve, Lightning kanál začíná **otevřením** prostřednictvím Bitcoinové transakce. Kanál může být kdykoliv **uzavřen**, také prostřednictvím Bitcoinové transakce. Mezi těmito dvěma okamžiky může být v rámci kanálu proveden téměř nekonečný počet transakcí, aniž by procházely Bitcoinovým blockchainem. Podívejme se, co se děje během transakce v kanálu.
-![LNP201](assets/en/17.webp)
+![LNP201](assets/en/017.webp)
 
 ### Počáteční stav kanálu
 
 V okamžiku otevření kanálu Alice vložila **130 000 satoshi** na multisignaturní adresu kanálu. Takže v počátečním stavu jsou všechny prostředky na straně Alice. Před otevřením kanálu Alice také nechala Boba podepsat **transakci pro výběr**, která by jí umožnila získat zpět své prostředky, pokud by si přála kanál uzavřít.
 
-![LNP201](assets/en/18.webp)
+![LNP201](assets/en/018.webp)
 
 ### Nepublikované transakce: Commitment transakce
 
@@ -255,7 +274,7 @@ Vezměme si příklad, kdy Alice posílá 30 000 satoshi Bobovi:
 - **Původně**: Alice má 130 000 satoshi.
 - **Po transakci**: Alice má 100 000 satoshi a Bob 30 000 satoshi.
   Pro validaci tohoto převodu Alice a Bob vytvoří novou **nepublikovanou Bitcoinovou transakci**, která by poslala **100 000 satoshi Alice** a **30 000 satoshi Bobovi** z multisignaturní adresy. Obě strany konstruují tuto transakci nezávisle, ale s týmiž daty (částky a adresy). Jakmile je transakce sestavena, každý ji podepíše a vymění si podpis s druhou stranou. To umožňuje kterékoli straně kdykoliv publikovat transakci, pokud je to nutné, aby získala svůj podíl na kanálu na hlavním Bitcoinovém blockchainu.
-  ![LNP201](assets/en/19.webp)
+  ![LNP201](assets/en/019.webp)
 
 ### Proces převodu: Faktura
 
@@ -263,7 +282,7 @@ Když Bob chce přijmout prostředky, pošle Alice **_fakturu_** na 30 000 satos
 
 Každá commitment transakce reprezentuje nové rozdělení prostředků v kanálu po převodu. V tomto příkladu, po transakci, má Bob 30 000 satoshi a Alice 100 000 satoshi. Pokud by se kterýkoliv z účastníků rozhodl publikovat tuto commitment transakci na blockchainu, mělo by to za následek uzavření kanálu a prostředky by byly rozděleny podle tohoto posledního rozdělení.
 
-![LNP201](assets/en/20.webp)
+![LNP201](assets/en/020.webp)
 
 ### Nový stav po druhé transakci
 
@@ -272,7 +291,7 @@ Vezměme si další příklad: po první transakci, kdy Alice poslala Bobovi 30 
 - **Alice** nyní má **110 000 satoshi**.
 - **Bob** má **20 000 satoshi**.
 
-![LNP201](assets/en/21.webp)
+![LNP201](assets/en/021.webp)
 
 Opět, tato transakce není publikována na blockchainu, ale může být kdykoliv v případě uzavření kanálu.
 
@@ -300,7 +319,7 @@ Pojďme si vzít jednoduchý příklad:
   - Alice: **60 000 satoshi**
   - Bob: **70 000 satoshi**
 
-![LNP201](assets/en/22.webp)
+![LNP201](assets/en/022.webp)
 
 Kdykoliv mohou obě strany publikovat **poslední transakci závazku** podepsanou k uzavření kanálu a získání svých prostředků.
 
@@ -308,11 +327,11 @@ Kdykoliv mohou obě strany publikovat **poslední transakci závazku** podepsano
 
 Potenciální problém nastává, pokud se jedna ze stran rozhodne **podvádět** publikováním staré transakce závazku. Například Alice by mohla publikovat starší transakci závazku, kde měla **100 000 satoshi**, i když nyní ve skutečnosti má pouze **60 000 satoshi**. To by jí umožnilo ukrást **40 000 satoshi** od Boba.
 
-![LNP201](assets/en/23.webp)
+![LNP201](assets/en/023.webp)
 
 Ještě hůře, Alice by mohla publikovat úplně první výběrovou transakci, tu před otevřením kanálu, kde měla **130 000 satoshi**, a tím ukrást celé prostředky kanálu.
 
-![LNP201](assets/en/24.webp)
+![LNP201](assets/en/024.webp)
 
 ### Řešení: Revokační klíč a časový zámek
 
@@ -321,7 +340,7 @@ Aby se zabránilo tomuto druhu podvodu ze strany Alice, na Lightning Network jso
 - **Časový zámek**: Každá transakce závazku zahrnuje časový zámek pro prostředky Alice. Časový zámek je primitivum chytré smlouvy, které nastavuje časovou podmínku, která musí být splněna, aby byla transakce přidána do bloku. To znamená, že Alice nemůže získat zpět své prostředky, dokud neprojde určitý počet bloků, pokud publikuje jednu z transakcí závazku. Tento časový zámek začíná platit od potvrzení transakce závazku. Jeho délka je obecně proporcionální velikosti kanálu, ale může být také manuálně konfigurována.
 - **Revokační klíč**: Prostředky Alice mohou být také okamžitě utraceny Bobem, pokud má **revokační klíč**. Tento klíč se skládá z tajemství drženého Alicí a tajemství drženého Bobem. Poznamenejme, že toto tajemství je pro každou transakci závazku jiné.
    Díky kombinaci těchto dvou mechanismů má Bob čas odhalit pokus Alice o podvod a potrestat ji tím, že pomocí revokačního klíče získá zpět svůj výstup, což pro Boba znamená získání všech prostředků kanálu. Náš nový závazný transakční záznam bude nyní vypadat takto:
-   ![LNP201](assets/en/25.webp)
+   ![LNP201](assets/en/025.webp)
 
 Podívejme se podrobněji na fungování tohoto mechanismu.
 
@@ -336,7 +355,7 @@ Pojďme si vzít příklad, abychom tento proces dobře pochopili:
 
 - **Počáteční stav**: Alice má **100 000 satoshi**, Bob **30 000 satoshi**.
 
-![LNP201](assets/en/26.webp)
+![LNP201](assets/en/026.webp)
 
 - Bob chce od Alice přes jejich Lightning kanál přijmout 40 000 satoshi. K tomu:
    - Pošle jí fakturu spolu se svým tajemstvím pro revokační klíč jeho předchozího závazného transakčního záznamu.
@@ -344,11 +363,11 @@ Pojďme si vzít příklad, abychom tento proces dobře pochopili:
    - Nakonec Bob pošle svůj podpis pro Alice nový závazný transakční záznam.
    - Tyto výměny umožní Alice poslat **40 000 satoshi** Bobovi přes Lightning prostřednictvím jejich kanálu, a nové závazné transakční záznamy nyní odrážejí toto nové rozdělení prostředků.
 
-![LNP201](assets/en/27.webp)
+![LNP201](assets/en/027.webp)
 
 - Pokud se Alice pokusí zveřejnit starý závazný transakční záznam, kde stále vlastnila **100 000 satoshi**, Bob, který získal revokační klíč, může okamžitě získat zpět prostředky pomocí tohoto klíče, zatímco Alice je zablokována časovým zámkem.
 
-![LNP201](assets/en/28.webp)
+![LNP201](assets/en/028.webp)
 
 I když v tomto případě Bob nemá ekonomický zájem na pokusu o podvod, pokud by to přesto udělal, Alice také těží ze symetrické ochrany, která jí nabízí stejné záruky.
 
@@ -371,7 +390,7 @@ V této kapitole budeme diskutovat o **uzavření kanálu** na Lightning Network
 
 **Životní cyklus kanálu** začíná jeho **otevřením**, prostřednictvím Bitcoinové transakce, poté se v něm provádějí Lightning transakce a nakonec, když strany chtějí získat zpět své prostředky, je kanál **uzavřen** prostřednictvím druhé Bitcoinové transakce. Mezilehlé transakce provedené na Lightningu jsou reprezentovány nepublikovanými **commitment transakcemi**.
 
-![LNP201](assets/en/29.webp)
+![LNP201](assets/en/029.webp)
 
 ### Tři typy uzavření kanálu
 
@@ -386,7 +405,7 @@ Pojďme si vzít příklad:
 - Alice vlastní **100 000 satoshi** a Bob **30 000 satoshi**.
 - Toto rozdělení je odráženo ve **2 commitment transakcích** (jedna na uživatele), které nejsou publikovány, ale mohly by být v případě uzavření kanálu.
 
-![LNP201](assets/en/30.webp)
+![LNP201](assets/en/030.webp)
 
 ### Dobrý: kooperativní uzavření
 
@@ -395,12 +414,12 @@ Při **kooperativním uzavření** se Alice a Bob dohodnou na uzavření kanálu
 - Alice pošle Bobovi zprávu prostřednictvím komunikačního protokolu Lightning s návrhem na uzavření kanálu.
 - Bob souhlasí a obě strany v kanálu již neprovádějí žádné další transakce.
 
-![LNP201](assets/en/31.webp)
+![LNP201](assets/en/031.webp)
 
 - Alice a Bob společně vyjednávají poplatky za **uzavírací transakci**. Tyto poplatky jsou obvykle vypočítány na základě trhu s poplatky Bitcoinu v době uzavření. Je důležité poznamenat, že **vždy osoba, která kanál otevřela** (v našem příkladu Alice), platí poplatky za uzavření.
 - Sestaví novou **uzavírací transakci**. Tato transakce se podobá commitment transakci, ale bez časových zámků nebo mechanismů pro odvolání, protože obě strany spolupracují a neexistuje riziko podvodu. Tato kooperativní uzavírací transakce se tedy liší od commitment transakcí.
    Například, pokud Alice vlastní **100 000 satoshi** a Bob **30 000 satoshi**, závěrečná transakce pošle **100 000 satoshi** na adresu Alice a **30 000 satoshi** na adresu Boba, bez omezení timelock. Jakmile je tato transakce podepsána oběma stranami, publikuje ji Alice. Jakmile je transakce potvrzena na Bitcoin blockchainu, Lightning kanál je oficiálně uzavřen.
-   ![LNP201](assets/en/32.webp)
+   ![LNP201](assets/en/032.webp)
 
 **Kooperativní uzavření** je preferovanou metodou uzavření, protože je rychlé (bez timelock) a transakční poplatky jsou upraveny podle aktuálních tržních podmínek Bitcoinu. To zabrání placení příliš malé částky, což by mohlo zablokovat transakci v mempoolech, nebo zbytečnému přeplácení, což vede k zbytečné finanční ztrátě pro účastníky.
 
@@ -409,11 +428,11 @@ Při **kooperativním uzavření** se Alice a Bob dohodnou na uzavření kanálu
 Když Alicein uzel pošle zprávu Bobovu uzlu s žádostí o kooperativní uzavření, pokud neodpoví (například kvůli výpadku internetu nebo technickému problému), Alice může pokračovat v **nuceném uzavření** publikováním **poslední podepsané závazné transakce**.
 V tomto případě Alice jednoduše publikuje poslední závaznou transakci, která odráží stav kanálu v okamžiku, kdy poslední Lightning transakce proběhla s správným rozdělením prostředků.
 
-![LNP201](assets/en/33.webp)
+![LNP201](assets/en/033.webp)
 
 Tato transakce zahrnuje **timelock** pro prostředky Alice, což zpomaluje uzavření.
 
-![LNP201](assets/en/34.webp)
+![LNP201](assets/en/034.webp)
 
 Také poplatky za závaznou transakci mohou být v době uzavření nevhodné, protože byly nastaveny v době vytvoření transakce, někdy několik měsíců předtím. Obecně klienti Lightningu přeceňují poplatky, aby se vyhnuli budoucím problémům, ale to může vést k nadměrným poplatkům, nebo naopak příliš nízkým.
 
@@ -423,11 +442,11 @@ Shrnutí, **nucené uzavření** je poslední možností, když druhá strana ji
 
 Nakonec, uzavření s **podváděním** nastane, když jedna ze stran se pokusí publikovat starou závaznou transakci, často kde držela více prostředků, než by měla. Například, Alice by mohla publikovat starou transakci, kde vlastnila **120 000 satoshi**, zatímco nyní vlastní pouze **100 000**.
 
-![LNP201](assets/en/35.webp)
+![LNP201](assets/en/035.webp)
 
 Bob, aby zabránil tomuto podvodu, sleduje Bitcoin blockchain a jeho mempool, aby zajistil, že Alice nepublikuje starou transakci. Pokud Bob zjistí pokus o podvod, může použít **revokační klíč** k získání prostředků Alice a potrestat ji tím, že vezme celé prostředky kanálu. Jelikož je Alice blokována timelockem na jejím výstupu, Bob má čas jej utratit bez timelocku na své straně, aby získal celou sumu na adresu, kterou vlastní.
 
-![LNP201](assets/en/36.webp)
+![LNP201](assets/en/036.webp)
 
 Samozřejmě, podvod může potenciálně uspět, pokud Bob nejedná v čase uloženém timelockem na Aliceině výstupu. V tomto případě je Alicein výstup odemčen, což jí umožňuje jej spotřebovat k vytvoření nového výstupu na adresu, kterou kontroluje.
 
@@ -463,7 +482,7 @@ Představte si například, že:
 - **Alice** (v oranžové) má kanál se **Suzie** (v šedé) s **100 000 satoshi** na její straně a **30 000 satoshi** na straně Suzie.
 - **Suzie** má kanál s **Bobem**, ve kterém vlastní **250 000 satoshi** a Bob nemá žádné satoshi.
 
-![LNP201](assets/en/37.webp)
+![LNP201](assets/en/037.webp)
 
 Pokud Alice chce poslat prostředky Bobovi bez otevření přímého kanálu s ním, musí to udělat přes Suzie, a každý kanál bude muset upravit likviditu na každé straně. **Poslané satoshi zůstávají v rámci jejich příslušných kanálů**; ve skutečnosti "nepřekračují" kanály, ale převod se uskuteční úpravou vnitřní likvidity v každém kanálu.
 
@@ -472,7 +491,7 @@ Předpokládejme, že Alice chce poslat **50 000 satoshi** Bobovi:
 - **Alice** pošle 50 000 satoshi **Suzie** ve společném kanálu.
 - **Suzie** replikuje tento převod posláním 50 000 satoshi **Bobovi** v jejich kanálu.
 
-![LNP201](assets/en/38.webp)
+![LNP201](assets/en/038.webp)
 Takto je platba směrována Bobovi prostřednictvím pohybu likvidity v každém kanálu. Na konci operace má Alice 50 000 satoshi. Skutečně převedla 50 000 satoshi, protože původně měla 100 000. Bob, na své straně, skončí s dalšími 50 000 satoshi. Pro Suzie (prostřední uzel) je tato operace neutrální: původně měla 30 000 satoshi ve svém kanálu s Alicí a 250 000 satoshi ve svém kanálu s Bobem, celkem 280 000 satoshi. Po operaci drží 80 000 satoshi ve svém kanálu s Alicí a 200 000 satoshi ve svém kanálu s Bobem, což je stejná suma jako na začátku.
 Tento přenos je tedy omezen **dostupnou likviditou** ve směru přenosu.
 
@@ -484,7 +503,7 @@ Pojďme si vzít teoretický příklad jiné sítě s:
 - **90 000 satoshi** na straně **Suzie** a **200 000 satoshi** na straně **Carol** (v růžové).
 - **150 000 satoshi** na straně **Carol** a **100 000 satoshi** na straně **Boba**.
 
-![LNP201](assets/en/39.webp)
+![LNP201](assets/en/039.webp)
 
 Maximální množství, které Alice může poslat Bobovi v této konfiguraci, je **90 000 satoshi**, jelikož je omezena nejmenší dostupnou likviditou v kanálu od **Suzie k Carol**. V opačném směru (od Boba k Alici) není platba možná, protože na straně **Suzie** v kanálu s **Alicí** nejsou žádné satoshi. Proto není **žádná trasa** použitelná pro přenos v tomto směru.
 Alice posílá **40 000 satoshi** Bobovi prostřednictvím kanálů:
@@ -493,11 +512,11 @@ Alice posílá **40 000 satoshi** Bobovi prostřednictvím kanálů:
 - Suzie převádí 40 000 satoshi Carol ve svém sdíleném kanálu.
 - Carol nakonec převádí 40 000 satoshi Bobovi.
 
-![LNP201](assets/en/40.webp)
+![LNP201](assets/en/040.webp)
 
 **Satoshis poslané** v každém kanálu **zůstávají v kanálu**, takže satoshis poslané Carolem Bobovi nejsou stejné jako ty, které poslala Alice Suzie. Přenos se provádí pouze úpravou likvidity uvnitř každého kanálu. Navíc celková kapacita kanálů zůstává nezměněna.
 
-![LNP201](assets/en/41.webp)
+![LNP201](assets/en/041.webp)
 
 Stejně jako v předchozím příkladu, po transakci má zdrojový uzel (Alice) o 40 000 satoshi méně. Prostřední uzly (Suzie a Carol) si udržují stejnou celkovou částku, což operaci činí pro ně neutrální. Konečný uzel (Bob) obdrží dalších 40 000 satoshi.
 
@@ -516,14 +535,14 @@ Například pro kanál mezi Alice a Suzie bychom mohli mít:
 - **Alice**: základní poplatek 1 sat a 1 ppm za proměnlivé poplatky.
 - **Suzie**: základní poplatek 0,5 sat a 10 ppm za proměnlivé poplatky.
 
-![LNP201](assets/en/42.webp)
+![LNP201](assets/en/042.webp)
 
 Pro lepší pochopení fungování poplatků se podívejme na stejnou Lightning Network jako předtím, ale nyní s následujícími směrovacími poplatky:
 
 - Kanál **Alice - Suzie**: základní poplatek 1 satoshi a 1 ppm pro Alice.
 - Kanál **Suzie - Carol**: základní poplatek 0 satoshi a 200 ppm pro Suzie.
 - Kanál **Carol - Bob**: základní poplatek 1 satoshi a 1 ppm pro Suzie 2.
-  ![LNP201](assets/en/43.webp)
+  ![LNP201](assets/en/043.webp)
 
 Pro stejnou platbu **40 000 satoshi** Bobovi bude muset Alice poslat o něco více, protože každý prostředník si odečte své poplatky:
 
@@ -537,11 +556,11 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \a
 
 Celkové poplatky za tuto platbu na této cestě jsou tedy **9,04 satoshi**. Alice tedy musí poslat **40 009,04 satoshi**, aby Bob přesně obdržel **40 000 satoshi**.
 
-![LNP201](assets/en/44.webp)
+![LNP201](assets/en/044.webp)
 
 Likvidita je tedy aktualizována:
 
-![LNP201](assets/en/45.webp)
+![LNP201](assets/en/045.webp)
 
 ### Onion Routing
 
@@ -572,11 +591,11 @@ Problém, který vzniká při směrování plateb, je tedy nutná důvěra v pro
 
 Alice chce poslat 40 000 satoshi Bobovi, ale nemá s ním přímý kanál a nechce jej otevřít. Hledá trasu a rozhodne se jít přes uzl Suzie.
 
-![LNP201](assets/en/46.webp)
+![LNP201](assets/en/046.webp)
 
 Pokud Alice naivně pošle 40 000 satoshi Suzie s nadějí, že Suzie tuto sumu převede Bobovi, Suzie by mohla prostředky zadržet pro sebe a nic nepředat Bobovi.
 
-![LNP201](assets/en/47.webp)
+![LNP201](assets/en/047.webp)
 Aby se této situaci na Lightning zabránilo, používáme HTLC (Hashed Time-Locked Contracts), které dělají platbu prostředníkovi podmíněnou, což znamená, že Suzie musí splnit určité podmínky, aby mohla přistoupit k prostředkům Alice a převést je Bobovi.
 
 ### Jak HTLC fungují
@@ -588,7 +607,7 @@ HTLC je speciální kontrakt založený na dvou principech:
 
 Takto tento proces funguje v našem příkladu s Alicí, Suzie a Bobem:
 
-![LNP201](assets/en/48.webp)
+![LNP201](assets/en/048.webp)
 **Vytvoření tajemství**: Bob vygeneruje náhodné tajemství označené jako _s_ (předobraz) a vypočítá jeho hash označený jako _r_ pomocí hashovací funkce označené jako _h_. Platí:
 
 $$
@@ -597,11 +616,11 @@ $$
 
 Použití hashovací funkce znemožňuje najít _s_ pouze s _h(s)_, ale pokud je _s_ poskytnuto, je snadné ověřit, že odpovídá _h(s)_.
 
-![LNP201](assets/en/49.webp)
+![LNP201](assets/en/049.webp)
 
 **Odeslání žádosti o platbu**: Bob pošle Alici **fakturu** s žádostí o platbu. Tato faktura zvláště zahrnuje hash _r_.
 
-![LNP201](assets/en/50.webp)
+![LNP201](assets/en/050.webp)
 
 **Odeslání podmíněné platby**: Alice pošle Suzie HTLC na 40 000 satoshi. Podmínkou pro Suzie, aby tyto prostředky obdržela, je, že poskytne Alici tajemství _s'_ splňující následující rovnici:
 
@@ -609,7 +628,7 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/51.webp)
+![LNP201](assets/en/051.webp)
 
 **Převod HTLC konečnému příjemci**: Suzie, aby získala 40 000 satoshi od Alice, musí převést podobné HTLC na 40 000 satoshi Bobovi, který má stejnou podmínku, totiž že musí Suzie poskytnout tajemství _s'_ splňující rovnici:
 
@@ -617,41 +636,41 @@ $$
 h(s') = r
 $$
 
-![LNP201](assets/en/52.webp)
+![LNP201](assets/en/052.webp)
 
 **Ověření tajemstvím _s_**: Bob poskytne _s_ Suzie, aby obdržel slíbených 40 000 satoshi v HTLC. S tímto tajemstvím může Suzie poté odemknout Alicino HTLC a získat 40 000 satoshi od Alice. Platba je poté správně směrována Bobovi.
 
-![LNP201](assets/en/53.webp)
+![LNP201](assets/en/053.webp)
 Tento proces brání Suzie v zadržení Aliciných prostředků bez dokončení převodu Bobovi, protože musí platbu poslat Bobovi, aby získala tajemství _s_ a tím odemkla Alicino HTLC. Operace zůstává stejná i v případě, že trasa zahrnuje několik prostředníků: jedná se pouze o opakování kroků Suzie pro každého prostředníka. Každý uzel je chráněn podmínkami HTLC, protože odemknutí posledního HTLC příjemcem automaticky spouští odemknutí všech ostatních HTLC v kaskádě.
 
 ### Expirace a řízení HTLC v případě problémů
 
 Pokud během procesu platby jeden z prostředníků nebo příjemný uzel přestane odpovídat, zejména v případě výpadku internetu nebo elektrické energie, pak platbu nelze dokončit, protože tajemství potřebné k odemknutí HTLC není přeneseno. Vezmeme-li náš příklad s Alicí, Suzie a Bobem, tento problém nastane například, pokud Bob nepředá tajemství _s_ Suzie. V tomto případě jsou všechna HTLC v cestě zablokována a také prostředky, které zajišťují.
 
-![LNP201](assets/en/54.webp)
+![LNP201](assets/en/054.webp)
 
 Aby se tomu zabránilo, HTLC na Lightningu mají expiraci, která umožňuje odstranění HTLC, pokud není po určité době dokončeno. Expirace následuje specifické pořadí, protože začíná nejprve s HTLC nejbližším příjemci a poté postupně přechází k vydavateli transakce. V našem příkladu, pokud Bob nikdy neposkytne tajemství _s_ Suzie, to by nejprve způsobilo expiraci Suziina HTLC směrem k Bobovi.
 
-![LNP201](assets/en/55.webp)
+![LNP201](assets/en/055.webp)
 
 Poté HTLC od Alice k Suzie.
 
-![LNP201](assets/en/56.webp)
+![LNP201](assets/en/056.webp)
 
 Pokud by se pořadí vypršení platnosti HTLC obrátilo, Alice by mohla získat zpět svou platbu dříve, než by Suzie mohla ochránit sebe před možným podvodem. Skutečně, pokud by se Bob vrátil pro své HTLC, zatímco Alice už své odstranila, Suzie by byla ve ztrátě. Toto kaskádové pořadí vypršení platnosti HTLC tak zajišťuje, že žádný prostředník neutrpí nespravedlivé ztráty.
 
 ### Reprezentace HTLC v transakcích závazku
 
 Transakce závazku reprezentují HTLC takovým způsobem, že podmínky, které ukládají na Lightning, mohou být přeneseny na Bitcoin v případě nuceného uzavření kanálu během životnosti HTLC. Jako připomínka, transakce závazku reprezentují aktuální stav kanálu mezi dvěma uživateli a umožňují jednostranné nucené uzavření v případě problémů. S každým novým stavem kanálu jsou vytvořeny 2 transakce závazku: jedna pro každou stranu. Pojďme se vrátit k našemu příkladu s Alicí, Suzie a Bobem, ale podívejme se podrobněji na to, co se děje na úrovni kanálu mezi Alicí a Suzie, když je HTLC vytvořeno.
-![LNP201](assets/en/57.webp)
+![LNP201](assets/en/057.webp)
 
 Před zahájením platby 40 000 satoshi mezi Alicí a Bobem má Alice v kanálu se Suzie 100 000 satoshi, zatímco Suzie drží 30 000. Jejich transakce závazku jsou následující:
 
-![LNP201](assets/en/58.webp)
+![LNP201](assets/en/058.webp)
 
 Alice právě obdržela Bobovu fakturu, která obsahuje _r_, hash tajemství. Může tedy sestavit HTLC o 40 000 satoshi se Suzie. Toto HTLC je reprezentováno v nejnovějších transakcích závazku jako výstup nazvaný "**_HTLC Out_**" na straně Alice, protože prostředky jsou odchozí, a "**_HTLC In_**" na straně Suzie, protože prostředky jsou příchozí.
 
-![LNP201](assets/en/59.webp)
+![LNP201](assets/en/059.webp)
 
 Tyto výstupy spojené s HTLC sdílejí přesně stejné podmínky, a to:
 
@@ -663,7 +682,7 @@ Tyto podmínky platí pouze v případě, že je kanál uzavřen (tj. transakce 
 Navíc, pokud je kanál uzavřen, zatímco několik HTLC je nevyřešených, bude tam tolik dalších výstupů, kolik je probíhajících HTLC.
 Pokud kanál není uzavřen, pak po vypršení nebo úspěchu platby Lightning jsou vytvořeny nové transakce závazku, které odrážejí nový, nyní stabilní stav kanálu, tj. bez jakýchkoli nevyřešených HTLC. Výstupy související s HTLC mohou být tedy odstraněny z transakcí závazku.
 
-![LNP201](assets/en/60.webp)
+![LNP201](assets/en/060.webp)
 
 Nakonec, v případě kooperativního uzavření kanálu, zatímco je HTLC aktivní, Alice a Suzie přestanou přijímat nové platby a čekají na vyřešení nebo vypršení platnosti probíhajících HTLC. To jim umožňuje publikovat jednodušší transakci pro uzavření, bez výstupů souvisejících s HTLC, čímž snižují poplatky a vyhýbají se čekání na možný časový zámek.
 **Co byste si měli odnést z této kapitoly?**
@@ -688,9 +707,9 @@ V předchozích kapitolách jsme viděli, jak používat kanály jiných uzlů k
 
 Jak jsme viděli, v Lightning je to uzel odesílající platbu, který musí vypočítat kompletní trasu k příjemci, protože používáme systém cibulového směrování. Prostředníkovy uzly neznají ani bod původu ani konečný cíl. Vědí pouze, odkud platba přichází a kterému uzlu ji musí předat dále. To znamená, že odesílající uzel musí udržovat dynamickou lokální topologii sítě, s existujícími uzly Lightning a kanály mezi nimi, s přihlédnutím k otevřením, uzavřením a aktualizacím stavu.
 
-![LNP201](assets/en/61.webp)
+![LNP201](assets/en/061.webp)
 I s touto topologií sítě Lightning existují zásadní informace pro směrování, které zůstávají odesílajícímu uzlu nedostupné, což je přesné rozdělení likvidity v kanálech v daném okamžiku. Skutečně, každý kanál zobrazuje pouze svou **celkovou kapacitu**, ale vnitřní rozdělení finančních prostředků je známo pouze dvěma účastnícím se uzlům. To představuje výzvy pro efektivní směrování, protože úspěch platby závisí zejména na tom, zda je její částka menší než nejnižší likvidita na zvolené trase. Nicméně, likvidity nejsou všechny viditelné odesílajícímu uzlu.
-![LNP201](assets/en/62.webp)
+![LNP201](assets/en/062.webp)
 
 ### Aktualizace mapy sítě
 
@@ -706,7 +725,7 @@ Aby uzly udržely svou mapu sítě aktuální, pravidelně si vyměňují zpráv
 
 Pojďme si vzít příklad malé Lightning Network se 7 uzly: Alice, Bob, 1, 2, 3, 4 a 5. Představme si, že Alice chce poslat platbu Bobovi, ale musí projít přes prostředníkové uzly.
 
-![LNP201](assets/en/63.webp)
+![LNP201](assets/en/063.webp)
 
 Zde je aktuální rozdělení prostředků v těchto kanálech:
 
@@ -719,11 +738,11 @@ Zde je aktuální rozdělení prostředků v těchto kanálech:
 - **Kanál mezi 3 a Bobem**: 50 000 sats na straně 3, 250 000 na straně Boba (celková kapacita 300 000 sats).
 - **Kanál mezi 5 a Bobem**: 260 000 sats na straně 5, 100 000 na straně Boba (celková kapacita 360 000 sats).
 
-![LNP201](assets/en/64.webp)
+![LNP201](assets/en/064.webp)
 
 Pro provedení platby 100 000 sats od Alice k Bobovi jsou možnosti směrování omezeny dostupnou likviditou v každém kanálu. Optimální trasa pro Alici, na základě známého rozdělení likvidity, by mohla být sekvence `Alice → 1 → 2 → 4 → 5 → Bob`:
 
-![LNP201](assets/en/65.webp)
+![LNP201](assets/en/065.webp)
 
 Ale protože Alice nezná přesné rozdělení prostředků v každém kanálu, musí optimální trasu odhadnout pravděpodobnostně, s ohledem na následující kritéria:
 
@@ -741,11 +760,11 @@ Ale protože Alice nezná přesné rozdělení prostředků v každém kanálu, 
 
 Alice se rozhodne otestovat svou první trasu (`Alice → 1 → 2 → 5 → Bob`). Proto pošle HTLC o 100 000 sats uzlu 1. Tento uzel zkontroluje, že má dostatečnou likviditu s uzlem 2, a pokračuje v přenosu. Uzel 2 poté přijme HTLC od uzlu 1, ale uvědomí si, že nemá dostatečnou likviditu ve svém kanálu s uzlem 5 pro přesměrování platby 100 000 sats. Poté pošle zpět uzlu 1 chybovou zprávu, která se přenese Alici. Tato trasa selhala.
 
-![LNP201](assets/en/66.webp)
+![LNP201](assets/en/066.webp)
 
 Alice poté pokusí směrovat svou platbu pomocí své druhé trasy (`Alice → 1 → 2 → 4 → 5 → Bob`). Pošle HTLC o 100 000 sats uzlu 1, který ji přenese uzlu 2, poté uzlu 4, uzlu 5 a nakonec Bobovi. Tentokrát je likvidita dostatečná a trasa je funkční. Každý uzel postupně odemkne svůj HTLC pomocí předobrazu poskytnutého Bobem (tajemství _s_), což umožní úspěšné dokončení Aliciny platby Bobovi.
 
-![LNP201](assets/en/67.webp)
+![LNP201](assets/en/067.webp)
 
 Hledání trasy probíhá takto: odesílající uzel začne identifikací nejlepších možných tras, poté postupně zkouší platby, dokud nenajde funkční trasu.
 
@@ -768,7 +787,7 @@ V následující kapitole se budeme konkrétně zabývat fungováním faktur, kr
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 V této kapitole se podrobněji podíváme na fungování Lightning **faktur**, tedy platebních požadavků, které odesílá příjemce uzlu odesílateli. Cílem je pochopit, jak platit a přijímat platby na Lightning. Také probereme 2 alternativy klasických faktur: LNURL a Keysend.
-![LNP201](assets/en/68.webp)
+![LNP201](assets/en/068.webp)
 
 ### Struktura Lightning faktur
 
@@ -849,7 +868,7 @@ Faktury jsou poté zakódovány ve formátu **bech32**, stejně jako adresy Bitc
 V tradiční transakci, jako je nákup v obchodě, je vygenerována faktura na celkovou částku k zaplacení. Jakmile je faktura prezentována (ve formě QR kódu nebo řetězce znaků), zákazník ji může naskenovat a dokončit transakci. Platba pak následuje tradiční proces, který jsme studovali v předchozí sekci. Tento proces však někdy může být pro uživatelskou zkušenost velmi zdlouhavý, protože vyžaduje, aby příjemce poslal informace odesílateli prostřednictvím faktury.
 Pro určité situace, jako je vybírání bitcoinů z online služby, je tradiční proces příliš zdlouhavý. V takových případech řešení **LNURL** pro výběr zjednodušuje tento proces zobrazením QR kódu, který naskenuje peněženka příjemce a automaticky vytvoří fakturu. Služba poté zaplatí fakturu a uživatel jednoduše vidí okamžitý výběr.
 
-![LNP201](assets/en/69.webp)
+![LNP201](assets/en/069.webp)
 
 LNURL je komunikační protokol, který specifikuje sadu funkcionalit navržených k zjednodušení interakcí mezi Lightning uzly a klienty, stejně jako s aplikacemi třetích stran. LNURL výběr, jak jsme právě viděli, je tedy jen jedním příkladem mezi dalšími funkcionalitami.
 Tento protokol je založen na HTTP a umožňuje vytváření odkazů pro různé operace, jako je žádost o platbu, žádost o výběr nebo jiné funkce, které zlepšují uživatelskou zkušenost. Každé LNURL je bech32 kódované URL s předponou lnurl, které, jakmile je naskenováno, spustí sérii automatických akcí v Lightning peněžence.
@@ -861,7 +880,7 @@ Dalším zajímavým případem je převod prostředků bez předchozího přije
 
 Zjednodušeně, v tomto protokolu je to odesílatel, kdo generuje tajemství použité v HTLCs, spíše než příjemce. Prakticky to umožňuje odesílateli provést platbu bez předchozí interakce s příjemcem.
 
-![LNP201](assets/en/70.webp)
+![LNP201](assets/en/070.webp)
 
 **Co byste si měli odnést z této kapitoly?**
 
@@ -891,7 +910,7 @@ Tyto profily samozřejmě nejsou pevně dané; uživatel může přecházet mezi
 
 Pro lepší pochopení si vezměme příklad jednoduché sítě složené ze tří uzlů: kupujícího (Alice), router (Suzie) a prodávajícího (Bob).
 
-![LNP201](assets/en/71.webp)
+![LNP201](assets/en/071.webp)
 
 Představte si, že kupující chce poslat 30 000 satoshi prodávajícímu a že platba prochází přes uzel routeru. Každá strana musí pak mít minimální množství likvidity ve směru platby:
 
@@ -899,7 +918,7 @@ Představte si, že kupující chce poslat 30 000 satoshi prodávajícímu a že
 - Prodávající musí mít kanál, kde jsou na opačné straně 30 000 satoshi, aby je mohl přijmout.
 - Router musí mít 30 000 satoshi na straně platícího ve svém kanálu a také 30 000 satoshi na své straně v kanálu s prodávajícím, aby mohl platbu směrovat.
 
-![LNP201](assets/en/72.webp)
+![LNP201](assets/en/072.webp)
 
 ### Strategie řízení likvidity
 
@@ -910,11 +929,11 @@ Na druhou stranu, pro prodávajícího je úkol složitější. Aby mohli přij�
 - **Pohyb likvidity**: Prodávající může také otevřít kanál a převést část prostředků na opačnou stranu tím, že provede fiktivní platby na jiný uzel, který peníze vrátí jiným způsobem. V další části uvidíme, jak tuto operaci provést.
 - **Trojúhelníkové otevření**: Existují platformy pro uzly, které chtějí společně otevřít kanály, což každému umožňuje těžit z okamžité příchozí a odchozí likvidity. Například [LightningNetwork+](https://lightningnetwork.plus/) nabízí tuto službu. Pokud si Alice, Bob a Suzie chtějí otevřít kanál s 100 000 sats, mohou se na této platformě dohodnout, že Alice otevře kanál směrem k Bobovi, Bob směrem k Suzie a Suzie směrem k Alici. Tímto způsobem každý má 100 000 sats odchozí likvidity a 100 000 sats příchozí likvidity, přičemž zablokovali pouze 100 000 sats.
 
-![LNP201](assets/en/73.webp)
+![LNP201](assets/en/073.webp)
 
 - **Nákup kanálů**: Existují také služby pro pronájem Lightning kanálů, aby bylo možné získat příchozí likviditu, jako například [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) nebo [Lightning Labs Pool](https://lightning.engineering/pool/). Například Alice si může koupit kanál o jednom milionu satoshi směrem k jejímu uzlu, aby mohla přijímat platby.
 
-![LNP201](assets/en/74.webp)
+![LNP201](assets/en/074.webp)
 
 Nakonec, pro směrovače, jejichž cílem je maximalizovat počet zpracovaných plateb a vybrané poplatky, musí:
 
@@ -925,7 +944,7 @@ Nakonec, pro směrovače, jejichž cílem je maximalizovat počet zpracovaných 
 
 Služba [Loop Out](https://lightning.engineering/loop/), kterou nabízí Lightning Labs, umožňuje přesunout likviditu na opačnou stranu kanálu a zároveň si vrátit prostředky na Bitcoin blockchainu. Například Alice pošle 1 milion satoshi přes Lightning na loop uzel, který jí tyto prostředky vrátí v on-chain bitcoinech. Tím vyváží její kanál s 1 milionem satoshi na každé straně, optimalizuje její kapacitu přijímat platby.
 
-![LNP201](assets/en/75.webp)
+![LNP201](assets/en/075.webp)
 
 Tato služba tedy umožňuje získat příchozí likviditu a zároveň si vrátit své bitcoiny na-chain, což pomáhá omezit imobilizaci hotovosti potřebné k přijímání plateb pomocí Lightning.
 
@@ -955,12 +974,12 @@ V úvodních kapitolách jsme prozkoumali, jak dvě strany mohou provádět tran
 
 - **Otevření kanálu**: Vytvoření kanálu se provádí prostřednictvím Bitcoin transakce, která uzamkne prostředky na 2/2 multisignature adrese. Tento vklad reprezentuje Lightning kanál na blockchainu.
 
-![LNP201](assets/en/76.webp) 2. **Transakce v kanálu**: V tomto kanálu je pak možné provádět mnoho transakcí bez nutnosti je zveřejňovat na blockchainu. Každá Lightning transakce vytváří nový stav kanálu, který je reflektován v commitment transakci.
-![LNP201](assets/en/77.webp)
+![LNP201](assets/en/076.webp) 2. **Transakce v kanálu**: V tomto kanálu je pak možné provádět mnoho transakcí bez nutnosti je zveřejňovat na blockchainu. Každá Lightning transakce vytváří nový stav kanálu, který je reflektován v commitment transakci.
+![LNP201](assets/en/077.webp)
 
 - **Zajištění a uzavření**: Účastníci se zavážou k novému stavu kanálu výměnou revokačních klíčů k zajištění prostředků a prevenci podvodu. Obě strany mohou kanál uzavřít kooperativně vytvořením nové transakce na Bitcoin blockchainu, nebo jako poslední možnost prostřednictvím nuceného uzavření. Tato poslední možnost, ačkoli méně efektivní kvůli delší době a někdy špatně odhadovaným poplatkům, stále umožňuje získání prostředků zpět. V případě podvodu může oběť potrestat podvodníka získáním všech prostředků z kanálu na blockchainu.
 
-![LNP201](assets/en/78.webp)
+![LNP201](assets/en/078.webp)
 
 ### Síť kanálů
 
@@ -968,15 +987,15 @@ Po studiu izolovaných kanálů jsme rozšířili naši analýzu na síť kanál
 
 - **Směrování**: Když dvě strany nejsou přímo spojeny kanálem, síť umožňuje směrování prostřednictvím intermediárních uzlů. Platby pak přecházejí z jednoho uzlu na druhý.
 
-![LNP201](assets/en/79.webp)
+![LNP201](assets/en/079.webp)
 
 - **HTLCs**: Platby, které procházejí intermediárními uzly, jsou zajištěny "_Hash Time-Locked Contracts_" (HTLC), které umožňují uzamknout prostředky, dokud není platba dokončena od začátku do konce.
 
-![LNP201](assets/en/80.webp)
+![LNP201](assets/en/080.webp)
 
 - **Onion Routing**: Aby byla zajištěna důvěrnost platby, onion routing maskuje konečný cíl před intermediárními uzly. Odesílající uzel musí tedy vypočítat celou trasu, ale v absenci úplných informací o likviditě kanálů postupuje prostřednictvím postupných pokusů o směrování platby.
 
-![LNP201](assets/en/81.webp)
+![LNP201](assets/en/081.webp)
 
 ### Správa likvidity
 
@@ -986,13 +1005,13 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 
 - **Přesun likvidity**: Odesíláním plateb do jiných kanálů se likvidita přesune na opačnou stranu.
 
-![LNP201](assets/en/82.webp)
+![LNP201](assets/en/082.webp)
 
 - **Využití služeb jako Loop a Pool**: Tyto služby umožňují rebalancování nebo nákup kanálů s likviditou na opačné straně.
-  ![LNP201](assets/en/83.webp)
+  ![LNP201](assets/en/083.webp)
 - **Spolupracující otevření**: Existují také platformy dostupné pro spojení k provádění trojúhelníkových otevření a získání příchozí likvidity.
 
-![LNP201](assets/en/84.webp)
+![LNP201](assets/en/084.webp)
 
 # Sekce finále
 

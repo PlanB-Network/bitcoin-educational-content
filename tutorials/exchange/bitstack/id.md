@@ -6,7 +6,7 @@ description: Beli dan jual bitcoin di aplikasi Bitstack
 
 Bitstack adalah platform investasi bitcoin Prancis, yang diatur PSAN oleh AMF. Platform ini menawarkan aplikasi yang tersedia di Android dan iOS untuk memudahkan pembelian dan penjualan bitcoin.
 
-Yang membedakan Bitstack adalah sistem pembulatan otomatisnya, yang menyinkronkan rekening bank pengguna untuk mengkonversi selisih antara jumlah yang didebit selama pengeluaran harian dan euro yang lebih tinggi berikutnya, langsung ke dalam bitcoin. Metode ini memfasilitasi penerapan *Dollar Cost Averaging* (DCA), yang memungkinkan akumulasi satoshi secara bertahap dan tanpa rasa sakit. Selain fitur orisinil ini, platform ini juga menawarkan sistem DCA klasik dengan investasi otomatis, serta pembelian dan penjualan spot.
+Yang membedakan Bitstack adalah sistem pembulatan otomatisnya, yang menyinkronkan rekening bank pengguna untuk mengonversi selisih antara jumlah yang didebet saat pengeluaran harian dan euro di atasnya langsung menjadi bitcoin. Metode ini memudahkan penerapan *Dollar Cost Averaging* (DCA) dengan memungkinkan akumulasi satoshi secara bertahap dan tanpa rasa sakit. Selain fitur orisinal ini, platform juga menawarkan sistem DCA klasik dengan investasi otomatis serta pembelian dan penjualan satu kali.
 
 ![Image](assets/fr/01.webp)
 
@@ -110,7 +110,7 @@ Seperti yang telah disebutkan di bagian pendahuluan, Bitstack menawarkan 3 metod
 - Konfigurasi Pembelian Berulang (RPC);
 - Penggunaan pembulatan otomatis pada pengeluaran.
 
-### Membeli dengan uang tunai
+### Melakukan pembelian satu kali
 
 Untuk melakukan pembelian satu kali pada harga pasar, cukup klik "*Beli*".
 

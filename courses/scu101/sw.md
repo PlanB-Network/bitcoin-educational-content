@@ -60,7 +60,7 @@ Ikiwa unatafuta ujuzi wa hali ya juu zaidi kuhusu mada hii, nyenzo zetu, mafunzo
 
 Kwanza, tutajadili umuhimu wa kuchagua kivinjari cha wavuti na athari zake kwa usalama. Kisha tutachunguza maelezo mahususi ya vivinjari, hasa kuhusu usimamizi wa vidakuzi. Pia tutaona jinsi ya kuhakikisha hali ya kuvinjari iliyo salama zaidi na isiyojulikana, kwa kutumia zana kama vile TOR. Baadaye, tutazingatia matumizi ya VPN ili kuimarisha ulinzi wa data yako. Hatimaye, tutamalizia na mapendekezo ya matumizi salama ya miunganisho ya WiFi.
 
-![](assets/en/1.webp)
+![image](assets/sw/001.webp)
 
 ### Sehemu ya 2: Mbinu bora za matumizi ya kompyuta
 
@@ -70,7 +70,7 @@ Kwanza, tutajadili umuhimu wa kuchagua kivinjari cha wavuti na athari zake kwa u
 
 Katika sehemu hii, tutashughulikia maeneo matatu muhimu ya usalama wa kompyuta. Kwanza, tutachunguza mifumo tofauti ya uendeshaji: Mac, PC, na Linux, tukiangazia sifa na nguvu zao. Kisha, tutachunguza mbinu za kulinda kwa ufanisi dhidi ya majaribio ya udukuzi na kuimarisha usalama wa vifaa vyako. Hatimaye, tutasisitiza umuhimu wa kulinda na kuhifadhi nakala za data zako mara kwa mara ili kuzuia upotevu wowote au programu ya kukomboa.
 
-![](assets/en/2.webp)
+![image](assets/sw/002.webp)
 
 ### Sehemu ya 3: Utekelezaji wa suluhisho
 
@@ -83,7 +83,7 @@ Katika sehemu hii ya tatu ya vitendo, tutaendelea na utekelezaji wa suluhisho ya
 
 Kwanza, tutaona jinsi ya kulinda kikasha chako cha barua pepe, ambacho ni muhimu kwa mawasiliano yako na mara nyingi hulengwa na wadukuzi. Kisha, tutakutambulisha kwa kidhibiti nenosiri: suluhu la vitendo la kutosahau tena au kuchanganya manenosiri yako huku ukiyaweka salama. Hatimaye, tutajadili hatua ya ziada ya usalama, uthibitishaji wa vipengele viwili, ambavyo huongeza Layer ya ziada ya ulinzi kwenye akaunti zako. Kila kitu kitaelezewa kwa uwazi na kwa urahisi.
 
-![](assets/en/3.webp)
+![image](assets/sw/003.webp)
 
 # Kila kitu unachohitaji kujua kuhusu kuvinjari mtandaoni
 
@@ -101,12 +101,14 @@ Inashauriwa kupakua programu kutoka kwa tovuti rasmi ya mchapishaji badala ya to
 
 Mfano: Tumia www.signal.org/download badala ya www.logicieltelechargement.fr/signal.
 
-![](assets/notext/4.webp)
+![image](assets/sw/004.webp)
 
 Inashauriwa pia kutanguliza programu huria kwani mara nyingi ni salama na hazina programu hasidi. Programu ya "chanzo-wazi" ni programu ambayo msimbo wake unajulikana na kupatikana kwa kila mtu. Hii inaruhusu uthibitishaji, kati ya mambo mengine, kwamba hakuna ufikiaji uliofichwa wa kuiba data yako ya kibinafsi.
 
 > Bonasi: Programu huria mara nyingi ni bure! Chuo kikuu hiki ni chanzo wazi 100%, kwa hivyo unaweza pia kuangalia nambari yetu kwenye GitHub yetu.
-> ![](assets/notext/5.webp)
+
+![image](assets/sw/005.webp)
+
 ### Usimamizi wa vidakuzi: Makosa na mbinu bora
 
 Vidakuzi ni faili zilizoundwa na tovuti ili kuhifadhi maelezo kwenye kifaa chako. Ingawa tovuti zingine zinahitaji vidakuzi hivi kufanya kazi vizuri, vinaweza pia kutumiwa na tovuti za watu wengine, hasa kwa madhumuni ya ufuatiliaji wa utangazaji. Kwa mujibu wa kanuni kama vile GDPR, inawezekana - na inapendekezwa - kukataa vidakuzi vya ufuatiliaji wa watu wengine huku ukikubali zile ambazo ni muhimu kwa utendakazi mzuri wa tovuti. Baada ya kila ziara ya tovuti, ni busara kufuta vidakuzi vinavyohusishwa, ama mwenyewe au kupitia kiendelezi au programu maalum. Vivinjari vingine hata hutoa uwezekano wa kufuta vidakuzi kwa kuchagua. Licha ya tahadhari hizi, ni muhimu kuelewa kwamba taarifa zinazokusanywa na tovuti tofauti zinaweza kubaki zimeunganishwa, hivyo basi umuhimu wa kutafuta uwiano kati ya urahisi na usalama.
@@ -118,7 +120,7 @@ Kuna familia mbili kuu za vivinjari: zile zinazotegemea Chrome na zile zinazoteg
 
 Ingawa familia zote mbili hutoa kiwango sawa cha usalama, inashauriwa kuepuka kivinjari cha Google Chrome kutokana na wafuatiliaji wake.Vivinjari mbadala nyepesi, kama vile Chromium au Brave, vinaweza kupendekezwa. Brave inapendekezwa hasa kwa block yake ya matangazo iliyojengwa.
 
-![](assets/notext/6.webp)
+![image](assets/sw/006.webp)
 
 ### Kuvinjari kwa faragha, TOR, na mbadala zingine kwa usalama zaidi na kuvinjari bila kujulikana
 
@@ -128,7 +130,7 @@ Njia mbadala ya kisasa zaidi ni mtandao wa TOR (The Onion Router), ambao hutoa k
 
 TOR ni halali na inatumiwa na wanahabari, wanaharakati wa uhuru, na wengine wanaotaka kuepuka udhibiti katika nchi zenye mamlaka. Hata hivyo, ni muhimu kuelewa kwamba TOR haihifadhi tovuti zilizotembelewa au kompyuta yenyewe. Zaidi ya hayo, kutumia TOR kunaweza kupunguza kasi ya muunganisho wa intaneti, kwani data inapita kupitia kompyuta za watu wengine watatu kabla ya kufika mahali inapokwenda. Pia ni muhimu kutambua kwamba TOR si suluhu la kijinga ili kuhakikisha kutokujulikana kwa 100% na haipaswi kutumiwa kwa muamala haramu.
 
-![](assets/notext/7.webp)
+![image](assets/sw/007.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
@@ -142,7 +144,7 @@ Kulinda muunganisho wako wa intaneti ni kipengele muhimu cha usalama wa mtandaon
 
 'VPN ni zana zinazosimba kwa njia fiche data inayotumwa kwenye mtandao, na kufanya muunganisho kuwa salama zaidi. Katika muktadha wa kitaalamu, VPN huruhusu wafanyakazi kufikia mtandao wa ndani wa kampuni kwa usalama kwa mbali. Data iliyobadilishwa imesimbwa kwa njia fiche, na kuifanya iwe vigumu zaidi kwa wahusika wengine kukatiza. Mbali na kupata ufikiaji wa mtandao wa ndani, kutumia VPN kunaweza kumruhusu mtumiaji kuelekeza muunganisho wake wa intaneti kupitia mtandao wa ndani wa kampuni, na hivyo kutoa hisia kwamba muunganisho wao unatoka kwa kampuni. Hii inaweza kuwa muhimu hasa kwa kupata huduma za mtandaoni ambazo zimezuiwa kijiografia.
 
-![](assets/en/8.webp)
+![image](assets/sw/008.webp)
 
 ### Aina za VPN
 
@@ -150,7 +152,7 @@ Kuna aina mbili kuu za VPNs: VPN za biashara na VPN za watumiaji, kama vile Nord
 
 Hata hivyo, kutumia VPN ya mtumiaji hakuhakikishii kutokujulikana kabisa. Watoa huduma wengi wa VPN huhifadhi maelezo kuhusu watumiaji wao, jambo ambalo linaweza kuhatarisha kutokujulikana kwao. Ingawa VPN zinaweza kuwa muhimu kwa kuboresha usalama wa mtandaoni, sio suluhisho la wote. Zinatumika kwa matumizi fulani mahususi, kama vile kufikia huduma zenye mipaka ya kijiografia au kuboresha usalama unaposafiri, lakini hazitoi dhamana ya usalama kamili. Wakati wa kuchagua VPN, ni muhimu kutanguliza kuegemea na ufundi kuliko umaarufu. Watoa huduma za VPN wanaokusanya taarifa ndogo zaidi za kibinafsi kwa ujumla ndio salama zaidi. Huduma kama vile iVPN na Mullvad hazikusanyi taarifa za kibinafsi na hata kuruhusu malipo katika Bitcoin kwa faragha iliyoongezeka.
 
-![](assets/notext/9.webp)
+![image](assets/sw/009.webp)
 
 Hatimaye, VPN inaweza pia kutumika kuzuia matangazo ya mtandaoni, kutoa hali ya kuvinjari ya kufurahisha na salama zaidi. Hata hivyo, ni muhimu kufanya utafiti wako mwenyewe ili kupata VPN ambayo inafaa zaidi mahitaji yako maalum. Kutumia VPN kunapendekezwa ili kuimarisha usalama, hata wakati wa kuvinjari mtandao nyumbani. Hii husaidia kuhakikisha kiwango cha juu cha usalama kwa data iliyobadilishwa mtandaoni. Hatimaye, hakikisha kuwa umeangalia URL na kufuli ndogo kwenye upau wa Anwani ili kuthibitisha kuwa uko kwenye tovuti unayotarajia kutembelea.
 
@@ -165,7 +167,7 @@ Katika Umoja wa Ulaya, ulinzi wa data unadhibitiwa na Kanuni ya Jumla ya Ulinzi 
 
 Ili kuepuka ulaghai mtandaoni, ni muhimu kuthibitisha utambulisho wa tovuti unayovinjari, hasa kwa kuangalia kiendelezi na jina la kikoa. Zaidi ya hayo, kuwa macho dhidi ya walaghai wanaotumia herufi sawa katika URL ili kuwahadaa watumiaji.
 
-![](assets/en/10.webp)
+![image](assets/sw/010.webp)
 
 Kwa muhtasari, matumizi ya VPN yanaweza kuboresha sana usalama mtandaoni, kwa biashara na watumiaji binafsi. Zaidi ya hayo, kujizoeza kwa tabia nzuri ya kuvinjari kunaweza kuchangia usafi bora wa kidijitali. Katika sehemu inayofuata ya kozi hii, tutalinda usalama wa kompyuta wa Anwani, ikijumuisha masasisho, kingavirusi na udhibiti wa nenosiri.
 
@@ -188,13 +190,13 @@ Usalama wa kompyuta zetu ni jambo linalosumbua sana katika ulimwengu wa kisasa w
 
 Kuhusu uchaguzi wa kompyuta, hakuna tofauti kubwa katika usalama kati ya kompyuta za zamani na mpya. Hata hivyo, tofauti za usalama zipo kati ya mifumo ya uendeshaji: Windows, Linux, na Mac.
 
-![](assets/notext/11.webp)
+![image](assets/sw/011.webp)
 
 Kuhusu Windows, inashauriwa kutotumia akaunti ya msimamizi kila siku, lakini badala ya kuunda akaunti mbili tofauti: akaunti ya msimamizi na akaunti ya matumizi ya kila siku. Windows mara nyingi huwekwa wazi kwa programu hasidi kutokana na idadi kubwa ya watumiaji na urahisi wa kubadili kutoka kwa mtumiaji hadi msimamizi. Kwa upande mwingine, vitisho sio kawaida kwenye Linux na Mac.
 
 Uchaguzi wa mfumo wa uendeshaji unapaswa kutegemea mahitaji yako na mapendekezo yako. Mifumo ya Linux imebadilika sana katika miaka ya hivi karibuni, na kuwa rahisi zaidi na zaidi kwa watumiaji. Ubuntu ni mbadala wa kuvutia kwa Kompyuta, na Interface ya picha iliyo rahisi kutumia. Inawezekana kugawanya kompyuta ili kujaribu Linux wakati wa kuweka Windows, lakini hii inaweza kuwa ngumu. Mara nyingi ni vyema kuwa na kompyuta maalum, mashine pepe, au ufunguo wa USB ili kujaribu Linux au Ubuntu.
 
-![](assets/notext/12.webp)
+![image](assets/sw/012.webp)
 
 ### Sasisho za Programu
 
@@ -216,7 +218,7 @@ Uchaguzi na utekelezaji wa antivirus ni muhimu. Windows Defender, antivirus iliy
 
 Kwa wale wanaotaka kuwekeza katika antivirus iliyolipwa, inashauriwa kuchagua antivirus ambayo inachambua kwa busara vitisho visivyojulikana na vinavyoibuka, kama vile Kaspersky. Sasisho za antivirus ni muhimu ili kulinda dhidi ya vitisho vipya.
 
-![](assets/notext/13.webp)
+![image](assets/sw/013.webp)
 
 > Kumbuka: Linux na Mac, shukrani kwa mfumo wao wa kutenganisha haki za mtumiaji, mara nyingi hazihitaji antivirus.
 Hatimaye, hapa kuna baadhi ya mbinu nzuri za usalama wa kompyuta na data yako. Ni muhimu kuchagua antivirus yenye ufanisi na ya kirafiki. Pia ni muhimu kufuata mazoea mazuri kwenye kompyuta yako, kama vile kutoingiza vitufe vya USB visivyojulikana au vinavyotiliwa shaka. Vifunguo hivi vya USB vinaweza kuwa na programu hasidi ambazo zinaweza kuzindua kiotomatiki baada ya kuingizwa. Kuangalia ufunguo wa USB hakutakuwa na maana pindi tu kitakapoingizwa. Baadhi ya makampuni yamekuwa wahanga wa udukuzi kutokana na funguo za USB zilizoachwa kizembe katika maeneo yanayofikiwa na watu wengi, kama vile sehemu ya kuegesha magari.
@@ -251,7 +253,7 @@ Sheria kuu hapa ni kuangalia kwa uangalifu jina kamili la mtumaji na asili ya ba
 
 Ransomware ni aina ya programu hasidi ambayo husimba data ya mtumiaji kwa njia fiche na kudai fidia ili kusimbua. Aina hii ya shambulio inazidi kuwa ya kawaida na inaweza kuwa shida sana kwa kampuni au mtu binafsi. Ili kujilinda, ni muhimu kuunda nakala za faili nyeti zaidi! Hii haitazuia ukombozi, lakini itakuruhusu kuipuuza tu.
 
-![](assets/notext/14.webp)
+![image](assets/sw/014.webp)
 
 Hifadhi nakala ya data yako muhimu mara kwa mara kwenye kifaa cha hifadhi ya nje au huduma salama ya kuhifadhi mtandaoni. Kwa njia hii, katika tukio la mashambulizi ya mtandao au kushindwa kwa maunzi, unaweza kurejesha data yako bila kupoteza taarifa muhimu.
 
@@ -290,7 +292,7 @@ Ingawa sote tayari tuna akaunti ya barua pepe, ni muhimu kuzingatia kuunda mpya,
 
 Usimamizi sahihi wa address zetu za barua pepe ni muhimu ili kuhakikisha usalama wa ufikiaji wetu mtandaoni. Ni muhimu kuchagua mtoa huduma wa barua pepe salama na anayeheshimu faragha. Kwa mfano, ProtonMail ni huduma ya barua pepe salama na inayoheshimu faragha.
 
-![](assets/notext/15.webp)
+![image](assets/sw/015.webp)
 
 Wakati wa kuchagua mtoa huduma wa barua pepe na kuunda nenosiri, ni muhimu kuto­tumia tena nenosiri lile­lile kwa huduma mbalimbali mtandaoni. Inapendekezwa kuunda mara kwa mara Address mpya za barua pepe na kutumia Address tofauti kwa akaunti tofauti. Ni vyema kuchagua huduma ya barua pepe salama na inayoheshimu faragha kwa akaunti zako muhimu. Pia, inapaswa kuzingatiwa kuwa baadhi ya huduma huweka kikomo kwa urefu wa nywila, kwa hiyo ni muhimu kufahamu kizuizi hiki. Huduma pia hutolewa Address za barua pepe za muda, ambazo zinaweza kutumika kwa akaunti za muda mfupi.
 
@@ -300,7 +302,7 @@ Ni muhimu kuzingatia kwamba watoa huduma wa barua pepe wakubwa kama vile La Post
 
 Inashauriwa kutumia tovuti ya Have I Been Pwned (https://haveibeenpwned.com/) ili kuangalia kama barua pepe yetu ya Anwani imeathiriwa na kuarifiwa kuhusu ukiukaji wa data wa siku zijazo. Hifadhidata iliyodukuliwa inaweza kutumiwa vibaya na wadukuzi kutuma barua pepe za ulaghai au kutumia tena manenosiri yaliyoathiriwa.
 
-![](assets/notext/16.webp)
+![image](assets/sw/016.webp)
 
 Kwa ujumla, kuanza kutumia barua pepe mpya, iliyo salama zaidi ya Anwani sio mazoezi mabaya na hata ni muhimu ikiwa mtu anataka kuanza upya kwa misingi ya afya.
 
@@ -324,7 +326,7 @@ Ukiwa na kidhibiti cha nenosiri, huhitaji tena kuwa na wasiwasi kuhusu kusahau m
 - LastPass: Mmoja wa wasimamizi maarufu. Ni huduma ya wahusika wengine, ambayo inamaanisha kuwa nywila zako zimehifadhiwa kwenye seva zao. Inatoa toleo lisilolipishwa na toleo linalolipishwa, na Interface inayomfaa mtumiaji.
 - Dashlane: Pia ni huduma ya watu wengine, yenye Interface angavu na vipengele vya ziada kama vile kufuatilia maelezo ya kadi ya mkopo na madokezo salama.
 
-![](assets/notext/17.webp)
+![image](assets/sw/017.webp)
 
 ### Mwenyeji mwenyewe kwa udhibiti zaidi:
 
@@ -332,7 +334,7 @@ Ukiwa na kidhibiti cha nenosiri, huhitaji tena kuwa na wasiwasi kuhusu kusahau m
 - Bitwarden: Ni zana huria, ambayo inamaanisha unaweza kukagua msimbo wake ili kuthibitisha usalama wake. Ingawa Bitwarden inatoa huduma iliyopangishwa, pia inaruhusu watumiaji kujipangisha wenyewe, ambayo ina maana kwamba unaweza kudhibiti mahali ambapo manenosiri yako yanahifadhiwa, ambayo inaweza kutoa usalama na udhibiti zaidi.
 - KeePass: Ni suluhisho la chanzo-wazi ambalo kimsingi linakusudiwa upangishaji binafsi. Data yako huhifadhiwa ndani kwa chaguo-msingi, lakini unaweza kusawazisha hifadhidata ya nenosiri kwa kutumia mbinu tofauti ukipenda. KeePass inatambulika kote kwa usalama na unyumbufu wake, ingawa inaweza kuwa rahisi kidogo kwa watumiaji wanaoanza.
 
-![](assets/notext/18.webp)
+![image](assets/sw/018.webp)
 
 Kwa suluhisho zinazojiendesha kama KeePass, inawezekana kulandanisha hifadhidata yako kati ya vifaa vingi bila kutumia huduma za kati za wahusika wengine. Zana kama **Syncthing** zinawezesha ulandanishaji uliofichwa na usio na kituo moja kwa moja kati ya vifaa vyako. Mbinu hii huweka data zako chini ya udhibiti wako huku ikihakikisha upatikanaji wake katika vifaa vyako vyote.
 
@@ -370,7 +372,7 @@ Hatua hii ya pili inaweza kuwa:
 - Msimbo unaozalishwa na programu kama vile Kithibitishaji cha Google au Authy.
 - Ufunguo halisi wa usalama unaoweka kwenye kompyuta yako.
 
-![](assets/notext/19.webp)
+![image](assets/sw/019.webp)
 
 Kwa 2FA, hata kama mdukuzi atapata nenosiri lako, hatawezi kufikia akaunti yako bila kipengele cha pili cha uthibitishaji. Hii inafanya 2FA kuwa muhimu kwa kulinda akaunti zako za mtandaoni dhidi ya ufikiaji usioidhinishwa.
 
@@ -525,7 +527,7 @@ Mabadiliko ya mara kwa mara ya vitisho yanahitaji ufuatiliaji wa mara kwa mara w
 
 Kwa kufahamu ujuzi na zana hizi, utakuwa na vifaa vya kutosha vya kuvinjari ulimwengu wa usalama wa mtandao kwa mafanikio.
 
-![](assets/notext/20.webp)
+![image](assets/sw/020.webp)
 
 ## Mahojiano na Renaud
 
@@ -539,7 +541,7 @@ Kwa ujumla, haipendekezwi kutumia viendelezi vya kivinjari kujaza nenosiri moja 
 
 Vidhibiti vya nenosiri kwa ujumla huhimiza matumizi ya vipengele vya ziada vya uthibitishaji, kama uthibitishaji wa vipengele viwili (2FA). Kwa usalama zaidi, inashauriwa kuweka OTP (One-Time Password) kwenye kifaa chako cha rununu. AndOTP inatoa suluhisho la chanzo huria la kuzalisha na kuhifadhi misimbo ya OTP kwenye simu yako. Ingawa Google Authenticator inaruhusu usafirishaji wa seed za uthibitishaji, imani katika kuhifadhi seed kwenye akaunti ya Google bado ina mipaka. Kwa hivyo, programu kama OTI na AndOTP zinapendekezwa kwa usimamizi huru wa OTP.
 
-![](assets/notext/21.webp)
+![image](assets/sw/021.webp)
 
 Swali la urithi wa kidijitali na maombolezo ya kidijitali linaibua umuhimu wa kuwa na utaratibu wa kusambaza nywila baada ya kifo cha mtu. Kidhibiti cha nenosiri huwezesha mabadiliko haya kwa kuhifadhi kwa usalama siri zote za kidijitali katika sehemu moja. Kidhibiti cha nenosiri pia huruhusu kutambua akaunti zote zilizofunguliwa na kudhibiti kufungwa au kuhamisha. Inashauriwa kuandika nenosiri kuu kwenye karatasi, lakini inapaswa kuwekwa mahali pa siri na salama. Ikiwa gari la Hard limesimbwa na kompyuta imefungwa, nenosiri halitapatikana, hata katika kesi ya wizi.
 

@@ -1,0 +1,8 @@
+question: What is the most significant privacy trade-off introduced when migrating from a self-managed LDK implementation to Breeze SDK's cloud-based architecture?
+answer: Greenlight gains potential visibility into payment destinations and invoice generation activities through cloud-based routing
+wrong_answers:
+  - "Private keys are stored on Blockstream's servers instead of locally on the user's device"
+  - Channel state information becomes publicly visible on the Lightning Network graph through Greenlight nodes
+  - LSP services can now monitor all on-chain transactions and link them to Lightning payment patterns
+explanation: |
+  The correct answer identifies the key privacy degradation: cloud-based routing allows Greenlight to potentially observe payment destinations, while cloud invoice generation expands information exposure beyond what traditional LSP-only architectures revealed. The wrong answers are incorrect because: private keys remain under user control despite cloud architecture; channel states aren't made publicly visible through routing; and LSPs don't gain additional on-chain transaction monitoring capabilities through this architectural change.

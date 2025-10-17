@@ -1,22 +1,19 @@
 ---
 name: Bitcoin para empresas
 goal: Aprenda as noções básicas de pagamento e tesouraria para integrar a bitcoin na sua empresa
-objectives: 
-
-  - Bitcoin como moeda emergente e ferramenta de negócio
-  - Compreender porquê e como uma empresa pode deter bitcoin na tesouraria ou utilizá-lo para pagamentos
-  - Ter uma ideia concreta de como aceitar pagamentos em bitcoin na prática
-  - Estar preparado para gerir os requisitos fiscais e contabilísticos
-
+objectives:
+- Descubra o Bitcoin como uma moeda emergente e uma ferramenta de negócios
+- Entenda por que e como uma empresa pode manter bitcoin em tesouraria ou usá-lo para pagamentos
+- Tenha uma ideia concreta de como aceitar pagamentos em Bitcoin na prática
+- Esteja preparado para gerenciar requisitos fiscais e contábeis
 ---
-# Dê o pontapé de saída para a sua empresa na rede bitcoin
+# Inicie a jornada da sua empresa na rede Bitcoin
 
-Descubra as capacidades práticas da Bitcoin e da Lightning Network e explore como, tal como a Internet, podem **transformar as suas operações comerciais**. Do capital digital aos pagamentos rápidos, económicos e escaláveis, a Bitcoin oferece um vasto espetro de **casos de utilização para empresas**.
+Descubra as capacidades práticas da rede Bitcoin e Lightning Network e explore como, tal como a internet, elas podem transformar as operações do seu negócio. Desde tesouraria até pagamentos rápidos, económicos e escaláveis, a Bitcoin oferece um vasto espectro de casos de uso para empresas.
 
-Ao longo deste guia, aprenderá a compreender a Bitcoin como uma rede monetária global, universal e nativa da Internet. Com as suas caraterísticas fundamentais únicas, a **Bitcoin oferece melhorias significativas em relação às redes monetárias tradicionais**. Descobrirá porquê e como aproveitar a Bitcoin para casos clássicos de utilização financeira, tais como armazenamento de capital e sistemas de pagamento. Além disso, este guia abordará a aquisição e detenção de Bitcoin, incluindo os requisitos contabilísticos e fiscais associados, bem como a implementação de soluções de pagamento Bitcoin simples ou em grande escala.
+Ao longo deste curso, aprenderá a compreender a Bitcoin como uma rede monetária global, universal e nativa da internet. Com as suas características fundamentais únicas, a Bitcoin oferece melhorias significativas em relação à moeda tradicional. Descobrirá por que e como aproveitar a Bitcoin para casos de uso financeiros clássicos, como armazenamento de capital e sistemas de pagamento. Além disso, este curso abordará a aquisição e detenção de Bitcoin, incluindo os requisitos contabilísticos e fiscais associados, bem como a implementação de soluções de pagamento Bitcoin simples ou em grande escala.
 
-Quer seja uma **pequena empresa ou uma grande corporação**, integrar o Bitcoin nas suas operações diárias pode tornar a sua empresa mais **resiliente, produtiva e competitiva**. Cada empresa baseada na internet tornar-se-á uma empresa orientada para o Bitcoin, e este curso garante que está preparado. As secções iniciais recapitulam os fundamentos do funcionamento do Bitcoin, por isso, mesmo que seja um principiante, obterá os conhecimentos fundamentais necessários para prosseguir. Aprender os fundamentos da invenção de Satoshi é sempre uma boa ideia, seja antes ou depois de mergulhar no BIZ101.
-
+Seja uma pequena empresa ou uma grande corporação, integrar a Bitcoin nas suas operações diárias pode tornar a sua empresa mais resiliente, produtiva e competitiva. Todas as empresas baseadas na internet tornar-se-ão empresas orientadas para a Bitcoin, e este curso garante que está preparado.
 +++
 # Introdução
 

@@ -21,7 +21,7 @@ Je bent waarschijnlijk bekend met het adagium "Niet je sleutels, niet je munten"
 
 
 
-BTC 202 is een toegankelijke cursus die is ontworpen om je te leren je eigen Bitcoin node te laten draaien, zelfs als je geen technisch expert bent. We beginnen met te definiëren wat een Bitcoin node is, waarvoor het dient en waarom het absoluut essentieel is om er zelf een te draaien. Daarna begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het aansluiten van je wallet en het maken van de eerste mogelijke optimalisaties naar het volgende niveau.
+BTC 202 is een toegankelijke opleiding die is ontworpen om je te leren je eigen Bitcoin-node te draaien, zelfs als je geen technische expert bent. We beginnen met te definiëren wat een Bitcoin-node is, waar het voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Vervolgens begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het verbinden van je walletsoftware en de eerste mogelijke optimalisaties om verder te gaan.
 
 
 
@@ -492,7 +492,7 @@ Er heerst een wijdverspreid geloof dat het runnen van een Bitcoin node een zuive
 
 
 
-Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voordeel verbonden aan het draaien van een node. Je zou daarom kunnen denken dat er geen persoonlijk belang bij is. Toch brengt het runnen van je eigen node veel individuele voordelen met zich mee. Om je hiervan te overtuigen, ga ik in dit hoofdstuk alle redenen presenteren, zowel technische als strategische, waarom je je eigen Bitcoin node zou moeten installeren en gebruiken.
+Zoals we in de voorgaande hoofdstukken hebben benadrukt, levert het draaien van een node geen directe financiële winst op. Men zou dus kunnen denken dat er geen persoonlijk voordeel aan verbonden is. Toch biedt het draaien van een eigen node veel individuele voordelen. Om je hiervan te overtuigen, zal ik in dit hoofdstuk alle technische en strategische redenen uiteenzetten die je zouden moeten aanmoedigen om je eigen Bitcoin-node te installeren en te gebruiken.
 
 
 
@@ -576,7 +576,7 @@ Het installeren van een full node is geen sinecure. Het omvat het installeren va
 
 
 
-Het verwerven van deze kennis versterkt je vertrouwen in de tool en kan het risico op fouten of blootstelling aan oplichterij verminderen. Je eigen node runnen is ook een vorm van leren.
+Het verwerven van deze kennis versterkt je vertrouwen in het hulpmiddel en kan het risico op fouten of blootstelling aan oplichting verminderen. Je eigen node draaien betekent ook leren.
 
 
 
@@ -730,7 +730,7 @@ Afhankelijk van je behoeften kun je een indexer toevoegen aan je full node. Bitc
 
 
 
-### De pruned noded
+### De afgeslankte node
 
 
 
@@ -849,7 +849,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-#### Bitcoin core (client met ultrameerderheid)
+#### Bitcoin Core (overheersende client)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr clients ***noStrudel*** of ***Snort*** zijn ook beschikbaar op Umbrel. Dan
 
 
 
-Tot slot is er de ***Nostr wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr clients om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf je persoonlijke node via je kanalen verzonden.
+Ten slotte is er de applicatie ***Nostr Wallet Connect*** op Umbrel, waarmee je native Lightning-betalingen binnen Nostr kunt uitvoeren. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr-clients om microbetalingen te versturen, genaamd "*zaps*", om content te belonen of op een gemonetariseerde manier te interageren, zonder via een externe dienst te gaan. Deze betalingen vertrekken rechtstreeks vanuit je persoonlijke node via je kanalen.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Je Umbrel node onderhouden
+## Je Umbrel-node onderhouden
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Als je node luistert op een open poort (standaard 8333), dan accepteert het binn
 
 
 
-## Anatomie van je Bitcoin node
+## Anatomie van je Bitcoin-node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

@@ -6,4 +6,4 @@ wrong_answers:
   - Bitfeed
 explanation: |
   Ride The Lightning et ThunderHub offrent une interface web complète pour administrer un nœud Lightning.
-reviewed: false
+reviewed: true 

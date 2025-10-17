@@ -20,6 +20,14 @@ objectives:
 
 +++
 
+# 소개
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## 강좌 개요
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
 # Bitcoin을 위한 필수 수학 개념
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

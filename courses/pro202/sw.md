@@ -20,6 +20,14 @@ Furahia ugunduzi wako!
 
 +++
 
+# Utangulizi
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Muhtasari wa Kozi
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
 # Dhana Muhimu za Hisabati kwa Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

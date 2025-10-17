@@ -9,7 +9,7 @@ objectives:
  - Maîtriser les fondements mathématiques du modèle de sécurité Bitcoin
 
 ---
-# Un voyage dans les scripts et les programmes du Bitcoin
+# Un voyage dans les scripts et les programmes de Bitcoin
 
 
 Ce cours intensif de deux jours, enseigné par Jimmy Song, vous plonge dans les fondements techniques de Bitcoin en construisant une bibliothèque Bitcoin complète à partir de la base. En commençant par les mathématiques essentielles des champs finis et des courbes elliptiques, vous progresserez dans l'analyse des transactions, l'exécution des scripts et la communication réseau. Grâce à des exercices de codage pratiques dans des carnets Jupyter, vous créerez votre propre Testnet Address, construirez des transactions manuellement et les diffuserez directement sur le réseau, tout en acquérant une compréhension profonde des principes cryptographiques qui rendent le Bitcoin sûr et le Trustless.
@@ -19,6 +19,21 @@ Bonne découverte !
 
 
 +++
+
+
+# Introduction
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Aperçu du cours
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+
+
+
+
+
 
 # Concepts mathématiques essentiels pour Bitcoin
 

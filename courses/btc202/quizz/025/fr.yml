@@ -6,4 +6,4 @@ wrong_answers:
   - Lors du choix du montant des frais
 explanation: |
   Un nœud élagué ne conserve pas les anciens blocs, ce qui peut empêcher de scanner les transactions passées lors d’une restauration.
-reviewed: false
+reviewed: true 

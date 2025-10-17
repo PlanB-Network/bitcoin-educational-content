@@ -6,4 +6,4 @@ wrong_answers:
   - Sauvegarder en local la blockchain Nostr
 explanation: |
   Un relais Nostr sur Umbrel permet d’héberger ses données localement pour garantir leur disponibilité et souveraineté.
-reviewed: false
+reviewed: true 

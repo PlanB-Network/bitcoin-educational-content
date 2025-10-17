@@ -209,3 +209,4 @@ Il team sta lavorando a un modello federato. Per te, utente finale, non cambia m
 
 FINE della guida  
 https://bitcoiner.guide/robosats/
+

@@ -17,6 +17,46 @@ The Bitaxe project represents a paradigm shift in Bitcoin mining, breaking the m
 No prior mining experience is required, though basic electronics knowledge and familiarity with GitHub will be helpful. The course will transform you from a curious observer into a capable Bitaxe builder and contributor.
 
 +++
+
+
+# Introduction
+
+<partId>6b3cd9f0-0063-40f0-a7bb-00a48f330d88</partId>
+
+## Course overview
+
+<chapterId>1fac9579-0e1c-48e3-9bc5-e7a2960018c8</chapterId>
+
+Welcome to the course MIN 306 _**Bitaxe Open Source Mining Mastery**_, a comprehensive journey into the world of Bitaxe mining. This course is designed for those who want to understand, build, and optimize their own Bitaxe mining hardware while exploring the philosophical and technical foundations that make this project unique within the Bitcoin ecosystem.
+
+### Understanding Bitaxe
+
+The first section lays the essential groundwork: you’ll discover the origins of the Bitaxe project, its evolution, and the values of decentralization and transparency that define it. You’ll learn what a Bitaxe actually is, how it differs from proprietary ASICs, and where to find community resources to deepen your knowledge. This section provides the context needed to understand why Bitaxe represents a turning point in Bitcoin mining history.
+
+### Software and Operations
+
+The second section focuses on the software environment, with a detailed presentation of *AxeOS*, the open-source operating system designed specifically for Bitaxe devices. You’ll learn how to configure it, understand its main features, and interact with your device to start your first mining operations.
+
+### Community and Collaboration
+
+The third section highlights the collaborative aspect of the project. You’ll explore the open-source philosophy applied to both the hardware and software development of Bitaxe. Through practical exercises, you’ll learn how to contribute directly to the source code, and you’ll also discover _Public Pool_, a community platform for pooling computational power. You’ll also learn how to install it on an Umbrel node for local and sovereign integration.
+
+### Hardware Assembly and Troubleshooting
+
+In the fourth section, you’ll dive into the hardware itself. You’ll learn how to identify the tools needed to assemble a Bitaxe, fix soldering issues, and perform a complete diagnostic using *AxeOS* and USB tools. This section emphasizes hands-on practice and a deep understanding of how hardware and software components interact.
+
+### Advanced Customization
+
+The fifth section is dedicated to customization. You’ll learn how to modify the PCB (printed circuit board), create a factory file, and use the _Bitaxe Web Flasher_. This section is aimed at those who want to go beyond simple assembly and truly design customized versions of their own device.
+
+### Performance Optimization
+
+Finally, the sixth section covers advanced optimization techniques. You’ll learn how to benchmark your Bitaxe to evaluate its performance and how to overclock it efficiently. These skills will help you get the most out of your hardware while respecting its physical limitations.
+
+As with every course on Plan ₿ Academy, the final section includes an evaluation designed to reinforce your knowledge.
+
+Dive right into this technical adventure — the future of Bitcoin mining is in your hands!
+
 # Understanding Bitaxe
 <partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
 

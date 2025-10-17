@@ -1,7 +1,7 @@
 question: Welke Bitcoin.conf parameter beperkt de grootte van Mempool in MB?
 answer: maxmempool
 wrong_answers:
-  - totaalmempool
+  - totalmempool
   - mempoolexpiry
   - mempoolsize
 explanation: |

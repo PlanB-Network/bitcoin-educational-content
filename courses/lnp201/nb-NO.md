@@ -74,7 +74,7 @@ Klar til å oppdage de tekniske mekanismene i Lightning Network? La oss sette i 
 ## Forstå Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
 Lightning Network er et nettverk av betalingskanaler bygget på toppen av Bitcoin-protokollen, med mål om å muliggjøre raske og kostnadseffektive transaksjoner. Det tillater opprettelsen av betalingskanaler mellom deltakere, hvor transaksjoner kan gjøres nesten øyeblikkelig og med minimale gebyrer, uten å måtte registrere hver transaksjon individuelt på blockchainen. Dermed søker Lightning Network å forbedre Bitcoins skalerbarhet og gjøre den brukbar for betalinger av lav verdi.

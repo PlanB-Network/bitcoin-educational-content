@@ -75,7 +75,7 @@ objectives:
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 歡迎來到 LNP201 課程，此課程旨在說明 Lightning Network 的技術功能。
 

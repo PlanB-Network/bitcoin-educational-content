@@ -1732,6 +1732,10 @@ Ikindi, hariho [amasoko menshi](https://planb.network/inyigisho/exchange) aho wo
 Ubwa nyuma, n'ivyingenzi kumenya ko inshingano zo gutanga amakori zishobora gutandukanywa bivanye n’ububasha, nicogituma tubahimiriza cane ko ubanza kuraba amabwirizwa yo mu gihugu cawe imbere y’uko ukora ikintu cose coshobora kugutera ingorane.
 
 
+Nimba wifuza kwagura ubumenyi bwawe ku bijanye n’ingene ugura, ukoresha kandi ukingira ama-bitcoin yawe, ndaguhimiriza cane gukurikira inyigisho **BTC 102** ikurikira iyi. Aho uzoharonkera, harimwo n’inyunganizo ku bikoresho bihuye n’ivyo ukeneye, n’umugambi wawe bwite:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Guhindura cane bitcoin
 
 

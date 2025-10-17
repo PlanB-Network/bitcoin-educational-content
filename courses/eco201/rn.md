@@ -1,5 +1,5 @@
 ---
-Name: Intangamarara y'ubutunzi bwa Otirishiya
+name: Intangamarara y'ubutunzi bwa Otirishiya
 goal: Vumbura ishure ry’ivyiyumviro vy’ubutunzi ryo muri Otirishiya. Iga ivyiyumviro vyabo ku kibano no ku vyerekeye ubutunzi buhambaye/buto.
 objectives: 
 
@@ -393,7 +393,7 @@ Muri uwo mukino, nta karyo ko guhuza ibikorwa (uguhanahana amakuru ntibishoboka)
 
 Uyu mukino ugaragaza ingorane abantu bahura na zo buzima busanzwe: iyo ata buryo bwo guhuza ibikorwa buhari, abantu bakunda guhitamwo uburyo zituma baronka inyungu nyinshi ku giti cabo, ataco bafatiye ku buryo abandi bahisemwo (ubusuma, ubupfungakiwani, ubuhemu, n’ibindi),n’iyo haba ubushobizi bwo kugera ku mwumvikano urushijeho kuba mwiza biciye mu guhuza no gukorera hamwe.
 
-###Amahera yo gukemura ibibazo vy’uguhuza ibikorwa.
+### Amahera yo gukemura ibibazo vy’uguhuza ibikorwa.
 
 
 ![image](assets/en/10.webp)
@@ -595,7 +595,6 @@ Ivyo ni vyo tuzobibona mu kigabane gikurikira kijanye n’Inyigisho y’Ubucuruz
 
 > "Uko ukwiyongera kw’inguzanyo z’amabanki zishingiye ku mpapuro zidafise agaciro, ni ko urugero rw'ishoramari ribi mu bicuruzwa vy'ubutunzi rugenda ruragwira, kandi ni ko bikenerwa cane gusesa canke kuvana n'izo nzira zitari nziza. Iyo ukwaguka kw'inguzanyo guhagaze, gusubira inyuma, canke mbere kugabanuka cane, ishoramari ribi rikagwira"
 >
-
 > Luduwiki voni Mises
 
 
@@ -708,7 +707,6 @@ Ivyo ni vyo bizokwigwa mu kigabane gikurikira kandi ca nyuma c’iri shure.
 
 > “Iyo ata giciro c’isoko gihari ku bintu bikenewe mu mahinguriro kuko bidahingurwa ngo bigurishwe canke bigurwe, ntibishoboka gukoresha ibiharuro vy’ubutunzi kugira hategurwe ibikorwa vyo muri kazoza canke kugira hamenyekane ico ibikorwa vyaherahejeje vyashitseko. Ubuyobozi bwa gisosiyalisime mu mahinguriro ntibushobora kumenya neza nimba ivyo butegura kandi bukarangura ari inzira ibereye kurusha izindi mu gushikira ivyipfuzo. Buzokora mu mwijima, ukoresheje imvugo. Ivyo bizovamwo akajagari n’ubukene kuri bose ata gukeka.” 
 >
-
 > Ludwig von Mises, akajagari kategekanijwe
 
 
@@ -843,8 +841,11 @@ Ni ngombwa gutahura ko gutoranura ivyiyumviro, harimwo guhitamwo amakuru kugira 
 Uburyo ni ikintu gihambaye cane mu vy’ubutunzi no mu vy’imibano muri rusangi. Bigira ico bikoze ku kuntu ibibazo bibazwa, ku kuntu ivyiyumviro vyubakwa no ku kuntu amakuru asobanurwamwo. Gutahura uburyo butandukanye hagati y’amashure y’ivyiyumviro vy’ubutunzi birashobora kudufasha gutahura uburyo butandukanye bwo kubona ibintu no gutegura ivyiyumviro vyacu bwite ku bijanye n’ingingo zavuzwe mu bice vyabanje.
 
 # aho igice gihereye
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+
 ## Iciyumviro cawe ni ikihe? n'amanota
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin Classic
   - Bcoin
 explanation: |
-  Avec environ 9 nœud sur 10 sur le réseau, c'est Bitcoin Core qui est le client majoritaire.
-reviewed: false
+  Avec environ 9 nœuds sur 10 sur le réseau, Bitcoin Core est le client majoritaire.
+reviewed: true 

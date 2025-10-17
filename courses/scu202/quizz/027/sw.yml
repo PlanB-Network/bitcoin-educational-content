@@ -6,4 +6,4 @@ wrong_answers:
   - Synaptic
 explanation: |
   GUFW ni picha ya Interface ya ngome ya UFW, inayokuwezesha kuwezesha, kuzima na kusanidi sheria bila kupitia terminal.
-reviewed: false
+reviewed: true

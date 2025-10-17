@@ -3,7 +3,7 @@ answer: Weka nenosiri thabiti la kipindi
 wrong_answers:
   - Kufunga antivirus
   - Inasanidi ngome ya UFW
-  - Washa usimbaji fiche wa diski
+  - Washa usimbaji fiche wa disk
 explanation: |
-  Nenosiri la kipindi ni kizuizi cha kwanza cha usalama cha kuzuia ufikiaji usioidhinishwa kwa mashine yako, kabla ya hatua zingine zozote za ziada.
-reviewed: false
+  Nenosiri la kipindi ni block ya kwanza ya usalama cha kuzuia ufikiaji usioidhinishwa kwa mashine yako, kabla ya hatua zingine zozote za ziada.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Désactiver toutes les connexions
 explanation: |
   Le 2FA ajoute une protection supplémentaire et est fortement recommandé, surtout si l’on utilise un nœud Lightning ou du self-hosting sensible.
-reviewed: false
+reviewed: true 

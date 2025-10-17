@@ -1737,6 +1737,8 @@ Buna ek olarak, eşler arası Exchange'da bitcoin alıp satabileceğiniz birkaç
 Son olarak, vergi yükümlülüklerinin yargı yetkisine bağlı olarak değişebileceğini unutmamak önemlidir, bu nedenle sizi riske atabilecek herhangi bir işlem yapmadan önce ülkenizdeki düzenlemelere başvurmanızı şiddetle tavsiye ederiz.
 
 
+Bitcoinlerinizi satın alma, kullanma ve güvenliğini sağlama stratejileri hakkındaki bilginizi derinleştirmek istiyorsanız, bu dersin ardından **BTC 102** kursunu almanızı şiddetle tavsiye ederim. Orada, profilinize, ihtiyaçlarınıza ve kişisel hedeflerinize uygun araç önerilerini de keşfedeceksiniz:
+
 ## Hiper-bitcoinizasyon
 
 

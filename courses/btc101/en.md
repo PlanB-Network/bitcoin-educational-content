@@ -1164,6 +1164,8 @@ In addition, there are several [marketplaces](https://planb.network/tutorials/ex
 
 Finally, it is important to note that tax obligations may vary depending on the jurisdiction, so we strongly encourage you to consult the regulations in your country before taking any actions that could put you at risk.
 
+If you wish to deepen your knowledge of strategies for purchasing, using, and securing your bitcoins, I strongly recommend taking the **BTC 102** course after this one. There you will discover, among other things, tool recommendations suited to your profile, needs, and personal goals:
+
 ## Hyper-bitcoinization
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

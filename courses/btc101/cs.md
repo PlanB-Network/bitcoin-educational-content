@@ -1170,6 +1170,8 @@ Kromě toho existuje několik [tržišť](https://planb.network/tutorials/exchan
 
 V neposlední řadě je důležité upozornit, že daňové povinnosti se mohou lišit v závislosti na jurisdikci, a proto vám doporučujeme, abyste se před podniknutím jakýchkoli kroků, které by vás mohly ohrozit, seznámili s předpisy ve vaší zemi.
 
+Pokud si přejete prohloubit své znalosti o strategiích nákupu, používání a zabezpečení vašich bitcoinů, důrazně vám doporučuji absolvovat kurz **BTC 102** po tomto. Objevíte tam mimo jiné doporučení nástrojů přizpůsobených vašemu profilu, vašim potřebám a osobním cílům:
+
 ## Hyperbitcoinizace
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

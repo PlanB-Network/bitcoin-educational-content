@@ -6,4 +6,4 @@ wrong_answers:
   - sudo sasisha-yote
 explanation: |
   Kwenye Ubuntu (na Debian), amri ya "sudo apt update && sudo apt upgrade" inasawazisha orodha ya kifurushi na kusakinisha masasisho yote yanayopatikana.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - 1024 MB
 explanation: |
   Par défaut, Bitcoin Core limite la mempool à 300 MB. Au-delà, il expulse les transactions moins rémunératrices.
-reviewed: false
+reviewed: true 

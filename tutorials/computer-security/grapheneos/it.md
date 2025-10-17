@@ -318,7 +318,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 - [Proton Drive](https://proton.me/drive/download) è una soluzione cloud a pagamento con crittografia end-to-end per il backup e la memorizzazione di tutti i tuoi file. Al momento della stesura, hanno appena annunciato un client desktop per Windows, ma gli utenti Mac e Linux devono continuare a utilizzare la versione web per la sincronizzazione dai loro computer (per ora). Il client Android è disponibile come APK o tramite Aurora.
 - [Skiff](https://skiff.com/download) offre anche un servizio di archiviazione cloud a pagamento con crittografia end-to-end e strumenti di collaborazione sui file. Offrono un client desktop per Mac e Windows (oltre a un'app web) e i loro client Android devono essere scaricati da Aurora.
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) offre una soluzione basata su cloud completa per la collaborazione, la sincronizzazione tra dispositivi e l'archiviazione dei file. Gli utenti più esperti possono scegliere di ospitare autonomamente il loro software gratuito e open source su qualsiasi hardware desiderino. I client Android possono essere scaricati tramite F-Droid.
-- [Cryptpad](https://cryptpad.fr/) offre un'alternativa gratuita basata sul web a Google Docs con crittografia end-to-end.
+- [Cryptpad](https://cryptpad.fr/) offre un'alternativa gratuita a Google Docs, basata sul web, con crittografia end-to-end.
 
 ![image](assets/fr/23.webp)
 

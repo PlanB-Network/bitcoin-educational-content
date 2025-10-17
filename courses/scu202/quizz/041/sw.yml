@@ -6,4 +6,4 @@ wrong_answers:
   - Msimbo kamili wa chanzo cha mradi
 explanation: |
   Faili ya maelezo au faili ya SHA256SUMS ina Hash ya kila faili inayosambazwa na mradi, na kuwezesha uadilifu wake kuthibitishwa.
-reviewed: false
+reviewed: true

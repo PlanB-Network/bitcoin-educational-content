@@ -6,4 +6,4 @@ wrong_answers:
   - Pour réduire la difficulté de minage
 explanation: |
   Les mineurs utilisent un nœud pour communiquer avec le réseau, transmettre leurs blocs et recevoir les transactions.
-reviewed: false
+reviewed: true 

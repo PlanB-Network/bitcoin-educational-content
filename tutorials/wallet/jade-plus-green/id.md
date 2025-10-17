@@ -199,69 +199,68 @@ Dompet bitcoin telah dibuat.
 
 ## Membuat akun Bitcoin
 
-Sekarang Anda harus membuat akun dalam portofolio Anda. Klik tombol "*Buat akun*".
-
+Sekarang kamu perlu membuat akun di portofolio kamu. Klik tombol *Buat akun.*
 ![JADE-PLUS-GREEN](assets/fr/28.webp)
 
-Pilih "*Standard*" jika Anda ingin membuat portofolio single-sig klasik.
+Pilih "*Standard*" jika kamu ingin membuat portofolio single-sig klasik.
 
 ![JADE-PLUS-GREEN](assets/fr/29.webp)
 
-Untuk informasi lebih lanjut tentang opsi "*2FA*", Anda dapat mengikuti tutorial lainnya:
+Untuk informasi lebih lanjut tentang opsi "*2FA*", kamu bisa mengikuti tutorial lainnya:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
-Akun Anda telah dibuat.
+Akun sudah dibuat.
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
 
-Jika Anda ingin mempersonalisasi portofolio Green Anda, klik pada tiga titik kecil di kanan atas.
+Kalau kamu mau menyesuaikan tampilan portofolio Green kamu, klik tiga titik kecil di pojok kanan atas.
 
 ![JADE-PLUS-GREEN](assets/fr/31.webp)
 
-Opsi "*Rename*" memungkinkan Anda menyesuaikan nama portofolio Anda, yang sangat berguna jika Anda mengelola beberapa portofolio pada aplikasi yang sama. Menu "*Unit*" memungkinkan Anda mengubah unit dasar portofolio Anda. Sebagai contoh, Anda bisa memilih untuk menampilkannya dalam satuan satoshi daripada bitcoin. Terakhir, menu "*Parameter*" memberikan Anda akses ke opsi-opsi lain. Di sini, misalnya, Anda akan menemukan kunci publik yang diperluas dan deskriptornya, yang berguna jika Anda berencana untuk membuat dompet khusus jam tangan dari Jade Anda.
+Opsi *Rename* memungkinkan kamu mengubah nama portofolio kamu, yang berguna banget kalau kamu mengelola beberapa portofolio di aplikasi yang sama. Menu *Unit* memungkinkan kamu mengganti satuan dasar portofolio, misalnya menampilkannya dalam satoshi daripada bitcoin. Terakhir, menu *Parameter* memberi kamu akses ke opsi lain. Di sini kamu bisa menemukan extended public key dan deskriptornya, yang berguna kalau kamu berencana membuat watch-only wallet dari Jade kamu.
 
 ![JADE-PLUS-GREEN](assets/fr/32.webp)
 
-Untuk menyambungkan kembali ke Jade Anda setelah mematikannya, tekan tombol on/off di bagian bawah perangkat. Pada aplikasi Hijau, pilih perangkat Anda dari halaman beranda:
+Untuk menyambungkan kembali ke Jade kamu setelah dimatikan, tekan tombol on/off di bagian bawah perangkat. Di aplikasi Green, pilih perangkat kamu dari halaman beranda:
 
 ![JADE-PLUS-GREEN](assets/fr/33.webp)
 
-Kemudian masukkan kode PIN pada Jade Anda, dan Anda akan terhubung kembali.
+Lalu masukkan kode PIN di Jade kamu, dan kamu akan langsung terhubung kembali.
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Jade Anda dibuka kuncinya melalui "elemen aman virtual" Blockstream (lihat bagian pertama tutorial ini). Hal ini memerlukan koneksi Bluetooth dengan aplikasi Green. Jika Anda mengalami kesulitan dengan koneksi Bluetooth saat membuka kunci, coba pisahkan dan hubungkan kembali kedua perangkat. Jika masalah masih berlanjut, Anda masih dapat membuka kunci Jade Anda dengan memilih opsi "*QR Scan*" dan mengikuti petunjuk yang tersedia [di situs web Blockstream] (https://jadefw.blockstream.com/pinqr/index.html).
+Jade kamu akan terbuka lewat *virtual secure element* dari Blockstream (lihat bagian pertama tutorial ini). Proses ini butuh koneksi Bluetooth dengan aplikasi Green. Kalau kamu mengalami masalah saat membuka kunci lewat Bluetooth, coba lepaskan dulu koneksi antarperangkat lalu sambungkan lagi. Kalau masih belum berhasil, kamu bisa membuka kunci Jade dengan memilih opsi *QR Scan* dan mengikuti petunjuk yang tersedia. [di situs web Blockstream] (https://jadefw.blockstream.com/pinqr/index.html).
 
-Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di aplikasi Green dan di Jade Plus ketika masih kosong (`Options -> Device -> Factory Reset`). Kemudian coba pulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tuliskan sebelumnya. Jika sesuai, Anda dapat yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut mengenai cara melakukan pemulihan uji coba, silakan baca tutorial lainnya:
+Sebelum kamu menerima bitcoin pertama di dompet kamu, **aku sangat nyaranin buat melakukan tes pemulihan kosong.** Catat beberapa informasi penting seperti xpub atau alamat penerima pertamamu, lalu hapus wallet kamu di aplikasi Green dan di Jade Plus saat masih kosong (`Options -> Device -> Factory Reset`). Setelah itu, coba pulihkan dompet kamu pakai cadangan kertas berisi seedphrase. Cek apakah data seperti xpub yang muncul setelah pemulihan sama dengan yang kamu catat sebelumnya. Kalau sama, berarti cadangan kertas kamu bisa diandalkan. Untuk tahu lebih lanjut soal cara melakukan pemulihan uji coba, kamu bisa baca tutorial lainnya:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Menerima bitcoin
 
-Setelah dompet Bitcoin Anda siap, Anda siap untuk menerima satoshi pertama Anda! Cukup klik tombol "*Terima*" pada aplikasi berwarna hijau.
+Setelah dompet Bitcoin kamu siap, kamu udah siap buat menerima satoshi pertamamu! Cukup klik tombol *Terima* di aplikasi Green.
 
 ![JADE-PLUS-GREEN](assets/fr/35.webp)
 
-Warna hijau menampilkan alamat penerimaan, tetapi sebelum menggunakannya, sangat penting untuk memeriksanya di Jade untuk mengonfirmasi bahwa alamat tersebut benar-benar milik portofolio kami. Untuk melakukannya, klik tombol "*Verify on device*".
+Warna hijau akan menampilkan alamat penerimaan, tapi sebelum kamu menggunakannya, penting banget buat memverifikasi alamat itu di Jade supaya kamu yakin kalau alamat tersebut benar-benar milik portofolio kamu. Untuk melakukannya, klik tombol *Verify on device.*
 
 ![JADE-PLUS-GREEN](assets/fr/36.webp)
 
-Periksa pada Jade bahwa alamatnya sama dengan yang ada di Green, lalu klik tombol untuk mengonfirmasi.
+Cek di Jade apakah alamatnya sama persis dengan yang ditampilkan di Green, lalu tekan tombol untuk mengonfirmasi.
 
 ![JADE-PLUS-GREEN](assets/fr/37.webp)
 
-Sekarang Anda bisa membagikan alamat tersebut kepada pembayar untuk menerima bitcoin di dompet Anda. Ketika transaksi disiarkan di jaringan, transaksi tersebut akan muncul di dompet Anda. Tunggu hingga Anda menerima konfirmasi yang cukup untuk menganggap transaksi tersebut sudah pasti.
+Sekarang kamu bisa membagikan alamat itu ke pengirim untuk menerima bitcoin di dompet kamu. Begitu transaksinya disiarkan ke jaringan, transaksi itu akan muncul di dompet kamu. Tunggu sampai kamu menerima cukup konfirmasi supaya transaksinya bisa dianggap benar-benar final.
 
 ![JADE-PLUS-GREEN](assets/fr/38.webp)
 
 ## Kirim bitcoin
 
-Dengan bitcoin di dompet Anda, Anda sekarang juga dapat mengirim bitcoin. Klik "*Kirim*".
+Setelah ada bitcoin di dompet kamu, sekarang kamu juga bisa mengirimnya. Klik Kirim.
 
 ![JADE-PLUS-GREEN](assets/fr/39.webp)
 
-Pada halaman berikutnya, masukkan alamat penerima. Anda dapat memasukkannya secara manual atau memindai kode QR.
+Pada halaman berikutnya, masukkan alamat penerima. Kamu bisa memasukkannya secara manual atau memindai kode QR.
 
 ![JADE-PLUS-GREEN](assets/fr/40.webp)
 
@@ -269,7 +268,7 @@ Pilih jumlah pembayaran.
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-Di bagian bawah layar, Anda dapat memilih tarif biaya untuk transaksi ini. Anda dapat memilih untuk mengikuti rekomendasi aplikasi atau menyesuaikan biaya Anda. Semakin tinggi biaya dalam kaitannya dengan transaksi tertunda lainnya, semakin cepat transaksi Anda akan diproses. Untuk informasi pasar biaya, silakan kunjungi [Mempool.space] (https://mempool.space/) di bagian "*Biaya Transaksi*".
+Di bagian bawah layar, kamu bisa memilih tarif biaya untuk transaksi ini. Kamu bisa mengikuti rekomendasi dari aplikasi atau menyesuaikan biayanya sendiri. Semakin tinggi biaya dibandingkan transaksi lain yang masih menunggu, semakin cepat transaksi kamu akan diproses. Untuk melihat informasi pasar biaya, kunjungi: [Mempool.space] (https://mempool.space/) di bagian "*Biaya Transaksi*".
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 
@@ -281,7 +280,7 @@ Jika semua berjalan lancar, geser tombol hijau di bagian bawah layar ke kanan un
 
 ![JADE-PLUS-GREEN](assets/fr/44.webp)
 
-Anda sekarang diminta untuk mengonfirmasi transaksi di Jade.
+Sekarang kamu akan diminta untuk mengonfirmasi transaksi di Jade.
 
 ![JADE-PLUS-GREEN](assets/fr/45.webp)
 
@@ -293,13 +292,13 @@ Periksa apakah jumlah tagihan sudah benar, lalu validasi.
 
 ![JADE-PLUS-GREEN](assets/fr/47.webp)
 
-Transaksi Anda telah ditandatangani dan disiarkan dari Green.
+Transaksi kamu sudah ditandatangani dan disiarkan lewat Green.
 
 ![JADE-PLUS-GREEN](assets/fr/48.webp)
 
-Selamat, sekarang Anda sudah mengetahui cara mengatur dan menggunakan Jade Plus dengan aplikasi seluler Blockstream Green, melalui koneksi Bluetooth. Jika Anda merasa tutorial ini bermanfaat, saya akan berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih telah berbagi!
+Selamat, sekarang kamu sudah tahu cara mengatur dan menggunakan Jade Plus dengan aplikasi seluler Blockstream Green melalui koneksi Bluetooth. Kalau kamu merasa tutorial ini bermanfaat, aku akan sangat berterima kasih kalau kamu memberi jempol hijau di bawah. Jangan ragu untuk membagikan artikel ini di jejaring sosialmu. Terima kasih sudah membagikannya!
 
-Untuk melangkah lebih jauh, saya merekomendasikan tutorial tentang Jade Plus ini, di mana kita mengonfigurasikannya dengan perangkat lunak Sparrow Wallet dalam mode QR. Anda juga akan mempelajari cara menggunakan pengaturan lanjutan dari dompet perangkat keras Anda:
+Untuk langkah selanjutnya, aku rekomendasikan tutorial Jade Plus ini, di mana kita mengonfigurasi perangkat dengan Sparrow Wallet dalam mode QR. Kamu juga akan mempelajari cara memakai pengaturan lanjutan pada dompet perangkat kerasmu.:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Rien, car chaque nœud dispose d'un droit de vote
 explanation: |
   L’influence sur les règles de consensus dépend de l’activité économique soutenue par le nœud, et non de leur nombre.
-reviewed: false
+reviewed: true 

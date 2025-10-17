@@ -6,4 +6,4 @@ wrong_answers:
   - Berkeley DB
 explanation: |
   Bitcoin Core utilise LevelDB dans blocks/index/ pour indexer les blocs, afin d'accélérer leur recherche et leur service aux pairs.
-reviewed: false
+reviewed: true 

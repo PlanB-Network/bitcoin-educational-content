@@ -46,6 +46,12 @@ Kisha utaweka mtekelezaji mdogo wa _Script_, kupitia opcodes muhimu, na kuthibit
 
 ### Utendaji wa Ndani wa Mtandao wa Bitcoin
 
+Katika sehemu ya tatu, utaweka muamala ndani ya mfumo mpana zaidi: muundo wa bloku, vichwa, ugumu, na utaratibu wa Proof-of-Work. Utashughulikia ujumbe wa itifaki, vichwa vya bloku, na miti ya Merkle.
+
+Hatimaye, utajifunza mawasiliano ya nodi za peer-to-peer, uboreshaji wa ujumbe, na utangulizi wa SegWit.
+
+Kama ilivyo kwa kila kozi kwenye Plan ₿ Academy, sehemu ya mwisho inajumuisha tathmini iliyoundwa ili kuimarisha uelewa wako. Uko tayari kugundua jinsi Bitcoin inavyofanya kazi ndani na kuandika msimbo unaoiendesha? Hebu tuanze!
+
 # Dhana Muhimu za Hisabati kwa Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

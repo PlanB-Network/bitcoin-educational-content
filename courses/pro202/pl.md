@@ -46,6 +46,12 @@ Następnie zaimplementujesz minimalny wykonawca _Script_, przeanalizujesz kluczo
 
 ### Wewnętrzne działanie sieci Bitcoina
 
+W trzeciej części umieścisz transakcję w szerszym systemie: struktura bloku, nagłówki, trudność i mechanizm Proof-of-Work. Będziesz obsługiwać komunikaty protokołu, nagłówki bloków i drzewa Merkle’a.
+
+Na koniec przeanalizujesz komunikację między węzłami peer-to-peer, optymalizację wiadomości oraz wprowadzenie SegWit.
+
+Jak w każdym kursie na Plan ₿ Academy, ostatnia sekcja zawiera ocenę zaprojektowaną tak, aby utrwalić twoje zrozumienie. Gotowy odkryć wewnętrzne mechanizmy Bitcoina i napisać kod, który go napędza? Zaczynajmy!
+
 # Podstawowe pojęcia matematyczne dla Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

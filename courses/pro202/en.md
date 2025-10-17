@@ -45,9 +45,7 @@ In the third section, you will place the transaction within the broader system: 
 
 Finally, you will study peer-to-peer node communication, message optimization, and the introduction of SegWit.
 
-As with every course on Plan ₿ Academy, the final section includes an evaluation designed to consolidate your understanding.
-
-Ready to uncover the inner workings of Bitcoin and write the code that powers it? Let’s begin!
+As with every course on Plan ₿ Academy, the final section includes an evaluation designed to consolidate your understanding. Ready to uncover the inner workings of Bitcoin and write the code that powers it? Let’s begin!
 
 
 

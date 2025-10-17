@@ -46,6 +46,12 @@ Successivamente implementerai un esecutore _Script_ minimale, esaminerai gli opc
 
 ### Funzionamento interno della rete Bitcoin
 
+Nella terza sezione, collocherai la transazione all’interno del sistema più ampio: struttura del blocco, intestazioni, difficoltà e meccanismo di Proof-of-Work. Gestirai i messaggi di protocollo, le intestazioni dei blocchi e gli alberi di Merkle.
+
+Infine, studierai la comunicazione tra nodi peer-to-peer, l’ottimizzazione dei messaggi e l’introduzione di SegWit.
+
+Come in ogni corso della Plan ₿ Academy, la sezione finale include una valutazione progettata per consolidare la tua comprensione. Pronto a scoprire il funzionamento interno di Bitcoin e a scrivere il codice che lo alimenta? Iniziamo!
+
 # Concetti matematici essenziali per Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -46,6 +46,12 @@ Zatim ćeš implementirati minimalni _Script_ izvršilac, pregledati ključne op
 
 ### Unutrašnje funkcionisanje Bitcoin mreže
 
+U trećem odeljku ćeš smestiti transakciju u širi sistem: strukturu bloka, heder, težinu i Proof-of-Work mehanizam. Radićeš sa protokolnim porukama, hederima blokova i Merkle stablima.
+
+Na kraju ćeš proučavati komunikaciju između peer-to-peer čvorova, optimizaciju poruka i uvođenje SegWit-a.
+
+Kao i kod svakog kursa na Plan ₿ Academy, završni deo uključuje evaluaciju osmišljenu da učvrsti tvoje razumevanje. Spreman si da otkriješ unutrašnje funkcionisanje Bitcoina i napišeš kod koji ga pokreće? Hajde da počnemo!
+
 # Osnovni matematički koncepti za Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

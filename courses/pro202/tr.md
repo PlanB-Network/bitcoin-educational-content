@@ -46,6 +46,12 @@ Sonraki adımda, minimal bir _Script_ yürütücü uygulayacak, temel opkodları
 
 ### Bitcoin Ağının İç Yapısı
 
+Üçüncü bölümde, işlemi daha geniş bir sistem içine yerleştireceksiniz: blok yapısı, başlıklar, zorluk ve İş Kanıtı (Proof-of-Work) mekanizması. Protokol mesajlarını, blok başlıklarını ve Merkle ağaçlarını ele alacaksınız.
+
+Son olarak, eşler arası (peer-to-peer) düğüm iletişimini, mesaj optimizasyonunu ve SegWit’in tanıtımını inceleyeceksiniz.
+
+Plan ₿ Academy'deki her derste olduğu gibi, son bölüm anlayışınızı pekiştirmek için tasarlanmış bir değerlendirme içerir. Bitcoin’in iç işleyişini ortaya çıkarmaya ve onu çalıştıran kodu yazmaya hazır mısınız? Haydi başlayalım!
+
 # Bitcoin için Temel Matematiksel Kavramlar
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

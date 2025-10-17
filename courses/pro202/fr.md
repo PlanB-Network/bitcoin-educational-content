@@ -50,6 +50,12 @@ Ensuite, vous mettrez en œuvre un exécuteur _Script_ minimal, passerez en revu
 
 ### Fonctionnement interne du réseau Bitcoin
 
+Dans la troisième section, vous replacerez la transaction dans le système global : structure des blocs, en-têtes, difficulté et mécanisme de preuve de travail (Proof-of-Work). Vous manipulerez les messages du protocole, les en-têtes de blocs et les arbres de Merkle.
+
+Enfin, vous étudierez la communication entre nœuds pair à pair, l’optimisation des messages et l’introduction de SegWit.
+
+Comme pour chaque cours de la Plan ₿ Academy, la section finale comprend une évaluation conçue pour consolider votre compréhension. Prêt à découvrir le fonctionnement interne de Bitcoin et à écrire le code qui le fait tourner ? Commençons !
+
 # Concepts mathématiques essentiels pour Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

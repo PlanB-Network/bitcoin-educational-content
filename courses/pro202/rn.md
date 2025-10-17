@@ -46,6 +46,12 @@ Hanyuma uzoshira mu bikorwa umukozi muto wa _Script_, usuzume amadosiye y’inge
 
 ### Uko urusobe rwa Bitcoin rukora imbere
 
+Mu gice ca gatatu, uzoshira transakosiyo mu buryo bwagutse bw’igisata: imiterere y’umutumba, imitwe, urwego rw’uburemere hamwe n’imikorere ya Proof-of-Work. Uzokorana n’ubutumwa bwa porotokole, imitwe y’imitumba hamwe n’ibiti vya Merkle.
+
+Mu nyuma y’ivyo, uziga uburyo bwo guhanahana amakuru hagati y’utuzu twa peer-to-peer, kunonosora ubutumwa, hamwe no kumenyekanisha SegWit.
+
+Nk’uko biri muri buri somo rya Plan ₿ Academy, igice ca nyuma kirimwo isuzuma ryateguwe kugira ngo rikomeze ubumenyi bwawe. Witeguye kumenya uburyo Bitcoin ikora imbere no kwandika kode iyiyobora? Tureke dutangure!
+
 # Ivyiyumviro vy'ingenzi vy'imibare vya Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

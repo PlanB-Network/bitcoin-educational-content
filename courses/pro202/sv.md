@@ -46,6 +46,12 @@ Därefter kommer du att implementera en minimal _Script_-tolk, granska viktiga o
 
 ### Den inre funktionen hos Bitcoin-nätverket
 
+I det tredje avsnittet kommer du att placera transaktionen inom det bredare systemet: blockstruktur, rubriker, svårighetsgrad och Proof-of-Work-mekanismen. Du kommer att hantera protokollmeddelanden, blockrubriker och Merkle-träd.
+
+Slutligen kommer du att studera peer-to-peer-nodkommunikation, meddelandeoptimering och introduktionen av SegWit.
+
+Som med varje kurs på Plan ₿ Academy innehåller det sista avsnittet en utvärdering som är utformad för att befästa din förståelse. Redo att avslöja Bitcoins inre funktioner och skriva koden som driver det? Låt oss börja!
+
 # Grundläggande matematiska begrepp för Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

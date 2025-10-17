@@ -46,6 +46,12 @@ Tiếp theo, bạn sẽ triển khai một trình thực thi _Script_ tối gi�
 
 ### Cơ chế hoạt động bên trong của mạng Bitcoin
 
+Trong phần thứ ba, bạn sẽ đặt giao dịch trong hệ thống tổng thể: cấu trúc khối, tiêu đề, độ khó và cơ chế Proof-of-Work. Bạn sẽ xử lý các thông điệp giao thức, tiêu đề khối và cây Merkle.
+
+Cuối cùng, bạn sẽ nghiên cứu giao tiếp giữa các nút ngang hàng (peer-to-peer), tối ưu hóa thông điệp và việc giới thiệu SegWit.
+
+Giống như mọi khóa học tại Plan ₿ Academy, phần cuối cùng bao gồm một bài đánh giá được thiết kế để củng cố sự hiểu biết của bạn. Sẵn sàng khám phá cách hoạt động bên trong của Bitcoin và viết mã để vận hành nó chưa? Hãy bắt đầu nào!
+
 # Các khái niệm toán học thiết yếu cho Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

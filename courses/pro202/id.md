@@ -46,6 +46,12 @@ Selanjutnya, Anda akan mengimplementasikan eksekutor _Script_ minimal, meninjau 
 
 ### Mekanisme Internal Jaringan Bitcoin
 
+Pada bagian ketiga, Anda akan menempatkan transaksi dalam sistem yang lebih luas: struktur blok, header, tingkat kesulitan, dan mekanisme Proof-of-Work. Anda akan menangani pesan protokol, header blok, dan pohon Merkle.
+
+Akhirnya, Anda akan mempelajari komunikasi node peer-to-peer, optimalisasi pesan, dan pengenalan SegWit.
+
+Seperti setiap kursus di Plan ₿ Academy, bagian terakhir mencakup evaluasi yang dirancang untuk memperkuat pemahaman Anda. Siap untuk mengungkap cara kerja internal Bitcoin dan menulis kode yang menggerakkannya? Mari kita mulai!
+
 # Konsep Matematika Esensial untuk Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

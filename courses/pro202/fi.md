@@ -46,6 +46,12 @@ Seuraavaksi toteutat minimaalisen _Script_-suorittimen, tarkastelet keskeisiä o
 
 ### Bitcoin-verkon sisäinen toiminta
 
+Kolmannessa osassa sijoitat transaktion laajempaan järjestelmään: lohkorakenne, otsikot, vaikeustaso ja Proof-of-Work-mekanismi. Käsittelet protokollaviestejä, lohko-otsikoita ja Merkle-puita.
+
+Lopuksi tutkit vertaisverkkojen solmujen välistä viestintää, viestien optimointia ja SegWitin käyttöönottoa.
+
+Kuten kaikilla Plan ₿ Academy -kursseilla, myös lopussa on arviointi, joka on suunniteltu vahvistamaan ymmärrystäsi. Oletko valmis paljastamaan Bitcoinin sisäisen toiminnan ja kirjoittamaan sen taustalla olevan koodin? Aloitetaan!
+
 # Bitcoin:n keskeiset matemaattiset käsitteet
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

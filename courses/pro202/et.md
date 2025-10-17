@@ -46,6 +46,12 @@ Seejärel rakendad minimaalset _Script_-täiturit, vaatad läbi peamised opkoodi
 
 ### Bitcoini võrgu sisemine toimimine
 
+Kolmandas osas paigutad tehingu laiemasse süsteemi: ploki struktuur, päised, raskusaste ja Proof-of-Work mehhanism. Töötad protokollisõnumite, plokipäiste ja Merkle puudega.
+
+Lõpuks uurid võrgu võrgu (peer-to-peer) sõlmedevahelist suhtlust, sõnumi optimeerimist ja SegWiti kasutuselevõttu.
+
+Nagu kõigis Plan ₿ Academy kursustes, sisaldab ka lõpuosa hindamist, mis on loodud sinu arusaama kinnistamiseks. Oled valmis avastama Bitcoini sisemist toimimist ja kirjutama koodi, mis seda käitab? Alustame!
+
 # Olulised matemaatilised mõisted Bitcoin jaoks
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

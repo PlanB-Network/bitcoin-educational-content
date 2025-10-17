@@ -46,6 +46,12 @@ Dále implementujete minimalistický vykonavatel _Scriptu_, přezkoumáte klíč
 
 ### Vnitřní fungování bitcoinové sítě
 
+Ve třetí části umístíte transakci do širšího systému: struktura bloku, hlavičky, obtížnost a mechanismus Proof-of-Work. Budete pracovat s protokolovými zprávami, hlavičkami bloků a Merkleho stromy.
+
+Nakonec se budete zabývat komunikací uzlů peer-to-peer, optimalizací zpráv a zavedením SegWitu.
+
+Stejně jako u každého kurzu na Plan ₿ Academy obsahuje závěrečná část hodnocení navržené tak, aby upevnilo vaše porozumění. Jste připraveni odhalit vnitřní fungování Bitcoinu a napsat kód, který jej pohání? Začněme!
+
 # Základní matematické pojmy pro Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

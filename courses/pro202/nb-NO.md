@@ -46,6 +46,12 @@ Deretter vil du implementere en minimal _Script_-utfører, gjennomgå viktige op
 
 ### Den indre virkemåten til Bitcoin-nettverket
 
+I den tredje delen vil du plassere transaksjonen innenfor det bredere systemet: blokkstruktur, overskrifter, vanskelighetsgrad og Proof-of-Work-mekanismen. Du vil håndtere protokollmeldinger, blokkoverskrifter og Merkle-trær.
+
+Til slutt vil du studere kommunikasjon mellom peer-to-peer-noder, meldingsoptimalisering og introduksjonen av SegWit.
+
+Som med alle kursene på Plan ₿ Academy, inkluderer den siste delen en evaluering utformet for å styrke forståelsen din. Klar til å avdekke de indre mekanismene i Bitcoin og skrive koden som driver det? La oss begynne!
+
 # Grunnleggende matematiske begreper for Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

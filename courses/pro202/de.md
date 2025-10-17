@@ -46,6 +46,12 @@ Als Nächstes implementieren Sie einen minimalen _Script_-Interpreter, überprü
 
 ### Das Innenleben des Bitcoin-Netzwerks
 
+Im dritten Abschnitt werden Sie die Transaktion in das größere System einordnen: Blockstruktur, Header, Schwierigkeit und den Proof-of-Work-Mechanismus. Sie werden mit Protokollnachrichten, Block-Headern und Merkle-Bäumen arbeiten.
+
+Abschließend werden Sie die Peer-to-Peer-Knotenkommunikation, Nachrichtenoptimierung und die Einführung von SegWit untersuchen.
+
+Wie bei jedem Kurs an der Plan ₿ Academy enthält der letzte Abschnitt eine Bewertung, die darauf ausgelegt ist, Ihr Verständnis zu festigen. Bereit, die inneren Abläufe von Bitcoin zu entdecken und den Code zu schreiben, der es antreibt? Los geht’s!
+
 # Grundlegende mathematische Konzepte für Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

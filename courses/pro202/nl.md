@@ -46,6 +46,12 @@ Vervolgens implementeer je een minimale _Script_-uitvoerder, bekijk je belangrij
 
 ### De interne werking van het Bitcoin-netwerk
 
+In het derde deel plaats je de transactie binnen het bredere systeem: blokstructuur, headers, moeilijkheidsgraad en het Proof-of-Work-mechanisme. Je zult protocolberichten, blokheaders en Merkle-bomen behandelen.
+
+Tot slot bestudeer je peer-to-peer-knooppuntcommunicatie, berichtoptimalisatie en de introductie van SegWit.
+
+Zoals bij elke cursus op Plan ₿ Academy bevat het laatste gedeelte een evaluatie die is ontworpen om je begrip te versterken. Klaar om de interne werking van Bitcoin te ontdekken en de code te schrijven die het aandrijft? Laten we beginnen!
+
 # Essentiële wiskundige concepten voor Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -34,6 +34,12 @@ Tällä kurssilla rakennat vaiheittain Bitcoin-kirjaston Pythonissa samalla kun 
 
 ### Bitcoini keskeiset matemaattiset käsitteet
 
+Tämä ensimmäinen osio luo välttämättömän matemaattisen perustan. Toteutat äärellisten kenttien aritmetiikan ja elliptisten käyrien operaatiot (ryhmälaki, yhteenlasku, kaksinkertaistus, skalaaritulo...) — ECDSA:n edellytykset. Tavoite on kaksitahoinen: ymmärtää algebraattinen rakenne, joka mahdollistaa kryptografiset allekirjoitukset, ja rakentaa luotettavia Python-työkaluja niiden käsittelyyn.
+
+Tämän jälkeen muodollistat ECDSA:n komponentit: avaimen generoinnin, pisteiden muotoilun, hashauksen, allekirjoituksen luomisen ja tarkistamisen. Tämä osio yhdistää teorian suoraan käytäntöön ja korostaa toteutuksen yksityiskohtia sekä taustalla olevan turvallisuusmallin luotettavuutta.
+
+### Bitcoin-siirron sisäinen toiminta
+
 # Bitcoin:n keskeiset matemaattiset käsitteet
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

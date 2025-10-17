@@ -34,6 +34,12 @@ Trong khóa học này, bạn sẽ từng bước xây dựng một thư viện 
 
 ### Các khái niệm toán học cơ bản cho Bitcoin
 
+Phần đầu tiên này thiết lập nền tảng toán học không thể thiếu. Bạn sẽ triển khai số học trường hữu hạn và các phép toán trên đường cong elliptic (định luật nhóm, cộng, nhân đôi, nhân vô hướng...) — những điều kiện tiên quyết cho ECDSA. Mục tiêu có hai: hiểu cấu trúc đại số làm cho chữ ký mật mã trở nên khả thi và xây dựng các công cụ Python đáng tin cậy để thao tác chúng.
+
+Sau đó, bạn sẽ chính thức hóa các thành phần của ECDSA: tạo khóa, định dạng điểm, băm, tạo và xác minh chữ ký. Phần này kết nối trực tiếp giữa lý thuyết và thực hành, nhấn mạnh các chi tiết triển khai và tính vững chắc của mô hình bảo mật cơ bản.
+
+### Cơ chế hoạt động bên trong của giao dịch Bitcoin
+
 # Các khái niệm toán học thiết yếu cho Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

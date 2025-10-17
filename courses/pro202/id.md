@@ -34,6 +34,12 @@ Dalam kursus ini, Anda akan secara bertahap membangun pustaka Bitcoin di Python 
 
 ### Konsep Matematika Penting untuk Bitcoin
 
+Bagian pertama ini menetapkan landasan matematika yang tak tergantikan. Anda akan mengimplementasikan aritmetika bidang hingga dan operasi kurva elips (hukum grup, penjumlahan, penggandaan, perkalian skalar...) — prasyarat untuk ECDSA. Tujuannya dua: memahami struktur aljabar yang membuat tanda tangan kriptografis mungkin dan membangun alat Python yang andal untuk memanipulasinya.
+
+Kemudian Anda akan memformalkan komponen ECDSA: pembuatan kunci, pemformatan titik, hashing, pembuatan tanda tangan, dan verifikasi. Bagian ini secara langsung menghubungkan teori dengan praktik, menekankan detail implementasi dan ketangguhan model keamanan yang mendasarinya.
+
+### Mekanisme Internal Transaksi Bitcoin
+
 # Konsep Matematika Esensial untuk Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

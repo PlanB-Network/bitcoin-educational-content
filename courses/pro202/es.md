@@ -34,6 +34,12 @@ En este curso, construirás progresivamente una biblioteca de Bitcoin en Python 
 
 ### Conceptos matemáticos esenciales para Bitcoin
 
+Esta primera sección establece los fundamentos matemáticos indispensables. Implementarás aritmética de campos finitos y operaciones en curvas elípticas (ley de grupo, suma, duplicación, multiplicación escalar...) — los prerrequisitos para ECDSA. El objetivo es doble: comprender la estructura algebraica que hace posibles las firmas criptográficas y construir herramientas fiables en Python para manipularlas.
+
+A continuación, formalizarás los componentes de ECDSA: generación de claves, formato de puntos, hashing, creación y verificación de firmas. Esta sección conecta directamente la teoría con la práctica, destacando los detalles de implementación y la solidez del modelo de seguridad subyacente.
+
+### Funcionamiento interno de una transacción de Bitcoin
+
 # Conceptos matemáticos esenciales para Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -34,6 +34,12 @@ V tomto kurzu budete postupně vytvářet bitcoinovou knihovnu v Pythonu a záro
 
 ### Základní matematické koncepty pro Bitcoin
 
+Tato první část vytváří nezbytné matematické základy. Implementujete aritmetiku konečných polí a operace na eliptických křivkách (grupový zákon, sčítání, zdvojení, násobení skalárem...) — předpoklady pro ECDSA. Cíl je dvojnásobný: pochopit algebraickou strukturu, která umožňuje kryptografické podpisy, a vytvořit spolehlivé nástroje v Pythonu pro jejich manipulaci.
+
+Poté formalizujete komponenty ECDSA: generování klíčů, formátování bodů, hašování, vytváření a ověřování podpisů. Tato část přímo propojuje teorii s praxí, zdůrazňuje detaily implementace a robustnost základního bezpečnostního modelu.
+
+### Vnitřní fungování bitcoinové transakce
+
 # Základní matematické pojmy pro Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

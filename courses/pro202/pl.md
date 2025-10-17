@@ -34,6 +34,12 @@ W tym kursie będziesz stopniowo budować bibliotekę Bitcoina w Pythonie, jedno
 
 ### Podstawowe pojęcia matematyczne dla Bitcoina
 
+Ta pierwsza sekcja ustala niezbędne podstawy matematyczne. Zaimplementujesz arytmetykę ciał skończonych oraz operacje na krzywych eliptycznych (prawo grupy, dodawanie, podwajanie, mnożenie skalarne...) — warunki wstępne do ECDSA. Cel jest dwojaki: zrozumieć strukturę algebraiczną umożliwiającą podpisy kryptograficzne oraz zbudować niezawodne narzędzia w Pythonie do ich manipulacji.
+
+Następnie sformalizujesz komponenty ECDSA: generowanie kluczy, formatowanie punktów, haszowanie, tworzenie i weryfikację podpisów. Ta sekcja bezpośrednio łączy teorię z praktyką, podkreślając szczegóły implementacji oraz solidność podstawowego modelu bezpieczeństwa.
+
+### Wewnętrzne działanie transakcji Bitcoina
+
 # Podstawowe pojęcia matematyczne dla Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

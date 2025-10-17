@@ -34,6 +34,12 @@ In diesem Kurs werden Sie schrittweise eine Bitcoin-Bibliothek in Python erstell
 
 ### Wesentliche mathematische Konzepte für Bitcoin
 
+Dieser erste Abschnitt legt das unverzichtbare mathematische Fundament. Sie werden die Arithmetik endlicher Körper und Operationen auf elliptischen Kurven implementieren (Gruppengesetz, Addition, Verdopplung, Skalarmultiplikation...) — die Voraussetzungen für ECDSA. Das Ziel ist zweifach: die algebraische Struktur zu verstehen, die kryptografische Signaturen ermöglicht, und zuverlässige Python-Werkzeuge zu entwickeln, um damit zu arbeiten.
+
+Anschließend werden Sie die Komponenten von ECDSA formalisieren: Schlüsselgenerierung, Punktformatierung, Hashing, Signaturerstellung und -überprüfung. Dieser Abschnitt verbindet Theorie direkt mit Praxis und betont Implementierungsdetails sowie die Robustheit des zugrunde liegenden Sicherheitsmodells.
+
+### Das Innenleben einer Bitcoin-Transaktion
+
 # Grundlegende mathematische Konzepte für Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -34,6 +34,12 @@ Muri iri somo, uzagenda wubaka buhoro buhoro isomero rya Bitcoin muri Python, ka
 
 ### Ibitekerezo by’ingenzi bya siyansi y’imibare kuri Bitcoin
 
+Iyi ngingo ya mbere ishyiraho urufatiro rwa ngombwa mu mibare. Uzoshira mu bikorwa imibare y’imirima y’ikiringo n’ivyerekeye inyandiko za elliptic (itegeko ry’ishirahamwe, guteranya, gukuba kabiri, gukuba n’umubare...) — ibisabwa vya ECDSA. Intego ni ebyiri: gusobanukirwa imiterere ya algebra ituma umukono wa kripito ushoboka kandi kubaka ibikoresho vyizewe vya Python vyo kubikoresha.
+
+Nyuma y’aho uzosobanura neza ibice bigize ECDSA: ukurema imfunguzo, imiterere y’utudomo, hashing, kurema umukono no kugenzura. Iki gice gihuza neza inyigisho n’ibikorwa, gishyira imbaraga ku bisobanuro vy’ishyirwa mu bikorwa no ku bukomezi bw’icicaro c’umutekano gishingiyeho.
+
+### Uko ibikorwa vy’imbere vya transakosiyo ya Bitcoin bikora
+
 # Ivyiyumviro vy'ingenzi vy'imibare vya Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

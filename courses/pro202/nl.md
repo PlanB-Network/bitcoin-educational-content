@@ -34,6 +34,12 @@ In deze cursus bouw je stap voor stap een Bitcoin-bibliotheek in Python, terwijl
 
 ### Essentiële wiskundige concepten voor Bitcoin
 
+Deze eerste sectie legt de onmisbare wiskundige basis. Je zult de rekenkunde van eindige velden en elliptische krommebewerkingen implementeren (groepwet, optelling, verdubbeling, scalair vermenigvuldigen...) — de vereisten voor ECDSA. Het doel is tweeledig: de algebraïsche structuur begrijpen die cryptografische handtekeningen mogelijk maakt en betrouwbare Python-hulpmiddelen bouwen om deze te manipuleren.
+
+Vervolgens formaliseer je de componenten van ECDSA: sleutelaanmaak, puntopmaak, hashing, handtekeningcreatie en verificatie. Deze sectie verbindt theorie direct met praktijk en benadrukt implementatiedetails en de robuustheid van het onderliggende beveiligingsmodel.
+
+### De interne werking van een Bitcoin-transactie
+
 # Essentiële wiskundige concepten voor Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

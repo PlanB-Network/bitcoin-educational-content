@@ -34,6 +34,12 @@ Bu derste, Python’da adım adım bir Bitcoin kütüphanesi oluşturacak ve Bit
 
 ### Bitcoin için Temel Matematiksel Kavramlar
 
+Bu ilk bölüm, vazgeçilmez matematiksel temeli oluşturur. Sonlu alan aritmetiğini ve eliptik eğri işlemlerini (grup kanunu, toplama, ikiye katlama, skaler çarpma...) uygulayacaksınız — ECDSA için ön koşullar. Amaç iki yönlü: kriptografik imzaları mümkün kılan cebirsel yapıyı anlamak ve bunları işlemek için güvenilir Python araçları oluşturmak.
+
+Daha sonra ECDSA’nın bileşenlerini resmileştireceksiniz: anahtar oluşturma, nokta biçimlendirme, hashleme, imza oluşturma ve doğrulama. Bu bölüm, teoriyi doğrudan uygulamayla ilişkilendirir ve uygulama ayrıntılarını ve temel güvenlik modelinin sağlamlığını vurgular.
+
+### Bir Bitcoin İşleminin İç Yapısı
+
 # Bitcoin için Temel Matematiksel Kavramlar
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

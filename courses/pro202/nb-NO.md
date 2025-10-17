@@ -34,6 +34,12 @@ I dette kurset vil du gradvis bygge et Bitcoin-bibliotek i Python mens du tilegn
 
 ### Grunnleggende matematiske konsepter for Bitcoin
 
+Denne første seksjonen etablerer det uunnværlige matematiske grunnlaget. Du vil implementere aritmetikk over endelige felt og elliptiske kurveoperasjoner (gruppelov, addisjon, doblin g, skalarmultiplikasjon...) — forutsetningene for ECDSA. Målet er todelt: å forstå den algebraiske strukturen som gjør kryptografiske signaturer mulig, og å bygge pålitelige Python-verktøy for å manipulere dem.
+
+Deretter vil du formalisere komponentene i ECDSA: nøkkelgenerering, punktformatering, hashing, signaturopprettelse og verifisering. Denne seksjonen kobler teori direkte til praksis og fremhever implementasjonsdetaljer og robustheten i den underliggende sikkerhetsmodellen.
+
+### Den indre virkemåten til en Bitcoin-transaksjon
+
 # Grunnleggende matematiske begreper for Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

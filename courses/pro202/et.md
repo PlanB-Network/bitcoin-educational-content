@@ -34,6 +34,12 @@ Selles kursuses ehitad samm-sammult Pythonis Bitcoini teegi, omandades samal aja
 
 ### Bitcoini põhilised matemaatilised mõisted
 
+See esimene jaotis loob hädavajaliku matemaatilise aluse. Rakendad lõplike väljade aritmeetikat ja elliptiliste kõverate operatsioone (grupi seadus, liitmine, kahekordistamine, skaala korrutamine...) — ECDSA eeltingimused. Eesmärk on kahekordne: mõista algebraatilist struktuuri, mis muudab krüptograafilised allkirjad võimalikuks, ning luua usaldusväärsed Pythoniga tööriistad nende käsitlemiseks.
+
+Seejärel vormistad ECDSA komponendid: võtmete genereerimine, punktide vormindamine, räsi arvutamine, allkirjade loomine ja kontrollimine. See jaotis seob teooria otse praktikaga, rõhutades rakenduse üksikasju ja aluseks oleva turvamudeli töökindlust.
+
+### Bitcoini tehingu sisemine toimimine
+
 # Olulised matemaatilised mõisted Bitcoin jaoks
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

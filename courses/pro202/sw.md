@@ -34,6 +34,12 @@ Katika kozi hii, utaunda hatua kwa hatua maktaba ya Bitcoin kwa Python huku ukip
 
 ### Misingi Muhimu ya Kihisabati kwa Bitcoin
 
+Sehemu hii ya kwanza inaweka msingi wa muhimu wa kihisabati. Utatekeleza hesabu za uga wa mwisho na operesheni za mviringo za elliptic (sheria ya kundi, kuongeza, kuzidisha mara mbili, mizidisho ya skalari...) — masharti ya ECDSA. Lengo ni mara mbili: kuelewa muundo wa algebra unaofanya saini za usimbaji uwezowe na kujenga zana za Python zinazotegemeka kwa kuzidisha hizo.
+
+Kisha utafafanua kwa undani vipengele vya ECDSA: uundaji wa funguo, muundo wa nukta, hashing, uundaji wa sahihi, na uthibitishaji. Sehemu hii inaunganisha moja kwa moja nadharia na vitendo, ikisisitiza maelezo ya utekelezaji na uimara wa mfano wa usalama wa msingi.
+
+### Utendaji wa Ndani wa Muamala wa Bitcoin
+
 # Dhana Muhimu za Hisabati kwa Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

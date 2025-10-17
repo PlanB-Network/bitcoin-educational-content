@@ -34,6 +34,12 @@ Na ovom kursu, postepeno ćeš izgraditi Bitcoin biblioteku u Pythonu, dok stič
 
 ### Osnovni matematički koncepti za Bitcoin
 
+Ovaj prvi odeljak uspostavlja neophodne matematičke osnove. Implementiraćeš aritmetiku konačnih polja i operacije na eliptičkim krivama (grupni zakon, sabiranje, dupliranje, skalarno množenje...) — preduslove za ECDSA. Cilj je dvostruk: razumeti algebarsku strukturu koja omogućava kriptografske potpise i izgraditi pouzdane Python alate za njihovu manipulaciju.
+
+Zatim ćeš formalizovati komponente ECDSA: generisanje ključeva, formatiranje tačaka, heširanje, kreiranje i verifikaciju potpisa. Ovaj odeljak direktno povezuje teoriju i praksu, naglašavajući detalje implementacije i robusnost osnovnog bezbednosnog modela.
+
+### Unutrašnje funkcionisanje Bitcoin transakcije
+
 # Osnovni matematički koncepti za Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -1738,6 +1738,8 @@ Konačno, važno je napomenuti da poreske obaveze mogu varirati u zavisnosti od 
 
 Ako želite da produbite svoje znanje o strategijama kupovine, korišćenja i obezbeđivanja svojih bitkoina, toplo vam preporučujem da nakon ovog kursa pohađate kurs **BTC 102**. Tamo ćete, između ostalog, otkriti preporuke za alate prilagođene vašem profilu, potrebama i ličnim ciljevima:
 
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hiper-bitkoinizacija
 
 

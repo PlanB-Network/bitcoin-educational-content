@@ -1174,6 +1174,8 @@ Por último, es importante tener en cuenta que las obligaciones fiscales pueden 
 
 Si desea profundizar sus conocimientos sobre las estrategias de compra, uso y seguridad de sus bitcoins, le recomiendo encarecidamente que siga el curso **BTC 102** después de este. Allí descubrirá, entre otras cosas, recomendaciones de herramientas adaptadas a su perfil, sus necesidades y sus objetivos personales:
 
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hiperbitcoinización
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

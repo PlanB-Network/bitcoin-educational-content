@@ -1172,6 +1172,8 @@ Abschließend sei darauf hingewiesen, dass die steuerlichen Verpflichtungen je n
 
 Wenn Sie Ihr Wissen über Strategien zum Kauf, zur Nutzung und zur Sicherung Ihrer Bitcoins vertiefen möchten, empfehle ich Ihnen dringend, im Anschluss an diesen Kurs den Kurs **BTC 102** zu absolvieren. Dort entdecken Sie unter anderem Empfehlungen für Werkzeuge, die an Ihr Profil, Ihre Bedürfnisse und Ihre persönlichen Ziele angepasst sind:
 
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hyper-Bitcoinisierung
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

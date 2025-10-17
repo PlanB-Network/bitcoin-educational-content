@@ -1195,6 +1195,8 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 如果您希望深入瞭解有關購買、使用和保護比特幣的策略，我強烈建議您在本課程之後繼續學習 **BTC 102** 課程。在那裡，您將發現包括適合您個人資料、需求和目標的工具建議等內容：
 
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## 超級比特幣化
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

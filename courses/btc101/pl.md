@@ -1738,6 +1738,8 @@ Wreszcie, należy pamiętać, że obowiązki podatkowe mogą się różnić w za
 
 Jeśli chcesz pogłębić swoją wiedzę na temat strategii zakupu, korzystania i zabezpieczania swoich bitcoinów, gorąco polecam kontynuację kursu **BTC 102** po tym. Dowiesz się tam między innymi o narzędziach dostosowanych do Twojego profilu, potrzeb i osobistych celów:
 
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hiper-bitcoinizacja
 
 

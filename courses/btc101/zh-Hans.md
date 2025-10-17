@@ -1172,6 +1172,8 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 如果您希望深入了解有关购买、使用和保护比特币的策略，我强烈建议您在本课程之后继续学习 **BTC 102** 课程。在那里，您将了解到适合您个人档案、需求和目标的工具推荐等内容：
 
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## 超级比特币化
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

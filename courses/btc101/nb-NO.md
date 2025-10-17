@@ -1171,6 +1171,8 @@ Til slutt er det viktig å merke seg at skatteforpliktelsene kan variere avhengi
 
 Hvis du ønsker å fordype kunnskapen din om strategier for kjøp, bruk og sikring av dine bitcoins, anbefaler jeg på det sterkeste at du tar kurset **BTC 102** etter dette. Der vil du blant annet oppdage anbefalinger om verktøy som er tilpasset din profil, dine behov og dine personlige mål:
 
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hyper-bitcoinisering
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

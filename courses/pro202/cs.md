@@ -28,6 +28,8 @@ Užijte si svůj objev!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Vítejte v kurzu PRO 202 _**Programování Bitcoinu**_, intenzivní cestě, která vás provede od aritmetiky konečných polí až po vytváření a vysílání skutečných transakcí v testovací síti Bitcoinu.
+
 # Základní matematické pojmy pro Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

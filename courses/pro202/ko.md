@@ -28,6 +28,8 @@ objectives:
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+코스 PRO 202 _**Programming Bitcoin**_에 오신 것을 환영합니다. 유한체 산술에서 시작하여 비트코인 테스트넷에서 실제 거래를 생성하고 전송하는 데 이르는 집중적인 여정입니다.
+
 # Bitcoin을 위한 필수 수학 개념
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

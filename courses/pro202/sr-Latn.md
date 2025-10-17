@@ -28,6 +28,8 @@ Uživaj u svom otkriću!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Dobrodošli na kurs PRO 202 _**Programming Bitcoin**_, intenzivno putovanje koje vas vodi od aritmetike konačnih polja do izgradnje i emitovanja stvarnih transakcija na Bitcoin test mreži.
+
 # Osnovni matematički koncepti za Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

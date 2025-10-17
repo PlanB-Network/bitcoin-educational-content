@@ -28,6 +28,8 @@ objectives:
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+コース PRO 202 _**Programming Bitcoin**_ へようこそ。有限体の算術から始まり、Bitcoinのテストネット上で実際のトランザクションを作成し、ブロードキャストするまでの集中的な旅です。
+
 # Bitcoinに必要な数学的概念
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

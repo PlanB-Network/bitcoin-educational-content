@@ -28,6 +28,8 @@ Geniet van je ontdekking!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Welkom bij de cursus PRO 202 _**Programming Bitcoin**_, een intensieve reis die je meeneemt van eindige-veldaritmetiek tot het bouwen en uitzenden van echte transacties op het testnet van Bitcoin.
+
 # Essentiële wiskundige concepten voor Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

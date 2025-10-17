@@ -28,6 +28,8 @@ Nikmati penemuan Anda!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Selamat datang di kursus PRO 202 _**Programming Bitcoin**_, perjalanan intensif yang membawa Anda dari aritmetika lapangan hingga membangun dan menyiarkan transaksi nyata di Testnet Bitcoin.
+
 # Konsep Matematika Esensial untuk Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

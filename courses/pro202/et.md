@@ -28,6 +28,8 @@ Nautige oma avastust!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Tere tulemast kursusele PRO 202 _**Programming Bitcoin**_, intensiivsele teekonnale, mis viib sind lõplike väljade aritmeetikast kuni päris tehingute loomise ja edastamiseni Bitcoini testvõrgus.
+
 # Olulised matemaatilised mõisted Bitcoin jaoks
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

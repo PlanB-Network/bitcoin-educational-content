@@ -28,6 +28,8 @@ Nauti löydöstäsi!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Tervetuloa kurssille PRO 202 _**Programming Bitcoin**_, intensiiviselle matkalle, joka vie sinut äärellisten kenttien aritmetiikasta aina todellisten tapahtumien rakentamiseen ja lähettämiseen Bitcoinin testiverkossa.
+
 # Bitcoin:n keskeiset matemaattiset käsitteet
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

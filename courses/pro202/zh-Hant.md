@@ -28,6 +28,8 @@ objectives:
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+歡迎來到課程 PRO 202 _**Programming Bitcoin**_，這是一段深入的旅程，將帶你從有限域算術一路學習到在比特幣測試網中建立並廣播真實交易。
+
 # Bitcoin 的基本數學概念
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -28,6 +28,8 @@ Keşfinizin tadını çıkarın!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+PRO 202 _**Programming Bitcoin**_ kursuna hoş geldiniz. Bu yoğun yolculuk sizi sonlu alan aritmetiğinden Bitcoin Testnet'te gerçek işlemler oluşturma ve yayınlamaya kadar götürecektir.
+
 # Bitcoin için Temel Matematiksel Kavramlar
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

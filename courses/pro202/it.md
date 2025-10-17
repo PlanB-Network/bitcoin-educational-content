@@ -28,6 +28,8 @@ Buona scoperta!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Benvenuto al corso PRO 202 _**Programming Bitcoin**_, un viaggio intensivo che ti porta dall'aritmetica dei campi finiti fino alla creazione e trasmissione di transazioni reali sulla rete di test di Bitcoin.
+
 # Concetti matematici essenziali per Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

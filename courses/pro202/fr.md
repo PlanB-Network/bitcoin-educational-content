@@ -32,8 +32,7 @@ Bonne découverte !
 
 
 
-
-
+Bienvenue dans le cours PRO 202 _**Programming Bitcoin**_, un parcours intensif qui vous emmène de l’arithmétique des corps finis jusqu’à la création et la diffusion de transactions réelles sur le réseau de test de Bitcoin.
 
 # Concepts mathématiques essentiels pour Bitcoin
 

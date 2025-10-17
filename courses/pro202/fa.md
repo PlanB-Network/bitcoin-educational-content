@@ -28,6 +28,8 @@ objectives:
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+به دوره PRO 202 _**Programming Bitcoin**_ خوش آمدید، سفری فشرده که شما را از حساب میدان‌های متناهی تا ساخت و پخش تراکنش‌های واقعی در شبکه آزمایشی بیت‌کوین هدایت می‌کند.
+
 # مفاهیم اساسی ریاضی برای Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

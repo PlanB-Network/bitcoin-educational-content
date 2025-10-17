@@ -28,6 +28,8 @@ Nimwinovore ivyo mwavumbuye!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Murakaza neza mu masomo PRO 202 _**Programming Bitcoin**_, urugendo rukomeye rukujyana uhereye ku mibare y’imibumbe igarukira ukagera ku kubaka no kohereza ibikorwa nyabyo kuri Testnet ya Bitcoin.
+
 # Ivyiyumviro vy'ingenzi vy'imibare vya Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

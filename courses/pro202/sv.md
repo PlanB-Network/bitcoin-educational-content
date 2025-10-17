@@ -28,6 +28,8 @@ Njut av din upptäckt!
 
 <chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
 
+Välkommen till kursen PRO 202 _**Programming Bitcoin**_, en intensiv resa som tar dig från aritmetik med ändliga fält till att bygga och sända verkliga transaktioner på Bitcoins testnät.
+
 # Grundläggande matematiska begrepp för Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

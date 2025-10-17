@@ -6,4 +6,4 @@ wrong_answers:
   - Forcer l’utilisation de Tor pour la découverte des pairs
 explanation: |
   Assumevalid permet d’accélérer l’IBD en ignorant la vérification des scripts avant un bloc connu, tout en conservant toutes les autres validations.
-reviewed: false
+reviewed: true 

@@ -462,7 +462,6 @@ El overclocking y el autotuning consisten en ajustar las frecuencias en las tarj
 El **overclocking** es un ajuste sencillo que consiste en aumentar la frecuencia en las tarjetas de hash para aumentar la tasa de hash de la máquina. El underclocking, por otro lado, consiste en disminuir la frecuencia de reloj de un circuito integrado por debajo de su frecuencia nominal. Al reducir la frecuencia de reloj de un ASIC mediante el underclocking, también se reduce el calor generado por el hardware. Esto permite disminuir la velocidad de los ventiladores necesarios para enfriar el ASIC, ya que no tienen que trabajar tan duro para mantener una temperatura adecuada. Al reducir la velocidad de los ventiladores, también se reduce el ruido generado por el ASIC. Esto puede ser especialmente útil para los usuarios que utilizan ASIC en casa y buscan minimizar las molestias sonoras causadas por el hardware de minería.
 
 Es importante tener en cuenta que el underclocking puede llevar a una reducción en el rendimiento del ASIC, por lo que es importante encontrar un buen equilibrio entre el rendimiento y el ruido.
-
 Braiins OS+ admite el overclocking, el underclocking de los ASIC y el autotuning. Permite a los usuarios ajustar la frecuencia de reloj de su hardware de manera flexible para maximizar el rendimiento o ahorrar energía según sus preferencias.
 
 ### Autotuning

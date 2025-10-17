@@ -6,4 +6,4 @@ wrong_answers:
   - netstat -umbrel
 explanation: |
   En cas de problème de détection, on peut utiliser la commande hostname -I sur la machine Umbrel pour connaître son IP locale.
-reviewed: false
+reviewed: true 

@@ -30,6 +30,10 @@ Nautige oma avastust!
 
 Tere tulemast kursusele PRO 202 _**Programming Bitcoin**_, intensiivsele teekonnale, mis viib sind lõplike väljade aritmeetikast kuni päris tehingute loomise ja edastamiseni Bitcoini testvõrgus.
 
+Selles kursuses ehitad samm-sammult Pythonis Bitcoini teegi, omandades samal ajal krüptograafilised, protokolli ja tarkvara alused, mis on vajalikud Bitcoini turvalisuse ja sisemise toimimise täpseks mõistmiseks. PRO 202 lähenemine on täielikult praktiline: iga kontseptsioon rakendatakse kohe Jupyteri märkmikes, tagades, et teooria ja kood tugevdavad üksteist.
+
+### Bitcoini põhilised matemaatilised mõisted
+
 # Olulised matemaatilised mõisted Bitcoin jaoks
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

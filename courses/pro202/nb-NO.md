@@ -30,6 +30,10 @@ Kos deg med oppdagelsen!
 
 Velkommen til kurset PRO 202 _**Programming Bitcoin**_, en intensiv reise som tar deg fra aritmetikk i endelige felt til å bygge og sende ekte transaksjoner på Bitcoins testnett.
 
+I dette kurset vil du gradvis bygge et Bitcoin-bibliotek i Python mens du tilegner deg de kryptografiske, protokollmessige og programvaremessige grunnlagene som er nødvendige for å forstå nøyaktig Bitcoins sikkerhet og indre virkemåte. PRO 202-tilnærmingen er helt praktisk: hvert konsept implementeres umiddelbart i Jupyter-notatbøker, slik at teori og kode styrker hverandre.
+
+### Grunnleggende matematiske konsepter for Bitcoin
+
 # Grunnleggende matematiske begreper for Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -30,6 +30,10 @@ Geniet van je ontdekking!
 
 Welkom bij de cursus PRO 202 _**Programming Bitcoin**_, een intensieve reis die je meeneemt van eindige-veldaritmetiek tot het bouwen en uitzenden van echte transacties op het testnet van Bitcoin.
 
+In deze cursus bouw je stap voor stap een Bitcoin-bibliotheek in Python, terwijl je de cryptografische, protocol- en softwarebasis verwerft die nodig is om nauwkeurig te redeneren over de veiligheid en interne werking van Bitcoin. De PRO 202-aanpak is volledig praktisch: elk concept wordt direct geïmplementeerd in Jupyter-notebooks, zodat theorie en code elkaar versterken.
+
+### Essentiële wiskundige concepten voor Bitcoin
+
 # Essentiële wiskundige concepten voor Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

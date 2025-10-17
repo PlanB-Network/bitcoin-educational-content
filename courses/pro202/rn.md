@@ -30,6 +30,10 @@ Nimwinovore ivyo mwavumbuye!
 
 Murakaza neza mu masomo PRO 202 _**Programming Bitcoin**_, urugendo rukomeye rukujyana uhereye ku mibare y’imibumbe igarukira ukagera ku kubaka no kohereza ibikorwa nyabyo kuri Testnet ya Bitcoin.
 
+Muri iri somo, uzagenda wubaka buhoro buhoro isomero rya Bitcoin muri Python, kandi uhabwe ubumenyi bw’ibanze mu bijyanye n’ubwirinzi, amasezerano, n’inyandiko za porogaramu bikenewe kugira ngo usobanukirwe neza umutekano n’imikorere y’imbere ya Bitcoin. Uburyo bwa PRO 202 ni ubwo mu bikorwa: buri gitekerezo gishyirwa mu bikorwa ako kanya muri za Jupyter notebooks, bigatuma inyigisho n’iyakorwa byuzuzanya.
+
+### Ibitekerezo by’ingenzi bya siyansi y’imibare kuri Bitcoin
+
 # Ivyiyumviro vy'ingenzi vy'imibare vya Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

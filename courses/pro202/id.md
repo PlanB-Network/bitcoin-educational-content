@@ -30,6 +30,10 @@ Nikmati penemuan Anda!
 
 Selamat datang di kursus PRO 202 _**Programming Bitcoin**_, perjalanan intensif yang membawa Anda dari aritmetika lapangan hingga membangun dan menyiarkan transaksi nyata di Testnet Bitcoin.
 
+Dalam kursus ini, Anda akan secara bertahap membangun pustaka Bitcoin di Python sambil memperoleh dasar-dasar kriptografi, protokol, dan perangkat lunak yang diperlukan untuk memahami dengan tepat keamanan dan cara kerja internal Bitcoin. Pendekatan PRO 202 sepenuhnya praktis: setiap konsep langsung diterapkan di notebook Jupyter, memastikan teori dan kode saling memperkuat.
+
+### Konsep Matematika Penting untuk Bitcoin
+
 # Konsep Matematika Esensial untuk Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

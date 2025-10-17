@@ -30,6 +30,10 @@ Tận hưởng khám phá của bạn nhé!
 
 Chào mừng bạn đến với khóa học PRO 202 _**Programming Bitcoin**_, một hành trình chuyên sâu đưa bạn từ số học trường hữu hạn đến việc xây dựng và phát sóng các giao dịch thực trên mạng thử nghiệm của Bitcoin.
 
+Trong khóa học này, bạn sẽ từng bước xây dựng một thư viện Bitcoin bằng Python đồng thời học các kiến thức nền tảng về mật mã học, giao thức và phần mềm cần thiết để hiểu chính xác về bảo mật và cơ chế hoạt động nội bộ của Bitcoin. Cách tiếp cận của PRO 202 hoàn toàn thực hành: mỗi khái niệm được triển khai ngay trong sổ tay Jupyter, đảm bảo lý thuyết và mã củng cố lẫn nhau.
+
+### Các khái niệm toán học cơ bản cho Bitcoin
+
 # Các khái niệm toán học thiết yếu cho Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

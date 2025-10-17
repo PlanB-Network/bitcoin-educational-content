@@ -30,6 +30,10 @@ Miłego odkrywania!
 
 Witamy na kursie PRO 202 _**Programming Bitcoin**_, intensywnej podróży, która prowadzi cię od arytmetyki ciał skończonych aż po tworzenie i nadawanie prawdziwych transakcji w sieci testowej Bitcoina.
 
+W tym kursie będziesz stopniowo budować bibliotekę Bitcoina w Pythonie, jednocześnie zdobywając podstawy kryptograficzne, protokołowe i programistyczne niezbędne do precyzyjnego zrozumienia bezpieczeństwa i wewnętrznego działania Bitcoina. Podejście PRO 202 jest całkowicie praktyczne: każda koncepcja jest natychmiast implementowana w notatnikach Jupyter, zapewniając wzajemne wzmocnienie teorii i kodu.
+
+### Podstawowe pojęcia matematyczne dla Bitcoina
+
 # Podstawowe pojęcia matematyczne dla Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

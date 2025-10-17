@@ -30,6 +30,10 @@ Keşfinizin tadını çıkarın!
 
 PRO 202 _**Programming Bitcoin**_ kursuna hoş geldiniz. Bu yoğun yolculuk sizi sonlu alan aritmetiğinden Bitcoin Testnet'te gerçek işlemler oluşturma ve yayınlamaya kadar götürecektir.
 
+Bu derste, Python’da adım adım bir Bitcoin kütüphanesi oluşturacak ve Bitcoin’in güvenliği ile iç işleyişini doğru şekilde anlamak için gereken kriptografi, protokol ve yazılım temellerini edineceksiniz. PRO 202 yaklaşımı tamamen uygulamalıdır: her kavram Jupyter defterlerinde anında uygulanır ve teori ile kodun birbirini güçlendirmesi sağlanır.
+
+### Bitcoin için Temel Matematiksel Kavramlar
+
 # Bitcoin için Temel Matematiksel Kavramlar
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

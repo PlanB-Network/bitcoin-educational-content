@@ -30,6 +30,10 @@ Nauti löydöstäsi!
 
 Tervetuloa kurssille PRO 202 _**Programming Bitcoin**_, intensiiviselle matkalle, joka vie sinut äärellisten kenttien aritmetiikasta aina todellisten tapahtumien rakentamiseen ja lähettämiseen Bitcoinin testiverkossa.
 
+Tällä kurssilla rakennat vaiheittain Bitcoin-kirjaston Pythonissa samalla kun hankit kryptografiset, protokolla- ja ohjelmisto-osaamisen, jota tarvitaan Bitcoinin turvallisuuden ja sisäisen toiminnan täsmälliseen ymmärtämiseen. PRO 202 -lähestymistapa on täysin käytännönläheinen: jokainen käsite toteutetaan välittömästi Jupyter-muistikirjoissa, varmistaen, että teoria ja koodi vahvistavat toisiaan.
+
+### Bitcoini keskeiset matemaattiset käsitteet
+
 # Bitcoin:n keskeiset matemaattiset käsitteet
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

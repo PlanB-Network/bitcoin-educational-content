@@ -30,6 +30,10 @@ Furahia ugunduzi wako!
 
 Karibu kwenye kozi PRO 202 _**Programming Bitcoin**_, safari ya kina inayokupeleka kutoka hesabu za uwanja wa mwisho hadi kujenga na kutangaza miamala halisi kwenye Mtandao wa Majaribio wa Bitcoin.
 
+Katika kozi hii, utaunda hatua kwa hatua maktaba ya Bitcoin kwa Python huku ukipata misingi ya usimbaji fiche, itifaki, na programu inayohitajika kuelewa kwa usahihi usalama na utendaji wa ndani wa Bitcoin. Mbinu ya PRO 202 ni ya vitendo kabisa: kila dhana inatekelezwa mara moja katika daftari za Jupyter, kuhakikisha kuwa nadharia na msimbo vinatia nguvu kila kimoja.
+
+### Misingi Muhimu ya Kihisabati kwa Bitcoin
+
 # Dhana Muhimu za Hisabati kwa Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

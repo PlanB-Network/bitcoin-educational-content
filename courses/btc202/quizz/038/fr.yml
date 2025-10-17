@@ -6,4 +6,4 @@ wrong_answers:
   - Car il est incompatible avec Bitcoin Core
 explanation: |
   Les disques mécaniques limitent les performances, allongent énormément l’IBD et s’usent vite sous la charge d’un nœud.
-reviewed: false
+reviewed: true 

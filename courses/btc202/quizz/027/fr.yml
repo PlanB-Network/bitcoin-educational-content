@@ -6,4 +6,4 @@ wrong_answers:
   - Il ne conserve que l'UTXO set, pas la blockchain
 explanation: |
   Un nœud SPV vérifie les transactions via les en-têtes de blocs et les preuves de Merkle, sans stocker les données complètes.
-reviewed: false
+reviewed: true 

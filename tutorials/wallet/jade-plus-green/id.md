@@ -1,18 +1,18 @@
 ---
-name: Jade Plus - Hijau
-description: Konfigurasikan Jade Plus dengan mudah dengan Green
+name: Jade Plus - Green
+description: Konfigurasikan Jade Plus dengan mudah pakai Green
 ---
 ![cover](assets/cover.webp)
 
-Jade Plus adalah dompet perangkat keras khusus Bitcoin yang dirancang oleh Blockstream. Dompet ini merupakan penerus Jade klasik, dengan peningkatan perangkat lunak, lebih banyak opsi, dan ergonomi yang didesain ulang untuk penggunaan yang lebih intuitif. Versi baru ini menawarkan layar LCD 1,9 inci yang luar biasa, dengan gamut warna yang lebih luas dari pendahulunya. Tombol dan navigasi menu juga telah dioptimalkan.
+Jade Plus adalah dompet perangkat keras khusus Bitcoin yang dibuat oleh Blockstream. Dompet ini merupakan penerus Jade klasik, dengan peningkatan perangkat lunak, lebih banyak opsi, dan desain ergonomis yang dirancang ulang supaya lebih intuitif dipakai. Versi barunya punya layar LCD 1,9 inci yang keren, dengan gamut warna yang lebih luas dibanding versi sebelumnya. Tombol dan navigasi menunya juga sudah dioptimalkan.
 
-Jade Plus dapat digunakan dalam beberapa cara: melalui koneksi kabel USB-C, dalam mode "*Air-Gap*" dengan kartu micro SD (memerlukan adaptor), melalui Bluetooth atau bahkan dengan menukarkan kode QR berkat kamera yang terintegrasi. Dompet perangkat keras ini bertenaga baterai.
+Jade Plus bisa digunakan dengan berbagai cara: lewat kabel USB-C, dalam mode *Air-Gap* dengan kartu micro SD (pakai adaptor), lewat Bluetooth, atau bahkan dengan menukar kode QR berkat kamera bawaan. Dompet perangkat keras ini juga punya baterai sendiri.
 
-Dompet ini tersedia mulai dari $149,99 dalam versi hitam dasar, dan harganya bisa naik hingga $20 untuk versi "*Genesis Grey*" atau "*Lunar Silver*". Oleh karena itu, Jade Plus adalah pilihan yang menarik, dengan fungsi canggih yang sebanding dengan dompet perangkat keras kelas atas seperti Coldcard Q atau Passport V2, tetapi dengan harga yang cukup rendah, mendekati model kelas menengah.
+Dompet ini dijual mulai dari $149,99 untuk versi hitam standar, dan bisa naik sekitar $20 untuk versi *Genesis Grey* atau *Lunar Silver.* Karena itu, Jade Plus jadi pilihan menarik dengan fitur canggih yang setara dengan dompet perangkat keras kelas atas seperti Coldcard Q atau Passport V2, tapi dengan harga yang lebih terjangkau, mendekati model kelas menengah
 
 ![JADE-PLUS-GREEN](assets/fr/01.webp)
 
-Jade Plus kompatibel dengan sebagian besar perangkat lunak manajemen portofolio. Berikut ini adalah ringkasan kompatibilitas pada saat penulisan (Januari 2025):
+Jade Plus kompatibel dengan sebagian besar perangkat lunak manajemen portofolio. Berikut ringkasan kompatibilitasnya pada saat penulisan (Januari 2025):
 
 | Desktop | Seluler | USB | Bluetooth | QR | JadeLink | Perangkat lunak manajemen
 
@@ -22,7 +22,7 @@ Jade Plus kompatibel dengan sebagian besar perangkat lunak manajemen portofolio.
 
 liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 |
 
-burung pipit | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 |
+Sparrow | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 |
 
 nunchuk | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 |
 
@@ -32,28 +32,30 @@ nunchuk | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 |
 
 electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 |
 
-| Penjaga Gawang | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
+| keeper | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
 
-Dalam tutorial ini, kita akan mengatur dan menggunakan Jade Plus dengan aplikasi seluler Green Wallet Blockstream melalui koneksi Bluetooth. Pengaturan ini sangat ideal untuk pemula. Jika Anda mencari pendekatan yang lebih canggih, saya sarankan Anda melihat tutorial ini di mana kita menggunakan Jade Plus dengan Sparrow Wallet dalam mode kode QR:
+Di tutorial ini, kita bakal nyiapin dan pakai Jade Plus bareng aplikasi seluler Green Wallet dari Blockstream lewat koneksi Bluetooth. Pengaturan ini paling pas buat kamu yang masih pemula. Tapi kalau kamu mau cara yang lebih advanced, coba cek tutorial ini, di mana kita pakai Jade Plus bareng Sparrow Wallet dalam mode kode QR.
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Model keamanan Jade Plus
 
-Jade Plus menggunakan model keamanan berdasarkan "elemen aman virtual", yang diwujudkan oleh "blind oracle". Secara konkret, mekanisme ini menggabungkan PIN yang dipilih oleh pengguna, sebuah rahasia yang disimpan di Jade dan sebuah rahasia yang dipegang oleh oracle (server yang dikelola oleh Blockstream), untuk membuat kunci AES-256 yang didistribusikan ke dua entitas. Selama inisiasi, pertukaran ECDH mengamankan komunikasi dengan oracle, dan mengenkripsi frasa pemulihan pada dompet perangkat keras. Secara praktis, ketika Anda ingin mengakses seed untuk menandatangani transaksi, Anda membutuhkan akses ke :
+Jade Plus pakai model keamanan berbasis *virtual secure element* yang diwujudkan lewat *blind oracle.* Secara sederhana, mekanisme ini menggabungkan PIN yang kamu pilih, rahasia yang disimpan di Jade, dan satu rahasia lagi yang dipegang oleh oracle (server yang dikelola Blockstream) untuk membuat kunci AES-256 yang dibagi ke dua pihak.
+
+Saat proses inisialisasi, pertukaran ECDH dipakai untuk mengamankan komunikasi dengan oracle dan mengenkripsi seedphrase di dompet perangkat keras. Dalam praktiknya, kalau kamu mau mengakses seed buat menandatangani transaksi, kamu perlu akses ke:
 
 
 - Ke perangkat Jade Plus itu sendiri;
 - Ke PIN untuk membuka kunci perangkat ;
 - Dan untuk rahasia peramal.
 
-Keuntungan utama dari pendekatan ini adalah tidak adanya satu titik kegagalan pada tingkat perangkat keras, karena jika penyerang mendapatkan akses ke Jade Anda, mengekstraksi kunci membutuhkan kompromi secara bersamaan dengan Jade dan oracle. Model ini juga berarti bahwa Jade Plus sepenuhnya bersifat open-source, menghindari kendala yang terkait dengan penggunaan elemen keamanan fisik yang sebenarnya, seperti yang digunakan pada Ledger, misalnya.
+Keuntungan utama dari pendekatan ini adalah tidak adanya satu titik kegagalan di level perangkat keras. Kalau ada penyerang yang berhasil mendapatkan akses ke Jade kamu, mereka tetap nggak bisa mengekstrak kuncinya tanpa juga berhasil menembus oracle di waktu yang sama. Model ini juga memungkinkan Jade Plus tetap sepenuhnya open-source, jadi nggak terikat pada keterbatasan penggunaan elemen keamanan fisik seperti yang dipakai Ledger, misalnya.
 
-Kerugian dari sistem ini adalah penggunaan Jade Plus bergantung pada oracle yang dikelola oleh Blockstream. Jika oracle ini tidak dapat diakses, maka tidak mungkin lagi untuk menggunakan dompet perangkat keras secara langsung dengan PIN. Akan tetapi, ini tidak berarti bahwa bitcoin Anda hilang, karena bitcoin tersebut masih dapat dipulihkan dengan menggunakan frasa pemulihan Anda, yang dapat Anda masukkan di Jade Plus dalam mode "*stateless*". Untuk mengatasi ketergantungan ini, Anda juga bisa mengonfigurasi dan mengelola server oracle Anda sendiri.
+Kekurangannya, Jade Plus bergantung pada oracle yang dikelola oleh Blockstream. Kalau oracle ini nggak bisa diakses, kamu nggak akan bisa lagi pakai dompet perangkat keras secara langsung dengan PIN. Tapi ini bukan berarti bitcoin kamu hilang. Kamu masih bisa memulihkannya dengan seedphrase kamu, yang bisa dimasukkan ke Jade Plus dalam mode *stateless.* Untuk menghindari ketergantungan ini, kamu juga bisa mengatur dan menjalankan server oracle kamu sendiri.
 
 ## Membuka kemasan Jade Plus
 
-Ketika Anda menerima Jade Plus, periksa apakah kotak dan segelnya dalam kondisi baik untuk memastikan bahwa paket Anda belum dibuka.
+Begitu kamu menerima Jade Plus, pastikan kotak dan segelnya masih dalam kondisi baik untuk memastikan kalau paket kamu belum pernah dibuka.
 
 ![JADE-PLUS-GREEN](assets/fr/02.webp)
 
@@ -62,7 +64,7 @@ Di dalam kotak Anda akan menemukan :
 
 - Le Jade Plus;
 - Kabel USB-C;
-- Kartu untuk merekam frasa mnemonik Anda sebagai kata-kata atau sebagai "*CompactSeedQR*";
+- Kartu untuk merekam frasa mnemonik milikmi sebagai kata-kata atau sebagai "*CompactSeedQR*";
 - Beberapa petunjuk penggunaan ;
 - Sebuah kabel;
 - Beberapa stiker.
@@ -74,8 +76,8 @@ Perangkat ini memiliki 4 tombol navigasi:
 
 - Tombol di kanan bawah menyalakan Jade;
 - Tombol besar pada bagian depan perangkat digunakan untuk memilih item;
-- Dua tombol kecil di bagian atas memungkinkan Anda menavigasi ke kiri dan ke kanan;
-- Anda juga dapat memilih item dengan mengklik secara bersamaan pada dua tombol di bagian atas perangkat.
+- Dua tombol kecil di bagian atas memungkinkanmu menavigasi ke kiri dan ke kanan;
+- Kamu juga bisa memilih item dengan mengklik secara bersamaan pada dua tombol di bagian atas perangkat.
 
 ![JADE-PLUS-GREEN](assets/fr/04.webp)
 
@@ -101,29 +103,29 @@ Klik tombol "*Lanjutkan*" untuk menampilkan frasa pemulihan baru Anda.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus Anda akan menampilkan frasa mnemonik 12 kata. **Mnemonik ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Jade Plus Anda. Frasa 12 kata ini akan mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Jade Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.
+Jade Plus kamu akan menampilkan seedphrase berisi 12 kata. Seedphrase ini memberi kamu akses penuh ke semua bitcoin kamu. **Siapa pun yang punya frasa ini bisa mencuri dana kamu, bahkan tanpa harus memegang Jade Plus kamu secara fisik.** Frasa 12 kata ini juga berfungsi untuk memulihkan akses ke bitcoin kamu kalau Jade hilang, dicuri, atau rusak. Karena itu, sangat penting untuk menyimpannya dengan hati-hati di tempat yang aman.
 
-Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keamanan tambahan, saya sarankan untuk mengukirnya pada dasar baja tahan karat untuk melindunginya dari kebakaran, banjir atau keruntuhan.
+Kamu bisa menuliskannya di kartu yang disertakan dalam kotak, atau kalau mau keamanan ekstra, disarankan untuk mengukirnya di lempengan baja tahan karat supaya tahan terhadap kebakaran, banjir, atau keruntuhan.
 
 ![JADE-PLUS-GREEN](assets/fr/10.webp)
 
-Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
+Kalau kamu mau tahu lebih lanjut tentang cara yang benar untuk menyimpan dan mengelola seedphrase, aku sangat nyaranin kamu buat ikuti tutorial lain yang udah tersedia, terutama kalau kamu masih pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial
+**Tentu saja, kamu tidak boleh membagikan kata-kata seedphrase ini di internet, seperti yang aku tunjukkan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.**
 
 Klik panah di sebelah kanan layar untuk menampilkan kata-kata berikut.
 
 ![JADE-PLUS-GREEN](assets/fr/11.webp)
 
-Setelah Anda menyimpan frasa, Jade Plus akan meminta Anda untuk mengonfirmasinya. Pilih kata yang benar sesuai dengan urutannya menggunakan tombol di bagian atas perangkat, dan klik tombol tengah untuk beralih ke kata berikutnya.
+Setelah kamu menyimpan seedphrase-nya, Jade Plus akan minta kamu buat mengonfirmasinya. Pilih kata yang benar sesuai urutannya dengan tombol di bagian atas perangkat, lalu tekan tombol tengah untuk lanjut ke kata berikutnya.
 
 ![JADE-PLUS-GREEN](assets/fr/12.webp)
 
 ## Menghubungkan Jade Plus ke Green Wallet
 
-Dalam tutorial ini, kita akan menggunakan aplikasi Green Wallet untuk mengelola dompet yang dihosting di Jade Plus. Metode ini sangat cocok untuk pemula. Jika Anda ingin mengelola dompet Bitcoin Anda secara lebih detail, Anda juga bisa menggunakan Sparrow Wallet, yang akan kita bahas dalam tutorial terpisah:
+Di tutorial ini, kita bakal pakai aplikasi Green Wallet buat mengelola dompet yang tersimpan di Jade Plus. Cara ini paling cocok buat kamu yang masih pemula. Tapi kalau kamu pengin ngatur dompet Bitcoin kamu dengan lebih detail, kamu juga bisa pakai Sparrow Wallet, yang bakal kita bahas di tutorial terpisah:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
@@ -139,7 +141,7 @@ Pilih "*Pada Dompet Perangkat Keras*".
 
 ![JADE-PLUS-GREEN](assets/fr/14.webp)
 
-Aktifkan Bluetooth pada smartphone Anda, kemudian klik tombol "*Hubungkan Jade Anda*".
+Aktifkan Bluetooth pada smartphone milikmu, kemudian klik tombol "*Hubungkan Jade Anda*".
 
 ![JADE-PLUS-GREEN](assets/fr/15.webp)
 
@@ -147,7 +149,7 @@ Mengesahkan aplikasi Green untuk mengakses koneksi Bluetooth.
 
 ![JADE-PLUS-GREEN](assets/fr/16.webp)
 
-Aplikasi sedang mencari Jade Plus Anda.
+Aplikasi sedang mencari Jade Plus milikmu.
 
 ![JADE-PLUS-GREEN](assets/fr/17.webp)
 
@@ -155,15 +157,15 @@ Pada Jade Plus, klik menu "*Bluetooth*".
 
 ![JADE-PLUS-GREEN](assets/fr/18.webp)
 
-Pilih perangkat Anda pada aplikasi Hijau.
+Pilih perangkatmu pada aplikasi Hijau.
 
 ![JADE-PLUS-GREEN](assets/fr/19.webp)
 
-Konfirmasikan kode pemasangan pada Jade Plus Anda.
+Konfirmasikan kode pemasangan pada Jade Plus milikmu.
 
 ![JADE-PLUS-GREEN](assets/fr/20.webp)
 
-Green menawarkan Anda sebuah tes untuk memastikan bahwa batu giok Anda asli. Klik pada tombol untuk melakukannya.
+Green menyediakan tes untuk memastikan kalau Jade kamu asli. Klik tombol yang muncul untuk menjalankan tesnya.
 
 ![JADE-PLUS-GREEN](assets/fr/21.webp)
 
@@ -171,7 +173,7 @@ Konfirmasikan pada Jade.
 
 ![JADE-PLUS-GREEN](assets/fr/22.webp)
 
-Warna hijau mengonfirmasi bahwa perangkat Anda asli.
+Warna hijau menandakan kalau perangkat kamu asli.
 
 ![JADE-PLUS-GREEN](assets/fr/23.webp)
 
@@ -181,17 +183,17 @@ Klik tombol "*Lanjutkan*" untuk memilih kode PIN Jade Anda.
 
 ![JADE-PLUS-GREEN](assets/fr/24.webp)
 
-Kode PIN membuka kunci Giok Anda. Oleh karena itu, kode ini merupakan perlindungan terhadap akses fisik yang tidak sah. Kode PIN ini tidak terlibat dalam proses derivasi kunci kriptografi dompet Anda. Jadi, bahkan tanpa akses ke kode PIN ini, dengan memiliki frasa mnemonik 12 kata, Anda dapat memperoleh kembali akses ke bitcoin Anda. Kami menyarankan untuk memilih kode PIN yang seacak mungkin. Dan pastikan untuk menyimpan kode ini di lokasi yang terpisah dari tempat penyimpanan Jade Anda (misalnya, di pengelola kata sandi).
+Kode PIN digunakan untuk membuka kunci Jade kamu. Karena itu, kode ini berfungsi sebagai perlindungan dari akses fisik yang tidak sah. PIN ini tidak terlibat dalam proses pembuatan kunci kriptografi dompet kamu, jadi bahkan tanpa PIN, siapa pun yang punya seedphrase 12 kata tetap bisa memulihkan akses ke bitcoin kamu. Disarankan untuk memilih kode PIN yang benar-benar acak dan menyimpannya di tempat terpisah dari Jade kamu, misalnya di pengelola kata sandi.
 
-Pilih kode PIN 6 digit pada Jade Anda, dengan menggunakan tombol kanan dan kiri untuk menggulir angka, dan tombol tengah untuk mengonfirmasi entri angka.
+Pilih PIN 6 digit langsung di Jade kamu, gunakan tombol kanan dan kiri untuk menggulir angka, lalu tekan tombol tengah untuk mengonfirmasi setiap angka.
 
 ![JADE-PLUS-GREEN](assets/fr/25.webp)
 
-Konfirmasikan PIN Anda untuk kedua kalinya.
+Konfirmasikan PIN milikmu untuk kedua kalinya.
 
 ![JADE-PLUS-GREEN](assets/fr/26.webp)
 
-Dompet bitcoin Anda telah dibuat.
+Dompet bitcoin telah dibuat.
 
 ![JADE-PLUS-GREEN](assets/fr/27.webp)
 

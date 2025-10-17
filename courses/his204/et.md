@@ -88,7 +88,7 @@ Kas olete valmis taasavastama majandusliberalismi Prantsuse juuri? Lähme!
 18. sajandi alguses oli Prantsusmaa murettekitavas olukorras. Maapiirkondade elanikud tootsid vaevu piisavalt, et ellu jääda, ja olid tugevalt maksustatud.
 
 
-![image](assets/fr/001.webp)
+![image](assets/et/001.webp)
 
 
 
@@ -98,7 +98,7 @@ Linnade käsitööliste, kes olid lukustatud jäikadesse kildadesse, oli raske u
 Kuidas aga leida lahendus ajastu haigusele? Seni ei olnud veel olemas majandusteadust ja seega ka spetsiaalset meditsiini, mida rakendada. Majanduspoliitika põhimõtteid rakendati ikka veel juhuslikult, vahetades piiravate faaside ja liberaalsemate perioodide vahel. Kindlasti on meil olemas mudelid, ajaloolised viited, mida järgida. Nende hulgas oli *Sully*, Henri IV minister, kes propageeris põllumajandust ja edendas suuremat kaubandusvabadust Prantsusmaal.
 
 
-![image](assets/fr/002.webp)
+![image](assets/et/002.webp)
 
 
 
@@ -107,7 +107,7 @@ Kuidas aga leida lahendus ajastu haigusele? Seni ei olnud veel olemas majanduste
 Kuid siis tuli Colbert, Louis XIV minister, kes kõikus reguleerimise ja vabaduse vahel, kuid lõpuks kehtestas siiski reguleerimise. 17. sajandi lõpul möödus Colbert Sullyst: ministrid tuginesid nüüd tema pärandile ja püüdsid rakendada väidetavalt tema põhimõtteid.
 
 
-![image](assets/fr/003.webp)
+![image](assets/et/003.webp)
 
 
 17. sajandi lõpu riigimehi silmas pidades oli Colbert'i maksiimid neli.
@@ -118,7 +118,7 @@ Kuid siis tuli Colbert, Louis XIV minister, kes kõikus reguleerimise ja vabadus
 Selliseid eeskirju oli sadu, mis olid koostatud eraldi köitena iga tööstusharu jaoks. Kuid Colbert'i järgijate silmis oli see siiski ebapiisav: nende arvates pidid tööstust kontrollima ka korporatsioonid.
 
 
-![image](assets/fr/004.webp)
+![image](assets/et/004.webp)
 
 
 Igaüks, kes soovis ametit praktiseerida, pidi kõigepealt olema mitu aastat õpipoiss, seejärel praktikant, enne kui ta püüdis saavutada meistri staatust, valmistades "meistriteose" ja makstes gildile märkimisväärset summat. Seega oli konkurents igas kutsealas rangelt piiratud.
@@ -128,7 +128,7 @@ Igaüks, kes soovis ametit praktiseerida, pidi kõigepealt olema mitu aastat õp
 (2) **Kaubandus on nullsummaline mäng**. Kaubanduse osas jagasid Colberti jüngrid samu eelarvamusi kui antiikajal barbarite inimesed. Louis XIV ministri sõnul on kaubandus "igavene sõda". Miks? Põhjus on lihtne: Colbert'i ja tema järeltulijate jaoks tähendas igasugune rikkuse kasv ühe riigi jaoks teise riigi vaesumist. Nende arvates ei tohtinud lubada inglastel või hollandlastel rikastuda, sest see tähendaks, et nad varastavad Prantsusmaa jõukust.
 
 
-![image](assets/fr/005.webp)
+![image](assets/et/005.webp)
 
 
 Seetõttu tuli nende riikide tooted keelata või karmilt maksustada, ilma igasuguste kahtluseta, sest kaubandus on sõda, milles me saame soovida ainult oma vaenlaste hävingut.
@@ -140,13 +140,13 @@ Seetõttu tuli nende riikide tooted keelata või karmilt maksustada, ilma igasug
 (3) **Kui riigil napib raha, tõsta rohkem makse**. Colbert ja tema jüngrid ei uskunud kaugeltki, et maksumaksjate rikkus on piiratud ressurss. Nende arvates ei saanud riiklikud kulutused kunagi probleemiks olla, kui koguti piisavalt. Ja kui rahvas mässas, siis ainult seetõttu, et ministrid olid seda halvasti teinud, sest nagu Colbert küüniliselt märkis, "maksustamise kunst seisneb selles, et kitkuda hanesid ilma neid liiga palju karjuma panemata".
 
 
-![image](assets/fr/006.webp)
+![image](assets/et/006.webp)
 
 
 (4) **Rikkus on eelkõige kuld ja hõbe**. Enne majandusteaduse sündi järgisid paljud kirjanikud üht valitsevat dogmat varanduse olemuse kohta, mida hakati nimetama *merkantilismiks*. Colbert ja tema järeltulijad jätkasid seda teed. Lühidalt öeldes uskusid merkantilistid, et riigi jõukuse tõeline märk on väärismetallide, hõbeda ja kulla kogumine.
 
 
-![image](assets/fr/007.webp)
+![image](assets/et/007.webp)
 
 
 
@@ -171,7 +171,7 @@ Täna, kui maksusurve meie riigis kasvab jätkuvalt, ähvardades lämmatada riik
 Esimene neist maksureformaatoritest, nii kronoloogiliselt kui ka teenete poolest, on suur marssal Sébastien Le Prestre Vauban, kuulus linnuste ja tsitadellide ehitaja.
 
 
-![image](assets/fr/008.webp)
+![image](assets/et/008.webp)
 
 
 
@@ -180,19 +180,19 @@ Esimene neist maksureformaatoritest, nii kronoloogiliselt kui ka teenete poolest
 Kuigi me oleme selle kahjuks unustanud, oli Vauban rohkem kui sõjaväelane; ta oli ka majandusteadlane. Ta tundis huvi talupoegade saatuse vastu, ta pakkus 1695. aastal (Projet de capitation - "kapitaatiumi projekt") ja uuesti 1707. aastal (Projet d'une Dime Royale - "kuninglik kümnis") välja julge maksureformi: asendada enamik olemasolevaid makse sissetulekuga proportsionaalse maksuga, ühtse maksuga enne oma aega.
 
 
-![image](assets/fr/009.webp)
+![image](assets/et/009.webp)
 
 
 Vauban jõudis nende ideedeni läbi uudishimu. Ta oli innukas vaatleja, kes püüdis sotsiaalset elu ja majanduslikku tegelikkust rangelt, peaaegu teaduslikult uurida. Ta rõhutas eriti vajadust loendada, kasutades selleks rahvaloendusi.
 
 
-![image](assets/fr/010.webp)
+![image](assets/et/010.webp)
 
 
 Tema teine suur teene oli tema liigutav ja aus kirjeldus masside kannatatud viletsusest. Ta kirjutas: "Ärme laseme end petta; kuningriigi süda on hävitatud. Kõik kannatab, kõik kannatab, kõik ägiseb. Te peate ainult vaatama ja uurima provintside südant, mida te leiate, on veel hullem kui see, mida ma räägin". Vaubani sünged tähelepanekud ei olnud kaugeltki liialdus, vaid peegeldasid täpselt 18. sajandi alguse elu. Alexis de Tocqueville oli neist mõtetest hästi teadlik ja kirjeldas hiljem Vaubani *Kuninga tiitlit* kui "hirmuäratavat", sest see oli tõsi.
 
 
-![image](assets/fr/011.webp)
+![image](assets/et/011.webp)
 
 
 Vauban'i teine suur teene majandusteadlasena oli ettepanek kaugeleulatuva maksureformi kohta, mille eesmärk oli tema poolt täheldatud ja kirjeldatud kurjuse likvideerimine või vähemalt selle intensiivsuse vähendamine. Tal oli õigus; Prantsusmaa majandust Ancien Régime'i ajal halvab ebavõrdne, ebastabiilne ja loetamatu maksustamine.
@@ -235,7 +235,7 @@ Vahetult enne oma surma võtsid Louis XIV ministrid Vaubani idee üle. Vauban ol
 Vähesed prantsuse majandusteadlased minevikust naudivad tänapäeval oma kodumaal tunnustust, mis vastab nende panusele, ja Boisguilbert ei ole erandiks.
 
 
-![image](assets/fr/012.webp)
+![image](assets/et/012.webp)
 
 
 Boisguilbert, keda oma aja lugejad ei hinnanud, kes oli oma ekstsentrilise loomuse ja ülekaaluka kirglikkuse tõttu võimuringkondadest eemal, jättis 18. sajandile vähe jälgi. Ometi on möödunud sajandi alguses tema loomingut aeglaselt taasavastatud.
@@ -248,7 +248,7 @@ Kuid see taasavastamine näitab, et me oleme sattumas mingisse ummikusse. Boisgu
 (Pierre Le Pesant de) Boisguilbert sündis 1646. aastal Rouenis. Boisguilbert sai haridust Port-Royalis Pariisis ja alustas ebaõnnestunud kirjanduskarjääri, enne kui ta asus erinevatele ametikohtadele, sealhulgas Roueni kindralleitnandi ametikohale. Selle aja jooksul kirjutas ta mitu raamatut oma ideede propageerimiseks, nende hulgas 1695. aastal ilmunud "Détail de la France", mille ta järgmisel aastal avaldas uuesti palju selgesõnalisema pealkirja all: [*Louis XIV valitsemise ajal hävitatud Prantsusmaa, kelle poolt ja kuidas, koos selle taastamise vahenditega](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
-![image](assets/fr/013.webp)
+![image](assets/et/013.webp)
 
 
 
@@ -274,7 +274,7 @@ Esiteks ei saanud inimesed enam lubada endale tarbida põhivajadusi meelevaldse 
 Teine põhjus Prantsusmaa viletsuse jaoks on see, et liiga paljud takistused takistasid kaupade, eriti põllumajanduslike kaupade vaba kaubandust. Piiridel ja isegi riigi sees, eri piirkondade vahel, olid tollimaksud, mis halvasid kogu kaubandust. Need piirangud takistasid tasakaaluhinna kujunemist ja piirasid turuvõimalusi. Selle tulemusel ei saanud talupojad oma toodangust ära elada, sest nad ei suutnud kasumlikult müüa ja kannatasid ebatulusate põllumajandushindade all, mis on tänapäevalgi väga oluline ja Boisguilbert'i teooria keskmes. Kaubanduspiirangute küsimuses pooldas Boisguilbert teede vabastamist, teisisõnu vabakaubanduse kehtestamist.
 
 
-![image](assets/fr/014.webp)
+![image](assets/et/014.webp)
 
 
 Ja vabadus on tõepoolest tema lõplik järeldus. "Küsimus ei ole tegutsemises," ütleb ta, "vaid lihtsalt selles, et me lõpetame tegutsemise, nagu me nii vägivaldselt teeme looduse vastu, mis kaldub alati vabaduse ja täiuslikkuse poole". Kõik saab olema hästi, kordab ta väsimatult, "kuni me laseme loodusel oma teed käia, st anname talle oma vabaduse, ja et keegi ei sekku sellesse kaubitsemisse, välja arvatud selleks, et pakkuda kõigile kaitset ja hoida ära vägivalda".
@@ -295,13 +295,13 @@ Boisguilbert kritiseeris isegi "*hoolaid hingi*", nagu ta neid nimetas, neid, ke
 Richard Cantillon, kes on kirjutanud teose "Essee kaubanduse üldisest olemusest" (kirjutatud umbes 1730. aastal, avaldatud 1755. aastal), on üks kaasaegse majandusteaduse pioneere. Majandusteadlane Murray Rothbard nimetab oma raamatus "History of Economic Thought" Cantillonit isegi moodsa majandusteaduse rajajaks.
 
 
-![image](assets/fr/015.webp)
+![image](assets/et/015.webp)
 
 
 Iirimaal sündinud Richard Cantillon asus noorena elama Pariisi ja omandas Prantsuse kodakondsuse. Ta töötas pankurina ja teenis John Law'i ajastu jooksul varanduse.
 
 
-![image](assets/fr/016.webp)
+![image](assets/et/016.webp)
 
 
 Sel puhul hakkas ta uurima ka majandusteooriat. Um 1730. aasta paiku koostas Cantillon oma "Essee kaubanduse olemusest üldiselt".
@@ -331,7 +331,7 @@ Kolmas punkt, **valuuta**.
 Vastuseks John Law kogemusele selgitab Cantillon, mis juhtub või peab juhtuma, kui raha ei oma tegelikku väärtust.
 
 
-![image](assets/fr/017.webp)
+![image](assets/et/017.webp)
 
 
 Ta näeb kahte peamist tagajärge, mis kaasnevad sellega, et metallraha asendatakse reaalse väärtuseta rahaga nagu paberraha. Esimene tagajärg on see, mida ta nimetab "rahva tõrjutuseks", mis tähendab kasvavat usaldamatust väärtusetu raha suhtes. Teine tagajärg on inflatsioon: raha nõrgenemine muudab kaubad kallimaks.
@@ -364,13 +364,13 @@ Selle teooriaga inflatsiooni mõju kohta annab Cantillon meile vastused mitmetel
 Kõigist autoritest, kelle me oleme valinud 18. sajandi prantsuse laissez-faire'i mõtlejate panteonisse, on Saint-Pierre'i abt kahtlemata kõige tähelepanuta jäänud.
 
 
-![image](assets/fr/018.webp)
+![image](assets/et/018.webp)
 
 
 Kui aus olla, siis on see osaliselt tema enda süü. Ta kirjutas väga palju, kuid tema stiil on Hard lugeda ja täis kordusi. Isegi Jean-Jacques Rousseau püüdis oma teoseid kokku võtta: ta alustas seda, kuid loobus peagi sellest ülesandest, sest mõistis, et see ületab tema jõuvarusid. 19. sajandi keskel austas Gustave de Molinari teda, avaldades temast põhjaliku teose, milles ta avaldas austust patsifistile ja majandusteadlasele, kes Saint-Pierre'i abt oli. Kuid sellest ei piisanud, et teda unustusest välja tuua, sest ta on selles ikka veel tänapäevani.
 
 
-![image](assets/fr/019.webp)
+![image](assets/et/019.webp)
 
 
 
@@ -379,7 +379,7 @@ Kui aus olla, siis on see osaliselt tema enda süü. Ta kirjutas väga palju, ku
 Saint-Pierre'i abt kirjutas majandusest, kuid tavaliselt pakub ta huvi pigem patsifistina. Ta on igavese rahu projekti autor, mis eelnes Emmanuel Kanti tuntud projektile.
 
 
-![image](assets/fr/020.webp)
+![image](assets/et/020.webp)
 
 
 Selles teoses väitis ta, et sõda on hävitav mitte ainult nende jaoks, kes selle kaotavad, vaid ka võitjate jaoks ja isegi nende jaoks, kes neis ei osale, sest nende kaubandus on mõjutatud.
@@ -391,7 +391,7 @@ Sõja nuhtluse vastu võitlemiseks soovitas ta luua omamoodi Euroopa Rahvastelii
 Saint-Pierre'i abti elus on ka üks episood, mis illustreerib suurepäraselt Prantsuse laissez-faire'i liikumise taga olevat kriitilist mõtteviisi. Ta liitus 1695. aastal Académie Française'iga, kuid 1718. aastal heideti ta välja, kuna julges kritiseerida Louis XIV valitsemist. Sellega ühines ta selliste isikutega nagu Vauban ja Boisguilbert, kes olid samuti julgenud sõna võtta päikesekuninga hiilguse all peidus olevate salakavaluste vastu.
 
 
-![image](assets/fr/021.webp)
+![image](assets/et/021.webp)
 
 
 Saint-Pierre'i abt väitis, et Louis XIV valitsemisaeg oma luksusliku õukonna ja sõjaliste vallutuste kinnisideega ei olnud voorusliku kuninga tunnus. Ta keeldus aktsepteerimast, et Louis XIV vääris tiitlit "**Louis Suur**".
@@ -403,7 +403,7 @@ Saint-Pierre'i abt väitis, et Louis XIV valitsemisaeg oma luksusliku õukonna j
 "Oma naabreid ja oma rahvast korraga hävitada ei ole suurus," ütles ta. See seisukoht solvas sügavalt Académie Française'i, mis oli pikka aega tegelenud kuninga ülistamisega igas võimalikus kirjanduslikus vormis. Selle tulemusena hääletasid nad peaaegu ühehäälselt tema väljaheitmise poolt.
 
 
-![image](assets/fr/022.webp)
+![image](assets/et/022.webp)
 
 
 Majanduslikus mõtlemises kohaldas ta järjekindlalt kasulikkuse põhimõtet, nagu Jeremy Bentham hiljem, ja pakkus sageli häid teadmisi. Kui aus olla, oli ta ikka veel mõjutatud merkantilistlikest ideedest, millest keegi polnud tol ajal täielikult lahti saanud.
@@ -414,7 +414,7 @@ Siiski tegi Saint-Pierre'i abt mõned täpsed tähelepanekud majanduse kohta. Ju
 
 > "Kui kaupmeeste vahel toimub müük, võidab sellest nii müüja kui ka ostja; sest kui mõlemal poolel ei oleks mingit reaalset või tajutavat kasu, ei müüks müüja sellise ja sellise hinnaga ega ostja omalt poolt ostaks sellise hinnaga".
 
-![image](assets/fr/023.webp)
+![image](assets/et/023.webp)
 
 
 Samuti rõhutas ta enne Vincent de Gournay'd töö väärtust ja selle atraktiivsuse säilitamise tähtsust. "Kogu töö on raske," kirjutas ta. "Ja kui inimene näeb, et tema töö ei maksa talle midagi või ei maksa piisavalt, muutub ta tegevusetuks ega vaeva ennast mittevajaliku vaevaga". Just seda argumenti kordasid hiljem markii d'Argenson, Vincent de Gournay ja füsiokraadid, kui nad kritiseerisid koormavaid eeskirju ja kildkondade süsteeme. Nad väitsid, et sellised piirangud heidutavad töölisi, põhjustavad tarbetuid raskusi ja muudavad lõpuks tegevusetuse sellistes tingimustes ahvatlevamaks kui tootliku töö.
@@ -430,7 +430,7 @@ Samuti rõhutas ta enne Vincent de Gournay'd töö väärtust ja selle atraktiiv
 Markii d'Argenson on unustatud laissez-faire'i doktriini rajaja.
 
 
-![image](assets/fr/024.webp)
+![image](assets/et/024.webp)
 
 
 Selle avastas uuesti August Oncken, kes kirjutas raamatu "Laissez-faire, laissez-passer" doktriini kohta ja jõudis järeldusele, et d'Argenson mängis selle idee sünni juures olulist rolli.
@@ -445,7 +445,7 @@ René-Louis Voyer, markii d'Argenson, sündis 1694. aastal. Ta alustas oma polii
 Kolmkümmend aastat enne Adam Smithi kaitses d'Argenson juba tööjaotuse ja spetsialiseerumise eeliseid.
 
 
-![image](assets/fr/025.webp)
+![image](assets/et/025.webp)
 
 
 Ta kritiseeris teravalt eeskirju, mis tema arvates püüdsid muuta eri piirkondade loomulikke eelistusi. Näiteks oli ta hämmastunud, et valitsus tahtis, et Toursis, tollases vaeses linnas, toodetakse kangast ja sametkangast sama kvaliteediga kui jõukas Genovas, mis oli kuulus oma luksuskaupade poolest, valmistatud kangast ja sametkangast. Ta jõudis järeldusele:
@@ -460,7 +460,7 @@ Ta tunnustas ka teist Smithi keskset põhimõtet: ideed, et spontaanne kord tule
 Juba enne Adam Smithi mõistis ta, et omakasupüüdlikkus viib üldise huvini spontaanse loodusliku korra loomise kaudu.
 
 
-![image](assets/fr/026.webp)
+![image](assets/et/026.webp)
 
 
 Ta võrdles ühiskonda mesilaspesaga, kus iga putukas järgib oma instinkti: "Nende tegevusest," ütles ta täpselt, "tuleneb suur akumulatsioon väikese ühiskonna vajaduste rahuldamiseks; kuid seda ei toonud kaasa käsud või kindralid, kes kohustasid iga üksikisikut järgima oma juhi seisukohti". See on ehk kõige lähedasem väljend prantsuse majandusmõtlemises Adam Smithi kuulsale "nähtamatu käe" kontseptsioonile.
@@ -475,7 +475,7 @@ Ausalt öeldes oli ta üllatunud, et inimesed leidsid, et see on nii Hard, et m�
 Mõnikord oli ta meeleheitel selle üle, kui vähe tema ideid mõisteti.
 
 
-![image](assets/fr/027.webp)
+![image](assets/et/027.webp)
 
 
 Seega oli majanduspoliitika ideaal, mida ta kaitses, vastuolus oma aja suundumustega. Tema ideaal määratles riigile sisuliselt negatiivse rolli. "Kõik, mida kaubandus vajab, on takistuste kõrvaldamine. Ta küsib ainult häid kohtunikke, monopolide karistamist, võrdset kaitset kõigile kodanikele, stabiilset valuutat ning teid ja kanaleid". See oli minimaalse riigi määratlus, millest sai üks Prantsuse poliitilise ökonoomia traditsiooni alustalasid.
@@ -502,7 +502,7 @@ Toimetulekuga kauplemise küsimusele ei olnud d'Argensonil muud vastust kui vaba
 Vincent de Gournay oli üks esimesi laissez-faire'i esindajaid Prantsusmaal ja üks selle esimesi eestkõnelejaid avalikus halduses ja intellektuaalsetes ringkondades. Seetõttu väärib ta majandusmõtte ajaloos palju rohkem tunnustust, kui ta tavaliselt saab. Olen püüdnud tema panust esile tõsta ühes hiljutises raamatus.
 
 
-![image](assets/fr/028.webp)
+![image](assets/et/028.webp)
 
 
 Gournay sündis kaupmeheperekonda ja sai ise edukaks kaupmeheks, kogudes märkimisväärset jõukust, enne kui ta sai ametikoha Prantsuse administratsioonis. Kaubandusametis oli ta vaba tööjõu ja vabakaubanduse innukas pooldaja.
@@ -517,7 +517,7 @@ See, mis meil on olemas:
 1. [märkused](https://archive.org/details/traitessurlecomm0000chil) inglise majandusteadlase Josiah Childi raamatu tõlke kohta;
 
 
-![image](assets/fr/029.webp)
+![image](assets/et/029.webp)
 
 
 2. "Tähelepanekud", mis sisalduvad trükitud kangaste keelustamise eeliste ja puuduste uurimisel;
@@ -556,7 +556,7 @@ Lõpuks märkis Gournay, et intressimäärad olid madalamad Inglismaal ja Madalm
 Kõigis neis punktides mängis Gournay võtmerolli 18. sajandi keskpaiga intellektuaalsetes aruteludes. Tema majandusliku vabaduse kaitsmine eelnes füsiokraatidele kümme aastat ja Adam Smithile kakskümmend aastat. Kuid tema kõige püsivam mõju oli Turgot'le. Gournay võttis noore Turgot' oma tiiva alla ja õpetas teda oma ideedega.
 
 
-![image](assets/fr/030.webp)
+![image](assets/et/030.webp)
 
 
 Aastaid hiljem kirjutas Turgot, tulevane minister Louis XVI ajal, oma sõbra surma järel Éloge (ülistus) tema auks. Ja kui Turgot ei võtnud kunagi täielikult omaks François Quesnay' füsiokraatiat, siis selle põhjuseks oli see, et ta säilitas võitmatu kiindumuse oma esimese meistri Vincent de Gournay'sse.
@@ -571,13 +571,13 @@ Aastaid hiljem kirjutas Turgot, tulevane minister Louis XVI ajal, oma sõbra sur
 Majandusteaduse algusaegade puhul kipub ajalugu esile tõstma esimest koolkonda: füsiokraadid, keda juhtisid François Quesnay ja tema jüngrid. Kuid peaaegu kümme aastat enne nende tõusu eksisteeris veel üks vähem formaalne, kuid sama oluline rühm, mille keskmes oli majandusteadlane Vincent de Gournay.
 
 
-![image](assets/fr/031.webp)
+![image](assets/et/031.webp)
 
 
 Nagu nägime eelmises osas, oli Gournay vaimustatud välisriikide nagu Inglismaa ja Hollandi eeskujudest. Ta imetles nende majandusteadlasi - selliseid tegelasi nagu Josiah Child, Johan de Witt ja David Hume - sama palju.
 
 
-![image](assets/fr/032.webp)
+![image](assets/et/032.webp)
 
 
 See imetlus ajendas teda tõlkima nende majandusteemalisi kirjutisi ja andma nende tõlkeid.
@@ -593,7 +593,7 @@ Tänu mitme Gournay ringi liikme koostööle said paljud autorid avaldada origin
 - Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 väljaannet 4 aasta jooksul)
 
 
-![image](assets/fr/033.webp)
+![image](assets/et/033.webp)
 
 
 
@@ -613,7 +613,7 @@ Rühm mängis ka keskset rolli järgmiste raamatute avaldamisel
 - [Essee kaubanduse olemusest üldiselt](https://archive.org/details/essayonnatureofc0000cant) Richard Cantillon.
 
 
-![image](assets/fr/034.webp)
+![image](assets/et/034.webp)
 
 
 See viimane, umbes 1730. aasta paiku kirjutatud raamat jäi pärast autori surma käsikirjana alles. Gournay avaldas selle 1755. aastal oma majandusteadlastest sõprade abiga. Ringi liikme abt Morellet' sõnul soovitas Gournay seda kõigile oma tuttavatele majandusteadlastele.
@@ -622,13 +622,13 @@ See viimane, umbes 1730. aasta paiku kirjutatud raamat jäi pärast autori surma
 Gournay ringkonna intellektuaalne tegevus avaldas suurt mõju ideede ajaloole. Selles mõttes võib neid pidada Prantsusmaa majandusteaduse rajajateks. Christine Théré INEDist, kes on uurinud majandusalaste väljaannete ajalugu, leidis, et aastatel 1750-1759 avaldati mitte vähem kui **349** majandusteemalist teost, võrreldes ainult **83** kogu eelneva kümnendi (1740-1749) jooksul. See revolutsioon 1750. aastatel on suures osas tingitud Gournay ringkonnast.
 
 
-![image](assets/fr/035.webp)
+![image](assets/et/035.webp)
 
 
 Selleks, et levitada Prantsuse elanikkonna seas majandusaruteluid, tegid Gournay ja tema sõbrad need romaanide kaudu kättesaadavaks. Pärast *Memuaari kaupmeestest*, milles kritiseeriti gildid, aitasid Gournay ja Cliquot-Blervache Gabriel-François Coyer'il kirjutada lühikese satiirilise romaani "Chinki: [Teistele rahvastele kohaldatav kokšinistlik lugu]" (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
-![image](assets/fr/036.webp)
+![image](assets/et/036.webp)
 
 
 Lugu jälgib peategelast Chinki, kes on sunnitud oma maalt lahkuma ülemäärase maksustamise tõttu ja püüab leida oma lastele käsitööalast tööd linnas. Kuid kõik ametid on neile kuritarvitavate kildkondade eeskirjade tõttu suletud, nii et lugu kujutab tema kasvavat pettumust läbi humoorikate toonide.
@@ -649,13 +649,13 @@ Ja tõepoolest, 1750. aastatel muutusid majandusküsimused moes olevaks. Voltair
 Prantsusmaa on tundnud kahte kuulsat meest nimega Mirabeau, isa ja poeg, kuid just poeg oli see, kes tegi tõeliselt ajalugu. Ta jäi kuulsaks kui revolutsioonitribüün ja Prantsuse revolutsiooni sündmuste üks keskseid tegelasi.
 
 
-![image](assets/fr/037.webp)
+![image](assets/et/037.webp)
 
 
 Oma andekuse ja koha tõttu Prantsuse ajaloos varjutas ta oma isa, majandusteadlase ja François Quesnay koolkonna tugisammast, kes oli selle esimene liige juba 1758. aastal.
 
 
-![image](assets/fr/038.webp)
+![image](assets/et/038.webp)
 
 
 Markii de Mirabeau oli tegelikult juba enne füsiokraatia vastuvõtmist saavutanud tohutu kuulsuse tänu raamatule "Inimkonna sõber. Traktaat rahvastikust [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Kuigi esimene väljaanne ilmus 1756. aastal, sai see kuulsaks umbes 1757. aastal, aasta enne tema kohtumist Quesnay'ga.
@@ -675,7 +675,7 @@ Tänapäeval ei loeta seda raamatut enam, kuid paljud viitavad sellele ikka veel
 Majandusteadlase karjääri alguses sai Mirabeau inspiratsiooni Richard Cantillonilt. Ta oli 15 aastat omanud Cantilloni "Essee kaubanduse üldisest olemusest" käsikirja, mida ta oli kannatlikult analüüsinud ja kommenteerinud.
 
 
-![image](assets/fr/039.webp)
+![image](assets/et/039.webp)
 
 
 L'Ami des Hommes oli algselt mõeldud lihtsa kommentaarina Cantilloni esseele. Kuid kuna Mirabeau oli mõnevõrra eklektiline, s.t. ausalt öeldes pisut hullumeelne, kaldus ta oma esialgsest plaanist kiiresti kõrvale. Raamatus käsitletakse lihtsalt kõiki talle teadaolevaid majandusküsimusi, eemaldudes aeg-ajalt Cantillonist. See on raskesti loetav raamat, mille plaan on veider ja igas peatükis on kõrvalepõiked. Mirabeau ise tunnistas, et see oli kaos ja tema stiil oli apokalüptiline.
@@ -694,7 +694,7 @@ Hoolimata sellest kaosest, mida see on, on mõned ideed märkimist väärt:
 - Lõpuks kaitseb ta kaubandusvabadust ja rahvaste vendlust rahus.
 
 
-![image](assets/fr/040.webp)
+![image](assets/et/040.webp)
 
 
 See on Hard, et Mirabeau seisukohti nimetada kas liberaalseks või antiliberaalseks. Ta triivis sageli edasi-tagasi, mõnikord seda teadvustamata, ühe ja teise nägemuse vahel. Siiski domineerisid tema kirjutistes sageli liberaalsed ideed. Üks tema kuulsamaid ridu oli:
@@ -705,7 +705,7 @@ See on Hard, et Mirabeau seisukohti nimetada kas liberaalseks või antiliberaals
 Oma suurima edu järel oli Mirabeau'le tehtud ettepanek. François Quesnay, kes oli äsja huvi tundnud majandusteaduse vastu, kutsus teda oma entresooli Versailles'sse.
 
 
-![image](assets/fr/041.webp)
+![image](assets/et/041.webp)
 
 
 Nad vaidlesid ägedalt ja lõpuks juhtus midagi, mida tavaliselt debattides kunagi ei juhtu: Mirabeau tunnistas otsesõnu, et ta oli eksinud. Ta nõustus Quesnay ideedega ja ütles, et on valmis neid levitama.
@@ -714,7 +714,7 @@ Nad vaidlesid ägedalt ja lõpuks juhtus midagi, mida tavaliselt debattides kuna
 Koos moodustasid nad selle tuumiku, millest sai füsiokraatlik koolkond, mida tugevdasid nende poolt sissetoodud regulaarsed värbajad. Varsti pärast Mirabeau pöördumist kutsus Quesnay teda kaitsma oma ideid maksustamise kohta. See viis ["Maksustamise teooria"](https://archive.org/details/thoriedelimpot00mira) koostamiseni, mille eest Mirabeau saadeti mõneks päevaks Vincennes'i vanglasse ja seejärel pagendati Bignonisse.
 
 
-![image](assets/fr/042.webp)
+![image](assets/et/042.webp)
 
 
 Mirabeau mängis olulist rolli ka uute liikmete värbamisel Quesnay kooli. Ta veenis isegi noort Dupont de Nemours'i.
@@ -738,7 +738,7 @@ Mirabeau jäi kogu oma elu jooksul väsimatuks kirjanikuks. Ta kirjutas arvukalt
 François Quesnay on üks kuulsamaid prantsuse majandusteadlasi.
 
 
-![image](assets/fr/043.webp)
+![image](assets/et/043.webp)
 
 
 Tema nimi esineb igas majandusteaduse ja majandusmõtte ajaloo õpikus. Öeldakse, et ta lõi "Tableau Économique'i" majanduse skemaatiliseks kujutamiseks, et ta oli füsiokraatliku koolkonna juht, et ta eksis, kui arvas, et ainult maa on tootlik, ja lõpuks, et Adam Smith tuli parandama olukorda. Enam-vähem nii kipuvad õpikud François Quesnayd kokku võtma.
@@ -762,7 +762,7 @@ Ta sai 1730. aastal, 36-aastaselt, kuulsaks sellega, et ta oli vastu levinud ver
 1740. aastal sai temast Kirurgiaakadeemia sekretär. Aastal 1748, 54-aastaselt, sai temast Madame de Pompadouri isiklik arst ja ta kolis Versailles'sse.
 
 
-![image](assets/fr/044.webp)
+![image](assets/et/044.webp)
 
 
 Ta oli Madame de Pompadouriga väga lähedane. Quesnay ütles isegi ajal, mil favoriidi häbistamisest teatati, et ta ei tahaks ilma naiseta Versailles'sse arstiks jääda:
@@ -776,7 +776,7 @@ Seejärel avaldas ta mitu meditsiinilist raamatut: (1749), "Traktaat mädanikust
 60-aastaselt, olles tutvunud tollal moes olnud majandusdebattidega, hakkas ta kirjutama majandusteadustest. Aastal 1755 kirjutas ta artiklid "Põllumehed" ja "Teravili" ajakirjale *Encyclopédie*.
 
 
-![image](assets/fr/045.webp)
+![image](assets/et/045.webp)
 
 
 Need avaldati 1757. aastal. Samal aastal kohtus ta kuulsa Mirabeau'ga ja tal õnnestus teda oma majandusideedele ümber pöörata - sündis füsiokraatia tuum. Seejärel koostas Quesnay Tableau Économique'i, mis trükiti kuninglikul trükipressil, väidetavalt kuninga enda juuresolekul Versailles' lossis. Sellest alates võõrustas ta regulaarselt majandusteadlasi ja filosoofe oma Versailles' korteris, kus nad vabalt arutlesid. Quesnay andis oma panuse ka Mirabeau 1759. aastal avaldatud teosesse "Theory of Taxation".
@@ -799,7 +799,7 @@ Tema jüngrid olid siiski sügavalt pühendunud ja aitasid suuresti kaasa Quesna
 Tänu oma kaastöötajate tööle leidsid tema ideed platvormi: kõigepealt selliste ajalehtede kaudu nagu *Agriigiajakiri* ja *Ephémérides du Citoyen*.
 
 
-![image](assets/fr/046.webp)
+![image](assets/et/046.webp)
 
 
 Seejärel raamatute kaudu, mitte ainult tema õpilaste raamatute, vaid ka 1768. aastal Dupont de Nemours'i poolt välja antud olulise kogumiku *Füsiokraatia* kaudu.
@@ -829,7 +829,7 @@ Füsiokraatia sai Prantsusmaal ja isegi kogu Euroopas moodi vaevalt kümne aasta
 Selle algupära peitub majanduslike ideede arengus 1750ndatel aastatel. Mitmed autorid aitasid ületada lõhet Boisguilbert'i ja selle vahel, mis hiljem sai tuntuks füsiokraatia nime all. Nagu eespool mainitud, olid Vincent de Gournay ja tema majandusteadlaste ring paljude väljaannete taga, mis tutvustasid prantsuse lugejatele välismaist majandusmõtet ja aitasid sütitada nende kirge majanduse vastu. Füsiokraatia alused olid juba olemas sellistes raamatutes nagu Boisguilbert'i "Détail de la France" ja ["Essee kaubanduse üldisest olemusest"] (https://archive.org/details/essaisurlanature0000cant), mille autoriks oli Cantillon.
 
 
-![image](assets/fr/047.webp)
+![image](assets/et/047.webp)
 
 
 
@@ -844,7 +844,7 @@ Mis jäi üle, oli muuta see ideede kogum ühtseks, terviklikuks õpetuseks, ja 
 Nii võis 1756. aastal alata füsiokraatia lugu. François Quesnay, tollane kirurg, kellest sai Madame de Pompadouri isiklik arst, kutsus Mirabeau'd Versailles'sse, et arutada majanduslikke ideid.
 
 
-![image](assets/fr/048.webp)
+![image](assets/et/048.webp)
 
 
 Nende vestluse lõpuks nõustus Mirabeau Quesnay ideedega. Edaspidi kirjutasid nad: Quesnay lõi *Tableau économique* (1758), et illustreerida rikkuse liikumist majanduses, ja koos avaldasid nad "Maksustamise teooria" (1759).
@@ -861,7 +861,7 @@ Nende pingutused ei leidnud sooja vastuvõttu. Kohtus oli valdavaks reaktsioonik
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/et/049.webp)
 
 
 Seega möödus 1760. aastate esimene pool suhteliselt vaikselt. Oma positsiooni tõttu Versailles's oli Quesnay sunnitud lõpetama kirjutamise või vähemalt mitte midagi oma nime all avaldama. Mirabeau, kes oli juba kord hukka mõistetud, oli hoiatatud ja teadis hästi, et kuninga favoriit ei saa teda igavesti kaitsta.
@@ -871,7 +871,7 @@ Seega möödus 1760. aastate esimene pool suhteliselt vaikselt. Oma positsiooni 
 Pärast seda lühikest vaikust hakkasid kaks majandusteadlast jüngrite värbama: see oli ainus viis nende ideede populariseerimiseks. Aastaks 1765 oli nende edu silmatorkav. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne ja Baudeau liitusid kiiresti nende ridadesse. Nad moodustasid kooli: neil oli oma ajakiri *Les Éphémérides du Citoyen* ja nad kogunesid isegi igal teisipäeval Mirabeau kodus.
 
 
-![image](assets/fr/050.webp)
+![image](assets/et/050.webp)
 
 
 Ajavahemikul 1765-1775 oli füsiokraatide ühendatud rühm oma kuulsuse tipul. Kirjandus- ja filosoofiamaailma silmad olid ainult neil, mis võimaldas nende ideedel laialdaselt ja kiiresti levida. Inimesed nimetasid neid "majandusteadlasteks" või, mõnitavamalt, "majandusteadlaste sekti". Sõltumata toonist oli nende kuulsus absoluutne. 1774. aastal kirjutas M. de Vaublanc pärast reisi Metzis oma mälestustes oma hämmastusest: kõik tema ümber rääkisid majandusteadusest ja arutlesid nagu Quesnay jüngrid. "See oli moes," märkis ta. "Kõik olid majandusteadlased".
@@ -880,7 +880,7 @@ Ajavahemikul 1765-1775 oli füsiokraatide ühendatud rühm oma kuulsuse tipul. K
 Kuid 1770. aastaks hakkas nende populaarsus vähenema. Rühmitus koges esimesi ülejooksikuid ja nende võime kriitikale vastu seista nõrgenes. Ja kriitikuid oli palju: Condillac, Mably, Voltaire, Galiani, Linguet, Graslin ja isegi Adam Smith Šotimaal vaidlustasid nende seisukohti.
 
 
-![image](assets/fr/051.webp)
+![image](assets/et/051.webp)
 
 
 Nende ajaleht ei ilmunud enam regulaarselt. Sellega lõppes liikumise kõige aktiivsem periood.
@@ -899,7 +899,7 @@ Termin "füsiokraatia", mis tähendab "looduse järgi valitsemist", pärineb Dup
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/et/052.webp)
 
 
 See on ebaselge fraas. Ükski Quesnay õpilane ei ole meile selle tegelikku tähendust andnud. Sellegipoolest ei olnud nende mõttekäik kaugeltki ebaselge. Tegelikult oli see üles ehitatud mõne väga selge põhimõtte ümber, mida me siinkohal kirjeldame.
@@ -917,7 +917,7 @@ Siiski on ebaõiglane kritiseerida füsiokraate selle eest, et nad omistasid põ
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/et/053.webp)
 
 
 Füsiokraatide idee on tegelikult peen. Nende sõnul on erinevus tootmise ja kasu vahel. Tööstusettevõtja ja kaupmees võivad teenida kasumit, kuid ainult põllumees toodab tõeliselt, sest tootmine on kasuliku materjali loomine, mitte kasulikkuse lisamine olemasolevale materjalile.
@@ -932,7 +932,7 @@ Samuti peaksime püüdma mõista, miks nad lükkasid tööstuse ja käsitöö ku
 Tänapäeval ütleme kellegi solvamiseks, et ta ei ole demokraat. Kuigi ajaloolased andestavad füsiokraatidele nende ranged vaated põllumajanduse tootlikkusele, ei andestata nende vastuseisu demokraatiale, eriti kuna nad elasid valgustusajastu ideede kõrgajal. Alates 18. sajandi keskpaigast kuni vahetult enne revolutsiooni peeti füsiokraate progressi vaenlasteks.
 
 
-![image](assets/fr/054.webp)
+![image](assets/et/054.webp)
 
 
 Tocqueville nõudis seda ideed:
@@ -943,7 +943,7 @@ Tocqueville nõudis seda ideed:
 Füüsokraadid olid majanduslikult liberaalsed, kuid poliitiliselt ei olnud nad seetõttu liberaalsed. Quesnay kirjutab oma *Maksimites*: "Suveräänne võim olgu ainuüksi ja kõrgemal kõigist ühiskonna üksikisikutest ja kõigist erahuvide ebaõiglastest ettevõtmistest." Ja hiljem, samas maksiimis: "Kontrollide ja tasakaalude süsteem valitsuses on fataalne mõiste, mis paljastab ainult ebakõla suurte seas ja väikeste rõhumise".
 
 
-![image](assets/fr/055.webp)
+![image](assets/et/055.webp)
 
 
 Tocqueville märkis tabavalt, et füsiokraadid lükkasid demokraatia tagasi kohe, kui nad nägid selle vorme. Nad suhtusid skeptiliselt demokraatiasse, millest sai Prantsuse poliitilises majanduses püsivaks, sest demokraatia ei ole kaugeltki täiuslik süsteem: see võimaldab potentsiaalselt vähemuste rõhumist enamuse poolt ning võib muutuda usurpatsiooni, türannia ja rüüstamise vahendiks.
@@ -955,7 +955,7 @@ Tocqueville märkis tabavalt, et füsiokraadid lükkasid demokraatia tagasi kohe
 Füsiokraadid uskusid, et inimesed peavad omama ja hoidma oma töö tulemusi. Nende arvates olid omandiõigused ühiskonna aluseks. Nad arvasid, et riigil on üks peamine ülesanne: kaitsta inimeste omandit. Lisaks sellele väitsid füsiokraadid majanduslikust vaatepunktist, et omandi puutumatus soodustab tööd ja pingutusi ning on majandusliku progressi eelduseks.
 
 
-![image](assets/fr/056.webp)
+![image](assets/et/056.webp)
 
 
 Quesnay väljendas seda lihtsalt:
@@ -973,7 +973,7 @@ Oma varem tsiteeritud *Maksimites* väidab Quesnay:
 > Olgu täielik kaubandusvabadus, sest nii sise- kui ka väliskaubanduse kõige usaldusväärsem, täpsem ja kasulikum reguleerimine rahva ja riigi jaoks seisneb täielikus konkurentsivabaduses.
 
 
-![image](assets/fr/057.webp)
+![image](assets/et/057.webp)
 
 
 Füsiokraadid olid näinud, millist kahju tekitas valitsuse sekkumine, eriti teraviljakaubanduses. Tuleb tunnistada, ütlevad nad, et asutus ei suuda kunagi juhtida kaubandust sama hästi kui üksikisikud, sest ta peaks reageerima igale vajadusele ja reageerima igale nõudluse või Supply muutusele. Kõik see ületab kaugelt isegi kõige targemate valitsuste võimed, mida saab ette kujutada. Seepärast on vaja lasta asjadel olla ja lasta neil voolata.
@@ -1007,7 +1007,7 @@ Nende ideede kaitsmine raamatutes, lendlehtedes ja ajakirjas *Les Éphémérides
 Välismaal saabus edu väga varakult. Saksamaal tundis Badeni markkrahv huvi füsiokraatlike ideede vastu ja pidas regulaarset kirjavahetust Mirabeau ja Dupont de Nemours'iga.
 
 
-![image](assets/fr/058.webp)
+![image](assets/et/058.webp)
 
 
 Ta tegi veendunud füsiokraadile, majandusteadlasele Johann August Schlettweinile ülesandeks rakendada maksureformi ja liberaliseerida teraviljakaubandust. Aprillis 1770 toimus esimene katse väikeses Dietlingeni külas. Külaelanikud näisid meetmed entusiastlikult vastu võtvat, kuid vastutavad ametnikud ei olnud väga toetaval seisukohal, mis viivitas laiemat rakendamist.
@@ -1016,7 +1016,7 @@ Ta tegi veendunud füsiokraadile, majandusteadlasele Johann August Schlettweinil
 Venemaal valmistas Katariina II ette seadusandlikku reformi ja palus Diderot'l saata talle abiks geniaalne vaim.
 
 
-![image](assets/fr/059.webp)
+![image](assets/et/059.webp)
 
 
 Lugedes 1767. aastal ilmunud raamatut [*Poliitiliste ühiskondade loomulik ja olemuslik kord*] (https://archive.org/details/lordrenaturelete00mercuoft), mille autoriks oli füsiokraat Mercier de la Rivière, saatis ta selle autorile.
@@ -1035,26 +1035,26 @@ Rootsis Gustav III ja Itaalias Toscana Leopoldi näol leidsid füsiokraadid samu
 Prantsusmaal saavutasid füsiokraadid suurepärast edu, kui Turgot nimetati 1774. aastal finantskontrolöriks.
 
 
-![image](assets/fr/060.webp)
+![image](assets/et/060.webp)
 
 
 Olles teadlik nende kuulsuse langusest, ei esitanud Turgot end kunagi füsiokraatide lojaalse õpilasena ega ka entsüklopedistina, kuigi ta oli üks neist, ja kuna vaimulikud põlgasid neid. Kui Turgot oli võimul, andis ta välja kuus kuulsat edikti, mis kujutasid endast füsiokraatide programmi praktilise rakendamise algust: kaubandusvabadus, töövabadus ja monopolide kaotamine.
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/et/061.webp)
 
 
 Prantsuse revolutsiooni ajaks oli füsiokraatidel vähem järgijaid. Markii Mirabeau suri 13. juulil 1789 - üsna sümboolne. Abeille oli edasi liikunud, kuid Dupont de Nemours jäi talle truuks. Assambleesse määratud Dupont de Nemours kandis füsiokraatia häält ja nõudis majandusreforme Ownership ja vabakaubanduse kasuks.
 
 
-![image](assets/fr/062.webp)
+![image](assets/et/062.webp)
 
 
 Samuti võitles ta edutult assignatite vastu. Vaatamata sellele ebaõnnestumisele jäi füsiokraatlik mõtteviis intellektuaalses debatis väga oluliseks ja mõjutas revolutsiooni varaseid saavutusi. Nagu Joseph Rambaud ütles, oli kõik, mida revolutsioon tegi vabaduste kasuks, füsiokraatide teene.
 
 
-![image](assets/fr/063.webp)
+![image](assets/et/063.webp)
 
 
 
@@ -1081,7 +1081,7 @@ Ameerika Ühendriikides on meile tuttav DuPont, tuntud ka kui "E.I. du Pont de N
 
 
 
-![image](assets/fr/064.webp)
+![image](assets/et/064.webp)
 
 
 Tänapäeval on ettevõtte käive üle 35 000 miljardi dollari ja see annab tööd peaaegu 65 000 inimesele üle maailma. Selgub, et see ettevõte on tihedalt seotud füsiokraatlikku koolkonda kuuluva prantsuse majandusteadlase Samuel-Pierre Dupont de Nemours'i saatusega.
@@ -1095,7 +1095,7 @@ Tänapäeval on ettevõtte käive üle 35 000 miljardi dollari ja see annab tö�
 
 
 
-![image](assets/fr/065.webp)
+![image](assets/et/065.webp)
 
 
 Uudishimulikuna hakkas ta lugema Mirabeau teoseid *Rahva sõber* ja *Maksustamise teooria*. Ta kohtus Mirabeau ja François Quesnayga, seejärel liitus nende kooliga.
@@ -1116,7 +1116,7 @@ Füsiokraatliku koolkonna liikmed nõustuvad, et Dupont de Nemoursist sai kiires
 Dupont de Nemours säilitas alati oma kõrge lugupidamise Quesnay suhtes.
 
 
-![image](assets/fr/066.webp)
+![image](assets/et/066.webp)
 
 
 Hiljem ütles ta: "Ma olin alles poiss, kui Quesnay ulatas mulle oma käed - ta tegi minust mehe." Ta ütles: "Ma olin alles poiss, kui Quesnay ulatas mulle oma käed - ta tegi minust mehe." Quesnay oli see, kes tegi temast tolleaegse kirjandusmaailma tähtsaima majandusteadlase.
@@ -1131,7 +1131,7 @@ Ta muutis selle perioodikakogumiku majandusteooria peamiseks keskuseks, toetades
 
 
 
-![image](assets/fr/067.webp)
+![image](assets/et/067.webp)
 
 
 Kui Turgot oli lühikest aega Prantsusmaa rahandusminister, sai Dupont'st tema lähedane nõunik, ainus füsiokraat, kellel oli juurdepääs talle, kuna Turgot hoidis teistest distantsi.
@@ -1146,7 +1146,7 @@ Revolutsiooni ajal valiti ta Nemours'i vallast ja leidis end assamblees, kus ist
 Revolutsiooni ajal, 1792. aasta augustis, haaras ta Tuileries' palee juures relva, et kaitsta kuningat rahvahulga vastu.
 
 
-![image](assets/fr/068.webp)
+![image](assets/et/068.webp)
 
 
 Kuningas ütles talle: "Monsieur Dupont, me leiame teid alati sealt, kus teid vajatakse!" Pärast seda, kui ta pääses imeväel terrorist, mõisteti süüdi ja ootas giljotiini, kuid pääses Robespierre'i langemise tõttu, suruti ta Napoleoni ajal eksiili ja leidis õnne Ameerika Ühendriikides, kus üks tema poegadest asutas isa abiga Dupont'i ettevõtte.
@@ -1175,7 +1175,7 @@ Hoolimata sellest sündmusterohkest elust, mille jooksul ta avaldas kümneid art
 
 
 
-![image](assets/fr/069.webp)
+![image](assets/et/069.webp)
 
 
 Valgustusfilosoofia kuulsaim saavutus on kahtlemata Diderot' ja d'Alembert' *Encyclopédie*.
@@ -1191,7 +1191,7 @@ Loomulikult kirjutasid majandusartiklid majandusteadlased. Esimeste köite jaoks
 Paljudes teistes *Encyclopédie* artiklites kaitsevad filosoofid, eriti Diderot, vabaduse ideaali kõigis valdkondades: religioonis, poliitikas ja majanduses.
 
 
-![image](assets/fr/070.webp)
+![image](assets/et/070.webp)
 
 
 Töövabadus, eriti vastandudes kildkondade süsteemile, oli korduv teema erinevates kirjetes, nagu Arts, Métier ja Communauté.
@@ -1201,7 +1201,7 @@ Diderot' tee majandusteoorias on kummaline. Encyclopédie's oli ta veendunud maj
 
 
 
-![image](assets/fr/071.webp)
+![image](assets/et/071.webp)
 
 
 
@@ -1212,13 +1212,13 @@ Sellest raamatust sai kõige ägedam rünnak füsiokraatlike ideede vastu, andes
 
 > "Kunagi oli sul minu vastu sõprust, nüüd ei ole seda enam, sest sa oled nii hõivatud, et sul ei ole enam aega kedagi armastada."
 
-![image](assets/fr/072.webp)
+![image](assets/et/072.webp)
 
 
 Voltaire järgis sarnast teed, mida iseloomustab tema majanduslike vaadete ebajärjekindlus. Ta imetles Vincent de Gournay'd, pidas kirjavahetust majandusteadlastega (sealhulgas Dupont de Nemours' ja Turgot'ga) ning hindas füsiokraate - eriti nende põllumajanduse kiitmise eest. Ta ülistas neid *Diatriibis Ephémérides'i autorile*. Hiljem kritiseeris ta siiski nende ideed ühtse maamaksu kohta oma satiirilises teoses *Nelikümmend krooni mees*, mis samuti tekitas märkimisväärseid vastuolusid. Lõpuks tähistas ta sarnaselt Diderot'ga Turgot' ametiaega, nimetades seda kuldajastuks ja kiites tema kahte suurt dekreeti töövabaduse ja vabakaubanduse kohta.
 
 
-![image](assets/fr/073.webp)
+![image](assets/et/073.webp)
 
 
 Lõppkokkuvõttes on filosoofide suhe majandusmõtlemisega segane. Hoolimata sellest, et nad kiitsid ja kritiseerisid liberaalseid majandusideid, mängisid nad rolli nende ideede toomisel valgustusajastu laiemasse intellektuaalsesse diskursusesse. Nii aitasid nad, kas tahtlikult või tahtmatult, edendada laissez-faire'i ideed kuni revolutsioonini.
@@ -1240,7 +1240,7 @@ Ameerika majandusteadlane Murray Rothbard kiitis ühes kuulsas lõigus oma raama
 esitledes teda koos Cantilloniga 18. sajandi suurima majandusteadlasena.
 
 
-![image](assets/fr/074.webp)
+![image](assets/et/074.webp)
 
 
 Kuidas tõusis Turgot sellisele kuulsusele? See tulenes kolme võtmeteguri kombinatsioonist. ** Esiteks**, tema prestiižne perekondlik taust. Ta pärines kuninglike administraatorite pikast suguvõsast, kellest paljud olid kõrgetel ametikohtadel. **Teiseks**, kuldne ajastu, mil ta sündis ja kasvas. Turgot oli 21-aastane, kui Montesquieu avaldas *L'Esprit des Lois*, ja 24-aastane, kui ilmus *Encyclopédie* esimene köide.
@@ -1267,7 +1267,7 @@ Nendel esimestel aastatel oli tema juhendajaks Vincent de Gournay, kes võttis t
 
 
 
-![image](assets/fr/075.webp)
+![image](assets/et/075.webp)
 
 
 1767. aastal koostas ta intendantuuris olles majandusteadusliku kogumiku pealkirjaga *Reflections on the Formation and Distribution of Wealth*.
@@ -1279,7 +1279,7 @@ Nendel esimestel aastatel oli tema juhendajaks Vincent de Gournay, kes võttis t
 Käsitletakse tööjaotust, tarbijate suveräänsust, eraomandit, kapitali rolli, praktiliselt kõiki peamisi majandusteemasid. Paljud ajaloolased, kõige viimasena ajaloolane Anne-Claire Hoyng, on juhtinud tähelepanu sarnasustele Turgot' teose ja üheksa aastat hiljem avaldatud Adam Smithi *The Wealth of Nations* vahel.
 
 
-![image](assets/fr/076.webp)
+![image](assets/et/076.webp)
 
 
 Turgot kaitses teraviljakaubanduse vabadust kirjades abt Terray'le, mis hiljem edastati kuningale, kuid millest pooled on nüüdseks kadunud. Ta kirjutas:
@@ -1300,7 +1300,7 @@ Turgot kirjutas 1770. aastal, tunduvalt enne Benthami, memorandumi, milles ta pr
 
 
 
-![image](assets/fr/077.webp)
+![image](assets/et/077.webp)
 
 
 "On viga arvata, et raha intressi kaubanduses peaksid fikseerima vürstide seadused," ütleb ta, "see on jooksev hind, mis reguleerib ennast ise, nagu kõigi teiste kaupade hinda." Selle seisukoha kaitseks lükkab ta ümber Aristotelese ja kirikuisade vastuseisu.
@@ -1318,7 +1318,7 @@ Siin leiame väga selge avalduse laissez-faire'i doktriini kohta, samuti Friedri
 
 
 
-![image](assets/fr/078.webp)
+![image](assets/et/078.webp)
 
 
 ## Turgot, reformierakondlane
@@ -1331,7 +1331,7 @@ Nagu me eelmises peatükis lühidalt meelde tuletasime, oli Turgot ühe silmapai
 
 
 
-![image](assets/fr/079.webp)
+![image](assets/et/079.webp)
 
 
 Tema isa oli olnud Pariisi kaupmeeste proviisor ja tema vanaisa intendant. Pärast suurepäraseid õpinguid püüdis Turgot' pere noorim liige jõuda vähemalt samale kõrgusele. Kõigepealt oli ta mõnda aega maître des requêtes, mis tähendab, et ta oli sidepidajaks intendantide ja Versailles' vahel. See oli prestiižne ametikoht, mille jaoks pidi ta saama erandi vanuse tõttu, kuid Turgot püüdis enamat. Tema mentori Gournay surm julgustas teda veelgi kõrgemale püüdlema ja ta taotles intendantiks nimetamist.
@@ -1346,7 +1346,7 @@ Limousinis olid talupojad vaesed ja elasid ebakindlates tingimustes, eriti seose
 
 
 
-![image](assets/fr/080.webp)
+![image](assets/et/080.webp)
 
 
 Kuna piirkond oli nii vaene, ei olnud see ministritele huvi pakkunud. See andis Turgot'le vabaduse reformidega eksperimenteerida. Limousinis viis ta ellu kolm suurt projekti:
@@ -1358,7 +1358,7 @@ Kuna piirkond oli nii vaene, ei olnud see ministritele huvi pakkunud. See andis 
 - Sõja ajal mobiliseeritud talurahvaarmeede, **miilitsa** värbamine.
 
 
-![image](assets/fr/081.webp)
+![image](assets/et/081.webp)
 
 
 Seda tehti loosimise teel, mis tõi kaasa hirmu ja vägivalda põgenemiste tõttu; Turgot asendas need kohustuslikud maksud tasustatud vabatahtlikega.
@@ -1374,7 +1374,7 @@ Vaid kuu aega hiljem nimetati Turgot aga finantskontrolöriks ja temast sai tege
 Me teame kirja, milles ta kirjeldas oma põhimõtteid Louis XVI-le: "Ei pankrotti. Ei mingeid maksutõuse. Ei mingeid uusi laene". See filosoofia, mida kriitikud võivad tänapäeval nimetada mõttetuks "ranguseks", oli mõeldud monarhia päästmiseks.
 
 
-![image](assets/fr/082.webp)
+![image](assets/et/082.webp)
 
 
 Turgot valmistas ette kuus kuninglikku dekreeti Prantsuse majanduse reformimiseks.
@@ -1391,7 +1391,7 @@ Ministeeriumi astudes teadis Turgot, et ta seisab silmitsi privilegeeritud klass
 
 > Ah! Milliseid kohutavaid uudiseid ma kuulsin! Mis saab meist? Ma olen laastatud! Me ei taastu kunagi sellest, et oleme näinud kuldse ajastu sündi ja surma! See äikesekiir on tabanud nii minu mõistust kui ka südant.
 
-![image](assets/fr/083.webp)
+![image](assets/et/083.webp)
 
 
 Sellest ajast alates on paljud väitnud, et Prantsusmaa on riik, mida on võimatu reformida. Turgot' läbikukkumine näis seda kinnitavat: Turgot oli ette valmistatud pool sajandit kestnud liberaalsete majandusmõtete kaudu; teda toetasid valgustusfilosoofid ja kuningas ise, kellel oli absoluutne võim, toetas teda.
@@ -1411,7 +1411,7 @@ Lõpuks võitsid parlements ja privilegeeritud klassid. Kõik, mida kuningas sai
 Nii nagu merkantilism, mis on selle kõige ilmsem praktiline ilming, võttis ka Montaigne'i sofism kaua aega, et kaduda.
 
 
-![image](assets/fr/084.webp)
+![image](assets/et/084.webp)
 
 
 See sofism on idee, et kaubandus ja Exchange on nullsummalised mängud. Ükskõik, mida üks osapool tehingust võidab, kaotab teine osapool tingimata. Selle toetajad väidavad, et see kehtib nii üksikisikute kui ka riikide vahel.
@@ -1429,7 +1429,7 @@ Condillaci abt mängis olulist rolli selle vale ettekujutuse lõplikul lammutami
 Enamiku majandusmõtte ajaloolaste jaoks on 1776. aastat tähistab *The Wealth of Nations*, mis rajas majandusteaduse. Äsja lõpetatud viisteist õppetundi, milles me oleme uurinud Prantsuse majandusteadust enne Adam Smithi, piisab, et tõestada selle arusaama ekslikkust. Samal 1776. aastal ilmus pealegi veel üks raamat, mis väärib ajaloolastelt ehk rohkem kiitust kui Adam Smithi raamat: selle kirjutas Condillac ja selle pealkiri on lihtsalt [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
 
 
-![image](assets/fr/085.webp)
+![image](assets/et/085.webp)
 
 
 Condillaci jaoks, kui Exchange sofism, mida nähakse nullsummamänguna, püsib, on osaliselt süüdi füsiokraadid, sest nad väidavad, et Exchange on võrdsuse suhe. Condillaci sõnul on see vale: Exchange on ebavõrdne suhe, kus üks annab alati vähem, et saada rohkem.
@@ -1466,7 +1466,7 @@ Condillaci teooria kokkuvõtteks võib loetleda kolm väidet:
 Esimene väide: me otsime kaupu nende kasulikkuse pärast. See näib ilmselge, kuid see on majandusteaduse keskne tõekspidamine, et inimesed Exchange omandavad kasu, mida ka Jean-Baptiste Say töötas suurepäraselt välja.
 
 
-![image](assets/fr/086.webp)
+![image](assets/et/086.webp)
 
 
 Teine väide: väärtus on olemas ja motiveerib vahetusi. Iga inimese subjektiivne hinnang kaupade ja teenuste kohta eeldab, et nendel samadel kaupadel ja teenustel on nende jaoks väärtus, mis on väärt rohkem või vähem vastavalt kasulikkusele, mida nad näivad pakkuvat. Loomulikult otsustab iga inimene erinevalt ja väärtus on inimeseti erinev.
@@ -1491,7 +1491,7 @@ Condorcet on kahtlemata valgustusajastu kõige majanduslikult mõtlevam filosoof
 
 
 
-![image](assets/fr/087.webp)
+![image](assets/et/087.webp)
 
 
 Suure osa oma karjäärist pühendas ta end majandusest täiesti sõltumatutele valdkondadele, ja õigusega, sest tema anded viisid suurele edule nendes teadustes, millele ta enim tähelepanu pööras. Kuid umbes 1770. aasta paiku tundis ta end tõmmatuna majandusküsimuste poole, võib-olla seetõttu, et teised filosoofid, eriti Voltaire ja Diderot, ei viitsinud neile oma vaba aega pühendada, ja ka seetõttu, et ta oli sõbrunenud Turgot'ga.
@@ -1506,7 +1506,7 @@ Ta oli seega valmis vabadust kaitsma, kui tema sõber Turgot tõusis finantskont
 
 
 
-![image](assets/fr/088.webp)
+![image](assets/et/088.webp)
 
 
 Edaspidi võttis Condorcet' karjäär uue pöörde, kui ta astus majandusdebatti, toetades väsimatult uue ministri liberaalseid reforme. Condorcet pooldas konkurentsi ja kaubandusvabadust ning nõudis ka corvées (sunnitöö) ja gildide kaotamist ning õiglast maksustamist. Ta väljendas neid veendumusi avalikult iga kord, kui selleks võimalus avanes, tehes seda ilmselge entusiasmiga; ta kirjutas palju ja teatas kord oma kirjutistes: "Lubage mul veel kord rääkida kaubandusvabadusest; mulle meeldib selle teemaga tegeleda."
@@ -1518,7 +1518,7 @@ Aastatel 1774-1776, Turgot' ministri ajal, tegi Condorcet arvukalt sekkumisi, mi
 Oma [*Kirjad teraviljakaubanduse kohta*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) toob Condorcet välja mitu olulist punkti.
 
 
-![image](assets/fr/089.webp)
+![image](assets/et/089.webp)
 
 
 Esiteks ei olnud tollased kõrged teraviljahinnad mitte vabakaubanduse, vaid pigem kehva saagi tulemus, ja Condorcet näitab seda selgelt. Seejärel selgitab ta, miks laissez-faire ei ole mitte ainult asjakohane, vaid ka ainus sobiv poliitika, vaatamata levinud eelarvamustele. Ta märgib: "Me oleme nii harjunud nägema, et valitsus sekkub teraviljakaubandusse, et mitte midagi tegemata jätmine näib olevat midagi erakordset ja uut". Hiljem lisab ta: "Peaaegu kõik, eriti avaliku võimu kandjad, usuvad, et midagi ei juhtu iseenesest ja et kõik on kadunud, kui valitsus ei sekku kõigesse". Condorcet taaselustab seega füsiokraatide ja Turgot' argumendid, näidates vabakaubanduse paremust igasuguse sekkumise üle.
@@ -1549,7 +1549,7 @@ Dupont de Nemours oli François Quesnay noorim õpilane, kes kord ütles tema ko
 Dupont de Nemours kirjutas Nemours'i bailiikide jaoks kaebuste nimekirja.
 
 
-![image](assets/fr/090.webp)
+![image](assets/et/090.webp)
 
 
 See põnev dokument sisaldas kõiki liberaalsete majandusteadlaste kaebusi kaubanduspiirangute, monopolide ja omandirünnakute vastu. Dupont de Nemours valiti ka Rahvusassambleesse.
@@ -1564,7 +1564,7 @@ Juba 1789. aasta novembris, kui räägiti monopoli andmisest Caisse d'Escompte'i
 
 
 
-![image](assets/fr/091.webp)
+![image](assets/et/091.webp)
 
 
 "Parem oleks," ütleb ta, "jätta pangandusäri vabakaubanduse seaduste hooleks". Ja ta lisab:
@@ -1586,7 +1586,7 @@ Dupont de Nemours oli sellele kindlalt vastu ja avaldas brošüüri pealkirjaga 
 
 
 
-![image](assets/fr/092.webp)
+![image](assets/et/092.webp)
 
 
 Ta kirjutas voldikule alla kui "rahva sõber". See teos tekitas üsna palju elevust, sest assambleelt küsiti, kes selle kirjutas. Dupont de Nemours tõusis seejärel püsti ja tunnistas, et see on tema töö, öeldes, et ta ei häbene kasutada tiitlit "rahva sõber", sest võitlus assignatite vastu oli tõepoolest rahva teenimine.
@@ -1595,7 +1595,7 @@ Taas kord eirati tema nõuandeid ja assignatid anti välja.
 
 
 
-![image](assets/fr/093.webp)
+![image](assets/et/093.webp)
 
 
 Me kõik teame järgnenud katastroofi, majanduslikku hävingut ja kannatusi, mida kannatasid inimesed, kellest paljud kaotasid kõik, kui assignatid muutusid väärtusetuks ja neid tuli põletada.
@@ -1627,7 +1627,7 @@ Boisguilbert väidab, et heade kavatsustega hinged, kes usuvad, et nad saavad k�
 
 
 
-![image](assets/fr/094.webp)
+![image](assets/et/094.webp)
 
 
 Cantillon rõhutas, et rahaga ei tohiks kunagi manipuleerida poliitiliste eesmärkide saavutamiseks. Kui riigil lubatakse raha hallata nii, nagu talle meeldib, siis sillutatakse teed tohutule finants- ja majanduslikule segadusele.
@@ -1648,7 +1648,7 @@ Markii d'Argenson väidab, et ükski valitsus ei ole võimeline kõike ette näg
 
 
 
-![image](assets/fr/095.webp)
+![image](assets/et/095.webp)
 
 
 Quesnay ja füsiokraadid väidavad, et eraomand on inimühiskondade alus. Ilma eraomandita kaotab inimene motivatsiooni pingutamiseks, töötamiseks, sest ta ei saa nautida oma töö vilju ega koguda midagi.

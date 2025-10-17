@@ -88,7 +88,7 @@ Bạn đã sẵn sàng khám phá lại nguồn gốc chủ nghĩa tự do kinh 
 Vào đầu thế kỷ 18, nước Pháp đang trong tình trạng đáng lo ngại. Dân số nông thôn hầu như không sản xuất đủ để tồn tại và phải chịu thuế nặng nề.
 
 
-![image](assets/fr/001.webp)
+![image](assets/vi/001.webp)
 
 
 
@@ -98,7 +98,7 @@ Những nghệ nhân thành thị, bị nhốt trong các hội nhóm cứng nh�
 Nhưng làm sao chúng ta có thể tìm ra giải pháp cho căn bệnh của thời đại này? Cho đến nay, vẫn chưa có khoa học kinh tế và do đó không có phương thuốc đặc biệt nào để áp dụng. Các nguyên tắc của chính sách kinh tế vẫn được áp dụng một cách tùy tiện, chuyển đổi giữa các giai đoạn hạn chế và các giai đoạn tự do hơn. Chắc chắn, chúng ta có các mô hình, tài liệu tham khảo lịch sử để làm theo. Trong số đó có *Sully*, bộ trưởng của Henri IV, người ủng hộ nông nghiệp và thúc đẩy tự do thương mại lớn hơn trong nước Pháp.
 
 
-![image](assets/fr/002.webp)
+![image](assets/vi/002.webp)
 
 
 
@@ -107,7 +107,7 @@ Nhưng làm sao chúng ta có thể tìm ra giải pháp cho căn bệnh của t
 Nhưng rồi đến lượt Colbert, bộ trưởng của Louis XIV, người dao động giữa quy định và tự do, nhưng cuối cùng vẫn thực thi quy định. Vào cuối thế kỷ 17, Colbert đã vượt qua Sully: các bộ trưởng hiện đang viện dẫn di sản của ông và cố gắng áp dụng những gì họ cho là châm ngôn của ông.
 
 
-![image](assets/fr/003.webp)
+![image](assets/vi/003.webp)
 
 
 Trong tâm trí của các chính khách vào cuối thế kỷ 17, câu châm ngôn của Colbert chỉ có bốn.
@@ -118,7 +118,7 @@ Trong tâm trí của các chính khách vào cuối thế kỷ 17, câu châm n
 Có hàng trăm quy tắc như vậy, được biên soạn thành các tập chuyên dụng cho từng loại ngành. Tuy nhiên, trong mắt những người theo Colbert, điều này vẫn chưa đủ: họ tin rằng ngành công nghiệp cũng cần được các tập đoàn giám sát.
 
 
-![image](assets/fr/004.webp)
+![image](assets/vi/004.webp)
 
 
 Bất kỳ ai muốn hành nghề đều phải dành nhiều năm làm người học việc, sau đó làm thợ chính, trước khi cố gắng đạt được địa vị bậc thầy bằng cách tạo ra một "kiệt tác" và trả một số tiền đáng kể cho hội. Do đó, sự cạnh tranh trong mỗi nghề bị hạn chế nghiêm ngặt.
@@ -128,7 +128,7 @@ Bất kỳ ai muốn hành nghề đều phải dành nhiều năm làm người
 (2) **Thương mại là một trò chơi tổng bằng không**. Khi nói đến thương mại, các học trò của Colbert có chung định kiến như những người man rợ thời Cổ đại. Theo bộ trưởng của Louis XIV, thương mại là "một cuộc chiến tranh liên miên". Tại sao? Lý do rất đơn giản: đối với Colbert và những người kế vị ông, bất kỳ sự gia tăng của cải nào cho một quốc gia đều có nghĩa là làm nghèo đi một quốc gia khác. Theo quan điểm của họ, người Anh hoặc người Hà Lan không thể được phép trở nên giàu có, vì điều đó có nghĩa là họ đang đánh cắp sự thịnh vượng của nước Pháp.
 
 
-![image](assets/fr/005.webp)
+![image](assets/vi/005.webp)
 
 
 Do đó, sản phẩm của các quốc gia này phải bị cấm hoặc đánh thuế nặng mà không cần lý do, bởi vì thương mại là một cuộc chiến mà chúng ta chỉ mong muốn kẻ thù của mình bị hủy diệt.
@@ -140,13 +140,13 @@ Do đó, sản phẩm của các quốc gia này phải bị cấm hoặc đánh
 (3) **Khi Nhà nước thiếu tiền, hãy tăng thêm thuế**. Colbert và các học trò của ông không tin rằng của cải của người nộp thuế là một nguồn tài nguyên có hạn. Theo quan điểm của họ, chi tiêu công không bao giờ là vấn đề, miễn là thu được đủ. Và nếu người dân nổi loạn, thì chỉ vì các bộ trưởng đã làm không tốt, vì, như Colbert đã nhận xét một cách mỉa mai, "nghệ thuật đánh thuế bao gồm việc nhổ lông ngỗng mà không khiến chúng kêu quá nhiều".
 
 
-![image](assets/fr/006.webp)
+![image](assets/vi/006.webp)
 
 
 (4) **Sự giàu có, trên hết, là vàng và bạc**. Trước khi khoa học kinh tế ra đời, nhiều tác giả đã theo một giáo điều thống trị về bản chất của sự giàu có, cái được gọi là *chủ nghĩa trọng thương*. Colbert và những người kế nhiệm ông tiếp tục theo con đường này. Tóm lại, những người theo chủ nghĩa trọng thương tin rằng dấu hiệu thực sự của sự thịnh vượng của một quốc gia là sự tích lũy các kim loại quý, bạc và vàng.
 
 
-![image](assets/fr/007.webp)
+![image](assets/vi/007.webp)
 
 
 
@@ -171,7 +171,7 @@ Ngày nay, khi áp lực thuế ở đất nước chúng ta tiếp tục gia t�
 Người đầu tiên trong số những nhà cải cách thuế này, xét về mặt thời gian và công trạng, là vị thống chế vĩ đại Sébastien Le Prestre Vauban, người xây dựng các pháo đài và thành trì nổi tiếng.
 
 
-![image](assets/fr/008.webp)
+![image](assets/vi/008.webp)
 
 
 
@@ -180,19 +180,19 @@ Người đầu tiên trong số những nhà cải cách thuế này, xét về
 Mặc dù chúng ta đã buồn bã quên mất điều đó, Vauban không chỉ là một quân nhân; ông còn là một nhà kinh tế. Ông quan tâm đến số phận của những người nông dân, ông đề xuất cải cách thuế táo bạo vào năm 1695 (Projet de capitation - "Dự án cho Capitation") và một lần nữa vào năm 1707 (Projet d'une Dime Royale - "Thuế thập phân Hoàng gia"): thay thế hầu hết các loại thuế hiện có bằng một loại thuế tỷ lệ thuận với thu nhập, một loại thuế cố định trước thời hạn.
 
 
-![image](assets/fr/009.webp)
+![image](assets/vi/009.webp)
 
 
 Vauban đã đi đến những ý tưởng này thông qua sự tò mò. Ông là một người quan sát sắc sảo, cố gắng nghiên cứu đời sống xã hội và thực tế kinh tế một cách nghiêm ngặt, gần như khoa học. Ông đặc biệt nhấn mạnh đến nhu cầu phải đếm, thông qua điều tra dân số.
 
 
-![image](assets/fr/010.webp)
+![image](assets/vi/010.webp)
 
 
 Công lao lớn thứ hai của ông là mô tả chân thực và cảm động về nỗi thống khổ mà quần chúng phải chịu đựng. Ông viết: "Chúng ta đừng để bị lừa dối; trái tim của vương quốc đã bị hủy hoại. Mọi thứ đều đau khổ, mọi thứ đều chịu đựng, mọi thứ đều rên rỉ. Bạn chỉ cần nhìn và kiểm tra trái tim của các tỉnh, bạn sẽ thấy thậm chí còn tệ hơn những gì tôi đang nói". Không hề cường điệu, những quan sát ảm đạm của Vauban là sự phản ánh chính xác về cuộc sống đầu thế kỷ 18. Alexis de Tocqueville rất hiểu những ý tưởng này, và sau này sẽ mô tả *Royal Tithe* của Vauban là "đáng sợ", vì nó đúng.
 
 
-![image](assets/fr/011.webp)
+![image](assets/vi/011.webp)
 
 
 Công lao to lớn khác của Vauban với tư cách là một nhà kinh tế là đề xuất một cải cách thuế sâu rộng nhằm xóa bỏ, hoặc ít nhất là giảm bớt cường độ của cái ác mà ông quan sát và mô tả. Ông đã đúng khi làm như vậy; nền kinh tế Pháp dưới thời Ancien Régime đã bị tê liệt bởi thuế khóa, vốn không bình đẳng, không ổn định và không thể hiểu được.
@@ -235,7 +235,7 @@ Ngay trước khi qua đời, ý tưởng của Vauban đã được các bộ t
 Rất ít nhà kinh tế học người Pháp trong quá khứ được công nhận xứng đáng tại quê nhà ngày nay, và Boisguilbert cũng không ngoại lệ.
 
 
-![image](assets/fr/012.webp)
+![image](assets/vi/012.webp)
 
 
 Không được độc giả thời đó đánh giá cao, xa lánh giới quyền lực vì bản tính lập dị và niềm đam mê mãnh liệt, Boisguilbert để lại ít dấu ấn trong thế kỷ 18. Tuy nhiên, vào đầu thế kỷ trước, tác phẩm của ông đã dần được khám phá lại.
@@ -248,7 +248,7 @@ Tuy nhiên, sự tái khám phá này cho thấy chúng ta đang đi vào một 
 (Pierre Le Pesant de) Boisguilbert sinh ra tại Rouen vào năm 1646. Được đào tạo tại Port-Royal ở Paris, Boisguilbert bắt đầu sự nghiệp văn chương không thành công trước khi đảm nhiệm nhiều vai trò khác nhau, bao gồm cả chức Trung tướng của Rouen. Trong thời gian này, ông đã viết một số cuốn sách để ủng hộ cho các ý tưởng của mình, trong số đó có "Détail de la France" vào năm 1695, được ông tái bản vào năm sau với một tựa đề rõ ràng hơn nhiều: [*France Ruined under the Reign of Louis XIV, by Whom and How, with the Means to Restore It](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
-![image](assets/fr/013.webp)
+![image](assets/vi/013.webp)
 
 
 
@@ -274,7 +274,7 @@ Boisguilbert tìm ra hai nguyên nhân chính cho sự bất hạnh này. Bởi 
 Lý do thứ hai khiến nước Pháp khốn khổ là có quá nhiều rào cản ngăn cản việc tự do thương mại hàng hóa, đặc biệt là hàng nông sản. Có thuế hải quan tại biên giới và thậm chí trong nước, giữa các vùng khác nhau, làm tê liệt mọi hoạt động thương mại. Những hạn chế này ngăn cản việc thiết lập giá cân bằng và hạn chế các cơ hội thị trường. Kết quả là, nông dân không thể kiếm sống từ sản xuất của mình, vì họ không thể bán có lãi và phải chịu giá nông sản không sinh lời, một mối quan tâm vẫn còn rất phù hợp cho đến ngày nay và là trọng tâm trong lý thuyết của Boisguilbert. Về vấn đề hạn chế thương mại, Boisguilbert ủng hộ việc dọn đường, nói cách khác là thiết lập thương mại tự do.
 
 
-![image](assets/fr/014.webp)
+![image](assets/vi/014.webp)
 
 
 Và tự do thực sự là kết luận cuối cùng của ông. "Không phải là vấn đề hành động", ông nói, "mà chỉ đơn giản là ngừng hành động như chúng ta vẫn làm một cách dữ dội chống lại tự nhiên, vốn luôn hướng đến sự tự do và hoàn hảo". Mọi thứ sẽ ổn thôi, ông lặp lại không mệt mỏi, "miễn là chúng ta để tự nhiên diễn ra theo cách của nó, tức là, trao cho nó sự tự do, và không ai can thiệp vào hoạt động thương mại này ngoại trừ việc bảo vệ tất cả mọi người và ngăn chặn bạo lực".
@@ -295,13 +295,13 @@ Boisguilbert thậm chí còn chỉ trích "*những tâm hồn tốt bụng*", 
 Tác giả của "Bài luận về bản chất của thương mại nói chung" (viết vào khoảng năm 1730, xuất bản năm 1755), Richard Cantillon được coi là một trong những người tiên phong của khoa học kinh tế hiện đại. Trong cuốn Lịch sử tư tưởng kinh tế, nhà kinh tế học Murray Rothbard thậm chí còn coi Cantillon là người sáng lập ra kinh tế học hiện đại.
 
 
-![image](assets/fr/015.webp)
+![image](assets/vi/015.webp)
 
 
 Sinh ra ở Ireland, Richard Cantillon định cư tại Paris khi còn trẻ và nhập quốc tịch Pháp. Ông làm việc như một nhân viên ngân hàng và kiếm được một gia tài trong thời đại John Law.
 
 
-![image](assets/fr/016.webp)
+![image](assets/vi/016.webp)
 
 
 Cũng trong dịp này, ông bắt đầu nghiên cứu lý thuyết kinh tế. Khoảng năm 1730, Cantillon đã biên soạn Bài luận về bản chất của thương mại nói chung.
@@ -331,7 +331,7 @@ Mặc dù không định nghĩa rõ ràng, Cantillon coi doanh nhân là ngườ
 Phản ứng lại trải nghiệm của John Law, Cantillon giải thích điều gì sẽ xảy ra hoặc phải xảy ra khi tiền tệ không có giá trị thực.
 
 
-![image](assets/fr/017.webp)
+![image](assets/vi/017.webp)
 
 
 Ông thấy hai hậu quả chính của việc thay thế một loại tiền tệ không có giá trị thực như tiền giấy bằng tiền kim loại. Hậu quả đầu tiên là cái mà ông gọi là "sự từ chối của dân chúng", có nghĩa là sự ngờ vực ngày càng tăng đối với đồng tiền vô giá trị. Hậu quả thứ hai là lạm phát: tiền tệ suy yếu khiến hàng hóa đắt hơn.
@@ -364,13 +364,13 @@ Với lý thuyết này về tác động của lạm phát, Cantillon cung cấ
 Trong số tất cả các tác giả mà chúng tôi chọn đưa vào nhóm các nhà tư tưởng tự do kinh tế của Pháp thế kỷ 18, Viện phụ Saint-Pierre chắc chắn là người bị bỏ qua nhiều nhất.
 
 
-![image](assets/fr/018.webp)
+![image](assets/vi/018.webp)
 
 
 Công bằng mà nói, một phần là lỗi của ông. Ông đã viết rất nhiều, nhưng phong cách của ông là Hard để đọc và đầy rẫy sự lặp lại. Ngay cả Jean-Jacques Rousseau cũng đã cố gắng tóm tắt tác phẩm của ông: ông đã bắt đầu làm như vậy, nhưng sớm từ bỏ nhiệm vụ, vì ông nhận ra rằng nó vượt quá khả năng của mình. Vào giữa thế kỷ 19, Gustave de Molinari đã vinh danh ông bằng cách xuất bản một tác phẩm toàn diện về ông, trong đó ông đã tôn vinh nhà kinh tế và nhà hòa bình mà Viện phụ của Saint-Pierre là. Nhưng điều này không đủ để đưa ông ra khỏi sự lãng quên, vì ông vẫn còn trong đó cho đến ngày nay.
 
 
-![image](assets/fr/019.webp)
+![image](assets/vi/019.webp)
 
 
 
@@ -379,7 +379,7 @@ Công bằng mà nói, một phần là lỗi của ông. Ông đã viết rất
 Viện phụ của Saint-Pierre viết về kinh tế, nhưng ông thường được quan tâm như một người theo chủ nghĩa hòa bình. Ông là tác giả của Dự án Hòa bình Vĩnh cửu, có trước dự án nổi tiếng của Emmanuel Kant.
 
 
-![image](assets/fr/020.webp)
+![image](assets/vi/020.webp)
 
 
 Trong tác phẩm này, ông lập luận rằng chiến tranh mang tính hủy diệt, không chỉ đối với những người thua cuộc mà còn đối với những người chiến thắng, và thậm chí đối với những người không tham gia, vì hoạt động thương mại của họ bị ảnh hưởng.
@@ -391,7 +391,7 @@ Trong tác phẩm này, ông lập luận rằng chiến tranh mang tính hủy 
 Cũng có một tập trong cuộc đời của Viện phụ Saint-Pierre minh họa hoàn hảo cho tư duy phê phán đằng sau phong trào tự do kinh tế của Pháp. Ông gia nhập Viện Hàn lâm Pháp năm 1695, nhưng bị trục xuất năm 1718 vì dám chỉ trích triều đại của Louis XIV. Trong đó, ông liên kết với những nhân vật như Vauban và Boisguilbert, những người cũng dám lên tiếng chống lại myseries ẩn dưới sự lộng lẫy của triều đại Vua Mặt trời.
 
 
-![image](assets/fr/021.webp)
+![image](assets/vi/021.webp)
 
 
 Viện phụ của Saint-Pierre lập luận rằng triều đại của Louis XIV, với cung điện xa hoa và nỗi ám ảnh về chinh phục quân sự, không phải là dấu hiệu của một vị vua đức hạnh. Ông từ chối chấp nhận rằng Louis XIV xứng đáng với danh hiệu "**Louis Đại đế**".
@@ -403,7 +403,7 @@ Viện phụ của Saint-Pierre lập luận rằng triều đại của Louis X
 "Hủy hoại hàng xóm và dân tộc của mình cùng một lúc không phải là sự vĩ đại", ông nói. Quan điểm này đã xúc phạm sâu sắc đến Viện Hàn lâm Pháp, vốn từ lâu đã bận tâm đến việc tôn vinh nhà vua bằng mọi hình thức văn học có thể. Kết quả là, họ đã bỏ phiếu gần như nhất trí trục xuất ông.
 
 
-![image](assets/fr/022.webp)
+![image](assets/vi/022.webp)
 
 
 Về mặt tư duy kinh tế, ông luôn áp dụng nguyên tắc tiện ích, giống như Jeremy Bentham sau này, và thường đưa ra những hiểu biết sâu sắc. Công bằng mà nói, ông vẫn chịu ảnh hưởng của những ý tưởng trọng thương, mà không ai hoàn toàn từ bỏ vào thời điểm đó.
@@ -414,7 +414,7 @@ Tuy nhiên, Viện phụ của Saint-Pierre đã đưa ra một số quan sát c
 
 > "Khi một cuộc mua bán được thực hiện giữa các thương gia, người bán được lợi, và người mua cũng vậy; vì nếu không có lợi ích thực tế hoặc được nhận thức ở cả hai bên, thì người bán sẽ không bán ở mức giá này và người mua cũng sẽ không mua ở mức giá này".
 
-![image](assets/fr/023.webp)
+![image](assets/vi/023.webp)
 
 
 Ông cũng nhấn mạnh, trước khi Vincent de Gournay làm, giá trị của lao động và tầm quan trọng của việc giữ cho nó hấp dẫn. "Mọi lao động đều khó khăn", ông viết. "Và khi một người đàn ông thấy rằng công việc của mình không mang lại cho anh ta điều gì, hoặc không đủ, anh ta trở nên nhàn rỗi và sẽ không bận tâm đến những nỗ lực không cần thiết". Chính lập luận này sau đó đã được Hầu tước d'Argenson, Vincent de Gournay và những người theo chủ nghĩa trọng nông nhắc lại khi họ chỉ trích các quy định và hệ thống phường hội nặng nề. Họ lập luận rằng những hạn chế như vậy làm nản lòng người lao động, gây ra khó khăn không cần thiết và cuối cùng khiến sự nhàn rỗi có vẻ hấp dẫn hơn nỗ lực sản xuất trong những điều kiện như vậy.
@@ -430,7 +430,7 @@ Tuy nhiên, Viện phụ của Saint-Pierre đã đưa ra một số quan sát c
 Hầu tước d'Argenson là người sáng lập học thuyết tự do kinh doanh bị lãng quên.
 
 
-![image](assets/fr/024.webp)
+![image](assets/vi/024.webp)
 
 
 August Oncken, tác giả của một cuốn sách về học thuyết laissez-faire, laissez-passer, đã khám phá lại học thuyết này và kết luận rằng d'Argenson đóng vai trò chính trong sự ra đời của ý tưởng này.
@@ -445,7 +445,7 @@ René-Louis Voyer, Hầu tước d'Argenson, sinh năm 1694. Ông bắt đầu s
 Ba mươi năm trước Adam Smith, d'Argenson đã bảo vệ lợi ích của sự phân công lao động và chuyên môn hóa.
 
 
-![image](assets/fr/025.webp)
+![image](assets/vi/025.webp)
 
 
 Ông chỉ trích mạnh mẽ các quy định mà theo ông thấy, đã cố gắng thay đổi sở thích tự nhiên của các vùng khác nhau. Ví dụ, ông bối rối khi chính phủ muốn sản xuất vải và nhung ở Tours, một thành phố nghèo vào thời điểm đó, để sánh ngang với chất lượng của những sản phẩm được sản xuất tại Genoa thịnh vượng, nơi nổi tiếng với hàng xa xỉ. Ông kết luận:
@@ -460,7 +460,7 @@ Ba mươi năm trước Adam Smith, d'Argenson đã bảo vệ lợi ích của 
 Ngay cả trước Adam Smith, ông đã hiểu rằng lợi ích cá nhân sẽ dẫn đến lợi ích chung thông qua việc xây dựng một trật tự tự nhiên tự phát.
 
 
-![image](assets/fr/026.webp)
+![image](assets/vi/026.webp)
 
 
 Ông so sánh xã hội với một tổ ong, nơi mỗi con côn trùng đều theo bản năng của mình, "Từ hành động của chúng", ông nói một cách chính xác, "đã tạo ra sự tích lũy lớn cho nhu cầu của xã hội nhỏ bé; nhưng điều này không phải do mệnh lệnh hay các vị tướng buộc mỗi cá nhân phải tuân theo quan điểm của người lãnh đạo". Đây có lẽ là cách diễn đạt gần nhất trong tư tưởng kinh tế của Pháp với khái niệm nổi tiếng "bàn tay vô hình" của Adam Smith.
@@ -475,7 +475,7 @@ Nói thật, ông đã rất ngạc nhiên khi mọi người thấy Hard hiểu
 Đôi khi, ông tuyệt vọng vì ý tưởng của mình ít được hiểu.
 
 
-![image](assets/fr/027.webp)
+![image](assets/vi/027.webp)
 
 
 Lý tưởng về chính sách kinh tế mà ông bảo vệ do đó trái ngược với xu hướng của thời đại ông. Lý tưởng của ông định nghĩa một vai trò tiêu cực về bản chất đối với Nhà nước. "Tất cả những gì thương mại cần là loại bỏ các trở ngại. Nó chỉ yêu cầu những thẩm phán tốt, trừng phạt các công ty độc quyền, bảo vệ bình đẳng cho tất cả công dân, tiền tệ ổn định, đường sá và kênh rạch". Đây là định nghĩa cho một Nhà nước tối thiểu, sẽ trở thành một trong những nền tảng của truyền thống kinh tế chính trị của Pháp.
@@ -502,7 +502,7 @@ Về vấn đề buôn bán lương thực, d'Argenson không có câu trả l�
 Vincent de Gournay là một trong những đại diện đầu tiên của chủ nghĩa tự do kinh tế tại Pháp, và là một trong những người ủng hộ sớm nhất của chủ nghĩa này trong giới hành chính công và trí thức. Vì lý do đó, ông xứng đáng được công nhận nhiều hơn trong lịch sử tư tưởng kinh tế so với những gì ông thường nhận được. Tôi đã cố gắng nêu bật những đóng góp của ông trong một cuốn sách gần đây.
 
 
-![image](assets/fr/028.webp)
+![image](assets/vi/028.webp)
 
 
 Sinh ra trong một gia đình thương gia, Gournay đã trở thành một thương gia thành đạt, tích lũy được khối tài sản đáng kể trước khi đảm nhiệm một vị trí trong chính quyền Pháp. Trong Cục Thương mại, ông là người ủng hộ nhiệt thành cho lao động tự do và thương mại tự do.
@@ -517,7 +517,7 @@ Những gì chúng tôi có bao gồm:
 1. [Nhận xét](https://archive.org/details/traitessurlecomm0000chil) về bản dịch một cuốn sách của nhà kinh tế học người Anh Josiah Child;
 
 
-![image](assets/fr/029.webp)
+![image](assets/vi/029.webp)
 
 
 2. “Những quan sát” được đưa vào Đánh giá về Ưu điểm và Nhược điểm của Lệnh cấm Vải in;
@@ -556,7 +556,7 @@ Cuối cùng, Gournay lưu ý rằng lãi suất thấp hơn ở Anh và Hà Lan
 Về tất cả những điểm này, Gournay đóng vai trò chủ chốt trong các cuộc tranh luận trí thức vào giữa thế kỷ 18. Việc ông bảo vệ quyền tự do kinh tế đã diễn ra trước những người theo chủ nghĩa trọng nông một thập kỷ và trước Adam Smith hai mươi năm. Nhưng ảnh hưởng lâu dài nhất của ông là đối với Turgot. Gournay đã che chở cho Turgot trẻ tuổi và đào tạo anh ta bằng những ý tưởng của mình.
 
 
-![image](assets/fr/030.webp)
+![image](assets/vi/030.webp)
 
 
 Nhiều năm sau, Turgot, một bộ trưởng tương lai dưới thời Louis XVI, đã viết một bài Éloge (điếu văn) để vinh danh người bạn của mình sau khi ông qua đời. Và nếu Turgot không bao giờ hoàn toàn chấp nhận chế độ trọng nông của François Quesnay, thì đó là vì ông vẫn giữ được sự gắn bó không thể lay chuyển với người chủ đầu tiên của mình, Vincent de Gournay.
@@ -571,13 +571,13 @@ Nhiều năm sau, Turgot, một bộ trưởng tương lai dưới thời Louis 
 Khi nói đến những ngày đầu của khoa học kinh tế, lịch sử có xu hướng làm nổi bật một trường phái tư tưởng đầu tiên: Những người theo chủ nghĩa trọng nông, do François Quesnay và các môn đồ của ông lãnh đạo. Tuy nhiên, gần một thập kỷ trước khi họ nổi lên, có một nhóm khác, ít chính thức hơn nhưng cũng quan trọng không kém tập trung vào nhà kinh tế học Vincent de Gournay.
 
 
-![image](assets/fr/031.webp)
+![image](assets/vi/031.webp)
 
 
 Như chúng ta đã thấy ở phần trước, Gournay bị cuốn hút bởi ví dụ của các quốc gia nước ngoài như Anh và Hà Lan. Ông cũng ngưỡng mộ các nhà kinh tế của họ—những nhân vật như Josiah Child, Johan de Witt và David Hume—nhiều như vậy.
 
 
-![image](assets/fr/032.webp)
+![image](assets/vi/032.webp)
 
 
 Sự ngưỡng mộ này đã thôi thúc ông dịch và biên dịch các tác phẩm kinh tế của họ.
@@ -593,7 +593,7 @@ Nhờ sự hợp tác của một số thành viên trong nhóm Gournay, nhiều
 - Bài luận của Herbert về [Cảnh sát chung về ngũ cốc](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 phiên bản trong 4 năm)
 
 
-![image](assets/fr/033.webp)
+![image](assets/vi/033.webp)
 
 
 
@@ -613,7 +613,7 @@ Nhóm này cũng đóng vai trò quan trọng trong việc xuất bản
 - [Bài luận về bản chất của thương mại nói chung](https://archive.org/details/essayonnatureofc0000cant) của Richard Cantillon.
 
 
-![image](assets/fr/034.webp)
+![image](assets/vi/034.webp)
 
 
 Cuốn sách cuối cùng này, được viết vào khoảng năm 1730, vẫn còn ở dạng bản thảo sau khi tác giả qua đời. Gournay, với sự giúp đỡ của những người bạn kinh tế, đã xuất bản nó vào năm 1755. Theo Abbot Morellet, một thành viên của nhóm, Gournay đã giới thiệu nó cho mọi nhà kinh tế mà ông biết.
@@ -622,13 +622,13 @@ Cuốn sách cuối cùng này, được viết vào khoảng năm 1730, vẫn c
 Sản phẩm trí tuệ của nhóm Gournay có tác động lớn đến lịch sử tư tưởng. Theo nghĩa này, họ có thể được coi là những người sáng lập ra khoa học kinh tế tại Pháp. Christine Théré của INED, người đã nghiên cứu lịch sử các ấn phẩm kinh tế, phát hiện ra rằng từ năm 1750 đến năm 1759, không dưới **349** tác phẩm về kinh tế đã được xuất bản, so với chỉ **83** trong toàn bộ thập kỷ trước (1740–1749). Cuộc cách mạng này vào những năm 1750 phần lớn là do nhóm Gournay.
 
 
-![image](assets/fr/035.webp)
+![image](assets/vi/035.webp)
 
 
 Để truyền bá sở thích thảo luận về kinh tế trong cộng đồng người Pháp, Gournay và những người bạn của ông đã nỗ lực để đưa chúng vào các tiểu thuyết. Sau *Memoir on the Trades*, tác phẩm chỉ trích các hội nhóm, Gournay và Cliquot-Blervache đã giúp Gabriel-François Coyer viết một tiểu thuyết châm biếm ngắn có tên là Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
-![image](assets/fr/036.webp)
+![image](assets/vi/036.webp)
 
 
 Câu chuyện kể về nhân vật chính, Chinki, người buộc phải rời khỏi vùng đất của mình do thuế quá cao và cố gắng tìm việc thủ công cho con cái mình trong thành phố. Nhưng tất cả các ngành nghề đều bị đóng cửa với họ vì các quy định của hội nhóm lạm dụng, vì vậy câu chuyện miêu tả sự thất vọng ngày càng tăng của anh ta thông qua giọng điệu hài hước.
@@ -649,13 +649,13 @@ Và thực sự, vào những năm 1750, các vấn đề kinh tế đã trở n
 Nước Pháp đã biết đến hai người đàn ông nổi tiếng tên là Mirabeau, một người cha và một người con trai, nhưng người con trai mới thực sự làm nên lịch sử. Là một diễn giả cách mạng và là một trong những nhân vật trung tâm trong các sự kiện của Cách mạng Pháp, ông vẫn nổi tiếng.
 
 
-![image](assets/fr/037.webp)
+![image](assets/vi/037.webp)
 
 
 Nhờ tài năng và vị thế của mình trong lịch sử nước Pháp, ông đã làm lu mờ cha mình, một nhà kinh tế và là trụ cột của trường phái François Quesnay, người đã là thành viên đầu tiên của trường phái này từ năm 1758.
 
 
-![image](assets/fr/038.webp)
+![image](assets/vi/038.webp)
 
 
 Trên thực tế, Hầu tước de Mirabeau đã đạt được danh tiếng to lớn ngay cả trước khi ông áp dụng chế độ trọng nông nhờ một cuốn sách có tựa đề "Người bạn của nhân loại. Luận thuyết về dân số [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Mặc dù phiên bản đầu tiên được xuất bản vào năm 1756, nhưng nó chỉ trở nên nổi tiếng vào khoảng năm 1757, một năm trước cuộc gặp gỡ của ông với Quesnay.
@@ -675,7 +675,7 @@ Ngày nay, đó là một cuốn sách không còn được đọc nữa, nhưng
 Khi bắt đầu sự nghiệp kinh tế của mình, Mirabeau lấy cảm hứng từ Richard Cantillon. Ông đã sở hữu bản thảo Bài luận về bản chất thương mại nói chung của Cantillon trong 15 năm và đã kiên nhẫn phân tích và bình luận về nó.
 
 
-![image](assets/fr/039.webp)
+![image](assets/vi/039.webp)
 
 
 L'Ami des Hommes ban đầu được hình thành như một bình luận đơn giản về Bài luận của Cantillon. Nhưng vì Mirabeau có một tâm trí hơi lập dị, hay nói thẳng ra là hơi điên, nên ông nhanh chóng đi chệch khỏi kế hoạch ban đầu của mình. Cuốn sách chỉ đơn giản thảo luận về tất cả các vấn đề kinh tế mà ông biết, đôi khi rời xa Cantillon. Đây là một cuốn sách khó đọc, với một kế hoạch kỳ lạ và những đoạn lạc đề trong mỗi chương. Bản thân Mirabeau thừa nhận rằng đó là sự hỗn loạn và phong cách của ông là khải huyền.
@@ -694,7 +694,7 @@ Mặc dù tình hình có hỗn loạn, vẫn có một số ý tưởng đáng 
 - Cuối cùng, ông bảo vệ quyền tự do thương mại và tình hữu nghị giữa các quốc gia trong hòa bình.
 
 
-![image](assets/fr/040.webp)
+![image](assets/vi/040.webp)
 
 
 Thật là Hard khi dán nhãn quan điểm của Mirabeau là tự do hay phản tự do. Ông thường trôi dạt qua lại, đôi khi không nhận ra, giữa tầm nhìn này và tầm nhìn khác. Tuy nhiên, các ý tưởng tự do thường thống trị tác phẩm của ông. Một trong những câu nổi tiếng nhất của ông là:
@@ -705,7 +705,7 @@ Thật là Hard khi dán nhãn quan điểm của Mirabeau là tự do hay phả
 Với thành công lớn nhất đã đạt được, Mirabeau được săn đón. François Quesnay, người vừa mới quan tâm đến kinh tế, đã mời ông đến tầng lửng của mình tại Versailles.
 
 
-![image](assets/fr/041.webp)
+![image](assets/vi/041.webp)
 
 
 Họ tranh luận dữ dội và cuối cùng, điều mà thông thường không bao giờ xảy ra trong các cuộc tranh luận đã xảy ra: Mirabeau thẳng thắn thừa nhận rằng ông đã sai. Ông đồng ý với ý tưởng của Quesnay và nói rằng ông đã sẵn sàng truyền bá chúng.
@@ -714,7 +714,7 @@ Họ tranh luận dữ dội và cuối cùng, điều mà thông thường khô
 Cùng nhau, họ đã hình thành nên cốt lõi của trường phái Trọng nông, được củng cố bởi những người mới tuyển dụng thường xuyên mà họ đưa vào. Ngay sau khi Mirabeau cải đạo, Quesnay đã chiêu mộ ông để bảo vệ ý tưởng của mình về thuế. Điều này dẫn đến ["Lý thuyết về thuế"](https://archive.org/details/thoriedelimpot00mira), trong đó Mirabeau bị đưa đến nhà tù Vincennes trong vài ngày và sau đó bị lưu đày đến Bignon.
 
 
-![image](assets/fr/042.webp)
+![image](assets/vi/042.webp)
 
 
 Mirabeau cũng đóng vai trò quan trọng trong việc tuyển dụng thành viên mới cho trường Quesnay. Ông thậm chí còn thuyết phục được Dupont de Nemours trẻ tuổi.
@@ -738,7 +738,7 @@ Trong suốt cuộc đời mình, Mirabeau vẫn là một nhà văn không bi�
 François Quesnay là một trong những nhà kinh tế học nổi tiếng nhất người Pháp.
 
 
-![image](assets/fr/043.webp)
+![image](assets/vi/043.webp)
 
 
 Tên của ông xuất hiện trong mọi sách giáo khoa về kinh tế và lịch sử tư tưởng kinh tế. Người ta nói rằng ông đã tạo ra "Tableau Économique" để biểu diễn sơ đồ nền kinh tế, rằng ông là người lãnh đạo trường phái Trọng nông, và rằng ông đã nhầm khi tin rằng chỉ có đất đai mới có năng suất, và cuối cùng, Adam Smith đã đến để làm sáng tỏ sự thật. Đây, ít nhiều, là cách các sách giáo khoa có xu hướng tóm tắt François Quesnay.
@@ -762,7 +762,7 @@ Sinh năm 1694 tại Méré trong một gia đình nông dân không thể dạy
 Năm 1740, ông trở thành thư ký của Học viện Phẫu thuật. Năm 1748, ở tuổi 54, ông trở thành bác sĩ riêng của Madame de Pompadour và chuyển đến Versailles.
 
 
-![image](assets/fr/044.webp)
+![image](assets/vi/044.webp)
 
 
 Ông rất thân thiết với Madame de Pompadour. Quesnay thậm chí còn nói, vào thời điểm sự ô nhục của người được sủng ái được công bố, rằng ông không muốn tiếp tục làm bác sĩ ở Versailles nếu không có bà:
@@ -776,7 +776,7 @@ Sau đó, ông xuất bản một số sách y khoa: Luận về bệnh mưng m�
 Ở tuổi 60, sau khi được giới thiệu về các cuộc tranh luận kinh tế thời thượng vào thời điểm đó, ông bắt đầu viết về kinh tế. Năm 1755, ông viết các bài báo "Nông dân" và "Lúa mạch" cho *Encyclopédie*.
 
 
-![image](assets/fr/045.webp)
+![image](assets/vi/045.webp)
 
 
 Chúng được xuất bản vào năm 1757. Cùng năm đó, ông đã gặp Mirabeau nổi tiếng và thuyết phục được ông này theo các ý tưởng kinh tế của mình—nòng cốt của chủ nghĩa trọng nông đã ra đời. Sau đó, Quesnay đã tạo ra Tableau Économique, được in trên các máy in hoàng gia, được cho là có sự hiện diện của chính nhà vua tại Château de Versailles. Từ thời điểm đó, ông thường xuyên tiếp đón các nhà kinh tế và triết gia tại căn hộ Versailles của mình, nơi họ tham gia thảo luận một cách tự do. Quesnay cũng đóng góp vào Theory of Taxation của Mirabeau, được xuất bản vào năm 1759.
@@ -799,7 +799,7 @@ Tuy nhiên, các đệ tử của ông vẫn hết lòng tận tụy và đóng 
 Nhờ công sức của những người cộng sự, những ý tưởng của ông đã tìm được chỗ đứng: đầu tiên là thông qua các tờ báo như *Tạp chí Nông nghiệp* và *Ephémérides du Citoyen*.
 
 
-![image](assets/fr/046.webp)
+![image](assets/vi/046.webp)
 
 
 Sau đó, thông qua sách, không chỉ sách của các đệ tử mà còn cả một tuyển tập quan trọng do Dupont de Nemours xuất bản năm 1768, có tựa đề *Physiocracy*.
@@ -829,7 +829,7 @@ Chủ nghĩa trọng nông trở nên thịnh hành ở Pháp, và thậm chí t
 Nguồn gốc của nó nằm ở sự phát triển của các ý tưởng kinh tế trong những năm 1750. Một số tác giả đã giúp thu hẹp khoảng cách giữa Boisguilbert và những gì sau này được gọi là Chủ nghĩa trọng nông. Như đã thảo luận trước đó, Vincent de Gournay và nhóm các nhà kinh tế của ông đã đứng sau nhiều ấn phẩm giới thiệu tư tưởng kinh tế nước ngoài đến độc giả người Pháp và giúp khơi dậy niềm đam mê kinh tế của họ. Nền tảng của Chủ nghĩa trọng nông đã có trong các cuốn sách như "Détail de la France" của Boisguilbert và ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) của Cantillon.
 
 
-![image](assets/fr/047.webp)
+![image](assets/vi/047.webp)
 
 
 
@@ -844,7 +844,7 @@ Khái niệm laissez-faire đã có nhiều người ủng hộ kể từ thời
 Vì vậy, vào năm 1756, câu chuyện về chế độ trọng nông có thể bắt đầu. François Quesnay, khi đó là bác sĩ phẫu thuật chuyển sang làm bác sĩ riêng cho Madame de Pompadour, đã mời Mirabeau đến Versailles để thảo luận về các ý tưởng kinh tế.
 
 
-![image](assets/fr/048.webp)
+![image](assets/vi/048.webp)
 
 
 Đến cuối cuộc trò chuyện, Mirabeau đồng ý với ý tưởng của Quesnay. Từ đó trở đi, họ viết: Quesnay đã tạo ra *Tableau économique* (1758) để minh họa dòng chảy của cải trong nền kinh tế, và cùng nhau họ xuất bản Lý thuyết về thuế (1759).
@@ -861,7 +861,7 @@ Những nỗ lực của họ không được chào đón nồng nhiệt. Tại 
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/vi/049.webp)
 
 
 Nửa đầu những năm 1760 trôi qua trong sự im lặng tương đối. Do vị trí của mình tại Versailles, Quesnay buộc phải ngừng viết, hoặc ít nhất là không xuất bản bất cứ thứ gì dưới tên của mình. Mirabeau, đã từng bị kết án một lần, đã được cảnh báo và biết rõ rằng người được vua sủng ái không thể bảo vệ ông mãi mãi.
@@ -871,7 +871,7 @@ Nửa đầu những năm 1760 trôi qua trong sự im lặng tương đối. Do
 Sau sự im lặng ngắn ngủi này, hai nhà kinh tế bắt đầu tuyển dụng học trò: đây là cách duy nhất để phổ biến ý tưởng của họ. Đến năm 1765, thành công của họ thật đáng kinh ngạc. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne và Baudeau nhanh chóng gia nhập hàng ngũ của họ. Họ thành lập một trường phái: họ có tạp chí riêng, *Les Éphémérides du Citoyen*, và thậm chí còn họp vào mỗi thứ Ba tại nhà của Mirabeau.
 
 
-![image](assets/fr/050.webp)
+![image](assets/vi/050.webp)
 
 
 Từ năm 1765 đến năm 1775, nhóm thống nhất của những người theo chủ nghĩa trọng nông đã đạt đến đỉnh cao danh vọng. Giới văn học và triết học chỉ để mắt đến họ, cho phép những ý tưởng của họ lan truyền rộng rãi và nhanh chóng. Mọi người gọi họ là "các nhà kinh tế", hay nói một cách chế giễu hơn là "giáo phái của các nhà kinh tế". Bất kể giọng điệu nào, sự khét tiếng của họ là tuyệt đối. Năm 1774, sau một chuyến đi đến Metz, M. de Vaublanc đã viết về sự kinh ngạc của mình trong hồi ký: mọi người xung quanh ông đều nói về kinh tế và lý luận giống như các đệ tử của Quesnay. "Điều đó thật thời thượng", ông lưu ý. "Mọi người đều là nhà kinh tế".
@@ -880,7 +880,7 @@ Từ năm 1765 đến năm 1775, nhóm thống nhất của những người the
 Tuy nhiên, đến năm 1770, sự nổi tiếng của họ bắt đầu suy yếu. Nhóm này đã trải qua những cuộc đào tẩu đầu tiên và khả năng chịu đựng sự chỉ trích của họ yếu đi. Và những người chỉ trích thì nhiều, Condillac, Mably, Voltaire, Galiani, Linguet, Graslin và thậm chí cả Adam Smith ở Scotland, tất cả đều thách thức quan điểm của họ.
 
 
-![image](assets/fr/051.webp)
+![image](assets/vi/051.webp)
 
 
 Tờ báo của họ không còn xuất hiện thường xuyên nữa. Điều này đánh dấu sự kết thúc của giai đoạn hoạt động tích cực nhất của phong trào.
@@ -899,7 +899,7 @@ Thuật ngữ Physiocracy, có nghĩa là "chính quyền theo bản chất", đ
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/vi/052.webp)
 
 
 Đây là một cụm từ khó hiểu. Không có học trò nào của Quesnay cung cấp cho chúng ta ý nghĩa thực sự của nó. Tuy nhiên, hệ thống tư tưởng của họ không hề khó hiểu. Trên thực tế, nó được xây dựng xung quanh một vài nguyên tắc rất rõ ràng, mà chúng tôi sẽ trình bày ở đây.
@@ -917,7 +917,7 @@ Tuy nhiên, thật không công bằng khi chỉ trích những người theo ch
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/vi/053.webp)
 
 
 Ý tưởng của những người theo chủ nghĩa trọng nông thực ra rất tinh tế. Theo họ, có sự khác biệt giữa sản xuất và lợi nhuận. Nhà công nghiệp và thương gia có thể kiếm được lợi nhuận, nhưng chỉ có người nông dân mới thực sự sản xuất, vì sản xuất là việc tạo ra vật liệu hữu ích, chứ không phải là việc bổ sung tiện ích cho vật liệu đã có từ trước.
@@ -932,7 +932,7 @@ Chúng ta cũng nên cố gắng hiểu tại sao họ từ chối công nghiệ
 Ngày nay, để xúc phạm ai đó, chúng ta nói rằng người đó không phải là một người theo chủ nghĩa dân chủ. Trong khi các nhà sử học tha thứ cho những người theo chủ nghĩa trọng nông vì quan điểm nghiêm ngặt của họ về năng suất nông nghiệp, họ không tha thứ cho sự phản đối của họ đối với nền dân chủ, đặc biệt là vì họ sống trong thời kỳ đỉnh cao của các ý tưởng Khai sáng. Từ giữa thế kỷ 18 đến ngay trước Cách mạng, những người theo chủ nghĩa trọng nông bị coi là kẻ thù của sự tiến bộ.
 
 
-![image](assets/fr/054.webp)
+![image](assets/vi/054.webp)
 
 
 Tocqueville nhấn mạnh vào ý tưởng này:
@@ -943,7 +943,7 @@ Tocqueville nhấn mạnh vào ý tưởng này:
 Tự do về kinh tế, do đó, những người theo chủ nghĩa trọng nông không tự do về chính trị. Quesnay viết trong *châm ngôn* của mình: "Hãy để quyền lực tối cao là duy nhất và vượt trội hơn tất cả các cá nhân trong xã hội và tất cả các doanh nghiệp bất công của lợi ích tư nhân." Và sau đó, trong cùng một châm ngôn: "Hệ thống kiểm tra và cân bằng trong chính phủ là một khái niệm chết người, chỉ cho thấy sự bất hòa giữa những người vĩ đại và sự áp bức của những người nhỏ bé".
 
 
-![image](assets/fr/055.webp)
+![image](assets/vi/055.webp)
 
 
 Tocqueville đã lưu ý một cách khéo léo rằng những người theo chủ nghĩa trọng nông đã từ chối nền dân chủ ngay khi họ nhìn thấy hình thức của nó. Họ hoài nghi về nền dân chủ, thứ sẽ trở thành một hằng số trong nền kinh tế chính trị của Pháp, bởi vì nền dân chủ không phải là một hệ thống hoàn hảo: nó có khả năng cho phép đa số áp bức thiểu số, và nó có thể trở thành một công cụ để chiếm đoạt, chuyên chế và cướp bóc.
@@ -955,7 +955,7 @@ Tocqueville đã lưu ý một cách khéo léo rằng những người theo ch�
 Những người theo chủ nghĩa trọng nông tin rằng con người cần sở hữu và giữ gìn thành quả lao động của mình. Theo quan điểm của họ, quyền sở hữu là nền tảng của xã hội. Họ nghĩ rằng Nhà nước có một nhiệm vụ chính: bảo vệ tài sản của người dân. Hơn nữa, xét về mặt kinh tế, những người theo chủ nghĩa trọng nông khẳng định rằng tính bất khả xâm phạm của tài sản khuyến khích lao động và nỗ lực, và là điều kiện cho sự tiến bộ kinh tế.
 
 
-![image](assets/fr/056.webp)
+![image](assets/vi/056.webp)
 
 
 Quesnay nói một cách đơn giản:
@@ -973,7 +973,7 @@ Trong *Châm ngôn* được trích dẫn trước đó, Quesnay phát biểu:
 > Phải có sự tự do hoàn toàn trong thương mại, vì sự điều tiết đáng tin cậy, chính xác và có lợi nhất cho cả thương mại trong nước và quốc tế đối với quốc gia và Nhà nước nằm ở sự tự do cạnh tranh hoàn toàn.
 
 
-![image](assets/fr/057.webp)
+![image](assets/vi/057.webp)
 
 
 Những người theo chủ nghĩa trọng nông đã thấy thiệt hại do sự can thiệp của chính phủ gây ra, đặc biệt là trong thương mại ngũ cốc. Họ nói rằng, người ta phải thừa nhận rằng chính quyền sẽ không bao giờ có thể quản lý thương mại tốt như các cá nhân, vì chính quyền sẽ cần phải đáp ứng mọi nhu cầu và phản ứng với mọi thay đổi về nhu cầu hoặc Supply. Tất cả những điều này vượt xa khả năng của ngay cả chính quyền khôn ngoan nhất mà người ta có thể hình dung. Do đó, cần phải để mọi thứ tự nhiên và để chúng trôi chảy.
@@ -1007,7 +1007,7 @@ Việc bảo vệ ý tưởng của họ, trong sách, tập sách nhỏ và tro
 Ở nước ngoài, thành công đến rất sớm. Ở Đức, Margrave xứ Baden quan tâm đến các ý tưởng trọng nông và duy trì mối quan hệ thư từ thường xuyên với Mirabeau và Dupont de Nemours.
 
 
-![image](assets/fr/058.webp)
+![image](assets/vi/058.webp)
 
 
 Ông giao cho nhà kinh tế học Johann August Schlettwein, một người theo chủ nghĩa trọng nông, nhiệm vụ thực hiện cải cách thuế và tự do hóa thương mại ngũ cốc. Vào tháng 4 năm 1770, phiên tòa đầu tiên đã diễn ra tại ngôi làng nhỏ Dietlingen. Dân làng dường như đã nhiệt tình chào đón các biện pháp này, nhưng các viên chức phụ trách lại không ủng hộ lắm, điều này đã làm chậm trễ việc thực hiện rộng rãi hơn.
@@ -1016,7 +1016,7 @@ Việc bảo vệ ý tưởng của họ, trong sách, tập sách nhỏ và tro
 Ở Nga, Catherine II đang chuẩn bị cải cách luật pháp và yêu cầu Diderot gửi cho bà một trí tuệ thông minh để hỗ trợ.
 
 
-![image](assets/fr/059.webp)
+![image](assets/vi/059.webp)
 
 
 Ấn tượng khi đọc tác phẩm [*Trật tự tự nhiên và thiết yếu của các xã hội chính trị*](https://archive.org/details/lordrenaturelete00mercuoft), xuất bản năm 1767, ông đã gửi cho bà tác giả của tác phẩm, nhà trọng nông Mercier de la Rivière.
@@ -1035,26 +1035,26 @@ Mặc dù ông rời nước Pháp trong sự chào đón nồng nhiệt, nhưng
 Ở Pháp, đảng Trọng nông đã đạt được thành công ngoạn mục khi bổ nhiệm Turgot làm Tổng kiểm toán Tài chính vào năm 1774.
 
 
-![image](assets/fr/060.webp)
+![image](assets/vi/060.webp)
 
 
 Nhận thức được sự suy giảm danh tiếng của mình, Turgot không bao giờ tự nhận mình là một môn đồ trung thành của phái Trọng nông, cũng không phải là một nhà bách khoa toàn thư, mặc dù ông là một người như vậy, và vì họ bị các thành viên của Giáo sĩ khinh thường. Khi đã nắm quyền, Turgot đã ban hành sáu sắc lệnh nổi tiếng, tạo nên sự khởi đầu cho một ứng dụng thực tế của chương trình Trọng nông: tự do thương mại, tự do lao động và chấm dứt độc quyền.
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/vi/061.webp)
 
 
 Vào thời điểm Cách mạng Pháp, những người theo chủ nghĩa trọng nông có ít người theo hơn. Hầu tước Mirabeau qua đời vào ngày 13 tháng 7 năm 1789—một biểu tượng khá rõ ràng. Abeille đã chuyển đi, nhưng Dupont de Nemours vẫn trung thành. Được bổ nhiệm vào Hội đồng, Dupont de Nemours mang tiếng nói của chủ nghĩa trọng nông và kêu gọi cải cách kinh tế theo hướng có lợi cho quyền sở hữu Ownership và thương mại tự do.
 
 
-![image](assets/fr/062.webp)
+![image](assets/vi/062.webp)
 
 
 Ông cũng đã đấu tranh, nhưng không thành công, chống lại những người theo chủ nghĩa Assignat. Mặc dù thất bại này, tư tưởng Trọng nông vẫn hiện diện rất nhiều trong cuộc tranh luận trí tuệ và ảnh hưởng đến những thành tựu ban đầu của Cách mạng. Như Joseph Rambaud đã nói, mọi thứ mà Cách mạng đã làm để ủng hộ quyền tự do đều là nhờ những người theo chủ nghĩa Trọng nông.
 
 
-![image](assets/fr/063.webp)
+![image](assets/vi/063.webp)
 
 
 
@@ -1081,7 +1081,7 @@ Những người theo chủ nghĩa trọng nông cũng có ảnh hưởng lớn 
 
 
 
-![image](assets/fr/064.webp)
+![image](assets/vi/064.webp)
 
 
 Ngày nay, công ty có doanh số hơn 35.000 tỷ đô la và sử dụng gần 65.000 nhân viên trên toàn thế giới. Hóa ra công ty này có liên quan chặt chẽ đến số phận của Samuel-Pierre Dupont de Nemours, một nhà kinh tế học người Pháp theo trường phái trọng nông.
@@ -1095,7 +1095,7 @@ Sinh năm 1739, Dupont de Nemours tiếp cận với Physiocrats khi mới 24 tu
 
 
 
-![image](assets/fr/065.webp)
+![image](assets/vi/065.webp)
 
 
 Tò mò, ông bắt đầu đọc tác phẩm của Mirabeau, *Friend of the People* và *Theory of Taxation*. Ông gặp Mirabeau và François Quesnay, sau đó gia nhập trường của họ.
@@ -1116,7 +1116,7 @@ Các thành viên của trường phái Trọng nông đồng ý rằng Dupont d
 Dupont de Nemours luôn dành sự kính trọng sâu sắc cho Quesnay.
 
 
-![image](assets/fr/066.webp)
+![image](assets/vi/066.webp)
 
 
 Sau này ông nói, "Tôi chỉ là một cậu bé khi Quesnay dang tay đón tôi - ông ấy đã biến tôi thành một người đàn ông." Chính Quesnay đã biến ông trở thành một nhà kinh tế học lớn trong bối cảnh văn học thời bấy giờ.
@@ -1131,7 +1131,7 @@ Sau *Journal de l'agriculture, du commerce et des tài chính*, Dupont được 
 
 
 
-![image](assets/fr/067.webp)
+![image](assets/vi/067.webp)
 
 
 Khi Turgot giữ chức bộ trưởng tài chính Pháp trong một thời gian ngắn, Dupont đã trở thành cố vấn thân cận của ông, là người theo chủ nghĩa trọng nông duy nhất có thể tiếp cận ông, vì Turgot vẫn giữ khoảng cách với những người khác.
@@ -1146,7 +1146,7 @@ Vào thời điểm Cách mạng, ông được bầu từ bailiwick của Nemou
 Trong cuộc Cách mạng vào tháng 8 năm 1792, ông đã cầm vũ khí để bảo vệ Nhà vua tại Cung điện Tuileries trước đám đông.
 
 
-![image](assets/fr/068.webp)
+![image](assets/vi/068.webp)
 
 
 Nhà vua nói với ông: "Ngài Dupont, chúng tôi luôn tìm thấy ngài ở bất cứ nơi nào ngài cần!" Sau khi thoát khỏi cuộc khủng bố một cách kỳ diệu, bị kết án và chờ đợi máy chém nhưng được cứu thoát nhờ sự sụp đổ của Robespierre, ông đã bị Napoleon đẩy đi lưu vong và tìm thấy hạnh phúc ở Hoa Kỳ, nơi một trong những người con trai của ông đã thành lập công ty Dupont, với sự hỗ trợ của cha mình.
@@ -1175,7 +1175,7 @@ Thế kỷ 18 ở Pháp chứng kiến sự xuất hiện của kinh tế học 
 
 
 
-![image](assets/fr/069.webp)
+![image](assets/vi/069.webp)
 
 
 Thành tựu nổi tiếng nhất của triết học Khai sáng chắc chắn là *Encyclopédie* của Diderot và d'Alembert.
@@ -1191,7 +1191,7 @@ Thành tựu nổi tiếng nhất của triết học Khai sáng chắc chắn l
 Trong nhiều bài viết khác của *Encyclopédie*, các nhà triết học, đặc biệt là Diderot, bảo vệ lý tưởng tự do trong mọi lĩnh vực: tôn giáo, chính trị và kinh tế.
 
 
-![image](assets/fr/070.webp)
+![image](assets/vi/070.webp)
 
 
 Tự do lao động, đặc biệt là đối lập với hệ thống phường hội, là chủ đề thường xuyên xuất hiện trong nhiều mục như Arts, Métier và Communauté.
@@ -1201,7 +1201,7 @@ Con đường của Diderot trong lý thuyết kinh tế là một con đường
 
 
 
-![image](assets/fr/071.webp)
+![image](assets/vi/071.webp)
 
 
 
@@ -1212,13 +1212,13 @@ Cuốn sách này sẽ trở thành cuộc tấn công dữ dội nhất từng 
 
 > "Anh đã từng là bạn của em; giờ thì không còn nữa, vì anh quá bận rộn đến nỗi không còn thời gian để yêu ai nữa".
 
-![image](assets/fr/072.webp)
+![image](assets/vi/072.webp)
 
 
 Voltaire đã đi theo một con đường tương tự, được đánh dấu bằng sự thiếu nhất quán trong quan điểm kinh tế của ông. Ông ngưỡng mộ Vincent de Gournay, trao đổi thư từ với các nhà kinh tế (bao gồm Dupont de Nemours và Turgot), và đánh giá cao những người theo chủ nghĩa trọng nông - đặc biệt là vì họ ca ngợi nền nông nghiệp. Ông đã ca ngợi họ trong một *Diatribe to the Author of the Ephémérides*. Tuy nhiên, sau đó ông đã chỉ trích ý tưởng của họ về một loại thuế đất duy nhất trong tác phẩm châm biếm của mình *The Man of Forty Crowns*, tác phẩm cũng gây ra nhiều tranh cãi đáng kể. Cuối cùng, giống như Diderot, ông đã ca ngợi chức vụ của Turgot, gọi đó là thời kỳ hoàng kim và ca ngợi hai sắc lệnh vĩ đại của ông về tự do lao động và tự do thương mại.
 
 
-![image](assets/fr/073.webp)
+![image](assets/vi/073.webp)
 
 
 Cuối cùng, mối quan hệ của các nhà triết học với tư tưởng kinh tế là hỗn hợp. Bất chấp những lời ca ngợi và chỉ trích của họ đối với các ý tưởng kinh tế tự do, họ đã đóng một vai trò trong việc đưa những ý tưởng này vào diễn ngôn trí thức rộng lớn hơn của Khai sáng. Theo cách này, dù cố ý hay không, họ đã giúp thúc đẩy khái niệm tự do kinh tế cho đến tận Cách mạng.
@@ -1240,7 +1240,7 @@ Trong một đoạn văn nổi tiếng trích từ *Lịch sử tư tưởng kin
 giới thiệu ông là nhà kinh tế vĩ đại nhất của thế kỷ 18, cùng với Cantillon.
 
 
-![image](assets/fr/074.webp)
+![image](assets/vi/074.webp)
 
 
 Turgot đã vươn lên thành người nổi tiếng như thế nào? Nó phụ thuộc vào sự kết hợp của ba yếu tố chính. **Đầu tiên**, xuất thân gia đình danh giá của ông. Ông xuất thân từ một dòng dõi lâu đời của các quan chức hoàng gia, nhiều người trong số họ giữ các chức vụ cao cấp trong chính phủ. **Thứ hai**, thời kỳ hoàng kim mà ông sinh ra và lớn lên. Turgot 21 tuổi khi Montesquieu xuất bản *L'Esprit des Lois*, và 24 tuổi khi tập đầu tiên của *Encyclopédie* xuất hiện.
@@ -1267,7 +1267,7 @@ Trong những năm đầu này, ông được Vincent de Gournay hướng dẫn,
 
 
 
-![image](assets/fr/075.webp)
+![image](assets/vi/075.webp)
 
 
 Vào năm 1767, khi còn là quản đốc, ông đã biên soạn một tuyển tập kinh tế học với tựa đề *Suy ngẫm về sự hình thành và phân phối của cải*.
@@ -1279,7 +1279,7 @@ Vào năm 1767, khi còn là quản đốc, ông đã biên soạn một tuyển
 Phân công lao động, chủ quyền của người tiêu dùng, sở hữu tư nhân, vai trò của vốn, hầu như tất cả các chủ đề kinh tế chính đều được đề cập. Nhiều nhà sử học, gần đây nhất là nhà sử học Anne-Claire Hoyng, đã chỉ ra những điểm tương đồng giữa tác phẩm này của Turgot và *The Wealth of Nations* của Adam Smith, được xuất bản chín năm sau đó.
 
 
-![image](assets/fr/076.webp)
+![image](assets/vi/076.webp)
 
 
 Turgot đã bảo vệ quyền tự do buôn bán ngũ cốc trong các lá thư gửi cho Viện phụ Terray, sau đó được chuyển cho Nhà vua, nhưng một nửa trong số đó hiện đã bị thất lạc. Ông đã viết:
@@ -1300,7 +1300,7 @@ Vào năm 1770, trước cả Bentham, Turgot đã viết một bản ghi nhớ 
 
 
 
-![image](assets/fr/077.webp)
+![image](assets/vi/077.webp)
 
 
 "Thật sai lầm khi tin rằng lãi suất tiền tệ trong thương mại nên được ấn định theo luật của các hoàng tử", ông nói, "Đó là giá cả hiện hành tự điều chỉnh, giống như giá cả của tất cả các hàng hóa khác". Để bảo vệ quan điểm này, ông bác bỏ sự phản đối của Aristotle và các Giáo phụ.
@@ -1318,7 +1318,7 @@ Một bản tóm tắt đáng chú ý về học thuyết tự do kinh doanh c�
 
 
 
-![image](assets/fr/078.webp)
+![image](assets/vi/078.webp)
 
 
 ## Turgot, nhà cải cách
@@ -1331,7 +1331,7 @@ Như chúng ta đã tóm tắt trong chương trước, Turgot là con trai củ
 
 
 
-![image](assets/fr/079.webp)
+![image](assets/vi/079.webp)
 
 
 Cha ông là thị trưởng của các thương gia Paris và ông nội ông là một người quản lý. Sau khi học tập xuất sắc, người con út của gia đình Turgot đã nhắm đến mục tiêu đạt được ít nhất những tầm cao đó. Đầu tiên, ông phục vụ một thời gian với tư cách là maître des requêtes, nghĩa là ông là người liên lạc giữa các quản lý và Versailles. Đó là một vị trí danh giá, một vị trí mà ông phải xin được miễn trừ tuổi tác đặc biệt, nhưng Turgot khao khát nhiều hơn thế. Cái chết của người cố vấn của ông, Gournay, đã khuyến khích ông nhắm đến mục tiêu cao hơn nữa, và ông đã yêu cầu được bổ nhiệm làm quản lý.
@@ -1346,7 +1346,7 @@ Năm 1759, ông lần đầu tiên nộp đơn xin làm thị trưởng Grenoble
 
 
 
-![image](assets/fr/080.webp)
+![image](assets/vi/080.webp)
 
 
 Vì khu vực này quá nghèo nên các bộ trưởng không quan tâm đến nó. Điều này đã cho Turgot sự tự do để thử nghiệm các cải cách. Ở Limousin, ông đã theo đuổi ba dự án lớn:
@@ -1358,7 +1358,7 @@ Vì khu vực này quá nghèo nên các bộ trưởng không quan tâm đến 
 - Việc tuyển dụng dân quân, quân đội nông dân được huy động trong thời chiến.
 
 
-![image](assets/fr/081.webp)
+![image](assets/vi/081.webp)
 
 
 Điều này được thực hiện bằng cách rút thăm, dẫn đến sự sợ hãi và bạo lực vì có người bỏ trốn; Turgot đã thay thế những khoản thuế bắt buộc này bằng những người tình nguyện được trả lương.
@@ -1374,7 +1374,7 @@ Tuy nhiên, chỉ một tháng sau, Turgot được bổ nhiệm làm Tổng ki�
 Chúng ta biết bức thư mà ông đã nêu ra các nguyên tắc của mình cho Louis XVI: "Không phá sản. Không tăng thuế. Không cho vay mới". Triết lý này, mà những người chỉ trích ngày nay có thể gọi là "sự nghiêm ngặt" vô nghĩa, có mục đích là cứu chế độ quân chủ.
 
 
-![image](assets/fr/082.webp)
+![image](assets/vi/082.webp)
 
 
 Turgot đã soạn thảo sáu sắc lệnh hoàng gia để cải cách nền kinh tế Pháp.
@@ -1391,7 +1391,7 @@ Khi bước vào chức vụ bộ trưởng, Turgot biết rằng ông sẽ ph�
 
 > Ôi! Tôi đã nghe tin khủng khiếp quá! Chúng ta sẽ ra sao? Tôi đau khổ quá! Chúng ta sẽ không bao giờ hồi phục sau khi chứng kiến sự ra đời và kết thúc của thời đại hoàng kim! Tiếng sét này đã đánh vào cả tâm trí và trái tim tôi.
 
-![image](assets/fr/083.webp)
+![image](assets/vi/083.webp)
 
 
 Từ đó, nhiều người cho rằng Pháp là một quốc gia không thể cải cách. Thất bại của Turgot dường như đã xác nhận điều đó: Ông đã được chuẩn bị bởi nửa thế kỷ tư tưởng kinh tế tự do; ông có sự ủng hộ của các triết gia Khai sáng; và bản thân Nhà vua, với quyền lực tuyệt đối, đã ủng hộ ông.
@@ -1411,7 +1411,7 @@ Cuối cùng, các parlements và các tầng lớp đặc quyền đã chiến 
 Giống như chủ nghĩa trọng thương, biểu hiện thực tế rõ ràng nhất của nó, chủ nghĩa ngụy biện của Montaigne phải mất một thời gian dài mới biến mất.
 
 
-![image](assets/fr/084.webp)
+![image](assets/vi/084.webp)
 
 
 Sự ngụy biện đó là ý tưởng cho rằng thương mại và Exchange là trò chơi tổng bằng không. Bất kỳ thứ gì một bên đạt được trong một giao dịch thì nhất thiết phải bị mất bởi bên kia. Những người ủng hộ nó cho rằng điều này đúng cả giữa các cá nhân và giữa các quốc gia.
@@ -1429,7 +1429,7 @@ Viện phụ Condillac đã đóng vai trò quan trọng trong việc xóa bỏ 
 Đối với hầu hết các nhà sử học về tư tưởng kinh tế, năm 1776 được đánh dấu bằng sự ra mắt của *The Wealth of Nations*, tác phẩm đặt nền móng cho khoa học kinh tế. Mười lăm bài học mà chúng ta vừa hoàn thành, trong đó chúng ta đã nghiên cứu khoa học kinh tế Pháp trước Adam Smith, đủ để chứng minh sự sai lầm của quan niệm này. Hơn nữa, vào cùng năm 1776 đó, một cuốn sách khác có lẽ xứng đáng được các nhà sử học khen ngợi hơn cuốn sách của Adam Smith: cuốn sách này do Condillac viết và có tựa đề đơn giản là [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
-![image](assets/fr/085.webp)
+![image](assets/vi/085.webp)
 
 
 Đối với Condillac, nếu sự ngụy biện của Exchange được coi là trò chơi tổng bằng không vẫn tồn tại, thì những người theo chủ nghĩa trọng nông phải chịu một phần trách nhiệm, vì họ cho rằng Exchange là mối quan hệ bình đẳng. Theo Condillac, điều này là sai: Exchange là mối quan hệ không bình đẳng, trong đó người ta luôn cho ít hơn để có được nhiều hơn.
@@ -1466,7 +1466,7 @@ Condillac đúng khi cho rằng nếu giá cả giữa hai hàng hóa trao đổ
 Đề xuất đầu tiên: chúng ta tìm kiếm hàng hóa vì tiện ích của chúng. Điều này có vẻ hiển nhiên, nhưng đây là nguyên lý cốt lõi của khoa học kinh tế mà con người Exchange phải có được tiện ích, một điểm mà Jean-Baptiste Say cũng đã phát triển một cách hoàn hảo.
 
 
-![image](assets/fr/086.webp)
+![image](assets/vi/086.webp)
 
 
 Đề xuất thứ hai: giá trị tồn tại trước và thúc đẩy trao đổi. Phán đoán chủ quan của mỗi người về hàng hóa và dịch vụ ngụ ý rằng những hàng hóa và dịch vụ này có giá trị đối với họ, có giá trị nhiều hơn hoặc ít hơn tùy theo tiện ích mà chúng dường như cung cấp. Đương nhiên, mỗi cá nhân đánh giá khác nhau và giá trị thay đổi tùy theo từng người.
@@ -1491,7 +1491,7 @@ Condorcet chắc chắn là triết gia có tư duy kinh tế nhất của thờ
 
 
 
-![image](assets/fr/087.webp)
+![image](assets/vi/087.webp)
 
 
 Trong phần lớn sự nghiệp của mình, ông dành hết tâm huyết cho những lĩnh vực hoàn toàn không liên quan đến kinh tế, và đúng như vậy, vì tài năng của ông đã dẫn đến những tiến bộ to lớn trong các ngành khoa học mà ông tập trung nhiều nhất. Nhưng vào khoảng năm 1770, ông cảm thấy bị thu hút bởi các vấn đề kinh tế, có lẽ vì các nhà triết học khác, đặc biệt là Voltaire và Diderot, không thèm dành thời gian rảnh rỗi cho chúng, và cũng vì ông đã kết bạn với Turgot.
@@ -1506,7 +1506,7 @@ Do đó, ông đã chuẩn bị sẵn sàng để bảo vệ tự do khi ngườ
 
 
 
-![image](assets/fr/088.webp)
+![image](assets/vi/088.webp)
 
 
 Từ đó trở đi, sự nghiệp của Condorcet đã có bước ngoặt khi ông tham gia vào cuộc tranh luận kinh tế, không ngừng ủng hộ các cải cách tự do của vị bộ trưởng mới. Ủng hộ sự cạnh tranh và tự do thương mại, Condorcet cũng kêu gọi bãi bỏ chế độ lao động cưỡng bức, các hội đoàn và thuế công bằng. Ông đã công khai lên tiếng về những niềm tin này bất cứ khi nào có cơ hội, với sự nhiệt tình rõ ràng; ông đã viết rất nhiều và từng tuyên bố trong các tác phẩm của mình: "Cho phép tôi nói lại về quyền tự do thương mại; tôi thích tham gia vào chủ đề này."
@@ -1518,7 +1518,7 @@ Từ năm 1774 đến 1776, trong thời gian Turgot làm bộ trưởng, Condor
 Trong [*Những lá thư về buôn bán ngũ cốc*](https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet đưa ra một số điểm chính.
 
 
-![image](assets/fr/089.webp)
+![image](assets/vi/089.webp)
 
 
 Đầu tiên, giá ngũ cốc cao vào thời điểm đó không phải là kết quả của thương mại tự do, mà là do mùa màng kém, và Condorcet chứng minh điều này một cách rõ ràng. Sau đó, ông giải thích lý do tại sao laissez-faire không chỉ phù hợp mà còn là chính sách duy nhất phù hợp, bất chấp định kiến của quần chúng. Ông lưu ý, "Chúng ta đã quá quen với việc thấy chính phủ can thiệp vào thương mại ngũ cốc đến nỗi không làm gì có vẻ như là điều gì đó phi thường và mới mẻ". Sau đó, ông nói thêm, "Hầu như mọi người, đặc biệt là những người giữ chức vụ công, đều tin rằng không có gì tự nhiên xảy ra và mọi thứ đều mất mát nếu chính phủ không can thiệp vào mọi thứ". Do đó, Condorcet đã làm sống lại các lập luận của những người theo chủ nghĩa trọng nông và Turgot, cho thấy tính ưu việt của thương mại tự do so với mọi hình thức can thiệp.
@@ -1549,7 +1549,7 @@ Dupont de Nemours là đệ tử trẻ tuổi nhất của François Quesnay, ng
 Dupont de Nemours đã viết danh sách những lời than phiền cho quận Nemours.
 
 
-![image](assets/fr/090.webp)
+![image](assets/vi/090.webp)
 
 
 Tài liệu hấp dẫn này chứa đựng tất cả những lời phàn nàn của các nhà kinh tế tự do về các hạn chế thương mại, độc quyền và tấn công vào tài sản. Dupont de Nemours cũng được bầu vào Quốc hội.
@@ -1564,7 +1564,7 @@ Ngay từ tháng 11 năm 1789, khi có thông tin về việc cấp độc quy�
 
 
 
-![image](assets/fr/091.webp)
+![image](assets/vi/091.webp)
 
 
 "Sẽ tốt hơn", ông nói, "nếu để hoạt động kinh doanh ngân hàng theo luật thương mại tự do". Và ông nói thêm:
@@ -1586,7 +1586,7 @@ Dupont de Nemours kiên quyết phản đối điều này và xuất bản mộ
 
 
 
-![image](assets/fr/092.webp)
+![image](assets/vi/092.webp)
 
 
 Ông đã ký vào tờ rơi với tư cách là "một người bạn của nhân dân". Bài viết đã gây ra một sự khuấy động lớn, khi Hội đồng được hỏi ai đã viết nó. Sau đó, Dupont de Nemours đứng lên và thừa nhận đó là tác phẩm của mình, nói rằng ông không xấu hổ khi sử dụng danh hiệu "người bạn của nhân dân" vì đấu tranh chống lại những người Assignat thực sự phục vụ nhân dân.
@@ -1595,7 +1595,7 @@ Một lần nữa, lời khuyên của ông bị bỏ qua và lệnh chuyển nh
 
 
 
-![image](assets/fr/093.webp)
+![image](assets/vi/093.webp)
 
 
 Chúng ta đều biết thảm họa xảy ra sau đó, sự suy thoái kinh tế và nỗi đau khổ mà người dân phải chịu đựng, nhiều người đã mất tất cả khi đồng tiền Assignat trở nên vô giá trị và phải bị đốt cháy.
@@ -1627,7 +1627,7 @@ Boisguilbert khẳng định rằng những tâm hồn tốt bụng tin rằng h
 
 
 
-![image](assets/fr/094.webp)
+![image](assets/vi/094.webp)
 
 
 Cantillon nhấn mạnh rằng tiền không bao giờ được phép thao túng vì mục đích chính trị. Cho phép Nhà nước quản lý tiền theo ý muốn là mở đường cho sự hỗn loạn tài chính và kinh tế to lớn.
@@ -1648,7 +1648,7 @@ Hầu tước d'Argenson khẳng định rằng không có chính phủ nào có
 
 
 
-![image](assets/fr/095.webp)
+![image](assets/vi/095.webp)
 
 
 Quesnay và những người theo chủ nghĩa trọng nông khẳng định rằng tài sản tư nhân là nền tảng của xã hội loài người. Không có tài sản tư nhân, con người mất đi động lực để nỗ lực, để làm việc, vì anh ta không thể tận hưởng thành quả lao động của mình hoặc tích lũy bất cứ thứ gì.

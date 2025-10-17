@@ -88,7 +88,7 @@ Spremni da ponovo otkrijete francuske korene ekonomskog liberalizma? Krenimo!
 Na praskozorju 18. veka, Francuska je bila u zabrinjavajućem stanju. Ruralno stanovništvo je jedva proizvodilo dovoljno za preživljavanje i bilo je teško oporezovano.
 
 
-![image](assets/fr/001.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 
@@ -98,7 +98,7 @@ Gradski zanatlije, zaključani u krute cehove, borili su se da inoviraju ili ča
 Ali kako bismo mogli pronaći rešenje za bolest ere? Još uvek nije postojala nauka o ekonomiji i stoga nije bilo posebnog leka za primenu. Principi ekonomske politike su se još uvek primenjivali nasumično, menjajući se između restriktivnih faza i liberalnijih perioda. Svakako, imamo modele, istorijske reference koje treba pratiti. Među njima je bio *Sully*, ministar Henrija IV, koji se zalagao za poljoprivredu i promovisao veću slobodu trgovine unutar Francuske.
 
 
-![image](assets/fr/002.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 
@@ -107,7 +107,7 @@ Ali kako bismo mogli pronaći rešenje za bolest ere? Još uvek nije postojala n
 Ali tada je došao Colbert, ministar Luja XIV, koji je kolebao između regulacije i slobode, ali je na kraju sproveo regulaciju. Na samom kraju 17. veka, Colbert je nadmašio Sullyja: ministri su sada prizivali njegovo nasleđe i pokušavali da primene ono što su tvrdili da su njegove maksime.
 
 
-![image](assets/fr/003.webp)
+![image](assets/sr-Latn/003.webp)
 
 
 U mislima državnika krajem 17. veka, Kolberove maksime su bile četiri.
@@ -118,7 +118,7 @@ U mislima državnika krajem 17. veka, Kolberove maksime su bile četiri.
 Bilo je stotine takvih pravila, sastavljenih u posebnim tomovima za svaku vrstu industrije. Ipak, u očima Kolbertovih sledbenika, ovo je i dalje bilo nedovoljno: industrija, verovali su, takođe je morala biti nadgledana od strane korporacija.
 
 
-![image](assets/fr/004.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 Svako ko je želeo da se bavi zanatom morao je prvo provesti nekoliko godina kao šegrt, zatim kao kalfa, pre nego što pokuša da dostigne status majstora izradom "remek-dela" i plaćanjem značajne sume cehu. Konkurencija unutar svakog zanata bila je stoga strogo ograničena.
@@ -128,7 +128,7 @@ Svako ko je želeo da se bavi zanatom morao je prvo provesti nekoliko godina kao
 (2) **Trgovina je igra sa nultim zbirom**. Kada je reč o trgovini, Kolberovi sledbenici delili su iste predrasude kao varvarski narodi Antike. Prema ministru Luja XIV, trgovina je "perpetualni rat". Zašto? Razlog je jednostavan: za Kolbera i njegove naslednike, bilo kakvo povećanje bogatstva jedne zemlje značilo je osiromašenje druge. Po njihovom mišljenju, Englezima ili Holanđanima nije smelo biti dozvoljeno da se obogate, jer bi to značilo da kradu prosperitet Francuske.
 
 
-![image](assets/fr/005.webp)
+![image](assets/sr-Latn/005.webp)
 
 
 Proizvodi ovih zemalja, stoga, morali su biti zabranjeni ili visoko oporezovani, bez skrupula, jer trgovina je rat u kojem možemo samo želeti propast naših neprijatelja.
@@ -140,13 +140,13 @@ Proizvodi ovih zemalja, stoga, morali su biti zabranjeni ili visoko oporezovani,
 (3) **Kada državi ponestane novca, Povećajte Poreze**. Colbert i njegovi sledbenici nisu verovali da je bogatstvo poreskih obveznika ograničen resurs. Po njihovom mišljenju, javna potrošnja nikada nije mogla biti problem, sve dok se dovoljno prikupljalo. A ako bi se narod pobunio, to je bilo samo zato što su ministri loše pristupili tome, jer, kako je Colbert cinično primetio, "umetnost oporezivanja sastoji se u čupanju gusaka bez previše vriske".
 
 
-![image](assets/fr/006.webp)
+![image](assets/sr-Latn/006.webp)
 
 
 (4) **Bogatstvo je, pre svega, zlato i srebro**. Pre rođenja ekonomske nauke, mnogi pisci su sledili jednu dominantnu dogmu o prirodi bogatstva, što je postalo poznato kao *merkantilizam*. Kolber i njegovi naslednici nastavili su tim putem. Ukratko, merkantilisti su verovali da je pravi znak prosperiteta nacije akumulacija plemenitih metala, srebra i zlata.
 
 
-![image](assets/fr/007.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 
@@ -171,7 +171,7 @@ Danas, kako poreski pritisak u našoj zemlji nastavlja da raste, preteći da ugu
 Prvi od ovih reformatora poreza, hronološki i po zaslugama, je veliki maršal Sébastien Le Prestre Vauban, poznati graditelj utvrđenja i citadela.
 
 
-![image](assets/fr/008.webp)
+![image](assets/sr-Latn/008.webp)
 
 
 
@@ -180,19 +180,19 @@ Prvi od ovih reformatora poreza, hronološki i po zaslugama, je veliki maršal S
 Iako smo to nažalost zaboravili, Vauban je bio više od vojnog čoveka; bio je i ekonomista. Zanimala ga je sudbina seljaka, predložio je hrabre poreske reforme 1695. godine (Projet de capitation - "Projekat za kapitaciju") i ponovo 1707. godine (Projet d'une Dime Royale - "Kraljevska desetina"): da zameni većinu postojećih poreza porezom proporcionalnim prihodu, jedinstvenim porezom pre svog vremena.
 
 
-![image](assets/fr/009.webp)
+![image](assets/sr-Latn/009.webp)
 
 
 Vauban je došao do ovih ideja kroz radoznalost. Bio je oštar posmatrač, koji je težio da proučava društveni život i ekonomsku stvarnost rigorozno, gotovo naučno. Posebno je insistirao na potrebi brojanja, putem popisa.
 
 
-![image](assets/fr/010.webp)
+![image](assets/sr-Latn/010.webp)
 
 
 Njegova druga velika zasluga bila je njegovo dirljivo i iskreno opisivanje bede koju su mase trpele. Napisao je: "Nemojmo se zavaravati; srce kraljevstva je uništeno. Sve pati, sve trpi, sve stenje. Dovoljno je samo pogledati i ispitati srce provincija, ono što ćete naći je još gore nego što govorim". Daleko od preterivanja, Vaubanove sumorne opservacije bile su tačan odraz života s početka 18. veka. Aleksis de Tokvil je bio dobro upoznat sa ovim idejama i kasnije bi opisao Vaubanov *Kraljevski desetak* kao "zastrašujući", jer je bio istinit.
 
 
-![image](assets/fr/011.webp)
+![image](assets/sr-Latn/011.webp)
 
 
 Druga velika zasluga Vaubana kao ekonomiste bila je predlaganje dalekosežne poreske reforme s ciljem iskorenjivanja, ili barem smanjenja intenziteta zla koje je posmatrao i opisao. Bio je u pravu što je to učinio; francuska ekonomija pod Ancien Régime bila je paralizovana oporezivanjem, koje je bilo nejednako, nestabilno i nečitljivo.
@@ -235,7 +235,7 @@ Nedugo pre svoje smrti, Vaubanovu ideju su usvojili ministri Luja XIV. Međutim,
 Nekoliko francuskih ekonomista iz prošlosti danas uživa priznanje u svojoj domovini koje odgovara njihovim doprinosima, a Boisguilbert nije izuzetak.
 
 
-![image](assets/fr/012.webp)
+![image](assets/sr-Latn/012.webp)
 
 
 Neocenjen od strane čitalaca svog vremena, udaljen od krugova moći zbog svoje ekscentrične prirode i preplavljujuće strasti, Boisguilbert je ostavio mali trag u 18. veku. Ipak, početkom prošlog veka, došlo je do sporog ponovnog otkrivanja njegovog rada.
@@ -248,7 +248,7 @@ Međutim, ovo ponovno otkriće pokazuje da ulazimo u neku vrstu slepe ulice. Boi
 (Pierre Le Pesant de) Boisguilbert je rođen u Ruanu 1646. godine. Obrazovan u Port-Roayalu u Parizu, Boisguilbert je započeo neuspešnu književnu karijeru pre nego što je preuzeo razne uloge, uključujući i onu generalnog poručnika Ruana. Tokom tog perioda napisao je nekoliko knjiga kako bi zagovarao svoje ideje, među njima i "Détail de la France" 1695. godine, koju je ponovo objavio sledeće godine pod mnogo eksplicitnijim naslovom: [*Francuska uništena pod vladavinom Luja XIV, od koga i kako, sa sredstvima za njeno obnavljanje*](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up).
 
 
-![image](assets/fr/013.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 
@@ -274,7 +274,7 @@ Prvo, ljudi više nisu mogli da priušte osnovne potrepštine zbog proizvoljnog 
 Drugi razlog za francusku bedu je što su previše prepreka sprečavale slobodnu trgovinu robom, posebno poljoprivrednim proizvodima. Postojale su carinske dažbine na granicama, pa čak i unutar zemlje, između različitih regiona, što je paralizovalo svu trgovinu. Ova ograničenja su sprečavala uspostavljanje ravnotežne cene i ograničavala tržišne mogućnosti. Kao rezultat toga, seljaci nisu mogli da žive od svoje proizvodnje, jer nisu mogli profitabilno da prodaju i pate od neisplativih poljoprivrednih cena, što je briga koja je i danas veoma relevantna i leži u srcu teorije Boagilbera. Po pitanju trgovinskih ograničenja, Boagilber se zalagao za čišćenje puteva, drugim rečima, uspostavljanje slobodne trgovine.
 
 
-![image](assets/fr/014.webp)
+![image](assets/sr-Latn/014.webp)
 
 
 I sloboda je zaista njegov konačni zaključak. "Nije stvar u delovanju", kaže on, "već jednostavno u prestanku delovanja onako kako to činimo tako nasilno protiv prirode, koja uvek teži ka slobodi i savršenstvu". Sve će biti dobro, ponavlja neumorno, "sve dok pustimo prirodu da ide svojim tokom, to jest, damo joj njenu slobodu, i da niko ne ometa ovu trgovinu osim da pruži zaštitu svima i spreči nasilje".
@@ -295,13 +295,13 @@ Boisguilbert je čak kritikovao "*dobre duše*", kako ih je nazivao, one koji su
 Autor "Eseja o prirodi trgovine uopšte" (napisan oko 1730, objavljen 1755), Richard Cantillon se smatra jednim od pionira moderne ekonomske nauke. U svojoj Istoriji ekonomske misli, ekonomista Murray Rothbard čak naziva Cantillona osnivačem moderne ekonomije.
 
 
-![image](assets/fr/015.webp)
+![image](assets/sr-Latn/015.webp)
 
 
 Rođen u Irskoj, Richard Cantillon se kao mladić nastanio u Parizu i stekao francusko državljanstvo. Radio je kao bankar i stekao bogatstvo tokom ere Johna Lawa.
 
 
-![image](assets/fr/016.webp)
+![image](assets/sr-Latn/016.webp)
 
 
 Bilo je to takođe u ovoj prilici kada je počeo da proučava ekonomsku teoriju. Oko 1730. godine, Kantijon je sastavio svoj Esej o prirodi trgovine uopšte.
@@ -331,7 +331,7 @@ Treća tačka, **valuta**.
 U reakciji na iskustvo Džona Lawa, Kantijon objašnjava šta se dešava ili šta mora da se desi kada valuta nema pravu vrednost.
 
 
-![image](assets/fr/017.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 Vidi dve glavne posledice zamene valute bez stvarne vrednosti, kao što je papirni novac, za metalnu. Prva posledica je ono što on naziva "narodnim odbacivanjem", što znači rastuće nepoverenje u bezvredni novac. Druga posledica je inflacija: monetarno slabljenje čini da roba postaje skuplja.
@@ -364,13 +364,13 @@ Ovom teorijom o efektima inflacije, Cantillon nam pruža odgovore na brojne savr
 Od svih autora koje smo odabrali da uključimo u panteon francuskih mislilaca laissez-faire iz 18. veka, opat Saint-Pierre je nesumnjivo najviše zanemaren.
 
 
-![image](assets/fr/018.webp)
+![image](assets/sr-Latn/018.webp)
 
 
 Da budemo fer, delimično je i njegova sopstvena greška. Puno je pisao, ali njegov stil je Hard za čitanje i pun je ponavljanja. Čak je i Žan-Žak Ruso pokušao da sažme njegov rad: počeo je to da radi, ali je ubrzo odustao od zadatka, jer je shvatio da je to izvan njegovih snaga. Sredinom 19. veka, Gustave de Molinari mu je odao počast objavljivanjem sveobuhvatnog dela o njemu, u kojem je odao priznanje pacifisti i ekonomisti kakav je bio opat Sen-Pjer. Ali to nije bilo dovoljno da ga izvuče iz zaborava, jer u njemu i danas ostaje.
 
 
-![image](assets/fr/019.webp)
+![image](assets/sr-Latn/019.webp)
 
 
 
@@ -379,7 +379,7 @@ Da budemo fer, delimično je i njegova sopstvena greška. Puno je pisao, ali nje
 Opat Saint-Pierrea pisao je o ekonomiji, ali je obično zanimljiviji kao pacifista. On je autor Projekta za večni mir, koji prethodi poznatom delu Emanuela Kanta.
 
 
-![image](assets/fr/020.webp)
+![image](assets/sr-Latn/020.webp)
 
 
 U ovom delu, tvrdio je da je rat destruktivan, ne samo za one koji ga izgube, već i za pobednike, pa čak i za one koji ne učestvuju u njemu, jer je njihova trgovina pogođena.
@@ -391,7 +391,7 @@ Da bi se suzbilo zlo rata, preporučio je stvaranje svojevrsne Evropske lige nar
 Postoji i epizoda u životu opata Saint-Pierrea koja savršeno ilustruje kritički način razmišljanja iza francuskog pokreta laissez-faire. Pridružio se Académie Française 1695. godine, ali je izbačen 1718. zbog toga što se usudio kritikovati vladavinu Luja XIV. U tome se uskladio sa ličnostima poput Vaubana i Boisguilberta, koji su se takođe usudili govoriti protiv misterija skrivenih ispod sjaja vladavine Kralja Sunca.
 
 
-![image](assets/fr/021.webp)
+![image](assets/sr-Latn/021.webp)
 
 
 Opat Saint-Pierrea je tvrdio da vladavina Luja XIV, sa svojim luksuznim dvorom i opsesijom vojnim osvajanjem, nije bila obeležje vrlinskog kralja. Odbio je da prihvati da Luj XIV zaslužuje titulu "**Luj Veliki**".
@@ -403,7 +403,7 @@ Opat Saint-Pierrea je tvrdio da vladavina Luja XIV, sa svojim luksuznim dvorom i
 "Uništiti svoje susede i svoj narod u isto vreme nije veličina", rekao je. Ovaj stav duboko je uvredio Académie Française, koja je dugo bila zaokupljena veličanjem kralja u svakom mogućem književnom obliku. Kao rezultat toga, gotovo jednoglasno su glasali da ga isključe.
 
 
-![image](assets/fr/022.webp)
+![image](assets/sr-Latn/022.webp)
 
 
 Što se tiče ekonomskog razmišljanja, dosledno je primenjivao princip korisnosti, slično kao što bi to kasnije činio Jeremy Bentham, i često je nudio zdrave uvide. Da budemo pošteni, još uvek je bio pod uticajem merkantilističkih ideja, kojih se tada niko nije u potpunosti oslobodio.
@@ -414,7 +414,7 @@ Ipak, opat od Saint-Pierrea je dao neka tačna zapažanja o ekonomiji. Čak i pr
 
 > "Kada se prodaja obavlja između trgovaca, prodavac dobija, a isto tako i kupac; jer da nema neke stvarne ili percipirane koristi za obe strane, ni prodavac ne bi prodao po toj i toj ceni, niti bi kupac, sa svoje strane, kupio po takvoj ceni".
 
-![image](assets/fr/023.webp)
+![image](assets/sr-Latn/023.webp)
 
 
 Takođe je naglasio, pre Vincent de Gournaya, vrednost rada i važnost održavanja njegove privlačnosti. "Sav rad je težak", napisao je. "A kada čovek vidi da mu njegov rad ne donosi ništa, ili nedovoljno, postaje lenj i neće se truditi više nego što je potrebno". Ovaj argument će kasnije ponoviti markiz d'Argenson, Vincent de Gournay i fiziokrati dok su kritikovali opterećujuće propise i cehovske sisteme. Tvrdili su da takva ograničenja obeshrabruju radnike, uzrokuju nepotrebne poteškoće i na kraju čine da lenjost izgleda privlačnije od produktivnog truda u takvim uslovima.
@@ -430,7 +430,7 @@ Takođe je naglasio, pre Vincent de Gournaya, vrednost rada i važnost održavan
 Markiz d'Arženson je zaboravljeni osnivač doktrine laissez-faire.
 
 
-![image](assets/fr/024.webp)
+![image](assets/sr-Latn/024.webp)
 
 
 Ponovo ga je otkrio August Oncken, autor knjige o doktrini laissez-faire, laissez-passer, zaključio je da je d'Argenson igrao glavnu ulogu u rađanju ove ideje.
@@ -445,7 +445,7 @@ René-Louis Voyer, markiz d'Arženson, rođen je 1694. Svoju političku karijeru
 Trideset godina pre Adama Smita, d'Argenson je već branio prednosti podele rada i specijalizacije.
 
 
-![image](assets/fr/025.webp)
+![image](assets/sr-Latn/025.webp)
 
 
 Snažno je kritikovao propise koji su, po njegovom mišljenju, pokušavali da promene prirodne sklonosti različitih regiona. Na primer, bio je zbunjen što je vlada želela da proizvodi tkanine i somot u Toursu, siromašnom gradu u to vreme, kako bi se podudarali sa kvalitetom onih proizvedenih u prosperitetnoj Đenovi, koja je bila poznata po luksuznoj robi. Zaključio je:
@@ -460,7 +460,7 @@ Takođe je prepoznao još jedan od Smitovih centralnih principa: ideju da sponta
 Čak i pre Adama Smita, razumeo je da sopstveni interes vodi ka opštem interesu kroz izgradnju spontanog prirodnog poretka.
 
 
-![image](assets/fr/026.webp)
+![image](assets/sr-Latn/026.webp)
 
 
 Uporedio je društvo sa košnicom pčela gde svaki insekt prati svoj instinkt, "Iz njihovih akcija", rekao je precizno, "rezultirala je velika akumulacija za potrebe malog društva; ali to nije postignuto naređenjima, ili od strane generala, koji su obavezivali svakog pojedinca da prati stavove svog vođe". Ovo je možda najbliži izraz u francuskoj ekonomskoj misli čuvenom konceptu Adama Smita o "nevidljivoj ruci".
@@ -475,7 +475,7 @@ Da budem iskren, bio je zapanjen što je ljudima bilo toliko Hard da razumeju, i
 Ponekad je očajavao zbog toga koliko su njegove ideje bile malo shvaćene.
 
 
-![image](assets/fr/027.webp)
+![image](assets/sr-Latn/027.webp)
 
 
 Ideal ekonomske politike koji je branio bio je, dakle, suprotan trendovima njegovog vremena. Njegov ideal je definisao suštinski negativnu ulogu države. "Sve što trgovini treba je uklanjanje prepreka. Traži samo dobre sudije, kažnjavanje monopola, jednaku zaštitu za sve građane, stabilne valute i puteve i kanale". Ovo je bila definicija minimalne države, koja će postati jedan od temelja francuske tradicije u političkoj ekonomiji.
@@ -502,7 +502,7 @@ Na pitanje trgovine u pogledu egzistencije, d'Argenson nije imao drugi odgovor o
 Vincent de Gournay je bio jedan od prvih predstavnika laissez-faire u Francuskoj i jedan od njegovih najranijih zagovornika u javnoj upravi i intelektualnim krugovima. Iz tog razloga zaslužuje mnogo više priznanja u istoriji ekonomske misli nego što obično dobija. Pokušao sam da istaknem njegove doprinose u nedavnoj knjizi.
 
 
-![image](assets/fr/028.webp)
+![image](assets/sr-Latn/028.webp)
 
 
 Rođen u trgovačkoj porodici, Gournay je i sam postao uspešan trgovac, stekavši značajno bogatstvo pre nego što je obezbedio poziciju u francuskoj administraciji. U okviru Biroa za trgovinu, bio je vatreni zagovornik slobodnog rada i slobodne trgovine.
@@ -517,7 +517,7 @@ Ono što imamo uključuje:
 1. [Primedbe](https://archive.org/details/traitessurlecomm0000chil) na prevod knjige engleskog ekonomiste Džozaja Čajlda;
 
 
-![image](assets/fr/029.webp)
+![image](assets/sr-Latn/029.webp)
 
 
 2. "Opservacije" uključene u Ispitivanje Prednosti i Nedostataka Zabrane Štampanih Tkanina;
@@ -556,7 +556,7 @@ Konačno, Gournay je primetio da su kamatne stope bile niže u Engleskoj i Holan
 Na svim ovim tačkama, Gournay je igrao ključnu ulogu u intelektualnim debatama sredine 18. veka. Njegova odbrana ekonomske slobode prethodila je fiziokratima za deceniju i Adamu Smithu za dvadeset godina. Ali njegov najtrajniji uticaj bio je na Turgota. Gournay je uzeo mladog Turgota pod svoje okrilje i obučio ga svojim idejama.
 
 
-![image](assets/fr/030.webp)
+![image](assets/sr-Latn/030.webp)
 
 
 Godinama kasnije, Turgot, budući ministar pod Lujem XVI, napisao je Éloge (posmrtnu pohvalu) u čast svog prijatelja nakon njegove smrti. A ako Turgot nikada nije potpuno prihvatio fiziokratiju Françoisa Quesnaya, to je bilo zato što je sačuvao nepobedivu privrženost svom prvom učitelju, Vincentu de Gournayu.
@@ -571,13 +571,13 @@ Godinama kasnije, Turgot, budući ministar pod Lujem XVI, napisao je Éloge (pos
 Kada je reč o ranim danima ekonomske nauke, istorija obično ističe prvu školu mišljenja: fiziokrate, predvođene Fransoa Keneom i njegovim učenicima. Međutim, skoro deceniju pre njihovog uspona, postojala je druga, manje formalna, ali podjednako važna grupa okupljena oko ekonomiste Vensana de Gurnea.
 
 
-![image](assets/fr/031.webp)
+![image](assets/sr-Latn/031.webp)
 
 
 Kao što smo videli u prethodnom delu, Gournay je bio fasciniran primerom stranih nacija poput Engleske i Holandije. Podjednako je cenio njihove ekonomiste—ličnosti kao što su Josiah Child, Johan de Witt i David Hume.
 
 
-![image](assets/fr/032.webp)
+![image](assets/sr-Latn/032.webp)
 
 
 Ovo divljenje ga je navelo da prevede i dodeli prevode njihovih ekonomskih spisa.
@@ -593,7 +593,7 @@ Zahvaljujući saradnji nekoliko članova Gournayevog kruga, mnogi autori su mogl
 - Herbertov esej o [Opštoj policiji žita](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 izdanja u 4 godine)
 
 
-![image](assets/fr/033.webp)
+![image](assets/sr-Latn/033.webp)
 
 
 
@@ -613,7 +613,7 @@ Grupa je takođe igrala ključnu ulogu u objavljivanju
 - [Esej o Prirodi Trgovine uopšte](https://archive.org/details/essayonnatureofc0000cant) od Ričarda Kantijona.
 
 
-![image](assets/fr/034.webp)
+![image](assets/sr-Latn/034.webp)
 
 
 Ova poslednja knjiga, napisana oko 1730. godine, ostala je u rukopisu nakon autorove smrti. Gournay ju je, uz pomoć svojih prijatelja ekonomista, objavio 1755. Prema rečima opata Moreleta, člana tog kruga, Gournay ju je preporučivao svakom ekonomisti kojeg je poznavao.
@@ -622,13 +622,13 @@ Ova poslednja knjiga, napisana oko 1730. godine, ostala je u rukopisu nakon auto
 Intelektualni doprinos Gournay kruga imao je veliki uticaj na istoriju ideja. U tom smislu, mogu se smatrati osnivačima ekonomske nauke u Francuskoj. Christine Théré iz INED-a, koja je proučavala istoriju ekonomskih publikacija, otkrila je da je između 1750. i 1759. godine objavljeno čak **349** radova o ekonomiji, u poređenju sa samo **83** u čitavoj prethodnoj deceniji (1740–1749). Ova revolucija u 1750-im godinama je u velikoj meri zasluga Gournay kruga.
 
 
-![image](assets/fr/035.webp)
+![image](assets/sr-Latn/035.webp)
 
 
 Da bi proširili interesovanje za ekonomske diskusije među francuskim stanovništvom, Gournay i njegovi prijatelji su radili na tome da ih učine dostupnim kroz romane. Nakon *Memoara o zanatima*, koji je kritikovao cehove, Gournay i Cliquot-Blervache su pomogli Gabriel-François Coyeru da napiše kratak satirični roman pod nazivom Chinki: [Kohinčanska priča primenljiva na druge nacije](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
-![image](assets/fr/036.webp)
+![image](assets/sr-Latn/036.webp)
 
 
 Priča prati glavnog junaka, Činkija, koji je primoran da napusti svoju zemlju zbog prekomernog oporezivanja i pokušava da pronađe zanatski posao za svoju decu u gradu. Ali svi zanati su im zatvoreni zbog zloupotrebljavajućih cehovskih propisa, pa priča prikazuje njegovo rastuće razočaranje kroz humoristične tonove.
@@ -649,13 +649,13 @@ I zaista, tokom 1750-ih, ekonomska pitanja postala su moderna. Volter je slavno 
 Francuska je poznala dva poznata čoveka po imenu Mirabeau, oca i sina, ali je sin taj koji je zaista ušao u istoriju. Kao revolucionarni tribun i jedna od centralnih figura događaja Francuske revolucije, ostao je poznat.
 
 
-![image](assets/fr/037.webp)
+![image](assets/sr-Latn/037.webp)
 
 
 Svojim talentom i mestom u francuskoj istoriji zasenio je svog oca, ekonomistu i stub škole Fransoa Keneja, koji je bio njen prvi član još 1758. godine.
 
 
-![image](assets/fr/038.webp)
+![image](assets/sr-Latn/038.webp)
 
 
 Markiz de Mirabo je, zapravo, već postigao ogromnu slavu čak i pre nego što je prihvatio fiziokratiju zahvaljujući knjizi pod naslovom "Prijatelj čovečanstva. Rasprava o populaciji [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Iako je prvo izdanje objavljeno 1756. godine, postalo je poznato oko 1757. godine, godinu dana pre njegovog susreta sa Keneom.
@@ -675,7 +675,7 @@ Danas je to knjiga koja se više ne čita, ali je mnogi i dalje pominju. Čak je
 Na početku svoje karijere kao ekonomista, Mirabeau je crpeo inspiraciju od Richarda Cantillona. Posjedovao je rukopis Cantillonovog Eseja o prirodi trgovine uopšte 15 godina i strpljivo ga analizirao i komentarisao.
 
 
-![image](assets/fr/039.webp)
+![image](assets/sr-Latn/039.webp)
 
 
 L'Ami des Hommes je prvobitno zamišljen kao jednostavan komentar na Kantijonov Esej. Ali pošto je Mirabo imao donekle eklektičan um, što znači, iskreno, pomalo lud, brzo je odstupio od svog prvobitnog plana. Knjiga jednostavno raspravlja o svim ekonomskim pitanjima koja je poznavao, povremeno se udaljavajući od Kantijona. To je teška knjiga za čitanje, sa bizarnim planom i digresijama u svakom poglavlju. Sam Mirabo je priznao da je to haos i da je njegov stil apokaliptičan.
@@ -694,7 +694,7 @@ Uprkos haosu koji vlada, neke ideje vredi zabeležiti:
 - Konačno, on brani slobodu trgovine i bratstvo nacija u miru.
 
 
-![image](assets/fr/040.webp)
+![image](assets/sr-Latn/040.webp)
 
 
 Teško je označiti Mirabeauove stavove kao liberalne ili anti-liberalne. Često je prelazio s jedne vizije na drugu, ponekad i nesvesno. Ipak, liberalne ideje su često dominirale njegovim pisanjem. Jedan od njegovih najpoznatijih citata bio je:
@@ -705,7 +705,7 @@ Teško je označiti Mirabeauove stavove kao liberalne ili anti-liberalne. Često
 Sa svojim najvećim uspehom iza sebe, Mirabo je bio tražen. Fransoa Kene, koji se upravo zainteresovao za ekonomiju, pozvao ga je u svoj entresol u Versaju.
 
 
-![image](assets/fr/041.webp)
+![image](assets/sr-Latn/041.webp)
 
 
 Žustro su raspravljali i konačno, nešto što se obično nikada ne dešava u debatama, desilo se: Mirabeau je otvoreno priznao da je pogrešio. Složio se sa Quesnayevim idejama i rekao da je spreman da ih širi.
@@ -714,7 +714,7 @@ Sa svojim najvećim uspehom iza sebe, Mirabo je bio tražen. Fransoa Kene, koji 
 Zajedno su formirali jezgro onoga što će postati fiziokratska škola, ojačana redovnim regrutima koje su dovodili. Ubrzo nakon Mirabeauove konverzije, Quesnay ga je angažovao da brani njegove ideje o oporezivanju. To je dovelo do ["Teorije oporezivanja"](https://archive.org/details/thoriedelimpot00mira), zbog koje je Mirabeau bio poslat na nekoliko dana u zatvor Vincennes, a zatim prognan u Bignon.
 
 
-![image](assets/fr/042.webp)
+![image](assets/sr-Latn/042.webp)
 
 
 Mirabeau je takođe igrao ključnu ulogu u regrutovanju novih članova za Quesnayevu školu. Čak je ubedio mladog Duponta de Nemoursa.
@@ -738,7 +738,7 @@ Tokom svog života, Mirabeau je ostao neumoran pisac. Autor je brojnih ekonomski
 François Quesnay je jedan od najpoznatijih francuskih ekonomista.
 
 
-![image](assets/fr/043.webp)
+![image](assets/sr-Latn/043.webp)
 
 
 Njegovo ime se pojavljuje u svakom udžbeniku o ekonomiji i istoriji ekonomske misli. Navodi se da je stvorio "Tableau Économique" kako bi shematski predstavio ekonomiju, da je bio vođa fiziokratske škole, i da je grešio verujući da je samo zemlja produktivna, i na kraju, da je Adam Smit došao da ispravi rekord. Ovako, manje-više, udžbenici obično sumiraju Fransoa Keneja.
@@ -762,7 +762,7 @@ Stekao je slavu 1730. godine, u dobi od 36 godina, zbog protivljenja uobičajeno
 Godine 1740. postao je sekretar Akademije hirurgije. Godine 1748, u dobi od 54 godine, postao je lični lekar Madame de Pompadour i preselio se u Versaj.
 
 
-![image](assets/fr/044.webp)
+![image](assets/sr-Latn/044.webp)
 
 
 Bio je veoma blizak sa Madame de Pompadour. Quesnay je čak rekao, u vreme kada je najavljena nemilost miljenice, da ne bi želeo ostati lekar u Versaju bez nje:
@@ -776,7 +776,7 @@ Zatim je objavio nekoliko medicinskih knjiga: Rasprava o supuraciji (1749), Rasp
 U dobi od 60 godina, nakon što je bio upoznat sa ekonomskim debatama koje su bile moderne u to vreme, počeo je pisati o ekonomiji. Godine 1755. napisao je članke "Poljoprivrednici" i "Žito" za *Enciklopediju*.
 
 
-![image](assets/fr/045.webp)
+![image](assets/sr-Latn/045.webp)
 
 
 Objavljeni su 1757. Te iste godine, upoznao je čuvenog Mirabeaua i uspeo da ga preobrati u svoje ekonomske ideje—srž fiziokratije je rođena. Quesnay je tada kreirao Tableau Économique, koji je štampan na kraljevskim presama, navodno u prisustvu samog kralja u Château de Versailles. Od tog trenutka, redovno je ugostio ekonomiste i filozofe u svom stanu u Versaillesu, gde su slobodno vodili diskusije. Quesnay je takođe doprineo Mirabeauovoj Teoriji oporezivanja, objavljenoj 1759.
@@ -799,7 +799,7 @@ Ipak, njegovi učenici su bili duboko posvećeni i značajno su doprineli Keneov
 Zahvaljujući radu njegovih saradnika, njegove ideje su našle platformu: prvo kroz novine kao što su *Journal of Agriculture* i *Ephémérides du Citoyen*.
 
 
-![image](assets/fr/046.webp)
+![image](assets/sr-Latn/046.webp)
 
 
 Zatim kroz knjige, ne samo one njegovih učenika već i važnu antologiju koju je 1768. objavio Dupont de Nemours, pod nazivom *Fiziokratija*.
@@ -829,7 +829,7 @@ Fiziokratija je postala moderna u Francuskoj, pa čak i širom Evrope, jedva na 
 Njegovo poreklo leži u evoluciji ekonomskih ideja tokom 1750-ih. Nekoliko autora pomoglo je da se premosti jaz između Boisguilberta i onoga što će kasnije postati poznato kao fiziokratija. Kao što je ranije diskutovano, Vincent de Gournay i njegov krug ekonomista stajali su iza mnogih publikacija koje su francuskim čitaocima predstavile stranu ekonomsku misao i pomogle da se rasplamsa njihova strast prema ekonomiji. Osnove fiziokratije već su bile prisutne u knjigama poput "Détail de la France" od Boisguilberta i ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) od Cantillona.
 
 
-![image](assets/fr/047.webp)
+![image](assets/sr-Latn/047.webp)
 
 
 
@@ -844,7 +844,7 @@ Ono što je preostalo bilo je da se ovo telo ideja pretvori u koherentnu, potpun
 Tako je, 1756. godine, mogla početi priča o fiziokratiji. Fransoa Kene, tada hirurg koji je postao lični lekar Madame de Pompadour, pozvao je Miraboa u Versaj da razgovaraju o ekonomskim idejama.
 
 
-![image](assets/fr/048.webp)
+![image](assets/sr-Latn/048.webp)
 
 
 Do kraja njihovog razgovora, Mirabeau se složio sa Quesnayevim idejama. Od tada su pisali: Quesnay je kreirao *Tableau économique* (1758) da ilustruje tok bogatstva u ekonomiji, a zajedno su objavili Teoriju oporezivanja (1759).
@@ -861,7 +861,7 @@ Njihovi napori nisu bili toplo dočekani. Na dvoru, preovlađujuća reakcija bil
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/sr-Latn/049.webp)
 
 
 Prva polovina 1760-ih je tako prošla u relativnoj tišini. Zbog svoje pozicije u Versaju, Kene je bio primoran da prestane da piše, ili barem da ništa ne objavljuje pod svojim imenom. Mirabo, već jednom osuđen, bio je upozoren i dobro je znao da ga kraljev miljenik ne može zauvek štititi.
@@ -871,7 +871,7 @@ Prva polovina 1760-ih je tako prošla u relativnoj tišini. Zbog svoje pozicije 
 Nakon ove kratke tišine, dvojica ekonomista su počela regrutovati učenike: to je bio jedini način da popularizuju svoje ideje. Do 1765. godine, njihovi uspesi su bili zapanjujući. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne i Baudeau brzo su se pridružili njihovim redovima. Formirali su školu: imali su svoj časopis, *Les Éphémérides du Citoyen*, i čak su se sastajali svakog utorka u Mirabeauovom domu.
 
 
-![image](assets/fr/050.webp)
+![image](assets/sr-Latn/050.webp)
 
 
 Između 1765. i 1775. godine, ujedinjena grupa fiziokrata bila je na vrhuncu svoje slave. Književni i filozofski svet imao je oči samo za njih, što je omogućilo da se njihove ideje šire široko i brzo. Ljudi su ih zvali "ekonomistima", ili, podrugljivije, "sektom ekonomista". Bez obzira na ton, njihova notornost bila je apsolutna. Godine 1774, nakon putovanja u Mec, M. de Vaublanc je u svojim memoarima pisao o svom zaprepašćenju: svi oko njega su pričali o ekonomiji i razmišljali kao Keneovi učenici. "Bilo je to moderno", primetio je. "Svi su bili ekonomisti".
@@ -880,7 +880,7 @@ Između 1765. i 1775. godine, ujedinjena grupa fiziokrata bila je na vrhuncu svo
 Međutim, do 1770. godine njihova popularnost je počela da opada. Grupa je doživela prve dezerterstva, a njihova sposobnost da izdrže kritike je oslabila. A kritičara je bilo mnogo, Kondilak, Mabli, Volter, Galijani, Linget, Graslin, pa čak i Adam Smit u Škotskoj, svi su osporavali njihove stavove.
 
 
-![image](assets/fr/051.webp)
+![image](assets/sr-Latn/051.webp)
 
 
 Njihove novine više nisu izlazile redovno. Ovo je označilo kraj najaktivnijeg perioda pokreta.
@@ -899,7 +899,7 @@ Termin Fiziokratija, što znači "vladavina prirode", skovao je Dupont de Nemour
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/sr-Latn/052.webp)
 
 
 Ovo je nejasna fraza. Nijedan Quesnayev učenik nam nije dao njeno pravo značenje. Ipak, njihov sistem mišljenja bio je daleko od nejasnog. Zapravo, bio je izgrađen oko nekoliko vrlo jasnih principa, koje ćemo ovde izložiti.
@@ -917,7 +917,7 @@ Međutim, nepravedno je kritikovati fiziokrate zbog pridavanja nesrazmerne važn
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/sr-Latn/053.webp)
 
 
 Ideja fiziokrata je zapravo suptilna. Prema njima, postoji razlika između proizvodnje i dobitka. Industrijalac i trgovac mogu ostvariti profit, ali samo poljoprivrednik zaista proizvodi, jer proizvodnja je stvaranje korisnog materijala, a ne dodavanje korisnosti već postojećem materijalu.
@@ -932,7 +932,7 @@ Trebalo bi takođe da pokušamo da razumemo zašto su odbacili industriju i zana
 Danas, da bismo nekoga uvredili, kažemo da nije demokrata. Dok istoričari opraštaju fiziokratama njihov strog pogled na poljoprivrednu produktivnost, ne opraštaju im protivljenje demokratiji, posebno jer su živeli u vreme vrhunca prosvetiteljskih ideja. Od sredine 18. veka do neposredno pre Revolucije, fiziokrate su smatrane neprijateljima napretka.
 
 
-![image](assets/fr/054.webp)
+![image](assets/sr-Latn/054.webp)
 
 
 Tocqueville je insistirao na ovoj ideji:
@@ -943,7 +943,7 @@ Tocqueville je insistirao na ovoj ideji:
 Liberalni u ekonomiji, fiziokrati stoga nisu bili liberalni u političkim pitanjima. Kene piše u svojim *maksimama*: "Neka suverena vlast bude jedinstvena i superiorna svim pojedincima društva i svim nepravednim poduhvatima privatnih interesa." I kasnije, u istoj maksimi: "Sistem provere i ravnoteže u vladi je fatalna zamisao, koja samo otkriva neslogu među velikima i ugnjetavanje malih."
 
 
-![image](assets/fr/055.webp)
+![image](assets/sr-Latn/055.webp)
 
 
 Tocqueville je tačno primetio da su fiziokrati odbacili demokratiju čim su videli njene oblike. Bili su skeptični prema demokratiji, što će postati konstanta u francuskoj političkoj ekonomiji, jer demokratija je daleko od savršenog sistema: potencijalno omogućava ugnjetavanje manjina od strane većine, i može postati alat za uzurpaciju, tiraniju i pljačku.
@@ -955,7 +955,7 @@ Tocqueville je tačno primetio da su fiziokrati odbacili demokratiju čim su vid
 Fiziokrati su verovali da ljudi treba da poseduju i zadrže rezultate svog rada. Po njihovom mišljenju, vlasnička prava su bila sam temelj društva. Smatrali su da država ima jedan glavni zadatak: da štiti imovinu ljudi. Štaviše, sa ekonomske tačke gledišta, fiziokrati tvrde da nepovredivost imovine podstiče rad i trud i predstavlja uslov za ekonomski napredak.
 
 
-![image](assets/fr/056.webp)
+![image](assets/sr-Latn/056.webp)
 
 
 Quesnay je to jednostavno rekao:
@@ -973,7 +973,7 @@ U svojim ranije citiranim *Maksimama*, Kene navodi:
 > Neka postoji potpuna sloboda trgovine, jer najpouzdanija, najpreciznija i najkorisnija regulacija kako domaće tako i strane trgovine za naciju i državu leži u punoj slobodi konkurencije.
 
 
-![image](assets/fr/057.webp)
+![image](assets/sr-Latn/057.webp)
 
 
 Fiziokrati su videli štetu koju je izazvala vladina intervencija, posebno u trgovini žitom. Mora se priznati, kažu oni, da vlast nikada neće moći upravljati trgovinom tako dobro kao pojedinci, jer bi morala odgovoriti na svaku potrebu i reagovati na svaku promenu u potražnji ili Supply. Sve ovo je daleko izvan sposobnosti čak i najmudrije vlade koju možemo zamisliti. Stoga je potrebno pustiti stvari da budu i da teku.
@@ -1007,7 +1007,7 @@ Odbrana njihovih ideja, u knjigama, pamfletima i u njihovom časopisu *Les Éph�
 U inostranstvu, uspeh je došao vrlo rano. U Nemačkoj, markgrof od Badena pokazao je interesovanje za fiziokratske ideje i održavao redovnu prepisku sa Mirabeauom i Dupont de Nemoursom.
 
 
-![image](assets/fr/058.webp)
+![image](assets/sr-Latn/058.webp)
 
 
 Zadužio je ekonomistu Johanna Augusta Schlettweina, uverenog fiziokratu, da sprovede poresku reformu i liberalizuje trgovinu žitom. U aprilu 1770. godine, prvi pokušaj je sproveden u malom selu Dietlingen. Činilo se da su seljani entuzijastično prihvatili mere, ali zvaničnici zaduženi za sprovođenje nisu bili veoma podržavajući, što je odložilo širu primenu.
@@ -1016,7 +1016,7 @@ Zadužio je ekonomistu Johanna Augusta Schlettweina, uverenog fiziokratu, da spr
 U Rusiji, Katarina II je pripremala zakonodavnu reformu i zamolila Didroa da joj pošalje briljantan um da joj pomogne.
 
 
-![image](assets/fr/059.webp)
+![image](assets/sr-Latn/059.webp)
 
 
 Impresioniran čitanjem [*Prirodni i suštinski poredak političkih društava*](https://archive.org/details/lordrenaturelete00mercuoft), objavljenog 1767. godine, poslao joj je njegovog autora, fiziokratu Mercier de la Rivière.
@@ -1035,26 +1035,26 @@ U Švedskoj, sa Gustavom III, i u Italiji, sa Leopoldom Toskanskim, fiziokrati s
 U Francuskoj su fiziokrati uživali spektakularan uspeh imenovanjem Turgota za generalnog kontrolora finansija 1774. godine.
 
 
-![image](assets/fr/060.webp)
+![image](assets/sr-Latn/060.webp)
 
 
 Svestan opadanja njihove slave, Turgot se nikada nije predstavio kao lojalan učenik fiziokrata, niti, što se toga tiče, kao enciklopedista, iako je to bio, a budući da su ih članovi sveštenstva prezirali. Jednom na vlasti, Turgot je izdao šest čuvenih edikata koji su predstavljali početak praktične primene fiziokratskog programa: sloboda trgovine, sloboda rada i kraj monopola.
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/sr-Latn/061.webp)
 
 
 Do vremena Francuske revolucije, fiziokrate su imale manje sledbenika. Markiz od Mirabeaua je preminuo 13. jula 1789—pravi simbol. Abeille je krenuo dalje, ali Dupont de Nemours je ostao veran. Imenovan u Skupštinu, Dupont de Nemours je prenosio glas fiziokratije i pozivao na ekonomske reforme u korist imovine Ownership i slobodne trgovine.
 
 
-![image](assets/fr/062.webp)
+![image](assets/sr-Latn/062.webp)
 
 
 On se takođe borio, bezuspešno, protiv asignata. Uprkos ovom neuspehu, fiziokratska misao ostala je veoma prisutna u intelektualnoj debati i uticala je na rane uspehe Revolucije. Kao što je rekao Joseph Rambaud, sve što je Revolucija učinila u korist sloboda bilo je zahvaljujući fiziokratama.
 
 
-![image](assets/fr/063.webp)
+![image](assets/sr-Latn/063.webp)
 
 
 
@@ -1081,7 +1081,7 @@ U Sjedinjenim Američkim Državama, poznati smo sa kompanijom DuPont, takođe po
 
 
 
-![image](assets/fr/064.webp)
+![image](assets/sr-Latn/064.webp)
 
 
 Danas ima prodaju od preko $35,000 milijardi i zapošljava skoro 65,000 ljudi širom sveta. Ispostavlja se da je ova kompanija usko povezana sa sudbinom Samuela-Pierrea Duponta de Nemoursa, francuskog ekonomiste fiziokratske škole.
@@ -1095,7 +1095,7 @@ Rođen 1739. godine, Dupont de Nemours se približio fiziokratama u dobi od 24 g
 
 
 
-![image](assets/fr/065.webp)
+![image](assets/sr-Latn/065.webp)
 
 
 Radoznao je počeo da čita Mirabeauovo delo, *Prijatelj naroda* i *Teorija oporezivanja*. Upoznao je Mirabeaua i Françoisa Quesnaya, a zatim se pridružio njihovoj školi.
@@ -1116,7 +1116,7 @@ Postojala su dva razloga za to: Mirabeau i Quesnay su morali ostati tihi, a Dupo
 Dupont de Nemours je uvek zadržao svoje visoko poštovanje prema Quesnay-u.
 
 
-![image](assets/fr/066.webp)
+![image](assets/sr-Latn/066.webp)
 
 
 Kasnije bi rekao: "Bio sam samo dečak kada je Kene pružio ruke prema meni—učinio me je čovekom." Kene je bio taj koji ga je učinio glavnim ekonomistom na književnoj sceni tog vremena.
@@ -1131,7 +1131,7 @@ On je ovu periodičnu zbirku učinio glavnim centrom za ekonomsku teoriju, podr�
 
 
 
-![image](assets/fr/067.webp)
+![image](assets/sr-Latn/067.webp)
 
 
 Kada je Turgot nakratko služio kao ministar finansija Francuske, Dupont je postao njegov blizak savetnik, jedini fiziokrat koji je imao pristup njemu, jer se Turgot držao na distanci od ostalih.
@@ -1146,7 +1146,7 @@ U vreme Revolucije, bio je izabran iz okruga Nemours i našao se u Skupštini, g
 Tokom Revolucije, u avgustu 1792, uzeo je oružje da brani Kralja u Palati Tuileries protiv gomile.
 
 
-![image](assets/fr/068.webp)
+![image](assets/sr-Latn/068.webp)
 
 
 Kralj mu je rekao: "Monsieur Dupont, uvek vas nalazimo tamo gde ste potrebni!" Nakon što je čudom izbegao Teror, osuđen i čekajući giljotinu, ali spašen padom Robespjera, bio je gurnut u izgnanstvo pod Napoleonom i pronašao sreću u Sjedinjenim Državama, gde je jedan od njegovih sinova, uz očevu pomoć, osnovao kompaniju Dupont.
@@ -1175,7 +1175,7 @@ U 18. veku u Francuskoj došlo je do pojave ekonomije kao nauke i prve škole ek
 
 
 
-![image](assets/fr/069.webp)
+![image](assets/sr-Latn/069.webp)
 
 
 Najpoznatije dostignuće filozofije prosvetiteljstva je bez sumnje *Encyclopédie* od Diderota i d'Alemberta.
@@ -1191,7 +1191,7 @@ Prirodno, ekonomske članke su pisali ekonomisti. Za rane tomove, Diderot se obr
 U mnogim drugim člancima *Encyclopédie*, filozofi, posebno Diderot, brane ideal slobode u svim oblastima: religiji, politici i ekonomiji.
 
 
-![image](assets/fr/070.webp)
+![image](assets/sr-Latn/070.webp)
 
 
 Sloboda rada, posebno u suprotnosti sa cehovskim sistemom, bila je ponavljajuća tema u raznim unosima kao što su Umetnosti, Zanati i Zajednica.
@@ -1201,7 +1201,7 @@ Diderotov put u ekonomskoj teoriji je znatiželjan. U Encyclopédie, bio je čvr
 
 
 
-![image](assets/fr/071.webp)
+![image](assets/sr-Latn/071.webp)
 
 
 
@@ -1212,13 +1212,13 @@ Ova knjiga postala bi najžešći napad ikada napravljen protiv fiziokratskih id
 
 > "Nekada si imao prijateljstvo za mene; sada ga više nemaš, jer si toliko zauzet da više nemaš vremena da voliš ikoga".
 
-![image](assets/fr/072.webp)
+![image](assets/sr-Latn/072.webp)
 
 
 Voltaire je sledio sličan put, obeležen nedostatkom doslednosti u svojim ekonomskim stavovima. Divio se Vincentu de Gournayu, dopisivao se sa ekonomistima (uključujući Duponta de Nemoursa i Turgota), i cenio fiziokrate - posebno zbog njihovih pohvala poljoprivredi. Hvalio ih je u *Dijatribi autoru Efemerida*. Međutim, kasnije je kritikovao njihovu ideju o jedinstvenom porezu na zemlju u svom satiričnom delu *Čovek sa četrdeset kruna*, koje je takođe izazvalo značajnu kontroverzu. Na kraju, poput Diderota, slavio je Turgotovo ministarstvo, nazivajući ga zlatnim dobom i hvaleći njegova dva velika dekreta o slobodi rada i slobodnoj trgovini.
 
 
-![image](assets/fr/073.webp)
+![image](assets/sr-Latn/073.webp)
 
 
 Na kraju, odnos filozofa prema ekonomskoj misli je mešovit. Uprkos njihovim pohvalama i kritikama liberalnih ekonomskih ideja, oni su igrali ulogu u unošenju ovih ideja u širi intelektualni diskurs prosvetiteljstva. Na ovaj način, bilo namerno ili ne, pomogli su u napredovanju ideje laissez-faire sve do Revolucije.
@@ -1240,7 +1240,7 @@ U poznatom odlomku iz svoje *History of Economic Thought*, američki ekonomista 
 predstavljajući ga kao najvećeg ekonomistu 18. veka, zajedno sa Kantijonom.
 
 
-![image](assets/fr/074.webp)
+![image](assets/sr-Latn/074.webp)
 
 
 Kako je Turgot postao tako istaknut? To se svodilo na kombinaciju tri ključna faktora. **Prvo**, njegovo prestižno porodično poreklo. Poticao je iz duge loze kraljevskih administratora, od kojih su mnogi zauzimali visoke položaje u vladi. **Drugo**, zlatno doba u kojem je rođen i odrastao. Turgot je imao 21 godinu kada je Montesquieu objavio *L'Esprit des Lois*, i 24 kada se pojavio prvi tom *Encyclopédie*.
@@ -1267,7 +1267,7 @@ Tokom ovih ranih godina, bio je pod mentorstvom Vincenta de Gournaya, koji ga je
 
 
 
-![image](assets/fr/075.webp)
+![image](assets/sr-Latn/075.webp)
 
 
 Godine 1767, dok je bio intendant, sastavio je kompendijum ekonomije pod naslovom *Refleksije o formiranju i distribuciji bogatstva*.
@@ -1279,7 +1279,7 @@ Godine 1767, dok je bio intendant, sastavio je kompendijum ekonomije pod naslovo
 Podela rada, suverenitet potrošača, privatna svojina, uloga kapitala, praktično sve glavne ekonomske teme su obrađene. Mnogi istoričari, od kojih je najnovija istoričarka Anne-Claire Hoyng, ukazali su na sličnosti između ovog dela Turgota i *Bogatstva naroda* Adama Smitha, objavljenog devet godina kasnije.
 
 
-![image](assets/fr/076.webp)
+![image](assets/sr-Latn/076.webp)
 
 
 Turgot je branio slobodu trgovine žitom u pismima upućenim opatu Terrayu, koja su kasnije preneta kralju, ali je polovina tih pisama sada izgubljena. Napisao je:
@@ -1300,7 +1300,7 @@ Godine 1770, mnogo pre Bentama, Turgot je napisao memorandum zagovarajući slobo
 
 
 
-![image](assets/fr/077.webp)
+![image](assets/sr-Latn/077.webp)
 
 
 "Greška je verovati da kamatu na novac u trgovini treba da određuju zakoni prinčeva", kaže on, "To je trenutna cena koja se sama reguliše, kao i cena sve druge robe". U odbranu ove pozicije, on pobija protivljenje Aristotela i crkvenih otaca.
@@ -1318,7 +1318,7 @@ Ovde nalazimo veoma jasno izlaganje doktrine laissez-faire, kao i nagoveštaj an
 
 
 
-![image](assets/fr/078.webp)
+![image](assets/sr-Latn/078.webp)
 
 
 ## Turgot, reformator
@@ -1331,7 +1331,7 @@ Kao što smo ukratko pomenuli u prethodnom poglavlju, Turgot je bio sin ugledne 
 
 
 
-![image](assets/fr/079.webp)
+![image](assets/sr-Latn/079.webp)
 
 
 Njegov otac je bio provost trgovaca Pariza, a deda intendant. Nakon što je briljirao u studijama, najmlađi član porodice Turgot je imao za cilj da dostigne bar iste visine. Prvo je služio neko vreme kao maître des requêtes, što znači da je bio veza između intendanata i Versaja. To je bila prestižna pozicija, za koju je morao da dobije posebno izuzeće zbog godina, ali Turgot je težio ka višem. Smrt njegovog mentora, Gournaya, dodatno ga je podstakla da cilja više, te je zatražio imenovanje za intendanta.
@@ -1346,7 +1346,7 @@ U Limuzenu, seljaci su bili siromašni i živeli su u nesigurnim uslovima, poseb
 
 
 
-![image](assets/fr/080.webp)
+![image](assets/sr-Latn/080.webp)
 
 
 Zbog toga što je region bio toliko siromašan, ministrima nije bio od interesa. To je Turgotu dalo slobodu da eksperimentiše sa reformama. U Limuzenu, on je sproveo tri glavna projekta:
@@ -1358,7 +1358,7 @@ Zbog toga što je region bio toliko siromašan, ministrima nije bio od interesa.
 - Regrutovanje **milicija**, seljačkih vojski mobilisanih tokom ratnih vremena.
 
 
-![image](assets/fr/081.webp)
+![image](assets/sr-Latn/081.webp)
 
 
 Ovo je urađeno izvlačenjem žrebova, što je dovelo do straha i nasilja zbog bekstva; Turgot je zamenio ove obavezne namete plaćenim dobrovoljcima.
@@ -1374,7 +1374,7 @@ Samo mesec dana kasnije, međutim, Turgot je imenovan za generalnog kontrolora f
 Znamo za pismo u kojem je izložio svoje principe Luju XVI: "Nema bankrota. Nema povećanja poreza. Nema novih zajmova". Ova filozofija, koju bi kritičari danas mogli označiti kao besmislenu "strogoću", bila je namenjena spašavanju monarhije.
 
 
-![image](assets/fr/082.webp)
+![image](assets/sr-Latn/082.webp)
 
 
 Turgot je pripremio šest kraljevskih edikta za reformu francuske ekonomije.
@@ -1391,7 +1391,7 @@ Po ulasku u ministarstvo, Turgot je znao da će se suočiti sa otporom privilego
 
 > Ah! Kakve strašne vesti sam čuo! Šta će biti s nama? Očajan sam! Nikada se nećemo oporaviti od svedočenja rađanju i smrti zlatnog doba! Ova munja je pogodila i moj um i moje srce.
 
-![image](assets/fr/083.webp)
+![image](assets/sr-Latn/083.webp)
 
 
 Od tada, mnogi su tvrdili da je Francuska zemlja koju je nemoguće reformisati. Turgotov neuspeh kao da je to potvrdio: bio je pripremljen sa pola veka liberalne ekonomske misli; imao je podršku prosvetiteljskih filozofa; a sam Kralj, sa apsolutnom moći, podržavao ga je.
@@ -1411,7 +1411,7 @@ Na kraju su parlaments i privilegovane klase pobedile. Sve što je Kralj mogao d
 Baš kao merkantilizam, koji je njegova najočiglednija praktična manifestacija, Montenjov sofizam je dugo vremena nestajao.
 
 
-![image](assets/fr/084.webp)
+![image](assets/sr-Latn/084.webp)
 
 
 Ta sofistika je ideja da su trgovina i Exchange igre sa nultim zbirom. Šta god jedna strana dobije u transakciji, nužno je izgubljeno od strane druge strane. Njeni pristalice tvrde da ovo važi kako između pojedinaca, tako i između nacija.
@@ -1429,7 +1429,7 @@ Opat Condillac je odigrao ključnu ulogu u konačnom razbijanju ove pogrešne id
 Za većinu istoričara ekonomske misli, godina 1776. je obeležena objavljivanjem *Bogatstva naroda*, koje je utemeljilo ekonomsku nauku. Petnaest lekcija koje smo upravo završili, u kojima smo proučavali francusku ekonomsku nauku pre Adama Smita, dovoljne su da dokažu grešku ove koncepcije. U istoj toj godini 1776, štaviše, možda još jedna knjiga zaslužuje više pohvala od istoričara nego knjiga Adama Smita: napisao ju je Kondijak i jednostavno je naslovljena [*Trgovina i vlada razmatrani u njihovom međusobnom odnosu*](https://archive.org/details/commercegovernme0000cond).
 
 
-![image](assets/fr/085.webp)
+![image](assets/sr-Latn/085.webp)
 
 
 Za Kondijaka, ako sofizam Exchange posmatran kao igra sa nultim zbirom opstaje, fiziokrati su delimično krivi, jer tvrde da je Exchange odnos jednakosti. Prema Kondijaku, ovo je netačno: Exchange je nejednak odnos, gde se uvek daje manje da bi se dobilo više.
@@ -1466,7 +1466,7 @@ Da sumiramo Kondiljakovu teoriju, mogu se navesti tri tvrdnje:
 Prva tvrdnja: tražimo dobra zbog njihove korisnosti. Ovo izgleda očigledno, ali je centralna teza ekonomske nauke da ljudi Exchange da stiču korisnosti, što je tačka koju je Žan-Batist Se takođe savršeno razvio.
 
 
-![image](assets/fr/086.webp)
+![image](assets/sr-Latn/086.webp)
 
 
 Druga tvrdnja: vrednost prethodi i motiviše razmene. Subjektivna procena koju svaka osoba donosi o robi i uslugama implicira da ta ista roba i usluge imaju vrednost za njih, vrednu više ili manje u zavisnosti od korisnosti koju izgleda pružaju. Naravno, svaki pojedinac procenjuje drugačije od drugog, i vrednost varira od osobe do osobe.
@@ -1491,7 +1491,7 @@ Condorcet je nesumnjivo ekonomski najusmereniji filozof prosvetiteljstva.
 
 
 
-![image](assets/fr/087.webp)
+![image](assets/sr-Latn/087.webp)
 
 
 Veći deo svoje karijere posvetio se oblastima potpuno nepovezanim sa ekonomijom, i s pravom, jer su njegovi talenti doveli do velikog napretka u naukama na koje se najviše fokusirao. Ali oko 1770. godine, osetio je privlačnost prema ekonomskim pitanjima, možda zato što se drugi filozofi, posebno Volter i Didero, nisu trudili da im posvete svoje slobodno vreme, a takođe i zato što se sprijateljio sa Turgoom.
@@ -1506,7 +1506,7 @@ Bio je tako spreman da brani slobodu kada je njegov prijatelj Turgot došao na p
 
 
 
-![image](assets/fr/088.webp)
+![image](assets/sr-Latn/088.webp)
 
 
 Od tada, Condorcetova karijera je krenula drugim putem kada je ušao u ekonomsku debatu, neumorno podržavajući liberalne reforme novog ministra. Zalažući se za konkurenciju i slobodu trgovine, Condorcet je takođe pozivao na ukidanje korveja (prisilnog rada), cehova i na pravično oporezivanje. Svoja uverenja je javno iznosio kad god bi se ukazala prilika, čineći to s očiglednim entuzijazmom; mnogo je pisao i jednom je u svojim spisima izjavio: "Dozvolite mi da ponovo govorim o slobodi trgovine; uživam u bavljenju ovom temom."
@@ -1518,7 +1518,7 @@ Između 1774. i 1776. godine, tokom Turgotovog ministarstva, Kondorse je napravi
 U svojim [*Pismima o trgovini žitom*](https://archive.org/details/bub_gb_hg8jFw-y6bwC), Kondorse iznosi nekoliko ključnih tačaka.
 
 
-![image](assets/fr/089.webp)
+![image](assets/sr-Latn/089.webp)
 
 
 Prvo, visoke cene žitarica u to vreme nisu bile rezultat slobodne trgovine, već loših žetvi, što Kondorse jasno pokazuje. Zatim objašnjava zašto je laissez-faire ne samo prikladna, već i jedina odgovarajuća politika, uprkos popularnim predrasudama. On primećuje: "Toliko smo navikli da vidimo kako vlada interveniše u trgovini žitaricama da nam nečinjenje deluje kao nešto izvanredno i novo". Kasnije dodaje: "Gotovo svi, posebno oni na javnim funkcijama, veruju da se ništa ne dešava samo od sebe i da je sve izgubljeno ako vlada ne interveniše u svemu". Kondorse tako oživljava argumente fiziokrata i Turgota, pokazujući superiornost slobodne trgovine nad svim oblicima intervencionizma.
@@ -1549,7 +1549,7 @@ Dupont de Nemours je bio najmlađi učenik Françoisa Quesnaya, koji je jednom r
 Dupont de Nemours je napisao spisak žalbi za okrug Nemours.
 
 
-![image](assets/fr/090.webp)
+![image](assets/sr-Latn/090.webp)
 
 
 Ovaj fascinantni dokument sadržao je sve pritužbe liberalnih ekonomista protiv trgovinskih ograničenja, monopola i napada na imovinu. Dupont de Nemours je takođe izabran u Nacionalnu skupštinu.
@@ -1564,7 +1564,7 @@ Još u novembru 1789. godine, kada se govorilo o davanju monopola Caisse d'Escom
 
 
 
-![image](assets/fr/091.webp)
+![image](assets/sr-Latn/091.webp)
 
 
 „Bilo bi bolje“, kaže on, „ostaviti bankarski posao zakonima slobodne trgovine“. I dodaje:
@@ -1586,7 +1586,7 @@ Dupont de Nemours se čvrsto protivio tome i objavio je pamflet pod naslovom [*E
 
 
 
-![image](assets/fr/092.webp)
+![image](assets/sr-Latn/092.webp)
 
 
 Potpisao je pamflet kao "prijatelj naroda". Tekst je izazvao pravu pometnju, jer je Skupština bila upitana ko ga je napisao. Dupont de Nemours je tada ustao i priznao da je to njegovo delo, rekavši da se ne stidi koristiti naslov "prijatelj naroda" jer borba protiv asignata zaista znači služiti narodu.
@@ -1595,7 +1595,7 @@ Još jednom, njegov savet je ignorisan, i asignati su izdati.
 
 
 
-![image](assets/fr/093.webp)
+![image](assets/sr-Latn/093.webp)
 
 
 Svi znamo za katastrofu koja je usledila, ekonomsku propast i patnju koju su ljudi pretrpeli, od kojih su mnogi izgubili sve kada su asignati postali bezvredni i morali su biti spaljeni.
@@ -1627,7 +1627,7 @@ Boisguilbert tvrdi da dobronamerni ljudi koji veruju da mogu sve popraviti uklju
 
 
 
-![image](assets/fr/094.webp)
+![image](assets/sr-Latn/094.webp)
 
 
 Cantillon je insistirao da novac nikada ne treba manipulisati u političke svrhe. Dozvoliti Državi da upravlja novcem kako joj odgovara znači otvoriti put ka ogromnom finansijskom i ekonomskom neredu.
@@ -1648,7 +1648,7 @@ Markiz d'Arženson tvrdi da nijedna vlada nije sposobna da predvidi i izmeri sve
 
 
 
-![image](assets/fr/095.webp)
+![image](assets/sr-Latn/095.webp)
 
 
 Quesnay i fiziokrati tvrde da je privatna svojina temelj ljudskih društava. Bez privatne svojine, čovek gubi motivaciju da se trudi, da radi, jer ne može uživati u plodovima svog rada niti akumulirati bilo šta.

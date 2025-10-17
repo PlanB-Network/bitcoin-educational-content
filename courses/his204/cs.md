@@ -88,7 +88,7 @@ Jste připraveni znovu objevit francouzské kořeny ekonomického liberalismu? P
 Na počátku 18. století se Francie nacházela ve znepokojivém stavu. Venkovské obyvatelstvo sotva vydělávalo na živobytí a bylo zatíženo vysokými daněmi.
 
 
-![image](assets/fr/001.webp)
+![image](assets/cs/001.webp)
 
 
 
@@ -98,7 +98,7 @@ Městští řemeslníci, kteří byli uzavřeni do pevných cechů, se snažili 
 Ale jak bychom mohli najít řešení nemoci této doby? Dosud neexistovala žádná ekonomická věda, a tudíž ani speciální medicína, kterou by bylo možné použít. Zásady hospodářské politiky se stále uplatňovaly nahodile, střídaly se restriktivní fáze s liberálnějšími obdobími. Jistě, máme vzory, historické odkazy, podle kterých se můžeme řídit. Patřil k nim *Sully*, ministr Henricha IV, který se zasazoval o zemědělství a prosazoval větší svobodu obchodu v rámci Francie.
 
 
-![image](assets/fr/002.webp)
+![image](assets/cs/002.webp)
 
 
 
@@ -107,7 +107,7 @@ Ale jak bychom mohli najít řešení nemoci této doby? Dosud neexistovala žá
 Pak ale přišel Colbert, ministr Ludvíka XIV., který váhal mezi regulací a svobodou, ale nakonec regulaci prosadil. Na samém konci 17. století Colbert Sullyho předstihl: ministři se nyní odvolávali na jeho odkaz a snažili se uplatňovat to, co prohlašovali za jeho zásady.
 
 
-![image](assets/fr/003.webp)
+![image](assets/cs/003.webp)
 
 
 V myslích státníků na konci 17. století byly Colbertovy maximy čtyři.
@@ -118,7 +118,7 @@ V myslích státníků na konci 17. století byly Colbertovy maximy čtyři.
 Existovaly stovky takových předpisů, které byly sepsány ve zvláštních svazcích pro jednotlivé druhy průmyslu. V očích Colbertových stoupenců to však stále nestačilo: průmysl podle nich potřeboval také dohled korporací.
 
 
-![image](assets/fr/004.webp)
+![image](assets/cs/004.webp)
 
 
 Každý, kdo chtěl vykonávat řemeslo, musel nejprve strávit několik let jako učeň, poté jako tovaryš a teprve poté se pokusil získat status mistra vytvořením "mistrovského díla" a zaplacením značné částky cechu. Konkurence v rámci jednotlivých řemesel byla proto přísně omezena.
@@ -128,7 +128,7 @@ Každý, kdo chtěl vykonávat řemeslo, musel nejprve strávit několik let jak
 (2) **Obchod je hra s nulovým součtem**. Pokud jde o obchod, sdíleli Colbertovi žáci stejné předsudky jako barbarští lidé ve starověku. Podle ministra Ludvíka XIV. je obchod "věčná válka". Proč? Důvod je prostý: pro Colberta a jeho nástupce znamenalo jakékoli zvýšení bohatství jedné země zchudnutí jiné. Podle jejich názoru nebylo možné dovolit Angličanům nebo Nizozemcům zbohatnout, protože by to znamenalo, že kradou Francii její prosperitu.
 
 
-![image](assets/fr/005.webp)
+![image](assets/cs/005.webp)
 
 
 Výrobky těchto zemí proto musely být bez skrupulí zakázány nebo silně zdaněny, protože obchod je válka, v níž si můžeme přát jen zkázu našich nepřátel.
@@ -140,13 +140,13 @@ Výrobky těchto zemí proto musely být bez skrupulí zakázány nebo silně zd
 (3) **Když stát nemá peníze, zvyšte daně**. Colbert a jeho stoupenci zdaleka nevěřili, že bohatství daňových poplatníků je omezeným zdrojem. Podle jejich názoru nemohly být veřejné výdaje nikdy problémem, pokud se jich vybere dostatek. A pokud se lidé bouřili, bylo to jen proto, že to ministři dělali špatně, protože, jak Colbert cynicky poznamenal, "umění zdanění spočívá v tom, oškubat husy, aniž by příliš křičely".
 
 
-![image](assets/fr/006.webp)
+![image](assets/cs/006.webp)
 
 
 (4) **Bohatství je především zlato a stříbro**. Před vznikem ekonomické vědy se mnoho autorů řídilo jedním dominantním dogmatem o povaze bohatství, které se stalo známým jako *merkantilizmus*. Colbert a jeho následovníci v této cestě pokračovali. Stručně řečeno, merkantilisté věřili, že pravým znakem prosperity národa je hromadění drahých kovů, stříbra a zlata.
 
 
-![image](assets/fr/007.webp)
+![image](assets/cs/007.webp)
 
 
 
@@ -171,7 +171,7 @@ Dnes, kdy daňový tlak v naší zemi stále roste a hrozí, že zadusí národn
 Chronologicky i z hlediska zásluh je prvním z těchto daňových reformátorů velký maršál Sébastien Le Prestre Vauban, slavný stavitel pevností a citadel.
 
 
-![image](assets/fr/008.webp)
+![image](assets/cs/008.webp)
 
 
 
@@ -180,19 +180,19 @@ Chronologicky i z hlediska zásluh je prvním z těchto daňových reformátorů
 Ačkoli jsme na to bohužel zapomněli, Vauban byl víc než jen voják, byl také ekonom. Zajímal se o osud rolníků, v roce 1695 navrhl odvážnou daňovou reformu (Projet de capitation - "Projekt kapitace") a v roce 1707 znovu (Projet d'une Dime Royale - "Královský desátek"): nahradit většinu stávajících daní daní úměrnou příjmům, rovnou daní předcházející své době.
 
 
-![image](assets/fr/009.webp)
+![image](assets/cs/009.webp)
 
 
 Vauban k těmto myšlenkám dospěl díky své zvědavosti. Byl vášnivým pozorovatelem, který se snažil důsledně, téměř vědecky studovat společenský život a hospodářskou realitu. Trval zejména na potřebě sčítání lidu prostřednictvím soupisů.
 
 
-![image](assets/fr/010.webp)
+![image](assets/cs/010.webp)
 
 
 Jeho druhou velkou zásluhou byl dojemný a upřímný popis bídy, kterou prožívaly masy. Napsal: "Nenechme se oklamat, srdce království je v troskách. Všechno trpí, všechno snáší, všechno sténá. Stačí se podívat a prozkoumat srdce provincií, co zjistíte, je ještě horší než to, co říkám". Vaubanova chmurná pozorování měla daleko k nadsázce a byla přesným odrazem života na počátku 18. století. Alexis de Tocqueville si byl těchto myšlenek dobře vědom a později Vaubanův *Královský desátek* označil za "děsivý", protože byl pravdivý.
 
 
-![image](assets/fr/011.webp)
+![image](assets/cs/011.webp)
 
 
 Další Vaubanovou velkou zásluhou jako ekonoma bylo, že navrhl rozsáhlou daňovou reformu, jejímž cílem bylo vymýtit nebo alespoň snížit intenzitu zla, které pozoroval a popsal. Udělal to správně; francouzské hospodářství za Ancien Régime bylo paralyzováno daněmi, které byly nerovné, nestabilní a nečitelné.
@@ -235,7 +235,7 @@ Krátce před jeho smrtí přijali Vaubanovu myšlenku ministři Ludvíka XIV. V
 Jen málo francouzských ekonomů minulosti se dnes ve své vlasti těší uznání, které odpovídá jejich přínosu, a Boisguilbert není výjimkou.
 
 
-![image](assets/fr/012.webp)
+![image](assets/cs/012.webp)
 
 
 Boisguilbert, nedoceněný tehdejšími čtenáři a vzdálený mocenským kruhům kvůli své výstřední povaze a ohromující vášni, zanechal v 18. století jen malou stopu. Přesto na počátku minulého století dochází k pomalému znovuobjevování jeho díla.
@@ -248,7 +248,7 @@ Toto znovuobjevení však ukazuje, že se dostáváme do jakési slepé uličky.
 (Pierre Le Pesant de) Boisguilbert se narodil v Rouenu v roce 1646. Boisguilbert získal vzdělání na pařížské univerzitě Port-Royal a začal neúspěšnou literární kariéru, než se ujal různých funkcí, včetně funkce generálního poručíka v Rouenu. V této době napsal několik knih, v nichž obhajoval své myšlenky, mimo jiné "Détail de la France" z roku 1695, kterou následujícího roku vydal znovu pod mnohem jednoznačnějším názvem: [*Francie zničená za vlády Ludvíka XIV., kým a jak, s prostředky k její obnově](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
-![image](assets/fr/013.webp)
+![image](assets/cs/013.webp)
 
 
 
@@ -274,7 +274,7 @@ Za prvé, lidé si již nemohli dovolit spotřebovávat základní potřeby kvů
 Druhým důvodem francouzské bídy je, že volnému obchodu se zbožím, zejména zemědělským, bránilo příliš mnoho překážek. Na hranicích a dokonce i uvnitř země, mezi jednotlivými regiony, existovala cla, která ochromovala veškerý obchod. Tato omezení bránila stanovení rovnovážné ceny a omezovala možnosti trhu. V důsledku toho se rolníci nemohli uživit ze své produkce, protože nebyli schopni prodávat se ziskem a trpěli nevýnosnými cenami zemědělských produktů, což je problém, který je dodnes velmi aktuální a který je jádrem Boisguilbertovy teorie. V otázce omezení obchodu se Boisguilbert zasazoval o uvolnění cest, jinými slovy o zavedení volného obchodu.
 
 
-![image](assets/fr/014.webp)
+![image](assets/cs/014.webp)
 
 
 A svoboda je skutečně jeho konečným závěrem. "Nejde o to, abychom jednali," říká, "ale abychom prostě přestali jednat tak, jak násilně jednáme proti přírodě, která vždy směřuje ke svobodě a dokonalosti." Všechno bude v pořádku, opakuje neúnavně, "pokud necháme přírodu jít svým směrem, to znamená, že jí dáme svobodu, a že do tohoto obchodu nebude nikdo zasahovat, kromě toho, že všem nabídne ochranu a zabrání násilí".
@@ -295,13 +295,13 @@ Boisguilbert dokonce kritizoval "dobré duše", jak je nazýval, ty, kteří to 
 Richard Cantillon, autor "Esej o povaze obchodu obecně" (napsané kolem roku 1730, vydané v roce 1755), je považován za jednoho z průkopníků moderní ekonomické vědy. Ekonom Murray Rothbard ve svých Dějinách ekonomického myšlení dokonce označuje Cantillona za zakladatele moderní ekonomie.
 
 
-![image](assets/fr/015.webp)
+![image](assets/cs/015.webp)
 
 
 Richard Cantillon se narodil v Irsku, v mládí se usadil v Paříži a získal francouzské občanství. Pracoval jako bankéř a v době vlády Johna Lawa zbohatl.
 
 
-![image](assets/fr/016.webp)
+![image](assets/cs/016.webp)
 
 
 Při této příležitosti začal studovat ekonomickou teorii. Kolem roku 1730 Cantillon napsal Esej o povaze obchodu obecně.
@@ -331,7 +331,7 @@ Třetí bod, **měna**.
 V reakci na zkušenost Johna Lawa Cantillon vysvětluje, co se stane nebo musí stát, když měna nemá skutečnou hodnotu.
 
 
-![image](assets/fr/017.webp)
+![image](assets/cs/017.webp)
 
 
 Vidí dva hlavní důsledky nahrazení měny bez reálné hodnoty, jako jsou papírové peníze, kovovými penězi. Prvním důsledkem je to, co nazývá "lidovým odmítáním", což znamená rostoucí nedůvěru k bezcenným penězům. Druhým důsledkem je inflace: oslabení měny zdražuje zboží.
@@ -364,13 +364,13 @@ Touto teorií o účincích inflace nám Cantillon poskytuje odpovědi na řadu 
 Ze všech autorů, které jsme se rozhodli zařadit do panteonu francouzských laissez-faire myslitelů 18. století, je opat ze Saint-Pierre bezpochyby nejvíce přehlíženým.
 
 
-![image](assets/fr/018.webp)
+![image](assets/cs/018.webp)
 
 
 Abychom byli spravedliví, je to částečně i jeho chyba. Napsal toho hodně, ale jeho styl je Hard na čtení a je plný opakování. O shrnutí jeho díla se pokoušel i Jean-Jacques Rousseau: začal s tím, ale brzy od tohoto úkolu upustil, protože zjistil, že je to nad jeho síly. V polovině 19. století ho Gustave de Molinari poctil vydáním obsáhlého díla o něm, v němž vzdal hold pacifistovi a ekonomovi, jímž opat ze Saint-Pierre byl. Ani to však nestačilo k tomu, aby ho vyvedlo ze zapomnění, v němž zůstává dodnes.
 
 
-![image](assets/fr/019.webp)
+![image](assets/cs/019.webp)
 
 
 
@@ -379,7 +379,7 @@ Abychom byli spravedliví, je to částečně i jeho chyba. Napsal toho hodně, 
 Opat ze Saint-Pierre psal o ekonomii, ale obvykle je zajímavý spíše jako pacifista. Je autorem Projektu věčného míru, který předchází známému Projektu Emmanuela Kanta.
 
 
-![image](assets/fr/020.webp)
+![image](assets/cs/020.webp)
 
 
 V tomto díle tvrdil, že válka je destruktivní nejen pro ty, kteří ji prohrají, ale i pro vítěze, a dokonce i pro ty, kteří se jich neúčastní, protože je ovlivněn jejich obchod.
@@ -391,7 +391,7 @@ V boji proti válečným pohromám doporučil vytvořit jakousi Evropskou ligu n
 Existuje také epizoda ze života opata ze Saint-Pierre, která dokonale ilustruje kritické myšlení francouzského hnutí laissez-faire. V roce 1695 vstoupil do Francouzské akademie, ale v roce 1718 byl vyloučen za to, že se odvážil kritizovat vládu Ludvíka XIV. Tím se zařadil po bok osobností, jako byli Vauban a Boisguilbert, kteří se rovněž odvážili vystoupit proti mystifikaci skryté pod leskem vlády Krále Slunce.
 
 
-![image](assets/fr/021.webp)
+![image](assets/cs/021.webp)
 
 
 Opat ze Saint-Pierre tvrdil, že vláda Ludvíka XIV. s jeho přepychovým dvorem a posedlostí vojenskými výboji nebyla znakem ctnostného krále. Odmítal uznat, že si Ludvík XIV. zaslouží titul "**Luis Veliký**".
@@ -403,7 +403,7 @@ Opat ze Saint-Pierre tvrdil, že vláda Ludvíka XIV. s jeho přepychovým dvore
 "Zničit své sousedy a zároveň svůj národ není velikost," řekl. Tento postoj hluboce urazil Francouzskou akademii, která se dlouho zabývala oslavou krále ve všech možných literárních formách. V důsledku toho téměř jednomyslně odhlasovala jeho vyloučení.
 
 
-![image](assets/fr/022.webp)
+![image](assets/cs/022.webp)
 
 
 V ekonomickém myšlení důsledně uplatňoval princip užitečnosti, podobně jako později Jeremy Bentham, a často nabízel rozumné postřehy. Abychom byli spravedliví, byl stále ovlivněn merkantilistickými myšlenkami, kterých se v té době nikdo zcela nezbavil.
@@ -414,7 +414,7 @@ Přesto opat ze Saint-Pierre učinil několik přesných poznámek o ekonomice. 
 
 > "Při prodeji mezi obchodníky získává prodávající i kupující, neboť kdyby na obou stranách neexistoval nějaký skutečný nebo domnělý prospěch, ani prodávající by neprodával za takovou a takovou cenu, ani kupující by za takovou cenu nekupoval."
 
-![image](assets/fr/023.webp)
+![image](assets/cs/023.webp)
 
 
 Dříve než Vincent de Gournay také zdůrazňoval hodnotu práce a důležitost její atraktivity. "Každá práce je těžká," napsal. "A když člověk vidí, že se mu za práci nic nevyplácí nebo že je to málo, začne být nečinný a nebude se obtěžovat zbytečnou námahou". Právě tento argument později opakovali markýz d'Argenson, Vincent de Gournay a fyziokraté, když kritizovali zatěžující předpisy a cechovní systémy. Tvrdili, že taková omezení odrazují dělníky, způsobují zbytečné potíže a nakonec se za takových podmínek zdá být zahálka lákavější než produktivní úsilí.
@@ -430,7 +430,7 @@ Dříve než Vincent de Gournay také zdůrazňoval hodnotu práce a důležitos
 Markýz d'Argenson je zapomenutým zakladatelem doktríny laissez-faire.
 
 
-![image](assets/fr/024.webp)
+![image](assets/cs/024.webp)
 
 
 Znovu ji objevil August Oncken, autor knihy o doktríně laissez-faire, laissez-passer, a dospěl k závěru, že d'Argenson hrál při zrodu této myšlenky významnou roli.
@@ -445,7 +445,7 @@ René-Louis Voyer, markýz d'Argenson, se narodil v roce 1694. Svou politickou k
 Již třicet let před Adamem Smithem hájil d'Argenson výhody dělby práce a specializace.
 
 
-![image](assets/fr/025.webp)
+![image](assets/cs/025.webp)
 
 
 Důrazně kritizoval nařízení, která se podle něj snažila změnit přirozené preference různých regionů. Například ho mátlo, že vláda chtěla, aby se v Tours, tehdy chudém městě, vyráběly látky a samety, které by se kvalitou vyrovnaly těm, jež se vyráběly v prosperujícím Janově, který byl proslulý svým luxusním zbožím. Došel k závěru:
@@ -460,7 +460,7 @@ Uznával také další Smithovu hlavní zásadu: myšlenku, že spontánní řá
 Ještě před Adamem Smithem pochopil, že vlastní zájem vede k obecnému zájmu prostřednictvím spontánního přirozeného řádu.
 
 
-![image](assets/fr/026.webp)
+![image](assets/cs/026.webp)
 
 
 Přirovnal společnost ke včelímu úlu, kde se každý hmyz řídí svým instinktem: "Z jejich činnosti", řekl přesně, "vyplynula velká akumulace pro potřeby malé společnosti; ale to nebylo způsobeno rozkazy nebo generály, kteří každého jednotlivce nutili, aby se řídil názory svého vůdce." To je ve francouzském ekonomickém myšlení asi nejbližší vyjádření slavné koncepce "neviditelné ruky" Adama Smithe.
@@ -475,7 +475,7 @@ Popravdě řečeno ho udivovalo, že lidé tak často nechápou nebo spíše nev
 Někdy si zoufal nad tím, jak málo jsou jeho myšlenky chápány.
 
 
-![image](assets/fr/027.webp)
+![image](assets/cs/027.webp)
 
 
 Ideál hospodářské politiky, který hájil, byl tedy v rozporu s dobovými trendy. Jeho ideál definoval v podstatě negativní roli státu. "Vše, co obchod potřebuje, je odstranění překážek. Žádá pouze dobré soudce, potrestání monopolů, rovnou ochranu všech občanů, stabilní měny a silnice a průplavy". To byla definice minimálního státu, která se stala jedním ze základů francouzské tradice politické ekonomie.
@@ -502,7 +502,7 @@ Na otázku obchodu s obživou neměl d'Argenson jinou odpověď než svobodu. Ne
 Vincent de Gournay byl jedním z prvních představitelů laissez-faire ve Francii a jedním z jeho prvních zastánců ve veřejné správě a intelektuálních kruzích. Z tohoto důvodu si v dějinách ekonomického myšlení zaslouží mnohem větší uznání, než se mu obvykle dostává. Jeho přínos jsem se pokusil vyzdvihnout v nedávno vydané knize.
 
 
-![image](assets/fr/028.webp)
+![image](assets/cs/028.webp)
 
 
 Gournay se narodil v obchodnické rodině, sám se stal úspěšným obchodníkem a nashromáždil značné bohatství, než získal místo ve francouzské správě. V obchodním úřadu byl horlivým zastáncem svobodné práce a volného obchodu.
@@ -517,7 +517,7 @@ Máme k dispozici:
 1. [Poznámky](https://archive.org/details/traitessurlecomm0000chil) k překladu knihy anglického ekonoma Josiaha Childa;
 
 
-![image](assets/fr/029.webp)
+![image](assets/cs/029.webp)
 
 
 2. "Připomínky" zahrnuté do Zkoumání výhod a nevýhod zákazu potištěných tkanin;
@@ -556,7 +556,7 @@ Nakonec Gournay poznamenal, že úrokové sazby byly nižší v Anglii a Nizozem
 Ve všech těchto bodech hrál Gournay klíčovou roli v intelektuálních debatách poloviny 18. století. Jeho obhajoba ekonomické svobody předběhla fyziokraty o deset let a Adama Smithe o dvacet let. Největší vliv však měl na Turgota. Gournay vzal mladého Turgota pod svá křídla a vyškolil ho ve svých myšlenkách.
 
 
-![image](assets/fr/030.webp)
+![image](assets/cs/030.webp)
 
 
 O mnoho let později napsal Turgot, budoucí ministr Ludvíka XVI., po smrti svého přítele chvalozpěv na jeho počest. A pokud Turgot nikdy zcela nepřijal fyziokracii Françoise Quesnaye, bylo to proto, že si uchoval nepřekonatelnou náklonnost ke svému prvnímu učiteli Vincentu de Gournay.
@@ -571,13 +571,13 @@ O mnoho let později napsal Turgot, budoucí ministr Ludvíka XVI., po smrti sv�
 Pokud jde o počátky ekonomické vědy, historie má tendenci zdůrazňovat první myšlenkovou školu: fyziokraty v čele s Françoisem Quesnayem a jeho žáky. Téměř deset let před jejich nástupem však existovala jiná, méně formální, ale stejně významná skupina soustředěná kolem ekonoma Vincenta de Gournay.
 
 
-![image](assets/fr/031.webp)
+![image](assets/cs/031.webp)
 
 
 Jak jsme viděli v předchozí části, Gournay byl fascinován příkladem cizích národů, jako je Anglie a Holandsko. Stejně tak obdivoval jejich ekonomy - osobnosti jako Josiah Child, Johan de Witt a David Hume.
 
 
-![image](assets/fr/032.webp)
+![image](assets/cs/032.webp)
 
 
 Tento obdiv ho vedl k překládání a zadávání překladů jejich ekonomických spisů.
@@ -593,7 +593,7 @@ Díky spolupráci několika členů Gournayova okruhu mohla řada autorů vydáv
 - Herbertova esej o [obecné obilní policii](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 vydání za 4 roky)
 
 
-![image](assets/fr/033.webp)
+![image](assets/cs/033.webp)
 
 
 
@@ -613,7 +613,7 @@ Skupina také sehrála klíčovou roli v publikaci
 - [Esej o povaze obchodu obecně](https://archive.org/details/essayonnatureofc0000cant) Richard Cantillon.
 
 
-![image](assets/fr/034.webp)
+![image](assets/cs/034.webp)
 
 
 Tato poslední kniha, napsaná kolem roku 1730, zůstala po autorově smrti v rukopise. Gournay ji s pomocí svých přátel ekonomů vydal v roce 1755. Podle opata Morelleta, člena tohoto kruhu, ji Gournay doporučil všem ekonomům, které znal.
@@ -622,13 +622,13 @@ Tato poslední kniha, napsaná kolem roku 1730, zůstala po autorově smrti v ru
 Intelektuální dílo Gournayova kruhu mělo zásadní vliv na dějiny idejí. V tomto smyslu je lze považovat za zakladatele ekonomické vědy ve Francii. Christine Théré z INED, která se zabývala historií ekonomických publikací, zjistila, že v letech 1750-1759 bylo vydáno ne méně než **349** prací o ekonomii, zatímco za celé předchozí desetiletí (1740-1749) to bylo pouze **83**. Tento převrat v 50. letech 17. století je z velké části zásluhou Gournayova kroužku.
 
 
-![image](assets/fr/035.webp)
+![image](assets/cs/035.webp)
 
 
 Gournay a jeho přátelé se snažili rozšířit mezi francouzským obyvatelstvem zálibu v ekonomických diskusích a zpřístupnit je prostřednictvím románů. Po *Memoáru o řemeslech*, který kritizoval cechy, pomohli Gournay a Cliquot-Blervache Gabrielovi-Françoisovi Coyerovi napsat krátký satirický román s názvem Chinki: [Cochinchinská povídka platná pro jiné národy] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
-![image](assets/fr/036.webp)
+![image](assets/cs/036.webp)
 
 
 Příběh vypráví o hlavním hrdinovi Činkovi, který je nucen opustit svou půdu kvůli nadměrnému zdanění a snaží se najít řemeslnou práci pro své děti ve městě. Všechna řemesla jsou jim však kvůli zneužívání cechovních předpisů uzavřena, a tak příběh humorným tónem líčí jeho rostoucí zklamání.
@@ -649,13 +649,13 @@ A skutečně, v 50. letech 19. století se ekonomické otázky staly módními. 
 Francie zná dva slavné muže jménem Mirabeau, otce a syna, ale byl to syn, kdo se skutečně zapsal do dějin. Revoluční tribun a jedna z ústředních postav událostí Francouzské revoluce zůstal slavným.
 
 
-![image](assets/fr/037.webp)
+![image](assets/cs/037.webp)
 
 
 Svým talentem a místem ve francouzských dějinách zastínil svého otce, ekonoma a pilíř školy Françoise Quesnaye, který byl jejím prvním členem již v roce 1758.
 
 
-![image](assets/fr/038.webp)
+![image](assets/cs/038.webp)
 
 
 Markýz de Mirabeau si totiž získal obrovskou slávu ještě před přijetím fyziokracie díky knize Přítel lidstva. Pojednání o obyvatelstvu [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). I když první vydání vyšlo v roce 1756, proslavilo se až kolem roku 1757, tedy rok před jeho setkáním s Quesnayem.
@@ -675,7 +675,7 @@ Dnes už se tato kniha nečte, ale mnozí na ni stále odkazují. Už v 19. stol
 Na počátku své kariéry ekonoma se Mirabeau inspiroval Richardem Cantillonem. Patnáct let vlastnil rukopis Cantillonova spisu Esej o povaze obchodu obecně a trpělivě jej analyzoval a komentoval.
 
 
-![image](assets/fr/039.webp)
+![image](assets/cs/039.webp)
 
 
 L'Ami des Hommes byl původně koncipován jako prostý komentář ke Cantillonově eseji. Ale protože Mirabeau měl poněkud eklektické myšlení, což je upřímně řečeno trochu bláznivé, rychle se od svého původního plánu odchýlil. V knize prostě probírá všechny ekonomické otázky, které znal, a občas se od Cantillona odkloní. Kniha se obtížně čte, má bizarní plán a odbočky v každé kapitole. Mirabeau sám přiznal, že je to chaos a že jeho styl je apokalyptický.
@@ -694,7 +694,7 @@ Navzdory chaosu, který v něm panuje, stojí za zmínku některé myšlenky:
 - V neposlední řadě hájí svobodu obchodu a bratrství národů v míru.
 
 
-![image](assets/fr/040.webp)
+![image](assets/cs/040.webp)
 
 
 Označit Mirabeauovy názory za liberální nebo antiliberální je Hard. Často se pohyboval tam a zpět, někdy aniž by si to uvědomoval, mezi jedním a druhým viděním. Přesto v jeho díle často převládaly liberální myšlenky. Jedna z jeho nejslavnějších vět zněla:
@@ -705,7 +705,7 @@ Označit Mirabeauovy názory za liberální nebo antiliberální je Hard. Často
 Mirabeau měl největší úspěch za sebou, a tak se o něj začali ucházet. François Quesnay, který se právě zajímal o ekonomii, ho pozval na svůj entresol ve Versailles.
 
 
-![image](assets/fr/041.webp)
+![image](assets/cs/041.webp)
 
 
 Zuřivě debatovali a nakonec se stalo něco, co se v debatách obvykle nestává: Mirabeau otevřeně přiznal, že se mýlil. Souhlasil s Quesnayovými myšlenkami a řekl, že je připraven je šířit.
@@ -714,7 +714,7 @@ Zuřivě debatovali a nakonec se stalo něco, co se v debatách obvykle nestáv�
 Společně tvořili jádro pozdější fyziokratické školy, posílené o pravidelné rekruty, které přivedli. Krátce po Mirabeauově konverzi ho Quesnay získal, aby obhajoval jeho myšlenky o daních. Vznikla tak ["Teorie zdanění"](https://archive.org/details/thoriedelimpot00mira), za kterou byl Mirabeau poslán na několik dní do vězení ve Vincennes a poté vyhoštěn do Bignonu.
 
 
-![image](assets/fr/042.webp)
+![image](assets/cs/042.webp)
 
 
 Mirabeau hrál také klíčovou roli při získávání nových členů pro Quesnayovu školu. Přesvědčil dokonce i mladého Duponta de Nemours.
@@ -738,7 +738,7 @@ Mirabeau zůstal po celý život neúnavným spisovatelem. Byl autorem mnoha eko
 François Quesnay je jedním z nejznámějších francouzských ekonomů.
 
 
-![image](assets/fr/043.webp)
+![image](assets/cs/043.webp)
 
 
 Jeho jméno se objevuje ve všech učebnicích ekonomie a dějin ekonomického myšlení. Uvádí se, že vytvořil "Tableau Économique" pro schematické znázornění ekonomiky, že byl vůdcem fyziokratické školy, že se mýlil, když se domníval, že pouze půda je produktivní, a nakonec, že Adam Smith přišel, aby uvedl věci na pravou míru. Víceméně takto bývá François Quesnay shrnut v učebnicích.
@@ -762,7 +762,7 @@ Proslavil se v roce 1730, kdy mu bylo 36 let, odporem k běžné praxi pouštěn
 V roce 1740 se stal tajemníkem chirurgické akademie. V roce 1748, ve svých 54 letech, se stal osobním lékařem madame de Pompadour a přestěhoval se do Versailles.
 
 
-![image](assets/fr/044.webp)
+![image](assets/cs/044.webp)
 
 
 Měl velmi blízko k madame de Pompadour. Quesnay dokonce v době, kdy byla oznámena favoritčina nemilost, prohlásil, že by bez ní nechtěl zůstat lékařem ve Versailles:
@@ -776,7 +776,7 @@ Poté vydal několik lékařských knih: (1749), Pojednání o gangréně (1749)
 Ve svých 60 letech se seznámil s tehdy módními ekonomickými debatami a začal psát o ekonomii. V roce 1755 napsal články "Zemědělci" a "Obilí" pro *Encyklopedii*.
 
 
-![image](assets/fr/045.webp)
+![image](assets/cs/045.webp)
 
 
 Byly vydány v roce 1757. Téhož roku se setkal se slavným Mirabeauem a podařilo se mu ho obrátit na svou ekonomickou stranu - zrodilo se jádro fyziokracie. Quesnay poté vytvořil Tableau Économique, který byl vytištěn na královských tiskařských strojích, údajně za přítomnosti samotného krále na zámku ve Versailles. Od té doby pravidelně hostil ekonomy a filozofy ve svém versailleském bytě, kde volně diskutovali. Quesnay se také podílel na Mirabeauově Teorii zdanění, která vyšla v roce 1759.
@@ -799,7 +799,7 @@ Přesto byli jeho žáci hluboce oddaní a významně přispěli ke Quesnayově 
 Díky práci svých spolupracovníků našly jeho myšlenky prostor: nejprve v novinách jako *Journal of Agriculture* a *Ephémérides du Citoyen*.
 
 
-![image](assets/fr/046.webp)
+![image](assets/cs/046.webp)
 
 
 Dále pak prostřednictvím knih, a to nejen jeho žáků, ale také významné antologie vydané v roce 1768 nakladatelstvím Dupont de Nemours s názvem *Fyziokracie*.
@@ -829,7 +829,7 @@ Fyziokracie se stala ve Francii, a dokonce i v celé Evropě, módní sotva na d
 Její počátky tkví ve vývoji ekonomických myšlenek v 50. letech 19. století. Několik autorů pomohlo překlenout propast mezi Boisguilbertem a tím, co se později stalo známým jako fyziokracie. Jak již bylo řečeno, Vincent de Gournay a jeho okruh ekonomů stáli za mnoha publikacemi, které francouzské čtenáře seznámily se zahraničním ekonomickým myšlením a pomohly zažehnout jejich vášeň pro ekonomii. Základy fyziokracie byly přítomny již v knihách jako "Détail de la France" od Boisguilberta a ["Esej o povaze obchodu obecně"](https://archive.org/details/essaisurlanature0000cant) od Cantillona.
 
 
-![image](assets/fr/047.webp)
+![image](assets/cs/047.webp)
 
 
 
@@ -844,7 +844,7 @@ Zbývalo přetvořit tento soubor myšlenek v ucelenou a kompletní doktrínu, o
 V roce 1756 tak mohl začít příběh fyziokracie. François Quesnay, tehdejší chirurg, který se stal osobním lékařem paní de Pompadour, pozval Mirabeaua do Versailles, aby s ním probral ekonomické myšlenky.
 
 
-![image](assets/fr/048.webp)
+![image](assets/cs/048.webp)
 
 
 Na konci jejich rozhovoru Mirabeau souhlasil s Quesnayovými myšlenkami. Od té doby si psali: Quesnay vytvořil *Tableau économique* (1758), aby znázornil tok bohatství v ekonomice, a společně vydali Teorii zdanění (1759).
@@ -861,7 +861,7 @@ Jejich úsilí nebylo přijato s nadšením. U soudu převládala lhostejnost. K
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/cs/049.webp)
 
 
 První polovina 60. let 17. století tak proběhla v relativním tichu. Kvůli svému postavení ve Versailles byl Quesnay nucen přestat psát nebo alespoň nic nepublikovat pod svým jménem. Mirabeau, již jednou odsouzený, byl varován a dobře si uvědomoval, že ho králův oblíbenec nemůže chránit navždy.
@@ -871,7 +871,7 @@ První polovina 60. let 17. století tak proběhla v relativním tichu. Kvůli s
 Po tomto krátkém odmlčení začali oba ekonomové nabírat žáky: jen tak mohli své myšlenky zpopularizovat. V roce 1765 byly jejich úspěchy ohromující. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne a Baudeau se rychle přidali do jejich řad. Vytvořili školu: měli vlastní časopis *Les Éphémérides du Citoyen* a dokonce se každé úterý scházeli v Mirabeauově domě.
 
 
-![image](assets/fr/050.webp)
+![image](assets/cs/050.webp)
 
 
 V letech 1765 až 1775 byla sjednocená skupina fyziokratů na vrcholu své slávy. Literární a filozofický svět měl oči jen pro ně a umožnil jejich myšlenkám široké a rychlé rozšíření. Lidé jim říkali "ekonomové" nebo posměšněji "sekta ekonomů". Bez ohledu na tón, jejich proslulost byla absolutní. V roce 1774, po cestě do Metz, napsal M. de Vaublanc ve svých pamětech svůj údiv: všichni kolem něj mluvili o ekonomii a uvažovali jako Quesnayovi žáci. "Bylo to módní," poznamenal. "Každý byl ekonom".
@@ -880,7 +880,7 @@ V letech 1765 až 1775 byla sjednocená skupina fyziokratů na vrcholu své slá
 V roce 1770 však jejich obliba začala klesat. Skupina zažila první zběhnutí a její schopnost odolávat kritice se oslabila. A kritiků bylo mnoho: Condillac, Mably, Voltaire, Galiani, Linguet, Graslin a dokonce i Adam Smith ve Skotsku zpochybňovali jejich názory.
 
 
-![image](assets/fr/051.webp)
+![image](assets/cs/051.webp)
 
 
 Jejich noviny už nevycházely pravidelně. Tím skončilo nejaktivnější období hnutí.
@@ -899,7 +899,7 @@ Termín "fyziokracie", který znamená "vláda přírody", vymyslel Dupont de Ne
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/cs/052.webp)
 
 
 Jedná se o nejasnou frázi. Žádný Quesnayův student nám neposkytl její pravý význam. Nicméně jejich myšlenkový systém nebyl zdaleka tak nejasný. Ve skutečnosti byl postaven na několika velmi jasných principech, které zde nastíníme.
@@ -917,7 +917,7 @@ Bylo by však nespravedlivé kritizovat fyziokraty za to, že přikládali země
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/cs/053.webp)
 
 
 Myšlenka fyziokratů je ve skutečnosti subtilní. Podle nich existuje rozdíl mezi výrobou a ziskem. Průmyslník a obchodník mohou vydělávat, ale pouze zemědělec skutečně vyrábí, protože výroba je vytváření užitečného materiálu, nikoliv přidávání užitku k již existujícímu materiálu.
@@ -932,7 +932,7 @@ Měli bychom se také pokusit pochopit, proč odmítali průmysl a řemesla jako
 Dnes, když chceme někoho urazit, řekneme, že není demokrat. Historikové sice fyziokratům odpouštějí jejich přísný názor na produktivitu zemědělství, ale neodpouštějí jim jejich odpor k demokracii, zejména proto, že žili v době vrcholného rozkvětu osvícenských myšlenek. Od poloviny 18. století až do doby těsně před revolucí byli fyziokraté považováni za nepřátele pokroku.
 
 
-![image](assets/fr/054.webp)
+![image](assets/cs/054.webp)
 
 
 Tocqueville na této myšlence trval:
@@ -943,7 +943,7 @@ Tocqueville na této myšlence trval:
 Fyziokraté, kteří byli liberální v ekonomice, proto nebyli liberální v politických otázkách. Quesnay ve svých *maximách* píše: "Nechť je svrchovaná autorita jedinečná a nadřazená všem jednotlivcům společnosti a všem nespravedlivým podnikům soukromých zájmů." A později v téže maximě: "Systém brzd a protivah ve vládě je osudný pojem, který prozrazuje jen neshody mezi velkými a útlak malých".
 
 
-![image](assets/fr/055.webp)
+![image](assets/cs/055.webp)
 
 
 Tocqueville trefně poznamenal, že fyziokraté odmítali demokracii, jakmile viděli její formy. Byli skeptičtí vůči demokracii, která se měla stát konstantou francouzské politické ekonomie, protože demokracie má daleko k dokonalému systému: potenciálně umožňuje utlačování menšin většinou a může se stát nástrojem uzurpace, tyranie a despocie.
@@ -955,7 +955,7 @@ Tocqueville trefně poznamenal, že fyziokraté odmítali demokracii, jakmile vi
 Fyziokraté věřili, že lidé potřebují vlastnit výsledky své práce a ponechat si je. Podle nich byla vlastnická práva základem společnosti. Domnívali se, že stát má jediný hlavní úkol: chránit majetek lidí. Z ekonomického hlediska fyziokraté navíc tvrdili, že nedotknutelnost vlastnictví podporuje práci a úsilí a je podmínkou hospodářského pokroku.
 
 
-![image](assets/fr/056.webp)
+![image](assets/cs/056.webp)
 
 
 Quesnay to vyjádřil jednoduše:
@@ -973,7 +973,7 @@ Ve svých již citovaných *Maximách* Quesnay uvádí:
 > Nechť je úplná svoboda obchodu, neboť nejspolehlivější, nejpřesnější a pro národ a stát nejpřínosnější regulace domácího i zahraničního obchodu spočívá v úplné svobodě konkurence.
 
 
-![image](assets/fr/057.webp)
+![image](assets/cs/057.webp)
 
 
 Fyziokraté viděli, jaké škody způsobují státní zásahy, zejména do obchodu s obilím. Je třeba si přiznat, že úřad nikdy nebude schopen řídit obchod tak dobře jako jednotlivci, protože by musel reagovat na každou potřebu a reagovat na každou změnu poptávky nebo Supply . To vše je daleko za možnostmi i té nejmoudřejší vlády, jakou si lze představit. Proto je třeba nechat věci být a nechat je plynout.
@@ -1007,7 +1007,7 @@ Obhajoba jejich myšlenek v knihách, pamfletech a v časopise *Les Éphémérid
 V zahraničí se úspěch dostavil velmi brzy. V Německu se bádenský markrabě zajímal o fyziokratické myšlenky a udržoval pravidelnou korespondenci s Mirabeauem a Dupontem de Nemours.
 
 
-![image](assets/fr/058.webp)
+![image](assets/cs/058.webp)
 
 
 Pověřil ekonoma Johanna Augusta Schlettweina, přesvědčeného fyziokrata, provedením daňové reformy a liberalizací obchodu s obilím. V dubnu 1770 se v malé vesnici Dietlingen uskutečnil první pokus. Zdálo se, že vesničané přijali opatření s nadšením, ale odpovědní úředníci je příliš nepodporovali, což oddálilo širší zavedení.
@@ -1016,7 +1016,7 @@ Pověřil ekonoma Johanna Augusta Schlettweina, přesvědčeného fyziokrata, pr
 Kateřina II. v Rusku připravovala reformu zákonodárství a požádala Diderota, aby jí poslal na pomoc brilantní mysl.
 
 
-![image](assets/fr/059.webp)
+![image](assets/cs/059.webp)
 
 
 Pod dojmem četby knihy [*Přirozený a základní řád politických společností*](https://archive.org/details/lordrenaturelete00mercuoft), vydané v roce 1767, jí poslal jejího autora, fyziokrata Merciera de la Rivière.
@@ -1035,26 +1035,26 @@ Také ve Švédsku, kde působil Gustav III., a v Itálii, kde působil Leopold 
 Ve Francii zaznamenali fyziokraté velkolepý úspěch, když v roce 1774 jmenovali Turgota generálním kontrolórem financí.
 
 
-![image](assets/fr/060.webp)
+![image](assets/cs/060.webp)
 
 
 Turgot, vědom si úpadku jejich slávy, se nikdy neprezentoval jako věrný žák fyziokratů, ani jako encyklopedista, přestože jím byl, a protože jimi členové kléru opovrhovali. Jakmile se Turgot dostal k moci, vydal šest slavných ediktů, které představovaly počátek praktického uplatňování fyziokratického programu: svoboda obchodu, svoboda práce a konec monopolů.
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/cs/061.webp)
 
 
 V době Francouzské revoluce měli fyziokraté méně stoupenců. Markýz Mirabeau zemřel 13. července 1789 - což byl docela významný symbol. Abeille odešel, ale Dupont de Nemours mu zůstal věrný. Dupont de Nemours, jmenovaný do Shromáždění, byl hlasem fyziokracie a vyzýval k ekonomickým reformám ve prospěch vlastnictví Ownership a volného obchodu.
 
 
-![image](assets/fr/062.webp)
+![image](assets/cs/062.webp)
 
 
 Neúspěšně bojoval také proti asignátům. Navzdory tomuto neúspěchu zůstalo fyziokratické myšlení v intelektuální diskusi velmi přítomné a ovlivnilo první úspěchy revoluce. Jak řekl Joseph Rambaud, vše, co revoluce udělala ve prospěch svobod, bylo zásluhou fyziokratů.
 
 
-![image](assets/fr/063.webp)
+![image](assets/cs/063.webp)
 
 
 
@@ -1081,7 +1081,7 @@ Ve Spojených státech známe společnost DuPont, známou také jako "E.I. du Po
 
 
 
-![image](assets/fr/064.webp)
+![image](assets/cs/064.webp)
 
 
 V současné době dosahuje obratu přes 35 000 miliard dolarů a zaměstnává téměř 65 000 lidí po celém světě. Ukazuje se, že tato společnost je úzce spjata s osudem Samuela-Pierra Duponta de Nemours, francouzského ekonoma fyziokratické školy.
@@ -1095,7 +1095,7 @@ Dupont de Nemours se narodil v roce 1739 a ve svých 24 letech se obrátil na fy
 
 
 
-![image](assets/fr/065.webp)
+![image](assets/cs/065.webp)
 
 
 Ze zvědavosti začal číst Mirabeauova díla *Přítel lidu* a *Teorie zdanění*. Seznámil se s Mirabeauem a Françoisem Quesnayem a vstoupil do jejich školy.
@@ -1116,7 +1116,7 @@ Důvody byly dva: Mirabeau a Quesnay museli mlčet a Dupont byl považován za j
 Dupont de Nemours si Quesnaye vždy velmi vážil.
 
 
-![image](assets/fr/066.webp)
+![image](assets/cs/066.webp)
 
 
 Později řekl: "Byl jsem ještě chlapec, když ke mně Quesnay natáhl ruku - udělal ze mě muže." Byl to právě Quesnay, kdo z něj udělal významného ekonoma na tehdejší literární scéně.
@@ -1131,7 +1131,7 @@ Z tohoto časopisu učinil významné centrum ekonomické teorie a podporoval je
 
 
 
-![image](assets/fr/067.webp)
+![image](assets/cs/067.webp)
 
 
 Když Turgot krátce zastával funkci francouzského ministra financí, stal se Dupont jeho blízkým poradcem, jediným fyziokratem, který k němu měl přístup, protože Turgot si od ostatních udržoval odstup.
@@ -1146,7 +1146,7 @@ V době revoluce byl zvolen z bailiviku Nemours a ocitl se ve shromáždění, k
 Během revoluce v srpnu 1792 se chopil zbraně, aby bránil krále v Tuilerijském paláci proti davu.
 
 
-![image](assets/fr/068.webp)
+![image](assets/cs/068.webp)
 
 
 Král mu řekl: "Pane Duponte, vždycky vás najdeme tam, kde vás potřebujeme!" Poté, co zázračně unikl teroru, byl odsouzen a čekal na gilotinu, ale zachránil ho Robespierrův pád, byl za Napoleona odsunut do exilu a našel štěstí ve Spojených státech, kde jeden z jeho synů založil s pomocí svého otce společnost Dupont.
@@ -1175,7 +1175,7 @@ V 18. století vznikla ve Francii ekonomie jako věda a první škola ekonomick�
 
 
 
-![image](assets/fr/069.webp)
+![image](assets/cs/069.webp)
 
 
 Nejslavnějším dílem osvícenské filozofie je bezpochyby *Encyklopedie* od Diderota a d'Alemberta.
@@ -1191,7 +1191,7 @@ Ekonomické články samozřejmě psali ekonomové. Pro první svazky se Diderot
 V mnoha dalších článcích *Encyklopedie* filozofové, zejména Diderot, hájí ideál svobody ve všech oblastech: náboženství, politice i ekonomice.
 
 
-![image](assets/fr/070.webp)
+![image](assets/cs/070.webp)
 
 
 Svoboda práce, zejména v opozici k cechovnímu systému, se opakovaně objevovala v různých heslech jako Arts, Métier a Communauté.
@@ -1201,7 +1201,7 @@ Diderotova cesta v ekonomické teorii je zvláštní. V Encyklopedii byl přesv�
 
 
 
-![image](assets/fr/071.webp)
+![image](assets/cs/071.webp)
 
 
 
@@ -1212,13 +1212,13 @@ Tato kniha se stala nejzuřivějším útokem proti fyziokratickým myšlenkám 
 
 > "Kdysi jsi ke mně choval přátelství, teď už ne, protože jsi tak zaneprázdněný, že už nemáš čas nikoho milovat."
 
-![image](assets/fr/072.webp)
+![image](assets/cs/072.webp)
 
 
 Voltaire se vydal podobnou cestou, která se vyznačovala nedůsledností v jeho ekonomických názorech. Obdivoval Vincenta de Gournay, dopisoval si s ekonomy (včetně Duponta de Nemours a Turgota) a oceňoval fyziokraty - zejména pro jejich chválu zemědělství. Vychvaloval je v *Diatribě autorovi Eféméridů*. Později však kritizoval jejich myšlenku jednotné pozemkové daně ve svém satirickém díle *Muž čtyřiceti korun*, které rovněž vyvolalo značnou kontroverzi. Nakonec stejně jako Diderot oslavoval Turgotovo působení, nazýval je zlatým věkem a chválil jeho dva velké dekrety o svobodě práce a svobodném obchodu.
 
 
-![image](assets/fr/073.webp)
+![image](assets/cs/073.webp)
 
 
 Vztah filosofů k ekonomickému myšlení je nakonec smíšený. Navzdory jejich chvále a kritice liberálních ekonomických myšlenek sehráli určitou roli při zavádění těchto myšlenek do širšího intelektuálního diskurzu osvícenství. Tímto způsobem, ať už záměrně, nebo ne, napomáhali prosazování koncepce laissez-faire až do revoluce.
@@ -1240,7 +1240,7 @@ Americký ekonom Murray Rothbard v jedné slavné pasáži ze své knihy *Histor
 který ho spolu s Cantillonem označil za největšího ekonoma 18. století.
 
 
-![image](assets/fr/074.webp)
+![image](assets/cs/074.webp)
 
 
 Jak se Turgot dostal k takovému významu? Bylo to dáno kombinací tří klíčových faktorů. **Za prvé**, jeho prestižní rodinné zázemí. Pocházel z dlouhé linie královských správců, z nichž mnozí zastávali vysoké vládní funkce. **Za druhé**, zlatý věk, ve kterém se narodil a vyrůstal. Turgotovi bylo 21 let, když Montesquieu publikoval *L'Esprit des Lois*, a 24 let, když vyšel první díl *Encyklopedie*.
@@ -1267,7 +1267,7 @@ Během těchto prvních let byl jeho učitelem Vincent de Gournay, který ho vza
 
 
 
-![image](assets/fr/075.webp)
+![image](assets/cs/075.webp)
 
 
 V roce 1767, kdy byl intendantem, sepsal ekonomické kompendium pod názvem *Úvahy o tvorbě a rozdělování bohatství*.
@@ -1279,7 +1279,7 @@ V roce 1767, kdy byl intendantem, sepsal ekonomické kompendium pod názvem *Úv
 Zabývá se dělbou práce, suverenitou spotřebitelů, soukromým vlastnictvím, úlohou kapitálu, prakticky všemi hlavními ekonomickými tématy. Mnoho historiků, z nichž poslední je historička Anne-Claire Hoyngová, poukázalo na podobnost mezi tímto Turgotovým dílem a dílem Adama Smithe *Bohatství národů*, vydaným o devět let později.
 
 
-![image](assets/fr/076.webp)
+![image](assets/cs/076.webp)
 
 
 Turgot hájil svobodu obchodu s obilím v dopisech opatovi Terrayovi, které byly později předány králi, ale polovina z nich se ztratila. Napsal:
@@ -1300,7 +1300,7 @@ V roce 1770, tedy mnohem dříve než Bentham, napsal Turgot memorandum, v něm�
 
 
 
-![image](assets/fr/077.webp)
+![image](assets/cs/077.webp)
 
 
 "Je omyl domnívat se, že úrok z peněz v obchodě by měl být stanoven knížecími zákony," říká, "je to běžná cena, která se reguluje sama, stejně jako cena všech ostatních statků." Na obranu tohoto postoje vyvrací námitky Aristotela a církevních otců.
@@ -1318,7 +1318,7 @@ Zde nacházíme velmi jasné vyjádření doktríny laissez-faire a zároveň p�
 
 
 
-![image](assets/fr/078.webp)
+![image](assets/cs/078.webp)
 
 
 ## Turgot, reformátor
@@ -1331,7 +1331,7 @@ Jak jsme si krátce připomněli v předchozí kapitole, Turgot pocházel z výz
 
 
 
-![image](assets/fr/079.webp)
+![image](assets/cs/079.webp)
 
 
 Jeho otec byl proboštem pařížských obchodníků a dědeček intendantem. Po vynikajícím studiu se nejmladší z rodiny Turgotů snažil dosáhnout přinejmenším stejných výšin. Nejprve nějakou dobu působil jako maître des requêtes, což znamenalo, že byl spojkou mezi intendanty a Versailles. Byla to prestižní pozice, pro kterou musel získat zvláštní věkovou výjimku, ale Turgot toužil po něčem víc. Smrt jeho učitele Gournaye ho ještě více povzbudila k vyšším cílům a požádal o jmenování intendantem.
@@ -1346,7 +1346,7 @@ V Limousinu byli rolníci chudí a žili v nejistých podmínkách, zejména pok
 
 
 
-![image](assets/fr/080.webp)
+![image](assets/cs/080.webp)
 
 
 Protože byl tento region velmi chudý, ministři o něj neměli zájem. To Turgotovi umožnilo experimentovat s reformami. V Limousinu realizoval tři velké projekty:
@@ -1358,7 +1358,7 @@ Protože byl tento region velmi chudý, ministři o něj neměli zájem. To Turg
 - Nábor **milicí**, rolnických armád mobilizovaných v době války.
 
 
-![image](assets/fr/081.webp)
+![image](assets/cs/081.webp)
 
 
 To se provádělo losováním, což vedlo ke strachu a násilí kvůli útěkům; Turgot nahradil tyto povinné odvody placenými dobrovolníky.
@@ -1374,7 +1374,7 @@ Již o měsíc později byl Turgot jmenován generálním kontrolórem financí 
 Známe dopis, v němž Ludvíkovi XVI. nastínil své zásady: "Žádný bankrot. Žádné zvyšování daní. Žádné nové půjčky". Tato filozofie, kterou by dnes kritici mohli označit za nesmyslnou "přísnost", měla zachránit monarchii.
 
 
-![image](assets/fr/082.webp)
+![image](assets/cs/082.webp)
 
 
 Turgot připravil šest královských ediktů, které měly reformovat francouzské hospodářství.
@@ -1391,7 +1391,7 @@ Po nástupu do úřadu Turgot věděl, že bude čelit odporu privilegovaných v
 
 > Ach! Jaké hrozné zprávy jsem se dozvěděl! Co s námi bude? Jsem zdrcen! Nikdy se nevzpamatujeme z toho, že jsme byli svědky zrození a smrti zlatého věku! Tento blesk zasáhl mou mysl i srdce.
 
-![image](assets/fr/083.webp)
+![image](assets/cs/083.webp)
 
 
 Od té doby mnozí tvrdí, že Francii nelze reformovat. Turgotův neúspěch to jen potvrdil: Byl připraven půlstoletím liberálního ekonomického myšlení, měl podporu osvícenských filozofů a podporoval ho sám král, který měl absolutní moc.
@@ -1411,7 +1411,7 @@ Nakonec zvítězily parlamety a privilegované vrstvy. Král mohl jen soukromě 
 Stejně jako merkantilismus, který je jeho nejzřetelnějším praktickým projevem, i Montaignův sofismus dlouho zanikal.
 
 
-![image](assets/fr/084.webp)
+![image](assets/cs/084.webp)
 
 
 Tímto sofismem je myšlenka, že obchod a Exchange jsou hry s nulovým součtem. Cokoli jedna strana v transakci získá, druhá strana nutně ztratí. Její zastánci tvrdí, že to platí jak mezi jednotlivci, tak mezi národy.
@@ -1429,7 +1429,7 @@ Opat z Condillacu sehrál významnou roli při definitivním vyvrácení této f
 Pro většinu historiků ekonomického myšlení je rok 1776 ve znamení vydání knihy Bohatství národů, která založila ekonomickou vědu. Patnáct lekcí, které jsme právě absolvovali a v nichž jsme se zabývali francouzskou ekonomickou vědou před Adamem Smithem, stačí k tomu, abychom prokázali mylnost této představy. V témže roce 1776 navíc vyšla jiná kniha, která si od historiků zaslouží možná větší chválu než kniha Adama Smithe: napsal ji Condillac a jmenuje se prostě [*Obchod a vláda uvažované ve vzájemném vztahu*](https://archive.org/details/commercegovernme0000cond).
 
 
-![image](assets/fr/085.webp)
+![image](assets/cs/085.webp)
 
 
 Pokud podle Condillaca přetrvává sofismus Exchange chápaný jako hra s nulovým součtem, nesou za to částečně vinu fyziokraté, protože tvrdí, že Exchange je vztah rovnosti. Podle Condillaca je to nepravdivé: Exchange je nerovný vztah, kdy člověk vždy dává méně, aby získal více.
@@ -1466,7 +1466,7 @@ Condillacovu teorii lze shrnout do tří vět:
 První věta: zboží hledáme pro jeho užitečnost. Zdá se to být samozřejmé, ale je to ústřední princip ekonomické vědy, že lidé Exchange získávají užitek, což dokonale rozvinul i Jean-Baptiste Say.
 
 
-![image](assets/fr/086.webp)
+![image](assets/cs/086.webp)
 
 
 Druhá teze: hodnota existuje předem a motivuje směnu. Subjektivní úsudek, který si každý člověk dělá o zboží a službách, znamená, že totéž zboží a služby mají pro něj hodnotu, která má větší či menší hodnotu podle toho, jaký užitek se mu zdají poskytovat. Každý jedinec samozřejmě posuzuje jinak než ostatní a hodnota se u jednotlivých osob liší.
@@ -1491,7 +1491,7 @@ Condorcet je bezpochyby nejekonomičtěji smýšlejícím filozofem osvícenstv�
 
 
 
-![image](assets/fr/087.webp)
+![image](assets/cs/087.webp)
 
 
 Velkou část své kariéry se věnoval oborům, které s ekonomií vůbec nesouvisely, a to právem, protože jeho talent vedl k velkému pokroku ve vědách, kterým se věnoval nejvíce. Kolem roku 1770 se však cítil být přitahován ekonomickými otázkami, snad proto, že se jim ostatní filozofové, zejména Voltaire a Diderot, neobtěžovali věnovat ve volném čase, a také proto, že se přátelil s Turgotem.
@@ -1506,7 +1506,7 @@ Byl tedy připraven bránit svobodu, když se jeho přítel Turgot dostal do fun
 
 
 
-![image](assets/fr/088.webp)
+![image](assets/cs/088.webp)
 
 
 Od té doby se Condorcetova kariéra změnila, když vstoupil do ekonomické debaty a neúnavně podporoval liberální reformy nového ministra. Condorcet podporoval hospodářskou soutěž a svobodu obchodu, ale také požadoval zrušení corvées (nucených prací), cechů a spravedlivé zdanění. Toto přesvědčení vyjadřoval veřejně, kdykoli se naskytla příležitost, a činil tak se zjevným nadšením; hojně psal a jednou ve svých spisech prohlásil: "Dovolte mi, abych znovu promluvil o svobodě obchodu; rád se tímto tématem zabývám."
@@ -1518,7 +1518,7 @@ V letech 1774 až 1776, během Turgotova ministrování, Condorcet učinil řadu
 Ve svých [Listech o obchodu s obilím] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) Condorcet uvádí několik klíčových bodů.
 
 
-![image](assets/fr/089.webp)
+![image](assets/cs/089.webp)
 
 
 Za prvé, vysoké ceny obilí v té době nebyly důsledkem volného obchodu, ale spíše špatné úrody, což Condorcet jasně dokládá. Poté vysvětluje, proč je laissez-faire nejen vhodná, ale i jediná vhodná politika, navzdory všeobecným předsudkům. Poznamenává: "Jsme tak zvyklí na to, že vláda zasahuje do obchodu s obilím, že nedělat nic se zdá být něčím mimořádným a novým". Později dodává: "Téměř všichni, zejména ti, kteří zastávají veřejné funkce, se domnívají, že se nic neděje samo od sebe a že vše je ztraceno, pokud vláda do všeho nezasáhne". Condorcet tak oživuje argumenty fyziokratů a Turgota a ukazuje nadřazenost volného obchodu nad všemi formami intervencionismu.
@@ -1549,7 +1549,7 @@ Dupont de Nemours byl nejmladším žákem Françoise Quesnaye, který o něm je
 Dupont de Nemours sepsal seznam stížností pro exekutorský úřad Nemours.
 
 
-![image](assets/fr/090.webp)
+![image](assets/cs/090.webp)
 
 
 Tento fascinující dokument obsahoval všechny stížnosti liberálních ekonomů na omezení obchodu, monopoly a útoky na vlastnictví. Dupont de Nemours byl také zvolen do Národního shromáždění.
@@ -1564,7 +1564,7 @@ Již v listopadu 1789, kdy se začalo hovořit o udělení monopolu Caisse d'Esc
 
 
 
-![image](assets/fr/091.webp)
+![image](assets/cs/091.webp)
 
 
 "Bylo by lepší", říká, "ponechat bankovnictví zákonům volného obchodu". A dodává:
@@ -1586,7 +1586,7 @@ Dupont de Nemours se proti tomu důrazně postavil a vydal brožuru s názvem [*
 
 
 
-![image](assets/fr/092.webp)
+![image](assets/cs/092.webp)
 
 
 Pamflet podepsal jako "přítel lidu". Tento článek vyvolal značný rozruch, protože se shromáždění ptalo, kdo ho napsal. Dupont de Nemours pak vstal a přiznal, že je to jeho dílo, a řekl, že se nestydí používat titul "přítel lidu", protože boj proti asignátům je skutečnou službou lidu.
@@ -1595,7 +1595,7 @@ Jeho rady byly opět ignorovány a byly vydány asignáty.
 
 
 
-![image](assets/fr/093.webp)
+![image](assets/cs/093.webp)
 
 
 Všichni víme, jaká katastrofa následovala, jakou hospodářskou zkázu a utrpení lidé zažili, protože mnozí z nich přišli o všechno, když se asignáty staly bezcennými a musely být spáleny.
@@ -1627,7 +1627,7 @@ Boisguilbert tvrdí, že lidé s dobrými úmysly, kteří věří, že vše nap
 
 
 
-![image](assets/fr/094.webp)
+![image](assets/cs/094.webp)
 
 
 Cantillon trval na tom, že s penězi se nesmí manipulovat pro politické cíle. Umožnit státu nakládat s penězi, jak se mu zlíbí, znamená připravit půdu pro obrovský finanční a hospodářský chaos.
@@ -1648,7 +1648,7 @@ Markýz d'Argenson tvrdí, že žádná vláda není schopna předvídat a měř
 
 
 
-![image](assets/fr/095.webp)
+![image](assets/cs/095.webp)
 
 
 Quesnay a fyziokraté tvrdili, že soukromé vlastnictví je základem lidské společnosti. Bez soukromého vlastnictví ztrácí člověk motivaci k úsilí, k práci, protože si nemůže užívat plodů své práce ani nic hromadit.

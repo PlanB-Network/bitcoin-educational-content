@@ -6,4 +6,4 @@ wrong_answers:
   - Confidentialité, fonctionnalité, fiabilité
 explanation: |
   Les mises à jour assurent la sécurité contre les vulnérabilités, la compatibilité avec les évolutions et nouvelles fonctionnalités, et la fiabilité du système.
-reviewed: false
+reviewed: true 

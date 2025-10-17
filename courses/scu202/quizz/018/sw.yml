@@ -6,4 +6,4 @@ wrong_answers:
   - Zypper
 explanation: |
   Debian na Ubuntu hutumia kidhibiti kifurushi cha APT, kulingana na umbizo la .deb, kudhibiti usakinishaji na kusasisha programu.
-reviewed: false
+reviewed: true

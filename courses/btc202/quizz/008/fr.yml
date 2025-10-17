@@ -6,4 +6,4 @@ wrong_answers:
   - Relayer les transactions du réseau
 explanation: |
   Un portefeuille Bitcoin gère les clés privées qui permettent de dépenser les bitcoins, mais il n’exécute pas les fonctions d’un nœud.
-reviewed: false
+reviewed: true 

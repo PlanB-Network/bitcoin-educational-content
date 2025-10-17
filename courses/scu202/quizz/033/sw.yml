@@ -6,4 +6,4 @@ wrong_answers:
   - Mfumo wa Mfumo Unaoaminika (TPM)
 explanation: |
   Secure Boot huhakikisha kuwa programu iliyoidhinishwa pekee ndiyo inayoweza kuwasha mfumo, hivyo basi kupunguza hatari ya maambukizi ya bootkit/rootkit.
-reviewed: false
+reviewed: true

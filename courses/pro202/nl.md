@@ -40,6 +40,12 @@ Vervolgens formaliseer je de componenten van ECDSA: sleutelaanmaak, puntopmaak, 
 
 ### De interne werking van een Bitcoin-transactie
 
+In het tweede deel zal je de structuur van een Bitcoin-transactie ontleden: UTXO’s, inputs/outputs, sequenties, scripts, coderingen en meer. Je zult code schrijven om transacties te bouwen, te ondertekenen en te verifiëren, en zo een nauwkeurig begrip krijgen van wat de hash vastlegt en waarom.
+
+Vervolgens implementeer je een minimale _Script_-uitvoerder, bekijk je belangrijke opcodes en valideer je de uitgavenpaden. Het doel is dat je in staat bent het transactiegedrag te auditen, validatiefouten te diagnosticeren en te redeneren over de veiligheid van bestedingsbeleid.
+
+### De interne werking van het Bitcoin-netwerk
+
 # Essentiële wiskundige concepten voor Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

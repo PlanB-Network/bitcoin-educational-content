@@ -40,6 +40,12 @@ Nyuma y’aho uzosobanura neza ibice bigize ECDSA: ukurema imfunguzo, imiterere 
 
 ### Uko ibikorwa vy’imbere vya transakosiyo ya Bitcoin bikora
 
+Mu gice ca kabiri, uzosuzuma neza imiterere ya transakosiyo ya Bitcoin: UTXO, ibinjizwa/ibisohoka, urukurikirane, script, uburyo bwo kwandika n’ibindi. Uzandika kode yo gukora, gushiraho umukono no kugenzura transakosiyo, ubone neza ico hash ishimangira n’igituma.
+
+Hanyuma uzoshira mu bikorwa umukozi muto wa _Script_, usuzume amadosiye y’ingenzi ya opcode, kandi wemeze inzira zo gukoresha amafaranga. Intego ni ugufasha ushobora gusuzuma imyitwarire ya transakosiyo, kumenya aho isuzuma ryahushije no gutekereza ku mutekano w’amategeko yo gukoresha amafaranga.
+
+### Uko urusobe rwa Bitcoin rukora imbere
+
 # Ivyiyumviro vy'ingenzi vy'imibare vya Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

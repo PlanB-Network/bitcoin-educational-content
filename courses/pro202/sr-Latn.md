@@ -40,6 +40,12 @@ Zatim ćeš formalizovati komponente ECDSA: generisanje ključeva, formatiranje 
 
 ### Unutrašnje funkcionisanje Bitcoin transakcije
 
+U drugom odeljku ćeš analizirati strukturu Bitcoin transakcije: UTXO-e, ulaze/izlaze, sekvence, skripte, enkodiranja i još mnogo toga. Pisaćeš kod za kreiranje, potpisivanje i verifikaciju transakcija, stičući precizno razumevanje toga šta hash potvrđuje i zašto.
+
+Zatim ćeš implementirati minimalni _Script_ izvršilac, pregledati ključne opkode i verifikovati putanje trošenja. Cilj je da budeš sposoban da proveravaš ponašanje transakcija, dijagnostikuješ neuspehe validacije i razmišljaš o bezbednosti politika trošenja.
+
+### Unutrašnje funkcionisanje Bitcoin mreže
+
 # Osnovni matematički koncepti za Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

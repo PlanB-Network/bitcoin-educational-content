@@ -40,6 +40,12 @@ Successivamente formalizzerai i componenti di ECDSA: generazione delle chiavi, f
 
 ### Funzionamento interno di una transazione Bitcoin
 
+Nella seconda sezione analizzerai la struttura di una transazione Bitcoin: UTXO, input/output, sequenze, script, codifiche e altro ancora. Scriverai codice per costruire, firmare e verificare transazioni, ottenendo una comprensione precisa di ciò che viene impegnato dall’hash e del perché.
+
+Successivamente implementerai un esecutore _Script_ minimale, esaminerai gli opcodes principali e validerai i percorsi di spesa. L’obiettivo è renderti capace di verificare il comportamento delle transazioni, diagnosticare errori di validazione e valutare la sicurezza delle politiche di spesa.
+
+### Funzionamento interno della rete Bitcoin
+
 # Concetti matematici essenziali per Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

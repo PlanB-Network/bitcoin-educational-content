@@ -40,6 +40,12 @@ Seejärel vormistad ECDSA komponendid: võtmete genereerimine, punktide vorminda
 
 ### Bitcoini tehingu sisemine toimimine
 
+Teises osas analüüsid Bitcoini tehingu struktuuri: UTXO-sid, sisendeid/väljundeid, jadasid, skripte, kodeeringuid ja muud. Kirjutad koodi tehingute koostamiseks, allkirjastamiseks ja kontrollimiseks, saavutades täpse arusaamise sellest, mida räsi kinnitab ja miks.
+
+Seejärel rakendad minimaalset _Script_-täiturit, vaatad läbi peamised opkoodid ja valideerid kulutusteed. Eesmärk on muuta sind võimeliseks auditeerima tehingute käitumist, diagnoosima valideerimisvigu ja hindama kulutuspoliitikate turvalisust.
+
+### Bitcoini võrgu sisemine toimimine
+
 # Olulised matemaatilised mõisted Bitcoin jaoks
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

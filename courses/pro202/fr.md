@@ -44,6 +44,12 @@ Vous formaliserez ensuite les composants de l’ECDSA : génération de clé, fo
 
 ### Fonctionnement interne d’une transaction Bitcoin
 
+Dans la deuxième section, vous analyserez la structure d’une transaction Bitcoin : UTXO, entrées/sorties, séquences, scripts, encodages, et plus encore. Vous écrirez du code pour construire, signer et vérifier des transactions, acquérant ainsi une compréhension précise de ce que le hachage engage et pourquoi.
+
+Ensuite, vous mettrez en œuvre un exécuteur _Script_ minimal, passerez en revue les principaux opcodes et validerez les chemins de dépense. L’objectif est de vous rendre capable d’auditer le comportement des transactions, de diagnostiquer les échecs de validation et de raisonner sur la sécurité des politiques de dépense.
+
+### Fonctionnement interne du réseau Bitcoin
+
 # Concepts mathématiques essentiels pour Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

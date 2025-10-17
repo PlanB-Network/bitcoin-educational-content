@@ -40,6 +40,12 @@ Kisha utafafanua kwa undani vipengele vya ECDSA: uundaji wa funguo, muundo wa nu
 
 ### Utendaji wa Ndani wa Muamala wa Bitcoin
 
+Katika sehemu ya pili, utachambua muundo wa muamala wa Bitcoin: UTXO, ingizo/tokeo, mlolongo, hati, usimbaji na mengineyo. Utaandika msimbo wa kujenga, kusaini, na kuthibitisha miamala, ukipata uelewa sahihi wa kile kinachowekwa na hash na kwa nini.
+
+Kisha utaweka mtekelezaji mdogo wa _Script_, kupitia opcodes muhimu, na kuthibitisha njia za matumizi. Lengo ni kukuwezesha kukagua tabia ya miamala, kugundua kushindwa kwa uthibitishaji, na kutathmini usalama wa sera za matumizi.
+
+### Utendaji wa Ndani wa Mtandao wa Bitcoin
+
 # Dhana Muhimu za Hisabati kwa Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

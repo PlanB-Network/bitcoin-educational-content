@@ -40,6 +40,12 @@ Poté formalizujete komponenty ECDSA: generování klíčů, formátování bod�
 
 ### Vnitřní fungování bitcoinové transakce
 
+V druhé části rozeberete strukturu bitcoinové transakce: UTXO, vstupy/výstupy, sekvence, skripty, kódování a další. Napíšete kód pro vytvoření, podepsání a ověření transakcí, čímž získáte přesné pochopení toho, co je hashováním závazně potvrzeno a proč.
+
+Dále implementujete minimalistický vykonavatel _Scriptu_, přezkoumáte klíčové opkódy a ověříte cesty utrácení. Cílem je, abyste byli schopni auditovat chování transakcí, diagnostikovat chyby ověřování a uvažovat o bezpečnosti zásad utrácení.
+
+### Vnitřní fungování bitcoinové sítě
+
 # Základní matematické pojmy pro Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

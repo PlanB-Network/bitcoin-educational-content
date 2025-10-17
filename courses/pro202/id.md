@@ -40,6 +40,12 @@ Kemudian Anda akan memformalkan komponen ECDSA: pembuatan kunci, pemformatan tit
 
 ### Mekanisme Internal Transaksi Bitcoin
 
+Di bagian kedua, Anda akan membedah struktur dari sebuah transaksi Bitcoin: UTXO, input/output, urutan, skrip, pengkodean, dan lainnya. Anda akan menulis kode untuk membangun, menandatangani, dan memverifikasi transaksi, sehingga memperoleh pemahaman yang tepat tentang apa yang dikomit oleh hash dan alasannya.
+
+Selanjutnya, Anda akan mengimplementasikan eksekutor _Script_ minimal, meninjau opcode utama, dan memvalidasi jalur pengeluaran. Tujuannya adalah agar Anda mampu mengaudit perilaku transaksi, mendiagnosis kegagalan validasi, dan menilai keamanan kebijakan pengeluaran.
+
+### Mekanisme Internal Jaringan Bitcoin
+
 # Konsep Matematika Esensial untuk Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

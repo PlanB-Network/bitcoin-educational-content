@@ -40,6 +40,12 @@ Anschließend werden Sie die Komponenten von ECDSA formalisieren: Schlüsselgene
 
 ### Das Innenleben einer Bitcoin-Transaktion
 
+Im zweiten Abschnitt werden Sie die Struktur einer Bitcoin-Transaktion analysieren: UTXOs, Eingaben/Ausgaben, Sequenzen, Skripte, Kodierungen und mehr. Sie werden Code schreiben, um Transaktionen zu erstellen, zu signieren und zu verifizieren, und dabei ein genaues Verständnis davon gewinnen, was durch den Hash festgelegt wird und warum.
+
+Als Nächstes implementieren Sie einen minimalen _Script_-Interpreter, überprüfen wichtige Opcodes und validieren Ausgabepfade. Das Ziel ist, Sie in die Lage zu versetzen, das Transaktionsverhalten zu prüfen, Validierungsfehler zu diagnostizieren und über die Sicherheit von Ausgaberegeln zu urteilen.
+
+### Das Innenleben des Bitcoin-Netzwerks
+
 # Grundlegende mathematische Konzepte für Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

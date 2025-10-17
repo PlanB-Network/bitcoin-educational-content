@@ -40,6 +40,12 @@ Następnie sformalizujesz komponenty ECDSA: generowanie kluczy, formatowanie pun
 
 ### Wewnętrzne działanie transakcji Bitcoina
 
+W drugiej części przeanalizujesz strukturę transakcji Bitcoina: UTXO, wejścia/wyjścia, sekwencje, skrypty, kodowania i inne. Napiszesz kod do konstruowania, podpisywania i weryfikowania transakcji, uzyskując precyzyjne zrozumienie tego, co jest zobowiązane przez hash i dlaczego.
+
+Następnie zaimplementujesz minimalny wykonawca _Script_, przeanalizujesz kluczowe kody operacji i zweryfikujesz ścieżki wydatków. Celem jest umożliwienie ci audytu zachowania transakcji, diagnozowania błędów walidacji oraz rozumowania o bezpieczeństwie polityk wydatkowych.
+
+### Wewnętrzne działanie sieci Bitcoina
+
 # Podstawowe pojęcia matematyczne dla Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

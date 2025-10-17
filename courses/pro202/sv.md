@@ -40,6 +40,12 @@ Därefter kommer du att formalisera komponenterna i ECDSA: nyckelgenerering, pun
 
 ### Den inre funktionen hos en Bitcoin-transaktion
 
+I det andra avsnittet kommer du att analysera strukturen av en Bitcoin-transaktion: UTXO:er, in-/utgångar, sekvenser, skript, kodningar och mer. Du kommer att skriva kod för att konstruera, signera och verifiera transaktioner, och få en exakt förståelse av vad som förbinds av hash och varför.
+
+Därefter kommer du att implementera en minimal _Script_-tolk, granska viktiga opkoder och validera utgiftsvägar. Målet är att göra dig kapabel att granska transaktionsbeteenden, diagnostisera valideringsfel och resonera kring säkerheten i utgiftspolicys.
+
+### Den inre funktionen hos Bitcoin-nätverket
+
 # Grundläggande matematiska begrepp för Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

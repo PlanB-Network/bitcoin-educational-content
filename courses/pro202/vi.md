@@ -40,6 +40,12 @@ Sau đó, bạn sẽ chính thức hóa các thành phần của ECDSA: tạo kh
 
 ### Cơ chế hoạt động bên trong của giao dịch Bitcoin
 
+Trong phần thứ hai, bạn sẽ phân tích cấu trúc của một giao dịch Bitcoin: UTXO, đầu vào/đầu ra, chuỗi, tập lệnh, mã hóa và nhiều hơn nữa. Bạn sẽ viết mã để xây dựng, ký và xác minh các giao dịch, qua đó hiểu rõ chính xác điều gì được cam kết bởi hàm băm và lý do tại sao.
+
+Tiếp theo, bạn sẽ triển khai một trình thực thi _Script_ tối giản, xem xét các mã vận hành chính và xác thực các đường dẫn chi tiêu. Mục tiêu là giúp bạn có khả năng kiểm toán hành vi giao dịch, chẩn đoán các lỗi xác thực và đánh giá tính an toàn của các chính sách chi tiêu.
+
+### Cơ chế hoạt động bên trong của mạng Bitcoin
+
 # Các khái niệm toán học thiết yếu cho Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

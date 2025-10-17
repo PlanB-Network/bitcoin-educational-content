@@ -40,6 +40,12 @@ Deretter vil du formalisere komponentene i ECDSA: nøkkelgenerering, punktformat
 
 ### Den indre virkemåten til en Bitcoin-transaksjon
 
+I den andre delen vil du analysere strukturen til en Bitcoin-transaksjon: UTXO-er, input/output, sekvenser, skript, kodinger og mer. Du vil skrive kode for å konstruere, signere og verifisere transaksjoner, og oppnå en presis forståelse av hva som forpliktes av hashen og hvorfor.
+
+Deretter vil du implementere en minimal _Script_-utfører, gjennomgå viktige opkoder og validere utgiftsbaner. Målet er å gjøre deg i stand til å revidere transaksjonsatferd, diagnostisere valideringsfeil og vurdere sikkerheten til utgiftspolicyer.
+
+### Den indre virkemåten til Bitcoin-nettverket
+
 # Grunnleggende matematiske begreper for Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

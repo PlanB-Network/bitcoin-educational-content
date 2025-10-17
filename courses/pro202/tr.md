@@ -40,6 +40,12 @@ Daha sonra ECDSA’nın bileşenlerini resmileştireceksiniz: anahtar oluşturma
 
 ### Bir Bitcoin İşleminin İç Yapısı
 
+İkinci bölümde, bir Bitcoin işleminin yapısını analiz edeceksiniz: UTXO'lar, girişler/çıkışlar, diziler, betikler, kodlamalar ve daha fazlası. İşlemleri oluşturmak, imzalamak ve doğrulamak için kod yazacak, hash tarafından neyin taahhüt edildiğini ve nedenini tam olarak anlayacaksınız.
+
+Sonraki adımda, minimal bir _Script_ yürütücü uygulayacak, temel opkodları inceleyecek ve harcama yollarını doğrulayacaksınız. Amaç, işlem davranışlarını denetleyebilmenizi, doğrulama hatalarını teşhis edebilmenizi ve harcama politikalarının güvenliği hakkında değerlendirme yapabilmenizi sağlamaktır.
+
+### Bitcoin Ağının İç Yapısı
+
 # Bitcoin için Temel Matematiksel Kavramlar
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -40,6 +40,12 @@ Tämän jälkeen muodollistat ECDSA:n komponentit: avaimen generoinnin, pisteide
 
 ### Bitcoin-siirron sisäinen toiminta
 
+Toisessa osassa puret auki Bitcoin-siirron rakenteen: UTXO:t, syötteet/tulosteet, sekvenssit, skriptit, koodaukset ja paljon muuta. Kirjoitat koodia rakentaaksesi, allekirjoittaaksesi ja tarkistaaksesi siirtoja, saadaksesi tarkan käsityksen siitä, mitä hash sitouttaa ja miksi.
+
+Seuraavaksi toteutat minimaalisen _Script_-suorittimen, tarkastelet keskeisiä opkoodeja ja validoit kulutuspolut. Tavoitteena on, että pystyt auditoimaan transaktioiden käyttäytymistä, diagnosoimaan validointivirheitä ja arvioimaan kulutuskäytäntöjen turvallisuutta.
+
+### Bitcoin-verkon sisäinen toiminta
+
 # Bitcoin:n keskeiset matemaattiset käsitteet
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

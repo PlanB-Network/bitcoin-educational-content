@@ -5,5 +5,5 @@ wrong_answers:
   - Debian
   - Fedora
 explanation: |
-  Mdalasini ilitengenezwa na timu ya Linux Mint ili kutoa Interface ya kisasa, ya kawaida, karibu na Windows.
-reviewed: false
+  Cinnamon ilitengenezwa na timu ya Linux Mint ili kutoa Interface ya kisasa, ya kawaida, karibu na Windows.
+reviewed: true

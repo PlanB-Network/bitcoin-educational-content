@@ -83,7 +83,7 @@ Inflaatio on käsite, joka ymmärretään usein väärin sen moninaisten määri
 - Määritelmä Larousse-tietosanakirjasta: Inflaatio on ilmiö, jolle on ominaista yleinen ja jatkuva hintatason nousu. Tässä sana "yleistynyt" on ratkaiseva.
 
 
-![image](assets/fr/001.webp)
+![image](assets/fi/001.webp)
 
 
 Näiden määritelmien valossa on olennaista ymmärtää, että Robertin mukaan inflaatio koskee pääasiassa rahan määrän kasvua Supply. Toisaalta Larousse keskittyy tämän kasvun seurauksiin eli hintojen yleiseen nousuun.
@@ -115,7 +115,7 @@ Perinteisissä rahajärjestelmissä rahamäärän kasvattaminen Supply toteutett
 Toinen tapa oli vähentää jalometallin määrää hopean tai kullan kaltaisiin metalleihin perustuvissa valuutoissa. Tästä on hyvä esimerkki Rooman valtakunnassa, jossa alun perin lähes kokonaan hopeasta koostuneen denaarin hopeapitoisuutta vähennettiin ajan mittaan huomattavasti. Tämä oli eräänlaista inflaatiota, mutta ei välttämättä hyperinflaatiota.
 
 
-![image](assets/fr/002.webp)
+![image](assets/fi/002.webp)
 
 
 On tärkeää korostaa, että hyperinflaatiota havaitaan ensisijaisesti fiat-valuutoissa, joiden vakuutena ei ole niiden taustalla olevia varoja, kuten jalometalleja. Historiallisesti, kun valuutta perustui tällaiseen omaisuuteen, on esiintynyt inflaatiota (esim. metallipitoisuuden devalvoitumisen kautta), mutta nämä jaksot eivät koskaan saavuttaneet hyperinflaation äärimmäisiä tasoja. Seuraavissa jaksoissa tarkastelemme yksityiskohtaisesti rahan devalvaatiojaksoja ja näiden erilaisten rahajärjestelmien vaikutuksia inflaatioon.
@@ -132,7 +132,7 @@ Eri sivilisaatiot ovat historian saatossa kokeneet rahan devalvoitumisen kausia.
 
 Ateenan ja Spartan välinen Peloponnesoksen sota ja Rooman tasavallan ja Karthagon välinen toinen Puninen sota ovat varhaisimpia arkistoista löytyviä esimerkkejä valuutan devalvaatiosta. Näiden sotien rahoittamiseksi nämä sivilisaatiot devalvoivat valuuttojaan vähentämällä hopeapitoisuutta ja ottamalla mukaan muita metalleja ja lisäämällä samalla tuotettujen kolikoiden määrää.
 
-![image](assets/fr/003.webp)
+![image](assets/fi/003.webp)
 
 
 Kaiverrus, joka kuvaa ateenalaisten verilöylyä Assinaros-joen rannalla.
@@ -147,7 +147,7 @@ Rooman tasavallan aikakauden jälkeen, keisarikunnan aikana, 3. ja 4. vuosisadal
 Vaikka näinä aikoina inflaatio oli huomattavaa, se ei kuitenkaan yltänyt joissakin nykyajan tilanteissa havaitun hyperinflaation tasolle. Syynä tähän on se, että vaikka valuuttaa devalvoitiin, se oli edelleen jalometallien tukema. Tämä vankka perusta tarjosi jonkinlaisen suojan äärimmäisiä inflaatiotasoja vastaan. Seuraavissa jaksoissa tarkastelemme tarkemmin hyperinflaation luonnetta ja seurauksia.
 
 
-![image](assets/fr/004.webp)
+![image](assets/fi/004.webp)
 
 
 
@@ -164,7 +164,7 @@ Rahan devalvoitumisen myötä syntyi uusi valuutta, Antoninianus. Tämän valuut
 Kun näitä kahta kolikkoa verrataan vierekkäin, ero on silmiinpistävä. Denari vuodelta 160 jKr. näyttää selvästi hopealta, kun taas 3. vuosisadan loppupuolelta jKr. peräisin oleva antoninianus on paljon himmeämpi, mikä viittaa hopeapitoisuuden merkittävään vähenemiseen. Tämä visuaalinen vertailu havainnollistaa selvästi rahan arvon alenemisen, jonka antiikin Rooma koki muutaman vuosisadan aikana.
 
 
-![image](assets/fr/005.webp)
+![image](assets/fi/005.webp)
 
 
 Tämän esityksen täydentämiseksi olisi ihanteellista esittää kuvaaja, joka havainnollistaisi näiden kolikoiden arvon alenemista ajan myötä. Vaikka sitä on vaikea havainnollistaa tällä alustalla, kuvittele kuvaaja, jossa näkyy denaarin arvo ja sen lasku 2. vuosisadan loppupuolella, jolloin se korvattiin antoninianuksella, jonka arvoksi oletettiin kaksi denaria mutta jonka hopeapitoisuus oli huomattavasti pienempi. Nämä artefaktit ovat hiljaisia todistajia menneiden sivilisaatioiden taloudellisista vaihteluista.
@@ -173,7 +173,7 @@ Tämän esityksen täydentämiseksi olisi ihanteellista esittää kuvaaja, joka 
 #### 3. Espanjan Maravedi: todistaja kohdennetusta devalvaatiosta
 
 
-![image](assets/fr/006.webp)
+![image](assets/fi/006.webp)
 
 
 Maravedi on kuparivaluuttana erityisasemassa Espanjan rahan historiassa. Kuten aiemmin mainittiin, Espanjan dollari oli alun perin kansainvälinen standardi, joka oli Espanjalle tärkeä varantovaluutta. Tiettyjen taloudellisten haasteiden edessä Espanjan oli kuitenkin turvauduttava fiksuihin rahapoliittisiin strategioihin.
@@ -190,7 +190,7 @@ Tämän strategian avulla valtio saattoi tehokkaasti devalvoida valuuttaa, luoda
 Maravedisin tapaus osoittaa, miten valtio voi valikoivasti devalvoida paikallista valuuttaa sisäisten taloudellisten tarpeidensa tyydyttämiseksi ja samalla säilyttää varantovaluutan arvon maailmanlaajuisesti. Se on vaikuttava esimerkki rahapolitiikan monimutkaisuudesta ja hienovaraisuudesta historiassa.
 
 
-![image](assets/fr/007.webp)
+![image](assets/fi/007.webp)
 
 
 Haluatko tietää lisää? -> [Linkki](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
@@ -208,7 +208,7 @@ Euroopassa koettiin 1400- ja 1600-luvuilla merkittävä taloudellinen ilmiö, jo
 Ranskan taloushistoriaa leimasi 1700-luvulla kaksi merkittävää valuuttaan liittyvää tapahtumaa. Ensinnäkin skotlantilainen taloustieteilijä ja rahoittaja John Law sai Ranskan hallituksen omaksumaan paperirahaan perustuvan rahajärjestelmän. Vaikka tätä aloitetta pidettiin aluksi innovatiivisena ratkaisuna maan rahoitusongelmiin, se johti nopeasti hillittömään inflaatioon. Pian Ranskan vallankumouksen myllerryksessä hallitus otti käyttöön "assignatteja".
 
 
-![image](assets/fr/008.webp)
+![image](assets/fi/008.webp)
 
 
 Assignat vuodelta 1793
@@ -230,7 +230,7 @@ Yhdysvalloissa 1930-luvun alussa rahapolitiikassa tapahtui merkittävä muutos. 
 - Vuoden 1928 20 dollarin seteli
 
 
-![image](assets/fr/009.webp)
+![image](assets/fi/009.webp)
 
 
 Vuonna 1928 Yhdysvaltojen 20 dollarin setelissä luki: "lunastettavissa kullaksi vaadittaessa" Tämä tarkoittaa, että jokainen seteli oli kirjaimellisesti vaihdettavissa kultaan. Tarkemmin sanottuna 20,67 dollarin seteli vastasi yhtä unssia kultaa.
@@ -243,13 +243,13 @@ Vuonna 1928 Yhdysvaltojen 20 dollarin setelissä luki: "lunastettavissa kullaksi
 Vuonna 1933 tapahtui suuri mullistus, kun Executive Order 6102 annettiin. Tämän määräyksen mukaan kansalaisten oli kiellettyä pitää hallussaan kultaa, olipa se sitten harkkojen, kolikoiden tai sertifikaattien muodossa.
 
 
-![image](assets/fr/010.webp)
+![image](assets/fi/010.webp)
 
 
 Kultainen sertifikaatti on hyvä esimerkki. Se oli merkitty: "Kulta Coin, maksetaan haltijalle vaadittaessa." Tällaisen todistuksen hallussapidosta tuli laitonta, ja se pysyi laittomana vuoteen 1964 asti.
 
 
-![image](assets/fr/011.webp)
+![image](assets/fi/011.webp)
 
 
 
@@ -259,7 +259,7 @@ Kultainen sertifikaatti on hyvä esimerkki. Se oli merkitty: "Kulta Coin, makset
 Kullan takavarikoinnin jälkeen vuonna 1934 otettiin käyttöön uusi setelisarja.
 
 
-![image](assets/fr/012.webp)
+![image](assets/fi/012.webp)
 
 Maininta niiden vaihdettavuudesta kultaan on poistettu ja korvattu sanoilla "Tämä seteli on laillinen maksuväline kaikkiin velkoihin" (Ce billet est une monnaie légale pour toutes dettes).
 
@@ -286,7 +286,7 @@ Aikaisemmin, renessanssin aikana, Firenzen 1200-luvulla liikkeeseen laskema Ital
 Samassa hengessä Espanja ja Alankomaat, jotka kukoistavan kansainvälisen kaupankäyntinsä ansiosta olivat maailman varantovaluutan haltijoita, säilyttivät valuuttojensa koskemattomuuden säilyttääkseen luottamuksen ja status quo:n kansainvälisessä vaihdannassa. Alankomaissa perustettiin jopa ensimmäinen keskuspankki, mikä on merkittävä virstanpylväs rahajärjestelmien maailmanlaajuisessa kehityksessä.
 
 
-![image](assets/fr/013.webp)
+![image](assets/fi/013.webp)
 
 
 Tilanne kuitenkin muuttui Yhdysvaltojen noustua hallitsevaksi talousmahdiksi. Ne päättivät devalvoida varantovaluuttaansa ja käyttää inflaatiota hyväkseen. Tämä päätös johtuu usein muuttuneesta dynamiikasta, jossa varavaluutan valinta ei ollut enää yhtä vapaata kuin aiemmin. Yhdysvaltain hegemonia vakiinnutti dollarin maailman varantovaluutaksi, mikä mahdollisti sen arvon manipuloinnin. Tämä muutos paljastaa rahapolitiikan mahdollisen vaikutuksen kansainväliseen kauppaan globalisoituneessa taloudessa ja merkitsee merkittävää muutosta maailman varantovaluuttojen hallinnassa.
@@ -298,13 +298,13 @@ Tilanne kuitenkin muuttui Yhdysvaltojen noustua hallitsevaksi talousmahdiksi. Ne
 Sveitsin dinaari kuvaa toista kiehtovaa näkökulmaa rahan devalvaatioon, tällä kertaa Persianlahden sotaa edeltävässä Irakin tilanteessa. Irakin keskuspankki laski liikkeelle tätä valuuttaa, joka sai nimensä seteliensä huomattavan laadukkaan laadun perusteella ja joka oli Lähi-idän alueella tunnettu vakaudesta. Tämä luottamus johtui pääasiassa setelipainon laadusta, joka oli tehty Englannissa, mikä merkitsi tiettyä kestävyyttä devalvaatiota vastaan.
 
 
-![image](assets/fr/014.webp)
+![image](assets/fi/014.webp)
 
 
 Persianlahden sodat merkitsivät kuitenkin käännekohtaa Sveitsin dinaarin historiassa. Irak, joka ei enää voinut luottaa setelien painamisessa englantilaiseen toimittajaansa, kääntyi Kiinan puoleen. Tämä muutos johti selvään eroon seteleiden laadussa, ja kiinalaista versiota pidettiin huonompana. Tämä käsitys ei ollut perusteeton; kiinalaiset setelit olivat helpommin väärennettävissä ja alttiimpia hallituksen ylipainatukselle, mikä uhkasi niiden arvoa.
 
 
-![image](assets/fr/015.webp)
+![image](assets/fi/015.webp)
 
 
 Persianlahden sodan jälkeisessä Irakin taloudessa ilmeni eräs erityinen ilmiö: kaksoishinnoittelujärjestelmä. Kauppiaat tarjosivat erilaisia hintoja riippuen siitä, minkälaista seteliä käytettiin maksuvälineenä, ja suosivat alkuperäistä Sveitsin dinaaria kiinalaisen setelin sijaan. Tämä järjestelmä heijasti luottamusta laadukkaampiin seteleihin, jotka olivat vähemmän alttiita devalvoitumiselle, jopa tilanteessa, jossa valtio määräsi arvon ensisijaisesti. Tämä episodi korostaa valuutan luontaisten ominaisuuksien merkitystä ja sitä, miten jopa fiat-valuuttajärjestelmässä valuutan koettu laatu voi vaikuttaa sen suhteelliseen arvoon ja sitä kautta talouden toimijoiden luottamukseen.
@@ -316,7 +316,7 @@ Persianlahden sodan jälkeisessä Irakin taloudessa ilmeni eräs erityinen ilmi�
 Yleinen käsitys yhdistää valuutan usein valtion luomiseen, jolloin valtio säätelee sen liikkeeseenlaskua ja arvoa. Tämä käsite juontaa juurensa antiikin sivilisaatioihin, kuten Roomaan, jossa valtakunta standardoi ja leimasi kolikot ja antoi näin valuutalle virallisen arvon. Syvällisempi tarkastelu paljastaa kuitenkin, että valuutan itseisarvo johtui pääasiassa sen jalometallipitoisuudesta.
 
 
-![image](assets/fr/016.webp)
+![image](assets/fi/016.webp)
 
 Esimerkkinä voidaan käyttää kahdeksan Espanjan reaita eli yhtä Espanjan dollaria vastaavaa rahapainoa. Valuutanvaihtajat käyttivät tätä painoa, joka oli merkitty arvoa osoittavalla roomalaisella numerolla, arvioidessaan kolikoiden arvoa niiden painon eikä pelkästään niiden leimauksen perusteella. Punnitsemalla kolikot valuutanvaihtajat pystyivät määrittämään, oliko kolikoita muutettu tai vahingoitettu, mikä olisi voinut alentaa niiden arvoa. Tämä käytäntö osoittaa, että vaikka valtion standardoitu leimaaminen antoi valuutalle tietyn nimellisarvon, todellinen arvo perustui sen sisältämän jalometallin painoon.
 
@@ -342,7 +342,7 @@ Yhteenvetona voidaan todeta, että tämä rahapolitiikan devalvaatiota koskeva t
 Tässä jaksossa tarkastelemme inflaation eri näkökohtia, sillä inflaatio on ilmiö, joka ymmärretään usein väärin. Vaikka inflaatio mielletään tiedotusvälineissä ja arkikeskusteluissa usein monitekijäiseksi ilmiöksi, on tärkeää muistaa, että se on pohjimmiltaan rahapoliittinen ilmiö.
 
 
-![image](assets/fr/017.webp)
+![image](assets/fi/017.webp)
 
 
 Seuraavassa on jaettu aihe useisiin keskeisiin kohtiin:
@@ -400,7 +400,7 @@ Tämä keskustelu korostaa, että on tärkeää ymmärtää inflaation ja deflaa
 Vaikka inflaatio liittyy usein rahan määrän kasvuun, se ei aina ole suorassa yhteydessä rahan painamiseen, kuten vuoden 2008 finanssikriisin jälkeinen aika osoittaa. Huolimatta merkittävästä rahan painamisesta pankkien pelastamiseksi seuraavalla vuosikymmenellä inflaatio ei ollut korkea, vaan se oli keskimäärin 0-2 prosenttia vuodessa. Tämä tilanne herättää kysymyksen: Miksi massiivinen rahan painaminen ei johtanut suhteelliseen inflaatioon? Vastaus löytyy useista inflaation ja kuluttajahintaindeksin (CPI) mittaamiseen liittyvistä vivahteista.
 
 
-![image](assets/fr/018.webp)
+![image](assets/fi/018.webp)
 
 
 Ensimmäinen selitys liittyy tapaan, jolla inflaatiota mitataan. Kuluttajahintaindeksillä (CPI), jota käytetään ensisijaisena inflaation indikaattorina, on tiettyjä rajoituksia. Se ei esimerkiksi ota kattavasti huomioon kiinteistöjen hintakehitystä. Vaikka kuluttajahintaindeksi sisältää vuokriin liittyvän komponentin, asuntojen hintojen huomattava nousu ei näy indeksissä täysimääräisesti. Tämän vuoksi asumiskustannukset voivat nousta merkittävästi, mutta kuluttajahintaindeksi ei täysin kata niitä, mikä saattaa aliarvioida todellista inflaatiota.
@@ -409,7 +409,7 @@ Ensimmäinen selitys liittyy tapaan, jolla inflaatiota mitataan. Kuluttajahintai
 Lisäksi kuluttajahintaindeksin laskennassa käytetään tiettyjä menetelmiä, jotka voivat kumota tai peittää todelliset hinnankorotukset. Esimerkiksi tuotteiden laadullisia parannuksia voidaan käyttää indeksin mukauttamiseen. Jos tuotteen hinta nousee, mutta myös sen laatu tai ominaisuudet paranevat, kuluttajahintaindeksissä saatetaan katsoa, että tuotteen todellinen arvo kuluttajan kannalta ei ole muuttunut, eikä se näin ollen heijasta inflaatiota. Havainnollistava tapaus on sellainen, jossa vaikka naudanlihan ja tietokoneiden hinnat ovat nousseet raharuiskeen vuoksi, tietokoneiden suorituskyvyn parantumista käytetään kompensoimaan tätä nousua. Jos tietokone maksaa kaksi kertaa enemmän mutta on neljä kertaa tehokkaampi, kuluttajahintaindeksi voi tulkita tämän hintojen laskuksi ja peittää siten naudanlihan hinnannousun.
 
 
-![image](assets/fr/019.webp)
+![image](assets/fi/019.webp)
 
 
 Nämä vivahteet inflaation mittaamisessa kuluttajahintaindeksillä korostavat rahapainon ja inflaation välisen suhteen monimutkaisuutta. Ne viittaavat myös siihen, että todellinen inflaatio saattaa olla ilmoitettua suurempi, jos kaikki hinnankorotukset, erityisesti keskeisillä aloilla, kuten kiinteistöalalla, otettaisiin kattavammin huomioon. Tämä analyysi korostaa, että on tärkeää ymmärtää inflaation taustalla olevia mekanismeja ja inflaation mittaamiseen käytettävien perinteisten indeksien rajoituksia, mikä helpottaa rahapolitiikan taloudellisten vaikutusten syvällisempää ymmärtämistä.
@@ -421,7 +421,7 @@ Nämä vivahteet inflaation mittaamisessa kuluttajahintaindeksillä korostavat r
 Nykyaikainen rahateoria (MMT) tarjoaa erillisen näkökulman rahan luomiseen ja inflaatioon. MMT:n mukaan raha on ensisijaisesti peräisin hallitukselta, joka voi painaa huomattavia määriä rahoittaakseen tarpeensa aiheuttamatta inflaatiota, kunhan näiden varojen kohteena olevat alat eivät ole kylläisiä. Tämä lähestymistapa poikkeaa perinteisistä rahateorioista, sillä siinä korostetaan alakohtaisen vastaanottokyvyn merkitystä inflaatiodynamiikassa.
 
 
-![image](assets/fr/020.webp)
+![image](assets/fi/020.webp)
 
 
 Havainnollistava esimerkki MMT:stä on Yhdysvaltain sotateollisuuskompleksi. MMT:n mukaan tälle sektorille voidaan osoittaa satoja miljardeja dollareita ilman, että se aiheuttaa inflaatiota, koska se kykenee ottamaan varat vastaan. Sitä vastoin, jos huomattavia varoja suunnataan tienrakennukseen Yhdysvalloissa, jossa yritysten ja työvoiman määrä on rajallinen, inflaatio voi syntyä resurssien niukkuuden ja tavarantoimittajien vaatimien kustannusten nousun vuoksi.
@@ -438,7 +438,7 @@ Japanin analyysissä (https://ideas.repec.org/p/ces/ceswps/_9821.html) korosteta
 Kolmas esimerkki siitä, miksi rahan painaminen ei aiheuttaisi inflaatiota, on se, että rahan painamisen ja inflaation välistä suhdetta säätelee se, miten vasta luotu raha tuodaan talouteen. Jos tämä raha pysyy yksityisten pankkien taseissa lainaamatta sitä talouden toimijoille, se ei vaikuta suoraan reaalitalouteen eikä näin ollen johda inflaatioon.
 
 
-![image](assets/fr/021.webp)
+![image](assets/fi/021.webp)
 
 
 Rahan painaminen voidaan nähdä talouden yllä roikkuvana Damokleen miekkana. Luotu raha voi pysyä tietyn ajan piilevänä ilman näkyvää inflaatiovaikutusta, kunhan sitä ei pistetä talouteen pankkilainojen tai muiden mekanismien kautta. Kun tämä piilevä raha kuitenkin lopulta lasketaan liikkeeseen, inflaatiovaikutukset voivat ilmetä. Tämä on havaittu 2020-luvulla, jolloin aiemmin luotu raha on tullut talouteen ja johtanut inflaatioon.
@@ -452,7 +452,7 @@ Tämä skenaario korostaa rahapolitiikan välittymismekanismien merkitystä raha
 Weimarin tasavallan esimerkki havainnollistaa toista ratkaisevaa näkökohtaa rahan painamisen ja inflaation välisestä suhteesta: odotusten ja talouden toimijoiden käyttäytymisen merkitystä. Kun Weimarin tasavallan keskuspankki alkoi painaa suuria rahamääriä, taloudellinen epävarmuus sai ihmiset hamstraamaan eli varastoimaan rahaa sen sijaan, että he olisivat käyttäneet sitä. Tämä reaktio viivästytti tilapäisesti rahan painamisen inflaatiovaikutuksia.
 
 
-![image](assets/fr/022.webp)
+![image](assets/fi/022.webp)
 
 
 Kun taloudellinen tilanne alkoi kuitenkin hieman parantua, luottamus palautui vähitellen. Yksityishenkilöt vetivät sitten säästönsä piilopaikoistaan ja alkoivat kuluttaa massiivisesti rahaa talouteen. Tämä äkillinen muutos käyttäytymisessä yhdistettynä jo ennestään suureen rahamäärään Supply johti kysynnän räjähdysmäiseen kasvuun. Kun liikkeessä oli enemmän rahaa ja kysyntä kasvoi, hinnat alkoivat nousta nopeasti, mikä johti tuntuvaan inflaatioon.
@@ -485,7 +485,7 @@ Tämä esimerkki korostaa ajoituksen ja agenttien käyttäytymisen merkitystä i
 Näitä esimerkkejä voidaan käyttää keskusteluissa selittämään, miksi inflaatio ei aina ole rahan painamisen välitön seuraus ja miten taloudelliset olosuhteet ja toimijoiden käyttäytyminen vaikuttavat inflaatioon.
 
 
-![image](assets/fr/023.webp)
+![image](assets/fi/023.webp)
 
 
 Kuten tämä [viestiketju](https://twitter.com/saifedean/status/1673639779433590786) osoittaa: Inflaatio on kaikkea muuta paitsi keskuspankkien vika.
@@ -495,48 +495,48 @@ Kuten tämä [viestiketju](https://twitter.com/saifedean/status/1673639779433590
 - Taloustieteilijät syyttävät ilmastonmuutosta inflaatiosta
 
 
-![image](assets/fr/024.webp)
+![image](assets/fi/024.webp)
 
 
 
 - Esimerkki siitä, että Ruotsi syyttää Beyoncéa inflaatiosta tietyn kuukauden aikana.
 
 
-![image](assets/fr/025.webp)
+![image](assets/fi/025.webp)
 
 
 
 - Puolan keskuspankki selittää inflaation Venäjän hyökkäyksellä Ukrainassa ja pandemialla
 
 
-![image](assets/fr/026.webp)
+![image](assets/fi/026.webp)
 
 
 
 - Brexitiä syytetään inflaatiosta Yhdistyneessä kuningaskunnassa.
 
 
-![image](assets/fr/027.webp)
+![image](assets/fi/027.webp)
 
 
 
 - Zelda-pelin julkaisuun liittyy inflaatiohäiriö.
 
 
-![image](assets/fr/028.webp)
+![image](assets/fi/028.webp)
 
 
 
 - Taylor Swiftin väitetään aiheuttavan inflaatiota.
 
 
-![image](assets/fr/029.webp)
+![image](assets/fi/029.webp)
 
 
 Kerro minulle, miten Beyoncé tai Taylor Swift voisivat aiheuttaa hintojen laajamittaisen nousun? Siinä ei näet ole mitään järkeä. Lyhyesti sanottuna:
 
 
-![image](assets/fr/030.webp)
+![image](assets/fi/030.webp)
 
 
 ### Inflaatiotyyppien tutkiminen
@@ -555,7 +555,7 @@ On ratkaisevan tärkeää ymmärtää erilaisten inflaatiotyyppien välinen ero,
 - Hyperinflaatio: Inflaatio on äärimmäinen ilmiö, jossa inflaatio on yli 50 prosenttia kuukaudessa, mikä inflaation eksponentiaalisen luonteen vuoksi vastaa yli 13 000 prosentin vuotuista inflaatiota. Tällainen inflaatio horjuttaa vakavasti taloutta, tekee valuutasta lähes arvottoman ja murentaa luottamusta rahajärjestelmään.
 
 
-![image](assets/fr/031.webp)
+![image](assets/fi/031.webp)
 
 
 Inflaatiotyyppejä tutkittaessa törmää usein sellaisiin termeihin kuin "Demand Pull" ja "Cost Push". Vaikka nämä käsitteet ovatkin päteviä, niillä selitetään pikemminkin hintojen nousua kuin inflaatiota rahapoliittisena ilmiönä. Tässä on syvällisempi analyysi:
@@ -581,7 +581,7 @@ Näissä perinteisissä selityksissä hinnankorotukset liitetään usein inflaat
 Bernholz ehdottaa inflaation yksinkertaistettua mutta täsmällistä luokittelua kolmeen luokkaan, mikä mahdollistaa tämän monimutkaisen rahapoliittisen ilmiön paremman ymmärtämisen:
 
 
-![image](assets/fr/032.webp)
+![image](assets/fi/032.webp)
 
 
 
@@ -666,13 +666,13 @@ Jos inflaatio laskee 40 prosenttiin heinäkuussa ja nousee yli 50 prosentin vast
 Tämä määritelmä on otettu käyttöön Hanke-Krusin taulukossa, jossa on dokumentoitu 56 hyperinflaatiojaksoa. Taulukko ei kuitenkaan kata kaikkia tapauksia, kuten Venezuelassa vuonna 2016 tapahtunutta, jolloin tapauksia oli yhteensä 57 kappaletta.
 
 
-![image](assets/fr/033.webp)
+![image](assets/fi/033.webp)
 
 
 zoom
 
 
-![image](assets/fr/034.webp)
+![image](assets/fi/034.webp)
 
 
 On syytä huomata, että vaikka tämä määritelmä on tarkka, se voi mahdollisesti sulkea pois tietyt hyperinflaatiojaksot, koska 50 prosentin kynnysarvo on tiukka. Määritelmää on mahdollista laajentaa siten, että se sisältää myös muita jaksoja, jotka eivät tarkkaan ottaen täytä Caganin kriteerejä, mutta jotka kuitenkin edustavat erittäin korkean inflaation jaksoja. Tämä havainto avaa oven hyperinflaatioilmiöiden laajemmalle tutkimiselle, mikä mahdollistaa vivahteikkaamman ymmärryksen hyperinflaation syistä ja vaikutuksista. Myöhemmissä keskusteluissa harkitsemme tämän määritelmän tarkistamista ja sellaisten hyperinflaatiojaksojen tarkastelua, jotka eivät kuulu Caganin tiukkojen kriteerien piiriin.
@@ -684,7 +684,7 @@ On syytä huomata, että vaikka tämä määritelmä on tarkka, se voi mahdollis
 Philip Cagan on saattanut asettaa mielivaltaisen virstanpylvään 50 prosentin kuukausittaisella inflaatiokynnyksellä määritellessään hyperinflaatiota. Hän myöntää itsekin, että määritelmä on mielivaltainen ja että se palvelee ensisijaisesti hänen analyysiaan, joka perustuu seitsemään hyperinflaatiojaksoon. Caganin tietoja tarkasteltaessa käy ilmi, että kolme hyperinflaatiojaksoa, joissa kuukausittainen inflaatio oli alhaisin, olivat noin 47 prosenttia, 46 prosenttia ja 57 prosenttia. Vaikuttaa siltä, että 50 prosentin kynnysarvo valittiin, jotta nämä tapaukset voitaisiin sisällyttää hänen tutkimukseensa.
 
 
-![image](assets/fr/035.webp)
+![image](assets/fi/035.webp)
 
 
 
@@ -707,7 +707,7 @@ Myös muut taloustieteilijät, kuten Monetary Regime and Inflation -teoksen kirj
 Bernholz huomauttaa, että on olemassa korkean inflaation jaksoja, joilla on samat laadulliset ominaisuudet kuin hyperinflaatiolla, mutta jotka eivät saavuta 50 prosentin kynnysarvoa.
 
 
-![image](assets/fr/036.webp)
+![image](assets/fi/036.webp)
 
 
 Tämä pohdinta saa meidät kyseenalaistamaan hyperinflaation perinteisen määritelmän jäykkyyden ja korostamaan tarvetta ehkä tarkistaa tätä kynnysarvoa ottamalla mukaan lisää jaksoja ja historiallisia tietoja. Hyperinflaation määritelmä saattaa vaatia joustavuutta, jotta se kattaa erilaiset äärimmäisen inflaation ilmenemismuodot erilaisissa taloudellisissa ja historiallisissa yhteyksissä.
@@ -749,13 +749,13 @@ Hintoja, palkkoja ja korkoja tarkistetaan indeksin perusteella inflaation tasaam
 Kumulatiivinen inflaatio kolmen vuoden aikana lähestyy 100 prosenttia (noin 24 prosenttia vuodessa), mikä on ristiriidassa Caganin määrittelemän 50 prosentin kuukausittaisen inflaation kanssa.
 
 
-![image](assets/fr/037.webp)
+![image](assets/fi/037.webp)
 
 
 IASB:n kriteerien mukaan useat maat, kuten Argentiina, Etiopia, Haiti, Iran, Libanon, Sudan, Etelä-Sudan, Suriname, Syyria, Turkki, Venezuela, Jemen ja Zimbabwe, kärsivät tällä hetkellä hyperinflaatiosta.
 
 
-![image](assets/fr/038.webp)
+![image](assets/fi/038.webp)
 
 
 Tämä IASB:n esittämä määritelmä poikkeaa Caganin tiukasta kvantitatiivisesta raja-arvosta ja sisältää laadullisen analyysin taloudellisesta käyttäytymisestä ja hyperinflaation aiheuttamista käytännön mukautuksista. Se osoittaa, että hyperinflaatio on monimutkainen ilmiö, joka vaatii moniulotteista ymmärrystä, jotta sen todelliset vaikutukset voidaan ymmärtää, erityisesti kirjanpidon alalla, joka on ratkaisevan tärkeä yritysten ja markkinoiden vakauden ja taloudellisen avoimuuden kannalta.
@@ -767,7 +767,7 @@ Tämä IASB:n esittämä määritelmä poikkeaa Caganin tiukasta kvantitatiivise
 Hyperinflaation yleiset määritelmät, kuten Caganin esittämä määritelmä, jonka mukaan kuukausittainen inflaatiovauhti on 50 prosenttia, voivat joskus olla hämmentäviä tai liian yksinkertaistettuja. Esimerkiksi kaksi maata, joissa vuotuinen inflaatio on 1 000 prosenttia ja 3 000 prosenttia, voidaan hahmottaa eri tavalla inflaation kuukausittaisen jakauman perusteella. Jos yksikään kuukausi ei ylitä 50 prosentin kynnysarvoa Caganin määritelmän mukaan, näitä maita ei luokitella hyperinflaatioksi. Tämä lähestymistapa voi siis johtaa poikkeamiin hyperinflaation luokittelussa, erityisesti kun verrataan kumulatiivista inflaatiota vuoden aikana.
 
 
-![image](assets/fr/039.webp)
+![image](assets/fi/039.webp)
 
 
 
@@ -795,7 +795,7 @@ Tässä luvussa tarkastelemme hyperinflaation vaikutuksia keskittyen Zimbabwen j
 Useat kirjat ovat olleet erityisen opettavaisia:
 
 
-![image](assets/fr/040.webp)
+![image](assets/fi/040.webp)
 
 
 
@@ -803,7 +803,7 @@ Useat kirjat ovat olleet erityisen opettavaisia:
 - Kaksi kirjaa Zimbabwen hyperinflaatiosta, "Zimbabwe Warm Heart Ugly Face" (Zimbabwen lämmin sydän, rumat kasvot) ja "Hard Boiled Egg Index" (Hard Boiled Egg Index), ovat Jérôme Gardnerin ja Kudzai Joseph Gou Min-Yun kirjoittamia, ja niissä vaatekauppaketjun toimitusjohtajan ja maatalouspankkiirin kirjoittamat koskettavat todistukset heidän kokemuksistaan tämän myrskyisän ajanjakson aikana.
 
 
-![image](assets/fr/041.webp)
+![image](assets/fi/041.webp)
 
 
 Muistiinpanojani kootessani huomasin lukuisia yhtäläisyyksiä Zimbabwen ja Weimarin tasavallan hyperinflaatiokokemusten välillä, vaikka niiden välillä on 90 vuoden ikäero. Havaitsin noin 17 yhtäläisyyttä, joista 13 kuvastaa eräänlaista etenemistä kohti näissä kertomuksissa kuvattua taloudellista katastrofia. Nämä kiehtovat yhtäläisyydet osoittavat hyperinflaation toistuvan ja tuhoisan luonteen yli aikojen ja rajojen. Tänään tarkastelemme näitä yhtäläisyyksiä ja sitä, miten ne kuvaavat huolestuttavaa kehityskulkua hyperinflaation aikana.
@@ -843,7 +843,7 @@ Tietyissä taloudellisissa olosuhteissa setelin itseisarvo voi alittaa sen paper
 
 > Zimbabwe: "Keskuspankki tuhlasi rahaa painattamalla setelin, joka ei ollut painetun paperin arvoinen. Toisin sanoen sen arvo oli pienempi kuin vessapaperin. Niin absurdilta kuin se kuulostaakin, oli halvempaa käyttää 100 biljoonan ZWD:n seteliä vessapaperina kuin ostaa varsinaista vessapaperia."
 
-![image](assets/fr/042.webp)
+![image](assets/fi/042.webp)
 
 
 #### 4. Rahan laskeminen
@@ -896,7 +896,7 @@ Weimar: "Kun vanhat säästäväisyyden, rehellisyyden ja Hard-työn hyveet mene
 Zimbabwe: "Nämä käytännöt rikastuttivat muutamia yksilöitä, mutta köyhdyttivät kaupunkien työväenluokkaa ja maaseutuväestöä. Koulutus menetti arvonsa, koska tätä kauppaa harjoittivat ihmiset, jotka eivät tarvinneet koulutusta tai Hard-työtä sen perustelemiseksi. He tarvitsivat vain suhteita ja alkupääomaa helpon rahan bisneksensä aloittamiseen."
 
 
-![image](assets/fr/043.webp)
+![image](assets/fi/043.webp)
 
 
 #### 8. "Maailman pankit"
@@ -934,7 +934,7 @@ Weimar: "Kauppiaat oli hiljattain pakotettu uudella asetuksella hyväksymään v
 Zimbabwe: "Hallitus otti 12. joulukuuta 2008 käyttöön SI 175/2008, joka koskee shekkimaksuja. Siinä todettiin: "Rangaistus maksun epäämisestä sekillä/pankkikortilla tai muulla pankin välittämällä sähköisellä maksutavalla on 8. tason sakko tai kuuden kuukauden vankeusrangaistus tai molemmat Ilmeisesti jätimme SI:n huomiotta, koska se oli täysin irti todellisuudesta.""
 
 
-![image](assets/fr/044.webp)
+![image](assets/fi/044.webp)
 
 
 #### 11. Pakko pitää kaupat auki
@@ -973,7 +973,7 @@ Ulkomaanvaluutan hurja ostaminen on usein ollut kriittinen käännekohta valuuta
 ### Yhteenveto prosessista
 
 
-![image](assets/fr/045.webp)
+![image](assets/fi/045.webp)
 
 
 Taloudellista kehitystä analysoitaessa on ilmeistä, että kun inflaatio on korkea, rahamassan arvo heikkenee. Tämä devalvaatio johtaa useisiin komplikaatioihin, kuten setelipulaan. Tässä yhteydessä syntyy arbitraasimahdollisuuksia, erityisesti Exchange-korkojen vaihteluiden seurauksena. Tämän seurauksena monet yksityishenkilöt turvautuvat arbitraasiin ja sijoittavat paljon aineelliseen omaisuuteen odottaessaan tulevaa valuutan devalvaatiota, jonka ansiosta he voisivat maksaa velkansa takaisin heikentyneellä valuutalla. Tämä taloudellinen ympäristö heikentää perinteisten työpaikkojen houkuttelevuutta ja heikentää näin ollen sosiaalista yhteenkuuluvuutta.
@@ -985,7 +985,7 @@ Vastauksena tähän tilanteeseen hallitus antaa ankaraa sääntelyä, mukaan luk
 ### 4 Hyperinflaation seurausten samankaltaisuudet
 
 
-![image](assets/fr/046.webp)
+![image](assets/fi/046.webp)
 
 
 #### 1. Öljy ja metallit
@@ -1056,7 +1056,7 @@ Tässä luvussa tarkastelemme aiempien ja nykyisten hyperinflaatiojaksojen väli
 Saksassa oli yleistä, että väestö katsoi inflaation johtuvan pikemminkin dollarin noususta kuin oman valuutan devalvoitumisesta. Monet uskoivat, että havaittu ilmiö johtui dollarin vahvistumisesta. Tämän käsityksen perusteella ei tunnustettu minkäänlaista yhteyttä taloudellisten vaikeuksien ja rahan devalvoitumisen välillä, joka johtui pääasiassa liiallisesta rahanluonnista. Kirja "When Money Dies" kuvaa selvästi tätä Saksan väestön ymmärtämättömyyttä. Sen sijaan Zimbabwessa tilanne oli toinen: kansalaiset olivat täysin tietoisia kokemansa hyperinflaation perimmäisestä syystä.
 
 
-![image](assets/fr/047.webp)
+![image](assets/fi/047.webp)
 
 
 #### 2. Hätäraha (Notgeld)
@@ -1066,7 +1066,7 @@ Raha- ja talouskriisin vuoksi Saksa turvautui "Notgeldiin" (hätärahaan). Näm�
 
 Mielenkiintoista on, että myös Ranska turvautui Notgeldiin erityisesti 1920-luvulla. Tämä aloite ei ollut vain suora seuraus hyperinflaatiosta, vaan sen juuret olivat myös ensimmäisen maailmansodan aiheuttamissa häiriöissä. Sota ei ainoastaan horjuttanut taloutta, vaan myös lisäsi metallien hintaa. Tämän seurauksena metallikolikoiden itseisarvo ylitti usein niiden nimellisarvon, mikä sai ihmiset hamstraamaan niitä. Kolikoiden puuttuessa eräät instituutiot, kuten Lyonin kauppakamari, painattivat omia Notgeld-rahojaan.
 
-![image](assets/fr/048.webp)
+![image](assets/fi/048.webp)
 
 
 > "Mitä on tehtävä, se on tehtävä." - paikallinen sanonta
@@ -1077,7 +1077,7 @@ Notgeldin joukosta erottuu yksi erityinen seteli. Siinä on koskettava kuvitus: 
 Taiteilija, joka on tämän Notgeldin takana, näyttää kritisoivan ironisesti hyperinflaatiokriisistä vastuussa olevia viranomaisia. Setelissä on teksti "Tarpeellisuus ei tunne lakia". Toinen setelin alkuperäpaikkakunnalle ominainen ilmaisu on: "Se, mitä on tehtävä, on tehtävä"
 
 
-![image](assets/fr/049.webp)
+![image](assets/fi/049.webp)
 
 
 > "välttämättömyys ei tunne lakia"
@@ -1097,7 +1097,7 @@ Weimarissa osa veloista arvostettiin uudelleen inflaation vaikutuksen kompensoim
 Tämä kirja on myös välttämätön, jos haluat oppia lisää Saksan kriisin hallinnasta.
 
 
-![image](assets/fr/050.webp)
+![image](assets/fi/050.webp)
 
 
 ### Nykyajan rinnakkaisuudet
@@ -1157,7 +1157,7 @@ Zombie-yritys on yritys, joka tavanomaisissa markkinaolosuhteissa olisi maksukyv
 Zombieyritykset eivät ole uusi asia. Itse asiassa se oli olemassa jo Weimarin tasavallan aikana. Tuolloin monet yritykset näyttivät kukoistavan ja hyötyivät suurelta osin ilmaisen luoton saannista. Ne lainasivat huomattavia summia ja odottivat maksavansa ne myöhemmin takaisin inflaation vuoksi heikentyneellä valuutalla. Kun inflaatio kuitenkin lakkasi ja Saksan markan arvo nousi, näistä yrityksistä, jotka eivät olleet toiminnallisesti tai taloudellisesti elinkelpoisia, tuli kannattamattomia, ja niiden oli lopetettava toimintansa.
 
 
-![image](assets/fr/051.webp)
+![image](assets/fi/051.webp)
 
 
 Zombie-yritysten ilmiö ei rajoitu pelkästään sodanjälkeiseen Saksaan. Vielä nykyäänkin monet suuryritykset menestyvät, koska niillä on etuoikeutettu mahdollisuus saada luottoa erittäin alhaisilla koroilla. Jos ne joutuisivat ottamaan lainaa tavanomaisemmilla koroilla, monet niistä lakkaisivat olemasta kannattavia. Tämä on erityisen tärkeää vuonna 2023, kun korkotaso on nyt alkanut nousta pitkän lähes nollakorkoisen jakson jälkeen. Tämä viimeaikainen muutos rahoitusympäristössä on epäilemättä ratkaiseva testi näille yrityksille, jotka on aikoinaan leimattu "zombeiksi"
@@ -1169,7 +1169,7 @@ Zombie-yritysten ilmiö ei rajoitu pelkästään sodanjälkeiseen Saksaan. Viel�
 Historiasta on löydettävissä tapauksia, joissa yksilöt pyrkivät kartuttamaan varallisuutta nopeasti, kuten Weimarissa ja Zimbabwessa arbitraasin avulla. Nykyään samanlainen suuntaus on havaittavissa tiettyjen kryptovaluuttojen nousussa. Nopeat voitot houkuttelevat ihmisiä, ja he ottavat riskejä sijoituksensa eksponentiaalisen kasvun toivossa. Tämä lähestymistapa muistuttaa hyperinflaation aikoja, jolloin arbitraasia käytettiin nopeiden voittojen saamiseksi, usein muiden kustannuksella.
 
 
-![image](assets/fr/052.webp)
+![image](assets/fi/052.webp)
 
 
 #### 7. Säästöt, lääke epävarmuutta vastaan
@@ -1202,7 +1202,7 @@ Seuraavaksi tarkastelemme Latinalaisen Amerikan maiden eri valuuttakurssien uude
 Vasemmalla diassa ovat uudelleenluokitteluvuodet, uuden valuutan nimi ja Exchange-kurssi vanhaan valuuttaan nähden. Esimerkiksi Argentiinan peso moneda nacional muunnettiin 25:1 suhteessa aiempaan valuuttaan, peso reàliin. Tässä yhteydessä tarkastelemme Argentiinan valuutan kehitystä ajan mittaan. Lisäksi ilmoitamme seteleiden alkuperäiset ja lopulliset nimellisarvot kullakin ajanjaksolla.
 
 
-![image](assets/fr/053.webp)
+![image](assets/fi/053.webp)
 
 
 Dian oikealla puolella näkyy inflaatiokäyrä. Punaiset nuolet kuvaavat hyperinflaatiovuosia, jotka on määritelty Caganin kriteerin mukaan, joka on 50 prosentin inflaatio kuukaudessa. Tämä kriteeri voi joskus johtaa epäselviin tulkintoihin, sillä korkean inflaation vuodet eivät välttämättä täytä hyperinflaation tiukkaa määritelmää.
@@ -1215,7 +1215,7 @@ Argentiinan jälkeen tutkimuksemme kattaa Brasilian, Bolivian, Perun, Nicaraguan
 ### Argentiina
 
 
-![image](assets/fr/054.webp)
+![image](assets/fi/054.webp)
 
 
 Ennen vuotta 1826 Argentiinassa käytettiin Espanjan dollaria. Itsenäistyttyään vuonna 1816 Argentiina otti käyttöön oman rahan, joka perustui espanjalaiseen reàliin. Taulukko alkaa vuodesta 1881, jolloin otettiin käyttöön "peso moneda nacional", jonka seteleitä oli saatavilla 10 000:een asti. Sitä seurasi "peso ley", jonka vaihtokurssi oli 100:1 ja jonka setelit olivat miljoonaan asti. Sitten tuli "Argentiinan peso", jonka Exchange-kurssi oli 10 000:1 (mikä vastaa neljän nollan poistamista) ja jonka setelit olivat enintään 10 000. Vuonna 1985 otettiin käyttöön "australes", jonka vaihtokurssi oli 1 000:1 ja jonka seteleitä oli saatavilla 500 000:een asti. Vuonna 1992 otettiin käyttöön nykyinen "peso ley", jonka kurssi on 10 000:1, ja siitä poistettiin jälleen neljä nollaa. Ainoastaan vuosina 1989 ja 1990 esiintyi hyperinflaatiota.
@@ -1224,7 +1224,7 @@ Ennen vuotta 1826 Argentiinassa käytettiin Espanjan dollaria. Itsenäistyttyä�
 ### Brasilia
 
 
-![image](assets/fr/055.webp)
+![image](assets/fi/055.webp)
 
 
 Brasilia on merkittävä esimerkki rahan uudelleenmäärittämisestä, kuten sen valuutanvaihtohistoria osoittaa. Ennen itsenäistymistään Brasilia käytti valuuttanaan portugalilaista reàlia. Jo vuonna 1747 Brasilia alkoi kuitenkin käyttää omaa "Brasilian reàlia" jo kauan ennen itsenäisyysjulistusta vuonna 1822. Taulukko alkaa vuodesta 1818, jolloin Brasilian setelien liikkeeseenlasku alkoi. Sitä ennen valuutta oli pääasiassa kolikoiden muodossa. Näiden seteleiden arvo oli jopa miljoona reaista.
@@ -1249,7 +1249,7 @@ Korkein seteli oli 500 000, ja viimeisimmän uudelleenvaluutan määrä vuonna 1
 ### Bolivia
 
 
-![image](assets/fr/056.webp)
+![image](assets/fi/056.webp)
 
 
 Bolivia on toinen esimerkki maasta, joka on kokenut akuutin inflaation, joka on edellyttänyt valuutan uudelleen nimeämistä. Seuraavassa on yhteenveto Bolivian rahahistoriasta:
@@ -1272,7 +1272,7 @@ Tämä on yleiskatsaus Bolivian myrskyisään rahahistoriaan, jota leimaavat hyp
 ### Peru
 
 
-![image](assets/fr/057.webp)
+![image](assets/fi/057.webp)
 
 
 Peru on mielenkiintoinen tapaus mielivaltaisen 50 prosentin säännön vaikutusten osalta. Perun rahahistoriassa käytettiin espanjalaista kultaa aina 1800-luvulle asti, jolloin se julistautui itsenäiseksi vuonna 1821. Perun dollari oli käytössä vuosina 1822-1863. Vuonna 1863 Perun reàl korvattiin soldi orolla 10:1, ja sen enimmäisarvo oli 50 000 dollaria. Vuonna 1985 otettiin käyttöön Inti-valuutta, jonka muuntokurssi oli 1000:1 ja jonka enimmäisarvo oli 5 miljoonaa. Vuonna 1991 lanseerattiin "SOL", jonka Exchange-kurssi oli 1 miljoona 1:een ja jonka setelit vaihtelivat 10:stä 200:aan.
@@ -1288,7 +1288,7 @@ Kun tarkastellaan denominaatiojaksoja, vuotta 1988 pidetään hyperinflaation vu
 ### Nicaragua
 
 
-![image](assets/fr/058.webp)
+![image](assets/fi/058.webp)
 
 Nicaragua, joka oli aiemmin Espanjan vallan alla, käytti aluksi Espanjan dollaria, kuten monet muutkin Espanjan siirtomaavaltiot. Sen jälkeen kun Nicaragua oli liittynyt Espanjan valtakuntaan, Meksikon valtakuntaan ja Keski-Amerikan liittotasavaltaan, se julistautui itsenäiseksi. Vuodesta 1878 alkaen maan viralliseksi valuutaksi tuli peso, jonka arvo vaihteli välillä 1-100. Vuonna 1912 maa otti käyttöön ensimmäisen Cordoban, jota seurasi toinen vuonna 1988 ja kolmas vuonna 1991, ja se on edelleen käytössä. Ensimmäinen Cordoba saavutti miljoonan ja toinen 10 miljoonan arvon. Vuonna 1991 toteutettu redenominaatio seurasi useita vuosia kestänyttä hyperinflaatiota.
 
@@ -1296,7 +1296,7 @@ Nicaragua, joka oli aiemmin Espanjan vallan alla, käytti aluksi Espanjan dollar
 ### Venezuela
 
 
-![image](assets/fr/059.webp)
+![image](assets/fi/059.webp)
 
 
 Venezuela on viimeinen maa, joka mainitaan tällä videolla. Maa on kokenut neljä valuutan uudelleenmääritystä ajan mittaan. Alkuaikoina Venezuela käytti Espanjan dollaria, ennen kuin se julistautui itsenäiseksi vuonna 1811. Vuonna 1879 se otti käyttöön bolivarin virallisena valuuttana, joka oli voimassa vuoteen 1983 asti, jolloin hallitus valitsi kelluvan Exchange-kurssijärjestelmän, jossa käytettiin dollaria.
@@ -1305,16 +1305,16 @@ Venezuela on viimeinen maa, joka mainitaan tällä videolla. Maa on kokenut nelj
 Venezuelaa koskeva merkittävä seikka on sen jäsenyys Latinalaisessa rahaliitossa. Tähän liittoon kuuluivat muun muassa seuraavat kolikot: Espanjan 5 pesetaa, Kreikan 5 drakmaa, Venezuelan 5 bolivaria, Italian 5 liiraa, Belgian 5 frangia ja Ranskan 5 frangia.
 
 
-![image](assets/fr/060.webp)
+![image](assets/fi/060.webp)
 
 
-![image](assets/fr/061.webp)
+![image](assets/fi/061.webp)
 
 
-![image](assets/fr/062.webp)
+![image](assets/fi/062.webp)
 
 
-![image](assets/fr/063.webp)
+![image](assets/fi/063.webp)
 
 
 Tänä aikana Venezuelan 5-bolivarinen Coin oli yhtä painava kuin unionin jäsenvaltioiden, kuten Italian, Espanjan, Belgian ja Ranskan, kolikot. Nämä bolivarit valmistettiin hopeasta, ja tietty Coin vuodelta 1929 painoi 25 grammaa ja sen puhtausaste oli 900 eli 90 prosenttia puhdasta hopeaa. Nykyisellä hopean hinnalla tämä Coin on arvoltaan noin 17-18 Yhdysvaltain dollaria (Yhdysvaltain dollareita).
@@ -1377,7 +1377,7 @@ Bernholzin esiin nostama mielenkiintoinen näkökohta on se, että rahapoliittis
 ### Zimbabwen tapaus
 
 
-![image](assets/fr/064.webp)
+![image](assets/fi/064.webp)
 
 
 Zimbabwe itsenäistyi vuonna 1980 ja otti käyttöön oman valuuttansa, Zimbabwen dollarin. Aluksi kahden Zimbabwen dollarin arvo oli noin 1,60 Yhdysvaltain dollaria. Vuonna 1997 sotaveteraanien hyväksi toteutettujen sosiaalisten toimenpiteiden seurauksena valuutta kuitenkin devalvoitui 72 prosenttia yhdessä päivässä mustan perjantain aikana. Sitten 2000-luvun alussa maa käynnisti maan uudelleenjako-ohjelman, jossa valkoisilta omistajilta otettiin maata ja jaettiin sitä paikalliselle väestölle. Tämä päätös haittasi vientiä, koska uusilta omistajilta puuttui usein tarvittava asiantuntemus suurtilojen hallinnointiin. Tämän seurauksena Zimbabwe oli nettoviejä vuonna 1999, mutta vuonna 2003 siitä tuli nettotuoja.
@@ -1386,7 +1386,7 @@ Zimbabwe itsenäistyi vuonna 1980 ja otti käyttöön oman valuuttansa, Zimbabwe
 Vuonna 2006 maa otti käyttöön uuden valuutan, ZWN:n, jonka Exchange-kurssi on 1:1 000. Vuonna 2008 otettiin käyttöön toinen nimellisarvo, ZWR, jonka Exchange-kurssi on 1:10 miljardia. Tämä johti ikonisten 100 biljoonan seteleiden luomiseen.
 
 
-![image](assets/fr/065.webp)
+![image](assets/fi/065.webp)
 
 
 #### Dollarisaatio ja kriisinratkaisu
@@ -1409,13 +1409,13 @@ On huolestuttavaa huomata, että Zimbabwe on sittemmin yrittänyt ottaa uudellee
 Kirjassani "Everything About Bitcoin" omistin kokonaisen luvun Zimbabwen hyperinflaatiolle. Esittelen yksityiskohtaisesti merkittävät tapahtumat ja annan erilaisia esimerkkejä siitä, miten maa lopulta lopetti hyperinflaation.
 
 
-![image](assets/fr/066.webp)
+![image](assets/fi/066.webp)
 
 
 Niille, jotka ovat kiinnostuneita Saksan kokemuksista ensimmäisen maailmansodan jälkeen, suosittelen lämpimästi sarjakuvaa "Valtakunnan pankkiiri" Siinä kerrotaan, miten Saksa onnistui voittamaan hyperinflaation, erityisesti luomalla Rentenmarkin.
 
 
-![image](assets/fr/067.webp)
+![image](assets/fi/067.webp)
 
 
 Keskeistä on, että hyperinflaation voittamiseksi on olemassa useita strategioita. Voidaan valita dollarisaatio tai ottaa käyttöön uusi valuutta. Nämä ratkaisut toimivat vain, jos väestö luottaa niihin. On ratkaisevan tärkeää asettaa tiukkoja rajoituksia. Todella riippumaton keskuspankki on välttämätön. Se ei saa paisuttaa rahamäärää Supply valtion alijäämien kattamiseksi. Lievän inflaation tapauksessa rahan Supply kasvun rajoittamisen pitäisi riittää. Hyperinflaation uhatessa on kuitenkin ratkaisevan tärkeää, että rahan Supply-arvo on ensin sopiva suhteessa talouden kokoon. Sen jälkeen on välttämätöntä asettaa hallitukselle tiukkoja rajoituksia tilanteen vakauttamiseksi.
@@ -1430,7 +1430,7 @@ Keskeistä on, että hyperinflaation voittamiseksi on olemassa useita strategioi
 [Tutustu skannattuun kokoelmaan *Bitcoin Educational Toolkit*:ssä (saatavilla myös Plan ₿ Network-alustan *Resources*-osiosta.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click))
 
 
-![image](assets/fr/068.webp)
+![image](assets/fi/068.webp)
 
 # Miten pääsimme tänne?
 
@@ -1450,7 +1450,7 @@ Transkriptio:
 Rahan toisen Layer:n ja ensimmäisten keskuspankkien synty on kiehtova aihe. Tätä aihetta käsitellään laajasti Nick Battia kirjassa "Layered Money". Suosittelen sitä lämpimästi niille, jotka ovat kiinnostuneita rahajärjestelmiemme kehityksestä ja monimutkaisuudesta. Tämän jakson tavoitteena on ymmärtää rahan luomisen alkuperää ja sitä, miten se voi johtaa hyperinflaatioon.
 
 
-![image](assets/fr/069.webp)
+![image](assets/fi/069.webp)
 
 
 ### Pyramidiraha ja keskuspankit
@@ -1462,10 +1462,10 @@ Rahan toisen Layer:n ja ensimmäisten keskuspankkien synty on kiehtova aihe. Tä
 Rahan historia juontaa juurensa 1200-luvulle Italiassa, erityisesti Firenzen kaupungissa. Siihen aikaan florin ja Exchange-setelit olivat yleisiä. Huomattava esimerkki on florin, jota koristaa Johannes Kastajan hahmo.
 
 
-![image](assets/fr/070.webp)
+![image](assets/fi/070.webp)
 
 
-![image](assets/fr/071.webp)
+![image](assets/fi/071.webp)
 
 
 Vaikka aidon florinin omistaminen on nykyään kallista, jäljennöksiä on saatavilla. Myös muita tuon ajan valuuttoja on olemassa, kuten 1600-luvun Italian valtioista peräisin oleva soldo, jossa on Kristuksen kuva.
@@ -1491,7 +1491,7 @@ Vaikka tämä käsite liittyy Nick Belliin hänen Twitterissä käyttämänsä s
 #### VOC ja Amsterdamin pörssi (1600-luku)
 
 
-![image](assets/fr/072.webp)
+![image](assets/fi/072.webp)
 
 
 Antwerpenin pörssin Exchange perustamisen jälkeen merkittävä virstanpylväs oli VOC:n eli Alankomaiden Itä-Intian yhtiön perustaminen. Tämä Alankomaihin sijoittautunut yhtiö laski liikkeelle jopa oman valuutan. VOC:n perustamisen jälkeen Amsterdamissa perustettiin ensimmäinen pörssi, mikä merkitsi yhtiön pörssitoiminnan alkua. Mielenkiintoista on huomata, miten hollantilaiset onnistuivat lopettamaan Antwerpenin ylivallan kansainvälisenä talouskeskuksena. He yksinkertaisesti estivät pääsyn Schelde-joelle. Tämä strategia oli osa laajempaa historiallista liikettä, kerjäläisten kapinaa. Se oli ratkaiseva tapahtuma Euroopan historiassa.
@@ -1500,7 +1500,7 @@ Antwerpenin pörssin Exchange perustamisen jälkeen merkittävä virstanpylväs 
 #### Amsterdamin keskuspankin väliintulo
 
 
-![image](assets/fr/073.webp)
+![image](assets/fi/073.webp)
 
 
 VOC:n perustamisen jälkeen toinen merkittävä kehitysaskel rahahistoriassa oli Amsterdamin pankin kultakolikoiden käyttöönotto. Nämä vuodelta 1722 peräisin olevat kolikot valmistettiin hopeasta. Se, mikä todella mullisti rahoituksen tuolloin, ei kuitenkaan ollut niinkään itse Coin, vaan Amsterdamin pankin tähän rahaan liittyvät tilit. Näistä tileistä tuli kansainvälisen Exchange:n ensisijainen käyttöväline. Tapahtumat kirjattiin yksinkertaisesti rekistereihin tai pääkirjoihin. Tämän järjestelmän ansiosta Amsterdamista tuli maailmanlaajuinen talouskeskus. Ajan mittaan Amsterdamin pankki päätti määrätä näiden tilien käytöstä. Riippumattomien rahanvaihtajien edellytettiin Exchange tallettavan kolikkonsa pankkiin päivittäin.
@@ -1517,7 +1517,7 @@ Aluksi ensimmäinen Layer-valuutta oli kultaa. Yksityisiin pankkeihin tehdyt tal
 #### Vuoden 1796 paniikki
 
 
-![image](assets/fr/074.webp)
+![image](assets/fi/074.webp)
 
 Pankkipaniikki Seamen's Savings Bankissa vuoden 1857 paniikin aikana.
 

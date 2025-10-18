@@ -1168,6 +1168,10 @@ Esistono poi diversi [mercatini](https://planb.network/tutorials/exchange) dove 
 
 Infine, è importante sottolineare che gli obblighi fiscali possono variare a seconda della giurisdizione, pertanto vi invitiamo a consultare le normative del vostro Paese prima di intraprendere azioni che potrebbero mettervi a rischio.
 
+Se desideri approfondire le tue conoscenze sulle strategie di acquisto, utilizzo e messa in sicurezza dei tuoi bitcoin, ti consiglio vivamente di seguire il corso **BTC 102** dopo questo. Vi scoprirai, tra le altre cose, raccomandazioni di strumenti adatti al tuo profilo, alle tue esigenze e ai tuoi obiettivi personali:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Iper-bitcoinizzazione
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

@@ -118,7 +118,7 @@ Anda dapat melihat ciphertext kedua pada *Gambar 2* di bawah ini. [2] Kunci dari
 
 *Gambar 1: Sandi Beale no. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Sebagai contoh, angka pertama dari ciphertext kedua adalah 115. Kata ke-115 dari Deklarasi Kemerdekaan adalah "instituted," sehingga huruf pertama dari plaintext adalah "i." Cipherteks tidak secara langsung menunjukkan spasi dan huruf besar. Tetapi setelah mendekripsi beberapa kata pertama, Anda dapat menyimpulkan secara logis bahwa kata pertama dari plaintext adalah "i" (Plaintext dimulai dengan frasa "Saya telah menyetor di daerah Bedford.")
 
@@ -281,7 +281,7 @@ Nilai-nilai yang mungkin dan probabilitas terkait untuk variabel acak dapat deng
 
 *Gambar 1: Variabel acak X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Bar yang lebar pada *Gambar 1* jelas tidak bermaksud menunjukkan bahwa variabel acak $X$ sebenarnya kontinu. Sebaliknya, batang-batang tersebut dibuat lebar agar lebih menarik secara visual (hanya sebuah garis lurus ke atas memberikan visualisasi yang kurang intuitif).
 
@@ -319,7 +319,7 @@ Penggambaran grafis dari $Y$ disediakan dalam *Gambar 2*.
 
 *Gambar 2: Variabel acak Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Sebagai contoh terakhir, pertimbangkan variabel acak Z. Variabel ini memiliki himpunan hasil ${1,3,7,11,12}$ dan distribusi probabilitas berikut:
 
@@ -347,7 +347,7 @@ Anda dapat melihatnya digambarkan dalam *Gambar 3*. Variabel acak Z, berbeda den
 
 *Gambar 3: Variabel acak Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Probabilitas bersyarat
 
@@ -1002,11 +1002,11 @@ Bob mengenkripsi pesan $M$ pada waktu $T_0$ dengan kunci $K$ untuk menghasilkan 
 
 *Gambar 1: Kerahasiaan di seluruh ruang*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Gambar 2: Kerahasiaan di sepanjang waktu*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Sebuah contoh: Sandi pergeseran
 
@@ -1107,7 +1107,7 @@ Sebuah stream cipher XOR yang khas digambarkan pada *Gambar 3*. Pertama-tama, An
 
 *Gambar 3: Sebuah sandi aliran XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Perlu diingat bahwa sebuah skema enkripsi biasanya merupakan sebuah template untuk enkripsi dengan algoritma inti yang sama, dan bukannya sebuah spesifikasi yang pasti. Dengan kata lain, sebuah stream cipher biasanya merupakan sebuah template untuk enkripsi di mana Anda dapat menggunakan kunci dengan panjang yang berbeda. Meskipun panjang kunci dapat mempengaruhi beberapa detail kecil dari skema, hal ini tidak akan mempengaruhi bentuk esensialnya.
 
@@ -1191,7 +1191,7 @@ Penggambaran cara kerja dari sebuah block cipher dapat dilihat pada *Gambar 4* d
 
 *Gambar 4: Sebuah sandi blok*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Sebuah block cipher sendiri bukanlah sebuah skema enkripsi. Tetapi sebuah block cipher dapat digunakan dengan berbagai **mode operasi** untuk menghasilkan skema enkripsi yang berbeda. Sebuah mode operasi hanya menambahkan beberapa operasi tambahan di luar block cipher.
 
@@ -1199,7 +1199,7 @@ Untuk mengilustrasikan bagaimana cara kerjanya, misalkan sebuah block cipher (BC
 
 *Gambar 5: Sebuah sandi blok dengan mode ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Proses untuk enkripsi buku kode elektronik dengan cipher blok adalah sebagai berikut. Lihat apakah Anda dapat membagi pesan plaintext Anda menjadi blok 128-bit. Jika tidak, tambahkan **padding** pada pesan tersebut, sehingga hasilnya dapat dibagi rata dengan ukuran blok 128 bit. Ini adalah data Anda yang digunakan untuk proses enkripsi.
 
@@ -1215,7 +1215,7 @@ Mode rantai blok sandi (**mode CBC**) mungkin merupakan mode yang paling umum di
 
 *Gambar 6: Sebuah sandi blok dengan mode CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Misalkan ukuran blok sekali lagi adalah 128 bit. Jadi untuk memulai, Anda harus memastikan bahwa pesan plaintext asli Anda menerima padding yang diperlukan.
 
@@ -1231,7 +1231,7 @@ Terakhir, mari kita alihkan perhatian kita ke **mode umpan-balik output** (**mod
 
 *Gambar 7: Sandi blok dengan mode OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 Dengan mode OFB, Anda juga memilih vektor inisialisasi. Tetapi di sini, untuk blok pertama, vektor inisialisasi langsung dimasukkan ke dalam blok sandi dengan kunci Anda. 128-bit yang dihasilkan, kemudian, diperlakukan sebagai aliran kunci. Keystream ini di-XOR dengan plaintext untuk menghasilkan ciphertext untuk blok tersebut. Untuk blok selanjutnya, Anda menggunakan keystream dari blok sebelumnya sebagai input ke dalam block cipher dan ulangi langkah-langkahnya.
 
@@ -1277,7 +1277,7 @@ Dari diskusi ini, anda sekarang harus memahami *Gambar 8*. Gambar ini memberikan
 
 *Gambar 8: Ikhtisar skema enkripsi simetris*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Kode autentikasi pesan
 
@@ -1301,7 +1301,7 @@ Proses ini digambarkan pada *Gambar 9*. Untuk menggunakan **MAC** (Message Authe
 
 *Gambar 9: Gambaran umum skema enkripsi simetris*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Karena **ketidakmampuan untuk dipalsukan**, seorang penyerang tidak dapat mengubah pesan $M$ dengan cara apapun atau membuat pesan sendiri dengan tag yang valid. Hal ini terjadi, bahkan jika penyerang mengamati tag dari banyak pesan antara Bob dan Alice yang menggunakan kunci privat yang sama. Paling banyak, penyerang dapat memblokir Alice untuk menerima pesan $M$ (sebuah masalah yang tidak dapat diatasi oleh kriptografi).
 
@@ -1333,7 +1333,7 @@ Alice sekarang pertama-tama memeriksa apakah tag tersebut valid dengan ciphertex
 
 *Gambar 10: Skema enkripsi yang diautentikasi*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Bagaimana MAC dibuat? Meskipun MAC dapat dibuat melalui beberapa metode, cara yang umum dan efisien untuk membuatnya adalah melalui **fungsi hash kriptografi**.
 
@@ -1345,7 +1345,7 @@ Ada palet fungsi hash yang dapat digunakan untuk membuat HMAC. Fungsi hash yang 
 
 *Gambar 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Catatan:**
 
@@ -1383,7 +1383,7 @@ Sesi komunikasi dimulai dengan Bob mengirimkan sebuah ciphertext $C_{0,B}$ kepad
 
 *Gambar 12: Sesi komunikasi yang aman*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 dan AES
 
@@ -1520,7 +1520,7 @@ Kita sebut saja kunci tersebut sebagai $K_0$. Konstruksi dengan parameter di ata
 
 *Gambar 1: AES-ECB dengan kunci 128-bit*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Setiap blok teks 128-bit melewati sepuluh putaran dalam skema enkripsi Rijndael. Hal ini membutuhkan kunci putaran yang terpisah untuk setiap putaran ($K_1$ sampai dengan $K_{10}$). Kunci-kunci ini dibuat untuk setiap putaran dari kunci 128-bit yang asli, $K_0$, menggunakan sebuah **algoritma ekspansi kunci**. Oleh karena itu, untuk setiap blok teks yang akan dienkripsi, kita akan menggunakan kunci asli $K_0$ dan juga sepuluh kunci putaran yang terpisah. Perhatikan bahwa 11 kunci yang sama ini digunakan untuk setiap blok 128-bit plaintext yang membutuhkan enkripsi.
 
@@ -1793,7 +1793,7 @@ Pada suatu saat nanti, Bob ingin menulis pesan $M$ kepada Alice. Karena pesan te
 
 *Gambar 1: Enkripsi asimetris*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Setiap musuh yang mendengarkan komunikasi Bob dan Alice dapat mengamati $C$. Dia juga mengetahui $K_P$ dan algoritma enkripsi $E(\cdot)$. Yang penting, bagaimanapun juga, informasi ini tidak memungkinkan penyerang untuk mendekripsi ciphertext $C$. Dekripsi secara khusus membutuhkan $K_S$, yang tidak dimiliki oleh penyerang.
 
@@ -1817,7 +1817,7 @@ Tanda tangan digital, seperti namanya, adalah padanan digital dari tanda tangan 
 
 *Gambar 2: Autentikasi asimetris*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Seperti halnya enkripsi asimetris, kami melihat kontras yang menarik antara tanda tangan digital dan kode autentikasi pesan. Untuk yang terakhir ini, algoritma verifikasi hanya dapat digunakan oleh salah satu pihak yang mengetahui komunikasi yang aman. Hal ini dikarenakan algoritma ini membutuhkan sebuah kunci pribadi. Namun, dalam pengaturan asimetris, siapa pun dapat memverifikasi tanda tangan digital $S$ yang dibuat oleh Bob.
 

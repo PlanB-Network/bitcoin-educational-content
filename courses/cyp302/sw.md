@@ -112,7 +112,7 @@ Unaweza kuona maandishi ya pili katika *Kielelezo 2* hapa chini. [2] Ufunguo wa 
 
 *Kielelezo 1: Beale cipher no. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Kwa mfano, nambari ya kwanza ya kifungu cha pili ni 115. Neno la 115 la Azimio la Uhuru “limeanzishwa,” kwa hiyo herufi ya kwanza ya andiko la msingi ni “i.” Nakala ya siri haionyeshi moja kwa moja nafasi ya maneno na herufi kubwa. Lakini baada ya kuchambua maneno machache ya kwanza, unaweza kuhitimisha kimantiki kwamba neno la kwanza la maandishi wazi lilikuwa tu "mimi." (Mafungu ya madai yanaanza na kishazi “Nimeweka katika kaunti ya Bedford.”)
 
@@ -275,7 +275,7 @@ Thamani zinazowezekana na uwezekano unaohusishwa wa utofautishaji nasibu unaweza
 
 **Kielelezo cha 1:** *Kigezo cha bahati nasibu*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Pau pana katika *Kielelezo 1* bila shaka haimaanishi kupendekeza kwamba kigezo cha nasibu $X$ kinaendelea. Badala yake, pau zimefanywa kwa upana ili kuvutia zaidi (mstari moja kwa moja tu hutoa taswira isiyoeleweka zaidi).
 
@@ -313,7 +313,7 @@ Taswira ya mchoro ya $Y$ imetolewa katika *Kielelezo 2*.
 
 *Kielelezo cha 2: Utofauti wa nasibu Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Kwa mfano wa mwisho, zingatia utofauti wa nasibu Z. Una matokeo yaliyowekwa {1,3,7,11,12} na usambazaji wa uwezekano ufuatao:
 
@@ -341,7 +341,7 @@ Unaweza kuiona ikionyeshwa kwenye *Kielelezo 3*. Tofauti isiyo ya kawaida Z ni, 
 
 *Kielelezo cha 3: Tofauti isiyo ya kawaida Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Uwezekano wa masharti
 
@@ -1002,11 +1002,11 @@ Bob husimba ujumbe kwa njia fiche $M$ kwa wakati mmoja $T_0$ kwa ufunguo $K$ ili
 
 **Kielelezo 1: Usiri katika nafasi**
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 **Kielelezo 2: Usiri kwa wakati wote**
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Mfano: Sifa ya kuhama
 
@@ -1108,7 +1108,7 @@ Sifa ya kawaida ya mtiririko wa XOR inaonyeshwa kwenye *Mchoro 3*. Kwanza unachu
 
 *Kielelezo cha 3: Sifa ya mkondo wa XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Kumbuka kuwa mpango wa usimbaji fiche kwa kawaida huwa ni kiolezo cha usimbaji fiche chenye kanuni sawa ya msingi, badala ya maelezo mahususi. Kwa kiendelezi, cipher ya mtiririko kwa kawaida ni kiolezo cha usimbaji fiche ambacho unaweza kutumia vitufe vya urefu tofauti. Ingawa urefu wa ufunguo unaweza kuathiri baadhi ya maelezo madogo ya mpango, hautaathiri muundo wake muhimu.
 
@@ -1192,7 +1192,7 @@ Taswira ya jinsi block cipher inavyofanya kazi inaweza kuonekana kwenye *Mchoro 
 
 *Kielelezo 4: Sifa ya block*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Cipher block peke yake sio mpango wa usimbaji fiche. Lakini block cipher inaweza kutumika pamoja na **njia mbalimbali za utendakazi** ili kutoa mifumo tofauti ya usimbaji fiche. Njia ya utendakazi huongeza tu shughuli zingine za ziada nje ya msimbo wa kuzuia.
 
@@ -1200,7 +1200,7 @@ Ili kuonyesha jinsi hii inavyofanya kazi, tuseme block cipher (BC) ambayo inahit
 
 *Mchoro wa 5: Sifa ya kuzuia yenye modi ya ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Mchakato wa usimbaji fiche wa kitabu cha msimbo wa kielektroniki na kisifa cha kuzuia ni kama ifuatavyo. Angalia ikiwa unaweza kugawanya ujumbe wako wa maandishi katika vizuizi 128-bit. Ikiwa sivyo, ongeza ** pedi ** kwa ujumbe, ili matokeo yanaweza kugawanywa sawasawa na saizi ya block ya bits 128. Hii ni data yako iliyotumiwa kwa mchakato wa usimbaji fiche.
 
@@ -1216,7 +1216,7 @@ Badala yake, mpango wowote wa usimbaji fiche ulioundwa kutoka kwa block cipher u
 
 *Kielelezo 6: Sifa ya kuzuia yenye modi ya CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Tuseme saizi ya block ni bits 128 tena. Kwa hivyo ili kuanza, utahitaji tena kuhakikisha kuwa ujumbe wako asilia wa maandishi unapokea pedi zinazohitajika.
 
@@ -1232,7 +1232,7 @@ Hatimaye, hebu tuelekeze usikivu wetu kwa **modi ya maoni ya pato** (**Modi ya O
 
 *Kielelezo cha 7: Sifa ya kuzuia yenye modi ya OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 Ukiwa na modi ya OFB pia unachagua vekta ya uanzishaji. Lakini hapa, kwa kizuizi cha kwanza, vekta ya uanzishaji imeingizwa moja kwa moja kwenye kisifa cha kuzuia na ufunguo wako. Biti-128 zinazotokana, basi, zinachukuliwa kama mkondo muhimu. Mtiririko huu wa ufunguo umewekwa XOR kwa maandishi wazi ili kutoa maandishi ya siri ya kizuizi. Kwa vizuizi vifuatavyo, unatumia mkondo muhimu kutoka kwa kizuizi kilichotangulia kama ingizo kwenye msimbo wa kuzuia na kurudia hatua.
 
@@ -1278,7 +1278,7 @@ Kutokana na mjadala huu, sasa unapaswa kuelewa *Kielelezo 8*. Inatoa muhtasari w
 
 *Kielelezo cha 8: Muhtasari wa mifumo ya usimbaji linganifu*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Misimbo ya uthibitishaji wa ujumbe
 
@@ -1302,7 +1302,7 @@ Mchakato umeonyeshwa kwenye *Kielelezo 9*. Ili kutumia **MAC** (Msimbo wa Uthibi
 
 *Kielelezo cha 9: Muhtasari wa mifumo ya usimbaji linganifu*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Kwa sababu ya **kutoweza kusamehewa**, mshambuliaji hawezi kubadilisha ujumbe $M$ kwa njia yoyote au kuunda ujumbe wake mwenyewe kwa kutumia lebo halali. Hii ni hivyo, hata kama mshambuliaji atatazama lebo za jumbe nyingi kati ya Bob na Alice zinazotumia ufunguo sawa wa faragha. Mara nyingi, mshambuliaji anaweza kumzuia Alice kupokea ujumbe $M$ (tatizo ambalo kriptografia haiwezi Address).
 
@@ -1334,7 +1334,7 @@ Sasa Alice anakagua kwanza ikiwa lebo hiyo ni halali kwa kuzingatia maandishi ya
 
 *Kielelezo 10: Mpango wa usimbaji uliothibitishwa*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Je, MAC zinaundwaje? Ingawa MAC zinaweza kuundwa kupitia mbinu nyingi, njia ya kawaida na bora ya kuziunda ni kupitia **vitendaji vya kriptografia Hash**.
 
@@ -1346,7 +1346,7 @@ Kuna palette ya kazi za Hash ambazo zinaweza kutumika kuunda HMAC. Chaguo za kuk
 
 *Kielelezo 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Maelezo:**
 
@@ -1384,7 +1384,7 @@ Kipindi cha mawasiliano huanza kwa Bob kutuma maandishi ya siri $C_{0,B}$ kwa Al
 
 *Kielelezo 12: Kikao salama cha mawasiliano*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 na AES
 
@@ -1536,7 +1536,7 @@ Hebu tuite ufunguo $K_0$. Ujenzi ulio na vigezo vilivyo hapo juu, basi, unaoneka
 
 *Mchoro wa 1: AES-ECB yenye ufunguo wa 128-bit*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Kila sehemu ya maandishi ya biti 128 hupitia raundi kumi katika mpango wa usimbaji fiche wa Rijndael. Hii inahitaji ufunguo tofauti wa duru kwa kila raundi ($K_1$ hadi $K_{10}$). Hizi hutolewa kwa kila mzunguko kutoka kwa ufunguo asili wa 128-bit $K_0$ kwa kutumia **algorithm ya upanuzi muhimu**. Kwa hivyo, kwa kila kifungu cha maandishi kusimbwa kwa njia fiche, tutatumia ufunguo asilia $K_0$ pamoja na funguo kumi tofauti za duara. Kumbuka kwamba funguo hizi 11 hutumiwa kwa kila kizuizi cha 128-bit cha maandishi wazi ambacho kinahitaji usimbaji fiche.
 
@@ -1834,7 +1834,7 @@ Wakati fulani baadaye, Bob anataka kuandika ujumbe $M$ kwa Alice. Kwa vile inaju
 
 *Kielelezo cha 1: Usimbaji fiche usiolingana*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Adui yeyote anayesikiliza mawasiliano ya Bob na Alice anaweza kuona $C$. Pia anajua $K_P$ na kanuni ya usimbaji fiche $E(\cdot)$. Muhimu hata hivyo, maelezo haya hayamruhusu mvamizi kusimbua kwa urahisi maandishi ya siri $C$. Usimbaji fiche unahitaji $K_S$ haswa, ambayo mvamizi hana.
 
@@ -1858,7 +1858,7 @@ Sahihi ya dijiti ni, kama jina linavyodokeza, ni sawa na dijiti ya sahihi iliyoa
 
 *Kielelezo cha 2: Uthibitishaji wa Asymmetric*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Kama ilivyo kwa usimbaji fiche usiolinganishwa, tunaona utofauti wa kuvutia kati ya sahihi dijitali na misimbo ya uthibitishaji wa ujumbe. Kwa hili la mwisho, algoriti ya uthibitishaji inaweza tu kuajiriwa na mmoja wa wahusika walio na mawasiliano salama. Hii ni kwa sababu inahitaji ufunguo wa faragha. Katika mpangilio wa ulinganifu, hata hivyo, mtu yeyote anaweza kuthibitisha sahihi ya dijitali $S$ iliyotengenezwa na Bob.
 

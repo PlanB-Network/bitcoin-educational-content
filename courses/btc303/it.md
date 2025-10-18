@@ -112,7 +112,7 @@ Nel Bitcoin ci sono due aspetti principali del decentramento: Il decentramento d
 La decentralizzazione Miner si riferisce al fatto che l'elaborazione delle transazioni non viene eseguita né coordinata da alcuna entità centrale. La decentralizzazione Full node si riferisce al fatto che la convalida dei blocchi, cioè dei dati prodotti dai minatori, viene effettuata ai margini della rete, in ultima analisi dai suoi utenti, e non da poche autorità fidate.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner decentralizzazione
@@ -276,7 +276,7 @@ Il modo in cui Bitcoin funziona attraverso il decentramento assomiglia alla stra
 L'autrice sottolinea che molti sistemi, naturali o artificiali, possono funzionare e funzionano senza leader, e sono potenti e resistenti. Ogni individuo interagisce solo con l'ambiente circostante, ma insieme formano qualcosa di straordinario.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *I banchi di pesce non hanno leader*
 
@@ -302,7 +302,7 @@ I sistemi decentralizzati possono essere Hard da capire, ma ci sono alcuni model
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Questo capitolo analizza il concetto di assenza di fiducia, il suo significato dal punto di vista informatico e il motivo per cui il Bitcoin deve essere il Trustless per mantenere la sua proposta di valore.
@@ -453,7 +453,7 @@ Senza fiducia, non possiamo avere la decentralizzazione, perché la fiducia impl
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Questo capitolo tratta di come tenere per sé le informazioni finanziarie private. Spiega cosa significa privacy nel contesto del Bitcoin, perché è importante e cosa significa dire che il Bitcoin è pseudonimo. Inoltre, analizza il modo in cui i dati privati possono trapelare, sia in On-Chain che in off-chain.
@@ -533,7 +533,7 @@ Satoshi Nakamoto riflette sulla privacy di On-Chain nella sezione 7 del suo [whi
 L'articolo riassume i principali problemi di privacy del Blockchain, ovvero il riutilizzo e il raggruppamento del Address. Il primo è autoesplicativo, il secondo si riferisce alla possibilità di decidere, con un certo livello di certezza, che un insieme di indirizzi diversi appartiene allo stesso utente.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Tipiche perdite di privacy sul Blockchain
@@ -673,7 +673,7 @@ Per ottenere una privacy decente nel Bitcoin, è necessario adottare misure atti
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Questo capitolo analizza il limite Bitcoin Supply di 21 milioni di BTC, o quanto è in realtà? Parliamo di come viene applicato questo limite e di cosa si può fare per verificare che venga rispettato. Inoltre, diamo un'occhiata alla sfera di cristallo e discutiamo le dinamiche che entreranno in gioco quando il Block reward passerà dal sistema a sovvenzioni a quello a pagamento.
@@ -785,7 +785,7 @@ Se il Bitcoin Supply crescerà oltre i 21 milioni non possiamo dirlo oggi, e pro
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Aggiornare il Bitcoin in modo sicuro può essere estremamente difficile. Alcune modifiche richiedono diversi anni per essere implementate. In questo capitolo, impariamo a conoscere il vocabolario comune sull'aggiornamento del Bitcoin ed esploriamo alcuni esempi di aggiornamenti storici del suo protocollo, nonché le intuizioni che ne abbiamo ricavato. Infine, si parla delle suddivisioni della catena e dei rischi e dei costi ad esse correlati.
@@ -1025,7 +1025,7 @@ Per mantenere il Bitcoin in armonia, le biforcazioni del Soft hanno dimostrato d
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Questo capitolo affronta il *pensiero avverso*, una mentalità che si concentra su ciò che potrebbe andare storto e su come gli avversari potrebbero agire. Iniziamo discutendo i presupposti di sicurezza e il modello di sicurezza del Bitcoin, dopodiché spieghiamo come gli utenti comuni possano migliorare la propria auto-sovranità e la decentralizzazione Bitcoin Full node pensando in modo avverso. In seguito, esaminiamo alcune minacce reali al Bitcoin e la mente dell'avversario. Infine, parliamo dell'*assioma della resistenza*, che può aiutarvi a capire perché le persone stanno lavorando al Bitcoin in primo luogo.
@@ -1099,7 +1099,7 @@ Questi sono esempi di minacce reali di cui è necessario occuparsi.
 ### Campo di sabotaggio semplice
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Estratto dal Manuale da campo per il sabotaggio semplice
@@ -1150,7 +1150,7 @@ Per mantenere il Bitcoin al sicuro è necessario conoscere i suoi nemici e i lor
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Il Bitcoin è costruito utilizzando software open source. In questo capitolo analizziamo cosa significa, come funziona la manutenzione del software e come il software open source in Bitcoin consente uno sviluppo senza permessi. Ci immergiamo nella *crittografia di selezione*, che si occupa della selezione e dell'uso delle librerie nei sistemi crittografici. Il capitolo comprende una sezione sul processo di revisione di Bitcoin, seguita da un'altra sui modi in cui gli sviluppatori di Bitcoin vengono finanziati. L'ultima sezione parla di come la cultura open source del Bitcoin possa sembrare molto strana dall'esterno, e del perché questa stranezza percepita sia in realtà un segno di buona salute.
@@ -1438,7 +1438,7 @@ Il processo di sviluppo di Bitcoin è radicalmente aperto, il che può far sembr
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ Un approccio che viene troppo poco apprezzato è quello che possiamo chiamare *i
 I miglioramenti ottenuti grazie all'inward scaling sono a dir poco impressionanti. Per dare un'idea generale dei miglioramenti ottenuti nel corso degli anni, Jameson Lopp [ha eseguito dei test di benchmark](https://blog.lopp.net/Bitcoin-core-performance-evolution/) sulla sincronizzazione di Blockchain, confrontando molte versioni diverse di Bitcoin Core a partire dalla versione 0.8.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Prestazioni di download del blocco iniziale di varie versioni di Bitcoin Core. Sull'asse Y è riportata l'altezza del blocco sincronizzato e sull'asse X il tempo impiegato per sincronizzarsi a tale altezza
@@ -1600,7 +1600,7 @@ I miglioramenti possono essere classificati come risparmio di spazio (RAM, disco
 Un buon esempio di miglioramento computazionale si trova nella libreria [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), che, tra le altre cose, implementa le primitive crittografiche necessarie per realizzare e verificare le firme digitali. Pieter Wuille è uno dei collaboratori di questa libreria e ha scritto un [thread su Twitter](https://twitter.com/pwuille/status/1450471673321381896) che illustra i miglioramenti delle prestazioni ottenuti grazie a varie richieste di pull.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Prestazioni della verifica della firma nel tempo, con richieste di pull significative segnate sulla timeline
@@ -1614,7 +1614,7 @@ Ci sono anche diversi esempi di miglioramenti per risparmiare spazio che hanno c
 [Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) sul contributo di Taproot al risparmio di spazio, l'utente Murch confronta la quantità di spazio di blocco che una firma a soglia 2 su 3 richiederebbe, utilizzando Taproot in vari modi e non utilizzandolo affatto.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Risparmio di spazio per diversi tipi di spesa, Taproot e versioni precedenti.
@@ -1629,7 +1629,7 @@ Oltre all'inward scaling nel software Bitcoin , ci sono alcuni modi in cui gli u
 L'idea del batching delle transazioni consiste nel combinare più pagamenti in un'unica transazione, invece di effettuare una transazione per ogni pagamento. In questo modo si possono risparmiare molte commissioni e allo stesso tempo ridurre il carico di spazio dei blocchi.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Il batching delle transazioni combina più pagamenti in un'unica transazione per risparmiare sulle commissioni.
@@ -1638,7 +1638,7 @@ Il batching delle transazioni combina più pagamenti in un'unica transazione per
 Il consolidamento dell'output si riferisce al fatto di sfruttare i periodi di bassa domanda di spazio di blocco per combinare più output in un unico output. Ciò può ridurre il costo delle tariffe in un secondo momento, quando sarà necessario effettuare un pagamento mentre la domanda di spazio di blocco è elevata.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Consolidamento dell'uscita: Fondere le monete in un'unica grande moneta quando le commissioni sono basse per risparmiare le commissioni in seguito.
@@ -1660,7 +1660,7 @@ L'approccio più efficace alla scalabilità è probabilmente la stratificazione.
 Un protocollo a strati inizia con l'accordo di due o più persone su una transazione iniziale che viene inserita nel Blockchain, come illustrato nella figura seguente.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Un tipico protocollo Layer 2 in cima a Bitcoin, Layer 1.
 
@@ -1714,7 +1714,7 @@ Oggi sappiamo che Bitcoin non scala bene in senso verticale ("compra hardware pi
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin è costruito da persone. Le persone scrivono il software e le persone lo eseguono. Quando viene scoperta una vulnerabilità di sicurezza o un bug grave - c'è davvero una distinzione tra i due? - è sempre scoperta da persone in carne e ossa. Questo capitolo esamina ciò che le persone fanno, dovrebbero o non dovrebbero fare quando la merda colpisce il ventilatore. La prima sezione spiega il termine *divulgazione responsabile*, che si riferisce a come chi scopre una vulnerabilità può agire responsabilmente per contribuire a minimizzare i danni che ne derivano. Il resto del capitolo vi porta a scoprire alcune delle vulnerabilità più gravi scoperte nel corso degli anni e come sono state gestite da sviluppatori, minatori e utenti. Nella prima infanzia di Bitcoin le cose non erano così rigorose come lo sono oggi.
 
@@ -2059,7 +2059,7 @@ L'informativa completa su questo tema è stata pubblicata il 28 luglio 2015 da P
 L'e-mail illustra ulteriormente i dettagli su come è stato scoperto il problema e, più precisamente, su cosa lo ha causato. Alla fine, presenta una cronologia degli eventi, di cui riproporremo qui alcuni dei più importanti. Alcuni di essi, come illustrato dalla figura precedente, sono già stati descritti.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 Cronologia degli eventi relativi al BIP66. Le voci in nero sono state spiegate in precedenza.
@@ -2097,7 +2097,7 @@ Questi eventi potrebbero dare l'impressione che Gregory Maxwell fosse a conoscen
 Poi, come proposto da Maxwell, fu creato il BIP66 come sottoinsieme del BIP62 che specificava solo la codifica DER rigorosa. A quanto pare, questo BIP è stato ampiamente accettato e distribuito a luglio, anche se, ironicamente, si sono verificate due scissioni del Blockchain a causa del **Mining** privo di validazione. Queste scissioni sono discusse nella sezione successiva.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Un punto chiave da cui partire è che i PIF dovrebbero essere più o meno *atomici*, cioè abbastanza completi da fornire qualcosa di utile o risolvere un problema specifico, ma abbastanza piccoli da consentire un ampio supporto tra gli utenti. Più cose si inseriscono in un PIF, minori sono le possibilità di accettazione.
@@ -2118,7 +2118,7 @@ La pagina di avviso indicava di attendere 30 conferme in più rispetto al normal
 La scissione di cui sopra si è verificata il 2015-07-04 alle 02:10 UTC dopo l'altezza del blocco [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Questo problema è stato risolto alle 03:50 dello stesso giorno, dopo che erano stati estratti 6 blocchi non validi. Sfortunatamente, lo stesso problema si è ripetuto il giorno successivo, ovvero il 2015-07-05 alle 21:50, ma questa volta il ramo non valido è durato solo 3 blocchi.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 Gli eventi che hanno portato al BIP66, la sua distribuzione e le conseguenze sono un ottimo caso di studio per dimostrare quanto debbano essere attenti gli sviluppatori di Bitcoin. Alcuni elementi chiave di BIP66:
 

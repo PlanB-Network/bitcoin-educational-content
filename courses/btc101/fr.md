@@ -1214,6 +1214,10 @@ En outre, il existe plusieurs [places de marché](https://planb.network/tutorial
 
 Enfin, il est important de noter que les obligations fiscales peuvent varier en fonction de la juridiction. Nous vous encourageons donc vivement à consulter les réglementations en vigueur dans votre pays avant d'entreprendre toute action susceptible de vous exposer à un risque.
 
+Si vous souhaitez approfondir vos connaissances sur les stratégies d’achat, d’utilisation et de sécurisation de vos bitcoins, je vous recommande vivement de suivre le cours **BTC 102** à la suite de celui-ci. Vous y découvrirez notamment des recommandations d’outils adaptés à votre profil, à vos besoins et à vos objectifs personnels :
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hyper-bitcoinisation
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

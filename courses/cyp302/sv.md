@@ -171,7 +171,7 @@ Du kan se den andra chiffertexten i *Figur 2* nedan. [2] Nyckeln till denna chif
 *Figur 1: Beale-chiffer nr. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -413,7 +413,7 @@ De möjliga värdena och tillhörande sannolikheter för en slumpmässig variabe
 *Figur 1: Slumpmässig variabel X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 De breda staplarna i *Figur 1* antyder uppenbarligen inte att den slumpmässiga variabeln $X$ faktiskt är kontinuerlig. Istället har staplarna gjorts breda för att vara mer visuellt tilltalande (bara en linje rakt upp ger en mindre intuitiv visualisering).
@@ -467,7 +467,7 @@ En grafisk beskrivning av $Y$ finns i *Figure 2*.
 *Figur 2: Slumpmässig variabel Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 Som ett sista exempel kan vi betrakta den slumpmässiga variabeln Z. Den har utfallsuppsättningen {1,3,7,11,12} och följande sannolikhetsfördelning:
@@ -505,7 +505,7 @@ Du kan se den avbildad i *Figur 3*. Den slumpmässiga variabeln Z är, till skil
 *Figur 3: Slumpmässig variabel Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -1430,7 +1430,7 @@ Bob krypterar meddelandet $M$ vid tidpunkten $T_0$ med nyckeln $K$ för att prod
 *Figur 1: Sekretess i rymden*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1438,7 +1438,7 @@ Bob krypterar meddelandet $M$ vid tidpunkten $T_0$ med nyckeln $K$ för att prod
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1587,7 +1587,7 @@ Ett typiskt XOR-strömchiffer visas i *Figur 3*. Du tar först en privat nyckel 
 *Figur 3: Ett XOR-strömchiffer*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Tänk på att ett krypteringsschema vanligtvis är en mall för kryptering med samma kärnalgoritm, snarare än en exakt specifikation. I förlängningen är ett strömchiffer typiskt en mall för kryptering där du kan använda nycklar av olika längd. Även om nyckellängden kan påverka vissa mindre detaljer i schemat, kommer den inte att påverka dess grundläggande form.
@@ -1705,7 +1705,7 @@ En bild av hur ett blockchiffer fungerar visas i *Figur 4* nedan. Ett meddelande
 *Figur 4: Ett blockchiffer*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Ett blockchiffer i sig är inte ett krypteringsschema. Men ett blockchiffer kan användas med olika **modes of operation** för att producera olika krypteringsscheman. Ett driftsätt lägger helt enkelt till några ytterligare operationer utanför blockchiffret.
@@ -1717,7 +1717,7 @@ För att illustrera hur detta fungerar kan vi anta ett blockchiffer (BC) som kr�
 *Figur 5: Ett blockchiffer med ECB-läge*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Så här går du tillväga för att kryptera en elektronisk kodbok med blockchiffer. Se om du kan dela upp ditt klartextmeddelande i 128-bitarsblock. Om inte, lägg till **padding** till meddelandet, så att resultatet kan delas jämnt med blockstorleken på 128 bitar. Detta är dina data som används för krypteringsprocessen.
@@ -1741,7 +1741,7 @@ Istället bör alla krypteringsscheman som konstrueras från ett blockchiffer va
 *Figur 6: Ett blockchiffer med CBC-läge*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Anta att blockstorleken återigen är 128 bitar. För att börja måste du alltså återigen försäkra dig om att ditt ursprungliga klartextmeddelande får den nödvändiga utfyllnaden.
@@ -1765,7 +1765,7 @@ Slutligen ska vi titta närmare på **output feedback mode** (**OFB mode**). Du 
 *Figur 7: Ett blockchiffer med OFB-läge*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 I OFB-läget väljer du också en initialiseringsvektor. Men här, för det första blocket, sätts initialiseringsvektorn direkt in i blockchiffret med din nyckel. De 128 bitarna som blir resultatet behandlas sedan som en nyckelström. Denna nyckelström XOR:as med klartexten för att producera chiffertexten för blocket. För efterföljande block använder du nyckelströmmen från det föregående blocket som en ingång till blockchiffret och upprepar stegen.
@@ -1836,7 +1836,7 @@ Från den här diskussionen bör du nu förstå *Figur 8*. Den ger en översikt 
 *Figur 8: Översikt över symmetriska krypteringssystem*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1871,7 +1871,7 @@ Processen beskrivs i *Figur 9*. För att använda en **MAC** (Message Authentica
 *Figur 9: Översikt över symmetriska krypteringssystem*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 På grund av **existentiell oförfalskbarhet** kan en angripare inte ändra meddelandet $M$ på något sätt eller skapa ett eget meddelande med en giltig tagg. Detta gäller även om angriparen observerar taggarna för många meddelanden mellan Bob och Alice som använder samma privata nyckel. På sin höjd kan en angripare blockera Alice från att ta emot meddelandet $M$ (ett problem som kryptografi inte kan lösa Address).
@@ -1919,7 +1919,7 @@ Alice kontrollerar nu först om taggen är giltig med tanke på chiffertexten $C
 *Figur 10: Ett autentiserat krypteringsschema*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 Hur skapas MAC:er? MAC kan skapas på flera olika sätt, men ett vanligt och effektivt sätt är att skapa dem via **kryptografiska Hash-funktioner**.
@@ -1938,7 +1938,7 @@ Det finns en palett av Hash-funktioner som kan användas för att skapa en HMAC.
 *Bild 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Noteringar:**
@@ -1995,7 +1995,7 @@ Kommunikationssessionen börjar med att Bob skickar en chiffertext $C_{0,B}$ til
 *Figur 12: En säker kommunikationssession*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2188,7 +2188,7 @@ Låt oss kalla nyckeln för $K_0$. Konstruktionen med ovanstående parametrar se
 *Bild 1: AES-ECB med en 128-bitars nyckel*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Varje 128-bitars textblock går igenom tio rundor i Rijndael-krypteringsschemat. Detta kräver en separat rundnyckel för varje runda ($K_1$ till $K_{10}$). Dessa skapas för varje omgång från den ursprungliga 128-bitarsnyckeln $K_0$ med hjälp av en **nyckelexpansionsalgoritm**. För varje textblock som ska krypteras använder vi alltså originalnyckeln $K_0$ samt tio separata rundnycklar. Observera att samma 11 nycklar används för varje 128-bitarsblock med klartext som ska krypteras.
@@ -2563,7 +2563,7 @@ Vid ett senare tillfälle vill Bob skriva ett meddelande $M$ till Alice. Efterso
 *Figur 1: Asymmetrisk kryptering*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2600,7 +2600,7 @@ En digital signatur är, som namnet tydligt antyder, den digitala motsvarigheten
 *Figur 2: Asymmetrisk autentisering*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 

@@ -256,6 +256,9 @@ This discussion underscores the significance of comprehending the underlying mec
 #### Inflation ≠ CPI
 
 Inflation, although often associated with an increase in the money supply, does not always have a direct correlation with money printing, as illustrated by the period following the 2008 financial crisis. Despite significant money printing to save the banks, the following decade did not experience high inflation, averaging between 0 and 2% per year. This situation raises the question: Why did massive money printing not result in proportional inflation? The answer lies in several nuances related to measuring inflation and the Consumer Price Index (CPI).
+
+![image](assets/fr/018.webp)
+
 The first explanation lies in the way inflation is measured. The Consumer Price Index (CPI), which serves as the primary indicator of inflation, has certain limitations. For example, it does not comprehensively account for the evolution of real estate prices. Although the CPI includes a component related to rents, the substantial appreciation of house prices is not fully reflected in the index. As a result, significant increases in housing costs can occur without being fully captured by the CPI, potentially underestimating actual inflation.
 
 Additionally, the calculation of the CPI employs certain methodologies that can offset or mask actual price increases. For example, qualitative improvements in products can be used to adjust the index. If the price of a product increases, but its quality or features also improve, the CPI may consider that the real value for the consumer has not changed, and therefore, not reflect inflation. An illustrative case is one where, despite an increase in beef and computer prices due to monetary injection, the improvement in computer performance is used to offset this increase. If a computer costs twice as much but is four times more powerful, the CPI may interpret this as a decrease in prices, thus masking the increase in beef prices.
@@ -420,6 +423,7 @@ This definition has been adopted in the Hanke-Krus table, which documents 56 epi
 zoom
 
 ![image](assets/fr/033.webp)
+
 It should be noted that this definition, although precise, could possibly exclude certain episodes of hyperinflation due to the strictness of the 50% threshold. There is a possibility of expanding this definition to include other episodes that, although not strictly meeting Cagan's criteria, nevertheless represent periods of extremely high inflation. This observation opens the door to a broader exploration of hyperinflation phenomena, allowing for a more nuanced understanding of its causes and effects. In subsequent discussions, we will consider revisiting this definition and examining episodes of hyperinflation not covered by Cagan's strict criteria.
 
 ### The Definition of Hyperinflation by Cagan
@@ -444,9 +448,34 @@ This reflection leads us to question the rigidity of the traditional definition 
 
 ### The Definition of Hyperinflation According to the International Accounting Standards Board (IASB)
 
-So, how many cases of hyperinflation are there in total?
+The IASB offers a unique perspective on hyperinflation, focusing on accounting practices during periods of hyperinflation. This approach is crucial for accountants and businesses operating in hyperinflationary environments, where monetary value fluctuates rapidly. The IASB guidelines identify various indicators of hyperinflation:
 
-Common definitions of hyperinflation, such as the one proposed by Phillip D. Cagan, who defines it as a phenomenon happening when the rate of inflation grows at more than 50% a month, can sometimes be confusing or oversimplified. For example, two countries experiencing respective annual inflation rates of 1,000% and 3,000% can be perceived differently depending on the monthly distribution of these inflation rates. If no month exceeds the threshold of 50%, according to Cagan's definition, these countries would not be in a state of hyperinflation. This approach can therefore lead to anomalies in the classification of hyperinflation, especially when comparing cumulative inflation over the year.
+- **Preference for Non-Monetary Assets:**  
+  Individuals prefer to hold value in goods rather than in currency due to the rapid depreciation of monetary value.
+
+- **Valuation of Goods and Services:**  
+  Residents do not calculate the value of goods and services in local currency, reflecting a loss of confidence in the local currency.
+
+- **Compensation for Monetary Value Loss:**  
+  Prices incorporate compensation for the loss of monetary value during credit purchases, illustrating the impact of inflation on daily transactions.
+
+- **Price, Wage, and Interest Indexation:**  
+  Prices, wages, and interests are adjusted based on an index to compensate for inflation.
+
+- **Cumulative Inflation over Three Years:**  
+  Cumulative inflation over three years approaching 100% (roughly 24% per year), contrasting with Cagan's definition of 50% monthly inflation.
+
+![image](assets/fr/036.webp)
+
+According to IASB criteria, several countries, including Argentina, Ethiopia, Haiti, Iran, Lebanon, Sudan, South Sudan, Suriname, Syria, Turkey, Venezuela, Yemen, and Zimbabwe, are currently experiencing hyperinflation.
+
+![image](assets/fr/037.webp)
+
+This definition provided by the IASB moves away from Cagan's strict quantitative threshold by incorporating a qualitative analysis of economic behaviors and practical adjustments in the face of hyperinflation. It demonstrates that hyperinflation is a complex phenomenon that requires a multidimensional understanding to grasp its real implications, particularly in the field of accounting, which is crucial for the stability and financial transparency of businesses and markets.
+
+### So, how many hyperinflations are there in total?
+
+Common definitions of hyperinflation, such as the one proposed by Cagan, stipulating a monthly inflation rate of 50%, can sometimes be confusing or overly simplistic. For example, two countries experiencing annual inflation rates of 1,000% and 3,000% respectively may be perceived differently based on the monthly distribution of that inflation. If no month exceeds the 50% threshold, according to Cagan's definition, those countries would not be classified as in a state of hyperinflation. This approach can thus lead to anomalies in classifying hyperinflation, especially when comparing cumulative inflations over the year.
 
 ![image](assets/fr/038.webp)
 

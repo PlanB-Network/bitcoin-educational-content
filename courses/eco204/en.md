@@ -118,7 +118,6 @@ The Maravedi, as a copper currency, occupies a special place in the history of S
 
 Monetary devaluation is a tool often used by states to finance their expenses or stimulate the economy. However, Spain found itself in a delicate situation. Diluting the Spanish dollar would have compromised its position in international trade. To overcome this dilemma, Spain turned to the Maravedi.
 
-![image](assets/chapitre-2.1/6.webp)
 Unlike the precious Spanish silver dollar, the Maravedi was a copper currency mainly used within the local population. This currency was targeted for devaluation. When a Maravedis coin was initially worth two maravedises, the state would retrieve it, re-stamp it with a new value, for example, "four", and only return one coin to the owner. The coin, marked with the stamp "eight," is evidence of this process, having undergone several cycles of devaluation.
 
 This strategy allowed the state to effectively devalue a currency, creating inflation and indirectly financing the State, while preserving the integrity of the Spanish dollar on the international stage. However, this targeted devaluation had consequences for the local population, who saw the value of their common currency diluted.
@@ -321,27 +320,27 @@ Because, as this [thread](https://twitter.com/saifedean/status/16736397794335907
 
 - Example of Sweden blaming Beyoncé for inflation during a specific month.
 
-![image](assets/fr/017.webp)
+![image](assets/fr/025.webp)
 
 - The central bank in Poland attributes inflation to Russian aggression in Ukraine and the pandemic
 
-![image](assets/fr/025.webp)
+![image](assets/fr/026.webp)
 
 - Brexit is blamed for inflation in the United Kingdom.
 
-![image](assets/fr/026.webp)
+![image](assets/fr/027.webp)
 
 - Release of the Zelda game associated with an inflationary shock.
 
-![image](assets/fr/027.webp)
+![image](assets/fr/028.webp)
 
 - Taylor Swift is allegedly causing inflation.
 
-![image](assets/fr/028.webp)
+![image](assets/fr/029.webp)
 
 Tell me, how could Beyoncé or Taylor Swift cause the widespread rise in prices? You see, it doesn't make any sense. In short:
 
-![image](assets/fr/029.webp)
+![image](assets/fr/030.webp)
 
 ### Exploration of Types of Inflation
 
@@ -353,7 +352,7 @@ It is crucial to understand the distinction between different types of inflation
 
 - Hyperinflation: Hyperinflation is an extreme phenomenon where the inflation rate exceeds 50% per month, which, due to the exponential nature of inflation, is equivalent to an annual inflation rate of over 13,000%. This level of inflation severely destabilizes the economy, rendering the currency nearly worthless and eroding confidence in the monetary system.
 
-![image](assets/fr/030.webp)
+![image](assets/fr/031.webp)
 
 When exploring types of inflation, it is common to come across terms like "Demand Pull" and "Cost Push" in educational resources. These concepts, although valid, tend to explain price increases rather than inflation as a monetary phenomenon. Here is a more in-depth analysis:
 
@@ -368,7 +367,7 @@ When exploring types of inflation, it is common to come across terms like "Deman
 
 Bernholz proposes a simplified but precise classification of inflation into three categories, allowing for a better understanding of this complex monetary phenomenon:
 
-![image](assets/fr/031.webp)
+![image](assets/fr/032.webp)
 
 - Moderate Inflation:
   Moderate inflation occurs when the level of money supply is higher than normal, but without the state resorting to large deficits financed by money creation. Although the term "moderate" may seem insignificant, this form of inflation can cause substantial problems, although it is not classified as high inflation.
@@ -418,11 +417,11 @@ To illustrate, if inflation drops to 40% in July and does not rise above 50% unt
 
 This definition has been adopted in the Hanke-Krus table, which documents 56 episodes of hyperinflation. However, the table does not cover all episodes, such as the one in Venezuela in 2016, bringing the total to 57.
 
-![image](assets/fr/032.webp)
+![image](assets/fr/033.webp)
 
 zoom
 
-![image](assets/fr/033.webp)
+![image](assets/fr/034.webp)
 
 It should be noted that this definition, although precise, could possibly exclude certain episodes of hyperinflation due to the strictness of the 50% threshold. There is a possibility of expanding this definition to include other episodes that, although not strictly meeting Cagan's criteria, nevertheless represent periods of extremely high inflation. This observation opens the door to a broader exploration of hyperinflation phenomena, allowing for a more nuanced understanding of its causes and effects. In subsequent discussions, we will consider revisiting this definition and examining episodes of hyperinflation not covered by Cagan's strict criteria.
 
@@ -430,7 +429,7 @@ It should be noted that this definition, although precise, could possibly exclud
 
 Philip Cagan may have set an arbitrary milestone with the 50% monthly inflation threshold when defining hyperinflation. He himself admits that this definition is arbitrary and primarily serves his analysis based on seven episodes of hyperinflation. Examination of Cagan's data reveals that the three episodes of hyperinflation with the lowest monthly inflation rates were around 47%, 46%, and 57%. It appears that the 50% threshold was chosen to encompass these cases in his study.
 
-![image](assets/fr/034.webp)
+![image](assets/fr/035.webp)
 
 - Historical Context:
   Cagan's definition dates back to 1956 and is based on a limited number of hyperinflation episodes available at that time.
@@ -442,7 +441,7 @@ Philip Cagan may have set an arbitrary milestone with the 50% monthly inflation 
   Other economists, such as Bernholz, the author of Monetary Regime and Inflation, have also described the 50% threshold as arbitrary.
   Bernholz notes that there are episodes of high inflation with the same qualitative characteristics as episodes of hyperinflation, without reaching the 50% threshold.
 
-![image](assets/fr/035.webp)
+![image](assets/fr/036.webp)
 
 This reflection leads us to question the rigidity of the traditional definition of hyperinflation and highlights the need to perhaps revisit this threshold by incorporating more episodes and historical data. The definition of hyperinflation may require flexibility to encompass various manifestations of extreme inflation in different economic and historical contexts.
 
@@ -465,11 +464,11 @@ The IASB offers a unique perspective on hyperinflation, focusing on accounting p
 - **Cumulative Inflation over Three Years:**  
   Cumulative inflation over three years approaching 100% (roughly 24% per year), contrasting with Cagan's definition of 50% monthly inflation.
 
-![image](assets/fr/036.webp)
+![image](assets/fr/037.webp)
 
 According to IASB criteria, several countries, including Argentina, Ethiopia, Haiti, Iran, Lebanon, Sudan, South Sudan, Suriname, Syria, Turkey, Venezuela, Yemen, and Zimbabwe, are currently experiencing hyperinflation.
 
-![image](assets/fr/037.webp)
+![image](assets/fr/038.webp)
 
 This definition provided by the IASB moves away from Cagan's strict quantitative threshold by incorporating a qualitative analysis of economic behaviors and practical adjustments in the face of hyperinflation. It demonstrates that hyperinflation is a complex phenomenon that requires a multidimensional understanding to grasp its real implications, particularly in the field of accounting, which is crucial for the stability and financial transparency of businesses and markets.
 
@@ -477,7 +476,7 @@ This definition provided by the IASB moves away from Cagan's strict quantitative
 
 Common definitions of hyperinflation, such as the one proposed by Cagan, stipulating a monthly inflation rate of 50%, can sometimes be confusing or overly simplistic. For example, two countries experiencing annual inflation rates of 1,000% and 3,000% respectively may be perceived differently based on the monthly distribution of that inflation. If no month exceeds the 50% threshold, according to Cagan's definition, those countries would not be classified as in a state of hyperinflation. This approach can thus lead to anomalies in classifying hyperinflation, especially when comparing cumulative inflations over the year.
 
-![image](assets/fr/038.webp)
+![image](assets/fr/039.webp)
 
 - Cagan's work, "Monetary Dynamics of Hyperinflation," provides a fundamental analysis of hyperinflation.
 - Bernholz's book, which studies 30 distinct periods of hyperinflation, thus expanding the scope of analysis.
@@ -496,12 +495,12 @@ In this chapter, we will examine the effects of hyperinflation, with a focus on 
 
 Several books have been particularly informative:
 
-![image](assets/fr/039.webp)
+![image](assets/fr/040.webp)
 
 - "When Money Dies" by Adam Ferguson traces the post-World War I hyperinflation in Germany, as well as in Austria and Hungary.
 - Two books on hyperinflation in Zimbabwe, "Zimbabwe Warm Heart Ugly Face" and "Hard Boiled Egg Index" by Jérôme Gardner and Kudzai Joseph Gou Min-Yu, respectively, offer poignant testimonies from a CEO of a clothing store chain and an agricultural banker on their experiences during this tumultuous period.
 
-![image](assets/fr/040.webp)
+![image](assets/fr/041.webp)
 
 While consolidating my notes, I noticed numerous similarities between the experiences of hyperinflation in Zimbabwe and the Weimar Republic, despite the 90-year gap between them. I identified around 17 similarities, with 13 illustrating a sort of progression towards the economic disaster depicted in these testimonies. These fascinating parallels demonstrate the repetitive and devastating nature of hyperinflation across time and borders. Today, we will examine these similarities and how they depict a worrisome trajectory during periods of hyperinflation.
 
@@ -531,7 +530,7 @@ The speed at which currency can lose its value in certain economic situations is
 
 > Zimbabwe: "The central bank wasted money by printing a banknote that was not worth the paper it was printed on. In other words, its value was lower than that of toilet paper. As absurd as it may sound, it was cheaper to use the ZWD 100 trillion banknote as toilet paper than to buy actual toilet paper."
 
-![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
 
 #### 4. Counting money
 
@@ -570,7 +569,7 @@ Weimar: "As the old virtues of thrift, honesty, and hard work lost their appeal,
 
 Zimbabwe: "These practices, while enriching a few individuals, impoverished the urban working class and the rural population. Education lost its value, as this trade was driven by people who did not need education or hard work to justify it. All they needed were connections and initial capital to start their easy money business."
 
-![image](assets/fr/042.webp)
+![image](assets/fr/043.webp)
 
 #### 8. The "banks of the world"
 
@@ -594,7 +593,7 @@ Weimar: "Merchants had recently been forced by a new decree to accept state bank
 
 Zimbabwe: "The government introduced SI 175/2008 on December 12, 2008, regarding payment by checks. It stated, 'The penalty for refusing payment by check/bank card or any other bank-mediated electronic payment method shall be a level 8 fine or a prison sentence of six months or both.' Obviously, we ignored the SI because it was completely out of touch with reality."
 
-![image](assets/fr/043.webp)
+![image](assets/fr/044.webp)
 
 #### 11. Forced to keep their shops open
 
@@ -622,7 +621,7 @@ The frantic purchase of foreign currencies has often marked a critical turning p
 
 ### Summary of the process
 
-![image](assets/fr/044.webp)
+![image](assets/fr/045.webp)
 
 When analyzing the economic trajectory, it is apparent that when high inflation is reached, the value of the monetary mass deteriorates. This devaluation leads to several complications, including a shortage of banknotes. In this context, arbitrage opportunities arise, particularly in response to fluctuations in exchange rates. As a result, many individuals turn to this arbitrage, investing heavily in tangible assets in anticipation of future currency devaluation that would allow them to repay their debts with a weakened currency. This economic environment undermines the appeal of traditional jobs and, consequently, erodes social cohesion.
 
@@ -630,7 +629,7 @@ In response to this situation, the government imposes draconian regulations, inc
 
 ### 4 Similarities in the consequences of hyperinflation
 
-![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 #### 1. Oil and metals
 
@@ -680,7 +679,7 @@ In this chapter, we will explore the differences and contemporary parallels betw
 
 In Germany, it was common for the population to attribute inflation to the rise of the dollar rather than the intrinsic devaluation of their own currency. Many believed that the observed phenomenon was due to an appreciation of the dollar. This perception dismissed any recognition of the link between their economic difficulty and monetary devaluation, mainly induced by excessive money creation. The book "When Money Dies" clearly illustrates this lack of understanding among the German population. In contrast, in Zimbabwe, the situation was different: citizens were fully aware of the underlying cause of the hyperinflation they were experiencing.
 
-![image](assets/fr/046.webp)
+![image](assets/fr/047.webp)
 
 #### 2. Emergency money (Notgeld)
 
@@ -694,7 +693,7 @@ Among the Notgeld, one particular banknote stands out. It features a poignant il
 
 The artist behind this Notgeld seems to be making an ironic critique of the authorities responsible for the hyperinflation crisis. The banknote bears the inscription "Necessity knows no law". Another expression specific to the locality of origin of the Notgeld is: "What has to be done, has to be done."
 
-![image](assets/fr/047.webp)
+![image](assets/fr/049.webp)
 
 > "necessity knows no law"
 
@@ -710,7 +709,7 @@ In Weimar, some debts were revalued to compensate for the impact of inflation. T
 
 To learn more about managing the German crisis, this book is also essential.
 
-![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 ### Contemporary Parallels
 
@@ -755,7 +754,7 @@ A zombie company is a business that, under normal market conditions, would be in
 
 The notion of zombie companies is not new. In fact, it existed during the Weimar Republic. At that time, many companies appeared to be flourishing, largely benefiting from access to free credit. They borrowed substantial sums with the expectation of repaying later with a depreciated currency due to rampant inflation. However, when inflation ceased and the German mark regained value, these companies, which were not truly viable operationally or financially, became unprofitable and had to shut down.
 
-![image](assets/fr/050.webp)
+![image](assets/fr/051.webp)
 
 The phenomenon of zombie companies is not limited to postwar Germany. Even today, many large corporations continue to thrive due to their privileged access to credit at extremely low interest rates. If they had to borrow at more conventional rates, many of them would cease to be profitable. This is particularly relevant in 2023, following a prolonged period of near-zero interest rates, as rates have now begun to rise. This recent shift in the financial landscape will undoubtedly be a decisive test for these companies, once labeled "zombies."
 
@@ -763,7 +762,7 @@ The phenomenon of zombie companies is not limited to postwar Germany. Even today
 
 History reveals instances where individuals sought to accumulate wealth rapidly, as was the case in Weimar and Zimbabwe through arbitrage. Today, a similar trend can be observed with the rise of certain cryptocurrencies. People are tempted by quick gains, taking risks in hopes of an exponential increase in their investment. This approach recalls that seen during periods of hyperinflation, where arbitrage was used to obtain quick profits, often at the expense of others.
 
-![image](assets/fr/051.webp)
+![image](assets/fr/052.webp)
 
 #### 7. Savings, the Remedy Against Uncertainty
 
@@ -786,7 +785,7 @@ We will now look at different periods of redenomination in Latin American countr
 
 On the slide, on the left, are the years of redenomination, the name of the new currency, and the exchange rate with the old currency. Taking the example of Argentina, the peso moneda nacional was converted at a rate of 25 to 1 from the previous currency, the peso reàl. In this context, we will examine the evolution of the Argentine currency over time. Additionally, we will indicate the initial and final denominations of banknotes for each period.
 
-![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 On the right side of the slide, a graph of inflation is displayed. The red arrows represent years of hyperinflation, as defined by Cagan's criterion, which is an inflation rate of 50% per month. This criterion can sometimes lead to ambiguous interpretations, as years with high inflation rates may not meet the strict definition of hyperinflation.
 It is worth noting that redenomination, a common measure taken by governments during periods of inflation, is a notable occurrence. However, this does not solve the underlying problem of inflation or hyperinflation. It is only a way to rename the currency and remove zeros, without truly addressing the root cause of hyperinflation: the expansion of the money supply. In a later video, we will discuss the real solutions to address and resolve the problem of hyperinflation. In this series, we will highlight the consequences of a simple redenomination without adequate reforms: inflation persists.
@@ -794,13 +793,13 @@ After Argentina, our study will cover Brazil, Bolivia, Peru, Nicaragua, and Vene
 
 ### Argentina
 
-![image](assets/fr/052.webp)
+![image](assets/fr/054.webp)
 
 Before 1826, Argentina used the Spanish dollar. After its independence in 1816, it introduced its own currency based on the Spanish reàl, resulting in the creation of a similar currency. The table begins in 1881, the year of the introduction of the "peso moneda nacional," with banknotes available up to 10,000. This was followed by the "peso ley," which was exchanged at a rate of 100 to 1 and featured banknotes up to one million. Then, the "Argentine peso" arrived with an exchange rate of 10,000 to 1 (equivalent to removing four zeros), and banknotes up to 10,000. In 1985, the "australes" was introduced and exchanged at a rate of 1,000 to 1, with banknotes available up to 500,000. In 1992, the current "peso ley" was established at a rate of 10,000 to 1, once again removing four zeros. Only the years 1989 and 1990 experienced hyperinflation.
 
 ### Brazil
 
-![image](assets/fr/053.webp)
+![image](assets/fr/055.webp)
 
 Brazil is a notable example of monetary redenomination, as illustrated by its history of currency changes. Before its independence, Brazil used the Portuguese reàl as its currency. However, as early as 1747, the country began using its own "Brazilian reàl," long before its declaration of independence in 1822. The table starts in 1818, marking the beginning of the issuance of Brazilian banknotes. Previously, the currency was primarily in the form of coins. These banknotes reached values of up to one million reais.
 Starting from 1942, Brazil began a series of redenominations. In most cases (1942, 1967, 1986, 1989, 1993), the conversion rate was 1:1,000. In 1990, a name change occurred without conversion. The sequence of these currencies is as follows:
@@ -818,7 +817,7 @@ The highest denomination bill reached 500,000, and the last redenomination in 19
 
 ### Bolivia
 
-![image](assets/fr/054.webp)
+![image](assets/fr/056.webp)
 
 Bolivia is another example of a country that has experienced periods of acute inflation, necessitating currency redenominations. Here is a summary of its monetary history:
 
@@ -833,7 +832,7 @@ That is an overview of Bolivia's tumultuous monetary history, marked by periods 
 
 ### Peru
 
-![image](assets/fr/055.webp)
+![image](assets/fr/057.webp)
 
 Peru presents an interesting case regarding the effects of the arbitrary 50% rule. Starting with its monetary history, Peru used Spanish gold until the 19th century, when it declared its independence in 1821. The Peruvian dollar was in use from 1822 to 1863. In 1863, the Peruvian reàl was replaced by the soldi oro, at a rate of 10 to 1, reaching a maximum value of 50,000. In 1985, the currency "Inti" was introduced with a conversion rate of 1000 to 1, peaking at 5 million. In 1991, the "SOL" was launched with an exchange rate of 1 million to 1, with banknotes ranging from 10 to 200.
 Examining the redenomination periods, 1988 is considered a year of hyperinflation, especially in September. July-August 1990 also saw a period of hyperinflation. In 1988, the annual inflation rate was 667%, with a peak of 50% in September. In contrast, 1989 experienced an inflation rate of 3000% without any month exceeding 50%, so it was not classified as hyperinflation. In 1990, inflation peaked at 7481%. It is clear that the 50% rule can be arbitrary, as 1988 was considered a year of hyperinflation, unlike 1989. If this rule were reconsidered, it might be wise to lower the threshold to include periods like the one experienced by Peru in 1989.
@@ -844,24 +843,24 @@ Examining the redenomination periods, 1988 is considered a year of hyperinflatio
 
 ### Nicaragua
 
-![image](assets/fr/056.webp)
+![image](assets/fr/058.webp)
 Nicaragua, formerly under Spanish rule, initially used the Spanish dollar, like many other countries colonized by Spain. After being integrated into the Spanish Empire, the Mexican Empire, and then the Federal Republic of Central America, Nicaragua declared its independence. Starting in 1878, the peso became the country's official currency, with values fluctuating between 1 and 100. In 1912, the country introduced the first Cordoba, followed by the second in 1988 and the third in 1991, which is still in use today. The first Cordoba reached a value of 1 million, and the second 10 million. The redenomination in 1991 followed several years of hyperinflation.
 
 ### Venezuela
 
-![image](assets/fr/057.webp)
+![image](assets/fr/059.webp)
 
 Venezuela is the last country mentioned in this video. The country has undergone four currency redenominations over time. In its early days, Venezuela used the Spanish dollar before declaring independence in 1811. In 1879, it introduced the bolivar as the official currency, which remained in effect until 1983, when the government opted for a floating exchange rate system using the dollar.
 
 A notable fact about Venezuela is its membership in the Latin Monetary Union. This union included coins such as the 5 pesetas from Spain, the 5 drachmas from Greece, the 5 bolivars from Venezuela, the 5 lire from Italy, the 5 Belgian francs, and the 5 French francs.
 
-![image](assets/fr/058.webp)
-
-![image](assets/fr/059.webp)
-
 ![image](assets/fr/060.webp)
 
 ![image](assets/fr/061.webp)
+
+![image](assets/fr/062.webp)
+
+![image](assets/fr/063.webp)
 
 During this period, the 5 bolivar coin from Venezuela had the same weight as those of the Union member countries, including Italy, Spain, Belgium, and France. These bolivars were made of silver, with a specific coin from 1929 weighing 25 grams and having a purity of 900, or 90% pure silver. With the current price of silver, this coin is worth approximately $17 to $18 (US Dollars).
 
@@ -902,13 +901,13 @@ An interesting aspect raised by Bernholz is that the success of a monetary refor
 
 ### The case of Zimbabwe
 
-![image](assets/fr/062.webp)
+![image](assets/fr/064.webp)
 
 Zimbabwe gained independence in 1980 and introduced its own currency, the Zimbabwean dollar. Initially, two Zimbabwean dollars were worth about 1.60 US dollars. However, in 1997, following social measures in favor of war veterans, the currency devalued by 72% in one day during Black Friday. Then, in the early 2000s, the country launched a land redistribution program, which involved taking land from white owners and distributing it to the local population. This decision harmed exports because the new owners often lacked the necessary expertise to manage large-scale farms. As a result, while Zimbabwe was a net exporter in 1999, it became a net importer in 2003.
 
 In 2006, the country introduced a new version of its currency, the ZWN, with an exchange rate of 1 to 1,000. In 2008, another denomination, the ZWR, was introduced with an exchange rate of 1 to 10 billion. This led to the creation of the iconic 100 trillion banknotes.
 
-![image](assets/fr/063.webp)
+![image](assets/fr/065.webp)
 
 #### Dollarization & Crisis Resolution
 
@@ -923,11 +922,11 @@ It is concerning to note that Zimbabwe has since attempted to reintroduce its ow
 
 In my book titled "Everything About Bitcoin," I dedicated an entire chapter to hyperinflation in Zimbabwe. I detail the significant events, providing various examples that illustrate how the country ultimately brought an end to hyperinflation.
 
-![image](assets/fr/064.webp)
+![image](assets/fr/066.webp)
 
 For those curious about the German experience after World War I, I highly recommend the comic book "The Reich's Banker." It narrates how Germany managed to overcome hyperinflation, notably through the creation of the Rentenmark.
 
-![image](assets/fr/065.webp)
+![image](assets/fr/067.webp)
 
 The key takeaway is that several strategies exist to overcome hyperinflation. One can opt for dollarization or introduce a new currency. These solutions will only work if the population has confidence in them. It is crucial to impose strict constraints. A truly independent central bank is essential. It must not inflate the money supply to cover government deficits. In the case of mild inflation, limiting the growth of the money supply should suffice. However, when faced with hyperinflation, it is crucial to first have an appropriate money supply in relation to the economy's size. Then, it is imperative to impose strict constraints on the government to stabilize the situation.
 
@@ -937,7 +936,7 @@ The key takeaway is that several strategies exist to overcome hyperinflation. On
 
 [Discover the scanned collection in the *Bitcoin Educational Toolkit* (also accessible from the *Resources* section of the Plan ₿ Network platform.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
-![image](assets/fr/072.webp)
+![image](assets/fr/068.webp)
 # How did we get here?
 
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
@@ -950,7 +949,7 @@ Transcript:
 
 The emergence of the second layer of money and the first central banks is a fascinating subject. This theme is extensively discussed in the book "Layered Money" by Nick Battia. I highly recommend it to those interested in the evolution and intricacies of our monetary systems. The objective of this section is to understand the origin of money creation and how it could lead to hyperinflation.
 
-![image](assets/fr/066.webp)
+![image](assets/fr/069.webp)
 
 ### Pyramid Money and Central Banks
 
@@ -958,9 +957,9 @@ The emergence of the second layer of money and the first central banks is a fasc
 
 The history of money dates back to the 13th century in Italy, specifically in the city of Florence. At that time, the florin and bills of exchange were common. A notable example is the florin, adorned with the figure of Saint John the Baptist.
 
-![image](assets/fr/067.webp)
+![image](assets/fr/070.webp)
 
-![image](assets/fr/068.webp)
+![image](assets/fr/071.webp)
 
 While owning a genuine florin is expensive today, reproductions are available. There are also other currencies from that time, such as the soldo from the Italian states of the 17th century, which features an image of Christ.
 
@@ -977,13 +976,13 @@ This concept, although associated with Nick Bell through his Twitter pseudonym "
 
 #### The VOC and the Amsterdam Stock Market (17th century)
 
-![image](assets/fr/069.webp)
+![image](assets/fr/072.webp)
 
 Following the establishment of the Antwerp Stock Exchange, a major milestone was the founding of the VOC, the Dutch East India Company. This company, based in the Netherlands, even issued its own currency. Following the creation of the VOC, the first stock market was established in Amsterdam, marking the beginning of the company's stock market operations. What is interesting to note is how the Dutch managed to end Antwerp's supremacy as an international economic center. They simply blocked access to the Scheldt River. This strategy was part of a larger historical movement, the revolt of the beggars. A crucial event in European history.
 
 #### The intervention of the Bank of Amsterdam
 
-![image](assets/fr/070.webp)
+![image](assets/fr/073.webp)
 
 Following the establishment of the VOC, another significant development in monetary history was the introduction of gold coins by the Bank of Amsterdam. These coins, dating back to 1722, were made of silver. However, what truly revolutionized finance at that time was not so much the coin itself, but the accounts associated with this currency at the Bank of Amsterdam. These accounts became the primary means of international exchange. Transactions were simply recorded in registers or ledgers. Thanks to this system, Amsterdam became the global economic center. Over time, the Bank of Amsterdam decided to impose the use of these accounts. Independent money changers were required to exchange their coins for deposits at the bank on a daily basis.
 
@@ -994,7 +993,7 @@ Initially, the first layer of currency was represented by gold. Deposits made wi
 
 #### The Panic of 1796
 
-![image](assets/fr/071.webp)
+![image](assets/fr/074.webp)
 Bank panic at Seamen's Savings Bank during the Panic of 1857.
 
 Following the bank panic of 1796, a phenomenon occurred in which everyone tried to move up the "money pyramid." People wanted to exchange their third-layer currency for second-layer currency, and ultimately, for first-layer currency, which was gold. Faced with this massive rush, the Bank of England was forced to take action to stabilize the situation. To prevent a potential deflation of gold reserves, it decided to suspend the convertibility of its banknotes into gold. This suspension, initially intended as a temporary measure, lasted for approximately two decades.

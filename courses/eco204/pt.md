@@ -182,8 +182,6 @@ O Maravedi, enquanto moeda de cobre, ocupa um lugar especial na história da moe
 A desvalorização monetária é um instrumento frequentemente utilizado pelos Estados para financiar as suas despesas ou estimular a economia. No entanto, a Espanha encontrava-se numa situação delicada. A diluição do dólar espanhol teria comprometido a sua posição no comércio internacional. Para ultrapassar este dilema, a Espanha recorreu ao Maravedi.
 
 
-![image](assets/chapitre-2.1/6.webp)
-
 Ao contrário do precioso dólar de prata espanhol, o Maravedi era uma moeda de cobre utilizada principalmente pela população local. Esta moeda era objeto de desvalorização. Quando um Maravedis Coin valia inicialmente dois maravedises, o Estado recuperava-o, voltava a carimbá-lo com um novo valor, por exemplo, "quatro", e devolvia apenas um Coin ao proprietário. O Coin, marcado com o carimbo "oito", é prova deste processo, tendo sofrido vários ciclos de desvalorização.
 
 
@@ -505,41 +503,41 @@ Porque, como mostra esta [thread] (https://twitter.com/saifedean/status/16736397
 - Exemplo da Suécia que culpa a Beyoncé pela inflação durante um mês específico.
 
 
-![image](assets/fr/017.webp)
+![image](assets/fr/025.webp)
 
 
 
 - O banco central da Polónia atribui a inflação à agressão russa na Ucrânia e à pandemia
 
 
-![image](assets/fr/025.webp)
+![image](assets/fr/026.webp)
 
 
 
 - O Brexit é responsabilizado pela inflação no Reino Unido.
 
 
-![image](assets/fr/026.webp)
+![image](assets/fr/027.webp)
 
 
 
 - Lançamento do jogo Zelda associado a um choque inflacionista.
 
 
-![image](assets/fr/027.webp)
+![image](assets/fr/028.webp)
 
 
 
 - Taylor Swift está alegadamente a causar inflação.
 
 
-![image](assets/fr/028.webp)
+![image](assets/fr/029.webp)
 
 
 Diz-me, como é que a Beyoncé ou a Taylor Swift podem causar a subida generalizada dos preços? É que não faz qualquer sentido. Em suma:
 
 
-![image](assets/fr/029.webp)
+![image](assets/fr/030.webp)
 
 
 ### Exploração dos tipos de inflação
@@ -558,7 +556,7 @@ Diz-me, como é que a Beyoncé ou a Taylor Swift podem causar a subida generaliz
 - Hiperinflação: A hiperinflação é um fenómeno extremo em que a taxa de inflação excede 50% por mês, o que, devido à natureza exponencial da inflação, equivale a uma taxa de inflação anual superior a 13.000%. Este nível de inflação desestabiliza gravemente a economia, tornando a moeda quase sem valor e corroendo a confiança no sistema monetário.
 
 
-![image](assets/fr/030.webp)
+![image](assets/fr/031.webp)
 
 
 Ao explorar os tipos de inflação, é comum encontrar termos como "Demand Pull" e "Cost Push" em recursos educativos. Estes conceitos, embora válidos, tendem a explicar os aumentos de preços e não a inflação como um fenómeno monetário. Aqui está uma análise mais aprofundada:
@@ -584,7 +582,7 @@ Estas explicações tradicionais associam frequentemente os aumentos de preços 
 Bernholz propõe uma classificação simplificada mas precisa da inflação em três categorias, permitindo uma melhor compreensão deste fenómeno monetário complexo:
 
 
-![image](assets/fr/031.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -669,13 +667,13 @@ A título de exemplo, se a inflação cair para 40% em julho e não subir acima 
 Esta definição foi adoptada na tabela Hanke-Krus, que documenta 56 episódios de hiperinflação. No entanto, a tabela não cobre todos os episódios, como o da Venezuela em 2016, elevando o total para 57.
 
 
-![image](assets/fr/032.webp)
+![image](assets/fr/033.webp)
 
 
 zoom
 
 
-![image](assets/fr/033.webp)
+![image](assets/fr/034.webp)
 
 
 Note-se que esta definição, embora precisa, poderia eventualmente excluir certos episódios de hiperinflação devido ao rigor do limiar de 50%. Existe a possibilidade de alargar esta definição a outros episódios que, embora não satisfaçam rigorosamente os critérios de Cagan, representam, no entanto, períodos de inflação extremamente elevada. Esta observação abre a porta a uma exploração mais ampla dos fenómenos de hiperinflação, permitindo uma compreensão mais matizada das suas causas e efeitos. Em discussões posteriores, consideraremos a possibilidade de rever esta definição e examinar episódios de hiperinflação não abrangidos pelos critérios rigorosos de Cagan.
@@ -687,7 +685,7 @@ Note-se que esta definição, embora precisa, poderia eventualmente excluir cert
 Philip Cagan pode ter estabelecido um marco arbitrário com o limiar de 50% de inflação mensal ao definir hiperinflação. Ele próprio admite que esta definição é arbitrária e que a sua análise se baseia principalmente em sete episódios de hiperinflação. A análise dos dados de Cagan revela que os três episódios de hiperinflação com as taxas de inflação mensal mais baixas rondaram os 47%, 46% e 57%. Parece que o limiar de 50% foi escolhido para englobar estes casos no seu estudo.
 
 
-![image](assets/fr/034.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -710,7 +708,7 @@ Outros economistas, como Bernholz, autor de Monetary Regime and Inflation, tamb�
 Bernholz observa que há episódios de inflação elevada com as mesmas caraterísticas qualitativas que os episódios de hiperinflação, sem atingir o limiar de 50%.
 
 
-![image](assets/fr/035.webp)
+![image](assets/fr/036.webp)
 
 
 Esta reflexão leva-nos a questionar a rigidez da definição tradicional de hiperinflação e sublinha a necessidade de talvez rever este limiar, incorporando mais episódios e dados históricos. A definição de hiperinflação pode exigir flexibilidade para englobar várias manifestações de inflação extrema em diferentes contextos económicos e históricos.
@@ -752,13 +750,13 @@ Os preços, salários e juros são ajustados com base num índice para compensar
 A inflação acumulada em três anos aproxima-se dos 100% (cerca de 24% por ano), o que contrasta com a definição de Cagan de 50% de inflação mensal.
 
 
-![image](assets/fr/036.webp)
+![image](assets/fr/037.webp)
 
 
 De acordo com os critérios do IASB, vários países, incluindo a Argentina, a Etiópia, o Haiti, o Irão, o Líbano, o Sudão, o Sudão do Sul, o Suriname, a Síria, a Turquia, a Venezuela, o Iémen e o Zimbabué, registam atualmente uma hiperinflação.
 
 
-![image](assets/fr/037.webp)
+![image](assets/fr/038.webp)
 
 
 Esta definição dada pelo IASB afasta-se do limiar quantitativo estrito de Cagan, incorporando uma análise qualitativa dos comportamentos económicos e dos ajustamentos práticos face à hiperinflação. Demonstra que a hiperinflação é um fenómeno complexo que exige uma compreensão multidimensional para apreender as suas reais implicações, nomeadamente no domínio da contabilidade, crucial para a estabilidade e transparência financeira das empresas e dos mercados.
@@ -770,7 +768,7 @@ Esta definição dada pelo IASB afasta-se do limiar quantitativo estrito de Caga
 As definições comuns de hiperinflação, como a proposta por Cagan, que estipula uma taxa de inflação mensal de 50%, podem por vezes ser confusas ou demasiado simplistas. Por exemplo, dois países com taxas de inflação anual de 1.000% e 3.000%, respetivamente, podem ser vistos de forma diferente com base na distribuição mensal dessa inflação. Se nenhum mês exceder o limiar de 50%, de acordo com a definição de Cagan, esses países não seriam classificados como estando num estado de hiperinflação. Esta abordagem pode, portanto, conduzir a anomalias na classificação da hiperinflação, especialmente quando se comparam as inflações acumuladas ao longo do ano.
 
 
-![image](assets/fr/038.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -798,7 +796,7 @@ Neste capítulo, examinaremos os efeitos da hiperinflação, com destaque para a
 Alguns livros foram particularmente informativos:
 
 
-![image](assets/fr/039.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -806,7 +804,7 @@ Alguns livros foram particularmente informativos:
 - Dois livros sobre a hiperinflação no Zimbabué, "Zimbabwe Warm Heart Ugly Face" e "Hard Boiled Egg Index", de Jérôme Gardner e Kudzai Joseph Gou Min-Yu, respetivamente, oferecem testemunhos pungentes de um diretor executivo de uma cadeia de lojas de roupa e de um banqueiro agrícola sobre as suas experiências durante este período tumultuoso.
 
 
-![image](assets/fr/040.webp)
+![image](assets/fr/041.webp)
 
 
 Ao consolidar as minhas notas, reparei em numerosas semelhanças entre as experiências de hiperinflação no Zimbabué e na República de Weimar, apesar do intervalo de 90 anos entre elas. Identifiquei cerca de 17 semelhanças, 13 das quais ilustram uma espécie de progressão para o desastre económico descrito nestes testemunhos. Estes paralelismos fascinantes demonstram o carácter repetitivo e devastador da hiperinflação através do tempo e das fronteiras. Hoje, vamos examinar estas semelhanças e a forma como descrevem uma trajetória preocupante durante os períodos de hiperinflação.
@@ -846,7 +844,7 @@ Em determinadas circunstâncias económicas, o valor intrínseco de uma nota pod
 
 > Zimbabué: "O banco central desperdiçou dinheiro ao imprimir uma nota que não valia o papel em que foi impressa. Por outras palavras, o seu valor era inferior ao do papel higiénico. Por mais absurdo que possa parecer, era mais barato usar a nota de 100 biliões de ZWD como papel higiénico do que comprar papel higiénico verdadeiro"
 
-![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
 
 
 #### 4. Contar dinheiro
@@ -899,7 +897,7 @@ Weimar: "À medida que as velhas virtudes da parcimónia, da honestidade e do tr
 Zimbabué: "Estas práticas, ao mesmo tempo que enriqueciam alguns indivíduos, empobreciam a classe trabalhadora urbana e a população rural. A educação perdeu o seu valor, uma vez que este comércio era conduzido por pessoas que não necessitavam de educação ou de trabalho Hard para o justificar. Tudo o que precisavam era de contactos e de capital inicial para começar o seu negócio de dinheiro fácil"
 
 
-![image](assets/fr/042.webp)
+![image](assets/fr/043.webp)
 
 
 #### 8. Os "bancos do mundo"
@@ -937,7 +935,7 @@ Weimar: "Os comerciantes tinham sido recentemente obrigados, por um novo decreto
 Zimbabué: "O governo introduziu o SI 175/2008 em 12 de dezembro de 2008, relativo ao pagamento por cheques. Nele se dizia: "A sanção por recusa de pagamento por cheque/cartão bancário ou qualquer outro método de pagamento eletrónico mediado pelo banco será uma multa de nível 8 ou uma pena de prisão de seis meses ou ambas Obviamente, ignorámos a SI porque estava completamente desfasada da realidade."
 
 
-![image](assets/fr/043.webp)
+![image](assets/fr/044.webp)
 
 
 #### 11. Obrigados a manter as suas lojas abertas
@@ -976,7 +974,7 @@ A compra frenética de divisas estrangeiras marcou frequentemente um ponto de vi
 ### Resumo do processo
 
 
-![image](assets/fr/044.webp)
+![image](assets/fr/045.webp)
 
 
 Ao analisar a trajetória económica, verifica-se que, quando se atinge uma inflação elevada, o valor da massa monetária se deteriora. Esta desvalorização leva a várias complicações, incluindo a escassez de notas. Neste contexto, surgem oportunidades de arbitragem, nomeadamente em resposta às flutuações das taxas Exchange. Consequentemente, muitos indivíduos recorrem a esta arbitragem, investindo fortemente em activos tangíveis na expetativa de uma futura desvalorização da moeda que lhes permita pagar as suas dívidas com uma moeda enfraquecida. Esta conjuntura económica enfraquece a atração pelos empregos tradicionais e, consequentemente, corrói a coesão social.
@@ -988,7 +986,7 @@ Em resposta a esta situação, o governo impõe regulamentações draconianas, i
 ### 4 Semelhanças nas consequências da hiperinflação
 
 
-![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 
 #### 1. Petróleo e metais
@@ -1059,7 +1057,7 @@ Neste capítulo, exploraremos as diferenças e os paralelos contemporâneos entr
 Na Alemanha, era comum a população atribuir a inflação à subida do dólar e não à desvalorização intrínseca da sua própria moeda. Muitos acreditavam que o fenómeno observado se devia a uma valorização do dólar. Esta perceção afastava qualquer reconhecimento da relação entre as suas dificuldades económicas e a desvalorização monetária, induzida sobretudo pela criação excessiva de moeda. O livro "When Money Dies" ilustra bem esta falta de compreensão da população alemã. Em contrapartida, no Zimbabué, a situação era diferente: os cidadãos estavam plenamente conscientes da causa subjacente à hiperinflação que estavam a viver.
 
 
-![image](assets/fr/046.webp)
+![image](assets/fr/047.webp)
 
 
 #### 2. Dinheiro de emergência (Notgeld)
@@ -1080,7 +1078,7 @@ Entre as Notgeld, destaca-se uma nota em particular. Apresenta uma ilustração 
 O artista por detrás desta Notgeld parece estar a fazer uma crítica irónica às autoridades responsáveis pela crise da hiperinflação. A nota ostenta a inscrição "A necessidade não conhece lei". Outra expressão específica da localidade de origem do Notgeld é: "O que tem de ser feito, tem de ser feito"
 
 
-![image](assets/fr/047.webp)
+![image](assets/fr/049.webp)
 
 
 > "A necessidade não conhece lei"
@@ -1100,7 +1098,7 @@ Em Weimar, algumas dívidas foram reavaliadas para compensar o impacto da infla�
 Para saber mais sobre a gestão da crise alemã, este livro é igualmente essencial.
 
 
-![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 
 ### Paralelos contemporâneos
@@ -1160,7 +1158,7 @@ Uma empresa "zombie" é uma empresa que, em condições normais de mercado, esta
 A noção de empresas "zombie" não é nova. De facto, existia durante a República de Weimar. Nessa altura, muitas empresas pareciam estar a florescer, beneficiando em grande medida do acesso ao crédito gratuito. Pediam emprestados montantes substanciais na expetativa de os reembolsar mais tarde com uma moeda desvalorizada devido à inflação galopante. No entanto, quando a inflação cessou e o marco alemão recuperou o seu valor, estas empresas, que não eram verdadeiramente viáveis do ponto de vista operacional ou financeiro, tornaram-se não rentáveis e tiveram de encerrar as suas actividades.
 
 
-![image](assets/fr/050.webp)
+![image](assets/fr/051.webp)
 
 
 O fenómeno das empresas "zombie" não se limita à Alemanha do pós-guerra. Ainda hoje, muitas grandes empresas continuam a prosperar devido ao seu acesso privilegiado ao crédito a taxas de juro extremamente baixas. Se tivessem de contrair empréstimos a taxas mais convencionais, muitas delas deixariam de ser rentáveis. Este facto é particularmente relevante em 2023, após um período prolongado de taxas de juro próximas de zero, uma vez que as taxas começaram agora a subir. Esta recente mudança no panorama financeiro será, sem dúvida, um teste decisivo para estas empresas, outrora rotuladas de "zombies"
@@ -1172,7 +1170,7 @@ O fenómeno das empresas "zombie" não se limita à Alemanha do pós-guerra. Ain
 A história revela casos em que os indivíduos procuraram acumular riqueza rapidamente, como foi o caso em Weimar e no Zimbabué, através da arbitragem. Atualmente, observa-se uma tendência semelhante com a ascensão de certas criptomoedas. As pessoas são tentadas por ganhos rápidos, assumindo riscos na esperança de um aumento exponencial do seu investimento. Esta abordagem faz lembrar a dos períodos de hiperinflação, em que a arbitragem era utilizada para obter lucros rápidos, muitas vezes à custa de terceiros.
 
 
-![image](assets/fr/051.webp)
+![image](assets/fr/052.webp)
 
 
 #### 7. A poupança, o remédio contra a incerteza
@@ -1205,7 +1203,7 @@ Passamos agora a analisar os diferentes períodos de redenominação nos países
 No diapositivo, à esquerda, encontram-se os anos de redenominação, o nome da nova moeda e a taxa Exchange em relação à moeda antiga. Tomando o exemplo da Argentina, o peso moneda nacional foi convertido a uma taxa de 25 para 1 em relação à moeda anterior, o peso reàl. Neste contexto, examinaremos a evolução da moeda argentina ao longo do tempo. Além disso, indicaremos as denominações iniciais e finais das notas para cada período.
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 
 No lado direito do diapositivo, é apresentado um gráfico da inflação. As setas vermelhas representam anos de hiperinflação, tal como definido pelo critério de Cagan, que é uma taxa de inflação de 50% por mês. Este critério pode, por vezes, levar a interpretações ambíguas, uma vez que os anos com taxas de inflação elevadas podem não corresponder à definição estrita de hiperinflação.
@@ -1218,7 +1216,7 @@ Depois da Argentina, o nosso estudo abrangerá o Brasil, a Bolívia, o Peru, a N
 ### Argentina
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/054.webp)
 
 
 Antes de 1826, a Argentina utilizava o dólar espanhol. Após a sua independência em 1816, introduziu a sua própria moeda com base no reàl espanhol, o que resultou na criação de uma moeda semelhante. A tabela começa em 1881, ano da introdução do "peso moneda nacional", com notas disponíveis até 10.000. Seguiu-se o "peso ley", que era trocado a uma taxa de 100 para 1 e tinha notas até um milhão. Depois, surgiu o "peso argentino", com uma taxa Exchange de 10.000 para 1 (equivalente à remoção de quatro zeros) e notas até 10.000. Em 1985, foi introduzido o "australes", trocado a uma taxa de 1.000 para 1, com notas disponíveis até 500.000. Em 1992, o atual "peso ley" foi estabelecido a uma taxa de 10.000 para 1, eliminando mais uma vez quatro zeros. Apenas os anos de 1989 e 1990 registaram hiperinflação.
@@ -1227,7 +1225,7 @@ Antes de 1826, a Argentina utilizava o dólar espanhol. Após a sua independênc
 ### Brasil
 
 
-![image](assets/fr/053.webp)
+![image](assets/fr/055.webp)
 
 
 O Brasil é um exemplo notável de redenominação monetária, tal como ilustrado pelo seu historial de mudanças de moeda. Antes da sua independência, o Brasil utilizava o reàl português como moeda. No entanto, já em 1747, o país começou a utilizar o seu próprio "real brasileiro", muito antes da sua declaração de independência em 1822. A tabela começa em 1818, marcando o início da emissão de notas brasileiras. Anteriormente, a moeda era principalmente em forma de moedas. Essas notas atingiam valores de até um milhão de reais.
@@ -1252,7 +1250,7 @@ A nota de maior valor facial atingiu 500.000 e a última redenominação em 1994
 ### Bolívia
 
 
-![image](assets/fr/054.webp)
+![image](assets/fr/056.webp)
 
 
 A Bolívia é outro exemplo de um país que registou períodos de inflação aguda, que obrigaram a redenominações da moeda. Eis um resumo da sua história monetária:
@@ -1275,7 +1273,7 @@ Esta é uma visão geral da tumultuosa história monetária da Bolívia, marcada
 ### Peru
 
 
-![image](assets/fr/055.webp)
+![image](assets/fr/057.webp)
 
 
 O Peru apresenta um caso interessante no que respeita aos efeitos da regra arbitrária dos 50%. Começando pela sua história monetária, o Peru utilizou ouro espanhol até ao século XIX, altura em que declarou a sua independência em 1821. O dólar peruano foi utilizado de 1822 a 1863. Em 1863, o reàl peruano foi substituído pelo soldi oro, a uma taxa de 10 para 1, atingindo um valor máximo de 50.000. Em 1985, foi introduzida a moeda "Inti", com uma taxa de conversão de 1000 para 1, atingindo o valor máximo de 5 milhões. Em 1991, foi lançado o "SOL", com uma taxa de conversão de 1 milhão para 1, com notas de 10 a 200.
@@ -1291,7 +1289,7 @@ Se analisarmos os períodos de redenominação, 1988 é considerado um ano de hi
 ### Nicarágua
 
 
-![image](assets/fr/056.webp)
+![image](assets/fr/058.webp)
 
 A Nicarágua, anteriormente sob o domínio espanhol, utilizou inicialmente o dólar espanhol, tal como muitos outros países colonizados por Espanha. Depois de ter sido integrada no Império Espanhol, no Império Mexicano e depois na República Federal da América Central, a Nicarágua declarou a sua independência. A partir de 1878, o peso passou a ser a moeda oficial do país, com valores que oscilavam entre 1 e 100. Em 1912, o país introduziu o primeiro Córdoba, seguido do segundo em 1988 e do terceiro em 1991, que ainda é utilizado atualmente. A primeira Córdoba atingiu o valor de 1 milhão e a segunda 10 milhões. A redenominação em 1991 seguiu-se a vários anos de hiperinflação.
 
@@ -1299,7 +1297,7 @@ A Nicarágua, anteriormente sob o domínio espanhol, utilizou inicialmente o dó
 ### Venezuela
 
 
-![image](assets/fr/057.webp)
+![image](assets/fr/059.webp)
 
 
 A Venezuela é o último país mencionado neste vídeo. O país passou por quatro redenominações de moeda ao longo do tempo. Nos seus primórdios, a Venezuela utilizou o dólar espanhol antes de declarar a sua independência em 1811. Em 1879, introduziu o bolívar como moeda oficial, que permaneceu em vigor até 1983, altura em que o governo optou por um sistema de taxa flutuante Exchange utilizando o dólar.
@@ -1308,16 +1306,16 @@ A Venezuela é o último país mencionado neste vídeo. O país passou por quatr
 Um facto notável sobre a Venezuela é a sua pertença à União Monetária Latina. Esta união incluía moedas como as 5 pesetas de Espanha, as 5 dracmas da Grécia, os 5 bolívares da Venezuela, as 5 liras de Itália, os 5 francos belgas e os 5 francos franceses.
 
 
-![image](assets/fr/058.webp)
-
-
-![image](assets/fr/059.webp)
-
-
 ![image](assets/fr/060.webp)
 
 
 ![image](assets/fr/061.webp)
+
+
+![image](assets/fr/062.webp)
+
+
+![image](assets/fr/063.webp)
 
 
 Durante este período, os 5 bolívares Coin da Venezuela tinham o mesmo peso que os dos países membros da União, incluindo Itália, Espanha, Bélgica e França. Estes bolívares eram feitos de prata, com um Coin específico de 1929 a pesar 25 gramas e a ter uma pureza de 900, ou seja, 90% de prata pura. Com o preço atual da prata, este Coin vale aproximadamente 17 a 18 dólares americanos.
@@ -1380,7 +1378,7 @@ Um aspeto interessante levantado por Bernholz é o facto de o êxito de uma refo
 ### O caso do Zimbabué
 
 
-![image](assets/fr/062.webp)
+![image](assets/fr/064.webp)
 
 
 O Zimbabué tornou-se independente em 1980 e introduziu a sua própria moeda, o dólar zimbabueano. Inicialmente, dois dólares zimbabueanos valiam cerca de 1,60 dólares americanos. No entanto, em 1997, na sequência de medidas sociais a favor dos veteranos de guerra, a moeda desvalorizou 72% num só dia, durante a Black Friday. Depois, no início da década de 2000, o país lançou um programa de redistribuição de terras, que consistia em retirar terras aos proprietários brancos e distribuí-las pela população local. Esta decisão prejudicou as exportações, porque os novos proprietários careciam frequentemente dos conhecimentos necessários para gerir explorações agrícolas de grande dimensão. Consequentemente, enquanto o Zimbabué era um exportador líquido em 1999, tornou-se um importador líquido em 2003.
@@ -1389,7 +1387,7 @@ O Zimbabué tornou-se independente em 1980 e introduziu a sua própria moeda, o 
 Em 2006, o país introduziu uma nova versão da sua moeda, a ZWN, com uma taxa Exchange de 1 para 1.000. Em 2008, foi introduzida outra denominação, a ZWR, com uma taxa Exchange de 1 para 10 mil milhões. Isto levou à criação das icónicas notas de 100 biliões.
 
 
-![image](assets/fr/063.webp)
+![image](assets/fr/065.webp)
 
 
 #### Dolarização e resolução de crises
@@ -1412,13 +1410,13 @@ Em 2007, a taxa de inflação do Zimbabué atingiu o limiar de 50% por mês, mar
 No meu livro intitulado "Everything About Bitcoin", dediquei um capítulo inteiro à hiperinflação no Zimbabué. Detalho os acontecimentos significativos, fornecendo vários exemplos que ilustram a forma como o país acabou por pôr fim à hiperinflação.
 
 
-![image](assets/fr/064.webp)
+![image](assets/fr/066.webp)
 
 
 Para os curiosos sobre a experiência alemã após a Primeira Guerra Mundial, recomendo vivamente a banda desenhada "The Reich's Banker" Narra como a Alemanha conseguiu ultrapassar a hiperinflação, nomeadamente através da criação do Rentenmark.
 
 
-![image](assets/fr/065.webp)
+![image](assets/fr/067.webp)
 
 
 A principal conclusão a retirar é que existem várias estratégias para ultrapassar a hiperinflação. Pode optar-se pela dolarização ou pela introdução de uma nova moeda. Estas soluções só funcionarão se a população tiver confiança nelas. É fundamental impor restrições rigorosas. É indispensável um banco central verdadeiramente independente. Não deve inflacionar a moeda Supply para cobrir os défices públicos. No caso de uma inflação moderada, é suficiente limitar o crescimento da moeda. No entanto, quando se está perante uma hiperinflação, é crucial, em primeiro lugar, ter uma massa monetária adequada em relação à dimensão da economia. Em seguida, é imperativo impor restrições rigorosas ao governo para estabilizar a situação.
@@ -1433,7 +1431,7 @@ A principal conclusão a retirar é que existem várias estratégias para ultrap
 [Descubra a coleção digitalizada no *Bitcoin Educational Toolkit* (também acessível na secção *Resources* da plataforma Plan ₿ Network) (https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
-![image](assets/fr/072.webp)
+![image](assets/fr/068.webp)
 
 # Como é que chegámos aqui?
 
@@ -1453,7 +1451,7 @@ Transcrição:
 O aparecimento do segundo Layer da moeda e dos primeiros bancos centrais é um tema fascinante. Este tema é amplamente discutido no livro "Layered Money" de Nick Battia. Recomendo-o vivamente aos interessados na evolução e nos meandros dos nossos sistemas monetários. O objetivo desta secção é compreender a origem da criação de moeda e a forma como esta pode conduzir à hiperinflação.
 
 
-![image](assets/fr/066.webp)
+![image](assets/fr/069.webp)
 
 
 ### Dinheiro de pirâmide e bancos centrais
@@ -1465,10 +1463,10 @@ O aparecimento do segundo Layer da moeda e dos primeiros bancos centrais é um t
 A história do dinheiro remonta ao século XIII, em Itália, mais concretamente na cidade de Florença. Nessa altura, eram comuns o florim e as notas de Exchange. Um exemplo notável é o florim, adornado com a figura de São João Batista.
 
 
-![image](assets/fr/067.webp)
+![image](assets/fr/070.webp)
 
 
-![image](assets/fr/068.webp)
+![image](assets/fr/071.webp)
 
 
 Embora possuir um florim genuíno seja atualmente caro, existem reproduções disponíveis. Existem também outras moedas da época, como o soldo dos Estados italianos do século XVII, que apresenta uma imagem de Cristo.
@@ -1494,7 +1492,7 @@ Este conceito, embora associado a Nick Bell através do seu pseudónimo no Twitt
 #### O VOC e a Bolsa de Amesterdão (século XVII)
 
 
-![image](assets/fr/069.webp)
+![image](assets/fr/072.webp)
 
 
 Após a criação da Bolsa de Valores de Antuérpia (Exchange), um marco importante foi a fundação da VOC, a Companhia Holandesa das Índias Orientais. Esta empresa, sediada nos Países Baixos, chegou mesmo a emitir a sua própria moeda. Após a criação da VOC, foi criada a primeira bolsa de valores em Amesterdão, marcando o início das operações bolsistas da companhia. O que é interessante notar é como os holandeses conseguiram acabar com a supremacia de Antuérpia como centro económico internacional. Limitaram-se a bloquear o acesso ao rio Escalda. Esta estratégia insere-se num movimento histórico mais vasto, a revolta dos mendigos. Um acontecimento crucial na história europeia.
@@ -1503,7 +1501,7 @@ Após a criação da Bolsa de Valores de Antuérpia (Exchange), um marco importa
 #### A intervenção do Banco de Amesterdão
 
 
-![image](assets/fr/070.webp)
+![image](assets/fr/073.webp)
 
 
 Após a criação do VOC, outro desenvolvimento significativo na história monetária foi a introdução de moedas de ouro pelo Banco de Amesterdão. Estas moedas, que datam de 1722, eram feitas de prata. No entanto, o que verdadeiramente revolucionou as finanças nessa altura não foi tanto o Coin em si, mas as contas associadas a esta moeda no Banco de Amesterdão. Estas contas tornaram-se o principal meio de transação internacional do Exchange. As transacções eram simplesmente registadas em livros de registo ou de contabilidade. Graças a este sistema, Amesterdão tornou-se o centro económico mundial. Com o tempo, o Banco de Amesterdão decidiu impor a utilização destas contas. Os cambistas independentes eram obrigados a Exchange depositar diariamente as suas moedas no banco.
@@ -1520,7 +1518,7 @@ Inicialmente, a primeira Layer da moeda era representada pelo ouro. Os depósito
 #### O Pânico de 1796
 
 
-![image](assets/fr/071.webp)
+![image](assets/fr/074.webp)
 
 Pânico bancário no Seamen's Savings Bank durante o Pânico de 1857.
 

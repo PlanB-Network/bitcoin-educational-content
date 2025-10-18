@@ -182,8 +182,6 @@ Maravedi jako měděná měna zaujímá v historii španělské měny zvláštn�
 Devalvace měny je nástroj, který státy často používají k financování svých výdajů nebo ke stimulaci ekonomiky. Španělsko se však ocitlo ve svízelné situaci. Oslabení španělského dolaru by ohrozilo jeho postavení v mezinárodním obchodě. Aby toto dilema překonalo, obrátilo se Španělsko na maravedi.
 
 
-![image](assets/chapitre-2.1/6.webp)
-
 Na rozdíl od drahého španělského stříbrného dolaru bylo maravedi měděnou měnou používanou především mezi místním obyvatelstvem. Tato měna byla cílem devalvace. Když měl maravedi Coin původně hodnotu dvou maravedi, stát jej odebíral, znovu razítkoval novou hodnotou, například "čtyři", a majiteli vracel pouze jeden maravedi Coin. Dokladem tohoto procesu je Coin označená razítkem "osm", která prošla několika cykly devalvace.
 
 
@@ -505,41 +503,41 @@ Protože, jak ukazuje toto [vlákno](https://twitter.com/saifedean/status/167363
 - Příklad Švédska, které obviňuje Beyoncé z inflace v určitém měsíci.
 
 
-![image](assets/fr/017.webp)
+![image](assets/fr/025.webp)
 
 
 
 - Centrální banka v Polsku přičítá inflaci ruské agresi na Ukrajině a pandemii
 
 
-![image](assets/fr/025.webp)
+![image](assets/fr/026.webp)
 
 
 
 - Za inflaci ve Spojeném království může brexit.
 
 
-![image](assets/fr/026.webp)
+![image](assets/fr/027.webp)
 
 
 
 - Vydání hry Zelda spojené s inflačním šokem.
 
 
-![image](assets/fr/027.webp)
+![image](assets/fr/028.webp)
 
 
 
 - Taylor Swift údajně způsobuje inflaci.
 
 
-![image](assets/fr/028.webp)
+![image](assets/fr/029.webp)
 
 
 Řekněte mi, jak mohla Beyoncé nebo Taylor Swift způsobit tak rozsáhlý nárůst cen? Víte, nedává to žádný smysl. Stručně řečeno:
 
 
-![image](assets/fr/029.webp)
+![image](assets/fr/030.webp)
 
 
 ### Zkoumání typů inflace
@@ -558,7 +556,7 @@ Zásadní je pochopit rozdíl mezi různými typy inflace, což nám umožní po
 - Hyperinflace: Hyperinflace je extrémní jev, kdy míra inflace přesahuje 50 % měsíčně, což vzhledem k exponenciálnímu charakteru inflace odpovídá roční míře inflace přesahující 13 000 %. Tato úroveň inflace vážně destabilizuje ekonomiku, činí měnu téměř bezcennou a podkopává důvěru v měnový systém.
 
 
-![image](assets/fr/030.webp)
+![image](assets/fr/031.webp)
 
 
 Při zkoumání typů inflace se ve vzdělávacích zdrojích běžně setkáváme s pojmy jako "Demand Pull" a "Cost Push". Tyto pojmy jsou sice platné, ale spíše vysvětlují růst cen než inflaci jako měnový jev. Zde je podrobnější analýza:
@@ -584,7 +582,7 @@ Tato tradiční vysvětlení často spojují růst cen s inflací, což může v
 Bernholz navrhuje zjednodušenou, ale přesnou klasifikaci inflace do tří kategorií, což umožňuje lépe pochopit tento složitý měnový jev:
 
 
-![image](assets/fr/031.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -669,13 +667,13 @@ Pro ilustraci, pokud inflace v červenci klesne na 40 % a nad 50 % se zvýší a
 Tato definice byla převzata do Hanke-Krusovy tabulky, která dokumentuje 56 případů hyperinflace. Tabulka však nezahrnuje všechny epizody, jako například tu ve Venezuele v roce 2016, čímž se celkový počet zvýšil na 57.
 
 
-![image](assets/fr/032.webp)
+![image](assets/fr/033.webp)
 
 
 zoom
 
 
-![image](assets/fr/033.webp)
+![image](assets/fr/034.webp)
 
 
 Je třeba poznamenat, že tato definice, ačkoli je přesná, by mohla vyloučit některé epizody hyperinflace vzhledem k přísnosti 50% hranice. Existuje možnost rozšířit tuto definici o další epizody, které sice striktně nesplňují Caganova kritéria, nicméně představují období extrémně vysoké inflace. Toto pozorování otevírá dveře k širšímu zkoumání fenoménu hyperinflace, což umožňuje diferencovanější pochopení jejích příčin a důsledků. V následujících diskusích zvážíme, zda se k této definici vrátit a prozkoumat epizody hyperinflace, na které se nevztahují Caganova přísná kritéria.
@@ -687,7 +685,7 @@ Je třeba poznamenat, že tato definice, ačkoli je přesná, by mohla vyloučit
 Philip Cagan možná stanovil při definování hyperinflace hranici 50 % měsíční inflace jako svévolný mezník. Sám přiznává, že tato definice je arbitrární a slouží především jeho analýze založené na sedmi epizodách hyperinflace. Zkoumání Caganových údajů ukazuje, že tři epizody hyperinflace s nejnižší měsíční mírou inflace se pohybovaly kolem 47 %, 46 % a 57 %. Zdá se, že hranice 50 % byla zvolena tak, aby tyto případy zahrnula do jeho studie.
 
 
-![image](assets/fr/034.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -710,7 +708,7 @@ Také další ekonomové, jako například Bernholz, autor knihy Monetary Regime
 Bernholz poznamenává, že existují epizody vysoké inflace se stejnými kvalitativními charakteristikami jako epizody hyperinflace, aniž by dosáhly 50% hranice.
 
 
-![image](assets/fr/035.webp)
+![image](assets/fr/036.webp)
 
 
 Tato úvaha nás vede ke zpochybnění rigidnosti tradiční definice hyperinflace a zdůrazňuje potřebu možná přehodnotit tuto hranici zahrnutím více epizod a historických dat. Definice hyperinflace může vyžadovat flexibilitu, aby zahrnovala různé projevy extrémní inflace v různých ekonomických a historických kontextech.
@@ -752,13 +750,13 @@ Ceny, mzdy a úroky se upravují na základě indexu, který kompenzuje inflaci.
 Kumulativní inflace za tři roky se blíží 100 % (zhruba 24 % ročně), což kontrastuje s Caganovou definicí 50 % měsíční inflace.
 
 
-![image](assets/fr/036.webp)
+![image](assets/fr/037.webp)
 
 
 Podle kritérií IASB zažívá v současné době hyperinflaci několik zemí, včetně Argentiny, Etiopie, Haiti, Íránu, Libanonu, Súdánu, Jižního Súdánu, Surinamu, Sýrie, Turecka, Venezuely, Jemenu a Zimbabwe.
 
 
-![image](assets/fr/037.webp)
+![image](assets/fr/038.webp)
 
 
 Tato definice předložená IASB se odklání od Caganova přísného kvantitativního prahu a zahrnuje kvalitativní analýzu ekonomického chování a praktických úprav tváří v tvář hyperinflaci. Ukazuje, že hyperinflace je komplexní jev, který vyžaduje vícerozměrné chápání, aby bylo možné pochopit jeho skutečné důsledky, zejména v oblasti účetnictví, které má zásadní význam pro stabilitu a finanční transparentnost podniků a trhů.
@@ -770,7 +768,7 @@ Tato definice předložená IASB se odklání od Caganova přísného kvantitati
 Běžné definice hyperinflace, jako je ta, kterou navrhl Cagan a která stanovuje měsíční míru inflace ve výši 50 %, mohou být někdy matoucí nebo příliš zjednodušující. Například dvě země s roční mírou inflace 1 000 % a 3 000 % mohou být vnímány odlišně na základě měsíčního rozložení této inflace. Pokud žádný měsíc nepřekročí 50% hranici, nebudou tyto země podle Caganovy definice klasifikovány jako země ve stavu hyperinflace. Tento přístup tak může vést k anomáliím při klasifikaci hyperinflace, zejména při porovnávání kumulativní inflace v průběhu roku.
 
 
-![image](assets/fr/038.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -798,7 +796,7 @@ V této kapitole se budeme zabývat důsledky hyperinflace se zaměřením na zk
 Několik knih bylo obzvláště poučných:
 
 
-![image](assets/fr/039.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -806,7 +804,7 @@ Několik knih bylo obzvláště poučných:
 - Dvě knihy o hyperinflaci v Zimbabwe, "Zimbabwe Warm Heart Ugly Face" a "Hard Boiled Egg Index" od Jérôma Gardnera a Kudzai Josepha Gou Min-Yu, přinášejí dojemná svědectví generálního ředitele sítě obchodů s oblečením a zemědělského bankéře o jejich zkušenostech z tohoto bouřlivého období.
 
 
-![image](assets/fr/040.webp)
+![image](assets/fr/041.webp)
 
 
 Při konsolidaci svých poznámek jsem si všiml mnoha podobností mezi zkušenostmi s hyperinflací v Zimbabwe a Výmarské republice, přestože je dělí 90 let. Identifikoval jsem asi 17 podobností, přičemž 13 z nich ilustruje jakýsi vývoj směrem k ekonomické katastrofě, která je v těchto svědectvích zobrazena. Tyto fascinující paralely ukazují opakující se a ničivou povahu hyperinflace napříč časem a hranicemi. Dnes se budeme zabývat těmito podobnostmi a tím, jak zobrazují znepokojivou trajektorii v období hyperinflace.
@@ -846,7 +844,7 @@ Za určitých ekonomických okolností může být vnitřní hodnota bankovky ni
 
 > Zimbabwe: "Centrální banka plýtvala penězi tím, že vytiskla bankovku, která neměla hodnotu papíru, na němž byla vytištěna. Jinými slovy, její hodnota byla nižší než hodnota toaletního papíru. Ačkoli to může znít absurdně, bylo levnější použít bankovku v hodnotě 100 bilionů ZWD jako toaletní papír než koupit skutečný toaletní papír."
 
-![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
 
 
 #### 4. Počítání peněz
@@ -899,7 +897,7 @@ Výmar: "Protože staré ctnosti jako spořivost, poctivost a práce ztratily sv
 Zimbabwe: "Tyto praktiky sice obohatily několik jednotlivců, ale ochudily městskou dělnickou třídu a venkovské obyvatelstvo. Vzdělání ztratilo svou hodnotu, protože tímto obchodem se zabývali lidé, kteří k jeho ospravedlnění nepotřebovali vzdělání ani práci Hard . Stačily jim konexe a počáteční kapitál, aby mohli začít podnikat za snadné peníze."
 
 
-![image](assets/fr/042.webp)
+![image](assets/fr/043.webp)
 
 
 #### 8. "Banky světa"
@@ -937,7 +935,7 @@ Výmar: "Obchodníci byli nedávno novým výnosem donuceni přijímat státní 
 Zimbabwe: "Vláda zavedla dne 12. prosince 2008 normu SI 175/2008 týkající se plateb šekem. V něm se uvádí: "Sankcí za odmítnutí platby šekem/bankovní kartou nebo jakoukoli jinou elektronickou platební metodou zprostředkovanou bankou je pokuta 8. stupně nebo trest odnětí svobody v délce šesti měsíců nebo obojí." SI jsme samozřejmě ignorovali, protože byl zcela mimo realitu."
 
 
-![image](assets/fr/043.webp)
+![image](assets/fr/044.webp)
 
 
 #### 11. Nuceni nechat své obchody otevřené
@@ -976,7 +974,7 @@ Zběsilý nákup zahraničních měn často znamenal kritický bod obratu v deva
 ### Shrnutí procesu
 
 
-![image](assets/fr/044.webp)
+![image](assets/fr/045.webp)
 
 
 Při analýze ekonomické trajektorie je zřejmé, že při dosažení vysoké inflace se hodnota peněžní masy zhoršuje. Toto znehodnocení vede k řadě komplikací, včetně nedostatku bankovek. V této souvislosti vznikají arbitrážní příležitosti, zejména v reakci na výkyvy sazeb Exchange. V důsledku toho se k této arbitráži obrací mnoho jednotlivců, kteří ve velkém investují do hmotných aktiv v očekávání budoucí devalvace měny, která by jim umožnila splácet dluhy oslabenou měnou. Toto ekonomické prostředí podkopává atraktivitu tradičních pracovních míst a v důsledku toho narušuje sociální soudržnost.
@@ -988,7 +986,7 @@ V reakci na tuto situaci vláda zavádí drakonické regulace, včetně kontroly
 ### 4 Podobnosti v důsledcích hyperinflace
 
 
-![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 
 #### 1. Ropa a kovy
@@ -1059,7 +1057,7 @@ V této kapitole se budeme zabývat rozdíly a současnými paralelami mezi minu
 V Německu bylo běžné, že obyvatelstvo přisuzovalo inflaci spíše růstu kurzu dolaru než vlastnímu znehodnocení vlastní měny. Mnozí se domnívali, že pozorovaný jev byl způsoben zhodnocením dolaru. Toto vnímání odmítalo jakékoli uznání souvislosti mezi jejich hospodářskými potížemi a znehodnocením měny, vyvolaným především nadměrnou tvorbou peněz. Kniha "Když peníze umírají" jasně ilustruje toto nepochopení mezi německým obyvatelstvem. Naproti tomu v Zimbabwe byla situace jiná: občané si plně uvědomovali základní příčinu hyperinflace, kterou zažívali.
 
 
-![image](assets/fr/046.webp)
+![image](assets/fr/047.webp)
 
 
 #### 2. Nouzové peníze (Notgeld)
@@ -1080,7 +1078,7 @@ Mezi bankovkami Notgeld vyniká jedna konkrétní. Je na ní dojemná ilustrace:
 Zdá se, že autor tohoto Notgeldu ironicky kritizuje úřady odpovědné za hyperinflační krizi. Bankovka nese nápis "Nutnost nezná zákon". Další výraz specifický pro lokalitu vzniku notgeldu zní: "Co se musí udělat, to se musí udělat."
 
 
-![image](assets/fr/047.webp)
+![image](assets/fr/049.webp)
 
 
 > "nutnost nezná zákon"
@@ -1100,7 +1098,7 @@ Ve Výmaru byly některé dluhy přeceněny, aby se kompenzoval dopad inflace. T
 Chcete-li se dozvědět více o zvládání německé krize, je tato kniha rovněž nezbytná.
 
 
-![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 
 ### Současné paralely
@@ -1160,7 +1158,7 @@ Zombie společnost je podnik, který by za normálních tržních podmínek byl 
 Pojem zombie společnosti není nový. Ve skutečnosti existoval již za Výmarské republiky. V té době se zdálo, že mnoho podniků prosperuje a do značné míry těží z přístupu k volným úvěrům. Půjčovaly si značné částky s očekáváním, že je později splatí znehodnocenou měnou v důsledku zběsilé inflace. Když však inflace ustala a německá marka znovu získala hodnotu, staly se tyto podniky, které nebyly skutečně provozně ani finančně životaschopné, ztrátovými a musely ukončit činnost.
 
 
-![image](assets/fr/050.webp)
+![image](assets/fr/051.webp)
 
 
 Fenomén zombie společností se neomezuje pouze na poválečné Německo. I v současnosti mnoho velkých podniků nadále prosperuje díky svému privilegovanému přístupu k úvěrům za extrémně nízké úrokové sazby. Kdyby si musely půjčovat za běžnější sazby, mnohé z nich by přestaly být ziskové. To je zvláště důležité v roce 2023, po dlouhém období téměř nulových úrokových sazeb, protože sazby nyní začaly růst. Tento nedávný posun ve finančním prostředí bude pro tyto společnosti, kdysi označované za "zombie", nepochybně rozhodující zkouškou
@@ -1172,7 +1170,7 @@ Fenomén zombie společností se neomezuje pouze na poválečné Německo. I v s
 Historie zná případy, kdy se jednotlivci snažili rychle nahromadit bohatství, jako tomu bylo ve Výmaru a Zimbabwe prostřednictvím arbitráže. Dnes lze podobný trend pozorovat při vzestupu některých kryptoměn. Lidé se nechávají zlákat rychlým ziskem a podstupují riziko v naději na exponenciální nárůst své investice. Tento přístup připomíná přístup pozorovaný v obdobích hyperinflace, kdy se k získání rychlých zisků využívala arbitráž, často na úkor ostatních.
 
 
-![image](assets/fr/051.webp)
+![image](assets/fr/052.webp)
 
 
 #### 7. Úspory, prostředek proti nejistotě
@@ -1205,7 +1203,7 @@ Nyní se podíváme na různá období redenominace v zemích Latinské Ameriky.
 Na snímku vlevo jsou roky redenominace, název nové měny a kurz Exchange vůči staré měně. Na příkladu Argentiny bylo peso moneda nacional přepočteno kurzem 25:1 z předchozí měny peso reàl. V této souvislosti budeme zkoumat vývoj argentinské měny v čase. Kromě toho uvedeme počáteční a konečné nominální hodnoty bankovek v jednotlivých obdobích.
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 
 Na pravé straně snímku je zobrazen graf inflace. Červené šipky znázorňují roky hyperinflace, jak je definována podle Caganova kritéria, což je míra inflace 50 % měsíčně. Toto kritérium může někdy vést k nejednoznačnému výkladu, protože roky s vysokou mírou inflace nemusí splňovat striktní definici hyperinflace.
@@ -1218,7 +1216,7 @@ Po Argentině se naše studie bude týkat Brazílie, Bolívie, Peru, Nikaraguy a
 ### Argentina
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/054.webp)
 
 
 Před rokem 1826 používala Argentina španělský dolar. Po získání nezávislosti v roce 1816 zavedla vlastní měnu založenou na španělském reálu, což vedlo k vytvoření podobné měny. Tabulka začíná rokem 1881, kdy bylo zavedeno "peso moneda nacional" s bankovkami v hodnotě do 10 000 EUR. Následovalo "peso ley", které se směňovalo v kurzu 100:1 a obsahovalo bankovky až do výše jednoho milionu. Poté se objevilo "argentinské peso" s kurzem 10 000 ku 1 (což odpovídá odstranění čtyř nul) a bankovkami do 10 000. V roce 2006 se objevilo "argentinské peso" s kurzem 10 000 ku 1 (což odpovídá odstranění čtyř nul). V roce 1985 byly zavedeny "australes", které se směňovaly v kurzu 1 000 ku 1 a byly k dispozici bankovky do 500 000 kusů. V roce 1992 bylo zavedeno současné "peso ley" v kurzu 10 000 ku 1, přičemž byly opět odstraněny čtyři nuly. Pouze v letech 1989 a 1990 došlo k hyperinflaci.
@@ -1227,7 +1225,7 @@ Před rokem 1826 používala Argentina španělský dolar. Po získání nezávi
 ### Brazílie
 
 
-![image](assets/fr/053.webp)
+![image](assets/fr/055.webp)
 
 
 Brazílie je pozoruhodným příkladem měnové redenominace, což dokládá historie změn měny. Před získáním nezávislosti používala Brazílie jako svou měnu portugalský reál. Již v roce 1747 však země začala používat vlastní "brazilský reàl", a to dlouho před vyhlášením nezávislosti v roce 1822. Tabulka začíná rokem 1818, který označuje počátek vydávání brazilských bankovek. Předtím měla měna především podobu mincí. Tyto bankovky dosahovaly hodnoty až jednoho milionu reálů.
@@ -1252,7 +1250,7 @@ Nejvyšší nominální hodnota bankovky dosáhla 500 000 a poslední redenomina
 ### Bolívie
 
 
-![image](assets/fr/054.webp)
+![image](assets/fr/056.webp)
 
 
 Bolívie je dalším příkladem země, která zažila období akutní inflace, jež si vyžádala redenominaci měny. Zde je shrnutí její měnové historie:
@@ -1275,7 +1273,7 @@ To je přehled bouřlivé měnové historie Bolívie, která se vyznačovala obd
 ### Peru
 
 
-![image](assets/fr/055.webp)
+![image](assets/fr/057.webp)
 
 
 Peru představuje zajímavý případ, pokud jde o účinky svévolného pravidla 50 %. Počínaje historií měny Peru používalo španělské zlato až do 19. století, kdy v roce 1821 vyhlásilo nezávislost. Peruánský dolar se používal od roku 1822 do roku 1863. V roce 1863 byl peruánský reàl nahrazen měnou soldi oro v poměru 10:1, přičemž jeho maximální hodnota dosáhla 50 000. V roce 1863 byl peruánský reàl nahrazen měnou soldi oro. V roce 1985 byla zavedena měna "inti" s přepočítacím kurzem 1000 ku 1, s maximální hodnotou 5 milionů. V roce 1991 byla zavedena měna "SOL" s kurzem Exchange 1 milion ku 1, s bankovkami v hodnotě od 10 do 200. V roce 1991 byla zavedena měna "SOL" s kurzem 1 milion ku 1.
@@ -1291,7 +1289,7 @@ Při zkoumání období redenominace je rok 1988 považován za rok hyperinflace
 ### Nikaragua
 
 
-![image](assets/fr/056.webp)
+![image](assets/fr/058.webp)
 
 Nikaragua, která byla dříve pod španělskou nadvládou, zpočátku používala španělský dolar, stejně jako mnoho dalších zemí kolonizovaných Španělskem. Poté, co byla Nikaragua začleněna do Španělského impéria, Mexického impéria a následně do Federativní republiky Střední Amerika, vyhlásila nezávislost. Od roku 1878 se oficiální měnou v zemi stalo peso, jehož hodnota se pohybovala mezi 1 a 100. V roce 1878 byla zavedena měna peso. V roce 1912 byla v zemi zavedena první měna cordoba, v roce 1988 následovala druhá a v roce 1991 třetí, která se používá dodnes. První cordoba dosáhla hodnoty 1 milionu a druhá 10 milionů. Redenominace v roce 1991 následovala po několika letech hyperinflace.
 
@@ -1299,7 +1297,7 @@ Nikaragua, která byla dříve pod španělskou nadvládou, zpočátku používa
 ### Venezuela
 
 
-![image](assets/fr/057.webp)
+![image](assets/fr/059.webp)
 
 
 Venezuela je poslední zemí zmíněnou v tomto videu. Tato země prošla v průběhu času čtyřmi redenominacemi měny. Na počátku své existence používala Venezuela španělský dolar, než v roce 1811 vyhlásila nezávislost. V roce 1879 zavedla jako oficiální měnu bolívar, který platil až do roku 1983, kdy se vláda rozhodla pro systém plovoucího kurzu Exchange s použitím dolaru.
@@ -1308,16 +1306,16 @@ Venezuela je poslední zemí zmíněnou v tomto videu. Tato země prošla v prů
 Pozoruhodnou skutečností o Venezuele je její členství v Latinské měnové unii. Tato unie zahrnovala mince, jako je 5 peset ze Španělska, 5 drachem z Řecka, 5 bolivarů z Venezuely, 5 lir z Itálie, 5 belgických franků a 5 francouzských franků.
 
 
-![image](assets/fr/058.webp)
-
-
-![image](assets/fr/059.webp)
-
-
 ![image](assets/fr/060.webp)
 
 
 ![image](assets/fr/061.webp)
+
+
+![image](assets/fr/062.webp)
+
+
+![image](assets/fr/063.webp)
 
 
 V tomto období měl 5 bolívarů Coin z Venezuely stejnou váhu jako bankovky členských zemí Unie, včetně Itálie, Španělska, Belgie a Francie. Tyto bolivary byly vyrobeny ze stříbra, přičemž konkrétní Coin z roku 1929 vážil 25 gramů a měl ryzost 900, tedy 90 % ryzího stříbra. Při současné ceně stříbra má tento Coin hodnotu přibližně 17 až 18 dolarů (v amerických dolarech).
@@ -1380,7 +1378,7 @@ Zajímavým aspektem, na který Bernholz upozorňuje, je skutečnost, že úspě
 ### Případ Zimbabwe
 
 
-![image](assets/fr/062.webp)
+![image](assets/fr/064.webp)
 
 
 Zimbabwe získalo nezávislost v roce 1980 a zavedlo vlastní měnu, zimbabwský dolar. Zpočátku měly dva zimbabwské dolary hodnotu přibližně 1,60 amerického dolaru. V roce 1997 však v důsledku sociálních opatření ve prospěch válečných veteránů došlo během Černého pátku k devalvaci měny o 72 % během jediného dne. Na počátku roku 2000 pak země zahájila program přerozdělování půdy, který spočíval v odebírání půdy bílým vlastníkům a jejím rozdělování místnímu obyvatelstvu. Toto rozhodnutí poškodilo export, protože noví vlastníci často neměli potřebné odborné znalosti pro řízení velkých zemědělských podniků. Výsledkem bylo, že zatímco v roce 1999 byla Zimbabwe čistým vývozcem, v roce 2003 se stala čistým dovozcem.
@@ -1389,7 +1387,7 @@ Zimbabwe získalo nezávislost v roce 1980 a zavedlo vlastní měnu, zimbabwský
 V roce 2006 země zavedla novou verzi své měny, ZWN, s kurzem Exchange 1:1 000. V roce 2008 byla zavedena další měna, ZWR, s kurzem Exchange v poměru 1 : 10 miliardám. To vedlo k vytvoření ikonických bankovek v hodnotě 100 bilionů.
 
 
-![image](assets/fr/063.webp)
+![image](assets/fr/065.webp)
 
 
 #### Dolarizace a řešení krizí
@@ -1412,13 +1410,13 @@ Je znepokojující, že Zimbabwe se od té doby pokusilo znovu zavést vlastní 
 Ve své knize nazvané "Vše o Bitcoin" jsem věnoval celou kapitolu hyperinflaci v Zimbabwe. Podrobně popisuji významné události a uvádím různé příklady, které ilustrují, jak země nakonec hyperinflaci ukončila.
 
 
-![image](assets/fr/064.webp)
+![image](assets/fr/066.webp)
 
 
 Těm, které zajímá německá zkušenost po první světové válce, vřele doporučuji komiks "Říšský bankéř" Vypráví o tom, jak se Německu podařilo překonat hyperinflaci, zejména díky vytvoření rentenmarky.
 
 
-![image](assets/fr/065.webp)
+![image](assets/fr/067.webp)
 
 
 Klíčovým poznatkem je, že existuje několik strategií, jak překonat hyperinflaci. Lze zvolit dolarizaci nebo zavést novou měnu. Tato řešení budou fungovat pouze v případě, že k nim bude mít obyvatelstvo důvěru. Zásadní je zavést přísná omezení. Zásadní je skutečně nezávislá centrální banka. Nesmí nafukovat peníze Supply, aby pokryla vládní deficity. V případě mírné inflace by mělo stačit omezit růst peněz Supply. V případě hyperinflace je však nezbytné mít nejprve přiměřený objem peněz Supply ve vztahu k velikosti ekonomiky. Poté je nezbytné uvalit na vládu přísná omezení, aby se situace stabilizovala.
@@ -1433,7 +1431,7 @@ Klíčovým poznatkem je, že existuje několik strategií, jak překonat hyperi
 [Objevte naskenovanou sbírku v souboru vzdělávacích nástrojů *Bitcoin* (přístupný také v sekci *Zdroje* na platformě Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
-![image](assets/fr/072.webp)
+![image](assets/fr/068.webp)
 
 # Jak jsme se sem dostali?
 
@@ -1453,7 +1451,7 @@ Přepis:
 Vznik druhého Layer peněz a prvních centrálních bank je fascinující téma. Toto téma je obsáhle rozebráno v knize Nicka Battii "Vrstvené peníze". Vřele ji doporučuji těm, kteří se zajímají o vývoj a složitosti našich peněžních systémů. Cílem této části je pochopit původ tvorby peněz a to, jak mohla vést k hyperinflaci.
 
 
-![image](assets/fr/066.webp)
+![image](assets/fr/069.webp)
 
 
 ### Pyramidové peníze a centrální banky
@@ -1465,10 +1463,10 @@ Vznik druhého Layer peněz a prvních centrálních bank je fascinující téma
 Historie peněz sahá až do 13. století v Itálii, konkrétně ve Florencii. V té době byly běžné florény a bankovky Exchange. Pozoruhodným příkladem je florin, který zdobí postava svatého Jana Křtitele.
 
 
-![image](assets/fr/067.webp)
+![image](assets/fr/070.webp)
 
 
-![image](assets/fr/068.webp)
+![image](assets/fr/071.webp)
 
 
 I když je dnes vlastnictví pravého florénu drahé, jsou k dispozici jeho reprodukce. Existují i další měny z té doby, například soldo z italských států 17. století, na němž je vyobrazen Kristus.
@@ -1494,7 +1492,7 @@ Tento koncept, ačkoli je spojován s Nickem Bellem prostřednictvím jeho twitt
 #### VOC a amsterdamská burza (17. století)
 
 
-![image](assets/fr/069.webp)
+![image](assets/fr/072.webp)
 
 
 Po založení antverpské burzy Exchange bylo významným mezníkem založení VOC, Nizozemské východoindické společnosti. Tato společnost se sídlem v Nizozemsku dokonce vydávala vlastní měnu. Po vzniku VOC byla v Amsterdamu založena první burza, která znamenala počátek burzovních operací společnosti. Zajímavé je, jak se Nizozemcům podařilo ukončit nadvládu Antverp jako mezinárodního hospodářského centra. Jednoduše zablokovali přístup k řece Šeldě. Tato strategie byla součástí většího historického hnutí, vzpoury žebráků. Zásadní událost evropských dějin.
@@ -1503,7 +1501,7 @@ Po založení antverpské burzy Exchange bylo významným mezníkem založení V
 #### Zásah Bank of Amsterdam
 
 
-![image](assets/fr/070.webp)
+![image](assets/fr/073.webp)
 
 
 Po založení VOC se další významnou událostí v měnové historii stalo zavedení zlatých mincí amsterodamskou bankou. Tyto mince z roku 1722 byly vyrobeny ze stříbra. Skutečnou revoluci v tehdejším finančnictví však nepředstavovala ani tak samotná Coin, ale účty spojené s touto měnou v amsterodamské bance. Tyto účty se staly hlavním prostředkem mezinárodního platebního styku Exchange. Transakce se jednoduše zaznamenávaly do registrů nebo účetních knih. Díky tomuto systému se Amsterdam stal světovým ekonomickým centrem. Postupem času se amsterodamská banka rozhodla používání těchto účtů prosadit. Nezávislí směnárníci museli denně Exchange své mince ukládat do banky.
@@ -1520,7 +1518,7 @@ Zpočátku představovalo první měnu Layer zlato. Vklady v soukromých bankác
 #### Panika v roce 1796
 
 
-![image](assets/fr/071.webp)
+![image](assets/fr/074.webp)
 
 Bankovní panika v Seamen's Savings Bank během paniky v roce 1857.
 

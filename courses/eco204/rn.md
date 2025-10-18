@@ -182,8 +182,6 @@ Maravedi, nk’ifaranga ry’umuringa, rifise ikibanza kidasanzwe muri kahise k�
 Gugabanya agaciro k’amahera ni igikoresho gikoreshwa kenshi n’ibihugu kugira ngo bihe amahera y’amahera bikoresha canke ngo bivyure ubutunzi. Ariko rero, Esipanye yari mu bihe bigoye cane. Gutuma idolari ry’Esupanye rigira agaciro gatoyi vyari gutuma rigira ikibanza mu bucuruzi mpuzamakungu. Kugira ngo Esipanye ishobore gutsinda iyo ngorane, yarahindukiriye aba Maravedi.
 
 
-![image](assets/chapitre-2.1/6.webp)
-
 Maravedi yari itandukanye n’idolari ry’agaciro ry’ifeza ryo muri Esupanye, kuko yari ifaranga ry’umuringa ryakoreshwa canecane mu bantu bo ng’aho. Iryo shirahamwe ryari rigenewe gukurwako agaciro. Iyo Maravedis Coin mu ntango yari ifise agaciro k'amamaravedi abiri, Leta yarayigarura, igasubira kuyitera ikidodo c'agaciro gashasha, nk'akarorero, "ine", igasubiza nyen'iyo modoka Coin imwe gusa. Coin, ifise ikidodo "umunani", ni ikimenyamenya c'ivyo, kuko yaciye mu nzira nyinshi z'ugucika kw'agaciro.
 
 
@@ -505,41 +503,41 @@ Kuko, nk’uko uru [rudodo] (https/safedean/status) rwerekana: Inflation ni vyos
 - Akarorero ka Suède ishingira intahe Beyoncé ko ari we yatumye habaho ugutera imbere kw’ibiciro mu kwezi kanaka.
 
 
-![image](assets/fr/017.webp)
+![image](assets/fr/025.webp)
 
 
 
 - Banki nkuru yo muri Polonye ivuga ko ugutera imbere kw'ibiciro kwatewe n'ubukazi bw'Uburusiya muri Ukraine n'ikiza c'indwara ya Coronavirus .
 
 
-![image](assets/fr/025.webp)
+![image](assets/fr/026.webp)
 
 
 
 - Brexit ni yo itera inflation mu Bwongereza.
 
 
-![image](assets/fr/026.webp)
+![image](assets/fr/027.webp)
 
 
 
 - Gusohora urukino rwa Zelda rufitaniye isano n’uguhungabana kw’ibiciro.
 
 
-![image](assets/fr/027.webp)
+![image](assets/fr/028.webp)
 
 
 
 - Taylor Swift ngo niwe atuma ubutunzi butera imbere.
 
 
-![image](assets/fr/028.webp)
+![image](assets/fr/029.webp)
 
 
 Mbwira, Beyoncé canke Taylor Swift boshobora gute gutuma ibiciro vy’ibintu vyiyongera cane? Urabona, nta co bimaze. Muri make:
 
 
-![image](assets/fr/029.webp)
+![image](assets/fr/030.webp)
 
 
 ### Ugutohoza ubwoko bw'ugutera imbere kw'ibiciro
@@ -558,7 +556,7 @@ Ni ngombwa cane gutahura itandukaniro riri hagati y’ubwoko butandukanye bw’u
 - Inflation nyinshi: Inflation nyinshi cane ni ikintu gikomeye cane aho igipimo c’inflation kirenga 50% ku kwezi, ivyo bikaba, kubera uburyo inflation igenda iratera imbere, bingana n’igipimo c’inflation kirenze 13.000% ku mwaka. Uwo murongo w’ugutera imbere kw’ibiciro uratuma ubutunzi buhungabana cane, bigatuma amafaranga hafi ata co amaze, bigatuma abantu badacika intege ku bijanye n’ubuhinga bw’amahera.
 
 
-![image](assets/fr/030.webp)
+![image](assets/fr/031.webp)
 
 
 Igihe umuntu ariko aratohoza ubwoko bw'ugutera imbere kw'ibiciro, birasanzwe ko umuntu abona amajambo nka "Demand Pull" na "Cost Push" mu bikoresho vy'inyigisho. Ivyo vyiyumviro naho bifise akamaro, bikunda gusigura ko ibiciro vyiyongera aho gusigura ko ugutera imbere kw’ibiciro ari ikintu c’amahera. Aha niho hari isesengura ryinshi cane:
@@ -584,7 +582,7 @@ Izo nsobanuro za kera akenshi zifatanya ukwiyongera kw’ibiciro n’ugutera imb
 Bernholz asaba ko inflation yoshirwa mu mice itatu mu buryo bworoshe ariko bubereye, ivyo bikaba bituma umuntu ashobora gutahura neza ico kintu gikomeye c’amahera:
 
 
-![image](assets/fr/031.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -669,13 +667,13 @@ Nk’akarorero, iyo inflation igabanutse ikagera kuri 40% muri Nyakanga, ntiyige
 Iyo nsobanuro yaremejwe mu meza ya Hanke-Krus, ivuga ibihe 56 vy’ugutera imbere cane kw’ibiciro. Ariko rero, iyo meza ntivuga ibice vyose, nk’ico cabereye muri Venezuela mu 2016, ivyo bikaba bituma umubare wose ugera kuri 57.
 
 
-![image](assets/fr/032.webp)
+![image](assets/fr/033.webp)
 
 
 kwagura
 
 
-![image](assets/fr/033.webp)
+![image](assets/fr/034.webp)
 
 
 Birakenewe kumenya ko iyo nsobanuro, naho ari iyo gutomoye, yoshobora gukuraho ibihe bimwebimwe vy’ugutera imbere cane kw’ibiciro kubera uburemere bw’urugero rwa 50%. Hariho ubushobozi bwo kwagura iyo nsobanuro kugira ngo hagiremwo n’ibindi bice, naho bidahuye n’ingingo za Cagan, naho biri ukwo, bigereranya ibihe vy’ugutera imbere cane kw’ibiciro. Ivyo vyiyumviro bica bituma umuntu ashobora gutohoza cane ibijanye n’ugutera imbere kw’ibiciro, bikaba bituma umuntu ashobora gutahura neza ibituma bitera n’ingaruka zavyo. Mu biganiro bizokurikira, tuzokwihweza gusubira gusuzuma iyo nsobanuro no gusuzuma ibice vy’ugutera imbere kw’ibiciro bitari mu ngingo ngenderwako zikomeye za Cagan.
@@ -687,7 +685,7 @@ Birakenewe kumenya ko iyo nsobanuro, naho ari iyo gutomoye, yoshobora gukuraho i
 Philip Cagan ashobora kuba yarashizeho intambwe y’ubujuju n’urugero rw’ugutera imbere kw’ibiciro ku kwezi kwa 50% igihe yasobanura ugutera imbere kw’ibiciro gukomeye cane. Na we ubwiwe aremera ko iyo nsobanuro ari ubujuju kandi ko ahanini ikoresha isesengura ryiwe rishingiye ku bice indwi vy’ugutera imbere kw’ibiciro. Gusuzuma amakuru ya Cagan vyerekana ko ibihe bitatu vy’ugutera imbere cane kw’ibiciro bifise ibiharuro vy’ugutera imbere kw’ibiciro bike cane ku kwezi vyari hafi 47%, 46%, na 57%. Bisa n’uko 50% vyatowe kugira ngo bishiremwo ivyo bibazo mu nyigisho yiwe.
 
 
-![image](assets/fr/034.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -710,7 +708,7 @@ Abandi bahinga mu vy’ubutunzi nka Bernholz, umwanditsi w’igitabu citwa Monet
 Bernholz avuga ko hariho ibihe vy’ugutera imbere cane bifise ibiranga uburyo nk’ibihe vy’ugutera imbere cane, bitashitse ku rugero rwa 50%.
 
 
-![image](assets/fr/035.webp)
+![image](assets/fr/036.webp)
 
 
 Ivyo vyiyumviro bituma twibaza ukuntu insobanuro ya kera y’ugutera imbere kw’ibiciro ikomeye kandi bikagaragaza ko kumbure bikenewe gusubira gusuzuma iyo nzira mu gushiramwo ibice vyinshi n’amakuru y’akahise. Insobanuro y’ugutera imbere cane kw’ibiciro ishobora gusaba uguhinduranya kugira ngo haboneke ibimenyetso bitandukanye vy’ugutera imbere kw’ibiciro birenze urugero mu bihe bitandukanye vy’ubutunzi no mu mateka.
@@ -752,13 +750,13 @@ Ibiciro, umushahara n’inyungu birahindurwa bishingiye ku rutonde kugira ngo bi
 Inyungu y’ibiciro mu myaka itatu yegera 100% (nk’ibice 24% ku mwaka), bitandukanye n’insobanuro ya Cagan y’ibiciro vy’ibiciro vy’ibice 50% ku kwezi.
 
 
-![image](assets/fr/036.webp)
+![image](assets/fr/037.webp)
 
 
 Dushingiye ku ngingo za IASB, ibihugu vyinshi, harimwo Argentine, Etiyopiya, Hayiti, Irani, Libani, Sudani, Sudani y’Epfo, Surinamu, Siriya, Turukiya, Venezuela, Yemeni na Zimbabwe, ubu biriko birashikirwa n’ugutera imbere cane kw’ibiciro.
 
 
-![image](assets/fr/037.webp)
+![image](assets/fr/038.webp)
 
 
 Iyi nsobanuro yatanzwe na IASB irava ku rugero rw’ingero rukomeye rwa Cagan mu gushiramwo isesengura ry’uburyo bw’inyifato z’ubutunzi n’ihinduka ry’ibikorwa mu gihe c’ugutera imbere kw’ibiciro. Birerekana ko ugutera imbere kw’ibiciro ari ikintu gikomeye gisaba ugutahura mu buryo bwinshi kugira ngo umuntu atahure ingaruka nyazo zaco, cane cane mu bijanye n’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga, ivyo bikaba ari ngirakamaro kugira ngo ubucuruzi n’amasoko bibe bimeze neza kandi bibe mu mucyo mu vy’ubutunzi.
@@ -770,7 +768,7 @@ Iyi nsobanuro yatanzwe na IASB irava ku rugero rw’ingero rukomeye rwa Cagan mu
 Insobanuro rusangi z’ugutera imbere cane kw’ibiciro, nk’iyo Cagan yashizeho, ivuga ko ugutera imbere kw’ibiciro ku kwezi kugera kuri 50%, rimwe na rimwe zirashobora gutera urujijo canke zikaba zoroshe cane. Nk’akarorero, ibihugu bibiri bifise igipimo c’ugutera imbere kw’ibiciro ku mwaka c’ibice 1.000% n’ibice 3.000%, bishobora gufatwa mu buryo butandukanye bishingiye ku kuntu iyo nkuru y’ibiciro igabanywa ku kwezi. Iyo ata kwezi kurenga 50%, nk’uko Cagan abisobanura, ivyo bihugu ntivyoshirwa mu rwego rw’ugutera imbere cane kw’ibiciro. Ubwo buryo rero burashobora gutuma habaho ukutumvikana mu gushikiriza mu migwi inflation nyinshi cane, cane cane iyo ugereranya inflation zirundanijwe mu mwaka.
 
 
-![image](assets/fr/038.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -798,7 +796,7 @@ Muri iki gice, turaza gusuzuma ingaruka z’ugutera imbere cane kw’ibiciro, tw
 Ibitabu bitari bike vyaradufashije canecane:
 
 
-![image](assets/fr/039.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -806,7 +804,7 @@ Ibitabu bitari bike vyaradufashije canecane:
 - Ibitabo bibiri vyerekeye ugutera imbere kw’ibiciro muri Zimbabwe, “Umutima ushyushye wa Zimbabwe mu maso habi” na “Index y’amagi atetswe Hard” vyanditswe na Jérôme Gardner na Kudzai Joseph Gou Min-Yu, bitanga ubuhamya bukomeye buvuye ku muyobozi mukuru w’iduka ry’impuzu n’umukozi wa banki y’uburimyi.
 
 
-![image](assets/fr/040.webp)
+![image](assets/fr/041.webp)
 
 
 Igihe nariko ndakomeza ivyo nanditse, narabonye ko hariho ibintu vyinshi bisa n’ivyo vyabaye mu gihe c’ugutera imbere cane kw’ibiciro muri Zimbabwe no muri Repubulika ya Weimar, naho nyene hariho itandukaniro ry’imyaka 90 hagati yavyo. Nabonye ibintu nka 17 bisa, 13 bikaba vyerekana ubwoko bw’iterambere ry’ivyago vy’ubutunzi vyerekanywe muri ivyo bimenyetso. Ivyo bisa n’ivyo biteye umunezero vyerekana ukuntu ugutera imbere kw’ibiciro gusubiramwo kandi gusenyura abantu mu bihe vyose no mu mipaka. Uyu musi, turaza gusuzuma ivyo bintu bisa n’ingene vyerekana inzira iteye amaganya mu bihe vy’ugutera imbere cane kw’ibiciro.
@@ -846,7 +844,7 @@ Mu bihe bimwebimwe vy’ubutunzi, agaciro k’agaciro k’inoti gashobora kuba g
 
 > Zimbabwe: "Banki nkuru yatakaje amahera mu gucapura inoti y'amahera idakwiriye urupapuro rwacapuweko. Mu yandi majambo, agaciro kayo kari hasi y'impapuro zo mu bwiherero. Naho vyoba bimeze nk'ibiteye isoni, vyari bihendutse gukoresha inoti y'amahera y'amafaranga 100 y'ama ZWD nk'impapuro zo mu bwiherero kuruta kugura urupapuro rwo mu bwiherero nyarwo."
 
-![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
 
 
 #### 4. Guharura amahera
@@ -899,7 +897,7 @@ Weimar: "Uko ingeso nziza za kera zo kwizigama, ubugororotsi, n'igikorwa ca Hard
 Zimbabwe: "Ivyo bikorwa, naho vyatunga abantu bakeyi, vyatumye abakozi bo mu bisagara n'abanyagihugu bakenye. Uburezi bwatakaje agaciro kabwo, kuko ubu bucuruzi bwari burongowe n'abantu batakeneye uburezi canke akazi ka Hard kugira ngo babushinge intahe. Ivyo bari bakeneye vyose ni amasano n'amahera yo gutangura ubucuruzi bwabo bworoshe."
 
 
-![image](assets/fr/042.webp)
+![image](assets/fr/043.webp)
 
 
 #### 8. "Amabanki y'isi".
@@ -937,7 +935,7 @@ Weimar: "Abacuruzi bari baherutse guhatirwa n'itegeko rishasha kwemera amafarang
 Zimbabwe: "Leta yashizeho SI 175/2008 kw'igenekerezo rya 12 Kigarama 2008, ku bijanye no kwishura hakoreshejwe amasheki. Yavuze ngo, 'Igihano co kwanka kwishura hakoreshejwe amasheki/ikarita ya banki canke ubundi buryo bwo kwishura bukoresheje ubuhinga bwa none bufashwa na banki kizoba ari ihazabu y'urugero rwa 8 canke igihano c'igifungo c'amezi atandatu'. Biragaragara ko twirengagije SI kuko yari itandukanye n'ukuri."
 
 
-![image](assets/fr/043.webp)
+![image](assets/fr/044.webp)
 
 
 #### 11. Bahatiwe kuguma bafunguye amaduka yabo
@@ -976,7 +974,7 @@ Ugugura amafaranga y’amahanga mu buryo bw’agahomerabunwa kenshi kwabaye ihin
 ### Incamake y'ingene bigenda
 
 
-![image](assets/fr/044.webp)
+![image](assets/fr/045.webp)
 
 
 Iyo dusuzumye inzira y’ubutunzi, biraboneka ko iyo umuntu ashitse ku ntumbero nini, agaciro k’amahera menshi kagabanuka. Ukwo gutakaza agaciro k’amahera bituma haba ingorane nyinshi, harimwo n’ukubura amafaranga y’amafaranga. Muri ivyo, amahirwe yo gukemura ibibazo aravyuka, cane cane mu kwishura ku guhinduka kw’ibiciro vya Exchange. Ivyo bituma abantu benshi bahindukira kuri iyo nzira y’ubukemurampaka, bagashiramwo amahera menshi mu bintu bifatika biteze ko amafaranga azogabanuka muri kazoza, ivyo bikaba vyotuma bashobora kwishura imyenda yabo bakoresheje amafaranga agoyagoya. Ivyo bidukikije vy’ubutunzi biratuma akazi ka kera katagira akamaro, ivyo bikaba bituma ubumwe bw’abantu buhungabana.
@@ -988,7 +986,7 @@ Mu kwishura ivyo bintu, Leta ishiraho amategeko akomeye cane, harimwo n’ugucun
 ### 4 Ivyo bisa mu ngaruka z’ugutera imbere cane kw’ibiciro .
 
 
-![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 
 #### 1. Amavuta n’ivyuma
@@ -1059,7 +1057,7 @@ Muri iki gice, tuzokwihweza itandukaniro n’ibihuye n’ivyo muri iki gihe haga
 Mu Budagi, vyari bisanzwe ko abantu bavuga ko ugutera imbere kw’ibiciro ari ukuza kw’idolari aho kuvuga ko amahera yabo bwite yagabanutse. Benshi bemera ko ico kintu cabonetse cavuye ku gushimira kw’idolari. Ivyo vyiyumviro vyaciye bikuraho kwemera ko hariho isano hagati y’ingorane zabo z’ubutunzi n’ugucika kw’agaciro k’amahera, ahanini biterwa n’uguhingura amahera birenze urugero. Igitabo "When Money Dies" kirerekana neza ukwo kutagira ugutahura mu banyagihugu bo mu Budagi. Mu buryo butandukanye n’ubwo, muri Zimbabwe, ibintu vyari bitandukanye: abanyagihugu bari bazi neza imvo nyamukuru y’ugutera imbere kw’ibiciro bariko barashikirwa.
 
 
-![image](assets/fr/046.webp)
+![image](assets/fr/047.webp)
 
 
 #### 2. Amahera y’ivyihutirwa (Notgeld)
@@ -1080,7 +1078,7 @@ Mu Notgeld, hari inoti imwe yihariye igaragara cane. Irimwo ikigereranyo gikomey
 Umuhinga mu vy’ubuhinga bw’amasanamu ari inyuma y’iyi Notgeld asa n’uwuriko aranegura mu buryo buteye isoni abategetsi bajejwe ingorane y’ugutera imbere kw’ibiciro. Iryo noti ryanditsweko ngo "Ivya ngombwa ntibizi itegeko". Iyindi mvugo yihariye yerekeye aho Notgeld yakomotse ni: "Ico gikwiye gukorwa, gitegerezwa gukorwa."
 
 
-![image](assets/fr/047.webp)
+![image](assets/fr/049.webp)
 
 
 > "ivy'ingenzi ntibizi itegeko"
@@ -1100,7 +1098,7 @@ I Weimar, imyenda imwimwe yarasubiwemwo agaciro kugira ngo bashobore kwishura in
 Kugira ngo umenye vyinshi ku bijanye no gucungera ingorane z’Ubudage, iki gitabu na co nyene ni ngirakamaro.
 
 
-![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 
 ### Ibisa n'ivyo muri iki gihe
@@ -1160,7 +1158,7 @@ Ishirahamwe ry’abazombi ni ubucuruzi, mu bihe bisanzwe vy’isoko, ryoba risho
 Iciyumviro c’amashirahamwe y’abazombi si ikintu gishasha. Nkako, ryariho mu gihe ca Repubulika ya Weimar. Iciyo gihe, amashirahamwe menshi yasa n’ayariko aratera imbere, ahanini akavyungukirako mu kuronka inguzanyo ku buntu. Bagurije amahera menshi cane bizigiye ko bazoyasubiza mu nyuma n’amahera yagabanutse kubera ugutera imbere kw’ibiciro. Ariko rero, igihe ugutera imbere kw’ibiciro kwahagarara, ikimenyetso c’Ubudage kigasubira kuronka agaciro, ayo mashirahamwe, ayo mashirahamwe atari ashoboye vy’ukuri gukora canke mu vy’amahera, yaracitse uwutagira inyungu, aca ategerezwa guhagarara.
 
 
-![image](assets/fr/050.webp)
+![image](assets/fr/051.webp)
 
 
 Ico kintu c’amashirahamwe y’abapfuye ntikigarukira mu Budagi bwakurikiye intambara gusa. No muri iki gihe, amashirahamwe manini manini menshi arabandanya gutera imbere kubera ko afise agateka ko kuronka inguzanyo ku nyungu nto cane. Iyo babwirizwa kugurana ku giciro gisanzwe kuruta, benshi muri bo bohagarika kuronka inyungu. Ivyo birahambaye cane cane mu mwaka w’2023, inyuma y’igihe kirekire c’inyungu hafi y’ubusa, kuko ubu inyungu zatanguye kuduga. Iryo hinduka ry'ivy'ubutunzi rizoba ata gukeka ikigeragezo gikomeye kuri ayo mashirahamwe, yahora yitwa "zombies."
@@ -1172,7 +1170,7 @@ Ico kintu c’amashirahamwe y’abapfuye ntikigarukira mu Budagi bwakurikiye int
 Amateka yerekana ingero aho abantu barondera kwirundanira ubutunzi vyihuse, nk’uko vyagenze i Weimar na Zimbabwe biciye ku guca imanza. Muri iki gihe, ikintu nk’ico nyene kirashobora kubonwa n’ugutera imbere kw’amahera amwamwe y’ivy’ubuhinga bwa none. Abantu barageragezwa n’inyungu zihuta, bagafata ivyago bizigiye ko bazokwongerekana cane mu vyo bashora. Ubwo buryo bwibutsa ivyo vyabonetse mu bihe vy’ugutera imbere kw’ibiciro, aho hakoreshwa ubuhinga bwo gukemura ibibazo kugira ngo umuntu aronke inyungu yihuta, akenshi akabigirako abandi.
 
 
-![image](assets/fr/051.webp)
+![image](assets/fr/052.webp)
 
 
 #### 7. Kuzigama, ni umuti wo kurwanya ukudakeka
@@ -1205,7 +1203,7 @@ Ubu rero turaza kuraba ibihe bitandukanye vy’uguhindura idini mu bihugu vya Am
 Ku rupapuro, ibubamfu, hari imyaka y’uguhindura amafaranga, izina ry’amafaranga mashasha, n’igipimo ca Exchange n’amafaranga ya kera. Dufashe akarorero ka Argentine, peso moneda nacional yahinduwe ku rugero rwa 25 kuri 1 ugereranije n’amahera ya kera, ari yo peso reàl. Muri ivyo, tuzosuzuma ingene amafaranga y’igihugu ca Argentine yagenda aratera imbere uko igihe kigenda kirarenga. Ikindi, tuzokwerekana amafaranga y’intango n’ay’iherezo y’amafaranga y’amabanki y’igihe cose.
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 
 Ku ruhande rw’iburyo rw’ico gicapo, hariho igicapo c’ugutera imbere kw’ibiciro. Imyambi itukura igereranya imyaka y’ugutera imbere kw’ibiciro, nk’uko bisobanurwa n’ingingo ya Cagan, ni ukuvuga igipimo c’ugutera imbere kw’ibiciro c’ibice 50% ku kwezi. Ico kigereranyo gishobora rimwe na rimwe gutuma habaho insobanuro zitari zo, kuko imyaka ifise ibiharuro vyinshi vy’ugutera imbere kw’ibiciro ishobora kutahura n’insobanuro ikomeye y’ugutera imbere kw’ibiciro cane.
@@ -1218,7 +1216,7 @@ Inyuma ya Argentine, inyigisho yacu izoja kuri Brezile, Boliviya, Peru, Nikaragw
 ### Argentine
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/054.webp)
 
 
 Imbere y’umwaka wa 1826, Argentine yakoresha idolari ry’Igisupanyoli. Inyuma y’ukwikukira kwaryo mu 1816, ryarashizeho amafaranga yaryo bwite ashingiye ku mafaranga y’Abanyasipaniye yitwa reàl, ivyo bikaba vyatumye habaho amafaranga asa n’ayo. Iryo meza ritangura mu mwaka w'1881, umwaka washizweho "peso moneda nacional," amafaranga y'amahera ashika ku bihumbi 10. Ivyo vyakurikiwe n'i "peso ley", iyo na yo ikaba yahindurwa ku giciro c'ijana kuri 1, ikaba yari ifise amafaranga ashika ku miliyoni imwe. Hanyuma, "peso ya Argentine" yashitse n'igiciro ca Exchange c'ibihumbi 10 kuri 1 (bingana no gukuraho zero zine), n'amafaranga y'amahera ashika ku bihumbi 10. Mu mwaka w'1985, "australes" yarashizweho kandi irahindurwa kugiciro c'ibihumbi 1 ku kimwe, amafaranga y'amabanki akaboneka ashika ku bihumbi 500.000. Mu mwaka w'1992, "peso ley" iriho ubu yashinzwe ku rugero rw'ibihumbi 10 kuri 1, yongera gukuraho zero zine. Imyaka ya 1989 n’iya 1990 ni yo yonyene yaje gutera imbere cane.
@@ -1227,7 +1225,7 @@ Imbere y’umwaka wa 1826, Argentine yakoresha idolari ry’Igisupanyoli. Inyuma
 ### Brezil
 
 
-![image](assets/fr/053.webp)
+![image](assets/fr/055.webp)
 
 
 Brezil ni akarorero keza k'uguhindura amafaranga, nk'uko vyerekanywe n'amateka yayo y'uguhindura amafaranga. Imbere y’uko Brezil yikukira, yakoresha amafaranga y’igiportigale yitwa reàl nk’ifaranga ryayo. Ariko rero, kuva mu 1747, ico gihugu caratanguye gukoresha "reàl ya Brezile" yaco bwite, kera cane imbere y'uko gitangaza ukwikukira kwaco mu 1822. Iryo meza ritangura mu 1818, rikaba ari ryo ry'intango y'ugusohora amafaranga y'amahera ya Brezile. Mbere, ayo mafaranga yari ahanini mu buryo bw’ibiceri. Izo noti zari zifise agaciro kagera kuri miliyoni imwe y’amarea.
@@ -1252,7 +1250,7 @@ Igitigiri c’amafaranga y’agaciro kanini cane cashitse ku 500.000, kandi ugus
 ### Boliviya
 
 
-![image](assets/fr/054.webp)
+![image](assets/fr/056.webp)
 
 
 Boliviya ni akandi karorero k’igihugu cashikiwe n’ibihe vy’ugutera imbere kw’ibiciro, bikaba vyasaba ko amafaranga asubirwamwo. Aha niho hari incamake y’amateka yayo y’amahera:
@@ -1275,7 +1273,7 @@ Ivyo ni incamake y’amateka y’amahera y’igihugu ca Boliviya yuzuye umuvurun
 ### Peru
 
 
-![image](assets/fr/055.webp)
+![image](assets/fr/057.webp)
 
 
 Peru iratanga ikibazo gishimishije ku bijanye n’ingaruka z’itegeko ry’ububisha ry’ibice 50 kw’ijana. Guhera mu mateka y’amahera, Peru yarakoresheje inzahabu y’i Esupanye gushika mu kinjana ca 19, igihe yatangaza ubwigenge bwayo mu 1821. Idolari rya Peru ryari rikoreshwa kuva mu 1822 gushika mu 1863. Mu 1863, reàl ya Peru yasubiriwe n’idolari rya soldi oro, ku rugero rwa maximu1. 50.000. Mu mwaka w'1985, amafaranga "Inti" yarashizweho n'igipimo co guhindura 1000 ku 1, ashika ku miriyoni 5. Mu mwaka w'1991, "SOL" yatangujwe n'igiciro ca Exchange c'imiliyoni 1 kuri 1, n'amafaranga y'amahera kuva kuri 10 gushika kuri 200.
@@ -1291,7 +1289,7 @@ Dusuzumye ibihe vy’uguhindura idini, umwaka w’1988 ubonwa ko ari umwaka w’
 ### Nikaragwa
 
 
-![image](assets/fr/056.webp)
+![image](assets/fr/058.webp)
 
 Nikaraguwa, yahora itwarwa n’Esipanye, mu ntango yakoresha idolari ry’Esipanye, cokimwe n’ibindi bihugu vyinshi vyari vyakolonijwe na Esipanye. Nikaraguwa imaze kwinjira mu Bwami bwa Esupanye, mu Bwami bwa Megizike, hanyuma mu Bwami bwa Repubulika ya Amerika yo Hagati, yaratangaje ko yigenga. Guhera muri 1878, peso yabaye ifaranga ry'igihugu, agaciro kayo kahinduka hagati ya 1 na 100. Muri 1912, igihugu carashizeho Cordoba yambere, ikurikirwa n'iya kabiri mu 1988 n'iya gatatu mu 1991, n'ubu iracariko irakoreshwa n'ubu. Cordoba ya mbere yashitse ku gaciro k’imiliyoni 1, iya kabiri na yo ishika ku miriyoni 10. Ivyo guhindura idini mu 1991 vyakurikiye imyaka myinshi y’ugutera imbere cane kw’ibiciro.
 
@@ -1299,7 +1297,7 @@ Nikaraguwa, yahora itwarwa n’Esipanye, mu ntango yakoresha idolari ry’Esipan
 ### Venezuwela
 
 
-![image](assets/fr/057.webp)
+![image](assets/fr/059.webp)
 
 
 Venezuela ni co gihugu ca nyuma kivugwa muri iyi videwo. Igihugu carahinduwe amafaranga ane mu gihe c’igihe. Mu misi yayo ya mbere, Venezuela yakoresha idolari ry'Esipanye imbere y'uko itangaza ukwikukira mu 1811. Mu 1879, yashizeho bolivar nk'ifaranga ry'ubutegetsi, ryagumyeho gushika mu 1983, igihe leta yahitamwo uburyo bwo gukoresha idolari ry'igihugu ryitwa Exchange.
@@ -1308,16 +1306,16 @@ Venezuela ni co gihugu ca nyuma kivugwa muri iyi videwo. Igihugu carahinduwe ama
 Ikintu gihambaye ku bijanye na Venezuela ni uko ari umunyamuryango w’ishirahamwe ry’amahera ry’i Latini. Iryo shirahamwe ryari rigizwe n’ibiceri nk’amapeseta 5 yo muri Esipanye, amadrakima 5 yo mu Bugiriki, amabolivar 5 yo muri Venezuela, amalire 5 yo mu Butaliyano, amafaranga 5 y’Ububirigi n’amafaranga 5 y’Ubufaransa.
 
 
-![image](assets/fr/058.webp)
-
-
-![image](assets/fr/059.webp)
-
-
 ![image](assets/fr/060.webp)
 
 
 ![image](assets/fr/061.webp)
+
+
+![image](assets/fr/062.webp)
+
+
+![image](assets/fr/063.webp)
 
 
 Muri ico kiringo, iyo ndege y’ama bolivar 5 Coin yava muri Venezuela yari ifise uburemere bungana n’ubw’ibihugu biri muri iyo nama, harimwo Ubutaliyano, Esipanye, Ububirigi n’Ubufaransa. Izo bolivars zari zikozwe mw’ifeza, zifise Coin yihariye yo mu 1929 ipima amagarama 25 kandi ifise ubusuku bwa 900, canke 90% vy’ifeza itagira agasembwa. Kubera igiciro c’ifeza kiriho ubu, iyo Coin ifise agaciro k’amadolari nka 17 gushika ku madolari 18 (Amadolari y’Amerika).
@@ -1380,7 +1378,7 @@ Ikintu gishimishije Bernholz yashize ahabona ni uko ukuroranirwa kw’ivugurura 
 ### Urubanza rwa Zimbabwe
 
 
-![image](assets/fr/062.webp)
+![image](assets/fr/064.webp)
 
 
 Zimbabwe yaronse ukwikukira muri 1980 maze ishiraho ifaranga ryayo bwite, idolari rya Zimbabwe. Mu ntango, amadolari abiri ya Zimbabwe yari afise agaciro k’amadolari y’Amerika nka 1,60. Ariko mu mwaka w’1997, hakurikijwe ingingo z’imibano zafashije abasirikare ba kera, iyo mafaranga yaragabanutse agaciro n’ibice 72 kw’ijana mu musi umwe mu gihe c’umunsi wa gatanu w’umukara. Hanyuma mu ntango z’imyaka ya 2000, igihugu caratanguye porogarama yo gusubira gusangira ubutaka, iyo porogarama ikaba yari iyo gufata ubutaka bw’abazungu bakabugabira abanyabubasha bo ng’aho. Iryo cemezo ryarababaje ivyoherezwa hanze kubera ko kenshi ba nyen’amatongo bashasha batagira ubuhinga bukwiye bwo gucunga amatongo maninimanini. Ivyo vyatumye, mu gihe Zimbabwe yari igihugu coherezwa hanze mu 1999, mu 2003 iba igihugu coherezwa hanze.
@@ -1389,7 +1387,7 @@ Zimbabwe yaronse ukwikukira muri 1980 maze ishiraho ifaranga ryayo bwite, idolar
 Mu mwaka w’2006, ico gihugu carashizeho amafaranga mashasha, ari yo ZWN, afise igiciro ca Exchange kuva kuri 1 gushika ku 1.000. Mu mwaka w’2008, harashizweho irindi dini ryitwa ZWR, rifise igipimo ca Exchange c’amamiliyaridi 1 gushika ku miliyaridi 10. Ivyo vyatumye habaho amafaranga y’amafaranga y’amamiliyaridi 100.
 
 
-![image](assets/fr/063.webp)
+![image](assets/fr/065.webp)
 
 
 #### Guhindura amadolari n'ugutorera umuti ingorane
@@ -1412,13 +1410,13 @@ Birababaje kubona ko kuva ico gihe Zimbabwe yagerageje gusubira gukoresha amafar
 Mu gitabu canje citwa "Ibintu vyose ku bijanye na Bitcoin", narashizeho igice cose ku bijanye n'ugutera imbere cane kw'ibiciro muri Zimbabwe. Ndadondora ido n’ido ibintu bihambaye vyabaye, ntanga ingero zitandukanye zigaragaza ingene igihugu cahejeje gukuraho ugutera imbere kw’ibiciro.
 
 
-![image](assets/fr/064.webp)
+![image](assets/fr/066.webp)
 
 
 Ku bashaka kumenya ivyabaye mu Budagi inyuma y'Intambara ya mbere y'isi yose, ndabahimiriza cane igitabu c'ibisekeje "The Reich's Banker." Ivuga ingene Ubudage bwashoboye gutsinda ugutera imbere kw’ibiciro, cane cane biciye mu kurema ikimenyetso ca Rentenmark.
 
 
-![image](assets/fr/065.webp)
+![image](assets/fr/067.webp)
 
 
 Iciyumviro nyamukuru ni uko hariho ingamba nyinshi zo gutsinda ugutera imbere kw’ibiciro. Umuntu arashobora guhitamwo guhindura amadolari canke akazana amafaranga mashasha. Ivyo bisubizo bizokora gusa iyo abanyagihugu babizigiye. Ni ngombwa cane gushinga amategeko akomeye. Banki nkuru yigenga vy’ukuri ni nkenerwa. Ntibitegerezwa gutera imbere amahera Supply kugira ngo yishure amadeni ya Leta. Ku bijanye n’ugutera imbere kw’ibiciro bitari vyinshi, guhagarika iterambere ry’amahera Supply vyoba bihagije. Ariko iyo umuntu ahanganye n’ugutera imbere kw’ubutunzi, birahambaye cane ko abanza kugira amahera akwiye Supply ajanye n’ubunini bw’ubutunzi. Hanyuma, ni ngombwa cane gushinga amategeko akomeye kuri Leta kugira ngo ibintu bibe bimeze neza.
@@ -1433,7 +1431,7 @@ Iciyumviro nyamukuru ni uko hariho ingamba nyinshi zo gutsinda ugutera imbere kw
 [Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Network urubuga.] (urubuga rwa penpot.umugambi 4-4f081b21defb&igice=imigenderanire&urutonde=0&sangira-id=7154756b-3ebd-8040-8004-6475c2af5889&imigenderanire-uburyo=kwerekana-ku-gukanda)
 
 
-![image](assets/fr/072.webp)
+![image](assets/fr/068.webp)
 
 # None twashitse gute ngaha?
 
@@ -1453,7 +1451,7 @@ Ivyanditswe:
 Kuza kwa Layer ya kabiri y’amahera n’amabanki nkuru ya mbere ni ikintu giteye umunezero cane. Iyi nsiguro iravugwa cane mu gitabu "Amahera ashizwe mu mirongo" ca Nick Battia. Ndayishimira cane abakunda ukuntu ubuhinga bwacu bwo gukoresha amahera bwateye imbere be n’ingene buteye akaga. Intumbero y’iki gice ni ugutahura inkomoko y’uguhingura amahera n’ingene yoshobora gutuma habaho ugutera imbere kw’ibiciro.
 
 
-![image](assets/fr/066.webp)
+![image](assets/fr/069.webp)
 
 
 ### Amahera ya Piramide n'amabanki nkuru
@@ -1465,10 +1463,10 @@ Kuza kwa Layer ya kabiri y’amahera n’amabanki nkuru ya mbere ni ikintu gitey
 Amateka y’amahera yatanguye mu kinjana ca 13 mu Butaliyano, cane cane mu gisagara ca Firenze. Iciyo gihe, amaflorin n’amafaranga y’amafaranga y’i Exchange vyari bimenyerewe. Akarorero gahambaye ni aka florin, gasharije igishushanyo ca Yohani Batista mweranda.
 
 
-![image](assets/fr/067.webp)
+![image](assets/fr/070.webp)
 
 
-![image](assets/fr/068.webp)
+![image](assets/fr/071.webp)
 
 
 Naho muri iki gihe kugira florin y’ukuri bizimvye, hariho ivy’ugusubiramwo. Hariho kandi n’ayandi mafaranga yo muri ico gihe, nk’iyitwa soldo yo mu bihugu vy’Ubutaliyano vyo mu kinjana ca 17, ikaba ifise ishusho ya Kristu.
@@ -1494,7 +1492,7 @@ Ico ciyumviro, naho gifitaniye isano na Nick Bell biciye ku izina ryiwe ry’uru
 #### VOC n’isoko ry’ivy’ubutunzi ry’i Amsterdam (ikinjana ca 17)
 
 
-![image](assets/fr/069.webp)
+![image](assets/fr/072.webp)
 
 
 Inyuma y’aho hashinzwe ishirahamwe ry’ubudandaji ryitwa Anvers Stock Exchange, ikintu gihambaye cabaye ni ugushinga ishirahamwe ryitwa VOC, ari ryo shirahamwe ry’Abaholandi ry’Ubuhindi bwo mu Buseruko. Iyo sosiyete yari mu Buholandi, mbere yarasohoye amahera yayo bwite. Inyuma y’aho VOC iremewe, isoko rya mbere ry’ivy’ubutunzi ryashinzwe i Amsterdam, ivyo bikaba ari vyo vyatumye iyo sosiyete itangurira ibikorwa vy’isoko ry’ivy’ubutunzi. Ikintu gishimishije ni ingene Abaholandi bashoboye gukuraho ubukuru bwa Anvers nk’ikibanza c’ubutunzi mpuzamakungu. Baciye gusa bazibira abantu gushika ku ruzi Scheldt. Iryo tegeko ryari mu muhari munini kuruta wo mu mateka, ni ukuvuga ubugarariji bw’abasabirizi. Ikintu gihambaye cane cabaye muri kahise k’Uburaya.
@@ -1503,7 +1501,7 @@ Inyuma y’aho hashinzwe ishirahamwe ry’ubudandaji ryitwa Anvers Stock Exchang
 #### Ingingo ya Banki ya Amsterdam
 
 
-![image](assets/fr/070.webp)
+![image](assets/fr/073.webp)
 
 
 Inyuma y’aho VOC ishinzwe, ikindi kintu gihambaye cabaye mu mateka y’amahera ni ugushiraho ibiceri vy’inzahabu na Banki ya Amsterdam. Ivyo biceri, vyariho mu 1722, vyari bikozwe mw’ifeza. Ariko rero, icahinduye vy’ukuri ivy’ubutunzi ico gihe si Coin ubwayo, ahubwo ni amakonte ajanye n’ayo mafaranga yo muri Banki ya Amsterdam. Izo nkuru ni zo zacitse uburyo nyamukuru bwo gukoresha Exchange mpuzamakungu. Ivyo bacuruza vyandikwa gusa mu bitabo canke mu bitabu vy’amahera. Ivyo vyatumye Amsterdam iba ikibanza nyamukuru c’ubutunzi kw’isi yose. Haciye igihe, Banki y’i Amsterdam yaciye ifata ingingo yo gutegeka abantu gukoresha izo konti. Abahinduzi b’amahera bigenga basabwa gutanga Exchange ku biceri vyabo kugira ngo babike muri banki ku musi ku musi.
@@ -1520,7 +1518,7 @@ Mu ntango, Layer ya mbere y’amahera yari igereranywa n’inzahabu. Amafaranga 
 #### Ubwoba bwo mu 1796
 
 
-![image](assets/fr/071.webp)
+![image](assets/fr/074.webp)
 
 Ubwoba bwa banki muri banki y'abasirikare bo mu mazi mu gihe c'ubwoba bwo mu 1857.
 

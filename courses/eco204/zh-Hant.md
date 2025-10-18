@@ -182,8 +182,6 @@ Maravedi 作為一種銅幣，在西班牙貨幣史上佔有特殊的地位。�
 貨幣貶值是各國經常使用的一種工具，用以支付開支或刺激經濟。然而，西班牙發現自己處於一個微妙的境地。貶值西班牙元會影響其在國際貿易中的地位。為了克服這個困境，西班牙求助於 Maravedi。
 
 
-![image](assets/chapitre-2.1/6.webp)
-
 與珍貴的西班牙銀元不同，Maravedi 是一種銅幣，主要用於當地居民。這種貨幣是貶值的目標。當一張 Maravedis Coin 最初值兩個 maravedise 時，國家會收回它，重新蓋上新的價值戳記，例如「4」，然後只歸還一張 Coin 給擁有者。標有「8」戳記的 Coin 就是這個過程的明證，它經歷了數次貶值週期。
 
 
@@ -505,41 +503,41 @@ MMT 的支持者經常引用日本作為另一個例子，說明儘管大量印�
 - 瑞典將特定月份的通貨膨脹歸咎於 Beyoncé 的例子。
 
 
-![image](assets/fr/017.webp)
+![image](assets/fr/025.webp)
 
 
 
 - 波蘭央行將通貨膨脹歸咎於俄羅斯在烏克蘭的侵略和大流行病
 
 
-![image](assets/fr/025.webp)
+![image](assets/fr/026.webp)
 
 
 
 - 英國的通貨膨脹歸咎於英國脫歐。
 
 
-![image](assets/fr/026.webp)
+![image](assets/fr/027.webp)
 
 
 
 - Zelda 遊戲的發行與通貨膨脹衝擊有關。
 
 
-![image](assets/fr/027.webp)
+![image](assets/fr/028.webp)
 
 
 
 - Taylor Swift 被指造成通貨膨脹。
 
 
-![image](assets/fr/028.webp)
+![image](assets/fr/029.webp)
 
 
 告訴我，碧昂斯（Beyoncé）或泰勒-斯威夫特（Taylor Swift）怎會導致價格普遍上漲？你看，這根本說不通。簡單來說
 
 
-![image](assets/fr/029.webp)
+![image](assets/fr/030.webp)
 
 
 ### 探索通貨膨脹的類型
@@ -558,7 +556,7 @@ MMT 的支持者經常引用日本作為另一個例子，說明儘管大量印�
 - 超級通貨膨脹：惡性通貨膨脹是一種極端現象，通貨膨脹率每月超過 50%，由於通貨膨脹的指數性質，相當於年通貨膨脹率超過 13,000%。這種程度的通貨膨脹嚴重破壞經濟穩定，使貨幣幾乎一文不值，並削弱人們對貨幣系統的信心。
 
 
-![image](assets/fr/030.webp)
+![image](assets/fr/031.webp)
 
 
 在探討通貨膨脹的類型時，經常會在教育資源中遇到「需求拉動」和「成本推動」等術語。這些概念雖然有效，但傾向於解釋價格上漲，而非作為貨幣現象的通貨膨脹。以下是更深入的分析：
@@ -584,7 +582,7 @@ MMT 的支持者經常引用日本作為另一個例子，說明儘管大量印�
 Bernholz 建議將通貨膨脹簡化但精確地分為三類，以便更好地理解這個複雜的貨幣現象：
 
 
-![image](assets/fr/031.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -669,13 +667,13 @@ Bernholz 的分類突顯了從溫和通貨膨脹到惡性通貨膨脹的危險�
 Hanke-Krus 表格採用了此定義，其中記錄了 56 次惡性通貨膨脹。然而，該表並未涵蓋所有事件，例如 2016 年在委內瑞拉發生的事件，使得總數達到 57 次。
 
 
-![image](assets/fr/032.webp)
+![image](assets/fr/033.webp)
 
 
 放大
 
 
-![image](assets/fr/033.webp)
+![image](assets/fr/034.webp)
 
 
 應該注意的是，這個定義雖然精確，但由於 50%臨界值的嚴格性，可能會排除某些惡性通貨膨脹的時期。有可能擴大此定義，以包括其他雖未嚴格符合 Cagan 標準，但代表極高通貨膨脹時期的事件。這個觀點為更廣泛地探討惡性通貨膨脹現象打開了一扇大門，讓我們可以更細緻地理解其原因和影響。在接下來的討論中，我們將考慮重新檢視這個定義，並檢視 Cagan 嚴格標準未涵蓋的惡性通貨膨脹時期。
@@ -687,7 +685,7 @@ Hanke-Krus 表格採用了此定義，其中記錄了 56 次惡性通貨膨脹�
 Philip Cagan 在定義惡性通貨膨脹時，可能以每月 50% 的通貨膨脹門檻設定了一個任意的里程碑。他自己也承認這個定義是隨意的，而且主要是為了他根據七次惡性通貨膨脹所做的分析服務。檢視 Cagan 的資料可以發現，月通膨率最低的三次惡性通貨膨脹分別約為 47%、46% 和 57%。在他的研究中，50% 的臨界值似乎是為了涵蓋這些情況而選擇的。
 
 
-![image](assets/fr/034.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -710,7 +708,7 @@ Cagan 的定義可以追溯到 1956 年，並且是基於當時有限的惡性�
 Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相同的質量特徵，但卻沒有達到 50% 的臨界值。
 
 
-![image](assets/fr/035.webp)
+![image](assets/fr/036.webp)
 
 
 這種反思讓我們質疑惡性通貨膨脹傳統定義的僵化性，並強調或許需要透過納入更多的事件和歷史資料來重新檢視這個臨界值。惡性通貨膨脹的定義可能需要彈性，以涵蓋不同經濟和歷史背景下極端通貨膨脹的各種表現。
@@ -752,13 +750,13 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 三年內累積的通貨膨脹率接近 100%（每年大約 24%），與 Cagan 定義的每月 50% 通貨膨脹率形成對比。
 
 
-![image](assets/fr/036.webp)
+![image](assets/fr/037.webp)
 
 
 根據國際會計準則委員會的標準，包括阿根廷、埃塞俄比亞、海地、伊朗、黎巴嫩、蘇丹、南蘇丹、蘇里南、敘利亞、土耳其、委內瑞拉、也門和津巴布韋在內的多個國家目前正經歷著惡性通貨膨脹。
 
 
-![image](assets/fr/037.webp)
+![image](assets/fr/038.webp)
 
 
 國際會計準則委員會提供的這個定義，摒棄了 Cagan 嚴格的量化門檻，納入了對經濟行為的定性分析和面臨惡性通貨膨脹時的實際調整。它說明了惡性通貨膨脹是一個複雜的現象，需要多層面的理解才能掌握其真正的影響，特別是在會計領域，這對企業和市場的穩定性和財務透明度至關重要。
@@ -770,7 +768,7 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 惡性通貨膨脹的一般定義，例如 Cagan 提出的規定每月通貨膨脹率為 50% 的定義，有時可能會造成混淆或過於簡單化。舉例來說，兩個國家的年通膨率分別是 1,000% 和 3,000%，根據通膨率的每月分佈情況，可能會有不同的看法。根據 Cagan 的定義，如果沒有任何月份超過 50% 的臨界值，這些國家就不會被歸類為處於惡性通貨膨脹狀態。因此，這種方法可能會導致惡性通貨膨脹分類的異常現象，尤其是在比較全年累積通貨膨脹率時。
 
 
-![image](assets/fr/038.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -798,7 +796,7 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 有幾本書內容特別豐富：
 
 
-![image](assets/fr/039.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -806,7 +804,7 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 - Jérôme Gardner 和 Kudzai Joseph Gou Min-Yu 分別撰寫了兩本關於津巴布韋惡性通貨膨脹的書《津巴布韋暖心醜臉》和《Hard 煮蛋指數》，其中一位連鎖服裝店的執行長和一位農業銀行家對於他們在這段動盪時期的經歷提供了感人的見證。
 
 
-![image](assets/fr/040.webp)
+![image](assets/fr/041.webp)
 
 
 在整理筆記時，我發現津巴布韋與魏瑪共和國的惡性通貨膨脹經驗有許多相似之處，儘管兩者相隔 90 年。我發現約有 17 處相似之處，其中有 13 處說明了這些見證中所描述的經濟災難的發展過程。這些引人入勝的相似點顯示了惡性通貨膨脹跨越時間和國界的重複性和破壞性。今天，我們將檢視這些相似之處，以及它們如何描繪出惡性通貨膨脹期間令人擔憂的軌跡。
@@ -846,7 +844,7 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 
 > 津巴布韋：「中央銀行印鈔票浪費了金錢，因為這張鈔票根本不值錢。換句話說，它的價值比衛生紙還低。雖然聽起來很荒謬，但用 100 兆瓦的鈔票當廁紙要比購買真正的廁紙還要便宜"。
 
-![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
 
 
 #### 4.數錢
@@ -899,7 +897,7 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 津巴布韋：「這些行為在讓少數人致富的同時，也讓城市勞工階級和農村人口陷入貧窮。教育失去了它的價值，因為這個行業是由不需要教育或 Hard 工作來證明其合理性的人所推動的。他們所需要的只是人脈和初始資本，以開展他們容易賺錢的生意"。
 
 
-![image](assets/fr/042.webp)
+![image](assets/fr/043.webp)
 
 
 #### 8.「世界的銀行」
@@ -937,7 +935,7 @@ Weimar: "People resort to bartering and gradually turned to foreign currencies a
 津巴布韋：「政府於 2008 年 12 月 12 日提出 SI 175/2008，關於支票付款。它指出：'拒絕以支票/銀行卡或任何其他銀行中介電子付款方式付款的罰則為第 8 級罰款或 6 個月監禁，或同時處以兩種罰則。顯然，我們忽略了 SI，因為它完全脫離現實"。
 
 
-![image](assets/fr/043.webp)
+![image](assets/fr/044.webp)
 
 
 #### 11.被迫繼續開店
@@ -976,7 +974,7 @@ Weimar: "People resort to bartering and gradually turned to foreign currencies a
 ### 流程摘要
 
 
-![image](assets/fr/044.webp)
+![image](assets/fr/045.webp)
 
 
 在分析經濟軌跡時，很明顯的，當達到高通脹時，貨幣縂值就會惡化。這種貶值會導致幾種複雜的情況，包括鈔票短缺。在這種情況下，套利機會就會出現，尤其是因應 Exchange 利率的波動。因此，許多人轉而利用這種套利機會，大量投資在有形資產上，以期待未來的貨幣貶值，讓他們能以疲弱的貨幣償還債務。這種經濟環境削弱了傳統工作的吸引力，進而侵蝕了社會凝聚力。
@@ -988,7 +986,7 @@ Weimar: "People resort to bartering and gradually turned to foreign currencies a
 ### 4 惡性通貨膨脹後果的相似性
 
 
-![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 
 #### 1.石油和金屬
@@ -1059,7 +1057,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 在德國，人們普遍將通貨膨脹歸咎於美元升值，而非其本國貨幣的內在貶值。許多人認為所觀察到的現象是由於美元升值。這種觀念否定了他們對經濟困難與貨幣貶值之間的關係的認知，而貨幣貶值主要是由於過度的貨幣創造所引起的。當錢死時 "這本書清楚地說明了德國人對此缺乏了解。相比之下，津巴布韋的情況就不同了：國民完全瞭解他們所經歷的惡性通貨膨脹的根本原因。
 
 
-![image](assets/fr/046.webp)
+![image](assets/fr/047.webp)
 
 
 #### 2.緊急資金 (Notgeld)
@@ -1080,7 +1078,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 這張 Notgeld 背後的藝術家似乎是在諷刺對惡性通貨膨脹危機負責的當局。鈔票上刻有 "Necessity knows no law "的字樣。這張鈔票的另一個特殊表達方式是：「該做的事，一定要做」。
 
 
-![image](assets/fr/047.webp)
+![image](assets/fr/049.webp)
 
 
 > 「必然性不分法律」
@@ -1100,7 +1098,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 若要瞭解更多有關管理德國危機的資訊，這本書也是不可或缺的。
 
 
-![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 
 ### 當代平行
@@ -1160,7 +1158,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 殭屍公司的概念並不新鮮。事實上，殭屍公司在魏瑪共和國期間已經存在。當時，許多公司看似蒸蒸日上，主要受益於自由信貸。他們借了大筆資金，期望日後能用因通脹肆虐而貶值的貨幣償還。然而，當通貨膨脹停止，德國馬克重新貶值時，這些在營運上或財務上都無法真正生存的公司變得無利可圖，不得不關閉。
 
 
-![image](assets/fr/050.webp)
+![image](assets/fr/051.webp)
 
 
 殭屍公司的現象並不限於戰後的德國。即使在今天，許多大型企業仍能繼續茁壯成長，因為它們擁有以極低利率取得信貸的特權。如果他們必須以更常規的利率借貸，許多公司將無利可圖。在長期接近零利率的 2023 年，這一點尤其重要，因為利率現在已經開始上漲。對於這些一度被標籤為 「殭屍」 的公司來說，最近這種金融格局的轉變無疑是一個決定性的考驗。
@@ -1172,7 +1170,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 歷史揭示了一些個人尋求快速積累財富的例子，例如魏瑪和津巴布韋通過套利。今天，隨著某些加密貨幣的興起，也可以看到類似的趨勢。人們受到快速獲利的誘惑，冒著風險希望其投資呈指數級成長。這種做法讓人回想起惡性通貨膨脹時期的情況，當時人們利用套利來快速獲利，但往往是以犧牲他人利益為代價。
 
 
-![image](assets/fr/051.webp)
+![image](assets/fr/052.webp)
 
 
 #### 7.儲蓄，解決不確定性的良方
@@ -1205,7 +1203,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 在幻燈片的左邊，是重新幣值化的年份、新貨幣的名稱，以及與舊貨幣的 Exchange 兌換率。以阿根廷為例，國家比索 (peso moneda nacional) 是以 25 比 1 的匯率與舊貨幣比索 (peso reàl) 兌換而成。在此背景下，我們將研究阿根廷貨幣隨時間的演變。此外，我們還將指出每個時期紙幣的初始面額和最終面額。
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 
 幻燈片右側顯示的是通貨膨脹圖。紅色箭頭代表惡性通貨膨脹的年份，根據 Cagan 的準則，通貨膨脹率為每月 50%。此標準有時會導致模棱兩可的解釋，因為通貨膨脹率高的年份可能不符合惡性通貨膨脹的嚴格定義。
@@ -1218,7 +1216,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ### 阿根廷
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/054.webp)
 
 
 1826 年之前，阿根廷使用西班牙元。在 1816 年獨立後，它在西班牙 reàl 的基礎上推出了自己的貨幣，從而形成了類似貨幣。本表從 1881 年開始，這一年推出了 "peso moneda nacional"，紙幣最高可達 10,000。隨後推出的是 "peso ley"，兌換率為 100 比 1，鈔票最高可達 100 萬。之後，"Argentine peso "出現，其 Exchange 兌換率為 10,000 比 1（相當於去掉四個零），鈔票最高可達 10,000。1985 年，"australes "問世，兌換率為 1,000：1，鈔票最高可達 500,000。1992 年，目前的 "peso ley "以 10,000:1 的匯率兌換，再次取消了四個零。只有 1989 年和 1990 年經歷了惡性通貨膨脹。
@@ -1227,7 +1225,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ### 巴西
 
 
-![image](assets/fr/053.webp)
+![image](assets/fr/055.webp)
 
 
 巴西是貨幣重新定價的一個顯著例子，其貨幣變更的歷史就說明了這一點。在獨立之前，巴西使用葡萄牙的 reàl 作為其貨幣。然而，早在 1747 年，巴西就開始使用自己的 "Brazilian reàl"，遠遠早於其在 1822 年宣佈獨立的時間。本表從 1818 年開始，標誌著巴西開始發行紙幣。在此之前，巴西的貨幣主要是硬幣。這些紙幣的價值最高可達 100 萬雷亞爾。
@@ -1252,7 +1250,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ### 玻利維亞
 
 
-![image](assets/fr/054.webp)
+![image](assets/fr/056.webp)
 
 
 玻利維亞是另一個經歷過嚴重通貨膨脹的國家，通貨膨脹導致貨幣必須重新計價。以下是其貨幣歷史的摘要：
@@ -1275,7 +1273,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ### 秘魯
 
 
-![image](assets/fr/055.webp)
+![image](assets/fr/057.webp)
 
 
 祕魯提供了一個關於任意 50% 規則影響的有趣案例。從其貨幣歷史開始，祕魯一直使用西班牙黃金，直到 19 世紀，祕魯於 1821 年宣布獨立。祕魯元從 1822 年使用到 1863 年。1863 年，祕魯 reàl 被 soldi oro 取代，比率為 10 比 1，最高價值達到 50,000。1985 年，推出貨幣 "Inti"，兌換率為 1000 比 1，最高值為 500 萬。1991 年，推出 "SOL"，Exchange 兌換率為 1 百萬比 1，鈔票從 10 到 200 不等。
@@ -1291,7 +1289,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ### 尼加拉瓜
 
 
-![image](assets/fr/056.webp)
+![image](assets/fr/058.webp)
 
 尼加拉瓜曾在西班牙統治下，與西班牙殖民的許多其他國家一樣，最初使用西班牙元。在併入西班牙帝國、墨西哥帝國以及中美洲聯邦共和國後，尼加拉瓜宣布獨立。從 1878 年開始，比索成為該國的官方貨幣，價值在 1 到 100 之間浮動。1912 年，該國推出第一款 Cordoba，隨後在 1988 年推出第二款，在 1991 年推出第三款，至今仍在使用。第一枚 Cordoba 的價值達到 100 萬，第二枚為 1000 萬。在幾年的惡性通貨膨脹之後，於 1991 年重新幣值。
 
@@ -1299,7 +1297,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ### 委內瑞拉
 
 
-![image](assets/fr/057.webp)
+![image](assets/fr/059.webp)
 
 
 委內瑞拉是本視頻提及的最後一個國家。隨著時間的推移，委內瑞拉經歷了四次貨幣重新計價。在 1811 年宣布獨立之前，委內瑞拉早期使用西班牙元。1879 年，委內瑞拉引入玻利瓦爾作為官方貨幣，一直沿用到 1983 年，當時政府選擇了使用美元的 Exchange 浮動匯率系統。
@@ -1308,16 +1306,16 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 委內瑞拉一個值得注意的事實是它是拉丁貨幣聯盟的成員。這個聯盟包括西班牙的 5 比塞塔、希臘的 5 德拉克馬、委內瑞拉的 5 玻利瓦、意大利的 5 里拉、比利時的 5 法郎和法國的 5 法郎等錢幣。
 
 
-![image](assets/fr/058.webp)
-
-
-![image](assets/fr/059.webp)
-
-
 ![image](assets/fr/060.webp)
 
 
 ![image](assets/fr/061.webp)
+
+
+![image](assets/fr/062.webp)
+
+
+![image](assets/fr/063.webp)
 
 
 在此期間，委內瑞拉的 5 玻利瓦 Coin 與聯盟成員國的重量相同，包括義大利、西班牙、比利時和法國。這些玻利瓦由銀製成，1929 年的特定 Coin 重量為 25 克，純度為 900，即 90% 的純銀。以目前的銀價計算，這枚 Coin 約值 17 到 18 美元。
@@ -1380,7 +1378,7 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 ### 津巴布韋案例
 
 
-![image](assets/fr/062.webp)
+![image](assets/fr/064.webp)
 
 
 津巴布韋於 1980 年獲得獨立，並推出了自己的貨幣 - 津巴布韋美元。最初，2 津巴布韋元約值 1.60 美元。然而，在 1997 年，隨著有利於退伍軍人的社會措施，該貨幣在黑色星期五的一天內貶值了 72%。之後，在 21 世紀初，該國推出了土地重新分配計畫，從白人業主手中奪取土地並分配給當地居民。這項決定損害了出口，因為新業主往往缺乏管理大型農場所需的專業知識。因此，津巴布韋在 1999 年是淨出口國，但在 2003 年卻變成了淨進口國。
@@ -1389,7 +1387,7 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 2006 年，該國推出了新版貨幣 ZWN，其 Exchange 匯率為 1 比 1,000。2008 年，又推出了另一種面額的 ZWR，其 Exchange 比率為 1 比 100 億。這導致了標誌性的 100 兆鈔票的出現。
 
 
-![image](assets/fr/063.webp)
+![image](assets/fr/065.webp)
 
 
 #### 美元化與危機解決
@@ -1412,13 +1410,13 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 在我那本題為「關於 Bitcoin 的一切」的書中，我用了一整章的篇幅來描述津巴布韋的惡性通貨膨脹。我詳細介紹了重大事件，提供了各種例子，說明該國最終是如何結束惡性通貨膨脹的。
 
 
-![image](assets/fr/064.webp)
+![image](assets/fr/066.webp)
 
 
 如果您對第一次世界大戰後的德國經驗感到好奇，我強烈推薦您看漫畫書 "The Reich's Banker"。它敘述了德國如何克服惡性通貨膨脹，特別是通過創建倫敦馬克。
 
 
-![image](assets/fr/065.webp)
+![image](assets/fr/067.webp)
 
 
 主要的啟示是，有幾種策略可以克服惡性通貨膨脹。人們可以選擇美元化或推出新貨幣。只有當人民對這些解決方案有信心時，這些方案才會奏效。施加嚴格的限制是至關重要的。一個真正獨立的中央銀行是必不可少的。它不能為了彌補政府赤字而誇大貨幣Supply。在溫和通貨膨脹的情況下，限制貨幣 Supply 的增長應該就足夠了。然而，當面臨惡性通貨膨脹時，關鍵是首先要有一個與經濟規模相對應的適當的貨幣 Supply 。然後，必須對政府施加嚴格的限制，以穩定局勢。
@@ -1433,7 +1431,7 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 [Discover the scanned collection in *Bitcoin Educational Toolkit* (also accessible from *Resources* section of the Plan ₿ Network platform.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
-![image](assets/fr/072.webp)
+![image](assets/fr/068.webp)
 
 # 我們是怎麼來到這裡的？
 
@@ -1453,7 +1451,7 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 貨幣的第二個 Layer 和第一個中央銀行的出現是一個引人入勝的主題。Nick Battia 所著的《分層貨幣》一書對這個主題進行了廣泛的討論。我向那些對我們的貨幣系統的演變和複雜性感興趣的人強烈推薦這本書。本節的目的是了解貨幣創造的起源，以及它如何導致惡性通貨膨脹。
 
 
-![image](assets/fr/066.webp)
+![image](assets/fr/069.webp)
 
 
 ### 金字塔貨幣與中央銀行
@@ -1465,10 +1463,10 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 貨幣的歷史可以追溯到 13 世紀的義大利，特別是佛羅倫斯市。當時，弗羅林和 Exchange 鈔票非常普遍。其中一個顯著的例子是裝飾有施洗者聖約翰像的弗羅林。
 
 
-![image](assets/fr/067.webp)
+![image](assets/fr/070.webp)
 
 
-![image](assets/fr/068.webp)
+![image](assets/fr/071.webp)
 
 
 儘管現在擁有一枚真正的弗羅林幣非常昂貴，但仍有復製品可供選擇。當時也有其他貨幣，例如 17 世紀義大利各邦的 soldo，上面有基督的圖像。
@@ -1494,7 +1492,7 @@ Antwerp Stock Exchange 標誌著紙幣演變過程中的一個重要里程碑。
 #### VOC 與阿姆斯特丹股票市場（17 世紀）
 
 
-![image](assets/fr/069.webp)
+![image](assets/fr/072.webp)
 
 
 在安特衛普股票 Exchange 成立後，一個重要的里程碑是荷蘭東印度公司 (VOC) 的成立。這家總部設在荷蘭的公司甚至發行了自己的貨幣。VOC 成立之後，第一個股票市場在阿姆斯特丹成立，標誌著公司股票市場運作的開始。值得注意的是，荷蘭人是如何成功終結安特卫普作為國際經濟中心的霸主地位的。他們只是封鎖了通往斯海爾德河的通道。這個策略是更大的歷史運動，即乞丐起義的一部分。歐洲歷史上的一個重要事件。
@@ -1503,7 +1501,7 @@ Antwerp Stock Exchange 標誌著紙幣演變過程中的一個重要里程碑。
 #### 阿姆斯特丹銀行的介入
 
 
-![image](assets/fr/070.webp)
+![image](assets/fr/073.webp)
 
 
 隨著 VOC 的成立，貨幣史上的另一個重大發展是阿姆斯特丹銀行引入了金幣。這些錢幣可以追溯到 1722 年，當時是由銀子製成的。然而，當時真正對金融產生革命性影響的不是 Coin 本身，而是阿姆斯特丹銀行與這種貨幣相關的帳戶。這些帳戶成為國際 Exchange 的主要方式。交易被簡單地記錄在登記冊或分類簿中。多虧了這個系統，阿姆斯特丹成為了全球經濟中心。隨著時間的推移，阿姆斯特丹銀行決定強制使用這些帳戶。獨立的貨幣兌換商被要求每天將硬幣 Exchange 存入銀行。
@@ -1520,7 +1518,7 @@ Antwerp Stock Exchange 標誌著紙幣演變過程中的一個重要里程碑。
 #### 1796 年的恐慌
 
 
-![image](assets/fr/071.webp)
+![image](assets/fr/074.webp)
 
 1857 年恐慌期間海員儲蓄銀行的銀行恐慌。
 

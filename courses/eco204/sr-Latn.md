@@ -182,8 +182,6 @@ Maravedi, kao bakarna valuta, zauzima posebno mesto u istoriji španske valute. 
 Monetarna devalvacija je alat koji države često koriste za finansiranje svojih troškova ili stimulisanje ekonomije. Međutim, Španija se našla u delikatnoj situaciji. Razvodnjavanje španskog dolara bi ugrozilo njen položaj u međunarodnoj trgovini. Da bi prevazišla ovu dilemu, Španija se okrenula Maravediju.
 
 
-![image](assets/chapitre-2.1/6.webp)
-
 Za razliku od dragocenog španskog srebrnog dolara, Maravedis je bila bakarna valuta koja se uglavnom koristila unutar lokalnog stanovništva. Ova valuta je bila cilj devalvacije. Kada je Maravedis novčić prvobitno vredeo dva maravedisa, država bi ga povukla, ponovo ga žigosala novom vrednošću, na primer "četiri", i vratila vlasniku samo jedan novčić. Novčić pomenut sa žigom "osam" je dokaz ovog procesa, pošto je prošao kroz nekoliko ciklusa devalvacije.
 
 
@@ -401,6 +399,8 @@ Ova diskusija ističe važnost razumevanja osnovnih mehanizama inflacije i defla
 
 Inflacija, iako se često povezuje sa povećanjem novčane mase Supply, ne mora uvek imati direktnu korelaciju sa štampanjem novca, kao što je ilustrovano periodom nakon finansijske krize 2008. godine. Uprkos značajnom štampanju novca kako bi se spasile banke, naredna decenija nije doživela visoku inflaciju, prosečno između 0 i 2% godišnje. Ova situacija postavlja pitanje: zašto masovno štampanje novca nije rezultiralo proporcionalnom inflacijom? Odgovor leži u nekoliko nijansi vezanih za merenje inflacije i Indeks potrošačkih cena (CPI).
 
+![image](assets/fr/018.webp)
+
 Prvo objašnjenje leži u načinu na koji se meri inflacija. Indeks potrošačkih cena (CPI), koji se koristi kao glavni pokazatelj inflacije, ima određena ograničenja. Na primer, ne uzima sveobuhvatno u obzir evoluciju cena nekretnina. Iako CPI uključuje komponentu vezanu za kirije, značajno povećanje cena kuća nije u potpunosti odraženo. Kao rezultat toga, značajna povećanja troškova stanovanja mogu se desiti bez da budu u potpunosti obuhvaćena CPI-jem, što potencijalno dovodi do potcenjivanja stvarne inflacije.
 
 
@@ -500,41 +500,41 @@ Jer, kao što ovaj [thread](https://twitter.com/saifedean/status/167363977943359
 - Primer Švedske koja krivi Beyoncé za inflaciju tokom određenog meseca.
 
 
-![image](assets/fr/017.webp)
+![image](assets/fr/025.webp)
 
 
 
 - Centralna banka u Poljskoj pripisuje inflaciju ruskoj agresiji u Ukrajini i pandemiji
 
 
-![image](assets/fr/025.webp)
+![image](assets/fr/026.webp)
 
 
 
 - Brexit okrivljen za inflaciju u Ujedinjenom Kraljevstvu.
 
 
-![image](assets/fr/026.webp)
+![image](assets/fr/027.webp)
 
 
 
 - Objavljivanje Zelda igre povezano sa inflacionim šokom.
 
 
-![image](assets/fr/027.webp)
+![image](assets/fr/028.webp)
 
 
 
 - Tejlor Svift navodno izaziva inflaciju.
 
 
-![image](assets/fr/028.webp)
+![image](assets/fr/029.webp)
 
 
 Kako bi Beyoncé ili Taylor Swift, reci mi, objasnile široko rasprostranjeni rast cena? Vidiš, to nema nikakvog smisla. Ukratko:
 
 
-![image](assets/fr/029.webp)
+![image](assets/fr/030.webp)
 
 
 ### Istraživanje tipova inflacije
@@ -553,7 +553,7 @@ Ključno je razumeti razliku između različitih tipova inflacije, razumevanje k
 - Hiperinflacija: Hiperinflacija je ekstremni fenomen gde stopa inflacije prelazi 50% mesečno, što, zbog eksponencijalne prirode inflacije, odgovara godišnjoj stopi inflacije od preko 13.000%. Ovaj nivo inflacije ozbiljno destabilizuje ekonomiju, čineći valutu gotovo bezvrednom i izazivajući gubitak poverenja u monetarni sistem.
 
 
-![image](assets/fr/030.webp)
+![image](assets/fr/031.webp)
 
 
 Kada istražujete vrste inflacije, uobičajeno je naići na pojmove kao što su "Povlačenje potražnje" i "Pritisak troškova" u obrazovnim resursima. Ovi koncepti, iako validni, obično objašnjavaju povećanje cena pre nego inflaciju kao monetarni fenomen. Evo detaljnije analize:
@@ -579,7 +579,7 @@ Ova tradicionalna objašnjenja često povezuju povećanje cena sa inflacijom, š
 Bernholz predlaže pojednostavljenu, ali preciznu klasifikaciju inflacije u tri kategorije, omogućavajući bolje razumevanje ovog složenog monetarnog fenomena:
 
 
-![image](assets/fr/031.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -664,13 +664,13 @@ Na primer, ako inflacija padne na 40% u julu i ne poraste iznad 50% do jula nare
 Ova definicija je usvojena u Hanke-Krus tabeli, koja dokumentuje 56 epizoda hiperinflacije. Međutim, tabela ne pokriva sve epizode, kao što je ona u Venecueli 2016. godine, čime je ukupan broj 57.
 
 
-![image](assets/fr/032.webp)
+![image](assets/fr/033.webp)
 
 
 zum
 
 
-![image](assets/fr/033.webp)
+![image](assets/fr/034.webp)
 
 Treba napomenuti da ova definicija, iako precizna, može eventualno isključiti određene epizode hiperinflacije zbog strogosti praga od 50%. Postoji mogućnost proširenja ove definicije kako bi se uključile druge epizode koje, iako ne ispunjavaju strogo Caganove kriterijume, ipak predstavljaju periode izuzetno visoke inflacije. Ovo zapažanje otvara vrata širem istraživanju fenomena hiperinflacije, omogućavajući nijansiranije razumevanje njegovih uzroka i efekata. U narednim diskusijama razmotrićemo ponovno razmatranje ove definicije i ispitivanje epizoda hiperinflacije koje nisu obuhvaćene Caganovim strogim kriterijumima.
 
@@ -681,7 +681,7 @@ Treba napomenuti da ova definicija, iako precizna, može eventualno isključiti 
 Philip Cagan je možda postavio proizvoljnu granicu sa pragom mesečne inflacije od 50% prilikom definisanja hiperinflacije. On sam priznaje da je ova definicija proizvoljna i da je prvenstveno služila njegovoj analizi zasnovanoj na sedam epizoda hiperinflacije. Ispitivanje Caganovih podataka otkriva da su tri epizode hiperinflacije sa najnižim stopama mesečne inflacije bile oko 47%, 46% i 57%. Izgleda da je prag od 50% izabran kako bi obuhvatio ove slučajeve u njegovoj studiji.
 
 
-![image](assets/fr/034.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -704,21 +704,42 @@ Drugi ekonomisti, kao što je Bernholz, autor knjige Monetary Regime and Inflati
 Bernholz primećuje da postoje epizode visoke inflacije sa istim kvalitativnim karakteristikama kao epizode hiperinflacije, bez dostizanja praga od 50%.
 
 
-![image](assets/fr/035.webp)
+![image](assets/fr/036.webp)
+Ova refleksija nas dovodi do pitanja o krutosti tradicionalne definicije hiperinfacije i naglašava potrebu da se možda preispita ova granica, uključujući više epizoda i istorijskih podataka. Definicija hiperinfacije može zahtevati fleksibilnost kako bi obuhvatila različite manifestacije ekstremne inflacije u različitim ekonomskim i istorijskim kontekstima.
 
+### Definicija Hiperinfacije Prema Međunarodnom Savetu za Računovodstvene Standarde (IASB)
 
-Ovo razmišljanje nas navodi da preispitamo rigidnost tradicionalne definicije hiperinflacije i ističe potrebu da možda ponovo razmotrimo ovaj prag uključivanjem više epizoda i istorijskih podataka. Definicija hiperinflacije može zahtevati fleksibilnost kako bi obuhvatila različite manifestacije ekstremne inflacije u različitim ekonomskim i istorijskim kontekstima.
+IASB nudi jedinstvenu perspektivu na hiperinfaciju, fokusirajući se na računovodstvene prakse tokom perioda hiperinfacije. Ovaj pristup je od suštinske važnosti za računovođe i preduzeća koja rade u okruženjima hiperinfacije, gde moneterna vrednost brzo fluktuira. Uputstva IASB identifikuju različite indikatore hiperinfacije:
 
+- **Preferencija za Nemonetarne Aktive:**  
+  Pojedinci više vole da čuvaju vrednost u robama nego u novcu, zbog rapidnog deprecijacije novčane vrednosti.
 
-### Definicija hiperinflacije prema Međunarodnom odboru za računovodstvene standarde (IASB)
+- **Procena Roba i Usluga:**  
+  Stanovnici ne procenjuju vrednost roba i usluga u lokalnoj valuti, što odražava gubitak poverenja u lokalnu valutu.
 
+- **Kompenzacija za Gubitak Novčane Vrednosti:**  
+  Cene uključuju kompenzaciju za gubitak novčane vrednosti prilikom kupovine na kredit, ilustrujući uticaj inflacije na svakodnevne transakcije.
 
-Dakle, koliko ukupno ima slučajeva hiperinflacije?
+- **Indeksacija Cena, Plata i Kamata:**  
+  Cene, plate i kamate se prilagođavaju prema indeksu kako bi se kompenzovala inflacija.
 
-Uobičajene definicije hiperinflacije, kao što je ona koju je predložio Cagan sa mesečnom stopom inflacije od 50%, ponekad mogu biti zbunjujuće ili previše pojednostavljene. Na primer, dve zemlje koje imaju godišnje stope inflacije od 1.000% i 3.000% mogu biti različito percipirane u zavisnosti od mesečne raspodele te inflacije. Ako nijedan mesec ne prelazi prag od 50%, prema Caganovoj definiciji, te zemlje ne bi bile u stanju hiperinflacije. Ovakav pristup može dovesti do anomalija u klasifikaciji hiperinflacije, posebno kada se upoređuju kumulativne inflacije tokom godine.
+- **Kumulativna Inflacija Tokom Tri Godine:**  
+  Kumulativna inflacija tokom tri godine približava se 100% (oko 24% godišnje), u kontrastu sa Caganovom definicijom od 50% mesečne inflacije.
 
+![image](assets/fr/037.webp)
+
+Prema kriterijumima IASB, nekoliko zemalja, uključujući Argentinu, Etiopiju, Haiti, Iran, Liban, Sudan, Južni Sudan, Surinam, Siriju, Tursku, Venecuelu, Jemen i Zimbabve, trenutno se nalazi u periodu hiperinfacije.
 
 ![image](assets/fr/038.webp)
+
+Ova definicija koju pruža IASB se udaljava od strogog kvantitativnog praga koji je predložio Cagan, uključujući kvalitativnu analizu ekonomskih ponašanja i praktičnih prilagođavanja u uslovima hiperinfacije. Ona pokazuje da je hiperinfacija kompleksna pojava koja zahteva multidimenzionalno razumevanje kako bi se shvatile njene prave implikacije, naročito u oblasti računovodstva koja je ključna za stabilnost i finansijsku transparentnost preduzeća i tržišta.
+
+### Dakle, koliko hiperinfacije u ukupnom?
+
+Uobičajene definicije hiperinfacije, kao što je ona koju je predložio Cagan, koja predstavlja mesečnu inflaciju od 50%, ponekad mogu biti zbunjujuće ili previše pojednostavljene. Na primer, dve zemlje koje imaju godišnje stope inflacije od 1000% i 3000% mogu se različito percipirati u zavisnosti od mesečne raspodele te inflacije. Ako nijedan mesec ne premaši prag od 50%, prema Caganovoj definiciji, te zemlje ne bi bile u stanju hiperinfacije. Ovaj pristup može, dakle, dovesti do anomalija u klasifikaciji hiperinfacije, posebno kada se upoređuju kumulativne inflacije tokom godine.
+
+
+![image](assets/fr/039.webp)
 
 
 
@@ -746,14 +767,14 @@ U ovom poglavlju ćemo istražiti uticaje hiperinflacije, fokusirajući se na sl
 Nekoliko knjiga je bilo posebno informativno:
 
 
-![image](assets/fr/039.webp)
+![image](assets/fr/040.webp)
 
 
 
 - "Kada novac umire" Adama Fergusona, prati hiperinflaciju u Nemačkoj posle Prvog svetskog rata, kao i u Austriji i Mađarskoj.
 - Dve knjige o hiperinflaciji u Zimbabveu, "Zimbabwe Warm Heart Ugly Face" i "Hard Boiled Egg Index" autora Jérôme Gardner i Kudzai Joseph Gou Min-Yu, nude dirljiva svedočanstva direktora lanca prodavnica odeće i bankara u poljoprivredi o njihovim iskustvima tokom ovog burnog perioda.
 
-![image](assets/fr/040.webp)
+![image](assets/fr/041.webp)
 
 
 Dok konsolidujem svoje beleške, primetio sam brojne sličnosti između iskustava hiperinflacije u Zimbabveu i Vajmarskoj Republici, uprkos razmaku od 90 godina između njih. Identifikovao sam oko 17 sličnosti, od kojih 13 ilustruju neku vrstu progresije ka ekonomskoj katastrofi prikazanoj u ovim svedočenjima. Ove fascinantne paralele pokazuju ponavljajuću i razarajuću prirodu hiperinflacije kroz vreme i granice. Danas ćemo ispitati te sličnosti i kako one prikazuju zabrinjavajuću putanju tokom perioda hiperinflacije.
@@ -793,7 +814,7 @@ U određenim ekonomskim okolnostima, intrinzična vrednost novčanice može post
 
 > Zimbabve: "Centralna banka je protraćila novac štampajući novčanicu koja nije vredela ni papira na kojem je odštampana. Drugim rečima, njena vrednost je bila niža od vrednosti toalet papira. Koliko god apsurdno zvučalo, bilo je jeftinije koristiti novčanicu od 100 triliona ZWD kao toalet papir nego kupiti pravi toalet papir."
 
-![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
 
 
 #### 4. Prebrojavanje novca
@@ -846,7 +867,7 @@ Weimar: "Kako su stare vrline štedljivosti, poštenja i Hard rada izgubile priv
 Zimbabve: "Ove prakse, iako su obogatile nekolicinu pojedinaca, osiromašile su urbanu radničku klasu i ruralno stanovništvo. Obrazovanje je izgubilo svoju vrednost, jer je ovu trgovinu pokretala grupa ljudi kojima obrazovanje ili Hard rad nisu bili potrebni da bi je opravdali. Sve što im je bilo potrebno bile su veze i početni kapital da započnu svoj posao lakog novca."
 
 
-![image](assets/fr/042.webp)
+![image](assets/fr/043.webp)
 
 
 #### 8. "Banke sveta"
@@ -884,7 +905,7 @@ Weimar: "Trgovci su nedavno bili primorani novim dekretom da prihvate državne n
 Zimbabve: "Vlada je uvela SI 175/2008 12. decembra 2008. godine, u vezi sa plaćanjem čekom. U njemu je navedeno, 'Kazna za odbijanje plaćanja čekom/bankovnom karticom ili bilo kojim drugim elektronskim načinom plaćanja posredstvom banke biće kazna nivoa 8 ili zatvorska kazna od šest meseci ili oboje.' Očigledno, ignorisali smo SI jer je bio potpuno van dodira sa stvarnošću."
 
 
-![image](assets/fr/043.webp)
+![image](assets/fr/044.webp)
 
 
 #### 11. Primorani da drže svoje prodavnice otvorene
@@ -922,7 +943,7 @@ Užurbana kupovina stranih valuta često je označavala kritičnu prekretnicu u 
 ### Rezime procesa
 
 
-![image](assets/fr/044.webp)
+![image](assets/fr/045.webp)
 
 
 Kada se analizira ekonomska putanja, očigledno je da kada se dostigne visoka inflacija, vrednost monetarne mase se pogoršava. Ovo obezvređivanje dovodi do nekoliko komplikacija, uključujući nedostatak novčanica. U ovom kontekstu, pojavljuju se mogućnosti arbitraže, posebno sa fluktuacijama stope Exchange. Kao rezultat toga, mnogi pojedinci se okreću ovoj arbitraži, intenzivno ulažući u opipljivu imovinu u očekivanju buduće devalvacije valute koja bi im omogućila da otplate svoje dugove oslabljenom valutom. Ovakvo ekonomsko okruženje podriva privlačnost tradicionalnih poslova i, posledično, narušava društvenu koheziju.
@@ -934,7 +955,7 @@ Kao odgovor na ovu situaciju, vlada uvodi drakonske propise, uključujući kontr
 ### 4 Sličnosti u posledicama hiperinflacije
 
 
-![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 
 #### 1. Nafta i metali
@@ -992,7 +1013,7 @@ U ovom poglavlju istražićemo razlike i savremene paralele između prošlih i s
 U Nemačkoj je bilo uobičajeno da stanovništvo pripisuje inflaciju rastu dolara, a ne intrinzičnoj devalvaciji sopstvene valute. Mnogi su verovali da je posmatrani fenomen posledica aprecijacije dolara. Ova percepcija je odbacivala bilo kakvo priznanje veze između njihovih ekonomskih poteškoća i monetarne devalvacije, uglavnom izazvane prekomernim stvaranjem novca. Knjiga "When Money Dies" jasno ilustruje ovaj nedostatak razumevanja među nemačkim stanovništvom. Nasuprot tome, u Zimbabveu je situacija bila drugačija: građani su bili potpuno svesni osnovnog uzroka hiperinflacije koju su doživljavali.
 
 
-![image](assets/fr/046.webp)
+![image](assets/fr/047.webp)
 
 
 #### 2. Nužni novac (Notgeld)
@@ -1013,7 +1034,7 @@ Među Notgeldom, jedna posebna novčanica se ističe. Prikazuje dirljivu ilustra
 Umjetnik iza ovog Notgelda čini se da pravi ironičnu kritiku vlasti odgovornih za krizu hiperinflacije. Novčanica nosi natpis "Nužda zakon ne poznaje". Drugi izraz specifičan za lokalitet porijekla Notgelda kaže: "Što se mora, mora se".
 
 
-![image](assets/fr/047.webp)
+![image](assets/fr/049.webp)
 
 
 > "nužda zakon menja"
@@ -1033,7 +1054,7 @@ U Vajmaru su neki dugovi revalorizovani kako bi se nadoknadio uticaj inflacije. 
 Da biste saznali više o upravljanju nemačkom krizom, ova knjiga je takođe neophodna.
 
 
-![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 
 ### Savremene Paralele
@@ -1087,7 +1108,7 @@ Zombi kompanija je preduzeće koje bi, u normalnim tržišnim uslovima, bilo nes
 
 Ovaj pojam nije nov. Zaista, bio je prisutan i u Vajmarskoj Republici. U to vreme, mnoge kompanije su izgledale kao da cvetaju, obilno koristeći besplatan kredit. Pozajmljivale su značajne sume uz očekivanje da će ih vratiti obezvređenom valutom usled galopirajuće inflacije. Međutim, kada je inflacija prestala i nemačka marka povratila vrednost, ta preduzeća, koja nisu bila istinski održiva ni operativno ni finansijski, postala su neprofitabilna i morala su zatvoriti svoja vrata.
 
-![image](assets/fr/050.webp)
+![image](assets/fr/051.webp)
 
 Fenomen zombi kompanija nije ograničen na istoriju posleratne Nemačke. I danas mnoge velike firme opstaju zahvaljujući privilegovanom pristupu kreditima sa veoma niskim kamatnim stopama. Kada bi morale da pozajmljuju po uobičajenijim stopama, mnoge bi prestale da budu profitabilne. To je naročito relevantno 2023. godine, jer su nakon dugog perioda skoro nultih kamatnih stopa, one počele da rastu. Ova nedavna promena u finansijskom pejzažu verovatno će biti odlučujući test za te nekadašnje „zombi“ kompanije.
 
@@ -1095,7 +1116,7 @@ Fenomen zombi kompanija nije ograničen na istoriju posleratne Nemačke. I danas
 
 U istoriji se mogu uočiti trenuci kada su ljudi želeli brzo da se obogate, kao što je bio slučaj u Vajmaru i Zimbabveu kroz arbitražu. Danas primećujemo sličan trend sa pojavom određenih kriptovaluta. Ljude privlače brze zarade: rizikuju u nadi da će njihov ulog višestruko porasti. Ovakav pristup podseća na ponašanje u periodima hiperinflacije, kada se arbitraža koristila za brzu dobit, često na štetu drugih.
 
-![image](assets/fr/051.webp)
+![image](assets/fr/052.webp)
 
 #### 7. Štednja — lek protiv neizvesnosti
 
@@ -1123,7 +1144,7 @@ Sada ćemo pogledati različite periode redenominacije u latinoameričkim zemlja
 Na slajdu, sa leve strane, nalaze se godine redenominacije, naziv nove valute i Exchange kurs sa starom valutom. Uzimajući primer Argentine, peso moneda nacional je konvertovan po kursu 25 prema 1 iz prethodne valute, peso real. U ovom kontekstu, ispitaćemo evoluciju argentinske valute tokom vremena. Takođe, naznačićemo početne i krajnje denominacije novčanica za svaki period.
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 
 Na desnoj strani slajda nalazi se grafikon inflacije. Crvene strelice predstavljaju godine hiperinflacije, definisane prema Caganovom kriterijumu kao stopa inflacije od 50% mesečno. Ovaj kriterijum ponekad može dovesti do dvosmislenih interpretacija, sa godinama koje imaju visoke stope inflacije, ali ne ispunjavaju strogu definiciju hiperinflacije.
@@ -1136,7 +1157,7 @@ Nakon Argentine, naša studija će obuhvatiti Brazil, Boliviju, Peru, Nikaragvu 
 ### Argentina
 
 
-![image](assets/fr/052.webp)
+![image](assets/fr/054.webp)
 
 
 Pre 1826. Argentina je koristila španski dolar. Nakon sticanja nezavisnosti 1816. godine, uvela je sopstvenu valutu zasnovanu na španskom realu, što je rezultiralo stvaranjem slične valute. Tabela počinje 1881. godine, godinom uvođenja "peso moneda nacional" sa novčanicama do 10.000. Nakon toga je usledio "peso ley," koji je menjan po kursu 100 prema 1 i sa novčanicama do milion. Zatim je stigao "argentinski peso" sa Exchange kursom od 10.000 prema 1 (što je ekvivalentno uklanjanju četiri nule), i novčanicama do 10.000. Godine 1985. uveden je "australes" i menjan po kursu 1.000 prema 1, sa novčanicama do 500.000. Godine 1992. uspostavljen je trenutni "peso ley" po kursu 10.000 prema 1, ponovo uklanjajući četiri nule. Samo su godine 1989. i 1990. doživele hiperinflaciju.
@@ -1145,7 +1166,7 @@ Pre 1826. Argentina je koristila španski dolar. Nakon sticanja nezavisnosti 181
 ### Brazil
 
 
-![image](assets/fr/053.webp)
+![image](assets/fr/055.webp)
 
 
 Brazil je emblematičan slučaj monetarne redenominacije, što ilustruje njegova istorija promena valuta. Pre svoje nezavisnosti, Brazil je koristio portugalski real. Međutim, već 1747. godine, zemlja je počela da koristi sopstveni "brazilski real," mnogo pre proglašenja nezavisnosti 1822. godine. Tabela počinje 1818. godine, označavajući početak izdavanja brazilskih novčanica. Pre toga, valuta je uglavnom bila u obliku kovanica. Ove novčanice su dostizale vrednosti do jednog miliona reala.
@@ -1170,7 +1191,7 @@ Najviša denominacija novčanice dostigla je 500,000, a poslednja redenominacija
 ### Bolivija
 
 
-![image](assets/fr/054.webp)
+![image](assets/fr/056.webp)
 
 
 Bolivija je još jedan primer zemlje koja je prošla kroz periode akutne inflacije, zahtevajući redenominaciju valute. Ovde je sažetak njene monetarne istorije:
@@ -1193,7 +1214,7 @@ To je pregled burne monetarne istorije Bolivije, obeležene periodima hiperinfla
 ### Peru
 
 
-![image](assets/fr/055.webp)
+![image](assets/fr/057.webp)
 
 
 Peru predstavlja zanimljiv slučaj u vezi sa efektima proizvoljnog pravila od 50%. Počevši od svoje monetarne istorije, Peru je koristio špansko zlato do 19. veka i proglasio svoju nezavisnost 1821. Peruanski dolar je bio u upotrebi od 1822. do 1863. Godine 1863, peruanski real je zamenjen soldi oro, po kursu od 10 prema 1, dostigavši maksimalnu vrednost od 50,000. Godine 1985, uvedena je valuta "Inti" sa konverzionim kursom od 1000 prema 1, dostigavši vrhunac od 5 miliona. Godine 1991, lansiran je "SOL" sa Exchange kursom od 1 milion prema 1, sa novčanicama u rasponu od 10 do 200.
@@ -1209,7 +1230,7 @@ Ispitujući periode redenominacije, 1988. se smatra godinom hiperinflacije, pose
 ### Nikaragva
 
 
-![image](assets/fr/056.webp)
+![image](assets/fr/058.webp)
 
 Nikaragva, nekada pod španskom vlašću, u početku je koristila španski dolar, kao i mnoge druge zemlje kolonizovane od strane Španije. Nakon što je bila deo Španskog carstva, Meksičkog carstva, a zatim i Savezne Republike Centralne Amerike, Nikaragva je proglasila svoju nezavisnost. Počevši od 1878. godine, pezo je postao zvanična valuta zemlje, sa vrednostima koje su varirale između 1 i 100. Godine 1912. zemlja je uvela prvu kordobu, zatim drugu 1988. i treću 1991. godine, koja je i dalje u upotrebi danas. Prva kordoba dostigla je vrednost od 1 milion, a druga 10 miliona. Redenominacija 1991. godine usledila je nakon nekoliko godina hiperinflacije.
 
@@ -1217,7 +1238,7 @@ Nikaragva, nekada pod španskom vlašću, u početku je koristila španski dolar
 ### Venecuela
 
 
-![image](assets/fr/057.webp)
+![image](assets/fr/059.webp)
 
 
 Venecuela je poslednja zemlja pomenuta u ovom videu. Zemlja je prošla kroz četiri redenominacije valute tokom vremena. U svojim ranim danima, Venecuela je koristila španski dolar pre nego što je proglasila nezavisnost 1811. godine. Godine 1879. uvela je bolivar kao zvaničnu valutu, koja je ostala na snazi do 1983. godine, kada se vlada odlučila za plutajući Exchange kurs dolara.
@@ -1226,16 +1247,16 @@ Venecuela je poslednja zemlja pomenuta u ovom videu. Zemlja je prošla kroz čet
 Značajna činjenica o Venecueli je njeno članstvo u Latinskoj monetarnoj uniji. Ova unija je uključivala kovanice kao što su 5 pezeta iz Španije, 5 drahmi iz Grčke, 5 bolivara iz Venecuele, 5 lira iz Italije, 5 belgijskih franaka i 5 francuskih franaka.
 
 
-![image](assets/fr/058.webp)
-
-
-![image](assets/fr/059.webp)
-
-
 ![image](assets/fr/060.webp)
 
 
 ![image](assets/fr/061.webp)
+
+
+![image](assets/fr/062.webp)
+
+
+![image](assets/fr/063.webp)
 
 
 Tokom ovog perioda, kovanica od 5 bolivara iz Venecuele imala je istu težinu kao one iz zemalja članica Unije, uključujući Italiju, Španiju, Belgiju i Francusku. Ovi bolivari su bili napravljeni od srebra, sa specifičnom kovanicom iz 1929. godine koja je težila 25 grama i imala čistoću od 900, ili 90% čistog srebra. Sa trenutnom cenom srebra, ova kovanica vredi približno 17 do 18 američkih dolara.
@@ -1298,7 +1319,7 @@ Jedan zanimljiv aspekt koji je istakao Bernholz je da uspeh monetarne reforme za
 ### Slučaj Zimbabvea
 
 
-![image](assets/fr/062.webp)
+![image](assets/fr/064.webp)
 
 
 Zimbabve je stekao nezavisnost 1980. godine i uveo zimbabveanski dolar. U početku, dva zimbabveanska dolara vredela su oko 1,60 američkih dolara. Međutim, 1997. godine, nakon socijalnih mera u korist ratnih veterana, valuta je devalvirala za 72% u jednom danu tokom Crnog petka. Zatim, početkom 2000-ih, zemlja je pokrenula program preraspodele zemljišta, oduzimajući zemlju belim vlasnicima i dajući je lokalnom stanovništvu. Ova odluka je naštetila izvozu jer novi vlasnici često nisu imali potrebno znanje za upravljanje velikim farmama. Kao rezultat toga, dok je Zimbabve bio neto izvoznik 1999. godine, postao je neto uvoznik 2003. godine.
@@ -1307,7 +1328,7 @@ Zimbabve je stekao nezavisnost 1980. godine i uveo zimbabveanski dolar. U počet
 Godine 2006, zemlja je uvela novu verziju svoje valute, ZWN, sa Exchange kursom od 1 prema 1.000. Godine 2008, uvedena je još jedna denominacija, ZWR, sa Exchange kursom od 1 prema 10 milijardi. Ovo je dovelo do stvaranja ikoničnih novčanica od 100 triliona.
 
 
-![image](assets/fr/063.webp)
+![image](assets/fr/065.webp)
 
 
 #### Dolarizacija & Rešavanje Krize
@@ -1330,13 +1351,13 @@ Zabrinjavajuće je primetiti da je Zimbabve od tada pokušao da ponovo uvede sop
 U svojoj knjizi pod naslovom "Sve o Bitcoin", posvetio sam čitavo poglavlje hiperinflaciji u Zimbabveu. Detaljno opisujem značajne događaje, pružajući razne primere koji ilustruju kako je zemlja na kraju zaustavila hiperinflaciju.
 
 
-![image](assets/fr/064.webp)
+![image](assets/fr/066.webp)
 
 
 Za one koji su znatiželjni o nemačkom iskustvu posle Prvog svetskog rata, toplo preporučujem strip "Bankar Rajha." Pripoveda kako je Nemačka uspela da prevaziđe hiperinflaciju, posebno kroz stvaranje Rentenmarke.
 
 
-![image](assets/fr/065.webp)
+![image](assets/fr/067.webp)
 
 
 Ključna poruka je da postoji nekoliko strategija za prevazilaženje hiperinflacije. Može se odlučiti za dolarizaciju ili uvođenje nove valute. Ova rešenja će funkcionisati samo ako stanovništvo ima poverenje u njih. Ključno je nametnuti stroga ograničenja. Zaista nezavisna centralna banka je neophodna. Ne sme inflacionirati novac Supply kako bi pokrila državne deficite. U slučaju blage inflacije, ograničavanje rasta novca Supply bi trebalo biti dovoljno. Međutim, kada se suočava sa hiperinflacijom, ključno je prvo imati odgovarajući novac Supply za veličinu ekonomije o kojoj je reč. Zatim, imperativ je nametnuti stroga ograničenja vladi kako bi se stabilizovala situacija.
@@ -1351,7 +1372,7 @@ Ključna poruka je da postoji nekoliko strategija za prevazilaženje hiperinflac
 [Otkrijte skeniranu kolekciju u *Bitcoin Educational Toolkit* (takođe dostupno iz odeljka *Resursi* na Plan ₿ Network platformi.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
-![slika](assets/fr/072.webp)
+![slika](assets/fr/068.webp)
 # Kako smo stigli ovde?
 
 
@@ -1370,7 +1391,7 @@ Transkript:
 Pojava druge Layer novca i prvih centralnih banaka je fascinantna tema. Ova tema je detaljno obrađena u knjizi "Layered Money" autora Nick Battia. Toplo je preporučujem svima koji su zainteresovani za evoluciju i složenosti naših monetarnih sistema. Cilj ovog dela je da se razume poreklo stvaranja novca i kako bi to moglo dovesti do hiperinflacije.
 
 
-![image](assets/fr/066.webp)
+![image](assets/fr/069.webp)
 
 
 ### Piramidalni novac i centralne banke
@@ -1382,10 +1403,10 @@ Pojava druge Layer novca i prvih centralnih banaka je fascinantna tema. Ova tema
 Istorija novca datira iz Italije 13. veka, tačnije Firence. U to vreme, florin i računi Exchange su bili uobičajeni. Značajan primer je florin, ukrašen likom Svetog Jovana Krstitelja.
 
 
-![image](assets/fr/067.webp)
+![image](assets/fr/070.webp)
 
 
-![image](assets/fr/068.webp)
+![image](assets/fr/071.webp)
 
 
 Iako je danas posedovanje pravog florina skupo, dostupne su reprodukcije. Postoje i druge valute iz tog vremena, kao što je soldo iz italijanskih država 17. veka, koji prikazuje lik Hrista.
@@ -1411,7 +1432,7 @@ Ovaj koncept, iako je povezan sa Nick Bellom preko njegovog Twitter pseudonima "
 #### VOC i Amsterdamska berza (17. vek)
 
 
-![image](assets/fr/069.webp)
+![image](assets/fr/072.webp)
 
 
 Nakon Antwerp Stock Exchange, važna prekretnica bila je osnivanje VOC-a, Holandske istočnoindijske kompanije. Ova kompanija, sa sedištem u Holandiji, čak je izdala sopstvenu valutu. Nakon stvaranja VOC-a, prva berza je osnovana u Amsterdamu, postavši prva berza za ovu kompaniju. Zanimljivo je kako su Holanđani uspeli da okončaju nadmoć Antverpena kao međunarodnog ekonomskog centra. Jednostavno su blokirali pristup reci Šeldi. Ova strategija bila je deo šireg istorijskog pokreta, pobune prosjaka. Ključni događaj u evropskoj istoriji.
@@ -1420,7 +1441,7 @@ Nakon Antwerp Stock Exchange, važna prekretnica bila je osnivanje VOC-a, Holand
 #### Intervencija Banke Amsterdama
 
 
-![image](assets/fr/070.webp)
+![image](assets/fr/073.webp)
 
 
 Nakon stvaranja VOC-a, još jedan značajan element u monetarnoj istoriji bilo je uvođenje zlatnika od strane Banke Amsterdama. Ovi novčići, koji datiraju iz 1722. godine, bili su napravljeni od srebra. Međutim, ono što je zaista revolucionisalo finansije u to vreme nije bio toliko sam novčić, već računi povezani sa ovom valutom u Banci Amsterdama. Ovi računi su postali primarno sredstvo međunarodnog Exchange. Transakcije su jednostavno beležene u registrima ili knjigama. Zahvaljujući ovom sistemu, Amsterdam je postao globalni ekonomski centar. Vremenom, Banka Amsterdama je odlučila da nametne korišćenje ovih računa. Nezavisni menjači novca su bili obavezni da svakodnevno Exchange svoje novčiće za depozite u banci.
@@ -1437,7 +1458,7 @@ U početku, prvi Layer valute bio je predstavljen zlatom. Depoziti kod privatnih
 #### Panika iz 1796.
 
 
-![image](assets/fr/071.webp)
+![image](assets/fr/074.webp)
 
 Panika u banci Seamen's Savings Bank tokom Panike 1857. godine.
 

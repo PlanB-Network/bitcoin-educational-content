@@ -25,6 +25,8 @@ Renessanssista valistukseen kurssi tutkii vapauden nousua, jota leimasivat uskon
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Tervetuloa PHI201-kurssille!
 
 Tämä kurssi kutsuu sinut tutkimaan vapauden kehitystä historian läpi analysoimalla suuria ajatussuuntauksia, jotka ovat muokanneet sitä. Tulet huomaamaan, kuinka vapauden käsite on rakentunut vuosisatojen aikana, joko vallan vastustuksena tai sen kanssa yhteistyössä, historiallisella matkalla antiikista nykypäivän keskusteluihin.
@@ -56,6 +58,8 @@ Oletko valmis aloittamaan tämän ainutlaatuisen filosofisen matkan vapauden ets
 ## On vain kaksi poliittista filosofiaa
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Miksi tämä kurssi on nimetty vapauden historiaksi? Koska meidän on ymmärrettävä ideoiden ja tapahtumien välinen suhde, jotta voimme paremmin arvioida aikaamme ja toimia harkiten. Menneisyydestä löydämme elementit, jotka auttavat meitä ymmärtämään paremmin, mitä vapaus on ja miksi meidän tulee arvostaa sitä.
 
@@ -112,6 +116,8 @@ Tästä näkökulmasta lainsäätäjän tehtävä on järjestää, muuttaa, jopa
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 Kun avaa oppikirjoja, Bastiat huomautti, oppii, että ihmiskunta olisi tuomittu tyhjyyteen ilman vallan väliintuloa:
 
 > "Riittää, että avaa melkein sattumanvaraisesti filosofian, politiikan tai historian kirjan nähdäkseen, kuinka syvään juurtunut on meidän maassamme tämä ajatus, joka on saanut alkunsa klassisista opinnoista ja on sosialismin äiti, että ihmiskunta on inertti aine, joka saa vallalta elämän, järjestelyn, moraalin ja vaurauden; — tai pahempi, että ihmiskunta itse pyrkii kohti omaa alennustilaansa ja vain lainsäätäjän mysteerinen käsi pysäyttää sen tällä liukkaalla rinteellä." ([_Laki_](http://bastiat.org/fr/la_loi.html)).
@@ -167,6 +173,8 @@ Muutama päivä ennen kuolemaansa Roomassa vuonna 1850 Bastiat uskoi ystävälle
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 Tiedetään, historiaa kirjoittavat voittajat. Huomio keskittyy usein vallan valloitukseen, vallassa olevien johtajien elämään ja konflikteihin, jotka heillä on niiden kanssa, jotka haluavat ottaa heidän paikkansa.
 
 ![kuva](assets/fi/010.webp)
@@ -207,6 +215,8 @@ Tämä teesi löytyy myös monumentaalisesta teoksesta vuodelta 1983: _Laki ja v
 ## Marx: Historia luokkataisteluna
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Toinen näkökulma historiaan on kuitenkin olemassa. Se on ollut varsin menestyksekäs ja nauttinut pitkään Länsimaiden älymystön ja Etelän maiden edustajien tuesta. Kyseessä on sosialistinen ja marxilainen historianäkemys.
 ![kuva](assets/fi/013.webp)
@@ -270,6 +280,8 @@ Juuri tämä radikaalisti hajautettu Eurooppa synnytti parlamentit, valtiopäiv�
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 _Anatomy of the State_ -teoksen viimeisessä luvussa (käännetty ranskaksi nimellä _L’anatomie de l’Etat_, Résurgence editions), Murray Rothbard esittää historian teorian. Tämä hyvin lyhyt luku on otsikoitu: Historia, kilpajuoksu valtion vallan ja sosiaalisen vallan välillä. Rothbardin mukaan historiaa voidaan ymmärtää ikuiseksi konfliktiksi kahden perusperiaatteen välillä:
 
 ![kuva](assets/fi/017.webp)
@@ -323,6 +335,8 @@ Ja hän lisää:
 ## Kriittisen rationalismin keksiminen kreikkalaisten toimesta
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 Ateenalaisen demokratian kokemus on jättänyt pysyvän jäljen poliittisen ajattelun historiaan ja jatkaa demokratian ja kansalaisosallistumisen ihanteiden inspiroimista tämän päivän maailmassa.
 ![kuva](assets/fi/020.webp)
@@ -412,6 +426,8 @@ Ainoa keino, jolla voimme lähestyä totuutta, ovat kritiikki ja keskustelu. Ant
 ## Lain keksiminen roomalaisilla
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 Rooman valtakunta oli laaja kosmopoliittinen kokonaisuus. Sen huipulla, noin vuonna 117 jaa., se oli valtava monietninen ja monikielinen valtio:
 
@@ -512,6 +528,8 @@ Väittäessään, että lakia ei voida pelkistää pelkästään lainsäätäjä
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Miksi Rooma heikkeni ja lopulta tuhoutui? Monet haluavat ajatella, että Rooman valtakunta romahti äkillisesti, barbaarien hyökkäysten vaikutuksesta. Kuitenkin Rooman valtakunnan tuhon syyt löytyvät paljon aikaisemmin, imperialismista sekä taloudellisesta ja rahapoliittisesta ohjauksesta.
 
 
@@ -583,6 +601,8 @@ Ja hän lisää:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 Kristillinen vapauden ajatus kehittyi keskiajan teologiassa Pyhästä Augustinuksesta 300-luvulla Pyhään Tuomas Akvinolaiseen 1200-luvulla. Mikä on tämä ajatus?
 
 ![image](assets/fi/037.webp)
@@ -632,6 +652,8 @@ Pyhän Tuomaan mukaan:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 Keskiajalla järki ja usko kilpailevat pääsystä totuuteen. Abélardin ja Albertus Magnuksen jälkeen Tuomas Akvinolainen, 1200-luvulla, päätti puolustaa järjen oikeuksia ja sen autonomiaa uskoon nähden.
 
 ![image](assets/fi/040.webp)
@@ -667,6 +689,8 @@ Tästä lähtien uskonnollinen rationalismi voittaisi lopullisesti mystismin.
 ## Uskonto ja politiikka: Suvereenin valtion synty
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
+
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
 Keskiajalla kirkko ja kristilliset monarkiat perivät poliittisen mallin Rooman valtakunnalta, jota historioitsijat kutsuvat teologis-poliittiseksi järjestelmäksi, tarkoittaen järjestelmää, jossa valta on pyhä, eli poliittinen johtaja on myös uskonnollinen johtaja.
 Tämä on syy, miksi keskiaikaisia yhteiskuntia luonnehtii politiikkaan ja uskontoon perustuva yksimielisyys. Poliittinen valta perustaa legitiimiytensä, auktoriteettinsa ja yhtenäisyytensä kristilliseen (tai muslimi) uskoon. Se pitää itseään kulttuurisen ja uskonnollisen ortodoksisuuden vartijana ja kohtelee parioina niitä, jotka poikkeavat tästä yksimielisyydestä. Tässä kontekstissa, vaikka tietylle suvaitsevaisuudelle voitiin myöntää tilaa niille, jotka irtautuvat yhteisestä kulttuurinäkemyksestä (kuten juutalaiset), heille ei voitu tunnustaa oikeutta pluralismiin. Vasta keskiajan lopussa, Amerikan valloituksen myötä, kirkolle tuli ratkaisevan tärkeäksi siviilivapauksien ongelma ja syntyi ensimmäinen oikeusfilosofia, joka vahvisti ja suojeli yksilön vapauksia, legitimoiti pluralismin ja tuomitsi valtion pakottamisen.
@@ -704,6 +728,8 @@ Kirkon teokraattinen kiusaus törmää myös "jumalallisen oikeuden" teoriaan. J
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Muinaiset ajattelutavat alistivat ihmisen jumalalliseen kosmokseen, eli täydelliseen maailmankaikkeuteen, jonka osa hän oli vain. Monoteismi puolestaan väittää ihmisen äärettömän ylemmyyden luontoa kohtaan, sikäli kuin ihminen on luotu Jumalan kuvaksi. Tämä ratkaiseva kohta on todellisen eettisen vallankumouksen alkuperä. Raamattu vahvistaa jokaisen ihmisen pyhän ja äärettömän arvon.
 
 Tämän vuoksi raamatullinen etiikka muuttaa suhdettamme pahaan. Se tuo terävän ja ennennäkemättömän herkkyyden ihmiskärsimykselle. Se rohkaisee meitä pitämään epänormaalina ja sietämättömänä pahuuksia, jotka ihmiskunta siihen asti oli pitänyt täysin siedettävinä, erityisesti pahuutta, joka kohdistuu toisiin, heikkoihin, viattomiin.
@@ -740,6 +766,8 @@ Ihmiskunnan idea etenee. Alettiin tehokkaasti pitää ajatusta, että on vain yk
 ## Kapitalismin ensiaskelmat
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 Olemme nähneet, että kristinusko asettaa ihmisille moraalisen velvollisuuden työskennellä maailman parantamiseksi. Jumala haluaa ihmisen olevan onnellinen, mutta ei halua saavuttaa hänen hyväänsä hänen puolestaan. Siksi kristityn on taisteltava moraalista pahaa vastaan, rakastettava lähimmäistään, autettava uhreja, lyhyesti sanottuna, työskenneltävä oikeudenmukaisemman ja inhimillisemmän maailman puolesta. Onko kapitalismi, eli vapaa talous, joka perustuu yksityisomaisuuteen ja sopimusvapauteen, yhteensopiva kristillisen velvollisuuden kanssa?
 
@@ -805,6 +833,8 @@ Lisäksi, jos kaksi eri valuuttaa hyötyy laillisesta maksuvälineestä, toimija
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 Renessanssista lähtien Eurooppaa repivät uskonsodat. Toleranssi, suvaitsevaisuus, tuli siis yhdeksi valistuksen suurista taisteluista.
 ![image](assets/fi/050.webp)
 
@@ -857,6 +887,8 @@ Toisin sanoen, suvaitsevaisuus ei tarkoita uskonnollisuuden vastustamista. Se ta
 ## Taloudellisen vapauden puolesta
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 Taloudellinen liberalismi yhdistetään usein anglosaksiseen perinteeseen, joka juontaa juurensa Adam Smithistä, verrattuna "poliittiseen liberalismiin", jonka sanotaan olevan peräisin mannermaisesta valistuksesta, erityisesti Ranskasta. Tämä näkemys on virheellinen.
 
@@ -918,6 +950,8 @@ Lyhyesti sanottuna, jos jokainen voi vapaasti tavoitella omaa etuaan luonnonlain
 ## Vapauden kannalta merkittävä vuosi: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 on vuosi, joka usein jää huomaamatta historian oppikirjoissa. Mutta kolmessa maassa, Ranskassa, Skotlannissa ja Pohjois-Amerikassa, useat tapahtumat jättävät lähtemättömän jäljen vapauden historiaan.
 
@@ -1019,6 +1053,8 @@ Tämä spontaanin järjestyksen idea tulisi olemaan keskeinen käsite Friedrich 
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 Tämän modernin ajanjakson suuri uutuus länsimaisessa historiassa on yhteiskunnan esiinmarssi, joka järjestäytyy uskonnollisen riippuvuuden ulkopuolella. Tämä ei tarkoita uskonnollisen uskon katoamista tai Jumalan kuolemaa. Mutta Jumalasta tulee yksityisasia, joka ei sekoitu enää poliittisiin asioihin. Uskonto ei katoa, mutta sen ohjaava rooli syrjäytetään. Se muuttuu yksilöllisten uskomusten järjestelmäksi.
 
 Länsimaisen maailman maallistuminen ei tapahtunut yhdessä yössä. Sitä valmistelivat ideat. Kuten usein, filosofia on suurten kulttuurimuutosten eturintamassa.
@@ -1114,6 +1150,8 @@ Tämä on myös Friedrich Hayekin kirjassaan _Vapauden perustus_ esittämän huo
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 Benjamin Constantin mukaan vapaus nyky-yhteiskunnissamme ei voi enää ymmärtää antiikin yhteiskuntien tavoin suorana osallistumisena kaupungin asioihin.
 
 ![image](assets/fi/070.webp)
@@ -1161,6 +1199,8 @@ Toisin sanoen vapaassa yhteiskunnassa on välttämätöntä asettaa tiukka raja 
 ## Demokratian vahvuudet ja heikkoudet
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville oli tarkkanäköinen demokratian tarkkailija ja demokraattisen individualismin kriitikko.
 
@@ -1234,6 +1274,8 @@ Katso maapalloa. Ketkä ovat onnellisimpia, moraalisimpia ja rauhallisimpia kans
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 19 vuosisadalla syntyi kapitalismin kritiikki, erityisesti marxilainen kritiikki.
 
 ![image](assets/fi/078.webp)
@@ -1263,6 +1305,8 @@ Politiikkaan perustuva vallankumous on siis hänen mukaansa harhakuvitelma, niin
 ## Itävaltalainen kritiikki marxilaisuutta kohtaan
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 Itävallan taloustieteen koulu, jonka perusti Carl Menger 1800-luvun lopussa, vastusti Karl Marxin teorioita alusta alkaen.
 
@@ -1323,6 +1367,8 @@ Jo vuonna 1922 kirjassaan _Sosialismi,_ Ludwig von Mises osoitti, että sosialis
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Länsidemokratioiden talouksien hallituksen interventioismin noususta huolestuneena Hayek kirjoitti _Tie Orjuuteen_ filosofisena kritiikkinä kollektivismille, oli se sitten oikealta tai vasemmalta. Julkaistu useassa miljoonassa kappaleessa kiitos _Reader’s Digestin_, tämä kirja on suuresti edesauttanut Hayekin maineen kasvua Yhdysvalloissa.
 
 ![kuva](assets/fi/086.webp)
@@ -1363,6 +1409,8 @@ Lopuksi Hayek kehottaa aikalaisiaan kääntämään selkänsä "hulluudelle" ja 
 ## Keynesin voitto
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Kapitalismia on usein syytetty lauseen "meidän täytyy aina tuottaa enemmän" tai kaavan "kuluttaminen on hyväksi kasvulle" lähteeksi. Kuitenkin nämä ideat eivät juonnu perinteisestä kapitalismista, vaan Keynesiläisyydestä, joka on hallinnut taloustieteen alaa ja poliittista luokkaa 1930-luvulta lähtien.
 
@@ -1422,6 +1470,8 @@ Ei mikään uskonto ole levinnyt maailmassa niin nopeasti kuin työllisyyden usk
 ## Kultakannasta luopuminen
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Raha on väline, joka on mahdollistanut ihmisten siirtymisen vaihdantataloudesta säästämiseen ja suuren mittakaavan koordinointiin markkinoiden kautta. Se on mahdollistanut työn erikoistumisen, vertailuedut, kaupan tuomat hyödyt, taloudellisen laskennan. Ilman rahaa ei ole modernia sivilisaatiota.
 

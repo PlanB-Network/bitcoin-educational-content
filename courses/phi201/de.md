@@ -25,6 +25,8 @@ Von der Renaissance bis zur Aufklärung untersucht der Kurs den Aufstieg der Fre
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Willkommen im Kurs PHI201!
 
 Diese Ausbildung lädt Sie ein, die Entwicklung der Freiheit im Laufe der Geschichte zu erkunden, indem Sie die großen Denkrichtungen analysieren, die sie geprägt haben. Sie werden entdecken, wie sich der Begriff der Freiheit im Laufe der Jahrhunderte entwickelt hat, entweder im Widerstand gegen oder in Zusammenarbeit mit der Macht, auf einer historischen Reise von der Antike bis zu zeitgenössischen Debatten.
@@ -56,6 +58,8 @@ Bereit, in diese einzigartige philosophische Reise auf der Suche nach Freiheit e
 ## Es gibt nur zwei politische Philosophien
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Warum diesen Kurs betiteln als: eine Geschichte der Freiheit? Weil wir die Beziehung zwischen Ideen und Ereignissen verstehen müssen, um unsere Ära besser zu beurteilen und mit Unterscheidungsvermögen zu handeln. Es ist in der Vergangenheit, dass wir die Elemente für ein besseres Verständnis dessen finden, was Freiheit ist und die Gründe, warum wir sie schätzen müssen.
 
@@ -113,6 +117,8 @@ Aus dieser Perspektive ist es die Aufgabe des Gesetzgebers, zu organisieren, zu 
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 Wenn man Lehrbücher öffnet, stellte Bastiat fest, lernt man, dass die Menschheit ohne das Eingreifen der Macht dem Nichts verdammt wäre:
 
 > "Es genügt, fast willkürlich, ein Buch der Philosophie, Politik oder Geschichte zu öffnen, um zu sehen, wie tief verwurzelt in unserem Land diese Idee ist, geboren aus klassischen Studien und der Mutter des Sozialismus, dass die Menschheit eine inerte Materie ist, die vom Macht Leben, Organisation, Moralität und Reichtum erhält; — oder schlimmer, dass die Menschheit selbst zu ihrer Degradierung tendiert und nur durch die mysteriöse Hand des Gesetzgebers auf dieser Abwärtsspirale gestoppt wird." ([_Das Gesetz_](http://bastiat.org/fr/la_loi.html)).
@@ -168,6 +174,8 @@ Ein paar Tage vor seinem Tod in Rom im Jahr 1850 vertraute Bastiat seinem Freund
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 Es ist bekannt, Geschichte wird von den Siegern geschrieben. Die Aufmerksamkeit konzentriert sich oft auf die Eroberung der Macht, auf das Leben der Machthaber und auf die Konflikte, die sie mit denen haben, die ihren Platz einnehmen möchten.
 
 ![image](assets/de/010.webp)
@@ -207,6 +215,8 @@ Diese These findet sich auch in einem monumentalen Werk aus dem Jahr 1983: _Rech
 ## Marx: Geschichte als Klassenkampf
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Es gibt jedoch auch eine andere Perspektive auf die Geschichte. Sie war recht erfolgreich und genoss lange Zeit die Unterstützung westlicher Intellektueller und Vertreter des Globalen Südens. Dies ist die sozialistische und marxistische Sicht der Geschichte.
 ![image](assets/de/013.webp)
@@ -273,6 +283,8 @@ Es ist dieses radikal dezentralisierte Europa, das Parlamente, Landtage und Gene
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 Im letzten Kapitel von _Anatomy of the State_ (übersetzt ins Französische als _L’anatomie de l’Etat_, von den Résurgence-Editionen), schlägt Murray Rothbard eine Theorie der Geschichte vor. Dieses sehr kurze Kapitel trägt den Titel: Geschichte, ein Rennen zwischen Staatsmacht und sozialer Macht. Laut Rothbard kann die Geschichte als ein ewiger Konflikt zwischen zwei grundlegenden Prinzipien verstanden werden:
 
 ![image](assets/de/017.webp)
@@ -326,6 +338,8 @@ Und er fügt hinzu:
 ## Die Erfindung der kritischen Rationalität durch die Griechen
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 Die Erfahrung der athenischen Demokratie hat einen bleibenden Eindruck in der Geschichte des politischen Denkens hinterlassen und inspiriert auch heute noch Ideale der Demokratie und der Bürgerbeteiligung.
 
@@ -416,6 +430,8 @@ Das einzige Mittel, das wir haben, um uns der Wahrheit zu nähern, sind Kritik u
 ## Die Erfindung des Rechts durch die Römer
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 Das Römische Reich war eine riesige kosmopolitische Entität. Auf seinem Höhepunkt, um 117 n. Chr., war es ein immenser multiethnischer und mehrsprachiger Staat:
 
@@ -516,6 +532,8 @@ Indem er behauptete, dass das Gesetz nicht auf bloße vom Gesetzgeber erlassene 
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Warum ging Rom unter und fiel letztendlich? Viele glauben gerne, dass das Römische Reich plötzlich unter dem Einfluss barbarischer Invasionen zusammenbrach. Die Ursachen für den Zusammenbruch des Römischen Reiches sind jedoch viel früher zu finden, im Imperialismus und in wirtschaftlichem und monetärem Dirigismus.
 
 
@@ -587,6 +605,8 @@ Und er fügt hinzu:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 Die christliche Idee der Freiheit entwickelte sich in der mittelalterlichen Theologie des Heiligen Augustinus im 4. Jahrhundert bis zu Thomas von Aquin im 13. Jahrhundert. Was ist diese Idee?
 
 ![image](assets/de/037.webp)
@@ -637,6 +657,8 @@ Laut Thomas von Aquin:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 Im Mittelalter konkurrieren Vernunft und Glaube um den Zugang zur Wahrheit. In der Nachfolge von Abélard und Albertus Magnus verteidigte Thomas von Aquin im 13. Jahrhundert die Rechte der Vernunft und ihre Autonomie in Bezug auf den Glauben.
 
 ![image](assets/de/040.webp)
@@ -672,6 +694,8 @@ Von da an würde der religiöse Rationalismus endgültig über den Mystizismus s
 ## Religion und Politik: Die Geburt des souveränen Staates
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
+
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
 Im Mittelalter erbten die Kirche und die christlichen Monarchien ein politisches Modell vom Römischen Reich, das Historiker das theologisch-politische System nennen, was bedeutet, dass es ein System ist, in dem die Macht heilig ist, d.h., wo der politische Führer auch ein religiöser Führer ist.
 
@@ -712,6 +736,8 @@ Die theokratische Versuchung der Kirche stößt auch auf die Theorie des "Gottes
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Das antike Denken unterordnete den Menschen einem göttlichen Kosmos, das heißt, einem perfekten Universum, von dem er lediglich ein Teil war. Der Monotheismus hingegen betont den unendlich überlegenen Wert des Menschen gegenüber der Natur, insofern der Mensch nach dem Bild Gottes geschaffen ist. Dieser entscheidende Punkt ist der Ursprung einer wahren ethischen Revolution. Die Bibel bekräftigt den heiligen und unendlichen Wert jedes einzelnen Menschen.
 Deshalb verändert die biblische Ethik unsere Beziehung zum Bösen. Sie bringt eine scharfe und beispiellose Sensibilität für menschliches Leiden mit sich. Sie ermutigt uns daher, als abnormal und unerträglich anzusehen, was die Menschheit bis dahin als vollkommen erträglich empfunden hatte, insbesondere das Böse, das anderen, den Schwachen, den Unschuldigen angetan wird.
 
@@ -743,6 +769,8 @@ Die Idee der Menschlichkeit macht Fortschritte. Es kam tatsächlich dazu, dass n
 ## Die ersten Skizzen des Kapitalismus
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 Wir haben gesehen, dass das Christentum den Menschen eine moralische Pflicht auferlegt, an der Verbesserung der Welt zu arbeiten. Gott möchte, dass der Mensch glücklich ist, aber er möchte sein Gutes nicht an seiner Stelle erreichen. Es liegt also am Christen, das moralische Übel zu bekämpfen, seinen Nächsten zu lieben, den Opfern zu helfen, kurz gesagt, für eine gerechtere und humanere Welt zu arbeiten. Ist der Kapitalismus, das heißt die freie Wirtschaft, die auf Privateigentum und Vertragsfreiheit basiert, mit der christlichen Pflicht vereinbar?
 
@@ -808,6 +836,8 @@ Außerdem, wenn zwei verschiedene Währungen gesetzliches Zahlungsmittel genieß
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 Von der Renaissance an sollte Europa von Religionskriegen verwüstet werden. Toleranz wurde daher zu einer der großen Schlachten der Aufklärung.
 ![image](assets/de/050.webp)
 
@@ -859,6 +889,8 @@ Mit anderen Worten, tolerant zu sein bedeutet nicht, feindselig gegenüber Relig
 ## Plädoyer für wirtschaftliche Freiheit
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 Wirtschaftsliberalismus wird oft mit einer angelsächsischen Tradition in Verbindung gebracht, die von Adam Smith stammt, im Gegensatz zum "politischen Liberalismus", der angeblich aus der kontinentalen Aufklärung, insbesondere in Frankreich, stammt. Diese Ansicht ist falsch.
 
@@ -920,6 +952,8 @@ Kurz gesagt, wenn jeder sein privates Interesse im Respekt vor dem Naturgesetz f
 ## Ein Schlüsseljahr für die freie Welt: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 ist ein Jahr, das in Geschichtsbüchern oft übersehen wird. Aber in drei Ländern, Frankreich, Schottland und Nordamerika, werden mehrere Ereignisse eine unauslöschliche Spur in der Geschichte der Freiheit hinterlassen.
 
@@ -1020,6 +1054,8 @@ Diese Idee der spontanen Ordnung würde zu einem Schlüsselkonzept in der Arbeit
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 Die große Neuheit dieser modernen Periode in der westlichen Geschichte ist das Aufkommen einer Gesellschaft, die sich außerhalb religiöser Abhängigkeit organisiert. Dies bedeutet nicht das Verschwinden religiösen Glaubens oder den Tod Gottes. Aber Gott wird zu einer privaten Angelegenheit, nicht mehr vermischt mit politischen Angelegenheiten. Es gibt kein Verschwinden der Religion, sondern eine Entthronung ihrer leitenden Rolle. Es wird zu einem System individueller Überzeugungen.
 
 Diese Säkularisierung der westlichen Welt geschah nicht über Nacht. Sie wurde durch Ideen vorbereitet. Wie so oft, steht die Philosophie an der Spitze großer kultureller Veränderungen.
@@ -1110,6 +1146,8 @@ Dies ist übrigens der Sinn der Bemerkung von Friedrich Hayek in seinem Buch _Di
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 Laut Benjamin Constant kann Freiheit in unseren modernen Gesellschaften nicht mehr so verstanden werden wie in den Gesellschaften der Antike als direkte Teilnahme an den Angelegenheiten der Stadt.
 
 ![image](assets/de/070.webp)
@@ -1157,6 +1195,8 @@ Mit anderen Worten, in einer freien Gesellschaft ist es notwendig, eine strenge 
 ## Stärken und Schwächen der Demokratie
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville war ein scharfer Beobachter der Demokratie und ein Kritiker des demokratischen Individualismus.
 
@@ -1231,6 +1271,8 @@ Betrachten Sie den Globus. Welches sind die glücklichsten, moralischsten und fr
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 Es war im 19. Jahrhundert, dass die Kritik am Kapitalismus, insbesondere die marxistische Kritik, entstand.
 
 ![image](assets/de/078.webp)
@@ -1260,6 +1302,8 @@ Politische Revolution ist daher eine Illusion, so seine Ansicht, solange sie nic
 ## Die österreichische Kritik am Marxismus
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 Die Österreichische Schule der Nationalökonomie, gegründet von Carl Menger am Ende des 19. Jahrhunderts, stand von Anfang an den Theorien von Karl Marx entgegen.
 
@@ -1320,6 +1364,8 @@ Bereits 1922 demonstrierte Ludwig von Mises in seinem Buch _Sozialismus_, dass d
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Alarmiert durch den Aufstieg des staatlichen Interventionismus in den Wirtschaften der westlichen Demokratien schrieb Hayek _Der Weg zur Knechtschaft_ als philosophische Kritik am Kollektivismus, sei es von rechts oder links. Dank des _Reader’s Digest_ in mehreren Millionen Exemplaren veröffentlicht, hat dieses Buch wesentlich zu Hayeks Ruhm in den Vereinigten Staaten beigetragen.
 
 ![image](assets/de/086.webp)
@@ -1360,6 +1406,8 @@ Zum Schluss fordert Hayek seine Zeitgenossen auf, sich von dem "Wahnsinn" und de
 ## Der Triumph von Keynes
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Der Kapitalismus wird oft beschuldigt, die Quelle der Aufforderung zu sein: "wir müssen immer mehr produzieren", oder der Formel: "Konsum ist gut für das Wachstum." Diese Ideen stammen jedoch nicht aus dem traditionellen Kapitalismus, sondern aus dem Keynesianismus, der seit den 1930er Jahren die Wirtschaftswissenschaft und die politische Klasse dominiert hat.
 
@@ -1419,6 +1467,8 @@ Keine Religion hat sich so schnell auf der ganzen Welt verbreitet wie die der Be
 ## Verlassen des Goldstandards
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Geld ist ein Werkzeug, das es Menschen ermöglicht hat, über den Tauschhandel hinauszugehen, zu sparen und in großem Maßstab durch den Markt zu koordinieren. Es hat die Spezialisierung der Arbeit, komparative Vorteile, Handelsgewinne, wirtschaftliche Berechnung ermöglicht. Ohne Geld gibt es keine moderne Zivilisation.
 

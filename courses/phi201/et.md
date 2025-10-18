@@ -25,6 +25,8 @@ Renessansist valgustusajastuni uurib kursus vabaduse tõusu, mida iseloomustab r
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Tere tulemast kursusele PHI201!
 
 See kursus kutsub teid uurima vabaduse arengut läbi ajaloo, analüüsides peamisi mõttesuundi, mis on seda kujundanud. Avastate, kuidas on vabaduse mõiste kujunenud sajandite jooksul, kas võimule vastu seistes või sellega koostööd tehes, läbi ajaloolise rännaku antiikajast tänapäevastesse aruteludesse.
@@ -56,6 +58,8 @@ Kas olete valmis alustama seda ainulaadset filosoofilist teekonda vabaduse otsin
 ## On ainult kaks poliitilist filosoofiat
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Miks nimetada seda kursust vabaduse ajalooks? Sest me peame mõistma ideede ja sündmuste vahelist suhet, et paremini hinnata meie ajastut ja tegutseda otsustavalt. Just minevikust leiame elemendid paremaks mõistmiseks, mis on vabadus ja miks me peame seda hindama.
 
@@ -112,6 +116,8 @@ Sellest perspektiivist lähtuvalt on seadusandja missioon korraldada, muuta, ise
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 Kui keegi avab õpikuid, märkis Bastiat, saab ta teada, et inimkond oleks hukule määratud ilma võimu sekkumiseta:
 
 > "Piisab peaaegu suvalise filosoofia, poliitika või ajaloo raamatu avamisest, et näha, kui sügavalt on meie maal juurdunud see idee, mis on sündinud klassikaliste õpingute ja sotsialismi emana, et inimkond on inertne aine, mis saab võimult elu, korralduse, moraali ja rikkuse; — või veel hullem, et inimkond ise kaldub oma allakäigu poole ja ainult seadusandja müstiline käsi peatab sellel nõlval." ([_Seadus_](http://bastiat.org/fr/la_loi.html)).
@@ -167,6 +173,8 @@ Mõni päev enne oma surma Roomas 1850. aastal usaldas Bastiat oma sõbrale Pros
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 On teada, et ajalugu kirjutavad võitjad. Tähelepanu keskendub sageli võimu vallutamisele, võimul olevate juhtide eludele ja konfliktidele, mis neid nende vastu seavad, kes soovivad nende kohta võtta.
 
 ![image](assets/et/010.webp)
@@ -207,6 +215,9 @@ Seda teesi käsitletakse ka monumentaalses teoses, mis pärineb aastast 1983: _�
 ## Marx: Ajalugu kui klassivõitlus
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
+
 Siiski eksisteerib ajaloo suhtes ka teine vaatenurk. See on olnud üsna edukas ja pikka aega nautinud Lääne intellektuaalide ning Globaalse Lõuna esindajate toetust. See on sotsialistlik ja marksistlik ajaloo vaade.
 ![pilt](assets/et/013.webp)
 
@@ -270,6 +281,8 @@ See radikaalselt detsentraliseeritud Euroopa, mis andis parlamendid, seisused ja
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 _Anatomy of the State_ (tõlgitud prantsuse keelde kui _L’anatomie de l’Etat_, Résurgence väljaannetes) viimases peatükis pakub Murray Rothbard välja ajaloo teooria. See väga lühike peatükk on pealkirjaga: Ajalugu, võidujooks riigivõimu ja sotsiaalse võimu vahel. Rothbardi sõnul võib ajalugu mõista kui igavest konflikti kahe fundamentaalse põhimõtte vahel:
 
 ![image](assets/et/017.webp)
@@ -324,6 +337,9 @@ Ja ta lisab:
 ## Kriitilise ratsionaalsuse leiutamine kreeklaste poolt
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
 Ateena demokraatia kogemus on jätnud püsiva jälje poliitilise mõtte ajaloos ja jätkab tänapäeval demokraatia ja kodanikuosaluse ideaalide inspireerimist.
 ![image](assets/et/020.webp)
 
@@ -412,6 +428,8 @@ Ainus vahend, mis meil tõele lähenemiseks on, on kriitika ja arutelu. Seega p�
 ## Õiguse leiutamine roomlaste poolt
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 Rooma impeerium oli tohutu kosmopoliitne üksus. Oma tipphetkel, umbes 117 aastal pKr, oli see tohutu multi-etniline ja mitmekeelne riik:
 
@@ -511,6 +529,8 @@ Väites, et seadust ei saa vähendada ainult seadusandliku võimu poolt vastu v�
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Miks Rooma allakäik ja lõplik langus? Paljud arvavad, et Rooma impeerium varises järsku kokku, barbaaride invasioonide mõjul. Siiski, Rooma impeeriumi kokkuvarisemise põhjused tuleb leida palju varasemast ajast, imperialismist ning majandus- ja rahapoliitilisest dirigismist.
 
 
@@ -582,6 +602,8 @@ Ja ta lisab:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 Kristlik vabaduse idee arenes välja keskaegses teoloogias, alates pühast Augustinusest 4. sajandil kuni püha Thomas Aquinase juurde 13. sajandil. Mis on see idee?
 
 ![image](assets/et/037.webp)
@@ -632,6 +654,8 @@ Püha Thomas Aquinase sõnul:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 Keskaegadel konkureerivad mõistus ja usk tõe juurdepääsu nimel. Järgides Abélardit ja Albert Suurt, valis Thomas Aquinas 13. sajandil kaitsta mõistuse õigusi ja selle autonoomiat usuga suhtes.
 
 ![image](assets/et/040.webp)
@@ -667,6 +691,8 @@ Sellest ajast alates valitseks usuline ratsionalism kindlalt müstitsismi üle.
 ## Religioon ja Poliitika: Suveräänse Riigi Sünd
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
+
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
 Keskaegses Euroopas päris Kirik ja kristlikud monarhiad poliitilise mudeli Rooma Impeeriumilt, mida ajaloolased nimetavad teoloogilis-poliitiliseks süsteemiks, tähendades süsteemi, kus võim on püha, st poliitiline juht on ka usuline juht.
 Sellepärast iseloomustavad keskaegseid ühiskondi politiilis-religioosne üksmeelsus. Poliitiline võim rajab oma legitiimsuse, autoriteedi ja ühtsuse kristlikule (või moslemi) usule. See peab end kultuurilise ja religioosse õigeusu kaitsjaks ning kohtleb pariaatidena neid, kes sellest üksmeelsusest kõrvale kaldub. Selles kontekstis, isegi kui teatud tolerants võidi lubada neile, kes eraldusid ühisest kultuurilisest visioonist (nagu juudid), ei tunnustatud neile pluralismi õigust. Alles keskaja lõpus, Ameerika vallutamisega, muutus tsiviilvabaduste probleem Kiriku jaoks kriitiliseks ning nägi esimese õigusfilosoofia tekkimist, mis kinnitas ja kaitses individuaalseid vabadusi, legitimeeris pluralismi ja mõistis riikliku sunduse hukka.
@@ -704,6 +730,8 @@ Kiriku teokraatlik kiusatus põrkub samuti kokku "jumaliku õiguse" teooriaga. K
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Vanas mõttemaailmas allutati inimene jumalikule kosmosele, see tähendab täiuslikule universumile, mille osa ta vaid oli. Monoteism seevastu väidab inimese lõpmatult ülekaalukamat väärtust looduse üle, kuna inimene on loodud Jumala näo järgi. See oluline punkt on tõelise eetilise revolutsiooni alguseks. Piibel kinnitab iga inimolendi püha ja lõpmatut väärtust.
 Seetõttu muudab piibellik eetika meie suhet kurjusega. See toob kaasa terava ja enneolematu tundlikkuse inimkannatuste suhtes. Seega julgustab see meid pidama ebanormaalseks ja talumatuks kurjust, mida inimkond seni oli täiesti talutavaks pidanud, eriti kurjust, mis tehakse teistele, nõrkadele, süütutele.
 
@@ -739,6 +767,8 @@ Inimkonna idee areneb. Tõepoolest jõuti arusaamisele, et on olemas ainult üks
 ## Kapitalismi esimesed visandid
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 Oleme näinud, et kristlus paneb inimestele moraalse kohustuse töötada maailma paremaks muutmise nimel. Jumal soovib, et inimene oleks õnnelik, kuid ei taha tema heaolu tema eest saavutada. Seega on kristlase ülesanne võidelda moraalse kurjuse vastu, armastada oma ligimest, aidata ohvreid, lühidalt öeldes töötada õiglasema ja inimlikuma maailma nimel. Kas kapitalism, st vaba majandus, mis põhineb eraomandil ja lepinguvabadusel, on kooskõlas kristliku kohustusega?
 
@@ -802,6 +832,9 @@ Pealegi, kui kaks erinevat valuutat naudivad seaduslikku maksevahendit, siis age
 ## Palve Usutolerantsi Eest
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
+
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 Renessansist alates oli Euroopat laastamas ususõjad. Tolerantsus sai seega Valgustusajastu üheks suureks võitluseks.
 ![image](assets/et/050.webp)
 
@@ -853,6 +886,9 @@ Teisisõnu, sallivus ei tähenda vaenulikkust religiooni vastu. See tähendab, e
 ## Majandusvabaduse eestkõne
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
 Majandusliberalism on sageli seostatud anglosaksi traditsiooniga, mis pärineb Adam Smithilt, erinevalt "poliitilisest liberalismist", mida väidetakse pärinevat mandri Euroopa valgustusajastust, eriti Prantsusmaalt. See vaade on vale.
 
 ![image](assets/et/053.webp)
@@ -914,6 +950,8 @@ Lühidalt, kui kõik saavad vabalt järgida oma eraõiguslikku huvi loodusõigus
 ## Vaba Maailma jaoks Võtmeaasta: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 on aasta, mis jääb sageli ajalooõpikutes märkamatuks. Kuid kolmes riigis, Prantsusmaal, Šotimaal ja Põhja-Ameerikas, jätavad mitmed sündmused vabaduse ajaloos kustutamatu jälje.
 
@@ -1013,6 +1051,8 @@ See spontaanse korra idee saab Friedrich Hayeki töö võtmekontseptsiooniks, ke
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 Suur uudsus sellel modernsel perioodil Lääne ajaloos on ühiskonna esilekerkimine, mis korraldab end väljaspool religioosset sõltuvust. See ei tähenda religioosse uskumuse kadumist ega Jumala surma. Kuid Jumalast saab eraasi, mis ei segune enam poliitiliste asjadega. Religioon ei kao, kuid selle juhtiv roll troonitakse. See muutub individuaalsete uskumuste süsteemiks.
 
 Lääne maailma sekulariseerumine ei toimunud üleöö. Sellele valmistasid ette ideed. Nagu sageli, on filosoofia suurte kultuurimuutuste eesliinil.
@@ -1105,6 +1145,9 @@ See on ka Friedrich Hayeki raamatu _Vabaduse Konstitutsioon_ mõtte mõte:
 ## Modernsete Vabadus
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
+
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 Benjamin Constanti sõnul ei saa vabadust meie modernsetes ühiskondades enam mõista nagu antiikühiskondades otsest osalust linna asjades.
 ![image](assets/et/070.webp)
 
@@ -1151,6 +1194,8 @@ Teisisõnu, vabas ühiskonnas on vajalik kehtestada range piir avaliku ja eraelu
 ## Demokraatia Tugevused ja Nõrkused
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville oli demokraatia terav vaatleja ja demokraatliku individualismi kriitik.
 
@@ -1224,6 +1269,8 @@ Vaadake maakera. Millised on õnnelikumad, moraalsemad ja rahumeelsemad rahvad? 
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 19. sajandil tekkis kapitalismi, eriti marksistliku kriitika, kriitika.
 
 ![image](assets/et/078.webp)
@@ -1253,6 +1300,8 @@ Polüitiline revolutsioon on seega illusioon, tema sõnul, niikaua kui see ei k�
 ## Austria Kriitika Marxismi Suhtes
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 Austria Majanduskool, mille asutas Carl Menger 19. sajandi lõpus, oli Karl Marx'i teooriatele algusest peale vastu.
 
@@ -1313,6 +1362,8 @@ Juba 1922. aastal oma raamatus _Sotsialism_ näitas Ludwig von Mises, et sotsial
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Valitsussekkumise suurenemisest Lääne demokraatiate majandustes häirituna kirjutas Hayek _Tee Orjusesse_ kui filosoofilise kriitika kollektivismi vastu, olgu see siis parem- või vasakpoolne. Tänu _Reader’s Digest_'ile mitme miljoni eksemplari tiraažis avaldatud raamat on suuresti kaasa aidanud Hayeki kuulsusele Ameerika Ühendriikides.
 
 ![image](assets/et/086.webp)
@@ -1353,6 +1404,8 @@ Kokkuvõttes kutsub Hayek oma kaasaegseid pöörama selga "hullusele" ja "kaasae
 ## Keynesi triumf
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Kapitalismi süüdistatakse tihti käskluses: "me peame alati rohkem tootma," või valemis: "tarbimine on hea majanduskasvuks." Siiski, need ideed ei pärine traditsioonilisest kapitalismist, vaid Keynesianismist, mis on domineerinud majandusteaduse valdkonnas ja poliitilises klassis alates 1930ndatest.
 
@@ -1412,6 +1465,8 @@ Ta lisab: "Inflatsioon on kulutuste subsideerimine, mis ei too midagi sisse raha
 ## Kullastandardist loobumine
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Raha on vahend, mis on võimaldanud inimestel liikuda kaupade vahetamisest kaugemale, säästa ja koordineerida suurel määral turu kaudu. See on teinud võimalikuks tööjõu spetsialiseerumise, võrdlevad eelised, kaubandusest saadavad kasud, majandusliku arvestuse. Ilma rahata pole kaasaegset tsivilisatsiooni.
 

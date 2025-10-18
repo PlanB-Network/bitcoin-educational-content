@@ -25,6 +25,8 @@ Fra renessansen til opplysningstiden undersøker kurset fremveksten av frihet, p
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Velkommen til kurset PHI201!
 
 Dette kurset inviterer deg til å utforske frihetens utvikling gjennom historien ved å analysere de store tankeretningene som har formet den. Du vil oppdage hvordan frihetsbegrepet har blitt konstruert gjennom århundrene, enten i opposisjon til eller i samarbeid med makt, gjennom en historisk reise fra antikken til dagens debatter.
@@ -56,6 +58,8 @@ Klar til å begi deg ut på denne unike filosofiske reisen for å utforske frihe
 ## Det finnes bare to politiske filosofier
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Hvorfor gi dette kurset tittelen: en historie om frihet? Fordi vi trenger å forstå forholdet mellom ideer og hendelser, for å bedre bedømme vår tid og handle med skjønn. Det er i fortiden vi finner elementene for en bedre forståelse av hva frihet er og grunnene til at vi må verdsette den.
 
@@ -112,6 +116,8 @@ Fra dette perspektivet er lovgiverens oppgave å organisere, endre, til og med a
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 Når man åpner lærebøker, bemerket Bastiat, lærer man at menneskeheten ville være dømt til intetheten uten inngripen fra makt:
 
 > "Det er nok å åpne, nesten på måfå, en bok om filosofi, politikk eller historie for å se hvor dypt rotfestet i vårt land denne ideen er, født av klassiske studier og sosialismens mor, at menneskeheten er inert materie som mottar fra makten liv, organisasjon, moral og rikdom; — eller verre, at menneskeheten selv tenderer mot sin degradering og bare stoppes på denne skråningen av lovgiverens mystiske hånd." ([_Loven_](http://bastiat.org/fr/la_loi.html)).
@@ -167,6 +173,8 @@ Noen dager før sin død i Roma i 1850, betrodde Bastiat til sin venn Prosper Pa
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 Det er kjent, historien skrives av seierherrene. Oppmerksomheten er ofte fokusert på erobringen av makt, på livene til ledere i makt, og på konfliktene som motsetter dem til de som ønsker å ta deres plass.
 
 ![bilde](assets/nb-NO/010.webp)
@@ -207,6 +215,9 @@ Denne tesen finnes også i et monumentalt verk fra 1983: _Lov og revolusjon: Dan
 ## Marx: Historie som klassekamp
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
+
 En annen perspektiv på historien eksisterer imidlertid også. Det har vært ganske vellykket og lenge nytt støtte fra vestlige intellektuelle og representanter fra den globale sør. Dette er det sosialistiske og marxistiske synet på historien.
 ![bilde](assets/nb-NO/013.webp)
 
@@ -269,6 +280,8 @@ Det er dette radikalt desentraliserte Europa som produserte parlamenter, dietter
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 I det siste kapittelet av _Anatomy of the State_ (oversatt til fransk som _L’anatomie de l’Etat_, av Résurgence editions), foreslår Murray Rothbard en teori om historie. Dette veldig korte kapittelet har tittelen: Historie, et kappløp mellom statsmakt og sosial makt. Ifølge Rothbard kan historien forstås som en evig konflikt mellom to grunnleggende prinsipper:
 
 ![bilde](assets/nb-NO/017.webp)
@@ -322,6 +335,9 @@ Og han legger til:
 ## Oppfinnelsen av kritisk rasjonalitet av grekerne
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
 Opplevelsen av athensk demokrati har etterlatt et varig merke på historien om politisk tenkning og fortsetter å inspirere idealer om demokrati og borgerdeltakelse i dagens verden.
 ![image](assets/nb-NO/020.webp)
 
@@ -410,6 +426,8 @@ Det eneste middelet vi har for å nærme oss sannheten er kritikk og diskusjon. 
 ## Oppfinnelsen av loven av romerne
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 Det romerske imperiet var en stor kosmopolitisk enhet. På sitt høydepunkt, rundt 117 e.Kr., var det en enorm multi-etnisk og flerspråklig stat:
 
@@ -512,6 +530,8 @@ Ved å hevde at loven ikke kan reduseres til bare de statuttene som er vedtatt a
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Hvorfor gikk Roma i nedgang og til slutt falt? Mange liker å tenke at Romerriket kollapset plutselig, under påvirkning av barbariske invasjoner. Imidlertid er årsakene til Romerrikets kollaps å finne mye tidligere, i imperialisme og økonomisk og monetær dirigisme.
 
 
@@ -583,6 +603,8 @@ Og han legger til:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 Den kristne ideen om frihet utviklet seg i middelalderens teologi fra Sankt Augustin på 300-tallet, til Sankt Thomas Aquinas på 1200-tallet. Hva er denne ideen?
 
 ![bilde](assets/nb-NO/037.webp)
@@ -633,6 +655,8 @@ Ifølge Thomas Aquinas:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 I middelalderen konkurrerer fornuft og tro om tilgangen til sannheten. Etter Abélard og Albertus Magnus, valgte Thomas Aquinas, på 1200-tallet, å forsvare fornuftens rettigheter og dens autonomi i forhold til troen.
 
 ![bilde](assets/nb-NO/040.webp)
@@ -669,6 +693,8 @@ Fra da av ville religiøs rasjonalisme definitivt seire over mystisismen.
 ## Religion og politikk: Den suverene statens fødsel
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
+
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
 I middelalderen arvet Kirken og de kristne monarkiene en politisk modell fra Romerriket, som historikere kaller det teologisk-politiske systemet, noe som betyr et system der makten er hellig, dvs., der den politiske lederen også er en religiøs leder.
 
@@ -709,6 +735,8 @@ Kirkens teokratiske fristelse kolliderer også med teorien om "guddommelig rett.
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Antikkens tankegang underordnet mennesket et guddommelig kosmos, det vil si, til et perfekt univers hvor han bare var en del. Monoteismen, derimot, hevder menneskets uendelig overlegne verdi over naturen, ettersom mennesket er skapt i Guds bilde. Dette avgjørende punktet er ved opprinnelsen til en sann etisk revolusjon. Bibelen bekrefter det hellige og uendelige verdien av hvert menneske.
 
 Dette er grunnen til at bibelsk etikk endrer vårt forhold til ondskap. Den bringer en skarp og enestående følsomhet til menneskelig lidelse. Den oppmuntrer oss derfor til å betrakte som unormalt og uutholdelig ondskap som menneskeheten inntil da hadde funnet helt tålelig, spesielt det onde gjort mot andre, mot de svake, mot de uskyldige.
@@ -746,6 +774,8 @@ Ideén om menneskeheten går fremover. Det ble effektivt ansett at det bare er �
 ## De første skissene av kapitalismen
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 Vi har sett at kristendommen pålegger mennesker en moralsk plikt til å arbeide for å forbedre verden. Gud ønsker at mennesket skal være lykkelig, men ønsker ikke å oppnå sitt gode på hans sted. Det er derfor opp til den kristne å bekjempe moralsk ondskap, å elske sin neste, å hjelpe ofrene, kort sagt, å arbeide for en mer rettferdig og human verden. Er kapitalismen, det vil si den frie økonomien basert på privat eiendom og friheten til kontrakter, forenlig med den kristne plikten?
 
@@ -811,6 +841,9 @@ Dessuten, hvis to forskjellige valutaer nyter godt av lovlig betalingsmiddel, vi
 ## Forsvar for Religiøs Toleranse
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
+
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 Fra renessansen ble Europa herjet av religionskriger. Toleranse ble derfor en av de store kampene i opplysningstiden.
 ![image](assets/nb-NO/050.webp)
 
@@ -863,6 +896,9 @@ Med andre ord, å være tolerant betyr ikke å være fiendtlig innstilt til reli
 ## Innlegg for Økonomisk Frihet
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
 Økonomisk liberalisme er ofte assosiert med en anglo-saksisk tradisjon som stammer fra Adam Smith, i kontrast til "politisk liberalisme," som sies å stamme fra opplysningstiden på kontinentet, spesielt i Frankrike. Dette synet er feil.
 
 ![bilde](assets/nb-NO/053.webp)
@@ -925,6 +961,8 @@ Kort sagt, hvis alle fritt kan forfølge sin private interesse i respekt for nat
 ## Et nøkkelår for den frie verden: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 er et år som ofte går ubemerket i historiebøkene. Men i tre land, Frankrike, Skottland og Nord-Amerika, vil flere hendelser etterlate et uutslettelig merke på frihetens historie.
 
@@ -1024,6 +1062,8 @@ Denne ideen om spontan orden ville bli et nøkkelkonsept i arbeidet til Friedric
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 Den store nyheten i denne moderne perioden i vestlig historie er fremveksten av et samfunn som organiserer seg utenfor religiøs avhengighet. Dette betyr ikke forsvinningen av religiøs tro eller Guds død. Men Gud blir en privat sak, ikke lenger blandet med politiske anliggender. Det er ingen forsvinning av religion, men en avtronisering av dens veiledende rolle. Det blir et system av individuelle troer.
 
 Denne sekulariseringen av den vestlige verden skjedde ikke over natten. Den ble forberedt av ideer. Som ofte, er filosofi i forkant av store kulturelle endringer.
@@ -1116,6 +1156,8 @@ Dette er for øvrig meningen med bemerkningen av Friedrich Hayek i hans bok _The
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 Ifølge Benjamin Constant kan frihet, i våre moderne samfunn, ikke lenger forstås på måten som i antikkens samfunn som direkte deltakelse i byens anliggender.
 
 ![bilde](assets/nb-NO/070.webp)
@@ -1163,6 +1205,8 @@ Med andre ord, i et fritt samfunn, er det nødvendig å etablere en streng grens
 ## Styrker og Svakheter ved Demokratiet
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville var en skarp observatør av demokratiet og en kritiker av demokratisk individualisme.
 
@@ -1236,6 +1280,8 @@ Ta en titt på kloden. Hvilke er de lykkeligste, mest moralske og mest fredelige
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 Det var i løpet av det 19. århundret at kritikken av kapitalismen, og spesielt den marxistiske kritikken, dukket opp.
 
 ![image](assets/nb-NO/078.webp)
@@ -1265,6 +1311,8 @@ Politisk revolusjon er derfor en illusjon, ifølge ham, så lenge den ikke er le
 ## Den Østerrikske Kritikken av Marxismen
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 Den Østerrikske Skolen for Økonomi, grunnlagt av Carl Menger på slutten av det 19. århundre, motsatte seg Karl Marx' teorier fra starten.
 
@@ -1323,6 +1371,8 @@ Allerede i 1922, i sin bok _Socialism,_ demonstrerte Ludwig von Mises at sosiali
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Alarmert av økningen i statlig intervensjonisme i økonomiene til vestlige demokratier, skrev Hayek _Veien til Trelldom_ som en filosofisk kritikk av kollektivisme, enten fra høyre eller venstre. Publisert i flere millioner eksemplarer, takket være _Reader’s Digest_, har denne boken i stor grad bidratt til Hayeks berømmelse i USA.
 
 ![bilde](assets/nb-NO/086.webp)
@@ -1363,6 +1413,8 @@ Til slutt oppfordrer Hayek sine samtidige til å vende ryggen til "galskapen" og
 ## Triumfen til Keynes
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Kapitalismen blir ofte anklaget for å være kilden til påbudet: "vi må alltid produsere mer," eller formelen: "forbruk er bra for vekst." Imidlertid stammer ikke disse ideene fra tradisjonell kapitalisme, men fra keynesianismen, som har dominert feltet for økonomisk vitenskap og den politiske klassen siden 1930-tallet.
 
@@ -1422,6 +1474,8 @@ Ingen religion har spredt seg over verden så raskt som arbeidets religion. Drev
 ## Forlate gullstandarden
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Penger er et verktøy som har tillatt mennesker å bevege seg bort fra byttehandel, til å spare, og til å koordinere i stor skala gjennom markedet. Det har gjort spesialisering av arbeidskraft, komparative fordeler, gevinster fra handel, økonomisk kalkulasjon mulig. Uten penger er det ingen moderne sivilisasjon.
 

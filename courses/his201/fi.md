@@ -24,6 +24,9 @@ Tämä kurssi keskittyy tietenkin Satoshi Nakamoton hahmoon, jonka sanat ja teot
 ## Kurssin yleiskatsaus
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Tervetuloa HIS201-kurssille!
 Tämän kurssin tavoitteena on kertoa sinulle Bitcoinin luomisen tarina tavalla, jota et ole koskaan aiemmin lukenut. Se on usein sivuutettu, vaikka se onkin täynnä kiehtovia yksityiskohtia. Pyrimme kuvaamaan sitä kaikessa monimutkaisuudessaan, alkaen sen suunnittelusta Satoshi Nakamoton toimesta, hänen varhaiseen katoamiseensa ja yhteisölle siirtymiseen.
 
@@ -89,6 +92,9 @@ Oletko valmis tutkimaan Bitcoinin uskomatonta syntytarinaa? Sukelletaanpa yhdess
 ## eCash: Chaumin Digitaalinen Rahajärjestelmä
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Ennen kuin sukellamme Bitcoinin luomistarinaan Satoshi Nakamoton toimesta, on sopivaa käsitellä sitä edeltäneitä tapahtumia. Käsittelemme aihetta kolmessa vaiheessa: ensin esittelemme Chaumilaisen digitaalisen rahan käsitteen, joka tunnetaan yleisesti nimellä _eCash_; sen jälkeen puhumme yksityisistä valuutoista, jotka perustuvat keskitettyihin järjestelmiin, kuten e-gold; lopuksi kuvailemme teknisiä malleja, jotka kuviteltiin ennen Bitcoinin kaltaisen vankkumattoman hajautetun järjestelmän toteuttamista.
 Aloitetaan ensimmäisestä käsitteestä, eCash. eCash juontaa juurensa David Chaumin työstä, joka on amerikkalainen tietojenkäsittelytieteilijä ja kryptografi, syntynyt vuonna 1955, ja pidetään anonyymin viestinnän alalla pioneerina sekä kypherpunk-liikkeen edelläkävijänä. Hän teki merkittävän panoksen kryptografian kehitykseen 1980-luvulla. Hän kehitti digitaalisen rahansa mallin (tunnettu nimellä "Chaumilainen") samaan aikaan ja yritti toteuttaa sitä 1990-luvulla yrityksensä DigiCash kautta.
 
@@ -200,6 +206,8 @@ Bitcoinin myötä Satoshi Nakamoto loi vankan ja luottamuksellisen digitaalisen 
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 Edellisessä luvussa tutkittiin ensimmäistä sähköisen käteisen muotoa, joka syntyi Internetin ja modernin kryptografian myötä: David Chaumin eCash-malli. Tämä malli vaikutti merkittävästi Satoshi Nakamotoon ja oli keskeinen virstanpylväs tiellä, joka johti Bitcoiniin. Kryptovaluutan alkuperätarina ei kuitenkaan pääty eCashiin; se sisältää myös kokeilut yksityisten valuuttojen kanssa, jotka kehitettiin Internetissä 1990-luvun lopulta lähtien.
 
 Tässä luvussa tarkastelemme, mitä Yhdysvalloissa tehtiin yksityisten valuuttojen alueella. Käsittelemme ensin Liberty Dollarin tapausta. Sitten tutkimme keskitettyjä järjestelmiä, kuten e-goldia ja Liberty Reserveä. Lopuksi puhumme PayPalista, jonka lähestymistapa on erilainen, mutta silti valaiseva esimerkki mallista, joka perustuu luotettuun kolmanteen osapuoleen.
@@ -269,6 +277,8 @@ Keskitettyjen järjestelmien haurauden vuoksi vapauden puolestapuhujat – erity
 ## Hajautetut Mallit Ennen Nakamotoa
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 Bitcoin edustaa digitaalisen valuutan hajautettua mallia. Näin ollen se välttää tarpeen luottaa kolmanteen osapuoleen, joka muodostaisi yksittäisen vikapiste järjestelmässä. eCashin, digitaalisten kultavaluuttojen ja Liberty Reserven esimerkit osoittavat, että järjestelmän keskittäminen, jonka on tarkoitus olla vaihtoehto olemassa olevalle järjestelmälle, johtaa väistämättä sen sulkemiseen tavalla tai toisella.
 Bitcoin ei kuitenkaan ollut ensimmäinen ehdotettu hajautetun valuutan konsepti. Kyfipunkit, jotka olivat pakkomielteisiä yksilöiden vapauden ja yksityisyyden suhteen Internetissä ja jotka uskoivat (kuten David Chaum), että valvotut järjestelmät johtivat dystooppiseen tulevaisuuteen, kuvasivat tällaisia malleja jo myöhäisillä 1990-luvuilla. He [vaativat](https://cypherpunks.venona.com/date/1993/03/msg00392.html) "koodin kirjoittamista" ja pitivät "elektronista rahaa" olennaisena elementtinä ihanteessaan. (_alkuperäinen: "Cypherpunks write code. (...) We are defending our privacy with cryptography, with anonymous mail forwarding systems, with digital signatures, and with electronic money."_)
@@ -402,6 +412,8 @@ Bitcoin muodostaa siten huipennuksen kybervaluutan etsinnässä, valuutassa, jok
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Opittuamme, mistä Bitcoin on peräisin, keskitymme nyt sen historiaan itseensä. Siitä on vuosien varrella kirjoitettu lukuisia artikkeleita, podcasteja ja videoita, niin paljon, että siitä on melkein tullut eräänlainen perustamismyytti. Kuten olemme nähneet, Bitcoin on erottamaton siitä kontekstista, jossa se luotiin; sama pätee tapahtumiin, jotka tapahtuivat sen alkuvuosina, ja jotka ovat muovanneet sitä, mitä se on tänään, sen hyvine ja huonoine puoline.
 Bitcoinin loi Satoshi Nakamoto, tuntematon henkilö, joka väitti olevansa japanilainen, ja joka käytti aikaa harkiten suunnitellakseen sen ennen sen julkistamista. Tämän jälkeen hän teki kaikkensa varmistaakseen, että Bitcoin käynnistettiin parhaissa olosuhteissa, että siitä keskusteltiin hyvin, ja että yhä useammat ihmiset käyttivät sitä. Lopulta luojan ponnistelut olivat yhtä paljon järjestelmän taloudellisessa käynnistämisessä kuin sen alkuperäisessä suunnittelussa, ellei enemmänkin.
 
@@ -524,6 +536,8 @@ Tämä työ ei kuitenkaan riittänyt, ja Satoshi tarvitsi sinnikkyyttä järjest
 ## Esittely maailmalle
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Tutkittuamme, miten Bitcoin suunniteltiin ja käynnistettiin Satoshi Nakamoton toimesta, keskitymme siihen, miten se esiteltiin julkisesti. Sen käynnistämisen jälkeen vuoden 2009 alussa verkko oli toiminnassa, mutta generoivia solmuja oli vähän (Satoshi louhi valtaosan lohkoista) ja toimintaa oli käytännössä olematonta (tammikuun aikana tapahtui 32 todellista transaktiota). Projektille oli vain perusverkkosivusto ja SourceForge-sivu ohjelmiston lataamiseen. Lisäksi Bitcoinista tiedottaminen rajoittui Metzdowd Cryptography -postituslistalle, jota seurasi parhaimmillaan muutama sata kryptografiasta intohimoista ihmistä.
 
@@ -677,6 +691,9 @@ Syksyllä 2009 vaikutti siltä, että Bitcoin oli valmis kasvamaan. Ja juuri tuo
 ## Kryptovaluutan alkukäynnistys
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 Edellisissä luvuissa tarkastelimme, miten Satoshi Nakamoto toteutti ideansa ja miten hän viesti siitä maailmalle Bitcoinin esittelemiseksi. Kaikki ei kuitenkaan riippunut hänestä: oli myös tarpeen, että ihmiset antoivat arvoa tilikauden yksikölle. Koska tämä mahdollisti kaivosmiesten palkitsemisen transaktiomaksuilla ja palkitsi kauppiaita luonnollisen deflaation kautta, tällainen arvostus oli järjestelmän turvallisuuden kannalta olennaista.
 Bitcoinin arvon syntyminen ei kuitenkaan ollut helppo tehtävä. Kyse oli taloudellisen merkityksen antamisesta kohteelle, jolla ei aiemmin ollut sellaista, täysin subjektiivisista syistä. Hal Finney selitti sen erittäin hyvin [sähköpostissaan](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 11. tammikuuta 2009, joka oli osoitettu Kryptografia-postituslistalle, jossa hän kirjoitti:
 
@@ -797,6 +814,8 @@ Kuitenkaan tämä kysymys ei koskaan haitannut Satoshi Nakamotoa, joka näki uud
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 Edellisessä osassa tutkittiin, miten Bitcoin tuli olemassaolevaksi, miten se esiteltiin yleisölle ja miten sen taloudellinen käynnistäminen tapahtui. Keväällä 2010, kun bitcoinien kaupankäynti oli vasta alkamassa kukoistaa, Satoshi Nakamoton ja häntä tukevien harvojen ihmisten tavoitteena oli pitää liekki elossa. Onneksi muita yksilöitä liittyi ponnistuksiin, erityisesti louhija Laszlo Hanyecz ja kehittäjä Gavin Andresen, jotka erottuivat toimillaan.
 
 Tässä luvussa tarkastelemme ensimmäistä louhintaa näytönohjaimella (GPU), Satoshi Nakamoton kertynyttä omaisuutta, ensimmäistä fyysisen hyödykkeen ostoa bitcoineilla, bitcoin-hanan perustamista ilmaisten yksiköiden jakamiseksi ja ohjelmiston sekä verkon kehitystä ennen Slashdotia.
@@ -890,6 +909,8 @@ Kuitenkin kesäkuun lopussa toiminta verkossa pysyi melko vaatimattomana. Uusia 
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 Kesän 2010 alussa, huolimatta joistakin rohkaisevista alkukehityksistä, Bitcoin perustui huterille perusteille. Ohjelmistolla oli vain muutama kehittäjä Satoshi Nakamoton lisäksi. Louhijat olivat amatöörejä henkilökohtaisilla tietokoneillaan. Bitcoiniin liittyviä palveluita oli noin kaksikymmentä, ja varsinaiset vaihdantapalvelut olivat yhtä harvinaisia. Kuitenkin vuoden toisella puoliskolla asiat olivat muuttumassa radikaalisti.
 
 Tässä luvussa aiomme keskustella "suuresta slashdottingista", eli äkillisestä käyttäjämäärän kasvusta, joka seurasi Bitcoinin esittelyn julkaisemista suositulla Slashdot-verkkosivustolla 11. heinäkuuta 2010. Näemme, miten tämä teksti syntyi Satoshi Nakamoton viimeisenä kommunikaationa ja mitkä olivat tämän Bitcoinin suosion kasvun välittömät vaikutukset.
@@ -959,6 +980,8 @@ Seuraavina kuukausina tekniset, taloudelliset ja kaivosparannukset jatkoivat kuk
 ## Ensimmäiset tekniset ongelmat
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Kuten edellisessä luvussa mainittiin, Slashdotista tulleiden käyttäjien tulva 11. heinäkuuta 2010 aiheutti valtavan kiinnostuksen aallon Satoshi Nakamoton projektiin. Verkon käyttö räjähti; vaihtokurssi nousi kymmenkertaiseksi, samoin kuin järjestelmälle omistettu laskentateho. Näin Bitcoin koki ennennäkemättömän kasvun kesän aikana.
 
@@ -1034,6 +1057,8 @@ Seuraavina kuukausina tekniset, taloudelliset ja louhinnan parannukset jatkoivat
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 Edellisessä osassa tutkimme, miten Bitcoinin esittelyn julkaisu Slashdotissa (slashdotting) vaikutti ja kuinka alkuperäiset tekniset ongelmat hallittiin Satoshin ja hänen avustajiensa toimesta. Kesän loppuun mennessä projekti oli selvinnyt myrskystä ja oli valmis toivottamaan tervetulleeksi yhä suuremman määrän ihmisiä. Näin ollen syksy 2010 merkitsi Bitcoinille menestyksen aikaa.
 Tämä ajanjakso oli erityisesti kulta-aikaa louhinnalle, joka näki merkittäviä parannuksia ensimmäisten GPU-farmien ja ensimmäisen osuuskunnan myötä. Käyttöön otetut resurssit kasvoivat, ja omistautuneiden algoritmien suorituskyky parani. Se oli eräänlainen "digitaalinen kultakuume", kuten aikansa bloggaaja (käyttäen nimimerkkiä jimbobway) [kirjoitti](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), huomauttaen, että "tuhannet internetin käyttäjät" louhivat bitcoineja "toivoen omaisuutta" ja että monet heistä yrittivät "kehittää ohjelmistoja ja laitteistotyökaluja louhimaan bitcoineja tehokkaammin" toivoen tulevansa upporikkaiksi. (_alkuperäinen: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."_)
 
@@ -1096,6 +1121,9 @@ Syksy ei kuitenkaan ollut menestyksekäs vain kaivostoiminnalle. Se oli myös me
 ## Ekosysteemin kukoistus
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 Edellisessä luvussa tutkimme, kuinka louhinta kehittyi vuoden 2010 toisen puoliskon aikana. Syksyyn mennessä tämä edistys oli vakiintunut. Louhinta ei kuitenkaan ollut ainoa Bitcoinin menestyksen osa-alue: myös sen ekosysteemi menestyi.
 
 Tässä luvussa käsittelemme ensin Bitcoinin kansainvälisen vientitoiminnan alkua Venäjän ja Ranskan yhteisöjen kehittymisen myötä. Käymme sitten läpi viestinnän ja talouskasvun parannuksia, jotka erityisesti johtivat bitcoinin yksikköhinnan uuteen nousuun. Lopuksi mainitsemme kaksi erittäin symbolista tapahtumaa ennen Satoshi Nakamoton lähtöä: Bitcoinin hyväksyminen Electronic Frontier Foundationin toimesta ja Hal Finneyn paluu.
@@ -1196,6 +1224,8 @@ Syksyllä 2010 Bitcoinin ympärillä oleva ekosysteemi kehittyi merkittävästi.
 ## Satoshin Katoaminen
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Näimme, kuinka Bitcoin otti tuulta alleen Slashdotissa julkaistun tekstin jälkeen heinäkuussa 2010. Syksyllä, erilaisten ohjelmistojen, louhinnan ja talouden edistysaskelten myötä, tuntui että projekti oli vihdoin oikealla tiellä. Siksi tämä ajanjakso osui yhteen Satoshi Nakamoton asteittaisen vetäytymisen kanssa.
 
@@ -1311,6 +1341,8 @@ Tämä mystinen näkökulma Bitcoinin luojasta tiivistettiin hyvin Hal Finneyn t
 ## Yhteisön ottaminen haltuun
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Satoshi Nakamoton lähdön jälkeen tuli tarpeelliseksi jatkaa ilman häntä. Onneksi Bitcoin oli avoin projekti, johon kuka tahansa saattoi osallistua, joten sen perustajan katoaminen ei ollut kohtalokasta sille. Kuten kehittäjä Jeff Garzik kirjoitti heinäkuussa 2010 (perustajan poissaolon mahdollisuudesta):
 

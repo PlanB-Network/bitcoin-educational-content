@@ -34,6 +34,8 @@ Från renässansen till upplysningen undersöker kursen frihetens framväxt, pr�
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 
 Välkommen till PHI201!
 
@@ -84,6 +86,8 @@ Slutligen kommer detta avsnitt att undersöka hur välfärdsstaten gradvis fick 
 
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 
 Varför titulera den här kursen: Frihetens historia? För att vi behöver förstå sambandet mellan idéer och händelser för att kunna bedöma vår tid mer effektivt och agera med omdöme. Det är i det förflutna som vi hittar Elements för en bättre förståelse av vad frihet är och skälen till varför vi måste värna om den.
@@ -175,6 +179,8 @@ Ur detta perspektiv är det lagstiftarens uppgift att organisera, modifiera elle
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 
 När man slår upp läroböckerna, konstaterade Bastiat, får man veta att mänskligheten skulle vara dömd till intet utan maktens ingripande:
 
@@ -255,6 +261,8 @@ Några dagar innan han dog i Rom 1850 anförtrodde sig Bastiat åt sin vän Pros
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 
 Det är känt att segrarna skriver historien. Uppmärksamheten riktas ofta mot erövringen av makt, mot makthavarnas liv och mot de konflikter som står i motsättning till dem som vill ta deras plats.
 
@@ -315,6 +323,8 @@ Denna tes återfinns också i ett monumentalt verk från 1983: _Law and Revoluti
 
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Men det finns ett annat perspektiv på historien. Det har varit ganska framgångsrikt och har länge haft stöd av västerländska intellektuella och representanter från det globala syd. Det är den socialistiska och marxistiska historiesynen.
 
@@ -412,6 +422,8 @@ Sammanfattningsvis kan sägas att Europas ekonomiska och kulturella uppsving int
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 
 I det sista kapitlet i _Anatomy of the State_ (översatt till franska som _L'anatomie de l'Etat_, av Résurgence editions) föreslår Murray Rothbard en historieteori. Detta mycket korta kapitel har rubriken "History: En kapplöpning mellan statsmakt och social makt" Enligt Rothbard kan historien förstås som en evig konflikt mellan två grundläggande principer:
 
@@ -495,6 +507,8 @@ Och han tillägger:
 
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 
 Erfarenheterna av den atenska demokratin har lämnat ett bestående avtryck i det politiska tänkandets historia och fortsätter att inspirera till ideal om demokrati och medborgardeltagande i dagens värld.
@@ -633,6 +647,8 @@ De enda medel vi har för att närma oss sanningen är kritik och diskussion. Fr
 
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 
 Det romerska riket var en enorm, kosmopolitisk enhet. När det var som störst, omkring år 117 e.Kr., var det en enorm multietnisk och flerspråkig stat:
@@ -786,6 +802,8 @@ Cicero hävdade att lagen inte kan reduceras till enbart de lagar som den lagsti
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 
 Varför gick Rom tillbaka och föll till slut? Många vill gärna tro att romarriket kollapsade plötsligt, under påverkan av barbariska invasioner. Orsakerna till romarrikets kollaps går dock att finna långt tidigare, i imperialism och ekonomisk och monetär dirigism.
 
@@ -896,6 +914,8 @@ Och han tillägger:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 
 Det kristna frihetsbegreppet utvecklades i den medeltida teologin, från Sankt Augustinus på 400-talet till Sankt Thomas av Aquino på 1200-talet. Vad är detta för idé?
 
@@ -971,6 +991,8 @@ Enligt Saint Thomas:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 
 Under medeltiden tävlade förnuft och tro om att få tillgång till sanningen. Efter Abélard och Albert den store valde Thomas av Aquino på 1200-talet att försvara förnuftets självständighet i förhållande till tron.
 
@@ -1030,6 +1052,8 @@ Från och med då skulle den religiösa rationalismen definitivt segra över mys
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
 
 Under medeltiden ärvde kyrkan och de kristna monarkierna en politisk modell från romarriket, det s.k. teologisk-politiska systemet - ett system där makten betraktas som helig, vilket innebär att den politiska ledaren också är en religiös ledare.
 
@@ -1086,6 +1110,8 @@ Kyrkans teokratiska frestelse kolliderar också med teorin om "gudomlig rätt" O
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 
 Enligt antikens tankevärld var människan underordnad ett gudomligt kosmos, det vill säga ett perfekt universum som hon bara var en del av. Monoteismen, å andra sidan, hävdar människans oändligt överlägsna värde över naturen, i den mån människan är skapad till Guds avbild. Denna avgörande punkt är ursprunget till en sann etisk revolution. Bibeln bekräftar varje människas heliga och oändliga värde.
 
@@ -1139,6 +1165,8 @@ Idén om mänskligheten utvecklas. Man började faktiskt anse att det bara finns
 
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 
 Vi har sett att kristendomen ålägger människor en moralisk plikt att arbeta för att förbättra världen. Gud vill att människan ska vara lycklig, men vill inte uppnå sitt goda i hennes ställe. Det är därför upp till den kristne att bekämpa det moraliskt onda, att älska sin nästa, att hjälpa offren, kort sagt att arbeta för en mer rättvis och mänsklig värld. Är kapitalismen, det vill säga den fria ekonomin som bygger på privat egendom och avtalsfrihet, förenlig med den kristna plikten?
@@ -1229,6 +1257,8 @@ Om två olika valutor gynnas av ett lagligt betalningsmedel kommer aktörerna de
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 
 Från renässansen skulle Europa härjas av religionskrig. Tolerans blev därför en av upplysningstidens stora strider.
 
@@ -1313,6 +1343,8 @@ Att vara tolerant betyder med andra ord inte att man är fientlig mot religion. 
 
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 Ekonomisk liberalism förknippas ofta med en anglosaxisk tradition som härstammar från Adam Smith. Den ställs i motsats till "politisk liberalism", som sägs ha sitt ursprung i den kontinentala upplysningen, särskilt i Frankrike. Denna uppfattning är felaktig.
 
@@ -1408,6 +1440,8 @@ Kort sagt, om alla fritt kan driva sina privata intressen med respekt för natur
 
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 
 1776 är ett år som ofta går obemärkt förbi i historieböckerna. Men i tre länder - Frankrike, Skottland och Nordamerika - kommer flera händelser att lämna outplånliga spår i frihetens historia.
@@ -1555,6 +1589,8 @@ Begreppet spontan ordning blev en central tanke hos Friedrich Hayek, som erkänd
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 
 Den stora nyheten i denna moderna period i västvärldens historia är framväxten av ett samhälle som organiserar sig utanför ett religiöst beroende. Detta innebär inte att den religiösa tron försvinner eller att Gud dör. Men Gud blir en privat angelägenhet, som inte längre blandas med politiska angelägenheter. Religionen försvinner inte, men dess vägledande roll detroniseras. Den blir ett system av individuella trosföreställningar.
 
@@ -1696,6 +1732,8 @@ Detta är för övrigt innebörden av Friedrich Hayeks anmärkning i hans bok _T
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 
 Enligt Benjamin Constant kan frihet i moderna samhällen inte längre förstås på samma sätt som i antika kulturer, som ett direkt deltagande i stadens angelägenheter.
 
@@ -1767,6 +1805,8 @@ I ett fritt samhälle är det med andra ord nödvändigt att upprätta en strikt
 
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 
 Alexis de Tocqueville var en skarp iakttagare av demokratin och en kritiker av den demokratiska individualismen.
@@ -1877,6 +1917,8 @@ Ta en titt på jordklotet. Vilka är de lyckligaste, mest moraliska och fredliga
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 
 Det var under 1800-talet som kritiken av kapitalismen, särskilt den marxistiska kritiken, växte fram.
 
@@ -1920,6 +1962,8 @@ Den politiska revolutionen är därför en illusion, enligt honom, så länge de
 
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 
 Den österrikiska ekonomiska skolan, som grundades av Carl Menger i slutet av 1800-talet, motsatte sig redan från början Karl Marx teorier.
@@ -2012,6 +2056,8 @@ Redan 1922 visade Ludwig von Mises i sin bok _Socialism_ att socialismen skulle 
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 
 Hayek oroades av den ökande statliga interventionismen i ekonomierna i de västerländska demokratierna och skrev _The Road to Serfdom_ som en filosofisk kritik av kollektivism, oavsett om den kom från höger eller vänster. Boken gavs ut i flera miljoner exemplar tack vare _Reader's Digest_ och har i hög grad bidragit till Hayeks berömmelse i USA.
 
@@ -2072,6 +2118,8 @@ Avslutningsvis uppmanar Hayek sina samtida att vända ryggen åt "galenskapen" o
 
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 
 Kapitalismen anklagas ofta för att vara källan till uppmaningen: "Vi måste alltid producera mer", eller formeln "Konsumtion är bra för tillväxten" Dessa idéer härstammar dock inte från den traditionella kapitalismen utan från keynesianismen, som har dominerat den ekonomiska vetenskapen och den politiska klassen sedan 1930-talet.
@@ -2165,6 +2213,8 @@ Ingen religion har spridit sig över världen så snabbt som sysselsättningsrel
 
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 
 Pengar är ett verktyg som har gjort det möjligt för människor att gå bortom byteshandel, spara och samordna i stor skala genom marknaden. Det har möjliggjort specialisering av arbetskraft, komparativa fördelar, vinster från handel och ekonomiska beräkningar. Utan pengar skulle det inte finnas någon modern civilisation.

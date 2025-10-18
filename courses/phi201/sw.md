@@ -25,6 +25,8 @@ Kuanzia Renaissance hadi Mwangaza, kozi hii inachunguza kuongezeka kwa uhuru, un
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Karibu kwenye PH201!
 
 Kozi hii inakualika kuchunguza mageuzi ya uhuru katika historia kwa kuchanganua shule kuu za mawazo ambazo zimeiunda. Utagundua jinsi dhana ya uhuru imejengwa kwa karne nyingi, ama kwa kupinga au kushirikiana na mamlaka, kupitia safari ya kihistoria kutoka kwa Antiquity hadi mijadala ya kisasa.
@@ -55,6 +57,8 @@ Je, uko tayari kuanza safari hii ya kipekee ya kifalsafa katika harakati za kuta
 ## Utangulizi: Kuna falsafa mbili tu za kisiasa
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Kwa nini jina la kozi hii: historia ya uhuru? Kwa sababu tunahitaji kuelewa uhusiano kati ya mawazo na matukio, ili kuhukumu vyema zama zetu na kutenda kwa utambuzi. Ni katika siku za nyuma ambapo tunapata Elements kwa ufahamu bora wa uhuru ni nini na sababu kwa nini ni lazima tuuthamini.
 
@@ -119,6 +123,8 @@ Kwa mtazamo huu, dhamira ya mbunge ni kupanga, kurekebisha, hata kufuta mali iki
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 Mtu anapofungua vitabu vya kiada, Bastiat alibainisha, mtu hujifunza kwamba ubinadamu ungeangamizwa bila ya kuingiliwa kwa mamlaka:
 
 > "Inatosha kufungua, karibu kwa nasibu, kitabu cha falsafa, siasa, au historia kuona jinsi wazo hili lilivyokita mizizi katika nchi yetu, lililozaliwa na masomo ya kitambo na mama wa Ujamaa, kwamba ubinadamu ni jambo lisilo la kawaida linalopokea kutoka kwa maisha ya nguvu, shirika, maadili na utajiri; - au mbaya zaidi, kwamba ubinadamu wenyewe unaelekea kwenye uharibifu wake na unasimamishwa tu kwenye mteremko huu wa siri wa Baraza." ([_The Law_](http://bastiat.org/fr/la_loi.html)).
@@ -174,6 +180,8 @@ Siku chache kabla ya kifo chake huko Roma mnamo 1850, Bastiat alimwambia rafiki 
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 Inajulikana, historia imeandikwa na washindi. Tahadhari mara nyingi huelekezwa kwenye ushindi wa madaraka, maisha ya viongozi walio madarakani, na migogoro inayowapinga kwa wale wanaotaka kuchukua nafasi zao.
 
 ![image](assets/sw/010.webp)
@@ -215,6 +223,8 @@ Tasnifu hii pia inapatikana katika kazi kubwa iliyoanzishwa mwaka wa 1983: _Law 
 ## Marx: Historia kama Mapambano ya Hatari
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Mtazamo mwingine juu ya historia upo, hata hivyo. Imekuwa na mafanikio makubwa na kwa muda mrefu ilifurahia uungwaji mkono wa wasomi wa Magharibi na wawakilishi kutoka Global South. Huu ni mtazamo wa kisoshalisti na umaksi wa historia.
 
@@ -283,6 +293,8 @@ Kwa kuhitimisha sura hii, kupaa kwa Ulaya kiuchumi na kiutamaduni hakukutokana n
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 Katika sura ya mwisho ya _Anatomy of the State_ (iliyotafsiriwa kwa Kifaransa kama _L'anatomie de l'Etat_, na matoleo ya Résurgence), Murray Rothbard anapendekeza nadharia ya historia. Sura hii fupi sana inaitwa: Historia, mbio kati ya nguvu ya serikali na nguvu ya kijamii. Kulingana na Rothbard, historia inaweza kueleweka kama mzozo wa kudumu kati ya kanuni mbili za kimsingi:
 
 ![image](assets/sw/017.webp)
@@ -340,6 +352,8 @@ Na anaongeza:
 ## Uvumbuzi wa mantiki muhimu na Wagiriki
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 Uzoefu wa demokrasia ya Athene umeacha alama ya kudumu katika historia ya fikra za kisiasa na unaendelea kuhamasisha maadili ya demokrasia na ushiriki wa raia katika ulimwengu wa leo.
 
@@ -436,6 +450,8 @@ Njia pekee tunayopaswa kukabiliana na ukweli ni ukosoaji na majadiliano. Kwa hiv
 ## Uvumbuzi wa sheria na Warumi
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 Milki ya Kirumi ilikuwa shirika kubwa la ulimwengu. Katika kilele chake, karibu 117 BK, lilikuwa ni jimbo kubwa la makabila na lugha nyingi:
 
@@ -542,6 +558,8 @@ Akidai kuwa sheria haiwezi kupunguzwa kuwa tu sheria zilizotungwa na bunge, Cice
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Kwa nini Roma ilishuka na hatimaye kuanguka? Wengi wanapenda kufikiria kwamba Ufalme wa Kirumi ulianguka ghafla, chini ya athari za uvamizi wa washenzi. Hata hivyo, sababu za kuanguka kwa Dola ya Kirumi zinapatikana mapema zaidi, katika ubeberu na dirigisme ya kiuchumi na ya kifedha.
 
 
@@ -617,6 +635,8 @@ Na anaongeza:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 Wazo la Kikristo la uhuru lilikuzwa katika teolojia ya enzi ya Mtakatifu Augustino katika karne ya 4, hadi kwa Mtakatifu Thomas Aquinas katika karne ya 13. Wazo hili ni nini?
 
 ![image](assets/sw/037.webp)
@@ -667,6 +687,8 @@ Kulingana na Mtakatifu Thomas:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 Katika Enzi za Kati, akili na imani hushindana kupata ukweli. Kufuatia Abélard na Albert Mkuu, Thomas Aquinas, katika karne ya 13, alichagua kutetea haki za akili na uhuru wake kuhusiana na imani.
 
 ![image](assets/sw/040.webp)
@@ -709,6 +731,8 @@ Kuanzia hapo na kuendelea, urazini wa kidini ungeshinda kwa hakika juu ya fumbo.
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
 Katika Zama za Kati, Kanisa na monarchies za Kikristo zilirithi mfano wa kisiasa kutoka kwa Dola ya Kirumi, ambayo wanahistoria wanaiita mfumo wa kidini-kisiasa, kumaanisha mfumo ambapo nguvu ni takatifu, yaani, ambapo kiongozi wa kisiasa pia ni kiongozi wa kidini.
 
 Hii ndiyo sababu jamii za enzi za kati zina sifa ya umoja wa kisiasa-dini. Nguvu ya kisiasa inaweka msingi wake wa uhalali, mamlaka, na umoja wake kwenye imani ya Kikristo (au Mwislamu). Inajiona kuwa mlezi wa mafundisho ya kitamaduni na kidini na inawachukulia kama mapariha wale wanaotoka katika umoja huu. Katika muktadha huu, hata kama uvumilivu fulani ungeweza kukubaliwa kwa wale wanaojitenga na maono ya kawaida ya kitamaduni (kama vile Wayahudi), hakuna haki ya kuwepo kwa wingi ingeweza kutambuliwa kwao. Haikuwa hadi mwisho wa Enzi za Kati, pamoja na ushindi wa Amerika, kwamba tatizo la uhuru wa raia likawa muhimu kwa Kanisa na kuona kuibuka kwa falsafa ya kwanza ya sheria ambayo ilithibitisha na kulinda uhuru wa mtu binafsi, kuhalalisha wingi wa watu wengi, na kushutumu shuruti ya serikali.
@@ -748,6 +772,8 @@ Majaribu ya kitheokrasi ya Kanisa pia yanapingana na nadharia ya "haki ya kimung
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Mawazo ya kale yalimweka mwanadamu chini ya ulimwengu wa kimungu, yaani, ulimwengu mkamilifu ambao alikuwa sehemu yake tu. Imani ya Mungu Mmoja, kwa upande mwingine, inasisitiza thamani ya juu zaidi ya mwanadamu juu ya maumbile, kadiri mwanadamu ameumbwa kwa mfano wa Mungu. Jambo hili muhimu liko kwenye chimbuko la mapinduzi ya kweli ya kimaadili. Biblia inathibitisha thamani takatifu na isiyo na kikomo ya kila mwanadamu.
 
 Hii ndiyo sababu maadili ya kibiblia yanabadilisha uhusiano wetu na uovu. Inaleta hisia kali na isiyo na kifani kwa mateso ya mwanadamu. Kwa hiyo inatutia moyo tuyafikirie kuwa maovu yasiyo ya kawaida na yasiyoweza kuvumilika ambayo ubinadamu hadi wakati huo ulikuwa umeweza kustahimilika kikamilifu, hasa maovu yaliyotendwa kwa wengine, kwa wanyonge, kwa wasio na hatia.
@@ -785,6 +811,8 @@ Wazo la ubinadamu linaendelea. Ilikuja kuzingatiwa kwa ufanisi kwamba kuna ubina
 ## Michoro ya Kwanza ya Ubepari
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 Tumeona kwamba Ukristo unaweka wajibu wa kimaadili kwa watu kufanya kazi kuelekea uboreshaji wa ulimwengu. Mungu anataka mwanadamu awe na furaha lakini hataki kupata wema wake badala yake. Kwa hiyo ni juu ya Mkristo kupambana na uovu wa kimaadili, kumpenda jirani, kuwasaidia waathirika, kwa ufupi, kufanya kazi kwa ajili ya ulimwengu wa haki na utu. Je, ubepari, yaani, uchumi huria unaotegemea mali binafsi na uhuru wa mikataba, unaendana na wajibu wa Kikristo?
 
@@ -853,6 +881,8 @@ Zaidi ya hayo, ikiwa sarafu mbili tofauti zitanufaika na zabuni halali, mawakala
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 Tangu Renaissance, Ulaya ingeharibiwa na vita vya kidini. Uvumilivu, kwa hiyo, ukawa mojawapo ya vita vikubwa vya Kutaalamika.
 
 ![image](assets/sw/050.webp)
@@ -912,6 +942,8 @@ Kwa maneno mengine, kuwa mvumilivu haimaanishi kuwa na uadui na dini. Inamaanish
 ## Ombi la Uhuru wa Kiuchumi
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 Uliberali wa kiuchumi mara nyingi huhusishwa na mila ya Anglo-Saxon inayotokana na Adam Smith, ikilinganishwa na "liberalism ya kisiasa," ambayo inasemekana inatoka kwa Mwangaza wa bara, haswa nchini Ufaransa. Mtazamo huu sio sahihi.
 
@@ -977,6 +1009,8 @@ Kwa ufupi, ikiwa kila mtu anaweza kufuata kwa hiari maslahi yake binafsi kwa hes
 ## Mwaka Muhimu kwa Ulimwengu Huru: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 ni mwaka ambao mara nyingi hauonekani katika vitabu vya kiada vya historia. Lakini katika nchi tatu, Ufaransa, Scotland, na Amerika Kaskazini, matukio kadhaa yataacha alama isiyofutika katika historia ya uhuru.
 
@@ -1083,6 +1117,8 @@ Wazo hili la utaratibu wa hiari lingekuwa wazo kuu katika kazi ya Friedrich Haye
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 Riwaya kubwa ya kipindi hiki cha kisasa katika historia ya Magharibi ni kuibuka kwa jamii inayojipanga nje ya utegemezi wa kidini. Hii haimaanishi kutoweka kwa imani ya kidini au kifo cha Mungu. Lakini Mungu anakuwa ni jambo la faragha, lisilochanganyika tena na mambo ya kisiasa. Hakuna kutoweka kwa dini ila ni kupinduliwa kwa jukumu lake la kuongoza. Inakuwa mfumo wa imani ya mtu binafsi.
 
 Kutengwa huku kwa ulimwengu wa Magharibi hakukutokea mara moja. Iliandaliwa na mawazo. Kama kawaida, falsafa iko mstari wa mbele katika mabadiliko makubwa ya kitamaduni.
@@ -1179,6 +1215,8 @@ Zaidi ya hayo, hii ndiyo maana ya matamshi ya Friedrich Hayek katika kitabu chak
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 Kulingana na Benjamin Constant, uhuru, katika jamii zetu za kisasa, hauwezi tena kueleweka kwa namna ya jamii za Zamani kama ushiriki wa moja kwa moja katika mambo ya jiji.
 
 ![image](assets/sw/070.webp)
@@ -1227,6 +1265,8 @@ Kwa maneno mengine, katika jamii huru, ni muhimu kuweka mpaka mkali kati ya nyan
 ## Nguvu na Udhaifu wa Demokrasia
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville alikuwa mfuatiliaji makini wa demokrasia na mkosoaji wa ubinafsi wa kidemokrasia.
 
@@ -1301,6 +1341,8 @@ Angalia ulimwengu. Ni watu gani wenye furaha zaidi, wenye maadili mema zaidi na 
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 Ilikuwa ni wakati wa karne ya 19 ambapo ukosoaji wa ubepari, na haswa ukosoaji wa Kimarx, uliibuka.
 
 ![image](assets/sw/078.webp)
@@ -1330,6 +1372,8 @@ Kwa hiyo mapinduzi ya kisiasa ni udanganyifu, kwa mujibu wake, maadamu hayaambat
 ## Uhakiki wa Austria wa Umaksi
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 Shule ya Uchumi ya Austria, iliyoanzishwa na Carl Menger mwishoni mwa karne ya 19, ilipinga nadharia za Karl Marx tangu mwanzo.
 
@@ -1395,6 +1439,8 @@ Mapema mwaka 1922, katika kitabu chake _Ujamaa,_ Ludwig von Mises alionyesha kwa
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Akiwa ameshtushwa na kuongezeka kwa uingiliaji kati wa serikali katika uchumi wa demokrasia ya Magharibi, Hayek aliandika _The Road to Serfdom_ kama uhakiki wa kifalsafa wa umoja, iwe kutoka kulia au kushoto. Kitabu hiki kilichapishwa katika nakala milioni kadhaa, kutokana na _Reader’s Digest_, kimechangia pakubwa umaarufu wa Hayek nchini Marekani.
 
 ![image](assets/sw/086.webp)
@@ -1435,6 +1481,8 @@ Kwa kumalizia, Hayek anatoa wito kwa watu wa wakati wake kuupa kisogo "wazimu" n
 ## Ushindi wa Keynes
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Ubepari mara nyingi hushutumiwa kuwa chanzo cha amri: "lazima tuzalishe zaidi kila wakati," au ya fomula: "kuteketeza ni nzuri kwa ukuaji." Hata hivyo, mawazo haya hayatokani na ubepari wa kimapokeo bali unatokana na Ukenesia, ambao umetawala nyanja ya sayansi ya uchumi na tabaka la kisiasa tangu miaka ya 1930.
 
@@ -1500,6 +1548,8 @@ Hakuna dini iliyoenea ulimwenguni kote haraka kama ile ya ajira. Ikisukumwa na k
 ## Kuacha Kiwango cha Dhahabu
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Pesa ni chombo ambacho kimewaruhusu wanadamu kwenda zaidi ya kubadilishana fedha, kuweka akiba, na kuratibu kwa kiwango kikubwa kupitia soko. Imewezesha utaalam wa kazi, faida za kulinganisha, faida kutoka kwa biashara, hesabu ya kiuchumi. Bila pesa, hakuna ustaarabu wa kisasa.
 

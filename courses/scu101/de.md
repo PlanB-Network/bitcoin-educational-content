@@ -30,6 +30,8 @@ Théo; Beitragender
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Ziel: Verbessere deine Fähigkeiten bezüglich Datenschutz!**
 
 Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, dir das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu agieren.
@@ -84,6 +86,8 @@ Bist du bereit, deine digitale Sicherheit zu erhöhen und die Kontrolle über de
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Um beim Surfen im Internet deine Online-Sicherheit zu gewährleisten ist es wichtig gängige Fehler zu vermeiden. Hier sind einige Tipps, um sie zu vermeiden:
 
 ### Sei wachsam bei Software-Downloads:
@@ -124,6 +128,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPNs
 
 Der Schutz deiner Internetverbindung ist ein entscheidender Aspekt der Online-Sicherheit, und die Verwendung von virtuellen privaten Netzwerken (VPNs) ist eine effektive Methode, um diese Sicherheit sowohl für Unternehmen als auch für private Benutzer zu verbessern.
@@ -160,6 +166,8 @@ Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für 
 ## Umgang mit Computern
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digitalen Welt. Heute werden wir drei Schlüsselpunktthemen behandeln:
 
@@ -207,6 +215,8 @@ Zusammenfassend ist es entscheidend, ein Betriebssystem zu wählen, das deinen B
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Wie greifen Hacker an?
 
 Um sich gut zu schützen, ist es entscheidend zu verstehen, wie Hacker versuchen, deinen Computer zu infiltrieren. Viren kommen meist nicht aus dem Nichts, sondern sind eher die Folge unserer Handlungen, auch wenn sie unbeabsichtigt sind!
@@ -253,6 +263,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 Wir beginnen nun Abschnitt 2 des Kurses. In diesem Abschnitt werden wir drei wichtige Themen behandeln, um die Sicherheit des Online-Zugangs zu gewährleisten: das Management von E-Mails, die Verwendung eines Passwort-Managers und die Zwei-Faktor-Authentifizierung (2FA).
 
 ### Einrichtung eines neuen E-Mail-Kontos!
@@ -283,6 +295,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## Passwort-Manager
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Was ist ein Passwort-Manager?
 
@@ -331,6 +345,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## Zwei-Faktor-Authentifizierung
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Warum 2FA implementieren
 
@@ -463,6 +479,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 Die Cybersicherheit, ein aufstrebendes Gebiet, bietet zahlreiche Möglichkeiten für diejenigen, die sich für den Schutz von Systemen und Daten interessieren. Wenn du dich für diese Branche interessierst, findest du hier einige wichtige Schritte, um dich zu orientieren.
 
 ### Akademische Grundlagen und Zertifizierungen:
@@ -497,6 +515,8 @@ Wenn du diese Fähigkeiten und Tools beherrschst, bist du gut gerüstet, um dich
 ## Interview mit Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 

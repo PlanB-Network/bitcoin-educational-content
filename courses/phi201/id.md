@@ -22,6 +22,8 @@ Dari masa Renaisans hingga Pencerahan, kursus ini mengkaji kebangkitan kebebasan
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Selamat datang di kursus PHI201!
 
 Pelatihan ini mengundang Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
@@ -53,6 +55,8 @@ Siap memulai perjalanan filosofis unik ini dalam pencarian kebebasan? Mari kita 
 ## Hanya ada dua filosofi politik
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Mengapa memberi judul kursus ini: sejarah kebebasan? Karena kita perlu memahami hubungan antara ide dan peristiwa, untuk lebih baik menilai era kita dan bertindak dengan kebijaksanaan. Adalah di masa lalu kita menemukan elemen untuk pemahaman yang lebih baik tentang apa itu kebebasan dan alasan mengapa kita harus menghargainya.
 
@@ -113,6 +117,8 @@ Dari perspektif ini, misi legislator adalah untuk mengatur, memodifikasi, bahkan
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 Ketika seseorang membuka buku teks, Bastiat mencatat, seseorang belajar bahwa umat manusia akan ditakdirkan ke ketiadaan tanpa intervensi kekuasaan:
 
 > "Cukup dengan membuka, hampir secara acak, sebuah buku filsafat, politik, atau sejarah untuk melihat betapa dalamnya ide ini, yang lahir dari studi klasik dan ibu dari Sosialisme, bahwa umat manusia adalah materi yang tidak berdaya menerima dari kekuasaan hidup, organisasi, moralitas, dan kekayaan; — atau lebih buruk lagi, bahwa umat manusia itu sendiri cenderung menuju degradasinya dan hanya dihentikan pada lereng ini oleh tangan misterius dari Legislator." ([_Hukum_](http://bastiat.org/fr/la_loi.html)).
@@ -168,6 +174,8 @@ Beberapa hari sebelum kematiannya di Roma pada tahun 1850, Bastiat berbicara kep
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 Diketahui, sejarah ditulis oleh pemenang. Perhatian sering kali difokuskan pada penaklukan kekuasaan, pada kehidupan para pemimpin yang berkuasa, dan pada konflik yang menentang mereka kepada mereka yang ingin mengambil tempat mereka.
 
 ![image](assets/id/010.webp)
@@ -207,6 +215,9 @@ Tesis ini juga ditemukan dalam sebuah karya monumental yang berasal dari tahun 1
 ## Marx: Sejarah sebagai Perjuangan Kelas
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
+
 Namun, ada perspektif lain tentang sejarah yang juga ada. Ini telah cukup sukses dan lama menikmati dukungan dari intelektual Barat dan perwakilan dari Selatan Global. Ini adalah pandangan sejarah sosialis dan Marxis.
 ![image](assets/id/013.webp)
 
@@ -269,6 +280,8 @@ Ini adalah Eropa yang sangat terdesentralisasi yang melahirkan parlemen, diet, d
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 Dalam bab terakhir dari _Anatomy of the State_ (diterjemahkan ke dalam bahasa Prancis sebagai _L’anatomie de l’Etat_, oleh edisi Résurgence), Murray Rothbard mengusulkan teori sejarah. Bab yang sangat singkat ini berjudul: Sejarah, perlombaan antara kekuatan negara dan kekuatan sosial. Menurut Rothbard, sejarah dapat dipahami sebagai konflik abadi antara dua prinsip fundamental:
 
 ![image](assets/id/017.webp)
@@ -321,6 +334,9 @@ Dan dia menambahkan:
 ## Penemuan rasionalitas kritis oleh orang Yunani
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
 Pengalaman demokrasi Athena telah meninggalkan bekas yang abadi dalam sejarah pemikiran politik dan terus menginspirasi ideal-ideal demokrasi dan partisipasi warga di dunia saat ini.
 ![image](assets/id/020.webp)
 
@@ -409,6 +425,8 @@ Satu-satunya cara yang kita miliki untuk mendekati kebenaran adalah kritik dan d
 ## Penemuan hukum oleh Romawi
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 Kekaisaran Romawi adalah entitas kosmopolitan yang luas. Pada puncaknya, sekitar tahun 117 M, itu adalah negara multi-etnis dan multibahasa yang luas:
 
@@ -507,6 +525,8 @@ Dengan menyatakan bahwa hukum tidak dapat direduksi menjadi hanya statuta yang d
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Mengapa Roma mengalami kemunduran dan akhirnya jatuh? Banyak yang suka berpikir bahwa Kekaisaran Romawi runtuh secara tiba-tiba, di bawah dampak invasi barbar. Namun, penyebab runtuhnya Kekaisaran Romawi dapat ditemukan jauh lebih awal, dalam imperialisme dan dirigisme ekonomi dan moneter.
 
 
@@ -578,6 +598,8 @@ Dan dia menambahkan:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 Ide kebebasan Kristen berkembang dalam teologi abad pertengahan Santo Agustinus pada abad ke-4, hingga Santo Thomas Aquinas pada abad ke-13. Apa ide ini?
 
 ![image](assets/id/037.webp)
@@ -628,6 +650,8 @@ Menurut Santo Thomas:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 Pada Abad Pertengahan, akal dan iman bersaing untuk mengakses kebenaran. Mengikuti Abélard dan Albertus Magnus, Thomas Aquinas, pada abad ke-13, memilih untuk membela hak-hak akal dan otonominya terhadap iman.
 
 ![image](assets/id/040.webp)
@@ -665,6 +689,8 @@ Sejak saat itu, rasionalisme agama akan secara definitif mengungguli mistisisme.
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
 Pada Abad Pertengahan, Gereja dan monarki Kristen mewarisi model politik dari Kekaisaran Romawi, yang oleh sejarawan disebut sistem teologis-politik, yang berarti sistem di mana kekuasaan adalah sakral, yaitu, di mana pemimpin politik juga merupakan pemimpin agama.
 Inilah mengapa masyarakat abad pertengahan dicirikan oleh unanimisme politik-religius. Basis kekuasaan politik mendapatkan legitimasi, otoritas, dan kesatuan dari iman Kristen (atau Muslim). Mereka menganggap diri mereka sebagai penjaga ortodoksi budaya dan agama dan memperlakukan sebagai orang buangan mereka yang menyimpang dari keseragaman ini. Dalam konteks ini, meskipun toleransi tertentu bisa diberikan kepada mereka yang terlepas dari visi budaya bersama (seperti Yahudi), tidak ada hak pluralisme yang bisa diakui untuk mereka. Baru pada akhir Abad Pertengahan, dengan penaklukan Amerika, masalah kebebasan sipil menjadi krusial bagi Gereja dan melihat kemunculan filsafat hukum pertama yang menegaskan dan melindungi kebebasan individu, melegitimasi pluralisme, dan mengutuk paksaan negara.
 
@@ -700,6 +726,9 @@ Godaan teokratis Gereja juga bertentangan dengan teori "hak ilahi." Jika raja-ra
 ## Etika Biblikal: Nilai Suci Individu
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Pemikiran kuno menempatkan manusia di bawah kosmos ilahi, yaitu, ke dalam semesta yang sempurna di mana ia hanyalah sebuah bagian. Sebaliknya, monoteisme menegaskan nilai manusia yang tak terhingga lebih tinggi daripada alam, sejauh manusia diciptakan menurut gambar Tuhan. Poin penting ini merupakan asal mula revolusi etika yang sejati. Alkitab menegaskan nilai suci dan tak terhingga dari setiap manusia.
 
 Inilah sebabnya etika biblikal mengubah hubungan kita dengan kejahatan. Ini membawa sensitivitas tajam dan belum pernah terjadi sebelumnya terhadap penderitaan manusia. Oleh karena itu, ini mendorong kita untuk menganggap sebagai hal yang tidak normal dan tidak dapat ditolerir kejahatan yang sampai saat itu umat manusia anggap dapat ditoleransi, terutama kejahatan yang dilakukan terhadap orang lain, terhadap yang lemah, terhadap yang tidak bersalah.
@@ -736,6 +765,8 @@ Ide kemanusiaan berkembang. Secara efektif mulai dipertimbangkan bahwa hanya ada
 ## Sketsa Pertama Kapitalisme
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 Kita telah melihat bahwa Kekristenan memberikan kewajiban moral kepada orang-orang untuk bekerja menuju perbaikan dunia. Tuhan menginginkan manusia untuk bahagia tetapi tidak ingin mencapai kebaikan-Nya di tempatnya. Oleh karena itu, terserah kepada orang Kristen untuk melawan kejahatan moral, mencintai sesama, membantu korban, singkatnya, bekerja untuk dunia yang lebih adil dan manusiawi. Apakah kapitalisme, yaitu, ekonomi bebas berdasarkan pada kepemilikan pribadi dan kebebasan kontrak, kompatibel dengan kewajiban Kristen?
 
@@ -800,6 +831,9 @@ Lebih lanjut, jika dua mata uang berbeda mendapat manfaat dari tender legal, age
 ## Pembelaan untuk Toleransi Agama
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
+
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 Sejak zaman Renaissance, Eropa telah dilanda oleh perang agama. Oleh karena itu, toleransi menjadi salah satu pertarungan besar dari Pencerahan.
 
 ![image](assets/id/050.webp)
@@ -853,6 +887,9 @@ Dengan kata lain, menjadi toleran tidak berarti menjadi bermusuhan dengan agama.
 ## Pembelaan untuk Kebebasan Ekonomi
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
 Liberalisme ekonomi sering dikaitkan dengan tradisi Anglo-Saxon yang berasal dari Adam Smith, dibandingkan dengan "liberalisme politik," yang dikatakan berasal dari Pencerahan kontinental, khususnya di Prancis. Pandangan ini tidak benar.
 
 ![image](assets/id/053.webp)
@@ -913,6 +950,8 @@ Singkatnya, jika setiap orang dapat dengan bebas mengejar kepentingan pribadi me
 ## Tahun Kunci untuk Dunia Bebas: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 adalah tahun yang sering tidak mendapat perhatian dalam buku teks sejarah. Namun, di tiga negara, Prancis, Skotlandia, dan Amerika Utara, beberapa peristiwa akan meninggalkan bekas yang tidak terhapuskan dalam sejarah kebebasan.
 
@@ -1014,6 +1053,8 @@ Ide tentang tatanan spontan ini akan menjadi konsep kunci dalam karya Friedrich 
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 Novelitas besar dari periode modern ini dalam sejarah Barat adalah munculnya masyarakat yang mengorganisir dirinya di luar ketergantungan agama. Ini tidak berarti hilangnya kepercayaan agama atau kematian Tuhan. Tetapi Tuhan menjadi urusan pribadi, tidak lagi bercampur dengan urusan politik. Tidak ada hilangnya agama tetapi penurunan peran panduannya. Ini menjadi sistem keyakinan individu.
 
 Sekularisasi dunia Barat tidak terjadi dalam semalam. Hal itu dipersiapkan oleh ide-ide. Seperti seringkali, filsafat berada di garis depan perubahan budaya besar.
@@ -1107,6 +1148,8 @@ Ini, terlebih lagi, adalah makna dari komentar oleh Friedrich Hayek dalam bukuny
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 Menurut Benjamin Constant, kebebasan, dalam masyarakat modern kita, tidak lagi dapat dipahami seperti masyarakat Antikuitas sebagai partisipasi langsung dalam urusan kota.
 
 ![image](assets/id/070.webp)
@@ -1156,6 +1199,8 @@ Dengan kata lain, dalam masyarakat yang bebas, perlu untuk menetapkan batasan ya
 ## Kekuatan dan Kelemahan Demokrasi
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville adalah pengamat demokrasi yang tajam dan kritikus individualisme demokratis.
 
@@ -1230,6 +1275,8 @@ Lihatlah dunia. Mana yang paling bahagia, paling bermoral, dan paling damai? Mer
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 Kritik terhadap kapitalisme, dan khususnya kritik Marxisme, muncul selama abad ke-19.
 
 ![image](assets/id/078.webp)
@@ -1259,6 +1306,8 @@ Revolusi politik oleh karena itu adalah ilusi, menurutnya, selama tidak disertai
 ## Kritik Austria terhadap Marxisme
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 Sekolah Ekonomi Austria, yang didirikan oleh Carl Menger pada akhir abad ke-19, menentang teori Karl Marx sejak awal.
 
@@ -1319,6 +1368,8 @@ Sejak awal tahun 1922, dalam bukunya _Socialism,_ Ludwig von Mises menunjukkan b
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Terkejut oleh meningkatnya intervensi pemerintah dalam ekonomi demokrasi Barat, Hayek menulis _The Road to Serfdom_ sebagai kritik filosofis terhadap kolektivisme, baik dari kanan maupun kiri. Diterbitkan dalam beberapa juta eksemplar, berkat _Reader’s Digest_, buku ini telah sangat berkontribusi pada ketenaran Hayek di Amerika Serikat.
 
 ![image](assets/id/086.webp)
@@ -1359,6 +1410,8 @@ Kesimpulannya, Hayek meminta rekan-rekannya untuk berpaling dari "kegilaan" dan 
 ## Kemenangan Keynes
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Kapitalisme sering dituduh sebagai sumber perintah: "kita harus selalu memproduksi lebih banyak," atau dari formula: "konsumsi itu baik untuk pertumbuhan." Namun, ide-ide ini tidak berasal dari kapitalisme tradisional tetapi dari Keynesianisme, yang telah mendominasi bidang ilmu ekonomi dan kelas politik sejak tahun 1930-an.
 
@@ -1418,6 +1471,8 @@ Tidak ada agama yang menyebar ke seluruh dunia secepat agama pekerjaan. Didorong
 ## Meninggalkan Standar Emas
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Uang adalah alat yang memungkinkan manusia untuk melampaui barter, untuk menyimpan, dan untuk berkoordinasi dalam skala besar melalui pasar. Ini telah memungkinkan spesialisasi tenaga kerja, keuntungan komparatif, keuntungan dari perdagangan, perhitungan ekonomi. Tanpa uang, tidak ada peradaban modern.
 

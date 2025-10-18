@@ -25,6 +25,8 @@ From the Renaissance to the Enlightenment, the course examines the rise of freed
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Welcome to PHI201!
 
 This course invites you to explore the evolution of freedom throughout history by analyzing the major schools of thought that have shaped it. You will explore how the concept of freedom has evolved over the centuries, either in opposition to or in collaboration with power, through a historical journey from Antiquity to contemporary debates.
@@ -56,6 +58,8 @@ Ready to embark on this unique philosophical journey on the quest for freedom? L
 ## There are only two political philosophies
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Why title this course: A History of Freedom? Because we need to understand the relationship between ideas and events to judge our era more effectively and act with discernment. It is in the past that we find the elements for a better understanding of what freedom is and the reasons why we must cherish it.
 
@@ -117,6 +121,8 @@ From this perspective, the legislator's mission is to organize, modify, or even 
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 When one opens textbooks, Bastiat noted, one learns that humanity would be doomed to nothingness without the intervention of power:
 
 > "It suffices to open, almost at random, a book of philosophy, politics, or history to see how deeply rooted in our country is this idea, born of classical studies and the mother of Socialism, that humanity is an inert matter receiving from power life, organization, morality, and wealth; — or worse, that humanity itself tends towards its degradation and is only stopped on this slope by the mysterious hand of the Legislator." ([_The Law_](http://bastiat.org/fr/la_loi.html)).
@@ -175,6 +181,8 @@ A few days before he died in Rome in 1850, Bastiat confided to his friend Prospe
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 It is known that the victors write history. Attention is often focused on the conquest of power, on the lives of leaders in power, and on the conflicts that oppose them to those who wish to take their place.
 
 ![image](assets/en/010.webp)
@@ -217,6 +225,9 @@ This thesis is also found in a monumental work dating from 1983: _Law and Revolu
 ## Marx: History as Class Struggle
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
+
 Another perspective on history does exist, however. It has been quite successful and has long enjoyed the support of Western intellectuals and representatives from the Global South. This is the socialist and Marxist view of history.
 ![image](assets/en/013.webp)
 
@@ -284,6 +295,8 @@ In conclusion to this chapter, Europe's economic and cultural takeoff was not du
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 In the last chapter of _Anatomy of the State_ (translated into French as _L’anatomie de l’Etat_, by Résurgence editions), Murray Rothbard proposes a theory of history. This very short chapter is titled 'History: A Race Between State Power and Social Power.' According to Rothbard, history can be understood as a perpetual conflict between two fundamental principles:
 
 ![image](assets/en/017.webp)
@@ -340,6 +353,8 @@ And he adds:
 ## The invention of critical rationality by the Greeks
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 The experience of Athenian democracy has left a lasting mark on the history of political thought and continues to inspire ideals of democracy and citizen participation in today's world.
 
@@ -433,6 +448,8 @@ The only means we have to approach the truth are criticism and discussion. From 
 ## The invention of law by the Romans
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 The Roman Empire was a vast, cosmopolitan entity. At its peak, around 117 AD, it was an immense multiethnic and multilingual state:
 
@@ -537,6 +554,8 @@ Asserting that law cannot be reduced to merely the statutes enacted by the legis
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Why did Rome decline and ultimately fall? Many like to think that the Roman Empire collapsed suddenly, under the impact of barbarian invasions. However, the causes of the Roman Empire's collapse are to be found much earlier, in imperialism and economic and monetary dirigisme.
 
 
@@ -611,6 +630,8 @@ And he adds:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 The Christian concept of freedom developed in medieval theology, from Saint Augustine in the 4th century to Saint Thomas Aquinas in the 13th century. What is this idea?
 
 ![image](assets/en/037.webp)
@@ -664,6 +685,8 @@ According to Saint Thomas:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 In the Middle Ages, reason and faith competed for access to truth. Following Abélard and Albert the Great, Thomas Aquinas, in the 13th century, chose to defend the autonomy of reason in relation to faith.
 
 ![image](assets/en/040.webp)
@@ -702,6 +725,8 @@ From then on, religious rationalism would definitively prevail over mysticism.
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
 In the Middle Ages, the Church and Christian monarchies inherited a political model from the Roman Empire, known as the theologico-political system —a system in which power is considered sacred, meaning that the political leader is also a religious leader.
 
 This is why a politico-religious unanimity characterizes medieval societies. Political power bases its legitimacy, authority, and unity on the Christian faith (or the Muslim faith). It considers itself the guardian of cultural and religious orthodoxy and treats as pariahs those who stray from this unanimity. In this context, even if a certain tolerance could be conceded to those who detach from the common cultural vision (such as Jews), no right to pluralism could be recognized for them. It was not until the end of the Middle Ages, with the conquest of America, that the issue of civil liberties became crucial to the Church, giving rise to a new philosophy of law that affirmed and protected individual freedoms, legitimized pluralism, and condemned state coercion.
@@ -739,6 +764,8 @@ The Church's theocratic temptation also clashes with the theory of "divine right
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Ancient thought subordinated man to a divine cosmos, that is, to a perfect universe of which he was merely a part. Monotheism, on the other hand, asserts the infinitely superior value of man over nature, insofar as man is created in the image of God. This crucial point is at the origin of a true ethical revolution. The Bible affirms the sacred and infinite value of each human being.
 
 This is why biblical ethics change our relationship to evil. It brings a sharp and unprecedented sensitivity to human suffering. It therefore encourages us to consider as abnormal and unbearable evils that humanity had previously found perfectly bearable, especially the evil done to others, the weak, and the innocent.
@@ -773,6 +800,8 @@ The idea of humanity progresses. It effectively came to be considered that there
 ## The First Sketches of Capitalism
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 We have seen that Christianity imposes a moral duty on people to work towards improving the world. God wants man to be happy, but does not want to achieve his good in his place. It is therefore up to the Christian to fight moral evil, to love their neighbor, to help the victims, in short, to work for a more just and humane world. Is capitalism, that is, the free economy based on private property and the freedom of contracts, compatible with the Christian duty?
 
@@ -842,6 +871,8 @@ Moreover, if two different currencies benefit from legal tender, agents will hoa
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 From the Renaissance, Europe was to be ravaged by wars of religion. Tolerance, therefore, became one of the great battles of the Enlightenment.
 ![image](assets/en/050.webp)
 
@@ -897,6 +928,9 @@ In other words, being tolerant does not mean being hostile to religion. It means
 ## Plea for Economic Freedom
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
 Economic liberalism is often associated with an Anglo-Saxon tradition, stemming from Adam Smith. It is contrasted with "political liberalism," which is said to originate from the Continental Enlightenment, particularly in France. This view is incorrect.
 
 ![image](assets/en/053.webp)
@@ -959,6 +993,8 @@ In short, if everyone can freely pursue their private interest in respect of nat
 ## A Key Year for the Free World: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 is a year that often goes unnoticed in history textbooks. However, in three countries — France, Scotland, and North America — several events will leave an indelible mark on the history of freedom.
 
@@ -1061,6 +1097,8 @@ The concept of spontaneous order became a key idea in the work of Friedrich Haye
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 The great novelty of this modern period in Western history is the emergence of a society that organizes itself outside of religious dependency. This does not mean the disappearance of religious belief or the death of God. But God becomes a private matter, no longer mixed with political affairs. There is no disappearance of religion but a dethroning of its guiding role. It becomes a system of individual beliefs.
 
 The secularization of the Western world did not occur overnight. It was prepared with ideas. As is often the case, philosophy is at the forefront of major cultural changes.
@@ -1156,6 +1194,8 @@ This is, moreover, the meaning of the remark by Friedrich Hayek in his book _The
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 According to Benjamin Constant, liberty in modern societies can no longer be understood in the manner of ancient cultures, as direct participation in the city's affairs.
 
 ![image](assets/en/070.webp)
@@ -1207,6 +1247,8 @@ In other words, in a free society, it is necessary to establish a strict boundar
 ## Strengths and Weaknesses of Democracy
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville was a keen observer of democracy and a critic of democratic individualism.
 
@@ -1284,6 +1326,8 @@ Take a look at the globe. Which are the happiest, most moral, and most peaceful 
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 It was during the 19th century that the critique of capitalism, particularly the Marxist critique, emerged.
 
 ![image](assets/en/078.webp)
@@ -1312,6 +1356,8 @@ Political revolution is, therefore, an illusion, according to him, as long as it
 ## The Austrian Critique of Marxism
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 The Austrian School of Economics, founded by Carl Menger at the end of the 19th century, opposed Karl Marx's theories from the start.
 
@@ -1372,6 +1418,8 @@ As early as 1922, in his book _Socialism,_ Ludwig von Mises demonstrated that so
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Alarmed by the rise of government interventionism in the economies of Western democracies, Hayek wrote _The Road to Serfdom_ as a philosophical critique of collectivism, whether from the right or the left. Published in several million copies, thanks to the _Reader’s Digest_, this book has greatly contributed to Hayek's fame in the United States.
 
 ![image](assets/en/086.webp)
@@ -1414,6 +1462,8 @@ In conclusion, Hayek calls on his contemporaries to turn their backs on the "mad
 ## The Triumph of Keynes
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Capitalism is often accused of being the source of the injunction: "we must always produce more," or of the formula: "consuming is good for growth." However, these ideas do not stem from traditional capitalism but from Keynesianism, which has dominated the field of economic science and the political class since the 1930s.
 
@@ -1475,6 +1525,8 @@ No religion has spread across the world as quickly as that of employment. Driven
 ## Abandoning the Gold Standard
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Money is a tool that has enabled humans to move beyond barter, save, and coordinate on a large scale through the market. It has made possible the specialization of labor, comparative advantage, gains from trade, and economic calculation. Without money, there would be no modern civilization.
 

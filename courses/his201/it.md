@@ -22,6 +22,9 @@ Questo corso è, naturalmente, centrato sulla figura di Satoshi Nakamoto, di cui
 
 ## Panoramica del corso
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Benvenuto al corso HIS201!
 Questo corso mira a raccontarti la storia della creazione di Bitcoin in un modo che non hai mai letto prima. Spesso trascurata, è tuttavia ricca di dettagli affascinanti. Ci impegneremo a descriverla in tutta la sua complessità, dalla sua concezione da parte di Satoshi Nakamoto alla sua precoce scomparsa e il passaggio di testimone alla community.
 
@@ -87,6 +90,8 @@ Pronto a esplorare l'incredibile saga della creazione di Bitcoin? Allora immergi
 
 ## eCash: Il contante digitale di Chaum
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
 
 Prima di addentrarci nella vera e propria storia della creazione di Bitcoin da parte di Satoshi Nakamoto, è opportuno discutere ciò che l'ha preceduto. Affronteremo l'argomento in tre fasi: come prima cosa, introdurremo il concetto di denaro digitale Chaumiano comunemente chiamato *eCash*; poi, parleremo delle valute private basate su sistemi centralizzati come e-gold; infine, descriveremo i modelli tecnici che sono stati ideati prima dell'implementazione del potente sistema distribuito che è Bitcoin.
 Iniziamo con il primo concetto, eCash. eCash deriva dal lavoro di David Chaum, uno scienziato informatico e crittografo americano nato nel 1955, considerato un pioniere nel campo delle comunicazioni anonime e un precursore dei cypherpunk. Ha dato un contributo importante allo sviluppo della crittografia negli anni '80. Ha sviluppato il suo modello di denaro digitale (noto come "Chaumiano") nello stesso periodo e ha tentato di implementarlo negli anni '90 attraverso la sua azienda DigiCash.
@@ -206,6 +211,8 @@ Con Bitcoin, Satoshi Nakamoto ha creato una valuta digitale forte e confidenzial
 ## Valute digitali private
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 Nel capitolo precedente, abbiamo esplorato la prima forma di contante elettronico che è emersa dall'avvento di Internet e della crittografia moderna: il modello eCash di David Chaum. Questo modello ha influenzato significativamente Satoshi Nakamoto ed è stata una pietra miliare fondamentale sul cammino che ha portato a Bitcoin. Tuttavia, la storia delle origini della criptovaluta non finisce con eCash; include anche gli esperimenti con valute private operanti su Internet, sviluppate dalla fine degli anni '90.
 
 In questo capitolo, esamineremo cosa è stato fatto nel regno delle valute private negli Stati Uniti. Discuteremo prima il caso del Liberty Dollar. Poi, esamineremo sistemi centralizzati come e-gold e Liberty Reserve. Infine, parleremo di PayPal, il cui approccio è diverso, ma serve comunque come esempio illuminante del modello basato su una terza parte fidata.
@@ -279,6 +286,8 @@ Proprio a causa di questa fragilità dei sistemi centralizzati che i sostenitori
 
 ## Modelli decentralizzati prima di Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 Bitcoin rappresenta un modello decentralizzato di valuta digitale. In questo modo, si evita la presenza di una terza parte fidata, che costituirebbe un singolo punto di fallimento nel sistema. Come mostrato dagli esempi di eCash, valute digitali in oro e Liberty Reserve, la centralizzazione di un sistema che intende essere un'alternativa al sistema esistente porta inevitabilmente alla sua chiusura, in un modo o nell'altro.
 Tuttavia, Bitcoin non è stato il primo progetto di valuta decentralizzata. Già alla fine degli anni ’90, i cosiddetti cypherpunk avevano descritto modelli simili: erano appassionati di libertà e privacy online, e temevano che i sistemi troppo controllati potessero portare a un futuro distopico, come sosteneva anche David Chaum.
@@ -417,6 +426,8 @@ Bitcoin raggiunge così il culmine di una ricerca per la cybermoneta, una valuta
 ## La nascita di Bitcoin
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Dopo aver appreso da dove proviene Bitcoin, ora ci concentreremo sulla sua storia. Questo argomento è stato oggetto di numerosi articoli, podcast e video, tanto da essere quasi diventato un mito. Come abbiamo visto, Bitcoin è inseparabile dal contesto in cui è stato creato; lo stesso vale per gli eventi che si sono verificati durante i suoi primi anni, che hanno plasmato ciò che è oggi, con i suoi pregi e difetti.
 Bitcoin è stato creato da Satoshi Nakamoto, un individuo sconosciuto che si dichiara giapponese, il quale ha impiegato del tempo per progettarlo attentamente prima di svelarlo al pubblico. Successivamente, ha fatto di tutto per garantire che Bitcoin fosse lanciato nel migliore dei modi, che fosse ben presentato nelle discussioni e che fosse utilizzato da un numero crescente di persone. In definitiva, lo sforzo del creatore è stato tanto nell'avvio del sistema economico quanto nella sua progettazione iniziale.
 
@@ -547,6 +558,8 @@ Tuttavia, questo lavoro non è stato sufficiente e ci è voluta la perseveranza 
 
 ## Presentazione al mondo
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Dopo aver esaminato come Bitcoin è stato progettato e lanciato da Satoshi Nakamoto, concentriamoci su come è stato presentato pubblicamente. Seguendo il suo lancio all'inizio del 2009, il network era operativo, ma c'erano pochi miners (Satoshi ha minato la gran parte dei blocchi) e l'attività era praticamente inesistente (solo 32 transazioni nel mese di gennaio). Il progetto aveva solo un sito web di base e una pagina SourceForge per scaricare il software. Inoltre, la comunicazione su Bitcoin era limitata alla mailing list sulla crittografia Metzdowd, seguita al massimo da qualche centinaio di persone appassionate di crittografia.
 
@@ -707,6 +720,8 @@ Nell'autunno del 2009, sembrava che Bitcoin fosse pronto a crescere. Ed è stato
 ## L'avvio della criptovaluta
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 Nei capitoli precedenti, abbiamo visto come Satoshi Nakamoto abbia implementato la sua idea e come l'abbia comunicata per presentare Bitcoin al mondo. Tuttavia, non tutto dipendeva da lui: era anche necessario che le persone attribuissero valore all'unità di conto. Dato che ciò permetteva la remunerazione dei miners attraverso le commissioni e premiava gli utenti attraverso la deflazione naturale, tale apprezzamento era essenziale per la sicurezza del sistema.
 
 L'emergere del valore di Bitcoin, tuttavia, non è stato un compito facile. Si trattava infatti di dare importanza economica a un oggetto che precedentemente non ne aveva, per motivi del tutto soggettivi. Hal Finney lo spiegò molto bene nella sua [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) dell'11 gennaio 2009, indirizzata alla mailing list di Cryptography, dove scrisse:
@@ -831,6 +846,8 @@ Tuttavia, tale questione non ha mai disturbato Satoshi, che vedeva l'avvio di un
 ## Schede grafiche, pizze e Bitcoin gratuiti
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 Nel capitolo precedente, abbiamo esplorato come è nato Bitcoin, come sia stato introdotto al pubblico e come sia stato avviato economicamente. Nella primavera del 2010, mentre gli scambi in bitcoin stavano iniziando a fiorire, l'obiettivo di Satoshi Nakamoto e delle poche persone che lo sostenevano era mantenere viva la fiamma. Fortunatamente, altre persone si unirono allo causa, in particolare il miner Laszlo Hanyecz e lo sviluppatore Gavin Andresen, che si distinsero per le loro azioni.
 
 In questo capitolo, esamineremo il primo dispiegamento del mining tramite unità di elaborazione grafica (GPU), la fortuna accumulata da Satoshi Nakamoto, il primo acquisto di un bene fisico con bitcoin, l'istituzione di un "bitcoin faucet" che distribuiva bitcoin gratis, l'evoluzione del software e del network prima di Slashdot.
@@ -931,6 +948,8 @@ Tuttavia, alla fine di giugno, l'attività sul network rimase piuttosto modesta.
 ## Il grande slashdotting
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 All'inizio dell'estate del 2010, nonostante alcuni incoraggianti sviluppi iniziali, Bitcoin si basava su fondamenta ancora instabili. Il software aveva pochi sviluppatori oltre a Satoshi Nakamoto. I miner erano neofiti che usavano i propri computer personali. C'erano circa venti servizi legati a Bitcoin, e gli scambi reali erano altrettanto rari. Tuttavia, le cose stavano per cambiare drasticamente durante la seconda metà dell'anno.
 
 In questo capitolo, parliamo del "grande slashdotting," ovvero l'improvviso afflusso di utenti in seguito alla pubblicazione di una presentazione di Bitcoin sul popolare sito web Slashdot, l'11 luglio 2010. Vedremo come questo testo venne riconosciuto come l'ultimo sforzo di comunicazione da parte di Satoshi, e quali furono gli effetti che seguirono alla conseguente diffusione di Bitcoin.
@@ -1004,6 +1023,8 @@ Nei mesi successivi, continuarono a fiorire miglioramenti tecnici, economici e d
 
 ## I primi problemi tecnici
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Come menzionato nell'ultimo capitolo, l'afflusso di utenti da Slashdot l'11 luglio 2010, causò un'enorme ondata di interesse nel progetto di Satoshi Nakamoto. L'utilizzo del network esplose; il valore di bitcoin crebbe di dieci volte, così come la potenza di calcolo dedicata al sistema. Così, Bitcoin registrò una crescita senza precedenti durante l'estate.
 
@@ -1084,6 +1105,8 @@ Nei mesi successivi, continuarono a emergere miglioramenti tecnici, economici e 
 ## La corsa all'oro digitale
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 Nella parte precedente, abbiamo studiato l'effetto che la pubblicazione della presentazione di Bitcoin su Slashdot (slashdotting) ha avuto e come i problemi tecnici iniziali sono stati gestiti da Satoshi e dai suoi collaboratori. Alla fine dell'estate, il progetto aveva superato la tempesta ed era pronto ad accogliere un numero crescente di persone. L'autunno del 2010 ha quindi segnato un periodo di successo per Bitcoin.
 Questo periodo fu veramente positivo per il mining, che vide miglioramenti significativi con l'emergere delle prime GPU farm e della prima cooperativa. Le risorse impiegate aumentavano e le prestazioni degli algoritmi dedicati miglioravano. Fu in qualche modo una "corsa all'oro digitale", come scrisse un blogger dell'epoca (usando lo pseudonimo jimbobway) [scrisse](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), notando che "migliaia di utenti su Internet" stavano minando bitcoin "alla ricerca di fortuna" e che molti di loro tentavano "di sviluppare strumenti software e hardware per minare bitcoin più efficientemente" nella speranza di diventare ricchi. (*originale: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)
 
@@ -1147,6 +1170,8 @@ Tuttavia, l'autunno non è stato solo un successo per il mining. È stato un suc
 
 ## Il fiorire dell'ecosistema
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 Nel capitolo precedente, abbiamo esplorato come lo sviluppo del mining si sia evoluto durante la seconda metà del 2010. Entro l'autunno, questo progresso era ben consolidato. Tuttavia, il mining non è stato l'unico aspetto di Bitcoin ad avere successo: anche il suo ecosistema lo ha fatto.
 Qui, affronteremo innanzitutto l'inizio dell'esportazione internazionale di Bitcoin con lo sviluppo delle community russe e francesi. Discuteremo poi dei miglioramenti nella comunicazione e della crescita economica, che hanno portato a un nuovo forte aumento del prezzo di bitcoin. Infine, menzioneremo due eventi molto simbolici che precedono l'uscita di Satoshi: l'accettazione di bitcoin da parte della Electronic Frontier Foundation e il ritorno di Hal Finney.
@@ -1244,6 +1269,8 @@ Durante l'autunno del 2010, l'ecosistema che circonda Bitcoin si è evoluto sign
 
 ## La scomparsa di Satoshi
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Abbiamo visto come Bitcoin abbia preso il volo dopo la pubblicazione del testo su Slashdot nel luglio 2010. In autunno, con vari avanzamenti nel software, nel mining e nell'economia, si aveva la sensazione che il progetto fosse finalmente sulla giusta strada. Ecco perché questo periodo ha coinciso con il ritiro graduale di Satoshi Nakamoto.
 
@@ -1362,6 +1389,8 @@ Questo aspetto misterioso che circonda il creatore di Bitcoin è stato ben riass
 
 ## Il passaggio alla community
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Dopo l'abbandono di Satoshi Nakamoto, è diventato necessario procedere senza di lui. Fortunatamente, Bitcoin era un progetto aperto, al quale chiunque poteva collaborare, quindi la scomparsa del suo fondatore non è stata fatale. Come scrisse lo sviluppatore Jeff Garzik nel luglio 2010 (riguardo alla possibilità dell'assenza del fondatore):
 

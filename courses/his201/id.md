@@ -22,6 +22,9 @@ Kursus ini, tentu saja, berpusat pada sosok Satoshi Nakamoto, di mana Anda akan 
 
 ## Ikhtisar Kursus
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Selamat datang di kursus HIS201!
 Kursus ini bertujuan untuk menceritakan kisah penciptaan Bitcoin dengan cara yang belum pernah Anda baca sebelumnya. Seringkali diabaikan, meskipun dipenuhi dengan detail yang menarik. Kami akan berusaha untuk menjelaskannya dalam segala kerumitannya, mulai dari konsepsinya oleh Satoshi Nakamoto hingga menghilangnya ia di awal kemunculannya dan pengambilalihan oleh komunitas.
 
@@ -85,6 +88,9 @@ Siap menjelajahi kisah luar biasa di balik penciptaan Bitcoin? Ayo kita menyelam
 
 ## eCash: Uang Digital Chaumian
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Sebelum membahas cerita sebenarnya tentang penciptaan Bitcoin oleh Satoshi Nakamoto, ada baiknya kita membahas apa yang mendahuluinya. Kami akan membahas topik ini dalam tiga tahap: pertama, kami akan memperkenalkan konsep uang digital Chaumian yang biasa disebut *eCash*; kemudian, kami akan berbicara tentang mata uang privat berbasis sistem terpusat seperti e-gold; akhirnya, kami akan mendeskripsikan model teknis yang dibayangkan sebelum implementasi sistem terdistribusi yang kuat, yaitu Bitcoin.
 Mari kita mulai dengan konsep pertama, eCash. eCash berasal dari pekerjaan David Chaum, seorang ilmuwan komputer dan kriptografer Amerika yang lahir pada tahun 1955, dianggap sebagai pelopor dalam bidang komunikasi anonim dan pendahulu dari cypherpunks. Dia memberikan kontribusi besar dalam pengembangan kriptografi pada tahun 1980-an. Dia mengembangkan model uang digitalnya (dikenal sebagai "Chaumian") pada waktu yang sama dan mencoba mengimplementasikannya pada tahun 1990-an melalui perusahaannya DigiCash.
 
@@ -194,6 +200,8 @@ Dengan Bitcoin, Satoshi Nakamoto menciptakan mata uang digital yang kuat dan rah
 ## Mata Uang Digital Pribadi
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 Pada bab sebelumnya, kita telah menjelajahi bentuk pertama uang elektronik yang muncul dari kemajuan internet dan kriptografi modern: model eCash dari David Chaum. Model ini secara signifikan memengaruhi Satoshi Nakamoto dan merupakan tonggak penting dalam perjalanan yang mengarah pada Bitcoin. Namun, kisah asal-usul mata uang kripto tidak berakhir dengan eCash; itu juga mencakup eksperimen dengan mata uang privat yang beroperasi di internet, yang dikembangkan sejak akhir tahun 1990-an.
 
 Dalam bab ini, kita akan melihat apa yang dilakukan di ranah mata uang privat di Amerika Serikat. Pertama, kita akan membahas kasus Liberty Dollar. Kemudian, kita akan memeriksa sistem terpusat seperti e-gold dan Liberty Reserve. Terakhir, kita akan berbicara tentang PayPal, yang pendekatannya berbeda, tetapi tetap berfungsi sebagai contoh yang memberikan pencerahan tentang model yang didasarkan pada pihak ketiga yang terpercaya.
@@ -273,6 +281,8 @@ Karena kerapuhan sistem terpusat inilah para pendukung kebebasan—termasuk para
 
 ## Model Desentralisasi Sebelum Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 Bitcoin merepresentasikan model mata uang digital yang terdesentralisasi. Dengan demikian, ia menghindari kebutuhan akan pihak ketiga yang terpercaya, yang akan menjadi titik kegagalan tunggal dalam sistem. Seperti yang ditunjukkan oleh contoh eCash, mata uang emas digital, dan Liberty Reserve, sentralisasi sebuah sistem yang berniat menjadi alternatif dari sistem yang ada pasti akan mengarah pada penutupannya, dengan satu atau lain cara.
 Namun, Bitcoin bukanlah konsep mata uang terdesentralisasi pertama yang diusulkan. Sejak akhir tahun 1990-an, model-model semacam itu telah dijelaskan oleh para cypherpunk, yang terobsesi dengan kebebasan dan privasi individu di Internet, dan yang percaya (seperti David Chaum) bahwa sistem yang diawasi mengarah pada masa depan distopia. Mereka [menyerukan](https://cypherpunks.venona.com/date/1993/03/msg00392.html) untuk "menulis kode" dan menganggap "uang elektronik" sebagai elemen penting bagi cita-cita mereka. (*asli: "Cypherpunks write code. (...) Kami membela privasi kami dengan kriptografi, dengan sistem penerusan surat anonim, dengan tanda tangan digital, dan dengan uang elektronik."*)
@@ -422,6 +432,8 @@ Bitcoin dengan demikian menjadi puncak dari pencarian mata uang siber, mata uang
 ## Kelahiran Bitcoin
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Setelah mempelajari asal-usul Bitcoin, kita sekarang akan fokus pada sejarahnya itu sendiri. Hal ini telah menjadi subjek berbagai artikel, podcast, dan video selama bertahun-tahun, sehingga hampir menjadi semacam mitos pendirian. Seperti yang telah kita lihat, Bitcoin tidak terpisahkan dari konteks di mana ia diciptakan; hal yang sama berlaku untuk peristiwa-peristiwa yang terjadi selama tahun-tahun awalnya, yang telah membentuk Bitcoin apa adanya hari ini, dengan kelebihan dan kekurangannya.
 Bitcoin diciptakan oleh Satoshi Nakamoto, individu tak dikenal yang mengaku orang Jepang, yang meluangkan waktu untuk merancangnya dengan cermat sebelum memperkenalkannya kepada publik. Selanjutnya, mereka melakukan segalanya untuk memastikan bahwa Bitcoin diluncurkan dalam kondisi terbaik, bahwa Bitcoin diluncurkan dengan baik dalam diskusi, dan bahwa Bitcoin digunakan oleh semakin banyak orang. Pada akhirnya, upaya pencipta terletak pada inisiasi ekonomi sistem sama seperti dengan desain awalnya, tidak lebih dari itu.
 Bab ini membahas kelahiran Bitcoin, yang terjadi antara musim gugur 2008 dan musim dingin 2009. Periode ini ditandai oleh dua peristiwa besar: publikasi white paper, dokumen fundamental yang menjelaskan cara kerja teknis sistem, pada 31 Oktober 2008; dan peluncuran jaringan prototipe pada 9 Januari 2009, hanya terpaut dua bulan kemudian. Dengan demikian, kita akan fokus pada tindakan Satoshi Nakamoto selama periode ini dan beberapa interaksi yang ia miliki dengan para pengguna awal Bitcoin dan para pencela pertamanya.
@@ -558,6 +570,8 @@ Namun, pekerjaan ini tidak cukup, dan diperlukan ketekunan dari Satoshi untuk me
 
 ## Presentasi ke Dunia
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Setelah mengamati bagaimana Bitcoin dirancang dan diluncurkan oleh Satoshi Nakamoto, mari kita fokus pada bagaimana ia diperkenalkan kepada publik. Setelah peluncurannya di awal tahun 2009, jaringan tersebut sudah beroperasi, namun node yang menghasilkan blok masih sedikit (Satoshi menambang sebagian besar blok) dan aktivitas hampir tidak ada (hanya 32 transaksi nyata terjadi selama bulan Januari). Proyek ini hanya memiliki situs web dasar dan halaman SourceForge untuk mengunduh perangkat lunak. Selain itu, komunikasi tentang Bitcoin terbatas pada milis Metzdowd Cryptography, yang paling banyak diikuti oleh beberapa ratus orang yang memiliki minat besar pada kriptografi.
 
@@ -729,6 +743,9 @@ Promosi Bitcoin juga melewati beberapa tahap: pertama, Satoshi berfokus pada pem
 
 ## Bootstrapping Mata Uang Kripto
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 Pada bab-bab sebelumnya, kita telah mengamati bagaimana Satoshi Nakamoto mengimplementasikan idenya dan bagaimana ia berkomunikasi tentang hal itu untuk memperkenalkan Bitcoin kepada dunia. Namun, tidak semuanya bergantung padanya: juga diperlukan bagi orang-orang untuk menetapkan nilai pada unit akun. Karena hal ini memungkinkan remunerasi penambang melalui biaya transaksi dan memberi penghargaan kepada pedagang melalui deflasi alami, apresiasi semacam itu penting untuk keamanan sistem.
 
 Munculnya nilai Bitcoin, bagaimanapun, bukanlah tugas yang mudah. Ini memang tentang memberikan kepentingan ekonomi pada objek yang sebelumnya tidak memiliki nilai, karena alasan yang sepenuhnya subjektif. Hal Finney menjelaskannya dengan sangat baik dalam [emailnya](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) tanggal 11 Januari 2009, yang ditujukan kepada milis Kriptografi, di mana ia menulis:
@@ -847,6 +864,8 @@ Namun, pertanyaan ini tidak pernah mengganggu Satoshi, yang melihat bootstrappin
 ## Kartu Grafis, Pizza, dan Bitcoin Gratis
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 Pada bagian sebelumnya, kita telah menjelajahi bagaimana Bitcoin muncul, bagaimana ia diperkenalkan kepada publik, dan bagaimana ia dimulai secara ekonomi. Pada musim semi 2010, saat perdagangan Bitcoin baru saja mulai berkembang, tujuan Satoshi Nakamoto dan beberapa orang yang mendukungnya adalah untuk menjaga semangat tetap menyala. Untungnya, individu lain bergabung dalam upaya tersebut, terutama penambang Laszlo Hanyecz dan pengembang Gavin Andresen, yang menonjol karena tindakan mereka.
 
 Dalam bab ini, kita akan melihat penyebaran pertama mining oleh unit pemrosesan grafis (GPU), kekayaan yang dikumpulkan oleh Satoshi Nakamoto, pembelian barang fisik pertama dengan Bitcoin, pendirian keran Bitcoin yang memberikan unit gratis, dan evolusi perangkat lunak dan jaringan sebelum Slashdot.
@@ -953,6 +972,8 @@ Namun, pada akhir Juni, aktivitas di jaringan tetap cukup moderat. Hanya sedikit
 ## Gelombang Slashdot - The Great Slashdotting
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 Pada awal musim panas 2010, meskipun ada beberapa perkembangan awal yang menggembirakan, Bitcoin berdiri di atas fondasi yang rapuh. Perangkat lunaknya hanya memiliki sedikit pengembang selain Satoshi Nakamoto. Para penambang merupakan amatir dengan komputer pribadi mereka. Ada sekitar dua puluh layanan yang terkait dengan Bitcoin, dan pertukaran aktual juga sama jarangnya. Namun, segalanya akan berubah drastis selama paruh kedua tahun ini.
 
 Dalam bab ini, kami bertujuan untuk membahas "great slashdotting",, yaitu masuknya pengguna secara tiba-tiba yang mengikuti publikasi presentasi Bitcoin di situs web populer Slashdot pada 11 Juli 2010. Kita akan melihat bagaimana teks ini muncul sebagai upaya komunikasi terakhir dari pihak Satoshi dan apa efek langsung yang terjadi setelah populernya Bitcoin ini.
@@ -1024,6 +1045,8 @@ Efek publikasi perkenalan Bitcoin di Slashdot sangat spektakuler bagi proyek Sat
 
 ## Masalah Teknis Pertama
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Seperti yang telah disebutkan di bab sebelumnya, lonjakan pengguna dari Slashdot pada 11 Juli 2010 memicu gelombang minat yang luar biasa terhadap proyek Satoshi Nakamoto. Penggunaan jaringan meledak; nilai tukar meningkat sepuluh kali lipat, begitu juga daya komputasi yang didedikasikan untuk sistem. Dengan demikian, Bitcoin mengalami pertumbuhan yang belum pernah terjadi sebelumnya sepanjang musim panas tersebut.
 
@@ -1110,6 +1133,8 @@ Dalam bulan-bulan berikutnya, perbaikan teknis, ekonomi, dan mining terus bermun
 ## Demam Emas Digital
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 Pada bagian sebelumnya, kita telah mempelajari dampak dari publikasi presentasi Bitcoin di Slashdot (slashdotting) dan bagaimana masalah teknis awal dikelola oleh Satoshi dan para pembantunya. Pada akhir musim panas, proyek tersebut telah melewati badai dan siap menyambut semakin banyak orang. Musim gugur 2010 dengan demikian menandai periode kesuksesan bagi Bitcoin. Periode ini khususnya merupakan era keemasan bagi proses mining, yang mengalami peningkatan signifikan dengan munculnya farm GPU pertama dan koperasi pertama. Sumber daya yang dikerahkan meningkat, dan kinerja algoritma khusus membaik. Ini agak seperti "demam emas digital", seperti yang ditulis oleh seorang blogger pada masa itu (menggunakan nama samaran jimbobway), yang mencatat bahwa "ribuan pengguna internet" mining Bitcoin "dengan harapan akan keberuntungan" dan banyak dari mereka berusaha "untuk mengembangkan perangkat lunak dan perangkat keras untuk menambang Bitcoin secara lebih efisien" dengan harapan menjadi kaya raya. (*asli: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for Bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for Bitcoins more efficiently in hopes of becoming filthy rich."*)
 
 ### Penggunaan (Farm) GPU Pertama
@@ -1176,6 +1201,9 @@ Namun, musim gugur tidak hanya sukses untuk mining. Ini juga merupakan kesuksesa
 
 ## Berkembangnya Ekosistem
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 Pada bab sebelumnya, kita telah menjelajahi bagaimana pertambangan berkembang selama paruh kedua tahun 2010. Menjelang musim gugur, kemajuan ini sudah terbentuk dengan baik. Namun, pertambangan bukanlah satu-satunya aspek dari Bitcoin yang menemukan kesuksesan: ekosistemnya juga demikian.
 
 Di sini, kita akan pertama-tama membahas tentang awal ekspor internasional Bitcoin dengan pengembangan komunitas Rusia dan Prancis. Kemudian, kita akan membahas peningkatan dalam komunikasi dan pertumbuhan ekonomi, yang secara khusus menyebabkan peningkatan baru dalam harga unit Bitcoin. Akhirnya, kita akan menyebutkan dua peristiwa sangat simbolis sebelum kepergian Satoshi: penerimaan Bitcoin oleh Electronic Frontier Foundation dan kembalinya Hal Finney.
@@ -1282,6 +1310,8 @@ Selama musim gugur 2010, ekosistem di sekitar Bitcoin berkembang secara signifik
 
 ## Kehilangan Satoshi
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Kita telah melihat bagaimana Bitcoin mulai dikenal luas setelah publikasi teks di Slashdot pada Juli 2010. Pada musim gugur, dengan berbagai kemajuan dalam perangkat lunak, mining, dan ekonomi, terasa bahwa proyek ini akhirnya berada di jalur yang benar. Itulah mengapa periode ini bertepatan dengan penarikan diri Satoshi Nakamoto secara bertahap.
 
@@ -1411,6 +1441,8 @@ Aspek misterius yang melingkupi pencipta Bitcoin ini dirangkum dengan baik oleh 
 
 ## Komunitas Mengambil Alih
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Setelah kepergian Satoshi Nakamoto, menjadi keharusan untuk melanjutkan tanpa dirinya. Untungnya, Bitcoin adalah proyek terbuka, di mana siapa pun dapat berkontribusi, sehingga hilangnya pendirinya tidak berakibat fatal. Seperti yang ditulis oleh pengembang Jeff Garzik pada Juli 2010 (mengenai kemungkinan ketidakhadiran pendiri):
 

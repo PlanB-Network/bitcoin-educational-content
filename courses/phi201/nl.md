@@ -34,6 +34,8 @@ Van de Renaissance tot de Verlichting onderzoekt de cursus de opkomst van vrijhe
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 
 Welkom bij PHI201!
 
@@ -84,6 +86,8 @@ Klaar om te beginnen aan deze unieke filosofische reis op zoek naar vrijheid? La
 
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 
 Waarom de titel van deze cursus: Een geschiedenis van vrijheid? Omdat we de relatie tussen ideeën en gebeurtenissen moeten begrijpen om ons tijdperk beter te kunnen beoordelen en met onderscheidingsvermogen te kunnen handelen. In het verleden vinden we de Elements voor een beter begrip van wat vrijheid is en de redenen waarom we het moeten koesteren.
@@ -175,6 +179,8 @@ Vanuit dit perspectief is het de taak van de wetgever om eigendom te organiseren
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 
 Wanneer je schoolboeken openslaat, merkte Bastiat op, leer je dat de mensheid gedoemd zou zijn tot niets zonder de tussenkomst van de macht:
 
@@ -255,6 +261,8 @@ Een paar dagen voordat hij in 1850 in Rome stierf, nam Bastiat zijn vriend Prosp
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 
 Het is bekend dat de overwinnaars geschiedenis schrijven. De aandacht gaat vaak uit naar de verovering van de macht, naar het leven van de leiders die aan de macht zijn en naar de conflicten die zich verzetten tegen degenen die hun plaats willen innemen.
 
@@ -315,6 +323,8 @@ Deze stelling is ook te vinden in een monumentaal werk uit 1983: _Wet en revolut
 
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Er bestaat echter een ander perspectief op geschiedenis. Het is behoorlijk succesvol en geniet al lange tijd de steun van westerse intellectuelen en vertegenwoordigers van het Mondiale Zuiden. Dit is de socialistische en marxistische kijk op de geschiedenis.
 
@@ -412,6 +422,8 @@ Tot slot van dit hoofdstuk: de economische en culturele opkomst van Europa was n
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 
 In het laatste hoofdstuk van _Anatomy of the State_ (in het Frans vertaald als _L'anatomie de l'Etat_, door Résurgence editions) stelt Murray Rothbard een theorie van de geschiedenis voor. Dit zeer korte hoofdstuk is getiteld 'Geschiedenis: Een wedloop tussen staatsmacht en sociale macht' Volgens Rothbard kan de geschiedenis worden begrepen als een eeuwigdurend conflict tussen twee fundamentele principes:
 
@@ -495,6 +507,8 @@ En hij voegt eraan toe:
 
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 
 De ervaring van de Atheense democratie heeft een blijvende stempel gedrukt op de geschiedenis van het politieke denken en inspireert nog steeds de idealen van democratie en burgerparticipatie in de wereld van vandaag.
@@ -633,6 +647,8 @@ De enige middelen die we hebben om de waarheid te benaderen zijn kritiek en disc
 
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 
 Het Romeinse Rijk was een uitgestrekte, kosmopolitische entiteit. Op zijn hoogtepunt, rond 117 na Christus, was het een immense multi-etnische en meertalige staat:
@@ -786,6 +802,8 @@ Cicero beweerde dat het recht niet gereduceerd kan worden tot alleen de wetten d
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 
 Waarom ging Rome ten onder en viel het uiteindelijk? Velen denken graag dat het Romeinse Rijk plotseling instortte, onder invloed van invasies van barbaren. De oorzaken van de ineenstorting van het Romeinse Rijk zijn echter veel eerder te vinden, in imperialisme en economisch en monetair dirigisme.
 
@@ -896,6 +914,8 @@ En hij voegt eraan toe:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 
 Het christelijke concept van vrijheid ontwikkelde zich in de middeleeuwse theologie, van de heilige Augustinus in de 4e eeuw tot de heilige Thomas van Aquino in de 13e eeuw. Wat is dit idee?
 
@@ -971,6 +991,8 @@ Volgens Sint Thomas:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 
 In de Middeleeuwen streden rede en geloof om toegang tot de waarheid. In navolging van Abélard en Albert de Grote koos Thomas van Aquino er in de 13e eeuw voor om de autonomie van de rede ten opzichte van het geloof te verdedigen.
 
@@ -1030,6 +1052,8 @@ Vanaf dat moment zou het religieuze rationalisme het definitief winnen van het m
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
 
 In de Middeleeuwen erfden de kerk en christelijke monarchieën een politiek model van het Romeinse Rijk dat bekend staat als het theologisch-politieke systeem - een systeem waarin macht als heilig wordt beschouwd, wat betekent dat de politieke leider ook een religieuze leider is.
 
@@ -1086,6 +1110,8 @@ De theocratische verleiding van de kerk botst ook met de theorie van "goddelijk 
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 
 Het oude denken maakte de mens ondergeschikt aan een goddelijke kosmos, dat wil zeggen aan een volmaakt universum waarvan hij slechts een deel was. Het monotheïsme daarentegen bevestigt de oneindig superieure waarde van de mens boven de natuur, voor zover de mens geschapen is naar het beeld van God. Dit cruciale punt ligt aan de oorsprong van een ware ethische revolutie. De Bijbel bevestigt de heilige en oneindige waarde van elk menselijk wezen.
 
@@ -1139,6 +1165,8 @@ Het idee van menselijkheid ontwikkelt zich. Men is er inderdaad van uitgegaan da
 
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 
 We hebben gezien dat het christendom mensen de morele plicht oplegt om te werken aan het verbeteren van de wereld. God wil dat de mens gelukkig is, maar wil zijn goed niet in zijn plaats bereiken. Daarom is het aan de christen om het morele kwaad te bestrijden, zijn naaste lief te hebben, de slachtoffers te helpen, kortom, te werken aan een rechtvaardiger en menselijker wereld. Is het kapitalisme, dat wil zeggen de vrije economie gebaseerd op privébezit en contractvrijheid, verenigbaar met de christelijke plicht?
@@ -1233,6 +1261,8 @@ Bovendien, als twee verschillende munteenheden profiteren van een wettig betaalm
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 
 Vanaf de Renaissance werd Europa geteisterd door godsdienstoorlogen. Tolerantie werd daarom een van de grote veldslagen van de Verlichting.
 
@@ -1317,6 +1347,8 @@ Met andere woorden, tolerant zijn betekent niet vijandig staan tegenover religie
 
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 Economisch liberalisme wordt vaak geassocieerd met een Angelsaksische traditie, afkomstig van Adam Smith. Het wordt gecontrasteerd met "politiek liberalisme", waarvan wordt gezegd dat het voortkomt uit de continentale Verlichting, vooral in Frankrijk. Deze opvatting is onjuist.
 
@@ -1412,6 +1444,8 @@ Kortom, als iedereen in vrijheid zijn privé-belangen kan nastreven met respect 
 
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 
 1776 is een jaar dat vaak onopgemerkt blijft in geschiedenisboeken. Maar in drie landen - Frankrijk, Schotland en Noord-Amerika - zullen verschillende gebeurtenissen een onuitwisbare stempel drukken op de geschiedenis van de vrijheid.
@@ -1559,6 +1593,8 @@ Het concept van spontane orde werd een sleutelidee in het werk van Friedrich Hay
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 
 De grote nieuwigheid van deze moderne periode in de Westerse geschiedenis is de opkomst van een samenleving die zichzelf buiten religieuze afhankelijkheid organiseert. Dit betekent niet het verdwijnen van religieus geloof of de dood van God. Maar God wordt een privéaangelegenheid, niet langer vermengd met politieke zaken. Er is geen verdwijning van religie maar een onttroning van haar sturende rol. Het wordt een systeem van individuele overtuigingen.
 
@@ -1700,6 +1736,8 @@ Dit is bovendien de betekenis van de opmerking van Friedrich Hayek in zijn boek 
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 
 Volgens Benjamin Constant kan vrijheid in moderne samenlevingen niet langer worden begrepen op de manier van oude culturen, als directe deelname aan de aangelegenheden van de stad.
 
@@ -1771,6 +1809,8 @@ Met andere woorden, in een vrije samenleving is het noodzakelijk om een strikte 
 
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 
 Alexis de Tocqueville was een scherp waarnemer van democratie en een criticus van democratisch individualisme.
@@ -1881,6 +1921,8 @@ Kijk eens naar de wereldbol. Wat zijn de gelukkigste, meest morele en meest vree
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 
 In de 19e eeuw ontstond de kritiek op het kapitalisme, met name de marxistische kritiek.
 
@@ -1924,6 +1966,8 @@ Politieke revolutie is daarom volgens hem een illusie zolang ze niet gepaard gaa
 
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 
 De Oostenrijkse School voor Economie, opgericht door Carl Menger aan het einde van de 19e eeuw, verzette zich vanaf het begin tegen de theorieën van Karl Marx.
@@ -2016,6 +2060,8 @@ Al in 1922 toonde Ludwig von Mises in zijn boek _Socialisme,_ aan dat het social
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 
 Hayek was gealarmeerd door de opkomst van overheidsinterventie in de economieën van westerse democratieën en schreef _The Road to Serfdom_ als een filosofische kritiek op collectivisme, zowel van rechts als van links. Gepubliceerd in miljoenen exemplaren, dankzij de _Reader's Digest_, heeft dit boek sterk bijgedragen aan de bekendheid van Hayek in de Verenigde Staten.
 
@@ -2076,6 +2122,8 @@ Tot slot roept Hayek zijn tijdgenoten op om de "waanzin" en het "hedendaagse obs
 
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 
 Het kapitalisme wordt er vaak van beschuldigd de bron te zijn van het bevel: "we moeten altijd meer produceren," of van de formule: "consumeren is goed voor de groei." Deze ideeën komen echter niet voort uit het traditionele kapitalisme, maar uit het Keynesianisme, dat sinds de jaren 1930 het veld van de economische wetenschap en de politieke klasse heeft gedomineerd.
@@ -2169,6 +2217,8 @@ Geen enkele religie heeft zich zo snel over de wereld verspreid als die van de w
 
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 
 Geld is een instrument dat mensen in staat heeft gesteld om verder te gaan dan ruilhandel, te sparen en op grote schaal te coördineren via de markt. Het heeft specialisatie van arbeid, comparatief voordeel, winst uit handel en economische berekening mogelijk gemaakt. Zonder geld zou er geen moderne beschaving zijn.

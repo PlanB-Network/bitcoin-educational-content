@@ -26,7 +26,7 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=G18xwuPuL-o)
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 Bienvenu dans le cours PHI201 !
 
@@ -60,7 +60,7 @@ Prêt à plonger dans ce parcours philosophique unique sur la quête de la liber
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
-![video](https://www.youtube.com/watch?v=xVRijaNlmDc)
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Pourquoi intituler ce cours : une histoire de la liberté ? Parce que nous avons besoin de comprendre la relation entre les idées et les événements, pour mieux juger notre époque et agir avec discernement. C’est dans le passé que nous trouvons les éléments d'une meilleure compréhension de ce qu’est la liberté et des raisons pour lesquelles nous devons la chérir.
 
@@ -126,7 +126,7 @@ Dans cette perspective, le législateur a pour mission d’organiser, modifier, 
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
-![video](https://www.youtube.com/watch?v=dYgoUnE8zMI)
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
 
 
 Quand on ouvre les manuels scolaires, remarquait Bastiat, on apprend que l’humanité serait vouée au néant sans l’intervention du pouvoir :
@@ -195,7 +195,7 @@ Quelques jours avant sa mort à Rome en 1850, Bastiat confiait à son ami Prospe
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
-![video](https://www.youtube.com/watch?v=Gd92k-I2oac)
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
 
 On le sait, l’histoire est écrite par les vainqueurs. L'attention est souvent portée sur la conquête du pouvoir, sur la vie des dirigeants au pouvoir et sur les conflits qui les opposent à ceux qui souhaitent prendre leur place.
@@ -244,7 +244,7 @@ On retrouve également cette thèse dans un ouvrage monumental datant de 1983 : 
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
 
-![video](https://www.youtube.com/watch?v=XKdA1Dya_e0)
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 
 Une autre vision de l’histoire existe néanmoins. Elle a connu un certain succès et a longtemps bénéficié du soutien des intellectuels occidentaux et des représentants des pays du Sud. C’est la vision socialiste et marxiste de l’histoire.
@@ -321,7 +321,7 @@ En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique 
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
-![video](https://www.youtube.com/watch?v=yoWccbEsYPo)
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
 
 Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’anatomie de l’Etat_, aux édition Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : L’histoire, course entre pouvoir étatique et pouvoir social. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
@@ -383,7 +383,7 @@ Et il ajoute :
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
-![video](https://www.youtube.com/watch?v=H1Y5GnH0Ay0)
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 L'expérience de la démocratie athénienne a marqué durablement l'histoire de la pensée politique et continue d'inspirer les idéaux de démocratie et de participation citoyenne dans le monde d'aujourd'hui.
 
@@ -484,7 +484,7 @@ Les seuls moyens dont nous disposons pour approcher la vérité sont la critique
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
-![video](https://www.youtube.com/watch?v=YaY_Kz8F1oE)
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 
 L’empire romain était une vaste entité cosmopolite. A son apogée, vers 117 après J.-C., il était un immense État pluriethnique et plurilingue :
@@ -594,7 +594,7 @@ En affirmant que le droit ne peut se réduire aux seules lois édictées par le 
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
-![video](https://www.youtube.com/watch?v=nYyqZswQf5U)
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
 
 Pourquoi Rome a-t-elle déclinée puis finalement chutée ? Beaucoup aiment à penser que l’Empire Romain s’est effondré subitement, sous le coup des invasions barbares. Mais les causes de l’effondrement de l’Empire Romain sont à chercher bien plus en amont, dans l’impérialisme et le dirigisme économique et monétaire.
@@ -679,7 +679,7 @@ Et il ajoute :
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
-![video](https://www.youtube.com/watch?v=MuHVK7m4SnQ)
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
 
 L’idée chrétienne de la liberté s’est développée dans la théologie médiévale de Saint Augustin au IVe siècle, à Saint Thomas d’Aquin au XIIIe siècle. Quelle est cette idée ?
@@ -738,7 +738,7 @@ Il existe donc un droit antérieur à la formation de l'État, un ensemble de pr
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
-![video](https://www.youtube.com/watch?v=M35k3R1b-t8)
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
 
 Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. A la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIe siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi.
@@ -784,7 +784,7 @@ Dès lors, c’est le rationalisme religieux qui va l’emporter définitivement
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
-![video](https://www.youtube.com/watch?v=SuvAEaotM8s)
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
 
 Au Moyen Âge l’Église et les monarchies chrétiennes ont hérité d’un modèle politique qui est celui de l’Empire Romain et que les historiens appellent le système théologico-politique c’est-à-dire un système où le pouvoir est sacral c’est-à-dire ou le chef politique est en même temps un chef religieux.
@@ -826,7 +826,7 @@ La tentation théocratique de l’Église se heurte aussi à la théorie du « d
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
-![video](https://www.youtube.com/watch?v=NOGOgsVFDMY)
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
 
 La pensée antique subordonne l’homme à un cosmos divin, c’est-à-dire à un univers parfait dont il n’est qu’une parcelle. Le monothéisme, au contraire, affirme la valeur infiniment supérieure de l’homme sur la nature, dans la mesure où l’homme est créé à l’image de Dieu. Ce point capital est à l’origine d’une véritable révolution éthique. Dans la Bible est affirmée la valeur sacrée et infinie de chaque être humain.
@@ -867,7 +867,7 @@ L’idée d'humanité progresse. On en vient effectivement à considérer qu'il 
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
-![video](https://www.youtube.com/watch?v=ZrG7vHYWV2Y)
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 
 Nous avons vu que le christianisme fait aux hommes un devoir moral impérieux d’œuvrer à l’amélioration du monde. Dieu veut que l’homme soit heureux mais il ne veut pas réaliser son bien à sa place. C’est donc au chrétien de combattre le mal moral, d’aimer son prochain, de secourir les victimes, bref d’œuvrer pour un monde plus juste et plus humain. Le capitalisme, c'est-à-dire l'économie libre fondée sur la propriété privée et la liberté des contrats est-il compatible avec le devoir du chrétien ?
@@ -937,7 +937,7 @@ De plus, si deux monnaies différentes profitent du cours légal, les agents von
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
-![video](https://www.youtube.com/watch?v=NvlnkfJUahA)
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
 
 A partir de la Renaissance, l'Europe allait être ravagée par des guerres de religion. La tolérance fut donc un des grands combats des Lumières.
@@ -1000,7 +1000,7 @@ En d’autres mots, être tolérant ce n’est pas être hostile à la religion.
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
-![video](https://www.youtube.com/watch?v=_R6QYrkhFG4)
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 
 On associe souvent le « libéralisme économique » à une tradition anglo-saxonne issue d’Adam Smith pour l’opposer au « libéralisme politique » qui serait issu des Lumières continentales, en particulier de la France. Ce schéma est faux.
@@ -1068,7 +1068,7 @@ En bref, si chacun peut poursuivre librement son intérêt privé dans le respec
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
 
-![video](https://www.youtube.com/watch?v=UcymREJVzuE)
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 
 1776 est une année qui passe souvent inaperçue dans les manuels d’histoire. Mais dans trois pays, France, Ecosse et Amérique du Nord, plusieurs évènements vont marquer l’histoire de la liberté d’une empreinte indélébile.
@@ -1177,7 +1177,7 @@ Cette idée d’ordre spontané deviendra un concept-clé dans l’œuvre de Fri
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
-![video](https://www.youtube.com/watch?v=yjHBCe2ytzo)
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
 
 
 La grande nouveauté de cette période moderne de l’histoire occidentale, c’est l’apparition d’une société qui s'organise en dehors de la dépendance religieuse. Cela ne signifie pas la disparition de la croyance religieuse ou la mort de Dieu. Mais Dieu devient une affaire privée, il n’est plus mêlé aux affaires politiques. Il n’y a pas disparition de la religion mais destitution de son rôle directeur. Elle devient un système de croyances individuelles.
@@ -1280,7 +1280,7 @@ C’est d’ailleurs le sens de la remarque de Friedrich Hayek dans son livre _L
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
-![video](https://www.youtube.com/watch?v=zMf2z-nKgaQ)
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
 
 Selon Benjamin Constant, la liberté, dans nos sociétés modernes, ne peut plus se comprendre à la manière des sociétés de l’Antiquité comme participation directe aux affaires de la cité.
@@ -1339,7 +1339,7 @@ Autrement dit, dans une société libre, il est nécessaire d'établir une front
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
-![video](https://www.youtube.com/watch?v=2fw-lNW6rNU)
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 
 Alexis de Tocqueville fut un observateur attentif de la démocratie et un critique de l’individualisme démocratique.
@@ -1420,7 +1420,7 @@ Conclusion de Bastiat :
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
-![video](https://www.youtube.com/watch?v=47x3426yFXI)
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
 
 C’est au cours du XIXe siècle qu’émerge la critique du capitalisme et en particulier la critique marxiste.
@@ -1453,7 +1453,7 @@ La révolution politique est donc une illusion, selon lui, tant qu’elle ne s�
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
-![video](https://www.youtube.com/watch?v=gWO505Qxl2U)
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 
 L'école autrichienne d'économie, fondée par Carl Menger à la fin du XIXe siècle, s'est opposée dès le départ aux théories de Karl Marx.
@@ -1520,7 +1520,7 @@ Dès 1922, dans son livre _Socialisme,_ Ludwig von Mises démontre que le social
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
-![video](https://www.youtube.com/watch?v=GK0IlacXZEE)
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
 
 Alarmé par la montée de l'interventionnisme des gouvernements dans les économies des démocraties occidentales, Hayek écrit _La Route de la Servitude_ (_The Road to Serfdom)_, comme une critique philosophique des collectivismes, qu’ils soient de droite ou de gauche. Tirée à plusieurs millions d’exemplaires, grâce au _Reader’s Digest_, ce livre a largement contribué à la notoriété d’Hayek aux États-Unis.
@@ -1569,7 +1569,7 @@ Hayek appelle en conclusion ses contemporains à tourner le dos aux « folies »
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
 
-![video](https://www.youtube.com/watch?v=-GT4Y2TD44M)
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 
 On accuse souvent le capitalisme d’être à l’origine de l’injonction : « il faut produire toujours plus », ou bien de la formule : « consommer est bon pour la croissance ». Pourtant ces idées ne proviennent pas du capitalisme traditionnel mais du keynésianisme qui règne depuis les années trente, dans la science économique et dans la classe politique.
@@ -1638,7 +1638,7 @@ En 1976, il s’attaque une dernière une fois au keynésianisme dans un article
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
-![video](https://www.youtube.com/watch?v=lZj-5eesIGE)
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 
 La monnaie est un outil qui a permis aux humains de sortir du troc, d’épargner et de se coordonner à grande échelle par le marché. Elle a rendu possible la spécialisation du travail, les avantages comparatifs, les gains à l’échange, le calcul économique. Sans monnaie, il n’y a pas de civilisation moderne.

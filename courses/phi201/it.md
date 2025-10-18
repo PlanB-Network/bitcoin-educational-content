@@ -25,6 +25,8 @@ Dal Rinascimento all'Illuminismo, il corso esamina l'ascesa della libertà, segn
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 Benvenuto al corso PHI201!
 
 Questo corso ti invita a esplorare l'evoluzione della libertà attraverso la storia analizzando le grandi correnti di pensiero che l'hanno plasmata. Scoprirai come il concetto di libertà si sia sviluppato nel corso dei secoli, sia in opposizione che in collaborazione con il potere, attraverso un percorso storico che va dall'antichità ai dibattiti contemporanei.
@@ -56,6 +58,8 @@ Pronto a intraprendere questo viaggio filosofico unico alla ricerca della libert
 ## Esistono solo due filosofie politiche
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 Perché intitolare questo corso: una storia della libertà? Perché dobbiamo comprendere la relazione tra idee ed eventi, per giudicare meglio la nostra epoca e agire con discernimento. È nel passato che troviamo gli elementi per una migliore comprensione di cosa sia la libertà e le ragioni per cui dobbiamo tenerla stretta.
 
@@ -128,6 +132,8 @@ Da questa prospettiva, la missione del legislatore è organizzare, modificare, p
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 Quando si aprono i libri di testo, osserva Bastiat, si scopre che l'umanità sarebbe condannata al nulla senza l'intervento del potere:
 
 > "Basta aprire, quasi a caso, un libro di filosofia, politica o storia per vedere quanto profondamente radicata nel nostro paese sia questa idea, nata dagli studi classici e madre del Socialismo, che l'umanità è una materia inerte che riceve dal potere vita, organizzazione, moralità e ricchezza; — o peggio, che l'umanità stessa tenda verso la sua degradazione e sia solo fermata verso questa discesa dalla mano misteriosa del Legislatore." ([_La legge_](http://bastiat.org/fr/la_loi.html)).
@@ -189,6 +195,8 @@ Pochi giorni prima della sua morte a Roma nel 1850, Bastiat confidò al suo amic
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 Come è noto, la storia è scritta dai vincitori. L'attenzione è spesso focalizzata sulla conquista del potere, sulla vita dei leader al potere e sui conflitti che li oppongono a coloro che desiderano prendere il loro posto.
 
 ![image](assets/it/010.webp)
@@ -233,6 +241,8 @@ Questa tesi si ritrova anche in un'opera monumentale datata 1983: _Diritto e riv
 ## Marx: la storia come lotta di classe
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Esiste tuttavia un'altra prospettiva sulla storia. Questa ha avuto un notevole successo e ha goduto a lungo del sostegno degli intellettuali occidentali e dei rappresentanti del Sud globale. Si tratta della visione socialista e marxista della storia.
 ![immagine](assets/it/013.webp)
@@ -304,6 +314,8 @@ Questa Europa radicalmente decentralizzata ha prodotto parlamenti, diete e Stati
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 Nell'ultimo capitolo di _Anatomia dello Stato_ (tradotto in francese come _L’anatomie de l’État_, dalle edizioni Résurgence), Murray Rothbard propone una teoria della storia. Questo capitolo molto breve è intitolato: 'Storia, una corsa tra il potere dello Stato e il potere sociale.' Secondo Rothbard, la storia può essere intesa come un conflitto perpetuo tra due principi fondamentali:
 
 ![image](assets/it/017.webp)
@@ -362,6 +374,8 @@ Rothbard aggiunge inoltre:
 ## L'invenzione della razionalità critica da parte dei Greci
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 L'esperienza della democrazia ateniese ha lasciato un segno indelebile nella storia del pensiero politico e continua a ispirare ideali di democrazia e partecipazione dei cittadini nel mondo di oggi.
 
@@ -459,6 +473,8 @@ L'unico mezzo che abbiamo per avvicinarci alla verità sono la critica e la disc
 ## L'invenzione del diritto da parte dei Romani
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 L'Impero Romano era un'entità cosmopolita vasta. Al suo apice, intorno al 117 d.C., era uno Stato immenso, multi-etnico e multilingue:
 
@@ -566,6 +582,8 @@ Affermando che la legge non può essere ridotta ai soli statuti emanati dal legi
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 Perché Roma è andata in declino e infine caduta? Molti amano pensare che l'Impero Romano sia crollato improvvisamente, sotto l'impatto delle invasioni barbariche. Tuttavia, le cause del crollo dell'Impero Romano sono da ricercarsi molto prima, nell'imperialismo e nello statalismo economico e monetario.
 
 
@@ -640,6 +658,8 @@ E aggiunge:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 L'idea cristiana di libertà si sviluppò nella teologia medievale di Sant'Agostino nel IV secolo, fino a San Tommaso d'Aquino nel XIII secolo. Qual è questa idea?
 
 ![image](assets/it/037.webp)
@@ -695,6 +715,8 @@ Secondo San Tommaso:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 Nel Medioevo, ragione e fede competono per l'accesso alla verità. Seguendo Abélard e Alberto Magno, Tommaso d'Aquino, nel XIII secolo, scelse di difendere i diritti della ragione e la sua autonomia rispetto alla fede.
 
 ![immagine](assets/it/040.webp)
@@ -736,6 +758,8 @@ Da allora in poi, il razionalismo religioso avrebbe definitivamente prevalso sul
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
 Nel Medioevo, la Chiesa e le monarchie cristiane ereditarono un modello politico dall'Impero Romano, che gli storici chiamano il sistema teologico-politico. Ovvero un sistema in cui il potere è sacro, cioè in cui il leader politico è anche un leader religioso.
 Ecco perché le società medievali sono caratterizzate dall'unanimismo politico-religioso. Il potere politico basa la sua legittimità, autorità e unità sulla fede cristiana (o musulmana). Si considera il custode dell'ortodossia culturale e religiosa e tratta come pariah (ovvero come individui di condizione sociale molto bassa) coloro che si allontanano da questa unanimità. In questo contesto, anche se una certa tolleranza poteva essere concessa a coloro che si distaccano dalla visione culturale comune (come gli ebrei), non poteva essere riconosciuto loro alcun diritto al pluralismo. Non fu fino alla fine del Medioevo, con la conquista dell'America, che il problema delle libertà civili divenne cruciale per la Chiesa e vide l'emergere di una prima filosofia del diritto che affermava e proteggeva le libertà individuali, legittimava il pluralismo e condannava la coercizione statale.
 
@@ -774,6 +798,8 @@ La tentazione teocratica della Chiesa si scontra anche con la teoria del "diritt
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 Il pensiero antico subordinava l'uomo a un cosmo divino, ovvero, a un universo perfetto di cui egli era solamente una parte. Il monoteismo, d'altra parte, afferma il valore infinitamente superiore dell'uomo rispetto alla natura, in quanto l'uomo è creato a immagine di Dio. Questo punto cruciale è all'origine di una vera rivoluzione etica. La Bibbia afferma il valore sacro e infinito di ogni essere umano.
 Ecco perché l'etica biblica cambia il nostro rapporto con il male. Porta una sensibilità acuta e senza precedenti alla sofferenza umana. Ci incoraggia quindi a considerare come anormali e insopportabili mali che l'umanità fino ad allora aveva trovato perfettamente sopportabili, specialmente il male fatto agli altri, ai deboli, agli innocenti.
 
@@ -809,6 +835,8 @@ L'idea di umanità progredisce. Venne effettivamente considerato che esiste solo
 ## I primi abbozzi del capitalismo
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 Abbiamo visto che il cristianesimo impone un dovere morale alle persone di lavorare per il miglioramento del mondo. Dio vuole che l'uomo sia felice ma non vuole realizzare il suo bene al suo posto. Spetta quindi al cristiano combattere il male morale, amare il prossimo, aiutare le vittime, insomma, lavorare per un mondo più giusto e umano. Il capitalismo, cioè l'economia libera basata sulla proprietà privata e sulla libertà dei contratti, è compatibile con il dovere cristiano?
 
@@ -881,6 +909,8 @@ Inoltre, se due diverse valute beneficiano del corso legale, gli agenti accumule
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 Dal Rinascimento, l'Europa sarebbe stata devastata dalle guerre di religione. La tolleranza, quindi, divenne una delle grandi battaglie dell'Illuminismo.
 
 ![image](assets/it/050.webp)
@@ -939,6 +969,8 @@ In altre parole, essere tolleranti non significa essere ostili alla religione. S
 ## Appello per la libertà economica
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 Il liberalismo economico è spesso associato a una tradizione anglosassone che deriva da Adam Smith, contrapposto al "liberalismo politico", che si dice abbia origine dall'Illuminismo continentale, in particolare in Francia. Questa visione è errata.
 
@@ -1002,6 +1034,8 @@ In breve, se tutti possono liberamente perseguire il proprio interesse privato n
 ## Un anno chiave per il mondo libero: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 1776 è un anno che spesso passa inosservato nei libri di storia. Ma in tre paesi, Francia, Scozia e Nord America, diversi eventi lasceranno un segno indelebile sulla storia della libertà.
 
@@ -1104,6 +1138,8 @@ Questa idea di ordine spontaneo diventerà un concetto chiave nel lavoro di Frie
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 La grande novità di questo periodo moderno nella storia occidentale è l'emergere di una società che si organizza al di fuori della dipendenza religiosa. Ciò non significa la scomparsa della credenza religiosa o la morte di Dio. Ma Dio diventa una questione privata, non più mescolata con gli affari politici. Non c'è scomparsa della religione ma un detronizzare del suo ruolo guida. Diventa un sistema di credenze individuali.
 
 Questa secolarizzazione del mondo occidentale non è avvenuta dall'oggi al domani. È stata preparata dalle idee. Come spesso accade, la filosofia è all'avanguardia dei grandi cambiamenti culturali.
@@ -1199,6 +1235,8 @@ Questo è, peraltro, il senso dell'osservazione di Friedrich Hayek nel suo libro
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 Secondo Benjamin Constant, la libertà, nelle nostre società moderne, non può più essere intesa alla maniera delle società dell'Antichità come partecipazione diretta agli affari della città.
 
 ![image](assets/it/070.webp)
@@ -1250,6 +1288,8 @@ In altre parole, in una società libera, è necessario stabilire un confine rigo
 ## Punti di forza e debolezze della democrazia
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 Alexis de Tocqueville è stato un acuto osservatore della democrazia e un critico dell'individualismo democratico.
 
@@ -1329,6 +1369,8 @@ La conclusione di Bastiat:
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 Fu durante il XIX secolo che emerse la critica al capitalismo, e in particolare la critica marxista.
 
 ![image](assets/it/078.webp)
@@ -1358,6 +1400,8 @@ La rivoluzione politica è quindi un'illusione, secondo lui, finché non è acco
 ## La critica austriaca al marxismo
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 La Scuola Austriaca di Economia, fondata da Carl Menger alla fine del XIX secolo, si è opposta fin dall'inizio alle teorie di Karl Marx.
 
@@ -1419,6 +1463,8 @@ Già nel 1922, nel suo libro _Socialismo,_ Ludwig von Mises dimostrò che il soc
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 Allarmato dalla crescita dell'interventismo governativo nelle economie delle democrazie occidentali, Hayek scrisse _La Strada della servitù_ come critica filosofica del collettivismo, sia di destra che di sinistra. Pubblicato in diversi milioni di copie, grazie al _Reader’s Digest_, questo libro ha contribuito enormemente alla fama di Hayek negli Stati Uniti.
 
 ![immagine](assets/it/086.webp)
@@ -1464,6 +1510,8 @@ In conclusione, Hayek invita i suoi contemporanei a voltare le spalle alla "foll
 ## Il trionfo di Keynes
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 Il capitalismo è spesso accusato di essere la fonte dell'iniziativa: "dobbiamo sempre produrre di più", o della formula: "consumare è buono per la crescita". Tuttavia, queste idee non derivano dal capitalismo tradizionale, ma dal Keynesismo, che ha dominato il campo della scienza economica e la classe politica dagli anni '30.
 
@@ -1532,6 +1580,8 @@ Nessuna religione si è diffusa nel mondo così rapidamente come quella dell'occ
 ## L'abbandono del gold standard
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 Il denaro è uno strumento che ha permesso agli esseri umani di andare oltre il baratto, di risparmiare e di coordinarsi su larga scala attraverso il mercato. Ha reso possibile la specializzazione del lavoro, i vantaggi comparativi, i guadagni dal commercio, il calcolo economico. Senza denaro, non c'è civiltà moderna.
 

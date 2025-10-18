@@ -30,6 +30,8 @@ Théo；贡献
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **目标：改善您的安全技能！**
 
 欢迎大家参加这个专门讲解数字安全的教育项目。所有人都可以参加这个培训课程并不需要拥有计算机科学的先验知识。我们的主要目标在于为您提供必要的知识和技能，以便您能够更安全且更隐私地探索数字的世界。
@@ -86,6 +88,8 @@ Théo；贡献
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 在浏览互联网时，重要的是要避免某些常见错误以保护您的在线安全。以下是一些避免它们的提示：
 
 ### 下载软件时务必谨慎：
@@ -130,6 +134,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPN（Virtual Private Network，虚拟专用网）
 
 您的互联网连接保护是在线安全的关键方面，使用虚拟私人网络（VPNs）是增强安全的有效方法，适用于企业和个人用户。
@@ -171,6 +177,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ## 计算机使用
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 在当今的数字世界中，我们的计算机安全是一个主要关注点。今天，我们将讨论三个关键点：
 
@@ -220,6 +228,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### 黑客是如何攻击您？
 
 为了更好地保护自己，理解黑客如何试图渗透您的计算机至关重要。实际上，病毒通常不是凭空出现的，而是我们行为的后果，即使是无意的！
@@ -268,6 +278,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### 设置新的电子邮件账户！
 
 电子邮件账户是您在线活动的中心点：如果它被泄露，黑客可以通过“忘记密码”功能重置您所有的密码，并获得许多其他网站的访问权限。这就是为什么您需要妥善保护它的原因。
@@ -300,6 +312,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## 密码管理器
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### 什么是密码管理器？
 
@@ -348,6 +362,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## 双因素认证（2FA）
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### 为什么要实施2FA
 
@@ -476,6 +492,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 ### 网络安全：一个充满无限机会其不断增长的领域
 
 如果您对保护系统和数据充满热情，网络安全领域为您提供了众多机会。如果这个行业让您感兴趣，那么接下来的内容将为您提供指导性步骤。
@@ -513,6 +531,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 与Renaud的访谈
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### 高效的密码管理和认证加强：一个学术方法
 

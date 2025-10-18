@@ -34,6 +34,8 @@ Od renesanse do prosvetiteljstva, kurs ispituje uspon slobode, obeležen verskom
 
 <chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
 
+:::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
+
 
 Dobrodošli u PHI201!
 
@@ -84,6 +86,8 @@ Spremni da krenete na ovo jedinstveno filozofsko putovanje u potrazi za slobodom
 
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+
+:::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 
 Zašto naslov ovog kursa: istorija slobode? Zato što treba da razumemo odnos između ideja i događaja, kako bismo bolje procenili naše doba i delovali sa razboritošću. U prošlosti nalazimo Elements za bolje razumevanje šta je sloboda i razloge zašto je moramo ceniti.
@@ -175,6 +179,8 @@ Iz ove perspektive, misija zakonodavca je da organizuje, modifikuje, čak i ukin
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
+:::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
 
 Kada neko otvori udžbenike, primetio je Bastiat, saznaje da bi čovečanstvo bilo osuđeno na ništavilo bez intervencije moći:
 
@@ -255,6 +261,8 @@ Nekoliko dana pre svoje smrti u Rimu 1850. godine, Bastija je poverio svom prija
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
+:::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
+
 
 Poznato je, istoriju pišu pobednici. Pažnja je često usmerena na osvajanje moći, na živote lidera na vlasti i na sukobe koji ih suprotstavljaju onima koji žele da zauzmu njihovo mesto.
 
@@ -315,6 +323,8 @@ Ova teza se takođe nalazi u monumentalnom delu iz 1983. godine: _Law and Revolu
 
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
+:::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Međutim, postoji još jedna perspektiva o istoriji. Ona je bila prilično uspešna i dugo je uživala podršku zapadnih intelektualaca i predstavnika Globalnog Juga. Ovo je socijalistički i marksistički pogled na istoriju.
 
@@ -412,6 +422,8 @@ Zaključujući ovo poglavlje, ekonomski i kulturni uzlet Evrope nije bio rezulta
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
+:::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
+
 
 U poslednjem poglavlju _Anatomy of the State_ (prevedeno na francuski kao _L’anatomie de l’Etat_, od strane Résurgence editions), Murray Rothbard predlaže teoriju istorije. Ovo veoma kratko poglavlje nosi naslov: Istorija, trka između državne moći i društvene moći. Prema Rothbardu, istorija se može razumeti kao večiti sukob između dva osnovna principa:
 
@@ -493,6 +505,8 @@ I dodaje:
 
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
+:::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 
 Iskustvo atinske demokratije ostavilo je trajan trag u istoriji političke misli i nastavlja da inspiriše ideale demokratije i učešća građana u današnjem svetu.
@@ -631,6 +645,8 @@ Jedino sredstvo koje imamo za približavanje istini su kritika i diskusija. Iz d
 
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+
+:::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 
 Rimsko carstvo je bilo ogromna kosmopolitska tvorevina. Na svom vrhuncu, oko 117. godine nove ere, bilo je to ogromna multietnička i višejezična država:
@@ -784,6 +800,8 @@ Tvrdeći da se zakon ne može svesti samo na statute koje donosi zakonodavno tel
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
+:::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
+
 
 Zašto je Rim propao i na kraju pao? Mnogi vole misliti da je Rimsko carstvo iznenada propalo pod uticajem varvarskih invazija. Međutim, uzroci propasti Rimskog carstva mogu se pronaći mnogo ranije, u imperijalizmu i ekonomskom i monetarnom dirigizmu.
 
@@ -894,6 +912,8 @@ I dodaje:
 
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
+:::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
+
 
 Hrišćanska ideja slobode razvijala se u srednjovekovnoj teologiji od Svetog Avgustina u 4. veku, do Svetog Tome Akvinskog u 13. veku. Šta je ta ideja?
 
@@ -969,6 +989,8 @@ Prema Svetom Tomi:
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
+:::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
+
 
 U srednjem veku, razum i vera se takmiče za pristup istini. Nakon Abélarda i Alberta Velikog, Toma Akvinski je u 13. veku odlučio da brani prava razuma i njegovu autonomiju u odnosu na veru.
 
@@ -1028,6 +1050,8 @@ Od tada će religijski racionalizam definitivno prevladati nad misticizmom.
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
+:::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
 
 U srednjem veku, Crkva i hrišćanske monarhije nasledile su politički model od Rimskog carstva, koji istoričari nazivaju teologiko-politički sistem, što znači sistem gde je moć sveta, tj. gde je politički vođa ujedno i verski vođa.
 
@@ -1084,6 +1108,8 @@ Teokratsko iskušenje Crkve takođe je u sukobu sa teorijom "božanskog prava." 
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
+:::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
 
 Drevna misao je podređivala čoveka božanskom kosmosu, to jest, savršenom univerzumu čiji je on bio samo deo. S druge strane, monoteizam tvrdi beskonačno superiornu vrednost čoveka nad prirodom, utoliko što je čovek stvoren po Božijem liku. Ova ključna tačka je na izvoru prave etičke revolucije. Biblija potvrđuje svetu i beskonačnu vrednost svakog ljudskog bića.
 
@@ -1137,6 +1163,8 @@ Ideja o čovečanstvu napreduje. Efektivno se počelo smatrati da postoji samo j
 
 
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+
+:::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
 
 Videli smo da hrišćanstvo nameće moralnu dužnost ljudima da rade na poboljšanju sveta. Bog želi da čovek bude srećan, ali ne želi da postigne njegovo dobro umesto njega. Stoga je na hrišćaninu da se bori protiv moralnog zla, da voli svog bližnjeg, da pomaže žrtvama, ukratko, da radi na pravednijem i humanijem svetu. Da li je kapitalizam, odnosno slobodna ekonomija zasnovana na privatnoj svojini i slobodi ugovora, kompatibilan sa hrišćanskom dužnošću?
@@ -1231,6 +1259,8 @@ Oresme naglašava da promene valute nisu samo igra preraspodele u korist vlasti 
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
+:::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
+
 
 Od renesanse, Evropu su pustošili verski ratovi. Tolerancija je, stoga, postala jedna od velikih bitaka prosvetiteljstva.
 
@@ -1315,6 +1345,8 @@ Drugim rečima, biti tolerantan ne znači biti neprijateljski nastrojen prema re
 
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
+:::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
 Ekonomski liberalizam se često povezuje sa anglosaksonskom tradicijom koja potiče od Adama Smita, u kontrastu sa "političkim liberalizmom," za koji se kaže da potiče iz kontinentalnog prosvetiteljstva, posebno u Francuskoj. Ovaj pogled je netačan.
 
@@ -1409,6 +1441,8 @@ Ukratko, ako svako može slobodno slediti svoj privatni interes u skladu sa prir
 
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+
+:::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 
 1776 je godina koja često prolazi nezapaženo u istorijskim udžbenicima. Ali u tri zemlje, Francuskoj, Škotskoj i Severnoj Americi, nekoliko događaja će ostaviti neizbrisiv trag u istoriji slobode.
@@ -1556,6 +1590,8 @@ Ova ideja spontanog poretka postala bi ključni koncept u radu Friedricha Hayeka
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
+:::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
 
 Velika novina ovog modernog perioda u zapadnoj istoriji je pojava društva koje se organizuje izvan religijske zavisnosti. To ne znači nestanak religijskog verovanja ili smrt Boga. Ali Bog postaje privatna stvar, više nije pomešan sa političkim poslovima. Nema nestanka religije, već detronizacija njene vodeće uloge. Ona postaje sistem individualnih verovanja.
 
@@ -1697,6 +1733,8 @@ Ovo je, štaviše, značenje primedbe Friedricha Hayeka u njegovoj knjizi _The C
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
+:::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
+
 
 Prema Benjamin Constantu, sloboda u našim modernim društvima više se ne može shvatiti na način društava Antike kao direktno učešće u poslovima grada.
 
@@ -1768,6 +1806,8 @@ Drugim rečima, u slobodnom društvu, neophodno je uspostaviti strogu granicu iz
 
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+
+:::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
 
 Alexis de Tokvil je bio pažljiv posmatrač demokratije i kritičar demokratskog individualizma.
@@ -1878,6 +1918,8 @@ Pogledajte globus. Koji su najsrećniji, najmoralniji i najmirniji narodi? Oni g
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
+:::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
+
 
 Bilo je to tokom 19. veka kada se pojavila kritika kapitalizma, a posebno marksistička kritika.
 
@@ -1921,6 +1963,8 @@ Politička revolucija je stoga iluzija, prema njemu, sve dok nije praćena ekono
 
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
+:::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
 
 Austrijska škola ekonomije, koju je osnovao Karl Menger krajem 19. veka, od početka se suprotstavljala teorijama Karla Marksa.
@@ -2013,6 +2057,8 @@ Još 1922. godine, u svojoj knjizi _Socijalizam,_ Ludwig von Mises je pokazao da
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
+:::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
+
 
 Uznemiren porastom intervencionizma vlade u ekonomijama zapadnih demokratija, Hajek je napisao _Put u ropstvo_ kao filozofsku kritiku kolektivizma, bilo sa desnice ili levice. Objavljena u nekoliko miliona primeraka, zahvaljujući _Reader’s Digest_-u, ova knjiga je u velikoj meri doprinela Hajekovoj slavi u Sjedinjenim Državama.
 
@@ -2073,6 +2119,8 @@ U zaključku, Hayek poziva svoje savremenike da okrenu leđa "ludilu" i "savreme
 
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
+:::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 
 Kapitalizam se često optužuje da je izvor naredbe: "uvek moramo proizvoditi više," ili formule: "konzumiranje je dobro za rast." Međutim, ove ideje ne potiču iz tradicionalnog kapitalizma već iz kejnzijanizma, koji dominira poljem ekonomske nauke i političkom klasom od 1930-ih.
@@ -2166,6 +2214,8 @@ Nijedna religija nije se proširila svetom tako brzo kao religija zaposlenja. Po
 
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+
+:::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
 
 Novac je alat koji je omogućio ljudima da pređu izvan razmene dobara, da štede i da se koordiniraju u velikim razmerama putem tržišta. Omogućio je specijalizaciju rada, komparativne prednosti, dobitke od trgovine, ekonomsku kalkulaciju. Bez novca, ne postoji moderna civilizacija.

@@ -275,7 +275,7 @@ Nk’uko nyene twavuye mu kwishura  mahera  ku munota ku bijanye n’uguhamagara
 
 
 
-## Bitcoin ku bucuruzi : amafaranga ariko arakura
+## Bitcoin mu nganda  : amafaranga ariko aratera intabwe 
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
@@ -283,16 +283,16 @@ Nk’uko nyene twavuye mu kwishura  mahera  ku munota ku bijanye n’uguhamagara
 **Bitcoin NI IKI?**
 
 
-Bitcoin ni **uburyo bwo gukoresha amafaranga y’ubuhinga bwa none Exchange** (amahera y’ubuhinga bwa none). Ijambo "Bitcoin" ryerekeza ku bice bikurikira:
+Bitcoin ni **uburyo bwo gukoresha amafaranga y’ubuhinga bwa none ahamwahamwa hagati yabantu babiri atamuhuza agiyemwo ** (amahera y’ubuhinga bwa none). Ijambo "Bitcoin" ryerekana ibice bikurikira :
 
 
 
-- Protocole ya mudasobwa **yorohereza agaciro Exchange kuri internet ata bahuza, ata ruhusha usaba, kandi n'izina ry'uruyeri**. Ikoresha ingingo ngenderwako ziteye imbere z'ubuhinga bwo gukingira amakuru.
-- Urubuga rw'umubiri rw'amamashini ahuye na internet (amanode, abacukuzi b'amabuye y'agaciro, n'ibindi) akoreshwa n'abantu ku giti cabo n'ubudandaji, bikaba bikora uburyo bwegerejwe (ata butegetsi buhambaye canke ikibanza kimwe co kugenzura).
-- Igiharuro ca konti kiri muri sisitemu. Ntazokwigera habaho ama bitcoins arenga miliyoni 21. Igitero kimwekimwe cose citwa Bitcoin kigabanywamwo ibice imiliyoni 100 vyitwa "satoshis," ivyo bikaba vyiswe mu gutera iteka uwagiremye atamenyekana.
+- Protocole yu buhinga bwa mudasobwa **yorohereza  kurungikiranira ubutunzi( amahera )  biciye kuri internet ata bahuza ( akarorero amabanki), ata ruhusha urinzi gusaba , kandi n'izina ry'itazirano ushatse **. Ikoresha ingingo ngenderwako ziteye imbere z'ubuhinga bwo gukingira amakuru biteye imbere.
+- Urubuga rugaragara rw'amudasobwa zifatanye kuri intereneti ( ipfundo , abacukuzi bamafaranga ya bitcoin bakoresheje ama mashine nyabwonko , n'ibindi) akoreshwa n'abantu basanzwe  canke ni ngada , vyose hamwe bikubaka umuhora utagira uwuwu twara  (ata butegetsi buhambaye canke amashirahamwe nkamabanke ayagenzura ).
+- Igiharuro camahera azunguruka muri sisiteme . Ntazokwigera habaho ama bitcoins arenga miliyoni 21. Bitcoin imwe imwe  igabanganyemwo  ibice bigana n'imiliyoni 100 vyitwa "satoshis," ivyo bikaba vyiswe uko mu gutera iteka uwayikoze akaba nubu ataramenyekana .
 
 
-Ivyo vyose hamwe bihindura Bitcoin **umutungo w’uwubitwara** n’ifaranga ry’ubuhinga bwa none **ata n’uwubitanga**. Ownership irindwa gusa mu gufata **urufunguzo rw’ibanga rw’ibanga**, itanga ububasha bwose **ata bahuza canke abandi bantu bizigira**. Iyo yimuriwe, Ownership **iherezo** irahita ibaho: uwuyifise mushasha arayigira mu buryo bushitse ata kwizigira ubutegetsi bwa mbere kugira ngo ayikingire canke ngo ayihindure. Ivy’ugucuruza **ntibihinduka**—iyo bimaze kwandikwa kuri Blockchain, ntibishobora guhindurwa canke gukurwaho.
+Ivyo vyose hamwe bihindura Bitcoin **umutungo w’umuntu wese ayifise ** n’ifaranga ry’ubuhinga bwa none **ata mumtu numwe ayigenzura**. gukingira bitcoin    bisaba gusa  gufita **urufunguzo rw’ibanga mw’ibanga** , bitcoin itanga ububasha bwose **ata bahuza canke abandi bantu babizigirwa uciyeko **. Mugihe cirungikwa ,  ** iyo irungika riheze ** iyakira yamahera irahita iba ubwonyene : uwuyifise mushasha arayigira mu buryo bushitse ata kwizigira ubutegetsi canke amashirahamwe nkama banki   ngo bagufashe kuyikingire canke ngo bayivunje . Ivy’irungikwa ryabitcoin **ntibihinduka**—iyo bimaze kwandikwa kuri Blockchain, ntibishobora guhindurwa canke gukurwaho.
 
 
 ![BIZ101](assets/rn/003.webp)

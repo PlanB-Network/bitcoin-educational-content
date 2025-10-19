@@ -1,4 +1,4 @@
-question: Ni vipengele vipi viwili vimesambazwa na Bitcoin core tangu toleo la 0.5?
+question: Ni elements zipi mbili zimesambazwa na Bitcoin core tangu toleo la 0.5?
 answer: Bitcoin-qt na bitcoind
 wrong_answers:
   - bitcoin-cli na Bitcoin-gui

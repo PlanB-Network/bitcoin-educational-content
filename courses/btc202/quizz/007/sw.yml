@@ -1,9 +1,9 @@
 question: Wallet inahitaji kufanya nini ili kutazama hali ya Blockchain?
-answer: Unganisha kwa nodi ya ndani au ya mbali
+answer: Unganisha kwa node ya ndani au ya mbali
 wrong_answers:
-  - Uliza pochi zingine kwenye mtandao
-  - Kuhoji wachimbaji wa mtandao
+  - Uliza wallet zingine kwenye mtandao
+  - Kuhoji miners wa mtandao
   - Unganisha kwenye jukwaa la mtandaoni la Exchange
 explanation: |
-  Wallet lazima iunganishe kwenye nodi ili kufikia hali ya Blockchain na kutangaza shughuli zake.
+  Wallet lazima iunganishe kwenye node ili kufikia hali ya Blockchain na kutangaza miamala yake.
 reviewed: true

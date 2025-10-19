@@ -298,16 +298,16 @@ Ivyo vyose hamwe bihindura Bitcoin **umutungo w’umuntu wese ayifise ** n’ifa
 ![BIZ101](assets/rn/003.webp)
 
 
-Bitcoin ifise politike y’amahera idahinduka, ifise **igipimo c’ama bitcoins miliyoni 21**, muri yo ~19.8 miliyoni ziramaze gutangwa. Ivyo bituma **deflationary**, agaciro kayo kakarushirizaho uko igihe kigenda kirarenga uko abayikoresha babikamwo amafaranga bazigamye n’inyungu z’umwimbu.
+Bitcoin ni  politike y’amahera idahinduka ( ishakamye ), ifise **irugezo  rwimiliyoni 21 za bitcoins**, muri yo imiriyoni igera kuri ~19.8 ziramaze gutangwa . Ivyo bituma **bitcoin iguma iduza agaciro kayo **, agaciro kayo kakarushirizaho uko igihe kigenda kirarenga uko abayikoresha bagenda bayizera babikamwo  amafaranga yabo yukuzigama n’inyungu z’umyimbu yabo.
 
 
-Ivy’ubuhinga bwayo birarengeye ivy’inzahabu n’idolari vyose hamwe, ivyo bikaba bituma iba umutungo w’amahera ukomeye kuruta iyindi yose yigeze kuremwa. Bitcoin ni ububiko bw’agaciro kandi ni uburyo bwo gukoresha Exchange, amafaranga ariko arakorwa. Ibaze ko wokwimurira agaciro mu bubiko bw’ishirahamwe rimwe ukaja mu rindi vyihuta, ata bahuza, ku giciro gitoyi, ata buhendanyi, 24/7, kandi ata muntu agira gatatu abigiramwo uruhara.
+Ubwo buranga bwa bitcoin burenze kure na kure uburyo bwogukoresha inzahabu( uburyo bwa kera) n’idolari( amahera ya none) vyose hamwe, ivyo bikaba bituma iba umutungo w’amahera ukomeye cane utajegajega isi atari bwigere  irema . Bitcoin ni ububiko bw’agaciro kandi ni uburyo bwo bwoguhanahana amafaranga  , amafaranga ariko araza bukebuke ahindura amateka. Ibaze ko woshora kurungika ubutunzi  mu bubiko bw’ishirahamwe rimwe bukaja mu rindi vyihuta, ata bahuza ( akarorero amabanki), ku giciro gitoyi, ata busuma bubayemwo , amasaha 24 kuri 24 ,imisi 7 kuri 7 kandi atabutegetsi canke ishirahamwe kanaka ibigizemwo uruhara.
 
 
 ![BIZ101](assets/rn/004.webp)
 
 
-Bitcoin irazigama neza agaciro kubera ko Ledger yayo idashobora guhindurwa. Agaciro kayo karaduga kubera Supply idasanzwe kandi ifise aho igarukira ifatanijwe n’umubare uriko uragwira w’amahirwe ya Exchange, bivuye ku kwiyongera kw’abakoresha.
+Bitcoin irazigama neza agaciro kubera ububiko bwayo budashobora guhindurwa ngo babwibe ( livre de compte est  infalsifiable). Agaciro kayo karaduga kubera ukutaboneka kubwishi kwayo (nimake) kandi ifise aho igarukira .., ifatanijwe n’umubare uriko uragwira w’amahirwe wokuyahanahana , bivuye ku kwiyongera kw’abakoresha.
 
 
 Bitcoin irahungabanya kuko idutera intege zo kwiga ivyiyumviro vyo mu biharuro, mu vy’ubuhinga bwo gukingira amakuru, mu vy’ubutunzi no mu vya kahise tutarigeze twigishwa. Naho kenshi umuntu abona ko ari ikintu gikomeye, mu vy’ukuri ni ubuhinga bushasha umuntu ashobora kuronka biciye mu gukora no mu kugerageza.

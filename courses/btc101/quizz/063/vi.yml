@@ -1,4 +1,4 @@
-question: Khái niệm toán học nào dựa trên lý trí con người và được sử dụng trong Bitcoin?
+question: Khái niệm toán học nào dựa trên lý trí con người và được sử dụng trong thiết kế của Bitcoin?
 answer: Lý thuyết trò chơi.
 wrong_answers:
   - Lý thuyết xác suất.

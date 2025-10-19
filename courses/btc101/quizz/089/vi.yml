@@ -1,5 +1,5 @@
 question: Rủi ro của việc làm phức tạp quá mức bảo mật và khả năng truy cập vào bitcoin của bạn là gì?
-answer: Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các bản sao lưu ví.
+answer: Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các bản sao lưu của ví.
 wrong_answers:
   - Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các ví vật lý.
   - Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các ví số.

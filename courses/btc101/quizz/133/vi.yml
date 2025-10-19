@@ -1,4 +1,4 @@
-question: Các thợ đào làm thế nào để xác thực các giao dịch và bao gồm chúng vào một khối?
+question: Các thợ đào làm thế nào để xác thực các giao dịch và đóng gói chúng vào một khối?
 answer: Qua quá trình Chứng minh công việc (Proof of work).
 wrong_answers:
   - Qua quá trình Chứng minh cổ phần (Proof of stake).

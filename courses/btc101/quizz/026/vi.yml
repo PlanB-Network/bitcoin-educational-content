@@ -1,5 +1,5 @@
 question: Tại sao vàng không thể phát triển tốt trong một thế giới toàn cầu hóa và số hóa?
-answer: Bởi vì nó cần một thực thể trung tâm để làm cho nó có thể chia nhỏ và dễ dàng trao đổi.
+answer: Bởi vì nó cần một tổ chức trung tâm để làm cho nó có thể chia nhỏ thuận tiện cho giao dịch và dễ dàng trao đổi.
 wrong_answers:
   - Bởi vì nó không đủ giá trị.
   - Bởi vì nó không hiếm đủ.
@@ -7,7 +7,7 @@ wrong_answers:
 explanation: |
   Vàng không thể theo kịp trong một thế giới toàn cầu hóa và số hóa
   bởi vì nó cần một thực thể trung tâm để làm cho nó có thể chia nhỏ và
-  dễ dàng trao đổi. Điều này làm cho nó kém thực tiễn để sử dụng trong
-  một thế giới nơi các giao dịch ngày càng trở nên số hóa và
+  dễ dàng trao đổi. Điều này làm loại tài sản này trở nên kém thực tiễn khi sử dụng trong
+  một thế giới nơi ngày càng nhiều các giao dịch số hóa và
   phi tập trung.
 reviewed: true

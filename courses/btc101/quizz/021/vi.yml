@@ -1,5 +1,5 @@
 question: Một trong những nhược điểm của vàng khi được sử dụng như một hình thức tiền tệ là gì?
-answer: Nó không dễ dàng chia nhỏ.
+answer: Nó không dễ chia nhỏ trong giao dịch.
 wrong_answers:
   - Nó không giữ giá trị qua không gian.
   - Nó bị ăn mòn theo thời gian.
@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Một trong những nhược điểm chính của vàng khi được sử dụng như một hình thức tiền tệ là
   khó để chia nhỏ thành các đơn vị nhỏ khi cần thiết,
-  điều này làm cho việc sử dụng nó trở nên kém tiện lợi.
+  điều này làm cho việc sử dụng nó trong giao dịch trở nên không thuận tiện.
 reviewed: true

@@ -1,12 +1,12 @@
-question: Thông điệp nào được chứa trong khối đầu tiên của blockchain Bitcoin?
-answer: 03/jan/2009 Thủ tướng trên bờ vực của việc cứu trợ ngân hàng lần thứ hai.
+question: Thông điệp nào được chứa trong khối đầu tiên của chuỗi (blockchain) Bitcoin?
+answer: ngày 3 tháng 1 năm 2009 những người đứng đầu đang trên bờ vực để cứu trợ ngân hàng lần thứ hai.
 wrong_answers:
   - Chúng ta có thể giành chiến thắng trong một trận đánh lớn trong cuộc đua vũ trang và giành được một lãnh thổ tự do mới trong vài năm.
-  - Chính phủ giỏi trong việc cắt đầu của các mạng lưới được kiểm soát trung ương như Napster, nhưng các mạng lưới P2P thuần túy như Gnutella và Tor dường như đang tự giữ vững.
+  - Chính phủ giỏi trong việc cắt đầu của các mạng lưới được kiểm soát tập trung như Napster, nhưng các mạng lưới P2P thuần túy như Gnutella và Tor dường như đang tự giữ vững.
   - Không có cái nào ở trên.
 explanation: |
-  Khối đầu tiên của blockchain Bitcoin, còn được biết đến
-  là khối sáng thế, chứa thông điệp 03/jan/2009
-  Thủ tướng trên bờ vực của việc cứu trợ ngân hàng lần thứ hai, đây là
-  tiêu đề của tờ Time trong ngày đó để đánh dấu thời gian cho khối sáng thế.
+  Khối đầu tiên của chuỗi (blockchain) Bitcoin, còn được biết đến
+  là khối sáng thế, chứa thông điệp ngày 3 tháng 1 năm 2009
+  những người đứng đầu đang trên bờ vực để cứu trợ ngân hàng lần thứ hai, đây là
+  tiêu đề của tờ báo Time trong cùng ngày để đánh dấu mốc thời gian cho khối đầu tiên.
 reviewed: true

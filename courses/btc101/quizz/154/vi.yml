@@ -10,7 +10,7 @@ wrong_answers:
 explanation:
   ASICs (Application-Specific Integrated Circuits) là
   phần cứng chuyên biệt được thiết kế đặc biệt cho việc
-  đào Bitcoin. Chúng được tối ưu hóa để thực hiện chức năng băm SHA256,
+  đào Bitcoin. Chúng được tối ưu hóa để thực hiện chức năng mật mã hóa (băm) SHA256,
   đây là bài toán toán học mà các thợ đào
   phải giải quyết trong quá trình Chứng minh Công việc (Proof of Work).
 

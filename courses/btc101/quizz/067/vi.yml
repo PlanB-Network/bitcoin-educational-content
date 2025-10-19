@@ -1,4 +1,4 @@
-question: Tần suất điều chỉnh độ khó là bao nhiêu?
+question: Tần suất điều chỉnh độ khó trong khai thác (đào) là bao nhiêu khối dữ liệu?
 answer: Mỗi 2016 khối.
 wrong_answers:
   - Mỗi 1048 khối.
@@ -8,5 +8,5 @@ explanation: |
   Điều chỉnh độ khó là một cơ chế diễn ra
   mỗi 2016 khối, hoặc khoảng hai tuần, để đảm bảo rằng một
   khối mới được thêm vào blockchain mỗi mười phút trung bình,
-  bất kể tổng hashrate toàn cầu.
+  bất kể tổng tỷ lệ mật mã hóa (hashrate) toàn cầu.
 reviewed: true

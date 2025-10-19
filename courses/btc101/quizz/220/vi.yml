@@ -1,5 +1,5 @@
 question: Khóa học này gợi ý như thế nào về tốc độ học về Bitcoin?
-answer: Việc tiếp thu tất cả mọi thứ cùng một lúc là phức tạp, vì vậy hãy dành thời gian của bạn.
+answer: Việc tiếp thu tất cả mọi thứ cùng một lúc là phức tạp, vì vậy hãy học theo tốc độ của bạn.
 wrong_answers:
   - Học tất cả mọi thứ cùng một lúc là dễ dàng.
   - Là không thể học hết mọi thứ về Bitcoin.
@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Khóa học gợi ý rằng có rất nhiều điều để khám phá với
   Bitcoin đến mức việc tiếp thu tất cả mọi thứ cùng một
-  lúc là phức tạp, vì vậy người học nên dành thời gian của mình.
+  lúc là phức tạp, vì vậy người học nên học với tốc độ của mình.
 reviewed: true

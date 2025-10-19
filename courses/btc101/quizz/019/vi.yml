@@ -1,12 +1,12 @@
 question: Ba chức năng cơ bản của tiền tệ là gì?
-answer: Lưu trữ giá trị, Phương tiện trao đổi, Đơn vị kế toán.
+answer: Lưu trữ giá trị, Phương tiện trao đổi, Đơn vị đo lường giá trị sổ sách.
 wrong_answers:
   - Lưu trữ giá trị, Phương tiện trao đổi, Phương tiện sản xuất.
-  - Lưu trữ giá trị, Phương tiện sản xuất, Đơn vị kế toán.
-  - Phương tiện trao đổi, Phương tiện sản xuất, Đơn vị kế toán.
+  - Lưu trữ giá trị, Phương tiện sản xuất, Đơn vị đo lường giá trị sổ sách.
+  - Phương tiện trao đổi, Phương tiện sản xuất, Đơn vị đo lường giá trị sổ sách.
 explanation: |
   Theo Aristotle, tiền tệ đảm nhận ba chức năng: nó là
   một phương tiện lưu trữ giá trị, một phương tiện trao đổi, và một đơn vị
-  kế toán. Ngày nay, chức năng phương tiện trao đổi được
+  kế toán (đo lường giá trị sổ sách). Ngày nay, chức năng phương tiện trao đổi được
   công nhận rộng rãi là chính, trước hai chức năng khác.
 reviewed: true

@@ -1,5 +1,5 @@
 question: Tại sao số lượng xác nhận trong một giao dịch Bitcoin lại quan trọng?
-answer: Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên bất biến.
+answer: Càng nhiều xác nhận cho một giao dịch, tính bất biến của nó càng cao.
 wrong_answers:
   - Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên có giá trị.
   - Càng nhiều xác nhận mà một giao dịch có, quá trình xử lý càng nhanh.

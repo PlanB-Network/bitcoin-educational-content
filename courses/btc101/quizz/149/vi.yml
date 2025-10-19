@@ -1,10 +1,10 @@
 question: Lightning Network là gì?
-answer: Một mạng lưới thanh toán Bitcoin tức thì dựa trên blockchain của Bitcoin.
+answer: Một mạng lưới thanh toán tức thì dựa trên blockchain Bitcoin.
 wrong_answers:
-  - Một mạng lưới blockchain riêng biệt so với blockchain của Bitcoin.
+  - Một mạng lưới blockchain riêng biệt so với blockchain Bitcoin.
   - Một mạng lưới của các thợ đào Bitcoin.
   - Một mạng lưới của các sàn giao dịch Bitcoin.
 explanation:
   Lightning Network là một mạng lưới thanh toán Bitcoin tức thì
-  dựa trên blockchain của Bitcoin.
+  dựa trên blockchain Bitcoin.
 reviewed: true

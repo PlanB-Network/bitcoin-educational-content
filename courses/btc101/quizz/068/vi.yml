@@ -1,4 +1,4 @@
-question: Phần thưởng cho việc đào được giảm một nửa bao lâu một lần?
+question: Phần thưởng cho việc khai thác (đào) sẽ cứ bị giảm đi một nửa sau bao nhiêu khối dữ liệu?
 answer: Mỗi 210,000 khối.
 wrong_answers:
   - Mỗi 120,000 khối.
@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Phần thưởng cho việc đào được lập trình để giảm một nửa mỗi 210,000
   khối, tương đương khoảng mỗi bốn năm: một sự kiện
-  được biết đến là halving.
+  được biết đến là điều chỉnh nguồn cung (halving).
 reviewed: true

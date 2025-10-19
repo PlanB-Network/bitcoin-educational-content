@@ -1,5 +1,5 @@
 question: Giao dịch coinbase là gì?
-answer: Giao dịch đầu tiên của khối bao gồm phần thưởng của người đào.
+answer: Giao dịch coinbase là giao dịch đầu tiên của một khối bao gồm phần thưởng của người đào.
 wrong_answers:
   - Một giao dịch được thực hiện trên sàn giao dịch Coinbase.
   - Giao dịch thứ hai của khối bao gồm phí cao nhất.

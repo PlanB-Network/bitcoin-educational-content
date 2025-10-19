@@ -3,7 +3,7 @@ answer: Watengenezaji wa mfumo wa ikolojia
 wrong_answers:
   - Watoa huduma za mtandao
   - Satoshi Nakamoto
-  - lMining pools
+  - Mining pools
 explanation: |
   Seeds za DNS hudumishwa na wasanidi programu wanaojulikana (Wuille, Corallo, Dashjr, n.k.) na hutoa IP za nodile amilifu ili kuanzisha miunganisho.
 reviewed: true

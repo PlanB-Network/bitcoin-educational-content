@@ -3496,7 +3496,7 @@ Siin on Mempool ja releepoliitika täiustatud seaded. Kui te olete algaja, ei pe
 
 
 
-- peerblockfilters=1`: (vaikimisi: `0`).
+- `peerblockfilters=1` : Teenindab kaaslastele kompaktseid BIP157 (*Neutrino*) filtreid (vaikimisi: `0`).
 
 
 

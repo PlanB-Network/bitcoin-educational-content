@@ -3496,7 +3496,7 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- peerblockfilters=1`: Hutoa BIP157 (*Neutrino*) vichujio kongamano kwa programu zingine (chaguo-msingi: `0`).
+- `peerblockfilters=1` : Hutoa vichujio vilivyoshikamana vya BIP157 (*Neutrino*) kwa wenzao (chaguo-msingi: `0`).
 
 
 

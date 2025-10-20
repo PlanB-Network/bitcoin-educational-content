@@ -3496,7 +3496,7 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- peerblockfilters=1`: Menyajikan filter ringkas BIP157 (*Neutrino*) ke rekan-rekan (default: `0`).
+- `peerblockfilters=1` : Menyediakan filter kompak BIP157 (*Neutrino*) ke rekan (default: `0`).
 
 
 

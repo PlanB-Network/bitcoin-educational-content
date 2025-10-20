@@ -3496,7 +3496,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- peerblockfilters=1`: Serwuje kompaktowe filtry BIP157 (*Neutrino*) do peerów (domyślnie: `0`).
+- `peerblockfilters=1` : Dostarcza kompaktowe filtry BIP157 (*Neutrino*) peerom (domyślnie: `0`).
 
 
 

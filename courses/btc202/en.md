@@ -2621,7 +2621,7 @@ Here are the advanced settings for Mempool and relay policy. If you're a beginne
 
 
 
-- peerblockfilters=1`: Serves BIP157 (*Neutrino*) compact filters to peers (default: `0`).
+- `peerblockfilters=1` : Serves compact BIP157 (*Neutrino*) filters to peers (default: `0`).
 
 
 

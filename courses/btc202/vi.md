@@ -3496,7 +3496,7 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- peerblockfilters=1`: Cung cấp bộ lọc nhỏ gọn BIP157 (*Neutrino*) cho các đối tác (mặc định: `0`).
+- `peerblockfilters=1` : Cung cấp các bộ lọc gọn nhẹ BIP157 (*Neutrino*) cho các nút ngang hàng (mặc định: `0`).
 
 
 

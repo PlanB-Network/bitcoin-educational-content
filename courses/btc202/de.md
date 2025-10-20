@@ -3496,7 +3496,7 @@ Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtl
 
 
 
-- peerblockfilters=1`: Stellt BIP157 (*Neutrino*) Kompaktfilter für Peers bereit (Standard: `0`).
+- `peerblockfilters=1` : Dient kompakten BIP157-Filtern (*Neutrino*) an Peers (Standard: `0`).
 
 
 

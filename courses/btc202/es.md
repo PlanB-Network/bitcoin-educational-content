@@ -3496,7 +3496,7 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-- peerblockfilters=1`: Sirve filtros compactos BIP157 (*Neutrino*) a los pares (por defecto: `0`).
+- `peerblockfilters=1` : Sirve filtros compactos BIP157 (*Neutrino*) a los pares (por defecto: `0`).
 
 
 

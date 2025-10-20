@@ -3496,7 +3496,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- peerblockfilters=1`: BIP157 (*Neutrino*) kompakt filtrelerini eşlere sunar (varsayılan: `0`).
+- `peerblockfilters=1` : Eşlere kompakt BIP157 (*Neutrino*) filtreleri sunar (varsayılan: `0`).
 
 
 

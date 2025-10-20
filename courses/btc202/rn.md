@@ -3496,7 +3496,7 @@ Aha niho hari amasetingi ateye imbere ya Mempool n’ingingo ngenderwako y’ugu
 
 
 
-- 1`: Ikoresha BIP157 (*Neutrino*) iyunguruzo ry'urunganwe (mburabuzi: `0`).
+- `peerblockfilters=1` : Itanga amasefa agufi ya BIP157 (*Neutrino*) ku bandi (defaults: `0`).
 
 
 

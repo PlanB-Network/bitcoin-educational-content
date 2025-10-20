@@ -3496,7 +3496,7 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- peerblockfilters=1`: Služi BIP157 (*Neutrino*) kompaktne filtere vršnjacima (podrazumevano: `0`).
+- `peerblockfilters=1` : Pruža kompaktne BIP157 (*Neutrino*) filtere peerovima (podrazumevano: `0`).
 
 
 

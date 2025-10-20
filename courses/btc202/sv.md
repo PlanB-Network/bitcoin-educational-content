@@ -3496,7 +3496,7 @@ Här är de avancerade inställningarna för Mempool och reläpolicy. Om du är 
 
 
 
-- peerblockfilters=1`: Serverar kompaktfilter för BIP157 (*Neutrino*) till peers (standard: `0`).
+- `peerblockfilters=1` : Tillhandahåller kompakta BIP157 (*Neutrino*) filter till noder (standard: `0`).
 
 
 

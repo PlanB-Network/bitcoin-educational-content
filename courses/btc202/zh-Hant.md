@@ -3496,7 +3496,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-- peerblockfilters=1`：將 BIP157 (*Neutrino*) 精簡過濾器提供給對等（預設值：`0`）。
+- `peerblockfilters=1` ：向節點提供緊湊型 BIP157（*Neutrino*）過濾器（預設值：`0`）。
 
 
 

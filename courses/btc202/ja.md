@@ -3496,7 +3496,7 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-- peerblockfilters=1`：BIP157 (*Neutrino*)のコンパクトフィルタをピアに提供する(デフォルト: `0`)。
+- `peerblockfilters=1` : ピアにコンパクトな BIP157 (*Neutrino*) フィルターを提供します（デフォルト：`0`）。
 
 
 

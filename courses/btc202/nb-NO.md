@@ -3496,7 +3496,7 @@ Her er de avanserte innstillingene for Mempool og relépolicy. Hvis du er nybegy
 
 
 
-- peerblockfilters=1`: Serverer BIP157 (*Neutrino*) kompakte filtre til motparter (standard: `0`).
+- `peerblockfilters=1` : Leverer kompakte BIP157 (*Neutrino*) filtre til jevnaldrende (standard: `0`).
 
 
 

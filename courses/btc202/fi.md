@@ -3496,7 +3496,7 @@ Tässä ovat Mempool:n ja välityskäytännön lisäasetukset. Jos olet aloittel
 
 
 
-- peerblockfilters=1`: Tarjoaa BIP157 (*Neutrino*) kompaktisuodattimet vertaisverkoille (oletus: `0`).
+- `peerblockfilters=1` : Palvelee tiivistettyjä BIP157 (*Neutrino*) suodattimia vertaisille (oletus: `0`).
 
 
 

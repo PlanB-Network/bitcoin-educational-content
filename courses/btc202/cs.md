@@ -3496,7 +3496,7 @@ Zde jsou uvedena pokročilá nastavení pro Mempool a zásady přenosu. Pokud js
 
 
 
-- peerblockfilters=1`: (*Neutrino*) kompaktní filtry pro peery (výchozí: `0`).
+- `peerblockfilters=1` : Poskytuje kompaktní filtry BIP157 (*Neutrino*) peerům (výchozí: `0`).
 
 
 

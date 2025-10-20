@@ -3496,7 +3496,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- peerblockfilters=1`: Geeft BIP157 (*Neutrino*) compacte filters aan peers (standaard: `0`).
+- `peerblockfilters=1` : Biedt compacte BIP157 (*Neutrino*) filters aan peers (standaard: `0`).
 
 
 

@@ -3496,7 +3496,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- peerblockfilters=1`: فیلترهای فشرده BIP157 (*Neutrino*) را به همتایان ارائه می‌دهد (پیش‌فرض: `0`).
+- `peerblockfilters=1` : فیلترهای فشرده BIP157 (*Neutrino*) را به همتایان ارائه می‌دهد (پیش‌فرض: `0`).
 
 
 

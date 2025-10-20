@@ -3496,7 +3496,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- peerblockfilters=1`：向对等设备提供 BIP157 (*Neutrino*) 紧凑型过滤器（默认值：`0`）。
+- `peerblockfilters=1` ：向节点提供紧凑型 BIP157（*Neutrino*）过滤器（默认：`0`）。
 
 
 

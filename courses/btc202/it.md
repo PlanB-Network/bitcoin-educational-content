@@ -3496,7 +3496,7 @@ Ecco le impostazioni avanzate per il Mempool e la politica dei relè. Se si è a
 
 
 
-- peerblockfilters=1`: Serve i filtri compatti BIP157 (*Neutrino*) ai peer (default: `0`).
+- `peerblockfilters=1` : Fornisce filtri compatti BIP157 (*Neutrino*) ai peer (predefinito: `0`).
 
 
 

@@ -3568,7 +3568,7 @@ Takođe možete prilagoditi način na koji se vaši novčanici upravljaju u dato
 
 
 
-- fallbackfee=<amt>`: Rezervna stopa (BTC/kvB) koja se koristi ako procenjivač ostane bez podataka (podrazumevano: `0.00`). Postavljanje na 0 potpuno onemogućava rezervu.
+- `fallbackfee=<amt>` : Rezervna naknada (BTC/kvB) koja se koristi ako procenitelj nema dovoljno podataka (podrazumevano: `0.00`). Postavljanje na 0 potpuno onemogućava rezervnu funkciju.
 
 
 

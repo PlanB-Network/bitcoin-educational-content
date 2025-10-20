@@ -3568,7 +3568,7 @@ Samuti saate kohandada oma rahakottide haldamise viisi failis `Bitcoin.conf`. Ku
 
 
 
-- fallbackfee=<amt>`: Tagasipöördumismäär (BTC/kvB), mida kasutatakse juhul, kui hindaja andmed saavad otsa (vaikimisi: `0.00`). Selle seadmine 0-ks keelab tagasilanguse täielikult.
+- `fallbackfee=<amt>` : Varutasu (BTC/kvB), mida kasutatakse, kui hinnangul puuduvad andmed (vaikimisi: `0.00`). Väärtuse 0 määramine keelab varutuse täielikult.
 
 
 

@@ -3568,7 +3568,7 @@ Cüzdanlarınızın yönetilme şeklini `Bitcoin.conf` dosyasından da ayarlayab
 
 
 
-- fallbackfee=<amt>`: Tahmin edicinin verisi biterse kullanılan geri dönüş oranı (BTC/kvB) (varsayılan: `0,00`). 0 olarak ayarlamak geri dönüşü tamamen devre dışı bırakır.
+- `fallbackfee=<amt>` : Tahmin aracının verisi eksikse kullanılan yedek ücret oranı (BTC/kvB) (varsayılan: `0.00`). 0 olarak ayarlamak yedeği tamamen devre dışı bırakır.
 
 
 

@@ -3568,7 +3568,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- fallbackfee=<amt>`: Tasa de fallback (BTC/kvB) utilizada si el estimador se queda sin datos (por defecto: `0.00`). Si se establece en 0, se desactiva por completo.
+- `fallbackfee=<amt>` : Tarifa de respaldo (BTC/kvB) utilizada si el estimador carece de datos (por defecto: `0.00`). Configurarla en 0 desactiva completamente el modo de respaldo.
 
 
 

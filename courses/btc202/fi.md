@@ -3568,7 +3568,7 @@ Voit myös säätää tapaa, jolla lompakoitasi hallitaan Bitcoin.conf-tiedostos
 
 
 
-- fallbackfee=<amt>`: Fallback rate (BTC/kvB), jota käytetään, jos estimaattorilta loppuu data (oletus: `0.00`). Asettamalla sen arvoksi 0 se poistaa fallbackin kokonaan käytöstä.
+- `fallbackfee=<amt>` : Varamaksu (BTC/kvB), jota käytetään, jos arvioijalta puuttuu tietoja (oletus: `0.00`). Asettaminen arvoon 0 poistaa varatoiminnon kokonaan käytöstä.
 
 
 

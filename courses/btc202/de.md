@@ -3568,7 +3568,7 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-- fallbackfee=<amt>`: Fallback-Rate (BTC/kvB), die verwendet wird, wenn der Schätzer keine Daten mehr hat (Standardwert: `0.00`). Bei einem Wert von 0 wird das Fallback vollständig deaktiviert.
+- `fallbackfee=<amt>` : Notfallgebühr (BTC/kvB), die verwendet wird, wenn dem Schätzer Daten fehlen (Standard: `0.00`). Das Setzen auf 0 deaktiviert die Notfallgebühr vollständig.
 
 
 

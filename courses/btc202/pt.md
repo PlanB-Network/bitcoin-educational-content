@@ -3568,7 +3568,7 @@ Você também pode ajustar a forma como suas carteiras são gerenciadas no arqui
 
 
 
-- fallbackfee=<amt>`: Taxa de fallback (BTC/kvB) usada se o estimador ficar sem dados (padrão: `0.00`). Definindo-o como 0 desabilita completamente o fallback.
+- `fallbackfee=<amt>` : Taxa de fallback (BTC/kvB) usada se o estimador não tiver dados suficientes (padrão: `0.00`). Defini-la como 0 desativa completamente o fallback.
 
 
 

@@ -3568,7 +3568,7 @@ Du kan också justera hur dina plånböcker ska hanteras i filen `Bitcoin.conf`.
 
 
 
-- fallbackfee=<amt>`: Reservränta (BTC/kvB) som används om estimatorn får slut på data (standard: `0.00`). Om den sätts till 0 inaktiveras fallback helt.
+- `fallbackfee=<amt>` : Reservavgift (BTC/kvB) som används om uppskattaren saknar data (standard: `0.00`). Att ställa in den till 0 inaktiverar reservfunktionen helt.
 
 
 

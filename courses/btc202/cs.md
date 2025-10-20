@@ -3568,7 +3568,7 @@ Způsob správy peněženek můžete také upravit v souboru `Bitcoin.conf`. Pok
 
 
 
-- fallbackfee=<amt>`: (BTC/kvB) použitá v případě, že estimátoru dojdou data (výchozí: `0,00`). Nastavení na 0 zcela vypne fallback.
+- `fallbackfee=<amt>` : Záložní poplatek (BTC/kvB) použitý, pokud odhadce nemá dostatek dat (výchozí: `0.00`). Nastavení na 0 zcela vypne záložní poplatek.
 
 
 

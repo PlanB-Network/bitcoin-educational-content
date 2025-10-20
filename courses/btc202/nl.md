@@ -3568,7 +3568,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- fallbackfee=<amt>`: Terugvalsnelheid (BTC/kvB) die wordt gebruikt als de schatter geen gegevens meer heeft (standaard: `0,00`). Als dit op 0 wordt gezet, wordt fallback volledig uitgeschakeld.
+- `fallbackfee=<amt>` : Noodtarief (BTC/kvB) dat wordt gebruikt als de schatter onvoldoende gegevens heeft (standaard: `0.00`). Instellen op 0 schakelt de noodfunctie volledig uit.
 
 
 

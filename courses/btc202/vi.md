@@ -3568,7 +3568,7 @@ Bạn cũng có thể điều chỉnh cách quản lý ví của mình trong t�
 
 
 
-- fallbackfee=<amt>`: Tỷ lệ dự phòng (BTC/kvB) được sử dụng nếu bộ ước tính hết dữ liệu (mặc định: `0,00`). Đặt thành 0 sẽ vô hiệu hóa hoàn toàn tính năng dự phòng.
+- `fallbackfee=<amt>` : Mức phí dự phòng (BTC/kvB) được sử dụng nếu bộ ước tính thiếu dữ liệu (mặc định: `0.00`). Đặt giá trị này thành 0 sẽ tắt hoàn toàn chế độ dự phòng.
 
 
 

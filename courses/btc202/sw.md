@@ -3568,7 +3568,7 @@ Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitco
 
 
 
-- fallbackfee=<amt>`: Kiwango cha kurudi nyuma (BTC/kvB) kinachotumika ikiwa kikadiriaji kinaishiwa na data (chaguo-msingi: `0.00`). Kuiweka kwa 0 huzima kabisa urejeshaji.
+- `fallbackfee=<amt>` : Kiwango cha ada ya akiba (BTC/kvB) kinachotumika ikiwa kipima data kinakosa taarifa (chaguo-msingi: `0.00`). Kukiweka kuwa 0 huzima kabisa akiba.
 
 
 

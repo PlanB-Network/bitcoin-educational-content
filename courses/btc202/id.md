@@ -3568,7 +3568,7 @@ Anda juga dapat mengatur cara pengelolaan wallet Anda dalam file `Bitcoin.conf`.
 
 
 
-- fallbackfee=<amt>`: Tingkat fallback (BTC/kvB) yang digunakan jika estimator kehabisan data (default: `0.00`). Mengaturnya ke 0 akan menonaktifkan fallback sepenuhnya.
+- `fallbackfee=<amt>` : Tarif cadangan (BTC/kvB) yang digunakan jika estimator kekurangan data (default: `0.00`). Mengaturnya ke 0 akan menonaktifkan fallback sepenuhnya.
 
 
 

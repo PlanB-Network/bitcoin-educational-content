@@ -3568,7 +3568,7 @@ Come promemoria, tutte queste regole di relè non hanno alcun impatto sulla vali
 
 
 
-- fallbackfee=<amt>`: Tasso di ripiego (BTC/kvB) utilizzato se lo stimatore esaurisce i dati (default: `0,00`). L'impostazione a 0 disabilita completamente il fallback.
+- `fallbackfee=<amt>` : Tariffa di riserva (BTC/kvB) utilizzata se il sistema di stima non dispone di dati sufficienti (predefinito: `0.00`). Impostarla su 0 disattiva completamente la funzione di riserva.
 
 
 

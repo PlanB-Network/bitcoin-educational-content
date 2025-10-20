@@ -2670,7 +2670,7 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- fallbackfee=<amt>`: Fallback rate (BTC/kvB) used if the estimator runs out of data (default: `0.00`). Setting it to 0 completely disables fallback.
+- `fallbackfee=<amt>` : Fallback fee rate (BTC/kvB) used if the estimator lacks data (default: `0.00`). Setting it to 0 completely disables the fallback.
 
 
 

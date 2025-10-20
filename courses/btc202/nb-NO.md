@@ -3568,7 +3568,7 @@ Du kan også justere måten lommebøkene dine administreres på i filen `Bitcoin
 
 
 
-- fallbackfee=<amt>`: Fallback-rate (BTC/kvB) som brukes hvis estimatoren går tom for data (standard: `0,00`). Hvis du setter den til 0, deaktiveres fallback helt.
+- `fallbackfee=<amt>` : Reservegebyr (BTC/kvB) som brukes hvis estimatoren mangler data (standard: `0.00`). Å sette den til 0 deaktiverer reservegebyret helt.
 
 
 

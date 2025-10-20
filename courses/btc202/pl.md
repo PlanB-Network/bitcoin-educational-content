@@ -3568,7 +3568,7 @@ Można również dostosować sposób zarządzania portfelami w pliku `Bitcoin.co
 
 
 
-- fallbackfee=<amt>`: Stawka awaryjna (BTC/kvB) używana, gdy estymatorowi zabraknie danych (domyślnie: `0.00`). Ustawienie wartości 0 całkowicie wyłącza funkcję awaryjną.
+- `fallbackfee=<amt>` : Stawka opłaty awaryjnej (BTC/kvB) używana, gdy estymatorowi brakuje danych (domyślnie: `0.00`). Ustawienie na 0 całkowicie wyłącza tryb awaryjny.
 
 
 

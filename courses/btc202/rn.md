@@ -3568,7 +3568,7 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- fallbackfee=<amt>`: Igipimo co gusubira inyuma (BTC/kvB) gikoreshwa iyo umugereranyo arangije amakuru (ivya kera: `0.00`). Kuyishira kuri 0 bizibira burundu gusubira inyuma.
+- `fallbackfee=<amt>` : Igiciro cy’inyongera (BTC/kvB) gikoreshwa igihe umupima atabonye amakuru (defaults: `0.00`). Kugitera kuri 0 birahagarika burundu iyi gahunda y’inyongera.
 
 
 

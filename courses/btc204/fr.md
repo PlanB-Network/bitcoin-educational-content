@@ -47,7 +47,7 @@ L'objectif de cette formation n'est pas de vous rendre totalement anonyme dans v
 
 **Section 1 : Définitions et concepts clés**
 
-Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les UTXO, les adresses de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
+Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les UTXOs, les adresses de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
 
 ![BTC204](assets/fr/001.webp)
 
@@ -98,7 +98,7 @@ Ce modèle se distingue profondément des systèmes bancaires traditionnels qui 
 
 ![BTC204](assets/fr/006.webp)
 
-Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et les unités monétaires ne sont pas gérées via des soldes, mais à travers des UTXO. Un UTXO représente une quantité spécifique de bitcoins qui n'a pas encore été dépensée, formant ainsi un "morceau de bitcoin", qui peut être grand ou petit. Par exemple, un UTXO pourrait valoir `500 BTC` ou simplement `700 SATS`.
+Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et les unités monétaires ne sont pas gérées via des soldes, mais à travers des UTXOs. Un UTXO représente une quantité spécifique de bitcoins qui n'a pas encore été dépensée, formant ainsi un "morceau de bitcoin", qui peut être grand ou petit. Par exemple, un UTXO pourrait valoir `500 BTC` ou simplement `700 SATS`.
 
 **Pour rappel :** Le satoshi, souvent abrégé en sat, est la plus petite unité de Bitcoin, comparable au centime dans les monnaies fiat.
 
@@ -160,7 +160,7 @@ Pour qu'une transaction soit considérée valide selon les règles de consensus,
 
 ### Le change et la fusion dans une transaction Bitcoin
 
-L'action d'une transaction Bitcoin sur les UTXO peut ainsi être comparée à la refonte d'une pièce d'or. En effet, un UTXO n'est pas divisible, mais uniquement fusible. Cela signifie qu'un utilisateur ne peut pas simplement diviser un UTXO représentant un certain montant en bitcoins en plusieurs UTXO plus petits. Il doit le consommer entièrement dans une transaction pour créer un ou plusieurs nouveaux UTXOs de valeurs arbitraires en outputs, qui doivent être inférieures ou égales à la valeur initiale.
+L'action d'une transaction Bitcoin sur les UTXOs peut ainsi être comparée à la refonte d'une pièce d'or. En effet, un UTXO n'est pas divisible, mais uniquement fusible. Cela signifie qu'un utilisateur ne peut pas simplement diviser un UTXO représentant un certain montant en bitcoins en plusieurs UTXOs plus petits. Il doit le consommer entièrement dans une transaction pour créer un ou plusieurs nouveaux UTXOs de valeurs arbitraires en outputs, qui doivent être inférieures ou égales à la valeur initiale.
 
 Cette mécanique est similaire à celle d'une pièce d'or. Imaginons que vous possédez une pièce de 2 onces et que vous souhaitez faire un paiement de 1 once, en supposant que le vendeur ne puisse pas vous rendre la monnaie. Vous devriez fondre votre pièce et en couler 2 nouvelles de 1 once chacune.
 

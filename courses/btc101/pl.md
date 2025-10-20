@@ -157,7 +157,7 @@ Ewolucja pieniądza jest fascynującym aspektem historii ludzkości, odzwiercied
 ### Od muszelek do kont bankowych
 
 Początkowo funkcję waluty pełniły towary takie jak zboże, bydło i inne. Jednak używanie tych dóbr w funkcji pieniądzy miało poważne wady, na przykład ich nietrwałość utrudniała używanie ich jako środka przechowywania długoterminowych oszczędności, nieudane żniwa lub choroba mogły z dnia na dzień zniszczyć czyjś majątek.
-W miarę postępu cywilizacji i rozprzestrzeniania się handlu na nowe terytoria, pojawiła się potrzeba wykorzystywania uniwersalnego środka wymiany wartości. Eksperymentowano z obiektami takimi jak muszelki i kamienie szlachetne, ale nie były one tak trwałe i rzadkie, jak początkowo myślano. Ostatecznie złoto stało się standardem ze względu na swoją rzadkość, trwałość i podzielność. Było i pozostaje do dziś symbolem bogactwa i władzy.
+W miarę postępu cywilizacji i rozprzestrzeniania się handlu na nowe terytoria, pojawiła się potrzeba posiadania uniwersalnego środka wymiany wartości. Eksperymentowano z obiektami takimi jak muszelki i kamienie szlachetne, ale nie były one tak trwałe i rzadkie, jak początkowo myślano. Ostatecznie standardem stało się złoto - ze względu na swoją rzadkość, trwałość i podzielność. Było i pozostaje do dziś symbolem bogactwa i władzy.
 
 ![image](assets/en/07.webp)
 
@@ -167,7 +167,7 @@ Pieniądz to wysoce zaawansowane narzędzie komunikacji:
 
 - Umożliwia komunikację między teraźniejszością a przyszłością, ponieważ przekształca nasz czas i energię w aktywa, które można ponownie wykorzystać w przyszłości bez ryzyka dewaluacji.
 
-- Umożliwia komunikację we wspólnym uniwersalnym języku. Nie znając się, nie mówiąc tym samym językiem, dwaj obcy mogą wymieniać się, handlować i dogadywać się co do wartości przedmiotów i usług.
+- Umożliwia komunikację we wspólnym uniwersalnym języku. Nie znając się, nie mówiąc tym samym językiem, dwaj obcy mogą handlować i dogadywać się co do wartości przedmiotów i usług.
 
 Funkcjonowanie systemu obiegu pieniądza w naszym świecie jest trudne do sztucznego odtworzenia. Żaden człowiek ani grupa ludzi nie może stworzyć pieniądza; jest to naturalne zjawisko społeczne, które musi wyłonić się z rynku i dobrowolnego konsensusu. Według tej optyki ceny są sygnałami, informacjami, które pomagają społeczeństwu decydować, jak alokować zasoby.
 Z tych powodów złoto jako pieniądz to wybór 4000 lat ewolucji monetarnej oparty na poniższych funkcjach:
@@ -243,7 +243,7 @@ To w tym kontekście rewolucja Bitcoina nabiera tempa. To waluta, która nie wym
 
 ![image](assets/en/15.webp)
 
-W odpowiedzi na te wyzwania systemowe Bitcoin prezentuje się jako zdecentralizowane rozwiązanie i nowy równoległy system monetarny. Historycznie złoto było faworyzowane jako waluta ze względu na swoją odporność na fałszowanie. Podobnie Bitcoin, dzięki swojej zdecentralizowanej i kryptograficznej naturze, nie może być sfałszowany i jest ograniczony do 21 milionów jednostek. Bitcoin jest walutą, która opiera się na przejrzystości i neutralności, oferując atrakcyjną alternatywę dla obecnego scentralizowanego systemu monetarnego.
+W odpowiedzi na te wyzwania systemowe sieć Bitcoin oferuje zdecentralizowane rozwiązanie i nowy równoległy system monetarny. Historycznie złoto było faworyzowane jako waluta ze względu na swoją odporność na fałszowanie. Podobnie bitcoin, dzięki swojej zdecentralizowanej i kryptograficznej naturze, nie może być sfałszowany i jest ograniczony do 21 milionów jednostek. Bitcoin jest walutą, która opiera się na przejrzystości i neutralności, oferując atrakcyjną alternatywę dla obecnego scentralizowanego systemu monetarnego.
 
 ![image](assets/en/16.webp)
 

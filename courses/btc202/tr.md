@@ -3156,7 +3156,7 @@ Bu BTC 202 kursunun ilk bölümlerinde gördüğümüz gibi, Bitcoin core hem Bi
 
 - `wallets/` bir veya daha fazla cüzdanı barındıran varsayılan dizindir;
 - `wallets/<name>/Wallet.dat` Wallet'in SQLite veritabanıdır (anahtarlar, tanımlayıcılar, işlem meta verileri, vb.);
-- wallets/<name>/Wallet.dat-journal` SQLite geri alma günlüğüdür.
+- `wallets/<name>/wallet.dat-journal`, SQLite geri alma günlüğüdür.
 
 
 

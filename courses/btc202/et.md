@@ -3156,7 +3156,7 @@ Nagu me nägime selle BTC 202 kursuse esimestes osades, on Bitcoin core nii Bitc
 
 - `wallets/` on vaikimisi kataloog, mis sisaldab ühte või mitut rahakotti;
 - `wallets/<nimi>/Wallet.dat` on Wallet SQLite andmebaas (võtmed, kirjeldused, tehingu metaandmed jne);
-- wallets/<name>/Wallet.dat-journal` on SQLite'i tagasivõtulogi.
+- `wallets/<name>/wallet.dat-journal` on SQLite tagasipööramise logi.
 
 
 

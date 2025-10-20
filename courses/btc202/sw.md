@@ -3156,7 +3156,7 @@ Kama tulivyoona katika sehemu za kwanza za kozi hii ya BTC 202, Bitcoin core ni 
 
 - `wallets/` ni saraka chaguo-msingi inayohifadhi pochi moja au zaidi;
 - `pochi/<jina>/Wallet.dat` ni hifadhidata ya SQLite ya Wallet (funguo, maelezo, metadata ya muamala, n.k.);
-- wallets/<name>/Wallet.dat-journal` ni kumbukumbu ya kurejesha nyuma ya SQLite.
+- `wallets/<name>/wallet.dat-journal` ni jarida la kurudisha nyuma la SQLite.
 
 
 

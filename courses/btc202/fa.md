@@ -3156,7 +3156,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 - `wallets/` پوشه پیش‌فرضی است که یک یا چند کیف پول را میزبانی می‌کند؛
 - `wallets/<name>/Wallet.dat` پایگاه داده SQLite از Wallet (کلیدها، توصیف‌کننده‌ها، فراداده تراکنش، و غیره) است؛
-- کیف‌پول‌ها/<name>/Wallet.dat-journal` فایل گزارش بازگشت SQLite است.
+- `wallets/<name>/wallet.dat-journal` ژورنال بازگردانی SQLite است.
 
 
 

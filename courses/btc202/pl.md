@@ -3156,7 +3156,7 @@ Jak widzieliśmy w pierwszych częściach tego kursu BTC 202, Bitcoin core jest 
 
 - `wallets/` to domyślny katalog, który przechowuje jeden lub więcej portfeli;
 - `wallets/<nazwa>/Wallet.dat` to baza danych SQLite Wallet (klucze, deskryptory, metadane transakcji itp.);
-- wallets/<nazwa>/Wallet.dat-journal` jest dziennikiem wycofania SQLite.
+- `wallets/<name>/wallet.dat-journal` to dziennik wycofywania SQLite.
 
 
 

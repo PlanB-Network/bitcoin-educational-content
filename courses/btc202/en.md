@@ -2364,7 +2364,7 @@ As we saw in the first parts of this BTC 202 course, Bitcoin Core is both Bitcoi
 
 - `wallets/` is the default directory that hosts one or more wallets;
 - `wallets/<name>/Wallet.dat` is the SQLite database of the wallet (keys, descriptors, transaction metadata, etc.);
-- wallets/<name>/Wallet.dat-journal` is the SQLite rollback log.
+- `wallets/<name>/wallet.dat-journal` is the SQLite rollback journal.
 
 
 To summarize, here is the Bitcoin Core file structure:

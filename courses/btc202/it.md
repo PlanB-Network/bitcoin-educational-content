@@ -3156,7 +3156,7 @@ Come abbiamo visto nelle prime parti di questo corso BTC 202, Bitcoin core è si
 
 - `wallets/` è la directory predefinita che ospita uno o più portafogli;
 - `wallets/<nome>/Wallet.dat` è il database SQLite del Wallet (chiavi, descrittori, metadati delle transazioni, ecc.);
-- wallets/<nome>/Wallet.dat-journal` è il registro dei rollback di SQLite.
+- `wallets/<name>/wallet.dat-journal` è il registro di rollback di SQLite.
 
 
 

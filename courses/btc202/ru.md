@@ -3156,7 +3156,7 @@ Mempool - это локальный набор действительных тр
 
 - `wallets/` — это каталог по умолчанию, в котором хранится один или несколько кошельков;
 - `wallets/<имя>/Wallet.dat` - это SQLite-база данных Wallet (ключи, дескрипторы, метаданные транзакций и т.д.);
-- wallets/<name>/Wallet.dat-journal` - это журнал откатов SQLite.
+- `wallets/<name>/wallet.dat-journal` — это журнал отката SQLite.
 
 
 

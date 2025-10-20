@@ -3156,7 +3156,7 @@ Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel
 
 - `wallets/` is de standaardmap die een of meer;
 - `wallets/<name>/Wallet.dat` is de SQLite database van de Wallet (sleutels, descriptors, transactie metadata, etc.);
-- wallets/<name>/Wallet.dat-journal` is het SQLite rollback logboek.
+- `wallets/<name>/wallet.dat-journal` is het SQLite-rollbacklogboek.
 
 
 

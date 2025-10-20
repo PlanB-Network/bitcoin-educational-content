@@ -3156,7 +3156,7 @@ Seperti yang telah kita lihat di bagian pertama kursus BTC 202 ini, Bitcoin core
 
 - `wallets/` adalah direktori default yang menampung satu atau lebih dompet;
 - `wallets/<name>/Wallet.dat` adalah basis data SQLite dari Wallet (kunci, deskriptor, metadata transaksi, dll.);
-- wallet/<name>/Wallet.dat-journal` adalah log rollback SQLite.
+- `wallets/<name>/wallet.dat-journal` adalah jurnal rollback SQLite.
 
 
 

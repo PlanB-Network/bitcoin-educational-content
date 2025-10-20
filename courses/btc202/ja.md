@@ -3156,7 +3156,7 @@ blocks/`、`chainstate/`、`indexes/`と同じ階層にある他のいくつか�
 
 - `wallets/` は1つまたは複数のウォレットを格納するデフォルトのディレクトリです；
 - `wallets/<name>/Wallet.dat` はWalletのSQLiteデータベースである（キー、ディスクリプタ、トランザクションメタデータなど）；
-- wallets/<name>/Wallet.dat-journal` は SQLite のロールバックログです。
+- `wallets/<name>/wallet.dat-journal` は SQLite のロールバックジャーナルです。
 
 
 

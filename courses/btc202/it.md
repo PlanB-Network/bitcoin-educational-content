@@ -3335,7 +3335,7 @@ A livello di rete, abbiamo anche:
 
 
 - `addnode`: aggiunge un peer amico da contattare in aggiunta alla solita scoperta (può essere specificato più volte).
-- connect`: limita strettamente le connessioni al Address fornito (può essere specificato più volte). Il nucleo non si connetterà a nessun altro nodo.
+- `connect`: limita rigorosamente le connessioni all’indirizzo fornito (può essere specificato più volte). Core non si connetterà ad alcun altro nodo;
 - `seednode`: è usato solo per compilare il book-Address quando ci si connette a un nodo e poi ci si disconnette.
 - `maxconnessioni`: definisce il limite massimo globale per le connessioni in entrata e in uscita. Per impostazione predefinita, questo parametro è impostato a 125, il che significa che il nodo non accetterà mai più di 125 connessioni.
 - maxuploadtarget`: limita gli upload per limitare la larghezza di banda in una finestra scorrevole di 24 ore. Questo limite non sacrifica la propagazione di Elements recenti ed essenziali.

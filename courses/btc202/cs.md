@@ -3335,7 +3335,7 @@ Na úrovni sítě máme také:
 
 
 - `addnode`: přidá přátelského partnera ke kontaktu navíc k obvyklému zjišťování (lze zadat několikrát).
-- connect`: striktně omezuje připojení na poskytnutý server Address (lze zadat několikrát). Jádro se nepřipojí k žádnému jinému uzlu.
+- `connect`: přísně omezuje připojení na zadanou adresu (lze zadat vícekrát). Core se nepřipojí k žádnému jinému uzlu;
 - `seednode`: slouží pouze k vyplnění knihy-Address při připojení k uzlu, poté se odpojí.
 - `maxconnections`: definuje globální strop pro příchozí + odchozí spojení. Ve výchozím nastavení je tento parametr nastaven na 125, což znamená, že váš uzel nikdy nepřijme více než 125 spojení.
 - maxuploadtarget`: omezuje nahrávání na šířku pásma v klouzavém 24hodinovém okně. Tento limit neobětuje šíření zásadních nedávných Elements.

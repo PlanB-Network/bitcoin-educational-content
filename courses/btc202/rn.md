@@ -3335,7 +3335,7 @@ Ku rugero rw'urubuga, turafise kandi:
 
 
 - `addnode`: yongerako umugenzi w'umugenzi wo guhamagara uretse ivyo usanzwe uvumbura (bishobora gusobanurwamwo incuro nyinshi).
-- connect`: ibuza cane amahuzwa na Address yatanzwe (ishobora gusobanurwamwo incuro nyinshi). Core ntizokwifatanya n’iyindi node iyo ari yo yose.
+- `connect`: igabanya cyane ihuriro ku aderesi yatanzwe (ishobora gutangwa inshuro nyinshi). Core ntizahuza n'undi node uwo ari wo wose;
 - `seednode`: ikoreshwa gusa mu kwuzuza igitabu-Address iyo ihuye n'urudodo, hanyuma igaca.
 - `maxconnections`: isobanura igipimo c'isi yose c'amahuza yinjira + asohoka. Ku mburabuzi, iyi parametere iteguwe kuri 125, bisobanura ko node yawe itazokwigera yemera amahuzwa arenga 125.
 - maxuploadtarget`: ibipfukisho vy'ivyo gushiramwo kugira ngo bigabanye ubwaguke bw'umurongo ku idirisha ry'amasaha 24. Iyi nkweto ntituma ukwiragira kw'ingenzi kwa Elements.

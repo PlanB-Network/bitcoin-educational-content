@@ -3335,7 +3335,7 @@ Na poziomie sieci mamy również:
 
 
 - `addnode`: dodaje przyjaznego peera do kontaktu oprócz zwykłego wykrywania (może być określony kilka razy).
-- connect`: ściśle ogranicza połączenia do dostarczonego Address (można podać kilka razy). Core nie połączy się z żadnym innym węzłem.
+- `connect`: ściśle ogranicza połączenia do podanego adresu (można określić wielokrotnie). Core nie połączy się z żadnym innym węzłem;
 - `seednode`: jest używany tylko do wypełnienia księgi Address podczas łączenia się z węzłem, a następnie rozłącza się.
 - `maxconnections`: definiuje globalny limit połączeń przychodzących i wychodzących. Domyślnie parametr ten jest ustawiony na 125, co oznacza, że węzeł nigdy nie zaakceptuje więcej niż 125 połączeń.
 - maxuploadtarget`: ogranicza przesyłanie danych w celu ograniczenia przepustowości w 24-godzinnym oknie. Ograniczenie to nie poświęca propagacji istotnych ostatnich Elements.

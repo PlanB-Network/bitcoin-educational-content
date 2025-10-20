@@ -3335,7 +3335,7 @@ Nếu bạn không muốn mở cổng trên bộ định tuyến nhưng vẫn ch
 
 
 - `addnode`: thêm một đối tác thân thiện để liên hệ ngoài chức năng khám phá thông thường (có thể chỉ định nhiều lần).
-- connect`: hạn chế nghiêm ngặt các kết nối đến Address được cung cấp (có thể được chỉ định nhiều lần). Core sẽ không kết nối với bất kỳ nút nào khác.
+- `connect`: giới hạn nghiêm ngặt các kết nối đến địa chỉ được cung cấp (có thể được chỉ định nhiều lần). Core sẽ không kết nối với bất kỳ nút nào khác;
 - `seednode`: chỉ được sử dụng để điền vào book-Address khi kết nối với một nút, sau đó ngắt kết nối.
 - `maxconnections`: xác định giới hạn toàn cục cho các kết nối đến và đi. Theo mặc định, tham số này được đặt thành 125, nghĩa là nút của bạn sẽ không bao giờ chấp nhận quá 125 kết nối.
 - maxuploadtarget`: giới hạn tải lên để giới hạn băng thông trong khung thời gian 24 giờ. Giới hạn này không làm ảnh hưởng đến việc truyền tải Elements thiết yếu gần đây.

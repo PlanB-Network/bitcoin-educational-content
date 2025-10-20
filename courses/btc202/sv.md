@@ -3335,7 +3335,7 @@ På nätverksnivå har vi också:
 
 
 - `addnode`: lägger till en vänlig kollega att kontakta utöver den vanliga upptäckten (kan anges flera gånger).
-- connect`: begränsar strikt anslutningar till den Address som tillhandahålls (kan anges flera gånger). Kärnan kommer inte att ansluta till någon annan nod.
+- `connect`: begränsar strikt anslutningar till den angivna adressen (kan anges flera gånger). Core kommer inte att ansluta till någon annan nod;
 - `seednode`: används endast för att fylla i boken-Address när du ansluter till en nod och sedan kopplar bort.
 - `maxconnections`: definierar det globala taket för inkommande + utgående anslutningar. Som standard är denna parameter inställd på 125, vilket innebär att din nod aldrig kommer att acceptera fler än 125 anslutningar.
 - maxuploadtarget`: begränsar uppladdningar för att begränsa bandbredden under ett glidande 24-timmarsfönster. Detta tak offrar inte spridningen av viktiga nya Elements.

@@ -3335,7 +3335,7 @@ Võrgustiku tasandil on meil ka:
 
 
 - `addnode`: lisab lisaks tavapärasele avastamisele (võib määrata mitu korda) ka sõbraliku partneri, kellega ühendust võtta.
-- connect`: piirab rangelt ühendusi Address-ga (võib määrata mitu korda). Core ei ühendu ühegi teise sõlme juurde.
+- `connect`: piirab ühendused rangelt antud aadressile (võib määrata mitu korda). Core ei ühendu ühegi teise sõlmega;
 - `seednode`: kasutatakse ainult book-Address täitmisel, kui sõlme ühendatakse, siis katkestatakse ühendus.
 - `maxconnections`: määrab sissetulevate + väljaminevate ühenduste üldise ülemmäära. Vaikimisi on selle parameetri väärtuseks 125, mis tähendab, et teie sõlmpunkt ei võta kunagi vastu rohkem kui 125 ühendust.
 - maxuploadtarget`: piirab üleslaadimisi, et piirata ribalaiust libiseva 24-tunnise akna jooksul. See ülempiir ei ohusta oluliste hiljutiste Elements levikut.

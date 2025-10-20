@@ -3335,7 +3335,7 @@ Katika kiwango cha mtandao, pia tunayo:
 
 
 - `addnodi`: huongeza rafiki rafiki wa kuwasiliana naye pamoja na ugunduzi wa kawaida (unaweza kubainishwa mara kadhaa).
-- connect`: inazuia viunganisho kwa Address iliyotolewa (inaweza kutajwa mara kadhaa). Msingi hautaunganishwa na nodi nyingine yoyote.
+- `connect`: inazuia kikamilifu miunganisho kwa anwani iliyotolewa (inaweza kubainishwa mara kadhaa). Core haitaunganishwa na nodi nyingine yoyote;
 - `seednodi`: hutumika tu kujaza kitabu-Address wakati wa kuunganisha kwenye nodi, kisha hutenganisha.
 - `maxconnections`: inafafanua dari ya kimataifa kwa miunganisho inayoingia + inayotoka. Kwa chaguo-msingi, kigezo hiki kimewekwa kuwa 125, kumaanisha kuwa nodi yako haitakubali miunganisho zaidi ya 125.
 - maxuploadtarget`: upakiaji wa caps ili kupunguza kipimo data kwenye dirisha la saa 24 la kuteleza. Kikomo hiki hakitoi uenezi wa Elements muhimu ya hivi karibuni.

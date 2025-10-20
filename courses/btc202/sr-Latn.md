@@ -3335,7 +3335,7 @@ Na nivou mreže, takođe imamo:
 
 
 - `addnode`: dodaje prijateljski peer za kontakt pored uobičajenog otkrivanja (može se navesti više puta).
-- connect`: strogo ograničava veze na navedeni Address (može biti specificirano više puta). Jezgro se neće povezivati ni sa jednim drugim čvorom.
+- `connect`: strogo ograničava veze na navedenu adresu (može se navesti više puta). Core se neće povezivati ni sa jednim drugim čvorom;
 - `seednode`: se koristi samo za popunjavanje book-Address prilikom povezivanja na čvor, zatim se prekida veza.
 - `maxconnections`: definiše globalni plafon za dolazne + odlazne konekcije. Po podrazumevanim postavkama, ovaj parametar je postavljen na 125, što znači da vaš čvor nikada neće prihvatiti više od 125 konekcija.
 - maxuploadtarget`: ograničava otpremu kako bi se ograničila širina pojasa tokom kliznog 24-časovnog perioda. Ovo ograničenje ne žrtvuje širenje esencijalnog nedavnog Elements.

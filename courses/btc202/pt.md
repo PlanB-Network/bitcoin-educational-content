@@ -3335,7 +3335,7 @@ A nível da rede, também temos:
 
 
 - `addnode`: adiciona um par amigável para contacto, para além da descoberta habitual (pode ser especificado várias vezes).
-- connect`: restringe estritamente as ligações ao Address fornecido (pode ser especificado várias vezes). O núcleo não se conectará a nenhum outro nó.
+- `connect`: restringe estritamente as conexões ao endereço fornecido (pode ser especificado várias vezes). O Core não se conectará a nenhum outro nó;
 - `seednode`: é utilizado apenas para preencher o livro-Address quando se liga a um nó e depois se desliga.
 - `maxconnections`: define o limite global para conexões de entrada + saída. Por padrão, este parâmetro é definido como 125, o que significa que seu nó nunca aceitará mais de 125 conexões.
 - maxuploadtarget`: limita os uploads para limitar a largura de banda numa janela deslizante de 24 horas. Este limite não sacrifica a propagação do recente e essencial Elements.

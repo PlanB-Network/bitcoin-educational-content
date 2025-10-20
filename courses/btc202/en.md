@@ -2505,7 +2505,7 @@ On the network level, we also have:
 
 
 - `addnode`: adds a friendly peer to contact in addition to the usual discovery (can be specified several times).
-- connect`: strictly restricts connections to the address provided (can be specified several times). Core will not connect to any other node.
+- `connect`: strictly restricts connections to the provided address (can be specified multiple times). Core will not connect to any other node;
 - `seednode`: is used only to fill in the book-address when connecting to a node, then disconnects.
 - `maxconnections`: defines the global ceiling for incoming + outgoing connections. By default, this parameter is set to 125, meaning that your node will never accept more than 125 connections.
 - maxuploadtarget`: caps uploads to limit bandwidth over a sliding 24-hour window. This cap does not sacrifice the propagation of essential recent elements.

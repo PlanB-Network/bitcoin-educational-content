@@ -3335,7 +3335,7 @@ Di tingkat jaringan, kami juga memiliki:
 
 
 - `addnode`: menambahkan teman sebaya ke kontak selain penemuan biasa (dapat ditentukan beberapa kali).
-- connect`: secara ketat membatasi koneksi ke Address yang disediakan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain.
+- `connect`: secara ketat membatasi koneksi ke alamat yang diberikan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain;
 - `seednode`: hanya digunakan untuk mengisi buku-Address saat menyambung ke node, kemudian memutuskan sambungan.
 - `maxconnections`: mendefinisikan batas atas global untuk koneksi masuk + keluar. Secara default, parameter ini disetel ke 125, yang berarti bahwa node Anda tidak akan pernah menerima lebih dari 125 koneksi.
 - maxuploadtarget`: membatasi unggahan untuk membatasi bandwidth selama 24 jam. Pembatasan ini tidak mengorbankan penyebaran Elements terbaru yang penting.

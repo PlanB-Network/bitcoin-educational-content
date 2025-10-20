@@ -3335,7 +3335,7 @@ Ağ düzeyinde, ayrıca
 
 
 - addnode`: olağan keşfe ek olarak iletişim kurulacak dost bir eş ekler (birkaç kez belirtilebilir).
-- connect`: bağlantıları sağlanan Address ile sıkı bir şekilde kısıtlar (birkaç kez belirtilebilir). Çekirdek başka hiçbir düğüme bağlanmayacaktır.
+- `connect`: bağlantıları verilen adrese kesin olarak sınırlar (birden çok kez belirtilebilir). Core başka hiçbir düğüme bağlanmayacaktır;
 - `seednode`: yalnızca bir düğüme bağlanırken Address kitabını doldurmak için kullanılır, ardından bağlantıyı keser.
 - `maxconnections`: gelen + giden bağlantılar için global tavanı tanımlar. Varsayılan olarak, bu parametre 125 olarak ayarlanmıştır, yani düğümünüz asla 125'ten fazla bağlantı kabul etmeyecektir.
 - maxuploadtarget`: 24 saatlik kayan bir pencere boyunca bant genişliğini sınırlamak için yüklemeleri sınırlar. Bu sınır, temel son Elements'in yayılmasını feda etmez.

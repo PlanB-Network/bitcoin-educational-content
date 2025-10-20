@@ -3335,7 +3335,7 @@ Verkkotasolla meillä on myös:
 
 
 - `addnode`: lisää ystävällisen vertaissolmun, johon voi ottaa yhteyttä tavanomaisen löytämisen lisäksi (voidaan määrittää useita kertoja).
-- connect`: rajoittaa yhteydet tiukasti tarjottuun Address:een (voidaan määrittää useita kertoja). Core ei muodosta yhteyttä mihinkään muuhun solmuun.
+- `connect`: rajoittaa yhteydet tiukasti annettuun osoitteeseen (voidaan määrittää useita kertoja). Core ei yhdistä mihinkään muuhun solmuun;
 - `seednode`: käytetään vain book-Address:n täyttämiseen, kun yhteys solmuun muodostetaan ja yhteys katkaistaan.
 - `maxconnections`: Määrittää saapuvien + lähtevien yhteyksien globaalin enimmäismäärän. Oletusarvoisesti tämä parametri on 125, mikä tarkoittaa, että solmusi ei koskaan hyväksy yli 125 yhteyttä.
 - maxuploadtarget`: rajoittaa latauksia kaistanleveyden rajoittamiseksi 24 tunnin liukuvan ikkunan aikana. Tämä yläraja ei uhraa olennaisen tärkeän viimeaikaisen Elements:n etenemistä.

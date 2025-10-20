@@ -3335,7 +3335,7 @@ Auf der Netzebene haben wir auch:
 
 
 - `addnode`: fügt einen freundlichen Peer zur Kontaktaufnahme hinzu (kann mehrfach angegeben werden).
-- connect`: schränkt Verbindungen strikt auf den angegebenen Address ein (kann mehrmals angegeben werden). Core stellt keine Verbindung zu einem anderen Knoten her.
+- `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keinem anderen Knoten verbinden;
 - seednode": wird nur zum Ausfüllen des Book-Address verwendet, wenn eine Verbindung zu einem Knoten hergestellt und dann getrennt wird.
 - max Connections": legt die globale Obergrenze für eingehende und ausgehende Verbindungen fest. Standardmäßig ist dieser Parameter auf 125 gesetzt, was bedeutet, dass Ihr Knoten nie mehr als 125 Verbindungen akzeptiert.
 - maxuploadtarget`: begrenzt die Uploads, um die Bandbreite über ein gleitendes 24-Stunden-Fenster zu begrenzen. Diese Obergrenze beeinträchtigt nicht die Ausbreitung von wichtigen aktuellen Elements.

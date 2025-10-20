@@ -9,8 +9,6 @@ objectives:
   - Zrozum geopolityczny i społeczny wpływ Bitcoina
 ---
 
-„”
-
 # Twoja pierwsza przygoda z Bitcoinem
 
 Na tym kursie wyjaśnimy podstawy Bitcoina w 25 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Obejmuje on całą branżę: górników, portfele, platformy kupna/sprzedaży i dużo więcej. Dodatkowe materiały edukacyjne będą dodawane w miarę rozrastania się naszej platformy. Po zakończeniu tego kursu zapraszamy również do sprawdzenia „21 plakatów” w sekcji materiałów edukacyjnych. 

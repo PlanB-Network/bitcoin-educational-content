@@ -3154,7 +3154,7 @@ Som vi så i de første delene av dette BTC 202-kurset, er Bitcoin core både Bi
 
 
 
-- `wallets/` er standardkatalogen som inneholder en eller flere;
+- `wallets/` er standardkatalogen som inneholder en eller flere lommebøker;
 - `wallets/<name>/Wallet.dat` er SQLite-databasen til Wallet (nøkler, deskriptorer, transaksjonsmetadata osv.);
 - wallets/<name>/Wallet.dat-journal` er SQLite-tilbakestillingsloggen.
 

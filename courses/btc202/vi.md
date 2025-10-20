@@ -3154,7 +3154,7 @@ Như chúng ta đã thấy trong các phần đầu của khóa học BTC 202 n�
 
 
 
-- `wallets/` là thư mục mặc định lưu trữ một hoặc nhiều;
+- `wallets/` là thư mục mặc định lưu trữ một hoặc nhiều ví;
 - `wallets/<name>/Wallet.dat` là cơ sở dữ liệu SQLite của Wallet (khóa, mô tả, siêu dữ liệu giao dịch, v.v.);
 - wallets/<name>/Wallet.dat-journal` là nhật ký khôi phục SQLite.
 

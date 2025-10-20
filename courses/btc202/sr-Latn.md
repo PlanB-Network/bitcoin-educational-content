@@ -3154,7 +3154,7 @@ Kao što smo videli u prvim delovima ovog BTC 202 kursa, Bitcoin core je i Bitco
 
 
 
-- `wallets/` je podrazumevani direktorijum koji sadrži jedan ili više;
+- `wallets/` je podrazumevani direktorijum koji sadrži jedan ili više novčanika;
 - `wallets/<name>/Wallet.dat` je SQLite baza podataka Wallet (ključevi, deskriptori, metapodaci transakcija, itd.);
 - wallets/<name>/Wallet.dat-journal` je SQLite rollback log.
 

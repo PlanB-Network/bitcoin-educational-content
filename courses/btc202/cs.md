@@ -3154,7 +3154,7 @@ Jak jsme viděli v prvních částech tohoto kurzu BTC 202, Bitcoin core je jak 
 
 
 
-- `wallets/` je výchozí adresář, který hostí jeden nebo více adresářů;
+- `wallets/` je výchozí adresář, který obsahuje jednu nebo více peněženek;
 - `wallets/<název>/Wallet.dat` je databáze SQLite Wallet (klíče, deskriptory, metadata transakcí atd.);
 - wallets/<name>/Wallet.dat-journal` je protokol SQLite rollback.
 

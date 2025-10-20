@@ -3154,7 +3154,7 @@ Mempool 的大小受 `Bitcoin.conf` 文件中的 `maxmempool` 参数限制（下
 
 
 
-- `wallets/` 是存放一个或多个的默认目录；
+- `wallets/` 是默认目录，用于存放一个或多个钱包；
 - `wallets/<name>/Wallet.dat` 是 Wallet 的 SQLite 数据库（键、描述符、事务元数据等）；
 - wallets/<name>/Wallet.dat-journal` 是 SQLite 回滚日志。
 

@@ -3154,7 +3154,7 @@ Mempool का आकार `Bitcoin.conf` फ़ाइल में `maxmempool
 
 
 
-- `wallets/` डिफ़ॉल्ट निर्देशिका है जो एक या अधिक को होस्ट करती है;
+- `wallets/` डिफ़ॉल्ट निर्देशिका है जो एक या अधिक वॉलेट्स को संग्रहीत करती है;
 - `wallets/<name>/Wallet.dat` Wallet (कुंजी, विवरण, लेनदेन मेटाडेटा, आदि) का SQLite डेटाबेस है;
 - wallets/<name>/Wallet.dat-journal` SQLite रोलबैक लॉग है।
 

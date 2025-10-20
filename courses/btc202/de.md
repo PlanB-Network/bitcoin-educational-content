@@ -3154,7 +3154,7 @@ Wie wir in den ersten Teilen dieses BTC 202-Kurses gesehen haben, ist Bitcoin co
 
 
 
-- `wallets/` ist das Standardverzeichnis, das eine oder mehrere Dateien enthält;
+- `wallets/` ist das Standardverzeichnis, das eine oder mehrere Wallets beherbergt;
 - `wallets/<name>/Wallet.dat` ist die SQLite-Datenbank des Wallet (Schlüssel, Deskriptoren, Transaktions-Metadaten usw.);
 - wallets/<name>/Wallet.dat-journal` ist das SQLite-Rollback-Protokoll.
 

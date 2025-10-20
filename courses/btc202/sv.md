@@ -3154,7 +3154,7 @@ Som vi såg i de första delarna av denna BTC 202-kurs är Bitcoin core både Bi
 
 
 
-- `wallets/` är standardkatalogen som är värd för en eller flera;
+- `wallets/` är standardkatalogen som innehåller en eller flera plånböcker;
 - `wallets/<name>/Wallet.dat` är SQLite-databasen för Wallet (nycklar, deskriptorer, transaktionsmetadata etc.);
 - wallets/<name>/Wallet.dat-journal` är SQLite rollback-loggen.
 

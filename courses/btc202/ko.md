@@ -3154,7 +3154,7 @@ Mempool의 크기는 `Bitcoin.conf` 파일의 `maxmempool` 매개변수에 의�
 
 
 
-- 지갑/`는 하나 이상의 지갑을 호스팅하는 기본 디렉토리입니다;
+- `wallets/`는 하나 이상의 지갑을 호스팅하는 기본 디렉터리입니다;
 - 지갑/<이름>/Wallet.dat`는 Wallet의 SQLite 데이터베이스(키, 설명자, 트랜잭션 메타데이터 등)입니다;
 - wallets/<이름>/Wallet.dat-journal`은 SQLite 롤백 로그입니다.
 

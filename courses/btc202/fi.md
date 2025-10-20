@@ -3154,7 +3154,7 @@ Kuten näimme tämän BTC 202 -kurssin ensimmäisissä osissa, Bitcoin core on s
 
 
 
-- `wallets/` on oletushakemisto, jossa on yksi tai useampi;
+- `wallets/` on oletushakemisto, joka sisältää yhden tai useamman lompakon;
 - `wallets/<nimi>/Wallet.dat` on Wallet:n SQLite-tietokanta (avaimet, kuvaajat, tapahtumien metatiedot jne.);
 - wallets/<name>/Wallet.dat-journal` on SQLiten rollback-loki.
 

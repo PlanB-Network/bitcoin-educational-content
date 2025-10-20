@@ -3154,7 +3154,7 @@ Nk'uko twabibonye mu bice vya mbere vy'iri shure rya BTC 202, Bitcoin core ni po
 
 
 
-- `wallets/` ni ububiko mburabuzi bwakira kimwe canke vyinshi;
+- `wallets/` ni ububiko bw'ibanze burimo ububiko bumwe cyangwa bwinshi bw'amafaranga;
 - `amasakoshi/<izina>/Wallet.dat` ni urutonde rw'amakuru rwa SQLite rwa Wallet (imfunguruzo, ibisobanuro, amakuru y'ibikorwa, n'ibindi);
 - amasakoshi/<izina>/Wallet.dat-ikinyamakuru` ni igitabo co gusubira inyuma ca SQLite.
 

@@ -3448,7 +3448,7 @@ Här är de avancerade inställningarna för Mempool och reläpolicy. Om du är 
 
 
 
-- datacarrier=1`: Tillåter vidarebefordran och (om Mining via nod) inkludering av transaktioner som innehåller icke-finansiella data via en `OP_RETURN`-utgång (standard: `1`). Om du avaktiverar denna parameter minskar ytan för spam med icke-finansiella data något, till priset av minskad kompatibilitet med vissa användningsområden. I samtliga fall måste du acceptera minerad `OP_RETURN`.
+- `datacarrier=1` : Tillåter vidarebefordran och (vid mining via noden) inkludering av transaktioner som bär icke-finansiella data via en `OP_RETURN`-utgång (standard: `1`). Att inaktivera denna parameter minskar något risken för icke-finansiell dataspam på bekostnad av lägre kompatibilitet med vissa användningsområden. I alla fall måste du acceptera utvunna `OP_RETURN`.
 
 
 

@@ -3448,7 +3448,7 @@ Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtl
 
 
 
-- datacarrier=1`: Erlaubt die Weiterleitung und (bei Mining über den Knoten) die Einbeziehung von Transaktionen mit nicht-finanziellen Daten über einen `OP_RETURN`-Ausgang (Standard: `1`). Wenn Sie diesen Parameter deaktivieren, wird die Fläche für Spam mit nicht-finanziellen Daten geringfügig verkleinert, allerdings um den Preis einer geringeren Kompatibilität mit bestimmten Anwendungen. In jedem Fall müssen Sie vermintes `OP_RETURN` akzeptieren.
+- `datacarrier=1` : Erlaubt das Weiterleiten und (bei Mining über den Node) das Einfügen von Transaktionen, die nichtfinanzielle Daten über einen `OP_RETURN`-Output tragen (Standard: `1`). Das Deaktivieren dieser Einstellung reduziert leicht die Angriffsfläche für nichtfinanzielle Datenspam, verringert jedoch die Kompatibilität mit bestimmten Anwendungsfällen. In jedem Fall müssen Sie geminte `OP_RETURN` akzeptieren.
 
 
 

@@ -3448,7 +3448,7 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- datacarrier=1`: Memungkinkan pengiriman ulang dan (jika Mining melalui node) penyertaan transaksi yang membawa data non-keuangan melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini akan sedikit mengurangi area permukaan untuk spam data non-keuangan, dengan mengorbankan kompatibilitas yang lebih rendah dengan penggunaan tertentu. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang ditambang.
+- `datacarrier=1` : Mengizinkan relay dan (jika menambang melalui node) penyertaan transaksi yang membawa data non-keuangan melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini sedikit mengurangi potensi spam data non-keuangan dengan mengorbankan kompatibilitas dengan beberapa penggunaan. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang ditambang.
 
 
 

@@ -3448,7 +3448,7 @@ Aqui estão as definições avançadas para o Mempool e a política de retransmi
 
 
 
-- datacarrier=1`: Permite a retransmissão e (se Mining via nó) a inclusão de transacções que transportam dados não financeiros através de uma saída `OP_RETURN` (predefinição: `1`). A desativação deste parâmetro reduz ligeiramente a área de superfície para spam de dados não financeiros, à custa de uma menor compatibilidade com determinadas utilizações. Em todos os casos, você deve aceitar o `OP_RETURN` minerado.
+- `datacarrier=1` : Permite o retransmissão e (se houver mineração via nó) a inclusão de transações que contenham dados não financeiros por meio de uma saída `OP_RETURN` (padrão: `1`). Desativar este parâmetro reduz ligeiramente a superfície de spam de dados não financeiros, ao custo de menor compatibilidade com alguns usos. Em todos os casos, você deve aceitar os `OP_RETURN` minerados.
 
 
 

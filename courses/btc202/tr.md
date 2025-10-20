@@ -3448,7 +3448,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- datacarrier=1`: Bir `OP_RETURN` çıkışı üzerinden finansal olmayan veri taşıyan işlemlerin aktarılmasına ve (düğüm üzerinden Mining ise) dahil edilmesine izin verir (varsayılan: `1`). Bu parametrenin devre dışı bırakılması, belirli kullanımlarla uyumluluğun azalması pahasına, finansal olmayan veri spam'i için yüzey alanını biraz azaltır. Her durumda, mayınlı `OP_RETURN` yı kabul etmelisiniz.
+- `datacarrier=1` : Düğüm üzerinden madencilik yapılıyorsa, finansal olmayan veriler içeren işlemlerin `OP_RETURN` çıktısı aracılığıyla aktarımına ve dahil edilmesine izin verir (varsayılan: `1`). Bu parametrenin devre dışı bırakılması, finansal olmayan veri spam yüzeyini biraz azaltır ancak bazı kullanım durumlarıyla uyumluluğu düşürür. Her durumda, çıkarılan `OP_RETURN`ları kabul etmeniz gerekir.
 
 
 

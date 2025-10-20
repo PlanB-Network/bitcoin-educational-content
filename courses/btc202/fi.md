@@ -3448,7 +3448,7 @@ Tässä ovat Mempool:n ja välityskäytännön lisäasetukset. Jos olet aloittel
 
 
 
-- datacarrier=1`: Sallii muiden kuin rahoitustietoja sisältävien tapahtumien välittämisen ja (jos Mining solmun kautta) sisällyttämisen OP_RETURN-lähtöön (oletus: `1`). Tämän parametrin poistaminen käytöstä pienentää hieman muiden kuin rahoitustietojen roskapostin pinta-alaa, mutta vähentää yhteensopivuutta tiettyjen käyttötarkoitusten kanssa. Kaikissa tapauksissa sinun on hyväksyttävä louhittu `OP_RETURN`.
+- `datacarrier=1` : Sallii välityksen ja (jos louhinta tapahtuu solmun kautta) ei-taloudellisia tietoja sisältävien tapahtumien sisällyttämisen `OP_RETURN`-ulostulon kautta (oletus: `1`). Tämän parametrin poistaminen käytöstä vähentää hieman ei-taloudellisten tietojen roskapostin pinta-alaa, mutta heikentää yhteensopivuutta tiettyjen käyttötapojen kanssa. Kaikissa tapauksissa sinun on hyväksyttävä louhitut `OP_RETURN`.
 
 
 

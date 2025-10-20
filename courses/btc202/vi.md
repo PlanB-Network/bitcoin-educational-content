@@ -3448,7 +3448,7 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- datacarrier=1`: Cho phép chuyển tiếp và (nếu Mining thông qua nút) bao gồm các giao dịch mang dữ liệu phi tài chính thông qua đầu ra `OP_RETURN` (mặc định: `1`). Việc hủy kích hoạt tham số này sẽ làm giảm nhẹ diện tích bề mặt cho dữ liệu spam phi tài chính, đồng thời làm giảm khả năng tương thích với một số mục đích sử dụng nhất định. Trong mọi trường hợp, bạn phải chấp nhận `OP_RETURN` đã được khai thác.
+- `datacarrier=1` : Cho phép chuyển tiếp và (nếu khai thác qua nút) bao gồm các giao dịch mang dữ liệu phi tài chính thông qua đầu ra `OP_RETURN` (mặc định: `1`). Vô hiệu hóa tham số này giúp giảm nhẹ nguy cơ spam dữ liệu phi tài chính, nhưng giảm khả năng tương thích với một số trường hợp sử dụng. Trong mọi trường hợp, bạn phải chấp nhận các `OP_RETURN` đã được khai thác.
 
 
 

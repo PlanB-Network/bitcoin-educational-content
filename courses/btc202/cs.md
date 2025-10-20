@@ -3448,7 +3448,7 @@ Zde jsou uvedena pokročilá nastavení pro Mempool a zásady přenosu. Pokud js
 
 
 
-- datacarrier=1`: Umožňuje předávání a (v případě Mining přes uzel) zahrnutí transakcí nesoucích nefinanční data prostřednictvím výstupu `OP_RETURN` (výchozí: `1`). Deaktivace tohoto parametru mírně zmenšuje plochu pro spam nefinančních dat za cenu snížené kompatibility s některými způsoby použití. Ve všech případech je nutné akceptovat vytěžené `OP_RETURN`.
+- `datacarrier=1` : Povolit přeposílání a (v případě těžby přes uzel) zahrnutí transakcí nesoucích nefinanční data prostřednictvím výstupu `OP_RETURN` (výchozí: `1`). Deaktivace tohoto parametru mírně snižuje riziko spamu nefinančními daty za cenu nižší kompatibility s některými použitími. Ve všech případech musíte přijímat vytěžené `OP_RETURN`.
 
 
 

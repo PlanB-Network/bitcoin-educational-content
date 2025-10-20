@@ -3448,7 +3448,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- datacarrier=1`: Pozwala na przekazywanie i (jeśli Mining przez węzeł) włączanie transakcji niosących dane niefinansowe przez wyjście `OP_RETURN` (domyślnie: `1`). Wyłączenie tego parametru nieznacznie zmniejsza powierzchnię spamu danych niefinansowych, kosztem zmniejszonej kompatybilności z niektórymi zastosowaniami. We wszystkich przypadkach należy zaakceptować wydobywane `OP_RETURN`.
+- `datacarrier=1` : Zezwala na przekazywanie i (w przypadku kopania przez węzeł) uwzględnianie transakcji zawierających dane niefinansowe za pośrednictwem wyjścia `OP_RETURN` (domyślnie: `1`). Wyłączenie tego parametru nieznacznie zmniejsza powierzchnię spamu danymi niefinansowymi kosztem mniejszej kompatybilności z niektórymi zastosowaniami. We wszystkich przypadkach należy akceptować wykopane `OP_RETURN`.
 
 
 

@@ -3448,7 +3448,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien Mining via knooppunt) op te nemen via een `OP_RETURN` uitgang (standaard: `1`). Het deactiveren van deze parameter verkleint de oppervlakte voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gedolven `OP_RETURN` accepteren.
+- `datacarrier=1` : Staat het doorgeven en (bij mining via de node) opnemen van transacties met niet-financiële gegevens toe via een `OP_RETURN`-output (standaard: `1`). Het uitschakelen van deze parameter vermindert enigszins de kans op spam van niet-financiële gegevens, maar verlaagt de compatibiliteit met bepaalde toepassingen. In alle gevallen moet je geminde `OP_RETURN` accepteren.
 
 
 

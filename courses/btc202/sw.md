@@ -3448,7 +3448,7 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- datacarrier=1`: Huruhusu utumaji tena na (ikiwa Mining kupitia nodi) ujumuishaji wa miamala inayobeba data isiyo ya kifedha kupitia towe la `OP_RETURN` (chaguo-msingi: `1`). Kuzima kigezo hiki hupunguza kidogo eneo la uso wa taka za data zisizo za kifedha, kwa gharama ya kupunguzwa kwa utangamano na matumizi fulani. Katika hali zote, lazima ukubali kuchimbwa `OP_RETURN`.
+- `datacarrier=1` : Inaruhusu kurudia na (ikiwa unachimba kupitia nodi) kujumuisha miamala inayobeba data zisizo za kifedha kupitia `OP_RETURN` (chaguo-msingi: `1`). Kuzima kipengele hiki hupunguza kidogo hatari ya spam ya data zisizo za kifedha, lakini hupunguza uoanifu na matumizi fulani. Katika hali zote, lazima ukubali `OP_RETURN` zilizochimbwa.
 
 
 

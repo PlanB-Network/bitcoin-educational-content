@@ -3448,7 +3448,7 @@ Aha niho hari amasetingi ateye imbere ya Mempool n’ingingo ngenderwako y’ugu
 
 
 
-- datacarrier=1`: Yemerera gutanga no (niba Mining biciye ku nzira) gushiramwo ibikorwa bitwara amakuru atari ay'ivy'amahera biciye ku gisohoka ca `OP_RETURN` (ivya kera: `1`). Guhagarika iyi parametere bigabanya gatoyi uburebure bw'amakuru atari ay'ivy'amahera, ku giciro co kugabanya ukuntu bihuye n'ikoreshwa rimwe rimwe. Mu bihe vyose, utegerezwa kwemera `OP_RETURN`.
+- `datacarrier=1` : Iremeza kohereza no kongeramo ibikorwa bifite amakuru adafitanye isano n’amafaranga binyuze kuri `OP_RETURN` output (muri defaults: `1`) igihe bikorwa binyuze ku node. Kureka iri tegeko bigabanya gato spam y’amakuru adafitanye isano n’amafaranga ariko bigatuma bidahuza neza n’imikoreshereze imwe. Mu gihe cyose, ugomba kwemera `OP_RETURN` byacukuwe.
 
 
 

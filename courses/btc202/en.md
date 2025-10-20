@@ -2589,7 +2589,7 @@ Here are the advanced settings for Mempool and relay policy. If you're a beginne
 
 
 
-- datacarrier=1`: Allows relaying and (if mining via node) inclusion of transactions carrying non-financial data via a `OP_RETURN` output (default: `1`). Deactivating this parameter slightly reduces the surface area for non-financial data spam, at the cost of reduced compatibility with certain uses. In all cases, you must accept mined `OP_RETURN`.
+- `datacarrier=1` : Allows the relay and (if mining via the node) inclusion of transactions carrying non-financial data via an `OP_RETURN` output (default: `1`). Disabling this parameter slightly reduces the surface for non-financial data spam at the cost of lower compatibility with certain uses. In all cases, you must accept mined `OP_RETURN`.
 
 
 

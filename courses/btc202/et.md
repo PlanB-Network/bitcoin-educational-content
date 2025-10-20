@@ -3448,7 +3448,7 @@ Siin on Mempool ja releepoliitika täiustatud seaded. Kui te olete algaja, ei pe
 
 
 
-- datacarrier=1`: Lubab edastada ja (kui Mining sõlme kaudu) kaasata tehinguid, mis ei sisalda finantsandmeid OP_RETURN väljundi kaudu (vaikimisi: `1`). Selle parameetri deaktiveerimine vähendab veidi mittefinantsandmete rämpsposti kasutamispinda, kuid vähendab ühilduvust teatavate kasutusviiside puhul. Kõigil juhtudel tuleb aktsepteerida kaevandatud `OP_RETURN`.
+- `datacarrier=1` : Lubab edastada ja (kui kaevandatakse sõlme kaudu) lisada tehinguid, mis kannavad mittefinantsandmeid `OP_RETURN` väljundi kaudu (vaikimisi: `1`). Selle parameetri keelamine vähendab veidi mittefinantsandmete rämpsposti pinda, kuid vähendab ühilduvust teatud kasutustega. Kõigil juhtudel peate aktsepteerima kaevandatud `OP_RETURN`-id.
 
 
 

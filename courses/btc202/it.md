@@ -3448,7 +3448,7 @@ Ecco le impostazioni avanzate per il Mempool e la politica dei relè. Se si è a
 
 
 
-- datacarrier=1`: Consente la trasmissione e (se Mining via nodo) l'inclusione di transazioni che trasportano dati non finanziari attraverso un'uscita `OP_RETURN` (default: `1`). La disattivazione di questo parametro riduce leggermente la superficie per lo spam di dati non finanziari, al costo di una minore compatibilità con alcuni usi. In ogni caso, è necessario accettare `OP_RETURN` minati.
+- `datacarrier=1` : Consente il relay e (se il mining avviene tramite il nodo) l’inclusione di transazioni contenenti dati non finanziari tramite un output `OP_RETURN` (predefinito: `1`). Disattivare questo parametro riduce leggermente la superficie di spam dei dati non finanziari a scapito di una minore compatibilità con alcuni usi. In ogni caso, dovrai accettare gli `OP_RETURN` minati.
 
 
 

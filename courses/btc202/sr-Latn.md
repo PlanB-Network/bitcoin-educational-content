@@ -3448,7 +3448,7 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- datacarrier=1`: Omogućava prosleđivanje i (ako je Mining preko čvora) uključivanje transakcija koje nose nefinansijske podatke putem `OP_RETURN` izlaza (podrazumevano: `1`). Deaktiviranje ovog parametra blago smanjuje površinu za spam nefinansijskih podataka, po cenu smanjene kompatibilnosti sa određenim upotrebama. U svim slučajevima, morate prihvatiti iskopane `OP_RETURN`.
+- `datacarrier=1` : Dozvoljava prenos i (ako se rudari preko čvora) uključivanje transakcija koje nose nefinansijske podatke putem `OP_RETURN` izlaza (podrazumevano: `1`). Onemogućavanje ovog parametra blago smanjuje mogućnost spama nefinansijskim podacima, ali smanjuje kompatibilnost sa određenim upotrebama. U svakom slučaju, moraćete da prihvatite izrudarene `OP_RETURN`.
 
 
 

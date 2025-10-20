@@ -3156,7 +3156,7 @@ Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel
 
 - `wallets/` is de standaardmap die een of meer wallets bevat;
 - `wallets/<name>/wallet.dat` is de SQLite database van de wallet (sleutels, descriptors, transactie metadata, etc.);
-- wallets/<name>/wallet.dat-journal` is het SQLite rollback logboek.
+- `wallets/<name>/wallet.dat-journal` is het SQLite-rollbacklogboek.
 
 
 
@@ -3660,7 +3660,7 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` non-wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
+- `txindex=1` : Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde verzoeken (`getrawtransaction` buiten de wallet) en voor onderzoeksdoeleinden, maar verhoogt het schijfgebruik aanzienlijk. Niet compatibel met de gesnoeide modus.
 
 
 

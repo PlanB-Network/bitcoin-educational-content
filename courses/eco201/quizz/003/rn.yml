@@ -1,11 +1,10 @@
-question: Ni igiki gitera ingorane z’ubutunzi hakurikijwe amashure?
-answer: Amagume y’ubutunzi ashobora guterwa n’ukubura ubushobozi kw’abantu, ugukoresha nabi isoko canke ukuntu abantu bose bagira umunezero.
+question: Ni igiki gitera ingorane(amagume) z'ubutunzi wisunze iki cigwa?
+answer: Amagume(ibibazo) vy’ubutunzi ashobora guterwa n’ukubura abantu babishoboye, ugukoresha nabi isoko canke ineza rusangi y’umunezero wa bose.
 wrong_answers:
   - Amagume y’ubutunzi aterwa gusa n’ugukoresha nabi isoko.
-  - Amagume y’ubutunzi aterwa gusa n’ubukene bw’abantu.
-  - Amagume y’ubutunzi aterwa gusa n’umunezero w’abantu bose.
+  - Amagume y’ubutunzi aterwa gusa n’ubukene bw’abantu babishoboye.
+  - Amagume y’ubutunzi aterwa gusa n'ineza rusangi y’umunezero wa bose.
 explanation: |
   Ico kigabane kivuga ko iyo nyigisho izotohoza ingene .
-  ingorane z’ubutunzi zishobora guterwa n’ubukene bw’abantu, isoko
-  gukoresha nabi abantu, canke gutera umunezero rusangi w’abantu.
+  ingorane z’ubutunzi zishobora guterwa n’ubukene bw’abantu babishoboye, amasoko akoreshwa nabi, umunezero rusangi w’abantu.
 reviewed: true

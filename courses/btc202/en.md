@@ -309,7 +309,7 @@ In other words, around 9 out of 10 public nodes are running Bitcoin Core. The re
 ### Internal operation of Bitcoin Core
 
 
-Bitcoin Core is written in C++. It is also an open source project that is maintained by a community of developers who volunteer or are paid by various entities (often by companies in the ecosystem that have a vested interest in Core's development). [Code is hosted on GitHub](https://github.com/Bitcoin/Bitcoin), and development follows a rigorous:
+Bitcoin Core is software written in C++. It is also an open-source project maintained by a community of developers who are either volunteers or funded by various entities (often companies within the ecosystem that have an interest in ensuring that Core development proceeds favorably). [The code is hosted on GitHub](https://github.com/bitcoin/bitcoin), and development follows a rigorous model:
 
 
 - **Contributors** submit proposals in the form of _pull requests_ (PR). In principle, anyone can propose a change, but it must be tested, documented, and go through a peer review process.
@@ -337,7 +337,7 @@ We can also mention:
 
 - **Libbitcoin**: a modular C++ library developed by Amir Taaki and maintained by Eric Voskuil;
 - **Bcoin**: a JavaScript implementation, no longer actively maintained;
-- **BTCD/btcsuit**e: an implementation in Go.
+- **BTCD/btcsuite** : an implementation in Go.
 
 
 These projects contribute to the diversity of the ecosystem, but their adoption remains very limited, making it difficult for Bitcoin Core to evolve independently.
@@ -2200,8 +2200,7 @@ If your node is listening on an open port (by default, 8333), it accepts incomin
 
 When your node has completed its initial synchronization, it stores several complementary data sets locally, enabling it to validate blocks and transactions, serve network peers, and restart quickly while maintaining its state. 3 main bricks are essential on a node:
 
-
-- gW-402 **blocks** stored on disk,
+- the **blocks** of the blockchain stored on disk,
 - the **UTXO set** maintained in a key-value database,
 - and the **Mempool** is stored in RAM and periodically serialized.
 
@@ -2315,7 +2314,7 @@ The mempool is the local set of valid transactions that have been received but n
 
 
 - the size allocated to the Mempool via the `maxmempool` parameter: a node with a larger Mempool will be able to hold more transactions than a node with a smaller Mempool (unless the latter becomes empty);
-- gW-433 rules: these are a subset of the node's relay rules and define the characteristics that an unconfirmed transaction must meet in order to be accepted in Mempool;
+- mempool rules: they form a subset of the node’s relay rules and define the characteristics that an unconfirmed transaction must meet to be accepted into the mempool;
 - transaction percolation: due to various factors, a given transaction may have been distributed to one part of the network, but not yet reached another.
 
 
@@ -2347,10 +2346,10 @@ Several other files at the same level as `blocks/`, `chainstate/`, and `indexes/
 - When the node is switched off, `anchors.dat` saves the addresses of outgoing peers, so that you can try to contact them again quickly the next time you start up.
 - `banlist.json` contains local bans decided by the operator or by the node (repeated invalid behavior), in order to prevent the node from reconnecting or accepting connections from these specific peers.
 - `fee_estimates.dat` stores time horizon statistics on observed confirmations, used by the fee estimator to propose fee rates consistent with the delay objectives chosen when creating a transaction.
-- gW-446.conf` contains your node's configuration parameters. This is where you can adjust the relay rules. I'll tell you more about this in the next chapter.
+- `bitcoin.conf` contains your node’s configuration parameters. It is in this file that the relay rules can be adjusted. I will discuss this in more detail in the next chapter;
 - `settings.json` contains additional parameters to `Bitcoin.conf`.
 - `debug.log` is the diagnostic text log, which can be used to understand node activity in the event of a bug.
-- gW-448.pid` stores the process identifier at runtime, allowing other applications or scripts to easily identify bitcoind (*Bitcoin daemon*) and interact with it if necessary. It is created at node startup and deleted at shutdown.
+- `bitcoind.pid` records the process ID during execution, allowing other applications or scripts to easily identify Bitcoind (*Bitcoin Daemon*) and interact with it if necessary. It is created when the node starts and deleted when it stops;
 - `ip_asn.map` is an IP → ASN mapping table (standalone system) used for bucketing and peer diversification (`-asmap` option).
 - `onion_v3_private_key` stores the private key of the Tor v3 service when the `-listenonion` option is enabled, in order to keep a stable onion address between reboots.
 - `i2p_private_key` stores the I2P private key when `-i2psam=` is used, to make outgoing and possibly incoming connections on I2P.
@@ -2363,9 +2362,9 @@ As we saw in the first parts of this BTC 202 course, Bitcoin Core is both Bitcoi
 
 
 
-- `wallets/` is the default directory that hosts one or more;
+- `wallets/` is the default directory that hosts one or more wallets;
 - `wallets/<name>/Wallet.dat` is the SQLite database of the wallet (keys, descriptors, transaction metadata, etc.);
-- wallets/<name>/Wallet.dat-journal` is the SQLite rollback log.
+- `wallets/<name>/wallet.dat-journal` is the SQLite rollback journal.
 
 
 To summarize, here is the Bitcoin Core file structure:
@@ -2506,10 +2505,10 @@ On the network level, we also have:
 
 
 - `addnode`: adds a friendly peer to contact in addition to the usual discovery (can be specified several times).
-- connect`: strictly restricts connections to the address provided (can be specified several times). Core will not connect to any other node.
+- `connect`: strictly restricts connections to the provided address (can be specified multiple times). Core will not connect to any other node;
 - `seednode`: is used only to fill in the book-address when connecting to a node, then disconnects.
 - `maxconnections`: defines the global ceiling for incoming + outgoing connections. By default, this parameter is set to 125, meaning that your node will never accept more than 125 connections.
-- maxuploadtarget`: caps uploads to limit bandwidth over a sliding 24-hour window. This cap does not sacrifice the propagation of essential recent elements.
+- `maxuploadtarget` : caps the upload to limit bandwidth over a rolling 24-hour window. This cap does not sacrifice the propagation of essential recent elements;
 - `onlynet`: limits outgoing connections to selected networks only (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). For example, if you want your node to connect to the Bitcoin network only via Tor, you can enable the `onlynet=onion` parameter and disable incoming connections (or only allow connections via Tor as well).
 - `dnsseed`: allows or disallows _DNS seeds_ to request peers when your local address pool is low (default: `1`, unless `-connect` or `-maxconnections=0`).
 - `forcednsseed`: forces _DNS seeds_ to be requested at startup, even if you already have addresses in stock (default: `0`).
@@ -2529,7 +2528,7 @@ To be fully Tor-enabled, you need to force Bitcoin Core to use only this network
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -2569,7 +2568,7 @@ Here are the basic parameters you can modify on your `Bitcoin.conf` concerning t
 
 
 
-- blocksonly=1`: Disables acceptance and retransmission of unconfirmed transactions received from peers (unless special permissions are granted). The node now only uploads and advertises blocks. Transactions created locally can still be broadcast (to use your node with your wallet software). This greatly reduces bandwidth and RAM requirements, albeit at the cost of reduced usefulness for the relay and total unfamiliarity with the Mempool.
+- `blocksonly=1` : Disables the acceptance and relay of unconfirmed transactions received from peers (except for special permissions). The node only downloads and announces blocks. Locally created transactions can still be broadcast (to use your node with your wallet software). This greatly reduces bandwidth and RAM requirements at the cost of reduced relay usefulness and total unawareness of the mempool.
 
 
 
@@ -2590,7 +2589,7 @@ Here are the advanced settings for Mempool and relay policy. If you're a beginne
 
 
 
-- datacarrier=1`: Allows relaying and (if mining via node) inclusion of transactions carrying non-financial data via a `OP_RETURN` output (default: `1`). Deactivating this parameter slightly reduces the surface area for non-financial data spam, at the cost of reduced compatibility with certain uses. In all cases, you must accept mined `OP_RETURN`.
+- `datacarrier=1` : Allows the relay and (if mining via the node) inclusion of transactions carrying non-financial data via an `OP_RETURN` output (default: `1`). Disabling this parameter slightly reduces the surface for non-financial data spam at the cost of lower compatibility with certain uses. In all cases, you must accept mined `OP_RETURN`.
 
 
 
@@ -2618,11 +2617,11 @@ Here are the advanced settings for Mempool and relay policy. If you're a beginne
 
 
 
-- peerbloomfilters=1`: Enable support for Bloom filters (BIP37) to serve filtered blocks/transactions to thin clients (default: `0`). Warning: this increases the load on your resources.
+- `peerbloomfilters=1` : Enables support for Bloom filters (BIP37) to serve filtered blocks/transactions to lightweight clients (default: `0`). Note that this increases the load on your resources.
 
 
 
-- peerblockfilters=1`: Serves BIP157 (*Neutrino*) compact filters to peers (default: `0`).
+- `peerblockfilters=1` : Serves compact BIP157 (*Neutrino*) filters to peers (default: `0`).
 
 
 
@@ -2639,7 +2638,7 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Defines the format of wallet-generated addresses for reception.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Defines the format of addresses generated by the wallet for receiving.
 
 
 
@@ -2671,7 +2670,7 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- fallbackfee=<amt>`: Fallback rate (BTC/kvB) used if the estimator runs out of data (default: `0.00`). Setting it to 0 completely disables fallback.
+- `fallbackfee=<amt>` : Fallback fee rate (BTC/kvB) used if the estimator lacks data (default: `0.00`). Setting it to 0 completely disables the fallback.
 
 
 
@@ -2733,7 +2732,7 @@ The configuration file also allows you to adjust the parameters related to your 
 
 
 
-- txindex=1`: Builds and maintains a global index of confirmed transactions. Essential for certain queries (`getrawtransaction` non-wallet) and for exploration purposes, but significantly increases disk footprint. Incompatible with pruned mode.
+- `txindex=1` : Builds and maintains a global index of confirmed transactions. Essential for certain queries (`getrawtransaction` outside the wallet) and for exploration purposes, but significantly increases disk usage. Incompatible with pruned mode.
 
 
 

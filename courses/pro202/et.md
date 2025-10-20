@@ -20,6 +20,38 @@ Nautige oma avastust!
 
 +++
 
+# Sissejuhatus
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Kursuse ülevaade
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Tere tulemast kursusele PRO 202 _**Programming Bitcoin**_, intensiivsele teekonnale, mis viib sind lõplike väljade aritmeetikast kuni päris tehingute loomise ja edastamiseni Bitcoini testvõrgus.
+
+Selles kursuses ehitad samm-sammult Pythonis Bitcoini teegi, omandades samal ajal krüptograafilised, protokolli ja tarkvara alused, mis on vajalikud Bitcoini turvalisuse ja sisemise toimimise täpseks mõistmiseks. PRO 202 lähenemine on täielikult praktiline: iga kontseptsioon rakendatakse kohe Jupyteri märkmikes, tagades, et teooria ja kood tugevdavad üksteist.
+
+### Bitcoini põhilised matemaatilised mõisted
+
+See esimene jaotis loob hädavajaliku matemaatilise aluse. Rakendad lõplike väljade aritmeetikat ja elliptiliste kõverate operatsioone (grupi seadus, liitmine, kahekordistamine, skaala korrutamine...) — ECDSA eeltingimused. Eesmärk on kahekordne: mõista algebraatilist struktuuri, mis muudab krüptograafilised allkirjad võimalikuks, ning luua usaldusväärsed Pythoniga tööriistad nende käsitlemiseks.
+
+Seejärel vormistad ECDSA komponendid: võtmete genereerimine, punktide vormindamine, räsi arvutamine, allkirjade loomine ja kontrollimine. See jaotis seob teooria otse praktikaga, rõhutades rakenduse üksikasju ja aluseks oleva turvamudeli töökindlust.
+
+### Bitcoini tehingu sisemine toimimine
+
+Teises osas analüüsid Bitcoini tehingu struktuuri: UTXO-sid, sisendeid/väljundeid, jadasid, skripte, kodeeringuid ja muud. Kirjutad koodi tehingute koostamiseks, allkirjastamiseks ja kontrollimiseks, saavutades täpse arusaamise sellest, mida räsi kinnitab ja miks.
+
+Seejärel rakendad minimaalset _Script_-täiturit, vaatad läbi peamised opkoodid ja valideerid kulutusteed. Eesmärk on muuta sind võimeliseks auditeerima tehingute käitumist, diagnoosima valideerimisvigu ja hindama kulutuspoliitikate turvalisust.
+
+### Bitcoini võrgu sisemine toimimine
+
+Kolmandas osas paigutad tehingu laiemasse süsteemi: ploki struktuur, päised, raskusaste ja Proof-of-Work mehhanism. Töötad protokollisõnumite, plokipäiste ja Merkle puudega.
+
+Lõpuks uurid võrgu võrgu (peer-to-peer) sõlmedevahelist suhtlust, sõnumi optimeerimist ja SegWiti kasutuselevõttu.
+
+Nagu kõigis Plan ₿ Academy kursustes, sisaldab ka lõpuosa hindamist, mis on loodud sinu arusaama kinnistamiseks. Oled valmis avastama Bitcoini sisemist toimimist ja kirjutama koodi, mis seda käitab? Alustame!
+
 # Olulised matemaatilised mõisted Bitcoin jaoks
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

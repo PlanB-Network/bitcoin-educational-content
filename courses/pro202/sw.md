@@ -20,6 +20,38 @@ Furahia ugunduzi wako!
 
 +++
 
+# Utangulizi
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Muhtasari wa Kozi
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Karibu kwenye kozi PRO 202 _**Programming Bitcoin**_, safari ya kina inayokupeleka kutoka hesabu za uwanja wa mwisho hadi kujenga na kutangaza miamala halisi kwenye Mtandao wa Majaribio wa Bitcoin.
+
+Katika kozi hii, utaunda hatua kwa hatua maktaba ya Bitcoin kwa Python huku ukipata misingi ya usimbaji fiche, itifaki, na programu inayohitajika kuelewa kwa usahihi usalama na utendaji wa ndani wa Bitcoin. Mbinu ya PRO 202 ni ya vitendo kabisa: kila dhana inatekelezwa mara moja katika daftari za Jupyter, kuhakikisha kuwa nadharia na msimbo vinatia nguvu kila kimoja.
+
+### Misingi Muhimu ya Kihisabati kwa Bitcoin
+
+Sehemu hii ya kwanza inaweka msingi wa muhimu wa kihisabati. Utatekeleza hesabu za uga wa mwisho na operesheni za mviringo za elliptic (sheria ya kundi, kuongeza, kuzidisha mara mbili, mizidisho ya skalari...) — masharti ya ECDSA. Lengo ni mara mbili: kuelewa muundo wa algebra unaofanya saini za usimbaji uwezowe na kujenga zana za Python zinazotegemeka kwa kuzidisha hizo.
+
+Kisha utafafanua kwa undani vipengele vya ECDSA: uundaji wa funguo, muundo wa nukta, hashing, uundaji wa sahihi, na uthibitishaji. Sehemu hii inaunganisha moja kwa moja nadharia na vitendo, ikisisitiza maelezo ya utekelezaji na uimara wa mfano wa usalama wa msingi.
+
+### Utendaji wa Ndani wa Muamala wa Bitcoin
+
+Katika sehemu ya pili, utachambua muundo wa muamala wa Bitcoin: UTXO, ingizo/tokeo, mlolongo, hati, usimbaji na mengineyo. Utaandika msimbo wa kujenga, kusaini, na kuthibitisha miamala, ukipata uelewa sahihi wa kile kinachowekwa na hash na kwa nini.
+
+Kisha utaweka mtekelezaji mdogo wa _Script_, kupitia opcodes muhimu, na kuthibitisha njia za matumizi. Lengo ni kukuwezesha kukagua tabia ya miamala, kugundua kushindwa kwa uthibitishaji, na kutathmini usalama wa sera za matumizi.
+
+### Utendaji wa Ndani wa Mtandao wa Bitcoin
+
+Katika sehemu ya tatu, utaweka muamala ndani ya mfumo mpana zaidi: muundo wa bloku, vichwa, ugumu, na utaratibu wa Proof-of-Work. Utashughulikia ujumbe wa itifaki, vichwa vya bloku, na miti ya Merkle.
+
+Hatimaye, utajifunza mawasiliano ya nodi za peer-to-peer, uboreshaji wa ujumbe, na utangulizi wa SegWit.
+
+Kama ilivyo kwa kila kozi kwenye Plan ₿ Academy, sehemu ya mwisho inajumuisha tathmini iliyoundwa ili kuimarisha uelewa wako. Uko tayari kugundua jinsi Bitcoin inavyofanya kazi ndani na kuandika msimbo unaoiendesha? Hebu tuanze!
+
 # Dhana Muhimu za Hisabati kwa Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -1,35 +1,18 @@
 ---
 name: Ursprunget till Laissez-Faire-ekonomin
-goal: utforska grunderna i 1700-talets franska liberala ekonomiska tänkande, med fokus på doktrinen om laissez-faire, dess ledande tänkare och bestående inflytande.
-objectives: 
-
-
-  - Få en gedigen förståelse för nyckelbegreppen bakom det franska liberala ekonomiska tänkandet och hur de utvecklades under 1700-talet
-  - Förstå de argument som franska tänkare utvecklade mot statlig interventionism
-  - Utvärdera effekterna av denna franska tankeskola och dess roll i att forma utvecklingen av den globala politiska ekonomin
-  - Utveckla en kritisk förståelse för den historiska kontinuiteten mellan olika tänkare och deras teorier
-
-
+goal: Utforska grunderna för det liberala ekonomiska tänkandet från 1700-talet, med fokus på laissez-faire-doktrinen, dess ledande tänkare och bestående inflytande.
+objectives:
+- Få en gedigen förståelse för nyckelbegreppen bakom liberalt ekonomiskt tänkande och hur de utvecklades under 1700-talet
+- Förstå de argument som tänkare utvecklade mot statlig interventionism
+- Utvärdera effekten av laissez-faire-tänkande i utformningen av den globala politiska ekonomins utveckling
+- Undersöka spänningen mellan teori och praktik vid implementering av liberal ekonomi
 ---
+# En resa genom frihetens ekonomiska historia
 
-# En resa i frihetens ekonomiska historia
+Denna kurs utforskar den ekonomiska vetenskapens födelse i 1700-talets Frankrike genom laissez-faire-perspektivet. Du kommer att upptäcka hur tänkare utmanade merkantilismen genom att hävda att staten bör skydda privata rättigheter, men aldrig manipulera marknader genom regleringar.
 
-
-
-I början av 1700-talets Frankrike började ett nytt sätt att tänka kring ekonomin att ta form. Det uppstod som ett svar på Ancien Régimes hårdhänta kontroll och kretsade kring en kraftfull idé: *laissez-faire* - "låt det hända".
-
-Uttrycket sägs ha kommit från ett samtal mellan en köpman och minister Colbert. När ministern frågade: "Vad kan regeringen göra för att hjälpa din verksamhet?" svarade handlaren: "Låt oss bara göra det".
-
-
-Sedan dess har många tänkare börjat stödja denna idé och anser att statens roll bör vara begränsad. Den ska skydda individens rättigheter, men undvika att blanda sig i ekonomiska angelägenheter av rädsla för att störa och förstöra allt. Först måste den ta ut skatt på ett rättvist och jämlikt sätt (Vauban, Boisguilbert). Sedan måste den avstå från att manipulera valutan genom att devalvera dess värde för att finansiera sig själv till en låg kostnad (Cantillon efter John Law-katastrofen; Dupont de Nemours före Assignats-katastrofen). Den måste garantera friheten att arbeta, avskaffa skråväsendet och betungande regleringar av industri och handel, som hindrar ekonomiska framsteg (idéer som stöddes av d'Argenson, Gournay, fysiokraterna och Turgot).
-
-
-
-Slutligen måste staten tillåta fri rörlighet för varor, vilket ledde till att vissa lade till uttrycket "laissez-passer" till laissez-faire, vilket gör det möjligt för konsumenterna att köpa till bästa pris och främjar fred och broderskap mellan nationerna (Quesnay och fysiokraterna, Abboten av Saint-Pierre). Genom att försvara detta laissez-faire-ideal lade de franska ekonomerna på 1700-talet grunden till den ekonomiska vetenskapen. Efter att ha dominerat sin egen tid har de fortfarande förmågan att vägleda vår.
-
-
+Du kommer att lära dig hur visionära reformatorer utvidgade denna vision för att kräva frihandel och obegränsad cirkulation av varor, vilket lade den intellektuella grunden för modern kapitalism. Genom att studera dessa banbrytande ekonomer kommer du att förstå de tidlösa principerna som formade den globala politiska ekonomin och fortsätter att påverka politiska debatter idag. Gå med nu för att bemästra de idéer som byggde den moderna ekonomin.
 +++
-
 # Inledning
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

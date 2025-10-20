@@ -20,6 +20,38 @@ Kos deg med oppdagelsen!
 
 +++
 
+# Introduksjon
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Kursoversikt
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Velkommen til kurset PRO 202 _**Programming Bitcoin**_, en intensiv reise som tar deg fra aritmetikk i endelige felt til å bygge og sende ekte transaksjoner på Bitcoins testnett.
+
+I dette kurset vil du gradvis bygge et Bitcoin-bibliotek i Python mens du tilegner deg de kryptografiske, protokollmessige og programvaremessige grunnlagene som er nødvendige for å forstå nøyaktig Bitcoins sikkerhet og indre virkemåte. PRO 202-tilnærmingen er helt praktisk: hvert konsept implementeres umiddelbart i Jupyter-notatbøker, slik at teori og kode styrker hverandre.
+
+### Grunnleggende matematiske konsepter for Bitcoin
+
+Denne første seksjonen etablerer det uunnværlige matematiske grunnlaget. Du vil implementere aritmetikk over endelige felt og elliptiske kurveoperasjoner (gruppelov, addisjon, doblin g, skalarmultiplikasjon...) — forutsetningene for ECDSA. Målet er todelt: å forstå den algebraiske strukturen som gjør kryptografiske signaturer mulig, og å bygge pålitelige Python-verktøy for å manipulere dem.
+
+Deretter vil du formalisere komponentene i ECDSA: nøkkelgenerering, punktformatering, hashing, signaturopprettelse og verifisering. Denne seksjonen kobler teori direkte til praksis og fremhever implementasjonsdetaljer og robustheten i den underliggende sikkerhetsmodellen.
+
+### Den indre virkemåten til en Bitcoin-transaksjon
+
+I den andre delen vil du analysere strukturen til en Bitcoin-transaksjon: UTXO-er, input/output, sekvenser, skript, kodinger og mer. Du vil skrive kode for å konstruere, signere og verifisere transaksjoner, og oppnå en presis forståelse av hva som forpliktes av hashen og hvorfor.
+
+Deretter vil du implementere en minimal _Script_-utfører, gjennomgå viktige opkoder og validere utgiftsbaner. Målet er å gjøre deg i stand til å revidere transaksjonsatferd, diagnostisere valideringsfeil og vurdere sikkerheten til utgiftspolicyer.
+
+### Den indre virkemåten til Bitcoin-nettverket
+
+I den tredje delen vil du plassere transaksjonen innenfor det bredere systemet: blokkstruktur, overskrifter, vanskelighetsgrad og Proof-of-Work-mekanismen. Du vil håndtere protokollmeldinger, blokkoverskrifter og Merkle-trær.
+
+Til slutt vil du studere kommunikasjon mellom peer-to-peer-noder, meldingsoptimalisering og introduksjonen av SegWit.
+
+Som med alle kursene på Plan ₿ Academy, inkluderer den siste delen en evaluering utformet for å styrke forståelsen din. Klar til å avdekke de indre mekanismene i Bitcoin og skrive koden som driver det? La oss begynne!
+
 # Grunnleggende matematiske begreper for Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

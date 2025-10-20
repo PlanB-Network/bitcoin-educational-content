@@ -410,7 +410,7 @@ In altre parole, circa 9 nodi pubblici su 10 utilizzano Bitcoin core. Il resto d
 
 
 
-Bitcoin core è scritto in C++. È anche un progetto open source che viene mantenuto da una comunità di sviluppatori volontari o pagati da varie entità (spesso da aziende dell'ecosistema che hanno un interesse personale nello sviluppo di Core). [Il codice è ospitato su GitHub](https://github.com/Bitcoin/Bitcoin) e lo sviluppo segue una procedura rigorosa:
+Bitcoin Core è un software scritto in C++. È anche un progetto open source mantenuto da una comunità di sviluppatori, volontari o retribuiti da varie entità (spesso aziende dell'ecosistema interessate a che lo sviluppo di Core proceda favorevolmente). [Il codice è ospitato su GitHub](https://github.com/bitcoin/bitcoin) e lo sviluppo segue un modello rigoroso:
 
 
 
@@ -448,7 +448,7 @@ Possiamo anche citare:
 
 - Libbitcoin**: una libreria modulare in C++ sviluppata da Amir Taaki e mantenuta da Eric Voskuil;
 - Bcoin**: un'implementazione in JavaScript, non più mantenuta attivamente;
-- BTCD/btcsuit**e: un'implementazione in Go.
+- **BTCD/btcsuite** : un'implementazione in Go.
 
 
 
@@ -2941,7 +2941,7 @@ Quando il nodo ha completato la sincronizzazione iniziale, memorizza localmente 
 
 
 
-- gW-402 **blocchi** memorizzati su disco,
+- i **blocchi** della blockchain memorizzati su disco,
 - l'insieme **UTXO** mantenuto in un database chiave-valore,
 - e il **Mempool** viene memorizzato nella RAM e serializzato periodicamente.
 
@@ -3093,7 +3093,7 @@ Il Mempool è l'insieme locale delle transazioni valide che sono state ricevute 
 
 
 - la dimensione allocata al Mempool tramite il parametro `maxmempool`: un nodo con un Mempool più grande sarà in grado di contenere più transazioni di un nodo con un Mempool più piccolo (a meno che quest'ultimo non diventi vuoto);
-- regole gW-433: sono un sottoinsieme delle regole di trasmissione del nodo e definiscono le caratteristiche che una transazione non confermata deve soddisfare per essere accettata nel Mempool;
+- le regole della mempool: costituiscono un sottoinsieme delle regole di inoltro del nodo e definiscono le caratteristiche che una transazione non confermata deve rispettare per essere accettata nella mempool;
 - percolazione delle transazioni: a causa di vari fattori, una determinata transazione può essere stata distribuita in una parte della rete, ma non ancora raggiunta da un'altra.
 
 
@@ -3135,10 +3135,10 @@ Diversi altri file allo stesso livello di `blocks/`, `chainstate/` e `indexes/` 
 - Quando il nodo viene spento, `anchors.dat` salva gli indirizzi dei peer uscenti, in modo da poter provare a ricontattarli rapidamente al successivo avvio.
 - `banlist.json` contiene i divieti locali decisi dall'operatore o dal nodo (comportamenti ripetuti non validi), al fine di impedire al nodo di riconnettersi o accettare connessioni da questi specifici peer.
 - `fee_estimates.dat` memorizza le statistiche sull'orizzonte temporale delle conferme osservate, utilizzate dallo stimatore delle tariffe per proporre tariffe coerenti con gli obiettivi di ritardo scelti durante la creazione di una transazione.
-- gW-446.conf` contiene i parametri di configurazione del nodo. È qui che si possono regolare le regole del relè. Se ne parlerà nel prossimo capitolo.
+- `bitcoin.conf` contiene i parametri di configurazione del tuo nodo. È in questo file che si possono regolare le regole di inoltro. Ne parlerò più in dettaglio nel prossimo capitolo;
 - `settings.json` contiene parametri aggiuntivi a `Bitcoin.conf`.
 - `debug.log' è il registro di testo diagnostico, che può essere usato per capire l'attività del nodo in caso di bug.
-- gW-448.pid` memorizza l'identificatore del processo in fase di esecuzione, consentendo ad altre applicazioni o script di identificare facilmente bitcoind (*Bitcoin daemon*) e di interagire con esso se necessario. Viene creato all'avvio del nodo e cancellato allo spegnimento.
+- `bitcoind.pid` registra l’identificatore del processo durante l’esecuzione, consentendo ad altre applicazioni o script di identificare facilmente Bitcoind (*Bitcoin Daemon*) e di interagire con esso, se necessario. Viene creato all’avvio del nodo e rimosso all’arresto;
 - `ip_asn.map` è una tabella di mappatura IP → ASN (sistema autonomo) utilizzata per il bucketing e la diversificazione dei peer (opzione `-asmap`).
 - `onion_v3_private_key` memorizza la chiave privata del servizio Tor v3 quando l'opzione `-listenonion` è abilitata, per mantenere stabile la cipolla Address tra i riavvii.
 - `i2p_private_key` memorizza la chiave privata di I2P quando si usa `-i2psam=`, per effettuare connessioni in uscita ed eventualmente in entrata su I2P.
@@ -3154,9 +3154,9 @@ Come abbiamo visto nelle prime parti di questo corso BTC 202, Bitcoin core è si
 
 
 
-- `wallets/` è la directory predefinita che ospita uno o più;
+- `wallets/` è la directory predefinita che ospita uno o più portafogli;
 - `wallets/<nome>/Wallet.dat` è il database SQLite del Wallet (chiavi, descrittori, metadati delle transazioni, ecc.);
-- wallets/<nome>/Wallet.dat-journal` è il registro dei rollback di SQLite.
+- `wallets/<name>/wallet.dat-journal` è il registro di rollback di SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ A livello di rete, abbiamo anche:
 
 
 - `addnode`: aggiunge un peer amico da contattare in aggiunta alla solita scoperta (può essere specificato più volte).
-- connect`: limita strettamente le connessioni al Address fornito (può essere specificato più volte). Il nucleo non si connetterà a nessun altro nodo.
+- `connect`: limita rigorosamente le connessioni all’indirizzo fornito (può essere specificato più volte). Core non si connetterà ad alcun altro nodo;
 - `seednode`: è usato solo per compilare il book-Address quando ci si connette a un nodo e poi ci si disconnette.
 - `maxconnessioni`: definisce il limite massimo globale per le connessioni in entrata e in uscita. Per impostazione predefinita, questo parametro è impostato a 125, il che significa che il nodo non accetterà mai più di 125 connessioni.
-- maxuploadtarget`: limita gli upload per limitare la larghezza di banda in una finestra scorrevole di 24 ore. Questo limite non sacrifica la propagazione di Elements recenti ed essenziali.
+- `maxuploadtarget` : limita l'upload per contenere la larghezza di banda su una finestra mobile di 24 ore. Questo limite non compromette la propagazione degli elementi recenti essenziali;
 - `onlynet`: limita le connessioni in uscita solo alle reti selezionate (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Ad esempio, se si vuole che il nodo si connetta alla rete Bitcoin solo tramite Tor, si può abilitare il parametro `onlynet=onion` e disabilitare le connessioni in entrata (o consentire anche le connessioni tramite Tor).
 - `dnsseed`: consente o meno ai _DNS seed_ di richiedere peer quando il pool Address locale è basso (default: `1`, a meno che `-connect` o `-maxconnections=0`).
 - `forcednsseed`: forza la richiesta di semi _DNS_ all'avvio, anche se gli indirizzi sono già disponibili (default: `0`).
@@ -3362,7 +3362,7 @@ Per essere completamente abilitati a Tor, è necessario forzare il Bitcoin core 
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Ecco i parametri di base che potete modificare nel vostro `Bitcoin.conf` per qua
 
 
 
-- blocksonly=1`: Disabilita l'accettazione e la ritrasmissione di transazioni non confermate ricevute dai peer (a meno che non vengano concessi permessi speciali). Il nodo ora carica e pubblicizza solo i blocchi. Le transazioni create localmente possono ancora essere trasmesse (per utilizzare il nodo con il software Wallet). Questo riduce notevolmente la larghezza di banda e i requisiti di RAM, anche se al costo di una minore utilità per il relay e di una totale mancanza di familiarità con il Mempool.
+- `blocksonly=1` : Disattiva l'accettazione e la ritrasmissione delle transazioni non confermate ricevute dai peer (tranne permessi speciali). Il nodo scarica e annuncia solo i blocchi. Le transazioni create localmente possono comunque essere trasmesse (per utilizzare il nodo con il software del portafoglio). Questo riduce notevolmente la larghezza di banda e il consumo di RAM, a scapito dell'utilità per il relay e della totale mancanza di conoscenza della mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Ecco le impostazioni avanzate per il Mempool e la politica dei relè. Se si è a
 
 
 
-- datacarrier=1`: Consente la trasmissione e (se Mining via nodo) l'inclusione di transazioni che trasportano dati non finanziari attraverso un'uscita `OP_RETURN` (default: `1`). La disattivazione di questo parametro riduce leggermente la superficie per lo spam di dati non finanziari, al costo di una minore compatibilità con alcuni usi. In ogni caso, è necessario accettare `OP_RETURN` minati.
+- `datacarrier=1` : Consente il relay e (se il mining avviene tramite il nodo) l’inclusione di transazioni contenenti dati non finanziari tramite un output `OP_RETURN` (predefinito: `1`). Disattivare questo parametro riduce leggermente la superficie di spam dei dati non finanziari a scapito di una minore compatibilità con alcuni usi. In ogni caso, dovrai accettare gli `OP_RETURN` minati.
 
 
 
@@ -3490,13 +3490,13 @@ Ecco le impostazioni avanzate per il Mempool e la politica dei relè. Se si è a
 
 
 
-- peerbloomfilters=1`: Abilita il supporto per i filtri Bloom (BIP37) per servire blocchi/transazioni filtrate ai thin client (default: `0`). Attenzione: questo aumenta il carico sulle risorse.
+- `peerbloomfilters=1` : Attiva il supporto ai filtri Bloom (BIP37) per servire blocchi/transazioni filtrati ai client leggeri (predefinito: `0`). Attenzione, questo aumenta il carico sulle tue risorse.
 
 
 
 
 
-- peerblockfilters=1`: Serve i filtri compatti BIP157 (*Neutrino*) ai peer (default: `0`).
+- `peerblockfilters=1` : Fornisce filtri compatti BIP157 (*Neutrino*) ai peer (predefinito: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Come promemoria, tutte queste regole di relè non hanno alcun impatto sulla vali
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definisce il formato degli indirizzi generati dal Wallet per la ricezione.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definisce il formato degli indirizzi generati dal portafoglio per la ricezione.
 
 
 
@@ -3568,7 +3568,7 @@ Come promemoria, tutte queste regole di relè non hanno alcun impatto sulla vali
 
 
 
-- fallbackfee=<amt>`: Tasso di ripiego (BTC/kvB) utilizzato se lo stimatore esaurisce i dati (default: `0,00`). L'impostazione a 0 disabilita completamente il fallback.
+- `fallbackfee=<amt>` : Tariffa di riserva (BTC/kvB) utilizzata se il sistema di stima non dispone di dati sufficienti (predefinito: `0.00`). Impostarla su 0 disattiva completamente la funzione di riserva.
 
 
 
@@ -3660,7 +3660,7 @@ Il file di configurazione consente anche di regolare i parametri relativi alla m
 
 
 
-- txindex=1`: Costruisce e mantiene un indice globale delle transazioni confermate. È essenziale per alcune query (`getrawtransaction` non-Wallet) e per scopi di esplorazione, ma aumenta significativamente l'ingombro su disco. Incompatibile con la modalità pruned.
+- `txindex=1` : Costruisce e mantiene un indice globale delle transazioni confermate. Indispensabile per alcune richieste (`getrawtransaction` fuori dal portafoglio) e per scopi di esplorazione, ma aumenta notevolmente l'utilizzo del disco. Incompatibile con la modalità ridotta.
 
 
 

@@ -38,6 +38,8 @@ Kursus ini dirancang untuk memberi Anda kendali penuh atas cara belajar Anda, me
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Selamat datang di BTC102! Jika Anda telah menyelesaikan BTC101, Anda telah menjelajahi konsep teoretis utama di balik mengapa Bitcoin adalah teknologi yang revolusioner. Sekarang, dengan BTC102, saatnya untuk menerapkan pengetahuan tersebut ke dalam tindakan. Kursus ini dirancang untuk membantu Anda membangun rencana Bitcoin pribadi Anda, langkah demi selangkah.
 
@@ -111,6 +113,8 @@ Siap untuk memulai perjalanan Anda ke dunia Bitcoin? Ayo pergi!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Ekosistem Bitcoin dan lingkungan sekitarnya masih relatif muda dan diatur secara longgar, tergantung pada negaranya. Meskipun kebebasan ini membuka peluang yang sangat besar, namun juga menciptakan lahan subur untuk penipuan keuangan, penipuan, dan berbagai bentuk manipulasi. Itulah mengapa bab pertama ini sangat penting: memahami jebakan-jebakan umum akan membantu Anda menghindarinya. Keamanan finansial Anda adalah prioritas karena pengalaman buruk tidak hanya berdampak pada Anda, tetapi juga pada seluruh komunitas Bitcoin.
@@ -350,6 +354,8 @@ Melindungi diri Anda dari penipuan adalah langkah pertama yang sangat penting da
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 Segera setelah Anda mulai menggunakan Bitcoin, Anda akan segera menyadari bahwa keamanan siber dasar bukanlah pilihan-itu sangat penting. Penipuan dan kecurangan hanyalah puncak gunung es. Kehilangan data yang tidak disengaja, malware, dan kata sandi yang disusupi bisa sama merusaknya, terutama ketika Anda mengelola kunci Anda sendiri.
@@ -549,6 +555,8 @@ Dalam bab berikutnya, saya akan berbagi beberapa saran lagi untuk membantu Anda 
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -819,6 +827,8 @@ Dengan mengikuti prinsip-prinsip ini, Anda akan dapat melakukan investasi Bitcoi
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 Dalam kursus ini, tujuan utamanya adalah memandu Anda untuk mendapatkan dan mengamankan bitcoin pertama Anda. Tetapi sebelum menyelami langkah-langkah praktis (cara membeli BTC, dompet mana yang akan digunakan, dan seterusnya), penting untuk mengambil langkah mundur dan memahami apa sebenarnya Bitcoin itu. Memahami lebih dalam tentang Bitcoin akan membantu Anda memahami mengapa jutaan orang beralih ke teknologi ini, dan mengapa sangat penting untuk memahami dasar-dasarnya sebelum memasukkan tabungan Anda ke dalam aset yang baru dan mudah berubah.
 
@@ -1038,6 +1048,8 @@ Setelah pengenalan tentang Bitcoin ini (yang mungkin membutuhkan waktu lebih dar
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
+
 
 
 Mengapa Bitcoin begitu penting? Itulah pertanyaan utama dari kursus ini. Entah itu terkait dengan studi atau strategi investasi Anda, tanpa pemahaman yang jelas tentang pentingnya Bitcoin, ada risiko menyimpang dari rencana Anda. Tujuannya adalah untuk selalu mengingat prinsip-prinsip dasar Bitcoin untuk memastikan bahwa strategi Anda tetap selaras dengan keyakinan Anda.
@@ -1252,6 +1264,8 @@ Setelah kita menjelajahi makna mendalam dari penemuan Satoshi Nakamoto, bab sela
 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 
 
@@ -1594,6 +1608,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
+
 
 Bitcoin adalah sistem terbuka yang dirancang untuk menjadi minimalis, kuat, dan aman sejak awal. Untuk menambah fungsionalitas tanpa mengubah fondasinya, evolusi umumnya dilakukan dengan menambahkan **lapisan protokol** dan aplikasi pelengkap yang memperkaya ekosistem tanpa mengorbankan desentralisasi dan ketahanan sistem utama. Fleksibilitas ini telah memungkinkan banyak perusahaan dan pengembang independen untuk membangun infrastruktur di sekitar Bitcoin, menambahkan inovasi yang disesuaikan dengan kasus penggunaan yang berbeda.
 
@@ -1755,6 +1771,8 @@ Selanjutnya dalam kursus ini: kita akan membahas secara praktis dan membantu And
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 Sekarang setelah Anda mempelajari dasar-dasar teoretis dari Bitcoin, sekarang saatnya beralih ke sisi praktisnya. Bagian ini akan membantu Anda memahami cara mendapatkan bitcoin pertama Anda, cara menyimpannya dengan aman, dan cara menyesuaikan pendekatan berdasarkan situasi pribadi Anda. Tujuannya adalah untuk membantu Anda mengidentifikasi tipe pengguna seperti apa Anda sehingga Anda bisa menerapkan strategi yang sesuai dengan kebutuhan dan kendala Anda.
@@ -2215,6 +2233,8 @@ Dalam bab-bab berikutnya, kita akan menjelajahi masing-masing profil ini secara 
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 Dalam komunitas Bitcoin, istilah "hodler" mengacu pada seseorang yang mengambil pendekatan investasi jangka panjang. Kata ini berasal dari kesalahan ketik "hold" yang terkenal di forum Bitcoin Talk beberapa tahun yang lalu dan sejak saat itu menjadi simbol Commitment: berpegang teguh pada Bitcoin Anda apa pun yang terjadi, tanpa menekankan pada perubahan pasar jangka pendek.
 
@@ -2383,6 +2403,8 @@ Dalam bab berikutnya, kita akan menjelajahi profil yang serupa tetapi lebih akti
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 Dalam ekosistem Bitcoin, stacker adalah seseorang yang mengambil pendekatan jangka panjang yang konsisten untuk mengumpulkan satoshi (atau "Sats"), unit terkecil dari Bitcoin. Daripada menginvestasikan sejumlah besar sekaligus, stacker secara teratur membeli Bitcoin dalam jumlah kecil, terlepas dari kondisi pasar.
@@ -2577,6 +2599,8 @@ Berikutnya: kita akan menjelajahi profil pengguna bitcoin yang sangat berbeda; p
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 Menjadi pengguna aktif Bitcoin berarti melampaui strategi investasi jangka panjang. Tidak seperti hodler atau stacker yang hanya menabung tanpa membelanjakan, pengguna aktif memperlakukan Bitcoin sebagai media nyata dari **Exchange**. Mereka menggunakannya untuk membayar barang dan jasa dan secara aktif berpartisipasi dalam ekonomi tandingan.
@@ -2825,6 +2849,8 @@ Dalam bab berikutnya, kita akan menjelajahi profil pengguna Bitcoin yang terakhi
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 Bagi para Bitcoiner yang paranoid, privasi bukanlah sebuah pilihan, melainkan sebuah keharusan. Di dunia di mana hampir setiap pergerakan keuangan dilacak, mereka melihat bahwa melindungi identitas dan riwayat transaksi mereka adalah bagian yang tidak dapat dinegosiasikan dalam menggunakan Bitcoin. Mereka biasanya sangat sadar akan risiko yang terlibat dalam mengekspos data pribadi (terutama ketika menggunakan bursa yang sesuai dengan KYC yang memerlukan verifikasi ID).
@@ -3117,6 +3143,8 @@ Di bagian selanjutnya dari kursus ini, kita akan membahas topik penting yang ser
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 Memastikan pengiriman bitcoin Anda adalah sebuah tanggung jawab yang sering kali diabaikan tetapi sangat penting. Kedaulatan finansial yang ditawarkan Bitcoin juga disertai dengan kebutuhan akan pengelolaan harta warisan yang cermat. Tanpa ini, ahli waris Anda mungkin tidak dapat mengakses dana yang diperoleh dari Hard. Dalam bab ini, kita akan mengeksplorasi dasar-dasar perencanaan warisan yang berlaku untuk Bitcoin.
@@ -3438,6 +3466,8 @@ Terima kasih khusus kepada [Pamela Morgan] (https://x.com/pamelawjd) atas karyan
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 Jika Anda telah berhasil sejauh ini, Anda sekarang menjadi bagian dari minoritas yang tercerahkan! Sangat sedikit orang yang melangkah sejauh ini dengan Bitcoin, dan Anda bisa bangga dengan seberapa jauh Anda telah melangkah. Mungkin Anda telah mengikuti semua tutorial yang ditawarkan dalam kursus pelatihan ini: Menyiapkan Hardware Wallet pertama Anda, Mengamankan frasa pemulihan Anda, Membuat rencana rata-rata biaya dolar (DCA), Mengakuisisi Bitcoin dengan dan tanpa KYC, Bahkan merencanakan warisan Bitcoin Anda. Setiap langkah yang Anda ambil adalah lompatan menuju kedaulatan finansial yang sesungguhnya.

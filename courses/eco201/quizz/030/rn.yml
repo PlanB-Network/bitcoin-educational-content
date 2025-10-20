@@ -1,18 +1,18 @@
-question: Ni igiki gifise insiguro y’urutonde rw’ibikorwa vy’umuntu ku bikorwa vy’uguhingura?
-answer: Ugukevya kwose kw’ibikorwa, ni ukuvuga, ugukura kwose kw’imiterere y’ibikorwa, bisaba kuzigama imbere y’igihe.
+question: Ni igiki gifise insiguro y’urutonde y'urukwirikirane rw’ibikorwa vy’umuntu ku bikorwa vy’uguhingura?
+answer: Ukwiba umwimbu, ni ukuvuga, ugukura kwose kw’imiterere y’ibikorwa, bisaba kuziganya imbere y’igihe.
 wrong_answers:
-  - Uko ibikorwa vy’umuntu bikurikirana ntaco bihindura ku bikorwa vy’uguhingura.
-  - Uko ibikorwa vy’umuntu bikurikirana bisobanura ko ibikorwa vy’uguhingura bitegerezwa gukorwa mu buryo bumwe.
-  - Uko ibikorwa vy’umuntu bikurikirana bisobanura ko ibikorwa vy’uguhingura bitegerezwa gukorwa icarimwe.
+  - Uko ibikorwa vy’umuntu bikwurikirana ntaco bihindura ku bikorwa vy’uguhingura.
+  - Uko ibikorwa vy’umuntu bikwurikirana bisobanura ko ibikorwa vy’uguhingura bitegerezwa gukorwa mu buryo bumwe.
+  - Uko ibikorwa vy’umuntu bikwurikirana bisobanura ko ibikorwa vy’uguhingura bitegerezwa gukorwa icarimwe.
 explanation: |
-  Kubera urutonde rw’ibikorwa vy’umuntu, abantu ku giti cabo
-  ategerezwa guhitamwo ibintu bihuye n’igihe—ingingo zijanye n’uburimbane .
+  Kubera urutonde rw’ibikorwa vy’umuntu bikwirikirana, abantu ku giti cabo
+  ategerezwa guhitamwo ibintu bihuye n’igihe ingingo zijanye.
   ivya nkenerwa vyihuse bifise intumbero zo muri kazoza. Aya mahitamwo aragira ico akoze
   urutonde rw’ibikorwa umuntu ashobora gukora, nk’ivy’igihe gito
-  ingingo zifatwa zishingiye ku ntumbero z’igihe kirekire. Mu majambo
+  ingingo zifatwa zihagaze ku ntumbero z’igihe kirekire. Mu majambo
   y’uguhingura, ivyo bisigura ko ugukevya kwose mu guhingura
   inzira, ni ukuvuga kuramba kw'imiterere y'ibikorwa,
-  bisaba ko umuntu azigama imbere y’igihe. Ivy’ubutunzi bitegerezwa gushirwa ku ruhande ubu kugira ngo .
+  bisaba ko umuntu aziganya imbere y’igihe. Ivy’ubutunzi bitegerezwa gushirwa ku ruhande ubu kugira ngo .
   gufasha uwo muntu mu kiringo gikenewe kugira ngo .
   inzira ndende kandi itanga inyungu nyinshi.
 reviewed: true

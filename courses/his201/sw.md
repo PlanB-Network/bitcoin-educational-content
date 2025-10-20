@@ -25,6 +25,8 @@ Kozi hii, bila shaka, inazingatia takwimu ya Satoshi Nakamoto, ambayo maneno na 
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Kozi hii inalenga kukuambia hadithi ya kuundwa kwa Bitcoin kwa njia ambayo hujawahi kusoma hapo awali. Mara nyingi hupuuzwa, licha ya kujazwa na maelezo ya kuvutia. Tutajitahidi kuielezea katika ugumu wake wote, tangu ilipotungwa na Satoshi Nakamoto hadi kutoweka kwake mapema na kukabidhiwa kwa jamii.
 
 ### Muhtasari mfupi
@@ -92,6 +94,8 @@ Kumbuka kuwa kwa toleo lisilo la Kiingereza la kozi hii, nukuu nyingi hutoka kwa
 ## eCash: Chaumian Digital Cash
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
 
 Kabla ya kuzama katika hadithi halisi ya uundaji wa Bitcoin na Satoshi Nakamoto, inafaa kujadili kilichotangulia. Tutafanya Address mada katika hatua tatu: kwanza, tutaanzisha dhana ya pesa taslimu ya kidijitali ya Chaumian inayojulikana kwa kawaida *eCash*; basi, tutazungumza juu ya sarafu za kibinafsi kulingana na mifumo ya kati kama vile e-dhahabu; hatimaye, tutaelezea mifano ya kiufundi ambayo ilifikiriwa kabla ya utekelezaji wa mfumo wa kusambazwa imara ambao ni Bitcoin.
 
@@ -221,6 +225,8 @@ Kwa Bitcoin, Satoshi Nakamoto iliunda sarafu thabiti na ya siri ya dijiti, pesa 
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 Katika sura iliyotangulia, tuligundua aina ya kwanza ya pesa taslimu ya kielektroniki iliyoibuka kutokana na ujio wa Mtandao na mfumo wa kisasa wa fiche: mfano wa eCash wa David Chaum. Mtindo huu uliathiri sana Satoshi Nakamoto na ulikuwa hatua muhimu kwenye njia iliyoongoza kwa Bitcoin. Hata hivyo, hadithi ya asili ya cryptocurrency haiishii na eCash; pia inajumuisha majaribio na sarafu za kibinafsi zinazofanya kazi kwenye Mtandao, zilizotengenezwa kutoka mwishoni mwa miaka ya 1990.
 
 Katika sura hii, tutaangalia kile kilichofanywa katika nyanja ya sarafu za kibinafsi nchini Marekani. Tutajadili kwanza kesi ya Dola ya Uhuru. Kisha, tutachunguza mifumo ya kati kama vile e-gold na Liberty Reserve. Hatimaye, tutazungumzia kuhusu PayPal, ambayo mbinu yake ni tofauti, lakini hata hivyo hutumika kama mfano wa kuangaza wa mfano kulingana na mtu wa tatu anayeaminika.
@@ -305,6 +311,8 @@ Ni kwa sababu ya udhaifu huu wa mifumo ya serikali kuu ambapo watetezi wa uhuru 
 ## Miundo Iliyogatuliwa Kabla ya Nakamoto
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 Bitcoin inawakilisha muundo uliogatuliwa wa sarafu ya kidijitali. Kwa kufanya hivyo, inaepuka hitaji la mtu wa tatu anayeaminika, ambayo inaweza kuunda hatua moja ya kutofaulu katika mfumo. Kama inavyoonyeshwa na mifano ya eCash, sarafu za dhahabu za kidijitali, na Hifadhi ya Uhuru, kuwekwa kati kwa mfumo unaonuia kuwa mbadala wa mfumo uliopo bila shaka husababisha kufungwa kwake, kwa njia moja au nyingine.
 
@@ -458,6 +466,8 @@ Kwa hivyo Bitcoin inaunda kilele cha utafutaji wa sarafu ya mtandaoni, sarafu il
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Baada ya kujifunza mahali Bitcoin ilitoka, sasa tutazingatia historia yake yenyewe. Hili limekuwa mada ya vifungu vingi, podikasti, na video kwa miaka mingi, kiasi kwamba imekuwa karibu kuwa aina ya hadithi ya mwanzilishi. Kama tulivyoona, Bitcoin haiwezi kutenganishwa na muktadha ambamo iliundwa; ndivyo ilivyo kwa matukio yaliyotukia wakati wa miaka yake ya mapema, ambayo yametengeneza jinsi ilivyo leo, kwa sifa na kasoro zake.
 
 Bitcoin iliundwa na Satoshi Nakamoto, mtu asiyejulikana anayedai kuwa Mjapani, ambaye alichukua muda kuiunda kwa uangalifu kabla ya kuifungua kwa umma. Baadaye, walifanya kila kitu ili kuhakikisha kwamba Bitcoin ilizinduliwa chini ya hali bora zaidi, kwamba iliwasilishwa vizuri katika majadiliano, na kwamba ilitumiwa na idadi inayoongezeka ya watu. Hatimaye, juhudi za muundaji ziko katika kuanzishwa kwa mfumo wa kiuchumi kama ilivyo katika muundo wake wa awali, ikiwa sivyo zaidi.
@@ -592,6 +602,8 @@ Walakini, kazi hii haikutosha, na ilichukua uvumilivu kutoka kwa Satoshi kuanza 
 ## Uwasilishaji kwa Ulimwengu
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Baada ya kuchunguza jinsi Bitcoin ilivyoundwa na kuzinduliwa na Satoshi Nakamoto, hebu tuzingatie jinsi ilivyowasilishwa hadharani. Kufuatia kuzinduliwa kwake mwanzoni mwa 2009, mtandao ulikuwa ukifanya kazi, lakini kulikuwa na nodi chache za kuzalisha (Satoshi ilichimba sehemu kubwa ya vitalu) na shughuli ilikuwa haipo kabisa (shughuli 32 halisi zilifanyika wakati wa mwezi wa Januari). Mradi ulikuwa na tovuti ya msingi tu na ukurasa wa SourceForge wa kupakua programu. Zaidi ya hayo, mawasiliano kuhusu Bitcoin yalipunguzwa kwenye orodha ya barua pepe ya Metzdowd Cryptography, ikifuatwa vyema na mamia machache ya watu wanaopenda usimbaji fiche.
 
@@ -759,6 +771,8 @@ Mnamo msimu wa 2009, ilionekana kuwa Bitcoin ilikuwa tayari kukua. Na ilikuwa wa
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 Katika sura zilizopita, tuliona jinsi Satoshi Nakamoto ilivyotekeleza wazo lake na jinsi alivyowasiliana kulihusu ili kutambulisha Bitcoin kwa ulimwengu. Walakini, sio kila kitu kilimtegemea: ilikuwa muhimu pia kwa watu kugawa dhamana kwa kitengo cha akaunti. Kwa kuwa hii iliruhusu malipo ya wachimba migodi kupitia ada za miamala na wafanyabiashara waliozawadiwa kupitia upunguzaji wa bei asilia, uthamini huo ulikuwa muhimu kwa usalama wa mfumo.
 
 Kuibuka kwa thamani ya Bitcoin, hata hivyo, haikuwa kazi rahisi. Kwa kweli ilikuwa juu ya kutoa umuhimu wa kiuchumi kwa kitu ambacho hapo awali hakikuwa na chochote, kwa sababu za kibinafsi kabisa. Hal Finney aliielezea vizuri sana katika [barua pepe] yake (https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) ya Januari 11, 2009, iliyoshughulikiwa kwa orodha ya barua pepe ya Cryptography, ambapo aliandika:
@@ -883,6 +897,8 @@ Hata hivyo, swali hili kamwe halikusumbua Satoshi, ambao waliona uanzishaji wa s
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 Katika sehemu iliyotangulia, tulichunguza jinsi Bitcoin ilivyotokea, jinsi ilivyotambulishwa kwa umma, na jinsi ilivyoanzishwa kiuchumi. Katika chemchemi ya 2010, kama biashara ya bitcoins ilikuwa inaanza kuchanua, lengo la Satoshi Nakamoto na watu wachache wanaomuunga mkono lilikuwa kuweka moto. Kwa bahati nzuri, watu wengine walijiunga na juhudi, haswa Miner Laszlo Hanyecz na msanidi programu Gavin Andresen, ambao walijitokeza kwa vitendo vyao.
 
 Katika sura hii, tutaangalia kupelekwa kwa kwanza kwa Mining na kitengo cha usindikaji wa picha (GPU), bahati iliyokusanywa na Satoshi Nakamoto, ununuzi wa kwanza wa bidhaa za kimwili na bitcoins, uanzishwaji wa Bitcoin Faucet kutoa vitengo vya bure, na mageuzi ya programu na mtandao kabla ya Slashdot.
@@ -987,6 +1003,8 @@ Walakini, hadi mwisho wa Juni, shughuli ilibaki ya kawaida kwenye mtandao. Kulik
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 Mwanzoni mwa msimu wa joto wa 2010, licha ya maendeleo ya awali ya kutia moyo, Bitcoin ilikuwa msingi wa msingi unaotetemeka. Programu ilikuwa na watengenezaji wachache isipokuwa Satoshi Nakamoto. Wachimba migodi walikuwa wasomi kwenye kompyuta zao za kibinafsi. Kulikuwa na huduma zipatazo ishirini zinazohusiana na Bitcoin, na ubadilishanaji halisi ulikuwa nadra sana. Walakini, mambo yalikuwa karibu kubadilika sana katika nusu ya pili ya mwaka.
 
 Katika sura hii, tunalenga kujadili "upunguzaji mkubwa," yaani, utitiri wa ghafla wa watumiaji uliofuata uchapishaji wa wasilisho la Bitcoin kwenye tovuti maarufu ya Slashdot mnamo Julai 11, 2010. Tutaona jinsi maandishi haya yalivyopatikana kama juhudi ya mwisho ya mawasiliano kwa upande wa Satoshi na ni nini athari hizi za moja kwa moja za GW-4 zilifuata.
@@ -1061,6 +1079,8 @@ Katika miezi iliyofuata, uboreshaji wa kiufundi, kiuchumi, na Mining uliendelea 
 ## Masuala ya Kwanza ya Kiufundi
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Kama ilivyotajwa katika sura ya mwisho, utitiri wa watumiaji kutoka Slashdot mnamo Julai 11, 2010, ulisababisha wimbi kubwa la shauku katika mradi wa Satoshi Nakamoto. Matumizi ya mtandao yalipuka; kiwango cha Exchange kiliongezeka mara kumi, kama vile nguvu ya kompyuta iliyowekwa kwa mfumo. Kwa hivyo, Bitcoin ilipata ukuaji ambao haujawahi kufanywa katika msimu wa joto.
 
@@ -1147,6 +1167,8 @@ Katika miezi iliyofuata, maboresho ya kiufundi, kiuchumi, na Mining yaliendelea 
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 Katika sehemu iliyotangulia, tulisoma athari ambayo uchapishaji wa wasilisho la Bitcoin kwenye Slashdot (slashdotting) lilikuwa na jinsi matatizo ya awali ya kiufundi yalivyosimamiwa na Satoshi na wasaidizi wake. Kufikia mwisho wa kiangazi, mradi ulikuwa umestahimili dhoruba na ulikuwa tayari kukaribisha idadi inayoongezeka ya watu. Kuanguka kwa 2010 kwa hivyo kulionyesha kipindi cha mafanikio kwa Bitcoin.
 
 Kipindi hiki kilikuwa enzi ya dhahabu kwa Mining, ambayo iliona maboresho makubwa kwa kuibuka kwa mashamba ya kwanza ya GPU na ushirika wa kwanza. Rasilimali zilizotumwa zilikuwa zikiongezeka, na utendakazi wa algoriti maalum ulikuwa ukiboreka. Ilikuwa "haraka ya dijitali ya dhahabu," kama mwanablogu wa wakati huo (akitumia jina pseudonym jimbobway) [aliandika](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold), bila kutumia mtandao wa "rush.html".html Mining bitcoins "kwa matumaini ya bahati" na kwamba wengi wao walikuwa wakijaribu "kutengeneza zana za programu na maunzi ili kuchimba bitcoins kwa ufanisi zaidi" kwa matumaini ya kuwa matajiri wachafu. (*asili: "Bitcoins: A New Digital Gold Rush (...) Maelfu ya watumiaji kwenye Mtandao sasa ni Mining kwa bitcoins kwa matumaini ya bahati nzuri. Wengi wanajaribu kutengeneza programu na zana za vifaa vya kuchimba bitcoins kwa ufanisi zaidi kwa matumaini ya kuwa matajiri wachafu."*)
@@ -1222,6 +1244,8 @@ Walakini, kuanguka hakufanikiwa tu kwa Mining. Ilikuwa pia mafanikio kwa jamii n
 ## Kuchanua kwa Mfumo ikolojia
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 Katika sura iliyotangulia, tulichunguza jinsi Mining ilivyotengenezwa katika nusu ya pili ya mwaka wa 2010. Kufikia msimu wa joto, maendeleo haya yalithibitishwa vyema. Walakini, Mining haikuwa sehemu pekee ya Bitcoin iliyopata mafanikio: mfumo wake wa ikolojia ulifanya vile vile.
 
@@ -1327,6 +1351,8 @@ Katika msimu wa vuli wa 2010, mfumo wa ikolojia unaozunguka Bitcoin ulibadilika 
 ## Kutoweka kwa Satoshi
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Tuliona jinsi Bitcoin ilivyoruka kufuatia uchapishaji wa maandishi kwenye Slashdot mnamo Julai 2010. Katika msimu wa joto, pamoja na maendeleo mbalimbali ya programu, Mining, na uchumi, ilihisi kuwa mradi huo ulikuwa kwenye njia sahihi. Ndiyo maana kipindi hiki kiliambatana na uondoaji wa taratibu wa Satoshi Nakamoto.
 
@@ -1446,6 +1472,8 @@ Kipengele hiki cha ajabu kinachomzunguka mtayarishaji wa Bitcoin kilitolewa kwa 
 ## Jumuiya Kuchukua Nafasi
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Baada ya kuondoka kwa Satoshi Nakamoto, ikawa muhimu kuendelea bila yeye. Kwa bahati nzuri, Bitcoin ilikuwa mradi wazi, ambao mtu yeyote angeweza kuchangia, hivyo kutoweka kwa mwanzilishi wake haikuwa mbaya kwa ajili yake. Kama msanidi programu Jeff Garzik aliandika mnamo Julai 2010 (kuhusu uwezekano wa kutokuwepo kwa mwanzilishi):
 

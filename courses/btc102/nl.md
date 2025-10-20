@@ -28,6 +28,8 @@ Deze cursus is ontworpen om je volledige controle te geven over hoe je leert, zo
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 Welkom bij BTC102! Als je BTC101 al hebt gevolgd, heb je de belangrijkste theoretische concepten onderzocht achter waarom Bitcoin zo'n revolutionaire technologie is. Nu, met BTC102, is het tijd om die kennis in actie om te zetten. Deze cursus is ontworpen om je te helpen stap voor stap je persoonlijke Bitcoin plan op te stellen.
 
 In de komende hoofdstukken leiden we je door de praktische stappen om **je eerste bitcoins** te krijgen, **ze goed te beveiligen** en vol vertrouwen je eerste stappen te zetten in dit snelgroeiende ecosysteem.

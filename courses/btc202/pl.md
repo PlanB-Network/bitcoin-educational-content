@@ -410,7 +410,7 @@ Innymi słowy, około 9 na 10 węzłów publicznych korzysta z Bitcoin core. Res
 
 
 
-Bitcoin core jest napisany w języku C++. Jest to również projekt open source, który jest utrzymywany przez społeczność programistów, którzy są wolontariuszami lub są opłacani przez różne podmioty (często przez firmy w ekosystemie, które mają żywotny interes w rozwoju Core). [Kod jest hostowany na GitHub](https://github.com/Bitcoin/Bitcoin), a rozwój odbywa się w rygorystyczny sposób:
+Bitcoin Core to oprogramowanie napisane w języku C++. Jest to również projekt open source, utrzymywany przez społeczność deweloperów — wolontariuszy lub opłacanych przez różne podmioty (często firmy z ekosystemu, którym zależy na pomyślnym rozwoju Core). [Kod jest hostowany na GitHubie](https://github.com/bitcoin/bitcoin), a rozwój odbywa się według rygorystycznego modelu:
 
 
 
@@ -448,7 +448,7 @@ Możemy również wspomnieć:
 
 - Libbitcoin**: modułowa biblioteka C++ opracowana przez Amira Taaki i utrzymywana przez Erica Voskuila;
 - Bcoin**: implementacja JavaScript, która nie jest już aktywnie utrzymywana;
-- BTCD/btcsuit**e: implementacja w Go.
+- **BTCD/btcsuite** : implementacja w Go.
 
 
 
@@ -2941,7 +2941,7 @@ Po zakończeniu początkowej synchronizacji węzeł przechowuje lokalnie kilka u
 
 
 
-- gW-402 **bloki** przechowywane na dysku,
+- **bloki** łańcucha bloków przechowywane na dysku,
 - **Zestaw UTXO** przechowywany w bazie danych klucz-wartość,
 - a **Mempool** jest przechowywany w pamięci RAM i okresowo serializowany.
 
@@ -3093,7 +3093,7 @@ Mempool to lokalny zestaw ważnych transakcji, które zostały odebrane, ale nie
 
 
 - rozmiar przydzielony do Mempool za pomocą parametru `maxmempool`: węzeł z większym Mempool będzie w stanie pomieścić więcej transakcji niż węzeł z mniejszym Mempool (chyba że ten ostatni stanie się pusty);
-- reguły gW-433: są podzbiorem reguł przekaźnika węzła i definiują cechy, które musi spełniać niepotwierdzona transakcja, aby mogła zostać zaakceptowana w Mempool;
+- zasady mempoola: stanowią podzbiór zasad przekazywania węzła i określają cechy, które musi spełniać niepotwierdzona transakcja, aby została zaakceptowana do mempoola;
 - perkolacja transakcji: z powodu różnych czynników dana transakcja mogła zostać rozesłana do jednej części sieci, ale nie dotarła jeszcze do innej.
 
 
@@ -3135,10 +3135,10 @@ Kilka innych plików na tym samym poziomie co `blocks/`, `chainstate/` i `indexe
 - Gdy węzeł jest wyłączony, `anchors.dat` zapisuje adresy wychodzących peerów, dzięki czemu można szybko spróbować skontaktować się z nimi ponownie przy następnym uruchomieniu.
 - `banlist.json` zawiera lokalne bany ustalone przez operatora lub przez węzeł (powtarzające się nieprawidłowe zachowanie), aby uniemożliwić węzłowi ponowne łączenie się lub akceptowanie połączeń od tych konkretnych peerów.
 - `fee_estimates.dat` przechowuje statystyki horyzontu czasowego obserwowanych potwierdzeń, wykorzystywane przez estymator opłat do proponowania stawek opłat zgodnych z celami opóźnień wybranymi podczas tworzenia transakcji.
-- gW-446.conf` zawiera parametry konfiguracyjne węzła. To tutaj można dostosować reguły przekaźnika. Więcej na ten temat opowiem w następnym rozdziale.
+- `bitcoin.conf` zawiera parametry konfiguracyjne twojego węzła. To właśnie w tym pliku można dostosować zasady przekazywania. Omówię to bardziej szczegółowo w następnym rozdziale;
 - `settings.json` zawiera dodatkowe parametry do `Bitcoin.conf`.
 - `debug.log` jest diagnostycznym dziennikiem tekstowym, który może być użyty do zrozumienia aktywności węzła w przypadku wystąpienia błędu.
-- gW-448.pid` przechowuje identyfikator procesu w czasie wykonywania, umożliwiając innym aplikacjom lub skryptom łatwą identyfikację bitcoind (*Bitcoin daemon*) i interakcję z nim w razie potrzeby. Jest on tworzony podczas uruchamiania węzła i usuwany podczas jego zamykania.
+- `bitcoind.pid` zapisuje identyfikator procesu podczas działania, co umożliwia innym aplikacjom lub skryptom łatwe zidentyfikowanie Bitcoind (*Bitcoin Daemon*) i interakcję z nim w razie potrzeby. Plik jest tworzony przy uruchomieniu węzła i usuwany przy jego zatrzymaniu;
 - `ip_asn.map` to tabela mapowania IP → ASN (system autonomiczny) używana do bucketingu i dywersyfikacji peerów (opcja `-asmap`).
 - `onion_v3_private_key` przechowuje klucz prywatny usługi Tor v3, gdy włączona jest opcja `-listenonion`, w celu utrzymania stabilnego onion Address pomiędzy restartami.
 - `i2p_private_key` przechowuje klucz prywatny I2P, gdy używany jest `-i2psam=`, do nawiązywania połączeń wychodzących i ewentualnie przychodzących na I2P.
@@ -3154,9 +3154,9 @@ Jak widzieliśmy w pierwszych częściach tego kursu BTC 202, Bitcoin core jest 
 
 
 
-- `wallets/` jest domyślnym katalogiem, w którym znajduje się jeden lub więcej portfeli;
+- `wallets/` to domyślny katalog, który przechowuje jeden lub więcej portfeli;
 - `wallets/<nazwa>/Wallet.dat` to baza danych SQLite Wallet (klucze, deskryptory, metadane transakcji itp.);
-- wallets/<nazwa>/Wallet.dat-journal` jest dziennikiem wycofania SQLite.
+- `wallets/<name>/wallet.dat-journal` to dziennik wycofywania SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ Na poziomie sieci mamy również:
 
 
 - `addnode`: dodaje przyjaznego peera do kontaktu oprócz zwykłego wykrywania (może być określony kilka razy).
-- connect`: ściśle ogranicza połączenia do dostarczonego Address (można podać kilka razy). Core nie połączy się z żadnym innym węzłem.
+- `connect`: ściśle ogranicza połączenia do podanego adresu (można określić wielokrotnie). Core nie połączy się z żadnym innym węzłem;
 - `seednode`: jest używany tylko do wypełnienia księgi Address podczas łączenia się z węzłem, a następnie rozłącza się.
 - `maxconnections`: definiuje globalny limit połączeń przychodzących i wychodzących. Domyślnie parametr ten jest ustawiony na 125, co oznacza, że węzeł nigdy nie zaakceptuje więcej niż 125 połączeń.
-- maxuploadtarget`: ogranicza przesyłanie danych w celu ograniczenia przepustowości w 24-godzinnym oknie. Ograniczenie to nie poświęca propagacji istotnych ostatnich Elements.
+- `maxuploadtarget` : ogranicza przesyłanie w celu zmniejszenia wykorzystania przepustowości w ruchomym 24-godzinnym oknie. Ten limit nie ogranicza propagacji niezbędnych, niedawnych elementów;
 - `onlynet`: ogranicza połączenia wychodzące tylko do wybranych sieci (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Na przykład, jeśli chcesz, aby twój węzeł łączył się z siecią Bitcoin tylko przez Tor, możesz włączyć parametr `onlynet=onion` i wyłączyć połączenia przychodzące (lub zezwolić na połączenia tylko przez Tor).
 - `dnsseed`: zezwala lub nie zezwala _DNS seeds_ na żądanie peerów, gdy lokalna pula Address jest niska (domyślnie: `1`, chyba że `-connect` lub `-maxconnections=0`).
 - `forcednsseed`: wymusza żądanie _DNS seeds_ przy starcie, nawet jeśli masz już adresy w magazynie (domyślnie: `0`).
@@ -3362,7 +3362,7 @@ Aby w pełni włączyć obsługę Tora, należy zmusić Bitcoin core do korzysta
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Oto podstawowe parametry, które można modyfikować w pliku `Bitcoin.conf` doty
 
 
 
-- blocksonly=1`: Wyłącza akceptację i retransmisję niepotwierdzonych transakcji otrzymanych od peerów (chyba że przyznano specjalne uprawnienia). Węzeł teraz tylko przesyła i reklamuje bloki. Transakcje utworzone lokalnie mogą być nadal transmitowane (aby używać węzła z oprogramowaniem Wallet). To znacznie zmniejsza zapotrzebowanie na przepustowość i pamięć RAM, aczkolwiek kosztem zmniejszonej użyteczności dla przekaźnika i całkowitej nieznajomości Mempool.
+- `blocksonly=1` : Wyłącza przyjmowanie i przekazywanie niepotwierdzonych transakcji otrzymanych od peerów (z wyjątkiem specjalnych uprawnień). Węzeł pobiera i ogłasza tylko bloki. Transakcje utworzone lokalnie mogą nadal być rozgłaszane (aby używać węzła z oprogramowaniem portfela). To znacznie zmniejsza zużycie przepustowości i pamięci RAM, kosztem mniejszej użyteczności w przekazywaniu i całkowitej nieznajomości mempoolu.
 
 
 
@@ -3448,7 +3448,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- datacarrier=1`: Pozwala na przekazywanie i (jeśli Mining przez węzeł) włączanie transakcji niosących dane niefinansowe przez wyjście `OP_RETURN` (domyślnie: `1`). Wyłączenie tego parametru nieznacznie zmniejsza powierzchnię spamu danych niefinansowych, kosztem zmniejszonej kompatybilności z niektórymi zastosowaniami. We wszystkich przypadkach należy zaakceptować wydobywane `OP_RETURN`.
+- `datacarrier=1` : Zezwala na przekazywanie i (w przypadku kopania przez węzeł) uwzględnianie transakcji zawierających dane niefinansowe za pośrednictwem wyjścia `OP_RETURN` (domyślnie: `1`). Wyłączenie tego parametru nieznacznie zmniejsza powierzchnię spamu danymi niefinansowymi kosztem mniejszej kompatybilności z niektórymi zastosowaniami. We wszystkich przypadkach należy akceptować wykopane `OP_RETURN`.
 
 
 
@@ -3490,13 +3490,13 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- peerbloomfilters=1`: Włącz obsługę filtrów Blooma (BIP37), aby serwować przefiltrowane bloki/transakcje do cienkich klientów (domyślnie: `0`). Ostrzeżenie: zwiększa to obciążenie zasobów.
+- `peerbloomfilters=1` : Aktywuje obsługę filtrów Blooma (BIP37), aby dostarczać przefiltrowane bloki/transakcje lekkim klientom (domyślnie: `0`). Uwaga, zwiększa to obciążenie zasobów.
 
 
 
 
 
-- peerblockfilters=1`: Serwuje kompaktowe filtry BIP157 (*Neutrino*) do peerów (domyślnie: `0`).
+- `peerblockfilters=1` : Dostarcza kompaktowe filtry BIP157 (*Neutrino*) peerom (domyślnie: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Można również dostosować sposób zarządzania portfelami w pliku `Bitcoin.co
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Określa format adresów generowanych przez Wallet do odbioru.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Określa format adresów generowanych przez portfel do odbioru.
 
 
 
@@ -3568,7 +3568,7 @@ Można również dostosować sposób zarządzania portfelami w pliku `Bitcoin.co
 
 
 
-- fallbackfee=<amt>`: Stawka awaryjna (BTC/kvB) używana, gdy estymatorowi zabraknie danych (domyślnie: `0.00`). Ustawienie wartości 0 całkowicie wyłącza funkcję awaryjną.
+- `fallbackfee=<amt>` : Stawka opłaty awaryjnej (BTC/kvB) używana, gdy estymatorowi brakuje danych (domyślnie: `0.00`). Ustawienie na 0 całkowicie wyłącza tryb awaryjny.
 
 
 
@@ -3660,7 +3660,7 @@ Plik konfiguracyjny umożliwia również dostosowanie parametrów związanych z 
 
 
 
-- txindex=1`: Tworzy i utrzymuje globalny indeks potwierdzonych transakcji. Niezbędny dla niektórych zapytań (`getrawtransaction` nie-Wallet) i do celów eksploracyjnych, ale znacznie zwiększa obciążenie dysku. Niekompatybilne z trybem pruned.
+- `txindex=1` : Tworzy i utrzymuje globalny indeks potwierdzonych transakcji. Niezbędny dla niektórych zapytań (`getrawtransaction` poza portfelem) i do celów eksploracyjnych, ale znacznie zwiększa użycie dysku. Niezgodny z trybem przyciętym.
 
 
 

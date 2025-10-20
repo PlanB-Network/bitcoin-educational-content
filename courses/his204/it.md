@@ -1,35 +1,18 @@
 ---
 name: Le origini dell'economia del laissez-faire
-goal: esplorare i fondamenti del pensiero economico liberale francese del XVIII secolo, con particolare attenzione alla dottrina del laissez-faire, ai suoi principali pensatori e alla sua influenza duratura.
-objectives: 
-
-
-  - Acquisire una solida comprensione dei concetti chiave del pensiero economico liberale francese e della loro evoluzione nel corso del XVIII secolo
-  - Comprendere le argomentazioni sviluppate dai pensatori francesi contro l'interventismo statale
-  - Valutare l'impatto di questa scuola di pensiero francese e il suo ruolo nel plasmare lo sviluppo dell'economia politica globale
-  - Sviluppare una comprensione critica della continuità storica tra i diversi pensatori e le loro teorie
-
-
+goal: Esplora le fondamenta del pensiero economico liberale del XVIII secolo, con particolare attenzione alla dottrina del laissez-faire, ai suoi principali pensatori e alla sua influenza duratura.
+objectives:
+- Acquisire una solida comprensione dei concetti chiave del pensiero economico liberale e di come si sono evoluti durante il XVIII secolo
+- Comprendere gli argomenti che i pensatori hanno sviluppato contro l'interventismo statale
+- Valutare l'impatto del pensiero del laissez-faire nel plasmare lo sviluppo dell'economia politica globale
+- Esaminare la tensione tra teoria e pratica nell'implementazione dell'economia liberale
 ---
-
 # Un viaggio nella storia economica della libertà
 
+Questo corso esplora la nascita della scienza economica nella Francia del XVIII secolo attraverso la lente del laissez-faire. Scoprirai come i pensatori sfidarono il mercantilismo sostenendo che lo Stato dovrebbe proteggere i diritti privati, ma mai manipolare i mercati attraverso le regolamentazioni.
 
-
-All'inizio del XVIII secolo, in Francia, cominciò a prendere forma un nuovo modo di pensare l'economia. Si trattava di una risposta al pesante controllo dell'Ancien Régime e si incentrava su un'idea forte: *laissez-faire* - "lasciar fare".
-
-Si dice che la frase sia nata da una conversazione tra un mercante e il ministro Colbert. Alla domanda del ministro: "Cosa può fare il governo per aiutare la sua attività?", il commerciante rispose: "Lasci fare a noi".
-
-
-Da allora, molti pensatori hanno iniziato a sostenere questa idea, ritenendo che il ruolo del governo debba essere limitato. Dovrebbe proteggere i diritti individuali, ma evitare di intervenire negli affari economici, per paura di sconvolgere e distruggere tutto. In primo luogo, deve riscuotere le tasse in modo giusto ed equo (Vauban, Boisguilbert). Poi, deve astenersi dal manipolare la moneta, svalutandone il valore per finanziarsi a basso costo (Cantillon dopo il disastro di John Law; Dupont de Nemours prima di quello degli Assignats). Deve garantire la libertà di lavoro, abolire le corporazioni e i regolamenti onerosi sull'industria e sul commercio, che ostacolano il progresso economico (idee sostenute da d'Argenson, Gournay, i Fisiocratici e Turgot).
-
-
-
-Infine, lo Stato deve consentire la libera circolazione delle merci, il che ha portato alcuni ad aggiungere al laissez-faire l'espressione "laissez-passer", consentendo ai consumatori di acquistare al miglior prezzo e promuovendo la pace e la fratellanza tra le nazioni (Quesnay e i Fisiocratici, Abate di Saint-Pierre). Difendendo questo ideale di laissez-faire, gli economisti francesi del XVIII secolo gettarono le basi della scienza economica. Avendo dominato il loro tempo, hanno ancora il potere di guidare il nostro.
-
-
+Imparerai come i riformatori visionari estesero questa visione per chiedere il libero scambio e la libera circolazione delle merci, gettando le fondamenta intellettuali del capitalismo moderno. Studiando questi economisti pionieri, comprenderai i principi senza tempo che hanno plasmato l'economia politica globale e continuano a influenzare i dibattiti politici odierni. Iscriviti ora per padroneggiare le idee che hanno costruito l'economia moderna.
 +++
-
 # Introduzione
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

@@ -30,6 +30,8 @@ Théo; Contribuição
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Objetivo: atualização!**
 
 Bem-vindos a todos a este programa de ensino dedicado à segurança digital. Este treinamento foi projetado para ser acessível a todos, portanto, nenhum conhecimento prévio em informática é necessário. Nosso objetivo principal é fornecer a você o conhecimento e as habilidades necessárias para navegar de forma mais segura e privada no mundo digital.
@@ -85,6 +87,8 @@ Pronto para fortalecer sua segurança digital e retomar o controle de seus dados
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Ao navegar na internet, é importante evitar alguns erros comuns para preservar sua segurança online. Aqui estão algumas dicas para evitá-los:
 
 ### Cuidado com o download de softwares:
@@ -129,6 +133,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPNs
 
 A proteção da sua conexão com a internet é um aspecto crucial da segurança online, e o uso de redes virtuais privadas (VPNs) é um método eficaz para melhorar essa segurança, tanto para empresas quanto para usuários individuais.
@@ -169,6 +175,8 @@ Em resumo, o uso de VPN pode melhorar significativamente a segurança online, ta
 ## Uso do computador
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 A segurança de nossos computadores é uma questão importante no mundo digital atual. Hoje, abordaremos três pontos-chave:
 
@@ -221,6 +229,8 @@ Em conclusão, é fundamental optar por um sistema operacional adequado às suas
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Como os hackers atacam?
 
 Para se proteger adequadamente, é fundamental entender como os hackers tentam infiltrar seu computador. Na verdade, os vírus não aparecem do nada, mas são mais frequentemente consequências de nossas ações, mesmo que involuntárias!
@@ -269,6 +279,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### Configurar uma nova caixa de correio eletrónico!
 
 A caixa de correio é o ponto central da sua atividade online: se for comprometida, um hacker pode utilizá-la para recriar todas as suas palavras-passe através da função "palavra-passe esquecida" e, assim, obter acesso a muitos outros sites. É por isso que é necessário mantê-la segura.
@@ -302,6 +314,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## Gerenciador de senhas
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### O que é um gerenciador de senhas?
 
@@ -351,6 +365,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## Autenticação de 2 fatores
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Por que implementar o 2FA
 
@@ -481,6 +497,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 A cibersegurança, um campo em pleno crescimento, oferece uma infinidade de oportunidades para aqueles apaixonados pela proteção de sistemas e dados. Se essa indústria te intriga, aqui estão alguns passos-chave para se orientar.
 
 ### Fundações acadêmicas e certificações:
@@ -516,6 +534,8 @@ Dominando essas habilidades e ferramentas, você estará bem equipado para naveg
 ## Entrevista com Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Gestão eficaz de senhas e fortalecimento da autenticação: uma abordagem acadêmica
 

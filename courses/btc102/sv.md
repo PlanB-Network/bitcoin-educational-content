@@ -38,6 +38,8 @@ Den här kursen är utformad för att ge dig full kontroll över hur du lär dig
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Välkommen till BTC102! Om du redan har slutfört BTC101 har du utforskat de viktigaste teoretiska begreppen bakom varför Bitcoin är en sådan revolutionerande teknik. Nu, med BTC102, är det dags att omsätta den kunskapen i handling. Den här kursen är utformad för att hjälpa dig att bygga din personliga Bitcoin-plan, steg för steg.
 

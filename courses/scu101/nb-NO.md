@@ -30,6 +30,8 @@ Théo; bidrag
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Mål: Oppdater dine sikkerhetsferdigheter!**
 
 Velkommen til dette introduksjonskurset i digital sikkerhet. Denne opplæringen er designet for å være tilgjengelig for alle, så forkunnskaper i datavitenskap er ikke nødvendig. Vårt hovedmål er å gi dere kunnskapen og ferdighetene som er nødvendige for å navigere i den digitale verden på en tryggere og mer privat måte.
@@ -85,6 +87,8 @@ KEr du klar til å styrke din digitale sikkerhet og ta tilbake kontrollen over d
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Når du surfer på internett, er det viktig å unngå visse vanlige feil for å bevare nettsikkerheten din. Her er noen tips for å unngå dem:
 
 ### Vær forsiktig med nedlastinger av programvare:
@@ -129,6 +133,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPN-er
 
 Å beskytte internettforbindelsen din er et avgjørende aspekt for din nettsikkerhet, og bruk av virtuelle private nettverk (VPN-er) er en effektiv metode for å forbedre denne sikkerheten, både for bedrifter og individuelle brukere.
@@ -170,6 +176,8 @@ Oppsummert kan bruk av VPN i stor grad forbedre online sikkerhet, både for bedr
 ## Datamaskinbruk
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Sikkerheten til våre datamaskiner er en stor bekymring i dagens digitale verden. I dag vil vi ta for oss tre nøkkelpunkter:
 
@@ -221,6 +229,8 @@ For å konkludere så er det essensielt å velge et operativsystem som passer di
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Hvordan angriper hackere?
 
 For å beskytte deg godt, er det essensielt å forstå hvordan hackere forsøker å infiltrere datamaskinen din. Viruser dukker ikke opp på magisk vis, men er heller konsekvensene av våre handlinger, selv utilsiktet!
@@ -269,6 +279,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### Opprette en ny e-postkonto!
 
 E-postkontoen er senteret i din nettaktivitet: hvis den blir kompromittert, kan en hacker bruke den til å tilbakestille alle passordene dine via "glemt passord"-funksjonen og få tilgang til mange andre nettsteder. Derfor er det viktig å sikre den ordentlig.
@@ -302,6 +314,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## Passordbehandler
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Hva er en passordbehandler?
 
@@ -350,6 +364,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## To-Faktor Autentisering (2FA)
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Hvorfor implementere 2FA
 
@@ -481,6 +497,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 ### Cybersikkerhet: Et voksende felt med uendelige muligheter
 
 Hvis du er lidenskapelig opptatt av å beskytte systemer og data, tilbyr feltet innen cybersikkerhet en mengde muligheter. Hvis denne industrien er noe som interesserer deg, her er noen nøkkelsteg for å veilede deg.
@@ -518,6 +536,8 @@ Ved å mestre disse ferdighetene og verktøyene, vil du være godt rustet til å
 ## Intervju med Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Effektiv passordhåndtering og styrking av autentisering: En akademisk tilnærming
 

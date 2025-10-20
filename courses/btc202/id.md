@@ -410,7 +410,7 @@ Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin core. Sisa j
 
 
 
-Bitcoin core ditulis dalam bahasa C++. Proyek ini juga merupakan proyek sumber terbuka yang dikelola oleh komunitas pengembang yang menjadi sukarelawan atau dibayar oleh berbagai entitas (sering kali oleh perusahaan dalam ekosistem yang memiliki kepentingan dalam pengembangan Core). [Kode dihosting di GitHub] (https://github.com/Bitcoin/Bitcoin), dan pengembangannya mengikuti standar yang ketat:
+Bitcoin Core adalah perangkat lunak yang ditulis dalam C++. Ini juga merupakan proyek sumber terbuka yang dikelola oleh komunitas pengembang — baik sukarelawan maupun yang didanai oleh berbagai entitas (sering kali perusahaan dalam ekosistem yang berkepentingan agar pengembangan Core berjalan dengan baik). [Kode di-host di GitHub](https://github.com/bitcoin/bitcoin), dan pengembangannya mengikuti model yang ketat:
 
 
 
@@ -448,7 +448,7 @@ Kami juga dapat menyebutkan:
 
 - Libbitcoin**: sebuah pustaka C++ modular yang dikembangkan oleh Amir Taaki dan dikelola oleh Eric Voskuil;
 - Bcoin**: implementasi JavaScript, tidak lagi dikelola secara aktif;
-- BTCD/btcsuit**e: sebuah implementasi di Go.
+- **BTCD/btcsuite** : sebuah implementasi dalam Go.
 
 
 
@@ -2941,7 +2941,7 @@ Ketika node Anda telah menyelesaikan sinkronisasi awal, node akan menyimpan bebe
 
 
 
-- gW-402 **blok** yang disimpan pada disk,
+- **blok** blockchain yang disimpan di disk,
 - set **UTXO** yang disimpan dalam basis data nilai kunci,
 - dan **Mempool** disimpan dalam RAM dan diserialisasikan secara berkala.
 
@@ -3093,7 +3093,7 @@ Mempool adalah kumpulan lokal dari transaksi valid yang telah diterima tetapi be
 
 
 - ukuran yang dialokasikan ke Mempool melalui parameter `maxmempool`: node dengan Mempool yang lebih besar akan dapat menampung lebih banyak transaksi daripada node dengan Mempool yang lebih kecil (kecuali jika node yang terakhir menjadi kosong);
-- aturan gW-433: ini adalah bagian dari aturan relai node dan mendefinisikan karakteristik yang harus dipenuhi oleh transaksi yang belum dikonfirmasi agar dapat diterima di Mempool;
+- aturan mempool: merupakan subset dari aturan perantara node dan menentukan karakteristik yang harus dipenuhi oleh transaksi yang belum dikonfirmasi agar diterima ke dalam mempool;
 - perembesan transaksi: karena berbagai faktor, transaksi tertentu mungkin telah didistribusikan ke satu bagian jaringan, tetapi belum mencapai bagian lain.
 
 
@@ -3135,10 +3135,10 @@ Beberapa file lain pada tingkat yang sama dengan `blocks/`, `chainstate/`, dan `
 - Ketika node dimatikan, `anchors.dat` menyimpan alamat rekan-rekan yang keluar, sehingga Anda dapat mencoba menghubungi mereka lagi dengan cepat pada saat Anda memulai lagi.
 - `banlist.json` berisi larangan lokal yang diputuskan oleh operator atau oleh node (perilaku tidak valid yang berulang), untuk mencegah node menyambung kembali atau menerima koneksi dari rekan-rekan tertentu.
 - `fee_estimates.dat` menyimpan statistik horizon waktu pada konfirmasi yang diamati, yang digunakan oleh estimator biaya untuk mengusulkan tarif biaya yang konsisten dengan tujuan penundaan yang dipilih saat membuat transaksi.
-- gW-446.conf` berisi parameter konfigurasi node Anda. Di sinilah Anda dapat menyesuaikan aturan relai. Saya akan menjelaskan lebih lanjut tentang hal ini di bab berikutnya.
+- `bitcoin.conf` berisi parameter konfigurasi node Anda. Dalam file inilah aturan perantara dapat disesuaikan. Saya akan membahasnya lebih detail di bab berikutnya;
 - `settings.json` berisi parameter tambahan untuk `Bitcoin.conf`.
 - `debug.log` adalah log teks diagnostik, yang dapat digunakan untuk memahami aktivitas node jika terjadi bug.
-- gW-448.pid` menyimpan pengidentifikasi proses pada saat runtime, memungkinkan aplikasi atau skrip lain untuk dengan mudah mengidentifikasi bitcoind (* Bitcoin daemon *) dan berinteraksi dengannya jika perlu. Ini dibuat saat startup node dan dihapus saat dimatikan.
+- `bitcoind.pid` mencatat ID proses selama eksekusi, memungkinkan aplikasi atau skrip lain untuk dengan mudah mengidentifikasi Bitcoind (*Bitcoin Daemon*) dan berinteraksi dengannya jika diperlukan. File ini dibuat saat node dijalankan dan dihapus saat node berhenti;
 - `ip_asn.map` adalah tabel pemetaan IP → ASN (sistem mandiri) yang digunakan untuk bucketing dan diversifikasi peer (opsi `-asmap`).
 - `onion_v3_private_key` menyimpan kunci privat dari layanan Tor v3 ketika opsi `-listenonion` diaktifkan, untuk menjaga kestabilan onion Address di antara proses reboot.
 - `i2p_private_key` menyimpan kunci privat I2P ketika `-i2psam=` digunakan, untuk membuat koneksi keluar dan mungkin masuk pada I2P.
@@ -3154,9 +3154,9 @@ Seperti yang telah kita lihat di bagian pertama kursus BTC 202 ini, Bitcoin core
 
 
 
-- `dompet/` adalah direktori default yang menampung satu atau lebih;
+- `wallets/` adalah direktori default yang menampung satu atau lebih dompet;
 - `wallets/<name>/Wallet.dat` adalah basis data SQLite dari Wallet (kunci, deskriptor, metadata transaksi, dll.);
-- wallet/<name>/Wallet.dat-journal` adalah log rollback SQLite.
+- `wallets/<name>/wallet.dat-journal` adalah jurnal rollback SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ Di tingkat jaringan, kami juga memiliki:
 
 
 - `addnode`: menambahkan teman sebaya ke kontak selain penemuan biasa (dapat ditentukan beberapa kali).
-- connect`: secara ketat membatasi koneksi ke Address yang disediakan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain.
+- `connect`: secara ketat membatasi koneksi ke alamat yang diberikan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain;
 - `seednode`: hanya digunakan untuk mengisi buku-Address saat menyambung ke node, kemudian memutuskan sambungan.
 - `maxconnections`: mendefinisikan batas atas global untuk koneksi masuk + keluar. Secara default, parameter ini disetel ke 125, yang berarti bahwa node Anda tidak akan pernah menerima lebih dari 125 koneksi.
-- maxuploadtarget`: membatasi unggahan untuk membatasi bandwidth selama 24 jam. Pembatasan ini tidak mengorbankan penyebaran Elements terbaru yang penting.
+- `maxuploadtarget` : membatasi unggahan untuk mengendalikan bandwidth dalam jangka waktu bergulir 24 jam. Batas ini tidak mengorbankan penyebaran elemen penting yang baru;
 - `onlynet`: membatasi koneksi keluar hanya pada jaringan tertentu (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Sebagai contoh, jika Anda ingin node Anda terhubung ke jaringan Bitcoin hanya melalui Tor, Anda dapat mengaktifkan parameter `onlynet=onion` dan menonaktifkan koneksi yang masuk (atau hanya mengizinkan koneksi melalui Tor juga).
 - dnsseed`: mengizinkan atau melarang _DNS seeds_ untuk meminta peer ketika pool Address lokal Anda rendah (default: `1`, kecuali `-connect` atau `-maxconnections=0`).
 - `forcednsseed`: memaksa _DNS seeds_ untuk diminta pada saat startup, bahkan jika Anda sudah memiliki stok alamat (default: `0`).
@@ -3362,7 +3362,7 @@ Untuk sepenuhnya mendukung Tor, Anda perlu memaksa Bitcoin core untuk hanya meng
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `dengarkan=1`,
-- bind = 127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Berikut ini adalah parameter dasar yang dapat Anda modifikasi pada `Bitcoin.conf
 
 
 
-- blocksonly=1`: Menonaktifkan penerimaan dan pengiriman ulang transaksi yang belum dikonfirmasi yang diterima dari rekan-rekan (kecuali jika izin khusus diberikan). Node sekarang hanya mengunggah dan mengiklankan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak Wallet). Hal ini sangat mengurangi kebutuhan bandwidth dan RAM, meskipun dengan biaya berkurangnya kegunaan relay dan ketidaktahuan total dengan Mempool.
+- `blocksonly=1` : Menonaktifkan penerimaan dan penerusan transaksi yang belum dikonfirmasi dari rekan (kecuali dengan izin khusus). Node hanya mengunduh dan mengumumkan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak dompet Anda). Ini sangat mengurangi penggunaan bandwidth dan kebutuhan RAM dengan mengorbankan kegunaan relay dan tanpa pengetahuan tentang mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- datacarrier=1`: Memungkinkan pengiriman ulang dan (jika Mining melalui node) penyertaan transaksi yang membawa data non-keuangan melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini akan sedikit mengurangi area permukaan untuk spam data non-keuangan, dengan mengorbankan kompatibilitas yang lebih rendah dengan penggunaan tertentu. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang ditambang.
+- `datacarrier=1` : Mengizinkan relay dan (jika menambang melalui node) penyertaan transaksi yang membawa data non-keuangan melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini sedikit mengurangi potensi spam data non-keuangan dengan mengorbankan kompatibilitas dengan beberapa penggunaan. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang ditambang.
 
 
 
@@ -3490,13 +3490,13 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- peerbloomfilters=1`: Aktifkan dukungan untuk filter Bloom (BIP37) untuk menyajikan blok/transaksi yang telah difilter ke thin client (default: `0`). Peringatan: hal ini akan meningkatkan beban pada sumber daya Anda.
+- `peerbloomfilters=1` : Mengaktifkan dukungan untuk filter Bloom (BIP37) guna melayani blok/transaksi yang difilter ke klien ringan (default: `0`). Perhatian, ini meningkatkan beban pada sumber daya Anda.
 
 
 
 
 
-- peerblockfilters=1`: Menyajikan filter ringkas BIP157 (*Neutrino*) ke rekan-rekan (default: `0`).
+- `peerblockfilters=1` : Menyediakan filter kompak BIP157 (*Neutrino*) ke rekan (default: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Anda juga dapat mengatur cara pengelolaan wallet Anda dalam file `Bitcoin.conf`.
 
 
 
-- addresstype = <legacy|P2SH-SegWit|bech32|bech32m>`: Menentukan format alamat yang dihasilkan Wallet untuk penerimaan.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Menentukan format alamat yang dihasilkan oleh dompet untuk penerimaan.
 
 
 
@@ -3568,7 +3568,7 @@ Anda juga dapat mengatur cara pengelolaan wallet Anda dalam file `Bitcoin.conf`.
 
 
 
-- fallbackfee=<amt>`: Tingkat fallback (BTC/kvB) yang digunakan jika estimator kehabisan data (default: `0.00`). Mengaturnya ke 0 akan menonaktifkan fallback sepenuhnya.
+- `fallbackfee=<amt>` : Tarif cadangan (BTC/kvB) yang digunakan jika estimator kekurangan data (default: `0.00`). Mengaturnya ke 0 akan menonaktifkan fallback sepenuhnya.
 
 
 
@@ -3660,7 +3660,7 @@ File konfigurasi juga memungkinkan Anda untuk menyesuaikan parameter yang terkai
 
 
 
-- txindex=1`: Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk kueri tertentu (`getrawtransaction` non-Wallet) dan untuk tujuan eksplorasi, tetapi secara signifikan meningkatkan jejak disk. Tidak kompatibel dengan mode pruned.
+- `txindex=1` : Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk beberapa permintaan (`getrawtransaction` di luar dompet) dan untuk keperluan eksplorasi, tetapi secara signifikan meningkatkan penggunaan disk. Tidak kompatibel dengan mode terpangkas.
 
 
 

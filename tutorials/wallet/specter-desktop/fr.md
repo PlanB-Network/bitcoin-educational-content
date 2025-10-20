@@ -59,13 +59,13 @@ Dans le menu de gauche, cliquez sur "Add device" pour ajouter votre hardware wal
 
 Specter Desktop supporte de nombreux hardware wallets : Trezor, Ledger, BitBox02, Coldcard, KeepKey, Keystone, Cobo Vault, et bien d'autres.
 
-N'hésitez pas à consulter nos tutoriels dédiés aux différents hardware wallets si vous souhaitez en apprendre d'avantages.
+N’hésitez pas à consulter nos tutoriels dédiés aux différents hardware wallets si vous souhaitez en apprendre davantage.
 
 ![Sélection du type de hardware wallet](assets/fr/06.webp)
 
 Sélectionnez votre hardware wallet. Dans cet exemple, nous utilisons un Coldcard MK4. 
 
-Vous trouvez ci-dessous notre tutoriel concernant ce hardware wallet : 
+Vous trouverez ci-dessous notre tutoriel concernant ce hardware wallet : 
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
@@ -141,7 +141,7 @@ https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-Ajoutez le Passport en nommant le hardware wallet (par exemple "Passport multi") et en important ses clés via carte microSD ou QR code. Puis cliquer sur "Continue" pour passer à la suite.
+Ajoutez le Passport en nommant le hardware wallet (par exemple "Passport multi") et en important ses clés via carte microSD ou QR code. Puis cliquez sur "Continue" pour passer à la suite.
 
 ![Ajout du Passport](assets/fr/23.webp)
 
@@ -213,7 +213,7 @@ Gravez vos phrases de récupération sur des plaques métalliques résistantes a
 
 Vérifiez toujours adresses et montants sur l'écran de vos hardware wallets avant validation pour vous protéger contre les malwares.
 
-Conservez les sauvegardes PDF séparément de vos seeds. Ces descripteurs publics peuvent être stockés dans un coffre bancaire ou cloud chiffré, facilitant la récupération sans exposer vos clés privées.
+Conservez les sauvegardes PDF séparément de vos seeds. Ces descripteurs publics peuvent être stockés dans un coffre bancaire ou dans un cloud chiffré, facilitant la récupération sans exposer vos clés privées.
 
 Testez la récupération sur des montants symboliques avant d'utiliser vos portefeuilles avec des fonds importants. Créez, testez, effacez et restaurez pour valider vos procédures.
 
@@ -247,9 +247,9 @@ Si vous souhaitez également utiliser vos hardware wallets USB depuis votre ordi
 
 ## Conclusion
 
-Specter Desktop démocratise les configurations Bitcoin avancées en rendant le multisignature accessible sans sacrifier souveraineté ni confidentialité. Pour les utilisateurs gérant des montants significatifs, il transforme des pratiques institutionnelles en solutions déployables par des particuliers.
+Specter Desktop démocratise les configurations Bitcoin avancées en rendant le multisignature accessible sans sacrifier ni votre souveraineté ni votre confidentialité. Pour les utilisateurs gérant des montants significatifs, il transforme des pratiques institutionnelles en solutions déployables par des particuliers.
 
-Bien que l'application exige un investissement initial en infrastructure et apprentissage, elle offre une souveraineté complète : contrôle de l'infrastructure de validation, détention physique des clés, et transactions libres de toute surveillance tierce. Que vous soyez un particulier sécurisant son épargne, une famille créant un coffre multigénérationnel, ou une entreprise gérant une trésorerie, Specter Desktop constitue l'outil de référence pour concilier sécurité maximale et souveraineté absolue.
+Bien que l'application exige un investissement initial en infrastructure et en apprentissage, elle offre une souveraineté complète : contrôle de l'infrastructure de validation, détention physique des clés, et transactions libres de toute surveillance tierce. Que vous soyez un particulier sécurisant son épargne, une famille créant un coffre multigénérationnel, ou une entreprise gérant une trésorerie, Specter Desktop constitue l'outil de référence pour concilier sécurité maximale et souveraineté absolue.
 
 ## Ressources
 

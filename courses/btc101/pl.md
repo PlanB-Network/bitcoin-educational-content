@@ -821,7 +821,7 @@ Dowód Pracy, z angielskiego znany również jako „Proof of Work” (POW), jes
 Pomyśl o tym jako o gigantycznej loterii, w której każdy może wziąć udział. Celem jest znalezienie określonej liczby, która umożliwi podpisanie ważnego bloku, a zwycięzca otrzymuje nagrodę w bitcoinach. Ta liczba jest bardzo prosta do zweryfikowania za pomocą funkcji hasza SHA-256, ale trudna do znalezienia - uczestnicy (górnicy) wypróbowują miliardy miliardów możliwości, takich jak 1, 52, 2648, 26874615, 15344854131318631 itd., zanim znajdą właściwy numer. 
 
 Jeśli wybrana liczba jest poprawna: Oczko! W przeciwnym razie, poszukiwania trwają. Aby zoptymalizować liczbę prób, używa się specjalnych maszyn zwanych ASIC, których jedyną funkcją jest obliczanie miliardów możliwości na sekundę. Całkowita liczba prób nazywana jest prędkością haszowania (ang. HashRate) i pozwala na kwantyfikację bezpieczeństwa protokołu Bitcoin. Do obsługi tych maszyn zużywane są duże ilości energii elektrycznej. W związku z tym, POW przekształca energię w walutę, łącząc świat rzeczywisty i cyfrowy, aby stworzyć pierwszą walutę opartą na energii.
-Maszyny pracują, a po średnio 10 minutach, pojawia się zwycięzca, który znalazł poprawny hasz poniżej progu trudności. Wielki i jedyny zwycięzca następnie podpisuje nowy blok na serwerze stempla czasowego i dodaje go do łańcucha bloków. Zwycięzca otrzymuje swoje nagrody i wraca, aby spróbować szczęścia przy następnym bloku. Proces ten powtarza się od ponad 10 lat - co 10 minut, zwycięzca potwierdza transakcje Bitcoin, jednocześnie zabezpieczając poprzednie transakcje. Sprawia to, że łańcuch bloków Bitcoin staje się coraz mocniejszy i bezpieczniejszy.
+Maszyny pracują, a po średnio 10 minutach, pojawia się zwycięzca, który znalazł poprawny hasz poniżej progu trudności. Wielki i jedyny zwycięzca następnie podpisuje nowy blok na serwerze stempla czasowego i dodaje go do łańcucha bloków. Zwycięzca otrzymuje swoje nagrody i wraca, aby spróbować szczęścia przy następnym bloku. Proces ten powtarza się od ponad 10 lat - co 10 minut, zwycięzca potwierdza transakcje Bitcoin, jednocześnie zabezpieczając poprzednie transakcje. Sprawia to, że łańcuch bloków Bitcoina staje się coraz mocniejszy i bezpieczniejszy.
 
 Co 2016 bloków (około 2 tygodnie), **dostosowanie poziomu trudności** wyrównuje globalną grę wydobywczą w oparciu o liczbę uczestników. Ten mechanizm jest konieczny do utrzymania stałego czasu wydobywania bloków, ponieważ liczba górników i ogólna moc ich sprzętów może znaczenie zmieniać się w czasie. Sieć kalibruje poziom trudności na podstawie czasu wydobycia poprzednich 2016 bloków. Jeśli wydobyto je zbyt szybko, poziom trudności wzrasta, aby trudniej było znaleźć poprawny hasz. Jeśli wydobyto je zbyt wolno, poziom trudności maleje.
 
@@ -833,7 +833,7 @@ Na przestrzeni lat, górnicy wyposażali się w coraz bardziej wydajny sprzęt k
 
 ![image](assets/en/56.webp)
 
-Prędkość haszowania sieci Bitcoin reprezentuje liczbę prób wykonanych na sekundę, aby znaleźć następny blok. Dzisiaj przekracza już 500 TH/s, co oznacza 500 000 miliardów prób na sekundę! Im wyższa globalna prędkość haszowania, tym trudniej jest złośliwcom zmonopolizować zasoby potrzebne do uzyskania większości mocy wydobywczej i dokonywania podwójnego wydatkowania (wydawania tej samej kwoty więcej niz jeden raz - przyp.tłum.). Dlatego bardziej opłacalne finansowo jest przestrzeganie zasad protokołu Bitcoin niż działanie przeciwko niemu.
+Prędkość haszowania sieci Bitcoin reprezentuje liczbę prób wykonanych na sekundę, aby znaleźć następny blok. Dzisiaj przekracza już 500 TH/s, co oznacza 500 000 miliardów prób na sekundę! Im wyższa globalna prędkość haszowania, tym trudniej jest złośliwcom zmonopolizować zasoby potrzebne do uzyskania większości mocy wydobywczej i dokonywania podwójnego wydatkowania (wydawania tej samej kwoty więcej niz jeden raz - przyp.korekt.). Dlatego bardziej opłacalne finansowo jest przestrzeganie zasad protokołu Bitcoin niż działanie przeciwko niemu.
 
 ![image](assets/en/57.webp)
 
@@ -890,7 +890,7 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 W poprzedniej sekcji zobaczyliśmy, że bezpieczeństwo protokołu Bitcoin opiera się na wysokim koszcie energetycznym, aby wyprodukować publiczną księgę transakcji bez zaufanej strony trzeciej. Całkowity koszt energetyczny jest często porównywany do zużycia elektryczności małego kraju. Ale czy to porównanie ma sens? Czy jest to istotne dla zrozumienia przyczyn takiego kosztu?
 
-### Koszty energetyczne Bitcoina.
+### Koszty energetyczne Bitcoina
 
 Najpierw spróbujmy jakościowo ocenić środowiskowy koszt wydobycia. Górnik musi posiadać maszynę taką jak ASIC oraz źródło energii w postaci elektryczności, aby ją zasilać. ASIC-i są wykonane głównie z aluminium i mogą być albo zrecyklingowane, albo wykorzystane ponownie do innego celu (jak pokazano na przykładzie projektu Attakaï, opisanego w naszym kursie MIN 201, który przekształca Antminera S9 w grzejnik). Głównym problemem jest więc zużycie energii.
 
@@ -924,7 +924,7 @@ Obecny system finansowy jest zgodny z ideami keynesizmu które, w przeciwieństw
 
 ![image](assets/en/66.webp)
 
-Politycy, ze względu na swoją krótkoterminową wizję i potrzebę wykazania wzrostu gospodarczego przed ponownymi wyborami, nie są w stanie rozwiązać problemów ekologicznych na dłuższą metę. Wprowadzenie solidnej waluty, jaką jest Bitcoin, jest potencjalną alternatywą, która mogłaby umocnić sytuację ekonomiczną ludzi.
+Politycy, ze względu na swoją krótkoterminową wizję i potrzebę wykazania wzrostu gospodarczego przed ponownymi wyborami, nie są w stanie rozwiązać problemów ekologicznych na dłuższą metę. Wprowadzenie solidnej waluty, jaką jest bitcoin, jest potencjalną alternatywą, która mogłaby umocnić sytuację ekonomiczną ludzi.
 Politycy nie przyznają, że Bitcoin promuje wykorzystywanie zielonej energii. Dla przykładu, możnaby skończyć z praktyką spalania metanu w szybach naftowych dla uniknięcia katastrofy ekologicznej, ponieważ metan może być przekształcany w elektryczność do zasilania maszyn do kopania bitcoinów, co byłoby korzystne dla środowiska.
 
 
@@ -938,7 +938,7 @@ Satoshi Nakamoto opublikował protokół Bitcoin w styczniu 2009 roku, który od
 Blok jest tworzony średnio co 10 minut, a górnik, który znajdzie ważny hasz dla następnego bloku, jest nagradzany przez protokół nagrodą, której wysokość jest określona przez zasady konsensusu, jak również opłatami transakcyjnymi ze wszystkich transakcji zawartych w ważnym bloku. Ponieważ wynik algorytmu haszującego (SHA256) dla danego wejścia jest uznawany za nieprzewidywalny, proces wydobywania obejmuje budowanie licznych kandydujących bloków i testowanie, czy ich hasz jest ważny, czy nie. Jednakże aby zapewnić, że średni czas między dwoma blokami pozostaje stały (~10 min) niezależnie od liczby górników i ich mocy obliczeniowej, trudność znalezienia ważnego hasza dostosowuje się co 2016 bloków, co około 2 tygodnie. Górnicy z czasem opracowali specjalistyczne maszyny SHA256, zwane ASIC, aby zwiększyć szybkość haszowania na dżul, co oznacza liczbę prób na sekundę i na zużytą energię.
 Aby zyski z działalności górników mogły byc jak najwyższe, muszą oni pozyskać możliwie najtańszą elektryczność, która często znajduje się w odległych lokalizacjach, w elektrowniach, które nie są jeszcze podłączone do sieci. Górnik działa wtedy jako kupiec ostatniej instancji, i jak tylko cena elektryczności wzrasta z powodu wzrostu popytu, górnik dąży do przeniesienia swojej działalności gdzie indziej.
 
-Tak więc, protokół Bitcoin jest systemem monetarnym niepodlegającym cenzurze i niezatrzymywalnym, ponieważ każdy komponent protokołu jest rozproszony geograficznie po całym świecie - istnieje około 40 000 węzłów Bitcoina na wszystkich kontynentach. Zasady konsensusu Bitcoina są skonstruowane tak, że bardziej opłacalne ekonomicznie jest ich przestrzeganie niż próba ich złamania i dlatego zaufanie między poszczególnymi stronami nie jest wymagane. Bitcoin nie ma lidera i nie może być zatrzymany. Możliwe jest regulowanie platform wymiany, aby ograniczyć Bitcoina, ale ma to ograniczony wpływ na sieć. Krótko mówiąc, żaden sędzia ani państwo nie może cenzurować ani zatrzymać Bitcoina.
+Tak więc, Bitcoin jest systemem monetarnym niepodlegającym cenzurze i niezatrzymywalnym, ponieważ każdy komponent protokołu jest rozproszony geograficznie po całym świecie - istnieje około 40 000 węzłów Bitcoina na wszystkich kontynentach. Zasady konsensusu Bitcoina są skonstruowane tak, że bardziej opłacalne ekonomicznie jest ich przestrzeganie niż próba ich złamania i dlatego zaufanie między poszczególnymi stronami nie jest wymagane. Bitcoin nie ma lidera i nie może być zatrzymany. Możliwe jest regulowanie platform wymiany, aby ograniczyć Bitcoina, ale ma to ograniczony wpływ na sieć. Krótko mówiąc, żaden sędzia ani państwo nie może cenzurować ani zatrzymać Bitcoina.
 
 # Jak zdobyć bitcoina?
 
@@ -968,7 +968,7 @@ Wcześni użytkownicy Bitcoina to głównie technofile, cypherpunki, libertarian
 
 Następnie, użycie Bitcoina rozszerzyło się na rynki dark webu, takie jak Silk Road, ze względu na jego niekontrolowaną i pseudonimową naturę, która przyciągnęła także ludzi spoza tej platformy, zaangażowanych w działalność przestępczą. Należy jednak zauważyć, że to sposób użycia narzędzia, a nie samo narzędzie, określa jego legalność lub nielegalność. Nielegalne użycie Bitcoina samo w sobie nie czyni z nikogo przestępcy. To użycie, a nie narzędzie, może być klasyfikowane jako nielegalne. Na przykład, użycie Bitcoina do takich działań jak zakup pewnych narkotyków może być legalne lub nielegalne w zależności od regulacji terytorium, na którym taka działalność ma miejsce.
 - Szaleństwo ICO i przybycie ogółu społeczeństwa.
-Rok 2017 to duża bańka spekulacyjna w świecie kryptowalut, szczególnie jeśli chodzi o uruchomienie tysięcy ICO (ang. Initial Coin Offering/ICO, czyli pierwsza publiczna oferta konkretnego tokena lub kryptowaluty, jest to metoda pozyskiwania kapitału w celu finansowania przedsięwzięcia, przyp. tłum.). Jednak wiele z tych nowych kryptowalut nie miało konkretnego zastosowania ani planu rozwoju i szybko zniknęło. Po bańce z 2017 roku, w latach 2018-2019, nastąpiła silna korekta.
+Rok 2017 to duża bańka spekulacyjna w świecie kryptowalut, szczególnie jeśli chodzi o uruchomienie tysięcy ICO (ang. Initial Coin Offering/ICO, czyli pierwsza publiczna oferta konkretnego tokena lub kryptowaluty, jest to metoda pozyskiwania kapitału w celu finansowania przedsięwzięcia, przyp. korekt.). Jednak wiele z tych nowych kryptowalut nie miało konkretnego zastosowania ani planu rozwoju i szybko zniknęło. Po bańce z 2017 roku, w latach 2018-2019, nastąpiła silna korekta.
 
 - Bańka NFT i DeFi
 
@@ -976,23 +976,23 @@ Następnie, w 2020 roku, rynek doświadczył kolejnej bańki spekulacyjnej, któ
 
 ### Bitcoin i zmienność
 
-Wnioskując na podstawie poprzednich cykli, wydaje się, że okresowość cykli ekonomicznych Bitcoina jest równoważna czasowi między dwoma halvingami. Być może dlatego, że wydarzenie halvingu działa jak katalizator, redukując emisję nowych bitcoinów o połowę.
+Wnioskując na podstawie poprzednich cykli, wydaje się, że okresowość cykli ekonomicznych bitcoina jest równoważna czasowi między dwoma halvingami. Być może dlatego, że wydarzenie halvingu działa jak katalizator, redukując emisję nowych bitcoinów o połowę.
 
-Te znaczące fluktuacje wpłyneły na reputację Bitcoina jako niezwykle niebezpiecznego aktywa, które powoduje, że jego użytkownicy tracą pieniądze. Chociaż cena może spaść o 10%, 20%, a nawet 50% w ciągu kilku dni, ważne jest zrozumienie, że protokół Bitcoin nie jest dotknięty zmianami cen.
+Te znaczące fluktuacje wpłyneły na reputację bitcoina jako niezwykle niebezpiecznego aktywa, które powoduje, że jego użytkownicy tracą pieniądze. Chociaż cena może spaść o 10%, 20%, a nawet 50% w ciągu kilku dni, ważne jest zrozumienie, że protokół Bitcoin nie jest dotknięty zmianami cen.
 
-Ta znacząca zmienność jest dzisiaj w pełni akceptowana przez użytkowników Bitcoina i może być łagodzona przez kilka rozwiązań, takich jak zabezpieczenia finansowe (stablecoiny), długoterminowe oszczędzanie (hodling) lub po prostu nie inwestowanie 100% swoich pieniędzy w Bitcoina bez zrozumienia, czym on jest. Zrozumienie, dlaczego cena Bitcoina tak bardzo fluktuuje, jest zatem kluczowe, aby móc rozwijać się w tej branży, ponieważ ostatecznie to cena i cykle w pewnym stopniu temperują i regulują nasz rynek. Możemy jednak zauważyć, że w miarę wzrostu i dojrzewania Bitcoina, jego zmienność staje się coraz mniej znacząca.
+Ta znacząca zmienność jest dzisiaj w pełni akceptowana przez użytkowników Bitcoina i może być łagodzona przez kilka rozwiązań, takich jak zabezpieczenia finansowe (stablecoiny), długoterminowe oszczędzanie (hodling) lub po prostu nie inwestowanie 100% swoich pieniędzy w Bitcoina bez zrozumienia, czym on jest. Zrozumienie, dlaczego cena bitcoina tak bardzo fluktuuje, jest zatem kluczowe, aby móc rozwijać się w tej branży, ponieważ ostatecznie to cena i cykle w pewnym stopniu temperują i regulują nasz rynek. Możemy jednak zauważyć, że w miarę wzrostu i dojrzewania bitcoina, jego zmienność staje się coraz mniej znacząca.
 
 ![image](assets/en/69.webp)
 
-Chociaż para btc/dolar fluktuuje w krótkich okresach czasu to Bitcoin, ze względu na swoją ograniczoną ilość 21 milionów bitcoinów i proces halvingu (redukcja ilości tworzonego pieniądza co średnio 4 lata), podąża za ogólnym trendem wzrostowym w sposób niemal mechaniczny. Oczywiście, jak każdy aktyw finansowy, Bitcoin podlega cyklom ekonomicznym, w tym okresom euforii, bańkom spekulacyjnym i korektom. To zjawisko jest dość powszechne na rynku nowych technologii, gdzie rynek nie zawsze jest racjonalny lub efektywny.
+Chociaż para btc/dolar fluktuuje w krótkich okresach czasu to bitcoin, ze względu na swoją ograniczoną ilość 21 milionów bitcoinów i proces halvingu (redukcja ilości tworzonego pieniądza co średnio 4 lata), podąża za ogólnym trendem wzrostowym w sposób niemal mechaniczny. Oczywiście, jak każdy aktyw finansowy, bitcoin podlega cyklom ekonomicznym, w tym okresom euforii, bańkom spekulacyjnym i korektom. To zjawisko jest dość powszechne na rynku nowych technologii, gdzie rynek nie zawsze jest racjonalny lub efektywny.
 
 ### Unikalny rynek
 
-Te cykle bańki spekulacyjnej są dość unikalne na świecie, ponieważ bardzo rzadko zdarza się, aby ten sam aktyw doświadczał tylu bańek jedna po drugiej. Można to wytłumaczyć po prostu tym, że Bitcoin nie jest bańką, która zniknie, ale walutą, która jest faktycznie używana wszędzie na świecie. Protokół Bitcoin jest unikalny, ponieważ działa na skalę globalną, 24 godziny na dobę, 7 dni w tygodniu, co utrudnia regulację przez władze finansowe.
+Te cykle bańki spekulacyjnej są dość unikalne na świecie, ponieważ bardzo rzadko zdarza się, aby ten sam aktyw doświadczał tylu bańek jedna po drugiej. Można to wytłumaczyć po prostu tym, że bitcoin nie jest bańką, która zniknie, ale walutą, która jest faktycznie używana wszędzie na świecie. Protokół Bitcoin jest unikalny, ponieważ działa na skalę globalną, 24 godziny na dobę, 7 dni w tygodniu, co utrudnia regulację przez władze finansowe.
 
 ![image](assets/en/70.webp)
 
-Obecnie Bitcoin nadal istnieje i rośnie jeszcze bardziej, integrując się coraz bardziej z tradycyjnym rynkiem. Nadchodzące pojawienie się ETF-ów Bitcoina, jaśniejsza regulacja i lepsze narzędzia do jego nabywania lub przechowywania tylko wzmacniają jego momentum. Bitcoin RAZ JESZCZE przetrwał swoją bańkę spekulacyjną, więc może nie jest tylko gorącym powietrzem!
+Obecnie Bitcoin nadal istnieje i rośnie jeszcze bardziej, integrując się coraz bardziej z tradycyjnym rynkiem. Nadchodzące pojawienie się ETF-ów bitcoina, jaśniejsza regulacja i lepsze narzędzia do jego nabywania lub przechowywania tylko wzmacniają jego momentum. Bitcoin RAZ JESZCZE przetrwał swoją bańkę spekulacyjną, więc może nie jest tylko gorącym powietrzem!
 
 ![image](assets/en/71.webp)
 
@@ -1051,10 +1051,10 @@ Bitcoin stał się głównym aktywem finansowym, głównie ze względu na jego o
 
 Zanim zanurkujesz w kupno bitcoinów, upewnij się, że masz:
 
-- Bezpieczny portfel Bitcoin.
-- Solidne zrozumienie Bitcoina.
-- Plan oszczędzania.
-- Długoterminową wizję.
+- Bezpieczny portfel Bitcoin
+- Solidne zrozumienie Bitcoina
+- Plan oszczędzania
+- Długoterminową wizję
 
 Jeśli ten temat nadal jest niejasny, kurs BTC102 poprowadzi cię przez zabezpieczanie i zdobywanie twoich pierwszych bitcoinów. Tutaj tylko muskamy powierzchnię tematu.
 
@@ -1072,13 +1072,13 @@ Cykliczne zakupy polegają na kupowaniu małych ilości bitcoina w regularnych o
 
 **Uważaj na UTXO**: Pamiętaj, aby od czasu do czasu konsolidować swoje UTXO w portfelach. Ta praktyka jest kluczowa dla efektywnego zarządzania twoimi bitcoinami i unikania niepotrzebnych opłat podczas transakcji.
 
-[UTXO](https://planb.network/resources/glossary/utxo) to wyjście transakcji, które nie zostało jeszcze wydane, co oznacza, że nie zostało użyte jako wejście do nowej transakcji. Konsolidacja ich oznacza połączenie kilku małych UTXO w jeden większy, aby zmniejszyć "wagę" transakcji, a tym samym zapłacić niższe opłaty.
+[UTXO](https://planb.network/resources/glossary/utxo) to wyjście transakcji, które nie zostało jeszcze wydane, co oznacza, że nie zostało użyte jako wejście do nowej transakcji. Konsolidacja ich oznacza połączenie kilku małych UTXO w jeden większy, aby zmniejszyć „wagę” transakcji, a tym samym zapłacić niższe opłaty.
 
 - Zakup spontaniczny
 
 Spontaniczny zakup wszystkich aktywów na raz to sposób na natychmiastowe uzyskanie dostepu do bitcoina. Może to być zakup podczas krachu na giełdzie lub sposób na wydanie bonusu, decyzja należy do ciebie. Musisz zebrać odwagę i nacisnąć przycisk kup.
 
-Biorąc pod uwagę znaczną zmienność bitcoina, zaleca się tu ostrożność i kontrolowanie swoich emocji. FOMO (ang. Fear of Missing Out, obawa przed nie skorzystaniem z okazji, przyp. tłum.) i FUD (ang. Fear, Uncertainty, Doubt, strach, niepewność i zwątpienie, przyp. tłum.) są twoimi najgorszymi wrogami! Zachowaj spokój i postępuj zgodnie z wcześniej ustaloną strategią, aby uniknąć impulsywnych i potencjalnie szkodliwych decyzji.
+Biorąc pod uwagę znaczną zmienność bitcoina, zaleca się tu ostrożność i kontrolowanie swoich emocji. FOMO (ang. Fear of Missing Out, obawa przed nie skorzystaniem z okazji, przyp. korekt.) i FUD (ang. Fear, Uncertainty, Doubt, strach, niepewność i zwątpienie, przyp. korekt.) są twoimi najgorszymi wrogami! Zachowaj spokój i postępuj zgodnie z wcześniej ustaloną strategią, aby uniknąć impulsywnych i potencjalnie szkodliwych decyzji.
 
 ### Od kogo powinniśmy kupować nasze bitcoiny?
 
@@ -1103,9 +1103,9 @@ Ich używanie jest proste i dostępne dla każdego:
 
 ![image](assets/en/75.webp)
 
-Po zakupie zaleca się natychmiastowe wypłacenie bitcoinów z platform wymiany, aby zminimalizować ryzyko hackingu i zablokowania funduszy. Opłaty za wypłatę mogą być wysokie, czasami sięgające 25 euro w zależności od platformy.
+Po zakupie zaleca się natychmiastowe wypłacenie bitcoinów z platform wymiany, aby zminimalizować ryzyko zhakowania i zablokowania funduszy. Opłaty za wypłatę mogą być wysokie, czasami sięgające 25 euro w zależności od platformy.
 
-**Regulacje Know Your Customer (KYC, ang. znaj swojego klienta, przyp. tłum.) wymagają od użytkowników identyfikacji tożsamości w celu zwalczania finansowania terroryzmu, unikania płacenia podatków i prania pieniędzy.**
+**Regulacje Know Your Customer (KYC, ang. znaj swojego klienta, przyp. korekt.) wymagają od użytkowników identyfikacji tożsamości w celu zwalczania finansowania terroryzmu, unikania płacenia podatków i prania pieniędzy.**
 
 Trzeba wspomnieć, że KYC jest ważnym tematem w branży Bitcoin. Skuteczność działania tej strategii jest łatwa do podważenia podczas, gdy jej negatywne aspekty są liczne. W wielu programach szkoleniowych naszej akademii radzimy nie używać platform KYC, ponieważ dostępnych jest wiele opcji bardziej nastawionych na prywatność użytkowników.
 
@@ -1114,7 +1114,7 @@ Trzeba wspomnieć, że KYC jest ważnym tematem w branży Bitcoin. Skuteczność
 Ponadto, istnieje kilka [platform](https://sovereignuniversity.org/tutorials/exchange) do kupowania i sprzedawania bitcoinów peer-to-peer. Ogólnie rzecz biorąc, te rozwiązania to:
 
 - Bankomaty Bitcoin
-- Fizyczne spotkania z innymi entuzjastami bitcoina
+- Fizyczne spotkania z innymi entuzjastami Bitcoina
 - Nielegalne i nieregulowane platformy
 - Rozwiązania do łączenia użytkowników peer-to-peer
 - Neobanki działające w przyjaznych dla Bitcoina krajach.
@@ -1129,7 +1129,7 @@ Ważne jest również zwrócenie uwagi na fakt, że obciążenia podatkowe róż
 
 ### Dzika gonitwa dopiero się zaczyna!
 
-Tak, jak powszechne przyjęcie każdej nowej technologii, przyjęcie Bitcoina można przedstawić w formie funkcji krzywej S, która ilustruje przejście od wczesnych użytkowników do powszechniejszej adopcji. Przekroczyliśmy erę wczesnych użytkowników, a wskaźniki zdają się wskazywać potencjalną demokratyzację Bitcoina. Jest to szybko rozprzestrzeniająca się technologia, której nie można łatwo zatrzymać. Salwador podjął śmiałe ryzyko przyjęcia bitcoina jako swojej oficjalnej waluty, inne kraje zakazały go i skryminalizowały jego użycie. Pokazuje to złożoność procesu przyjęcia Bitcoina i jego zależność od czynników kulturowych, historycznych i narodowych.
+Tak, jak powszechne przyjęcie każdej nowej technologii, przyjęcie Bitcoina można przedstawić w formie funkcji krzywej S, która ilustruje przejście od wczesnych użytkowników do powszechniejszej adopcji. Przekroczyliśmy erę wczesnych użytkowników, a wskaźniki zdają się wskazywać potencjalną demokratyzację bitcoina. Jest to szybko rozprzestrzeniająca się technologia, której nie można łatwo zatrzymać. Kraj Salwador podjął śmiałe ryzyko przyjęcia bitcoina jako swojej oficjalnej waluty, inne kraje zakazały go i skryminalizowały jego użycie. Pokazuje to złożoność procesu przyjęcia bitcoina i jego zależność od czynników kulturowych, historycznych i narodowych.
 
 ![image](assets/en/02.webp)
 
@@ -1173,11 +1173,11 @@ Problem skalowalności odnosi się do wdrożenia takiego systemu monetarnego, kt
 
 ![image](assets/en/79.webp)
 
-Protokół oparty na łańcuchu bloków może pogodzić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoin deweloperzy podjęli decyzję, aby faworyzować decentralizację i bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między powstaniem dwóch bloków (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez dowód pracy (ang. Proof-of-Work) sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z Bitcoinem były odporne na cenzurę i nie zależały od zaufania pomiędzy stronami. Niemniej jednak osoby rozwijające Bitcoina od początku myślały o tym problemie.
+Protokół oparty na łańcuchu bloków może pogodzić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoin deweloperzy podjęli decyzję, aby faworyzować decentralizację i bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między powstaniem dwóch bloków (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez dowód pracy (ang. Proof-of-Work) sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z uzyciem bitcoina były odporne na cenzurę i nie zależały od zaufania pomiędzy stronami. Niemniej jednak osoby rozwijające Bitcoina od początku myślały o tym problemie.
 
 ### Lightning Jako Wierzchnia Warstwa
 
-Po latach refleksji i wielu próbach, pojawia się protokół Lightning. Korzystając z pewnej liczby specyfikacji, protokół ten umożliwia budowę sieci płatności peer-to-peer, wykorzystując bezpieczeństwo i możliwości programowania protokołu transakcyjnego Bitcoin. Lightning Network działa jak sieć kanałów płatniczych, umożliwiająca natychmiastowe transakcje z niskimi opłatami dla nadawcy. Ta sieć umożliwia transakcje nawet między osobami, które nie są bezpośrednio połączone kanałem płatniczym.
+Po latach refleksji i wielu próbach, pojawia się protokół Lightning. Korzystając z pewnej liczby specyfikacji, protokół ten umożliwia budowę sieci płatności peer-to-peer, wykorzystując bezpieczeństwo i możliwości programowania protokołu transakcyjnego Bitcoin. Sieć Lightning działa jak sieć kanałów płatniczych, umożliwiająca natychmiastowe transakcje z niskimi opłatami dla nadawcy. Sieć ta umożliwia transakcje nawet między osobami, które nie są bezpośrednio połączone kanałem płatniczym.
 
 ![image](assets/en/80.webp)
 
@@ -1187,9 +1187,9 @@ Tradycyjne usługi przekazu pieniężnego, takie jak Western Union, banki centra
 
 Transakcje są zabezpieczone przez kryptografię i pośrednio przez energię zużywaną przez górników na Bitcoina. Transakcje mogą być realizowane natychmiast, bez ograniczeń geograficznych, a opłaty są niezwykle niskie, często mniejsze niż 0,5%.
 
-Podsumowując, Lightning Network to obiecująca próba wdrożenia efektywnego systemu płatności do transakcji w Bitcoinie. Dostępnych jest już wiele portfeli Lightning, które możesz odkryć w naszej sekcji samouczków lub poprzez nasze szkolenie z Lightning Network.
+Podsumowując, sieć Lightning to obiecująca próba wdrożenia efektywnego systemu płatności do transakcji w bitcoinach. Dostępnych jest już wiele portfeli Lightning, które możesz odkryć w naszej sekcji samouczków lub poprzez nasze szkolenie na temat sieci Lightning.
 
-Jeśli chcesz wyjść poza ramy tego wstępu i zrozumieć całe funkcjonowanie sieci Lighting Network, polecamy ten świetny kurs Fanisa Michalakisa dotyczący tego tematu:
+Jeśli chcesz wyjść poza ramy tego wstępu i zrozumieć całe funkcjonowanie sieci Lighting, polecamy ten świetny kurs Fanisa Michalakisa dotyczący tego tematu:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 

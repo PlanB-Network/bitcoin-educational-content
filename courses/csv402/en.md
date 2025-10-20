@@ -1,12 +1,11 @@
 ---
-name: The RGB protocol, from theory to practice
+name: RGB programming
 goal: Acquire the skills needed to understand and use RGB
-objectives: 
-  - Understand the fundamental concepts of the RGB protocol
-  - Master the principles of client-side validation and Bitcoin commitments
-  - Learn how to create, manage and transfer RGB contracts
-  - How to operate an RGB-compatible Lightning node
-
+objectives:
+- Understand the fundamental concepts of the RGB protocol
+- Master the principles of client-side validation and Bitcoin commitments
+- Learn how to create, manage and transfer RGB contracts
+- How to operate an RGB-compatible Lightning node
 ---
 # Discovering the RGB protocol
 
@@ -41,7 +40,6 @@ The second section will focus on the application of the theoretical concepts see
 
 The final section is led by other speakers who present concrete RGB-based applications, to highlight real-life use cases.
 
----
 This training course originally grew out of a two-week advanced development bootcamp in Viareggio, Tuscany, organized by [Fulgur'Ventures](https://fulgur.ventures/). The first week, focused on Rust and SDKs, can be found in this other course:
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
@@ -78,7 +76,6 @@ Ready to dive into the complex and fascinating world of RGB? Let's go!
 ## Introduction to distributed computing concepts
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
-
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB is a protocol designed to apply and enforce digital rights (in the form of contracts and assets) in a scalable and confidential way, based on the consensus rules and operations of the Bitcoin blockchain. The aim of this first chapter is to present the basic concepts and terminology around the RGB protocol, highlighting in particular its close links with basic distributed computing concepts such as Client-side Validation and Single-use Seals.

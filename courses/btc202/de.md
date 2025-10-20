@@ -410,7 +410,7 @@ Mit anderen Worten: Etwa 9 von 10 öffentlichen Knoten laufen mit Bitcoin core. 
 
 
 
-Bitcoin core ist in C++ geschrieben. Es ist auch ein Open-Source-Projekt, das von einer Gemeinschaft von Entwicklern gepflegt wird, die sich freiwillig engagieren oder von verschiedenen Stellen bezahlt werden (oft von Unternehmen im Ökosystem, die ein persönliches Interesse an der Entwicklung von Core haben). [Der Code wird auf GitHub gehostet (https://github.com/Bitcoin/Bitcoin), und die Entwicklung erfolgt nach einem strengen Schema:
+Bitcoin Core ist eine in C++ geschriebene Software. Es ist auch ein Open-Source-Projekt, das von einer Gemeinschaft freiwilliger oder von verschiedenen Organisationen bezahlter Entwickler gepflegt wird (oft von Unternehmen des Ökosystems, die ein Interesse an einem erfolgreichen Verlauf der Core-Entwicklung haben). [Der Code wird auf GitHub gehostet](https://github.com/bitcoin/bitcoin), und die Entwicklung folgt einem strengen Modell:
 
 
 
@@ -448,7 +448,7 @@ Wir können auch erwähnen:
 
 - Libbitcoin**: eine modulare C++-Bibliothek, die von Amir Taaki entwickelt und von Eric Voskuil gepflegt wird;
 - Bcoin**: eine JavaScript-Implementierung, die nicht mehr aktiv gepflegt wird;
-- BTCD/btcsuit**e: eine Implementierung in Go.
+- **BTCD/btcsuite** : eine Implementierung in Go.
 
 
 
@@ -2941,7 +2941,7 @@ Wenn Ihr Knoten seine anfängliche Synchronisierung abgeschlossen hat, speichert
 
 
 
-- gW-402 **Blöcke** auf der Festplatte gespeichert,
+- die auf der Festplatte gespeicherten **Blöcke** der Blockchain,
 - den **UTXO-Satz**, der in einer Schlüssel-Wert-Datenbank verwaltet wird,
 - und der **Mempool** wird im RAM gespeichert und periodisch serialisiert.
 
@@ -3093,7 +3093,7 @@ Der Mempool ist der lokale Satz gültiger Transaktionen, die empfangen, aber noc
 
 
 - die dem Mempool über den Parameter `maxmempool` zugewiesene Größe: ein Knoten mit einem größeren Mempool kann mehr Transaktionen aufnehmen als ein Knoten mit einem kleineren Mempool (es sei denn, letzterer wird leer);
-- gW-433-Regeln: Diese sind eine Teilmenge der Relaisregeln des Knotens und definieren die Merkmale, die eine unbestätigte Transaktion erfüllen muss, um in Mempool akzeptiert zu werden;
+- die Mempool-Regeln: Sie bilden eine Teilmenge der Weiterleitungsregeln des Knotens und legen die Eigenschaften fest, die eine unbestätigte Transaktion erfüllen muss, um in den Mempool aufgenommen zu werden;
 - perkolation von Transaktionen: Aufgrund verschiedener Faktoren kann eine bestimmte Transaktion bereits an einen Teil des Netzes verteilt worden sein, einen anderen aber noch nicht erreicht haben.
 
 
@@ -3135,10 +3135,10 @@ Mehrere andere Dateien auf der gleichen Ebene wie `blocks/`, `chainstate/` und `
 - Beim Ausschalten des Knotens speichert `anchors.dat` die Adressen der abgehenden Teilnehmer, so dass Sie beim nächsten Start schnell wieder versuchen können, sie zu kontaktieren.
 - die Datei `banlist.json` enthält lokale Verbote, die vom Betreiber oder vom Knoten beschlossen wurden (wiederholtes ungültiges Verhalten), um den Knoten daran zu hindern, sich erneut zu verbinden oder Verbindungen von diesen bestimmten Peers zu akzeptieren.
 - die Datei "fee_estimates.dat" speichert Zeithorizontstatistiken über beobachtete Bestätigungen, die vom Gebührenschätzer verwendet werden, um Gebührensätze vorzuschlagen, die mit den bei der Erstellung einer Transaktion gewählten Verzögerungszielen vereinbar sind.
-- gW-446.conf` enthält die Konfigurationsparameter Ihres Knotens. Hier können Sie die Relaisregeln anpassen. Mehr darüber erfahren Sie im nächsten Kapitel.
+- `bitcoin.conf` enthält die Konfigurationsparameter Ihres Knotens. In dieser Datei können insbesondere die Weiterleitungsregeln angepasst werden. Ich werde im nächsten Kapitel ausführlicher darauf eingehen;
 - die Datei `settings.json` enthält zusätzliche Parameter zu `Bitcoin.conf`.
 - debug.log" ist das diagnostische Textprotokoll, das im Falle eines Fehlers zum Verständnis der Knotenaktivitäten verwendet werden kann.
-- gW-448.pid` speichert die Prozesskennung zur Laufzeit, so dass andere Anwendungen oder Skripte bitcoind (*Bitcoin daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. Sie wird beim Starten des Knotens erstellt und beim Herunterfahren gelöscht.
+- `bitcoind.pid` speichert die Prozess-ID während der Ausführung, sodass andere Anwendungen oder Skripte Bitcoind (*Bitcoin Daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. Sie wird beim Start des Knotens erstellt und beim Herunterfahren gelöscht;
 - `ip_asn.map` ist eine IP → ASN-Zuordnungstabelle (eigenständiges System), die für Bucketing und Peer Diversification (Option `-asmap`) verwendet wird.
 - `onion_v3_private_key` speichert den privaten Schlüssel des Tor v3 Dienstes, wenn die Option `-listenonion` aktiviert ist, um einen stabilen onion Address zwischen den Neustarts zu erhalten.
 - `i2p_private_key` speichert den privaten I2P-Schlüssel, wenn `-i2psam=` verwendet wird, um ausgehende und möglicherweise eingehende Verbindungen über I2P herzustellen.
@@ -3154,9 +3154,9 @@ Wie wir in den ersten Teilen dieses BTC 202-Kurses gesehen haben, ist Bitcoin co
 
 
 
-- `wallets/` ist das Standardverzeichnis, das eine oder mehrere Dateien enthält;
+- `wallets/` ist das Standardverzeichnis, das eine oder mehrere Wallets beherbergt;
 - `wallets/<name>/Wallet.dat` ist die SQLite-Datenbank des Wallet (Schlüssel, Deskriptoren, Transaktions-Metadaten usw.);
-- wallets/<name>/Wallet.dat-journal` ist das SQLite-Rollback-Protokoll.
+- `wallets/<name>/wallet.dat-journal` ist das SQLite-Rollback-Journal.
 
 
 
@@ -3335,10 +3335,10 @@ Auf der Netzebene haben wir auch:
 
 
 - `addnode`: fügt einen freundlichen Peer zur Kontaktaufnahme hinzu (kann mehrfach angegeben werden).
-- connect`: schränkt Verbindungen strikt auf den angegebenen Address ein (kann mehrmals angegeben werden). Core stellt keine Verbindung zu einem anderen Knoten her.
+- `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keinem anderen Knoten verbinden;
 - seednode": wird nur zum Ausfüllen des Book-Address verwendet, wenn eine Verbindung zu einem Knoten hergestellt und dann getrennt wird.
 - max Connections": legt die globale Obergrenze für eingehende und ausgehende Verbindungen fest. Standardmäßig ist dieser Parameter auf 125 gesetzt, was bedeutet, dass Ihr Knoten nie mehr als 125 Verbindungen akzeptiert.
-- maxuploadtarget`: begrenzt die Uploads, um die Bandbreite über ein gleitendes 24-Stunden-Fenster zu begrenzen. Diese Obergrenze beeinträchtigt nicht die Ausbreitung von wichtigen aktuellen Elements.
+- `maxuploadtarget` : begrenzt den Upload, um die Bandbreite über ein gleitendes 24-Stunden-Fenster zu begrenzen. Diese Obergrenze beeinträchtigt nicht die Verbreitung wesentlicher neuer Elemente;
 - `onlynet`: begrenzt ausgehende Verbindungen nur auf ausgewählte Netzwerke (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Wenn du zum Beispiel möchtest, dass sich dein Knoten nur über Tor mit dem Bitcoin-Netzwerk verbindet, kannst du den Parameter `onlynet=onion` aktivieren und eingehende Verbindungen deaktivieren (oder auch nur Verbindungen über Tor zulassen).
 - `dnsseed`: erlaubt oder verbietet _DNS-Seeds_, um Peers anzufordern, wenn Ihr lokaler Address-Pool niedrig ist (Voreinstellung: `1`, es sei denn `-connect` oder `-maxconnections=0`).
 - `forcednsseed`: erzwingt, dass _DNS-Seeds_ beim Start angefordert werden, auch wenn Sie bereits Adressen auf Lager haben (Voreinstellung: `0`).
@@ -3362,7 +3362,7 @@ Um vollständig Tor-fähig zu sein, musst du Bitcoin core zwingen, nur dieses Ne
 - `torcontrol=127.0.0.1:9051`,
 - proxyrandomize=1",
 - listen=1",
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - upnp=0",
 - natpmp=0".
 
@@ -3418,7 +3418,7 @@ Hier sind die grundlegenden Parameter, die Sie in Ihrer "Bitcoin.conf" ändern k
 
 
 
-- blocksonly=1`: Deaktiviert die Annahme und erneute Übermittlung von unbestätigten Transaktionen, die von Peers empfangen wurden (sofern keine besonderen Berechtigungen erteilt wurden). Der Knoten lädt jetzt nur noch Blöcke hoch und macht sie bekannt. Lokal erstellte Transaktionen können weiterhin übertragen werden (um Ihren Knoten mit Ihrer Wallet-Software zu verwenden). Dadurch werden die Bandbreiten- und RAM-Anforderungen erheblich reduziert, wenn auch um den Preis einer geringeren Nützlichkeit für das Relais und einer völligen Unvertrautheit mit dem Mempool.
+- `blocksonly=1` : Deaktiviert die Annahme und Weiterleitung unbestätigter Transaktionen, die von Peers empfangen werden (außer bei speziellen Berechtigungen). Der Node lädt und kündigt nur noch Blöcke an. Lokal erstellte Transaktionen können weiterhin gesendet werden (zur Nutzung des Nodes mit Ihrer Wallet-Software). Dies reduziert die Bandbreite und den RAM-Bedarf erheblich, auf Kosten einer geringeren Nützlichkeit für das Relaying und ohne Kenntnis des Mempools.
 
 
 
@@ -3448,7 +3448,7 @@ Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtl
 
 
 
-- datacarrier=1`: Erlaubt die Weiterleitung und (bei Mining über den Knoten) die Einbeziehung von Transaktionen mit nicht-finanziellen Daten über einen `OP_RETURN`-Ausgang (Standard: `1`). Wenn Sie diesen Parameter deaktivieren, wird die Fläche für Spam mit nicht-finanziellen Daten geringfügig verkleinert, allerdings um den Preis einer geringeren Kompatibilität mit bestimmten Anwendungen. In jedem Fall müssen Sie vermintes `OP_RETURN` akzeptieren.
+- `datacarrier=1` : Erlaubt das Weiterleiten und (bei Mining über den Node) das Einfügen von Transaktionen, die nichtfinanzielle Daten über einen `OP_RETURN`-Output tragen (Standard: `1`). Das Deaktivieren dieser Einstellung reduziert leicht die Angriffsfläche für nichtfinanzielle Datenspam, verringert jedoch die Kompatibilität mit bestimmten Anwendungsfällen. In jedem Fall müssen Sie geminte `OP_RETURN` akzeptieren.
 
 
 
@@ -3490,13 +3490,13 @@ Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtl
 
 
 
-- peerbloomfilters=1`: Aktivieren Sie die Unterstützung für Bloom-Filter (BIP37), um gefilterte Blöcke/Transaktionen an Thin-Clients zu liefern (Standard: `0`). Warnung: Dies erhöht die Last auf Ihren Ressourcen.
+- `peerbloomfilters=1` : Aktiviert die Unterstützung von Bloom-Filtern (BIP37), um gefilterte Blöcke/Transaktionen an Light-Clients zu liefern (Standard: `0`). Achtung, dies erhöht die Belastung Ihrer Ressourcen.
 
 
 
 
 
-- peerblockfilters=1`: Stellt BIP157 (*Neutrino*) Kompaktfilter für Peers bereit (Standard: `0`).
+- `peerblockfilters=1` : Dient kompakten BIP157-Filtern (*Neutrino*) an Peers (Standard: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Legt das Format der Wallet-generierten Adressen für den Empfang fest.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Legt das Format der vom Wallet für den Empfang generierten Adressen fest.
 
 
 
@@ -3568,7 +3568,7 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-- fallbackfee=<amt>`: Fallback-Rate (BTC/kvB), die verwendet wird, wenn der Schätzer keine Daten mehr hat (Standardwert: `0.00`). Bei einem Wert von 0 wird das Fallback vollständig deaktiviert.
+- `fallbackfee=<amt>` : Notfallgebühr (BTC/kvB), die verwendet wird, wenn dem Schätzer Daten fehlen (Standard: `0.00`). Das Setzen auf 0 deaktiviert die Notfallgebühr vollständig.
 
 
 
@@ -3660,7 +3660,7 @@ In der Konfigurationsdatei können Sie auch die Parameter für Ihre Maschine ein
 
 
 
-- txindex=1`: Erstellt und pflegt einen globalen Index der bestätigten Transaktionen. Unverzichtbar für bestimmte Abfragen (`getrawtransaction`, nicht Wallet) und für Explorationszwecke, vergrößert aber den Plattenplatzbedarf erheblich. Inkompatibel mit dem pruned-Modus.
+- `txindex=1` : Erstellt und pflegt einen globalen Index bestätigter Transaktionen. Unverzichtbar für bestimmte Abfragen (`getrawtransaction` außerhalb der Wallet) und für Explorationszwecke, erhöht jedoch deutlich den Speicherbedarf. Nicht kompatibel mit dem abgespeckten Modus.
 
 
 

@@ -1,0 +1,8 @@
+question: What fundamental design principle allows LDK to create Lightning-aware HSMs that can intelligently evaluate whether a transaction represents legitimate payment routing versus potentially malicious attempts?
+answer: LDK's modular architecture enables extraction of specific transaction signing and verification components while maintaining Lightning protocol context awareness
+wrong_answers:
+  - "LDK's event-driven system automatically flags suspicious transactions through machine learning algorithms integrated into the core signing process"
+  - "LDK's blockchain abstraction layer provides real-time fraud detection by cross-referencing all transactions against network gossip data"
+  - "LDK's peer management system implements advanced cryptographic signatures that inherently distinguish between legitimate and malicious transaction patterns"
+explanation: |
+  LDK's modular design allows developers to extract just the signing and verification components while preserving the Lightning protocol intelligence needed to understand transaction context. This enables HSMs to make informed decisions about payment forwarding, channel operations, and security threats rather than blindly signing transactions. The wrong answers incorrectly attribute this capability to automated fraud detection, blockchain monitoring, or cryptographic signatures, when it's actually the modular architecture's ability to maintain protocol awareness in isolated components that enables intelligent transaction evaluation.

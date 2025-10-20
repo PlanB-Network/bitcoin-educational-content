@@ -1575,7 +1575,7 @@ Comme nous l’avons vu dans les premières parties de ce cours BTC 202, Bitcoin
 
 - `wallets/` est le répertoire par défaut qui héberge un ou plusieurs portefeuilles ;
 - `wallets/<name>/wallet.dat` est la base SQLite du portefeuille (clés, descriptors, métadonnées de transactions...) ;
-- `wallets/<nom>/wallet.dat-journal` est le journal de rollback SQLite.
+- `wallets/<name>/wallet.dat-journal` est le journal de rollback SQLite.
 
 Pour résumer, voici la structure de fichiers de Bitcoin Core :
 

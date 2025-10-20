@@ -44,7 +44,7 @@ description: How to use your Hardware Wallet with Blockstream App on a computer?
 - **Key features**:
 - **Onchain** transactions on Blockchain Bitcoin.
     - Transactions on the **Liquid** network (Sidechain for fast, confidential exchanges).
-- **Watch-only** portfolios for monitoring funds without access to keys.
+- **Watch-only** wallets for monitoring funds without access to keys.
     - Privacy options: connection via **Tor**, connection to a **personal node** via Electrum, or **SPV** verification to reduce dependency on third-party nodes.
     - Functions **Replace-by-fee (RBF)** to speed up unconfirmed transactions.
 - **Compatibility**: Integrates hardware wallets such as **Blockstream Jade**.
@@ -67,7 +67,7 @@ description: How to use your Hardware Wallet with Blockstream App on a computer?
 
 
 
-- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported portfolios will appear here later.
+- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported wallets will appear here later.
 
 
 ![image](assets/fr/02.webp)
@@ -221,7 +221,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Please wait while Blockstream App imports your portfolio information:
+- Please wait while Blockstream App imports your wallet information:
 
 
 ![image](assets/fr/23.webp)
@@ -238,14 +238,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Choose "**Standard**" to configure a classic Bitcoin portfolio:
+- Choose "**Standard**" to configure a classic Bitcoin wallet:
 
 
 ![image](assets/fr/25.webp)
 
 
 
-- Once your account has been created, you can access your main Interface portfolio:
+- Once your account has been created, you can access your main Interface wallet:
 
 
 ![image](assets/fr/26.webp)
@@ -260,7 +260,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- From the main portfolio screen, click on "**Receive**" :
+- From the main wallet screen, click on "**Receive**" :
 
 
 ![image](assets/fr/27.webp)
@@ -276,7 +276,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Options** :
 
 
-- (1) Click on the arrows to generate a new address linked to your portfolio.
+- (1) Click on the arrows to generate a new address linked to your wallet.
 - (2) To request a specific amount, click on "**More options**" and then on "**Request Amount**". The QR will be updated, and the address will be replaced by a Bitcoin payment URI such as: `Bitcoin:bc1q...?amount=0.00001`
 
 
@@ -302,7 +302,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- From the main portfolio screen, click on "**Send**".
+- From the main wallet screen, click on "**Send**".
 
 
 ![image](assets/fr/29.webp)
@@ -375,7 +375,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 
-- Import and track a portfolio in "Watch-Only" :
+- Import and track a wallet in "Watch-Only" :
 
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb

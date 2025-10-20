@@ -1,0 +1,8 @@
+question: When developing a command-line guessing game in Rust, what is the primary educational purpose of artificially introducing delays during number generation when implementing progress bars?
+answer: To demonstrate progress indicator functionality in scenarios where actual processing time would normally justify user feedback
+wrong_answers:
+  - To simulate network latency that would occur when connecting to Bitcoin nodes in real blockchain applications
+  - To allow the random number generator sufficient entropy collection time for cryptographically secure number generation
+  - To prevent race conditions between the user input thread and the number generation thread in concurrent execution
+explanation: |
+  The artificial delays serve as a teaching mechanism to demonstrate progress bar implementation in situations where operations complete too quickly to naturally observe the progress feedback. Since number generation is instantaneous, adding delays allows developers to see how progress indicators work and understand their value for longer operations. The other options incorrectly assume technical necessities (network simulation, cryptographic requirements, or concurrency issues) that aren't relevant to this educational demonstration of UI feedback patterns.

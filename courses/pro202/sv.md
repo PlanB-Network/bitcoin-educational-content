@@ -20,6 +20,38 @@ Njut av din upptäckt!
 
 +++
 
+# Introduktion
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Kursöversikt
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Välkommen till kursen PRO 202 _**Programming Bitcoin**_, en intensiv resa som tar dig från aritmetik med ändliga fält till att bygga och sända verkliga transaktioner på Bitcoins testnät.
+
+I denna kurs kommer du stegvis att bygga ett Bitcoin-bibliotek i Python samtidigt som du förvärvar de kryptografiska, protokollmässiga och mjukvarumässiga grunder som krävs för att exakt förstå Bitcoins säkerhet och inre funktioner. PRO 202-ansatsen är helt praktisk: varje koncept implementeras omedelbart i Jupyter-anteckningsböcker, vilket säkerställer att teori och kod stärker varandra.
+
+### Grundläggande matematiska begrepp för Bitcoin
+
+Denna första sektion etablerar den oumbärliga matematiska grunden. Du kommer att implementera aritmetik i ändliga kroppar och operationer för elliptiska kurvor (grupplagen, addition, dubblering, skalärmultiplikation...) — förutsättningarna för ECDSA. Målet är tvåfaldigt: att förstå den algebraiska struktur som gör kryptografiska signaturer möjliga och att bygga tillförlitliga Python-verktyg för att manipulera dem.
+
+Därefter kommer du att formalisera komponenterna i ECDSA: nyckelgenerering, punktformatering, hashing, skapande och verifiering av signaturer. Detta avsnitt kopplar direkt samman teori med praktik och betonar implementeringsdetaljer samt robustheten i den underliggande säkerhetsmodellen.
+
+### Den inre funktionen hos en Bitcoin-transaktion
+
+I det andra avsnittet kommer du att analysera strukturen av en Bitcoin-transaktion: UTXO:er, in-/utgångar, sekvenser, skript, kodningar och mer. Du kommer att skriva kod för att konstruera, signera och verifiera transaktioner, och få en exakt förståelse av vad som förbinds av hash och varför.
+
+Därefter kommer du att implementera en minimal _Script_-tolk, granska viktiga opkoder och validera utgiftsvägar. Målet är att göra dig kapabel att granska transaktionsbeteenden, diagnostisera valideringsfel och resonera kring säkerheten i utgiftspolicys.
+
+### Den inre funktionen hos Bitcoin-nätverket
+
+I det tredje avsnittet kommer du att placera transaktionen inom det bredare systemet: blockstruktur, rubriker, svårighetsgrad och Proof-of-Work-mekanismen. Du kommer att hantera protokollmeddelanden, blockrubriker och Merkle-träd.
+
+Slutligen kommer du att studera peer-to-peer-nodkommunikation, meddelandeoptimering och introduktionen av SegWit.
+
+Som med varje kurs på Plan ₿ Academy innehåller det sista avsnittet en utvärdering som är utformad för att befästa din förståelse. Redo att avslöja Bitcoins inre funktioner och skriva koden som driver det? Låt oss börja!
+
 # Grundläggande matematiska begrepp för Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

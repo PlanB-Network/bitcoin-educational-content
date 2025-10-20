@@ -1,0 +1,8 @@
+question: What is the primary advantage of Rust's static typing approach over dynamic typing when developing Bitcoin applications?
+answer: Type errors are caught at compile time before deployment, preventing runtime failures when handling user funds
+wrong_answers:
+  - Static typing allows for faster execution speed when processing Bitcoin transactions on the blockchain
+  - "Dynamic typing requires more memory allocation which conflicts with Bitcoin's lightweight node requirements"
+  - Static typing enables automatic code generation for Bitcoin protocol implementations and smart contracts
+explanation: |
+  Rust's static typing catches type mismatches during compilation, ensuring errors are resolved before the software can be built or deployed. This is crucial for Bitcoin development because once software is handling real user funds, runtime type errors could cause irreversible financial losses. Dynamic typing only reveals errors during execution, potentially after deployment when users' money is at risk. The other options are incorrect because static typing's primary benefit isn't execution speed, memory usage, or code generation, but rather compile-time error prevention.

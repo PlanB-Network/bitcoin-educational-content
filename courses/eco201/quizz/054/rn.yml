@@ -1,12 +1,9 @@
-question: Ni itandukaniro irihe rikomeye riri hagati y’abahinga mu vy’ubutunzi bo muri Otirishiya n’abahinga mu vy’ubutunzi bo muri Keynes canke abakunda amahera mu bijanye n’uburyo bakoresha mu gusesangura?
-answer: Naho Abanyaotirishiya bafata ingingo zishingiye ku vyiyumviro vy’ishimikiro, abahinga mu vy’ubutunzi ba Keynes canke abakunda amahera bakunda kwizigira amakuru y’ivyashikiye abantu.
+question: Ni itandukaniro irihe rikomeye riri hagati y’abahinga mu vy’ubutunzi bo muri Otirishi n’abahinga mu vy’ubutunzi bo muri Keynes canke abakunda amahera mu bijanye n’uburyo bakoresha mu gusesangura?
+answer: Naho Abanyaotirishi bafata ingingo zishingiye ku vyiyumviro vy’ishimikiro(axiomes), abahinga mu vy’ubutunzi ba Keynes canke abakunda amahera bakunda kwizigira amakuru y'abantu.
 wrong_answers:
-  - Abahinga mu vy’ubutunzi bo muri Otirishiya bizigira amakuru y’ibintu vy’ukuri, mu gihe abahinga mu vy’ubutunzi bo muri Keynes canke abakunda amahera bafata ingingo zishingiye ku vyiyumviro vy’ishimikiro.
-  - Abahinga mu vy’ubutunzi bo muri Otirishiya n’abahinga mu vy’ubutunzi bo muri Keynes canke abakunda amahera bakoresha uburyo bumwe bwo gusesangura.
-  - Abahinga mu vy’ubutunzi bo muri Otirishiya bizigira politike za Leta, mu gihe abahinga mu vy’ubutunzi bo muri Keynes canke abakunda amahera bizigira inguvu z’isoko.
+  - Abahinga mu vy’ubutunzi bo muri Otirishi bizigira amakuru y’ibintu vy’ukuri, mu gihe abahinga mu vy’ubutunzi bo muri Keynes canke abakunda amahera bafata ingingo zishingiye ku vyiyumviro vy’ishimikiro.
+  - Abahinga mu vy’ubutunzi bo muri Otirishi n’abahinga mu vy’ubutunzi bo muri Keynes canke abakunda amahera bakoresha uburyo bumwe bwo gusesangura.
+  - Abahinga mu vy’ubutunzi bo muri Otirishi bizigira politike za Leta, mu gihe abahinga mu vy’ubutunzi b'aba Keynes canke abakunda amahera bizigira inguvu z’isoko.
 explanation: |
-  Itandukaniro rikomeye hagati y'abahinga mu vy'ubutunzi bo muri Otirishiya n'abahinga mu vy'ubutunzi bo muri Keynes canke abahinga mu vy'amahera .
-  abahinga mu vy’ubutunzi mu bijanye n’uburyo bakoresha mu gusesangura ni uko naho Abanyaotirishiya biyumvira .
-  kuva ku vyiyumviro vy’ishimikiro umuntu ashobora gukuramwo ibintu bihuye n’ubwenge, Keynes canke . 
-  abahinga mu vy’ubutunzi bakunda amahera bakunda kwizigira amakuru y’ivyashikiye abantu kugira ngo bashireho amategeko rusangi y’ubutunzi.
+  Itandukaniro nyamukuru hagati y’abahinga b’ubutunzi bo muri otirishi n’abahinga b’ubutunzi ba Keynes canke b'abakunzi b'amahera ku bijanye n’uburyo bwo gusesengura ni uko, mu gihe otirishi bashira imbere gusigura ku vyiyumviro vy’inkomezi (axiomes), abahinga ba Keynes canke b'abakunzi bamahera bakunze gushigikira ku makuru y’ivyabonetse kugira bashireho amategeko rusangi y’ubutunzi.
 reviewed: true

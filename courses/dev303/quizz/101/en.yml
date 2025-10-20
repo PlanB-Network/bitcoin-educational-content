@@ -1,0 +1,8 @@
+question: Which specific characteristic of LDK's event-driven architecture enables applications to maintain clean separation between Lightning protocol logic and application-specific responses?
+answer: Asynchronous notifications are provided for all significant operations and state changes, allowing custom event handlers to be implemented independently
+wrong_answers:
+  - Synchronous callbacks are triggered directly within the channel manager, requiring immediate responses to maintain protocol compliance
+  - Event handlers are automatically generated based on application configuration, eliminating the need for custom implementation logic
+  - All events are queued in a central buffer and processed sequentially to ensure deterministic application behavior
+explanation: |
+  LDK's event system provides asynchronous notifications for all Lightning operations including peer connections, payments, and channel changes. This allows developers to implement custom event handlers that respond appropriately while maintaining clean separation between LDK's core functionality and application logic. The other options are incorrect because LDK doesn't use synchronous callbacks that block protocol operations, doesn't auto-generate handlers, and doesn't enforce sequential processing of events.

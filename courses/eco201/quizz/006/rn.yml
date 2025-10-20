@@ -1,10 +1,10 @@
 question: None intumbero nyamukuru y’ivyo vyigwa ni iyihe?
-answer: Iryo shure rigamije gutohoza ivyiyumviro nyamukuru vy’ubutunzi bwa Otirishiya.
+answer: Iryo shure rigamije gutohoza ivyiyumviro nyamukuru vy’ubutunzi bwa Otirishi.
 wrong_answers:
-  - Iryo shure rigamije guteza imbere inyigisho ya Keynes.
+  - Iryo shure rigamije guteza imbere inyigisho za Keynes.
   - Iryo shure rigamije gusigura ingene amabanki akora.
   - Iryo shure rigamije guteza imbere ugushira hamwe ububasha bw’amahera.
 explanation: |
   Ico kigabane kivuga ko iyo nyigisho igamije gutohoza ivy’
-  ivyiyumviro vy’ishimikiro vy’ubutunzi bwa Otirishiya.
+  ivyiyumviro ngenderwako y’ubutunzi bwa Otirishi.
 reviewed: true

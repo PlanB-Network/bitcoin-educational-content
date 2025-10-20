@@ -1,9 +1,9 @@
-question: Ni nde ashimwa kubera yasohoye iyo nyigisho?
-answer: Tewo Mojeneti
+question: Ni nde ashimirwa kubwo gutegura iki cigwa?
+answer: Théo Mogenet
 wrong_answers:
   - Ivyiyumviro Bitcoin.
-  - Tewo Bolore
-  - Nta na kimwe muri ivyo biri hejuru .
+  - Théo Bolore
+  - Nta nyishu nziza irimwo.
 explanation: |
-  Ico kigabane kivuga ko Théo ashimirwa kubera yasohoye iyo nyigisho.
+  Ico gice kivuga ko Théo ashimirwa kubera yasohoye iyo nyigisho.
 reviewed: true

@@ -38,6 +38,8 @@ Selle kursuse eesmärk on anda teile täielik kontroll selle üle, kuidas te õp
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Tere tulemast BTC102-sse! Kui te olete juba läbinud BTC101, siis olete uurinud peamisi teoreetilisi kontseptsioone, miks Bitcoin on nii revolutsiooniline tehnoloogia. Nüüd, BTC102, on aeg need teadmised ellu viia. See kursus on mõeldud selleks, et aidata teil samm-sammult koostada oma isiklik Bitcoin plaan.
 
@@ -111,6 +113,8 @@ Kas olete valmis alustama oma teekonda Bitcoin maailma? Läheme!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Bitcoin ökosüsteem ja seda ümbritsev keskkond on sõltuvalt riigist veel suhteliselt noor ja nõrgalt reguleeritud. Kuigi see vabadus avab tohutuid võimalusi, loob see ka soodsa pinnase finantspettustele, pettustele ja mitmesugustele manipulatsioonivormidele. Seepärast on esimene peatükk nii oluline: tavapäraste lõkse mõistmine aitab teil neid vältida. Teie rahaline turvalisus on esmatähtis, sest halb kogemus ei mõjuta mitte ainult teid, vaid kogu Bitcoin kogukonda.
@@ -350,6 +354,8 @@ Enda kaitsmine pettuste eest on esimene oluline samm oma vara kaitsmisel, kuid s
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 Niipea kui hakkate Bitcoin-ga tegelema, mõistate kiiresti, et põhiline küberturvalisus ei ole vabatahtlik - see on hädavajalik. Pettused ja pettused on vaid jäämäe tipp. Juhuslik andmekaotus, pahavara ja kompromiteeritud paroolid võivad olla sama hävitavad, eriti kui te ise oma võtmeid haldate.
@@ -550,6 +556,8 @@ Järgmises peatükis jagan veel mõned nõuanded, mis aitavad teil Bitcoin teeko
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -820,6 +828,8 @@ Järgides neid põhimõtteid, saate läheneda Bitcoin investeerimisele suurema s
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 Selle kursuse peamine eesmärk on juhendada teid oma esimeste bitcoinide omandamise ja kindlustamise kaudu. Kuid enne praktilistesse sammudesse (kuidas osta BTC-d, milliseid rahakotte kasutada jne) on oluline astuda samm tagasi ja mõista, mis on Bitcoin tegelikult. Bitcoin sügavama olemuse mõistmine aitab teil mõista, miks miljonid inimesed selle tehnoloogia poole pöörduvad ja miks on oluline mõista põhialuseid, enne kui panete oma säästud sellisesse uude ja volatiilsesse varasse.
 
@@ -1039,6 +1049,8 @@ Pärast seda Bitcoin tutvustust (mis võis võtta veidi kauem aega kui 5 minutit
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
+
 
 
 Miks on Bitcoin nii oluline? See on selle kursuse keskne küsimus. Olenemata sellest, kas see on seotud teie õpingute või investeerimisstrateegiaga, ilma selge arusaamata Bitcoin tähtsusest on oht kalduda oma plaanist kõrvale. Eesmärk on hoida Bitcoin aluspõhimõtteid alati meeles, et teie strateegia oleks kooskõlas teie veendumustega.
@@ -1254,6 +1266,8 @@ Nüüd, kui me oleme uurinud Satoshi Nakamoto leiutise sügavat tähtsust, tutvu
 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 
 
@@ -1596,6 +1610,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
+
 
 Bitcoin on avatud süsteem, mis on algusest peale loodud minimalistlikuks, töökindlaks ja turvaliseks. Funktsionaalsuse lisamiseks ilma selle aluseid muutmata tehakse arenguid üldiselt **protokollide kihtide** ja täiendavate rakenduste lisamisega, mis rikastavad ökosüsteemi, ilma et see kahjustaks põhisüsteemi detsentraliseeritust ja vastupidavust. Selline paindlikkus on võimaldanud arvukatel ettevõtetel ja sõltumatutel arendajatel luua Bitcoin ümber infrastruktuuri, lisades uuendusi, mis on kohandatud erinevatele kasutusviisidele.
 
@@ -1758,6 +1774,8 @@ Järgmiseks kursusel: me läheme praktiliseks ja aitame teil määratleda oma bi
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 Nüüd, kui olete õppinud Bitcoin teoreetilised alused, on aeg minna üle praktilisele poolele. See osa aitab teil mõista, kuidas hankida oma esimesed bitcoinid, kuidas neid turvaliselt säilitada ja kuidas kohandada oma lähenemist vastavalt isiklikule olukorrale. Eesmärk on aidata teil kindlaks teha, mis tüüpi kasutaja te olete, et saaksite võtta kasutusele strateegia, mis vastab teie vajadustele ja piirangutele.
@@ -2219,6 +2237,8 @@ Järgmistes peatükkides uurime iga neist profiilidest üksikasjalikult, et te s
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 Bitcoin kogukonnas viitab mõiste "hodler" inimesele, kes kasutab pikaajalist investeerimisviisi. Sõna sai alguse kuulsast trükivigastusest "hold" Bitcoin Talk foorumis aastaid tagasi ja sellest ajast alates on sellest saanud Commitment sümbol: hoia oma Bitcoin-st kinni, ükskõik, mis juhtub, ilma lühiajaliste turukõikumiste pärast stressimata.
 
@@ -2388,6 +2408,8 @@ Järgmises peatükis uurime sarnast, kuid aktiivsemat profiili: stäkker.
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 Bitcoin ökosüsteemis on stäkker see, kes kogub järjepidevalt ja pikaajaliselt satoshi (või "Sats"), mis on Bitcoin väikseim ühik. Selle asemel, et investeerida korraga suur summa, ostab stäkker regulaarselt väikeseid koguseid Bitcoin, sõltumata turutingimustest.
@@ -2582,6 +2604,8 @@ Järgmine: uurime radikaalselt erinevat bitcoineri profiili; aktiivne kasutaja.
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 Bitcoin aktiivseks kasutajaks saamine tähendab, et tuleb minna kaugemale pikaajalistest investeerimisstrateegiatest. Erinevalt hodlerist või stäkkerist, kes peamiselt säästab ilma kulutamata, suhtub aktiivne kasutaja Bitcoin-sse kui **Exchange** tegelikku meediumisse. Nad kasutavad seda kaupade ja teenuste eest tasumiseks ning osalevad aktiivselt vastumajanduses.
@@ -2830,6 +2854,8 @@ Järgmises peatükis uurime viimast ja ehk kõige intrigeerivamat Bitcoin kasuta
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 Paranoilise Bitcoineri jaoks ei ole privaatsus vabatahtlik, see on hädavajalik. Maailmas, kus peaaegu iga rahalist liigutust jälgitakse, peavad nad oma identiteedi ja tehinguloo kaitsmist Bitcoin kasutamise vältimatuks osaks. Nad on tavaliselt väga teadlikud riskidest, mis kaasnevad isikuandmete avaldamisega (eriti kui nad kasutavad KYC-konformseid vahetusi, mis nõuavad isikutuvastust).
@@ -3122,6 +3148,8 @@ Kursuse järgmises osas arutame olulist teemat, mis sageli tähelepanuta jäetak
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 Teie bitcoinide edastamise tagamine on vastutus, mida sageli ei arvestata, kuid mis on väga oluline. Bitcoin pakutava finantssuveräänsuse juurde kuulub ka vajadus hoolika varahalduse järele. Ilma selleta võivad teie pärijad sattuda olukorda, kus nad ei pääse ligi teie Hard-ga teenitud rahalistele vahenditele. Selles peatükis uurime pärandi planeerimise põhialuseid, kuna see kehtib Bitcoin puhul.
@@ -3444,6 +3472,8 @@ Eriline tänu [Pamela Morganile](https://x.com/pamelawjd) tema töö eest ja sel
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 Kui olete jõudnud nii kaugele, siis kuulute nüüd valgustatud vähemusse! Väga vähesed inimesed jõuavad Bitcoin-ga nii kaugele ja te võite olla uhke selle üle, kui kaugele te olete jõudnud. Võib-olla olete jälginud kõiki selles koolituskursuses pakutavaid õpetusi: Seadistanud oma esimese Hardware Wallet, Taganud oma taastumislause, Loonud dollari-kulude keskmistamise (DCA) plaani, Omandanud Bitcoin koos KYC-ga ja ilma selleta, Isegi planeerinud oma Bitcoin pärimise. Iga teie tehtud samm on hüpe tõelise finantssuveräänsuse suunas.

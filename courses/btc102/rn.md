@@ -38,6 +38,8 @@ Iryo shure ryagenewe kuguha ububasha bwose ku kuntu wiga, rigufashe gutohoza Bit
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Murakaze muri BTC102! Niba waramaze kurangiza BTC101, warasuzumye ivyiyumviro nyamukuru vy’inyigisho bituma Bitcoin ari ubuhinga bushasha. None, na BTC102, ni igihe co gushiramwo ubwo bumenyi mu ngiro. Iryo shure ryateguwe kugira ngo rigufashe kwubaka umugambi wawe bwite wa Bitcoin, intambwe ku yindi.
 
@@ -109,6 +111,8 @@ Ni mwiteguye gutangura urugendo rwanyu mw'isi ya Bitcoin? Reka tugende!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 :::id ya videwo=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a::
@@ -350,6 +354,8 @@ Kwikingira ubusuma ni intambwe ya mbere ihambaye cane mu kurinda itunga ryawe; a
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 :::id ya videwo=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
@@ -552,6 +558,8 @@ Mu gice gikurikira, nzobabwira izindi mpanuro nkeyi zizogufasha gutangura urugen
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 :::id ya videwo=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b::
@@ -824,6 +832,8 @@ Niwakurikiza izo ngingo ngenderwako, uzoshobora kwegera Bitcoin investing ufise 
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 :::id ya videwo=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f::
 
@@ -1046,6 +1056,8 @@ Inyuma y’iyi ntangamarara ya Bitcoin (ishobora kuba yatwaye iminota irenga 5!)
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
+
 
 :::id ya videwo=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f::
 
@@ -1263,6 +1275,8 @@ Ubu ko twamaze gutohoza insobanuro ikomeye y’ubuhinga bwa Satoshi Nakamoto, ig
 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 
 :::id ya videwo=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d::
@@ -1607,6 +1621,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
+
 
 :::id ya videwo=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
@@ -1772,6 +1788,8 @@ Igikurikira mu nyigisho: tuzoronka ibikorwa kandi tugufashe gusobanura urutonde 
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 :::id ya videwo=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d::
@@ -2236,6 +2254,8 @@ Mu bice bikurikira, tuzokwihweza buri kimwe muri ivyo bimenyetso mu buryo buramb
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 :::id ya videwo=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
 
@@ -2408,6 +2428,8 @@ Mu kigabane gikurikira, tuzokwihweza urutonde rusa n’urwo ariko rukora cane: u
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 :::id ya videwo=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b::
@@ -2605,6 +2627,8 @@ Igikurikira: tuzokwihweza urutonde rw’aba bitcoiner rutandukanye cane; umukore
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 :::id ya videwo=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c::
@@ -2856,6 +2880,8 @@ Mu kigabane gikurikira, tuzoca irya n’ino urutonde rw’abakoresha Bitcoin rwa
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 :::id ya videwo=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
@@ -3151,6 +3177,8 @@ Mu gice gikurikira c’amashure, tuzoganira ku ciyumviro gihambaye kenshi kireng
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 :::id ya videwo=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e::
@@ -3476,6 +3504,8 @@ Turashimira cane [Pamela Morgan](https://x.com/pamelawjd) ku bikorwa vyiwe no ku
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 :::id ya videwo=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::

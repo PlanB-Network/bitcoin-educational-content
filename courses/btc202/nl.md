@@ -3138,7 +3138,7 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 - gW-446.conf` bevat de configuratieparameters van je knooppunt. Hier kun je de relaisregels aanpassen. Ik vertel je hier meer over in het volgende hoofdstuk.
 - `settings.json` bevat aanvullende parameters voor `Bitcoin.conf`.
 - `debug.log` is het diagnostische tekstlogboek, dat kan worden gebruikt om de activiteit van een knooppunt te begrijpen in het geval van een bug.
-- gW-448.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van het knooppunt en verwijderd bij het afsluiten.
+- `bitcoind.pid` registreert de proces-ID tijdens de uitvoering, waardoor andere applicaties of scripts Bitcoind (*Bitcoin Daemon*) eenvoudig kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het starten van de node en verwijderd bij het afsluiten;
 - `ip_asn.map` is een IP → ASN mapping tabel (standalone systeem) gebruikt voor bucketing en peer diversificatie (`-asmap` optie).
 - `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiele onion Address te behouden tussen reboots.
 - `i2p_private_key` slaat de privé-sleutel van I2P op wanneer `-i2psam=` wordt gebruikt, om uitgaande en mogelijk inkomende verbindingen op I2P te maken.
@@ -3156,7 +3156,7 @@ Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel
 
 - `wallets/` is de standaardmap die een of meer;
 - `wallets/<name>/Wallet.dat` is de SQLite database van de Wallet (sleutels, descriptors, transactie metadata, etc.);
-- wallets/<name>/Wallet.dat-journal` is het SQLite rollback logboek.
+- `wallets/<name>/wallet.dat-journal` is het SQLite-rollbacklogboek.
 
 
 
@@ -3335,10 +3335,10 @@ Op netwerkniveau hebben we ook:
 
 
 - `addnode`: voegt een vriendelijke peer toe om contact mee op te nemen naast de gebruikelijke ontdekking (kan meerdere keren gespecificeerd worden).
-- connect`: beperkt verbindingen strikt tot het Address knooppunt (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere knooppunten.
+- `connect`: beperkt verbindingen strikt tot het opgegeven adres (kan meerdere keren worden gespecificeerd). Core zal geen verbinding maken met andere nodes;
 - `seednode`: wordt alleen gebruikt om het boek-Address in te vullen als er verbinding wordt gemaakt met een knooppunt en daarna de verbinding wordt verbroken.
 - `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je knooppunt nooit meer dan 125 verbindingen zal accepteren.
-- maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente Elements.
+- `maxuploadtarget` : beperkt de upload om de bandbreedte te beperken over een rollend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente elementen;
 - `onlynet`: beperkt uitgaande verbindingen tot alleen geselecteerde netwerken (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Als je bijvoorbeeld wilt dat je node alleen via Tor verbinding maakt met het Bitcoin netwerk, dan kun je de `onlynet=onion` parameter inschakelen en inkomende verbindingen uitschakelen (of ook alleen verbindingen via Tor toestaan).
 - `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale Address pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
 - `forcednsseed`: verplicht _DNS seeds_ aan te vragen bij het opstarten, zelfs als je al adressen op voorraad hebt (standaard: `0`).
@@ -3362,7 +3362,7 @@ Om volledig Tor-enabled te zijn, moet je Bitcoin core dwingen om alleen dit netw
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `luisteren=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het knooppunt uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je knooppunt met je Wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
+- `blocksonly=1` : Schakelt de acceptatie en doorsturing van onbevestigde transacties van peers uit (behalve met speciale toestemming). De node downloadt en kondigt alleen blokken aan. Lokaal gemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je walletsoftware te gebruiken). Dit vermindert de bandbreedte en het RAM-gebruik aanzienlijk, maar verlaagt de bruikbaarheid voor relay en elimineert kennis van de mempool volledig.
 
 
 
@@ -3448,7 +3448,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien Mining via knooppunt) op te nemen via een `OP_RETURN` uitgang (standaard: `1`). Het deactiveren van deze parameter verkleint de oppervlakte voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gedolven `OP_RETURN` accepteren.
+- `datacarrier=1` : Staat het doorgeven en (bij mining via de node) opnemen van transacties met niet-financiële gegevens toe via een `OP_RETURN`-output (standaard: `1`). Het uitschakelen van deze parameter vermindert enigszins de kans op spam van niet-financiële gegevens, maar verlaagt de compatibiliteit met bepaalde toepassingen. In alle gevallen moet je geminde `OP_RETURN` accepteren.
 
 
 
@@ -3490,13 +3490,13 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- peerbloomfilters=1`: Schakel ondersteuning in voor Bloom filters (BIP37) om gefilterde blokken/transacties te serveren aan thin clients (standaard: `0`). Waarschuwing: dit verhoogt de belasting van uw bronnen.
+- `peerbloomfilters=1` : Schakelt ondersteuning in voor Bloom-filters (BIP37) om gefilterde blokken/transacties te leveren aan lichte clients (standaard: `0`). Let op, dit verhoogt de belasting van je systeembronnen.
 
 
 
 
 
-- peerblockfilters=1`: Geeft BIP157 (*Neutrino*) compacte filters aan peers (standaard: `0`).
+- `peerblockfilters=1` : Biedt compacte BIP157 (*Neutrino*) filters aan peers (standaard: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definieert het formaat van Wallet gegenereerde adressen voor ontvangst.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Bepaalt het formaat van de adressen die door de wallet worden gegenereerd voor ontvangst.
 
 
 
@@ -3568,7 +3568,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- fallbackfee=<amt>`: Terugvalsnelheid (BTC/kvB) die wordt gebruikt als de schatter geen gegevens meer heeft (standaard: `0,00`). Als dit op 0 wordt gezet, wordt fallback volledig uitgeschakeld.
+- `fallbackfee=<amt>` : Noodtarief (BTC/kvB) dat wordt gebruikt als de schatter onvoldoende gegevens heeft (standaard: `0.00`). Instellen op 0 schakelt de noodfunctie volledig uit.
 
 
 
@@ -3660,7 +3660,7 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` niet-Wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
+- `txindex=1` : Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde verzoeken (`getrawtransaction` buiten de wallet) en voor onderzoeksdoeleinden, maar verhoogt het schijfgebruik aanzienlijk. Niet compatibel met de gesnoeide modus.
 
 
 

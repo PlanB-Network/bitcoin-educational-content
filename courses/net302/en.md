@@ -280,7 +280,7 @@ Each network technology imposes its own MTU, determined by its hardware and prot
 When a datagram exceeds the MTU of a network segment it needs to cross, routing equipment will split it into smaller **fragments** that comply with the limit. This typically happens when moving from a high-MTU network to one with a lower capacity. For example, a datagram coming from an FDDI network may need to be fragmented before being sent over an Ethernet segment.
 
 
-![Image](assets/en/008.webp)
+![Image](assets/en/007.webp)
 
 
 The fragmentation process works like this:
@@ -308,7 +308,7 @@ Transmission thus follows a structured process:
 - The Network Access layer wraps the datagram into a **frame**, adding MAC addresses and integrity check codes (CRC).
 
 
-![Image](assets/en/009.webp)
+![Image](assets/en/008.webp)
 
 
 This encapsulation process ensures both the integrity and traceability of the data, and also its adaptability: when moving from one network to another, the headers provide devices with the information needed to choose the route, check validity, or perform fragmentation if necessary.
@@ -316,7 +316,7 @@ This encapsulation process ensures both the integrity and traceability of the da
 Upon arrival, the process is reversed: the receiving machine gets the frame at the Network Access layer, which reads and removes the corresponding header. The datagram is then passed to the Internet layer, which reads the IP header and removes it in turn to deliver the segment to the Transport layer. The Transport layer processes the transport headers, checks the integrity of the stream, and finally delivers the **message** to the target application in its original state.
 
 
-![Image](assets/en/010.webp)
+![Image](assets/en/009.webp)
 
 
 The transformation of the data at each layer can be summarized as:
@@ -326,7 +326,7 @@ The transformation of the data at each layer can be summarized as:
 - **Frame**: final block ready for transmission over the physical medium by the Network Access layer.
 
 
-![Image](assets/en/011.webp)
+![Image](assets/en/010.webp)
 
 
 This process, essential to the reliability and universality of Internet communications, ensures that every piece of data, no matter how fragmented or complex, can be transported end-to-end while remaining comprehensible and usable by the receiving machine.
@@ -362,7 +362,7 @@ That leaves 254 usable addresses for devices.
 The number of available addresses varies widely between classes: from large public networks in class A, to corporate networks in class B, to smaller local networks in class C.
 
 
-![Image](assets/en/013.webp)
+![Image](assets/en/011.webp)
 
 
 Some address ranges are reserved for private use and never routed directly on the Internet. These are known as **private addresses**, and are used inside organizations, businesses, or homes, and require address translation, typically NAT (*Network Address Translation*), to reach the public Internet. These are:
@@ -416,7 +416,7 @@ We want 4 subnets of up to 60 hosts each.
 **Step 5**: This creates four subnetworks, each supporting up to 62 machines, while keeping the overall addressing scheme efficient. The _hostid_ portion is split into a _subnetid_ part and a host part.
 
 
-![Image](assets/en/016.webp)
+![Image](assets/en/012.webp)
 
 
 This fundamental principle of subnetting remains indispensable in modern network engineering, allowing precise IP allocation, better traffic control, strong segment isolation, and scalable network management.
@@ -486,13 +486,13 @@ TCP's main responsibilities include:
 TCP is a connection-oriented protocol, meaning it sets up an explicit, ongoing relationship between client and server. To do this, it uses **sequence numbers** and **acknowledgements**: for every segment sent, a unique identifier is assigned so the receiving machine can check both the order and integrity of the data. The receiver then returns an acknowledgement segment with the **ACK flag** set to 1, confirming receipt and indicating the next expected sequence number.
 
 
-![Image](assets/en/018.webp)
+![Image](assets/en/013.webp)
 
 
 To improve reliability, TCP uses a timer: once a segment is sent, a countdown starts. If an acknowledgement does not arrive within the timeout period, the sender automatically retransmits the segment, assuming it was lost in transit. This automatic retransmission mechanism offsets the losses inherent to IP networks, which can occur in cases of congestion, routing errors, or hardware failures.
 
 
-![Image](assets/en/019.webp)
+![Image](assets/en/014.webp)
 
 
 TCP is able to detect and handle duplicates. If a retransmitted segment arrives but the original also shows up, the receiver uses the sequence numbers to identify the duplicate and keep only the correct copy, eliminating any ambiguity.
@@ -507,7 +507,7 @@ The sequence synchronization exchange is based on the famous **"*three-way hands
 3. **ACK:** The client sends a final acknowledgement (**ACK**) confirming receipt of the server's sequence number, finalizing synchronization. The SYN flag is now disabled and the ACK flag remains set indicating that the connection is established.
 
 
-![Image](assets/en/020.webp)
+![Image](assets/en/015.webp)
 
 
 This exchange protocol ensures that both parties share the same numbering base before transmitting payload data. Once this synchronization is complete, the session is opened: segments can now travel in both directions, each acknowledged upon receipt, ensuring maximum reliability of the data flow.
@@ -523,7 +523,7 @@ In practical terms, the sliding window defines a range of sequence numbers that 
 **Example**: if the initial sequence number is 3 and the window extends to sequence 5,segments numbered 3 to 5 can be sent without waiting for individual acknowledgements.
 
 
-![Image](assets/en/021.webp)
+![Image](assets/en/016.webp)
 
 
 The size of the sliding window is not fixed; it adjusts dynamically to network conditions and the receiver's processing capacity.  If the receiver can handle a greater volume of data, it indicates this through the Window field, prompting the sender to expand its window. Conversely, in case of overload or risk of saturation, the receiver can request a reduction, the sender will wait until the window moves forward to send additional segments.
@@ -535,7 +535,7 @@ Upon receiving this segment, the other machine sends an acknowledgement, also ma
 This precise management,combining IP's flexible routing with TCP's strict control, is often illustrated by a diagram contrasting the speed of the IP protocol (which works on a **"best effort "** basis, with no guarantee of delivery) against the reliability of the TCP protocol (which manages transmission through acknowledgements and negotiated sequences).
 
 
-![Image](assets/en/022.webp)
+![Image](assets/en/017.webp)
 
 
 In some cases, however, absolute reliability is not the priority: speed and simplicity are. This is true for applications like live streaming or VoIP, which can tolerate some packet loss without seriously affecting user experience. In such cases, **UDP** (_User Datagram Protocol_) is preferred.
@@ -562,13 +562,13 @@ Two key aspects govern these exchanges:
 - **Vertical aspect**: the relationship between one layer and the one above or below it (from layer N to layer N+1, and vice versa).
 
 
-![Image](assets/en/023.webp)
+![Image](assets/en/018.webp)
 
 
 - **Horizontal aspect**: the interaction between remote applications, i.e., the dialogue between a **client** and a **server**, in either direction.
 
 
-![Image](assets/en/024.webp)
+![Image](assets/en/019.webp)
 
 
 The layered architecture follows the principle that each layer processes only the information within its scope: data structures, headers and control mechanisms vary from one layer to another, but together they form a coherent system, ensuring data is gradually routed to its final destination.
@@ -595,7 +595,7 @@ At the core of this system are **service primitives**, which act as communicatio
 By combining the horizontal aspect (communication between distributed applications) with the vertical aspect (internal interactions between layers), the TCP/IP model delivers a complete, scalable architecture. Overlapping these two perspectives gives a clear overview of how data is exchanged in structured network communication.
 
 
-![Image](assets/en/026.webp)
+![Image](assets/en/020.webp)
 
 
 ### Part summary
@@ -636,7 +636,7 @@ IP addresses can be assigned in two main ways:
 example: address 172.16.254.1_
 
 
-![Image](assets/en/027.webp)
+![Image](assets/en/021.webp)
 
 
 Each bit in a byte has a value (or "weight"): the left-hand bit (the most significant bit) is worth 128, the next 64, then 32, 16, 8, 4, 2 and 1 for the right-hand bit (the least significant bit). In this way, binary writing is converted to decimal by the simple addition of the set weights.
@@ -836,12 +836,12 @@ It's important to remember that the MAC address and the IP address are two compl
 
 - Visual example of MAC address:
 
-![Image](assets/en/032.webp)
+![Image](assets/en/022.webp)
 
 
 - Visual example of an IP address:
 
-![Image](assets/en/027.webp)
+![Image](assets/en/023.webp)
 
 
 In a corporate environment, these two addressing levels cannot function separately. For example, when a DHCP server automatically assigns an IP address, the MAC address of the equipment is used as the starting point. The computer sends a DHCP broadcast request containing its MAC address so the server can assign an available IP address to the correct device. Without this hardware identification, the DHCP server wouldn't know which device to deliver the address to.
@@ -888,7 +888,7 @@ This approach has an immediate benefit: it completely hides the internal network
 In addition to addressing IPv4 scarcity, NAT also strengthens security by creating a first logical barrier between the internal and public networks. Unsolicited inbound communications are naturally blocked, since only connections initiated from inside the network benefit the necessary translation to receive responses.
 
 
-![Image](assets/en/035.webp)
+![Image](assets/en/024.webp)
 
 
 ### Translation types
@@ -939,7 +939,7 @@ In general, any protocol that explicitly includes the internal IP address in the
 _To illustrate how this works in practice, consider the following example:_
 
 
-![Image](assets/en/037.webp)
+![Image](assets/en/025.webp)
 
 
 In this scenario, an internal workstation can access the internal web server simply by calling the URL `http://192.168.1.20:80`. Specifying the port is optional here, since `80` is the standard HTTP port.Conversely, if a request is initiated from the outside, the user will enter the public address `http://85.152.44.14:80`. The NAT router receives the request, consults its mapping table, and automatically translates the public address into a private one, redirecting the connection to `http://192.168.1.20:80`.
@@ -1068,7 +1068,7 @@ This modular structure is still valid and can be easily automated on current sys
 In professional environments, the aim is to guarantee service continuity and/or to aggregate bandwidth. *Bonding* (or *teaming* with _teamd_) mechanisms meet these needs: several physical interfaces function as a single logical Interface, often called `bond0` or `team0`.
 
 
-![Image](assets/en/039.webp)
+![Image](assets/en/026.webp)
 
 
 Prerequisites:
@@ -1391,7 +1391,7 @@ For automatic configuration, several methods exist:
 
 Here's an example of how to transform a MAC address into EUI-64:
 
-![Image](assets/en/045.webp)
+![Image](assets/en/027.webp)
 
 
 However, due to growing concerns over device tracking, modern operating systems (notably Linux, Windows 10+, macOS, Android) now enable privacy extensions by default. These use randomly generated interface identifiers that are periodically renewed for outgoing connections, while keeping a stable identifier for internal communications (such as DNS or DHCPv6).
@@ -1486,7 +1486,7 @@ Here's an overview of the different types of extension headers defined by IPv6.
 
 This header, if present, is always placed immediately after the base header. It contains information that must be processed by every router along the packet's path, unlike most other headers, which are usually handled only by the destination node. Typical uses include signaling global parameters or requesting specific processing steps as the packet travels through the network.
 
-![Image](assets/en/047.webp)
+![Image](assets/en/028.webp)
 
 #### Routing header
 
@@ -1502,7 +1502,7 @@ The first four fields of this rooting header are:
 
 The "Segments Left" field starts with the total number of remaining segments and is decremented by one at each hop.
 
-![Image](assets/en/048.webp)
+![Image](assets/en/029.webp)
 
 #### Fragmentation header
 
@@ -1513,7 +1513,7 @@ The fragmentation header contains the following fields:
 - **Fragment Offset**: the fragment's position within the original datagram.
 - **M flag**: indicates whether more fragments follow.
 
-![Image](assets/en/049.webp)
+![Image](assets/en/030.webp)
 
 #### Authentication header (AH)
 
@@ -1521,7 +1521,7 @@ This header is designed to secure communications by verifying both the sender's 
 
 In the event of a fraudulent modification attempt, the authentication code will no longer match, and the datagram may be rejected. This mechanism also protects against replay attacks by detecting unauthorized duplications.
 
-![Image](assets/en/050.webp)
+![Image](assets/en/031.webp)
 
 #### Destination Options Header
 
@@ -1529,7 +1529,7 @@ This header is intended only for the final recipient of the datagram. It can be 
 
 Initially, no such option was defined in the protocol. However, this header was introduced when IPv6 was designed, to allow future extensions to be added without modifying the overall packet structure. The null option, for example, is used only to pad the header to a multiple of 8 bytes for memory alignment purposes.
 
-![Image](assets/en/051.webp)
+![Image](assets/en/032.webp)
 
 IPv6 packet design is built on a clear separation between a minimal base header and modular extension headers. This architecture ensures both standard processing performance and the flexibility needed to evolve the protocol and integrate security, complex routing or quality-of-service mechanisms, while maintaining compatibility with future infrastructures.
 
@@ -1770,7 +1770,7 @@ Wireshark is available on many operating systems, including Linux and Windows. I
 - raw hexadecimal data.
 
 
-![Image](assets/en/052.webp)
+![Image](assets/en/033.webp)
 
 
 Wireshark excels in scenarios where you need to observe complex protocol behavior, reconstruct application dialogs (such as an HTTP or DNS session), or study service response times. It also supports highly specific display filters using its dedicated syntax (different from that of `tcpdump`) to focus only on relevant packets.
@@ -1806,7 +1806,7 @@ ethtool enp0s3
 This command outputs a detailed report on the `enp0s3` interface, a common naming convention on CentOS or RHEL-based systems.
 
 
-![Image](assets/en/053.webp)
+![Image](assets/en/034.webp)
 
 
 #### Dynamically modify Interface parameters
@@ -2202,7 +2202,7 @@ nmap 192.168.0.0/24
 In this case, all hosts in the range `192.168.0.0` to `192.168.0.255` will be queried. For each IP address, the results list the open ports, their status (open, filtered, etc.), and, when possible, the name of the corresponding service.
 
 
-![Image](assets/en/055.webp)
+![Image](assets/en/035.webp)
 
 
 An administrator can rely on `nmap` for several tasks:

@@ -1,0 +1,8 @@
+question: Why is using expect() on hard-coded values that seem compiler-verified potentially problematic in production code?
+answer: Hard-coded values can evolve over time through refactoring, turning previously valid values into runtime failures
+wrong_answers:
+  - The compiler cannot verify the validity of hard-coded values at compile time, making expect() unreliable
+  - Hard-coded values consume more memory than dynamic values, causing performance issues with expect()
+  - The expect() method adds unnecessary overhead compared to unwrap() when dealing with known valid values
+explanation: |
+  The correct answer highlights a critical insight from the chapter: even seemingly safe hard-coded values can become dangerous over time. The example shows how a valid IP address might be refactored into a constant and later changed to 'localhost', breaking the original assumption. The wrong answers are incorrect because: the compiler can verify hard-coded values at compile time, memory consumption isn't the issue with expect(), and expect() doesn't have significant performance overhead compared to unwrap().

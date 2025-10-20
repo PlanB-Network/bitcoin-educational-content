@@ -1,0 +1,8 @@
+question: What specific technical requirement for Lightning wallet recovery creates a fundamental departure from traditional Bitcoin wallet restoration methods?
+answer: Lightning wallets require additional channel state information beyond the seed phrase for complete recovery
+wrong_answers:
+  - Lightning wallets require connection to multiple blockchain networks simultaneously during recovery
+  - Lightning wallets require real-time validation of all historical transactions during restoration
+  - Lightning wallets require coordination with Lightning Service Providers to rebuild payment routing tables
+explanation: |
+  Traditional Bitcoin wallets can be fully restored using only a seed phrase through hierarchical deterministic key derivation, as all transaction history exists on the blockchain. However, Lightning wallets maintain off-chain channel states that are not recorded on the blockchain. These channel states contain critical information about payment channel balances and pending transactions that cannot be reconstructed from the seed phrase alone. This creates a fundamental challenge requiring secure remote persistence mechanisms to store channel state information while maintaining non-custodial security principles.

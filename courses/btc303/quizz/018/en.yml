@@ -1,0 +1,8 @@
+question: What does Bitcoin's trustless property specifically eliminate the need for in digital transactions?
+answer: Trusted third parties to process and validate transactions
+wrong_answers:
+  - Hardware and software components to run Bitcoin nodes
+  - Cryptographic algorithms to secure private keys and signatures
+  - Network consensus mechanisms to agree on valid blocks
+explanation: |
+  Bitcoin's trustless property specifically eliminates the need for trusted third parties like banks or financial institutions to process and validate transactions. As Satoshi Nakamoto explained in the Bitcoin whitepaper, traditional commerce relies on financial institutions serving as trusted intermediaries, but Bitcoin's design allows the system to function correctly without any trusted parties through its decentralized consensus mechanism. The other options represent essential technical components that Bitcoin still requires - you still need hardware/software to participate, cryptographic security remains fundamental, and network consensus is how Bitcoin achieves trustlessness rather than something it eliminates.

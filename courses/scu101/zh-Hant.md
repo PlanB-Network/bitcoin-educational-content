@@ -33,6 +33,8 @@ Théo；貢獻
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 ### 目標：更新您的安全技能 ！
 
 歡迎大家參加這個專門針對數位安全的教育課程。本訓練旨在讓每個人都能接受，因此不需要事先瞭解電腦科學知識。我們的主要目標是提供您必要的知識和技能，讓您更安全、更隱私地遨遊數位世界。
@@ -93,6 +95,8 @@ Théo；貢獻
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 瀏覽網際網路時，必須避免某些常見錯誤，以維護您的線上安全。以下是一些避免這些錯誤的提示：
 
 ### 謹慎使用軟體下載：
@@ -139,6 +143,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPN
 
 保護您的網際網路連線是線上安全的重要一環，而使用虛擬私人網路 (VPN) 是加強此安全性的有效方法，不論是對企業或個人使用者而言皆然。
@@ -179,6 +185,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ## 電腦使用
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 在現今的數位世界中，我們電腦的安全性是大家最關心的議題。今天，我們將 Address 三個重點：
 
@@ -232,6 +240,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### 駭客如何攻擊？
 
 為了好好保護自己，了解駭客如何嘗試滲透您的電腦是非常重要的。事實上，病毒通常不會神奇地出現，而是我們的行為所造成的後果，甚至是無意中造成的！
@@ -281,6 +291,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### 設定新的電子郵件帳戶！
 
 電子郵件帳戶是您線上活動的中心點：如果它被洩露，駭客就可以利用它透過「忘記密碼」功能重設您所有的密碼，並進入許多其他網站。這就是您需要妥善保護它的原因。
@@ -314,6 +326,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## 密碼管理員
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### 什麼是密碼管理器？
 
@@ -363,6 +377,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## 雙因素驗證
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### 為何實施 2FA
 
@@ -497,6 +513,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 ### 網路安全：機會無限的成長領域
 
 如果您熱衷於保護系統和資料，網路安全領域提供了許多機會。如果這個行業讓您感到興趣，以下是一些重要的步驟。
@@ -535,6 +553,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 專訪 Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### 高效的密碼管理與認證強化：學術方法
 

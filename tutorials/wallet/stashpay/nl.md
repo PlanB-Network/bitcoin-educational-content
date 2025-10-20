@@ -168,4 +168,4 @@ Je hebt net de minimalistische Bitcoin Wallet van StashPay onder de knie. Als je
 
 
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

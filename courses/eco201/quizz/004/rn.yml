@@ -1,12 +1,11 @@
-question: Ni ubuhe buryo nyamukuru ubutunzi bwa Otirishiya bukoresha mu gutahura ubutunzi?
-answer: Ubutunzi bwa Otirishiya butahura ubutunzi bushingiye ku nzira y’ubwenge bw’umuntu n’ubuhinga bw’imibano.
+question: Ni ubuhe buryo nyamukuru ubutunzi bwa Otirishi bukoresha mu gutahura ubutunzi?
+answer: Ubutunzi bwa Otirishi butahura ubutunzi bushingiye ku nzira y’ubwenge bw’umuntu n’ubuhinga bw’imibano.
 wrong_answers:
-  - Ubutunzi bwa Otirishiya buratahura ubutunzi biciye mu mibare.
-  - Ubutunzi bwa Otirishiya butahura ubutunzi bushingiye ku gucapura amahera no kuyakoresha.
-  - Ubutunzi bwa Otirishiya butahura ubutunzi bushingiye ku mbonerahamwe y’amabanki akomeye.
+  - Ubutunzi bwa Otirishi buratahura ubutunzi biciye mu biharuro.
+  - Ubutunzi bwa Otirishi butahura ubutunzi bushingiye ku gucapura amahera no kuyasohora.
+  - Ubutunzi bwa Otirishi butahura ubutunzi bushingiye ku mbonerahamwe y’amabanki makura.
 explanation: |
-  Ico kigabane kirasigura ko ubutunzi bwa Otirishiya butahura .
-  ubutunzi bushingiye ku nzira y’ubwenge bw’umuntu n’
-  sociologie, aho kwegera iyo nyigisho biciye ku .
-  ingano z’imibare.
+  Ico kigabane kirasigura ko ubutunzi bwa Otirishi butahura.
+  ubutunzi bushingiye ku nzira y’ivyiyumviro vy’umuntu n’
+  icigwa c'imibano, aho kwegera iyo nyigisho biciye ku biharuro.
 reviewed: true

@@ -1,24 +1,18 @@
 ---
 name: Les origines du Laissez-Faire économique
-goal: Explorer les fondements de la pensée économique libérale française du XVIIIe siècle, en particulier la doctrine du laissez-faire, à travers ses principaux penseurs et son influence durable.
+goal: Explorez les fondements de la pensée économique libérale du XVIIIe siècle, en mettant l'accent sur la doctrine du laissez-faire, ses principaux penseurs et son influence durable.
 objectives:
-  - Maîtriser les concepts fondamentaux de la pensée économique libérale française et leur évolution au XVIIIe siècle
-  - Analyser et comprendre les arguments développés par les penseurs français contre l'interventionnisme étatique
-  - Évaluer l'influence de cette école de pensée française sur le développement de l'économie politique mondiale
-  - Développer une compréhension critique de la continuité historique entre les différents penseurs et leurs théories
+- Acquérir une solide compréhension des concepts clés de la pensée économique libérale et de leur évolution au cours du XVIIIe siècle
+- Comprendre les arguments que les penseurs ont développés contre l'interventionnisme étatique
+- Évaluer l'impact de la pensée du laissez-faire dans la formation du développement de l'économie politique mondiale
+- Examiner la tension entre théorie et pratique dans la mise en œuvre de l'économie libérale
 ---
-
 # Un voyage dans l'histoire économique de la liberté
 
-En réaction aux idées et aux institutions de l’Ancien régime, s’est développée en France, à partir du début du XVIIIe siècle, une grande tradition intellectuelle autour d’une notion centrale : le laissez-faire. C’est un marchand, dit-on, qui prononça le premier cette formule, quand le ministre Colbert vint lui demander : "Qu’est-ce que l’État peut faire pour vous aider ?". Il répondit : "Nous laisser faire".
+Ce cours explore la naissance de la science économique dans la France du XVIIIe siècle à travers le prisme du laissez-faire. Vous découvrirez comment les penseurs ont remis en question le mercantilisme en affirmant que l'État devrait protéger les droits privés, mais jamais manipuler les marchés par des réglementations.
 
-Dès lors, un grand nombre d’auteurs sont venus expliquer les mérites de cette politique. L’État, considéraient-ils, se doit de rester en recul, d’assurer le respect des droits, mais non d’intervenir dans les affaires économiques, sous peine de tout secouer et de tout détruire. Il doit d’abord lever l’impôt de manière égalitaire et juste (Vauban, Boisguilbert). Il doit ensuite se garder de jouer avec la monnaie, en abaissant sa valeur pour se financer à bas prix (Cantillon après le désastre John Law ; Dupont de Nemours avant celui des Assignats). Il doit garantir la liberté du travail, supprimer les corporations et les règlements tatillons sur l’industrie et le commerce, qui entravent le progrès économique (d’Argenson, Gournay, les Physiocrates, Turgot).
-
-Enfin, l’État doit autoriser la libre circulation des marchandises — ce pour quoi à laissez-faire, d’aucuns ont ajouté laissez-passer —, permettant aux consommateurs d’acheter au meilleur prix, et assurant la paix et la fraternité entre les nations (Quesnay et les Physiocrates, abbé de Saint-Pierre). En défendant cet idéal du laissez-faire, les économistes français du XVIIIe siècle ont posé les bases de la science économique. Après avoir dominé leur époque, ils peuvent guider la nôtre.
-
+Vous apprendrez comment des réformateurs visionnaires ont étendu cette vision pour exiger le libre-échange et la libre circulation des biens, posant ainsi les fondements intellectuels du capitalisme moderne. En étudiant ces économistes pionniers, vous comprendrez les principes intemporels qui ont façonné l'économie politique mondiale et continuent d'influencer les débats politiques aujourd'hui. Rejoignez-nous dès maintenant pour maîtriser les idées qui ont construit l'économie moderne.
 +++
-
-
 # Introduction
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>
 

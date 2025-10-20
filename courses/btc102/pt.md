@@ -38,6 +38,8 @@ Este curso foi concebido para lhe dar controlo total sobre a forma como aprende,
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Bem-vindo ao BTC102! Se já completou o BTC101, explorou os principais conceitos teóricos por detrás da razão pela qual o Bitcoin é uma tecnologia tão revolucionária. Agora, com o BTC102, é hora de colocar esse conhecimento em ação. Este curso foi concebido para o ajudar a construir o seu plano pessoal Bitcoin, passo a passo.
 
@@ -111,6 +113,8 @@ Pronto para começar a sua viagem ao mundo da Bitcoin? Vamos lá!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 O ecossistema Bitcoin e o seu ambiente envolvente são ainda relativamente jovens e pouco regulamentados, dependendo do país. Embora esta liberdade abra vastas oportunidades, também cria um terreno fértil para fraudes financeiras, burlas e várias formas de manipulação. É por isso que o primeiro capítulo é tão crucial: compreender as armadilhas comuns ajudá-lo-á a evitá-las. A sua segurança financeira é uma prioridade, porque uma má experiência não o afecta apenas a si, mas a toda a comunidade Bitcoin.
@@ -350,6 +354,8 @@ Proteger-se contra as burlas é um primeiro passo crucial para salvaguardar os s
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 Assim que começar a entrar no Bitcoin, aperceber-se-á rapidamente de que a cibersegurança básica não é opcional - é essencial. As burlas e fraudes são apenas a ponta do icebergue. A perda acidental de dados, malware e palavras-passe comprometidas podem ser igualmente devastadoras, especialmente quando está a gerir as suas próprias chaves.
@@ -550,6 +556,8 @@ No próximo capítulo, partilharei mais algumas dicas para o ajudar a iniciar a 
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -820,6 +828,8 @@ Seguindo estes princípios, será capaz de abordar o investimento no Bitcoin com
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 Neste curso, o objetivo principal é guiá-lo através da aquisição e segurança dos seus primeiros bitcoins. Mas antes de mergulhar nos passos práticos (como comprar BTC, que carteiras utilizar, etc.) é importante dar um passo atrás e compreender o que é realmente o Bitcoin. Compreender a natureza mais profunda do Bitcoin ajudá-lo-á a perceber porque é que milhões de pessoas estão a voltar-se para esta tecnologia e porque é crucial compreender os fundamentos antes de colocar as suas poupanças num ativo tão novo e volátil.
 
@@ -1039,6 +1049,8 @@ Após esta introdução ao Bitcoin (que pode ter demorado um pouco mais de 5 min
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
+
 
 
 Porque é que o Bitcoin é tão importante? Esta é a questão central deste curso. Quer esteja relacionado com os seus estudos ou com a sua estratégia de investimento, sem uma compreensão clara do significado do Bitcoin, existe o risco de se desviar do seu plano. O objetivo é ter sempre em mente os princípios fundamentais do Bitcoin para garantir que a sua estratégia se mantém alinhada com as suas convicções.
@@ -1254,6 +1266,8 @@ Agora que explorámos o profundo significado da invenção de Satoshi Nakamoto, 
 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 
 
@@ -1596,6 +1610,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
+
 
 O Bitcoin é um sistema aberto concebido para ser minimalista, robusto e seguro desde o início. Para acrescentar funcionalidades sem alterar os seus fundamentos, as evoluções são geralmente efectuadas através da adição de **camadas de protocolo** e de aplicações complementares que enriquecem o ecossistema sem comprometer a descentralização e a resiliência do sistema principal. Esta flexibilidade permitiu a numerosas empresas e programadores independentes construir uma infraestrutura em torno do Bitcoin, acrescentando inovações adaptadas a diferentes casos de utilização.
 
@@ -1758,6 +1774,8 @@ A seguir no curso: vamos ser práticos e ajudá-lo a definir o seu perfil de bit
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 Agora que já aprendeu os fundamentos teóricos do Bitcoin, está na altura de passar para o lado prático. Esta secção irá ajudá-lo a compreender como adquirir as suas primeiras bitcoins, como armazená-las de forma segura e como adaptar a sua abordagem com base na sua situação pessoal. O objetivo é ajudá-lo a identificar o seu tipo de utilizador para que possa adotar uma estratégia que corresponda às suas necessidades e limitações.
@@ -2219,6 +2237,8 @@ Nos próximos capítulos, exploraremos cada um destes perfis em pormenor, para q
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 Na comunidade Bitcoin, o termo "hodler" refere-se a alguém que adopta uma abordagem de investimento a longo prazo. A palavra teve origem num famoso erro de digitação de "hold" no fórum de discussão do Bitcoin há alguns anos e, desde então, tornou-se um símbolo do Commitment: manter o seu Bitcoin, aconteça o que acontecer, sem stressar com as oscilações do mercado a curto prazo.
 
@@ -2388,6 +2408,8 @@ No próximo capítulo, exploraremos um perfil semelhante, mas mais ativo: o empi
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 No ecossistema do Bitcoin, um stacker é alguém que adopta uma abordagem consistente e de longo prazo para acumular satoshis (ou "Sats"), a unidade mais pequena do Bitcoin. Em vez de investir uma grande soma de uma só vez, um stacker compra regularmente pequenas quantidades de Bitcoin, independentemente das condições do mercado.
@@ -2582,6 +2604,8 @@ A seguir: vamos explorar um perfil de bitcoiner radicalmente diferente; o utiliz
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 Tornar-se um utilizador ativo do Bitcoin significa ir além das estratégias de investimento a longo prazo. Ao contrário do "hodler" ou do "stacker", que poupam principalmente sem gastar, o utilizador ativo trata o Bitcoin como um verdadeiro meio de **Exchange**. Utiliza-o para pagar bens e serviços e participa ativamente na contra-economia.
@@ -2830,6 +2854,8 @@ No próximo capítulo, vamos explorar o último e talvez mais intrigante perfil 
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 Para o paranoico Bitcoiner, a privacidade não é opcional; é essencial. Num mundo em que quase todos os movimentos financeiros são rastreados, eles vêem a proteção da sua identidade e histórico de transacções como uma parte não negociável da utilização do Bitcoin. Eles geralmente estão muito conscientes dos riscos envolvidos na exposição de dados pessoais (especialmente quando usam trocas compatíveis com KYC que exigem verificação de identidade).
@@ -3122,6 +3148,8 @@ Na próxima secção do curso, discutiremos um tópico crucial frequentemente ig
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 Assegurar a transmissão dos seus bitcoins é uma responsabilidade muitas vezes negligenciada, mas é crucial. A soberania financeira que o Bitcoin oferece também vem com a necessidade de uma gestão cuidadosa do património. Sem isso, os seus herdeiros podem ver-se incapazes de aceder aos seus fundos ganhos com o Hard. Neste capítulo, iremos explorar os fundamentos do planeamento do património no que se refere ao Bitcoin.
@@ -3444,6 +3472,8 @@ Agradecimentos especiais a [Pamela Morgan](https://x.com/pamelawjd) pelo seu tra
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 Se chegou até aqui, faz parte de uma minoria esclarecida! Muito poucas pessoas vão tão longe com o Bitcoin, e pode orgulhar-se do caminho percorrido. Talvez tenha seguido todos os tutoriais oferecidos neste curso de formação: Configure seu primeiro Hardware Wallet, garantiu sua frase de recuperação, criou um plano de média de custo em dólar (DCA), adquiriu Bitcoin com e sem KYC, até planejou sua herança Bitcoin. Cada passo que você deu é um salto em direção à verdadeira soberania financeira.

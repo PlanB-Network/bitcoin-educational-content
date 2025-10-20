@@ -138,7 +138,7 @@ Tämän järjestelyn etuna on sen kaapeloinnin yksinkertaisuus ja se, että se e
 
 
 
-![Image](assets/en/001.webp)
+![Image](assets/fi/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Tämä hierarkkinen rakenne toimii erityisen hyvin suurissa verkoissa, joissa ta
 
 
 
-![Image](assets/en/002.webp)
+![Image](assets/fi/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Väylätopologian tärkein etu on alhaiset asennuskustannukset yksinkertaisen ka
 
 
 
-![Image](assets/en/003.webp)
+![Image](assets/fi/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Tämä rakenne tekee hallinnasta ja ylläpidosta helppoa: jos yksi oheislaite vi
 
 
 
-![Image](assets/en/004.webp)
+![Image](assets/fi/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Tämä merkitsee sitä, että muodostettavien yhteyksien määrä kasvaa nopeast
 
 
 
-![Image](assets/en/005.webp)
+![Image](assets/fi/005.webp)
 
 
 
@@ -263,7 +263,7 @@ TCP/IP-mallin neljä kerrosta ovat:
 
 
 
-![Image](assets/en/006.webp)
+![Image](assets/fi/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Kun datagrammi ylittää sen verkon segmentin MTU:n, jonka se on kuljettava, rei
 
 
 
-![Image](assets/en/008.webp)
+![Image](assets/fi/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Toimitus noudattaa siten jäsenneltyä prosessia:
 
 
 
-![Image](assets/en/009.webp)
+![Image](assets/fi/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Saapumisen jälkeen prosessi on päinvastainen: vastaanottava laite saa kehyksen
 
 
 
-![Image](assets/en/010.webp)
+![Image](assets/fi/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Tietojen muuntaminen kussakin Layer:ssa voidaan tiivistää seuraavasti:
 
 
 
-![Image](assets/en/011.webp)
+![Image](assets/fi/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Käytettävissä olevien osoitteiden määrä vaihtelee suuresti eri luokkien v�
 
 
 
-![Image](assets/en/013.webp)
+![Image](assets/fi/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Haluamme 4 aliverkkoa, joissa kussakin voi olla enintään 60 isäntää.
 
 
 
-![Image](assets/en/016.webp)
+![Image](assets/fi/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP on yhteyspainotteinen protokolla, mikä tarkoittaa, että se luo selkeän, j
 
 
 
-![Image](assets/en/018.webp)
+![Image](assets/fi/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Luotettavuuden parantamiseksi TCP käyttää ajastinta: kun segmentti lähetetä
 
 
 
-![Image](assets/en/019.webp)
+![Image](assets/fi/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Exchange:n sekvenssisynkronointi perustuu kuuluisaan **"*kolmitoimiseen kädenpu
 
 
 
-![Image](assets/en/020.webp)
+![Image](assets/fi/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Käytännössä liukuva ikkuna määrittelee sekvenssinumeroiden alueen, joka vo
 
 
 
-![Image](assets/en/021.webp)
+![Image](assets/fi/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Tätä tarkkaa hallintaa, jossa yhdistyvät IP:n joustava reititys ja TCP:n tiuk
 
 
 
-![Image](assets/en/022.webp)
+![Image](assets/fi/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Vaihtoa ohjaavat kaksi keskeistä näkökohtaa:
 
 
 
-![Image](assets/en/023.webp)
+![Image](assets/fi/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Vaihtoa ohjaavat kaksi keskeistä näkökohtaa:
 
 
 
-![Image](assets/en/024.webp)
+![Image](assets/fi/019.webp)
 
 
 
@@ -836,7 +836,7 @@ Yhdistämällä horisontaalinen näkökulma (hajautettujen sovellusten välinen 
 
 
 
-![Image](assets/en/026.webp)
+![Image](assets/fi/020.webp)
 
 
 
@@ -896,7 +896,7 @@ esimerkki: Address 172.16.254.1_
 
 
 
-![Image](assets/en/027.webp)
+![Image](assets/fi/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ On tärkeää muistaa, että MAC Address ja IP Address ovat kaksi täysin erilai
 - Visuaalinen esimerkki MAC Address:stä:
 
 
-![Image](assets/en/032.webp)
+![Image](assets/fi/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ On tärkeää muistaa, että MAC Address ja IP Address ovat kaksi täysin erilai
 - Visuaalinen esimerkki IP Address:sta:
 
 
-![Image](assets/en/027.webp)
+![Image](assets/fi/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Sen lisäksi, että NAT korjaa IPv4:n niukkuutta, se vahvistaa myös turvallisuu
 
 
 
-![Image](assets/en/035.webp)
+![Image](assets/fi/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _Katsotaanpa seuraavaa esimerkkiä havainnollistaaksemme, miten tämä toimii k�
 
 
 
-![Image](assets/en/037.webp)
+![Image](assets/fi/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ Ammattikäyttöön tarkoitetuissa ympäristöissä tavoitteena on taata palvelun
 
 
 
-![Image](assets/en/039.webp)
+![Image](assets/fi/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Automaattista konfigurointia varten on olemassa useita menetelmiä:
 Tässä on esimerkki siitä, miten MAC Address muunnetaan EUI-64:ksi:
 
 
-![Image](assets/en/045.webp)
+![Image](assets/fi/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Seuraavassa on yleiskatsaus IPv6:ssa määriteltyihin erilaisiin lisäotsikkotyy
 Tämä otsikko, jos se on olemassa, sijoitetaan aina heti perusotsikon jälkeen. Se sisältää tietoja, jotka jokaisen paketin reitittimen on käsiteltävä paketin reitityspolulla, toisin kuin useimmat muut otsikot, joita yleensä käsittelee vain kohdesolmu. Tyypillisiä käyttökohteita ovat yleisten parametrien ilmoittaminen tai tiettyjen käsittelyvaiheiden pyytäminen paketin kulkiessa verkon läpi.
 
 
-![Image](assets/en/047.webp)
+![Image](assets/fi/028.webp)
 
 
 #### Reititysotsikko
@@ -2117,7 +2117,7 @@ Tämän juurrutusotsikon neljä ensimmäistä kenttää ovat:
 Kenttä "Segmenttejä jäljellä" alkaa jäljellä olevien segmenttien kokonaismäärällä, ja sitä vähennetään yhdellä jokaisella siirtymäkerralla.
 
 
-![Image](assets/en/048.webp)
+![Image](assets/fi/029.webp)
 
 
 #### Pirstoutumisotsikko
@@ -2134,7 +2134,7 @@ Pirstoutumisotsikko sisältää seuraavat kentät:
 - **M-merkki**: osoittaa, seuraako lisää fragmentteja.
 
 
-![Image](assets/en/049.webp)
+![Image](assets/fi/030.webp)
 
 
 #### Todennusotsikko (AH)
@@ -2146,7 +2146,7 @@ Tämä otsake on suunniteltu turvaamaan viestintä varmistamalla sekä lähettä
 Jos kyseessä on vilpillinen muutosyritys, todennuskoodi ei enää täsmää, ja datagrammi voidaan hylätä. Tämä mekanismi suojaa myös toistohyökkäyksiltä havaitsemalla luvattomat kopiot.
 
 
-![Image](assets/en/050.webp)
+![Image](assets/fi/031.webp)
 
 
 #### Kohdeasetusten otsikko
@@ -2158,7 +2158,7 @@ Tämä otsake on tarkoitettu vain datagrammin lopulliselle vastaanottajalle. Sit
 Alun perin pöytäkirjassa ei määritelty tällaista vaihtoehtoa. Tämä otsake otettiin kuitenkin käyttöön IPv6:n suunnittelun yhteydessä, jotta siihen voitaisiin lisätä tulevia laajennuksia muuttamatta paketin yleistä rakennetta. Esimerkiksi nolla-optiota käytetään vain otsikon pehmustamiseen 8 tavun kerrannaisiksi muistin kohdistamista varten.
 
 
-![Image](assets/en/051.webp)
+![Image](assets/fi/032.webp)
 
 
 IPv6-pakettien suunnittelu perustuu selkeään erotteluun minimaalisen perusotsikon ja modulaaristen lisäotsikoiden välillä. Tämä arkkitehtuuri takaa sekä vakiokäsittelyn suorituskyvyn että joustavuuden, jota tarvitaan protokollan kehittämiseksi ja tietoturvan, monimutkaisten reititys- tai palvelunlaatumekanismien integroimiseksi, säilyttäen samalla yhteensopivuuden tulevien infrastruktuurien kanssa.
@@ -2504,7 +2504,7 @@ Wireshark on saatavilla moniin käyttöjärjestelmiin, kuten Linuxiin ja Windows
 
 
 
-![Image](assets/en/052.webp)
+![Image](assets/fi/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Tämä komento antaa yksityiskohtaisen raportin `enp0s3` Interface:sta, joka on 
 
 
 
-![Image](assets/en/053.webp)
+![Image](assets/fi/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ Tässä tapauksessa kysytään kaikkia isäntiä alueella `192.168.0.0` - `192.1
 
 
 
-![Image](assets/en/055.webp)
+![Image](assets/fi/035.webp)
 
 
 

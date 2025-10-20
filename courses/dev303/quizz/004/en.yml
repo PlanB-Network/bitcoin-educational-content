@@ -1,0 +1,8 @@
+question: What keyword is required to make a variable modifiable after its initial declaration in Rust?
+answer: mut
+wrong_answers:
+  - var
+  - mutable
+  - change
+explanation: |
+  In Rust, the 'mut' keyword is required to declare a variable as mutable, allowing its value to be changed after initial assignment. By default, all variables in Rust are immutable for safety reasons. The syntax is 'let mut x = 5' for a mutable variable versus 'let x = 5' for an immutable one. The other options like 'var', 'mutable', and 'change' are not valid Rust keywords for this purpose.

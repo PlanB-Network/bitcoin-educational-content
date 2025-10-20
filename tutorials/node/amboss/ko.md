@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - 수신 비율**: 선택한 채널에 따라 노드가 100만 Satoshi을 수신할 때마다 청구하는 금액입니다.
 - 비율(백만분의 1)**: 채널 중 하나를 통해 결제하기로 결정했을 때 노드가 청구하는 백만 단위당 Satoshi의 수를 나타냅니다. Ppm 비율이 '500 Sats'인 채널을 통해 '10_000 Sats'을 결제하기로 결정했다고 가정하면 노드에 '10_000 * 500 / 1_000_000' 사토시를 지불해야 하며, 이는 '5 Sats'에 해당하는 금액입니다.
-- HTLC](https://planb.network/resources/glossary/HTLC) 최대** : 이 노드가 이 채널 중 하나를 통해 전송할 수 있는 최대 금액입니다.
+- HTLC](https://planb.network/resources/glossary/htlc) 최대** : 이 노드가 이 채널 중 하나를 통해 전송할 수 있는 최대 금액입니다.
 
 
 

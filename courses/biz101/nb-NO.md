@@ -1,22 +1,19 @@
 ---
 name: Bitcoin for bedrifter
 goal: Lær deg det grunnleggende om betaling og finans for å få bedriften din over på bitcoin
-objectives: 
-
-  - Bitcoin som en fremvoksende valuta og et forretningsverktøy
-  - Forstå hvorfor og hvordan en bedrift kan holde bitcoin på bok eller bruke dem til betalinger
-  - Ha en konkret idé om hvordan du kan akseptere bitcoin-betaling i praksis
-  - Være forberedt på å håndtere skatte- og regnskapskrav
-
+objectives:
+- Oppdag Bitcoin som en fremvoksende valuta og et forretningsverktøy
+- Forstå hvorfor og hvordan en bedrift kan holde bitcoin i kassen eller bruke det til betalinger
+- Ha en konkret idé om hvordan man aksepterer Bitcoin-betaling i praksis
+- Vær forberedt på å håndtere skattemessige og regnskapsmessige krav
 ---
-# Kickstart bedriftens reise i bitcoin-nettverket
+# Start selskapets reise på Bitcoin-nettverket
 
-Oppdag de praktiske mulighetene til Bitcoin og Lightning Network, og utforsk hvordan de, i likhet med internett, kan **forvandle forretningsdriften din**. Bitcoin tilbyr et stort spekter av **bruksområder for bedrifter**, fra digital kapital til raske, økonomiske og skalerbare betalinger.
+Oppdag de praktiske mulighetene til Bitcoin og Lightning Network, og utforsk hvordan de, akkurat som internett, kan transformere din forretningsdrift. Fra treasury til raske, økonomiske og skalerbare betalinger tilbyr Bitcoin et bredt spekter av bruksområder for bedrifter.
 
-I denne veiledningen vil du lære å forstå Bitcoin som et globalt, universelt og internettbasert monetært nettverk. Med sine unike grunnleggende egenskaper gir **Bitcoin betydelige forbedringer i forhold til tradisjonelle valutanettverk**. Du vil finne ut hvorfor og hvordan du kan utnytte Bitcoin til klassiske finansielle bruksområder som kapitaloppbevaring og betalingssystemer. I tillegg vil denne veiledningen ta for seg anskaffelse og oppbevaring av Bitcoin, inkludert de tilhørende regnskaps- og skattekravene, samt implementering av enkle eller storskala Bitcoin-betalingsløsninger.
+Gjennom dette kurset vil du lære å forstå Bitcoin som et globalt, universelt og internett-innfødt monetært nettverk. Med sine unique grunnleggende egenskaper tilbyr Bitcoin betydelige forbedringer i forhold til tradisjonell valuta. Du vil oppdage hvorfor og hvordan du kan utnytte Bitcoin for klassiske finansielle bruksområder som kapitallagring og betalingssystemer. I tillegg vil dette kurset dekke anskaffelse og oppbevaring av Bitcoin, inkludert tilhørende regnskaps- og skattekrav, samt implementering av enkle eller storskala Bitcoin-betalingsløsninger.
 
-Enten du er **en småbedrift eller et stort konsern**, kan integrering av Bitcoin i den daglige driften gjøre bedriften din mer **motstandsdyktig, produktiv og konkurransedyktig**. Alle internettbaserte selskaper kommer til å bli et Bitcoin-orientert selskap, og dette kurset sørger for at du er forberedt. De første delene oppsummerer det grunnleggende om Bitcoins virkemåte, så selv om du er nybegynner vil du få den grunnleggende kunnskapen du trenger for å komme deg videre. Det er alltid en god idé å lære det grunnleggende om Satoshis oppfinnelse, enten det er før eller etter at du har dykket ned i BIZ101.
-
+Uansett om du er en liten bedrift eller et stort konsern, kan integrering av Bitcoin i din daglige drift gjøre selskapet ditt mer motstandsdyktig, produktivt og konkurransedyktig. Hvert internettbasert selskap vil bli et Bitcoin-orientert selskap, og dette kurset sikrer at du er forberedt.
 +++
 # Innledning
 

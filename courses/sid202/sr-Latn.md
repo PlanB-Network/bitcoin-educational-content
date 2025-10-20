@@ -1,5 +1,5 @@
 ---
-name: Pravljenje novih rešenja sa Elements i Liquid mrežom
+name: Pravljenje novih rešenja sa Elements i Liquid Network
 goal: Naučite kako koristiti i praviti aplikacije na Elements blokčejn platformi otvorenog koda i njene ključne funkcije
 objectives: 
 

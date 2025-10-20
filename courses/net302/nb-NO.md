@@ -138,7 +138,7 @@ Fordelen med denne løsningen er at kablingen er enkel og at man ikke er avhengi
 
 
 
-![Image](assets/en/001.webp)
+![Image](assets/nb-NO/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Denne hierarkiske oppbygningen fungerer spesielt godt for store nettverk som tre
 
 
 
-![Image](assets/en/002.webp)
+![Image](assets/nb-NO/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Busstopologiens største fordel er lave installasjonskostnader, takket være for
 
 
 
-![Image](assets/en/003.webp)
+![Image](assets/nb-NO/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Dette oppsettet gjør det enkelt å administrere og vedlikeholde: Hvis én perif
 
 
 
-![Image](assets/en/004.webp)
+![Image](assets/nb-NO/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Ulempen er at antallet forbindelser som må opprettes, øker raskt med antallet 
 
 
 
-![Image](assets/en/005.webp)
+![Image](assets/nb-NO/005.webp)
 
 
 
@@ -263,7 +263,7 @@ De fire lagene i TCP/IP-modellen er
 
 
 
-![Image](assets/en/006.webp)
+![Image](assets/nb-NO/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Når et datagram overskrider MTU-en for et nettverkssegment det skal krysse, vil
 
 
 
-![Image](assets/en/008.webp)
+![Image](assets/nb-NO/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Overføringen følger dermed en strukturert prosess:
 
 
 
-![Image](assets/en/009.webp)
+![Image](assets/nb-NO/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Ved ankomst reverseres prosessen: Mottakermaskinen får rammen på Network Acces
 
 
 
-![Image](assets/en/010.webp)
+![Image](assets/nb-NO/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Transformasjonen av dataene ved hver Layer kan oppsummeres som følger:
 
 
 
-![Image](assets/en/011.webp)
+![Image](assets/nb-NO/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Antallet tilgjengelige adresser varierer mye fra klasse til klasse: fra store of
 
 
 
-![Image](assets/en/013.webp)
+![Image](assets/nb-NO/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Vi ønsker fire undernett med opptil 60 verter hver.
 
 
 
-![Image](assets/en/016.webp)
+![Image](assets/nb-NO/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP er en tilkoblingsorientert protokoll, noe som betyr at den etablerer et eksp
 
 
 
-![Image](assets/en/018.webp)
+![Image](assets/nb-NO/013.webp)
 
 
 
@@ -688,7 +688,7 @@ For å forbedre påliteligheten bruker TCP en tidtaker: Når et segment er sendt
 
 
 
-![Image](assets/en/019.webp)
+![Image](assets/nb-NO/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Sekvenssynkroniseringen Exchange er basert på den berømte **"*treveis håndtry
 
 
 
-![Image](assets/en/020.webp)
+![Image](assets/nb-NO/015.webp)
 
 
 
@@ -734,7 +734,7 @@ I praksis definerer skyvevinduet en rekke sekvensnumre som kan sirkulere fritt m
 
 
 
-![Image](assets/en/021.webp)
+![Image](assets/nb-NO/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Denne presise styringen, som kombinerer IPs fleksible ruting med TCPs strenge ko
 
 
 
-![Image](assets/en/022.webp)
+![Image](assets/nb-NO/017.webp)
 
 
 
@@ -791,7 +791,7 @@ To viktige aspekter styrer disse utvekslingene:
 
 
 
-![Image](assets/en/023.webp)
+![Image](assets/nb-NO/018.webp)
 
 
 
@@ -800,7 +800,7 @@ To viktige aspekter styrer disse utvekslingene:
 
 
 
-![Image](assets/en/024.webp)
+![Image](assets/nb-NO/019.webp)
 
 
 
@@ -836,7 +836,7 @@ Ved å kombinere det horisontale aspektet (kommunikasjon mellom distribuerte app
 
 
 
-![Image](assets/en/026.webp)
+![Image](assets/nb-NO/020.webp)
 
 
 
@@ -896,7 +896,7 @@ eksempel: Address 172.16.254.1_
 
 
 
-![Image](assets/en/027.webp)
+![Image](assets/nb-NO/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Det er viktig å huske at MAC Address og IP Address er to helt forskjellige iden
 - Visuelt eksempel på MAC Address:
 
 
-![Image](assets/en/032.webp)
+![Image](assets/nb-NO/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Det er viktig å huske at MAC Address og IP Address er to helt forskjellige iden
 - Visuelt eksempel på en IP Address:
 
 
-![Image](assets/en/027.webp)
+![Image](assets/nb-NO/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ I tillegg til å løse problemet med IPv4-knapphet styrker NAT også sikkerheten
 
 
 
-![Image](assets/en/035.webp)
+![Image](assets/nb-NO/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ for å illustrere hvordan dette fungerer i praksis, kan vi se på følgende ekse
 
 
 
-![Image](assets/en/037.webp)
+![Image](assets/nb-NO/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ I profesjonelle miljøer er målet å garantere tjenestekontinuitet og/eller å 
 
 
 
-![Image](assets/en/039.webp)
+![Image](assets/nb-NO/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Det finnes flere metoder for automatisk konfigurasjon:
 Her er et eksempel på hvordan du forvandler en MAC Address til EUI-64:
 
 
-![Image](assets/en/045.webp)
+![Image](assets/nb-NO/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Her er en oversikt over de ulike typene utvidelseshoder som er definert av IPv6.
 Dette overskriften, hvis den finnes, plasseres alltid umiddelbart etter basisoverskriften. Det inneholder informasjon som må behandles av alle rutere langs pakkens vei, i motsetning til de fleste andre hoder, som vanligvis bare håndteres av destinasjonsnoden. Typiske bruksområder er å signalisere globale parametere eller be om spesifikke behandlingstrinn når pakken beveger seg gjennom nettverket.
 
 
-![Image](assets/en/047.webp)
+![Image](assets/nb-NO/028.webp)
 
 
 #### Rutehode
@@ -2117,7 +2117,7 @@ De fire første feltene i dette rooting-headeret er
 Feltet "Segmenter igjen" starter med det totale antallet gjenværende segmenter og reduseres med én for hvert hopp.
 
 
-![Image](assets/en/048.webp)
+![Image](assets/nb-NO/029.webp)
 
 
 #### Fragmenteringshode
@@ -2134,7 +2134,7 @@ Fragmenteringshodet inneholder følgende felt:
 - **M-flagg**: indikerer om flere fragmenter følger.
 
 
-![Image](assets/en/049.webp)
+![Image](assets/nb-NO/030.webp)
 
 
 #### Autentiseringshode (AH)
@@ -2146,7 +2146,7 @@ Dette overskriften er utformet for å sikre kommunikasjon ved å verifisere båd
 Hvis det gjøres et uredelig modifikasjonsforsøk, vil autentiseringskoden ikke lenger stemme overens, og datagrammet kan bli avvist. Denne mekanismen beskytter også mot replay-angrep ved å oppdage uautoriserte dupliseringer.
 
 
-![Image](assets/en/050.webp)
+![Image](assets/nb-NO/031.webp)
 
 
 #### Overskrift for destinasjonsalternativer
@@ -2158,7 +2158,7 @@ Dette headeren er kun beregnet på den endelige mottakeren av datagrammet. Det k
 Opprinnelig var det ikke definert noe slikt alternativ i protokollen. Dette toppteksten ble imidlertid innført da IPv6 ble utviklet, slik at fremtidige utvidelser kunne legges til uten å endre den generelle pakkestrukturen. Null-alternativet brukes for eksempel bare til å fylle ut headeren til et multiplum av 8 byte av hensyn til minnejustering.
 
 
-![Image](assets/en/051.webp)
+![Image](assets/nb-NO/032.webp)
 
 
 IPv6-pakkedesignet bygger på et klart skille mellom et minimalt basishode og modulære utvidelseshoder. Denne arkitekturen sikrer både standard prosesseringsytelse og den fleksibiliteten som trengs for å utvikle protokollen og integrere sikkerhet, kompleks ruting eller mekanismer for tjenestekvalitet, samtidig som kompatibiliteten med fremtidige infrastrukturer opprettholdes.
@@ -2504,7 +2504,7 @@ Wireshark er tilgjengelig på mange operativsystemer, inkludert Linux og Windows
 
 
 
-![Image](assets/en/052.webp)
+![Image](assets/nb-NO/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Denne kommandoen gir en detaljert rapport om `enp0s3` Interface, en vanlig navne
 
 
 
-![Image](assets/en/053.webp)
+![Image](assets/nb-NO/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ I dette tilfellet vil alle verter i området `192.168.0.0` til `192.168.0.255` b
 
 
 
-![Image](assets/en/055.webp)
+![Image](assets/nb-NO/035.webp)
 
 
 

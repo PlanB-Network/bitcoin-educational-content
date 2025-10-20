@@ -28,6 +28,8 @@ This course is designed to give you full control over how you learn, allowing yo
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 Welcome to BTC102! If you've already completed BTC101, you've explored the key theoretical concepts behind why Bitcoin is such a revolutionary technology. Now, with BTC102, it's time to put that knowledge into action. This course is designed to help you build your personal Bitcoin plan, step by step.
 
 In the chapters ahead, we'll guide you through the practical steps to **get your first bitcoins**, **secure** them properly, and confidently take your first steps into this fast-growing ecosystem.

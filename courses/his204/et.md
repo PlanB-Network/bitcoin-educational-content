@@ -1,35 +1,18 @@
 ---
 name: Laissez-Faire'i majanduse algupära
-goal: uurida 18. sajandi prantsuse liberaalse majandusmõtte aluseid, keskendudes laissez-faire'i doktriinile, selle juhtivatele mõtlejatele ja kestvale mõjule.
-objectives: 
-
-
-  - Saate põhjaliku ülevaate Prantsuse liberaalse majandusmõtte põhikontseptsioonidest ja nende arengust 18. sajandil
-  - Mõista argumente, mida prantsuse mõtlejad töötasid välja riigi sekkumise vastu
-  - Hinnata selle Prantsuse koolkonna mõju ja selle rolli globaalse poliitilise majanduse arengu kujundamisel
-  - Arendada kriitilist arusaamist erinevate mõtlejate ja nende teooriate ajaloolisest järjepidevusest
-
-
+goal: Uurige 18. sajandi liberaalse majandusmõtte aluseid, keskendudes laissez-faire doktriinile, selle juhtivate mõtlejate ja püsiva mõju.
+objectives:
+- Omandada põhjalik arusaam liberaalse majandusmõtte põhikontseptsioonidest ja nende arengust 18. sajandil
+- Mõista argumente, mida mõtlejad arendasid riikliku sekkumise vastu
+- Hinnata laissez-faire mõtte mõju globaalse poliitilise majanduse arengu kujundamisele
+- Uurida pinget teooria ja praktika vahel liberaalse majanduse rakendamisel
 ---
-
 # Teekond vabaduse majandusajalukku
 
+See kursus uurib majandusteaduse sündi 18. sajandi Prantsusmaal laissez-faire'i läbi. Avastada, kuidas mõtlejad vaidlustasid merkantilismi, väites, et riik peaks kaitsma eraõigusi, kuid mitte kunagi manipuleerima turgudega regulatsioonide kaudu.
 
-
-18. sajandi alguse Prantsusmaal hakkas kujunema uus mõtteviis majandusest. See tekkis vastusena Ancien Régime'i karmile kontrollile ja keskendus ühele võimsale ideele: *laissez-faire* - "lase juhtuda".
-
-Väidetavalt pärineb see fraas ühe kaupmehe ja minister Colbert'i vahelisest vestlusest. Kui minister küsis: "Mida saab valitsus teha, et aidata teie äri?", vastas kaupmees: "Laske meil seda teha".
-
-
-Sellest ajast alates on paljud mõtlejad hakanud seda ideed toetama, arvates, et valitsuse roll peaks olema piiratud. See peaks kaitsma üksikisiku õigusi, kuid vältima sekkumist majandusasjadesse, sest kardetakse, et see võib kõike häirida ja hävitada. Esiteks peab ta koguma makse õiglaselt ja võrdselt (Vauban, Boisguilbert). Seejärel peab ta hoiduma valuutaga manipuleerimisest, devalveerides selle väärtust, et rahastada end odavalt (Cantillon pärast John Law'i katastroofi; Dupont de Nemours enne Assignats'i katastroofi). Ta peab tagama töövabaduse, kaotama gildid ja koormavad tööstus- ja kaubandusreeglid, mis takistavad majanduslikku arengut (d'Argensoni, Gournay, füsiokraatide ja Turgot' ideed).
-
-
-
-Lõpuks peab riik võimaldama kaupade vaba ringlust, mis viis mõnedele, kes lisasid laissez-faire'ile fraasi "laissez-passer", mis võimaldab tarbijatel osta parima hinnaga ning soodustab rahu ja vendlust rahvaste vahel (Quesnay ja füsiokraadid, Saint-Pierre'i abt). Seda laissez-faire'i ideaali kaitstes panid 18. sajandi prantsuse majandusteadlased majandusõpetuse aluse. Olles domineerinud oma ajastul, on neil ikka veel võime suunata meie aega.
-
-
+Õpid, kuidas visionäärsed reformijad laiendasid seda visiooni, nõudes vabakaubandust ja piiramatu kaupade ringlust, luues intellektuaalse aluse kaasaegsele kapitalismile. Neid pioneermajanduseksperte uurides mõistad ajatuid põhimõtteid, mis kujundasid globaalset poliitilist majandust ja mõjutavad jätkuvalt tänaseid poliitilisi arutelusid. Liitu kohe, et omandada ideed, mis ehitasid kaasaegse majanduse.
 +++
-
 # Sissejuhatus
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

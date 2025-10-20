@@ -1,35 +1,18 @@
 ---
 name: Poreklo Laissez-Faire ekonomije
-goal: istražite osnove francuske liberalne ekonomske misli iz 18. veka, sa fokusom na doktrinu laissez-faire, njene vodeće mislioce i trajni uticaj.
-objectives: 
-
-
-  - Steknite čvrsto razumevanje ključnih pojmova iza francuske liberalne ekonomske misli i kako su se razvijali tokom 18. veka.
-  - Razumeti argumente koje su francuski mislioci razvili protiv državnog intervencionizma
-  - Proceni uticaj ove francuske škole mišljenja i njenu ulogu u oblikovanju razvoja globalne političke ekonomije.
-  - Razvijte kritičko razumevanje istorijskog kontinuiteta između različitih mislilaca i njihovih teorija.
-
-
+goal: Istražite osnove liberalne ekonomske misli 18. veka, sa fokusom na doktrinu laissez-faire, njene vodeće mislioce i trajni uticaj.
+objectives:
+- Steći solidno razumevanje ključnih koncepata liberalne ekonomske misli i kako su se razvijali tokom 18. veka
+- Razumeti argumente koje su mislioci razvili protiv državnog intervencionizma
+- Proceniti uticaj laissez-faire misli u oblikovanju razvoja globalne političke ekonomije
+- Ispitati napetost između teorije i prakse u implementaciji liberalne ekonomije
 ---
+# Putovanje kroz ekonomsku istoriju slobode
 
-# Putovanje u ekonomsku istoriju slobode
+Ovaj kurs istražuje rođenje ekonomske nauke u Francuskoj 18. veka kroz prizmu laissez-faire principa. Otkrijte kako su mislioci izazivali merkantilizam tvrdeći da država treba da štiti privatna prava, ali nikada ne sme da manipuliše tržištima kroz regulacije.
 
-
-
-Početkom 18. veka u Francuskoj, počeo je da se oblikuje novi način razmišljanja o ekonomiji. Pojavio se kao odgovor na tešku kontrolu Ancien Régime-a i bio je usredsređen oko jedne moćne ideje: *laissez-faire* — "neka se desi".
-
-Fraza se kaže da je potekla iz razgovora između trgovca i ministra Kolbera. Kada je ministar pitao, "Šta vlada može da uradi da pomogne vašem poslu?" trgovac je odgovorio, "Samo nam dozvolite da to uradimo".
-
-
-Od tada, mnogi mislioci počeli su podržavati ovu ideju, verujući da bi uloga vlade trebalo da bude ograničena. Trebalo bi da štiti individualna prava, ali da izbegava mešanje u ekonomske poslove, iz straha od ometanja i uništavanja svega. Prvo, mora prikupljati poreze na pravičan i jednak način (Vauban, Boisguilbert). Zatim, mora se uzdržati od manipulacije valutom, devalvacijom njene vrednosti kako bi se finansirala po niskoj ceni (Cantillon nakon katastrofe Johna Lawa; Dupont de Nemours pre one sa Assignatima). Mora garantovati slobodu rada, ukinuti cehove i opterećujuće propise o industriji i trgovini, koji ometaju ekonomski napredak (ideje koje podržavaju d'Argenson, Gournay, fiziokrati i Turgot).
-
-
-
-Konačno, država mora omogućiti slobodnu cirkulaciju robe, što je navelo neke da dodaju frazu "laissez-passer" uz laissez-faire, omogućavajući potrošačima da kupuju po najboljoj ceni i promovišući mir i bratstvo među narodima (Quesnay i fiziokrati, opat Saint-Pierre). Braneći ovaj ideal laissez-faire, francuski ekonomisti 18. veka postavili su temelje ekonomske nauke. Dominirajući svojim vremenom, i dalje imaju moć da usmeravaju naše.
-
-
+Naučićete kako su vizionarski reformatori proširili ovu viziju zahtevajući slobodnu trgovinu i neograničenu cirkulaciju robe, postavljajući intelektualne temelje modernog kapitalizma. Proučavanjem ovih pionirskih ekonomista, razumećete bezvremenske principe koji su oblikovali globalnu političku ekonomiju i nastavljaju da utiču na političke debate danas. Pridružite se sada da savladate ideje koje su izgradile modernu ekonomiju.
 +++
-
 # Uvod
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

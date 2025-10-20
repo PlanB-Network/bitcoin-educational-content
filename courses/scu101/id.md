@@ -30,6 +30,8 @@ Tim kontributor:
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Tujuan: Tingkatkan keterampilan untuk menjaga keamanan Anda!**
 
 Selamat datang semuanya di program edukasi yang didedikasikan untuk keamanan digital ini. Pelatihan ini dirancang agar mudah diakses oleh siapa saja, jadi tidak diperlukan pengetahuan ilmu komputer sebelumnya. Tujuan utama kami adalah membekali Anda dengan pengetahuan dan keterampilan yang diperlukan untuk menjelajahi dunia digital dengan lebih aman dan terlindungi.
@@ -86,6 +88,8 @@ Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas d
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Saat Anda menjelajahi internet, penting untuk menghindari beberapa kesalahan umum untuk menjaga keamanan online Anda. Berikut adalah beberapa tips untuk menghindarinya:
 
 ### Berhati-hatilah dengan pengunduhan perangkat lunak:
@@ -131,6 +135,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPN (*Virtual Private Network*)
 
 Melindungi koneksi internet Anda adalah aspek penting dalam keamanan online, dan menggunakan jaringan pribadi virtual (VPN) adalah metode yang efektif untuk meningkatkan keamanan ini, baik untuk bisnis maupun pengguna individu.
@@ -174,6 +180,8 @@ Singkatnya, penggunaan VPN dapat sangat meningkatkan keamanan online baik untuk 
 ## Penggunaan Komputer
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Keamanan komputer kita adalah hal utama yang harus diperhatikan di dunia digital saat ini. Saat ini, kami akan membahas tiga poin penting:
 
@@ -226,6 +234,8 @@ Sebagai kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai deng
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Bagaimana peretas menyerang?
 
 Untuk melindungi diri secara efektif, penting untuk memahami bagaimana peretas mencoba menyusup ke komputer Anda. Sejatinya, virus tidak sering muncul secara ajaib, melainkan merupakan konsekuensi dari tindakan kita, meskipun tidak disengaja.
@@ -276,6 +286,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### Membuat akun email baru!
 
 Akun email adalah pusat aktivitas online Anda: jika disusupi, peretas dapat menggunakannya untuk mengatur ulang semua kata sandi Anda melalui fungsi "lupa kata sandi" dan mendapatkan akses ke banyak situs lain. Itulah mengapa Anda perlu mengamankannya dengan benar.
@@ -308,6 +320,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## Pengelola Kata Sandi (*Password Manager*)
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Apa itu pengelola kata sandi?
 
@@ -358,6 +372,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## Autentikasi Dua Faktor (2FA)
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Mengapa menerapkan 2FA
 
@@ -495,6 +511,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 ### Keamanan Siber: Bidang yang Berkembang dengan Peluang Tanpa Batas
 
 Apabila Anda memiliki minat yang mendalam terhadap perlindungan sistem dan data, bidang keamanan siber menawarkan beragam peluang. Jika industri ini menarik perhatian Anda, berikut adalah beberapa langkah penting untuk memandu Anda.
@@ -532,6 +550,8 @@ Dengan menguasai keterampilan dan alat-alat ini, Anda akan siap sepenuhnya untuk
 ## Wawancara dengan Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Manajemen Kata Sandi yang Efisien dan Penguatan Autentikasi: Pendekatan Akademis
 

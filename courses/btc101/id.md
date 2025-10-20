@@ -1172,6 +1172,10 @@ Selain itu, ada beberapa [pasar](https://planb.network/tutorials/exchange) tempa
 
 Terakhir, penting untuk diperhatikan bahwa kewajiban pajak dapat bervariasi tergantung pada yurisdiksi, jadi kami sangat menganjurkan Anda untuk membaca peraturan di negara Anda sebelum melakukan tindakan apa pun yang dapat menimbulkan risiko bagi Anda.
 
+Jika Anda ingin memperdalam pengetahuan Anda tentang strategi pembelian, penggunaan, dan pengamanan bitcoin Anda, saya sangat menyarankan Anda untuk mengikuti kursus **BTC 102** setelah yang satu ini. Di sana Anda akan menemukan, antara lain, rekomendasi alat yang sesuai dengan profil, kebutuhan, dan tujuan pribadi Anda:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hiper-koinisasi
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

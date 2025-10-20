@@ -1,12 +1,10 @@
-question: Ni ubuhe buryo bw’ugukuraho ivy’ukuri bwashikirijwe na Ludwig von Mises mu kwiga ivy’imibano?
-answer: Ubwo buryo bushingiye ku vyiyumviro vy’ishimikiro vyitwa axiomes, bisa n’ivyo bikoreshwa mu biharuro.
+question: Ni ubuhe buryo bwa axiomatique-déductive bwa Ludwig von Mises mu kwiga ibijanye n’imibereho y’abantu?
+answer: Ubwo buryo bushingiye ku vyiyumviro ngenderwako vyitwa axiomes, bisa n’ibikoreshwa mu biharuro.
 wrong_answers:
-  - Ubwo buryo bushingiye ku makuru n’ivyo umuntu abona.
-  - Ubwo buryo bushingiye ku ngeragezwa n’ivyiyumviro vy’igihe gito.
-  - Ubwo buryo bushingiye ku buryo bw’ivyiza bukoreshwa kenshi mu vy’imibano.
+  - Ubwo buryo bushingiye ku makuru y’ivyabonetse n’ivyo abantu babonye.
+  - Ubwo buryo bushingiye ku kugeragezo vy’igihe gito n’ivyiyumviro vy’inkeka.
+  - Ubwo buryo bushingiye ku buryo bwa positiviste bukunze gukoreshwa vyigwa vy’imibano.
 explanation: |
-  Ivyagezwe vy’ubutunzi ntibishobora gusubirwamwo mu laboratwari, kandi birahambaye ko 
-  menya ko kwihweza isano hagati y'ibintu bibiri bihinduka bitagaragaza ko hariho impamvu 
-  ubucuti buri hagati yabo. Ivyo ni vyo vyatumye Ludwig von Mises asaba ko . 
-  uburyo bw’ugukuraho ivy’ukuri.
+  Uburyo bwa axiomatique-déductive bwatangajwe na Ludwig von Mises bushingiye ku majambo atangwa yitwa axiomes, bisa n’ayo bakoresha mu biharuro.
+  Ubu buryo bukoresha mu kwiga ibijanye n’ubumenyi bw’imibano, harimwo n’ubutunzi.
 reviewed: true

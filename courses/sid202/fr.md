@@ -1,5 +1,6 @@
 ---
-name: Construire avec les éléments et le réseau liquide
+name: Construire avec Elements et Liquid Network
+
 goal: Apprendre à utiliser et à développer avec la plateforme blockchain open-source Elements et ses principales caractéristiques
 objectives: 
 

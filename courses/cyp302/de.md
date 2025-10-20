@@ -1,22 +1,17 @@
 ---
-name: Einführung in die formale Kryptographie
+name: Grundlagen der modernen Kryptographie
 goal: Eine tiefgehende Einführung in die Wissenschaft und Praxis der Kryptographie.
 objectives:
-
-  - Erforschen Sie Beale-Chiffren und moderne kryptografische Methoden, um grundlegende und historische Konzepte der Kryptografie zu verstehen.
-  - Vertiefen Sie sich in die Zahlentheorie, Gruppen und Felder, um die wichtigsten mathematischen Konzepte der Kryptographie zu beherrschen.
-  - Studieren Sie die RC4-Stromchiffre und AES mit einem 128-Bit-Schlüssel, um mehr über symmetrische kryptografische Algorithmen zu erfahren.
-  - Untersuchen Sie das RSA-Kryptosystem, die Schlüsselverteilung und Hash-Funktionen, um die asymmetrische Kryptographie zu erkunden.
-
+- Erforschen Sie Beale-Chiffren und moderne kryptografische Methoden, um grundlegende und historische Konzepte der Kryptografie zu verstehen.
+- Vertiefen Sie sich in die Zahlentheorie, Gruppen und Felder, um die wichtigsten mathematischen Konzepte der Kryptographie zu beherrschen.
+- Studieren Sie die RC4-Stromchiffre und AES mit einem 128-Bit-Schlüssel, um mehr über symmetrische kryptografische Algorithmen zu erfahren.
+- Untersuchen Sie das RSA-Kryptosystem, die Schlüsselverteilung und Hash-Funktionen, um die asymmetrische Kryptographie zu erkunden.
 ---
-# Tiefes Eintauchen in die Kryptographie
+# Tiefgang in die moderne Kryptographie
 
-Es ist schwierig, viele Materialien zu finden, die einen guten Mittelweg im Kryptographieunterricht bieten.
+In diesem Kurs behandeln wir die Grundlagen der modernen Kryptographie auf klare und zugängliche Weise, ohne dass umfangreiche mathematische Vorkenntnisse erforderlich sind. In den einzelnen Kapiteln lernen Sie Kernkonzepte wie symmetrische und asymmetrische Verschlüsselung, Hash-Funktionen, digitale Signaturen, Schlüsselaustausch und praxisnahe Protokolle kennen. Dabei werden wir die Verbindungen zu praktischen Anwendungen wie sicherer Nachrichtenübermittlung, TLS, Passwortspeicherung und Authentifizierung herstellen.
 
-Auf der einen Seite gibt es lange, formale Abhandlungen, die wirklich nur für diejenigen zugänglich sind, die einen starken Hintergrund in Mathematik, Logik oder einer anderen formalen Disziplin haben. Andererseits gibt es sehr anspruchsvolle Einführungen, die wirklich zu viele Details für jeden verbergen, der auch nur ein bisschen neugierig ist.
-
-Diese Einführung in die Kryptographie versucht, einen Mittelweg zu finden. Während sie für jeden, der neu in die Kryptographie einsteigt, relativ anspruchsvoll und detailliert sein sollte, ist sie nicht das Kaninchenloch einer typischen grundlegenden Abhandlung.
-
+Das Material ist für Lernende aller Niveaus konzipiert und balanciert Intuition mit gerade genug technischer Tiefe, um die Neugier zu befriedigen. Erwarten Sie eine fokussierte, fesselnde Reise. Am Ende werden Sie verstehen, wie und warum moderne Kryptographie funktioniert und wie man sie verantwortungsvoll einsetzt.
 +++
 # Einführung
 
@@ -123,7 +118,7 @@ Der zweite Chiffretext ist in *Abbildung 2* unten zu sehen. [2] Der Schlüssel z
 
 *Abbildung 1: Beale-Chiffre Nr. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Die erste Zahl des zweiten Chiffretextes ist zum Beispiel 115. Das 115. Wort der Unabhängigkeitserklärung lautet "instituted", also ist der erste Buchstabe des Klartextes "i" Der Chiffretext gibt keine direkten Hinweise auf Wortabstände und Großschreibung. Aber nach der Entschlüsselung der ersten paar Wörter kann man logisch ableiten, dass das erste Wort des Klartextes einfach "I" war (Der Klartext beginnt mit der Phrase "I have deposited in the county of Bedford.")
 
@@ -286,7 +281,7 @@ Die möglichen Werte und zugehörigen Wahrscheinlichkeiten für eine Zufallsvari
 
 *Abbildung 1: Zufallsvariable X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Die breiten Balken in *Abbildung 1* sollen natürlich nicht suggerieren, dass die Zufallsvariable $X$ tatsächlich kontinuierlich ist. Stattdessen werden die Balken breit gemacht, um sie optisch ansprechender zu gestalten (eine gerade Linie nach oben ist weniger intuitiv).
 
@@ -324,7 +319,7 @@ Eine grafische Darstellung von $Y$ findet sich in *Abbildung 2*.
 
 *Abbildung 2: Zufallsvariable Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Als letztes Beispiel betrachten wir die Zufallsvariable Z. Sie hat die Ergebnismenge {1,3,7,11,12} und die folgende Wahrscheinlichkeitsverteilung:
 
@@ -352,7 +347,7 @@ Sie können es in *Abbildung 3* sehen. Die Zufallsvariable Z ist im Gegensatz zu
 
 *Abbildung 3: Zufallsvariable Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Bedingte Wahrscheinlichkeit
 
@@ -1012,11 +1007,11 @@ Bob verschlüsselt die Nachricht $M$ zum Zeitpunkt $T_0$ mit dem Schlüssel $K$,
 
 *Abbildung 1: Raumübergreifende Geheimhaltung*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Abbildung 2: Geheimhaltung im Zeitverlauf*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Ein Beispiel: Die Shift-Chiffre
 
@@ -1118,7 +1113,7 @@ Eine typische XOR-Stromchiffre ist in *Abbildung 3* dargestellt. Zunächst wird 
 
 *Abbildung 3: Eine XOR-Stromchiffre*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Denken Sie daran, dass ein Verschlüsselungsschema in der Regel eine Vorlage für eine Verschlüsselung mit demselben Kernalgorithmus ist und keine genaue Spezifikation. So ist auch eine Stromchiffre in der Regel eine Vorlage für eine Verschlüsselung, bei der Sie Schlüssel unterschiedlicher Länge verwenden können. Die Schlüssellänge kann sich zwar auf einige kleinere Details des Schemas auswirken, hat aber keinen Einfluss auf seine grundlegende Form.
 
@@ -1202,7 +1197,7 @@ Eine Darstellung der Funktionsweise einer Blockchiffre ist in *Abbildung 4* unte
 
 *Abbildung 4: Eine Blockchiffre*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Eine Blockchiffre ist für sich genommen kein Verschlüsselungsverfahren. Eine Blockchiffre kann jedoch mit verschiedenen **Arbeitsmodi** verwendet werden, um verschiedene Verschlüsselungsverfahren zu erzeugen. Eine Betriebsart fügt einfach einige zusätzliche Operationen außerhalb der Blockchiffre hinzu.
 
@@ -1210,7 +1205,7 @@ Um zu veranschaulichen, wie dies funktioniert, nehmen wir eine Blockchiffre (BC)
 
 *Abbildung 5: Eine Blockchiffre mit ECB-Modus*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Das Verfahren zur Verschlüsselung von elektronischen Codebüchern mit der Blockchiffre ist wie folgt. Prüfen Sie, ob Sie Ihre Klartextnachricht in 128-Bit-Blöcke unterteilen können. Wenn nicht, fügen Sie **Padding** zu der Nachricht hinzu, so dass das Ergebnis gleichmäßig durch die Blockgröße von 128 Bit geteilt werden kann. Dies sind Ihre Daten, die für den Verschlüsselungsprozess verwendet werden.
 
@@ -1226,7 +1221,7 @@ Der **Cipher-Block-Chaining-Modus** (**CBC-Modus**) ist wahrscheinlich der am h�
 
 *Abbildung 6: Eine Blockchiffre mit CBC-Modus*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Nehmen wir an, die Blockgröße beträgt wieder 128 Bit. Sie müssten also zunächst wieder sicherstellen, dass Ihre ursprüngliche Klartextnachricht die erforderliche Auffüllung erhält.
 
@@ -1242,7 +1237,7 @@ Wenden wir uns nun dem **Ausgangsrückkopplungsmodus** (**OFB-Modus**) zu. Eine 
 
 *Abbildung 7: Eine Blockchiffre mit OFB-Modus*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 Im OFB-Modus wählen Sie ebenfalls einen Initialisierungsvektor. Aber hier wird der Initialisierungsvektor für den ersten Block direkt in die Blockchiffre mit Ihrem Schlüssel eingefügt. Die sich daraus ergebenden 128 Bits werden dann als Schlüsselstrom (Keystream) behandelt. Dieser Keystream wird mit dem Klartext XOR-verknüpft, um den Chiffriertext für den Block zu erzeugen. Für nachfolgende Blöcke verwenden Sie den Schlüsselstrom des vorherigen Blocks als Eingabe für die Blockchiffre und wiederholen die Schritte.
 
@@ -1288,7 +1283,7 @@ Nach dieser Diskussion sollten Sie jetzt *Abbildung 8* verstehen. Sie gibt einen
 
 *Abbildung 8: Übersicht über die symmetrischen Verschlüsselungsverfahren*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Authentifizierungscodes für Nachrichten
 
@@ -1312,7 +1307,7 @@ Der Vorgang ist in *Abbildung 9* dargestellt. Um einen **MAC** (Message Authenti
 
 *Abbildung 9: Übersicht über die symmetrischen Verschlüsselungsverfahren*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Aufgrund der **existentiellen Fälschungssicherheit** kann ein Angreifer die Nachricht $M$ in keiner Weise verändern oder eine eigene Nachricht mit einem gültigen Tag erstellen. Dies gilt selbst dann, wenn der Angreifer die Tags vieler Nachrichten zwischen Bob und Alice beobachtet, die denselben privaten Schlüssel verwenden. Ein Angreifer könnte allenfalls verhindern, dass Alice die Nachricht $M$ erhält (ein Problem, das die Kryptographie nicht lösen kann).
 
@@ -1344,7 +1339,7 @@ Alice prüft nun zunächst, ob die Markierung mit dem Chiffretext $C$ und dem Sc
 
 *Abbildung 10: Ein authentifiziertes Verschlüsselungsverfahren*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Wie werden MACs erstellt? MACs können zwar mit verschiedenen Methoden erstellt werden, eine gängige und effiziente Methode ist jedoch die **kryptografische Hash-Funktion**.
 
@@ -1356,7 +1351,7 @@ Es gibt eine Reihe von Hash-Funktionen, die zur Erstellung eines HMAC verwendet 
 
 *Abbildung 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Anmerkungen:**
 
@@ -1394,7 +1389,7 @@ Die Kommunikationssitzung beginnt damit, dass Bob einen Chiffretext $C_{0,B}$ an
 
 *Abbildung 12: Eine sichere Kommunikationssitzung*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 und AES
 
@@ -1530,7 +1525,7 @@ Nennen wir den Schlüssel $K_0$. Die Konstruktion mit den obigen Parametern sieh
 
 *Abbildung 1: AES-ECB mit einem 128-Bit-Schlüssel*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Jeder 128-Bit-Textblock durchläuft beim Rijndael-Verschlüsselungsverfahren zehn Runden. Dies erfordert einen separaten Rundenschlüssel für jede Runde ($K_1$ bis $K_{10}$). Diese werden für jede Runde aus dem ursprünglichen 128-Bit-Schlüssel $K_0$ mithilfe eines **Schlüsselerweiterungsalgorithmus** erzeugt. Für jeden zu verschlüsselnden Textblock werden also sowohl der ursprüngliche Schlüssel $K_0$ als auch zehn separate Rundenschlüssel verwendet. Für jeden 128-Bit-Klartextblock, der verschlüsselt werden muss, werden dieselben 11 Schlüssel verwendet.
 
@@ -1806,7 +1801,7 @@ Zu einem späteren Zeitpunkt möchte Bob eine Nachricht $M$ an Alice schreiben. 
 
 *Abbildung 1: Asymmetrische Verschlüsselung*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Jeder Gegner, der die Kommunikation von Bob und Alice abhört, kann $C$ beobachten. Sie kennt auch $K_P$ und den Verschlüsselungsalgorithmus $E(\cdot)$. Wichtig ist jedoch, dass diese Informationen es dem Angreifer nicht ermöglichen, den Chiffretext $C$ zu entschlüsseln. Die Entschlüsselung erfordert nämlich $K_S$, das der Angreifer nicht besitzt.
 
@@ -1830,7 +1825,7 @@ Eine digitale Signatur ist, wie der Name schon sagt, das digitale Äquivalent ei
 
 *Abbildung 2: Asymmetrische Authentifizierung*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Wie bei der asymmetrischen Verschlüsselung gibt es einen interessanten Unterschied zwischen digitalen Signaturen und Nachrichtenauthentifizierungscodes. Bei letzteren kann der Verifizierungsalgorithmus nur von einer der in die sichere Kommunikation eingeweihten Parteien verwendet werden. Dies liegt daran, dass er einen privaten Schlüssel benötigt. Bei der asymmetrischen Verschlüsselung hingegen kann jeder eine von Bob geleistete digitale Signatur $S$ verifizieren.
 

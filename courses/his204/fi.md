@@ -1,35 +1,18 @@
 ---
 name: Laissez-Faire-taloustieteen juuret
-goal: tutkia 1700-luvun ranskalaisen liberaalin talousajattelun perusteita keskittyen laissez-faire-oppiin, sen johtaviin ajattelijoihin ja kestävään vaikutukseen.
-objectives: 
-
-
-  - Saada vankka käsitys ranskalaisen liberaalin talousajattelun keskeisistä käsitteistä ja niiden kehittymisestä 1700-luvulla
-  - Ymmärtää ranskalaisten ajattelijoiden valtion interventionismia vastaan kehittämät argumentit
-  - Arvioida tämän ranskalaisen koulukunnan vaikutusta ja sen roolia globaalin poliittisen talouden kehityksen muokkaajana
-  - Kehittää kriittistä ymmärrystä eri ajattelijoiden ja heidän teorioidensa välisestä historiallisesta jatkuvuudesta
-
-
+goal: Tutustu 1700-luvun liberaalin talousjärjestelmän perusteisiin keskittyen laissez-faire-oppiin, sen johtaviin ajattelijoihin ja pysyvään vaikutukseen.
+objectives:
+- Saada vankka ymmärrys liberaalin talousajattelun keskeisistä käsitteistä ja siitä, miten ne kehittyivät 1700-luvulla
+- Ymmärtää argumentit, joita ajattelijat kehittivät valtion interventionismia vastaan
+- Arvioida laissez-faire-ajattelun vaikutusta globaalin poliittisen talouden kehityksen muovaamisessa
+- Tarkastella jännitettä teorian ja käytännön välillä liberaalin talouden toteuttamisessa
 ---
-
 # Matka vapauden taloushistoriaan
 
+Tämä kurssi tutkii taloustieteen syntyä 1700-luvun Ranskassa laissez-faire-periaatteen näkökulmasta. Tulet löytämään, kuinka ajattelijat haastoivat merkantilismin väittämällä, että valtion tulisi suojella yksityisiä oikeuksia, mutta ei koskaan manipuloida markkinoita sääntelyllä.
 
-
-1700-luvun alussa Ranskassa alkoi muotoutua uusi tapa ajatella taloutta. Se syntyi vastauksena Ancien Régime -järjestelmän ankaraan valvontaan, ja sen keskiössä oli yksi voimakas ajatus: *laissez-faire* - "anna tapahtua".
-
-Sanonnan sanotaan olevan peräisin erään kauppiaan ja ministeri Colbertin välisestä keskustelusta. Kun ministeri kysyi: "Mitä hallitus voi tehdä auttaakseen yritystänne?", kauppias vastasi: "Antakaa meidän vain tehdä se".
-
-
-Sittemmin monet ajattelijat alkoivat tukea tätä ajatusta ja uskoivat, että hallituksen roolia pitäisi rajoittaa. Sen pitäisi suojella yksilön oikeuksia, mutta välttää puuttumasta talousasioihin, koska pelätään, että se häiritsee ja tuhoaa kaiken. Ensinnäkin sen on kerättävä verot oikeudenmukaisesti ja tasapuolisesti (Vauban, Boisguilbert). Sitten sen on pidättäydyttävä manipuloimasta valuuttaa devalvoimalla sen arvoa rahoittaakseen itseään alhaisin kustannuksin (Cantillon John Law'n katastrofin jälkeen; Dupont de Nemours ennen Assignatsin katastrofia). Sen on taattava vapaus tehdä työtä, poistettava killat ja teollisuuden ja kaupan raskaat säädökset, jotka estävät taloudellista kehitystä (d'Argensonin, Gournayn, fysiokraattien ja Turgot'n tukemat ajatukset).
-
-
-
-Lopuksi valtion on sallittava tavaroiden vapaa liikkuvuus, minkä vuoksi jotkut lisäsivät laissez-faireen ilmauksen "laissez-passer", joka antaa kuluttajille mahdollisuuden ostaa parhaaseen hintaan ja edistää rauhaa ja veljeyttä kansojen välillä (Quesnay ja fysiokraatit, Saint-Pierren apotti). Puolustaessaan tätä laissez-faire-ideaalia 1700-luvun ranskalaiset taloustieteilijät loivat perustan taloustieteelle. He hallitsivat omaa aikaansa, ja heillä on edelleen valta ohjata meidän aikamme kehitystä.
-
-
+Opit, kuinka visionääriset uudistajat laajensivat tätä näkemystä vaatimaan vapaata kauppaa ja rajoittamatonta tavaroiden liikkuvuutta, luoden näin modernin kapitalismin älylliset perusteet. Tutkimalla näitä uraauurtavia taloustieteilijöitä ymmärrät ajattomat periaatteet, jotka muovasivat globaalia poliittista taloutta ja vaikuttavat edelleen nykypäivän poliittisiin keskusteluihin. Liity nyt hallitaksesi ideat, jotka rakensivat modernin talouden.
 +++
-
 # Johdanto
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

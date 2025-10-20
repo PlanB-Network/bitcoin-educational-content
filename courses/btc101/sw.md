@@ -1203,6 +1203,10 @@ Kwa kuongeza, kuna [maeneo ya soko] (https://planb.network/tutorials/exchange) a
 
 Hatimaye, ni muhimu kutambua kwamba majukumu ya kodi yanaweza kutofautiana kulingana na mamlaka, kwa hivyo tunakuhimiza sana kushauriana na kanuni za nchi yako kabla ya kuchukua hatua zozote ambazo zinaweza kukuweka hatarini.
 
+Ikiwa ungependa kuongeza ujuzi wako kuhusu mikakati ya kununua, kutumia na kulinda bitcoins zako, nakushauri sana ufuate kozi ya **BTC 102** baada ya hii. Humo utapata mapendekezo ya zana zinazofaa kwa wasifu wako, mahitaji yako na malengo yako binafsi:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hyper-bitcoinization
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

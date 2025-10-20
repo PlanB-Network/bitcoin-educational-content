@@ -1173,7 +1173,7 @@ Problem skalowalności odnosi się do wdrożenia takiego systemu monetarnego, kt
 
 ![image](assets/en/79.webp)
 
-Protokół oparty na łańcuchu bloków może pogodzić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoin deweloperzy podjęli decyzję, aby faworyzować decentralizację i bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między powstaniem dwóch bloków (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez dowód pracy (ang. Proof-of-Work) sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z uzyciem bitcoina były odporne na cenzurę i nie zależały od zaufania pomiędzy stronami. Niemniej jednak osoby rozwijające Bitcoina od początku myślały o tym problemie.
+Protokół oparty na łańcuchu bloków może pogodzić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoin deweloperzy podjęli decyzję, aby faworyzować decentralizację i bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między powstaniem dwóch bloków (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez dowód pracy (ang. Proof-of-Work) sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z użyciem bitcoina były odporne na cenzurę i nie zależały od zaufania pomiędzy stronami. Niemniej jednak osoby rozwijające Bitcoina od początku myślały o tym problemie.
 
 ### Lightning Jako Wierzchnia Warstwa
 
@@ -1197,28 +1197,29 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-Jak właśnie zobaczyliśmy, protokół Bitcoin, choć rewolucyjny, napotyka znaczące wyzwania w zakresie skalowalności, aby obsłużyć wszystkie nasze codzienne transakcje. Aby rozwiązać te problemy, zaproponowano zastosowanie drugiej warstwy znanej jako Lightning Network, która obecnie ma kilka różnych, kompatybilnych ze sobą zastosowań:
+Jak właśnie zobaczyliśmy, protokół Bitcoin, choć rewolucyjny, napotyka znaczące wyzwania w zakresie skalowalności, aby obsłużyć wszystkie nasze codzienne transakcje. Aby rozwiązać te problemy, zaproponowano zastosowanie drugiej warstwy znanej jako sieć Lightning, która obecnie ma kilka różnych, kompatybilnych ze sobą zastosowań:
 
 - Core-lightning od Blockstream
 - Eclair od Acinq
 - LND od Lightning Labs
 Ta sieć peer-to-peer ma na celu ułatwienie mikrotransakcji, czyli transakcji o bardzo niskiej wartości, które w przeciwnym razie byłyby niepraktyczne ze względu na wysokie opłaty i długie czasy potwierdzenia w łańcuchu bloków Bitcoina.
+
 ### Jakie są przykłady wykorzystania tej sieci?
 
-Ta technologia otwiera drzwi do szerokiego zakresu potencjalnych zastosowań dla Bitcoina, które wcześniej były poza zasięgiem ze względu na ograniczenia niezbędne do zapewnienia bezpieczeństwa i decentralizacji Bitcoina. Wśród tych zastosowań w codziennym życiu możemy wymienić natychmiastowe rozliczenia w handlu (zarówno fizycznym, jak i online), strumieniowanie pieniędzy dla płatności w czasie rzeczywistym oraz mikro-donacje za treści internetowe. Dzięki wdrożeniu sieci niemal natychmiastowych, bezpiecznych i niskokosztowych transakcji (średnio mniej niż 0,5%), można wdrożyć wiele modeli biznesowych, które wcześniej były nie do wyobrażenia. Jest to możliwe, ponieważ Lightning Network używa satów, najmniejszej jednostki bitcoina.
+Ta technologia otwiera drzwi do szerokiego zakresu potencjalnych zastosowań dla Bitcoina, które wcześniej były poza zasięgiem ze względu na ograniczenia niezbędne do zapewnienia bezpieczeństwa i decentralizacji Bitcoina. Wśród tych zastosowań w codziennym życiu możemy wymienić natychmiastowe rozliczenia w handlu (zarówno fizycznym, jak i online), strumieniowanie pieniędzy dla płatności w czasie rzeczywistym oraz mikro-donacje za treści internetowe. Dzięki wdrożeniu sieci niemal natychmiastowych, bezpiecznych i niskokosztowych transakcji (średnio mniej niż 0,5%), można wdrożyć wiele modeli biznesowych, które wcześniej były nie do wyobrażenia. Jest to możliwe, ponieważ sieć Lightning używa satów, najmniejszej jednostki bitcoina.
 
 ![image](assets/en/82.webp)
 
-Branża gier wideo oferuje szczególnie interesujący przykład tego, jak można wykorzystać Lightning Network do transformacji istniejących modeli biznesowych. Pojęcie „skóra w grze” to idea, która ostatnio zyskała na popularności w tym kontekście. Polega to zasadniczo na posiadaniu finansowego udziału w wyniku gry.
-Lightning Network pozwala graczom obstawiać bardzo małe kwoty pieniędzy podczas gry, takie jak kilka satów (równowartość ułamka centa euro). Umożliwia to ustanowienie stawki, która stymuluje konkurencję, jednocześnie znacznie zwiększając koszt wdrażania botów.
+Branża gier wideo oferuje szczególnie interesujący przykład tego, jak można wykorzystać sieć Lightning do transformacji istniejących modeli biznesowych. Pojęcie „skóra w grze” to idea, która ostatnio zyskała na popularności w tym kontekście. Polega to zasadniczo na posiadaniu finansowego udziału w wyniku gry.
+Sieć Lightning pozwala graczom obstawiać bardzo małe kwoty pieniędzy podczas gry, takie jak kilka satów (równowartość ułamka centa euro). Umożliwia to ustanowienie stawki, która stymuluje konkurencję, jednocześnie znacznie zwiększając koszt wdrażania botów.
 
 ![image](assets/en/83.webp)
 
-Podsumowując, przyszłość mikrotransakcji z Bitcoinem wygląda obiecująco dzięki innowacjom takim jak Lightning Network. W miarę jak te technologie będą się rozwijać i dojrzewać, w najbliższej przyszłości możemy spodziewać się pojawienia się nowych i ekscytujących zastosowań. 
+Podsumowując, przyszłość mikrotransakcji z Bitcoinem wygląda obiecująco dzięki innowacjom takim jak sieć Lightning. W miarę jak te technologie będą się rozwijać i dojrzewać, w najbliższej przyszłości możemy spodziewać się pojawienia się nowych i ekscytujących zastosowań. 
 
 ![image](assets/en/84.webp)
 
-Inny przykład to koncepcja „strumieniowania pieniędzy” (ang. money streaming). Dzięki Lightning Network możemy dokonywać mikrotransakcji co minutę (potencjalnie bez zaufanej strony trzeciej), co otwiera drzwi do eksperymentowania z modelami ekonomicznymi, w których konsumenci płacą za treść w zależności od tego, co konsumują. Można także rozważyć użycie tego systemu do wynajmowania dóbr.
+Inny przykład to koncepcja „strumieniowania pieniędzy” (ang. money streaming). Dzięki sieci Lightning możemy dokonywać mikrotransakcji co minutę (potencjalnie bez zaufanej strony trzeciej), co otwiera drzwi do eksperymentowania z modelami ekonomicznymi, w których konsumenci płacą za treść w zależności od tego, co konsumują. Można także rozważyć użycie tego systemu do wynajmowania dóbr.
 
 ![obraz](assets/Concept/chapitre18/8.png)
 
@@ -1227,13 +1228,13 @@ W takim systemie pieniądze są automatycznie dzielone między różnych współ
 ![image](assets/en/85.webp)
 
 
-Podsumowując, Lightning Network daje użytkownikom Bitcoina możliwość wielu ekscytujących sposobów implementacji. Wynikające z tego modele ekonomiczne i możliwości biznesowe są liczne i zróżnicowane. Zachęcamy do samodzielnego przetestowania jednego z nich w aplikacji podcastowej [Fountain](https://www.fountain.fm/), która umożliwia otrzymanie wynagrodzenia w wysokości kilku satów za słuchanie twoich ulubionych podcastów!
+Podsumowując, sieć Lightning daje użytkownikom Bitcoina możliwość wielu ekscytujących sposobów implementacji. Wynikające z tego modele ekonomiczne i możliwości biznesowe są liczne i zróżnicowane. Zachęcamy do samodzielnego przetestowania jednego z nich w aplikacji podcastowej [Fountain](https://www.fountain.fm/), która umożliwia otrzymanie wynagrodzenia w wysokości kilku satów za słuchanie twoich ulubionych podcastów!
 
 ## Czerwona pigułka czy niebieska pigułka?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
-Jak powiedział Morfeusz do Neo: "Weźmiesz niebieską pigułkę, a historia się skończy, obudzisz się w swoim łóżku i będziesz wierzyć w to, w co chcesz wierzyć. Weźmiesz czerwoną pigułkę, a zostaniesz w Krainie Czarów, a ja pokażę Ci, jak głęboka jest królicza nora." Czy jesteś gotowy, aby zbadać króliczą norę  Bitcoina? Uważaj, ponieważ możesz na nowo odkryć swoją finansową wolność!
+Jak powiedział Morfeusz do Neo w filmie Matrix: „Weźmiesz niebieską pigułkę, a historia się skończy, obudzisz się w swoim łóżku i będziesz wierzyć w to, w co chcesz wierzyć. Weźmiesz czerwoną pigułkę, a zostaniesz w Krainie Czarów, a ja pokażę Ci, jak głęboka jest królicza nora” Czy jesteś gotowy, aby zbadać króliczą norę Bitcoina? Uważaj, ponieważ możesz na nowo odkryć swoją finansową wolność!
 
 ### Przyszłość technologii i jej implikacje
 
@@ -1268,7 +1269,7 @@ Akceptacja nowych technologii mogłaby generować ogromne korzyści skali na ca�
 
 Pytanie o to, kto powinien kontrolować system bankowy, jest kluczowe, ponieważ zasady gry bankowej nie są przejrzyste i zrozumiałe dla wszystkich, co pozwala kastom polityków i regulatorów utrzymywać swoje wpływy w systemie. Ważne jest, aby zastanowić się, czy to wolny rynek czy grupa intelektualistów powinna kontrolować system bankowy.
 
-### Stawką jest nasza wolność.
+### Stawką jest nasza wolność
 
 Cenzura również musi być poddana pod wątpliwość: kto ma wiedzę, aby decydować, co powinno być cenzurowane, a co nie? Media zmieniły swoje stanowisko wobec niektórych informacji, a ludzie, którzy byli wcześniej cenzurowani, dziś już nie są.
 
@@ -1291,7 +1292,7 @@ Bitcoin jest przyjmowany przez różnorodne grupy ludzi, od kryptografów po lib
 
 Bitcoin nie może być już zatrzymany ani ocenzurowany. To pokojowa rewolucja, która ma na celu zmianę systemu monetarnego i umożliwienie finansowej inkluzywności. Użytkownicy mogą uzyskać bitcoiny, akceptując je za swoje towary lub kupując je przez regulowane lub nieregulowane platformy. Bitcoiny można przechowywać w portfelach, aplikacjach mobilnych lub urządzeniach fizycznych bez konieczności korzystania z usług zaufanych pośredników. Bitcoin opowiada się za przejrzystością, wolnością i indywidualną odpowiedzialnością - mówimy „Nie ufaj, weryfikuj”.
 
-Satoshi, tworząc Bitcoina w 2008 roku, zaproponował nam zmianę systemu finansowego poprzez zmianę waluty, ponieważ wiedział, że posiadanie dostępu do do łatwych i „magicznych” pieniędzy łatwo korumpuje. Bitcoin jest więc alternatywą pozwalającą na zbudowanie nowego neutralnego systemu monetarnego, ponieważ umożliwia uwolnienie się od systemu bankowego. To zjawisko społeczne, które prowadzi nas do udziału w pokojowej rewolucji. 
+Satoshi, tworząc Bitcoina w 2008 roku, zaproponował nam zmianę systemu finansowego poprzez zmianę waluty, ponieważ wiedział, że posiadanie dostępu do łatwych i „magicznych” pieniędzy łatwo korumpuje. Bitcoin jest więc alternatywą pozwalającą na zbudowanie nowego neutralnego systemu monetarnego, ponieważ umożliwia uwolnienie się od systemu bankowego. To zjawisko społeczne, które prowadzi nas do udziału w pokojowej rewolucji. 
 
 Czy jesteś gotowy, aby dołączyć?
 

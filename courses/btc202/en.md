@@ -2200,7 +2200,7 @@ If your node is listening on an open port (by default, 8333), it accepts incomin
 
 When your node has completed its initial synchronization, it stores several complementary data sets locally, enabling it to validate blocks and transactions, serve network peers, and restart quickly while maintaining its state. 3 main bricks are essential on a node:
 
-- gW-402 **blocks** stored on disk,
+- the **blocks** of the blockchain stored on disk,
 - the **UTXO set** maintained in a key-value database,
 - and the **Mempool** is stored in RAM and periodically serialized.
 

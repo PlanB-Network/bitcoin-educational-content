@@ -2941,7 +2941,7 @@ Kada vaš čvor završi svoju početnu sinhronizaciju, lokalno skladišti nekoli
 
 
 
-- gW-402 **blokova** pohranjenih na disku,
+- **blokovi** blokčejna sačuvani na disku,
 - **UTXO set** održavan u bazi podataka ključ-vrednost,
 - i **Mempool** se čuva u RAM-u i povremeno serijalizuje.
 

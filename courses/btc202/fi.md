@@ -2941,7 +2941,7 @@ Kun solmu on suorittanut alkusynkronoinnin, se tallentaa paikallisesti useita to
 
 
 
-- gW-402 **lohkot** tallennettuna levylle,
+- levylle tallennetut lohkoketjun **lohkot**,
 - avain-arvotietokannassa ylläpidetty **UTXO-sarja**,
 - ja **Mempool** tallennetaan RAM-muistiin ja sarjoitetaan määräajoin.
 

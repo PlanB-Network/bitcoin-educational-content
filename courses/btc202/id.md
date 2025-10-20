@@ -2941,7 +2941,7 @@ Ketika node Anda telah menyelesaikan sinkronisasi awal, node akan menyimpan bebe
 
 
 
-- gW-402 **blok** yang disimpan pada disk,
+- **blok** blockchain yang disimpan di disk,
 - set **UTXO** yang disimpan dalam basis data nilai kunci,
 - dan **Mempool** disimpan dalam RAM dan diserialisasikan secara berkala.
 

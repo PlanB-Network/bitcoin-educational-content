@@ -2941,7 +2941,7 @@ Cuando el nodo ha completado su sincronización inicial, almacena localmente var
 
 
 
-- gW-402 **bloques** almacenados en disco,
+- los **bloques** de la cadena de bloques almacenados en el disco,
 - el **conjunto UTXO** mantenido en una base de datos clave-valor,
 - y el **Mempool** se almacena en RAM y se serializa periódicamente.
 

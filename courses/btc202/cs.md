@@ -2941,7 +2941,7 @@ Po dokončení počáteční synchronizace uzel lokálně uloží několik dopl�
 
 
 
-- gW-402 **bloky** uložené na disku,
+- **bloky** blockchainu uložené na disku,
 - sada **UTXO** vedená v databázi klíč-hodnota,
 - a **Mempool** se ukládá do paměti RAM a pravidelně se serializuje.
 

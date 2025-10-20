@@ -2941,7 +2941,7 @@ Iyo node yawe irangije gukorana neza, ibika amakuru menshi yuzuzanya mu karere, 
 
 
 
-- gW-402 **amabuye** abitswe kuri disiki,
+- **ibibuga** bya blockchain bibitswe kuri disiki,
 - **UTXO set** igumye mu bubiko bw'amakuru y'agaciro k'urufunguzo,
 - kandi **Mempool** ibikwa muri RAM kandi ikagenda irakurikirana.
 

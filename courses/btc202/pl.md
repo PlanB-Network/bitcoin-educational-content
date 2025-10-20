@@ -2941,7 +2941,7 @@ Po zakończeniu początkowej synchronizacji węzeł przechowuje lokalnie kilka u
 
 
 
-- gW-402 **bloki** przechowywane na dysku,
+- **bloki** łańcucha bloków przechowywane na dysku,
 - **Zestaw UTXO** przechowywany w bazie danych klucz-wartość,
 - a **Mempool** jest przechowywany w pamięci RAM i okresowo serializowany.
 

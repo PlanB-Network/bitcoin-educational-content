@@ -2941,7 +2941,7 @@ Düğümünüz ilk senkronizasyonunu tamamladığında, blokları ve işlemleri 
 
 
 
-- gW-402 **bloklar** disk üzerinde depolanır,
+- diskte depolanan blokzincirin **blokları**,
 - bir anahtar-değer veritabanında tutulan **UTXO seti**,
 - ve **Mempool** RAM'de saklanır ve periyodik olarak serileştirilir.
 

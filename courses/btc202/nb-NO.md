@@ -2941,7 +2941,7 @@ Når noden har fullført den innledende synkroniseringen, lagrer den flere utfyl
 
 
 
-- gW-402 **blokker** lagret på disk,
+- **blokkene** i blokkjeden som er lagret på disken,
 - **UTXO-settet** som vedlikeholdes i en nøkkelverdidatabase,
 - og **Mempool** lagres i RAM og serialiseres med jevne mellomrom.
 

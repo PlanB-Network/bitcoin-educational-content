@@ -2941,7 +2941,7 @@ När noden har slutfört sin första synkronisering lagrar den flera komplettera
 
 
 
-- gW-402 **block** lagrade på disk,
+- **blocken** i blockkedjan som lagras på disken,
 - **UTXO-uppsättningen** i en databas med nyckelvärden,
 - och **Mempool** lagras i RAM-minnet och serialiseras periodiskt.
 

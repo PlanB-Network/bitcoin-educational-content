@@ -2941,7 +2941,7 @@ Wenn Ihr Knoten seine anfängliche Synchronisierung abgeschlossen hat, speichert
 
 
 
-- gW-402 **Blöcke** auf der Festplatte gespeichert,
+- die auf der Festplatte gespeicherten **Blöcke** der Blockchain,
 - den **UTXO-Satz**, der in einer Schlüssel-Wert-Datenbank verwaltet wird,
 - und der **Mempool** wird im RAM gespeichert und periodisch serialisiert.
 

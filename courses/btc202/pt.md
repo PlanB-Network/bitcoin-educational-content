@@ -2941,7 +2941,7 @@ Quando o nó tiver completado a sua sincronização inicial, armazena localmente
 
 
 
-- gW-402 **blocos** armazenados no disco,
+- os **blocos** da blockchain armazenados em disco,
 - o **conjunto UTXO** mantido numa base de dados de valores chave,
 - e o **Mempool** é armazenado na RAM e periodicamente serializado.
 

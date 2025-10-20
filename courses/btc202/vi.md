@@ -2941,7 +2941,7 @@ Khi nút của bạn hoàn tất quá trình đồng bộ hóa ban đầu, nó s
 
 
 
-- gW-402 **khối** được lưu trữ trên đĩa,
+- các **khối** của blockchain được lưu trữ trên đĩa,
 - bộ **UTXO** được duy trì trong cơ sở dữ liệu khóa-giá trị,
 - và **Mempool** được lưu trữ trong RAM và được tuần tự hóa theo định kỳ.
 

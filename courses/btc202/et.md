@@ -2941,7 +2941,7 @@ Kui teie sõlme on lõpetanud esialgse sünkroniseerimise, salvestab ta mitu tä
 
 
 
-- gW-402 **plokid**, mis on salvestatud kettale,
+- kettale salvestatud plokiahela **plokid**,
 - **UTXO kogum**, mida hoitakse võtmeväärtusandmebaasis,
 - ja **Mempool** salvestatakse RAM-i ja perioodiliselt seeriaviisiliselt.
 

@@ -2941,7 +2941,7 @@ Wakati nodi yako imekamilisha ulandanishi wake wa awali, huhifadhi seti kadhaa z
 
 
 
-- gW-402 **vitalu** vilivyohifadhiwa kwenye diski,
+- **vitalu** vya blockchain vilivyohifadhiwa kwenye diski,
 - **seti ya UTXO** iliyotunzwa katika hifadhidata ya thamani kuu,
 - na **Mempool** huhifadhiwa kwenye RAM na kupangwa mara kwa mara.
 

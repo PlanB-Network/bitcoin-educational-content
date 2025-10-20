@@ -2941,7 +2941,7 @@ Quando il nodo ha completato la sincronizzazione iniziale, memorizza localmente 
 
 
 
-- gW-402 **blocchi** memorizzati su disco,
+- i **blocchi** della blockchain memorizzati su disco,
 - l'insieme **UTXO** mantenuto in un database chiave-valore,
 - e il **Mempool** viene memorizzato nella RAM e serializzato periodicamente.
 

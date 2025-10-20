@@ -382,7 +382,7 @@ Wrócimy do tematu górników bardziej szczegółowo w [rozdziale o wydobywaniu]
 
 ### Gwarantowanie cyfrowej rzadkości
 
-Limit 21 milionów Bitcoinów jest gwarantem jego rzadkości regulowanym przez dwa kluczowe mechanizmy: dostosowanie trudności wydobycia i teorię gier:
+Limit 21 milionów bitcoinów jest gwarantem jego rzadkości regulowanym przez dwa kluczowe mechanizmy: dostosowanie trudności wydobycia i teorię gier:
 
 - Dostosowanie trudności wydobycia to mechanizm, który ma miejsce co 2016 bloków, czyli co około dwa tygodnie, aby zapewnić, że do łańcucha bloków średnio co dziesięć minut dodawany jest nowy blok. Ta częstotliwość tworzenia bloków i całkowita ilość bitcoinów są ustalonymi aspektami protokołu Bitcoin i nie mogą być zmienione bez ogólnego konsensusu, w przeciwieństwie do arbitralnych decyzji podejmowanych w tradycyjnych systemach monetarnych.
 
@@ -401,7 +401,7 @@ Pomysł deprecjacji waluty jest sprzeczny z fundamentalną filozofią Bitcoina, 
 
 ### Polityka monetarna poddawana audytowi: co sekundę od początku i na zawsze!
 
-Rzadkość Bitcoina jest jego głównym atutem, a maksymalna ilość 21 milionów bitcoinów w obiegu jest widoczna publicznie i możliwa do zweryfikowania przez każdego.
+Rzadkość bitcoina jest jego głównym atutem, a maksymalna ilość 21 milionów bitcoinów w obiegu jest widoczna publicznie i możliwa do zweryfikowania przez każdego.
 
 Każdy może to zrobić przez węzeł sieci (czyli punkt potwierdzania transakcji) poprzez wpisanie następującej komendy: `bitcoin-cli gettxoutsetinfo`. Ta przejrzystość i możliwość weryfikacji wzmacniają zaufanie do systemu Bitcoina, który nie opiera się na scentralizowanych instytucjach czy osobach, ale na matematycznej i kryptograficznej gwarancji właściwej jego protokołowi. (Dowiesz się, jak łatwo to zrobić w kursie LNP201).
 
@@ -434,7 +434,7 @@ Podsumowując, Bitcoin, ze swoją zdecentralizowaną naturą, zaprogramowaną og
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-W sekcji 2 omówimy przechowywanie i zabezpieczanie Bitcoinów w portfelach, żeby lepiej zrozumieć, gdzie znajdują się te słynne bitcoiny i jak z nimi interagować!
+W sekcji 2 omówimy przechowywanie i zabezpieczanie bitcoinów w portfelach, żeby lepiej zrozumieć, gdzie znajdują się te słynne bitcoiny i jak z nimi interagować!
 
 ### Demistyfikacja portfeli Bitcoin
 
@@ -442,7 +442,7 @@ Do interakcji z siecią Bitcoin używamy portfeli, mają one 3 funkcje:
 
 - Umożliwiają otrzymywanie bitcoinów
 - Umożliwiają wysyłanie bitcoinów
-- Zabezpieczają bitcoiny przed próbami hackingu i kradzieży
+- Zabezpieczają bitcoiny przed próbami zhakowania i kradzieży
 
 Portfel może być oprogramowaniem na twoim komputerze, aplikacją na twoim smartfonie, fizycznym urządzeniem, takim jak klucz USB, a nawet kawałkiem papieru. Różne typy portfeli są przydatne w różnych sytuacjach. Niektóre są używane do bezpiecznego przechowywania dużych kwot, inne do ochrony prywatności, a jeszcze inne do codziennego obrotu małymi kwotami.
 

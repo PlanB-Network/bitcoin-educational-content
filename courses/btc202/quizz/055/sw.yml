@@ -2,7 +2,7 @@ question: Ni chaguzi gani tatu za seva zinazopatikana katika Sparrow?
 answer: Seva ya Umma, Bitcoin core, Elektroni ya Kibinafsi
 wrong_answers:
   - RPC Direct, VPN, Tor
-  - Full node, Njia ya Mwanga, Node ya Simu
+  - Full node, Njia ya Lightning, Node ya Simu
   - Core RPC, Lightning, ElectrumX
 explanation: |
   Sparrow inatoa chaguo tatu za seva: Seva ya Umma, Bitcoin core (RPC), na Electrum ya Kibinafsi.

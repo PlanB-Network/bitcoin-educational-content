@@ -378,3 +378,21 @@ pear run pear://k9cawqdsan3bkobkigesuyfeqjcasi49ikjaru5cipap835t7nwy
 Une fois le chargement terminé, Plan ₿ Academy s’ouvrira dans votre environnement Pears, prête à être utilisée comme sur le site web original, mais sans aucune dépendance à un serveur central.
 
 ![Image](assets/fr/14.webp)
+
+## 3. Comment seed Plan ₿ Academy sur Pears ?
+
+Dans le réseau Pears, "*seed*" une application signifie la redistribuer à d'autres pairs depuis votre propre machine. Concrètement, lorsque vous seedez Plan ₿ Academy, votre ordinateur devient à son tour une source de données permettant à d'autres utilisateurs de télécharger l'application sans dépendre d'un serveur central.
+
+Ce mécanisme renforce la résilience et la résistance à la censure de notre application sur le réseau Pears. Plus il y a de pairs qui seedent une application, plus elle devient disponible et décentralisée, même si certaines machines d’origine s’éteignent.
+
+Pour contribuer à la diffusion de Plan ₿ Academy, il suffit d’exécuter la commande suivante :
+
+```bash
+pear seed pear://k9cawqdsan3bkobkigesuyfeqjcasi49ikjaru5cipap835t7nwy
+```
+
+Tant que cette commande est active, votre appareil participe à la distribution des fichiers de l’application. Si vous fermez le terminal, le partage s’arrête.
+
+Pour continuer à seeder après un redémarrage, vous pouvez exécuter la commande en tâche de fond, ou bien créer un service systemd (Linux), un LaunchAgent (macOS), ou une tâche planifiée (Windows). Ces solutions permettent de relancer automatiquement le seeding de l'application Plan ₿ Academy au démarrage de votre système.
+
+Merci de contribuer à la diffusion décentralisée de Plan ₿ Academy sur Pears et d’aider à rendre l’éducation sur Bitcoin réellement incensurable !

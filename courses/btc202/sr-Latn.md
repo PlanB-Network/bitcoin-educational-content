@@ -3093,7 +3093,7 @@ Mempool je lokalni skup važećih transakcija koje su primljene, ali još nisu p
 
 
 - veličina dodeljena Mempool putem parametra `maxmempool`: čvor sa većim Mempool moći će da drži više transakcija nego čvor sa manjim Mempool (osim ako se potonji ne isprazni);
-- gW-433 pravila: ovo je podskup pravila prenosa čvora i definiše karakteristike koje nepotvrđena transakcija mora ispuniti da bi bila prihvaćena u Mempool;
+- pravila mempool-a: ona predstavljaju podskup pravila prenosa čvora i definišu karakteristike koje nepotvrđena transakcija mora ispuniti da bi bila prihvaćena u mempool;
 - transakcija perkolacija: zbog različitih faktora, određena transakcija može biti distribuirana jednom delu mreže, ali još uvek nije stigla do drugog.
 
 

@@ -3093,7 +3093,7 @@ Mempool on vastuvõetud, kuid veel kinnitamata kehtivate tehingute kohalik kogum
 
 
 - gW-614-le parameetri `maxmempool` kaudu eraldatud suurus: suurema Mempool-ga sõlme saab mahutada rohkem tehinguid kui väiksema Mempool-ga sõlme (välja arvatud juhul, kui viimane muutub tühjaks);
-- gW-433 reeglid: need on sõlme releereeglite alamhulk ja määratlevad omadused, millele kinnitamata tehing peab vastama, et seda Mempool-s aktsepteeritaks;
+- mempooli reeglid: need moodustavad sõlme edastusreeglite alamhulga ja määravad omadused, mida kinnitamata tehing peab täitma, et see vastu võetaks mempooli;
 - tehingu perkolatsioon: erinevate tegurite tõttu võib teatav tehing olla jaotatud võrgu ühte ossa, kuid ei ole veel jõudnud teise ossa.
 
 

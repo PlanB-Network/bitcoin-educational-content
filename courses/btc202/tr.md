@@ -3093,7 +3093,7 @@ Mempool, alınmış ancak henüz onaylanmamış geçerli işlemlerin yerel küme
 
 
 - gW-614'e `maxmempool` parametresi aracılığıyla tahsis edilen boyut: daha büyük bir Mempool'e sahip bir düğüm, daha küçük bir Mempool'e sahip bir düğümden daha fazla işlem tutabilecektir (ikincisi boşalmadığı sürece);
-- gW-433 kuralları: bunlar düğümün aktarım kurallarının bir alt kümesidir ve onaylanmamış bir işlemin Mempool'te kabul edilmesi için karşılaması gereken özellikleri tanımlar;
+- mempool kuralları: bunlar düğümün aktarım kurallarının bir alt kümesini oluşturur ve onaylanmamış bir işlemin mempool’a kabul edilmesi için karşılaması gereken özellikleri tanımlar;
 - işlem süzülmesi: çeşitli faktörler nedeniyle, belirli bir işlem ağın bir kısmına dağıtılmış, ancak henüz başka bir kısmına ulaşmamış olabilir.
 
 

@@ -3093,7 +3093,7 @@ O Mempool é o conjunto local de transacções válidas que foram recebidas mas 
 
 
 - o tamanho atribuído ao Mempool através do parâmetro `maxmempool`: um nó com um Mempool maior será capaz de manter mais transacções do que um nó com um Mempool menor (a menos que este último fique vazio);
-- regras gW-433: são um subconjunto das regras de retransmissão do nó e definem as caraterísticas que uma transação não confirmada deve satisfazer para ser aceite no Mempool;
+- as regras da mempool: constituem um subconjunto das regras de retransmissão do nó e definem as características que uma transação não confirmada deve atender para ser aceita na mempool;
 - percolação de transacções: devido a vários factores, uma determinada transação pode ter sido distribuída a uma parte da rede, mas ainda não ter chegado a outra.
 
 

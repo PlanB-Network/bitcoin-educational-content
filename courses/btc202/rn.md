@@ -3093,7 +3093,7 @@ Mempool ni urutonde rw’amafaranga y’aho hantu y’ukuri yashikirijwe ariko a
 
 
 - ubunini bugenewe Mempool biciye ku `maxmempool` parameter: urudodo rufise Mempool nini ruzoshobora gufata amafaranga menshi kurusha urudodo rufise Mempool nto (kiretse iyo ya nyuma iba ubusa);
-- Amategeko ya gW-433: aya ni igice c’amategeko y’ugutanga amakuru y’urudodo kandi asobanura ibiranga igikorwa kitaremejwe gitegerezwa guhura kugira ngo cemerwe muri Mempool;
+- amategeko ya mempool: ni igice cy’amategeko yo kohereza kwa node kandi asobanura ibiranga igikorwa kitaremezwa kigomba kugira ngo cyemererwe muri mempool;
 - transaction percolation: kubera ibintu bitandukanye, igikorwa kanaka gishobora kuba carashikirijwe igice kimwe c’urubuga, ariko ntikigeze ku kindi.
 
 

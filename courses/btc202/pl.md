@@ -3093,7 +3093,7 @@ Mempool to lokalny zestaw ważnych transakcji, które zostały odebrane, ale nie
 
 
 - rozmiar przydzielony do Mempool za pomocą parametru `maxmempool`: węzeł z większym Mempool będzie w stanie pomieścić więcej transakcji niż węzeł z mniejszym Mempool (chyba że ten ostatni stanie się pusty);
-- reguły gW-433: są podzbiorem reguł przekaźnika węzła i definiują cechy, które musi spełniać niepotwierdzona transakcja, aby mogła zostać zaakceptowana w Mempool;
+- zasady mempoola: stanowią podzbiór zasad przekazywania węzła i określają cechy, które musi spełniać niepotwierdzona transakcja, aby została zaakceptowana do mempoola;
 - perkolacja transakcji: z powodu różnych czynników dana transakcja mogła zostać rozesłana do jednej części sieci, ale nie dotarła jeszcze do innej.
 
 

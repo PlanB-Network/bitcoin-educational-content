@@ -3093,7 +3093,7 @@ Il Mempool è l'insieme locale delle transazioni valide che sono state ricevute 
 
 
 - la dimensione allocata al Mempool tramite il parametro `maxmempool`: un nodo con un Mempool più grande sarà in grado di contenere più transazioni di un nodo con un Mempool più piccolo (a meno che quest'ultimo non diventi vuoto);
-- regole gW-433: sono un sottoinsieme delle regole di trasmissione del nodo e definiscono le caratteristiche che una transazione non confermata deve soddisfare per essere accettata nel Mempool;
+- le regole della mempool: costituiscono un sottoinsieme delle regole di inoltro del nodo e definiscono le caratteristiche che una transazione non confermata deve rispettare per essere accettata nella mempool;
 - percolazione delle transazioni: a causa di vari fattori, una determinata transazione può essere stata distribuita in una parte della rete, ma non ancora raggiunta da un'altra.
 
 

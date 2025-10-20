@@ -3093,7 +3093,7 @@ Mempool je místní soubor platných transakcí, které byly přijaty, ale ješt
 
 
 - velikost přidělená Mempool pomocí parametru `maxmempool`: uzel s větším Mempool bude schopen pojmout více transakcí než uzel s menším Mempool (pokud se tento nevyprázdní);
-- pravidla gW-433: jsou podmnožinou pravidel přenosu uzlu a definují vlastnosti, které musí nepotvrzená transakce splňovat, aby byla přijata v Mempool;
+- pravidla mempoolu: tvoří podmnožinu pravidel přeposílání uzlu a určují vlastnosti, které musí nespotvrzená transakce splňovat, aby byla přijata do mempoolu;
 - pronikání transakcí: v důsledku různých faktorů může být daná transakce distribuována do jedné části sítě, ale do jiné ještě nedorazila.
 
 

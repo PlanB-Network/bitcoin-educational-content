@@ -3093,7 +3093,7 @@ Mempool là tập hợp cục bộ các giao dịch hợp lệ đã được nh�
 
 
 - kích thước được phân bổ cho Mempool thông qua tham số `maxmempool`: một nút có Mempool lớn hơn sẽ có thể chứa nhiều giao dịch hơn một nút có Mempool nhỏ hơn (trừ khi nút sau bị trống);
-- Quy tắc gW-433: đây là một tập hợp con các quy tắc chuyển tiếp của nút và xác định các đặc điểm mà một giao dịch chưa xác nhận phải đáp ứng để được chấp nhận trong Mempool;
+- các quy tắc của mempool: chúng tạo thành một tập hợp con của các quy tắc chuyển tiếp của nút và xác định các đặc điểm mà một giao dịch chưa được xác nhận phải đáp ứng để được chấp nhận vào mempool;
 - sự thẩm thấu giao dịch: do nhiều yếu tố khác nhau, một giao dịch nhất định có thể đã được phân phối đến một phần của mạng nhưng chưa đến được phần khác.
 
 

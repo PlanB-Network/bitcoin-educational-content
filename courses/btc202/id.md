@@ -3093,7 +3093,7 @@ Mempool adalah kumpulan lokal dari transaksi valid yang telah diterima tetapi be
 
 
 - ukuran yang dialokasikan ke Mempool melalui parameter `maxmempool`: node dengan Mempool yang lebih besar akan dapat menampung lebih banyak transaksi daripada node dengan Mempool yang lebih kecil (kecuali jika node yang terakhir menjadi kosong);
-- aturan gW-433: ini adalah bagian dari aturan relai node dan mendefinisikan karakteristik yang harus dipenuhi oleh transaksi yang belum dikonfirmasi agar dapat diterima di Mempool;
+- aturan mempool: merupakan subset dari aturan perantara node dan menentukan karakteristik yang harus dipenuhi oleh transaksi yang belum dikonfirmasi agar diterima ke dalam mempool;
 - perembesan transaksi: karena berbagai faktor, transaksi tertentu mungkin telah didistribusikan ke satu bagian jaringan, tetapi belum mencapai bagian lain.
 
 

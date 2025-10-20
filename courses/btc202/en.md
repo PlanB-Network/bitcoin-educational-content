@@ -2314,7 +2314,7 @@ The mempool is the local set of valid transactions that have been received but n
 
 
 - the size allocated to the Mempool via the `maxmempool` parameter: a node with a larger Mempool will be able to hold more transactions than a node with a smaller Mempool (unless the latter becomes empty);
-- gW-433 rules: these are a subset of the node's relay rules and define the characteristics that an unconfirmed transaction must meet in order to be accepted in Mempool;
+- mempool rules: they form a subset of the node’s relay rules and define the characteristics that an unconfirmed transaction must meet to be accepted into the mempool;
 - transaction percolation: due to various factors, a given transaction may have been distributed to one part of the network, but not yet reached another.
 
 

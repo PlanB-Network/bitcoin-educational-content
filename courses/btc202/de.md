@@ -3093,7 +3093,7 @@ Der Mempool ist der lokale Satz gültiger Transaktionen, die empfangen, aber noc
 
 
 - die dem Mempool über den Parameter `maxmempool` zugewiesene Größe: ein Knoten mit einem größeren Mempool kann mehr Transaktionen aufnehmen als ein Knoten mit einem kleineren Mempool (es sei denn, letzterer wird leer);
-- gW-433-Regeln: Diese sind eine Teilmenge der Relaisregeln des Knotens und definieren die Merkmale, die eine unbestätigte Transaktion erfüllen muss, um in Mempool akzeptiert zu werden;
+- die Mempool-Regeln: Sie bilden eine Teilmenge der Weiterleitungsregeln des Knotens und legen die Eigenschaften fest, die eine unbestätigte Transaktion erfüllen muss, um in den Mempool aufgenommen zu werden;
 - perkolation von Transaktionen: Aufgrund verschiedener Faktoren kann eine bestimmte Transaktion bereits an einen Teil des Netzes verteilt worden sein, einen anderen aber noch nicht erreicht haben.
 
 

@@ -3093,7 +3093,7 @@ Mempool on paikallinen joukko kelvollisia tapahtumia, jotka on vastaanotettu mut
 
 
 - gW-614:lle parametrin `maxmempool` kautta varattu koko: solmuun, jolla on suurempi Mempool, mahtuu enemmän tapahtumia kuin solmuun, jolla on pienempi Mempool (ellei jälkimmäinen tyhjene);
-- gW-433-säännöt: Nämä ovat osajoukko solmun välityssääntöjä, ja niissä määritellään ominaisuudet, jotka vahvistamattoman tapahtuman on täytettävä, jotta se voidaan hyväksyä Mempool:ssä;
+- mempoolin säännöt: ne muodostavat solmun välityssääntöjen osajoukon ja määrittelevät ominaisuudet, jotka vahvistamattoman tapahtuman on täytettävä tullakseen hyväksytyksi mempooliin;
 - transaktioiden perkolaatio: eri tekijöistä johtuen tietty transaktio on saattanut levitä yhteen verkon osaan, mutta ei ole vielä saavuttanut toista osaa.
 
 

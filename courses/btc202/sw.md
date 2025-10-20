@@ -3093,7 +3093,7 @@ Mempool ni seti ya ndani ya miamala halali ambayo imepokelewa lakini bado haijat
 
 
 - ukubwa uliotengwa kwa Mempool kupitia parameter ya `maxmempool`: nodi yenye Mempool kubwa itaweza kushikilia shughuli nyingi zaidi kuliko nodi yenye Mempool ndogo (isipokuwa mwisho inakuwa tupu);
-- Sheria za gW-433: hizi ni sehemu ndogo ya sheria za upeanaji wa nodi na hufafanua sifa ambazo shughuli ambayo haijathibitishwa lazima ifikie ili kukubalika katika Mempool;
+- kanuni za mempool: ni sehemu ndogo ya kanuni za usambazaji za nodi na zinafafanua sifa ambazo muamala usiothibitishwa lazima uzikidhi ili ukubaliwe katika mempool;
 - uboreshaji wa shughuli: kutokana na sababu mbalimbali, muamala fulani unaweza kuwa umesambazwa kwa sehemu moja ya mtandao, lakini bado haujafikiwa nyingine.
 
 

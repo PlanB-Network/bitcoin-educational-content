@@ -3093,7 +3093,7 @@ Mempool är den lokala uppsättningen av giltiga transaktioner som har tagits em
 
 
 - den storlek som tilldelas Mempool via parametern `maxmempool`: en nod med en större Mempool kommer att kunna rymma fler transaktioner än en nod med en mindre Mempool (såvida inte den senare blir tom);
-- gW-433-regler: dessa är en delmängd av nodens reläregler och definierar de egenskaper som en obekräftad transaktion måste uppfylla för att kunna accepteras i Mempool;
+- mempool-reglerna: de utgör en delmängd av nodens vidarebefordringsregler och definierar de egenskaper som en obekräftad transaktion måste uppfylla för att accepteras i mempoolen;
 - transaktionsperkolation: På grund av olika faktorer kan en viss transaktion ha distribuerats till en del av nätverket, men ännu inte nått en annan del.
 
 

@@ -1,24 +1,24 @@
 ---
-name: Construire avec Elements et Liquid Network
+nom: Construire avec Elements et Liquid Network
 
-goal: Apprendre à utiliser et à développer avec la plateforme blockchain open-source Elements et ses principales caractéristiques
-objectifs: 
+goal: Apprendre à utiliser et à développer avec la plateforme blockchain open source Elements et ses principales caractéristiques
+objectives: 
 
   - Comprendre les concepts fondamentaux de la plateforme blockchain Elements et de la sidechain Liquid.
   - Apprenez à configurer et à faire fonctionner les nœuds Elements pour les configurations autonomes et les chaînes latérales.
-  - Acquérir une expérience pratique de la signature de blocs fédérés et du Federated 2-Way Peg.
+  - Acquérir une expérience pratique de la signature de blocs fédérés et du Federated 2-Way Peg (Peg à 2 voies fédérées).
   - Mettre en place et gérer des environnements blockchain sécurisés et efficaces pour des cas d'utilisation réels.
 
 ---
-# S'appuyer sur liquid et Elements
+# Construire sur Liquid et Elements
 
-Découvrez les fonctionnalités avancées de Liquid et d'Elements, et apprenez à utiliser efficacement ces outils pour améliorer vos projets de développement. Cette formation fournit une base théorique et pratique complète, vous permettant de maîtriser des fonctionnalités telles que les transactions confidentielles, les actifs émis et la signature de blocs fédérés.
+Découvrez les fonctionnalités avancées de Liquid et de Elements, et apprenez à utiliser efficacement ces outils pour améliorer vos projets de développement. Cette formation fournit une base théorique et pratique complète, vous permettant de maîtriser des fonctionnalités telles que les transactions confidentielles, les actifs émis et la signature de blocs fédérés.
 
 Liquid, basé sur le cadre Elements, est conçu pour améliorer la confidentialité, l'évolutivité et la fonctionnalité des solutions financières et techniques. Dans ce cours, vous acquerrez une expérience pratique de l'émission et de la gestion d'actifs, du Federated 2-Way Peg et de l'utilisation d'outils tels que elementsd et elements-cli, ce qui vous permettra de créer des solutions innovantes adaptées à vos besoins.
 
 Ce cours est adapté aux développeurs de tous niveaux d'expérience. Les débutants et les utilisateurs intermédiaires trouveront des explications accessibles et des exemples pratiques, tandis que les utilisateurs avancés pourront approfondir les détails techniques et les fonctionnalités moins connues de Liquid et Elements.
 
-Rejoignez-nous pour améliorer vos compétences, libérer le plein potentiel de Liquid et d'Elements, et créer des outils percutants pour l'avenir de l'innovation Liquid.
+Rejoignez-nous pour améliorer vos compétences, libérer le plein potentiel de Liquid et de Elements, et créer des outils percutants pour l'avenir de l'innovation Liquid.
 
 +++
 # Introduction
@@ -33,25 +33,25 @@ Rejoignez-nous pour améliorer vos compétences, libérer le plein potentiel de 
 
 Bienvenue dans le cours SID202 !
 
-L'objectif de l'*Elements Academy* est de vous présenter et de vous expliquer les concepts clés d'*Elements*, la plateforme open source sur laquelle est construite la sidechain Liquid. À l'issue de ce cours, vous devriez posséder une solide compréhension des fonctionnalités principales d'Elements, comme les transactions confidentielles et les actifs émis, ainsi que des processus en jeu dans le fonctionnement d'Elements Core. Chaque section du cours comprend des leçons accompagnées de textes explicatifs et de vidéos, qui se concluent par un quiz.
+L'objectif de *Elements Académie* est de vous présenter et de vous expliquer les concepts clés de *Elements*, la plateforme open source sur laquelle est construite la sidechain Liquid. À l'issue de ce cours, vous devriez posséder une solide compréhension des fonctionnalités principales de Elements, comme les transactions confidentielles et les actifs émis, ainsi que des processus en jeu dans le fonctionnement d'Elements Core. Chaque section du cours comprend des leçons accompagnées de textes explicatifs et de vidéos, qui se concluent par un quiz.
 
-Cette formation a donc pour objectif de vous apprendre à utiliser et à développer avec la plateforme open-source Elements, en mettant l'accent sur le réseau Liquid. Vous découvrirez comment ces technologies peuvent améliorer la confidentialité, l’évolutivité et les fonctionnalités de vos projets de développement. Que vous soyez débutant ou développeur expérimenté, ce cours vous fournira une base solide pour maîtriser les concepts fondamentaux d’Elements et de Liquid, ainsi que leurs applications pratiques.
+Cette formation a donc pour objectif de vous apprendre à utiliser et à développer avec la plateforme open source Elements, en mettant l'accent sur le réseau Liquid. Vous découvrirez comment ces technologies peuvent améliorer la confidentialité, l’évolutivité et les fonctionnalités de vos projets de développement. Que vous soyez débutant ou développeur expérimenté, ce cours vous fournira une base solide pour maîtriser les concepts fondamentaux de Elements et de Liquid, ainsi que leurs applications pratiques.
 
 **Section 1 : Introduction**  
-Nous commencerons par un aperçu complet des concepts d’Elements. Vous apprendrez comment cette plateforme a été conçue pour fournir une base modulaire et flexible pour la création de sidechains telles que Liquid. L’objectif est de comprendre la structure d’Elements avant de plonger dans ses applications concrètes.
+Nous commencerons par un aperçu complet des concepts de Elements. Vous apprendrez comment cette plateforme a été conçue pour fournir une base modulaire et flexible pour la création de sidechains telles que Liquid. L’objectif est de comprendre la structure de Elements avant de plonger dans ses applications concrètes.
 
 **Section 2 : Elements**  
-Cette section se concentrera sur le fonctionnement d’Elements. Vous apprendrez comment configurer un nœud Elements, le faire fonctionner en configuration autonome ou en tant que sidechain.
+Cette section se concentrera sur le fonctionnement de Elements. Vous apprendrez comment configurer un nœud Elements, le faire fonctionner en configuration autonome ou en tant que sidechain.
 
-**Section 3 : Utilisation d'Elements - Cas d'utilisation pratique**  
-Une fois les bases théoriques maîtrisées, nous aborderons des applications concrètes d’Elements. Vous découvrirez comment réaliser des transactions confidentielles, émettre des actifs, et gérer la réémission d’actifs.
+**Section 3 : Utilisation de Elements - Cas d'utilisation pratique**  
+Une fois les bases théoriques maîtrisées, nous aborderons des applications concrètes de Elements. Vous découvrirez comment réaliser des transactions confidentielles, émettre des actifs, et gérer la réémission d’actifs.
 
-**Section 4 : Fédération Elements**  
-Nous approfondirons ici les mécanismes avancés, notamment la signature de blocs fédérés, l’utilisation d’Elements en tant que sidechain, et la création de blockchains autonomes. Cette section vous permettra de comprendre comment assurer la sécurité, l’intégrité et l’interopérabilité des blockchains basées sur Elements.
+**Section 4 : Fédération dans Elements**  
+Nous approfondirons ici les mécanismes avancés, notamment la signature de blocs fédérés, l’utilisation de Elements en tant que sidechain, et la création de blockchains autonomes. Cette section vous permettra de comprendre comment assurer la sécurité, l’intégrité et l’interopérabilité des blockchains basées sur Elements.
 
-Prêt à explorer le potentiel d’Elements et de la sidechain Liquid ? C'est parti !
+Prêt à explorer le potentiel de Elements et de la sidechain Liquid ? C'est parti !
 
-## Aperçu d'Elements
+## Aperçu de Elements
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
@@ -63,37 +63,37 @@ Elements est, à la base, un protocole qui permet de former un consensus autour 
 
 De plus amples informations sur Elements sont disponibles sur le site web du projet Elements (https://elementsproject.org/), sur le blog officiel de Liquid (https://blog.liquid.net/) et sur le portail des développeurs (https://liquid.net/devs).
 
-### Éléments
+### Elements
 
-Lancé en 2015, Elements réduit les coûts de développement et de recherche internes et exploite la toute dernière technologie blockchain, ouvrant de nombreux nouveaux cas d'utilisation pour la mise en œuvre. Une blockchain basée sur Elements peut fonctionner comme une blockchain autonome ou être rattachée à une autre et fonctionner comme une Sidechain. L'exécution d'Elements en tant que Sidechain permet de transférer des actifs de manière vérifiable entre différentes blockchains.
+Lancé en 2015, Elements réduit les coûts de développement et de recherche internes et exploite la toute dernière technologie blockchain, ouvrant de nombreux nouveaux cas d'utilisation pour la mise en œuvre. Une blockchain basée sur Elements peut fonctionner comme une blockchain autonome ou être rattachée à une autre et fonctionner comme une Sidechain. L'exécution de Elements en tant que Sidechain permet de transférer des actifs de manière vérifiable entre différentes blockchains.
 
-Construit sur la base du code Bitcoin et l'étendant, il permet aux développeurs familiarisés avec l'API Bitcoind de créer rapidement et à moindre coût des blockchains fonctionnelles et de tester des projets de validation de concept. Le fait d'être construit sur la base du code Bitcoin permet également à Elements de fonctionner comme un banc d'essai pour les changements apportés au protocole Bitcoin lui-même.
+Construit sur la base du code Bitcoin et étendant ce dernier, il permet aux développeurs familiarisés avec l'API Bitcoind de créer rapidement et à moindre coût des blockchains fonctionnelles et de tester des projets de validation de concept. Le fait d'être construit sur la base du code Bitcoin permet également à Elements de fonctionner comme un banc d'essai pour les changements apportés au protocole Bitcoin lui-même.
 
-Quelques-unes des principales caractéristiques d'Elements sont énumérées ci-dessous.
+Quelques-unes des principales caractéristiques de Elements sont énumérées ci-dessous.
 
-#### Transactions confidentielles
+#### Transactions Confidentielles
 
-Par défaut, toutes les adresses d'Elements sont masquées à l'aide des transactions confidentielles. L'aveuglement est le processus par lequel le montant et le type d'actif transféré sont cryptographiquement cachés à tout le monde, sauf aux participants et à ceux à qui ils choisissent de révéler la clé d'aveuglement.
+Par défaut, toutes les adresses de Elements sont masquées à l'aide des transactions confidentielles. L'aveuglement est le processus par lequel le montant et le type d'actif transféré sont cryptographiquement cachés à tout le monde, sauf aux participants et à ceux à qui ils choisissent de révéler la clé d'aveuglement.
 
 #### Actifs émis
 
 Les actifs émis sur les éléments permettent d'émettre et de transférer plusieurs types d'actifs entre les participants au réseau. Un actif émis bénéficie également de transactions confidentielles et peut être réémis ou détruit par toute personne détenant le jeton de réémission correspondant.
 
-#### Piquet à 2 voies fédéré
+#### Federated 2-Way Peg (Peg à 2 voies Fédérées)
 
-Elements est une plateforme blockchain à usage général qui peut également être "rattachée" à une blockchain existante (telle que Bitcoin) afin de permettre le transfert bidirectionnel d'actifs d'une chaîne à l'autre. La mise en œuvre d'Elements en tant que sidechain vous permet de contourner certaines des propriétés inhérentes à la chaîne principale, tout en conservant un bon niveau de sécurité fourni par les actifs sécurisés sur la chaîne principale.
+Elements est une plateforme blockchain à usage général qui peut également être "rattachée" à une blockchain existante (telle que Bitcoin) afin de permettre le transfert bidirectionnel d'actifs d'une chaîne à l'autre. La mise en œuvre de Elements en tant que sidechain vous permet de contourner certaines des propriétés inhérentes à la chaîne principale, tout en conservant un bon niveau de sécurité fourni par les actifs sécurisés sur la chaîne principale.
 
-#### Blocs signés
+#### Signed Blocks (Blocs Signés)
 
-Elements utilise une fédération forte de signataires, appelés signataires de blocs, qui signent et créent des blocs de manière fiable et opportune. Cela supprime la latence de transaction du processus minier PoW, qui est sujet à une grande variance de temps de bloc en raison de sa distribution aléatoire de poisson. Le processus de signature de blocs fédérés permet de créer des blocs fiables sans qu'il soit nécessaire de recourir à la confiance d'un tiers ou à l'exploitation minière basée sur un algorithme de calcul.
+Elements utilise une fédération forte de signataires, appelés signataires de blocs, qui signent et créent des blocs de manière fiable et opportune. Cela supprime la latence de transaction du processus minier PoW, qui est sujet à une grande variance de temps de bloc en raison de sa distribution aléatoire de poisson. Le processus de signature de blocs fédérés permet de créer des blocs fiables sans qu'il soit nécessaire de recourir à la confiance d'un tiers ou à l'exploitation minière basée sur un `algorithme` de calcul.
 
 Elements ajoute toutes ces fonctionnalités à la base de code Bitcoin Core, étendant la capacité du protocole de la chaîne principale et permettant de nouveaux cas d'utilisation commerciale lorsqu'ils sont déployés en tant que chaîne latérale ou en tant que solution de chaîne de blocs autonome.
 
-# Élément
+# Elements
 
 <partId>ac68d611-be84-432f-a3a8-620d310e131c</partId>
 
-## Fonctionnement d'Elements
+## Fonctionnement de Elements
 
 <chapterId>05d88877-58b0-455b-9ae6-a72d19070525</chapterId>
 
@@ -101,56 +101,56 @@ Elements ajoute toutes ces fonctionnalités à la base de code Bitcoin Core, ét
 
 Elements apporte une solution technique aux problèmes auxquels les utilisateurs de la blockchain sont confrontés quotidiennement : latence des transactions, manque de confidentialité et risque de fongibilité.
 
-Elements surmonte ces problèmes grâce à l'utilisation de la signature par blocs fédérés et des transactions confidentielles.
+Elements surmonte ces problèmes grâce à l'utilisation de la Signature par Blocs Fédérés et des Transactions Confidentielles.
 
-Contrairement au réseau Bitcoin, le processus de signature des blocs au sein d'Elements ne repose pas sur les signatures multipartites à adhésion dynamique (DMMS) et la preuve de travail (PoW). Au lieu de cela, Elements utilise une Fédération forte de signataires, appelés signataires de blocs, qui peuvent signer et créer des blocs de manière fiable et opportune. Cela permet d'éliminer la latence de transaction du processus d'extraction de la preuve de travail, qui est sujet à une grande variance de temps de bloc en raison de sa distribution aléatoire de poisson. Le processus de signature de blocs fédérés permet de créer des blocs fiables sans qu'il soit nécessaire de faire confiance à une tierce partie.
+Contrairement au réseau Bitcoin, le processus de signature des blocs au sein de Elements ne repose pas sur les signatures multipartites à adhésion dynamique (DMMS) et la preuve de travail (PoW). Au lieu de cela, Elements utilise une fédération forte de signataires, appelés signataires de blocs, qui peuvent signer et créer des blocs de manière fiable et opportune. Cela permet d'éliminer la latence de transaction du processus d'extraction de la preuve de travail, qui est sujet à une grande variance de temps de bloc en raison de sa distribution aléatoire de poisson. Le processus de signature de blocs fédérés permet de créer des blocs fiables sans qu'il soit nécessaire de faire confiance à une tierce partie.
 
 Elements peut fonctionner en tant que sidechain d'une autre blockchain, telle que Bitcoin, ou en tant que blockchain autonome ne dépendant pas d'autres réseaux.
 
-Lorsqu'elle est utilisée comme sidechain, la Strong Federation contient également des membres qui permettent le transfert sécurisé et contrôlé d'actifs entre une chaîne principale et une sidechain Elements. Le transfert contrôlé d'actifs est appelé Federated 2-Way Peg et les membres qui jouent le rôle de transfert d'actifs sont appelés Watchmen.
+Lorsqu'elle est utilisée comme sidechain, la Strong Federation (Fédérations Fortes) contient également des membres qui permettent le transfert sécurisé et contrôlé d'actifs entre une chaîne principale et une sidechain Elements. Le transfert contrôlé d'actifs est appelé Federated 2-Way Peg et les membres qui jouent le rôle de transfert d'actifs sont appelés Watchmen.
 
-Les processus impliqués dans le fonctionnement d'un réseau Éléments et les rôles des participants au réseau sont importants pour comprendre le fonctionnement d'Éléments.
+Les processus impliqués dans le fonctionnement d'un réseau Elements et les rôles des participants au réseau sont importants pour comprendre le fonctionnement de Elements.
 
-Qu'il soit implémenté en tant que sidechain ou blockchain autonome, Elements utilise des fédérations fortes de signataires de blocs pour produire des blocs.
+Qu'il soit implémenté en tant que sidechain ou blockchain autonome, Elements utilise des Strong Federations of Block Signers (Fédérations Fortes de Signataires de Blocs) pour produire des blocs.
 
-### Des fédérations fortes
+### Des Fédérations Fortes
 
-Elements utilise un modèle de consensus proposé pour la première fois par Blockstream, appelé Strong Federations. Une fédération forte n'a pas besoin de preuve de travail (PoW) et s'appuie plutôt sur les actions collectives d'un groupe de participants qui se méfient les uns des autres, appelés fonctionnaires.
+Elements utilise un modèle de consensus proposé pour la première fois par Blockstream, appelé Strong Federations. Une Fédération Forte n'a pas besoin de preuve de travail (PoW) et s'appuie plutôt sur les actions collectives d'un groupe de participants qui se méfient les uns des autres, appelés Fonctionnaires.
 
-Les rôles qu'un fonctionnaire peut remplir au sein d'une Fédération forte sont les suivants : les signataires de blocs et les gardiens. Les signataires de blocs sont nécessaires si vous exécutez les éléments en mode sidechain ou blockchain autonome, tandis que les gardiens ne sont nécessaires que dans une configuration sidechain.
+Les rôles qu'un Fonctionnaire peut remplir au sein d'une Fédération Forte sont les suivants : Block Signers and Watchmen (Signataires de blocs et Gardiens). Les Signataires de Blocs sont nécessaires si vous exécutez les Elements en mode sidechain ou blockchain autonome, tandis que les Gardiens ne sont nécessaires que dans une configuration sidechain.
 
-Les actions qu'un membre d'une fédération forte peut effectuer sont réparties entre deux rôles distincts afin de renforcer la sécurité et de limiter les dommages qu'un attaquant peut causer.
+Les actions qu'un membre d'une Fédération Forte peut effectuer sont réparties entre deux rôles distincts afin de renforcer la sécurité et de limiter les dommages qu'un attaquant peut causer.
 
 Combinés, les rôles de ces participants permettent à Elements d'offrir à la fois une création rapide de blocs (confirmation plus rapide et définitive des transactions) et des actifs garantis et transférables (actifs rattachés directement liés à une autre blockchain).
 
-Vous pouvez lire le livre blanc sur les fédérations fortes ici : https://blockstream.com/strong-federations.pdf
+Vous pouvez lire le livre blanc sur les Fédérations Fortes ici : https://blockstream.com/strong-federations.pdf
 
-### Signataires en bloc
+### Signataires de bloc
 
 Une blockchain comme celle de Bitcoin est étendue lorsque toute personne faisant partie d'un groupe dynamique de signataires de blocs étend la chaîne en apportant la preuve du travail effectué. La nature dynamique de l'ensemble introduit les problèmes de latence inhérents à ces systèmes.
 
-En utilisant un ensemble fixe de signataires, un modèle fédéré, remplace l'ensemble dynamique par un ensemble connu, un schéma multisignature. La réduction du nombre de participants nécessaires pour étendre la blockchain augmente la vitesse et l'évolutivité du système, tandis que la validation par toutes les parties garantit l'intégrité de l'historique des transactions.
+En utilisant un ensemble fixe de signataires, un modèle Fédéré, remplace l'ensemble dynamique par un ensemble connu, un schéma multisignature. La réduction du nombre de participants nécessaires pour étendre la blockchain augmente la vitesse et l'évolutivité du système, tandis que la validation par toutes les parties garantit l'intégrité de l'historique des transactions.
 
-La signature fédérée de blocs se compose de plusieurs phases :
+La Signature Fédérée de Blocs se compose de plusieurs phases :
 
 
 - Étape 1 - Les signataires de blocs proposent des blocs candidats à tous les autres signataires de blocs participants.
 - Étape 2 - Chaque signataire de bloc signale son intention en s'engageant à signer le bloc candidat donné.
 - Étape 3 - Si le seuil d'engagement préalable est atteint, chaque signataire de bloc signe le bloc.
-- Étape 4 - Si le seuil de signature (qui peut être différent de celui de l'étape 3) est atteint, le bloc est accepté et envoyé au réseau. La Fédération forte est parvenue à un consensus sur le dernier bloc de transactions.
+- Étape 4 - Si le seuil de signature (qui peut être différent de celui de l'étape 3) est atteint, le bloc est accepté et envoyé au réseau. La Fédération Forte est parvenue à un consensus sur le dernier bloc de transactions.
 - Étape 5 - Le bloc suivant est alors proposé par le signataire de bloc suivant dans la ronde et le processus se répète.
 
-Étant donné que la génération de blocs d'une fédération forte n'est pas probabiliste et qu'elle est basée sur un ensemble fixe de signataires, elle ne sera jamais sujette à des réorganisations multiblocs. Cela permet de réduire considérablement le temps d'attente associé à la confirmation des transactions. Il supprime également l'incitation à miner pour le profit (c'est-à-dire les récompenses de bloc) et la remplace par une incitation à participer de manière productive à un réseau où tous les participants ont le même objectif commun : veiller à ce que le réseau continue à fonctionner d'une manière qui soit bénéfique pour tous. Cela se fait sans introduire de point de défaillance unique ni d'exigences plus élevées en matière de confiance.
+Étant donné que la génération de blocs d'une fédération forte n'est pas probabiliste et qu'elle est basée sur un ensemble fixe de signataires, elle ne sera jamais sujette à des réorganisations multiblocs. Cela permet de réduire considérablement le temps d'attente associé à la confirmation des transactions. Il supprime également l'incitation à miner pour le profit (c'est-à-dire les récompenses de bloc) et la remplace par une incitation à participer de manière productive à un réseau dans lequel tous les participants ont le même objectif commun : veiller à ce que le réseau continue à fonctionner d'une manière qui soit bénéfique pour tous. Cela se fait sans introduire de point de défaillance unique ni d'exigences plus élevées en matière de confiance.
 
-### Elements as a Sidechain - Watchmen et le Peg à deux voies fédéré
+### Elements comme une Sidechain - Watchmen et le Peg à deux voies fédéré
 
 Lorsqu'ils sont gérés comme une sidechain, certains membres de la Strong Federation ont un rôle supplémentaire à remplir, celui des Watchmen. Les Watchmen sont responsables du transfert des actifs dans et hors d'une Elements sidechain, processus connus sous le nom de `Peg-In` et `Peg-Out`.
 
-Pour qu'une sidechain fonctionne de manière fiable, elle doit permettre aux participants de vérifier que l'offre d'actifs est contrôlée et vérifiable. Une blockchain Elements utilise un Peg fédéré à deux voies pour permettre le transfert bidirectionnel d'actifs à l'intérieur et à l'extérieur d'une blockchain Elements. Cela répond aux exigences d'émission prouvable et de transferts interchaînes.
+Pour qu'une sidechain fonctionne de manière fiable, elle doit permettre aux participants de vérifier que l'offre d'actifs est contrôlée et vérifiable. Une blockchain Elements utilise un Federated 2-way Peg  (Peg Fédéré à deux voies) pour permettre le transfert bidirectionnel d'actifs à l'intérieur et à l'extérieur d'une blockchain Elements. Cela répond aux exigences d'émission prouvable et de transferts inter-chaînes. 
 
 La fonction Federated 2-way Peg permet à un actif d'être interopérable avec d'autres blockchains et d'être représentatif de l'actif natif d'une autre blockchain. En associant votre blockchain à une autre, vous pouvez étendre les capacités de la chaîne principale et surmonter certaines de ses limites inhérentes.
 
-À un niveau élevé, les transferts dans la sidechain se produisent lorsque quelqu'un envoie des actifs de la chaîne principale à une adresse contrôlée par un portefeuille Watchmen à signatures multiples. Cela a pour effet de geler les actifs sur la chaîne principale. Watchmen valide alors la transaction et libère le même montant de l'actif associé dans la sidechain. Les actifs libérés sont envoyés à un portefeuille de la sidechain qui peut prouver qu'il revendique les actifs originaux de la mainchain. Ce processus permet de déplacer les actifs de la chaîne principale vers la chaîne secondaire.
+À un niveau élevé, les transferts dans la sidechain se produisent lorsque quelqu'un envoie des actifs de la chaîne principale à une adresse contrôlée par un portefeuille Watchmen à signatures multiples. Cela a pour effet de geler les actifs sur la chaîne principale. Watchmen valide alors la transaction et libère le même montant de l'actif associé dans la sidechain. Les actifs libérés sont envoyés à un portefeuille de la sidechain qui peut prouver qu'il revendique les actifs originaux de la mainchain. Ce processus permet de déplacer les actifs de la chaîne principale vers la sidechain.
 
 Afin de transférer des actifs vers la chaîne principale, un utilisateur effectue une transaction spéciale de retrait sur la chaîne secondaire. Cette transaction est vérifiée par les Watchmen, qui signent ensuite une dépense de transaction à partir du portefeuille multi-signature qu'ils contrôlent sur la chaîne principale. Un nombre seuil de participants à la fédération doit signer pour que la transaction sur la chaîne principale devienne valide. Lorsque les Watchmen renvoient un actif sur la chaîne principale, ils détruisent également le montant correspondant sur la chaîne secondaire, transférant ainsi efficacement les actifs entre les chaînes de blocs.
 
@@ -160,13 +160,13 @@ Afin de transférer des actifs vers la chaîne principale, un utilisateur effect
 
 :::video id=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
-Comme Elements est basé sur la base de code de Bitcoin, les éléments qui constituent un réseau fonctionnel sont très similaires.
+Comme Elements est basé sur la base de code de Bitcoin, les composants qui constituent un réseau fonctionnel sont très similaires.
 
 Le logiciel du nœud Elements lui-même s'appelle `elementsd` et fonctionne comme un deamon sur la machine de l'utilisateur. Un deamon (ou service dans Windows) est un programme qui fonctionne en arrière-plan sans nécessiter le contrôle direct d'un utilisateur connecté.
 
-Note : Dans ce document, nous ferons toujours référence à elementsd comme étant la version démon, mais tout peut être fait avec elements-qt, à condition que l'option serveur soit activée.
+Note : Dans ce document, nous ferons toujours référence à elementsd comme étant la version deamon, mais tout peut être fait avec elements-qt, à condition que l'option serveur soit activée.
 
-Le deamon Elements se connecte à d'autres nœuds du réseau afin d'échanger des données sur les transactions et les blocs, de valider et d'étendre sa copie locale de la chaîne de blocs du réseau.
+Le deamon Elements se connecte à d'autres nœuds du réseau afin d'échanger des données sur les transactions et les blocs, de valider et d'étendre sa copie locale de la blockchain du réseau .
 
 Le logiciel Elements comprend également un programme client appelé `elements-cli` qui vous permet d'envoyer des commandes RPC (Remote Procedure Call) à elementsd à partir de la ligne de commande. Cela peut être utilisé pour demander le solde d'un portefeuille, voir les données de transaction ou de bloc ou diffuser une transaction par exemple. Cette configuration devrait être familière à tous ceux qui ont utilisé les équivalents Bitcoin : bitcoind et bitcoin-cli.
 
@@ -176,7 +176,7 @@ Comme un nœud Elements peut être configuré en passant des paramètres au dém
 
 Elements est un projet open source dont le code source est disponible dans le dépôt GitHub Elements à l'adresse https://github.com/ElementsProject/elements. Ce dépôt contient les sources des programmes elementsd et elements-cli, ainsi que des outils d'installation et de construction, une suite de tests et une documentation didactique.
 
-Pour compléter le dépôt de code, il y a aussi le site web https://elementsproject.org, une ressource axée sur la communauté qui contient des explications sur ce qu'est Elements, comment il fonctionne et une section de tutoriel complète.Le tutoriel se concentre sur l'apprentissage d'Elements à l'aide d'exemples de lignes de commande et vous montre comment créer des applications de bureau et Web simples à partir de Elements. Le site répertorie également les forums de discussion populaires de la communauté Elements et est lui-même hébergé sur GitHub, ce qui permet à la communauté de contribuer au contenu du site.
+Pour compléter le dépôt de code, il y a aussi le site web https://elementsproject.org, une ressource axée sur la communauté qui contient des explications sur ce qu'est Elements, comment il fonctionne et une section de tutoriel complète. Le tutoriel se concentre sur l'apprentissage de Elements à l'aide d'exemples de lignes de commande et vous montre comment créer des applications de bureau et Web simples à partir de Elements. Le site répertorie également les forums de discussion populaires de la communauté Elements et est lui-même hébergé sur GitHub, ce qui permet à la communauté de contribuer au contenu du site.
 
 Afin d'exécuter Elements sur votre machine, vous devrez d'abord cloner (télécharger une copie) le code source, installer toutes les dépendances du code et enfin construire les exécutables deamon et client. Le logiciel Elements est alors prêt à être configuré et exécuté.
 
@@ -198,7 +198,7 @@ Certains éléments peuvent être modifiés à l'aide de ces paramètres :
 - Les informations d'identification RPC utilisées pour se connecter à un nœud Bitcoin.
 - Le seuil `n de m` à respecter et les clés publiques valides qui peuvent signer les blocs.
 - Le script qui doit être satisfait afin de transférer des actifs dans et hors d'une sidechain.
-- Connexion ou non à un nœud Bitcoin en tant que sidechain.
+- La connexion ou non à un nœud Bitcoin en tant que sidechain.
 
 Beaucoup d'entre eux font partie des règles de consensus du réseau, il est donc important qu'ils soient appliqués à tous les nœuds au démarrage. Certains peuvent être modifiés après l'initialisation d'une chaîne, mais d'autres doivent être corrigés après avoir été utilisés pour initialiser une chaîne.
 
@@ -206,7 +206,7 @@ L'utilisation des paramètres sera abordée plus loin dans le cours, au fur et �
 
 ### Opérations de base à l'aide de la ligne de commande
 
-Ce cours montre des exemples qui utilisent le programme `elements-cli` pour faire des appels RPC à un ou plusieurs nœud Elements. Cela se fait à partir d'une session de terminal et afin de rendre les commandes plus brèves, un `alias` sera utilisé. Par cette convention, lorsque vous verrez quelque chose comme les commandes suivantes :
+Ce cours montre des exemples qui utilisent le programme `elements-cli` pour faire des appels RPC à un ou plusieurs nœuds Elements. Cela se fait à partir d'une session de terminal et afin de rendre les commandes plus brèves, un `alias` sera utilisé. Par cette convention, lorsque vous verrez quelque chose comme les commandes suivantes :
 
 ```bash
 e1-dae
@@ -220,44 +220,44 @@ $HOME/elements/src/elementsd -datadir=$HOME/elementsdir1
 $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir1 getnewaddress
 ```
 
-Ce que nous voyons ci-dessus est un appel au démarrage du démon Elements et un appel aux programmes elements-cli situés dans le répertoire `$HOME/elements/src` et une valeur pour le paramètre `datadir`. Le paramètre `datadir` nous permet d'indiquer aux instances du démon et du client où se trouvent leurs fichiers de configuration et, dans le cas du démon, où stocker sa copie de la blockchain. Comme ils partagent un fichier de configuration, le client pourra faire des appels RPC au démon.
+Ce que nous voyons ci-dessus est un appel au démarrage du deamon Elements ainsi qu'un appel aux programmes elements-cli situés dans le répertoire `$HOME/elements/src` et une valeur pour le paramètre `datadir`. Le paramètre `datadir` nous permet d'indiquer aux instances du deamon et du client où se trouvent leurs fichiers de configuration et, dans le cas du deamon, où stocker sa copie de la blockchain. Comme ils partagent un fichier de configuration, le client pourra faire des appels RPC au deamon.
 
-En exécutant à nouveau la commande ci-dessus, mais avec une valeur `datadir` différente, nous pouvons démarrer plus d'une instance d'Elements, chacune avec sa propre copie de la blockchain et des paramètres de configuration. Par cette convention, nous utiliserons les alias `e2-dae` et `e2-cli` dans le cours pour faire référence à un répertoire datadir différent de celui de e1. Donc l'exemple ci-dessus pour notre seconde instance `e2` serait :
+En exécutant à nouveau la commande ci-dessus, mais avec une valeur `datadir` différente, nous pouvons démarrer plus d'une instance de Elements, chacune avec sa propre copie de la blockchain et des paramètres de configuration. Par cette convention, nous utiliserons les alias `e2-dae` et `e2-cli` dans le cours pour faire référence à un répertoire datadir différent de celui de e1. Donc l'exemple ci-dessus pour notre seconde instance `e2` serait :
 
 ```
 $HOME/elements/src/elementsd -datadir=$HOME/elementsdir2
 $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir2 getnewaddress
 ```
 
-Cela nous permettra d'effectuer toutes sortes d'opérations telles que la transaction d'actifs entre les nœuds, l'émission d'actifs et la vérification de l'utilisation de l'aveuglement dans les transactions confidentielles entre les différents nœuds d'un même réseau.
+Cela nous permettra d'effectuer toutes sortes d'opérations telles que la transaction d'actifs entre les nœuds, l'émission d'actifs et la vérification de l'utilisation de l'aveuglement dans les Transactions Confidentielles entre les différents nœuds d'un même réseau.
 
-# Utilisation de Element dans des Cas d'utilisation pratique
+# Utilisation de Element - Cas d'utilisation pratique
 
 <partId>3f31a30a-957a-4813-b5fe-5dccbb5366f3</partId>
 
-## Transactions confidentielles
+## Transactions Confidentielles
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
 
 :::video id=ea2121b6-24a8-458d-91e6-0c92eaf4dc65:::
 
-Dans cette section, vous apprendrez à utiliser la fonction Transactions confidentielles de Elements.
+Dans cette section, vous apprendrez à utiliser la fonction Transactions Confidentielles de Elements.
 
-Toutes les adresses de Elements sont, par défaut, masquées à l'aide de transactions confidentielles, qui rendent le montant et le type d'actifs transférés visibles uniquement aux participants à la transaction (et à ceux à qui ils choisissent de révéler la clé de masquage), tout en garantissant cryptographiquement qu'il n'est pas possible de dépenser plus de pièces qu'il n'y en a de disponibles.
+Toutes les adresses de Elements sont, par défaut, masquées à l'aide de Transactions Confidentielles, qui rendent le montant et le type d'actifs transférés visibles uniquement aux participants à la transaction (et à ceux à qui ils choisissent de révéler la clé de masquage), tout en garantissant cryptographiquement qu'il n'est pas possible de dépenser plus de pièces qu'il n'y en a de disponibles.
 
-### Adresses et transactions confidentielles
+### Adresses et Transactions Confidentielles
 
 Par défaut, lorsque vous créez une nouvelle adresse dans Elements à l'aide de la commande `getnewaddress`, elle est créée en tant qu'adresse confidentielle.
 
 Afin de démontrer la nature confidentielle des transactions, nous allons demander à e2 de s'envoyer des fonds, puis d'essayer de voir la transaction depuis e1. Cela démontrera la nature confidentielle des transactions dans Elements.
 
-Chaque nouvelle adresse générée par un nœud d'éléments est confidentielle par défaut. Nous pouvons le démontrer en demandant à e2 de générer une nouvelle adresse.
+Chaque nouvelle adresse générée par un nœud de Elements est confidentielle par défaut. Nous pouvons le démontrer en demandant à e2 de générer une nouvelle adresse.
 
 ```
 e2-cli getnewaddress
 ```
 
-Notez que l'adresse commence par e1. Il s'agit donc d'une adresse confidentielle. Un examen plus approfondi de l'adresse à l'aide de la commande getaddressinfo permet d'obtenir plus de détails sur l'adresse.
+Notez que l'adresse commence par e1. Il s'agit donc d'une Adresse Confidentielle. Un examen plus approfondi de l'adresse à l'aide de la commande getaddressinfo permet d'obtenir plus de détails sur l'adresse.
 
 ```
 e2-cli getaddressinfo <address>
@@ -267,7 +267,7 @@ Vous pouvez voir qu'il existe une propriété confidential_key qui nous indique 
 
 La clé confidentielle est la clé publique aveuglante, qui est ajoutée à l'adresse confidentielle elle-même. C'est la raison pour laquelle une adresse confidentielle est si longue.
 
-Une adresse non confidentielle lui est également associée. Si vous souhaitez utiliser des transactions régulières et non confidentielles au sein d'Elements, les actifs doivent être envoyés à cette adresse plutôt qu'à celle portant le préfixe lq1.
+Une adresse non confidentielle lui est également associée. Si vous souhaitez utiliser des transactions régulières et non confidentielles au sein de Elements, les actifs doivent être envoyés à cette adresse plutôt qu'à celle portant le préfixe lq1.
 
 Nous pouvons maintenant demander à e2 d'envoyer des fonds à l'adresse qu'il a générée. Cela montrera plus tard que e1, n'étant pas l'une des parties à la transaction, ne sera pas en mesure de voir les détails de la transaction.
 
@@ -297,11 +297,11 @@ e1-cli getrawtransaction <txid>
 
 Cela renvoie les détails de la transaction brute. Si vous regardez dans la section vout, vous pouvez voir qu'il y a trois instances. Les deux premières instances sont les montants de réception et de modification, et la troisième est la commission de transaction. De ces trois montants, les frais sont les seuls pour lesquels vous pouvez voir une valeur, étant donné que les frais eux-mêmes sont toujours non masqués dans Elements.
 
-### Clés aveuglantes
+### Clés Masquées
 
-Les deux premières sections de la VOUT sont des "fourchettes aveugles" des montants en valeur et des données d'engagement qui servent de preuve du montant et du type d'actif réellement échangé.
+Les deux premières sections de la VOUT sont des "blinded ranges" (fourchettes masquées) des montants en valeur et des données d'engagement qui servent de preuve du montant et du type d'actif réellement échangé.
 
-Même si nous importions la clé privée de e2 dans le portefeuille de e1, ce dernier ne serait toujours pas en mesure de voir les montants et le type d'actifs échangés, car il n'a toujours pas connaissance de la clé d'aveuglement utilisée par e2. Nous allons le prouver en important la clé privée utilisée par le portefeuille de e2 dans celui de e1. Tout d'abord, nous devons exporter la clé de e2
+Même si nous importions la clé privée de e2 dans le portefeuille de e1, ce dernier ne serait toujours pas en mesure de voir les montants et le type d'actifs échangés, car il n'a toujours pas connaissance de la clé masquée utilisée par e2. Nous allons le prouver en important la clé privée utilisée par le portefeuille de e2 dans celui de e1. Tout d'abord, nous devons exporter la clé de e2
 
 ```
 e2-cli dumpprivkey <address>
@@ -321,7 +321,7 @@ e1-cli gettransaction <txid>
 
 En effet, il affiche 0 comme quantité de tx alors qu'il s'agit en fait de 1.
 
-Pour pouvoir voir la valeur réelle, non lissée, nous avons besoin de la clé d'aveuglement. Pour ce faire, nous devons d'abord exporter la clé d'aveuglement de e2.
+Pour pouvoir voir la valeur réelle, non lissée, nous avons besoin de la clé masquée. Pour ce faire, nous devons d'abord exporter la clé masquée de e2.
 
 ```
 e2-cli dumpblindingkey <address>
@@ -339,31 +339,31 @@ Maintenant, lorsque nous obtenons les détails de la transaction de e1.
 e1-cli gettransaction <txid>
 ```
 
-Cela montre qu'avec l'importation de la clé aveugle, nous pouvons maintenant voir la valeur réelle de 1 dans la transaction.
+Cela montre qu'avec l'importation de la clé masquée, nous pouvons maintenant voir la valeur réelle de 1 dans la transaction.
 
-Dans cette section, nous avons vu que l'utilisation d'une clé de blocage permet de masquer le montant et le type d'actifs d'une transaction et qu'en important la bonne clé de blocage, il est possible de révéler ces valeurs. Dans la pratique, une clé de masquage peut, par exemple, être remise à un auditeur, s'il est nécessaire de vérifier les montants et les types d'actifs détenus par une partie. La fonction "transactions confidentielles" d'Elements permet également d'effectuer des "preuves de fourchette". Ces preuves permettent de prouver qu'un montant d'actif est détenu dans une fourchette donnée, sans qu'il soit nécessaire d'exposer le montant réel lui-même.
+Dans cette section, nous avons vu que l'utilisation d'une clé masquée permet de masquer le montant et le type d'actifs d'une transaction et qu'en important la bonne clé de blocage, il est possible de révéler ces valeurs. Dans la pratique, une clé de masquage peut, par exemple, être remise à un auditeur, s'il est nécessaire de vérifier les montants et les types d'actifs détenus par une partie. La fonction "Transactions Confidentielles" de Elements permet également d'effectuer des "range proofs" (preuves de fourchette). Ces preuves permettent de prouver qu'un montant d'actif est détenu dans une fourchette donnée, sans qu'il soit nécessaire d'exposer le montant réel lui-même.
 
-Nous avons également vu que les transactions confidentielles sont facultatives, mais qu'elles sont activées par défaut lorsqu'une nouvelle adresse est générée.
+Nous avons également vu que les Transactions Confidentielles sont facultatives, mais qu'elles sont activées par défaut lorsqu'une nouvelle adresse est générée.
 
 C'est tout pour cette leçon ; bonne chance pour le quiz et à la prochaine !
 
-## Actifs émis
+## Issued Assets (Actifs émis)
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
 
 :::video id=7ac63148-d730-496d-85d4-0032aaf09be1:::
 
-Dans cette section, vous apprendrez à utiliser la fonction "Issued Assets" d'Elements.
+Dans cette section, vous apprendrez à utiliser la fonction "Issued Assets" de Elements.
 
-Les actifs émis permettent d'émettre et de transférer plusieurs types d'actifs entre les participants au réseau Elements. Tout nœud du réseau peut émettre ses propres actifs. Les émissions peuvent représenter la propriété fongible de n'importe quel actif, y compris des bons, des coupons, des devises, des dépôts, des obligations, des actions, etc. Issued Assets ouvre la voie à la construction d'échanges sans confiance, d'options et d'autres contrats intelligents avancés impliquant des actifs auto-émis.
+Les  (actifs émis) permettent d'émettre et de transférer plusieurs types d'actifs entre les participants au réseau Elements. Tout nœud du réseau peut émettre ses propres actifs. Les émissions peuvent représenter la propriété fongible de n'importe quel actif, y compris des bons, des coupons, des devises, des dépôts, des obligations, des actions, etc. Issued Assets ouvre la voie à la construction d'échanges sans confiance, d'options et d'autres contrats intelligents avancés impliquant des actifs auto-émis.
 
-Un actif émis bénéficie également de transactions confidentielles et peut être réémis par toute personne détenant le jeton associé.
+Un Issued Assets bénéficie également de Transactions Confidentielles et peut être réémis par toute personne détenant le jeton associé.
 
 La première étape consiste à accéder à deux nœuds Elements, que nous appellerons e1 et e2. Les blockchains de ces nœuds ont été réinitialisées et l'actif par défaut a été réparti entre eux.
 
 Les deux nœuds se trouvent sur le même réseau local et sont connectés l'un à l'autre. Ils partagent donc les mêmes transactions dans leur mempool de transactions et des blockchains identiques. Bien qu'ils fonctionnent sur la même machine, il convient de noter qu'ils ne partagent pas les mêmes fichiers de blockchain. Chaque nœud gère sa propre copie locale de la blockchain, qui contient le même historique de transactions parce qu'ils sont en consensus et adhèrent aux mêmes règles de protocole les uns que les autres.
 
-Commençons par vérifier la vision qu'a chaque nœud des émissions d'actifs existantes sur le réseau.
+Commençons par vérifier la vision qu'à chaque nœud des émissions d'actifs existantes sur le réseau.
 
 Cette opération s'effectue à l'aide de la commande listissuances.
 
@@ -374,7 +374,7 @@ e2-cli listissuances
 
 Comme vous pouvez le constater, les deux nœuds présentent le même historique d'émission. Ils affichent tous deux un actif, l'émission initiale de 21 millions de bitcoins qui ont été créés lors de l'initialisation de la chaîne. Vous pouvez voir l'identifiant hexadécimal de l'actif dans les résultats de l'exécution de la commande ci-dessus, ainsi que l'étiquette attribuée à l'actif, qui est "bitcoin".
 
-Il est intéressant de noter que l'élément par défaut reçoit toujours une étiquette lors de l'initialisation de la chaîne. Lorsque vous créez vos propres ressources, vous pouvez leur attribuer des étiquettes, ce que nous allons faire dans quelques instants. Avant de pouvoir le faire, nous devons créer notre propre ressource.
+Il est intéressant de noter que l'actif par défaut reçoit toujours une étiquette lors de l'initialisation de la chaîne. Lorsque vous créez vos propres actifs, vous pouvez leur attribuer des étiquettes, ce que nous allons faire dans quelques instants. Avant de pouvoir le faire, nous devons créer notre propre actif.
 
 Nous allons demander à e1 d'émettre le nouveau bien. Cela se fait à l'aide de la commande issueasset.
 
@@ -384,7 +384,7 @@ e1-cli issueasset 100 1 false
 
 `issueasset` accepte 3 paramètres.
 
-Le montant du nouvel actif à émettre, nous avons choisi 100. La quantité de jetons à créer (les jetons sont utilisés pour réémettre des quantités d'un actif), nous avons choisi 1. Le dernier paramètre indique à Elements de créer l'émission d'actifs en aveugle ou non. Nous utiliserons unblinded, car nous voulons voir les montants d'émission de e2 dans une minute, nous entrerons donc false.
+Le montant du nouvel actif à émettre, est de 100. La quantité de jetons à créer (les jetons sont utilisés pour réémettre des quantités d'un actif), nous avons choisi 1. Le dernier paramètre indique à Elements de créer l'émission d'actifs en mode masqué ou non. Nous utiliserons unblinded, car nous voulons voir les montants d'émission de e2 dans une minute, nous entrerons donc false.
 
 L'exécution de la commande renvoie des données sur l'émission. Il s'agit notamment de l'identifiant de la transaction, dont vous pouvez faire une copie pour une utilisation ultérieure, de la valeur hexagonale unique de l'actif et de la valeur hexagonale unique du jeton de l'actif.
 
@@ -468,7 +468,7 @@ Cela nous montre que la correspondance entre la valeur hexadécimale de l'actif 
 e2-cli listissuances
 ```
 
-Vous pouvez voir que le nœud e2 n'a pas accès à cette étiquette, car les étiquettes ne sont disponibles que pour le nœud qui les a définies. En effet, nous pouvons attribuer un label différent au même hexagone d'actif sur e2 que nous l'avons fait sur e1. Arrêtez d'abord le noeud e2.
+Vous pouvez voir que le nœud e2 n'a pas accès à cette étiquette, car les étiquettes ne sont disponibles que pour le nœud qui les a définies. En effet, nous pouvons attribuer un label différent au même hexagone d'actif sur e2 que nous l'avons fait sur e1. Arrêtez d'abord le nœud e2.
 
 ```
 e2-cli stop
@@ -674,7 +674,7 @@ Dans cette section, nous avons vu comment émettre un actif et comment utiliser 
 
 <partId>173a2440-0203-4dcc-8e2b-f8fa2cc8d3ca</partId>
 
-## Signature en bloc
+## Signature de bloc
 
 <chapterId>c47b217e-db14-4843-a66f-3e5f3a00a808</chapterId>
 
@@ -817,7 +817,7 @@ Pour résumer le processus. Dans cette section, nous avons :
 
 Chaque nœud du réseau valide le bloc et l'ajoute à sa copie locale de la blockchain.
 
-### Blocage de l'information
+### Signature de bloc
 
 Bien que le processus semble complexe au départ, la séquence de signature des blocs dans Elements est toujours la même et la configuration initiale ne doit être effectuée qu'une seule fois :
 
@@ -833,13 +833,13 @@ Bien que le processus semble complexe au départ, la séquence de signature des 
 
 Une fois qu'un nombre seuil de signataires a signé le bloc proposé, celui-ci est combiné et soumis au réseau. S'il répond aux critères du `signblockscript` de la chaîne, les nœuds l'acceptent en tant que bloc valide.
 
-## Élément en tant que chaîne latérale
+## Elements en tant que Side Chain
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
 :::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
-Elements est une plateforme blockchain open-source à usage général qui peut également être "rattachée" à une blockchain existante, telle que Bitcoin. Lorsqu'il est rattaché à une autre blockchain, on dit qu'Elements fonctionne comme une "sidechain". Les sidechains permettent le transfert bidirectionnel d'actifs d'une chaîne à l'autre. La mise en œuvre d'Elements en tant que sidechain vous permet de contourner certaines des limites inhérentes à la chaîne principale, tout en conservant un bon niveau de sécurité fourni par les actifs sécurisés sur la chaîne principale.
+Elements est une plateforme blockchain open source à usage général qui peut également être "rattachée" à une blockchain existante, telle que Bitcoin. Lorsqu'il est rattaché à une autre blockchain, on dit qu'Elements fonctionne comme une "sidechain". Les sidechains permettent le transfert bidirectionnel d'actifs d'une chaîne à l'autre. La mise en œuvre d'Elements en tant que sidechain vous permet de contourner certaines des limites inhérentes à la chaîne principale, tout en conservant un bon niveau de sécurité fourni par les actifs sécurisés sur la chaîne principale.
 
 Alors qu'une sidechain a connaissance de la mainchain et de l'historique de ses transactions, la mainchain n'a aucune connaissance de la sidechain et aucune n'est nécessaire à son fonctionnement. Cela permet aux sidechains d'innover sans restrictions ni délais associés aux propositions d'amélioration du protocole de la mainchain. Plutôt que d'essayer de le modifier directement, l'extension du protocole principal permet à la chaîne principale elle-même de rester sécurisée et spécialisée, ce qui sous-tend le bon fonctionnement de la chaîne secondaire.
 
@@ -1026,17 +1026,17 @@ fedpegscript=5221<public key 1>21<public key 2>52ae
 
 Note : Les caractères à l'extérieur des clés publiques sont des délimiteurs qui indiquent les exigences en matière de clé publique et de "n de m". Par exemple, le modèle pour un fedpegscript 1 de 1 serait '5121<clé publique 1>51ae'.
 
-### Piquetage
+### Peg-in
 
 Avant qu'un peg-in puisse être accepté par une sidechain Elements, il doit avoir suffisamment de confirmations sur la mainchain. Cela est nécessaire pour éviter une inflation de l'offre de l'actif rattaché sur la sidechain Elements, qui pourrait être causée par une réorganisation de la mainchain.
 
 De brèves réorganisations de la pointe de la blockchain Bitcoin sont attendues dans le cadre du fonctionnement normal du mécanisme de consensus de la preuve de travail (PoW). Ainsi, Elements n'accepte un peg-in comme valide que lorsqu'il a une profondeur suffisante dans la blockchain Bitcoin. Cela permet d'éviter qu'Elements n'accepte le même peg-in plus d'une fois.
 
-### Sortie de secours
+### Peg-Out
 
 Un peg-out se produit lorsqu'un nœud Elements appelle la commande `sendtomainchain`, qui prend en entrée une adresse mainchain (la destination du peg-out) ainsi que le montant de l'actif rattaché qui doit être "retiré". Cela crée une transaction de peg-out sur la sidechain. Une fois que les Fonctionnaires qui agissent en tant que Watchmen détectent que la transaction de peg-out a été confirmée sur la sidechain, ils s'occupent de libérer l'actif sur la mainchain vers la destination de peg-out, comme nous l'avons appris dans les sections précédentes du cours.
 
-## Les éléments en tant que blockchain autonome
+## Elements en tant que blockchain autonome
 
 <chapterId>50dff39b-2702-47d7-9c15-0b54b845e99f</chapterId>
 
@@ -1188,11 +1188,11 @@ Comme une blockchain autonome n'a pas besoin de valider les transactions peg-in 
 
 Cela vous permet de spécifier le nom de l'actif par défaut créé lors de l'initialisation de la blockchain.
 
-#### `initialfreecoins`
+#### `initialfreecoins` (pièces gratuites initiales)
 
 Le nombre (équivalent à l'unité Satoshi de Bitcoin) de l'actif par défaut à créer.
 
-#### jetons d'émission initiale
+#### `initialreissuancetokens`  (jetons d'émission initiale)
 
 Le nombre (équivalent à l'unité Satoshi de Bitcoin) de jetons de réémission pour l'actif par défaut à créer. Sans cette valeur, il serait impossible de créer d'autres actifs par défaut. Si vous ne souhaitez pas qu'il soit possible de créer d'autres actifs par défaut, cette valeur peut être fixée à zéro ou omise.
 
@@ -1204,7 +1204,7 @@ e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=10000
 
 ### Opérations de base
 
-Le paramètre `defaultpeggedassetname` applique un label à l'actif par défaut. Sans ce paramètre, l'actif par défaut sera automatiquement nommé `bitcoin`. Dans les sections précédentes, lorsque nous envoyons des assets que nous avons émis nous-mêmes à un autre noeud, nous devons spécifier soit l'hexagone de l'asset, soit le label de l'asset appliqué localement pour indiquer à Elements quel asset nous envoyons. Comme `defaultpeggedassetname` s'applique à tous les noeuds, nous n'avons pas besoin de le nommer lorsque nous l'envoyons, même si son nom n'est pas `bitcoin`. Chaque fonction qui aurait envoyé `bitcoin` auparavant par défaut enverra maintenant ce que vous avez choisi de nommer l'actif par défaut.
+Le paramètre `defaultpeggedassetname` applique un label à l'actif par défaut. Sans ce paramètre, l'actif par défaut sera automatiquement nommé `bitcoin`. Dans les sections précédentes, lorsque nous envoyons des assets que nous avons émis nous-mêmes à un autre nœud, nous devons spécifier soit l'hexagone de l'asset, soit le label de l'asset appliqué localement pour indiquer à Elements quel asset nous envoyons. Comme `defaultpeggedassetname` s'applique à tous les noeuds, nous n'avons pas besoin de le nommer lorsque nous l'envoyons, même si son nom n'est pas `bitcoin`. Chaque fonction qui aurait envoyé `bitcoin` auparavant par défaut enverra maintenant ce que vous avez choisi de nommer l'actif par défaut.
 
 Il suffit donc d'envoyer 10 exemplaires du nouvel actif par défaut à une adresse donnée :
 

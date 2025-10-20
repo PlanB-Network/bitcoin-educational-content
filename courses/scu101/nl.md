@@ -43,6 +43,8 @@ Théo; bijdrage
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **Doel: Werk je beveiligingsvaardigheden bij!**
 
@@ -126,6 +128,8 @@ Klaar om uw digitale beveiliging te versterken en de controle over uw gegevens t
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 Wanneer je op het internet surft, is het essentieel om veelgemaakte fouten te vermijden om je online veiligheid te behouden. Hier volgen enkele tips om ze te vermijden:
 
@@ -187,6 +191,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 
 ### VPN's
 
@@ -242,6 +248,8 @@ Samengevat kan het gebruik van een VPN de online veiligheid voor zowel bedrijven
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 De beveiliging van onze computers is een grote zorg in de huidige digitale wereld. Vandaag zullen we Address drie belangrijke punten behandelen:
@@ -314,6 +322,8 @@ Tot slot is het essentieel om een besturingssysteem te kiezen dat aan je behoeft
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 
 ### Hoe vallen hackers aan?
 
@@ -385,6 +395,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 
 ### Een nieuw e-mailaccount aanmaken!
 
@@ -429,6 +441,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### Wat is een wachtwoordmanager?
@@ -491,6 +505,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## Authenticatie met twee factoren
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Waarom 2FA implementeren
 
@@ -667,6 +683,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 
 ### Cyberbeveiliging: Een groeiend veld met eindeloze mogelijkheden
 
@@ -719,6 +737,8 @@ Als je deze vaardigheden en tools onder de knie hebt, ben je goed uitgerust om s
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### Efficiënt wachtwoordbeheer en versterking van authenticatie: Een academische benadering

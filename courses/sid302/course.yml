@@ -156,21 +156,33 @@ videos:
   - id: ff6899d2-b47f-4c3d-983d-3bd66d2be59d
     youtube:
       - en: QCyWXVWkcAM
+    peertube:
+      - en: fAHoZBmNNJERLNGfaaLzyU
   - id: 5652dcb2-4303-484c-8be5-d98063b39c1c
     youtube:
       - en: 9Yu0dPAJSek
+    peertube:
+      - en: 9yncc4RVei6YE3KBvHLhph
   - id: 31368c02-b979-44d7-b217-ceed96c7ca5c
     youtube:
       - en: zFvv0bn4ZWY
+    peertube:
+      - en: 3oYJW5JiYLpfnDCy2WNXKv
   - id: 0bac0a62-90f2-41da-ac7c-330c0604bc61
     youtube:
       - en: 6wNeHQBlhA4
+    peertube:
+      - en: mqvqoJUpMb53AcUBWLgxeW
   - id: 07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a
     youtube:
       - en: IAdOxZyx7-Y
+    peertube:
+      - en: acQm2Ghw8hvQ5ubDpLYesT
   - id: f00822b4-dc1a-46ff-adfc-ff7c97a0024d
     youtube:
       - en: AnMiD9amSUg
   - id: 1a6289b5-fdae-4320-b5b1-41925150108c
     youtube:
       - en: ucc3a-udbgo
+    peertube:
+      - en: daUkaSwee2YDnBoYUnZpuu

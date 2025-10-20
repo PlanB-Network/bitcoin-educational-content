@@ -50,7 +50,7 @@ This course emphasizes hands-on implementation with real code examples, API inte
 ## Taproot Assets: A New Protocol for Multi-Asset Bitcoin and Lightning
 <chapterId>b3c8d5f2-7e4a-4b9c-a6f1-5d9e2c3b8f16</chapterId>
 
-![video](https://www.youtube.com/watch?v=-yiTtO_p3Cw)
+:::video id=f45eeea0-6583-498b-af6a-c148cbe0ed00:::
 
 ### Understanding Taproot Asset
 
@@ -84,7 +84,7 @@ Universe services play a crucial supporting role by providing information about 
 ## Taproot Assets Demo
 <chapterId>e6f3a8d1-9c2b-4e7f-b5a8-3d1c6f9e8b27</chapterId>
 
-![video](https://www.youtube.com/watch?v=xtklaJHfKIY)
+:::video id=aa81d3c5-27a6-46a2-9f7d-5097c2aa63ec:::
 
 ### Introduction to Taproot Asset Client
 
@@ -119,7 +119,7 @@ For continued learning and more detailed information about Taproot Asset's capab
 ## Tap into the Universe
 <chapterId>c9b7e4f3-5d8a-4c2e-9f6b-8a3d5e7c2b19</chapterId>
 
-![video](https://www.youtube.com/watch?v=8Qi7VOvKe5o)
+:::video id=939fd065-61ec-42e0-9f19-543d7bb4f3fd:::
 
 ### Taproot Assets Version 0.2: Advanced Features and Implementation
 
@@ -157,7 +157,7 @@ The REST API provides practical access to universe functionality through standar
 
 ## Install from Source
 <chapterId>a8e9f3b2-7c5d-4f1e-b6a9-2d8c5e3f7a31</chapterId>
-![video](https://www.youtube.com/watch?v=Z7KLo-pGBJA)
+:::video id=70e894f7-3759-48fc-9fcb-a3a1b33a3214:::
 
 ### Installing TAPD: A Complete Setup Guide
 
@@ -191,7 +191,7 @@ The most frequent installation problems relate to Go version compatibility, inco
 
 ## Prototype with Polar
 <chapterId>d5c7f8e3-9a2b-4e6c-8f1d-3b9e5a7c4d32</chapterId>
-![video](https://www.youtube.com/watch?v=pYh-4EfdZaM)
+:::video id=30cca1f1-d4c8-4d9b-88d0-d8e9e4f4986b:::
 
 ### Setting Up TAPD with Polar Development Environment
 
@@ -222,7 +222,7 @@ Effective TAPD development using Polar follows a structured workflow that begins
 ## Launch with Litd
 <chapterId>b7f9a2c5-8e3d-4b7a-9c6f-5d2e8a3b1f43</chapterId>
 
-![video](https://www.youtube.com/watch?v=EaPZ3EbTWhE)
+:::video id=c488fe53-5110-4e43-8b9c-7773d9969078:::
 
 ### Installing TAPD via Lightning Terminal from Source
 
@@ -250,7 +250,7 @@ The final verification step involves testing TAPD's connectivity to universe ser
 
 ## Join a Universe Federation
 <chapterId>e3d8b6f4-7c9a-4e2b-8f5c-9a1d3e6b7c54</chapterId>
-![video](https://www.youtube.com/watch?v=o6U812eSE_Q)
+:::video id=42e7cc5c-18cf-47b0-9d42-879f14733cd5:::
 
 ### Dicovering Universe Concepts
 
@@ -290,7 +290,7 @@ The combination of CLI and API access provides operational flexibility - CLI com
 ## Mint from the CLI
 <chapterId>f5b9c3e7-8d2a-4f7e-9b6c-3a8d5e2c1f76</chapterId>
 
-![video](https://www.youtube.com/watch?v=FccI6j0mxuE)
+:::video id=3bc078b4-183d-4970-b63e-66862a452566:::
 
 ### Transferring Taproot Assets via Command Line Interface
 
@@ -337,7 +337,7 @@ The transfer system exemplifies sophisticated engineering underlying the Taproot
 ## Mint from the API
 <chapterId>a9d7e5f8-3c6b-4e9a-8f2d-6b1c3a9e5d87</chapterId>
 
-![video](https://www.youtube.com/watch?v=IL4ojWyFPSk)
+:::video id=89819d63-3011-4ac6-a1f7-66babd2134b8:::
 
 ### Introduction to API-Based Asset Transfers
 
@@ -378,7 +378,7 @@ When implementing API-based asset transfers in production applications, error ha
 ## Send from the CLI
 <chapterId>d2c8f6b3-7e5a-4b9d-8c3f-9a6e2d5b1c98</chapterId>
 
-![video](https://www.youtube.com/watch?v=o30AiqbsYhw)
+:::video id=88cdc6ce-22f6-4ddd-90a3-da345a85eef1:::
 
 ### Transferring Taproot Assets via Command Line Interface
 
@@ -425,7 +425,7 @@ The transfer system exemplifies sophisticated engineering underlying the Taproot
 ## Send from the API
 <chapterId>b6f3d9a8-5c2e-4d7b-9f8a-1e3c6b8a7d19</chapterId>
 
-![video](https://www.youtube.com/watch?v=UEaNXu8me24)
+:::video id=db1c8655-eb0b-49a1-83e8-dc0b16a35582:::
 
 ### Introduction to API-Based Asset Transfers
 
@@ -458,7 +458,7 @@ The asset transfer execution involves the sending node constructing and broadcas
 
 ## Burn from the CLI
 <chapterId>e8a9b5c2-4f7d-4e3a-8b6c-7d2f9e1a3b21</chapterId>
-![video](https://www.youtube.com/watch?v=qBTGxSHpyDo)
+:::video id=a9a437a4-1664-4786-a4a8-6e78082abe59:::
 
 ### Asset Burning via CLI
 
@@ -495,7 +495,7 @@ Once confirmed on the blockchain, burned assets cannot be recovered or restored 
 ## Burn from the API
 <chapterId>c7d5e8f9-3b6a-4e2c-9f7d-8a1b5c3e6d32</chapterId>
 
-![video](https://www.youtube.com/watch?v=hYUBA-AxrtE)
+:::video id=03e4464a-7ce8-4fb1-889c-83f8a52ac315:::
 
 ### Asset Burning via REST API
 
@@ -538,7 +538,7 @@ The verification process serves multiple purposes: providing a clear audit trail
 
 ## Update Tapd
 <chapterId>a5b8f9c3-6d7e-4a2b-8c9f-2e3d7b1a5f54</chapterId>
-![video](https://www.youtube.com/watch?v=0nvkrWfxW3k)
+:::video id=df88fe13-4a2f-4251-82db-89ce07131947:::
 
 ### Introduction to TAPD Updates
 
@@ -589,7 +589,7 @@ The update process for TAPD nodes varies significantly depending on installation
 ## Building a Node from Scratch
 <chapterId>992d8650-87f2-11f0-aace-9be7f0fb0b83</chapterId>
 
-![video](https://www.youtube.com/watch?v=lopHP_nF0tE)
+:::video id=9b884ff3-fca1-4488-bdd9-bb1d27ed5af4:::
 
 ### Introduction to Lightning Terminal Daemon (LITD)
 
@@ -629,7 +629,7 @@ The initial LITD startup requires manual intervention to create and unlock the w
 
 ## Running a Taproot Assets Price Oracle
 <chapterId>b3f7d9a5-8c2e-4b6d-9a7f-5e1c3d8b6a76</chapterId>
-![video](https://www.youtube.com/watch?v=m0BSUqNZT_U)
+:::video id=1694f29f-e009-4f0d-99d7-5cedb540c81a:::
 
 ### Setting Up Price Oracles for Edge Networks
 

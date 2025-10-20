@@ -20,6 +20,38 @@ Užijte si svůj objev!
 
 +++
 
+# Úvod
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Přehled kurzu
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Vítejte v kurzu PRO 202 _**Programování Bitcoinu**_, intenzivní cestě, která vás provede od aritmetiky konečných polí až po vytváření a vysílání skutečných transakcí v testovací síti Bitcoinu.
+
+V tomto kurzu budete postupně vytvářet bitcoinovou knihovnu v Pythonu a zároveň získáte kryptografické, protokolární a softwarové základy potřebné k přesnému pochopení bezpečnosti a vnitřního fungování Bitcoinu. Přístup PRO 202 je zcela praktický: každý koncept je okamžitě implementován v Jupyter noteboocích, což zajišťuje, že teorie a kód se navzájem posilují.
+
+### Základní matematické koncepty pro Bitcoin
+
+Tato první část vytváří nezbytné matematické základy. Implementujete aritmetiku konečných polí a operace na eliptických křivkách (grupový zákon, sčítání, zdvojení, násobení skalárem...) — předpoklady pro ECDSA. Cíl je dvojnásobný: pochopit algebraickou strukturu, která umožňuje kryptografické podpisy, a vytvořit spolehlivé nástroje v Pythonu pro jejich manipulaci.
+
+Poté formalizujete komponenty ECDSA: generování klíčů, formátování bodů, hašování, vytváření a ověřování podpisů. Tato část přímo propojuje teorii s praxí, zdůrazňuje detaily implementace a robustnost základního bezpečnostního modelu.
+
+### Vnitřní fungování bitcoinové transakce
+
+V druhé části rozeberete strukturu bitcoinové transakce: UTXO, vstupy/výstupy, sekvence, skripty, kódování a další. Napíšete kód pro vytvoření, podepsání a ověření transakcí, čímž získáte přesné pochopení toho, co je hashováním závazně potvrzeno a proč.
+
+Dále implementujete minimalistický vykonavatel _Scriptu_, přezkoumáte klíčové opkódy a ověříte cesty utrácení. Cílem je, abyste byli schopni auditovat chování transakcí, diagnostikovat chyby ověřování a uvažovat o bezpečnosti zásad utrácení.
+
+### Vnitřní fungování bitcoinové sítě
+
+Ve třetí části umístíte transakci do širšího systému: struktura bloku, hlavičky, obtížnost a mechanismus Proof-of-Work. Budete pracovat s protokolovými zprávami, hlavičkami bloků a Merkleho stromy.
+
+Nakonec se budete zabývat komunikací uzlů peer-to-peer, optimalizací zpráv a zavedením SegWitu.
+
+Stejně jako u každého kurzu na Plan ₿ Academy obsahuje závěrečná část hodnocení navržené tak, aby upevnilo vaše porozumění. Jste připraveni odhalit vnitřní fungování Bitcoinu a napsat kód, který jej pohání? Začněme!
+
 # Základní matematické pojmy pro Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -15,6 +15,46 @@ Enjoy your discovery!
 
 +++
 
+# Introduction
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Course Overview
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Welcome to the course PRO 202 _**Programming Bitcoin**_, an intensive journey that takes you from finite field arithmetic all the way to building and broadcasting real transactions on Bitcoin’s Testnet.
+
+In this course, you will progressively build a Bitcoin library in Python while acquiring the cryptographic, protocol, and software foundations necessary to reason precisely about Bitcoin’s security and inner workings. The PRO 202 approach is thoroughly hands-on: every concept is immediately implemented in Jupyter notebooks, ensuring that theory and code strengthen each other.
+
+### Essential Mathematical Concepts for Bitcoin
+
+This first section establishes the indispensable mathematical groundwork. You will implement finite field arithmetic and elliptic curve operations (group law, addition, doubling, scalar multiplication...) — the prerequisites for ECDSA. The goal is twofold: to understand the algebraic structure that makes cryptographic signatures possible and to build reliable Python tools for manipulating them.
+
+You will then formalize the components of ECDSA: key generation, point formatting, hashing, signature creation, and verification. This section directly connects theory to practice, emphasizing implementation details and the robustness of the underlying security model.
+
+### Bitcoin Transaction Innerworkings
+
+In the second section, you will dissect the structure of a Bitcoin transaction: UTXOs, inputs/outputs, sequences, scripts, encodings, and more. You will write code to construct, sign, and verify transactions, gaining a precise understanding of what is committed by the hash and why.
+
+Next, you will implement a minimal _Script_ executor, review key opcodes, and validate spending paths. The objective is to make you capable of auditing transaction behavior, diagnosing validation failures, and reasoning about the safety of spending policies.
+
+### Bitcoin Network Innerworkings
+
+In the third section, you will place the transaction within the broader system: block structure, headers, difficulty, and the Proof-of-Work mechanism. You will handle protocol messages, block headers, and Merkle trees.
+
+Finally, you will study peer-to-peer node communication, message optimization, and the introduction of SegWit.
+
+As with every course on Plan ₿ Academy, the final section includes an evaluation designed to consolidate your understanding. Ready to uncover the inner workings of Bitcoin and write the code that powers it? Let’s begin!
+
+
+
+
+
+
+
+
+
 # Essential Mathematical Concepts for Bitcoin
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>
 

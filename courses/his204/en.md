@@ -1,28 +1,18 @@
 ---
 name: The origins of Laissez-Faire economics
-goal: explore the foundations of 18th-century French liberal economic thought, with a focus on the doctrine of laissez-faire, its leading thinkers, and lasting influence.
-objectives: 
-
-  - Gain a solid understanding of the key concepts behind French liberal economic thought and how they evolved during the 18th century
-  - Understand the arguments French thinkers developed against State interventionism
-  - Evaluate the impact of this French school of thought and its role in shaping the development of global political economy
-  - Develop a critical understanding of the historical continuity between different thinkers and their theories
-
+goal: Explore the foundations of 18th-century liberal economic thought, with a focus on the doctrine of laissez-faire, its leading thinkers, and lasting influence.
+objectives:
+- Gain a solid understanding of the key concepts behind liberal economic thought and how they evolved during the 18th century
+- Understand the arguments thinkers developed against State interventionism
+- Evaluate the impact of laissez-faire thought in shaping the development of global political economy
+- Examine the tension between theory and practice in implementing liberal economic
 ---
-
 # A Journey into the Economic History of Freedom
 
+This course explores the birth of economic science in 18th-century France through the lens of laissez-faire. You'll discover how thinkers challenged mercantilism by arguing the State should protect private rights, but never manipulate markets through regulations.
 
-In early 18th-century France, a new way of thinking about the economy began to take shape. It emerged as a response to the heavy-handed control of the Ancien Régime and centered around one powerful idea: *laissez-faire* — "let it happen". 
-The phrase is said to have come from a conversation between a merchant and Minister Colbert. When the minister asked, "What can the government do to help your business?" the merchant replied, "Just let us do it".
-
-Since then, many thinkers started supporting this idea, believing the role of government should be limited. It should protect individual rights, but avoid stepping into economic affairs, for fear of disrupting and destroying everything. First, it must collect taxes in a fair and equal manner (Vauban, Boisguilbert). Then, it must refrain from manipulating the currency, by devaluing its value to finance itself at a low cost (Cantillon after the John Law disaster; Dupont de Nemours before that of the Assignats). It must guarantee the freedom to work, abolish guilds and burdensome regulations on industry and commerce, which hinder economic progress (ideas supported by d'Argenson, Gournay, the Physiocrats, and Turgot).
-
-
-Finally, the State must allow the free circulation of goods, which led some to add the phrase "laissez-passer" to laissez-faire, enabling consumers to buy at the best price and promoting peace and brotherhood among nations (Quesnay and the Physiocrats, Abbot of Saint-Pierre). In defending this ideal of laissez-faire, the French economists of the 18th century laid the foundations of economic science. Having dominated their own time, they still have the power to guide ours.
-
+You will learn how visionary reformers extended this vision to demand free trade and unrestricted circulation of goods, laying the intellectual foundations of modern capitalism. By studying these pioneering economists, you'll understand the timeless principles that shaped global political economy and continue to influence policy debates today. Join now to master the ideas that built the modern economy.
 +++
-
 # Introduction
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>
 

@@ -1,35 +1,18 @@
 ---
 name: Początki ekonomii leseferystycznej
-goal: zbadaj podstawy XVIII-wiecznej francuskiej liberalnej myśli ekonomicznej, koncentrując się na doktrynie leseferyzmu, jej czołowych myślicielach i trwałym wpływie.
-objectives: 
-
-
-  - Zdobądź solidne zrozumienie kluczowych koncepcji stojących za francuską liberalną myślą ekonomiczną i tego, jak ewoluowały one w XVIII wieku
-  - Zrozumienie argumentów francuskich myślicieli przeciwko interwencjonizmowi państwowemu
-  - Ocenić wpływ tej francuskiej szkoły myślenia i jej rolę w kształtowaniu rozwoju globalnej ekonomii politycznej
-  - Rozwija krytyczne rozumienie historycznej ciągłości między różnymi myślicielami i ich teoriami
-
-
+goal: Poznaj podstawy liberalnej myśli ekonomicznej XVIII wieku, ze szczególnym uwzględnieniem doktryny laissez-faire, jej czołowych myślicieli i trwałego wpływu.
+objectives:
+- Zdobyć solidne zrozumienie kluczowych koncepcji liberalnej myśli ekonomicznej i tego, jak ewoluowały w XVIII wieku
+- Zrozumieć argumenty, które myśliciele rozwinęli przeciwko interwencjonizmowi państwowemu
+- Ocenić wpływ myśli laissez-faire na kształtowanie rozwoju globalnej ekonomii politycznej
+- Zbadać napięcie między teorią a praktyką we wdrażaniu liberalnej ekonomii
 ---
+# Podróż przez ekonomiczną historię wolności
 
-# Podróż do gospodarczej historii wolności
+Ten kurs bada narodziny nauki ekonomicznej w XVIII-wiecznej Francji przez pryzmat laissez-faire. Odkryjesz, jak myśliciele kwestionowali merkantylizm, argumentując, że państwo powinno chronić prawa prywatne, ale nigdy nie manipulować rynkami poprzez regulacje.
 
-
-
-Na początku XVIII wieku we Francji zaczął kształtować się nowy sposób myślenia o gospodarce. Pojawił się on jako odpowiedź na brutalną kontrolę ancien régime'u i skupiał się wokół jednej potężnej idei: *laissez-faire* - "niech się dzieje, co chce".
-
-Mówi się, że zwrot ten pochodzi z rozmowy między kupcem a ministrem Colbertem. Kiedy minister zapytał: "Co rząd może zrobić, aby pomóc twojej firmie?", kupiec odpowiedział: "Po prostu pozwól nam to zrobić".
-
-
-Od tego czasu wielu myślicieli zaczęło wspierać tę ideę, wierząc, że rola rządu powinna być ograniczona. Powinien on chronić prawa jednostki, ale unikać wkraczania w sprawy gospodarcze, w obawie przed zakłóceniem i zniszczeniem wszystkiego. Po pierwsze, rząd powinien pobierać podatki w sprawiedliwy i równy sposób (Vauban, Boisguilbert). Następnie musi powstrzymać się od manipulowania walutą, dewaluując jej wartość, aby finansować się po niskich kosztach (Cantillon po katastrofie Johna Law; Dupont de Nemours przed Assignats). Musi zagwarantować wolność pracy, znieść gildie i uciążliwe regulacje dotyczące przemysłu i handlu, które hamują postęp gospodarczy (idee wspierane przez d'Argensona, Gournaya, fizjokratów i Turgota).
-
-
-
-Wreszcie, państwo musi zezwolić na swobodny obrót towarami, co doprowadziło niektórych do dodania wyrażenia "laissez-passer" do leseferyzmu, umożliwiając konsumentom kupowanie po najlepszej cenie i promując pokój i braterstwo między narodami (Quesnay i fizjokraci, opat Saint-Pierre). Broniąc tego ideału leseferyzmu, francuscy ekonomiści XVIII wieku położyli podwaliny pod naukę ekonomii. Zdominowawszy swoje czasy, nadal mają moc kierowania naszymi.
-
-
+Dowiesz się, jak wizjonerzy reformatorzy rozszerzyli tę wizję, domagając się wolnego handlu i nieograniczonego przepływu towarów, kładąc intelektualne fundamenty współczesnego kapitalizmu. Studiując tych pionierskich ekonomistów, zrozumiesz ponadczasowe zasady, które ukształtowały globalną ekonomię polityczną i nadal wpływają na debaty polityczne dzisiaj. Dołącz teraz, aby opanować idee, które zbudowały współczesną gospodarkę.
 +++
-
 # Wprowadzenie
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

@@ -1,35 +1,18 @@
 ---
 name: Nguồn gốc của kinh tế Laissez-Faire
-goal: khám phá nền tảng của tư tưởng kinh tế tự do của Pháp thế kỷ 18, tập trung vào học thuyết tự do kinh tế, những nhà tư tưởng hàng đầu và ảnh hưởng lâu dài của học thuyết này.
-objectives: 
-
-
-  - Có được sự hiểu biết vững chắc về các khái niệm chính đằng sau tư tưởng kinh tế tự do của Pháp và cách chúng phát triển trong thế kỷ 18
-  - Hiểu được các lập luận mà các nhà tư tưởng Pháp đưa ra để chống lại chủ nghĩa can thiệp của Nhà nước
-  - Đánh giá tác động của trường phái tư tưởng Pháp này và vai trò của nó trong việc định hình sự phát triển của nền kinh tế chính trị toàn cầu
-  - Phát triển sự hiểu biết quan trọng về tính liên tục lịch sử giữa các nhà tư tưởng khác nhau và các lý thuyết của họ
-
-
+goal: Khám phá nền tảng của tư tưởng kinh tế tự do thế kỷ 18, tập trung vào học thuyết laissez-faire, các nhà tư tưởng hàng đầu và ảnh hưởng lâu dài của nó.
+objectives:
+- Có được sự hiểu biết vững chắc về các khái niệm chính đằng sau tư tưởng kinh tế tự do và cách chúng phát triển trong thế kỷ 18
+- Hiểu các lập luận mà các nhà tư tưởng đã phát triển chống lại chủ nghĩa can thiệp của Nhà nước
+- Đánh giá tác động của tư tưởng laissez-faire trong việc định hình sự phát triển của nền kinh tế chính trị toàn cầu
+- Xem xét sự căng thẳng giữa lý thuyết và thực tiễn trong việc thực hiện kinh tế tự do
 ---
+# Hành Trình Khám Phá Lịch Sử Kinh Tế Của Tự Do
 
-# Hành trình vào Lịch sử Kinh tế của Tự do
+Khóa học này khám phá sự ra đời của khoa học kinh tế ở Pháp thế kỷ 18 qua lăng kính laissez-faire. Bạn sẽ khám phá cách các nhà tư tưởng thách thức chủ nghĩa trọng thương bằng cách lập luận rằng Nhà nước nên bảo vệ quyền tư nhân, nhưng không bao giờ thao túng thị trường thông qua các quy định.
 
-
-
-Vào đầu thế kỷ 18 ở Pháp, một cách suy nghĩ mới về nền kinh tế bắt đầu hình thành. Nó xuất hiện như một phản ứng trước sự kiểm soát chặt chẽ của Ancien Régime và tập trung vào một ý tưởng mạnh mẽ: *laissez-faire* — "hãy để nó xảy ra".
-
-Người ta cho rằng cụm từ này xuất phát từ cuộc trò chuyện giữa một thương gia và Bộ trưởng Colbert. Khi vị bộ trưởng hỏi, "Chính phủ có thể làm gì để giúp doanh nghiệp của ông?", thương gia trả lời, "Cứ để chúng tôi làm".
-
-
-Kể từ đó, nhiều nhà tư tưởng bắt đầu ủng hộ ý tưởng này, tin rằng vai trò của chính phủ nên bị hạn chế. Chính phủ nên bảo vệ các quyền cá nhân, nhưng tránh can thiệp vào các vấn đề kinh tế, vì sợ phá vỡ và phá hủy mọi thứ. Đầu tiên, chính phủ phải thu thuế một cách công bằng và bình đẳng (Vauban, Boisguilbert). Sau đó, chính phủ phải kiềm chế việc thao túng tiền tệ, bằng cách phá giá đồng tiền để tự tài trợ với chi phí thấp (Cantillon sau thảm họa John Law; Dupont de Nemours trước thảm họa của Assignats). Chính phủ phải đảm bảo quyền tự do lao động, xóa bỏ các hội nhóm và các quy định nặng nề đối với công nghiệp và thương mại, cản trở sự tiến bộ kinh tế (những ý tưởng được d'Argenson, Gournay, những người theo chủ nghĩa trọng nông và Turgot ủng hộ).
-
-
-
-Cuối cùng, Nhà nước phải cho phép lưu thông hàng hóa tự do, điều này khiến một số người thêm cụm từ "laissez-passer" vào laissez-faire, cho phép người tiêu dùng mua với giá tốt nhất và thúc đẩy hòa bình và tình anh em giữa các quốc gia (Quesnay và các nhà trọng nông, Viện phụ của Saint-Pierre). Khi bảo vệ lý tưởng laissez-faire này, các nhà kinh tế học người Pháp của thế kỷ 18 đã đặt nền móng cho khoa học kinh tế. Đã thống trị thời đại của họ, họ vẫn có quyền lực để hướng dẫn thời đại của chúng ta.
-
-
+Bạn sẽ học được cách các nhà cải cách có tầm nhìn xa đã mở rộng tầm nhìn này để đòi hỏi thương mại tự do và lưu thông hàng hóa không hạn chế, đặt nền tảng trí tuệ cho chủ nghĩa tư bản hiện đại. Bằng cách nghiên cứu những nhà kinh tế học tiên phong này, bạn sẽ hiểu được những nguyên tắc vượt thời gian đã định hình nền kinh tế chính trị toàn cầu và tiếp tục ảnh hưởng đến các cuộc tranh luận chính sách ngày nay. Tham gia ngay để nắm vững những ý tưởng đã xây dựng nên nền kinh tế hiện đại.
 +++
-
 # Giới thiệu
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

@@ -38,6 +38,8 @@ Bu kurs, ilgi alanlarınıza ve hedeflerinize en uygun yolu izleyerek Bitcoin'y�
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 BTC102'ye hoş geldiniz! BTC101'i zaten tamamladıysanız, Bitcoin'nin neden bu kadar devrimci bir teknoloji olduğunun arkasındaki temel teorik kavramları keşfettiniz. Şimdi BTC102 ile bu bilgileri eyleme dökme zamanı. Bu kurs, kişisel Bitcoin planınızı adım adım oluşturmanıza yardımcı olmak için tasarlanmıştır.
 

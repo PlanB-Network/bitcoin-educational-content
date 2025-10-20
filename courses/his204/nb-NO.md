@@ -1,35 +1,18 @@
 ---
 name: Laissez-faire-økonomiens opprinnelse
-goal: utforske grunnlaget for 1700-tallets franske liberale økonomiske tenkning, med fokus på laissez-faire-doktrinen, dens ledende tenkere og varige innflytelse.
-objectives: 
-
-
-  - Få en solid forståelse av nøkkelbegrepene bak fransk liberal økonomisk tenkning og hvordan de utviklet seg i løpet av 1700-tallet
-  - Forstå argumentene franske tenkere utviklet mot statlig intervensjonisme
-  - Vurdere virkningen av denne franske skoleretningen og dens rolle i utviklingen av den globale politiske økonomien
-  - Utvikle en kritisk forståelse av den historiske kontinuiteten mellom ulike tenkere og deres teorier
-
-
+goal: Utforsk grunnlaget for det liberale økonomiske tankegodset fra 1700-tallet, med fokus på laissez-faire-doktrinen, dens ledende tenkere og varige innflytelse.
+objectives:
+- Få en solid forståelse av nøkkelbegrepene bak liberal økonomisk tenkning og hvordan de utviklet seg i løpet av 1700-tallet
+- Forstå argumentene tenkere utviklet mot statlig intervensjonisme
+- Evaluere virkningen av laissez-faire-tenkning i utformingen av utviklingen av global politisk økonomi
+- Undersøke spenningen mellom teori og praksis i implementeringen av liberal økonomi
 ---
+# En reise inn i frihetens økonomiske historie
 
-# En reise i frihetens økonomiske historie
+Dette kurset utforsker fødselen av økonomisk vitenskap i Frankrike på 1700-tallet gjennom linsen av laissez-faire. Du vil oppdage hvordan tenkere utfordret merkantilismen ved å argumentere for at staten skulle beskytte private rettigheter, men aldri manipulere markeder gjennom reguleringer.
 
-
-
-På begynnelsen av 1700-tallet begynte en ny måte å tenke økonomi på å ta form i Frankrike. Den vokste frem som et svar på Ancien Régimes hardhendte kontroll og var sentrert rundt én kraftfull idé: *laissez-faire* - "la det skje".
-
-Uttrykket skal ha kommet fra en samtale mellom en kjøpmann og minister Colbert. Da ministeren spurte: "Hva kan myndighetene gjøre for å hjelpe din virksomhet?", svarte kjøpmannen: "Bare la oss gjøre det".
-
-
-Siden den gang har mange tenkere begynt å støtte denne ideen, og mener at statens rolle bør være begrenset. Den skulle beskytte individuelle rettigheter, men unngå å blande seg inn i økonomiske anliggender, av frykt for å forstyrre og ødelegge alt. For det første må den kreve inn skatter på en rettferdig og lik måte (Vauban, Boisguilbert). Deretter må den avstå fra å manipulere valutaen ved å devaluere dens verdi for å finansiere seg selv til en lav kostnad (Cantillon etter John Law-katastrofen; Dupont de Nemours før Assignats-katastrofen). Den må garantere friheten til å arbeide, avskaffe laugene og tyngende reguleringer av industri og handel, som hindrer økonomisk fremgang (ideer som støttes av d'Argenson, Gournay, fysiokratene og Turgot).
-
-
-
-Til slutt må staten tillate fri flyt av varer, noe som fikk noen til å tilføye uttrykket "laissez-passer" til laissez-faire, slik at forbrukerne kunne kjøpe til den beste prisen og fremme fred og brorskap mellom nasjonene (Quesnay og fysiokratene, Abbé de Saint-Pierre). Ved å forsvare dette laissez-faire-idealet la de franske økonomene på 1700-tallet grunnlaget for den økonomiske vitenskapen. Etter å ha dominert sin egen tid, har de fortsatt makt til å veilede vår.
-
-
+Du vil lære hvordan visjonære reformatorer utvidet denne visjonen til å kreve frihandel og ubegrenset sirkulasjon av varer, og la det intellektuelle grunnlaget for moderne kapitalisme. Ved å studere disse banebrytende økonomene vil du forstå de tidløse prinsippene som formet den globale politiske økonomien og fortsetter å påvirke politiske debatter i dag. Bli med nå for å mestre ideene som bygde den moderne økonomien.
 +++
-
 # Innledning
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

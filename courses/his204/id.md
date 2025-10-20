@@ -1,35 +1,18 @@
 ---
 name: Asal-usul ekonomi Laissez-Faire
-goal: mengeksplorasi dasar-dasar pemikiran ekonomi liberal Prancis abad ke-18, dengan fokus pada doktrin laissez-faire, para pemikir terkemuka, dan pengaruhnya yang abadi.
-objectives: 
-
-
-  - Dapatkan pemahaman yang kuat tentang konsep-konsep utama di balik pemikiran ekonomi liberal Prancis dan bagaimana mereka berkembang selama abad ke-18
-  - Memahami argumen yang dikembangkan oleh para pemikir Prancis untuk menentang intervensionisme negara
-  - Mengevaluasi dampak mazhab Prancis dan perannya dalam membentuk perkembangan ekonomi politik global
-  - Mengembangkan pemahaman kritis tentang kesinambungan historis antara pemikir yang berbeda dan teori-teori mereka
-
-
+goal: Jelajahi fondasi pemikiran ekonomi liberal abad ke-18, dengan fokus pada doktrin laissez-faire, para pemikir terkemuka, dan pengaruhnya yang bertahan lama.
+objectives:
+- Memperoleh pemahaman yang solid tentang konsep-konsep kunci di balik pemikiran ekonomi liberal dan bagaimana mereka berkembang selama abad ke-18
+- Memahami argumen-argumen yang dikembangkan para pemikir terhadap intervensi negara
+- Mengevaluasi dampak pemikiran laissez-faire dalam membentuk perkembangan ekonomi politik global
+- Memeriksa ketegangan antara teori dan praktik dalam menerapkan ekonomi liberal
 ---
-
 # Sebuah Perjalanan ke dalam Sejarah Ekonomi Kebebasan
 
+Kursus ini mengeksplorasi kelahiran ilmu ekonomi di Prancis abad ke-18 melalui sudut pandang laissez-faire. Anda akan menemukan bagaimana para pemikir menantang merkantilisme dengan berargumen bahwa Negara harus melindungi hak-hak pribadi, tetapi tidak pernah memanipulasi pasar melalui regulasi.
 
-
-Pada awal abad ke-18 di Prancis, sebuah cara berpikir baru tentang ekonomi mulai terbentuk. Pemikiran ini muncul sebagai respons terhadap kontrol ketat dari Ancien Régime dan berpusat pada satu ide yang kuat: *laissez-faire* - "biarkan saja".
-
-Ungkapan ini konon berasal dari percakapan antara seorang pedagang dan Menteri Colbert. Ketika sang menteri bertanya, "Apa yang dapat dilakukan pemerintah untuk membantu bisnis Anda?" pedagang itu menjawab, "Biarkan kami yang melakukannya".
-
-
-Sejak saat itu, banyak pemikir mulai mendukung ide ini, percaya bahwa peran pemerintah harus dibatasi. Pemerintah harus melindungi hak-hak individu, tetapi tidak boleh ikut campur dalam urusan ekonomi, karena khawatir akan mengganggu dan menghancurkan segalanya. Pertama, pemerintah harus memungut pajak dengan cara yang adil dan setara (Vauban, Boisguilbert). Kemudian, ia harus menahan diri untuk tidak memanipulasi mata uang, dengan mendevaluasi nilainya untuk membiayai dirinya sendiri dengan biaya rendah (Cantillon setelah bencana John Law; Dupont de Nemours sebelum Assignats). Pemerintah harus menjamin kebebasan untuk bekerja, menghapuskan serikat pekerja dan peraturan yang memberatkan industri dan perdagangan, yang menghambat kemajuan ekonomi (ide-ide yang didukung oleh d'Argenson, Gournay, kaum Fisiokrat, dan Turgot).
-
-
-
-Akhirnya, Negara harus mengizinkan peredaran barang secara bebas, yang membuat beberapa orang menambahkan frasa "laissez-passer" pada laissez-faire, yang memungkinkan konsumen untuk membeli dengan harga terbaik dan mendorong perdamaian dan persaudaraan di antara bangsa-bangsa (Quesnay dan kaum Fisiokrat, Kepala Biarawan Saint-Pierre). Dalam mempertahankan cita-cita laissez-faire ini, para ekonom Prancis pada abad ke-18 meletakkan dasar-dasar ilmu ekonomi. Setelah mendominasi zaman mereka sendiri, mereka masih memiliki kekuatan untuk memandu zaman kita.
-
-
+Anda akan mempelajari bagaimana para reformis visioner memperluas visi ini untuk menuntut perdagangan bebas dan sirkulasi barang tanpa batasan, meletakkan fondasi intelektual kapitalisme modern. Dengan mempelajari para ekonom perintis ini, Anda akan memahami prinsip-prinsip abadi yang membentuk ekonomi politik global dan terus mempengaruhi debat kebijakan saat ini. Bergabunglah sekarang untuk menguasai ide-ide yang membangun ekonomi modern.
 +++
-
 # Pendahuluan
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

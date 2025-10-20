@@ -448,7 +448,7 @@ Voimme myös mainita:
 
 - Libbitcoin**: Amir Taakin kehittämä ja Eric Voskuilin ylläpitämä modulaarinen C++-kirjasto;
 - Bcoin**: JavaScript-toteutus, jota ei enää ylläpidetä aktiivisesti;
-- BTCD/btcsuit**e: toteutus Go-kielellä.
+- **BTCD/btcsuite** : toteutus Go-kielellä.
 
 
 

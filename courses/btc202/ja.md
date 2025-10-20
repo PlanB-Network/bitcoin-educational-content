@@ -448,7 +448,7 @@ Bitcoin coreの開発は、実力主義的な論理に従っています。新�
 
 - Libbitcoin**: Amir Taakiによって開発され、Eric Voskuilによって保守されているモジュール式C++ライブラリ；
 - Bcoin**：JavaScriptの実装；
-- BTCD/btcsuit**e: Goでの実装。
+- **BTCD/btcsuite** : Goでの実装です。
 
 
 

@@ -448,7 +448,7 @@ Chúng ta cũng có thể đề cập đến:
 
 - Libbitcoin**: một thư viện C++ dạng mô-đun được phát triển bởi Amir Taaki và được bảo trì bởi Eric Voskuil;
 - Bcoin**: một triển khai JavaScript, hiện không còn được duy trì tích cực;
-- BTCD/btcsuit**e: một triển khai trong Go.
+- **BTCD/btcsuite** : một bản triển khai bằng Go.
 
 
 

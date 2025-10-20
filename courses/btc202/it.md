@@ -448,7 +448,7 @@ Possiamo anche citare:
 
 - Libbitcoin**: una libreria modulare in C++ sviluppata da Amir Taaki e mantenuta da Eric Voskuil;
 - Bcoin**: un'implementazione in JavaScript, non più mantenuta attivamente;
-- BTCD/btcsuit**e: un'implementazione in Go.
+- **BTCD/btcsuite** : un'implementazione in Go.
 
 
 

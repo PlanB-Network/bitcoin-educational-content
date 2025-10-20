@@ -448,7 +448,7 @@ Můžeme také zmínit:
 
 - Libbitcoin**: modulární knihovna C++, kterou vyvinul Amir Taaki a udržuje Eric Voskuil;
 - Bcoin**: implementace v jazyce JavaScript, která již není aktivně udržována;
-- BTCD/btcsuit**e: implementace v jazyce Go.
+- **BTCD/btcsuite** : implementace v jazyce Go.
 
 
 

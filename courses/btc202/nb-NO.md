@@ -448,7 +448,7 @@ Vi kan også nevne:
 
 - Libbitcoin**: et modulært C++-bibliotek utviklet av Amir Taaki og vedlikeholdt av Eric Voskuil;
 - Bcoin**: en JavaScript-implementasjon som ikke lenger vedlikeholdes aktivt;
-- BTCD/btcsuit**e: en implementering i Go.
+- **BTCD/btcsuite** : en implementasjon i Go.
 
 
 

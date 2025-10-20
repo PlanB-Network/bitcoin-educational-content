@@ -448,7 +448,7 @@ Kami juga dapat menyebutkan:
 
 - Libbitcoin**: sebuah pustaka C++ modular yang dikembangkan oleh Amir Taaki dan dikelola oleh Eric Voskuil;
 - Bcoin**: implementasi JavaScript, tidak lagi dikelola secara aktif;
-- BTCD/btcsuit**e: sebuah implementasi di Go.
+- **BTCD/btcsuite** : sebuah implementasi dalam Go.
 
 
 

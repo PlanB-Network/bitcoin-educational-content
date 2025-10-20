@@ -448,7 +448,7 @@ Tunaweza pia kutaja:
 
 - Libbitcoin**: maktaba ya kawaida ya C++ iliyotengenezwa na Amir Taaki na kudumishwa na Eric Voskuil;
 - Bcoin**: utekelezaji wa JavaScript, haudumiwi tena kikamilifu;
-- BTCD/btcsuit**e: utekelezaji katika Go.
+- **BTCD/btcsuite** : utekelezaji katika Go.
 
 
 

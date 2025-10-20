@@ -448,7 +448,7 @@ Bitcoin core 的開發遵循任人唯才的邏輯：鼓勵新的貢獻者在自�
 
 - Libbitcoin**: 由 Amir Taaki 開發、Eric Voskuil 維護的模組化 C++ 函式庫；
 - Bcoin**: JavaScript 實作，已不再積極維護；
-- BTCD/btcsuit**e: Go 中的實作。
+- **BTCD/btcsuite** ：以 Go 實作的版本。
 
 
 

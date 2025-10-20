@@ -448,7 +448,7 @@ Võime ka mainida:
 
 - Libbitcoin**: Amir Taaki poolt välja töötatud ja Eric Voskuili poolt hooldatud modulaarne C++ raamatukogu;
 - Bcoin**: JavaScripti rakendus, mida enam aktiivselt ei hooldata;
-- BTCD/btcsuit**e: rakendamine Go keeles.
+- **BTCD/btcsuite** : Go-keeles teostus.
 
 
 

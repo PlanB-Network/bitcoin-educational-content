@@ -337,7 +337,7 @@ We can also mention:
 
 - **Libbitcoin**: a modular C++ library developed by Amir Taaki and maintained by Eric Voskuil;
 - **Bcoin**: a JavaScript implementation, no longer actively maintained;
-- **BTCD/btcsuite**: an implementation in Go.
+- **BTCD/btcsuite** : an implementation in Go.
 
 
 These projects contribute to the diversity of the ecosystem, but their adoption remains very limited, making it difficult for Bitcoin Core to evolve independently.

@@ -448,7 +448,7 @@ Možemo takođe pomenuti:
 
 - Libbitcoin**: modularna C++ biblioteka koju je razvio Amir Taaki i održava Eric Voskuil;
 - Bcoin**: JavaScript implementacija, više se ne održava;
-- BTCD/btcsuit**e: implementacija u Go jeziku.
+- **BTCD/btcsuite** : implementacija u Go-u.
 
 
 

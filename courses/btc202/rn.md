@@ -448,7 +448,7 @@ Turashobora kandi kuvuga:
 
 - Libbitcoin**: ububiko bw’ibitabu bwa C++ bwateguwe na Amir Taaki kandi bugatunganirizwa na Eric Voskuil;
 - Bcoin**: ugushirwa mu ngiro kwa JavaScript, ntikugikoreshwa neza;
-- BTCD/btcsuit**e: ugushirwa mu ngiro muri Go.
+- **BTCD/btcsuite** : ishyirwa mu bikorwa muri Go.
 
 
 

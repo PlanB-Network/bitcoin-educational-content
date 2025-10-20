@@ -448,7 +448,7 @@ Ayrıca şunu da belirtebiliriz:
 
 - Libbitcoin**: Amir Taaki tarafından geliştirilen ve Eric Voskuil tarafından bakımı yapılan modüler bir C++ kütüphanesi;
 - Bcoin**: artık aktif olarak bakımı yapılmayan bir JavaScript uygulaması;
-- BTCD/btcsuit**e: Go'da bir uygulama.
+- **BTCD/btcsuite** : Go dilinde bir uygulama.
 
 
 

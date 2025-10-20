@@ -448,7 +448,7 @@ Bitcoin core 的开发遵循 "任人唯贤 "的逻辑：我们鼓励新的贡献
 
 - Libbitcoin**: 由 Amir Taaki 开发、Eric Voskuil 维护的模块化 C++ 库；
 - Bcoin**：JavaScript 实现，已停止维护；
-- BTCD/btcsuit**e: Go 语言的实现。
+- **BTCD/btcsuite** ：用 Go 实现的版本。
 
 
 

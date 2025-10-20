@@ -456,7 +456,7 @@ Niezależnie od tego, czy właścicielem środków w portfelu jest twój „bank
 - Klucz prywatny
   Podczas inicjalizacji portfela generowana jest fraza do odzyskiwania hasła (klucz prywatny), która jest ci przekazana w formie 12 lub 24 słów.
 
-  Klucz prywatny jest bardzo ważny, ponieważ potwierdza, kto jest właścicielem Bitcoinów i ma prawo do ich używania lub wysyłania. Posiadacz klucza prywatnego jest właścicielem bitcoinów.
+  Klucz prywatny jest bardzo ważny, ponieważ potwierdza, kto jest właścicielem bitcoinów i ma prawo do ich używania lub wysyłania. Posiadacz klucza prywatnego jest właścicielem bitcoinów.
 
   Klucz ten musi być trzymany w tajemnicy i dobrze zabezpieczony, ponieważ to klucz, który otwiera drzwi do twojego bogactwa!
 
@@ -537,7 +537,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ![image](assets/en/33.webp)
 
-- **Poziom 4**, używasz zestawu portfeli, aby stworzyć portfel „multisig”, co oznacza, że do przeprowadzenia transakcji wymaganych jest kilka podpisów. Każda część multisigu powinna być przechowywana w różnych lokalizacjach. Często uważa się to za przykład zaawansowanego wykorzystania Bitcoina, stosowanego głównie w przypadku dużych kwot i w użyciu korporacyjnym.
+- **Poziom 4**, używasz zestawu portfeli, aby stworzyć portfel „wielopodpisowy” (ang. multisig), co oznacza, że do przeprowadzenia transakcji wymaganych jest kilka podpisów. Każda część multisigu powinna być przechowywana w różnych lokalizacjach. Często uważa się to za przykład zaawansowanego wykorzystania Bitcoina, stosowanego głównie w przypadku dużych kwot i w użyciu korporacyjnym.
 
 ![image](assets/en/34.webp)
 
@@ -588,7 +588,7 @@ Przechowuj listy słów w bezpiecznym miejscu, którego nie zapomnisz! Nie twór
 
 **Twoje słowa = Twoje pieniądze.**
 
-Zarówno portfele zimne jak i gorące używają metody listy słów jako standardu zabezpieczania prywatnych kluczy. Oznacza to, że możesz wprowadzić swoją frazę mnemoniczną do dowolnego oprogramowania portfela, aby przywrócić swój klucz. Zdecydowanie odradzamy korzystania z portfeli, które nie generują frazy mnemonicznej, ale proszą o numer konta, adres e-mail, a co gorsza, dowód osobisty.
+Zarówno portfele zimne jak i gorące używają metody listy słów jako standardu zabezpieczania kluczy prywatnych. Oznacza to, że możesz wprowadzić swoją frazę mnemoniczną do dowolnego oprogramowania portfela, aby przywrócić swój klucz. Zdecydowanie odradzamy korzystania z portfeli, które nie generują frazy mnemonicznej, ale proszą o numer konta, adres e-mail, a co gorsza, dowód osobisty.
 
 **UWAGA: Brak listy 24 słów powinien cię zaniepokoić.**
 
@@ -628,7 +628,7 @@ Z tych samych powodów unikaj głośnego ujawniania swojego systemu bezpieczeńs
 ### Podsumowanie tematu bezpieczeństwo portfela Bitcoin
 
 
-Portfele Bitcoin to oprogramowanie, które pozwala przechowywać i dokonywać transakcji bitcoinami. Istnieje kilka ich typów: 
+Portfele Bitcoin to oprogramowanie, które pozwala przechowywać bitcoiny i dokonywać nimi transakcji. Istnieje kilka ich typów: 
 - portfele mobilne lub na PC, wygodne w przypadku małych kwot i/lub regularnych wydatków; 
 - portfele fizyczne, bardziej odpowiednie do przechowywania bitcoinów na średni i długi okres czasu; 
 - portfele multisig, które są bardziej skomplikowane w zarządzaniu i wymagają wielu podpisów do wykonania transakcji.
@@ -653,11 +653,11 @@ Teraz, gdy omówiliśmy podstawy portfeli Bitcoin i najlepsze praktyki dotycząc
 ![image](assets/en/39.webp)
 
 31 października 2008 roku to dzień narodzin nowej technologii finansowej: Bitcoina. To właśnie w tym dniu anonimowy Satoshi Nakamoto przedstawił swoją innowację światu poprzez email rozesłany na listę mailingową cypherpunków, społeczności entuzjastów kryptografii promujących prywatność w Internecie.
-Email ten zawierał dokument zwany „White Paper”, który przedstawia sposób działania Bitcoina. 
+Email ten zawierał dokument zwany „białą księgą” (ang. White Paper), który przedstawia sposób działania Bitcoina. 
 
 ![image](assets/en/40.webp)
 
-3 stycznia 2009 roku Satoshi oficjalnie inauguruje sieć Bitcoin, tworząc pierwszy blok, znany również jako blok genesis, który symbolizuje uruchomienie łańcucha bloków Bitcoina. Ten blok zawiera wiadomość informującą o misji Bitcoina: „03/sty/2009 Kanclerz o krok od drugiego dofinansowania dla banków”. (nagłówek artykułu w London Times o niepowodzeniu brytyjskiego rządu w sztucznym stymulowaniu gospodarki po kryzysie lat 2007-2008, przyp. tłum.)
+3 stycznia 2009 roku Satoshi oficjalnie inauguruje sieć Bitcoin, tworząc pierwszy blok, znany również jako blok genesis, który symbolizuje uruchomienie łańcucha bloków Bitcoina. Ten blok zawiera wiadomość informującą o misji Bitcoina: „03/sty/2009 Kanclerz o krok od drugiego dofinansowania dla banków”. (nagłówek artykułu w London Times o niepowodzeniu brytyjskiego rządu w sztucznym stymulowaniu gospodarki po kryzysie lat 2007-2008, przyp. korekt.)
 
 
 ![image](assets/en/41.webp)
@@ -679,18 +679,18 @@ Forum szybko staje się preferowanym miejscem dyskusji dla użytkowników Bitcoi
 
 ![image](assets/en/44.webp)
 
-### Zniknięcie Satoshi Nakamoto
+### Zniknięcie Satoshiego Nakamoto
 
 W 2010 roku, gdy Bitcoin zaczyna przyciągać uwagę mediów, Satoshi decyduje się zdystansować. 12 grudnia 2010 roku publikuje swój ostatni post na forum, ogłaszając swoje odejście. 23 kwietnia 2011 roku po raz ostatni komunikuje się ze swojego prywatnego konta email. Satoshi znika, pozostawiając swoje dzieło w rękach społeczności.
 
 > „Rządy są dobre w odcinaniu głów scentralizowanych
 > sieci takich jak Napster, ale czyste sieci P2P takie
 > jak Gnutella i Tor wydają się trzymać łeb na karku” - Satoshi Nakamoto
-Pomimo nieobecności Satoshi, Bitcoin nadal się rozwija. Historia Bitcoina jest zapisywana co 10 minut, a protokół nadal funkcjonuje zgodnie z zamierzeniami. Niezależnie od strachu, niepewności czy wątpliwości, Bitcoin nadal posuwa się naprzód, z dostępnością online na poziomie 99,988% - jak donosi strona (https://bitcoinuptime.com/).
+Pomimo nieobecności Satoshiego, Bitcoin nadal się rozwija. Historia Bitcoina jest zapisywana co 10 minut, a protokół nadal funkcjonuje zgodnie z zamierzeniami. Niezależnie od strachu, niepewności czy wątpliwości, Bitcoin nadal posuwa się naprzód, z dostępnością online na poziomie 99,988% - jak donosi strona (https://bitcoinuptime.com/).
 
-Bitcoin jest postrzegany inaczej przez każdą osobę. Dla niektórych jest jak grzyb [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), dla innych to[czarna dziura](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Niezależnie od tego, czy się go kocha, czy nienawidzi, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
+Bitcoin jest postrzegany inaczej przez każdą osobę. Dla niektórych jest jak grzyb [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), dla innych to [czarna dziura](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Niezależnie od tego, czy się go kocha, czy nienawidzi, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
 
-Aby dowiedzieć się więcej o pismach Satoshi Nakamoto, polecamy [książkę Phila Champagne](https://planb.network/en/resources/books/98) lub dokument ARTE „le mystaire Satoshi”.
+Aby dowiedzieć się więcej o pismach Satoshiego Nakamoto, polecamy [książkę Phila Champagne](https://planb.network/en/resources/books/98) lub dokument ARTE „le mystaire Satoshi”.
 
 ![image](assets/en/45.webp)
 
@@ -725,7 +725,7 @@ Na tym etapie transakcja została utworzona i portfel Boba udostępni ją sieci 
 
 ![image](assets/en/47.webp)
 
-Chociaż wszyscy są teraz poinformowani o tej transakcji (za pośrednictwem narzędzia o nazwie Mempool), nie jest ona uznana za potwierdzoną dopóki górnicy nie włożą jej do bloku. Zadaniem górników jest wzięcie poprawnych, ale niepotwierdzonych transakcji i skompilowanie ich do bloku. Aby ich blok był następny w łańcuchu bloków Bitcoin, muszą rozwiązać kryptograficzną łamigłówkę w procesie zwanym „dowód pracy” (ang. proof of work).
+Chociaż wszyscy są teraz poinformowani o tej transakcji (za pośrednictwem narzędzia o nazwie Mempool), nie jest ona uznana za potwierdzoną dopóki górnicy nie włożą jej do bloku. Zadaniem górników jest wzięcie poprawnych, ale niepotwierdzonych transakcji i skompilowanie ich do bloku. Aby ich blok był następny w łańcuchu bloków Bitcoina, muszą rozwiązać kryptograficzną łamigłówkę w procesie zwanym „dowód pracy” (ang. proof of work).
 
 ![image](assets/en/48.webp)
 
@@ -733,7 +733,7 @@ Chociaż wszyscy są teraz poinformowani o tej transakcji (za pośrednictwem nar
 
 Dowód pracy wymaga znalezienia poprawnego dla danego bloku „hasza”. Pomyśl o tym jako o unikalnym odcisku palca związanym z blokiem, składającym się z 256 znaków. Poprawność tego hasza zależy od trudności wydobywania w sieci Bitcoin (szczegóły tego mechanizmu omówimy później). Na razie załóżmy, że górnik znalazł poprawny blok i że transakcja Boba do Alicji jest w nim zawarta.
 
-Ten nowy poprawny blok jest dodawany do łańcucha bloków Bitcoin, który jest publiczną i niezmienną księgą rachunkową wszystkich transakcji Bitcoin. Pomyśl o tym jak o wspólnej księdze rachunkowej wszystkich użytkowników Bitcoina.
+Ten nowy poprawny blok jest dodawany do łańcucha bloków Bitcoina, który jest publiczną i niezmienną księgą rachunkową wszystkich transakcji Bitcoin. Pomyśl o tym jak o wspólnej księdze rachunkowej wszystkich użytkowników Bitcoina.
 
 ![image](assets/en/49.webp)
 
@@ -766,7 +766,7 @@ Węzły są fundamentalnym elementem architektury sieci Bitcoin. Pełnią różn
 - Utrzymywanie kopii łańcucha bloków Bitcoin
 - Potwierdzanie transakcji
 - Przesyłanie informacji do innych węzłów
-- Egzekwowanie reguł protokołu Bitcoin.
+- Egzekwowanie reguł protokołu Bitcoin
 
 Dlatego każde urządzenie uruchamiające oprogramowanie Bitcoin, nazywane węzłem Bitcoina (często za pomocą [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), przyczynia się do decentralizacji sieci.
 
@@ -803,14 +803,14 @@ Na przykład, gdyby bloki były 100 razy cięższe, moglibyśmy z pewnością pr
 
 Omawiana sytuacja wcale nie jest hipotetyczna: w roku 2017 miała miejsce zażarta i kontrowersyjna dyskusja znana jako „wojna bloków”. Konflikt ten przeciwstawił sobie osoby, które chciały zmodyfikować sieć Bitcoin poprzez zwiększenie rozmiaru bloku, aby zwiększyć pojemność transakcji, oraz te, które dążyły do zachowania niezależności i władzy użytkowników. Ostateczne zwycięstwo należało do użytkowników i węzłów, a proponowana zmiana zainicjowana przez górników, platformy wymiany i instytucje została odrzucona.
 
-Po tym zwycięstwie, węzły aktywowały aktualizację zwaną SegWit, torując drogę do implementacji Lightning Network, sieci natychmiastowych płatności Bitcoin, korzystającej z łańcuchu bloków Bitcoin. Ta sytuacja pokazuje, że użytkownicy, poprzez swoje węzły, posiadają realną władzę w sieci Bitcoin, pozwalającą im stawić czoła dużym instytucjom.
+Po tym zwycięstwie, węzły aktywowały aktualizację zwaną SegWit, torując drogę do implementacji sieci Lightning, sieci natychmiastowych płatności Bitcoin, korzystającej z łańcucha bloków Bitcoina. Ta sytuacja pokazuje, że użytkownicy, poprzez swoje węzły, posiadają realną władzę w sieci Bitcoin, pozwalającą im stawić czoła dużym instytucjom.
 
 
 ## Górnicy
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-> Rolą górników jest zabezpieczanie sieci i dodawanie transakcji do bloków. Używają energii elektrycznej poprzez maszyny ASIC do rozwiązywania dowodu pracy Bitcoin.
+> Rolą górników jest zabezpieczanie sieci i dodawanie transakcji do bloków. Używają energii elektrycznej poprzez maszyny ASIC do rozwiązywania dowodu pracy Bitcoina.
 
 ![image](assets/en/55.webp)
 
